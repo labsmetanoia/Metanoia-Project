@@ -233,7 +233,7 @@ n2: System audit || Audit sistem
 n3: Reflection || Refleksi
 n4: Handover || Serah terima
 d0: Every Module 1 to 8 item against the checklist tab: present, gated, dated. || Setiap butir Modul 1 sampai 8 terhadap tab daftar periksa: ada, melewati gerbang, bertanggal.
-d1: End to end, to your Top 1: the tailored CV, the letter in the right format, the pre-flight, the sent email, the tracker row. || Ujung ke ujung, ke Top 1-mu: CV yang disesuaikan, surat dalam format yang tepat, pra-kirim, email terkirim, baris pelacak.
+d1: End to end, to your Top 1: the tailored CV, the letter in the right format, the pre-flight, the sent email, the tracker row. || Ujung ke ujung, ke Top 1-mu: CV yang disesuaikan, surat dalam format yang tepat, pemeriksaan sebelum kirim, email terkirim, baris pelacak.
 d2: The tracker, the follow-up calendar, the verification log, the LinkedIn routine: what is running, what has lapsed. || Pelacak, kalender tindak lanjut, catatan verifikasi, rutinitas LinkedIn: apa yang berjalan, apa yang terhenti.
 d3: 150 to 250 words: what changed in how you apply, and what you would tell the person you were in Module 1. || 150 sampai 250 kata: apa yang berubah dalam caramu melamar, dan apa yang akan kamu katakan kepada dirimu di Modul 1.
 d4: Two stories from the pantry, in the PREP-STAR shape, ready for The Rope’s first session. || Dua cerita dari pantry, dalam bentuk PREP-STAR, siap untuk sesi pertama The Rope.

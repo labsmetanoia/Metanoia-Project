@@ -4956,8 +4956,8 @@ window.MT_LMS['the-pack'] = {
         ],
         "closing": [
          {
-          "en": "Terima kasih, Bu/Pak., Nadia",
-          "id": "Terima kasih, Bu/Pak., Nadia"
+          "en": "Terima kasih, Bu/Pak. Nadia",
+          "id": "Terima kasih, Bu/Pak. Nadia"
          }
         ]
        },
@@ -8076,7 +8076,7 @@ window.MT_LMS['the-pack'] = {
         "n": "2.3",
         "title": {
          "en": "Finding People and Writing the First Message",
-         "id": "Menemukan Orang &amp; Menulis Pesan Pertama"
+         "id": "Menemukan Orang dan Menulis Pesan Pertama"
         }
        },
        "story": [
@@ -12178,11 +12178,11 @@ window.MT_LMS['the-pack'] = {
    },
    "overview": {
     "en": "The CV is the one selection step the candidate fully controls, and the one with the strongest research base: controlled studies with real recruiters show which features raise and lower shortlisting. This module rebuilds yours from the evidence up. How it is read, what the advertisement really asks for, the evidence you already have, bullets that prove, the local decisions, and a tailoring workflow that takes twenty minutes.",
-    "id": "CV adalah satu-satunya tahap seleksi yang sepenuhnya dikendalikan kandidat, dan yang punya dasar penelitian terkuat: studi terkontrol dengan perekrut sungguhan menunjukkan fitur mana yang menaikkan dan menurunkan peluang masuk daftar pendek. Modul ini membangun ulang CV-mu dari bukti ke atas. Bagaimana ia dibaca, apa yang sebenarnya diminta iklan, bukti yang sudah kamu punya, butir yang membuktikan, keputusan lokal, dan alur penyesuaian yang memakan dua puluh menit."
+    "id": "CV adalah satu-satunya tahap seleksi yang sepenuhnya ada di tanganmu, sekaligus tahap dengan dasar penelitian paling kuat: studi terkontrol dengan perekrut sungguhan menunjukkan hal-hal apa saja yang menaikkan dan menurunkan peluang masuk daftar pendek. Modul ini membangun ulang CV-mu mulai dari buktinya: bagaimana CV dibaca, apa yang sebenarnya diminta iklan, bukti yang sudah kamu punya, butir yang membuktikan, keputusan-keputusan lokal, dan cara menyesuaikan CV dalam dua puluh menit."
    },
    "outcome": {
     "en": "By the end of this module you can analyse a job advertisement for explicit and implied requirements; build an evidence inventory from your academic, organisational, work and community history; write achievement bullets and evidenced competency statements that pass the fit rule; make each market-specific CV decision (photo, GPA, personal details) deliberately; and produce a master CV plus a tailored version in under twenty minutes.",
-    "id": "Di akhir modul ini kamu bisa menganalisis iklan lowongan untuk persyaratan eksplisit dan tersirat; membangun inventaris bukti dari riwayat akademik, organisasi, kerja, dan masyarakatmu; menulis butir pencapaian dan pernyataan kompetensi berbukti yang lolos aturan kecocokan; mengambil setiap keputusan CV khas Indonesia (foto, IPK, data pribadi) dengan sengaja; dan menghasilkan CV induk plus versi yang disesuaikan dalam waktu kurang dari dua puluh menit."
+    "id": "Di akhir modul ini kamu bisa membedah iklan lowongan untuk menemukan syarat yang tertulis maupun yang tersirat; menyusun inventaris bukti dari riwayat akademik, organisasi, kerja, dan kegiatan masyarakatmu; menulis butir pencapaian dan pernyataan kompetensi berbukti yang lolos Aturan Kecocokan; mengambil setiap keputusan CV yang khas pasar lokal (foto, IPK, data pribadi) dengan sengaja; dan menghasilkan satu CV induk plus versi yang disesuaikan dalam waktu kurang dari dua puluh menit."
    },
    "lessons": [
     {
@@ -12199,24 +12199,24 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "Before rewriting anything, you need to know how CVs are actually read and judged. This lesson summarises what controlled studies with real recruiters found, and introduces the one editing rule the rest of the module depends on.",
-      "id": "Sebelum menulis ulang apa pun, kamu perlu tahu bagaimana CV sebenarnya dibaca dan dinilai. Pelajaran ini merangkum temuan studi terkontrol dengan perekrut sungguhan, dan memperkenalkan satu aturan penyuntingan yang menjadi tumpuan seluruh modul."
+      "id": "Sebelum menulis ulang apa pun, kamu perlu tahu bagaimana CV sebenarnya dibaca dan dinilai. Pelajaran ini merangkum temuan studi terkontrol dengan perekrut sungguhan, lalu memperkenalkan satu aturan menyunting yang menjadi pegangan seluruh modul."
      },
      "objectives": [
       {
        "en": "Describe how long a first read takes and where the reader’s eye goes.",
-       "id": "Menggambarkan berapa lama pembacaan pertama berlangsung dan ke mana mata pembaca pergi."
+       "id": "Menggambarkan berapa lama pembacaan pertama berlangsung dan ke mana mata pembaca tertuju."
       },
       {
        "en": "State four research findings about what raises or lowers shortlisting, with their dates.",
-       "id": "Menyebutkan empat temuan penelitian tentang apa yang menaikkan atau menurunkan peluang masuk daftar pendek, beserta tahunnya."
+       "id": "Menyebutkan empat temuan penelitian tentang apa yang menaikkan atau menurunkan peluang masuk daftar pendek, lengkap dengan tahunnya."
       },
       {
        "en": "Apply the <b>Fit Rule</b> to decide whether any line stays or goes.",
-       "id": "Menerapkan <b>Aturan Kecocokan</b> untuk memutuskan apakah sebuah baris tetap atau dibuang."
+       "id": "Menerapkan <b>Aturan Kecocokan</b> untuk memutuskan apakah sebuah baris dipertahankan atau dibuang."
       },
       {
        "en": "Recognise the modesty barrier and how it affects your own writing.",
-       "id": "Mengenali penghalang kerendahan hati dan pengaruhnya pada tulisanmu sendiri."
+       "id": "Mengenali tembok rasa sungkan dan pengaruhnya pada caramu menulis tentang diri sendiri."
       }
      ],
      "readFirst": {
@@ -12236,44 +12236,44 @@ window.MT_LMS['the-pack'] = {
        "story": [
         {
          "en": "The CV is a fit argument, not a biography; every line either raises fit for this job, or it goes",
-         "id": "CV adalah argumen kecocokan, bukan biografi; setiap baris entah menaikkan kecocokan untuk pekerjaan ini, atau dibuang"
+         "id": "CV adalah argumen kecocokan, bukan riwayat hidup: setiap baris menaikkan kecocokanmu untuk pekerjaan ini, atau dibuang"
         },
         {
          "en": "In controlled studies the same person described by results was rated far more highly than when described by duties",
-         "id": "Dalam studi terkontrol, orang yang sama yang digambarkan lewat hasil dinilai jauh lebih tinggi daripada lewat tugas"
+         "id": "Dalam studi terkontrol, orang yang sama dinilai jauh lebih tinggi saat digambarkan lewat hasil, bukan lewat tugas"
         },
         {
          "en": "Evidence beats adjectives: a claim is forgotten, a specific recent story is believed",
-         "id": "Bukti mengalahkan kata sifat: klaim dilupakan, cerita spesifik yang baru terjadi dipercaya"
+         "id": "Bukti mengalahkan kata sifat: klaim mudah dilupakan, cerita nyata yang baru terjadi lebih dipercaya"
         },
         {
          "en": "You have more evidence than you think: for graduates, academic, work and extracurricular evidence are weighed together",
-         "id": "Kamu punya lebih banyak bukti daripada yang kamu kira: untuk lulusan baru, bukti akademik, kerja, dan ekstrakurikuler ditimbang bersama"
+         "id": "Buktimu lebih banyak dari dugaanmu: bagi lulusan baru, bukti akademik, kerja, dan kegiatan di luar kuliah ditimbang bersama"
         },
         {
          "en": "One master, many tailored copies: build the evidence once, aim it many times",
-         "id": "Satu induk, banyak salinan yang disesuaikan: bangun buktinya sekali, bidikkan berkali-kali"
+         "id": "Satu CV induk, banyak salinan yang disesuaikan: susun buktinya sekali, bidikkan berkali-kali"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "The CV is a fit argument, not a biography",
-          "id": "CV adalah argumen kecocokan, bukan biografi"
+          "id": "CV adalah argumen kecocokan, bukan riwayat hidup"
          },
          "p": {
           "en": "Attention concentrates on the top of the page and the first words of each line; put the proof where the eye goes.",
-          "id": "Perhatian terpusat di bagian atas halaman dan kata pertama tiap baris; letakkan bukti di tempat mata pergi."
+          "id": "Perhatian pembaca berkumpul di bagian atas halaman dan kata-kata pertama setiap baris; taruh buktimu di tempat mata mendarat."
          }
         },
         {
          "h": {
           "en": "Achievements beat duties",
-          "id": "Pencapaian mengalahkan tugas"
+          "id": "Pencapaian mengalahkan daftar tugas"
          },
          "p": {
           "en": "“Responsible for” is the weakest opener a bullet can have; evidenced competency statements were the single strongest addition in the research.",
-          "id": "“Bertanggung jawab atas” adalah pembuka terlemah sebuah butir; pernyataan kompetensi berbukti adalah tambahan tunggal terkuat dalam penelitian."
+          "id": "“Bertanggung jawab atas” adalah pembuka butir yang paling lemah; dalam penelitian, pernyataan kompetensi berbukti adalah tambahan yang paling ampuh."
          }
         },
         {
@@ -12283,27 +12283,27 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "None of the reasons to reject is about talent; all are fixable in an afternoon, which is why the module ends with a ten-question gate.",
-          "id": "Tak satu pun alasan penolakan itu soal bakat; semuanya bisa diperbaiki dalam satu sore, itulah mengapa modul berakhir dengan gerbang sepuluh pertanyaan."
+          "id": "Tidak satu pun alasan penolakan ini soal bakat; semuanya bisa diperbaiki dalam satu sore, dan karena itulah modul ini ditutup dengan gerbang sepuluh pertanyaan."
          }
         },
         {
          "h": {
           "en": "You have more evidence than you think",
-          "id": "Kamu punya lebih banyak bukti daripada yang kamu kira"
+          "id": "Buktimu lebih banyak dari yang kamu kira"
          },
          "p": {
           "en": "It belongs in a proper section with achievement bullets, not in a line at the bottom called “activities”.",
-          "id": "Tempatnya di bagian yang layak dengan butir pencapaian, bukan satu baris di bawah bernama “kegiatan”."
+          "id": "Tempatnya di bagian tersendiri dengan butir pencapaian, bukan satu baris di bagian bawah berjudul “kegiatan”."
          }
         },
         {
          "h": {
           "en": "One master, many tailored copies",
-          "id": "Satu induk, banyak salinan yang disesuaikan"
+          "id": "Satu CV induk, banyak salinan yang disesuaikan"
          },
          "p": {
           "en": "The CV is written last; everything before it is gathering and aiming.",
-          "id": "CV ditulis paling akhir; semua sebelumnya adalah mengumpulkan dan membidik."
+          "id": "CV ditulis paling akhir; semua langkah sebelumnya adalah mengumpulkan dan membidik."
          }
         }
        ],
@@ -12312,33 +12312,33 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "The CV is a fit argument, not a biography; every line either raises fit for this job, or it goes",
-          "id": "CV adalah argumen kecocokan, bukan biografi; setiap baris entah menaikkan kecocokan untuk pekerjaan ini, atau dibuang"
+          "id": "CV adalah argumen kecocokan, bukan riwayat hidup: setiap baris menaikkan kecocokanmu untuk pekerjaan ini, atau dibuang"
          },
          "cols": [
           {
            "l": {
             "en": "A biography",
-            "id": "Biografi"
+            "id": "Riwayat hidup"
            },
            "d": {
             "en": "Lists your life in full",
-            "id": "Mendaftar hidupmu selengkapnya"
+            "id": "Menceritakan hidupmu dari awal sampai akhir"
            },
            "items": [
             {
              "icon": "list",
              "en": "Every role, every duty, in the order they happened",
-             "id": "Setiap peran, setiap tugas, dalam urutan kejadian"
+             "id": "Semua peran, semua tugas, berurutan sesuai waktu"
             },
             {
              "icon": "search",
              "en": "The reader hunts for the target role and the requirements",
-             "id": "Pembaca mencari-cari peran sasaran dan persyaratannya"
+             "id": "Pembaca harus mencari-cari posisi sasaran dan persyaratannya"
             },
             {
              "icon": "x",
              "en": "Rarely maximises fit for any one job",
-             "id": "Jarang memaksimalkan kecocokan untuk satu pekerjaan pun"
+             "id": "Jarang benar-benar cocok untuk satu pekerjaan tertentu"
             }
            ],
            "icon": "book"
@@ -12350,7 +12350,7 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "Shaped to the job",
-            "id": "Dibentuk untuk pekerjaan"
+            "id": "Dibentuk untuk satu pekerjaan"
            },
            "items": [
             {
@@ -12361,12 +12361,12 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "layers",
              "en": "Knowledge, skills, abilities, attitudes: the four dimensions employers judge fit on",
-             "id": "Pengetahuan, keterampilan, kemampuan, sikap: empat dimensi penilaian kecocokan"
+             "id": "Pengetahuan, keterampilan, kemampuan, sikap: empat hal yang dinilai perusahaan untuk mengukur kecocokan"
             },
             {
              "icon": "filter",
              "en": "Every line passes the Fit Rule or is cut",
-             "id": "Setiap baris lolos Aturan Kecocokan atau dipangkas"
+             "id": "Setiap baris lolos Aturan Kecocokan, atau dipangkas"
             }
            ],
            "icon": "target"
@@ -12377,22 +12377,22 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "The first decision, keep or discard, happens in well under a minute; the top half of page one does most of the work.",
-          "id": "Keputusan pertama, simpan atau buang, terjadi jauh di bawah satu menit; separuh atas halaman pertama mengerjakan sebagian besar tugasnya."
+          "id": "Keputusan pertama, lanjut atau tidak, diambil dalam waktu jauh kurang dari satu menit; separuh atas halaman pertama yang paling menentukan."
          },
          "band": {
           "en": "Attention concentrates on the top of the page and the first words of each line; put the proof where the eye goes.",
-          "id": "Perhatian terpusat di bagian atas halaman dan kata pertama tiap baris; letakkan bukti di tempat mata pergi."
+          "id": "Perhatian pembaca berkumpul di bagian atas halaman dan kata-kata pertama setiap baris; taruh buktimu di tempat mata mendarat."
          },
          "em": {
           "en": "a fit argument, not a biography",
-          "id": "argumen kecocokan, bukan biografi"
+          "id": "argumen kecocokan, bukan riwayat hidup"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "In controlled studies the same person described by results was rated far more highly than when described by duties",
-          "id": "Dalam studi terkontrol, orang yang sama yang digambarkan lewat hasil dinilai jauh lebih tinggi daripada lewat tugas"
+          "id": "Dalam studi terkontrol, orang yang sama dinilai jauh lebih tinggi saat digambarkan lewat hasil, bukan lewat tugas"
          },
          "cols": [
           {
@@ -12402,7 +12402,7 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "What every applicant could write",
-            "id": "Yang bisa ditulis setiap pelamar"
+            "id": "Yang bisa ditulis semua pelamar"
            },
            "items": [
             {
@@ -12436,17 +12436,17 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "calc",
              "en": "“Reconciled daily reports for 3 branches; traced a recurring mismatch to one terminal”",
-             "id": "“Merekonsiliasi laporan harian 3 cabang; melacak selisih berulang ke satu terminal”"
+             "id": "“Merekonsiliasi laporan harian 3 cabang; menelusuri selisih berulang sampai ke satu terminal”"
             },
             {
              "icon": "trophy",
              "en": "“Secured 4 of the team’s 11 sponsors; drafted the tiered package the team pitched”",
-             "id": "“Mendapatkan 4 dari 11 sponsor tim; menyusun paket bertingkat yang dipresentasikan tim”"
+             "id": "“Mendapatkan 4 dari 11 sponsor tim; menyusun paket bertingkat yang ditawarkan tim”"
             },
             {
              "icon": "mic",
              "en": "A sentence showing you communicating, with a setting and a result",
-             "id": "Kalimat yang menunjukkanmu berkomunikasi, dengan latar dan hasil"
+             "id": "Kalimat yang memperlihatkan kamu berkomunikasi, lengkap dengan situasi dan hasilnya"
             }
            ],
            "icon": "check"
@@ -12457,11 +12457,11 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "J. Bright and J. Earl, How to Write a Brilliant CV: real recruiters shortlisted CVs that differed in one feature only; learn the direction of each effect, not the exact percentages.",
-          "id": "J. Bright dan J. Earl, How to Write a Brilliant CV: perekrut sungguhan menyeleksi CV yang berbeda hanya satu fitur; pelajari arah tiap efek, bukan persentase persisnya."
+          "id": "J. Bright dan J. Earl, How to Write a Brilliant CV: perekrut sungguhan menyaring CV yang hanya berbeda satu ciri; pegang arah tiap temuan, bukan angka persisnya."
          },
          "band": {
           "en": "“Responsible for” is the weakest opener a bullet can have; evidenced competency statements were the single strongest addition in the research.",
-          "id": "“Bertanggung jawab atas” adalah pembuka terlemah sebuah butir; pernyataan kompetensi berbukti adalah tambahan tunggal terkuat dalam penelitian."
+          "id": "“Bertanggung jawab atas” adalah pembuka butir yang paling lemah; dalam penelitian, pernyataan kompetensi berbukti adalah tambahan yang paling ampuh."
          },
          "em": {
           "en": "described by results",
@@ -12472,72 +12472,72 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Evidence beats adjectives: a claim is forgotten, a specific recent story is believed",
-          "id": "Bukti mengalahkan kata sifat: klaim dilupakan, cerita spesifik yang baru terjadi dipercaya"
+          "id": "Bukti mengalahkan kata sifat: klaim mudah dilupakan, cerita nyata yang baru terjadi lebih dipercaya"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "pen",
            "en": "Spelling errors",
-           "id": "Kesalahan ejaan",
+           "id": "Salah ketik",
            "d": {
             "en": "The most-cited single eliminator, read as carelessness.",
-            "id": "Penggugur tunggal yang paling sering disebut, dibaca sebagai kecerobohan."
+            "id": "Penyebab gugur yang paling sering disebut, karena terkesan ceroboh."
            }
           },
           {
            "icon": "mail",
            "en": "An unprofessional email address",
-           "id": "Alamat surel tak profesional",
+           "id": "Alamat email yang kurang serius",
            "d": {
             "en": "Says whether you are an adult before a word is read.",
-            "id": "Menunjukkan apakah kamu dewasa sebelum satu kata pun dibaca."
+            "id": "Sudah menilai kedewasaanmu sebelum satu kata pun dibaca."
            }
           },
           {
            "icon": "search",
            "en": "A hunt for the target role",
-           "id": "Pencarian peran sasaran",
+           "id": "Posisi sasaran yang harus dicari-cari",
            "d": {
             "en": "If the reader cannot see what you are applying for, the read ends.",
-            "id": "Jika pembaca tak bisa melihat yang kamu lamar, bacaannya berakhir."
+            "id": "Kalau pembaca tidak tahu posisi apa yang kamu lamar, ia berhenti membaca."
            }
           },
           {
            "icon": "grid",
            "en": "Walls of text and unusual layouts",
-           "id": "Tembok teks dan tata letak tak lazim",
+           "id": "Teks padat dan tata letak yang aneh",
            "d": {
             "en": "The F-shaped skim finds nothing to hold on to.",
-            "id": "Pindaian berbentuk F tak menemukan pegangan."
+            "id": "Mata yang memindai berpola F tidak menemukan pegangan."
            }
           },
           {
            "icon": "person",
            "en": "Irrelevant personal details",
-           "id": "Detail pribadi tak relevan",
+           "id": "Data pribadi yang tidak relevan",
            "d": {
             "en": "Space spent on what cannot raise fit.",
-            "id": "Ruang yang dihabiskan untuk yang tak bisa menaikkan kecocokan."
+            "id": "Ruang terbuang untuk hal yang tidak menaikkan kecocokan."
            }
           },
           {
            "icon": "warn",
            "en": "Skills claimed but not shown",
-           "id": "Keterampilan diklaim tapi tak ditunjukkan",
+           "id": "Keterampilan diklaim tapi tidak dibuktikan",
            "d": {
             "en": "A claim with no sentence behind it.",
-            "id": "Klaim tanpa kalimat di baliknya."
+            "id": "Klaim tanpa satu kalimat bukti pun."
            }
           }
          ],
          "sub": {
           "en": "The modesty barrier holds self-description well inside the real record; a CV is not boasting, it is evidence a recruiter cannot hire without.",
-          "id": "Penghalang kerendahan hati menahan gambaran diri jauh di dalam rekam nyata; CV bukan kesombongan, melainkan bukti yang tanpanya perekrut tak bisa merekrut."
+          "id": "Tembok rasa sungkan membuat orang menggambarkan dirinya jauh di bawah kenyataan; CV bukan ajang pamer, melainkan bukti yang dibutuhkan perekrut untuk bisa merekrutmu."
          },
          "band": {
           "en": "None of the reasons to reject is about talent; all are fixable in an afternoon, which is why the module ends with a ten-question gate.",
-          "id": "Tak satu pun alasan penolakan itu soal bakat; semuanya bisa diperbaiki dalam satu sore, itulah mengapa modul berakhir dengan gerbang sepuluh pertanyaan."
+          "id": "Tidak satu pun alasan penolakan ini soal bakat; semuanya bisa diperbaiki dalam satu sore, dan karena itulah modul ini ditutup dengan gerbang sepuluh pertanyaan."
          },
          "em": {
           "en": "Evidence beats adjectives",
@@ -12548,7 +12548,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "You have more evidence than you think: for graduates, academic, work and extracurricular evidence are weighed together",
-          "id": "Kamu punya lebih banyak bukti daripada yang kamu kira: untuk lulusan baru, bukti akademik, kerja, dan ekstrakurikuler ditimbang bersama"
+          "id": "Buktimu lebih banyak dari dugaanmu: bagi lulusan baru, bukti akademik, kerja, dan kegiatan di luar kuliah ditimbang bersama"
          },
          "layout": "grid",
          "items": [
@@ -12558,7 +12558,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Organisasi",
            "d": {
             "en": "A treasurer who rebuilt an organisation’s books is evidence, not a hobby.",
-            "id": "Bendahara yang membangun ulang pembukuan organisasi adalah bukti, bukan hobi."
+            "id": "Bendahara yang membenahi pembukuan organisasi adalah bukti, bukan hobi."
            },
            "img": "../../assets/pe/th-stakeholders.jpg"
           },
@@ -12568,7 +12568,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kepanitiaan",
            "d": {
             "en": "A sponsorship head who raised Rp 85 juta.",
-            "id": "Kepala sponsorship yang menghimpun Rp 85 juta."
+            "id": "Ketua divisi sponsor yang menggalang Rp 85 juta."
            },
            "img": "../../assets/bg/negotiation.jpg"
           },
@@ -12578,7 +12578,7 @@ window.MT_LMS['the-pack'] = {
            "id": "KKN",
            "d": {
             "en": "A student who ran a financial-literacy workshop that did not exist before.",
-            "id": "Mahasiswa yang menjalankan lokakarya literasi keuangan yang sebelumnya tidak ada."
+            "id": "Mahasiswa yang mengadakan lokakarya literasi keuangan yang sebelumnya belum pernah ada."
            },
            "img": "../../assets/bg/rope-team.jpg"
           },
@@ -12588,7 +12588,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kerja paruh waktu",
            "d": {
             "en": "120–150 customers a shift for 14 months alongside a full course load.",
-            "id": "120–150 pelanggan per shift selama 14 bulan di samping beban kuliah penuh."
+            "id": "120–150 pelanggan per sif selama 14 bulan, sambil menjalani kuliah penuh."
            },
            "img": "../../assets/bg/early-professional.jpg"
           },
@@ -12598,7 +12598,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Proyek dan lomba",
            "d": {
             "en": "A thesis on inventory turnover; a competition deck that won sponsors.",
-            "id": "Skripsi tentang perputaran persediaan; dek kompetisi yang memenangkan sponsor."
+            "id": "Skripsi tentang perputaran persediaan; materi lomba yang berhasil menarik sponsor."
            },
            "img": "../../assets/pe/ed-startup.jpg"
           }
@@ -12609,7 +12609,7 @@ window.MT_LMS['the-pack'] = {
          },
          "band": {
           "en": "It belongs in a proper section with achievement bullets, not in a line at the bottom called “activities”.",
-          "id": "Tempatnya di bagian yang layak dengan butir pencapaian, bukan satu baris di bawah bernama “kegiatan”."
+          "id": "Tempatnya di bagian tersendiri dengan butir pencapaian, bukan satu baris di bagian bawah berjudul “kegiatan”."
          },
          "em": {
           "en": "weighed together",
@@ -12620,7 +12620,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "One master, many tailored copies: build the evidence once, aim it many times",
-          "id": "Satu induk, banyak salinan yang disesuaikan: bangun buktinya sekali, bidikkan berkali-kali"
+          "id": "Satu CV induk, banyak salinan yang disesuaikan: susun buktinya sekali, bidikkan berkali-kali"
          },
          "img": "../../assets/pe/ed-writing.jpg",
          "layout": "flow",
@@ -12628,10 +12628,10 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "search",
            "en": "3.2 Job detective",
-           "id": "3.2 Detektif lowongan",
+           "id": "3.2 Membedah lowongan",
            "d": {
             "en": "Seven questions for an advertisement; a keyword table from five.",
-            "id": "Tujuh pertanyaan untuk sebuah iklan; tabel kata kunci dari lima."
+            "id": "Tujuh pertanyaan untuk satu iklan; tabel kata kunci dari lima iklan."
            }
           },
           {
@@ -12640,13 +12640,13 @@ window.MT_LMS['the-pack'] = {
            "id": "3.3 Lemari bukti",
            "d": {
             "en": "Three inventories, a partner interview, four verbs.",
-            "id": "Tiga inventaris, wawancara pasangan, empat kata kerja."
+            "id": "Tiga inventaris, wawancara bersama rekan, empat kata kerja."
            }
           },
           {
            "icon": "pen",
            "en": "3.4 Bullets that prove",
-           "id": "3.4 Poin yang membuktikan",
+           "id": "3.4 Butir yang membuktikan",
            "d": {
             "en": "Verb, what, scale, result; evidenced competency statements.",
             "id": "Kata kerja, apa, skala, hasil; pernyataan kompetensi berbukti."
@@ -12655,7 +12655,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "layers",
            "en": "3.5 Architecture",
-           "id": "3.5 Struktur",
+           "id": "3.5 Susunan CV",
            "d": {
             "en": "One page, the profile, the local decisions.",
             "id": "Satu halaman, profil, keputusan lokal."
@@ -12667,7 +12667,7 @@ window.MT_LMS['the-pack'] = {
            "id": "3.6 Alur penyesuaian",
            "d": {
             "en": "Master, cluster, tailored; twenty minutes; ten questions.",
-            "id": "Induk, rumpun, tersesuaikan; dua puluh menit; sepuluh pertanyaan."
+            "id": "Induk, rumpun, disesuaikan; dua puluh menit; sepuluh pertanyaan."
            }
           },
           {
@@ -12676,21 +12676,21 @@ window.MT_LMS['the-pack'] = {
            "id": "3.7 Bangun ulang",
            "d": {
             "en": "Nadia’s CV for Arunika, then yours.",
-            "id": "CV Nadia untuk Arunika, lalu milikmu."
+            "id": "CV Nadia untuk Arunika, lalu CV-mu."
            }
           }
          ],
          "sub": {
           "en": "By Lesson 3.7 you will have rebuilt Nadia’s CV for a real advertisement, then your own.",
-          "id": "Pada Pelajaran 3.7 kamu sudah membangun ulang CV Nadia untuk iklan nyata, lalu CV-mu sendiri."
+          "id": "Di Pelajaran 3.7, kamu sudah membangun ulang CV Nadia untuk iklan sungguhan, lalu CV-mu sendiri."
          },
          "band": {
           "en": "The CV is written last; everything before it is gathering and aiming.",
-          "id": "CV ditulis paling akhir; semua sebelumnya adalah mengumpulkan dan membidik."
+          "id": "CV ditulis paling akhir; semua langkah sebelumnya adalah mengumpulkan dan membidik."
          },
          "em": {
           "en": "build the evidence once, aim it many times",
-          "id": "bangun buktinya sekali, bidikkan berkali-kali"
+          "id": "susun buktinya sekali, bidikkan berkali-kali"
          }
         }
        ],
@@ -12709,38 +12709,38 @@ window.MT_LMS['the-pack'] = {
       },
       "intro": {
        "en": "Five ideas frame the module. Each of the six lessons that follow unpacks one or two of them.",
-       "id": "Lima gagasan membingkai modul ini. Setiap dari enam pelajaran berikutnya membedah satu atau dua di antaranya."
+       "id": "Lima gagasan menjadi bingkai modul ini. Enam pelajaran berikutnya masing-masing membedah satu atau dua di antaranya."
       },
       "slides": [
        {
         "h": {
          "en": "The CV is a fit argument, not a biography",
-         "id": "CV adalah argumen kecocokan, bukan biografi"
+         "id": "CV adalah argumen kecocokan, bukan riwayat hidup"
         },
         "points": [
          {
           "en": "Every line either raises the reader’s sense that you fit <i>this</i> job, or it goes.",
-          "id": "Setiap baris entah menaikkan kesan pembaca bahwa kamu cocok untuk pekerjaan <i>ini</i>, atau dibuang."
+          "id": "Setiap baris harus memperkuat kesan bahwa kamu cocok untuk pekerjaan <i>ini</i>; kalau tidak, buang."
          },
          {
           "en": "A CV that lists your life in full rarely maximises fit; one shaped to the job usually does.",
-          "id": "CV yang mendaftar hidupmu selengkapnya jarang memaksimalkan kecocokan; yang dibentuk untuk pekerjaan biasanya iya."
+          "id": "CV yang memuat seluruh perjalanan hidupmu jarang menonjolkan kecocokan; CV yang dibentuk untuk pekerjaannya biasanya berhasil."
          }
         ]
        },
        {
         "h": {
          "en": "Achievements beat duties",
-         "id": "Pencapaian mengalahkan tugas"
+         "id": "Pencapaian mengalahkan daftar tugas"
         },
         "points": [
          {
           "en": "In controlled studies, the same person described by results was rated far more highly than when described by responsibilities.",
-          "id": "Dalam studi terkontrol, orang yang sama yang digambarkan lewat hasil dinilai jauh lebih tinggi daripada saat digambarkan lewat tanggung jawab."
+          "id": "Dalam studi terkontrol, orang yang sama dinilai jauh lebih tinggi ketika digambarkan lewat hasil kerjanya daripada lewat tanggung jawabnya."
          },
          {
           "en": "“Responsible for” is the weakest opener a bullet can have.",
-          "id": "“Bertanggung jawab atas” adalah pembuka terlemah yang bisa dimiliki sebuah butir."
+          "id": "“Bertanggung jawab atas” adalah pembuka paling lemah untuk sebuah butir."
          }
         ]
        },
@@ -12752,43 +12752,43 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "“Excellent communication skills” is a claim. A sentence showing you communicating is evidence.",
-          "id": "“Kemampuan komunikasi yang sangat baik” adalah klaim. Kalimat yang menunjukkanmu berkomunikasi adalah bukti."
+          "id": "“Kemampuan komunikasi yang sangat baik” itu klaim. Kalimat yang memperlihatkan kamu sedang berkomunikasi, itu bukti."
          },
          {
           "en": "Evidenced competency statements were the single strongest addition in the research.",
-          "id": "Pernyataan kompetensi berbukti adalah tambahan tunggal terkuat dalam penelitian."
+          "id": "Pernyataan kompetensi berbukti adalah tambahan paling ampuh dalam penelitian itu."
          }
         ]
        },
        {
         "h": {
          "en": "You have more evidence than you think",
-         "id": "Kamu punya lebih banyak bukti daripada yang kamu kira"
+         "id": "Buktimu lebih banyak dari yang kamu kira"
         },
         "points": [
          {
           "en": "Organisations, committees, community service, part-time work, projects and competitions all count.",
-          "id": "Organisasi, kepanitiaan, KKN, kerja paruh waktu, proyek, dan lomba semuanya dihitung."
+          "id": "Organisasi, kepanitiaan, KKN, kerja paruh waktu, proyek, dan lomba, semuanya dihitung."
          },
          {
           "en": "For graduates, recruiters weigh academic, work and extracurricular evidence together.",
-          "id": "Untuk lulusan baru, perekrut menimbang bukti akademik, kerja, dan ekstrakurikuler bersama-sama."
+          "id": "Untuk lulusan baru, perekrut menimbang bukti akademik, kerja, dan kegiatan di luar kuliah secara bersamaan."
          }
         ]
        },
        {
         "h": {
          "en": "One master, many tailored copies",
-         "id": "Satu induk, banyak salinan yang disesuaikan"
+         "id": "Satu CV induk, banyak salinan yang disesuaikan"
         },
         "points": [
          {
           "en": "Build the evidence once; aim it many times.",
-          "id": "Bangun buktinya sekali; bidikkan berkali-kali."
+          "id": "Kumpulkan buktinya sekali; bidikkan berkali-kali."
          },
          {
           "en": "By Lesson 3.7 you will have rebuilt Nadia’s CV for a real advertisement, then your own.",
-          "id": "Pada Pelajaran 3.7 kamu sudah membangun ulang CV Nadia untuk sebuah iklan nyata, lalu CV-mu sendiri."
+          "id": "Di Pelajaran 3.7 kamu sudah membangun ulang CV Nadia untuk sebuah iklan sungguhan, lalu CV-mu sendiri."
          }
         ]
        }
@@ -12801,56 +12801,56 @@ window.MT_LMS['the-pack'] = {
        "imgPos": "center 40%",
        "h": {
         "en": "The first read is short",
-        "id": "Pembacaan pertama itu singkat"
+        "id": "Pembacaan pertama itu sebentar sekali"
        },
        "body": {
         "en": "The practitioner books agree that the first decision, keep or discard, happens in well under a minute: estimates range from around twenty seconds to a minute or two <i>(Innes, The CV Book, ch. 1; Knowles, How to Write an Outstanding CV, ch. 1; Bright &amp; Earl, How to Write a Brilliant CV, ch. 1)</i>. An eye-tracking study by a jobs site put the first skim at about seven seconds, with attention concentrated on the top of the page and the left-hand words of each line, an “F-shaped” pattern <span class=\"ev ev-dated\">Dated · 2018 study, cited by Ow</span>. The practical conclusion is shared across every source: <b>the top half of page one does most of the work</b>, and the first words of each line matter more than the last.",
-        "id": "Buku-buku praktisi sepakat bahwa keputusan pertama, simpan atau buang, terjadi jauh di bawah satu menit: perkiraannya berkisar dari sekitar dua puluh detik sampai satu atau dua menit <i>(Innes, The CV Book, bab 1; Knowles, How to Write an Outstanding CV, bab 1; Bright &amp; Earl, How to Write a Brilliant CV, bab 1)</i>. Sebuah studi pelacakan mata oleh situs lowongan memperkirakan pindaian pertama sekitar tujuh detik, dengan perhatian terpusat di bagian atas halaman dan kata-kata paling kiri setiap baris, pola “berbentuk F” <span class=\"ev ev-dated\">Lawas · studi 2018, dikutip Ow</span>. Kesimpulan praktisnya sama di setiap sumber: <b>separuh atas halaman pertama melakukan sebagian besar pekerjaan</b>, dan kata-kata pertama setiap baris lebih penting daripada kata-kata terakhirnya."
+        "id": "Buku-buku para praktisi sepakat bahwa keputusan pertama, disimpan atau dibuang, terjadi jauh di bawah satu menit: perkiraannya berkisar dari sekitar dua puluh detik sampai satu atau dua menit <i>(Innes, The CV Book, bab 1; Knowles, How to Write an Outstanding CV, bab 1; Bright &amp; Earl, How to Write a Brilliant CV, bab 1)</i>. Studi pelacakan mata oleh sebuah situs lowongan memperkirakan pindaian pertama hanya sekitar tujuh detik, dengan perhatian terpusat di bagian atas halaman dan kata-kata paling kiri di tiap baris, membentuk pola “huruf F” <span class=\"ev ev-dated\">Lawas · studi 2018, dikutip Ow</span>. Kesimpulan praktisnya sama di semua sumber: <b>separuh atas halaman pertama memikul sebagian besar beban</b>, dan kata-kata di awal baris jauh lebih penting daripada kata-kata di ujungnya."
        },
        "key": {
         "en": "The keep-or-discard decision takes well under a minute, so the top half of the page has to carry the argument.",
-        "id": "Keputusan simpan atau buang terjadi jauh di bawah satu menit, jadi separuh atas halaman harus memikul argumennya."
+        "id": "Keputusan disimpan atau dibuang terjadi jauh di bawah satu menit, jadi separuh atas halaman harus memikul argumenmu."
        }
       },
       {
        "icon": "chart",
        "h": {
         "en": "What the experiments found",
-        "id": "Apa yang ditemukan eksperimen"
+        "id": "Apa yang ditemukan lewat eksperimen"
        },
        "body": {
         "en": "Jim Bright and Joanne Earl, organisational psychologists, ran a series of studies in which real recruiters shortlisted CVs that differed in one feature only. Their findings are the most useful evidence in this field <span class=\"ev ev-dated\">Dated · mostly 2000s, UK and Australian recruiters, paper CVs</span>; teach yourself the <i>direction</i> of each effect, not the exact percentages.",
-        "id": "Jim Bright dan Joanne Earl, psikolog organisasi, menjalankan serangkaian studi ketika perekrut sungguhan menyusun daftar pendek dari CV-CV yang hanya berbeda pada satu fitur. Temuan mereka adalah bukti paling berguna di bidang ini <span class=\"ev ev-dated\">Lawas · sebagian besar 2000-an, perekrut Inggris dan Australia, CV kertas</span>; pelajari <i>arah</i> setiap efek, bukan persentase tepatnya."
+        "id": "Jim Bright dan Joanne Earl, dua psikolog organisasi, menjalankan serangkaian studi: perekrut sungguhan diminta menyusun daftar pendek dari CV-CV yang hanya berbeda pada satu hal. Temuan mereka adalah bukti paling berguna di bidang ini <span class=\"ev ev-dated\">Lawas · sebagian besar 2000-an, perekrut Inggris dan Australia, CV kertas</span>. Pegang <i>arah</i> setiap temuannya, bukan persentase persisnya."
        },
        "bullets": [
         {
          "en": "<b>Achievements beat duties.</b> Two CVs identical except that one described responsibilities and the other accomplishments: the accomplishment version was rated much more highly <i>(Bright &amp; Earl, ch. 6, 8)</i>.",
-         "id": "<b>Pencapaian mengalahkan tugas.</b> Dua CV yang identik kecuali satu menggambarkan tanggung jawab dan yang lain pencapaian: versi pencapaian dinilai jauh lebih tinggi <i>(Bright &amp; Earl, bab 6, 8)</i>."
+         "id": "<b>Pencapaian mengalahkan daftar tugas.</b> Dua CV yang sama persis, kecuali yang satu menggambarkan tanggung jawab dan yang lain menggambarkan hasil: versi hasil dinilai jauh lebih tinggi <i>(Bright &amp; Earl, bab 6, 8)</i>."
         },
         {
          "en": "<b>Evidenced competency statements raise shortlisting.</b> Adding short statements that name a quality the advertisement asks for and back it with one or two sentences of evidence raised shortlisting substantially, in one case a candidate went from no recruiters wanting to interview to about one in three. Placement did not matter; more statements helped <i>(ch. 11)</i>. This is the single strongest result in the set; Lesson 3.4 teaches it.",
-         "id": "<b>Pernyataan kompetensi berbukti menaikkan peluang daftar pendek.</b> Menambahkan pernyataan singkat yang menyebut kualitas yang diminta iklan dan mendukungnya dengan satu atau dua kalimat bukti menaikkan peluang secara berarti, dalam satu kasus seorang kandidat beranjak dari tidak ada perekrut yang ingin mewawancarai menjadi sekitar satu dari tiga. Penempatan tidak berpengaruh; lebih banyak pernyataan membantu <i>(bab 11)</i>. Ini hasil tunggal terkuat dalam rangkaian itu; Pelajaran 3.4 mengajarkannya."
+         "id": "<b>Pernyataan kompetensi berbukti menaikkan peluang masuk daftar pendek.</b> Menambahkan pernyataan singkat yang menyebut kualitas yang diminta iklan, lalu mendukungnya dengan satu atau dua kalimat bukti, menaikkan peluang secara nyata. Dalam satu kasus, seorang kandidat berubah dari tidak ada satu pun perekrut yang mau mewawancarainya menjadi sekitar satu dari tiga. Letaknya tidak berpengaruh; makin banyak pernyataan, makin membantu <i>(bab 11)</i>. Inilah temuan paling kuat di seluruh rangkaian; Pelajaran 3.4 mengajarkannya."
         },
         {
          "en": "<b>Formal beats creative.</b> A study cited by Bright &amp; Earl found that a formal rather than creative layout almost doubled the chance of shortlisting <i>(Arnulf, Tegner &amp; Larssen, 2010, cited in ch. 9)</i>. Recruiters shown an unusual-looking CV even judged it to contain <i>less</i> information than the same content in a standard format.",
-         "id": "<b>Formal mengalahkan kreatif.</b> Sebuah studi yang dikutip Bright &amp; Earl menemukan tata letak formal, bukan kreatif, hampir menggandakan peluang masuk daftar pendek <i>(Arnulf, Tegner &amp; Larssen, 2010, dikutip di bab 9)</i>. Perekrut yang diperlihatkan CV berpenampilan tidak biasa bahkan menilainya berisi <i>lebih sedikit</i> informasi daripada isi yang sama dalam format standar."
+         "id": "<b>Formal mengalahkan kreatif.</b> Sebuah studi yang dikutip Bright &amp; Earl menemukan bahwa tata letak formal, bukan kreatif, hampir menggandakan peluang masuk daftar pendek <i>(Arnulf, Tegner &amp; Larssen, 2010, dikutip di bab 9)</i>. Perekrut yang disodori CV berpenampilan nyeleneh bahkan menilai CV itu berisi <i>lebih sedikit</i> informasi daripada isi yang sama dalam format standar."
         },
         {
          "en": "<b>Explained gaps are read as honesty.</b> Unexplained gaps, when noticed, made candidates seem less honest; explained gaps made them seem <i>more</i> honest than average <i>(ch. 17)</i>.",
-         "id": "<b>Jeda yang dijelaskan dibaca sebagai kejujuran.</b> Jeda yang tidak dijelaskan, ketika disadari, membuat kandidat tampak kurang jujur; jeda yang dijelaskan membuat mereka tampak <i>lebih</i> jujur dari rata-rata <i>(bab 17)</i>."
+         "id": "<b>Jeda yang dijelaskan dibaca sebagai kejujuran.</b> Jeda waktu yang tidak dijelaskan, begitu disadari, membuat kandidat terkesan kurang jujur; jeda yang dijelaskan justru membuat mereka terkesan <i>lebih</i> jujur dari rata-rata <i>(bab 17)</i>."
         },
         {
          "en": "<b>Objectives help early-career applicants.</b> CVs with a short career objective led recruiters to judge graduates as better suited <i>(ch. 13)</i>.",
-         "id": "<b>Objektif membantu pelamar awal karier.</b> CV dengan objektif karier singkat membuat perekrut menilai lulusan baru lebih cocok <i>(bab 13)</i>."
+         "id": "<b>Tujuan karier membantu pelamar awal karier.</b> CV dengan tujuan karier yang singkat membuat perekrut menilai lulusan baru lebih cocok <i>(bab 13)</i>."
         },
         {
          "en": "<b>Photos invite appearance bias.</b> In a controlled study, attractive candidates were rated more suitable and shortlisted more often for identical CVs <i>(ch. 17)</i>. Lesson 3.5 explains what to do in markets, Indonesia among them, where photos are often expected.",
-         "id": "<b>Foto mengundang bias penampilan.</b> Dalam studi terkontrol, kandidat yang menarik dinilai lebih cocok dan lebih sering masuk daftar pendek untuk CV yang identik <i>(bab 17)</i>. Pelajaran 3.5 menjelaskan apa yang harus dilakukan di Indonesia, tempat foto sering diharapkan."
+         "id": "<b>Foto mengundang bias penampilan.</b> Dalam studi terkontrol, kandidat yang berpenampilan menarik dinilai lebih cocok dan lebih sering masuk daftar pendek, padahal CV-nya sama persis <i>(bab 17)</i>. Pelajaran 3.5 membahas apa yang sebaiknya dilakukan di pasar yang biasa meminta foto, termasuk Indonesia."
         }
        ],
        "key": {
         "en": "Controlled studies agree on direction: results beat duties, evidenced statements raise shortlisting, formal beats creative.",
-        "id": "Studi terkontrol sepakat pada arahnya: hasil mengalahkan tugas, pernyataan berbukti menaikkan peluang masuk daftar pendek, formal mengalahkan kreatif."
+        "id": "Studi terkontrol sepakat soal arahnya: hasil mengalahkan tugas, pernyataan berbukti menaikkan peluang masuk daftar pendek, formal mengalahkan kreatif."
        }
       },
       {
@@ -12861,11 +12861,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "One study cited by Bright &amp; Earl found that when recruiters screen recent graduates, they weigh academic results, work experience and extracurricular activity <i>together</i>, so strength in one can compensate for weakness in another <i>(Cole et al., 2007, cited in ch. 17)</i> <span class=\"ev ev-dated\">One study, 2007</span>. This is the research basis for one of The Pack’s firmest rules: <b>for fresh graduates, organisational, committee and community experience is not a hobby. It is evidence</b>, and it belongs in a proper section with achievement bullets. A treasurer who rebuilt an organisation’s books, a sponsorship head who raised Rp 85 juta, a community-service student who ran a workshop for eighteen business owners: these are work records, and a recruiter screening graduates reads them as such; if the CV lets them.",
-        "id": "Sebuah studi yang dikutip Bright &amp; Earl menemukan bahwa ketika perekrut menyaring lulusan baru, mereka menimbang hasil akademik, pengalaman kerja, dan kegiatan ekstrakurikuler <i>bersama-sama</i>, sehingga kekuatan di satu sisi bisa mengimbangi kelemahan di sisi lain <i>(Cole dkk., 2007, dikutip di bab 17)</i> <span class=\"ev ev-dated\">Satu studi, 2007</span>. Inilah dasar penelitian bagi salah satu aturan paling tegas The Pack: <b>bagi lulusan baru Indonesia, pengalaman organisasi, kepanitiaan, dan masyarakat bukan hobi. Itu bukti</b>, dan tempatnya di bagian yang layak dengan butir pencapaian. Bendahara yang membangun ulang pembukuan organisasi, kepala sponsorship yang mengumpulkan Rp 85 juta, mahasiswa KKN yang menjalankan lokakarya untuk delapan belas pemilik usaha: ini rekam jejak kerja, dan perekrut yang menyaring lulusan baru membacanya demikian, jika CV-nya memungkinkan."
+        "id": "Sebuah studi yang dikutip Bright &amp; Earl menemukan bahwa ketika menyaring lulusan baru, perekrut menimbang nilai akademik, pengalaman kerja, dan kegiatan di luar kuliah <i>secara bersamaan</i>, sehingga kekuatan di satu sisi bisa menutupi kelemahan di sisi lain <i>(Cole dkk., 2007, dikutip di bab 17)</i> <span class=\"ev ev-dated\">Satu studi, 2007</span>. Dari sinilah salah satu aturan paling tegas di The Pack berasal: <b>bagi lulusan baru, pengalaman organisasi, kepanitiaan, dan kegiatan masyarakat bukan hobi. Itu bukti</b>, dan tempatnya di bagian tersendiri, lengkap dengan butir pencapaian. Bendahara yang membenahi pembukuan organisasi, kepala sponsorship yang mengumpulkan Rp 85 juta, mahasiswa KKN yang mengadakan lokakarya untuk delapan belas pemilik usaha: semua itu rekam jejak kerja, dan perekrut yang menyaring lulusan baru akan membacanya demikian, asalkan CV-nya memberi kesempatan."
        },
        "key": {
         "en": "Graduates are screened on the whole picture, academic, work and extracurricular together, so strength in one area can cover another.",
-        "id": "Lulusan disaring dari gambaran utuh, akademik, kerja, dan kegiatan luar kuliah bersama-sama, sehingga kekuatan di satu bidang bisa menutupi yang lain."
+        "id": "Lulusan baru dinilai dari gambaran utuh, yaitu akademik, kerja, dan kegiatan di luar kuliah sekaligus, sehingga kekuatan di satu sisi bisa menutupi sisi lain."
        }
       },
       {
@@ -12876,7 +12876,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bright &amp; Earl reduce CV editing to one decision rule <i>(ch. 2)</i>. Employers judge fit on four dimensions, <b>Knowledge</b> (qualifications and experience), <b>Skills</b> (demonstrated abilities), <b>Abilities</b> (potential to learn) and <b>Attitudes</b> (motivation, personality). For every line on the CV, ask one question in three parts:",
-        "id": "Bright &amp; Earl meringkas penyuntingan CV menjadi satu aturan keputusan <i>(bab 2)</i>. Perusahaan menilai kecocokan pada empat dimensi, <b>Pengetahuan</b> (kualifikasi dan pengalaman), <b>Keterampilan</b> (kemampuan yang terbukti), <b>Kecakapan</b> (potensi untuk belajar), dan <b>Sikap</b> (motivasi, kepribadian). Untuk setiap baris di CV, ajukan satu pertanyaan dalam tiga bagian:"
+        "id": "Bright &amp; Earl meringkas seluruh urusan menyunting CV menjadi satu aturan <i>(bab 2)</i>. Perusahaan menilai kecocokan dari empat sisi: <b>Pengetahuan</b> (kualifikasi dan pengalaman), <b>Keterampilan</b> (kemampuan yang sudah terbukti), <b>Kecakapan</b> (potensi untuk belajar), dan <b>Sikap</b> (motivasi, kepribadian). Untuk setiap baris di CV, ajukan satu pertanyaan dalam tiga bagian:"
        },
        "bullets": [
         {
@@ -12885,52 +12885,52 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Does it <b>decrease</b> my fit? → Remove it.",
-         "id": "Apakah <b>menurunkan</b> kecocokanku? → Buang."
+         "id": "Apakah baris ini <b>menurunkan</b> kecocokanku? → Buang."
         },
         {
          "en": "Is it <b>neutral</b>? → Keep only if there is space.",
-         "id": "Apakah <b>netral</b>? → Pertahankan hanya jika ada ruang."
+         "id": "Apakah baris ini <b>netral</b>? → Pertahankan hanya kalau masih ada ruang."
         }
        ],
        "after": [
         {
          "en": "That is the whole rule. It sounds too simple to matter, until you apply it to a real page and watch a third of the lines go. The lines that go are almost always the ones that felt safest to include: a hobby, a course everyone took, a duty everyone in the role had.",
-         "id": "Itulah seluruh aturannya. Terdengar terlalu sederhana untuk berpengaruh, sampai kamu menerapkannya pada halaman nyata dan melihat sepertiga baris hilang. Baris yang hilang hampir selalu yang terasa paling aman dimasukkan: sebuah hobi, mata kuliah yang diambil semua orang, tugas yang dimiliki semua orang di peran itu."
+         "id": "Itulah seluruh aturannya. Kedengarannya terlalu sederhana untuk berpengaruh, sampai kamu menerapkannya pada satu halaman CV sungguhan dan melihat sepertiga barisnya lenyap. Yang lenyap hampir selalu baris-baris yang tadinya terasa paling aman: sebuah hobi, mata kuliah yang diambil semua orang, tugas yang dikerjakan siapa pun di posisi itu."
         }
        ],
        "key": {
         "en": "One rule for every line: does it raise fit for this job? Keep it. Lower it? Remove it. Neutral? Only if there is space.",
-        "id": "Satu aturan untuk setiap baris: menaikkan kecocokan untuk pekerjaan ini? Simpan. Menurunkan? Buang. Netral? Hanya jika ada ruang."
+        "id": "Satu aturan untuk setiap baris: menaikkan kecocokan untuk pekerjaan ini? Pertahankan. Menurunkan? Buang. Netral? Hanya kalau ada ruang."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "The modesty barrier",
-        "id": "Penghalang kerendahan hati"
+        "id": "Tembok rasa sungkan"
        },
        "body": {
         "en": "Bright &amp; Earl describe a “modesty barrier” between how we see ourselves and what we have actually done: social pressure to be modest holds our self-description well inside our real record <i>(ch. 6)</i>. Many learners, especially in cultures that prize modesty, feel this strongly. Describing achievements can feel <i>sombong</i>, and team cultures make it awkward to say “I”. Two reassurances. First, a CV is not boasting; it is <b>evidence</b>, and a recruiter cannot hire what they cannot see. Second, claims that feel uncomfortable are usually still well inside what you did. The fix is not exaggeration. It is completeness. Lesson 3.3 gives you a partner and ten questions precisely because the barrier is easier to cross when someone else is asking.",
-        "id": "Bright &amp; Earl menggambarkan “penghalang kerendahan hati” antara cara kita memandang diri dan apa yang benar-benar kita lakukan: tekanan sosial untuk rendah hati menahan gambaran diri kita jauh di dalam rekam jejak yang sebenarnya <i>(bab 6)</i>. Banyak pembelajar Indonesia merasakannya dengan kuat. Menggambarkan pencapaian bisa terasa <i>sombong</i>, dan budaya tim membuat canggung untuk berkata “saya”. Dua penenang. Pertama, CV bukan menyombongkan diri; CV adalah <b>bukti</b>, dan perekrut tidak bisa merekrut apa yang tidak bisa mereka lihat. Kedua, klaim yang terasa tidak nyaman biasanya masih jauh di dalam apa yang kamu lakukan. Perbaikannya bukan melebih-lebihkan. Perbaikannya adalah kelengkapan. Pelajaran 3.3 memberimu pasangan dan sepuluh pertanyaan justru karena penghalang itu lebih mudah dilewati ketika orang lain yang bertanya."
+        "id": "Bright &amp; Earl menggambarkan semacam tembok rasa sungkan antara cara kita memandang diri sendiri dan apa yang benar-benar sudah kita kerjakan: tekanan sosial untuk rendah hati membuat gambaran diri kita jauh lebih kecil daripada rekam jejak yang sebenarnya <i>(bab 6)</i>. Banyak pembelajar, terutama dari budaya yang menjunjung kerendahan hati, merasakannya dengan kuat. Menuliskan pencapaian bisa terasa <i>sombong</i>, dan budaya kerja tim membuat kita canggung berkata “saya”. Ada dua hal yang bisa menenangkan. Pertama, CV bukan ajang pamer; CV adalah <b>bukti</b>, dan perekrut tidak bisa merekrut apa yang tidak bisa mereka lihat. Kedua, klaim yang terasa tidak nyaman biasanya masih jauh di bawah apa yang sebenarnya kamu kerjakan. Obatnya bukan melebih-lebihkan, melainkan kelengkapan. Pelajaran 3.3 memberimu seorang rekan dan sepuluh pertanyaan justru karena tembok ini lebih mudah dilewati ketika orang lain yang bertanya."
        },
        "key": {
         "en": "Modesty keeps most self-descriptions well inside the real record; the CV reports what you did, which is not boasting.",
-        "id": "Kerendahan hati membuat kebanyakan gambaran diri jauh di bawah rekam jejak sebenarnya; CV melaporkan apa yang kamu kerjakan, dan itu bukan sombong."
+        "id": "Rasa sungkan membuat kebanyakan gambaran diri jauh di bawah rekam jejak sebenarnya; CV melaporkan apa yang kamu kerjakan, dan itu bukan sombong."
        }
       },
       {
        "icon": "flag",
        "h": {
         "en": "Reasons to reject, collected",
-        "id": "Alasan menolak, dikumpulkan"
+        "id": "Alasan-alasan untuk menolak, dikumpulkan"
        },
        "body": {
         "en": "The books list the small things that end a first read <i>(Innes, ch. 14; Knowles, ch. 18; Bright &amp; Earl, ch. 16–17)</i>: spelling errors (the most-cited single eliminator, read as carelessness); an unprofessional email address; a CV that makes the reader hunt for the target role or requirements; walls of text; unusual layouts; irrelevant personal details; skills claimed but not shown. None is about talent. All are fixable in an afternoon. Which is why this module ends with a ten-question quality gate rather than a pep talk.",
-        "id": "Buku-buku itu mendaftar hal-hal kecil yang mengakhiri pembacaan pertama <i>(Innes, bab 14; Knowles, bab 18; Bright &amp; Earl, bab 16–17)</i>: salah eja (penggugur tunggal yang paling sering disebut, dibaca sebagai kecerobohan); alamat email yang tidak profesional; CV yang membuat pembaca mencari-cari peran sasaran atau persyaratan; tembok teks; tata letak tidak biasa; detail pribadi yang tidak relevan; keterampilan yang diklaim tetapi tidak ditunjukkan. Tidak satu pun soal bakat. Semuanya bisa diperbaiki dalam satu sore; itulah sebabnya modul ini diakhiri dengan gerbang mutu sepuluh pertanyaan, bukan pidato penyemangat."
+        "id": "Buku-buku itu mendaftar hal-hal kecil yang mengakhiri pembacaan pertama <i>(Innes, bab 14; Knowles, bab 18; Bright &amp; Earl, bab 16–17)</i>: salah ketik (penggugur tunggal yang paling sering disebut, dibaca sebagai ceroboh); alamat email yang tidak profesional; CV yang membuat pembaca harus mencari-cari posisi yang dituju atau syarat-syaratnya; tembok teks; tata letak yang nyeleneh; data pribadi yang tidak relevan; keterampilan yang diklaim tetapi tidak diperlihatkan. Tidak satu pun soal bakat. Semuanya bisa dibereskan dalam satu sore. Karena itulah modul ini ditutup dengan gerbang mutu sepuluh pertanyaan, bukan pidato penyemangat."
        },
        "key": {
         "en": "Small things end a first read: spelling errors, an unprofessional email, a hunt for the target role, walls of text, claims without evidence.",
-        "id": "Hal-hal kecil mengakhiri bacaan pertama: salah eja, email tidak profesional, peran sasaran yang harus dicari-cari, dinding teks, klaim tanpa bukti."
+        "id": "Hal-hal kecil mengakhiri pembacaan pertama: salah ketik, email yang tidak profesional, posisi yang dituju harus dicari-cari, tembok teks, klaim tanpa bukti."
        }
       }
      ],
@@ -12938,7 +12938,7 @@ window.MT_LMS['the-pack'] = {
       "type": "pair",
       "exhibit": {
        "en": "Exhibit 5: Where the first seven seconds go",
-       "id": "Peraga 5: Ke mana tujuh detik pertama pergi"
+       "id": "Peraga 5: Ke mana tujuh detik pertama dipakai"
       },
       "title": {
        "en": "What is read, and what is skipped",
@@ -12948,11 +12948,11 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Read: the “F”",
-         "id": "Dibaca: huruf “F”"
+         "id": "Dibaca: si huruf “F”"
         },
         "sub": {
          "en": "Where attention concentrates on a first skim",
-         "id": "Tempat perhatian terpusat pada pindaian pertama"
+         "id": "Tempat perhatian terpusat saat pindaian pertama"
         },
         "items": [
          {
@@ -12965,11 +12965,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Job titles and organisation names",
-          "id": "Nama jabatan dan organisasi"
+          "id": "Nama jabatan dan nama organisasi"
          },
          {
           "en": "The first three or four words of each bullet",
-          "id": "Tiga atau empat kata pertama setiap butir"
+          "id": "Tiga atau empat kata pertama di setiap butir"
          },
          {
           "en": "Numbers that stand out",
@@ -12984,12 +12984,12 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Where the eye rarely lands",
-         "id": "Tempat mata jarang mendarat"
+         "id": "Tempat mata jarang singgah"
         },
         "items": [
          {
           "en": "The right-hand half of long lines",
-          "id": "Separuh kanan baris yang panjang"
+          "id": "Separuh kanan dari baris yang panjang"
          },
          {
           "en": "The bottom of page one",
@@ -13012,34 +13012,34 @@ window.MT_LMS['the-pack'] = {
       ],
       "note": {
        "en": "Lead with the result and the number; put the target role in the first line under your name; keep bullets to one or two lines. (Ladders eye-tracking, 2018, cited by Ow, dated, direction sound.)",
-       "id": "Buka dengan hasil dan angka; taruh peran sasaran di baris pertama di bawah namamu; jaga butir tetap satu atau dua baris. (Pelacakan mata Ladders, 2018, dikutip Ow, lawas, arahnya tepat.)"
+       "id": "Buka dengan hasil dan angkanya; taruh posisi yang dituju di baris pertama di bawah namamu; jaga setiap butir tetap satu atau dua baris. (Pelacakan mata Ladders, 2018, dikutip Ow; lawas, tetapi arahnya tepat.)"
       },
       "longdesc": {
        "en": "Two columns. The left lists where attention concentrates in a first seven-second skim: the name and target line, the first two lines of the profile, job titles and organisation names, the first words of each bullet, and stand-out numbers. The right lists where the eye rarely lands: the right half of long lines, the bottom of page one, almost all of page two, unstructured paragraphs, and hobbies, references and footers.",
-       "id": "Dua kolom. Kiri mendaftar tempat perhatian terpusat pada pindaian tujuh detik pertama: nama dan baris sasaran, dua baris pertama profil, nama jabatan dan organisasi, kata-kata pertama setiap butir, dan angka yang menonjol. Kanan mendaftar tempat mata jarang mendarat: separuh kanan baris panjang, bagian bawah halaman pertama, hampir seluruh halaman kedua, paragraf tanpa struktur, serta hobi, referensi, dan catatan kaki."
+       "id": "Dua kolom. Kolom kiri mendaftar tempat perhatian terpusat dalam pindaian tujuh detik pertama: nama dan baris sasaran, dua baris pertama profil, nama jabatan dan organisasi, kata-kata pertama di setiap butir, dan angka yang menonjol. Kolom kanan mendaftar tempat mata jarang singgah: separuh kanan baris yang panjang, bagian bawah halaman pertama, hampir seluruh halaman kedua, paragraf tanpa struktur, serta hobi, referensi, dan catatan kaki."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Same person, two descriptions",
-        "id": "Orang yang sama, dua gambaran"
+        "id": "Orang yang sama, dua cara bercerita"
        },
        "q": {
         "en": "Nadia’s barista job, as written by two different versions of Nadia.",
-        "id": "Pekerjaan barista Nadia, seperti ditulis oleh dua versi Nadia yang berbeda."
+        "id": "Pekerjaan barista Nadia, ditulis oleh dua versi Nadia yang berbeda."
        },
        "weak": {
         "en": "“Barista, Kopi Tepian (2023–2025). Responsible for making coffee, serving customers, handling the cashier and cleaning.”",
-        "id": "“Barista, Kopi Tepian (2023–2025). Bertanggung jawab membuat kopi, melayani pelanggan, menangani kasir, dan membersihkan.”"
+        "id": "“Barista, Kopi Tepian (2023–2025). Bertanggung jawab membuat kopi, melayani pelanggan, memegang kasir, dan bersih-bersih.”"
        },
        "strong": {
         "en": "“Barista, Kopi Tepian (2023–2025, part-time alongside study). Served 120–150 customers per shift at a busy campus outlet; trained 3 new baristas on the POS and opening checklist; suggested a pre-order board for the morning rush that cut average wait at peak from about 8 to about 5 minutes.”",
-        "id": "“Barista, Kopi Tepian (2023–2025, paruh waktu di sela kuliah). Melayani 120–150 pelanggan per sif di gerai kampus yang ramai; melatih 3 barista baru dalam POS dan daftar periksa buka; mengusulkan papan pra-pesan untuk jam sibuk pagi yang memangkas rata-rata waktu tunggu puncak dari sekitar 8 menjadi sekitar 5 menit.”"
+        "id": "“Barista, Kopi Tepian (2023–2025, paruh waktu sambil kuliah). Melayani 120–150 pelanggan per sif di gerai kampus yang ramai; melatih 3 barista baru menggunakan POS dan daftar periksa pembukaan; mengusulkan papan pesan-duluan untuk jam sibuk pagi yang memangkas rata-rata waktu tunggu di jam puncak dari sekitar 8 menjadi sekitar 5 menit.”"
        },
        "why": {
         "en": "The first lists duties anyone in the job had. The second shows scale, responsibility beyond the role, and a result. The three things that make a recruiter believe you will do the same in their job.",
-        "id": "Yang pertama mendaftar tugas yang dimiliki siapa pun di pekerjaan itu. Yang kedua menunjukkan skala, tanggung jawab di luar peran, dan hasil. Tiga hal yang membuat perekrut percaya kamu akan melakukan hal yang sama di pekerjaan mereka."
+        "id": "Versi pertama mendaftar tugas yang dikerjakan siapa pun di posisi itu. Versi kedua memperlihatkan skala, tanggung jawab di luar tugas pokok, dan hasil: tiga hal yang membuat perekrut percaya kamu akan melakukan hal yang sama di tempat mereka."
        }
       }
      ],
@@ -13052,11 +13052,11 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "A recruiter at PT Arunika Consumer Goods has 400 CVs that passed the portal’s hard filters and one afternoon to pick 60 for the online assessment. She opens each PDF, reads the name, the line under it, the first lines of the profile, the education block and the first words of the bullets. If she has not found a reason to keep the CV by then, she closes it. Twenty CVs take her about ten minutes.",
-        "id": "Seorang perekrut di PT Arunika Consumer Goods punya 400 CV yang lolos saringan mutlak portal dan satu sore untuk memilih 60 orang ke asesmen daring. Ia membuka setiap PDF, membaca nama, baris di bawahnya, baris-baris pertama profil, blok pendidikan, dan kata-kata pertama butir. Jika sampai di situ belum ada alasan untuk menyimpan CV itu, ia menutupnya. Dua puluh CV memakan waktu sekitar sepuluh menit."
+        "id": "Seorang perekrut di PT Arunika Consumer Goods memegang 400 CV yang lolos saringan mutlak portal, dan punya satu sore untuk memilih 60 orang yang akan ikut asesmen daring. Ia membuka tiap PDF, membaca nama, baris di bawahnya, baris-baris pertama profil, blok pendidikan, dan kata-kata pertama di setiap butir. Kalau sampai di situ belum ketemu alasan untuk menyimpannya, ia menutup CV itu. Dua puluh CV selesai dalam sekitar sepuluh menit."
        },
        {
         "en": "Nadia’s first CV opens with “CURRICULUM VITAE”, a photo, her date of birth and religion. The first bullet the recruiter reaches reads “Responsible for financial administration”. The recruiter never gets to the fact that Nadia raised Rp 85 juta from eleven sponsors, because it is on page two under “Organisational Experience”, in one line.",
-        "id": "CV pertama Nadia dibuka dengan “CURRICULUM VITAE”, foto, tanggal lahir, dan agamanya. Butir pertama yang dicapai perekrut berbunyi “Bertanggung jawab atas administrasi keuangan”. Perekrut itu tidak pernah sampai pada fakta bahwa Nadia mengumpulkan Rp 85 juta dari sebelas sponsor, karena itu ada di halaman dua di bawah “Pengalaman Organisasi”, dalam satu baris."
+        "id": "CV pertama Nadia dibuka dengan tulisan “CURRICULUM VITAE”, sebuah foto, tanggal lahir, dan agamanya. Butir pertama yang sempat dibaca perekrut berbunyi “Bertanggung jawab atas administrasi keuangan”. Perekrut itu tidak pernah tahu bahwa Nadia mengumpulkan Rp 85 juta dari sebelas sponsor, karena fakta itu terselip di halaman dua, di bawah judul “Pengalaman Organisasi”, dalam satu baris saja."
        },
        {
         "en": "Nothing about Nadia was rejected. A document was. The rest of this module rebuilds it.",
@@ -13072,25 +13072,25 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Target: PT Arunika’s Management Trainee (Sales &amp; Supply Chain). Decide keep / remove / space-permitting for each of eight lines from Nadia’s old CV before revealing: (1) “Hobbies: reading, travelling, music.” (2) “Religion: Islam.” (3) “Head of Sponsorship, campus business competition, 1,200 participants, raised Rp 85 juta from 11 sponsors.” (4) “Microsoft Word.” (5) “Bookkeeping workshop for 18 UMKM owners, community-service Kendal.” (6) “Objective: to obtain a challenging position in a reputable company.” (7) “TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527.” (8) “Barista, Kopi Tepian, 14 months, 120–150 customers a shift.”",
-        "id": "Sasaran: Management Trainee (Sales &amp; Supply Chain) PT Arunika. Putuskan pertahankan / buang / jika ada ruang untuk delapan baris dari CV lama Nadia sebelum membuka pembahasan: (1) “Hobi: membaca, jalan-jalan, musik.” (2) “Agama: Islam.” (3) “Kepala Sponsorship, kompetisi bisnis kampus, 1.200 peserta, mengumpulkan Rp 85 juta dari 11 sponsor.” (4) “Microsoft Word.” (5) “Lokakarya pembukuan untuk 18 pemilik UMKM, KKN Kendal.” (6) “Objektif: mendapatkan posisi yang menantang di perusahaan ternama.” (7) “TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527.” (8) “Barista, Kopi Tepian, 14 bulan, 120–150 pelanggan per sif.”"
+        "id": "Sasaran: Management Trainee (Sales &amp; Supply Chain) di PT Arunika. Sebelum membuka pembahasan, putuskan untuk delapan baris dari CV lama Nadia ini: pertahankan, buang, atau hanya jika ada ruang. (1) “Hobi: membaca, jalan-jalan, musik.” (2) “Agama: Islam.” (3) “Kepala Sponsorship, kompetisi bisnis kampus, 1.200 peserta, mengumpulkan Rp 85 juta dari 11 sponsor.” (4) “Microsoft Word.” (5) “Lokakarya pembukuan untuk 18 pemilik UMKM, KKN Kendal.” (6) “Tujuan: mendapatkan posisi yang menantang di perusahaan ternama.” (7) “TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527.” (8) “Barista, Kopi Tepian, 14 bulan, 120–150 pelanggan per sif.”"
        },
        "debrief": {
         "en": "(1) Remove: neutral at best, and it takes the reader’s attention. (2) Remove. Irrelevant to fit and invites bias; the portal will ask if it must. (3) Keep, near the top, credibility with external partners is exactly what a sales trainee needs. (4) Space-permitting at most. Everyone has it. (5) Keep, coaching small business owners is related evidence for a role that works with distributors. (6) Remove and rewrite. It says what Nadia wants, not what she offers. (7) Keep; the advertisement asks for active English. (8) Keep, scale, pressure, customers.",
-        "id": "(1) Buang: paling-paling netral, dan menyita perhatian pembaca. (2) Buang; tidak relevan dengan kecocokan dan mengundang bias; portal akan menanyakannya jika memang wajib. (3) Pertahankan, di dekat atas, kredibilitas di hadapan mitra eksternal persis yang dibutuhkan trainee penjualan. (4) Paling-paling jika ada ruang. Semua orang punya. (5) Pertahankan, membimbing pemilik usaha kecil adalah bukti terkait untuk peran yang bekerja dengan distributor. (6) Buang dan tulis ulang. Kalimat itu menyatakan apa yang Nadia inginkan, bukan yang ia tawarkan. (7) Pertahankan; iklannya meminta bahasa Inggris aktif. (8) Pertahankan, skala, tekanan, pelanggan."
+        "id": "(1) Buang: paling banter netral, dan menyita perhatian pembaca. (2) Buang: tidak ada hubungannya dengan kecocokan dan mengundang bias; portal akan menanyakannya sendiri kalau memang wajib. (3) Pertahankan, dekat bagian atas: kredibilitas di depan mitra luar adalah persis yang dibutuhkan trainee penjualan. (4) Paling banter jika ada ruang; semua orang bisa. (5) Pertahankan: membimbing pemilik usaha kecil adalah bukti yang berkaitan untuk posisi yang bekerja dengan distributor. (6) Buang, lalu tulis ulang: kalimat itu menyebut apa yang Nadia inginkan, bukan apa yang ia tawarkan. (7) Pertahankan; iklannya meminta bahasa Inggris aktif. (8) Pertahankan: ada skala, tekanan, dan pelanggan."
        }
       },
       {
        "h": {
         "en": "Drill 2: Read like the recruiter",
-        "id": "Latihan 2: Baca seperti perekrut"
+        "id": "Latihan 2: Membaca seperti perekrut"
        },
        "body": {
         "en": "Set a timer for seven seconds and look at your own current CV. Stop. Write down what you actually saw: could you tell the target role, one number, and one achievement? Then look at the exhibit above and mark where your three strongest facts currently sit on the page.",
-        "id": "Pasang pengatur waktu tujuh detik dan lihat CV-mu saat ini. Berhenti. Tulis apa yang benar-benar kamu lihat: bisakah kamu tahu peran sasaran, satu angka, dan satu pencapaian? Lalu lihat peraga di atas dan tandai di mana tiga fakta terkuatmu saat ini berada di halaman."
+        "id": "Pasang pengatur waktu tujuh detik, lalu lihat CV-mu yang sekarang. Berhenti. Tulis apa yang benar-benar kamu tangkap: apakah posisi yang dituju terlihat, ada satu angka, dan ada satu pencapaian? Lalu lihat peraga di atas dan tandai di mana tiga fakta terkuatmu saat ini berada di halaman itu."
        },
        "debrief": {
         "en": "Most first CVs put their strongest facts in the skipped zones: page two, the right half of long bullets, or under a heading like “Organisational Experience” at the bottom. The fix is not more content. It is moving what you already have into the “F”; which is what Lessons 3.4 and 3.5 do.",
-        "id": "Kebanyakan CV pertama menaruh fakta terkuatnya di zona yang dilewati: halaman dua, separuh kanan butir yang panjang, atau di bawah judul seperti “Pengalaman Organisasi” di bagian bawah. Perbaikannya bukan menambah isi. Perbaikannya memindahkan apa yang sudah kamu punya ke dalam “F”, dan itulah yang dikerjakan Pelajaran 3.4 dan 3.5."
+        "id": "Kebanyakan CV pertama menaruh fakta terkuatnya di zona yang dilewati: halaman dua, separuh kanan butir yang panjang, atau di bawah judul seperti “Pengalaman Organisasi” di bagian bawah. Obatnya bukan menambah isi, melainkan memindahkan apa yang sudah ada ke dalam si “F”; itulah yang dikerjakan Pelajaran 3.4 dan 3.5."
        }
       }
      ],
@@ -13099,7 +13099,7 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Listing everything “just in case”",
-         "id": "Mendaftar semuanya “untuk jaga-jaga”"
+         "id": "Memasukkan semuanya “buat jaga-jaga”"
         },
         "fix": {
          "en": "Apply the Fit Rule line by line.",
@@ -13113,27 +13113,27 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Give it a proper section with achievement bullets.",
-         "id": "Beri bagian yang layak dengan butir pencapaian."
+         "id": "Beri bagian tersendiri, lengkap dengan butir pencapaian."
         }
        },
        {
         "h": {
          "en": "A creative two-column design to “stand out”",
-         "id": "Desain dua kolom yang kreatif agar “menonjol”"
+         "id": "Desain dua kolom yang kreatif supaya “beda sendiri”"
         },
         "fix": {
          "en": "Formal layouts were rated better; stand out with evidence.",
-         "id": "Tata letak formal dinilai lebih baik; menonjollah dengan bukti."
+         "id": "Tata letak formal dinilai lebih baik; tampil beda lewat bukti."
         }
        },
        {
         "h": {
          "en": "Under-claiming out of modesty",
-         "id": "Mengklaim terlalu sedikit karena rendah hati"
+         "id": "Menulis terlalu sedikit karena sungkan"
         },
         "fix": {
          "en": "Completeness is not arrogance.",
-         "id": "Kelengkapan bukan kesombongan."
+         "id": "Lengkap bukan berarti sombong."
         }
        }
       ]
@@ -13146,7 +13146,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The recruiter’s first selection of CVs to take further.",
-        "id": "Seleksi pertama perekrut atas CV yang akan diproses lebih lanjut."
+        "id": "Pilihan pertama perekrut atas CV yang akan diproses lebih lanjut."
        }
       },
       {
@@ -13156,7 +13156,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Keep a line if it raises your fit for this job, remove it if it lowers fit, keep neutral lines only with space.",
-        "id": "Pertahankan baris jika menaikkan kecocokanmu untuk pekerjaan ini, buang jika menurunkan, pertahankan baris netral hanya jika ada ruang."
+        "id": "Pertahankan baris yang menaikkan kecocokanmu untuk pekerjaan ini, buang yang menurunkannya, dan pertahankan baris netral hanya kalau ada ruang."
        }
       },
       {
@@ -13166,7 +13166,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Something completed, attributable to you, measurable, verifiable, and that made a difference.",
-        "id": "Sesuatu yang selesai, dapat dikaitkan denganmu, terukur, dapat diverifikasi, dan memberi dampak nyata."
+        "id": "Sesuatu yang sudah selesai, bisa dikaitkan denganmu, terukur, bisa diverifikasi, dan memberi dampak nyata."
        }
       },
       {
@@ -13176,17 +13176,17 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A named quality followed by one or two sentences of proof.",
-        "id": "Kualitas yang disebut, diikuti satu atau dua kalimat bukti."
+        "id": "Kualitas yang disebut namanya, diikuti satu atau dua kalimat bukti."
        }
       },
       {
        "term": {
         "en": "Modesty barrier",
-        "id": "Penghalang kerendahan hati"
+        "id": "Tembok rasa sungkan"
        },
        "def": {
         "en": "The gap between what you did and what you are comfortable writing down.",
-        "id": "Jarak antara apa yang kamu lakukan dan apa yang nyaman kamu tuliskan."
+        "id": "Jarak antara apa yang sudah kamu kerjakan dan apa yang kamu rasa nyaman untuk dituliskan."
        }
       },
       {
@@ -13196,7 +13196,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The shape a skimming eye traces: across the top, down the left, with a shorter pass in the middle.",
-        "id": "Bentuk yang ditelusuri mata saat memindai: melintang di atas, turun di kiri, dengan lintasan lebih pendek di tengah."
+        "id": "Jejak mata saat memindai: melintang di bagian atas, turun di sisi kiri, dengan lintasan lebih pendek di tengah."
        }
       }
      ],
@@ -13204,7 +13204,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Two CVs are identical except that one lists duties and the other lists accomplishments. What did the recruiter experiments find?",
-        "id": "Dua CV identik kecuali satu mendaftar tugas dan yang lain mendaftar pencapaian. Apa yang ditemukan eksperimen dengan perekrut?"
+        "id": "Dua CV sama persis, kecuali yang satu mendaftar tugas dan yang lain mendaftar pencapaian. Apa temuan eksperimen dengan perekrut?"
        },
        "options": [
         {
@@ -13217,17 +13217,17 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "The duties version looked more honest",
-         "id": "Versi tugas tampak lebih jujur"
+         "id": "Versi tugas terkesan lebih jujur"
         },
         {
          "en": "Recruiters preferred longer CVs",
-         "id": "Perekrut lebih suka CV yang lebih panjang"
+         "id": "Perekrut lebih suka CV yang panjang"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Bright &amp; Earl’s controlled comparison: same person, results-based description rated far higher. The direction is solid even though the study is dated.",
-        "id": "Perbandingan terkontrol Bright &amp; Earl: orang yang sama, gambaran berbasis hasil dinilai jauh lebih tinggi. Arahnya kokoh meski studinya lawas."
+        "id": "Perbandingan terkontrol Bright &amp; Earl: orang yang sama, digambarkan lewat hasil, dinilai jauh lebih tinggi. Arahnya kokoh meski studinya sudah lawas."
        }
       },
       {
@@ -13238,7 +13238,7 @@ window.MT_LMS['the-pack'] = {
        "options": [
         {
          "en": "Keep: it shows personality",
-         "id": "Pertahankan: menunjukkan kepribadian"
+         "id": "Pertahankan: memperlihatkan kepribadian"
         },
         {
          "en": "Remove: it does not increase fit and may decrease it",
@@ -13250,28 +13250,28 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Add more hobbies",
-         "id": "Tambah hobi lagi"
+         "id": "Tambahkan hobi lain"
         }
        ],
        "correct": 1,
        "why": {
         "en": "It adds nothing to knowledge, skills, abilities or attitude for the job, and “sleeping” reads as carelessness.",
-        "id": "Tidak menambah pengetahuan, keterampilan, kecakapan, atau sikap untuk pekerjaan itu, dan “tidur” terbaca sebagai kecerobohan."
+        "id": "Tidak menambah pengetahuan, keterampilan, kecakapan, atau sikap yang relevan untuk pekerjaan itu, dan “tidur” terbaca sebagai malas."
        }
       },
       {
        "q": {
         "en": "Why should Nadia’s HIMA (the students’ association, himpunan mahasiswa) treasurer role get achievement bullets rather than a one-line mention?",
-        "id": "Mengapa peran bendahara HIMA (himpunan mahasiswa) Nadia layak mendapat butir pencapaian, bukan sekadar satu baris?"
+        "id": "Mengapa peran bendahara HIMA (himpunan mahasiswa) Nadia layak mendapat butir pencapaian, bukan sekadar disebut dalam satu baris?"
        },
        "options": [
         {
          "en": "It fills space",
-         "id": "Mengisi ruang"
+         "id": "Untuk mengisi ruang"
         },
         {
          "en": "Recruiters screening graduates weigh academic, work and extracurricular evidence together",
-         "id": "Perekrut yang menyaring lulusan baru menimbang bukti akademik, kerja, dan ekstrakurikuler bersama-sama"
+         "id": "Perekrut yang menyaring lulusan baru menimbang bukti akademik, kerja, dan kegiatan di luar kuliah secara bersamaan"
         },
         {
          "en": "Organisational roles are more important than degrees",
@@ -13285,7 +13285,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "For graduates the picture is judged as a whole; organisational work with results is evidence in its own right.",
-        "id": "Bagi lulusan baru gambarannya dinilai secara utuh; kerja organisasi dengan hasil adalah bukti tersendiri."
+        "id": "Bagi lulusan baru, gambarannya dinilai secara utuh; kerja organisasi yang punya hasil adalah bukti yang berdiri sendiri."
        }
       }
      ],
@@ -13298,7 +13298,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Paste your current CV into the CV Studio and mark every line keep / remove / space-permitting with the Fit Rule. Do not rewrite yet; the next lessons build the evidence first.",
-       "id": "Tempel CV-mu saat ini ke Studio CV dan tandai setiap baris pertahankan / buang / jika ada ruang dengan Aturan Kecocokan. Jangan tulis ulang dulu; pelajaran berikutnya membangun buktinya lebih dulu."
+       "id": "Tempel CV-mu yang sekarang ke Studio CV, lalu tandai setiap baris dengan Aturan Kecocokan: pertahankan, buang, atau hanya jika ada ruang. Jangan menulis ulang dulu; pelajaran-pelajaran berikutnya mengumpulkan buktinya lebih dulu."
       },
       "cta": {
        "en": "Open the CV Studio →",
@@ -13308,15 +13308,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "The top half of page one decides the first read; lead with what matters.",
-       "id": "Separuh atas halaman pertama menentukan pembacaan pertama; buka dengan yang penting."
+       "id": "Separuh atas halaman pertama menentukan pembacaan pertama; buka dengan yang paling penting."
       },
       {
        "en": "Recruiter experiments favour achievements over duties, evidence over adjectives, and formal over creative layouts.",
-       "id": "Eksperimen dengan perekrut memihak pencapaian di atas tugas, bukti di atas kata sifat, dan tata letak formal di atas kreatif."
+       "id": "Eksperimen dengan perekrut memihak pencapaian ketimbang tugas, bukti ketimbang kata sifat, dan tata letak formal ketimbang kreatif."
       },
       {
        "en": "Every line must raise your fit for this job, or go.",
-       "id": "Setiap baris harus menaikkan kecocokanmu untuk pekerjaan ini, atau dibuang."
+       "id": "Setiap baris harus menaikkan kecocokanmu untuk pekerjaan ini; kalau tidak, buang."
       }
      ],
      "resources": {
@@ -13326,7 +13326,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "The research base for the module, with reliability notes from the course evidence register.",
-       "id": "Dasar penelitian modul ini, dengan catatan keandalan dari register bukti kursus."
+       "id": "Dasar penelitian modul ini, dengan catatan keandalan dari daftar bukti kursus."
       },
       "items": [
        {
@@ -13342,19 +13342,19 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., Pearson, 2015), ch. 1–2, 6, 8–9, 11, 13, 16–17. The recruiter studies; the Fit Rule; the modesty barrier. Strongest evidence base; mostly 2000s, UK/AU, paper CVs.",
-          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, Pearson, 2015), bab 1–2, 6, 8–9, 11, 13, 16–17, studi dengan perekrut; Aturan Kecocokan; penghalang kerendahan hati. Dasar bukti terkuat; sebagian besar 2000-an, Inggris/Australia, CV kertas."
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, Pearson, 2015), bab 1–2, 6, 8–9, 11, 13, 16–17; studi dengan perekrut; Aturan Kecocokan; tembok rasa sungkan. Dasar bukti paling kuat; sebagian besar 2000-an, Inggris/Australia, CV kertas."
          },
          {
           "en": "J. Innes, <i>The CV Book</i> (3rd ed., Pearson, 2016), ch. 1, 14; the first read; reasons to reject.",
-          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, Pearson, 2016), bab 1, 14, pembacaan pertama; alasan menolak."
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, Pearson, 2016), bab 1, 14; pembacaan pertama; alasan-alasan menolak."
          },
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 1, 18; the first read; common eliminators.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 1, 18, pembacaan pertama; penggugur umum."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 1, 18; pembacaan pertama; penggugur yang umum."
          },
          {
           "en": "P. Ow, <i>Tailor Your Call, Resume, Letter, Proposal, Follow-Up and LinkedIn Profile</i> (2021), the 2018 Ladders eye-tracking study (dated; direction only).",
-          "id": "P. Ow, <i>Tailor Your Call, Resume, Letter, Proposal, Follow-Up and LinkedIn Profile</i> (2021), studi pelacakan mata Ladders 2018 (lawas; arahnya saja)."
+          "id": "P. Ow, <i>Tailor Your Call, Resume, Letter, Proposal, Follow-Up and LinkedIn Profile</i> (2021); studi pelacakan mata Ladders 2018 (lawas; pegang arahnya saja)."
          }
         ]
        }
@@ -13375,12 +13375,12 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "You cannot write a CV that fits a job you have not understood. Most applicants skim an advertisement for the job title and the deadline. This lesson teaches you to interrogate it. For what it says, what it implies, and what “one year of experience required” really means.",
-      "id": "Kamu tidak bisa menulis CV yang cocok untuk pekerjaan yang belum kamu pahami. Kebanyakan pelamar hanya memindai iklan untuk nama jabatan dan tenggat. Pelajaran ini mengajarkanmu menginterogasinya, untuk apa yang dikatakannya, apa yang tersirat, dan apa arti sebenarnya “diperlukan pengalaman satu tahun”."
+      "id": "Kamu tidak bisa menulis CV yang cocok untuk pekerjaan yang belum kamu pahami. Kebanyakan pelamar hanya melirik iklan untuk melihat nama jabatan dan tenggatnya. Pelajaran ini mengajarkanmu membedahnya: apa yang tertulis, apa yang tersirat, dan apa arti sebenarnya dari “pengalaman minimal satu tahun”."
      },
      "objectives": [
       {
        "en": "Analyse any advertisement with the <b>seven job-detective questions</b>.",
-       "id": "Menganalisis iklan apa pun dengan <b>tujuh pertanyaan detektif lowongan</b>."
+       "id": "Membedah iklan apa pun dengan <b>tujuh pertanyaan detektif lowongan</b>."
       },
       {
        "en": "Translate an experience requirement into the evidence that would satisfy it.",
@@ -13388,11 +13388,11 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Build a keyword table from five or more advertisements for one role.",
-       "id": "Membangun tabel kata kunci dari lima iklan atau lebih untuk satu peran."
+       "id": "Menyusun tabel kata kunci dari lima iklan atau lebih untuk satu posisi."
       },
       {
        "en": "Classify your experience as relevant, related or unrelated to the target.",
-       "id": "Menggolongkan pengalamanmu sebagai relevan, terkait, atau tidak terkait dengan sasaran."
+       "id": "Menggolongkan pengalamanmu sebagai relevan, berkaitan, atau tidak berkaitan dengan sasaran."
       }
      ],
      "readFirst": {
@@ -13412,15 +13412,15 @@ window.MT_LMS['the-pack'] = {
        "story": [
         {
          "en": "Seven questions for every advertisement, and the fourth is the one that reveals the job",
-         "id": "Tujuh pertanyaan untuk setiap iklan, dan yang keempat adalah yang mengungkap pekerjaannya"
+         "id": "Tujuh pertanyaan untuk setiap iklan, dan pertanyaan keempat yang membuka hakikat pekerjaannya"
         },
         {
          "en": "Employers do not want time; “experience required” means the benefits of experience, and a graduate can supply most of them",
-         "id": "Perusahaan tidak menginginkan waktu; “pengalaman dibutuhkan” berarti manfaat pengalaman, dan lulusan baru bisa menyediakan sebagian besarnya"
+         "id": "Perusahaan tidak mencari lamanya waktu; “berpengalaman” berarti manfaat dari pengalaman, dan lulusan baru bisa menunjukkan sebagian besarnya"
         },
         {
          "en": "Five advertisements, one table: terms that recur are the field’s real requirements",
-         "id": "Lima iklan, satu tabel: istilah yang berulang adalah persyaratan nyata bidang itu"
+         "id": "Lima iklan, satu tabel: istilah yang terus berulang adalah syarat sebenarnya di bidang itu"
         }
        ],
        "takes": [
@@ -13431,17 +13431,17 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "The answers become the vocabulary of your profile, your bullets and your competency statements.",
-          "id": "Jawabannya menjadi kosakata profil, butir, dan pernyataan kompetensimu."
+          "id": "Jawabannya menjadi kosakata untuk profil, butir, dan pernyataan kompetensimu."
          }
         },
         {
          "h": {
           "en": "“Experience” means the benefits of experience",
-          "id": "“Pengalaman” berarti manfaat dari pengalaman"
+          "id": "“Pengalaman” artinya manfaat dari pengalaman"
          },
          "p": {
           "en": "“Minimum one year’s experience” is a description of benefits; show the benefits and the year matters less.",
-          "id": "“Minimal satu tahun pengalaman” adalah gambaran manfaat; tunjukkan manfaatnya dan tahunnya jadi kurang penting."
+          "id": "“Minimal satu tahun pengalaman” adalah gambaran manfaat; tunjukkan manfaatnya, dan angka tahun itu jadi kurang penting."
          }
         },
         {
@@ -13451,7 +13451,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "The keyword table serves the CV, the ATS coverage check in Module 4 and the LinkedIn profile in Module 5.",
-          "id": "Tabel kata kunci melayani CV, pemeriksaan cakupan ATS di Modul 4, dan profil LinkedIn di Modul 5."
+          "id": "Tabel kata kunci dipakai untuk CV, cek cakupan ATS di Modul 4, dan profil LinkedIn di Modul 5."
          }
         }
        ],
@@ -13460,44 +13460,44 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Seven questions for every advertisement, and the fourth is the one that reveals the job",
-          "id": "Tujuh pertanyaan untuk setiap iklan, dan yang keempat adalah yang mengungkap pekerjaannya"
+          "id": "Tujuh pertanyaan untuk setiap iklan, dan pertanyaan keempat yang membuka hakikat pekerjaannya"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "question",
            "en": "What don’t I understand?",
-           "id": "Apa yang tidak kupahami?",
+           "id": "Apa yang belum kupahami?",
            "d": {
             "en": "Every term, acronym and tool you cannot define, looked up before you write.",
-            "id": "Setiap istilah, akronim, dan alat yang tak bisa kamu definisikan, dicari sebelum menulis."
+            "id": "Setiap istilah, akronim, dan perangkat yang belum bisa kamu jelaskan, dicari tahu dulu sebelum menulis."
            }
           },
           {
            "icon": "building",
            "en": "What kind of organisation?",
-           "id": "Organisasi seperti apa?",
+           "id": "Organisasinya seperti apa?",
            "d": {
             "en": "Size, sector, ownership, pace: the register of everything you write.",
-            "id": "Ukuran, sektor, kepemilikan, tempo: register semua yang kamu tulis."
+            "id": "Ukuran, sektor, kepemilikan, ritme kerja: menentukan gaya bahasa semua yang kamu tulis."
            }
           },
           {
            "icon": "target",
            "en": "What is the role’s purpose?",
-           "id": "Apa tujuan perannya?",
+           "id": "Untuk apa posisi ini ada?",
            "d": {
             "en": "What the role exists to produce for the organisation.",
-            "id": "Apa yang dihasilkan peran itu untuk organisasi."
+            "id": "Apa yang harus dihasilkan posisi itu untuk organisasinya."
            }
           },
           {
            "icon": "warn",
            "en": "What goes wrong if nobody does it well?",
-           "id": "Apa yang salah jika tak ada yang mengerjakannya dengan baik?",
+           "id": "Apa yang berantakan kalau tidak dikerjakan dengan baik?",
            "d": {
             "en": "The problem the hire is meant to prevent; your evidence speaks to it.",
-            "id": "Masalah yang hendak dicegah perekrutan ini; buktimu menjawabnya."
+            "id": "Masalah yang ingin dicegah lewat perekrutan ini; buktimu harus menjawabnya."
            }
           },
           {
@@ -13506,7 +13506,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Keterampilan apa yang diminta?",
            "d": {
             "en": "The explicit list, in the advertisement’s own words.",
-            "id": "Daftar eksplisit, dengan kata-kata iklan itu sendiri."
+            "id": "Daftar yang tertulis jelas, dengan kata-kata iklan itu sendiri."
            }
           },
           {
@@ -13515,7 +13515,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kualitas dan pengetahuan apa?",
            "d": {
             "en": "The qualities behind the verbs; the knowledge behind the tools.",
-            "id": "Kualitas di balik kata kerja; pengetahuan di balik alat."
+            "id": "Kualitas di balik kata kerja; pengetahuan di balik perangkat."
            }
           },
           {
@@ -13524,28 +13524,28 @@ window.MT_LMS['the-pack'] = {
            "id": "Mana yang tersirat?",
            "d": {
             "en": "What an experienced person knows is expected without being told.",
-            "id": "Yang diketahui orang berpengalaman tanpa diberi tahu."
+            "id": "Hal yang dianggap sudah diketahui orang berpengalaman tanpa perlu disebut."
            }
           }
          ],
          "sub": {
           "en": "Bright and Earl’s job-detective questions: understand the job before you describe yourself.",
-          "id": "Pertanyaan detektif lowongan Bright dan Earl: pahami pekerjaannya sebelum menggambarkan dirimu."
+          "id": "Pertanyaan detektif lowongan dari Bright dan Earl: pahami pekerjaannya sebelum menggambarkan dirimu."
          },
          "band": {
           "en": "The answers become the vocabulary of your profile, your bullets and your competency statements.",
-          "id": "Jawabannya menjadi kosakata profil, butir, dan pernyataan kompetensimu."
+          "id": "Jawabannya menjadi kosakata untuk profil, butir, dan pernyataan kompetensimu."
          },
          "em": {
           "en": "reveals the job",
-          "id": "mengungkap pekerjaannya"
+          "id": "membuka hakikat pekerjaannya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Employers do not want time; “experience required” means the benefits of experience, and a graduate can supply most of them",
-          "id": "Perusahaan tidak menginginkan waktu; “pengalaman dibutuhkan” berarti manfaat pengalaman, dan lulusan baru bisa menyediakan sebagian besarnya"
+          "id": "Perusahaan tidak mencari lamanya waktu; “berpengalaman” berarti manfaat dari pengalaman, dan lulusan baru bisa menunjukkan sebagian besarnya"
          },
          "layout": "grid",
          "items": [
@@ -13555,16 +13555,16 @@ window.MT_LMS['the-pack'] = {
            "id": "Keterampilan dan kemampuan",
            "d": {
             "en": "What does an experienced person do better? Internship tasks, competition work, practicum.",
-            "id": "Apa yang dilakukan lebih baik oleh orang berpengalaman? Tugas magang, kerja lomba, praktikum."
+            "id": "Apa yang dikerjakan lebih baik oleh orang berpengalaman? Tugas magang, kerja lomba, praktikum."
            }
           },
           {
            "icon": "book",
            "en": "Knowledge and awareness",
-           "id": "Pengetahuan dan kesadaran",
+           "id": "Pengetahuan dan wawasan",
            "d": {
             "en": "What do they already know? Coursework, thesis, certifications, industry reading.",
-            "id": "Apa yang sudah mereka ketahui? Mata kuliah, skripsi, sertifikasi, bacaan industri."
+            "id": "Apa yang sudah mereka ketahui? Mata kuliah, skripsi, sertifikasi, bacaan seputar industri."
            }
           },
           {
@@ -13573,7 +13573,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kredibilitas",
            "d": {
             "en": "Do stakeholders take them seriously? Sponsor dealings, external partners, client projects.",
-            "id": "Apakah pemangku kepentingan menganggap mereka serius? Urusan sponsor, mitra eksternal, proyek klien."
+            "id": "Apakah orang lain menganggap mereka serius? Urusan sponsor, mitra dari luar, proyek klien."
            }
           },
           {
@@ -13582,37 +13582,37 @@ window.MT_LMS['the-pack'] = {
            "id": "Rekam jejak dan keandalan",
            "d": {
             "en": "Have they delivered under pressure? Committee deadlines, part-time work alongside study.",
-            "id": "Pernahkah mereka menghasilkan di bawah tekanan? Tenggat kepanitiaan, kerja paruh waktu di samping kuliah."
+            "id": "Pernahkah mereka tetap menghasilkan di bawah tekanan? Tenggat kepanitiaan, kerja paruh waktu sambil kuliah."
            }
           },
           {
            "icon": "bolt",
            "en": "Efficiency",
-           "id": "Efisiensi",
+           "id": "Kecepatan kerja",
            "d": {
             "en": "What do they do faster? Tools mastered, processes run repeatedly.",
-            "id": "Apa yang mereka kerjakan lebih cepat? Alat yang dikuasai, proses yang dijalankan berulang."
+            "id": "Apa yang mereka kerjakan lebih cepat? Perangkat yang dikuasai, proses yang sudah dijalankan berulang kali."
            }
           }
          ],
          "sub": {
           "en": "Map your evidence against five.",
-          "id": "Petakan buktimu terhadap lima."
+          "id": "Petakan buktimu ke lima manfaat ini."
          },
          "band": {
           "en": "“Minimum one year’s experience” is a description of benefits; show the benefits and the year matters less.",
-          "id": "“Minimal satu tahun pengalaman” adalah gambaran manfaat; tunjukkan manfaatnya dan tahunnya jadi kurang penting."
+          "id": "“Minimal satu tahun pengalaman” adalah gambaran manfaat; tunjukkan manfaatnya, dan angka tahun itu jadi kurang penting."
          },
          "em": {
           "en": "the benefits of experience",
-          "id": "manfaat pengalaman"
+          "id": "manfaat dari pengalaman"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Five advertisements, one table: terms that recur are the field’s real requirements",
-          "id": "Lima iklan, satu tabel: istilah yang berulang adalah persyaratan nyata bidang itu"
+          "id": "Lima iklan, satu tabel: istilah yang terus berulang adalah syarat sebenarnya di bidang itu"
          },
          "img": "../../assets/bg/stage-exploration.jpg",
          "layout": "flow",
@@ -13623,7 +13623,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kumpulkan lima",
            "d": {
             "en": "Five advertisements for the role, a few general job descriptions for the title.",
-            "id": "Lima iklan untuk peran itu, beberapa deskripsi umum untuk jabatannya."
+            "id": "Lima iklan untuk posisi itu, ditambah beberapa uraian umum untuk jabatannya."
            }
           },
           {
@@ -13632,7 +13632,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Tandai",
            "d": {
             "en": "Every skill, quality, tool and qualification; recurrence is the signal.",
-            "id": "Setiap keterampilan, kualitas, alat, dan kualifikasi; pengulangan adalah sinyalnya."
+            "id": "Setiap keterampilan, kualitas, perangkat, dan kualifikasi; yang berulang adalah sinyalnya."
            }
           },
           {
@@ -13641,39 +13641,39 @@ window.MT_LMS['the-pack'] = {
            "id": "Pilah",
            "d": {
             "en": "Must-have (in most advertisements, under “requirements”) versus nice-to-have.",
-            "id": "Wajib (di sebagian besar iklan, di bawah “persyaratan”) versus tambahan."
+            "id": "Syarat wajib (ada di sebagian besar iklan, di bawah “persyaratan”) dibandingkan syarat tambahan."
            }
           },
           {
            "icon": "check",
            "en": "Mark yourself",
-           "id": "Tandai dirimu",
+           "id": "Nilai dirimu",
            "d": {
             "en": "Have and can prove; have but cannot yet prove; do not have.",
-            "id": "Punya dan bisa buktikan; punya tapi belum bisa buktikan; tidak punya."
+            "id": "Punya dan bisa dibuktikan; punya tapi belum bisa dibuktikan; belum punya."
            }
           },
           {
            "icon": "layers",
            "en": "Relevant, related, unrelated",
-           "id": "Relevan, terkait, tak terkait",
+           "id": "Relevan, berkaitan, tidak berkaitan",
            "d": {
             "en": "Organise your history around the target: what goes first, what goes shorter, what goes.",
-            "id": "Susun riwayatmu di sekitar sasaran: apa yang di depan, apa yang diringkas, apa yang dibuang."
+            "id": "Susun riwayatmu mengikuti sasaran: mana yang di depan, mana yang diringkas, mana yang dibuang."
            }
           }
          ],
          "sub": {
           "en": "One advertisement may be idiosyncratic; collect five for the same role, plus a few general descriptions of the title.",
-          "id": "Satu iklan bisa saja khas; kumpulkan lima untuk peran yang sama, plus beberapa deskripsi umum jabatan itu."
+          "id": "Satu iklan bisa saja punya selera sendiri; kumpulkan lima iklan untuk posisi yang sama, ditambah beberapa uraian umum untuk jabatan itu."
          },
          "band": {
           "en": "The keyword table serves the CV, the ATS coverage check in Module 4 and the LinkedIn profile in Module 5.",
-          "id": "Tabel kata kunci melayani CV, pemeriksaan cakupan ATS di Modul 4, dan profil LinkedIn di Modul 5."
+          "id": "Tabel kata kunci dipakai untuk CV, cek cakupan ATS di Modul 4, dan profil LinkedIn di Modul 5."
          },
          "em": {
           "en": "the field’s real requirements",
-          "id": "persyaratan nyata bidang itu"
+          "id": "syarat sebenarnya di bidang itu"
          }
         }
        ],
@@ -13688,11 +13688,11 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Understand the job before you describe yourself",
-       "id": "Pahami pekerjaannya sebelum menggambarkan dirimu"
+       "id": "Pahami pekerjaannya sebelum menceritakan dirimu"
       },
       "intro": {
        "en": "Three moves: interrogate one advertisement, translate “experience” into benefits, and build vocabulary from five advertisements rather than one.",
-       "id": "Tiga langkah: interogasi satu iklan, terjemahkan “pengalaman” menjadi manfaat, dan bangun kosakata dari lima iklan alih-alih satu."
+       "id": "Tiga langkah: bedah satu iklan, terjemahkan “pengalaman” menjadi manfaat, dan kumpulkan kosakata dari lima iklan, bukan satu."
       },
       "slides": [
        {
@@ -13703,27 +13703,27 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "What don’t I understand? What kind of organisation? What is the role’s purpose? <b>What goes wrong if nobody does it well?</b>",
-          "id": "Apa yang tidak kupahami? Organisasi seperti apa? Apa tujuan perannya? <b>Apa yang salah jika tidak ada yang mengerjakannya dengan baik?</b>"
+          "id": "Apa yang belum kupahami? Organisasi macam apa ini? Apa tujuan posisinya? <b>Apa yang kacau kalau tidak ada yang mengerjakannya dengan baik?</b>"
          },
          {
           "en": "Which skills, qualities and knowledge are asked for, and which are implied?",
-          "id": "Keterampilan, kualitas, dan pengetahuan apa yang diminta, dan apa yang tersirat?"
+          "id": "Keterampilan, kualitas, dan pengetahuan apa yang diminta, dan mana yang tersirat?"
          }
         ]
        },
        {
         "h": {
          "en": "“Experience” means the benefits of experience",
-         "id": "“Pengalaman” berarti manfaat dari pengalaman"
+         "id": "“Pengalaman” artinya manfaat dari pengalaman"
         },
         "points": [
          {
           "en": "Employers do not want time; they want skills, knowledge, credibility, a track record and efficiency.",
-          "id": "Perusahaan tidak menginginkan waktu; mereka menginginkan keterampilan, pengetahuan, kredibilitas, rekam jejak, dan efisiensi."
+          "id": "Perusahaan tidak membeli lamanya waktu; mereka membeli keterampilan, pengetahuan, kredibilitas, rekam jejak, dan kecepatan kerja."
          },
          {
           "en": "A graduate can often evidence most of the five from internships, organisations and part-time work.",
-          "id": "Lulusan baru sering bisa membuktikan sebagian besar dari lima itu lewat magang, organisasi, dan kerja paruh waktu."
+          "id": "Lulusan baru sering bisa membuktikan sebagian besar dari kelima hal itu lewat magang, organisasi, dan kerja paruh waktu."
          }
         ]
        },
@@ -13735,11 +13735,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Terms that recur across advertisements are the field’s real requirements.",
-          "id": "Istilah yang berulang di berbagai iklan adalah persyaratan nyata bidang itu."
+          "id": "Istilah yang muncul berulang di berbagai iklan adalah syarat sebenarnya di bidang itu."
          },
          {
           "en": "Sort must-have from nice-to-have; mark each: have and can prove · have but cannot yet prove · do not have.",
-          "id": "Pilah wajib dari tambahan; tandai masing-masing: punya dan bisa buktikan · punya tapi belum bisa buktikan · tidak punya."
+          "id": "Pisahkan yang wajib dari yang tambahan, lalu tandai masing-masing: punya dan bisa dibuktikan · punya tapi belum bisa dibuktikan · belum punya."
          }
         ]
        }
@@ -13754,24 +13754,24 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bright &amp; Earl’s job-detective questions <i>(How to Write a Brilliant CV, ch. 4)</i>:",
-        "id": "Pertanyaan detektif lowongan dari Bright &amp; Earl <i>(How to Write a Brilliant CV, bab 4)</i>:"
+        "id": "Pertanyaan-pertanyaan detektif lowongan dari Bright &amp; Earl <i>(How to Write a Brilliant CV, bab 4)</i>:"
        },
        "bullets": [
         {
          "en": "What in the advertisement don’t I understand? (Jargon; ambiguous duties; does “responsible for training” mean delivering it or organising it?)",
-         "id": "Apa dalam iklan ini yang tidak kupahami? (Jargon; tugas yang ambigu; apakah “bertanggung jawab atas pelatihan” berarti menyampaikannya atau mengorganisasikannya?)"
+         "id": "Apa di iklan ini yang belum kupahami? (Istilah teknis; tugas yang ambigu; apakah “bertanggung jawab atas pelatihan” berarti memberi pelatihannya atau mengurus penyelenggaraannya?)"
         },
         {
          "en": "What kind of organisation is this, and what is happening to it, growing, restructuring, entering a new market?",
-         "id": "Organisasi seperti apa ini, dan apa yang sedang terjadi padanya, tumbuh, restrukturisasi, memasuki pasar baru?"
+         "id": "Organisasi macam apa ini, dan apa yang sedang terjadi padanya: sedang tumbuh, sedang ditata ulang, atau sedang masuk ke pasar baru?"
         },
         {
          "en": "What is the main purpose of the role?",
-         "id": "Apa tujuan utama peran ini?"
+         "id": "Apa tujuan utama posisi ini?"
         },
         {
          "en": "Why does the role matter? <b>What goes wrong if nobody does it, or does it badly?</b>",
-         "id": "Mengapa peran ini penting? <b>Apa yang salah jika tidak ada yang mengerjakannya, atau mengerjakannya dengan buruk?</b>"
+         "id": "Mengapa posisi ini penting? <b>Apa yang kacau kalau tidak ada yang mengerjakannya, atau dikerjakan dengan buruk?</b>"
         },
         {
          "en": "What skills are asked for, and what other skills does the purpose imply?",
@@ -13779,47 +13779,47 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "What personal qualities are asked for, and implied?",
-         "id": "Kualitas pribadi apa yang diminta, dan tersirat?"
+         "id": "Kualitas pribadi apa yang diminta, dan mana yang tersirat?"
         },
         {
          "en": "What knowledge or training is asked for, and implied?",
-         "id": "Pengetahuan atau pelatihan apa yang diminta, dan tersirat?"
+         "id": "Pengetahuan atau pelatihan apa yang diminta, dan mana yang tersirat?"
         }
        ],
        "after": [
         {
          "en": "Question 4 is the most powerful: it turns a list of duties into the <i>problem</i> the employer is hiring to solve. Bright &amp; Earl also warn that advertisements are often written for an impossible ideal candidate; if the person you reconstruct could not exist, you have over-read the advertisement <i>(ch. 5)</i>.",
-         "id": "Pertanyaan 4 yang paling kuat: ia mengubah daftar tugas menjadi <i>masalah</i> yang ingin dipecahkan perusahaan dengan merekrut. Bright &amp; Earl juga mengingatkan bahwa iklan sering ditulis untuk kandidat ideal yang mustahil; jika orang yang kamu rekonstruksi tidak mungkin ada, kamu sudah membaca iklan itu secara berlebihan <i>(bab 5)</i>."
+         "id": "Pertanyaan 4 adalah yang paling ampuh: ia mengubah daftar tugas menjadi <i>masalah</i> yang ingin diselesaikan perusahaan dengan merekrut orang. Bright &amp; Earl juga mengingatkan bahwa iklan sering ditulis untuk kandidat ideal yang mustahil ada; kalau sosok yang kamu bayangkan dari iklan itu tidak mungkin ada di dunia nyata, berarti kamu membacanya terlalu jauh <i>(bab 5)</i>."
         }
        ],
        "key": {
         "en": "Seven questions turn an advertisement into a brief; the fourth, what goes wrong if nobody does this well, reveals the job.",
-        "id": "Tujuh pertanyaan mengubah iklan menjadi brief; pertanyaan keempat, apa yang kacau jika tak ada yang mengerjakannya dengan baik, membongkar pekerjaannya."
+        "id": "Tujuh pertanyaan mengubah iklan menjadi arahan kerja; pertanyaan keempat, apa yang kacau kalau tidak ada yang mengerjakannya dengan baik, membongkar inti pekerjaannya."
        }
       },
       {
        "icon": "chart",
        "h": {
         "en": "What “experience required” really buys",
-        "id": "Apa yang sebenarnya dibeli oleh “diperlukan pengalaman”"
+        "id": "Apa yang sebenarnya dicari di balik “pengalaman minimal”"
        },
        "body": {
         "en": "Fresh graduates are routinely put off by “minimum one year’s experience”. Bright &amp; Earl’s insight is that employers do not want <i>time</i>; they want the <i>benefits</i> experience usually brings <i>(ch. 5)</i>. Map your evidence against five:",
-        "id": "Lulusan baru rutin mundur karena “pengalaman minimal satu tahun”. Wawasan Bright &amp; Earl: perusahaan tidak menginginkan <i>waktu</i>; mereka menginginkan <i>manfaat</i> yang biasanya dibawa pengalaman <i>(bab 5)</i>. Petakan buktimu ke lima hal:"
+        "id": "Lulusan baru sering langsung mundur begitu membaca “pengalaman minimal satu tahun”. Pandangan Bright &amp; Earl: perusahaan tidak mencari <i>lamanya waktu</i>; mereka mencari <i>manfaat</i> yang biasanya datang bersama pengalaman <i>(bab 5)</i>. Petakan buktimu ke lima manfaat ini:"
        },
        "table": {
         "cols": [
          {
           "en": "What experience usually buys",
-          "id": "Apa yang biasanya dibeli pengalaman"
+          "id": "Yang biasanya didapat dari pengalaman"
          },
          {
           "en": "The question to answer",
-          "id": "Pertanyaan yang harus dijawab"
+          "id": "Pertanyaan yang perlu dijawab"
          },
          {
           "en": "Graduate evidence that can supply it",
-          "id": "Bukti lulusan baru yang bisa memenuhinya"
+          "id": "Bukti dari masa kuliah yang bisa memenuhinya"
          }
         ],
         "rows": [
@@ -13830,7 +13830,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "What does an experienced person do better?",
-           "id": "Apa yang dilakukan lebih baik oleh orang berpengalaman?"
+           "id": "Apa yang dikerjakan lebih baik oleh orang yang berpengalaman?"
           },
           {
            "en": "Internship tasks, competition work, practicum",
@@ -13840,7 +13840,7 @@ window.MT_LMS['the-pack'] = {
          [
           {
            "en": "<b>Knowledge and awareness</b>",
-           "id": "<b>Pengetahuan dan kesadaran</b>"
+           "id": "<b>Pengetahuan dan wawasan</b>"
           },
           {
            "en": "What do they already know?",
@@ -13848,7 +13848,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Coursework, thesis, certifications, industry reading",
-           "id": "Mata kuliah, skripsi, sertifikasi, bacaan industri"
+           "id": "Mata kuliah, skripsi, sertifikasi, bacaan seputar industri"
           }
          ],
          [
@@ -13858,11 +13858,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Do stakeholders take them seriously?",
-           "id": "Apakah pemangku kepentingan menganggap mereka serius?"
+           "id": "Apakah pihak luar menganggap mereka serius?"
           },
           {
            "en": "Sponsor dealings, external partners in organisations, client projects",
-           "id": "Urusan dengan sponsor, mitra eksternal di organisasi, proyek klien"
+           "id": "Urusan dengan sponsor, mitra luar di organisasi, proyek untuk klien"
           }
          ],
          [
@@ -13872,25 +13872,25 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Have they delivered under pressure?",
-           "id": "Apakah mereka pernah menuntaskan sesuatu di bawah tekanan?"
+           "id": "Pernahkah mereka menuntaskan sesuatu di bawah tekanan?"
           },
           {
            "en": "Committee deadlines, part-time work alongside study",
-           "id": "Tenggat kepanitiaan, kerja paruh waktu di sela kuliah"
+           "id": "Tenggat kepanitiaan, kerja paruh waktu sambil kuliah"
           }
          ],
          [
           {
            "en": "<b>Efficiency</b>",
-           "id": "<b>Efisiensi</b>"
+           "id": "<b>Kecepatan kerja</b>"
           },
           {
            "en": "What do they do faster?",
-           "id": "Apa yang mereka kerjakan lebih cepat?"
+           "id": "Apa yang bisa mereka kerjakan lebih cepat?"
           },
           {
            "en": "Tools you already use fluently; processes you improved",
-           "id": "Alat yang sudah kamu kuasai; proses yang kamu perbaiki"
+           "id": "Alat yang sudah lancar kamu pakai; proses yang pernah kamu perbaiki"
           }
          ]
         ]
@@ -13898,12 +13898,12 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "If you can fill most of this grid with real evidence, apply, and make that evidence visible. Module 4 adds the rule of thumb for how much of an advertisement you need to meet.",
-         "id": "Jika kamu bisa mengisi sebagian besar kisi ini dengan bukti nyata, lamarlah, dan buat bukti itu terlihat. Modul 4 menambahkan aturan praktis tentang seberapa banyak isi iklan yang perlu kamu penuhi."
+         "id": "Kalau sebagian besar kisi ini bisa kamu isi dengan bukti nyata, lamarlah, dan pastikan bukti itu terlihat. Modul 4 menambahkan patokan praktis tentang seberapa banyak isi iklan yang perlu kamu penuhi."
         }
        ],
        "key": {
         "en": "Employers do not want years; they want what experience usually brings, and graduate evidence can supply most of it.",
-        "id": "Perusahaan tidak menginginkan tahun; mereka menginginkan apa yang biasanya dibawa pengalaman, dan bukti dari masa kuliah bisa memasok sebagian besarnya."
+        "id": "Perusahaan tidak membeli lamanya waktu; mereka membeli manfaat yang biasanya datang bersama pengalaman, dan bukti dari masa kuliah bisa memasok sebagian besarnya."
        }
       },
       {
@@ -13914,60 +13914,60 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Do not build your vocabulary from one advertisement; it may be idiosyncratic. Collect <b>at least five advertisements</b> for the same role, plus a few general job descriptions for the title <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §5.1.1; Serdula, LinkedIn Profile Optimization For Dummies, ch. 2)</i>. Highlight every skill, quality, tool and qualification <i>(McMunn, How to Write a CV, ch. 1, 3)</i>. Terms that recur are the field’s real requirements. Sort them into <b>must-have</b> (appear in most advertisements, often under “requirements”) and <b>nice-to-have</b>. Then mark each against yourself:",
-        "id": "Jangan bangun kosakatamu dari satu iklan; iklan itu bisa saja idiosinkratik. Kumpulkan <b>setidaknya lima iklan</b> untuk peran yang sama, ditambah beberapa deskripsi pekerjaan umum untuk jabatan itu <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §5.1.1; Serdula, LinkedIn Profile Optimization For Dummies, bab 2)</i>. Tandai setiap keterampilan, kualitas, alat, dan kualifikasi <i>(McMunn, How to Write a CV, bab 1, 3)</i>. Istilah yang berulang adalah persyaratan nyata bidang itu. Pilah menjadi <b>wajib</b> (muncul di sebagian besar iklan, sering di bawah “persyaratan”) dan <b>tambahan</b>. Lalu tandai masing-masing menurut keadaanmu:"
+        "id": "Jangan menyusun kosakatamu dari satu iklan saja; iklan itu bisa saja punya selera sendiri. Kumpulkan <b>sedikitnya lima iklan</b> untuk posisi yang sama, ditambah beberapa deskripsi pekerjaan umum untuk jabatan itu <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §5.1.1; Serdula, LinkedIn Profile Optimization For Dummies, bab 2)</i>. Tandai setiap keterampilan, kualitas, alat, dan kualifikasi <i>(McMunn, How to Write a CV, bab 1, 3)</i>. Istilah yang muncul berulang-ulang adalah syarat sebenarnya di bidang itu. Pisahkan menjadi <b>wajib</b> (muncul di sebagian besar iklan, biasanya di bawah “persyaratan”) dan <b>tambahan</b>. Lalu tandai masing-masing sesuai keadaanmu:"
        },
        "bullets": [
         {
          "en": "<b>Have and can prove</b> → becomes your CV’s vocabulary.",
-         "id": "<b>Punya dan bisa buktikan</b> → menjadi kosakata CV-mu."
+         "id": "<b>Punya dan bisa dibuktikan</b> → menjadi kosakata CV-mu."
         },
         {
          "en": "<b>Have but cannot yet prove</b> → a writing problem; Lessons 3.3 and 3.4 solve it.",
-         "id": "<b>Punya tapi belum bisa buktikan</b> → masalah penulisan; Pelajaran 3.3 dan 3.4 menyelesaikannya."
+         "id": "<b>Punya tapi belum bisa dibuktikan</b> → ini soal cara menulis; Pelajaran 3.3 dan 3.4 membereskannya."
         },
         {
          "en": "<b>Do not have</b> → a skills gap, and honesty about it is a strength; Module 4 teaches the four honest ways to close one.",
-         "id": "<b>Tidak punya</b> → celah keterampilan, dan kejujuran tentangnya adalah kekuatan; Modul 4 mengajarkan empat cara jujur untuk menutupnya."
+         "id": "<b>Belum punya</b> → kekurangan keterampilan, dan jujur soal itu justru kekuatan; Modul 4 mengajarkan empat cara jujur untuk menutupnya."
         }
        ],
        "key": {
         "en": "Five advertisements, one table: terms that recur are the field’s real vocabulary, and each term is proven, provable, or a gap.",
-        "id": "Lima iklan, satu tabel: istilah yang berulang adalah kosakata asli bidang itu, dan setiap istilah masuk kategori terbukti, bisa dibuktikan, atau celah."
+        "id": "Lima iklan, satu tabel: istilah yang berulang adalah kosakata sebenarnya di bidang itu, dan setiap istilah masuk golongan sudah terbukti, bisa dibuktikan, atau masih kurang."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "Relevant, related, unrelated",
-        "id": "Relevan, terkait, tidak terkait"
+        "id": "Relevan, berkaitan, tidak berkaitan"
        },
        "body": {
         "en": "Lidija Simunovic’s three-way split organises your history around the target <i>(§5.1)</i>:",
-        "id": "Pembagian tiga arah Lidija Simunovic menata riwayatmu di sekitar sasaran <i>(§5.1)</i>:"
+        "id": "Pembagian tiga arah dari Lidija Simunovic menata riwayatmu di sekitar sasaran <i>(§5.1)</i>:"
        },
        "bullets": [
         {
          "en": "<b>Relevant</b> experience: you did some of the advertised duties. Give it full bullets and the advertisement’s vocabulary.",
-         "id": "Pengalaman <b>relevan</b>: kamu pernah mengerjakan sebagian tugas yang diiklankan. Beri butir lengkap dan kosakata iklannya."
+         "id": "Pengalaman yang <b>relevan</b>: kamu pernah mengerjakan sebagian tugas yang ada di iklan. Beri butir lengkap dan pakai kosakata iklannya."
         },
         {
          "en": "<b>Related</b> experience: similar in nature (retail to customer service; organising events to operations). Emphasise the overlap honestly.",
-         "id": "Pengalaman <b>terkait</b>: serupa sifatnya (ritel ke layanan pelanggan; mengorganisasi acara ke operasional). Tekankan tumpang tindihnya dengan jujur."
+         "id": "Pengalaman yang <b>berkaitan</b>: sifatnya mirip (dari ritel ke layanan pelanggan; dari mengurus acara ke operasional). Tonjolkan bagian yang beririsan, dengan jujur."
         },
         {
          "en": "<b>Unrelated</b> experience: keep it brief (three bullets or fewer) unless it is your only work.",
-         "id": "Pengalaman <b>tidak terkait</b>: buat singkat (tiga butir atau kurang) kecuali itu satu-satunya pekerjaanmu."
+         "id": "Pengalaman yang <b>tidak berkaitan</b>: tulis singkat saja (tiga butir atau kurang), kecuali itu satu-satunya pengalaman kerjamu."
         }
        ],
        "after": [
         {
          "en": "If your only experience is unrelated but your degree or a course is relevant, lead with education. For Nadia applying to Arunika, the bank internship is related (operations, reconciliation, external branches), the sponsorship role is related (negotiating with companies), the café is related (customers under pressure), and the community-service workshop is related (small business owners). Nothing is strictly relevant, she has never worked in FMCG, and that is normal for a trainee intake.",
-         "id": "Jika satu-satunya pengalamanmu tidak terkait tetapi gelar atau mata kuliahmu relevan, buka dengan pendidikan. Untuk Nadia yang melamar ke Arunika, magang bank itu terkait (operasional, rekonsiliasi, cabang eksternal), peran sponsorship terkait (bernegosiasi dengan perusahaan), kafe terkait (pelanggan di bawah tekanan), dan lokakarya KKN (kuliah kerja nyata) terkait (pemilik usaha kecil). Tidak ada yang benar-benar relevan, ia belum pernah bekerja di FMCG, dan itu normal untuk seleksi trainee."
+         "id": "Kalau satu-satunya pengalamanmu tidak berkaitan tetapi jurusan atau mata kuliahmu relevan, buka CV dengan pendidikan. Untuk Nadia yang melamar ke Arunika, magang di bank itu berkaitan (operasional, rekonsiliasi, cabang-cabang), peran sponsorship berkaitan (bernegosiasi dengan perusahaan), kafe berkaitan (melayani pelanggan di bawah tekanan), dan lokakarya KKN (kuliah kerja nyata) berkaitan (pemilik usaha kecil). Tidak ada yang benar-benar relevan, karena ia belum pernah bekerja di FMCG, dan itu wajar untuk seleksi trainee."
         }
        ],
        "key": {
         "en": "Relevant experience gets full treatment, related experience is translated, unrelated experience stays short.",
-        "id": "Pengalaman relevan diberi porsi penuh, pengalaman terkait diterjemahkan, pengalaman tak terkait dibuat singkat."
+        "id": "Pengalaman yang relevan mendapat porsi penuh, yang berkaitan diterjemahkan, yang tidak berkaitan ditulis singkat."
        }
       }
      ],
@@ -13979,17 +13979,17 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Interrogate → translate → collect → classify",
-       "id": "Interogasi → terjemahkan → kumpulkan → golongkan"
+       "id": "Bedah → terjemahkan → kumpulkan → golongkan"
       },
       "items": [
        {
         "h": {
          "en": "Interrogate one advertisement",
-         "id": "Interogasi satu iklan"
+         "id": "Bedah satu iklan"
         },
         "sub": {
          "en": "Seven questions; Q4 reveals the problem the role solves and the implied skills.",
-         "id": "Tujuh pertanyaan; P4 mengungkap masalah yang dipecahkan peran itu dan keterampilan yang tersirat."
+         "id": "Tujuh pertanyaan; P4 membongkar masalah yang diselesaikan posisi itu dan keterampilan yang tersirat."
         }
        },
        {
@@ -13999,7 +13999,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Five benefits, skills, knowledge, credibility, track record, efficiency, each answered with graduate evidence.",
-         "id": "Lima manfaat, keterampilan, pengetahuan, kredibilitas, rekam jejak, efisiensi, masing-masing dijawab dengan bukti lulusan baru."
+         "id": "Lima manfaat (keterampilan, pengetahuan, kredibilitas, rekam jejak, kecepatan kerja), masing-masing dijawab dengan bukti dari masa kuliah."
         }
        },
        {
@@ -14009,7 +14009,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Recurring terms → must-have vs nice-to-have → have/prove/gap.",
-         "id": "Istilah berulang → wajib vs tambahan → punya/bisa buktikan/celah."
+         "id": "Istilah yang berulang → wajib vs tambahan → punya/bisa dibuktikan/kurang."
         }
        },
        {
@@ -14019,40 +14019,40 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Relevant, related, unrelated: and lead with whichever is strongest.",
-         "id": "Relevan, terkait, tidak terkait, dan buka dengan yang terkuat."
+         "id": "Relevan, berkaitan, tidak berkaitan, lalu buka dengan yang paling kuat."
         }
        }
       ],
       "note": {
        "en": "The output is a keyword table and a classified history. Both feed the Evidence Pantry (3.3) and the tailoring pass (3.6).",
-       "id": "Keluarannya adalah tabel kata kunci dan riwayat yang tergolong. Keduanya mengisi Lemari Bukti (3.3) dan proses penyesuaian (3.6)."
+       "id": "Hasilnya adalah tabel kata kunci dan riwayat yang sudah digolongkan. Keduanya menjadi bahan Lemari Bukti (3.3) dan proses penyesuaian (3.6)."
       },
       "longdesc": {
        "en": "A four-step flow: interrogate one advertisement with seven questions; translate the experience requirement into five benefits and match graduate evidence to each; collect five or more advertisements and sort recurring terms into must-have and nice-to-have, marked have, can prove, or gap; classify your own history as relevant, related or unrelated.",
-       "id": "Alur empat langkah: interogasi satu iklan dengan tujuh pertanyaan; terjemahkan syarat pengalaman menjadi lima manfaat dan cocokkan bukti lulusan baru ke masing-masing; kumpulkan lima iklan atau lebih dan pilah istilah berulang menjadi wajib dan tambahan, ditandai punya, bisa buktikan, atau celah; golongkan riwayatmu sendiri sebagai relevan, terkait, atau tidak terkait."
+       "id": "Alur empat langkah: bedah satu iklan dengan tujuh pertanyaan; terjemahkan syarat pengalaman menjadi lima manfaat dan cocokkan bukti dari masa kuliah dengan masing-masing; kumpulkan lima iklan atau lebih lalu pisahkan istilah yang berulang menjadi wajib dan tambahan, ditandai punya, bisa dibuktikan, atau kurang; golongkan riwayatmu sendiri sebagai relevan, berkaitan, atau tidak berkaitan."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Two readings of the same advertisement",
-        "id": "Dua pembacaan atas iklan yang sama"
+        "id": "Dua cara membaca iklan yang sama"
        },
        "q": {
         "en": "Arunika’s MT (management trainee) advertisement lists “strong analytical skills, comfortable with ambiguity, leadership experience in organisations, willing to be placed anywhere in the country, min. GPA (grade point average) 3,00, English, active”.",
-        "id": "Iklan MT (management trainee, program pelatihan manajemen) Arunika mencantumkan “kemampuan analitis kuat, nyaman dengan ambiguitas, pengalaman kepemimpinan di organisasi, bersedia ditempatkan di seluruh negeri, IPK min. 3,00, bahasa Inggris, aktif”."
+        "id": "Iklan MT (management trainee, program pelatihan manajemen) Arunika mencantumkan “kemampuan analitis yang kuat, nyaman dengan ketidakpastian, pengalaman memimpin di organisasi, bersedia ditempatkan di seluruh Indonesia, IPK min. 3,00, bahasa Inggris aktif”."
        },
        "weak": {
         "en": "“They want analytical, ambiguity, leadership, English. I’ll put those four words in my skills list and apply.”",
-        "id": "“Mereka mau analitis, ambiguitas, kepemimpinan, bahasa Inggris. Kutaruh empat kata itu di daftar keterampilanku lalu melamar.”"
+        "id": "“Mereka mau analitis, ketidakpastian, kepemimpinan, bahasa Inggris. Kutaruh empat kata itu di daftar keterampilanku, terus melamar.”"
        },
        "strong": {
         "en": "“If nobody does this job well, distributors run out of stock and targets are missed, so the role is about keeping product and people moving under pressure. That implies negotiation with partners, Excel with real data, and resilience, none of which the advertisement says. ‘Placed anywhere’ is a hard requirement I meet. My evidence: the sponsor negotiations, the branch reconciliations, and 14 months of shifts alongside study.”",
-        "id": "“Kalau tidak ada yang mengerjakan ini dengan baik, distributor kehabisan stok dan target meleset. Jadi peran ini soal menjaga produk dan orang tetap bergerak di bawah tekanan. Itu menyiratkan negosiasi dengan mitra, Excel dengan data nyata, dan ketangguhan, yang tidak satu pun disebut iklan. ‘Ditempatkan di mana saja’ adalah syarat mutlak yang kupenuhi. Buktiku: negosiasi sponsor, rekonsiliasi cabang, dan 14 bulan sif di sela kuliah.”"
+        "id": "“Kalau tidak ada yang mengerjakan ini dengan baik, distributor kehabisan stok dan target meleset. Jadi posisi ini soal menjaga barang dan orang tetap bergerak di bawah tekanan. Artinya butuh negosiasi dengan mitra, Excel dengan data sungguhan, dan daya tahan, padahal tidak satu pun disebut di iklan. ‘Ditempatkan di mana saja’ adalah syarat mutlak, dan aku memenuhinya. Buktiku: negosiasi dengan sponsor, rekonsiliasi cabang, dan 14 bulan sif sambil kuliah.”"
        },
        "why": {
         "en": "The weak reading copies adjectives into a list nobody believes. The strong reading finds the problem behind the role, the implied skills, and the evidence that proves them; which is what the CV will now be built from.",
-        "id": "Pembacaan lemah menyalin kata sifat ke daftar yang tidak dipercaya siapa pun. Pembacaan kuat menemukan masalah di balik peran, keterampilan yang tersirat, dan bukti yang membuktikannya, dan dari situlah CV akan dibangun."
+        "id": "Cara membaca yang lemah menyalin kata sifat ke dalam daftar yang tidak dipercaya siapa pun. Cara membaca yang kuat menemukan masalah di balik posisi itu, keterampilan yang tersirat, dan bukti yang bisa membuktikannya; dari situlah CV akan dibangun."
        }
       }
      ],
@@ -14060,20 +14060,20 @@ window.MT_LMS['the-pack'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: the advertisement that asked for three things it did not say",
-       "id": "Sorotan: iklan yang meminta tiga hal yang tidak dikatakannya"
+       "id": "Sorotan: iklan yang meminta tiga hal tanpa menyebutkannya"
       },
       "body": [
        {
         "en": "KilatPay’s Business Operations Associate posting (ref. OPS-26-04) reads: “Own daily reconciliation and settlement reporting for merchant payouts; work with finance and engineering to resolve exceptions; build dashboards; 0–2 years’ experience; comfortable with SQL (structured query language, the database query language) a plus.” Nadia’s first reaction is that she has never used SQL and has no fintech experience.",
-        "id": "Lowongan Business Operations Associate KilatPay (ref. OPS-26-04) berbunyi: “Memegang rekonsiliasi harian dan pelaporan settlement untuk pembayaran merchant; bekerja dengan finance dan engineering untuk menyelesaikan pengecualian; membangun dasbor; pengalaman 0–2 tahun; nyaman dengan SQL (structured query language, bahasa kueri basis data) menjadi nilai tambah.” Reaksi pertama Nadia: ia belum pernah memakai SQL dan tidak punya pengalaman fintech."
+        "id": "Lowongan Business Operations Associate di KilatPay (ref. OPS-26-04) berbunyi: “Memegang rekonsiliasi harian dan laporan settlement untuk pembayaran ke merchant; bekerja sama dengan tim finance dan engineering untuk menyelesaikan selisih; membangun dasbor; pengalaman 0–2 tahun; menguasai SQL (structured query language, bahasa kueri basis data) menjadi nilai tambah.” Reaksi pertama Nadia: ia belum pernah memakai SQL dan tidak punya pengalaman di fintech."
        },
        {
         "en": "The seven questions change the picture. What goes wrong if nobody does this well? Merchants are paid late or wrongly, and they leave. So the role is about <i>catching mismatches before money moves</i>: which is precisely what Nadia did for three branches at the bank, and what she did for HIMA (the students’ association, himpunan mahasiswa)’s books. The implied skills are attention to reconciliation detail, calm escalation to other teams, and spreadsheets under deadline. SQL is a nice-to-have; the posting says so.",
-        "id": "Tujuh pertanyaan mengubah gambarannya. Apa yang salah jika tidak ada yang mengerjakan ini dengan baik? Merchant dibayar terlambat atau keliru, dan mereka pergi. Jadi peran ini soal <i>menangkap ketidakcocokan sebelum uang bergerak</i>: persis yang Nadia lakukan untuk tiga cabang di bank, dan yang ia lakukan untuk pembukuan HIMA (himpunan mahasiswa). Keterampilan yang tersirat adalah ketelitian rekonsiliasi, eskalasi yang tenang ke tim lain, dan spreadsheet di bawah tenggat. SQL adalah nilai tambah; lowongannya sendiri mengatakan begitu."
+        "id": "Tujuh pertanyaan itu mengubah gambarannya. Apa yang kacau kalau tidak ada yang mengerjakan ini dengan baik? Merchant dibayar terlambat atau keliru, lalu mereka pergi. Jadi posisi ini soal <i>menangkap selisih sebelum uangnya bergerak</i>: persis yang Nadia kerjakan untuk tiga cabang di bank, dan untuk pembukuan HIMA (himpunan mahasiswa). Keterampilan yang tersirat: teliti dalam rekonsiliasi, tenang saat meneruskan masalah ke tim lain, dan cekatan dengan spreadsheet di bawah tenggat. SQL hanya nilai tambah; lowongannya sendiri bilang begitu."
        },
        {
         "en": "Her keyword table, built from KilatPay and four similar operations postings, has eleven must-haves. She can prove eight, has two she cannot yet prove, and lacks one. That is an application, not a rejection.",
-        "id": "Tabel kata kuncinya, dibangun dari KilatPay dan empat lowongan operasional serupa, berisi sebelas syarat wajib. Ia bisa membuktikan delapan, punya dua yang belum bisa dibuktikan, dan kekurangan satu. Itu sebuah lamaran, bukan penolakan."
+        "id": "Tabel kata kuncinya, disusun dari lowongan KilatPay dan empat lowongan operasional serupa, berisi sebelas syarat wajib. Delapan bisa ia buktikan, dua ia punya tapi belum bisa dibuktikan, dan satu belum ia punya. Itu sebuah lamaran, bukan alasan untuk mundur."
        }
       ]
      },
@@ -14081,15 +14081,15 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill 1: Interrogate an advertisement",
-        "id": "Latihan 1: Interogasi sebuah iklan"
+        "id": "Latihan 1: Bedah sebuah iklan"
        },
        "body": {
         "en": "Read the (fictional) PT Arunika Management Trainee, Sales &amp; Supply Chain advertisement: “Join a 24-month rotational programme across sales, distribution and supply chain in a fast-paced environment. We look for strong analytical skills, comfort with ambiguity, leadership experience in organisations, and active English. Min. GPA 3,00; graduated within the last two years; willing to be placed anywhere in the country. Experience in sales or operations is an advantage.” Answer the seven questions in writing before revealing.",
-        "id": "Baca iklan (fiktif) Management Trainee, Sales &amp; Supply Chain PT Arunika: “Bergabunglah dalam program rotasi 24 bulan lintas penjualan, distribusi, dan rantai pasok di lingkungan yang serba cepat. Kami mencari kemampuan analitis yang kuat, kenyamanan dengan ambiguitas, pengalaman kepemimpinan di organisasi, dan bahasa Inggris aktif. IPK min. 3,00; lulus dalam dua tahun terakhir; bersedia ditempatkan di seluruh negeri. Pengalaman di penjualan atau operasional menjadi nilai tambah.” Jawab tujuh pertanyaan secara tertulis sebelum membuka pembahasan."
+        "id": "Baca iklan (fiktif) Management Trainee, Sales &amp; Supply Chain di PT Arunika: “Bergabunglah dalam program rotasi 24 bulan di penjualan, distribusi, dan rantai pasok, di lingkungan kerja yang serba cepat. Kami mencari kemampuan analitis yang kuat, nyaman dengan ketidakpastian, pengalaman memimpin di organisasi, dan bahasa Inggris aktif. IPK min. 3,00; lulus dalam dua tahun terakhir; bersedia ditempatkan di seluruh Indonesia. Pengalaman di penjualan atau operasional menjadi nilai tambah.” Jawab tujuh pertanyaan itu secara tertulis sebelum membuka pembahasan."
        },
        "debrief": {
         "en": "Q4 is the key: if nobody does this job well, distributors run out of stock and sales targets are missed, so the role is really about <i>keeping product moving and people coordinated under pressure</i>. That implies skills not listed: negotiation with external partners, working with data in Excel, and resilience. “Willing to be placed anywhere” is a hard requirement, not a preference. “Fast-paced” and “ambiguity” together mean the programme will move you between functions with little briefing; evidence of learning a new system quickly (the bank internship) answers that.",
-        "id": "P4 adalah kuncinya: jika tidak ada yang mengerjakan ini dengan baik, distributor kehabisan stok dan target penjualan meleset. Jadi peran ini sebenarnya soal <i>menjaga produk tetap bergerak dan orang tetap terkoordinasi di bawah tekanan</i>. Itu menyiratkan keterampilan yang tidak dicantumkan: negosiasi dengan mitra eksternal, bekerja dengan data di Excel, dan ketangguhan. “Bersedia ditempatkan di mana saja” adalah syarat mutlak, bukan preferensi. “Serba cepat” dan “ambiguitas” bersama-sama berarti program akan memindahkanmu antarfungsi dengan sedikit pengarahan; bukti mempelajari sistem baru dengan cepat (magang bank) menjawab itu."
+        "id": "Kuncinya P4: kalau tidak ada yang mengerjakan ini dengan baik, distributor kehabisan stok dan target penjualan meleset. Jadi posisi ini sebenarnya soal <i>menjaga barang tetap bergerak dan orang tetap terkoordinasi di bawah tekanan</i>. Artinya ada keterampilan yang tidak tercantum: negosiasi dengan mitra luar, mengolah data di Excel, dan daya tahan. “Bersedia ditempatkan di mana saja” adalah syarat mutlak, bukan sekadar harapan. “Serba cepat” dan “ketidakpastian” bersama-sama berarti program ini akan memindahkanmu dari satu fungsi ke fungsi lain dengan arahan yang minim; bukti bahwa kamu cepat mempelajari sistem baru (magang di bank) menjawab hal itu."
        }
       },
       {
@@ -14099,25 +14099,25 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Arunika’s advertisement says “experience in sales or operations is an advantage”. Fill the five-row grid, skills, knowledge, credibility, track record, efficiency, with Nadia’s evidence (her pantry: bank operations internship, HIMA treasurer, sponsorship head, barista, community-service workshop, management coursework).",
-        "id": "Iklan Arunika berkata “pengalaman di penjualan atau operasional menjadi nilai tambah”. Isi kisi lima baris, keterampilan, pengetahuan, kredibilitas, rekam jejak, efisiensi, dengan bukti Nadia (lemarinya: magang operasional bank, bendahara HIMA, kepala sponsorship, barista, lokakarya KKN, mata kuliah manajemen)."
+        "id": "Iklan Arunika menyebut “pengalaman di penjualan atau operasional menjadi nilai tambah”. Isi kisi lima baris (keterampilan, pengetahuan, kredibilitas, rekam jejak, kecepatan kerja) dengan bukti milik Nadia (lemarinya: magang operasional bank, bendahara HIMA, kepala sponsorship, barista, lokakarya KKN, mata kuliah manajemen)."
        },
        "debrief": {
         "en": "Skills: bank operations internship (reconciliation across three branches); Knowledge, management coursework and a supply-chain elective; Credibility, negotiated with 11 sponsors, 4 personally; Track record, 14 months of part-time work alongside study while serving as treasurer; Efficiency, the pre-order board at the café and the receipt rule at HIMA. She has more than enough to apply.",
-        "id": "Keterampilan: magang operasional bank (rekonsiliasi tiga cabang); Pengetahuan, mata kuliah manajemen dan pilihan rantai pasok; Kredibilitas, bernegosiasi dengan 11 sponsor, 4 secara pribadi; Rekam jejak, 14 bulan kerja paruh waktu di sela kuliah sambil menjadi bendahara; Efisiensi, papan pra-pesan di kafe dan aturan kuitansi di HIMA. Ia punya lebih dari cukup untuk melamar."
+        "id": "Keterampilan: magang operasional bank (rekonsiliasi tiga cabang). Pengetahuan: mata kuliah manajemen dan mata kuliah pilihan rantai pasok. Kredibilitas: bernegosiasi dengan 11 sponsor, 4 di antaranya ia pegang sendiri. Rekam jejak: 14 bulan kerja paruh waktu sambil kuliah dan menjabat bendahara. Kecepatan kerja: papan pesan-duluan di kafe dan aturan kuitansi di HIMA. Bekalnya lebih dari cukup untuk melamar."
        }
       },
       {
        "h": {
         "en": "Drill 3: Build your keyword table",
-        "id": "Latihan 3: Bangun tabel kata kuncimu"
+        "id": "Latihan 3: Susun tabel kata kuncimu"
        },
        "body": {
         "en": "Collect five advertisements for your own target role. Highlight every skill, quality, tool and qualification. Sort must-haves and nice-to-haves; mark each: have and can prove · have but cannot yet prove · do not have. Use the Studio’s keyword tool or the worksheet in the resource kit.",
-        "id": "Kumpulkan lima iklan untuk peran sasaranmu sendiri. Tandai setiap keterampilan, kualitas, alat, dan kualifikasi. Pilah wajib dan tambahan; tandai masing-masing: punya dan bisa buktikan · punya tapi belum bisa buktikan · tidak punya. Pakai alat kata kunci di Studio atau lembar kerja di perangkat sumber daya."
+        "id": "Kumpulkan lima iklan untuk posisi sasaranmu sendiri. Tandai setiap keterampilan, kualitas, alat, dan kualifikasi. Pisahkan yang wajib dari yang tambahan, lalu tandai masing-masing: punya dan bisa dibuktikan · punya tapi belum bisa dibuktikan · belum punya. Pakai alat kata kunci di Studio atau lembar kerja di bagian sumber."
        },
        "debrief": {
         "en": "Most learners find 8–12 must-haves. The “have but cannot prove” column is where the next lesson starts; the “do not have” column is where Module 4’s honest closes apply. If your table has more than twenty must-haves, you have merged two different roles, split them into two clusters.",
-        "id": "Kebanyakan pembelajar menemukan 8–12 syarat wajib. Kolom “punya tapi belum bisa buktikan” adalah tempat pelajaran berikutnya dimulai; kolom “tidak punya” adalah tempat penutup jujur Modul 4 berlaku. Jika tabelmu punya lebih dari dua puluh syarat wajib, kamu telah menggabungkan dua peran berbeda, pisahkan menjadi dua rumpun."
+        "id": "Kebanyakan pembelajar menemukan 8–12 syarat wajib. Kolom “punya tapi belum bisa dibuktikan” adalah titik awal pelajaran berikutnya; kolom “belum punya” adalah tempat empat cara jujur dari Modul 4 berlaku. Kalau tabelmu memuat lebih dari dua puluh syarat wajib, kemungkinan kamu mencampur dua posisi yang berbeda; pecah menjadi dua rumpun."
        }
       }
      ],
@@ -14126,31 +14126,31 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Reading only the title and deadline",
-         "id": "Hanya membaca judul dan tenggat"
+         "id": "Hanya membaca judul dan tenggatnya"
         },
         "fix": {
          "en": "Run the seven questions; Q4 especially.",
-         "id": "Jalankan tujuh pertanyaan; terutama P4."
+         "id": "Jalankan tujuh pertanyaan itu, terutama P4."
         }
        },
        {
         "h": {
          "en": "Not applying because of “1 year experience”",
-         "id": "Tidak melamar karena “pengalaman 1 tahun”"
+         "id": "Batal melamar gara-gara “pengalaman 1 tahun”"
         },
         "fix": {
          "en": "Fill the experience grid; apply if you can evidence most of it.",
-         "id": "Isi kisi pengalaman; lamarlah jika kamu bisa membuktikan sebagian besarnya."
+         "id": "Isi kisi pengalamannya; lamarlah kalau sebagian besar bisa kamu buktikan."
         }
        },
        {
         "h": {
          "en": "Building vocabulary from one advertisement",
-         "id": "Membangun kosakata dari satu iklan"
+         "id": "Menyusun kosakata dari satu iklan saja"
         },
         "fix": {
          "en": "Use five or more.",
-         "id": "Pakai lima atau lebih."
+         "id": "Pakai lima iklan atau lebih."
         }
        },
        {
@@ -14160,7 +14160,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Related is fine and honest; say what overlaps.",
-         "id": "“Terkait” itu baik dan jujur; katakan apa yang tumpang tindih."
+         "id": "“Berkaitan” itu wajar dan jujur; sebutkan di mana irisannya."
         }
        }
       ]
@@ -14173,17 +14173,17 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Bright &amp; Earl’s method of interrogating an advertisement for stated and implied requirements.",
-        "id": "Metode Bright &amp; Earl untuk menginterogasi iklan atas persyaratan yang dinyatakan dan tersirat."
+        "id": "Metode Bright &amp; Earl untuk membedah iklan, mencari syarat yang tertulis maupun yang tersirat."
        }
       },
       {
        "term": {
         "en": "Implied requirement",
-        "id": "Persyaratan tersirat"
+        "id": "Syarat tersirat"
        },
        "def": {
         "en": "A skill or quality the role needs that the advertisement does not name.",
-        "id": "Keterampilan atau kualitas yang dibutuhkan peran tetapi tidak disebut iklan."
+        "id": "Keterampilan atau kualitas yang dibutuhkan posisi itu tetapi tidak disebut di iklan."
        }
       },
       {
@@ -14193,7 +14193,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Terms that recur across most advertisements versus those that appear occasionally.",
-        "id": "Istilah yang berulang di sebagian besar iklan versus yang hanya muncul sesekali."
+        "id": "Istilah yang muncul berulang di sebagian besar iklan, dibandingkan istilah yang hanya sesekali muncul."
        }
       },
       {
@@ -14203,17 +14203,17 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Recurring terms from five or more advertisements, sorted and marked have / prove / gap.",
-        "id": "Istilah berulang dari lima iklan atau lebih, dipilah dan ditandai punya / bisa buktikan / celah."
+        "id": "Istilah yang berulang dari lima iklan atau lebih, dipisahkan lalu ditandai punya / bisa dibuktikan / kurang."
        }
       },
       {
        "term": {
         "en": "Related experience",
-        "id": "Pengalaman terkait"
+        "id": "Pengalaman yang berkaitan"
        },
        "def": {
         "en": "Work similar in nature to the target role without the same duties.",
-        "id": "Kerja yang serupa sifatnya dengan peran sasaran tanpa tugas yang sama."
+        "id": "Pekerjaan yang sifatnya mirip dengan posisi sasaran, meski tugasnya tidak sama."
        }
       }
      ],
@@ -14221,7 +14221,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Which job-detective question most often reveals implied skills?",
-        "id": "Pertanyaan detektif lowongan mana yang paling sering mengungkap keterampilan tersirat?"
+        "id": "Pertanyaan detektif lowongan mana yang paling sering membongkar keterampilan yang tersirat?"
        },
        "options": [
         {
@@ -14230,7 +14230,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "What goes wrong if nobody does this job, or does it badly?",
-         "id": "Apa yang salah jika tidak ada yang mengerjakan pekerjaan ini, atau mengerjakannya dengan buruk?"
+         "id": "Apa yang kacau kalau tidak ada yang mengerjakan pekerjaan ini, atau dikerjakan dengan buruk?"
         },
         {
          "en": "Where is the office?",
@@ -14244,13 +14244,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "The problem the role solves tells you what the person must actually be able to do; often more than the advertisement lists.",
-        "id": "Masalah yang dipecahkan peran itu memberi tahu apa yang sebenarnya harus mampu dilakukan orang tersebut; sering lebih banyak dari yang dicantumkan iklan."
+        "id": "Masalah yang diselesaikan sebuah posisi memberi tahu apa yang sebenarnya harus bisa dikerjakan orangnya; sering lebih banyak daripada yang tercantum di iklan."
        }
       },
       {
        "q": {
         "en": "An advertisement asks for “1 year of experience in customer service”. Nadia has 14 months of part-time barista work and no full-time job.",
-        "id": "Sebuah iklan meminta “pengalaman 1 tahun di layanan pelanggan”. Nadia punya 14 bulan kerja barista paruh waktu dan belum pernah bekerja penuh waktu."
+        "id": "Sebuah iklan meminta “pengalaman 1 tahun di layanan pelanggan”. Nadia punya 14 bulan pengalaman sebagai barista paruh waktu dan belum pernah bekerja penuh waktu."
        },
        "options": [
         {
@@ -14259,11 +14259,11 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Apply, and make the customer-service evidence from the café visible",
-         "id": "Melamar, dan buat bukti layanan pelanggan dari kafe terlihat"
+         "id": "Melamar, dan tonjolkan bukti layanan pelanggan dari kafe"
         },
         {
          "en": "Claim a full-time role",
-         "id": "Mengklaim peran penuh waktu"
+         "id": "Mengaku pernah bekerja penuh waktu"
         },
         {
          "en": "Wait a year",
@@ -14273,22 +14273,22 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "The employer wants the benefits of experience, skills, track record, credibility, and 14 months of shifts supply them.",
-        "id": "Perusahaan menginginkan manfaat pengalaman, keterampilan, rekam jejak, kredibilitas, dan 14 bulan sif memenuhinya."
+        "id": "Perusahaan mencari manfaat dari pengalaman, yaitu keterampilan, rekam jejak, kredibilitas, dan 14 bulan sif sudah memberikannya."
        }
       },
       {
        "q": {
         "en": "You organised a 1,200-person competition and are applying for an operations role. This experience is…",
-        "id": "Kamu mengorganisasi kompetisi 1.200 orang dan melamar peran operasional. Pengalaman ini…"
+        "id": "Kamu pernah mengurus kompetisi berpeserta 1.200 orang dan sekarang melamar posisi operasional. Pengalaman ini…"
        },
        "options": [
         {
          "en": "Unrelated",
-         "id": "Tidak terkait"
+         "id": "Tidak berkaitan"
         },
         {
          "en": "Related: emphasise the planning and coordination overlap",
-         "id": "Terkait: tekankan tumpang tindih perencanaan dan koordinasi"
+         "id": "Berkaitan: tonjolkan irisan perencanaan dan koordinasinya"
         },
         {
          "en": "Irrelevant because unpaid",
@@ -14296,13 +14296,13 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Something to hide",
-         "id": "Sesuatu yang harus disembunyikan"
+         "id": "Sesuatu yang sebaiknya disembunyikan"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Event operations and business operations share planning, coordination and deadlines; say so honestly.",
-        "id": "Operasional acara dan operasional bisnis berbagi perencanaan, koordinasi, dan tenggat; katakan dengan jujur."
+        "id": "Mengurus acara dan operasional bisnis sama-sama butuh perencanaan, koordinasi, dan tenggat; katakan itu dengan jujur."
        }
       }
      ],
@@ -14315,7 +14315,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Paste five or more advertisements into the Studio, extract the recurring terms, sort must-have from nice-to-have and tag each have / prove / gap. The table is saved to your Dossier and reused for the coverage check in Module 4.",
-       "id": "Tempel lima iklan atau lebih ke Studio, ekstrak istilah yang berulang, pilah wajib dari tambahan, dan tandai masing-masing punya / bisa buktikan / celah. Tabelnya disimpan ke Dossier-mu dan dipakai lagi untuk pemeriksaan cakupan di Modul 4."
+       "id": "Tempel lima iklan atau lebih ke Studio, tarik istilah-istilah yang berulang, pisahkan yang wajib dari yang tambahan, dan tandai masing-masing punya / bisa dibuktikan / kurang. Tabelnya tersimpan di Dossier-mu dan dipakai lagi untuk pemeriksaan cakupan di Modul 4."
       },
       "cta": {
        "en": "Open the Studio →",
@@ -14325,15 +14325,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Interrogate the advertisement: the problem the role solves reveals what to prove.",
-       "id": "Interogasi iklannya: masalah yang dipecahkan peran itu mengungkap apa yang harus dibuktikan."
+       "id": "Bedah iklannya: masalah yang diselesaikan posisi itu menunjukkan apa yang harus kamu buktikan."
       },
       {
        "en": "“Experience required” means “the benefits of experience”; which graduates can often evidence.",
-       "id": "“Diperlukan pengalaman” berarti “manfaat dari pengalaman”; yang sering bisa dibuktikan lulusan baru."
+       "id": "“Pengalaman minimal” artinya “manfaat dari pengalaman”, dan itu sering bisa dibuktikan lulusan baru."
       },
       {
        "en": "Build your vocabulary from five advertisements, not one.",
-       "id": "Bangun kosakatamu dari lima iklan, bukan satu."
+       "id": "Susun kosakatamu dari lima iklan, bukan satu."
       }
      ],
      "resources": {
@@ -14343,7 +14343,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "The seven questions and the keyword table as copyable worksheets.",
-       "id": "Tujuh pertanyaan dan tabel kata kunci sebagai lembar kerja yang bisa disalin."
+       "id": "Tujuh pertanyaan dan tabel kata kunci dalam bentuk lembar kerja yang bisa disalin."
       },
       "items": [
        {
@@ -14359,19 +14359,19 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 4–5, the job-detective questions; what experience buys.",
-          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 4–5, pertanyaan detektif lowongan; apa yang dibeli pengalaman."
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 4–5; pertanyaan detektif lowongan; apa yang sebenarnya dicari di balik pengalaman."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §5.1, five advertisements; relevant, related, unrelated.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §5.1, lima iklan; relevan, terkait, tidak terkait."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §5.1; lima iklan; relevan, berkaitan, tidak berkaitan."
          },
          {
           "en": "R. McMunn, <i>How to Write a CV</i> (How2Become), ch. 1, 3, keyword extraction (sample CVs weak; use for method only).",
-          "id": "R. McMunn, <i>How to Write a CV</i> (How2Become), bab 1, 3, ekstraksi kata kunci (contoh CV-nya lemah; pakai metodenya saja)."
+          "id": "R. McMunn, <i>How to Write a CV</i> (How2Become), bab 1, 3; menarik kata kunci (contoh CV-nya lemah; pakai metodenya saja)."
          },
          {
           "en": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2nd ed., 2020), ch. 2; building a keyword list from job descriptions.",
-          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (ed. ke-2, 2020), bab 2; membangun daftar kata kunci dari deskripsi pekerjaan."
+          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (ed. ke-2, 2020), bab 2; menyusun daftar kata kunci dari deskripsi pekerjaan."
          }
         ]
        },
@@ -14383,16 +14383,16 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "Answer in one or two lines each.",
-         "id": "Jawab satu atau dua baris masing-masing."
+         "id": "Jawab masing-masing dalam satu atau dua baris."
         },
         "body": [
          {
           "en": "1. What don’t I understand? 2. What kind of organisation, and what is happening to it? 3. Main purpose of the role?",
-          "id": "1. Apa yang tidak kupahami? 2. Organisasi seperti apa, dan apa yang sedang terjadi padanya? 3. Tujuan utama peran?"
+          "id": "1. Apa yang belum kupahami? 2. Organisasi macam apa, dan apa yang sedang terjadi padanya? 3. Apa tujuan utama posisinya?"
          },
          {
           "en": "4. What goes wrong if nobody does it, or does it badly? 5. Skills asked for / implied, 6. Qualities asked for / implied, 7. Knowledge asked for / implied",
-          "id": "4. Apa yang salah jika tidak ada yang mengerjakannya, atau mengerjakannya dengan buruk? 5. Keterampilan yang diminta / tersirat, 6. Kualitas yang diminta / tersirat, 7. Pengetahuan yang diminta / tersirat"
+          "id": "4. Apa yang kacau kalau tidak ada yang mengerjakannya, atau dikerjakan dengan buruk? 5. Keterampilan yang diminta / tersirat, 6. Kualitas yang diminta / tersirat, 7. Pengetahuan yang diminta / tersirat"
          }
         ]
        },
@@ -14404,12 +14404,12 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "One row per recurring term.",
-         "id": "Satu baris per istilah berulang."
+         "id": "Satu baris untuk setiap istilah yang berulang."
         },
         "body": [
          {
           "en": "Term · appears in (n of 5) · must-have / nice-to-have · have &amp; can prove / have, cannot prove yet / do not have · my evidence",
-          "id": "Istilah · muncul di (n dari 5) · wajib / tambahan · punya &amp; bisa buktikan / punya, belum bisa buktikan / tidak punya · buktiku"
+          "id": "Istilah · muncul di (n dari 5) · wajib / tambahan · punya &amp; bisa dibuktikan / punya, belum bisa dibuktikan / belum punya · buktiku"
          }
         ]
        }
@@ -14430,20 +14430,20 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "Most people write their CV by staring at a blank template. Strong CVs are built differently: first you gather every piece of evidence you have, the “pantry”, and only then do you cook. This lesson builds your pantry, and proves you have more in it than you think.",
-      "id": "Kebanyakan orang menulis CV dengan menatap templat kosong. CV yang kuat dibangun dengan cara lain: pertama kamu mengumpulkan setiap bukti yang kamu punya, “lemari”, dan baru kemudian memasak. Pelajaran ini menyusun lemarimu, dan membuktikan isinya lebih banyak daripada yang kamu kira."
+      "id": "Kebanyakan orang menulis CV sambil menatap templat kosong. CV yang kuat dibangun dengan cara lain: kumpulkan dulu semua bukti yang kamu punya, ibarat mengisi lemari bahan, baru setelah itu memasak. Pelajaran ini mengisi lemarimu, dan membuktikan bahwa isinya jauh lebih banyak dari dugaanmu."
      },
      "objectives": [
       {
        "en": "Complete three inventories: learning, work, and life and organisations.",
-       "id": "Melengkapi tiga inventaris: belajar, kerja, serta hidup dan organisasi."
+       "id": "Melengkapi tiga inventaris: belajar, kerja, serta kehidupan dan organisasi."
       },
       {
        "en": "Run an <b>achievement-discovery interview</b> with a partner.",
-       "id": "Menjalankan <b>wawancara penemuan pencapaian</b> dengan pasangan."
+       "id": "Menjalankan <b>wawancara penggali pencapaian</b> bersama seorang rekan."
       },
       {
        "en": "Use four trigger verbs to surface achievements you have forgotten.",
-       "id": "Memakai empat kata kerja pemicu untuk memunculkan pencapaian yang kamu lupakan."
+       "id": "Memakai empat kata kerja pemancing untuk memunculkan pencapaian yang sudah kamu lupakan."
       },
       {
        "en": "Test each achievement against five criteria.",
@@ -14467,15 +14467,15 @@ window.MT_LMS['the-pack'] = {
        "story": [
         {
          "en": "Pantry first, then cook: three inventories, thirty minutes each, by hand",
-         "id": "Lemari dulu, baru memasak: tiga inventaris, tiga puluh menit masing-masing, dengan tangan"
+         "id": "Isi lemarinya dulu, baru memasak: tiga inventaris, masing-masing tiga puluh menit, ditulis tangan"
         },
         {
          "en": "A partner finds what you cannot: ten questions, asked by someone else, for every role you have held",
-         "id": "Pasangan menemukan yang tak bisa kamu temukan: sepuluh pertanyaan, diajukan orang lain, untuk setiap peran yang pernah kamu pegang"
+         "id": "Rekan menemukan apa yang luput darimu: sepuluh pertanyaan, diajukan orang lain, untuk setiap peran yang pernah kamu pegang"
         },
         {
          "en": "Five tests for an achievement, then claim it honestly: the team’s result plus your specific role",
-         "id": "Lima uji untuk pencapaian, lalu klaim dengan jujur: hasil tim ditambah peran spesifikmu"
+         "id": "Lima uji untuk sebuah pencapaian, lalu klaim dengan jujur: hasil tim, ditambah peran spesifikmu"
         }
        ],
        "takes": [
@@ -14486,17 +14486,17 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Then look for patterns: what keeps recurring, and what would someone who read all three lists say you are good at?",
-          "id": "Lalu cari polanya: apa yang terus berulang, dan apa kata orang yang membaca ketiga daftar tentang keahlianmu?"
+          "id": "Lalu cari polanya: apa yang terus muncul, dan menurut orang yang membaca ketiga daftar itu, kamu jago di bidang apa?"
          }
         },
         {
          "h": {
           "en": "A partner finds what you cannot",
-          "id": "Pasangan menemukan yang tidak bisa kamu temukan"
+          "id": "Rekan menemukan apa yang luput darimu"
          },
          "p": {
           "en": "Run each verb across each inventory; aim for at least eight raw achievements before you judge any of them.",
-          "id": "Jalankan tiap kata kerja atas tiap inventaris; targetkan setidaknya delapan pencapaian mentah sebelum menilai satu pun."
+          "id": "Sapukan setiap kata kerja ke setiap inventaris; kumpulkan minimal delapan pencapaian mentah sebelum menilai satu pun."
          }
         },
         {
@@ -14506,7 +14506,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Never sole credit; never erased: readers credit people with the outcomes they were close to.",
-          "id": "Jangan klaim sendiri; jangan hapus dirimu: pembaca mengaitkan orang dengan hasil yang dekat dengan mereka."
+          "id": "Jangan mengklaim semuanya sendiri, jangan pula menghapus dirimu: pembaca mengaitkan orang dengan hasil yang dekat dengannya."
          }
         }
        ],
@@ -14515,7 +14515,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Pantry first, then cook: three inventories, thirty minutes each, by hand",
-          "id": "Lemari dulu, baru memasak: tiga inventaris, tiga puluh menit masing-masing, dengan tangan"
+          "id": "Isi lemarinya dulu, baru memasak: tiga inventaris, masing-masing tiga puluh menit, ditulis tangan"
          },
          "layout": "grid",
          "items": [
@@ -14525,7 +14525,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Belajar",
            "d": {
             "en": "Each institution, degree and major, GPA and predikat, thesis, relevant courses, certifications with scores, online courses, awards. For each: what I achieved, what it shows.",
-            "id": "Tiap institusi, gelar dan jurusan, IPK dan predikat, skripsi, mata kuliah relevan, sertifikasi dengan skor, kursus daring, penghargaan. Untuk tiap butir: apa yang kucapai, apa yang ditunjukkannya."
+            "id": "Setiap kampus, gelar dan jurusan, IPK dan predikat, skripsi, mata kuliah yang relevan, sertifikasi beserta skornya, kursus daring, penghargaan. Untuk masing-masing: apa yang kucapai, dan apa yang dibuktikannya."
            },
            "img": "../../assets/bg/fresh-graduate.jpg"
           },
@@ -14535,86 +14535,86 @@ window.MT_LMS['the-pack'] = {
            "id": "Kerja",
            "d": {
             "en": "Internships, university placement, part-time, freelance, family business, assistant roles. Dates, title, responsibilities, achievements, what I learned, privately the true reason I left.",
-            "id": "Magang, MBKM, paruh waktu, lepas, usaha keluarga, peran asisten. Tanggal, jabatan, tanggung jawab, pencapaian, yang kupelajari, secara pribadi alasan sebenarnya aku pergi."
+            "id": "Magang, MBKM, kerja paruh waktu, kerja lepas, usaha keluarga, asisten dosen atau praktikum. Tanggal, jabatan, tanggung jawab, pencapaian, apa yang kupelajari, dan, untuk dirimu sendiri, alasan sebenarnya kamu berhenti."
            },
            "img": "../../assets/bg/early-professional.jpg"
           },
           {
            "icon": "users",
            "en": "Life and organisations",
-           "id": "Hidup dan organisasi",
+           "id": "Kehidupan dan organisasi",
            "d": {
             "en": "BEM, HIMA, UKM, kepanitiaan, community service, competitions, volunteering. The role, what changed because of you, who could confirm it.",
-            "id": "BEM, HIMA, UKM, kepanitiaan, KKN, lomba, kerelawanan. Perannya, apa yang berubah karena kamu, siapa yang bisa mengonfirmasi."
+            "id": "BEM, HIMA, UKM, kepanitiaan, KKN, lomba, kegiatan relawan. Peranmu, apa yang berubah karena kamu, dan siapa yang bisa memastikannya."
            },
            "img": "../../assets/bg/rope-team.jpg"
           }
          ],
          "sub": {
           "en": "Most inventories are lopsided: full of names, dates and titles, empty of achievements; a finished pantry is balanced.",
-          "id": "Kebanyakan inventaris timpang: penuh nama, tanggal, dan jabatan, kosong pencapaian; lemari yang selesai itu seimbang."
+          "id": "Kebanyakan inventaris timpang: penuh nama, tanggal, dan jabatan, tetapi kosong pencapaian; lemari yang sudah lengkap itu seimbang."
          },
          "band": {
           "en": "Then look for patterns: what keeps recurring, and what would someone who read all three lists say you are good at?",
-          "id": "Lalu cari polanya: apa yang terus berulang, dan apa kata orang yang membaca ketiga daftar tentang keahlianmu?"
+          "id": "Lalu cari polanya: apa yang terus muncul, dan menurut orang yang membaca ketiga daftar itu, kamu jago di bidang apa?"
          },
          "em": {
           "en": "Pantry first, then cook",
-          "id": "Lemari dulu, baru memasak"
+          "id": "Isi lemarinya dulu, baru memasak"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "A partner finds what you cannot: ten questions, asked by someone else, for every role you have held",
-          "id": "Pasangan menemukan yang tak bisa kamu temukan: sepuluh pertanyaan, diajukan orang lain, untuk setiap peran yang pernah kamu pegang"
+          "id": "Rekan menemukan apa yang luput darimu: sepuluh pertanyaan, diajukan orang lain, untuk setiap peran yang pernah kamu pegang"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "chart",
            "en": "Increase",
-           "id": "Menambah",
+           "id": "Naikkan",
            "d": {
             "en": "Members, sponsorship, sales, attendance, followers: a sponsorship head increased funds raised.",
-            "id": "Anggota, sponsor, penjualan, kehadiran, pengikut: kepala sponsorship menambah dana yang terhimpun."
+            "id": "Anggota, sponsor, penjualan, kehadiran, pengikut: ketua divisi sponsor menaikkan dana yang tergalang."
            }
           },
           {
            "icon": "arrow",
            "en": "Decrease",
-           "id": "Mengurangi",
+           "id": "Turunkan",
            "d": {
             "en": "Costs, waiting times, errors, complaints: a barista who suggested a pre-order board decreased waiting time.",
-            "id": "Biaya, waktu tunggu, kesalahan, keluhan: barista yang mengusulkan papan pra-pesan mengurangi waktu tunggu."
+            "id": "Biaya, waktu tunggu, kesalahan, keluhan: barista yang mengusulkan papan pesan-duluan menurunkan waktu tunggu."
            }
           },
           {
            "icon": "gear",
            "en": "Improve",
-           "id": "Memperbaiki",
+           "id": "Perbaiki",
            "d": {
             "en": "A process, a system, a relationship: a treasurer who introduced a receipt rule decreased missing records.",
-            "id": "Proses, sistem, hubungan: bendahara yang memperkenalkan aturan kuitansi mengurangi catatan yang hilang."
+            "id": "Proses, sistem, hubungan: bendahara yang memperkenalkan aturan kuitansi menurunkan jumlah catatan yang hilang."
            }
           },
           {
            "icon": "star",
            "en": "Arrange or create",
-           "id": "Mengatur atau menciptakan",
+           "id": "Selenggarakan atau ciptakan",
            "d": {
             "en": "An event, a new procedure, a first-ever activity: a workshop that did not exist before.",
-            "id": "Acara, prosedur baru, kegiatan pertama kali: lokakarya yang sebelumnya tidak ada."
+            "id": "Acara, prosedur baru, kegiatan yang pertama kali diadakan: lokakarya yang sebelumnya belum pernah ada."
            }
           }
          ],
          "sub": {
           "en": "Almost every client first says “I just did the job”, and then, under questioning, finds real achievements (A. Knowles). The listener writes; the speaker talks.",
-          "id": "Hampir setiap klien awalnya berkata “aku cuma mengerjakan tugasnya”, lalu, di bawah pertanyaan, menemukan pencapaian nyata (A. Knowles). Pendengar menulis; pembicara bicara."
+          "id": "Hampir setiap klien awalnya berkata “aku cuma mengerjakan tugas”, lalu, setelah ditanya-tanya, menemukan pencapaian nyata (A. Knowles). Si pendengar mencatat; si pencerita bercerita."
          },
          "band": {
           "en": "Run each verb across each inventory; aim for at least eight raw achievements before you judge any of them.",
-          "id": "Jalankan tiap kata kerja atas tiap inventaris; targetkan setidaknya delapan pencapaian mentah sebelum menilai satu pun."
+          "id": "Sapukan setiap kata kerja ke setiap inventaris; kumpulkan minimal delapan pencapaian mentah sebelum menilai satu pun."
          },
          "em": {
           "en": "asked by someone else",
@@ -14625,26 +14625,26 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Five tests for an achievement, then claim it honestly: the team’s result plus your specific role",
-          "id": "Lima uji untuk pencapaian, lalu klaim dengan jujur: hasil tim ditambah peran spesifikmu"
+          "id": "Lima uji untuk sebuah pencapaian, lalu klaim dengan jujur: hasil tim, ditambah peran spesifikmu"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "check",
            "en": "Completed",
-           "id": "Selesai",
+           "id": "Tuntas",
            "d": {
             "en": "It happened, and it finished.",
-            "id": "Terjadi, dan selesai."
+            "id": "Benar-benar terjadi, dan sudah selesai."
            }
           },
           {
            "icon": "person",
            "en": "Attributable to you",
-           "id": "Dapat dikaitkan denganmu",
+           "id": "Ada andilmu",
            "d": {
             "en": "At least partly your doing, and you can say which part.",
-            "id": "Setidaknya sebagian karenamu, dan kamu bisa menyebut bagian mana."
+            "id": "Setidaknya sebagian karena kamu, dan kamu bisa menyebut bagian yang mana."
            }
           },
           {
@@ -14653,39 +14653,39 @@ window.MT_LMS['the-pack'] = {
            "id": "Terukur",
            "d": {
             "en": "Scale, frequency, time or money; one is nearly always countable.",
-            "id": "Skala, frekuensi, waktu, atau uang; satu di antaranya hampir selalu bisa dihitung."
+            "id": "Skala, frekuensi, waktu, atau uang; hampir selalu ada satu yang bisa dihitung."
            }
           },
           {
            "icon": "search",
            "en": "Verifiable",
-           "id": "Dapat diverifikasi",
+           "id": "Bisa dipastikan",
            "d": {
             "en": "Someone could confirm it; if not, it stays out.",
-            "id": "Seseorang bisa mengonfirmasinya; jika tidak, tetap di luar."
+            "id": "Ada orang yang bisa memastikannya; kalau tidak ada, jangan dicantumkan."
            }
           },
           {
            "icon": "bolt",
            "en": "Made a difference",
-           "id": "Membuat perbedaan",
+           "id": "Membawa perubahan",
            "d": {
             "en": "Something changed because of it.",
-            "id": "Sesuatu berubah karenanya."
+            "id": "Ada yang berubah karenanya."
            }
           }
          ],
          "sub": {
           "en": "If it fails verification, leave it out; it will be tested at interview, and a claim you cannot back up costs more than the line was worth.",
-          "id": "Jika gagal verifikasi, tinggalkan; ia akan diuji saat wawancara, dan klaim yang tak bisa kamu dukung merugikan lebih dari nilai barisnya."
+          "id": "Kalau tidak bisa dipastikan, jangan dicantumkan; ia akan diuji saat wawancara, dan klaim yang tidak bisa kamu pertanggungjawabkan lebih merugikan daripada nilai barisnya."
          },
          "band": {
           "en": "Never sole credit; never erased: readers credit people with the outcomes they were close to.",
-          "id": "Jangan klaim sendiri; jangan hapus dirimu: pembaca mengaitkan orang dengan hasil yang dekat dengan mereka."
+          "id": "Jangan mengklaim semuanya sendiri, jangan pula menghapus dirimu: pembaca mengaitkan orang dengan hasil yang dekat dengannya."
          },
          "em": {
           "en": "the team’s result plus your specific role",
-          "id": "hasil tim ditambah peran spesifikmu"
+          "id": "hasil tim, ditambah peran spesifikmu"
          }
         }
        ],
@@ -14700,11 +14700,11 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Pantry first, then cook",
-       "id": "Lemari dulu, baru memasak"
+       "id": "Isi lemarinya dulu, baru memasak"
       },
       "intro": {
        "en": "The CV is written last. Before it, three inventories, one interview and one sweep with four verbs.",
-       "id": "CV ditulis paling akhir. Sebelumnya, tiga inventaris, satu wawancara, dan satu sapuan dengan empat kata kerja."
+       "id": "CV ditulis paling akhir. Sebelum itu: tiga inventaris, satu wawancara, dan satu sapuan dengan empat kata kerja."
       },
       "slides": [
        {
@@ -14719,18 +14719,18 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "<b>Work</b>: internship, university placement programme, part-time, freelance, family business, assistant roles.",
-          "id": "<b>Kerja</b>: magang, MBKM, paruh waktu, lepas, usaha keluarga, peran asisten."
+          "id": "<b>Kerja</b>: magang, MBKM, paruh waktu, kerja lepas, usaha keluarga, asisten dosen atau praktikum."
          },
          {
           "en": "<b>Life and organisations</b>: BEM, HIMA, UKM, kepanitiaan, community service, lomba, volunteering.",
-          "id": "<b>Hidup dan organisasi</b>: BEM, HIMA, UKM, kepanitiaan, KKN, lomba, kerelawanan."
+          "id": "<b>Kehidupan dan organisasi</b>: BEM, HIMA, UKM, kepanitiaan, KKN, lomba, kegiatan relawan."
          }
         ]
        },
        {
         "h": {
          "en": "A partner finds what you cannot",
-         "id": "Pasangan menemukan yang tidak bisa kamu temukan"
+         "id": "Rekan menemukan apa yang luput darimu"
         },
         "points": [
          {
@@ -14739,7 +14739,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "“I just did the job” becomes four achievements in ten minutes.",
-          "id": "“Aku cuma mengerjakan tugasnya” menjadi empat pencapaian dalam sepuluh menit."
+          "id": "“Aku cuma mengerjakan tugas” berubah menjadi empat pencapaian dalam sepuluh menit."
          }
         ]
        },
@@ -14751,11 +14751,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Completed · attributable to you · measurable · verifiable · made a difference.",
-          "id": "Selesai · dapat dikaitkan denganmu · terukur · dapat diverifikasi · memberi dampak nyata."
+          "id": "Selesai · bisa dikaitkan denganmu · terukur · bisa diverifikasi · memberi dampak nyata."
          },
          {
           "en": "Team results: the team’s result plus your specific role. Never sole credit; never erased.",
-          "id": "Hasil tim: hasil tim ditambah peran spesifikmu. Jangan klaim sendiri; jangan hapus dirimu."
+          "id": "Hasil tim: hasil timnya ditambah peranmu yang spesifik. Jangan diklaim sendirian; jangan juga menghapus dirimu."
          }
         ]
        }
@@ -14770,11 +14770,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bright &amp; Earl call the raw record of your life a “pantry of ingredients”: you cannot write a tailored CV quickly unless the ingredients are already gathered <i>(How to Write a Brilliant CV, ch. 6)</i>. They also note that most people’s inventories are lopsided, full of names, dates and titles, which feel safe and modest, and empty of achievements, which feel uncomfortable. A finished pantry is balanced: for every role, at least as many things you changed as things you were called.",
-        "id": "Bright &amp; Earl menyebut rekam mentah hidupmu sebagai “lemari bahan”: kamu tidak bisa menulis CV yang disesuaikan dengan cepat kecuali bahannya sudah terkumpul <i>(How to Write a Brilliant CV, bab 6)</i>. Mereka juga mencatat bahwa inventaris kebanyakan orang timpang, penuh nama, tanggal, dan jabatan, yang terasa aman dan rendah hati, dan kosong dari pencapaian, yang terasa tidak nyaman. Lemari yang selesai itu seimbang: untuk setiap peran, setidaknya sebanyak hal yang kamu ubah dibandingkan sebutan jabatanmu."
+        "id": "Bright &amp; Earl menyebut catatan mentah tentang hidupmu sebagai “lemari bahan”: kamu tidak bisa menulis CV yang disesuaikan dengan cepat kalau bahan-bahannya belum terkumpul <i>(How to Write a Brilliant CV, bab 6)</i>. Mereka juga mencatat bahwa inventaris kebanyakan orang berat sebelah: penuh nama, tanggal, dan jabatan, yang terasa aman dan tidak menyombong, tetapi nyaris kosong dari pencapaian, yang terasa tidak nyaman ditulis. Lemari yang sudah lengkap itu seimbang: untuk setiap peran, jumlah hal yang kamu ubah setidaknya sama dengan jumlah sebutan jabatanmu."
        },
        "key": {
         "en": "Gather the ingredients before cooking: a tailored CV is fast only when the raw record already exists on paper.",
-        "id": "Kumpulkan bahan sebelum memasak: CV yang disesuaikan hanya bisa cepat jika catatan mentahnya sudah ada di atas kertas."
+        "id": "Kumpulkan bahannya sebelum memasak: CV yang disesuaikan baru bisa cepat dibuat kalau catatan mentahnya sudah tertulis."
        }
       },
       {
@@ -14785,7 +14785,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Adapted from Bright &amp; Earl’s templates <i>(ch. 6)</i> and Simunovic’s three handwritten lists <i>(How to Write an Effective CV &amp; Cover Letter, §2)</i>. Simunovic suggests about thirty minutes per list, by hand. Then look for patterns: what keeps recurring? What would someone who read all three lists say you are good at?",
-        "id": "Diadaptasi dari templat Bright &amp; Earl <i>(bab 6)</i> dan tiga daftar tulisan tangan Simunovic <i>(How to Write an Effective CV &amp; Cover Letter, §2)</i>. Simunovic menyarankan sekitar tiga puluh menit per daftar, dengan tangan. Lalu cari pola: apa yang terus berulang? Apa yang akan dikatakan seseorang yang membaca ketiga daftar itu tentang keahlianmu?"
+        "id": "Diadaptasi dari templat Bright &amp; Earl <i>(bab 6)</i> dan tiga daftar tulisan tangan dari Simunovic <i>(How to Write an Effective CV &amp; Cover Letter, §2)</i>. Simunovic menyarankan sekitar tiga puluh menit untuk tiap daftar, ditulis tangan. Setelah itu cari polanya: apa yang terus muncul? Kalau seseorang membaca ketiga daftar itu, menurutnya kamu jago di bidang apa?"
        },
        "table": {
         "cols": [
@@ -14795,7 +14795,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "What goes in",
-          "id": "Apa yang masuk"
+          "id": "Isinya"
          },
          {
           "en": "For each item, also write",
@@ -14810,7 +14810,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Each institution; degree and major; GPA and <i>predikat</i>; thesis title; relevant courses; certifications with scores (TOEFL, TOEIC, IELTS (International English Language Testing System)); online courses; awards",
-           "id": "Setiap institusi; gelar dan jurusan; IPK dan <i>predikat</i>; judul skripsi; mata kuliah relevan; sertifikasi dengan skor (TOEFL, TOEIC, IELTS (International English Language Testing System)); kursus daring; penghargaan"
+           "id": "Setiap kampus atau sekolah; gelar dan jurusan; IPK dan <i>predikat</i>; judul skripsi; mata kuliah yang relevan; sertifikasi beserta skornya (TOEFL, TOEIC, IELTS (International English Language Testing System)); kursus daring; penghargaan"
           },
           {
            "en": "What I achieved · what it shows",
@@ -14828,17 +14828,17 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Dates · title · main responsibilities · achievements · what I learned · privately, the true reason I left",
-           "id": "Tanggal · jabatan · tanggung jawab utama · pencapaian · yang kupelajari · secara pribadi, alasan sebenarnya aku berhenti"
+           "id": "Tanggal · jabatan · tanggung jawab utama · pencapaian · apa yang kupelajari · (untuk diri sendiri) alasan sebenarnya aku berhenti"
           }
          ],
          [
           {
            "en": "<b>Life and organisations</b>",
-           "id": "<b>Hidup dan organisasi</b>"
+           "id": "<b>Kehidupan dan organisasi</b>"
           },
           {
            "en": "BEM, HIMA, UKM, <i>kepanitiaan</i>, community service, <i>lomba</i>, volunteering, community and religious organisations, sports, creative work",
-           "id": "BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, <i>lomba</i>, kerelawanan, organisasi masyarakat dan keagamaan, olahraga, karya kreatif"
+           "id": "BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, <i>lomba</i>, kegiatan relawan, organisasi masyarakat dan keagamaan, olahraga, karya kreatif"
           },
           {
            "en": "Role · scale (members, budget, participants) · achievements · what it shows",
@@ -14849,31 +14849,31 @@ window.MT_LMS['the-pack'] = {
        },
        "key": {
         "en": "Three inventories, thirty minutes each, by hand: learning, work, life and organisations. Then look for what keeps recurring.",
-        "id": "Tiga inventaris, tiga puluh menit masing-masing, ditulis tangan: belajar, kerja, hidup dan organisasi. Lalu cari apa yang terus berulang."
+        "id": "Tiga inventaris, tiga puluh menit masing-masing, ditulis tangan: belajar, kerja, kehidupan dan organisasi. Lalu cari apa yang terus muncul."
        }
       },
       {
        "icon": "users",
        "h": {
         "en": "The achievement-discovery interview",
-        "id": "Wawancara penemuan pencapaian"
+        "id": "Wawancara penggali pencapaian"
        },
        "body": {
         "en": "Andrew Knowles reports that almost every client first says “I just did the job”, and then, under questioning, finds real achievements <i>(How to Write an Outstanding CV, ch. 7)</i>. Work in pairs. Partner A asks Partner B these questions for <b>every</b> role in B’s inventory, then swap. The listener writes; the speaker talks. Aim for at least eight raw achievements.",
-        "id": "Andrew Knowles melaporkan bahwa hampir setiap kliennya mula-mula berkata “saya cuma mengerjakan tugasnya”. Lalu, di bawah pertanyaan, menemukan pencapaian nyata <i>(How to Write an Outstanding CV, bab 7)</i>. Bekerjalah berpasangan. Pasangan A mengajukan pertanyaan-pertanyaan ini kepada Pasangan B untuk <b>setiap</b> peran dalam inventaris B, lalu bertukar. Yang mendengar menulis; yang berbicara bercerita. Targetkan setidaknya delapan pencapaian mentah."
+        "id": "Andrew Knowles bercerita bahwa hampir semua kliennya awalnya berkata “saya cuma mengerjakan tugas saya”, lalu setelah ditanya-tanya, menemukan pencapaian yang nyata <i>(How to Write an Outstanding CV, bab 7)</i>. Kerjakan berdua. Rekan A mengajukan pertanyaan-pertanyaan ini kepada Rekan B untuk <b>setiap</b> peran di inventaris B, lalu bergantian. Yang mendengarkan mencatat; yang ditanya bercerita. Targetkan sedikitnya delapan pencapaian mentah."
        },
        "bullets": [
         {
          "en": "What difference did you make?",
-         "id": "Perbedaan apa yang kamu buat?"
+         "id": "Apa yang berubah karena kamu ada di sana?"
         },
         {
          "en": "Did you improve how anything was done?",
-         "id": "Apakah kamu memperbaiki cara sesuatu dikerjakan?"
+         "id": "Apakah kamu pernah memperbaiki cara sesuatu dikerjakan?"
         },
         {
          "en": "How much did it help, time, money, numbers, people?",
-         "id": "Seberapa besar bantuannya: waktu, uang, angka, orang?"
+         "id": "Seberapa besar manfaatnya: waktu, uang, angka, orang?"
         },
         {
          "en": "What are you most proud of?",
@@ -14881,49 +14881,49 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Were you given a special or temporary responsibility?",
-         "id": "Apakah kamu pernah diberi tanggung jawab khusus atau sementara?"
+         "id": "Pernahkah kamu diberi tanggung jawab khusus atau tugas sementara?"
         },
         {
          "en": "Did anyone thank or praise you? What for?",
-         "id": "Apakah ada yang berterima kasih atau memujimu? Untuk apa?"
+         "id": "Pernahkah seseorang berterima kasih atau memujimu? Untuk apa?"
         },
         {
          "en": "What targets did you have, and how did you do?",
-         "id": "Target apa yang kamu punya, dan bagaimana hasilnya?"
+         "id": "Target apa yang kamu pegang, dan bagaimana hasilnya?"
         },
         {
          "en": "Did you turn an idea into action?",
-         "id": "Apakah kamu pernah mengubah ide menjadi tindakan?"
+         "id": "Pernahkah kamu mewujudkan sebuah ide menjadi tindakan?"
         },
         {
          "en": "What was the hardest moment, and how did you handle it?",
-         "id": "Apa momen tersulit, dan bagaimana kamu menanganinya?"
+         "id": "Apa saat paling sulit, dan bagaimana kamu menghadapinya?"
         },
         {
          "en": "What did you learn that you still use?",
-         "id": "Apa yang kamu pelajari dan masih kamu pakai?"
+         "id": "Apa yang kamu pelajari di sana dan masih kamu pakai sampai sekarang?"
         }
        ],
        "after": [
         {
          "en": "If you have no partner today, record yourself answering aloud and transcribe it. The point is that speaking to a question produces detail that a blank page never does.",
-         "id": "Jika hari ini tidak ada pasangan, rekam dirimu menjawab dengan suara lantang dan salin. Intinya, berbicara menjawab pertanyaan menghasilkan detail yang tidak pernah dihasilkan halaman kosong."
+         "id": "Kalau hari ini tidak ada rekan, rekam dirimu menjawab dengan suara keras, lalu tuliskan. Intinya: menjawab pertanyaan secara lisan memunculkan detail yang tidak pernah muncul dari halaman kosong."
         }
        ],
        "key": {
         "en": "Almost everyone says “I just did the job” until a partner asks ten questions; the listener writes, the speaker talks.",
-        "id": "Hampir semua orang bilang “saya cuma mengerjakan tugas” sampai seorang rekan mengajukan sepuluh pertanyaan; yang mendengar menulis, yang bicara bercerita."
+        "id": "Hampir semua orang bilang “saya cuma mengerjakan tugas” sampai ada rekan yang mengajukan sepuluh pertanyaan; yang mendengar mencatat, yang ditanya bercerita."
        }
       },
       {
        "icon": "target",
        "h": {
         "en": "Four trigger verbs",
-        "id": "Empat kata kerja pemicu"
+        "id": "Empat kata kerja pemancing"
        },
        "body": {
         "en": "James Innes suggests brainstorming around four verbs <i>(The CV Book, ch. 11)</i>: things you helped <b>increase</b> (members, sponsorship, sales, attendance, followers); <b>decrease</b> (costs, waiting times, errors, complaints); <b>improve</b> (a process, a system, a relationship); and <b>arrange or create</b> (an event, a new procedure, a first-ever activity). Run each verb across each inventory. A treasurer who introduced a receipt rule <i>decreased</i> missing records; a barista who suggested a pre-order board <i>decreased</i> waiting time; a sponsorship head <i>increased</i> funds raised; a community-service student <i>created</i> a workshop that did not exist before.",
-        "id": "James Innes menyarankan curah gagasan di sekitar empat kata kerja <i>(The CV Book, bab 11)</i>: hal yang kamu bantu <b>tingkatkan</b> (anggota, sponsor, penjualan, kehadiran, pengikut); <b>kurangi</b> (biaya, waktu tunggu, kesalahan, keluhan); <b>perbaiki</b> (proses, sistem, hubungan); dan <b>atur atau ciptakan</b> (acara, prosedur baru, kegiatan yang pertama kali ada). Jalankan setiap kata kerja pada setiap inventaris. Bendahara yang memperkenalkan aturan kuitansi <i>mengurangi</i> catatan yang hilang; barista yang mengusulkan papan pra-pesan <i>mengurangi</i> waktu tunggu; kepala sponsorship <i>meningkatkan</i> dana terkumpul; mahasiswa KKN <i>menciptakan</i> lokakarya yang sebelumnya tidak ada."
+        "id": "James Innes menyarankan curah gagasan di seputar empat kata kerja <i>(The CV Book, bab 11)</i>: hal-hal yang kamu bantu <b>naikkan</b> (anggota, sponsor, penjualan, kehadiran, pengikut); <b>turunkan</b> (biaya, waktu tunggu, kesalahan, keluhan); <b>perbaiki</b> (proses, sistem, hubungan); dan <b>selenggarakan atau ciptakan</b> (acara, prosedur baru, kegiatan yang pertama kali ada). Sapukan setiap kata kerja itu ke setiap inventaris. Bendahara yang memperkenalkan aturan kuitansi <i>menurunkan</i> jumlah catatan yang hilang; barista yang mengusulkan papan pesan-duluan <i>menurunkan</i> waktu tunggu; kepala sponsorship <i>menaikkan</i> dana yang terkumpul; mahasiswa KKN <i>menciptakan</i> lokakarya yang sebelumnya tidak ada."
        },
        "key": {
         "en": "Four verbs unlock achievements: what did you increase, decrease, improve, or arrange and create?",
@@ -14938,12 +14938,12 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bright &amp; Earl list achievements people routinely overlook <i>(ch. 6)</i>: awards however small; exam results; certificates; long attendance records; fundraising; elected positions; captaining a team; organising a run or a clean-up; small process improvements. For students, add:",
-        "id": "Bright &amp; Earl mendaftar pencapaian yang rutin terlewat <i>(bab 6)</i>: penghargaan sekecil apa pun; hasil ujian; sertifikat; rekam kehadiran panjang; penggalangan dana; posisi yang dipilih; menjadi kapten tim; mengorganisasi lari atau bersih-bersih; perbaikan proses kecil. Untuk mahasiswa, tambahkan:"
+        "id": "Bright &amp; Earl mendaftar pencapaian yang sering terlewat <i>(bab 6)</i>: penghargaan sekecil apa pun; hasil ujian; sertifikat; catatan kehadiran yang panjang tanpa bolong; penggalangan dana; jabatan hasil pemilihan; menjadi kapten tim; mengadakan lomba lari atau kerja bakti; perbaikan proses yang kecil. Untuk mahasiswa, tambahkan:"
        },
        "bullets": [
         {
          "en": "Being chosen as <i>koordinator</i> or <i>PJ</i> (penanggung jawab) of a division or programme.",
-         "id": "Dipilih sebagai <i>koordinator</i> atau <i>PJ</i> (penanggung jawab) suatu divisi atau program."
+         "id": "Ditunjuk sebagai <i>koordinator</i> atau <i>PJ</i> (penanggung jawab) sebuah divisi atau program."
         },
         {
          "en": "Handling a committee’s budget, however small, and closing it cleanly.",
@@ -14955,7 +14955,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Placing in a <i>lomba</i>: including “top 8 of 140 teams”, which is a result even without a trophy.",
-         "id": "Menempati peringkat di <i>lomba</i>: termasuk “8 besar dari 140 tim”, yang tetap hasil meski tanpa piala."
+         "id": "Meraih peringkat di <i>lomba</i>, termasuk “8 besar dari 140 tim”, yang tetap sebuah hasil meski tanpa piala."
         },
         {
          "en": "Leading a community-service work programme, managing an organisation’s social media, mentoring <i>adik tingkat</i>.",
@@ -14964,7 +14964,7 @@ window.MT_LMS['the-pack'] = {
        ],
        "key": {
         "en": "“No achievements” usually means overlooked ones: elected roles, budgets closed cleanly, teaching assistantships, small process fixes.",
-        "id": "“Tidak punya pencapaian” biasanya berarti ada yang terlewat: jabatan terpilih, anggaran yang ditutup rapi, menjadi asisten, perbaikan proses kecil."
+        "id": "“Tidak punya pencapaian” biasanya berarti ada yang terlewat: jabatan hasil pemilihan, anggaran yang ditutup rapi, menjadi asisten, perbaikan proses yang kecil."
        }
       },
       {
@@ -14975,11 +14975,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bright &amp; Earl define an achievement as something that <i>(ch. 8)</i>: (1) was <b>completed</b>; (2) can be <b>attributed</b> at least partly to you; (3) can be <b>measured</b>; (4) can be <b>verified</b>; (5) made a <b>difference</b>. If an item fails test (4), leave it out. It will be tested at interview, and a claim you cannot back up costs more than the line was worth. If it fails test (3), look again: scale, frequency, time and people are nearly always countable, as Lesson 3.4 shows.",
-        "id": "Bright &amp; Earl mendefinisikan pencapaian sebagai sesuatu yang <i>(bab 8)</i>: (1) <b>selesai</b>; (2) dapat <b>dikaitkan</b> setidaknya sebagian denganmu; (3) dapat <b>diukur</b>; (4) dapat <b>diverifikasi</b>; (5) membuat <b>perbedaan</b>. Jika sebuah butir gagal uji (4), tinggalkan. Ia akan diuji saat wawancara, dan klaim yang tidak bisa kamu dukung merugikan lebih dari nilai barisnya. Jika gagal uji (3), lihat lagi: skala, frekuensi, waktu, dan orang hampir selalu bisa dihitung, seperti ditunjukkan Pelajaran 3.4."
+        "id": "Bright &amp; Earl mendefinisikan pencapaian sebagai sesuatu yang <i>(bab 8)</i>: (1) sudah <b>selesai</b>; (2) bisa <b>dikaitkan</b>, setidaknya sebagian, denganmu; (3) bisa <b>diukur</b>; (4) bisa <b>diverifikasi</b>; (5) memberi <b>dampak nyata</b>. Kalau sebuah butir gagal di uji (4), tinggalkan. Butir itu akan diuji saat wawancara, dan klaim yang tidak bisa kamu pertanggungjawabkan lebih merugikan daripada manfaat barisnya. Kalau gagal di uji (3), lihat lagi: skala, frekuensi, waktu, dan jumlah orang hampir selalu bisa dihitung, seperti yang ditunjukkan Pelajaran 3.4."
        },
        "key": {
         "en": "An achievement is completed, attributable to you, measurable, verifiable, and made a difference; if it cannot be verified, leave it out.",
-        "id": "Pencapaian itu selesai, bisa dikaitkan denganmu, terukur, bisa diverifikasi, dan memberi dampak; jika tidak bisa diverifikasi, jangan dimasukkan."
+        "id": "Pencapaian itu sudah selesai, bisa dikaitkan denganmu, terukur, bisa diverifikasi, dan memberi dampak; kalau tidak bisa diverifikasi, jangan dimasukkan."
        }
       },
       {
@@ -14990,27 +14990,27 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Much student work is done in teams, and learners often feel they cannot claim team results. Bright &amp; Earl note that readers credit people with the outcomes they were close to, and argue it is legitimate to claim a team result you contributed to <i>(ch. 6, 8)</i>; Innes agrees <i>(ch. 11)</i>. The honest formula is: <b>the team’s result + your specific role</b>.",
-        "id": "Banyak kerja mahasiswa dilakukan dalam tim, dan pembelajar sering merasa tidak bisa mengklaim hasil tim. Bright &amp; Earl mencatat bahwa pembaca mengaitkan orang dengan hasil yang dekat dengannya, dan berpendapat sah mengklaim hasil tim yang kamu sumbang <i>(bab 6, 8)</i>; Innes sependapat <i>(bab 11)</i>. Rumus jujurnya: <b>hasil tim + peran spesifikmu</b>."
+        "id": "Banyak kegiatan mahasiswa dikerjakan beramai-ramai, dan pembelajar sering merasa tidak berhak mengklaim hasil tim. Bright &amp; Earl mencatat bahwa pembaca mengaitkan seseorang dengan hasil yang dekat dengannya, dan menurut mereka sah-sah saja mengklaim hasil tim yang ikut kamu sumbang <i>(bab 6, 8)</i>; Innes sependapat <i>(bab 11)</i>. Rumus jujurnya: <b>hasil tim + peranmu yang spesifik</b>."
        },
        "quote": {
         "text": {
          "en": "“Part of a 6-person sponsorship team that raised Rp 85 juta for a 1,200-participant competition; personally secured 4 of the 11 sponsors and drafted the tiered sponsor package the team pitched.”",
-         "id": "“Bagian dari tim sponsorship 6 orang yang mengumpulkan Rp 85 juta untuk kompetisi 1.200 peserta; secara pribadi mendapatkan 4 dari 11 sponsor dan menyusun paket sponsor bertingkat yang dipresentasikan tim.”"
+         "id": "“Bagian dari tim sponsorship beranggotakan 6 orang yang mengumpulkan Rp 85 juta untuk kompetisi berpeserta 1.200 orang; mendatangkan sendiri 4 dari 11 sponsor dan menyusun paket sponsor bertingkat yang dipresentasikan tim.”"
         },
         "who": {
          "en": "The team result, then the part that was yours",
-         "id": "Hasil tim, lalu bagian yang menjadi milikmu"
+         "id": "Hasil timnya dulu, lalu bagian yang memang milikmu"
         }
        },
        "after": [
         {
          "en": "Never claim sole credit for a team result, but never erase yourself from it either. A recruiter reading “team raised Rp 85 juta” with no mention of you assumes you carried the banner.",
-         "id": "Jangan pernah mengklaim hasil tim sebagai milikmu sendiri, tetapi jangan pula menghapus dirimu darinya. Perekrut yang membaca “tim mengumpulkan Rp 85 juta” tanpa menyebutmu akan mengira kamu hanya pembawa spanduk."
+         "id": "Jangan pernah mengklaim hasil tim sebagai hasil kerjamu seorang, tetapi jangan juga menghapus dirimu dari cerita itu. Perekrut yang membaca “tim mengumpulkan Rp 85 juta” tanpa ada peranmu akan mengira kamu cuma ikut memegang spanduk."
         }
        ],
        "key": {
         "en": "Team results can be claimed honestly: the team’s result plus your specific part in it.",
-        "id": "Hasil tim boleh diklaim dengan jujur: hasil tim ditambah bagian spesifikmu di dalamnya."
+        "id": "Hasil tim boleh diklaim dengan jujur: hasil timnya ditambah bagian spesifikmu di dalamnya."
        }
       }
      ],
@@ -15018,11 +15018,11 @@ window.MT_LMS['the-pack'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 8: From “I just did the job” to a stocked pantry",
-       "id": "Peraga 8: Dari “aku cuma mengerjakan tugasnya” ke lemari yang penuh"
+       "id": "Peraga 8: Dari “aku cuma mengerjakan tugas” ke lemari yang penuh"
       },
       "title": {
        "en": "Inventory → interview → trigger sweep → five tests",
-       "id": "Inventaris → wawancara → sapuan pemicu → lima uji"
+       "id": "Inventaris → wawancara → sapuan pemancing → lima uji"
       },
       "items": [
        {
@@ -15032,27 +15032,27 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Learning · work · life and organisations. Thirty minutes each, by hand.",
-         "id": "Belajar · kerja · hidup dan organisasi. Tiga puluh menit masing-masing, dengan tangan."
+         "id": "Belajar · kerja · kehidupan dan organisasi. Tiga puluh menit masing-masing, ditulis tangan."
         }
        },
        {
         "h": {
          "en": "Discovery interview",
-         "id": "Wawancara penemuan"
+         "id": "Wawancara penggali"
         },
         "sub": {
          "en": "Ten questions per role, asked by a partner. Eight raw achievements minimum.",
-         "id": "Sepuluh pertanyaan per peran, diajukan pasangan. Minimal delapan pencapaian mentah."
+         "id": "Sepuluh pertanyaan per peran, diajukan seorang rekan. Minimal delapan pencapaian mentah."
         }
        },
        {
         "h": {
          "en": "Trigger sweep",
-         "id": "Sapuan pemicu"
+         "id": "Sapuan pemancing"
         },
         "sub": {
          "en": "Increase · decrease · improve · arrange or create, across every role.",
-         "id": "Tingkatkan · kurangi · perbaiki · atur atau ciptakan, di setiap peran."
+         "id": "Naikkan · turunkan · perbaiki · selenggarakan atau ciptakan, di setiap peran."
         }
        },
        {
@@ -15062,17 +15062,17 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Completed, attributable, measurable, verifiable, made a difference. Drop what fails verification.",
-         "id": "Selesai, dapat dikaitkan, terukur, dapat diverifikasi, memberi dampak nyata. Buang yang gagal verifikasi."
+         "id": "Selesai, bisa dikaitkan, terukur, bisa diverifikasi, memberi dampak nyata. Buang yang gagal diverifikasi."
         }
        }
       ],
       "note": {
        "en": "Output: a balanced pantry, at least as many achievements as titles, ready for the bullet formula in Lesson 3.4.",
-       "id": "Keluaran: lemari yang seimbang, setidaknya sebanyak pencapaian dibandingkan jabatan, siap untuk rumus butir di Pelajaran 3.4."
+       "id": "Hasilnya: lemari yang seimbang, dengan jumlah pencapaian setidaknya sama dengan jumlah jabatan, siap diolah dengan rumus butir di Pelajaran 3.4."
       },
       "longdesc": {
        "en": "A four-step flow. First, three handwritten inventories covering learning, work, and life and organisations. Second, a discovery interview in which a partner asks ten questions about every role. Third, a sweep with four trigger verbs: increase, decrease, improve, arrange or create. Fourth, five tests: completed, attributable, measurable, verifiable, made a difference. The output is a balanced pantry ready for Lesson 3.4.",
-       "id": "Alur empat langkah. Pertama, tiga inventaris tulisan tangan yang mencakup belajar, kerja, serta hidup dan organisasi. Kedua, wawancara penemuan ketika pasangan mengajukan sepuluh pertanyaan tentang setiap peran. Ketiga, sapuan dengan empat kata kerja pemicu: tingkatkan, kurangi, perbaiki, atur atau ciptakan. Keempat, lima uji: selesai, dapat dikaitkan, terukur, dapat diverifikasi, memberi dampak nyata. Keluarannya adalah lemari seimbang yang siap untuk Pelajaran 3.4."
+       "id": "Alur empat langkah. Pertama, tiga inventaris tulisan tangan tentang belajar, kerja, serta kehidupan dan organisasi. Kedua, wawancara penggali ketika seorang rekan mengajukan sepuluh pertanyaan tentang setiap peran. Ketiga, sapuan dengan empat kata kerja pemancing: naikkan, turunkan, perbaiki, selenggarakan atau ciptakan. Keempat, lima uji: selesai, bisa dikaitkan, terukur, bisa diverifikasi, memberi dampak nyata. Hasilnya lemari seimbang yang siap dipakai di Pelajaran 3.4."
       }
      },
      "compare": [
@@ -15083,7 +15083,7 @@ window.MT_LMS['the-pack'] = {
        },
        "q": {
         "en": "Nadia’s HIMA treasurer entry, before and after the discovery interview.",
-        "id": "Entri bendahara HIMA Nadia, sebelum dan sesudah wawancara penemuan."
+        "id": "Isian bendahara HIMA milik Nadia, sebelum dan sesudah wawancara penggali."
        },
        "weak": {
         "en": "“Treasurer, HIMA Manajemen (2024–2025). Managed the organisation’s finances.”",
@@ -15091,11 +15091,11 @@ window.MT_LMS['the-pack'] = {
        },
        "strong": {
         "en": "“Treasurer, HIMA Manajemen (2024–2025). Inherited records missing receipts for about half the previous year’s spending; introduced a shared ledger and a 3-day receipt rule for every reimbursement; the faculty’s end-of-year audit returned zero findings for the first time in three years; trained the incoming treasurer over four weeks.”",
-        "id": "“Bendahara, HIMA Manajemen (2024–2025). Mewarisi catatan tanpa kuitansi untuk sekitar separuh pengeluaran tahun sebelumnya; memperkenalkan buku besar bersama dan aturan kuitansi 3 hari untuk setiap penggantian; audit akhir tahun fakultas menghasilkan nol temuan untuk pertama kalinya dalam tiga tahun; melatih bendahara berikutnya selama empat minggu.”"
+        "id": "“Bendahara, HIMA Manajemen (2024–2025). Mewarisi catatan keuangan yang kehilangan kuitansi untuk sekitar separuh pengeluaran tahun sebelumnya; memperkenalkan buku kas bersama dan aturan kuitansi 3 hari untuk setiap penggantian uang; audit akhir tahun fakultas mencatat nol temuan untuk pertama kalinya dalam tiga tahun; melatih bendahara penerus selama empat minggu.”"
        },
        "why": {
         "en": "Same role, same year. The first is a title with a duty. The second is four achievements, each of which passes the five tests and each of which a recruiter can ask about.",
-        "id": "Peran yang sama, tahun yang sama. Yang pertama adalah jabatan dengan tugas. Yang kedua adalah empat pencapaian, masing-masing lolos lima uji dan masing-masing bisa ditanyakan perekrut."
+        "id": "Peran yang sama, tahun yang sama. Versi pertama hanyalah jabatan dan satu tugas. Versi kedua berisi empat pencapaian, masing-masing lolos lima uji dan masing-masing bisa ditanyakan perekrut."
        }
       }
      ],
@@ -15108,15 +15108,15 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "When Nadia first filled her inventory, the HIMA entry read “Treasurer (2024–2025)”. Her partner in the discovery interview, a friend from the same faculty, asked the second question: did you improve how anything was done?",
-        "id": "Ketika Nadia pertama kali mengisi inventarisnya, entri HIMA berbunyi “Bendahara (2024–2025)”. Pasangannya dalam wawancara penemuan, seorang teman dari fakultas yang sama, mengajukan pertanyaan kedua: apakah kamu memperbaiki cara sesuatu dikerjakan?"
+        "id": "Ketika Nadia pertama kali mengisi inventarisnya, isian HIMA hanya berbunyi “Bendahara (2024–2025)”. Rekannya dalam wawancara penggali, seorang teman dari fakultas yang sama, mengajukan pertanyaan kedua: pernahkah kamu memperbaiki cara sesuatu dikerjakan?"
        },
        {
         "en": "Nadia said no, then paused. She had inherited records with no receipts for half the previous year’s spending. She had introduced a shared spreadsheet and a rule that every reimbursement needed a photo of the receipt within three days. The organisation’s end-of-year audit by the faculty had zero findings for the first time in three years. She had trained the next treasurer. “But that’s just what a treasurer does,” she said.",
-        "id": "Nadia berkata tidak, lalu terdiam. Ia mewarisi catatan tanpa kuitansi untuk separuh pengeluaran tahun sebelumnya. Ia memperkenalkan spreadsheet bersama dan aturan bahwa setiap penggantian harus disertai foto kuitansi dalam tiga hari. Audit akhir tahun organisasi oleh fakultas menghasilkan nol temuan untuk pertama kalinya dalam tiga tahun. Ia melatih bendahara berikutnya. “Tapi itu kan memang tugas bendahara,” katanya."
+        "id": "Nadia bilang tidak, lalu terdiam. Ia mewarisi catatan keuangan yang tidak punya kuitansi untuk separuh pengeluaran tahun sebelumnya. Ia lalu membuat spreadsheet bersama dan aturan bahwa setiap penggantian uang harus disertai foto kuitansi paling lambat tiga hari. Audit akhir tahun dari fakultas mencatat nol temuan, untuk pertama kalinya dalam tiga tahun. Ia juga melatih bendahara berikutnya. “Tapi itu kan memang tugasnya bendahara,” katanya."
        },
        {
         "en": "It is what a good treasurer does, and the previous two had not done it. That is four achievements, found in ten minutes, in a role she thought had none. The modesty barrier from Lesson 3.1 is not crossed by trying harder alone; it is crossed by someone else asking.",
-        "id": "Itu yang dilakukan bendahara yang baik, dan dua bendahara sebelumnya tidak melakukannya. Itulah empat pencapaian, ditemukan dalam sepuluh menit, dalam peran yang ia kira tidak punya apa-apa. Penghalang kerendahan hati dari Pelajaran 3.1 tidak dilewati hanya dengan berusaha lebih keras sendirian; ia dilewati ketika orang lain yang bertanya."
+        "id": "Itu memang tugas bendahara yang baik, dan dua bendahara sebelumnya tidak melakukannya. Hasilnya empat pencapaian, ditemukan dalam sepuluh menit, dari peran yang ia kira kosong. Tembok rasa sungkan dari Pelajaran 3.1 tidak runtuh dengan berusaha lebih keras sendirian; ia runtuh ketika orang lain yang bertanya."
        }
       ]
      },
@@ -15124,29 +15124,29 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill 1: Balance the see-saw",
-        "id": "Latihan 1: Seimbangkan jungkat-jungkitnya"
+        "id": "Latihan 1: Seimbangkan timbangannya"
        },
        "body": {
         "en": "Count the items in your three inventories that are names, dates or titles, versus items that are achievements (something you changed, delivered or improved). Write the two numbers.",
-        "id": "Hitung butir dalam tiga inventarismu yang berupa nama, tanggal, atau jabatan, versus butir yang berupa pencapaian (sesuatu yang kamu ubah, hasilkan, atau perbaiki). Tulis kedua angkanya."
+        "id": "Hitung butir di tiga inventarismu yang berupa nama, tanggal, atau jabatan, lalu bandingkan dengan butir yang berupa pencapaian (sesuatu yang kamu ubah, hasilkan, atau perbaiki). Tulis kedua angkanya."
        },
        "debrief": {
         "en": "If achievements are fewer than a third, run the discovery interview again with a different partner, or on a different day. Most first inventories come out around one achievement for every five titles; a finished pantry is closer to one for one.",
-        "id": "Jika pencapaian kurang dari sepertiga, jalankan lagi wawancara penemuan dengan pasangan lain, atau di hari lain. Kebanyakan inventaris pertama menghasilkan sekitar satu pencapaian untuk setiap lima jabatan; lemari yang selesai mendekati satu banding satu."
+        "id": "Kalau pencapaiannya kurang dari sepertiga, ulangi wawancara penggali dengan rekan yang lain, atau di hari yang lain. Inventaris pertama biasanya berisi sekitar satu pencapaian untuk setiap lima jabatan; lemari yang sudah lengkap mendekati satu banding satu."
        }
       },
       {
        "h": {
         "en": "Drill 2: Trigger sweep",
-        "id": "Latihan 2: Sapuan pemicu"
+        "id": "Latihan 2: Sapuan pemancing"
        },
        "body": {
         "en": "For each of your top five roles, write one line for each trigger verb, increase, decrease, improve, arrange or create. Twenty lines, some of which will be blank.",
-        "id": "Untuk masing-masing dari lima peran teratasmu, tulis satu baris untuk setiap kata kerja pemicu; tingkatkan, kurangi, perbaiki, atur atau ciptakan. Dua puluh baris, sebagian akan kosong."
+        "id": "Untuk lima peran teratasmu, tulis satu baris untuk setiap kata kerja pemancing: naikkan, turunkan, perbaiki, selenggarakan atau ciptakan. Dua puluh baris, dan sebagian akan kosong."
        },
        "debrief": {
         "en": "Not every verb fits every role; aim for at least ten new raw achievements across the twenty lines. “Decrease” is the verb people forget most, and it is where process improvements hide, waiting time, errors, missing receipts, complaints.",
-        "id": "Tidak setiap kata kerja cocok untuk setiap peran; targetkan setidaknya sepuluh pencapaian mentah baru dari dua puluh baris. “Kurangi” adalah kata kerja yang paling sering dilupakan, dan di situlah perbaikan proses bersembunyi, waktu tunggu, kesalahan, kuitansi hilang, keluhan."
+        "id": "Tidak semua kata kerja cocok untuk setiap peran; targetkan sedikitnya sepuluh pencapaian mentah baru dari dua puluh baris itu. “Turunkan” adalah kata kerja yang paling sering dilupakan, padahal di situlah perbaikan proses bersembunyi: waktu tunggu, kesalahan, kuitansi yang hilang, keluhan."
        }
       },
       {
@@ -15156,11 +15156,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Test your ten strongest items against the five criteria: completed, attributable to you, measurable, verifiable, made a difference. Mark each item pass or fail on each test.",
-        "id": "Uji sepuluh butir terkuatmu dengan lima kriteria: selesai, dapat dikaitkan denganmu, terukur, dapat diverifikasi, memberi dampak nyata. Tandai lulus atau gagal pada setiap uji untuk setiap butir."
+        "id": "Uji sepuluh butir terkuatmu dengan lima kriteria: selesai, bisa dikaitkan denganmu, terukur, bisa diverifikasi, memberi dampak nyata. Tandai lulus atau gagal di tiap uji untuk setiap butir."
        },
        "debrief": {
         "en": "Drop anything you could not verify. Keep the rest; they become bullets in Lesson 3.4. Items that fail “measurable” usually only need a number you have not yet counted: how many people, how often, how long, how much.",
-        "id": "Buang apa pun yang tidak bisa kamu verifikasi. Simpan sisanya. Mereka menjadi butir di Pelajaran 3.4. Butir yang gagal “terukur” biasanya hanya butuh angka yang belum kamu hitung: berapa orang, seberapa sering, berapa lama, berapa banyak."
+        "id": "Buang apa pun yang tidak bisa kamu verifikasi. Simpan sisanya; merekalah yang akan menjadi butir di Pelajaran 3.4. Butir yang gagal di uji “terukur” biasanya hanya butuh satu angka yang belum kamu hitung: berapa orang, seberapa sering, berapa lama, berapa banyak."
        }
       }
      ],
@@ -15169,11 +15169,11 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Writing the CV before the inventory",
-         "id": "Menulis CV sebelum inventaris"
+         "id": "Menulis CV sebelum menyusun inventaris"
         },
         "fix": {
          "en": "Pantry first, then cook.",
-         "id": "Lemari dulu, baru memasak."
+         "id": "Isi lemarinya dulu, baru memasak."
         }
        },
        {
@@ -15183,7 +15183,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Team result + your specific role.",
-         "id": "Hasil tim + peran spesifikmu."
+         "id": "Hasil tim + peranmu yang spesifik."
         }
        },
        {
@@ -15193,17 +15193,17 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "If you can’t show it or explain it for two minutes, leave it out.",
-         "id": "Jika tidak bisa kamu tunjukkan atau jelaskan selama dua menit, tinggalkan."
+         "id": "Kalau tidak bisa kamu tunjukkan atau jelaskan selama dua menit, tinggalkan."
         }
        },
        {
         "h": {
          "en": "Doing the discovery interview alone, in your head",
-         "id": "Melakukan wawancara penemuan sendirian, di kepala"
+         "id": "Melakukan wawancara penggali sendirian, di dalam kepala"
         },
         "fix": {
          "en": "A partner, or at least a recording, produces the detail.",
-         "id": "Pasangan, atau setidaknya rekaman, menghasilkan detailnya."
+         "id": "Seorang rekan, atau setidaknya rekaman suara, yang memunculkan detailnya."
         }
        }
       ]
@@ -15216,37 +15216,37 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Dossier item: the complete, balanced record of your learning, work and organisational history with achievements attached.",
-        "id": "Butir Dossier: rekam lengkap dan seimbang dari riwayat belajar, kerja, dan organisasimu dengan pencapaian yang tercantum."
+        "id": "Butir Dossier: catatan lengkap dan seimbang tentang riwayat belajar, kerja, dan organisasimu, lengkap dengan pencapaiannya."
        }
       },
       {
        "term": {
         "en": "Discovery interview",
-        "id": "Wawancara penemuan"
+        "id": "Wawancara penggali"
        },
        "def": {
         "en": "A partner asking ten questions about each of your roles to surface achievements.",
-        "id": "Pasangan mengajukan sepuluh pertanyaan tentang setiap peranmu untuk memunculkan pencapaian."
+        "id": "Seorang rekan mengajukan sepuluh pertanyaan tentang setiap peranmu untuk memunculkan pencapaian."
        }
       },
       {
        "term": {
         "en": "Trigger verbs",
-        "id": "Kata kerja pemicu"
+        "id": "Kata kerja pemancing"
        },
        "def": {
         "en": "Increase, decrease, improve, arrange or create, prompts for forgotten achievements.",
-        "id": "Tingkatkan, kurangi, perbaiki, atur atau ciptakan, pemicu untuk pencapaian yang terlupa."
+        "id": "Naikkan, turunkan, perbaiki, selenggarakan atau ciptakan: pancingan untuk pencapaian yang terlupa."
        }
       },
       {
        "term": {
         "en": "Attributable",
-        "id": "Dapat dikaitkan"
+        "id": "Bisa dikaitkan"
        },
        "def": {
         "en": "A result you can honestly connect to your own actions, at least in part.",
-        "id": "Hasil yang bisa kamu hubungkan dengan jujur ke tindakanmu sendiri, setidaknya sebagian."
+        "id": "Hasil yang dengan jujur bisa kamu hubungkan dengan tindakanmu sendiri, setidaknya sebagian."
        }
       },
       {
@@ -15256,7 +15256,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "An event or programme committee, a recurring source of graduate evidence.",
-        "id": "Panitia acara atau program, sumber bukti lulusan baru yang berulang."
+        "id": "Panitia sebuah acara atau program; salah satu sumber bukti yang paling sering dimiliki lulusan baru."
        }
       }
      ],
@@ -15287,26 +15287,26 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Completed, attributable, measurable, verifiable, and it made a difference. The others are a membership, adjectives and a duty.",
-        "id": "Selesai, dapat dikaitkan, terukur, dapat diverifikasi, dan memberi dampak nyata. Yang lain adalah keanggotaan, kata sifat, dan tugas."
+        "id": "Selesai, bisa dikaitkan, terukur, bisa diverifikasi, dan memberi dampak nyata. Pilihan lainnya hanyalah keanggotaan, kata sifat, dan tugas."
        }
       },
       {
        "q": {
         "en": "How should you describe a team result?",
-        "id": "Bagaimana seharusnya kamu menggambarkan hasil tim?"
+        "id": "Bagaimana sebaiknya kamu menuliskan hasil tim?"
        },
        "options": [
         {
          "en": "Claim sole credit",
-         "id": "Klaim sebagai milik sendiri"
+         "id": "Klaim sebagai hasil kerja sendiri"
         },
         {
          "en": "Leave it out",
-         "id": "Tinggalkan"
+         "id": "Tidak usah ditulis"
         },
         {
          "en": "State the team result and your specific role in it",
-         "id": "Nyatakan hasil tim dan peran spesifikmu di dalamnya"
+         "id": "Sebutkan hasil timnya dan peranmu yang spesifik di dalamnya"
         },
         {
          "en": "Mention the team only",
@@ -15316,13 +15316,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 2,
        "why": {
         "en": "The team’s result gives scale; your role gives attribution. Both are needed and both are honest.",
-        "id": "Hasil tim memberi skala; peranmu memberi keterkaitan. Keduanya dibutuhkan dan keduanya jujur."
+        "id": "Hasil tim memberi skala; peranmu menunjukkan kaitannya denganmu. Keduanya perlu, dan keduanya jujur."
        }
       },
       {
        "q": {
         "en": "In the discovery interview, what is the listener’s job?",
-        "id": "Dalam wawancara penemuan, apa tugas pendengar?"
+        "id": "Dalam wawancara penggali, apa tugas orang yang mendengarkan?"
        },
        "options": [
         {
@@ -15331,7 +15331,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Ask the questions and write everything down",
-         "id": "Mengajukan pertanyaan dan menulis semuanya"
+         "id": "Mengajukan pertanyaan dan mencatat semuanya"
         },
         {
          "en": "Suggest better achievements",
@@ -15345,7 +15345,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Judgment comes later, with the five tests. During the interview the only job is to ask and record.",
-        "id": "Penilaian datang kemudian, dengan lima uji. Selama wawancara satu-satunya tugas adalah bertanya dan mencatat."
+        "id": "Menilai datang belakangan, dengan lima uji. Selama wawancara, tugasnya hanya bertanya dan mencatat."
        }
       }
      ],
@@ -15358,7 +15358,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Build your three inventories in the Studio, with an achievement and a “what it shows” field for every item and the ten discovery questions as prompts. This is Dossier item 3, and every later CV, letter and interview answer draws from it.",
-       "id": "Bangun tiga inventarismu di Studio, dengan kolom pencapaian dan “apa yang ditunjukkannya” untuk setiap butir dan sepuluh pertanyaan penemuan sebagai pemicu. Ini butir Dossier 3, dan setiap CV, surat, dan jawaban wawancara nanti mengambil dari sini."
+       "id": "Susun tiga inventarismu di Studio, dengan kolom pencapaian dan kolom “apa yang ditunjukkannya” untuk setiap butir, dan sepuluh pertanyaan penggali sebagai pemancing. Inilah butir Dossier 3, dan setiap CV, surat, dan jawaban wawancara nantinya mengambil bahan dari sini."
       },
       "cta": {
        "en": "Open the Studio →",
@@ -15368,15 +15368,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Gather every piece of evidence first; write the CV second.",
-       "id": "Kumpulkan setiap bukti lebih dulu; tulis CV setelahnya."
+       "id": "Kumpulkan semua bukti lebih dulu; tulis CV-nya belakangan."
       },
       {
        "en": "A partner asking the right ten questions finds achievements you have forgotten.",
-       "id": "Pasangan yang mengajukan sepuluh pertanyaan yang tepat menemukan pencapaian yang kamu lupakan."
+       "id": "Rekan yang mengajukan sepuluh pertanyaan yang tepat akan menemukan pencapaian yang sudah kamu lupakan."
       },
       {
        "en": "Claim team results honestly: the team’s result, plus your part in it.",
-       "id": "Klaim hasil tim dengan jujur: hasil tim, ditambah bagianmu di dalamnya."
+       "id": "Klaim hasil tim dengan jujur: hasil timnya, ditambah bagianmu di dalamnya."
       }
      ],
      "resources": {
@@ -15402,19 +15402,19 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 6–8; the pantry; overlooked achievements; the five tests; team results.",
-          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 6–8, lemari; pencapaian yang terlewat; lima uji; hasil tim."
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 6–8; lemari bahan; pencapaian yang sering terlewat; lima uji; hasil tim."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §2; three handwritten lists, thirty minutes each.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §2, tiga daftar tulisan tangan, tiga puluh menit masing-masing."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §2; tiga daftar tulisan tangan, tiga puluh menit masing-masing."
          },
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 7; “I just did the job”; the discovery questions.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 7; “saya cuma mengerjakan tugasnya”; pertanyaan penemuan."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 7; “saya cuma mengerjakan tugas saya”; pertanyaan-pertanyaan penggali."
          },
          {
           "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 11, the four trigger verbs; claiming team results.",
-          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 11, empat kata kerja pemicu; mengklaim hasil tim."
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 11; empat kata kerja pemancing; mengklaim hasil tim."
          }
         ]
        },
@@ -15435,11 +15435,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "WORK: organisation · title · dates · responsibilities · achievements · what I learned · (private) why I left",
-          "id": "KERJA: organisasi · jabatan · tanggal · tanggung jawab · pencapaian · yang kupelajari · (pribadi) mengapa aku berhenti"
+          "id": "KERJA: organisasi · jabatan · tanggal · tanggung jawab · pencapaian · apa yang kupelajari · (untuk diri sendiri) mengapa aku berhenti"
          },
          {
           "en": "LIFE &amp; ORGANISATIONS: organisation · role · dates · scale (members / budget / participants) · achievements · what it shows",
-          "id": "HIDUP &amp; ORGANISASI: organisasi · peran · tanggal · skala (anggota / anggaran / peserta) · pencapaian · apa yang ditunjukkannya"
+          "id": "KEHIDUPAN &amp; ORGANISASI: organisasi · peran · tanggal · skala (anggota / anggaran / peserta) · pencapaian · apa yang ditunjukkannya"
          }
         ]
        },
@@ -15447,20 +15447,20 @@ window.MT_LMS['the-pack'] = {
         "kind": "script",
         "title": {
          "en": "Discovery interview · ten questions",
-         "id": "Wawancara penemuan · sepuluh pertanyaan"
+         "id": "Wawancara penggali · sepuluh pertanyaan"
         },
         "desc": {
          "en": "Ask all ten for every role; the listener writes.",
-         "id": "Ajukan kesepuluhnya untuk setiap peran; pendengar menulis."
+         "id": "Ajukan kesepuluhnya untuk setiap peran; yang mendengarkan mencatat."
         },
         "body": [
          {
           "en": "What difference did you make? · Did you improve how anything was done? · How much did it help, time, money, numbers, people? · What are you most proud of? · Were you given a special or temporary responsibility?",
-          "id": "Perbedaan apa yang kamu buat? · Apakah kamu memperbaiki cara sesuatu dikerjakan? · Seberapa besar bantuannya, waktu, uang, angka, orang? · Apa yang paling kamu banggakan? · Apakah kamu pernah diberi tanggung jawab khusus atau sementara?"
+          "id": "Apa yang berubah karena kamu ada di sana? · Pernahkah kamu memperbaiki cara sesuatu dikerjakan? · Seberapa besar manfaatnya: waktu, uang, angka, orang? · Apa yang paling kamu banggakan? · Pernahkah kamu diberi tanggung jawab khusus atau tugas sementara?"
          },
          {
           "en": "Did anyone thank or praise you, and for what? · What targets did you have, and how did you do? · Did you turn an idea into action? · What was the hardest moment, and how did you handle it? · What did you learn that you still use?",
-          "id": "Apakah ada yang berterima kasih atau memujimu, untuk apa? · Target apa yang kamu punya, dan bagaimana hasilnya? · Apakah kamu pernah mengubah ide menjadi tindakan? · Apa momen tersulit, dan bagaimana kamu menanganinya? · Apa yang kamu pelajari dan masih kamu pakai?"
+          "id": "Pernahkah seseorang berterima kasih atau memujimu, dan untuk apa? · Target apa yang kamu pegang, dan bagaimana hasilnya? · Pernahkah kamu mewujudkan sebuah ide menjadi tindakan? · Apa saat paling sulit, dan bagaimana kamu menghadapinya? · Apa yang kamu pelajari di sana dan masih kamu pakai sampai sekarang?"
          }
         ]
        }
@@ -15477,24 +15477,24 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "Bullets That Prove",
-      "id": "Poin-Poin yang Membuktikan"
+      "id": "Butir yang Membuktikan"
      },
      "overview": {
       "en": "This is the lesson that changes your CV most. It teaches you to turn a raw achievement into a bullet a recruiter believes in seconds, to add numbers honestly even when you do not have exact figures, and to write the evidenced competency statements that, in the research, raised shortlisting more than anything else.",
-      "id": "Inilah pelajaran yang paling mengubah CV-mu. Ia mengajarkan cara mengubah pencapaian mentah menjadi butir yang dipercaya perekrut dalam hitungan detik, menambahkan angka dengan jujur bahkan ketika kamu tidak punya angka pasti, dan menulis pernyataan kompetensi berbukti yang, dalam penelitian, menaikkan peluang masuk daftar pendek lebih dari apa pun."
+      "id": "Inilah pelajaran yang paling banyak mengubah CV-mu. Kamu akan belajar mengubah pencapaian mentah menjadi butir yang dipercaya perekrut dalam hitungan detik, mencantumkan angka dengan jujur meski tidak punya data pasti, dan menulis pernyataan kompetensi berbukti, hal yang menurut penelitian paling menaikkan peluang masuk daftar pendek."
      },
      "objectives": [
       {
        "en": "Write achievement bullets using the <b>result-first build</b>.",
-       "id": "Menulis butir pencapaian dengan <b>bangun hasil-dulu</b>."
+       "id": "Menulis butir pencapaian dengan pola <b>hasil di depan</b>."
       },
       {
        "en": "Quantify honestly using scale, frequency, time and people.",
-       "id": "Mengukur dengan jujur memakai skala, frekuensi, waktu, dan orang."
+       "id": "Memakai angka dengan jujur lewat skala, frekuensi, waktu, dan jumlah orang."
       },
       {
        "en": "Write two evidenced competency statements matched to an advertisement.",
-       "id": "Menulis dua pernyataan kompetensi berbukti yang dicocokkan dengan sebuah iklan."
+       "id": "Menulis dua pernyataan kompetensi berbukti yang cocok dengan satu iklan."
       },
       {
        "en": "Apply language rules: verbs, tense, no pronouns, no empty adjectives.",
@@ -15512,7 +15512,7 @@ window.MT_LMS['the-pack'] = {
         "n": "3.4",
         "title": {
          "en": "Bullets That Prove",
-         "id": "Poin-Poin yang Membuktikan"
+         "id": "Butir yang Membuktikan"
         }
        },
        "story": [
@@ -15522,11 +15522,11 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "“I don’t have numbers” is almost never true: scale, frequency, time or money is nearly always countable",
-         "id": "“Aku tak punya angka” hampir tak pernah benar: skala, frekuensi, waktu, atau uang hampir selalu bisa dihitung"
+         "id": "“Aku tidak punya angka” hampir selalu keliru: skala, frekuensi, waktu, atau uang hampir selalu bisa dihitung"
         },
         {
          "en": "An evidenced competency statement names a quality the advertisement wants, then proves it in two sentences",
-         "id": "Pernyataan kompetensi berbukti menyebut kualitas yang diinginkan iklan, lalu membuktikannya dalam dua kalimat"
+         "id": "Pernyataan kompetensi berbukti menyebut satu kualitas yang dicari iklan, lalu membuktikannya dalam dua kalimat"
         }
        ],
        "takes": [
@@ -15537,17 +15537,17 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "The result-first build: write the result, then the action that produced it, then the setting; the reader meets the proof first.",
-          "id": "Bangun dari hasil: tulis hasilnya, lalu tindakan yang menghasilkannya, lalu latarnya; pembaca bertemu bukti lebih dulu."
+          "id": "Pola hasil di depan: tulis hasilnya, lalu tindakan yang menghasilkannya, lalu situasinya; pembaca bertemu buktinya lebih dulu."
          }
         },
         {
          "h": {
           "en": "Numbers, honestly",
-          "id": "Angka, dengan jujur"
+          "id": "Angka yang jujur"
          },
          "p": {
           "en": "Aim for the middle of the three-way test: too negative undersells, over the top is unbelievable, good selling is true and positive.",
-          "id": "Bidik tengah dari uji tiga arah: terlalu negatif merendahkan, berlebihan tak dipercaya, menjual dengan baik itu benar dan positif."
+          "id": "Bidik versi tengah dari uji tiga versi: terlalu merendah menjual diri terlalu murah, berlebihan sulit dipercaya, menjual dengan pas itu benar dan positif."
          }
         },
         {
@@ -15557,7 +15557,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "A reader told “I am excellent at customer service” forgets it; a reader told a specific, recent story believes it.",
-          "id": "Pembaca yang diberi tahu “saya unggul dalam layanan pelanggan” melupakannya; pembaca yang diberi cerita spesifik dan baru memercayainya."
+          "id": "Pembaca yang diberi tahu “saya sangat andal melayani pelanggan” akan segera lupa; pembaca yang mendengar cerita nyata yang baru terjadi akan percaya."
          }
         }
        ],
@@ -15577,7 +15577,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kata kerja kuat",
            "d": {
             "en": "Raised, reconciled, built, trained, cut; never “responsible for” or “helped with”.",
-            "id": "Mengumpulkan, merekonsiliasi, membangun, melatih, memangkas; jangan pernah “bertanggung jawab atas” atau “membantu”."
+            "id": "Menggalang, merekonsiliasi, membangun, melatih, memangkas; jangan pernah “bertanggung jawab atas” atau “membantu”."
            }
           },
           {
@@ -15586,7 +15586,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Apa",
            "d": {
             "en": "The thing you did, named concretely.",
-            "id": "Hal yang kamu lakukan, disebut konkret."
+            "id": "Hal yang kamu kerjakan, disebut dengan konkret."
            }
           },
           {
@@ -15604,7 +15604,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Hasil",
            "d": {
             "en": "11 sponsors, 4 personally; the number that proves it worked.",
-            "id": "11 sponsor, 4 secara pribadi; angka yang membuktikan berhasil."
+            "id": "11 sponsor, 4 di antaranya hasil lobi sendiri; angka yang membuktikan bahwa itu berhasil."
            }
           },
           {
@@ -15613,17 +15613,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Cara",
            "d": {
             "en": "The tiered package, the pitch: the method a sceptic can test at interview.",
-            "id": "Paket bertingkat, presentasinya: metode yang bisa diuji orang skeptis saat wawancara."
+            "id": "Paket bertingkat, presentasinya: cara kerja yang bisa diuji orang skeptis saat wawancara."
            }
           }
          ],
          "sub": {
           "en": "“Raised Rp 85 juta in sponsorship for a 1,200-participant competition by building a tiered package and pitching 40 companies; secured 11 sponsors, 4 personally.”",
-          "id": "“Mengumpulkan Rp 85 juta sponsor untuk kompetisi 1.200 peserta dengan menyusun paket bertingkat dan mempresentasikan ke 40 perusahaan; mendapatkan 11 sponsor, 4 secara pribadi.”"
+          "id": "“Menggalang Rp 85 juta dana sponsor untuk kompetisi dengan 1.200 peserta lewat paket bertingkat dan presentasi ke 40 perusahaan; mendapatkan 11 sponsor, 4 di antaranya hasil lobi sendiri.”"
          },
          "band": {
           "en": "The result-first build: write the result, then the action that produced it, then the setting; the reader meets the proof first.",
-          "id": "Bangun dari hasil: tulis hasilnya, lalu tindakan yang menghasilkannya, lalu latarnya; pembaca bertemu bukti lebih dulu."
+          "id": "Pola hasil di depan: tulis hasilnya, lalu tindakan yang menghasilkannya, lalu situasinya; pembaca bertemu buktinya lebih dulu."
          },
          "em": {
           "en": "one formula",
@@ -15634,7 +15634,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "“I don’t have numbers” is almost never true: scale, frequency, time or money is nearly always countable",
-          "id": "“Aku tak punya angka” hampir tak pernah benar: skala, frekuensi, waktu, atau uang hampir selalu bisa dihitung"
+          "id": "“Aku tidak punya angka” hampir selalu keliru: skala, frekuensi, waktu, atau uang hampir selalu bisa dihitung"
          },
          "layout": "grid",
          "items": [
@@ -15644,7 +15644,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Skala",
            "d": {
             "en": "How many people, participants, members, customers, documents? 1,200 participants; 3 branches; 18 UMKM owners; 120–150 customers a shift.",
-            "id": "Berapa orang, peserta, anggota, pelanggan, dokumen? 1.200 peserta; 3 cabang; 18 pemilik UMKM; 120–150 pelanggan per shift."
+            "id": "Berapa orang, peserta, anggota, pelanggan, dokumen? 1.200 peserta; 3 cabang; 18 pemilik UMKM; 120–150 pelanggan per sif."
            }
           },
           {
@@ -15653,7 +15653,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Frekuensi",
            "d": {
             "en": "Per shift, per week, per month? Daily reconciliation reports; weekly lab sessions; 24 posts a semester.",
-            "id": "Per shift, per minggu, per bulan? Laporan rekonsiliasi harian; sesi lab mingguan; 24 unggahan per semester."
+            "id": "Per sif, per minggu, per bulan? Laporan rekonsiliasi harian; sesi praktikum mingguan; 24 unggahan per semester."
            }
           },
           {
@@ -15662,7 +15662,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Waktu",
            "d": {
             "en": "How long before and after? Peak wait about 8 to about 5 minutes; about 30 minutes of manual correction a day removed; 14 months alongside study.",
-            "id": "Berapa lama sebelum dan sesudah? Antrean puncak sekitar 8 ke sekitar 5 menit; sekitar 30 menit koreksi manual sehari dihapus; 14 bulan di samping kuliah."
+            "id": "Berapa lama sebelum dan sesudahnya? Antrean jam sibuk dari sekitar 8 menjadi sekitar 5 menit; sekitar 30 menit koreksi manual per hari hilang; 14 bulan sambil kuliah."
            }
           },
           {
@@ -15671,17 +15671,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Uang",
            "d": {
             "en": "Budgets handled, funds raised, costs saved? Rp 85 juta raised; a committee budget of Rp 120 juta.",
-            "id": "Anggaran yang dikelola, dana terhimpun, biaya dihemat? Rp 85 juta terhimpun; anggaran kepanitiaan Rp 120 juta."
+            "id": "Anggaran yang dipegang, dana yang digalang, biaya yang dihemat? Rp 85 juta tergalang; anggaran kepanitiaan Rp 120 juta."
            }
           }
          ],
          "sub": {
           "en": "“About”, “around”, a range: honest approximations are fine. Invented numbers are fatal.",
-          "id": "“Sekitar”, “kira-kira”, sebuah rentang: perkiraan jujur tidak apa-apa. Angka karangan itu fatal."
+          "id": "“Sekitar”, “kira-kira”, atau rentang angka: perkiraan yang jujur boleh. Angka karangan berakibat fatal."
          },
          "band": {
           "en": "Aim for the middle of the three-way test: too negative undersells, over the top is unbelievable, good selling is true and positive.",
-          "id": "Bidik tengah dari uji tiga arah: terlalu negatif merendahkan, berlebihan tak dipercaya, menjual dengan baik itu benar dan positif."
+          "id": "Bidik versi tengah dari uji tiga versi: terlalu merendah menjual diri terlalu murah, berlebihan sulit dipercaya, menjual dengan pas itu benar dan positif."
          },
          "em": {
           "en": "nearly always countable",
@@ -15692,7 +15692,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "An evidenced competency statement names a quality the advertisement wants, then proves it in two sentences",
-          "id": "Pernyataan kompetensi berbukti menyebut kualitas yang diinginkan iklan, lalu membuktikannya dalam dua kalimat"
+          "id": "Pernyataan kompetensi berbukti menyebut satu kualitas yang dicari iklan, lalu membuktikannya dalam dua kalimat"
          },
          "img": "../../assets/pe/ed-writing.jpg",
          "layout": "flow",
@@ -15703,16 +15703,16 @@ window.MT_LMS['the-pack'] = {
            "id": "Pilih kualitasnya",
            "d": {
             "en": "The 3–5 qualities the advertisement most wants, in its own words.",
-            "id": "3–5 kualitas yang paling diinginkan iklan, dengan kata-katanya sendiri."
+            "id": "3–5 kualitas yang paling dicari iklan, dengan kata-kata iklan itu sendiri."
            }
           },
           {
            "icon": "search",
            "en": "Find the evidence",
-           "id": "Temukan buktinya",
+           "id": "Cari buktinya",
            "d": {
             "en": "Your best proof in the pantry, from any of the three inventories.",
-            "id": "Bukti terbaikmu di lemari, dari salah satu dari tiga inventaris."
+            "id": "Bukti terbaikmu di lemari, dari inventaris mana pun."
            }
           },
           {
@@ -15721,7 +15721,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Tulis dua kalimat",
            "d": {
             "en": "The quality, then the proof: setting, action, result with a number.",
-            "id": "Kualitasnya, lalu buktinya: latar, tindakan, hasil dengan angka."
+            "id": "Kualitasnya dulu, lalu buktinya: situasi, tindakan, hasil beserta angka."
            }
           },
           {
@@ -15730,17 +15730,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Uji",
            "d": {
             "en": "What did I do? In what context? How do I know it worked? Would a sceptical reader be convinced?",
-            "id": "Apa yang kulakukan? Dalam konteks apa? Bagaimana aku tahu itu berhasil? Apakah pembaca skeptis yakin?"
+            "id": "Apa yang kulakukan? Dalam situasi apa? Dari mana aku tahu itu berhasil? Apakah pembaca yang skeptis akan yakin?"
            }
           }
          ],
          "sub": {
           "en": "The strongest single addition to a graduate CV in Bright and Earl’s research; three to five of them, from your job-detective work.",
-          "id": "Tambahan tunggal terkuat pada CV lulusan baru dalam riset Bright dan Earl; tiga sampai lima, dari kerja detektif lowonganmu."
+          "id": "Dalam penelitian Bright dan Earl, inilah tambahan paling ampuh untuk CV lulusan baru; cukup tiga sampai lima, dari hasil membedah lowongan."
          },
          "band": {
           "en": "A reader told “I am excellent at customer service” forgets it; a reader told a specific, recent story believes it.",
-          "id": "Pembaca yang diberi tahu “saya unggul dalam layanan pelanggan” melupakannya; pembaca yang diberi cerita spesifik dan baru memercayainya."
+          "id": "Pembaca yang diberi tahu “saya sangat andal melayani pelanggan” akan segera lupa; pembaca yang mendengar cerita nyata yang baru terjadi akan percaya."
          },
          "em": {
           "en": "then proves it in two sentences",
@@ -15763,7 +15763,7 @@ window.MT_LMS['the-pack'] = {
       },
       "intro": {
        "en": "Three things a recruiter believes in seconds: a result, a number, and a quality with proof attached.",
-       "id": "Tiga hal yang dipercaya perekrut dalam hitungan detik: hasil, angka, dan kualitas dengan bukti yang menyertainya."
+       "id": "Ada tiga hal yang langsung dipercaya perekrut dalam hitungan detik: hasil, angka, dan kualitas yang datang bersama buktinya."
       },
       "slides": [
        {
@@ -15778,23 +15778,23 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "“Raised Rp 85 juta in sponsorship for a 1,200-participant competition by building a tiered package and pitching 40 companies; secured 11 sponsors, 4 personally.”",
-          "id": "“Mengumpulkan Rp 85 juta sponsor untuk kompetisi 1.200 peserta dengan menyusun paket bertingkat dan mempresentasikan ke 40 perusahaan; mendapatkan 11 sponsor, 4 secara pribadi.”"
+          "id": "“Menggalang Rp 85 juta dana sponsor untuk kompetisi dengan 1.200 peserta lewat paket bertingkat dan presentasi ke 40 perusahaan; mendapatkan 11 sponsor, 4 di antaranya hasil lobi sendiri.”"
          }
         ]
        },
        {
         "h": {
          "en": "Numbers, honestly",
-         "id": "Angka, dengan jujur"
+         "id": "Angka yang jujur"
         },
         "points": [
          {
           "en": "Scale · frequency · time · money; one of the four is almost always countable.",
-          "id": "Skala · frekuensi · waktu · uang, salah satu dari empat hampir selalu bisa dihitung."
+          "id": "Skala · frekuensi · waktu · uang: hampir selalu ada satu yang bisa dihitung."
          },
          {
           "en": "“About”, “around”, a range: honest approximations are fine. Invented numbers are fatal.",
-          "id": "“Sekitar”, “kira-kira”, sebuah rentang: perkiraan jujur tidak apa-apa. Angka karangan itu fatal."
+          "id": "“Sekitar”, “kira-kira”, atau rentang angka: perkiraan yang jujur boleh. Angka karangan berakibat fatal."
          }
         ]
        },
@@ -15806,11 +15806,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "An evidenced competency statement names a quality the advertisement wants, then proves it in one or two sentences.",
-          "id": "Pernyataan kompetensi berbukti menyebut kualitas yang diinginkan iklan, lalu membuktikannya dalam satu atau dua kalimat."
+          "id": "Pernyataan kompetensi berbukti menyebut satu kualitas yang dicari iklan, lalu membuktikannya dalam satu atau dua kalimat."
          },
          {
           "en": "The strongest single addition to a graduate CV in the research. Three to five of them.",
-          "id": "Tambahan tunggal terkuat pada CV lulusan baru dalam penelitian. Tiga sampai lima buah."
+          "id": "Dalam penelitian, inilah tambahan paling ampuh untuk CV lulusan baru. Cukup tiga sampai lima."
          }
         ]
        }
@@ -15821,58 +15821,58 @@ window.MT_LMS['the-pack'] = {
        "icon": "gear",
        "h": {
         "en": "The result-first build",
-        "id": "Bangun hasil-dulu"
+        "id": "Pola hasil di depan"
        },
        "body": {
         "en": "Andrew Knowles’s method for turning an achievement into a statement <i>(How to Write an Outstanding CV, ch. 8)</i>, adapted:",
-        "id": "Metode Andrew Knowles untuk mengubah pencapaian menjadi pernyataan <i>(How to Write an Outstanding CV, bab 8)</i>, diadaptasi:"
+        "id": "Metode Andrew Knowles untuk mengubah pencapaian menjadi kalimat yang meyakinkan <i>(How to Write an Outstanding CV, bab 8)</i>, dengan sedikit penyesuaian:"
        },
        "bullets": [
         {
          "en": "<b>Lead with the most important fact</b>: usually the size of the result.",
-         "id": "<b>Buka dengan fakta terpenting</b>: biasanya besarnya hasil."
+         "id": "<b>Buka dengan fakta terpenting</b>: biasanya seberapa besar hasilnya."
         },
         {
          "en": "<b>Add context</b>: what it was for, and where.",
-         "id": "<b>Tambahkan konteks</b>: untuk apa, dan di mana."
+         "id": "<b>Beri konteks</b>: untuk apa, dan di mana."
         },
         {
          "en": "<b>Add depth</b>: what made it hard, or what you beat.",
-         "id": "<b>Tambahkan kedalaman</b>: apa yang membuatnya sulit, atau apa yang kamu kalahkan."
+         "id": "<b>Beri bobot</b>: apa yang membuatnya sulit, atau siapa yang kamu kalahkan."
         },
         {
          "en": "<b>Show how</b>: the specific action or method you used.",
-         "id": "<b>Tunjukkan caranya</b>: tindakan atau metode spesifik yang kamu pakai."
+         "id": "<b>Tunjukkan caranya</b>: langkah atau metode spesifik yang kamu pakai."
         },
         {
          "en": "<b>Show scale</b>: numbers of people, money, time, volume.",
-         "id": "<b>Tunjukkan skala</b>: jumlah orang, uang, waktu, volume."
+         "id": "<b>Tunjukkan skalanya</b>: jumlah orang, uang, waktu, volume."
         },
         {
          "en": "Keep it short and <b>defensible</b>: it will be probed at interview.",
-         "id": "Jaga tetap singkat dan <b>dapat dipertahankan</b>: ia akan digali saat wawancara."
+         "id": "Buat singkat dan <b>bisa dipertanggungjawabkan</b>: kalimat ini pasti dikorek saat wawancara."
         }
        ],
        "after": [
         {
          "en": "The Pack’s compact version, the <b>bullet formula</b>, is: <b>Strong verb + what + scale + result (+ how).</b> <i>“Raised Rp 85 juta in sponsorship for a 1,200-participant national business competition by building a tiered sponsor package and pitching 40 companies; secured 11 sponsors, 4 personally.”</i> Verb (raised), what (sponsorship), scale (Rp 85 juta, 1,200 participants, 40 companies), result (11 sponsors, 4 personally), how (tiered package, pitching).",
-         "id": "Versi ringkas The Pack, <b>rumus butir</b>, adalah: <b>Kata kerja kuat + apa + skala + hasil (+ cara).</b> <i>“Mengumpulkan Rp 85 juta sponsor untuk kompetisi bisnis nasional 1.200 peserta dengan menyusun paket sponsor bertingkat dan mempresentasikan ke 40 perusahaan; mendapatkan 11 sponsor, 4 secara pribadi.”</i> Kata kerja (mengumpulkan), apa (sponsor), skala (Rp 85 juta, 1.200 peserta, 40 perusahaan), hasil (11 sponsor, 4 secara pribadi), cara (paket bertingkat, presentasi)."
+         "id": "Versi ringkasnya di The Pack disebut <b>rumus butir</b>: <b>Kata kerja kuat + apa + skala + hasil (+ cara).</b> <i>“Menggalang Rp 85 juta dana sponsor untuk kompetisi bisnis nasional dengan 1.200 peserta lewat paket sponsor bertingkat dan presentasi ke 40 perusahaan; mendapatkan 11 sponsor, 4 di antaranya hasil lobi sendiri.”</i> Kata kerja (menggalang), apa (dana sponsor), skala (Rp 85 juta, 1.200 peserta, 40 perusahaan), hasil (11 sponsor, 4 hasil lobi sendiri), cara (paket bertingkat, presentasi)."
         }
        ],
        "key": {
         "en": "Lead with the result, then add context, difficulty, and how you did it; the formula a recruiter believes in seconds.",
-        "id": "Mulai dari hasil, lalu tambahkan konteks, tingkat kesulitan, dan caramu mengerjakannya; rumus yang dipercaya perekrut dalam hitungan detik."
+        "id": "Mulai dari hasil, lalu tambahkan konteks, tingkat kesulitan, dan caramu mengerjakannya. Rumus inilah yang dipercaya perekrut dalam hitungan detik."
        }
       },
       {
        "icon": "chart",
        "h": {
         "en": "Numbers, honestly",
-        "id": "Angka, dengan jujur"
+        "id": "Angka yang jujur"
        },
        "body": {
         "en": "“I don’t have numbers” is almost never true. Four kinds of number are nearly always available:",
-        "id": "“Aku tidak punya angka” hampir tidak pernah benar. Empat jenis angka hampir selalu tersedia:"
+        "id": "“Aku tidak punya angka” hampir selalu keliru. Ada empat jenis angka yang hampir selalu bisa kamu temukan:"
        },
        "table": {
         "cols": [
@@ -15882,11 +15882,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Ask",
-          "id": "Tanyakan"
+          "id": "Pertanyaannya"
          },
          {
           "en": "Nadia’s examples",
-          "id": "Contoh Nadia"
+          "id": "Contoh dari Nadia"
          }
         ],
         "rows": [
@@ -15915,7 +15915,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Daily reconciliation reports · weekly lab sessions · 24 posts a semester",
-           "id": "Laporan rekonsiliasi harian · sesi lab mingguan · 24 unggahan per semester"
+           "id": "Laporan rekonsiliasi harian · sesi praktikum mingguan · 24 unggahan per semester"
           }
          ],
          [
@@ -15925,11 +15925,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "How long before and after? Deadlines met?",
-           "id": "Berapa lama sebelum dan sesudah? Tenggat terpenuhi?"
+           "id": "Berapa lama sebelum dan sesudahnya? Tenggat terpenuhi?"
           },
           {
            "en": "Peak wait ~8 → ~5 minutes · ~30 minutes of manual correction a day removed · 14 months alongside study",
-           "id": "Tunggu puncak ~8 → ~5 menit · ~30 menit koreksi manual per hari dihapus · 14 bulan di sela kuliah"
+           "id": "Antrean jam sibuk ~8 → ~5 menit · ~30 menit koreksi manual per hari hilang · 14 bulan sambil kuliah"
           }
          ],
          [
@@ -15939,11 +15939,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Budgets handled, funds raised, costs saved?",
-           "id": "Anggaran yang dipegang, dana terkumpul, biaya dihemat?"
+           "id": "Anggaran yang dipegang, dana yang digalang, biaya yang dihemat?"
           },
           {
            "en": "Rp 85 juta raised · a committee budget closed with zero audit findings",
-           "id": "Rp 85 juta terkumpul · anggaran kepanitiaan ditutup dengan nol temuan audit"
+           "id": "Rp 85 juta tergalang · anggaran kepanitiaan ditutup tanpa satu pun temuan audit"
           }
          ]
         ]
@@ -15951,12 +15951,12 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "Where you only know a figure approximately, say so, “about”, “around”, a range. <b>Never</b> invent a number; recruiters and interviewers ask “how did you measure that?” and an invented figure collapses instantly. An honest “noticeably fewer stock-outs” is stronger than a precise number you cannot defend.",
-         "id": "Ketika kamu hanya tahu angka secara kira-kira, katakan demikian, “sekitar”, “kira-kira”, sebuah rentang. <b>Jangan pernah</b> mengarang angka; perekrut dan pewawancara bertanya “bagaimana kamu mengukurnya?” dan angka karangan langsung runtuh. “Kehabisan stok berkurang nyata” yang jujur lebih kuat daripada angka presisi yang tidak bisa kamu pertahankan."
+         "id": "Kalau kamu hanya tahu angkanya secara kasar, katakan terus terang: “sekitar”, “kira-kira”, atau rentang. <b>Jangan pernah</b> mengarang angka. Perekrut dan pewawancara akan bertanya “bagaimana kamu mengukurnya?”, dan angka karangan langsung runtuh. Kalimat jujur seperti “kehabisan stok jauh berkurang” lebih kuat daripada angka presisi yang tidak bisa kamu pertanggungjawabkan."
         }
        ],
        "key": {
         "en": "“I don’t have numbers” is almost never true: scale, frequency, time or money is nearly always available.",
-        "id": "“Saya tidak punya angka” hampir tidak pernah benar: skala, frekuensi, waktu, atau uang hampir selalu tersedia."
+        "id": "“Aku tidak punya angka” hampir selalu keliru: skala, frekuensi, waktu, atau uang hampir selalu ada."
        }
       },
       {
@@ -15967,58 +15967,58 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bright &amp; Earl’s strongest result <i>(How to Write a Brilliant CV, ch. 11)</i> came from adding short statements that each name a quality the advertisement asks for and support it with one or two sentences of evidence <span class=\"ev ev-dated\">Dated · direction sound, do not quote the ~30% figure</span>. The method: (1) choose the 3–5 qualities the advertisement most wants, from your job-detective work; (2) for each, find your best evidence in the pantry; (3) write two sentences. The quality, then the proof; (4) test it: What did I do? In what context? How do I know it worked? Would a sceptical reader be convinced?",
-        "id": "Hasil terkuat Bright &amp; Earl <i>(How to Write a Brilliant CV, bab 11)</i> datang dari menambahkan pernyataan singkat yang masing-masing menyebut kualitas yang diminta iklan dan mendukungnya dengan satu atau dua kalimat bukti <span class=\"ev ev-dated\">Lawas · arahnya tepat, jangan kutip angka ~30%</span>. Metodenya: (1) pilih 3–5 kualitas yang paling diinginkan iklan, dari kerja detektif lowonganmu; (2) untuk masing-masing, temukan bukti terbaikmu di lemari; (3) tulis dua kalimat. Kualitasnya, lalu buktinya; (4) uji: Apa yang kulakukan? Dalam konteks apa? Bagaimana aku tahu itu berhasil? Apakah pembaca yang skeptis akan yakin?"
+        "id": "Temuan terkuat Bright &amp; Earl <i>(How to Write a Brilliant CV, bab 11)</i> datang dari pernyataan singkat yang masing-masing menyebut satu kualitas yang diminta iklan, lalu menopangnya dengan satu atau dua kalimat bukti <span class=\"ev ev-dated\">Lawas · arahnya tepat, jangan kutip angka ~30%</span>. Caranya: (1) pilih 3–5 kualitas yang paling dicari iklan, dari hasil membedah lowongan; (2) untuk tiap kualitas, cari bukti terbaikmu di lemari; (3) tulis dua kalimat: kualitasnya dulu, lalu buktinya; (4) uji: Apa yang kulakukan? Dalam situasi apa? Dari mana aku tahu itu berhasil? Apakah pembaca yang skeptis akan yakin?"
        },
        "quote": {
         "text": {
          "en": "<b>Analytical thinking.</b> During my operations internship at a regional bank, I reconciled daily transaction reports for 3 branches and noticed recurring mismatches from one teller terminal; flagging the pattern led to a settings fix that ended the daily manual corrections.<br><br><b>Working under pressure.</b> While working 20 hours a week as a barista, I also served as HIMA (the students’ association, himpunan mahasiswa) treasurer through the organisation’s busiest semester and completed my thesis on schedule.",
-         "id": "<b>Berpikir analitis.</b> Selama magang operasional di sebuah bank daerah, saya merekonsiliasi laporan transaksi harian untuk 3 cabang dan menyadari ketidakcocokan berulang dari satu terminal teller; melaporkan pola itu berujung pada perbaikan pengaturan yang mengakhiri koreksi manual harian.<br><br><b>Bekerja di bawah tekanan.</b> Sambil bekerja 20 jam seminggu sebagai barista, saya juga menjadi bendahara HIMA (himpunan mahasiswa) sepanjang semester tersibuk organisasi dan menyelesaikan skripsi tepat waktu."
+         "id": "<b>Berpikir analitis.</b> Selama magang di bagian operasional sebuah bank daerah, saya merekonsiliasi laporan transaksi harian 3 cabang dan menemukan selisih yang terus berulang dari satu terminal teller. Pola itu saya laporkan, pengaturan terminal diperbaiki, dan koreksi manual harian tidak diperlukan lagi.<br><br><b>Bekerja di bawah tekanan.</b> Sambil bekerja 20 jam seminggu sebagai barista, saya menjabat bendahara HIMA (himpunan mahasiswa) selama semester tersibuk organisasi dan tetap menyelesaikan skripsi sesuai jadwal."
         },
         "who": {
          "en": "Two statements for Nadia’s “Key Skills and Evidence” section",
-         "id": "Dua pernyataan untuk bagian “Keterampilan Utama dan Bukti” Nadia"
+         "id": "Dua pernyataan untuk bagian “Keterampilan Utama dan Bukti” di CV Nadia"
         }
        },
        "after": [
         {
          "en": "Bright &amp; Earl usually group these under a heading such as <b>“Key Skills and Evidence”</b>. Note the distinction from a bare skills list: “Communication, Teamwork, Leadership” is a list of claims; statements like the above are evidence. Innes objects to bare “key skills” lists <i>(The CV Book, ch. 10)</i>; the research supports <i>evidenced</i> statements. Write the second kind, never the first.",
-         "id": "Bright &amp; Earl biasanya mengelompokkannya di bawah judul seperti <b>“Keterampilan Utama dan Bukti”</b>. Perhatikan bedanya dari daftar keterampilan telanjang: “Komunikasi, Kerja Sama Tim, Kepemimpinan” adalah daftar klaim; pernyataan seperti di atas adalah bukti. Innes menolak daftar “keterampilan utama” telanjang <i>(The CV Book, bab 10)</i>; penelitian mendukung pernyataan <i>berbukti</i>. Tulis jenis kedua, jangan pernah yang pertama."
+         "id": "Bright &amp; Earl biasanya mengumpulkannya di bawah judul seperti <b>“Keterampilan Utama dan Bukti”</b>. Bedakan dengan daftar keterampilan polos: “Komunikasi, Kerja Sama Tim, Kepemimpinan” hanyalah deretan klaim, sedangkan pernyataan seperti di atas adalah bukti. Innes menolak daftar “keterampilan utama” yang polos <i>(The CV Book, bab 10)</i>, dan penelitian mendukung pernyataan yang <i>berbukti</i>. Tulis yang kedua, jangan yang pertama."
         }
        ],
        "key": {
         "en": "Name a quality the advertisement wants, then prove it in one or two sentences; evidenced statements are the strongest shortlisting effect in the research.",
-        "id": "Sebut kualitas yang diminta iklan, lalu buktikan dalam satu atau dua kalimat; pernyataan berbukti adalah efek terkuat pada daftar pendek dalam riset."
+        "id": "Sebut kualitas yang dicari iklan, lalu buktikan dalam satu atau dua kalimat. Dalam penelitian, pernyataan berbukti paling kuat menaikkan peluang masuk daftar pendek."
        }
       },
       {
        "icon": "book",
        "h": {
-        "en": "Stories: PREP-STAR and CAROL (Context, Action, Result, Outcome, Learning)",
-        "id": "Cerita: PREP-STAR dan CAROL (Context, Action, Result, Outcome, Learning)"
+        "en": "Stories: PREP-STAR and CAROL (Context, Actions, Reasons, Outcome, Learning)",
+        "id": "Cerita: PREP-STAR dan CAROL (konteks, aksi, alasan, hasil, pelajaran)"
        },
        "body": {
         "en": "Bright &amp; Earl show why stories persuade: a reader told “I am excellent at customer service” forgets it; a reader told a specific, recent story of a customer problem solved believes it <i>(ch. 12)</i>. Two structures:",
-        "id": "Bright &amp; Earl menunjukkan mengapa cerita meyakinkan: pembaca yang diberi tahu “saya sangat baik dalam layanan pelanggan” melupakannya; pembaca yang diberi cerita spesifik dan baru tentang masalah pelanggan yang terpecahkan mempercayainya <i>(bab 12)</i>. Dua struktur:"
+        "id": "Bright &amp; Earl menjelaskan mengapa cerita lebih meyakinkan: pembaca yang hanya diberi tahu “saya sangat andal melayani pelanggan” akan segera lupa, tetapi pembaca yang mendengar kisah nyata dan baru tentang masalah pelanggan yang berhasil diselesaikan akan percaya <i>(bab 12)</i>. Ada dua kerangka:"
        },
        "bullets": [
         {
          "en": "<b>PREP-STAR</b>: <b>P</b>oint (the quality), <b>R</b>eason (why it matters for this job), <b>E</b>vidence as <b>S</b>ituation–<b>T</b>ask–<b>A</b>ction–<b>R</b>esult, then <b>P</b>oint forward (what you will bring).",
-         "id": "<b>PREP-STAR</b>: <b>P</b>oin (kualitasnya), <b>R</b>eason/alasan (mengapa penting untuk pekerjaan ini), <b>E</b>vidensi sebagai <b>S</b>ituasi–<b>T</b>ugas–<b>A</b>ksi–<b>R</b>esult/hasil, lalu <b>P</b>oin ke depan (apa yang akan kamu bawa)."
+         "id": "<b>PREP-STAR</b>: <b>P</b>oin (kualitasnya), <b>R</b>eason atau alasan (mengapa penting untuk pekerjaan ini), <b>E</b>vidence atau bukti dalam bentuk <b>S</b>ituasi–<b>T</b>ugas–<b>A</b>ksi–<b>R</b>esult (hasil), lalu <b>P</b>oin ke depan (apa yang akan kamu bawa)."
         },
         {
          "en": "<b>CAROL</b>: <b>C</b>ontext, <b>A</b>ctions, <b>R</b>easons (why you chose those actions), <b>O</b>utcome, <b>L</b>earning. The Reasons and Learning elements make CAROL especially useful for graduates whose outcomes are modest: judgement and learning can carry the story.",
-         "id": "<b>CAROL</b>: <b>C</b>onteks, <b>A</b>ksi, <b>R</b>easons/alasan (mengapa kamu memilih tindakan itu), <b>O</b>utcome/hasil, <b>L</b>earning/pembelajaran. Unsur Alasan dan Pembelajaran membuat CAROL sangat berguna bagi lulusan baru yang hasilnya sederhana: penilaian dan pembelajaran bisa menopang ceritanya."
+         "id": "<b>CAROL</b>: <b>C</b>onteks, <b>A</b>ksi, <b>R</b>easons atau alasan (mengapa kamu memilih langkah itu), <b>O</b>utcome atau hasil, <b>L</b>earning atau pelajaran yang dipetik. Unsur alasan dan pelajaran membuat CAROL sangat pas untuk lulusan baru yang hasilnya belum besar: pertimbangan dan pelajaranlah yang menghidupkan ceritanya."
         }
        ],
        "after": [
         {
          "en": "These stories feed three places at once: the competency statements on your CV, your cover letter (Module 6), and your interview answers (The Rope). Build them once, in the pantry.",
-         "id": "Cerita-cerita ini mengisi tiga tempat sekaligus: pernyataan kompetensi di CV-mu, surat lamaranmu (Modul 6), dan jawaban wawancaramu (The Rope). Bangun sekali, di lemari."
+         "id": "Cerita-cerita ini dipakai di tiga tempat sekaligus: pernyataan kompetensi di CV, surat lamaran (Modul 6), dan jawaban wawancara (The Rope). Susun sekali saja, lalu simpan di lemari."
         }
        ],
        "key": {
         "en": "A claim is forgotten; a specific recent story is believed. PREP-STAR and CAROL give the story a shape.",
-        "id": "Klaim dilupakan; cerita spesifik yang baru terjadi dipercaya. PREP-STAR dan CAROL memberi cerita itu bentuk."
+        "id": "Klaim mudah dilupakan; cerita spesifik yang baru terjadi lebih dipercaya. PREP-STAR dan CAROL memberi cerita itu kerangka."
        }
       },
       {
@@ -16029,7 +16029,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Seven rules, drawn from all the sources, that make bullets read as evidence rather than description.",
-        "id": "Tujuh aturan, diambil dari semua sumber, yang membuat butir terbaca sebagai bukti, bukan gambaran."
+        "id": "Tujuh aturan, dirangkum dari semua sumber, agar butir terbaca sebagai bukti, bukan sekadar uraian tugas."
        },
        "bullets": [
         {
@@ -16038,53 +16038,53 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "<b>No pronouns in bullets.</b> Start with the verb <i>(Innes, ch. 3; Simunovic, §3.1)</i>. First person is fine in competency statements and letters.",
-         "id": "<b>Tanpa kata ganti dalam butir.</b> Mulai dengan kata kerja <i>(Innes, bab 3; Simunovic, §3.1)</i>. Orang pertama tidak apa-apa dalam pernyataan kompetensi dan surat."
+         "id": "<b>Tanpa kata ganti di butir.</b> Langsung mulai dengan kata kerja <i>(Innes, bab 3; Simunovic, §3.1)</i>. Kata “saya” boleh dipakai di pernyataan kompetensi dan surat."
         },
         {
          "en": "<b>Tense.</b> Past for past roles; present for current roles.",
-         "id": "<b>Kala.</b> Lampau untuk peran yang lalu; kini untuk peran yang sedang berjalan (dalam bahasa Inggris)."
+         "id": "<b>Kala.</b> Untuk CV berbahasa Inggris: bentuk lampau untuk peran yang sudah selesai, bentuk kini untuk peran yang masih berjalan."
         },
         {
          "en": "<b>Vary the opening verb.</b> No two bullets in one role should start with the same word <i>(Innes, ch. 3)</i>.",
-         "id": "<b>Variasikan kata kerja pembuka.</b> Tidak ada dua butir dalam satu peran yang dimulai dengan kata yang sama <i>(Innes, bab 3)</i>."
+         "id": "<b>Ganti-ganti kata kerja pembuka.</b> Jangan ada dua butir dalam satu peran yang diawali kata yang sama <i>(Innes, bab 3)</i>."
         },
         {
          "en": "<b>Words that weaken.</b> Avoid <i>tried, attempted, helped with, was involved in, responsible for</i> where a stronger verb is true <i>(Bright &amp; Earl, ch. 10)</i>.",
-         "id": "<b>Kata yang melemahkan.</b> Hindari <i>mencoba, berusaha, membantu dalam, terlibat dalam, bertanggung jawab atas</i> jika kata kerja yang lebih kuat itu benar <i>(Bright &amp; Earl, bab 10)</i>."
+         "id": "<b>Kata yang melemahkan.</b> Hindari <i>mencoba, berusaha, membantu, terlibat dalam, bertanggung jawab atas</i> bila ada kata kerja yang lebih kuat dan tetap benar <i>(Bright &amp; Earl, bab 10)</i>."
         },
         {
          "en": "<b>Empty adjectives.</b> “Hard-working”, “passionate”, “dynamic”, “results-driven”, “team player” describe everyone; delete them unless evidence is attached <i>(Knowles, ch. 5; Ow)</i>.",
-         "id": "<b>Kata sifat kosong.</b> “Pekerja keras”, “bersemangat”, “dinamis”, “berorientasi hasil”, “pemain tim” menggambarkan semua orang; hapus kecuali ada bukti yang menyertainya <i>(Knowles, bab 5; Ow)</i>."
+         "id": "<b>Kata sifat kosong.</b> “Pekerja keras”, “bersemangat”, “dinamis”, “berorientasi hasil”, “mampu bekerja dalam tim” berlaku untuk semua orang. Hapus, kecuali ada bukti yang menyertainya <i>(Knowles, bab 5; Ow)</i>."
         },
         {
          "en": "<b>Mirror the employer’s vocabulary.</b> Use the advertisement’s words for the same thing; spell out acronyms once <i>(Bright &amp; Earl, ch. 10)</i>.",
-         "id": "<b>Cerminkan kosakata perusahaan.</b> Pakai kata-kata iklan untuk hal yang sama; tuliskan kepanjangan akronim sekali <i>(Bright &amp; Earl, bab 10)</i>."
+         "id": "<b>Pakai kosakata perusahaan.</b> Gunakan istilah yang dipakai iklan untuk hal yang sama, dan tulis kepanjangan akronim sekali <i>(Bright &amp; Earl, bab 10)</i>."
         }
        ],
        "key": {
         "en": "Verbs, no pronouns, consistent tense, varied openings: seven language rules that make bullets read as evidence.",
-        "id": "Kata kerja, tanpa kata ganti, kala yang konsisten, pembuka yang bervariasi: tujuh aturan bahasa yang membuat butir terbaca sebagai bukti."
+        "id": "Kata kerja, tanpa kata ganti, kala yang konsisten, pembuka yang beragam: tujuh aturan bahasa agar butir terbaca sebagai bukti."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "Honest framing: the three-way test",
-        "id": "Pembingkaian jujur: uji tiga arah"
+        "id": "Membingkai dengan jujur: uji tiga versi"
        },
        "body": {
         "en": "Bright &amp; Earl show the same fact written three ways <i>(ch. 1)</i>: <b>too negative</b> (underselling), <b>good selling</b> (true and positive), and <b>over the top</b> (unbelievable). Always aim for the middle. If you cannot say something positively <i>and</i> truthfully, consider not saying it.",
-        "id": "Bright &amp; Earl menunjukkan fakta yang sama ditulis tiga cara <i>(bab 1)</i>: <b>terlalu negatif</b> (menjual terlalu rendah), <b>menjual dengan baik</b> (benar dan positif), dan <b>berlebihan</b> (tidak masuk akal). Selalu bidik yang tengah. Jika kamu tidak bisa mengatakan sesuatu secara positif <i>dan</i> jujur, pertimbangkan untuk tidak mengatakannya."
+        "id": "Bright &amp; Earl menulis fakta yang sama dalam tiga versi <i>(bab 1)</i>: <b>terlalu merendah</b> (menjual diri terlalu murah), <b>menjual dengan pas</b> (benar dan positif), dan <b>berlebihan</b> (sulit dipercaya). Selalu bidik yang tengah. Kalau sesuatu tidak bisa kamu katakan secara positif <i>sekaligus</i> jujur, pertimbangkan untuk tidak menuliskannya."
        },
        "table": {
         "cols": [
          {
           "en": "Too negative",
-          "id": "Terlalu negatif"
+          "id": "Terlalu merendah"
          },
          {
           "en": "Good selling",
-          "id": "Menjual dengan baik"
+          "id": "Menjual dengan pas"
          },
          {
           "en": "Over the top",
@@ -16099,17 +16099,17 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“Served 120–150 customers a shift for 14 months alongside a full course load; trained 3 new baristas.”",
-           "id": "“Melayani 120–150 pelanggan per sif selama 14 bulan di sela beban kuliah penuh; melatih 3 barista baru.”"
+           "id": "“Melayani 120–150 pelanggan per sif selama 14 bulan sambil menjalani kuliah penuh; melatih 3 barista baru.”"
           },
           {
            "en": "“Ran operations for a leading coffee brand and transformed its customer experience.”",
-           "id": "“Menjalankan operasional sebuah merek kopi terkemuka dan mentransformasi pengalaman pelanggannya.”"
+           "id": "“Menjalankan operasional merek kopi ternama dan mengubah total pengalaman pelanggannya.”"
           }
          ],
          [
           {
            "en": "“Helped a bit with the sponsorship.”",
-           "id": "“Sedikit membantu urusan sponsor.”"
+           "id": "“Sedikit bantu-bantu urusan sponsor.”"
           },
           {
            "en": "“Secured 4 of the team’s 11 sponsors and drafted the tiered package the team pitched.”",
@@ -16117,14 +16117,14 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“Single-handedly raised Rp 85 juta.”",
-           "id": "“Seorang diri mengumpulkan Rp 85 juta.”"
+           "id": "“Seorang diri menggalang Rp 85 juta.”"
           }
          ]
         ]
        },
        "key": {
         "en": "The same fact can be undersold, sold well, or oversold; always aim for the middle, true and positive.",
-        "id": "Fakta yang sama bisa dijual kurang, dijual baik, atau dijual berlebihan; selalu bidik yang tengah, benar dan positif."
+        "id": "Fakta yang sama bisa ditulis terlalu merendah, pas, atau berlebihan. Selalu bidik yang tengah: benar dan positif."
        }
       }
      ],
@@ -16146,7 +16146,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Raised · reconciled · introduced · trained · designed. Never “responsible for”.",
-         "id": "Mengumpulkan · merekonsiliasi · memperkenalkan · melatih · merancang. Jangan “bertanggung jawab atas”."
+         "id": "Menggalang · merekonsiliasi · memperkenalkan · melatih · merancang. Jangan pernah “bertanggung jawab atas”."
         }
        },
        {
@@ -16156,7 +16156,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "The thing you acted on: sponsorship, daily reports, a receipt rule, a workshop.",
-         "id": "Hal yang kamu tindak: sponsor, laporan harian, aturan kuitansi, lokakarya."
+         "id": "Hal yang kamu kerjakan: dana sponsor, laporan harian, aturan kuitansi, lokakarya."
         }
        },
        {
@@ -16176,7 +16176,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "What changed, honestly: 11 sponsors, zero audit findings, wait ~8 → ~5 minutes.",
-         "id": "Apa yang berubah, dengan jujur: 11 sponsor, nol temuan audit, tunggu ~8 → ~5 menit."
+         "id": "Apa yang berubah, apa adanya: 11 sponsor, nol temuan audit, antrean ~8 → ~5 menit."
         }
        },
        {
@@ -16186,17 +16186,17 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "The method, when it shows judgement: a tiered package, a 3-day rule, a pre-order board.",
-         "id": "Metodenya, ketika menunjukkan penilaian: paket bertingkat, aturan 3 hari, papan pra-pesan."
+         "id": "Metodenya, kalau menunjukkan pertimbanganmu: paket bertingkat, aturan 3 hari, papan pesan-duluan."
         }
        }
       ],
       "note": {
        "en": "One to two lines. Defensible for two minutes at interview. The first three or four words are what the skim reads; put the verb and the number there.",
-       "id": "Satu sampai dua baris. Bisa dipertahankan dua menit saat wawancara. Tiga atau empat kata pertama adalah yang dibaca pindaian, taruh kata kerja dan angkanya di sana."
+       "id": "Satu sampai dua baris. Sanggup kamu jelaskan dua menit saat wawancara. Perekrut yang memindai hanya menangkap tiga atau empat kata pertama, jadi taruh kata kerja dan angkanya di sana."
       },
       "longdesc": {
        "en": "A five-part formula shown as a flow: a strong verb, then what you acted on, then the scale in people, money, frequency or time, then the honest result, then optionally how you did it. The note says bullets should be one to two lines, defensible for two minutes at interview, with the verb and number in the first words.",
-       "id": "Rumus lima bagian yang ditampilkan sebagai alur: kata kerja kuat, lalu hal yang kamu tindak, lalu skala dalam orang, uang, frekuensi, atau waktu, lalu hasil yang jujur, lalu opsional caranya. Catatan menyebut butir sebaiknya satu sampai dua baris, bisa dipertahankan dua menit saat wawancara, dengan kata kerja dan angka di kata-kata pertama."
+       "id": "Rumus lima bagian yang digambarkan sebagai alur: kata kerja kuat, lalu hal yang kamu kerjakan, lalu skalanya dalam orang, uang, frekuensi, atau waktu, lalu hasil yang jujur, dan bila perlu caranya. Catatannya: butir sebaiknya satu sampai dua baris, sanggup dijelaskan dua menit saat wawancara, dengan kata kerja dan angka di kata-kata pertama."
       }
      },
      "compare": [
@@ -16207,7 +16207,7 @@ window.MT_LMS['the-pack'] = {
        },
        "q": {
         "en": "One year as treasurer of HIMA Manajemen.",
-        "id": "Satu tahun sebagai bendahara HIMA Manajemen."
+        "id": "Setahun menjadi bendahara HIMA Manajemen."
        },
        "weak": {
         "en": "“Responsible for managing HIMA finances.”",
@@ -16215,11 +16215,11 @@ window.MT_LMS['the-pack'] = {
        },
        "strong": {
         "en": "“Rebuilt HIMA Manajemen’s financial records after inheriting incomplete books; introduced a shared ledger and 3-day receipt rule, and the faculty audit returned zero findings for the first time in 3 years.”",
-        "id": "“Membangun ulang catatan keuangan HIMA Manajemen setelah mewarisi pembukuan yang tidak lengkap; memperkenalkan buku besar bersama dan aturan kuitansi 3 hari, dan audit fakultas menghasilkan nol temuan untuk pertama kalinya dalam 3 tahun.”"
+        "id": "“Membenahi catatan keuangan HIMA Manajemen yang diwarisi dalam keadaan tidak lengkap; memperkenalkan buku kas bersama dan aturan kuitansi 3 hari, hingga audit fakultas mencatat nol temuan untuk pertama kalinya dalam 3 tahun.”"
        },
        "why": {
         "en": "Context, action, and a verifiable result.",
-        "id": "Konteks, tindakan, dan hasil yang dapat diverifikasi."
+        "id": "Ada konteks, tindakan, dan hasil yang bisa dicek."
        }
       },
       {
@@ -16237,33 +16237,33 @@ window.MT_LMS['the-pack'] = {
        },
        "strong": {
         "en": "“Reconciled daily transaction reports for 3 branches during a 3-month operations internship; identified a recurring terminal mismatch that, once fixed, removed about 30 minutes of manual correction per day.”",
-        "id": "“Merekonsiliasi laporan transaksi harian untuk 3 cabang selama magang operasional 3 bulan; mengidentifikasi ketidakcocokan terminal berulang yang, setelah diperbaiki, menghapus sekitar 30 menit koreksi manual per hari.”"
+        "id": "“Merekonsiliasi laporan transaksi harian 3 cabang selama magang operasional 3 bulan; menemukan selisih berulang pada satu terminal yang, setelah diperbaiki, menghemat sekitar 30 menit koreksi manual per hari.”"
        },
        "why": {
         "en": "“Helped with” disappears; a specific task, a finding and an honest, approximate result take its place.",
-        "id": "“Membantu” menghilang; tugas spesifik, temuan, dan hasil jujur yang kira-kira menggantikannya."
+        "id": "Kata “membantu” hilang. Gantinya: tugas yang spesifik, temuan, dan hasil kira-kira yang jujur."
        }
       },
       {
        "tag": {
-        "en": "Community service (nepotism)",
+        "en": "Community service",
         "id": "KKN (kuliah kerja nyata)"
        },
        "q": {
         "en": "Community service in Kabupaten Kendal.",
-        "id": "Pengabdian masyarakat di Kabupaten Kendal."
+        "id": "KKN di Kabupaten Kendal."
        },
        "weak": {
-        "en": "“Participated in community service (nepotism) in Kendal.”",
+        "en": "“Participated in community service in Kendal.”",
         "id": "“Mengikuti KKN di Kendal.”"
        },
        "strong": {
         "en": "“Designed and delivered a bookkeeping workshop for 18 UMKM owners during community service; 12 adopted the simple cash-book template within a month.”",
-        "id": "“Merancang dan menyampaikan lokakarya pembukuan untuk 18 pemilik UMKM selama KKN; 12 di antaranya mengadopsi templat buku kas sederhana dalam sebulan.”"
+        "id": "“Merancang dan membawakan lokakarya pembukuan untuk 18 pemilik UMKM selama KKN; 12 di antaranya mulai memakai templat buku kas sederhana dalam sebulan.”"
        },
        "why": {
         "en": "Participation is what everyone did. Designing, delivering and an adoption rate are what Nadia did.",
-        "id": "Mengikuti adalah yang dilakukan semua orang. Merancang, menyampaikan, dan tingkat adopsi adalah yang dilakukan Nadia."
+        "id": "Ikut KKN dilakukan semua orang. Merancang, membawakan, dan berapa yang akhirnya memakai templatnya: itulah yang dilakukan Nadia."
        }
       }
      ],
@@ -16276,15 +16276,15 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "Nadia’s café bullet needed a result. She remembered that the pre-order board she suggested had made the morning rush calmer, but nobody had timed it. Her first draft said “cut waiting time by 40%”. It looked good. Then she imagined the interviewer asking “how did you measure that?” and realised she would have to say she had made it up.",
-        "id": "Butir kafe Nadia membutuhkan hasil. Ia ingat papan pra-pesan yang ia usulkan membuat jam sibuk pagi lebih tenang, tetapi tidak ada yang mengukur waktunya. Draf pertamanya berbunyi “memangkas waktu tunggu 40%”. Terlihat bagus. Lalu ia membayangkan pewawancara bertanya “bagaimana kamu mengukurnya?” dan sadar ia harus mengaku mengarangnya."
+        "id": "Butir kafe Nadia butuh hasil. Ia ingat papan pesan-duluan yang ia usulkan membuat jam sibuk pagi lebih tenang, tapi tidak ada yang pernah menghitung waktunya. Draf pertamanya berbunyi “memangkas waktu tunggu 40%”. Kelihatannya bagus. Lalu ia membayangkan pewawancara bertanya “bagaimana kamu mengukurnya?”, dan sadar ia harus mengaku angka itu karangan."
        },
        {
         "en": "So she went back to the four kinds of number. Scale she had: 120–150 customers a shift. Time she could estimate honestly: before the board, the queue at 7:30 was usually eight or nine people deep and took about eight minutes to clear; after, about five. She wrote “cut average wait at peak from about 8 to about 5 minutes”, with the word “about” doing honest work.",
-        "id": "Maka ia kembali ke empat jenis angka. Skala ia punya: 120–150 pelanggan per sif. Waktu bisa ia perkirakan dengan jujur: sebelum ada papan, antrean pukul 07.30 biasanya delapan atau sembilan orang dan butuh sekitar delapan menit untuk habis; sesudahnya, sekitar lima. Ia menulis “memangkas rata-rata waktu tunggu puncak dari sekitar 8 menjadi sekitar 5 menit”, dengan kata “sekitar” menjalankan tugas kejujuran."
+        "id": "Ia pun kembali ke empat jenis angka. Skala ia punya: 120–150 pelanggan per sif. Waktu bisa ia perkirakan dengan jujur: sebelum ada papan, antrean pukul 07.30 biasanya delapan atau sembilan orang dan baru habis sekitar delapan menit; setelahnya, sekitar lima menit. Ia menulis “memangkas rata-rata waktu tunggu di jam sibuk dari sekitar 8 menjadi sekitar 5 menit”. Kata “sekitar” di situ menjaga kalimatnya tetap jujur."
        },
        {
         "en": "At interview, the honest version is a story she can tell for two minutes. The invented 40% would have been a thirty-second silence.",
-        "id": "Saat wawancara, versi jujur adalah cerita yang bisa ia sampaikan dua menit. Angka 40% karangan akan menjadi tiga puluh detik keheningan."
+        "id": "Saat wawancara, versi jujur itu menjadi cerita yang bisa ia tuturkan selama dua menit. Angka 40% karangan hanya akan berujung tiga puluh detik hening."
        }
       ]
      },
@@ -16292,15 +16292,15 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill: Five rewrites",
-        "id": "Latihan: Lima penulisan ulang"
+        "id": "Latihan: Tulis ulang lima baris"
        },
        "body": {
         "en": "For each line, write your version with the formula before opening the debrief. (1) “Member of the publication division, BEM (the student executive board, badan eksekutif mahasiswa).” (2) “Asisten praktikum Statistika.” (3) “Joined a business plan competition.” (4) “Part-time admin at family business.” (5) “Good communication skills.”",
-        "id": "Untuk setiap baris, tulis versimu dengan rumus sebelum membuka pembahasan. (1) “Anggota divisi publikasi, BEM (badan eksekutif mahasiswa).” (2) “Asisten praktikum Statistika.” (3) “Ikut lomba business plan.” (4) “Admin paruh waktu di usaha keluarga.” (5) “Kemampuan komunikasi yang baik.”"
+        "id": "Tulis ulang setiap baris di bawah ini dengan rumus butir sebelum membuka pembahasan. (1) “Anggota divisi publikasi BEM (badan eksekutif mahasiswa).” (2) “Asisten praktikum Statistika.” (3) “Ikut lomba business plan.” (4) “Admin paruh waktu di usaha keluarga.” (5) “Kemampuan komunikasi yang baik.”"
        },
        "debrief": {
         "en": "(1) Ask what was published, how often, for how many readers, what changed: “Produced 24 weekly Instagram posts for BEM’s publication division; grew followers from 2,100 to 3,400 in one semester by introducing a fixed content calendar.” (2) “Taught weekly SPSS lab sessions to 35 second-year students as teaching assistant for Statistics; wrote a 6-page troubleshooting guide still used by the lab.” (3) “Reached the national final (top 8 of 140 teams) of a business plan competition with a delivery-route model for rural UMKM; led the financial projections.” (4) “Moved my family’s building-supply shop from paper stock records to Google Sheets; stock-outs of the top 20 items fell noticeably in the first two months”. Note the honest “noticeably” where no exact figure exists. (5) Convert to a competency statement: “<b>Communication.</b> Pitched a tiered sponsorship package to 40 companies by phone and in person and secured 4 sponsors; wrote the two-page proposal the team used for all 11.”",
-        "id": "(1) Tanyakan apa yang diterbitkan, seberapa sering, untuk berapa pembaca, apa yang berubah: “Memproduksi 24 unggahan Instagram mingguan untuk divisi publikasi BEM; menaikkan pengikut dari 2.100 menjadi 3.400 dalam satu semester dengan memperkenalkan kalender konten tetap.” (2) “Mengajar sesi lab SPSS mingguan untuk 35 mahasiswa tahun kedua sebagai asisten praktikum Statistika; menulis panduan pemecahan masalah 6 halaman yang masih dipakai lab.” (3) “Mencapai final nasional (8 besar dari 140 tim) lomba business plan dengan model rute pengiriman untuk UMKM pedesaan; memimpin proyeksi keuangan.” (4) “Memindahkan toko bahan bangunan keluarga dari catatan stok kertas ke Google Sheets; kehabisan stok 20 barang teratas berkurang nyata dalam dua bulan pertama”, perhatikan “berkurang nyata” yang jujur ketika tidak ada angka pasti. (5) Ubah menjadi pernyataan kompetensi: “<b>Komunikasi.</b> Mempresentasikan paket sponsor bertingkat ke 40 perusahaan lewat telepon dan tatap muka dan mendapatkan 4 sponsor; menulis proposal dua halaman yang dipakai tim untuk semua 11 sponsor.”"
+        "id": "(1) Gali dulu: apa yang diterbitkan, seberapa sering, untuk berapa pembaca, apa yang berubah. Hasilnya: “Memproduksi 24 unggahan Instagram mingguan untuk divisi publikasi BEM; menaikkan pengikut dari 2.100 menjadi 3.400 dalam satu semester dengan menerapkan kalender konten tetap.” (2) “Membimbing sesi praktikum SPSS mingguan untuk 35 mahasiswa tingkat dua sebagai asisten praktikum Statistika; menulis panduan mengatasi kendala setebal 6 halaman yang masih dipakai laboratorium.” (3) “Menembus final nasional (8 besar dari 140 tim) lomba business plan dengan model rute pengiriman untuk UMKM di desa; memimpin penyusunan proyeksi keuangan.” (4) “Memindahkan catatan stok toko bahan bangunan keluarga dari kertas ke Google Sheets; kehabisan stok pada 20 barang terlaris jauh berkurang dalam dua bulan pertama.” Perhatikan kata “jauh berkurang” yang jujur, karena memang tidak ada angka pastinya. (5) Ubah menjadi pernyataan kompetensi: “<b>Komunikasi.</b> Menawarkan paket sponsor bertingkat ke 40 perusahaan lewat telepon dan tatap muka, dan mendapatkan 4 sponsor; menulis proposal dua halaman yang dipakai tim untuk menjaring kesebelas sponsor.”"
        }
       },
       {
@@ -16310,11 +16310,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Take the Arunika MT (management trainee) advertisement (Lesson 3.2). Choose two qualities it wants, say, “comfortable with ambiguity” and “leadership in organisations”, and write one evidenced competency statement for each from Nadia’s pantry. Two sentences each: the quality, then the proof.",
-        "id": "Ambil iklan MT (management trainee, program pelatihan manajemen) Arunika (Pelajaran 3.2). Pilih dua kualitas yang diinginkannya, misalnya, “nyaman dengan ambiguitas” dan “kepemimpinan di organisasi”, dan tulis satu pernyataan kompetensi berbukti untuk masing-masing dari lemari Nadia. Dua kalimat masing-masing: kualitasnya, lalu buktinya."
+        "id": "Ambil iklan MT (management trainee, program pelatihan manajemen) Arunika dari Pelajaran 3.2. Pilih dua kualitas yang dicarinya, misalnya “nyaman dengan ketidakpastian” dan “pengalaman memimpin di organisasi”, lalu tulis satu pernyataan kompetensi berbukti untuk masing-masing dari lemari Nadia. Masing-masing dua kalimat: kualitasnya dulu, lalu buktinya."
        },
        "debrief": {
         "en": "<b>Comfortable with ambiguity.</b> Joined a bank operations unit with no written procedure for cross-branch reconciliation; built my own checklist in the first week and used it to reconcile three branches’ daily reports for the rest of the internship. <b>Leadership in organisations.</b> Led a six-person sponsorship team for a 1,200-participant competition; set the tiered package and weekly targets, and the team secured 11 sponsors and Rp 85 juta. Test each: what did I do, in what context, how do I know it worked, would a sceptic be convinced?",
-        "id": "<b>Nyaman dengan ambiguitas.</b> Bergabung dengan unit operasional bank tanpa prosedur tertulis untuk rekonsiliasi antarcabang; menyusun daftar periksa sendiri pada minggu pertama dan memakainya untuk merekonsiliasi laporan harian tiga cabang selama sisa magang. <b>Kepemimpinan di organisasi.</b> Memimpin tim sponsorship enam orang untuk kompetisi 1.200 peserta; menetapkan paket bertingkat dan target mingguan, dan tim mendapatkan 11 sponsor dan Rp 85 juta. Uji masing-masing: apa yang kulakukan, dalam konteks apa, bagaimana aku tahu berhasil, apakah orang skeptis akan yakin?"
+        "id": "<b>Nyaman dengan ketidakpastian.</b> Masuk ke unit operasional bank yang belum punya prosedur tertulis untuk rekonsiliasi antarcabang; menyusun daftar periksa sendiri di minggu pertama dan memakainya untuk merekonsiliasi laporan harian tiga cabang sampai magang selesai. <b>Pengalaman memimpin di organisasi.</b> Memimpin tim sponsor beranggotakan enam orang untuk kompetisi dengan 1.200 peserta; menetapkan paket bertingkat dan target mingguan, dan tim berhasil mendapatkan 11 sponsor senilai Rp 85 juta. Uji masing-masing: apa yang kulakukan, dalam situasi apa, dari mana aku tahu itu berhasil, apakah orang yang skeptis akan yakin?"
        }
       }
      ],
@@ -16323,27 +16323,27 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Starting bullets with “Responsible for”",
-         "id": "Memulai butir dengan “Bertanggung jawab atas”"
+         "id": "Membuka butir dengan “Bertanggung jawab atas”"
         },
         "fix": {
          "en": "Start with what you did and what changed.",
-         "id": "Mulai dengan apa yang kamu lakukan dan apa yang berubah."
+         "id": "Mulai dari apa yang kamu kerjakan dan apa yang berubah."
         }
        },
        {
         "h": {
          "en": "Inventing precise numbers",
-         "id": "Mengarang angka presisi"
+         "id": "Mengarang angka yang presisi"
         },
         "fix": {
          "en": "Use honest approximations or ranges.",
-         "id": "Pakai perkiraan jujur atau rentang."
+         "id": "Pakai perkiraan yang jujur atau rentang."
         }
        },
        {
         "h": {
          "en": "A “Skills” list of adjectives",
-         "id": "Daftar “Keterampilan” berisi kata sifat"
+         "id": "Daftar “Keterampilan” yang isinya kata sifat"
         },
         "fix": {
          "en": "Replace with 3–5 evidenced competency statements.",
@@ -16353,11 +16353,11 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Claiming sole credit for team work",
-         "id": "Mengklaim kerja tim sebagai milik sendiri"
+         "id": "Mengklaim hasil kerja tim sebagai milik sendiri"
         },
         "fix": {
          "en": "Team result + your role.",
-         "id": "Hasil tim + peranmu."
+         "id": "Tulis hasil tim, lalu peranmu di dalamnya."
         }
        }
       ]
@@ -16370,7 +16370,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A bullet built on the formula: verb, what, scale, result, how.",
-        "id": "Butir yang dibangun dengan rumus: kata kerja, apa, skala, hasil, cara."
+        "id": "Butir yang disusun dengan rumus: kata kerja, apa, skala, hasil, cara."
        }
       },
       {
@@ -16380,7 +16380,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A named quality followed by one or two sentences of proof.",
-        "id": "Kualitas yang disebut, diikuti satu atau dua kalimat bukti."
+        "id": "Satu kualitas yang disebut terang-terangan, disusul satu atau dua kalimat bukti."
        }
       },
       {
@@ -16390,7 +16390,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "To attach scale, frequency, time or money to a claim, honestly.",
-        "id": "Melekatkan skala, frekuensi, waktu, atau uang pada sebuah klaim, dengan jujur."
+        "id": "Menyertakan skala, frekuensi, waktu, atau uang pada sebuah klaim, dengan jujur."
        }
       },
       {
@@ -16400,7 +16400,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Situation – Task – Action – Result: the evidence core of a story.",
-        "id": "Situasi – Tugas – Aksi – Hasil: inti bukti sebuah cerita."
+        "id": "Situasi – Tugas – Aksi – Hasil: inti bukti dalam sebuah cerita."
        }
       },
       {
@@ -16410,7 +16410,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Context – Actions – Reasons – Outcome – Learning: a story structure that lets judgement and learning carry modest outcomes.",
-        "id": "Konteks – Aksi – Alasan – Hasil – Pembelajaran: struktur cerita yang membiarkan penilaian dan pembelajaran menopang hasil yang sederhana."
+        "id": "Konteks – Aksi – Alasan – Hasil – Pelajaran: kerangka cerita yang membiarkan pertimbangan dan pelajaran menopang hasil yang belum besar."
        }
       },
       {
@@ -16420,7 +16420,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A descriptor that applies to everyone and proves nothing: hard-working, passionate, dynamic.",
-        "id": "Penggambaran yang berlaku untuk semua orang dan tidak membuktikan apa-apa: pekerja keras, bersemangat, dinamis."
+        "id": "Sebutan yang berlaku untuk siapa saja dan tidak membuktikan apa pun: pekerja keras, bersemangat, dinamis."
        }
       }
      ],
@@ -16428,7 +16428,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Which bullet best follows the formula?",
-        "id": "Butir mana yang paling mengikuti rumus?"
+        "id": "Butir mana yang paling sesuai dengan rumus?"
        },
        "options": [
         {
@@ -16437,36 +16437,36 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "“Passionate about digital marketing”",
-         "id": "“Bersemangat tentang pemasaran digital”"
+         "id": "“Bersemangat di bidang pemasaran digital”"
         },
         {
          "en": "“Grew BEM’s Instagram from 2,100 to 3,400 followers in one semester by introducing a fixed content calendar”",
-         "id": "“Menaikkan Instagram BEM dari 2.100 menjadi 3.400 pengikut dalam satu semester dengan memperkenalkan kalender konten tetap”"
+         "id": "“Menaikkan pengikut Instagram BEM dari 2.100 menjadi 3.400 dalam satu semester dengan menerapkan kalender konten tetap”"
         },
         {
          "en": "“Helped with posting”",
-         "id": "“Membantu mengunggah”"
+         "id": "“Membantu mengunggah konten”"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Verb, what, scale, result and how, and every part is checkable.",
-        "id": "Kata kerja, apa, skala, hasil, dan cara, dan setiap bagian bisa diperiksa."
+        "id": "Ada kata kerja, apa, skala, hasil, dan cara, dan semuanya bisa dicek."
        }
       },
       {
        "q": {
         "en": "You don’t know exactly how much time your change saved. What do you write?",
-        "id": "Kamu tidak tahu persis berapa waktu yang dihemat perubahanmu. Apa yang kamu tulis?"
+        "id": "Kamu tidak tahu persis berapa banyak waktu yang dihemat berkat perubahanmu. Apa yang kamu tulis?"
        },
        "options": [
         {
          "en": "A precise invented figure",
-         "id": "Angka presisi yang dikarang"
+         "id": "Angka presisi hasil karangan"
         },
         {
          "en": "Nothing about the result",
-         "id": "Tidak ada apa-apa tentang hasilnya"
+         "id": "Tidak menyebut hasilnya sama sekali"
         },
         {
          "en": "An honest approximation, “about 30 minutes a day”, you can explain",
@@ -16480,13 +16480,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 2,
        "why": {
         "en": "Approximations you can explain survive the interview question “how did you measure that?”; invented figures and vague phrases do not.",
-        "id": "Perkiraan yang bisa kamu jelaskan bertahan menghadapi pertanyaan wawancara “bagaimana kamu mengukurnya?”; angka karangan dan frasa samar tidak."
+        "id": "Perkiraan yang bisa kamu jelaskan akan selamat dari pertanyaan “bagaimana kamu mengukurnya?” saat wawancara. Angka karangan dan frasa yang kabur tidak."
        }
       },
       {
        "q": {
         "en": "What distinguishes an evidenced competency statement from a skills list?",
-        "id": "Apa yang membedakan pernyataan kompetensi berbukti dari daftar keterampilan?"
+        "id": "Apa bedanya pernyataan kompetensi berbukti dengan daftar keterampilan?"
        },
        "options": [
         {
@@ -16495,7 +16495,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "It names the quality and then proves it with a specific example",
-         "id": "Menyebut kualitasnya lalu membuktikannya dengan contoh spesifik"
+         "id": "Menyebut kualitasnya, lalu membuktikannya dengan contoh spesifik"
         },
         {
          "en": "It uses more adjectives",
@@ -16503,13 +16503,13 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "It appears at the bottom",
-         "id": "Muncul di bagian bawah"
+         "id": "Letaknya di bagian bawah"
         }
        ],
        "correct": 1,
        "why": {
         "en": "A list is claims; a statement is a claim with proof attached. Only the second moved recruiters in the research.",
-        "id": "Daftar adalah klaim; pernyataan adalah klaim dengan bukti yang menyertai. Hanya yang kedua yang menggerakkan perekrut dalam penelitian."
+        "id": "Daftar hanya berisi klaim; pernyataan adalah klaim yang datang bersama buktinya. Dalam penelitian, hanya yang kedua yang mengubah keputusan perekrut."
        }
       }
      ],
@@ -16522,7 +16522,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Rebuild your ten strongest pantry items in the Studio with the formula fields, verb, what, scale, result, how. The builder flags weak verbs and empty adjectives, and asks “could you defend this for two minutes?” before saving.",
-       "id": "Bangun ulang sepuluh butir lemari terkuatmu di Studio dengan kolom rumus, kata kerja, apa, skala, hasil, cara. Penyusunnya menandai kata kerja lemah dan kata sifat kosong, dan bertanya “bisakah kamu mempertahankan ini selama dua menit?” sebelum menyimpan."
+       "id": "Susun ulang sepuluh isi lemari terkuatmu di Studio dengan kolom-kolom rumus: kata kerja, apa, skala, hasil, cara. Alat ini menandai kata kerja yang lemah dan kata sifat kosong, lalu bertanya “sanggupkah kamu menjelaskan ini selama dua menit?” sebelum menyimpan."
       },
       "cta": {
        "en": "Open the Studio →",
@@ -16532,15 +16532,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Lead with the result; add context, method and scale.",
-       "id": "Buka dengan hasil; tambahkan konteks, metode, dan skala."
+       "id": "Buka dengan hasil; tambahkan konteks, cara, dan skala."
       },
       {
        "en": "Honest approximations are fine; invented numbers are fatal.",
-       "id": "Perkiraan jujur tidak apa-apa; angka karangan itu fatal."
+       "id": "Perkiraan yang jujur boleh; angka karangan berakibat fatal."
       },
       {
        "en": "Evidenced competency statements, quality plus proof, are the single most effective addition to a graduate CV.",
-       "id": "Pernyataan kompetensi berbukti, kualitas plus bukti, adalah tambahan tunggal paling efektif pada CV lulusan baru."
+       "id": "Pernyataan kompetensi berbukti, yaitu kualitas plus bukti, adalah tambahan paling ampuh untuk CV lulusan baru."
       }
      ],
      "resources": {
@@ -16550,7 +16550,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "The formula, the story structures and a verb bank.",
-       "id": "Rumus, struktur cerita, dan bank kata kerja."
+       "id": "Rumus, kerangka cerita, dan bank kata kerja."
       },
       "items": [
        {
@@ -16566,23 +16566,23 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 5, 8; the result-first build; empty adjectives.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 5, 8; bangun hasil-dulu; kata sifat kosong."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 5, 8: pola hasil di depan; kata sifat kosong."
          },
          {
           "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 1, 10–12; the three-way test; language; evidenced competency statements (dated; direction sound); stories.",
-          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 1, 10–12, uji tiga arah; bahasa; pernyataan kompetensi berbukti (lawas; arahnya tepat); cerita."
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 1, 10–12: uji tiga versi; bahasa; pernyataan kompetensi berbukti (lawas, arahnya tepat); cerita."
          },
          {
           "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 3, 10–11, verbs and pronouns; against bare skills lists; trigger verbs.",
-          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 3, 10–11, kata kerja dan kata ganti; menolak daftar keterampilan telanjang; kata kerja pemicu."
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 3, 10–11: kata kerja dan kata ganti; menolak daftar keterampilan polos; kata kerja pemancing."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1, verbs not nouns; no pronouns.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1; kata kerja bukan kata benda; tanpa kata ganti."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1: kata kerja, bukan kata benda; tanpa kata ganti."
          },
          {
           "en": "P. Ow, <i>Tailor Your Call…</i> (2021), empty adjectives from the hiring manager’s side.",
-          "id": "P. Ow, <i>Tailor Your Call…</i> (2021), kata sifat kosong dari sisi manajer perekrut."
+          "id": "P. Ow, <i>Tailor Your Call…</i> (2021): kata sifat kosong dari kacamata manajer perekrut."
          }
         ]
        },
@@ -16594,16 +16594,16 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "One line per achievement.",
-         "id": "Satu baris per pencapaian."
+         "id": "Satu baris untuk tiap pencapaian."
         },
         "body": [
          {
           "en": "[Strong verb] [what] [scale: people / money / frequency / time] [result; honest, approximate if needed] [by / through: how]",
-          "id": "[Kata kerja kuat] [apa] [skala: orang / uang / frekuensi / waktu] [hasil; jujur, kira-kira jika perlu] [dengan / melalui: cara]"
+          "id": "[Kata kerja kuat] [apa] [skala: orang / uang / frekuensi / waktu] [hasil; jujur, boleh kira-kira] [dengan / melalui: cara]"
          },
          {
           "en": "Competency statement: <b>[Quality the advertisement wants].</b> [One or two sentences: what I did, in what context, and how I know it worked.]",
-          "id": "Pernyataan kompetensi: <b>[Kualitas yang diinginkan iklan].</b> [Satu atau dua kalimat: apa yang kulakukan, dalam konteks apa, dan bagaimana aku tahu berhasil.]"
+          "id": "Pernyataan kompetensi: <b>[Kualitas yang dicari iklan].</b> [Satu atau dua kalimat: apa yang kulakukan, dalam situasi apa, dan dari mana aku tahu itu berhasil.]"
          }
         ]
        },
@@ -16611,28 +16611,28 @@ window.MT_LMS['the-pack'] = {
         "kind": "guide",
         "title": {
          "en": "Verb bank · by trigger",
-         "id": "Bank kata kerja · per pemicu"
+         "id": "Bank kata kerja · per kata kerja pemancing"
         },
         "desc": {
          "en": "Vary the opener; never “responsible for”.",
-         "id": "Variasikan pembuka; jangan pernah “bertanggung jawab atas”."
+         "id": "Ganti-ganti kata pembuka; jangan pernah “bertanggung jawab atas”."
         },
         "body": [
          {
           "en": "Increase: raised · grew · expanded · recruited · secured · doubled",
-          "id": "Tingkatkan: mengumpulkan · menaikkan · memperluas · merekrut · mendapatkan · menggandakan"
+          "id": "Naikkan: menggalang · menaikkan · memperluas · merekrut · mendapatkan · menggandakan"
          },
          {
           "en": "Decrease: cut · reduced · shortened · eliminated · resolved · reconciled",
-          "id": "Kurangi: memangkas · mengurangi · mempersingkat · menghapus · menyelesaikan · merekonsiliasi"
+          "id": "Turunkan: memangkas · mengurangi · mempersingkat · menghapus · menuntaskan · merekonsiliasi"
          },
          {
           "en": "Improve: redesigned · streamlined · standardised · rebuilt · introduced · automated",
-          "id": "Perbaiki: merancang ulang · merampingkan · menstandarkan · membangun ulang · memperkenalkan · mengotomatiskan"
+          "id": "Perbaiki: merancang ulang · merampingkan · menyeragamkan · membenahi · memperkenalkan · mengotomatiskan"
          },
          {
           "en": "Arrange / create: organised · launched · designed · delivered · coordinated · led · trained · taught · wrote",
-          "id": "Atur / ciptakan: mengorganisasi · meluncurkan · merancang · menyampaikan · mengoordinasikan · memimpin · melatih · mengajar · menulis"
+          "id": "Selenggarakan atau ciptakan: mengorganisasi · meluncurkan · merancang · membawakan · mengoordinasikan · memimpin · melatih · mengajar · menulis"
          }
         ]
        }
@@ -16649,28 +16649,28 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "Architecture and the Local Decisions",
-      "id": "Struktur CV dan Keputusan lokal"
+      "id": "Susunan CV dan Keputusan Lokal"
      },
      "overview": {
       "en": "With your evidence written, this lesson assembles it into a page, and walks through the decisions where local practice and international research disagree: photos, date of birth, GPA, religion, address. The goal is not one “right” answer but a deliberate choice for each application.",
-      "id": "Dengan buktimu yang sudah tertulis, pelajaran ini merakitnya menjadi satu halaman, dan menelusuri keputusan-keputusan yang membuat praktik lokal dan penelitian internasional tidak sepakat: foto, tanggal lahir, IPK, agama, alamat. Tujuannya bukan satu jawaban “benar”, melainkan pilihan yang disengaja untuk setiap lamaran."
+      "id": "Buktimu sudah tertulis. Sekarang saatnya merakitnya menjadi satu halaman, sekaligus menimbang hal-hal yang membuat kebiasaan lokal dan penelitian internasional berbeda pendapat: foto, tanggal lahir, IPK, agama, alamat. Tujuannya bukan mencari satu jawaban yang “benar”, melainkan mengambil keputusan yang disengaja untuk setiap lamaran."
      },
      "objectives": [
       {
        "en": "Choose a structure and section order for your situation.",
-       "id": "Memilih struktur dan urutan bagian untuk situasimu."
+       "id": "Memilih susunan dan urutan bagian yang pas untuk situasimu."
       },
       {
        "en": "Write a profile and a short objective.",
-       "id": "Menulis profil dan objektif singkat."
+       "id": "Menulis profil dan tujuan karier yang singkat."
       },
       {
        "en": "Make each market-specific decision deliberately, with reasons.",
-       "id": "Mengambil setiap keputusan lokal dengan sengaja, beserta alasannya."
+       "id": "Mengambil setiap keputusan khas pasar lokal dengan sengaja, lengkap dengan alasannya."
       },
       {
        "en": "Lay out a page that is readable by both people and software.",
-       "id": "Menata halaman yang terbaca oleh orang maupun perangkat lunak."
+       "id": "Menata halaman yang terbaca dengan baik oleh manusia maupun perangkat lunak."
       }
      ],
      "readFirst": {
@@ -16684,42 +16684,42 @@ window.MT_LMS['the-pack'] = {
         "n": "3.5",
         "title": {
          "en": "Architecture and the Local Decisions",
-         "id": "Struktur CV dan Keputusan lokal"
+         "id": "Susunan CV dan Keputusan Lokal"
         }
        },
        "story": [
         {
          "en": "Hybrid or reverse-chronological, one page, education first while it is your strongest evidence",
-         "id": "Hibrida atau kronologis terbalik, satu halaman, pendidikan dulu selama itu bukti terkuatmu"
+         "id": "Hibrida atau kronologis terbalik, satu halaman, pendidikan di depan selama itu bukti terkuatmu"
         },
         {
          "en": "A profile that names the role in its first line, three to five lines, under eighty words, written last",
-         "id": "Profil yang menyebut peran di baris pertama, tiga sampai lima baris, di bawah delapan puluh kata, ditulis paling akhir"
+         "id": "Profil yang menyebut posisi sasaran di baris pertama, tiga sampai lima baris, kurang dari delapan puluh kata, ditulis paling akhir"
         },
         {
          "en": "The local decisions are made per application, not by habit: always state GPA; never put NIK or bank details on a CV",
-         "id": "Keputusan lokal dibuat per lamaran, bukan karena kebiasaan: selalu cantumkan IPK; jangan pernah taruh NIK atau data bank di CV"
+         "id": "Keputusan lokal diambil per lamaran, bukan karena kebiasaan: selalu cantumkan IPK; jangan pernah menaruh NIK atau data rekening bank di CV"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Hybrid, one page, education first",
-          "id": "Hibrida, satu halaman, pendidikan dulu"
+          "id": "Hibrida, satu halaman, pendidikan di depan"
          },
          "p": {
           "en": "If you are on page two, ask whether every line there passed the Fit Rule.",
-          "id": "Jika kamu di halaman dua, tanyakan apakah setiap baris di sana lolos Aturan Kecocokan."
+          "id": "Kalau CV-mu sampai ke halaman dua, periksa apakah setiap baris di sana lolos Aturan Kecocokan."
          }
         },
         {
          "h": {
           "en": "A profile that names the role",
-          "id": "Profil yang menyebut perannya"
+          "id": "Profil yang menyebut posisi sasaran"
          },
          "p": {
           "en": "Watch literal translations: “bertanggung jawab atas” becomes “responsible for”, exactly the weak opener Lesson 3.4 told you to avoid.",
-          "id": "Hati-hati terjemahan harfiah: “bertanggung jawab atas” menjadi “responsible for”, persis pembuka lemah yang disuruh hindari Pelajaran 3.4."
+          "id": "Waspadai terjemahan harfiah: “bertanggung jawab atas” menjadi “responsible for”, persis pembuka lemah yang dilarang di Pelajaran 3.4."
          }
         },
         {
@@ -16729,7 +16729,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "A gap longer than a few months gets one positive, truthful line; a gap with a sentence is a period, a gap without one is a question the recruiter answers for you.",
-          "id": "Jeda lebih dari beberapa bulan mendapat satu baris positif dan jujur; jeda dengan kalimat adalah periode, jeda tanpa kalimat adalah pertanyaan yang dijawab perekrut untukmu."
+          "id": "Jeda lebih dari beberapa bulan diberi satu baris yang positif dan jujur; jeda yang dijelaskan menjadi sebuah periode, jeda tanpa penjelasan menjadi pertanyaan yang dijawab sendiri oleh perekrut."
          }
         }
        ],
@@ -16738,7 +16738,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Hybrid or reverse-chronological, one page, education first while it is your strongest evidence",
-          "id": "Hibrida atau kronologis terbalik, satu halaman, pendidikan dulu selama itu bukti terkuatmu"
+          "id": "Hibrida atau kronologis terbalik, satu halaman, pendidikan di depan selama itu bukti terkuatmu"
          },
          "img": "../../assets/bg/fg-sprint-interview.jpg",
          "layout": "list",
@@ -16746,7 +16746,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "layers",
            "en": "A short evidence section up top, then a chronological record: the natural fit for a graduate whose proof is scattered across study, work and organisations",
-           "id": "Bagian bukti singkat di atas, lalu rekam kronologis: pas alami untuk lulusan yang buktinya tersebar di kuliah, kerja, dan organisasi",
+           "id": "Bagian bukti singkat di atas, lalu riwayat kronologis: paling pas untuk lulusan yang buktinya tersebar di kuliah, kerja, dan organisasi",
            "l": {
             "en": "Hybrid",
             "id": "Hibrida"
@@ -16755,16 +16755,16 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "doc",
            "en": "One page is the target, two the maximum; no tiny text to force a thin record, no padding to stretch a strong one",
-           "id": "Satu halaman adalah target, dua maksimum; tanpa teks mungil untuk memaksa rekam tipis, tanpa pengisi untuk meregangkan rekam kuat",
+           "id": "Targetnya satu halaman, paling banyak dua; jangan pakai huruf mungil demi menjejalkan riwayat yang tipis, jangan menggelembungkan riwayat yang kuat",
            "l": {
             "en": "Length",
-            "id": "Panjang"
+            "id": "Panjang CV"
            }
           },
           {
            "icon": "steps",
            "en": "Lead with whichever section is your strongest selling point; usually education in your first year, experience after a strong internship",
-           "id": "Mulai dengan bagian yang menjadi daya jual terkuatmu; biasanya pendidikan di tahun pertama, pengalaman setelah magang yang kuat",
+           "id": "Buka dengan bagian yang paling menjual darimu; biasanya pendidikan di tahun pertama, pengalaman kerja setelah magang yang kuat",
            "l": {
             "en": "Order",
             "id": "Urutan"
@@ -16773,7 +16773,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "grid",
            "en": "Simple, Structured, Succinct, Significant: Bright and Earl’s 4-S rule for layout",
-           "id": "Sederhana, Terstruktur, Ringkas, Signifikan: aturan 4-S Bright dan Earl untuk tata letak",
+           "id": "Sederhana, Tersusun, Singkat, Signifikan: aturan 4-S dari Bright dan Earl untuk tata letak",
            "l": {
             "en": "Layout",
             "id": "Tata letak"
@@ -16782,11 +16782,11 @@ window.MT_LMS['the-pack'] = {
          ],
          "sub": {
           "en": "Functional CVs perform worse because recruiters suspect something is being hidden; reserve them for genuinely unusual histories.",
-          "id": "CV fungsional berkinerja lebih buruk karena perekrut curiga ada yang disembunyikan; sisakan untuk riwayat yang benar-benar tak lazim."
+          "id": "CV fungsional hasilnya lebih buruk karena perekrut curiga ada yang disembunyikan; simpan untuk riwayat yang memang tidak biasa."
          },
          "band": {
           "en": "If you are on page two, ask whether every line there passed the Fit Rule.",
-          "id": "Jika kamu di halaman dua, tanyakan apakah setiap baris di sana lolos Aturan Kecocokan."
+          "id": "Kalau CV-mu sampai ke halaman dua, periksa apakah setiap baris di sana lolos Aturan Kecocokan."
          },
          "em": {
           "en": "one page",
@@ -16797,35 +16797,35 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "A profile that names the role in its first line, three to five lines, under eighty words, written last",
-          "id": "Profil yang menyebut peran di baris pertama, tiga sampai lima baris, di bawah delapan puluh kata, ditulis paling akhir"
+          "id": "Profil yang menyebut posisi sasaran di baris pertama, tiga sampai lima baris, kurang dari delapan puluh kata, ditulis paling akhir"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "tag",
            "en": "First line: the target role",
-           "id": "Baris pertama: peran sasaran",
+           "id": "Baris pertama: posisi sasaran",
            "d": {
             "en": "A recognisable role family, in the words a recruiter searches.",
-            "id": "Keluarga peran yang dikenali, dengan kata yang dicari perekrut."
+            "id": "Rumpun posisi yang langsung dikenali, dengan kata-kata yang dicari perekrut."
            }
           },
           {
            "icon": "check",
            "en": "Every claim backed up below",
-           "id": "Setiap klaim didukung di bawahnya",
+           "id": "Setiap klaim dibuktikan di bawahnya",
            "d": {
             "en": "If the profile says it, a bullet further down proves it.",
-            "id": "Jika profil mengatakannya, butir di bawahnya membuktikannya."
+            "id": "Kalau profil menyebutnya, ada butir di bawah yang membuktikannya."
            }
           },
           {
            "icon": "cap",
            "en": "Education, done properly",
-           "id": "Pendidikan, dikerjakan dengan benar",
+           "id": "Menulis pendidikan dengan benar",
            "d": {
             "en": "Degree in full, university, graduation month and year, GPA as 3,38 / 4,00, predikat, thesis if relevant, 3–5 relevant courses.",
-            "id": "Gelar lengkap, universitas, bulan dan tahun lulus, IPK sebagai 3,38 / 4,00, predikat, skripsi jika relevan, 3–5 mata kuliah relevan."
+            "id": "Nama gelar lengkap, universitas, bulan dan tahun lulus, IPK ditulis 3,38 / 4,00, predikat, skripsi jika relevan, 3–5 mata kuliah yang relevan."
            }
           },
           {
@@ -16834,17 +16834,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Satu bahasa per CV",
            "d": {
             "en": "English for multinationals and most MT intakes; Bahasa Indonesia where the advertisement and employer are local; a master in each.",
-            "id": "Inggris untuk multinasional dan kebanyakan intake MT; Bahasa Indonesia jika iklan dan perusahaannya lokal; satu induk untuk masing-masing."
+            "id": "Bahasa Inggris untuk perusahaan multinasional dan kebanyakan rekrutmen MT; bahasa Indonesia jika iklan dan perusahaannya lokal; satu CV induk untuk masing-masing bahasa."
            }
           }
          ],
          "sub": {
           "en": "A. Knowles’s profile formula, combined with Bright and Earl’s short objective for graduates: what you offer and where, not what you want.",
-          "id": "Rumus profil A. Knowles, digabung dengan tujuan singkat Bright dan Earl untuk lulusan baru: apa yang kamu tawarkan dan di mana, bukan apa yang kamu inginkan."
+          "id": "Rumus profil A. Knowles, digabung dengan tujuan karier singkat dari Bright dan Earl untuk lulusan baru: apa yang kamu tawarkan dan di mana, bukan apa yang kamu mau."
          },
          "band": {
           "en": "Watch literal translations: “bertanggung jawab atas” becomes “responsible for”, exactly the weak opener Lesson 3.4 told you to avoid.",
-          "id": "Hati-hati terjemahan harfiah: “bertanggung jawab atas” menjadi “responsible for”, persis pembuka lemah yang disuruh hindari Pelajaran 3.4."
+          "id": "Waspadai terjemahan harfiah: “bertanggung jawab atas” menjadi “responsible for”, persis pembuka lemah yang dilarang di Pelajaran 3.4."
          },
          "em": {
           "en": "written last",
@@ -16855,7 +16855,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "The local decisions are made per application, not by habit: always state GPA; never put NIK or bank details on a CV",
-          "id": "Keputusan lokal dibuat per lamaran, bukan karena kebiasaan: selalu cantumkan IPK; jangan pernah taruh NIK atau data bank di CV"
+          "id": "Keputusan lokal diambil per lamaran, bukan karena kebiasaan: selalu cantumkan IPK; jangan pernah menaruh NIK atau data rekening bank di CV"
          },
          "cols": [
           {
@@ -16865,28 +16865,28 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "Local practice often expects them",
-            "id": "Praktik lokal sering mengharapkannya"
+            "id": "Kebiasaan lokal sering mengharapkannya"
            },
            "items": [
             {
              "icon": "person",
              "en": "Photo: only when the advertisement, form or employer norm asks; a recent, neutral headshot; none on English-language CVs",
-             "id": "Foto: hanya jika iklan, formulir, atau norma perusahaan meminta; foto wajah terkini dan netral; tidak ada di CV berbahasa Inggris"
+             "id": "Foto: hanya jika iklan, formulir, atau kebiasaan perusahaan memintanya; foto wajah terbaru yang netral; tidak dipasang di CV berbahasa Inggris"
             },
             {
              "icon": "calendar",
              "en": "Date of birth: when a form or an age rule requires it",
-             "id": "Tanggal lahir: jika formulir atau aturan usia mensyaratkannya"
+             "id": "Tanggal lahir: jika formulir atau aturan batas usia mensyaratkannya"
             },
             {
              "icon": "users",
              "en": "Referees: on request, briefed first",
-             "id": "Pemberi referensi: atas permintaan, diberi arahan dulu"
+             "id": "Pemberi referensi: bila diminta, dan diberi tahu lebih dulu"
             },
             {
              "icon": "cap",
              "en": "GPA: always, in the local format; omission reads as concealment",
-             "id": "IPK: selalu, dalam format lokal; menghilangkannya terbaca sebagai menyembunyikan"
+             "id": "IPK: selalu, dalam format lokal; CV tanpa IPK terkesan menyembunyikan sesuatu"
             }
            ],
            "icon": "check"
@@ -16909,17 +16909,17 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "coin",
              "en": "Bank details",
-             "id": "Data bank"
+             "id": "Data rekening bank"
             },
             {
              "icon": "heart",
              "en": "Religion, unless a form asks",
-             "id": "Agama, kecuali formulir meminta"
+             "id": "Agama, kecuali diminta formulir"
             },
             {
              "icon": "pin",
              "en": "A full home address; city is enough",
-             "id": "Alamat rumah lengkap; kota saja cukup"
+             "id": "Alamat rumah lengkap; cukup sebut kota"
             }
            ],
            "icon": "lock"
@@ -16930,11 +16930,11 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "Research and local practice diverge on several items; decide each one deliberately.",
-          "id": "Riset dan praktik lokal berbeda pada beberapa hal; putuskan masing-masing dengan sengaja."
+          "id": "Pada beberapa hal, penelitian dan kebiasaan lokal tidak sejalan; putuskan masing-masing dengan sengaja."
          },
          "band": {
           "en": "A gap longer than a few months gets one positive, truthful line; a gap with a sentence is a period, a gap without one is a question the recruiter answers for you.",
-          "id": "Jeda lebih dari beberapa bulan mendapat satu baris positif dan jujur; jeda dengan kalimat adalah periode, jeda tanpa kalimat adalah pertanyaan yang dijawab perekrut untukmu."
+          "id": "Jeda lebih dari beberapa bulan diberi satu baris yang positif dan jujur; jeda yang dijelaskan menjadi sebuah periode, jeda tanpa penjelasan menjadi pertanyaan yang dijawab sendiri oleh perekrut."
          },
          "em": {
           "en": "per application, not by habit",
@@ -16957,34 +16957,34 @@ window.MT_LMS['the-pack'] = {
       },
       "intro": {
        "en": "Structure, the profile, and the decisions the English-language books never had to make.",
-       "id": "Struktur, profil, dan keputusan-keputusan yang tidak pernah harus diambil buku-buku berbahasa Inggris."
+       "id": "Susunan, profil, dan keputusan-keputusan yang tidak pernah perlu dipikirkan buku-buku berbahasa Inggris."
       },
       "slides": [
        {
         "h": {
          "en": "Hybrid, one page, education first",
-         "id": "Hibrida, satu halaman, pendidikan dulu"
+         "id": "Hibrida, satu halaman, pendidikan di depan"
         },
         "points": [
          {
           "en": "Reverse-chronological or hybrid by default; functional CVs make recruiters suspicious.",
-          "id": "Kronologis terbalik atau hibrida sebagai bawaan; CV fungsional membuat perekrut curiga."
+          "id": "Pakai kronologis terbalik atau hibrida. CV fungsional justru membuat perekrut curiga."
          },
          {
           "en": "Education leads while it is your strongest evidence; usually your first year after graduating.",
-          "id": "Pendidikan memimpin selama itu bukti terkuatmu; biasanya tahun pertama setelah lulus."
+          "id": "Pendidikan diletakkan paling depan selama itu bukti terkuatmu, biasanya di tahun pertama setelah lulus."
          }
         ]
        },
        {
         "h": {
          "en": "A profile that names the role",
-         "id": "Profil yang menyebut perannya"
+         "id": "Profil yang menyebut posisi sasaran"
         },
         "points": [
          {
           "en": "First line: a recognisable target role. Three to five lines, under 80 words, every claim backed up below.",
-          "id": "Baris pertama: peran sasaran yang dikenali. Tiga sampai lima baris, di bawah 80 kata, setiap klaim didukung di bawahnya."
+          "id": "Baris pertama: posisi sasaran yang langsung dikenali. Tiga sampai lima baris, kurang dari 80 kata, dan setiap klaim dibuktikan di bawahnya."
          },
          {
           "en": "Written last.",
@@ -17000,11 +17000,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Photo, date of birth, religion, NIK, full address, GPA, referees, each decided per application, not by habit.",
-          "id": "Foto, tanggal lahir, agama, NIK, alamat lengkap, IPK, pemberi referensi, masing-masing diputuskan per lamaran, bukan karena kebiasaan."
+          "id": "Foto, tanggal lahir, agama, NIK, alamat lengkap, IPK, pemberi referensi: masing-masing diputuskan per lamaran, bukan karena kebiasaan."
          },
          {
           "en": "Always state GPA. Never put NIK or bank details on a CV.",
-          "id": "Selalu cantumkan IPK. Jangan pernah taruh NIK atau data bank di CV."
+          "id": "Selalu cantumkan IPK. Jangan pernah menaruh NIK atau data rekening bank di CV."
          }
         ]
        }
@@ -17015,15 +17015,15 @@ window.MT_LMS['the-pack'] = {
        "icon": "book",
        "h": {
         "en": "Structure",
-        "id": "Struktur"
+        "id": "Susunan"
        },
        "body": {
         "en": "Three formats exist: reverse-chronological, functional (skills-led) and hybrid <i>(Bright &amp; Earl, How to Write a Brilliant CV, ch. 8; Innes, The CV Book, ch. 4)</i>. <b>Use hybrid or reverse-chronological by default.</b> Innes reports that functional CVs perform worse because recruiters suspect something is being hidden <i>(ch. 4, 15)</i>; reserve them for genuinely unusual histories. The hybrid, a short evidence section up top, then a chronological record, is the natural fit for a fresh graduate whose strongest proof is scattered across study, work and organisations.",
-        "id": "Ada tiga format: kronologis terbalik, fungsional (berbasis keterampilan), dan hibrida <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 8; Innes, The CV Book, bab 4)</i>. <b>Pakai hibrida atau kronologis terbalik sebagai bawaan.</b> Innes melaporkan CV fungsional berkinerja lebih buruk karena perekrut curiga ada yang disembunyikan <i>(bab 4, 15)</i>; simpan untuk riwayat yang benar-benar tidak biasa. Hibrida, bagian bukti singkat di atas, lalu catatan kronologis, cocok secara alami bagi lulusan baru yang bukti terkuatnya tersebar di kuliah, kerja, dan organisasi."
+        "id": "Ada tiga format CV: kronologis terbalik, fungsional (bertumpu pada keterampilan), dan hibrida <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 8; Innes, The CV Book, bab 4)</i>. <b>Pakai hibrida atau kronologis terbalik.</b> Menurut Innes, CV fungsional hasilnya lebih buruk karena perekrut curiga ada yang disembunyikan <i>(bab 4, 15)</i>. Simpan format ini untuk riwayat yang memang tidak biasa. Format hibrida, yaitu bagian bukti singkat di atas lalu riwayat kronologis di bawahnya, paling pas untuk lulusan baru yang buktinya tersebar di kuliah, kerja, dan organisasi."
        },
        "key": {
         "en": "Use hybrid or reverse-chronological; functional CVs read as if something is being hidden.",
-        "id": "Pakai format hibrida atau kronologis terbalik; CV fungsional terbaca seolah ada yang disembunyikan."
+        "id": "Pakai hibrida atau kronologis terbalik. CV fungsional terkesan menyembunyikan sesuatu."
        }
       },
       {
@@ -17034,20 +17034,20 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Lead with whichever section is your strongest selling point. For most graduates in their first year, that is education; for a graduate with a strong internship, it may be experience.",
-        "id": "Buka dengan bagian yang menjadi daya jual terkuatmu. Bagi kebanyakan lulusan di tahun pertama, itu pendidikan; bagi lulusan dengan magang yang kuat, mungkin pengalaman."
+        "id": "Buka dengan bagian yang paling menjual dari dirimu. Bagi kebanyakan lulusan di tahun pertama, itu pendidikan. Bagi lulusan yang punya pengalaman magang kuat, bisa jadi itu pengalaman kerja."
        },
        "bullets": [
         {
          "en": "<b>Header</b>: name (not “Curriculum Vitae”), phone, professional email, LinkedIn URL, city + willingness to relocate.",
-         "id": "<b>Kepala</b>: nama (bukan “Curriculum Vitae”), telepon, email profesional, URL LinkedIn, kota + kesediaan pindah."
+         "id": "<b>Kepala</b>: nama (bukan “Curriculum Vitae”), nomor telepon, email profesional, tautan LinkedIn, kota dan kesediaan ditempatkan di luar kota."
         },
         {
          "en": "<b>Profile</b> (3–5 lines) and a one-line <b>objective</b>.",
-         "id": "<b>Profil</b> (3–5 baris) dan <b>objektif</b> satu baris."
+         "id": "<b>Profil</b> (3–5 baris) dan <b>tujuan karier</b> satu baris."
         },
         {
          "en": "<b>Education</b>: first, if it is your strongest evidence <i>(Innes, ch. 4; Storey)</i>.",
-         "id": "<b>Pendidikan</b>: pertama, jika itu bukti terkuatmu <i>(Innes, bab 4; Storey)</i>."
+         "id": "<b>Pendidikan</b>: paling depan, kalau itu bukti terkuatmu <i>(Innes, bab 4; Storey)</i>."
         },
         {
          "en": "<b>Key Skills and Evidence</b>: 3–5 competency statements.",
@@ -17055,7 +17055,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "<b>Experience</b>: internships and work, with achievement bullets (relevant → related → unrelated).",
-         "id": "<b>Pengalaman</b>: magang dan kerja, dengan butir pencapaian (relevan → terkait → tidak terkait)."
+         "id": "<b>Pengalaman</b>: magang dan kerja, dengan butir pencapaian (relevan → berkaitan → tidak berkaitan)."
         },
         {
          "en": "<b>Organisational and Leadership Experience</b>: BEM, HIMA, UKM, <i>kepanitiaan</i>, community service, with achievement bullets.",
@@ -17063,88 +17063,88 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "<b>Certifications, Languages and Tools</b>: with levels and scores.",
-         "id": "<b>Sertifikasi, Bahasa, dan Alat</b>: dengan tingkat dan skor."
+         "id": "<b>Sertifikasi, Bahasa, dan Perangkat</b>: lengkap dengan tingkat dan skornya."
         },
         {
          "en": "<b>Awards</b> (if any) · <b>References</b>: “available on request” unless the advertisement asks.",
-         "id": "<b>Penghargaan</b> (jika ada) · <b>Referensi</b>: “tersedia atas permintaan” kecuali iklan meminta."
+         "id": "<b>Penghargaan</b> (jika ada) · <b>Referensi</b>: “tersedia bila diminta”, kecuali iklan memintanya."
         }
        ],
        "key": {
         "en": "Lead with your strongest section, usually education for a fresh graduate, and keep the order a screener expects.",
-        "id": "Mulai dari bagian terkuatmu, biasanya pendidikan bagi lulusan baru, dan pertahankan urutan yang diharapkan penyaring."
+        "id": "Mulai dari bagian terkuatmu, biasanya pendidikan bagi lulusan baru, dan pertahankan urutan yang sudah biasa dibaca penyaring."
        }
       },
       {
        "icon": "eye",
        "h": {
         "en": "Length",
-        "id": "Panjang"
+        "id": "Panjang CV"
        },
        "body": {
         "en": "The books disagree: one page versus two versus “whatever fits” <i>(Innes; Knowles; Simunovic; Bright &amp; Earl, ch. 12)</i>. <b>The Pack’s rule for fresh graduates: one page is the target; two is the maximum.</b> Do not force a thin record onto one page with tiny text, and do not pad a strong record onto two. If you are on page two, ask whether every line there passed the Fit Rule.",
-        "id": "Buku-buku tidak sepakat, satu halaman versus dua versus “berapa pun yang muat” <i>(Innes; Knowles; Simunovic; Bright &amp; Earl, bab 12)</i>. <b>Aturan The Pack untuk lulusan baru: satu halaman adalah target; dua adalah maksimum.</b> Jangan paksa rekam yang tipis ke satu halaman dengan huruf mungil, dan jangan menggelembungkan rekam yang kuat ke dua halaman. Jika kamu sampai di halaman dua, tanyakan apakah setiap baris di sana lolos Aturan Kecocokan."
+        "id": "Buku-buku tidak sepakat: satu halaman, dua halaman, atau “secukupnya” <i>(Innes; Knowles; Simunovic; Bright &amp; Earl, bab 12)</i>. <b>Aturan The Pack untuk lulusan baru: targetnya satu halaman, paling banyak dua.</b> Jangan memaksakan riwayat yang tipis ke satu halaman dengan huruf mungil, dan jangan menggelembungkan riwayat yang kuat menjadi dua halaman. Kalau CV-mu sampai ke halaman dua, periksa apakah setiap baris di sana lolos Aturan Kecocokan."
        },
        "key": {
         "en": "One page is the target, two the maximum; neither cram a thin record nor pad a strong one.",
-        "id": "Satu halaman adalah sasaran, dua halaman batas maksimal; jangan memampatkan catatan yang tipis, jangan menambal catatan yang kuat."
+        "id": "Targetnya satu halaman, paling banyak dua. Jangan menjejalkan riwayat yang tipis, jangan pula menggelembungkan riwayat yang kuat."
        }
       },
       {
        "icon": "target",
        "h": {
         "en": "Profile and objective",
-        "id": "Profil dan objektif"
+        "id": "Profil dan tujuan karier"
        },
        "body": {
         "en": "Knowles’s profile formula <i>(How to Write an Outstanding CV, ch. 5)</i>: first line names a recognisable <b>target role</b>; 3–5 lines, under about 80 words; every claim backed up further down; written <b>last</b>. Bright &amp; Earl’s research supports a short objective for graduates <i>(ch. 13)</i>: but make it about what you offer and where, not what you want. Combine them:",
-        "id": "Rumus profil Knowles <i>(How to Write an Outstanding CV, bab 5)</i>: baris pertama menyebut <b>peran sasaran</b> yang dikenali; 3–5 baris, di bawah sekitar 80 kata; setiap klaim didukung di bagian bawah; ditulis <b>paling akhir</b>. Penelitian Bright &amp; Earl mendukung objektif singkat untuk lulusan baru <i>(bab 13)</i>: tetapi buat tentang apa yang kamu tawarkan dan di mana, bukan apa yang kamu inginkan. Gabungkan keduanya:"
+        "id": "Rumus profil dari Knowles <i>(How to Write an Outstanding CV, bab 5)</i>: baris pertama menyebut <b>posisi sasaran</b> yang langsung dikenali; panjangnya 3–5 baris, kurang dari sekitar 80 kata; setiap klaim dibuktikan di bagian bawah; ditulis <b>paling akhir</b>. Penelitian Bright &amp; Earl mendukung tujuan karier singkat untuk lulusan baru <i>(bab 13)</i>, asalkan isinya tentang apa yang kamu tawarkan dan di mana, bukan apa yang kamu mau. Gabungkan keduanya:"
        },
        "quote": {
         "text": {
          "en": "<b>Management graduate targeting commercial and supply-chain trainee roles in consumer goods.</b> Brings a 3-month bank operations internship, 14 months of front-line customer work alongside study, and sponsorship results for a 1,200-participant national competition. Comfortable with Excel analysis, fast-paced shifts and working with external partners. Open to placement anywhere in the country.",
-         "id": "<b>Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.</b> Membawa magang operasional bank 3 bulan, 14 bulan kerja layanan pelanggan garis depan di sela kuliah, dan hasil sponsor untuk kompetisi nasional 1.200 peserta. Nyaman dengan analisis Excel, sif yang serba cepat, dan bekerja dengan mitra eksternal. Bersedia ditempatkan di seluruh negeri."
+         "id": "<b>Lulusan Manajemen yang membidik posisi trainee komersial dan rantai pasok di industri barang konsumsi.</b> Berbekal magang 3 bulan di bagian operasional bank, 14 bulan melayani pelanggan secara langsung sambil kuliah, dan hasil penggalangan sponsor untuk kompetisi nasional dengan 1.200 peserta. Terbiasa mengolah data di Excel, bekerja dalam sif yang serba cepat, dan berurusan dengan mitra dari luar. Bersedia ditempatkan di seluruh Indonesia."
         },
         "who": {
          "en": "Nadia’s profile for the Arunika cluster: 62 words, every claim proven below",
-         "id": "Profil Nadia untuk rumpun Arunika; setiap klaim dibuktikan di bawahnya"
+         "id": "Profil Nadia untuk lowongan sejenis Arunika: kurang dari 80 kata, setiap klaim dibuktikan di bawahnya"
         }
        },
        "after": [
         {
          "en": "Avoid objectives that read as demands (“seeking a company that offers growth and good benefits”) <i>(Bright &amp; Earl, ch. 16)</i>. The reader is asking what you bring, not what you would like.",
-         "id": "Hindari objektif yang terbaca sebagai tuntutan (“mencari perusahaan yang menawarkan pertumbuhan dan tunjangan yang baik”) <i>(Bright &amp; Earl, bab 16)</i>. Pembaca bertanya apa yang kamu bawa, bukan apa yang kamu inginkan."
+         "id": "Hindari tujuan karier yang terdengar seperti tuntutan (“mencari perusahaan yang menawarkan jenjang karier dan tunjangan yang baik”) <i>(Bright &amp; Earl, bab 16)</i>. Pembaca ingin tahu apa yang kamu bawa, bukan apa yang kamu harapkan."
         }
        ],
        "key": {
         "en": "The profile names the target role in its first line, runs three to five lines, and only claims what the page below proves.",
-        "id": "Profil menyebut peran sasaran di baris pertama, panjangnya tiga sampai lima baris, dan hanya mengklaim apa yang dibuktikan halaman di bawahnya."
+        "id": "Profil menyebut posisi sasaran di baris pertama, panjangnya tiga sampai lima baris, dan hanya mengklaim apa yang dibuktikan di bagian bawah halaman."
        }
       },
       {
        "icon": "book",
        "h": {
         "en": "Education, done properly",
-        "id": "Pendidikan, dengan benar"
+        "id": "Menulis pendidikan dengan benar"
        },
        "body": {
         "en": "Degree title in full; university; graduation month and year; <b>GPA as “3,38 / 4,00”</b> (or “3.38 / 4.00” on an English CV); <i>predikat</i> if earned (e.g., <i>cum laude</i>); thesis title if relevant; 3–5 relevant courses. Some UK books advise omitting weak grades <i>(Innes; Knowles)</i>. <b>In markets where it is a hard filter, Indonesia among them, do not omit GPA</b>: it is frequently a hard administrative requirement, portal forms ask for it, and omission reads as concealment. If your GPA is below an advertised minimum, do not apply to that programme; if there is no minimum, lead with other evidence.",
-        "id": "Gelar lengkap; universitas; bulan dan tahun lulus; <b>IPK sebagai “3,38 / 4,00”</b> (atau “3.38 / 4.00” pada CV bahasa Inggris); <i>predikat</i> jika diraih (mis. <i>cum laude</i>); judul skripsi jika relevan; 3–5 mata kuliah relevan. Beberapa buku Inggris menyarankan menghilangkan nilai yang lemah <i>(Innes; Knowles)</i>. <b>Di Indonesia, jangan hilangkan IPK</b>: IPK sering menjadi syarat administratif mutlak, formulir portal menanyakannya, dan menghilangkannya terbaca sebagai menyembunyikan. Jika IPK-mu di bawah minimum yang diiklankan, jangan lamar program itu; jika tidak ada minimum, buka dengan bukti lain."
+        "id": "Nama gelar lengkap; universitas; bulan dan tahun lulus; <b>IPK ditulis “3,38 / 4,00”</b> (atau “3.38 / 4.00” di CV berbahasa Inggris); <i>predikat</i> jika ada (misalnya <i>cum laude</i>); judul skripsi jika relevan; 3–5 mata kuliah yang relevan. Beberapa buku dari Inggris menyarankan tidak mencantumkan nilai yang kurang bagus <i>(Innes; Knowles)</i>. <b>Di pasar yang menjadikan IPK saringan mutlak, termasuk Indonesia, jangan hilangkan IPK</b>: IPK kerap menjadi syarat administrasi mutlak, formulir di portal menanyakannya, dan CV tanpa IPK terkesan menyembunyikan sesuatu. Kalau IPK-mu di bawah batas minimum yang tertera di iklan, jangan melamar program itu. Kalau tidak ada batas minimum, tonjolkan bukti lain lebih dulu."
        },
        "key": {
         "en": "Degree, university, dates, GPA in the expected format, honours and relevant courses; where GPA is a hard filter, never omit it.",
-        "id": "Gelar, universitas, tanggal, IPK dalam format yang lazim, predikat, dan mata kuliah relevan; jika IPK menjadi saringan mutlak, jangan pernah dihilangkan."
+        "id": "Gelar, universitas, tanggal, IPK dalam format yang lazim, predikat, dan mata kuliah yang relevan. Kalau IPK menjadi saringan mutlak, jangan pernah dihilangkan."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "The local decisions",
-        "id": "Keputusan lokal"
+        "id": "Keputusan-keputusan lokal"
        },
        "body": {
         "en": "Research and local practice diverge on several items. Decide each one deliberately, per application.",
-        "id": "Penelitian dan praktik lokal berbeda pada beberapa hal. Putuskan masing-masing dengan sengaja, per lamaran."
+        "id": "Pada beberapa hal, penelitian dan kebiasaan lokal tidak sejalan. Putuskan masing-masing dengan sengaja, untuk setiap lamaran."
        },
        "table": {
         "cols": [
@@ -17154,11 +17154,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Research / international practice",
-          "id": "Penelitian / praktik internasional"
+          "id": "Penelitian / kebiasaan internasional"
          },
          {
           "en": "Local practice",
-          "id": "Praktik lokal"
+          "id": "Kebiasaan lokal"
          },
          {
           "en": "The Pack’s rule",
@@ -17173,15 +17173,15 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "In controlled studies, photos invited appearance bias; most UK/US books say omit <i>(Bright &amp; Earl, ch. 17; Innes; Knowles)</i>",
-           "id": "Dalam studi terkontrol, foto mengundang bias penampilan; kebanyakan buku Inggris/AS menyarankan menghilangkannya <i>(Bright &amp; Earl, bab 17; Innes; Knowles)</i>"
+           "id": "Dalam studi terkontrol, foto memancing bias penampilan; kebanyakan buku dari Inggris dan AS menyarankan tidak memasangnya <i>(Bright &amp; Earl, bab 17; Innes; Knowles)</i>"
           },
           {
            "en": "Often expected; frequently a mandatory upload (<i>pas foto</i>) in state-owned enterprise, civil service and many local portals",
-           "id": "Sering diharapkan; kerap unggahan wajib (<i>pas foto</i>) di BUMN, CPNS, dan banyak portal lokal"
+           "id": "Sering diharapkan; kerap menjadi unggahan wajib (<i>pas foto</i>) di BUMN, CPNS, dan banyak portal lokal"
           },
           {
            "en": "<b>Include only when the advertisement, form or employer norm asks.</b> Recent, neutral, professional headshot. For multinationals and English-language applications, default to no photo on the CV; put it on LinkedIn.",
-           "id": "<b>Sertakan hanya jika iklan, formulir, atau norma perusahaan meminta.</b> Foto kepala terbaru, netral, profesional. Untuk multinasional dan lamaran berbahasa Inggris, bawaan tanpa foto di CV; taruh di LinkedIn."
+           "id": "<b>Sertakan hanya jika iklan, formulir, atau kebiasaan perusahaan memintanya.</b> Foto wajah terbaru yang netral dan rapi. Untuk perusahaan multinasional dan lamaran berbahasa Inggris, CV tanpa foto; pasang fotonya di LinkedIn."
           }
          ],
          [
@@ -17191,15 +17191,15 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Omit <i>(Innes; Bright &amp; Earl; Knowles)</i>",
-           "id": "Hilangkan <i>(Innes; Bright &amp; Earl; Knowles)</i>"
+           "id": "Tidak dicantumkan <i>(Innes; Bright &amp; Earl; Knowles)</i>"
           },
           {
            "en": "Traditionally included; some programmes have age caps",
-           "id": "Secara tradisi disertakan; sebagian program punya batas usia"
+           "id": "Biasanya dicantumkan; sebagian program punya batas usia"
           },
           {
            "en": "<b>Include only if required</b> (e.g., an age cap you meet).",
-           "id": "<b>Sertakan hanya jika diwajibkan</b> (mis. batas usia yang kamu penuhi)."
+           "id": "<b>Cantumkan hanya jika diwajibkan</b> (misalnya ada batas usia yang kamu penuhi)."
           }
          ],
          [
@@ -17209,21 +17209,21 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Omit; irrelevant and invites bias",
-           "id": "Hilangkan; tidak relevan dan mengundang bias"
+           "id": "Tidak dicantumkan; tidak relevan dan memancing bias"
           },
           {
            "en": "Sometimes seen on older templates",
-           "id": "Kadang terlihat di templat lama"
+           "id": "Masih ditemukan di templat lama"
           },
           {
            "en": "<b>Never include unless explicitly required.</b>",
-           "id": "<b>Jangan pernah sertakan kecuali diwajibkan secara eksplisit.</b>"
+           "id": "<b>Jangan pernah dicantumkan, kecuali diminta secara tegas.</b>"
           }
          ],
          [
           {
            "en": "<b>NIK / national ID card number, bank details</b>",
-           "id": "<b>NIK / nomor KTP, data bank</b>"
+           "id": "<b>NIK / nomor KTP, data rekening bank</b>"
           },
           {
            "en": "",
@@ -17235,7 +17235,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Never on the CV.</b> Provide only in secure official forms, at the stage required.",
-           "id": "<b>Jangan pernah di CV.</b> Berikan hanya di formulir resmi yang aman, pada tahap yang diwajibkan."
+           "id": "<b>Jangan pernah di CV.</b> Isi hanya di formulir resmi yang aman, pada tahap yang memintanya."
           }
          ],
          [
@@ -17249,11 +17249,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Common",
-           "id": "Umum"
+           "id": "Lazim dicantumkan"
           },
           {
            "en": "<b>City/district + “open to relocation”</b> is enough.",
-           "id": "<b>Kota/kabupaten + “bersedia pindah”</b> sudah cukup."
+           "id": "<b>Kota/kabupaten + “bersedia ditempatkan di luar kota”</b> sudah cukup."
           }
          ],
          [
@@ -17263,11 +17263,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "UK books: omit if weak",
-           "id": "Buku Inggris: hilangkan jika lemah"
+           "id": "Buku dari Inggris: tidak dicantumkan jika kurang bagus"
           },
           {
            "en": "Often a hard requirement",
-           "id": "Sering syarat mutlak"
+           "id": "Sering menjadi syarat mutlak"
           },
           {
            "en": "<b>Always state it.</b>",
@@ -17285,11 +17285,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“Available on request” common",
-           "id": "“Tersedia atas permintaan” umum"
+           "id": "“Tersedia bila diminta” sudah lazim"
           },
           {
            "en": "<b>On request</b>, unless the advertisement asks. Always get permission first.",
-           "id": "<b>Atas permintaan</b>, kecuali iklan meminta. Selalu minta izin lebih dulu."
+           "id": "<b>Bila diminta</b>, kecuali iklan memintanya sejak awal. Selalu minta izin orangnya lebih dulu."
           }
          ]
         ]
@@ -17297,12 +17297,12 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "Bright &amp; Earl’s broader point applies here: concealing details that invite bias can raise your chances, but it is a personal values choice, and if you conceal, do so consistently <i>(ch. 17)</i>. What The Pack rules out is not a photo; it is a photo by habit, on a CV going to an employer who did not ask for one.",
-         "id": "Poin Bright &amp; Earl yang lebih luas berlaku di sini: menyembunyikan detail yang mengundang bias bisa menaikkan peluangmu, tetapi itu pilihan nilai pribadi, dan jika kamu menyembunyikan, lakukan secara konsisten <i>(bab 17)</i>. Yang tidak diperbolehkan The Pack bukan foto; melainkan foto karena kebiasaan, di CV yang dikirim ke perusahaan yang tidak memintanya."
+         "id": "Pesan Bright &amp; Earl yang lebih luas berlaku di sini: menyembunyikan data yang memancing bias bisa menaikkan peluangmu, tetapi itu pilihan berdasarkan nilai pribadi, dan kalau kamu memilih menyembunyikannya, lakukan secara konsisten <i>(bab 17)</i>. Yang ditolak The Pack bukan fotonya, melainkan foto yang dipasang karena kebiasaan, di CV untuk perusahaan yang tidak memintanya."
         }
        ],
        "key": {
         "en": "Where research and local practice diverge, decide each item deliberately for each application rather than by habit.",
-        "id": "Ketika riset dan praktik lokal berbeda, putuskan setiap butir dengan sengaja untuk tiap lamaran, bukan karena kebiasaan."
+        "id": "Ketika penelitian dan kebiasaan lokal tidak sejalan, putuskan setiap hal dengan sengaja untuk tiap lamaran, bukan karena kebiasaan."
        }
       },
       {
@@ -17313,11 +17313,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Write each CV in <b>one language</b>. English for multinationals, international programmes and most MT (management trainee) intakes; the local language where the advertisement is in it and the employer is local (Indonesian, in Nadia’s case). Keep a master in each. Choose one English variant (British or American) and set your spellchecker to match. Watch for literal translations; “<i>bertanggung jawab atas</i>” → “responsible for” is exactly the weak opener Lesson 3.4 told you to avoid, and “<i>membantu</i>” → “helped with” is the second.",
-        "id": "Tulis setiap CV dalam <b>satu bahasa</b>. Bahasa Inggris untuk multinasional, program internasional, dan kebanyakan seleksi MT (management trainee, program pelatihan manajemen); Bahasa Indonesia jika iklannya berbahasa Indonesia dan perusahaannya lokal. Simpan induk dalam masing-masing bahasa. Pilih satu varian Inggris (Britania atau Amerika) dan setel pemeriksa ejaanmu sesuai. Waspadai terjemahan harfiah; “<i>bertanggung jawab atas</i>” → “responsible for” persis pembuka lemah yang dilarang Pelajaran 3.4, dan “<i>membantu</i>” → “helped with” yang kedua."
+        "id": "Tulis setiap CV dalam <b>satu bahasa</b>. Bahasa Inggris untuk perusahaan multinasional, program internasional, dan kebanyakan rekrutmen MT (management trainee, program pelatihan manajemen); bahasa Indonesia jika iklannya berbahasa Indonesia dan perusahaannya lokal. Siapkan CV induk dalam masing-masing bahasa. Untuk bahasa Inggris, pilih satu ragam (Britania atau Amerika) dan sesuaikan pemeriksa ejaanmu. Waspadai terjemahan harfiah: “<i>bertanggung jawab atas</i>” menjadi “responsible for” persis pembuka lemah yang dilarang di Pelajaran 3.4, dan “<i>membantu</i>” menjadi “helped with” adalah yang kedua."
        },
        "key": {
         "en": "One language per CV, matched to the advertisement and the employer; keep a master in each.",
-        "id": "Satu bahasa per CV, disesuaikan dengan iklan dan perusahaan; simpan satu master untuk tiap bahasa."
+        "id": "Satu bahasa untuk satu CV, sesuai iklan dan perusahaannya. Siapkan CV induk untuk tiap bahasa."
        }
       },
       {
@@ -17328,52 +17328,52 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bright &amp; Earl’s 4-S rule: <b>Simple, Structured, Succinct, Significant</b> <i>(ch. 8)</i>.",
-        "id": "Aturan 4-S Bright &amp; Earl: <b>Sederhana, Terstruktur, Ringkas, Bermakna</b> <i>(bab 8)</i>."
+        "id": "Aturan 4-S dari Bright &amp; Earl: <b>Sederhana, Tersusun, Singkat, Signifikan</b> <i>(bab 8)</i>."
        },
        "bullets": [
         {
          "en": "Single column; standard headings; left-aligned.",
-         "id": "Satu kolom; judul standar; rata kiri."
+         "id": "Satu kolom; judul bagian yang standar; rata kiri."
         },
         {
          "en": "One standard font, 10.5–12 pt body, name larger and bold.",
-         "id": "Satu fon standar, isi 10,5–12 pt, nama lebih besar dan tebal."
+         "id": "Satu jenis huruf standar, ukuran isi 10,5–12 pt, nama lebih besar dan tebal."
         },
         {
          "en": "White space to group: small gaps within sections, larger between.",
-         "id": "Ruang kosong untuk mengelompokkan: jarak kecil di dalam bagian, lebih besar di antara bagian."
+         "id": "Pakai ruang kosong untuk mengelompokkan: jarak kecil di dalam bagian, jarak lebih lebar antarbagian."
         },
         {
          "en": "No tables, text boxes, icons, skill bars, graphics or headers/footers holding content (Module 4 explains why).",
-         "id": "Tanpa tabel, kotak teks, ikon, bilah keterampilan, grafis, atau kepala/kaki halaman yang memuat isi (Modul 4 menjelaskan alasannya)."
+         "id": "Tanpa tabel, kotak teks, ikon, bilah keterampilan, grafis, atau kepala/kaki halaman yang berisi informasi (Modul 4 menjelaskan alasannya)."
         },
         {
          "en": "Consistent date format and alignment.",
-         "id": "Format tanggal dan perataan yang konsisten."
+         "id": "Format tanggal dan perataan yang seragam."
         },
         {
          "en": "Save as a <b>text-based PDF</b> unless the portal asks for Word.",
-         "id": "Simpan sebagai <b>PDF berbasis teks</b> kecuali portal meminta Word."
+         "id": "Simpan sebagai <b>PDF berbasis teks</b>, kecuali portal meminta Word."
         }
        ],
        "key": {
         "en": "Simple, structured, succinct, significant: single column, standard headings, one font, and nothing that a parser cannot read.",
-        "id": "Sederhana, terstruktur, ringkas, bermakna: satu kolom, judul baku, satu fon, dan tidak ada yang tak terbaca oleh pengurai."
+        "id": "Sederhana, tersusun, singkat, signifikan: satu kolom, judul standar, satu jenis huruf, dan tidak ada yang tak terbaca oleh sistem."
        }
       },
       {
        "icon": "flag",
        "h": {
         "en": "Gaps",
-        "id": "Jeda"
+        "id": "Jeda dalam riwayat"
        },
        "body": {
         "en": "Following Bright &amp; Earl’s finding that explained gaps read as honesty <i>(ch. 17)</i>: explain any gap longer than a few months in one positive, truthful line. <i>“Aug 2026 – present: full-time job search; completed Google Data Analytics certificate; volunteer bookkeeping for a mosque cooperative.”</i> A gap with a sentence is a period; a gap without one is a question the recruiter answers for you.",
-        "id": "Mengikuti temuan Bright &amp; Earl bahwa jeda yang dijelaskan terbaca sebagai kejujuran <i>(bab 17)</i>: jelaskan jeda lebih dari beberapa bulan dalam satu baris yang positif dan jujur. <i>“Agu 2026 – sekarang: pencarian kerja penuh waktu; menyelesaikan sertifikat Google Data Analytics; pembukuan sukarela untuk koperasi masjid.”</i> Jeda dengan satu kalimat adalah sebuah periode; jeda tanpa kalimat adalah pertanyaan yang dijawab perekrut untukmu."
+        "id": "Bright &amp; Earl menemukan bahwa jeda yang dijelaskan justru terbaca sebagai kejujuran <i>(bab 17)</i>. Jadi, jelaskan setiap jeda yang lebih dari beberapa bulan dalam satu baris yang positif dan jujur. <i>“Agu 2026 – sekarang: fokus mencari kerja; menyelesaikan sertifikat Google Data Analytics; menjadi relawan pembukuan untuk koperasi masjid.”</i> Jeda yang diberi satu kalimat menjadi sebuah periode. Jeda tanpa penjelasan adalah pertanyaan yang akan dijawab sendiri oleh perekrut, dan jawabannya belum tentu menguntungkanmu."
        },
        "key": {
         "en": "An explained gap reads as honesty; one positive, truthful line turns a gap into a period.",
-        "id": "Jeda yang dijelaskan terbaca sebagai kejujuran; satu baris positif dan jujur mengubah jeda menjadi sebuah periode."
+        "id": "Jeda yang dijelaskan terbaca sebagai kejujuran. Satu baris yang positif dan jujur mengubah jeda menjadi sebuah periode."
        }
       }
      ],
@@ -17396,18 +17396,18 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Name as the title · phone · professional email · LinkedIn · city + “open to relocation”. No “Curriculum Vitae”, no NIK.",
-         "id": "Nama sebagai judul · telepon · email profesional · LinkedIn · kota + “bersedia pindah”. Tanpa “Curriculum Vitae”, tanpa NIK."
+         "id": "Nama sebagai judul · telepon · email profesional · LinkedIn · kota + “bersedia ditempatkan di luar kota”. Tanpa “Curriculum Vitae”, tanpa NIK."
         }
        },
        {
         "icon": "target",
         "h": {
          "en": "Profile + objective",
-         "id": "Profil + objektif"
+         "id": "Profil + tujuan karier"
         },
         "sub": {
          "en": "First line names the target role. 3–5 lines, under 80 words, written last.",
-         "id": "Baris pertama menyebut peran sasaran. 3–5 baris, di bawah 80 kata, ditulis paling akhir."
+         "id": "Baris pertama menyebut posisi sasaran. 3–5 baris, kurang dari 80 kata, ditulis paling akhir."
         }
        },
        {
@@ -17440,7 +17440,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Internships and work, relevant → related → unrelated, achievement bullets.",
-         "id": "Magang dan kerja, relevan → terkait → tidak terkait, butir pencapaian."
+         "id": "Magang dan kerja, relevan → berkaitan → tidak berkaitan, dengan butir pencapaian."
         }
        },
        {
@@ -17451,14 +17451,14 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "HIMA, BEM, kepanitiaan, community service, with achievement bullets, not one-liners.",
-         "id": "HIMA, BEM, kepanitiaan, KKN; dengan butir pencapaian, bukan satu baris."
+         "id": "HIMA, BEM, kepanitiaan, KKN, dengan butir pencapaian, bukan sekadar satu baris."
         }
        },
        {
         "icon": "chart",
         "h": {
          "en": "Certifications, languages, tools",
-         "id": "Sertifikasi, bahasa, alat"
+         "id": "Sertifikasi, bahasa, perangkat"
         },
         "sub": {
          "en": "TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527 · Excel (intermediate) · Google Sheets · Canva. Levels and scores, not adjectives.",
@@ -17468,22 +17468,22 @@ window.MT_LMS['the-pack'] = {
       ],
       "note": {
        "en": "Single column, one standard font, text-based PDF. Awards if any; references on request.",
-       "id": "Satu kolom, satu fon standar, PDF berbasis teks. Penghargaan jika ada; referensi atas permintaan."
+       "id": "Satu kolom, satu jenis huruf standar, PDF berbasis teks. Penghargaan jika ada; referensi bila diminta."
       },
       "longdesc": {
        "en": "An annotated one-page wireframe, top to bottom: a header with the name as title and contact details; a profile and objective naming the target role; education with GPA in the standard format; a Key Skills and Evidence section of three to five competency statements; experience with achievement bullets; organisational and leadership experience with achievement bullets; certifications, languages and tools with levels and scores.",
-       "id": "Kerangka satu halaman beranotasi, dari atas ke bawah: kepala dengan nama sebagai judul dan kontak; profil dan objektif yang menyebut peran sasaran; pendidikan dengan IPK dalam format standar; bagian Keterampilan Utama dan Bukti berisi tiga sampai lima pernyataan kompetensi; pengalaman dengan butir pencapaian; pengalaman organisasi dan kepemimpinan dengan butir pencapaian; sertifikasi, bahasa, dan alat dengan tingkat dan skor."
+       "id": "Kerangka satu halaman dengan catatan, dari atas ke bawah: kepala berisi nama sebagai judul dan kontak; profil dan tujuan karier yang menyebut posisi sasaran; pendidikan dengan IPK dalam format standar; bagian Keterampilan Utama dan Bukti berisi tiga sampai lima pernyataan kompetensi; pengalaman dengan butir pencapaian; pengalaman organisasi dan kepemimpinan dengan butir pencapaian; sertifikasi, bahasa, dan perangkat lengkap dengan tingkat dan skornya."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Two headers",
-        "id": "Dua kepala"
+        "id": "Dua versi kepala CV"
        },
        "q": {
         "en": "The top eight lines of Nadia’s CV for Arunika’s English-language MT programme.",
-        "id": "Delapan baris teratas CV Nadia untuk program MT berbahasa Inggris Arunika."
+        "id": "Delapan baris teratas CV Nadia untuk program MT berbahasa Inggris di Arunika."
        },
        "weak": {
         "en": "CURRICULUM VITAE · [photo] · Nadia Putri · Born: Semarang, 3 March 2004 · Religion: Islam · Marital status: single · Jl. … No. 12, RT 03/RW 05, Semarang · NIK 33…",
@@ -17491,11 +17491,11 @@ window.MT_LMS['the-pack'] = {
        },
        "strong": {
         "en": "<b>Nadia Putri</b> · Semarang · open to placement anywhere in the country · +62 8xx … · nadia.putri@… · linkedin.com/in/nadiaputri · <i>Management graduate targeting commercial and supply-chain trainee roles in consumer goods.</i>",
-        "id": "<b>Nadia Putri</b> · Semarang · bersedia ditempatkan di seluruh negeri · +62 8xx … · nadia.putri@… · linkedin.com/in/nadiaputri · <i>Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.</i>"
+        "id": "<b>Nadia Putri</b> · Semarang · bersedia ditempatkan di seluruh Indonesia · +62 8xx … · nadia.putri@… · linkedin.com/in/nadiaputri · <i>Lulusan Manajemen yang membidik posisi trainee komersial dan rantai pasok di industri barang konsumsi.</i>"
        },
        "why": {
         "en": "The first spends the “F” on details the employer did not ask for and that invite bias. The second spends it on the name, how to reach her, where she will work, and what she is for.",
-        "id": "Yang pertama menghabiskan “F” untuk detail yang tidak diminta perusahaan dan mengundang bias. Yang kedua menghabiskannya untuk nama, cara menghubunginya, di mana ia akan bekerja, dan untuk apa ia melamar."
+        "id": "Versi pertama menghabiskan pola baca “F” untuk data yang tidak diminta perusahaan dan memancing bias. Versi kedua memakainya untuk nama, cara menghubunginya, kesediaan ditempatkan, dan posisi yang ia incar."
        }
       }
      ],
@@ -17508,15 +17508,15 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "Nadia applies to two programmes in one week. Arunika’s English-language MT portal asks for a CV and a transcript; it does not ask for a photo or a date of birth. Bank Sinar Nusantara’s officer programme portal requires a <i>pas foto</i> 4×6 on a red background as a separate upload, a national ID card scan, and states a maximum age of 26.",
-        "id": "Nadia melamar ke dua program dalam satu minggu. Portal MT berbahasa Inggris Arunika meminta CV dan transkrip; tidak meminta foto atau tanggal lahir. Portal ODP Bank Sinar Nusantara mewajibkan <i>pas foto</i> 4×6 berlatar merah sebagai unggahan terpisah, pindaian KTP, dan menyebut usia maksimum 26."
+        "id": "Dalam satu minggu, Nadia melamar ke dua program. Portal MT berbahasa Inggris milik Arunika meminta CV dan transkrip, tanpa foto dan tanpa tanggal lahir. Portal ODP Bank Sinar Nusantara mewajibkan <i>pas foto</i> 4×6 berlatar merah sebagai unggahan terpisah serta pindaian KTP, dan mencantumkan batas usia 26 tahun."
        },
        {
         "en": "Same evidence, two deliberate decisions. For Arunika: no photo on the CV, no date of birth, a professional photo on LinkedIn, GPA stated as 3.38 / 4.00 in English. For the bank: the photo uploaded where the portal wants it, not pasted into the CV, the national ID card scan uploaded in the form, her date of birth on the CV because the age cap is a requirement she meets, GPA stated as 3,38 / 4,00 in Indonesian, and her NIK nowhere on the CV.",
-        "id": "Bukti yang sama, dua keputusan yang disengaja. Untuk Arunika: tanpa foto di CV, tanpa tanggal lahir, foto profesional di LinkedIn, IPK ditulis 3.38 / 4.00 dalam bahasa Inggris. Untuk bank: foto diunggah di tempat yang diminta portal, bukan ditempel di CV, pindaian KTP diunggah di formulir, tanggal lahir di CV karena batas usia adalah syarat yang ia penuhi, IPK ditulis 3,38 / 4,00 dalam bahasa Indonesia, dan NIK-nya tidak ada di mana pun di CV."
+        "id": "Buktinya sama, keputusannya berbeda, dan keduanya disengaja. Untuk Arunika: CV tanpa foto dan tanpa tanggal lahir, foto profesional di LinkedIn, IPK ditulis 3.38 / 4.00 dalam bahasa Inggris. Untuk bank: foto diunggah di tempat yang diminta portal, bukan ditempel di CV; pindaian KTP diunggah di formulir; tanggal lahir dicantumkan di CV karena batas usia adalah syarat yang ia penuhi; IPK ditulis 3,38 / 4,00 dalam bahasa Indonesia; dan NIK sama sekali tidak muncul di CV."
        },
        {
         "en": "Neither version is “the right CV”. Each is the right CV for its reader.",
-        "id": "Tidak ada versi yang menjadi “CV yang benar”. Masing-masing adalah CV yang benar untuk pembacanya."
+        "id": "Tidak ada satu pun yang menjadi “CV yang benar”. Masing-masing adalah CV yang tepat untuk pembacanya."
        }
       ]
      },
@@ -17524,15 +17524,15 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill 1: Decide, and say why",
-        "id": "Latihan 1: Putuskan, dan katakan alasannya"
+        "id": "Latihan 1: Putuskan, lalu sebutkan alasannya"
        },
        "body": {
         "en": "For each application, write your decision and one-line reason for: photo · date of birth · religion / marital status · full address · GPA format · language. (A) Rumah Rempah, Area Operations Trainee, local-language posting, email application, “lampirkan CV dan foto terbaru”. (B) KilatPay, Business Operations Associate, English posting, careers page upload, no photo requested.",
-        "id": "Untuk setiap lamaran, tulis keputusanmu dan alasan satu baris untuk: foto · tanggal lahir · agama / status pernikahan · alamat lengkap · format IPK · bahasa. (A) Rumah Rempah, Area Operations Trainee, lowongan berbahasa Indonesia, lamaran lewat email, “lampirkan CV dan foto terbaru”. (B) KilatPay, Business Operations Associate, lowongan berbahasa Inggris, unggah di laman karier, tidak meminta foto."
+        "id": "Untuk setiap lamaran, tulis keputusanmu dan alasannya dalam satu baris untuk: foto · tanggal lahir · agama / status pernikahan · alamat lengkap · format IPK · bahasa. (A) Rumah Rempah, Area Operations Trainee, lowongan berbahasa Indonesia, lamaran lewat email, “lampirkan CV dan foto terbaru”. (B) KilatPay, Business Operations Associate, lowongan berbahasa Inggris, unggah lewat laman karier, tidak meminta foto."
        },
        "debrief": {
         "en": "(A) Photo: yes: asked for; attach it as a separate file, not inside the CV. Date of birth: no, not required. Religion / marital status: no. Address: city only. GPA: 3,38 / 4,00. Language: Indonesian, with the same bullet discipline. (B) Photo: no on the CV; LinkedIn carries it. Date of birth: no. Religion / marital status: no. Address: “Semarang · open to relocating to Jakarta”. GPA: 3.38 / 4.00. Language: English. In both, NIK stays off the CV.",
-        "id": "(A) Foto: ya: diminta; lampirkan sebagai berkas terpisah, bukan di dalam CV. Tanggal lahir: tidak. Tidak diwajibkan. Agama / status pernikahan: tidak. Alamat: kota saja. IPK: 3,38 / 4,00. Bahasa: Indonesia, dengan disiplin butir yang sama. (B) Foto: tidak di CV; LinkedIn yang memuatnya. Tanggal lahir: tidak. Agama / status pernikahan: tidak. Alamat: “Semarang · bersedia pindah ke Jakarta”. IPK: 3.38 / 4.00. Bahasa: Inggris. Di keduanya, NIK tetap di luar CV."
+        "id": "(A) Foto: ya, karena diminta; lampirkan sebagai berkas terpisah, bukan di dalam CV. Tanggal lahir: tidak, karena tidak diwajibkan. Agama / status pernikahan: tidak. Alamat: kota saja. IPK: 3,38 / 4,00. Bahasa: Indonesia, dengan disiplin butir yang sama. (B) Foto: tidak di CV; cukup di LinkedIn. Tanggal lahir: tidak. Agama / status pernikahan: tidak. Alamat: “Semarang · bersedia ditempatkan di Jakarta”. IPK: 3.38 / 4.00. Bahasa: Inggris. Di kedua lamaran, NIK tetap tidak masuk CV."
        }
       },
       {
@@ -17542,11 +17542,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Using your pantry and one target advertisement, write a profile of 3–5 lines and under 80 words. First line: a recognisable target role. Then two or three lines of evidence that appears further down the page. Last line: where you will work.",
-        "id": "Dengan lemarimu dan satu iklan sasaran, tulis profil 3–5 baris dan di bawah 80 kata. Baris pertama: peran sasaran yang dikenali. Lalu dua atau tiga baris bukti yang muncul di bagian bawah halaman. Baris terakhir: di mana kamu akan bekerja."
+        "id": "Dengan isi lemarimu dan satu iklan sasaran, tulis profil 3–5 baris yang kurang dari 80 kata. Baris pertama: posisi sasaran yang langsung dikenali. Lalu dua atau tiga baris bukti yang juga muncul di bagian bawah halaman. Baris terakhir: di mana kamu bersedia bekerja."
        },
        "debrief": {
         "en": "Check three things. Does the first line name a role a recruiter would recognise from their own advertisement? Is every claim in the profile proven by a bullet or statement below it? Is there a single adjective without evidence, “motivated”, “dynamic”, that should go? Count the words; if you are over 80, cut the adjectives first.",
-        "id": "Periksa tiga hal. Apakah baris pertama menyebut peran yang akan dikenali perekrut dari iklannya sendiri? Apakah setiap klaim dalam profil dibuktikan oleh butir atau pernyataan di bawahnya? Adakah satu kata sifat tanpa bukti, “termotivasi”, “dinamis”, yang seharusnya dibuang? Hitung katanya; jika lebih dari 80, potong kata sifatnya lebih dulu."
+        "id": "Periksa tiga hal. Apakah baris pertama menyebut posisi yang akan dikenali perekrut dari iklannya sendiri? Apakah setiap klaim di profil dibuktikan oleh butir atau pernyataan di bawahnya? Adakah kata sifat tanpa bukti, seperti “termotivasi” atau “dinamis”, yang sebaiknya dibuang? Hitung jumlah katanya. Kalau lebih dari 80, buang kata sifat lebih dulu."
        }
       }
      ],
@@ -17555,17 +17555,17 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "A photo, DOB and religion on an English CV for a multinational",
-         "id": "Foto, tanggal lahir, dan agama di CV bahasa Inggris untuk multinasional"
+         "id": "Foto, tanggal lahir, dan agama di CV berbahasa Inggris untuk perusahaan multinasional"
         },
         "fix": {
          "en": "Include only what the application requires.",
-         "id": "Sertakan hanya yang diwajibkan lamaran."
+         "id": "Cantumkan hanya yang diwajibkan lamaran."
         }
        },
        {
         "h": {
          "en": "Omitting GPA",
-         "id": "Menghilangkan IPK"
+         "id": "Tidak mencantumkan IPK"
         },
         "fix": {
          "en": "State it in the standard format.",
@@ -17589,7 +17589,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Your name is the title.",
-         "id": "Namamu adalah judulnya."
+         "id": "Judulnya adalah namamu."
         }
        }
       ]
@@ -17602,7 +17602,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A short evidence section at the top followed by a reverse-chronological record.",
-        "id": "Bagian bukti singkat di atas diikuti catatan kronologis terbalik."
+        "id": "Bagian bukti singkat di atas, disusul riwayat kronologis terbalik."
        }
       },
       {
@@ -17612,7 +17612,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A skills-led CV with little chronology; recruiters suspect it hides something.",
-        "id": "CV berbasis keterampilan dengan sedikit kronologi; perekrut curiga ada yang disembunyikan."
+        "id": "CV yang bertumpu pada keterampilan dengan sedikit urutan waktu; perekrut curiga ada yang disembunyikan."
        }
       },
       {
@@ -17622,7 +17622,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Three to five lines under the header that name the target role and summarise the evidence.",
-        "id": "Tiga sampai lima baris di bawah kepala yang menyebut peran sasaran dan merangkum bukti."
+        "id": "Tiga sampai lima baris di bawah kepala CV yang menyebut posisi sasaran dan merangkum buktinya."
        }
       },
       {
@@ -17632,7 +17632,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The graduation honour attached to an GPA band, such as cum laude.",
-        "id": "Predikat kelulusan yang melekat pada rentang IPK, seperti cum laude."
+        "id": "Sebutan kelulusan yang melekat pada rentang IPK tertentu, seperti cum laude."
        }
       },
       {
@@ -17642,7 +17642,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The formal passport-style photograph many portals require as a separate upload.",
-        "id": "Foto formal bergaya paspor yang diwajibkan banyak portal sebagai unggahan terpisah."
+        "id": "Foto formal ala paspor yang diwajibkan banyak portal sebagai unggahan terpisah."
        }
       },
       {
@@ -17652,7 +17652,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Simple, Structured, Succinct, Significant, Bright &amp; Earl’s layout test.",
-        "id": "Sederhana, Terstruktur, Ringkas, Bermakna, uji tata letak Bright &amp; Earl."
+        "id": "Sederhana, Tersusun, Singkat, Signifikan: uji tata letak dari Bright &amp; Earl."
        }
       }
      ],
@@ -17660,12 +17660,12 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Nadia applies to a multinational’s English-language MT programme. The portal does not ask for a photo.",
-        "id": "Nadia melamar program MT berbahasa Inggris sebuah multinasional. Portalnya tidak meminta foto."
+        "id": "Nadia melamar program MT berbahasa Inggris di sebuah perusahaan multinasional. Portalnya tidak meminta foto. Apa yang sebaiknya ia lakukan?"
        },
        "options": [
         {
          "en": "Add a photo to the CV anyway",
-         "id": "Tetap tambahkan foto ke CV"
+         "id": "Tetap pasang foto di CV"
         },
         {
          "en": "No photo on the CV; a professional photo on LinkedIn",
@@ -17673,52 +17673,52 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "A casual photo",
-         "id": "Foto santai"
+         "id": "Pasang foto santai"
         },
         {
          "en": "A photo in the footer",
-         "id": "Foto di kaki halaman"
+         "id": "Pasang foto di kaki halaman"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Include a photo only when asked; for English-language multinational applications the default is none on the CV.",
-        "id": "Sertakan foto hanya jika diminta; untuk lamaran multinasional berbahasa Inggris bawaannya tanpa foto di CV."
+        "id": "Pasang foto hanya jika diminta. Untuk lamaran berbahasa Inggris ke perusahaan multinasional, CV tanpa foto adalah pilihan yang aman."
        }
       },
       {
        "q": {
         "en": "A state-enterprise-style programme requires age ≤ 25 and uploads of <i>pas foto</i> and national ID card.",
-        "id": "Program bergaya BUMN mewajibkan usia ≤ 25 dan unggahan <i>pas foto</i> serta KTP."
+        "id": "Sebuah program ala BUMN mensyaratkan usia maksimal 25 tahun serta unggahan <i>pas foto</i> dan KTP. Apa yang kamu lakukan?"
        },
        "options": [
         {
          "en": "Omit DOB",
-         "id": "Hilangkan tanggal lahir"
+         "id": "Tidak mencantumkan tanggal lahir"
         },
         {
          "en": "Include DOB (a requirement you meet), upload the photo and national ID card scan in the portal, and keep the national ID card number off the CV",
-         "id": "Sertakan tanggal lahir (syarat yang kamu penuhi), unggah foto dan pindaian KTP di portal, dan jauhkan nomor KTP dari CV"
+         "id": "Cantumkan tanggal lahir (syarat yang kamu penuhi), unggah foto dan pindaian KTP di portal, dan jangan tulis nomor KTP di CV"
         },
         {
          "en": "Put the national ID card number on the CV",
-         "id": "Taruh nomor KTP di CV"
+         "id": "Tulis nomor KTP di CV"
         },
         {
          "en": "Don’t apply",
-         "id": "Jangan melamar"
+         "id": "Tidak jadi melamar"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Required items go where the portal asks; identity numbers never go on a document you send around.",
-        "id": "Hal yang diwajibkan diletakkan di tempat yang diminta portal; nomor identitas tidak pernah ditaruh di dokumen yang kamu kirim ke mana-mana."
+        "id": "Hal yang diwajibkan diletakkan di tempat yang diminta portal. Nomor identitas tidak pernah ditulis di dokumen yang kamu sebar ke mana-mana."
        }
       },
       {
        "q": {
         "en": "Where should Nadia’s HIMA and competition roles go?",
-        "id": "Di mana seharusnya peran HIMA dan kompetisi Nadia diletakkan?"
+        "id": "Di mana sebaiknya peran Nadia di HIMA dan kompetisi diletakkan?"
        },
        "options": [
         {
@@ -17731,7 +17731,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Nowhere",
-         "id": "Tidak di mana pun"
+         "id": "Tidak perlu dicantumkan"
         },
         {
          "en": "In the footer",
@@ -17741,7 +17741,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "For graduates, organisational work is evidence, weighed together with study and work.",
-        "id": "Bagi lulusan baru, kerja organisasi adalah bukti, ditimbang bersama kuliah dan kerja."
+        "id": "Bagi lulusan baru, pengalaman organisasi adalah bukti yang ditimbang bersama kuliah dan kerja."
        }
       }
      ],
@@ -17754,7 +17754,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Assemble your master CV in the Studio’s single-column fresh-graduate template: section toggles, the profile field with a word count, and the local-decisions checklist shown before every export.",
-       "id": "Rakit CV indukmu di templat lulusan baru satu kolom milik Studio: sakelar bagian, kolom profil dengan hitungan kata, dan daftar periksa keputusan lokal yang ditampilkan sebelum setiap ekspor."
+       "id": "Rakit CV indukmu di Studio dengan templat satu kolom untuk lulusan baru: tombol untuk menyalakan atau mematikan bagian, kolom profil dengan penghitung kata, dan daftar periksa keputusan lokal yang muncul setiap kali kamu mengekspor."
       },
       "cta": {
        "en": "Open the CV Studio →",
@@ -17764,15 +17764,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Hybrid structure, one page, education first while it is your strongest evidence.",
-       "id": "Struktur hibrida, satu halaman, pendidikan dulu selama itu bukti terkuatmu."
+       "id": "Susunan hibrida, satu halaman, pendidikan di depan selama itu bukti terkuatmu."
       },
       {
        "en": "Make each local decision, photo, DOB, GPA, personal details, deliberately, per application.",
-       "id": "Ambil setiap keputusan lokal, foto, tanggal lahir, IPK, data pribadi, dengan sengaja, per lamaran."
+       "id": "Ambil setiap keputusan lokal (foto, tanggal lahir, IPK, data pribadi) dengan sengaja, untuk tiap lamaran."
       },
       {
        "en": "Simple, structured, succinct, significant.",
-       "id": "Sederhana, terstruktur, ringkas, bermakna."
+       "id": "Sederhana, tersusun, singkat, signifikan."
       }
      ],
      "resources": {
@@ -17798,23 +17798,23 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 8, 12–13, 16–17, formats; the 4-S rule; length; objectives; photos, gaps and concealment.",
-          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 8, 12–13, 16–17, format; aturan 4-S; panjang; objektif; foto, jeda, dan penyembunyian."
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 8, 12–13, 16–17: format; aturan 4-S; panjang CV; tujuan karier; foto, jeda, dan menyembunyikan data."
          },
          {
           "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 4–5, 15, against functional CVs; education first for graduates; personal details.",
-          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 4–5, 15; menolak CV fungsional; pendidikan dulu untuk lulusan baru; data pribadi."
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 4–5, 15: menolak CV fungsional; pendidikan di depan untuk lulusan baru; data pribadi."
          },
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 5, the profile formula.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 5, rumus profil."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 5: rumus profil."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3, layout and length.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3, tata letak dan panjang."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3: tata letak dan panjang CV."
          },
          {
           "en": "J. Storey, <i>Resume: The Secrets…</i>: education first (low evidential quality; used for this point only).",
-          "id": "J. Storey, <i>Resume: The Secrets…</i>: pendidikan dulu (mutu bukti rendah; dipakai untuk poin ini saja)."
+          "id": "J. Storey, <i>Resume: The Secrets…</i>: pendidikan di depan (mutu buktinya rendah; hanya dipakai untuk poin ini)."
          }
         ]
        },
@@ -17826,40 +17826,40 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "Tick each one deliberately before export.",
-         "id": "Centang masing-masing dengan sengaja sebelum ekspor."
+         "id": "Centang satu per satu dengan sengaja sebelum mengekspor."
         },
         "body": [
          {
           "en": "Photo: asked for? → separate upload if possible; on the CV only if the employer wants it there",
-          "id": "Foto: diminta? → unggahan terpisah jika bisa; di CV hanya jika perusahaan menginginkannya di sana"
+          "id": "Foto: diminta? → unggah terpisah jika bisa; pasang di CV hanya jika perusahaan memintanya di sana"
          },
          {
           "en": "Date of birth: required (age cap)? → include; otherwise omit",
-          "id": "Tanggal lahir: diwajibkan (batas usia)? → sertakan; jika tidak, hilangkan"
+          "id": "Tanggal lahir: diwajibkan (ada batas usia)? → cantumkan; jika tidak, hapus"
          },
          {
           "en": "Religion, marital status, height, weight: explicitly required? → almost always omit",
-          "id": "Agama, status pernikahan, tinggi, berat: diwajibkan secara eksplisit? → hampir selalu hilangkan"
+          "id": "Agama, status pernikahan, tinggi, berat badan: diminta secara tegas? → hampir selalu tidak dicantumkan"
          },
          {
           "en": "NIK / national ID card number, bank details: never on the CV",
-          "id": "NIK / nomor KTP, data bank: tidak pernah di CV"
+          "id": "NIK / nomor KTP, data rekening bank: tidak pernah di CV"
          },
          {
           "en": "Address: city/district + open to relocation",
-          "id": "Alamat: kota/kabupaten + bersedia pindah"
+          "id": "Alamat: kota/kabupaten + bersedia ditempatkan di luar kota"
          },
          {
           "en": "GPA: stated, exact, standard format (3,38 / 4,00 or 3.38 / 4.00)",
-          "id": "IPK: dicantumkan, tepat, format standar (3,38 / 4,00 atau 3.38 / 4.00)"
+          "id": "IPK: dicantumkan, persis, dengan format standar (3,38 / 4,00 atau 3.38 / 4.00)"
          },
          {
           "en": "Language: one per CV, matching the advertisement and employer",
-          "id": "Bahasa: satu per CV, sesuai iklan dan perusahaan"
+          "id": "Bahasa: satu bahasa per CV, sesuai iklan dan perusahaannya"
          },
          {
           "en": "Referees: on request unless asked; permission obtained",
-          "id": "Pemberi referensi: atas permintaan kecuali diminta; izin sudah diperoleh"
+          "id": "Pemberi referensi: bila diminta, kecuali iklan memintanya sejak awal; izin sudah didapat"
          }
         ]
        }
@@ -17880,24 +17880,24 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "Tailoring every CV from scratch is unrealistic; sending one CV everywhere is ineffective. This lesson gives you the middle path, a master, a few cluster versions, and a twenty-minute tailoring pass, plus the quality checks to run before anything is sent.",
-      "id": "Menyesuaikan setiap CV dari nol tidak realistis; mengirim satu CV ke mana-mana tidak efektif. Pelajaran ini memberimu jalan tengah, satu induk, beberapa versi rumpun, dan proses penyesuaian dua puluh menit, ditambah pemeriksaan mutu yang dijalankan sebelum apa pun dikirim."
+      "id": "Menulis CV dari nol untuk setiap lamaran itu tidak realistis. Mengirim satu CV yang sama ke mana-mana juga tidak efektif. Pelajaran ini memberimu jalan tengah: satu CV induk, beberapa versi per rumpun posisi, dan sesi penyesuaian dua puluh menit, ditambah pemeriksaan mutu yang wajib dijalankan sebelum apa pun terkirim."
      },
      "objectives": [
       {
        "en": "Maintain a master CV and two to four cluster versions.",
-       "id": "Memelihara CV induk dan dua sampai empat versi rumpun."
+       "id": "Merawat satu CV induk dan dua sampai empat versi per rumpun posisi."
       },
       {
        "en": "Complete a tailoring pass in about twenty minutes.",
-       "id": "Menyelesaikan proses penyesuaian dalam sekitar dua puluh menit."
+       "id": "Menyelesaikan satu sesi penyesuaian dalam sekitar dua puluh menit."
       },
       {
        "en": "Run the 30-second skim test and the pre-send quality gate.",
-       "id": "Menjalankan uji pindai 30 detik dan gerbang mutu pra-kirim."
+       "id": "Menjalankan uji sekilas 30 detik dan gerbang mutu sebelum kirim."
       },
       {
        "en": "Name and version files so you always know what was sent where.",
-       "id": "Menamai dan memberi versi berkas agar kamu selalu tahu apa yang dikirim ke mana."
+       "id": "Memberi nama dan nomor versi pada berkas agar kamu selalu tahu versi mana terkirim ke mana."
       }
      ],
      "readFirst": {
@@ -17917,26 +17917,26 @@ window.MT_LMS['the-pack'] = {
        "story": [
         {
          "en": "Master, cluster, tailored: the master holds everything true and good, and it is never sent",
-         "id": "Induk, rumpun, tersesuaikan: induk memuat semua yang benar dan baik, dan tidak pernah dikirim"
+         "id": "Induk, rumpun, disesuaikan: CV induk memuat semua yang benar dan bagus, dan tidak pernah dikirim"
         },
         {
          "en": "Twenty minutes, five moves, in the order of impact; the first two do most of the work",
-         "id": "Dua puluh menit, lima langkah, dalam urutan dampak; dua yang pertama mengerjakan sebagian besarnya"
+         "id": "Dua puluh menit, lima langkah, diurutkan dari dampak terbesar; dua langkah pertama menyelesaikan sebagian besar pekerjaan"
         },
         {
          "en": "Two tests before sending: a thirty-second skim by a stranger, and ten questions that must all be yes",
-         "id": "Dua uji sebelum mengirim: pindaian tiga puluh detik oleh orang asing, dan sepuluh pertanyaan yang semuanya harus ya"
+         "id": "Dua uji sebelum kirim: uji sekilas tiga puluh detik oleh orang lain, dan sepuluh pertanyaan yang semuanya harus dijawab ya"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Master → cluster → tailored",
-          "id": "Induk → rumpun → tersesuaikan"
+          "id": "Induk → rumpun → disesuaikan"
          },
          "p": {
           "en": "Build once, aim many times: tailoring changes emphasis and vocabulary, never facts.",
-          "id": "Bangun sekali, bidikkan berkali-kali: penyesuaian mengubah penekanan dan kosakata, tidak pernah fakta."
+          "id": "Susun sekali, bidik berkali-kali: penyesuaian mengubah penekanan dan pilihan kata, tidak pernah mengubah fakta."
          }
         },
         {
@@ -17946,17 +17946,17 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Name files so a recruiter can find them and you can track them: NadiaPutri_CV_Arunika_MT.pdf, never “CV final revisi 3.pdf”.",
-          "id": "Beri nama berkas agar perekrut bisa menemukannya dan kamu bisa melacaknya: NadiaPutri_CV_Arunika_MT.pdf, jangan pernah “CV final revisi 3.pdf”."
+          "id": "Beri nama berkas yang mudah ditemukan perekrut dan mudah kamu lacak: NadiaPutri_CV_Arunika_MT.pdf, jangan pernah “CV final revisi 3.pdf”."
          }
         },
         {
          "h": {
           "en": "Two tests before sending",
-          "id": "Dua uji sebelum mengirim"
+          "id": "Dua uji sebelum kirim"
          },
          "p": {
           "en": "Nothing is sent until it passes ten questions; the gate is the afternoon that fixes every reason to reject.",
-          "id": "Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan; gerbang itu adalah satu sore yang memperbaiki setiap alasan penolakan."
+          "id": "Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan; gerbang itu adalah satu sore yang membereskan semua alasan penolakan."
          }
         }
        ],
@@ -17965,7 +17965,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Master, cluster, tailored: the master holds everything true and good, and it is never sent",
-          "id": "Induk, rumpun, tersesuaikan: induk memuat semua yang benar dan baik, dan tidak pernah dikirim"
+          "id": "Induk, rumpun, disesuaikan: CV induk memuat semua yang benar dan bagus, dan tidak pernah dikirim"
          },
          "img": "../../assets/bg/ep-stage-architecture.jpg",
          "layout": "flow",
@@ -17976,7 +17976,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Induk",
            "d": {
             "en": "Everything true and good from the pantry, in bullet form, several pages; the single source every copy draws from.",
-            "id": "Semua yang benar dan baik dari lemari, dalam bentuk butir, beberapa halaman; sumber tunggal yang diambil setiap salinan."
+            "id": "Semua yang benar dan bagus dari lemari, dalam bentuk butir, beberapa halaman; satu-satunya sumber untuk setiap salinan."
            }
           },
           {
@@ -17985,26 +17985,26 @@ window.MT_LMS['the-pack'] = {
            "id": "Rumpun",
            "d": {
             "en": "One version per role family: operations, finance, marketing; the profile and order already aimed.",
-            "id": "Satu versi per keluarga peran: operasi, keuangan, pemasaran; profil dan urutan sudah dibidikkan."
+            "id": "Satu versi untuk setiap rumpun posisi: operasional, keuangan, pemasaran; profil dan urutannya sudah dibidikkan."
            }
           },
           {
            "icon": "target",
            "en": "Tailored",
-           "id": "Tersesuaikan",
+           "id": "Disesuaikan",
            "d": {
             "en": "One version per advertisement, from the cluster, in twenty minutes; the one that is sent.",
-            "id": "Satu versi per iklan, dari rumpun, dalam dua puluh menit; yang dikirim."
+            "id": "Satu versi untuk setiap iklan, diambil dari CV rumpun, dalam dua puluh menit; inilah yang dikirim."
            }
           }
          ],
          "sub": {
           "en": "The books disagree, a new CV per job versus one master adapted; The Pack’s resolution has three layers.",
-          "id": "Buku-buku berbeda pendapat, CV baru per lowongan versus satu induk yang disesuaikan; penyelesaian The Pack punya tiga lapisan."
+          "id": "Buku-buku berbeda pendapat: CV baru untuk tiap lowongan, atau satu CV induk yang diubah; jalan tengah The Pack terdiri dari tiga lapis."
          },
          "band": {
           "en": "Build once, aim many times: tailoring changes emphasis and vocabulary, never facts.",
-          "id": "Bangun sekali, bidikkan berkali-kali: penyesuaian mengubah penekanan dan kosakata, tidak pernah fakta."
+          "id": "Susun sekali, bidik berkali-kali: penyesuaian mengubah penekanan dan pilihan kata, tidak pernah mengubah fakta."
          },
          "em": {
           "en": "it is never sent",
@@ -18015,7 +18015,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Twenty minutes, five moves, in the order of impact; the first two do most of the work",
-          "id": "Dua puluh menit, lima langkah, dalam urutan dampak; dua yang pertama mengerjakan sebagian besarnya"
+          "id": "Dua puluh menit, lima langkah, diurutkan dari dampak terbesar; dua langkah pertama menyelesaikan sebagian besar pekerjaan"
          },
          "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
          "layout": "flow",
@@ -18026,25 +18026,25 @@ window.MT_LMS['the-pack'] = {
            "id": "0–5 Profil",
            "d": {
             "en": "Name the role family; echo their top two must-haves in the first two lines.",
-            "id": "Sebut keluarga peran; gaungkan dua syarat wajib teratas mereka di dua baris pertama."
+            "id": "Sebut rumpun posisinya; gaungkan dua syarat wajib teratas dari iklan di dua baris pertama."
            }
           },
           {
            "icon": "steps",
            "en": "5–9 Reorder",
-           "id": "5–9 Susun ulang",
+           "id": "5–9 Urutkan ulang",
            "d": {
             "en": "Within each role, move the bullets most relevant to this advertisement to the top.",
-            "id": "Di tiap peran, pindahkan butir paling relevan dengan iklan ini ke atas."
+            "id": "Di setiap peran, naikkan butir yang paling relevan dengan iklan ini ke posisi teratas."
            }
           },
           {
            "icon": "pen",
            "en": "9–13 Rephrase",
-           "id": "9–13 Ubah kata",
+           "id": "9–13 Ganti istilah",
            "d": {
             "en": "Use their vocabulary for the same thing, from your keyword table.",
-            "id": "Pakai kosakata mereka untuk hal yang sama, dari tabel kata kuncimu."
+            "id": "Pakai istilah mereka untuk hal yang sama, diambil dari tabel kata kuncimu."
            }
           },
           {
@@ -18053,7 +18053,7 @@ window.MT_LMS['the-pack'] = {
            "id": "13–17 Pernyataan",
            "d": {
             "en": "Swap in the 3–5 competency statements that match this advertisement’s priorities.",
-            "id": "Masukkan 3–5 pernyataan kompetensi yang cocok dengan prioritas iklan ini."
+            "id": "Pasang 3–5 pernyataan kompetensi yang cocok dengan prioritas iklan ini."
            }
           },
           {
@@ -18062,49 +18062,49 @@ window.MT_LMS['the-pack'] = {
            "id": "17–20 Pangkas",
            "d": {
             "en": "Remove what does not raise fit here; back to one page.",
-            "id": "Buang yang tidak menaikkan kecocokan di sini; kembali ke satu halaman."
+            "id": "Buang yang tidak menambah kecocokan untuk lowongan ini; kembalikan ke satu halaman."
            }
           }
          ],
          "sub": {
           "en": "Set a timer; J. Innes’s list of what to tailor, in order.",
-          "id": "Pasang pengatur waktu; daftar J. Innes tentang apa yang disesuaikan, berurutan."
+          "id": "Pasang pengatur waktu; daftar dari J. Innes tentang apa yang disesuaikan, berurutan."
          },
          "band": {
           "en": "Name files so a recruiter can find them and you can track them: NadiaPutri_CV_Arunika_MT.pdf, never “CV final revisi 3.pdf”.",
-          "id": "Beri nama berkas agar perekrut bisa menemukannya dan kamu bisa melacaknya: NadiaPutri_CV_Arunika_MT.pdf, jangan pernah “CV final revisi 3.pdf”."
+          "id": "Beri nama berkas yang mudah ditemukan perekrut dan mudah kamu lacak: NadiaPutri_CV_Arunika_MT.pdf, jangan pernah “CV final revisi 3.pdf”."
          },
          "em": {
           "en": "in the order of impact",
-          "id": "dalam urutan dampak"
+          "id": "diurutkan dari dampak terbesar"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Two tests before sending: a thirty-second skim by a stranger, and ten questions that must all be yes",
-          "id": "Dua uji sebelum mengirim: pindaian tiga puluh detik oleh orang asing, dan sepuluh pertanyaan yang semuanya harus ya"
+          "id": "Dua uji sebelum kirim: uji sekilas tiga puluh detik oleh orang lain, dan sepuluh pertanyaan yang semuanya harus dijawab ya"
          },
          "cols": [
           {
            "l": {
             "en": "The 30-second skim",
-            "id": "Pindaian 30 detik"
+            "id": "Uji sekilas 30 detik"
            },
            "d": {
             "en": "Give it, take it back, ask",
-            "id": "Berikan, ambil kembali, tanyakan"
+            "id": "Berikan, ambil lagi, tanyakan"
            },
            "items": [
             {
              "icon": "target",
              "en": "What role is this person targeting?",
-             "id": "Peran apa yang dibidik orang ini?"
+             "id": "Posisi apa yang dibidik orang ini?"
             },
             {
              "icon": "star",
              "en": "What are their top three selling points?",
-             "id": "Apa tiga daya jual teratasnya?"
+             "id": "Apa tiga nilai jual utamanya?"
             },
             {
              "icon": "trophy",
@@ -18114,7 +18114,7 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "refresh",
              "en": "If they cannot answer, restructure the top half of the page",
-             "id": "Jika tak bisa menjawab, susun ulang separuh atas halaman"
+             "id": "Kalau ia tidak bisa menjawab, susun ulang separuh atas halaman"
             }
            ],
            "icon": "eye"
@@ -18132,22 +18132,22 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "filter",
              "en": "Target role named; every must-have covered with evidence",
-             "id": "Peran sasaran disebut; setiap syarat wajib tercakup dengan bukti"
+             "id": "Posisi sasaran disebut; setiap syarat wajib tercakup lengkap dengan bukti"
             },
             {
              "icon": "calc",
              "en": "Every bullet on the formula; every number defensible",
-             "id": "Setiap butir sesuai rumus; setiap angka bisa dipertahankan"
+             "id": "Setiap butir mengikuti rumus; setiap angka bisa dipertanggungjawabkan"
             },
             {
              "icon": "doc",
              "en": "Profile under 80 words; one page; parse-safe",
-             "id": "Profil di bawah 80 kata; satu halaman; aman diurai"
+             "id": "Profil kurang dari 80 kata; satu halaman; aman dibaca sistem"
             },
             {
              "icon": "link",
              "en": "No spelling errors; facts identical to LinkedIn and the form",
-             "id": "Tanpa kesalahan ejaan; fakta identik dengan LinkedIn dan formulir"
+             "id": "Tanpa salah ketik; fakta sama persis dengan LinkedIn dan formulir"
             }
            ],
            "icon": "check"
@@ -18158,15 +18158,15 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "The tester does not need to be a recruiter; the test is about where the information sits, not how expert the reader is.",
-          "id": "Pengujinya tidak perlu perekrut; ujinya tentang di mana informasi berada, bukan seberapa ahli pembacanya."
+          "id": "Pengujinya tidak harus perekrut; yang diuji adalah letak informasinya, bukan keahlian pembacanya."
          },
          "band": {
           "en": "Nothing is sent until it passes ten questions; the gate is the afternoon that fixes every reason to reject.",
-          "id": "Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan; gerbang itu adalah satu sore yang memperbaiki setiap alasan penolakan."
+          "id": "Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan; gerbang itu adalah satu sore yang membereskan semua alasan penolakan."
          },
          "em": {
           "en": "must all be yes",
-          "id": "semuanya harus ya"
+          "id": "semuanya harus dijawab ya"
          }
         }
        ],
@@ -18181,26 +18181,26 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Build once, aim many times",
-       "id": "Bangun sekali, bidikkan berkali-kali"
+       "id": "Susun sekali, bidik berkali-kali"
       },
       "intro": {
        "en": "A master, two to four clusters, and a twenty-minute pass per advertisement. Nothing is sent until it passes ten questions.",
-       "id": "Satu induk, dua sampai empat rumpun, dan proses dua puluh menit per iklan. Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan."
+       "id": "Satu CV induk, dua sampai empat versi rumpun, dan dua puluh menit untuk tiap iklan. Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan."
       },
       "slides": [
        {
         "h": {
          "en": "Master → cluster → tailored",
-         "id": "Induk → rumpun → tersesuaikan"
+         "id": "Induk → rumpun → disesuaikan"
         },
         "points": [
          {
           "en": "The master holds everything true and good; it is never sent.",
-          "id": "Induk memuat semua yang benar dan baik; tidak pernah dikirim."
+          "id": "CV induk memuat semua hal yang benar dan bagus. CV ini tidak pernah dikirim."
          },
          {
           "en": "A cluster version per role family; a tailored version per advertisement.",
-          "id": "Satu versi rumpun per keluarga peran; satu versi tersesuaikan per iklan."
+          "id": "Satu versi untuk setiap rumpun posisi, dan satu versi yang disesuaikan untuk setiap iklan."
          }
         ]
        },
@@ -18212,27 +18212,27 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Profile · reorder · rephrase · competency statements · cut.",
-          "id": "Profil · susun ulang · ubah kata · pernyataan kompetensi · pangkas."
+          "id": "Profil · urutkan ulang · ganti istilah · pernyataan kompetensi · pangkas."
          },
          {
           "en": "Tailoring changes emphasis and vocabulary, never facts.",
-          "id": "Penyesuaian mengubah penekanan dan kosakata, tidak pernah fakta."
+          "id": "Menyesuaikan CV berarti mengubah penekanan dan pilihan kata, bukan fakta."
          }
         ]
        },
        {
         "h": {
          "en": "Two tests before sending",
-         "id": "Dua uji sebelum mengirim"
+         "id": "Dua uji sebelum kirim"
         },
         "points": [
          {
           "en": "The 30-second skim: can a stranger name your target role, three selling points and one achievement?",
-          "id": "Pindai 30 detik: bisakah orang asing menyebut peran sasaranmu, tiga daya jual, dan satu pencapaian?"
+          "id": "Uji sekilas 30 detik: bisakah orang asing menyebut posisi sasaranmu, tiga nilai jualmu, dan satu pencapaianmu?"
          },
          {
           "en": "The ten-question quality gate. All ten must be yes.",
-          "id": "Gerbang mutu sepuluh pertanyaan. Kesepuluhnya harus ya."
+          "id": "Gerbang mutu sepuluh pertanyaan. Kesepuluhnya harus dijawab “ya”."
          }
         ]
        }
@@ -18243,46 +18243,46 @@ window.MT_LMS['the-pack'] = {
        "icon": "gear",
        "h": {
         "en": "Master → cluster → tailored",
-        "id": "Induk → rumpun → tersesuaikan"
+        "id": "Induk → rumpun → disesuaikan"
        },
        "body": {
         "en": "The books disagree on how far to tailor, a new CV per job <i>(Bright &amp; Earl, How to Write a Brilliant CV, ch. 14; McMunn)</i> versus one master adapted <i>(Innes, The CV Book, ch. 18; Simunovic, §6.1)</i>. The Pack’s resolution has three layers:",
-        "id": "Buku-buku tidak sepakat seberapa jauh menyesuaikan, CV baru per pekerjaan <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 14; McMunn)</i> versus satu induk yang diadaptasi <i>(Innes, The CV Book, bab 18; Simunovic, §6.1)</i>. Penyelesaian The Pack punya tiga lapisan:"
+        "id": "Buku-buku berbeda pendapat soal seberapa jauh CV perlu disesuaikan: CV baru untuk setiap lowongan <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 14; McMunn)</i>, atau satu CV induk yang diubah sedikit-sedikit <i>(Innes, The CV Book, bab 18; Simunovic, §6.1)</i>. Jalan tengah The Pack terdiri dari tiga lapis:"
        },
        "bullets": [
         {
          "en": "<b>Master CV</b>: everything true and good, longer than any submitted version; updated monthly. It is a document you maintain, not one you send.",
-         "id": "<b>CV induk</b>: semua yang benar dan baik, lebih panjang dari versi apa pun yang dikirim; diperbarui bulanan. Dokumen yang kamu pelihara, bukan yang kamu kirim."
+         "id": "<b>CV induk</b>: memuat semua hal yang benar dan bagus, lebih panjang dari versi mana pun yang dikirim, diperbarui setiap bulan. Ini dokumen yang kamu rawat, bukan yang kamu kirim."
         },
         {
          "en": "<b>Cluster CVs (2–4)</b>: one per role cluster from your target sentence (for Nadia: <i>FMCG (fast-moving consumer goods) commercial MT (management trainee)</i>, <i>bank officer programme</i>, <i>fintech operations</i>). Each is one page, already shaped to its cluster’s vocabulary.",
-         "id": "<b>CV rumpun (2–4)</b>: satu per rumpun peran dari kalimat sasaranmu (untuk Nadia: <i>MT (management trainee, program pelatihan manajemen) komersial FMCG (barang konsumsi cepat habis, fast-moving consumer goods)</i>, <i>ODP bank</i>, <i>operasional fintech</i>). Masing-masing satu halaman, sudah dibentuk sesuai kosakata rumpunnya."
+         "id": "<b>CV rumpun (2–4)</b>: satu untuk setiap rumpun posisi dari kalimat sasaranmu (untuk Nadia: <i>MT (management trainee, program pelatihan manajemen) komersial FMCG (barang konsumsi cepat habis, fast-moving consumer goods)</i>, <i>ODP bank</i>, <i>operasional fintech</i>). Masing-masing satu halaman dan sudah memakai kosakata khas rumpunnya."
         },
         {
          "en": "<b>Tailored CV</b>: a cluster CV adjusted for a single advertisement in about twenty minutes.",
-         "id": "<b>CV tersesuaikan</b>: CV rumpun yang disesuaikan untuk satu iklan dalam sekitar dua puluh menit."
+         "id": "<b>CV yang disesuaikan</b>: CV rumpun yang diubah untuk satu iklan tertentu dalam sekitar dua puluh menit."
         }
        ],
        "after": [
         {
          "en": "Two clusters is enough to start. If you find yourself tailoring more than a third of a cluster CV for every advertisement, the cluster is too broad, split it.",
-         "id": "Dua rumpun cukup untuk memulai. Jika kamu mendapati dirimu menyesuaikan lebih dari sepertiga CV rumpun untuk setiap iklan, rumpunnya terlalu luas, pecah."
+         "id": "Dua rumpun sudah cukup untuk memulai. Kalau kamu harus mengubah lebih dari sepertiga CV rumpun untuk setiap iklan, rumpunnya terlalu luas. Pecah menjadi dua."
         }
        ],
        "key": {
         "en": "Three layers: a master that holds everything true and good, two to four cluster CVs, and a tailored copy per advertisement.",
-        "id": "Tiga lapis: master yang memuat semua yang benar dan baik, dua sampai empat CV klaster, dan satu salinan yang disesuaikan per iklan."
+        "id": "Tiga lapis: CV induk yang memuat semua hal yang benar dan bagus, dua sampai empat CV rumpun, dan satu salinan yang disesuaikan untuk tiap iklan."
        }
       },
       {
        "icon": "target",
        "h": {
         "en": "The twenty-minute pass",
-        "id": "Proses dua puluh menit"
+        "id": "Sesi dua puluh menit"
        },
        "body": {
         "en": "Innes lists what to tailor, in order of impact <i>(ch. 18)</i>. Set a timer; the order matters because the first two moves do most of the work.",
-        "id": "Innes mendaftar apa yang disesuaikan, berdasarkan urutan dampak <i>(bab 18)</i>. Pasang pengatur waktu; urutannya penting karena dua langkah pertama melakukan sebagian besar pekerjaan."
+        "id": "Innes mengurutkan apa saja yang perlu disesuaikan, dari yang dampaknya paling besar <i>(bab 18)</i>. Pasang pengatur waktu. Urutannya penting, karena dua langkah pertama sudah menyelesaikan sebagian besar pekerjaan."
        },
        "table": {
         "cols": [
@@ -18296,7 +18296,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "What changes",
-          "id": "Apa yang berubah"
+          "id": "Yang diubah"
          }
         ],
         "rows": [
@@ -18307,11 +18307,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Profile and objective</b>",
-           "id": "<b>Profil dan objektif</b>"
+           "id": "<b>Profil dan tujuan karier</b>"
           },
           {
            "en": "Name the role family; echo their top two must-haves in the first two lines.",
-           "id": "Sebut keluarga perannya; gemakan dua syarat wajib teratas mereka di dua baris pertama."
+           "id": "Sebut rumpun posisinya; gaungkan dua syarat wajib teratas dari iklan di dua baris pertama."
           }
          ],
          [
@@ -18321,11 +18321,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Reorder</b>",
-           "id": "<b>Susun ulang</b>"
+           "id": "<b>Urutkan ulang</b>"
           },
           {
            "en": "Within each role, move the bullets most relevant to this advertisement to the top.",
-           "id": "Di setiap peran, pindahkan butir yang paling relevan dengan iklan ini ke atas."
+           "id": "Di setiap peran, naikkan butir yang paling relevan dengan iklan ini ke posisi teratas."
           }
          ],
          [
@@ -18335,11 +18335,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Rephrase</b>",
-           "id": "<b>Ubah kata</b>"
+           "id": "<b>Ganti istilah</b>"
           },
           {
            "en": "Use their vocabulary for the same thing, from your keyword table (Lesson 3.2).",
-           "id": "Pakai kosakata mereka untuk hal yang sama, dari tabel kata kuncimu (Pelajaran 3.2)."
+           "id": "Pakai istilah mereka untuk hal yang sama, diambil dari tabel kata kuncimu (Pelajaran 3.2)."
           }
          ],
          [
@@ -18353,7 +18353,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Swap in the 3–5 that match this advertisement’s priorities.",
-           "id": "Ganti dengan 3–5 yang cocok dengan prioritas iklan ini."
+           "id": "Pasang 3–5 pernyataan yang cocok dengan prioritas iklan ini."
           }
          ],
          [
@@ -18367,7 +18367,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Remove what does not raise fit here. Back to one page.",
-           "id": "Buang yang tidak menaikkan kecocokan di sini. Kembali ke satu halaman."
+           "id": "Buang yang tidak menambah kecocokan untuk lowongan ini. Kembalikan ke satu halaman."
           }
          ]
         ]
@@ -18375,59 +18375,59 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "Do not change facts. Tailoring changes <i>emphasis and vocabulary</i>, never <i>truth</i>. An internship does not become an analyst role; a three-month placement does not become six; a “helped” does not become a “led” unless you led.",
-         "id": "Jangan ubah fakta. Penyesuaian mengubah <i>penekanan dan kosakata</i>, tidak pernah <i>kebenaran</i>. Magang tidak menjadi peran analis; penempatan tiga bulan tidak menjadi enam; “membantu” tidak menjadi “memimpin” kecuali kamu memang memimpin."
+         "id": "Jangan mengubah fakta. Menyesuaikan CV berarti mengubah <i>penekanan dan pilihan kata</i>, bukan <i>kebenaran</i>. Magang tidak berubah menjadi posisi analis; penempatan tiga bulan tidak menjadi enam bulan; “membantu” tidak menjadi “memimpin”, kecuali kamu memang memimpin."
         }
        ],
        "key": {
         "en": "Twenty minutes, five moves in order of impact; the profile and the reorder do most of the work.",
-        "id": "Dua puluh menit, lima langkah menurut dampaknya; profil dan penataan ulang mengerjakan sebagian besar pekerjaannya."
+        "id": "Dua puluh menit, lima langkah, diurutkan dari dampak terbesar. Profil dan urutan ulang menyelesaikan sebagian besar pekerjaan."
        }
       },
       {
        "icon": "eye",
        "h": {
         "en": "The 30-second skim test",
-        "id": "Uji pindai 30 detik"
+        "id": "Uji sekilas 30 detik"
        },
        "body": {
         "en": "Give your CV to someone for 30 seconds, take it back, and ask: What role is this person targeting? What are their top three selling points? Name one achievement. If they cannot answer, restructure the top half of the page <i>(adapted from Innes, ch. 1; Knowles, How to Write an Outstanding CV, ch. 1)</i>. The tester does not need to be a recruiter, a housemate works, because the test is about where the information sits, not how expert the reader is.",
-        "id": "Berikan CV-mu kepada seseorang selama 30 detik, ambil kembali, dan tanyakan: Peran apa yang dibidik orang ini? Apa tiga daya jual teratasnya? Sebutkan satu pencapaian. Jika mereka tidak bisa menjawab, susun ulang separuh atas halaman <i>(diadaptasi dari Innes, bab 1; Knowles, How to Write an Outstanding CV, bab 1)</i>. Pengujinya tidak perlu perekrut, teman kos pun bisa, karena ujinya tentang di mana informasi berada, bukan seberapa ahli pembacanya."
+        "id": "Berikan CV-mu kepada seseorang selama 30 detik, ambil kembali, lalu tanyakan: Posisi apa yang dibidik orang ini? Apa tiga nilai jual utamanya? Sebutkan satu pencapaiannya. Kalau ia tidak bisa menjawab, susun ulang separuh atas halamanmu <i>(diadaptasi dari Innes, bab 1; Knowles, How to Write an Outstanding CV, bab 1)</i>. Pengujinya tidak harus perekrut. Teman satu kos pun bisa, karena yang diuji adalah letak informasinya, bukan keahlian pembacanya."
        },
        "key": {
         "en": "Thirty seconds with a stranger: if they cannot name your target role and top three points, restructure the top half of the page.",
-        "id": "Tiga puluh detik dengan orang asing: jika ia tak bisa menyebut peran sasaranmu dan tiga poin utamamu, tata ulang separuh atas halaman."
+        "id": "Tiga puluh detik bersama orang asing. Kalau ia tidak bisa menyebut posisi sasaran dan tiga nilai jual utamamu, susun ulang separuh atas halamanmu."
        }
       },
       {
        "icon": "flag",
        "h": {
         "en": "The pre-send quality gate",
-        "id": "Gerbang mutu pra-kirim"
+        "id": "Gerbang mutu sebelum kirim"
        },
        "body": {
         "en": "Ten questions, all must be “yes”:",
-        "id": "Sepuluh pertanyaan, semuanya harus “ya”:"
+        "id": "Sepuluh pertanyaan, semuanya harus dijawab “ya”:"
        },
        "bullets": [
         {
          "en": "Is my name the title, with phone, email, LinkedIn and city at the top?",
-         "id": "Apakah namaku adalah judulnya, dengan telepon, email, LinkedIn, dan kota di atas?"
+         "id": "Apakah namaku menjadi judul, dengan nomor telepon, email, LinkedIn, dan kota di bagian atas?"
         },
         {
          "en": "Does the first line of my profile name the target role?",
-         "id": "Apakah baris pertama profilku menyebut peran sasaran?"
+         "id": "Apakah baris pertama profilku menyebut posisi sasaran?"
         },
         {
          "en": "Does every must-have from the advertisement appear, truthfully, somewhere?",
-         "id": "Apakah setiap syarat wajib dari iklan muncul, dengan jujur, di suatu tempat?"
+         "id": "Apakah setiap syarat wajib dari iklan muncul di suatu tempat, dengan jujur?"
         },
         {
          "en": "Does every bullet start with a verb and show a result or scale?",
-         "id": "Apakah setiap butir dimulai dengan kata kerja dan menunjukkan hasil atau skala?"
+         "id": "Apakah setiap butir diawali kata kerja dan menunjukkan hasil atau skala?"
         },
         {
          "en": "Is there at least one number in most roles?",
-         "id": "Apakah ada setidaknya satu angka di sebagian besar peran?"
+         "id": "Apakah sebagian besar peran memuat setidaknya satu angka?"
         },
         {
          "en": "Are there 3–5 evidenced competency statements?",
@@ -18435,39 +18435,39 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Is GPA (grade point average) stated in the right format?",
-         "id": "Apakah IPK dicantumkan dalam format yang benar?"
+         "id": "Apakah IPK tercantum dengan format yang benar?"
         },
         {
          "en": "Have I made each local decision (photo, DOB, etc.) deliberately for <i>this</i> application?",
-         "id": "Apakah aku sudah mengambil setiap keputusan lokal (foto, tanggal lahir, dll.) dengan sengaja untuk lamaran <i>ini</i>?"
+         "id": "Apakah setiap keputusan lokal (foto, tanggal lahir, dan lainnya) sudah kuambil dengan sengaja untuk lamaran <i>ini</i>?"
         },
         {
          "en": "Has someone else proofread it? Typos are the most common single eliminator.",
-         "id": "Apakah orang lain sudah membaca ulang? Salah ketik adalah penggugur tunggal yang paling umum."
+         "id": "Apakah sudah ada orang lain yang mengoreksinya? Salah ketik adalah penyebab gugur yang paling sering."
         },
         {
          "en": "Could I talk for two minutes about every line?",
-         "id": "Bisakah aku berbicara dua menit tentang setiap baris?"
+         "id": "Sanggupkah aku bicara dua menit tentang setiap baris?"
         }
        ],
        "key": {
         "en": "Ten yes-or-no questions before sending; one “no” means the CV is not ready.",
-        "id": "Sepuluh pertanyaan ya atau tidak sebelum mengirim; satu “tidak” berarti CV belum siap."
+        "id": "Sepuluh pertanyaan ya atau tidak sebelum mengirim. Satu jawaban “tidak” berarti CV-nya belum siap."
        }
       },
       {
        "icon": "gear",
        "h": {
         "en": "Files and versions",
-        "id": "Berkas dan versi"
+        "id": "Nama berkas dan versi"
        },
        "body": {
         "en": "Name files so a recruiter can find them and you can track them: <b><code>NadiaPutri_CV_Arunika_MT.pdf</code></b>, never <code>CV final revisi 3.pdf</code> <i>(Innes, ch. 2)</i>. Record the version in your Pipeline Tracker (Lesson 1.4). When the recruiter calls, you must know which document they are holding. Keep the LinkedIn profile consistent with the facts on every version (Module 5): dates, titles and GPA identical everywhere, because recruiters compare.",
-        "id": "Namai berkas agar perekrut bisa menemukannya dan kamu bisa melacaknya: <b><code>NadiaPutri_CV_Arunika_MT.pdf</code></b>, jangan pernah <code>CV final revisi 3.pdf</code> <i>(Innes, bab 2)</i>. Catat versinya di Pelacak Alur (Pelajaran 1.4). Ketika perekrut menelepon, kamu harus tahu dokumen mana yang mereka pegang. Jaga profil LinkedIn konsisten dengan fakta di setiap versi (Modul 5): tanggal, jabatan, dan IPK identik di mana-mana, karena perekrut membandingkan."
+        "id": "Beri nama berkas yang mudah ditemukan perekrut dan mudah kamu lacak: <b><code>NadiaPutri_CV_Arunika_MT.pdf</code></b>, jangan pernah <code>CV final revisi 3.pdf</code> <i>(Innes, bab 2)</i>. Catat versinya di Pelacak Alur (Pelajaran 1.4). Saat perekrut menelepon, kamu harus tahu dokumen mana yang sedang ia pegang. Pastikan profil LinkedIn sejalan dengan fakta di setiap versi (Modul 5): tanggal, jabatan, dan IPK harus sama persis di mana pun, karena perekrut membandingkannya."
        },
        "key": {
         "en": "Name files so a recruiter can find them and you can track them; know which version they are holding when they call.",
-        "id": "Beri nama berkas agar perekrut mudah menemukannya dan kamu bisa melacaknya; tahu versi mana yang mereka pegang saat menelepon."
+        "id": "Beri nama berkas yang mudah ditemukan perekrut dan mudah kamu lacak. Saat ia menelepon, kamu tahu versi mana yang sedang ia pegang."
        }
       }
      ],
@@ -18475,11 +18475,11 @@ window.MT_LMS['the-pack'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 10: Three layers, one truth",
-       "id": "Peraga 10: Tiga lapisan, satu kebenaran"
+       "id": "Peraga 10: Tiga lapis, satu kebenaran"
       },
       "title": {
        "en": "Master → clusters → tailored → gate → send",
-       "id": "Induk → rumpun → tersesuaikan → gerbang → kirim"
+       "id": "Induk → rumpun → disesuaikan → gerbang → kirim"
       },
       "items": [
        {
@@ -18489,7 +18489,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Everything true and good. Updated monthly. Never sent.",
-         "id": "Semua yang benar dan baik. Diperbarui bulanan. Tidak pernah dikirim."
+         "id": "Semua yang benar dan bagus. Diperbarui setiap bulan. Tidak pernah dikirim."
         }
        },
        {
@@ -18499,17 +18499,17 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "One page per role family: FMCG MT · bank officer programme · fintech ops.",
-         "id": "Satu halaman per keluarga peran: MT FMCG · ODP bank · operasional fintech."
+         "id": "Satu halaman untuk tiap rumpun posisi: MT FMCG · ODP bank · operasional fintech."
         }
        },
        {
         "h": {
          "en": "Tailored",
-         "id": "Tersesuaikan"
+         "id": "Disesuaikan"
         },
         "sub": {
          "en": "Twenty minutes per advertisement: profile, reorder, rephrase, statements, cut.",
-         "id": "Dua puluh menit per iklan: profil, susun ulang, ubah kata, pernyataan, pangkas."
+         "id": "Dua puluh menit per iklan: profil, urutkan ulang, ganti istilah, pernyataan, pangkas."
         }
        },
        {
@@ -18519,7 +18519,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Skim test + ten questions + a second pair of eyes.",
-         "id": "Uji pindai + sepuluh pertanyaan + sepasang mata kedua."
+         "id": "Uji sekilas + sepuluh pertanyaan + sepasang mata lain."
         }
        },
        {
@@ -18529,17 +18529,17 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Named file, version in the tracker, LinkedIn consistent.",
-         "id": "Berkas bernama, versi di pelacak, LinkedIn konsisten."
+         "id": "Nama berkas jelas, versi tercatat di pelacak, LinkedIn sejalan."
         }
        }
       ],
       "note": {
        "en": "Facts flow down unchanged from the master. Only emphasis and vocabulary change on the way.",
-       "id": "Fakta mengalir turun tanpa berubah dari induk. Hanya penekanan dan kosakata yang berubah di perjalanan."
+       "id": "Fakta mengalir turun dari CV induk tanpa diubah. Yang berubah di sepanjang jalan hanya penekanan dan pilihan kata."
       },
       "longdesc": {
        "en": "A five-step flow: a master CV that holds everything and is never sent; two to four one-page cluster CVs by role family; a tailored version produced in twenty minutes per advertisement; a gate consisting of the skim test, ten questions and a proofreader; then sending with a named file, the version logged in the tracker, and LinkedIn kept consistent.",
-       "id": "Alur lima langkah: CV induk yang memuat segalanya dan tidak pernah dikirim; dua sampai empat CV rumpun satu halaman per keluarga peran; versi tersesuaikan yang dibuat dalam dua puluh menit per iklan; gerbang berupa uji pindai, sepuluh pertanyaan, dan pembaca ulang; lalu pengiriman dengan berkas bernama, versi dicatat di pelacak, dan LinkedIn dijaga konsisten."
+       "id": "Alur lima langkah: CV induk yang memuat segalanya dan tidak pernah dikirim; dua sampai empat CV rumpun satu halaman untuk tiap rumpun posisi; versi yang disesuaikan dalam dua puluh menit untuk tiap iklan; gerbang berupa uji sekilas, sepuluh pertanyaan, dan seorang pengoreksi; lalu pengiriman dengan nama berkas yang jelas, versi yang dicatat di pelacak, dan LinkedIn yang tetap sejalan."
       }
      },
      "compare": [
@@ -18550,19 +18550,19 @@ window.MT_LMS['the-pack'] = {
        },
        "q": {
         "en": "Nadia’s first profile line, tailored from the FMCG cluster to KilatPay’s operations posting.",
-        "id": "Baris pertama profil Nadia, disesuaikan dari rumpun FMCG ke lowongan operasional KilatPay."
+        "id": "Baris pertama profil Nadia, disesuaikan dari rumpun FMCG untuk lowongan operasional KilatPay."
        },
        "weak": {
         "en": "Sent unchanged: “Management graduate targeting commercial and supply-chain trainee roles in consumer goods.”",
-        "id": "Dikirim tanpa perubahan: “Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.”"
+        "id": "Dikirim apa adanya: “Lulusan Manajemen yang membidik posisi trainee komersial dan rantai pasok di industri barang konsumsi.”"
        },
        "strong": {
         "en": "“Management graduate targeting business-operations roles in fintech, with hands-on reconciliation experience: matched daily transaction reports across 3 bank branches and traced a recurring settlement mismatch to its source.”",
-        "id": "“Lulusan Manajemen yang membidik peran business operations di fintech, dengan pengalaman rekonsiliasi langsung: mencocokkan laporan transaksi harian di 3 cabang bank dan melacak ketidakcocokan settlement berulang sampai ke sumbernya.”"
+        "id": "“Lulusan Manajemen yang membidik posisi operasional bisnis di fintech, dengan pengalaman langsung di rekonsiliasi: mencocokkan laporan transaksi harian 3 cabang bank dan menelusuri sumber selisih penyelesaian transaksi yang terus berulang.”"
        },
        "why": {
         "en": "Same facts, same person. The tailored line names the role KilatPay is hiring for and uses its words, reconciliation, settlement, in the first sentence a recruiter reads.",
-        "id": "Fakta yang sama, orang yang sama. Baris yang disesuaikan menyebut peran yang direkrut KilatPay dan memakai kata-katanya, rekonsiliasi, settlement, di kalimat pertama yang dibaca perekrut."
+        "id": "Faktanya sama, orangnya sama. Baris yang disesuaikan menyebut posisi yang sedang dicari KilatPay dan memakai istilah mereka, rekonsiliasi dan penyelesaian transaksi, di kalimat pertama yang dibaca perekrut."
        }
       }
      ],
@@ -18570,16 +18570,16 @@ window.MT_LMS['the-pack'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: the version she could not remember",
-       "id": "Sorotan: versi yang tidak bisa ia ingat"
+       "id": "Sorotan: versi yang tidak ia ingat"
       },
       "body": [
        {
         "en": "A recruiter from Rumah Rempah calls Nadia on a Tuesday afternoon. “I have your CV in front of me. Tell me more about the workshop you ran for small businesses.” Nadia has sent four versions of her CV in the past month, and in one of them the community-service workshop is a single line; in another it is a full bullet with the adoption rate. She does not know which one the recruiter is reading, so she cannot tell whether “12 of 18 adopted the template” will land as a repeat or as news.",
-        "id": "Seorang perekrut dari Rumah Rempah menelepon Nadia pada Selasa sore. “CV-mu ada di depan saya, ceritakan lebih banyak tentang lokakarya yang kamu jalankan untuk usaha kecil.” Nadia telah mengirim empat versi CV-nya dalam sebulan terakhir, dan di salah satunya lokakarya KKN (kuliah kerja nyata) hanya satu baris; di versi lain berupa butir penuh dengan tingkat adopsi. Ia tidak tahu versi mana yang dibaca perekrut, jadi ia tidak bisa menilai apakah “12 dari 18 mengadopsi templat” akan terdengar sebagai pengulangan atau kabar baru."
+        "id": "Selasa sore, perekrut dari Rumah Rempah menelepon Nadia. “CV kamu ada di depan saya. Coba ceritakan lebih jauh soal lokakarya yang kamu adakan untuk pelaku usaha kecil.” Dalam sebulan terakhir, Nadia sudah mengirim empat versi CV. Di salah satunya, lokakarya KKN (kuliah kerja nyata) itu hanya satu baris. Di versi lain, ia tertulis sebagai butir lengkap beserta jumlah peserta yang akhirnya memakai templatnya. Nadia tidak tahu versi mana yang sedang dibaca perekrut, jadi ia tidak bisa menebak apakah “12 dari 18 peserta memakai templatnya” akan terdengar sebagai pengulangan atau kabar baru."
        },
        {
         "en": "After the call she renames every file, <code>NadiaPutri_CV_RumahRempah_Ops.pdf</code>, and adds a “CV version” column to her tracker. The next call, she opens the tracker before she says hello.",
-        "id": "Setelah panggilan itu ia mengganti nama setiap berkas, <code>NadiaPutri_CV_RumahRempah_Ops.pdf</code>, dan menambahkan kolom “versi CV” ke pelacaknya. Pada panggilan berikutnya, ia membuka pelacak sebelum mengucapkan halo."
+        "id": "Setelah telepon ditutup, ia mengganti nama semua berkasnya, misalnya <code>NadiaPutri_CV_RumahRempah_Ops.pdf</code>, dan menambahkan kolom “Versi CV” di pelacaknya. Saat telepon berikutnya datang, ia sudah membuka pelacak sebelum mengucapkan halo."
        }
       ]
      },
@@ -18587,29 +18587,29 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill 1: Tailor under the clock",
-        "id": "Latihan 1: Sesuaikan dengan pengatur waktu"
+        "id": "Latihan 1: Menyesuaikan sambil dikejar waktu"
        },
        "body": {
         "en": "Take Nadia’s cluster CV (FMCG commercial) and tailor it to the KilatPay Business Operations Associate advertisement (Lesson 3.2’s In focus: daily reconciliation and settlement reporting for merchant payouts; work with finance and engineering to resolve exceptions; build dashboards; SQL (structured query language, the database query language) a plus) in 20 minutes. Write down the five moves you make.",
-        "id": "Ambil CV rumpun Nadia (komersial FMCG) dan sesuaikan untuk iklan Business Operations Associate KilatPay (Sorotan Pelajaran 3.2: rekonsiliasi harian dan pelaporan settlement untuk pembayaran merchant; bekerja dengan finance dan engineering untuk menyelesaikan pengecualian; membangun dasbor; SQL (structured query language, bahasa kueri basis data) menjadi nilai tambah) dalam 20 menit. Tulis lima langkah yang kamu lakukan."
+        "id": "Ambil CV rumpun Nadia (komersial FMCG) dan sesuaikan untuk iklan Business Operations Associate dari KilatPay (Sorotan di Pelajaran 3.2: rekonsiliasi harian dan laporan penyelesaian transaksi untuk pembayaran ke merchant; bekerja sama dengan tim keuangan dan engineering untuk menyelesaikan kasus selisih; membuat dasbor; menguasai SQL (structured query language, bahasa untuk mengolah basis data) menjadi nilai tambah) dalam 20 menit. Catat lima langkah yang kamu ambil."
        },
        "debrief": {
         "en": "The profile should shift from “consumer goods” to “fintech operations”; the bank internship bullets move to the top of experience; the café pre-order improvement becomes a competency statement for “process improvement”; the sponsorship bullet shortens; “Google Sheets dashboards for HIMA (the students’ association, himpunan mahasiswa)’s budget” is rephrased toward “built dashboards”. SQL stays honest: absent, or “currently completing an introductory SQL course” if that is true.",
-        "id": "Profil harus bergeser dari “barang konsumsi” ke “operasional fintech”; butir magang bank pindah ke atas pengalaman; perbaikan pra-pesan kafe menjadi pernyataan kompetensi untuk “perbaikan proses”; butir sponsor dipersingkat; “dasbor Google Sheets untuk anggaran HIMA (himpunan mahasiswa)” diubah kata ke arah “membangun dasbor”. SQL tetap jujur: tidak ada, atau “sedang menyelesaikan kursus pengantar SQL” jika memang benar."
+        "id": "Profil bergeser dari “barang konsumsi” ke “operasional fintech”; butir magang bank naik ke posisi teratas di bagian pengalaman; perbaikan papan pesan-duluan di kafe menjadi pernyataan kompetensi untuk “perbaikan proses”; butir sponsor dipersingkat; “dasbor Google Sheets untuk anggaran HIMA (himpunan mahasiswa)” diubah istilahnya ke arah “membuat dasbor”. Soal SQL, tetap jujur: tidak dicantumkan, atau “sedang menyelesaikan kursus dasar SQL” jika memang benar."
        }
       },
       {
        "h": {
         "en": "Drill 2: Skim test",
-        "id": "Latihan 2: Uji pindai"
+        "id": "Latihan 2: Uji sekilas"
        },
        "body": {
         "en": "Swap CVs with a peer for 30 seconds each. Then ask each other the three questions: target role? top three selling points? one achievement?",
-        "id": "Bertukar CV dengan rekan selama 30 detik masing-masing. Lalu saling ajukan tiga pertanyaan: peran sasaran? tiga daya jual teratas? satu pencapaian?"
+        "id": "Tukar CV dengan teman, masing-masing membaca selama 30 detik. Lalu saling ajukan tiga pertanyaan: posisi sasaran? tiga nilai jual utama? satu pencapaian?"
        },
        "debrief": {
         "en": "Record what they recalled. If they missed the target role, the profile’s first line is the fix. If they recalled a hobby instead of an achievement, the Fit Rule has more work to do. Most first drafts pass on the role and fail on the achievement; the numbers are there, but not in the first words of a bullet.",
-        "id": "Catat apa yang mereka ingat. Jika mereka melewatkan peran sasaran, baris pertama profil adalah perbaikannya. Jika mereka mengingat hobi alih-alih pencapaian, Aturan Kecocokan masih punya pekerjaan. Kebanyakan draf pertama lolos pada peran dan gagal pada pencapaian; angkanya ada, tetapi tidak di kata-kata pertama sebuah butir."
+        "id": "Catat apa yang mereka ingat. Kalau mereka tidak menangkap posisi sasaranmu, perbaiki baris pertama profil. Kalau yang mereka ingat justru hobi, bukan pencapaian, Aturan Kecocokan masih perlu dijalankan lagi. Kebanyakan draf pertama lolos soal posisi tetapi gagal soal pencapaian: angkanya ada, hanya saja tidak berada di kata-kata pertama butir."
        }
       },
       {
@@ -18619,11 +18619,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Run the ten questions on your own tailored CV. Mark each yes or no; do not round a “mostly” up to a yes.",
-        "id": "Jalankan sepuluh pertanyaan pada CV tersesuaikanmu sendiri. Tandai masing-masing ya atau tidak; jangan bulatkan “hampir” menjadi ya."
+        "id": "Jalankan sepuluh pertanyaan itu pada CV yang sudah kamu sesuaikan. Tandai ya atau tidak untuk masing-masing. Jangan membulatkan “hampir” menjadi “ya”."
        },
        "debrief": {
         "en": "Most first drafts fail on Q3 (a missing must-have) or Q9 (unproofread). Q10 is the one people skip: read each line aloud and imagine an interviewer saying “tell me more about that”. Any line that makes you wince is either cut or rewritten until it is true and defensible.",
-        "id": "Kebanyakan draf pertama gagal pada P3 (syarat wajib yang hilang) atau P9 (belum dibaca ulang orang lain). P10 adalah yang sering dilewati: baca setiap baris dengan lantang dan bayangkan pewawancara berkata “ceritakan lebih banyak tentang itu”. Baris apa pun yang membuatmu meringis entah dipangkas atau ditulis ulang sampai benar dan bisa dipertahankan."
+        "id": "Kebanyakan draf pertama gagal di pertanyaan 3 (ada syarat wajib yang terlewat) atau pertanyaan 9 (belum dikoreksi orang lain). Pertanyaan 10 paling sering dilewati: bacakan setiap baris dengan suara keras, lalu bayangkan pewawancara berkata “coba ceritakan lebih jauh”. Baris yang membuatmu meringis harus dibuang atau ditulis ulang sampai benar dan bisa dipertanggungjawabkan."
        }
       }
      ],
@@ -18632,41 +18632,41 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Tailoring by changing facts",
-         "id": "Menyesuaikan dengan mengubah fakta"
+         "id": "Menyesuaikan CV dengan mengubah fakta"
         },
         "fix": {
          "en": "Change emphasis and vocabulary only.",
-         "id": "Ubah penekanan dan kosakata saja."
+         "id": "Ubah penekanan dan pilihan kata saja."
         }
        },
        {
         "h": {
          "en": "One CV for every application",
-         "id": "Satu CV untuk setiap lamaran"
+         "id": "Satu CV untuk semua lamaran"
         },
         "fix": {
          "en": "At least one version per role cluster.",
-         "id": "Setidaknya satu versi per rumpun peran."
+         "id": "Siapkan setidaknya satu versi untuk tiap rumpun posisi."
         }
        },
        {
         "h": {
          "en": "Untracked versions",
-         "id": "Versi yang tidak dilacak"
+         "id": "Versi yang tidak tercatat"
         },
         "fix": {
          "en": "Name files clearly and log them in the tracker.",
-         "id": "Namai berkas dengan jelas dan catat di pelacak."
+         "id": "Beri nama berkas dengan jelas dan catat di pelacak."
         }
        },
        {
         "h": {
          "en": "Sending without a second reader",
-         "id": "Mengirim tanpa pembaca kedua"
+         "id": "Mengirim tanpa dibaca orang kedua"
         },
         "fix": {
          "en": "Typos end first reads; someone else proofreads, every time.",
-         "id": "Salah ketik mengakhiri pembacaan pertama; orang lain membaca ulang, setiap kali."
+         "id": "Salah ketik menggugurkan CV di pembacaan pertama. Minta orang lain mengoreksi, setiap kali."
         }
        }
       ]
@@ -18679,7 +18679,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The complete record you maintain and never send.",
-        "id": "Rekam lengkap yang kamu pelihara dan tidak pernah kirim."
+        "id": "Catatan lengkap yang kamu rawat dan tidak pernah kamu kirim."
        }
       },
       {
@@ -18689,27 +18689,27 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A one-page version shaped to one role family’s vocabulary.",
-        "id": "Versi satu halaman yang dibentuk sesuai kosakata satu keluarga peran."
+        "id": "Versi satu halaman yang memakai kosakata khas satu rumpun posisi."
        }
       },
       {
        "term": {
         "en": "Tailoring pass",
-        "id": "Proses penyesuaian"
+        "id": "Sesi penyesuaian"
        },
        "def": {
         "en": "The twenty-minute adjustment of a cluster CV to one advertisement: profile, reorder, rephrase, statements, cut.",
-        "id": "Penyesuaian dua puluh menit CV rumpun untuk satu iklan: profil, susun ulang, ubah kata, pernyataan, pangkas."
+        "id": "Penyesuaian dua puluh menit dari CV rumpun untuk satu iklan: profil, urutkan ulang, ganti istilah, pernyataan, pangkas."
        }
       },
       {
        "term": {
         "en": "Skim test",
-        "id": "Uji pindai"
+        "id": "Uji sekilas"
        },
        "def": {
         "en": "Thirty seconds with a stranger; can they name the role, three selling points and one achievement?",
-        "id": "Tiga puluh detik dengan orang asing; bisakah mereka menyebut peran, tiga daya jual, dan satu pencapaian?"
+        "id": "Tiga puluh detik bersama orang asing: bisakah ia menyebut posisinya, tiga nilai jual, dan satu pencapaian?"
        }
       },
       {
@@ -18719,7 +18719,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Ten yes/no questions a CV must pass before it is sent.",
-        "id": "Sepuluh pertanyaan ya/tidak yang harus dilewati CV sebelum dikirim."
+        "id": "Sepuluh pertanyaan ya/tidak yang harus dilalui CV sebelum dikirim."
        }
       }
      ],
@@ -18727,20 +18727,20 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Which tailoring change has the highest impact?",
-        "id": "Perubahan penyesuaian mana yang berdampak paling tinggi?"
+        "id": "Perubahan mana yang dampaknya paling besar saat menyesuaikan CV?"
        },
        "options": [
         {
          "en": "Changing the font",
-         "id": "Mengganti fon"
+         "id": "Mengganti jenis huruf"
         },
         {
          "en": "Rewriting the profile’s first line to name the target role and top must-haves",
-         "id": "Menulis ulang baris pertama profil untuk menyebut peran sasaran dan syarat wajib teratas"
+         "id": "Menulis ulang baris pertama profil agar menyebut posisi sasaran dan syarat wajib teratas"
         },
         {
          "en": "Adding a photo",
-         "id": "Menambah foto"
+         "id": "Menambahkan foto"
         },
         {
          "en": "Changing margins",
@@ -18750,26 +18750,26 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "The first line sits where the skim reads; it tells the recruiter what you are for in their own words.",
-        "id": "Baris pertama berada di tempat pindaian membaca; ia memberi tahu perekrut untuk apa kamu melamar dengan kata-kata mereka sendiri."
+        "id": "Baris pertama berada tepat di bagian yang dipindai. Di situ kamu memberi tahu perekrut, dengan bahasa mereka sendiri, untuk posisi apa kamu cocok."
        }
       },
       {
        "q": {
         "en": "Which is acceptable tailoring?",
-        "id": "Mana penyesuaian yang dapat diterima?"
+        "id": "Mana yang termasuk penyesuaian yang sah?"
        },
        "options": [
         {
          "en": "Changing your title from “Intern” to “Analyst”",
-         "id": "Mengubah jabatanmu dari “Intern” menjadi “Analyst”"
+         "id": "Mengubah jabatan dari “Magang” menjadi “Analis”"
         },
         {
          "en": "Moving the most relevant bullets to the top and using the advertisement’s vocabulary for the same work",
-         "id": "Memindahkan butir paling relevan ke atas dan memakai kosakata iklan untuk pekerjaan yang sama"
+         "id": "Memindahkan butir paling relevan ke atas dan memakai istilah dari iklan untuk pekerjaan yang sama"
         },
         {
          "en": "Adding a skill you don’t have",
-         "id": "Menambah keterampilan yang tidak kamu punya"
+         "id": "Menambahkan keterampilan yang tidak kamu kuasai"
         },
         {
          "en": "Changing dates",
@@ -18779,7 +18779,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Emphasis and vocabulary change; facts do not.",
-        "id": "Penekanan dan kosakata berubah; fakta tidak."
+        "id": "Penekanan dan pilihan kata boleh berubah; fakta tidak."
        }
       },
       {
@@ -18808,7 +18808,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 2,
        "why": {
         "en": "Name, document, employer, role: findable for the recruiter, traceable for you.",
-        "id": "Nama, dokumen, perusahaan, peran: mudah ditemukan perekrut, mudah dilacak olehmu."
+        "id": "Nama, jenis dokumen, perusahaan, posisi: mudah ditemukan perekrut, mudah kamu telusuri."
        }
       }
      ],
@@ -18817,11 +18817,11 @@ window.MT_LMS['the-pack'] = {
       "mode": "cv",
       "title": {
        "en": "Tailor mode",
-       "id": "Mode penyesuaian"
+       "id": "Mode sesuaikan"
       },
       "body": {
        "en": "Open a cluster CV beside one advertisement in the Studio: must-have coverage highlighted, a 20-minute timer, the ten-question gate, and a versioned export whose file name is logged to the tracker. Your first tailored CV is Dossier item 3’s third piece.",
-       "id": "Buka satu CV rumpun di samping satu iklan di Studio: cakupan syarat wajib disorot, pengatur waktu 20 menit, gerbang sepuluh pertanyaan, dan ekspor berversi yang nama berkasnya dicatat ke pelacak. CV tersesuaikan pertamamu adalah bagian ketiga butir Dossier 3."
+       "id": "Buka CV rumpun berdampingan dengan satu iklan di Studio: cakupan syarat wajib ditandai, pengatur waktu 20 menit, gerbang sepuluh pertanyaan, dan ekspor berversi yang nama berkasnya otomatis tercatat di pelacak. CV pertamamu yang sudah disesuaikan menjadi bagian ketiga dari isi Dossier nomor 3."
       },
       "cta": {
        "en": "Open the CV Studio →",
@@ -18831,11 +18831,11 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Master, clusters, tailored: build once, aim many times.",
-       "id": "Induk, rumpun, tersesuaikan: bangun sekali, bidikkan berkali-kali."
+       "id": "Induk, rumpun, disesuaikan: susun sekali, bidik berkali-kali."
       },
       {
        "en": "Tailoring changes emphasis and vocabulary, never facts.",
-       "id": "Penyesuaian mengubah penekanan dan kosakata, tidak pernah fakta."
+       "id": "Menyesuaikan CV berarti mengubah penekanan dan pilihan kata, bukan fakta."
       },
       {
        "en": "Nothing is sent until it passes the quality gate and someone else has read it.",
@@ -18845,11 +18845,11 @@ window.MT_LMS['the-pack'] = {
      "resources": {
       "title": {
        "en": "Sources and the gate",
-       "id": "Sumber dan gerbang"
+       "id": "Sumber dan gerbang mutu"
       },
       "lead": {
        "en": "The ten questions as a checklist, and the file-naming convention.",
-       "id": "Sepuluh pertanyaan sebagai daftar periksa, dan konvensi penamaan berkas."
+       "id": "Sepuluh pertanyaan dalam bentuk daftar periksa, dan aturan penamaan berkas."
       },
       "items": [
        {
@@ -18865,23 +18865,23 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 1–2, 18, the skim; file names; what to tailor, in order.",
-          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 1–2, 18, pindaian; nama berkas; apa yang disesuaikan, berurutan."
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 1–2, 18: pembacaan sekilas; nama berkas; apa yang disesuaikan, berurutan."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.1, one master, adapted.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.1, satu induk, diadaptasi."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.1: satu CV induk yang diubah sesuai kebutuhan."
          },
          {
           "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 14, a new CV per job (the other side of the debate).",
-          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 14, CV baru per pekerjaan (sisi lain perdebatan)."
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 14: CV baru untuk setiap lowongan (pendapat dari sisi seberang)."
          },
          {
           "en": "R. McMunn, <i>How to Write a CV</i>, ch. 1, 4, matching vocabulary to the advertisement.",
-          "id": "R. McMunn, <i>How to Write a CV</i>, bab 1, 4, mencocokkan kosakata dengan iklan."
+          "id": "R. McMunn, <i>How to Write a CV</i>, bab 1, 4: menyamakan kosakata dengan iklan."
          },
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 1; the first read as a test.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 1, pembacaan pertama sebagai uji."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 1: pembacaan pertama sebagai ujian."
          }
         ]
        },
@@ -18889,11 +18889,11 @@ window.MT_LMS['the-pack'] = {
         "kind": "checklist",
         "title": {
          "en": "Pre-send quality gate · ten questions",
-         "id": "Gerbang mutu pra-kirim · sepuluh pertanyaan"
+         "id": "Gerbang mutu sebelum kirim · sepuluh pertanyaan"
         },
         "desc": {
          "en": "All ten must be yes.",
-         "id": "Kesepuluhnya harus ya."
+         "id": "Kesepuluhnya harus “ya”."
         },
         "body": [
          {
@@ -18902,7 +18902,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Profile’s first line names the target role",
-          "id": "Baris pertama profil menyebut peran sasaran"
+          "id": "Baris pertama profil menyebut posisi sasaran"
          },
          {
           "en": "Every must-have appears, truthfully",
@@ -18910,7 +18910,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Every bullet starts with a verb and shows a result or scale",
-          "id": "Setiap butir dimulai dengan kata kerja dan menunjukkan hasil atau skala"
+          "id": "Setiap butir diawali kata kerja dan menunjukkan hasil atau skala"
          },
          {
           "en": "At least one number in most roles",
@@ -18922,7 +18922,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "GPA stated in the right format",
-          "id": "IPK dicantumkan dalam format yang benar"
+          "id": "IPK tercantum dengan format yang benar"
          },
          {
           "en": "Each local decision made deliberately for this application",
@@ -18930,11 +18930,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Proofread by someone else",
-          "id": "Dibaca ulang oleh orang lain"
+          "id": "Sudah dikoreksi orang lain"
          },
          {
           "en": "Two minutes of honest talk possible on every line",
-          "id": "Dua menit percakapan jujur mungkin untuk setiap baris"
+          "id": "Sanggup bicara jujur dua menit tentang setiap baris"
          }
         ]
        },
@@ -18951,11 +18951,11 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "FirstnameLastname_CV_Employer_Role.pdf → NadiaPutri_CV_Arunika_MT.pdf",
-          "id": "NamaDepanNamaBelakang_CV_Perusahaan_Peran.pdf → NadiaPutri_CV_Arunika_MT.pdf"
+          "id": "NamaDepanNamaBelakang_CV_Perusahaan_Posisi.pdf → NadiaPutri_CV_Arunika_MT.pdf"
          },
          {
           "en": "Log in the tracker: employer · role · CV version (file name) · date sent",
-          "id": "Catat di pelacak: perusahaan · peran · versi CV (nama berkas) · tanggal kirim"
+          "id": "Catat di pelacak: perusahaan · posisi · versi CV (nama berkas) · tanggal kirim"
          }
         ]
        }
@@ -18972,28 +18972,28 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "Case Assignment: Rebuild Nadia’s CV",
-      "id": "Tugas Kasus: Bangun Ulang CV Nadia"
+      "id": "Studi Kasus: Membangun Ulang CV Nadia"
      },
      "overview": {
       "en": "Nadia’s current CV is in the case file. PT Arunika’s Management Trainee (Sales &amp; Supply Chain) window opens in six weeks. Diagnose the old CV, interrogate the advertisement, rewrite the evidence, make the local decisions, and assemble a one-page CV that passes the quality gate.",
-      "id": "CV Nadia saat ini ada di berkas kasus. Jendela Management Trainee (Sales &amp; Supply Chain) PT Arunika dibuka enam minggu lagi. Diagnosis CV lama, interogasi iklannya, tulis ulang buktinya, ambil keputusan lokal, dan rakit CV satu halaman yang lolos gerbang mutu."
+      "id": "CV Nadia yang sekarang ada di berkas kasus. Pendaftaran Management Trainee (Sales &amp; Supply Chain) PT Arunika dibuka enam minggu lagi. Tugasmu: bedah CV lamanya, bedah iklannya, tulis ulang buktinya, ambil keputusan-keputusan lokal, lalu rakit CV satu halaman yang lolos gerbang mutu."
      },
      "objectives": [
       {
        "en": "Diagnose a real CV against the research and the rules of this module.",
-       "id": "Mendiagnosis CV nyata berdasarkan penelitian dan aturan modul ini."
+       "id": "Membedah CV sungguhan berdasarkan penelitian dan aturan di modul ini."
       },
       {
        "en": "Rewrite five bullets and three competency statements from a pantry, for one advertisement.",
-       "id": "Menulis ulang lima butir dan tiga pernyataan kompetensi dari lemari, untuk satu iklan."
+       "id": "Menulis ulang lima butir dan tiga pernyataan kompetensi dari isi lemari, untuk satu iklan."
       },
       {
        "en": "Write a targeted profile and justify each local decision.",
-       "id": "Menulis profil terbidik dan membenarkan setiap keputusan lokal."
+       "id": "Menulis profil yang terarah dan memberi alasan untuk setiap keputusan lokal."
       },
       {
        "en": "Assemble and gate a one-page CV.",
-       "id": "Merakit dan menguji CV satu halaman."
+       "id": "Merakit CV satu halaman dan mengujinya di gerbang mutu."
       }
      ],
      "readFirst": {
@@ -19007,21 +19007,21 @@ window.MT_LMS['the-pack'] = {
         "n": "3.7",
         "title": {
          "en": "Case Assignment: Rebuild Nadia’s CV",
-         "id": "Tugas Kasus: Bangun Ulang CV Nadia"
+         "id": "Studi Kasus: Membangun Ulang CV Nadia"
         }
        },
        "story": [
         {
          "en": "Three tabs in the case file: the before CV, the advertisement, the pantry",
-         "id": "Tiga tab di berkas kasus: CV sebelum, iklan, lemari"
+         "id": "Tiga tab di berkas kasus: CV lama, iklan, isi lemari"
         },
         {
          "en": "Work the module in order: diagnose, detect, write bullets, decide, assemble and gate",
-         "id": "Kerjakan modul berurutan: diagnosis, deteksi, tulis butir, putuskan, rakit, dan uji"
+         "id": "Kerjakan modul secara berurutan: bedah CV, bedah lowongan, tulis butir, putuskan, rakit, dan uji"
         },
         {
          "en": "What good looks like: named problems, formula bullets, three statements with proof, a profile under eighty words, a page that passes",
-         "id": "Seperti apa yang baik: masalah bernama, butir sesuai rumus, tiga pernyataan dengan bukti, profil di bawah delapan puluh kata, halaman yang lolos"
+         "id": "Seperti apa hasil yang bagus: masalah disebut dengan jelas, butir sesuai rumus, tiga pernyataan berbukti, profil kurang dari delapan puluh kata, halaman yang lolos"
         }
        ],
        "takes": [
@@ -19032,27 +19032,27 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Rebuild it as if she had asked you: for a real advertisement, with her real evidence.",
-          "id": "Bangun ulang seolah ia memintamu: untuk iklan nyata, dengan buktinya yang nyata."
+          "id": "Bangun ulang seolah-olah ia memintanya kepadamu: untuk iklan sungguhan, dengan bukti yang sungguhan."
          }
         },
         {
          "h": {
           "en": "Work the module in order",
-          "id": "Kerjakan modul berurutan"
+          "id": "Kerjakan modul secara berurutan"
          },
          "p": {
           "en": "Order matters because each step feeds the next: a keyword table written after the bullets tailors nothing.",
-          "id": "Urutan penting karena tiap langkah memberi makan langkah berikutnya: tabel kata kunci yang ditulis setelah butir tidak menyesuaikan apa pun."
+          "id": "Urutannya penting karena setiap langkah menjadi bahan langkah berikutnya: tabel kata kunci yang ditulis setelah butir tidak menyesuaikan apa pun."
          }
         },
         {
          "h": {
           "en": "What good looks like",
-          "id": "Seperti apa yang baik"
+          "id": "Seperti apa hasil yang bagus"
          },
          "p": {
           "en": "The signal panel is a nudge about which lesson you have not yet used; the gate is the standard.",
-          "id": "Panel sinyal adalah dorongan tentang pelajaran yang belum kamu pakai; gerbangnya adalah standarnya."
+          "id": "Panel sinyal hanya mengingatkan pelajaran mana yang belum kamu pakai; gerbang mutulah standarnya."
          }
         }
        ],
@@ -19061,17 +19061,17 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Three tabs in the case file: the before CV, the advertisement, the pantry",
-          "id": "Tiga tab di berkas kasus: CV sebelum, iklan, lemari"
+          "id": "Tiga tab di berkas kasus: CV lama, iklan, isi lemari"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "doc",
            "en": "Before CV",
-           "id": "CV sebelum",
+           "id": "CV lama",
            "d": {
             "en": "Nadia’s current two-column Canva CV, reproduced as text: every problem has a rule it breaks.",
-            "id": "CV Canva dua kolom Nadia saat ini, direproduksi sebagai teks: setiap masalah punya aturan yang dilanggarnya."
+            "id": "CV Canva dua kolom milik Nadia saat ini, ditulis ulang sebagai teks: setiap masalah melanggar satu aturan."
            },
            "img": "../../assets/bg/fg-sprint-interview.jpg"
           },
@@ -19081,39 +19081,39 @@ window.MT_LMS['the-pack'] = {
            "id": "Iklan",
            "d": {
             "en": "Arunika’s MT posting, as in Lesson 3.2: the keyword table starts here.",
-            "id": "Lowongan MT Arunika, seperti di Pelajaran 3.2: tabel kata kunci dimulai di sini."
+            "id": "Lowongan MT dari Arunika, sama seperti di Pelajaran 3.2: tabel kata kunci dimulai di sini."
            },
            "img": "../../assets/bg/fg-sprint-positioning.jpg"
           },
           {
            "icon": "grid",
            "en": "The pantry",
-           "id": "Lemari",
+           "id": "Isi lemari",
            "d": {
             "en": "Her evidence, as found in Lessons 3.3 and 3.4: numbers, witnesses, the four verbs.",
-            "id": "Buktinya, seperti ditemukan di Pelajaran 3.3 dan 3.4: angka, saksi, empat kata kerja."
+            "id": "Bukti-bukti Nadia, hasil temuan di Pelajaran 3.3 dan 3.4: angka, saksi, empat kata kerja."
            },
            "img": "../../assets/bg/gauntlet/gate-01-submission.jpg"
           }
          ],
          "sub": {
           "en": "Seven steps, eight written answers; read the three tabs first, then work through the module in order.",
-          "id": "Tujuh langkah, delapan jawaban tertulis; baca ketiga tab dulu, lalu kerjakan modul berurutan."
+          "id": "Tujuh langkah, delapan jawaban tertulis; baca ketiga tab dulu, lalu kerjakan modul ini secara berurutan."
          },
          "band": {
           "en": "Rebuild it as if she had asked you: for a real advertisement, with her real evidence.",
-          "id": "Bangun ulang seolah ia memintamu: untuk iklan nyata, dengan buktinya yang nyata."
+          "id": "Bangun ulang seolah-olah ia memintanya kepadamu: untuk iklan sungguhan, dengan bukti yang sungguhan."
          },
          "em": {
           "en": "the before CV, the advertisement, the pantry",
-          "id": "CV sebelum, iklan, lemari"
+          "id": "CV lama, iklan, isi lemari"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Work the module in order: diagnose, detect, write bullets, decide, assemble and gate",
-          "id": "Kerjakan modul berurutan: diagnosis, deteksi, tulis butir, putuskan, rakit, dan uji"
+          "id": "Kerjakan modul secara berurutan: bedah CV, bedah lowongan, tulis butir, putuskan, rakit, dan uji"
          },
          "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
          "layout": "flow",
@@ -19121,19 +19121,19 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "search",
            "en": "Diagnose (3.1)",
-           "id": "Diagnosis (3.1)",
+           "id": "Bedah CV (3.1)",
            "d": {
             "en": "Every problem in the before CV named with the rule it breaks.",
-            "id": "Setiap masalah di CV sebelum disebut dengan aturan yang dilanggarnya."
+            "id": "Setiap masalah di CV lama disebut bersama aturan yang dilanggarnya."
            }
           },
           {
            "icon": "question",
            "en": "Job detective (3.2)",
-           "id": "Detektif lowongan (3.2)",
+           "id": "Bedah lowongan (3.2)",
            "d": {
             "en": "Seven questions answered; must-haves sorted from nice-to-haves.",
-            "id": "Tujuh pertanyaan dijawab; wajib dipilah dari tambahan."
+            "id": "Tujuh pertanyaan terjawab; syarat wajib dipisahkan dari syarat tambahan."
            }
           },
           {
@@ -19142,7 +19142,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Butir dan pernyataan (3.4)",
            "d": {
             "en": "Every bullet on the formula and defensible; three statements with proof.",
-            "id": "Setiap butir sesuai rumus dan bisa dipertahankan; tiga pernyataan dengan bukti."
+            "id": "Setiap butir mengikuti rumus dan bisa dipertanggungjawabkan; tiga pernyataan lengkap dengan bukti."
            }
           },
           {
@@ -19151,7 +19151,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Profil dan keputusan (3.5)",
            "d": {
             "en": "A profile under 80 words; each local decision with its reason.",
-            "id": "Profil di bawah 80 kata; tiap keputusan lokal dengan alasannya."
+            "id": "Profil kurang dari 80 kata; setiap keputusan lokal disertai alasannya."
            }
           },
           {
@@ -19170,7 +19170,7 @@ window.MT_LMS['the-pack'] = {
          },
          "band": {
           "en": "Order matters because each step feeds the next: a keyword table written after the bullets tailors nothing.",
-          "id": "Urutan penting karena tiap langkah memberi makan langkah berikutnya: tabel kata kunci yang ditulis setelah butir tidak menyesuaikan apa pun."
+          "id": "Urutannya penting karena setiap langkah menjadi bahan langkah berikutnya: tabel kata kunci yang ditulis setelah butir tidak menyesuaikan apa pun."
          },
          "em": {
           "en": "in order",
@@ -19181,7 +19181,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "What good looks like: named problems, formula bullets, three statements with proof, a profile under eighty words, a page that passes",
-          "id": "Seperti apa yang baik: masalah bernama, butir sesuai rumus, tiga pernyataan dengan bukti, profil di bawah delapan puluh kata, halaman yang lolos"
+          "id": "Seperti apa hasil yang bagus: masalah disebut dengan jelas, butir sesuai rumus, tiga pernyataan berbukti, profil kurang dari delapan puluh kata, halaman yang lolos"
          },
          "img": "../../assets/pe/the-inflection.jpg",
          "layout": "list",
@@ -19189,7 +19189,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "warn",
            "en": "Each with the rule it breaks, not “looks messy”",
-           "id": "Masing-masing dengan aturan yang dilanggarnya, bukan “terlihat berantakan”",
+           "id": "Masing-masing disertai aturan yang dilanggarnya, bukan sekadar “kelihatan berantakan”",
            "l": {
             "en": "Problems",
             "id": "Masalah"
@@ -19198,7 +19198,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "bolt",
            "en": "Verb, what, scale, result; every number traceable to the pantry",
-           "id": "Kata kerja, apa, skala, hasil; setiap angka bisa dilacak ke lemari",
+           "id": "Kata kerja, apa, skala, hasil; setiap angka bisa ditelusuri ke isi lemari",
            "l": {
             "en": "Bullets",
             "id": "Butir"
@@ -19207,7 +19207,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "star",
            "en": "A quality the advertisement wants, proven in two sentences each",
-           "id": "Kualitas yang diinginkan iklan, dibuktikan dalam dua kalimat masing-masing",
+           "id": "Kualitas yang dicari iklan, masing-masing dibuktikan dalam dua kalimat",
            "l": {
             "en": "Statements",
             "id": "Pernyataan"
@@ -19216,7 +19216,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "tag",
            "en": "Role named in line one; every claim backed below; decisions with reasons",
-           "id": "Peran disebut di baris pertama; setiap klaim didukung di bawah; keputusan dengan alasan",
+           "id": "Posisi disebut di baris pertama; setiap klaim dibuktikan di bawahnya; keputusan disertai alasan",
            "l": {
             "en": "Profile and decisions",
             "id": "Profil dan keputusan"
@@ -19225,11 +19225,11 @@ window.MT_LMS['the-pack'] = {
          ],
          "sub": {
           "en": "Then your own, with the same gate.",
-          "id": "Lalu milikmu sendiri, dengan gerbang yang sama."
+          "id": "Lalu CV-mu sendiri, dengan gerbang yang sama."
          },
          "band": {
           "en": "The signal panel is a nudge about which lesson you have not yet used; the gate is the standard.",
-          "id": "Panel sinyal adalah dorongan tentang pelajaran yang belum kamu pakai; gerbangnya adalah standarnya."
+          "id": "Panel sinyal hanya mengingatkan pelajaran mana yang belum kamu pakai; gerbang mutulah standarnya."
          },
          "em": {
           "en": "a page that passes",
@@ -19244,15 +19244,15 @@ window.MT_LMS['the-pack'] = {
       },
       "kicker": {
        "en": "Read first · how this case works",
-       "id": "Baca dulu · cara kerja kasus ini"
+       "id": "Baca dulu · cara kerja studi kasus ini"
       },
       "title": {
        "en": "Rebuild it as if she had asked you",
-       "id": "Bangun ulang seolah ia memintamu"
+       "id": "Bangun ulang seolah-olah ia memintanya kepadamu"
       },
       "intro": {
        "en": "Seven steps, eight written answers. Read the three case-file tabs first, the old CV, the advertisement and the pantry, then work through the module in order.",
-       "id": "Tujuh langkah, delapan jawaban tertulis. Baca tiga tab berkas kasus lebih dulu, CV lama, iklan, dan lemari, lalu kerjakan modul ini berurutan."
+       "id": "Tujuh langkah, delapan jawaban tertulis. Baca dulu tiga tab di berkas kasus, yaitu CV lama, iklan, dan isi lemari, lalu kerjakan modul ini secara berurutan."
       },
       "slides": [
        {
@@ -19263,27 +19263,27 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "<b>Before CV</b>: Nadia’s current two-column Canva CV, reproduced as text.",
-          "id": "<b>CV sebelum</b>: CV Canva dua kolom Nadia saat ini, direproduksi sebagai teks."
+          "id": "<b>CV lama</b>: CV Canva dua kolom yang dipakai Nadia sekarang, ditulis ulang sebagai teks."
          },
          {
           "en": "<b>The advertisement</b>: Arunika’s MT (management trainee) posting, as in Lesson 3.2.",
-          "id": "<b>Iklan</b>: lowongan MT (management trainee, program pelatihan manajemen) Arunika, seperti di Pelajaran 3.2."
+          "id": "<b>Iklan</b>: lowongan MT (management trainee, program pelatihan manajemen) dari Arunika, sama seperti di Pelajaran 3.2."
          },
          {
           "en": "<b>The pantry</b>: her evidence, as found in Lessons 3.3 and 3.4.",
-          "id": "<b>Lemari</b>: buktinya, seperti ditemukan di Pelajaran 3.3 dan 3.4."
+          "id": "<b>Isi lemari</b>: bukti-bukti Nadia, hasil temuan di Pelajaran 3.3 dan 3.4."
          }
         ]
        },
        {
         "h": {
          "en": "Work the module in order",
-         "id": "Kerjakan modul berurutan"
+         "id": "Kerjakan modul secara berurutan"
         },
         "points": [
          {
           "en": "Diagnose (3.1) → job detective (3.2) → bullets and statements (3.4) → profile and decisions (3.5) → assemble and gate (3.6).",
-          "id": "Diagnosis (3.1) → detektif lowongan (3.2) → butir dan pernyataan (3.4) → profil dan keputusan (3.5) → rakit dan uji (3.6)."
+          "id": "Bedah CV (3.1) → bedah lowongan (3.2) → butir dan pernyataan (3.4) → profil dan keputusan (3.5) → rakit dan uji (3.6)."
          },
          {
           "en": "The signal panel checks whether the ideas from each lesson appear in your answers.",
@@ -19294,12 +19294,12 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "What good looks like",
-         "id": "Seperti apa yang baik"
+         "id": "Seperti apa hasil yang bagus"
         },
         "points": [
          {
           "en": "Every problem named with the rule it breaks; every bullet on the formula and defensible; three statements with proof; a profile under 80 words; decisions with reasons; a page that passes ten questions.",
-          "id": "Setiap masalah disebut dengan aturan yang dilanggarnya; setiap butir sesuai rumus dan bisa dipertahankan; tiga pernyataan dengan bukti; profil di bawah 80 kata; keputusan dengan alasan; halaman yang lolos sepuluh pertanyaan."
+          "id": "Setiap masalah disebut bersama aturan yang dilanggarnya; setiap butir mengikuti rumus dan bisa dipertanggungjawabkan; tiga pernyataan lengkap dengan bukti; profil kurang dari 80 kata; keputusan beserta alasannya; halaman yang lolos sepuluh pertanyaan."
          }
         ]
        }
@@ -19310,20 +19310,20 @@ window.MT_LMS['the-pack'] = {
       "idPrefix": "PK3",
       "kicker": {
        "en": "Case assignment · Interactive case",
-       "id": "Tugas kasus · Kasus interaktif"
+       "id": "Studi kasus · Kasus interaktif"
       },
       "title": {
        "en": "Rebuild Nadia’s CV",
-       "id": "Bangun Ulang CV Nadia"
+       "id": "Membangun Ulang CV Nadia"
       },
       "lead": {
        "en": "Nadia’s current CV is attached. PT Arunika’s Management Trainee (Sales &amp; Supply Chain) window opens in six weeks. Rebuild her CV for it; on paper here, then in the Studio.",
-       "id": "CV Nadia saat ini terlampir. Jendela Management Trainee (Sales &amp; Supply Chain) PT Arunika dibuka enam minggu lagi. Bangun ulang CV-nya untuk itu, di sini di atas kertas, lalu di Studio."
+       "id": "CV Nadia yang sekarang terlampir. Pendaftaran Management Trainee (Sales &amp; Supply Chain) PT Arunika dibuka enam minggu lagi. Bangun ulang CV-nya untuk lowongan itu: di atas kertas di sini, lalu di Studio."
       },
       "practice": [
        {
         "en": "Diagnose against the research",
-        "id": "Mendiagnosis berdasarkan penelitian"
+        "id": "Membedah CV berdasarkan penelitian"
        },
        {
         "en": "Read the advertisement as a detective",
@@ -19335,12 +19335,12 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "en": "Decide the local-convention items deliberately",
-        "id": "Memutuskan hal khas Indonesia dengan sengaja"
+        "id": "Memutuskan hal-hal khas pasar lokal dengan sengaja"
        }
       ],
       "goal": {
        "en": "A one-page CV for Arunika that a recruiter can read in seven seconds and Nadia can defend for two minutes a line.",
-       "id": "CV satu halaman untuk Arunika yang bisa dibaca perekrut dalam tujuh detik dan bisa dipertahankan Nadia dua menit per baris."
+       "id": "CV satu halaman untuk Arunika yang bisa dibaca perekrut dalam tujuh detik, dan setiap barisnya sanggup Nadia jelaskan selama dua menit."
       },
       "brief": {
        "email": {
@@ -19364,35 +19364,35 @@ window.MT_LMS['the-pack'] = {
         "paragraphs": [
          {
           "en": "The Arunika MT registration opens in six weeks and I want to use the time properly. I attach the CV I have been sending; it is the Canva template a friend recommended.",
-          "id": "Pendaftaran MT Arunika dibuka enam minggu lagi dan aku ingin memakai waktunya dengan benar. Kulampirkan CV yang selama ini kukirim, templat Canva yang disarankan teman."
+          "id": "Pendaftaran MT Arunika dibuka enam minggu lagi, dan aku ingin memanfaatkan waktunya sebaik mungkin. Aku lampirkan CV yang selama ini kukirim. Itu templat Canva yang direkomendasikan temanku."
          },
          {
           "en": "I did the discovery interview and the trigger sweep from Lessons 3.3 and 3.4, so my pantry is attached too. I still find it hard to write the bullets without feeling I am exaggerating.",
-          "id": "Aku sudah melakukan wawancara penemuan dan sapuan pemicu dari Pelajaran 3.3 dan 3.4, jadi lemariku juga terlampir. Aku masih sulit menulis butirnya tanpa merasa melebih-lebihkan."
+          "id": "Aku sudah menjalankan wawancara penggali pencapaian dan sapuan kata kerja pemancing dari Pelajaran 3.3 dan 3.4, jadi isi lemariku juga kulampirkan. Tapi aku masih kesulitan menulis butirnya tanpa merasa melebih-lebihkan."
          },
          {
           "en": "Also: should I keep the photo? My mother says a CV without a photo looks incomplete.",
-          "id": "Juga: apakah fotonya tetap dipakai? Ibuku bilang CV tanpa foto terlihat tidak lengkap."
+          "id": "Satu lagi: fotonya perlu tetap dipasang? Kata ibuku, CV tanpa foto kelihatan tidak lengkap."
          }
         ],
         "asks": [
          {
           "en": "Tell me what is wrong with the current CV, and why.",
-          "id": "Katakan apa yang salah dengan CV saat ini, dan mengapa."
+          "id": "Tolong beri tahu apa yang salah dari CV-ku sekarang, dan kenapa."
          },
          {
           "en": "Rewrite the most important bullets so I can see the standard.",
-          "id": "Tulis ulang butir-butir terpenting agar aku bisa melihat standarnya."
+          "id": "Tulis ulang butir-butir yang paling penting supaya aku bisa melihat standarnya."
          },
          {
           "en": "Help me decide the photo, my birth date and the other personal details for this application.",
-          "id": "Bantu aku memutuskan foto, tanggal lahir, dan data pribadi lain untuk lamaran ini."
+          "id": "Bantu aku memutuskan soal foto, tanggal lahir, dan data pribadi lainnya untuk lamaran ini."
          }
         ],
         "closing": [
          {
-          "en": "Terima kasih banyak., Nadia",
-          "id": "Terima kasih banyak., Nadia"
+          "en": "Terima kasih banyak, Nadia",
+          "id": "Terima kasih banyak, Nadia"
          }
         ]
        },
@@ -19400,11 +19400,11 @@ window.MT_LMS['the-pack'] = {
         {
          "tab": {
           "en": "Before CV",
-          "id": "CV sebelum"
+          "id": "CV lama"
          },
          "title": {
           "en": "Nadia’s current CV, reproduced as text",
-          "id": "CV Nadia saat ini, direproduksi sebagai teks"
+          "id": "CV Nadia yang sekarang, ditulis ulang sebagai teks"
          },
          "meta": {
           "en": "Two-column Canva template · photo top-left · skill bars · 2 pages",
@@ -19418,12 +19418,12 @@ window.MT_LMS['the-pack'] = {
           {
            "h": {
             "en": "Objective",
-            "id": "Objektif"
+            "id": "Tujuan"
            }
           },
           {
            "en": "To obtain a challenging position in a reputable company where I can grow and contribute my skills.",
-           "id": "Mendapatkan posisi yang menantang di perusahaan ternama tempat saya bisa berkembang dan menyumbangkan keterampilan saya."
+           "id": "Mendapatkan posisi yang menantang di perusahaan bonafide tempat saya dapat berkembang dan menyumbangkan kemampuan saya."
           },
           {
            "h": {
@@ -19453,11 +19453,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Internship, Bank Sinar Nusantara (2025). Responsible for daily operations and administration at the branch. Helped with reports.",
-           "id": "Magang, Bank Sinar Nusantara (2025). Bertanggung jawab atas operasional harian dan administrasi di cabang. Membantu laporan."
+           "id": "Magang, Bank Sinar Nusantara (2025). Bertanggung jawab atas operasional harian dan administrasi di kantor cabang. Membantu pembuatan laporan."
           },
           {
            "en": "Barista, Kopi Tepian (2023–2025). Responsible for making coffee, serving customers, handling the cashier and cleaning.",
-           "id": "Barista, Kopi Tepian (2023–2025). Bertanggung jawab membuat kopi, melayani pelanggan, menangani kasir, dan membersihkan."
+           "id": "Barista, Kopi Tepian (2023–2025). Bertanggung jawab membuat kopi, melayani pelanggan, menjaga kasir, dan bersih-bersih."
           },
           {
            "h": {
@@ -19482,7 +19482,7 @@ window.MT_LMS['the-pack'] = {
          ],
          "note": {
           "en": "GPA (grade point average) does not appear anywhere. The transcript says 3,38 / 4,00.",
-          "id": "IPK tidak muncul di mana pun. Transkrip menyebut 3,38 / 4,00."
+          "id": "IPK tidak tercantum di mana pun. Di transkrip tertulis 3,38 / 4,00."
          }
         },
         {
@@ -19496,34 +19496,34 @@ window.MT_LMS['the-pack'] = {
          },
          "meta": {
           "en": "Fictional employer · registration opens in six weeks · cohort of 30",
-          "id": "Perusahaan fiktif · pendaftaran dibuka enam minggu lagi · angkatan 30 orang"
+          "id": "Perusahaan fiktif · pendaftaran dibuka enam minggu lagi · satu angkatan 30 orang"
          },
          "body": [
           {
            "en": "Join a 24-month rotational programme across sales, distribution and supply chain in a fast-paced environment. We look for strong analytical skills, comfort with ambiguity, leadership experience in organisations, and active English.",
-           "id": "Bergabunglah dalam program rotasi 24 bulan lintas penjualan, distribusi, dan rantai pasok di lingkungan yang serba cepat. Kami mencari kemampuan analitis yang kuat, kenyamanan dengan ambiguitas, pengalaman kepemimpinan di organisasi, dan bahasa Inggris aktif."
+           "id": "Bergabunglah dalam program rotasi 24 bulan di bidang penjualan, distribusi, dan rantai pasok, dalam lingkungan kerja yang serba cepat. Kami mencari kemampuan analitis yang kuat, nyaman dengan ketidakpastian, pengalaman memimpin di organisasi, dan bahasa Inggris aktif."
           },
           {
            "items": [
             {
              "en": "Min. GPA 3,00 · graduated within the last two years · bachelor’s degree any major",
-             "id": "IPK min. 3,00 · lulus dalam dua tahun terakhir · S1 semua jurusan"
+             "id": "IPK minimal 3,00 · lulus dalam dua tahun terakhir · S1 semua jurusan"
             },
             {
              "en": "Willing to be placed anywhere in the country",
-             "id": "Bersedia ditempatkan di seluruh negeri"
+             "id": "Bersedia ditempatkan di seluruh Indonesia"
             },
             {
              "en": "Experience in sales or operations is an advantage",
-             "id": "Pengalaman di penjualan atau operasional menjadi nilai tambah"
+             "id": "Pengalaman di bidang penjualan atau operasional menjadi nilai tambah"
             },
             {
              "en": "Proficiency in Microsoft Excel; familiarity with SAP is a plus",
-             "id": "Kemahiran Microsoft Excel; keakraban dengan SAP menjadi nilai tambah"
+             "id": "Mahir Microsoft Excel; memahami SAP menjadi nilai tambah"
             },
             {
              "en": "Apply in English via the careers portal: CV (PDF) and transcript",
-             "id": "Lamar dalam bahasa Inggris lewat portal karier: CV (PDF) dan transkrip"
+             "id": "Melamar dalam bahasa Inggris lewat portal karier: CV (PDF) dan transkrip"
             }
            ]
           }
@@ -19532,15 +19532,15 @@ window.MT_LMS['the-pack'] = {
         {
          "tab": {
           "en": "The pantry",
-          "id": "Lemari"
+          "id": "Isi lemari"
          },
          "title": {
           "en": "Nadia’s evidence: from Lessons 3.3 and 3.4",
-          "id": "Bukti Nadia: dari Pelajaran 3.3 dan 3.4"
+          "id": "Bukti-bukti Nadia: dari Pelajaran 3.3 dan 3.4"
          },
          "meta": {
           "en": "Raw achievements, tested against the five criteria",
-          "id": "Pencapaian mentah, diuji dengan lima kriteria"
+          "id": "Pencapaian mentah yang sudah diuji dengan lima kriteria"
          },
          "body": [
           {
@@ -19561,29 +19561,29 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Operations intern, Bank Sinar Nusantara, Jun–Aug 2025: reconciled daily transaction reports for 3 branches; found a recurring teller-terminal mismatch; the settings fix removed about 30 minutes of manual correction per day; wrote a one-page reconciliation checklist used after she left.",
-           "id": "Magang operasional, Bank Sinar Nusantara, Jun–Agu 2025: merekonsiliasi laporan transaksi harian untuk 3 cabang; menemukan ketidakcocokan terminal teller yang berulang; perbaikan pengaturannya menghapus sekitar 30 menit koreksi manual per hari; menulis daftar periksa rekonsiliasi satu halaman yang dipakai setelah ia pergi."
+           "id": "Magang operasional, Bank Sinar Nusantara, Jun–Agu 2025: merekonsiliasi laporan transaksi harian 3 cabang; menemukan selisih berulang pada satu terminal teller; setelah pengaturannya diperbaiki, sekitar 30 menit koreksi manual per hari tidak diperlukan lagi; menulis daftar periksa rekonsiliasi satu halaman yang tetap dipakai setelah ia selesai magang."
           },
           {
            "en": "Barista, Kopi Tepian, 14 months across semesters 4–7, ~20 hours a week: 120–150 customers a shift; trained 3 new baristas on the POS and opening checklist; suggested a pre-order board for the morning rush, peak wait about 8 → about 5 minutes.",
-           "id": "Barista, Kopi Tepian, 14 bulan sepanjang semester 4–7, ~20 jam seminggu: 120–150 pelanggan per sif; melatih 3 barista baru dalam POS dan daftar periksa buka; mengusulkan papan pra-pesan untuk jam sibuk pagi, tunggu puncak sekitar 8 → sekitar 5 menit."
+           "id": "Barista, Kopi Tepian, 14 bulan selama semester 4–7, ~20 jam seminggu: 120–150 pelanggan per sif; melatih 3 barista baru memakai mesin kasir (POS) dan daftar periksa buka toko; mengusulkan papan pesan-duluan untuk jam sibuk pagi, antrean puncak dari sekitar 8 → sekitar 5 menit."
           },
           {
            "h": {
             "en": "Life and organisations",
-            "id": "Hidup dan organisasi"
+            "id": "Kehidupan dan organisasi"
            }
           },
           {
            "en": "Treasurer, HIMA Manajemen 2024–25: inherited books missing receipts for about half the previous year; introduced a shared ledger and a 3-day receipt rule; faculty audit returned zero findings for the first time in three years; trained the incoming treasurer.",
-           "id": "Bendahara, HIMA Manajemen 2024–25: mewarisi pembukuan tanpa kuitansi untuk sekitar separuh tahun sebelumnya; memperkenalkan buku besar bersama dan aturan kuitansi 3 hari; audit fakultas menghasilkan nol temuan untuk pertama kalinya dalam tiga tahun; melatih bendahara berikutnya."
+           "id": "Bendahara HIMA Manajemen 2024–25: mewarisi pembukuan yang kehilangan kuitansi untuk sekitar separuh tahun sebelumnya; memperkenalkan buku kas bersama dan aturan kuitansi 3 hari; audit fakultas mencatat nol temuan untuk pertama kalinya dalam tiga tahun; melatih bendahara penggantinya."
           },
           {
            "en": "Head of Sponsorship, 1,200-participant national campus business competition, 2024: led a 6-person team; built a tiered sponsor package; pitched 40 companies; secured 11 sponsors and Rp 85 juta, 4 sponsors personally.",
-           "id": "Kepala Sponsorship, kompetisi bisnis kampus nasional 1.200 peserta, 2024: memimpin tim 6 orang; menyusun paket sponsor bertingkat; mempresentasikan ke 40 perusahaan; mendapatkan 11 sponsor dan Rp 85 juta, 4 sponsor secara pribadi."
+           "id": "Ketua Divisi Sponsor, kompetisi bisnis kampus tingkat nasional dengan 1.200 peserta, 2024: memimpin tim 6 orang; menyusun paket sponsor bertingkat; menawarkan ke 40 perusahaan; mendapatkan 11 sponsor senilai Rp 85 juta, 4 sponsor di antaranya hasil lobi sendiri."
           },
           {
-           "en": "Community service (nepotism), Kabupaten Kendal, 2025: designed and delivered a bookkeeping workshop for 18 UMKM (micro, small and medium enterprises) owners; 12 adopted the cash-book template within a month.",
-           "id": "KKN, Kabupaten Kendal, 2025: merancang dan menyampaikan lokakarya pembukuan untuk 18 pemilik UMKM (usaha mikro, kecil, dan menengah); 12 mengadopsi templat buku kas dalam sebulan."
+           "en": "Community service, Kabupaten Kendal, 2025: designed and delivered a bookkeeping workshop for 18 UMKM (micro, small and medium enterprises) owners; 12 adopted the cash-book template within a month.",
+           "id": "KKN, Kabupaten Kendal, 2025: merancang dan membawakan lokakarya pembukuan untuk 18 pemilik UMKM (usaha mikro, kecil, dan menengah); 12 orang mulai memakai templat buku kas dalam sebulan."
           }
          ]
         }
@@ -19605,18 +19605,18 @@ window.MT_LMS['the-pack'] = {
          "icon": "target",
          "k": {
           "en": "4 named requirements",
-          "id": "4 syarat bernama"
+          "id": "4 syarat yang disebut"
          },
          "v": {
           "en": "analytical · ambiguity · leadership in organisations · active English, plus Excel and placement anywhere",
-          "id": "analitis · ambiguitas · kepemimpinan di organisasi · bahasa Inggris aktif, plus Excel dan penempatan di mana saja"
+          "id": "analitis · ketidakpastian · memimpin di organisasi · bahasa Inggris aktif, ditambah Excel dan siap ditempatkan di mana saja"
          }
         },
         {
          "icon": "mail",
          "k": {
           "en": "English, PDF, portal",
-          "id": "Inggris, PDF, portal"
+          "id": "Bahasa Inggris, PDF, portal"
          },
          "v": {
           "en": "no photo or date of birth requested",
@@ -19632,7 +19632,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "meets the 3,00 minimum; missing from the current CV",
-          "id": "memenuhi minimum 3,00; tidak ada di CV saat ini"
+          "id": "memenuhi batas minimal 3,00; tidak tercantum di CV sekarang"
          }
         },
         {
@@ -19643,18 +19643,18 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "bank internship · barista · HIMA treasurer · sponsorship head · community service",
-          "id": "magang bank · barista · bendahara HIMA · kepala sponsorship · KKN"
+          "id": "magang bank · barista · bendahara HIMA · ketua divisi sponsor · KKN"
          }
         },
         {
          "icon": "lock",
          "k": {
           "en": "SAP: none",
-          "id": "SAP: tidak ada"
+          "id": "SAP: belum ada"
          },
          "v": {
           "en": "a nice-to-have gap, not a must",
-          "id": "celah tambahan, bukan syarat wajib"
+          "id": "kekurangan pada syarat tambahan, bukan syarat wajib"
          }
         }
        ]
@@ -19663,15 +19663,15 @@ window.MT_LMS['the-pack'] = {
        {
         "title": {
          "en": "Diagnose",
-         "id": "Diagnosis"
+         "id": "Bedah CV"
         },
         "short": {
          "en": "Diagnose",
-         "id": "Diagnosis"
+         "id": "Bedah"
         },
         "guide": {
          "en": "Use Lessons 3.1 and 3.5. Name the problem, then the rule or research it breaks, “skill bars: graphics the parser cannot read and a claim without evidence (Bright &amp; Earl, ch. 9; Module 4)”.",
-         "id": "Pakai Pelajaran 3.1 dan 3.5. Sebut masalahnya, lalu aturan atau penelitian yang dilanggarnya, “bilah keterampilan: grafis yang tidak bisa dibaca parser dan klaim tanpa bukti (Bright &amp; Earl, bab 9; Modul 4)”."
+         "id": "Pakai Pelajaran 3.1 dan 3.5. Sebut masalahnya, lalu aturan atau temuan penelitian yang dilanggarnya, misalnya “bilah keterampilan: grafis yang tidak terbaca sistem dan klaim tanpa bukti (Bright &amp; Earl, bab 9; Modul 4)”."
         },
         "questions": [
          {
@@ -19680,15 +19680,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 8,
           "title": {
            "en": "The eight most important problems with the before CV",
-           "id": "Delapan masalah terpenting pada CV sebelum"
+           "id": "Delapan masalah terpenting di CV lama"
           },
           "help": {
            "en": "One line each: the problem, and the rule or finding it breaks.",
-           "id": "Satu baris masing-masing: masalahnya, dan aturan atau temuan yang dilanggarnya."
+           "id": "Satu baris untuk masing-masing: masalahnya, dan aturan atau temuan yang dilanggarnya."
           },
           "placeholder": {
            "en": "1. Two-column template: … 2. Skill bars, … 3. …",
-           "id": "1. Templat dua kolom: … 2. Bilah keterampilan, … 3. …"
+           "id": "1. Templat dua kolom: … 2. Bilah keterampilan: … 3. …"
           },
           "keywords": [
            [
@@ -19719,7 +19719,8 @@ window.MT_LMS['the-pack'] = {
            ],
            [
             "objective",
-            "objektif"
+            "objektif",
+            "tujuan karier"
            ],
            [
             "religion",
@@ -19749,15 +19750,15 @@ window.MT_LMS['the-pack'] = {
        {
         "title": {
          "en": "Job detective",
-         "id": "Detektif lowongan"
+         "id": "Bedah lowongan"
         },
         "short": {
          "en": "Detective",
-         "id": "Detektif"
+         "id": "Lowongan"
         },
         "guide": {
          "en": "Lesson 3.2. Three must-haves and two implied skills, and what goes wrong if nobody does this job well.",
-         "id": "Pelajaran 3.2. Tiga syarat wajib dan dua keterampilan tersirat, dan apa yang salah jika tidak ada yang mengerjakan pekerjaan ini dengan baik."
+         "id": "Pelajaran 3.2. Tiga syarat wajib dan dua keterampilan tersirat, serta apa yang berantakan kalau tidak ada yang mengerjakan pekerjaan ini dengan baik."
         },
         "questions": [
          {
@@ -19770,11 +19771,11 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Which three requirements are non-negotiable? Which two skills does the role need that the advertisement does not name?",
-           "id": "Tiga syarat mana yang tidak bisa ditawar? Dua keterampilan apa yang dibutuhkan peran ini tetapi tidak disebut iklan?"
+           "id": "Tiga syarat mana yang tidak bisa ditawar? Dua keterampilan apa yang dibutuhkan posisi ini tetapi tidak disebut di iklan?"
           },
           "placeholder": {
            "en": "Must-haves: … Implied: … because if nobody does this well, …",
-           "id": "Syarat wajib: … Tersirat: … karena jika tidak ada yang mengerjakannya dengan baik, …"
+           "id": "Syarat wajib: … Tersirat: … karena kalau tidak ada yang mengerjakannya dengan baik, …"
           },
           "keywords": [
            [
@@ -19825,7 +19826,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 3.4. Strong verb + what + scale + result (+ how). Honest numbers; “about” where needed. Each at least 20 words.",
-         "id": "Pelajaran 3.4. Kata kerja kuat + apa + skala + hasil (+ cara). Angka jujur; “sekitar” bila perlu. Masing-masing minimal 20 kata."
+         "id": "Pelajaran 3.4. Kata kerja kuat + apa + skala + hasil (+ cara). Angka yang jujur; pakai “sekitar” bila perlu. Masing-masing minimal 20 kata."
         },
         "questions": [
          {
@@ -19834,15 +19835,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 6,
           "title": {
            "en": "Two internship bullets",
-           "id": "Dua butir magang"
+           "id": "Dua butir untuk magang"
           },
           "help": {
            "en": "Reconciliation across three branches, and the terminal mismatch. From the pantry.",
-           "id": "Rekonsiliasi tiga cabang, dan ketidakcocokan terminal. Dari lemari."
+           "id": "Rekonsiliasi tiga cabang, dan selisih di terminal. Ambil dari isi lemari."
           },
           "placeholder": {
            "en": "• Reconciled … • Identified …",
-           "id": "• Merekonsiliasi … • Mengidentifikasi …"
+           "id": "• Merekonsiliasi … • Menemukan …"
           },
           "keywords": [
            [
@@ -19881,15 +19882,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 8,
           "title": {
            "en": "Café, HIMA and competition, one bullet each",
-           "id": "Kafe, HIMA, dan kompetisi, satu butir masing-masing"
+           "id": "Kafe, HIMA, dan kompetisi, masing-masing satu butir"
           },
           "help": {
            "en": "Three bullets. Scale, responsibility beyond the role, and a result, in each.",
-           "id": "Tiga butir. Skala, tanggung jawab di luar peran, dan hasil, di masing-masing."
+           "id": "Tiga butir. Masing-masing memuat skala, tanggung jawab di luar tugas pokok, dan hasil."
           },
           "placeholder": {
            "en": "• Served … • Rebuilt … • Raised …",
-           "id": "• Melayani … • Membangun ulang … • Mengumpulkan …"
+           "id": "• Melayani … • Membenahi … • Menggalang …"
           },
           "keywords": [
            [
@@ -19948,7 +19949,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 3.4. Three evidenced competency statements matched to the advertisement’s top qualities: the quality in bold, then one or two sentences of proof.",
-         "id": "Pelajaran 3.4. Tiga pernyataan kompetensi berbukti yang dicocokkan dengan kualitas teratas iklan: kualitasnya, lalu satu atau dua kalimat bukti."
+         "id": "Pelajaran 3.4. Tiga pernyataan kompetensi berbukti yang cocok dengan kualitas utama di iklan: kualitasnya dicetak tebal, lalu satu atau dua kalimat bukti."
         },
         "questions": [
          {
@@ -19961,11 +19962,11 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Choose three of: analytical thinking, comfort with ambiguity, leadership in organisations, working under pressure. Prove each from the pantry.",
-           "id": "Pilih tiga dari: berpikir analitis, nyaman dengan ambiguitas, kepemimpinan di organisasi, bekerja di bawah tekanan. Buktikan masing-masing dari lemari."
+           "id": "Pilih tiga dari: berpikir analitis, nyaman dengan ketidakpastian, pengalaman memimpin di organisasi, bekerja di bawah tekanan. Buktikan masing-masing dari isi lemari."
           },
           "placeholder": {
            "en": "Analytical thinking. During … Leadership in organisations. Led … Working under pressure. While …",
-           "id": "Berpikir analitis. Selama … Kepemimpinan di organisasi. Memimpin … Bekerja di bawah tekanan. Sambil …"
+           "id": "Berpikir analitis. Selama … Pengalaman memimpin di organisasi. Memimpin … Bekerja di bawah tekanan. Sambil …"
           },
           "keywords": [
            [
@@ -20014,7 +20015,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 3.5. A profile of at most 80 words whose first line names the target role; then the local decisions for this application, each justified in one line.",
-         "id": "Pelajaran 3.5. Profil maksimal 80 kata yang baris pertamanya menyebut peran sasaran; lalu keputusan lokal untuk lamaran ini, masing-masing dibenarkan dalam satu baris."
+         "id": "Pelajaran 3.5. Profil paling banyak 80 kata yang baris pertamanya menyebut posisi sasaran; lalu keputusan-keputusan lokal untuk lamaran ini, masing-masing dengan alasan satu baris."
         },
         "questions": [
          {
@@ -20023,15 +20024,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 6,
           "title": {
            "en": "Profile and objective (≤ 80 words)",
-           "id": "Profil dan objektif (≤ 80 kata)"
+           "id": "Profil dan tujuan karier (≤ 80 kata)"
           },
           "help": {
            "en": "First line: a recognisable target role in Arunika’s words. Every claim must be proven below. Last line: placement.",
-           "id": "Baris pertama: peran sasaran yang dikenali dengan kata-kata Arunika. Setiap klaim harus dibuktikan di bawah. Baris terakhir: penempatan."
+           "id": "Baris pertama: posisi sasaran yang langsung dikenali, dengan istilah Arunika. Setiap klaim harus dibuktikan di bawahnya. Baris terakhir: kesediaan ditempatkan."
           },
           "placeholder": {
            "en": "Management graduate targeting … Brings … Open to placement anywhere in the country.",
-           "id": "Lulusan Manajemen yang membidik … Membawa … Bersedia ditempatkan di seluruh negeri."
+           "id": "Lulusan Manajemen yang membidik … Berbekal … Bersedia ditempatkan di seluruh Indonesia."
           },
           "keywords": [
            [
@@ -20075,7 +20076,7 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Photo · date of birth · religion and marital status · address · GPA format · language · email address. Decide each, one line of reason.",
-           "id": "Foto · tanggal lahir · agama dan status pernikahan · alamat · format IPK · bahasa · alamat email. Putuskan masing-masing, satu baris alasan."
+           "id": "Foto · tanggal lahir · agama dan status pernikahan · alamat · format IPK · bahasa · alamat email. Putuskan masing-masing, dengan alasan satu baris."
           },
           "placeholder": {
            "en": "Photo: no on the CV, because … Date of birth: … GPA: 3.38 / 4.00 because … Email: …",
@@ -20134,7 +20135,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 3.6. Build the one-page CV in the Studio (or on paper), then run the ten-question gate on it and report honestly.",
-         "id": "Pelajaran 3.6. Bangun CV satu halaman di Studio (atau di atas kertas), lalu jalankan gerbang sepuluh pertanyaan dan laporkan dengan jujur."
+         "id": "Pelajaran 3.6. Susun CV satu halaman di Studio (atau di kertas), lalu jalankan gerbang sepuluh pertanyaan dan laporkan hasilnya dengan jujur."
         },
         "questions": [
          {
@@ -20147,7 +20148,7 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "List the section order you chose and why. Then the ten gate questions: which were yes, which were no, and what you changed to get to ten. Name the file.",
-           "id": "Daftar urutan bagian yang kamu pilih dan alasannya. Lalu sepuluh pertanyaan gerbang: mana yang ya, mana yang tidak, dan apa yang kamu ubah untuk sampai ke sepuluh. Sebutkan nama berkasnya."
+           "id": "Tulis urutan bagian yang kamu pilih dan alasannya. Lalu sepuluh pertanyaan gerbang: mana yang “ya”, mana yang “tidak”, dan apa yang kamu ubah sampai kesepuluhnya “ya”. Sebutkan nama berkasnya."
           },
           "placeholder": {
            "en": "Order: header → profile → education → key skills and evidence → experience → organisational … Gate: Q1 yes … Q9 no → … File: NadiaPutri_CV_Arunika_MT.pdf",
@@ -20200,14 +20201,14 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Diagnosis grounded in rules and research",
-         "id": "Diagnosis berpijak pada aturan dan penelitian"
+         "id": "Pembedahan berpijak pada aturan dan penelitian"
         },
         "w": "15%"
        },
        {
         "h": {
          "en": "Bullets follow the formula and are defensible",
-         "id": "Butir mengikuti rumus dan bisa dipertahankan"
+         "id": "Butir mengikuti rumus dan bisa dipertanggungjawabkan"
         },
         "w": "25%"
        },
@@ -20221,14 +20222,14 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Profile names the role and is under 80 words",
-         "id": "Profil menyebut peran dan di bawah 80 kata"
+         "id": "Profil menyebut posisi sasaran dan kurang dari 80 kata"
         },
         "w": "10%"
        },
        {
         "h": {
          "en": "Local decisions justified for this application",
-         "id": "Keputusan lokal dibenarkan untuk lamaran ini"
+         "id": "Keputusan lokal punya alasan untuk lamaran ini"
         },
         "w": "10%"
        },
@@ -20243,28 +20244,28 @@ window.MT_LMS['the-pack'] = {
       "model": {
        "title": {
         "en": "Model notes: one way to rebuild it",
-        "id": "Catatan model: satu cara membangunnya kembali"
+        "id": "Catatan model: salah satu cara membangunnya ulang"
        },
        "body": [
         {
          "h": {
           "en": "Diagnosis",
-          "id": "Diagnosis"
+          "id": "Pembedahan"
          }
         },
         {
          "en": "(1) Two-column Canva template; formal layouts were rated better and columns break parsers (Bright &amp; Earl, ch. 9; Module 4). (2) Skill bars and percentages, a claim without evidence, unreadable to software (3.1, 3.4). (3) Duty bullets: “responsible for”, “helped with”. The weakest openers; achievements beat duties (3.4). (4) GPA missing. A hard requirement, and omission reads as concealment (3.5). (5) Photo, date of birth, religion, marital status and a full address on an English application that did not ask. Bias-inviting, off-fit (3.5). (6) A demand-shaped objective that says nothing about what she offers (3.5). (7) HIMA, sponsorship and community service as one-liners under “Organisational Experience”. For graduates that is evidence, and it needs bullets (3.1). (8) “CURRICULUM VITAE” as the title, a casual email address, and “Hobbies: reading, travelling, music”, three small reasons to reject (3.1). The Excel skill the advertisement asks for is nowhere.",
-         "id": "(1) Templat Canva dua kolom; tata letak formal dinilai lebih baik dan kolom merusak parser (Bright &amp; Earl, bab 9; Modul 4). (2) Bilah keterampilan dan persentase. Klaim tanpa bukti, tidak terbaca perangkat lunak (3.1, 3.4). (3) Butir tugas: “bertanggung jawab atas”, “membantu”. Pembuka terlemah; pencapaian mengalahkan tugas (3.4). (4) IPK hilang, syarat mutlak, dan menghilangkannya terbaca sebagai menyembunyikan (3.5). (5) Foto, tanggal lahir, agama, status pernikahan, dan alamat lengkap pada lamaran bahasa Inggris yang tidak memintanya. Mengundang bias, di luar kecocokan (3.5). (6) Objektif berbentuk tuntutan yang tidak mengatakan apa pun tentang yang ia tawarkan (3.5). (7) HIMA, sponsorship, dan KKN sebagai satu baris di bawah “Pengalaman Organisasi”. Bagi lulusan baru itu bukti, dan butuh butir (3.1). (8) “CURRICULUM VITAE” sebagai judul, alamat email santai, dan “Hobi: membaca, jalan-jalan, musik”, tiga alasan kecil untuk menolak (3.1). Keterampilan Excel yang diminta iklan tidak ada di mana pun."
+         "id": "(1) Templat Canva dua kolom: tata letak formal dinilai lebih baik, dan kolom membuat sistem salah membaca (Bright &amp; Earl, bab 9; Modul 4). (2) Bilah keterampilan dan persentase: klaim tanpa bukti yang tidak terbaca perangkat lunak (3.1, 3.4). (3) Butir berisi tugas: “bertanggung jawab atas”, “membantu”. Ini pembuka paling lemah; pencapaian selalu mengalahkan daftar tugas (3.4). (4) IPK tidak ada: padahal syarat mutlak, dan menghilangkannya terkesan menyembunyikan sesuatu (3.5). (5) Foto, tanggal lahir, agama, status pernikahan, dan alamat lengkap di lamaran berbahasa Inggris yang tidak memintanya: memancing bias dan tidak relevan (3.5). (6) Tujuan karier yang berbunyi seperti tuntutan dan sama sekali tidak menyebut apa yang ia tawarkan (3.5). (7) HIMA, sponsor, dan KKN hanya ditulis satu baris di bawah “Pengalaman Organisasi”. Bagi lulusan baru, itu bukti, dan perlu ditulis sebagai butir (3.1). (8) “CURRICULUM VITAE” sebagai judul, alamat email yang kurang serius, dan “Hobi: membaca, jalan-jalan, musik”: tiga alasan kecil untuk menolak (3.1). Keterampilan Excel yang diminta iklan pun tidak muncul di mana-mana."
         },
         {
          "h": {
           "en": "Job detective",
-          "id": "Detektif lowongan"
+          "id": "Bedah lowongan"
          }
         },
         {
          "en": "Must-haves: GPA ≥ 3,00 (met), willing to be placed anywhere (a declaration, not a preference), active English (TOEFL 527 plus an English CV as the writing sample); Excel proficiency sits close behind. Implied: if nobody keeps product and people moving, distributors run out of stock and targets are missed, so negotiation with external partners, working with real data in Excel, and resilience under pressure. SAP is a nice-to-have gap: accept it, or start a short course and say so truthfully.",
-         "id": "Syarat wajib: IPK ≥ 3,00 (terpenuhi), bersedia ditempatkan di mana saja (deklarasi, bukan preferensi), bahasa Inggris aktif (TOEFL 527 plus CV bahasa Inggris sebagai contoh tulisan); kemahiran Excel menyusul dekat. Tersirat: jika tidak ada yang menjaga produk dan orang tetap bergerak, distributor kehabisan stok dan target meleset. Jadi negosiasi dengan mitra eksternal, bekerja dengan data nyata di Excel, dan ketangguhan di bawah tekanan. SAP adalah celah tambahan: terima, atau mulai kursus singkat dan katakan dengan jujur."
+         "id": "Syarat wajib: IPK ≥ 3,00 (terpenuhi), bersedia ditempatkan di mana saja (ini pernyataan kesediaan, bukan sekadar pilihan), dan bahasa Inggris aktif (TOEFL 527, ditambah CV berbahasa Inggris sebagai contoh tulisannya). Kemahiran Excel menyusul tepat di belakangnya. Yang tersirat: kalau tidak ada yang menjaga barang dan orang tetap bergerak, distributor kehabisan stok dan target meleset. Artinya, posisi ini butuh kemampuan bernegosiasi dengan mitra dari luar, mengolah data nyata di Excel, dan tetap tangguh di bawah tekanan. SAP adalah kekurangan pada syarat tambahan: terima saja, atau mulai kursus singkat dan sebutkan dengan jujur."
         },
         {
          "h": {
@@ -20274,7 +20275,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Internship: “Reconciled daily transaction reports for 3 branches during a 3-month operations internship; identified a recurring teller-terminal mismatch that, once fixed, removed about 30 minutes of manual correction per day.” · “Wrote a one-page reconciliation checklist adopted by the unit after the internship ended.” Café: “Served 120–150 customers per shift for 14 months alongside a full course load; trained 3 new baristas on the POS and opening checklist; proposed a pre-order board that cut peak wait from about 8 to about 5 minutes.” HIMA: “Rebuilt HIMA Manajemen’s financial records after inheriting incomplete books; introduced a shared ledger and a 3-day receipt rule, and the faculty audit returned zero findings for the first time in 3 years.” Competition: “Led a 6-person sponsorship team for a 1,200-participant national business competition; built a tiered sponsor package, pitched 40 companies and secured 11 sponsors and Rp 85 juta, 4 sponsors personally.”",
-         "id": "Magang: “Merekonsiliasi laporan transaksi harian untuk 3 cabang selama magang operasional 3 bulan; mengidentifikasi ketidakcocokan terminal teller berulang yang, setelah diperbaiki, menghapus sekitar 30 menit koreksi manual per hari.” · “Menulis daftar periksa rekonsiliasi satu halaman yang diadopsi unit setelah magang berakhir.” Kafe: “Melayani 120–150 pelanggan per sif selama 14 bulan di sela beban kuliah penuh; melatih 3 barista baru dalam POS dan daftar periksa buka; mengusulkan papan pra-pesan yang memangkas waktu tunggu puncak dari sekitar 8 menjadi sekitar 5 menit.” HIMA: “Membangun ulang catatan keuangan HIMA Manajemen setelah mewarisi pembukuan yang tidak lengkap; memperkenalkan buku besar bersama dan aturan kuitansi 3 hari, dan audit fakultas menghasilkan nol temuan untuk pertama kalinya dalam 3 tahun.” Kompetisi: “Memimpin tim sponsorship 6 orang untuk kompetisi bisnis nasional 1.200 peserta; menyusun paket sponsor bertingkat, mempresentasikan ke 40 perusahaan, dan mendapatkan 11 sponsor serta Rp 85 juta, 4 sponsor secara pribadi.”"
+         "id": "Magang: “Merekonsiliasi laporan transaksi harian 3 cabang selama magang operasional 3 bulan; menemukan selisih berulang pada satu terminal teller yang, setelah diperbaiki, menghemat sekitar 30 menit koreksi manual per hari.” · “Menulis daftar periksa rekonsiliasi satu halaman yang tetap dipakai unit setelah masa magang berakhir.” Kafe: “Melayani 120–150 pelanggan per sif selama 14 bulan sambil menjalani kuliah penuh; melatih 3 barista baru memakai mesin kasir dan daftar periksa buka toko; mengusulkan papan pesan-duluan yang memangkas waktu tunggu di jam sibuk dari sekitar 8 menjadi sekitar 5 menit.” HIMA: “Membenahi catatan keuangan HIMA Manajemen yang diwarisi dalam keadaan tidak lengkap; memperkenalkan buku kas bersama dan aturan kuitansi 3 hari, hingga audit fakultas mencatat nol temuan untuk pertama kalinya dalam 3 tahun.” Kompetisi: “Memimpin tim sponsor beranggotakan 6 orang untuk kompetisi bisnis nasional dengan 1.200 peserta; menyusun paket sponsor bertingkat, menawarkan ke 40 perusahaan, dan mendapatkan 11 sponsor senilai Rp 85 juta, 4 di antaranya hasil lobi sendiri.”"
         },
         {
          "h": {
@@ -20284,7 +20285,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "<b>Analytical thinking.</b> Reconciling three branches’ daily reports, I noticed recurring mismatches from one teller terminal; flagging the pattern led to a settings fix that ended the daily manual corrections. <b>Leadership in organisations.</b> I led a six-person sponsorship team to Rp 85 juta from 11 sponsors by setting a tiered package and weekly pitch targets. <b>Working under pressure.</b> While working 20 hours a week as a barista, I served as HIMA treasurer through the organisation’s busiest semester and completed my thesis on schedule.",
-         "id": "<b>Berpikir analitis.</b> Saat merekonsiliasi laporan harian tiga cabang, saya menyadari ketidakcocokan berulang dari satu terminal teller; melaporkan pola itu berujung pada perbaikan pengaturan yang mengakhiri koreksi manual harian. <b>Kepemimpinan di organisasi.</b> Saya memimpin tim sponsorship enam orang mencapai Rp 85 juta dari 11 sponsor dengan menetapkan paket bertingkat dan target presentasi mingguan. <b>Bekerja di bawah tekanan.</b> Sambil bekerja 20 jam seminggu sebagai barista, saya menjadi bendahara HIMA sepanjang semester tersibuk organisasi dan menyelesaikan skripsi tepat waktu."
+         "id": "<b>Berpikir analitis.</b> Saat merekonsiliasi laporan harian tiga cabang, saya menemukan selisih yang terus berulang dari satu terminal teller. Pola itu saya laporkan, pengaturannya diperbaiki, dan koreksi manual harian tidak diperlukan lagi. <b>Pengalaman memimpin di organisasi.</b> Saya memimpin tim sponsor beranggotakan enam orang hingga menggalang Rp 85 juta dari 11 sponsor, dengan menetapkan paket bertingkat dan target penawaran mingguan. <b>Bekerja di bawah tekanan.</b> Sambil bekerja 20 jam seminggu sebagai barista, saya menjabat bendahara HIMA selama semester tersibuk organisasi dan tetap menyelesaikan skripsi sesuai jadwal."
         },
         {
          "h": {
@@ -20294,7 +20295,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "“Management graduate targeting commercial and supply-chain trainee roles in consumer goods. Brings a 3-month bank operations internship, 14 months of front-line customer work alongside study, and sponsorship results for a 1,200-participant national competition. Comfortable with Excel analysis, fast-paced shifts and working with external partners. Open to placement anywhere in the country.” (62 words.) Photo: no, not requested for an English-language MT application; the professional photo lives on LinkedIn. Date of birth, religion, marital status: no, not required. Address: “Semarang · open to placement anywhere in the country”. GPA: “3.38 / 4.00” in the education block. Language: English throughout. Email: a plain name-based address. Her mother is right that some employers expect a photo; this one did not ask, and the decision is per application.",
-         "id": "“Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi. Membawa magang operasional bank 3 bulan, 14 bulan kerja layanan pelanggan garis depan di sela kuliah, dan hasil sponsor untuk kompetisi nasional 1.200 peserta. Nyaman dengan analisis Excel, sif yang serba cepat, dan bekerja dengan mitra eksternal. Bersedia ditempatkan di seluruh negeri.” Foto: tidak. Tidak diminta untuk lamaran MT berbahasa Inggris; foto profesional ada di LinkedIn. Tanggal lahir, agama, status pernikahan: tidak. Tidak diwajibkan. Alamat: “Semarang · bersedia ditempatkan di seluruh negeri”. IPK: “3.38 / 4.00” di blok pendidikan. Bahasa: Inggris seluruhnya. Email: alamat sederhana berbasis nama. Ibunya benar bahwa sebagian perusahaan mengharapkan foto; yang ini tidak meminta, dan keputusannya per lamaran."
+         "id": "“Lulusan Manajemen yang membidik posisi trainee komersial dan rantai pasok di industri barang konsumsi. Berbekal magang 3 bulan di bagian operasional bank, 14 bulan melayani pelanggan secara langsung sambil kuliah, dan hasil penggalangan sponsor untuk kompetisi nasional dengan 1.200 peserta. Terbiasa mengolah data di Excel, bekerja dalam sif yang serba cepat, dan berurusan dengan mitra dari luar. Bersedia ditempatkan di seluruh Indonesia.” (Versi bahasa Inggrisnya 62 kata.) Foto: tidak, karena tidak diminta untuk lamaran MT berbahasa Inggris; foto profesionalnya ada di LinkedIn. Tanggal lahir, agama, status pernikahan: tidak, karena tidak diwajibkan. Alamat: “Semarang · bersedia ditempatkan di seluruh Indonesia”. IPK: “3.38 / 4.00” di bagian pendidikan. Bahasa: Inggris dari awal sampai akhir. Email: alamat sederhana berdasarkan nama. Ibunya benar bahwa sebagian perusahaan mengharapkan foto. Perusahaan yang ini tidak meminta, dan keputusannya diambil per lamaran."
         },
         {
          "h": {
@@ -20304,18 +20305,18 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Order: header → profile → education (with GPA, thesis on FMCG distributor inventory, supply-chain elective) → Key Skills and Evidence (three statements) → Experience (internship, then café) → Organisational and Leadership Experience (competition, HIMA, community service) → Certifications, Languages and Tools (TOEFL ITP 527; Excel, pivot tables, VLOOKUP; Google Sheets). First-draft gate: Q3 failed because “Microsoft Excel” appeared only as “Excel” and “sales” appeared nowhere. The thesis line and the sponsorship bullet were rephrased; Q9 failed until a friend proofread it. File: NadiaPutri_CV_Arunika_MT.pdf, logged in the tracker.",
-         "id": "Urutan: kepala → profil → pendidikan (dengan IPK, skripsi tentang persediaan distributor FMCG, mata kuliah pilihan rantai pasok) → Keterampilan Utama dan Bukti (tiga pernyataan) → Pengalaman (magang, lalu kafe) → Pengalaman Organisasi dan Kepemimpinan (kompetisi, HIMA, KKN) → Sertifikasi, Bahasa, dan Alat (TOEFL ITP 527; Excel, pivot table, VLOOKUP; Google Sheets). Gerbang draf pertama: P3 gagal karena “Microsoft Excel” hanya muncul sebagai “Excel” dan “sales” tidak muncul di mana pun, baris skripsi dan butir sponsor diubah katanya; P9 gagal sampai seorang teman membaca ulang. Berkas: NadiaPutri_CV_Arunika_MT.pdf, dicatat di pelacak."
+         "id": "Urutan: kepala → profil → pendidikan (dengan IPK, skripsi tentang persediaan di distributor FMCG, mata kuliah pilihan rantai pasok) → Keterampilan Utama dan Bukti (tiga pernyataan) → Pengalaman (magang, lalu kafe) → Pengalaman Organisasi dan Kepemimpinan (kompetisi, HIMA, KKN) → Sertifikasi, Bahasa, dan Perangkat (TOEFL ITP 527; Excel, pivot table, VLOOKUP; Google Sheets). Gerbang di draf pertama: P3 gagal karena “Microsoft Excel” hanya tertulis “Excel” dan kata “sales” tidak muncul sama sekali. Baris skripsi dan butir sponsor lalu diubah istilahnya. P9 gagal sampai seorang teman membaca ulang. Berkas: NadiaPutri_CV_Arunika_MT.pdf, dicatat di pelacak."
         }
        ],
        "after": {
         "en": "Compare, do not copy. If your bullets have no “about” anywhere, check whether every number is one you could defend. If your profile is over 80 words, the adjectives go first.",
-        "id": "Bandingkan, jangan salin. Jika butirmu tidak memuat “sekitar” di mana pun, periksa apakah setiap angka bisa kamu pertahankan. Jika profilmu lebih dari 80 kata, kata sifatnya dibuang lebih dulu."
+        "id": "Bandingkan, jangan disalin. Kalau tidak ada kata “sekitar” sama sekali di butir-butirmu, periksa apakah setiap angkanya memang bisa kamu pertanggungjawabkan. Kalau profilmu lebih dari 80 kata, buang kata sifatnya lebih dulu."
        }
       },
       "submit": {
        "title": {
         "en": "Review & submit",
-        "id": "Tinjau & kumpulkan"
+        "id": "Tinjau dan kumpulkan"
        },
        "short": {
         "en": "Submit",
@@ -20323,19 +20324,19 @@ window.MT_LMS['the-pack'] = {
        },
        "lead": {
         "en": "Read your eight answers once more as the Arunika recruiter with seven seconds per CV. Submitting locks them on this device and opens the model notes.",
-        "id": "Baca kedelapan jawabanmu sekali lagi sebagai perekrut Arunika dengan tujuh detik per CV. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+        "id": "Baca sekali lagi kedelapan jawabanmu dengan kacamata perekrut Arunika yang hanya punya tujuh detik untuk setiap CV. Setelah dikumpulkan, jawabanmu terkunci di perangkat ini dan catatan model terbuka."
        },
        "button": {
         "en": "Submit the case",
-        "id": "Kumpulkan kasus"
+        "id": "Kumpulkan studi kasus"
        },
        "doneTitle": {
         "en": "Case submitted",
-        "id": "Kasus terkumpul"
+        "id": "Studi kasus terkumpul"
        },
        "doneBody": {
         "en": "Your rebuild is locked on this device. Compare it with the model notes, then do the same for your own CV in the Studio, that is Dossier item 3.",
-        "id": "Bangunan ulangmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu lakukan hal yang sama untuk CV-mu sendiri di Studio, itulah butir Dossier 3."
+        "id": "CV hasil bangun ulangmu sudah terkunci di perangkat ini. Bandingkan dengan catatan model, lalu lakukan hal yang sama untuk CV-mu sendiri di Studio. Itulah isi Dossier nomor 3."
        }
       }
      },
@@ -20344,11 +20345,11 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Diagnosing taste instead of rules",
-         "id": "Mendiagnosis selera, bukan aturan"
+         "id": "Membedah berdasarkan selera, bukan aturan"
         },
         "fix": {
          "en": "“Ugly” is not a finding. Name the rule or the research each problem breaks.",
-         "id": "“Jelek” bukan temuan. Sebut aturan atau penelitian yang dilanggar setiap masalah."
+         "id": "“Jelek” bukan temuan. Sebut aturan atau temuan penelitian yang dilanggar setiap masalah."
         }
        },
        {
@@ -20358,27 +20359,27 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Every figure comes from the pantry, or carries an honest “about”.",
-         "id": "Setiap angka berasal dari lemari, atau membawa “sekitar” yang jujur."
+         "id": "Setiap angka berasal dari isi lemari, atau diberi kata “sekitar” yang jujur."
         }
        },
        {
         "h": {
          "en": "Keeping the photo because a CV “looks incomplete” without it",
-         "id": "Mempertahankan foto karena CV “terlihat tidak lengkap” tanpanya"
+         "id": "Tetap memasang foto karena CV “kelihatan tidak lengkap” tanpanya"
         },
         "fix": {
          "en": "Decide per application: asked for, or not.",
-         "id": "Putuskan per lamaran: diminta, atau tidak."
+         "id": "Putuskan per lamaran: diminta atau tidak."
         }
        },
        {
         "h": {
          "en": "Rounding the gate",
-         "id": "Membulatkan gerbang"
+         "id": "Membulatkan jawaban di gerbang mutu"
         },
         "fix": {
          "en": "“Mostly yes” is a no. Fix it, then tick it.",
-         "id": "“Hampir ya” berarti tidak. Perbaiki, lalu centang."
+         "id": "“Hampir ya” berarti tidak. Perbaiki dulu, baru centang."
         }
        }
       ]
@@ -20387,11 +20388,11 @@ window.MT_LMS['the-pack'] = {
       {
        "term": {
         "en": "Before CV",
-        "id": "CV sebelum"
+        "id": "CV lama"
        },
        "def": {
         "en": "The case file’s starting document; the CV Nadia has been sending.",
-        "id": "Dokumen awal berkas kasus; CV yang selama ini dikirim Nadia."
+        "id": "Dokumen awal di berkas kasus; CV yang selama ini dikirim Nadia."
        }
       },
       {
@@ -20401,17 +20402,17 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Dossier item 3, part two: the complete record every tailored version is cut from.",
-        "id": "Butir Dossier 3, bagian dua: rekam lengkap tempat setiap versi tersesuaikan dipotong."
+        "id": "Isi Dossier nomor 3, bagian kedua: catatan lengkap yang menjadi sumber setiap versi yang disesuaikan."
        }
       },
       {
        "term": {
         "en": "Tailored CV v1",
-        "id": "CV Tersesuaikan v1"
+        "id": "CV disesuaikan v1"
        },
        "def": {
         "en": "Dossier item 3, part three: your first one-page CV for one real advertisement, gated and logged.",
-        "id": "Butir Dossier 3, bagian tiga: CV satu halaman pertamamu untuk satu iklan nyata, diuji dan dicatat."
+        "id": "Isi Dossier nomor 3, bagian ketiga: CV satu halaman pertamamu untuk satu iklan sungguhan, sudah lolos gerbang mutu dan dicatat."
        }
       }
      ],
@@ -20419,41 +20420,41 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Nadia’s before CV shows “Communication 90%” as a skill bar. The diagnosis is…",
-        "id": "CV sebelum Nadia menampilkan “Komunikasi 90%” sebagai bilah keterampilan. Diagnosisnya adalah…"
+        "id": "Di CV lama Nadia, “Komunikasi 90%” ditampilkan sebagai bilah keterampilan. Apa diagnosisnya?"
        },
        "options": [
         {
          "en": "Fine: it is visual and modern",
-         "id": "Baik: visual dan modern"
+         "id": "Tidak masalah: tampilannya visual dan modern"
         },
         {
          "en": "A claim without evidence that parsers cannot read; replace with an evidenced competency statement",
-         "id": "Klaim tanpa bukti yang tidak bisa dibaca parser; ganti dengan pernyataan kompetensi berbukti"
+         "id": "Klaim tanpa bukti yang tidak terbaca sistem; ganti dengan pernyataan kompetensi berbukti"
         },
         {
          "en": "Too modest: raise it to 100%",
-         "id": "Terlalu rendah hati: naikkan ke 100%"
+         "id": "Terlalu merendah: naikkan menjadi 100%"
         },
         {
          "en": "Move it to the header",
-         "id": "Pindahkan ke kepala"
+         "id": "Pindahkan ke kepala CV"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Evidence beats adjectives, and a bar is an adjective drawn as a graphic.",
-        "id": "Bukti mengalahkan kata sifat, dan bilah adalah kata sifat yang digambar sebagai grafis."
+        "id": "Bukti mengalahkan kata sifat, dan bilah itu hanyalah kata sifat yang digambar."
        }
       },
       {
        "q": {
         "en": "The Arunika portal is English-language and does not ask for a photo. Nadia’s mother says a CV without one looks incomplete.",
-        "id": "Portal Arunika berbahasa Inggris dan tidak meminta foto. Ibu Nadia bilang CV tanpa foto terlihat tidak lengkap."
+        "id": "Portal Arunika berbahasa Inggris dan tidak meminta foto. Ibu Nadia bilang CV tanpa foto kelihatan tidak lengkap. Apa keputusannya?"
        },
        "options": [
         {
          "en": "Include it: family knows best",
-         "id": "Sertakan: keluarga paling tahu"
+         "id": "Pasang saja: keluarga paling tahu"
         },
         {
          "en": "No photo on this CV; a professional photo on LinkedIn; decide again for the next application",
@@ -20465,19 +20466,19 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Never include a photo anywhere",
-         "id": "Jangan pernah sertakan foto di mana pun"
+         "id": "Jangan pernah pasang foto di mana pun"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Include only when asked; the rule is per application, not a blanket ban.",
-        "id": "Sertakan hanya jika diminta; aturannya per lamaran, bukan larangan menyeluruh."
+        "id": "Pasang foto hanya jika diminta. Aturannya berlaku per lamaran, bukan larangan untuk selamanya."
        }
       },
       {
        "q": {
         "en": "First-draft gate: “Microsoft Excel” is in the advertisement; the CV says only “Excel”. The close is…",
-        "id": "Gerbang draf pertama: “Microsoft Excel” ada di iklan; CV hanya menyebut “Excel”. Penutupnya adalah…"
+        "id": "Gerbang di draf pertama: iklan menyebut “Microsoft Excel”, sedangkan CV hanya menulis “Excel”. Cara menutupnya…"
        },
        "options": [
         {
@@ -20486,11 +20487,11 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Rephrase to the exact form inside a true evidence line",
-         "id": "Ubah kata ke bentuk persis di dalam baris bukti yang benar"
+         "id": "Ganti dengan bentuk yang persis sama di dalam baris bukti yang benar"
         },
         {
          "en": "Add a keywords list at the bottom",
-         "id": "Tambahkan daftar kata kunci di bawah"
+         "id": "Tambahkan daftar kata kunci di bagian bawah"
         },
         {
          "en": "Remove Excel",
@@ -20500,7 +20501,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Every must-have, once, in the advertisement’s exact form, inside true evidence; Module 4 makes this the rule.",
-        "id": "Setiap syarat wajib, sekali, dalam bentuk persis iklan, di dalam bukti yang benar, Modul 4 menjadikan ini aturan."
+        "id": "Setiap syarat wajib muncul sekali, dalam bentuk yang persis sama dengan iklan, di dalam bukti yang benar. Modul 4 menjadikannya aturan."
        }
       }
      ],
@@ -20509,11 +20510,11 @@ window.MT_LMS['the-pack'] = {
       "mode": "cv",
       "title": {
        "en": "Now build it",
-       "id": "Sekarang bangun"
+       "id": "Sekarang, susun CV-nya"
       },
       "body": {
        "en": "Assemble the rebuilt CV in the Studio’s single-column template, run the gate, export as NadiaPutri_CV_Arunika_MT.pdf. Then repeat every step for your own master CV and first tailored version. That completes Dossier item 3.",
-       "id": "Rakit CV yang dibangun ulang di templat satu kolom Studio, jalankan gerbang, ekspor sebagai NadiaPutri_CV_Arunika_MT.pdf. Lalu ulangi setiap langkah untuk CV induk dan versi tersesuaikan pertamamu. Itu melengkapi butir Dossier 3."
+       "id": "Rakit CV hasil bangun ulang di templat satu kolom Studio, jalankan gerbang mutu, lalu ekspor sebagai NadiaPutri_CV_Arunika_MT.pdf. Setelah itu, ulangi setiap langkah untuk CV induk dan versi pertama CV-mu sendiri yang disesuaikan. Dengan begitu, isi Dossier nomor 3 lengkap."
       },
       "cta": {
        "en": "Open the CV Studio →",
@@ -20523,15 +20524,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "A diagnosis names the rule each problem breaks; taste is not a finding.",
-       "id": "Diagnosis menyebut aturan yang dilanggar setiap masalah; selera bukan temuan."
+       "id": "Pembedahan menyebut aturan yang dilanggar setiap masalah; selera bukan temuan."
       },
       {
        "en": "Every rewritten line comes from the pantry and can be defended for two minutes.",
-       "id": "Setiap baris yang ditulis ulang berasal dari lemari dan bisa dipertahankan dua menit."
+       "id": "Setiap baris yang ditulis ulang berasal dari isi lemari dan sanggup dijelaskan selama dua menit."
       },
       {
        "en": "The local decisions and the quality gate are made per application, honestly, every time.",
-       "id": "Keputusan lokal dan gerbang mutu diambil per lamaran, dengan jujur, setiap kali."
+       "id": "Keputusan lokal dan gerbang mutu dijalankan per lamaran, dengan jujur, setiap kali."
       }
      ],
      "journey": {
@@ -20542,17 +20543,17 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "How CVs are read, the job detective, the pantry, bullets that prove, the page and its decisions, the tailoring workflow.",
-        "id": "Cara CV dibaca, detektif lowongan, lemari, butir yang membuktikan, halaman dan keputusannya, alur penyesuaian."
+        "id": "Cara CV dibaca, membedah lowongan, mengisi lemari bukti, butir yang membuktikan, susunan halaman dan keputusannya, alur kerja menyesuaikan CV."
        }
       },
       "now": {
        "label": {
         "en": "3.7 · Rebuild Nadia’s CV",
-        "id": "3.7 · Bangun Ulang CV Nadia"
+        "id": "3.7 · Membangun Ulang CV Nadia"
        },
        "desc": {
         "en": "You have rebuilt a real CV for a real advertisement and gated it.",
-        "id": "Kamu sudah membangun ulang CV nyata untuk iklan nyata dan mengujinya."
+        "id": "Kamu sudah membangun ulang CV sungguhan untuk iklan sungguhan dan mengujinya di gerbang mutu."
        }
       },
       "next": {
@@ -20562,7 +20563,7 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "Make the page parse cleanly, cover every must-have honestly, and pass seleksi administrasi with a pre-flight check.",
-        "id": "Buat halaman terbaca bersih, cakup setiap syarat wajib dengan jujur, dan lolos seleksi administrasi dengan pemeriksaan pra-kirim."
+        "id": "Membuat halaman terbaca rapi oleh sistem, memuat setiap syarat wajib dengan jujur, dan lolos seleksi administrasi dengan pemeriksaan sebelum kirim."
        },
        "lesson": "4.1"
       }
@@ -20584,11 +20585,11 @@ window.MT_LMS['the-pack'] = {
    },
    "overview": {
     "en": "Administrative and software screening eliminates more candidates than any other stage, usually for reasons that have nothing to do with ability: a missing document, a mismatched field, a CV the software could not read. These are the cheapest rejections to prevent. This module explains what applicant-tracking software actually does and does not do, how to format for it, how to cover keywords honestly, and how to pass seleksi administrasi with a pre-flight check.",
-    "id": "Seleksi administrasi dan penyaringan perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun, biasanya karena alasan yang tidak ada hubungannya dengan kemampuan: dokumen yang hilang, kolom yang tidak cocok, CV yang tidak bisa dibaca perangkat lunak. Inilah penolakan termurah untuk dicegah. Modul ini menjelaskan apa yang sebenarnya dilakukan dan tidak dilakukan perangkat lunak pelacak pelamar, cara memformat untuknya, cara mencakup kata kunci dengan jujur, dan cara lolos seleksi administrasi dengan pemeriksaan pra-kirim."
+    "id": "Seleksi administrasi dan penyaringan oleh perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun, dan biasanya karena alasan yang sama sekali tidak berkaitan dengan kemampuan: dokumen yang kurang, isian yang tidak cocok, CV yang tidak bisa dibaca sistem. Inilah penolakan yang paling murah untuk dicegah. Modul ini menjelaskan apa yang sebenarnya dilakukan, dan tidak dilakukan, oleh sistem pelacak lamaran; cara memformat CV untuknya; cara memuat kata kunci dengan jujur; dan cara lolos seleksi administrasi dengan pemeriksaan sebelum kirim."
    },
    "outcome": {
     "en": "By the end of this module you can explain what applicant-tracking software actually does; produce a CV that parses cleanly; cover every must-have keyword truthfully; decode an advertisement’s essential and desirable criteria; and run a pre-flight check that catches administrative failures before you submit.",
-    "id": "Di akhir modul ini kamu bisa menjelaskan apa yang sebenarnya dilakukan perangkat lunak pelacak pelamar; menghasilkan CV yang terbaca bersih; mencakup setiap kata kunci wajib dengan jujur; menguraikan kriteria esensial dan tambahan sebuah iklan; dan menjalankan pemeriksaan pra-kirim yang menangkap kegagalan administrasi sebelum kamu mengirim."
+    "id": "Di akhir modul ini kamu bisa menjelaskan apa yang sebenarnya dilakukan sistem pelacak lamaran; menghasilkan CV yang terbaca rapi oleh sistem; memuat setiap kata kunci wajib dengan jujur; membedah syarat wajib dan syarat tambahan sebuah iklan; dan menjalankan pemeriksaan sebelum kirim yang menangkap kegagalan administrasi sebelum lamaranmu terkirim."
    },
    "lessons": [
     {
@@ -20601,24 +20602,24 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "What the Machine Actually Does",
-      "id": "Apa yang Sebenarnya Dilakukan Mesin"
+      "id": "Apa yang Sebenarnya Dikerjakan Mesin"
      },
      "overview": {
       "en": "Learners arrive frightened of “the ATS (applicant tracking system)”, a robot said to reject most CVs unseen. The reality is more mundane and more useful. This lesson explains what the software does, separates myth from fact, and shows where your control lies.",
-      "id": "Pembelajar datang dengan ketakutan pada “ATS (sistem pelacak lamaran)”; robot yang konon menolak sebagian besar CV tanpa dilihat. Kenyataannya lebih biasa dan lebih berguna. Pelajaran ini menjelaskan apa yang dilakukan perangkat lunak, memisahkan mitos dari fakta, dan menunjukkan di mana kendalimu berada."
+      "id": "Banyak pelamar datang dengan rasa takut pada “ATS (sistem pelacak lamaran)”, robot yang konon menolak sebagian besar CV tanpa pernah dilihat manusia. Kenyataannya jauh lebih biasa, dan justru lebih berguna untuk kamu ketahui. Pelajaran ini menjelaskan apa yang sebenarnya dikerjakan perangkat lunak itu, memisahkan mitos dari fakta, dan menunjukkan bagian mana yang ada di tanganmu."
      },
      "objectives": [
       {
        "en": "Describe the five things an applicant-tracking system does.",
-       "id": "Menggambarkan lima hal yang dilakukan sistem pelacak pelamar."
+       "id": "Menjelaskan lima hal yang dikerjakan sistem pelacak lamaran."
       },
       {
        "en": "Identify the three failure modes you control.",
-       "id": "Mengenali tiga mode kegagalan yang kamu kendalikan."
+       "id": "Mengenali tiga jenis kegagalan yang bisa kamu kendalikan."
       },
       {
        "en": "Evaluate common ATS claims as myth, half-truth or fact.",
-       "id": "Menilai klaim-klaim umum tentang ATS sebagai mitos, setengah benar, atau fakta."
+       "id": "Menilai klaim-klaim populer soal ATS: mitos, setengah benar, atau fakta."
       }
      ],
      "readFirst": {
@@ -20632,66 +20633,66 @@ window.MT_LMS['the-pack'] = {
         "n": "4.1",
         "title": {
          "en": "What the Machine Actually Does",
-         "id": "Apa yang Sebenarnya Dilakukan Mesin"
+         "id": "Apa yang Sebenarnya Dikerjakan Mesin"
         }
        },
        "story": [
         {
          "en": "The machine organises; a person decides. Most “ATS rejections” are knockout questions and a recruiter’s filters",
-         "id": "Mesin menata; orang memutuskan. Kebanyakan “penolakan ATS” adalah pertanyaan gugur dan saringan perekrut"
+         "id": "Mesin memilah, manusia memutuskan. Sebagian besar “penolakan oleh ATS” sebenarnya pertanyaan gugur dan saringan yang dipasang perekrut"
         },
         {
          "en": "Four ideas frame the module: readable, covered, complete, consistent",
-         "id": "Empat gagasan membingkai modul: terbaca, tercakup, lengkap, konsisten"
+         "id": "Empat gagasan membingkai modul ini: terbaca, tercakup, lengkap, konsisten"
         },
         {
          "en": "Six claims you will hear, and what is actually true",
-         "id": "Enam klaim yang akan kamu dengar, dan yang sebenarnya benar"
+         "id": "Enam klaim yang beredar, dan apa yang sebenarnya benar"
         },
         {
          "en": "Three failure modes you control, each with a routine fix and its own lesson",
-         "id": "Tiga mode kegagalan yang kamu kendalikan, masing-masing dengan perbaikan rutin dan pelajarannya sendiri"
+         "id": "Tiga jenis kegagalan yang bisa kamu kendalikan, masing-masing dengan perbaikan rutin dan pelajarannya sendiri"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "The machine organises; a person decides",
-          "id": "Mesin menata; orang memutuskan"
+          "id": "Mesin memilah, manusia memutuskan"
          },
          "p": {
           "en": "Write for both: parse-safe for the machine, evidence for the person.",
-          "id": "Tulis untuk keduanya: aman diurai untuk mesin, bukti untuk orangnya."
+          "id": "Menulislah untuk keduanya: aman dibaca sistem untuk mesinnya, penuh bukti untuk manusianya."
          }
         },
         {
          "h": {
           "en": "If it can’t be read, it doesn’t exist",
-          "id": "Jika tidak bisa dibaca, ia tidak ada"
+          "id": "Kalau tidak terbaca, ia dianggap tidak ada"
          },
          "p": {
           "en": "“Hide keywords in white text” is harmful: parsed text shows hidden words to the recruiter, and it reads as manipulation.",
-          "id": "“Sembunyikan kata kunci dalam teks putih” itu merugikan: teks yang diurai menunjukkan kata tersembunyi ke perekrut, dan terbaca sebagai manipulasi."
+          "id": "“Sembunyikan kata kunci dengan huruf putih” itu merugikan: teks hasil urai memperlihatkan kata-kata tersembunyi itu kepada perekrut, dan kesannya seperti manipulasi."
          }
         },
         {
          "h": {
           "en": "Every must-have, once, exactly, truthfully",
-          "id": "Setiap syarat wajib, sekali, persis, jujur"
+          "id": "Setiap syarat wajib: sekali, persis, jujur"
          },
          "p": {
           "en": "LinkedIn works the same way: recruiters type the terms from their own advertisement and filter by location, school and graduation year.",
-          "id": "LinkedIn bekerja dengan cara yang sama: perekrut mengetik istilah dari iklan mereka sendiri dan menyaring menurut lokasi, kampus, dan tahun lulus."
+          "id": "LinkedIn bekerja dengan cara yang sama: perekrut mengetik istilah dari iklan mereka sendiri, lalu menyaring berdasarkan lokasi, kampus, dan tahun lulus."
          }
         },
         {
          "h": {
           "en": "The instruction is the test",
-          "id": "Petunjuk adalah ujiannya"
+          "id": "Instruksinya adalah ujiannya"
          },
          "p": {
           "en": "None of the three is about ability; all three end candidacies silently.",
-          "id": "Tak satu pun dari ketiganya soal kemampuan; ketiganya mengakhiri pencalonan tanpa suara."
+          "id": "Tidak satu pun dari ketiganya soal kemampuan; ketiganya mengakhiri lamaran tanpa suara."
          }
         }
        ],
@@ -20700,7 +20701,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "The machine organises; a person decides. Most “ATS rejections” are knockout questions and a recruiter’s filters",
-          "id": "Mesin menata; orang memutuskan. Kebanyakan “penolakan ATS” adalah pertanyaan gugur dan saringan perekrut"
+          "id": "Mesin memilah, manusia memutuskan. Sebagian besar “penolakan oleh ATS” sebenarnya pertanyaan gugur dan saringan yang dipasang perekrut"
          },
          "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
          "layout": "flow",
@@ -20711,7 +20712,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Mengurai",
            "d": {
             "en": "Your CV into fields: name, education, titles, dates, skills. If it cannot be read, it becomes an empty record.",
-            "id": "CV-mu ke dalam kolom: nama, pendidikan, jabatan, tanggal, keterampilan. Jika tak bisa dibaca, menjadi rekaman kosong."
+            "id": "CV-mu dipecah menjadi kolom data: nama, pendidikan, jabatan, tanggal, keterampilan. Kalau tidak terbaca, hasilnya data kosong."
            }
           },
           {
@@ -20720,7 +20721,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Mengindeks",
            "d": {
             "en": "The text, so recruiters can search it by the terms in their own advertisement.",
-            "id": "Teksnya, agar perekrut bisa mencarinya dengan istilah di iklan mereka sendiri."
+            "id": "Teksnya, supaya perekrut bisa mencarinya dengan istilah dari iklan mereka sendiri."
            }
           },
           {
@@ -20729,7 +20730,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Menyaring",
            "d": {
             "en": "On knockout questions and hard criteria: minimum GPA, major, location, right to work.",
-            "id": "Pada pertanyaan gugur dan kriteria mutlak: IPK minimum, jurusan, lokasi, izin kerja."
+            "id": "Lewat pertanyaan gugur dan kriteria mutlak: IPK minimum, jurusan, lokasi, izin kerja."
            }
           },
           {
@@ -20738,7 +20739,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Memeringkat",
            "d": {
             "en": "Or scores against the advertisement, in some products.",
-            "id": "Atau menilai terhadap iklan, pada sebagian produk."
+            "id": "Atau memberi skor berdasarkan iklan, pada sebagian produk."
            }
           },
           {
@@ -20747,75 +20748,75 @@ window.MT_LMS['the-pack'] = {
            "id": "Menyajikan",
            "d": {
             "en": "A sorted list to a human recruiter, who decides; a busy one may never scroll far down.",
-            "id": "Daftar terurut ke perekrut manusia, yang memutuskan; yang sibuk mungkin tak pernah menggulir jauh ke bawah."
+            "id": "Daftar yang sudah diurutkan sampai ke perekrut, dan perekrut yang memutuskan; perekrut yang sibuk mungkin tidak pernah menggulir jauh ke bawah."
            }
           }
          ],
          "sub": {
           "en": "Administrative and software screening eliminates more candidates than any other stage, usually for reasons that have nothing to do with ability, and all of them preventable.",
-          "id": "Seleksi administrasi dan perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun, biasanya karena alasan yang tak ada hubungannya dengan kemampuan, dan semuanya bisa dicegah."
+          "id": "Seleksi administrasi dan penyaringan oleh perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun, biasanya karena hal yang tidak ada hubungannya dengan kemampuan, dan semuanya bisa dicegah."
          },
          "band": {
           "en": "Write for both: parse-safe for the machine, evidence for the person.",
-          "id": "Tulis untuk keduanya: aman diurai untuk mesin, bukti untuk orangnya."
+          "id": "Menulislah untuk keduanya: aman dibaca sistem untuk mesinnya, penuh bukti untuk manusianya."
          },
          "em": {
           "en": "a person decides",
-          "id": "orang memutuskan"
+          "id": "manusia memutuskan"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Four ideas frame the module: readable, covered, complete, consistent",
-          "id": "Empat gagasan membingkai modul: terbaca, tercakup, lengkap, konsisten"
+          "id": "Empat gagasan membingkai modul ini: terbaca, tercakup, lengkap, konsisten"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "eye",
            "en": "If it can’t be read, it doesn’t exist",
-           "id": "Jika tak bisa dibaca, ia tidak ada",
+           "id": "Kalau tidak terbaca, ia dianggap tidak ada",
            "d": {
             "en": "A CV the software cannot parse becomes an empty record, silently. Lesson 4.2: eight rules and two tests.",
-            "id": "CV yang tak bisa diurai perangkat lunak menjadi rekaman kosong, tanpa suara. Pelajaran 4.2: delapan aturan dan dua uji."
+            "id": "CV yang tidak bisa diurai sistem berubah menjadi data kosong, tanpa pemberitahuan. Pelajaran 4.2: delapan aturan dan dua uji."
            }
           },
           {
            "icon": "check",
            "en": "Every must-have, once, exactly, truthfully",
-           "id": "Setiap syarat wajib, sekali, persis, jujur",
+           "id": "Setiap syarat wajib: sekali, persis, jujur",
            "d": {
             "en": "Keywords belong inside evidence, not in a hidden list. Lesson 4.3: the coverage table and four honest closes.",
-            "id": "Kata kunci tempatnya di dalam bukti, bukan daftar tersembunyi. Pelajaran 4.3: tabel cakupan dan empat penutup jujur."
+            "id": "Tempat kata kunci adalah di dalam bukti, bukan di daftar tersembunyi. Pelajaran 4.3: tabel cakupan dan empat cara jujur menutup kekurangan."
            }
           },
           {
            "icon": "clipboard",
            "en": "The instruction is the test",
-           "id": "Petunjuk adalah ujiannya",
+           "id": "Instruksinya adalah ujiannya",
            "d": {
             "en": "Completeness is a selection criterion in its own right. Lesson 4.4: seleksi administrasi and the pre-flight.",
-            "id": "Kelengkapan adalah kriteria seleksi tersendiri. Pelajaran 4.4: seleksi administrasi dan pra-kirim."
+            "id": "Kelengkapan adalah kriteria seleksi tersendiri. Pelajaran 4.4: seleksi administrasi dan pemeriksaan sebelum kirim."
            }
           },
           {
            "icon": "link",
            "en": "Consistency is a criterion",
-           "id": "Konsistensi adalah kriteria",
+           "id": "Konsistensi juga dinilai",
            "d": {
             "en": "Recruiters compare the CV with LinkedIn and the form; one record, many formats. Lesson 4.5: the Portal.",
-            "id": "Perekrut membandingkan CV dengan LinkedIn dan formulir; satu rekaman, banyak format. Pelajaran 4.5: Portal."
+            "id": "Perekrut membandingkan CV dengan LinkedIn dan formulir; satu sumber data, banyak format. Pelajaran 4.5: studi kasus Portal."
            }
           }
          ],
          "sub": {
           "en": "Six claims you will hear about the ATS, and what is actually true, are in Lesson 4.1; the fixes are in 4.2 to 4.5.",
-          "id": "Enam klaim yang akan kamu dengar tentang ATS, dan yang sebenarnya benar, ada di Pelajaran 4.1; perbaikannya di 4.2 sampai 4.5."
+          "id": "Enam klaim soal ATS yang pasti pernah kamu dengar, dan mana yang benar, ada di Pelajaran 4.1; perbaikannya di Pelajaran 4.2 sampai 4.5."
          },
          "band": {
           "en": "“Hide keywords in white text” is harmful: parsed text shows hidden words to the recruiter, and it reads as manipulation.",
-          "id": "“Sembunyikan kata kunci dalam teks putih” itu merugikan: teks yang diurai menunjukkan kata tersembunyi ke perekrut, dan terbaca sebagai manipulasi."
+          "id": "“Sembunyikan kata kunci dengan huruf putih” itu merugikan: teks hasil urai memperlihatkan kata-kata tersembunyi itu kepada perekrut, dan kesannya seperti manipulasi."
          },
          "em": {
           "en": "readable, covered, complete, consistent",
@@ -20826,17 +20827,17 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Six claims you will hear, and what is actually true",
-          "id": "Enam klaim yang akan kamu dengar, dan yang sebenarnya benar"
+          "id": "Enam klaim yang beredar, dan apa yang sebenarnya benar"
          },
          "cols": [
           {
            "l": {
             "en": "Claim you will hear",
-            "id": "Klaim yang akan kamu dengar"
+            "id": "Klaim yang beredar"
            },
            "d": {
             "en": "Widely repeated",
-            "id": "Banyak diulang"
+            "id": "Banyak diulang-ulang"
            },
            "items": [
             {
@@ -20847,12 +20848,12 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "eye",
              "en": "“Hide keywords in white text to beat the robot”",
-             "id": "“Sembunyikan kata kunci dalam teks putih untuk mengalahkan robot”"
+             "id": "“Sembunyikan kata kunci dengan huruf putih untuk mengakali robot”"
             },
             {
              "icon": "list",
              "en": "“More keywords = higher rank”",
-             "id": "“Lebih banyak kata kunci = peringkat lebih tinggi”"
+             "id": "“Makin banyak kata kunci, makin tinggi peringkat”"
             },
             {
              "icon": "grid",
@@ -20875,22 +20876,22 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "filter",
              "en": "Knockout questions and filters remove many early; a busy recruiter may never scroll down a ranked list",
-             "id": "Pertanyaan gugur dan saringan menyingkirkan banyak lebih awal; perekrut sibuk mungkin tak pernah menggulir daftar peringkat"
+             "id": "Pertanyaan gugur dan saringan menyisihkan banyak pelamar sejak awal; perekrut yang sibuk mungkin tidak pernah menggulir jauh ke bawah daftar"
             },
             {
              "icon": "warn",
              "en": "Harmful: parsed text shows the hidden words, and it reads as manipulation",
-             "id": "Merugikan: teks yang diurai menunjukkan kata tersembunyi, dan terbaca sebagai manipulasi"
+             "id": "Merugikan: teks hasil urai memperlihatkan kata-kata tersembunyi, dan kesannya seperti manipulasi"
             },
             {
              "icon": "scale",
              "en": "Half-true: coverage of genuine must-haves matters; stuffing reads as spam to a person",
-             "id": "Setengah benar: cakupan syarat wajib sungguhan penting; penjejalan terbaca sebagai spam bagi orang"
+             "id": "Setengah benar: yang penting syarat wajib yang memang tercakup; kata kunci yang dijejalkan terbaca seperti spam oleh manusia"
             },
             {
              "icon": "doc",
              "en": "Columns and tables scramble the parse; boring formats win",
-             "id": "Kolom dan tabel mengacaukan penguraian; format membosankan menang"
+             "id": "Kolom ganda dan tabel mengacak hasil urai; format yang membosankan justru menang"
             }
            ],
            "icon": "check"
@@ -20901,60 +20902,60 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "The “75% / 98% rejected before a human sees them” figures are poorly sourced; what is true is that knockout questions and recruiter filters remove many applicants early.",
-          "id": "Angka “75% / 98% ditolak sebelum dilihat manusia” bersumber buruk; yang benar adalah pertanyaan gugur dan saringan perekrut menyingkirkan banyak pelamar lebih awal."
+          "id": "Angka “75% / 98% ditolak sebelum dilihat manusia” sumbernya lemah; yang benar, pertanyaan gugur dan saringan perekrut memang menyisihkan banyak pelamar sejak awal."
          },
          "band": {
           "en": "LinkedIn works the same way: recruiters type the terms from their own advertisement and filter by location, school and graduation year.",
-          "id": "LinkedIn bekerja dengan cara yang sama: perekrut mengetik istilah dari iklan mereka sendiri dan menyaring menurut lokasi, kampus, dan tahun lulus."
+          "id": "LinkedIn bekerja dengan cara yang sama: perekrut mengetik istilah dari iklan mereka sendiri, lalu menyaring berdasarkan lokasi, kampus, dan tahun lulus."
          },
          "em": {
           "en": "what is actually true",
-          "id": "yang sebenarnya benar"
+          "id": "apa yang sebenarnya benar"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Three failure modes you control, each with a routine fix and its own lesson",
-          "id": "Tiga mode kegagalan yang kamu kendalikan, masing-masing dengan perbaikan rutin dan pelajarannya sendiri"
+          "id": "Tiga jenis kegagalan yang bisa kamu kendalikan, masing-masing dengan perbaikan rutin dan pelajarannya sendiri"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "eye",
            "en": "Unreadable",
-           "id": "Tak terbaca",
+           "id": "Tidak terbaca",
            "d": {
             "en": "Columns, text boxes, icons, a scanned PDF: the parser returns blanks. Fix: eight rules, the plain-text test, the portal preview (4.2).",
-            "id": "Kolom, kotak teks, ikon, PDF pindaian: pengurai mengembalikan kekosongan. Perbaikan: delapan aturan, uji teks polos, pratinjau portal (4.2)."
+            "id": "Kolom ganda, kotak teks, ikon, PDF hasil pindaian: sistem hanya mendapat isian kosong. Perbaikan: delapan aturan, uji teks polos, pratinjau portal (4.2)."
            }
           },
           {
            "icon": "filter",
            "en": "Uncovered",
-           "id": "Tak tercakup",
+           "id": "Tidak tercakup",
            "d": {
             "en": "A must-have present in your life but absent from the page, or in a different form. Fix: the coverage table and four honest closes (4.3).",
-            "id": "Syarat wajib yang ada dalam hidupmu tapi tak ada di halaman, atau dalam bentuk berbeda. Perbaikan: tabel cakupan dan empat penutup jujur (4.3)."
+            "id": "Syarat wajib yang sebenarnya kamu punya tetapi tidak muncul di halaman, atau muncul dengan istilah lain. Perbaikan: tabel cakupan dan empat cara jujur menutup kekurangan (4.3)."
            }
           },
           {
            "icon": "clipboard",
            "en": "Incomplete or inconsistent",
-           "id": "Tak lengkap atau tak konsisten",
+           "id": "Tidak lengkap atau tidak konsisten",
            "d": {
             "en": "A missing scan, an expired certificate, a GPA rounded differently on two documents. Fix: the local checklist and the pre-flight (4.4).",
-            "id": "Pindaian hilang, sertifikat kedaluwarsa, IPK dibulatkan berbeda di dua dokumen. Perbaikan: daftar periksa lokal dan pra-kirim (4.4)."
+            "id": "Pindaian yang kurang, sertifikat kedaluwarsa, IPK yang dibulatkan berbeda di dua dokumen. Perbaikan: daftar periksa lokal dan pemeriksaan sebelum kirim (4.4)."
            }
           }
          ],
          "sub": {
           "en": "Unreadable, uncovered, incomplete.",
-          "id": "Tak terbaca, tak tercakup, tak lengkap."
+          "id": "Tidak terbaca, tidak tercakup, tidak lengkap."
          },
          "band": {
           "en": "None of the three is about ability; all three end candidacies silently.",
-          "id": "Tak satu pun dari ketiganya soal kemampuan; ketiganya mengakhiri pencalonan tanpa suara."
+          "id": "Tidak satu pun dari ketiganya soal kemampuan; ketiganya mengakhiri lamaran tanpa suara."
          },
          "em": {
           "en": "each with a routine fix",
@@ -20977,61 +20978,61 @@ window.MT_LMS['the-pack'] = {
       },
       "intro": {
        "en": "Four ideas frame the module. Administrative and software screening eliminates more candidates than any other stage. Usually for reasons that have nothing to do with ability, and all of them preventable.",
-       "id": "Empat gagasan membingkai modul ini. Seleksi administrasi dan penyaringan perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun; biasanya karena alasan yang tidak ada hubungannya dengan kemampuan, dan semuanya bisa dicegah."
+       "id": "Empat gagasan membingkai modul ini. Seleksi administrasi dan penyaringan oleh perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun, biasanya karena hal yang tidak ada hubungannya dengan kemampuan, dan semuanya bisa dicegah."
       },
       "slides": [
        {
         "h": {
          "en": "The machine organises; a person decides",
-         "id": "Mesin menata; orang memutuskan"
+         "id": "Mesin memilah, manusia memutuskan"
         },
         "points": [
          {
           "en": "Most “ATS rejections” are knockout questions and a recruiter’s filters applied to software-sorted lists.",
-          "id": "Kebanyakan “penolakan ATS” adalah pertanyaan gugur dan saringan perekrut yang diterapkan pada daftar yang diurutkan perangkat lunak."
+          "id": "Sebagian besar “penolakan oleh ATS” sebenarnya berasal dari pertanyaan gugur dan saringan yang dipasang perekrut pada daftar yang sudah diurutkan perangkat lunak."
          },
          {
           "en": "A human decides who proceeds. Write for both.",
-          "id": "Manusia memutuskan siapa yang lanjut. Tulis untuk keduanya."
+          "id": "Manusia yang memutuskan siapa yang lanjut. Menulislah untuk keduanya."
          }
         ]
        },
        {
         "h": {
          "en": "If it can’t be read, it doesn’t exist",
-         "id": "Jika tidak bisa dibaca, ia tidak ada"
+         "id": "Kalau tidak terbaca, ia dianggap tidak ada"
         },
         "points": [
          {
           "en": "A CV the software cannot parse becomes an empty record, silently.",
-          "id": "CV yang tidak bisa diurai perangkat lunak menjadi rekaman kosong, tanpa suara."
+          "id": "CV yang tidak bisa diurai sistem berubah menjadi data kosong, tanpa pemberitahuan apa pun."
          },
          {
           "en": "Lesson 4.2 gives eight rules and two tests.",
-          "id": "Pelajaran 4.2 memberi delapan aturan dan dua uji."
+          "id": "Pelajaran 4.2 memberimu delapan aturan dan dua uji."
          }
         ]
        },
        {
         "h": {
          "en": "Every must-have, once, exactly, truthfully",
-         "id": "Setiap syarat wajib, sekali, persis, jujur"
+         "id": "Setiap syarat wajib: sekali, persis, jujur"
         },
         "points": [
          {
           "en": "Keywords belong inside evidence, not in a hidden list.",
-          "id": "Kata kunci tempatnya di dalam bukti, bukan di daftar tersembunyi."
+          "id": "Tempat kata kunci adalah di dalam bukti, bukan di daftar tersembunyi."
          },
          {
           "en": "Lesson 4.3: the coverage table and four honest closes for a gap.",
-          "id": "Pelajaran 4.3: tabel cakupan dan empat penutup jujur untuk sebuah celah."
+          "id": "Pelajaran 4.3: tabel cakupan dan empat cara jujur menutup kekurangan."
          }
         ]
        },
        {
         "h": {
          "en": "The instruction is the test",
-         "id": "Petunjuk adalah ujiannya"
+         "id": "Instruksinya adalah ujiannya"
         },
         "points": [
          {
@@ -21040,7 +21041,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Lesson 4.4: seleksi administrasi and the pre-flight routine. Lesson 4.5: The Portal.",
-          "id": "Pelajaran 4.4: seleksi administrasi dan rutinitas pra-kirim. Pelajaran 4.5: Portal."
+          "id": "Pelajaran 4.4: seleksi administrasi dan pemeriksaan sebelum kirim. Pelajaran 4.5: Studi kasus Portal."
          }
         ]
        }
@@ -21057,17 +21058,17 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "An applicant-tracking system (ATS) is recruitment workflow software. It typically: <b>parses</b> your CV into fields (name, education, job titles, dates, skills); <b>indexes</b> the text so recruiters can search it; <b>filters</b> on knockout questions and hard criteria (minimum GPA, major, location, right to work); <b>ranks</b> or scores candidates against the advertisement, in some products; and <b>presents</b> a sorted list to a human recruiter, who decides <i>(Knowles, How to Write an Outstanding CV, ch. 2; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.3.2; Dumas, The AI-Savvy Job Seeker, ch. 3)</i>. Most corporate portals, and many state-owned enterprise and bank recruitment systems, behave like this, even when the brand name is unfamiliar.",
-        "id": "Sistem pelacak pelamar (ATS) adalah perangkat lunak alur kerja rekrutmen. Biasanya ia: <b>mengurai</b> CV-mu menjadi kolom-kolom (nama, pendidikan, jabatan, tanggal, keterampilan); <b>mengindeks</b> teksnya agar perekrut bisa mencarinya; <b>menyaring</b> berdasarkan pertanyaan gugur dan kriteria mutlak (IPK minimum, jurusan, lokasi, izin kerja); <b>memeringkat</b> atau menilai kandidat terhadap iklan, pada sebagian produk; dan <b>menyajikan</b> daftar terurut kepada perekrut manusia, yang memutuskan <i>(Knowles, How to Write an Outstanding CV, bab 2; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.3.2; Dumas, The AI-Savvy Job Seeker, bab 3)</i>. Kebanyakan portal korporat Indonesia, dan banyak sistem rekrutmen BUMN (badan usaha milik negara) dan bank, berperilaku seperti ini, meski nama mereknya tidak dikenal."
+        "id": "Sistem pelacak lamaran (ATS) adalah perangkat lunak untuk mengelola alur rekrutmen. Umumnya ia: <b>mengurai</b> CV-mu menjadi kolom-kolom data (nama, pendidikan, jabatan, tanggal, keterampilan); <b>mengindeks</b> teksnya supaya bisa dicari perekrut; <b>menyaring</b> lewat pertanyaan gugur dan kriteria mutlak (IPK minimum, jurusan, lokasi, izin kerja); <b>memeringkat</b> atau memberi skor kandidat berdasarkan iklan, pada sebagian produk; lalu <b>menyajikan</b> daftar yang sudah diurutkan kepada perekrut, dan perekrut itulah yang memutuskan <i>(Knowles, How to Write an Outstanding CV, bab 2; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.3.2; Dumas, The AI-Savvy Job Seeker, bab 3)</i>. Sebagian besar portal perusahaan, termasuk banyak sistem rekrutmen BUMN (badan usaha milik negara) dan bank, bekerja dengan cara ini, meskipun merek perangkat lunaknya asing di telinga."
        },
        "after": [
         {
          "en": "Notice what is not on the list: reading. The software does not read your CV the way a person does; it extracts, matches and sorts. Everything in this module follows from that.",
-         "id": "Perhatikan apa yang tidak ada dalam daftar: membaca. Perangkat lunak tidak membaca CV-mu seperti orang; ia mengekstrak, mencocokkan, dan mengurutkan. Segala isi modul ini berangkat dari situ."
+         "id": "Perhatikan apa yang tidak ada di daftar itu: membaca. Perangkat lunak tidak membaca CV-mu seperti manusia. Ia mengambil data, mencocokkan, lalu mengurutkan. Seluruh isi modul ini berangkat dari kenyataan itu."
         }
        ],
        "key": {
         "en": "An applicant-tracking system parses, indexes, filters, ranks and presents; a person still decides.",
-        "id": "Sistem pelacak lamaran mengurai, mengindeks, menyaring, memeringkat, dan menyajikan; manusia tetap yang memutuskan."
+        "id": "Sistem pelacak lamaran mengurai, mengindeks, menyaring, memeringkat, dan menyajikan. Keputusannya tetap di tangan manusia."
        }
       },
       {
@@ -21078,17 +21079,17 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Six claims you will hear, and what is actually true.",
-        "id": "Enam klaim yang akan kamu dengar, dan apa yang sebenarnya benar."
+        "id": "Enam klaim yang pasti pernah kamu dengar, dan apa yang sebenarnya benar."
        },
        "table": {
         "cols": [
          {
           "en": "Claim you will hear",
-          "id": "Klaim yang akan kamu dengar"
+          "id": "Klaim yang beredar"
          },
          {
           "en": "What’s true",
-          "id": "Yang benar"
+          "id": "Yang sebenarnya"
          }
         ],
         "rows": [
@@ -21099,27 +21100,27 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Poorly sourced.</b> Widely repeated figures without credible origin <span class=\"ev ev-contested\">Contested</span>. What is true: knockout questions and recruiter filters can remove many applicants early, and a busy recruiter may never scroll far down a ranked list.",
-           "id": "<b>Sumbernya lemah.</b> Angka yang banyak diulang tanpa asal yang kredibel <span class=\"ev ev-contested\">Diperdebatkan</span>. Yang benar: pertanyaan gugur dan saringan perekrut bisa menyingkirkan banyak pelamar lebih awal, dan perekrut yang sibuk mungkin tidak pernah menggulir jauh ke bawah daftar peringkat."
+           "id": "<b>Sumbernya lemah.</b> Angka ini banyak diulang tanpa asal-usul yang bisa dipercaya <span class=\"ev ev-contested\">Diperdebatkan</span>. Yang benar: pertanyaan gugur dan saringan perekrut memang bisa menyisihkan banyak pelamar sejak awal, dan perekrut yang sibuk mungkin tidak pernah menggulir jauh ke bawah daftar peringkat."
           }
          ],
          [
           {
            "en": "“Hide keywords in white text to beat the robot.”",
-           "id": "“Sembunyikan kata kunci dengan teks putih untuk mengalahkan robot.”"
+           "id": "“Sembunyikan kata kunci dengan huruf putih untuk mengakali robot.”"
           },
           {
            "en": "<b>Harmful.</b> Parsed text shows hidden words to the recruiter, and it reads as manipulation <i>(Ow)</i>.",
-           "id": "<b>Merugikan.</b> Teks yang diurai memperlihatkan kata tersembunyi kepada perekrut, dan itu terbaca sebagai manipulasi <i>(Ow)</i>."
+           "id": "<b>Merugikan.</b> Teks hasil urai menampilkan kata-kata tersembunyi itu kepada perekrut, dan kesannya seperti manipulasi <i>(Ow)</i>."
           }
          ],
          [
           {
            "en": "“More keywords = higher rank.”",
-           "id": "“Lebih banyak kata kunci = peringkat lebih tinggi.”"
+           "id": "“Makin banyak kata kunci, makin tinggi peringkat.”"
           },
           {
            "en": "<b>Half-true.</b> Coverage of genuine must-haves matters; stuffing reads badly to the human who decides, and modern systems weigh context <i>(Knowles, ch. 2; Dumas, ch. 5)</i>.",
-           "id": "<b>Setengah benar.</b> Cakupan syarat wajib yang sungguhan berpengaruh; penjejalan terbaca buruk oleh manusia yang memutuskan, dan sistem modern menimbang konteks <i>(Knowles, bab 2; Dumas, bab 5)</i>."
+           "id": "<b>Setengah benar.</b> Yang penting adalah syarat wajib yang memang tercakup. Menjejalkan kata kunci justru buruk di mata manusia yang memutuskan, dan sistem modern ikut menimbang konteks <i>(Knowles, bab 2; Dumas, bab 5)</i>."
           }
          ],
          [
@@ -21129,69 +21130,69 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Outdated.</b> Text-based PDFs parse in most modern systems; scanned or image PDFs do not. Follow the portal’s instruction.",
-           "id": "<b>Usang.</b> PDF berbasis teks terurai di sebagian besar sistem modern; PDF pindaian atau gambar tidak. Ikuti petunjuk portal."
+           "id": "<b>Sudah usang.</b> PDF berbasis teks bisa diurai oleh kebanyakan sistem modern; PDF hasil pindaian atau berupa gambar tidak. Ikuti instruksi portal."
           }
          ],
          [
           {
            "en": "“Apply to many roles at the same company to raise your odds.”",
-           "id": "“Lamar banyak posisi di perusahaan yang sama untuk memperbesar peluang.”"
+           "id": "“Lamar banyak posisi di perusahaan yang sama supaya peluang naik.”"
           },
           {
            "en": "<b>Usually counterproductive.</b> Recruiters see all your applications; scattered applications signal no target <i>(Ow)</i>. Apply to one or two genuine fits.",
-           "id": "<b>Biasanya kontraproduktif.</b> Perekrut melihat semua lamaranmu; lamaran yang tersebar menandakan tidak ada sasaran <i>(Ow)</i>. Lamar satu atau dua yang benar-benar cocok."
+           "id": "<b>Biasanya malah merugikan.</b> Perekrut bisa melihat semua lamaranmu, dan lamaran yang berserakan menandakan kamu tidak punya sasaran <i>(Ow)</i>. Lamar satu atau dua posisi yang benar-benar cocok."
           }
          ],
          [
           {
            "en": "“A human never reads it.”",
-           "id": "“Manusia tidak pernah membacanya.”"
+           "id": "“CV tidak pernah dibaca manusia.”"
           },
           {
            "en": "<b>False.</b> A human decides who proceeds <i>(Simunovic, §3.3.2)</i>. Write for both.",
-           "id": "<b>Salah.</b> Manusia memutuskan siapa yang lanjut <i>(Simunovic, §3.3.2)</i>. Tulis untuk keduanya."
+           "id": "<b>Keliru.</b> Manusia yang memutuskan siapa yang lanjut <i>(Simunovic, §3.3.2)</i>. Menulislah untuk keduanya."
           }
          ]
         ]
        },
        "key": {
         "en": "Most “ATS rejections” are knockout questions or a human decision; the myths cost more than the software does.",
-        "id": "Sebagian besar “penolakan ATS” adalah pertanyaan gugur atau keputusan manusia; mitosnya lebih merugikan daripada perangkat lunaknya."
+        "id": "Sebagian besar “penolakan oleh ATS” sebenarnya pertanyaan gugur atau keputusan manusia. Mitosnya lebih merugikan daripada perangkat lunaknya."
        }
       },
       {
        "icon": "target",
        "h": {
         "en": "Three failure modes you control",
-        "id": "Tiga mode kegagalan yang kamu kendalikan"
+        "id": "Tiga kegagalan yang bisa kamu kendalikan"
        },
        "body": {
         "en": "Each has a routine fix, and each has its own lesson in this module.",
-        "id": "Masing-masing punya perbaikan rutin, dan masing-masing punya pelajarannya sendiri di modul ini."
+        "id": "Masing-masing punya cara perbaikan yang rutin, dan masing-masing dibahas di pelajarannya sendiri dalam modul ini."
        },
        "bullets": [
         {
          "en": "<b>Parsing failure</b>: the software cannot read your layout, so your record is incomplete or garbled; silent and entirely preventable (Lesson 4.2).",
-         "id": "<b>Kegagalan penguraian</b>: perangkat lunak tidak bisa membaca tata letakmu, sehingga rekamanmu tidak lengkap atau kacau; tanpa suara dan sepenuhnya bisa dicegah (Pelajaran 4.2)."
+         "id": "<b>Gagal urai</b>: perangkat lunak tidak bisa membaca tata letakmu, sehingga datamu tidak lengkap atau kacau. Terjadi diam-diam, dan sepenuhnya bisa dicegah (Pelajaran 4.2)."
         },
         {
          "en": "<b>Coverage failure</b>: genuine must-haves are missing or phrased differently from the advertisement (Lesson 4.3).",
-         "id": "<b>Kegagalan cakupan</b>: syarat wajib yang sungguhan hilang atau dirumuskan berbeda dari iklan (Pelajaran 4.3)."
+         "id": "<b>Gagal cakupan</b>: syarat wajib yang sebenarnya kamu punya tidak muncul, atau ditulis dengan istilah yang berbeda dari iklan (Pelajaran 4.3)."
         },
         {
          "en": "<b>Knockout failure</b>: an eligibility answer, a missing document, or an inconsistency ends the application (Lesson 4.4).",
-         "id": "<b>Kegagalan gugur</b>: jawaban kelayakan, dokumen yang hilang, atau ketidakkonsistenan mengakhiri lamaran (Pelajaran 4.4)."
+         "id": "<b>Gugur administrasi</b>: jawaban soal kelayakan, dokumen yang kurang, atau data yang tidak konsisten mengakhiri lamaranmu (Pelajaran 4.4)."
         }
        ],
        "after": [
         {
          "en": "Nadia’s officer programme application in Lesson 1.2 failed on the third, a 1.8 MB TOEFL (Test of English as a Foreign Language) scan against a 500 KB limit. No one read her CV. That is the cheapest rejection in the whole funnel, and the easiest to prevent.",
-         "id": "Lamaran ODP Nadia di Pelajaran 1.2 gagal pada yang ketiga, pindaian TOEFL (Test of English as a Foreign Language) 1,8 MB, padahal batasnya 500 KB. Tidak ada yang membaca CV-nya. Itulah penolakan termurah di seluruh corong, dan yang paling mudah dicegah."
+         "id": "Lamaran ODP Nadia di Pelajaran 1.2 gugur karena hal ketiga: pindaian TOEFL (Test of English as a Foreign Language) berukuran 1,8 MB, padahal batasnya 500 KB. Tidak ada satu orang pun yang membaca CV-nya. Itulah penolakan paling murah di seluruh corong, dan yang paling mudah dicegah."
         }
        ],
        "key": {
         "en": "Three failure modes you control: unreadable, uncovered, and incomplete or inconsistent, each with a routine fix.",
-        "id": "Tiga kegagalan yang kamu kendalikan: tak terbaca, tak tercakup, dan tak lengkap atau tak konsisten, masing-masing dengan perbaikan rutin."
+        "id": "Tiga kegagalan yang bisa kamu kendalikan: tidak terbaca, tidak tercakup, dan tidak lengkap atau tidak konsisten. Masing-masing punya perbaikan rutin."
        }
       },
       {
@@ -21202,11 +21203,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Recruiters searching LinkedIn use keyword and filter logic much like an ATS <i>(Serdula, LinkedIn Profile Optimization For Dummies, ch. 2; Dumas, ch. 3)</i>: they type the terms from their own advertisement and filter by location, school and graduation year. A profile that does not contain a word cannot be found for it. The keyword table you built in Module 3 serves both the CV and the profile; Module 5 applies it to LinkedIn.",
-        "id": "Perekrut yang mencari di LinkedIn memakai logika kata kunci dan saringan yang mirip ATS <i>(Serdula, LinkedIn Profile Optimization For Dummies, bab 2; Dumas, bab 3)</i>: mereka mengetik istilah dari iklan mereka sendiri dan menyaring berdasarkan lokasi, kampus, dan tahun lulus. Profil yang tidak memuat sebuah kata tidak bisa ditemukan untuk kata itu. Tabel kata kunci yang kamu bangun di Modul 3 melayani CV maupun profil; Modul 5 menerapkannya ke LinkedIn."
+        "id": "Perekrut yang mencari kandidat di LinkedIn memakai logika kata kunci dan saringan yang mirip dengan ATS <i>(Serdula, LinkedIn Profile Optimization For Dummies, bab 2; Dumas, bab 3)</i>: mereka mengetik istilah dari iklan mereka sendiri, lalu menyaring berdasarkan lokasi, kampus, dan tahun lulus. Profil yang tidak memuat sebuah kata tidak akan muncul saat kata itu dicari. Tabel kata kunci yang kamu buat di Modul 3 berguna untuk CV sekaligus profil; Modul 5 menerapkannya di LinkedIn."
        },
        "key": {
         "en": "Recruiter search on LinkedIn works like an ATS: a profile that does not contain a word cannot be found for it.",
-        "id": "Pencarian perekrut di LinkedIn bekerja seperti ATS: profil yang tidak memuat sebuah kata tidak bisa ditemukan lewat kata itu."
+        "id": "Pencarian perekrut di LinkedIn bekerja seperti ATS: profil yang tidak memuat sebuah kata tidak akan ditemukan lewat kata itu."
        }
       }
      ],
@@ -21214,11 +21215,11 @@ window.MT_LMS['the-pack'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 11: What happens after you click Submit",
-       "id": "Peraga 11: Apa yang terjadi setelah kamu mengeklik Kirim"
+       "id": "Peraga 11: Yang terjadi setelah kamu menekan Kirim"
       },
       "title": {
        "en": "Parse → index → filter → rank → present → a person decides",
-       "id": "Urai → indeks → saring → peringkat → sajikan → orang memutuskan"
+       "id": "Urai → indeks → saring → peringkat → sajikan → manusia memutuskan"
       },
       "items": [
        {
@@ -21228,7 +21229,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Your file becomes fields: name, education, titles, dates, skills. Fails silently on columns, tables and images.",
-         "id": "Berkasmu menjadi kolom: nama, pendidikan, jabatan, tanggal, keterampilan. Gagal tanpa suara pada kolom, tabel, dan gambar."
+         "id": "Berkasmu dipecah menjadi kolom data: nama, pendidikan, jabatan, tanggal, keterampilan. Gagal tanpa suara jika ada kolom ganda, tabel, dan gambar."
         }
        },
        {
@@ -21238,7 +21239,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "The text becomes searchable. A word that is not there cannot be found.",
-         "id": "Teksnya menjadi bisa dicari. Kata yang tidak ada tidak bisa ditemukan."
+         "id": "Teksnya menjadi bisa dicari. Kata yang tidak ada tidak akan ditemukan."
         }
        },
        {
@@ -21258,7 +21259,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Some products score against the advertisement; coverage of must-haves matters, stuffing does not.",
-         "id": "Sebagian produk menilai terhadap iklan; cakupan syarat wajib berpengaruh, penjejalan tidak."
+         "id": "Sebagian produk memberi skor berdasarkan iklan. Yang penting syarat wajib tercakup, bukan kata kunci yang dijejalkan."
         }
        },
        {
@@ -21268,7 +21269,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "A sorted list reaches a recruiter with a pile and an afternoon.",
-         "id": "Daftar terurut sampai ke perekrut dengan tumpukan dan satu sore."
+         "id": "Daftar yang sudah diurutkan sampai ke perekrut yang punya setumpuk lamaran dan satu sore untuk membacanya."
         }
        },
        {
@@ -21278,40 +21279,40 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "A person reads the top of the list and chooses who proceeds.",
-         "id": "Seseorang membaca bagian atas daftar dan memilih siapa yang lanjut."
+         "id": "Seorang manusia membaca bagian atas daftar dan memilih siapa yang lanjut."
         }
        }
       ],
       "note": {
        "en": "You control three of the six: how well you parse, whether your must-haves are covered, and whether you pass the knockouts.",
-       "id": "Kamu mengendalikan tiga dari enam: seberapa baik kamu terurai, apakah syarat wajibmu tercakup, dan apakah kamu lolos pertanyaan gugur."
+       "id": "Tiga dari enam langkah ada di tanganmu: seberapa rapi CV-mu terurai, apakah syarat wajibmu tercakup, dan apakah kamu lolos pertanyaan gugur."
       },
       "longdesc": {
        "en": "A six-step flow: parse the file into fields; index the text; filter on knockout questions and hard criteria; rank against the advertisement in some products; present a sorted list; a recruiter decides. The note says the candidate controls parsing, coverage and knockouts.",
-       "id": "Alur enam langkah: mengurai berkas menjadi kolom; mengindeks teks; menyaring dengan pertanyaan gugur dan kriteria mutlak; memeringkat terhadap iklan pada sebagian produk; menyajikan daftar terurut; perekrut memutuskan. Catatan menyebut kandidat mengendalikan penguraian, cakupan, dan pertanyaan gugur."
+       "id": "Alur enam langkah: berkas diurai menjadi kolom data; teks diindeks; penyaringan lewat pertanyaan gugur dan kriteria mutlak; pemeringkatan berdasarkan iklan pada sebagian produk; daftar terurut disajikan; perekrut memutuskan. Catatannya menyebut bahwa kandidat mengendalikan penguraian, cakupan, dan pertanyaan gugur."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Two ways to think about the machine",
-        "id": "Dua cara memikirkan mesin"
+        "id": "Dua cara memandang mesin"
        },
        "q": {
         "en": "A friend tells Nadia her CV “must have been rejected by the ATS”.",
-        "id": "Seorang teman memberi tahu Nadia bahwa CV-nya “pasti ditolak ATS”."
+        "id": "Seorang teman bilang kepada Nadia bahwa CV-nya “pasti ditolak ATS”."
        },
        "weak": {
         "en": "“The robot rejects 98% of us. I’ll add every keyword I can find in white text at the bottom and apply to all six roles they have open.”",
-        "id": "“Robotnya menolak 98% dari kita. Aku akan tambahkan semua kata kunci yang kutemukan dengan teks putih di bawah dan melamar keenam posisi yang mereka buka.”"
+        "id": "“Robotnya menolak 98% pelamar. Aku tambahkan saja semua kata kunci yang bisa kutemukan dengan huruf putih di bagian bawah, lalu kulamar keenam posisi yang sedang dibuka.”"
        },
        "strong": {
         "en": "“Three things could have happened: my two-column CV parsed badly, a must-have was missing, or I failed a knockout. The TOEFL file was over the limit. I’ll run the plain-text test, build the coverage table, and check the file specs before the next one.”",
-        "id": "“Tiga hal yang mungkin terjadi: CV dua kolomku terurai buruk, ada syarat wajib yang hilang, atau aku gagal pertanyaan gugur, berkas TOEFL-nya melebihi batas. Aku akan jalankan uji teks polos, bangun tabel cakupan, dan periksa spesifikasi berkas sebelum lamaran berikutnya.”"
+        "id": "“Ada tiga kemungkinan: CV dua kolomku terurai berantakan, ada syarat wajib yang tidak muncul, atau aku gugur di pertanyaan gugur. Berkas TOEFL-ku melebihi batas ukuran. Sebelum melamar lagi, aku akan menjalankan uji teks polos, membuat tabel cakupan, dan mengecek ketentuan berkas.”"
        },
        "why": {
         "en": "The weak answer believes a poorly sourced statistic and reaches for tricks that a recruiter sees instantly. The strong answer names the three controllable failures and their routine fixes.",
-        "id": "Jawaban lemah mempercayai statistik yang sumbernya lemah dan meraih trik yang langsung dilihat perekrut. Jawaban kuat menyebut tiga kegagalan yang bisa dikendalikan dan perbaikan rutinnya."
+        "id": "Jawaban yang lemah memercayai statistik yang sumbernya lemah dan mencari trik yang langsung ketahuan perekrut. Jawaban yang kuat menyebut tiga kegagalan yang bisa dikendalikan beserta perbaikan rutinnya."
        }
       }
      ],
@@ -21319,20 +21320,20 @@ window.MT_LMS['the-pack'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: the empty record",
-       "id": "Sorotan: rekaman kosong"
+       "id": "Sorotan: data yang kosong"
       },
       "body": [
        {
         "en": "A recruiter at PT Arunika opens the portal’s candidate list, sorted by match score. Nadia’s entry sits near the bottom. Her name is there, but the education field reads “Communication ●●●●● 90%”, the most recent job title reads “Kopi Tepian Magang”, and the skills field is empty. The parser walked across her two-column Canva template line by line, interleaving the left column with the right.",
-        "id": "Seorang perekrut di PT Arunika membuka daftar kandidat portal, diurutkan berdasarkan skor kecocokan. Entri Nadia berada di dekat dasar. Namanya ada, tetapi kolom pendidikan berbunyi “Communication ●●●●● 90%”, jabatan terbaru berbunyi “Kopi Tepian Magang”, dan kolom keterampilan kosong. Pengurai berjalan melintasi templat Canva dua kolomnya baris demi baris, menyilangkan kolom kiri dengan kolom kanan."
+        "id": "Seorang perekrut di PT Arunika membuka daftar kandidat di portal, yang diurutkan berdasarkan skor kecocokan. Nama Nadia ada di dekat dasar daftar. Namanya tercantum, tetapi kolom pendidikan berisi “Komunikasi ●●●●● 90%”, kolom jabatan terakhir berbunyi “Kopi Tepian Magang”, dan kolom keterampilan kosong. Sistem membaca templat Canva dua kolomnya baris demi baris, menyeberang dari kolom kiri ke kolom kanan, sehingga isinya tercampur aduk."
        },
        {
         "en": "Nobody rejected her. The record simply had nothing in it to rank. The recruiter, working through the top forty entries, never scrolled down far enough to open the PDF.",
-        "id": "Tidak ada yang menolaknya. Rekamannya hanya tidak punya apa-apa untuk diperingkat. Perekrut, yang mengerjakan empat puluh entri teratas, tidak pernah menggulir cukup jauh untuk membuka PDF-nya."
+        "id": "Tidak ada yang menolaknya. Datanya memang tidak berisi apa pun yang bisa diberi peringkat. Perekrut yang sedang menyisir empat puluh nama teratas tidak pernah menggulir cukup jauh untuk membuka PDF-nya."
        },
        {
         "en": "The same afternoon, the rebuilt single-column CV from Module 3 parses into clean fields. Same facts; a different record.",
-        "id": "Sore yang sama, CV satu kolom yang dibangun ulang dari Modul 3 terurai menjadi kolom-kolom yang bersih. Fakta yang sama; rekaman yang berbeda."
+        "id": "Di sore yang sama, CV satu kolom hasil bangun ulang di Modul 3 terurai menjadi kolom-kolom yang rapi. Faktanya sama; datanya berbeda sama sekali."
        }
       ]
      },
@@ -21344,25 +21345,25 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Mark each statement myth, half-truth or fact before revealing: (1) “Text-based PDFs cannot be parsed.” (2) “Knockout questions remove many applicants before anyone reads a CV.” (3) “Repeating a keyword ten times raises your rank.” (4) “A recruiter sees every role you applied for at the company.” (5) “White-text keywords are invisible to the recruiter.” (6) “A human decides who proceeds.”",
-        "id": "Tandai setiap pernyataan sebagai mitos, setengah benar, atau fakta sebelum membuka pembahasan: (1) “PDF berbasis teks tidak bisa diurai.” (2) “Pertanyaan gugur menyingkirkan banyak pelamar sebelum ada yang membaca CV.” (3) “Mengulang kata kunci sepuluh kali menaikkan peringkatmu.” (4) “Perekrut melihat setiap posisi yang kamu lamar di perusahaan itu.” (5) “Kata kunci teks putih tak terlihat oleh perekrut.” (6) “Manusia memutuskan siapa yang lanjut.”"
+        "id": "Tandai setiap pernyataan sebagai mitos, setengah benar, atau fakta sebelum membuka pembahasan: (1) “PDF berbasis teks tidak bisa diurai.” (2) “Pertanyaan gugur menyisihkan banyak pelamar sebelum ada yang membaca CV.” (3) “Mengulang satu kata kunci sepuluh kali menaikkan peringkat.” (4) “Perekrut bisa melihat setiap posisi yang kamu lamar di perusahaannya.” (5) “Kata kunci berhuruf putih tidak terlihat oleh perekrut.” (6) “Manusia yang memutuskan siapa yang lanjut.”"
        },
        "debrief": {
         "en": "(1) Myth: outdated; scanned PDFs are the problem. (2) Fact. (3) Half-truth. Coverage matters once; repetition reads badly. (4) Fact. Which is why scattered applications signal no target. (5) Myth; parsed text reveals them. (6) Fact; always write for the person.",
-        "id": "(1) Mitos: usang; PDF pindaian yang bermasalah. (2) Fakta. (3) Setengah benar, cakupan berpengaruh sekali; pengulangan terbaca buruk. (4) Fakta, itulah sebabnya lamaran yang tersebar menandakan tidak ada sasaran. (5) Mitos, teks yang diurai memperlihatkannya. (6) Fakta, selalu tulis untuk orangnya."
+        "id": "(1) Mitos: sudah usang; yang bermasalah adalah PDF hasil pindaian. (2) Fakta. (3) Setengah benar: tercakup sekali itu penting, mengulang-ulang justru buruk kesannya. (4) Fakta, dan itulah sebabnya lamaran yang berserakan menandakan kamu tidak punya sasaran. (5) Mitos: teks hasil urai memperlihatkannya. (6) Fakta: selalu menulislah untuk manusia."
        }
       },
       {
        "h": {
         "en": "Drill 2: Name the failure mode",
-        "id": "Latihan 2: Sebutkan mode kegagalannya"
+        "id": "Latihan 2: Sebut jenis kegagalannya"
        },
        "body": {
         "en": "Three rejections, three modes. (A) Raka’s portal preview shows his degree in the “Company” field. (B) Dewi’s CV says “handled customers” for a role whose advertisement says “customer service” five times. (C) Sari answered “No” to “willing to be placed outside Java” because she hoped to negotiate later. Which failure is each, and which lesson fixes it?",
-        "id": "Tiga penolakan, tiga mode. (A) Pratinjau portal Raka menampilkan gelarnya di kolom “Perusahaan”. (B) CV Dewi menyebut “menangani pelanggan” untuk peran yang iklannya menyebut “layanan pelanggan” lima kali. (C) Sari menjawab “Tidak” pada “bersedia ditempatkan di luar Jawa” karena berharap bisa bernegosiasi nanti. Kegagalan mana masing-masing, dan pelajaran mana yang memperbaikinya?"
+        "id": "Tiga penolakan, tiga jenis kegagalan. (A) Pratinjau portal Raka menampilkan gelarnya di kolom “Perusahaan”. (B) CV Dewi menulis “menangani pelanggan” untuk posisi yang iklannya menyebut “layanan pelanggan” lima kali. (C) Sari menjawab “Tidak” untuk “bersedia ditempatkan di luar Jawa” karena ia berharap bisa menegosiasikannya nanti. Termasuk kegagalan apa masing-masing, dan pelajaran mana yang membahas perbaikannya?"
        },
        "debrief": {
         "en": "(A) Parsing: Lesson 4.2: fix the layout, then correct the field. (B) Coverage, Lesson 4.3: the exact form, inside true evidence. (C) Knockout; Lesson 4.4: the answer was truthful, and the role requires placement; the fix is not a different answer but a different target, or a genuine change of mind.",
-        "id": "(A) Penguraian: Pelajaran 4.2: perbaiki tata letak, lalu koreksi kolomnya. (B) Cakupan, Pelajaran 4.3: bentuk persis, di dalam bukti yang benar. (C) Gugur, Pelajaran 4.4: jawabannya jujur, dan peran itu mewajibkan penempatan; perbaikannya bukan jawaban berbeda melainkan sasaran berbeda, atau perubahan pikiran yang sungguh-sungguh."
+        "id": "(A) Gagal urai, Pelajaran 4.2: perbaiki tata letaknya, lalu betulkan isian kolomnya. (B) Gagal cakupan, Pelajaran 4.3: pakai bentuk yang persis sama, di dalam bukti yang benar. (C) Gugur administrasi, Pelajaran 4.4: jawabannya jujur, dan posisi itu memang mensyaratkan siap ditempatkan. Perbaikannya bukan mengganti jawaban, melainkan mengganti sasaran, atau sungguh-sungguh berubah pikiran."
        }
       }
      ],
@@ -21371,11 +21372,11 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Believing the 75% / 98% figure",
-         "id": "Mempercayai angka 75% / 98%"
+         "id": "Memercayai angka 75% / 98%"
         },
         "fix": {
          "en": "Be suspicious of dramatic ATS statistics without a source. Knockouts and filters are the real early exits.",
-         "id": "Curigai statistik ATS yang dramatis tanpa sumber. Pertanyaan gugur dan saringan adalah pintu keluar awal yang sebenarnya."
+         "id": "Curigai statistik ATS yang dramatis tanpa sumber. Pertanyaan gugur dan saringan perekrutlah yang benar-benar menyisihkan pelamar sejak awal."
         }
        },
        {
@@ -21385,27 +21386,27 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Parsed text shows them; it reads as manipulation.",
-         "id": "Teks yang diurai memperlihatkannya; itu terbaca sebagai manipulasi."
+         "id": "Teks hasil urai memperlihatkannya, dan kesannya seperti manipulasi."
         }
        },
        {
         "h": {
          "en": "Applying to every open role at one company",
-         "id": "Melamar setiap posisi yang terbuka di satu perusahaan"
+         "id": "Melamar semua posisi yang dibuka di satu perusahaan"
         },
         "fix": {
          "en": "One or two genuine fits. Recruiters see all of them.",
-         "id": "Satu atau dua yang benar-benar cocok. Perekrut melihat semuanya."
+         "id": "Pilih satu atau dua yang benar-benar cocok. Perekrut melihat semuanya."
         }
        },
        {
         "h": {
          "en": "Writing for the robot only",
-         "id": "Menulis hanya untuk robot"
+         "id": "Hanya menulis untuk robot"
         },
         "fix": {
          "en": "A person decides. Write for both.",
-         "id": "Orang yang memutuskan. Tulis untuk keduanya."
+         "id": "Manusia yang memutuskan. Menulislah untuk keduanya."
         }
        }
       ]
@@ -21418,7 +21419,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Applicant-tracking system: recruitment workflow software that parses, indexes, filters, ranks and presents applications.",
-        "id": "Sistem pelacak pelamar: perangkat lunak alur kerja rekrutmen yang mengurai, mengindeks, menyaring, memeringkat, dan menyajikan lamaran."
+        "id": "Sistem pelacak lamaran (applicant tracking system): perangkat lunak pengelola alur rekrutmen yang mengurai, mengindeks, menyaring, memeringkat, dan menyajikan lamaran."
        }
       },
       {
@@ -21428,7 +21429,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "To extract a document into fields; name, education, titles, dates, skills.",
-        "id": "Mengekstrak dokumen menjadi kolom-kolom, nama, pendidikan, jabatan, tanggal, keterampilan."
+        "id": "Memecah isi dokumen menjadi kolom data: nama, pendidikan, jabatan, tanggal, keterampilan."
        }
       },
       {
@@ -21438,7 +21439,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "An eligibility question whose wrong answer ends the application automatically.",
-        "id": "Pertanyaan kelayakan yang jawaban salahnya mengakhiri lamaran secara otomatis."
+        "id": "Pertanyaan kelayakan yang, jika jawabannya tidak sesuai, otomatis mengakhiri lamaran."
        }
       },
       {
@@ -21448,17 +21449,17 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Whether each genuine must-have from the advertisement appears in your CV, in its exact form, inside true evidence.",
-        "id": "Apakah setiap syarat wajib yang sungguhan dari iklan muncul di CV-mu, dalam bentuk persis, di dalam bukti yang benar."
+        "id": "Apakah setiap syarat wajib dari iklan yang memang kamu punya muncul di CV, dalam bentuk yang persis sama, di dalam bukti yang benar."
        }
       },
       {
        "term": {
         "en": "Keyword stuffing",
-        "id": "Penjejalan kata kunci"
+        "id": "Menjejalkan kata kunci"
        },
        "def": {
         "en": "Repeating or hiding keywords to game a ranking; visible to the recruiter and read as manipulation.",
-        "id": "Mengulang atau menyembunyikan kata kunci untuk mengakali peringkat; terlihat oleh perekrut dan terbaca sebagai manipulasi."
+        "id": "Mengulang-ulang atau menyembunyikan kata kunci untuk mengakali peringkat. Terlihat oleh perekrut dan terkesan sebagai manipulasi."
        }
       }
      ],
@@ -21466,16 +21467,16 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Which is most accurate?",
-        "id": "Mana yang paling akurat?"
+        "id": "Mana yang paling tepat?"
        },
        "options": [
         {
          "en": "A robot rejects almost everyone unseen",
-         "id": "Robot menolak hampir semua orang tanpa dilihat"
+         "id": "Robot menolak hampir semua pelamar tanpa dilihat"
         },
         {
          "en": "Software parses, filters and sorts; a recruiter applies filters and decides",
-         "id": "Perangkat lunak mengurai, menyaring, dan mengurutkan; perekrut menerapkan saringan dan memutuskan"
+         "id": "Perangkat lunak mengurai, menyaring, dan mengurutkan; perekrut memasang saringan dan memutuskan"
         },
         {
          "en": "ATS only exists abroad",
@@ -21489,13 +21490,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "The machine organises; a person decides. Most early exits are knockouts and filters, not a robot’s verdict.",
-        "id": "Mesin menata; orang memutuskan. Kebanyakan pintu keluar awal adalah pertanyaan gugur dan saringan, bukan vonis robot."
+        "id": "Mesin memilah, manusia memutuskan. Sebagian besar pelamar tersisih di awal karena pertanyaan gugur dan saringan, bukan karena vonis robot."
        }
       },
       {
        "q": {
         "en": "A friend suggests white-text keywords.",
-        "id": "Seorang teman menyarankan kata kunci teks putih."
+        "id": "Seorang teman menyarankan kata kunci berhuruf putih. Bagaimana tanggapanmu?"
        },
        "options": [
         {
@@ -21504,27 +21505,27 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Don’t: parsed text reveals them and it reads as manipulation",
-         "id": "Jangan: teks yang diurai memperlihatkannya dan itu terbaca sebagai manipulasi"
+         "id": "Jangan: teks hasil urai memperlihatkannya, dan kesannya seperti manipulasi"
         },
         {
          "en": "Only in the footer",
-         "id": "Hanya di kaki halaman"
+         "id": "Boleh, asal di kaki halaman"
         },
         {
          "en": "Only in Bahasa",
-         "id": "Hanya dalam bahasa Indonesia"
+         "id": "Boleh, asal dalam bahasa Indonesia"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The recruiter sees the extracted text, hidden words included.",
-        "id": "Perekrut melihat teks yang diekstrak, termasuk kata tersembunyi."
+        "id": "Perekrut melihat teks hasil urai, termasuk kata-kata yang disembunyikan."
        }
       },
       {
        "q": {
         "en": "Which failure is silent?",
-        "id": "Kegagalan mana yang tanpa suara?"
+        "id": "Kegagalan mana yang terjadi tanpa suara?"
        },
        "options": [
         {
@@ -21533,7 +21534,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "A parsing failure from a complex layout",
-         "id": "Kegagalan penguraian akibat tata letak yang rumit"
+         "id": "Gagal urai karena tata letak yang rumit"
         },
         {
          "en": "A low test score",
@@ -21547,7 +21548,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Nothing tells you the record came out empty; you find out only by testing the file yourself.",
-        "id": "Tidak ada yang memberi tahu bahwa rekamannya keluar kosong; kamu hanya tahu dengan menguji berkasnya sendiri."
+        "id": "Tidak ada yang memberi tahu bahwa datamu terurai kosong. Kamu baru tahu kalau menguji berkasnya sendiri."
        }
       }
      ],
@@ -21560,21 +21561,21 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Open the ATS readiness check and paste your current CV. It runs the plain-text extraction on your device and shows you the record a parser would build; before Lesson 4.2 teaches you to fix it.",
-       "id": "Buka pemeriksaan kesiapan ATS dan tempel CV-mu saat ini. Ia menjalankan ekstraksi teks polos di perangkatmu dan menunjukkan rekaman yang akan dibangun pengurai; sebelum Pelajaran 4.2 mengajarkan cara memperbaikinya."
+       "id": "Buka pemeriksa kesiapan ATS dan tempel CV-mu yang sekarang. Alat ini menjalankan ekstraksi teks polos di perangkatmu dan memperlihatkan data yang akan dibentuk oleh sistem, sebelum Pelajaran 4.2 mengajarimu cara memperbaikinya."
       },
       "cta": {
        "en": "Open the ATS check →",
-       "id": "Buka pemeriksaan ATS →"
+       "id": "Buka pemeriksa ATS →"
       }
      },
      "takeaways": [
       {
        "en": "The machine organises; a person decides.",
-       "id": "Mesin menata; orang memutuskan."
+       "id": "Mesin memilah, manusia memutuskan."
       },
       {
        "en": "Your controllable failures are parsing, coverage and knockouts.",
-       "id": "Kegagalan yang bisa kamu kendalikan adalah penguraian, cakupan, dan pertanyaan gugur."
+       "id": "Kegagalan yang bisa kamu kendalikan: gagal urai, gagal cakupan, dan gugur administrasi."
       },
       {
        "en": "Be suspicious of dramatic ATS statistics without a source.",
@@ -21584,11 +21585,11 @@ window.MT_LMS['the-pack'] = {
      "resources": {
       "title": {
        "en": "Sources for this lesson",
-       "id": "Sumber pelajaran ini"
+       "id": "Sumber untuk pelajaran ini"
       },
       "lead": {
        "en": "Where the claims come from, with the reliability notes from the course evidence register.",
-       "id": "Dari mana klaim-klaim ini berasal, dengan catatan keandalan dari register bukti kursus."
+       "id": "Dari mana klaim-klaim ini berasal, lengkap dengan catatan keandalan dari daftar bukti kursus."
       },
       "items": [
        {
@@ -21604,23 +21605,23 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 2; what the software does; keyword context.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 2, apa yang dilakukan perangkat lunak; konteks kata kunci."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 2: apa yang dikerjakan perangkat lunak; konteks kata kunci."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.3.2, a human decides.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.3.2, manusia yang memutuskan."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.3.2: manusia yang memutuskan."
          },
          {
           "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), ch. 3, 5, the most current account; ATS coverage thin.",
-          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 3, 5, uraian paling mutakhir; cakupan ATS tipis."
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 3, 5: uraian paling mutakhir; bahasan ATS-nya tipis."
          },
          {
           "en": "P. Ow, <i>Tailor Your Call…</i> (2021), the hiring manager’s view of hidden keywords and scattered applications; the poorly sourced rejection statistics are flagged in Ow’s own sources.",
-          "id": "P. Ow, <i>Tailor Your Call…</i> (2021), pandangan manajer perekrut tentang kata kunci tersembunyi dan lamaran tersebar; statistik penolakan yang sumbernya lemah ditandai dalam sumber Ow sendiri."
+          "id": "P. Ow, <i>Tailor Your Call…</i> (2021): pandangan manajer perekrut soal kata kunci tersembunyi dan lamaran yang berserakan; statistik penolakan yang sumbernya lemah ditandai dalam daftar sumber Ow sendiri."
          },
          {
           "en": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2nd ed., 2020), ch. 2, recruiter search logic on LinkedIn.",
-          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (ed. ke-2, 2020), bab 2, logika pencarian perekrut di LinkedIn."
+          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (ed. ke-2, 2020), bab 2: logika pencarian perekrut di LinkedIn."
          }
         ]
        }
@@ -21637,24 +21638,24 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "Parse-Safe Formatting",
-      "id": "Format yang Aman Dibaca Mesin"
+      "id": "Format yang Aman Dibaca Sistem"
      },
      "overview": {
       "en": "A beautifully designed CV can arrive in a recruiter’s system as a jumble of fragments. This lesson gives the formatting rules that keep your CV readable to software, and two tests that prove it.",
-      "id": "CV yang dirancang indah bisa tiba di sistem perekrut sebagai serpihan yang kacau. Pelajaran ini memberi aturan format yang menjaga CV-mu tetap terbaca perangkat lunak, dan dua uji yang membuktikannya."
+      "id": "CV yang didesain cantik bisa sampai di sistem perekrut sebagai potongan-potongan teks yang campur aduk. Pelajaran ini memberimu aturan format yang menjaga CV tetap terbaca oleh perangkat lunak, plus dua uji untuk membuktikannya."
      },
      "objectives": [
       {
        "en": "Apply <b>eight parse-safe formatting rules</b>.",
-       "id": "Menerapkan <b>delapan aturan format aman-urai</b>."
+       "id": "Menerapkan <b>delapan aturan format yang aman dibaca sistem</b>."
       },
       {
        "en": "Choose the right file type for each channel.",
-       "id": "Memilih jenis berkas yang tepat untuk setiap saluran."
+       "id": "Memilih jenis berkas yang tepat untuk setiap jalur lamaran."
       },
       {
        "en": "Run the plain-text test and the portal preview test, and fix what breaks.",
-       "id": "Menjalankan uji teks polos dan uji pratinjau portal, dan memperbaiki yang rusak."
+       "id": "Menjalankan uji teks polos dan uji pratinjau portal, lalu memperbaiki yang rusak."
       }
      ],
      "readFirst": {
@@ -21668,21 +21669,21 @@ window.MT_LMS['the-pack'] = {
         "n": "4.2",
         "title": {
          "en": "Parse-Safe Formatting",
-         "id": "Format yang Aman Dibaca Mesin"
+         "id": "Format yang Aman Dibaca Sistem"
         }
        },
        "story": [
         {
          "en": "Eight rules for a parse-safe CV; none of them is about taste",
-         "id": "Delapan aturan untuk CV yang aman diurai; tak satu pun soal selera"
+         "id": "Delapan aturan agar CV aman dibaca sistem; tidak satu pun soal selera"
         },
         {
          "en": "The file decision: follow the portal’s instruction first; otherwise a text-based PDF, with a clean .docx ready",
-         "id": "Keputusan berkas: ikuti petunjuk portal lebih dulu; jika tidak ada, PDF berbasis teks, dengan .docx bersih yang siap"
+         "id": "Soal berkas: ikuti instruksi portal lebih dulu; kalau tidak ada, pakai PDF berbasis teks, dan siapkan juga .docx yang rapi"
         },
         {
          "en": "Two tests on every version you send: the plain-text test and the portal preview",
-         "id": "Dua uji pada setiap versi yang kamu kirim: uji teks polos dan pratinjau portal"
+         "id": "Dua uji untuk setiap versi yang kamu kirim: uji teks polos dan uji pratinjau portal"
         }
        ],
        "takes": [
@@ -21693,7 +21694,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Export from the source document, never scan a printout; compress, do not photograph.",
-          "id": "Ekspor dari dokumen sumber, jangan pernah pindai hasil cetak; kompres, jangan foto."
+          "id": "Ekspor dari dokumen aslinya, jangan memindai hasil cetakan; kompres, jangan difoto."
          }
         },
         {
@@ -21703,7 +21704,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "If an employer insists on a photo in the CV, place it at the top as a plain inline image; Lesson 3.5 covers whether to include one at all.",
-          "id": "Jika perusahaan bersikeras foto di dalam CV, letakkan di atas sebagai gambar sebaris biasa; Pelajaran 3.5 membahas apakah perlu menyertakannya."
+          "id": "Kalau perusahaan bersikeras foto ada di dalam CV, letakkan di bagian atas sebagai gambar biasa; apakah foto perlu dipasang sudah dibahas di Pelajaran 3.5."
          }
         },
         {
@@ -21713,7 +21714,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "A template change you did not notice can undo a clean result; the tests cost five minutes.",
-          "id": "Perubahan templat yang tak kamu sadari bisa membatalkan hasil yang bersih; ujinya hanya butuh lima menit."
+          "id": "Perubahan templat yang tidak kamu sadari bisa merusak hasil yang tadinya rapi; kedua uji itu hanya butuh lima menit."
          }
         }
        ],
@@ -21722,7 +21723,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Eight rules for a parse-safe CV; none of them is about taste",
-          "id": "Delapan aturan untuk CV yang aman diurai; tak satu pun soal selera"
+          "id": "Delapan aturan agar CV aman dibaca sistem; tidak satu pun soal selera"
          },
          "layout": "grid",
          "items": [
@@ -21732,91 +21733,91 @@ window.MT_LMS['the-pack'] = {
            "id": "Satu kolom",
            "d": {
             "en": "A parser reads top to bottom; two columns interleave your lines.",
-            "id": "Pengurai membaca dari atas ke bawah; dua kolom menyilangkan barismu."
+            "id": "Sistem membaca dari atas ke bawah; dua kolom membuat baris-barismu bercampur."
            }
           },
           {
            "icon": "grid",
            "en": "No tables, boxes, icons or bars holding information",
-           "id": "Tanpa tabel, kotak, ikon, atau bilah yang memuat informasi",
+           "id": "Tanpa tabel, kotak, ikon, atau bilah yang berisi informasi",
            "d": {
             "en": "Skill bars become question marks; a text box pulls text out of order.",
-            "id": "Bilah keterampilan menjadi tanda tanya; kotak teks menarik teks keluar urutan."
+            "id": "Bilah keterampilan berubah menjadi tanda tanya; kotak teks membuat urutan teks berantakan."
            }
           },
           {
            "icon": "tag",
            "en": "Standard headings",
-           "id": "Judul standar",
+           "id": "Judul bagian yang standar",
            "d": {
             "en": "Experience, Education, Skills: the words the fields are named after.",
-            "id": "Pengalaman, Pendidikan, Keterampilan: kata yang menjadi nama kolomnya."
+            "id": "Pengalaman, Pendidikan, Keterampilan: kata-kata yang dipakai sebagai nama kolom data."
            }
           },
           {
            "icon": "doc",
            "en": "Nothing important in headers or footers",
-           "id": "Tak ada yang penting di kepala atau kaki halaman",
+           "id": "Tidak ada yang penting di kepala atau kaki halaman",
            "d": {
             "en": "Contact details in a header may never be parsed.",
-            "id": "Detail kontak di kepala halaman mungkin tak pernah diurai."
+            "id": "Kontak yang ditaruh di kepala halaman bisa tidak terbaca sama sekali."
            }
           },
           {
            "icon": "pen",
            "en": "Standard fonts",
-           "id": "Fon standar",
+           "id": "Jenis huruf standar",
            "d": {
             "en": "One readable font the parser knows, no decorative faces.",
-            "id": "Satu fon terbaca yang dikenal pengurai, tanpa huruf hiasan."
+            "id": "Satu jenis huruf yang mudah dibaca dan dikenal sistem, tanpa huruf hias."
            }
           },
           {
            "icon": "calendar",
            "en": "Consistent dates",
-           "id": "Tanggal konsisten",
+           "id": "Format tanggal seragam",
            "d": {
             "en": "Month and year, the same way, on every entry; years of experience are computed from them.",
-            "id": "Bulan dan tahun, cara yang sama, di setiap entri; tahun pengalaman dihitung darinya."
+            "id": "Bulan dan tahun, dengan cara yang sama, di setiap entri; lama pengalaman dihitung dari situ."
            }
           },
           {
            "icon": "book",
            "en": "Acronyms spelled out once",
-           "id": "Akronim dituliskan sekali",
+           "id": "Kepanjangan akronim ditulis sekali",
            "d": {
             "en": "“Standard Operating Procedure (SOP)”: both forms, once.",
-            "id": "“Standard Operating Procedure (SOP)”: kedua bentuk, sekali."
+            "id": "“Standard Operating Procedure (SOP)”: kedua bentuknya, sekali saja."
            }
           },
           {
            "icon": "eye",
            "en": "Real text, never a scan",
-           "id": "Teks asli, bukan pindaian",
+           "id": "Teks asli, bukan hasil pindaian",
            "d": {
             "en": "A 4 MB “PDF” is almost always a photograph of paper.",
-            "id": "“PDF” 4 MB hampir selalu foto kertas."
+            "id": "“PDF” berukuran 4 MB hampir selalu berupa foto kertas."
            }
           }
          ],
          "sub": {
           "en": "Boring formats win: consolidated from Bright and Earl, Innes, Knowles, Simunovic and Ow.",
-          "id": "Format membosankan menang: dirangkum dari Bright dan Earl, Innes, Knowles, Simunovic, dan Ow."
+          "id": "Format yang membosankan justru menang: dirangkum dari Bright dan Earl, Innes, Knowles, Simunovic, dan Ow."
          },
          "band": {
           "en": "Export from the source document, never scan a printout; compress, do not photograph.",
-          "id": "Ekspor dari dokumen sumber, jangan pernah pindai hasil cetak; kompres, jangan foto."
+          "id": "Ekspor dari dokumen aslinya, jangan memindai hasil cetakan; kompres, jangan difoto."
          },
          "em": {
           "en": "none of them is about taste",
-          "id": "tak satu pun soal selera"
+          "id": "tidak satu pun soal selera"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "The file decision: follow the portal’s instruction first; otherwise a text-based PDF, with a clean .docx ready",
-          "id": "Keputusan berkas: ikuti petunjuk portal lebih dulu; jika tidak ada, PDF berbasis teks, dengan .docx bersih yang siap"
+          "id": "Soal berkas: ikuti instruksi portal lebih dulu; kalau tidak ada, pakai PDF berbasis teks, dan siapkan juga .docx yang rapi"
          },
          "cols": [
           {
@@ -21826,28 +21827,28 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "The file as the parser wants it",
-            "id": "Berkas seperti yang diinginkan pengurai"
+            "id": "Berkas yang sesuai kebutuhan sistem"
            },
            "items": [
             {
              "icon": "doc",
              "en": "Text-based PDF for email and human readers",
-             "id": "PDF berbasis teks untuk surel dan pembaca manusia"
+             "id": "PDF berbasis teks untuk email dan pembaca manusia"
             },
             {
              "icon": "clipboard",
              "en": "A clean .docx ready for portals and agencies that request Word",
-             "id": ".docx bersih siap untuk portal dan agensi yang meminta Word"
+             "id": ".docx yang rapi untuk portal dan agen penyalur yang meminta Word"
             },
             {
              "icon": "bolt",
              "en": "Export from the source; compress to the limit",
-             "id": "Ekspor dari sumber; kompres sampai batas"
+             "id": "Ekspor dari dokumen asli; kompres sampai di bawah batas"
             },
             {
              "icon": "person",
              "en": "A required photo uploaded separately, as the portal asks",
-             "id": "Foto yang diwajibkan diunggah terpisah, seperti permintaan portal"
+             "id": "Foto yang diwajibkan diunggah terpisah, sesuai permintaan portal"
             }
            ],
            "icon": "check"
@@ -21859,13 +21860,13 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "What turns a CV into blanks",
-            "id": "Yang mengubah CV menjadi kekosongan"
+            "id": "Yang membuat CV terbaca kosong"
            },
            "items": [
             {
              "icon": "eye",
              "en": "A scanned printout saved as PDF",
-             "id": "Hasil cetak yang dipindai dan disimpan sebagai PDF"
+             "id": "Hasil cetakan yang dipindai lalu disimpan sebagai PDF"
             },
             {
              "icon": "grid",
@@ -21875,7 +21876,7 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "warn",
              "en": "A file over the stated limit, or in a format the portal did not ask for",
-             "id": "Berkas melebihi batas, atau dalam format yang tidak diminta portal"
+             "id": "Berkas melebihi batas, atau formatnya tidak sesuai permintaan portal"
             },
             {
              "icon": "refresh",
@@ -21891,22 +21892,22 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "The books disagree; this resolves it. Respect stated size limits, often 500 KB to 2 MB (verify per portal).",
-          "id": "Buku-buku berbeda pendapat; ini menyelesaikannya. Hormati batas ukuran yang dinyatakan, sering 500 KB sampai 2 MB (verifikasi per portal)."
+          "id": "Buku-buku tidak sepakat; inilah jalan tengahnya. Patuhi batas ukuran yang tertera, biasanya 500 KB sampai 2 MB (cek di tiap portal)."
          },
          "band": {
           "en": "If an employer insists on a photo in the CV, place it at the top as a plain inline image; Lesson 3.5 covers whether to include one at all.",
-          "id": "Jika perusahaan bersikeras foto di dalam CV, letakkan di atas sebagai gambar sebaris biasa; Pelajaran 3.5 membahas apakah perlu menyertakannya."
+          "id": "Kalau perusahaan bersikeras foto ada di dalam CV, letakkan di bagian atas sebagai gambar biasa; apakah foto perlu dipasang sudah dibahas di Pelajaran 3.5."
          },
          "em": {
           "en": "follow the portal’s instruction first",
-          "id": "ikuti petunjuk portal lebih dulu"
+          "id": "ikuti instruksi portal lebih dulu"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Two tests on every version you send: the plain-text test and the portal preview",
-          "id": "Dua uji pada setiap versi yang kamu kirim: uji teks polos dan pratinjau portal"
+          "id": "Dua uji untuk setiap versi yang kamu kirim: uji teks polos dan uji pratinjau portal"
          },
          "cols": [
           {
@@ -21916,7 +21917,7 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "Paste the CV as plain text; whatever breaks here breaks in a parser",
-            "id": "Tempel CV sebagai teks polos; apa pun yang rusak di sini rusak di pengurai"
+            "id": "Tempel CV sebagai teks polos; apa pun yang rusak di sini juga rusak di sistem"
            },
            "items": [
             {
@@ -21927,17 +21928,17 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "steps",
              "en": "In the right order?",
-             "id": "Dalam urutan yang benar?"
+             "id": "Urutannya benar?"
             },
             {
              "icon": "calendar",
              "en": "Are dates next to the right roles?",
-             "id": "Apakah tanggal di samping peran yang tepat?"
+             "id": "Apakah tanggal berada di samping peran yang tepat?"
             },
             {
              "icon": "warn",
              "en": "Any garbled characters, bullets turned to question marks, symbols where the skill bars were?",
-             "id": "Ada karakter kacau, butir jadi tanda tanya, simbol di tempat bilah keterampilan?"
+             "id": "Adakah karakter yang kacau, poin yang berubah jadi tanda tanya, simbol di tempat bilah keterampilan?"
             }
            ],
            "icon": "doc"
@@ -21949,28 +21950,28 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "Read the fields the portal extracted, and correct them",
-            "id": "Baca kolom yang diekstrak portal, dan koreksi"
+            "id": "Baca isian yang diambil portal, lalu betulkan"
            },
            "items": [
             {
              "icon": "tag",
              "en": "Did your job title land in “company”?",
-             "id": "Apakah jabatanmu masuk ke “perusahaan”?"
+             "id": "Apakah jabatanmu masuk ke kolom “perusahaan”?"
             },
             {
              "icon": "cap",
              "en": "Is your GPA missing?",
-             "id": "Apakah IPK-mu hilang?"
+             "id": "Apakah IPK-mu tidak muncul?"
             },
             {
              "icon": "pen",
              "en": "Fix the source document, then correct the fields by hand before submitting",
-             "id": "Perbaiki dokumen sumber, lalu koreksi kolomnya dengan tangan sebelum mengirim"
+             "id": "Perbaiki dokumen aslinya, lalu betulkan isiannya secara manual sebelum mengirim"
             },
             {
              "icon": "refresh",
              "en": "Repeat after any template change",
-             "id": "Ulangi setelah perubahan templat apa pun"
+             "id": "Ulangi setiap kali templat diubah"
             }
            ],
            "icon": "eye"
@@ -21981,15 +21982,15 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "The preview is the only moment the machine shows you what it saw; most applicants click past it.",
-          "id": "Pratinjau adalah satu-satunya saat mesin menunjukkan apa yang dilihatnya; kebanyakan pelamar melewatinya."
+          "id": "Pratinjau adalah satu-satunya saat mesin memperlihatkan apa yang ia tangkap; kebanyakan pelamar melewatinya begitu saja."
          },
          "band": {
           "en": "A template change you did not notice can undo a clean result; the tests cost five minutes.",
-          "id": "Perubahan templat yang tak kamu sadari bisa membatalkan hasil yang bersih; ujinya hanya butuh lima menit."
+          "id": "Perubahan templat yang tidak kamu sadari bisa merusak hasil yang tadinya rapi; kedua uji itu hanya butuh lima menit."
          },
          "em": {
           "en": "on every version you send",
-          "id": "pada setiap versi yang kamu kirim"
+          "id": "untuk setiap versi yang kamu kirim"
          }
         }
        ],
@@ -22004,11 +22005,11 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Boring formats win",
-       "id": "Format yang membosankan menang"
+       "id": "Format yang membosankan justru menang"
       },
       "intro": {
        "en": "Eight rules, one file decision, two tests. None of it is about taste.",
-       "id": "Delapan aturan, satu keputusan berkas, dua uji. Tidak satu pun soal selera."
+       "id": "Delapan aturan, satu keputusan soal berkas, dua uji. Tidak satu pun soal selera."
       },
       "slides": [
        {
@@ -22019,11 +22020,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Single column · no tables, boxes, icons or bars holding information · standard headings · nothing important in headers or footers.",
-          "id": "Satu kolom · tanpa tabel, kotak, ikon, atau bilah yang memuat informasi · judul standar · tidak ada yang penting di kepala atau kaki halaman."
+          "id": "Satu kolom · tanpa tabel, kotak, ikon, atau bilah yang berisi informasi · judul bagian yang standar · tidak ada yang penting di kepala atau kaki halaman."
          },
          {
           "en": "Standard fonts · consistent dates · acronyms spelled out once · real text, never a scan.",
-          "id": "Fon standar · tanggal konsisten · akronim dituliskan kepanjangannya sekali · teks asli, tidak pernah pindaian."
+          "id": "Jenis huruf standar · format tanggal seragam · kepanjangan akronim ditulis sekali · teks asli, bukan hasil pindaian."
          }
         ]
        },
@@ -22035,11 +22036,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Follow the portal’s instruction first. Otherwise a text-based PDF, with a clean .docx ready.",
-          "id": "Ikuti petunjuk portal lebih dulu. Jika tidak ada, PDF berbasis teks, dengan .docx bersih yang siap."
+          "id": "Ikuti instruksi portal lebih dulu. Kalau tidak ada, pakai PDF berbasis teks, dan siapkan juga versi .docx yang rapi."
          },
          {
           "en": "Respect size limits: compress, do not scan.",
-          "id": "Hormati batas ukuran: kompres, jangan pindai."
+          "id": "Patuhi batas ukuran berkas: kompres, jangan dipindai."
          }
         ]
        },
@@ -22051,11 +22052,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "<b>Plain-text test</b>: paste the CV as plain text; whatever breaks here breaks in a parser.",
-          "id": "<b>Uji teks polos</b>: tempel CV sebagai teks polos; apa pun yang rusak di sini rusak di pengurai."
+          "id": "<b>Uji teks polos</b>: tempel CV sebagai teks polos. Apa pun yang rusak di sini juga akan rusak di sistem."
          },
          {
           "en": "<b>Portal preview test</b>: read the fields the portal extracted, and correct them.",
-          "id": "<b>Uji pratinjau portal</b>: baca kolom yang diekstrak portal, dan koreksi."
+          "id": "<b>Uji pratinjau portal</b>: baca isian yang berhasil diambil portal, lalu betulkan."
          }
         ]
        }
@@ -22079,42 +22080,42 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "<b>No tables, text boxes, shapes, icons, skill bars or images</b> holding information.",
-         "id": "<b>Tanpa tabel, kotak teks, bentuk, ikon, bilah keterampilan, atau gambar</b> yang memuat informasi."
+         "id": "<b>Tanpa tabel, kotak teks, bentuk, ikon, bilah keterampilan, atau gambar</b> yang berisi informasi."
         },
         {
          "en": "<b>Standard section headings</b>, Education, Experience, Skills, not creative labels (“My Journey”).",
-         "id": "<b>Judul bagian standar</b>, Pendidikan, Pengalaman, Keterampilan, bukan label kreatif (“Perjalananku”)."
+         "id": "<b>Judul bagian yang standar</b>: Pendidikan, Pengalaman, Keterampilan, bukan label kreatif seperti “Perjalananku”."
         },
         {
          "en": "<b>Nothing important in headers or footers</b>: many systems skip them. Put contact details in the body.",
-         "id": "<b>Tidak ada yang penting di kepala atau kaki halaman</b>: banyak sistem melewatinya. Taruh kontak di badan dokumen."
+         "id": "<b>Tidak ada yang penting di kepala atau kaki halaman</b>: banyak sistem melewatkannya. Taruh kontakmu di badan dokumen."
         },
         {
          "en": "<b>Standard fonts</b> (Calibri, Arial, Garamond, Cambria, Times), 10.5–12 pt.",
-         "id": "<b>Fon standar</b> (Calibri, Arial, Garamond, Cambria, Times), 10,5–12 pt."
+         "id": "<b>Jenis huruf standar</b> (Calibri, Arial, Garamond, Cambria, Times), 10,5–12 pt."
         },
         {
          "en": "<b>Consistent dates</b>: “Aug 2025 – Oct 2025” style throughout; systems compute experience from dates <i>(Dumas, The AI-Savvy Job Seeker, ch. 8)</i>.",
-         "id": "<b>Tanggal konsisten</b>: gaya “Agu 2025 – Okt 2025” di seluruh dokumen; sistem menghitung pengalaman dari tanggal <i>(Dumas, The AI-Savvy Job Seeker, bab 8)</i>."
+         "id": "<b>Format tanggal yang seragam</b>: gaya “Agu 2025 – Okt 2025” dari awal sampai akhir, karena sistem menghitung lama pengalaman dari tanggal <i>(Dumas, The AI-Savvy Job Seeker, bab 8)</i>."
         },
         {
          "en": "<b>Spell out acronyms once</b>: “Management Trainee (MT)”, “Microsoft Excel”.",
-         "id": "<b>Tuliskan kepanjangan akronim sekali</b>: “Management Trainee (MT)”, “Microsoft Excel”."
+         "id": "<b>Tulis kepanjangan akronim sekali</b>: “Management Trainee (MT)”, “Microsoft Excel”."
         },
         {
          "en": "<b>Real text</b>: never a scanned or photographed CV.",
-         "id": "<b>Teks asli</b>: tidak pernah CV hasil pindaian atau foto."
+         "id": "<b>Teks asli</b>: jangan pernah memakai CV hasil pindaian atau foto."
         }
        ],
        "after": [
         {
          "en": "The Module 3 template already follows all eight. If you built your CV somewhere else, run the rules as a checklist before the tests below.",
-         "id": "Templat Modul 3 sudah mengikuti kedelapannya. Jika kamu membangun CV di tempat lain, jalankan aturan ini sebagai daftar periksa sebelum uji di bawah."
+         "id": "Templat dari Modul 3 sudah memenuhi kedelapan aturan ini. Kalau CV-mu dibuat di tempat lain, pakai aturan ini sebagai daftar periksa sebelum menjalankan dua uji di bawah."
         }
        ],
        "key": {
         "en": "Eight rules for a parse-safe CV, and none of them is about taste: single column, standard headings, real text.",
-        "id": "Delapan aturan untuk CV yang aman diurai, dan tak satu pun soal selera: satu kolom, judul baku, teks asli."
+        "id": "Delapan aturan agar CV aman dibaca sistem, dan tidak satu pun soal selera: satu kolom, judul standar, teks asli."
        }
       },
       {
@@ -22125,26 +22126,26 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Follow the portal’s instruction first. If none: a <b>text-based PDF</b> for email and human readers; keep a clean <b>.docx</b> ready for portals and agencies that request Word <i>(Bright &amp; Earl, ch. 9, 17; Innes, ch. 2. The books disagree; this resolves it)</i>. Respect stated file-size limits. Often 500 KB to 2 MB on portals <span class=\"ev ev-verify\">Verify per portal</span>, by exporting from the source document, never by scanning a printout. A 4 MB “PDF” is almost always a photograph of paper.",
-        "id": "Ikuti petunjuk portal lebih dulu. Jika tidak ada: <b>PDF berbasis teks</b> untuk email dan pembaca manusia; siapkan <b>.docx</b> yang bersih untuk portal dan agen yang meminta Word <i>(Bright &amp; Earl, bab 9, 17; Innes, bab 2. Buku-buku tidak sepakat; ini penyelesaiannya)</i>. Hormati batas ukuran berkas yang disebutkan. Sering 500 KB sampai 2 MB di portal <span class=\"ev ev-verify\">Periksa per portal</span>, dengan mengekspor dari dokumen sumber, jangan pernah dengan memindai hasil cetak. “PDF” 4 MB hampir selalu foto kertas."
+        "id": "Ikuti instruksi portal lebih dulu. Kalau tidak ada instruksi: <b>PDF berbasis teks</b> untuk email dan pembaca manusia, dan siapkan <b>.docx</b> yang rapi untuk portal dan agen penyalur yang meminta Word <i>(Bright &amp; Earl, bab 9, 17; Innes, bab 2. Buku-buku tidak sepakat; inilah jalan tengahnya)</i>. Patuhi batas ukuran berkas yang tertera, biasanya 500 KB sampai 2 MB di portal <span class=\"ev ev-verify\">Cek di tiap portal</span>, dengan cara mengekspor dari dokumen aslinya, bukan memindai hasil cetakan. “PDF” berukuran 4 MB hampir selalu berupa foto kertas."
        },
        "key": {
         "en": "Follow the portal’s instruction first; otherwise a text-based PDF, with a clean Word version ready, under the stated size limit.",
-        "id": "Ikuti instruksi portal lebih dulu; jika tidak ada, PDF berbasis teks, dengan versi Word yang rapi siap sedia, di bawah batas ukuran yang disebut."
+        "id": "Ikuti instruksi portal lebih dulu. Kalau tidak ada, pakai PDF berbasis teks dan siapkan versi Word yang rapi, di bawah batas ukuran yang tertera."
        }
       },
       {
        "icon": "eye",
        "h": {
         "en": "If a photo is required",
-        "id": "Jika foto diwajibkan"
+        "id": "Kalau foto diwajibkan"
        },
        "body": {
         "en": "Many portals require a photo as a <i>separate upload</i>. Upload it there, not inside the CV. If an employer insists on a photo in the CV itself, place it at the top as a plain inline image. Never inside a text box or table, which would pull the surrounding text out of order. Lesson 3.5 covers when to include one at all.",
-        "id": "Banyak portal mewajibkan foto sebagai <i>unggahan terpisah</i>. Unggah di sana, bukan di dalam CV. Jika perusahaan bersikeras foto ada di CV itu sendiri, letakkan di atas sebagai gambar sebaris biasa. Jangan pernah di dalam kotak teks atau tabel, yang akan menarik teks di sekitarnya keluar dari urutan. Pelajaran 3.5 membahas kapan foto perlu disertakan sama sekali."
+        "id": "Banyak portal meminta foto sebagai <i>unggahan terpisah</i>. Unggah di sana, bukan di dalam CV. Kalau perusahaan bersikeras foto ada di dalam CV, letakkan di bagian atas sebagai gambar biasa yang menyatu dengan teks. Jangan pernah di dalam kotak teks atau tabel, karena teks di sekitarnya akan ikut terbaca tidak berurutan. Kapan foto perlu dipasang sudah dibahas di Pelajaran 3.5."
        },
        "key": {
         "en": "A required photo goes in the portal’s own upload field, never inside a text box or table in the CV.",
-        "id": "Foto yang diwajibkan masuk ke kolom unggah portal, jangan pernah di dalam kotak teks atau tabel di CV."
+        "id": "Foto yang diwajibkan diunggah di kolom unggahan portal, jangan pernah di dalam kotak teks atau tabel di CV."
        }
       },
       {
@@ -22155,11 +22156,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Save or paste your CV as plain text <i>(Ow)</i>. Check four things: is everything there? In the right order? Are dates next to the right roles? Are any characters garbled, bullets turned into question marks, symbols where the skill bars were? Whatever breaks here will break in a parser. Do this on every version you send, because a template change you did not notice can undo a clean result.",
-        "id": "Simpan atau tempel CV-mu sebagai teks polos <i>(Ow)</i>. Periksa empat hal: apakah semuanya ada? Dalam urutan yang benar? Apakah tanggal berada di samping peran yang tepat? Adakah karakter yang kacau. Butir berubah jadi tanda tanya, simbol di tempat bilah keterampilan? Apa pun yang rusak di sini akan rusak di pengurai. Lakukan pada setiap versi yang kamu kirim, karena perubahan templat yang tidak kamu sadari bisa membatalkan hasil yang bersih."
+        "id": "Simpan atau tempel CV-mu sebagai teks polos <i>(Ow)</i>. Periksa empat hal: apakah semuanya ada? Urutannya benar? Tanggal berada di samping peran yang tepat? Adakah karakter yang kacau, misalnya poin berubah menjadi tanda tanya, atau simbol aneh di tempat bilah keterampilan? Apa pun yang rusak di sini akan rusak juga di sistem. Lakukan untuk setiap versi yang kamu kirim, karena perubahan templat yang tidak kamu sadari bisa merusak hasil yang tadinya rapi."
        },
        "key": {
         "en": "Paste the CV as plain text: whatever breaks there breaks in a parser. Do it on every version you send.",
-        "id": "Tempel CV sebagai teks polos: apa pun yang rusak di sana akan rusak di pengurai. Lakukan pada setiap versi yang kamu kirim."
+        "id": "Tempel CV sebagai teks polos: apa pun yang rusak di sana juga rusak di sistem. Lakukan untuk setiap versi yang kamu kirim."
        }
       },
       {
@@ -22170,11 +22171,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Many portals show you the fields they extracted after upload. Read them. If your job title landed in “company”, or your GPA (grade point average) is missing, fix the source document, and correct the fields by hand before submitting. The preview is the only moment the machine shows you what it saw; most applicants click past it.",
-        "id": "Banyak portal menampilkan kolom yang mereka ekstrak setelah unggah. Bacalah. Jika jabatanmu masuk ke “perusahaan”, atau IPK-mu hilang, perbaiki dokumen sumbernya, dan koreksi kolomnya secara manual sebelum mengirim. Pratinjau adalah satu-satunya momen mesin menunjukkan apa yang dilihatnya; kebanyakan pelamar mengeklik lewat begitu saja."
+        "id": "Banyak portal menampilkan isian yang berhasil diambil setelah kamu mengunggah. Bacalah. Kalau jabatanmu masuk ke kolom “perusahaan”, atau IPK-mu tidak muncul, perbaiki dokumen aslinya, lalu betulkan isiannya secara manual sebelum mengirim. Pratinjau adalah satu-satunya saat mesin memperlihatkan apa yang ia tangkap, dan kebanyakan pelamar melewatinya begitu saja."
        },
        "key": {
         "en": "The portal preview is the only moment the machine shows you what it saw; read it and correct the fields by hand.",
-        "id": "Pratinjau portal adalah satu-satunya saat mesin memperlihatkan apa yang dibacanya; baca dan perbaiki kolomnya dengan tangan."
+        "id": "Pratinjau portal adalah satu-satunya saat mesin memperlihatkan apa yang ia tangkap. Baca, lalu betulkan isiannya secara manual."
        }
       }
      ],
@@ -22182,11 +22183,11 @@ window.MT_LMS['the-pack'] = {
       "type": "pair",
       "exhibit": {
        "en": "Exhibit 12: Same CV, two extractions",
-       "id": "Peraga 12: CV yang sama, dua ekstraksi"
+       "id": "Peraga 12: CV yang sama, dua hasil ekstraksi"
       },
       "title": {
        "en": "What the parser built from each layout",
-       "id": "Apa yang dibangun pengurai dari tiap tata letak"
+       "id": "Apa yang dibentuk sistem dari tiap tata letak"
       },
       "cols": [
        {
@@ -22196,7 +22197,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Left and right columns interleaved line by line",
-         "id": "Kolom kiri dan kanan tersilang baris demi baris"
+         "id": "Kolom kiri dan kanan terbaca bergantian, baris demi baris"
         },
         "items": [
          {
@@ -22228,11 +22229,11 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Single-column rebuild",
-         "id": "Bangunan ulang satu kolom"
+         "id": "Hasil bangun ulang satu kolom"
         },
         "sub": {
          "en": "Every field lands where it belongs",
-         "id": "Setiap kolom mendarat di tempatnya"
+         "id": "Setiap isian jatuh di tempat yang benar"
         },
         "items": [
          {
@@ -22264,18 +22265,18 @@ window.MT_LMS['the-pack'] = {
       ],
       "note": {
        "en": "Same person, same facts. One is a readable record; the other is noise.",
-       "id": "Orang yang sama, fakta yang sama. Yang satu rekaman terbaca; yang lain derau."
+       "id": "Orangnya sama, faktanya sama. Yang satu menjadi data yang bisa dibaca, yang lain hanya kebisingan."
       },
       "longdesc": {
        "en": "Two columns comparing what a parser extracted. From the two-column template: the name merged with a skill label, education holding skill-bar symbols, a job title mixing two employers, dates detached from roles, an empty skills field and a missing GPA. From the single-column rebuild: the correct name, degree with GPA and date, the right title and employer, attached dates, a populated skills field and GPA.",
-       "id": "Dua kolom membandingkan apa yang diekstrak pengurai. Dari templat dua kolom: nama bergabung dengan label keterampilan, pendidikan memuat simbol bilah keterampilan, jabatan mencampur dua perusahaan, tanggal terlepas dari peran, kolom keterampilan kosong, dan IPK hilang. Dari bangunan ulang satu kolom: nama yang benar, gelar dengan IPK dan tanggal, jabatan dan perusahaan yang tepat, tanggal yang melekat, kolom keterampilan terisi, dan IPK."
+       "id": "Dua kolom yang membandingkan hasil ekstraksi sistem. Dari templat dua kolom: nama tergabung dengan label keterampilan, kolom pendidikan berisi simbol bilah keterampilan, jabatan mencampur dua tempat kerja, tanggal terlepas dari perannya, kolom keterampilan kosong, dan IPK hilang. Dari hasil bangun ulang satu kolom: nama yang benar, gelar dengan IPK dan tanggal, jabatan dan tempat kerja yang tepat, tanggal yang menempel pada perannya, kolom keterampilan terisi, dan IPK tercantum."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Canva vs rebuilt, as plain text",
-        "id": "Canva vs bangunan ulang, sebagai teks polos"
+        "id": "Canva vs hasil bangun ulang, sebagai teks polos"
        },
        "q": {
         "en": "Nadia’s two CVs pasted into a plain-text editor.",
@@ -22283,15 +22284,15 @@ window.MT_LMS['the-pack'] = {
        },
        "weak": {
         "en": "“NADIA PUTRI Communication ●●●●○ Leadership ●●●○○ Bank Sinar Kopi 2025 2023–2025 Tepian Magang Barista Semarang…”, columns interleaved, skill bars as symbols, dates detached.",
-        "id": "“NADIA PUTRI Communication ●●●●○ Leadership ●●●○○ Bank Sinar Kopi 2025 2023–2025 Tepian Magang Barista Semarang…”, kolom tersilang, bilah keterampilan jadi simbol, tanggal terlepas."
+        "id": "“NADIA PUTRI Communication ●●●●○ Leadership ●●●○○ Bank Sinar Kopi 2025 2023–2025 Tepian Magang Barista Semarang…”: isi kolom bercampur, bilah keterampilan jadi simbol, tanggal terlepas."
        },
        "strong": {
         "en": "“Nadia Putri · Semarang · open to relocation … EXPERIENCE · Operations Intern, Bank Sinar Nusantara, Semarang · Jun 2025 – Aug 2025 · Reconciled daily transaction reports for 3 branches…”",
-        "id": "“Nadia Putri · Semarang · bersedia pindah … PENGALAMAN · Operations Intern, Bank Sinar Nusantara, Semarang · Jun 2025 – Agu 2025 · Merekonsiliasi laporan transaksi harian untuk 3 cabang…”"
+        "id": "“Nadia Putri · Semarang · bersedia ditempatkan di luar kota … PENGALAMAN · Operations Intern, Bank Sinar Nusantara, Semarang · Jun 2025 – Agu 2025 · Merekonsiliasi laporan transaksi harian 3 cabang…”"
        },
        "why": {
         "en": "The test takes thirty seconds and shows exactly what the recruiter’s system will hold. The rebuilt version reads in order, dates beside roles, every symbol gone.",
-        "id": "Ujinya memakan tiga puluh detik dan menunjukkan persis apa yang akan dipegang sistem perekrut. Versi yang dibangun ulang terbaca berurutan, tanggal di samping peran, setiap simbol hilang."
+        "id": "Ujinya hanya tiga puluh detik dan memperlihatkan persis apa yang akan tersimpan di sistem perekrut. Versi hasil bangun ulang terbaca berurutan, tanggal berada di samping perannya, dan semua simbol hilang."
        }
       }
      ],
@@ -22299,16 +22300,16 @@ window.MT_LMS['the-pack'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: the preview nobody reads",
-       "id": "Sorotan: pratinjau yang tidak dibaca siapa pun"
+       "id": "Sorotan: pratinjau yang tidak pernah dibaca"
       },
       "body": [
        {
         "en": "Bank Sinar Nusantara’s officer programme portal shows a confirmation page after the CV upload: “We extracted the following. Please check.” Education: “bachelor’s degree”. Institution: blank. Most recent employer: “Kopi Tepian Magang”. GPA: blank. Raka, applying at the same time as Nadia, clicks Next without reading. His application enters the pipeline with no institution and no GPA, and fails the administrative filter for a missing GPA that is, in fact, 3,45.",
-        "id": "Portal ODP Bank Sinar Nusantara menampilkan halaman konfirmasi setelah unggah CV: “Kami mengekstrak hal berikut. Mohon periksa.” Pendidikan: “S1”. Institusi: kosong. Perusahaan terbaru: “Kopi Tepian Magang”. IPK: kosong. Raka, yang melamar bersamaan dengan Nadia, mengeklik Lanjut tanpa membaca. Lamarannya masuk alur tanpa institusi dan tanpa IPK, dan gagal saringan administrasi karena IPK yang hilang padahal sebenarnya 3,45."
+        "id": "Setelah CV diunggah, portal ODP Bank Sinar Nusantara menampilkan halaman konfirmasi: “Kami mengambil data berikut. Mohon diperiksa.” Pendidikan: “S1”. Institusi: kosong. Tempat kerja terakhir: “Kopi Tepian Magang”. IPK: kosong. Raka, yang melamar di waktu yang sama dengan Nadia, langsung mengeklik Lanjut tanpa membaca. Lamarannya masuk ke sistem tanpa nama kampus dan tanpa IPK, lalu gugur di saringan administrasi karena IPK tidak ada, padahal IPK-nya 3,45."
        },
        {
         "en": "Nadia reads the page. She types the institution and the GPA into the fields by hand, then goes back to her source document, finds the table she had used for the education block, removes it, and re-exports. The second upload extracts cleanly. Same portal, same afternoon, two outcomes, decided by whether one page was read.",
-        "id": "Nadia membaca halaman itu. Ia mengetik institusi dan IPK ke kolom secara manual, lalu kembali ke dokumen sumbernya, menemukan tabel yang ia pakai untuk blok pendidikan, menghapusnya, dan mengekspor ulang. Unggahan kedua terekstrak bersih. Portal yang sama, sore yang sama, dua hasil, ditentukan oleh apakah satu halaman dibaca."
+        "id": "Nadia membaca halaman itu. Ia mengetik nama kampus dan IPK-nya secara manual, lalu kembali ke dokumen aslinya, menemukan tabel yang ia pakai di bagian pendidikan, menghapusnya, dan mengekspor ulang. Unggahan kedua terbaca dengan rapi. Portalnya sama, sorenya sama, hasilnya berbeda, dan semua ditentukan oleh satu halaman yang dibaca atau dilewatkan."
        }
       ]
      },
@@ -22320,25 +22321,25 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Paste your current CV as plain text (a notes app, or the ATS (applicant tracking system) check in the Gym) and list every break: missing content, wrong order, detached dates, garbled characters.",
-        "id": "Tempel CV-mu saat ini sebagai teks polos (aplikasi catatan, atau pemeriksaan ATS (sistem pelacak lamaran) di Gym) dan daftar setiap kerusakan: isi hilang, urutan salah, tanggal terlepas, karakter kacau."
+        "id": "Tempel CV-mu yang sekarang sebagai teks polos (di aplikasi catatan, atau di pemeriksa ATS (sistem pelacak lamaran) di Gym), lalu catat setiap kerusakan: isi yang hilang, urutan yang salah, tanggal yang terlepas, karakter yang kacau."
        },
        "debrief": {
         "en": "Columns and icons cause most failures; tables come next, then contact details in a header that vanished. If your list is empty, check the dates: “2023–2025” with no months is readable but tells the system less than “Aug 2023 – Oct 2025”.",
-        "id": "Kolom dan ikon menyebabkan sebagian besar kegagalan; tabel berikutnya, lalu kontak di kepala halaman yang lenyap. Jika daftarmu kosong, periksa tanggalnya: “2023–2025” tanpa bulan terbaca tetapi memberi tahu sistem lebih sedikit daripada “Agu 2023 – Okt 2025”."
+        "id": "Kolom ganda dan ikon menjadi penyebab kegagalan paling sering, disusul tabel, lalu kontak di kepala halaman yang ikut hilang. Kalau catatanmu kosong, periksa tanggalnya: “2023–2025” tanpa bulan memang terbaca, tetapi memberi sistem informasi lebih sedikit daripada “Agu 2023 – Okt 2025”."
        }
       },
       {
        "h": {
         "en": "Drill 2: Fix and retest",
-        "id": "Latihan 2: Perbaiki dan uji ulang"
+        "id": "Latihan 2: Perbaiki dan uji lagi"
        },
        "body": {
         "en": "Rebuild in the single-column template (Module 3), or remove the offending elements from your own, and run the plain-text test again.",
-        "id": "Bangun ulang di templat satu kolom (Modul 3), atau hapus unsur yang bermasalah dari milikmu, dan jalankan uji teks polos lagi."
+        "id": "Susun ulang di templat satu kolom (Modul 3), atau buang elemen yang bermasalah dari templatmu sendiri, lalu jalankan uji teks polos sekali lagi."
        },
        "debrief": {
         "en": "You should see every section in order with dates attached. Export the PDF and check its size against the smallest limit you expect to meet; if it is over 1 MB, an embedded image is usually the cause.",
-        "id": "Kamu seharusnya melihat setiap bagian berurutan dengan tanggal melekat. Ekspor PDF-nya dan periksa ukurannya dengan batas terkecil yang mungkin kamu temui; jika lebih dari 1 MB, gambar tersemat biasanya penyebabnya."
+        "id": "Seharusnya semua bagian kini tampil berurutan dengan tanggal yang menempel pada perannya. Ekspor PDF-nya, lalu cocokkan ukurannya dengan batas terkecil yang mungkin kamu temui. Kalau lebih dari 1 MB, penyebabnya biasanya gambar yang tertanam."
        }
       }
      ],
@@ -22351,7 +22352,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Single column.",
-         "id": "Satu kolom."
+         "id": "Pakai satu kolom."
         }
        },
        {
@@ -22361,27 +22362,27 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "In the body.",
-         "id": "Di badan dokumen."
+         "id": "Pindahkan ke badan dokumen."
         }
        },
        {
         "h": {
          "en": "Scanned PDF",
-         "id": "PDF pindaian"
+         "id": "PDF hasil pindaian"
         },
         "fix": {
          "en": "Text-based PDF exported from the source document.",
-         "id": "PDF berbasis teks yang diekspor dari dokumen sumber."
+         "id": "PDF berbasis teks yang diekspor dari dokumen aslinya."
         }
        },
        {
         "h": {
          "en": "Photo in a text box",
-         "id": "Foto di kotak teks"
+         "id": "Foto di dalam kotak teks"
         },
         "fix": {
          "en": "Separate upload; if it must be in the CV, a plain inline image at the top.",
-         "id": "Unggahan terpisah; jika harus di CV, gambar sebaris biasa di atas."
+         "id": "Unggah terpisah. Kalau harus ada di CV, pasang sebagai gambar biasa di bagian atas."
         }
        }
       ]
@@ -22390,11 +22391,11 @@ window.MT_LMS['the-pack'] = {
       {
        "term": {
         "en": "Parse-safe",
-        "id": "Aman-urai"
+        "id": "Aman dibaca sistem"
        },
        "def": {
         "en": "A layout the software can read into the right fields in the right order.",
-        "id": "Tata letak yang bisa dibaca perangkat lunak ke kolom yang benar dalam urutan yang benar."
+        "id": "Tata letak yang bisa dibaca perangkat lunak ke kolom yang tepat, dengan urutan yang benar."
        }
       },
       {
@@ -22404,7 +22405,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A PDF exported from a document, whose text can be selected and searched; unlike a scan.",
-        "id": "PDF yang diekspor dari dokumen, yang teksnya bisa dipilih dan dicari; berbeda dari pindaian."
+        "id": "PDF yang diekspor dari dokumen, sehingga teksnya bisa dipilih dan dicari; berbeda dengan hasil pindaian."
        }
       },
       {
@@ -22414,7 +22415,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Pasting the CV as unformatted text to see what a parser will extract.",
-        "id": "Menempel CV sebagai teks tanpa format untuk melihat apa yang akan diekstrak pengurai."
+        "id": "Menempel CV sebagai teks tanpa format untuk melihat apa yang akan diambil sistem."
        }
       },
       {
@@ -22424,7 +22425,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The page after upload where a portal shows the fields it extracted.",
-        "id": "Halaman setelah unggah tempat portal menampilkan kolom yang diekstraknya."
+        "id": "Halaman setelah unggah tempat portal menampilkan isian yang berhasil diambilnya."
        }
       }
      ],
@@ -22449,19 +22450,19 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "A table grid",
-         "id": "Kisi tabel"
+         "id": "Kisi-kisi tabel"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Everything a parser needs, in the order it expects, with nothing to misread.",
-        "id": "Semua yang dibutuhkan pengurai, dalam urutan yang diharapkannya, tanpa ada yang salah baca."
+        "id": "Semua yang dibutuhkan sistem ada, dalam urutan yang ia harapkan, tanpa ada yang bisa salah dibaca."
        }
       },
       {
        "q": {
         "en": "A portal asks for “CV (PDF, max 1 MB)”. Your PDF is 4 MB because it was scanned.",
-        "id": "Portal meminta “CV (PDF, maks 1 MB)”. PDF-mu 4 MB karena dipindai."
+        "id": "Portal meminta “CV (PDF, maks. 1 MB)”. PDF-mu berukuran 4 MB karena hasil pindaian. Apa yang kamu lakukan?"
        },
        "options": [
         {
@@ -22470,7 +22471,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Export a text-based PDF from the source document",
-         "id": "Ekspor PDF berbasis teks dari dokumen sumber"
+         "id": "Ekspor PDF berbasis teks dari dokumen aslinya"
         },
         {
          "en": "Split it into two files",
@@ -22484,13 +22485,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "A scan is an image: unreadable to the parser and oversized. The source document exports small and searchable.",
-        "id": "Pindaian adalah gambar: tak terbaca pengurai dan terlalu besar. Dokumen sumber diekspor kecil dan bisa dicari."
+        "id": "Hasil pindaian adalah gambar: tidak terbaca sistem dan ukurannya terlalu besar. Dokumen asli menghasilkan berkas yang kecil dan bisa dicari."
        }
       },
       {
        "q": {
         "en": "After upload, the portal shows your job title in the “Company” field.",
-        "id": "Setelah unggah, portal menampilkan jabatanmu di kolom “Perusahaan”."
+        "id": "Setelah diunggah, portal menampilkan jabatanmu di kolom “Perusahaan”. Apa yang kamu lakukan?"
        },
        "options": [
         {
@@ -22499,7 +22500,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Correct the field and fix the source layout",
-         "id": "Koreksi kolomnya dan perbaiki tata letak sumber"
+         "id": "Betulkan isiannya dan perbaiki tata letak dokumen aslinya"
         },
         {
          "en": "Re-upload the same file",
@@ -22507,13 +22508,13 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Withdraw",
-         "id": "Tarik lamaran"
+         "id": "Mundur dari lamaran"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The preview is the machine showing you what it saw; fix both the record and its cause.",
-        "id": "Pratinjau adalah mesin menunjukkan apa yang dilihatnya; perbaiki rekaman dan penyebabnya."
+        "id": "Pratinjau adalah saat mesin memperlihatkan apa yang ia tangkap. Perbaiki datanya sekaligus penyebabnya."
        }
       }
      ],
@@ -22522,21 +22523,21 @@ window.MT_LMS['the-pack'] = {
       "mode": "ats",
       "title": {
        "en": "Pre-flight this CV now",
-       "id": "Pra-kirim CV ini sekarang"
+       "id": "Periksa CV ini sekarang"
       },
       "body": {
        "en": "The ATS readiness check runs the plain-text extraction on your device and flags columns, tables, header content, inconsistent dates and unspelled acronyms. Run it on every version before it goes anywhere.",
-       "id": "Pemeriksaan kesiapan ATS menjalankan ekstraksi teks polos di perangkatmu dan menandai kolom, tabel, isi kepala halaman, tanggal yang tidak konsisten, dan akronim tanpa kepanjangan. Jalankan pada setiap versi sebelum dikirim ke mana pun."
+       "id": "Pemeriksa kesiapan ATS menjalankan ekstraksi teks polos di perangkatmu dan menandai kolom ganda, tabel, isi di kepala halaman, tanggal yang tidak seragam, dan akronim tanpa kepanjangan. Jalankan untuk setiap versi sebelum dikirim ke mana pun."
       },
       "cta": {
        "en": "Open the ATS check →",
-       "id": "Buka pemeriksaan ATS →"
+       "id": "Buka pemeriksa ATS →"
       }
      },
      "takeaways": [
       {
        "en": "Boring formats win.",
-       "id": "Format yang membosankan menang."
+       "id": "Format yang membosankan justru menang."
       },
       {
        "en": "Test with plain text and the portal preview.",
@@ -22544,7 +22545,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Follow the portal’s file instructions exactly.",
-       "id": "Ikuti petunjuk berkas portal dengan tepat."
+       "id": "Ikuti instruksi berkas dari portal dengan persis."
       }
      ],
      "resources": {
@@ -22554,7 +22555,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "The eight rules as a checklist.",
-       "id": "Delapan aturan sebagai daftar periksa."
+       "id": "Delapan aturan dalam bentuk daftar periksa."
       },
       "items": [
        {
@@ -22570,27 +22571,27 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 9, 17, layout; file formats.",
-          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 9, 17, tata letak; format berkas."
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 9, 17: tata letak; format berkas."
          },
          {
           "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 2, file types and names.",
-          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 2, jenis dan nama berkas."
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 2: jenis dan nama berkas."
          },
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 12, formatting for software.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 12, format untuk perangkat lunak."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 12: format untuk perangkat lunak."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.2, layout rules.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.2, aturan tata letak."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.2: aturan tata letak."
          },
          {
           "en": "P. Ow, <i>Tailor Your Call…</i> (2021), the plain-text test.",
-          "id": "P. Ow, <i>Tailor Your Call…</i> (2021), uji teks polos."
+          "id": "P. Ow, <i>Tailor Your Call…</i> (2021): uji teks polos."
          },
          {
           "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), ch. 8, dates and computed experience.",
-          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 8, tanggal dan pengalaman yang dihitung."
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 8: tanggal dan perhitungan lama pengalaman."
          }
         ]
        },
@@ -22598,11 +22599,11 @@ window.MT_LMS['the-pack'] = {
         "kind": "checklist",
         "title": {
          "en": "Parse-safe · eight rules",
-         "id": "Aman-urai · delapan aturan"
+         "id": "Aman dibaca sistem · delapan aturan"
         },
         "desc": {
          "en": "All eight before any upload.",
-         "id": "Kedelapannya sebelum unggahan apa pun."
+         "id": "Kedelapannya dipenuhi sebelum mengunggah apa pun."
         },
         "body": [
          {
@@ -22611,11 +22612,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "No tables, text boxes, shapes, icons, skill bars or images holding information",
-          "id": "Tanpa tabel, kotak teks, bentuk, ikon, bilah keterampilan, atau gambar yang memuat informasi"
+          "id": "Tanpa tabel, kotak teks, bentuk, ikon, bilah keterampilan, atau gambar yang berisi informasi"
          },
          {
           "en": "Standard section headings",
-          "id": "Judul bagian standar"
+          "id": "Judul bagian yang standar"
          },
          {
           "en": "Nothing important in headers or footers",
@@ -22623,19 +22624,19 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Standard font, 10.5–12 pt",
-          "id": "Fon standar, 10,5–12 pt"
+          "id": "Jenis huruf standar, 10,5–12 pt"
          },
          {
           "en": "Consistent date format with months",
-          "id": "Format tanggal konsisten dengan bulan"
+          "id": "Format tanggal seragam, lengkap dengan bulan"
          },
          {
           "en": "Acronyms spelled out once",
-          "id": "Kepanjangan akronim dituliskan sekali"
+          "id": "Kepanjangan akronim ditulis sekali"
          },
          {
           "en": "Real text: text-based PDF or .docx, never a scan",
-          "id": "Teks asli: PDF berbasis teks atau .docx, tidak pernah pindaian"
+          "id": "Teks asli: PDF berbasis teks atau .docx, bukan hasil pindaian"
          }
         ]
        }
@@ -22652,24 +22653,24 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "Honest Keyword Coverage",
-      "id": "Cakupan Kata Kunci yang Jujur"
+      "id": "Memuat Kata Kunci dengan Jujur"
      },
      "overview": {
       "en": "Keywords are where honesty and effectiveness meet. This lesson gives a single rule for placing them, a coverage table to check your work, and four honest ways to handle a requirement you do not fully meet.",
-      "id": "Kata kunci adalah tempat kejujuran dan efektivitas bertemu. Pelajaran ini memberi satu aturan untuk menempatkannya, tabel cakupan untuk memeriksa pekerjaanmu, dan empat cara jujur menangani syarat yang tidak sepenuhnya kamu penuhi."
+      "id": "Di kata kunci, kejujuran dan efektivitas bertemu. Pelajaran ini memberimu satu aturan untuk menempatkannya, satu tabel cakupan untuk memeriksa hasil kerjamu, dan empat cara jujur untuk menyikapi syarat yang belum sepenuhnya kamu penuhi."
      },
      "objectives": [
       {
        "en": "Apply the <b>exact-form rule</b> for must-have keywords.",
-       "id": "Menerapkan <b>aturan bentuk persis</b> untuk kata kunci wajib."
+       "id": "Menerapkan <b>aturan bentuk persis</b> untuk kata kunci dari syarat wajib."
       },
       {
        "en": "Build a coverage table that maps each must-have to a true evidence line.",
-       "id": "Membangun tabel cakupan yang memetakan setiap syarat wajib ke baris bukti yang benar."
+       "id": "Menyusun tabel cakupan yang menghubungkan setiap syarat wajib dengan satu kalimat bukti yang benar."
       },
       {
        "en": "Choose one of four honest closes for each gap.",
-       "id": "Memilih satu dari empat penutup jujur untuk setiap celah."
+       "id": "Memilih satu dari empat cara jujur untuk menutup setiap kekurangan."
       }
      ],
      "readFirst": {
@@ -22683,21 +22684,21 @@ window.MT_LMS['the-pack'] = {
         "n": "4.3",
         "title": {
          "en": "Honest Keyword Coverage",
-         "id": "Cakupan Kata Kunci yang Jujur"
+         "id": "Memuat Kata Kunci dengan Jujur"
         }
        },
        "story": [
         {
          "en": "One rule: every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence",
-         "id": "Satu aturan: setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar"
+         "id": "Satu aturan: setiap kata kunci dari syarat wajib muncul minimal sekali, dalam bentuk yang persis sama dengan iklan, di dalam kalimat bukti yang benar"
         },
         {
          "en": "The coverage table: a must-have without an evidence sentence is not covered, even if the word appears somewhere",
-         "id": "Tabel cakupan: syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat"
+         "id": "Tabel cakupan: syarat wajib tanpa kalimat bukti belum tercakup, meskipun katanya muncul di suatu tempat"
         },
         {
          "en": "Four honest closes for a gap, and a rule of thumb: every hard requirement plus roughly two-thirds of the rest, then apply",
-         "id": "Empat penutup jujur untuk celah, dan aturan praktis: setiap syarat mutlak plus kira-kira dua pertiga sisanya, lalu lamar"
+         "id": "Empat cara jujur menutup kekurangan, dan satu patokan praktis: semua syarat mutlak ditambah kira-kira dua pertiga sisanya, lalu melamarlah"
         }
        ],
        "takes": [
@@ -22708,7 +22709,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "The rule only costs you when you would have to bend the truth; that is the point.",
-          "id": "Aturan ini hanya merugikanmu saat kamu harus membengkokkan kebenaran; itulah intinya."
+          "id": "Aturan ini baru merugikanmu kalau kamu harus membengkokkan kebenaran; justru itulah intinya."
          }
         },
         {
@@ -22718,17 +22719,17 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Build the table from the keyword table of Lesson 3.2; every must-have gets a row before the CV is sent.",
-          "id": "Bangun tabelnya dari tabel kata kunci Pelajaran 3.2; setiap syarat wajib mendapat baris sebelum CV dikirim."
+          "id": "Susun tabelnya dari tabel kata kunci di Pelajaran 3.2; setiap syarat wajib mendapat satu baris sebelum CV dikirim."
          }
         },
         {
          "h": {
           "en": "Four honest closes",
-          "id": "Empat penutup jujur"
+          "id": "Empat cara jujur menutup kekurangan"
          },
          "p": {
           "en": "A LinkedIn study reported by Ow found women tended to apply only when they met nearly all criteria and men at around 60%; the ones who applied were more likely to be hired.",
-          "id": "Studi LinkedIn yang dilaporkan Ow menemukan perempuan cenderung melamar hanya saat memenuhi hampir semua kriteria dan laki-laki sekitar 60%; yang melamar lebih mungkin direkrut."
+          "id": "Studi LinkedIn yang dikutip Ow menemukan perempuan cenderung baru melamar kalau memenuhi hampir semua kriteria, sedangkan laki-laki sudah melamar pada sekitar 60%; perempuan yang akhirnya melamar justru lebih mungkin diterima."
          }
         }
        ],
@@ -22737,7 +22738,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "One rule: every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence",
-          "id": "Satu aturan: setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar"
+          "id": "Satu aturan: setiap kata kunci dari syarat wajib muncul minimal sekali, dalam bentuk yang persis sama dengan iklan, di dalam kalimat bukti yang benar"
          },
          "cols": [
           {
@@ -22747,28 +22748,28 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "What software and hurried readers can miss",
-            "id": "Yang bisa terlewat oleh perangkat lunak dan pembaca terburu-buru"
+            "id": "Yang bisa terlewat oleh perangkat lunak dan pembaca yang terburu-buru"
            },
            "items": [
             {
              "icon": "tag",
              "en": "“stakeholder management”, not only “managing stakeholders”",
-             "id": "“stakeholder management”, bukan hanya “managing stakeholders”"
+             "id": "“manajemen pemangku kepentingan”, bukan hanya “mengelola pihak-pihak terkait”"
             },
             {
              "icon": "layers",
              "en": "“people management” and “project management” kept separate, not merged",
-             "id": "“people management” dan “project management” dibiarkan terpisah, tidak digabung"
+             "id": "“manajemen SDM” dan “manajemen proyek” tetap terpisah, tidak digabung"
             },
             {
              "icon": "book",
              "en": "Both the acronym and the full form: “Standard Operating Procedure (SOP)”",
-             "id": "Akronim dan bentuk lengkapnya: “Standard Operating Procedure (SOP)”"
+             "id": "Akronim sekaligus kepanjangannya: “Standard Operating Procedure (SOP)”"
             },
             {
              "icon": "briefcase",
              "en": "The market-standard title beside an unusual internal one: “Operations Intern (Magang Operasional)”",
-             "id": "Jabatan standar pasar di samping yang internal tak lazim: “Operations Intern (Magang Operasional)”"
+             "id": "Nama jabatan yang lazim di pasar di samping nama internal yang tidak biasa: “Operations Intern (Magang Operasional)”"
             }
            ],
            "icon": "check"
@@ -22780,18 +22781,18 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "What reads as manipulation",
-            "id": "Yang terbaca sebagai manipulasi"
+            "id": "Yang terkesan sebagai manipulasi"
            },
            "items": [
             {
              "icon": "list",
              "en": "A keyword list under “Skills” with no sentence behind it",
-             "id": "Daftar kata kunci di bawah “Keterampilan” tanpa kalimat di baliknya"
+             "id": "Daftar kata kunci di bawah “Keterampilan” tanpa satu kalimat bukti pun"
             },
             {
              "icon": "eye",
              "en": "White text, tiny text, hidden text",
-             "id": "Teks putih, teks mungil, teks tersembunyi"
+             "id": "Huruf putih, huruf mungil, teks tersembunyi"
             },
             {
              "icon": "clipboard",
@@ -22801,7 +22802,7 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "warn",
              "en": "A keyword for something you have not done",
-             "id": "Kata kunci untuk hal yang belum kamu lakukan"
+             "id": "Kata kunci untuk hal yang belum pernah kamu kerjakan"
             }
            ],
            "icon": "x"
@@ -22812,11 +22813,11 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "No keyword lists, no hidden text, no pasted requirement blocks; the exact form costs nothing when it is true.",
-          "id": "Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa blok persyaratan yang ditempel; bentuk persis tak berbiaya saat itu benar."
+          "id": "Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa menempel blok persyaratan; bentuk persis tidak merugikanmu selama memang benar."
          },
          "band": {
           "en": "The rule only costs you when you would have to bend the truth; that is the point.",
-          "id": "Aturan ini hanya merugikanmu saat kamu harus membengkokkan kebenaran; itulah intinya."
+          "id": "Aturan ini baru merugikanmu kalau kamu harus membengkokkan kebenaran; justru itulah intinya."
          },
          "em": {
           "en": "inside a true evidence sentence",
@@ -22827,7 +22828,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "The coverage table: a must-have without an evidence sentence is not covered, even if the word appears somewhere",
-          "id": "Tabel cakupan: syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat"
+          "id": "Tabel cakupan: syarat wajib tanpa kalimat bukti belum tercakup, meskipun katanya muncul di suatu tempat"
          },
          "img": "../../assets/pe/ed-writing.jpg",
          "layout": "list",
@@ -22835,7 +22836,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "check",
            "en": "Analytical skills: “reconciling three branches’ daily reports, I traced recurring mismatches to one terminal”",
-           "id": "Keterampilan analitis: “merekonsiliasi laporan harian tiga cabang, saya melacak selisih berulang ke satu terminal”",
+           "id": "Kemampuan analitis: “saat merekonsiliasi laporan harian tiga cabang, saya menelusuri selisih berulang sampai ke satu terminal”",
            "l": {
             "en": "Covered",
             "id": "Tercakup"
@@ -22844,38 +22845,38 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "pen",
            "en": "Microsoft Excel: “Excel” only; rephrase to “Microsoft Excel (pivot tables, VLOOKUP)”",
-           "id": "Microsoft Excel: hanya “Excel”; ubah menjadi “Microsoft Excel (pivot tables, VLOOKUP)”",
+           "id": "Microsoft Excel: hanya tertulis “Excel”; ganti menjadi “Microsoft Excel (pivot table, VLOOKUP)”",
            "l": {
             "en": "Rephrase",
-            "id": "Ubah kata"
+            "id": "Ganti istilah"
            }
           },
           {
            "icon": "tag",
            "en": "Leadership experience in organisations: “Led a 6-person sponsorship team…” but the word “leadership” is absent; rephrase the statement heading",
-           "id": "Pengalaman kepemimpinan di organisasi: “Memimpin tim sponsorship 6 orang…” tapi kata “leadership” tidak ada; ubah judul pernyataannya",
+           "id": "Pengalaman memimpin di organisasi: “Memimpin tim sponsor beranggotakan 6 orang…”, tetapi frasa “pengalaman memimpin” tidak ada; ganti judul pernyataannya",
            "l": {
             "en": "Rephrase",
-            "id": "Ubah kata"
+            "id": "Ganti istilah"
            }
           },
           {
            "icon": "handshake",
            "en": "Negotiation: evidence exists, 11 sponsors, but no sentence says it; write the sentence",
-           "id": "Negosiasi: bukti ada, 11 sponsor, tapi tak ada kalimat yang mengatakannya; tulis kalimatnya",
+           "id": "Negosiasi: buktinya ada, 11 sponsor, tetapi tidak ada kalimat yang menyebutnya; tulis kalimatnya",
            "l": {
             "en": "Evidence",
-            "id": "Bukti"
+            "id": "Tambah bukti"
            }
           }
          ],
          "sub": {
           "en": "Keyword, where it appears, the evidence sentence, status: covered, rephrase, gap. Nadia’s table for six of Arunika’s must-haves.",
-          "id": "Kata kunci, di mana muncul, kalimat bukti, status: tercakup, ubah kata, celah. Tabel Nadia untuk enam syarat wajib Arunika."
+          "id": "Kata kunci, tempat munculnya, kalimat bukti, status: tercakup, perlu diubah, kurang. Tabel Nadia untuk enam syarat wajib dari iklan Arunika."
          },
          "band": {
           "en": "Build the table from the keyword table of Lesson 3.2; every must-have gets a row before the CV is sent.",
-          "id": "Bangun tabelnya dari tabel kata kunci Pelajaran 3.2; setiap syarat wajib mendapat baris sebelum CV dikirim."
+          "id": "Susun tabelnya dari tabel kata kunci di Pelajaran 3.2; setiap syarat wajib mendapat satu baris sebelum CV dikirim."
          },
          "em": {
           "en": "is not covered",
@@ -22886,26 +22887,26 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Four honest closes for a gap, and a rule of thumb: every hard requirement plus roughly two-thirds of the rest, then apply",
-          "id": "Empat penutup jujur untuk celah, dan aturan praktis: setiap syarat mutlak plus kira-kira dua pertiga sisanya, lalu lamar"
+          "id": "Empat cara jujur menutup kekurangan, dan satu patokan praktis: semua syarat mutlak ditambah kira-kira dua pertiga sisanya, lalu melamarlah"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "pen",
            "en": "Rephrase",
-           "id": "Ubah kata",
+           "id": "Ganti istilah",
            "d": {
             "en": "You did the thing; the page says it in different words. Use the advertisement’s exact form.",
-            "id": "Kamu melakukannya; halaman mengatakannya dengan kata berbeda. Pakai bentuk persis iklan."
+            "id": "Kamu pernah mengerjakannya, tetapi halamanmu menyebutnya dengan istilah lain. Pakai bentuk yang persis sama dengan iklan."
            }
           },
           {
            "icon": "doc",
            "en": "Evidence",
-           "id": "Bukti",
+           "id": "Tambah bukti",
            "d": {
             "en": "You did the thing; nothing on the page says so yet. Write the evidence sentence from the pantry.",
-            "id": "Kamu melakukannya; belum ada di halaman yang mengatakannya. Tulis kalimat bukti dari lemari."
+            "id": "Kamu pernah mengerjakannya, tetapi belum ada yang menyebutnya di halaman. Tulis kalimat buktinya dari isi lemari."
            }
           },
           {
@@ -22914,7 +22915,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Pelajari",
            "d": {
             "en": "You have not done it and it is learnable before the deadline: a course, a project, a certificate, then the sentence.",
-            "id": "Kamu belum melakukannya dan bisa dipelajari sebelum tenggat: kursus, proyek, sertifikat, lalu kalimatnya."
+            "id": "Kamu belum pernah mengerjakannya, tetapi bisa dipelajari sebelum tenggat: kursus, proyek, sertifikat, lalu tulis kalimatnya."
            }
           },
           {
@@ -22923,21 +22924,21 @@ window.MT_LMS['the-pack'] = {
            "id": "Terima",
            "d": {
             "en": "You have not done it and cannot before applying: leave it uncovered, honestly; it is a nice-to-have or a true gap.",
-            "id": "Kamu belum melakukannya dan tak bisa sebelum melamar: biarkan tak tercakup, jujur; itu tambahan atau celah sungguhan."
+            "id": "Kamu belum pernah mengerjakannya dan tidak sempat sebelum melamar: biarkan tidak tercakup, dengan jujur; itu syarat tambahan atau kekurangan yang sebenarnya."
            }
           }
          ],
          "sub": {
           "en": "Advertisements describe an ideal; do not talk yourself out of roles you are qualified for. Let the employer do the rejecting, if there is rejecting to do.",
-          "id": "Iklan menggambarkan yang ideal; jangan bujuk dirimu keluar dari peran yang kamu kuasai. Biarkan perusahaan yang menolak, jika memang ada yang perlu ditolak."
+          "id": "Iklan menggambarkan kandidat ideal; jangan membujuk dirimu sendiri untuk mundur dari posisi yang sebenarnya cocok. Biarkan perusahaan yang menolak, kalau memang harus ada penolakan."
          },
          "band": {
           "en": "A LinkedIn study reported by Ow found women tended to apply only when they met nearly all criteria and men at around 60%; the ones who applied were more likely to be hired.",
-          "id": "Studi LinkedIn yang dilaporkan Ow menemukan perempuan cenderung melamar hanya saat memenuhi hampir semua kriteria dan laki-laki sekitar 60%; yang melamar lebih mungkin direkrut."
+          "id": "Studi LinkedIn yang dikutip Ow menemukan perempuan cenderung baru melamar kalau memenuhi hampir semua kriteria, sedangkan laki-laki sudah melamar pada sekitar 60%; perempuan yang akhirnya melamar justru lebih mungkin diterima."
          },
          "em": {
           "en": "Four honest closes",
-          "id": "Empat penutup jujur"
+          "id": "Empat cara jujur"
          }
         }
        ],
@@ -22952,11 +22953,11 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Every must-have, once, exactly, truthfully",
-       "id": "Setiap syarat wajib, sekali, persis, jujur"
+       "id": "Setiap syarat wajib: sekali, persis, jujur"
       },
       "intro": {
        "en": "One rule, one table, four closes, and a rule of thumb for how much of an advertisement you need to meet.",
-       "id": "Satu aturan, satu tabel, empat penutup, dan aturan praktis seberapa banyak isi iklan yang perlu kamu penuhi."
+       "id": "Satu aturan, satu tabel, empat cara menutup kekurangan, dan patokan praktis soal seberapa banyak isi iklan yang perlu kamu penuhi."
       },
       "slides": [
        {
@@ -22967,11 +22968,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence.",
-          "id": "Setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar."
+          "id": "Setiap kata kunci dari syarat wajib muncul minimal sekali, dalam bentuk yang persis sama dengan iklan, di dalam kalimat bukti yang benar."
          },
          {
           "en": "No keyword lists, no hidden text, no pasted requirement blocks.",
-          "id": "Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa blok persyaratan yang ditempel."
+          "id": "Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa menempel blok persyaratan."
          }
         ]
        },
@@ -22983,27 +22984,27 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Keyword · where it appears · the evidence sentence · status ✓ covered / ✎ rephrase / ✗ gap.",
-          "id": "Kata kunci · di mana muncul · kalimat bukti · status ✓ tercakup / ✎ ubah kata / ✗ celah."
+          "id": "Kata kunci · di mana ia muncul · kalimat buktinya · status ✓ tercakup / ✎ perlu diubah / ✗ kurang."
          },
          {
           "en": "A must-have without an evidence sentence is not covered, even if the word appears somewhere.",
-          "id": "Syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat."
+          "id": "Syarat wajib tanpa kalimat bukti belum tercakup, meskipun katanya muncul di suatu tempat."
          }
         ]
        },
        {
         "h": {
          "en": "Four honest closes",
-         "id": "Empat penutup jujur"
+         "id": "Empat cara jujur menutup kekurangan"
         },
         "points": [
          {
           "en": "Rephrase · evidence · learn · accept.",
-          "id": "Ubah kata · bukti · pelajari · terima."
+          "id": "Ganti istilah · tambah bukti · pelajari · terima."
          },
          {
           "en": "Meet every hard requirement and roughly two-thirds of the rest, then apply.",
-          "id": "Penuhi setiap syarat mutlak dan kira-kira dua pertiga sisanya, lalu lamar."
+          "id": "Penuhi semua syarat mutlak dan kira-kira dua pertiga sisanya, lalu melamarlah."
          }
         ]
        }
@@ -23018,12 +23019,12 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "The books disagree on density; repeat every noun <i>(Bright &amp; Earl, How to Write a Brilliant CV, ch. 17)</i>, weave subtly <i>(Innes, The CV Book, ch. 18)</i>, mirror exactly but never paste the requirements block <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.1)</i>. The Pack’s single rule:",
-        "id": "Buku-buku tidak sepakat soal kepadatan; ulangi setiap kata benda <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 17)</i>, jalin dengan halus <i>(Innes, The CV Book, bab 18)</i>, cerminkan persis tetapi jangan pernah tempel blok persyaratan <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.1)</i>. Satu aturan The Pack:"
+        "id": "Buku-buku berbeda pendapat soal seberapa padat kata kunci perlu ditaburkan: ulangi setiap kata benda <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 17)</i>, selipkan secara halus <i>(Innes, The CV Book, bab 18)</i>, atau samakan persis tetapi jangan pernah menempel blok persyaratan <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.1)</i>. The Pack memakai satu aturan saja:"
        },
        "quote": {
         "text": {
          "en": "Every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence.",
-         "id": "Setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar."
+         "id": "Setiap kata kunci dari syarat wajib muncul minimal sekali, dalam bentuk yang persis sama dengan iklan, di dalam kalimat bukti yang benar."
         },
         "who": {
          "en": "The Pack’s coverage rule",
@@ -23033,12 +23034,12 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "Put the most important ones in your profile and your first bullets, where the seven-second skim lands. No keyword lists, no hidden text, no pasted requirement blocks. Each of those is visible to the person who decides, and each says “I did not have the evidence”.",
-         "id": "Taruh yang terpenting di profil dan butir-butir pertamamu, tempat pindaian tujuh detik mendarat. Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa blok persyaratan yang ditempel. Masing-masing terlihat oleh orang yang memutuskan, dan masing-masing berkata “aku tidak punya buktinya”."
+         "id": "Taruh yang paling penting di profil dan di butir-butir pertamamu, tempat mata perekrut mendarat dalam pindaian tujuh detik. Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa menempel blok persyaratan. Semua itu terlihat oleh orang yang memutuskan, dan semuanya berkata “saya tidak punya buktinya”."
         }
        ],
        "key": {
         "en": "Every must-have keyword appears at least once, in the advertisement’s form, inside a true sentence of evidence.",
-        "id": "Setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk yang dipakai iklan, di dalam kalimat bukti yang benar."
+        "id": "Setiap kata kunci dari syarat wajib muncul minimal sekali, dalam bentuk yang sama dengan iklan, di dalam kalimat bukti yang benar."
        }
       },
       {
@@ -23049,11 +23050,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "If the advertisement says “stakeholder management”, do not write only “managing stakeholders”; if it lists “people management” and “project management” separately, do not merge them into “people and project management”, software and hurried readers can miss the broken phrase <i>(Simunovic, §6.1)</i>. Include both an acronym and its full form (“Standard Operating Procedure (SOP)”). Use the market-standard version of job titles alongside unusual internal ones <i>(Knowles, How to Write an Outstanding CV, ch. 5)</i>: “Operations Intern (Magang Operasional)”. The exact form costs you nothing when it is true; it only costs you when you would have to bend the truth to use it.",
-        "id": "Jika iklan menyebut “stakeholder management”, jangan hanya tulis “mengelola pemangku kepentingan”; jika iklan mencantumkan “people management” dan “project management” secara terpisah, jangan gabungkan menjadi “manajemen orang dan proyek”, perangkat lunak dan pembaca terburu-buru bisa melewatkan frasa yang terpecah <i>(Simunovic, §6.1)</i>. Sertakan akronim dan kepanjangannya (“Standard Operating Procedure (SOP)”). Pakai versi standar pasar untuk nama jabatan di samping nama internal yang tidak lazim <i>(Knowles, How to Write an Outstanding CV, bab 5)</i>: “Operations Intern (Magang Operasional)”. Bentuk persis tidak merugikanmu ketika benar; ia hanya merugikan ketika kamu harus membengkokkan kebenaran untuk memakainya."
+        "id": "Kalau iklan menulis “manajemen pemangku kepentingan”, jangan hanya menulis “mengelola pihak-pihak terkait”. Kalau iklan mencantumkan “manajemen SDM” dan “manajemen proyek” secara terpisah, jangan gabungkan menjadi “manajemen SDM dan proyek”, karena perangkat lunak dan pembaca yang terburu-buru bisa melewatkan frasa yang terpecah <i>(Simunovic, §6.1)</i>. Cantumkan akronim sekaligus kepanjangannya (“Standard Operating Procedure (SOP)”). Pakai nama jabatan yang lazim di pasar di samping nama internal yang tidak biasa <i>(Knowles, How to Write an Outstanding CV, bab 5)</i>: “Operations Intern (Magang Operasional)”. Bentuk persis tidak merugikanmu selama memang benar. Ia baru merugikan kalau kamu harus membengkokkan kebenaran demi memakainya."
        },
        "key": {
         "en": "Use the exact phrase and keep separate requirements separate; software and hurried readers miss a broken phrase.",
-        "id": "Pakai frasa persisnya dan biarkan syarat yang terpisah tetap terpisah; perangkat lunak dan pembaca terburu-buru melewatkan frasa yang dipecah."
+        "id": "Pakai frasa yang persis sama dan jangan gabungkan syarat yang terpisah. Perangkat lunak dan pembaca yang terburu-buru bisa melewatkan frasa yang terpecah."
        }
       },
       {
@@ -23064,7 +23065,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "For each must-have from your keyword table (Lesson 3.2): <i>keyword · where it appears on my CV · the evidence sentence · status</i>. A must-have without an evidence sentence is not covered, even if the word appears somewhere. Here is Nadia’s table for six of Arunika’s must-haves:",
-        "id": "Untuk setiap syarat wajib dari tabel kata kuncimu (Pelajaran 3.2): <i>kata kunci · di mana muncul di CV-ku · kalimat bukti · status</i>. Syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat. Inilah tabel Nadia untuk enam syarat wajib Arunika:"
+        "id": "Untuk setiap syarat wajib dari tabel kata kuncimu (Pelajaran 3.2), tulis: <i>kata kunci · di mana ia muncul di CV-ku · kalimat buktinya · status</i>. Syarat wajib tanpa kalimat bukti belum tercakup, meskipun katanya muncul di suatu tempat. Berikut tabel Nadia untuk enam syarat wajib dari iklan Arunika:"
        },
        "table": {
         "cols": [
@@ -23089,7 +23090,7 @@ window.MT_LMS['the-pack'] = {
          [
           {
            "en": "analytical skills",
-           "id": "analytical skills"
+           "id": "kemampuan analitis"
           },
           {
            "en": "Key Skills and Evidence",
@@ -23097,7 +23098,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“Analytical skills: reconciling three branches’ daily reports, I traced recurring mismatches to one terminal…”",
-           "id": "“Analytical skills: saat merekonsiliasi laporan harian tiga cabang, saya melacak ketidakcocokan berulang ke satu terminal…”"
+           "id": "“Kemampuan analitis: saat merekonsiliasi laporan harian tiga cabang, saya menelusuri selisih berulang sampai ke satu terminal…”"
           },
           {
            "en": "✓ covered",
@@ -23111,21 +23112,21 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Tools",
-           "id": "Alat"
+           "id": "Perangkat"
           },
           {
            "en": "“Excel” only",
-           "id": "“Excel” saja"
+           "id": "Hanya tertulis “Excel”"
           },
           {
            "en": "✎ rephrase → “Microsoft Excel (pivot tables, VLOOKUP)”",
-           "id": "✎ ubah kata → “Microsoft Excel (pivot table, VLOOKUP)”"
+           "id": "✎ ganti istilah → “Microsoft Excel (pivot table, VLOOKUP)”"
           }
          ],
          [
           {
            "en": "leadership experience in organisations",
-           "id": "leadership experience in organisations"
+           "id": "pengalaman memimpin di organisasi"
           },
           {
            "en": "Organisational Experience",
@@ -23133,17 +23134,17 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“Led a 6-person sponsorship team…”, the word “leadership” absent",
-           "id": "“Memimpin tim sponsorship 6 orang…”, kata “leadership” tidak ada"
+           "id": "“Memimpin tim sponsor beranggotakan 6 orang…”, tetapi frasa “pengalaman memimpin” tidak ada"
           },
           {
            "en": "✎ rephrase in the statement heading",
-           "id": "✎ ubah kata di judul pernyataan"
+           "id": "✎ ganti istilah di judul pernyataan"
           }
          ],
          [
           {
            "en": "negotiation",
-           "id": "negotiation"
+           "id": "negosiasi"
           },
           {
            "en": "",
@@ -23151,17 +23152,17 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Evidence exists (11 sponsors) but no sentence says it",
-           "id": "Buktinya ada (11 sponsor) tetapi tidak ada kalimat yang menyebutnya"
+           "id": "Buktinya ada (11 sponsor), tetapi tidak ada kalimat yang menyebutnya"
           },
           {
            "en": "✎ evidence → add “negotiated sponsor packages with 40 companies”",
-           "id": "✎ bukti → tambahkan “menegosiasikan paket sponsor dengan 40 perusahaan”"
+           "id": "✎ tambah bukti → tulis “menegosiasikan paket sponsor dengan 40 perusahaan”"
           }
          ],
          [
           {
            "en": "active English",
-           "id": "active English"
+           "id": "bahasa Inggris aktif"
           },
           {
            "en": "Languages",
@@ -23169,7 +23170,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527”: and the CV itself is in English",
-           "id": "“TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527”: dan CV-nya sendiri berbahasa Inggris"
+           "id": "“TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527”, dan CV-nya sendiri ditulis dalam bahasa Inggris"
           },
           {
            "en": "✓ covered",
@@ -23191,53 +23192,53 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "✗ gap: a nice-to-have: learn or accept",
-           "id": "✗ celah: tambahan: pelajari atau terima"
+           "id": "✗ kurang: syarat tambahan, jadi pelajari atau terima"
           }
          ]
         ]
        },
        "key": {
         "en": "Keyword, where it appears, the evidence sentence, status: a must-have without an evidence sentence is not covered.",
-        "id": "Kata kunci, letaknya, kalimat bukti, status: syarat wajib tanpa kalimat bukti belum tercakup."
+        "id": "Kata kunci, tempat munculnya, kalimat bukti, status: syarat wajib tanpa kalimat bukti belum tercakup."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "Four honest closes for a gap",
-        "id": "Empat penutup jujur untuk celah"
+        "id": "Empat cara jujur menutup kekurangan"
        },
        "body": {
         "en": "Every ✎ and ✗ in the table gets one of four treatments, and only these four.",
-        "id": "Setiap ✎ dan ✗ dalam tabel mendapat satu dari empat perlakuan, dan hanya empat ini."
+        "id": "Setiap tanda ✎ dan ✗ di tabel mendapat satu dari empat penanganan berikut, dan hanya empat ini."
        },
        "bullets": [
         {
          "en": "<b>Rephrase</b>: you have the experience under a different name. “Customer handling” → “customer service” if that is what you did.",
-         "id": "<b>Ubah kata</b>: kamu punya pengalamannya dengan nama berbeda. “Menangani pelanggan” → “layanan pelanggan” jika itu yang kamu lakukan."
+         "id": "<b>Ganti istilah</b>: pengalamannya ada, tetapi tertulis dengan nama lain. “Menangani pelanggan” menjadi “layanan pelanggan”, kalau memang itu yang kamu kerjakan."
         },
         {
          "en": "<b>Evidence</b>: you have it but have not shown it. Add a bullet or competency statement.",
-         "id": "<b>Bukti</b>: kamu punya tetapi belum menunjukkannya. Tambahkan butir atau pernyataan kompetensi."
+         "id": "<b>Tambah bukti</b>: kamu punya, tetapi belum menunjukkannya. Tambahkan butir atau pernyataan kompetensi."
         },
         {
          "en": "<b>Learn</b>: you do not have it yet, but can start credibly now (a short course, a small project) and say so truthfully: “currently completing SAP fundamentals (due Nov 2026)”.",
-         "id": "<b>Pelajari</b>: kamu belum punya, tetapi bisa mulai secara kredibel sekarang (kursus singkat, proyek kecil) dan katakan dengan jujur: “sedang menyelesaikan dasar-dasar SAP (selesai Nov 2026)”."
+         "id": "<b>Pelajari</b>: kamu belum punya, tetapi bisa mulai sekarang dengan cara yang meyakinkan (kursus singkat, proyek kecil), lalu sebutkan dengan jujur: “sedang menyelesaikan kursus dasar SAP (selesai Nov 2026)”."
         },
         {
          "en": "<b>Accept</b>: you do not have it. Leave it out, and decide whether the gap is a “must” (reconsider applying) or a “should” (apply anyway).",
-         "id": "<b>Terima</b>: kamu tidak punya. Tinggalkan, dan putuskan apakah celah itu “wajib” (pertimbangkan ulang melamar) atau “sebaiknya” (tetap lamar)."
+         "id": "<b>Terima</b>: kamu memang tidak punya. Jangan dicantumkan, lalu putuskan apakah kekurangan itu syarat wajib (pertimbangkan ulang untuk melamar) atau syarat tambahan (tetap lamar)."
         }
        ],
        "after": [
         {
          "en": "Never claim a keyword you cannot evidence: every keyword you list may be tested at interview <i>(Dumas, The AI-Savvy Job Seeker, ch. 5)</i>, and a claimed SAP skill meets a five-minute SAP question in the user interview.",
-         "id": "Jangan pernah mengklaim kata kunci yang tidak bisa kamu buktikan: setiap kata kunci yang kamu cantumkan bisa diuji saat wawancara <i>(Dumas, The AI-Savvy Job Seeker, bab 5)</i>, dan keterampilan SAP yang diklaim akan bertemu pertanyaan SAP lima menit di wawancara user."
+         "id": "Jangan pernah mengklaim kata kunci yang tidak bisa kamu buktikan. Setiap kata kunci yang kamu cantumkan bisa diuji saat wawancara <i>(Dumas, The AI-Savvy Job Seeker, bab 5)</i>, dan klaim menguasai SAP akan berhadapan dengan pertanyaan SAP selama lima menit di wawancara dengan calon atasan."
         }
        ],
        "key": {
         "en": "Four honest closes for a gap: rephrase, evidence, learn, or accept. Nothing else.",
-        "id": "Empat cara jujur menutup celah: ubah frasa, tunjukkan bukti, pelajari, atau terima. Tidak ada cara lain."
+        "id": "Empat cara jujur menutup kekurangan: ganti istilah, tambah bukti, pelajari, atau terima. Tidak ada cara lain."
        }
       },
       {
@@ -23248,11 +23249,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Advertisements describe an ideal. A LinkedIn study reported by Ow found that women tended to apply only when they met nearly all criteria while men applied at around 60%, and that women who did apply were <i>more</i> likely to be hired <span class=\"ev ev-dated\">Dated · 2017 LinkedIn data, cited by Ow</span>. The Pack’s rule of thumb: <b>meet every hard requirement (the “musts”, GPA, major, age, certifications), and roughly two-thirds of the rest</b>, then apply with honest evidence. Do not talk yourself out of roles you are qualified for; let the employer do the rejecting, if there is rejecting to do.",
-        "id": "Iklan menggambarkan sosok ideal. Sebuah studi LinkedIn yang dilaporkan Ow menemukan perempuan cenderung melamar hanya ketika memenuhi hampir semua kriteria sementara laki-laki melamar pada sekitar 60%, dan perempuan yang melamar justru <i>lebih</i> mungkin diterima <span class=\"ev ev-dated\">Lawas · data LinkedIn 2017, dikutip Ow</span>. Aturan praktis The Pack: <b>penuhi setiap syarat mutlak (yang “wajib”, IPK, jurusan, usia, sertifikasi), dan kira-kira dua pertiga sisanya</b>, lalu lamar dengan bukti yang jujur. Jangan meyakinkan dirimu untuk mundur dari peran yang kamu kuasai; biarkan perusahaan yang menolak, jika memang ada yang perlu ditolak."
+        "id": "Iklan menggambarkan kandidat ideal. Studi LinkedIn yang dikutip Ow menemukan bahwa perempuan cenderung baru melamar kalau memenuhi hampir semua kriteria, sedangkan laki-laki sudah melamar pada sekitar 60%, dan perempuan yang akhirnya melamar justru <i>lebih</i> mungkin diterima <span class=\"ev ev-dated\">Lawas · data LinkedIn 2017, dikutip Ow</span>. Patokan praktis The Pack: <b>penuhi semua syarat mutlak (yang “wajib”: IPK, jurusan, usia, sertifikasi), dan kira-kira dua pertiga sisanya</b>, lalu melamarlah dengan bukti yang jujur. Jangan membujuk dirimu sendiri untuk mundur dari posisi yang sebenarnya cocok untukmu. Biarkan perusahaan yang menolak, kalau memang harus ada penolakan."
        },
        "key": {
-        "en": "Meet every hard requirement and roughly half the rest; advertisements describe an ideal, not a floor.",
-        "id": "Penuhi setiap syarat mutlak dan kira-kira separuh sisanya; iklan menggambarkan kandidat ideal, bukan batas minimum."
+        "en": "Meet every hard requirement and roughly two-thirds of the rest; advertisements describe an ideal, not a floor.",
+        "id": "Penuhi semua syarat mutlak dan kira-kira dua pertiga sisanya. Iklan menggambarkan kandidat ideal, bukan batas minimal."
        }
       }
      ],
@@ -23264,7 +23265,7 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Must-have → find it on the page → status → close",
-       "id": "Syarat wajib → temukan di halaman → status → tutup"
+       "id": "Syarat wajib → cari di halaman → status → tutup"
       },
       "items": [
        {
@@ -23280,11 +23281,11 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Find it",
-         "id": "Temukan"
+         "id": "Cari"
         },
         "sub": {
          "en": "Where on the page, in what exact form, inside which sentence?",
-         "id": "Di mana di halaman, dalam bentuk persis apa, di dalam kalimat mana?"
+         "id": "Di bagian mana, dalam bentuk apa, di dalam kalimat yang mana?"
         }
        },
        {
@@ -23294,7 +23295,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Covered · rephrase or add evidence · gap.",
-         "id": "Tercakup · ubah kata atau tambah bukti · celah."
+         "id": "Tercakup · ganti istilah atau tambah bukti · kurang."
         }
        },
        {
@@ -23304,40 +23305,40 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Rephrase · evidence · learn · accept. Never claim.",
-         "id": "Ubah kata · bukti · pelajari · terima. Jangan pernah mengklaim."
+         "id": "Ganti istilah · tambah bukti · pelajari · terima. Jangan pernah mengklaim."
         }
        }
       ],
       "note": {
        "en": "Musts all met and about two-thirds of the rest → apply. The table is Dossier item 4, reused for every tailored version.",
-       "id": "Semua syarat wajib terpenuhi dan sekitar dua pertiga sisanya → lamar. Tabelnya adalah butir Dossier 4, dipakai ulang untuk setiap versi tersesuaikan."
+       "id": "Semua syarat wajib terpenuhi dan sekitar dua pertiga sisanya → lamar. Tabel ini adalah isi Dossier nomor 4, dipakai ulang untuk setiap versi yang disesuaikan."
       },
       "longdesc": {
        "en": "A four-step flow: take each must-have from the keyword table; find where it appears on the CV and in what form; mark it covered, rephrase or gap; close it with one of four honest options. Rephrase, add evidence, learn, or accept. The note gives the rule of thumb: all hard requirements met and about two-thirds of the rest means apply.",
-       "id": "Alur empat langkah: ambil setiap syarat wajib dari tabel kata kunci; temukan di mana ia muncul di CV dan dalam bentuk apa; tandai tercakup, ubah kata, atau celah; tutup dengan satu dari empat pilihan jujur, ubah kata, tambah bukti, pelajari, atau terima. Catatan memberi aturan praktis: semua syarat mutlak terpenuhi dan sekitar dua pertiga sisanya berarti lamar."
+       "id": "Alur empat langkah: ambil setiap syarat wajib dari tabel kata kunci; cari di bagian mana ia muncul di CV dan dalam bentuk apa; tandai tercakup, perlu diubah, atau kurang; lalu tutup dengan salah satu dari empat cara jujur: ganti istilah, tambah bukti, pelajari, atau terima. Catatannya memberi patokan praktis: kalau semua syarat mutlak terpenuhi dan sekitar dua pertiga sisanya juga, lamarlah."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Two ways to cover “data analysis”",
-        "id": "Dua cara mencakup “data analysis”"
+        "id": "Dua cara memuat “analisis data”"
        },
        "q": {
         "en": "The advertisement lists “data analysis” as a requirement. Nadia’s CV has the internship reconciliation work.",
-        "id": "Iklan mencantumkan “data analysis” sebagai syarat. CV Nadia memuat pekerjaan rekonsiliasi saat magang."
+        "id": "Iklan mencantumkan “analisis data” sebagai syarat. Di CV Nadia ada pekerjaan rekonsiliasi saat magang."
        },
        "weak": {
         "en": "A “Keywords” line at the bottom: “data analysis, analytical, Excel, reporting, reconciliation, SAP, stakeholder management”.",
-        "id": "Baris “Kata kunci” di bagian bawah: “data analysis, analytical, Excel, reporting, reconciliation, SAP, stakeholder management”."
+        "id": "Baris “Kata kunci” di bagian bawah: “analisis data, analitis, Excel, pelaporan, rekonsiliasi, SAP, manajemen pemangku kepentingan”."
        },
        "strong": {
         "en": "In the internship bullet: “Performed daily data analysis of transaction reports for 3 branches in Microsoft Excel; traced a recurring mismatch to one teller terminal, ending about 30 minutes of manual correction a day.”",
-        "id": "Di butir magang: “Melakukan data analysis harian atas laporan transaksi 3 cabang di Microsoft Excel; melacak ketidakcocokan berulang ke satu terminal teller, mengakhiri sekitar 30 menit koreksi manual sehari.”"
+        "id": "Di butir magang: “Melakukan analisis data harian atas laporan transaksi 3 cabang dengan Microsoft Excel; menelusuri selisih berulang sampai ke satu terminal teller, sehingga sekitar 30 menit koreksi manual per hari tidak diperlukan lagi.”"
        },
        "why": {
         "en": "The list contains a word she cannot evidence (SAP) and proves nothing about the ones she can. The bullet puts the exact phrase inside true evidence, where both the parser and the recruiter find it.",
-        "id": "Daftarnya memuat kata yang tidak bisa ia buktikan (SAP) dan tidak membuktikan apa pun tentang yang bisa. Butirnya menaruh frasa persis di dalam bukti yang benar, tempat pengurai maupun perekrut menemukannya."
+        "id": "Daftar itu memuat kata yang tidak bisa ia buktikan (SAP) dan tidak membuktikan apa pun soal kata-kata yang bisa ia buktikan. Butir itu menaruh frasa yang persis sama di dalam bukti yang benar, tempat sistem maupun perekrut sama-sama menemukannya."
        }
       }
      ],
@@ -23350,15 +23351,15 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "KilatPay’s posting lists eleven requirements. Nadia’s coverage table shows: three musts (bachelor’s degree, 0–2 years, willing to work in Jakarta), all met. Eight shoulds: reconciliation ✓, settlement reporting ✎ (she did it; the word is missing), Excel ✓, dashboards ✎ (Google Sheets dashboards for HIMA (the students’ association, himpunan mahasiswa)’s budget), working with finance and engineering ✎ (she worked with two bank teams, a rephrase), SQL (structured query language, the database query language) ✗, Python ✗, fintech experience ✗.",
-        "id": "Lowongan KilatPay mencantumkan sebelas syarat. Tabel cakupan Nadia menunjukkan: tiga syarat wajib (S1, 0–2 tahun, bersedia bekerja di Jakarta). Semua terpenuhi. Delapan syarat sebaiknya: rekonsiliasi ✓, pelaporan settlement ✎ (ia melakukannya; katanya tidak ada), Excel ✓, dasbor ✎ (dasbor Google Sheets untuk anggaran HIMA (himpunan mahasiswa)), bekerja dengan finance dan engineering ✎ (ia bekerja dengan dua tim bank, ubah kata), SQL (structured query language, bahasa kueri basis data) ✗, Python ✗, pengalaman fintech ✗."
+        "id": "Lowongan KilatPay mencantumkan sebelas syarat. Tabel cakupan Nadia menunjukkan tiga syarat wajib (S1, pengalaman 0–2 tahun, bersedia bekerja di Jakarta), dan semuanya terpenuhi. Lalu delapan syarat tambahan: rekonsiliasi ✓, pelaporan penyelesaian transaksi (settlement) ✎ (ia pernah mengerjakannya, hanya istilahnya tidak ada), Excel ✓, dasbor ✎ (dasbor Google Sheets untuk anggaran HIMA (himpunan mahasiswa)), bekerja sama dengan tim keuangan dan engineering ✎ (ia pernah bekerja dengan dua tim di bank, cukup ganti istilah), SQL (structured query language, bahasa untuk mengolah basis data) ✗, Python ✗, pengalaman di fintech ✗."
        },
        {
         "en": "After the three rephrases, she covers five of eight shoulds, a little under two-thirds, with every must met. She closes SQL with “learn”: a free introductory course she starts that week, stated truthfully with a completion month. Python and fintech she accepts. She applies.",
-        "id": "Setelah tiga perubahan kata, ia mencakup lima dari delapan syarat sebaiknya, sedikit di bawah dua pertiga, dengan setiap syarat wajib terpenuhi. Ia menutup SQL dengan “pelajari”: kursus pengantar gratis yang ia mulai minggu itu, dinyatakan jujur dengan bulan penyelesaian. Python dan fintech ia terima. Ia melamar."
+        "id": "Setelah tiga istilah diganti, ia mencakup lima dari delapan syarat tambahan, sedikit di bawah dua pertiga, dengan semua syarat wajib terpenuhi. Kekurangan SQL ia tutup dengan “pelajari”: kursus pengantar gratis yang ia mulai minggu itu, dicantumkan dengan jujur beserta bulan selesainya. Python dan pengalaman fintech ia terima. Ia pun melamar."
        },
        {
         "en": "The version of Nadia from Lesson 1.5 would have read “SQL” in the posting and closed the tab.",
-        "id": "Nadia versi Pelajaran 1.5 akan membaca “SQL” di lowongan itu dan menutup tabnya."
+        "id": "Nadia di Pelajaran 1.5 mungkin akan langsung menutup tab begitu membaca kata “SQL” di lowongan itu."
        }
       ]
      },
@@ -23370,11 +23371,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "For the Arunika advertisement (Lesson 3.2) and Nadia’s rebuilt CV (Lesson 3.7’s model), fill the table for ten must-haves: analytical skills · comfortable with ambiguity · leadership experience in organisations · active English · Microsoft Excel · willing to be placed anywhere in the country · GPA ≥ 3,00 · sales or operations experience · negotiation (implied) · SAP. Give each a status and a close.",
-        "id": "Untuk iklan Arunika (Pelajaran 3.2) dan CV Nadia yang dibangun ulang (model Pelajaran 3.7), isi tabel untuk sepuluh syarat wajib: analytical skills · comfortable with ambiguity · leadership experience in organisations · active English · Microsoft Excel · willing to be placed anywhere in Indonesia · IPK ≥ 3,00 · sales or operations experience · negotiation (tersirat) · SAP. Beri masing-masing status dan penutup."
+        "id": "Untuk iklan Arunika (Pelajaran 3.2) dan CV Nadia hasil bangun ulang (model di Pelajaran 3.7), isi tabel untuk sepuluh syarat wajib: kemampuan analitis · nyaman dengan ketidakpastian · pengalaman memimpin di organisasi · bahasa Inggris aktif · Microsoft Excel · bersedia ditempatkan di seluruh Indonesia · IPK ≥ 3,00 · pengalaman di bidang penjualan atau operasional · negosiasi (tersirat) · SAP. Beri masing-masing status dan cara menutupnya."
        },
        "debrief": {
         "en": "Typical finds: “Microsoft Excel” appears only as “Excel” (rephrase); “negotiation” has evidence in the sponsorship role but no sentence says it (evidence); “comfortable with ambiguity” needs the statement heading to use the phrase (rephrase); “sales or operations experience” is covered by the internship if the word “operations” is in the title line (it is); “SAP” is a genuine gap (learn or accept. It is a “should”). Nine of ten covered after closes; every must met; apply.",
-        "id": "Temuan khas: “Microsoft Excel” hanya muncul sebagai “Excel” (ubah kata); “negotiation” punya bukti di peran sponsorship tetapi tidak ada kalimat yang menyebutnya (bukti); “comfortable with ambiguity” butuh judul pernyataan yang memakai frasanya (ubah kata); “sales or operations experience” tercakup oleh magang jika kata “operations” ada di baris jabatan (ada); “SAP” adalah celah sungguhan (pelajari atau terima; itu “sebaiknya”). Sembilan dari sepuluh tercakup setelah penutup; setiap syarat wajib terpenuhi; lamar."
+        "id": "Temuan yang biasa muncul: “Microsoft Excel” hanya tertulis “Excel” (ganti istilah); “negosiasi” punya bukti di peran sponsor tetapi tidak ada kalimat yang menyebutnya (tambah bukti); “nyaman dengan ketidakpastian” perlu dipakai sebagai judul pernyataan kompetensi (ganti istilah); “pengalaman di bidang operasional” tercakup oleh magang selama kata “operasional” ada di baris jabatan (memang ada); “SAP” memang kurang (pelajari atau terima, karena ini syarat tambahan). Sembilan dari sepuluh tercakup setelah ditutup; semua syarat wajib terpenuhi; lamar."
        }
       },
       {
@@ -23384,11 +23385,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Take one advertisement you intend to answer this week and your tailored CV. Build the coverage table for every must-have. Count: musts met? Shoulds covered after closes?",
-        "id": "Ambil satu iklan yang ingin kamu jawab minggu ini dan CV tersesuaikanmu. Bangun tabel cakupan untuk setiap syarat wajib. Hitung: syarat mutlak terpenuhi? Syarat sebaiknya tercakup setelah penutup?"
+        "id": "Ambil satu iklan yang ingin kamu lamar minggu ini dan CV-mu yang sudah disesuaikan. Susun tabel cakupan untuk setiap syarat wajib. Hitung: apakah semua syarat wajib terpenuhi? Berapa syarat tambahan yang tercakup setelah ditutup?"
        },
        "debrief": {
         "en": "If a must is unmet, do not apply to that posting. Find the next one. If the musts are met and two-thirds of the shoulds are covered, apply. If you are between, ask whether one “learn” close started this week would move you over the line honestly.",
-        "id": "Jika ada syarat mutlak yang tidak terpenuhi, jangan lamar lowongan itu, cari yang berikutnya. Jika syarat mutlak terpenuhi dan dua pertiga syarat sebaiknya tercakup, lamar. Jika di antaranya, tanyakan apakah satu penutup “pelajari” yang dimulai minggu ini akan menggeser posisimu melewati garis dengan jujur."
+        "id": "Kalau ada syarat wajib yang tidak terpenuhi, jangan lamar lowongan itu. Cari yang berikutnya. Kalau semua syarat wajib terpenuhi dan dua pertiga syarat tambahan tercakup, lamarlah. Kalau posisimu di antara keduanya, tanyakan pada dirimu: apakah satu langkah “pelajari” yang dimulai minggu ini bisa membawamu melewati batas itu dengan jujur?"
        }
       }
      ],
@@ -23401,37 +23402,37 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Inside evidence sentences, or not at all.",
-         "id": "Di dalam kalimat bukti, atau tidak sama sekali."
+         "id": "Taruh di dalam kalimat bukti, atau tidak sama sekali."
         }
        },
        {
         "h": {
          "en": "Merging two required phrases into one",
-         "id": "Menggabungkan dua frasa wajib menjadi satu"
+         "id": "Menggabungkan dua frasa syarat menjadi satu"
         },
         "fix": {
          "en": "Each in its exact form, even if it feels repetitive.",
-         "id": "Masing-masing dalam bentuk persis, meski terasa berulang."
+         "id": "Tulis masing-masing dalam bentuk persisnya, meski terasa berulang."
         }
        },
        {
         "h": {
          "en": "Claiming a tool you have not used",
-         "id": "Mengklaim alat yang belum pernah kamu pakai"
+         "id": "Mengklaim perangkat yang belum pernah kamu pakai"
         },
         "fix": {
          "en": "Learn (and say so truthfully) or accept.",
-         "id": "Pelajari (dan katakan dengan jujur) atau terima."
+         "id": "Pelajari (dan sebutkan dengan jujur), atau terima."
         }
        },
        {
         "h": {
          "en": "Not applying until you meet 100%",
-         "id": "Tidak melamar sampai memenuhi 100%"
+         "id": "Baru mau melamar kalau sudah memenuhi 100%"
         },
         "fix": {
          "en": "Musts met and about two-thirds of the rest is the threshold.",
-         "id": "Syarat mutlak terpenuhi dan sekitar dua pertiga sisanya adalah ambangnya."
+         "id": "Batasnya: semua syarat wajib terpenuhi dan sekitar dua pertiga sisanya."
         }
        }
       ]
@@ -23444,7 +23445,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A must-have keyword appears in the advertisement’s wording, inside a true evidence sentence.",
-        "id": "Kata kunci wajib muncul dalam rumusan iklan, di dalam kalimat bukti yang benar."
+        "id": "Kata kunci dari syarat wajib ditulis dengan istilah yang sama seperti di iklan, di dalam kalimat bukti yang benar."
        }
       },
       {
@@ -23454,27 +23455,27 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Dossier item 4: each must-have, where it appears, its evidence sentence and its status.",
-        "id": "Butir Dossier 4: setiap syarat wajib, di mana muncul, kalimat buktinya, dan statusnya."
+        "id": "Isi Dossier nomor 4: setiap syarat wajib, tempat munculnya, kalimat buktinya, dan statusnya."
        }
       },
       {
        "term": {
         "en": "Honest close",
-        "id": "Penutup jujur"
+        "id": "Cara jujur menutup kekurangan"
        },
        "def": {
         "en": "One of four ways to handle a gap: rephrase, evidence, learn, accept.",
-        "id": "Satu dari empat cara menangani celah: ubah kata, bukti, pelajari, terima."
+        "id": "Salah satu dari empat cara menyikapi kekurangan: ganti istilah, tambah bukti, pelajari, terima."
        }
       },
       {
        "term": {
         "en": "Must / should",
-        "id": "Wajib / sebaiknya"
+        "id": "Syarat wajib / syarat tambahan"
        },
        "def": {
         "en": "A hard requirement that ends the application if unmet, versus a desirable one that affects ranking.",
-        "id": "Syarat mutlak yang mengakhiri lamaran jika tidak terpenuhi, versus syarat tambahan yang memengaruhi peringkat."
+        "id": "Syarat mutlak yang mengakhiri lamaran jika tidak terpenuhi, dibandingkan syarat yang diharapkan dan memengaruhi peringkat."
        }
       }
      ],
@@ -23482,88 +23483,88 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "The advertisement says “data analysis”. Your CV says “I analysed sales numbers” in a bullet.",
-        "id": "Iklan menyebut “data analysis”. CV-mu menyebut “saya menganalisis angka penjualan” dalam sebuah butir."
+        "id": "Iklan menyebut “analisis data”. Salah satu butir di CV-mu berbunyi “menganalisis angka penjualan”. Apa statusnya?"
        },
        "options": [
         {
          "en": "Covered",
-         "id": "Tercakup"
+         "id": "Sudah tercakup"
         },
         {
          "en": "Rephrase to include “data analysis” in the evidence sentence",
-         "id": "Ubah kata untuk memasukkan “data analysis” ke dalam kalimat bukti"
+         "id": "Ganti istilah agar kalimat buktinya memuat “analisis data”"
         },
         {
          "en": "Add “data analysis” to a keywords list",
-         "id": "Tambahkan “data analysis” ke daftar kata kunci"
+         "id": "Tambahkan “analisis data” ke daftar kata kunci"
         },
         {
          "en": "Ignore it",
-         "id": "Abaikan"
+         "id": "Abaikan saja"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The evidence exists; the exact form is missing. Rephrase inside the true sentence.",
-        "id": "Buktinya ada; bentuk persisnya hilang. Ubah kata di dalam kalimat yang benar."
+        "id": "Buktinya ada; bentuk persisnya yang belum. Ganti istilahnya di dalam kalimat yang benar itu."
        }
       },
       {
        "q": {
         "en": "Which is an honest close for a missing “Power BI” should-have?",
-        "id": "Mana penutup jujur untuk syarat sebaiknya “Power BI” yang tidak ada?"
+        "id": "Mana cara jujur untuk menutup kekurangan “Power BI” yang merupakan syarat tambahan?"
        },
        "options": [
         {
          "en": "List Power BI anyway",
-         "id": "Cantumkan Power BI saja"
+         "id": "Tetap cantumkan Power BI"
         },
         {
          "en": "Start a short course and state “currently completing Power BI fundamentals (due Oct 2026)”",
-         "id": "Mulai kursus singkat dan nyatakan “sedang menyelesaikan dasar-dasar Power BI (selesai Okt 2026)”"
+         "id": "Mulai kursus singkat dan tulis “sedang menyelesaikan kursus dasar Power BI (selesai Okt 2026)”"
         },
         {
          "en": "Hide it in white text",
-         "id": "Sembunyikan dengan teks putih"
+         "id": "Sembunyikan dengan huruf putih"
         },
         {
          "en": "Claim you used it at an internship",
-         "id": "Klaim pernah memakainya saat magang"
+         "id": "Mengaku pernah memakainya saat magang"
         }
        ],
        "correct": 1,
        "why": {
         "en": "“Learn” is honest and credible; the other three are claims you cannot evidence.",
-        "id": "“Pelajari” itu jujur dan kredibel; tiga lainnya adalah klaim yang tidak bisa kamu buktikan."
+        "id": "“Pelajari” itu jujur dan meyakinkan. Tiga pilihan lainnya adalah klaim yang tidak bisa kamu buktikan."
        }
       },
       {
        "q": {
         "en": "You meet all hard requirements and about 70% of the rest.",
-        "id": "Kamu memenuhi semua syarat mutlak dan sekitar 70% sisanya."
+        "id": "Kamu memenuhi semua syarat mutlak dan sekitar 70% sisanya. Apa langkahmu?"
        },
        "options": [
         {
          "en": "Don’t apply",
-         "id": "Jangan melamar"
+         "id": "Tidak melamar"
         },
         {
          "en": "Apply with honest evidence",
-         "id": "Lamar dengan bukti yang jujur"
+         "id": "Melamar dengan bukti yang jujur"
         },
         {
          "en": "Apply only after meeting 100%",
-         "id": "Lamar hanya setelah memenuhi 100%"
+         "id": "Baru melamar setelah memenuhi 100%"
         },
         {
          "en": "Rewrite facts to reach 100%",
-         "id": "Tulis ulang fakta agar mencapai 100%"
+         "id": "Mengubah fakta supaya mencapai 100%"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Musts met and two-thirds of the rest is the threshold; advertisements describe an ideal.",
-        "id": "Syarat mutlak terpenuhi dan dua pertiga sisanya adalah ambangnya; iklan menggambarkan sosok ideal."
+        "id": "Semua syarat wajib terpenuhi dan dua pertiga sisanya: itulah batasnya. Iklan menggambarkan kandidat ideal."
        }
       }
      ],
@@ -23572,39 +23573,39 @@ window.MT_LMS['the-pack'] = {
       "mode": "ats",
       "title": {
        "en": "Run the transparent check",
-       "id": "Jalankan pemeriksaan transparan"
+       "id": "Jalankan pemeriksaan yang transparan"
       },
       "body": {
        "en": "Paste one advertisement and your tailored CV into the ATS (applicant tracking system) check: it lists each keyword with ✓ / ✎ / ✗ and suggests rephrases; never inserting anything for you. Save the table; it is Dossier item 4.",
-       "id": "Tempel satu iklan dan CV tersesuaikanmu ke pemeriksaan ATS: ia mendaftar setiap kata kunci dengan ✓ / ✎ / ✗ dan menyarankan perubahan kata; tidak pernah menyisipkan apa pun untukmu. Simpan tabelnya; itu butir Dossier 4."
+       "id": "Tempel satu iklan dan CV-mu yang sudah disesuaikan ke pemeriksa ATS (sistem pelacak lamaran). Alat ini mendaftar setiap kata kunci dengan tanda ✓ / ✎ / ✗ dan menyarankan istilah pengganti, tanpa pernah menyisipkan apa pun atas namamu. Simpan tabelnya; itulah isi Dossier nomor 4."
       },
       "cta": {
        "en": "Open the ATS check →",
-       "id": "Buka pemeriksaan ATS →"
+       "id": "Buka pemeriksa ATS →"
       }
      },
      "takeaways": [
       {
        "en": "Every must-have, once, exact form, in true evidence.",
-       "id": "Setiap syarat wajib, sekali, bentuk persis, di dalam bukti yang benar."
+       "id": "Setiap syarat wajib: sekali, bentuk persis, di dalam bukti yang benar."
       },
       {
        "en": "Four honest closes: rephrase, evidence, learn, accept.",
-       "id": "Empat penutup jujur: ubah kata, bukti, pelajari, terima."
+       "id": "Empat cara jujur menutup kekurangan: ganti istilah, tambah bukti, pelajari, terima."
       },
       {
        "en": "Meet the musts and most of the rest, then apply.",
-       "id": "Penuhi syarat mutlak dan sebagian besar sisanya, lalu lamar."
+       "id": "Penuhi syarat wajib dan sebagian besar sisanya, lalu melamarlah."
       }
      ],
      "resources": {
       "title": {
        "en": "Sources and the table",
-       "id": "Sumber dan tabel"
+       "id": "Sumber dan tabelnya"
       },
       "lead": {
        "en": "The coverage table as a template.",
-       "id": "Tabel cakupan sebagai templat."
+       "id": "Tabel cakupan dalam bentuk templat."
       },
       "items": [
        {
@@ -23620,27 +23621,27 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 17, keyword density (one side of the debate).",
-          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 17, kepadatan kata kunci (satu sisi perdebatan)."
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 17: kepadatan kata kunci (salah satu sisi perdebatan)."
          },
          {
           "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 18, weaving keywords.",
-          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 18, menjalin kata kunci."
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 18: menyelipkan kata kunci."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1, 6.1; exact form; never paste the requirements block.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1, 6.1; bentuk persis; jangan pernah tempel blok persyaratan."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1, 6.1: bentuk persis; jangan pernah menempel blok persyaratan."
          },
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 5, market-standard titles.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 5, nama jabatan standar pasar."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 5: nama jabatan yang lazim di pasar."
          },
          {
           "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), ch. 5, keywords tested at interview.",
-          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 5, kata kunci diuji saat wawancara."
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 5: kata kunci diuji saat wawancara."
          },
          {
           "en": "P. Ow, <i>Tailor Your Call…</i> (2021), the 2017 LinkedIn application-threshold data (dated).",
-          "id": "P. Ow, <i>Tailor Your Call…</i> (2021), data ambang melamar LinkedIn 2017 (lawas)."
+          "id": "P. Ow, <i>Tailor Your Call…</i> (2021): data LinkedIn 2017 soal ambang keberanian melamar (lawas)."
          }
         ]
        },
@@ -23652,16 +23653,16 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "Copy into a spreadsheet; save per application.",
-         "id": "Salin ke spreadsheet; simpan per lamaran."
+         "id": "Salin ke lembar kerja; simpan untuk setiap lamaran."
         },
         "body": [
          {
           "en": "Keyword (exact form) · must / should · where on my CV · evidence sentence · status ✓ / ✎ / ✗ · close (rephrase / evidence / learn / accept)",
-          "id": "Kata kunci (bentuk persis) · wajib / sebaiknya · di mana di CV-ku · kalimat bukti · status ✓ / ✎ / ✗ · penutup (ubah kata / bukti / pelajari / terima)"
+          "id": "Kata kunci (bentuk persis) · wajib / tambahan · di mana di CV-ku · kalimat bukti · status ✓ / ✎ / ✗ · cara menutup (ganti istilah / tambah bukti / pelajari / terima)"
          },
          {
           "en": "Decision: all musts met? ___ · shoulds covered ___ of ___ (≈ two-thirds?) · apply: yes / no",
-          "id": "Keputusan: semua syarat mutlak terpenuhi? ___ · syarat sebaiknya tercakup ___ dari ___ (≈ dua pertiga?) · lamar: ya / tidak"
+          "id": "Keputusan: semua syarat wajib terpenuhi? ___ · syarat tambahan tercakup ___ dari ___ (≈ dua pertiga?) · lamar: ya / tidak"
          }
         ]
        }
@@ -23678,28 +23679,28 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "Seleksi Administrasi: Criteria, Completeness, Consistency",
-      "id": "Seleksi Administrasi: Syarat, Kelengkapan, Konsistensi"
+      "id": "Seleksi Administrasi: Kriteria, Kelengkapan, Konsistensi"
      },
      "overview": {
       "en": "In process-track recruitment, the administrative stage is where strong candidates are most often lost, on a missing file, a wrong format, a major named slightly differently from the accepted list. This lesson teaches a method for decoding requirements and a pre-flight check that makes these losses rare.",
-      "id": "Dalam rekrutmen jalur proses, tahap administrasi adalah tempat kandidat kuat paling sering gugur, karena berkas yang hilang, format yang salah, jurusan yang namanya sedikit berbeda dari daftar yang diterima. Pelajaran ini mengajarkan metode menguraikan persyaratan dan pemeriksaan pra-kirim yang membuat kegagalan itu jarang terjadi."
+      "id": "Dalam rekrutmen berjalur proses, tahap administrasi adalah tempat kandidat kuat paling sering tersingkir: karena satu berkas kurang, format yang salah, atau nama jurusan yang sedikit berbeda dari daftar yang diterima. Pelajaran ini mengajarkan cara membedah persyaratan dan pemeriksaan sebelum kirim yang membuat kegagalan semacam itu jarang terjadi."
      },
      "objectives": [
       {
        "en": "Decode each requirement into competency, qualifier, context and importance.",
-       "id": "Menguraikan setiap persyaratan menjadi kompetensi, kualifikasi, konteks, dan tingkat kepentingan."
+       "id": "Membedah setiap persyaratan menjadi kompetensi, tingkat, konteks, dan bobotnya."
       },
       {
        "en": "Build a pre-flight checklist from any advertisement.",
-       "id": "Membangun daftar periksa pra-kirim dari iklan apa pun."
+       "id": "Menyusun daftar periksa sebelum kirim dari iklan mana pun."
       },
       {
        "en": "Run a consistency sweep across CV, form and LinkedIn.",
-       "id": "Menjalankan sapuan konsistensi di CV, formulir, dan LinkedIn."
+       "id": "Memeriksa konsistensi data di CV, formulir, dan LinkedIn."
       },
       {
        "en": "Answer knockout questions accurately and handle “must” versus “should”.",
-       "id": "Menjawab pertanyaan gugur dengan akurat dan menangani “wajib” versus “sebaiknya”."
+       "id": "Menjawab pertanyaan gugur dengan tepat dan membedakan syarat wajib dari syarat tambahan."
       }
      ],
      "readFirst": {
@@ -23713,21 +23714,21 @@ window.MT_LMS['the-pack'] = {
         "n": "4.4",
         "title": {
          "en": "Seleksi Administrasi: Criteria, Completeness, Consistency",
-         "id": "Seleksi Administrasi: Syarat, Kelengkapan, Konsistensi"
+         "id": "Seleksi Administrasi: Kriteria, Kelengkapan, Konsistensi"
         }
        },
        "story": [
         {
          "en": "Every requirement has an anatomy: competency, qualifier, context, importance",
-         "id": "Setiap persyaratan punya anatomi: kompetensi, kualifikasi, konteks, tingkat kepentingan"
+         "id": "Setiap persyaratan punya anatomi: kompetensi, tingkat, konteks, bobot"
         },
         {
          "en": "The local checklist: six categories whose rules change annually, and the common failure in each",
-         "id": "Daftar periksa lokal: enam kategori yang aturannya berubah tiap tahun, dan kegagalan umum di masing-masing"
+         "id": "Daftar periksa lokal: enam kategori yang aturannya berubah setiap tahun, dan kegagalan yang sering terjadi di masing-masing"
         },
         {
          "en": "The pre-flight: seven steps, three to ten minutes, every time",
-         "id": "Pra-kirim: tujuh langkah, tiga sampai sepuluh menit, setiap kali"
+         "id": "Pemeriksaan sebelum kirim: tujuh langkah, tiga sampai sepuluh menit, setiap kali"
         }
        ],
        "takes": [
@@ -23738,7 +23739,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Essential means a gate: fail it and you are out. Desirable raises your ranking. Treat every stated requirement as essential.",
-          "id": "Esensial berarti gerbang: gagal dan kamu keluar. Tambahan menaikkan peringkatmu. Perlakukan setiap persyaratan yang dinyatakan sebagai esensial."
+          "id": "Wajib berarti gerbang: tidak terpenuhi, kamu gugur. Tambahan menaikkan peringkat. Anggap setiap persyaratan yang tertulis sebagai syarat wajib."
          }
         },
         {
@@ -23748,17 +23749,17 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Programme rules change annually; the categories do not.",
-          "id": "Aturan program berubah tiap tahun; kategorinya tidak."
+          "id": "Aturan program berubah setiap tahun; kategorinya tetap."
          }
         },
         {
          "h": {
           "en": "The pre-flight",
-          "id": "Pra-kirim"
+          "id": "Pemeriksaan sebelum kirim"
          },
          "p": {
           "en": "Inconsistencies read as carelessness at best and dishonesty at worst; recruiters compare the CV with LinkedIn and the form.",
-          "id": "Ketidakkonsistenan terbaca sebagai kecerobohan paling ringan dan ketidakjujuran paling berat; perekrut membandingkan CV dengan LinkedIn dan formulir."
+          "id": "Data yang tidak sama paling baik terkesan ceroboh, paling buruk terkesan tidak jujur; perekrut membandingkan CV dengan LinkedIn dan formulir."
          }
         }
        ],
@@ -23767,38 +23768,38 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Every requirement has an anatomy: competency, qualifier, context, importance",
-          "id": "Setiap persyaratan punya anatomi: kompetensi, kualifikasi, konteks, tingkat kepentingan"
+          "id": "Setiap persyaratan punya anatomi: kompetensi, tingkat, konteks, bobot"
          },
          "cols": [
           {
            "l": {
             "en": "The advertisement says",
-            "id": "Iklan mengatakan"
+            "id": "Iklan menulis"
            },
            "d": {
             "en": "The qualifier",
-            "id": "Kualifikasinya"
+            "id": "Kata penanda tingkat"
            },
            "items": [
             {
              "icon": "star",
              "en": "“Excellent / strong / outstanding”",
-             "id": "“Excellent / strong / outstanding”"
+             "id": "“Sangat baik / kuat / luar biasa”"
             },
             {
              "icon": "book",
              "en": "“Knowledge of / understanding of”",
-             "id": "“Knowledge of / understanding of”"
+             "id": "“Memiliki pengetahuan / pemahaman tentang”"
             },
             {
              "icon": "bolt",
              "en": "“Demonstrated ability”",
-             "id": "“Demonstrated ability”"
+             "id": "“Kemampuan yang terbukti”"
             },
             {
              "icon": "briefcase",
              "en": "“Experience in”",
-             "id": "“Experience in”"
+             "id": "“Berpengalaman di”"
             }
            ],
            "icon": "question"
@@ -23806,32 +23807,32 @@ window.MT_LMS['the-pack'] = {
           {
            "l": {
             "en": "It usually means",
-            "id": "Biasanya berarti"
+            "id": "Biasanya artinya"
            },
            "d": {
             "en": "What to show",
-            "id": "Yang ditunjukkan"
+            "id": "Yang perlu ditunjukkan"
            },
            "items": [
             {
              "icon": "mic",
              "en": "Reasonably good; use positive language yourself",
-             "id": "Cukup baik; pakai bahasa positif sendiri"
+             "id": "Cukup baik; pakai bahasa yang positif untuk dirimu sendiri"
             },
             {
              "icon": "eye",
              "en": "Show you know what it is, with named examples",
-             "id": "Tunjukkan kamu tahu apa itu, dengan contoh bernama"
+             "id": "Tunjukkan bahwa kamu tahu apa itu, lengkap dengan contoh yang disebut namanya"
             },
             {
              "icon": "trophy",
              "en": "You must show you have done it: a specific example with context and result",
-             "id": "Kamu harus menunjukkan pernah melakukannya: contoh spesifik dengan konteks dan hasil"
+             "id": "Kamu harus menunjukkan bahwa kamu pernah melakukannya: contoh spesifik lengkap dengan konteks dan hasil"
             },
             {
              "icon": "layers",
              "en": "Work evidence first, training second",
-             "id": "Bukti kerja dulu, pelatihan kedua"
+             "id": "Bukti dari pengalaman kerja lebih dulu, pelatihan menyusul"
             }
            ],
            "icon": "check"
@@ -23842,22 +23843,22 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "Bright and Earl’s method for public-sector selection criteria translates directly to Indonesian administrative screening.",
-          "id": "Metode Bright dan Earl untuk kriteria seleksi sektor publik diterjemahkan langsung ke seleksi administrasi Indonesia."
+          "id": "Metode Bright dan Earl untuk kriteria seleksi di sektor publik bisa langsung dipakai untuk seleksi administrasi di Indonesia."
          },
          "band": {
           "en": "Essential means a gate: fail it and you are out. Desirable raises your ranking. Treat every stated requirement as essential.",
-          "id": "Esensial berarti gerbang: gagal dan kamu keluar. Tambahan menaikkan peringkatmu. Perlakukan setiap persyaratan yang dinyatakan sebagai esensial."
+          "id": "Wajib berarti gerbang: tidak terpenuhi, kamu gugur. Tambahan menaikkan peringkat. Anggap setiap persyaratan yang tertulis sebagai syarat wajib."
          },
          "em": {
           "en": "competency, qualifier, context, importance",
-          "id": "kompetensi, kualifikasi, konteks, tingkat kepentingan"
+          "id": "kompetensi, tingkat, konteks, bobot"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "The local checklist: six categories whose rules change annually, and the common failure in each",
-          "id": "Daftar periksa lokal: enam kategori yang aturannya berubah tiap tahun, dan kegagalan umum di masing-masing"
+          "id": "Daftar periksa lokal: enam kategori yang aturannya berubah setiap tahun, dan kegagalan yang sering terjadi di masing-masing"
          },
          "layout": "grid",
          "items": [
@@ -23867,7 +23868,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kelayakan",
            "d": {
             "en": "Minimum GPA, maximum age, graduation year, accepted majors. Failure: applying just outside a rule; a major named differently from the list.",
-            "id": "IPK minimum, usia maksimum, tahun lulus, jurusan yang diterima. Kegagalan: melamar sedikit di luar aturan; jurusan dinamai berbeda dari daftar."
+            "id": "IPK minimum, batas usia, tahun lulus, jurusan yang diterima. Kegagalan: melamar padahal sedikit di luar aturan; nama jurusan berbeda dari daftar."
            }
           },
           {
@@ -23876,7 +23877,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Bahasa",
            "d": {
             "en": "TOEFL ITP, TOEIC or IELTS minimum; score validity, often two years. Failure: an expired certificate.",
-            "id": "Minimum TOEFL ITP, TOEIC, atau IELTS; masa berlaku skor, sering dua tahun. Kegagalan: sertifikat kedaluwarsa."
+            "id": "Skor minimum TOEFL ITP, TOEIC, atau IELTS; masa berlaku skor, sering dua tahun. Kegagalan: sertifikat sudah kedaluwarsa."
            }
           },
           {
@@ -23885,16 +23886,16 @@ window.MT_LMS['the-pack'] = {
            "id": "Dokumen",
            "d": {
             "en": "CV, ijazah or SKL, transcript, ID scan, pas foto, sometimes SKCK, health letter, signed statements. Failure: a missing file; an unreadable scan.",
-            "id": "CV, ijazah atau SKL, transkrip, pindaian KTP, pas foto, kadang SKCK, surat sehat, pernyataan bertanda tangan. Kegagalan: berkas hilang; pindaian tak terbaca."
+            "id": "CV, ijazah atau SKL, transkrip, pindaian KTP, pas foto, kadang SKCK, surat keterangan sehat, surat pernyataan bertanda tangan. Kegagalan: berkas kurang; pindaian tidak terbaca."
            }
           },
           {
            "icon": "grid",
            "en": "File specs",
-           "id": "Spesifikasi berkas",
+           "id": "Ketentuan berkas",
            "d": {
             "en": "Format, size, naming, background colour. Failure: a 4 MB photograph where a 500 KB PDF was asked for.",
-            "id": "Format, ukuran, penamaan, warna latar. Kegagalan: foto 4 MB saat diminta PDF 500 KB."
+            "id": "Format, ukuran, penamaan, warna latar. Kegagalan: foto 4 MB padahal yang diminta PDF 500 KB."
            }
           },
           {
@@ -23903,26 +23904,26 @@ window.MT_LMS['the-pack'] = {
            "id": "Pernyataan",
            "d": {
             "en": "Willingness to be placed, bond terms, truth of information. Failure: a false “yes” that is a document.",
-            "id": "Kesediaan ditempatkan, syarat ikatan dinas, kebenaran informasi. Kegagalan: “ya” palsu yang menjadi dokumen."
+            "id": "Kesediaan ditempatkan, ketentuan ikatan dinas, kebenaran data. Kegagalan: “ya” palsu yang tercatat sebagai dokumen resmi."
            }
           },
           {
            "icon": "table",
            "en": "Form fields",
-           "id": "Kolom formulir",
+           "id": "Isian formulir",
            "d": {
             "en": "GPA in the portal’s format, the accepted major name, dates matching the CV. Failure: 3,4 on the form, 3,38 on the CV.",
-            "id": "IPK dalam format portal, nama jurusan yang diterima, tanggal sesuai CV. Kegagalan: 3,4 di formulir, 3,38 di CV."
+            "id": "IPK dalam format portal, nama jurusan yang diterima, tanggal yang sama dengan CV. Kegagalan: 3,4 di formulir, 3,38 di CV."
            }
           }
          ],
          "sub": {
           "en": "Verify each programme’s rules every cycle; the categories do not change, the thresholds do.",
-          "id": "Verifikasi aturan setiap program setiap siklus; kategorinya tidak berubah, ambangnya berubah."
+          "id": "Cek ulang aturan setiap program di setiap periode; kategorinya tetap, ambang batasnya yang berubah."
          },
          "band": {
           "en": "Programme rules change annually; the categories do not.",
-          "id": "Aturan program berubah tiap tahun; kategorinya tidak."
+          "id": "Aturan program berubah setiap tahun; kategorinya tetap."
          },
          "em": {
           "en": "six categories",
@@ -23933,7 +23934,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "The pre-flight: seven steps, three to ten minutes, every time",
-          "id": "Pra-kirim: tujuh langkah, tiga sampai sepuluh menit, setiap kali"
+          "id": "Pemeriksaan sebelum kirim: tujuh langkah, tiga sampai sepuluh menit, setiap kali"
          },
          "img": "../../assets/bg/pack.jpg",
          "layout": "flow",
@@ -23950,7 +23951,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "check",
            "en": "Coverage check",
-           "id": "Pemeriksaan cakupan",
+           "id": "Cek cakupan",
            "d": {
             "en": "Every must-have in its exact form, inside evidence.",
             "id": "Setiap syarat wajib dalam bentuk persis, di dalam bukti."
@@ -23959,37 +23960,37 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "filter",
            "en": "Requirement triage",
-           "id": "Triase persyaratan",
+           "id": "Pilah persyaratan",
            "d": {
             "en": "Every stated requirement met, or the honest decision not to apply.",
-            "id": "Setiap persyaratan terpenuhi, atau keputusan jujur untuk tidak melamar."
+            "id": "Setiap persyaratan yang tertulis terpenuhi, atau keputusan jujur untuk tidak melamar."
            }
           },
           {
            "icon": "doc",
            "en": "Document check",
-           "id": "Pemeriksaan dokumen",
+           "id": "Cek dokumen",
            "d": {
             "en": "Every file present, readable, within the limit, named as asked.",
-            "id": "Setiap berkas ada, terbaca, dalam batas, dinamai seperti diminta."
+            "id": "Setiap berkas ada, terbaca, di bawah batas ukuran, dan diberi nama sesuai permintaan."
            }
           },
           {
            "icon": "link",
            "en": "Consistency sweep",
-           "id": "Sapuan konsistensi",
+           "id": "Cek konsistensi",
            "d": {
             "en": "Dates, titles and GPA identical across CV, form and LinkedIn.",
-            "id": "Tanggal, jabatan, dan IPK identik di CV, formulir, dan LinkedIn."
+            "id": "Tanggal, jabatan, dan IPK sama persis di CV, formulir, dan LinkedIn."
            }
           },
           {
            "icon": "shield",
            "en": "Knockout answers",
-           "id": "Jawaban gugur",
+           "id": "Jawaban pertanyaan gugur",
            "d": {
             "en": "Truthful; a false yes may pass the software and end your candidacy later.",
-            "id": "Jujur; ya yang palsu bisa lolos perangkat lunak dan mengakhiri pencalonanmu nanti."
+            "id": "Jujur; “ya” yang palsu bisa lolos perangkat lunak, lalu mengakhiri lamaranmu belakangan."
            }
           },
           {
@@ -23998,17 +23999,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Kirim dan catat",
            "d": {
             "en": "Send it to yourself first for email; record the version in the tracker.",
-            "id": "Kirim ke dirimu dulu untuk surel; catat versinya di pelacak."
+            "id": "Untuk email, kirim ke dirimu sendiri dulu; catat versinya di pelacak."
            }
           }
          ],
          "sub": {
           "en": "One record, many formats: the pantry is the single source, and every document copies from it.",
-          "id": "Satu rekaman, banyak format: lemari adalah sumber tunggal, dan setiap dokumen menyalin darinya."
+          "id": "Satu sumber data, banyak format: isi lemari menjadi satu-satunya sumber, dan setiap dokumen menyalin darinya."
          },
          "band": {
           "en": "Inconsistencies read as carelessness at best and dishonesty at worst; recruiters compare the CV with LinkedIn and the form.",
-          "id": "Ketidakkonsistenan terbaca sebagai kecerobohan paling ringan dan ketidakjujuran paling berat; perekrut membandingkan CV dengan LinkedIn dan formulir."
+          "id": "Data yang tidak sama paling baik terkesan ceroboh, paling buruk terkesan tidak jujur; perekrut membandingkan CV dengan LinkedIn dan formulir."
          },
          "em": {
           "en": "every time",
@@ -24027,11 +24028,11 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "The instruction is the test",
-       "id": "Petunjuk adalah ujiannya"
+       "id": "Instruksinya adalah ujiannya"
       },
       "intro": {
        "en": "Requirements have an anatomy, portals have a checklist, and every submission gets a three-to-ten-minute pre-flight.",
-       "id": "Persyaratan punya anatomi, portal punya daftar periksa, dan setiap pengiriman mendapat pra-kirim tiga sampai sepuluh menit."
+       "id": "Setiap persyaratan punya anatomi, setiap portal punya daftar periksa, dan setiap pengiriman didahului pemeriksaan tiga sampai sepuluh menit."
       },
       "slides": [
        {
@@ -24042,11 +24043,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Competency · qualifier · context · importance (essential or desirable).",
-          "id": "Kompetensi · kualifikasi · konteks · tingkat kepentingan (esensial atau tambahan)."
+          "id": "Kompetensi · tingkat · konteks · bobot (wajib atau tambahan)."
          },
          {
           "en": "“Demonstrated” means you must show you have done it. Essential means a gate.",
-          "id": "“Terbukti” berarti kamu harus menunjukkan pernah melakukannya. Esensial berarti gerbang."
+          "id": "“Terbukti” berarti kamu harus menunjukkan bahwa kamu pernah melakukannya. Wajib berarti gerbang."
          }
         ]
        },
@@ -24058,27 +24059,27 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Eligibility · language certificates · documents · file specs · declarations · form fields.",
-          "id": "Kelayakan · sertifikat bahasa · dokumen · spesifikasi berkas · pernyataan · kolom formulir."
+          "id": "Kelayakan · sertifikat bahasa · dokumen · ketentuan berkas · pernyataan · isian formulir."
          },
          {
           "en": "Treat every stated requirement as essential, and verify each programme’s rules every cycle.",
-          "id": "Perlakukan setiap persyaratan yang dinyatakan sebagai esensial, dan periksa aturan setiap program setiap siklus."
+          "id": "Anggap setiap persyaratan yang tertulis sebagai syarat wajib, dan cek ulang aturan setiap program di setiap periode rekrutmen."
          }
         ]
        },
        {
         "h": {
          "en": "The pre-flight",
-         "id": "Pra-kirim"
+         "id": "Pemeriksaan sebelum kirim"
         },
         "points": [
          {
           "en": "Parse test · coverage check · requirement triage · document check · consistency sweep · knockout answers · submit and track.",
-          "id": "Uji urai · pemeriksaan cakupan · triase persyaratan · pemeriksaan dokumen · sapuan konsistensi · jawaban gugur · kirim dan catat."
+          "id": "Uji urai · cek cakupan · pilah persyaratan · cek dokumen · cek konsistensi · jawaban pertanyaan gugur · kirim dan catat."
          },
          {
           "en": "Three to ten minutes, every time. One record, many formats.",
-          "id": "Tiga sampai sepuluh menit, setiap kali. Satu rekaman, banyak format."
+          "id": "Tiga sampai sepuluh menit, setiap kali. Satu sumber data, banyak format."
          }
         ]
        }
@@ -24093,38 +24094,38 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bright &amp; Earl’s method for public-sector <i>selection criteria</i> translates directly to administrative screening in any market, Indonesia included <i>(How to Write a Brilliant CV, ch. 15)</i>. Each requirement has a <b>competency</b> (e.g., communication, analysis); a <b>qualifier</b>: the level required; a <b>context</b>: where it must be shown; and an <b>importance</b>: <i>essential</i> (fail it and you are out) or <i>desirable</i> (raises your ranking). The qualifier decoder:",
-        "id": "Metode Bright &amp; Earl untuk <i>kriteria seleksi</i> sektor publik berlaku langsung pada seleksi administrasi Indonesia <i>(How to Write a Brilliant CV, bab 15)</i>. Setiap persyaratan punya <b>kompetensi</b> (mis. komunikasi, analisis); <b>kualifikasi</b>: tingkat yang diminta; <b>konteks</b>: di mana harus ditunjukkan; dan <b>tingkat kepentingan</b>: <i>esensial</i> (gagal berarti gugur) atau <i>tambahan</i> (menaikkan peringkat). Pengurai kualifikasi:"
+        "id": "Metode Bright &amp; Earl untuk <i>kriteria seleksi</i> di sektor publik bisa langsung dipakai untuk seleksi administrasi di pasar mana pun, termasuk Indonesia <i>(How to Write a Brilliant CV, bab 15)</i>. Setiap persyaratan punya <b>kompetensi</b> (misalnya komunikasi, analisis); <b>tingkat</b>, yaitu level yang diminta; <b>konteks</b>, yaitu di mana kemampuan itu harus ditunjukkan; dan <b>bobot</b>: <i>wajib</i> (tidak terpenuhi berarti gugur) atau <i>tambahan</i> (menaikkan peringkat). Cara membaca kata penanda tingkat:"
        },
        "table": {
         "cols": [
          {
           "en": "The advertisement says",
-          "id": "Iklan berkata"
+          "id": "Iklan menulis"
          },
          {
           "en": "It usually means",
-          "id": "Biasanya berarti"
+          "id": "Biasanya artinya"
          }
         ],
         "rows": [
          [
           {
            "en": "“excellent / strong / outstanding”",
-           "id": "“sangat baik / kuat / unggul”"
+           "id": "“sangat baik / kuat / luar biasa”"
           },
           {
            "en": "Reasonably good: use positive language yourself",
-           "id": "Cukup baik: pakai bahasa positif sendiri"
+           "id": "Cukup baik; pakai bahasa yang positif untuk dirimu sendiri"
           }
          ],
          [
           {
            "en": "“knowledge of / understanding of”",
-           "id": "“pengetahuan tentang / pemahaman tentang”"
+           "id": "“memiliki pengetahuan / pemahaman tentang”"
           },
           {
            "en": "Show you know what it is, with named examples",
-           "id": "Tunjukkan kamu tahu apa itu, dengan contoh bernama"
+           "id": "Tunjukkan bahwa kamu tahu apa itu, lengkap dengan contoh yang disebut namanya"
           }
          ],
          [
@@ -24134,24 +24135,24 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "You must show you have <i>done</i> it: a specific example with context and result",
-           "id": "Kamu harus menunjukkan pernah <i>melakukannya</i>: contoh spesifik dengan konteks dan hasil"
+           "id": "Kamu harus menunjukkan bahwa kamu pernah <i>melakukannya</i>: satu contoh spesifik lengkap dengan konteks dan hasil"
           }
          ],
          [
           {
            "en": "“experience in”",
-           "id": "“pengalaman di”"
+           "id": "“berpengalaman di”"
           },
           {
            "en": "Work evidence first, training second",
-           "id": "Bukti kerja lebih dulu, pelatihan kedua"
+           "id": "Bukti dari pengalaman kerja lebih dulu, pelatihan menyusul"
           }
          ]
         ]
        },
        "key": {
         "en": "Each requirement has a competency, a level, a context and an importance; read all four before you answer it.",
-        "id": "Setiap syarat punya kompetensi, tingkat, konteks, dan bobot kepentingan; baca keempatnya sebelum menjawabnya."
+        "id": "Setiap persyaratan punya kompetensi, tingkat, konteks, dan bobot. Baca keempatnya sebelum menjawab."
        }
       },
       {
@@ -24160,11 +24161,11 @@ window.MT_LMS['the-pack'] = {
        "imgPos": "center 40%",
        "h": {
         "en": "The local administrative checklist",
-        "id": "Daftar periksa administrasi Indonesia"
+        "id": "Daftar periksa administrasi lokal"
        },
        "body": {
         "en": "Treat every stated requirement as essential <span class=\"ev ev-verify\">Verify for each programme, every cycle</span>. Programme rules change annually; the categories do not.",
-        "id": "Perlakukan setiap persyaratan yang dinyatakan sebagai esensial <span class=\"ev ev-verify\">Periksa untuk setiap program, setiap siklus</span>. Aturan program berubah tiap tahun; kategorinya tidak."
+        "id": "Anggap setiap persyaratan yang tertulis sebagai syarat wajib <span class=\"ev ev-verify\">Cek di tiap program, setiap periode</span>. Aturan program berubah setiap tahun, tetapi kategorinya tetap."
        },
        "table": {
         "cols": [
@@ -24174,11 +24175,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Typical requirements",
-          "id": "Persyaratan khas"
+          "id": "Persyaratan yang lazim"
          },
          {
           "en": "Common failure",
-          "id": "Kegagalan umum"
+          "id": "Kegagalan yang sering terjadi"
          }
         ],
         "rows": [
@@ -24189,11 +24190,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Minimum GPA (sometimes different for state and private universities); maximum age; graduation year; accepted majors (<i>jurusan</i>)",
-           "id": "IPK minimum (kadang berbeda untuk PTN dan PTS); usia maksimum; tahun lulus; jurusan yang diterima"
+           "id": "IPK minimum (kadang berbeda untuk PTN dan PTS); batas usia; tahun lulus; jurusan yang diterima"
           },
           {
            "en": "Applying just outside a rule; major named differently from the list",
-           "id": "Melamar sedikit di luar aturan; jurusan dinamai berbeda dari daftar"
+           "id": "Melamar padahal sedikit di luar aturan; nama jurusan berbeda dari daftar"
           }
          ],
          [
@@ -24203,11 +24204,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) / TOEIC / IELTS (International English Language Testing System) minimum; score validity (often 2 years)",
-           "id": "Minimum TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) / TOEIC / IELTS (International English Language Testing System); masa berlaku skor (sering 2 tahun)"
+           "id": "Skor minimum TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) / TOEIC / IELTS (International English Language Testing System); masa berlaku skor (sering 2 tahun)"
           },
           {
            "en": "Expired certificate",
-           "id": "Sertifikat kedaluwarsa"
+           "id": "Sertifikat sudah kedaluwarsa"
           }
          ],
          [
@@ -24217,21 +24218,21 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "CV; <i>ijazah</i> or <i>Surat Keterangan Lulus</i>; transcript; national ID card scan; <i>pas foto</i>; sometimes <i>SKCK</i>, health letter, signed statements",
-           "id": "CV; <i>ijazah</i> atau <i>Surat Keterangan Lulus</i>; transkrip; pindaian KTP (kartu tanda penduduk); <i>pas foto</i>; kadang <i>SKCK</i>, surat kesehatan, pernyataan bertanda tangan"
+           "id": "CV; <i>ijazah</i> atau <i>Surat Keterangan Lulus</i>; transkrip; pindaian KTP (kartu tanda penduduk); <i>pas foto</i>; kadang <i>SKCK</i>, surat keterangan sehat, surat pernyataan bertanda tangan"
           },
           {
            "en": "Missing file; unreadable scan",
-           "id": "Berkas hilang; pindaian tidak terbaca"
+           "id": "Berkas kurang; pindaian tidak terbaca"
           }
          ],
          [
           {
            "en": "<b>File specs</b>",
-           "id": "<b>Spesifikasi berkas</b>"
+           "id": "<b>Ketentuan berkas</b>"
           },
           {
            "en": "Format (PDF/JPG); maximum size; naming convention",
-           "id": "Format (PDF/JPG); ukuran maksimum; konvensi penamaan"
+           "id": "Format (PDF/JPG); ukuran maksimum; aturan penamaan"
           },
           {
            "en": "4 MB scan where 1 MB allowed",
@@ -24245,43 +24246,43 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Willingness to be placed anywhere (<i>bersedia ditempatkan di seluruh Indonesia</i>); bond (<i>ikatan dinas</i>); not currently in another programme",
-           "id": "Kesediaan ditempatkan di mana saja (<i>bersedia ditempatkan di seluruh negeri</i>); ikatan dinas; tidak sedang mengikuti program lain"
+           "id": "Kesediaan ditempatkan di mana saja (<i>bersedia ditempatkan di seluruh Indonesia</i>); ikatan dinas; tidak sedang mengikuti program lain"
           },
           {
            "en": "Ticking “yes” without meaning it",
-           "id": "Mencentang “ya” tanpa bersungguh-sungguh"
+           "id": "Mencentang “ya” tanpa sungguh-sungguh"
           }
          ],
          [
           {
            "en": "<b>Form fields</b>",
-           "id": "<b>Kolom formulir</b>"
+           "id": "<b>Isian formulir</b>"
           },
           {
            "en": "Every field complete and matching the CV",
-           "id": "Setiap kolom lengkap dan sesuai CV"
+           "id": "Semua isian lengkap dan sama dengan CV"
           },
           {
            "en": "Blank optional fields; inconsistent dates",
-           "id": "Kolom opsional dibiarkan kosong; tanggal tidak konsisten"
+           "id": "Isian opsional dibiarkan kosong; tanggal tidak konsisten"
           }
          ]
         ]
        },
        "key": {
         "en": "Treat every stated administrative requirement as essential and verify it for each programme, every cycle.",
-        "id": "Perlakukan setiap syarat administratif yang tertulis sebagai mutlak, dan verifikasi untuk tiap program, tiap siklus."
+        "id": "Anggap setiap persyaratan administrasi yang tertulis sebagai syarat wajib, dan cek ulang di setiap program, setiap periode rekrutmen."
        }
       },
       {
        "icon": "gear",
        "h": {
         "en": "The pre-flight routine",
-        "id": "Rutinitas pra-kirim"
+        "id": "Rutinitas sebelum kirim"
        },
        "body": {
         "en": "Before any submission, seven steps. Three to ten minutes, every time.",
-        "id": "Sebelum pengiriman apa pun, tujuh langkah. Tiga sampai sepuluh menit, setiap kali."
+        "id": "Sebelum mengirim lamaran apa pun, jalankan tujuh langkah. Tiga sampai sepuluh menit, setiap kali."
        },
        "bullets": [
         {
@@ -24290,47 +24291,47 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "<b>Coverage check</b> (Lesson 4.3).",
-         "id": "<b>Pemeriksaan cakupan</b> (Pelajaran 4.3)."
+         "id": "<b>Cek cakupan</b> (Pelajaran 4.3)."
         },
         {
          "en": "<b>Requirement triage</b>: every must: met? evidenced? Every should: how many?",
-         "id": "<b>Triase persyaratan</b>: setiap syarat wajib: terpenuhi? dibuktikan? Setiap syarat sebaiknya: berapa banyak?"
+         "id": "<b>Pilah persyaratan</b>: setiap syarat wajib sudah terpenuhi dan ada buktinya? Berapa syarat tambahan yang terpenuhi?"
         },
         {
          "en": "<b>Document check</b>: every file present, readable, correct format and size, correctly named (e.g., <code>NadiaPutri_Ijazah.pdf</code>).",
-         "id": "<b>Pemeriksaan dokumen</b>: setiap berkas ada, terbaca, format dan ukuran benar, dinamai dengan benar (mis. <code>NadiaPutri_Ijazah.pdf</code>)."
+         "id": "<b>Cek dokumen</b>: setiap berkas ada, terbaca, formatnya benar, ukurannya pas, dan namanya jelas (misalnya <code>NadiaPutri_Ijazah.pdf</code>)."
         },
         {
          "en": "<b>Consistency sweep</b>: names, dates, titles, GPA and institution identical across CV, portal form, LinkedIn and letter.",
-         "id": "<b>Sapuan konsistensi</b>: nama, tanggal, jabatan, IPK, dan institusi identik di CV, formulir portal, LinkedIn, dan surat."
+         "id": "<b>Cek konsistensi</b>: nama, tanggal, jabatan, IPK, dan kampus sama persis di CV, formulir portal, LinkedIn, dan surat lamaran."
         },
         {
          "en": "<b>Knockout answers</b>: every eligibility question answered accurately.",
-         "id": "<b>Jawaban gugur</b>: setiap pertanyaan kelayakan dijawab dengan akurat."
+         "id": "<b>Jawaban pertanyaan gugur</b>: setiap pertanyaan kelayakan dijawab dengan tepat."
         },
         {
          "en": "<b>Submit and track</b>: screenshot the confirmation; log it with the CV version.",
-         "id": "<b>Kirim dan catat</b>: tangkap layar konfirmasi; catat bersama versi CV."
+         "id": "<b>Kirim dan catat</b>: tangkap layar halaman konfirmasi; catat di pelacak beserta versi CV-nya."
         }
        ],
        "key": {
-        "en": "Seven steps, three to ten minutes, before every submission: parse, coverage, triage, documents, consistency, instructions, send to yourself.",
-        "id": "Tujuh langkah, tiga sampai sepuluh menit, sebelum setiap pengiriman: urai, cakupan, triase, dokumen, konsistensi, instruksi, kirim ke diri sendiri."
+        "en": "Seven steps, three to ten minutes, before every submission: parse, coverage, triage, documents, consistency, knockout answers, submit and track.",
+        "id": "Tujuh langkah, tiga sampai sepuluh menit, sebelum setiap pengiriman: uji urai, cakupan, pilah persyaratan, dokumen, konsistensi, jawaban pertanyaan gugur, kirim dan catat."
        }
       },
       {
        "icon": "eye",
        "h": {
         "en": "Consistency is a criterion",
-        "id": "Konsistensi adalah kriteria"
+        "id": "Konsistensi juga dinilai"
        },
        "body": {
         "en": "Inconsistencies between your documents read, at best, as carelessness and, at worst, as dishonesty <i>(Knowles, How to Write an Outstanding CV, ch. 16; Simunovic, How to Write an Effective CV &amp; Cover Letter, §6.2)</i>. Recruiters compare the CV with LinkedIn and with what you typed into the form. Common mismatches: internship dates differing by a month; “Bendahara” on one document and “Treasurer” with a different period on another; GPA rounded differently (3,38 on the CV, 3,4 in the form). One record, many formats: the pantry from Lesson 3.3 is the single source, and every document copies from it.",
-        "id": "Ketidakkonsistenan antardokumenmu terbaca, paling ringan, sebagai kecerobohan dan, paling berat, sebagai ketidakjujuran <i>(Knowles, How to Write an Outstanding CV, bab 16; Simunovic, How to Write an Effective CV &amp; Cover Letter, §6.2)</i>. Perekrut membandingkan CV dengan LinkedIn dan dengan yang kamu ketik di formulir. Ketidakcocokan umum: tanggal magang berbeda sebulan; “Bendahara” di satu dokumen dan “Treasurer” dengan periode berbeda di dokumen lain; IPK dibulatkan berbeda (3,38 di CV, 3,4 di formulir). Satu rekaman, banyak format: lemari dari Pelajaran 3.3 adalah sumber tunggal, dan setiap dokumen menyalin darinya."
+        "id": "Data yang tidak sama antardokumen paling baik terkesan ceroboh, paling buruk terkesan tidak jujur <i>(Knowles, How to Write an Outstanding CV, bab 16; Simunovic, How to Write an Effective CV &amp; Cover Letter, §6.2)</i>. Perekrut membandingkan CV dengan LinkedIn dan dengan apa yang kamu ketik di formulir. Ketidakcocokan yang sering terjadi: tanggal magang selisih sebulan; “Bendahara” di satu dokumen dan “Treasurer” dengan periode berbeda di dokumen lain; IPK dibulatkan berbeda (3,38 di CV, 3,4 di formulir). Satu sumber data, banyak format: isi lemari dari Pelajaran 3.3 menjadi satu-satunya sumber, dan setiap dokumen menyalin darinya."
        },
        "key": {
         "en": "Recruiters compare the CV, LinkedIn and the form; mismatches read as carelessness at best and dishonesty at worst.",
-        "id": "Perekrut membandingkan CV, LinkedIn, dan formulir; ketidaksesuaian terbaca sebagai kecerobohan paling ringan, ketidakjujuran paling berat."
+        "id": "Perekrut membandingkan CV, LinkedIn, dan formulir. Data yang tidak sama paling baik terkesan ceroboh, paling buruk terkesan tidak jujur."
        }
       },
       {
@@ -24341,47 +24342,47 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "“Are you willing to be placed anywhere in the country?” “Do you have a TOEFL score of at least 500?” These questions are the most efficient filters in the funnel. Answer them accurately. A false “yes” may pass the software and then end your candidacy, or your employment, when discovered; programmes with placement and bond commitments take these answers seriously, and a signed declaration is a document. If the honest answer is “no”, the posting is telling you something about fit, not about your worth.",
-        "id": "“Apakah Anda bersedia ditempatkan di seluruh negeri?” “Apakah Anda memiliki skor TOEFL minimal 500?” Pertanyaan-pertanyaan ini adalah saringan paling efisien di corong. Jawab dengan akurat. “Ya” yang palsu mungkin lolos perangkat lunak lalu mengakhiri pencalonanmu, atau pekerjaanmu, ketika ketahuan; program dengan komitmen penempatan dan ikatan dinas menganggap jawaban ini serius, dan pernyataan bertanda tangan adalah dokumen. Jika jawaban jujurnya “tidak”, lowongan itu memberi tahu sesuatu tentang kecocokan, bukan tentang nilaimu."
+        "id": "“Apakah Anda bersedia ditempatkan di seluruh Indonesia?” “Apakah Anda memiliki skor TOEFL minimal 500?” Pertanyaan semacam ini adalah saringan paling efisien di seluruh corong. Jawablah dengan tepat. “Ya” yang palsu mungkin lolos dari perangkat lunak, tetapi kemudian bisa mengakhiri pencalonanmu, atau bahkan pekerjaanmu, begitu ketahuan. Program dengan penempatan dan ikatan dinas menganggap serius jawaban ini, dan pernyataan yang kamu tanda tangani adalah dokumen resmi. Kalau jawaban jujurnya “tidak”, lowongan itu sedang memberitahumu soal kecocokan, bukan soal nilai dirimu."
        },
        "key": {
         "en": "Knockout questions are the funnel’s most efficient filters; answer them truthfully, because a false yes ends later and worse.",
-        "id": "Pertanyaan gugur adalah saringan paling efisien di corong; jawab dengan jujur, karena “ya” yang palsu berakhir belakangan dan lebih buruk."
+        "id": "Pertanyaan gugur adalah saringan paling efisien di corong. Jawab dengan jujur, karena “ya” yang palsu akan berakhir lebih lambat dan lebih buruk."
        }
       },
       {
        "icon": "chat",
        "h": {
         "en": "Submitting by email",
-        "id": "Mengirim lewat email"
+        "id": "Melamar lewat email"
        },
        "body": {
         "en": "Where applications go by email <i>(Innes, The CV Book, ch. 2; Simunovic, §7.3)</i>: subject line <code>Lamaran, [Posisi], [Nama Lengkap]</code>, or the format the advertisement specifies; the cover letter in the email body; files attached with clear names; a proper signature with phone number; never CC multiple employers. Send it to yourself first to see what the recruiter will see, attachments included, names visible, nothing missing.",
-        "id": "Ketika lamaran dikirim lewat email <i>(Innes, The CV Book, bab 2; Simunovic, §7.3)</i>: baris subjek <code>Lamaran, [Posisi], [Nama Lengkap]</code>, atau format yang ditentukan iklan; surat lamaran di badan email; berkas dilampirkan dengan nama jelas; tanda tangan yang layak dengan nomor telepon; jangan pernah CC beberapa perusahaan. Kirim ke dirimu sendiri lebih dulu untuk melihat apa yang akan dilihat perekrut; termasuk lampiran, nama terlihat, tidak ada yang hilang."
+        "id": "Kalau lamaran dikirim lewat email <i>(Innes, The CV Book, bab 2; Simunovic, §7.3)</i>: baris subjek <code>Lamaran, [Posisi], [Nama Lengkap]</code>, atau format yang ditentukan iklan; surat lamaran ditulis di badan email; berkas dilampirkan dengan nama yang jelas; tanda tangan yang rapi lengkap dengan nomor telepon; dan jangan pernah mengirim satu email ke beberapa perusahaan sekaligus lewat CC. Kirim dulu ke alamatmu sendiri untuk melihat apa yang akan dilihat perekrut: lampirannya ada, namanya terbaca, tidak ada yang tertinggal."
        },
        "key": {
         "en": "By email, the subject line files the application, the body is the letter, the files have clear names, and you send it to yourself first.",
-        "id": "Lewat email, baris subjek mengarsipkan lamaran, badan email adalah suratnya, berkasnya bernama jelas, dan kamu kirim ke dirimu sendiri lebih dulu."
+        "id": "Lewat email: subjek menjadi label lamaran, badan email adalah surat lamaranmu, berkas diberi nama yang jelas, dan kirim ke dirimu sendiri lebih dulu."
        }
       },
       {
        "icon": "book",
        "h": {
         "en": "Walkthrough: eight fields on a fictional officer programme portal",
-        "id": "Penelusuran: delapan kolom di portal ODP fiktif"
+        "id": "Simulasi: delapan isian di portal program officer fiktif"
        },
        "body": {
         "en": "Bank Sinar Nusantara’s portal is fictional, but its fields are the ones you will meet. Eight places where applications fail, and what to do at each.",
-        "id": "Portal Bank Sinar Nusantara fiktif, tetapi kolom-kolomnya adalah yang akan kamu temui. Delapan tempat lamaran gagal, dan apa yang harus dilakukan di masing-masing."
+        "id": "Portal Bank Sinar Nusantara ini fiktif, tetapi isian-isiannya sama dengan yang akan kamu temui. Ada delapan titik tempat lamaran sering gugur, dan apa yang perlu kamu lakukan di masing-masing."
        },
        "table": {
         "cols": [
          {
           "en": "Field",
-          "id": "Kolom"
+          "id": "Isian"
          },
          {
           "en": "What to do",
-          "id": "Apa yang harus dilakukan"
+          "id": "Yang perlu dilakukan"
          }
         ],
         "rows": [
@@ -24392,17 +24393,17 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Exact, in the portal’s format: 3,38, never rounded to 3,4",
-           "id": "Tepat, dalam format portal: 3,38, jangan dibulatkan ke 3,4"
+           "id": "Tulis persis, sesuai format portal: 3,38, jangan dibulatkan menjadi 3,4"
           }
          ],
          [
           {
            "en": "<b>Jurusan drop-down</b>",
-           "id": "<b>Menu jurusan</b>"
+           "id": "<b>Menu pilihan jurusan</b>"
           },
           {
            "en": "Select the accepted name for your major (“Manajemen”), not “Other”",
-           "id": "Pilih nama jurusanmu yang diterima (“Manajemen”), bukan “Lainnya”"
+           "id": "Pilih nama jurusan yang diterima (“Manajemen”), bukan “Lainnya”"
           }
          ],
          [
@@ -24412,7 +24413,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Check the test date against the validity window before uploading",
-           "id": "Periksa tanggal tes dengan masa berlaku sebelum mengunggah"
+           "id": "Cocokkan tanggal tes dengan masa berlakunya sebelum mengunggah"
           }
          ],
          [
@@ -24422,7 +24423,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "A legible scan within the size limit; the number goes here and nowhere else",
-           "id": "Pindaian terbaca dalam batas ukuran; nomornya di sini dan tidak di tempat lain"
+           "id": "Pindaian yang terbaca jelas dan di bawah batas ukuran; nomor KTP hanya ditulis di sini, tidak di tempat lain"
           }
          ],
          [
@@ -24432,44 +24433,44 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Separate file, the specified background and size, not pasted into the CV",
-           "id": "Berkas terpisah, latar dan ukuran yang ditentukan, bukan ditempel ke CV"
+           "id": "Berkas terpisah, dengan warna latar dan ukuran sesuai ketentuan, bukan ditempel di CV"
           }
          ],
          [
           {
            "en": "<b>“Bersedia ditempatkan” checkbox</b>",
-           "id": "<b>Kotak “bersedia ditempatkan”</b>"
+           "id": "<b>Kotak centang “Bersedia ditempatkan”</b>"
           },
           {
            "en": "Truthful. It is a declaration, not a formality",
-           "id": "Jujur. Ini pernyataan, bukan formalitas"
+           "id": "Jawab dengan jujur. Ini pernyataan, bukan formalitas"
           }
          ],
          [
           {
            "en": "<b>Optional “organisational experience” field</b>",
-           "id": "<b>Kolom opsional “pengalaman organisasi”</b>"
+           "id": "<b>Isian opsional “pengalaman organisasi”</b>"
           },
           {
            "en": "Fill it: for graduates it is evidence, and blank optional fields lose ranking",
-           "id": "Isi: bagi lulusan baru itu bukti, dan kolom opsional yang kosong kehilangan peringkat"
+           "id": "Isi: bagi lulusan baru, ini bukti, dan isian opsional yang kosong menurunkan peringkat"
           }
          ],
          [
           {
            "en": "<b>Confirmation screen</b>",
-           "id": "<b>Layar konfirmasi</b>"
+           "id": "<b>Halaman konfirmasi</b>"
           },
           {
            "en": "Screenshot it; log the date and CV version in the tracker",
-           "id": "Tangkap layarnya; catat tanggal dan versi CV di pelacak"
+           "id": "Tangkap layar; catat tanggal dan versi CV di pelacak"
           }
          ]
         ]
        },
        "key": {
         "en": "Eight portal fields where applications fail, and a routine answer for each.",
-        "id": "Delapan kolom portal tempat lamaran gagal, dan jawaban rutin untuk masing-masing."
+        "id": "Delapan isian portal tempat lamaran sering gugur, dan jawaban rutin untuk masing-masing."
        }
       }
      ],
@@ -24477,7 +24478,7 @@ window.MT_LMS['the-pack'] = {
       "type": "timeline",
       "exhibit": {
        "en": "Exhibit 14: The seven-step pre-flight",
-       "id": "Peraga 14: Pra-kirim tujuh langkah"
+       "id": "Peraga 14: Tujuh langkah sebelum kirim"
       },
       "title": {
        "en": "Three to ten minutes before every submission",
@@ -24492,14 +24493,14 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Plain text reads in order with dates attached.",
-         "id": "Teks polos terbaca berurutan dengan tanggal melekat."
+         "id": "Teks polos terbaca berurutan, tanggal menempel pada perannya."
         }
        },
        {
         "icon": "target",
         "h": {
          "en": "2 · Coverage check",
-         "id": "2 · Pemeriksaan cakupan"
+         "id": "2 · Cek cakupan"
         },
         "sub": {
          "en": "Every must-have, exact form, in true evidence.",
@@ -24510,44 +24511,44 @@ window.MT_LMS['the-pack'] = {
         "icon": "flag",
         "h": {
          "en": "3 · Requirement triage",
-         "id": "3 · Triase persyaratan"
+         "id": "3 · Pilah persyaratan"
         },
         "sub": {
          "en": "Musts met and evidenced; shoulds counted.",
-         "id": "Syarat wajib terpenuhi dan dibuktikan; syarat sebaiknya dihitung."
+         "id": "Syarat wajib terpenuhi dan ada buktinya; syarat tambahan dihitung."
         }
        },
        {
         "icon": "book",
         "h": {
          "en": "4 · Document check",
-         "id": "4 · Pemeriksaan dokumen"
+         "id": "4 · Cek dokumen"
         },
         "sub": {
          "en": "Present · readable · format · size · named.",
-         "id": "Ada · terbaca · format · ukuran · dinamai."
+         "id": "Ada · terbaca · format · ukuran · nama berkas."
         }
        },
        {
         "icon": "eye",
         "h": {
          "en": "5 · Consistency sweep",
-         "id": "5 · Sapuan konsistensi"
+         "id": "5 · Cek konsistensi"
         },
         "sub": {
          "en": "CV, form, LinkedIn, letter: identical names, dates, titles, GPA.",
-         "id": "CV, formulir, LinkedIn, surat: nama, tanggal, jabatan, IPK identik."
+         "id": "CV, formulir, LinkedIn, surat: nama, tanggal, jabatan, IPK sama persis."
         }
        },
        {
         "icon": "compass",
         "h": {
          "en": "6 · Knockout answers",
-         "id": "6 · Jawaban gugur"
+         "id": "6 · Jawaban pertanyaan gugur"
         },
         "sub": {
          "en": "Accurate. A declaration is a document.",
-         "id": "Akurat. Pernyataan adalah dokumen."
+         "id": "Tepat. Pernyataan adalah dokumen resmi."
         }
        },
        {
@@ -24558,17 +24559,17 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Screenshot the confirmation; log the CV version.",
-         "id": "Tangkap layar konfirmasi; catat versi CV."
+         "id": "Tangkap layar konfirmasi; catat versi CV-nya."
         }
        }
       ],
       "note": {
        "en": "The Pre-flight Checklist is Dossier item 4, generated per application and reused.",
-       "id": "Daftar Periksa Pra-kirim adalah butir Dossier 4, dibuat per lamaran dan dipakai ulang."
+       "id": "Daftar Periksa Sebelum Kirim adalah isi Dossier nomor 4, dibuat untuk setiap lamaran dan dipakai ulang."
       },
       "longdesc": {
        "en": "A seven-step timeline run before every submission: parse test, coverage check, requirement triage, document check, consistency sweep, knockout answers, then submit and track with a screenshot of the confirmation and the CV version logged.",
-       "id": "Lini masa tujuh langkah yang dijalankan sebelum setiap pengiriman: uji urai, pemeriksaan cakupan, triase persyaratan, pemeriksaan dokumen, sapuan konsistensi, jawaban gugur, lalu kirim dan catat dengan tangkapan layar konfirmasi dan versi CV yang dicatat."
+       "id": "Linimasa tujuh langkah yang dijalankan sebelum setiap pengiriman: uji urai, cek cakupan, pilah persyaratan, cek dokumen, cek konsistensi, jawaban pertanyaan gugur, lalu kirim dan catat, dengan tangkapan layar halaman konfirmasi dan versi CV yang dicatat."
       }
      },
      "compare": [
@@ -24579,19 +24580,19 @@ window.MT_LMS['the-pack'] = {
        },
        "q": {
         "en": "The officer programme form asks: “Bersedia ditempatkan di seluruh Indonesia?” Nadia’s family would prefer she stays in Central Java, but she has decided she would go.",
-        "id": "Formulir ODP bertanya: “Bersedia ditempatkan di seluruh negeri?” Keluarga Nadia lebih suka ia tetap di Jawa Tengah, tetapi ia sudah memutuskan akan pergi."
+        "id": "Formulir program officer bertanya: “Bersedia ditempatkan di seluruh Indonesia?” Keluarga Nadia lebih senang kalau ia tetap di Jawa Tengah, tetapi Nadia sudah memutuskan ia mau berangkat."
        },
        "weak": {
         "en": "Ticks “yes” for the FMCG (fast-moving consumer goods) role too, although she knows she would refuse a posting outside Java there, “to keep options open”.",
-        "id": "Mencentang “ya” juga untuk peran FMCG, meski ia tahu akan menolak penempatan di luar Jawa di sana, “supaya pilihan tetap terbuka”."
+        "id": "Ia juga mencentang “ya” untuk posisi di perusahaan FMCG (barang konsumsi cepat habis, fast-moving consumer goods), padahal ia tahu akan menolak penempatan di luar Jawa di sana, “supaya pilihannya tetap terbuka”."
        },
        "strong": {
         "en": "Ticks “yes” for the bank, because it is true. For the FMCG role, where she would not relocate, she does not apply to the placement-anywhere track and looks for the regional posting instead.",
-        "id": "Mencentang “ya” untuk bank, karena itu benar. Untuk peran FMCG, tempat ia tidak akan pindah, ia tidak melamar jalur penempatan di mana saja dan mencari lowongan regional sebagai gantinya."
+        "id": "Ia mencentang “ya” untuk bank, karena memang benar. Untuk posisi FMCG, tempat ia tidak bersedia pindah, ia tidak melamar jalur yang siap ditempatkan di mana saja, dan mencari lowongan untuk wilayah tertentu."
        },
        "why": {
         "en": "A declaration is a document. The weak answer passes the software and fails at the offer stage, or after it. The strong answer keeps every application she makes truthful, and finds a better-fitting posting.",
-        "id": "Pernyataan adalah dokumen. Jawaban lemah lolos perangkat lunak dan gagal di tahap tawaran, atau setelahnya. Jawaban kuat menjaga setiap lamarannya tetap jujur, dan menemukan lowongan yang lebih cocok."
+        "id": "Pernyataan adalah dokumen resmi. Jawaban yang lemah lolos dari perangkat lunak, lalu gagal di tahap penawaran kerja, atau sesudahnya. Jawaban yang kuat menjaga setiap lamarannya tetap jujur, dan mengantarnya ke lowongan yang lebih cocok."
        }
       }
      ],
@@ -24604,15 +24605,15 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "PT Rel Nusantara’s joint-recruitment-style portal lists accepted majors in a drop-down. Raka’s transcript reads “bachelor’s degree Teknik Industri”; the list has “Teknik Industri” but he skims past it and selects “Teknik Lainnya” because his faculty is called Fakultas Teknik. The administrative filter rejects him: “Lainnya” is not an accepted major.",
-        "id": "Portal bergaya rekrutmen bersama PT Rel Nusantara mencantumkan jurusan yang diterima dalam menu tarik-turun. Transkrip Raka berbunyi “S1 Teknik Industri”; daftarnya memuat “Teknik Industri” tetapi ia melewatinya dan memilih “Teknik Lainnya” karena fakultasnya bernama Fakultas Teknik. Saringan administrasi menolaknya: “Lainnya” bukan jurusan yang diterima."
+        "id": "Portal PT Rel Nusantara, yang mirip portal rekrutmen bersama, mencantumkan jurusan yang diterima dalam sebuah menu pilihan. Transkrip Raka tertulis “S1 Teknik Industri”. Daftar itu sebenarnya memuat “Teknik Industri”, tetapi Raka membacanya sekilas, melewatkannya, lalu memilih “Teknik Lainnya” karena fakultasnya bernama Fakultas Teknik. Saringan administrasi menolaknya: “Lainnya” bukan jurusan yang diterima."
        },
        {
         "en": "Nothing about his degree was wrong. One drop-down was. He finds out four weeks later, when the announcement lists the reason, and the next window is a year away.",
-        "id": "Tidak ada yang salah dengan gelarnya. Satu menu tarik-turun yang salah. Ia mengetahuinya empat minggu kemudian, ketika pengumuman mencantumkan alasannya, dan jendela berikutnya setahun lagi."
+        "id": "Tidak ada yang salah dengan gelarnya. Yang salah hanya satu pilihan di menu. Ia baru tahu empat minggu kemudian, saat pengumuman mencantumkan alasannya, dan periode berikutnya baru dibuka setahun lagi."
        },
        {
         "en": "The pre-flight’s consistency sweep; “does every field match the transcript exactly?” Takes forty seconds and would have caught it.",
-        "id": "Sapuan konsistensi pra-kirim; “apakah setiap kolom sesuai transkrip persis?” Memakan empat puluh detik dan akan menangkapnya."
+        "id": "Cek konsistensi dalam pemeriksaan sebelum kirim, “apakah setiap isian sama persis dengan transkrip?”, hanya butuh empat puluh detik dan akan menangkap kesalahan itu."
        }
       ]
      },
@@ -24620,43 +24621,43 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill 1: Decode five requirements",
-        "id": "Latihan 1: Uraikan lima persyaratan"
+        "id": "Latihan 1: Bedah lima persyaratan"
        },
        "body": {
         "en": "Break each into competency / qualifier / context / essential-or-desirable: (1) “Demonstrated leadership in student organisations (essential)”. (2) “Strong analytical skills”. (3) “Knowledge of banking operations is an advantage”. (4) “Minimum TOEFL ITP 475, valid within 2 years”. (5) “Experience in customer-facing roles preferred”.",
-        "id": "Pecah masing-masing menjadi kompetensi / kualifikasi / konteks / esensial-atau-tambahan: (1) “Kepemimpinan yang terbukti di organisasi mahasiswa (esensial)”. (2) “Kemampuan analitis yang kuat”. (3) “Pengetahuan operasional perbankan menjadi nilai tambah”. (4) “Minimum TOEFL ITP 475, berlaku dalam 2 tahun”. (5) “Pengalaman di peran yang berhadapan dengan pelanggan lebih disukai”."
+        "id": "Pecah masing-masing menjadi kompetensi / tingkat / konteks / wajib atau tambahan: (1) “Kepemimpinan yang terbukti di organisasi kemahasiswaan (wajib)”. (2) “Kemampuan analitis yang kuat”. (3) “Pengetahuan tentang operasional perbankan menjadi nilai tambah”. (4) “TOEFL ITP minimal 475, berlaku dalam 2 tahun”. (5) “Diutamakan berpengalaman di posisi yang melayani pelanggan langsung”."
        },
        "debrief": {
         "en": "(1) Leadership · demonstrated = a <i>specific</i> example with result · student organisations · essential. The word “leadership” alone fails it. (2) Analysis · “strong” = reasonably good · unstated · essential by position in the list. (3) Banking operations · knowledge = named examples · unstated · desirable. (4) English · a numeric threshold and a validity window · certificate · essential, and a knockout. (5) Customer service · experience = work evidence first · customer-facing roles · desirable.",
-        "id": "(1) Kepemimpinan · terbukti = contoh <i>spesifik</i> dengan hasil · organisasi mahasiswa · esensial, kata “kepemimpinan” saja gagal. (2) Analisis · “kuat” = cukup baik · tidak disebut · esensial berdasarkan posisinya di daftar. (3) Operasional perbankan · pengetahuan = contoh bernama · tidak disebut · tambahan. (4) Bahasa Inggris · ambang numerik dan masa berlaku · sertifikat · esensial, dan pertanyaan gugur. (5) Layanan pelanggan · pengalaman = bukti kerja lebih dulu · peran berhadapan dengan pelanggan · tambahan."
+        "id": "(1) Kepemimpinan · terbukti = contoh <i>spesifik</i> lengkap dengan hasil · organisasi kemahasiswaan · wajib. Sekadar menulis kata “kepemimpinan” tidak cukup. (2) Analisis · “kuat” = cukup baik · tidak disebut · wajib, dilihat dari letaknya di daftar. (3) Operasional perbankan · pengetahuan = contoh yang disebut namanya · tidak disebut · tambahan. (4) Bahasa Inggris · ambang angka dan masa berlaku · sertifikat · wajib, dan termasuk pertanyaan gugur. (5) Layanan pelanggan · pengalaman = bukti kerja lebih dulu · posisi yang melayani pelanggan langsung · tambahan."
        }
       },
       {
        "h": {
         "en": "Drill 2: The consistency sweep",
-        "id": "Latihan 2: Sapuan konsistensi"
+        "id": "Latihan 2: Cek konsistensi"
        },
        "body": {
         "en": "Compare three of Nadia’s documents. CV: “Operations Intern, Bank Sinar Nusantara, Jun 2025 – Aug 2025 · Treasurer, HIMA (the students’ association, himpunan mahasiswa) Manajemen, 2024–2025 · GPA 3,38 / 4,00 · Head of Sponsorship”. Portal form: internship Jun–Sep 2025; GPA 3,4. LinkedIn: “Bendahara HIMA 2023–2025”; “Sponsorship Coordinator”. Find four inconsistencies.",
-        "id": "Bandingkan tiga dokumen Nadia. CV: “Operations Intern, Bank Sinar Nusantara, Jun 2025 – Agu 2025 · Bendahara, HIMA (himpunan mahasiswa) Manajemen, 2024–2025 · IPK 3,38 / 4,00 · Kepala Sponsorship”. Formulir portal: magang Jun–Sep 2025; IPK 3,4. LinkedIn: “Bendahara HIMA 2023–2025”; “Koordinator Sponsorship”. Temukan empat ketidakkonsistenan."
+        "id": "Bandingkan tiga dokumen Nadia. CV: “Operations Intern, Bank Sinar Nusantara, Jun 2025 – Agu 2025 · Bendahara, HIMA (himpunan mahasiswa) Manajemen, 2024–2025 · IPK 3,38 / 4,00 · Ketua Divisi Sponsor”. Formulir portal: magang Jun–Sep 2025; IPK 3,4. LinkedIn: “Bendahara HIMA 2023–2025”; “Koordinator Sponsor”. Temukan empat data yang tidak konsisten."
        },
        "debrief": {
         "en": "Internship end date (Aug vs Sep); HIMA period (2024–2025 vs 2023–2025); GPA written 3,4 on the form (rounding reads as inflation); the title “Head of Sponsorship” vs “Sponsorship Coordinator”. Fix all three documents to the pantry’s facts before submitting, the true ones, not the most flattering.",
-        "id": "Tanggal akhir magang (Agu vs Sep); periode HIMA (2024–2025 vs 2023–2025); IPK ditulis 3,4 di formulir (pembulatan terbaca sebagai menggelembungkan); jabatan “Kepala Sponsorship” vs “Koordinator Sponsorship”. Perbaiki ketiga dokumen sesuai fakta lemari sebelum mengirim; yang benar, bukan yang paling menyanjung."
+        "id": "Tanggal akhir magang (Agu vs Sep); periode di HIMA (2024–2025 vs 2023–2025); IPK ditulis 3,4 di formulir (pembulatan terkesan seperti menaikkan nilai); jabatan “Ketua Divisi Sponsor” vs “Koordinator Sponsor”. Samakan ketiga dokumen sesuai fakta di lemari sebelum mengirim: yang benar, bukan yang paling menyanjung."
        }
       },
       {
        "h": {
         "en": "Drill 3: Requirement triage",
-        "id": "Latihan 3: Triase persyaratan"
+        "id": "Latihan 3: Pilah persyaratan"
        },
        "body": {
         "en": "For the KilatPay advertisement (Lesson 3.2): sort its requirements into musts and shoulds, mark each met / evidenced / gap for Nadia, and decide: apply or not?",
-        "id": "Untuk iklan KilatPay (Pelajaran 3.2): pilah persyaratannya menjadi wajib dan sebaiknya, tandai masing-masing terpenuhi / dibuktikan / celah untuk Nadia, dan putuskan: lamar atau tidak?"
+        "id": "Untuk iklan KilatPay (Pelajaran 3.2): kelompokkan persyaratannya menjadi syarat wajib dan syarat tambahan, tandai masing-masing terpenuhi / ada bukti / kurang untuk Nadia, lalu putuskan: melamar atau tidak?"
        },
        "debrief": {
         "en": "Musts: bachelor’s degree, 0–2 years, willing to work in Jakarta: all met. Shoulds, reconciliation, settlement reporting, Excel, dashboards, cross-team work, SQL, Python, fintech: five of eight met after honest rephrasing (Lesson 4.3). Apply.",
-        "id": "Syarat wajib: S1, 0–2 tahun, bersedia bekerja di Jakarta: semua terpenuhi. Syarat sebaiknya, rekonsiliasi, pelaporan settlement, Excel, dasbor, kerja lintas tim, SQL, Python, fintech: lima dari delapan terpenuhi setelah perubahan kata yang jujur (Pelajaran 4.3). Lamar."
+        "id": "Syarat wajib: S1, pengalaman 0–2 tahun, bersedia bekerja di Jakarta: semuanya terpenuhi. Syarat tambahan, yaitu rekonsiliasi, pelaporan penyelesaian transaksi, Excel, dasbor, kerja lintas tim, SQL, Python, dan pengalaman fintech: lima dari delapan terpenuhi setelah istilahnya diganti dengan jujur (Pelajaran 4.3). Lamar."
        }
       }
      ],
@@ -24669,37 +24670,37 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "State it exactly, everywhere.",
-         "id": "Cantumkan dengan tepat, di mana-mana."
+         "id": "Tulis persis, di mana pun."
         }
        },
        {
         "h": {
          "en": "Uploading phone photos of documents",
-         "id": "Mengunggah foto ponsel dari dokumen"
+         "id": "Mengunggah foto dokumen dari ponsel"
         },
         "fix": {
          "en": "Scan properly or use a scanner app; check legibility and size.",
-         "id": "Pindai dengan benar atau pakai aplikasi pemindai; periksa keterbacaan dan ukuran."
+         "id": "Pindai dengan benar atau pakai aplikasi pemindai; cek keterbacaan dan ukurannya."
         }
        },
        {
         "h": {
          "en": "Different dates across documents",
-         "id": "Tanggal berbeda antardokumen"
+         "id": "Tanggal berbeda di tiap dokumen"
         },
         "fix": {
          "en": "One record, the pantry, copied everywhere.",
-         "id": "Satu rekaman, lemari, disalin ke mana-mana."
+         "id": "Satu sumber data, yaitu isi lemari, disalin ke mana-mana."
         }
        },
        {
         "h": {
          "en": "Ticking declarations you don’t mean",
-         "id": "Mencentang pernyataan yang tidak kamu maksudkan"
+         "id": "Mencentang pernyataan yang tidak sungguh-sungguh"
         },
         "fix": {
          "en": "Answer truthfully; a declaration is a document.",
-         "id": "Jawab dengan jujur; pernyataan adalah dokumen."
+         "id": "Jawab dengan jujur. Pernyataan adalah dokumen resmi."
         }
        }
       ]
@@ -24712,7 +24713,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The administrative screening stage: eligibility, documents, file specifications, declarations and form fields.",
-        "id": "Tahap penyaringan administratif: kelayakan, dokumen, spesifikasi berkas, pernyataan, dan kolom formulir."
+        "id": "Tahap penyaringan administrasi: kelayakan, dokumen, ketentuan berkas, pernyataan, dan isian formulir."
        }
       },
       {
@@ -24722,27 +24723,27 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Requirements broken into competency, qualifier, context and importance.",
-        "id": "Persyaratan yang dipecah menjadi kompetensi, kualifikasi, konteks, dan tingkat kepentingan."
+        "id": "Persyaratan yang dipecah menjadi kompetensi, tingkat, konteks, dan bobot."
        }
       },
       {
        "term": {
         "en": "Essential / desirable",
-        "id": "Esensial / tambahan"
+        "id": "Wajib / tambahan"
        },
        "def": {
         "en": "A requirement that ends the application if unmet, versus one that raises ranking.",
-        "id": "Persyaratan yang mengakhiri lamaran jika tidak terpenuhi, versus yang menaikkan peringkat."
+        "id": "Persyaratan yang mengakhiri lamaran jika tidak terpenuhi, dibandingkan persyaratan yang menaikkan peringkat."
        }
       },
       {
        "term": {
         "en": "Consistency sweep",
-        "id": "Sapuan konsistensi"
+        "id": "Cek konsistensi"
        },
        "def": {
         "en": "Checking that names, dates, titles, GPA and institutions are identical across every document.",
-        "id": "Memeriksa bahwa nama, tanggal, jabatan, IPK, dan institusi identik di setiap dokumen."
+        "id": "Memastikan nama, tanggal, jabatan, IPK, dan kampus sama persis di setiap dokumen."
        }
       },
       {
@@ -24752,7 +24753,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A service bond: a commitment to stay for a period after a funded programme.",
-        "id": "Ikatan dinas: komitmen untuk bertahan selama periode tertentu setelah program yang dibiayai."
+        "id": "Ikatan kerja: komitmen untuk tetap bekerja selama periode tertentu setelah mengikuti program yang dibiayai perusahaan."
        }
       },
       {
@@ -24762,7 +24763,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The certificate of completion issued before the ijazah is ready.",
-        "id": "Surat keterangan kelulusan yang diterbitkan sebelum ijazah siap."
+        "id": "Surat keterangan kelulusan yang diterbitkan kampus sebelum ijazah selesai dicetak."
        }
       }
      ],
@@ -24770,7 +24771,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "“Demonstrated ability to lead a team (essential)”. What must the application show?",
-        "id": "“Kemampuan yang terbukti memimpin tim (esensial)”. Apa yang harus ditunjukkan lamaran?"
+        "id": "“Kemampuan memimpin tim yang terbukti (wajib)”. Apa yang harus ditunjukkan lamaranmu?"
        },
        "options": [
         {
@@ -24779,27 +24780,27 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "A specific example of having led a team, with context and result",
-         "id": "Contoh spesifik pernah memimpin tim, dengan konteks dan hasil"
+         "id": "Contoh spesifik saat kamu pernah memimpin tim, lengkap dengan konteks dan hasil"
         },
         {
          "en": "A leadership course",
-         "id": "Kursus kepemimpinan"
+         "id": "Sertifikat kursus kepemimpinan"
         },
         {
          "en": "Nothing: it is desirable",
-         "id": "Tidak ada: itu tambahan"
+         "id": "Tidak ada; ini hanya syarat tambahan"
         }
        ],
        "correct": 1,
        "why": {
         "en": "“Demonstrated” means done, not claimed; “essential” means the gate closes without it.",
-        "id": "“Terbukti” berarti pernah dilakukan, bukan diklaim; “esensial” berarti gerbang tertutup tanpanya."
+        "id": "“Terbukti” berarti pernah dilakukan, bukan sekadar diklaim. “Wajib” berarti gerbangnya tertutup tanpa itu."
        }
       },
       {
        "q": {
         "en": "The accepted-majors list says “Manajemen”. Your transcript says “Management (bachelor’s degree)”. The portal drop-down offers “Manajemen”.",
-        "id": "Daftar jurusan yang diterima menyebut “Manajemen”. Transkripmu menyebut “Management (S1)”. Menu portal menawarkan “Manajemen”."
+        "id": "Daftar jurusan yang diterima menulis “Manajemen”. Transkripmu menulis “Management (S1)”. Menu pilihan di portal menyediakan “Manajemen”. Apa yang kamu pilih?"
        },
        "options": [
         {
@@ -24808,27 +24809,27 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Select “Manajemen”: it is your major’s accepted name",
-         "id": "Pilih “Manajemen”: itu nama jurusanmu yang diterima"
+         "id": "Pilih “Manajemen”, karena itu nama resmi jurusanmu"
         },
         {
          "en": "Skip the field",
-         "id": "Lewati kolomnya"
+         "id": "Lewati isian itu"
         },
         {
          "en": "Type “Business”",
-         "id": "Ketik “Business”"
+         "id": "Ketik “Bisnis”"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The list is the filter; choose the accepted name that is your major. “Other” is a rejection.",
-        "id": "Daftar itu adalah saringannya; pilih nama yang diterima yang merupakan jurusanmu. “Lainnya” adalah penolakan."
+        "id": "Daftar itulah saringannya. Pilih nama yang diterima yang memang jurusanmu. Memilih “Lainnya” sama dengan menolak dirimu sendiri."
        }
       },
       {
        "q": {
         "en": "Your LinkedIn shows your internship ending in September; your CV says August.",
-        "id": "LinkedIn-mu menunjukkan magang berakhir September; CV-mu menyebut Agustus."
+        "id": "Di LinkedIn-mu, magang berakhir bulan September; di CV tertulis Agustus. Apa yang kamu lakukan?"
        },
        "options": [
         {
@@ -24837,7 +24838,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Fix both to the true date before submitting",
-         "id": "Perbaiki keduanya ke tanggal yang benar sebelum mengirim"
+         "id": "Samakan keduanya ke tanggal yang benar sebelum mengirim"
         },
         {
          "en": "Remove LinkedIn",
@@ -24851,7 +24852,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Recruiters compare; inconsistency reads as carelessness or worse. One record, many formats.",
-        "id": "Perekrut membandingkan; ketidakkonsistenan terbaca sebagai kecerobohan atau lebih buruk. Satu rekaman, banyak format."
+        "id": "Perekrut membandingkan. Data yang tidak sama terkesan ceroboh, atau lebih buruk lagi. Satu sumber data, banyak format."
        }
       }
      ],
@@ -24860,29 +24861,29 @@ window.MT_LMS['the-pack'] = {
       "mode": "ats",
       "title": {
        "en": "Pre-flight checklist",
-       "id": "Daftar periksa pra-kirim"
+       "id": "Daftar periksa sebelum kirim"
       },
       "body": {
        "en": "Paste an advertisement into the ATS (applicant tracking system) check to generate the requirement rows, then work the document, consistency and knockout checks before you submit. Save it per application; it is Dossier item 4, alongside the coverage table.",
-       "id": "Tempel iklan ke pemeriksaan ATS (sistem pelacak lamaran) untuk menghasilkan baris persyaratan, lalu kerjakan pemeriksaan dokumen, konsistensi, dan pertanyaan gugur sebelum mengirim. Simpan per lamaran; itu butir Dossier 4, bersama tabel cakupan."
+       "id": "Tempel sebuah iklan ke pemeriksa ATS (sistem pelacak lamaran) untuk menghasilkan baris-baris persyaratannya, lalu jalankan cek dokumen, konsistensi, dan pertanyaan gugur sebelum mengirim. Simpan untuk setiap lamaran; ini isi Dossier nomor 4, bersama tabel cakupan."
       },
       "cta": {
        "en": "Open the ATS check →",
-       "id": "Buka pemeriksaan ATS →"
+       "id": "Buka pemeriksa ATS →"
       }
      },
      "takeaways": [
       {
        "en": "Essential criteria are gates; desirable ones are rankings.",
-       "id": "Kriteria esensial adalah gerbang; kriteria tambahan adalah peringkat."
+       "id": "Syarat wajib adalah gerbang; syarat tambahan menentukan peringkat."
       },
       {
        "en": "A three-to-ten-minute pre-flight prevents the cheapest rejections.",
-       "id": "Pra-kirim tiga sampai sepuluh menit mencegah penolakan termurah."
+       "id": "Pemeriksaan tiga sampai sepuluh menit sebelum kirim mencegah penolakan yang paling murah."
       },
       {
        "en": "One record, many formats, keep every document consistent.",
-       "id": "Satu rekaman, banyak format; jaga setiap dokumen tetap konsisten."
+       "id": "Satu sumber data, banyak format: jaga semua dokumen tetap konsisten."
       }
      ],
      "resources": {
@@ -24892,7 +24893,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "The pre-flight as a checklist and the email format.",
-       "id": "Pra-kirim sebagai daftar periksa dan format email."
+       "id": "Pemeriksaan sebelum kirim dalam bentuk daftar periksa, dan format email lamaran."
       },
       "items": [
        {
@@ -24903,24 +24904,24 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "Four sources. Programme rules in examples are fictional; verify real ones every cycle.",
-         "id": "Empat sumber. Aturan program dalam contoh bersifat fiktif; periksa yang nyata setiap siklus."
+         "id": "Empat sumber. Aturan program dalam contoh bersifat fiktif; cek aturan yang sebenarnya di setiap periode."
         },
         "body": [
          {
           "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 15, 17–18, selection criteria and the qualifier decoder.",
-          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 15, 17–18, kriteria seleksi dan pengurai kualifikasi."
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 15, 17–18: kriteria seleksi dan cara membaca kata penanda tingkat."
          },
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 16, consistency across documents.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 16, konsistensi antardokumen."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 16: konsistensi antardokumen."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.2, 7.3, consistency; email submissions.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.2, 7.3, konsistensi; pengiriman lewat email."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.2, 7.3: konsistensi; melamar lewat email."
          },
          {
           "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 2, emailing an application.",
-          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 2, mengirim lamaran lewat email."
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 2: mengirim lamaran lewat email."
          }
         ]
        },
@@ -24928,7 +24929,7 @@ window.MT_LMS['the-pack'] = {
         "kind": "checklist",
         "title": {
          "en": "Pre-flight · seven steps",
-         "id": "Pra-kirim · tujuh langkah"
+         "id": "Sebelum kirim · tujuh langkah"
         },
         "desc": {
          "en": "Run before every submission.",
@@ -24937,31 +24938,31 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "Parse test passed (plain text in order, dates attached)",
-          "id": "Uji urai lolos (teks polos berurutan, tanggal melekat)"
+          "id": "Uji urai lolos (teks polos berurutan, tanggal menempel pada perannya)"
          },
          {
           "en": "Coverage table: every must-have ✓ or honestly closed",
-          "id": "Tabel cakupan: setiap syarat wajib ✓ atau ditutup dengan jujur"
+          "id": "Tabel cakupan: setiap syarat wajib ✓ atau sudah ditutup dengan jujur"
          },
          {
           "en": "Requirement triage: all musts met and evidenced; shoulds counted",
-          "id": "Triase persyaratan: semua syarat wajib terpenuhi dan dibuktikan; syarat sebaiknya dihitung"
+          "id": "Pilah persyaratan: semua syarat wajib terpenuhi dan ada buktinya; syarat tambahan dihitung"
          },
          {
           "en": "Documents: present · readable · format · size · named (Name_Document.pdf)",
-          "id": "Dokumen: ada · terbaca · format · ukuran · dinamai (Nama_Dokumen.pdf)"
+          "id": "Dokumen: ada · terbaca · format · ukuran · nama berkas (Nama_Dokumen.pdf)"
          },
          {
           "en": "Consistency: names, dates, titles, GPA, institution identical in CV, form, LinkedIn, letter",
-          "id": "Konsistensi: nama, tanggal, jabatan, IPK, institusi identik di CV, formulir, LinkedIn, surat"
+          "id": "Konsistensi: nama, tanggal, jabatan, IPK, kampus sama persis di CV, formulir, LinkedIn, surat"
          },
          {
           "en": "Knockout questions answered accurately",
-          "id": "Pertanyaan gugur dijawab dengan akurat"
+          "id": "Pertanyaan gugur dijawab dengan tepat"
          },
          {
           "en": "Submitted: confirmation screenshot saved; tracker updated with CV version",
-          "id": "Terkirim: tangkapan layar konfirmasi disimpan; pelacak diperbarui dengan versi CV"
+          "id": "Terkirim: tangkapan layar konfirmasi tersimpan; pelacak diperbarui beserta versi CV"
          }
         ]
        },
@@ -24969,11 +24970,11 @@ window.MT_LMS['the-pack'] = {
         "kind": "template",
         "title": {
          "en": "Email submission",
-         "id": "Pengiriman lewat email"
+         "id": "Melamar lewat email"
         },
         "desc": {
          "en": "Unless the advertisement specifies a format.",
-         "id": "Kecuali iklan menentukan format."
+         "id": "Kecuali iklan menentukan format sendiri."
         },
         "body": [
          {
@@ -24982,11 +24983,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Body: the cover letter (Module 6) · Attachments: NamaLengkap_CV_Perusahaan_Posisi.pdf · NamaLengkap_Transkrip.pdf · as requested · Signature: name, phone, LinkedIn",
-          "id": "Badan: surat lamaran (Modul 6) · Lampiran: NamaLengkap_CV_Perusahaan_Posisi.pdf · NamaLengkap_Transkrip.pdf · sesuai permintaan · Tanda tangan: nama, telepon, LinkedIn"
+          "id": "Badan email: surat lamaran (Modul 6) · Lampiran: NamaLengkap_CV_Perusahaan_Posisi.pdf · NamaLengkap_Transkrip.pdf · sesuai yang diminta · Tanda tangan: nama, telepon, LinkedIn"
          },
          {
           "en": "Send to yourself first. Never CC several employers.",
-          "id": "Kirim ke dirimu sendiri lebih dulu. Jangan pernah CC beberapa perusahaan."
+          "id": "Kirim ke dirimu sendiri lebih dulu. Jangan pernah mengirim satu email ke beberapa perusahaan lewat CC."
          }
         ]
        }
@@ -25003,28 +25004,28 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "Case Assignment: The Portal",
-      "id": "Tugas Kasus: Portal"
+      "id": "Studi Kasus: Portal"
      },
      "overview": {
       "en": "Nadia is about to submit her Bank Sinar Nusantara officer programme application. Everything she plans to submit is in the case file. The advertisement, her files as uploaded, her form entries, her CV and her LinkedIn summary. Find the problems before the portal does, write her pre-flight, build the coverage table, and make the hard call on an expired certificate.",
-      "id": "Nadia hendak mengirim lamaran ODP Bank Sinar Nusantara. Semua yang akan ia kirim ada di berkas kasus, iklannya, berkas-berkasnya sebagaimana diunggah, isian formulirnya, CV-nya, dan ringkasan LinkedIn-nya. Temukan masalahnya sebelum portal menemukannya, tulis pra-kirimnya, bangun tabel cakupan, dan ambil keputusan sulit tentang sertifikat yang kedaluwarsa."
+      "id": "Nadia sudah hampir mengirim lamaran ODP-nya ke Bank Sinar Nusantara. Semua yang akan ia kirim ada di berkas kasus: iklannya, berkas yang sudah ia unggah, isian formulirnya, CV-nya, dan ringkasan LinkedIn-nya. Temukan masalahnya sebelum portal yang menemukannya, susun pemeriksaan sebelum kirim untuknya, buat tabel cakupan, dan ambil keputusan sulit soal sertifikat yang sudah kedaluwarsa."
      },
      "objectives": [
       {
        "en": "Find every administrative failure in a real submission and classify it as fatal or not.",
-       "id": "Menemukan setiap kegagalan administratif dalam pengiriman nyata dan menggolongkannya fatal atau tidak."
+       "id": "Menemukan setiap kegagalan administrasi dalam sebuah lamaran sungguhan dan menggolongkannya: fatal atau tidak."
       },
       {
        "en": "Write a programme-specific pre-flight checklist.",
-       "id": "Menulis daftar periksa pra-kirim khusus program."
+       "id": "Menulis daftar periksa sebelum kirim yang khusus untuk satu program."
       },
       {
        "en": "Build a coverage table from an advertisement against a CV.",
-       "id": "Membangun tabel cakupan antara iklan dan CV."
+       "id": "Menyusun tabel cakupan dari sebuah iklan terhadap sebuah CV."
       },
       {
        "en": "Decide honestly when an essential requirement cannot be met in time.",
-       "id": "Memutuskan dengan jujur ketika syarat esensial tidak bisa dipenuhi tepat waktu."
+       "id": "Memutuskan dengan jujur ketika syarat wajib tidak bisa dipenuhi tepat waktu."
       }
      ],
      "readFirst": {
@@ -25038,21 +25039,21 @@ window.MT_LMS['the-pack'] = {
         "n": "4.5",
         "title": {
          "en": "Case Assignment: The Portal",
-         "id": "Tugas Kasus: Portal"
+         "id": "Studi Kasus: Portal"
         }
        },
        "story": [
         {
          "en": "Read all five tabs, then compare: the file specs against the uploads, the form against the CV, the CV against LinkedIn",
-         "id": "Baca kelima tab, lalu bandingkan: spesifikasi berkas terhadap unggahan, formulir terhadap CV, CV terhadap LinkedIn"
+         "id": "Baca kelima tab, lalu bandingkan: ketentuan berkas dengan unggahan, formulir dengan CV, CV dengan LinkedIn"
         },
         {
          "en": "Fatal or not: an unmet essential requirement or an unreadable required document is fatal; a ranking loss is not",
-         "id": "Fatal atau tidak: syarat esensial yang tak terpenuhi atau dokumen wajib yang tak terbaca itu fatal; kehilangan peringkat tidak"
+         "id": "Fatal atau tidak: syarat wajib yang tidak terpenuhi atau dokumen wajib yang tidak terbaca itu fatal; turunnya peringkat tidak"
         },
         {
          "en": "The honest decision: what Nadia should do, and what she should not",
-         "id": "Keputusan jujur: apa yang harus dilakukan Nadia, dan apa yang tidak boleh"
+         "id": "Keputusan yang jujur: apa yang sebaiknya Nadia lakukan, dan apa yang tidak boleh"
         }
        ],
        "takes": [
@@ -25063,7 +25064,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Be the portal before the portal is: every check the machine and the screener will run, run first.",
-          "id": "Jadilah portal sebelum portalnya: setiap pemeriksaan yang akan dijalankan mesin dan penyaring, jalankan lebih dulu."
+          "id": "Jadilah portal sebelum portal yang menilai: jalankan lebih dulu setiap pemeriksaan yang akan dijalankan mesin dan petugas seleksi."
          }
         },
         {
@@ -25073,17 +25074,17 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "The honest decision in Step 4 has no clever workaround: it asks what Nadia should do, and what she should not.",
-          "id": "Keputusan jujur di Langkah 4 tidak punya jalan pintas cerdik: ia bertanya apa yang harus dilakukan Nadia, dan apa yang tidak boleh."
+          "id": "Keputusan jujur di Langkah 4 tidak punya jalan pintas yang cerdik: pertanyaannya, apa yang sebaiknya Nadia lakukan, dan apa yang tidak boleh ia lakukan."
          }
         },
         {
          "h": {
           "en": "The honest decision",
-          "id": "Keputusan jujur"
+          "id": "Keputusan yang jujur"
          },
          "p": {
           "en": "If the honest answer is “no”, the posting is telling you something about fit, not about your worth.",
-          "id": "Jika jawaban jujurnya “tidak”, lowongan itu memberitahumu sesuatu tentang kecocokan, bukan tentang nilaimu."
+          "id": "Kalau jawaban jujurnya “tidak”, lowongan itu sedang memberitahumu soal kecocokan, bukan soal nilai dirimu."
          }
         }
        ],
@@ -25092,7 +25093,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Read all five tabs, then compare: the file specs against the uploads, the form against the CV, the CV against LinkedIn",
-          "id": "Baca kelima tab, lalu bandingkan: spesifikasi berkas terhadap unggahan, formulir terhadap CV, CV terhadap LinkedIn"
+          "id": "Baca kelima tab, lalu bandingkan: ketentuan berkas dengan unggahan, formulir dengan CV, CV dengan LinkedIn"
          },
          "img": "../../assets/bg/stage-exploration.jpg",
          "layout": "list",
@@ -25100,38 +25101,38 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "grid",
            "en": "The advertisement’s file specs against Nadia’s uploads",
-           "id": "Spesifikasi berkas iklan terhadap unggahan Nadia",
+           "id": "Ketentuan berkas di iklan dibandingkan dengan unggahan Nadia",
            "l": {
             "en": "Specs versus uploads",
-            "id": "Spesifikasi versus unggahan"
+            "id": "Ketentuan vs unggahan"
            }
           },
           {
            "icon": "table",
            "en": "The form entries against the CV",
-           "id": "Isian formulir terhadap CV",
+           "id": "Isian formulir dibandingkan dengan CV",
            "l": {
             "en": "Form versus CV",
-            "id": "Formulir versus CV"
+            "id": "Formulir vs CV"
            }
           },
           {
            "icon": "link",
            "en": "The CV against the LinkedIn summary",
-           "id": "CV terhadap ringkasan LinkedIn",
+           "id": "CV dibandingkan dengan ringkasan LinkedIn",
            "l": {
             "en": "CV versus LinkedIn",
-            "id": "CV versus LinkedIn"
+            "id": "CV vs LinkedIn"
            }
           }
          ],
          "sub": {
           "en": "The problems are spread across the tabs, and some only show when you compare two.",
-          "id": "Masalahnya tersebar di berbagai tab, dan sebagian hanya tampak saat kamu membandingkan dua."
+          "id": "Masalahnya tersebar di semua tab, dan sebagian baru terlihat kalau dua tab dibandingkan."
          },
          "band": {
           "en": "Be the portal before the portal is: every check the machine and the screener will run, run first.",
-          "id": "Jadilah portal sebelum portalnya: setiap pemeriksaan yang akan dijalankan mesin dan penyaring, jalankan lebih dulu."
+          "id": "Jadilah portal sebelum portal yang menilai: jalankan lebih dulu setiap pemeriksaan yang akan dijalankan mesin dan petugas seleksi."
          },
          "em": {
           "en": "then compare",
@@ -25142,7 +25143,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Fatal or not: an unmet essential requirement or an unreadable required document is fatal; a ranking loss is not",
-          "id": "Fatal atau tidak: syarat esensial yang tak terpenuhi atau dokumen wajib yang tak terbaca itu fatal; kehilangan peringkat tidak"
+          "id": "Fatal atau tidak: syarat wajib yang tidak terpenuhi atau dokumen wajib yang tidak terbaca itu fatal; turunnya peringkat tidak"
          },
          "cols": [
           {
@@ -25152,23 +25153,23 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "Ends the candidacy at the gate",
-            "id": "Mengakhiri pencalonan di gerbang"
+            "id": "Lamaran langsung gugur di gerbang"
            },
            "items": [
             {
              "icon": "filter",
              "en": "An essential requirement not met",
-             "id": "Syarat esensial tidak terpenuhi"
+             "id": "Syarat wajib tidak terpenuhi"
             },
             {
              "icon": "doc",
              "en": "A required document missing or unreadable",
-             "id": "Dokumen wajib hilang atau tak terbaca"
+             "id": "Dokumen wajib kurang atau tidak terbaca"
             },
             {
              "icon": "shield",
              "en": "A declaration answered falsely",
-             "id": "Pernyataan dijawab palsu"
+             "id": "Pernyataan dijawab tidak jujur"
             }
            ],
            "icon": "warn"
@@ -25180,23 +25181,23 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "Costs rank, not the application",
-            "id": "Mengurangi peringkat, bukan lamaran"
+            "id": "Menurunkan peringkat, tidak menggugurkan lamaran"
            },
            "items": [
             {
              "icon": "star",
              "en": "A nice-to-have uncovered",
-             "id": "Tambahan yang tak tercakup"
+             "id": "Syarat tambahan yang tidak tercakup"
             },
             {
              "icon": "tag",
              "en": "A keyword in a different form",
-             "id": "Kata kunci dalam bentuk berbeda"
+             "id": "Kata kunci dengan istilah yang berbeda"
             },
             {
              "icon": "pen",
              "en": "A profile that could be sharper",
-             "id": "Profil yang bisa lebih tajam"
+             "id": "Profil yang masih bisa dipertajam"
             }
            ],
            "icon": "scale"
@@ -25207,11 +25208,11 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "Say which is which, and why.",
-          "id": "Katakan mana yang mana, dan mengapa."
+          "id": "Sebutkan mana yang mana, dan mengapa."
          },
          "band": {
           "en": "The honest decision in Step 4 has no clever workaround: it asks what Nadia should do, and what she should not.",
-          "id": "Keputusan jujur di Langkah 4 tidak punya jalan pintas cerdik: ia bertanya apa yang harus dilakukan Nadia, dan apa yang tidak boleh."
+          "id": "Keputusan jujur di Langkah 4 tidak punya jalan pintas yang cerdik: pertanyaannya, apa yang sebaiknya Nadia lakukan, dan apa yang tidak boleh ia lakukan."
          },
          "em": {
           "en": "Fatal or not",
@@ -25222,7 +25223,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "The honest decision: what Nadia should do, and what she should not",
-          "id": "Keputusan jujur: apa yang harus dilakukan Nadia, dan apa yang tidak boleh"
+          "id": "Keputusan yang jujur: apa yang sebaiknya Nadia lakukan, dan apa yang tidak boleh"
          },
          "img": "../../assets/pe/th-mapread.jpg",
          "layout": "list",
@@ -25230,7 +25231,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "gear",
            "en": "Fix every fatal problem that can be fixed before the deadline, in the source document first",
-           "id": "Perbaiki setiap masalah fatal yang bisa diperbaiki sebelum tenggat, di dokumen sumber dulu",
+           "id": "Perbaiki setiap masalah fatal yang masih bisa diperbaiki sebelum tenggat, mulai dari dokumen aslinya",
            "l": {
             "en": "Fix",
             "id": "Perbaiki"
@@ -25239,16 +25240,16 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "shield",
            "en": "Where an essential requirement is genuinely unmet, do not bend a declaration to pass the software",
-           "id": "Jika syarat esensial benar-benar tak terpenuhi, jangan bengkokkan pernyataan untuk lolos perangkat lunak",
+           "id": "Kalau syarat wajib memang tidak terpenuhi, jangan membengkokkan pernyataan demi lolos perangkat lunak",
            "l": {
             "en": "Do not falsify",
-            "id": "Jangan palsukan"
+            "id": "Jangan memalsukan"
            }
           },
           {
            "icon": "pen",
            "en": "Record the lesson in the tracker so the next portal does not repeat it",
-           "id": "Catat pelajarannya di pelacak agar portal berikutnya tidak mengulanginya",
+           "id": "Catat pelajarannya di pelacak supaya tidak terulang di portal berikutnya",
            "l": {
             "en": "Record",
             "id": "Catat"
@@ -25257,11 +25258,11 @@ window.MT_LMS['the-pack'] = {
          ],
          "sub": {
           "en": "Step 4 has no clever workaround.",
-          "id": "Langkah 4 tidak punya jalan pintas cerdik."
+          "id": "Langkah 4 tidak punya jalan pintas yang cerdik."
          },
          "band": {
           "en": "If the honest answer is “no”, the posting is telling you something about fit, not about your worth.",
-          "id": "Jika jawaban jujurnya “tidak”, lowongan itu memberitahumu sesuatu tentang kecocokan, bukan tentang nilaimu."
+          "id": "Kalau jawaban jujurnya “tidak”, lowongan itu sedang memberitahumu soal kecocokan, bukan soal nilai dirimu."
          },
          "em": {
           "en": "and what she should not",
@@ -25276,15 +25277,15 @@ window.MT_LMS['the-pack'] = {
       },
       "kicker": {
        "en": "Read first · how this case works",
-       "id": "Baca dulu · cara kerja kasus ini"
+       "id": "Baca dulu · cara kerja studi kasus ini"
       },
       "title": {
        "en": "Be the portal before the portal is",
-       "id": "Jadilah portal sebelum portalnya"
+       "id": "Jadilah portal sebelum portal yang menilai"
       },
       "intro": {
        "en": "Four steps, four written answers. The case file has five tabs; the problems are spread across them, and some only show when you compare two tabs.",
-       "id": "Empat langkah, empat jawaban tertulis. Berkas kasus punya lima tab; masalahnya tersebar di antaranya, dan sebagian hanya terlihat ketika kamu membandingkan dua tab."
+       "id": "Empat langkah, empat jawaban tertulis. Berkas kasus punya lima tab. Masalahnya tersebar di semua tab, dan sebagian baru terlihat kalau kamu membandingkan dua tab."
       },
       "slides": [
        {
@@ -25295,11 +25296,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "The brief · the facts · the advertisement · Nadia’s uploads and form entries · her CV and LinkedIn summary.",
-          "id": "Arahan · fakta · iklan · unggahan dan isian formulir Nadia · CV dan ringkasan LinkedIn-nya."
+          "id": "Ringkasan · fakta · iklan · berkas unggahan dan isian formulir Nadia · CV dan ringkasan LinkedIn-nya."
          },
          {
           "en": "Compare: the advertisement’s file specs against the uploads; the form against the CV; the CV against LinkedIn.",
-          "id": "Bandingkan: spesifikasi berkas iklan dengan unggahan; formulir dengan CV; CV dengan LinkedIn."
+          "id": "Bandingkan: ketentuan berkas di iklan dengan berkas yang diunggah; formulir dengan CV; CV dengan LinkedIn."
          }
         ]
        },
@@ -25311,23 +25312,23 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "An unmet essential requirement or an unreadable required document is fatal. A ranking loss is not.",
-          "id": "Syarat esensial yang tidak terpenuhi atau dokumen wajib yang tidak terbaca itu fatal. Kehilangan peringkat tidak."
+          "id": "Syarat wajib yang tidak terpenuhi atau dokumen wajib yang tidak terbaca itu fatal. Turunnya peringkat tidak."
          },
          {
           "en": "Say which is which, and why.",
-          "id": "Katakan mana yang mana, dan mengapa."
+          "id": "Sebutkan mana yang mana, dan mengapa."
          }
         ]
        },
        {
         "h": {
          "en": "The honest decision",
-         "id": "Keputusan jujur"
+         "id": "Keputusan yang jujur"
         },
         "points": [
          {
           "en": "Step 4 has no clever workaround. It asks what Nadia should do, and what she should not.",
-          "id": "Langkah 4 tidak punya jalan pintas cerdik. Ia bertanya apa yang harus dilakukan Nadia, dan apa yang tidak boleh."
+          "id": "Langkah 4 tidak punya jalan pintas yang cerdik. Pertanyaannya: apa yang sebaiknya Nadia lakukan, dan apa yang tidak boleh ia lakukan."
          }
         ]
        }
@@ -25338,7 +25339,7 @@ window.MT_LMS['the-pack'] = {
       "idPrefix": "PK4",
       "kicker": {
        "en": "Case assignment · Interactive case",
-       "id": "Tugas kasus · Kasus interaktif"
+       "id": "Studi kasus · Kasus interaktif"
       },
       "title": {
        "en": "The Portal",
@@ -25346,20 +25347,20 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "Nadia is about to submit her Bank Sinar Nusantara officer programme application. Everything she plans to submit is in the case file. Find the problems before the portal does.",
-       "id": "Nadia hendak mengirim lamaran ODP Bank Sinar Nusantara. Semua yang akan ia kirim ada di berkas kasus. Temukan masalahnya sebelum portal menemukannya."
+       "id": "Nadia sudah hampir mengirim lamaran ODP-nya ke Bank Sinar Nusantara. Semua yang akan ia kirim ada di berkas kasus. Temukan masalahnya sebelum portal yang menemukannya."
       },
       "practice": [
        {
         "en": "Spot administrative failures",
-        "id": "Menemukan kegagalan administratif"
+        "id": "Menemukan kegagalan administrasi"
        },
        {
         "en": "Write a pre-flight",
-        "id": "Menulis pra-kirim"
+        "id": "Menyusun pemeriksaan sebelum kirim"
        },
        {
         "en": "Build a coverage table",
-        "id": "Membangun tabel cakupan"
+        "id": "Membuat tabel cakupan"
        },
        {
         "en": "Decide honestly under a deadline",
@@ -25368,7 +25369,7 @@ window.MT_LMS['the-pack'] = {
       ],
       "goal": {
        "en": "A submission that would pass seleksi administrasi, or an honest decision not to make it this cycle.",
-       "id": "Pengiriman yang akan lolos seleksi administrasi, atau keputusan jujur untuk tidak mengirim pada siklus ini."
+       "id": "Lamaran yang lolos seleksi administrasi, atau keputusan jujur untuk tidak mengirimnya di periode ini."
       },
       "brief": {
        "email": {
@@ -25392,29 +25393,29 @@ window.MT_LMS['the-pack'] = {
         "paragraphs": [
          {
           "en": "The officer programme window closes in ten days. I have filled in the portal form and uploaded everything; I am attaching the list of files as they are in the portal, plus my form entries, in case you want to check.",
-          "id": "Jendela ODP tutup sepuluh hari lagi. Aku sudah mengisi formulir portal dan mengunggah semuanya, kulampirkan daftar berkas sebagaimana ada di portal, plus isian formulirku, kalau-kalau kamu ingin memeriksa."
+          "id": "Pendaftaran ODP tutup sepuluh hari lagi. Formulir di portal sudah kuisi dan semua berkas sudah kuunggah. Aku lampirkan daftar berkas persis seperti yang ada di portal, plus isian formulirku, kalau-kalau mau dicek."
          },
          {
           "en": "I used the CV from Module 3 (the Arunika version, since it was ready). My LinkedIn is the one from before the course.",
-          "id": "Aku memakai CV dari Modul 3 (versi Arunika, karena sudah siap). LinkedIn-ku masih yang dari sebelum kursus."
+          "id": "Aku pakai CV dari Modul 3 (versi Arunika, karena sudah jadi). LinkedIn-ku masih yang lama, sebelum ikut kursus."
          },
          {
           "en": "One worry: my TOEFL was taken in my third year. Is that a problem?",
-          "id": "Satu kekhawatiran: TOEFL-ku diambil di tahun ketiga. Apakah itu masalah?"
+          "id": "Satu yang bikin khawatir: TOEFL-ku diambil waktu aku tingkat tiga. Apakah itu masalah?"
          }
         ],
         "asks": [
          {
           "en": "Is there anything that would get me rejected at the administrative stage?",
-          "id": "Adakah yang akan membuatku ditolak di tahap administrasi?"
+          "id": "Adakah yang bisa membuatku gugur di tahap administrasi?"
          },
          {
           "en": "What should I check before I press Submit?",
-          "id": "Apa yang harus kuperiksa sebelum menekan Kirim?"
+          "id": "Apa saja yang perlu kucek sebelum menekan Kirim?"
          },
          {
           "en": "About the TOEFL: what do I do?",
-          "id": "Soal TOEFL: apa yang harus kulakukan?"
+          "id": "Soal TOEFL: aku harus bagaimana?"
          }
         ],
         "closing": [
@@ -25433,7 +25434,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "until the officer programme window closes",
-          "id": "sampai jendela ODP tutup"
+          "id": "sampai pendaftaran ODP ditutup"
          },
          "hot": true
         },
@@ -25445,7 +25446,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "valid within 2 years: Nadia’s certificate is dated 26 months ago",
-          "id": "berlaku dalam 2 tahun: sertifikat Nadia bertanggal 26 bulan lalu"
+          "id": "berlaku 2 tahun: sertifikat Nadia bertanggal 26 bulan lalu"
          },
          "hot": true
         },
@@ -25457,7 +25458,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "from booking to a new TOEFL ITP (Institutional Testing Program) result at the nearest test centre",
-          "id": "dari pendaftaran sampai hasil TOEFL ITP (Institutional Testing Program) baru di pusat tes terdekat"
+          "id": "dari mendaftar tes sampai hasil TOEFL ITP (Institutional Testing Program) baru keluar, di pusat tes terdekat"
          },
          "hot": true
         },
@@ -25469,7 +25470,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "file limits for documents and the photo",
-          "id": "batas berkas untuk dokumen dan foto"
+          "id": "batas ukuran berkas untuk dokumen dan foto"
          }
         },
         {
@@ -25480,7 +25481,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "from HIMA (the students’ association, himpunan mahasiswa) work at the bank; officer programme recruits on rolling windows",
-          "id": "dari HIMA (himpunan mahasiswa) bekerja di bank; ODP merekrut dalam jendela bergulir"
+          "id": "dari HIMA (himpunan mahasiswa) bekerja di bank itu; ODP membuka pendaftaran beberapa kali dalam setahun"
          }
         },
         {
@@ -25491,7 +25492,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "on the transcript; the form shows 3,4",
-          "id": "di transkrip; formulir menunjukkan 3,4"
+          "id": "di transkrip; di formulir tertulis 3,4"
          }
         }
        ],
@@ -25507,7 +25508,7 @@ window.MT_LMS['the-pack'] = {
          },
          "meta": {
           "en": "Fictional employer · rolling windows · this window closes in 10 days",
-          "id": "Perusahaan fiktif · jendela bergulir · jendela ini tutup 10 hari lagi"
+          "id": "Perusahaan fiktif · pendaftaran dibuka beberapa kali setahun · periode ini tutup 10 hari lagi"
          },
          "body": [
           {
@@ -25524,7 +25525,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Maximum age 26 at registration",
-             "id": "Usia maksimum 26 saat pendaftaran"
+             "id": "Usia maksimal 26 tahun saat mendaftar"
             },
             {
              "en": "TOEFL ITP ≥ 475 (or equivalent), valid within 2 years of the test date",
@@ -25532,11 +25533,11 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Willing to be placed anywhere in the country (bersedia ditempatkan di seluruh Indonesia)",
-             "id": "Bersedia ditempatkan di seluruh negeri"
+             "id": "Bersedia ditempatkan di seluruh Indonesia"
             },
             {
              "en": "Preferred: experience in banking operations, customer service or finance; organisational leadership; Microsoft Excel",
-             "id": "Diutamakan: pengalaman operasional perbankan, layanan pelanggan, atau keuangan; kepemimpinan organisasi; Microsoft Excel"
+             "id": "Diutamakan: berpengalaman di operasional perbankan, layanan pelanggan, atau keuangan; kepemimpinan organisasi; Microsoft Excel"
             }
            ]
           },
@@ -25583,7 +25584,7 @@ window.MT_LMS['the-pack'] = {
          },
          "title": {
           "en": "Nadia’s files as uploaded, and her form entries",
-          "id": "Berkas Nadia sebagaimana diunggah, dan isian formulirnya"
+          "id": "Berkas Nadia seperti yang diunggah, dan isian formulirnya"
          },
          "meta": {
           "en": "Copied from the portal’s review page",
@@ -25650,7 +25651,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Bersedia ditempatkan di seluruh Indonesia: Yes",
-             "id": "Bersedia ditempatkan di seluruh negeri: Ya"
+             "id": "Bersedia ditempatkan di seluruh Indonesia: Ya"
             }
            ]
           }
@@ -25667,7 +25668,7 @@ window.MT_LMS['the-pack'] = {
          },
          "meta": {
           "en": "Key lines only",
-          "id": "Baris-baris kunci saja"
+          "id": "Baris-baris penting saja"
          },
          "body": [
           {
@@ -25680,7 +25681,7 @@ window.MT_LMS['the-pack'] = {
            "items": [
             {
              "en": "Profile: “Management graduate targeting commercial and supply-chain trainee roles in consumer goods…”",
-             "id": "Profil: “Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi…”"
+             "id": "Profil: “Lulusan Manajemen yang membidik posisi trainee komersial dan rantai pasok di industri barang konsumsi…”"
             },
             {
              "en": "bachelor’s degree Manajemen · GPA 3.38 / 4.00 · August 2026",
@@ -25688,7 +25689,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Operations Intern, Bank Sinar Nusantara · Jun 2025 – Aug 2025 · reconciled daily transaction reports for 3 branches…",
-             "id": "Operations Intern, Bank Sinar Nusantara · Jun 2025 – Agu 2025 · merekonsiliasi laporan transaksi harian untuk 3 cabang…"
+             "id": "Operations Intern, Bank Sinar Nusantara · Jun 2025 – Agu 2025 · merekonsiliasi laporan transaksi harian 3 cabang…"
             },
             {
              "en": "Barista, Kopi Tepian · 14 months · 120–150 customers a shift…",
@@ -25696,11 +25697,11 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Head of Sponsorship · Treasurer, HIMA Manajemen 2024–2025 · community-service workshop",
-             "id": "Kepala Sponsorship · Bendahara, HIMA Manajemen 2024–2025 · lokakarya KKN (kuliah kerja nyata)"
+             "id": "Ketua Divisi Sponsor · Bendahara, HIMA Manajemen 2024–2025 · lokakarya KKN (kuliah kerja nyata)"
             },
             {
              "en": "Tools: Excel (pivot tables, VLOOKUP), Google Sheets · TOEFL ITP 527",
-             "id": "Alat: Excel (pivot table, VLOOKUP), Google Sheets · TOEFL ITP 527"
+             "id": "Perangkat: Excel (pivot table, VLOOKUP), Google Sheets · TOEFL ITP 527"
             }
            ]
           },
@@ -25726,11 +25727,11 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Sponsorship Coordinator, campus business competition",
-             "id": "Koordinator Sponsorship, kompetisi bisnis kampus"
+             "id": "Koordinator Sponsor, kompetisi bisnis kampus"
             },
             {
              "en": "Education: bachelor’s degree Manajemen · GPA 3.4",
-             "id": "Pendidikan: S1 Manajemen · GPA (indeks prestasi kumulatif, IPK) 3.4"
+             "id": "Pendidikan: S1 Manajemen · IPK 3.4"
             }
            ]
           }
@@ -25750,7 +25751,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 4.4’s checklist categories: eligibility, language, documents, file specs, declarations, form fields, plus consistency across the three tabs. Mark each fatal (essential) or not.",
-         "id": "Kategori daftar periksa Pelajaran 4.4: kelayakan, bahasa, dokumen, spesifikasi berkas, pernyataan, kolom formulir, plus konsistensi di ketiga tab. Tandai masing-masing fatal (esensial) atau tidak."
+         "id": "Pakai kategori daftar periksa dari Pelajaran 4.4: kelayakan, bahasa, dokumen, ketentuan berkas, pernyataan, isian formulir, ditambah konsistensi di antara tiga tab. Tandai masing-masing: fatal (syarat wajib) atau tidak."
         },
         "questions": [
          {
@@ -25759,11 +25760,11 @@ window.MT_LMS['the-pack'] = {
           "rows": 9,
           "title": {
            "en": "Every administrative problem, and whether it is fatal",
-           "id": "Setiap masalah administratif, dan apakah fatal"
+           "id": "Setiap masalah administrasi, dan apakah fatal"
           },
           "help": {
            "en": "At least six items. One line each: the problem · fatal or not · why.",
-           "id": "Setidaknya enam butir. Satu baris masing-masing: masalahnya · fatal atau tidak · mengapa."
+           "id": "Minimal enam masalah. Satu baris untuk masing-masing: masalahnya · fatal atau tidak · alasannya."
           },
           "placeholder": {
            "en": "1. TOEFL certificate dated 26 months ago, fatal, … 2. …",
@@ -25834,7 +25835,8 @@ window.MT_LMS['the-pack'] = {
            [
             "fatal",
             "essential",
-            "esensial"
+            "esensial",
+            "wajib"
            ]
           ]
          }
@@ -25843,15 +25845,15 @@ window.MT_LMS['the-pack'] = {
        {
         "title": {
          "en": "Pre-flight",
-         "id": "Pra-kirim"
+         "id": "Sebelum kirim"
         },
         "short": {
          "en": "Pre-flight",
-         "id": "Pra-kirim"
+         "id": "Sebelum kirim"
         },
         "guide": {
          "en": "Write the checklist Nadia should run for this programme specifically, file by file, field by field, with the fix for each problem you found.",
-         "id": "Tulis daftar periksa yang harus dijalankan Nadia khusus untuk program ini, berkas demi berkas, kolom demi kolom, dengan perbaikan untuk setiap masalah yang kamu temukan."
+         "id": "Tulis daftar periksa yang perlu Nadia jalankan khusus untuk program ini, berkas demi berkas, isian demi isian, lengkap dengan perbaikan untuk setiap masalah yang kamu temukan."
         },
         "questions": [
          {
@@ -25860,15 +25862,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 9,
           "title": {
            "en": "Nadia’s pre-flight checklist for the officer programme",
-           "id": "Daftar periksa pra-kirim Nadia untuk ODP"
+           "id": "Daftar periksa sebelum kirim untuk ODP Nadia"
           },
           "help": {
            "en": "Parse · coverage · triage · documents (name, format, size, legibility) · consistency · knockouts · submit and track. Concrete: which file to re-export, what to rename, what to correct.",
-           "id": "Urai · cakupan · triase · dokumen (nama, format, ukuran, keterbacaan) · konsistensi · gugur · kirim dan catat. Konkret: berkas mana yang diekspor ulang, apa yang diganti nama, apa yang dikoreksi."
+           "id": "Uji urai · cakupan · pilah persyaratan · dokumen (nama, format, ukuran, keterbacaan) · konsistensi · pertanyaan gugur · kirim dan catat. Buat konkret: berkas mana yang diekspor ulang, apa yang diganti namanya, apa yang dibetulkan."
           },
           "placeholder": {
            "en": "Documents: re-scan the transcript as a text PDF under 500 KB, rename NadiaPutri_Transkrip.pdf; photo → JPG 4×6 red ≤ 200 KB; … Form: major → Manajemen; GPA → 3,38; …",
-           "id": "Dokumen: pindai ulang transkrip sebagai PDF teks di bawah 500 KB, ganti nama NadiaPutri_Transkrip.pdf; foto → JPG 4×6 merah ≤ 200 KB; … Formulir: jurusan → Manajemen; IPK → 3,38; …"
+           "id": "Dokumen: pindai ulang transkrip menjadi PDF teks di bawah 500 KB, beri nama NadiaPutri_Transkrip.pdf; foto → JPG 4×6 latar merah ≤ 200 KB; … Formulir: jurusan → Manajemen; IPK → 3,38; …"
           },
           "keywords": [
            [
@@ -25937,7 +25939,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 4.3. Six rows from the officer programme advertisement against the CV she uploaded: keyword · where · evidence sentence · ✓ / ✎ / ✗ · close.",
-         "id": "Pelajaran 4.3. Enam baris dari iklan ODP dibandingkan dengan CV yang ia unggah: kata kunci · di mana · kalimat bukti · ✓ / ✎ / ✗ · penutup."
+         "id": "Pelajaran 4.3. Enam baris dari iklan ODP, dicocokkan dengan CV yang ia unggah: kata kunci · di mana · kalimat bukti · ✓ / ✎ / ✗ · cara menutup."
         },
         "questions": [
          {
@@ -25950,11 +25952,11 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Suggested rows: banking operations · customer service · finance · organisational leadership · Microsoft Excel · willing to be placed anywhere. Say what the profile line should become for this application.",
-           "id": "Baris yang disarankan: operasional perbankan · layanan pelanggan · keuangan · kepemimpinan organisasi · Microsoft Excel · bersedia ditempatkan di mana saja. Katakan baris profil harus menjadi apa untuk lamaran ini."
+           "id": "Usulan baris: operasional perbankan · layanan pelanggan · keuangan · kepemimpinan organisasi · Microsoft Excel · bersedia ditempatkan di mana saja. Sebutkan juga baris pertama profil yang seharusnya untuk lamaran ini."
           },
           "placeholder": {
            "en": "banking operations, internship bullet, “Operations Intern … reconciled …”, ✎ add the exact phrase … customer service, café bullet, … ✓ …",
-           "id": "operasional perbankan, butir magang, “Operations Intern … merekonsiliasi …”, ✎ tambahkan frasa persis … layanan pelanggan, butir kafe, … ✓ …"
+           "id": "operasional perbankan, butir magang, “Operations Intern … merekonsiliasi …”, ✎ tambahkan frasa persisnya … layanan pelanggan, butir kafe, … ✓ …"
           },
           "keywords": [
            [
@@ -25998,7 +26000,8 @@ window.MT_LMS['the-pack'] = {
             "covered",
             "tercakup",
             "rephrase",
-            "ubah kata"
+            "ubah kata",
+            "ganti istilah"
            ]
           ]
          }
@@ -26015,7 +26018,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "The TOEFL is expired. A new test takes three weeks; the window closes in ten days. What should she do, and what should she not do? Then: what happens to the rest of her month?",
-         "id": "TOEFL-nya kedaluwarsa. Tes baru butuh tiga minggu; jendela tutup sepuluh hari lagi. Apa yang harus ia lakukan, dan apa yang tidak boleh? Lalu: apa yang terjadi dengan sisa bulannya?"
+         "id": "TOEFL-nya sudah kedaluwarsa. Tes baru butuh tiga minggu; pendaftaran tutup sepuluh hari lagi. Apa yang sebaiknya ia lakukan, dan apa yang tidak boleh ia lakukan? Lalu: bagaimana dengan sisa bulannya?"
         },
         "questions": [
          {
@@ -26024,15 +26027,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 8,
           "title": {
            "en": "The expired certificate: what to do, and what not to do",
-           "id": "Sertifikat kedaluwarsa: apa yang dilakukan, dan apa yang tidak boleh"
+           "id": "Sertifikat kedaluwarsa: apa yang dilakukan, dan apa yang tidak"
           },
           "help": {
            "en": "Be specific about the honest options, the dishonest ones to rule out, and where her effort goes this month (Lessons 1.2 and 1.4).",
-           "id": "Spesifik tentang pilihan jujur, pilihan tidak jujur yang harus disingkirkan, dan ke mana usahanya bulan ini (Pelajaran 1.2 dan 1.4)."
+           "id": "Uraikan secara spesifik pilihan-pilihan yang jujur, pilihan tidak jujur yang harus dicoret, dan ke mana tenaganya diarahkan bulan ini (Pelajaran 1.2 dan 1.4)."
           },
           "placeholder": {
            "en": "She should not upload the expired certificate or claim the score … She should book the test now, calendar the next officer programme window, and …",
-           "id": "Ia tidak boleh mengunggah sertifikat kedaluwarsa atau mengklaim skornya … Ia harus mendaftar tes sekarang, mencatat jendela ODP berikutnya di kalender, dan …"
+           "id": "Ia tidak boleh mengunggah sertifikat kedaluwarsa atau mengklaim skornya … Ia sebaiknya mendaftar tes sekarang, mencatat periode ODP berikutnya di kalender, dan …"
           },
           "keywords": [
            [
@@ -26086,28 +26089,28 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "All administrative failures found and correctly classified as fatal or not",
-         "id": "Semua kegagalan administratif ditemukan dan digolongkan dengan benar sebagai fatal atau tidak"
+         "id": "Semua kegagalan administrasi ditemukan dan digolongkan dengan benar: fatal atau tidak"
         },
         "w": "30%"
        },
        {
         "h": {
          "en": "Pre-flight is concrete and programme-specific",
-         "id": "Pra-kirim konkret dan khusus program"
+         "id": "Pemeriksaan sebelum kirim konkret dan khusus untuk program ini"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "Coverage table has evidence sentences and honest closes",
-         "id": "Tabel cakupan memuat kalimat bukti dan penutup jujur"
+         "id": "Tabel cakupan memuat kalimat bukti dan cara menutup yang jujur"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "Decision is honest, specific, and redirects the month",
-         "id": "Keputusan jujur, spesifik, dan mengarahkan ulang bulan itu"
+         "id": "Keputusannya jujur, spesifik, dan mengarahkan ulang bulan itu"
         },
         "w": "20%"
        }
@@ -26126,17 +26129,17 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Fatal: (1) TOEFL certificate dated 26 months ago against a two-year validity, an unmet essential requirement. (2) Photo: PNG, 1.1 MB, blue background, against JPG ≤ 200 KB red background, a required document in the wrong format, size and specification. (3) Transcript: a 2.3 MB phone-photo PDF against ≤ 500 KB, over the limit and likely illegible. (4) Major: “Other” selected where “Manajemen” exists, an eligibility mismatch. Not fatal but damaging: (5) GPA 3,4 on the form versus 3,38 on the transcript and 3.38 on the CV. Reads as inflation. (6) Internship end date September on the form and LinkedIn versus August on the CV. (7) HIMA period 2023–2025 on LinkedIn versus 2024–2025 on the CV; “Sponsorship Coordinator” versus “Head of Sponsorship”. (8) The optional organisational-experience field left blank, lost ranking for a graduate whose strongest evidence is organisational. (9) A CV whose profile targets consumer-goods trainee roles, sent to a bank, not a rejection, but a weaker first line than she has. File names “SKL.pdf”, “transkrip nadia.pdf”, “national ID card.pdf”, “foto.png”, untidy, not fatal.",
-         "id": "Fatal: (1) Sertifikat TOEFL bertanggal 26 bulan lalu terhadap masa berlaku dua tahun. Syarat esensial yang tidak terpenuhi. (2) Foto: PNG, 1,1 MB, latar biru, terhadap JPG ≤ 200 KB latar merah, dokumen wajib dengan format, ukuran, dan spesifikasi yang salah. (3) Transkrip: PDF foto ponsel 2,3 MB terhadap ≤ 500 KB, melebihi batas dan kemungkinan tidak terbaca. (4) Jurusan: “Lainnya” dipilih padahal “Manajemen” ada. Ketidakcocokan kelayakan. Tidak fatal tetapi merugikan: (5) IPK 3,4 di formulir versus 3,38 di transkrip dan 3.38 di CV. Terbaca sebagai menggelembungkan. (6) Tanggal akhir magang September di formulir dan LinkedIn versus Agustus di CV. (7) Periode HIMA 2023–2025 di LinkedIn versus 2024–2025 di CV; “Koordinator Sponsorship” versus “Kepala Sponsorship”. (8) Kolom opsional pengalaman organisasi dibiarkan kosong, kehilangan peringkat bagi lulusan yang bukti terkuatnya adalah organisasi. (9) CV yang profilnya membidik peran trainee barang konsumsi, dikirim ke bank, bukan penolakan, tetapi baris pertama yang lebih lemah dari yang ia punya. Nama berkas “SKL.pdf”, “transkrip nadia.pdf”, “KTP.pdf”, “foto.png”, tidak rapi, tidak fatal."
+         "id": "Fatal: (1) Sertifikat TOEFL bertanggal 26 bulan lalu, padahal masa berlakunya dua tahun: syarat wajib yang tidak terpenuhi. (2) Foto: PNG, 1,1 MB, latar biru, padahal diminta JPG ≤ 200 KB berlatar merah: dokumen wajib dengan format, ukuran, dan ketentuan yang salah. (3) Transkrip: PDF dari foto ponsel berukuran 2,3 MB, padahal batasnya ≤ 500 KB: melebihi batas dan kemungkinan tidak terbaca. (4) Jurusan: memilih “Lainnya” padahal “Manajemen” tersedia: tidak cocok dengan syarat kelayakan. Tidak fatal, tetapi merugikan: (5) IPK 3,4 di formulir, sedangkan 3,38 di transkrip dan 3.38 di CV: terkesan menaikkan nilai. (6) Akhir magang tertulis September di formulir dan LinkedIn, tetapi Agustus di CV. (7) Periode HIMA 2023–2025 di LinkedIn, tetapi 2024–2025 di CV; “Koordinator Sponsor” dibandingkan “Ketua Divisi Sponsor”. (8) Isian opsional pengalaman organisasi dibiarkan kosong, sehingga peringkat turun, padahal bukti terkuatnya justru dari organisasi. (9) CV yang profilnya membidik posisi trainee di industri barang konsumsi dikirim ke bank: bukan alasan penolakan, tetapi baris pertamanya lebih lemah dari yang sebenarnya bisa ia tulis. Nama berkas “SKL.pdf”, “transkrip nadia.pdf”, “KTP.pdf”, “foto.png”: tidak rapi, tetapi tidak fatal."
         },
         {
          "h": {
           "en": "The pre-flight",
-          "id": "Pra-kirim"
+          "id": "Pemeriksaan sebelum kirim"
          }
         },
         {
          "en": "Documents: re-export the transcript from a proper scan as a text-readable PDF under 500 KB; convert the photo to a 4×6 JPG on a red background under 200 KB (a new photo, not a recolour); rename every file NadiaPutri_[Document].pdf; check each opens and reads. Form: major → Manajemen; GPA → 3,38; internship → June–August 2025; fill the organisational-experience field with the HIMA, sponsorship and community-service lines. Consistency: correct LinkedIn to the pantry’s dates and titles, GPA to 3.38. CV: tailor the profile’s first line to “banking operations / officer development” and move the internship to the top (a twenty-minute pass). Knockouts: placement anywhere, yes, truthfully. Submit: screenshot the confirmation; log “NadiaPutri_CV_BSN_ODP.pdf” in the tracker. All of which is moot until the TOEFL is resolved.",
-         "id": "Dokumen: ekspor ulang transkrip dari pindaian yang benar sebagai PDF terbaca teks di bawah 500 KB; ubah foto menjadi JPG 4×6 berlatar merah di bawah 200 KB (foto baru, bukan pewarnaan ulang); ganti nama setiap berkas NadiaPutri_[Dokumen].pdf; periksa masing-masing terbuka dan terbaca. Formulir: jurusan → Manajemen; IPK → 3,38; magang → Juni–Agustus 2025; isi kolom pengalaman organisasi dengan baris HIMA, sponsorship, dan KKN. Konsistensi: koreksi LinkedIn ke tanggal dan jabatan lemari, GPA ke 3.38. CV: sesuaikan baris pertama profil ke “operasional perbankan / officer development” dan pindahkan magang ke atas (proses dua puluh menit). Gugur: penempatan di mana saja. Ya, dengan jujur. Kirim: tangkap layar konfirmasi; catat “NadiaPutri_CV_BSN_ODP.pdf” di pelacak. Semua itu tidak berarti sampai TOEFL diselesaikan."
+         "id": "Dokumen: pindai ulang transkrip dengan benar dan ekspor sebagai PDF yang teksnya terbaca, di bawah 500 KB; siapkan foto JPG 4×6 berlatar merah di bawah 200 KB (foto baru, bukan foto lama yang diwarnai ulang); ganti nama semua berkas menjadi NadiaPutri_[Dokumen].pdf; pastikan setiap berkas bisa dibuka dan terbaca. Formulir: jurusan → Manajemen; IPK → 3,38; magang → Juni–Agustus 2025; isi kolom pengalaman organisasi dengan baris HIMA, sponsor, dan KKN. Konsistensi: betulkan tanggal dan jabatan di LinkedIn sesuai isi lemari, IPK menjadi 3.38. CV: sesuaikan baris pertama profil ke “operasional perbankan / officer development” dan naikkan magang ke posisi teratas (sesi dua puluh menit). Pertanyaan gugur: bersedia ditempatkan di mana saja, ya, dengan jujur. Kirim: tangkap layar konfirmasi; catat “NadiaPutri_CV_BSN_ODP.pdf” di pelacak. Tetapi semua itu sia-sia selama urusan TOEFL belum beres."
         },
         {
          "h": {
@@ -26146,7 +26149,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "banking operations, internship, “Operations Intern … reconciled daily transaction reports for 3 branches”, ✎ add the exact phrase “banking operations” to the title line or profile. customer service, café, “served 120–150 customers per shift”, ✎ add “customer service” to the bullet. finance, HIMA, “rebuilt financial records … zero audit findings”, ✎ “finance” in the statement heading. organisational leadership, sponsorship, “led a 6-person team … 11 sponsors”, ✓ once the heading uses the phrase. Microsoft Excel, tools, “Excel (pivot tables, VLOOKUP)”, ✎ “Microsoft Excel”. willing to be placed anywhere. Profile, “open to placement anywhere in the country”, ✓. Every must met except TOEFL; shoulds all coverable.",
-         "id": "operasional perbankan, magang, “Operations Intern … merekonsiliasi laporan transaksi harian untuk 3 cabang”, ✎ tambahkan frasa persis “operasional perbankan” di baris jabatan atau profil. layanan pelanggan, kafe, “melayani 120–150 pelanggan per sif”, ✎ tambahkan “layanan pelanggan” ke butir. keuangan, HIMA, “membangun ulang catatan keuangan … nol temuan audit”, ✎ “keuangan” di judul pernyataan. kepemimpinan organisasi, sponsorship, “memimpin tim 6 orang … 11 sponsor”, ✓ begitu judulnya memakai frasa itu. Microsoft Excel, alat, “Excel (pivot table, VLOOKUP)”, ✎ “Microsoft Excel”. bersedia ditempatkan di mana saja, profil, “bersedia ditempatkan di seluruh negeri”, ✓. Setiap syarat wajib terpenuhi kecuali TOEFL; semua syarat sebaiknya bisa dicakup."
+         "id": "operasional perbankan, magang, “Operations Intern … merekonsiliasi laporan transaksi harian 3 cabang”, ✎ tambahkan frasa persis “operasional perbankan” di baris jabatan atau profil. layanan pelanggan, kafe, “melayani 120–150 pelanggan per sif”, ✎ tambahkan “layanan pelanggan” ke butirnya. keuangan, HIMA, “membenahi catatan keuangan … nol temuan audit”, ✎ pakai “keuangan” di judul pernyataan. kepemimpinan organisasi, sponsor, “memimpin tim 6 orang … 11 sponsor”, ✓ setelah judulnya memakai frasa itu. Microsoft Excel, perangkat, “Excel (pivot table, VLOOKUP)”, ✎ tulis “Microsoft Excel”. bersedia ditempatkan di mana saja, profil, “bersedia ditempatkan di seluruh Indonesia”, ✓. Semua syarat wajib terpenuhi kecuali TOEFL; semua syarat tambahan bisa dicakup."
         },
         {
          "h": {
@@ -26156,18 +26159,18 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "She cannot meet an essential requirement truthfully in time. She should not upload the expired certificate, should not claim a score she cannot document, and should not hope the portal will not check the date. It is the first thing the administrative filter reads. She should book the TOEFL ITP today, put the next officer programme window in her calendar (the bank recruits on rolling windows, and four HIMA alumni can tell her when), and redirect this month’s hours to targets she can still meet: the Arunika MT (management trainee) window, KilatPay and Rumah Rempah on the network track. In the tracker: officer programme → “closed this cycle · reason: TOEFL validity · next action: test result on [date]”. A lesson learned, logged, not a wound.",
-         "id": "Ia tidak bisa memenuhi syarat esensial dengan jujur tepat waktu. Ia tidak boleh mengunggah sertifikat kedaluwarsa, tidak boleh mengklaim skor yang tidak bisa ia dokumentasikan, dan tidak boleh berharap portal tidak memeriksa tanggalnya. Itu hal pertama yang dibaca saringan administrasi. Ia harus mendaftar TOEFL ITP hari ini, mencatat jendela ODP berikutnya di kalender (bank itu merekrut dalam jendela bergulir, dan empat alumni HIMA bisa memberi tahu kapan), dan mengarahkan ulang jam-jam bulan ini ke sasaran yang masih bisa ia penuhi: jendela MT (management trainee, program pelatihan manajemen) Arunika, KilatPay dan Rumah Rempah di jalur jejaring. Di pelacak: ODP → “ditutup siklus ini · alasan: masa berlaku TOEFL · tindakan berikutnya: hasil tes pada [tanggal]”. Pelajaran yang dicatat, bukan luka."
+         "id": "Ia tidak bisa memenuhi syarat wajib itu dengan jujur tepat waktu. Ia tidak boleh mengunggah sertifikat yang kedaluwarsa, tidak boleh mengklaim skor yang tidak bisa ia buktikan dengan dokumen, dan tidak boleh berharap portal tidak memeriksa tanggalnya, karena justru itulah yang pertama dibaca saringan administrasi. Ia sebaiknya mendaftar TOEFL ITP hari ini juga, mencatat periode ODP berikutnya di kalender (bank itu membuka pendaftaran beberapa kali setahun, dan empat alumni HIMA bisa memberi tahu kapan), lalu mengalihkan jam-jam bulan ini ke sasaran yang masih bisa ia kejar: pendaftaran MT (management trainee, program pelatihan manajemen) Arunika, serta KilatPay dan Rumah Rempah lewat jalur jejaring. Di pelacak: ODP → “ditutup untuk periode ini · alasan: masa berlaku TOEFL · langkah berikutnya: hasil tes pada [tanggal]”. Sebuah pelajaran yang dicatat, bukan luka."
         }
        ],
        "after": {
         "en": "Compare, do not copy. If your list of failures had fewer than four fatal items, look again at the file specs tab against the uploads. If your decision found a way to submit this cycle, ask which requirement you bent.",
-        "id": "Bandingkan, jangan salin. Jika daftar kegagalanmu punya kurang dari empat butir fatal, lihat lagi tab spesifikasi berkas berdampingan dengan unggahan. Jika keputusanmu menemukan cara mengirim siklus ini, tanyakan syarat mana yang kamu bengkokkan."
+        "id": "Bandingkan, jangan disalin. Kalau daftar kegagalanmu memuat kurang dari empat masalah fatal, bandingkan lagi tab ketentuan berkas dengan berkas yang diunggah. Kalau keputusanmu menemukan cara untuk tetap mengirim di periode ini, tanyakan syarat mana yang kamu bengkokkan."
        }
       },
       "submit": {
        "title": {
         "en": "Review & submit",
-        "id": "Tinjau & kumpulkan"
+        "id": "Tinjau dan kumpulkan"
        },
        "short": {
         "en": "Submit",
@@ -26175,19 +26178,19 @@ window.MT_LMS['the-pack'] = {
        },
        "lead": {
         "en": "Read your four answers as the bank’s administrative screener would. File specs first, then the form, then the CV. Submitting locks them on this device and opens the model notes.",
-        "id": "Baca keempat jawabanmu seperti penyaring administrasi bank; spesifikasi berkas dulu, lalu formulir, lalu CV. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+        "id": "Baca keempat jawabanmu seperti petugas seleksi administrasi bank membacanya: ketentuan berkas dulu, lalu formulir, lalu CV. Setelah dikumpulkan, jawabanmu terkunci di perangkat ini dan catatan model terbuka."
        },
        "button": {
         "en": "Submit the case",
-        "id": "Kumpulkan kasus"
+        "id": "Kumpulkan studi kasus"
        },
        "doneTitle": {
         "en": "Case submitted",
-        "id": "Kasus terkumpul"
+        "id": "Studi kasus terkumpul"
        },
        "doneBody": {
         "en": "Your answers are locked on this device. Compare with the model notes, then run the same pre-flight on your own next application.",
-        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan pra-kirim yang sama pada lamaranmu berikutnya."
+        "id": "Jawabanmu sudah terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan pemeriksaan sebelum kirim yang sama untuk lamaranmu sendiri berikutnya."
        }
       }
      },
@@ -26200,37 +26203,37 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Half the failures only appear when two tabs are compared: specs vs uploads, form vs CV, CV vs LinkedIn.",
-         "id": "Separuh kegagalan hanya muncul ketika dua tab dibandingkan: spesifikasi vs unggahan, formulir vs CV, CV vs LinkedIn."
+         "id": "Separuh kegagalan baru terlihat kalau dua tab dibandingkan: ketentuan dengan unggahan, formulir dengan CV, CV dengan LinkedIn."
         }
        },
        {
         "h": {
          "en": "Calling everything fatal",
-         "id": "Menyebut semuanya fatal"
+         "id": "Menganggap semuanya fatal"
         },
         "fix": {
          "en": "Essential requirements and required documents are gates; inconsistencies and blank optional fields cost ranking.",
-         "id": "Syarat esensial dan dokumen wajib adalah gerbang; ketidakkonsistenan dan kolom opsional kosong merugikan peringkat."
+         "id": "Syarat wajib dan dokumen wajib adalah gerbang. Data yang tidak konsisten dan isian opsional yang kosong menurunkan peringkat."
         }
        },
        {
         "h": {
          "en": "Finding a clever way to submit the expired certificate",
-         "id": "Mencari cara cerdik untuk mengirim sertifikat kedaluwarsa"
+         "id": "Mencari cara cerdik untuk tetap mengirim sertifikat kedaluwarsa"
         },
         "fix": {
          "en": "There isn’t one that is honest. Book the test; next cycle.",
-         "id": "Tidak ada yang jujur. Daftar tes; siklus berikutnya."
+         "id": "Tidak ada cara yang jujur. Daftar tesnya, lalu ikut periode berikutnya."
         }
        },
        {
         "h": {
          "en": "Ending the case at “don’t apply”",
-         "id": "Mengakhiri kasus di “jangan melamar”"
+         "id": "Berhenti di “jangan melamar”"
         },
         "fix": {
          "en": "Redirect the month: other targets, the calendar, the tracker.",
-         "id": "Arahkan ulang bulannya: sasaran lain, kalender, pelacak."
+         "id": "Alihkan bulannya: sasaran lain, kalender, pelacak."
         }
        }
       ]
@@ -26239,11 +26242,11 @@ window.MT_LMS['the-pack'] = {
       {
        "term": {
         "en": "Pre-flight Checklist",
-        "id": "Daftar Periksa Pra-kirim"
+        "id": "Daftar Periksa Sebelum Kirim"
        },
        "def": {
         "en": "Dossier item 4, part two: the programme-specific check run before every submission.",
-        "id": "Butir Dossier 4, bagian dua: pemeriksaan khusus program yang dijalankan sebelum setiap pengiriman."
+        "id": "Isi Dossier nomor 4, bagian kedua: pemeriksaan khusus per program yang dijalankan sebelum setiap pengiriman."
        }
       },
       {
@@ -26253,17 +26256,17 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The period after a test date during which a certificate is accepted, often two years.",
-        "id": "Periode setelah tanggal tes selama sertifikat diterima, sering dua tahun."
+        "id": "Rentang waktu setelah tanggal tes selama sertifikat masih diterima, sering kali dua tahun."
        }
       },
       {
        "term": {
         "en": "Rolling window",
-        "id": "Jendela bergulir"
+        "id": "Pendaftaran bergulir"
        },
        "def": {
         "en": "A programme that opens registration several times a year rather than once.",
-        "id": "Program yang membuka pendaftaran beberapa kali setahun, bukan sekali."
+        "id": "Program yang membuka pendaftaran beberapa kali dalam setahun, bukan hanya sekali."
        }
       }
      ],
@@ -26271,88 +26274,88 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Nadia’s TOEFL (Test of English as a Foreign Language) certificate is 26 months old against a two-year validity rule, and a new result takes three weeks; the window closes in ten days.",
-        "id": "Sertifikat TOEFL (Test of English as a Foreign Language) Nadia berusia 26 bulan terhadap aturan masa berlaku dua tahun, dan hasil baru butuh tiga minggu; jendela tutup sepuluh hari lagi."
+        "id": "Sertifikat TOEFL (Test of English as a Foreign Language) Nadia sudah berumur 26 bulan, padahal aturannya berlaku dua tahun. Hasil tes baru butuh tiga minggu, sedangkan pendaftaran tutup sepuluh hari lagi. Apa langkahnya?"
        },
        "options": [
         {
          "en": "Upload it: they may not check the date",
-         "id": "Unggah saja: mereka mungkin tidak memeriksa tanggalnya"
+         "id": "Unggah saja: belum tentu tanggalnya dicek"
         },
         {
          "en": "Do not submit an expired certificate; book the test now, calendar the next window, redirect this month to other targets",
-         "id": "Jangan kirim sertifikat kedaluwarsa; daftar tes sekarang, catat jendela berikutnya di kalender, arahkan ulang bulan ini ke sasaran lain"
+         "id": "Jangan kirim sertifikat kedaluwarsa; daftar tes sekarang, catat periode berikutnya di kalender, alihkan bulan ini ke sasaran lain"
         },
         {
          "en": "Type the score in the form and leave the upload blank",
-         "id": "Ketik skornya di formulir dan biarkan unggahan kosong"
+         "id": "Ketik skornya di formulir dan biarkan unggahannya kosong"
         },
         {
          "en": "Upload a friend’s certificate",
-         "id": "Unggah sertifikat teman"
+         "id": "Unggah sertifikat milik teman"
         }
        ],
        "correct": 1,
        "why": {
         "en": "An essential requirement cannot be met truthfully in time. The honest path is the only one that survives the process.",
-        "id": "Syarat esensial tidak bisa dipenuhi dengan jujur tepat waktu. Jalur jujur adalah satu-satunya yang bertahan dalam proses."
+        "id": "Syarat wajib itu tidak bisa dipenuhi dengan jujur tepat waktu. Hanya jalan yang jujur yang akan selamat sampai akhir proses."
        }
       },
       {
        "q": {
         "en": "The form shows GPA (grade point average) 3,4; the transcript says 3,38.",
-        "id": "Formulir menunjukkan IPK 3,4; transkrip menyebut 3,38."
+        "id": "Formulir menulis IPK 3,4; transkrip menulis 3,38. Apa yang kamu lakukan?"
        },
        "options": [
         {
          "en": "Fine: it rounds up",
-         "id": "Tidak apa-apa: itu pembulatan ke atas"
+         "id": "Tidak apa-apa: itu hanya pembulatan ke atas"
         },
         {
          "en": "Make every document identical and exact: 3,38",
-         "id": "Buat setiap dokumen identik dan tepat: 3,38"
+         "id": "Samakan semua dokumen dengan angka persisnya: 3,38"
         },
         {
          "en": "Change the CV to 3,4",
-         "id": "Ubah CV ke 3,4"
+         "id": "Ubah CV menjadi 3,4"
         },
         {
          "en": "Leave the field blank",
-         "id": "Biarkan kolomnya kosong"
+         "id": "Kosongkan isiannya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Rounding reads as inflation, and inconsistency reads as carelessness. One record, exact.",
-        "id": "Pembulatan terbaca sebagai menggelembungkan, dan ketidakkonsistenan terbaca sebagai kecerobohan. Satu rekaman, tepat."
+        "id": "Pembulatan terkesan menaikkan nilai, dan data yang tidak sama terkesan ceroboh. Satu sumber data, persis."
        }
       },
       {
        "q": {
         "en": "Which of these is not fatal on its own?",
-        "id": "Mana yang tidak fatal dengan sendirinya?"
+        "id": "Mana yang dengan sendirinya tidak fatal?"
        },
        "options": [
         {
          "en": "A required photo in the wrong format and size",
-         "id": "Foto wajib dalam format dan ukuran yang salah"
+         "id": "Foto wajib dengan format dan ukuran yang salah"
         },
         {
          "en": "“Other” selected as the major when “Manajemen” is listed",
-         "id": "“Lainnya” dipilih sebagai jurusan padahal “Manajemen” tercantum"
+         "id": "Memilih “Lainnya” sebagai jurusan padahal “Manajemen” tersedia"
         },
         {
          "en": "The optional organisational-experience field left blank",
-         "id": "Kolom opsional pengalaman organisasi dibiarkan kosong"
+         "id": "Isian opsional pengalaman organisasi dibiarkan kosong"
         },
         {
          "en": "An expired language certificate",
-         "id": "Sertifikat bahasa yang kedaluwarsa"
+         "id": "Sertifikat bahasa yang sudah kedaluwarsa"
         }
        ],
        "correct": 2,
        "why": {
         "en": "A blank optional field loses ranking; the other three are gates.",
-        "id": "Kolom opsional yang kosong kehilangan peringkat; tiga lainnya adalah gerbang."
+        "id": "Isian opsional yang kosong menurunkan peringkat; tiga lainnya adalah gerbang."
        }
       }
      ],
@@ -26361,29 +26364,29 @@ window.MT_LMS['the-pack'] = {
       "mode": "ats",
       "title": {
        "en": "Pre-flight your own next submission",
-       "id": "Pra-kirim pengirimanmu berikutnya"
+       "id": "Periksa lamaranmu sendiri berikutnya"
       },
       "body": {
        "en": "Take the application you are closest to sending. Run the parse test, the coverage table and the seven-step pre-flight in the ATS (applicant tracking system) check, and log the result with the CV version in the tracker. That completes Dossier item 4.",
-       "id": "Ambil lamaran yang paling dekat kamu kirim. Jalankan uji urai, tabel cakupan, dan pra-kirim tujuh langkah di pemeriksaan ATS, dan catat hasilnya bersama versi CV di pelacak. Itu melengkapi butir Dossier 4."
+       "id": "Ambil lamaran yang paling dekat untuk kamu kirim. Jalankan uji urai, tabel cakupan, dan pemeriksaan tujuh langkah sebelum kirim di pemeriksa ATS (sistem pelacak lamaran), lalu catat hasilnya beserta versi CV di pelacak. Dengan begitu, isi Dossier nomor 4 lengkap."
       },
       "cta": {
        "en": "Open the ATS check →",
-       "id": "Buka pemeriksaan ATS →"
+       "id": "Buka pemeriksa ATS →"
       }
      },
      "takeaways": [
       {
        "en": "Most administrative failures are visible only when you compare documents against specs and against each other.",
-       "id": "Kebanyakan kegagalan administratif hanya terlihat ketika kamu membandingkan dokumen dengan spesifikasi dan satu sama lain."
+       "id": "Sebagian besar kegagalan administrasi baru terlihat saat dokumen dibandingkan dengan ketentuan dan dengan satu sama lain."
       },
       {
        "en": "Fatal means an unmet essential requirement or an unusable required document; everything else costs ranking.",
-       "id": "Fatal berarti syarat esensial yang tidak terpenuhi atau dokumen wajib yang tidak bisa dipakai; selebihnya merugikan peringkat."
+       "id": "Fatal berarti syarat wajib tidak terpenuhi atau dokumen wajib tidak bisa dipakai; selebihnya menurunkan peringkat."
       },
       {
        "en": "When an essential requirement cannot be met honestly in time, the decision is next cycle, and a redirected month.",
-       "id": "Ketika syarat esensial tidak bisa dipenuhi dengan jujur tepat waktu, keputusannya adalah siklus berikutnya, dan bulan yang diarahkan ulang."
+       "id": "Kalau syarat wajib tidak bisa dipenuhi dengan jujur tepat waktu, keputusannya adalah periode berikutnya, dan bulan ini dialihkan ke sasaran lain."
       }
      ],
      "journey": {
@@ -26394,7 +26397,7 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "What the machine does, parse-safe formatting, honest coverage, seleksi administrasi.",
-        "id": "Apa yang dilakukan mesin, format aman-urai, cakupan jujur, seleksi administrasi."
+        "id": "Apa yang dikerjakan mesin, format yang aman dibaca sistem, memuat kata kunci dengan jujur, seleksi administrasi."
        }
       },
       "now": {
@@ -26404,7 +26407,7 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "You have found every failure in a real submission, written the pre-flight, built the coverage table and made the honest call.",
-        "id": "Kamu sudah menemukan setiap kegagalan dalam pengiriman nyata, menulis pra-kirim, membangun tabel cakupan, dan mengambil keputusan jujur."
+        "id": "Kamu sudah menemukan setiap kegagalan dalam lamaran sungguhan, menyusun pemeriksaan sebelum kirim, membuat tabel cakupan, dan mengambil keputusan yang jujur."
        }
       },
       "next": {
@@ -26414,7 +26417,7 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "The profile recruiters search and check your CV against, the same facts, a warmer voice.",
-        "id": "Profil yang dicari perekrut dan dipakai memeriksa CV-mu, fakta yang sama, suara yang lebih hangat."
+        "id": "Profil yang dicari perekrut dan dicocokkan dengan CV-mu: fakta yang sama, dengan suara yang lebih hangat."
        },
        "lesson": "5.1"
       }
@@ -26425,7 +26428,7 @@ window.MT_LMS['the-pack'] = {
    "heroPos": "center 25%",
    "dossier": {
     "en": "Keyword Coverage Table · Pre-flight Checklist",
-    "id": "Tabel Cakupan Kata Kunci · Daftar Periksa Pra-kirim"
+    "id": "Tabel Cakupan Kata Kunci · Daftar Periksa Sebelum Kirim"
    }
   },
   {
@@ -35720,7 +35723,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "en": "This is why the attachments list is written before the send, and read against the actual file after it is merged: a letter that promises six and delivers five tells the administrative screener two things at once. That a required document is absent, and that the applicant did not check. The count, the list and the file agree, or the letter does not go. Nadia’s Module 4 pre-flight already has the line; the formal letter gives it a second place to be caught.",
-        "id": "Itulah mengapa daftar lampiran ditulis sebelum pengiriman, dan dicocokkan dengan berkas sebenarnya setelah digabung: surat yang menjanjikan enam dan memberikan lima memberitahu penyaring administrasi dua hal sekaligus. Bahwa dokumen wajib tidak ada, dan bahwa pelamar tidak memeriksa. Jumlah, daftar, dan berkasnya sepakat, atau suratnya tidak dikirim. Pra-kirim Modul 4 Nadia sudah punya barisnya; surat lamaran memberi tempat kedua untuk menangkapnya."
+        "id": "Itulah mengapa daftar lampiran ditulis sebelum pengiriman, dan dicocokkan dengan berkas sebenarnya setelah digabung: surat yang menjanjikan enam dan memberikan lima memberitahu penyaring administrasi dua hal sekaligus. Bahwa dokumen wajib tidak ada, dan bahwa pelamar tidak memeriksa. Jumlah, daftar, dan berkasnya sepakat, atau suratnya tidak dikirim. Pemeriksaan sebelum kirim dari Modul 4 milik Nadia sudah punya barisnya; surat lamaran memberi tempat kedua untuk menangkapnya."
        }
       ]
      },
@@ -37780,7 +37783,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Lead bullets: reconciled daily reports for 3 branches, flagged the recurring terminal error (≈30 min/day saved); Kopi Tepian pre-order board for the morning rush; thesis on inventory turnover at a Tegal retailer",
-             "id": "Butir utama: merekonsiliasi laporan harian untuk 3 cabang, menandai kesalahan terminal berulang (≈30 mnt/hari dihemat); papan pra-pesan Kopi Tepian untuk jam sibuk pagi; skripsi tentang perputaran persediaan di peritel Tegal"
+             "id": "Butir utama: merekonsiliasi laporan harian untuk 3 cabang, menandai kesalahan terminal berulang (≈30 mnt/hari dihemat); papan pesan-duluan Kopi Tepian untuk jam sibuk pagi; skripsi tentang perputaran persediaan di peritel Tegal"
             }
            ]
           },
@@ -50182,7 +50185,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“Compare my CV to this job description. List gaps; for each, say whether I can rephrase, evidence, learn or accept it. Do not suggest claiming anything not in my CV.”",
-           "id": "“Bandingkan CV saya dengan deskripsi pekerjaan ini. Daftar celahnya; untuk masing-masing, katakan apakah saya bisa mengubah kata, membuktikan, mempelajari, atau menerimanya. Jangan sarankan mengklaim apa pun yang tidak ada di CV saya.”"
+           "id": "“Bandingkan CV saya dengan deskripsi pekerjaan ini. Daftar celahnya; untuk masing-masing, katakan apakah saya bisa mengganti istilah, menambah bukti, mempelajari, atau menerimanya. Jangan sarankan mengklaim apa pun yang tidak ada di CV saya.”"
           }
          ],
          [
@@ -52361,7 +52364,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "<span class=\"ev ev-contested\">Course guidance</span> Commercial scoring tools estimate a match between your CV and an advertisement against a <i>generic</i> model of what recruiters want; they do not know this employer’s parser, this recruiter’s filters, or this programme’s must-haves. Treat the score as a prompt to check coverage, not as a verdict: a 62% is a reason to open Module 4.3’s coverage table and see which must-have keywords are absent in their exact form, not a reason to stuff the CV with the tool’s suggested phrases until the number reaches 90. The transparent check in the Studio shows exactly what matched and what did not, keyword by keyword; that is the number to act on, because you can see what it is made of. Two rules: never add a keyword you cannot evidence to raise a score (Module 4.3’s honest closes), and never let a high score replace the human read of Module 3.6’s quality gate.",
-        "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Alat penilaian komersial memperkirakan kecocokan antara CV-mu dan iklan terhadap model <i>generik</i> tentang apa yang diinginkan rekruter; mereka tidak tahu pengurai perusahaan ini, filter rekruter ini, atau syarat wajib program ini. Perlakukan skor sebagai pemicu untuk memeriksa cakupan, bukan vonis: 62% adalah alasan membuka tabel cakupan Modul 4.3 dan melihat kata kunci wajib mana yang tidak ada dalam bentuk persisnya, bukan alasan menjejali CV dengan frasa saran alat sampai angkanya mencapai 90. Pemeriksaan transparan di Studio menunjukkan persis apa yang cocok dan tidak, kata kunci demi kata kunci; itulah angka untuk ditindaklanjuti, karena kamu bisa melihat terbuat dari apa. Dua aturan: jangan pernah menambah kata kunci yang tidak bisa kamu buktikan untuk menaikkan skor (penutup jujur Modul 4.3), dan jangan pernah biarkan skor tinggi menggantikan bacaan manusia dari gerbang kualitas Modul 3.6."
+        "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Alat penilaian komersial memperkirakan kecocokan antara CV-mu dan iklan terhadap model <i>generik</i> tentang apa yang diinginkan rekruter; mereka tidak tahu pengurai perusahaan ini, filter rekruter ini, atau syarat wajib program ini. Perlakukan skor sebagai pemicu untuk memeriksa cakupan, bukan vonis: 62% adalah alasan membuka tabel cakupan Modul 4.3 dan melihat kata kunci wajib mana yang tidak ada dalam bentuk persisnya, bukan alasan menjejali CV dengan frasa saran alat sampai angkanya mencapai 90. Pemeriksaan transparan di Studio menunjukkan persis apa yang cocok dan tidak, kata kunci demi kata kunci; itulah angka untuk ditindaklanjuti, karena kamu bisa melihat terbuat dari apa. Dua aturan: jangan pernah menambah kata kunci yang tidak bisa kamu buktikan untuk menaikkan skor (cara jujur menutup kekurangan di Pelajaran 4.3), dan jangan pernah biarkan skor tinggi menggantikan bacaan manusia dari gerbang kualitas Modul 3.6."
        },
        "table": {
         "cols": [
@@ -53419,7 +53422,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Barista (part-time), Kopi Tepian · Mar 2024 – May 2025 · 120–150 customers a shift · proposed a pre-order board for the morning rush that shortened peak waiting times · trained 4 new baristas",
-             "id": "Barista (paruh waktu), Kopi Tepian · Mar 2024 – Mei 2025 · 120–150 pelanggan per sif · mengusulkan papan pra-pesan untuk jam sibuk pagi yang memperpendek waktu tunggu puncak · melatih 4 barista baru"
+             "id": "Barista (paruh waktu), Kopi Tepian · Mar 2024 – Mei 2025 · 120–150 pelanggan per sif · mengusulkan papan pesan-duluan untuk jam sibuk pagi yang memperpendek waktu tunggu puncak · melatih 4 barista baru"
             },
             {
              "en": "Tools: Microsoft Excel (pivot tables, VLOOKUP), Google Sheets · SQL fundamentals course in progress, module 2 of 6 · never used Tableau or Power BI",
@@ -53789,7 +53792,7 @@ window.MT_LMS['the-pack'] = {
           },
           "placeholder": {
            "en": "1. JD (job description) decoder, paste: each Top 5 advertisement, constraint: must-have vs nice-to-have, three problems\n2. Gap analysis, paste: my CV + the advertisement, constraint: rephrase / evidence / learn / accept; never suggest claiming\n3. …\nWhy these: …",
-           "id": "1. Pengurai iklan, tempel: tiap iklan 5 Teratas, batasan: wajib vs tambahan, tiga masalah\n2. Analisis celah, tempel: CV saya + iklan, batasan: ubah kata / buktikan / pelajari / terima; jangan pernah sarankan mengklaim\n3. …\nMengapa ini: …"
+           "id": "1. Pengurai iklan, tempel: tiap iklan 5 Teratas, batasan: wajib vs tambahan, tiga masalah\n2. Analisis celah, tempel: CV saya + iklan, batasan: ganti istilah / tambah bukti / pelajari / terima; jangan pernah sarankan mengklaim\n3. …\nMengapa ini: …"
           },
           "keywords": [
            [
@@ -53891,7 +53894,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "“Management graduate (2026) targeting business-operations roles in fintech. Reconciled daily transaction reports for 3 bank branches and flagged a recurring terminal mismatch whose fix removed about 30 minutes of manual correction a day; rebuilt a 300-member organisation’s bookkeeping so the 2025 faculty audit found zero issues, the first in 3 years. Microsoft Excel (pivot tables, VLOOKUP), Google Sheets; currently completing SQL fundamentals (module 2 of 6). Available from November; open to Jakarta.” About 75 words; four lines; every number from the facts tab; “business operations” in the advertisement’s form; SQL as an honest close; no Tableau; no adjective. It is smaller than the draft and survives every question.",
-         "id": "“Lulusan Manajemen (2026) yang membidik peran operasi bisnis di fintech. Merekonsiliasi laporan transaksi harian untuk 3 cabang bank dan menandai selisih terminal berulang yang perbaikannya menghilangkan sekitar 30 menit koreksi manual per hari; membangun ulang pembukuan organisasi beranggotakan 300 orang sehingga audit fakultas 2025 menemukan nol masalah, pertama dalam 3 tahun. Microsoft Excel (pivot table, VLOOKUP), Google Sheets; sedang menyelesaikan dasar-dasar SQL (modul 2 dari 6). Tersedia mulai November; bersedia ke Jakarta.” Sekitar 75 kata; empat baris; setiap angka dari tab fakta; “business operations” dalam bentuk iklan; SQL sebagai penutup jujur; tanpa Tableau; tanpa kata sifat. Lebih kecil dari draf dan lolos setiap pertanyaan."
+         "id": "“Lulusan Manajemen (2026) yang membidik peran operasi bisnis di fintech. Merekonsiliasi laporan transaksi harian untuk 3 cabang bank dan menandai selisih terminal berulang yang perbaikannya menghilangkan sekitar 30 menit koreksi manual per hari; membangun ulang pembukuan organisasi beranggotakan 300 orang sehingga audit fakultas 2025 menemukan nol masalah, pertama dalam 3 tahun. Microsoft Excel (pivot table, VLOOKUP), Google Sheets; sedang menyelesaikan dasar-dasar SQL (modul 2 dari 6). Tersedia mulai November; bersedia ke Jakarta.” Sekitar 75 kata; empat baris; setiap angka dari tab fakta; “business operations” dalam bentuk iklan; SQL ditutup dengan cara yang jujur; tanpa Tableau; tanpa kata sifat. Lebih kecil dari draf dan lolos setiap pertanyaan."
         },
         {
          "h": {
@@ -53911,7 +53914,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Any five with a reason is a pass. The common set: JD decoder (paste each Top 5 advertisement; must-have vs nice-to-have and the three problems); gap analysis (CV plus advertisement; rephrase/evidence/learn/accept, never claim); bullet upgrader (pantry notes; only my numbers, [NUMBER?] where none); message drafter (the contact’s post plus my connection; under 300 characters, Kak/Bapak/Ibu, no request); critic mode (About plus CV; critique only). Headline generator is a one-off; letter skeleton is useful once two letters have been written by hand; rehearsal belongs to the week before an interview. The one answer that fails is a library without the guardrail in each prompt.",
-         "id": "Lima mana pun dengan alasan sudah lolos. Set yang umum: pengurai iklan (tempel tiap iklan 5 Teratas; wajib vs tambahan dan tiga masalah); analisis celah (CV plus iklan; ubah kata/buktikan/pelajari/terima, jangan pernah klaim); peningkat butir (catatan lemari; hanya angka saya, [ANGKA?] jika tidak ada); penyusun pesan (postingan kontak plus koneksi saya; di bawah 300 karakter, Kak/Bapak/Ibu, tanpa permintaan); mode kritikus (About plus CV; kritik saja). Pembuat headline dipakai sekali; kerangka surat berguna setelah dua surat ditulis dengan tangan; latihan milik minggu sebelum wawancara. Satu jawaban yang gagal adalah pustaka tanpa pagar pengaman di tiap prompt."
+         "id": "Lima mana pun dengan alasan sudah lolos. Set yang umum: pengurai iklan (tempel tiap iklan 5 Teratas; wajib vs tambahan dan tiga masalah); analisis celah (CV plus iklan; ganti istilah/tambah bukti/pelajari/terima, jangan pernah klaim); peningkat butir (catatan lemari; hanya angka saya, [ANGKA?] jika tidak ada); penyusun pesan (postingan kontak plus koneksi saya; di bawah 300 karakter, Kak/Bapak/Ibu, tanpa permintaan); mode kritikus (About plus CV; kritik saja). Pembuat headline dipakai sekali; kerangka surat berguna setelah dua surat ditulis dengan tangan; latihan milik minggu sebelum wawancara. Satu jawaban yang gagal adalah pustaka tanpa pagar pengaman di tiap prompt."
         }
        ],
        "after": {
@@ -56244,7 +56247,7 @@ window.MT_LMS['the-pack'] = {
        },
        "debrief": {
         "en": "(a) Row 5: applied, no stated timeline: once, at one to two weeks, by email or LinkedIn. Ten days is inside the window; send today, by email to the address on the posting or a LinkedIn note to the named hiring contact if there is one: “Good morning, this is Nadia Putri; on [date] I applied for the [role] position through [portal]. I remain very interested and would like to confirm that my application was received; if any further documents are needed, I will send them at once. Kind regards, Nadia Putri.” Then the row goes to hold; no second message. (b) Row 7, after an interview: the thank-you today, within 24 hours, email, four to five sentences with one thing Ms Ratna actually said and one fit point (the barista rush and the pre-order board is the obvious one for a food business). Forward line: “You mentioned a decision within two weeks; I will look out for news around [date].” Follow-up 1 is then about ten working days after that date, not after the interview.",
-        "id": "(a) Baris 5: melamar, tanpa linimasa: sekali, pada satu hingga dua minggu, lewat email atau LinkedIn. Sepuluh hari masih di dalam jendela; kirim hari ini, lewat email ke alamat di lowongan atau catatan LinkedIn ke kontak perekrut bernama jika ada: “Selamat pagi, saya Nadia Putri; pada tanggal [x] saya melamar posisi [role] melalui [portal]. Saya tetap sangat tertarik dan ingin memastikan lamaran saya diterima; jika ada dokumen tambahan yang diperlukan, saya siap mengirimkannya. Hormat saya, Nadia Putri.” Lalu barisnya ke tahan; tanpa pesan kedua. (b) Baris 7, setelah wawancara: terima kasih hari ini, dalam 24 jam, email, empat hingga lima kalimat dengan satu hal yang benar-benar dikatakan Bu Ratna dan satu poin kecocokan (jam sibuk barista dan papan pra-pesan adalah yang jelas untuk bisnis makanan). Kalimat ke depan: “Ibu menyebutkan keputusan dalam dua minggu; saya akan menunggu kabar sekitar tanggal [tanggal].” Tindak lanjut 1 kemudian sekitar sepuluh hari kerja setelah tanggal itu, bukan setelah wawancara."
+        "id": "(a) Baris 5: melamar, tanpa linimasa: sekali, pada satu hingga dua minggu, lewat email atau LinkedIn. Sepuluh hari masih di dalam jendela; kirim hari ini, lewat email ke alamat di lowongan atau catatan LinkedIn ke kontak perekrut bernama jika ada: “Selamat pagi, saya Nadia Putri; pada tanggal [x] saya melamar posisi [role] melalui [portal]. Saya tetap sangat tertarik dan ingin memastikan lamaran saya diterima; jika ada dokumen tambahan yang diperlukan, saya siap mengirimkannya. Hormat saya, Nadia Putri.” Lalu barisnya ke tahan; tanpa pesan kedua. (b) Baris 7, setelah wawancara: terima kasih hari ini, dalam 24 jam, email, empat hingga lima kalimat dengan satu hal yang benar-benar dikatakan Bu Ratna dan satu poin kecocokan (jam sibuk barista dan papan pesan-duluan adalah yang jelas untuk bisnis makanan). Kalimat ke depan: “Ibu menyebutkan keputusan dalam dua minggu; saya akan menunggu kabar sekitar tanggal [tanggal].” Tindak lanjut 1 kemudian sekitar sepuluh hari kerja setelah tanggal itu, bukan setelah wawancara."
        }
       },
       {
@@ -57196,7 +57199,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Reliability under pressure, training four baristas, the pre-order board",
-           "id": "Keandalan di bawah tekanan, melatih empat barista, papan pra-pesan"
+           "id": "Keandalan di bawah tekanan, melatih empat barista, papan pesan-duluan"
           },
           {
            "en": "Best for retail, F&B and service roles (Rumah Rempah), not for a bank officer programme",
@@ -58721,7 +58724,7 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "No new case: this one is yours. Five steps assemble everything The Pack asked you to build: check the Dossier for every item from Modules 1–8 and complete what is missing; take one real application for your Top 1 target end to end, tailored CV through the quality gate, coverage table, pre-flight checklist, letter, LinkedIn consistent with both; audit the system, the tracker’s leading indicators for the last two weeks and your scheduled follow-ups; write 150–250 words on what changed in how you search; and hand over your two strongest PREP-STAR or CAROL (Context, Action, Result, Outcome, Learning) stories to The Rope. Optional mentor review where available; self-review otherwise.",
-      "id": "Tidak ada kasus baru; yang ini milikmu. Lima langkah merakit semua yang diminta The Pack untuk kamu bangun: periksa Dossier untuk setiap butir dari Modul 1–8 dan lengkapi yang kurang; jalankan satu lamaran nyata untuk sasaran Teratas 1 dari ujung ke ujung, CV yang disesuaikan melewati gerbang mutu, tabel cakupan, daftar periksa pra-kirim, surat, LinkedIn yang konsisten dengan keduanya; audit sistemnya, indikator utama pelacak untuk dua minggu terakhir dan tindak lanjut yang terjadwal; tulis 150–250 kata tentang apa yang berubah dalam caramu mencari; dan serahkan dua cerita PREP-STAR atau CAROL (Context, Action, Result, Outcome, Learning) terkuatmu ke The Rope. Tinjauan mentor opsional jika tersedia; tinjauan mandiri jika tidak."
+      "id": "Tidak ada kasus baru; yang ini milikmu. Lima langkah merakit semua yang diminta The Pack untuk kamu bangun: periksa Dossier untuk setiap butir dari Modul 1–8 dan lengkapi yang kurang; jalankan satu lamaran nyata untuk sasaran Teratas 1 dari ujung ke ujung, CV yang disesuaikan melewati gerbang mutu, tabel cakupan, daftar periksa sebelum kirim, surat, LinkedIn yang konsisten dengan keduanya; audit sistemnya, indikator utama pelacak untuk dua minggu terakhir dan tindak lanjut yang terjadwal; tulis 150–250 kata tentang apa yang berubah dalam caramu mencari; dan serahkan dua cerita PREP-STAR atau CAROL (Context, Action, Result, Outcome, Learning) terkuatmu ke The Rope. Tinjauan mentor opsional jika tersedia; tinjauan mandiri jika tidak."
      },
      "objectives": [
       {
@@ -58812,7 +58815,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Satu lamaran nyata",
            "d": {
             "en": "End to end, to your Top 1: the tailored CV, the letter in the right format, the pre-flight, the sent email, the tracker row.",
-            "id": "Ujung ke ujung, ke Top 1-mu: CV yang disesuaikan, surat dalam format yang tepat, pra-kirim, email terkirim, baris pelacak."
+            "id": "Ujung ke ujung, ke Top 1-mu: CV yang disesuaikan, surat dalam format yang tepat, pemeriksaan sebelum kirim, email terkirim, baris pelacak."
            }
           },
           {
@@ -59042,7 +59045,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "For your Top 1 target: did the CV pass the gate, what did the coverage table show, did the pre-flight pass, does the letter and LinkedIn agree with it?",
-          "id": "Untuk sasaran Teratas 1-mu: apakah CV melewati gerbang, apa yang ditunjukkan tabel cakupan, apakah pra-kirim lolos, apakah surat dan LinkedIn sejalan dengannya?"
+          "id": "Untuk sasaran Teratas 1-mu: apakah CV melewati gerbang, apa yang ditunjukkan tabel cakupan, apakah pemeriksaan sebelum kirim lolos, apakah surat dan LinkedIn sejalan dengannya?"
          },
          {
           "en": "What do the last two weeks of leading indicators say, and what is scheduled for the next two?",
@@ -59081,7 +59084,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "one real application, end to end: CV gate · coverage table · pre-flight · letter · LinkedIn consistent",
-          "id": "satu lamaran nyata, ujung ke ujung: gerbang CV · tabel cakupan · pra-kirim · surat · LinkedIn konsisten"
+          "id": "satu lamaran nyata, ujung ke ujung: gerbang CV · tabel cakupan · pemeriksaan sebelum kirim · surat · LinkedIn konsisten"
          },
          "hot": true
         },
@@ -59162,7 +59165,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "<b>Module 4</b> · Keyword Coverage Table · Pre-flight Checklist",
-             "id": "<b>Modul 4</b> · Tabel Cakupan Kata Kunci · Daftar Periksa Pra-kirim"
+             "id": "<b>Modul 4</b> · Tabel Cakupan Kata Kunci · Daftar Periksa Sebelum Kirim"
             },
             {
              "en": "<b>Module 5</b> · Profile brief · Headline A/B/C · About draft · 30-day engagement plan",
@@ -59216,11 +59219,11 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "<b>Coverage table (Module 4):</b> must-haves and nice-to-haves listed in the advertisement’s exact form; each marked present / rephrase / evidence / learn / accept; at least two-thirds of must-haves honestly present.",
-             "id": "<b>Tabel cakupan (Modul 4):</b> syarat wajib dan tambahan dalam bentuk persis iklan; masing-masing ditandai ada / ubah kata / buktikan / pelajari / terima; setidaknya dua pertiga syarat wajib ada dengan jujur."
+             "id": "<b>Tabel cakupan (Modul 4):</b> syarat wajib dan tambahan dalam bentuk persis iklan; masing-masing ditandai ada / ganti istilah / tambah bukti / pelajari / terima; setidaknya dua pertiga syarat wajib ada dengan jujur."
             },
             {
              "en": "<b>Pre-flight (Module 4):</b> the seven steps ticked, including file name, format, every required document, and consistency of dates and titles across CV, letter and form.",
-             "id": "<b>Pra-kirim (Modul 4):</b> tujuh langkah dicentang, termasuk nama berkas, format, setiap dokumen wajib, dan konsistensi tanggal dan jabatan di CV, surat, dan formulir."
+             "id": "<b>Pemeriksaan sebelum kirim (Modul 4):</b> tujuh langkah dicentang, termasuk nama berkas, format, setiap dokumen wajib, dan konsistensi tanggal dan jabatan di CV, surat, dan formulir."
             },
             {
              "en": "<b>Letter (Module 6):</b> the eight-check audit passed, named addressee, an opening that is not a deficit, fit evidence from the CV’s angle, a verified “why them”, a close with a call to action, no mass-send tells.",
@@ -59274,7 +59277,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Walk the checklist honestly. <b>Module 1:</b> a diagnosis and a tracker with live leading indicators. <b>Module 2:</b> a target list of forty, a Top 5, two outreach messages sent, a positioning sentence you can say. <b>Module 3:</b> the pantry, the master CV, a tailored CV through the gate. <b>Module 4:</b> a coverage table and a pre-flight habit. <b>Module 5:</b> a profile that reads as a search result and a 30-day plan. <b>Module 6:</b> a letter, a formal letter and an application email that passed the audit. <b>Module 7:</b> a baseline, an error log, a plan and a test-day checklist. <b>Module 8:</b> a prompt library and a verification log, the rule intact. <b>Module 9:</b> defaults installed, the calendar in the tracker, referees briefed. Anything unchecked is this week’s work. The modules stay here, and the Screening Gym and the studio keep every drill and document you have built.",
-           "id": "Telusuri daftar periksanya dengan jujur. <b>Modul 1:</b> diagnosis dan pelacak dengan indikator utama yang hidup. <b>Modul 2:</b> daftar sasaran empat puluh, 5 Teratas, dua pesan jangkauan terkirim, kalimat pemosisian yang bisa kamu ucapkan. <b>Modul 3:</b> lemari, CV induk, CV tersesuaikan yang melewati gerbang. <b>Modul 4:</b> tabel cakupan dan kebiasaan pra-kirim. <b>Modul 5:</b> profil yang terbaca sebagai hasil pencarian dan rencana 30 hari. <b>Modul 6:</b> surat, surat lamaran, dan email lamaran yang lolos audit. <b>Modul 7:</b> garis dasar, catatan kesalahan, rencana, dan daftar periksa hari tes. <b>Modul 8:</b> pustaka prompt dan catatan verifikasi, aturannya utuh. <b>Modul 9:</b> setelan terpasang, kalender di pelacak, pemberi referensi dibekali. Apa pun yang belum tercentang adalah pekerjaan minggu ini. Modulnya tetap di sini, dan Screening Gym serta studio menyimpan setiap latihan dan dokumen yang kamu bangun."
+           "id": "Telusuri daftar periksanya dengan jujur. <b>Modul 1:</b> diagnosis dan pelacak dengan indikator utama yang hidup. <b>Modul 2:</b> daftar sasaran empat puluh, 5 Teratas, dua pesan jangkauan terkirim, kalimat pemosisian yang bisa kamu ucapkan. <b>Modul 3:</b> lemari, CV induk, CV tersesuaikan yang melewati gerbang. <b>Modul 4:</b> tabel cakupan dan kebiasaan memeriksa sebelum kirim. <b>Modul 5:</b> profil yang terbaca sebagai hasil pencarian dan rencana 30 hari. <b>Modul 6:</b> surat, surat lamaran, dan email lamaran yang lolos audit. <b>Modul 7:</b> garis dasar, catatan kesalahan, rencana, dan daftar periksa hari tes. <b>Modul 8:</b> pustaka prompt dan catatan verifikasi, aturannya utuh. <b>Modul 9:</b> setelan terpasang, kalender di pelacak, pemberi referensi dibekali. Apa pun yang belum tercentang adalah pekerjaan minggu ini. Modulnya tetap di sini, dan Screening Gym serta studio menyimpan setiap latihan dan dokumen yang kamu bangun."
           },
           {
            "h": {
@@ -59353,13 +59356,15 @@ window.MT_LMS['the-pack'] = {
             "master cv",
             "cv induk",
             "tailored",
-            "tersesuaikan"
+            "tersesuaikan",
+            "disesuaikan"
            ],
            [
             "coverage",
             "cakupan",
             "pre-flight",
-            "pra-kirim"
+            "pra-kirim",
+            "sebelum kirim"
            ],
            [
             "headline",
@@ -59415,7 +59420,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Your Top 1 target. Report each gate with its result: the tailored CV against the Module 3 quality gate; the coverage table (how many must-haves, how many honestly present, which closes you used); the pre-flight (seven steps, anything that failed and was fixed); the letter against the eight checks; and the three lines where CV, letter and LinkedIn had to be made to agree.",
-         "id": "Sasaran Teratas 1-mu. Laporkan tiap gerbang dengan hasilnya: CV yang disesuaikan diuji dengan gerbang mutu Modul 3; tabel cakupan (berapa syarat wajib, berapa yang ada dengan jujur, penutup mana yang kamu pakai); pra-kirim (tujuh langkah, apa pun yang gagal dan diperbaiki); surat dengan delapan pemeriksaan; dan tiga baris di mana CV, surat, dan LinkedIn harus disamakan."
+         "id": "Sasaran Teratas 1-mu. Laporkan tiap gerbang dengan hasilnya: CV yang disesuaikan diuji dengan gerbang mutu Modul 3; tabel cakupan (berapa syarat wajib, berapa yang ada dengan jujur, cara menutup mana yang kamu pakai); pemeriksaan sebelum kirim (tujuh langkah, apa pun yang gagal dan diperbaiki); surat dengan delapan pemeriksaan; dan tiga baris di mana CV, surat, dan LinkedIn harus disamakan."
         },
         "questions": [
          {
@@ -59428,11 +59433,11 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Name the employer and role. Give numbers: must-haves present out of total; pre-flight steps that failed first time; the eight-check result. Say what you changed to make the three documents consistent.",
-           "id": "Sebutkan perusahaan dan perannya. Beri angka: syarat wajib yang ada dari total; langkah pra-kirim yang gagal pertama kali; hasil delapan pemeriksaan. Katakan apa yang kamu ubah agar ketiga dokumen konsisten."
+           "id": "Sebutkan perusahaan dan perannya. Beri angka: syarat wajib yang ada dari total; langkah pemeriksaan sebelum kirim yang gagal pertama kali; hasil delapan pemeriksaan. Katakan apa yang kamu ubah agar ketiga dokumen konsisten."
           },
           "placeholder": {
            "en": "Target: [employer], [role], closes [date].\nCV gate: 11 bullets; 9 passed first time; 2 rewritten (no scale / no result) …\nCoverage: 7 must-haves, 5 present in exact form, 1 rephrased, 1 “learn” (SQL, module 2 of 6) …\nPre-flight: step 4 failed (transcript scan over 2 MB), fixed …\nLetter: 8/8 after adding a named addressee and a call to action …\nConsistency: internship dates on LinkedIn said “2025”, changed to Jun–Aug 2025 to match CV and letter …",
-           "id": "Sasaran: [perusahaan], [peran], tutup [tanggal].\nGerbang CV: 11 butir; 9 lolos pertama kali; 2 ditulis ulang (tanpa skala / tanpa hasil) …\nCakupan: 7 syarat wajib, 5 ada dalam bentuk persis, 1 diubah kata, 1 “pelajari” (SQL, modul 2 dari 6) …\nPra-kirim: langkah 4 gagal (pindaian transkrip lebih dari 2 MB), diperbaiki …\nSurat: 8/8 setelah menambah penerima bernama dan ajakan bertindak …\nKonsistensi: tanggal magang di LinkedIn tertulis “2025”, diubah ke Jun–Agu 2025 agar cocok dengan CV dan surat …"
+           "id": "Sasaran: [perusahaan], [peran], tutup [tanggal].\nGerbang CV: 11 butir; 9 lolos pertama kali; 2 ditulis ulang (tanpa skala / tanpa hasil) …\nCakupan: 7 syarat wajib, 5 ada dalam bentuk persis, 1 diganti istilahnya, 1 “pelajari” (SQL, modul 2 dari 6) …\nPemeriksaan sebelum kirim: langkah 4 gagal (pindaian transkrip lebih dari 2 MB), diperbaiki …\nSurat: 8/8 setelah menambah penerima bernama dan ajakan bertindak …\nKonsistensi: tanggal magang di LinkedIn tertulis “2025”, diubah ke Jun–Agu 2025 agar cocok dengan CV dan surat …"
           },
           "keywords": [
            [
@@ -59461,6 +59466,7 @@ window.MT_LMS['the-pack'] = {
            [
             "pre-flight",
             "pra-kirim",
+            "sebelum kirim",
             "step",
             "langkah",
             "file",
@@ -59488,6 +59494,7 @@ window.MT_LMS['the-pack'] = {
             "pelajari",
             "rephrase",
             "ubah kata",
+            "ganti istilah",
             "evidence",
             "buktikan",
             "accept",
@@ -59744,7 +59751,7 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "One application end to end, CV gate, coverage table, pre-flight, letter audit and consistency reported with numbers and results",
-         "id": "Satu lamaran ujung ke ujung, gerbang CV, tabel cakupan, pra-kirim, audit surat, dan konsistensi dilaporkan dengan angka dan hasil"
+         "id": "Satu lamaran ujung ke ujung, gerbang CV, tabel cakupan, pemeriksaan sebelum kirim, audit surat, dan konsistensi dilaporkan dengan angka dan hasil"
         },
         "w": "30%"
        },
@@ -59784,7 +59791,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Nadia’s Step 1 had two gaps and said so: the second outreach message (Module 2) was “missing, Wednesday, to Fajar, officer programme 2026, one complete WhatsApp message”, and the referee brief (Module 9) was “missing, Friday, for the Bank Sinar Nusantara supervisor, KilatPay role”. Everything else was named with its home: diagnosis and tracker in the tracker; pantry, master CV and the KilatPay tailored CV in the studio; coverage table and pre-flight in the tracker row; headline C and the About draft live on LinkedIn; the Arunika letter, the Rel Nusantara formal letter and the email in the studio; baseline, error log and plan in the Gym; five prompts and the verification log in the studio; the defaults card and calendar in the tracker notes. A submission that lists nine “done” with no locations has not opened the Dossier.",
-         "id": "Langkah 1 Nadia punya dua celah dan mengatakannya: pesan jangkauan kedua (Modul 2) “kurang, Rabu, ke Fajar, ODP 2026, satu pesan WhatsApp lengkap”, dan bekal pemberi referensi (Modul 9) “kurang, Jumat, untuk supervisor Bank Sinar Nusantara, peran KilatPay”. Semua yang lain disebut dengan tempatnya: diagnosis dan pelacak di pelacak; lemari, CV induk, dan CV KilatPay tersesuaikan di studio; tabel cakupan dan pra-kirim di baris pelacak; headline C dan draf About hidup di LinkedIn; surat Arunika, surat lamaran Rel Nusantara, dan email di studio; garis dasar, catatan kesalahan, dan rencana di Gym; lima prompt dan catatan verifikasi di studio; kartu setelan dan kalender di catatan pelacak. Pengumpulan yang mencantumkan sembilan “selesai” tanpa lokasi belum membuka Dossier."
+         "id": "Langkah 1 Nadia punya dua celah dan mengatakannya: pesan jangkauan kedua (Modul 2) “kurang, Rabu, ke Fajar, ODP 2026, satu pesan WhatsApp lengkap”, dan bekal pemberi referensi (Modul 9) “kurang, Jumat, untuk supervisor Bank Sinar Nusantara, peran KilatPay”. Semua yang lain disebut dengan tempatnya: diagnosis dan pelacak di pelacak; lemari, CV induk, dan CV KilatPay tersesuaikan di studio; tabel cakupan dan pemeriksaan sebelum kirim di baris pelacak; headline C dan draf About hidup di LinkedIn; surat Arunika, surat lamaran Rel Nusantara, dan email di studio; garis dasar, catatan kesalahan, dan rencana di Gym; lima prompt dan catatan verifikasi di studio; kartu setelan dan kalender di catatan pelacak. Pengumpulan yang mencantumkan sembilan “selesai” tanpa lokasi belum membuka Dossier."
         },
         {
          "h": {
@@ -59794,7 +59801,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Her Top 1 was KilatPay OPS-26-04. CV gate: eleven bullets, nine passed first time, two rewritten, the barista bullet lacked a result (“shortened peak waiting times” became “proposed a pre-order board for the morning rush; peak queue shorter by the manager’s count”) and the community-service bullet lacked scale (40 participants added). Coverage: seven must-haves; five present in the advertisement’s exact form; “process improvement” rephrased from “reconciliation checklist still in use”; SQL marked “learn” and closed honestly (“currently completing SQL fundamentals, module 2 of 6”); Tableau not claimed. Pre-flight: step four failed, the transcript scan was over the portal’s size limit, re-scanned and re-checked; file named as the portal asked. Letter: seven of eight first time; the missing check was the call to action, added as one sentence. Consistency: LinkedIn said the internship was “2025”; the CV and letter said Jun–Aug 2025; LinkedIn fixed. Five gates, five results, every one with a number.",
-         "id": "Teratas 1-nya adalah KilatPay OPS-26-04. Gerbang CV: sebelas butir, sembilan lolos pertama kali, dua ditulis ulang. Butir barista tidak punya hasil (“memperpendek waktu tunggu puncak” menjadi “mengusulkan papan pra-pesan untuk jam sibuk pagi; antrean puncak lebih pendek menurut hitungan manajer”) dan butir KKN (kuliah kerja nyata) tidak punya skala (40 peserta ditambahkan). Cakupan: tujuh syarat wajib; lima ada dalam bentuk persis iklan; “process improvement” diubah kata dari “daftar periksa rekonsiliasi yang masih dipakai”; SQL ditandai “pelajari” dan ditutup jujur (“sedang menyelesaikan dasar-dasar SQL, modul 2 dari 6”); Tableau tidak diklaim. Pra-kirim: langkah empat gagal, pindaian transkrip melebihi batas ukuran portal, dipindai ulang dan diperiksa ulang; berkas dinamai sesuai permintaan portal. Surat: tujuh dari delapan pertama kali; pemeriksaan yang hilang adalah ajakan bertindak, ditambahkan satu kalimat. Konsistensi: LinkedIn menyebut magang “2025”; CV dan surat menyebut Jun–Agu 2025; LinkedIn diperbaiki. Lima gerbang, lima hasil, masing-masing dengan angka."
+         "id": "Teratas 1-nya adalah KilatPay OPS-26-04. Gerbang CV: sebelas butir, sembilan lolos pertama kali, dua ditulis ulang. Butir barista tidak punya hasil (“memperpendek waktu tunggu puncak” menjadi “mengusulkan papan pesan-duluan untuk jam sibuk pagi; antrean puncak lebih pendek menurut hitungan manajer”) dan butir KKN (kuliah kerja nyata) tidak punya skala (40 peserta ditambahkan). Cakupan: tujuh syarat wajib; lima ada dalam bentuk persis iklan; “process improvement” hasil ganti istilah dari “daftar periksa rekonsiliasi yang masih dipakai”; SQL ditandai “pelajari” dan ditutup jujur (“sedang menyelesaikan dasar-dasar SQL, modul 2 dari 6”); Tableau tidak diklaim. Pemeriksaan sebelum kirim: langkah empat gagal, pindaian transkrip melebihi batas ukuran portal, dipindai ulang dan diperiksa ulang; berkas dinamai sesuai permintaan portal. Surat: tujuh dari delapan pertama kali; pemeriksaan yang hilang adalah ajakan bertindak, ditambahkan satu kalimat. Konsistensi: LinkedIn menyebut magang “2025”; CV dan surat menyebut Jun–Agu 2025; LinkedIn diperbaiki. Lima gerbang, lima hasil, masing-masing dengan angka."
         },
         {
          "h": {
@@ -59885,7 +59892,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Numbers: bullets passed, must-haves present, pre-flight steps failed, eight-check score.",
-         "id": "Angka: butir lolos, syarat wajib ada, langkah pra-kirim gagal, skor delapan pemeriksaan."
+         "id": "Angka: butir lolos, syarat wajib ada, langkah pemeriksaan sebelum kirim yang gagal, skor delapan pemeriksaan."
         }
        },
        {
@@ -59928,7 +59935,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "One application through every gate: CV quality gate, coverage table, pre-flight, letter audit, LinkedIn consistency.",
-        "id": "Satu lamaran melewati setiap gerbang: gerbang mutu CV, tabel cakupan, pra-kirim, audit surat, konsistensi LinkedIn."
+        "id": "Satu lamaran melewati setiap gerbang: gerbang mutu CV, tabel cakupan, pemeriksaan sebelum kirim, audit surat, konsistensi LinkedIn."
        }
       },
       {
