@@ -35,11 +35,11 @@ window.MT_LMS['the-pack'] = {
    },
    "overview": {
     "en": "Most failed job searches fail at the level of model, not effort. A learner who believes hiring is a lottery sends more tickets. A learner who understands hiring as an employer’s risk-reduction process changes what they do. Four lessons and one case: the employer’s side of the table, the recruitment railway and its two tracks, a diagnostic for your own search, and the weekly system that replaces “applications sent” with the numbers that predict offers.",
-    "id": "Kebanyakan pencarian kerja yang gagal, gagal di tingkat model, bukan usaha. Pembelajar yang percaya rekrutmen adalah undian mengirim lebih banyak tiket. Pembelajar yang memahami rekrutmen sebagai proses pengurangan risiko dari sisi perusahaan mengubah apa yang ia lakukan. Empat pelajaran dan satu kasus: sisi perusahaan di meja, rel rekrutmen dan dua jalurnya, diagnostik untuk pencarianmu sendiri, dan sistem mingguan yang mengganti “lamaran terkirim” dengan angka-angka yang memprediksi tawaran."
+    "id": "Kebanyakan pencarian kerja gagal bukan karena kurang usaha, melainkan karena salah cara pandang. Orang yang menganggap rekrutmen sebagai undian akan membeli lebih banyak tiket. Orang yang paham bahwa rekrutmen adalah cara perusahaan mengurangi risiko akan mengubah apa yang ia lakukan. Empat pelajaran dan satu kasus: sisi perusahaan di meja perundingan, rel rekrutmen dan dua jalurnya, diagnosis untuk pencarianmu sendiri, dan sistem mingguan yang mengganti “sudah kirim berapa lamaran” dengan angka-angka yang benar-benar meramalkan tawaran."
    },
    "outcome": {
     "en": "By the end of this module you can explain, from the employer’s side, why each hiring stage exists; place any vacancy on the process or network track; diagnose which of the three stages of your own search is leaking; and run your search from a weekly tracker that measures conversations and evidence, not applications sent.",
-    "id": "Di akhir modul ini kamu bisa menjelaskan, dari sisi perusahaan, mengapa setiap tahap rekrutmen ada; menempatkan lowongan apa pun di jalur proses atau jejaring; mendiagnosis tahap mana dari tiga tahap pencarianmu yang bocor; dan menjalankan pencarianmu dari pelacak mingguan yang mengukur percakapan dan bukti, bukan lamaran yang terkirim."
+    "id": "Di akhir modul ini kamu bisa menjelaskan, dari sisi perusahaan, mengapa setiap tahap rekrutmen ada; menempatkan lowongan apa pun di jalur proses atau jalur jejaring; menemukan tahap mana dari tiga tahap pencarianmu yang bocor; dan menjalankan pencarianmu dari pelacak mingguan yang mengukur obrolan dan bukti, bukan jumlah lamaran yang dikirim."
    },
    "dossier": {
     "en": "Search Diagnosis + Pipeline Tracker (leading indicators)",
@@ -62,24 +62,24 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "You cannot play a game well from one side of the board. This lesson shows hiring from the hiring manager’s chair. What they are rewarded for, what they fear, and why that makes some routes to a job far more effective than others.",
-      "id": "Kamu tidak bisa bermain dengan baik hanya dari satu sisi papan. Pelajaran ini memperlihatkan rekrutmen dari kursi manajer perekrut. Apa yang membuat mereka dihargai, apa yang mereka takutkan, dan mengapa hal itu membuat sebagian jalur menuju pekerjaan jauh lebih efektif daripada yang lain."
+      "id": "Sulit menang kalau kamu hanya melihat papan permainan dari satu sisi. Pelajaran ini mengajakmu duduk di kursi manajer yang merekrut: apa yang membuatnya dinilai bagus oleh atasannya, apa yang ia takutkan, dan mengapa karena itu sebagian jalan menuju pekerjaan jauh lebih mujarab daripada yang lain."
      },
      "objectives": [
       {
        "en": "Explain why employers screen for <b>reasons to reject</b> at the top of the funnel.",
-       "id": "Menjelaskan mengapa perusahaan menyaring <b>alasan untuk menolak</b> di bagian atas corong."
+       "id": "Menjelaskan mengapa perusahaan mencari <b>alasan untuk menolak</b> di tahap paling awal seleksi."
       },
       {
        "en": "Rank the routes by which employers prefer to fill roles, and explain the logic behind the ranking.",
-       "id": "Mengurutkan jalur yang lebih disukai perusahaan untuk mengisi posisi, dan menjelaskan logika di balik urutan itu."
+       "id": "Mengurutkan jalur yang paling disukai perusahaan untuk mengisi posisi, dan menjelaskan logika di baliknya."
       },
       {
        "en": "Distinguish legitimate <b>advocacy</b> from <b>nepotism</b> in your own words.",
-       "id": "Membedakan <b>advokasi</b> yang sah dari <b>KKN (kuliah kerja nyata)</b> dengan kata-katamu sendiri."
+       "id": "Membedakan <b>advokasi</b> yang sah dari <b>KKN (korupsi, kolusi, nepotisme)</b> dengan kata-katamu sendiri."
       },
       {
        "en": "Describe what a hiring manager is actually rewarded for, and how that changes what you should send them.",
-       "id": "Menggambarkan apa yang sebenarnya dihargai dari seorang manajer perekrut, dan bagaimana hal itu mengubah apa yang seharusnya kamu kirim."
+       "id": "Menggambarkan apa yang sebenarnya dinilai dari seorang manajer perekrut, dan apa artinya untuk dokumen yang kamu kirim."
       }
      ],
      "material": {
@@ -93,7 +93,7 @@ window.MT_LMS['the-pack'] = {
       },
       "intro": {
        "en": "Four ideas frame the whole module. Read the slides once now. Every lesson that follows unpacks one of them. The slide text is available under the player.",
-       "id": "Empat gagasan membingkai seluruh modul. Baca slide-nya sekali sekarang; setiap pelajaran berikutnya membedah salah satunya. Teks slide tersedia di bawah pemutar."
+       "id": "Empat gagasan menjadi bingkai seluruh modul ini. Baca slide-nya sekali sekarang; setiap pelajaran berikutnya akan membedah salah satunya. Teks slide bisa dibaca di bawah pemutar."
       },
       "base": "../../assets/lms/the-pack/slides/hiring-",
       "slides": [
@@ -104,37 +104,37 @@ window.MT_LMS['the-pack'] = {
         },
         "text": {
          "en": "At each stage of the recruitment process, companies have important questions they want to answer. Understanding these questions will help you prepare yourself more effectively. Not necessarily the best candidate, but the most relevant. Companies are not always looking for the absolute best candidate in the country, but rather the one who best fits their needs, culture, and context. A strong-enough candidate they can trust. They are looking for a candidate with the right level of capability, who can be trusted, is available at an acceptable cost, and can join within the required timeline. Every stage answers a key question more efficiently. Each stage of the recruitment process is designed to answer that key question in a more efficient and structured way. The path: Stage 1 Initial Screening → Stage 2 In-Depth Assessment → Stage 3 Interview → Stage 4 Final Decision. Key takeaway: understanding the key question behind each stage will help you position yourself more effectively and stay relevant throughout the recruitment process.",
-         "id": "Di setiap tahap proses rekrutmen, perusahaan memiliki pertanyaan penting yang ingin dijawab. Memahami pertanyaan ini akan membantumu mempersiapkan diri dengan lebih baik. Bukan yang terbaik, tapi yang paling sesuai. Perusahaan tidak selalu mencari kandidat terbaik di negara ini, melainkan kandidat yang paling sesuai dengan kebutuhan, budaya, dan konteks mereka. Cukup baik dan dapat dipercaya. Mereka mencari kandidat yang cukup baik, dapat dipercaya, tersedia dengan biaya yang wajar, dan bisa bergabung sebelum tenggat waktu. Setiap tahap menjawab pertanyaan secara lebih efisien. Setiap tahap dalam proses rekrutmen dirancang untuk menjawab pertanyaan tersebut dengan cara yang lebih efisien dan terstruktur. Jalurnya: Tahap 1 Seleksi Awal → Tahap 2 Penilaian Mendalam → Tahap 3 Wawancara → Tahap 4 Keputusan Akhir. Inti utama: memahami pertanyaan di balik setiap tahap akan membantumu menampilkan diri secara lebih tepat dan relevan sepanjang proses rekrutmen."
+         "id": "Di setiap tahap rekrutmen, perusahaan punya satu pertanyaan penting yang ingin dijawab. Kalau kamu paham pertanyaannya, persiapanmu jadi jauh lebih tepat sasaran. Bukan yang terbaik, melainkan yang paling pas. Perusahaan tidak selalu mencari kandidat terhebat se-Indonesia; mereka mencari orang yang paling cocok dengan kebutuhan, budaya, dan situasi mereka. Cukup bagus dan bisa dipercaya. Yang dicari adalah kandidat yang kemampuannya memadai, bisa diandalkan, biayanya masuk akal, dan bisa bergabung sesuai jadwal. Setiap tahap menjawab satu pertanyaan kunci dengan cara yang paling hemat. Itulah sebabnya prosesnya disusun bertahap dan terstruktur. Jalurnya: Tahap 1 Seleksi Awal → Tahap 2 Penilaian Mendalam → Tahap 3 Wawancara → Tahap 4 Keputusan Akhir. Intinya: begitu kamu tahu pertanyaan di balik tiap tahap, kamu bisa menampilkan diri dengan lebih tepat dan tetap relevan dari awal sampai akhir."
         }
        },
        {
         "title": {
          "en": "Cheap filters first, expensive judgment last",
-         "id": "Filter awal yang efisien, keputusan yang lebih tepat"
+         "id": "Saringan murah dulu, penilaian mahal belakangan"
         },
         "text": {
          "en": "Companies use a structured process to assess candidates efficiently. Low-cost, automated filters are applied early, while deeper, human judgment is used at the final stages. 01 Software and initial scans at the top of the funnel. Applications are first screened by software and quick (≈ 6-second) scans to filter for basic requirements and relevance. 02 Interviews in the middle of the process. Candidates who pass the initial screening go through one or more interviews to assess their skills, experience, and fit. 03 Documents and background checks at the final stage, selected candidates provide supporting documents, which can be verified or fixed as needed before the final decision. The funnel: 01 Initial Screening (software and quick scans) · 02 Interviews (assess skills and fit) · 03 Document Verification (finalise before the decision). Key takeaway: understanding how companies evaluate candidates at each stage helps you prepare more effectively and focus your effort on what truly matters.",
-         "id": "Perusahaan menggunakan proses yang terstruktur untuk menilai kandidat secara efisien. Filter otomatis berbiaya rendah diterapkan di tahap awal, sementara penilaian mendalam oleh manusia dilakukan di tahap akhir. 01 Perangkat lunak dan pemindaian awal di bagian atas funnel, aplikasi kandidat terlebih dahulu disaring menggunakan perangkat lunak dan pemindaian cepat (± 6 detik) untuk menilai kesesuaian dasar dengan persyaratan dan relevansi. 02 Wawancara di tengah proses, kandidat yang lolos tahap awal akan mengikuti satu atau lebih wawancara untuk menilai keterampilan, pengalaman, dan kecocokan mereka lebih mendalam. 03 Pemeriksaan dokumen dan latar belakang di tahap akhir, kandidat terpilih memberikan dokumen pendukung yang akan diverifikasi atau diperbaiki sesuai kebutuhan sebelum keputusan akhir. Funnel: 01 Seleksi Awal (perangkat lunak dan pemindaian cepat) · 02 Wawancara (penilaian keterampilan dan kecocokan) · 03 Verifikasi Dokumen (finalisasi sebelum keputusan akhir). Poin utama: memahami pertanyaan di balik setiap tahap akan membantumu mempersiapkan diri dengan lebih baik dan tetap relevan sepanjang proses rekrutmen."
+         "id": "Perusahaan menilai kandidat dengan proses yang terstruktur supaya hemat tenaga. Saringan otomatis yang murah dipasang di awal; penilaian mendalam oleh manusia disimpan untuk tahap akhir. 01 Perangkat lunak dan pindaian cepat di bagian paling atas corong: lamaran disaring lebih dulu oleh sistem dan pindaian singkat (sekitar 6 detik) untuk mengecek syarat dasar dan relevansi. 02 Wawancara di tengah proses: kandidat yang lolos tahap awal mengikuti satu atau beberapa wawancara untuk menilai keterampilan, pengalaman, dan kecocokan. 03 Pemeriksaan dokumen dan latar belakang di tahap akhir: kandidat terpilih menyerahkan dokumen pendukung yang diverifikasi atau dilengkapi sebelum keputusan final. Corongnya: 01 Seleksi Awal (sistem dan pindaian cepat) · 02 Wawancara (keterampilan dan kecocokan) · 03 Verifikasi Dokumen (pemberesan sebelum keputusan). Intinya: kalau kamu tahu cara perusahaan menilai di tiap tahap, kamu bisa menaruh tenaga di hal yang benar-benar menentukan."
         }
        },
        {
         "title": {
          "en": "Two front doors",
-         "id": "Dua pintu utama"
+         "id": "Dua pintu depan"
         },
         "text": {
          "en": "There are two main ways to get into a company. Both can lead to the same opportunity, and employers often prefer the second option everywhere in the world. Because it reduces risk. 1 The Posting. You apply to a job opening publicly advertised by the company: open to all candidates through job postings; more competitive, with a larger applicant pool; requires you to stand out based on your CV, experience, and interview. 2 The Internal Employee. You are already inside the company, through an internship, contract, or full-time role: already known, with proven work performance; lower risk for the employer; more opportunities through internal mobility, referrals, and direct consideration. Key takeaway: both doors can lead to the same opportunity. Understanding how they work will help you choose the best approach and increase your chances of getting into the right company.",
-         "id": "Ada dua cara utama untuk bergabung ke sebuah perusahaan. Keduanya dapat menuju pada peluang yang sama, dan perusahaan sering kali lebih memilih opsi kedua di mana pun di dunia. Karena dapat mengurangi risiko. 1 Lowongan Pekerjaan, kamu melamar posisi yang dibuka secara publik oleh perusahaan: terbuka untuk semua kandidat melalui lowongan pekerjaan; persaingan lebih tinggi dengan lebih banyak pelamar; mengharuskan kamu menonjol melalui CV, pengalaman, dan wawancara. 2 Karyawan Internal; kamu sudah berada di dalam perusahaan, melalui magang, kontrak, atau posisi penuh waktu: sudah dikenal dan memiliki rekam jejak kinerja yang terbukti; risiko lebih rendah bagi perusahaan; lebih banyak peluang melalui mobilitas internal, referensi, dan pertimbangan langsung. Poin utama: kedua pintu dapat menuju pada peluang yang sama. Memahami bagaimana keduanya bekerja akan membantumu memilih pendekatan terbaik dan meningkatkan peluang untuk bergabung ke perusahaan yang tepat."
+         "id": "Ada dua cara utama masuk ke sebuah perusahaan. Keduanya bisa berujung pada peluang yang sama, tetapi di mana pun di dunia, perusahaan cenderung lebih suka pintu kedua. Alasannya satu: risikonya lebih kecil. 1 Lowongan. Kamu melamar posisi yang dibuka untuk umum: terbuka bagi semua orang lewat iklan lowongan; persaingannya lebih ketat karena pelamarnya lebih banyak; kamu harus menonjol lewat CV, pengalaman, dan wawancara. 2 Orang dalam. Kamu sudah ada di dalam perusahaan, lewat magang, kontrak, atau posisi tetap: sudah dikenal, dengan rekam jejak kerja yang terbukti; risikonya lebih rendah bagi perusahaan; peluangnya lebih banyak lewat perpindahan internal, rekomendasi, dan pertimbangan langsung. Intinya: kedua pintu bisa mengantarmu ke peluang yang sama. Kalau kamu paham cara kerja keduanya, kamu bisa memilih pendekatan yang paling tepat dan memperbesar peluang masuk ke perusahaan yang kamu inginkan."
         }
        },
        {
         "title": {
          "en": "This module’s promise",
-         "id": "Janji dari modul ini"
+         "id": "Janji modul ini"
         },
         "text": {
          "en": "By the end of this module, you will be able to turn your search into a structured, data-driven, and actionable plan. 01 Stop measuring by the number of applications sent. You will no longer rely on the quantity of applications as your main metric. 02 Start measuring by what actually predicts offers. You will focus on the right indicators, such as tailored applications, meaningful conversations, and advocates. 03 Diagnose and create a 30-day plan, by Lesson 1.5, you will have identified the root cause of your search and developed a clear, actionable 30-day plan. The path: 01 from quantity to quality · 02 focus on the right indicators · 03 a 30-day action plan. Key takeaway: a more intentional and data-driven approach will help you search more effectively, increase your chances of success, and make meaningful progress toward your next opportunity.",
-         "id": "Di akhir modul ini, kamu akan mampu mengubah pencarian kerja menjadi proses yang terstruktur, berbasis data, dan dapat ditindaklanjuti. 01 Berhenti mengukur dari jumlah lamaran yang dikirim; kamu tidak lagi hanya berfokus pada kuantitas lamaran, melainkan pada kualitas dan efektivitas proses pencarian kerja. 02 Mulai mengukur berdasarkan apa yang sebenarnya ditawarkan; kamu akan fokus pada indikator yang tepat, seperti lamaran yang disesuaikan, percakapan yang bermakna, dan rekomendasi. 03 Mendiagnosis dan menyusun rencana aksi 30 hari, pada Lesson 1.5, kamu akan mengidentifikasi akar penyebab dari pencarian kerjamu dan menyusun rencana aksi 30 hari yang jelas dan dapat dijalankan. Jalurnya: 01 Dari kuantitas ke kualitas · 02 Fokus pada indikator yang tepat · 03 Rencana aksi 30 hari. Poin utama: dengan pendekatan yang lebih terstruktur dan berbasis data, kamu akan mencari kerja dengan lebih efektif, meningkatkan peluang keberhasilan, dan membuat kemajuan yang bermakna menuju peluang berikutnya."
+         "id": "Di akhir modul ini, kamu bisa mengubah pencarian kerja menjadi rencana yang terstruktur, berbasis data, dan bisa langsung dijalankan. 01 Berhenti mengukur dari jumlah lamaran yang dikirim. Jumlah lamaran bukan lagi ukuran utamamu. 02 Mulai mengukur dari hal yang benar-benar mendekatkanmu pada tawaran. Kamu akan fokus pada indikator yang tepat: lamaran yang disesuaikan, percakapan yang bermakna, dan orang yang mendukungmu. 03 Diagnosis dan rencana 30 hari. Pada Pelajaran 1.5, kamu sudah menemukan akar masalah pencarianmu dan menyusun rencana 30 hari yang jelas. Jalurnya: 01 dari jumlah ke mutu · 02 fokus pada indikator yang tepat · 03 rencana aksi 30 hari. Intinya: pendekatan yang lebih sadar dan berbasis data membuat pencarianmu lebih efektif, peluangmu lebih besar, dan kemajuanmu terasa nyata."
         }
        }
       ]
@@ -146,21 +146,21 @@ window.MT_LMS['the-pack'] = {
        "imgPos": "center 40%",
        "h": {
         "en": "The hiring manager’s real job",
-        "id": "Pekerjaan sebenarnya seorang manajer perekrut"
+        "id": "Pekerjaan manajer perekrut yang sebenarnya"
        },
        "body": {
         "en": "A hiring manager is rarely rewarded for hiring. They are rewarded for what their team delivers. Every hour spent reading applications is an hour taken from the work they are judged on, and every bad hire costs months of lost output, retraining and, sometimes, a painful exit. So they behave like what economists call <b>satisficers</b>: they want a candidate who is clearly good enough, found quickly, with minimal risk, not the theoretically best candidate found slowly <i>(Dalton, The 2-Hour Job Search, introduction)</i>. Once you see this, three things follow. First, anything that makes you <b>quick to evaluate</b> helps: a clear target role on your CV, the requirements visibly met, one page. Second, anything that makes you <b>low-risk</b> helps: evidence rather than claims, someone they trust who knows you, a small piece of work they have already seen. Third, anything that <b>adds work</b> for them hurts: making them guess what you want, making them hunt for your GPA, sending a generic letter they must decode.",
-        "id": "Seorang manajer perekrut jarang dihargai karena merekrut. Ia dihargai karena hasil kerja timnya. Setiap jam yang dihabiskan membaca lamaran adalah jam yang diambil dari pekerjaan yang menjadi ukuran kinerjanya, dan setiap salah rekrut berarti berbulan-bulan hasil kerja yang hilang, pelatihan ulang, dan kadang perpisahan yang menyakitkan. Maka ia berperilaku seperti yang disebut ekonom sebagai <b>satisficer</b>: pemilih “cukup baik”: ia ingin kandidat yang jelas cukup baik, ditemukan dengan cepat, dengan risiko minimal, bukan kandidat terbaik secara teori yang ditemukan dengan lambat <i>(Dalton, The 2-Hour Job Search, pendahuluan)</i>. Begitu kamu melihat ini, tiga hal mengikuti. Pertama, apa pun yang membuatmu <b>cepat dinilai</b> membantu: peran sasaran yang jelas di CV, persyaratan yang terlihat terpenuhi, satu halaman. Kedua, apa pun yang membuatmu <b>berisiko rendah</b> membantu: bukti alih-alih klaim, seseorang yang mereka percaya dan mengenalmu, sepotong kecil hasil kerja yang sudah mereka lihat. Ketiga, apa pun yang <b>menambah pekerjaan</b> mereka merugikanmu: membuat mereka menebak apa yang kamu inginkan, membuat mereka mencari-cari IPK-mu, mengirim surat generik yang harus mereka uraikan."
+        "id": "Manajer yang merekrut jarang dinilai dari seberapa banyak ia merekrut. Ia dinilai dari hasil kerja timnya. Setiap jam yang ia habiskan untuk membaca lamaran adalah jam yang terambil dari pekerjaan yang jadi ukuran kinerjanya. Salah rekrut pun mahal: berbulan-bulan hasil kerja hilang, harus melatih orang baru lagi, dan kadang berakhir dengan perpisahan yang tidak enak. Wajar kalau ia bersikap seperti yang disebut ekonom sebagai <b>satisficer</b>, pemilih yang “cukup bagus”: ia ingin kandidat yang jelas layak, ketemu cepat, risikonya kecil. Bukan kandidat terbaik secara teori yang baru ketemu setelah berbulan-bulan <i>(Dalton, The 2-Hour Job Search, pendahuluan)</i>. Begitu kamu melihat ini, tiga hal langsung masuk akal. Pertama, apa pun yang membuatmu <b>cepat dinilai</b> itu membantu: posisi yang dituju tertulis jelas di CV, syarat-syarat terlihat terpenuhi, cukup satu halaman. Kedua, apa pun yang membuatmu <b>berisiko rendah</b> itu membantu: bukti, bukan klaim; ada orang yang mereka percaya dan kenal kamu; ada hasil kerja kecil yang sudah mereka lihat. Ketiga, apa pun yang <b>menambah pekerjaan</b> mereka justru merugikanmu: membuat mereka menebak kamu mau apa, mencari-cari IPK-mu, atau membaca surat generik yang harus mereka tafsirkan sendiri."
        },
        "after": [
         {
          "en": "Try reading your own CV as that manager for ten seconds: can they tell what you want, whether you meet the hard requirements, and one thing you have actually done? If any of the three takes hunting, you are adding work.",
-         "id": "Coba baca CV-mu sendiri sebagai manajer itu selama sepuluh detik: apakah ia bisa tahu apa yang kamu inginkan, apakah kamu memenuhi syarat mutlak, dan satu hal yang benar-benar pernah kamu kerjakan? Jika salah satunya perlu dicari-cari, kamu sedang menambah pekerjaannya."
+         "id": "Coba baca CV-mu sendiri seolah-olah kamu manajer itu, sepuluh detik saja. Apakah terlihat kamu mau posisi apa? Apakah syarat mutlaknya terpenuhi? Adakah satu hal nyata yang pernah kamu kerjakan? Kalau salah satunya harus dicari-cari, berarti kamu sedang menambah pekerjaannya."
         }
        ],
        "key": {
         "en": "Hiring managers are rewarded for their team's output, so they want a good-enough, low-risk candidate found quickly.",
-        "id": "Manajer perekrut dihargai atas hasil timnya, jadi ia ingin kandidat yang cukup baik dan berisiko rendah, ditemukan dengan cepat."
+        "id": "Manajer perekrut dinilai dari hasil timnya, jadi ia ingin kandidat yang cukup bagus, berisiko rendah, dan cepat ketemu."
        }
       },
       {
@@ -169,11 +169,11 @@ window.MT_LMS['the-pack'] = {
        "imgPos": "center 38%",
        "h": {
         "en": "Why the top of the funnel looks for reasons to say no",
-        "id": "Mengapa puncak corong mencari alasan untuk berkata tidak"
+        "id": "Mengapa tahap awal justru mencari alasan untuk menolak"
        },
        "body": {
         "en": "A popular graduate programme at a large employer can receive tens of thousands of applications for a few dozen places, and a single advertised role at a well-known company routinely draws several hundred. No organisation can read that many carefully. So the funnel is built with the cheapest filters first: online forms and knockout questions, applicant-tracking software that ranks on keywords, a junior screener with a checklist, a skim of a few seconds, and only then the most expensive judgment, interviews with senior people. At the cheap end, screeners are working quickly through a pile and looking for grounds to <b>discard</b>: a missing requirement, a typo, a vague CV that makes them work to find relevance <i>(Innes, The CV Book, ch. 1; Knowles, How to Write an Outstanding CV, ch. 18)</i>. The exact shape varies by country and employer. Some markets lean on automated screening and online tests, others on referrals and short phone screens, and small employers may skip the software altogether. The logic, however, is the same everywhere: reasons to say no come first because they are cheap to find. This has an important emotional consequence. A rejection at the application stage is almost never a judgment on you as a person. Nobody has met you. It is a judgment on a document read for a few seconds by a person or a system working through a pile. That is good news: documents can be fixed.",
-        "id": "Satu program lulusan yang populer di perusahaan besar bisa menerima puluhan ribu lamaran untuk beberapa puluh kursi, dan satu lowongan yang diiklankan perusahaan ternama lazim menarik ratusan pelamar. Tidak ada organisasi yang sanggup membaca sebanyak itu dengan cermat. Maka corong dibangun dengan saringan termurah lebih dulu: formulir daring dan pertanyaan gugur, perangkat lunak pelacak lamaran yang memeringkat berdasarkan kata kunci, penyaring junior dengan daftar periksa, pindaian beberapa detik, dan baru kemudian penilaian termahal, wawancara dengan orang senior. Di ujung yang murah, penyaring bekerja cepat menembus tumpukan dan mencari alasan untuk <b>membuang</b>: syarat yang tidak terpenuhi, salah ketik, CV yang samar sehingga mereka harus bekerja untuk menemukan relevansinya <i>(Innes, The CV Book, bab 1; Knowles, How to Write an Outstanding CV, bab 18)</i>. Bentuk persisnya berbeda antarnegara dan antarperusahaan. Sebagian pasar bertumpu pada penyaringan otomatis dan tes daring, sebagian lagi pada rujukan dan wawancara telepon singkat, dan perusahaan kecil mungkin melewatkan perangkat lunak sama sekali. Logikanya, bagaimanapun, sama di mana-mana: alasan untuk berkata tidak datang lebih dulu karena murah ditemukan. Ini punya konsekuensi emosional yang penting. Penolakan di tahap lamaran hampir tidak pernah merupakan penilaian atas dirimu sebagai pribadi. Belum ada yang bertemu denganmu. Itu penilaian atas selembar dokumen yang dibaca beberapa detik oleh orang atau sistem yang sedang menembus tumpukan. Ini kabar baik: dokumen bisa diperbaiki."
+        "id": "Program lulusan baru yang populer di perusahaan besar bisa kebanjiran puluhan ribu lamaran untuk beberapa puluh kursi. Satu lowongan biasa di perusahaan ternama pun lazim menarik ratusan pelamar. Tidak ada organisasi yang sanggup membaca sebanyak itu dengan saksama. Maka corong seleksi dibangun dengan saringan termurah di depan: formulir daring dan pertanyaan gugur, sistem pelacak lamaran yang mengurutkan berdasarkan kata kunci, penyaring junior dengan daftar periksa, pindaian beberapa detik. Baru setelah itu penilaian yang paling mahal: wawancara dengan orang-orang senior. Di ujung yang murah, penyaring bekerja cepat menembus tumpukan dan mencari alasan untuk <b>membuang</b>: syarat yang tidak terpenuhi, salah ketik, CV yang kabur sehingga mereka harus berusaha menemukan relevansinya <i>(Innes, The CV Book, bab 1; Knowles, How to Write an Outstanding CV, bab 18)</i>. Bentuk persisnya berbeda-beda di tiap negara dan perusahaan. Ada pasar yang mengandalkan penyaringan otomatis dan tes daring, ada yang mengandalkan rekomendasi dan wawancara telepon singkat, dan perusahaan kecil mungkin tidak memakai perangkat lunak sama sekali. Tetapi logikanya sama di mana-mana: alasan untuk menolak dicari lebih dulu karena murah ditemukan. Ada konsekuensi emosional yang penting di sini. Penolakan di tahap lamaran hampir tidak pernah menjadi penilaian atas dirimu sebagai pribadi. Belum ada yang bertemu denganmu. Yang dinilai adalah selembar dokumen yang dibaca beberapa detik oleh orang atau sistem yang sedang membereskan tumpukan. Dan itu kabar baik, karena dokumen bisa diperbaiki."
        },
        "key": {
         "en": "Early-stage rejection is a verdict on a document read in seconds, not on you.",
@@ -184,14 +184,14 @@ window.MT_LMS['the-pack'] = {
          "v": "10,000+",
          "l": {
           "en": "applications a single popular graduate intake at a large employer can draw for a few dozen places",
-          "id": "lamaran yang bisa diterima satu angkatan program lulusan populer di perusahaan besar untuk beberapa puluh kursi"
+          "id": "lamaran yang bisa masuk ke satu program lulusan baru populer di perusahaan besar, untuk beberapa puluh kursi"
          }
         },
         {
          "v": "≈ 6 s",
          "l": {
           "en": "typical first skim of a CV before a keep-or-discard decision",
-          "id": "pindaian pertama sebuah CV sebelum keputusan simpan atau buang"
+          "id": "lama pindaian pertama sebuah CV sebelum diputuskan disimpan atau dibuang"
          },
          "src": {
           "en": "recruiter eye-tracking study, The Ladders (2018)",
@@ -202,7 +202,7 @@ window.MT_LMS['the-pack'] = {
          "v": "0",
          "l": {
           "en": "people who have met you when an application is rejected at the first gate",
-          "id": "orang yang pernah bertemu denganmu saat lamaran ditolak di gerbang pertama"
+          "id": "orang yang pernah bertemu denganmu ketika lamaranmu ditolak di gerbang pertama"
          }
         }
        ],
@@ -219,17 +219,17 @@ window.MT_LMS['the-pack'] = {
           },
           "sub": {
            "en": "Anyone who misses a hard requirement is out before a human reads a word.",
-           "id": "Siapa pun yang tidak memenuhi syarat mutlak tersingkir sebelum ada manusia yang membaca sepatah kata."
+           "id": "Siapa pun yang tidak memenuhi syarat mutlak tersingkir sebelum ada manusia yang membaca satu kata pun."
           }
          },
          {
           "h": {
            "en": "Software ranking",
-           "id": "Pemeringkatan perangkat lunak"
+           "id": "Pengurutan oleh sistem"
           },
           "sub": {
            "en": "An applicant-tracking system scores keywords and fields; the pile is sorted, not read.",
-           "id": "Sistem pelacak lamaran menilai kata kunci dan kolom; tumpukan diurutkan, bukan dibaca."
+           "id": "Sistem pelacak lamaran menilai kata kunci dan isian kolom; tumpukan diurutkan, bukan dibaca."
           }
          },
          {
@@ -239,7 +239,7 @@ window.MT_LMS['the-pack'] = {
           },
           "sub": {
            "en": "A junior recruiter checks requirements in seconds each, looking for reasons to discard.",
-           "id": "Perekrut junior memeriksa syarat dalam hitungan detik, mencari alasan untuk membuang."
+           "id": "Perekrut junior mengecek syarat dalam hitungan detik per lamaran, sambil mencari alasan untuk membuang."
           }
          },
          {
@@ -249,7 +249,7 @@ window.MT_LMS['the-pack'] = {
           },
           "sub": {
            "en": "A hiring manager reads the shortlist for seconds: target role, hard requirements, one thing done.",
-           "id": "Manajer perekrut membaca daftar pendek beberapa detik: peran yang dituju, syarat mutlak, satu hal yang pernah dikerjakan."
+           "id": "Manajer perekrut membaca daftar pendek beberapa detik saja: posisi yang dituju, syarat mutlak, satu hal yang pernah dikerjakan."
           }
          },
          {
@@ -259,13 +259,13 @@ window.MT_LMS['the-pack'] = {
           },
           "sub": {
            "en": "The expensive judgment, with senior people, for the few who are left.",
-           "id": "Penilaian mahal, bersama orang senior, untuk segelintir yang tersisa."
+           "id": "Penilaian yang mahal, bersama orang-orang senior, untuk segelintir yang tersisa."
           }
          }
         ],
         "note": {
          "en": "The tools differ by market; the order rarely does. Everything in The Pack is built to get a document through the first four rows.",
-         "id": "Alatnya berbeda antarpasar; urutannya jarang berbeda. Seluruh The Pack dibangun agar dokumenmu lolos empat baris pertama."
+         "id": "Alatnya berbeda di tiap pasar; urutannya hampir selalu sama. Seluruh isi The Pack dibuat agar dokumenmu lolos empat baris pertama."
         }
        }
       },
@@ -277,51 +277,51 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Richard Bolles set out a simple but powerful comparison that later authors keep returning to <i>(Bolles, What Color Is Your Parachute?, ch. 2)</i>. Job seekers prefer to search in roughly this order: send CVs and answer postings first; then agencies; then ask friends and contacts; and only reluctantly, turn up with evidence of work or find a way in through temporary work. Employers prefer almost the exact reverse. Their first choice is someone already inside. An employee, intern, contractor or volunteer whose work they have seen. Next, someone a trusted colleague vouches for. Next, a stranger who arrives with proof of what they can do. Only near the bottom do they turn to postings and unsolicited CVs. The logic is not snobbery; it is risk. Each rung up the employer’s ladder gives them more evidence about how you will actually work. Dalton reports an illustrative figure from one large organisation where roughly twelve hires came through internal referral for every one from online postings <span class=\"ev ev-dated\">Dated</span>. A single-organisation figure; use it as an illustration, not a universal ratio <i>(Dalton, introduction)</i>. Verma reports a similar pattern among Indian employers, with employee referral the largest single channel <span class=\"ev ev-dated\">Dated</span>, a consultancy survey, indicative only <i>(Verma, Job Search Secrets, ch. 3)</i>. The exact numbers vary; the direction does not.",
-        "id": "Richard Bolles menyusun perbandingan sederhana tetapi kuat yang terus dirujuk penulis-penulis setelahnya <i>(Bolles, What Color Is Your Parachute?, bab 2)</i>. Pencari kerja cenderung mencari kira-kira dengan urutan ini: mengirim CV dan menjawab lowongan lebih dulu; lalu agen; lalu bertanya pada teman dan kenalan; dan hanya dengan enggan, datang membawa bukti kerja atau masuk lewat pekerjaan sementara. Perusahaan lebih menyukai urutan yang hampir persis terbalik. Pilihan pertama mereka adalah orang yang sudah di dalam, karyawan, anak magang, kontraktor, atau relawan yang hasil kerjanya sudah mereka lihat. Berikutnya, orang yang dijamin rekan yang mereka percaya. Berikutnya, orang asing yang datang dengan bukti kemampuan. Baru di dekat dasar mereka beralih ke lowongan dan CV yang datang tanpa diminta. Logikanya bukan keangkuhan; ini soal risiko. Setiap anak tangga ke atas di tangga perusahaan memberi mereka lebih banyak bukti tentang bagaimana kamu benar-benar akan bekerja. Dalton melaporkan angka ilustratif dari satu organisasi besar: kira-kira dua belas rekrutan lewat rujukan internal untuk setiap satu dari lowongan daring <span class=\"ev ev-dated\">Lawas</span>. Angka satu organisasi; pakai sebagai ilustrasi, bukan rasio universal <i>(Dalton, pendahuluan)</i>. Verma melaporkan pola serupa di kalangan perusahaan India, dengan rujukan karyawan sebagai saluran tunggal terbesar <span class=\"ev ev-dated\">Lawas</span>, survei konsultan, hanya indikatif <i>(Verma, Job Search Secrets, bab 3)</i>. Angka pastinya beragam; arahnya tidak."
+        "id": "Richard Bolles membuat perbandingan sederhana tetapi tajam, yang terus dikutip penulis-penulis sesudahnya <i>(Bolles, What Color Is Your Parachute?, bab 2)</i>. Pencari kerja biasanya bergerak dengan urutan begini: kirim CV dan jawab iklan lowongan lebih dulu; lalu lewat agen penyalur; lalu bertanya ke teman dan kenalan; dan baru dengan setengah hati datang membawa bukti kerja atau masuk lewat pekerjaan sementara. Perusahaan justru menyukai urutan yang hampir persis sebaliknya. Pilihan pertama mereka adalah orang yang sudah ada di dalam: karyawan, anak magang, pekerja kontrak, atau relawan yang hasil kerjanya sudah mereka lihat. Berikutnya, orang yang dijamin oleh rekan yang mereka percaya. Berikutnya lagi, orang asing yang datang membawa bukti kemampuan. Baru di bagian paling bawah mereka menoleh ke iklan lowongan dan CV yang datang tanpa diminta. Ini bukan soal gengsi, melainkan soal risiko. Setiap anak tangga di tangga perusahaan memberi mereka lebih banyak bukti tentang cara kerjamu yang sesungguhnya. Dalton mengutip angka dari satu organisasi besar: kira-kira dua belas orang direkrut lewat rekomendasi internal untuk setiap satu orang yang masuk lewat lowongan daring <span class=\"ev ev-dated\">Lawas</span>. Itu angka satu organisasi; pakai sebagai gambaran, bukan rasio umum <i>(Dalton, pendahuluan)</i>. Verma menemukan pola serupa di perusahaan-perusahaan India: rekomendasi karyawan adalah saluran terbesar <span class=\"ev ev-dated\">Lawas</span>, dari survei sebuah konsultan, sekadar indikasi <i>(Verma, Job Search Secrets, bab 3)</i>. Angkanya bisa beda-beda; arahnya tidak."
        },
        "key": {
         "en": "Job seekers search in almost the opposite order to the one employers prefer to hire in.",
-        "id": "Pencari kerja mencari dengan urutan yang hampir berkebalikan dari urutan yang disukai perusahaan saat merekrut."
+        "id": "Pencari kerja bergerak dengan urutan yang hampir berkebalikan dari urutan yang disukai perusahaan saat merekrut."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "What this means for you, practically",
-        "id": "Artinya untukmu, secara praktis"
+        "id": "Apa artinya untukmu, secara praktis"
        },
        "body": {
         "en": "You do not need to abandon online applications; for process-track programmes they are the only door (Lesson 1.2). But you should stop treating them as the <b>only</b> activity. The rungs of the employer’s ladder that are open to a fresh graduate are real and reachable: an internship that converts (internship, university placement programme placements where available, contract roles, <i>fixed-term contract</i>, that turn permanent); a conversation with an alumnus who later mentions your name; a small piece of relevant work you can show, an analysis, a portfolio project, a competition deck. Module 2 teaches how to climb these rungs deliberately.",
-        "id": "Kamu tidak perlu meninggalkan lamaran daring, untuk program jalur proses, itu satu-satunya pintu (Pelajaran 1.2). Tetapi berhentilah memperlakukannya sebagai <b>satu-satunya</b> kegiatan. Anak-anak tangga perusahaan yang terbuka bagi lulusan baru itu nyata dan bisa dijangkau: magang yang berlanjut (<i>magang</i>, penempatan MBKM (Merdeka Belajar Kampus Merdeka) bila tersedia, peran kontrak, <i>PKWT (perjanjian kerja waktu tertentu)</i>, yang menjadi tetap); percakapan dengan alumni yang kelak menyebut namamu; sepotong kecil hasil kerja relevan yang bisa kamu tunjukkan, sebuah analisis, proyek portofolio, dek lomba. Modul 2 mengajarkan cara menaiki anak-anak tangga ini dengan sengaja."
+        "id": "Kamu tidak perlu berhenti melamar daring. Untuk program jalur proses, itu satu-satunya pintu (Pelajaran 1.2). Yang perlu berhenti adalah menganggapnya sebagai <b>satu-satunya</b> kegiatan. Anak-anak tangga perusahaan yang terbuka untuk lulusan baru itu nyata dan bisa dijangkau: magang yang berlanjut jadi pekerjaan (<i>magang</i>, penempatan MBKM (Merdeka Belajar Kampus Merdeka) bila ada, posisi kontrak atau <i>PKWT (perjanjian kerja waktu tertentu)</i> yang kemudian diangkat tetap); obrolan dengan alumni yang suatu hari menyebut namamu; atau hasil kerja kecil yang relevan dan bisa kamu tunjukkan, misalnya sebuah analisis, proyek portofolio, atau dek lomba. Modul 2 mengajarkan cara menaiki anak tangga ini dengan sengaja."
        },
        "bullets": [
         {
          "en": "<b>Inside first.</b> An internship or contract role is the top rung. Even a short one gives an employer three months of evidence no CV can match.",
-         "id": "<b>Masuk dulu.</b> Magang atau peran kontrak adalah anak tangga teratas. Yang singkat pun memberi perusahaan tiga bulan bukti yang tak tertandingi CV mana pun."
+         "id": "<b>Masuk dulu.</b> Magang atau posisi kontrak adalah anak tangga paling atas. Yang singkat sekalipun memberi perusahaan tiga bulan bukti yang tidak bisa disaingi CV mana pun."
         },
         {
          "en": "<b>Vouched for.</b> Alumni two to five years ahead of you are the most common advocates for fresh graduates, after one or two real conversations.",
-         "id": "<b>Dijamin orang.</b> Alumni dua sampai lima tahun di atasmu adalah pendukung paling umum bagi lulusan baru, setelah satu atau dua percakapan sungguhan."
+         "id": "<b>Dijamin orang.</b> Alumni yang dua sampai lima tahun di atasmu adalah pendukung paling umum bagi lulusan baru, biasanya setelah satu atau dua obrolan yang sungguh-sungguh."
         },
         {
          "en": "<b>Proof of work.</b> A one-page analysis of a company’s market, a community-service report, a competition deck: small, real, and yours.",
-         "id": "<b>Bukti kerja.</b> Analisis satu halaman tentang pasar sebuah perusahaan, laporan KKN, dek lomba: kecil, nyata, dan milikmu."
+         "id": "<b>Bukti kerja.</b> Analisis satu halaman tentang pasar sebuah perusahaan, laporan KKN, dek lomba: kecil, nyata, dan buatanmu sendiri."
         }
        ],
        "key": {
         "en": "Online applications are one door of several; the rungs employers prefer are open to a fresh graduate.",
-        "id": "Lamaran daring hanya satu dari beberapa pintu; anak tangga yang disukai perusahaan terbuka bagi lulusan baru."
+        "id": "Lamaran daring hanya satu dari beberapa pintu; anak tangga yang disukai perusahaan juga terbuka bagi lulusan baru."
        }
       },
       {
        "icon": "users",
        "h": {
         "en": "“The insider”: reframed honestly",
-        "id": "“Orang dalam”: dibingkai ulang dengan jujur"
+        "id": "“Orang dalam”, ditata ulang dengan jujur"
        },
        "body": {
         "en": "Most graduates already believe “you need an <i>insider</i>”; usually said cynically, as a synonym for nepotism. The research supports half of this belief and contradicts the other half. It is true that employers everywhere prefer candidates someone they trust can vouch for. It is <b>not</b> true that this requires family connections or anything improper. There is a clear line, and The Pack draws it explicitly:",
-        "id": "Kebanyakan lulusan sudah percaya “harus ada <i>orang dalam</i>”; biasanya diucapkan sinis, sebagai sinonim nepotisme. Penelitian mendukung separuh keyakinan ini dan membantah separuh lainnya. Benar bahwa perusahaan di mana pun lebih menyukai kandidat yang dijamin oleh orang yang mereka percaya. <b>Tidak</b> benar bahwa ini menuntut koneksi keluarga atau hal yang tidak pantas. Ada garis yang jelas, dan The Pack menariknya secara eksplisit:"
+        "id": "Kebanyakan lulusan sudah percaya bahwa “harus ada <i>orang dalam</i>”, dan biasanya diucapkan dengan nada sinis, seakan-akan sama dengan nepotisme. Penelitian membenarkan separuh keyakinan itu dan membantah separuh lainnya. Benar bahwa perusahaan di mana pun lebih suka kandidat yang dijamin oleh orang yang mereka percaya. <b>Tidak</b> benar bahwa itu harus lewat koneksi keluarga atau cara yang tidak pantas. Garisnya jelas, dan The Pack menariknya terang-terangan:"
        },
        "table": {
         "cols": [
@@ -331,24 +331,24 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "nepotism: not acceptable, and not what this course teaches",
-          "id": "KKN: tidak dapat diterima, dan bukan yang diajarkan kursus ini"
+          "id": "KKN: tidak bisa diterima, dan bukan yang diajarkan kursus ini"
          }
         ],
         "rows": [
          [
           {
            "en": "Someone who knows your work or has spoken with you tells the hiring team you are worth a look.",
-           "id": "Seseorang yang mengenal kerjamu atau pernah berbicara denganmu memberi tahu tim perekrut bahwa kamu layak dilirik."
+           "id": "Seseorang yang tahu kerjamu atau pernah mengobrol denganmu memberi tahu tim perekrut bahwa kamu layak dilirik."
           },
           {
            "en": "Someone overrides or bypasses a fair process for you.",
-           "id": "Seseorang mengesampingkan atau melewati proses yang adil demi kamu."
+           "id": "Seseorang mengesampingkan atau menerobos proses yang adil demi kamu."
           }
          ],
          [
           {
            "en": "Earned through conversations, work and evidence.",
-           "id": "Diperoleh lewat percakapan, kerja, dan bukti."
+           "id": "Didapat lewat obrolan, kerja, dan bukti."
           },
           {
            "en": "“Bought” through status, family, gifts or pressure.",
@@ -358,21 +358,21 @@ window.MT_LMS['the-pack'] = {
          [
           {
            "en": "The process still decides; you still pass the tests.",
-           "id": "Proses tetap memutuskan; kamu tetap harus lulus tesnya."
+           "id": "Proses tetap yang memutuskan; kamu tetap harus lulus tesnya."
           },
           {
            "en": "The process is skipped or its outcome is fixed.",
-           "id": "Proses dilewati atau hasilnya sudah diatur."
+           "id": "Proses dilewati, atau hasilnya sudah diatur."
           }
          ],
          [
           {
            "en": "Available to anyone willing to reach out.",
-           "id": "Tersedia bagi siapa pun yang mau menghubungi orang."
+           "id": "Terbuka bagi siapa saja yang mau menghubungi orang."
           },
           {
            "en": "Available only to the already-connected.",
-           "id": "Hanya tersedia bagi yang sudah punya koneksi."
+           "id": "Hanya untuk mereka yang sudah punya koneksi."
           }
          ]
         ]
@@ -380,12 +380,12 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "Never ask a contact to bypass a process, alter a result, or pressure HR (human resources). Ask for information, advice and, when they offer, an introduction. That request is not only ethical; it is also what works, because an advocate’s word is only worth something to a hiring team if the process remains intact.",
-         "id": "Jangan pernah meminta kenalan melewati proses, mengubah hasil, atau menekan HR (sumber daya manusia). Mintalah informasi, saran, dan, bila mereka menawarkan, perkenalan. Permintaan itu bukan hanya etis; itu juga yang berhasil, karena kata seorang pendukung hanya berharga bagi tim perekrut jika prosesnya tetap utuh."
+         "id": "Jangan pernah meminta kenalan melewati proses, mengubah hasil, atau menekan HR (sumber daya manusia). Mintalah informasi dan saran, dan terima perkenalan kalau mereka menawarkannya. Permintaan seperti itu bukan hanya etis, tetapi juga yang paling ampuh: kata seorang pendukung hanya berharga bagi tim perekrut kalau prosesnya tetap utuh."
         }
        ],
        "key": {
         "en": "Advocacy is earned and leaves the process intact; nepotism bypasses it. The Pack teaches the first.",
-        "id": "Advokasi diperoleh dan membiarkan proses tetap utuh; nepotisme melangkahinya. The Pack mengajarkan yang pertama."
+        "id": "Advokasi diperoleh dengan usaha dan membiarkan proses tetap utuh; nepotisme menerobosnya. The Pack mengajarkan yang pertama."
        }
       },
       {
@@ -396,11 +396,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bolles makes a point that stays true decades later: employers read the whole interaction as a preview of working with you <i>(Bolles, ch. 2)</i>. Whether you followed the application instructions, how you wrote your email subject line, how you spoke to the receptionist, whether you sent a thank-you. All of it is evidence. A candidate who cannot follow a five-step submission instruction is, to the screener, a colleague who will not follow a five-step process at work. This is why Module 9 treats professional follow-through as a skill rather than good manners, and why The Pack asks you to treat even a WhatsApp message to an alumnus as a small piece of work: short, clear, correctly addressed, easy to answer.",
-        "id": "Bolles menyampaikan hal yang tetap benar puluhan tahun kemudian: perusahaan membaca seluruh interaksi sebagai pratinjau bekerja bersamamu <i>(Bolles, bab 2)</i>. Apakah kamu mengikuti petunjuk lamaran, bagaimana kamu menulis subjek email, bagaimana kamu berbicara pada resepsionis, apakah kamu mengirim ucapan terima kasih. Semuanya adalah bukti. Kandidat yang tidak bisa mengikuti petunjuk pengiriman lima langkah, di mata penyaring, adalah rekan kerja yang tidak akan mengikuti proses lima langkah di tempat kerja. Itulah sebabnya Modul 9 memperlakukan tindak lanjut profesional sebagai keterampilan, bukan sekadar sopan santun, dan mengapa The Pack memintamu memperlakukan bahkan pesan WhatsApp kepada alumni sebagai sepotong kecil kerja: singkat, jelas, ditujukan dengan benar, mudah dijawab."
+        "id": "Bolles menyampaikan satu hal yang tetap benar puluhan tahun kemudian: perusahaan membaca seluruh interaksi denganmu sebagai gambaran awal bagaimana rasanya bekerja bersamamu <i>(Bolles, bab 2)</i>. Apakah kamu mengikuti petunjuk lamaran, bagaimana kamu menulis subjek email, bagaimana kamu berbicara dengan resepsionis, apakah kamu mengirim ucapan terima kasih. Semuanya bukti. Kandidat yang tidak bisa mengikuti petunjuk pengiriman lima langkah, di mata penyaring, adalah rekan kerja yang kelak tidak akan mengikuti prosedur lima langkah di kantor. Karena itu Modul 9 memperlakukan tindak lanjut profesional sebagai keterampilan, bukan sekadar sopan santun. Dan karena itu pula The Pack memintamu memperlakukan bahkan pesan WhatsApp ke seorang alumni sebagai contoh kerja kecil: singkat, jelas, ditujukan dengan benar, dan mudah dijawab."
        },
        "key": {
         "en": "Employers read every interaction as a preview of working with you.",
-        "id": "Perusahaan membaca setiap interaksi sebagai pratinjau bekerja denganmu."
+        "id": "Perusahaan membaca setiap interaksi sebagai gambaran awal bekerja bersamamu."
        }
       }
      ],
@@ -431,7 +431,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Answer postings",
-          "id": "Menjawab lowongan"
+          "id": "Menjawab iklan lowongan"
          },
          {
           "en": "Agencies",
@@ -439,7 +439,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Ask contacts",
-          "id": "Bertanya pada kenalan"
+          "id": "Bertanya ke kenalan"
          },
          {
           "en": "Show proof of work",
@@ -471,7 +471,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Someone with proof of work",
-          "id": "Orang dengan bukti kerja"
+          "id": "Orang yang punya bukti kerja"
          },
          {
           "en": "A known contact",
@@ -483,41 +483,41 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Postings and unsolicited CVs",
-          "id": "Lowongan dan CV tak diminta"
+          "id": "Iklan lowongan dan CV tak diminta"
          }
         ]
        }
       ],
       "note": {
        "en": "The more evidence an employer has about how you work, the less risky you are. Climb their ladder, not yours. (After Bolles, Parachute, ch. 2.)",
-       "id": "Makin banyak bukti yang dimiliki perusahaan tentang cara kerjamu, makin kecil risikomu. Naiki tangga mereka, bukan tanggamu. (Mengikuti Bolles, Parachute, bab 2.)"
+       "id": "Makin banyak bukti yang dimiliki perusahaan tentang cara kerjamu, makin kecil risikomu di mata mereka. Naiki tangga mereka, bukan tanggamu. (Mengikuti Bolles, Parachute, bab 2.)"
       },
       "longdesc": {
        "en": "Two vertical lists side by side. The left list shows the job seeker’s usual order, starting with sending CVs and ending with getting inside the organisation. The right list shows the employer’s preferred order, which is almost exactly reversed, starting with hiring someone already inside and ending with postings and unsolicited CVs.",
-       "id": "Dua daftar vertikal berdampingan. Daftar kiri menunjukkan urutan biasa pencari kerja, dimulai dari mengirim CV dan diakhiri dengan masuk ke organisasi. Daftar kanan menunjukkan urutan yang lebih disukai perusahaan, yang hampir persis terbalik, dimulai dari merekrut orang yang sudah di dalam dan diakhiri dengan lowongan dan CV tak diminta."
+       "id": "Dua daftar tegak berdampingan. Daftar kiri menunjukkan urutan yang biasa dipakai pencari kerja, mulai dari mengirim CV dan berakhir pada masuk ke organisasi. Daftar kanan menunjukkan urutan yang disukai perusahaan, yang hampir persis terbalik: mulai dari merekrut orang yang sudah di dalam dan berakhir pada iklan lowongan dan CV tak diminta."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Two ways to spend a month",
-        "id": "Dua cara menghabiskan sebulan"
+        "id": "Dua cara menghabiskan satu bulan"
        },
        "q": {
         "en": "Two graduates with similar CVs each have 60 hours to spend on their search this month.",
-        "id": "Dua lulusan dengan CV serupa masing-masing punya 60 jam untuk pencarian kerja bulan ini."
+        "id": "Dua lulusan dengan CV yang mirip sama-sama punya 60 jam untuk mencari kerja bulan ini."
        },
        "weak": {
         "en": "Graduate A applies to 150 postings on three job boards, using one CV. Tracks “applications sent: 150”. Gets two automated test invitations and no interviews.",
-        "id": "Lulusan A melamar ke 150 lowongan di tiga situs lowongan, dengan satu CV. Mencatat “lamaran terkirim: 150”. Mendapat dua undangan tes otomatis dan tidak ada wawancara."
+        "id": "Lulusan A melamar ke 150 lowongan di tiga situs lowongan dengan satu CV yang sama. Catatannya: “lamaran terkirim: 150”. Hasilnya dua undangan tes otomatis dan nol wawancara."
        },
        "strong": {
         "en": "Graduate B applies to 25 postings with CVs tailored to two role clusters, and spends the rest of the time on 12 short conversations with alumni at eight target employers. One alumnus mentions her to a hiring manager; she is invited to interview for a role that was never posted.",
-        "id": "Lulusan B melamar ke 25 lowongan dengan CV yang disesuaikan untuk dua rumpun peran, dan menghabiskan sisa waktunya untuk 12 percakapan singkat dengan alumni di delapan perusahaan sasaran. Seorang alumnus menyebut namanya kepada manajer perekrut; ia diundang wawancara untuk peran yang tidak pernah diiklankan."
+        "id": "Lulusan B melamar ke 25 lowongan dengan CV yang disesuaikan untuk dua rumpun posisi, lalu memakai sisa waktunya untuk 12 obrolan singkat dengan alumni di delapan perusahaan sasaran. Seorang alumni menyebut namanya ke manajer yang sedang merekrut; ia diundang wawancara untuk posisi yang tidak pernah diiklankan."
        },
        "why": {
         "en": "A optimised for the metric that feels productive. B spent time on the rungs employers prefer. B sent fewer applications and got further, because two of her routes carried trust that a posting cannot.",
-        "id": "A mengoptimalkan ukuran yang terasa produktif. B menghabiskan waktu di anak tangga yang disukai perusahaan. B mengirim lebih sedikit lamaran dan melangkah lebih jauh, karena dua jalurnya membawa kepercayaan yang tidak bisa dibawa sebuah lowongan."
+        "id": "A mengejar angka yang terasa produktif. B menaruh waktunya di anak tangga yang disukai perusahaan. B mengirim lebih sedikit lamaran dan melangkah lebih jauh, karena dua jalurnya membawa kepercayaan, sesuatu yang tidak pernah bisa dibawa oleh iklan lowongan."
        }
       }
      ],
@@ -530,15 +530,15 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "Dalton tells a story worth retelling, because a version of it happens in every market <i>(Dalton, ch. 7)</i>. A graduate, call her Ayu, applied online to a consumer-goods company and, separately, had coffee with an alumna there who liked her and passed her name to a manager. Ayu interviewed through the manager and received an offer.",
-        "id": "Dalton menceritakan kisah yang layak diceritakan ulang, karena versinya terjadi di pasar mana pun <i>(Dalton, bab 7)</i>. Seorang lulusan, sebut saja Ayu, melamar daring ke sebuah perusahaan barang konsumsi dan, secara terpisah, minum kopi dengan seorang alumni di sana yang menyukainya dan meneruskan namanya ke seorang manajer. Ayu diwawancarai lewat manajer itu dan menerima tawaran."
+        "id": "Dalton punya cerita yang layak diulang, karena versinya terjadi di pasar mana pun <i>(Dalton, bab 7)</i>. Seorang lulusan baru, sebut saja Ayu, melamar lewat portal sebuah perusahaan barang konsumsi. Terpisah dari itu, ia ngopi dengan seorang alumni yang bekerja di sana. Alumni itu terkesan dan meneruskan namanya ke seorang manajer. Ayu diwawancarai lewat jalur manajer itu, lalu menerima tawaran."
        },
        {
         "en": "The next morning an automated email arrived from the same company’s portal: <i>“Thank you for your interest; we will not be proceeding with your application.”</i> Nobody made a mistake. The portal and the manager were two separate pipelines that never met.",
-        "id": "Keesokan paginya sebuah email otomatis datang dari portal perusahaan yang sama: <i>“Terima kasih atas minat Anda; kami tidak akan melanjutkan lamaran Anda.”</i> Tidak ada yang berbuat salah. Portal dan manajer itu adalah dua alur terpisah yang tidak pernah bertemu."
+        "id": "Keesokan paginya, email otomatis datang dari portal perusahaan yang sama: <i>“Terima kasih atas minat Anda; kami tidak melanjutkan lamaran Anda.”</i> Tidak ada yang berbuat salah. Portal dan manajer itu adalah dua jalur terpisah yang tidak pernah bertemu."
        },
        {
         "en": "The lesson is not “portals are useless”. It is that the portal is one door among several, and it does not know about the others. When Nadia, whose case runs through this module, says “I have applied to 120 companies”, she means she has knocked on 120 copies of the same door.",
-        "id": "Pelajarannya bukan “portal itu tidak berguna”. Pelajarannya adalah portal hanyalah satu pintu di antara beberapa pintu, dan ia tidak tahu tentang pintu-pintu lainnya. Ketika Nadia, yang kasusnya mengalir sepanjang modul ini, berkata “aku sudah melamar ke 120 perusahaan”, maksudnya ia sudah mengetuk 120 salinan dari pintu yang sama."
+        "id": "Pelajarannya bukan “portal itu percuma”. Pelajarannya: portal hanyalah satu pintu di antara beberapa pintu, dan ia tidak tahu apa-apa tentang pintu yang lain. Ketika Nadia, yang kasusnya mengalir sepanjang modul ini, berkata “aku sudah melamar ke 120 perusahaan”, yang sebenarnya ia lakukan adalah mengetuk 120 salinan dari pintu yang sama."
        }
       ]
      },
@@ -550,11 +550,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Five ways a fresh graduate could reach PT Arunika Consumer Goods (the fictional FMCG (fast-moving consumer goods) employer in this module): (a) apply on the careers portal; (b) ask an alumnus in the sales team for a 20-minute call; (c) send the sales director a one-page analysis of a shelf audit you did in three minimarkets; (d) upload a CV to a recruitment agency; (e) take a three-month internship in a distributor that supplies Arunika. Before you reveal, rank them from the <b>employer’s</b> point of view, best first, and write one line on why.",
-        "id": "Lima cara seorang lulusan baru bisa menjangkau PT Arunika Consumer Goods (perusahaan FMCG (barang konsumsi cepat habis, fast-moving consumer goods) fiktif dalam modul ini): (a) melamar di portal karier; (b) meminta alumni di tim penjualan untuk panggilan 20 menit; (c) mengirim direktur penjualan analisis satu halaman dari audit rak yang kamu lakukan di tiga minimarket; (d) mengunggah CV ke agen rekrutmen; (e) mengambil <i>magang</i> tiga bulan di distributor pemasok Arunika. Sebelum membuka pembahasan, urutkan dari sudut pandang <b>perusahaan</b>, yang terbaik lebih dulu, dan tulis satu baris alasannya."
+        "id": "Ada lima cara seorang lulusan baru bisa menjangkau PT Arunika Consumer Goods (perusahaan FMCG (barang konsumsi cepat habis, fast-moving consumer goods) fiktif dalam modul ini): (a) melamar lewat portal karier; (b) meminta alumni di tim penjualan meluangkan 20 menit untuk mengobrol lewat telepon; (c) mengirimi direktur penjualan analisis satu halaman dari audit rak yang kamu lakukan di tiga minimarket; (d) mengunggah CV ke agen rekrutmen; (e) <i>magang</i> tiga bulan di distributor yang memasok Arunika. Sebelum membuka pembahasan, urutkan dari sudut pandang <b>perusahaan</b>, yang paling disukai di atas, dan tulis satu baris alasannya."
        },
        "debrief": {
         "en": "From the employer’s ladder: (e) the internship at a supplier is closest to “someone whose work we have seen”. A distributor contact can vouch for you with evidence; (b) the alumnus call can turn into “someone a colleague vouches for” after a real conversation; (c) the shelf-audit page is proof of work, small, relevant and rare; (d) the agency is low on the list for entry roles; (a) the portal is where everyone else is. Notice that (a) is still necessary if Arunika runs a formal MT (management trainee) intake; you do both. The ranking tells you where to spend the <i>extra</i> hours.",
-        "id": "Dari tangga perusahaan: (e) magang di pemasok paling dekat dengan “orang yang hasil kerjanya sudah kami lihat”. Kontak distributor bisa menjaminmu dengan bukti; (b) panggilan dengan alumni bisa berubah menjadi “orang yang dijamin rekan” setelah percakapan sungguhan; (c) halaman audit rak adalah bukti kerja, kecil, relevan, dan langka; (d) agen berada di bawah untuk peran pemula; (a) portal adalah tempat semua orang lain berada. Perhatikan bahwa (a) tetap perlu jika Arunika menjalankan seleksi MT (management trainee, program pelatihan manajemen) formal; kamu melakukan keduanya. Urutan ini memberi tahu di mana menghabiskan jam <i>tambahan</i>."
+        "id": "Dari tangga perusahaan: (e) magang di pemasok paling mendekati “orang yang hasil kerjanya sudah kami lihat”, dan kontak di distributor bisa menjaminmu dengan bukti; (b) obrolan dengan alumni bisa berubah menjadi “orang yang dijamin rekan” setelah percakapan yang sungguh-sungguh; (c) halaman audit rak adalah bukti kerja: kecil, relevan, dan jarang ada; (d) agen berada di bawah untuk posisi pemula; (a) portal adalah tempat semua orang lain mengantre. Catat bahwa (a) tetap wajib kalau Arunika membuka seleksi MT (management trainee, program pelatihan manajemen) resmi; kamu melakukan keduanya. Urutan ini hanya memberi tahu ke mana jam <i>tambahan</i> sebaiknya dipakai."
        }
       },
       {
@@ -564,11 +564,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Read six requests a candidate might make of an alumnus who works at Bank Sinar Nusantara, and mark each <b>advocacy</b> or <b>nepotism</b> before revealing: (1) “Could you tell me what the officer programme assessment day is like?” (2) “Could you mention to HR that we spoke and I am applying?” (3) “Could you check whether my application passed administrative screening?” (4) “Could you ask the coordinator to accept my late TOEFL (Test of English as a Foreign Language) certificate?” (5) “Could you introduce me to someone in the operations team?” (6) “Could you find out the answers to the values test?”",
-        "id": "Baca enam permintaan yang mungkin diajukan kandidat kepada alumni yang bekerja di Bank Sinar Nusantara, dan tandai masing-masing sebagai <b>advokasi</b> atau <b>KKN</b> sebelum membuka pembahasan: (1) “Boleh cerita seperti apa hari asesmen ODP?” (2) “Boleh sampaikan ke HR bahwa kita sudah bicara dan aku melamar?” (3) “Boleh cek apakah lamaranku lolos seleksi administrasi?” (4) “Boleh minta koordinator menerima sertifikat TOEFL-ku yang terlambat?” (5) “Boleh kenalkan aku ke seseorang di tim operasional?” (6) “Boleh cari tahu jawaban tes nilai-nilainya?”"
+        "id": "Baca enam permintaan yang mungkin diajukan seorang kandidat kepada alumni yang bekerja di Bank Sinar Nusantara. Tandai masing-masing sebagai <b>advokasi</b> atau <b>KKN</b> sebelum membuka pembahasan: (1) “Boleh cerita seperti apa hari asesmen ODP?” (2) “Boleh sampaikan ke HR bahwa kita sudah bicara dan aku sedang melamar?” (3) “Boleh cek apakah lamaranku lolos seleksi administrasi?” (4) “Boleh minta koordinator menerima sertifikat TOEFL-ku yang terlambat?” (5) “Boleh kenalkan aku ke seseorang di tim operasional?” (6) “Boleh cari tahu jawaban tes nilai-nilainya?”"
        },
        "debrief": {
         "en": "(1) Advocacy: information. (2) Advocacy: it adds a fact about you to a fair process. (3) A grey request that puts your contact in an awkward position: it asks them to use internal access on your behalf. Do not ask; wait for the process. (4) nepotism. It asks the process to bend for you. (5) Advocacy. An introduction they choose to make. (6) nepotism, plainly. The test: does the request add information to the process, or does it change the process? Only the first kind is yours to ask.",
-        "id": "(1) Advokasi: informasi. (2) Advokasi: menambahkan fakta tentang dirimu ke proses yang adil. (3) Permintaan abu-abu yang menempatkan kenalanmu pada posisi canggung: meminta mereka memakai akses internal untukmu. Jangan minta; tunggu prosesnya. (4) KKN. Meminta proses dibengkokkan untukmu. (5) Advokasi. Perkenalan yang mereka pilih untuk lakukan. (6) KKN, jelas. Ujiannya: apakah permintaan itu menambah informasi ke proses, atau mengubah proses? Hanya jenis pertama yang boleh kamu minta."
+        "id": "(1) Advokasi: ini permintaan informasi. (2) Advokasi: menambahkan satu fakta tentang dirimu ke proses yang adil. (3) Wilayah abu-abu yang membuat kenalanmu serba salah, karena ia diminta memakai akses internal untuk kepentinganmu. Jangan minta; tunggu prosesnya berjalan. (4) KKN: meminta proses dibengkokkan untukmu. (5) Advokasi: perkenalan yang mereka pilih sendiri untuk diberikan. (6) KKN, tanpa perlu dibahas lagi. Ujiannya sederhana: apakah permintaan itu menambah informasi ke dalam proses, atau mengubah prosesnya? Hanya yang pertama yang boleh kamu minta."
        }
       }
      ],
@@ -577,41 +577,41 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Taking an application-stage rejection personally",
-         "id": "Menganggap penolakan di tahap lamaran sebagai soal pribadi"
+         "id": "Menganggap penolakan di tahap lamaran sebagai urusan pribadi"
         },
         "fix": {
          "en": "Nobody has met you yet. Treat it as feedback on the document and the channel, and check the leak diagnosis in Lesson 1.3.",
-         "id": "Belum ada yang bertemu denganmu. Anggap sebagai umpan balik atas dokumen dan salurannya, dan periksa diagnosis kebocoran di Pelajaran 1.3."
+         "id": "Belum ada yang bertemu denganmu. Anggap itu masukan tentang dokumen dan salurannya, lalu cek diagnosis kebocoran di Pelajaran 1.3."
         }
        },
        {
         "h": {
          "en": "Believing referrals require family connections",
-         "id": "Percaya bahwa rujukan butuh koneksi keluarga"
+         "id": "Percaya bahwa rekomendasi harus lewat koneksi keluarga"
         },
         "fix": {
          "en": "Most advocacy for fresh graduates comes from alumni two to five years ahead of you who have spoken with you once or twice. Module 2 shows how.",
-         "id": "Kebanyakan advokasi bagi lulusan baru datang dari alumni dua sampai lima tahun di atasmu yang pernah berbicara denganmu sekali atau dua kali. Modul 2 menunjukkan caranya."
+         "id": "Sebagian besar dukungan untuk lulusan baru datang dari alumni dua sampai lima tahun di atasmu yang pernah mengobrol denganmu sekali atau dua kali. Modul 2 menunjukkan caranya."
         }
        },
        {
         "h": {
          "en": "Asking a contact to “help you get in”",
-         "id": "Meminta kenalan untuk “bantu masukkan”"
+         "id": "Meminta kenalan untuk “bantu masukin”"
         },
         "fix": {
          "en": "Ask for information and advice. Let them decide whether to offer an introduction.",
-         "id": "Mintalah informasi dan saran. Biarkan mereka memutuskan apakah akan menawarkan perkenalan."
+         "id": "Mintalah informasi dan saran. Biarkan mereka yang memutuskan apakah akan menawarkan perkenalan."
         }
        },
        {
         "h": {
          "en": "Treating the online portal as the whole process",
-         "id": "Menganggap portal daring sebagai seluruh proses"
+         "id": "Menganggap portal daring sebagai keseluruhan proses"
         },
         "fix": {
          "en": "It is the whole process only on the process track. Everywhere else, it is one door of several.",
-         "id": "Itu seluruh proses hanya di jalur proses. Di tempat lain, itu satu pintu di antara beberapa."
+         "id": "Portal adalah keseluruhan proses hanya di jalur proses. Di tempat lain, portal cuma satu pintu di antara beberapa."
         }
        }
       ]
@@ -620,17 +620,17 @@ window.MT_LMS['the-pack'] = {
       {
        "term": {
         "en": "Satisficer",
-        "id": "Satisficer (pemilih “cukup baik”)"
+        "id": "Satisficer (pemilih “cukup bagus”)"
        },
        "def": {
         "en": "Someone who chooses the first option that clearly meets the standard, rather than searching for the best possible option.",
-        "id": "Orang yang memilih opsi pertama yang jelas memenuhi standar, alih-alih mencari opsi terbaik yang mungkin."
+        "id": "Orang yang memilih opsi pertama yang jelas memenuhi standar, bukan terus mencari opsi terbaik yang mungkin ada."
        }
       },
       {
        "term": {
         "en": "Referral",
-        "id": "Rujukan (referensi internal)"
+        "id": "Rekomendasi (rujukan internal)"
        },
        "def": {
         "en": "A candidate introduced to an employer by someone who already works there.",
@@ -644,7 +644,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Someone vouching for your competence to a hiring team, without altering the process.",
-        "id": "Seseorang menjamin kompetensimu di hadapan tim perekrut, tanpa mengubah prosesnya."
+        "id": "Seseorang menjamin kemampuanmu di hadapan tim perekrut, tanpa mengubah prosesnya."
        }
       },
       {
@@ -654,7 +654,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "<i>Korupsi, Kolusi, Nepotisme</i>: corruption, collusion and nepotism: bypassing or fixing a process.",
-        "id": "<i>Korupsi, Kolusi, Nepotisme</i>: melewati atau mengatur hasil sebuah proses."
+        "id": "<i>Korupsi, Kolusi, Nepotisme</i>: menerobos atau mengatur hasil sebuah proses."
        }
       },
       {
@@ -664,7 +664,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A requirement that ends an application automatically if unmet, minimum GPA, maximum age, a document.",
-        "id": "Persyaratan yang otomatis menggugurkan lamaran jika tidak terpenuhi, IPK minimum, usia maksimum, sebuah dokumen."
+        "id": "Syarat yang otomatis menggugurkan lamaran kalau tidak terpenuhi: IPK minimum, usia maksimum, dokumen tertentu."
        }
       },
       {
@@ -674,7 +674,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The narrowing sequence of filters between the first application and the offer.",
-        "id": "Rangkaian saringan yang menyempit antara lamaran pertama dan tawaran."
+        "id": "Rangkaian saringan yang makin menyempit, dari lamaran pertama sampai tawaran."
        }
       }
      ],
@@ -682,41 +682,41 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "An FMCG company receives 18,000 applications for 40 management-trainee places. Which design will its first stage most likely use?",
-        "id": "Sebuah perusahaan FMCG menerima 18.000 lamaran untuk 40 kursi management trainee. Rancangan mana yang paling mungkin dipakai tahap pertamanya?"
+        "id": "Sebuah perusahaan FMCG menerima 18.000 lamaran untuk 40 kursi management trainee. Rancangan mana yang paling mungkin dipakai di tahap pertama?"
        },
        "options": [
         {
          "en": "A careful read of every CV by a senior manager",
-         "id": "Pembacaan cermat setiap CV oleh manajer senior"
+         "id": "Setiap CV dibaca cermat oleh manajer senior"
         },
         {
          "en": "Cheap, fast filters, form fields, knockout questions, software ranking, short skims, looking for reasons to discard",
-         "id": "Saringan murah dan cepat, kolom formulir, pertanyaan gugur, pemeringkatan perangkat lunak, pindaian singkat, mencari alasan untuk membuang"
+         "id": "Saringan murah dan cepat: isian formulir, pertanyaan gugur, pengurutan oleh sistem, pindaian singkat, sambil mencari alasan untuk membuang"
         },
         {
          "en": "Random selection",
-         "id": "Pemilihan acak"
+         "id": "Dipilih secara acak"
         },
         {
          "en": "A phone call to every applicant",
-         "id": "Panggilan telepon ke setiap pelamar"
+         "id": "Setiap pelamar ditelepon"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Volume forces cheap filters first. That is why early rejections reflect the document and channel, not your worth.",
-        "id": "Volume memaksa saringan murah lebih dulu. Itulah sebabnya penolakan awal mencerminkan dokumen dan saluran, bukan nilai dirimu."
+        "id": "Jumlah lamaran memaksa saringan murah dipakai lebih dulu. Itulah sebabnya penolakan awal mencerminkan dokumen dan salurannya, bukan nilai dirimu."
        }
       },
       {
        "q": {
         "en": "Which candidate is <i>lowest-risk</i> from a hiring manager’s point of view?",
-        "id": "Kandidat mana yang <i>paling rendah risikonya</i> dari sudut pandang manajer perekrut?"
+        "id": "Kandidat mana yang <i>paling kecil risikonya</i> dari sudut pandang manajer perekrut?"
        },
        "options": [
         {
          "en": "A stranger with a perfect GPA who applied online",
-         "id": "Orang asing dengan IPK sempurna yang melamar daring"
+         "id": "Orang asing dengan IPK sempurna yang melamar lewat portal"
         },
         {
          "en": "A former intern whose work the team saw for three months",
@@ -724,32 +724,32 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "A candidate with a well-designed two-column CV",
-         "id": "Kandidat dengan CV dua kolom yang dirancang apik"
+         "id": "Kandidat dengan CV dua kolom yang desainnya rapi"
         },
         {
          "en": "A candidate who applied to five roles at the company",
-         "id": "Kandidat yang melamar lima peran di perusahaan itu"
+         "id": "Kandidat yang melamar lima posisi sekaligus di perusahaan itu"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The top rung of the employer’s ladder is someone whose work they have already seen.",
-        "id": "Anak tangga teratas di tangga perusahaan adalah orang yang hasil kerjanya sudah mereka lihat."
+        "id": "Anak tangga teratas bagi perusahaan adalah orang yang hasil kerjanya sudah mereka lihat sendiri."
        }
       },
       {
        "q": {
         "en": "An alumnus at your target bank offers to “put in a word” with the programme coordinator. Which request stays on the right side of the advocacy/nepotism line?",
-        "id": "Seorang alumni di bank sasaranmu menawarkan untuk “bilang-bilang” ke koordinator program. Permintaan mana yang tetap berada di sisi yang benar dari garis advokasi/KKN?"
+        "id": "Seorang alumni di bank sasaranmu menawarkan diri untuk “bilang-bilang” ke koordinator program. Permintaan mana yang tetap berada di sisi advokasi, bukan KKN?"
        },
        "options": [
         {
          "en": "“Could you make sure my test score is overlooked?”",
-         "id": "“Bisa pastikan skor tesku diabaikan?”"
+         "id": "“Bisa pastikan skor tesku tidak dihitung?”"
         },
         {
          "en": "“Could you tell the coordinator I spoke with you and am applying? I’ll go through every stage like everyone else.”",
-         "id": "“Bisa sampaikan ke koordinator bahwa aku sudah bicara denganmu dan sedang melamar? Aku akan lewati setiap tahap seperti yang lain.”"
+         "id": "“Bisa sampaikan ke koordinator bahwa aku sudah bicara denganmu dan sedang melamar? Aku tetap ikut semua tahap seperti yang lain.”"
         },
         {
          "en": "“Could you get me into the final interview directly?”",
@@ -763,7 +763,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Advocacy adds information about you to a fair process; it never replaces or bends the process.",
-        "id": "Advokasi menambahkan informasi tentang dirimu ke proses yang adil; ia tidak pernah menggantikan atau membengkokkan proses."
+        "id": "Advokasi menambahkan informasi tentang dirimu ke proses yang adil; ia tidak pernah menggantikan atau membengkokkan prosesnya."
        }
       }
      ],
@@ -772,11 +772,11 @@ window.MT_LMS['the-pack'] = {
       "mode": "tracker",
       "title": {
        "en": "Start your pipeline",
-       "id": "Mulai alur lamaranmu"
+       "id": "Mulai pelacak lamaranmu"
       },
       "body": {
        "en": "Open the Pipeline Tracker and add every live application you have. Even the Easy Apply ones. Lesson 1.4 adds the leading-indicator columns; for now, just get the list out of your head.",
-       "id": "Buka Pelacak Alur dan masukkan setiap lamaran yang masih berjalan. Termasuk yang Easy Apply. Pelajaran 1.4 menambahkan kolom indikator penuntun; untuk sekarang, keluarkan saja daftarnya dari kepalamu."
+       "id": "Buka Pelacak Alur dan masukkan semua lamaran yang masih berjalan, termasuk yang lewat Easy Apply. Pelajaran 1.4 akan menambahkan kolom indikator penuntun; untuk sekarang, keluarkan saja daftarnya dari kepalamu."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -786,7 +786,7 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Employers want a good-enough, low-risk candidate found quickly, so be quick to evaluate and low-risk to hire.",
-       "id": "Perusahaan ingin kandidat yang cukup baik dan berisiko rendah, ditemukan dengan cepat; maka jadilah mudah dinilai dan rendah risiko untuk direkrut."
+       "id": "Perusahaan ingin kandidat yang cukup bagus, berisiko rendah, dan cepat ketemu; maka buat dirimu mudah dinilai dan aman untuk direkrut."
       },
       {
        "en": "Early rejections are document and channel problems, not verdicts on you.",
@@ -794,7 +794,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Employers prefer to hire people they or someone they trust has seen work; legitimate advocacy is earned, and it is open to you.",
-       "id": "Perusahaan lebih suka merekrut orang yang hasil kerjanya sudah mereka atau orang tepercaya lihat; advokasi yang sah diperoleh dengan usaha, dan terbuka untukmu."
+       "id": "Perusahaan lebih suka merekrut orang yang hasil kerjanya sudah dilihat oleh mereka atau orang yang mereka percaya; advokasi yang sah diperoleh dengan usaha, dan jalannya terbuka untukmu."
       }
      ],
      "resources": {
@@ -804,7 +804,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "Where the claims come from, so you can weigh them yourself. Page references are to the editions listed in the course bibliography.",
-       "id": "Dari mana klaim-klaim ini berasal, agar kamu bisa menimbangnya sendiri. Rujukan bab mengacu pada edisi yang tercantum di bibliografi kursus."
+       "id": "Dari mana klaim-klaim di pelajaran ini berasal, supaya kamu bisa menimbangnya sendiri. Rujukan bab mengacu pada edisi yang tercantum di daftar pustaka kursus."
       },
       "items": [
        {
@@ -820,23 +820,23 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (2008 ed.), ch. 2; the two ladders; every interaction as a work sample.",
-          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (2008 ed.), bab 2; dua tangga; setiap interaksi sebagai contoh kerja."
+          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (ed. 2008), bab 2; dua tangga; setiap interaksi sebagai contoh kerja."
          },
          {
           "en": "S. Dalton, <i>The 2-Hour Job Search</i> (2nd ed., 2020), introduction and ch. 7, satisficing hiring managers; the referral-to-posting illustration (single organisation, dated); the “rejection after the offer” story.",
-          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (2nd ed., 2020), pendahuluan dan bab 7, manajer perekrut yang satisficing; ilustrasi rujukan-vs-lowongan (satu organisasi, lawas); kisah “penolakan setelah tawaran”."
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), pendahuluan dan bab 7; manajer perekrut yang memilih “cukup bagus”; gambaran rekomendasi vs lowongan (satu organisasi, lawas); kisah “penolakan setelah tawaran”."
          },
          {
           "en": "S. Verma, <i>Job Search Secrets</i> (2022), ch. 3, referral as the largest channel in an Indian employer survey (indicative).",
-          "id": "S. Verma, <i>Job Search Secrets</i> (2022), bab 3, rujukan sebagai saluran terbesar dalam survei perusahaan India (indikatif)."
+          "id": "S. Verma, <i>Job Search Secrets</i> (2022), bab 3; rekomendasi sebagai saluran terbesar dalam survei perusahaan India (indikatif)."
          },
          {
           "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 1; how screeners read for reasons to reject.",
-          "id": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), bab 1; cara penyaring membaca untuk mencari alasan menolak."
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 1; cara penyaring membaca sambil mencari alasan menolak."
          },
          {
           "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 18, the common grounds for discarding a CV.",
-          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 18, alasan-alasan umum sebuah CV dibuang."
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 18; alasan-alasan umum sebuah CV dibuang."
          }
         ]
        }
@@ -853,28 +853,28 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "The Recruitment Railway and the Two Tracks",
-      "id": "Rel Rekrutmen dan Dua Jalur"
+      "id": "Rel Rekrutmen dan Dua Jalurnya"
      },
      "overview": {
       "en": "A recruitment process is a railway line of stations, and each station checks for something different. This lesson maps all thirteen, explains what each is filtering for, and shows how the line differs between process-track programmes and network-track employers.",
-      "id": "Proses rekrutmen adalah jalur rel dengan stasiun-stasiun, dan setiap stasiun memeriksa hal yang berbeda. Pelajaran ini memetakan ketiga belas stasiun, menjelaskan apa yang disaring masing-masing, dan menunjukkan bagaimana jalurnya berbeda antara program jalur proses dan perusahaan jalur jejaring."
+      "id": "Bayangkan proses rekrutmen sebagai jalur kereta dengan deretan stasiun, dan di setiap stasiun ada pemeriksaan yang berbeda. Pelajaran ini memetakan ketiga belas stasiun itu, menjelaskan apa yang disaring di masing-masing, dan menunjukkan betapa berbedanya jalur itu antara program bertahap dan perusahaan yang merekrut lewat jejaring."
      },
      "objectives": [
       {
        "en": "Name the thirteen stages from need to onboarding and state what each one filters for.",
-       "id": "Menyebutkan tiga belas tahap dari kebutuhan sampai orientasi, dan menyatakan apa yang disaring masing-masing."
+       "id": "Menyebutkan tiga belas tahap, dari kebutuhan sampai orientasi, dan apa yang disaring di masing-masing."
       },
       {
        "en": "Classify any vacancy as <b>process-track</b> or <b>network-track</b> and adjust your approach accordingly.",
-       "id": "Menggolongkan lowongan apa pun sebagai <b>jalur proses</b> atau <b>jalur jejaring</b> dan menyesuaikan pendekatanmu."
+       "id": "Menggolongkan lowongan apa pun ke <b>jalur proses</b> atau <b>jalur jejaring</b>, lalu menyesuaikan pendekatanmu."
       },
       {
        "en": "Interpret silences and rejections using the list of reasons that have nothing to do with you.",
-       "id": "Menafsirkan keheningan dan penolakan dengan daftar alasan yang tidak ada hubungannya denganmu."
+       "id": "Membaca kabar yang tak kunjung datang dan penolakan dengan daftar alasan yang tidak ada hubungannya denganmu."
       },
       {
        "en": "Identify the three moments where a candidate has the most leverage.",
-       "id": "Mengenali tiga momen ketika kandidat punya pengaruh terbesar."
+       "id": "Mengenali tiga momen ketika kandidat punya pengaruh paling besar."
       }
      ],
      "readFirst": {
@@ -888,17 +888,17 @@ window.MT_LMS['the-pack'] = {
         "n": "1.2",
         "title": {
          "en": "The Recruitment Railway and the Two Tracks",
-         "id": "Rel Rekrutmen dan Dua Jalur"
+         "id": "Rel Rekrutmen dan Dua Jalurnya"
         }
        },
        "story": [
         {
          "en": "Thirteen stations, one question each",
-         "id": "Tiga belas stasiun, satu pertanyaan masing-masing"
+         "id": "Tiga belas stasiun, satu pertanyaan di tiap stasiun"
         },
         {
          "en": "The line runs on two different tracks, and most graduates need to run both at once",
-         "id": "Jalurnya berjalan di dua rel berbeda, dan kebanyakan lulusan perlu menjalankan keduanya sekaligus"
+         "id": "Jalur ini berjalan di dua rel yang berbeda, dan kebanyakan lulusan baru perlu menjalankan keduanya sekaligus"
         },
         {
          "en": "You have real influence at three points along the line, and almost none in between",
@@ -909,11 +909,11 @@ window.MT_LMS['the-pack'] = {
         {
          "h": {
           "en": "Thirteen stations, one question each",
-          "id": "Tiga belas stasiun, satu pertanyaan masing-masing"
+          "id": "Tiga belas stasiun, satu pertanyaan di tiap stasiun"
          },
          "p": {
           "en": "Thirteen stations, one question each",
-          "id": "Tiga belas stasiun, satu pertanyaan masing-masing"
+          "id": "Tiga belas stasiun, satu pertanyaan di tiap stasiun"
          }
         },
         {
@@ -923,7 +923,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Three or four “yes” answers: process track. One or none: network track. Two: read the posting again.",
-          "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lowongannya lagi."
+          "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lagi lowongannya."
          }
         },
         {
@@ -933,7 +933,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Silence after applying is mostly about the channel, not about you: internal candidates, frozen budgets, redefined roles and slow approvals explain most of it.",
-          "id": "Keheningan setelah melamar sebagian besar soal salurannya, bukan dirimu: kandidat internal, anggaran beku, peran yang didefinisikan ulang, dan persetujuan lambat menjelaskan sebagian besarnya."
+          "id": "Sunyi setelah melamar biasanya soal salurannya, bukan dirimu: kandidat internal, anggaran yang dibekukan, posisi yang dirombak, dan persetujuan yang lambat menjelaskan sebagian besarnya."
          }
         }
        ],
@@ -942,7 +942,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Thirteen stations, one question each",
-          "id": "Tiga belas stasiun, satu pertanyaan masing-masing"
+          "id": "Tiga belas stasiun, satu pertanyaan di tiap stasiun"
          },
          "img": "../../assets/bg/fg-stage-ascent.jpg",
          "layout": "journey",
@@ -950,7 +950,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "mic",
            "en": "A role opens",
-           "id": "Posisi terbuka"
+           "id": "Ada posisi kosong"
           },
           {
            "icon": "search",
@@ -1010,17 +1010,17 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "grid",
            "en": "Offer and you start",
-           "id": "Tawaran dan kamu mulai"
+           "id": "Tawaran, dan kamu mulai kerja"
           }
          ],
          "sub": {
           "en": "From “a role opens” to “you start”, most processes pass through up to thirteen stations. Each one filters for something specific. Prepare for the filter, not the station name.",
-          "id": "Dari “sebuah posisi terbuka” sampai “kamu mulai bekerja”, kebanyakan proses melewati hingga tiga belas stasiun. Masing-masing menyaring sesuatu yang spesifik. Siapkan diri untuk saringannya, bukan nama stasiunnya."
+          "id": "Dari “ada posisi kosong” sampai “kamu mulai kerja”, kebanyakan proses melewati sampai tiga belas stasiun. Tiap stasiun menyaring satu hal yang spesifik. Siapkan diri untuk saringannya, bukan untuk nama stasiunnya."
          },
          "strip": {
           "h": {
            "en": "Each station filters for something specific, including:",
-           "id": "Setiap stasiun menyaring sesuatu yang spesifik, termasuk:"
+           "id": "Tiap stasiun menyaring satu hal yang spesifik, di antaranya:"
           },
           "items": [
            {
@@ -1035,7 +1035,7 @@ window.MT_LMS['the-pack'] = {
            {
             "icon": "filter",
             "en": "Hard eligibility",
-            "id": "Kelayakan mutlak",
+            "id": "Syarat mutlak",
             "d": {
              "en": "GPA, age, major, documents",
              "id": "IPK, usia, jurusan, dokumen"
@@ -1056,7 +1056,7 @@ window.MT_LMS['the-pack'] = {
             "id": "Penalaran",
             "d": {
              "en": "How do you think under a clock?",
-             "id": "Bagaimana kamu berpikir di bawah waktu?"
+             "id": "Bagaimana kamu berpikir di bawah tekanan waktu?"
             }
            },
            {
@@ -1065,7 +1065,7 @@ window.MT_LMS['the-pack'] = {
             "id": "Kolaborasi",
             "d": {
              "en": "How do you work with others?",
-             "id": "Bagaimana kamu bekerja dengan orang lain?"
+             "id": "Bagaimana kamu bekerja bersama orang lain?"
             }
            },
            {
@@ -1083,7 +1083,7 @@ window.MT_LMS['the-pack'] = {
             "id": "Kemampuan",
             "d": {
              "en": "Can you do this job?",
-             "id": "Bisakah kamu mengerjakan pekerjaan ini?"
+             "id": "Sanggupkah kamu mengerjakan pekerjaan ini?"
             }
            },
            {
@@ -1099,14 +1099,14 @@ window.MT_LMS['the-pack'] = {
          },
          "em": {
           "en": "one question each",
-          "id": "satu pertanyaan masing-masing"
+          "id": "satu pertanyaan di tiap stasiun"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "The line runs on two different tracks, and most graduates need to run both at once",
-          "id": "Jalurnya berjalan di dua rel berbeda, dan kebanyakan lulusan perlu menjalankan keduanya sekaligus"
+          "id": "Jalur ini berjalan di dua rel yang berbeda, dan kebanyakan lulusan baru perlu menjalankan keduanya sekaligus"
          },
          "cols": [
           {
@@ -1122,22 +1122,22 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "clock",
              "en": "Fixed windows: registration opens and closes on published dates, often once a year",
-             "id": "Jendela tetap: pendaftaran buka dan tutup pada tanggal yang diumumkan, sering setahun sekali"
+             "id": "Jadwal tetap: pendaftaran dibuka dan ditutup pada tanggal yang diumumkan, biasanya setahun sekali"
             },
             {
              "icon": "filter",
              "en": "Hard eligibility rules: age, GPA, major, graduation year, English score (verify each cycle)",
-             "id": "Syarat kelayakan mutlak: usia, IPK, jurusan, tahun lulus, skor Inggris (verifikasi tiap siklus)"
+             "id": "Syarat mutlak: usia, IPK, jurusan, tahun lulus, skor bahasa Inggris (cek tiap siklus)"
             },
             {
              "icon": "clipboard",
              "en": "Heavy administrative screening and standardised tests",
-             "id": "Seleksi administrasi ketat dan tes terstandar"
+             "id": "Seleksi administrasi yang ketat dan tes terstandar"
             },
             {
              "icon": "x",
              "en": "Low referral influence",
-             "id": "Pengaruh rujukan rendah"
+             "id": "Pengaruh rekomendasi kecil"
             }
            ],
            "icon": "calendar"
@@ -1149,28 +1149,28 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "Just-in-time hiring",
-            "id": "Rekrutmen saat dibutuhkan"
+            "id": "Merekrut saat butuh"
            },
            "items": [
             {
              "icon": "bolt",
              "en": "A role opens, the manager asks around, and it is often filled within weeks",
-             "id": "Posisi terbuka, manajer bertanya ke sekitar, dan sering terisi dalam hitungan minggu"
+             "id": "Ada posisi kosong, manajernya bertanya ke kanan-kiri, dan posisi itu sering terisi dalam hitungan minggu"
             },
             {
              "icon": "phone",
              "en": "Postings may appear only on LinkedIn, Instagram or a WhatsApp broadcast, or never",
-             "id": "Lowongan mungkin hanya muncul di LinkedIn, Instagram, atau siaran WhatsApp, atau tidak sama sekali"
+             "id": "Lowongan mungkin hanya muncul di LinkedIn, Instagram, atau siaran WhatsApp, atau tidak muncul sama sekali"
             },
             {
              "icon": "handshake",
              "en": "Referral-heavy: be known before the posting",
-             "id": "Bertumpu pada rujukan: dikenal sebelum lowongan"
+             "id": "Mengandalkan rekomendasi: sudah dikenal sebelum lowongan ada"
             },
             {
              "icon": "arrow",
              "en": "Fast: the posting is the formal step after a conversation",
-             "id": "Cepat: lowongan adalah langkah formal setelah percakapan"
+             "id": "Cepat: lowongan adalah langkah formal setelah obrolan"
             }
            ],
            "icon": "users"
@@ -1181,11 +1181,11 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "Four questions tell you which track a vacancy is on: a published closing date, a named cohort, numerical eligibility rules, a multi-stage test battery.",
-          "id": "Empat pertanyaan memberitahu jalur sebuah lowongan: tanggal tutup yang diumumkan, angkatan bernama, syarat numerik, rangkaian tes bertahap."
+          "id": "Empat pertanyaan menunjukkan jalur sebuah lowongan: tanggal tutup yang diumumkan, angkatan yang bernama, syarat berupa angka, rangkaian tes bertahap."
          },
          "band": {
           "en": "Three or four “yes” answers: process track. One or none: network track. Two: read the posting again.",
-          "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lowongannya lagi."
+          "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lagi lowongannya."
          },
          "em": {
           "en": "run both at once",
@@ -1207,22 +1207,22 @@ window.MT_LMS['the-pack'] = {
            "id": "Sebelum melamar",
            "d": {
             "en": "Conversations that make you known and give you information competitors lack (Module 2).",
-            "id": "Percakapan yang membuatmu dikenal dan memberimu informasi yang tidak dimiliki pesaing (Modul 2)."
+            "id": "Obrolan yang membuatmu dikenal dan memberimu informasi yang tidak dimiliki pesaing (Modul 2)."
            }
           },
           {
            "icon": "pen",
            "en": "At the paper gate",
-           "id": "Di gerbang kertas",
+           "id": "Di gerbang dokumen",
            "d": {
             "en": "Tailoring and precision convert far more often than volume; this is where The Pack does its work (Modules 3–6).",
-            "id": "Penyesuaian dan ketelitian jauh lebih sering berhasil daripada volume; di sinilah The Pack bekerja (Modul 3–6)."
+            "id": "Penyesuaian dan ketelitian jauh lebih sering membuahkan hasil daripada jumlah; di sinilah The Pack bekerja (Modul 3–6)."
            }
           },
           {
            "icon": "handshake",
            "en": "After each conversation",
-           "id": "Setelah setiap percakapan",
+           "id": "Setelah setiap obrolan",
            "d": {
             "en": "Follow-through that turns contacts into advocates (Module 9).",
             "id": "Tindak lanjut yang mengubah kenalan menjadi pendukung (Modul 9)."
@@ -1231,11 +1231,11 @@ window.MT_LMS['the-pack'] = {
          ],
          "sub": {
           "en": "A search organised around the three leverage points feels calmer: it separates the hours where effort changes the outcome from the hours where it does not.",
-          "id": "Pencarian yang disusun di sekitar tiga titik daya ungkit terasa lebih tenang: ia memisahkan jam ketika usaha mengubah hasil dari jam ketika tidak."
+          "id": "Pencarian yang disusun di sekitar tiga titik daya ungkit terasa lebih tenang: ia memisahkan jam-jam ketika usaha mengubah hasil dari jam-jam ketika usaha tidak mengubah apa-apa."
          },
          "band": {
           "en": "Silence after applying is mostly about the channel, not about you: internal candidates, frozen budgets, redefined roles and slow approvals explain most of it.",
-          "id": "Keheningan setelah melamar sebagian besar soal salurannya, bukan dirimu: kandidat internal, anggaran beku, peran yang didefinisikan ulang, dan persetujuan lambat menjelaskan sebagian besarnya."
+          "id": "Sunyi setelah melamar biasanya soal salurannya, bukan dirimu: kandidat internal, anggaran yang dibekukan, posisi yang dirombak, dan persetujuan yang lambat menjelaskan sebagian besarnya."
          },
          "em": {
           "en": "three points",
@@ -1258,26 +1258,26 @@ window.MT_LMS['the-pack'] = {
       },
       "intro": {
        "en": "Three ideas before the detail: the line has thirteen stations, it runs on two different tracks, and you only have real influence at three points along it.",
-       "id": "Tiga gagasan sebelum detailnya: jalurnya punya tiga belas stasiun, berjalan di dua jalur yang berbeda, dan kamu hanya punya pengaruh nyata di tiga titik sepanjang jalur itu."
+       "id": "Tiga gagasan sebelum masuk ke rincian: jalurnya punya tiga belas stasiun, berjalan di dua jalur yang berbeda, dan kamu hanya punya pengaruh nyata di tiga titik sepanjang perjalanan."
       },
       "slides": [
        {
         "h": {
          "en": "Thirteen stations, one question each",
-         "id": "Tiga belas stasiun, satu pertanyaan masing-masing"
+         "id": "Tiga belas stasiun, satu pertanyaan di tiap stasiun"
         },
         "points": [
          {
           "en": "From “a role opens” to “you start”, most processes pass through up to thirteen stations.",
-          "id": "Dari “sebuah posisi terbuka” sampai “kamu mulai bekerja”, kebanyakan proses melewati hingga tiga belas stasiun."
+          "id": "Dari “ada posisi kosong” sampai “kamu mulai kerja”, kebanyakan proses melewati sampai tiga belas stasiun."
          },
          {
           "en": "Each one filters for something specific: completeness, hard eligibility, relevance, reasoning, collaboration, fit, capability, risk.",
-          "id": "Masing-masing menyaring sesuatu yang spesifik: kelengkapan, kelayakan mutlak, relevansi, penalaran, kolaborasi, kecocokan, kemampuan, risiko."
+          "id": "Tiap stasiun menyaring satu hal yang spesifik: kelengkapan, syarat mutlak, relevansi, penalaran, kerja sama, kecocokan, kemampuan, risiko."
          },
          {
           "en": "Prepare for the filter, not the station name.",
-          "id": "Siapkan diri untuk saringannya, bukan nama stasiunnya."
+          "id": "Siapkan diri untuk saringannya, bukan untuk nama stasiunnya."
          }
         ]
        },
@@ -1289,15 +1289,15 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "<b>Process track:</b> fixed windows, hard eligibility rules, heavy administrative screening, standardised tests, low referral influence.",
-          "id": "<b>Jalur proses:</b> jendela tetap, syarat kelayakan mutlak, seleksi administrasi ketat, tes terstandar, pengaruh rujukan rendah."
+          "id": "<b>Jalur proses:</b> jadwal pendaftaran tetap, syarat mutlak, seleksi administrasi ketat, tes terstandar, pengaruh rekomendasi kecil."
          },
          {
           "en": "<b>Network track:</b> just-in-time hiring, postings that may never reach a job board, referral-heavy, fast.",
-          "id": "<b>Jalur jejaring:</b> rekrutmen saat dibutuhkan, lowongan yang mungkin tidak pernah sampai ke situs lowongan, bertumpu pada rujukan, cepat."
+          "id": "<b>Jalur jejaring:</b> merekrut saat butuh, lowongan yang mungkin tak pernah sampai ke situs lowongan, mengandalkan rekomendasi, cepat."
          },
          {
           "en": "Most graduates need to run both at once.",
-          "id": "Kebanyakan lulusan perlu menjalankan keduanya sekaligus."
+          "id": "Kebanyakan lulusan baru perlu menjalankan keduanya sekaligus."
          }
         ]
        },
@@ -1309,15 +1309,15 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "<b>Before applying</b>: conversations that make you known and better informed.",
-          "id": "<b>Sebelum melamar</b>: percakapan yang membuatmu dikenal dan lebih paham."
+          "id": "<b>Sebelum melamar</b>: obrolan yang membuatmu dikenal dan lebih tahu."
          },
          {
           "en": "<b>At the paper gate</b>: tailoring and precision, where The Pack does its work.",
-          "id": "<b>Di gerbang dokumen</b>: penyesuaian dan ketelitian, tempat The Pack bekerja."
+          "id": "<b>Di gerbang dokumen</b>: penyesuaian dan ketelitian, di sinilah The Pack bekerja."
          },
          {
           "en": "<b>After each conversation</b>: follow-through that turns contacts into advocates.",
-          "id": "<b>Setelah setiap percakapan</b>: tindak lanjut yang mengubah kenalan menjadi pendukung."
+          "id": "<b>Setelah setiap obrolan</b>: tindak lanjut yang mengubah kenalan menjadi pendukung."
          }
         ]
        }
@@ -1334,7 +1334,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Here is the whole line, with the filter at each stop and who controls it. Not every employer uses every station, and some merge them; a startup may go from station 6 straight to station 10. But almost every process you meet will be a subset of this list, in roughly this order.",
-        "id": "Inilah seluruh jalurnya, dengan saringan di setiap perhentian dan siapa yang mengendalikannya. Tidak setiap perusahaan memakai semua stasiun, dan sebagian menggabungkannya; sebuah startup bisa melompat dari stasiun 6 langsung ke stasiun 10. Tetapi hampir setiap proses yang kamu temui adalah himpunan bagian dari daftar ini, dengan urutan yang kurang lebih sama."
+        "id": "Inilah seluruh jalurnya, lengkap dengan saringan di tiap perhentian dan siapa yang memegang kendali. Tidak semua perusahaan memakai semua stasiun, dan sebagian menggabungkannya; sebuah startup bisa saja melompat dari stasiun 6 langsung ke stasiun 10. Tetapi hampir semua proses yang akan kamu temui adalah cuplikan dari daftar ini, dengan urutan yang kurang lebih sama."
        },
        "table": {
         "cols": [
@@ -1348,11 +1348,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "What it filters for",
-          "id": "Apa yang disaring"
+          "id": "Yang disaring"
          },
          {
           "en": "Who controls it",
-          "id": "Siapa yang mengendalikan"
+          "id": "Yang memegang kendali"
          }
         ],
         "rows": [
@@ -1363,7 +1363,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Need</b>: a role opens (growth, resignation, new project)",
-           "id": "<b>Kebutuhan</b>: posisi terbuka (pertumbuhan, pengunduran diri, proyek baru)"
+           "id": "<b>Kebutuhan</b>: ada posisi kosong (pertumbuhan, pengunduran diri, proyek baru)"
           },
           {
            "en": "",
@@ -1381,11 +1381,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Internal search</b>: internal posting, referrals, known interns",
-           "id": "<b>Pencarian internal</b>: lowongan internal, rujukan, anak magang yang dikenal"
+           "id": "<b>Pencarian internal</b>: lowongan internal, rekomendasi, anak magang yang sudah dikenal"
           },
           {
            "en": "Trust, proven fit",
-           "id": "Kepercayaan, kecocokan yang terbukti"
+           "id": "Kepercayaan, kecocokan yang sudah terbukti"
           },
           {
            "en": "Manager, team",
@@ -1421,7 +1421,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Completeness, basic eligibility",
-           "id": "Kelengkapan, kelayakan dasar"
+           "id": "Kelengkapan, syarat dasar"
           },
           {
            "en": "Candidate",
@@ -1493,7 +1493,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Collaboration, structured thinking",
-           "id": "Kolaborasi, berpikir terstruktur"
+           "id": "Kerja sama, cara berpikir yang terstruktur"
           },
           {
            "en": "Assessors",
@@ -1547,7 +1547,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Senior sign-off, culture",
-           "id": "Persetujuan senior, budaya"
+           "id": "Restu pimpinan, budaya"
           },
           {
            "en": "Leadership",
@@ -1595,12 +1595,12 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "Stations 1–3 happen before you ever see the job. Stations 4–7 are the <b>paper gate</b>: everything judged without you in the room. That is The Pack. Stations 8–11 are the <b>human gate</b>: everything judged with you present. That is The Rope. Stations 12–13 are checks and the offer.",
-         "id": "Stasiun 1–3 terjadi sebelum kamu melihat lowongannya. Stasiun 4–7 adalah <b>gerbang dokumen</b>: semua yang dinilai tanpa kehadiranmu di ruangan. Itulah The Pack. Stasiun 8–11 adalah <b>gerbang manusia</b>: semua yang dinilai dengan kehadiranmu. Itulah The Rope. Stasiun 12–13 adalah pemeriksaan dan tawaran."
+         "id": "Stasiun 1–3 terjadi sebelum kamu melihat lowongannya. Stasiun 4–7 adalah <b>gerbang dokumen</b>: semua dinilai tanpa kamu di ruangan. Di sinilah The Pack. Stasiun 8–11 adalah <b>gerbang manusia</b>: semua dinilai dengan kamu hadir. Di sinilah The Rope. Stasiun 12–13 adalah pemeriksaan dan tawaran."
         }
        ],
        "key": {
         "en": "Every station filters for something different; knowing which one you are at tells you what is being judged.",
-        "id": "Setiap stasiun menyaring hal yang berbeda; tahu di stasiun mana kamu berada memberi tahu apa yang sedang dinilai."
+        "id": "Tiap stasiun menyaring hal yang berbeda; kalau kamu tahu sedang berada di stasiun mana, kamu tahu apa yang sedang dinilai."
        }
       },
       {
@@ -1613,38 +1613,38 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "In most markets, some of the most sought-after entry points run as <b>programmes</b> with fixed calendars rather than as rolling vacancies: graduate schemes and management-trainee intakes at large corporates, officer and analyst development programmes at banks, public-sector and civil-service selection, and the structured campus-recruiting cycles of consulting, technology and professional-services firms. Their names and rules differ from country to country, but they share five features, set out below. Not every employer runs all five, and a civil service weights them differently from a start-up, but when you see three or more together you are on the process track.",
-        "id": "Di kebanyakan pasar, sebagian pintu masuk yang paling diburu berjalan sebagai <b>program</b> dengan kalender tetap, bukan lowongan yang dibuka sewaktu-waktu: skema lulusan dan angkatan management trainee di korporasi besar, program pengembangan officer dan analis di bank, seleksi sektor publik dan pegawai negeri, serta siklus rekrutmen kampus yang terstruktur di firma konsultan, teknologi, dan jasa profesional. Nama dan aturannya berbeda dari satu negara ke negara lain, tetapi semuanya berbagi lima ciri di bawah ini. Tidak semua perusahaan menjalankan kelimanya, dan instansi pemerintah menimbangnya berbeda dari perusahaan rintisan, tetapi ketika kamu melihat tiga ciri atau lebih sekaligus, kamu berada di jalur proses."
+        "id": "Di kebanyakan pasar kerja, sebagian pintu masuk yang paling diburu berbentuk <b>program</b> dengan kalender tetap, bukan lowongan yang dibuka sewaktu-waktu: program lulusan baru dan angkatan management trainee di korporasi besar, program pengembangan officer dan analis di bank, seleksi pegawai negeri dan sektor publik, serta siklus rekrutmen kampus yang terstruktur di firma konsultan, teknologi, dan jasa profesional. Nama dan aturannya berbeda di tiap negara, tetapi lima cirinya sama. Tidak semua perusahaan menjalankan kelimanya, dan instansi pemerintah menimbangnya berbeda dari startup. Namun begitu kamu melihat tiga ciri atau lebih sekaligus, kamu sedang berada di jalur proses."
        },
        "after": [
         {
          "en": "Dalton notes that hard public deadlines are one of the few cases where prompt online application is simply correct <i>(Dalton, ch. 7)</i>. Conversations still help here, for information about what the assessment day is like, but they will not move your application through a gate.",
-         "id": "Dalton mencatat bahwa tenggat publik yang keras adalah salah satu dari sedikit kasus ketika melamar daring dengan cepat memang tepat <i>(Dalton, bab 7)</i>. Percakapan tetap membantu di sini, untuk informasi tentang seperti apa hari asesmennya, tetapi tidak akan menggerakkan lamaranmu melewati gerbang."
+         "id": "Dalton mencatat bahwa tenggat publik yang kaku adalah salah satu dari sedikit situasi ketika segera melamar daring memang langkah yang benar <i>(Dalton, bab 7)</i>. Obrolan tetap berguna di sini, misalnya untuk tahu seperti apa hari asesmennya, tetapi tidak akan mendorong berkasmu melewati gerbang."
         }
        ],
        "key": {
         "en": "Programmes with fixed windows reward calendars, precision and test preparation, not a word from inside.",
-        "id": "Program dengan jendela tetap menghargai kalender, ketelitian, dan persiapan tes, bukan bisikan dari dalam."
+        "id": "Program dengan jadwal tetap menghargai kalender, ketelitian, dan persiapan tes, bukan bisikan dari dalam."
        },
        "bullets": [
         {
          "en": "<b>Fixed windows.</b> Registration opens and closes on published dates, often once or twice a year and timed to the academic calendar.",
-         "id": "<b>Jendela tetap.</b> Pendaftaran dibuka dan ditutup pada tanggal yang diumumkan, sering sekali atau dua kali setahun dan mengikuti kalender akademik."
+         "id": "<b>Jadwal tetap.</b> Pendaftaran dibuka dan ditutup pada tanggal yang diumumkan, biasanya sekali atau dua kali setahun mengikuti kalender akademik."
         },
         {
          "en": "<b>Hard eligibility rules.</b> Graduation year or years since graduation, degree level or discipline, a minimum grade, sometimes a language score or work-authorisation status. The specifics differ by country and employer, so <span class=\"ev ev-verify\">verify each cycle</span>.",
-         "id": "<b>Syarat kelayakan mutlak.</b> Tahun lulus atau lama sejak lulus, jenjang atau bidang studi, nilai minimum, kadang skor bahasa atau status izin kerja. Rinciannya berbeda antarnegara dan antarperusahaan, jadi <span class=\"ev ev-verify\">periksa tiap siklus</span>."
+         "id": "<b>Syarat mutlak.</b> Tahun lulus atau lama sejak lulus, jenjang atau bidang studi, nilai minimum, kadang skor bahasa atau status izin kerja. Rinciannya berbeda di tiap negara dan perusahaan, jadi <span class=\"ev ev-verify\">cek setiap siklus</span>."
         },
         {
          "en": "<b>Heavy administrative screening.</b> An incomplete form, a missing document or an unanswered knockout question can end an application before anyone reads it.",
-         "id": "<b>Seleksi administrasi yang ketat.</b> Formulir yang tidak lengkap, dokumen yang hilang, atau pertanyaan gugur yang tidak dijawab bisa mengakhiri lamaran sebelum ada yang membacanya."
+         "id": "<b>Seleksi administrasi yang ketat.</b> Formulir yang tidak lengkap, dokumen yang kurang, atau pertanyaan gugur yang tak dijawab bisa mengakhiri lamaran sebelum ada yang membacanya."
         },
         {
          "en": "<b>Standardised online tests at scale.</b> Numerical, verbal and logical reasoning, situational judgement, sometimes game-based assessments, scored the same way for everyone.",
-         "id": "<b>Tes daring terstandar dalam skala besar.</b> Penalaran numerik, verbal, dan logis, penilaian situasional, kadang asesmen berbasis permainan, dinilai dengan cara yang sama untuk semua."
+         "id": "<b>Tes daring terstandar dalam jumlah besar.</b> Penalaran numerik, verbal, dan logika, penilaian situasional, kadang asesmen berbentuk permainan, semuanya dinilai dengan cara yang sama untuk semua orang."
         },
         {
          "en": "<b>Low referral influence.</b> The process is designed to be formal, consistent and auditable, so a good word from inside rarely moves a file through a gate.",
-         "id": "<b>Pengaruh rujukan rendah.</b> Prosesnya dirancang formal, konsisten, dan dapat diaudit, sehingga kata baik dari dalam jarang menggerakkan berkas melewati gerbang."
+         "id": "<b>Pengaruh rekomendasi kecil.</b> Prosesnya sengaja dibuat formal, konsisten, dan bisa diaudit, sehingga kata baik dari orang dalam jarang bisa meloloskan berkas."
         }
        ],
        "flow": {
@@ -1660,17 +1660,17 @@ window.MT_LMS['the-pack'] = {
           },
           "sub": {
            "en": "Months ahead. Windows are published, short and rarely reopened.",
-           "id": "Berbulan-bulan sebelumnya. Jendela diumumkan, singkat, dan jarang dibuka lagi."
+           "id": "Berbulan-bulan sebelumnya. Jadwalnya diumumkan, singkat, dan jarang dibuka lagi."
           }
          },
          {
           "h": {
            "en": "Meet every requirement to the letter",
-           "id": "Penuhi setiap syarat sampai huruf terakhir"
+           "id": "Penuhi setiap syarat sampai ke detail terkecil"
           },
           "sub": {
            "en": "Eligibility is binary at this gate; near misses are misses.",
-           "id": "Kelayakan bersifat biner di gerbang ini; nyaris memenuhi berarti tidak memenuhi."
+           "id": "Di gerbang ini syarat hanya punya dua jawaban, lolos atau tidak; nyaris memenuhi berarti tidak memenuhi."
           }
          },
          {
@@ -1690,7 +1690,7 @@ window.MT_LMS['the-pack'] = {
           },
           "sub": {
            "en": "Complete and correct beats early. Build the deadline into your week.",
-           "id": "Lengkap dan benar mengalahkan lebih awal. Masukkan tenggatnya ke dalam pekanmu."
+           "id": "Lengkap dan benar lebih penting daripada paling awal. Masukkan tenggatnya ke jadwal mingguanmu."
           }
          }
         ]
@@ -1704,28 +1704,28 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Most private employers, startups and SMEs hire <b>just in time</b>: a role opens, the manager asks around, a posting goes up, and the role is often filled within weeks, frequently by someone who was referred or already known. Postings on this track may appear only on LinkedIn, the company’s Instagram, or a WhatsApp broadcast, and some are filled before any posting exists. The winning behaviours differ: be known <i>before</i> the posting (Module 2), keep a small set of relationships warm, move quickly when a role appears, and use the posting as the formal step after a conversation rather than the first contact.",
-        "id": "Kebanyakan perusahaan swasta, startup, dan UKM (unit kegiatan mahasiswa) merekrut <b>saat dibutuhkan</b>: posisi terbuka, manajer bertanya ke sana kemari, lowongan dipasang, dan posisi sering terisi dalam hitungan minggu, kerap oleh orang yang dirujuk atau sudah dikenal. Lowongan di jalur ini mungkin hanya muncul di LinkedIn, Instagram perusahaan, atau siaran WhatsApp, dan sebagian terisi sebelum lowongan apa pun dipasang. Perilaku yang menang berbeda: dikenal <i>sebelum</i> lowongan ada (Modul 2), menjaga sekumpulan kecil hubungan tetap hangat, bergerak cepat saat posisi muncul, dan memakai lowongan sebagai langkah formal setelah percakapan, bukan sebagai kontak pertama."
+        "id": "Kebanyakan perusahaan swasta, startup, dan UKM (usaha kecil dan menengah) merekrut <b>saat butuh</b>: ada posisi kosong, manajernya bertanya ke kanan-kiri, lowongan dipasang, dan posisi sering terisi dalam hitungan minggu, biasanya oleh orang yang direkomendasikan atau sudah dikenal. Lowongan di jalur ini mungkin hanya muncul di LinkedIn, Instagram perusahaan, atau siaran WhatsApp, dan sebagian sudah terisi sebelum lowongannya dipasang. Perilaku yang menang pun berbeda: sudah dikenal <i>sebelum</i> lowongan ada (Modul 2), menjaga beberapa hubungan tetap hangat, bergerak cepat begitu posisi muncul, dan memakai lowongan sebagai langkah formal setelah obrolan, bukan sebagai kontak pertama."
        },
        "after": [
         {
          "en": "KilatPay, the fictional fintech in this module, is a textbook network-track employer: its Business Operations Associate role was mentioned in a team meeting two weeks before it was posted, and the hiring manager had already spoken to two referred candidates by the time the posting went live. That is not unfair; it is how a 60-person company that needs someone next month behaves.",
-         "id": "KilatPay, fintech fiktif dalam modul ini, adalah contoh klasik perusahaan jalur jejaring: peran Business Operations Associate-nya disebut dalam rapat tim dua minggu sebelum dipasang, dan manajer perekrutnya sudah berbicara dengan dua kandidat rujukan saat lowongan tayang. Itu bukan ketidakadilan; begitulah perilaku perusahaan 60 orang yang membutuhkan seseorang bulan depan."
+         "id": "KilatPay, fintech fiktif dalam modul ini, adalah contoh klasik perusahaan jalur jejaring. Posisi Business Operations Associate-nya sudah disebut dalam rapat tim dua minggu sebelum dipasang, dan ketika lowongan tayang, manajer perekrutnya sudah mengobrol dengan dua kandidat yang direkomendasikan. Itu bukan ketidakadilan; begitulah perusahaan berisi 60 orang bersikap ketika butuh orang bulan depan."
         }
        ],
        "key": {
         "en": "On the network track roles are often filled within weeks, frequently by someone who was referred or already known.",
-        "id": "Di jalur jejaring, posisi sering terisi dalam hitungan minggu, kerap oleh orang yang dirujuk atau sudah dikenal."
+        "id": "Di jalur jejaring, posisi sering terisi dalam hitungan minggu, biasanya oleh orang yang direkomendasikan atau sudah dikenal."
        }
       },
       {
        "icon": "target",
        "h": {
         "en": "How to tell which track you are on",
-        "id": "Cara mengetahui kamu berada di jalur mana"
+        "id": "Cara tahu kamu ada di jalur mana"
        },
        "body": {
         "en": "Ask four questions of any vacancy:",
-        "id": "Ajukan empat pertanyaan pada lowongan apa pun:"
+        "id": "Ajukan empat pertanyaan untuk setiap lowongan:"
        },
        "bullets": [
         {
@@ -1738,7 +1738,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Are the eligibility rules numerical (age, GPA) and non-negotiable?",
-         "id": "Apakah syarat kelayakannya numerik (usia, IPK) dan tidak bisa ditawar?"
+         "id": "Apakah syaratnya berupa angka (usia, IPK) dan tidak bisa ditawar?"
         },
         {
          "en": "Is there a multi-stage test battery?",
@@ -1748,27 +1748,27 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "Three or four “yes” answers: process track. One or none: network track. Two: read the posting again. It is probably a large private employer running a semi-formal process, and you should do both: apply properly <i>and</i> find a person. Many learners need to run both tracks at once, for example, preparing for a state-owned enterprise cycle while building conversations at three private firms. The tracker in Lesson 1.4 has a column for this, because the two tracks need different weekly actions.",
-         "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lagi lowongannya. Kemungkinan itu perusahaan swasta besar yang menjalankan proses semiformal, dan kamu sebaiknya melakukan keduanya: melamar dengan benar <i>dan</i> menemukan orang. Banyak pembelajar perlu menjalankan kedua jalur sekaligus, misalnya, menyiapkan siklus BUMN (badan usaha milik negara) sambil membangun percakapan di tiga perusahaan swasta. Pelacak di Pelajaran 1.4 punya kolom untuk ini, karena kedua jalur membutuhkan tindakan mingguan yang berbeda."
+         "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lagi lowongannya. Kemungkinan itu perusahaan swasta besar dengan proses semiformal, dan sebaiknya kamu melakukan keduanya: melamar dengan benar <i>sekaligus</i> mencari orangnya. Banyak pembelajar harus menjalani dua jalur sekaligus, misalnya menyiapkan siklus BUMN (badan usaha milik negara) sambil membangun obrolan di tiga perusahaan swasta. Pelacak di Pelajaran 1.4 menyediakan kolom untuk ini, karena dua jalur itu menuntut tindakan mingguan yang berbeda."
         }
        ],
        "key": {
         "en": "Four questions sort any vacancy into its track; the answers decide where your effort should go.",
-        "id": "Empat pertanyaan memilah lowongan apa pun ke jalurnya; jawabannya menentukan ke mana usahamu harus diarahkan."
+        "id": "Empat pertanyaan memilah lowongan apa pun ke jalurnya; jawabannya menentukan ke mana tenagamu dialirkan."
        }
       },
       {
        "icon": "eye",
        "h": {
         "en": "Decoding silence",
-        "id": "Membaca keheningan"
+        "id": "Membaca kabar yang tak kunjung datang"
        },
        "body": {
         "en": "Silence after applying is the most demoralising part of a search, largely because we fill it with self-criticism. A former recruiter lists the many reasons a candidate is not progressed that have nothing to do with the candidate <i>(Heilmann, The Art of Finding the Job You Love, ch. 9)</i>: an internal candidate appeared; the budget was frozen; the manager already had someone in mind; the role was redefined; the posting was a formality; the process is simply slow because approvals queue. In large organisations and government-linked firms, response times are long and rejections are often never sent at all. Treat silence as information about the channel, not about you. Your response is procedural: follow up once at the right time (Module 9), and keep other applications in motion so no single silence carries too much weight <i>(Williams, Ultimate Job Search, ch. 19)</i>.",
-        "id": "Keheningan setelah melamar adalah bagian paling melemahkan semangat dalam pencarian kerja, sebagian besar karena kita mengisinya dengan kritik pada diri sendiri. Seorang mantan perekrut mendaftar banyak alasan seorang kandidat tidak diproses lebih lanjut yang tidak ada hubungannya dengan kandidat itu <i>(Heilmann, The Art of Finding the Job You Love, bab 9)</i>: muncul kandidat internal; anggaran dibekukan; manajer sudah punya orang dalam pikirannya; posisi didefinisikan ulang; lowongan hanya formalitas; prosesnya lambat karena persetujuan mengantre. Di organisasi besar Indonesia dan perusahaan terkait pemerintah, waktu respons panjang dan penolakan sering tidak pernah dikirim sama sekali. Perlakukan keheningan sebagai informasi tentang saluran, bukan tentang dirimu. Responsmu bersifat prosedural: tindak lanjuti sekali pada waktu yang tepat (Modul 9), dan jaga lamaran lain tetap bergerak agar tidak ada satu keheningan pun yang terlalu berat bebannya <i>(Williams, Ultimate Job Search, bab 19)</i>."
+        "id": "Sunyi setelah melamar adalah bagian yang paling menguras semangat dalam pencarian kerja, sebagian besar karena kita mengisinya dengan kritik pada diri sendiri. Seorang mantan perekrut mendaftar banyak alasan seorang kandidat tidak diproses yang sama sekali tidak ada hubungannya dengan kandidat itu <i>(Heilmann, The Art of Finding the Job You Love, bab 9)</i>: muncul kandidat internal; anggaran dibekukan; manajer sudah punya calon di kepalanya; posisinya dirombak; lowongannya cuma formalitas; atau prosesnya memang lambat karena persetujuan mengantre. Di organisasi besar dan perusahaan yang terkait pemerintah, waktu respons panjang dan surat penolakan sering tidak pernah dikirim sama sekali. Anggap sunyi itu informasi tentang salurannya, bukan tentang dirimu. Tanggapanmu bersifat prosedural: tindak lanjuti sekali pada waktu yang tepat (Modul 9), dan jaga lamaran lain tetap berjalan supaya tidak ada satu kesunyian pun yang terlalu berat kamu pikul <i>(Williams, Ultimate Job Search, bab 19)</i>."
        },
        "key": {
         "en": "Most silences and rejections have causes that have nothing to do with you.",
-        "id": "Kebanyakan keheningan dan penolakan punya sebab yang tidak ada hubungannya denganmu."
+        "id": "Kebanyakan kesunyian dan penolakan punya sebab yang tidak ada hubungannya denganmu."
        }
       },
       {
@@ -1779,11 +1779,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "A candidate has most influence at three moments. <b>Before applying</b>: through conversations that make you known and give you information competitors lack (Module 2). <b>At the paper gate</b>: where tailoring and precision convert far more often than volume (Modules 3–6). <b>After each conversation</b>: where follow-through turns contacts into advocates (Module 9). Between these moments, you have very little influence, and it is healthy to stop checking your inbox. A search organised around the three leverage points feels calmer, because it separates the hours where effort changes the outcome from the hours where it does not.",
-        "id": "Seorang kandidat punya pengaruh terbesar pada tiga momen. <b>Sebelum melamar</b>: lewat percakapan yang membuatmu dikenal dan memberimu informasi yang tidak dimiliki pesaing (Modul 2). <b>Di gerbang dokumen</b>: tempat penyesuaian dan ketelitian jauh lebih sering berhasil daripada volume (Modul 3–6). <b>Setelah setiap percakapan</b>: tempat tindak lanjut mengubah kenalan menjadi pendukung (Modul 9). Di antara momen-momen ini, pengaruhmu sangat kecil, dan berhenti memeriksa kotak masuk adalah hal yang sehat. Pencarian yang diatur di sekitar tiga titik daya ungkit terasa lebih tenang, karena memisahkan jam-jam ketika usaha mengubah hasil dari jam-jam ketika tidak."
+        "id": "Kandidat punya pengaruh paling besar pada tiga momen. <b>Sebelum melamar</b>: lewat obrolan yang membuatmu dikenal dan memberimu informasi yang tidak dimiliki pesaing (Modul 2). <b>Di gerbang dokumen</b>: tempat penyesuaian dan ketelitian jauh lebih sering membuahkan hasil daripada jumlah (Modul 3–6). <b>Setelah setiap obrolan</b>: tempat tindak lanjut mengubah kenalan menjadi pendukung (Modul 9). Di antara momen-momen itu, pengaruhmu sangat kecil, dan berhenti mengecek kotak masuk justru sehat. Pencarian yang disusun di sekitar tiga titik ini terasa lebih tenang, karena memisahkan jam-jam ketika usaha mengubah hasil dari jam-jam ketika usaha tidak mengubah apa-apa."
        },
        "key": {
         "en": "A candidate has the most leverage before applying, at the paper gate, and after the final interview.",
-        "id": "Kandidat punya pengaruh terbesar sebelum melamar, di gerbang dokumen, dan setelah wawancara akhir."
+        "id": "Kandidat punya pengaruh paling besar sebelum melamar, di gerbang dokumen, dan setelah wawancara akhir."
        }
       }
      ],
@@ -1795,7 +1795,7 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Thirteen stations in four bands",
-       "id": "Tiga belas stasiun dalam empat pita"
+       "id": "Tiga belas stasiun dalam empat ruas"
       },
       "items": [
        {
@@ -1817,7 +1817,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Application → administrative screening → CV screening → online assessment. Judged without you in the room. On the network track, stations 5 and 7 are often light or absent.",
-         "id": "Lamaran → seleksi administrasi → penyaringan CV → asesmen daring. Dinilai tanpa kehadiranmu. Di jalur jejaring, stasiun 5 dan 7 sering ringan atau tidak ada."
+         "id": "Lamaran → seleksi administrasi → penyaringan CV → asesmen daring. Dinilai tanpa kamu di ruangan. Di jalur jejaring, stasiun 5 dan 7 sering ringan atau tidak ada."
         }
        },
        {
@@ -1828,7 +1828,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Group assessment → HR interview → user interview → final panel. Judged with you present.",
-         "id": "Asesmen kelompok → wawancara HR → wawancara user → panel akhir. Dinilai dengan kehadiranmu."
+         "id": "Asesmen kelompok → wawancara HR → wawancara user → panel akhir. Dinilai dengan kamu hadir."
         }
        },
        {
@@ -1845,11 +1845,11 @@ window.MT_LMS['the-pack'] = {
       ],
       "note": {
        "en": "Process track: every station, in order, on a calendar. Network track: station 2 heavy, stations 5 and 7 light, and the whole line can run in three weeks.",
-       "id": "Jalur proses: setiap stasiun, berurutan, sesuai kalender. Jalur jejaring: stasiun 2 berat, stasiun 5 dan 7 ringan, dan seluruh jalur bisa selesai dalam tiga minggu."
+       "id": "Jalur proses: semua stasiun, berurutan, sesuai kalender. Jalur jejaring: stasiun 2 berat, stasiun 5 dan 7 ringan, dan seluruh jalur bisa rampung dalam tiga minggu."
       },
       "longdesc": {
        "en": "A horizontal line of thirteen stations grouped into four bands: stations 1 to 3 happen before the candidate sees the job; stations 4 to 7 form The Pack’s paper gate; stations 8 to 11 form The Rope’s human gate; stations 12 and 13 are checks and the offer. Beneath the line, two tracks are drawn: the process track passes through every station with station 2 faint; the network track has station 2 bold and stations 5 and 7 faint.",
-       "id": "Sebuah garis horizontal berisi tiga belas stasiun yang dikelompokkan dalam empat pita: stasiun 1 sampai 3 terjadi sebelum kandidat melihat lowongan; stasiun 4 sampai 7 membentuk gerbang dokumen The Pack; stasiun 8 sampai 11 membentuk gerbang manusia The Rope; stasiun 12 dan 13 adalah pemeriksaan dan tawaran. Di bawah garis, dua jalur digambar: jalur proses melewati setiap stasiun dengan stasiun 2 samar; jalur jejaring dengan stasiun 2 tebal dan stasiun 5 dan 7 samar."
+       "id": "Sebuah garis mendatar berisi tiga belas stasiun yang dikelompokkan dalam empat ruas: stasiun 1 sampai 3 terjadi sebelum kandidat melihat lowongan; stasiun 4 sampai 7 membentuk gerbang dokumen The Pack; stasiun 8 sampai 11 membentuk gerbang manusia The Rope; stasiun 12 dan 13 adalah pemeriksaan dan tawaran. Di bawah garis, dua jalur digambar: jalur proses melewati setiap stasiun dengan stasiun 2 samar; jalur jejaring dengan stasiun 2 tebal dan stasiun 5 dan 7 samar."
       }
      },
      "compare": [
@@ -1860,19 +1860,19 @@ window.MT_LMS['the-pack'] = {
        },
        "q": {
         "en": "Nadia wants both a state-owned enterprise programme and a role at a Jakarta fintech.",
-        "id": "Nadia menginginkan program BUMN sekaligus peran di sebuah fintech Jakarta."
+        "id": "Nadia ingin masuk program BUMN sekaligus mendapat posisi di sebuah fintech di Jakarta."
        },
        "weak": {
         "en": "She uses the same CV for both, applies to the fintech posting cold, and starts studying for the state-owned enterprise tests the week registration opens.",
-        "id": "Ia memakai CV yang sama untuk keduanya, melamar lowongan fintech tanpa kontak sebelumnya, dan mulai belajar untuk tes BUMN pada minggu pendaftaran dibuka."
+        "id": "Ia memakai CV yang sama untuk keduanya, melamar lowongan fintech tanpa kenal siapa pun di sana, dan baru mulai belajar untuk tes BUMN pada minggu pendaftaran dibuka."
        },
        "strong": {
         "en": "For the state-owned enterprise cycle she sets a calendar alert three months before registration, checks eligibility rule by rule, and starts test practice eight weeks out. For the fintech she messages two alumni there first, learns the team is hiring an operations associate, and applies after one conversation with a CV tailored to what she heard.",
-        "id": "Untuk siklus BUMN ia memasang pengingat kalender tiga bulan sebelum pendaftaran, memeriksa kelayakan syarat demi syarat, dan mulai latihan tes delapan minggu sebelumnya. Untuk fintech ia lebih dulu mengirim pesan ke dua alumni di sana, mengetahui tim sedang merekrut operations associate, dan melamar setelah satu percakapan dengan CV yang disesuaikan dengan apa yang ia dengar."
+        "id": "Untuk siklus BUMN, ia memasang pengingat kalender tiga bulan sebelum pendaftaran, mengecek syarat satu per satu, dan mulai latihan tes delapan minggu sebelumnya. Untuk fintech, ia lebih dulu mengirim pesan ke dua alumni di sana, tahu bahwa timnya sedang mencari operations associate, dan melamar setelah satu obrolan dengan CV yang disesuaikan dengan apa yang ia dengar."
        },
        "why": {
         "en": "The process track rewards preparation and precision; the network track rewards being known before the posting. Treating both the same wastes the advantage each offers.",
-        "id": "Jalur proses mengganjar persiapan dan ketelitian; jalur jejaring mengganjar dikenal sebelum lowongan ada. Memperlakukan keduanya sama saja menyia-nyiakan keunggulan yang ditawarkan masing-masing."
+        "id": "Jalur proses mengganjar persiapan dan ketelitian; jalur jejaring mengganjar orang yang sudah dikenal sebelum lowongan ada. Memperlakukan keduanya sama saja berarti membuang keunggulan yang ditawarkan masing-masing."
        }
       }
      ],
@@ -1885,15 +1885,15 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "A recruiter at Bank Sinar Nusantara runs the officer programme intake. In one week she receives 6,400 applications through the portal. Her team has eleven working days to produce a shortlist of 400 for the online test. She does not read CVs first. She exports the form data, removes everyone who fails a hard rule, GPA below 3,00, age over 26, TOEFL (Test of English as a Foreign Language) older than two years, a missing transcript, and only then opens the CVs that remain, for about twenty seconds each.",
-        "id": "Seorang perekrut di Bank Sinar Nusantara menjalankan seleksi ODP. Dalam satu minggu ia menerima 6.400 lamaran lewat portal. Timnya punya sebelas hari kerja untuk menghasilkan daftar pendek 400 orang untuk tes daring. Ia tidak membaca CV lebih dulu. Ia mengekspor data formulir, menyingkirkan semua yang gagal syarat mutlak, IPK di bawah 3,00, usia di atas 26, TOEFL (Test of English as a Foreign Language) lebih dari dua tahun, transkrip yang hilang, dan baru setelah itu membuka CV yang tersisa, sekitar dua puluh detik masing-masing."
+        "id": "Seorang perekrut di Bank Sinar Nusantara mengelola seleksi ODP. Dalam satu minggu, ia menerima 6.400 lamaran lewat portal. Timnya punya sebelas hari kerja untuk menyusun daftar pendek 400 orang yang akan ikut tes daring. Ia tidak membaca CV lebih dulu. Ia mengekspor data formulir, menyingkirkan semua yang gagal syarat mutlak (IPK di bawah 3,00, usia di atas 26, TOEFL (Test of English as a Foreign Language) lebih dari dua tahun, transkrip tidak ada), dan baru setelah itu membuka CV yang tersisa, kira-kira dua puluh detik per orang."
        },
        {
         "en": "Across town, the operations lead at KilatPay needs an associate by next month. He asks the team on Monday, receives three names by Wednesday, talks to two of them by Friday, and only then asks HR to post the role “so we have a proper process”. Sixty people apply to the posting. He reads four CVs.",
-        "id": "Di seberang kota, kepala operasional KilatPay membutuhkan seorang associate bulan depan. Ia bertanya ke tim pada Senin, menerima tiga nama pada Rabu, berbicara dengan dua di antaranya pada Jumat, dan baru kemudian meminta HR memasang lowongan “supaya ada proses yang benar”. Enam puluh orang melamar ke lowongan itu. Ia membaca empat CV."
+        "id": "Di sudut kota yang lain, kepala operasional KilatPay butuh seorang associate bulan depan. Senin ia bertanya ke timnya, Rabu ia sudah pegang tiga nama, Jumat ia sudah mengobrol dengan dua di antaranya. Baru setelah itu ia meminta HR memasang lowongan “supaya prosesnya rapi”. Enam puluh orang melamar lewat lowongan itu. Ia membaca empat CV."
        },
        {
         "en": "Nadia applied to both, with the same CV, on the same afternoon. At the bank she failed administrative screening because her TOEFL certificate was scanned at 1.8 MB against a 500 KB limit. At the fintech her CV was never opened. Neither outcome says anything about whether she could do either job.",
-        "id": "Nadia melamar ke keduanya, dengan CV yang sama, pada sore yang sama. Di bank ia gagal seleksi administrasi karena sertifikat TOEFL-nya dipindai 1,8 MB padahal batasnya 500 KB. Di fintech CV-nya tidak pernah dibuka. Kedua hasil itu tidak berkata apa-apa tentang apakah ia sanggup mengerjakan salah satu pekerjaan itu."
+        "id": "Nadia melamar ke keduanya, dengan CV yang sama, pada sore yang sama. Di bank, ia gugur di seleksi administrasi karena hasil pindai sertifikat TOEFL-nya berukuran 1,8 MB, padahal batasnya 500 KB. Di fintech, CV-nya tidak pernah dibuka. Dua hasil itu sama sekali tidak menggambarkan apakah ia sanggup mengerjakan salah satu pekerjaan itu."
        }
       ]
      },
@@ -1905,25 +1905,25 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Classify four vacancies before revealing. (A) PT Rel Nusantara: registration 1–14 March, bachelor’s degree all majors, GPA ≥ 3,00, max age 27, stages: administrative → TKD (the basic competency test, tes kemampuan dasar) → English → psikotes → interview. (B) Rumah Rempah, Area Operations Trainee: posted on Instagram, “send CV to hr@…”, no deadline, “fresh graduates welcome”. (C) PT Arunika Consumer Goods MT: applications open six weeks, cohort of 30, GPA ≥ 3,20, online assessment then assessment centre. (D) A Semarang accounting firm, junior staff, WhatsApp message from a lecturer: “they need two people, send me your CV by Thursday.”",
-        "id": "Golongkan empat lowongan sebelum membuka pembahasan. (A) PT Rel Nusantara: pendaftaran 1–14 Maret, S1 semua jurusan, IPK ≥ 3,00, usia maks 27, tahapan: administrasi → TKD (tes kemampuan dasar) → bahasa Inggris → psikotes → wawancara. (B) Rumah Rempah, Area Operations Trainee: diunggah di Instagram, “kirim CV ke hr@…”, tanpa tenggat, “fresh graduate dipersilakan”. (C) MT PT Arunika Consumer Goods: pendaftaran dibuka enam minggu, angkatan 30 orang, IPK ≥ 3,20, asesmen daring lalu assessment centre. (D) Sebuah kantor akuntan Semarang, staf junior, pesan WhatsApp dari dosen: “mereka butuh dua orang, kirim CV ke saya sebelum Kamis.”"
+        "id": "Golongkan empat lowongan ini sebelum membuka pembahasan. (A) PT Rel Nusantara: pendaftaran 1–14 Maret, S1 semua jurusan, IPK ≥ 3,00, usia maksimal 27, tahapan: administrasi → TKD (tes kemampuan dasar) → bahasa Inggris → psikotes → wawancara. (B) Rumah Rempah, Area Operations Trainee: diunggah di Instagram, “kirim CV ke hr@…”, tanpa tenggat, “fresh graduate dipersilakan”. (C) MT PT Arunika Consumer Goods: pendaftaran dibuka enam minggu, angkatan 30 orang, IPK ≥ 3,20, asesmen daring lalu assessment centre. (D) Sebuah kantor akuntan di Semarang, staf junior, pesan WhatsApp dari dosen: “mereka butuh dua orang, kirim CV ke saya sebelum Kamis.”"
        },
        "debrief": {
         "en": "(A) Process track: four “yes” answers; prepare for the tests and check every document. (B) Network track. No window, no cohort, no rules; find a person at Rumah Rempah before you email HR. (C) Process track with a network edge. The window and the cohort make it formal, but two Arunika alumni in Nadia’s HIMA (the students’ association, himpunan mahasiswa) group can tell her what the assessment centre rewards. (D) Network track at its purest: the lecturer <i>is</i> station 2. Reply within the hour, with a CV tailored to junior accounting work.",
-        "id": "(A) Jalur proses: empat jawaban “ya”; siapkan tesnya dan periksa setiap dokumen. (B) Jalur jejaring, tanpa jendela, tanpa angkatan, tanpa aturan; temukan orang di Rumah Rempah sebelum mengirim email ke HR. (C) Jalur proses dengan sisi jejaring, jendela dan angkatannya membuatnya formal, tetapi dua alumni Arunika di grup HIMA (himpunan mahasiswa) Nadia bisa memberi tahu apa yang dihargai di assessment centre. (D) Jalur jejaring dalam bentuk paling murni: dosen itu <i>adalah</i> stasiun 2. Balas dalam satu jam, dengan CV yang disesuaikan untuk pekerjaan akuntansi junior."
+        "id": "(A) Jalur proses: empat jawaban “ya”; siapkan tesnya dan cek setiap dokumen. (B) Jalur jejaring: tanpa jadwal, tanpa angkatan, tanpa syarat angka; cari orang di Rumah Rempah sebelum mengirim email ke HR. (C) Jalur proses dengan sentuhan jejaring: jadwal dan angkatannya membuatnya formal, tetapi dua alumni Arunika di grup HIMA (himpunan mahasiswa) Nadia bisa bercerita apa yang dihargai di assessment centre. (D) Jalur jejaring dalam bentuk paling murni: dosen itu <i>adalah</i> stasiun 2. Balas dalam satu jam, dengan CV yang disesuaikan untuk pekerjaan akuntansi junior."
        }
       },
       {
        "h": {
         "en": "Drill 2: Read the silence",
-        "id": "Latihan 2: Baca keheningannya"
+        "id": "Latihan 2: Baca kesunyiannya"
        },
        "body": {
         "en": "Three silences. (1) Nadia applied to the Arunika MT intake 19 days ago; the posting said “shortlisted candidates will be contacted within four weeks”. (2) She emailed a CV to Rumah Rempah 12 days ago, with no prior contact; no reply. (3) An alumnus at KilatPay said “I’ll pass your CV to Aditya” eight days ago; nothing since. For each: what is the most likely explanation, and what is the one procedural action to take?",
-        "id": "Tiga keheningan. (1) Nadia melamar seleksi MT Arunika 19 hari lalu; lowongannya menyebut “kandidat yang lolos akan dihubungi dalam empat minggu”. (2) Ia mengirim email CV ke Rumah Rempah 12 hari lalu, tanpa kontak sebelumnya; tidak ada balasan. (3) Seorang alumni di KilatPay berkata “nanti kukirim CV-mu ke Aditya” delapan hari lalu; belum ada kabar. Untuk masing-masing: apa penjelasan yang paling mungkin, dan apa satu tindakan prosedural yang perlu dilakukan?"
+        "id": "Tiga kesunyian. (1) Nadia melamar seleksi MT Arunika 19 hari lalu; lowongannya menyebut “kandidat yang lolos akan dihubungi dalam empat minggu”. (2) Ia mengirim CV lewat email ke Rumah Rempah 12 hari lalu, tanpa kontak apa pun sebelumnya; tidak ada balasan. (3) Seorang alumni di KilatPay bilang “nanti kukirim CV-mu ke Aditya” delapan hari lalu; sejak itu tidak ada kabar. Untuk masing-masing: apa penjelasan yang paling mungkin, dan apa satu tindakan prosedural yang perlu diambil?"
        },
        "debrief": {
         "en": "(1) Inside the stated window; no action; the process is slow by design. Note the date the four weeks end, and follow up once only after it. (2) A cold email to a network-track employer with no contact is the lowest-yield channel there is; the likely explanation is that nobody owns the inbox. Action: find a person (Module 2) rather than re-sending. (3) Eight days is normal for a favour done by a busy person. One short, warm nudge is fine: thank them again, attach the CV once more, and offer to make it easy; “if it helps, I can email Aditya directly and mention you.” Then move your attention elsewhere.",
-        "id": "(1) Masih dalam jendela yang disebutkan; tidak ada tindakan; prosesnya memang lambat. Catat tanggal berakhirnya empat minggu itu, dan tindak lanjuti sekali hanya setelahnya. (2) Email tanpa kontak ke perusahaan jalur jejaring adalah saluran dengan hasil terendah; penjelasan yang paling mungkin adalah tidak ada yang memegang kotak masuk itu. Tindakan: temukan orangnya (Modul 2), bukan mengirim ulang. (3) Delapan hari itu normal untuk bantuan dari orang yang sibuk. Satu pengingat singkat dan hangat tidak apa-apa: ucapkan terima kasih lagi, lampirkan CV sekali lagi, dan tawarkan untuk memudahkan; “kalau membantu, aku bisa email Pak Aditya langsung dan menyebut namamu.” Lalu alihkan perhatianmu ke tempat lain."
+        "id": "(1) Masih dalam jendela yang dijanjikan; tidak perlu bertindak; prosesnya memang lambat. Catat tanggal berakhirnya empat minggu itu, dan tindak lanjuti sekali hanya setelah lewat. (2) Email tanpa kenalan ke perusahaan jalur jejaring adalah saluran dengan hasil paling rendah; kemungkinan besar tidak ada yang mengurus kotak masuk itu. Tindakan: cari orangnya (Modul 2), bukan mengirim ulang. (3) Delapan hari itu wajar untuk bantuan dari orang yang sibuk. Satu pengingat singkat dan hangat tidak masalah: ucapkan terima kasih lagi, lampirkan CV sekali lagi, dan tawarkan cara yang memudahkannya; “kalau lebih praktis, aku bisa email Pak Aditya langsung dan menyebut namamu.” Setelah itu, alihkan perhatianmu ke tempat lain."
        }
       }
      ],
@@ -1932,11 +1932,11 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Starting state-owned enterprise or MT test preparation when registration opens",
-         "id": "Memulai persiapan tes BUMN atau MT saat pendaftaran dibuka"
+         "id": "Baru mulai menyiapkan tes BUMN atau MT saat pendaftaran dibuka"
         },
         "fix": {
          "en": "Start six to eight weeks before; the calendar is predictable.",
-         "id": "Mulai enam sampai delapan minggu sebelumnya; kalendernya bisa diprediksi."
+         "id": "Mulailah enam sampai delapan minggu sebelumnya; kalendernya bisa ditebak."
         }
        },
        {
@@ -1946,27 +1946,27 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Precede the application with a conversation wherever possible.",
-         "id": "Dahului lamaran dengan percakapan di mana pun memungkinkan."
+         "id": "Dahului lamaran dengan obrolan, setiap kali memungkinkan."
         }
        },
        {
         "h": {
          "en": "Reading silence as rejection of you",
-         "id": "Membaca keheningan sebagai penolakan atas dirimu"
+         "id": "Membaca kesunyian sebagai penolakan atas dirimu"
         },
         "fix": {
          "en": "Follow up once at the right interval, then move attention elsewhere.",
-         "id": "Tindak lanjuti sekali pada jeda yang tepat, lalu alihkan perhatian ke tempat lain."
+         "id": "Tindak lanjuti sekali pada waktu yang tepat, lalu alihkan perhatian ke tempat lain."
         }
        },
        {
         "h": {
          "en": "Using one CV for both tracks",
-         "id": "Memakai satu CV untuk kedua jalur"
+         "id": "Memakai satu CV untuk dua jalur"
         },
         "fix": {
          "en": "Keep a version for each role cluster (Module 3).",
-         "id": "Simpan satu versi untuk setiap rumpun peran (Modul 3)."
+         "id": "Simpan satu versi untuk setiap rumpun posisi (Modul 3)."
         }
        }
       ]
@@ -1979,7 +1979,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Programmes with fixed windows, hard eligibility rules and standardised tests; state-owned enterprise, civil service, officer programme, MT.",
-        "id": "Program dengan jendela tetap, syarat kelayakan mutlak, dan tes terstandar, BUMN, CPNS, ODP, MT."
+        "id": "Program dengan jadwal tetap, syarat mutlak, dan tes terstandar: BUMN, CPNS, ODP, MT."
        }
       },
       {
@@ -1989,7 +1989,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Just-in-time hiring by most private employers, startups and SMEs, often through referral.",
-        "id": "Rekrutmen saat dibutuhkan oleh kebanyakan perusahaan swasta, startup, dan UKM, sering lewat rujukan."
+        "id": "Rekrutmen saat butuh oleh kebanyakan perusahaan swasta, startup, dan UKM, sering lewat rekomendasi."
        }
       },
       {
@@ -2009,7 +2009,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The interview with the manager you would actually work for.",
-        "id": "Wawancara dengan manajer yang benar-benar akan menjadi atasanmu."
+        "id": "Wawancara dengan manajer yang nantinya benar-benar menjadi atasanmu."
        }
       },
       {
@@ -2019,7 +2019,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A structured graduate programme that rotates a cohort through functions before placement.",
-        "id": "Program lulusan terstruktur yang merotasi satu angkatan melalui berbagai fungsi sebelum penempatan."
+        "id": "Program terstruktur untuk lulusan baru yang memutar satu angkatan ke berbagai fungsi sebelum ditempatkan."
        }
       },
       {
@@ -2037,7 +2037,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "A vacancy has a registration window of 14 days, a maximum age of 25, a minimum GPA of 3,00, and “TKD, English test, and values test” listed as stages. Which track, and what matters most?",
-        "id": "Sebuah lowongan punya jendela pendaftaran 14 hari, usia maksimum 25, IPK minimum 3,00, dan “TKD, tes bahasa Inggris, dan tes nilai” sebagai tahapan. Jalur mana, dan apa yang paling penting?"
+        "id": "Sebuah lowongan punya jendela pendaftaran 14 hari, usia maksimal 25, IPK minimal 3,00, dan tahapan “TKD, tes bahasa Inggris, dan tes nilai”. Jalur mana, dan apa yang paling penting?"
        },
        "options": [
         {
@@ -2046,27 +2046,27 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Process: meet every requirement exactly and prepare for the tests in advance",
-         "id": "Proses: penuhi setiap syarat dengan tepat dan siapkan tesnya jauh hari"
+         "id": "Proses: penuhi setiap syarat dengan tepat dan siapkan tesnya jauh-jauh hari"
         },
         {
          "en": "Network: apply after the deadline to stand out",
-         "id": "Jejaring: melamar setelah tenggat agar menonjol"
+         "id": "Jejaring: melamar setelah tenggat supaya menonjol"
         },
         {
          "en": "Process: skip the administrative documents and focus on the interview",
-         "id": "Proses: lewati dokumen administrasi dan fokus pada wawancara"
+         "id": "Proses: lewati dokumen administrasi dan fokus ke wawancara"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Fixed windows, numerical eligibility and standardised tests are process-track signals.",
-        "id": "Jendela tetap, kelayakan numerik, dan tes terstandar adalah sinyal jalur proses."
+        "id": "Jadwal tetap, syarat berupa angka, dan tes terstandar adalah tanda-tanda jalur proses."
        }
       },
       {
        "q": {
         "en": "Three weeks after applying to a startup you have heard nothing. What is the most accurate interpretation?",
-        "id": "Tiga minggu setelah melamar ke sebuah startup kamu belum mendengar apa pun. Tafsiran mana yang paling akurat?"
+        "id": "Tiga minggu setelah melamar ke sebuah startup, kamu belum mendengar apa-apa. Tafsiran mana yang paling tepat?"
        },
        "options": [
         {
@@ -2075,21 +2075,21 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Many causes are possible, internal candidates, budget, a slow process, so follow up once and keep other applications moving",
-         "id": "Banyak penyebab yang mungkin, kandidat internal, anggaran, proses yang lambat, jadi tindak lanjuti sekali dan jaga lamaran lain tetap bergerak"
+         "id": "Banyak kemungkinan penyebabnya, kandidat internal, anggaran, proses yang lambat; tindak lanjuti sekali dan jaga lamaran lain tetap berjalan"
         },
         {
          "en": "You should apply again with the same CV",
-         "id": "Kamu sebaiknya melamar lagi dengan CV yang sama"
+         "id": "Sebaiknya kamu melamar lagi dengan CV yang sama"
         },
         {
          "en": "You should stop applying to startups",
-         "id": "Kamu sebaiknya berhenti melamar ke startup"
+         "id": "Sebaiknya kamu berhenti melamar ke startup"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Most silences are caused by the employer’s circumstances, not by you.",
-        "id": "Kebanyakan keheningan disebabkan keadaan perusahaan, bukan dirimu."
+        "id": "Kebanyakan kesunyian disebabkan oleh keadaan di pihak perusahaan, bukan oleh dirimu."
        }
       },
       {
@@ -2118,7 +2118,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 2,
        "why": {
         "en": "The Pack covers stages judged without you in the room: application, administrative and CV screening, and online tests.",
-        "id": "The Pack mencakup tahap-tahap yang dinilai tanpa kehadiranmu: lamaran, seleksi administrasi dan CV, serta tes daring."
+        "id": "The Pack mencakup tahap-tahap yang dinilai tanpa kamu di ruangan: lamaran, seleksi administrasi dan CV, serta tes daring."
        }
       }
      ],
@@ -2131,7 +2131,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "For every employer in your tracker, decide the track, process or network, and write it in the notes. The weekly actions in Lesson 1.4 differ by track.",
-       "id": "Untuk setiap perusahaan di pelacakmu, tentukan jalurnya, proses atau jejaring, dan tulis di catatan. Tindakan mingguan di Pelajaran 1.4 berbeda menurut jalur."
+       "id": "Untuk setiap perusahaan di pelacakmu, tentukan jalurnya, proses atau jejaring, dan tulis di kolom catatan. Tindakan mingguan di Pelajaran 1.4 berbeda untuk tiap jalur."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -2141,15 +2141,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Every station on the recruitment railway filters for something specific; prepare for the filter, not the station name.",
-       "id": "Setiap stasiun di rel rekrutmen menyaring sesuatu yang spesifik; siapkan diri untuk saringannya, bukan nama stasiunnya."
+       "id": "Tiap stasiun di rel rekrutmen menyaring hal yang spesifik; siapkan diri untuk saringannya, bukan untuk nama stasiunnya."
       },
       {
        "en": "The process track rewards calendars, precision and test preparation; the network track rewards being known before the posting.",
-       "id": "Jalur proses mengganjar kalender, ketelitian, dan persiapan tes; jalur jejaring mengganjar dikenal sebelum lowongan ada."
+       "id": "Jalur proses mengganjar kalender, ketelitian, dan persiapan tes; jalur jejaring mengganjar orang yang sudah dikenal sebelum lowongan ada."
       },
       {
        "en": "Silence is usually about the employer’s circumstances, respond with process, not self-doubt.",
-       "id": "Keheningan biasanya soal keadaan perusahaan; tanggapi dengan proses, bukan keraguan diri."
+       "id": "Kesunyian biasanya soal keadaan perusahaan; tanggapi dengan prosedur, bukan dengan meragukan diri."
       }
      ],
      "resources": {
@@ -2159,7 +2159,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "Where the claims come from. Programme rules quoted in examples are fictional; real programme requirements change every cycle and must be checked against the official announcement.",
-       "id": "Dari mana klaim-klaim ini berasal. Aturan program dalam contoh bersifat fiktif; syarat program nyata berubah setiap siklus dan harus diperiksa pada pengumuman resmi."
+       "id": "Dari mana klaim-klaim ini berasal. Aturan program dalam contoh bersifat fiktif; syarat program yang sebenarnya berubah tiap siklus dan harus dicek di pengumuman resmi."
       },
       "items": [
        {
@@ -2175,11 +2175,11 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "S. Dalton, <i>The 2-Hour Job Search</i> (2nd ed., 2020), ch. 7; when prompt online application is correct: hard public deadlines.",
-          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 7, kapan melamar daring dengan cepat itu tepat: tenggat publik yang keras."
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 7; kapan segera melamar daring itu tepat: tenggat publik yang kaku."
          },
          {
           "en": "C. Heilmann, <i>The Art of Finding the Job You Love</i>, ch. 9; a recruiter’s list of reasons candidates are not progressed.",
-          "id": "C. Heilmann, <i>The Art of Finding the Job You Love</i>, bab 9, daftar seorang perekrut tentang alasan kandidat tidak diproses lebih lanjut."
+          "id": "C. Heilmann, <i>The Art of Finding the Job You Love</i>, bab 9; daftar seorang perekrut tentang alasan kandidat tidak diproses."
          },
          {
           "en": "L. Williams, <i>Ultimate Job Search</i>, ch. 19, keeping several applications in motion.",
@@ -2187,7 +2187,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "S. Verma, <i>Job Search Secrets</i> (2022), ch. 8, the campus recruitment sequence, a regional analogue.",
-          "id": "S. Verma, <i>Job Search Secrets</i> (2022), bab 8, urutan rekrutmen kampus, analogi regional."
+          "id": "S. Verma, <i>Job Search Secrets</i> (2022), bab 8; urutan rekrutmen kampus, padanan dari kawasan ini."
          }
         ]
        },
@@ -2212,7 +2212,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Numerical, non-negotiable eligibility rules?",
-          "id": "Syarat kelayakan numerik yang tidak bisa ditawar?"
+          "id": "Syarat berupa angka yang tidak bisa ditawar?"
          },
          {
           "en": "Multi-stage test battery?",
@@ -2241,24 +2241,24 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "When a search is not working, the instinct is to do more of it. This lesson teaches you to find <b>where</b> it is breaking, and shows that each break point has a different fix.",
-      "id": "Ketika pencarian kerja tidak berjalan, nalurinya adalah melakukannya lebih banyak. Pelajaran ini mengajarkanmu menemukan <b>di mana</b> pencarian itu patah, dan menunjukkan bahwa setiap titik patah punya perbaikan yang berbeda."
+      "id": "Ketika pencarian kerja mandek, naluri kita biasanya satu: lakukan lebih banyak lagi. Pelajaran ini mengajarkan cara menemukan <b>di mana</b> pencarianmu macet, dan menunjukkan bahwa tiap titik macet butuh perbaikan yang berbeda."
      },
      "objectives": [
       {
        "en": "Classify your activity as <b>browsing</b>, <b>broadcasting</b> or <b>targeting</b>.",
-       "id": "Menggolongkan kegiatanmu sebagai <b>menjelajah</b>, <b>menyiarkan</b>, atau <b>membidik</b>."
+       "id": "Menggolongkan kegiatanmu sebagai <b>menjelajah</b>, <b>menyebar</b>, atau <b>membidik</b>."
       },
       {
        "en": "Calculate your conversion rate at each of the three search stages.",
-       "id": "Menghitung tingkat konversimu di setiap dari tiga tahap pencarian."
+       "id": "Menghitung tingkat konversimu di masing-masing dari tiga tahap pencarian."
       },
       {
        "en": "Identify your leaking stage and choose the matching fix.",
-       "id": "Mengenali tahap yang bocor dan memilih perbaikan yang sesuai."
+       "id": "Menemukan tahap yang bocor dan memilih perbaikan yang pas."
       },
       {
        "en": "Recognise “doing more of what fails” in your own behaviour.",
-       "id": "Mengenali “melakukan lebih banyak hal yang gagal” dalam perilakumu sendiri."
+       "id": "Mengenali kebiasaan “mengulang lebih banyak cara yang sudah gagal” pada dirimu sendiri."
       }
      ],
      "readFirst": {
@@ -2282,11 +2282,11 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "A search is a pipe with three joints; measure the conversion at each before you pour more in at the top",
-         "id": "Pencarian adalah pipa dengan tiga sambungan; ukur konversi di masing-masing sebelum menuang lebih banyak di atas"
+         "id": "Pencarian kerja adalah pipa dengan tiga sambungan; ukur konversi di tiap sambungan sebelum menuang lebih banyak air dari atas"
         },
         {
          "en": "Each leak has a different fix, and the paper gate is usually the cheapest one to improve",
-         "id": "Setiap kebocoran punya perbaikan berbeda, dan gerbang kertas biasanya yang termurah untuk diperbaiki"
+         "id": "Tiap bocor beda perbaikannya, dan gerbang dokumen biasanya yang paling murah dibenahi"
         }
        ],
        "takes": [
@@ -2297,27 +2297,27 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "When a method fails we do more of it: 200 applications produced nothing, so we send 400. The fix is not motivation; it is diagnosis.",
-          "id": "Saat sebuah metode gagal kita melakukannya lebih banyak: 200 lamaran tak menghasilkan apa-apa, maka kita kirim 400. Perbaikannya bukan motivasi; melainkan diagnosis."
+          "id": "Ketika satu cara gagal, kita mengulanginya lebih banyak: 200 lamaran tidak menghasilkan apa-apa, jadi kita kirim 400. Obatnya bukan motivasi, melainkan diagnosis."
          }
         },
         {
          "h": {
           "en": "Three stages that can each fail",
-          "id": "Tiga tahap yang masing-masing bisa gagal"
+          "id": "Tiga tahap yang bisa gagal sendiri-sendiri"
          },
          "p": {
           "en": "Compute before you judge: invitations ÷ applications, passes ÷ invitations; the numbers name the joint.",
-          "id": "Hitung sebelum menilai: undangan ÷ lamaran, lulus ÷ undangan; angkanya menyebut sambungannya."
+          "id": "Hitung sebelum menilai: undangan ÷ lamaran, lulus ÷ undangan; angkanya yang menunjuk sambungan mana yang bocor."
          }
         },
         {
          "h": {
           "en": "Each leak has a different fix",
-          "id": "Setiap kebocoran punya perbaikan berbeda"
+          "id": "Tiap bocor, beda perbaikannya"
          },
          "p": {
           "en": "Raising paper conversion from 3% to 8% nearly triples expected offers with no change in interview skill; that is why The Pack exists.",
-          "id": "Menaikkan konversi kertas dari 3% ke 8% hampir melipatgandakan tiga kali tawaran yang diharapkan tanpa perubahan keterampilan wawancara; itulah mengapa The Pack ada."
+          "id": "Menaikkan konversi dokumen dari 3% ke 8% hampir melipatgandakan tiga kali perkiraan tawaran tanpa kemampuan wawancaramu berubah; untuk itulah The Pack ada."
          }
         }
        ],
@@ -2336,17 +2336,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Menjelajah",
            "d": {
             "en": "Read postings, apply to those that fit. Everyone else saw the same posting, against criteria already fixed.",
-            "id": "Membaca lowongan, melamar yang cocok. Semua orang melihat lowongan yang sama, dengan kriteria yang sudah tetap."
+            "id": "Membaca lowongan, melamar yang cocok. Semua orang melihat lowongan yang sama, dengan kriteria yang sudah dipatok."
            },
            "img": "../../assets/bg/stage-exploration.jpg"
           },
           {
            "icon": "mail",
            "en": "Broadcasting",
-           "id": "Menyiarkan",
+           "id": "Menyebar",
            "d": {
             "en": "Send the CV widely, upload it to databases, wait. Low effort, very low yield, no feedback; which is why it is so demoralising.",
-            "id": "Mengirim CV ke mana-mana, mengunggah ke basis data, menunggu. Usaha rendah, hasil sangat rendah, tanpa umpan balik; itulah mengapa begitu melemahkan semangat."
+            "id": "Mengirim CV ke mana-mana, mengunggahnya ke basis data, lalu menunggu. Usahanya kecil, hasilnya sangat kecil, tanpa umpan balik; itulah sebabnya cara ini paling menguras semangat."
            },
            "img": "../../assets/bg/fg-sprint-interview.jpg"
           },
@@ -2356,18 +2356,18 @@ window.MT_LMS['the-pack'] = {
            "id": "Membidik",
            "d": {
             "en": "Choose the work, the organisations, and the person inside each. Most effort per action; most results.",
-            "id": "Memilih pekerjaan, organisasinya, dan orang di dalam masing-masing. Usaha terbesar per tindakan; hasil terbanyak."
+            "id": "Memilih pekerjaannya, organisasinya, dan orang di dalam masing-masing. Usaha paling besar per langkah; hasil paling banyak."
            },
            "img": "../../assets/bg/compass.jpg"
           }
          ],
          "sub": {
           "en": "L. Williams, Ultimate Job Search: browsing, broadcasting and targeting are different activities, not different amounts of the same one.",
-          "id": "L. Williams, Ultimate Job Search: menjelajah, menyiarkan, dan membidik adalah kegiatan berbeda, bukan jumlah berbeda dari kegiatan yang sama."
+          "id": "L. Williams, Ultimate Job Search: menjelajah, menyebar, dan membidik adalah tiga kegiatan yang berbeda, bukan takaran berbeda dari kegiatan yang sama."
          },
          "band": {
           "en": "When a method fails we do more of it: 200 applications produced nothing, so we send 400. The fix is not motivation; it is diagnosis.",
-          "id": "Saat sebuah metode gagal kita melakukannya lebih banyak: 200 lamaran tak menghasilkan apa-apa, maka kita kirim 400. Perbaikannya bukan motivasi; melainkan diagnosis."
+          "id": "Ketika satu cara gagal, kita mengulanginya lebih banyak: 200 lamaran tidak menghasilkan apa-apa, jadi kita kirim 400. Obatnya bukan motivasi, melainkan diagnosis."
          },
          "em": {
           "en": "only one of them gives you feedback",
@@ -2378,7 +2378,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "A search is a pipe with three joints; measure the conversion at each before you pour more in at the top",
-          "id": "Pencarian adalah pipa dengan tiga sambungan; ukur konversi di masing-masing sebelum menuang lebih banyak di atas"
+          "id": "Pencarian kerja adalah pipa dengan tiga sambungan; ukur konversi di tiap sambungan sebelum menuang lebih banyak air dari atas"
          },
          "img": "../../assets/bg/mp-stage-reckoning.jpg",
          "layout": "flow",
@@ -2389,7 +2389,7 @@ window.MT_LMS['the-pack'] = {
            "id": "A · Menemukan lowongan",
            "d": {
             "en": "Relevant openings found per week. Leaking: the market scope, too narrow a target or only one channel.",
-            "id": "Lowongan relevan yang ditemukan per minggu. Bocor: cakupan pasar, sasaran terlalu sempit atau hanya satu saluran."
+            "id": "Lowongan relevan yang ditemukan per minggu. Bocor: cakupan pasarnya, sasaran terlalu sempit atau cuma satu saluran."
            }
           },
           {
@@ -2398,7 +2398,7 @@ window.MT_LMS['the-pack'] = {
            "id": "B · Lamaran ke undangan",
            "d": {
             "en": "Invitations divided by applications. Leaking: the paper, targeting, CV, ATS, admin completeness.",
-            "id": "Undangan dibagi lamaran. Bocor: kertasnya, pembidikan, CV, ATS, kelengkapan administrasi."
+            "id": "Undangan dibagi lamaran. Bocor: dokumennya, pembidikan, CV, ATS, kelengkapan administrasi."
            }
           },
           {
@@ -2407,17 +2407,17 @@ window.MT_LMS['the-pack'] = {
            "id": "C · Undangan ke tawaran",
            "d": {
             "en": "Offers divided by interviews; the test pass rate. Leaking: performance in the room or on the test.",
-            "id": "Tawaran dibagi wawancara; tingkat lulus tes. Bocor: kinerja di ruangan atau di tes."
+            "id": "Tawaran dibagi wawancara; tingkat kelulusan tes. Bocor: penampilan di ruang wawancara atau di tes."
            }
           }
          ],
          "sub": {
           "en": "Water leaking at one joint is not fixed by pouring more in at the top.",
-          "id": "Air yang bocor di satu sambungan tidak diperbaiki dengan menuang lebih banyak di atas."
+          "id": "Air yang bocor di satu sambungan tidak akan beres dengan menuang lebih banyak air dari atas."
          },
          "band": {
           "en": "Compute before you judge: invitations ÷ applications, passes ÷ invitations; the numbers name the joint.",
-          "id": "Hitung sebelum menilai: undangan ÷ lamaran, lulus ÷ undangan; angkanya menyebut sambungannya."
+          "id": "Hitung sebelum menilai: undangan ÷ lamaran, lulus ÷ undangan; angkanya yang menunjuk sambungan mana yang bocor."
          },
          "em": {
           "en": "three joints",
@@ -2428,13 +2428,13 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Each leak has a different fix, and the paper gate is usually the cheapest one to improve",
-          "id": "Setiap kebocoran punya perbaikan berbeda, dan gerbang kertas biasanya yang termurah untuk diperbaiki"
+          "id": "Tiap bocor beda perbaikannya, dan gerbang dokumen biasanya yang paling murah dibenahi"
          },
          "cols": [
           {
            "l": {
             "en": "The leak",
-            "id": "Kebocoran"
+            "id": "Yang bocor"
            },
            "d": {
             "en": "Which joint",
@@ -2444,7 +2444,7 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "search",
              "en": "A leaks: the target is too narrow or single-channel",
-             "id": "A bocor: sasaran terlalu sempit atau satu saluran"
+             "id": "A bocor: sasaran terlalu sempit atau cuma satu saluran"
             },
             {
              "icon": "doc",
@@ -2454,7 +2454,7 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "mic",
              "en": "C leaks: performance on tests or in the room",
-             "id": "C bocor: kinerja di tes atau di ruangan"
+             "id": "C bocor: penampilan di tes atau di ruang wawancara"
             }
            ],
            "icon": "warn"
@@ -2477,7 +2477,7 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "pen",
              "en": "Modules 3–6: the paper gate",
-             "id": "Modul 3–6: gerbang kertas"
+             "id": "Modul 3–6: gerbang dokumen"
             },
             {
              "icon": "trophy",
@@ -2497,11 +2497,11 @@ window.MT_LMS['the-pack'] = {
          },
          "band": {
           "en": "Raising paper conversion from 3% to 8% nearly triples expected offers with no change in interview skill; that is why The Pack exists.",
-          "id": "Menaikkan konversi kertas dari 3% ke 8% hampir melipatgandakan tiga kali tawaran yang diharapkan tanpa perubahan keterampilan wawancara; itulah mengapa The Pack ada."
+          "id": "Menaikkan konversi dokumen dari 3% ke 8% hampir melipatgandakan tiga kali perkiraan tawaran tanpa kemampuan wawancaramu berubah; untuk itulah The Pack ada."
          },
          "em": {
           "en": "the cheapest one to improve",
-          "id": "yang termurah untuk diperbaiki"
+          "id": "yang paling murah dibenahi"
          }
         }
        ],
@@ -2516,11 +2516,11 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Find the leak before you add water",
-       "id": "Temukan kebocoran sebelum menambah air"
+       "id": "Temukan bocornya sebelum menambah air"
       },
       "intro": {
        "en": "A search is a pipe with three joints. Water leaking at one joint is not fixed by pouring more in at the top.",
-       "id": "Pencarian kerja adalah pipa dengan tiga sambungan. Air yang bocor di satu sambungan tidak diperbaiki dengan menuangkan lebih banyak di atas."
+       "id": "Pencarian kerja itu seperti pipa dengan tiga sambungan. Kalau salah satu sambungannya bocor, menuang lebih banyak air dari atas tidak akan menolong."
       },
       "slides": [
        {
@@ -2535,43 +2535,43 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "<b>Broadcasting</b>: send the CV widely, upload it to databases, wait. Low effort, very low yield, no feedback.",
-          "id": "<b>Menyiarkan</b>: mengirim CV ke mana-mana, mengunggah ke basis data, menunggu. Usaha rendah, hasil sangat rendah, tanpa umpan balik."
+          "id": "<b>Menyebar</b>: mengirim CV ke mana-mana, mengunggahnya ke basis data, lalu menunggu. Usahanya kecil, hasilnya sangat kecil, tanpa umpan balik."
          },
          {
           "en": "<b>Targeting</b>: choose the work, the organisations, and the person inside each. Most effort per action; most results.",
-          "id": "<b>Membidik</b>: memilih pekerjaan, organisasinya, dan orang di dalam masing-masing. Usaha terbesar per tindakan; hasil terbanyak."
+          "id": "<b>Membidik</b>: memilih jenis pekerjaannya, organisasinya, dan orang yang tepat di dalamnya. Usahanya paling besar per langkah; hasilnya paling banyak."
          }
         ]
        },
        {
         "h": {
          "en": "Three stages that can each fail",
-         "id": "Tiga tahap yang masing-masing bisa gagal"
+         "id": "Tiga tahap yang bisa gagal sendiri-sendiri"
         },
         "points": [
          {
           "en": "<b>A · Finding openings</b>: how many relevant openings do you find a week?",
-          "id": "<b>A · Menemukan lowongan</b>: berapa lowongan relevan yang kamu temukan per minggu?"
+          "id": "<b>A · Menemukan lowongan</b>: berapa lowongan relevan yang kamu temukan dalam seminggu?"
          },
          {
           "en": "<b>B · Applications → invitations</b>: what share of applications get any response?",
-          "id": "<b>B · Lamaran → undangan</b>: berapa bagian lamaran yang mendapat respons?"
+          "id": "<b>B · Lamaran → undangan</b>: berapa persen lamaranmu yang mendapat tanggapan?"
          },
          {
           "en": "<b>C · Invitations → offers</b>: what share of tests and interviews do you pass?",
-          "id": "<b>C · Undangan → tawaran</b>: berapa bagian tes dan wawancara yang kamu lewati?"
+          "id": "<b>C · Undangan → tawaran</b>: berapa persen tes dan wawancara yang kamu lewati?"
          }
         ]
        },
        {
         "h": {
          "en": "Each leak has a different fix",
-         "id": "Setiap kebocoran punya perbaikan berbeda"
+         "id": "Tiap bocor, beda perbaikannya"
         },
         "points": [
          {
           "en": "A leaks → the target is too narrow or single-channel → Module 2.",
-          "id": "A bocor → sasaran terlalu sempit atau satu saluran → Modul 2."
+          "id": "A bocor → sasaranmu terlalu sempit atau cuma satu saluran → Modul 2."
          },
          {
           "en": "B leaks → the paper: targeting, CV, ATS, admin → Modules 3–6.",
@@ -2579,7 +2579,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "C leaks → performance on tests or in the room → Module 7 and The Rope.",
-          "id": "C bocor → kinerja di tes atau di ruangan → Modul 7 dan The Rope."
+          "id": "C bocor → penampilan di tes atau di ruang wawancara → Modul 7 dan The Rope."
          }
         ]
        }
@@ -2594,17 +2594,17 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Lynn Williams distinguishes three approaches <i>(Williams, Ultimate Job Search, ch. 11 and 13)</i>. <b>Browsing</b>: reading postings and applying to those that fit. It is the most common approach; it suits high-turnover roles, but you compete with everyone who saw the same posting, against criteria already fixed. <b>Broadcasting</b>: sending your CV widely or uploading it to databases and waiting. It is low-effort and typically very low-yield, and it gives you no feedback, which is why it is so demoralising. <b>Targeting</b>: choosing the kind of work, the kind of organisation, specific organisations, and the right person inside each. It takes the most effort per action and, for most people, produces the most results. A healthy search uses all three but spends most of its energy on the third.",
-        "id": "Lynn Williams membedakan tiga pendekatan <i>(Williams, Ultimate Job Search, bab 11 dan 13)</i>. <b>Menjelajah</b>: membaca lowongan dan melamar yang cocok. Ini pendekatan paling umum; cocok untuk peran dengan pergantian tinggi, tetapi kamu bersaing dengan semua orang yang melihat lowongan yang sama, dengan kriteria yang sudah ditetapkan. <b>Menyiarkan</b>: mengirim CV ke mana-mana atau mengunggahnya ke basis data lalu menunggu. Usahanya rendah dan hasilnya biasanya sangat rendah, dan tidak memberimu umpan balik, itulah sebabnya begitu melemahkan semangat. <b>Membidik</b>: memilih jenis pekerjaan, jenis organisasi, organisasi tertentu, dan orang yang tepat di dalam masing-masing. Ini membutuhkan usaha terbesar per tindakan dan, bagi kebanyakan orang, menghasilkan paling banyak. Pencarian yang sehat memakai ketiganya tetapi menghabiskan sebagian besar energinya pada yang ketiga."
+        "id": "Lynn Williams membedakan tiga pendekatan <i>(Williams, Ultimate Job Search, bab 11 dan 13)</i>. <b>Menjelajah</b>: membaca lowongan dan melamar yang cocok. Ini cara paling umum; pas untuk posisi yang pergantian orangnya cepat, tetapi kamu bersaing dengan semua orang yang melihat lowongan yang sama, dengan kriteria yang sudah dipatok. <b>Menyebar</b>: mengirim CV ke mana-mana atau mengunggahnya ke basis data, lalu menunggu. Usahanya kecil, hasilnya biasanya sangat kecil, dan kamu tidak mendapat umpan balik sama sekali. Itulah sebabnya cara ini paling cepat menguras semangat. <b>Membidik</b>: memilih jenis pekerjaan, jenis organisasi, organisasi tertentu, dan orang yang tepat di dalam masing-masing. Cara ini paling banyak menyita usaha per langkah, dan bagi kebanyakan orang, paling banyak memberi hasil. Pencarian yang sehat memakai ketiganya, tetapi menaruh sebagian besar tenaganya pada yang ketiga."
        },
        "after": [
         {
          "en": "The Easy Apply button is the purest form of broadcasting dressed up as browsing: it feels like applying, but the employer receives a document no one tailored, alongside hundreds of others sent the same way.",
-         "id": "Tombol Easy Apply adalah bentuk paling murni dari menyiarkan yang berpakaian menjelajah: rasanya seperti melamar, tetapi perusahaan menerima dokumen yang tidak disesuaikan siapa pun, bersama ratusan lainnya yang dikirim dengan cara yang sama."
+         "id": "Tombol Easy Apply adalah bentuk paling murni dari menyebar yang menyamar sebagai menjelajah: rasanya seperti melamar, padahal perusahaan menerima dokumen yang tidak disesuaikan oleh siapa pun, bersama ratusan dokumen lain yang dikirim dengan cara yang sama."
         }
        ],
        "key": {
         "en": "Browsing and broadcasting are cheap and crowded; targeting costs more per move and returns the most.",
-        "id": "Menjelajah dan menyiarkan itu murah dan ramai; membidik lebih mahal per langkah, tetapi hasilnya paling besar."
+        "id": "Menjelajah dan menyebar itu murah dan penuh sesak; membidik lebih mahal per langkah, tetapi hasilnya paling besar."
        }
       },
       {
@@ -2615,22 +2615,22 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Bolles names a pattern everyone recognises: when a method fails, we do more of it, 200 applications produced nothing, so we send 400 <i>(Bolles, Parachute, ch. 1)</i>. The fix is not motivation. It is diagnosis. Bolles’s own comparison of method effectiveness is decades old and should not be quoted as current statistics <span class=\"ev ev-dated\">Dated</span>, but its <b>ranking</b> matches every newer source: targeted, personal, structured methods outperform passive, mass methods. What Bolles could not have known is how much cheaper mass methods would become. When sending an application costs one click, the pull toward doing more of what fails is stronger than ever, and the discipline to stop and diagnose is worth more.",
-        "id": "Bolles menamai pola yang dikenali semua orang: ketika satu metode gagal, kita melakukannya lebih banyak; 200 lamaran tidak menghasilkan apa-apa, jadi kita kirim 400 <i>(Bolles, Parachute, bab 1)</i>. Perbaikannya bukan motivasi. Perbaikannya adalah diagnosis. Perbandingan efektivitas metode dari Bolles sendiri sudah berusia puluhan tahun dan tidak boleh dikutip sebagai statistik terkini <span class=\"ev ev-dated\">Lawas</span>, tetapi <b>urutannya</b> cocok dengan setiap sumber yang lebih baru: metode yang terbidik, personal, dan terstruktur mengungguli metode pasif dan massal. Yang tidak bisa diketahui Bolles adalah betapa murahnya metode massal akan menjadi. Ketika mengirim lamaran hanya butuh satu klik, tarikan untuk melakukan lebih banyak hal yang gagal lebih kuat dari sebelumnya, dan disiplin untuk berhenti dan mendiagnosis menjadi lebih berharga."
+        "id": "Bolles memberi nama pada pola yang semua orang kenal: ketika satu cara gagal, kita melakukannya lebih banyak lagi. Dua ratus lamaran tidak menghasilkan apa-apa, jadi kita kirim empat ratus <i>(Bolles, Parachute, bab 1)</i>. Obatnya bukan motivasi, melainkan diagnosis. Perbandingan Bolles tentang keampuhan tiap metode memang sudah puluhan tahun umurnya dan tidak layak dikutip sebagai statistik terkini <span class=\"ev ev-dated\">Lawas</span>, tetapi <b>urutannya</b> cocok dengan semua sumber yang lebih baru: cara yang terarah, personal, dan terstruktur mengalahkan cara yang pasif dan massal. Yang tidak bisa dibayangkan Bolles adalah betapa murahnya cara massal itu kelak. Ketika mengirim lamaran cuma butuh satu klik, godaan untuk mengulang cara yang gagal jadi lebih kuat dari sebelumnya, dan disiplin untuk berhenti sejenak lalu mendiagnosis jadi jauh lebih berharga."
        },
        "key": {
         "en": "When a method fails, doing more of it is not a strategy. Diagnose where the search breaks before you add volume.",
-        "id": "Ketika satu cara gagal, mengulanginya lebih banyak bukan strategi. Cari dulu di mana pencarianmu patah sebelum menambah volume."
+        "id": "Ketika satu cara gagal, mengulanginya lebih banyak bukan strategi. Cari dulu di mana pencarianmu macet sebelum menambah jumlah."
        }
       },
       {
        "icon": "chart",
        "h": {
         "en": "The three-stage diagnostic",
-        "id": "Diagnostik tiga tahap"
+        "id": "Diagnosis tiga tahap"
        },
        "body": {
         "en": "Williams offers the most practical tool in this area: treat your search as three stages that can each fail independently <i>(Williams, ch. 11)</i>.",
-        "id": "Williams menawarkan alat paling praktis di bidang ini: perlakukan pencarianmu sebagai tiga tahap yang masing-masing bisa gagal secara terpisah <i>(Williams, bab 11)</i>."
+        "id": "Williams menawarkan alat paling praktis dalam urusan ini: anggap pencarianmu sebagai tiga tahap yang bisa gagal sendiri-sendiri <i>(Williams, bab 11)</i>."
        },
        "table": {
         "cols": [
@@ -2644,11 +2644,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "If it is leaking, the problem is…",
-          "id": "Jika bocor, masalahnya adalah…"
+          "id": "Kalau bocor, masalahnya ada di…"
          },
          {
           "en": "…and the fix is",
-          "id": "…dan perbaikannya adalah"
+          "id": "…dan perbaikannya"
          }
         ],
         "rows": [
@@ -2681,7 +2681,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "The paper: targeting, CV, ATS, admin completeness",
-           "id": "Kertasnya: pembidikan, CV, ATS, kelengkapan administrasi"
+           "id": "Dokumennya: pembidikan, CV, ATS, kelengkapan administrasi"
           },
           {
            "en": "Modules 3–6",
@@ -2695,11 +2695,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Offers ÷ interviews; test pass rate",
-           "id": "Tawaran ÷ wawancara; tingkat lulus tes"
+           "id": "Tawaran ÷ wawancara; tingkat kelulusan tes"
           },
           {
            "en": "Performance in the room or on the test",
-           "id": "Kinerja di ruangan atau di tes"
+           "id": "Penampilan di ruang wawancara atau di tes"
           },
           {
            "en": "Module 7 (tests) · The Rope (interviews)",
@@ -2711,23 +2711,23 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "The benchmark for Stage B is not a universal number, but a useful rule of thumb from the experience of career services: if fewer than about <b>1 in 10 well-targeted applications</b> produce any response (a test invitation, a call, an interview), the paper is the likely problem. If you are getting invitations but not passing tests or interviews, the paper is doing its job and the problem has moved downstream. Diagnose on a sample: twenty to thirty targeted applications, not five.",
-         "id": "Patokan untuk Tahap B bukan angka universal, tetapi aturan praktis yang berguna dari pengalaman layanan karier: jika kurang dari sekitar <b>1 dari 10 lamaran yang terbidik dengan baik</b> menghasilkan respons apa pun (undangan tes, telepon, wawancara), dokumennya kemungkinan bermasalah. Jika kamu mendapat undangan tetapi tidak lolos tes atau wawancara, dokumennya sudah bekerja dan masalahnya bergeser ke hilir. Diagnosis pada sampel: dua puluh sampai tiga puluh lamaran terbidik, bukan lima."
+         "id": "Patokan untuk Tahap B bukan angka baku, melainkan aturan praktis dari pengalaman layanan karier: kalau kurang dari sekitar <b>1 dari 10 lamaran yang dibidik dengan baik</b> mendapat tanggapan apa pun (undangan tes, telepon, wawancara), kemungkinan besar dokumennya yang bermasalah. Kalau kamu mendapat undangan tetapi tidak lolos tes atau wawancara, dokumennya sudah bekerja dan masalahnya pindah ke tahap berikutnya. Lakukan diagnosis pada sampel yang cukup: dua puluh sampai tiga puluh lamaran yang dibidik, bukan lima."
         }
        ],
        "key": {
         "en": "A search has three stages that fail independently: finding openings, getting past the documents, performing in the room. Each has its own fix.",
-        "id": "Pencarian punya tiga tahap yang bisa gagal sendiri-sendiri: menemukan lowongan, lolos tahap dokumen, tampil di ruangan. Masing-masing punya perbaikan sendiri."
+        "id": "Pencarian punya tiga tahap yang bisa gagal sendiri-sendiri: menemukan lowongan, lolos tahap dokumen, tampil di ruang wawancara. Masing-masing punya perbaikan sendiri."
        }
       },
       {
        "icon": "target",
        "h": {
         "en": "Funnel maths",
-        "id": "Hitungan corong"
+        "id": "Matematika corong"
        },
        "body": {
         "en": "Small improvements at the top of the funnel multiply. If 100 applications convert at 3% to interviews and 20% of interviews to offers, you get 0.6 offers. Most likely none. Raise the paper conversion to 8%, which tailoring and precision routinely achieve, and the same 100 applications yield 1.6 offers, with no change in interview skill. Improve both, and 100 applications at 8% and 30% give 2.4. This is why The Pack exists: improving the paper gate is usually the cheapest improvement available, and it compounds with everything that comes after it.",
-        "id": "Perbaikan kecil di puncak corong berlipat ganda. Jika 100 lamaran terkonversi 3% menjadi wawancara dan 20% wawancara menjadi tawaran, kamu mendapat 0,6 tawaran. Kemungkinan besar tidak ada. Naikkan konversi dokumen ke 8%, yang rutin dicapai lewat penyesuaian dan ketelitian, dan 100 lamaran yang sama menghasilkan 1,6 tawaran, tanpa perubahan kemampuan wawancara. Perbaiki keduanya, dan 100 lamaran pada 8% dan 30% memberi 2,4. Itulah sebabnya The Pack ada: memperbaiki gerbang dokumen biasanya perbaikan termurah yang tersedia, dan ia bertumpuk dengan segala yang datang setelahnya."
+        "id": "Perbaikan kecil di bagian atas corong berlipat ganda ke bawah. Kalau dari 100 lamaran, 3% berubah jadi wawancara dan 20% wawancara berujung tawaran, kamu mendapat 0,6 tawaran. Besar kemungkinan nol. Naikkan konversi dokumen ke 8%, angka yang biasa dicapai lewat penyesuaian dan ketelitian, dan 100 lamaran yang sama menghasilkan 1,6 tawaran, tanpa kemampuan wawancaramu berubah sedikit pun. Perbaiki keduanya, dan 100 lamaran pada 8% dan 30% memberi 2,4 tawaran. Untuk itulah The Pack ada: membenahi gerbang dokumen biasanya perbaikan paling murah yang tersedia, dan dampaknya berlipat dengan semua yang datang sesudahnya."
        },
        "table": {
         "cols": [
@@ -2749,7 +2749,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Expected offers",
-          "id": "Tawaran yang diharapkan"
+          "id": "Perkiraan tawaran"
          }
         ],
         "rows": [
@@ -2844,12 +2844,12 @@ window.MT_LMS['the-pack'] = {
         ],
         "caption": {
          "en": "The last row is the targeting strategy: fewer, better applications. Forty at 15% beat a hundred at 3% by a factor of three, with half the hours.",
-         "id": "Baris terakhir adalah strategi membidik: lebih sedikit lamaran, lebih baik. Empat puluh pada 15% mengalahkan seratus pada 3% dengan faktor tiga, dengan separuh jam kerja."
+         "id": "Baris terakhir adalah strategi membidik: lebih sedikit lamaran, tetapi lebih baik. Empat puluh lamaran pada 15% mengalahkan seratus lamaran pada 3% tiga kali lipat, dengan separuh jam kerja."
         }
        },
        "key": {
         "en": "Small gains at the document gate multiply through the whole funnel, which is why fixing the documents is usually the cheapest improvement available.",
-        "id": "Perbaikan kecil di gerbang dokumen berlipat ganda sepanjang corong; itulah mengapa membenahi dokumen biasanya perbaikan termurah yang tersedia."
+        "id": "Perbaikan kecil di gerbang dokumen berlipat ganda di sepanjang corong; itulah mengapa membenahi dokumen biasanya perbaikan paling murah yang tersedia."
        }
       }
      ],
@@ -2871,7 +2871,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Leak = too few relevant openings a week. Fix: Module 2; widen the target list, add the network track.",
-         "id": "Bocor = terlalu sedikit lowongan relevan per minggu. Perbaikan: Modul 2, perluas daftar sasaran, tambahkan jalur jejaring."
+         "id": "Bocor = lowongan relevan per minggu terlalu sedikit. Perbaikan: Modul 2, perluas daftar sasaran, tambahkan jalur jejaring."
         }
        },
        {
@@ -2881,7 +2881,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Leak = under ~1 in 10 targeted applications get any response. Fix: Modules 3–6, CV, ATS, admin, letters.",
-         "id": "Bocor = kurang dari ~1 dari 10 lamaran terbidik mendapat respons. Perbaikan: Modul 3–6, CV, ATS, administrasi, surat."
+         "id": "Bocor = kurang dari ~1 dari 10 lamaran yang dibidik mendapat tanggapan. Perbaikan: Modul 3–6, CV, ATS, administrasi, surat."
         }
        },
        {
@@ -2891,40 +2891,40 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Leak = invitations arrive but tests or interviews are failed. Fix: Module 7 for tests, The Rope for the room.",
-         "id": "Bocor = undangan datang tetapi tes atau wawancara gagal. Perbaikan: Modul 7 untuk tes, The Rope untuk ruangan."
+         "id": "Bocor = undangan datang, tetapi tes atau wawancara gagal. Perbaikan: Modul 7 untuk tes, The Rope untuk ruang wawancara."
         }
        }
       ],
       "note": {
        "en": "Measure each joint separately. A search that fails at B is not helped by interview practice, and a search that fails at C is not helped by a better CV.",
-       "id": "Ukur setiap sambungan secara terpisah. Pencarian yang gagal di B tidak tertolong oleh latihan wawancara, dan pencarian yang gagal di C tidak tertolong oleh CV yang lebih baik."
+       "id": "Ukur tiap sambungan terpisah. Pencarian yang gagal di B tidak tertolong oleh latihan wawancara, dan pencarian yang gagal di C tidak tertolong oleh CV yang lebih bagus."
       },
       "longdesc": {
        "en": "A three-stage funnel drawn left to right. Stage A, openings found, leaks when too few relevant openings appear each week and is fixed by Module 2. Stage B, applications to invitations, leaks when fewer than about one in ten targeted applications get a response and is fixed by Modules 3 to 6. Stage C, invitations to offers, leaks when tests or interviews are failed and is fixed by Module 7 and The Rope.",
-       "id": "Corong tiga tahap yang digambar dari kiri ke kanan. Tahap A, lowongan ditemukan, bocor ketika terlalu sedikit lowongan relevan muncul setiap minggu dan diperbaiki oleh Modul 2. Tahap B, lamaran ke undangan, bocor ketika kurang dari sekitar satu dari sepuluh lamaran terbidik mendapat respons dan diperbaiki oleh Modul 3 sampai 6. Tahap C, undangan ke tawaran, bocor ketika tes atau wawancara gagal dan diperbaiki oleh Modul 7 dan The Rope."
+       "id": "Corong tiga tahap yang digambar dari kiri ke kanan. Tahap A, lowongan ditemukan, bocor ketika lowongan relevan yang muncul tiap minggu terlalu sedikit, dan diperbaiki oleh Modul 2. Tahap B, lamaran ke undangan, bocor ketika kurang dari sekitar satu dari sepuluh lamaran yang dibidik mendapat tanggapan, dan diperbaiki oleh Modul 3 sampai 6. Tahap C, undangan ke tawaran, bocor ketika tes atau wawancara gagal, dan diperbaiki oleh Modul 7 dan The Rope."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Two diagnoses of the same month",
-        "id": "Dua diagnosis atas bulan yang sama"
+        "id": "Dua diagnosis untuk bulan yang sama"
        },
        "q": {
         "en": "Nadia’s last month: 40 applications, 1 test invitation, 0 interviews. Her HIMA (the students’ association, himpunan mahasiswa) senior asks what she will change.",
-        "id": "Bulan terakhir Nadia: 40 lamaran, 1 undangan tes, 0 wawancara. Senior HIMA-nya bertanya apa yang akan ia ubah."
+        "id": "Bulan lalu Nadia mengirim 40 lamaran, mendapat 1 undangan tes, dan 0 wawancara. Seniornya di HIMA (himpunan mahasiswa) bertanya: apa yang mau kamu ubah?"
        },
        "weak": {
         "en": "“I think my interview skills are weak, so I’ll join a mock-interview workshop. And I’ll try to send 80 applications next month so at least some get through.”",
-        "id": "“Kayaknya kemampuan wawancaraku lemah, jadi aku mau ikut workshop simulasi wawancara. Dan bulan depan aku coba kirim 80 lamaran biar setidaknya ada yang tembus.”"
+        "id": "“Kayaknya kemampuan wawancaraku lemah, jadi aku mau ikut workshop simulasi wawancara. Terus bulan depan aku coba kirim 80 lamaran, biar setidaknya ada yang tembus.”"
        },
        "strong": {
         "en": "“One invitation from 40 is 2.5%; Stage B is leaking, so the paper is the first fix. I haven’t had an interview yet, so I can’t say anything about Stage C. Next month: 20 applications, each tailored, and I’ll measure the rate again.”",
-        "id": "“Satu undangan dari 40 itu 2,5%; Tahap B bocor, jadi dokumennya yang diperbaiki dulu. Aku belum pernah wawancara, jadi belum bisa bilang apa-apa soal Tahap C. Bulan depan: 20 lamaran, masing-masing disesuaikan, dan aku ukur lagi tingkatnya.”"
+        "id": "“Satu undangan dari 40 itu 2,5%; Tahap B-ku bocor, jadi dokumennya yang kubenahi dulu. Aku belum pernah wawancara, jadi belum bisa bilang apa-apa soal Tahap C. Bulan depan: 20 lamaran, semuanya disesuaikan, lalu kuukur lagi angkanya.”"
        },
        "why": {
         "en": "The weak answer fixes a stage that has not been tested and doubles the failing method. The strong answer names the leaking stage with a number, declines to diagnose what it has no data for, and changes one thing it can measure.",
-        "id": "Jawaban lemah memperbaiki tahap yang belum diuji dan melipatgandakan metode yang gagal. Jawaban kuat menamai tahap yang bocor dengan angka, menolak mendiagnosis hal yang tidak punya data, dan mengubah satu hal yang bisa diukur."
+        "id": "Jawaban yang lemah memperbaiki tahap yang belum pernah diuji dan melipatgandakan cara yang sudah gagal. Jawaban yang kuat menyebut tahap yang bocor dengan angka, menolak menebak hal yang belum ada datanya, dan mengubah satu hal yang bisa diukur."
        }
       }
      ],
@@ -2932,20 +2932,20 @@ window.MT_LMS['the-pack'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: the month Raka measured",
-       "id": "Sorotan: bulan yang diukur Raka"
+       "id": "Sorotan: bulan ketika Raka mulai mengukur"
       },
       "body": [
        {
         "en": "Raka, an bachelor’s degree Teknik Industri graduate in Surabaya, kept a note on his phone for one month: every application, every reply. At the end he had 71 lines. Sixty-two were Easy Apply clicks. Six were applications through company portals with a CV he had adjusted for each. Three were replies, all three to the six portal applications.",
-        "id": "Raka, lulusan S1 Teknik Industri di Surabaya, menyimpan catatan di ponselnya selama satu bulan: setiap lamaran, setiap balasan. Di akhir bulan ia punya 71 baris. Enam puluh dua adalah klik Easy Apply. Enam adalah lamaran lewat portal perusahaan dengan CV yang ia sesuaikan untuk masing-masing. Tiga adalah balasan, ketiganya untuk enam lamaran portal."
+        "id": "Raka, lulusan S1 Teknik Industri di Surabaya, mencatat di ponselnya selama satu bulan penuh: setiap lamaran, setiap balasan. Di akhir bulan, catatannya berisi 71 baris. Enam puluh dua di antaranya klik Easy Apply. Enam adalah lamaran lewat portal perusahaan, dengan CV yang ia sesuaikan satu per satu. Tiga adalah balasan, dan ketiganya datang untuk enam lamaran portal itu."
        },
        {
         "en": "He had been telling his parents “I applied to seventy places and heard back from three”. The note told a different story: 0 of 62 through one method, 3 of 6 through the other. The second method was working at 50%. He had spent about four hours on it, and about twenty on the first.",
-        "id": "Ia selama ini bercerita kepada orang tuanya “aku melamar ke tujuh puluh tempat dan dapat balasan dari tiga”. Catatan itu bercerita lain: 0 dari 62 lewat satu metode, 3 dari 6 lewat metode lain. Metode kedua bekerja pada 50%. Ia menghabiskan sekitar empat jam untuknya, dan sekitar dua puluh untuk yang pertama."
+        "id": "Selama ini ia bercerita kepada orang tuanya, “aku sudah melamar ke tujuh puluh tempat dan cuma tiga yang membalas”. Catatan itu bercerita lain: 0 dari 62 lewat cara pertama, 3 dari 6 lewat cara kedua. Cara kedua bekerja pada tingkat 50%. Ia menghabiskan sekitar empat jam untuk cara kedua, dan sekitar dua puluh jam untuk cara pertama."
        },
        {
         "en": "Nothing about Raka changed between the two methods. The measurement changed what he did next.",
-        "id": "Tidak ada yang berubah pada diri Raka di antara kedua metode. Pengukuranlah yang mengubah apa yang ia lakukan berikutnya."
+        "id": "Tidak ada yang berubah pada diri Raka di antara dua cara itu. Yang mengubah langkahnya berikutnya adalah pengukurannya."
        }
       ]
      },
@@ -2953,29 +2953,29 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill 1: Classify the month",
-        "id": "Latihan 1: Golongkan bulan itu"
+        "id": "Latihan 1: Golongkan kegiatan sebulan"
        },
        "body": {
         "en": "Here is Raka’s next month: 90 “Easy Apply” clicks on LinkedIn; uploaded his CV to two job-portal databases; applied to 6 roles at companies he researched, with tailored CVs; had one coffee with a senior from his HIMA who works at a bank. Classify each activity as browsing, broadcasting or targeting, and estimate how his hours were split.",
-        "id": "Inilah bulan berikutnya Raka: 90 klik “Easy Apply” di LinkedIn; mengunggah CV ke dua basis data portal lowongan; melamar ke 6 peran di perusahaan yang ia riset, dengan CV yang disesuaikan; satu kali ngopi dengan senior HIMA-nya yang bekerja di bank. Golongkan setiap kegiatan sebagai menjelajah, menyiarkan, atau membidik, dan perkirakan bagaimana jam kerjanya terbagi."
+        "id": "Ini bulan berikutnya Raka: 90 klik “Easy Apply” di LinkedIn; mengunggah CV ke dua basis data portal lowongan; melamar ke 6 posisi di perusahaan yang ia riset, dengan CV yang disesuaikan; satu kali ngopi dengan senior HIMA yang bekerja di bank. Golongkan tiap kegiatan sebagai menjelajah, menyebar, atau membidik, lalu perkirakan bagaimana jam kerjanya terbagi."
        },
        "debrief": {
         "en": "The Easy Apply clicks and database uploads are broadcasting and browsing; the six tailored applications and the coffee are targeting. By hours, Raka probably spent 80% of his time on the approaches least likely to work and 20% on the approaches most likely to. Swapping that ratio is the single highest-leverage change available to him.",
-        "id": "Klik Easy Apply dan unggahan basis data adalah menyiarkan dan menjelajah; enam lamaran yang disesuaikan dan acara ngopi adalah membidik. Dari jam kerjanya, Raka mungkin menghabiskan 80% waktunya pada pendekatan yang paling kecil kemungkinan berhasil dan 20% pada pendekatan yang paling besar. Menukar rasio itu adalah satu-satunya perubahan berdaya ungkit tertinggi yang tersedia baginya."
+        "id": "Klik Easy Apply dan unggahan ke basis data adalah menyebar dan menjelajah; enam lamaran yang disesuaikan dan acara ngopi itu adalah membidik. Dari jam kerjanya, Raka mungkin menghabiskan 80% waktu pada cara yang paling kecil peluangnya dan 20% pada cara yang paling besar peluangnya. Membalik perbandingan itu adalah satu perubahan dengan daya ungkit terbesar yang bisa ia lakukan."
        }
       },
       {
        "h": {
         "en": "Drill 2: Find the leak",
-        "id": "Latihan 2: Temukan kebocorannya"
+        "id": "Latihan 2: Temukan bocornya"
        },
        "body": {
         "en": "Three graduates, three months each. <b>Dewi:</b> 45 applications → 1 test invitation → 0 interviews. <b>Bayu:</b> 30 applications → 9 test invitations → 2 passed → 2 interviews → 0 offers. <b>Sari:</b> finds only 3 relevant openings a month. Identify each person’s leaking stage and the module that fixes it.",
-        "id": "Tiga lulusan, masing-masing tiga bulan. <b>Dewi:</b> 45 lamaran → 1 undangan tes → 0 wawancara. <b>Bayu:</b> 30 lamaran → 9 undangan tes → 2 lulus → 2 wawancara → 0 tawaran. <b>Sari:</b> hanya menemukan 3 lowongan relevan per bulan. Kenali tahap yang bocor pada masing-masing orang dan modul yang memperbaikinya."
+        "id": "Tiga lulusan, masing-masing tiga bulan. <b>Dewi:</b> 45 lamaran → 1 undangan tes → 0 wawancara. <b>Bayu:</b> 30 lamaran → 9 undangan tes → 2 lulus → 2 wawancara → 0 tawaran. <b>Sari:</b> hanya menemukan 3 lowongan relevan sebulan. Tentukan tahap yang bocor pada tiap orang dan modul yang memperbaikinya."
        },
        "debrief": {
         "en": "Dewi leaks at Stage B (1 in 45, about 2%); the paper: Modules 3–6. Bayu’s paper works well (9 in 30, 30%); his leaks are the tests (2 of 9 passed, Module 7) and interviews (0 of 2; The Rope, though two interviews is too small a sample to be sure). Sari leaks at Stage A; her target is too narrow or single-channel: Module 2.",
-        "id": "Dewi bocor di Tahap B (1 dari 45, sekitar 2%), dokumennya: Modul 3–6. Dokumen Bayu bekerja baik (9 dari 30, 30%); kebocorannya ada di tes (2 dari 9 lulus, Modul 7) dan wawancara (0 dari 2, The Rope, meski dua wawancara terlalu kecil untuk dipastikan). Sari bocor di Tahap A, sasarannya terlalu sempit atau satu saluran: Modul 2."
+        "id": "Dewi bocor di Tahap B (1 dari 45, sekitar 2%); dokumennya: Modul 3–6. Dokumen Bayu bekerja dengan baik (9 dari 30, 30%); bocornya ada di tes (2 dari 9 lulus, Modul 7) dan wawancara (0 dari 2, The Rope, meski dua wawancara terlalu sedikit untuk disimpulkan). Sari bocor di Tahap A; sasarannya terlalu sempit atau cuma satu saluran: Modul 2."
        }
       },
       {
@@ -2985,11 +2985,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Fill in your last 90 days: openings found, applications sent, test invitations, tests passed, interviews, offers. Compute the three conversions: openings per week; invitations ÷ applications; offers ÷ interviews (and tests passed ÷ tests taken). Which stage is leaking?",
-        "id": "Isi 90 hari terakhirmu: lowongan ditemukan, lamaran terkirim, undangan tes, tes yang lulus, wawancara, tawaran. Hitung tiga konversinya: lowongan per minggu; undangan ÷ lamaran; tawaran ÷ wawancara (dan tes lulus ÷ tes diikuti). Tahap mana yang bocor?"
+        "id": "Isi angka 90 hari terakhirmu: lowongan yang ditemukan, lamaran yang dikirim, undangan tes, tes yang lulus, wawancara, tawaran. Hitung tiga konversinya: lowongan per minggu; undangan ÷ lamaran; tawaran ÷ wawancara (dan tes lulus ÷ tes diikuti). Tahap mana yang bocor?"
        },
        "debrief": {
         "en": "If you cannot fill in the numbers, that is itself the diagnosis; Lesson 1.4 sets up tracking so that next month you can. If your applications were mostly untailored, treat the Stage B number as a measure of broadcasting, not of your CV: the first fix is to send twenty targeted ones and measure again.",
-        "id": "Jika kamu tidak bisa mengisi angkanya, itu sendiri adalah diagnosisnya, Pelajaran 1.4 menyiapkan pelacakan agar bulan depan kamu bisa. Jika lamaranmu sebagian besar tidak disesuaikan, perlakukan angka Tahap B sebagai ukuran menyiarkan, bukan ukuran CV-mu: perbaikan pertama adalah mengirim dua puluh lamaran terbidik dan mengukur lagi."
+        "id": "Kalau kamu tidak bisa mengisi angkanya, itu sendiri sudah sebuah diagnosis; Pelajaran 1.4 menyiapkan pencatatan supaya bulan depan kamu bisa. Kalau lamaranmu kebanyakan tidak disesuaikan, anggap angka Tahap B sebagai ukuran cara menyebar, bukan ukuran CV-mu: perbaikan pertamanya adalah mengirim dua puluh lamaran yang dibidik, lalu mengukur lagi."
        }
       }
      ],
@@ -3002,27 +3002,27 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Measure the conversion at each stage.",
-         "id": "Ukur konversi di setiap tahap."
+         "id": "Ukur konversi di tiap tahap."
         }
        },
        {
         "h": {
          "en": "Fixing the interview when the CV is the problem",
-         "id": "Memperbaiki wawancara padahal CV-nya yang bermasalah"
+         "id": "Memperbaiki wawancara, padahal CV-nya yang bermasalah"
         },
         "fix": {
          "en": "If invitations are rare, no interview practice will help yet.",
-         "id": "Jika undangan langka, latihan wawancara belum akan membantu."
+         "id": "Kalau undangan masih langka, latihan wawancara belum akan menolong."
         }
        },
        {
         "h": {
          "en": "Treating one bad month as a trend",
-         "id": "Menganggap satu bulan buruk sebagai tren"
+         "id": "Menganggap satu bulan yang buruk sebagai tren"
         },
         "fix": {
          "en": "Diagnose on at least 20–30 targeted applications.",
-         "id": "Diagnosis pada setidaknya 20–30 lamaran terbidik."
+         "id": "Diagnosis dari setidaknya 20–30 lamaran yang dibidik."
         }
        },
        {
@@ -3032,7 +3032,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Count them separately. They tell you about broadcasting, not about your paper.",
-         "id": "Hitung terpisah. Angka itu bercerita tentang menyiarkan, bukan tentang dokumenmu."
+         "id": "Hitung terpisah. Angka itu bercerita tentang cara menyebar, bukan tentang dokumenmu."
         }
        }
       ]
@@ -3051,7 +3051,7 @@ window.MT_LMS['the-pack'] = {
       {
        "term": {
         "en": "Broadcasting",
-        "id": "Menyiarkan"
+        "id": "Menyebar"
        },
        "def": {
         "en": "Sending one CV widely, or uploading it to databases, and waiting.",
@@ -3065,7 +3065,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Choosing the work, the organisations, and the right person inside each, then approaching them deliberately.",
-        "id": "Memilih pekerjaan, organisasinya, dan orang yang tepat di dalam masing-masing, lalu mendekatinya dengan sengaja."
+        "id": "Memilih pekerjaannya, organisasinya, dan orang yang tepat di dalamnya, lalu mendekati mereka dengan sengaja."
        }
       },
       {
@@ -3075,7 +3075,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The share of one stage that reaches the next, invitations divided by applications, for example.",
-        "id": "Bagian dari satu tahap yang mencapai tahap berikutnya, undangan dibagi lamaran, misalnya."
+        "id": "Bagian dari satu tahap yang berhasil mencapai tahap berikutnya; misalnya undangan dibagi lamaran."
        }
       },
       {
@@ -3085,7 +3085,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The stage whose conversion is far below a healthy rule of thumb; the place to fix first.",
-        "id": "Tahap yang konversinya jauh di bawah patokan sehat; tempat yang diperbaiki lebih dulu."
+        "id": "Tahap yang konversinya jauh di bawah patokan sehat; tempat yang harus dibenahi lebih dulu."
        }
       }
      ],
@@ -3093,7 +3093,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "60 applications, 12 test invitations, 1 test passed. Where is the leak?",
-        "id": "60 lamaran, 12 undangan tes, 1 tes lulus. Di mana kebocorannya?"
+        "id": "60 lamaran, 12 undangan tes, 1 tes lulus. Di mana bocornya?"
        },
        "options": [
         {
@@ -3106,17 +3106,17 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Stage C: test performance",
-         "id": "Tahap C: kinerja tes"
+         "id": "Tahap C: penampilan di tes"
         },
         {
          "en": "Nowhere",
-         "id": "Tidak ada"
+         "id": "Tidak ada yang bocor"
         }
        ],
        "correct": 2,
        "why": {
         "en": "12 of 60 is a healthy invitation rate; 1 of 12 passed points to test preparation.",
-        "id": "12 dari 60 adalah tingkat undangan yang sehat; 1 dari 12 lulus menunjuk ke persiapan tes."
+        "id": "12 dari 60 adalah tingkat undangan yang sehat; 1 dari 12 yang lulus menunjuk ke persiapan tes."
        }
       },
       {
@@ -3131,27 +3131,27 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Applying to every “fresh graduate” posting",
-         "id": "Melamar setiap lowongan “fresh graduate”"
+         "id": "Melamar ke semua lowongan “fresh graduate”"
         },
         {
          "en": "Choosing eight employers, finding a relevant person at each, and tailoring your CV to their roles",
-         "id": "Memilih delapan perusahaan, menemukan orang yang relevan di masing-masing, dan menyesuaikan CV untuk peran mereka"
+         "id": "Memilih delapan perusahaan, menemukan orang yang relevan di masing-masing, dan menyesuaikan CV untuk posisi mereka"
         },
         {
          "en": "Clicking Easy Apply on 50 roles",
-         "id": "Mengeklik Easy Apply di 50 peran"
+         "id": "Mengeklik Easy Apply di 50 posisi"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Targeting chooses the organisation and the person, and tailors the approach. The other three are browsing or broadcasting.",
-        "id": "Membidik memilih organisasi dan orangnya, lalu menyesuaikan pendekatan. Tiga lainnya adalah menjelajah atau menyiarkan."
+        "id": "Membidik berarti memilih organisasi dan orangnya, lalu menyesuaikan pendekatan. Tiga lainnya adalah menjelajah atau menyebar."
        }
       },
       {
        "q": {
         "en": "Improving your application-to-interview rate from 3% to 8% while keeping interview performance constant will…",
-        "id": "Menaikkan tingkat lamaran-ke-wawancara dari 3% ke 8% dengan kinerja wawancara tetap akan…"
+        "id": "Menaikkan tingkat lamaran-ke-wawancara dari 3% ke 8%, dengan kemampuan wawancara yang tetap, akan…"
        },
        "options": [
         {
@@ -3160,7 +3160,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Increase expected offers by roughly 2.7× for the same number of applications",
-         "id": "Menaikkan tawaran yang diharapkan kira-kira 2,7× untuk jumlah lamaran yang sama"
+         "id": "Menaikkan perkiraan tawaran kira-kira 2,7 kali lipat untuk jumlah lamaran yang sama"
         },
         {
          "en": "Only matter for state-owned enterprise roles",
@@ -3174,7 +3174,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "8 ÷ 3 ≈ 2.7; improvements at the top multiply through the funnel.",
-        "id": "8 ÷ 3 ≈ 2,7; perbaikan di puncak berlipat ganda sepanjang corong."
+        "id": "8 ÷ 3 ≈ 2,7; perbaikan di bagian atas berlipat ganda di sepanjang corong."
        }
       }
      ],
@@ -3187,7 +3187,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Enter your last 90 days in the tracker, every application with its stage reached. The funnel panel computes your stage conversions and points you to the modules to prioritise. Save the result: it is Dossier item 1, your Search Diagnosis.",
-       "id": "Masukkan 90 hari terakhirmu ke pelacak; setiap lamaran dengan tahap yang dicapai. Panel corong menghitung konversi antartahapmu dan menunjuk modul yang perlu diprioritaskan. Simpan hasilnya: itu butir Dossier 1, Diagnosis Pencarianmu."
+       "id": "Masukkan 90 hari terakhirmu ke pelacak, setiap lamaran beserta tahap yang dicapai. Panel corong akan menghitung konversi antartahapmu dan menunjukkan modul mana yang perlu didahulukan. Simpan hasilnya: itulah butir Dossier 1, Diagnosis Pencarianmu."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -3197,15 +3197,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "More of a failing method is not a strategy; find the leaking stage first.",
-       "id": "Lebih banyak metode yang gagal bukanlah strategi; temukan tahap yang bocor lebih dulu."
+       "id": "Mengulang lebih banyak cara yang gagal bukan strategi; temukan dulu tahap yang bocor."
       },
       {
        "en": "Each stage, openings, paper, performance, has a different fix.",
-       "id": "Setiap tahap, lowongan, dokumen, kinerja, punya perbaikan yang berbeda."
+       "id": "Tiap tahap (lowongan, dokumen, penampilan) punya perbaikan yang berbeda."
       },
       {
        "en": "Small gains at the paper gate multiply through the funnel.",
-       "id": "Perolehan kecil di gerbang dokumen berlipat ganda sepanjang corong."
+       "id": "Perbaikan kecil di gerbang dokumen berlipat ganda di sepanjang corong."
       }
      ],
      "resources": {
@@ -3215,7 +3215,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "The diagnostic model and a worksheet you can copy into your notes.",
-       "id": "Model diagnostik dan lembar kerja yang bisa kamu salin ke catatanmu."
+       "id": "Model diagnosisnya dan lembar kerja yang bisa kamu salin ke catatanmu."
       },
       "items": [
        {
@@ -3231,7 +3231,7 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "L. Williams, <i>Ultimate Job Search</i>, ch. 11 and 13, browsing, broadcasting and targeting; the three-stage diagnostic.",
-          "id": "L. Williams, <i>Ultimate Job Search</i>, bab 11 dan 13, menjelajah, menyiarkan, dan membidik; diagnostik tiga tahap."
+          "id": "L. Williams, <i>Ultimate Job Search</i>, bab 11 dan 13; menjelajah, menyebar, dan membidik; diagnosis tiga tahap."
          },
          {
           "en": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (2008 ed.), ch. 1, “job-hunting insanity”; the method ranking (percentages dated).",
@@ -3260,7 +3260,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Test invitations + calls + interviews received: ___ → ÷ applications = ___ % (Stage B; healthy ≈ 10%+ of tailored ones)",
-          "id": "Undangan tes + telepon + wawancara diterima: ___ → ÷ lamaran = ___ % (Tahap B; sehat ≈ 10%+ dari yang disesuaikan)"
+          "id": "Undangan tes + telepon + wawancara yang diterima: ___ → ÷ lamaran = ___ % (Tahap B; sehat ≈ 10%+ dari yang disesuaikan)"
          },
          {
           "en": "Tests taken: ___ · passed: ___ → ___ % (Stage C, tests)",
@@ -3293,12 +3293,12 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "A job search run on mood is exhausting and ineffective. A job search run on a system is calmer and faster. This lesson replaces “applications sent” with measures that predict offers, and gives you a weekly rhythm that fits around study or work.",
-      "id": "Pencarian kerja yang dijalankan dengan suasana hati itu melelahkan dan tidak efektif. Pencarian kerja yang dijalankan dengan sistem lebih tenang dan lebih cepat. Pelajaran ini mengganti “lamaran terkirim” dengan ukuran yang memprediksi tawaran, dan memberimu ritme mingguan yang muat di sela kuliah atau pekerjaan."
+      "id": "Pencarian kerja yang bergantung pada suasana hati itu melelahkan dan jarang membuahkan hasil. Pencarian kerja yang berjalan dengan sistem lebih tenang dan lebih cepat. Pelajaran ini mengganti “sudah kirim berapa lamaran” dengan ukuran yang benar-benar meramalkan tawaran, dan memberimu ritme mingguan yang muat di sela kuliah atau kerja."
      },
      "objectives": [
       {
        "en": "Replace defensive metrics with <b>leading indicators</b> in your own tracker.",
-       "id": "Mengganti metrik defensif dengan <b>indikator penuntun</b> di pelacakmu sendiri."
+       "id": "Mengganti ukuran yang sekadar terlihat sibuk dengan <b>indikator penuntun</b> di pelacakmu sendiri."
       },
       {
        "en": "Set up a weekly search rhythm with a fixed review ritual.",
@@ -3306,11 +3306,11 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Explain to your family, in one short message, why conversations count as progress.",
-       "id": "Menjelaskan kepada keluargamu, dalam satu pesan singkat, mengapa percakapan terhitung sebagai kemajuan."
+       "id": "Menjelaskan kepada keluarga, dalam satu pesan singkat, mengapa obrolan dengan orang juga terhitung kemajuan."
       },
       {
        "en": "Use three evidence-based reframes to manage rejection.",
-       "id": "Memakai tiga pembingkaian ulang berbasis bukti untuk mengelola penolakan."
+       "id": "Memakai tiga sudut pandang yang didukung bukti untuk menghadapi penolakan."
       }
      ],
      "readFirst": {
@@ -3330,15 +3330,15 @@ window.MT_LMS['the-pack'] = {
        "story": [
         {
          "en": "The defensive job search counts what is easy to count, and protects us from what works",
-         "id": "Pencarian kerja defensif menghitung yang mudah dihitung, dan melindungi kita dari yang berhasil"
+         "id": "Pencarian kerja yang defensif menghitung apa yang mudah dihitung, dan melindungi kita dari apa yang benar-benar berhasil"
         },
         {
          "en": "A pipeline needs a tracker: twelve columns, and two of them matter more than they look",
-         "id": "Pipa butuh pelacak: dua belas kolom, dan dua di antaranya lebih penting dari kelihatannya"
+         "id": "Alur butuh pelacak: dua belas kolom, dan dua di antaranya lebih penting dari kelihatannya"
         },
         {
          "en": "A weekly rhythm with four review questions; if nothing is due, the system is working",
-         "id": "Ritme mingguan dengan empat pertanyaan tinjauan; jika tidak ada yang jatuh tempo, sistemnya bekerja"
+         "id": "Ritme mingguan dengan empat pertanyaan tinjauan; kalau tidak ada yang jatuh tempo, berarti sistemnya bekerja"
         }
        ],
        "takes": [
@@ -3349,7 +3349,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Targets are for a graduate searching part-time; a full-time searcher can roughly double them.",
-          "id": "Target ini untuk lulusan yang mencari paruh waktu; pencari penuh waktu bisa menggandakannya."
+          "id": "Target ini untuk lulusan baru yang mencari kerja paruh waktu; kalau penuh waktu, kira-kira gandakan saja."
          }
         },
         {
@@ -3359,7 +3359,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "One row per application; the tracker is where Friday’s review and Module 9’s calendar both live.",
-          "id": "Satu baris per lamaran; pelacak adalah tempat tinjauan Jumat dan kalender Modul 9 sama-sama hidup."
+          "id": "Satu baris per lamaran; di pelacak inilah tinjauan Jumat dan kalender Modul 9 sama-sama hidup."
          }
         },
         {
@@ -3369,7 +3369,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Rest is part of the system: networking pays off with a delay, like checking traps rather than fishing with a rod.",
-          "id": "Istirahat adalah bagian dari sistem: jejaring membuahkan hasil dengan jeda, seperti memeriksa perangkap, bukan memancing dengan joran."
+          "id": "Istirahat adalah bagian dari sistem: jejaring berbuah dengan jeda, seperti memeriksa perangkap, bukan memancing dengan joran."
          }
         }
        ],
@@ -3378,13 +3378,13 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "The defensive job search counts what is easy to count, and protects us from what works",
-          "id": "Pencarian kerja defensif menghitung yang mudah dihitung, dan melindungi kita dari yang berhasil"
+          "id": "Pencarian kerja yang defensif menghitung apa yang mudah dihitung, dan melindungi kita dari apa yang benar-benar berhasil"
          },
          "cols": [
           {
            "l": {
             "en": "Defensive metric",
-            "id": "Metrik defensif"
+            "id": "Ukuran defensif"
            },
            "d": {
             "en": "Visible, easy to report",
@@ -3394,7 +3394,7 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "mail",
              "en": "Applications sent",
-             "id": "Lamaran terkirim"
+             "id": "Lamaran yang dikirim"
             },
             {
              "icon": "clock",
@@ -3404,7 +3404,7 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "hand",
              "en": "Feels controllable; answers the question from home",
-             "id": "Terasa terkendali; menjawab pertanyaan dari rumah"
+             "id": "Terasa terkendali; bisa menjawab pertanyaan dari rumah"
             },
             {
              "icon": "warn",
@@ -3421,7 +3421,7 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "Comes before an offer, under your control",
-            "id": "Datang sebelum tawaran, dalam kendalimu"
+            "id": "Terjadi sebelum tawaran, dan ada di tanganmu"
            },
            "items": [
             {
@@ -3432,17 +3432,17 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "search",
              "en": "Target employers researched and scored: build to 40, then maintain",
-             "id": "Perusahaan sasaran diriset dan dinilai: bangun sampai 40, lalu jaga"
+             "id": "Perusahaan sasaran yang diriset dan diberi skor: bangun sampai 40, lalu jaga"
             },
             {
              "icon": "chat",
              "en": "Outreach messages 3–5; conversations held 1–2 a week",
-             "id": "Pesan penjangkauan 3–5; percakapan 1–2 seminggu"
+             "id": "Pesan penjajakan 3–5; obrolan yang terjadi 1–2 seminggu"
             },
             {
              "icon": "users",
              "en": "Advocates identified, cumulative; test-practice sessions 3–5 × 25 minutes",
-             "id": "Pendukung teridentifikasi, kumulatif; sesi latihan tes 3–5 × 25 menit"
+             "id": "Pendukung yang ditemukan, kumulatif; sesi latihan tes 3–5 × 25 menit"
             }
            ],
            "icon": "check"
@@ -3453,29 +3453,29 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "S. Dalton, The 2-Hour Job Search: applications sent and hours on job boards answer “sudah melamar berapa?”, and correlate weakly with offers.",
-          "id": "S. Dalton, The 2-Hour Job Search: lamaran terkirim dan jam di situs lowongan menjawab “sudah melamar berapa?”, dan berkorelasi lemah dengan tawaran."
+          "id": "S. Dalton, The 2-Hour Job Search: jumlah lamaran dan jam di situs lowongan menjawab “sudah melamar berapa?”, tetapi hampir tidak ada hubungannya dengan tawaran."
          },
          "band": {
           "en": "Targets are for a graduate searching part-time; a full-time searcher can roughly double them.",
-          "id": "Target ini untuk lulusan yang mencari paruh waktu; pencari penuh waktu bisa menggandakannya."
+          "id": "Target ini untuk lulusan baru yang mencari kerja paruh waktu; kalau penuh waktu, kira-kira gandakan saja."
          },
          "em": {
           "en": "protects us from what works",
-          "id": "melindungi kita dari yang berhasil"
+          "id": "melindungi kita dari apa yang benar-benar berhasil"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "A pipeline needs a tracker: twelve columns, and two of them matter more than they look",
-          "id": "Pipa butuh pelacak: dua belas kolom, dan dua di antaranya lebih penting dari kelihatannya"
+          "id": "Alur butuh pelacak: dua belas kolom, dan dua di antaranya lebih penting dari kelihatannya"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "building",
            "en": "Employer, role, track",
-           "id": "Perusahaan, peran, jalur",
+           "id": "Perusahaan, posisi, jalur",
            "d": {
             "en": "Process or network: the track decides the rhythm of follow-up.",
             "id": "Proses atau jejaring: jalurnya menentukan ritme tindak lanjut."
@@ -3488,7 +3488,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Sumber dan tanggal melamar",
            "d": {
             "en": "Posting, referral or outreach; the date starts every follow-up clock.",
-            "id": "Lowongan, rujukan, atau penjangkauan; tanggalnya memulai setiap jam tindak lanjut."
+            "id": "Lowongan, rekomendasi, atau penjajakan; tanggalnya memulai setiap jam tindak lanjut."
            },
            "img": "../../assets/bg/stage-exploration.jpg"
           },
@@ -3498,7 +3498,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Versi CV yang dipakai",
            "d": {
             "en": "The version the recruiter is holding when they call.",
-            "id": "Versi yang dipegang perekrut saat mereka menelepon."
+            "id": "Versi yang dipegang perekrut saat ia menelepon."
            },
            "img": "../../assets/bg/fg-sprint-interview.jpg"
           },
@@ -3515,7 +3515,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "bell",
            "en": "Last action, next action and date",
-           "id": "Tindakan terakhir, berikutnya, dan tanggal",
+           "id": "Tindakan terakhir, tindakan berikutnya, dan tanggalnya",
            "d": {
             "en": "Follow-up is scheduled, not remembered.",
             "id": "Tindak lanjut dijadwalkan, bukan diingat-ingat."
@@ -3528,18 +3528,18 @@ window.MT_LMS['the-pack'] = {
            "id": "Tahap, hasil, pelajaran",
            "d": {
             "en": "“Failed admin screening: TOEFL scan too large” is a fix, not a wound.",
-            "id": "“Gagal seleksi administrasi: pindaian TOEFL terlalu besar” adalah perbaikan, bukan luka."
+            "id": "“Gagal seleksi administrasi: hasil pindai TOEFL terlalu besar” adalah perbaikan, bukan luka."
            },
            "img": "../../assets/bg/hero.jpg"
           }
          ],
          "sub": {
           "en": "When a recruiter calls, you must know which CV version they are holding; the “lesson learned” column turns rejections into data.",
-          "id": "Saat perekrut menelepon, kamu harus tahu versi CV mana yang mereka pegang; kolom “pelajaran” mengubah penolakan menjadi data."
+          "id": "Ketika perekrut menelepon, kamu harus tahu versi CV mana yang mereka pegang; kolom “pelajaran” mengubah penolakan menjadi data."
          },
          "band": {
           "en": "One row per application; the tracker is where Friday’s review and Module 9’s calendar both live.",
-          "id": "Satu baris per lamaran; pelacak adalah tempat tinjauan Jumat dan kalender Modul 9 sama-sama hidup."
+          "id": "Satu baris per lamaran; di pelacak inilah tinjauan Jumat dan kalender Modul 9 sama-sama hidup."
          },
          "em": {
           "en": "two of them matter more than they look",
@@ -3550,7 +3550,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "A weekly rhythm with four review questions; if nothing is due, the system is working",
-          "id": "Ritme mingguan dengan empat pertanyaan tinjauan; jika tidak ada yang jatuh tempo, sistemnya bekerja"
+          "id": "Ritme mingguan dengan empat pertanyaan tinjauan; kalau tidak ada yang jatuh tempo, berarti sistemnya bekerja"
          },
          "layout": "grid",
          "items": [
@@ -3560,7 +3560,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Apa yang terjadi pada angka?",
            "d": {
             "en": "Tailored applications, outreach, conversations, advocates, practice sessions, this week versus last.",
-            "id": "Lamaran yang disesuaikan, penjangkauan, percakapan, pendukung, sesi latihan, minggu ini versus lalu."
+            "id": "Lamaran yang disesuaikan, penjajakan, obrolan, pendukung, sesi latihan; minggu ini dibandingkan minggu lalu."
            },
            "img": "../../assets/pe/ed-conversations.jpg"
           },
@@ -3570,7 +3570,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Tahap mana yang bocor sekarang?",
            "d": {
             "en": "Re-run the three-stage diagnostic on the running totals.",
-            "id": "Jalankan ulang diagnostik tiga tahap pada total berjalan."
+            "id": "Jalankan lagi diagnosis tiga tahap pada angka kumulatifmu."
            },
            "img": "../../assets/bg/compass.jpg"
           },
@@ -3580,7 +3580,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Apa satu perubahan untuk minggu depan?",
            "d": {
             "en": "One, not five. Write it into Monday’s plan.",
-            "id": "Satu, bukan lima. Tulis ke rencana Senin."
+            "id": "Satu, bukan lima. Tulis langsung ke rencana hari Senin."
            },
            "img": "../../assets/bg/ep-stage-architecture.jpg"
           },
@@ -3590,22 +3590,22 @@ window.MT_LMS['the-pack'] = {
            "id": "Apa yang berjalan baik?",
            "d": {
             "en": "A reply, a conversation that flowed, a bullet you finally wrote honestly.",
-            "id": "Sebuah balasan, percakapan yang mengalir, butir yang akhirnya kamu tulis dengan jujur."
+            "id": "Sebuah balasan, obrolan yang mengalir, satu butir CV yang akhirnya kamu tulis dengan jujur."
            },
            "img": "../../assets/bg/stage-execution.jpg"
           }
          ],
          "sub": {
           "en": "Monday plan, Tuesday to Thursday execute, Friday follow-ups and review, weekend rest.",
-          "id": "Senin merencanakan, Selasa sampai Kamis mengeksekusi, Jumat tindak lanjut dan tinjauan, akhir pekan istirahat."
+          "id": "Senin merencanakan, Selasa sampai Kamis menjalankan, Jumat tindak lanjut dan tinjauan, akhir pekan istirahat."
          },
          "band": {
           "en": "Rest is part of the system: networking pays off with a delay, like checking traps rather than fishing with a rod.",
-          "id": "Istirahat adalah bagian dari sistem: jejaring membuahkan hasil dengan jeda, seperti memeriksa perangkap, bukan memancing dengan joran."
+          "id": "Istirahat adalah bagian dari sistem: jejaring berbuah dengan jeda, seperti memeriksa perangkap, bukan memancing dengan joran."
          },
          "em": {
           "en": "the system is working",
-          "id": "sistemnya bekerja"
+          "id": "berarti sistemnya bekerja"
          }
         }
        ],
@@ -3620,11 +3620,11 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Measure what predicts, plan what repeats",
-       "id": "Ukur yang memprediksi, rencanakan yang berulang"
+       "id": "Ukur yang meramalkan, rencanakan yang berulang"
       },
       "intro": {
        "en": "A system has three parts: numbers worth watching, a place to keep them, and a rhythm for looking at them.",
-       "id": "Sebuah sistem punya tiga bagian: angka yang layak diawasi, tempat menyimpannya, dan ritme untuk melihatnya."
+       "id": "Sebuah sistem punya tiga bagian: angka yang layak diawasi, tempat menyimpannya, dan ritme untuk menengoknya."
       },
       "slides": [
        {
@@ -3635,15 +3635,15 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "We report what is easy to count: applications sent, hours on job boards.",
-          "id": "Kita melaporkan yang mudah dihitung: lamaran terkirim, jam di situs lowongan."
+          "id": "Kita melaporkan yang mudah dihitung: lamaran yang dikirim, jam yang dihabiskan di situs lowongan."
          },
          {
           "en": "These numbers answer “<i>sudah melamar berapa?</i>” And correlate weakly with offers.",
-          "id": "Angka-angka ini menjawab “<i>sudah melamar berapa?</i>” Dan berkorelasi lemah dengan tawaran."
+          "id": "Angka-angka itu menjawab pertanyaan “<i>sudah melamar berapa?</i>”, tetapi hampir tidak ada hubungannya dengan tawaran."
          },
          {
           "en": "They protect us from the uncomfortable activities that work.",
-          "id": "Angka-angka itu melindungi kita dari kegiatan tidak nyaman yang justru berhasil."
+          "id": "Angka-angka itu melindungi kita dari kegiatan yang tidak nyaman, tetapi justru berhasil."
          }
         ]
        },
@@ -3655,15 +3655,15 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Tailored applications · outreach messages · conversations held · advocates identified · test-practice sessions.",
-          "id": "Lamaran yang disesuaikan · pesan penjangkauan · percakapan yang terjadi · pendukung yang teridentifikasi · sesi latihan tes."
+          "id": "Lamaran yang disesuaikan · pesan penjajakan · obrolan yang terjadi · pendukung yang ditemukan · sesi latihan tes."
          },
          {
           "en": "Each one comes <b>before</b> an offer and is under your control.",
-          "id": "Masing-masing datang <b>sebelum</b> tawaran dan berada dalam kendalimu."
+          "id": "Masing-masing terjadi <b>sebelum</b> tawaran datang, dan ada di tanganmu."
          },
          {
           "en": "These are the numbers your Friday review looks at.",
-          "id": "Inilah angka-angka yang dilihat tinjauan Jumat-mu."
+          "id": "Inilah angka-angka yang kamu tengok di tinjauan hari Jumat."
          }
         ]
        },
@@ -3675,7 +3675,7 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Monday plan · Tuesday–Thursday execute · Friday follow-ups and review · weekend rest.",
-          "id": "Senin merencanakan · Selasa–Kamis mengeksekusi · Jumat tindak lanjut dan tinjauan · akhir pekan istirahat."
+          "id": "Senin merencanakan · Selasa sampai Kamis menjalankan · Jumat tindak lanjut dan tinjauan · akhir pekan istirahat."
          },
          {
           "en": "Four review questions: what did the numbers do, which stage leaks, one change, what went well.",
@@ -3683,7 +3683,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "If nothing is due, the system is working. Rest is part of it.",
-          "id": "Jika tidak ada yang jatuh tempo, sistemnya bekerja. Istirahat adalah bagian darinya."
+          "id": "Kalau tidak ada yang jatuh tempo, berarti sistemnya bekerja. Istirahat adalah bagian darinya."
          }
         ]
        }
@@ -3698,7 +3698,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Steve Dalton describes a pattern he calls the <b>defensive job search</b>: we optimise for effort that is visible and easy to report, applications submitted, hours on job boards, because it feels controllable and it answers the question from home, “<i>Sudah melamar berapa?</i>” <i>(Dalton, The 2-Hour Job Search, introduction)</i>. These numbers correlate weakly with success. They make us feel busy while protecting us from the more uncomfortable activities that actually work, like messaging a stranger who works where we want to work. The defensive search is not lazy. It is often exhausting. It is defensive because its real purpose is to have an answer when someone asks what we did today.",
-        "id": "Steve Dalton menggambarkan pola yang ia sebut <b>pencarian kerja defensif</b>: kita mengoptimalkan usaha yang terlihat dan mudah dilaporkan, lamaran yang dikirim, jam di situs lowongan, karena terasa terkendali dan menjawab pertanyaan dari rumah, “<i>Sudah melamar berapa?</i>” <i>(Dalton, The 2-Hour Job Search, pendahuluan)</i>. Angka-angka ini berkorelasi lemah dengan keberhasilan. Angka-angka itu membuat kita merasa sibuk sambil melindungi kita dari kegiatan yang lebih tidak nyaman tetapi benar-benar berhasil, seperti mengirim pesan kepada orang asing yang bekerja di tempat yang kita inginkan. Pencarian defensif bukan berarti malas. Sering kali justru melelahkan. Ia defensif karena tujuan sebenarnya adalah punya jawaban ketika seseorang bertanya apa yang kita lakukan hari ini."
+        "id": "Steve Dalton menggambarkan pola yang ia sebut <b>pencarian kerja defensif</b>: kita mengutamakan usaha yang terlihat dan mudah dilaporkan, seperti jumlah lamaran yang dikirim atau jam yang dihabiskan di situs lowongan, karena terasa terkendali dan bisa menjawab pertanyaan dari rumah, “<i>Sudah melamar berapa?</i>” <i>(Dalton, The 2-Hour Job Search, pendahuluan)</i>. Angka-angka ini hampir tidak ada hubungannya dengan keberhasilan. Mereka membuat kita merasa sibuk, sekaligus melindungi kita dari kegiatan yang lebih tidak nyaman tetapi benar-benar berhasil, misalnya mengirim pesan kepada orang asing yang bekerja di tempat yang kita incar. Pencarian defensif bukan berarti malas. Sering kali justru melelahkan. Disebut defensif karena tujuan sebenarnya adalah punya jawaban ketika seseorang bertanya apa yang kita kerjakan hari ini."
        },
        "key": {
         "en": "Counting applications feels productive because it is visible, but it measures effort, not progress toward an offer.",
@@ -3713,13 +3713,13 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Replace the defensive metrics with measures that come <b>before</b> offers and that you control. The targets below are for a fresh graduate searching part-time alongside study or a job; a full-time searcher can roughly double them.",
-        "id": "Ganti metrik defensif dengan ukuran yang datang <b>sebelum</b> tawaran dan berada dalam kendalimu. Target di bawah ini untuk lulusan baru yang mencari kerja paruh waktu di sela kuliah atau pekerjaan; pencari kerja penuh waktu bisa menggandakannya."
+        "id": "Ganti ukuran yang defensif dengan ukuran yang terjadi <b>sebelum</b> tawaran dan ada di tanganmu. Target di bawah ini untuk lulusan baru yang mencari kerja paruh waktu di sela kuliah atau pekerjaan; kalau kamu mencari kerja penuh waktu, kira-kira gandakan saja."
        },
        "table": {
         "cols": [
          {
           "en": "Defensive metric",
-          "id": "Metrik defensif"
+          "id": "Ukuran defensif"
          },
          {
           "en": "Leading indicator",
@@ -3734,11 +3734,11 @@ window.MT_LMS['the-pack'] = {
          [
           {
            "en": "Applications sent",
-           "id": "Lamaran terkirim"
+           "id": "Lamaran yang dikirim"
           },
           {
            "en": "<b>Tailored</b> applications sent",
-           "id": "Lamaran <b>yang disesuaikan</b> terkirim"
+           "id": "Lamaran <b>yang disesuaikan</b> yang dikirim"
           },
           {
            "en": "5–10",
@@ -3752,11 +3752,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Target employers researched and scored",
-           "id": "Perusahaan sasaran yang diriset dan dinilai"
+           "id": "Perusahaan sasaran yang diriset dan diberi skor"
           },
           {
            "en": "Build to 40, then maintain",
-           "id": "Bangun sampai 40, lalu pelihara"
+           "id": "Bangun sampai 40, lalu jaga"
           }
          ],
          [
@@ -3766,7 +3766,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Outreach messages sent (Module 2)",
-           "id": "Pesan penjangkauan terkirim (Modul 2)"
+           "id": "Pesan penjajakan yang dikirim (Modul 2)"
           },
           {
            "en": "3–5",
@@ -3780,7 +3780,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Conversations held",
-           "id": "Percakapan yang terjadi"
+           "id": "Obrolan yang terjadi"
           },
           {
            "en": "1–2",
@@ -3794,7 +3794,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Advocates identified (people who would mention you)",
-           "id": "Pendukung teridentifikasi (orang yang akan menyebut namamu)"
+           "id": "Pendukung yang ditemukan (orang yang mau menyebut namamu)"
           },
           {
            "en": "Cumulative",
@@ -3820,12 +3820,12 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "These are the numbers your weekly review looks at. Notice what is missing: total applications, total hours, number of job alerts. They are not forbidden; they are simply not what you steer by.",
-         "id": "Inilah angka-angka yang dilihat tinjauan mingguanmu. Perhatikan apa yang tidak ada: total lamaran, total jam, jumlah notifikasi lowongan. Bukan dilarang; hanya bukan itu yang menjadi kemudimu."
+         "id": "Inilah angka-angka yang kamu tengok di tinjauan mingguan. Perhatikan apa yang tidak ada di sana: total lamaran, total jam, jumlah notifikasi lowongan. Bukan berarti dilarang; hanya bukan itu kemudimu."
         }
        ],
        "key": {
         "en": "Track what comes before offers and what you control: tailored applications, outreach messages, conversations held.",
-        "id": "Lacak hal yang mendahului tawaran dan yang kamu kendalikan: lamaran yang disesuaikan, pesan penjajakan, percakapan yang terjadi."
+        "id": "Lacak hal yang mendahului tawaran dan ada di tanganmu: lamaran yang disesuaikan, pesan penjajakan, obrolan yang terjadi."
        }
       },
       {
@@ -3836,11 +3836,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "A search is a pipeline, and a pipeline needs a tracker. The Pipeline Tracker has these columns: <b>employer · role · track (process/network) · source (posting, referral, outreach) · date applied · CV version used · contact person · last action · next action and date · stage reached · outcome · lesson learned</b>. The “CV version used” column matters more than it looks: when a recruiter calls, you must know which version they are holding <i>(Ow, Tailor Your Call; Simunovic, How to Write an Effective CV &amp; Cover Letter, §8.3)</i>. The “lesson learned” column turns rejections into data, “failed admin screening: TOEFL (Test of English as a Foreign Language) scan too large” is a fix, not a wound. The “next action and date” column is the one that makes the tracker a system rather than a diary: every open line has a date on which something happens.",
-        "id": "Pencarian kerja adalah alur, dan alur membutuhkan pelacak. Pelacak Alur punya kolom-kolom ini: <b>perusahaan · peran · jalur (proses/jejaring) · sumber (lowongan, rujukan, penjangkauan) · tanggal melamar · versi CV yang dipakai · kontak · tindakan terakhir · tindakan berikutnya dan tanggalnya · tahap yang dicapai · hasil · pelajaran</b>. Kolom “versi CV yang dipakai” lebih penting dari kelihatannya: ketika perekrut menelepon, kamu harus tahu versi mana yang mereka pegang <i>(Ow, Tailor Your Call; Simunovic, How to Write an Effective CV &amp; Cover Letter, §8.3)</i>. Kolom “pelajaran” mengubah penolakan menjadi data, “gagal seleksi administrasi: pindaian TOEFL (Test of English as a Foreign Language) terlalu besar” adalah perbaikan, bukan luka. Kolom “tindakan berikutnya dan tanggalnya” adalah yang membuat pelacak menjadi sistem, bukan buku harian: setiap baris yang terbuka punya tanggal ketika sesuatu terjadi."
+        "id": "Pencarian kerja adalah sebuah alur, dan alur perlu pelacak. Pelacak Alur punya kolom-kolom ini: <b>perusahaan · posisi · jalur (proses/jejaring) · sumber (lowongan, rekomendasi, penjajakan) · tanggal melamar · versi CV yang dipakai · kontak · tindakan terakhir · tindakan berikutnya dan tanggalnya · tahap yang dicapai · hasil · pelajaran</b>. Kolom “versi CV yang dipakai” lebih penting dari kelihatannya: ketika perekrut menelepon, kamu harus tahu versi mana yang sedang mereka pegang <i>(Ow, Tailor Your Call; Simunovic, How to Write an Effective CV &amp; Cover Letter, §8.3)</i>. Kolom “pelajaran” mengubah penolakan menjadi data; “gagal seleksi administrasi: hasil pindai TOEFL (Test of English as a Foreign Language) terlalu besar” adalah perbaikan, bukan luka. Dan kolom “tindakan berikutnya dan tanggalnya” adalah yang mengubah pelacak dari buku harian menjadi sistem: setiap baris yang masih terbuka punya tanggal ketika sesuatu akan dilakukan."
        },
        "key": {
         "en": "A search is a pipeline, and a pipeline needs one tracker with a next action and a date on every row.",
-        "id": "Pencarian adalah pipeline, dan pipeline butuh satu pelacak dengan tindakan berikutnya dan tanggal di setiap baris."
+        "id": "Pencarian kerja adalah alur, dan alur butuh satu pelacak dengan tindakan berikutnya dan tanggalnya di setiap baris."
        }
       },
       {
@@ -3851,7 +3851,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "A rhythm that works for students and graduates:",
-        "id": "Ritme yang berhasil untuk mahasiswa dan lulusan baru:"
+        "id": "Ritme yang terbukti cocok untuk mahasiswa dan lulusan baru:"
        },
        "table": {
         "cols": [
@@ -3876,7 +3876,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Plan: review tracker, choose the week’s 5–10 targets and 3–5 outreach contacts",
-           "id": "Rencana: tinjau pelacak, pilih 5–10 sasaran dan 3–5 kontak penjangkauan minggu ini"
+           "id": "Rencana: tengok pelacak, pilih 5–10 sasaran dan 3–5 kontak penjajakan untuk minggu ini"
           },
           {
            "en": "30 min",
@@ -3890,7 +3890,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Execute: tailored applications, outreach, conversations, test practice",
-           "id": "Eksekusi: lamaran yang disesuaikan, penjangkauan, percakapan, latihan tes"
+           "id": "Jalankan: lamaran yang disesuaikan, penjajakan, obrolan, latihan tes"
           },
           {
            "en": "30–60 min / day",
@@ -3918,7 +3918,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Rest. If nothing is due, the system is working.",
-           "id": "Istirahat. Jika tidak ada yang jatuh tempo, sistemnya bekerja."
+           "id": "Istirahat. Kalau tidak ada yang jatuh tempo, berarti sistemnya bekerja."
           },
           {
            "en": "",
@@ -3930,12 +3930,12 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "Dalton’s point about rest deserves emphasis: if no follow-up is due and you have done the week’s plan, you have done everything that could reasonably be expected of you, and a day off is part of the system, not a failure of discipline <i>(Dalton, ch. 7)</i>. A search that runs seven days a week burns out in six weeks; a search that runs four days a week can run for six months.",
-         "id": "Poin Dalton tentang istirahat layak ditekankan: jika tidak ada tindak lanjut yang jatuh tempo dan rencana minggu ini sudah selesai, kamu sudah melakukan semua yang wajar diharapkan darimu, dan hari libur adalah bagian dari sistem, bukan kegagalan disiplin <i>(Dalton, bab 7)</i>. Pencarian yang berjalan tujuh hari seminggu habis terbakar dalam enam minggu; pencarian yang berjalan empat hari seminggu bisa bertahan enam bulan."
+         "id": "Pesan Dalton tentang istirahat perlu digarisbawahi: kalau tidak ada tindak lanjut yang jatuh tempo dan rencana minggu ini sudah selesai, kamu sudah melakukan semua yang wajar diharapkan darimu. Hari libur adalah bagian dari sistem, bukan tanda disiplin yang kendur <i>(Dalton, bab 7)</i>. Pencarian yang berjalan tujuh hari seminggu habis tenaga dalam enam minggu; pencarian yang berjalan empat hari seminggu bisa bertahan enam bulan."
         }
        ],
        "key": {
         "en": "A fixed weekly rhythm turns the search into a few short, protected blocks that fit around study or work.",
-        "id": "Ritme mingguan yang tetap mengubah pencarian menjadi beberapa blok pendek yang terlindungi dan muat di sela kuliah atau kerja."
+        "id": "Ritme mingguan yang tetap mengubah pencarian menjadi beberapa blok pendek yang terlindungi, dan muat di sela kuliah atau kerja."
        }
       },
       {
@@ -3946,50 +3946,50 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Every Friday, with the tracker open, answer four questions in writing; two lines each is enough.",
-        "id": "Setiap Jumat, dengan pelacak terbuka, jawab empat pertanyaan secara tertulis; dua baris masing-masing sudah cukup."
+        "id": "Setiap Jumat, dengan pelacak terbuka, jawab empat pertanyaan secara tertulis; dua baris untuk tiap pertanyaan sudah cukup."
        },
        "bullets": [
         {
          "en": "<b>What did the numbers do?</b> Tailored applications, outreach, conversations, advocates, practice sessions, this week versus last.",
-         "id": "<b>Apa yang terjadi pada angka?</b> Lamaran yang disesuaikan, penjangkauan, percakapan, pendukung, sesi latihan; minggu ini versus minggu lalu."
+         "id": "<b>Apa yang terjadi pada angka?</b> Lamaran yang disesuaikan, penjajakan, obrolan, pendukung, sesi latihan; minggu ini dibandingkan minggu lalu."
         },
         {
          "en": "<b>Which stage is leaking now?</b> Re-run the three-stage diagnostic from Lesson 1.3 on the running totals.",
-         "id": "<b>Tahap mana yang bocor sekarang?</b> Jalankan lagi diagnostik tiga tahap dari Pelajaran 1.3 pada total berjalan."
+         "id": "<b>Tahap mana yang bocor sekarang?</b> Jalankan lagi diagnosis tiga tahap dari Pelajaran 1.3 pada angka kumulatifmu."
         },
         {
          "en": "<b>What is one change for next week?</b> One, not five. Write it into Monday’s plan.",
-         "id": "<b>Apa satu perubahan untuk minggu depan?</b> Satu, bukan lima. Tulis ke rencana Senin."
+         "id": "<b>Apa satu perubahan untuk minggu depan?</b> Satu, bukan lima. Tulis langsung ke rencana hari Senin."
         },
         {
          "en": "<b>What went well?</b> A reply, a conversation that flowed, a bullet you finally wrote honestly.",
-         "id": "<b>Apa yang berjalan baik?</b> Sebuah balasan, percakapan yang mengalir, satu butir CV yang akhirnya kamu tulis dengan jujur."
+         "id": "<b>Apa yang berjalan baik?</b> Sebuah balasan, obrolan yang mengalir, satu butir CV yang akhirnya kamu tulis dengan jujur."
         }
        ],
        "after": [
         {
          "en": "The fourth question is not decoration: a search is long, and noticing progress sustains effort. It is also the answer you will give your family on Sunday.",
-         "id": "Pertanyaan keempat bukan hiasan: pencarian kerja itu panjang, dan menyadari kemajuan menopang usaha. Itu juga jawaban yang akan kamu berikan kepada keluargamu pada hari Minggu."
+         "id": "Pertanyaan keempat bukan hiasan: pencarian kerja itu panjang, dan menyadari kemajuan menjaga semangat. Itu pula jawaban yang akan kamu berikan kepada keluarga pada hari Minggu."
         }
        ],
        "key": {
         "en": "Every Friday, four written questions: what the numbers did, which stage is leaking, one change for next week, and what to stop.",
-        "id": "Setiap Jumat, empat pertanyaan tertulis: apa yang terjadi pada angka, tahap mana yang bocor, satu perubahan untuk minggu depan, dan apa yang dihentikan."
+        "id": "Setiap Jumat, empat pertanyaan tertulis: apa yang terjadi pada angka, tahap mana yang bocor, satu perubahan untuk minggu depan, dan apa yang berjalan baik."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "Rejection, reframed",
-        "id": "Penolakan, dibingkai ulang"
+        "id": "Penolakan, dilihat dengan cara lain"
        },
        "body": {
         "en": "Three reframes with good support. <b>Known odds.</b> Even well-written outreach messages get replies from roughly a fifth to two-fifths of recipients <span class=\"ev ev-dated\">Practitioner estimate</span> <i>(Dalton, ch. 7)</i>; most silence is normal, and a 30% reply rate means you plan for three messages per conversation, not one. <b>Lobster traps.</b> Networking pays off with a delay, like checking traps rather than fishing with a rod; a conversation that produced nothing this month may produce an introduction in three <i>(Dalton, ch. 9–10)</i>. <b>Many reasons, most not you.</b> Revisit Lesson 1.2, “Decoding silence”: internal candidates, frozen budgets, redefined roles and slow approvals explain most of what looks like rejection.",
-        "id": "Tiga pembingkaian ulang dengan dukungan yang baik. <b>Peluang yang diketahui.</b> Bahkan pesan penjangkauan yang ditulis dengan baik mendapat balasan dari kira-kira seperlima sampai dua perlima penerima <span class=\"ev ev-dated\">Perkiraan praktisi</span> <i>(Dalton, bab 7)</i>; sebagian besar keheningan itu normal, dan tingkat balasan 30% berarti kamu merencanakan tiga pesan per percakapan, bukan satu. <b>Perangkap lobster.</b> Berjejaring membuahkan hasil dengan jeda, seperti memeriksa perangkap alih-alih memancing dengan joran; percakapan yang tidak menghasilkan apa-apa bulan ini bisa menghasilkan perkenalan tiga bulan lagi <i>(Dalton, bab 9–10)</i>. <b>Banyak alasan, kebanyakan bukan kamu.</b> Kunjungi lagi Pelajaran 1.2, “Membaca keheningan”: kandidat internal, anggaran yang dibekukan, peran yang didefinisikan ulang, dan persetujuan yang lambat menjelaskan sebagian besar dari apa yang tampak seperti penolakan."
+        "id": "Tiga sudut pandang yang didukung bukti. <b>Peluangnya sudah diketahui.</b> Pesan penjajakan yang ditulis dengan baik sekalipun hanya dibalas oleh kira-kira seperlima sampai dua perlima penerimanya <span class=\"ev ev-dated\">Perkiraan praktisi</span> <i>(Dalton, bab 7)</i>; jadi tidak dibalas itu normal, dan tingkat balasan 30% berarti kamu perlu merencanakan tiga pesan untuk setiap satu obrolan, bukan satu pesan. <b>Perangkap lobster.</b> Berjejaring membuahkan hasil dengan jeda, seperti memeriksa perangkap, bukan memancing dengan joran; obrolan yang tidak menghasilkan apa-apa bulan ini bisa berbuah perkenalan tiga bulan kemudian <i>(Dalton, bab 9–10)</i>. <b>Banyak alasan, dan kebanyakan bukan kamu.</b> Tengok lagi Pelajaran 1.2, “Membaca kabar yang tak kunjung datang”: kandidat internal, anggaran yang dibekukan, posisi yang dirombak, dan persetujuan yang lambat menjelaskan sebagian besar dari apa yang tampak seperti penolakan."
        },
        "key": {
         "en": "Silence is the normal outcome of most messages, so plan for it in your numbers instead of reading it as a verdict on you.",
-        "id": "Tidak ada balasan adalah hasil paling lazim dari sebagian besar pesan; rencanakan itu dalam angkamu, jangan membacanya sebagai vonis atas dirimu."
+        "id": "Tidak dibalas adalah nasib paling lazim dari sebagian besar pesan; masukkan itu ke dalam hitunganmu, jangan dibaca sebagai vonis atas dirimu."
        }
       },
       {
@@ -4000,27 +4000,27 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "For many graduates, the heaviest pressure is not the market but the dinner table. A short, honest message helps parents see progress in terms they can recognise. Here is one that Nadia could send:",
-        "id": "Bagi banyak lulusan, tekanan terberat bukan pasar kerja melainkan meja makan. Pesan singkat yang jujur membantu orang tua melihat kemajuan dalam istilah yang bisa mereka kenali. Inilah pesan yang bisa dikirim Nadia:"
+        "id": "Bagi banyak lulusan baru, tekanan terberat bukan datang dari pasar kerja, melainkan dari meja makan. Pesan singkat yang jujur membantu orang tua melihat kemajuan dengan ukuran yang mereka pahami. Ini contoh pesan yang bisa dikirim Nadia:"
        },
        "quote": {
         "text": {
          "en": "“Mum, Dad: this week I sent 7 tailored applications, not scattershot ones. I also spoke with 2 seniors from my course who work at a bank and a consumer-goods company; one of them suggested I apply for the management-trainee intake next month. This way is slower to show results, but the research says it works far more often than sending hundreds of applications. Wish me luck.”",
-         "id": "“Bu, Pak: minggu ini aku mengirim 7 lamaran yang disesuaikan, bukan asal kirim. Aku juga ngobrol dengan 2 kakak tingkat yang bekerja di bank dan perusahaan FMCG (barang konsumsi cepat habis, fast-moving consumer goods); salah satunya menyarankan aku melamar program MT (management trainee, program pelatihan manajemen) bulan depan. Cara ini memang lebih lambat terlihat, tapi menurut penelitian jauh lebih sering berhasil daripada mengirim ratusan lamaran. Doakan, ya.”"
+         "id": "“Bu, Pak: minggu ini aku mengirim 7 lamaran yang kusesuaikan satu per satu, bukan asal sebar. Aku juga ngobrol dengan 2 kakak tingkat yang kerja di bank dan di perusahaan FMCG (barang konsumsi cepat habis, fast-moving consumer goods); salah satunya menyarankan aku ikut seleksi MT (management trainee, program pelatihan manajemen) bulan depan. Cara ini memang lebih lambat kelihatan hasilnya, tapi menurut penelitian jauh lebih sering berhasil daripada mengirim ratusan lamaran. Doakan, ya.”"
         },
         "who": {
          "en": "A Sunday message to parents: adapt it, don’t copy it (Indonesian original under ID)",
-         "id": "Pesan hari Minggu: sesuaikan, jangan salin mentah"
+         "id": "Pesan hari Minggu untuk orang tua: sesuaikan, jangan disalin mentah-mentah"
         }
        },
        "after": [
         {
          "en": "The message does four things: it gives a number that is small but honest; it names a concrete action; it names one thing learned; and it explains, in one sentence, why the method is slower to show and more likely to work. It does not promise an outcome. The aim is to make invisible progress visible.",
-         "id": "Pesan itu melakukan empat hal: memberi angka yang kecil tetapi jujur; menyebut tindakan konkret; menyebut satu hal yang dipelajari; dan menjelaskan, dalam satu kalimat, mengapa metodenya lebih lambat terlihat tetapi lebih mungkin berhasil. Ia tidak menjanjikan hasil. Tujuannya membuat kemajuan yang tak terlihat menjadi terlihat."
+         "id": "Pesan itu melakukan empat hal: memberi angka yang kecil tetapi jujur; menyebut tindakan yang nyata; menyebut satu hal yang dipelajari; dan menjelaskan, dalam satu kalimat, mengapa caranya lebih lambat kelihatan tetapi lebih mungkin berhasil. Pesan itu tidak menjanjikan hasil. Tujuannya membuat kemajuan yang tak kasatmata menjadi terlihat."
         }
        ],
        "key": {
         "en": "Family pressure eases when progress is reported in terms they can recognise: conversations held, documents improved, stages reached.",
-        "id": "Tekanan keluarga mereda ketika kemajuan dilaporkan dengan ukuran yang mereka kenali: percakapan yang terjadi, dokumen yang membaik, tahap yang dicapai."
+        "id": "Tekanan keluarga mereda ketika kemajuan dilaporkan dengan ukuran yang mereka pahami: obrolan yang terjadi, dokumen yang membaik, tahap yang dicapai."
        }
       }
      ],
@@ -4028,11 +4028,11 @@ window.MT_LMS['the-pack'] = {
       "type": "timeline",
       "exhibit": {
        "en": "Exhibit 4: One week in the system",
-       "id": "Peraga 4: Satu minggu dalam sistem"
+       "id": "Peraga 4: Satu minggu di dalam sistem"
       },
       "title": {
        "en": "Plan → execute → review → rest",
-       "id": "Rencanakan → eksekusi → tinjau → istirahat"
+       "id": "Rencanakan → jalankan → tinjau → istirahat"
       },
       "items": [
        {
@@ -4043,18 +4043,18 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Open the tracker. Choose 5–10 targets and 3–5 outreach contacts. Write the one change from last Friday into the plan.",
-         "id": "Buka pelacak. Pilih 5–10 sasaran dan 3–5 kontak penjangkauan. Tulis satu perubahan dari Jumat lalu ke rencana."
+         "id": "Buka pelacak. Pilih 5–10 sasaran dan 3–5 kontak penjajakan. Tulis satu perubahan dari Jumat lalu ke dalam rencana."
         }
        },
        {
         "icon": "gear",
         "h": {
          "en": "Tuesday–Thursday · 30–60 min a day",
-         "id": "Selasa–Kamis · 30–60 mnt sehari"
+         "id": "Selasa–Kamis · 30–60 mnt per hari"
         },
         "sub": {
          "en": "Tailored applications, outreach messages, one or two conversations, 25-minute test sessions on the process track.",
-         "id": "Lamaran yang disesuaikan, pesan penjangkauan, satu atau dua percakapan, sesi tes 25 menit di jalur proses."
+         "id": "Lamaran yang disesuaikan, pesan penjajakan, satu atau dua obrolan, sesi latihan tes 25 menit untuk jalur proses."
         }
        },
        {
@@ -4076,40 +4076,40 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Rest. Send the family message on Sunday if you want to. Nothing else is due.",
-         "id": "Istirahat. Kirim pesan keluarga pada hari Minggu jika mau. Tidak ada lagi yang jatuh tempo."
+         "id": "Istirahat. Kirim pesan untuk keluarga pada hari Minggu kalau mau. Tidak ada lagi yang jatuh tempo."
         }
        }
       ],
       "note": {
        "en": "Total: roughly three to four hours a week, which fits beside a final semester or a part-time job. The point is not the hours; it is that every hour has a purpose the numbers can see.",
-       "id": "Total: kira-kira tiga sampai empat jam seminggu, yang muat di samping semester akhir atau pekerjaan paruh waktu. Intinya bukan jamnya; intinya setiap jam punya tujuan yang bisa dilihat angkanya."
+       "id": "Totalnya kira-kira tiga sampai empat jam seminggu, cukup muat di samping semester akhir atau kerja paruh waktu. Yang penting bukan jamnya, melainkan bahwa setiap jam punya tujuan yang terlihat di angka."
       },
       "longdesc": {
        "en": "A four-step weekly timeline. Monday, thirty minutes of planning from the tracker. Tuesday to Thursday, thirty to sixty minutes a day of execution: tailored applications, outreach, conversations and test practice. Friday, thirty minutes of follow-ups and the four-question review. The weekend is rest, with an optional Sunday message to family.",
-       "id": "Lini masa mingguan empat langkah. Senin, tiga puluh menit perencanaan dari pelacak. Selasa sampai Kamis, tiga puluh sampai enam puluh menit sehari untuk eksekusi: lamaran yang disesuaikan, penjangkauan, percakapan, dan latihan tes. Jumat, tiga puluh menit tindak lanjut dan tinjauan empat pertanyaan. Akhir pekan adalah istirahat, dengan pesan hari Minggu untuk keluarga sebagai pilihan."
+       "id": "Lini masa mingguan empat langkah. Senin, tiga puluh menit merencanakan dari pelacak. Selasa sampai Kamis, tiga puluh sampai enam puluh menit sehari untuk menjalankan: lamaran yang disesuaikan, penjajakan, obrolan, dan latihan tes. Jumat, tiga puluh menit tindak lanjut dan tinjauan empat pertanyaan. Akhir pekan untuk istirahat, dengan pesan hari Minggu untuk keluarga sebagai pilihan."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Two Friday reviews",
-        "id": "Dua tinjauan Jumat"
+        "id": "Dua tinjauan hari Jumat"
        },
        "q": {
         "en": "Nadia sits down on Friday evening to review her week.",
-        "id": "Nadia duduk pada Jumat malam untuk meninjau minggunya."
+        "id": "Jumat malam, Nadia duduk untuk meninjau minggunya."
        },
        "weak": {
         "en": "“Applied to 38 jobs this week. Still nothing. I need to apply to more next week, maybe 50. Feeling hopeless.”",
-        "id": "“Minggu ini melamar 38 lowongan. Masih belum ada apa-apa. Minggu depan harus lebih banyak, mungkin 50. Rasanya putus asa.”"
+        "id": "“Minggu ini melamar 38 lowongan. Masih sepi. Minggu depan harus lebih banyak, mungkin 50. Rasanya mulai putus asa.”"
        },
        "strong": {
         "en": "“Tailored applications: 6 (target 5–10 ✓). Outreach: 2 (target 3–5 ✗). Conversations: 1, Rina at Arunika, who explained the assessment centre. Leak: still Stage B, 0 replies from 6, but only one week. One change: send the 3 outreach messages on Tuesday, not Thursday. Went well: my new supply-chain bullet reads like something I actually did.”",
-        "id": "“Lamaran yang disesuaikan: 6 (target 5–10 ✓). Penjangkauan: 2 (target 3–5 ✗). Percakapan: 1, Mbak Rina di Arunika, yang menjelaskan assessment centre. Kebocoran: masih Tahap B, 0 balasan dari 6, tapi baru satu minggu. Satu perubahan: kirim 3 pesan penjangkauan hari Selasa, bukan Kamis. Yang berjalan baik: butir supply chain baruku terbaca seperti hal yang benar-benar kulakukan.”"
+        "id": "“Lamaran yang disesuaikan: 6 (target 5–10 ✓). Penjajakan: 2 (target 3–5 ✗). Obrolan: 1, Mbak Rina di Arunika, yang cerita soal assessment centre. Bocor: masih Tahap B, 0 balasan dari 6, tapi baru seminggu. Satu perubahan: kirim 3 pesan penjajakan hari Selasa, bukan Kamis. Yang berjalan baik: butir supply chain baruku terbaca seperti hal yang benar-benar pernah kukerjakan.”"
        },
        "why": {
         "en": "The weak review measures effort, draws no diagnosis, and prescribes more of the same. The strong review compares leading indicators against targets, names the leak without over-reading one week, chooses one change, and notices a real gain.",
-        "id": "Tinjauan lemah mengukur usaha, tidak menarik diagnosis, dan meresepkan lebih banyak hal yang sama. Tinjauan kuat membandingkan indikator penuntun dengan target, menamai kebocoran tanpa membaca berlebihan satu minggu, memilih satu perubahan, dan menyadari perolehan nyata."
+        "id": "Tinjauan yang lemah mengukur usaha, tidak menarik diagnosis, dan meresepkan lebih banyak hal yang sama. Tinjauan yang kuat membandingkan indikator penuntun dengan target, menyebut bocornya tanpa menyimpulkan berlebihan dari satu minggu, memilih satu perubahan, dan mencatat kemajuan yang nyata."
        }
       }
      ],
@@ -4117,20 +4117,20 @@ window.MT_LMS['the-pack'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: the lobster trap that paid out in March",
-       "id": "Sorotan: perangkap lobster yang membuahkan hasil di bulan Maret"
+       "id": "Sorotan: perangkap lobster yang berbuah di bulan Maret"
       },
       "body": [
        {
         "en": "In November, Nadia has coffee with Dimas, an alumnus four years ahead of her who works in operations at KilatPay. It is a pleasant twenty minutes. He explains what a business-operations associate actually does, says the team is not hiring, and wishes her luck. Nadia writes “conversation held: 1 · advocate: maybe” in her tracker, sends a thank-you the next morning, and moves on.",
-        "id": "Pada bulan November, Nadia minum kopi dengan Mas Dimas, alumni empat tahun di atasnya yang bekerja di bagian operasional KilatPay. Dua puluh menit yang menyenangkan. Ia menjelaskan apa yang sebenarnya dikerjakan seorang business operations associate, mengatakan timnya sedang tidak merekrut, dan mendoakan keberhasilannya. Nadia menulis “percakapan: 1 · pendukung: mungkin” di pelacaknya, mengirim ucapan terima kasih keesokan paginya, dan melanjutkan hidup."
+        "id": "Pada bulan November, Nadia ngopi dengan Mas Dimas, alumni empat tahun di atasnya yang bekerja di bagian operasional KilatPay. Dua puluh menit yang menyenangkan. Mas Dimas menjelaskan apa sebenarnya pekerjaan seorang business operations associate, bilang timnya sedang tidak merekrut, dan mendoakan Nadia. Nadia mencatat “obrolan: 1 · pendukung: mungkin” di pelacaknya, mengirim ucapan terima kasih keesokan paginya, lalu melanjutkan kegiatannya."
        },
        {
         "en": "In January she sends him a two-line message: she passed the Bank Sinar Nusantara online test, and she has been reading about reconciliation processes because of what he said. He replies with a thumbs-up.",
-        "id": "Pada bulan Januari ia mengirim pesan dua baris: ia lulus tes daring Bank Sinar Nusantara, dan ia sedang membaca tentang proses rekonsiliasi karena apa yang Mas Dimas katakan. Mas Dimas membalas dengan jempol."
+        "id": "Pada bulan Januari, Nadia mengirim pesan dua baris: ia lulus tes daring Bank Sinar Nusantara, dan ia sedang membaca-baca soal proses rekonsiliasi gara-gara obrolan mereka. Mas Dimas membalas dengan emoji jempol."
        },
        {
         "en": "In March, KilatPay opens the associate role. Dimas forwards her CV to Aditya, the hiring manager, before the posting goes live, with one line: “She reconciled three branches’ daily reports as an intern and asks good questions.” The November coffee did not produce anything in November. It was a trap, not a rod.",
-        "id": "Pada bulan Maret, KilatPay membuka peran associate. Dimas meneruskan CV Nadia ke Aditya, manajer perekrut, sebelum lowongan tayang, dengan satu baris: “Dia merekonsiliasi laporan harian tiga cabang saat magang dan bertanya dengan baik.” Kopi bulan November tidak menghasilkan apa-apa di bulan November. Itu perangkap, bukan joran."
+        "id": "Pada bulan Maret, KilatPay membuka posisi associate. Dimas meneruskan CV Nadia ke Aditya, manajer yang merekrut, sebelum lowongannya tayang, dengan satu baris pesan: “Waktu magang dia merekonsiliasi laporan harian tiga cabang, dan pertanyaannya bagus-bagus.” Kopi bulan November tidak menghasilkan apa-apa di bulan November. Itu perangkap, bukan joran."
        }
       ]
      },
@@ -4138,15 +4138,15 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill 1: Convert the metrics",
-        "id": "Latihan 1: Ubah metriknya"
+        "id": "Latihan 1: Ubah ukurannya"
        },
        "body": {
         "en": "Rewrite Nadia’s weekly report “applied to 40 jobs” into leading indicators using her actual week: 40 Easy Apply clicks, 2 tailored applications, 0 outreach, 1 conversation with a lecturer. Then write the one change for next week.",
-        "id": "Tulis ulang laporan mingguan Nadia “melamar 40 pekerjaan” ke dalam indikator penuntun memakai minggu sebenarnya: 40 klik Easy Apply, 2 lamaran yang disesuaikan, 0 penjangkauan, 1 percakapan dengan dosen. Lalu tulis satu perubahan untuk minggu depan."
+        "id": "Tulis ulang laporan mingguan Nadia, “melamar 40 pekerjaan”, menjadi indikator penuntun berdasarkan minggunya yang sebenarnya: 40 klik Easy Apply, 2 lamaran yang disesuaikan, 0 penjajakan, 1 obrolan dengan dosen. Lalu tulis satu perubahan untuk minggu depan."
        },
        "debrief": {
         "en": "Tailored applications 2; outreach 0; conversations 1; advocates 0. The rewrite shows immediately that 38 of her 40 “applications” were broadcasting, and that next week’s change is obvious: fewer clicks, more tailored applications, three outreach messages. The lecturer conversation counts, and if the lecturer knows people in industry, it may be the seed of an advocate.",
-        "id": "Lamaran yang disesuaikan 2; penjangkauan 0; percakapan 1; pendukung 0. Penulisan ulang langsung menunjukkan bahwa 38 dari 40 “lamaran” itu adalah menyiarkan, dan perubahan minggu depan jelas: lebih sedikit klik, lebih banyak lamaran yang disesuaikan, tiga pesan penjangkauan. Percakapan dengan dosen tetap dihitung, dan jika dosen itu kenal orang di industri, itu bisa jadi benih seorang pendukung."
+        "id": "Lamaran yang disesuaikan 2; penjajakan 0; obrolan 1; pendukung 0. Begitu ditulis ulang, langsung terlihat bahwa 38 dari 40 “lamaran” itu sebenarnya menyebar, dan perubahan untuk minggu depan jadi jelas: lebih sedikit klik, lebih banyak lamaran yang disesuaikan, tiga pesan penjajakan. Obrolan dengan dosen tetap dihitung, dan kalau dosen itu kenal orang di industri, itu bisa jadi bibit seorang pendukung."
        }
       },
       {
@@ -4156,25 +4156,25 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Open the Pipeline Tracker, add every live application you have, and fill in “next action and date” for each. If you use your own spreadsheet instead, add the twelve columns from the section above.",
-        "id": "Buka Pelacak Alur, tambahkan setiap lamaran yang masih berjalan, dan isi “tindakan berikutnya dan tanggal” untuk masing-masing. Jika kamu memakai spreadsheet sendiri, tambahkan dua belas kolom dari bagian di atas."
+        "id": "Buka Pelacak Alur, masukkan setiap lamaran yang masih berjalan, dan isi “tindakan berikutnya dan tanggalnya” untuk masing-masing. Kalau kamu memakai spreadsheet sendiri, tambahkan dua belas kolom dari bagian di atas."
        },
        "debrief": {
         "en": "Any application without a next action is a pipeline leak; either schedule the follow-up or close it with a lesson learned. Most learners find that a third of their “live” applications are in fact closed; which is a relief, because it makes the real pipeline visible.",
-        "id": "Setiap lamaran tanpa tindakan berikutnya adalah kebocoran alur; jadwalkan tindak lanjutnya atau tutup dengan sebuah pelajaran. Kebanyakan pembelajar menemukan bahwa sepertiga lamaran “aktif” mereka sebenarnya sudah tertutup, dan itu melegakan, karena membuat alur yang sebenarnya terlihat."
+        "id": "Lamaran tanpa tindakan berikutnya adalah kebocoran alur; jadwalkan tindak lanjutnya, atau tutup dengan satu pelajaran. Kebanyakan pembelajar menemukan bahwa sepertiga lamaran “aktif” mereka sebenarnya sudah tertutup. Itu melegakan, karena alur yang sebenarnya jadi terlihat."
        }
       },
       {
        "h": {
         "en": "Drill 3: Write your family message",
-        "id": "Latihan 3: Tulis pesan keluargamu"
+        "id": "Latihan 3: Tulis pesan untuk keluargamu"
        },
        "body": {
         "en": "Draft a four-sentence update for a parent or relative using leading indicators: one honest number, one concrete action, one thing learned, one sentence on why this way is slower to show and more likely to work.",
-        "id": "Susun pembaruan empat kalimat untuk orang tua atau kerabat memakai indikator penuntun: satu angka yang jujur, satu tindakan konkret, satu hal yang dipelajari, satu kalimat tentang mengapa cara ini lebih lambat terlihat tetapi lebih mungkin berhasil."
+        "id": "Susun kabar empat kalimat untuk orang tua atau kerabat dengan indikator penuntun: satu angka yang jujur, satu tindakan nyata, satu hal yang dipelajari, dan satu kalimat tentang mengapa cara ini lebih lambat kelihatan tetapi lebih mungkin berhasil."
        },
        "debrief": {
         "en": "Check that it names at least one concrete action and one piece of learning, and that it avoids promising outcomes you do not control (“I’ll get an offer by March”). If it reads as defensive, a list of how busy you were, cut the effort and keep the evidence.",
-        "id": "Periksa bahwa pesan itu menyebut setidaknya satu tindakan konkret dan satu hal yang dipelajari, dan tidak menjanjikan hasil yang tidak kamu kendalikan (“Maret aku pasti dapat tawaran”). Jika terbaca defensif, daftar betapa sibuknya kamu, potong bagian usahanya dan pertahankan buktinya."
+        "id": "Pastikan pesan itu menyebut setidaknya satu tindakan nyata dan satu hal yang dipelajari, dan tidak menjanjikan hasil yang tidak kamu kendalikan (“Maret aku pasti dapat tawaran”). Kalau terbaca defensif, seperti daftar betapa sibuknya kamu, buang bagian usahanya dan pertahankan buktinya."
        }
       }
      ],
@@ -4183,21 +4183,21 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Tracking in your head",
-         "id": "Melacak di kepala"
+         "id": "Melacak di dalam kepala"
         },
         "fix": {
          "en": "If it is not in the tracker, it does not get followed up.",
-         "id": "Jika tidak ada di pelacak, tidak akan ditindaklanjuti."
+         "id": "Kalau tidak ada di pelacak, tidak akan ditindaklanjuti."
         }
        },
        {
         "h": {
          "en": "Reporting only applications to family",
-         "id": "Hanya melaporkan lamaran kepada keluarga"
+         "id": "Hanya melaporkan jumlah lamaran kepada keluarga"
         },
         "fix": {
          "en": "Report the leading indicators and the learning.",
-         "id": "Laporkan indikator penuntun dan pelajarannya."
+         "id": "Laporkan indikator penuntun dan apa yang kamu pelajari."
         }
        },
        {
@@ -4207,17 +4207,17 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "A fixed rhythm with rest outlasts bursts of panic.",
-         "id": "Ritme tetap dengan istirahat bertahan lebih lama daripada ledakan panik."
+         "id": "Ritme tetap dengan jeda istirahat bertahan lebih lama daripada ledakan panik."
         }
        },
        {
         "h": {
          "en": "Choosing five changes at the Friday review",
-         "id": "Memilih lima perubahan di tinjauan Jumat"
+         "id": "Memilih lima perubahan sekaligus di tinjauan Jumat"
         },
         "fix": {
          "en": "One change a week, written into Monday’s plan. Five changes is a wish list.",
-         "id": "Satu perubahan per minggu, ditulis ke rencana Senin. Lima perubahan adalah daftar keinginan."
+         "id": "Satu perubahan seminggu, ditulis ke rencana Senin. Lima perubahan hanyalah daftar keinginan."
         }
        }
       ]
@@ -4230,7 +4230,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Optimising for effort that is visible and easy to report rather than for what predicts offers.",
-        "id": "Mengoptimalkan usaha yang terlihat dan mudah dilaporkan alih-alih yang memprediksi tawaran."
+        "id": "Mengutamakan usaha yang terlihat dan mudah dilaporkan, bukan hal-hal yang meramalkan tawaran."
        }
       },
       {
@@ -4240,7 +4240,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A measure that comes before the outcome and that you control, conversations held, tailored applications sent.",
-        "id": "Ukuran yang datang sebelum hasil dan berada dalam kendalimu; percakapan yang terjadi, lamaran yang disesuaikan."
+        "id": "Ukuran yang terjadi sebelum hasil dan ada di tanganmu; obrolan yang terjadi, lamaran yang disesuaikan."
        }
       },
       {
@@ -4250,7 +4250,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "All your live applications and conversations, each at a known stage with a next action.",
-        "id": "Semua lamaran dan percakapanmu yang masih berjalan, masing-masing di tahap yang diketahui dengan tindakan berikutnya."
+        "id": "Semua lamaran dan obrolanmu yang masih berjalan, masing-masing di tahap yang jelas dengan tindakan berikutnya."
        }
       },
       {
@@ -4260,7 +4260,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Someone inside or near a target employer who would mention your name when a role opens.",
-        "id": "Seseorang di dalam atau dekat perusahaan sasaran yang akan menyebut namamu ketika posisi terbuka."
+        "id": "Orang di dalam atau di dekat perusahaan sasaran yang mau menyebut namamu ketika ada posisi terbuka."
        }
       },
       {
@@ -4270,7 +4270,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Dalton’s image for networking that pays off with a delay: you set traps and check them, rather than fishing for an immediate catch.",
-        "id": "Gambaran Dalton untuk berjejaring yang membuahkan hasil dengan jeda: kamu memasang perangkap dan memeriksanya, bukan memancing tangkapan seketika."
+        "id": "Perumpamaan Dalton untuk jejaring yang berbuah dengan jeda: kamu memasang perangkap dan memeriksanya, bukan memancing untuk tangkapan seketika."
        }
       }
      ],
@@ -4287,7 +4287,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Number of conversations with people at target employers",
-         "id": "Jumlah percakapan dengan orang di perusahaan sasaran"
+         "id": "Jumlah obrolan dengan orang di perusahaan sasaran"
         },
         {
          "en": "Number of Easy Apply clicks",
@@ -4301,13 +4301,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Conversations come before offers and are under your control; the other three measure activity that correlates weakly with results.",
-        "id": "Percakapan datang sebelum tawaran dan berada dalam kendalimu; tiga lainnya mengukur kegiatan yang berkorelasi lemah dengan hasil."
+        "id": "Obrolan terjadi sebelum tawaran dan ada di tanganmu; tiga lainnya mengukur kesibukan yang hampir tidak ada hubungannya dengan hasil."
        }
       },
       {
        "q": {
         "en": "Why include “CV version used” in the tracker?",
-        "id": "Mengapa memasukkan “versi CV yang dipakai” ke pelacak?"
+        "id": "Mengapa “versi CV yang dipakai” perlu masuk ke pelacak?"
        },
        "options": [
         {
@@ -4316,7 +4316,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "So you know exactly which document a recruiter is holding when they call, and which version converts",
-         "id": "Supaya kamu tahu persis dokumen mana yang dipegang perekrut saat menelepon, dan versi mana yang berhasil"
+         "id": "Supaya kamu tahu persis dokumen mana yang dipegang perekrut saat menelepon, dan versi mana yang membuahkan hasil"
         },
         {
          "en": "Portals require it",
@@ -4330,13 +4330,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "The recruiter is reading one version; you need to be talking about the same one, and over time the column shows which version gets replies.",
-        "id": "Perekrut membaca satu versi; kamu perlu membicarakan versi yang sama, dan seiring waktu kolom itu menunjukkan versi mana yang mendapat balasan."
+        "id": "Perekrut membaca satu versi; kamu harus membicarakan versi yang sama, dan lama-kelamaan kolom itu menunjukkan versi mana yang mendapat balasan."
        }
       },
       {
        "q": {
         "en": "It is Saturday. Your planned week is done and no follow-ups are due. The best action is…",
-        "id": "Hari Sabtu. Minggu yang direncanakan sudah selesai dan tidak ada tindak lanjut yang jatuh tempo. Tindakan terbaik adalah…"
+        "id": "Hari Sabtu. Rencana minggu ini sudah selesai dan tidak ada tindak lanjut yang jatuh tempo. Tindakan terbaiknya…"
        },
        "options": [
         {
@@ -4345,7 +4345,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Rest: the system is working",
-         "id": "Istirahat: sistemnya bekerja"
+         "id": "Istirahat: sistemnya sedang bekerja"
         },
         {
          "en": "Follow up early on everything",
@@ -4359,7 +4359,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "If the plan is done and nothing is due, you have done everything that could reasonably be expected. Rest is part of the system.",
-        "id": "Jika rencana selesai dan tidak ada yang jatuh tempo, kamu sudah melakukan semua yang wajar diharapkan. Istirahat adalah bagian dari sistem."
+        "id": "Kalau rencana sudah selesai dan tidak ada yang jatuh tempo, kamu sudah melakukan semua yang wajar diharapkan. Istirahat adalah bagian dari sistem."
        }
       }
      ],
@@ -4372,7 +4372,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Load every live application into the Pipeline Tracker with a next action and date, and read the funnel panel. This is Dossier item 1, your Search Diagnosis and tracker, and Lesson 1.5 asks you to do the same for Nadia.",
-       "id": "Masukkan setiap lamaran yang masih berjalan ke Pelacak Alur dengan tindakan berikutnya dan tanggalnya, lalu baca panel corongnya. Inilah butir Dossier 1, Diagnosis Pencarian dan pelacakmu, dan Pelajaran 1.5 memintamu melakukan hal yang sama untuk Nadia."
+       "id": "Masukkan setiap lamaran yang masih berjalan ke Pelacak Alur, lengkap dengan tindakan berikutnya dan tanggalnya, lalu baca panel corongnya. Inilah butir Dossier 1, Diagnosis Pencarian dan pelacakmu. Pelajaran 1.5 memintamu melakukan hal yang sama untuk Nadia."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -4382,11 +4382,11 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Measure what predicts offers, tailored applications, outreach, conversations, advocates, not what merely feels busy.",
-       "id": "Ukur yang memprediksi tawaran, lamaran yang disesuaikan, penjangkauan, percakapan, pendukung, bukan yang sekadar terasa sibuk."
+       "id": "Ukur hal yang meramalkan tawaran (lamaran yang disesuaikan, penjajakan, obrolan, pendukung), bukan hal yang sekadar terasa sibuk."
       },
       {
        "en": "A weekly plan–execute–review rhythm, with rest, outlasts panic.",
-       "id": "Ritme mingguan rencana–eksekusi–tinjauan, dengan istirahat, bertahan lebih lama daripada panik."
+       "id": "Ritme mingguan rencanakan–jalankan–tinjau, dengan istirahat, bertahan lebih lama daripada kepanikan."
       },
       {
        "en": "Make your progress visible to the people who worry about you.",
@@ -4400,7 +4400,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "The tracker columns, the review questions and the family message, ready to copy.",
-       "id": "Kolom pelacak, pertanyaan tinjauan, dan pesan keluarga, siap disalin."
+       "id": "Kolom pelacak, pertanyaan tinjauan, dan pesan untuk keluarga, siap disalin."
       },
       "items": [
        {
@@ -4416,19 +4416,19 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "S. Dalton, <i>The 2-Hour Job Search</i> (2nd ed., 2020), introduction, ch. 7, ch. 9–10. The defensive job search; rest as part of the system; reply-rate expectations; lobster traps.",
-          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), pendahuluan, bab 7, bab 9–10, pencarian kerja defensif; istirahat sebagai bagian dari sistem; ekspektasi tingkat balasan; perangkap lobster."
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), pendahuluan, bab 7, bab 9–10; pencarian kerja defensif; istirahat sebagai bagian dari sistem; perkiraan tingkat balasan; perangkap lobster."
          },
          {
           "en": "P. Ow, <i>Tailor Your Call, Resume, Letter, Proposal, Follow-Up and LinkedIn Profile</i> (2021), knowing which version the recruiter holds.",
-          "id": "P. Ow, <i>Tailor Your Call, Resume, Letter, Proposal, Follow-Up and LinkedIn Profile</i> (2021), mengetahui versi mana yang dipegang perekrut."
+          "id": "P. Ow, <i>Tailor Your Call, Resume, Letter, Proposal, Follow-Up and LinkedIn Profile</i> (2021); tahu versi mana yang dipegang perekrut."
          },
          {
           "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §8.3, version control for CVs.",
-          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §8.3, kendali versi untuk CV."
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §8.3; pengelolaan versi CV."
          },
          {
           "en": "L. Williams, <i>Ultimate Job Search</i>, ch. 11; the diagnostic that the weekly review re-runs.",
-          "id": "L. Williams, <i>Ultimate Job Search</i>, bab 11, diagnostik yang dijalankan ulang tinjauan mingguan."
+          "id": "L. Williams, <i>Ultimate Job Search</i>, bab 11; diagnosis yang dijalankan ulang di tinjauan mingguan."
          }
         ]
        },
@@ -4440,12 +4440,12 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "Paste the header row into any spreadsheet.",
-         "id": "Tempel baris judul ke spreadsheet mana pun."
+         "id": "Tempel baris judulnya ke spreadsheet mana pun."
         },
         "body": [
          {
           "en": "Employer · Role · Track (process / network) · Source (posting / referral / outreach) · Date applied · CV version used",
-          "id": "Perusahaan · Peran · Jalur (proses / jejaring) · Sumber (lowongan / rujukan / penjangkauan) · Tanggal melamar · Versi CV yang dipakai"
+          "id": "Perusahaan · Posisi · Jalur (proses / jejaring) · Sumber (lowongan / rekomendasi / penjajakan) · Tanggal melamar · Versi CV yang dipakai"
          },
          {
           "en": "Contact person · Last action · Next action + date · Stage reached · Outcome · Lesson learned",
@@ -4461,12 +4461,12 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "Two lines each.",
-         "id": "Dua baris masing-masing."
+         "id": "Dua baris untuk tiap pertanyaan."
         },
         "body": [
          {
           "en": "What did the numbers do? (tailored applications · outreach · conversations · advocates · practice sessions)",
-          "id": "Apa yang terjadi pada angka? (lamaran yang disesuaikan · penjangkauan · percakapan · pendukung · sesi latihan)"
+          "id": "Apa yang terjadi pada angka? (lamaran yang disesuaikan · penjajakan · obrolan · pendukung · sesi latihan)"
          },
          {
           "en": "Which stage is leaking now? (A openings · B paper · C performance)",
@@ -4490,12 +4490,12 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "A skeleton; fill in your own numbers, in whatever language your family speaks.",
-         "id": "Kerangka dalam Bahasa Indonesia; isi dengan angkamu sendiri."
+         "id": "Kerangkanya; isi dengan angkamu sendiri."
         },
         "body": [
          {
           "en": "This week I sent ___ tailored applications, not scattershot ones.",
-          "id": "Minggu ini aku mengirim ___ lamaran yang disesuaikan, bukan asal kirim."
+          "id": "Minggu ini aku mengirim ___ lamaran yang kusesuaikan, bukan asal sebar."
          },
          {
           "en": "I also spoke with ___ people who work at ___; I learned that ___.",
@@ -4507,7 +4507,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "This way is slower to show, but it works far more often than sending hundreds of applications. Wish me luck.",
-          "id": "Cara ini lebih lambat terlihat, tapi jauh lebih sering berhasil daripada mengirim ratusan lamaran. Doakan, ya."
+          "id": "Cara ini lebih lambat kelihatan hasilnya, tapi jauh lebih sering berhasil daripada mengirim ratusan lamaran. Doakan, ya."
          }
         ]
        }
@@ -4528,24 +4528,24 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "Everything in Module 1 comes together on one real search. You are a coach at Nadia’s campus career centre; she has sent you her numbers and asked three plain questions. Diagnose the search, rebalance her month, design her system, and write the message she can send home.",
-      "id": "Semua isi Modul 1 bertemu pada satu pencarian kerja nyata. Kamu adalah pembimbing di pusat karier kampus Nadia; ia mengirimkan angka-angkanya dan mengajukan tiga pertanyaan sederhana. Diagnosis pencariannya, seimbangkan ulang bulannya, rancang sistemnya, dan tulis pesan yang bisa ia kirim ke rumah."
+      "id": "Semua isi Modul 1 bertemu di satu pencarian kerja yang nyata. Kamu adalah pembimbing di pusat karier kampus Nadia; ia mengirimkan angka-angkanya dan mengajukan tiga pertanyaan sederhana. Diagnosis pencariannya, tata ulang bulannya, rancang sistemnya, dan tulis pesan yang bisa ia kirim ke orang tuanya."
      },
      "objectives": [
       {
        "en": "Diagnose a search by stage, with conversion rates, from raw numbers.",
-       "id": "Mendiagnosis pencarian kerja per tahap, dengan tingkat konversi, dari angka mentah."
+       "id": "Mendiagnosis pencarian kerja per tahap, lengkap dengan tingkat konversi, dari angka mentah."
       },
       {
        "en": "Rebalance a month of activity toward targeting, with leading-indicator targets.",
-       "id": "Menyeimbangkan ulang sebulan kegiatan ke arah membidik, dengan target indikator penuntun."
+       "id": "Menata ulang kegiatan sebulan ke arah membidik, dengan target indikator penuntun."
       },
       {
        "en": "Design a two-track plan and a weekly system another person can follow.",
-       "id": "Merancang rencana dua jalur dan sistem mingguan yang bisa diikuti orang lain."
+       "id": "Merancang rencana dua jalur dan sistem mingguan yang bisa dijalankan orang lain."
       },
       {
        "en": "Communicate progress honestly to a family that measures applications.",
-       "id": "Mengomunikasikan kemajuan dengan jujur kepada keluarga yang mengukur jumlah lamaran."
+       "id": "Menyampaikan kemajuan dengan jujur kepada keluarga yang terbiasa menghitung jumlah lamaran."
       }
      ],
      "readFirst": {
@@ -4565,46 +4565,46 @@ window.MT_LMS['the-pack'] = {
        "story": [
         {
          "en": "Read the brief tabs first, compute before you write, and write for Nadia, not for the examiner",
-         "id": "Baca tab arahan lebih dulu, hitung sebelum menulis, dan tulis untuk Nadia, bukan untuk penguji"
+         "id": "Baca dulu tab arahannya, hitung dulu sebelum menulis, dan tulislah untuk Nadia, bukan untuk penguji"
         },
         {
          "en": "Use the module’s tools by name; the signal panel checks for them",
-         "id": "Pakai alat-alat modul dengan namanya; panel sinyal memeriksanya"
+         "id": "Pakai alat-alat modul ini dan sebut namanya; panel sinyal mengeceknya"
         },
         {
          "en": "What good looks like: a correct stage with the numbers, a month moved to targeting, a system Nadia could run",
-         "id": "Seperti apa yang baik: tahap yang tepat dengan angkanya, sebulan yang dipindahkan ke membidik, sistem yang bisa dijalankan Nadia"
+         "id": "Seperti apa jawaban yang baik: tahap yang tepat beserta angkanya, sebulan yang dipindahkan ke membidik, sistem yang bisa dijalankan Nadia"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Read the brief tabs first",
-          "id": "Baca tab arahan lebih dulu"
+          "id": "Baca dulu tab arahannya"
          },
          "p": {
           "en": "Work it like a coach, not a student: the signal panel is a nudge about which ideas you have not yet used, not a grade.",
-          "id": "Kerjakan seperti pembimbing, bukan mahasiswa: panel sinyal adalah dorongan tentang gagasan yang belum kamu pakai, bukan nilai."
+          "id": "Kerjakan seperti pembimbing, bukan seperti mahasiswa: panel sinyal hanya pengingat tentang gagasan yang belum kamu pakai, bukan nilai."
          }
         },
         {
          "h": {
           "en": "Use the module’s tools by name",
-          "id": "Pakai alat-alat modul dengan namanya"
+          "id": "Pakai alat-alat modul ini, sebut namanya"
          },
          "p": {
           "en": "Name the tool, then apply it to her numbers; a named tool with no number is a label, not a diagnosis.",
-          "id": "Sebut alatnya, lalu terapkan pada angkanya; alat bernama tanpa angka adalah label, bukan diagnosis."
+          "id": "Sebut alatnya, lalu terapkan pada angka-angkanya; alat yang disebut tanpa angka hanyalah label, bukan diagnosis."
          }
         },
         {
          "h": {
           "en": "What good looks like",
-          "id": "Seperti apa yang baik"
+          "id": "Seperti apa jawaban yang baik"
          },
          "p": {
           "en": "Model notes open after you submit; write yours first.",
-          "id": "Catatan model terbuka setelah kamu mengumpulkan; tulis milikmu dulu."
+          "id": "Catatan model terbuka setelah kamu mengumpulkan; tulis jawabanmu dulu."
          }
         }
        ],
@@ -4613,7 +4613,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Read the brief tabs first, compute before you write, and write for Nadia, not for the examiner",
-          "id": "Baca tab arahan lebih dulu, hitung sebelum menulis, dan tulis untuk Nadia, bukan untuk penguji"
+          "id": "Baca dulu tab arahannya, hitung dulu sebelum menulis, dan tulislah untuk Nadia, bukan untuk penguji"
          },
          "img": "../../assets/pe/ed-writing.jpg",
          "layout": "list",
@@ -4621,7 +4621,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "calc",
            "en": "Invitations ÷ applications, passes ÷ invitations, before any judgement",
-           "id": "Undangan ÷ lamaran, lulus ÷ undangan, sebelum penilaian apa pun",
+           "id": "Undangan ÷ lamaran, lulus ÷ undangan, sebelum menilai apa pun",
            "l": {
             "en": "Compute",
             "id": "Hitung"
@@ -4630,7 +4630,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "pen",
            "en": "Plain, specific, kind; a coach’s note, not an essay",
-           "id": "Sederhana, spesifik, hangat; catatan pembimbing, bukan esai",
+           "id": "Sederhana, spesifik, hangat; catatan seorang pembimbing, bukan esai",
            "l": {
             "en": "Write",
             "id": "Tulis"
@@ -4639,7 +4639,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "check",
            "en": "Four steps, six written answers, each with a word floor and a rule-based signal panel",
-           "id": "Empat langkah, enam jawaban tertulis, masing-masing dengan batas kata dan panel sinyal berbasis aturan",
+           "id": "Empat langkah, enam jawaban tertulis, masing-masing dengan jumlah kata minimum dan panel sinyal berbasis aturan",
            "l": {
             "en": "Submit",
             "id": "Kumpulkan"
@@ -4648,29 +4648,29 @@ window.MT_LMS['the-pack'] = {
          ],
          "sub": {
           "en": "Nadia’s email is the ask. The facts tab holds her numbers. The data tab shows where her hours went.",
-          "id": "Email Nadia adalah permintaannya. Tab fakta memuat angkanya. Tab data menunjukkan ke mana jam-jamnya pergi."
+          "id": "Email Nadia adalah permintaannya. Tab fakta berisi angka-angkanya. Tab data menunjukkan ke mana jam-jamnya habis."
          },
          "band": {
           "en": "Work it like a coach, not a student: the signal panel is a nudge about which ideas you have not yet used, not a grade.",
-          "id": "Kerjakan seperti pembimbing, bukan mahasiswa: panel sinyal adalah dorongan tentang gagasan yang belum kamu pakai, bukan nilai."
+          "id": "Kerjakan seperti pembimbing, bukan seperti mahasiswa: panel sinyal hanya pengingat tentang gagasan yang belum kamu pakai, bukan nilai."
          },
          "em": {
           "en": "compute before you write",
-          "id": "hitung sebelum menulis"
+          "id": "hitung dulu sebelum menulis"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Use the module’s tools by name; the signal panel checks for them",
-          "id": "Pakai alat-alat modul dengan namanya; panel sinyal memeriksanya"
+          "id": "Pakai alat-alat modul ini dan sebut namanya; panel sinyal mengeceknya"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "filter",
            "en": "The three-stage diagnostic",
-           "id": "Diagnostik tiga tahap",
+           "id": "Diagnosis tiga tahap",
            "d": {
             "en": "Lesson 1.3: which joint is leaking, with the numbers that prove it.",
             "id": "Pelajaran 1.3: sambungan mana yang bocor, dengan angka yang membuktikannya."
@@ -4680,10 +4680,10 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "target",
            "en": "Browsing, broadcasting, targeting",
-           "id": "Menjelajah, menyiarkan, membidik",
+           "id": "Menjelajah, menyebar, membidik",
            "d": {
             "en": "Lesson 1.3: where her hours went, and where they should go.",
-            "id": "Pelajaran 1.3: ke mana jamnya pergi, dan ke mana seharusnya."
+            "id": "Pelajaran 1.3: ke mana jam-jamnya habis, dan ke mana seharusnya."
            },
            "img": "../../assets/bg/fg-stage-ascent.jpg"
           },
@@ -4693,7 +4693,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Indikator penuntun dan ritme mingguan",
            "d": {
             "en": "Lesson 1.4: what to count, and when to look.",
-            "id": "Pelajaran 1.4: apa yang dihitung, dan kapan melihatnya."
+            "id": "Pelajaran 1.4: apa yang dihitung, dan kapan menengoknya."
            },
            "img": "../../assets/bg/compass.jpg"
           },
@@ -4703,7 +4703,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Jalur proses versus jejaring",
            "d": {
             "en": "Lesson 1.2: which of her applications sat on which track.",
-            "id": "Pelajaran 1.2: lamaran mana yang berada di jalur mana."
+            "id": "Pelajaran 1.2: lamaran mana yang ada di jalur mana."
            },
            "img": "../../assets/pe/th-network.jpg"
           },
@@ -4713,29 +4713,28 @@ window.MT_LMS['the-pack'] = {
            "id": "Tangga perusahaan",
            "d": {
             "en": "Lesson 1.1: internships and programmes as the lowest-risk rung.",
-            "id": "Pelajaran 1.1: magang dan program sebagai anak tangga berisiko terendah."
+            "id": "Pelajaran 1.1: magang dan program sebagai anak tangga dengan risiko paling rendah."
            },
            "img": "../../assets/bg/ep-stage-acceleration.jpg"
           }
          ],
          "sub": {
           "en": "It is a nudge, not a grade.",
-          "id": "Itu dorongan, bukan nilai."
+          "id": "Sifatnya pengingat, bukan nilai."
          },
          "band": {
           "en": "Name the tool, then apply it to her numbers; a named tool with no number is a label, not a diagnosis.",
-          "id": "Sebut alatnya, lalu terapkan pada angkanya; alat bernama tanpa angka adalah label, bukan diagnosis."
+          "id": "Sebut alatnya, lalu terapkan pada angka-angkanya; alat yang disebut tanpa angka hanyalah label, bukan diagnosis."
          },
          "em": {
-          "en": "by name",
-          "id": "dengan namanya"
+          "en": "by name"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "What good looks like: a correct stage with the numbers, a month moved to targeting, a system Nadia could run",
-          "id": "Seperti apa yang baik: tahap yang tepat dengan angkanya, sebulan yang dipindahkan ke membidik, sistem yang bisa dijalankan Nadia"
+          "id": "Seperti apa jawaban yang baik: tahap yang tepat beserta angkanya, sebulan yang dipindahkan ke membidik, sistem yang bisa dijalankan Nadia"
          },
          "img": "../../assets/bg/journey-start.jpg",
          "layout": "list",
@@ -4752,7 +4751,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "calendar",
            "en": "Most hours moved from broadcasting to targeting, with weekly targets she can count",
-           "id": "Sebagian besar jam dipindahkan dari menyiarkan ke membidik, dengan target mingguan yang bisa ia hitung",
+           "id": "Sebagian besar jam dipindahkan dari menyebar ke membidik, dengan target mingguan yang bisa ia hitung",
            "l": {
             "en": "The month",
             "id": "Bulannya"
@@ -4761,7 +4760,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "table",
            "en": "A tracker with twelve columns and a Friday review she would actually keep",
-           "id": "Pelacak dengan dua belas kolom dan tinjauan Jumat yang benar-benar akan ia jaga",
+           "id": "Pelacak dengan dua belas kolom dan tinjauan Jumat yang benar-benar akan ia jalankan",
            "l": {
             "en": "The system",
             "id": "Sistemnya"
@@ -4770,10 +4769,10 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "heart",
            "en": "Progress in terms the dinner table recognises",
-           "id": "Kemajuan dalam istilah yang dikenali meja makan",
+           "id": "Kemajuan dengan ukuran yang dipahami di meja makan",
            "l": {
             "en": "The family message",
-            "id": "Pesan keluarga"
+            "id": "Pesan untuk keluarga"
            }
           }
          ],
@@ -4783,7 +4782,7 @@ window.MT_LMS['the-pack'] = {
          },
          "band": {
           "en": "Model notes open after you submit; write yours first.",
-          "id": "Catatan model terbuka setelah kamu mengumpulkan; tulis milikmu dulu."
+          "id": "Catatan model terbuka setelah kamu mengumpulkan; tulis jawabanmu dulu."
          },
          "em": {
           "en": "a system Nadia could run",
@@ -4806,54 +4805,54 @@ window.MT_LMS['the-pack'] = {
       },
       "intro": {
        "en": "Four steps, six written answers. Each answer has a word floor and a rule-based signal panel that tells you which ideas from the module you have not yet used. Submit when all six are complete; the model notes open afterwards.",
-       "id": "Empat langkah, enam jawaban tertulis. Setiap jawaban punya batas kata minimum dan panel sinyal berbasis aturan yang memberi tahu gagasan mana dari modul yang belum kamu pakai. Kumpulkan ketika keenamnya lengkap; catatan model terbuka setelahnya."
+       "id": "Empat langkah, enam jawaban tertulis. Tiap jawaban punya jumlah kata minimum dan panel sinyal berbasis aturan yang memberi tahu gagasan modul mana yang belum kamu pakai. Kumpulkan ketika keenamnya selesai; catatan model terbuka setelah itu."
       },
       "slides": [
        {
         "h": {
          "en": "Read the brief tabs first",
-         "id": "Baca tab arahan lebih dulu"
+         "id": "Baca dulu tab arahannya"
         },
         "points": [
          {
           "en": "Nadia’s email is the ask. The facts tab holds her numbers. The data tab shows where her hours went.",
-          "id": "Email Nadia adalah permintaannya. Tab fakta memuat angkanya. Tab data menunjukkan ke mana jam-jamnya pergi."
+          "id": "Email Nadia adalah permintaannya. Tab fakta berisi angka-angkanya. Tab data menunjukkan ke mana jam-jamnya habis."
          },
          {
           "en": "Compute before you write: invitations ÷ applications, passes ÷ invitations.",
-          "id": "Hitung sebelum menulis: undangan ÷ lamaran, lulus ÷ undangan."
+          "id": "Hitung dulu sebelum menulis: undangan ÷ lamaran, lulus ÷ undangan."
          },
          {
           "en": "Write for Nadia, not for the examiner, plain, specific, kind.",
-          "id": "Tulis untuk Nadia, bukan untuk penguji, sederhana, spesifik, hangat."
+          "id": "Tulis untuk Nadia, bukan untuk penguji: sederhana, spesifik, hangat."
          }
         ]
        },
        {
         "h": {
          "en": "Use the module’s tools by name",
-         "id": "Pakai alat-alat modul dengan namanya"
+         "id": "Pakai alat-alat modul ini, sebut namanya"
         },
         "points": [
          {
           "en": "The three-stage diagnostic (1.3) · browsing / broadcasting / targeting (1.3) · leading indicators and the weekly rhythm (1.4) · process vs network track (1.2) · the employer’s ladder (1.1).",
-          "id": "Diagnostik tiga tahap (1.3) · menjelajah / menyiarkan / membidik (1.3) · indikator penuntun dan ritme mingguan (1.4) · jalur proses vs jejaring (1.2) · tangga perusahaan (1.1)."
+          "id": "Diagnosis tiga tahap (1.3) · menjelajah / menyebar / membidik (1.3) · indikator penuntun dan ritme mingguan (1.4) · jalur proses vs jejaring (1.2) · tangga perusahaan (1.1)."
          },
          {
           "en": "The signal panel checks for these ideas. It is a nudge, not a grade.",
-          "id": "Panel sinyal memeriksa gagasan-gagasan ini. Itu dorongan, bukan nilai."
+          "id": "Panel sinyal mengecek gagasan-gagasan itu. Sifatnya pengingat, bukan nilai."
          }
         ]
        },
        {
         "h": {
          "en": "What good looks like",
-         "id": "Seperti apa yang baik"
+         "id": "Seperti apa jawaban yang baik"
         },
         "points": [
          {
           "en": "A correct stage with the numbers that prove it.",
-          "id": "Tahap yang tepat dengan angka yang membuktikannya."
+          "id": "Tahap yang tepat, dengan angka yang membuktikannya."
          },
          {
           "en": "A month where most hours move to targeting, with weekly targets.",
@@ -4880,7 +4879,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "You are a career coach at Nadia’s university career centre (<i>Pusat Karier</i>). Nadia has asked for help. Read her brief, then work the case in four steps.",
-       "id": "Kamu adalah pembimbing karier di pusat karier universitas Nadia (<i>Pusat Karier</i>). Nadia meminta bantuan. Baca arahannya, lalu kerjakan kasus ini dalam empat langkah."
+       "id": "Kamu adalah pembimbing karier di pusat karier kampus Nadia (<i>Pusat Karier</i>). Nadia minta tolong. Baca arahannya, lalu kerjakan kasus ini dalam empat langkah."
       },
       "practice": [
        {
@@ -4889,7 +4888,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "en": "Rebalance activity toward targeting",
-        "id": "Menyeimbangkan kegiatan ke arah membidik"
+        "id": "Menata ulang kegiatan ke arah membidik"
        },
        {
         "en": "Design a weekly system",
@@ -4897,12 +4896,12 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "en": "Communicate progress honestly",
-        "id": "Mengomunikasikan kemajuan dengan jujur"
+        "id": "Menyampaikan kemajuan dengan jujur"
        }
       ],
       "goal": {
        "en": "Produce a diagnosis and a 30-day plan that Nadia can start on Monday.",
-       "id": "Hasilkan diagnosis dan rencana 30 hari yang bisa dimulai Nadia pada hari Senin."
+       "id": "Hasilkan diagnosis dan rencana 30 hari yang bisa langsung dimulai Nadia pada hari Senin."
       },
       "brief": {
        "email": {
@@ -4926,15 +4925,15 @@ window.MT_LMS['the-pack'] = {
         "paragraphs": [
          {
           "en": "Since graduating in August I have sent about 120 applications, mostly Easy Apply on LinkedIn and JobStreet, with the same CV.",
-          "id": "Sejak lulus bulan Agustus aku sudah mengirim sekitar 120 lamaran, kebanyakan Easy Apply di LinkedIn dan JobStreet, dengan CV yang sama."
+          "id": "Sejak lulus Agustus lalu, aku sudah mengirim sekitar 120 lamaran, kebanyakan lewat Easy Apply di LinkedIn dan JobStreet, dengan CV yang sama."
          },
          {
           "en": "I received three online-test invitations (two banks, one FMCG (fast-moving consumer goods)). I passed one test but heard nothing afterward.",
-          "id": "Aku menerima tiga undangan tes daring (dua bank, satu FMCG (barang konsumsi cepat habis, fast-moving consumer goods)). Aku lulus satu tes tapi setelah itu tidak ada kabar."
+          "id": "Aku dapat tiga undangan tes daring (dua bank, satu FMCG (barang konsumsi cepat habis, fast-moving consumer goods)). Satu tes lulus, tapi setelah itu tidak ada kabar lagi."
          },
          {
           "en": "My parents ask every week how many companies I have applied to, and I feel like I am failing.",
-          "id": "Orang tuaku setiap minggu bertanya sudah melamar ke berapa perusahaan, dan aku merasa gagal."
+          "id": "Tiap minggu orang tuaku bertanya sudah melamar ke berapa perusahaan, dan aku merasa gagal."
          },
          {
           "en": "I have not contacted anyone at the companies, I don’t know anyone.",
@@ -4944,15 +4943,15 @@ window.MT_LMS['the-pack'] = {
         "asks": [
          {
           "en": "Tell me honestly where the problem is.",
-          "id": "Katakan dengan jujur di mana masalahnya."
+          "id": "Tolong katakan dengan jujur, di mana masalahnya."
          },
          {
           "en": "Tell me what to do differently this month.",
-          "id": "Katakan apa yang harus kulakukan secara berbeda bulan ini."
+          "id": "Apa yang harus kulakukan secara berbeda bulan ini?"
          },
          {
           "en": "Help me explain it to my parents.",
-          "id": "Bantu aku menjelaskannya kepada orang tuaku."
+          "id": "Bantu aku menjelaskannya ke orang tuaku."
          }
         ],
         "closing": [
@@ -4991,11 +4990,11 @@ window.MT_LMS['the-pack'] = {
          "icon": "users",
          "k": {
           "en": "0 outreach",
-          "id": "0 penjangkauan"
+          "id": "0 penjajakan"
          },
          "v": {
           "en": "no contact with anyone at any target employer",
-          "id": "tidak ada kontak dengan siapa pun di perusahaan sasaran mana pun"
+          "id": "belum pernah menghubungi siapa pun di perusahaan sasaran mana pun"
          }
         },
         {
@@ -5006,7 +5005,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "HIMA Manajemen alumni group on WhatsApp, unused",
-          "id": "grup alumni HIMA Manajemen di WhatsApp, belum dimanfaatkan"
+          "id": "grup WhatsApp alumni HIMA Manajemen, belum dimanfaatkan"
          }
         },
         {
@@ -5017,7 +5016,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "wants an MT (management trainee) or graduate programme; open to relocating; family prefers Central Java",
-          "id": "ingin program MT (management trainee, program pelatihan manajemen) atau graduate; bersedia pindah; keluarga lebih suka Jawa Tengah"
+          "id": "ingin program MT (management trainee, program pelatihan manajemen) atau graduate programme; bersedia pindah kota; keluarga lebih suka ia di Jawa Tengah"
          }
         },
         {
@@ -5028,7 +5027,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "available for the search alongside a part-time barista shift",
-          "id": "tersedia untuk pencarian kerja di samping sif barista paruh waktu"
+          "id": "waktu untuk mencari kerja, di sela sif barista paruh waktu"
          }
         }
        ],
@@ -5039,15 +5038,15 @@ window.MT_LMS['the-pack'] = {
        "bars": {
         "tab": {
          "en": "Where the time went",
-         "id": "Ke mana waktunya pergi"
+         "id": "Ke mana waktunya habis"
         },
         "title": {
          "en": "Where Nadia’s time went",
-         "id": "Ke mana waktu Nadia pergi"
+         "id": "Ke mana waktu Nadia habis"
         },
         "unit": {
          "en": "hours per month, her own estimate",
-         "id": "jam per bulan, perkiraannya sendiri"
+         "id": "jam per bulan, perkiraan Nadia sendiri"
         },
         "rows": [
          {
@@ -5083,36 +5082,36 @@ window.MT_LMS['the-pack'] = {
          {
           "label": {
            "en": "Conversations with people at employers",
-           "id": "Percakapan dengan orang di perusahaan"
+           "id": "Obrolan dengan orang di perusahaan"
           },
           "v": 0
          }
         ],
         "total": {
          "en": "Total ≈ 50 hours a month. The two highlighted rows are browsing and broadcasting.",
-         "id": "Total ≈ 50 jam sebulan. Dua baris yang disorot adalah menjelajah dan menyiarkan."
+         "id": "Total ≈ 50 jam sebulan. Dua baris yang disorot adalah menjelajah dan menyebar."
         },
         "takeaways": [
          {
           "dir": "down",
           "h": {
            "en": "44 of 50 hours on the lowest-yield methods",
-           "id": "44 dari 50 jam pada metode dengan hasil terendah"
+           "id": "44 dari 50 jam dihabiskan untuk cara yang hasilnya paling rendah"
           },
           "p": {
            "en": "Roughly 85–90% of her month is browsing and broadcasting.",
-           "id": "Kira-kira 85–90% bulannya adalah menjelajah dan menyiarkan."
+           "id": "Kira-kira 85–90% bulannya adalah menjelajah dan menyebar."
           }
          },
          {
           "dir": "up",
           "h": {
            "en": "The 4 tailored hours produced most of the responses",
-           "id": "4 jam yang disesuaikan menghasilkan sebagian besar respons"
+           "id": "4 jam untuk lamaran yang disesuaikan menghasilkan sebagian besar tanggapan"
           },
           "p": {
            "en": "Ask her which applications got the three invitations; it is a fair guess they were not the Easy Apply ones.",
-           "id": "Tanyakan lamaran mana yang mendapat tiga undangan; dugaan wajarnya bukan yang Easy Apply."
+           "id": "Tanyakan kepada Nadia lamaran mana yang mendapat tiga undangan itu; hampir pasti bukan yang lewat Easy Apply."
           }
          }
         ]
@@ -5130,7 +5129,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Use the three-stage diagnostic from Lesson 1.3. Show the arithmetic; Nadia should be able to redo it herself next month.",
-         "id": "Pakai diagnostik tiga tahap dari Pelajaran 1.3. Tunjukkan hitungannya; Nadia harus bisa mengulanginya sendiri bulan depan."
+         "id": "Pakai diagnosis tiga tahap dari Pelajaran 1.3. Tunjukkan hitungannya; Nadia harus bisa mengulanginya sendiri bulan depan."
         },
         "questions": [
          {
@@ -5143,7 +5142,7 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Compute invitations ÷ applications and passes ÷ invitations. Name the stage, and say what you cannot conclude yet.",
-           "id": "Hitung undangan ÷ lamaran dan lulus ÷ undangan. Sebutkan tahapnya, dan katakan apa yang belum bisa disimpulkan."
+           "id": "Hitung undangan ÷ lamaran dan lulus ÷ undangan. Sebut tahapnya, dan katakan apa yang belum bisa disimpulkan."
           },
           "placeholder": {
            "en": "Stage …: … of 120 is …%, which is …",
@@ -5186,7 +5185,7 @@ window.MT_LMS['the-pack'] = {
            },
            "text": {
             "en": "“Stage B: 2 invitations from 50 applications (4%), well under the 1-in-10 rule of thumb, so the paper is the bottleneck. With no interviews yet, Stage C cannot be judged.”",
-            "id": "“Tahap B: 2 undangan dari 50 lamaran (4%), jauh di bawah patokan 1 dari 10, jadi dokumennya adalah hambatan. Tanpa wawancara, Tahap C belum bisa dinilai.”"
+            "id": "“Tahap B: 2 undangan dari 50 lamaran (4%), jauh di bawah patokan 1 dari 10, jadi dokumennya yang menjadi penghambat. Karena belum ada wawancara, Tahap C belum bisa dinilai.”"
            }
           }
          },
@@ -5200,11 +5199,11 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Browsing, broadcasting or targeting; with the approximate share of her ~50 hours in each. Use the data tab.",
-           "id": "Menjelajah, menyiarkan, atau membidik, dengan perkiraan bagian dari ~50 jamnya di masing-masing. Pakai tab data."
+           "id": "Menjelajah, menyebar, atau membidik, dengan perkiraan porsi dari ~50 jamnya untuk masing-masing. Pakai tab data."
           },
           "placeholder": {
            "en": "Browsing ≈ … h · broadcasting ≈ … h · targeting ≈ … h, because …",
-           "id": "Menjelajah ≈ … jam · menyiarkan ≈ … jam · membidik ≈ … jam, karena …"
+           "id": "Menjelajah ≈ … jam · menyebar ≈ … jam · membidik ≈ … jam, karena …"
           },
           "keywords": [
            [
@@ -5237,15 +5236,15 @@ window.MT_LMS['the-pack'] = {
        {
         "title": {
          "en": "Rebalance",
-         "id": "Seimbangkan ulang"
+         "id": "Tata ulang"
         },
         "short": {
          "en": "Rebalance",
-         "id": "Seimbangkan"
+         "id": "Tata ulang"
         },
         "guide": {
          "en": "Move the hours, not the goal. Nadia keeps ~50 hours a month and both of her target tracks; what changes is where the hours go and what gets counted.",
-         "id": "Pindahkan jamnya, bukan tujuannya. Nadia tetap punya ~50 jam sebulan dan kedua jalur sasarannya; yang berubah adalah ke mana jam-jam itu pergi dan apa yang dihitung."
+         "id": "Pindahkan jamnya, bukan tujuannya. Nadia tetap punya ~50 jam sebulan dan kedua jalur sasarannya; yang berubah hanya ke mana jam-jam itu dipakai dan apa yang dihitung."
         },
         "questions": [
          {
@@ -5254,15 +5253,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 7,
           "title": {
            "en": "Propose a new monthly allocation with weekly targets",
-           "id": "Usulkan alokasi bulanan baru dengan target mingguan"
+           "id": "Usulkan pembagian jam bulanan yang baru, dengan target mingguan"
           },
           "help": {
            "en": "Split her ~50 hours across tailored applications, outreach, conversations, test practice and review. Give leading-indicator targets per week (Lesson 1.4).",
-           "id": "Bagi ~50 jamnya ke lamaran yang disesuaikan, penjangkauan, percakapan, latihan tes, dan tinjauan. Beri target indikator penuntun per minggu (Pelajaran 1.4)."
+           "id": "Bagi ~50 jamnya untuk lamaran yang disesuaikan, penjajakan, obrolan, latihan tes, dan tinjauan. Beri target indikator penuntun per minggu (Pelajaran 1.4)."
           },
           "placeholder": {
            "en": "Per week: … tailored applications (… h) · … outreach messages (… h) · …",
-           "id": "Per minggu: … lamaran yang disesuaikan (… jam) · … pesan penjangkauan (… jam) · …"
+           "id": "Per minggu: … lamaran yang disesuaikan (… jam) · … pesan penjajakan (… jam) · …"
           },
           "keywords": [
            [
@@ -5302,15 +5301,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 7,
           "title": {
            "en": "Two tracks in parallel",
-           "id": "Dua jalur secara paralel"
+           "id": "Dua jalur berjalan bersamaan"
           },
           "help": {
            "en": "Which process-track and network-track opportunities should she run at the same time, and what differs in how she approaches each? Use the employers in the brief: Arunika MT (window in 6 weeks, 2 alumni), Bank Sinar Nusantara officer programme (rolling, 4 alumni), KilatPay (1 alumnus, role likely to open), Rumah Rempah (1 alumnus).",
-           "id": "Peluang jalur proses dan jalur jejaring mana yang sebaiknya ia jalankan bersamaan, dan apa yang berbeda dalam cara ia mendekati masing-masing? Pakai perusahaan dalam arahan: MT Arunika (jendela 6 minggu lagi, 2 alumni), ODP Bank Sinar Nusantara (bergulir, 4 alumni), KilatPay (1 alumni, peran kemungkinan dibuka), Rumah Rempah (1 alumni)."
+           "id": "Peluang jalur proses dan jalur jejaring mana yang sebaiknya ia jalankan bersamaan, dan apa bedanya cara mendekati masing-masing? Pakai perusahaan dalam arahan: MT Arunika (pendaftaran 6 minggu lagi, 2 alumni), ODP Bank Sinar Nusantara (bergulir, 4 alumni), KilatPay (1 alumni, posisi kemungkinan segera dibuka), Rumah Rempah (1 alumni)."
           },
           "placeholder": {
            "en": "Process track: …: calendar, requirements, test preparation. Network track: …, conversation first, then …",
-           "id": "Jalur proses: …: kalender, persyaratan, persiapan tes. Jalur jejaring: …, percakapan dulu, lalu …"
+           "id": "Jalur proses: …: kalender, syarat, persiapan tes. Jalur jejaring: …, obrolan dulu, lalu …"
           },
           "keywords": [
            [
@@ -5353,7 +5352,7 @@ window.MT_LMS['the-pack'] = {
        {
         "title": {
          "en": "Systematise",
-         "id": "Sistematisasi"
+         "id": "Bangun sistemnya"
         },
         "short": {
          "en": "System",
@@ -5361,7 +5360,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "A system Nadia can run in three hours a week. Columns she will actually fill in; questions she can answer in two lines each.",
-         "id": "Sistem yang bisa dijalankan Nadia dalam tiga jam seminggu. Kolom yang benar-benar akan ia isi; pertanyaan yang bisa ia jawab dalam dua baris masing-masing."
+         "id": "Sistem yang bisa dijalankan Nadia dalam tiga jam seminggu. Kolom yang benar-benar akan ia isi; pertanyaan yang bisa ia jawab dalam dua baris."
         },
         "questions": [
          {
@@ -5370,15 +5369,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 6,
           "title": {
            "en": "Her tracker columns and Friday review",
-           "id": "Kolom pelacak dan tinjauan Jumat-nya"
+           "id": "Kolom pelacak dan tinjauan hari Jumatnya"
           },
           "help": {
            "en": "List the tracker columns she should start with (she may not need all twelve on day one) and the review questions for Friday. Say what happens to an application with no next action.",
-           "id": "Daftar kolom pelacak yang sebaiknya ia mulai (ia mungkin tidak butuh kedua belasnya di hari pertama) dan pertanyaan tinjauan untuk hari Jumat. Katakan apa yang terjadi pada lamaran tanpa tindakan berikutnya."
+           "id": "Tulis kolom pelacak yang sebaiknya ia mulai (tidak harus semua dua belas di hari pertama) dan pertanyaan tinjauan untuk hari Jumat. Katakan apa yang terjadi pada lamaran yang tidak punya tindakan berikutnya."
           },
           "placeholder": {
            "en": "Columns: employer · role · track · … Friday: 1) … 2) … 3) … 4) …",
-           "id": "Kolom: perusahaan · peran · jalur · … Jumat: 1) … 2) … 3) … 4) …"
+           "id": "Kolom: perusahaan · posisi · jalur · … Jumat: 1) … 2) … 3) … 4) …"
           },
           "keywords": [
            [
@@ -5415,7 +5414,7 @@ window.MT_LMS['the-pack'] = {
        {
         "title": {
          "en": "Communicate",
-         "id": "Komunikasikan"
+         "id": "Sampaikan"
         },
         "short": {
          "en": "Message",
@@ -5423,7 +5422,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Write as Nadia, to her parents, in the language they speak at home. Four to six sentences. Honest numbers, one concrete action, one thing learned, no promised outcome.",
-         "id": "Tulis sebagai Nadia, kepada orang tuanya, dalam Bahasa Indonesia. Empat sampai enam kalimat. Angka yang jujur, satu tindakan konkret, satu hal yang dipelajari, tanpa hasil yang dijanjikan."
+         "id": "Tulis sebagai Nadia, untuk orang tuanya, dalam bahasa Indonesia sehari-hari. Empat sampai enam kalimat. Angka yang jujur, satu tindakan nyata, satu hal yang dipelajari, tanpa menjanjikan hasil."
         },
         "questions": [
          {
@@ -5437,7 +5436,7 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "As Nadia would actually write it to her parents. It should make invisible progress visible in terms they recognise.",
-           "id": "Bahasa Indonesia, seperti yang benar-benar akan ditulis Nadia. Pesan itu harus membuat kemajuan yang tak terlihat menjadi terlihat dalam istilah yang dikenali orang tuanya."
+           "id": "Seperti yang benar-benar akan ditulis Nadia untuk orang tuanya. Pesan itu harus membuat kemajuan yang tak terlihat menjadi terlihat, dengan ukuran yang mereka pahami."
           },
           "placeholder": {
            "en": "Mum, Dad: this week I …",
@@ -5478,28 +5477,28 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Correct stage identified, with the numbers that show it",
-         "id": "Tahap yang tepat dikenali, dengan angka yang menunjukkannya"
+         "id": "Tahap yang tepat ditemukan, dengan angka yang menunjukkannya"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "Rebalance shifts the majority of hours to targeting, with weekly targets",
-         "id": "Penyeimbangan ulang memindahkan sebagian besar jam ke membidik, dengan target mingguan"
+         "id": "Penataan ulang memindahkan sebagian besar jam ke membidik, dengan target mingguan"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "Two-track plan is concrete: named employers, dated actions, different approaches",
-         "id": "Rencana dua jalur konkret: perusahaan bernama, tindakan bertanggal, pendekatan berbeda"
+         "id": "Rencana dua jalur yang nyata: nama perusahaan, tindakan bertanggal, pendekatan yang berbeda"
         },
         "w": "20%"
        },
        {
         "h": {
          "en": "Tracker and review are usable in three hours a week",
-         "id": "Pelacak dan tinjauan bisa dipakai dalam tiga jam seminggu"
+         "id": "Pelacak dan tinjauan bisa dijalankan dalam tiga jam seminggu"
         },
         "w": "15%"
        },
@@ -5514,7 +5513,7 @@ window.MT_LMS['the-pack'] = {
       "model": {
        "title": {
         "en": "Model notes: how a coach might have answered",
-        "id": "Catatan model: bagaimana seorang pembimbing mungkin menjawab"
+        "id": "Catatan model: begini kira-kira jawaban seorang pembimbing"
        },
        "body": [
         {
@@ -5525,7 +5524,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Stage B leaks. Three invitations from 120 applications is 2.5%, well below a healthy rate for well-targeted applications, so the paper is the first fix. But most of the 120 were untailored, so the number measures broadcasting more than it measures her CV; the honest reading is “the method is broadcasting and the CV is untested”. The one passed test with no follow-up is too small a sample to diagnose Stage C, and there is no interview data at all. Roughly 85–90% of her hours (44 of 50) are browsing and broadcasting; about 4 hours are targeting; conversations are zero.",
-         "id": "Tahap B bocor. Tiga undangan dari 120 lamaran adalah 2,5%, jauh di bawah tingkat sehat untuk lamaran yang terbidik dengan baik, jadi dokumennya adalah perbaikan pertama. Tetapi sebagian besar dari 120 itu tidak disesuaikan, sehingga angka itu lebih mengukur menyiarkan daripada CV-nya; bacaan jujurnya adalah “metodenya menyiarkan dan CV-nya belum teruji”. Satu tes yang lulus tanpa tindak lanjut terlalu kecil untuk mendiagnosis Tahap C, dan tidak ada data wawancara sama sekali. Kira-kira 85–90% jamnya (44 dari 50) adalah menjelajah dan menyiarkan; sekitar 4 jam membidik; percakapan nol."
+         "id": "Tahap B bocor. Tiga undangan dari 120 lamaran adalah 2,5%, jauh di bawah tingkat yang sehat untuk lamaran yang dibidik dengan baik, jadi dokumen adalah perbaikan pertama. Tetapi sebagian besar dari 120 lamaran itu tidak disesuaikan, sehingga angka ini lebih mengukur cara menyebar daripada mutu CV-nya. Bacaan yang jujur: “caranya menyebar, dan CV-nya belum teruji”. Satu tes yang lulus tanpa kelanjutan terlalu sedikit untuk mendiagnosis Tahap C, dan data wawancara tidak ada sama sekali. Kira-kira 85–90% jamnya (44 dari 50) habis untuk menjelajah dan menyebar; sekitar 4 jam untuk membidik; obrolan nol."
         },
         {
          "h": {
@@ -5535,7 +5534,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Cut Easy Apply to near zero. Six to eight tailored applications a week in two clusters, FMCG MT and bank officer programme, about 12 hours a month. Three outreach messages a week to HIMA alumni at target employers, starting with the six named in the brief, about 4 hours. Aim for one or two conversations a week, about 4 hours. Four 25-minute test sessions a week for the process track, about 7 hours. One 30-minute Friday review and a 30-minute Monday plan, about 4 hours. Total ≈ 31 hours, leaving slack for the barista shifts and for the weeks that go wrong.",
-         "id": "Pangkas Easy Apply mendekati nol. Enam sampai delapan lamaran yang disesuaikan per minggu dalam dua rumpun, MT FMCG dan ODP bank, sekitar 12 jam sebulan. Tiga pesan penjangkauan per minggu ke alumni HIMA di perusahaan sasaran, dimulai dari enam yang disebut dalam arahan, sekitar 4 jam. Targetkan satu atau dua percakapan per minggu, sekitar 4 jam. Empat sesi tes 25 menit per minggu untuk jalur proses, sekitar 7 jam. Satu tinjauan Jumat 30 menit dan rencana Senin 30 menit, sekitar 4 jam. Total ≈ 31 jam, menyisakan kelonggaran untuk sif barista dan untuk minggu-minggu yang tidak berjalan lancar."
+         "id": "Pangkas Easy Apply sampai hampir nol. Enam sampai delapan lamaran yang disesuaikan per minggu dalam dua rumpun, MT FMCG dan ODP bank, kira-kira 12 jam sebulan. Tiga pesan penjajakan per minggu ke alumni HIMA di perusahaan sasaran, mulai dari enam nama yang disebut di arahan, kira-kira 4 jam. Targetkan satu atau dua obrolan per minggu, kira-kira 4 jam. Empat sesi latihan tes 25 menit per minggu untuk jalur proses, kira-kira 7 jam. Satu tinjauan Jumat 30 menit dan rencana Senin 30 menit, kira-kira 4 jam. Total ≈ 31 jam, dengan sisa ruang untuk sif barista dan untuk minggu-minggu yang berjalan tidak mulus."
         },
         {
          "h": {
@@ -5545,7 +5544,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Process track: Arunika MT (window opens in six weeks; check every requirement now, book the test sessions, message the two alumni for what the assessment centre rewards) and Bank Sinar Nusantara officer programme (rolling, tailor a bank-operations CV using the internship reconciliation work, fix the document sizes, apply within two weeks, message two of the four alumni). Network track: KilatPay (one conversation with the alumnus before any application; ask what business operations does day to day) and Rumah Rempah (the alumnus first, then a short email to HR referencing the conversation). Same person, different behaviour: calendar and precision on one side, conversation before posting on the other.",
-         "id": "Jalur proses: MT Arunika (jendela dibuka enam minggu lagi; periksa setiap syarat sekarang, jadwalkan sesi tes, kirim pesan ke dua alumni untuk mengetahui apa yang dihargai di assessment centre) dan ODP Bank Sinar Nusantara (bergulir, sesuaikan CV operasional bank memakai pekerjaan rekonsiliasi saat magang, perbaiki ukuran dokumen, lamar dalam dua minggu, kirim pesan ke dua dari empat alumni). Jalur jejaring: KilatPay (satu percakapan dengan alumninya sebelum lamaran apa pun; tanyakan apa yang dikerjakan business operations sehari-hari) dan Rumah Rempah (alumninya dulu, lalu email singkat ke HR yang merujuk percakapan itu). Orang yang sama, perilaku berbeda: kalender dan ketelitian di satu sisi, percakapan sebelum lowongan di sisi lain."
+         "id": "Jalur proses: MT Arunika (pendaftaran dibuka enam minggu lagi; cek setiap syarat sekarang, jadwalkan sesi latihan tes, kirim pesan ke dua alumni untuk tahu apa yang dinilai di assessment centre) dan ODP Bank Sinar Nusantara (bergulir; sesuaikan CV untuk operasional bank dengan pengalaman rekonsiliasi saat magang, perbaiki ukuran dokumen, lamar dalam dua minggu, kirim pesan ke dua dari empat alumni). Jalur jejaring: KilatPay (satu obrolan dengan alumninya sebelum melamar apa pun; tanyakan apa yang dikerjakan business operations sehari-hari) dan Rumah Rempah (alumninya dulu, baru email singkat ke HR yang menyebut obrolan itu). Orang yang sama, perilaku yang berbeda: kalender dan ketelitian di satu sisi, obrolan sebelum lowongan di sisi lain."
         },
         {
          "h": {
@@ -5555,7 +5554,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Start with eight columns, employer, role, track, source, date applied, CV version, next action + date, stage/outcome, and add contact, last action and lesson learned as the pipeline fills. Friday: what did the numbers do; which stage leaks; one change; what went well. Any line without a next action is closed with a lesson or given a date.",
-         "id": "Mulai dengan delapan kolom, perusahaan, peran, jalur, sumber, tanggal melamar, versi CV, tindakan berikutnya + tanggal, tahap/hasil, dan tambahkan kontak, tindakan terakhir, dan pelajaran seiring alur terisi. Jumat: apa yang terjadi pada angka; tahap mana yang bocor; satu perubahan; apa yang berjalan baik. Baris apa pun tanpa tindakan berikutnya ditutup dengan pelajaran atau diberi tanggal."
+         "id": "Mulai dengan delapan kolom: perusahaan, posisi, jalur, sumber, tanggal melamar, versi CV, tindakan berikutnya + tanggal, tahap/hasil. Tambahkan kontak, tindakan terakhir, dan pelajaran seiring alurnya terisi. Jumat: apa yang terjadi pada angka; tahap mana yang bocor; satu perubahan; apa yang berjalan baik. Baris tanpa tindakan berikutnya ditutup dengan satu pelajaran, atau diberi tanggal."
         },
         {
          "h": {
@@ -5565,12 +5564,12 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "“Mum, Dad: I have checked the numbers. Out of 120 applications only 3 led to a test invitation, and almost all of them went out in a hurry with the same CV. From this week I am changing the method: 6 properly tailored applications a week, and I have started contacting seniors from my course who work in banking and consumer goods. This week I spoke with one person at Arunika and learned that they care more about evidence of work than about the number of applications. I will send you the numbers again at the end of the month.”",
-         "id": "“Bu, Pak: aku sudah cek angkanya: dari 120 lamaran, cuma 3 yang dapat undangan tes, dan hampir semuanya kukirim asal cepat dengan CV yang sama. Mulai minggu ini aku ganti cara: 6 lamaran yang benar-benar disesuaikan, dan aku mulai menghubungi kakak tingkat HIMA yang kerja di bank dan FMCG. Minggu ini aku sudah ngobrol dengan satu orang di Arunika, dan aku belajar bahwa mereka lebih memperhatikan pengalaman organisasi daripada yang kukira. Cara ini lebih lambat kelihatannya, tapi jauh lebih sering berhasil. Doakan, ya.” Lima kalimat; satu angka jujur, satu tindakan, satu pelajaran, tanpa janji."
+         "id": "“Bu, Pak: aku sudah cek angkanya. Dari 120 lamaran, cuma 3 yang dapat undangan tes, dan hampir semuanya kukirim buru-buru dengan CV yang sama. Mulai minggu ini aku ganti cara: 6 lamaran yang benar-benar disesuaikan tiap minggu, dan aku mulai menghubungi kakak tingkat HIMA yang kerja di bank dan FMCG. Minggu ini aku sudah ngobrol dengan satu orang di Arunika, dan aku belajar bahwa mereka lebih memperhatikan bukti kerja daripada jumlah lamaran. Cara ini lebih lambat kelihatan hasilnya, tapi jauh lebih sering berhasil. Doakan, ya.” Lima kalimat: satu angka jujur, satu tindakan, satu pelajaran, tanpa janji."
         }
        ],
        "after": {
         "en": "Compare, do not copy. If your rebalance kept more than a third of the hours on portals, ask yourself what those hours are for. If your message promised an offer date, cut it.",
-        "id": "Bandingkan, jangan salin. Jika penyeimbanganmu masih menyisakan lebih dari sepertiga jam di portal, tanyakan pada dirimu untuk apa jam-jam itu. Jika pesanmu menjanjikan tanggal tawaran, hapus."
+        "id": "Bandingkan, jangan salin. Kalau penataan ulangmu masih menyisakan lebih dari sepertiga jam untuk portal, tanyakan pada dirimu untuk apa jam-jam itu. Kalau pesanmu menjanjikan tanggal tawaran, hapus."
        }
       },
       "submit": {
@@ -5584,7 +5583,7 @@ window.MT_LMS['the-pack'] = {
        },
        "lead": {
         "en": "Read your six answers once more as if you were Nadia receiving them. Submitting locks them on this device and opens the model notes.",
-        "id": "Baca keenam jawabanmu sekali lagi seolah kamu adalah Nadia yang menerimanya. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+        "id": "Baca lagi keenam jawabanmu seolah-olah kamu Nadia yang menerimanya. Mengumpulkan akan mengunci jawaban di perangkat ini dan membuka catatan model."
        },
        "button": {
         "en": "Submit the case",
@@ -5596,7 +5595,7 @@ window.MT_LMS['the-pack'] = {
        },
        "confirmBody": {
         "en": "You can still read and copy them afterwards, but not edit them. The model notes and rubric open for comparison.",
-        "id": "Kamu masih bisa membaca dan menyalinnya setelah itu, tetapi tidak mengeditnya. Catatan model dan rubrik terbuka untuk perbandingan."
+        "id": "Setelah itu kamu masih bisa membaca dan menyalinnya, tetapi tidak bisa mengeditnya. Catatan model dan rubrik akan terbuka untuk dibandingkan."
        },
        "confirmYes": {
         "en": "Yes, submit",
@@ -5612,7 +5611,7 @@ window.MT_LMS['the-pack'] = {
        },
        "doneBody": {
         "en": "Your diagnosis and plan are locked on this device. Compare them with the model notes below, then carry the method to your own search in the tracker.",
-        "id": "Diagnosis dan rencanamu terkunci di perangkat ini. Bandingkan dengan catatan model di bawah, lalu bawa metodenya ke pencarianmu sendiri di pelacak."
+        "id": "Diagnosis dan rencanamu terkunci di perangkat ini. Bandingkan dengan catatan model di bawah, lalu terapkan caranya pada pencarianmu sendiri di pelacak."
        },
        "copy": {
         "en": "Copy my answers",
@@ -5624,7 +5623,7 @@ window.MT_LMS['the-pack'] = {
        },
        "local": {
         "en": "Everything you write here stays on this device. Nothing is uploaded.",
-        "id": "Semua yang kamu tulis di sini tetap di perangkat ini. Tidak ada yang diunggah."
+        "id": "Semua yang kamu tulis di sini tersimpan di perangkat ini saja. Tidak ada yang diunggah."
        },
        "reset": {
         "en": "Start this case again",
@@ -5632,7 +5631,7 @@ window.MT_LMS['the-pack'] = {
        },
        "resetConfirm": {
         "en": "This clears every answer and the submission on this device.",
-        "id": "Ini menghapus semua jawaban dan pengumpulan di perangkat ini."
+        "id": "Ini akan menghapus semua jawaban dan pengumpulan di perangkat ini."
        }
       }
      },
@@ -5651,11 +5650,11 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Rebalancing by adding hours instead of moving them",
-         "id": "Menyeimbangkan ulang dengan menambah jam alih-alih memindahkannya"
+         "id": "Menata ulang dengan menambah jam, bukan memindahkannya"
         },
         "fix": {
          "en": "Nadia has ~50 hours. A plan that needs 80 is not a plan.",
-         "id": "Nadia punya ~50 jam. Rencana yang butuh 80 jam bukanlah rencana."
+         "id": "Nadia punya ~50 jam. Rencana yang butuh 80 jam bukan rencana."
         }
        },
        {
@@ -5665,7 +5664,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Calendar and precision for Arunika and the bank; conversation before posting for KilatPay and Rumah Rempah.",
-         "id": "Kalender dan ketelitian untuk Arunika dan bank; percakapan sebelum lowongan untuk KilatPay dan Rumah Rempah."
+         "id": "Kalender dan ketelitian untuk Arunika dan bank; obrolan sebelum lowongan untuk KilatPay dan Rumah Rempah."
         }
        },
        {
@@ -5688,7 +5687,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Dossier item 1: the three stage conversions of your own search, with the leaking stage named.",
-        "id": "Butir Dossier 1: tiga konversi tahap pencarianmu sendiri, dengan tahap yang bocor disebutkan."
+        "id": "Butir Dossier 1: tiga konversi tahap dari pencarianmu sendiri, dengan tahap yang bocor disebutkan."
        }
       },
       {
@@ -5698,7 +5697,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Dossier item 1, part two: every live application with a stage, a CV version and a dated next action.",
-        "id": "Butir Dossier 1, bagian dua: setiap lamaran aktif dengan tahap, versi CV, dan tindakan berikutnya yang bertanggal."
+        "id": "Butir Dossier 1, bagian kedua: setiap lamaran yang masih berjalan, dengan tahap, versi CV, dan tindakan berikutnya yang bertanggal."
        }
       },
       {
@@ -5708,7 +5707,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The weighted criteria you or a mentor use to review the case after submission.",
-        "id": "Kriteria berbobot yang kamu atau mentor pakai untuk meninjau kasus setelah pengumpulan."
+        "id": "Kriteria berbobot yang kamu atau mentor pakai untuk meninjau kasus setelah dikumpulkan."
        }
       }
      ],
@@ -5716,7 +5715,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Nadia’s 120 applications produced 3 invitations. A coach who says “the CV is definitely the problem” is…",
-        "id": "120 lamaran Nadia menghasilkan 3 undangan. Pembimbing yang berkata “CV-nya pasti masalahnya” sedang…"
+        "id": "120 lamaran Nadia menghasilkan 3 undangan. Pembimbing yang bilang “CV-nya pasti yang bermasalah” itu…"
        },
        "options": [
         {
@@ -5725,7 +5724,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Half right: Stage B is leaking, but most applications were untailored, so the number measures broadcasting more than the CV",
-         "id": "Setengah benar: Tahap B bocor, tetapi sebagian besar lamaran tidak disesuaikan, jadi angkanya lebih mengukur menyiarkan daripada CV"
+         "id": "Setengah benar: Tahap B bocor, tetapi sebagian besar lamaran tidak disesuaikan, jadi angkanya lebih mengukur cara menyebar daripada CV-nya"
         },
         {
          "en": "Wrong: the problem is interviews",
@@ -5733,28 +5732,28 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Wrong: she should apply to more roles",
-         "id": "Salah: ia harus melamar lebih banyak"
+         "id": "Salah: ia harus melamar lebih banyak lagi"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The leak is real, but its cause has to be separated: method first, then document. Twenty tailored applications will show which.",
-        "id": "Kebocorannya nyata, tetapi penyebabnya harus dipisahkan: metode dulu, lalu dokumen. Dua puluh lamaran yang disesuaikan akan menunjukkan yang mana."
+        "id": "Bocornya nyata, tetapi penyebabnya harus dipisahkan: cara dulu, baru dokumen. Dua puluh lamaran yang disesuaikan akan menunjukkan yang mana."
        }
       },
       {
        "q": {
         "en": "Which rebalance best fits ~50 hours a month?",
-        "id": "Penyeimbangan ulang mana yang paling cocok untuk ~50 jam sebulan?"
+        "id": "Penataan ulang mana yang paling pas untuk ~50 jam sebulan?"
        },
        "options": [
         {
          "en": "80 Easy Apply clicks, 10 tailored applications, 2 conversations",
-         "id": "80 klik Easy Apply, 10 lamaran yang disesuaikan, 2 percakapan"
+         "id": "80 klik Easy Apply, 10 lamaran yang disesuaikan, 2 obrolan"
         },
         {
          "en": "25–30 tailored applications, 12 outreach messages, 4–6 conversations, 16 test sessions, 4 reviews",
-         "id": "25–30 lamaran yang disesuaikan, 12 pesan penjangkauan, 4–6 percakapan, 16 sesi tes, 4 tinjauan"
+         "id": "25–30 lamaran yang disesuaikan, 12 pesan penjajakan, 4–6 obrolan, 16 sesi tes, 4 tinjauan"
         },
         {
          "en": "Zero applications until the CV is perfect",
@@ -5783,7 +5782,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Message the HIMA (the students’ association, himpunan mahasiswa) alumnus there and ask for a 20-minute conversation about what business operations does",
-         "id": "Mengirim pesan ke alumni HIMA (himpunan mahasiswa) di sana dan meminta percakapan 20 menit tentang apa yang dikerjakan business operations"
+         "id": "Mengirim pesan ke alumni HIMA (himpunan mahasiswa) di sana dan meminta obrolan 20 menit tentang apa yang dikerjakan business operations"
         },
         {
          "en": "Wait for a posting",
@@ -5797,7 +5796,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "KilatPay is network-track: be known before the posting, then apply with what you learned.",
-        "id": "KilatPay adalah jalur jejaring: dikenal sebelum lowongan ada, lalu melamar dengan apa yang kamu pelajari."
+        "id": "KilatPay ada di jalur jejaring: dikenal dulu sebelum lowongan ada, lalu melamar dengan bekal yang kamu pelajari."
        }
       }
      ],
@@ -5810,7 +5809,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Run your own numbers through the same four steps. The Pipeline Tracker holds Dossier item 1, your Search Diagnosis and leading-indicator tracker, and Module 2 builds the target list on top of it.",
-       "id": "Jalankan angkamu sendiri melalui empat langkah yang sama. Pelacak Alur menyimpan butir Dossier 1, Diagnosis Pencarian dan pelacak indikator penuntunmu, dan Modul 2 membangun daftar sasaran di atasnya."
+       "id": "Jalankan angkamu sendiri lewat empat langkah yang sama. Pelacak Alur menyimpan butir Dossier 1, yaitu Diagnosis Pencarian dan pelacak indikator penuntunmu, dan Modul 2 membangun daftar sasaran di atasnya."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -5820,15 +5819,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "A diagnosis is a stage and a number, plus an honest statement of what the data cannot yet tell you.",
-       "id": "Diagnosis adalah sebuah tahap dan sebuah angka, ditambah pernyataan jujur tentang apa yang belum bisa dikatakan data."
+       "id": "Diagnosis adalah satu tahap dan satu angka, ditambah pernyataan jujur tentang apa yang belum bisa dikatakan oleh data."
       },
       {
        "en": "Rebalancing moves hours from broadcasting to targeting without adding hours or dropping a track.",
-       "id": "Penyeimbangan ulang memindahkan jam dari menyiarkan ke membidik tanpa menambah jam atau meninggalkan satu jalur."
+       "id": "Menata ulang berarti memindahkan jam dari menyebar ke membidik, tanpa menambah jam dan tanpa meninggalkan satu jalur."
       },
       {
        "en": "A plan another person can start on Monday has names, dates, columns and one message home.",
-       "id": "Rencana yang bisa dimulai orang lain pada hari Senin punya nama, tanggal, kolom, dan satu pesan ke rumah."
+       "id": "Rencana yang bisa dimulai orang lain pada hari Senin punya nama, tanggal, kolom, dan satu pesan untuk keluarga."
       }
      ],
      "journey": {
@@ -5839,7 +5838,7 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "The employer’s side, the railway and two tracks, the three-stage diagnostic, the system.",
-        "id": "Sisi perusahaan, rel dan dua jalur, diagnostik tiga tahap, sistem."
+        "id": "Sisi perusahaan, rel rekrutmen dan dua jalurnya, diagnosis tiga tahap, sistem."
        }
       },
       "now": {
@@ -5849,7 +5848,7 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "You have diagnosed a search, rebalanced a month, designed a system and written the message home.",
-        "id": "Kamu sudah mendiagnosis pencarian, menyeimbangkan ulang sebulan, merancang sistem, dan menulis pesan ke rumah."
+        "id": "Kamu sudah mendiagnosis sebuah pencarian, menata ulang sebulan, merancang sistem, dan menulis pesan untuk keluarga."
        }
       },
       "next": {
@@ -5859,7 +5858,7 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "Build the 40-employer target list, find two people at each, and write the first message.",
-        "id": "Bangun daftar 40 perusahaan sasaran, temukan dua orang di masing-masing, dan tulis pesan pertama."
+        "id": "Bangun daftar 40 perusahaan sasaran, temukan dua orang di masing-masing, dan tulis pesan pertamamu."
        },
        "lesson": "2.1"
       }
@@ -5871,15 +5870,15 @@ window.MT_LMS['the-pack'] = {
    "num": 2,
    "title": {
     "en": "Targets, Networks & the Hidden Gate",
-    "id": "Target, Jejaring & Gerbang Tersembunyi"
+    "id": "Sasaran, Jejaring & Gerbang Tersembunyi"
    },
    "overview": {
     "en": "Every document in The Pack must be written for someone. And the route employers prefer, being known and vouched for, is teachable, time-boxed, and open to learners with no network. This module turns an anxious, infinite search into a scored list of forty employers, two people at each of the top five, and a first message that gets replies.",
-    "id": "Setiap dokumen di The Pack harus ditulis untuk seseorang. Dan jalur yang disukai perusahaan, dikenal dan dijamin orang, bisa diajarkan, dibatasi waktu, dan terbuka bagi pembelajar tanpa jejaring. Modul ini mengubah pencarian yang cemas dan tak berujung menjadi daftar empat puluh perusahaan yang dinilai, dua orang di masing-masing dari lima teratas, dan pesan pertama yang mendapat balasan."
+    "id": "Setiap dokumen di The Pack harus ditulis untuk seseorang. Dan jalur yang paling disukai perusahaan, yaitu sudah dikenal dan dijamin orang, ternyata bisa dipelajari, dibatasi waktunya, dan terbuka bagi pembelajar yang belum punya jejaring sama sekali. Modul ini mengubah pencarian yang cemas dan tak berujung menjadi daftar empat puluh perusahaan yang diberi skor, dua orang di masing-masing dari lima teratas, dan satu pesan pertama yang benar-benar dibalas."
    },
    "outcome": {
     "en": "By the end of this module you can state your target in one “narrow and broad” sentence; build and score a 40-employer target list; choose the right two people to contact at each of your top five employers; write a 75-word outreach message in both English and your local language; run the 3B7 follow-up routine; and hold a 20-minute informational conversation that ends with a clear next step.",
-    "id": "Di akhir modul ini kamu bisa menyatakan sasaranmu dalam satu kalimat “sempit dan luas”; membangun dan menilai daftar 40 perusahaan sasaran; memilih dua orang yang tepat untuk dihubungi di masing-masing dari lima perusahaan teratas; menulis pesan penjangkauan 75 kata dalam Bahasa Indonesia dan Inggris; menjalankan rutinitas tindak lanjut 3B7; dan menjalani percakapan informasional 20 menit yang berakhir dengan langkah berikutnya yang jelas."
+    "id": "Di akhir modul ini kamu bisa menyatakan sasaranmu dalam satu kalimat “sempit sekaligus luas”; membangun dan memberi skor daftar 40 perusahaan sasaran; memilih dua orang yang tepat untuk dihubungi di masing-masing dari lima perusahaan teratas; menulis pesan penjajakan 75 kata dalam bahasa Indonesia dan Inggris; menjalankan rutinitas tindak lanjut 3B7; dan menjalani obrolan informasi 20 menit yang berakhir dengan langkah berikutnya yang jelas."
    },
    "lessons": [
     {
@@ -5896,7 +5895,7 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "“I don’t know what my passion is” is one of the most common reasons graduates stall. This lesson replaces the passion question with a more useful one, <i>which rare and valuable skill am I building, and where?</i> And turns your answer into a target sentence every later module will use.",
-      "id": "“Aku tidak tahu apa passion-ku” adalah salah satu alasan paling umum lulusan baru terhenti. Pelajaran ini mengganti pertanyaan passion dengan pertanyaan yang lebih berguna, <i>keterampilan langka dan berharga apa yang sedang kubangun, dan di mana?</i> Dan mengubah jawabanmu menjadi kalimat sasaran yang akan dipakai setiap modul berikutnya."
+      "id": "“Aku belum tahu passion-ku apa” adalah salah satu alasan paling umum lulusan baru jalan di tempat. Pelajaran ini mengganti pertanyaan soal passion dengan pertanyaan yang lebih berguna: <i>keterampilan langka dan berharga apa yang sedang kubangun, dan di mana?</i> Jawabanmu lalu diubah menjadi satu kalimat sasaran yang dipakai di setiap modul berikutnya."
      },
      "objectives": [
       {
@@ -5905,15 +5904,15 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Evaluate a first job using the three disqualifiers and the “open gates” test.",
-       "id": "Menilai pekerjaan pertama dengan tiga penggugur dan uji “gerbang terbuka”."
+       "id": "Menilai pekerjaan pertama dengan tiga penggugur dan uji “gerbang yang terbuka”."
       },
       {
        "en": "Write your target in one “narrow and broad” sentence.",
-       "id": "Menulis sasaranmu dalam satu kalimat “sempit dan luas”."
+       "id": "Menulis sasaranmu dalam satu kalimat “sempit sekaligus luas”."
       },
       {
        "en": "Write a first positioning sentence backed by evidence.",
-       "id": "Menulis kalimat pemosisian pertama yang didukung bukti."
+       "id": "Menulis kalimat pemosisian pertamamu, dengan bukti yang menopangnya."
       }
      ],
      "readFirst": {
@@ -5921,7 +5920,7 @@ window.MT_LMS['the-pack'] = {
        "bg": "../../assets/bg/alumni.jpg",
        "module": {
         "en": "Module 2 · Targets, Networks & the Hidden Gate",
-        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+        "id": "Modul 2 · Sasaran, Jejaring & Gerbang Tersembunyi"
        },
        "lesson": {
         "n": "2.1",
@@ -5933,19 +5932,19 @@ window.MT_LMS['the-pack'] = {
        "story": [
         {
          "en": "A CV tailored to nothing is tailored to no one; this module decides who every document is for",
-         "id": "CV yang disesuaikan untuk tidak ada apa-apa berarti untuk tidak seorang pun; modul ini menentukan untuk siapa setiap dokumen"
+         "id": "CV yang tidak disesuaikan untuk siapa pun tidak akan mengena pada siapa pun; modul ini menentukan untuk siapa setiap dokumen dibuat"
         },
         {
          "en": "You do not need to know your passion; you need to know which valuable skill you are building next, and where",
-         "id": "Kamu tidak perlu tahu passion-mu; kamu perlu tahu keterampilan berharga mana yang kamu bangun berikutnya, dan di mana"
+         "id": "Kamu tidak perlu tahu passion-mu; kamu perlu tahu keterampilan berharga apa yang akan kamu bangun berikutnya, dan di mana"
         },
         {
          "en": "Forty employers, scored in seventy minutes, turn anxiety into an ordered queue",
-         "id": "Empat puluh perusahaan, dinilai dalam tujuh puluh menit, mengubah kecemasan menjadi antrean terurut"
+         "id": "Empat puluh perusahaan, diberi skor dalam tujuh puluh menit, mengubah kecemasan menjadi antrean yang teratur"
         },
         {
          "en": "People help strangers who ask for twenty minutes of advice, not for a job",
-         "id": "Orang membantu orang asing yang meminta dua puluh menit saran, bukan pekerjaan"
+         "id": "Orang mau membantu orang asing yang meminta dua puluh menit untuk bertanya, bukan yang meminta pekerjaan"
         },
         {
          "en": "Relationships have a calendar: follow-up is scheduled, not remembered",
@@ -5956,7 +5955,7 @@ window.MT_LMS['the-pack'] = {
         {
          "h": {
           "en": "Aim before you write",
-          "id": "Bidik sebelum menulis"
+          "id": "Bidik dulu, baru menulis"
          },
          "p": {
           "en": "Every document in The Pack must be written for someone; the hidden gate is the person inside the employer who already knows your name.",
@@ -5970,7 +5969,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Three disqualifiers for a first job: few chances to build valuable skills, work you believe is useless or harmful, people you would genuinely dislike working with.",
-          "id": "Tiga penggugur pekerjaan pertama: sedikit kesempatan membangun keterampilan berharga, kerja yang kamu yakini sia-sia atau merugikan, orang yang benar-benar tak ingin kamu ajak bekerja."
+          "id": "Tiga penggugur untuk pekerjaan pertama: sedikit peluang membangun keterampilan berharga, pekerjaan yang kamu yakini sia-sia atau merugikan, orang-orang yang benar-benar tidak ingin kamu ajak bekerja."
          }
         },
         {
@@ -5980,7 +5979,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "A switch is told as the next logical step, not a leap: show it is deliberate, already invested in, and that you know your gaps.",
-          "id": "Perpindahan diceritakan sebagai langkah logis berikutnya, bukan lompatan: tunjukkan itu disengaja, sudah diinvestasikan, dan kamu tahu celahmu."
+          "id": "Pindah haluan diceritakan sebagai langkah logis berikutnya, bukan lompatan: tunjukkan bahwa itu disengaja, sudah diinvestasikan, dan kamu tahu apa yang masih kurang."
          }
         },
         {
@@ -5990,7 +5989,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "The framing self-selects: the people who reply to a request for advice are the people who genuinely like helping.",
-          "id": "Bingkai itu menyeleksi sendiri: orang yang membalas permintaan saran adalah orang yang benar-benar suka membantu."
+          "id": "Caranya menyaring dengan sendirinya: orang yang membalas permintaan saran adalah orang yang memang senang membantu."
          }
         },
         {
@@ -6000,7 +5999,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Once the dates are in the tracker, you never wonder whether to write again.",
-          "id": "Begitu tanggalnya ada di pelacak, kamu tak pernah bertanya-tanya apakah harus menulis lagi."
+          "id": "Begitu tanggalnya masuk pelacak, kamu tidak perlu lagi bertanya-tanya apakah harus menulis lagi."
          }
         }
        ],
@@ -6009,7 +6008,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "A CV tailored to nothing is tailored to no one; this module decides who every document is for",
-          "id": "CV yang disesuaikan untuk tidak ada apa-apa berarti untuk tidak seorang pun; modul ini menentukan untuk siapa setiap dokumen"
+          "id": "CV yang tidak disesuaikan untuk siapa pun tidak akan mengena pada siapa pun; modul ini menentukan untuk siapa setiap dokumen dibuat"
          },
          "img": "../../assets/bg/compass.jpg",
          "layout": "flow",
@@ -6017,7 +6016,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "target",
            "en": "Aim before you write",
-           "id": "Bidik sebelum menulis",
+           "id": "Bidik dulu, baru menulis",
            "d": {
             "en": "Decide who the documents are for before a single bullet is written.",
             "id": "Tentukan untuk siapa dokumen itu sebelum satu butir pun ditulis."
@@ -6029,7 +6028,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Modal, bukan passion",
            "d": {
             "en": "Which valuable skill you are building next, and where (2.1).",
-            "id": "Keterampilan berharga mana yang kamu bangun berikutnya, dan di mana (2.1)."
+            "id": "Keterampilan berharga apa yang akan kamu bangun berikutnya, dan di mana (2.1)."
            }
           },
           {
@@ -6038,7 +6037,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Daftar yang terbatas",
            "d": {
             "en": "Forty employers scored in seventy minutes: anxiety becomes an ordered queue (2.2).",
-            "id": "Empat puluh perusahaan dinilai dalam tujuh puluh menit: kecemasan menjadi antrean terurut (2.2)."
+            "id": "Empat puluh perusahaan diberi skor dalam tujuh puluh menit: kecemasan berubah menjadi antrean yang teratur (2.2)."
            }
           },
           {
@@ -6047,7 +6046,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Pesan pendek, bantuan kecil",
            "d": {
             "en": "Two contacts per employer, 75 words, advice not a job, the 3B7 routine (2.3, 2.4).",
-            "id": "Dua kontak per perusahaan, 75 kata, saran bukan pekerjaan, rutinitas 3B7 (2.3, 2.4)."
+            "id": "Dua kontak per perusahaan, 75 kata, minta saran bukan pekerjaan, rutinitas 3B7 (2.3, 2.4)."
            }
           },
           {
@@ -6062,7 +6061,7 @@ window.MT_LMS['the-pack'] = {
          ],
          "sub": {
           "en": "Five ideas frame the module; Modules 3–6 build the documents.",
-          "id": "Lima gagasan membingkai modul; Modul 3–6 membangun dokumennya."
+          "id": "Lima gagasan menjadi bingkai modul ini; Modul 3–6 membangun dokumennya."
          },
          "band": {
           "en": "Every document in The Pack must be written for someone; the hidden gate is the person inside the employer who already knows your name.",
@@ -6070,14 +6069,14 @@ window.MT_LMS['the-pack'] = {
          },
          "em": {
           "en": "decides who every document is for",
-          "id": "menentukan untuk siapa setiap dokumen"
+          "id": "menentukan untuk siapa setiap dokumen dibuat"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "You do not need to know your passion; you need to know which valuable skill you are building next, and where",
-          "id": "Kamu tidak perlu tahu passion-mu; kamu perlu tahu keterampilan berharga mana yang kamu bangun berikutnya, dan di mana"
+          "id": "Kamu tidak perlu tahu passion-mu; kamu perlu tahu keterampilan berharga apa yang akan kamu bangun berikutnya, dan di mana"
          },
          "cols": [
           {
@@ -6087,7 +6086,7 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "“What is this job offering me?”",
-            "id": "“Apa yang ditawarkan pekerjaan ini padaku?”"
+            "id": "“Apa yang bisa diberikan pekerjaan ini untukku?”"
            },
            "items": [
             {
@@ -6098,7 +6097,7 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "clock",
              "en": "Has no answer you can act on this week",
-             "id": "Tak punya jawaban yang bisa kamu tindaklanjuti minggu ini"
+             "id": "Tidak punya jawaban yang bisa kamu kerjakan minggu ini"
             },
             {
              "icon": "star",
@@ -6115,7 +6114,7 @@ window.MT_LMS['the-pack'] = {
            },
            "d": {
             "en": "“What value am I producing, and how do I get better?”",
-            "id": "“Nilai apa yang kuhasilkan, dan bagaimana aku jadi lebih baik?”"
+            "id": "“Nilai apa yang kuhasilkan, dan bagaimana caraku menjadi lebih mahir?”"
            },
            "items": [
             {
@@ -6126,12 +6125,12 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "chart",
              "en": "Judges a first role by how much capital it lets you build",
-             "id": "Menilai peran pertama dari seberapa banyak modal yang bisa dibangun"
+             "id": "Menilai pekerjaan pertama dari seberapa banyak modal yang bisa dibangun di sana"
             },
             {
              "icon": "key",
              "en": "Starts from the gates already open: a lecturer’s project, a family business, a campus role",
-             "id": "Mulai dari gerbang yang sudah terbuka: proyek dosen, usaha keluarga, peran kampus"
+             "id": "Mulai dari gerbang yang sudah terbuka: proyek dosen, usaha keluarga, peran di kampus"
             }
            ],
            "icon": "gear"
@@ -6142,22 +6141,22 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "C. Newport, So Good They Can’t Ignore You: people who love their work usually came to love it after becoming good at it.",
-          "id": "C. Newport, So Good They Can’t Ignore You: orang yang mencintai pekerjaannya biasanya mencintainya setelah menjadi mahir."
+          "id": "C. Newport, So Good They Can’t Ignore You: orang yang mencintai pekerjaannya biasanya baru jatuh cinta setelah menjadi mahir."
          },
          "band": {
           "en": "Three disqualifiers for a first job: few chances to build valuable skills, work you believe is useless or harmful, people you would genuinely dislike working with.",
-          "id": "Tiga penggugur pekerjaan pertama: sedikit kesempatan membangun keterampilan berharga, kerja yang kamu yakini sia-sia atau merugikan, orang yang benar-benar tak ingin kamu ajak bekerja."
+          "id": "Tiga penggugur untuk pekerjaan pertama: sedikit peluang membangun keterampilan berharga, pekerjaan yang kamu yakini sia-sia atau merugikan, orang-orang yang benar-benar tidak ingin kamu ajak bekerja."
          },
          "em": {
           "en": "which valuable skill you are building next",
-          "id": "keterampilan berharga mana yang kamu bangun berikutnya"
+          "id": "keterampilan berharga apa yang akan kamu bangun berikutnya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Forty employers, scored in seventy minutes, turn anxiety into an ordered queue",
-          "id": "Empat puluh perusahaan, dinilai dalam tujuh puluh menit, mengubah kecemasan menjadi antrean terurut"
+          "id": "Empat puluh perusahaan, diberi skor dalam tujuh puluh menit, mengubah kecemasan menjadi antrean yang teratur"
          },
          "layout": "grid",
          "items": [
@@ -6167,7 +6166,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Sempit",
            "d": {
             "en": "Specific enough that people can help you: a role family and two or three example employers.",
-            "id": "Cukup spesifik agar orang bisa membantumu: keluarga peran dan dua atau tiga contoh perusahaan."
+            "id": "Cukup spesifik supaya orang bisa membantumu: satu rumpun posisi dan dua atau tiga contoh perusahaan."
            },
            "img": "../../assets/bg/fg-sprint-positioning.jpg"
           },
@@ -6177,7 +6176,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Luas",
            "d": {
             "en": "Broad enough that it does not collapse if one company is not hiring: the industry segment.",
-            "id": "Cukup luas agar tidak runtuh jika satu perusahaan tidak merekrut: segmen industrinya."
+            "id": "Cukup luas supaya tidak runtuh ketika satu perusahaan sedang tidak merekrut: segmen industrinya."
            },
            "img": "../../assets/pe/th-network.jpg"
           },
@@ -6187,7 +6186,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kalimat pemosisian",
            "d": {
             "en": "What you bring to the target, in one sentence, with one piece of evidence.",
-            "id": "Apa yang kamu bawa ke sasaran, dalam satu kalimat, dengan satu bukti."
+            "id": "Apa yang kamu bawa untuk sasaranmu, dalam satu kalimat, dengan satu bukti."
            },
            "img": "../../assets/pe/strategic-target-list.jpg"
           },
@@ -6197,55 +6196,55 @@ window.MT_LMS['the-pack'] = {
            "id": "Lalu LAMP",
            "d": {
             "en": "Lesson 2.2: list, advocacy, motivation, posting, timed, in seventy minutes.",
-            "id": "Pelajaran 2.2: daftar, advokasi, motivasi, lowongan, berwaktu, dalam tujuh puluh menit."
+            "id": "Pelajaran 2.2: daftar, advokasi, motivasi, lowongan, dengan batas waktu, dalam tujuh puluh menit."
            },
            "img": "../../assets/bg/ep-stage-architecture.jpg"
           }
          ],
          "sub": {
           "en": "The target sentence first: “[Role family] in [industry segment], ideally at companies like [2–3 examples], in [location].”",
-          "id": "Kalimat sasaran dulu: “[Keluarga peran] di [segmen industri], idealnya di perusahaan seperti [2–3 contoh], di [lokasi].”"
+          "id": "Kalimat sasaran dulu: “[Rumpun posisi] di [segmen industri], idealnya di perusahaan seperti [2–3 contoh], di [lokasi].”"
          },
          "band": {
           "en": "A switch is told as the next logical step, not a leap: show it is deliberate, already invested in, and that you know your gaps.",
-          "id": "Perpindahan diceritakan sebagai langkah logis berikutnya, bukan lompatan: tunjukkan itu disengaja, sudah diinvestasikan, dan kamu tahu celahmu."
+          "id": "Pindah haluan diceritakan sebagai langkah logis berikutnya, bukan lompatan: tunjukkan bahwa itu disengaja, sudah diinvestasikan, dan kamu tahu apa yang masih kurang."
          },
          "em": {
           "en": "an ordered queue",
-          "id": "antrean terurut"
+          "id": "antrean yang teratur"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "People help strangers who ask for twenty minutes of advice, not for a job",
-          "id": "Orang membantu orang asing yang meminta dua puluh menit saran, bukan pekerjaan"
+          "id": "Orang mau membantu orang asing yang meminta dua puluh menit untuk bertanya, bukan yang meminta pekerjaan"
          },
          "cols": [
           {
            "l": {
             "en": "Asks that get silence",
-            "id": "Permintaan yang mendapat keheningan"
+            "id": "Permintaan yang dijawab dengan diam"
            },
            "d": {
             "en": "A stranger spending their reputation on you",
-            "id": "Orang asing mempertaruhkan reputasinya untukmu"
+            "id": "Orang asing diminta mempertaruhkan reputasinya untukmu"
            },
            "items": [
             {
              "icon": "question",
              "en": "“Is there a vacancy?”",
-             "id": "“Apakah ada lowongan?”"
+             "id": "“Ada lowongan nggak, Kak?”"
             },
             {
              "icon": "hand",
              "en": "“Could you refer me?”",
-             "id": "“Bisakah Anda merujuk saya?”"
+             "id": "“Bisa tolong rekomendasikan saya?”"
             },
             {
              "icon": "mail",
              "en": "“Could you forward my CV?”",
-             "id": "“Bisakah Anda meneruskan CV saya?”"
+             "id": "“Bisa tolong teruskan CV saya?”"
             }
            ],
            "icon": "x"
@@ -6253,7 +6252,7 @@ window.MT_LMS['the-pack'] = {
           {
            "l": {
             "en": "Asks that get yeses",
-            "id": "Permintaan yang mendapat ya"
+            "id": "Permintaan yang dijawab “ya”"
            },
            "d": {
             "en": "A small favour, asked pleasantly",
@@ -6263,17 +6262,17 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "chat",
              "en": "“Could I ask your advice for fifteen minutes?”",
-             "id": "“Boleh saya minta saran Anda lima belas menit?”"
+             "id": "“Boleh saya minta saran Kakak lima belas menit?”"
             },
             {
              "icon": "bulb",
              "en": "“What surprised you most when you joined?”",
-             "id": "“Apa yang paling mengejutkan saat Anda bergabung?”"
+             "id": "“Apa yang paling mengejutkan waktu Kakak baru bergabung?”"
             },
             {
              "icon": "refresh",
              "en": "Afterwards: “I tried what you suggested; here is what happened.”",
-             "id": "Sesudahnya: “Saya mencoba saran Anda; ini hasilnya.”"
+             "id": "Sesudahnya: “Saya sudah coba saran Kakak; ini hasilnya.”"
             }
            ],
            "icon": "check"
@@ -6284,15 +6283,14 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "Lesson 2.3: two contacts per employer, 75 words, the 3B7 routine. Lesson 2.4: the conversation.",
-          "id": "Pelajaran 2.3: dua kontak per perusahaan, 75 kata, rutinitas 3B7. Pelajaran 2.4: percakapannya."
+          "id": "Pelajaran 2.3: dua kontak per perusahaan, 75 kata, rutinitas 3B7. Pelajaran 2.4: obrolannya."
          },
          "band": {
           "en": "The framing self-selects: the people who reply to a request for advice are the people who genuinely like helping.",
-          "id": "Bingkai itu menyeleksi sendiri: orang yang membalas permintaan saran adalah orang yang benar-benar suka membantu."
+          "id": "Caranya menyaring dengan sendirinya: orang yang membalas permintaan saran adalah orang yang memang senang membantu."
          },
          "em": {
-          "en": "not for a job",
-          "id": "bukan pekerjaan"
+          "en": "not for a job"
          }
         },
         {
@@ -6310,7 +6308,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Sasaran",
            "d": {
             "en": "The narrow-and-broad sentence.",
-            "id": "Kalimat sempit dan luas."
+            "id": "Kalimat yang sempit sekaligus luas."
            }
           },
           {
@@ -6319,7 +6317,7 @@ window.MT_LMS['the-pack'] = {
            "id": "LAMP",
            "d": {
             "en": "Forty employers, four columns, a Top 5.",
-            "id": "Empat puluh perusahaan, empat kolom, 5 Teratas."
+            "id": "Empat puluh perusahaan, empat kolom, satu 5 Teratas."
            }
           },
           {
@@ -6328,16 +6326,16 @@ window.MT_LMS['the-pack'] = {
            "id": "Kontak",
            "d": {
             "en": "Two people per Top 5 employer.",
-            "id": "Dua orang per perusahaan 5 Teratas."
+            "id": "Dua orang di tiap perusahaan 5 Teratas."
            }
           },
           {
            "icon": "mail",
            "en": "Outreach",
-           "id": "Penjangkauan",
+           "id": "Penjajakan",
            "d": {
             "en": "Seventy-five words, advice not a job.",
-            "id": "Tujuh puluh lima kata, saran bukan pekerjaan."
+            "id": "Tujuh puluh lima kata, minta saran bukan pekerjaan."
            }
           },
           {
@@ -6346,17 +6344,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Kalender",
            "d": {
             "en": "Day 3, day 7, then the monthly harvest note.",
-            "id": "Hari ke-3, hari ke-7, lalu catatan panen bulanan."
+            "id": "Hari ke-3, hari ke-7, lalu catatan panen tiap bulan."
            }
           }
          ],
          "sub": {
           "en": "Lesson 2.5: Nadia’s Top Five, target, LAMP, contacts, outreach, calendar.",
-          "id": "Pelajaran 2.5: Lima Teratas Nadia, sasaran, LAMP, kontak, penjangkauan, kalender."
+          "id": "Pelajaran 2.5: Lima Teratas Nadia; sasaran, LAMP, kontak, penjajakan, kalender."
          },
          "band": {
           "en": "Once the dates are in the tracker, you never wonder whether to write again.",
-          "id": "Begitu tanggalnya ada di pelacak, kamu tak pernah bertanya-tanya apakah harus menulis lagi."
+          "id": "Begitu tanggalnya masuk pelacak, kamu tidak perlu lagi bertanya-tanya apakah harus menulis lagi."
          },
          "em": {
           "en": "scheduled, not remembered",
@@ -6375,26 +6373,26 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Targets, networks and the hidden gate",
-       "id": "Target, jejaring, dan gerbang tersembunyi"
+       "id": "Sasaran, jejaring, dan gerbang tersembunyi"
       },
       "intro": {
        "en": "Five ideas frame the module. Every document in The Pack must be written for someone; this module decides who.",
-       "id": "Lima gagasan membingkai modul ini. Setiap dokumen di The Pack harus ditulis untuk seseorang; modul ini menentukan siapa."
+       "id": "Lima gagasan menjadi bingkai modul ini. Setiap dokumen di The Pack harus ditulis untuk seseorang; modul ini menentukan siapa orangnya."
       },
       "slides": [
        {
         "h": {
          "en": "Aim before you write",
-         "id": "Bidik sebelum menulis"
+         "id": "Bidik dulu, baru menulis"
         },
         "points": [
          {
           "en": "A CV tailored to nothing is tailored to no one.",
-          "id": "CV yang disesuaikan untuk tidak ada apa-apa berarti disesuaikan untuk tidak seorang pun."
+          "id": "CV yang tidak disesuaikan untuk siapa pun, tidak akan mengena pada siapa pun."
          },
          {
           "en": "Modules 3–6 build documents; this module decides who they are for.",
-          "id": "Modul 3–6 membangun dokumen; modul ini menentukan untuk siapa dokumen itu."
+          "id": "Modul 3–6 membangun dokumennya; modul ini menentukan untuk siapa dokumen itu dibuat."
          }
         ]
        },
@@ -6406,7 +6404,7 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "You do not need to know your passion. You need to know which valuable skill you are building next, and where.",
-          "id": "Kamu tidak perlu tahu passion-mu. Kamu perlu tahu keterampilan berharga apa yang kamu bangun berikutnya, dan di mana."
+          "id": "Kamu tidak perlu tahu passion-mu. Kamu perlu tahu keterampilan berharga apa yang akan kamu bangun berikutnya, dan di mana."
          },
          {
           "en": "Lesson 2.1: the craftsman mindset, the target sentence, the positioning sentence.",
@@ -6422,7 +6420,7 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Forty employers, scored in seventy minutes, turns anxiety into an ordered queue.",
-          "id": "Empat puluh perusahaan, dinilai dalam tujuh puluh menit, mengubah kecemasan menjadi antrean terurut."
+          "id": "Empat puluh perusahaan, diberi skor dalam tujuh puluh menit, mengubah kecemasan menjadi antrean yang teratur."
          },
          {
           "en": "Lesson 2.2: LAMP, local edition.",
@@ -6438,11 +6436,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "People help strangers who ask for twenty minutes of advice, not for a job.",
-          "id": "Orang membantu orang asing yang meminta dua puluh menit saran, bukan pekerjaan."
+          "id": "Orang mau membantu orang asing yang meminta dua puluh menit untuk bertanya, bukan yang meminta pekerjaan."
          },
          {
           "en": "Lesson 2.3: two contacts per employer, 75 words, the 3B7 routine. Lesson 2.4: the conversation.",
-          "id": "Pelajaran 2.3: dua kontak per perusahaan, 75 kata, rutinitas 3B7. Pelajaran 2.4: percakapannya."
+          "id": "Pelajaran 2.3: dua kontak per perusahaan, 75 kata, rutinitas 3B7. Pelajaran 2.4: obrolannya."
          }
         ]
        },
@@ -6454,11 +6452,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Follow-up is scheduled, not remembered.",
-          "id": "Tindak lanjut dijadwalkan, bukan diingat-ingat."
+          "id": "Tindak lanjut itu dijadwalkan, bukan diingat-ingat."
          },
          {
           "en": "Lesson 2.5: Nadia’s Top Five, target, LAMP, contacts, outreach, calendar.",
-          "id": "Pelajaran 2.5: Lima Teratas Nadia, sasaran, LAMP, kontak, penjangkauan, kalender."
+          "id": "Pelajaran 2.5: Lima Teratas Nadia; sasaran, LAMP, kontak, penjajakan, kalender."
          }
         ]
        }
@@ -6471,11 +6469,11 @@ window.MT_LMS['the-pack'] = {
        "imgPos": "center 40%",
        "h": {
         "en": "Why “follow your passion” stalls people",
-        "id": "Mengapa “ikuti passion-mu” membuat orang terhenti"
+        "id": "Mengapa “ikuti passion-mu” malah membuat orang mandek"
        },
        "body": {
         "en": "Cal Newport reviews research suggesting that clear, pre-existing career passions are uncommon, and that people who love their work usually came to love it <i>after</i> becoming good at it and gaining autonomy, respect and connection <i>(Newport, So Good They Can’t Ignore You, Rule 1)</i>. Passion, on this view, is more often a <i>result</i> of mastery than its starting condition. For a fresh graduate this is liberating: you are not behind because you have not found your passion. You are at the normal starting point. The question “what is my passion?” has no answer you can act on this week. The question “which skill am I building, and where?” does.",
-        "id": "Cal Newport meninjau penelitian yang menunjukkan bahwa passion karier yang jelas dan sudah ada sebelumnya itu jarang, dan bahwa orang yang mencintai pekerjaannya biasanya baru mencintainya <i>setelah</i> menjadi mahir dan memperoleh otonomi, penghargaan, dan keterhubungan <i>(Newport, So Good They Can’t Ignore You, Aturan 1)</i>. Passion, dalam pandangan ini, lebih sering merupakan <i>hasil</i> dari penguasaan daripada syarat awalnya. Bagi lulusan baru ini melegakan: kamu tidak tertinggal karena belum menemukan passion-mu. Kamu berada di titik awal yang normal. Pertanyaan “apa passion-ku?” tidak punya jawaban yang bisa kamu tindaklanjuti minggu ini. Pertanyaan “keterampilan apa yang kubangun, dan di mana?” punya."
+        "id": "Cal Newport menelaah penelitian yang menunjukkan bahwa passion karier yang jelas dan sudah ada sejak awal itu jarang. Orang yang mencintai pekerjaannya biasanya baru jatuh cinta <i>setelah</i> menjadi mahir, lalu mendapat keleluasaan, rasa hormat, dan hubungan yang baik dengan orang-orang di sekitarnya <i>(Newport, So Good They Can’t Ignore You, Aturan 1)</i>. Dalam pandangan ini, passion lebih sering menjadi <i>hasil</i> dari kemahiran, bukan syarat awalnya. Bagi lulusan baru, ini melegakan: kamu tidak tertinggal hanya karena belum menemukan passion. Kamu berdiri di titik awal yang wajar. Pertanyaan “apa passion-ku?” tidak punya jawaban yang bisa kamu kerjakan minggu ini. Pertanyaan “keterampilan apa yang sedang kubangun, dan di mana?” punya."
        },
        "key": {
         "en": "Clear, pre-existing passions are rare; people usually come to love work after becoming good at it.",
@@ -6490,11 +6488,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Newport contrasts two mindsets. The <b>passion mindset</b> asks, “What is this job offering me?” The <b>craftsman mindset</b> asks, “What value am I producing, and how do I get better at it?” <i>(Newport, Rule 2)</i>. Rare and valuable work rewards rare and valuable skills, which he calls <b>career capital</b>. Your first roles are best judged by how much capital they let you build. <span class=\"ev ev-contested\">Evidence note</span> Newport leans on the popular “10,000 hours” idea; later research finds deliberate practice matters but explains only part of performance differences, and varies by field. The Pack teaches “deliberate practice is powerful”, not the 10,000-hour figure.",
-        "id": "Newport membandingkan dua pola pikir. <b>Pola pikir passion</b> bertanya, “Apa yang ditawarkan pekerjaan ini untukku?” <b>Pola pikir pengrajin</b> bertanya, “Nilai apa yang kuhasilkan, dan bagaimana aku menjadi lebih baik?” <i>(Newport, Aturan 2)</i>. Pekerjaan yang langka dan berharga mengganjar keterampilan yang langka dan berharga, yang ia sebut <b>modal karier</b>. Peran pertamamu paling baik dinilai dari seberapa banyak modal yang bisa kamu bangun di sana. <span class=\"ev ev-contested\">Catatan bukti</span> Newport bersandar pada gagasan populer “10.000 jam”; penelitian setelahnya menemukan latihan terencana memang penting tetapi hanya menjelaskan sebagian perbedaan kinerja, dan bervariasi antarbidang. The Pack mengajarkan “latihan terencana itu kuat”, bukan angka 10.000 jam."
+        "id": "Newport membandingkan dua pola pikir. <b>Pola pikir passion</b> bertanya, “Apa yang bisa diberikan pekerjaan ini untukku?” <b>Pola pikir pengrajin</b> bertanya, “Nilai apa yang kuhasilkan, dan bagaimana caraku menjadi lebih mahir?” <i>(Newport, Aturan 2)</i>. Pekerjaan yang langka dan berharga mengganjar keterampilan yang langka dan berharga, yang ia sebut <b>modal karier</b>. Cara terbaik menilai pekerjaan pertamamu adalah dari seberapa banyak modal yang bisa kamu bangun di sana. <span class=\"ev ev-contested\">Catatan bukti</span> Newport bersandar pada gagasan populer “10.000 jam”; penelitian berikutnya menemukan bahwa latihan yang terencana memang penting, tetapi hanya menjelaskan sebagian perbedaan kinerja, dan berbeda-beda antarbidang. The Pack mengajarkan bahwa “latihan terencana itu ampuh”, bukan angka 10.000 jam."
        },
        "key": {
         "en": "Ask what value you produce and how you get better, then judge a first role by how much rare, valuable skill it lets you build.",
-        "id": "Tanyakan nilai apa yang kamu hasilkan dan bagaimana kamu makin mahir, lalu nilai peran pertama dari seberapa banyak keterampilan langka dan berharga yang bisa dibangun."
+        "id": "Tanyakan nilai apa yang kamu hasilkan dan bagaimana kamu makin mahir, lalu nilai pekerjaan pertama dari seberapa banyak keterampilan langka dan berharga yang bisa kamu bangun di sana."
        }
       },
       {
@@ -6510,38 +6508,38 @@ window.MT_LMS['the-pack'] = {
        "bullets": [
         {
          "en": "<b>The three disqualifiers.</b> A role is a poor base for capital if it offers few chances to build valuable skills, if you believe the work is useless or harmful, or if you would genuinely dislike working with the people <i>(Newport, Rule 2)</i>.",
-         "id": "<b>Tiga penggugur.</b> Sebuah peran adalah landasan modal yang buruk jika menawarkan sedikit peluang membangun keterampilan berharga, jika kamu yakin pekerjaannya tidak berguna atau merugikan, atau jika kamu benar-benar tidak suka bekerja dengan orang-orangnya <i>(Newport, Aturan 2)</i>."
+         "id": "<b>Tiga penggugur.</b> Sebuah pekerjaan adalah landasan yang buruk untuk membangun modal kalau peluang membangun keterampilan berharganya sedikit, kalau kamu yakin pekerjaannya sia-sia atau merugikan, atau kalau kamu benar-benar tidak suka bekerja dengan orang-orangnya <i>(Newport, Aturan 2)</i>."
         },
         {
          "en": "<b>Open gates.</b> The opportunities <i>already open to you</i> are often a better starting point than the ones you wish were open: a lecturer’s research project, the digital side of a family business, a campus-organisation role, an internship placement.",
-         "id": "<b>Gerbang terbuka.</b> Peluang yang <i>sudah terbuka untukmu</i> sering menjadi titik awal yang lebih baik daripada yang kamu harapkan terbuka: proyek penelitian dosen, sisi digital usaha keluarga, peran organisasi kampus, penempatan magang."
+         "id": "<b>Gerbang yang terbuka.</b> Peluang yang <i>sudah terbuka untukmu</i> sering menjadi titik awal yang lebih baik daripada peluang yang kamu harap terbuka: proyek penelitian dosen, sisi digital usaha keluarga, peran di organisasi kampus, penempatan magang."
         }
        ],
        "after": [
         {
          "en": "A state-owned enterprise trainee role, a bank officer programme or a role at a regional SME (small or medium-sized enterprise) can all be excellent capital-building choices even if they are not a “dream job”. Nadia’s three-month bank internship was not her dream; it is the source of her strongest evidence.",
-         "id": "Peran trainee BUMN, ODP bank, atau peran di UKM (unit kegiatan mahasiswa) daerah semuanya bisa menjadi pilihan pembangun modal yang sangat baik meski bukan “pekerjaan impian”. Magang bank tiga bulan Nadia bukan impiannya; itulah sumber bukti terkuatnya."
+         "id": "Posisi trainee di BUMN, ODP di bank, atau pekerjaan di UKM (usaha kecil dan menengah) di daerah semuanya bisa menjadi pilihan yang sangat bagus untuk membangun modal, meski bukan “pekerjaan impian”. Magang tiga bulan Nadia di bank bukan impiannya; tetapi justru dari sanalah bukti terkuatnya berasal."
         }
        ],
        "key": {
         "en": "Three disqualifiers rule a role out; the gates already open to you are often the best place to start.",
-        "id": "Tiga penggugur mencoret sebuah peran; gerbang yang sudah terbuka untukmu sering menjadi tempat terbaik untuk memulai."
+        "id": "Tiga penggugur mencoret sebuah pekerjaan; gerbang yang sudah terbuka untukmu sering menjadi tempat terbaik untuk memulai."
        }
       },
       {
        "icon": "flag",
        "h": {
         "en": "From capital to target: the narrow-and-broad sentence",
-        "id": "Dari modal ke sasaran: kalimat sempit-dan-luas"
+        "id": "Dari modal ke sasaran: kalimat sempit-sekaligus-luas"
        },
        "body": {
         "en": "A target has to be specific enough that people can help you, and broad enough that it does not collapse if one company is not hiring. Dalton calls this defining your interest <i>narrowly and broadly</i> <i>(The 2-Hour Job Search, ch. 6)</i>. The format:",
-        "id": "Sasaran harus cukup spesifik agar orang bisa membantumu, dan cukup luas agar tidak runtuh jika satu perusahaan sedang tidak merekrut. Dalton menyebutnya mendefinisikan minatmu <i>secara sempit dan luas</i> <i>(The 2-Hour Job Search, bab 6)</i>. Formatnya:"
+        "id": "Sasaran harus cukup spesifik supaya orang bisa membantumu, dan cukup luas supaya tidak runtuh ketika satu perusahaan sedang tidak merekrut. Dalton menyebutnya mendefinisikan minat <i>secara sempit sekaligus luas</i> <i>(The 2-Hour Job Search, bab 6)</i>. Formatnya:"
        },
        "quote": {
         "text": {
          "en": "“[Role family] in [industry segment], ideally at companies like [2–3 examples], in [location].”<br><br>e.g., “Commercial or supply-chain trainee roles in consumer goods, ideally at companies like PT Arunika or Rumah Rempah, in Java.”",
-         "id": "“[Keluarga peran] di [segmen industri], idealnya di perusahaan seperti [2–3 contoh], di [lokasi].”<br><br>mis., “Peran trainee komersial atau rantai pasok di barang konsumsi, idealnya di perusahaan seperti PT Arunika atau Rumah Rempah, di Jawa.”"
+         "id": "“[Rumpun posisi] di [segmen industri], idealnya di perusahaan seperti [2–3 contoh], di [lokasi].”<br><br>Contoh: “Posisi trainee komersial atau rantai pasok di industri barang konsumsi, idealnya di perusahaan seperti PT Arunika atau Rumah Rempah, di Jawa.”"
         },
         "who": {
          "en": "The target sentence",
@@ -6551,12 +6549,12 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "To get there, narrow in layers <i>(adapted from Dumas, The AI-Savvy Job Seeker, ch. 4)</i>: function → level → industry → company size and stage → location → example employers. Stop at <b>at most two role clusters</b>; “anything” is not a target, because nobody can help you find anything <i>(Vanderslice; Graham, Switchers, ch. 3)</i>. If you cannot yet choose between clusters, spend a week in The Range (The Map) first.",
-         "id": "Untuk sampai ke sana, persempit berlapis <i>(diadaptasi dari Dumas, The AI-Savvy Job Seeker, bab 4)</i>: fungsi → tingkat → industri → ukuran dan tahap perusahaan → lokasi → contoh perusahaan. Berhenti pada <b>paling banyak dua rumpun peran</b>; “apa saja” bukan sasaran, karena tidak ada yang bisa membantumu menemukan apa saja <i>(Vanderslice; Graham, Switchers, bab 3)</i>. Jika kamu belum bisa memilih di antara rumpun, habiskan seminggu di The Range (The Map) lebih dulu."
+         "id": "Untuk sampai ke sana, persempit selapis demi selapis <i>(diadaptasi dari Dumas, The AI-Savvy Job Seeker, bab 4)</i>: fungsi → jenjang → industri → ukuran dan tahap perusahaan → lokasi → contoh perusahaan. Berhenti di <b>paling banyak dua rumpun posisi</b>; “apa saja” bukan sasaran, karena tidak ada orang yang bisa membantumu menemukan “apa saja” <i>(Vanderslice; Graham, Switchers, bab 3)</i>. Kalau kamu belum bisa memilih di antara rumpun, luangkan seminggu dulu di The Range (The Map)."
         }
        ],
        "key": {
         "en": "A good target is narrow enough that people can help and broad enough that it survives one company not hiring.",
-        "id": "Sasaran yang baik cukup sempit agar orang bisa membantu, dan cukup luas agar tidak runtuh ketika satu perusahaan tidak merekrut."
+        "id": "Sasaran yang baik cukup sempit supaya orang bisa membantu, dan cukup luas supaya tidak runtuh ketika satu perusahaan sedang tidak merekrut."
        }
       },
       {
@@ -6567,12 +6565,12 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Once you know the target, you can say what you bring to it. The Pack’s positioning formula:",
-        "id": "Begitu kamu tahu sasarannya, kamu bisa mengatakan apa yang kamu bawa. Rumus pemosisian The Pack:"
+        "id": "Begitu sasaranmu jelas, kamu bisa mengatakan apa yang kamu bawa untuk sasaran itu. Rumus pemosisian ala The Pack:"
        },
        "quote": {
         "text": {
          "en": "“For [role family], I bring [one proof point], [second proof point], and [the thing I’m building next].”<br><br>e.g., “For FMCG (fast-moving consumer goods) sales trainee roles, I bring 14 months of front-line customer work, a sponsorship campaign that raised Rp 85 juta for a 1,200-person competition, and I’m building my Excel and data skills through the bank internship analysis I’m finishing now.”",
-         "id": "“Untuk [keluarga peran], saya membawa [satu bukti], [bukti kedua], dan [hal yang sedang saya bangun berikutnya].”<br><br>mis., “Untuk peran trainee penjualan FMCG, saya membawa 14 bulan kerja layanan pelanggan garis depan, kampanye sponsor yang mengumpulkan Rp 85 juta untuk kompetisi 1.200 orang, dan saya sedang membangun keterampilan Excel dan data lewat analisis magang bank yang sedang saya selesaikan.”"
+         "id": "“Untuk [rumpun posisi], saya membawa [bukti pertama], [bukti kedua], dan [hal yang sedang saya bangun berikutnya].”<br><br>Contoh: “Untuk posisi trainee penjualan FMCG, saya membawa 14 bulan pengalaman melayani pelanggan secara langsung, kampanye sponsor yang mengumpulkan Rp 85 juta untuk kompetisi berpeserta 1.200 orang, dan saya sedang mengasah keterampilan Excel dan data lewat analisis magang bank yang sedang saya selesaikan.”"
         },
         "who": {
          "en": "The positioning sentence",
@@ -6582,27 +6580,27 @@ window.MT_LMS['the-pack'] = {
        "after": [
         {
          "en": "Two rules. Every proof point must be something you could talk about for two minutes. And the sentence names what you are <i>building</i>, not what you are <i>passionate about</i>: which answers the passion question without claiming a passion you cannot evidence.",
-         "id": "Dua aturan. Setiap bukti harus sesuatu yang bisa kamu bicarakan selama dua menit. Dan kalimatnya menyebut apa yang sedang kamu <i>bangun</i>, bukan apa yang menjadi <i>passion</i>-mu; yang menjawab pertanyaan passion tanpa mengklaim passion yang tidak bisa kamu buktikan."
+         "id": "Dua aturan. Setiap bukti harus sesuatu yang bisa kamu ceritakan selama dua menit. Dan kalimat itu menyebut apa yang sedang kamu <i>bangun</i>, bukan apa yang menjadi <i>passion</i>-mu; dengan begitu pertanyaan soal passion terjawab tanpa kamu mengklaim passion yang tidak bisa kamu buktikan."
         }
        ],
        "key": {
         "en": "One sentence says what you bring to the target, backed by one piece of evidence.",
-        "id": "Satu kalimat menyatakan apa yang kamu bawa ke sasaran, ditopang satu bukti."
+        "id": "Satu kalimat menyatakan apa yang kamu bawa untuk sasaranmu, ditopang satu bukti."
        }
       },
       {
        "icon": "users",
        "h": {
         "en": "Career switches and non-linear profiles",
-        "id": "Peralihan karier dan profil yang tidak linear"
+        "id": "Pindah haluan dan jalur karier yang tidak lurus"
        },
        "body": {
         "en": "If your degree does not match your target, engineering to consulting, humanities to marketing, a non-computing major into data, the target sentence still works, but you will be asked “why the change?”. Dawn Graham’s advice for switchers <i>(Switchers, ch. 6, 10)</i>: tell the move as the <i>next logical step</i>, not a leap. Show it is deliberate, that you have already invested in it (a course, a project, an organisation role), and that you know your gaps and have a plan to close them. Avoid the words “career change”; say what connects your past to the target. A Teknik Industri graduate targeting operations is not switching; a Sastra graduate targeting marketing who ran BEM (the student executive board, badan eksekutif mahasiswa)’s publication division for two years is not switching either, she is continuing.",
-        "id": "Jika gelarmu tidak cocok dengan sasaranmu, teknik ke konsultan, humaniora ke pemasaran, jurusan non-komputer ke data, kalimat sasaran tetap berlaku, tetapi kamu akan ditanya “mengapa berubah?”. Saran Dawn Graham bagi yang beralih <i>(Switchers, bab 6, 10)</i>: ceritakan perpindahan itu sebagai <i>langkah logis berikutnya</i>, bukan lompatan. Tunjukkan bahwa itu disengaja, bahwa kamu sudah berinvestasi di dalamnya (kursus, proyek, peran organisasi), dan bahwa kamu tahu celahmu dan punya rencana menutupnya. Hindari kata “pindah karier”; katakan apa yang menghubungkan masa lalumu dengan sasaran. Lulusan Teknik Industri yang membidik operasional tidak sedang beralih; lulusan Sastra yang membidik pemasaran dan memimpin divisi publikasi BEM (badan eksekutif mahasiswa) dua tahun juga tidak, ia melanjutkan."
+        "id": "Kalau gelarmu tidak nyambung dengan sasaranmu, misalnya teknik ke konsultan, humaniora ke pemasaran, atau jurusan non-komputer ke data, kalimat sasaran tetap berlaku. Hanya saja kamu akan ditanya, “kenapa pindah?”. Saran Dawn Graham untuk mereka yang pindah haluan <i>(Switchers, bab 6, 10)</i>: ceritakan perpindahan itu sebagai <i>langkah logis berikutnya</i>, bukan lompatan. Tunjukkan bahwa itu disengaja, bahwa kamu sudah berinvestasi di sana (kursus, proyek, peran organisasi), dan bahwa kamu tahu apa yang masih kurang serta punya rencana menutupnya. Hindari kata “pindah karier”; sebutkan apa yang menghubungkan masa lalumu dengan sasaranmu. Lulusan Teknik Industri yang membidik operasional tidak sedang pindah haluan; lulusan Sastra yang membidik pemasaran setelah dua tahun memimpin divisi publikasi BEM (badan eksekutif mahasiswa) juga tidak. Ia melanjutkan."
        },
        "key": {
         "en": "A switch is told as the next logical step, not a leap: deliberate, already invested in, with gaps named honestly.",
-        "id": "Perpindahan diceritakan sebagai langkah logis berikutnya, bukan lompatan: disengaja, sudah diinvestasikan, dengan celah yang diakui jujur."
+        "id": "Perpindahan diceritakan sebagai langkah logis berikutnya, bukan lompatan: disengaja, sudah diinvestasikan, dengan kekurangan yang diakui jujur."
        }
       }
      ],
@@ -6610,11 +6608,11 @@ window.MT_LMS['the-pack'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 15: Narrowing in layers",
-       "id": "Peraga 15: Mempersempit berlapis"
+       "id": "Peraga 15: Mempersempit selapis demi selapis"
       },
       "title": {
        "en": "Function → level → industry → company type → location → examples",
-       "id": "Fungsi → tingkat → industri → jenis perusahaan → lokasi → contoh"
+       "id": "Fungsi → jenjang → industri → jenis perusahaan → lokasi → contoh"
       },
       "items": [
        {
@@ -6630,7 +6628,7 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Level",
-         "id": "Tingkat"
+         "id": "Jenjang"
         },
         "sub": {
          "en": "Trainee programme, associate, analyst, internship.",
@@ -6674,7 +6672,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Two or three employers that make the sentence concrete.",
-         "id": "Dua atau tiga perusahaan yang membuat kalimatnya konkret."
+         "id": "Dua atau tiga perusahaan yang membuat kalimatnya nyata."
         }
        }
       ],
@@ -6684,7 +6682,7 @@ window.MT_LMS['the-pack'] = {
       },
       "longdesc": {
        "en": "A six-step flow for narrowing a target: choose the function, then the level, then the industry, then the company type, then the location, then two or three example employers. The note says that more than two answers in any layer means more than two clusters, and to pick two for sixty days.",
-       "id": "Alur enam langkah untuk mempersempit sasaran: pilih fungsi, lalu tingkat, lalu industri, lalu jenis perusahaan, lalu lokasi, lalu dua atau tiga contoh perusahaan. Catatan menyebut lebih dari dua jawaban di lapisan mana pun berarti lebih dari dua rumpun, dan pilih dua untuk enam puluh hari."
+       "id": "Alur enam langkah untuk mempersempit sasaran: pilih fungsi, lalu jenjang, lalu industri, lalu jenis perusahaan, lalu lokasi, lalu dua atau tiga contoh perusahaan. Catatannya: lebih dari dua jawaban di lapisan mana pun berarti lebih dari dua rumpun, dan pilih dua untuk enam puluh hari."
       }
      },
      "compare": [
@@ -6695,19 +6693,19 @@ window.MT_LMS['the-pack'] = {
        },
        "q": {
         "en": "An alumnus at a bank asks Nadia what she is looking for.",
-        "id": "Seorang alumni di bank bertanya kepada Nadia apa yang ia cari."
+        "id": "Seorang alumni yang bekerja di bank bertanya kepada Nadia apa yang sedang ia cari."
        },
        "weak": {
         "en": "“Honestly anything: I’m open to all opportunities, I’m very passionate and a fast learner.”",
-        "id": "“Jujur apa saja: aku terbuka untuk semua kesempatan, aku sangat bersemangat dan cepat belajar.”"
+        "id": "“Jujur, apa saja: aku terbuka untuk semua kesempatan, aku sangat bersemangat dan cepat belajar.”"
        },
        "strong": {
         "en": "“I’m aiming for management-trainee roles in banking or FMCG, ideally commercial or operations tracks, in Java. My internship was in a bank’s operations unit and I ran sponsorship for a big campus competition, so I’m looking for somewhere I can build on both.”",
-        "id": "“Aku membidik peran management trainee di perbankan atau FMCG, idealnya jalur komersial atau operasional, di Jawa. Magangku di unit operasional bank dan aku memimpin sponsorship kompetisi kampus yang besar, jadi aku mencari tempat untuk membangun keduanya.”"
+        "id": "“Aku membidik posisi management trainee di perbankan atau FMCG, idealnya jalur komersial atau operasional, di Jawa. Magangku dulu di unit operasional bank, dan aku pernah memimpin sponsorship untuk kompetisi kampus yang besar, jadi aku mencari tempat untuk mengembangkan keduanya.”"
        },
        "why": {
         "en": "The weak answer gives the alumnus nothing to act on. The strong answer is specific enough to trigger a thought (“our officer programme opens next month”) and broad enough to survive one company not hiring.",
-        "id": "Jawaban lemah tidak memberi alumni apa pun untuk ditindaklanjuti. Jawaban kuat cukup spesifik untuk memicu pikiran (“ODP kami buka bulan depan”) dan cukup luas untuk bertahan jika satu perusahaan sedang tidak merekrut."
+        "id": "Jawaban yang lemah tidak memberi alumni itu apa pun untuk ditindaklanjuti. Jawaban yang kuat cukup spesifik untuk memancing ide (“ODP kami buka bulan depan”) dan cukup luas untuk tetap berlaku kalau satu perusahaan sedang tidak merekrut."
        }
       }
      ],
@@ -6720,15 +6718,15 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "In her third year Nadia wanted a marketing internship at a well-known consumer brand. She did not get one. What she got, through a lecturer, was three months in the operations unit of a regional bank branch, reconciling daily transaction reports, which she found dull for the first two weeks.",
-        "id": "Di tahun ketiga Nadia menginginkan magang pemasaran di merek konsumen terkenal. Ia tidak mendapatkannya. Yang ia dapat, lewat seorang dosen, adalah tiga bulan di unit operasional cabang bank daerah, merekonsiliasi laporan transaksi harian, yang ia anggap membosankan selama dua minggu pertama."
+        "id": "Di tahun ketiga, Nadia ingin magang pemasaran di merek konsumen yang terkenal. Ia tidak mendapatkannya. Yang ia dapat, lewat seorang dosen, adalah tiga bulan di unit operasional sebuah cabang bank daerah, merekonsiliasi laporan transaksi harian. Dua minggu pertama ia merasa bosan setengah mati."
        },
        {
         "en": "By week six she had noticed the terminal mismatch, written the checklist and been asked to train a new intern. By the end she could talk for two minutes about settlement, exceptions and why a Rp 40,000 mismatch matters. That is the evidence that now leads her CV, her competency statements and, in Lesson 2.3, her first message to a fintech.",
-        "id": "Pada minggu keenam ia sudah menyadari ketidakcocokan terminal, menulis daftar periksa, dan diminta melatih anak magang baru. Di akhir magang ia bisa berbicara dua menit tentang settlement, pengecualian, dan mengapa selisih Rp 40.000 itu penting. Itulah bukti yang kini memimpin CV-nya, pernyataan kompetensinya, dan, di Pelajaran 2.3, pesan pertamanya ke sebuah fintech."
+        "id": "Pada minggu keenam, ia sudah menemukan selisih di terminal, menyusun daftar periksa, dan diminta melatih anak magang baru. Di akhir magang, ia bisa bercerita dua menit tentang settlement, pengecualian, dan mengapa selisih Rp 40.000 itu penting. Itulah bukti yang kini membuka CV-nya, mengisi pernyataan kompetensinya, dan, di Pelajaran 2.3, menjadi pesan pertamanya ke sebuah fintech."
        },
        {
         "en": "The open gate built more capital than the closed one would have. Passion, if it comes, comes later.",
-        "id": "Gerbang yang terbuka membangun lebih banyak modal daripada yang tertutup. Passion, kalaupun datang, datang belakangan."
+        "id": "Gerbang yang terbuka membangun lebih banyak modal daripada gerbang yang tertutup. Passion, kalaupun datang, datangnya belakangan."
        }
       ]
      },
@@ -6736,15 +6734,15 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill 1: Narrow in layers",
-        "id": "Latihan 1: Persempit berlapis"
+        "id": "Latihan 1: Persempit selapis demi selapis"
        },
        "body": {
         "en": "Fill the six layers for yourself: function, level, industry, company type, location, two or three example employers. Then write the sentence in the narrow-and-broad format.",
-        "id": "Isi enam lapisan untuk dirimu: fungsi, tingkat, industri, jenis perusahaan, lokasi, dua atau tiga contoh perusahaan. Lalu tulis kalimatnya dalam format sempit-dan-luas."
+        "id": "Isi enam lapisan untuk dirimu sendiri: fungsi, jenjang, industri, jenis perusahaan, lokasi, dua atau tiga contoh perusahaan. Lalu tulis kalimatnya dalam format sempit-sekaligus-luas."
        },
        "debrief": {
         "en": "If you have more than two answers in any layer, you have more than two clusters. Pick two for the next 60 days; the others are not wrong, only later. A sentence with no example employers is not yet concrete enough to help anyone help you.",
-        "id": "Jika kamu punya lebih dari dua jawaban di lapisan mana pun, kamu punya lebih dari dua rumpun. Pilih dua untuk 60 hari ke depan; yang lain tidak salah, hanya nanti. Kalimat tanpa contoh perusahaan belum cukup konkret untuk membantu siapa pun membantumu."
+        "id": "Kalau ada lebih dari dua jawaban di satu lapisan, berarti kamu punya lebih dari dua rumpun. Pilih dua untuk 60 hari ke depan; yang lain tidak salah, hanya belum sekarang. Kalimat tanpa contoh perusahaan belum cukup nyata untuk membuat orang lain bisa membantumu."
        }
       },
       {
@@ -6754,11 +6752,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "List three “open gates” you have right now that could build valuable skill in the next three months; things already available to you, not things you would need to win.",
-        "id": "Daftar tiga “gerbang terbuka” yang kamu punya sekarang yang bisa membangun keterampilan berharga dalam tiga bulan ke depan; hal yang sudah tersedia untukmu, bukan yang harus kamu menangkan."
+        "id": "Tulis tiga “gerbang terbuka” yang kamu punya sekarang dan bisa membangun keterampilan berharga dalam tiga bulan ke depan; hal yang sudah tersedia untukmu, bukan yang masih harus kamu perebutkan."
        },
        "debrief": {
         "en": "Most learners find at least one they had not considered, a lecturer’s project, a family business, an organisation role, a volunteer bookkeeping job. Run each through the three disqualifiers; the ones that pass are your capital-building options while the search runs.",
-        "id": "Kebanyakan pembelajar menemukan setidaknya satu yang belum mereka pertimbangkan, proyek dosen, usaha keluarga, peran organisasi, pekerjaan pembukuan sukarela. Uji masing-masing dengan tiga penggugur; yang lolos adalah pilihan pembangun modalmu selama pencarian berjalan."
+        "id": "Kebanyakan pembelajar menemukan setidaknya satu yang belum terpikir: proyek dosen, usaha keluarga, peran di organisasi, pekerjaan pembukuan sukarela. Uji masing-masing dengan tiga penggugur; yang lolos adalah pilihanmu untuk membangun modal sementara pencarian berjalan."
        }
       },
       {
@@ -6768,11 +6766,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Write yours using the formula: for [role family], I bring [proof], [proof], and [what I am building]. Read it aloud.",
-        "id": "Tulis milikmu dengan rumus: untuk [keluarga peran], saya membawa [bukti], [bukti], dan [yang sedang saya bangun]. Baca dengan lantang."
+        "id": "Tulis milikmu dengan rumus: untuk [rumpun posisi], saya membawa [bukti], [bukti], dan [yang sedang saya bangun]. Bacakan dengan suara keras."
        },
        "debrief": {
         "en": "Delete any proof point you could not talk about for two minutes. Replace “passionate about” with what you are building. If the sentence has no number in it, look at your pantry (Module 3); there is almost always one.",
-        "id": "Hapus bukti apa pun yang tidak bisa kamu bicarakan selama dua menit. Ganti “bersemangat tentang” dengan apa yang sedang kamu bangun. Jika kalimatnya tidak memuat angka, lihat lemarimu (Modul 3), hampir selalu ada satu."
+        "id": "Hapus bukti apa pun yang tidak bisa kamu ceritakan selama dua menit. Ganti “bersemangat tentang” dengan apa yang sedang kamu bangun. Kalau kalimatnya tidak memuat satu angka pun, tengok lemari buktimu (Modul 3); hampir selalu ada satu."
        }
       }
      ],
@@ -6785,37 +6783,37 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Choose at most two clusters. Specific targets get help; vague ones get polite nods.",
-         "id": "Pilih paling banyak dua rumpun. Sasaran spesifik mendapat bantuan; yang samar mendapat anggukan sopan."
+         "id": "Pilih paling banyak dua rumpun. Sasaran yang spesifik mendapat bantuan; sasaran yang samar hanya mendapat anggukan sopan."
         }
        },
        {
         "h": {
          "en": "Waiting to discover your passion before applying",
-         "id": "Menunggu menemukan passion sebelum melamar"
+         "id": "Menunggu menemukan passion dulu sebelum melamar"
         },
         "fix": {
          "en": "Build capital; passion tends to follow competence.",
-         "id": "Bangun modal; passion cenderung mengikuti kompetensi."
+         "id": "Bangun modal dulu; passion cenderung menyusul kemahiran."
         }
        },
        {
         "h": {
          "en": "Dismissing state-owned enterprise, bank or SME roles as “not the dream”",
-         "id": "Mengabaikan peran BUMN, bank, atau UKM sebagai “bukan impian”"
+         "id": "Mencoret posisi di BUMN, bank, atau UKM karena “bukan impian”"
         },
         "fix": {
          "en": "Judge them by the capital they build.",
-         "id": "Nilai dari modal yang mereka bangun."
+         "id": "Nilai dari modal yang bisa dibangun di sana."
         }
        },
        {
         "h": {
          "en": "Describing a non-linear path as a “career change”",
-         "id": "Menggambarkan jalur yang tidak linear sebagai “pindah karier”"
+         "id": "Menyebut jalur yang tidak lurus sebagai “pindah karier”"
         },
         "fix": {
          "en": "Tell it as the next logical step, with the investment you have already made.",
-         "id": "Ceritakan sebagai langkah logis berikutnya, dengan investasi yang sudah kamu buat."
+         "id": "Ceritakan sebagai langkah logis berikutnya, dengan investasi yang sudah kamu tanam."
         }
        }
       ]
@@ -6838,7 +6836,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Asking what value you produce and how to get better, rather than what a job offers you.",
-        "id": "Bertanya nilai apa yang kamu hasilkan dan bagaimana menjadi lebih baik, alih-alih apa yang ditawarkan pekerjaan untukmu."
+        "id": "Bertanya nilai apa yang kamu hasilkan dan bagaimana menjadi lebih mahir, bukan apa yang ditawarkan pekerjaan untukmu."
        }
       },
       {
@@ -6848,17 +6846,17 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Few chances to build skill; work you believe is useless or harmful; people you would genuinely dislike working with.",
-        "id": "Sedikit peluang membangun keterampilan; pekerjaan yang kamu yakini tidak berguna atau merugikan; orang yang benar-benar tidak kamu sukai untuk bekerja bersama."
+        "id": "Sedikit peluang membangun keterampilan; pekerjaan yang kamu yakini sia-sia atau merugikan; orang-orang yang benar-benar tidak ingin kamu ajak bekerja bersama."
        }
       },
       {
        "term": {
         "en": "Narrow and broad",
-        "id": "Sempit dan luas"
+        "id": "Sempit sekaligus luas"
        },
        "def": {
         "en": "A target specific enough to act on and broad enough to survive one employer not hiring.",
-        "id": "Sasaran yang cukup spesifik untuk ditindaklanjuti dan cukup luas untuk bertahan jika satu perusahaan tidak merekrut."
+        "id": "Sasaran yang cukup spesifik untuk dikerjakan dan cukup luas untuk bertahan ketika satu perusahaan sedang tidak merekrut."
        }
       },
       {
@@ -6868,7 +6866,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Dossier item: for a role family, two proof points and the thing you are building next.",
-        "id": "Butir Dossier: untuk satu keluarga peran, dua bukti dan hal yang sedang kamu bangun berikutnya."
+        "id": "Butir Dossier: untuk satu rumpun posisi, dua bukti dan hal yang sedang kamu bangun berikutnya."
        }
       },
       {
@@ -6878,7 +6876,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "An opportunity already available to you that builds capital now.",
-        "id": "Peluang yang sudah tersedia untukmu yang membangun modal sekarang."
+        "id": "Peluang yang sudah tersedia untukmu dan bisa membangun modal sekarang juga."
        }
       }
      ],
@@ -6891,11 +6889,11 @@ window.MT_LMS['the-pack'] = {
        "options": [
         {
          "en": "What will this job give me?",
-         "id": "Apa yang akan diberikan pekerjaan ini untukku?"
+         "id": "Apa yang bisa diberikan pekerjaan ini untukku?"
         },
         {
          "en": "What value can I produce here, and how will I get better at it?",
-         "id": "Nilai apa yang bisa kuhasilkan di sini, dan bagaimana aku menjadi lebih baik?"
+         "id": "Nilai apa yang bisa kuhasilkan di sini, dan bagaimana caraku menjadi lebih mahir?"
         },
         {
          "en": "Is this my passion?",
@@ -6903,7 +6901,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Which job has the best title?",
-         "id": "Pekerjaan mana yang punya jabatan terbaik?"
+         "id": "Pekerjaan mana yang jabatannya paling keren?"
         }
        ],
        "correct": 1,
@@ -6915,7 +6913,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Which is the best-formed target sentence?",
-        "id": "Mana kalimat sasaran yang paling baik bentuknya?"
+        "id": "Mana kalimat sasaran yang bentuknya paling baik?"
        },
        "options": [
         {
@@ -6938,13 +6936,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 2,
        "why": {
         "en": "Narrow enough to act on; broad enough to survive one employer not hiring.",
-        "id": "Cukup sempit untuk ditindaklanjuti; cukup luas untuk bertahan jika satu perusahaan tidak merekrut."
+        "id": "Cukup sempit untuk dikerjakan; cukup luas untuk bertahan ketika satu perusahaan sedang tidak merekrut."
        }
       },
       {
        "q": {
         "en": "A role builds valuable skills, but you would find the team genuinely intolerable. Newport’s framework says…",
-        "id": "Sebuah peran membangun keterampilan berharga, tetapi kamu benar-benar tidak tahan dengan timnya. Kerangka Newport berkata…"
+        "id": "Sebuah posisi membangun keterampilan berharga, tetapi kamu benar-benar tidak tahan dengan timnya. Menurut kerangka Newport…"
        },
        "options": [
         {
@@ -6953,11 +6951,11 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "It fails one of the three disqualifiers",
-         "id": "Gagal pada salah satu dari tiga penggugur"
+         "id": "Posisi itu gagal di salah satu dari tiga penggugur"
         },
         {
          "en": "Passion will fix it",
-         "id": "Passion akan memperbaikinya"
+         "id": "Passion akan membereskannya"
         },
         {
          "en": "Only pay matters",
@@ -6967,7 +6965,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "People you would genuinely dislike working with is the third disqualifier.",
-        "id": "Orang yang benar-benar tidak kamu sukai untuk bekerja bersama adalah penggugur ketiga."
+        "id": "Orang-orang yang benar-benar tidak ingin kamu ajak bekerja bersama adalah penggugur ketiga."
        }
       }
      ],
@@ -6980,7 +6978,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Put your target sentence and positioning sentence at the top of the Pipeline Tracker’s notes. They are Dossier item 2’s first pieces, and Modules 3, 5 and 6 reuse them word for word.",
-       "id": "Taruh kalimat sasaran dan kalimat pemosisianmu di bagian atas catatan Pelacak Alur. Itu bagian pertama butir Dossier 2, dan Modul 3, 5, dan 6 memakainya kata demi kata."
+       "id": "Taruh kalimat sasaran dan kalimat pemosisianmu di bagian paling atas catatan Pelacak Alur. Keduanya adalah bagian pertama butir Dossier 2, dan Modul 3, 5, dan 6 memakainya kata demi kata."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -6990,11 +6988,11 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "You do not need a passion to start; you need a skill to build and a place to build it.",
-       "id": "Kamu tidak butuh passion untuk memulai; kamu butuh keterampilan untuk dibangun dan tempat untuk membangunnya."
+       "id": "Kamu tidak butuh passion untuk memulai; kamu butuh satu keterampilan untuk dibangun dan satu tempat untuk membangunnya."
       },
       {
        "en": "A target is narrow enough to act on and broad enough to survive, at most two clusters.",
-       "id": "Sasaran cukup sempit untuk ditindaklanjuti dan cukup luas untuk bertahan, paling banyak dua rumpun."
+       "id": "Sasaran yang baik cukup sempit untuk dikerjakan dan cukup luas untuk bertahan; paling banyak dua rumpun."
       },
       {
        "en": "Your positioning sentence names evidence and what you are building next.",
@@ -7008,7 +7006,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "The two sentences as fill-in templates.",
-       "id": "Dua kalimat sebagai templat isian."
+       "id": "Dua kalimat itu sebagai templat isian."
       },
       "items": [
        {
@@ -7019,24 +7017,24 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "Four sources, with reliability notes.",
-         "id": "Empat sumber, dengan catatan keandalan."
+         "id": "Empat sumber, dengan catatan keandalannya."
         },
         "body": [
          {
           "en": "C. Newport, <i>So Good They Can’t Ignore You</i> (2012), Rules 1–2, passion as a result; the craftsman mindset; career capital; the three disqualifiers. The 10,000-hour framing is moderated per the course evidence register.",
-          "id": "C. Newport, <i>So Good They Can’t Ignore You</i> (2012), Aturan 1–2, passion sebagai hasil; pola pikir pengrajin; modal karier; tiga penggugur. Pembingkaian 10.000 jam dimoderasi sesuai register bukti kursus."
+          "id": "C. Newport, <i>So Good They Can’t Ignore You</i> (2012), Aturan 1–2; passion sebagai hasil; pola pikir pengrajin; modal karier; tiga penggugur. Klaim 10.000 jam diperlunak sesuai daftar bukti kursus."
          },
          {
           "en": "S. Dalton, <i>The 2-Hour Job Search</i> (2nd ed., 2020), ch. 6, defining interest narrowly and broadly.",
-          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 6, mendefinisikan minat secara sempit dan luas."
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 6; mendefinisikan minat secara sempit sekaligus luas."
          },
          {
           "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), ch. 4, the career-focus funnel.",
-          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 4, corong fokus karier."
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 4; corong fokus karier."
          },
          {
           "en": "D. Graham, <i>Switchers</i> (2018), ch. 3, 6, 10; “anything” is not a target; telling a switch as the next logical step.",
-          "id": "D. Graham, <i>Switchers</i> (2018), bab 3, 6, 10; “apa saja” bukan sasaran; menceritakan peralihan sebagai langkah logis berikutnya."
+          "id": "D. Graham, <i>Switchers</i> (2018), bab 3, 6, 10; “apa saja” bukan sasaran; menceritakan pindah haluan sebagai langkah logis berikutnya."
          }
         ]
        },
@@ -7048,16 +7046,16 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "Fill in, read aloud, keep.",
-         "id": "Isi, baca lantang, simpan."
+         "id": "Isi, bacakan, simpan."
         },
         "body": [
          {
           "en": "Target: [Role family] in [industry segment], ideally at companies like [2–3 examples], in [location].",
-          "id": "Sasaran: [Keluarga peran] di [segmen industri], idealnya di perusahaan seperti [2–3 contoh], di [lokasi]."
+          "id": "Sasaran: [Rumpun posisi] di [segmen industri], idealnya di perusahaan seperti [2–3 contoh], di [lokasi]."
          },
          {
           "en": "Positioning: For [role family], I bring [proof point 1], [proof point 2], and [the thing I’m building next].",
-          "id": "Pemosisian: Untuk [keluarga peran], saya membawa [bukti 1], [bukti 2], dan [hal yang sedang saya bangun berikutnya]."
+          "id": "Pemosisian: Untuk [rumpun posisi], saya membawa [bukti 1], [bukti 2], dan [hal yang sedang saya bangun berikutnya]."
          }
         ]
        }
@@ -7074,28 +7072,28 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "The Target List: LAMP, Local Edition",
-      "id": "Daftar Target Perusahaan: LAMP Edisi Lokal"
+      "id": "Daftar Perusahaan Sasaran: LAMP Edisi Lokal"
      },
      "overview": {
       "en": "An endless search produces endless anxiety. A finite, scored list of forty employers, built in seventy minutes, turns the search into an ordered queue. This lesson adapts Steve Dalton’s LAMP (List, Advocates, Motivation, Posting) method to your market, and the drill is the sprint itself.",
-      "id": "Pencarian tanpa akhir menghasilkan kecemasan tanpa akhir. Daftar empat puluh perusahaan yang terbatas dan dinilai, dibangun dalam tujuh puluh menit, mengubah pencarian menjadi antrean terurut. Pelajaran ini mengadaptasi metode LAMP (List, Advocates, Motivation, Posting) Steve Dalton ke pasar, dan latihannya adalah sprint itu sendiri."
+      "id": "Pencarian tanpa ujung melahirkan kecemasan tanpa ujung. Daftar empat puluh perusahaan yang terbatas dan diberi skor, dibangun dalam tujuh puluh menit, mengubah pencarian menjadi antrean yang teratur. Pelajaran ini mengadaptasi metode LAMP (List, Advocates, Motivation, Posting) dari Steve Dalton untuk pasar kerjamu, dan latihannya adalah sprint itu sendiri."
      },
      "objectives": [
       {
        "en": "Build a list of at least 40 employers using five brainstorming methods.",
-       "id": "Membangun daftar setidaknya 40 perusahaan dengan lima metode curah gagasan."
+       "id": "Membangun daftar sedikitnya 40 perusahaan dengan lima cara curah gagasan."
       },
       {
        "en": "Score each for <b>Advocacy</b>, <b>Motivation</b> and <b>Posting</b>.",
-       "id": "Menilai masing-masing untuk <b>Advokasi</b>, <b>Motivasi</b>, dan <b>Lowongan</b>."
+       "id": "Memberi skor <b>Advokasi</b>, <b>Motivasi</b>, dan <b>Lowongan</b> untuk masing-masing."
       },
       {
        "en": "Sort and verify a Top 5 you will contact first.",
-       "id": "Mengurutkan dan memverifikasi 5 Teratas yang akan kamu hubungi lebih dulu."
+       "id": "Mengurutkan dan memeriksa 5 Teratas yang akan kamu hubungi lebih dulu."
       },
       {
        "en": "Keep list-building separate from research and applying.",
-       "id": "Menjaga pembuatan daftar terpisah dari riset dan melamar."
+       "id": "Memisahkan kegiatan membuat daftar dari riset dan melamar."
       }
      ],
      "readFirst": {
@@ -7103,27 +7101,27 @@ window.MT_LMS['the-pack'] = {
        "bg": "../../assets/bg/alumni.jpg",
        "module": {
         "en": "Module 2 · Targets, Networks & the Hidden Gate",
-        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+        "id": "Modul 2 · Sasaran, Jejaring & Gerbang Tersembunyi"
        },
        "lesson": {
         "n": "2.2",
         "title": {
          "en": "The Target List: LAMP, Local Edition",
-         "id": "Daftar Target Perusahaan: LAMP Edisi Lokal"
+         "id": "Daftar Perusahaan Sasaran: LAMP Edisi Lokal"
         }
        },
        "story": [
         {
          "en": "L · List: forty minutes, five methods, names only",
-         "id": "L · Daftar: empat puluh menit, lima metode, nama saja"
+         "id": "L · Daftar: empat puluh menit, lima cara, nama saja"
         },
         {
          "en": "A · M · P: thirty minutes of easy-to-find proxies for what predicts success",
-         "id": "A · M · P: tiga puluh menit proksi yang mudah ditemukan untuk apa yang memprediksi keberhasilan"
+         "id": "A · M · P: tiga puluh menit untuk penanda sederhana dari hal-hal yang meramalkan keberhasilan"
         },
         {
          "en": "Sort, verify the Top 5, then stop; the list is a queue, not a monument",
-         "id": "Urutkan, pastikan 5 Teratas, lalu berhenti; daftar itu antrean, bukan monumen"
+         "id": "Urutkan, periksa 5 Teratas, lalu berhenti; daftar ini antrean, bukan monumen"
         }
        ],
        "takes": [
@@ -7134,7 +7132,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Task separation makes it work: while listing, you do not open postings or read company pages; when the timer rings, move.",
-          "id": "Pemisahan tugas membuatnya berhasil: saat mendaftar, kamu tidak membuka lowongan atau membaca laman perusahaan; saat alarm berbunyi, lanjut."
+          "id": "Pemisahan tugas yang membuatnya berhasil: selama membuat daftar, kamu tidak membuka lowongan atau membaca laman perusahaan; begitu alarm berbunyi, lanjut."
          }
         },
         {
@@ -7144,7 +7142,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Motivation predicts success better than whether a role is posted, because it drives the persistence outreach needs.",
-          "id": "Motivasi memprediksi keberhasilan lebih baik daripada apakah peran sedang diiklankan, karena ia menggerakkan kegigihan yang dibutuhkan penjangkauan."
+          "id": "Motivasi meramalkan keberhasilan lebih baik daripada ada-tidaknya lowongan, karena motivasilah yang membuatmu tekun menjajaki."
          }
         },
         {
@@ -7154,7 +7152,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Nadia’s 300-person HIMA alumni group alone gives her a Y at eleven of her forty.",
-          "id": "Grup alumni HIMA Nadia yang beranggotakan 300 orang saja memberinya Y di sebelas dari empat puluh."
+          "id": "Grup alumni HIMA Nadia yang beranggotakan 300 orang saja sudah memberinya Y di sebelas dari empat puluh perusahaan."
          }
         }
        ],
@@ -7163,7 +7161,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "L · List: forty minutes, five methods, names only",
-          "id": "L · Daftar: empat puluh menit, lima metode, nama saja"
+          "id": "L · Daftar: empat puluh menit, lima cara, nama saja"
          },
          "layout": "grid",
          "items": [
@@ -7173,17 +7171,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Perusahaan impian",
            "d": {
             "en": "The ones that come to mind, then employers similar to them.",
-            "id": "Yang terlintas di pikiran, lalu perusahaan yang mirip dengannya."
+            "id": "Yang pertama terlintas di pikiran, lalu perusahaan lain yang mirip."
            },
            "img": "../../assets/bg/ep-stage-transition.jpg"
           },
           {
            "icon": "cap",
            "en": "Alumni employers",
-           "id": "Perusahaan alumni",
+           "id": "Perusahaan tempat alumni bekerja",
            "d": {
             "en": "Where people from your campus, faculty, organisation or scholarship work in roles like yours.",
-            "id": "Tempat orang dari kampus, fakultas, organisasi, atau beasiswamu bekerja di peran seperti milikmu."
+            "id": "Tempat orang-orang dari kampus, fakultas, organisasi, atau beasiswamu bekerja di posisi seperti yang kamu incar."
            },
            "img": "../../assets/bg/alumni.jpg"
           },
@@ -7193,17 +7191,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Sedang merekrut",
            "d": {
             "en": "Search the job sites and company Instagram accounts for your role and location; copy names only.",
-            "id": "Cari situs lowongan dan akun Instagram perusahaan untuk peran dan lokasimu; salin nama saja."
+            "id": "Cari di situs lowongan dan akun Instagram perusahaan dengan posisi dan lokasimu; salin namanya saja."
            },
            "img": "../../assets/bg/stage-exploration.jpg"
           },
           {
            "icon": "chart",
            "en": "Trending",
-           "id": "Sedang tumbuh",
+           "id": "Sedang naik daun",
            "d": {
             "en": "Employers growing in your area of interest, from business news.",
-            "id": "Perusahaan yang tumbuh di bidang minatmu, dari berita bisnis."
+            "id": "Perusahaan yang sedang tumbuh di bidang minatmu, dari berita bisnis."
            },
            "img": "../../assets/pe/ed-board.jpg"
           },
@@ -7213,18 +7211,18 @@ window.MT_LMS['the-pack'] = {
            "id": "Kalender program",
            "d": {
             "en": "State-owned joint recruitment, bank officer and MT intakes: the process track with its windows.",
-            "id": "Rekrutmen bersama BUMN, intake officer bank dan MT: jalur proses dengan jendelanya."
+            "id": "Rekrutmen bersama BUMN, seleksi ODP bank dan MT: jalur proses dengan jadwalnya."
            },
            "img": "../../assets/bg/fg-reckoning.jpg"
           }
          ],
          "sub": {
           "en": "Short lists skew toward famous, over-subscribed brands; most employers are smaller and less contested than the names everyone knows.",
-          "id": "Daftar pendek condong ke merek terkenal yang kelebihan pelamar; kebanyakan perusahaan lebih kecil dan kurang diperebutkan dari nama yang semua orang tahu."
+          "id": "Daftar yang pendek cenderung berisi merek terkenal yang pelamarnya berjubel; kebanyakan perusahaan lebih kecil dan tidak seramai itu diperebutkan."
          },
          "band": {
           "en": "Task separation makes it work: while listing, you do not open postings or read company pages; when the timer rings, move.",
-          "id": "Pemisahan tugas membuatnya berhasil: saat mendaftar, kamu tidak membuka lowongan atau membaca laman perusahaan; saat alarm berbunyi, lanjut."
+          "id": "Pemisahan tugas yang membuatnya berhasil: selama membuat daftar, kamu tidak membuka lowongan atau membaca laman perusahaan; begitu alarm berbunyi, lanjut."
          },
          "em": {
           "en": "names only",
@@ -7235,7 +7233,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "A · M · P: thirty minutes of easy-to-find proxies for what predicts success",
-          "id": "A · M · P: tiga puluh menit proksi yang mudah ditemukan untuk apa yang memprediksi keberhasilan"
+          "id": "A · M · P: tiga puluh menit untuk penanda sederhana dari hal-hal yang meramalkan keberhasilan"
          },
          "img": "../../assets/bg/fg-sprint-positioning.jpg",
          "layout": "flow",
@@ -7246,7 +7244,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Advokasi, 10 menit",
            "d": {
             "en": "Y if someone like you works there: alumni, faculty, organisation, scholarship, region. No names yet.",
-            "id": "Y jika ada orang sepertimu di sana: alumni, fakultas, organisasi, beasiswa, daerah. Belum perlu nama."
+            "id": "Y kalau ada orang sepertimu di sana: alumni, fakultas, organisasi, beasiswa, daerah. Belum perlu nama."
            }
           },
           {
@@ -7255,7 +7253,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Motivasi, 5 menit",
            "d": {
             "en": "0–3 gut interest: 3 dream, 2 interested, 1 would consider, 0 don’t know enough. Real constraints lower the score honestly.",
-            "id": "Minat naluri 0–3: 3 impian, 2 tertarik, 1 mau mempertimbangkan, 0 belum cukup tahu. Kendala nyata menurunkan skor secara jujur."
+            "id": "Minat dari naluri, 0–3: 3 impian, 2 tertarik, 1 boleh dipertimbangkan, 0 belum cukup tahu. Kendala nyata boleh menurunkan skor, dan itu jujur."
            }
           },
           {
@@ -7264,7 +7262,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Lowongan, 15 menit",
            "d": {
             "en": "1–3 relevance of a current posting; for SMEs check Instagram and WhatsApp broadcasts. Copy the score, not the link.",
-            "id": "Relevansi 1–3 lowongan saat ini; untuk UKM periksa Instagram dan siaran WhatsApp. Salin skornya, bukan tautannya."
+            "id": "Relevansi lowongan saat ini, 1–3; untuk UKM cek Instagram dan siaran WhatsApp. Salin skornya, bukan tautannya."
            }
           }
          ],
@@ -7274,7 +7272,7 @@ window.MT_LMS['the-pack'] = {
          },
          "band": {
           "en": "Motivation predicts success better than whether a role is posted, because it drives the persistence outreach needs.",
-          "id": "Motivasi memprediksi keberhasilan lebih baik daripada apakah peran sedang diiklankan, karena ia menggerakkan kegigihan yang dibutuhkan penjangkauan."
+          "id": "Motivasi meramalkan keberhasilan lebih baik daripada ada-tidaknya lowongan, karena motivasilah yang membuatmu tekun menjajaki."
          },
          "em": {
           "en": "proxies for what predicts success"
@@ -7284,7 +7282,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Sort, verify the Top 5, then stop; the list is a queue, not a monument",
-          "id": "Urutkan, pastikan 5 Teratas, lalu berhenti; daftar itu antrean, bukan monumen"
+          "id": "Urutkan, periksa 5 Teratas, lalu berhenti; daftar ini antrean, bukan monumen"
          },
          "img": "../../assets/pe/strategic-target-list.jpg",
          "layout": "list",
@@ -7301,7 +7299,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "scale",
            "en": "Long lead times deserve earlier contact; smaller employers hire more just-in-time",
-           "id": "Waktu tunggu panjang layak dihubungi lebih awal; perusahaan kecil lebih sering merekrut saat dibutuhkan",
+           "id": "Waktu tunggu yang panjang layak dihubungi lebih awal; perusahaan kecil lebih sering merekrut saat butuh",
            "l": {
             "en": "Large versus small",
             "id": "Besar versus kecil"
@@ -7310,7 +7308,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "calendar",
            "en": "A process-track employer whose window is months away belongs in the calendar, not in this month’s outreach",
-           "id": "Perusahaan jalur proses yang jendelanya berbulan-bulan lagi masuk kalender, bukan penjangkauan bulan ini",
+           "id": "Perusahaan jalur proses yang pendaftarannya masih berbulan-bulan lagi masuk kalender, bukan penjajakan bulan ini",
            "l": {
             "en": "Calendar items",
             "id": "Butir kalender"
@@ -7319,7 +7317,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "cap",
            "en": "An internship or graduate programme is the employer’s lowest-risk hiring channel: a ten-week interview",
-           "id": "Magang atau program lulusan adalah saluran rekrutmen berisiko terendah perusahaan: wawancara sepuluh minggu",
+           "id": "Magang atau program lulusan baru adalah saluran rekrutmen yang paling kecil risikonya bagi perusahaan: wawancara sepuluh minggu",
            "l": {
             "en": "Internships",
             "id": "Magang"
@@ -7328,11 +7326,11 @@ window.MT_LMS['the-pack'] = {
          ],
          "sub": {
           "en": "Would any employer ranked 6–8 displace one of your Top 5? Adjust until the Top 5 feels right; re-score monthly.",
-          "id": "Apakah perusahaan peringkat 6–8 bisa menggeser salah satu 5 Teratas? Sesuaikan sampai 5 Teratas terasa tepat; nilai ulang bulanan."
+          "id": "Adakah perusahaan di peringkat 6–8 yang layak menggeser salah satu 5 Teratas? Sesuaikan sampai 5 Teratas terasa pas; beri skor ulang tiap bulan."
          },
          "band": {
           "en": "Nadia’s 300-person HIMA alumni group alone gives her a Y at eleven of her forty.",
-          "id": "Grup alumni HIMA Nadia yang beranggotakan 300 orang saja memberinya Y di sebelas dari empat puluh."
+          "id": "Grup alumni HIMA Nadia yang beranggotakan 300 orang saja sudah memberinya Y di sebelas dari empat puluh perusahaan."
          },
          "em": {
           "en": "a queue, not a monument",
@@ -7355,7 +7353,7 @@ window.MT_LMS['the-pack'] = {
       },
       "intro": {
        "en": "L, A, M, P, list, advocacy, motivation, posting, timed, with one discipline: while listing, you do not research.",
-       "id": "L, A, M, P, daftar, advokasi, motivasi, lowongan, berbatas waktu, dengan satu disiplin: saat mendaftar, kamu tidak meriset."
+       "id": "L, A, M, P: daftar, advokasi, motivasi, lowongan, semuanya dengan batas waktu dan satu disiplin: selama membuat daftar, kamu tidak meriset."
       },
       "slides": [
        {
@@ -7366,11 +7364,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Five methods, eight minutes each: dream employers · alumni employers · actively hiring · trending · programme calendars.",
-          "id": "Lima metode, delapan menit masing-masing: perusahaan impian · perusahaan alumni · sedang merekrut · sedang tumbuh · kalender program."
+          "id": "Lima cara, delapan menit masing-masing: perusahaan impian · perusahaan tempat alumni bekerja · sedang merekrut · sedang naik daun · kalender program."
          },
          {
           "en": "Names only. No postings opened, no company pages read.",
-          "id": "Nama saja. Tidak ada lowongan yang dibuka, tidak ada laman perusahaan yang dibaca."
+          "id": "Nama saja. Jangan buka lowongan, jangan baca laman perusahaan."
          }
         ]
        },
@@ -7382,7 +7380,7 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Advocacy: Y/N, someone like you works there (10 min). Motivation: 0–3 gut score (5 min). Posting: 1–3 relevance of a current posting (15 min).",
-          "id": "Advokasi: Y/T, ada orang sepertimu di sana (10 mnt). Motivasi: skor naluri 0–3 (5 mnt). Lowongan: relevansi 1–3 lowongan saat ini (15 mnt)."
+          "id": "Advokasi: Y/T, ada orang sepertimu di sana (10 mnt). Motivasi: skor naluri 0–3 (5 mnt). Lowongan: relevansi lowongan saat ini 1–3 (15 mnt)."
          },
          {
           "en": "Sort by Motivation, then Posting, then Advocacy.",
@@ -7398,11 +7396,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Verify the Top 5 feels right; those are the employers you contact first in Lesson 2.3.",
-          "id": "Pastikan 5 Teratas terasa tepat; itulah perusahaan yang kamu hubungi lebih dulu di Pelajaran 2.3."
+          "id": "Pastikan 5 Teratas terasa pas; merekalah perusahaan yang kamu hubungi lebih dulu di Pelajaran 2.3."
          },
          {
           "en": "Re-score monthly. The list is a queue, not a monument.",
-          "id": "Nilai ulang bulanan. Daftar itu antrean, bukan monumen."
+          "id": "Beri skor ulang tiap bulan. Daftar ini antrean, bukan monumen."
          }
         ]
        }
@@ -7413,15 +7411,15 @@ window.MT_LMS['the-pack'] = {
        "icon": "eye",
        "h": {
         "en": "Why forty, and why fast",
-        "id": "Mengapa empat puluh, dan mengapa cepat"
+        "id": "Mengapa empat puluh, dan mengapa harus cepat"
        },
        "body": {
         "en": "Short lists skew toward famous, over-subscribed brands, and most employers are smaller and less contested than the names everyone knows <i>(Dalton, The 2-Hour Job Search, ch. 1)</i>. The method is deliberately quick: it uses easy-to-find proxies for what predicts success rather than deep research. The discipline that makes it work is <b>task separation</b>: while building the list, you do not open job postings, read company pages, or look for names. Switching tasks is what turns a 70-minute job into a week of scrolling. Set a timer for every block, and when it rings, move on with what you have.",
-        "id": "Daftar pendek condong ke merek terkenal yang kelebihan pelamar, dan kebanyakan perusahaan lebih kecil dan kurang diperebutkan daripada nama-nama yang semua orang tahu <i>(Dalton, The 2-Hour Job Search, bab 1)</i>. Metodenya sengaja cepat: memakai proksi yang mudah ditemukan untuk hal yang memprediksi keberhasilan, bukan riset mendalam. Disiplin yang membuatnya berhasil adalah <b>pemisahan tugas</b>: saat membangun daftar, kamu tidak membuka lowongan, membaca laman perusahaan, atau mencari nama orang. Berpindah tugas adalah yang mengubah pekerjaan 70 menit menjadi seminggu menggulir layar. Pasang pengatur waktu untuk setiap blok, dan ketika berbunyi, lanjutkan dengan apa yang kamu punya."
+        "id": "Daftar yang pendek cenderung berisi merek-merek terkenal yang pelamarnya berjubel, padahal kebanyakan perusahaan lebih kecil dan tidak seramai itu diperebutkan <i>(Dalton, The 2-Hour Job Search, bab 1)</i>. Metode ini sengaja dibuat cepat: ia memakai penanda yang mudah ditemukan untuk hal-hal yang meramalkan keberhasilan, bukan riset mendalam. Disiplin yang membuatnya berhasil adalah <b>pemisahan tugas</b>: selama membangun daftar, kamu tidak membuka lowongan, tidak membaca laman perusahaan, dan tidak mencari nama orang. Berpindah-pindah tugas itulah yang mengubah pekerjaan 70 menit menjadi seminggu menggulir layar. Pasang pengatur waktu untuk setiap blok, dan begitu berbunyi, lanjutkan dengan apa yang sudah kamu punya."
        },
        "key": {
         "en": "Forty names, scored fast with easy proxies, beat a short list of famous brands everyone else is chasing.",
-        "id": "Empat puluh nama yang dinilai cepat dengan proksi sederhana mengalahkan daftar pendek merek terkenal yang dikejar semua orang."
+        "id": "Empat puluh nama yang diberi skor cepat dengan penanda sederhana mengalahkan daftar pendek merek terkenal yang dikejar semua orang."
        }
       },
       {
@@ -7432,33 +7430,33 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Five methods, about ten employers each, eight minutes per method:",
-        "id": "Lima metode, sekitar sepuluh perusahaan masing-masing, delapan menit per metode:"
+        "id": "Lima cara, kira-kira sepuluh perusahaan per cara, delapan menit per cara:"
        },
        "bullets": [
         {
          "en": "<b>Dream employers</b>: the ones that come to mind, then employers similar to them.",
-         "id": "<b>Perusahaan impian</b>: yang terlintas di pikiran, lalu perusahaan yang serupa."
+         "id": "<b>Perusahaan impian</b>: yang pertama terlintas di pikiran, lalu perusahaan lain yang mirip."
         },
         {
          "en": "<b>Alumni employers</b>: where people from your campus, faculty, organisation or scholarship work in roles like yours (LinkedIn’s alumni tool on your university page; your IKA (the alumni association, ikatan alumni) or HIMA (the students’ association, himpunan mahasiswa) alumni group).",
-         "id": "<b>Perusahaan alumni</b>: tempat orang dari kampus, fakultas, organisasi, atau beasiswamu bekerja di peran seperti milikmu (alat alumni LinkedIn di laman universitasmu; grup alumni IKA (ikatan alumni) atau HIMA-mu)."
+         "id": "<b>Perusahaan tempat alumni bekerja</b>: tempat orang-orang dari kampus, fakultas, organisasi, atau beasiswamu bekerja di posisi seperti yang kamu incar (fitur alumni LinkedIn di laman universitasmu; grup alumni IKA (ikatan alumni) atau HIMA-mu)."
         },
         {
          "en": "<b>Actively hiring</b>: search LinkedIn, JobStreet, Glints, Kalibrr, Dealls and company Instagram accounts for your role and location; <b>copy employer names only</b>, do not open postings.",
-         "id": "<b>Sedang merekrut</b>: cari di LinkedIn, JobStreet, Glints, Kalibrr, Dealls, dan akun Instagram perusahaan untuk peran dan lokasimu; <b>salin nama perusahaan saja</b>, jangan buka lowongannya."
+         "id": "<b>Sedang merekrut</b>: cari di LinkedIn, JobStreet, Glints, Kalibrr, Dealls, dan akun Instagram perusahaan dengan kata kunci posisi dan lokasimu; <b>salin nama perusahaannya saja</b>, jangan buka lowongannya."
         },
         {
          "en": "<b>Trending</b>: employers growing in your area of interest, from business news.",
-         "id": "<b>Sedang tumbuh</b>: perusahaan yang berkembang di bidang minatmu, dari berita bisnis."
+         "id": "<b>Sedang naik daun</b>: perusahaan yang sedang tumbuh di bidang minatmu, dari berita bisnis."
         },
         {
          "en": "<b>Programme calendars</b> <i>(a local addition that applies in any market with structured intakes)</i>: state-owned enterprise joint recruitment, bank officer programme/MT intakes, FMCG (fast-moving consumer goods) management-trainee programmes, graduate programmes with fixed windows.",
-         "id": "<b>Kalender program</b> <i>(tambahan Indonesia)</i>: rekrutmen bersama BUMN, seleksi ODP/MT bank, program management trainee FMCG, program lulusan dengan jendela tetap."
+         "id": "<b>Kalender program</b> <i>(tambahan lokal yang berlaku di pasar mana pun dengan seleksi terjadwal)</i>: rekrutmen bersama BUMN, seleksi ODP/MT bank, program management trainee FMCG, program lulusan baru dengan jadwal pendaftaran tetap."
         }
        ],
        "key": {
         "en": "Five methods, eight minutes each, names only: dream employers, alumni employers, actively hiring, trending, programme calendars.",
-        "id": "Lima metode, delapan menit masing-masing, hanya nama: perusahaan impian, perusahaan alumni, sedang merekrut, sedang naik daun, kalender program."
+        "id": "Lima cara, delapan menit masing-masing, nama saja: perusahaan impian, perusahaan tempat alumni bekerja, sedang merekrut, sedang naik daun, kalender program."
        }
       },
       {
@@ -7469,11 +7467,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "For each employer: <b>Y</b> if someone “like you” works there, alumni of your campus, faculty, organisation or scholarship, or someone from your region or community. Otherwise <b>N</b> <i>(Dalton, ch. 2)</i>. Do not collect names yet; just Y or N. In most markets this column is richer than learners expect; in Indonesia, for example: IKA associations, faculty WhatsApp groups, BEM (the student executive board, badan eksekutif mahasiswa)/HIMA/UKM alumni, LPDP (the national scholarship agency) and other scholarship alumni, and regional student associations all count. Nadia’s 300-person HIMA alumni group alone gives her a Y at eleven of her forty.",
-        "id": "Untuk setiap perusahaan: <b>Y</b> jika ada orang “sepertimu” bekerja di sana, alumni kampus, fakultas, organisasi, atau beasiswamu, atau orang dari daerah atau komunitasmu, jika tidak <b>T</b> <i>(Dalton, bab 2)</i>. Jangan kumpulkan nama dulu; cukup Y atau T. Di Indonesia kolom ini sering lebih kaya daripada yang diduga pembelajar: ikatan alumni (IKA), grup WhatsApp fakultas, alumni BEM (badan eksekutif mahasiswa)/HIMA/UKM, alumni LPDP (Lembaga Pengelola Dana Pendidikan) dan beasiswa lain, serta himpunan mahasiswa daerah semuanya dihitung. Grup alumni HIMA (himpunan mahasiswa) Nadia yang beranggotakan 300 orang saja memberinya Y di sebelas dari empat puluh."
+        "id": "Untuk setiap perusahaan: <b>Y</b> kalau ada orang “sepertimu” yang bekerja di sana, misalnya alumni kampus, fakultas, organisasi, atau beasiswamu, atau orang dari daerah atau komunitasmu. Kalau tidak ada, <b>T</b> <i>(Dalton, bab 2)</i>. Jangan kumpulkan nama dulu; cukup Y atau T. Di kebanyakan pasar, kolom ini lebih kaya daripada dugaan pembelajar. Di Indonesia, misalnya: ikatan alumni (IKA), grup WhatsApp fakultas, alumni BEM (badan eksekutif mahasiswa)/HIMA/UKM, alumni LPDP (Lembaga Pengelola Dana Pendidikan) dan beasiswa lain, serta himpunan mahasiswa daerah, semuanya dihitung. Grup alumni HIMA (himpunan mahasiswa) Nadia yang beranggotakan 300 orang saja sudah memberinya Y di sebelas dari empat puluh perusahaan."
        },
        "key": {
         "en": "Advocacy is a yes or no: does someone like you already work there? Do not collect names yet.",
-        "id": "Advokasi hanya ya atau tidak: apakah ada orang seperti kamu yang sudah bekerja di sana? Jangan kumpulkan nama dulu."
+        "id": "Advokasi hanya ya atau tidak: apakah ada orang sepertimu yang sudah bekerja di sana? Jangan kumpulkan nama dulu."
        }
       },
       {
@@ -7484,11 +7482,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Score 0–3 on gut interest using only what you already know: 3 = dream, 2 = interested, 1 = would consider, 0 = don’t know enough <i>(Dalton, ch. 3)</i>. No research. Dalton argues motivation predicts success better than whether a role is currently posted, because it drives the persistence outreach needs. Use this column to absorb real constraints: if you must stay near home, score far-away employers lower. Nadia’s family preference for Central Java is a legitimate input to M, not a reason to feel guilty about it.",
-        "id": "Beri skor 0–3 berdasarkan minat naluriah hanya dengan apa yang sudah kamu tahu: 3 = impian, 2 = tertarik, 1 = akan mempertimbangkan, 0 = tidak cukup tahu <i>(Dalton, bab 3)</i>. Tanpa riset. Dalton berpendapat motivasi memprediksi keberhasilan lebih baik daripada apakah sebuah peran sedang diiklankan, karena motivasi mendorong ketekunan yang dibutuhkan penjangkauan. Pakai kolom ini untuk menyerap kendala nyata: jika kamu harus tinggal dekat rumah, beri skor lebih rendah untuk perusahaan yang jauh. Preferensi keluarga Nadia untuk Jawa Tengah adalah masukan sah untuk M, bukan alasan untuk merasa bersalah."
+        "id": "Beri skor 0–3 berdasarkan minatmu saat ini, hanya dengan apa yang sudah kamu tahu: 3 = impian, 2 = tertarik, 1 = boleh dipertimbangkan, 0 = belum cukup tahu <i>(Dalton, bab 3)</i>. Tanpa riset. Menurut Dalton, motivasi meramalkan keberhasilan lebih baik daripada ada-tidaknya lowongan saat ini, karena motivasilah yang membuatmu tekun menjajaki. Pakai kolom ini untuk menampung kendala nyata: kalau kamu harus tinggal dekat rumah, beri skor lebih rendah untuk perusahaan yang jauh. Keinginan keluarga Nadia agar ia tetap di Jawa Tengah adalah masukan yang sah untuk M, bukan sesuatu yang perlu membuatnya merasa bersalah."
        },
        "key": {
         "en": "Score motivation from your gut, without research; it predicts persistence better than whether a role is posted today.",
-        "id": "Nilai motivasi dari naluri, tanpa riset; motivasi meramalkan ketekunan lebih baik daripada ada tidaknya lowongan hari ini."
+        "id": "Beri skor motivasi dari naluri, tanpa riset; motivasi meramalkan ketekunan lebih baik daripada ada-tidaknya lowongan hari ini."
        }
       },
       {
@@ -7499,26 +7497,26 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Search each employer with your role keywords. 3 = a very relevant current posting; 2 = somewhat relevant; 1 = none <i>(Dalton, ch. 4)</i>. This is a proxy for current hiring activity. For SMEs, check Instagram and WhatsApp broadcasts, where many post first. Copy the score, not the link; the posting is for later.",
-        "id": "Cari setiap perusahaan dengan kata kunci peranmu. 3 = lowongan saat ini sangat relevan; 2 = agak relevan; 1 = tidak ada <i>(Dalton, bab 4)</i>. Ini proksi untuk aktivitas rekrutmen saat ini. Untuk UKM, periksa Instagram dan siaran WhatsApp, tempat banyak yang mengumumkan lebih dulu. Salin skornya, bukan tautannya, lowongannya untuk nanti."
+        "id": "Cari setiap perusahaan dengan kata kunci posisimu. 3 = ada lowongan yang sangat relevan saat ini; 2 = agak relevan; 1 = tidak ada <i>(Dalton, bab 4)</i>. Ini penanda untuk kegiatan rekrutmen saat ini. Untuk UKM, cek Instagram dan siaran WhatsApp, karena banyak yang mengumumkan di sana lebih dulu. Salin skornya, bukan tautannya; lowongannya untuk nanti."
        },
        "key": {
         "en": "Posting is a proxy for current hiring: score it, do not read it, and check where smaller employers post first.",
-        "id": "Lowongan adalah proksi untuk perekrutan saat ini: beri skor, jangan dibaca, dan cek di mana perusahaan kecil memasang lebih dulu."
+        "id": "Lowongan adalah penanda rekrutmen saat ini: beri skor, jangan dibaca, dan cek di mana perusahaan kecil biasa mengumumkan lebih dulu."
        }
       },
       {
        "icon": "gear",
        "h": {
         "en": "Sort and verify",
-        "id": "Urutkan dan verifikasi"
+        "id": "Urutkan dan periksa"
        },
        "body": {
         "en": "Sort by <b>Motivation</b>, then <b>Posting</b>, then <b>Advocacy (Y first)</b>. Then check: are your high-motivation employers with relevant postings in the Top 5? Would any employer ranked 6–8 displace one of your Top 5? Adjust until the Top 5 feels right. Large employers often have long lead times and deserve earlier contact; smaller employers hire more just-in-time <i>(Dalton, ch. 4)</i>. A process-track employer whose window is months away belongs in the calendar (Lesson 1.4), not in this month’s outreach.",
-        "id": "Urutkan berdasarkan <b>Motivasi</b>, lalu <b>Lowongan</b>, lalu <b>Advokasi (Y lebih dulu)</b>. Lalu periksa: apakah perusahaan bermotivasi tinggi dengan lowongan relevan ada di 5 Teratas? Apakah ada perusahaan peringkat 6–8 yang layak menggeser salah satu 5 Teratas? Sesuaikan sampai 5 Teratas terasa tepat. Perusahaan besar sering punya waktu tunggu panjang dan layak dihubungi lebih awal; perusahaan kecil merekrut lebih saat dibutuhkan <i>(Dalton, bab 4)</i>. Perusahaan jalur proses yang jendelanya masih berbulan-bulan lagi tempatnya di kalender (Pelajaran 1.4), bukan di penjangkauan bulan ini."
+        "id": "Urutkan berdasarkan <b>Motivasi</b>, lalu <b>Lowongan</b>, lalu <b>Advokasi (Y lebih dulu)</b>. Lalu periksa: apakah perusahaan dengan motivasi tinggi dan lowongan relevan sudah masuk 5 Teratas? Adakah perusahaan di peringkat 6–8 yang layak menggeser salah satu 5 Teratas? Sesuaikan sampai 5 Teratas terasa pas. Perusahaan besar sering punya waktu tunggu yang panjang dan layak dihubungi lebih awal; perusahaan kecil merekrut saat butuh <i>(Dalton, bab 4)</i>. Perusahaan jalur proses yang pendaftarannya masih berbulan-bulan lagi tempatnya di kalender (Pelajaran 1.4), bukan di penjajakan bulan ini."
        },
        "key": {
         "en": "Sort by motivation, then posting, then advocacy, verify the Top 5 by hand, and stop; the list is a queue, not a monument.",
-        "id": "Urutkan berdasarkan motivasi, lalu lowongan, lalu advokasi; periksa 5 Teratas dengan tangan, lalu berhenti. Daftar ini antrean, bukan monumen."
+        "id": "Urutkan berdasarkan motivasi, lalu lowongan, lalu advokasi; periksa 5 Teratas dengan tanganmu sendiri, lalu berhenti. Daftar ini antrean, bukan monumen."
        }
       },
       {
@@ -7529,11 +7527,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "On both tracks, an internship is the employer’s lowest-risk hiring channel, a ten-week or three-month interview <i>(Williams, Ultimate Job Search, ch. 13; Bolles, Parachute, ch. 2)</i>. If you are still studying, put internship programmes on the list. If you have graduated, look for graduate internships, fixed-term contract contracts and project roles at high-motivation employers: they are the top rung of the employer’s ladder from Lesson 1.1, and they belong in the LAMP list with their own M and P scores.",
-        "id": "Di kedua jalur, magang adalah saluran rekrutmen berisiko terendah bagi perusahaan, wawancara sepuluh minggu atau tiga bulan <i>(Williams, Ultimate Job Search, bab 13; Bolles, Parachute, bab 2)</i>. Jika kamu masih kuliah, masukkan program magang ke daftar. Jika sudah lulus, cari magang lulusan, kontrak PKWT, dan peran proyek di perusahaan bermotivasi tinggi: itulah anak tangga teratas tangga perusahaan dari Pelajaran 1.1, dan tempatnya di daftar LAMP dengan skor M dan P sendiri."
+        "id": "Di kedua jalur, magang adalah saluran rekrutmen yang paling kecil risikonya bagi perusahaan; ibarat wawancara sepuluh minggu atau tiga bulan <i>(Williams, Ultimate Job Search, bab 13; Bolles, Parachute, bab 2)</i>. Kalau kamu masih kuliah, masukkan program magang ke daftar. Kalau sudah lulus, cari magang untuk lulusan baru, kontrak PKWT, dan posisi proyek di perusahaan yang motivasimu tinggi: itulah anak tangga teratas di tangga perusahaan dari Pelajaran 1.1, dan tempatnya di daftar LAMP dengan skor M dan P sendiri."
        },
        "key": {
         "en": "An internship is the employer’s lowest-risk hiring channel, a three-month interview, so put programmes on the list.",
-        "id": "Magang adalah saluran rekrutmen paling rendah risiko bagi perusahaan, wawancara tiga bulan; masukkan program-programnya ke daftar."
+        "id": "Magang adalah saluran rekrutmen yang paling kecil risikonya bagi perusahaan, wawancara selama tiga bulan; masukkan program-programnya ke daftar."
        }
       }
      ],
@@ -7556,7 +7554,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "A: Y (2 alumni) · M: 3 · P: 3 (MT window opens in 6 weeks), Top 5",
-         "id": "A: Y (2 alumni) · M: 3 · P: 3 (jendela MT (management trainee, program pelatihan manajemen) dibuka 6 minggu lagi), 5 Teratas"
+         "id": "A: Y (2 alumni) · M: 3 · P: 3 (pendaftaran MT (management trainee, program pelatihan manajemen) dibuka 6 minggu lagi), 5 Teratas"
         }
        },
        {
@@ -7600,7 +7598,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "A: N · M: 2 · P: 2, Top 5, verify against row 6",
-         "id": "A: T · M: 2 · P: 2, 5 Teratas, verifikasi dengan baris 6"
+         "id": "A: T · M: 2 · P: 2, 5 Teratas, bandingkan dengan baris 6"
         }
        },
        {
@@ -7611,7 +7609,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "A: Y · M: 2 · P: 1; would it displace row 5? Advocacy says maybe.",
-         "id": "A: Y · M: 2 · P: 1, apakah layak menggeser baris 5? Advokasi bilang mungkin."
+         "id": "A: Y · M: 2 · P: 1; layak menggeser baris 5? Dari sisi advokasi, mungkin."
         }
        },
        {
@@ -7622,7 +7620,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "A: N · M: 2 · P: 1 (joint recruitment opens in 4 months), calendar, not outreach",
-         "id": "A: T · M: 2 · P: 1 (rekrutmen bersama dibuka 4 bulan lagi), kalender, bukan penjangkauan"
+         "id": "A: T · M: 2 · P: 1 (rekrutmen bersama dibuka 4 bulan lagi), masuk kalender, bukan penjajakan"
         }
        },
        {
@@ -7633,40 +7631,40 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "M: 1–2 · P: 1: the queue continues; re-score next month.",
-         "id": "M: 1–2 · P: 1: antrean berlanjut; nilai ulang bulan depan."
+         "id": "M: 1–2 · P: 1: antrean berlanjut; beri skor ulang bulan depan."
         }
        }
       ],
       "note": {
        "en": "The line under row 5 is “contact first”. Rows 6–40 are not discarded; they are the queue.",
-       "id": "Garis di bawah baris 5 adalah “hubungi lebih dulu”. Baris 6–40 tidak dibuang; itulah antreannya."
+       "id": "Garis di bawah baris 5 artinya “hubungi lebih dulu”. Baris 6–40 tidak dibuang; itulah antreannya."
       },
       "longdesc": {
        "en": "A ten-row LAMP list sorted by motivation, then posting, then advocacy. Rows one to five, marked Top 5, are PT Arunika, Bank Sinar Nusantara, KilatPay, Rumah Rempah and a national logistics group. Row six, a Semarang distributor with advocacy, is a candidate to displace row five. Row seven, PT Rel Nusantara, is a process-track employer whose window opens in four months and belongs in the calendar. Rows eight to ten continue the queue.",
-       "id": "Daftar LAMP sepuluh baris yang diurutkan berdasarkan motivasi, lalu lowongan, lalu advokasi. Baris satu sampai lima, ditandai 5 Teratas, adalah PT Arunika, Bank Sinar Nusantara, KilatPay, Rumah Rempah, dan sebuah grup logistik nasional. Baris enam, distributor Semarang dengan advokasi, adalah kandidat penggeser baris lima. Baris tujuh, PT Rel Nusantara, adalah perusahaan jalur proses yang jendelanya dibuka empat bulan lagi dan tempatnya di kalender. Baris delapan sampai sepuluh melanjutkan antrean."
+       "id": "Daftar LAMP sepuluh baris yang diurutkan berdasarkan motivasi, lalu lowongan, lalu advokasi. Baris satu sampai lima, ditandai 5 Teratas, adalah PT Arunika, Bank Sinar Nusantara, KilatPay, Rumah Rempah, dan sebuah grup logistik nasional. Baris enam, distributor di Semarang yang punya advokasi, adalah calon penggeser baris lima. Baris tujuh, PT Rel Nusantara, adalah perusahaan jalur proses yang pendaftarannya dibuka empat bulan lagi dan tempatnya di kalender. Baris delapan sampai sepuluh melanjutkan antrean."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Two ways to spend the first eight minutes",
-        "id": "Dua cara menghabiskan delapan menit pertama"
+        "id": "Dua cara memakai delapan menit pertama"
        },
        "q": {
         "en": "Method 3: “actively hiring”. Nadia opens JobStreet with her role keywords.",
-        "id": "Metode 3: “sedang merekrut”. Nadia membuka JobStreet dengan kata kunci perannya."
+        "id": "Cara 3: “sedang merekrut”. Nadia membuka JobStreet dengan kata kunci posisinya."
        },
        "weak": {
         "en": "Opens the first posting, reads the requirements, checks the company’s Instagram, wonders whether her GPA (grade point average) is enough, opens a second posting, compares salaries. Eight minutes: two names.",
-        "id": "Membuka lowongan pertama, membaca persyaratannya, memeriksa Instagram perusahaan, bertanya-tanya apakah IPK-nya cukup, membuka lowongan kedua, membandingkan gaji. Delapan menit: dua nama."
+        "id": "Membuka lowongan pertama, membaca syaratnya, mengecek Instagram perusahaan, bertanya-tanya apakah IPK-nya cukup, membuka lowongan kedua, membandingkan gaji. Delapan menit: dua nama."
        },
        "strong": {
         "en": "Scrolls the results page, copies employer names into the list, Arunika, a logistics group, two banks, a fintech, three distributors, an F&amp;B chain, and stops when the timer rings. Eight minutes: eleven names.",
-        "id": "Menggulir halaman hasil, menyalin nama perusahaan ke daftar, Arunika, sebuah grup logistik, dua bank, sebuah fintech, tiga distributor, sebuah jaringan F&amp;B, dan berhenti ketika pengatur waktu berbunyi. Delapan menit: sebelas nama."
+        "id": "Menggulir halaman hasil, menyalin nama-nama perusahaan ke daftar: Arunika, sebuah grup logistik, dua bank, sebuah fintech, tiga distributor, satu jaringan F&amp;B, lalu berhenti ketika pengatur waktu berbunyi. Delapan menit: sebelas nama."
        },
        "why": {
         "en": "Reading postings is research; LAMP’s list phase is collection. The postings will still be there in Lesson 2.3, for the Top 5 only.",
-        "id": "Membaca lowongan adalah riset; fase daftar LAMP adalah pengumpulan. Lowongannya masih akan ada di Pelajaran 2.3, hanya untuk 5 Teratas."
+        "id": "Membaca lowongan itu riset; tahap daftar di LAMP hanya mengumpulkan. Lowongannya masih akan ada di Pelajaran 2.3, dan hanya untuk 5 Teratas."
        }
       }
      ],
@@ -7674,16 +7672,16 @@ window.MT_LMS['the-pack'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: the list that stalled at twenty-two",
-       "id": "Sorotan: daftar yang terhenti di dua puluh dua"
+       "id": "Sorotan: daftar yang mandek di angka dua puluh dua"
       },
       "body": [
        {
         "en": "Nadia’s first attempt at the list stops at twenty-two employers after the dream and actively-hiring methods. She feels she has run out of companies. The alumni method changes that: her university’s LinkedIn page lists where management graduates from the last five years work, and her HIMA WhatsApp group has 300 members whose profiles she has never read as a list. Twenty minutes later she has fifty-one names, eleven of them with a Y for advocacy.",
-        "id": "Percobaan pertama Nadia membuat daftar berhenti di dua puluh dua perusahaan setelah metode impian dan sedang-merekrut. Ia merasa kehabisan perusahaan. Metode alumni mengubahnya: laman LinkedIn universitasnya mencantumkan tempat lulusan manajemen lima tahun terakhir bekerja, dan grup WhatsApp HIMA-nya punya 300 anggota yang profilnya belum pernah ia baca sebagai daftar. Dua puluh menit kemudian ia punya lima puluh satu nama, sebelas di antaranya dengan Y untuk advokasi."
+        "id": "Percobaan pertama Nadia membuat daftar berhenti di dua puluh dua perusahaan, setelah cara impian dan cara sedang-merekrut. Ia merasa kehabisan nama. Cara alumni mengubah semuanya: laman LinkedIn universitasnya menampilkan di mana lulusan manajemen lima tahun terakhir bekerja, dan grup WhatsApp HIMA-nya punya 300 anggota yang profilnya belum pernah ia baca sebagai satu daftar. Dua puluh menit kemudian, ia punya lima puluh satu nama, sebelas di antaranya dengan Y untuk advokasi."
        },
        {
         "en": "The programme-calendar method adds four more she had forgotten were programmes at all. A state-owned rail operator, a national bank, two multinationals with annual MT intakes. None of them is a “dream employer”. Two of them end up in her Top 5.",
-        "id": "Metode kalender program menambah empat lagi yang ia lupa adalah program sama sekali, operator kereta milik negara, bank nasional, dua multinasional dengan seleksi MT tahunan. Tidak satu pun “perusahaan impian”. Dua di antaranya berakhir di 5 Teratas-nya."
+        "id": "Cara kalender program menambah empat nama lagi yang bahkan ia lupa merupakan program: operator kereta milik negara, sebuah bank nasional, dua perusahaan multinasional dengan seleksi MT tahunan. Tidak satu pun “perusahaan impian”. Dua di antaranya justru masuk 5 Teratas-nya."
        }
       ]
      },
@@ -7691,57 +7689,57 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "The LAMP sprint: L: five methods, 8 minutes each",
-        "id": "Sprint LAMP: L: lima metode, 8 menit masing-masing"
+        "id": "Sprint LAMP: L, lima cara, 8 menit masing-masing"
        },
        "body": {
         "en": "Set a timer. Dream employers (8) · alumni employers (8) · actively hiring, names only (8) · trending (8) · programme calendars (8). Write every name in one column. Do not open a single posting.",
-        "id": "Pasang pengatur waktu. Perusahaan impian (8) · perusahaan alumni (8) · sedang merekrut, nama saja (8) · sedang tumbuh (8) · kalender program (8). Tulis setiap nama dalam satu kolom. Jangan buka satu pun lowongan."
+        "id": "Pasang pengatur waktu. Perusahaan impian (8) · perusahaan tempat alumni bekerja (8) · sedang merekrut, nama saja (8) · sedang naik daun (8) · kalender program (8). Tulis semua nama dalam satu kolom. Jangan buka satu pun lowongan."
        },
        "debrief": {
         "en": "Most learners stall around 25 after the first two methods; the alumni and programme-calendar methods usually push them past 40. If you are under 40, run the alumni method again with a different source: faculty, scholarship, region.",
-        "id": "Kebanyakan pembelajar terhenti sekitar 25 setelah dua metode pertama; metode alumni dan kalender program biasanya mendorong mereka melewati 40. Jika kamu di bawah 40, jalankan lagi metode alumni dengan sumber berbeda: fakultas, beasiswa, daerah."
+        "id": "Kebanyakan pembelajar mandek di sekitar 25 setelah dua cara pertama; cara alumni dan kalender program biasanya mendorong mereka melewati 40. Kalau kamu masih di bawah 40, ulangi cara alumni dengan sumber yang berbeda: fakultas, beasiswa, daerah."
        }
       },
       {
        "h": {
         "en": "A: Advocacy: 10 minutes",
-        "id": "A: Advokasi: 10 menit"
+        "id": "A: Advokasi, 10 menit"
        },
        "body": {
         "en": "For each name, Y or N: does someone like you, same campus, faculty, organisation, scholarship, region, work there? Use the LinkedIn alumni tool and your groups. Y/N only.",
-        "id": "Untuk setiap nama, Y atau T: apakah ada orang sepertimu, kampus, fakultas, organisasi, beasiswa, daerah yang sama, bekerja di sana? Pakai alat alumni LinkedIn dan grup-grupmu. Y/T saja."
+        "id": "Untuk setiap nama, Y atau T: adakah orang sepertimu (kampus, fakultas, organisasi, beasiswa, atau daerah yang sama) yang bekerja di sana? Pakai fitur alumni LinkedIn dan grup-grupmu. Cukup Y/T."
        },
        "debrief": {
         "en": "Resist looking up names or reading profiles; that is Lesson 2.3. If you have fewer than five Y’s, your alumni sources are under-used, add the IKA and faculty groups.",
-        "id": "Tahan diri untuk mencari nama atau membaca profil; itu Pelajaran 2.3. Jika kamu punya kurang dari lima Y, sumber alumnimu kurang dimanfaatkan, tambahkan grup IKA dan fakultas."
+        "id": "Tahan keinginan mencari nama atau membaca profil; itu urusan Pelajaran 2.3. Kalau Y-mu kurang dari lima, sumber alumnimu belum dimanfaatkan; tambahkan grup IKA dan fakultas."
        }
       },
       {
        "h": {
         "en": "M: Motivation: 5 minutes",
-        "id": "M: Motivasi: 5 menit"
+        "id": "M: Motivasi, 5 menit"
        },
        "body": {
         "en": "Score 0–3 from the gut, absorbing your real constraints (location, family). No research; if you do not know enough, that is a 0.",
-        "id": "Beri skor 0–3 dari naluri, dengan menyerap kendala nyatamu (lokasi, keluarga). Tanpa riset; jika kamu tidak cukup tahu, itu 0."
+        "id": "Beri skor 0–3 dari naluri, sambil menampung kendala nyatamu (lokasi, keluarga). Tanpa riset; kalau kamu belum cukup tahu, itu artinya 0."
        },
        "debrief": {
         "en": "If you are agonising, you are researching; stop and score. A 0 is honest information; it says “not this month”, not “never”.",
-        "id": "Jika kamu tersiksa memikirkannya, kamu sedang meriset; berhenti dan beri skor. Skor 0 adalah informasi jujur; artinya “bukan bulan ini”, bukan “tidak pernah”."
+        "id": "Kalau kamu sampai pusing memikirkannya, berarti kamu sedang meriset; berhenti, beri skor. Skor 0 adalah informasi yang jujur; artinya “bukan bulan ini”, bukan “tidak akan pernah”."
        }
       },
       {
        "h": {
         "en": "P: Posting: 15 minutes, then sort",
-        "id": "P: Lowongan: 15 menit, lalu urutkan"
+        "id": "P: Lowongan, 15 menit, lalu urutkan"
        },
        "body": {
         "en": "Search each employer with your role keywords; score 3 / 2 / 1. Copy scores, not links. Then sort M → P → A and draw the line under row 5.",
-        "id": "Cari setiap perusahaan dengan kata kunci peranmu; beri skor 3 / 2 / 1. Salin skor, bukan tautan. Lalu urutkan M → P → A dan tarik garis di bawah baris 5."
+        "id": "Cari setiap perusahaan dengan kata kunci posisimu; beri skor 3 / 2 / 1. Salin skornya, bukan tautannya. Lalu urutkan M → P → A dan tarik garis di bawah baris 5."
        },
        "debrief": {
         "en": "Verify: does the Top 5 contain your high-motivation employers with relevant postings? Would row 6 or 7 displace one? A process-track employer whose window is months away moves to the calendar. Export the Top 5 to the tracker; they are next week’s outreach.",
-        "id": "Verifikasi: apakah 5 Teratas memuat perusahaan bermotivasi tinggi dengan lowongan relevan? Apakah baris 6 atau 7 layak menggeser salah satunya? Perusahaan jalur proses yang jendelanya masih berbulan-bulan pindah ke kalender. Ekspor 5 Teratas ke pelacak, itulah penjangkauan minggu depan."
+        "id": "Periksa: apakah 5 Teratas memuat perusahaan dengan motivasi tinggi dan lowongan relevan? Adakah baris 6 atau 7 yang layak menggeser salah satunya? Perusahaan jalur proses yang pendaftarannya masih berbulan-bulan lagi pindah ke kalender. Ekspor 5 Teratas ke pelacak; merekalah penjajakan minggu depan."
        }
       }
      ],
@@ -7754,37 +7752,37 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Push to forty with alumni and programme-calendar methods.",
-         "id": "Dorong sampai empat puluh dengan metode alumni dan kalender program."
+         "id": "Dorong sampai empat puluh dengan cara alumni dan kalender program."
         }
        },
        {
         "h": {
          "en": "Researching while listing",
-         "id": "Meriset sambil mendaftar"
+         "id": "Meriset sambil membuat daftar"
         },
         "fix": {
          "en": "Separate the tasks; research only your Top 5, later.",
-         "id": "Pisahkan tugasnya; riset hanya 5 Teratas, nanti."
+         "id": "Pisahkan tugasnya; riset hanya untuk 5 Teratas, nanti."
         }
        },
        {
         "h": {
          "en": "Leaving the list static",
-         "id": "Membiarkan daftar tidak berubah"
+         "id": "Membiarkan daftar membeku"
         },
         "fix": {
          "en": "Re-score monthly; motivation changes as you learn.",
-         "id": "Nilai ulang bulanan; motivasi berubah seiring kamu belajar."
+         "id": "Beri skor ulang tiap bulan; motivasi berubah seiring kamu makin tahu."
         }
        },
        {
         "h": {
          "en": "Scoring motivation by prestige",
-         "id": "Menilai motivasi berdasarkan gengsi"
+         "id": "Memberi skor motivasi berdasarkan gengsi"
         },
         "fix": {
          "en": "Score by your gut and your real constraints; prestige is somebody else’s motivation.",
-         "id": "Nilai berdasarkan nalurimu dan kendala nyatamu; gengsi adalah motivasi orang lain."
+         "id": "Beri skor dari nalurimu dan kendala nyatamu; gengsi adalah motivasi orang lain."
         }
        }
       ]
@@ -7797,7 +7795,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Dalton’s list-building method: List, Advocacy, Motivation, Posting, built and scored in seventy minutes.",
-        "id": "Metode pembuatan daftar Dalton: List (daftar), Advocacy (advokasi), Motivation (motivasi), Posting (lowongan); dibangun dan dinilai dalam tujuh puluh menit."
+        "id": "Metode Dalton untuk membangun daftar: List (daftar), Advocacy (advokasi), Motivation (motivasi), Posting (lowongan); dibangun dan diberi skor dalam tujuh puluh menit."
        }
       },
       {
@@ -7807,7 +7805,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Y if someone like you, alumni, organisation, scholarship, region, works at the employer.",
-        "id": "Y jika ada orang sepertimu, alumni, organisasi, beasiswa, daerah, bekerja di perusahaan itu."
+        "id": "Y kalau ada orang sepertimu (alumni, organisasi, beasiswa, daerah) yang bekerja di perusahaan itu."
        }
       },
       {
@@ -7817,7 +7815,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A 0–3 gut score of your interest, absorbing real constraints, with no research.",
-        "id": "Skor naluri 0–3 atas minatmu, menyerap kendala nyata, tanpa riset."
+        "id": "Skor naluri 0–3 atas minatmu, dengan menampung kendala nyata, tanpa riset."
        }
       },
       {
@@ -7827,7 +7825,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A 1–3 score for the relevance of a current posting, a proxy for hiring activity.",
-        "id": "Skor 1–3 untuk relevansi lowongan saat ini, proksi aktivitas rekrutmen."
+        "id": "Skor 1–3 untuk relevansi lowongan saat ini; penanda kegiatan rekrutmen."
        }
       },
       {
@@ -7837,7 +7835,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Listing, researching and applying done at different times, never mixed.",
-        "id": "Mendaftar, meriset, dan melamar dilakukan pada waktu berbeda, tidak pernah dicampur."
+        "id": "Membuat daftar, meriset, dan melamar dilakukan pada waktu yang berbeda, tidak pernah dicampur."
        }
       },
       {
@@ -7847,7 +7845,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The first five rows after sorting, the employers you contact first.",
-        "id": "Lima baris pertama setelah pengurutan; perusahaan yang kamu hubungi lebih dulu."
+        "id": "Lima baris pertama setelah diurutkan; perusahaan yang kamu hubungi lebih dulu."
        }
       }
      ],
@@ -7864,11 +7862,11 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Motivation drives the persistence outreach needs, and predicts success better than a posting at one moment",
-         "id": "Motivasi mendorong ketekunan yang dibutuhkan penjangkauan, dan memprediksi keberhasilan lebih baik daripada lowongan pada satu saat"
+         "id": "Motivasi mendorong ketekunan yang dibutuhkan dalam penjajakan, dan meramalkan keberhasilan lebih baik daripada lowongan pada satu waktu tertentu"
         },
         {
          "en": "It is alphabetical",
-         "id": "Itu urutan abjad"
+         "id": "Supaya urut abjad"
         },
         {
          "en": "Postings are hard to find",
@@ -7878,7 +7876,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "A posting is a snapshot; motivation is what keeps you messaging a Booster three weeks later.",
-        "id": "Lowongan adalah potret sesaat; motivasi adalah yang membuatmu tetap mengirim pesan ke Booster tiga minggu kemudian."
+        "id": "Lowongan hanyalah potret sesaat; motivasilah yang membuatmu tetap mengirim pesan ke seorang Booster tiga minggu kemudian."
        }
       },
       {
@@ -7907,13 +7905,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Advocacy is whether someone like you is already inside, Y or N, no names yet.",
-        "id": "Advokasi adalah apakah ada orang sepertimu yang sudah di dalam; Y atau T, belum ada nama."
+        "id": "Advokasi adalah soal apakah ada orang sepertimu yang sudah di dalam; Y atau T, belum perlu nama."
        }
       },
       {
        "q": {
         "en": "Twenty minutes in, you are reading a company’s annual report. What does LAMP say?",
-        "id": "Dua puluh menit berjalan, kamu sedang membaca laporan tahunan sebuah perusahaan. Apa kata LAMP?"
+        "id": "Dua puluh menit berjalan, kamu malah membaca laporan tahunan sebuah perusahaan. Apa kata LAMP?"
        },
        "options": [
         {
@@ -7922,7 +7920,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Stop: that is research, not list-building; score from what you know",
-         "id": "Berhenti: itu riset, bukan pembuatan daftar; beri skor dari apa yang kamu tahu"
+         "id": "Berhenti: itu riset, bukan membuat daftar; beri skor dari apa yang sudah kamu tahu"
         },
         {
          "en": "Apply now",
@@ -7936,7 +7934,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Task separation is the discipline that keeps seventy minutes from becoming a week.",
-        "id": "Pemisahan tugas adalah disiplin yang menjaga tujuh puluh menit tidak menjadi seminggu."
+        "id": "Pemisahan tugas adalah disiplin yang menjaga tujuh puluh menit tidak berubah menjadi seminggu."
        }
       }
      ],
@@ -7949,7 +7947,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": {
        "en": "Add your Top 5 to the Pipeline Tracker with their track, source and A/M/P scores in the notes, and put every process-track window from the list in your calendar. The full forty stays in your LAMP sheet for monthly re-scoring, Dossier item 2.",
-       "id": "Tambahkan 5 Teratasmu ke Pelacak Alur dengan jalur, sumber, dan skor A/M/P di catatan, dan masukkan setiap jendela jalur proses dari daftar ke kalendermu. Empat puluh lengkap tetap di lembar LAMP-mu untuk penilaian ulang bulanan, butir Dossier 2."
+       "id": "Masukkan 5 Teratasmu ke Pelacak Alur dengan jalur, sumber, dan skor A/M/P di kolom catatan, dan masukkan setiap jadwal pendaftaran jalur proses dari daftarmu ke kalender. Keempat puluh nama tetap ada di lembar LAMP-mu untuk diberi skor ulang tiap bulan; itulah butir Dossier 2."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -7959,7 +7957,7 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Forty employers, scored in seventy minutes, turns an infinite search into an ordered queue.",
-       "id": "Empat puluh perusahaan, dinilai dalam tujuh puluh menit, mengubah pencarian tanpa batas menjadi antrean terurut."
+       "id": "Empat puluh perusahaan, diberi skor dalam tujuh puluh menit, mengubah pencarian tanpa batas menjadi antrean yang teratur."
       },
       {
        "en": "Sort by Motivation, then Posting, then Advocacy, and contact your Top 5 first.",
@@ -7967,7 +7965,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Keep listing, researching and applying as separate tasks.",
-       "id": "Jaga mendaftar, meriset, dan melamar sebagai tugas terpisah."
+       "id": "Jaga agar membuat daftar, meriset, dan melamar tetap menjadi tugas yang terpisah."
       }
      ],
      "resources": {
@@ -7993,15 +7991,15 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "S. Dalton, <i>The 2-Hour Job Search</i> (2nd ed., 2020), ch. 1–4; LAMP: list, advocacy, motivation, posting; sorting; lead times.",
-          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 1–4, LAMP: daftar, advokasi, motivasi, lowongan; pengurutan; waktu tunggu."
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 1–4; LAMP: daftar, advokasi, motivasi, lowongan; pengurutan; waktu tunggu."
          },
          {
           "en": "L. Williams, <i>Ultimate Job Search</i>, ch. 13, internships as the lowest-risk channel.",
-          "id": "L. Williams, <i>Ultimate Job Search</i>, bab 13, magang sebagai saluran berisiko terendah."
+          "id": "L. Williams, <i>Ultimate Job Search</i>, bab 13; magang sebagai saluran dengan risiko terendah."
          },
          {
           "en": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (2008 ed.), ch. 2, getting inside first.",
-          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (ed. 2008), bab 2, masuk lebih dulu."
+          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (ed. 2008), bab 2; masuk lebih dulu."
          }
         ]
        },
@@ -8018,7 +8016,7 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "Employer · A (Y/N) · M (0–3) · P (1–3) · track (process/network) · window or posting date · notes",
-          "id": "Perusahaan · A (Y/T) · M (0–3) · P (1–3) · jalur (proses/jejaring) · jendela atau tanggal lowongan · catatan"
+          "id": "Perusahaan · A (Y/T) · M (0–3) · P (1–3) · jalur (proses/jejaring) · jadwal pendaftaran atau tanggal lowongan · catatan"
          },
          {
           "en": "Timer: L 5 × 8 min → A 10 min → M 5 min → P 15 min → sort M → P → A → line under row 5",
@@ -8026,7 +8024,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Monthly: re-score M and P; move new Top 5 rows to the tracker",
-          "id": "Bulanan: nilai ulang M dan P; pindahkan baris 5 Teratas baru ke pelacak"
+          "id": "Tiap bulan: beri skor ulang M dan P; pindahkan baris 5 Teratas yang baru ke pelacak"
          }
         ]
        }
@@ -8043,28 +8041,28 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "Finding People and Writing the First Message",
-      "id": "Menemukan Orang &amp; Menulis Pesan Pertama"
+      "id": "Menemukan Orang dan Menulis Pesan Pertama"
      },
      "overview": {
       "en": "Messaging a stranger is the step most learners avoid. This lesson makes it smaller: two carefully chosen people per employer, a message of under 75 words, a clear follow-up rule, and a way of reading non-replies that takes the sting out of them.",
-      "id": "Mengirim pesan ke orang asing adalah langkah yang paling dihindari pembelajar. Pelajaran ini membuatnya lebih kecil: dua orang yang dipilih cermat per perusahaan, pesan di bawah 75 kata, aturan tindak lanjut yang jelas, dan cara membaca pesan yang tak dibalas yang menghilangkan perihnya."
+      "id": "Mengirim pesan ke orang yang belum dikenal adalah langkah yang paling sering dihindari. Pelajaran ini membuatnya terasa lebih kecil: dua orang yang dipilih dengan cermat di tiap perusahaan, pesan di bawah 75 kata, aturan tindak lanjut yang jelas, dan cara membaca pesan yang tak dibalas tanpa merasa sakit hati."
      },
      "objectives": [
       {
        "en": "Choose two starter contacts per Top 5 employer using five ranking traits.",
-       "id": "Memilih dua kontak awal per perusahaan 5 Teratas dengan lima ciri pemeringkatan."
+       "id": "Memilih dua kontak awal di tiap perusahaan 5 Teratas dengan lima ciri penentu."
       },
       {
        "en": "Write a 6-point outreach message in English and in your local language.",
-       "id": "Menulis pesan penjangkauan 6 poin dalam Bahasa Indonesia dan Inggris."
+       "id": "Menulis pesan penjajakan enam poin dalam bahasa Indonesia dan Inggris."
       },
       {
        "en": "Apply the 3B7 follow-up routine, adjusted for local holidays.",
-       "id": "Menerapkan rutinitas tindak lanjut 3B7, disesuaikan dengan hari libur lokal."
+       "id": "Menerapkan rutinitas tindak lanjut 3B7, disesuaikan dengan hari libur di Indonesia."
       },
       {
        "en": "Classify responders as Boosters, Obligates or Curmudgeons, without taking it personally.",
-       "id": "Menggolongkan pembalas sebagai Booster, Obligate, atau Curmudgeon, tanpa mengambilnya secara pribadi."
+       "id": "Menggolongkan orang yang kamu hubungi sebagai Booster, Obligate, atau Curmudgeon, tanpa menganggapnya soal pribadi."
       }
      ],
      "readFirst": {
@@ -8072,7 +8070,7 @@ window.MT_LMS['the-pack'] = {
        "bg": "../../assets/bg/alumni.jpg",
        "module": {
         "en": "Module 2 · Targets, Networks & the Hidden Gate",
-        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+        "id": "Modul 2 · Sasaran, Jejaring & Gerbang Tersembunyi"
        },
        "lesson": {
         "n": "2.3",
@@ -8084,15 +8082,15 @@ window.MT_LMS['the-pack'] = {
        "story": [
         {
          "en": "Two people per Top 5 employer, ranked by five traits; alumni two to five years ahead beat senior managers",
-         "id": "Dua orang per perusahaan 5 Teratas, diperingkat dengan lima ciri; alumni dua sampai lima tahun di depan mengalahkan manajer senior"
+         "id": "Dua orang di tiap perusahaan 5 Teratas, diurutkan berdasarkan lima ciri; alumni dua sampai lima tahun di atasmu mengalahkan manajer senior"
         },
         {
          "en": "Under seventy-five words, with the Indonesian courtesies budgeted inside them",
-         "id": "Di bawah tujuh puluh lima kata, dengan kesantunan Indonesia dianggarkan di dalamnya"
+         "id": "Di bawah tujuh puluh lima kata, dengan tata krama ala Indonesia yang sudah dihitung di dalamnya"
         },
         {
          "en": "3B7: day 3, contact B; day 7, one follow-up, then stop; most silence is a Curmudgeon or a busy week",
-         "id": "3B7: hari ke-3, kontak B; hari ke-7, satu tindak lanjut, lalu berhenti; kebanyakan keheningan adalah Curmudgeon atau minggu sibuk"
+         "id": "3B7: hari ke-3, kontak B; hari ke-7, satu tindak lanjut, lalu berhenti; kebanyakan yang tak membalas adalah Curmudgeon atau sedang sibuk"
         }
        ],
        "takes": [
@@ -8103,7 +8101,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Contact A first; contact B only if A has not replied by business day 3.",
-          "id": "Kontak A dulu; kontak B hanya jika A belum membalas sampai hari kerja ke-3."
+          "id": "Kontak A dulu; kontak B hanya kalau A belum membalas sampai hari kerja ke-3."
          }
         },
         {
@@ -8113,17 +8111,17 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Never mass-message an alumni group with the same request; it is read as harvesting, not networking.",
-          "id": "Jangan pernah mengirim pesan massal ke grup alumni dengan permintaan yang sama; itu terbaca sebagai memanen, bukan berjejaring."
+          "id": "Jangan pernah mengirim permintaan yang sama secara massal ke grup alumni; itu terbaca sebagai memanen kontak, bukan berjejaring."
          }
         },
         {
          "h": {
           "en": "When, and what silence means",
-          "id": "Kapan, dan apa arti keheningan"
+          "id": "Kapan, dan apa arti pesan yang tak dibalas"
          },
          "p": {
           "en": "A single Booster inside an employer is worth more than the whole alumni list.",
-          "id": "Satu Booster di dalam perusahaan bernilai lebih dari seluruh daftar alumni."
+          "id": "Satu Booster di dalam sebuah perusahaan bernilai lebih dari seluruh daftar alumni."
          }
         }
        ],
@@ -8132,14 +8130,14 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Two people per Top 5 employer, ranked by five traits; alumni two to five years ahead beat senior managers",
-          "id": "Dua orang per perusahaan 5 Teratas, diperingkat dengan lima ciri; alumni dua sampai lima tahun di depan mengalahkan manajer senior"
+          "id": "Dua orang di tiap perusahaan 5 Teratas, diurutkan berdasarkan lima ciri; alumni dua sampai lima tahun di atasmu mengalahkan manajer senior"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "briefcase",
            "en": "Relevant work",
-           "id": "Pekerjaan relevan",
+           "id": "Pekerjaannya relevan",
            "d": {
             "en": "They do, or recently did, the kind of work you are targeting.",
             "id": "Mereka mengerjakan, atau baru saja mengerjakan, jenis pekerjaan yang kamu bidik."
@@ -8149,10 +8147,10 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "cap",
            "en": "Shared affinity",
-           "id": "Kesamaan afinitas",
+           "id": "Ada kesamaan",
            "d": {
             "en": "Same campus, faculty, organisation, scholarship or region: the connection you state first.",
-            "id": "Kampus, fakultas, organisasi, beasiswa, atau daerah yang sama: koneksi yang kamu sebut pertama."
+            "id": "Kampus, fakultas, organisasi, beasiswa, atau daerah yang sama: koneksi yang kamu sebut paling awal."
            },
            "img": "../../assets/bg/alumni.jpg"
           },
@@ -8162,14 +8160,14 @@ window.MT_LMS['the-pack'] = {
            "id": "Satu–dua tingkat di atas pemula",
            "d": {
             "en": "Close enough to remember the entry process, senior enough to know how it works.",
-            "id": "Cukup dekat untuk mengingat proses masuk, cukup senior untuk tahu cara kerjanya."
+            "id": "Cukup dekat untuk masih ingat proses masuknya, cukup senior untuk tahu cara kerjanya."
            },
            "img": "../../assets/bg/mature-professional.jpg"
           },
           {
            "icon": "arrow",
            "en": "Promoted internally",
-           "id": "Dipromosikan dari dalam",
+           "id": "Naik dari dalam",
            "d": {
             "en": "They know how people move inside; they have been through the hidden gate.",
             "id": "Mereka tahu bagaimana orang bergerak di dalam; mereka sudah melewati gerbang tersembunyi."
@@ -8179,10 +8177,10 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "search",
            "en": "Findable",
-           "id": "Bisa ditemukan",
+           "id": "Mudah dihubungi",
            "d": {
             "en": "A profile, an email pattern, a mutual contact who can introduce you.",
-            "id": "Profil, pola surel, kenalan bersama yang bisa memperkenalkanmu."
+            "id": "Profil, pola alamat email, kenalan bersama yang bisa memperkenalkanmu."
            },
            "img": "../../assets/pe/ps-positioning.jpg"
           }
@@ -8193,18 +8191,18 @@ window.MT_LMS['the-pack'] = {
          },
          "band": {
           "en": "Contact A first; contact B only if A has not replied by business day 3.",
-          "id": "Kontak A dulu; kontak B hanya jika A belum membalas sampai hari kerja ke-3."
+          "id": "Kontak A dulu; kontak B hanya kalau A belum membalas sampai hari kerja ke-3."
          },
          "em": {
           "en": "ranked by five traits",
-          "id": "diperingkat dengan lima ciri"
+          "id": "diurutkan berdasarkan lima ciri"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Under seventy-five words, with the Indonesian courtesies budgeted inside them",
-          "id": "Di bawah tujuh puluh lima kata, dengan kesantunan Indonesia dianggarkan di dalamnya"
+          "id": "Di bawah tujuh puluh lima kata, dengan tata krama ala Indonesia yang sudah dihitung di dalamnya"
          },
          "layout": "grid",
          "items": [
@@ -8214,43 +8212,43 @@ window.MT_LMS['the-pack'] = {
            "id": "Koneksi lebih dulu",
            "d": {
             "en": "Same campus, organisation, or a post they wrote; it answers “why me?” before they ask it.",
-            "id": "Kampus, organisasi yang sama, atau unggahan yang mereka tulis; menjawab “mengapa saya?” sebelum ditanya."
+            "id": "Kampus atau organisasi yang sama, atau unggahan yang mereka tulis; menjawab “kenapa saya?” sebelum mereka bertanya."
            }
           },
           {
            "icon": "question",
            "en": "A question",
-           "id": "Sebuah pertanyaan",
+           "id": "Satu pertanyaan",
            "d": {
             "en": "A question invites an answer; a statement invites nothing.",
-            "id": "Pertanyaan mengundang jawaban; pernyataan tidak mengundang apa pun."
+            "id": "Pertanyaan mengundang jawaban; pernyataan tidak mengundang apa-apa."
            }
           },
           {
            "icon": "hand",
            "en": "Advice, never a job",
-           "id": "Saran, bukan pekerjaan",
+           "id": "Saran, jangan pernah pekerjaan",
            "d": {
             "en": "Small favours get yeses; job and referral requests get silence.",
-            "id": "Bantuan kecil mendapat ya; permintaan pekerjaan dan rujukan mendapat keheningan."
+            "id": "Bantuan kecil dijawab “ya”; permintaan pekerjaan dan rekomendasi dijawab dengan diam."
            }
           },
           {
            "icon": "target",
            "en": "Narrow and broad",
-           "id": "Sempit dan luas",
+           "id": "Sempit sekaligus luas",
            "d": {
             "en": "This employer, and employers like it: a target without a demand.",
-            "id": "Perusahaan ini, dan perusahaan sepertinya: sasaran tanpa tuntutan."
+            "id": "Perusahaan ini, dan perusahaan serupa: sasaran tanpa tuntutan."
            }
           },
           {
            "icon": "heart",
            "en": "The courtesies",
-           "id": "Kesantunan",
+           "id": "Tata krama",
            "d": {
             "en": "“Perkenalkan saya…, mohon maaf mengganggu waktunya”: not optional, not padding. Kak for near-peers, Bapak/Ibu for seniors.",
-            "id": "“Perkenalkan saya…, mohon maaf mengganggu waktunya”: bukan pilihan, bukan pengisi. Kak untuk yang hampir sebaya, Bapak/Ibu untuk senior."
+            "id": "“Perkenalkan, saya…, mohon maaf mengganggu waktunya”: bukan pilihan, bukan pengisi. Kak untuk yang hampir seangkatan, Bapak/Ibu untuk senior."
            }
           },
           {
@@ -8259,28 +8257,28 @@ window.MT_LMS['the-pack'] = {
            "id": "Salurannya",
            "d": {
             "en": "LinkedIn or email for first contact; WhatsApp only if the number was shared for this purpose; office hours, never iftar.",
-            "id": "LinkedIn atau surel untuk kontak pertama; WhatsApp hanya jika nomornya dibagikan untuk tujuan ini; jam kerja, jangan saat berbuka."
+            "id": "LinkedIn atau email untuk kontak pertama; WhatsApp hanya kalau nomornya memang dibagikan untuk itu; di jam kerja, jangan saat berbuka."
            }
           }
          ],
          "sub": {
           "en": "Readable on one phone screen without scrolling; more than half the words about them.",
-          "id": "Terbaca di satu layar ponsel tanpa menggulir; lebih dari separuh kata tentang mereka."
+          "id": "Terbaca di satu layar ponsel tanpa perlu menggulir; lebih dari separuh kata tentang mereka."
          },
          "band": {
           "en": "Never mass-message an alumni group with the same request; it is read as harvesting, not networking.",
-          "id": "Jangan pernah mengirim pesan massal ke grup alumni dengan permintaan yang sama; itu terbaca sebagai memanen, bukan berjejaring."
+          "id": "Jangan pernah mengirim permintaan yang sama secara massal ke grup alumni; itu terbaca sebagai memanen kontak, bukan berjejaring."
          },
          "em": {
           "en": "budgeted inside them",
-          "id": "dianggarkan di dalamnya"
+          "id": "sudah dihitung di dalamnya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "3B7: day 3, contact B; day 7, one follow-up, then stop; most silence is a Curmudgeon or a busy week",
-          "id": "3B7: hari ke-3, kontak B; hari ke-7, satu tindak lanjut, lalu berhenti; kebanyakan keheningan adalah Curmudgeon atau minggu sibuk"
+          "id": "3B7: hari ke-3, kontak B; hari ke-7, satu tindak lanjut, lalu berhenti; kebanyakan yang tak membalas adalah Curmudgeon atau sedang sibuk"
          },
          "layout": "grid",
          "items": [
@@ -8290,7 +8288,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Booster",
            "d": {
             "en": "Replies within days; offers specific times or a specific person. Reply within 24 hours; prepare with Lesson 2.4; report back afterwards.",
-            "id": "Membalas dalam hitungan hari; menawarkan waktu atau orang tertentu. Balas dalam 24 jam; siapkan dengan Pelajaran 2.4; laporkan sesudahnya."
+            "id": "Membalas dalam hitungan hari; menawarkan waktu atau orang tertentu. Balas dalam 24 jam; siapkan diri dengan Pelajaran 2.4; laporkan hasilnya sesudahnya."
            }
           },
           {
@@ -8299,7 +8297,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Obligate",
            "d": {
             "en": "Slow; reschedules; “send me your CV and I’ll forward it”. Thank them; ask once whether a short conversation is possible; otherwise move on politely.",
-            "id": "Lambat; menjadwal ulang; “kirim CV-mu, nanti saya teruskan”. Berterima kasih; tanyakan sekali apakah percakapan singkat mungkin; jika tidak, lanjut dengan sopan."
+            "id": "Lambat; minta jadwal ulang; “kirim CV-nya, nanti saya teruskan”. Ucapkan terima kasih; tanyakan sekali apakah obrolan singkat memungkinkan; kalau tidak, lanjut dengan sopan."
            }
           },
           {
@@ -8308,17 +8306,17 @@ window.MT_LMS['the-pack'] = {
            "id": "Curmudgeon",
            "d": {
             "en": "No reply by day 7, even after one follow-up. Nothing: contact B has already been messaged; the tracker moves on.",
-            "id": "Tak ada balasan sampai hari ke-7, bahkan setelah satu tindak lanjut. Tidak ada: kontak B sudah dihubungi; pelacak bergerak."
+            "id": "Tidak ada balasan sampai hari ke-7, bahkan setelah satu tindak lanjut. Tidak perlu apa-apa: kontak B sudah dihubungi; pelacak bergerak maju."
            }
           }
          ],
          "sub": {
           "en": "Roughly a fifth to two-fifths of messages get an answer; plan for three messages per conversation, not one.",
-          "id": "Kira-kira seperlima sampai dua perlima pesan mendapat jawaban; rencanakan tiga pesan per percakapan, bukan satu."
+          "id": "Kira-kira seperlima sampai dua perlima pesan mendapat jawaban; rencanakan tiga pesan untuk tiap satu obrolan, bukan satu."
          },
          "band": {
           "en": "A single Booster inside an employer is worth more than the whole alumni list.",
-          "id": "Satu Booster di dalam perusahaan bernilai lebih dari seluruh daftar alumni."
+          "id": "Satu Booster di dalam sebuah perusahaan bernilai lebih dari seluruh daftar alumni."
          },
          "em": {
           "en": "then stop",
@@ -8341,7 +8339,7 @@ window.MT_LMS['the-pack'] = {
       },
       "intro": {
        "en": "Outreach fails when it is big and vague. This lesson makes it small and exact: who, what to say, when to follow up, and how to read silence.",
-       "id": "Penjangkauan gagal ketika besar dan samar. Pelajaran ini membuatnya kecil dan tepat: siapa, apa yang dikatakan, kapan menindaklanjuti, dan cara membaca keheningan."
+       "id": "Penjajakan gagal kalau terlalu besar dan terlalu samar. Pelajaran ini membuatnya kecil dan tepat: siapa yang dihubungi, apa yang ditulis, kapan menindaklanjuti, dan cara membaca pesan yang tak dibalas."
       },
       "slides": [
        {
@@ -8352,11 +8350,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Two people per Top 5 employer, ranked by five traits: relevant work, shared affinity, one or two levels above entry, promoted internally, findable.",
-          "id": "Dua orang per perusahaan 5 Teratas, diurutkan berdasarkan lima ciri: pekerjaan relevan, kesamaan afinitas, satu–dua tingkat di atas pemula, dipromosikan dari dalam, bisa ditemukan."
+          "id": "Dua orang di tiap perusahaan 5 Teratas, diurutkan berdasarkan lima ciri: pekerjaannya relevan, ada kesamaan, satu–dua tingkat di atas pemula, naik dari dalam, mudah dihubungi."
          },
          {
           "en": "For graduates the best starters are usually alumni two to five years ahead, not senior managers.",
-          "id": "Bagi lulusan kontak awal terbaik biasanya alumni dua sampai lima tahun di depan, bukan manajer senior."
+          "id": "Untuk lulusan baru, kontak awal terbaik biasanya alumni dua sampai lima tahun di atasmu, bukan manajer senior."
          }
         ]
        },
@@ -8368,27 +8366,27 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Under 75 words. Connection first. A question. Advice, never a job. Narrow and broad. More than half the words about them.",
-          "id": "Di bawah 75 kata. Koneksi lebih dulu. Sebuah pertanyaan. Saran, bukan pekerjaan. Sempit dan luas. Lebih dari separuh kata tentang mereka."
+          "id": "Di bawah 75 kata. Koneksi lebih dulu. Satu pertanyaan. Minta saran, bukan pekerjaan. Sempit sekaligus luas. Lebih dari separuh kata tentang mereka."
          },
          {
           "en": "Budget the courtesies your culture expects, a one-line introduction, <i>mohon maaf mengganggu</i>, inside the 75.",
-          "id": "Anggarkan kesantunan Indonesia, perkenalan satu baris, <i>mohon maaf mengganggu</i>, di dalam 75 kata itu."
+          "id": "Sisakan tempat untuk tata krama yang lazim di Indonesia, perkenalan satu baris dan <i>mohon maaf mengganggu</i>, di dalam jatah 75 kata itu."
          }
         ]
        },
        {
         "h": {
          "en": "When, and what silence means",
-         "id": "Kapan, dan apa arti keheningan"
+         "id": "Kapan, dan apa arti pesan yang tak dibalas"
         },
         "points": [
          {
           "en": "3B7: no reply by business day 3 → contact B; no reply by day 7 → one follow-up, then stop.",
-          "id": "3B7: tidak dibalas sampai hari kerja ke-3 → kontak B; tidak dibalas sampai hari ke-7 → satu tindak lanjut, lalu berhenti."
+          "id": "3B7: belum dibalas sampai hari kerja ke-3 → hubungi kontak B; belum dibalas sampai hari ke-7 → satu tindak lanjut, lalu berhenti."
          },
          {
           "en": "Boosters reply fast and help specifically. Obligates reply slowly and offer little. Curmudgeons never reply. Roughly a fifth to two-fifths of messages get an answer.",
-          "id": "Booster membalas cepat dan membantu secara spesifik. Obligate membalas lambat dan menawarkan sedikit. Curmudgeon tidak pernah membalas. Sekitar seperlima sampai dua perlima pesan mendapat jawaban."
+          "id": "Booster membalas cepat dan membantu dengan hal yang konkret. Obligate membalas lambat dan tidak menawarkan banyak. Curmudgeon tidak pernah membalas. Kira-kira seperlima sampai dua perlima pesan mendapat jawaban."
          }
         ]
        }
@@ -8405,54 +8403,54 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "For each Top 5 employer, find two people, ranked by five traits <i>(Dalton, The 2-Hour Job Search, ch. 5)</i>:",
-        "id": "Untuk setiap perusahaan 5 Teratas, temukan dua orang, diurutkan berdasarkan lima ciri <i>(Dalton, The 2-Hour Job Search, bab 5)</i>:"
+        "id": "Untuk tiap perusahaan 5 Teratas, temukan dua orang, diurutkan berdasarkan lima ciri <i>(Dalton, The 2-Hour Job Search, bab 5)</i>:"
        },
        "bullets": [
         {
          "en": "<b>Functionally relevant</b>: they do, or manage, the kind of work you want.",
-         "id": "<b>Relevan secara fungsi</b>: mereka mengerjakan, atau mengelola, jenis pekerjaan yang kamu inginkan."
+         "id": "<b>Pekerjaannya relevan</b>: mereka mengerjakan, atau mengelola, jenis pekerjaan yang kamu incar."
         },
         {
          "en": "<b>Shared affinity</b>: same campus, faculty, organisation, scholarship or region.",
-         "id": "<b>Kesamaan afinitas</b>: kampus, fakultas, organisasi, beasiswa, atau daerah yang sama."
+         "id": "<b>Ada kesamaan</b>: kampus, fakultas, organisasi, beasiswa, atau daerah asal yang sama."
         },
         {
          "en": "<b>One or two levels above entry</b>: senior enough to know, junior enough to reply.",
-         "id": "<b>Satu atau dua tingkat di atas pemula</b>: cukup senior untuk tahu, cukup junior untuk membalas."
+         "id": "<b>Satu atau dua tingkat di atas pemula</b>: cukup senior untuk tahu, cukup junior untuk mau membalas."
         },
         {
          "en": "<b>Promoted internally</b>: they understand how the organisation actually works.",
-         "id": "<b>Dipromosikan dari dalam</b>: mereka paham cara organisasi itu benar-benar bekerja."
+         "id": "<b>Naik dari dalam</b>: mereka paham bagaimana organisasi itu benar-benar bekerja."
         },
         {
          "en": "<b>Practical</b>: findable contact details: a LinkedIn profile that accepts messages, a company email pattern, a mutual contact.",
-         "id": "<b>Praktis</b>: detail kontak yang bisa ditemukan: profil LinkedIn yang menerima pesan, pola email perusahaan, kontak bersama."
+         "id": "<b>Praktis</b>: kontaknya bisa ditemukan: profil LinkedIn yang menerima pesan, pola alamat email perusahaan, atau kenalan bersama."
         }
        ],
        "after": [
         {
          "en": "In most markets, and Indonesia is a clear example, the best starter contacts for graduates are usually alumni two to five years ahead, an MT (management trainee) who finished the rotation last year, an officer programme graduate now in a branch, an associate who joined from your faculty. Senior managers may feel obliged but distant; they are the second conversation, reached through the first. Nadia’s shared alumni spreadsheet gives her exactly this: Rina, MT class of 2023 at Arunika, and Mr Hendra, officer programme 2019 at Bank Sinar Nusantara.",
-         "id": "Di Indonesia, kontak awal terbaik bagi lulusan biasanya alumni dua sampai lima tahun di depan, MT (management trainee, program pelatihan manajemen) yang menyelesaikan rotasi tahun lalu, lulusan ODP yang kini di cabang, associate yang masuk dari fakultasmu. Manajer senior mungkin merasa wajib tetapi berjarak; mereka percakapan kedua, dicapai lewat yang pertama. Lembar alumni bersama Nadia memberinya persis ini: Kak Rina, MT angkatan 2023 di Arunika, dan Pak Hendra, ODP 2019 di Bank Sinar Nusantara."
+         "id": "Di kebanyakan pasar kerja, dan Indonesia contoh yang jelas, kontak awal terbaik bagi lulusan baru biasanya alumni dua sampai lima tahun di atasmu: MT (management trainee, program pelatihan manajemen) yang baru menyelesaikan rotasi tahun lalu, lulusan ODP yang kini bertugas di cabang, atau associate yang masuk dari fakultasmu. Manajer senior mungkin merasa berkewajiban membantu, tetapi berjarak; mereka adalah obrolan kedua, yang kamu capai lewat obrolan pertama. Lembar alumni bersama milik Nadia memberinya persis ini: Kak Rina, MT angkatan 2023 di Arunika, dan Pak Hendra, ODP 2019 di Bank Sinar Nusantara."
         }
        ],
        "key": {
         "en": "Two people per Top 5 employer, ranked by five traits; alumni two to five years ahead are usually the best first contacts.",
-        "id": "Dua orang per perusahaan 5 Teratas, diurutkan berdasarkan lima ciri; alumni dua sampai lima tahun di atasmu biasanya kontak pertama terbaik."
+        "id": "Dua orang di tiap perusahaan 5 Teratas, diurutkan berdasarkan lima ciri; alumni dua sampai lima tahun di atasmu biasanya kontak pertama terbaik."
        }
       },
       {
        "icon": "book",
        "h": {
         "en": "Why small favours work",
-        "id": "Mengapa bantuan kecil berhasil"
+        "id": "Mengapa bantuan kecil lebih mudah dikabulkan"
        },
        "body": {
         "en": "Dalton draws on behavioural research showing people are more willing to help for <i>social</i> reasons, a small favour, asked pleasantly, than for a small <i>transactional</i> reason <i>(Dalton, ch. 6)</i>. So your message asks for <b>advice and insight</b>, not a job, and it asks for very little time. That framing also self-selects: the people who reply to “could I ask your advice for fifteen minutes?” are the people who genuinely like helping, exactly the ones you want to find. A message that asks for a referral does the opposite: it asks a stranger to spend their reputation on someone they have never met, and the only comfortable reply is no reply.",
-        "id": "Dalton mengacu pada riset perilaku yang menunjukkan orang lebih bersedia membantu karena alasan <i>sosial</i>, bantuan kecil, diminta dengan santun, daripada karena alasan <i>transaksional</i> kecil <i>(Dalton, bab 6)</i>. Maka pesanmu meminta <b>saran dan wawasan</b>, bukan pekerjaan, dan meminta waktu yang sangat sedikit. Pembingkaian itu juga menyaring sendiri: orang yang membalas “bolehkah saya minta saran Kakak lima belas menit?” adalah orang yang memang suka membantu. Persis yang ingin kamu temukan. Pesan yang meminta referensi melakukan sebaliknya: meminta orang asing mempertaruhkan reputasinya untuk seseorang yang belum pernah ditemuinya, dan satu-satunya balasan yang nyaman adalah tidak membalas."
+        "id": "Dalton mengacu pada riset perilaku yang menunjukkan bahwa orang lebih rela membantu karena alasan <i>sosial</i>, bantuan kecil yang diminta dengan sopan, daripada karena alasan <i>transaksional</i> <i>(Dalton, bab 6)</i>. Karena itu pesanmu meminta <b>saran dan wawasan</b>, bukan pekerjaan, dan hanya meminta sedikit waktu. Cara ini sekaligus menyaring: orang yang membalas “boleh saya minta saran Kakak lima belas menit?” adalah orang yang memang senang membantu, persis orang yang ingin kamu temukan. Pesan yang meminta referensi justru sebaliknya: kamu meminta orang asing mempertaruhkan reputasinya untuk seseorang yang belum pernah ia temui, dan satu-satunya jawaban yang nyaman baginya adalah tidak membalas."
        },
        "key": {
         "en": "People help more readily for a small social favour than for a transaction, so ask for advice and very little time, never a job.",
-        "id": "Orang lebih mudah membantu untuk bantuan kecil yang bersifat sosial daripada untuk transaksi; mintalah saran dan sedikit waktu, jangan pernah pekerjaan."
+        "id": "Orang lebih mudah membantu untuk bantuan kecil yang sifatnya sosial daripada untuk transaksi; mintalah saran dan sedikit waktu, jangan pernah meminta pekerjaan."
        }
       },
       {
@@ -8477,7 +8475,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Why it works",
-          "id": "Mengapa berhasil"
+          "id": "Mengapa ampuh"
          }
         ],
         "rows": [
@@ -8492,7 +8490,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Readable on one phone screen without scrolling.",
-           "id": "Terbaca di satu layar ponsel tanpa menggulir."
+           "id": "Terbaca di satu layar ponsel tanpa perlu menggulir."
           }
          ],
          [
@@ -8502,11 +8500,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Insight and advice</b>: never a job or a referral",
-           "id": "<b>Wawasan dan saran</b>: bukan pekerjaan atau referensi"
+           "id": "<b>Wawasan dan saran</b>: jangan pernah pekerjaan atau referensi"
           },
           {
            "en": "Small favours get yeses; job requests get silence.",
-           "id": "Bantuan kecil mendapat ya; permintaan pekerjaan mendapat keheningan."
+           "id": "Bantuan kecil dijawab “ya”; permintaan pekerjaan dijawab dengan diam."
           }
          ],
          [
@@ -8516,11 +8514,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "State it <b>first</b>: same campus, organisation, a post they wrote",
-           "id": "Sebutkan <b>lebih dulu</b>: kampus yang sama, organisasi, postingan yang mereka tulis"
+           "id": "Sebutkan <b>lebih dulu</b>: kampus yang sama, organisasi yang sama, atau postingan yang mereka tulis"
           },
           {
            "en": "It answers “why me?” before they ask it.",
-           "id": "Menjawab “mengapa saya?” sebelum mereka bertanya."
+           "id": "Menjawab “kenapa saya?” sebelum mereka sempat bertanya."
           }
          ],
          [
@@ -8530,11 +8528,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Phrase the request as a <b>question</b>",
-           "id": "Rumuskan permintaan sebagai <b>pertanyaan</b>"
+           "id": "Tulis permintaanmu sebagai <b>pertanyaan</b>"
           },
           {
            "en": "A question invites an answer; a statement invites nothing.",
-           "id": "Pertanyaan mengundang jawaban; pernyataan tidak mengundang apa pun."
+           "id": "Pertanyaan mengundang jawaban; pernyataan tidak mengundang apa-apa."
           }
          ],
          [
@@ -8544,7 +8542,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "<b>Narrow and broad</b>: this employer, and employers like it",
-           "id": "<b>Sempit dan luas</b>: perusahaan ini, dan yang serupa"
+           "id": "<b>Sempit sekaligus luas</b>: perusahaan ini, dan perusahaan serupa"
           },
           {
            "en": "Shows a target without making them the only door.",
@@ -8562,49 +8560,49 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "People reply to interest in them, not to a pitch about you.",
-           "id": "Orang membalas minat pada diri mereka, bukan promosi tentangmu."
+           "id": "Orang membalas karena kamu tertarik pada mereka, bukan karena promosi tentang dirimu."
           }
          ]
         ],
         "caption": {
          "en": "Six points, one message. Count words and count who they are about.",
-         "id": "Enam poin, satu pesan. Hitung kata dan hitung tentang siapa kata-kata itu."
+         "id": "Enam poin, satu pesan. Hitung kata-katanya, dan hitung tentang siapa kata-kata itu."
         }
        },
        "key": {
         "en": "Six points in under seventy-five words: connection first, one question, advice not a job, narrow and broad, courtesies, the channel.",
-        "id": "Enam poin dalam kurang dari tujuh puluh lima kata: koneksi dulu, satu pertanyaan, saran bukan pekerjaan, sempit dan luas, tata krama, saluran."
+        "id": "Enam poin dalam kurang dari tujuh puluh lima kata: koneksi dulu, satu pertanyaan, saran bukan pekerjaan, sempit sekaligus luas, tata krama, saluran."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "The local adaptation",
-        "id": "Adaptasi lokal"
+        "id": "Penyesuaian lokal"
        },
        "body": {
         "en": "Professional etiquette usually expects a one-line self-introduction and a courteous opener. <i>perkenalkan saya…</i>, <i>mohon maaf mengganggu waktunya</i>. Budget for them inside the 75 words; they are not optional, and they are not padding. Use <b>Kak</b> for near-peer alumni and <b>Bapak/Ibu</b> for more senior or older contacts; when unsure, err on the side of formality and let the contact set a more casual tone <i>(Dalton advises erring toward subtlety, ch. 6)</i>. Two worked examples, both structural patterns rather than scripts, rewrite them in your own voice:",
-        "id": "Etiket profesional biasanya mengharapkan perkenalan diri satu baris dan pembuka yang santun. <i>perkenalkan saya…</i>, <i>mohon maaf mengganggu waktunya</i>. Anggarkan keduanya di dalam 75 kata; keduanya bukan pilihan, dan bukan pengisi. Pakai <b>Kak</b> untuk alumni yang hampir sebaya dan <b>Bapak/Ibu</b> untuk kontak yang lebih senior atau lebih tua; bila ragu, condonglah ke formal dan biarkan kontak menentukan nada yang lebih santai <i>(Dalton menyarankan condong ke kehalusan, bab 6)</i>. Dua contoh, keduanya pola struktur dan bukan naskah; tulis ulang dengan suaramu sendiri:"
+        "id": "Etiket profesional biasanya mengharapkan perkenalan diri satu baris dan pembuka yang sopan: <i>perkenalkan, saya…</i>, <i>mohon maaf mengganggu waktunya</i>. Sisakan tempat untuk keduanya di dalam 75 kata; keduanya bukan pilihan, dan bukan pula pengisi. Pakai <b>Kak</b> untuk alumni yang hampir seangkatan dan <b>Bapak/Ibu</b> untuk kontak yang lebih senior atau lebih tua; kalau ragu, pilih yang lebih formal dan biarkan lawan bicaramu yang menurunkan nadanya <i>(Dalton menyarankan untuk lebih memilih yang halus, bab 6)</i>. Dua contoh di bawah ini adalah pola, bukan naskah; tulis ulang dengan gayamu sendiri:"
        },
        "quote": {
         "text": {
          "en": "<b>To an alumna, LinkedIn or email.</b> <i>Subject: Fellow [university] Management alumna. Asking for advice on the Arunika MT programme.</i><br><br>Hello Rina, my name is Nadia, a 2026 Management graduate from the same university. Sorry to interrupt your day. I read your post about the supply-chain rotation at Arunika and found it genuinely interesting. Would you be willing to share your experience of the first year for 15 to 20 minutes, perhaps next week? I am weighing up management-trainee programmes in consumer goods and would value your view on what the rotation really asks of people. Thank you very much, Rina.",
-         "id": "<b>Bahasa Indonesia: kepada seorang alumna, LinkedIn atau email.</b> <i>Subjek: Sesama alumni Manajemen [nama kampus]. Minta saran tentang program MT di Arunika.</i><br><br>Halo Kak Rina, perkenalkan saya Nadia, lulusan Manajemen 2026 dari kampus yang sama. Mohon maaf mengganggu waktunya. Saya membaca postingan Kakak tentang rotasi supply chain di Arunika dan sangat tertarik. Apakah Kakak bersedia berbagi pengalaman sekitar 15–20 menit dalam dua minggu ke depan? Saya sedang menjajaki program MT di perusahaan consumer goods seperti Arunika. Terima kasih banyak, Kak."
+         "id": "<b>Bahasa Indonesia: kepada seorang alumni, lewat LinkedIn atau email.</b> <i>Subjek: Sesama alumni Manajemen [nama kampus]. Minta saran tentang program MT di Arunika.</i><br><br>Halo Kak Rina, perkenalkan, saya Nadia, lulusan Manajemen 2026 dari kampus yang sama. Mohon maaf mengganggu waktunya. Saya membaca postingan Kakak tentang rotasi supply chain di Arunika dan sangat tertarik. Apakah Kakak bersedia berbagi pengalaman sekitar 15–20 menit dalam dua minggu ke depan? Saya sedang menjajaki program MT di perusahaan consumer goods seperti Arunika. Terima kasih banyak, Kak."
         },
         "who": {
          "en": "62 words · connection first · a question · advice, not a job · narrow (Arunika) and broad (consumer goods MT programmes)",
-         "id": "62 kata · koneksi lebih dulu · sebuah pertanyaan · saran, bukan pekerjaan · sempit (Arunika) dan luas (program MT consumer goods)"
+         "id": "62 kata · koneksi lebih dulu · satu pertanyaan · saran, bukan pekerjaan · sempit (Arunika) sekaligus luas (program MT consumer goods)"
         }
        },
        "after": [
         {
          "en": "<b>English: to a manager, LinkedIn or email.</b> <i>Subject: Question about your path into business operations at KilatPay.</i> “Dear Mr. Aditya, I’m Nadia, a 2026 management graduate. I read your post on scaling merchant operations at KilatPay and found it very useful. Would you be open to a 15-minute call in the next two weeks to share how you built your career in fintech operations? I’m exploring operations roles at KilatPay and similar fintechs. Thank you for considering it.”, 63 words, the same six points in a different register.",
-         "id": "<b>Bahasa Inggris: kepada seorang manajer, LinkedIn atau email.</b> <i>Subject: Question about your path into business operations at KilatPay.</i> “Dear Mr. Aditya, I’m Nadia, a 2026 management graduate. I read your post on scaling merchant operations at KilatPay and found it very useful. Would you be open to a 15-minute call in the next two weeks to share how you built your career in fintech operations? I’m exploring operations roles at KilatPay and similar fintechs. Thank you for considering it.”, 63 kata, enam poin yang sama dalam register berbeda."
+         "id": "<b>Bahasa Inggris: kepada seorang manajer, lewat LinkedIn atau email.</b> <i>Subject: Question about your path into business operations at KilatPay.</i> “Dear Mr. Aditya, I’m Nadia, a 2026 management graduate. I read your post on scaling merchant operations at KilatPay and found it very useful. Would you be open to a 15-minute call in the next two weeks to share how you built your career in fintech operations? I’m exploring operations roles at KilatPay and similar fintechs. Thank you for considering it.” 63 kata, enam poin yang sama, dalam register yang berbeda."
         }
        ],
        "key": {
         "en": "Local courtesies belong inside the word budget; they are not padding, and the register rises with the seniority of the reader.",
-        "id": "Tata krama lokal ikut dihitung dalam jatah kata; itu bukan pengisi, dan registernya naik seiring senioritas pembaca."
+        "id": "Tata krama lokal ikut dihitung dalam jatah kata; itu bukan pengisi, dan nadanya makin formal seiring senioritas pembaca."
        }
       },
       {
@@ -8615,29 +8613,29 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "LinkedIn and email are appropriate for first contact with corporate staff. Messaging apps such as WhatsApp are common and fast in many markets, but use them for a first message only if the number was shared for this purpose or given to you by a mutual contact who asked permission. <b>Never</b> mass-message an alumni WhatsApp group with the same request, and never cold-message a personal number taken from a group. Both are read as harvesting, not networking. Timing matters too: avoid late evenings, Friday prayer time and, during Ramadan, iftar. A message that arrives at a courteous hour on a working day reads as considered; the same words at 22:40 read as careless.",
-        "id": "LinkedIn dan email pantas untuk kontak pertama dengan staf korporat. WhatsApp umum dan cepat di Indonesia, tetapi pakai untuk pesan pertama hanya jika nomornya dibagikan untuk tujuan ini atau diberikan kontak bersama yang sudah meminta izin. <b>Jangan pernah</b> mengirim pesan massal ke grup WhatsApp alumni dengan permintaan yang sama, dan jangan pernah mengirim pesan dingin ke nomor pribadi yang diambil dari grup. Keduanya terbaca sebagai memanen, bukan berjejaring. Waktu juga penting: hindari larut malam, waktu salat Jumat, dan, selama Ramadan, waktu berbuka. Pesan yang tiba pada jam yang santun di hari kerja terbaca sebagai dipertimbangkan; kata-kata yang sama pada pukul 22.40 terbaca sebagai sembrono."
+        "id": "LinkedIn dan email pantas untuk kontak pertama dengan staf perusahaan. Aplikasi pesan seperti WhatsApp memang umum dan cepat di banyak tempat, tetapi pakailah untuk pesan pertama hanya kalau nomornya memang dibagikan untuk tujuan ini, atau diberikan oleh kenalan bersama yang sudah meminta izin. <b>Jangan pernah</b> mengirim permintaan yang sama secara massal ke grup WhatsApp alumni, dan jangan pernah mengirim pesan ke nomor pribadi yang kamu ambil dari grup. Keduanya terbaca sebagai memanen kontak, bukan berjejaring. Waktu juga penting: hindari larut malam, waktu salat Jumat, dan, selama Ramadan, waktu berbuka. Pesan yang tiba pada jam yang sopan di hari kerja terkesan dipikirkan matang; kata-kata yang persis sama pada pukul 22.40 terkesan sembrono."
        },
        "bullets": [
         {
          "en": "<b>LinkedIn</b>: connection request with a note, or InMail; the profile tells you the register (Kak or Bapak/Ibu).",
-         "id": "<b>LinkedIn</b>: permintaan koneksi dengan catatan, atau InMail; profilnya memberitahumu register (Kak atau Bapak/Ibu)."
+         "id": "<b>LinkedIn</b>: permintaan koneksi dengan catatan, atau InMail; profilnya memberi tahu sapaan yang pas (Kak atau Bapak/Ibu)."
         },
         {
          "en": "<b>Email</b>: best when a company pattern is known or a mutual contact shares it; subject line carries the connection.",
-         "id": "<b>Email</b>: terbaik ketika pola perusahaan diketahui atau kontak bersama membagikannya; baris subjek membawa koneksinya."
+         "id": "<b>Email</b>: paling baik kalau pola alamat perusahaan diketahui atau dibagikan kenalan bersama; baris subjeknya membawa koneksi."
         },
         {
          "en": "<b>WhatsApp</b>: only with a shared or introduced number; short, formal, working hours.",
-         "id": "<b>WhatsApp</b>: hanya dengan nomor yang dibagikan atau diperkenalkan; singkat, formal, jam kerja."
+         "id": "<b>WhatsApp</b>: hanya dengan nomor yang dibagikan atau diperkenalkan; singkat, formal, di jam kerja."
         },
         {
          "en": "<b>Alumni groups</b>: a place to find names and ask a mutual contact for an introduction, never a place to broadcast.",
-         "id": "<b>Grup alumni</b>: tempat menemukan nama dan meminta kontak bersama untuk perkenalan, bukan tempat menyiarkan."
+         "id": "<b>Grup alumni</b>: tempat menemukan nama dan meminta kenalan bersama untuk memperkenalkan, bukan tempat menyebarkan permintaan."
         }
        ],
        "key": {
         "en": "Email and LinkedIn are safe first channels; a messaging app only with a number shared for this purpose, and never a mass message to a group.",
-        "id": "Email dan LinkedIn adalah saluran pertama yang aman; aplikasi pesan hanya dengan nomor yang memang dibagikan untuk ini, dan jangan pernah pesan massal ke grup."
+        "id": "Email dan LinkedIn adalah saluran pertama yang aman; aplikasi pesan hanya dengan nomor yang memang dibagikan untuk itu, dan jangan pernah pesan massal ke grup."
        }
       },
       {
@@ -8648,17 +8646,17 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Follow-up is scheduled, not remembered <i>(Dalton, ch. 7)</i>. When you message contact A at an employer, set two reminders: <b>3 business days</b> and <b>7 business days</b>.",
-        "id": "Tindak lanjut dijadwalkan, bukan diingat <i>(Dalton, bab 7)</i>. Ketika kamu mengirim pesan ke kontak A di sebuah perusahaan, pasang dua pengingat: <b>3 hari kerja</b> dan <b>7 hari kerja</b>."
+        "id": "Tindak lanjut itu dijadwalkan, bukan diingat-ingat <i>(Dalton, bab 7)</i>. Begitu kamu mengirim pesan ke kontak A di sebuah perusahaan, pasang dua pengingat: <b>3 hari kerja</b> dan <b>7 hari kerja</b>."
        },
        "table": {
         "cols": [
          {
           "en": "What happens",
-          "id": "Apa yang terjadi"
+          "id": "Yang terjadi"
          },
          {
           "en": "What you do",
-          "id": "Apa yang kamu lakukan"
+          "id": "Yang kamu lakukan"
          }
         ],
         "rows": [
@@ -8669,7 +8667,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Likely a Booster. Reply within 24 hours with two or three specific times.",
-           "id": "Kemungkinan Booster. Balas dalam 24 jam dengan dua atau tiga waktu spesifik."
+           "id": "Kemungkinan besar Booster. Balas dalam 24 jam dengan dua atau tiga pilihan waktu yang jelas."
           }
          ],
          [
@@ -8679,7 +8677,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Message contact B at the same employer. Do not mention A.",
-           "id": "Kirim pesan ke kontak B di perusahaan yang sama. Jangan sebut A."
+           "id": "Kirim pesan ke kontak B di perusahaan yang sama. Jangan sebut-sebut A."
           }
          ],
          [
@@ -8699,19 +8697,19 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "One follow-up to B, then park the employer for this cycle; the process track is still open.",
-           "id": "Satu tindak lanjut ke B, lalu parkir perusahaan itu untuk siklus ini; jalur proses masih terbuka."
+           "id": "Satu tindak lanjut ke B, lalu parkir perusahaan itu untuk siklus ini; jalur prosesnya tetap terbuka."
           }
          ]
         ],
         "caption": {
          "en": "Parallel across employers, in series within one. Start with five employers; add more only after three clean rounds.",
-         "id": "Paralel antar perusahaan, berurutan di dalam satu perusahaan. Mulai dengan lima perusahaan; tambah hanya setelah tiga putaran bersih."
+         "id": "Paralel antarperusahaan, berurutan di dalam satu perusahaan. Mulai dengan lima perusahaan; tambah hanya setelah tiga putaran berjalan bersih."
         }
        },
        "after": [
         {
          "en": "<b>Local adjustment.</b> Count only working days, and pause the clock around <i>cuti bersama</i>, Lebaran and major public holidays, when replies slow considerably. A message sent on the Wednesday before a long weekend has its day 3 the following Tuesday, not Saturday. Never message ten people at one company at once, see the scenario below.",
-         "id": "<b>Penyesuaian lokal.</b> Hitung hanya hari kerja, dan hentikan sementara jam sekitar <i>cuti bersama</i>, Lebaran, dan hari libur nasional besar, ketika balasan melambat cukup jauh. Pesan yang dikirim Rabu sebelum akhir pekan panjang punya hari ke-3 pada Selasa berikutnya, bukan Sabtu. Jangan pernah mengirim pesan ke sepuluh orang di satu perusahaan sekaligus, lihat sorotan di bawah."
+         "id": "<b>Penyesuaian lokal.</b> Hitung hanya hari kerja, dan hentikan jam sementara di sekitar <i>cuti bersama</i>, Lebaran, dan hari libur nasional besar, karena balasan melambat cukup jauh pada masa-masa itu. Pesan yang dikirim Rabu sebelum libur panjang punya hari ke-3 pada Selasa berikutnya, bukan Sabtu. Dan jangan pernah mengirim pesan ke sepuluh orang di satu perusahaan sekaligus; lihat sorotan di bawah."
         }
        ],
        "key": {
@@ -8727,7 +8725,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Dalton’s three kinds of responder <i>(ch. 6–7)</i>. <b>Boosters</b> genuinely enjoy helping and reply quickly; they are who you are looking for, and a single Booster inside an employer is worth more than the whole alumni list. <b>Obligates</b> feel they should help but do not want to; they reply slowly, reschedule, or offer to “just forward your CV”. An offer that costs them nothing and gives you little. <b>Curmudgeons</b> never reply. You cannot tell in advance: response speed and the specificity of the help are the tells. Expect roughly a fifth to two-fifths of messages to get a reply <span class=\"ev ev-dated\">Dalton, 2020</span>. A non-reply is not a verdict on you. It is a Curmudgeon, or a busy week, and 3B7 has already told you what to do next.",
-        "id": "Tiga jenis pembalas menurut Dalton <i>(bab 6–7)</i>. <b>Booster</b> benar-benar senang membantu dan membalas cepat; merekalah yang kamu cari, dan satu Booster di dalam sebuah perusahaan bernilai lebih dari seluruh daftar alumni. <b>Obligate</b> merasa harus membantu tetapi tidak ingin; mereka membalas lambat, menjadwalkan ulang, atau menawarkan “meneruskan CV saja”. Tawaran yang tidak merugikan mereka dan sedikit memberimu. <b>Curmudgeon</b> tidak pernah membalas. Kamu tidak bisa tahu sebelumnya: kecepatan balasan dan kekhususan bantuan adalah tandanya. Perkirakan sekitar seperlima sampai dua perlima pesan mendapat balasan <span class=\"ev ev-dated\">Dalton, 2020</span>. Tidak dibalas bukan vonis atasmu. Itu Curmudgeon, atau minggu yang sibuk, dan 3B7 sudah memberitahumu apa yang dilakukan berikutnya."
+        "id": "Dalton membagi orang yang kita hubungi menjadi tiga jenis <i>(bab 6–7)</i>. <b>Booster</b> benar-benar senang membantu dan membalas cepat; merekalah yang kamu cari, dan satu Booster di dalam sebuah perusahaan bernilai lebih dari seluruh daftar alumni. <b>Obligate</b> merasa seharusnya membantu, tetapi sebenarnya enggan; mereka membalas lambat, minta jadwal ulang, atau menawarkan “nanti CV-nya saya teruskan saja”, tawaran yang tidak merugikan mereka dan tidak banyak membantumu. <b>Curmudgeon</b> tidak pernah membalas. Kamu tidak bisa menebak sebelumnya; tandanya adalah kecepatan membalas dan seberapa konkret bantuannya. Perkirakan kira-kira seperlima sampai dua perlima pesan mendapat balasan <span class=\"ev ev-dated\">Dalton, 2020</span>. Pesan yang tak dibalas bukan vonis atas dirimu. Itu seorang Curmudgeon, atau minggu yang sedang sibuk, dan 3B7 sudah memberi tahu apa langkahmu berikutnya."
        },
        "table": {
         "cols": [
@@ -8737,7 +8735,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Tells",
-          "id": "Tanda"
+          "id": "Tandanya"
          },
          {
           "en": "Your move",
@@ -8752,11 +8750,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Replies within days; offers specific times or a specific person",
-           "id": "Membalas dalam hitungan hari; menawarkan waktu spesifik atau orang spesifik"
+           "id": "Membalas dalam hitungan hari; menawarkan waktu yang jelas atau orang tertentu"
           },
           {
            "en": "Reply within 24 hours; prepare with Lesson 2.4; report back afterwards.",
-           "id": "Balas dalam 24 jam; siapkan dengan Pelajaran 2.4; laporkan kembali setelahnya."
+           "id": "Balas dalam 24 jam; siapkan diri dengan Pelajaran 2.4; laporkan hasilnya sesudahnya."
           }
          ],
          [
@@ -8766,11 +8764,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Slow; reschedules; “send me your CV and I’ll forward it”",
-           "id": "Lambat; menjadwalkan ulang; “kirim CV-nya, nanti saya teruskan”"
+           "id": "Lambat; minta jadwal ulang; “kirim CV-nya, nanti saya teruskan”"
           },
           {
            "en": "Thank them; ask once whether a short conversation would be possible; otherwise move on politely.",
-           "id": "Ucapkan terima kasih; tanyakan sekali apakah percakapan singkat memungkinkan; jika tidak, lanjutkan dengan sopan."
+           "id": "Ucapkan terima kasih; tanyakan sekali apakah obrolan singkat memungkinkan; kalau tidak, lanjutkan dengan sopan."
           }
          ],
          [
@@ -8784,14 +8782,14 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Nothing. Contact B has already been messaged; the tracker moves on.",
-           "id": "Tidak ada. Kontak B sudah dikirimi pesan; pelacak bergerak maju."
+           "id": "Tidak perlu apa-apa. Kontak B sudah dihubungi; pelacak bergerak maju."
           }
          ]
         ]
        },
        "key": {
         "en": "Boosters reply fast and help gladly; Obligates stall; Curmudgeons never answer. Spend your time on Boosters and read silence as a type, not a verdict.",
-        "id": "Booster membalas cepat dan senang membantu; Obligate mengulur; Curmudgeon tidak pernah menjawab. Habiskan waktumu pada Booster, dan baca keheningan sebagai tipe orang, bukan vonis."
+        "id": "Booster membalas cepat dan senang membantu; Obligate mengulur-ulur; Curmudgeon tidak pernah menjawab. Habiskan waktumu untuk Booster, dan baca pesan yang tak dibalas sebagai tipe orang, bukan vonis."
        }
       }
      ],
@@ -8799,11 +8797,11 @@ window.MT_LMS['the-pack'] = {
       "type": "timeline",
       "exhibit": {
        "en": "Exhibit 5: 3B7 on a real week",
-       "id": "Peraga 5: 3B7 dalam seminggu nyata"
+       "id": "Peraga 5: 3B7 dalam satu minggu sungguhan"
       },
       "title": {
        "en": "Nadia messages Rina at Arunika on Monday; Thursday is a public holiday",
-       "id": "Nadia mengirim pesan ke Kak Rina di Arunika pada Senin; Kamis hari libur nasional"
+       "id": "Nadia mengirim pesan ke Kak Rina di Arunika hari Senin; Kamis libur nasional"
       },
       "items": [
        {
@@ -8814,7 +8812,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Message A (Rina). Set reminders: business day 3 and 7. Same morning: message contact A at Bank Sinar Nusantara and KilatPay, parallel across employers.",
-         "id": "Pesan ke A (Kak Rina). Pasang pengingat: hari kerja ke-3 dan ke-7. Pagi yang sama: pesan ke kontak A di Bank Sinar Nusantara dan KilatPay, paralel antar perusahaan."
+         "id": "Pesan ke A (Kak Rina). Pasang pengingat: hari kerja ke-3 dan ke-7. Pagi yang sama: pesan ke kontak A di Bank Sinar Nusantara dan KilatPay, paralel antarperusahaan."
         }
        },
        {
@@ -8825,7 +8823,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Nothing to do. Do not check hourly; work on the CV instead.",
-         "id": "Tidak ada yang perlu dilakukan. Jangan cek tiap jam; kerjakan CV saja."
+         "id": "Tidak ada yang perlu dilakukan. Jangan mengecek tiap jam; kerjakan CV saja."
         }
        },
        {
@@ -8847,7 +8845,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "No reply from Rina → message contact B at Arunika (an MT in sales, class of 2024). Do not mention Rina. Avoid Friday prayer time.",
-         "id": "Rina belum membalas → pesan ke kontak B di Arunika (MT di sales, angkatan 2024). Jangan sebut Rina. Hindari waktu salat Jumat."
+         "id": "Rina belum membalas → pesan ke kontak B di Arunika (MT di bagian sales, angkatan 2024). Jangan sebut Rina. Hindari waktu salat Jumat."
         }
        },
        {
@@ -8858,7 +8856,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Rina replies: a Booster after all. Reply within 24 hours with three specific slots. Contact B stays in play; if B also replies, both conversations happen.",
-         "id": "Rina membalas: ternyata Booster. Balas dalam 24 jam dengan tiga slot spesifik. Kontak B tetap berjalan; jika B juga membalas, kedua percakapan terjadi."
+         "id": "Rina membalas: ternyata Booster. Balas dalam 24 jam dengan tiga pilihan waktu. Kontak B tetap berjalan; kalau B juga membalas, dua obrolan sama-sama terjadi."
         }
        },
        {
@@ -8869,17 +8867,17 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "If Rina had stayed silent: one two-sentence follow-up, then stop. The tracker marks the employer “parked” until next cycle.",
-         "id": "Seandainya Rina tetap diam: satu tindak lanjut dua kalimat, lalu berhenti. Pelacak menandai perusahaan “diparkir” sampai siklus berikutnya."
+         "id": "Seandainya Rina tetap diam: satu tindak lanjut dua kalimat, lalu berhenti. Pelacak menandai perusahaan ini “diparkir” sampai siklus berikutnya."
         }
        }
       ],
       "note": {
        "en": "Five employers in parallel means five of these clocks running at once; which is why the tracker, not memory, keeps them.",
-       "id": "Lima perusahaan paralel berarti lima jam seperti ini berjalan sekaligus; itulah mengapa pelacak, bukan ingatan, yang menjaganya."
+       "id": "Lima perusahaan paralel berarti lima jam seperti ini berjalan serentak; itulah mengapa pelacak, bukan ingatan, yang menjaganya."
       },
       "longdesc": {
        "en": "A one-week timeline of the 3B7 routine. Monday, day zero: Nadia messages contact A at Arunika and sets reminders for business days three and seven, while also messaging first contacts at two other employers. Tuesday and Wednesday: nothing to do. Thursday is a public holiday and is not counted. Friday, day three: no reply, so she messages contact B at Arunika without mentioning A. The following Monday, day four, contact A replies and Nadia answers within 24 hours with three time slots. The following Thursday, day seven, would have been the single follow-up had A stayed silent.",
-       "id": "Lini masa satu minggu rutinitas 3B7. Senin, hari nol: Nadia mengirim pesan ke kontak A di Arunika dan memasang pengingat hari kerja ke-3 dan ke-7, sambil mengirim pesan ke kontak pertama di dua perusahaan lain. Selasa dan Rabu: tidak ada yang dilakukan. Kamis libur nasional dan tidak dihitung. Jumat, hari ke-3: belum ada balasan, jadi ia mengirim pesan ke kontak B di Arunika tanpa menyebut A. Senin berikutnya, hari ke-4, kontak A membalas dan Nadia menjawab dalam 24 jam dengan tiga slot waktu. Kamis berikutnya, hari ke-7, seharusnya menjadi satu-satunya tindak lanjut seandainya A tetap diam."
+       "id": "Lini masa satu minggu rutinitas 3B7. Senin, hari nol: Nadia mengirim pesan ke kontak A di Arunika dan memasang pengingat untuk hari kerja ke-3 dan ke-7, sambil mengirim pesan ke kontak pertama di dua perusahaan lain. Selasa dan Rabu: tidak ada yang dilakukan. Kamis libur nasional dan tidak dihitung. Jumat, hari ke-3: belum ada balasan, jadi ia mengirim pesan ke kontak B di Arunika tanpa menyebut A. Senin berikutnya, hari ke-4, kontak A membalas dan Nadia menjawab dalam 24 jam dengan tiga pilihan waktu. Kamis berikutnya, hari ke-7, akan menjadi satu-satunya tindak lanjut seandainya A tetap diam."
       }
      },
      "compare": [
@@ -8890,19 +8888,19 @@ window.MT_LMS['the-pack'] = {
        },
        "q": {
         "en": "Nadia messages an alumnus at Bank Sinar Nusantara.",
-        "id": "Nadia mengirim pesan ke seorang alumnus di Bank Sinar Nusantara."
+        "id": "Nadia mengirim pesan ke seorang alumni di Bank Sinar Nusantara."
        },
        "weak": {
         "en": "“Good afternoon Sir, I am Nadia, a Management graduate with a GPA (grade point average) of 3.38, an internship at a bank, treasurer of the student association and a barista. I am very keen to work at Bank Sinar Nusantara and would be grateful if you could refer me for the officer programme. My CV is attached. Thank you.” <i>(59 words, about 90% about her, asks for a referral, CV attached, no name)</i>",
-        "id": "“Selamat siang Pak, saya Nadia lulusan Manajemen IPK 3,38, pengalaman magang di bank, bendahara HIMA, dan barista. Saya sangat berminat bekerja di Bank Sinar Nusantara dan mohon bantuan Bapak untuk memberikan referensi untuk program ODP. Terlampir CV saya. Terima kasih.” <i>(59 kata, sekitar 90% tentang dirinya, meminta referensi, CV terlampir, tanpa nama)</i>"
+        "id": "“Selamat siang Pak, saya Nadia, lulusan Manajemen IPK 3,38, pengalaman magang di bank, bendahara HIMA, dan barista. Saya sangat berminat bekerja di Bank Sinar Nusantara dan mohon bantuan Bapak untuk memberikan referensi untuk program ODP. Terlampir CV saya. Terima kasih.” <i>(59 kata, sekitar 90% tentang dirinya, meminta referensi, CV terlampir, tanpa nama)</i>"
        },
        "strong": {
         "en": "“Good afternoon Mr Hendra, my name is Nadia, a Management alumna of the class of 2022 from your university. Sorry to interrupt. I saw that you began your career through the Bank Sinar Nusantara officer programme. Would you be willing to share your experience for about 15 minutes, perhaps next week? I am exploring officer programmes at national banks. Thank you very much.”",
-        "id": "“Selamat siang Pak Hendra, saya Nadia, alumni Manajemen angkatan 2022 dari kampus yang sama dengan Bapak. Mohon maaf mengganggu. Saya melihat Bapak memulai karier lewat ODP Bank Sinar Nusantara. Apakah Bapak berkenan berbagi pengalaman sekitar 15 menit, mungkin minggu depan? Saya sedang menjajaki program ODP di bank nasional. Terima kasih banyak, Pak.”"
+        "id": "“Selamat siang Pak Hendra, perkenalkan, saya Nadia, alumni Manajemen angkatan 2022 dari kampus yang sama dengan Bapak. Mohon maaf mengganggu. Saya melihat Bapak memulai karier lewat ODP Bank Sinar Nusantara. Apakah Bapak berkenan berbagi pengalaman sekitar 15 menit, mungkin minggu depan? Saya sedang menjajaki program ODP di bank nasional. Terima kasih banyak, Pak.”"
        },
        "why": {
         "en": "The strong version leads with the connection, asks a small question about <i>his</i> experience, and does not ask for a job. It is easy to say yes to. The weak version asks a stranger to vouch for someone he has never met, and the only comfortable answer to that is silence.",
-        "id": "Versi kuat membuka dengan koneksi, mengajukan pertanyaan kecil tentang pengalaman <i>beliau</i>, dan tidak meminta pekerjaan. Mudah untuk dijawab ya. Versi lemah meminta orang asing menjamin seseorang yang belum pernah ditemuinya, dan satu-satunya jawaban yang nyaman untuk itu adalah diam."
+        "id": "Versi yang kuat membuka dengan koneksi, mengajukan pertanyaan kecil tentang pengalaman <i>beliau</i>, dan tidak meminta pekerjaan. Mudah dijawab “ya”. Versi yang lemah meminta orang asing menjamin seseorang yang belum pernah ia temui, dan satu-satunya jawaban yang nyaman untuk itu adalah diam."
        }
       }
      ],
@@ -8915,11 +8913,11 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "Dalton recounts a student who emailed about ten bankers at one firm at the same time. They sat near one another, compared notes over lunch, and the student became a story told against him, the person who wrote to everyone <i>(Dalton, ch. 7)</i>.",
-        "id": "Dalton menceritakan seorang mahasiswa yang mengirim email ke sekitar sepuluh bankir di satu firma pada saat yang sama. Mereka duduk berdekatan, membandingkan catatan saat makan siang, dan mahasiswa itu menjadi cerita yang diceritakan untuk menertawakannya; orang yang menulis ke semua orang <i>(Dalton, bab 7)</i>."
+        "id": "Dalton bercerita tentang seorang mahasiswa yang mengirim email ke sekitar sepuluh bankir di satu perusahaan pada saat yang sama. Mereka duduk berdekatan, saling membandingkan email itu saat makan siang, dan si mahasiswa berubah menjadi bahan cerita: “orang yang menulis ke semua orang” <i>(Dalton, bab 7)</i>."
        },
        {
         "en": "The local version is posting the same request into a 300-person alumni WhatsApp group, or messaging every alumnus at one bank on the same afternoon. Teams talk; branches talk; the MT cohort has its own group. The rule is simple and the tracker enforces it: parallel across employers, in series within one. Two people per employer, one at a time.",
-        "id": "Versi Indonesianya adalah memposting permintaan yang sama ke grup WhatsApp alumni beranggotakan 300 orang, atau mengirim pesan ke setiap alumnus di satu bank pada sore yang sama. Tim saling bicara; cabang saling bicara; angkatan MT punya grupnya sendiri. Aturannya sederhana dan pelacak menegakkannya: paralel antar perusahaan, berurutan di dalam satu perusahaan. Dua orang per perusahaan, satu per satu."
+        "id": "Versi Indonesianya: menempelkan permintaan yang sama ke grup WhatsApp alumni beranggotakan 300 orang, atau mengirim pesan ke setiap alumni di satu bank pada sore yang sama. Tim saling bercerita; cabang saling bercerita; angkatan MT punya grup sendiri. Aturannya sederhana, dan pelacak yang menegakkannya: paralel antarperusahaan, berurutan di dalam satu perusahaan. Dua orang per perusahaan, satu per satu."
        }
       ]
      },
@@ -8927,15 +8925,15 @@ window.MT_LMS['the-pack'] = {
       {
        "h": {
         "en": "Drill 1 · Rank the contacts",
-        "id": "Latihan 1 · Peringkatkan kontak"
+        "id": "Latihan 1 · Urutkan kontaknya"
        },
        "body": {
         "en": "Nadia’s alumni sheet lists four people at Bank Sinar Nusantara: (a) a Vice President in corporate banking, IKA (the alumni association, ikatan alumni) alumnus, 18 years in; (b) an officer programme graduate of 2021 now a relationship manager in Semarang, same faculty; (c) a fresh officer programme trainee who started last month, same HIMA (the students’ association, himpunan mahasiswa); (d) an HR (human resources) officer, no shared affinity, LinkedIn open. Order them as contact A, B, later, and never, and say why, using the five traits.",
-        "id": "Lembar alumni Nadia mencantumkan empat orang di Bank Sinar Nusantara: (a) Vice President di corporate banking, alumnus IKA, 18 tahun bekerja; (b) lulusan ODP 2021 yang kini relationship manager di Semarang, fakultas yang sama; (c) trainee ODP baru yang mulai bulan lalu, HIMA yang sama; (d) petugas HR, tanpa kesamaan afinitas, LinkedIn terbuka. Urutkan sebagai kontak A, B, nanti, dan tidak pernah, dan katakan mengapa, dengan lima ciri."
+        "id": "Lembar alumni Nadia mencantumkan empat orang di Bank Sinar Nusantara: (a) Vice President di corporate banking, alumni IKA, sudah 18 tahun bekerja; (b) lulusan ODP 2021 yang kini relationship manager di Semarang, satu fakultas; (c) trainee ODP baru yang mulai bulan lalu, satu HIMA; (d) staf HR, tidak ada kesamaan, LinkedIn-nya terbuka. Urutkan sebagai kontak A, B, nanti, dan tidak pernah, dan jelaskan alasannya dengan lima ciri."
        },
        "debrief": {
         "en": "A = (b): functionally relevant, shared faculty, two to five years ahead, promoted through the programme, in Semarang. B = (c): high affinity and knows the current selection, but too new to know the organisation, good for facts, thin on advice. Later = (a): senior enough to know everything, too senior to reply to a stranger; reach through (b). Never as a cold first message = (d): HR is the process track’s door, not the network track’s; you will meet them when you apply.",
-        "id": "A = (b): relevan secara fungsi, fakultas yang sama, dua sampai lima tahun di depan, dipromosikan lewat program, di Semarang. B = (c): afinitas tinggi dan tahu seleksi terkini, tetapi terlalu baru untuk paham organisasi, bagus untuk fakta, tipis untuk saran. Nanti = (a): cukup senior untuk tahu segalanya, terlalu senior untuk membalas orang asing; jangkau lewat (b). Tidak pernah sebagai pesan dingin pertama = (d): HR adalah pintu jalur proses, bukan jalur jejaring; kamu akan bertemu mereka saat melamar."
+        "id": "A = (b): pekerjaannya relevan, satu fakultas, dua sampai lima tahun di atas, naik lewat program, di Semarang. B = (c): kesamaannya kuat dan tahu seleksi terkini, tetapi terlalu baru untuk paham organisasinya; bagus untuk fakta, tipis untuk saran. Nanti = (a): cukup senior untuk tahu segalanya, terlalu senior untuk membalas orang asing; jangkau lewat (b). Tidak pernah sebagai pesan pertama tanpa pengantar = (d): HR adalah pintu jalur proses, bukan jalur jejaring; kamu akan bertemu mereka saat melamar."
        }
       },
       {
@@ -8945,11 +8943,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Audit this message against the six points: “Hi, I’m Nadia. I saw that you work at KilatPay. I am really interested in fintech and have learned a lot about operations, data analysis and customer service. My GPA is 3.38 and I interned at a bank. Are there any openings for fresh graduates? If so, may I send my CV? Thank you.” Count the words, count who they are about, find the ask, and rewrite it so it passes all six.",
-        "id": "Periksa pesan ini dengan enam poin: “Halo Kak, saya Nadia. Saya lihat Kakak kerja di KilatPay. Saya tertarik sekali dengan fintech dan sudah belajar banyak tentang operations, data analysis, dan customer service. IPK saya 3,38 dan saya pernah magang di bank. Apakah ada lowongan untuk fresh graduate? Kalau ada, boleh saya kirim CV? Terima kasih.” Hitung katanya, hitung tentang siapa, dan temukan setiap poin yang dilanggar."
+        "id": "Periksa pesan ini dengan enam poin: “Halo Kak, saya Nadia. Saya lihat Kakak kerja di KilatPay. Saya tertarik sekali dengan fintech dan sudah belajar banyak tentang operations, data analysis, dan customer service. IPK saya 3,38 dan saya pernah magang di bank. Apakah ada lowongan untuk fresh graduate? Kalau ada, boleh saya kirim CV? Terima kasih.” Hitung katanya, hitung tentang siapa isinya, temukan permintaannya, lalu tulis ulang sampai lolos keenam poin."
        },
        "debrief": {
         "en": "Length passes (52 words). Everything else fails: the ask is a job and a CV, not advice; the connection is “I saw you work there”, which is not a connection; the questions are about vacancies, not her experience; interest is narrow only; and roughly four-fifths of the words are about Nadia. Rewrite: connection (same campus, or a post of theirs) → one question about how they got into operations at KilatPay → 15 minutes → “KilatPay and fintechs like it”.",
-        "id": "Panjang lolos (52 kata). Semua yang lain gagal: permintaannya pekerjaan dan CV, bukan saran; koneksinya “saya lihat Kakak kerja di sana”, yang bukan koneksi; pertanyaannya tentang lowongan, bukan pengalaman mereka; minatnya sempit saja; dan sekitar empat perlima kata tentang Nadia. Tulis ulang: koneksi (kampus yang sama, atau postingan mereka) → satu pertanyaan tentang bagaimana mereka masuk operations di KilatPay → 15 menit → “KilatPay dan fintech serupa”."
+        "id": "Panjangnya lolos (52 kata). Sisanya gagal semua: yang diminta pekerjaan dan kirim CV, bukan saran; koneksinya “saya lihat Kakak kerja di sana”, dan itu bukan koneksi; pertanyaannya soal lowongan, bukan pengalaman mereka; minatnya sempit saja; dan kira-kira empat perlima kata tentang Nadia. Tulis ulang: koneksi (kampus yang sama, atau postingan mereka) → satu pertanyaan tentang bagaimana mereka masuk ke operations di KilatPay → 15 menit → “KilatPay dan fintech serupa”."
        }
       },
       {
@@ -8959,11 +8957,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "You message contact A at Rumah Rempah on Tuesday 5 May. Thursday 7 May is a public holiday; Friday 8 May is <i>cuti bersama</i>. Write the dates for day 3 and day 7, and say what you do on each if A has not replied.",
-        "id": "Kamu mengirim pesan ke kontak A di Rumah Rempah pada Selasa 5 Mei. Kamis 7 Mei libur nasional; Jumat 8 Mei <i>cuti bersama</i>. Tulis tanggal hari ke-3 dan hari ke-7, dan katakan apa yang kamu lakukan pada masing-masing jika A belum membalas."
+        "id": "Kamu mengirim pesan ke kontak A di Rumah Rempah pada Selasa, 5 Mei. Kamis, 7 Mei libur nasional; Jumat, 8 Mei <i>cuti bersama</i>. Tulis tanggal hari ke-3 dan hari ke-7, dan apa yang kamu lakukan di tiap tanggal kalau A belum membalas."
        },
        "debrief": {
         "en": "Working days after 5 May: Wed 6 (1), Mon 11 (2), Tue 12 (3), Wed 13 (4), Thu 14 (5), Fri 15 (6), Mon 18 (7). Day 3 = Tuesday 12 May: message contact B at Rumah Rempah. Day 7 = Monday 18 May: one follow-up to A, then stop. If you had counted calendar days, you would have followed up on the Tuesday after a four-day holiday, exactly when the reply was most likely already on its way.",
-        "id": "Hari kerja setelah 5 Mei: Rab 6 (1), Sen 11 (2), Sel 12 (3), Rab 13 (4), Kam 14 (5), Jum 15 (6), Sen 18 (7). Hari ke-3 = Selasa 12 Mei: pesan ke kontak B di Rumah Rempah. Hari ke-7 = Senin 18 Mei: satu tindak lanjut ke A, lalu berhenti. Jika kamu menghitung hari kalender, kamu akan menindaklanjuti pada Selasa setelah libur empat hari, persis ketika balasannya kemungkinan besar sudah dalam perjalanan."
+        "id": "Hari kerja setelah 5 Mei: Rab 6 (1), Sen 11 (2), Sel 12 (3), Rab 13 (4), Kam 14 (5), Jum 15 (6), Sen 18 (7). Hari ke-3 = Selasa, 12 Mei: pesan ke kontak B di Rumah Rempah. Hari ke-7 = Senin, 18 Mei: satu tindak lanjut ke A, lalu berhenti. Kalau kamu menghitung hari kalender, kamu akan menindaklanjuti pada Selasa setelah libur empat hari, persis ketika balasannya kemungkinan besar sedang dalam perjalanan."
        }
       },
       {
@@ -8973,11 +8971,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Pick one Top 5 employer and one real contact from your alumni sources. Write the message in your local language, then the same six points in English for a second contact. Count: under 75 words each, and more than half about them. Save both in the Dossier.",
-        "id": "Pilih satu perusahaan 5 Teratas dan satu kontak nyata dari sumber alumnimu. Tulis pesannya dalam Bahasa Indonesia, lalu enam poin yang sama dalam Bahasa Inggris untuk kontak kedua. Hitung: di bawah 75 kata masing-masing, dan lebih dari separuh tentang mereka. Simpan keduanya di Dossier."
+        "id": "Pilih satu perusahaan 5 Teratas dan satu kontak nyata dari sumber alumnimu. Tulis pesannya dalam bahasa Indonesia, lalu enam poin yang sama dalam bahasa Inggris untuk kontak kedua. Hitung: di bawah 75 kata untuk masing-masing, dan lebih dari separuh tentang mereka. Simpan keduanya di Dossier."
        },
        "debrief": {
         "en": "The most common failure on a first draft is point 3: the connection arrives in sentence four, after the self-introduction has used thirty words. Move it to sentence two. The second most common is point 6: read your draft and highlight every word about you; if the highlighted part is bigger, cut from it, not from the part about them.",
-        "id": "Kegagalan paling umum pada draf pertama adalah poin 3: koneksinya tiba di kalimat keempat, setelah perkenalan diri memakai tiga puluh kata. Pindahkan ke kalimat kedua. Yang kedua paling umum adalah poin 6: baca drafmu dan tandai setiap kata tentang dirimu; jika bagian yang ditandai lebih besar, potong dari situ, bukan dari bagian tentang mereka."
+        "id": "Kegagalan paling umum pada draf pertama ada di poin 3: koneksinya baru muncul di kalimat keempat, setelah perkenalan diri menghabiskan tiga puluh kata. Pindahkan ke kalimat kedua. Kegagalan kedua paling umum ada di poin 6: baca drafmu dan tandai setiap kata tentang dirimu; kalau bagian yang ditandai lebih besar, pangkas dari situ, bukan dari bagian tentang mereka."
        }
       }
      ],
@@ -8990,13 +8988,13 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Ask for 15–20 minutes of advice.",
-         "id": "Minta saran selama 15–20 menit."
+         "id": "Mintalah saran selama 15–20 menit."
         }
        },
        {
         "h": {
          "en": "A long message selling yourself",
-         "id": "Pesan panjang yang mempromosikan diri"
+         "id": "Pesan panjang yang berisi promosi diri"
         },
         "fix": {
          "en": "Under 75 words, more than half about them.",
@@ -9010,7 +9008,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "One follow-up at day 7, then move on.",
-         "id": "Satu tindak lanjut di hari ke-7, lalu lanjutkan."
+         "id": "Satu tindak lanjut di hari ke-7, lalu lanjut ke yang lain."
         }
        },
        {
@@ -9020,7 +9018,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "One at a time within an employer; parallel across employers.",
-         "id": "Satu per satu di dalam satu perusahaan; paralel antar perusahaan."
+         "id": "Satu per satu di dalam satu perusahaan; paralel antarperusahaan."
         }
        }
       ]
@@ -9033,7 +9031,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A responder who genuinely enjoys helping, replies quickly and specifically. <i>Pendukung aktif.</i>",
-        "id": "Pembalas yang benar-benar senang membantu, membalas cepat dan spesifik. <i>Pendukung aktif.</i>"
+        "id": "Orang yang benar-benar senang membantu; membalas cepat dan konkret. <i>Pendukung aktif.</i>"
        }
       },
       {
@@ -9043,7 +9041,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Feels they should help but does not want to; slow, reschedules, offers to forward a CV. <i>Merasa wajib tapi enggan.</i>",
-        "id": "Merasa harus membantu tetapi tidak ingin, lambat, menjadwalkan ulang, menawarkan meneruskan CV. <i>Merasa wajib tapi enggan.</i>"
+        "id": "Merasa seharusnya membantu, tetapi sebenarnya enggan; lambat, minta jadwal ulang, menawarkan meneruskan CV. <i>Merasa wajib tapi enggan.</i>"
        }
       },
       {
@@ -9063,7 +9061,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A short conversation asking for advice and insight, never a job. <i>Ngobrol karier.</i>",
-        "id": "Percakapan singkat untuk meminta saran dan wawasan, bukan pekerjaan. <i>Ngobrol karier.</i>"
+        "id": "Obrolan singkat untuk meminta saran dan wawasan, bukan pekerjaan. <i>Ngobrol karier.</i>"
        }
       },
       {
@@ -9083,7 +9081,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Under 75 words · advice not a job · connection first · a question · narrow and broad · more than half about them.",
-        "id": "Di bawah 75 kata · saran bukan pekerjaan · koneksi lebih dulu · sebuah pertanyaan · sempit dan luas · lebih dari separuh tentang mereka."
+        "id": "Di bawah 75 kata · saran bukan pekerjaan · koneksi lebih dulu · satu pertanyaan · sempit sekaligus luas · lebih dari separuh tentang mereka."
        }
       }
      ],
@@ -9091,7 +9089,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Which message element should come first?",
-        "id": "Elemen pesan mana yang harus datang lebih dulu?"
+        "id": "Bagian pesan mana yang harus muncul paling awal?"
        },
        "options": [
         {
@@ -9114,7 +9112,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "The connection answers “why me?” before they ask it, and it is the reason a stranger reads sentence two.",
-        "id": "Koneksi menjawab “mengapa saya?” sebelum mereka bertanya, dan itulah alasan orang asing membaca kalimat kedua."
+        "id": "Koneksi menjawab “kenapa saya?” sebelum mereka sempat bertanya, dan itulah alasan orang asing mau membaca kalimat kedua."
        }
       },
       {
@@ -9125,7 +9123,7 @@ window.MT_LMS['the-pack'] = {
        "options": [
         {
          "en": "Follow up with A now",
-         "id": "Tindak lanjuti A sekarang"
+         "id": "Tindak lanjuti A sekarang juga"
         },
         {
          "en": "Message contact B at the same employer",
@@ -9143,13 +9141,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Day 3 is the B trigger; A’s single follow-up waits for day 7.",
-        "id": "Hari ke-3 adalah pemicu B; satu tindak lanjut untuk A menunggu hari ke-7."
+        "id": "Hari ke-3 adalah pemicu untuk B; satu tindak lanjut untuk A menunggu sampai hari ke-7."
        }
       },
       {
        "q": {
         "en": "A contact replies three weeks later offering to “forward your CV to HR”. They are most likely…",
-        "id": "Seorang kontak membalas tiga minggu kemudian menawarkan “meneruskan CV-mu ke HR”. Mereka kemungkinan besar…"
+        "id": "Seorang kontak membalas tiga minggu kemudian dan menawarkan “meneruskan CV-mu ke HR”. Kemungkinan besar ia…"
        },
        "options": [
         {
@@ -9172,7 +9170,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Slow response and a low-effort offer are Obligate tells; politely ask whether a short conversation would be possible, or thank them and move on.",
-        "id": "Balasan lambat dan tawaran berusaha-rendah adalah tanda Obligate; tanyakan dengan sopan apakah percakapan singkat memungkinkan, atau ucapkan terima kasih dan lanjutkan."
+        "id": "Balasan yang lambat dan tawaran yang minim usaha adalah tanda Obligate; tanyakan dengan sopan apakah obrolan singkat memungkinkan, atau ucapkan terima kasih dan lanjut ke yang lain."
        }
       }
      ],
@@ -9181,11 +9179,11 @@ window.MT_LMS['the-pack'] = {
       "mode": "tracker",
       "title": {
        "en": "Outreach drafts and the 3B7 reminders",
-       "id": "Draf penjangkauan dan pengingat 3B7"
+       "id": "Draf penjajakan dan pengingat 3B7"
       },
       "body": {
        "en": "Save your two message drafts (ID and EN) as Dossier item 3, with the word count and the “words about them” ratio written next to each. Then log contact A for each Top 5 employer in the Pipeline Tracker with the send date; the tracker computes the business-day 3 and 7 reminders, and you add any public holiday by hand.",
-       "id": "Simpan dua draf pesanmu (ID dan EN) sebagai butir Dossier 3, dengan jumlah kata dan rasio “kata tentang mereka” ditulis di sebelah masing-masing. Lalu catat kontak A untuk setiap perusahaan 5 Teratas di Pelacak Alur dengan tanggal kirim; pelacak menghitung pengingat hari kerja ke-3 dan ke-7, dan kamu menambahkan hari libur nasional secara manual."
+       "id": "Simpan dua draf pesanmu (ID dan EN) sebagai butir Dossier 3, dengan jumlah kata dan rasio “kata tentang mereka” ditulis di sebelah masing-masing. Lalu catat kontak A untuk tiap perusahaan 5 Teratas di Pelacak Alur beserta tanggal kirimnya; pelacak menghitung pengingat hari kerja ke-3 dan ke-7, dan kamu menambahkan hari libur nasional secara manual."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -9195,7 +9193,7 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Two well-chosen people per employer, one short message each, asking for advice, not a job.",
-       "id": "Dua orang yang dipilih baik per perusahaan, satu pesan singkat masing-masing, meminta saran, bukan pekerjaan."
+       "id": "Dua orang yang dipilih dengan baik di tiap perusahaan, satu pesan singkat untuk masing-masing, meminta saran, bukan pekerjaan."
       },
       {
        "en": "3B7: new contact at day 3, one follow-up at day 7, then stop.",
@@ -9203,7 +9201,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Most silence is normal; Boosters are worth the wait.",
-       "id": "Kebanyakan keheningan itu normal; Booster layak ditunggu."
+       "id": "Kebanyakan pesan yang tak dibalas itu wajar; Booster layak ditunggu."
       }
      ],
      "resources": {
@@ -9213,7 +9211,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "Three sources, a fill-in template for the six points, and the two-sentence day-7 follow-up.",
-       "id": "Tiga sumber, templat isian untuk enam poin, dan tindak lanjut dua kalimat hari ke-7."
+       "id": "Tiga sumber, templat isian untuk enam poin, dan tindak lanjut dua kalimat untuk hari ke-7."
       },
       "items": [
        {
@@ -9229,7 +9227,7 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "S. Dalton, <i>The 2-Hour Job Search</i> (2nd ed., 2020), ch. 5–7, choosing contacts, the six-point message, 3B7, Boosters/Obligates/Curmudgeons.",
-          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 5–7, memilih kontak, pesan enam poin, 3B7, Booster/Obligate/Curmudgeon."
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 5–7; memilih kontak, pesan enam poin, 3B7, Booster/Obligate/Curmudgeon."
          },
          {
           "en": "S. Verma, <i>How to Get a Job</i>, ch. 5–6; reaching people you do not know.",
@@ -9237,7 +9235,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "D. Graham, <i>Switchers</i>, ch. 11, outreach that respects the reader’s time.",
-          "id": "D. Graham, <i>Switchers</i>, bab 11, penjangkauan yang menghormati waktu pembaca."
+          "id": "D. Graham, <i>Switchers</i>, bab 11; penjajakan yang menghormati waktu pembaca."
          }
         ]
        },
@@ -9249,12 +9247,12 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "A frame to adapt to your language; raise the register for a senior contact.",
-         "id": "Kerangka Bahasa Indonesia; ganti register untuk Bapak/Ibu."
+         "id": "Kerangka dalam bahasa Indonesia; naikkan sapaannya ke Bapak/Ibu untuk kontak senior."
         },
         "body": [
          {
           "en": "[Greeting] [Name], my name is [name], a [graduate/student] of [course] [year] from [the connection: same university/organisation]. Sorry to interrupt your day.",
-          "id": "[Salam] Kak [Nama], perkenalkan saya [nama], [lulusan/mahasiswa] [jurusan] [tahun] dari [koneksi: kampus/organisasi yang sama]. Mohon maaf mengganggu waktunya."
+          "id": "[Salam] Kak [Nama], perkenalkan, saya [nama], [lulusan/mahasiswa] [jurusan] [tahun] dari [koneksi: kampus/organisasi yang sama]. Mohon maaf mengganggu waktunya."
          },
          {
           "en": "I [read your post about / saw your] [something specific about them] and found it genuinely interesting.",
@@ -9287,7 +9285,7 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "“Hello [Name], just following up on my message last week; I understand you must be busy. If you have 15 minutes in the next two weeks to share your experience of [topic], I would be very grateful.”",
-          "id": "“Halo Kak [Nama], sekadar menindaklanjuti pesan saya minggu lalu; saya paham Kakak pasti sibuk. Jika ada waktu 15 menit dalam dua minggu ke depan untuk berbagi pengalaman tentang [topik], saya akan sangat berterima kasih.”"
+          "id": "“Halo Kak [Nama], sekadar menindaklanjuti pesan saya minggu lalu; saya paham Kakak pasti sibuk. Kalau ada waktu 15 menit dalam dua minggu ke depan untuk berbagi pengalaman tentang [topik], saya akan sangat berterima kasih.”"
          },
          {
           "en": "“Dear [Name], a brief follow-up to my note last week; I know how busy things get. If fifteen minutes in the next two weeks were possible to hear about [topic], I would be very grateful.”",
@@ -9312,11 +9310,11 @@ window.MT_LMS['the-pack'] = {
      },
      "title": {
       "en": "The Informational Conversation",
-      "id": "Percakapan Informasi"
+      "id": "Obrolan Informasi"
      },
      "overview": {
       "en": "A Booster has said yes to fifteen minutes. This lesson shows how to prepare in fifteen minutes, how to run the conversation so it is genuinely enjoyable for them, and how to close it so it leads somewhere, without ever asking for a job.",
-      "id": "Seorang Booster sudah bilang ya untuk lima belas menit. Pelajaran ini menunjukkan cara menyiapkannya dalam lima belas menit, cara menjalankan percakapan agar benar-benar menyenangkan bagi mereka, dan cara menutupnya agar mengarah ke suatu tempat, tanpa pernah meminta pekerjaan."
+      "id": "Seorang Booster sudah bilang ya untuk lima belas menit. Pelajaran ini menunjukkan cara menyiapkannya dalam lima belas menit, cara menjalankan obrolan supaya benar-benar menyenangkan bagi mereka, dan cara menutupnya supaya berlanjut ke sesuatu, tanpa sekali pun meminta pekerjaan."
      },
      "objectives": [
       {
@@ -9325,7 +9323,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Run a conversation using TIARA, upgrading questions to GLIDE (Grounded, Linked, Inviting, Direct, Easy to answer) quality over time.",
-       "id": "Menjalankan percakapan dengan TIARA, meningkatkan pertanyaan ke kualitas GLIDE (Grounded, Linked, Inviting, Direct, Easy to answer) seiring waktu."
+       "id": "Menjalankan obrolan dengan TIARA, dan lama-kelamaan menaikkan mutu pertanyaan ke standar GLIDE (Grounded, Linked, Inviting, Direct, Easy to answer)."
       },
       {
        "en": "Close with the two-part closing and schedule the harvest follow-up.",
@@ -9333,7 +9331,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Stay on the right side of the advocacy line throughout.",
-       "id": "Tetap di sisi yang benar dari garis advokasi sepanjang percakapan."
+       "id": "Tetap berada di sisi yang benar dari garis advokasi sepanjang obrolan."
       }
      ],
      "readFirst": {
@@ -9341,27 +9339,27 @@ window.MT_LMS['the-pack'] = {
        "bg": "../../assets/bg/alumni.jpg",
        "module": {
         "en": "Module 2 · Targets, Networks & the Hidden Gate",
-        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+        "id": "Modul 2 · Sasaran, Jejaring & Gerbang Tersembunyi"
        },
        "lesson": {
         "n": "2.4",
         "title": {
          "en": "The Informational Conversation",
-         "id": "Percakapan Informasi"
+         "id": "Obrolan Informasi"
         }
        },
        "story": [
         {
          "en": "Fifteen minutes of preparation: three things outside, four answers inside",
-         "id": "Lima belas menit persiapan: tiga hal di luar, empat jawaban di dalam"
+         "id": "Lima belas menit persiapan: tiga hal dari luar, empat jawaban dari dalam"
         },
         {
          "en": "TIARA: five kinds of question, asked for opinions and superlatives, following their energy",
-         "id": "TIARA: lima jenis pertanyaan, menanyakan opini dan superlatif, mengikuti energi mereka"
+         "id": "TIARA: lima jenis pertanyaan, meminta pendapat dan “yang paling”, mengikuti semangat mereka"
         },
         {
          "en": "End on time, thank within a day, close forward, then harvest monthly",
-         "id": "Selesai tepat waktu, berterima kasih dalam sehari, tutup ke depan, lalu panen bulanan"
+         "id": "Selesai tepat waktu, berterima kasih dalam sehari, tutup ke depan, lalu panen tiap bulan"
         }
        ],
        "takes": [
@@ -9372,7 +9370,7 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "“And that is why I would be a strong fit for your team” turns a favour into a sales pitch; the person did not agree to hear one.",
-          "id": "“Dan itulah mengapa saya akan cocok di tim Anda” mengubah bantuan menjadi pidato penjualan; orang itu tidak setuju untuk mendengarnya."
+          "id": "“Dan karena itulah saya akan cocok di tim Anda” mengubah bantuan menjadi promosi; orang itu tidak pernah setuju untuk mendengarnya."
          }
         },
         {
@@ -9382,17 +9380,17 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "Upgrade two questions per conversation to GLIDE quality: the second alumnus gets a better question because the first told you something.",
-          "id": "Tingkatkan dua pertanyaan per percakapan ke kualitas GLIDE: alumnus kedua mendapat pertanyaan lebih baik karena yang pertama memberitahumu sesuatu."
+          "id": "Naikkan dua pertanyaan per obrolan ke mutu GLIDE: alumni kedua mendapat pertanyaan yang lebih baik, karena yang pertama sudah bercerita sesuatu kepadamu."
          }
         },
         {
          "h": {
           "en": "After · close forward",
-          "id": "Setelah · tutup ke depan"
+          "id": "Sesudah · tutup ke depan"
          },
          "p": {
           "en": "For shy learners, PIE: practice conversations about a hobby first, then informational, then employment; the order matters.",
-          "id": "Bagi yang pemalu, PIE: percakapan latihan tentang hobi dulu, lalu informasi, lalu wawancara kerja; urutannya penting."
+          "id": "Untuk yang pemalu, PIE: obrolan latihan tentang hobi dulu, lalu obrolan informasi, lalu wawancara kerja; urutannya penting."
          }
         }
        ],
@@ -9401,7 +9399,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Fifteen minutes of preparation: three things outside, four answers inside",
-          "id": "Lima belas menit persiapan: tiga hal di luar, empat jawaban di dalam"
+          "id": "Lima belas menit persiapan: tiga hal dari luar, empat jawaban dari dalam"
          },
          "src": {
           "en": "FIT",
@@ -9411,7 +9409,7 @@ window.MT_LMS['the-pack'] = {
           {
            "l": {
             "en": "Outside",
-            "id": "Luar"
+            "id": "Dari luar"
            },
            "d": {
             "en": "What you look up",
@@ -9421,17 +9419,17 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "bell",
              "en": "The organisation’s recent positive news",
-             "id": "Berita positif terkini organisasi"
+             "id": "Kabar baik terbaru tentang organisasi itu"
             },
             {
              "icon": "warn",
              "en": "Any obvious recent problem, so you do not raise it clumsily",
-             "id": "Masalah terkini yang jelas, agar tidak kamu angkat dengan canggung"
+             "id": "Masalah terbaru yang mencolok, supaya kamu tidak mengungkitnya dengan canggung"
             },
             {
              "icon": "person",
              "en": "The person’s professional profile",
-             "id": "Profil profesional orang itu"
+             "id": "Profil profesional orangnya"
             }
            ],
            "icon": "search"
@@ -9439,7 +9437,7 @@ window.MT_LMS['the-pack'] = {
           {
            "l": {
             "en": "Inside",
-            "id": "Dalam"
+            "id": "Dari dalam"
            },
            "d": {
             "en": "The Big Four, with FIT and REC",
@@ -9449,17 +9447,17 @@ window.MT_LMS['the-pack'] = {
             {
              "icon": "route",
              "en": "Tell me about yourself: FIT, Favourite, Insight, Transition, per stage, two minutes at most",
-             "id": "Ceritakan tentang dirimu: FIT, Favorit, Insight, Transisi, per tahap, maksimal dua menit"
+             "id": "Ceritakan tentang dirimu: FIT, Favorit, Insight (pelajaran), Transisi, untuk tiap tahap, paling lama dua menit"
             },
             {
              "icon": "building",
              "en": "Why this organisation: Reason and Evidence; hold the Connection back",
-             "id": "Mengapa organisasi ini: Alasan dan Bukti; tahan Koneksinya"
+             "id": "Mengapa organisasi ini: Alasan dan Bukti; simpan dulu Kaitannya"
             },
             {
              "icon": "briefcase",
              "en": "Why this role, why this industry: the same REC without the C",
-             "id": "Mengapa peran ini, mengapa industri ini: REC yang sama tanpa C"
+             "id": "Mengapa posisi ini, mengapa industri ini: REC yang sama, tanpa C"
             }
            ],
            "icon": "mic"
@@ -9470,22 +9468,22 @@ window.MT_LMS['the-pack'] = {
          "items": [],
          "sub": {
           "en": "Mention only professional information you found; nothing from personal social media, and no over-research to impress.",
-          "id": "Sebut hanya informasi profesional yang kamu temukan; tidak ada dari media sosial pribadi, dan jangan riset berlebihan untuk mengesankan."
+          "id": "Sebutkan hanya informasi profesional yang kamu temukan; jangan ambil apa pun dari media sosial pribadi, dan jangan meriset berlebihan demi terlihat mengesankan."
          },
          "band": {
           "en": "“And that is why I would be a strong fit for your team” turns a favour into a sales pitch; the person did not agree to hear one.",
-          "id": "“Dan itulah mengapa saya akan cocok di tim Anda” mengubah bantuan menjadi pidato penjualan; orang itu tidak setuju untuk mendengarnya."
+          "id": "“Dan karena itulah saya akan cocok di tim Anda” mengubah bantuan menjadi promosi; orang itu tidak pernah setuju untuk mendengarnya."
          },
          "em": {
           "en": "three things outside, four answers inside",
-          "id": "tiga hal di luar, empat jawaban di dalam"
+          "id": "tiga hal dari luar, empat jawaban dari dalam"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "TIARA: five kinds of question, asked for opinions and superlatives, following their energy",
-          "id": "TIARA: lima jenis pertanyaan, menanyakan opini dan superlatif, mengikuti energi mereka"
+          "id": "TIARA: lima jenis pertanyaan, meminta pendapat dan “yang paling”, mengikuti semangat mereka"
          },
          "img": "../../assets/pe/ed-conversations.jpg",
          "layout": "flow",
@@ -9496,7 +9494,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Trends",
            "d": {
             "en": "“What’s changing most in your area right now?” Everyone can answer; needs no research.",
-            "id": "“Apa yang paling berubah di bidang Anda sekarang?” Semua bisa menjawab; tanpa riset."
+            "id": "“Apa yang paling banyak berubah di bidang Kakak saat ini?” Semua orang bisa menjawab; tidak perlu riset."
            }
           },
           {
@@ -9505,7 +9503,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Insights",
            "d": {
             "en": "“What surprised you most when you joined?” Invites a story about the inside.",
-            "id": "“Apa yang paling mengejutkan saat Anda bergabung?” Mengundang cerita tentang bagian dalam."
+            "id": "“Apa yang paling mengejutkan waktu Kakak baru bergabung?” Memancing cerita tentang keadaan di dalam."
            }
           },
           {
@@ -9514,7 +9512,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Advice",
            "d": {
             "en": "“If you were in my position, what would you focus on?” Take notes: these become your follow-ups.",
-            "id": "“Kalau di posisi saya, Anda fokus ke apa?” Catat: ini menjadi tindak lanjutmu."
+            "id": "“Kalau Kakak ada di posisi saya, apa yang akan Kakak fokuskan?” Catat: inilah bahan tindak lanjutmu."
            }
           },
           {
@@ -9523,7 +9521,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Resources",
            "d": {
             "en": "“What resources or next steps would you recommend?” Lets them offer an introduction without being asked.",
-            "id": "“Sumber atau langkah apa yang Anda sarankan?” Membiarkan mereka menawarkan perkenalan tanpa diminta."
+            "id": "“Sumber atau langkah berikutnya apa yang Kakak sarankan?” Memberi mereka ruang untuk menawarkan perkenalan tanpa diminta."
            }
           },
           {
@@ -9532,28 +9530,28 @@ window.MT_LMS['the-pack'] = {
            "id": "Assignments",
            "d": {
             "en": "“What kind of work would you give someone like me?” Reveals what the job is really made of.",
-            "id": "“Pekerjaan seperti apa yang akan Anda berikan ke orang seperti saya?” Mengungkap apa sebenarnya isi pekerjaannya."
+            "id": "“Pekerjaan seperti apa yang akan Kakak berikan ke orang seperti saya?” Membongkar apa sebenarnya isi pekerjaan itu."
            }
           }
          ],
          "sub": {
           "en": "After small talk: how their week is going, how they came to the organisation, what they are working on now.",
-          "id": "Setelah basa-basi: bagaimana minggunya, bagaimana mereka sampai ke organisasi itu, apa yang sedang dikerjakan."
+          "id": "Setelah basa-basi: bagaimana minggunya, bagaimana mereka sampai di organisasi itu, apa yang sedang mereka kerjakan."
          },
          "band": {
           "en": "Upgrade two questions per conversation to GLIDE quality: the second alumnus gets a better question because the first told you something.",
-          "id": "Tingkatkan dua pertanyaan per percakapan ke kualitas GLIDE: alumnus kedua mendapat pertanyaan lebih baik karena yang pertama memberitahumu sesuatu."
+          "id": "Naikkan dua pertanyaan per obrolan ke mutu GLIDE: alumni kedua mendapat pertanyaan yang lebih baik, karena yang pertama sudah bercerita sesuatu kepadamu."
          },
          "em": {
           "en": "opinions and superlatives",
-          "id": "opini dan superlatif"
+          "id": "pendapat dan “yang paling”"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "End on time, thank within a day, close forward, then harvest monthly",
-          "id": "Selesai tepat waktu, berterima kasih dalam sehari, tutup ke depan, lalu panen bulanan"
+          "id": "Selesai tepat waktu, berterima kasih dalam sehari, tutup ke depan, lalu panen tiap bulan"
          },
          "img": "../../assets/bg/fg-sprint-offer.jpg",
          "layout": "flow",
@@ -9564,7 +9562,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Hari yang sama",
            "d": {
             "en": "Thank-you within a day; if an introduction was offered, act on it within 24 hours.",
-            "id": "Ucapan terima kasih dalam sehari; jika perkenalan ditawarkan, tindak lanjuti dalam 24 jam."
+            "id": "Ucapan terima kasih dalam sehari; kalau ada perkenalan yang ditawarkan, tindak lanjuti dalam 24 jam."
            }
           },
           {
@@ -9573,7 +9571,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Seminggu kemudian",
            "d": {
             "en": "The two-part close: you have decided to pursue the direction; how would they proceed in your position?",
-            "id": "Penutup dua bagian: kamu memutuskan meneruskan arah ini; bagaimana mereka akan melangkah di posisimu?"
+            "id": "Penutup dua bagian: kamu sudah memutuskan menekuni arah ini; apa yang akan mereka lakukan kalau ada di posisimu?"
            }
           },
           {
@@ -9582,26 +9580,26 @@ window.MT_LMS['the-pack'] = {
            "id": "Dalam dua minggu",
            "d": {
             "en": "Report back on any introduction.",
-            "id": "Laporkan hasil setiap perkenalan."
+            "id": "Laporkan hasil dari setiap perkenalan."
            }
           },
           {
            "icon": "calendar",
            "en": "Monthly",
-           "id": "Bulanan",
+           "id": "Tiap bulan",
            "d": {
             "en": "The harvest note: their advice, what you did, what happened, one question.",
-            "id": "Catatan panen: saran mereka, apa yang kamu lakukan, apa yang terjadi, satu pertanyaan."
+            "id": "Catatan panen: saran mereka, apa yang kamu lakukan, apa hasilnya, satu pertanyaan."
            }
           }
          ],
          "sub": {
           "en": "Do not offer to “repay” a senior person; the real repayment is acting on their advice and telling them what happened.",
-          "id": "Jangan menawarkan “membalas budi” kepada senior; balasan sebenarnya adalah menindaklanjuti saran mereka dan memberi tahu hasilnya."
+          "id": "Jangan menawarkan “balas budi” kepada orang senior; balas budi yang sesungguhnya adalah menjalankan saran mereka dan menceritakan hasilnya."
          },
          "band": {
           "en": "For shy learners, PIE: practice conversations about a hobby first, then informational, then employment; the order matters.",
-          "id": "Bagi yang pemalu, PIE: percakapan latihan tentang hobi dulu, lalu informasi, lalu wawancara kerja; urutannya penting."
+          "id": "Untuk yang pemalu, PIE: obrolan latihan tentang hobi dulu, lalu obrolan informasi, lalu wawancara kerja; urutannya penting."
          },
          "em": {
           "en": "close forward",
@@ -9620,11 +9618,11 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Fifteen minutes that lead somewhere",
-       "id": "Lima belas menit yang mengarah ke suatu tempat"
+       "id": "Lima belas menit yang berlanjut ke sesuatu"
       },
       "intro": {
        "en": "Prepare outside, run inside, close forward. The whole conversation is about them; the job never comes up, and that is why it works.",
-       "id": "Siapkan di luar, jalankan di dalam, tutup ke depan. Seluruh percakapan tentang mereka; pekerjaan tidak pernah disebut, dan itulah mengapa berhasil."
+       "id": "Siapkan dari luar, jalankan dari dalam, tutup ke depan. Seluruh obrolan tentang mereka; pekerjaan tidak pernah disebut, dan justru itulah yang membuatnya berhasil."
       },
       "slides": [
        {
@@ -9635,11 +9633,11 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Outside: recent positive news, an obvious recent problem, their professional profile. Nothing from personal social media.",
-          "id": "Luar: berita positif terkini, masalah terkini yang jelas, profil profesional mereka. Tidak ada dari media sosial pribadi."
+          "id": "Dari luar: kabar baik terbaru tentang perusahaan, masalah terbaru yang mencolok, profil profesional mereka. Jangan ambil apa pun dari media sosial pribadi."
          },
          {
           "en": "Inside: the Big Four; about yourself (FIT), why this organisation, role, industry (REC without the C).",
-          "id": "Dalam: Empat Besar: tentang dirimu (FIT), mengapa organisasi, peran, industri ini (REC tanpa C)."
+          "id": "Dari dalam: Empat Besar, yaitu tentang dirimu (FIT), lalu mengapa organisasi, posisi, dan industri ini (REC tanpa C)."
          }
         ]
        },
@@ -9651,27 +9649,27 @@ window.MT_LMS['the-pack'] = {
         "points": [
          {
           "en": "Small talk, then Trends → Insights → Advice → Resources → Assignments. Opinions and superlatives, not facts you could have searched.",
-          "id": "Basa-basi, lalu Trends → Insights → Advice → Resources → Assignments. Opini dan superlatif, bukan fakta yang bisa kamu cari sendiri."
+          "id": "Basa-basi dulu, lalu Trends → Insights → Advice → Resources → Assignments. Minta pendapat dan “yang paling”, bukan fakta yang bisa kamu cari sendiri."
          },
          {
           "en": "Follow their energy. Take notes on Advice; the Resources question lets them offer an introduction.",
-          "id": "Ikuti energi mereka. Catat bagian Advice; pertanyaan Resources membiarkan mereka menawarkan perkenalan."
+          "id": "Ikuti semangat mereka. Catat bagian Advice; pertanyaan Resources memberi mereka ruang untuk menawarkan perkenalan."
          }
         ]
        },
        {
         "h": {
          "en": "After · close forward",
-         "id": "Setelah · tutup ke depan"
+         "id": "Sesudah · tutup ke depan"
         },
         "points": [
          {
           "en": "End on time. Thank-you within a day. If no introduction was offered: the two-part close a week later.",
-          "id": "Selesai tepat waktu. Ucapan terima kasih dalam sehari. Jika tidak ada perkenalan yang ditawarkan: penutup dua bagian seminggu kemudian."
+          "id": "Selesai tepat waktu. Ucapan terima kasih dalam sehari. Kalau tidak ada perkenalan yang ditawarkan: penutup dua bagian seminggu kemudian."
          },
          {
           "en": "Then the harvest cycle: one short monthly note; their advice, what you did, what happened, one question.",
-          "id": "Lalu siklus panen: satu catatan bulanan singkat; saran mereka, apa yang kamu lakukan, apa yang terjadi, satu pertanyaan."
+          "id": "Lalu siklus panen: satu catatan singkat tiap bulan; saran mereka, apa yang kamu lakukan, apa hasilnya, satu pertanyaan."
          }
         ]
        }
@@ -9686,25 +9684,25 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "External preparation covers three things <i>(Dalton, The 2-Hour Job Search, ch. 8)</i>: the company’s recent positive news, any obvious recent problem, so you do not raise it clumsily, and the person’s professional profile. Mention only professional information you found. Do not bring up things from their personal social media: it feels invasive anywhere, and in professional culture it can be read as disrespectful, especially toward someone older. Do not over-research to impress, either. The aim is a good conversation, not a quiz you have revised for; fifteen minutes is enough, and a person who has clearly read three years of their LinkedIn posts makes the other side uneasy.",
-        "id": "Persiapan eksternal mencakup tiga hal <i>(Dalton, The 2-Hour Job Search, bab 8)</i>: berita positif terkini perusahaan, masalah terkini yang jelas, agar kamu tidak mengangkatnya dengan canggung, dan profil profesional orangnya. Sebutkan hanya informasi profesional yang kamu temukan. Jangan angkat hal-hal dari media sosial pribadi mereka: terasa mengganggu di mana pun, dan dalam budaya profesional bisa terbaca tidak sopan, terutama kepada orang yang lebih tua. Jangan pula meriset berlebihan untuk mengesankan. Tujuannya percakapan yang baik, bukan kuis yang sudah kamu pelajari; lima belas menit cukup, dan orang yang jelas-jelas sudah membaca tiga tahun postingan LinkedIn mereka membuat pihak lain tidak nyaman."
+        "id": "Persiapan dari luar mencakup tiga hal <i>(Dalton, The 2-Hour Job Search, bab 8)</i>: kabar baik terbaru tentang perusahaan, masalah terbaru yang mencolok (supaya kamu tidak mengungkitnya dengan canggung), dan profil profesional orangnya. Sebutkan hanya informasi profesional yang kamu temukan. Jangan mengungkit apa pun dari media sosial pribadinya: itu terasa mengganggu di mana saja, dan dalam budaya profesional bisa dianggap tidak sopan, apalagi kepada orang yang lebih tua. Jangan pula meriset berlebihan demi terlihat mengesankan. Tujuannya obrolan yang enak, bukan kuis yang sudah kamu hafalkan; lima belas menit sudah cukup, dan orang yang jelas-jelas sudah membaca postingan LinkedIn mereka tiga tahun ke belakang justru membuat lawan bicaranya tidak nyaman."
        },
        "bullets": [
         {
          "en": "<b>Company</b>: one recent good thing (a launch, an expansion, an award) and one thing to steer around.",
-         "id": "<b>Perusahaan</b>: satu hal baik terkini (peluncuran, ekspansi, penghargaan) dan satu hal yang perlu dihindari."
+         "id": "<b>Perusahaan</b>: satu kabar baik terbaru (peluncuran, ekspansi, penghargaan) dan satu hal yang sebaiknya tidak disinggung."
         },
         {
          "en": "<b>Person</b>: their path in (which programme, which year), their current role, one thing they wrote or were quoted on.",
-         "id": "<b>Orang</b>: jalur masuk mereka (program mana, tahun berapa), peran saat ini, satu hal yang mereka tulis atau kutip."
+         "id": "<b>Orangnya</b>: jalur masuknya (program apa, tahun berapa), perannya sekarang, satu hal yang pernah ia tulis atau katakan."
         },
         {
          "en": "<b>You</b>: the Big Four below, said aloud once, timed.",
-         "id": "<b>Kamu</b>: Empat Besar di bawah, diucapkan sekali, diukur waktunya."
+         "id": "<b>Kamu</b>: Empat Besar di bawah ini, diucapkan sekali, sambil dihitung waktunya."
         }
        ],
        "key": {
         "en": "Fifteen minutes: one good thing about the company, one problem to avoid, the person’s path, and your four answers said aloud once.",
-        "id": "Lima belas menit: satu hal baik tentang perusahaan, satu masalah yang dihindari, jalur karier orangnya, dan empat jawabanmu diucapkan sekali."
+        "id": "Lima belas menit: satu kabar baik tentang perusahaan, satu masalah yang dihindari, jalur karier orangnya, dan empat jawabanmu diucapkan sekali."
        }
       },
       {
@@ -9715,7 +9713,7 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Prepare four answers <i>(Dalton, ch. 8)</i>: <i>tell me about yourself; why this organisation; why this role; why this industry.</i> For “tell me about yourself”, use <b>FIT</b>: walk through your stages chronologically and, for each, give your <b>F</b>avourite part, the <b>I</b>nsight you gained, and the <b>T</b>ransition you made. Two minutes maximum; a story with a direction, not a CV recital. For the three “why” questions, use <b>REC</b>: <b>R</b>eason, <b>E</b>vidence, and, in formal interviews, <b>C</b>onnection to their needs. In an informational conversation, hold the Connection back: “and that is why I would be a strong fit for your team” turns a favour into a sales pitch, and the person did not agree to be sold to.",
-        "id": "Siapkan empat jawaban <i>(Dalton, bab 8)</i>: <i>ceritakan tentang dirimu; mengapa organisasi ini; mengapa peran ini; mengapa industri ini.</i> Untuk “ceritakan tentang dirimu”, pakai <b>FIT</b>: telusuri tahap-tahapmu secara kronologis dan, untuk masing-masing, sebutkan bagian <b>F</b>avorit, <b>I</b>nsight (wawasan) yang kamu peroleh, dan <b>T</b>ransisi yang kamu buat. Maksimal dua menit; cerita dengan arah, bukan pembacaan CV. Untuk tiga pertanyaan “mengapa”, pakai <b>REC</b>: <b>R</b>eason (alasan), <b>E</b>vidence (bukti), dan, dalam wawancara formal, <b>C</b>onnection (kaitan) dengan kebutuhan mereka. Dalam percakapan informasi, tahan bagian Connection: “dan itulah mengapa saya akan cocok di tim Anda” mengubah bantuan menjadi promosi, dan orang itu tidak setuju untuk dijuali."
+        "id": "Siapkan empat jawaban <i>(Dalton, bab 8)</i>: <i>ceritakan tentang dirimu; mengapa organisasi ini; mengapa posisi ini; mengapa industri ini.</i> Untuk “ceritakan tentang dirimu”, pakai <b>FIT</b>: telusuri tahap-tahap perjalananmu secara urut, dan untuk tiap tahap sebutkan bagian <b>F</b>avorit, <b>I</b>nsight (pelajaran) yang kamu dapat, dan <b>T</b>ransisi yang kamu ambil. Paling lama dua menit; sebuah cerita yang punya arah, bukan pembacaan CV. Untuk tiga pertanyaan “mengapa”, pakai <b>REC</b>: <b>R</b>eason (alasan), <b>E</b>vidence (bukti), dan, dalam wawancara resmi, <b>C</b>onnection (kaitan) dengan kebutuhan mereka. Dalam obrolan informasi, simpan dulu bagian Connection: kalimat “dan karena itulah saya akan cocok di tim Anda” mengubah bantuan menjadi promosi, padahal orang itu tidak pernah setuju untuk dijuali."
        },
        "table": {
         "cols": [
@@ -9729,7 +9727,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Nadia, in one line each",
-          "id": "Nadia, satu baris masing-masing"
+          "id": "Nadia, satu baris untuk tiap jawaban"
          }
         ],
         "rows": [
@@ -9744,7 +9742,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Barista (F: the rush, I: systems beat effort, T: chose management) → HIMA (the students’ association, himpunan mahasiswa) treasurer (F: closing the books, I: numbers persuade, T: sought a bank internship) → bank internship (F: reconciliation, I: operations is where I am useful, T: now targeting MT (management trainee)/officer programme operations).",
-           "id": "Barista (F: jam sibuk, I: sistem mengalahkan usaha, T: memilih manajemen) → bendahara HIMA (F: menutup pembukuan, I: angka meyakinkan, T: mencari magang bank) → magang bank (F: rekonsiliasi, I: operasi adalah tempat saya berguna, T: kini menyasar operasi MT (management trainee, program pelatihan manajemen)/ODP)."
+           "id": "Barista (F: jam sibuk, I: sistem mengalahkan tenaga, T: memilih manajemen) → bendahara HIMA (F: menutup pembukuan, I: angka itu meyakinkan, T: mencari magang di bank) → magang bank (F: rekonsiliasi, I: operasional adalah tempat saya berguna, T: kini membidik operasional lewat MT (management trainee, program pelatihan manajemen)/ODP)."
           }
          ],
          [
@@ -9754,11 +9752,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "R + E (hold C)",
-           "id": "R + E (tahan C)"
+           "id": "R + E (simpan C)"
           },
           {
            "en": "R: a structured rotation into supply chain; E: the MT posts I read describe exactly the operations work I liked in my internship.",
-           "id": "R: rotasi terstruktur ke supply chain; E: postingan MT yang saya baca menggambarkan persis pekerjaan operasi yang saya sukai saat magang."
+           "id": "R: rotasi terstruktur menuju supply chain; E: postingan para MT yang saya baca menggambarkan persis pekerjaan operasional yang saya sukai saat magang."
           }
          ],
          [
@@ -9772,7 +9770,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "R: operations rewards the systems thinking I keep coming back to; E: the reconciliation project and the treasurer’s books.",
-           "id": "R: operasi menghargai pemikiran sistem yang selalu saya kembali padanya; E: proyek rekonsiliasi dan pembukuan bendahara."
+           "id": "R: operasional menghargai cara berpikir sistem yang selalu menarik saya kembali; E: proyek rekonsiliasi dan pembukuan bendahara."
           }
          ],
          [
@@ -9786,7 +9784,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "R: consumer goods moves physical product every day, and the problems are visible; E: my Tegal family shop is the same problem at a smaller scale.",
-           "id": "R: consumer goods memindahkan produk fisik setiap hari, dan masalahnya terlihat; E: toko keluarga saya di Tegal adalah masalah yang sama dalam skala lebih kecil."
+           "id": "R: barang konsumsi memindahkan produk fisik setiap hari, dan masalahnya kasatmata; E: toko keluarga saya di Tegal menghadapi masalah yang sama dalam skala kecil."
           }
          ]
         ],
@@ -9797,18 +9795,18 @@ window.MT_LMS['the-pack'] = {
        },
        "key": {
         "en": "Four answers prepared in advance, with FIT for your story and REC for why this organisation, role and industry.",
-        "id": "Empat jawaban disiapkan di muka, dengan FIT untuk ceritamu dan REC untuk mengapa organisasi, peran, dan industri ini."
+        "id": "Empat jawaban disiapkan lebih dulu: FIT untuk ceritamu, REC untuk mengapa organisasi, posisi, dan industri ini."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "TIARA: the conversation skeleton",
-        "id": "TIARA: kerangka percakapan"
+        "id": "TIARA: kerangka obrolan"
        },
        "body": {
         "en": "After a few minutes of small talk; ask how their week is going, how they came to the organisation, what they are working on now, and follow their energy. Move through five kinds of question <i>(Dalton, ch. 9)</i>. Ask for opinions and superlatives (“What is the best decision you made early on?”) rather than facts you could have found in a search.",
-        "id": "Setelah beberapa menit basa-basi; tanyakan bagaimana minggu mereka, bagaimana mereka sampai di organisasi itu, apa yang sedang mereka kerjakan, dan ikuti energi mereka, lewati lima jenis pertanyaan <i>(Dalton, bab 9)</i>. Minta opini dan superlatif (“Apa keputusan terbaik yang Kakak ambil di awal?”) daripada fakta yang bisa kamu temukan lewat pencarian."
+        "id": "Setelah beberapa menit basa-basi (bagaimana minggunya, bagaimana ia sampai di organisasi itu, apa yang sedang ia kerjakan), ikuti semangatnya dan bergeraklah melewati lima jenis pertanyaan <i>(Dalton, bab 9)</i>. Mintalah pendapat dan “yang paling” (“Apa keputusan terbaik yang Kakak ambil di awal karier?”), bukan fakta yang bisa kamu temukan lewat pencarian."
        },
        "table": {
         "cols": [
@@ -9822,7 +9820,7 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "What it does",
-          "id": "Fungsinya"
+          "id": "Gunanya"
          }
         ],
         "rows": [
@@ -9833,11 +9831,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“What’s changing most in your area right now?”",
-           "id": "“Apa yang paling berubah di bidang Kakak saat ini?”"
+           "id": "“Apa yang paling banyak berubah di bidang Kakak saat ini?”"
           },
           {
            "en": "Everyone can answer; needs no research; opens the door.",
-           "id": "Semua orang bisa menjawab; tanpa riset; membuka pintu."
+           "id": "Semua orang bisa menjawab; tidak perlu riset; membuka pintu."
           }
          ],
          [
@@ -9847,11 +9845,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“What surprised you most when you joined?”",
-           "id": "“Apa yang paling mengejutkan saat Kakak bergabung?”"
+           "id": "“Apa yang paling mengejutkan Kakak waktu baru bergabung?”"
           },
           {
            "en": "Invites a story; tells you what the inside is really like.",
-           "id": "Mengundang cerita; memberitahumu seperti apa bagian dalamnya."
+           "id": "Memancing cerita; memberi tahu seperti apa sebenarnya di dalam."
           }
          ],
          [
@@ -9861,11 +9859,11 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "“If you were in my position, what would you focus on?”",
-           "id": "“Kalau Kakak di posisi saya, apa yang akan Kakak fokuskan?”"
+           "id": "“Kalau Kakak ada di posisi saya, apa yang akan Kakak fokuskan?”"
           },
           {
            "en": "Take notes: these answers become your follow-ups and your harvest note.",
-           "id": "Catat: jawaban ini menjadi tindak lanjut dan catatan panenmu."
+           "id": "Catat: jawaban ini menjadi bahan tindak lanjut dan catatan panenmu."
           }
          ],
          [
@@ -9879,7 +9877,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Lets them <i>offer</i> an introduction without being asked.",
-           "id": "Membiarkan mereka <i>menawarkan</i> perkenalan tanpa diminta."
+           "id": "Memberi mereka ruang untuk <i>menawarkan</i> perkenalan tanpa diminta."
           }
          ],
          [
@@ -9893,39 +9891,39 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Shows you where you could contribute, and gives you the language for it.",
-           "id": "Menunjukkan tempat kamu bisa berkontribusi, dan memberimu bahasanya."
+           "id": "Menunjukkan di mana kamu bisa berkontribusi, sekaligus memberimu bahasanya."
           }
          ]
         ]
        },
        "key": {
         "en": "TIARA gives the conversation a skeleton: trends, insights, advice, resources, assignments, asked as opinions, not facts you could have looked up.",
-        "id": "TIARA memberi kerangka percakapan: tren, wawasan, saran, sumber daya, penugasan, ditanyakan sebagai pendapat, bukan fakta yang bisa kamu cari sendiri."
+        "id": "TIARA memberi kerangka obrolan: tren, wawasan, saran, sumber, penugasan, ditanyakan sebagai pendapat, bukan fakta yang bisa kamu cari sendiri."
        }
       },
       {
        "icon": "chart",
        "h": {
         "en": "Upgrading to GLIDE",
-        "id": "Meningkatkan ke GLIDE"
+        "id": "Naik kelas ke GLIDE"
        },
        "body": {
         "en": "Dawn Graham warns that generic questions; “What’s the culture like?” Signal thin preparation <i>(Graham, Switchers, ch. 9)</i>. Her standard is <b>GLIDE</b>: a good question <b>G</b>ets information not available online, <b>L</b>eads to an interesting conversation, is <b>I</b>n the person’s knowledge, <b>D</b>emonstrates your market knowledge, and <b>E</b>xpresses a relevant skill of yours. For a first conversation, TIARA’s research-free questions are safer. As you learn from each conversation, upgrade two questions per conversation to GLIDE quality. The second alumnus at Arunika gets a better question than the first because the first told you something.",
-        "id": "Dawn Graham memperingatkan bahwa pertanyaan generik, “Budayanya seperti apa?” Menandakan persiapan tipis <i>(Graham, Switchers, bab 9)</i>. Standarnya adalah <b>GLIDE</b>: pertanyaan yang baik <b>G</b>ets (mendapat) informasi yang tidak tersedia daring, <b>L</b>eads (mengarah) ke percakapan yang menarik, <b>I</b>n (berada dalam) pengetahuan orangnya, <b>D</b>emonstrates (menunjukkan) pengetahuan pasarmu, dan <b>E</b>xpresses (mengungkapkan) keterampilan relevanmu. Untuk percakapan pertama, pertanyaan TIARA yang tanpa riset lebih aman. Seiring kamu belajar dari setiap percakapan, tingkatkan dua pertanyaan per percakapan ke kualitas GLIDE, alumnus kedua di Arunika mendapat pertanyaan yang lebih baik daripada yang pertama karena yang pertama memberitahumu sesuatu."
+        "id": "Dawn Graham mengingatkan bahwa pertanyaan generik seperti “Budayanya seperti apa?” menandakan persiapan yang tipis <i>(Graham, Switchers, bab 9)</i>. Standarnya adalah <b>GLIDE</b>: pertanyaan yang baik <b>G</b>ets (menggali) informasi yang tidak ada di internet, <b>L</b>eads (mengarah) ke obrolan yang menarik, <b>I</b>n (berada dalam) pengetahuan orangnya, <b>D</b>emonstrates (menunjukkan) bahwa kamu paham pasarnya, dan <b>E</b>xpresses (memperlihatkan) keterampilanmu yang relevan. Untuk obrolan pertama, pertanyaan TIARA yang tidak butuh riset lebih aman. Seiring kamu belajar dari tiap obrolan, naikkan dua pertanyaan per obrolan ke mutu GLIDE. Alumni kedua di Arunika mendapat pertanyaan yang lebih baik daripada yang pertama, karena yang pertama sudah bercerita sesuatu kepadamu."
        },
        "quote": {
         "text": {
          "en": "“What’s it like working there?” → “Two of your colleagues mentioned the MT rotation now starts in supply chain rather than sales; how has that changed what the first year teaches?”",
-         "id": "“Bagaimana rasanya bekerja di sana?” → “Dua rekan Kakak menyebut rotasi MT kini dimulai di supply chain, bukan sales; bagaimana itu mengubah apa yang diajarkan tahun pertama?”"
+         "id": "“Bagaimana rasanya bekerja di sana?” → “Dua rekan Kakak bilang rotasi MT sekarang dimulai di supply chain, bukan sales; bagaimana itu mengubah apa yang diajarkan di tahun pertama?”"
         },
         "who": {
          "en": "The upgrade: not online (G), opens a story (L), theirs to answer (I), shows you have been listening to the market (D), and hints at what you care about (E).",
-         "id": "Peningkatannya: tidak ada daring (G), membuka cerita (L), milik mereka untuk dijawab (I), menunjukkan kamu menyimak pasar (D), dan mengisyaratkan apa yang kamu pedulikan (E)."
+         "id": "Versi naik kelas: tidak ada di internet (G), membuka cerita (L), merekalah yang paling tahu jawabannya (I), menunjukkan kamu menyimak pasar (D), dan mengisyaratkan apa yang kamu pedulikan (E)."
         }
        },
        "key": {
         "en": "A good question gets what is not online, leads somewhere interesting, sits inside their knowledge, and shows you did the reading.",
-        "id": "Pertanyaan yang baik menggali yang tidak ada di internet, mengarah ke tempat menarik, berada dalam pengetahuan mereka, dan menunjukkan kamu sudah membaca."
+        "id": "Pertanyaan yang baik menggali yang tidak ada di internet, mengarah ke hal yang menarik, berada dalam pengetahuan mereka, dan menunjukkan kamu sudah membaca."
        }
       },
       {
@@ -9936,28 +9934,28 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "If they offer an introduction, thank them, act on it within 24 hours, and report back within two weeks. If they do not, use Dalton’s two-part close <i>(ch. 9)</i>: (1) at the end of the call, thank them and ask whether you may reach out again after you have reflected; (2) about a week later, write that you have decided to pursue the direction further and ask how they would proceed in your position, for example, whom they would talk to next. That question is the Resources question asked a second time, with a week of evidence that you listened. Then begin the <b>harvest cycle</b> <i>(Dalton, ch. 10)</i>: a short monthly note recapping their advice, what you did with it, what happened, and one question. Three of these and the person is following your search; a Booster who is following your search mentions you when a vacancy opens.",
-        "id": "Jika mereka menawarkan perkenalan, ucapkan terima kasih, tindak lanjuti dalam 24 jam, dan laporkan kembali dalam dua minggu. Jika tidak, pakai penutup dua bagian Dalton <i>(bab 9)</i>: (1) di akhir panggilan, ucapkan terima kasih dan tanyakan apakah kamu boleh menghubungi lagi setelah merenung; (2) sekitar seminggu kemudian, tulis bahwa kamu sudah memutuskan menekuni arah itu lebih jauh dan tanyakan bagaimana mereka akan melangkah di posisimu. Misalnya, siapa yang akan mereka ajak bicara berikutnya. Pertanyaan itu adalah pertanyaan Resources yang ditanyakan kedua kali, dengan bukti seminggu bahwa kamu menyimak. Lalu mulai <b>siklus panen</b> <i>(Dalton, bab 10)</i>: catatan bulanan singkat yang merangkum saran mereka, apa yang kamu lakukan dengannya, apa yang terjadi, dan satu pertanyaan. Tiga catatan seperti itu dan orang tersebut mengikuti pencarianmu; Booster yang mengikuti pencarianmu menyebut namamu ketika lowongan dibuka."
+        "id": "Kalau mereka menawarkan perkenalan: ucapkan terima kasih, tindak lanjuti dalam 24 jam, dan laporkan hasilnya dalam dua minggu. Kalau tidak, pakai penutup dua bagian dari Dalton <i>(bab 9)</i>: (1) di akhir panggilan, ucapkan terima kasih dan tanyakan apakah kamu boleh menghubungi lagi setelah merenungkan obrolan itu; (2) kira-kira seminggu kemudian, tulis bahwa kamu sudah memutuskan untuk menekuni arah itu lebih jauh dan tanyakan apa yang akan mereka lakukan kalau ada di posisimu, misalnya siapa yang akan mereka ajak bicara berikutnya. Pertanyaan itu adalah pertanyaan Resources yang diajukan untuk kedua kalinya, dengan bukti seminggu bahwa kamu menyimak. Setelah itu mulailah <b>siklus panen</b> <i>(Dalton, bab 10)</i>: catatan singkat tiap bulan yang merangkum saran mereka, apa yang kamu lakukan dengannya, apa hasilnya, dan satu pertanyaan. Tiga catatan seperti itu, dan orang itu mulai mengikuti pencarianmu; Booster yang mengikuti pencarianmu akan menyebut namamu begitu ada lowongan terbuka."
        },
        "bullets": [
         {
          "en": "<b>Day 0–1</b>: thank-you: three to five sentences, naming one specific piece of advice.",
-         "id": "<b>Hari 0–1</b>: ucapan terima kasih: tiga sampai lima kalimat, menyebut satu saran spesifik."
+         "id": "<b>Hari 0–1</b>: ucapan terima kasih: tiga sampai lima kalimat, menyebut satu saran yang spesifik."
         },
         {
          "en": "<b>Day 1</b>: if introduced to someone: write to them, mentioning who introduced you (with permission).",
-         "id": "<b>Hari 1</b>: jika diperkenalkan ke seseorang: tulis kepada mereka, menyebut siapa yang memperkenalkan (dengan izin)."
+         "id": "<b>Hari 1</b>: kalau diperkenalkan ke seseorang: tulis kepadanya, dengan menyebut siapa yang memperkenalkan (atas izin)."
         },
         {
          "en": "<b>Day 7</b>: part two of the close, if no introduction was offered.",
-         "id": "<b>Hari 7</b>: bagian kedua penutup, jika tidak ada perkenalan yang ditawarkan."
+         "id": "<b>Hari 7</b>: bagian kedua penutup, kalau tidak ada perkenalan yang ditawarkan."
         },
         {
          "en": "<b>Day 14</b>: report back on the introduction: what happened.",
-         "id": "<b>Hari 14</b>: laporkan kembali perkenalannya: apa yang terjadi."
+         "id": "<b>Hari 14</b>: laporkan hasil perkenalannya: apa yang terjadi."
         },
         {
          "en": "<b>Monthly</b>: the harvest note. Short; one question; no attachments.",
-         "id": "<b>Bulanan</b>: catatan panen. Singkat; satu pertanyaan; tanpa lampiran."
+         "id": "<b>Tiap bulan</b>: catatan panen. Singkat; satu pertanyaan; tanpa lampiran."
         }
        ],
        "key": {
@@ -9969,30 +9967,30 @@ window.MT_LMS['the-pack'] = {
        "icon": "users",
        "h": {
         "en": "Don’t offer to “repay” a senior person",
-        "id": "Jangan menawarkan “membalas budi” kepada orang senior"
+        "id": "Jangan menawarkan “balas budi” kepada orang senior"
        },
        "body": {
         "en": "Dalton argues that asking a senior person “how can I help you?” turns a generous social exchange into an awkward transaction. They cannot think of anything, and now both of you know it <i>(ch. 9)</i>. The real repayment is acting on their advice and telling them what happened; the harvest note <i>is</i> the thank-you. For <b>warm</b> contacts, people who already know you: a lecturer, a former internship supervisor, a family friend, Reynold Levy’s advice complements this: be specific and make your ask easy to say yes to <i>(Levy, Start Now)</i>. “Would you introduce me to anyone at Arunika?” is vague and hard; “Could you introduce me to Bu Sari in the supply-chain team, with a two-line note I have drafted for you?” is specific and easy. <b>Course rule: indirect with strangers, specific with warm ties.</b>",
-        "id": "Dalton berpendapat bahwa bertanya kepada orang senior “bagaimana saya bisa membantu Bapak?” mengubah pertukaran sosial yang murah hati menjadi transaksi yang canggung. Mereka tidak bisa memikirkan apa pun, dan kini kalian berdua tahu itu <i>(bab 9)</i>. Balasan yang sesungguhnya adalah menjalankan saran mereka dan memberitahu apa yang terjadi; catatan panen <i>adalah</i> ucapan terima kasihnya. Untuk kontak <b>hangat</b>, orang yang sudah mengenalmu: dosen, mantan pembimbing magang, teman keluarga, saran Reynold Levy melengkapinya: spesifik, dan buat permintaanmu mudah dijawab ya <i>(Levy, Start Now)</i>. “Apakah Bapak bisa memperkenalkan saya ke siapa pun di Arunika?” itu samar dan sulit; “Bisakah Bapak memperkenalkan saya ke Bu Sari di tim supply chain, dengan catatan dua baris yang sudah saya siapkan untuk Bapak?” itu spesifik dan mudah. <b>Aturan kursus: tidak langsung dengan orang asing, spesifik dengan ikatan hangat.</b>"
+        "id": "Dalton berpendapat bahwa bertanya kepada orang senior “ada yang bisa saya bantu?” mengubah pertukaran sosial yang murah hati menjadi transaksi yang canggung. Mereka tidak bisa memikirkan apa pun, dan kini kalian berdua sama-sama tahu itu <i>(bab 9)</i>. Balas budi yang sesungguhnya adalah menjalankan saran mereka dan menceritakan hasilnya; catatan panen <i>adalah</i> ucapan terima kasihnya. Untuk kontak yang <b>hangat</b>, orang yang sudah mengenalmu (dosen, mantan pembimbing magang, teman keluarga), saran Reynold Levy melengkapinya: minta dengan spesifik, dan buat permintaanmu mudah dijawab “ya” <i>(Levy, Start Now)</i>. “Apakah Bapak bisa memperkenalkan saya ke siapa saja di Arunika?” itu samar dan berat; “Bisakah Bapak memperkenalkan saya ke Bu Sari di tim supply chain, dengan catatan dua baris yang sudah saya siapkan?” itu spesifik dan ringan. <b>Aturan kursus: tidak langsung dengan orang asing, spesifik dengan kenalan hangat.</b>"
        },
        "key": {
         "en": "Do not offer to repay a senior person; the repayment is acting on their advice and telling them what happened.",
-        "id": "Jangan menawarkan balas budi kepada orang senior; balas budinya adalah menjalankan sarannya dan menceritakan hasilnya."
+        "id": "Jangan menawarkan balas budi kepada orang senior; balas budinya adalah menjalankan saran mereka dan menceritakan hasilnya."
        }
       },
       {
        "icon": "target",
        "h": {
         "en": "For shy learners: PIE (Pleasure, Information, Employment)",
-        "id": "Untuk pembelajar pemalu: PIE (Pleasure, Information, Employment)"
+        "id": "Untuk yang pemalu: PIE (Pleasure, Information, Employment)"
        },
        "body": {
         "en": "If a fifteen-minute call with a stranger feels impossible, use Bolles’s graded approach <i>(Bolles, What Color Is Your Parachute?, ch. 3)</i>: <b>P</b>ractice conversations first, about a hobby you genuinely enjoy, with anyone who shares it, purely to get used to talking with strangers about something you care about; then <b>I</b>nformational conversations, like this lesson’s; then <b>E</b>mployment interviews. Enthusiasm for the topic dissolves shyness, which is also why TIARA asks about <i>their</i> favourite things. Nadia’s practice conversations were with two other baristas about latte art. Her first informational conversation was with Rina. The order mattered.",
-        "id": "Jika panggilan lima belas menit dengan orang asing terasa mustahil, pakai pendekatan bertahap Bolles <i>(Bolles, What Color Is Your Parachute?, bab 3)</i>: <b>P</b>ractice (latihan) percakapan lebih dulu, tentang hobi yang benar-benar kamu nikmati, dengan siapa pun yang berbagi hobi itu, semata-mata untuk terbiasa berbicara dengan orang asing tentang hal yang kamu pedulikan; lalu percakapan <b>I</b>nformasi, seperti pelajaran ini; lalu wawancara <b>E</b>mployment (kerja). Antusiasme pada topik melarutkan rasa malu, itulah juga mengapa TIARA menanyakan hal-hal favorit <i>mereka</i>. Percakapan latihan Nadia adalah dengan dua barista lain tentang latte art. Percakapan informasi pertamanya dengan Kak Rina. Urutannya penting."
+        "id": "Kalau menelepon orang asing selama lima belas menit terasa mustahil, pakai pendekatan bertahap dari Bolles <i>(Bolles, What Color Is Your Parachute?, bab 3)</i>: mulai dengan obrolan <b>P</b>ractice (latihan) tentang hobi yang benar-benar kamu sukai, dengan siapa pun yang punya hobi sama, semata-mata supaya terbiasa mengobrol dengan orang asing tentang hal yang kamu pedulikan; lalu obrolan <b>I</b>nformasi, seperti di pelajaran ini; baru wawancara <b>E</b>mployment (kerja). Semangat pada topiknya melunturkan rasa malu, dan itu pula alasan TIARA menanyakan hal-hal favorit <i>mereka</i>. Obrolan latihan Nadia adalah dengan dua barista lain tentang latte art. Obrolan informasi pertamanya dengan Kak Rina. Urutannya penting."
        },
        "key": {
         "en": "If a call with a stranger feels impossible, climb gradually: practice conversations about a hobby, then informational ones, then employment.",
-        "id": "Jika menelepon orang asing terasa mustahil, naik bertahap: percakapan latihan tentang hobi, lalu percakapan informasi, baru soal pekerjaan."
+        "id": "Kalau menelepon orang asing terasa mustahil, naik bertahap: obrolan latihan tentang hobi, lalu obrolan informasi, baru soal pekerjaan."
        }
       }
      ],
@@ -10004,7 +10002,7 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "Where the minutes go, and what each part is for",
-       "id": "Ke mana menitnya pergi, dan untuk apa setiap bagian"
+       "id": "Ke mana menitnya pergi, dan untuk apa tiap bagiannya"
       },
       "items": [
        {
@@ -10015,7 +10013,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Her week, how she came to Arunika, what she is working on now. Follow the energy.",
-         "id": "Minggunya, bagaimana ia sampai di Arunika, apa yang sedang ia kerjakan. Ikuti energinya."
+         "id": "Minggunya, bagaimana ia sampai di Arunika, apa yang sedang ia kerjakan. Ikuti semangatnya."
         }
        },
        {
@@ -10026,7 +10024,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "“What’s changing most in supply chain at Arunika right now?”",
-         "id": "“Apa yang paling berubah di supply chain Arunika saat ini?”"
+         "id": "“Apa yang paling banyak berubah di supply chain Arunika saat ini?”"
         }
        },
        {
@@ -10048,7 +10046,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "“If you were me, what would you focus on before the MT window?” Write it down.",
-         "id": "“Kalau Kakak jadi saya, apa yang akan difokuskan sebelum jendela MT?” Tulis."
+         "id": "“Kalau Kakak jadi saya, apa yang akan difokuskan sebelum pendaftaran MT dibuka?” Catat."
         }
        },
        {
@@ -10059,7 +10057,7 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "“What next steps or people would you recommend?” She may offer Budi. Ask if you may use her name.",
-         "id": "“Langkah atau orang berikutnya apa yang Kakak sarankan?” Ia mungkin menawarkan Budi. Tanyakan boleh menyebut namanya."
+         "id": "“Langkah atau orang berikutnya apa yang Kakak sarankan?” Ia mungkin menawarkan Budi. Tanyakan apakah boleh menyebut namanya."
         }
        },
        {
@@ -10081,17 +10079,17 @@ window.MT_LMS['the-pack'] = {
         },
         "sub": {
          "en": "Thank her; may you reach out again after reflecting? Offer to end on time.",
-         "id": "Ucapkan terima kasih; boleh menghubungi lagi setelah merenung? Tawarkan selesai tepat waktu."
+         "id": "Ucapkan terima kasih; boleh menghubungi lagi setelah merenung? Tawarkan untuk selesai tepat waktu."
         }
        }
       ],
       "note": {
        "en": "The Big Four are answers you carry, not a segment you deliver: they appear only if she asks. Most of the fifteen minutes is her talking.",
-       "id": "Empat Besar adalah jawaban yang kamu bawa, bukan segmen yang kamu sampaikan: muncul hanya jika ia bertanya. Sebagian besar lima belas menit itu ia yang bicara."
+       "id": "Empat Besar adalah jawaban yang kamu bawa, bukan bagian yang kamu sampaikan: muncul hanya kalau ia bertanya. Sebagian besar dari lima belas menit itu, dialah yang bicara."
       },
       "longdesc": {
        "en": "A seven-stage flow of a fifteen-minute informational conversation: three minutes of small talk following the contact’s energy; two minutes on Trends; three on Insights, with a follow-up on what made a project hard; three on Advice, written down; two on Resources, where the contact may offer an introduction; one on Assignments; and one minute to close by thanking her, asking whether a further message is welcome, and offering to end on time.",
-       "id": "Alur tujuh tahap percakapan informasi lima belas menit: tiga menit basa-basi mengikuti energi kontak; dua menit untuk Trends; tiga untuk Insights, dengan tindak lanjut tentang apa yang membuat proyek sulit; tiga untuk Advice, ditulis; dua untuk Resources, ketika kontak mungkin menawarkan perkenalan; satu untuk Assignments; dan satu menit untuk menutup dengan berterima kasih, menanyakan apakah pesan lanjutan diterima, dan menawarkan selesai tepat waktu."
+       "id": "Alur tujuh tahap obrolan informasi lima belas menit: tiga menit basa-basi mengikuti semangat lawan bicara; dua menit untuk Trends; tiga untuk Insights, dengan pertanyaan lanjutan tentang apa yang membuat sebuah proyek sulit; tiga untuk Advice, dicatat; dua untuk Resources, saat lawan bicara mungkin menawarkan perkenalan; satu untuk Assignments; dan satu menit untuk menutup dengan ucapan terima kasih, bertanya apakah pesan lanjutan diterima, dan menawarkan untuk selesai tepat waktu."
       }
      },
      "compare": [
@@ -10106,15 +10104,15 @@ window.MT_LMS['the-pack'] = {
        },
        "weak": {
         "en": "“Okay. And what’s the culture like at Arunika? Is it a nice place to work? What are the benefits for MTs?”",
-        "id": "“Oke. Dan budaya di Arunika seperti apa, Kak? Apakah tempat kerjanya enak? Apa saja benefit untuk MT?”"
+        "id": "“Oke. Terus budaya di Arunika seperti apa, Kak? Enak nggak kerja di sana? Benefit untuk MT apa saja?”"
        },
        "strong": {
         "en": "“That’s a big change; what did the first cohort to start in supply chain find hardest, and what do you think the company was trying to fix by moving it?”",
-        "id": "“Itu perubahan besar: apa yang paling sulit bagi angkatan pertama yang mulai di supply chain, dan menurut Kakak apa yang ingin diperbaiki perusahaan dengan memindahkannya?”"
+        "id": "“Itu perubahan besar. Apa yang paling sulit buat angkatan pertama yang mulai di supply chain, dan menurut Kakak apa yang sebenarnya ingin dibenahi perusahaan dengan memindahkannya?”"
        },
        "why": {
         "en": "The weak version ignores what she just said and asks three searchable questions in a row; it signals thin preparation and reads as a checklist. The strong version follows the energy, asks for her opinion and a superlative, and is GLIDE-quality without any research; because the research was her previous sentence.",
-        "id": "Versi lemah mengabaikan apa yang baru ia katakan dan mengajukan tiga pertanyaan yang bisa dicari berturut-turut; menandakan persiapan tipis dan terbaca seperti daftar periksa. Versi kuat mengikuti energi, meminta opini dan superlatifnya, dan berkualitas GLIDE tanpa riset apa pun; karena risetnya adalah kalimatnya barusan."
+        "id": "Versi yang lemah mengabaikan apa yang baru saja ia katakan dan mengajukan tiga pertanyaan yang bisa dicari di internet berturut-turut; terkesan persiapannya tipis dan terbaca seperti daftar periksa. Versi yang kuat mengikuti semangatnya, meminta pendapat dan “yang paling”, dan sudah bermutu GLIDE tanpa riset apa pun, karena risetnya adalah kalimat yang baru saja ia ucapkan."
        }
       }
      ],
@@ -10127,11 +10125,11 @@ window.MT_LMS['the-pack'] = {
       "body": [
        {
         "en": "Minute twelve. Nadia asks the Resources question; “What next steps would you recommend?” And Rina thinks for a moment and says, “You should talk to Budi in the MT team; he ran the supply-chain onboarding this year. I can tell him you’ll write.” Nadia did not ask for an introduction. She asked what Rina would recommend, and Rina recommended a person.",
-        "id": "Menit kedua belas. Nadia mengajukan pertanyaan Resources, “Langkah berikutnya apa yang Kakak sarankan?” Dan Kak Rina berpikir sejenak lalu bilang, “Kamu harus bicara dengan Budi di tim MT; dia yang mengelola onboarding supply chain tahun ini. Saya bisa bilang ke dia kalau kamu akan menulis.” Nadia tidak meminta perkenalan. Ia menanyakan apa yang Rina sarankan, dan Rina menyarankan seseorang."
+        "id": "Menit kedua belas. Nadia mengajukan pertanyaan Resources: “Langkah berikutnya apa yang Kakak sarankan?” Kak Rina berpikir sejenak, lalu bilang, “Kamu harus ngobrol sama Budi di tim MT; dia yang pegang onboarding supply chain tahun ini. Nanti aku bilang ke dia kalau kamu mau kirim pesan.” Nadia tidak meminta perkenalan. Ia bertanya apa yang Rina sarankan, dan Rina menyarankan seseorang."
        },
        {
         "en": "This is the advocacy line: you never step over it, and the Resources question invites the other person to step over it for you. Had Nadia asked “could you introduce me to someone in the MT team?”, Rina would have had to decide whether to spend her name on a stranger. Because Nadia asked for a recommendation, Rina spent it freely. Nadia thanks her, asks whether she may mention Rina’s name, and writes to Budi the next morning. A six-point message whose connection is now “Kak Rina suggested I write to you”.",
-        "id": "Inilah garis advokasi: kamu tidak pernah melangkahinya, dan pertanyaan Resources mengundang orang lain untuk melangkahinya bagimu. Seandainya Nadia bertanya “bisakah Kakak memperkenalkan saya ke seseorang di tim MT?”, Rina harus memutuskan apakah mempertaruhkan namanya untuk orang asing. Karena Nadia meminta saran, Rina memberikannya dengan bebas. Nadia berterima kasih, menanyakan apakah boleh menyebut nama Rina, dan menulis ke Budi keesokan paginya, pesan enam poin yang koneksinya kini “Kak Rina menyarankan saya menulis kepada Bapak”."
+        "id": "Inilah garis advokasi: kamu tidak pernah melangkahinya, dan pertanyaan Resources mengundang orang lain untuk melangkahinya bagimu. Seandainya Nadia bertanya “bisa kenalkan saya ke seseorang di tim MT, Kak?”, Rina harus memutuskan apakah mau mempertaruhkan namanya untuk orang asing. Karena Nadia hanya meminta saran, Rina memberikannya dengan lega. Nadia berterima kasih, bertanya apakah boleh menyebut nama Rina, dan menulis ke Budi keesokan paginya: pesan enam poin yang koneksinya kini berbunyi “Kak Rina menyarankan saya menulis kepada Bapak”."
        }
       ]
      },
@@ -10143,25 +10141,25 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Rina says, “So, what can I help with?” Choose: (a) “Could you refer me for the MT programme?” (b) “I’d love to hear how you got into supply chain at Arunika.” (c) A two-minute recital of your CV.",
-        "id": "Kak Rina bilang, “Jadi, ada yang bisa saya bantu?” Pilih: (a) “Bisakah Kakak mereferensikan saya untuk program MT?” (b) “Saya ingin sekali mendengar bagaimana Kakak masuk ke supply chain di Arunika.” (c) Pembacaan CV dua menit."
+        "id": "Kak Rina bilang, “Jadi, ada yang bisa aku bantu?” Pilih: (a) “Bisakah Kakak mereferensikan saya untuk program MT?” (b) “Saya ingin sekali dengar cerita bagaimana Kakak bisa masuk ke supply chain di Arunika.” (c) Membacakan CV selama dua menit."
        },
        "debrief": {
         "en": "(b). It starts TIARA and puts the conversation on her experience. (a) steps over the advocacy line in the first sentence; she now has to say no, politely, and the rest of the call is spent recovering. (c) answers a question she did not ask; FIT is for when she asks “tell me about yourself”.",
-        "id": "(b). Memulai TIARA dan menempatkan percakapan pada pengalamannya. (a) melangkahi garis advokasi di kalimat pertama; kini ia harus menolak, dengan sopan, dan sisa panggilan dihabiskan untuk memulihkan. (c) menjawab pertanyaan yang tidak ia ajukan; FIT untuk ketika ia bertanya “ceritakan tentang dirimu”."
+        "id": "(b). Itu memulai TIARA dan menaruh obrolan pada pengalamannya. (a) melangkahi garis advokasi di kalimat pertama; kini ia terpaksa menolak dengan sopan, dan sisa panggilan habis untuk memulihkan suasana. (c) menjawab pertanyaan yang tidak ia ajukan; FIT disimpan untuk saat ia bertanya “ceritakan tentang dirimu”."
        }
       },
       {
        "h": {
         "en": "Minute 6: The energy",
-        "id": "Menit 6: Energi"
+        "id": "Menit 6: Semangatnya"
        },
        "body": {
         "en": "She lights up talking about a warehouse consolidation project in Semarang. Choose: (a) Move to your next prepared question (Advice). (b) Ask what made that project hard.",
-        "id": "Ia bersemangat bercerita tentang proyek konsolidasi gudang di Semarang. Pilih: (a) Pindah ke pertanyaan berikutnya yang sudah disiapkan (Advice). (b) Tanyakan apa yang membuat proyek itu sulit."
+        "id": "Matanya berbinar saat bercerita tentang proyek penggabungan gudang di Semarang. Pilih: (a) Pindah ke pertanyaan berikutnya yang sudah kamu siapkan (Advice). (b) Tanyakan apa yang membuat proyek itu sulit."
        },
        "debrief": {
         "en": "(b). Follow the energy. Questions that follow up on what someone has just said are the strongest signal that you are listening, and being listened to is what makes the call enjoyable for her. Your prepared list is a safety net, not a script; you will get to Advice at minute nine instead of eight.",
-        "id": "(b). Ikuti energinya. Pertanyaan yang menindaklanjuti apa yang baru dikatakan seseorang adalah sinyal terkuat bahwa kamu menyimak, dan disimak adalah yang membuat panggilan itu menyenangkan baginya. Daftar yang kamu siapkan adalah jaring pengaman, bukan naskah; kamu akan sampai ke Advice di menit sembilan, bukan delapan."
+        "id": "(b). Ikuti semangatnya. Pertanyaan lanjutan atas apa yang baru dikatakan seseorang adalah tanda paling kuat bahwa kamu menyimak, dan merasa disimak itulah yang membuat obrolan ini menyenangkan baginya. Daftar pertanyaanmu adalah jaring pengaman, bukan naskah; kamu akan sampai ke Advice di menit sembilan, bukan delapan."
        }
       },
       {
@@ -10171,11 +10169,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "You ask what she would recommend as next steps. She says, “You should talk to Budi in the MT team.” What do you say, and what do you do tomorrow?",
-        "id": "Kamu bertanya langkah berikutnya apa yang ia sarankan. Ia bilang, “Kamu harus bicara dengan Budi di tim MT.” Apa yang kamu katakan, dan apa yang kamu lakukan besok?"
+        "id": "Kamu bertanya langkah berikutnya apa yang ia sarankan. Ia bilang, “Kamu harus ngobrol sama Budi di tim MT.” Apa yang kamu katakan, dan apa yang kamu lakukan besok?"
        },
        "debrief": {
         "en": "Thank her; ask whether you may mention her name when you write; and write to Budi within 24 hours, six points, connection first (“Kak Rina suggested I write to you”). Then report back to Rina within two weeks on what happened. An introduction not acted on within a day quietly tells the introducer they wasted their name.",
-        "id": "Ucapkan terima kasih; tanyakan apakah boleh menyebut namanya saat menulis; dan tulis ke Budi dalam 24 jam, enam poin, koneksi lebih dulu (“Kak Rina menyarankan saya menulis kepada Bapak”). Lalu laporkan kembali ke Rina dalam dua minggu tentang apa yang terjadi. Perkenalan yang tidak ditindaklanjuti dalam sehari diam-diam memberitahu si pengenal bahwa mereka menyia-nyiakan namanya."
+        "id": "Ucapkan terima kasih; tanyakan apakah boleh menyebut namanya saat menulis; dan tulis ke Budi dalam 24 jam, enam poin, koneksi lebih dulu (“Kak Rina menyarankan saya menulis kepada Bapak”). Lalu laporkan hasilnya ke Rina dalam dua minggu. Perkenalan yang tidak ditindaklanjuti dalam sehari diam-diam memberi tahu si pengenal bahwa namanya terbuang percuma."
        }
       },
       {
@@ -10185,11 +10183,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "You asked for fifteen minutes; it is now eighteen and she is still talking about the Semarang project. What do you do?",
-        "id": "Kamu meminta lima belas menit; kini sudah delapan belas dan ia masih bercerita tentang proyek Semarang. Apa yang kamu lakukan?"
+        "id": "Kamu minta lima belas menit; sekarang sudah delapan belas, dan ia masih bercerita tentang proyek Semarang. Apa yang kamu lakukan?"
        },
        "debrief": {
         "en": "Offer to end on time: “I know I asked for fifteen minutes and we’re past it; I’m happy to stop here, or to keep going if you have a few more minutes.” Most Boosters say “keep going”; either way, honouring the time you asked for is what makes people say yes the next time, and the time after that.",
-        "id": "Tawarkan selesai tepat waktu: “Saya tahu saya minta lima belas menit dan sudah lewat. Saya senang berhenti di sini, atau lanjut jika Kakak masih punya beberapa menit.” Kebanyakan Booster bilang “lanjut saja”; apa pun itu, menghormati waktu yang kamu minta adalah yang membuat orang bilang ya lain kali, dan kali berikutnya."
+        "id": "Tawarkan untuk selesai tepat waktu: “Saya tadi minta lima belas menit dan sudah lewat, Kak. Saya tidak apa-apa kalau berhenti di sini, atau lanjut kalau Kakak masih ada beberapa menit.” Kebanyakan Booster bilang “lanjut saja”; apa pun jawabannya, menghormati waktu yang kamu minta adalah yang membuat orang bilang ya lagi lain kali, dan kali berikutnya."
        }
       },
       {
@@ -10199,11 +10197,11 @@ window.MT_LMS['the-pack'] = {
        },
        "body": {
         "en": "Write the thank-you message. What goes in, and how long is it?",
-        "id": "Tulis pesan terima kasih. Apa isinya, dan seberapa panjang?"
+        "id": "Tulis pesan terima kasihnya. Apa isinya, dan seberapa panjang?"
        },
        "debrief": {
         "en": "Three to five sentences, same or next day, naming one specific piece of advice, “your point about learning the SAP inventory module before the window opens”, and, if she introduced you to Budi, that you have written to him. No attachments, no new asks. This message is the first line of the harvest cycle: a month later, the next note starts with what you did about the SAP module.",
-        "id": "Tiga sampai lima kalimat, hari yang sama atau berikutnya, menyebut satu saran spesifik, “saran Kakak untuk mempelajari modul inventori SAP sebelum jendela dibuka”, dan, jika ia memperkenalkanmu ke Budi, bahwa kamu sudah menulis kepadanya. Tanpa lampiran, tanpa permintaan baru. Pesan ini adalah baris pertama siklus panen: sebulan kemudian, catatan berikutnya dimulai dengan apa yang kamu lakukan tentang modul SAP."
+        "id": "Tiga sampai lima kalimat, di hari yang sama atau esoknya, menyebut satu saran yang spesifik, misalnya “saran Kakak untuk mempelajari modul inventori SAP sebelum pendaftaran dibuka”, dan, kalau ia memperkenalkanmu ke Budi, bahwa kamu sudah menulis kepadanya. Tanpa lampiran, tanpa permintaan baru. Pesan ini adalah baris pertama siklus panen: sebulan kemudian, catatan berikutnya dimulai dengan apa yang sudah kamu lakukan soal modul SAP itu."
        }
       }
      ],
@@ -10216,17 +10214,17 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Ask for their opinion on something specific.",
-         "id": "Minta opini mereka tentang sesuatu yang spesifik."
+         "id": "Mintalah pendapat mereka tentang sesuatu yang spesifik."
         }
        },
        {
         "h": {
          "en": "Asking a stranger for a referral in the first conversation",
-         "id": "Meminta referensi dari orang asing di percakapan pertama"
+         "id": "Meminta referensi dari orang asing di obrolan pertama"
         },
         "fix": {
          "en": "Ask the Resources question; let them offer.",
-         "id": "Ajukan pertanyaan Resources; biarkan mereka menawarkan."
+         "id": "Ajukan pertanyaan Resources; biarkan mereka yang menawarkan."
         }
        },
        {
@@ -10236,17 +10234,17 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Offer to end on time.",
-         "id": "Tawarkan selesai tepat waktu."
+         "id": "Tawarkan untuk selesai tepat waktu."
         }
        },
        {
         "h": {
          "en": "Never reporting back",
-         "id": "Tidak pernah melaporkan kembali"
+         "id": "Tidak pernah melaporkan hasilnya"
         },
         "fix": {
          "en": "Report back after two weeks, then a monthly harvest note.",
-         "id": "Laporkan kembali setelah dua minggu, lalu catatan panen bulanan."
+         "id": "Laporkan hasilnya setelah dua minggu, lalu catatan panen tiap bulan."
         }
        }
       ]
@@ -10259,7 +10257,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Tell me about yourself; why this organisation; why this role; why this industry, prepared before every conversation.",
-        "id": "Ceritakan tentang dirimu; mengapa organisasi ini; mengapa peran ini; mengapa industri ini, disiapkan sebelum setiap percakapan."
+        "id": "Ceritakan tentang dirimu; mengapa organisasi ini; mengapa posisi ini; mengapa industri ini. Disiapkan sebelum setiap obrolan."
        }
       },
       {
@@ -10269,7 +10267,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Favourite · Insight · Transition: the frame for “tell me about yourself”, stage by stage, two minutes maximum.",
-        "id": "Favourite (favorit) · Insight (wawasan) · Transition (transisi), kerangka untuk “ceritakan tentang dirimu”, tahap demi tahap, maksimal dua menit."
+        "id": "Favourite (favorit) · Insight (pelajaran) · Transition (transisi): kerangka untuk “ceritakan tentang dirimu”, tahap demi tahap, paling lama dua menit."
        }
       },
       {
@@ -10279,7 +10277,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Reason · Evidence · Connection: the frame for the “why” questions; Connection is held back in informational conversations.",
-        "id": "Reason (alasan) · Evidence (bukti) · Connection (kaitan), kerangka untuk pertanyaan “mengapa”; Connection ditahan dalam percakapan informasi."
+        "id": "Reason (alasan) · Evidence (bukti) · Connection (kaitan): kerangka untuk pertanyaan “mengapa”; Connection disimpan dulu dalam obrolan informasi."
        }
       },
       {
@@ -10289,7 +10287,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Trends · Insights · Advice · Resources · Assignments, the conversation skeleton.",
-        "id": "Trends · Insights · Advice · Resources · Assignments, kerangka percakapan."
+        "id": "Trends · Insights · Advice · Resources · Assignments: kerangka obrolan."
        }
       },
       {
@@ -10299,7 +10297,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Graham’s standard for a good question: Gets information not online, Leads to conversation, In their knowledge, Demonstrates market knowledge, Expresses a skill.",
-        "id": "Standar Graham untuk pertanyaan yang baik: Gets (mendapat) informasi yang tidak ada daring, Leads (mengarah) ke percakapan, In (dalam) pengetahuan mereka, Demonstrates (menunjukkan) pengetahuan pasar, Expresses (mengungkapkan) keterampilan."
+        "id": "Standar Graham untuk pertanyaan yang baik: Gets (menggali) informasi yang tidak ada di internet, Leads (mengarah) ke obrolan, In (dalam) pengetahuan mereka, Demonstrates (menunjukkan) pemahaman pasar, Expresses (memperlihatkan) keterampilan."
        }
       },
       {
@@ -10309,7 +10307,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A short monthly note: their advice, what you did, what happened, one question.",
-        "id": "Catatan bulanan singkat: saran mereka, apa yang kamu lakukan, apa yang terjadi, satu pertanyaan."
+        "id": "Catatan singkat tiap bulan: saran mereka, apa yang kamu lakukan, apa hasilnya, satu pertanyaan."
        }
       },
       {
@@ -10319,7 +10317,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Bolles’s graded approach for shy learners: Practice, Informational, Employment conversations, in that order.",
-        "id": "Pendekatan bertahap Bolles untuk pembelajar pemalu: percakapan Practice (latihan), Informational (informasi), Employment (kerja), dalam urutan itu."
+        "id": "Pendekatan bertahap Bolles untuk yang pemalu: obrolan Practice (latihan), Informational (informasi), Employment (kerja), dalam urutan itu."
        }
       }
      ],
@@ -10327,7 +10325,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Which TIARA question lets a contact <i>offer</i> an introduction without being asked?",
-        "id": "Pertanyaan TIARA mana yang membiarkan kontak <i>menawarkan</i> perkenalan tanpa diminta?"
+        "id": "Pertanyaan TIARA mana yang memberi ruang bagi kontak untuk <i>menawarkan</i> perkenalan tanpa diminta?"
        },
        "options": [
         {
@@ -10365,11 +10363,11 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "“Is it a nice place to work?”",
-         "id": "“Apakah tempat kerjanya enak?”"
+         "id": "“Enak nggak kerja di sana?”"
         },
         {
          "en": "“You mentioned the rotation now starts in supply chain; how has that changed what trainees learn in year one?”",
-         "id": "“Kakak menyebut rotasi kini dimulai di supply chain; bagaimana itu mengubah apa yang dipelajari trainee di tahun pertama?”"
+         "id": "“Kakak tadi bilang rotasinya sekarang mulai di supply chain; bagaimana itu mengubah apa yang dipelajari trainee di tahun pertama?”"
         },
         {
          "en": "“Can you get me an interview?”",
@@ -10379,7 +10377,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 2,
        "why": {
         "en": "It is not online, it opens a story, it is theirs to answer, it shows you listened, and it hints at what you care about.",
-        "id": "Tidak ada daring, membuka cerita, milik mereka untuk dijawab, menunjukkan kamu menyimak, dan mengisyaratkan apa yang kamu pedulikan."
+        "id": "Tidak ada di internet, membuka cerita, merekalah yang paling tahu jawabannya, menunjukkan kamu menyimak, dan mengisyaratkan apa yang kamu pedulikan."
        }
       },
       {
@@ -10394,7 +10392,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "A short monthly note: their advice, what you did, what happened, one question",
-         "id": "Catatan bulanan singkat: saran mereka, apa yang kamu lakukan, apa yang terjadi, satu pertanyaan"
+         "id": "Catatan singkat tiap bulan: saran mereka, apa yang kamu lakukan, apa hasilnya, satu pertanyaan"
         },
         {
          "en": "Send your CV monthly",
@@ -10408,7 +10406,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Acting on advice and reporting back is the repayment, and it keeps a Booster following your search.",
-        "id": "Menjalankan saran dan melaporkan kembali adalah balasannya, dan menjaga Booster tetap mengikuti pencarianmu."
+        "id": "Menjalankan saran dan melaporkan hasilnya adalah balas budinya, dan itu membuat seorang Booster terus mengikuti pencarianmu."
        }
       }
      ],
@@ -10417,11 +10415,11 @@ window.MT_LMS['the-pack'] = {
       "mode": "tracker",
       "title": {
        "en": "Conversation prep sheet",
-       "id": "Lembar persiapan percakapan"
+       "id": "Lembar persiapan obrolan"
       },
       "body": {
        "en": "Before each call, fill the prep sheet as Dossier item 4: the Big Four answers (FIT for the first, R + E for the other three), five TIARA questions, two GLIDE upgrades from what you already know, and a notes field for Advice. After the call, log it in the Pipeline Tracker: the tracker schedules the thank-you (day 1), the two-part close (day 7), the report-back (day 14) and the monthly harvest note.",
-       "id": "Sebelum setiap panggilan, isi lembar persiapan sebagai butir Dossier 4: jawaban Empat Besar (FIT untuk yang pertama, R + E untuk tiga lainnya), lima pertanyaan TIARA, dua peningkatan GLIDE dari yang sudah kamu tahu, dan kolom catatan untuk Advice. Setelah panggilan, catat di Pelacak Alur: pelacak menjadwalkan ucapan terima kasih (hari 1), penutup dua bagian (hari 7), laporan kembali (hari 14), dan catatan panen bulanan."
+       "id": "Sebelum tiap panggilan, isi lembar persiapan sebagai butir Dossier 4: jawaban Empat Besar (FIT untuk yang pertama, R + E untuk tiga lainnya), lima pertanyaan TIARA, dua pertanyaan GLIDE dari apa yang sudah kamu tahu, dan kolom catatan untuk Advice. Setelah panggilan, catat di Pelacak Alur: pelacak akan menjadwalkan ucapan terima kasih (hari 1), penutup dua bagian (hari 7), laporan hasil (hari 14), dan catatan panen bulanan."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -10431,15 +10429,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "Prepare fifteen minutes outside, the Big Four inside; mention only professional information.",
-       "id": "Siapkan lima belas menit di luar, Empat Besar di dalam; sebutkan hanya informasi profesional."
+       "id": "Siapkan lima belas menit dari luar dan Empat Besar dari dalam; sebutkan hanya informasi profesional."
       },
       {
        "en": "TIARA gives the skeleton; GLIDE raises the quality as you learn.",
-       "id": "TIARA memberi kerangka; GLIDE menaikkan kualitas seiring kamu belajar."
+       "id": "TIARA memberi kerangkanya; GLIDE menaikkan mutunya seiring kamu belajar."
       },
       {
        "en": "Close so it leads somewhere, then report back.",
-       "id": "Tutup agar mengarah ke suatu tempat, lalu laporkan kembali."
+       "id": "Tutup supaya berlanjut ke sesuatu, lalu laporkan hasilnya."
       }
      ],
      "resources": {
@@ -10449,7 +10447,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "Four sources, the one-page prep sheet, and the three short messages that follow a conversation.",
-       "id": "Empat sumber, lembar persiapan satu halaman, dan tiga pesan singkat yang mengikuti percakapan."
+       "id": "Empat sumber, lembar persiapan satu halaman, dan tiga pesan singkat yang menyusul sebuah obrolan."
       },
       "items": [
        {
@@ -10465,19 +10463,19 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "S. Dalton, <i>The 2-Hour Job Search</i> (2nd ed., 2020), ch. 8–10, preparation, the Big Four, TIARA, the two-part close, the harvest cycle.",
-          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 8–10, persiapan, Empat Besar, TIARA, penutup dua bagian, siklus panen."
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i> (ed. ke-2, 2020), bab 8–10; persiapan, Empat Besar, TIARA, penutup dua bagian, siklus panen."
          },
          {
           "en": "D. Graham, <i>Switchers</i>, ch. 9, GLIDE questions.",
-          "id": "D. Graham, <i>Switchers</i>, bab 9, pertanyaan GLIDE."
+          "id": "D. Graham, <i>Switchers</i>, bab 9; pertanyaan GLIDE."
          },
          {
           "en": "R. Levy, <i>Start Now</i>: specific, easy asks of warm ties.",
-          "id": "R. Levy, <i>Start Now</i>: permintaan spesifik dan mudah kepada ikatan hangat."
+          "id": "R. Levy, <i>Start Now</i>; permintaan yang spesifik dan ringan kepada kenalan hangat."
          },
          {
           "en": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (2008 ed.), ch. 3, PIE for shy job-seekers.",
-          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (ed. 2008), bab 3, PIE untuk pencari kerja pemalu."
+          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i> (ed. 2008), bab 3; PIE untuk pencari kerja yang pemalu."
          }
         ]
        },
@@ -10494,11 +10492,11 @@ window.MT_LMS['the-pack'] = {
         "body": [
          {
           "en": "Company: one recent good thing · one thing to steer around",
-          "id": "Perusahaan: satu hal baik terkini · satu hal yang perlu dihindari"
+          "id": "Perusahaan: satu kabar baik terbaru · satu hal yang sebaiknya tidak disinggung"
          },
          {
           "en": "Person: path in (programme, year) · current role · one thing they wrote",
-          "id": "Orang: jalur masuk (program, tahun) · peran saat ini · satu hal yang mereka tulis"
+          "id": "Orangnya: jalur masuk (program, tahun) · peran sekarang · satu hal yang pernah ia tulis"
          },
          {
           "en": "Big Four: FIT (3 stages, ≤2 min) · why org (R+E) · why role (R+E) · why industry (R+E)",
@@ -10506,11 +10504,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "TIARA: T · I · A · R · A: one question each, opinions and superlatives",
-          "id": "TIARA: T · I · A · R · A: satu pertanyaan masing-masing, opini dan superlatif"
+          "id": "TIARA: T · I · A · R · A: satu pertanyaan untuk masing-masing, pendapat dan “yang paling”"
          },
          {
           "en": "GLIDE upgrades (2): from what previous conversations taught you",
-          "id": "Peningkatan GLIDE (2): dari apa yang diajarkan percakapan sebelumnya"
+          "id": "Pertanyaan GLIDE (2): dari apa yang kamu pelajari di obrolan sebelumnya"
          },
          {
           "en": "Notes: Advice · people mentioned · time asked for",
@@ -10535,11 +10533,11 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "<b>Day 7: part two of the close.</b> “Having thought about our conversation, I have decided to pursue [direction] more seriously. If you were in my position, what step would you take next, or who would you talk to?”",
-          "id": "<b>Hari 7: bagian kedua penutup.</b> “Setelah merenungkan percakapan kita, saya memutuskan untuk menekuni [arah] lebih serius. Kalau Kakak di posisi saya, langkah apa yang akan Kakak ambil berikutnya, atau siapa yang akan Kakak ajak bicara?”"
+          "id": "<b>Hari 7: bagian kedua penutup.</b> “Setelah merenungkan obrolan kita, saya memutuskan untuk menekuni [arah] dengan lebih serius. Kalau Kakak ada di posisi saya, langkah apa yang akan Kakak ambil berikutnya, atau siapa yang akan Kakak ajak bicara?”"
          },
          {
           "en": "<b>Monthly: harvest note.</b> “Quick update: you suggested [advice]; I [what you did]; the result was [what happened]. One question: [question].” Four sentences; no attachments.",
-          "id": "<b>Bulanan: catatan panen.</b> “Update singkat: Kakak menyarankan [saran]; saya [apa yang dilakukan]; hasilnya [apa yang terjadi]. Satu pertanyaan: [pertanyaan].” Empat kalimat; tanpa lampiran."
+          "id": "<b>Tiap bulan: catatan panen.</b> “Kabar singkat, Kak: Kakak menyarankan [saran]; saya [apa yang dilakukan]; hasilnya [apa yang terjadi]. Satu pertanyaan: [pertanyaan].” Empat kalimat; tanpa lampiran."
          }
         ]
        }
@@ -10560,16 +10558,16 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "Nadia has fixed her diagnosis (Module 1). Now she needs a target. Using the twelve employers she has heard of, the shared alumni sheet and her stated constraints, build her Top 5, choose her starter contacts, write her first two messages and lay out her first week of follow-ups.",
-      "id": "Nadia sudah memperbaiki diagnosisnya (Modul 1). Kini ia butuh sasaran. Dengan dua belas perusahaan yang pernah ia dengar, lembar alumni bersama, dan kendala yang ia nyatakan, bangun 5 Teratas-nya, pilih kontak awalnya, tulis dua pesan pertamanya, dan susun minggu pertama tindak lanjutnya."
+      "id": "Nadia sudah membereskan diagnosisnya (Modul 1). Sekarang ia butuh sasaran. Dengan dua belas perusahaan yang pernah ia dengar, lembar alumni bersama, dan kendala yang ia sebutkan, bangun 5 Teratas-nya, pilih kontak awalnya, tulis dua pesan pertamanya, dan susun minggu pertama tindak lanjutnya."
      },
      "objectives": [
       {
        "en": "Write a narrow-and-broad target sentence from a person’s constraints and evidence.",
-       "id": "Menulis kalimat sasaran sempit-dan-luas dari kendala dan bukti seseorang."
+       "id": "Menulis kalimat sasaran yang sempit sekaligus luas dari kendala dan bukti seseorang."
       },
       {
        "en": "Score, sort and justify a LAMP (List, Advocates, Motivation, Posting) Top 5 from twelve employers.",
-       "id": "Menilai, mengurutkan, dan membenarkan 5 Teratas LAMP (List, Advocates, Motivation, Posting) dari dua belas perusahaan."
+       "id": "Memberi skor, mengurutkan, dan mempertanggungjawabkan 5 Teratas LAMP (List, Advocates, Motivation, Posting) dari dua belas perusahaan."
       },
       {
        "en": "Pick starter contacts by the five traits and write two six-point messages.",
@@ -10577,7 +10575,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "en": "Lay out a 3B7 calendar around a public holiday.",
-       "id": "Menyusun kalender 3B7 di sekitar hari libur nasional."
+       "id": "Menyusun kalender 3B7 di minggu yang ada hari libur nasionalnya."
       }
      ],
      "readFirst": {
@@ -10585,7 +10583,7 @@ window.MT_LMS['the-pack'] = {
        "bg": "../../assets/bg/alumni.jpg",
        "module": {
         "en": "Module 2 · Targets, Networks & the Hidden Gate",
-        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+        "id": "Modul 2 · Sasaran, Jejaring & Gerbang Tersembunyi"
        },
        "lesson": {
         "n": "2.5",
@@ -10597,15 +10595,15 @@ window.MT_LMS['the-pack'] = {
        "story": [
         {
          "en": "Read all four tabs; her family’s preference for Central Java is a legitimate input, not a rule",
-         "id": "Baca keempat tab; preferensi keluarganya untuk Jawa Tengah adalah masukan sah, bukan aturan"
+         "id": "Baca keempat tab; keinginan keluarganya agar ia tetap di Jawa Tengah adalah masukan yang sah, bukan aturan"
         },
         {
          "en": "Score before you argue: A from the alumni sheet, M from her preferences, P from the posting column",
-         "id": "Nilai sebelum berargumen: A dari lembar alumni, M dari preferensinya, P dari kolom lowongan"
+         "id": "Beri skor dulu, baru berdebat: A dari lembar alumni, M dari preferensinya, P dari kolom lowongan"
         },
         {
          "en": "Messages are counted: forty to eighty words, and the balance between them and her is checked",
-         "id": "Pesan dihitung: empat puluh sampai delapan puluh kata, dan keseimbangan antara mereka dan dirinya diperiksa"
+         "id": "Pesan dihitung katanya: empat puluh sampai delapan puluh kata, dan perbandingan antara mereka dan Nadia diperiksa"
         }
        ],
        "takes": [
@@ -10616,27 +10614,27 @@ window.MT_LMS['the-pack'] = {
          },
          "p": {
           "en": "From twelve names to five clocks: the output is dates, not a wish list.",
-          "id": "Dari dua belas nama ke lima jam: hasilnya adalah tanggal, bukan daftar keinginan."
+          "id": "Dari dua belas nama menjadi lima jam yang berdetak: hasilnya adalah tanggal, bukan daftar keinginan."
          }
         },
         {
          "h": {
           "en": "Score before you argue",
-          "id": "Nilai sebelum berargumen"
+          "id": "Beri skor dulu, baru berdebat"
          },
          "p": {
           "en": "Each outreach message is counted: 40–80 words, and the signal checks the balance between words about them and words about her.",
-          "id": "Setiap pesan penjangkauan dihitung: 40–80 kata, dan sinyal memeriksa keseimbangan antara kata tentang mereka dan tentang dirinya."
+          "id": "Setiap pesan penjajakan dihitung: 40–80 kata, dan panel sinyal mengecek perbandingan antara kata tentang mereka dan kata tentang Nadia."
          }
         },
         {
          "h": {
           "en": "Messages are counted",
-          "id": "Pesan dihitung"
+          "id": "Pesan dihitung katanya"
          },
          "p": {
           "en": "A message that is mostly about Nadia is a broadcast with a greeting; a message that is mostly about them is a conversation starting.",
-          "id": "Pesan yang sebagian besar tentang Nadia adalah siaran dengan salam; pesan yang sebagian besar tentang mereka adalah percakapan yang dimulai."
+          "id": "Pesan yang sebagian besar tentang Nadia adalah siaran dengan salam pembuka; pesan yang sebagian besar tentang mereka adalah awal sebuah obrolan."
          }
         }
        ],
@@ -10645,7 +10643,7 @@ window.MT_LMS['the-pack'] = {
          "kind": "body",
          "t": {
           "en": "Read all four tabs; her family’s preference for Central Java is a legitimate input, not a rule",
-          "id": "Baca keempat tab; preferensi keluarganya untuk Jawa Tengah adalah masukan sah, bukan aturan"
+          "id": "Baca keempat tab; keinginan keluarganya agar ia tetap di Jawa Tengah adalah masukan yang sah, bukan aturan"
          },
          "img": "../../assets/bg/map.jpg",
          "layout": "list",
@@ -10653,16 +10651,16 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "list",
            "en": "Twelve names, each with a posting column and an alumni sheet to score from",
-           "id": "Dua belas nama, masing-masing dengan kolom lowongan dan lembar alumni untuk dinilai",
+           "id": "Dua belas nama, masing-masing dengan kolom lowongan dan lembar alumni sebagai dasar skor",
            "l": {
             "en": "The twelve",
-            "id": "Dua belas itu"
+            "id": "Dua belas perusahaan"
            }
           },
           {
            "icon": "heart",
            "en": "Location and family are inputs to Motivation; scoring them honestly is the method, not a failure of ambition",
-           "id": "Lokasi dan keluarga adalah masukan Motivasi; menilainya dengan jujur adalah metodenya, bukan kegagalan ambisi",
+           "id": "Lokasi dan keluarga adalah masukan untuk Motivasi; memberi skor dengan jujur adalah metodenya, bukan tanda kurang ambisi",
            "l": {
             "en": "The preferences",
             "id": "Preferensinya"
@@ -10671,7 +10669,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "calendar",
            "en": "Five clocks: the dates that go into the calendar before any message is sent",
-           "id": "Lima jam: tanggal yang masuk kalender sebelum pesan apa pun dikirim",
+           "id": "Lima jam yang berdetak: tanggal-tanggal yang masuk kalender sebelum satu pesan pun dikirim",
            "l": {
             "en": "The calendar",
             "id": "Kalendernya"
@@ -10684,18 +10682,18 @@ window.MT_LMS['the-pack'] = {
          },
          "band": {
           "en": "From twelve names to five clocks: the output is dates, not a wish list.",
-          "id": "Dari dua belas nama ke lima jam: hasilnya adalah tanggal, bukan daftar keinginan."
+          "id": "Dari dua belas nama menjadi lima jam yang berdetak: hasilnya adalah tanggal, bukan daftar keinginan."
          },
          "em": {
           "en": "a legitimate input, not a rule",
-          "id": "masukan sah, bukan aturan"
+          "id": "masukan yang sah, bukan aturan"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Score before you argue: A from the alumni sheet, M from her preferences, P from the posting column",
-          "id": "Nilai sebelum berargumen: A dari lembar alumni, M dari preferensinya, P dari kolom lowongan"
+          "id": "Beri skor dulu, baru berdebat: A dari lembar alumni, M dari preferensinya, P dari kolom lowongan"
          },
          "img": "../../assets/bg/ep-stage-architecture.jpg",
          "layout": "flow",
@@ -10715,7 +10713,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Motivasi",
            "d": {
             "en": "0–3 from her preferences, Central Java included.",
-            "id": "0–3 dari preferensinya, termasuk Jawa Tengah."
+            "id": "0–3 dari preferensinya, termasuk soal Jawa Tengah."
            }
           },
           {
@@ -10739,31 +10737,31 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "scale",
            "en": "Argue",
-           "id": "Berargumen",
+           "id": "Berdebat",
            "d": {
             "en": "One displacement, one calendar item, each with a reason.",
-            "id": "Satu pergeseran, satu butir kalender, masing-masing dengan alasan."
+            "id": "Satu pergeseran, satu butir kalender, masing-masing dengan alasannya."
            }
           }
          ],
          "sub": {
           "en": "Sort M, then P, then A. Then argue: which row 6–8 might displace a Top 5, and which Top 5 row is really a calendar item.",
-          "id": "Urutkan M, lalu P, lalu A. Lalu berargumen: baris 6–8 mana yang mungkin menggeser 5 Teratas, dan baris 5 Teratas mana yang sebenarnya butir kalender."
+          "id": "Urutkan M, lalu P, lalu A. Baru berdebat: baris 6–8 mana yang mungkin menggeser 5 Teratas, dan baris 5 Teratas mana yang sebenarnya cuma butir kalender."
          },
          "band": {
           "en": "Each outreach message is counted: 40–80 words, and the signal checks the balance between words about them and words about her.",
-          "id": "Setiap pesan penjangkauan dihitung: 40–80 kata, dan sinyal memeriksa keseimbangan antara kata tentang mereka dan tentang dirinya."
+          "id": "Setiap pesan penjajakan dihitung: 40–80 kata, dan panel sinyal mengecek perbandingan antara kata tentang mereka dan kata tentang Nadia."
          },
          "em": {
           "en": "Score before you argue",
-          "id": "Nilai sebelum berargumen"
+          "id": "Beri skor dulu, baru berdebat"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Messages are counted: forty to eighty words, and the balance between them and her is checked",
-          "id": "Pesan dihitung: empat puluh sampai delapan puluh kata, dan keseimbangan antara mereka dan dirinya diperiksa"
+          "id": "Pesan dihitung katanya: empat puluh sampai delapan puluh kata, dan perbandingan antara mereka dan Nadia diperiksa"
          },
          "img": "../../assets/pe/ed-writing.jpg",
          "layout": "list",
@@ -10771,7 +10769,7 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "list",
            "en": "Connection first, a question, advice not a job, narrow and broad, more than half about them",
-           "id": "Koneksi lebih dulu, pertanyaan, saran bukan pekerjaan, sempit dan luas, lebih dari separuh tentang mereka",
+           "id": "Koneksi lebih dulu, satu pertanyaan, saran bukan pekerjaan, sempit sekaligus luas, lebih dari separuh tentang mereka",
            "l": {
             "en": "The six points",
             "id": "Enam poin"
@@ -10780,16 +10778,16 @@ window.MT_LMS['the-pack'] = {
           {
            "icon": "heart",
            "en": "“Perkenalkan saya…”, “mohon maaf mengganggu”, inside the count",
-           "id": "“Perkenalkan saya…”, “mohon maaf mengganggu”, di dalam hitungan",
+           "id": "“Perkenalkan, saya…”, “mohon maaf mengganggu”, dihitung di dalamnya",
            "l": {
             "en": "The courtesies",
-            "id": "Kesantunan"
+            "id": "Tata krama"
            }
           },
           {
            "icon": "bell",
            "en": "Two reminders per contact A: business day 3 and business day 7",
-           "id": "Dua pengingat per kontak A: hari kerja ke-3 dan ke-7",
+           "id": "Dua pengingat untuk tiap kontak A: hari kerja ke-3 dan ke-7",
            "l": {
             "en": "The reminders",
             "id": "Pengingat"
@@ -10798,15 +10796,15 @@ window.MT_LMS['the-pack'] = {
          ],
          "sub": {
           "en": "Model notes open after you submit. Write yours first.",
-          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis jawabanmu dulu."
          },
          "band": {
           "en": "A message that is mostly about Nadia is a broadcast with a greeting; a message that is mostly about them is a conversation starting.",
-          "id": "Pesan yang sebagian besar tentang Nadia adalah siaran dengan salam; pesan yang sebagian besar tentang mereka adalah percakapan yang dimulai."
+          "id": "Pesan yang sebagian besar tentang Nadia adalah siaran dengan salam pembuka; pesan yang sebagian besar tentang mereka adalah awal sebuah obrolan."
          },
          "em": {
           "en": "the balance between them and her",
-          "id": "keseimbangan antara mereka dan dirinya"
+          "id": "perbandingan antara mereka dan Nadia"
          }
         }
        ],
@@ -10821,11 +10819,11 @@ window.MT_LMS['the-pack'] = {
       },
       "title": {
        "en": "From twelve names to five clocks",
-       "id": "Dari dua belas nama ke lima jam"
+       "id": "Dari dua belas nama menjadi lima jam yang berdetak"
       },
       "intro": {
        "en": "Five steps, six written answers. The case file has four tabs; Step 2 needs the twelve and the preferences, Step 3 needs the alumni sheet, Step 4 needs Lesson 2.3, Step 5 needs a calendar.",
-       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab; Langkah 2 butuh dua belas perusahaan dan preferensi, Langkah 3 butuh lembar alumni, Langkah 4 butuh Pelajaran 2.3, Langkah 5 butuh kalender."
+       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: Langkah 2 butuh daftar dua belas perusahaan dan preferensi Nadia, Langkah 3 butuh lembar alumni, Langkah 4 butuh Pelajaran 2.3, Langkah 5 butuh kalender."
       },
       "slides": [
        {
@@ -10840,14 +10838,14 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Her family’s preference for Central Java is a legitimate input to Motivation, not a rule.",
-          "id": "Preferensi keluarganya untuk Jawa Tengah adalah masukan sah untuk Motivasi, bukan aturan."
+          "id": "Keinginan keluarganya agar ia tetap di Jawa Tengah adalah masukan yang sah untuk Motivasi, bukan aturan."
          }
         ]
        },
        {
         "h": {
          "en": "Score before you argue",
-         "id": "Nilai sebelum berargumen"
+         "id": "Beri skor dulu, baru berdebat"
         },
         "points": [
          {
@@ -10856,23 +10854,23 @@ window.MT_LMS['the-pack'] = {
          },
          {
           "en": "Then argue: which row 6–8 might displace a Top 5, and which Top 5 row is really a calendar item.",
-          "id": "Lalu berargumen: baris 6–8 mana yang mungkin menggeser 5 Teratas, dan baris 5 Teratas mana yang sebenarnya butir kalender."
+          "id": "Baru berdebat: baris 6–8 mana yang mungkin menggeser 5 Teratas, dan baris 5 Teratas mana yang sebenarnya cuma butir kalender."
          }
         ]
        },
        {
         "h": {
          "en": "Messages are counted",
-         "id": "Pesan dihitung"
+         "id": "Pesan dihitung katanya"
         },
         "points": [
          {
           "en": "Each outreach message: 40–80 words, and the signal checks the balance between words about them and words about her.",
-          "id": "Setiap pesan penjangkauan: 40–80 kata, dan sinyal memeriksa keseimbangan antara kata tentang mereka dan kata tentang dirinya."
+          "id": "Setiap pesan penjajakan: 40–80 kata, dan panel sinyal mengecek perbandingan antara kata tentang mereka dan kata tentang Nadia."
          },
          {
           "en": "Model notes open after you submit. Write yours first.",
-          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis jawabanmu dulu."
          }
         ]
        }
@@ -10891,7 +10889,7 @@ window.MT_LMS['the-pack'] = {
       },
       "lead": {
        "en": "Nadia has fixed her diagnosis. Now she needs a target. Using the data in the case file, build her Top 5 and her first outreach.",
-       "id": "Nadia sudah memperbaiki diagnosisnya. Kini ia butuh sasaran. Dengan data di berkas kasus, bangun 5 Teratas-nya dan penjangkauan pertamanya."
+       "id": "Nadia sudah membereskan diagnosisnya. Sekarang ia butuh sasaran. Dengan data di berkas kasus, bangun 5 Teratas-nya dan penjajakan pertamanya."
       },
       "practice": [
        {
@@ -10900,7 +10898,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "en": "Score and sort a LAMP list",
-        "id": "Menilai dan mengurutkan daftar LAMP"
+        "id": "Memberi skor dan mengurutkan daftar LAMP"
        },
        {
         "en": "Choose starter contacts",
@@ -10917,7 +10915,7 @@ window.MT_LMS['the-pack'] = {
       ],
       "goal": {
        "en": "A Top 5 Nadia can defend, two messages a stranger would answer, and a first week she can run from the tracker.",
-       "id": "5 Teratas yang bisa dipertahankan Nadia, dua pesan yang akan dijawab orang asing, dan minggu pertama yang bisa ia jalankan dari pelacak."
+       "id": "5 Teratas yang bisa dipertanggungjawabkan Nadia, dua pesan yang akan dibalas orang asing, dan minggu pertama yang bisa ia jalankan dari pelacak."
       },
       "brief": {
        "email": {
@@ -10941,29 +10939,29 @@ window.MT_LMS['the-pack'] = {
         "paragraphs": [
          {
           "en": "I did what Module 1 said and stopped applying to everything. I’ve written down twelve companies I’ve heard of, some from the job boards, some from the HIMA (the students’ association, himpunan mahasiswa) alumni sheet Wulan shared, one from my uncle. I’m attaching the list.",
-          "id": "Aku sudah melakukan yang dikatakan Modul 1 dan berhenti melamar ke mana-mana. Aku menulis dua belas perusahaan yang pernah kudengar, sebagian dari papan lowongan, sebagian dari lembar alumni HIMA (himpunan mahasiswa) yang dibagikan Kak Wulan, satu dari pamanku. Kulampirkan daftarnya."
+          "id": "Aku sudah menjalankan yang dibilang Modul 1 dan berhenti melamar ke mana-mana. Aku menulis dua belas perusahaan yang pernah kudengar: sebagian dari situs lowongan, sebagian dari lembar alumni HIMA (himpunan mahasiswa) yang dibagikan Kak Wulan, satu dari pamanku. Daftarnya kulampirkan."
          },
          {
           "en": "My family would prefer Central Java, but I’d move for the right programme. I know nobody except our HIMA alumni WhatsApp group, 300 people, and I have never messaged any of them.",
-          "id": "Keluargaku lebih suka Jawa Tengah, tapi aku mau pindah untuk program yang tepat. Aku tidak kenal siapa pun kecuali grup WhatsApp alumni HIMA, 300 orang, dan aku belum pernah mengirim pesan ke satu pun."
+          "id": "Keluargaku lebih suka aku di Jawa Tengah, tapi aku mau pindah kalau programnya tepat. Aku tidak kenal siapa pun selain grup WhatsApp alumni HIMA, 300 orang, dan aku belum pernah mengirim pesan ke satu pun dari mereka."
          },
          {
           "en": "I keep opening the twelve postings and closing them. Where do I start, and what do I say?",
-          "id": "Aku terus membuka dua belas lowongan itu dan menutupnya lagi. Mulai dari mana, dan apa yang kukatakan?"
+          "id": "Aku terus membuka dua belas lowongan itu, lalu menutupnya lagi. Mulai dari mana, dan mau bilang apa?"
          }
         ],
         "asks": [
          {
           "en": "Which five should I go after first, and why?",
-          "id": "Lima mana yang harus kukejar lebih dulu, dan mengapa?"
+          "id": "Lima mana yang harus kukejar lebih dulu, dan kenapa?"
          },
          {
           "en": "Who do I message, and what do I write?",
-          "id": "Siapa yang kukirimi pesan, dan apa yang kutulis?"
+          "id": "Siapa yang kuhubungi, dan apa yang kutulis?"
          },
          {
           "en": "When do I follow up without being annoying?",
-          "id": "Kapan aku menindaklanjuti tanpa mengganggu?"
+          "id": "Kapan aku menindaklanjuti tanpa terkesan mengganggu?"
          }
         ],
         "closing": [
@@ -10982,7 +10980,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "in the HIMA WhatsApp group; a shared alumni sheet lists who works where",
-          "id": "di grup WhatsApp HIMA; lembar alumni bersama mencantumkan siapa bekerja di mana"
+          "id": "di grup WhatsApp HIMA; lembar alumni bersama mencatat siapa bekerja di mana"
          },
          "hot": true
         },
@@ -10994,7 +10992,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "family preference; she would move for the right programme",
-          "id": "preferensi keluarga; ia mau pindah untuk program yang tepat"
+          "id": "keinginan keluarga; ia mau pindah kalau programnya tepat"
          },
          "hot": true
         },
@@ -11006,7 +11004,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "until the Arunika MT (management trainee) window opens",
-          "id": "sampai jendela MT (management trainee, program pelatihan manajemen) Arunika dibuka"
+          "id": "sampai pendaftaran MT (management trainee, program pelatihan manajemen) Arunika dibuka"
          },
          "hot": true
         },
@@ -11025,11 +11023,11 @@ window.MT_LMS['the-pack'] = {
          "icon": "target",
          "k": {
           "en": "Operations",
-          "id": "Operasi"
+          "id": "Operasional"
          },
          "v": {
           "en": "her Module 1 diagnosis: “operations is where I am useful”, supply chain, banking ops, business ops",
-          "id": "diagnosis Modul 1-nya: “operasi adalah tempat saya berguna”, supply chain, operasional bank, operasi bisnis"
+          "id": "diagnosisnya di Modul 1: “operasional adalah tempat saya berguna”; supply chain, operasional bank, business operations"
          }
         },
         {
@@ -11040,7 +11038,7 @@ window.MT_LMS['the-pack'] = {
          },
          "v": {
           "en": "a public holiday falls on the Thursday of her first outreach week",
-          "id": "hari libur nasional jatuh pada Kamis di minggu pertama penjangkauannya"
+          "id": "ada hari libur nasional pada Kamis di minggu pertama penjajakannya"
          }
         }
        ],
@@ -11048,7 +11046,7 @@ window.MT_LMS['the-pack'] = {
         {
          "tab": {
           "en": "The twelve",
-          "id": "Dua belas"
+          "id": "Dua belas perusahaan"
          },
          "title": {
           "en": "Twelve employers Nadia has heard of",
@@ -11056,64 +11054,64 @@ window.MT_LMS['the-pack'] = {
          },
          "meta": {
           "en": "All fictional · sector · location · programme and window · alumni (from the sheet) · current posting",
-          "id": "Semua fiktif · sektor · lokasi · program dan jendela · alumni (dari lembar) · lowongan saat ini"
+          "id": "Semua fiktif · sektor · lokasi · program dan jadwal · alumni (dari lembar) · lowongan saat ini"
          },
          "body": [
           {
            "items": [
             {
              "en": "<b>1 · PT Arunika Consumer Goods</b>: FMCG (fast-moving consumer goods); HQ Jakarta, plants in Semarang and Bekasi; Management Trainee (rotation starts in supply chain), window opens in 6 weeks, 2 alumni, posting: MT pre-registration page live, very relevant",
-             "id": "<b>1 · PT Arunika Consumer Goods</b>: FMCG (barang konsumsi cepat habis, fast-moving consumer goods); kantor pusat Jakarta, pabrik di Semarang dan Bekasi, Management Trainee (rotasi dimulai di supply chain), jendela dibuka 6 minggu lagi, 2 alumni, lowongan: laman pra-pendaftaran MT aktif, sangat relevan"
+             "id": "<b>1 · PT Arunika Consumer Goods</b>: FMCG (barang konsumsi cepat habis, fast-moving consumer goods); kantor pusat Jakarta, pabrik di Semarang dan Bekasi; Management Trainee (rotasi dimulai di supply chain), pendaftaran dibuka 6 minggu lagi, 2 alumni, lowongan: laman pra-pendaftaran MT sudah aktif, sangat relevan"
             },
             {
              "en": "<b>2 · Bank Sinar Nusantara</b>: national bank; HQ Jakarta, branches across Central Java, Officer Development Program, rolling windows, 4 alumni, posting: officer programme registration open, relevant (operations is one stream)",
-             "id": "<b>2 · Bank Sinar Nusantara</b>: bank nasional; kantor pusat Jakarta, cabang di seluruh Jawa Tengah, Officer Development Program, jendela bergulir, 4 alumni, lowongan: pendaftaran ODP dibuka, relevan (operasi salah satu jalurnya)"
+             "id": "<b>2 · Bank Sinar Nusantara</b>: bank nasional; kantor pusat Jakarta, cabang di seluruh Jawa Tengah; Officer Development Program, pendaftaran bergulir, 4 alumni, lowongan: pendaftaran ODP dibuka, relevan (operasional salah satu jalurnya)"
             },
             {
              "en": "<b>3 · KilatPay</b>: fintech; Jakarta: no programme; Business Operations Associate posted (ref OPS-26-04), closes in 3 weeks, 1 alumna, posting: very relevant",
-             "id": "<b>3 · KilatPay</b>: fintech; Jakarta: tanpa program; Business Operations Associate diiklankan (ref OPS-26-04), tutup 3 minggu lagi, 1 alumna, lowongan: sangat relevan"
+             "id": "<b>3 · KilatPay</b>: fintech; Jakarta; tanpa program; Business Operations Associate sedang dibuka (ref OPS-26-04), tutup 3 minggu lagi, 1 alumni, lowongan: sangat relevan"
             },
             {
              "en": "<b>4 · Rumah Rempah</b>: F&amp;B manufacturer and restaurant chain; HQ Semarang, Area Operations Trainee, yearly intake, no current posting (“after Lebaran”, says the alumna), 1 alumna, posting: none",
-             "id": "<b>4 · Rumah Rempah</b>: produsen F&amp;B dan jaringan restoran; kantor pusat Semarang, Area Operations Trainee, seleksi tahunan, tanpa lowongan saat ini (“setelah Lebaran”, kata alumna), 1 alumna, lowongan: tidak ada"
+             "id": "<b>4 · Rumah Rempah</b>: produsen F&amp;B dan jaringan restoran; kantor pusat Semarang; Area Operations Trainee, seleksi tahunan, belum ada lowongan saat ini (“setelah Lebaran”, kata alumninya), 1 alumni, lowongan: tidak ada"
             },
             {
              "en": "<b>5 · PT Rel Nusantara</b>: state rail operator; Jakarta, depots in Semarang; via state-owned enterprise joint recruitment, opens in 4 months, 0 alumni, posting: none yet",
-             "id": "<b>5 · PT Rel Nusantara</b>: operator kereta milik negara; Jakarta, depo di Semarang, lewat rekrutmen bersama BUMN, dibuka 4 bulan lagi, 0 alumni, lowongan: belum ada"
+             "id": "<b>5 · PT Rel Nusantara</b>: operator kereta milik negara; Jakarta, depo di Semarang; lewat rekrutmen bersama BUMN, dibuka 4 bulan lagi, 0 alumni, lowongan: belum ada"
             },
             {
              "en": "<b>6 · Garis Lurus Logistik</b>: national logistics group; Jakarta and Surabaya, Graduate Operations Programme posted, closes in 3 weeks, 0 alumni, posting: relevant",
-             "id": "<b>6 · Garis Lurus Logistik</b>: grup logistik nasional; Jakarta dan Surabaya, Graduate Operations Programme diiklankan, tutup 3 minggu lagi, 0 alumni, lowongan: relevan"
+             "id": "<b>6 · Garis Lurus Logistik</b>: grup logistik nasional; Jakarta dan Surabaya; Graduate Operations Programme sedang dibuka, tutup 3 minggu lagi, 0 alumni, lowongan: relevan"
             },
             {
              "en": "<b>7 · PT Sumber Segar Distribusi</b>: F&amp;B distributor; Semarang, no programme; Instagram posts for sales admin staff, 1 alumnus, posting: somewhat relevant",
-             "id": "<b>7 · PT Sumber Segar Distribusi</b>: distributor F&amp;B; Semarang, tanpa program; postingan Instagram untuk staf sales admin, 1 alumnus, lowongan: agak relevan"
+             "id": "<b>7 · PT Sumber Segar Distribusi</b>: distributor F&amp;B; Semarang; tanpa program; unggahan Instagram untuk staf sales admin, 1 alumni, lowongan: agak relevan"
             },
             {
              "en": "<b>8 · Toko Cahaya Group</b>: retail chain; Jakarta, stores nationwide, Store Management Trainee posted, rolling, 0 alumni, posting: somewhat relevant",
-             "id": "<b>8 · Toko Cahaya Group</b>: jaringan ritel; Jakarta, gerai di seluruh negeri, Store Management Trainee diiklankan, bergulir, 0 alumni, lowongan: agak relevan"
+             "id": "<b>8 · Toko Cahaya Group</b>: jaringan ritel; Jakarta, gerai di seluruh Indonesia; Store Management Trainee sedang dibuka, bergulir, 0 alumni, lowongan: agak relevan"
             },
             {
              "en": "<b>9 · Tirta Medika Distribusi</b>: pharmaceutical distributor; Semarang branch, no programme; no posting, 1 alumnus (finance), posting: none",
-             "id": "<b>9 · Tirta Medika Distribusi</b>: distributor farmasi; cabang Semarang, tanpa program; tanpa lowongan, 1 alumnus (keuangan), lowongan: tidak ada"
+             "id": "<b>9 · Tirta Medika Distribusi</b>: distributor farmasi; cabang Semarang; tanpa program; tanpa lowongan, 1 alumni (keuangan), lowongan: tidak ada"
             },
             {
              "en": "<b>10 · Bumi Tekstil Jaya</b>: textile manufacturer; Solo, Factory Administration Staff posted, 0 alumni, posting: somewhat relevant",
-             "id": "<b>10 · Bumi Tekstil Jaya</b>: produsen tekstil; Solo, Staf Administrasi Pabrik diiklankan, 0 alumni, lowongan: agak relevan"
+             "id": "<b>10 · Bumi Tekstil Jaya</b>: produsen tekstil; Solo; Staf Administrasi Pabrik sedang dibuka, 0 alumni, lowongan: agak relevan"
             },
             {
              "en": "<b>11 · Sinar Cerah Media</b>: advertising agency; Jakarta, Account Executive posted, 1 alumna, posting: not relevant to operations",
-             "id": "<b>11 · Sinar Cerah Media</b>: agensi periklanan; Jakarta, Account Executive diiklankan, 1 alumna, lowongan: tidak relevan untuk operasi"
+             "id": "<b>11 · Sinar Cerah Media</b>: agensi periklanan; Jakarta; Account Executive sedang dibuka, 1 alumni, lowongan: tidak relevan untuk operasional"
             },
             {
              "en": "<b>12 · Cakra Multifinance</b>: multifinance; Semarang branch (her uncle’s suggestion); Management Trainee, window opens in 2 weeks, 0 alumni, posting: relevant",
-             "id": "<b>12 · Cakra Multifinance</b>: multifinance; cabang Semarang (saran pamannya), Management Trainee, jendela dibuka 2 minggu lagi, 0 alumni, lowongan: relevan"
+             "id": "<b>12 · Cakra Multifinance</b>: multifinance; cabang Semarang (saran pamannya); Management Trainee, pendaftaran dibuka 2 minggu lagi, 0 alumni, lowongan: relevan"
             }
            ]
           },
           {
            "en": "Employer names, programmes and windows are invented for this case.",
-           "id": "Nama perusahaan, program, dan jendela dibuat untuk kasus ini."
+           "id": "Nama perusahaan, program, dan jadwalnya dibuat khusus untuk kasus ini."
           }
          ]
         },
@@ -11128,7 +11126,7 @@ window.MT_LMS['the-pack'] = {
          },
          "meta": {
           "en": "Use these to score Motivation",
-          "id": "Pakai untuk menilai Motivasi"
+          "id": "Pakai ini untuk memberi skor Motivasi"
          },
          "body": [
           {
@@ -11141,15 +11139,15 @@ window.MT_LMS['the-pack'] = {
            "items": [
             {
              "en": "Operations work: supply chain, banking operations, business operations. “Systems beat effort.”",
-             "id": "Pekerjaan operasi: supply chain, operasional bank, operasi bisnis. “Sistem mengalahkan usaha.”"
+             "id": "Pekerjaan operasional: supply chain, operasional bank, business operations. “Sistem mengalahkan tenaga.”"
             },
             {
              "en": "A structured programme if possible (MT/officer programme); an operations associate role is acceptable.",
-             "id": "Program terstruktur bila mungkin (MT/ODP); peran operations associate bisa diterima."
+             "id": "Kalau bisa, program yang terstruktur (MT/ODP); posisi operations associate juga bisa diterima."
             },
             {
              "en": "Consumer goods first (the family shop in Tegal makes it concrete), banking and fintech close behind, logistics interesting.",
-             "id": "Consumer goods lebih dulu (toko keluarga di Tegal membuatnya konkret), perbankan dan fintech tepat di belakang, logistik menarik."
+             "id": "Barang konsumsi lebih dulu (toko keluarga di Tegal membuatnya nyata), perbankan dan fintech persis di belakangnya, logistik menarik."
             }
            ]
           },
@@ -11163,15 +11161,15 @@ window.MT_LMS['the-pack'] = {
            "items": [
             {
              "en": "Family prefers Central Java (Semarang, Solo, Tegal); she would move to Jakarta for the right programme, not for an unstructured role.",
-             "id": "Keluarga lebih suka Jawa Tengah (Semarang, Solo, Tegal); ia mau pindah ke Jakarta untuk program yang tepat, bukan untuk peran tak terstruktur."
+             "id": "Keluarga lebih suka Jawa Tengah (Semarang, Solo, Tegal); ia mau pindah ke Jakarta untuk program yang tepat, bukan untuk posisi yang tidak terstruktur."
             },
             {
              "en": "Not interested in sales-only, advertising or pure finance roles.",
-             "id": "Tidak tertarik peran sales saja, periklanan, atau keuangan murni."
+             "id": "Tidak tertarik pada posisi yang murni sales, periklanan, atau murni keuangan."
             },
             {
              "en": "GPA 3,38 · TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527 (26 months old) · Excel (pivot tables, VLOOKUP).",
-             "id": "IPK 3,38 · TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527 (26 bulan lalu) · Excel (pivot table, VLOOKUP)."
+             "id": "IPK 3,38 · TOEFL (Test of English as a Foreign Language) ITP (Institutional Testing Program) 527 (26 bulan yang lalu) · Excel (pivot table, VLOOKUP)."
             }
            ]
           }
@@ -11184,11 +11182,11 @@ window.MT_LMS['the-pack'] = {
          },
          "title": {
           "en": "HIMA/IKA alumni at the twelve, from the shared spreadsheet",
-          "id": "Alumni HIMA/IKA di dua belas perusahaan, dari spreadsheet bersama"
+          "id": "Alumni HIMA/IKA di dua belas perusahaan itu, dari spreadsheet bersama"
          },
          "meta": {
           "en": "Name · programme or entry year · current role · location · affinity",
-          "id": "Nama · program atau tahun masuk · peran saat ini · lokasi · afinitas"
+          "id": "Nama · program atau tahun masuk · peran saat ini · lokasi · kesamaan"
          },
          "body": [
           {
@@ -11201,7 +11199,7 @@ window.MT_LMS['the-pack'] = {
            "items": [
             {
              "en": "Rina, MT 2023, now Supply Chain Planner, Semarang plant, HIMA; posted on LinkedIn about the rotation moving to supply chain",
-             "id": "Rina, MT 2023, kini Supply Chain Planner, pabrik Semarang, HIMA; memposting di LinkedIn tentang rotasi yang pindah ke supply chain"
+             "id": "Rina, MT 2023, kini Supply Chain Planner di pabrik Semarang, HIMA; menulis di LinkedIn tentang rotasi yang pindah ke supply chain"
             },
             {
              "en": "Dimas, MT 2024, Sales Trainee, Jakarta, same faculty",
@@ -11249,7 +11247,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "(Not an alumnus) Mr. Aditya, Head of Merchant Operations; wrote a public post on scaling merchant operations",
-             "id": "(Bukan alumnus) Bapak Aditya, Head of Merchant Operations; menulis postingan publik tentang menskalakan operasi merchant"
+             "id": "(Bukan alumni) Bapak Aditya, Head of Merchant Operations; menulis unggahan publik tentang cara membesarkan operasional merchant"
             }
            ]
           },
@@ -11263,7 +11261,7 @@ window.MT_LMS['the-pack'] = {
            "items": [
             {
              "en": "Wulan, Area Operations Trainee 2023, now Area Supervisor, Semarang, HIMA; she shared the alumni sheet",
-             "id": "Wulan, Area Operations Trainee 2023, kini Area Supervisor, Semarang, HIMA; ia yang membagikan lembar alumni"
+             "id": "Wulan, Area Operations Trainee 2023, kini Area Supervisor, Semarang, HIMA; dialah yang membagikan lembar alumni"
             }
            ]
           },
@@ -11289,7 +11287,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Rel Nusantara, Garis Lurus, Toko Cahaya, Bumi Tekstil, Cakra: none listed",
-             "id": "Rel Nusantara, Garis Lurus, Toko Cahaya, Bumi Tekstil, Cakra: tidak ada yang tercantum"
+             "id": "Rel Nusantara, Garis Lurus, Toko Cahaya, Bumi Tekstil, Cakra: tidak ada alumni yang tercatat"
             }
            ]
           }
@@ -11309,7 +11307,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 2.1. Write Nadia’s narrow-and-broad target in one sentence of at most 40 words: role family · industry · two or three example employers · location.",
-         "id": "Pelajaran 2.1. Tulis sasaran sempit-dan-luas Nadia dalam satu kalimat maksimal 40 kata: rumpun peran · industri · dua atau tiga contoh perusahaan · lokasi."
+         "id": "Pelajaran 2.1. Tulis sasaran Nadia yang sempit sekaligus luas dalam satu kalimat, paling banyak 40 kata: rumpun posisi · industri · dua atau tiga contoh perusahaan · lokasi."
         },
         "questions": [
          {
@@ -11323,11 +11321,11 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Someone reading it should be able to act on it: “I know a person at…”. Use her preferences tab.",
-           "id": "Orang yang membacanya harus bisa bertindak: “Saya kenal orang di…”. Pakai tab preferensinya."
+           "id": "Orang yang membacanya harus bisa langsung bertindak: “Saya kenal orang di…”. Pakai tab preferensinya."
           },
           "placeholder": {
            "en": "Operations and supply-chain trainee roles, MT or officer programme programmes, or operations associate positions, at consumer-goods, banking and fintech employers such as …, in Central Java or Jakarta.",
-           "id": "Peran trainee operasi dan supply chain, program MT atau ODP, atau posisi operations associate, di perusahaan consumer goods, perbankan, dan fintech seperti …, di Jawa Tengah atau Jakarta."
+           "id": "Posisi trainee operasional dan supply chain, program MT atau ODP, atau posisi operations associate, di perusahaan barang konsumsi, perbankan, dan fintech seperti …, di Jawa Tengah atau Jakarta."
           },
           "keywords": [
            [
@@ -11376,7 +11374,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 2.2. Score all twelve, A: Y/N from the alumni sheet; M: 0–3 from her preferences (the family constraint is an input); P: 1–3 from the posting column; then sort M → P → A and justify the Top 5.",
-         "id": "Pelajaran 2.2. Nilai kedua belas, A: Y/T dari lembar alumni; M: 0–3 dari preferensinya (kendala keluarga adalah masukan); P: 1–3 dari kolom lowongan; lalu urutkan M → P → A dan benarkan 5 Teratas."
+         "id": "Pelajaran 2.2. Beri skor kedua belas perusahaan: A: Y/T dari lembar alumni; M: 0–3 dari preferensinya (kendala keluarga ikut dihitung); P: 1–3 dari kolom lowongan. Lalu urutkan M → P → A dan pertanggungjawabkan 5 Teratasnya."
         },
         "questions": [
          {
@@ -11385,15 +11383,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 13,
           "title": {
            "en": "The scored list, sorted",
-           "id": "Daftar yang dinilai, terurut"
+           "id": "Daftar yang sudah diberi skor, terurut"
           },
           "help": {
            "en": "One line per employer, in sorted order: name · A · M · P · one-word note (outreach / calendar / queue).",
-           "id": "Satu baris per perusahaan, dalam urutan terurut: nama · A · M · P · catatan satu kata (penjangkauan / kalender / antrean)."
+           "id": "Satu baris per perusahaan, sesuai urutan: nama · A · M · P · catatan satu kata (penjajakan / kalender / antrean)."
           },
           "placeholder": {
            "en": "1. Arunika · Y · 3 · 3 · outreach\n2. Bank Sinar Nusantara · Y · 3 · 2 · outreach\n3. …\n12. …",
-           "id": "1. Arunika · Y · 3 · 3 · penjangkauan\n2. Bank Sinar Nusantara · Y · 3 · 2 · penjangkauan\n3. …\n12. …"
+           "id": "1. Arunika · Y · 3 · 3 · penjajakan\n2. Bank Sinar Nusantara · Y · 3 · 2 · penjajakan\n3. …\n12. …"
           },
           "keywords": [
            [
@@ -11445,15 +11443,15 @@ window.MT_LMS['the-pack'] = {
           "rows": 6,
           "title": {
            "en": "Why these five: in at most 100 words",
-           "id": "Mengapa lima ini: maksimal 100 kata"
+           "id": "Mengapa lima ini: paling banyak 100 kata"
           },
           "help": {
            "en": "Motivation first, then posting, then advocacy, and say how the family constraint and the process-track windows shaped the line under row 5.",
-           "id": "Motivasi dulu, lalu lowongan, lalu advokasi, dan katakan bagaimana kendala keluarga dan jendela jalur proses membentuk garis di bawah baris 5."
+           "id": "Motivasi dulu, lalu lowongan, lalu advokasi; dan jelaskan bagaimana kendala keluarga serta jadwal jalur proses menentukan garis di bawah baris 5."
           },
           "placeholder": {
            "en": "Bank Sinar Nusantara and Arunika lead on motivation and advocacy; KilatPay has a live, very relevant posting; Rumah Rempah answers the family constraint with an alumna inside; … PT Rel Nusantara scores well on motivation but its window is four months away, so it goes to the calendar, not to outreach.",
-           "id": "Bank Sinar Nusantara dan Arunika memimpin di motivasi dan advokasi; KilatPay punya lowongan aktif yang sangat relevan; Rumah Rempah menjawab kendala keluarga dengan alumna di dalam; … PT Rel Nusantara bagus di motivasi tetapi jendelanya empat bulan lagi, jadi masuk kalender, bukan penjangkauan."
+           "id": "Bank Sinar Nusantara dan Arunika memimpin di motivasi dan advokasi; KilatPay punya lowongan aktif yang sangat relevan; Rumah Rempah menjawab kendala keluarga, dan ada alumni di dalamnya; … PT Rel Nusantara bagus di motivasi, tetapi pendaftarannya masih empat bulan lagi, jadi masuk kalender, bukan penjajakan."
           },
           "keywords": [
            [
@@ -11508,7 +11506,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 2.3, section 1. For two of the Top 5, name contact A and contact B from the alumni sheet and say why, using the five traits: functionally relevant · shared affinity · one or two levels above entry · promoted internally · findable.",
-         "id": "Pelajaran 2.3, bagian 1. Untuk dua dari 5 Teratas, sebutkan kontak A dan kontak B dari lembar alumni dan katakan mengapa, dengan lima ciri: relevan secara fungsi · kesamaan afinitas · satu–dua tingkat di atas pemula · dipromosikan dari dalam · bisa ditemukan."
+         "id": "Pelajaran 2.3, bagian 1. Untuk dua dari 5 Teratas, sebutkan kontak A dan kontak B dari lembar alumni dan jelaskan alasannya dengan lima ciri: pekerjaannya relevan · ada kesamaan · satu–dua tingkat di atas pemula · naik dari dalam · mudah dihubungi."
         },
         "questions": [
          {
@@ -11521,11 +11519,11 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Four people, one line each: employer · name · role and year · which traits they satisfy · what makes them A rather than B. Say who on the sheet you would <i>not</i> start with, and why.",
-           "id": "Empat orang, satu baris masing-masing: perusahaan · nama · peran dan tahun · ciri mana yang dipenuhi · apa yang membuat mereka A bukan B. Katakan siapa di lembar yang <i>tidak</i> akan kamu jadikan awal, dan mengapa."
+           "id": "Empat orang, satu baris untuk masing-masing: perusahaan · nama · peran dan tahun · ciri mana yang terpenuhi · apa yang membuatnya A, bukan B. Sebutkan juga siapa di lembar itu yang <i>tidak</i> akan kamu hubungi lebih dulu, dan mengapa."
           },
           "placeholder": {
            "en": "Arunika: A: Rina (MT 2023, supply chain planner, HIMA; functionally relevant, 2–3 years ahead, wrote a post) · B: Dimas (MT 2024, same faculty; less relevant function) … Bank Sinar Nusantara, A: Hendra … not Sari (too senior for a first message) …",
-           "id": "Arunika: A: Rina (MT 2023, supply chain planner, HIMA; relevan secara fungsi, 2–3 tahun di depan, menulis postingan) · B: Dimas (MT 2024, fakultas yang sama; fungsi kurang relevan) … Bank Sinar Nusantara; A: Hendra … bukan Sari (terlalu senior untuk pesan pertama) …"
+           "id": "Arunika: A: Rina (MT 2023, supply chain planner, HIMA; pekerjaannya relevan, 2–3 tahun di atas, menulis unggahan) · B: Dimas (MT 2024, satu fakultas; fungsinya kurang relevan) … Bank Sinar Nusantara: A: Hendra … bukan Sari (terlalu senior untuk pesan pertama) …"
           },
           "keywords": [
            [
@@ -11584,15 +11582,15 @@ window.MT_LMS['the-pack'] = {
        {
         "title": {
          "en": "Outreach",
-         "id": "Penjangkauan"
+         "id": "Penjajakan"
         },
         "short": {
          "en": "Outreach",
-         "id": "Penjangkauan"
+         "id": "Penjajakan"
         },
         "guide": {
          "en": "Lesson 2.3, sections 3–4. One message in Nadia’s local language (Indonesian) to one contact A, and one in English to a second contact A. Six points each: under 75 words (40–80 here) · advice, never a job · connection first · a question · narrow and broad · more than half about them. The signals count words and the balance.",
-         "id": "Pelajaran 2.3, bagian 3–4. Satu pesan dalam Bahasa Indonesia ke satu kontak A, dan satu dalam Bahasa Inggris ke kontak A kedua. Enam poin masing-masing: di bawah 75 kata (40–80 di sini) · saran, bukan pekerjaan · koneksi lebih dulu · sebuah pertanyaan · sempit dan luas · lebih dari separuh tentang mereka. Sinyal menghitung kata dan keseimbangannya."
+         "id": "Pelajaran 2.3, bagian 3–4. Satu pesan dalam bahasa Indonesia ke satu kontak A, dan satu pesan dalam bahasa Inggris ke kontak A kedua. Masing-masing memenuhi enam poin: di bawah 75 kata (di sini 40–80) · minta saran, jangan pernah pekerjaan · koneksi lebih dulu · satu pertanyaan · sempit sekaligus luas · lebih dari separuh tentang mereka. Panel sinyal menghitung kata dan perbandingannya."
         },
         "questions": [
          {
@@ -11604,15 +11602,15 @@ window.MT_LMS['the-pack'] = {
           "lang": "id",
           "title": {
            "en": "Message 1: in the local language, to a contact A",
-           "id": "Pesan 1: Bahasa Indonesia, ke kontak A"
+           "id": "Pesan 1: bahasa Indonesia, ke kontak A"
           },
           "help": {
            "en": "Include the subject line. Kak for a near-peer alumna, Bapak/Ibu for someone senior. Budget the courtesies inside the count.",
-           "id": "Sertakan baris subjek. Kak untuk alumna yang hampir sebaya, Bapak/Ibu untuk yang senior. Anggarkan kesantunan di dalam hitungan."
+           "id": "Sertakan baris subjek. Kak untuk alumni yang hampir seangkatan, Bapak/Ibu untuk yang senior. Sisakan tempat untuk tata krama di dalam hitungan kata."
           },
           "placeholder": {
            "en": "Subject: …\nHello …, my name is Nadia, … from the same university. Sorry to interrupt your day. I read … Would you be willing to … for 15 to 20 minutes …? I am exploring … at … such as …. Thank you very much.",
-           "id": "Subjek: … \nHalo Kak …, perkenalkan saya Nadia, … dari kampus yang sama. Mohon maaf mengganggu waktunya. Saya membaca … Apakah Kakak bersedia … 15–20 menit …? Saya sedang menjajaki … di … seperti …. Terima kasih banyak, Kak."
+           "id": "Subjek: … \nHalo Kak …, perkenalkan, saya Nadia, … dari kampus yang sama. Mohon maaf mengganggu waktunya. Saya membaca … Apakah Kakak bersedia … 15–20 menit …? Saya sedang menjajaki … di … seperti …. Terima kasih banyak, Kak."
           },
           "keywords": [
            [
@@ -11659,11 +11657,11 @@ window.MT_LMS['the-pack'] = {
           "lang": "en",
           "title": {
            "en": "Message 2: English, to a second contact A",
-           "id": "Pesan 2: Bahasa Inggris, ke kontak A kedua"
+           "id": "Pesan 2: bahasa Inggris, ke kontak A kedua"
           },
           "help": {
            "en": "Same six points, different register. A subject line, a connection, one question, narrow and broad.",
-           "id": "Enam poin yang sama, register berbeda. Baris subjek, koneksi, satu pertanyaan, sempit dan luas."
+           "id": "Enam poin yang sama, nada yang berbeda. Baris subjek, koneksi, satu pertanyaan, sempit sekaligus luas."
           },
           "placeholder": {
            "en": "Subject: … \nDear …, I’m Nadia, a 2026 management graduate from …. I read your … Would you be open to a 15-minute call in the next two weeks to share …? I’m exploring … at … and similar …. Thank you for considering it.",
@@ -11717,7 +11715,7 @@ window.MT_LMS['the-pack'] = {
         },
         "guide": {
          "en": "Lesson 2.3, section 6. Nadia sends contact-A messages to her Top 5 outreach employers on Monday. Thursday is a public holiday. Lay out the 3B7 reminders for the first two weeks, counting business days only, and say what happens at each.",
-         "id": "Pelajaran 2.3, bagian 6. Nadia mengirim pesan kontak A ke perusahaan penjangkauan 5 Teratas-nya pada Senin. Kamis hari libur nasional. Susun pengingat 3B7 untuk dua minggu pertama, hitung hari kerja saja, dan katakan apa yang terjadi di masing-masing."
+         "id": "Pelajaran 2.3, bagian 6. Nadia mengirim pesan ke kontak A di perusahaan-perusahaan 5 Teratasnya pada hari Senin. Kamis libur nasional. Susun pengingat 3B7 untuk dua minggu pertama, hitung hari kerja saja, dan jelaskan apa yang terjadi di tiap titik."
         },
         "questions": [
          {
@@ -11730,11 +11728,11 @@ window.MT_LMS['the-pack'] = {
           },
           "help": {
            "en": "Which weekday is business day 3? Business day 7? What does she do on each if there is no reply, and what if there is? Where does the PT Rel Nusantara window go?",
-           "id": "Hari apa hari kerja ke-3? Hari kerja ke-7? Apa yang ia lakukan pada masing-masing jika tidak ada balasan, dan jika ada? Ke mana jendela PT Rel Nusantara?"
+           "id": "Hari apa hari kerja ke-3? Hari kerja ke-7? Apa yang ia lakukan di tiap hari itu kalau belum ada balasan, dan kalau ada? Ke mana jadwal PT Rel Nusantara?"
           },
           "placeholder": {
            "en": "Mon (day 0): send A messages to Arunika, BSN, KilatPay, Rumah Rempah … Thu: holiday, not counted. Fri = day 3: no reply → message contact B at … Following Mon = day 4 … Tue = day 5 … Thu = day 7: one follow-up to any silent A, then stop. Rel Nusantara: calendar entry for the joint recruitment in 4 months …",
-           "id": "Sen (hari 0): kirim pesan A ke Arunika, BSN, KilatPay, Rumah Rempah … Kam: libur, tidak dihitung. Jum = hari 3: tidak dibalas → pesan ke kontak B di … Sen berikutnya = hari 4 … Sel = hari 5 … Kam = hari 7: satu tindak lanjut ke A yang diam, lalu berhenti. Rel Nusantara: catatan kalender untuk rekrutmen bersama 4 bulan lagi …"
+           "id": "Sen (hari 0): kirim pesan A ke Arunika, BSN, KilatPay, Rumah Rempah … Kam: libur, tidak dihitung. Jum = hari 3: belum dibalas → pesan ke kontak B di … Sen berikutnya = hari 4 … Sel = hari 5 … Kam = hari 7: satu tindak lanjut ke A yang masih diam, lalu berhenti. Rel Nusantara: catatan kalender untuk rekrutmen bersama 4 bulan lagi …"
           },
           "keywords": [
            [
@@ -11793,21 +11791,21 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Target sentence is actionable: role family, industry, examples, location, within 40 words",
-         "id": "Kalimat sasaran bisa ditindaklanjuti: rumpun peran, industri, contoh, lokasi, dalam 40 kata"
+         "id": "Kalimat sasaran bisa langsung dipakai: rumpun posisi, industri, contoh, lokasi, dalam 40 kata"
         },
         "w": "15%"
        },
        {
         "h": {
          "en": "LAMP scores are defensible, the sort is M → P → A, and the Top 5 argument uses her constraints",
-         "id": "Skor LAMP bisa dipertahankan, urutannya M → P → A, dan argumen 5 Teratas memakai kendalanya"
+         "id": "Skor LAMP bisa dipertanggungjawabkan, urutannya M → P → A, dan argumen 5 Teratas memakai kendala Nadia"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "Starter contacts chosen by the five traits, with a reason for who is not first",
-         "id": "Kontak awal dipilih dengan lima ciri, dengan alasan siapa yang bukan yang pertama"
+         "id": "Kontak awal dipilih dengan lima ciri, dengan alasan mengapa seseorang tidak dihubungi lebih dulu"
         },
         "w": "20%"
        },
@@ -11821,7 +11819,7 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Calendar counts business days, handles the holiday, and puts the process-track window in the right place",
-         "id": "Kalender menghitung hari kerja, menangani hari libur, dan menempatkan jendela jalur proses di tempat yang tepat"
+         "id": "Kalender menghitung hari kerja, memperhitungkan hari libur, dan menaruh jadwal jalur proses di tempat yang tepat"
         },
         "w": "15%"
        }
@@ -11829,7 +11827,7 @@ window.MT_LMS['the-pack'] = {
       "model": {
        "title": {
         "en": "Model notes: one defensible answer",
-        "id": "Catatan model: satu jawaban yang bisa dipertahankan"
+        "id": "Catatan model: satu jawaban yang bisa dipertanggungjawabkan"
        },
        "body": [
         {
@@ -11840,7 +11838,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "“Operations and supply-chain trainee roles, MT/officer programme programmes or operations-associate positions, at consumer-goods, banking and fintech employers such as Arunika, Bank Sinar Nusantara and KilatPay, in Central Java or, for a structured programme, Jakarta.” (36 words.) Anyone who reads it can say “I know someone at…”.",
-         "id": "“Peran trainee operasi dan supply chain, program MT/ODP atau posisi operations associate, di perusahaan consumer goods, perbankan, dan fintech seperti Arunika, Bank Sinar Nusantara, dan KilatPay, di Jawa Tengah atau, untuk program terstruktur, Jakarta.” (36 kata.) Siapa pun yang membacanya bisa bilang “Saya kenal orang di…”."
+         "id": "“Posisi trainee operasional dan supply chain, program MT/ODP atau posisi operations associate, di perusahaan barang konsumsi, perbankan, dan fintech seperti Arunika, Bank Sinar Nusantara, dan KilatPay, di Jawa Tengah atau, untuk program yang terstruktur, Jakarta.” (36 kata.) Siapa pun yang membacanya bisa bilang, “Saya kenal orang di…”."
         },
         {
          "h": {
@@ -11850,7 +11848,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "1 Arunika · Y · 3 · 3 · outreach. 2 Bank Sinar Nusantara · Y · 3 · 2 · outreach. 3 KilatPay · Y · 2 · 3 · outreach. 4 Rumah Rempah · Y · 3 · 1 · outreach (M 3 for Semarang and operations; P 1 because nothing is posted). 5 Garis Lurus Logistik · N · 2 · 2 · outreach or queue. 6 Rel Nusantara · N · 2 · 1 · calendar (4 months). 7 Cakra Multifinance · N · 2 · 2 · queue, Semarang and a window in two weeks argue for it; pure finance and no alumni argue against; a defensible alternative to row 5. 8 Sumber Segar · Y · 1 · 2 · queue. 9 Toko Cahaya · N · 1 · 2. 10 Bumi Tekstil · N · 1 · 2. 11 Tirta Medika · Y · 1 · 1. 12 Sinar Cerah · Y · 0 · 1. Reasonable answers swap rows 4–7; the line under row 5 is the point, not the exact order.",
-         "id": "1 Arunika · Y · 3 · 3 · penjangkauan. 2 Bank Sinar Nusantara · Y · 3 · 2 · penjangkauan. 3 KilatPay · Y · 2 · 3 · penjangkauan. 4 Rumah Rempah · Y · 3 · 1 · penjangkauan (M 3 karena Semarang dan operasi; P 1 karena tidak ada yang diiklankan). 5 Garis Lurus Logistik · T · 2 · 2 · penjangkauan atau antrean. 6 Rel Nusantara · T · 2 · 1 · kalender (4 bulan). 7 Cakra Multifinance · T · 2 · 2 · antrean, Semarang dan jendela dua minggu lagi mendukungnya; keuangan murni dan tanpa alumni menentangnya; alternatif yang bisa dipertahankan untuk baris 5. 8 Sumber Segar · Y · 1 · 2 · antrean. 9 Toko Cahaya · T · 1 · 2. 10 Bumi Tekstil · T · 1 · 2. 11 Tirta Medika · Y · 1 · 1. 12 Sinar Cerah · Y · 0 · 1. Jawaban yang masuk akal menukar baris 4–7; garis di bawah baris 5 adalah intinya, bukan urutan persisnya."
+         "id": "1 Arunika · Y · 3 · 3 · penjajakan. 2 Bank Sinar Nusantara · Y · 3 · 2 · penjajakan. 3 KilatPay · Y · 2 · 3 · penjajakan. 4 Rumah Rempah · Y · 3 · 1 · penjajakan (M 3 karena Semarang dan operasional; P 1 karena belum ada lowongan). 5 Garis Lurus Logistik · T · 2 · 2 · penjajakan atau antrean. 6 Rel Nusantara · T · 2 · 1 · kalender (4 bulan). 7 Cakra Multifinance · T · 2 · 2 · antrean; Semarang dan pendaftaran dua minggu lagi mendukungnya, murni keuangan dan tanpa alumni melemahkannya; alternatif yang masuk akal untuk baris 5. 8 Sumber Segar · Y · 1 · 2 · antrean. 9 Toko Cahaya · T · 1 · 2. 10 Bumi Tekstil · T · 1 · 2. 11 Tirta Medika · Y · 1 · 1. 12 Sinar Cerah · Y · 0 · 1. Jawaban yang masuk akal boleh menukar baris 4–7; yang penting adalah garis di bawah baris 5, bukan urutan persisnya."
         },
         {
          "h": {
@@ -11860,7 +11858,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Bank Sinar Nusantara: highest advocacy (four alumni), rolling officer programme with an operations stream, Central Java branches. Arunika: highest motivation, a very relevant window in six weeks, an alumna who wrote about exactly her interest. KilatPay: a live, very relevant posting closing in three weeks and an alumna in operations, Jakarta, but a real role. Rumah Rempah: answers the family constraint with operations work in Semarang and an alumna who already helped once; no posting, which is why outreach matters more there, not less. Fifth is a judgment call between Garis Lurus (relevant programme, no alumni) and Cakra (Semarang, a near window, pure finance). PT Rel Nusantara is a process-track item: high enough motivation, but a window four months away and nobody inside. It goes in the calendar with a reminder to build advocacy before it opens.",
-         "id": "Bank Sinar Nusantara: advokasi tertinggi (empat alumni), ODP bergulir dengan jalur operasi, cabang di Jawa Tengah. Arunika: motivasi tertinggi, jendela sangat relevan enam minggu lagi, alumna yang menulis persis tentang minatnya. KilatPay: lowongan aktif yang sangat relevan tutup tiga minggu lagi dan alumna di operasi, Jakarta, tetapi peran nyata. Rumah Rempah: menjawab kendala keluarga dengan pekerjaan operasi di Semarang dan alumna yang sudah pernah membantu; tanpa lowongan, itulah mengapa penjangkauan lebih penting di sana, bukan kurang. Yang kelima adalah pertimbangan antara Garis Lurus (program relevan, tanpa alumni) dan Cakra (Semarang, jendela dekat, keuangan murni). PT Rel Nusantara adalah butir jalur proses: motivasi cukup tinggi, tetapi jendela empat bulan lagi dan tidak ada orang di dalam, masuk kalender dengan pengingat membangun advokasi sebelum dibuka."
+         "id": "Bank Sinar Nusantara: advokasi paling tinggi (empat alumni), ODP bergulir dengan jalur operasional, cabang di Jawa Tengah. Arunika: motivasi paling tinggi, pendaftaran yang sangat relevan enam minggu lagi, dan seorang alumni yang menulis persis tentang minatnya. KilatPay: lowongan aktif yang sangat relevan, tutup tiga minggu lagi, dan seorang alumni di bagian operasional; memang di Jakarta, tetapi posisinya nyata. Rumah Rempah: menjawab kendala keluarga dengan pekerjaan operasional di Semarang dan seorang alumni yang sudah pernah membantu; belum ada lowongan, dan justru karena itulah penjajakan di sana lebih penting, bukan kurang. Yang kelima soal pertimbangan: Garis Lurus (programnya relevan, tanpa alumni) atau Cakra (Semarang, pendaftarannya dekat, tetapi murni keuangan). PT Rel Nusantara adalah butir jalur proses: motivasinya cukup tinggi, tetapi pendaftarannya empat bulan lagi dan tidak ada orang di dalam. Masuk kalender, dengan pengingat untuk membangun advokasi sebelum pendaftaran dibuka."
         },
         {
          "h": {
@@ -11870,7 +11868,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Arunika: A: Rina (MT 2023, Supply Chain Planner, HIMA): functionally relevant, two to three years ahead, promoted through the programme, findable, and she wrote a post that gives Nadia a connection beyond the campus. B: Dimas (MT 2024, same faculty): high affinity, right level, less relevant function, good for the programme, thin on supply chain. Bank Sinar Nusantara, A: Hendra (officer programme 2019, Branch Operations Manager, Semarang, IKA): operations, Semarang, promoted internally; senior enough that the register is Bapak. B: Ayu (officer programme 2022, HIMA): closer in years and a HIMA tie, but a relationship-manager role. Not first: Sari, too senior for a cold first message; reach her through Hendra if at all. Fajar. Started last month; knows the selection, not the organisation; a later, useful conversation. At KilatPay, Putri (HIMA, operations) is A; Mr. Aditya is a legitimate second contact because his public post supplies the connection.",
-         "id": "Arunika: A: Rina (MT 2023, Supply Chain Planner, HIMA): relevan secara fungsi, dua sampai tiga tahun di depan, dipromosikan lewat program, bisa ditemukan, dan ia menulis postingan yang memberi Nadia koneksi di luar kampus. B: Dimas (MT 2024, fakultas yang sama): afinitas tinggi, tingkat tepat, fungsi kurang relevan, bagus untuk program, tipis untuk supply chain. Bank Sinar Nusantara, A: Hendra (ODP 2019, Branch Operations Manager, Semarang, IKA): operasi, Semarang, dipromosikan dari dalam; cukup senior sehingga registernya Bapak. B: Ayu (ODP 2022, HIMA): lebih dekat tahunnya dan ikatan HIMA, tetapi peran relationship manager. Bukan yang pertama: Sari, terlalu senior untuk pesan dingin pertama; jangkau lewat Hendra jika perlu. Fajar. Mulai bulan lalu; tahu seleksinya, bukan organisasinya; percakapan yang berguna nanti. Di KilatPay, Putri (HIMA, operasi) adalah A; Bapak Aditya adalah kontak kedua yang sah karena postingan publiknya memberi koneksi."
+         "id": "Arunika: A: Rina (MT 2023, Supply Chain Planner, HIMA): pekerjaannya relevan, dua sampai tiga tahun di atas, naik lewat program, mudah dihubungi, dan ia menulis unggahan yang memberi Nadia koneksi di luar urusan kampus. B: Dimas (MT 2024, satu fakultas): kesamaannya kuat, tingkatnya pas, fungsinya kurang relevan; bagus untuk bertanya soal program, tipis soal supply chain. Bank Sinar Nusantara: A: Hendra (ODP 2019, Branch Operations Manager, Semarang, IKA): operasional, Semarang, naik dari dalam; cukup senior sehingga sapaannya Bapak. B: Ayu (ODP 2022, HIMA): lebih dekat tahunnya dan ada ikatan HIMA, tetapi perannya relationship manager. Bukan yang pertama: Sari, terlalu senior untuk pesan pertama tanpa pengantar; kalau perlu, jangkau lewat Hendra. Fajar baru mulai bulan lalu; ia tahu seleksinya, bukan organisasinya; obrolan yang berguna untuk nanti. Di KilatPay, Putri (HIMA, operasional) adalah A; Bapak Aditya kontak kedua yang sah, karena unggahan publiknya memberi koneksi."
         },
         {
          "h": {
@@ -11880,7 +11878,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Bahasa Indonesia, to Rina, the Lesson 2.3 message: connection in the first line (same campus, her post), <i>mohon maaf mengganggu</i>, one question (15–20 minutes in the next two weeks), narrow (Arunika MT) and broad (consumer-goods MT programmes), 62 words, and more than half about her. English, to Mr. Aditya, the Lesson 2.3 message: his post as the connection, a 15-minute call, “KilatPay and similar fintechs”, 63 words. Neither mentions a job, a referral, a CV or an GPA.",
-         "id": "Bahasa Indonesia, ke Rina, pesan Pelajaran 2.3: koneksi di baris pertama (kampus yang sama, postingannya), <i>mohon maaf mengganggu</i>, satu pertanyaan (15–20 menit dalam dua minggu ke depan), sempit (MT Arunika) dan luas (program MT consumer goods), 62 kata, dan lebih dari separuh tentang dirinya. Bahasa Inggris, ke Bapak Aditya, pesan Pelajaran 2.3: postingannya sebagai koneksi, panggilan 15 menit, “KilatPay dan fintech serupa”, 63 kata. Tidak satu pun menyebut pekerjaan, referensi, CV, atau IPK."
+         "id": "Bahasa Indonesia, ke Rina, pesan dari Pelajaran 2.3: koneksi di baris pertama (kampus yang sama, unggahannya), <i>mohon maaf mengganggu</i>, satu pertanyaan (15–20 menit dalam dua minggu ke depan), sempit (MT Arunika) sekaligus luas (program MT barang konsumsi), 62 kata, dan lebih dari separuh tentang dirinya. Bahasa Inggris, ke Bapak Aditya, pesan dari Pelajaran 2.3: unggahannya sebagai koneksi, panggilan 15 menit, “KilatPay dan fintech serupa”, 63 kata. Tidak satu pun menyebut pekerjaan, referensi, CV, atau IPK."
         },
         {
          "h": {
@@ -11890,12 +11888,12 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Monday, day 0: A messages to Arunika (Rina), Bank Sinar Nusantara (Hendra), KilatPay (Putri), Rumah Rempah (Wulan) and Garis Lurus (a LinkedIn search for a graduate-programme alumnus, since the sheet has none), five clocks, one message per employer. Tuesday, Wednesday: days 1 and 2, nothing to do. Thursday: public holiday, not counted. Friday: day 3, for any silent A, message contact B (Dimas, Ayu, Mr. Aditya…); avoid Friday prayer time. Following Monday to Wednesday: days 4–6; any reply is answered within 24 hours with three time slots. Thursday: day 7. One two-sentence follow-up to any A still silent, then stop; the employer is parked for this cycle if B is silent too by its own day 7. PT Rel Nusantara: a calendar entry for the joint recruitment in four months, plus a reminder in two months to find one person there. Arunika’s MT window in six weeks and KilatPay’s closing date in three weeks also go into the calendar; the process track runs regardless of who replies.",
-         "id": "Senin, hari 0: pesan A ke Arunika (Rina), Bank Sinar Nusantara (Hendra), KilatPay (Putri), Rumah Rempah (Wulan), dan Garis Lurus (pencarian LinkedIn untuk alumnus program lulusan, karena lembarnya tidak punya), lima jam, satu pesan per perusahaan. Selasa, Rabu: hari 1 dan 2, tidak ada yang dilakukan. Kamis: libur nasional, tidak dihitung. Jumat: hari 3. Untuk setiap A yang diam, pesan ke kontak B (Dimas, Ayu, Bapak Aditya…); hindari waktu salat Jumat. Senin sampai Rabu berikutnya: hari 4–6; setiap balasan dijawab dalam 24 jam dengan tiga slot waktu. Kamis: hari 7, satu tindak lanjut dua kalimat ke A yang masih diam, lalu berhenti; perusahaan diparkir untuk siklus ini jika B juga diam sampai hari ke-7-nya sendiri. PT Rel Nusantara: catatan kalender untuk rekrutmen bersama empat bulan lagi, plus pengingat dua bulan lagi untuk menemukan satu orang di sana. Jendela MT Arunika enam minggu lagi dan tanggal tutup KilatPay tiga minggu lagi juga masuk kalender; jalur proses berjalan terlepas dari siapa yang membalas."
+         "id": "Senin, hari 0: pesan A ke Arunika (Rina), Bank Sinar Nusantara (Hendra), KilatPay (Putri), Rumah Rempah (Wulan), dan Garis Lurus (dicari lewat LinkedIn, alumni program lulusannya, karena lembar alumni tidak mencatat siapa pun); lima jam berdetak, satu pesan per perusahaan. Selasa, Rabu: hari 1 dan 2, tidak ada yang perlu dilakukan. Kamis: libur nasional, tidak dihitung. Jumat: hari 3; untuk setiap A yang masih diam, pesan ke kontak B (Dimas, Ayu, Bapak Aditya…); hindari waktu salat Jumat. Senin sampai Rabu berikutnya: hari 4–6; setiap balasan dijawab dalam 24 jam dengan tiga pilihan waktu. Kamis: hari 7; satu tindak lanjut dua kalimat ke A yang masih diam, lalu berhenti; perusahaan diparkir untuk siklus ini kalau B juga diam sampai hari ke-7-nya sendiri. PT Rel Nusantara: catatan kalender untuk rekrutmen bersama empat bulan lagi, ditambah pengingat dua bulan lagi untuk menemukan satu orang di sana. Pendaftaran MT Arunika enam minggu lagi dan tanggal tutup KilatPay tiga minggu lagi juga masuk kalender; jalur proses tetap berjalan, siapa pun yang membalas."
         }
        ],
        "after": {
         "en": "Compare, do not copy. If your Top 5 has no Semarang employer, ask where the family constraint went. If either message names a job, a referral or an GPA, rewrite it. If your day 3 fell on Thursday, you counted the holiday.",
-        "id": "Bandingkan, jangan salin. Jika 5 Teratas-mu tidak punya perusahaan Semarang, tanyakan ke mana kendala keluarganya pergi. Jika salah satu pesan menyebut pekerjaan, referensi, atau IPK, tulis ulang. Jika hari ke-3-mu jatuh pada Kamis, kamu menghitung hari libur."
+        "id": "Bandingkan, jangan salin. Kalau 5 Teratasmu tidak memuat satu pun perusahaan di Semarang, tanyakan ke mana perginya kendala keluarga. Kalau salah satu pesan menyebut pekerjaan, referensi, atau IPK, tulis ulang. Kalau hari ke-3-mu jatuh pada Kamis, berarti kamu menghitung hari libur."
        }
       },
       "submit": {
@@ -11909,7 +11907,7 @@ window.MT_LMS['the-pack'] = {
        },
        "lead": {
         "en": "Read your six answers as Wulan would; she shared the sheet, she knows the people, and she will see the messages. Submitting locks them on this device and opens the model notes.",
-        "id": "Baca keenam jawabanmu seperti Kak Wulan; ia membagikan lembarnya, ia kenal orang-orangnya, dan ia akan melihat pesannya. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+        "id": "Baca keenam jawabanmu seperti Kak Wulan membacanya; ia yang membagikan lembar alumni, ia kenal orang-orangnya, dan ia akan melihat pesan-pesan itu. Mengumpulkan akan mengunci jawaban di perangkat ini dan membuka catatan model."
        },
        "button": {
         "en": "Submit the case",
@@ -11930,21 +11928,21 @@ window.MT_LMS['the-pack'] = {
        {
         "h": {
          "en": "Ranking by prestige instead of Nadia’s motivation",
-         "id": "Memeringkat berdasarkan gengsi, bukan motivasi Nadia"
+         "id": "Mengurutkan berdasarkan gengsi, bukan motivasi Nadia"
         },
         "fix": {
          "en": "Score M from her preferences tab, including the family constraint.",
-         "id": "Nilai M dari tab preferensinya, termasuk kendala keluarga."
+         "id": "Beri skor M dari tab preferensinya, termasuk kendala keluarga."
         }
        },
        {
         "h": {
          "en": "Starting with the most senior person on the sheet",
-         "id": "Memulai dengan orang paling senior di lembar"
+         "id": "Memulai dari orang paling senior di lembar"
         },
         "fix": {
          "en": "Two to five years ahead first; seniors through them.",
-         "id": "Dua sampai lima tahun di depan lebih dulu; senior lewat mereka."
+         "id": "Yang dua sampai lima tahun di atas dulu; para senior dijangkau lewat mereka."
         }
        },
        {
@@ -11964,7 +11962,7 @@ window.MT_LMS['the-pack'] = {
         },
         "fix": {
          "en": "Working days only; day 3 is Friday, not Thursday.",
-         "id": "Hari kerja saja; hari ke-3 adalah Jumat, bukan Kamis."
+         "id": "Hari kerja saja; hari ke-3 jatuh pada Jumat, bukan Kamis."
         }
        }
       ]
@@ -11977,7 +11975,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The first five rows of the sorted LAMP list, contacted first, in parallel.",
-        "id": "Lima baris pertama daftar LAMP terurut, dihubungi lebih dulu, secara paralel."
+        "id": "Lima baris pertama dari daftar LAMP yang sudah diurutkan; dihubungi lebih dulu, secara paralel."
        }
       },
       {
@@ -11987,7 +11985,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "The first and second starter contacts at one employer; B is messaged only if A is silent at day 3.",
-        "id": "Kontak awal pertama dan kedua di satu perusahaan; B dikirimi pesan hanya jika A diam pada hari ke-3."
+        "id": "Kontak awal pertama dan kedua di satu perusahaan; B baru dihubungi kalau A masih diam pada hari ke-3."
        }
       },
       {
@@ -11997,7 +11995,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "A process-track employer whose window is months away, tracked, not messaged this cycle.",
-        "id": "Perusahaan jalur proses yang jendelanya berbulan-bulan lagi; dilacak, tidak dikirimi pesan siklus ini."
+        "id": "Perusahaan jalur proses yang pendaftarannya masih berbulan-bulan lagi; dicatat, tidak dihubungi di siklus ini."
        }
       },
       {
@@ -12007,7 +12005,7 @@ window.MT_LMS['the-pack'] = {
        },
        "def": {
         "en": "Monday to Friday, excluding public holidays and cuti bersama; the unit 3B7 counts in.",
-        "id": "Senin sampai Jumat, tidak termasuk libur nasional dan cuti bersama, satuan yang dihitung 3B7."
+        "id": "Senin sampai Jumat, di luar libur nasional dan cuti bersama; satuan yang dipakai 3B7."
        }
       }
      ],
@@ -12015,7 +12013,7 @@ window.MT_LMS['the-pack'] = {
       {
        "q": {
         "en": "Rumah Rempah has no current posting. In Nadia’s LAMP list it still belongs in outreach because…",
-        "id": "Rumah Rempah tidak punya lowongan saat ini. Di daftar LAMP Nadia ia tetap masuk penjangkauan karena…"
+        "id": "Rumah Rempah belum punya lowongan. Di daftar LAMP Nadia, ia tetap masuk penjajakan karena…"
        },
        "options": [
         {
@@ -12024,7 +12022,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "en": "Motivation is high (Semarang, operations) and an alumna is inside; the network track is how you learn when the intake opens",
-         "id": "Motivasi tinggi (Semarang, operasi) dan ada alumna di dalam; jalur jejaring adalah cara mengetahui kapan seleksi dibuka"
+         "id": "Motivasinya tinggi (Semarang, operasional) dan ada alumni di dalam; lewat jalur jejaringlah kamu tahu kapan seleksinya dibuka"
         },
         {
          "en": "It is the biggest employer on the list",
@@ -12038,7 +12036,7 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "P is a proxy for current hiring; M and A are why you talk to people at an employer that is not hiring yet.",
-        "id": "P adalah proksi rekrutmen saat ini; M dan A adalah alasan bicara dengan orang di perusahaan yang belum merekrut."
+        "id": "P hanya penanda rekrutmen saat ini; M dan A adalah alasan untuk mengobrol dengan orang di perusahaan yang belum merekrut."
        }
       },
       {
@@ -12067,13 +12065,13 @@ window.MT_LMS['the-pack'] = {
        "correct": 1,
        "why": {
         "en": "Functionally relevant, promoted through the programme, in Semarang, with an IKA (the alumni association, ikatan alumni) tie, senior enough to know, junior enough to reply.",
-        "id": "Relevan secara fungsi, dipromosikan lewat program, di Semarang, dengan ikatan IKA (ikatan alumni); cukup senior untuk tahu, cukup junior untuk membalas."
+        "id": "Pekerjaannya relevan, naik lewat program, di Semarang, ada ikatan IKA (ikatan alumni); cukup senior untuk tahu, cukup junior untuk mau membalas."
        }
       },
       {
        "q": {
         "en": "Nadia messages five contact-As on Monday; Thursday is a public holiday. Business day 3 is…",
-        "id": "Nadia mengirim pesan ke lima kontak A pada Senin; Kamis libur nasional. Hari kerja ke-3 adalah…"
+        "id": "Nadia mengirim pesan ke lima kontak A pada Senin; Kamis libur nasional. Hari kerja ke-3 jatuh pada…"
        },
        "options": [
         {
@@ -12105,11 +12103,11 @@ window.MT_LMS['the-pack'] = {
       "mode": "tracker",
       "title": {
        "en": "Now your own Top 5",
-       "id": "Kini 5 Teratas milikmu"
+       "id": "Sekarang 5 Teratas milikmu"
       },
       "body": {
        "en": "Run the five steps on your own LAMP list this week: target sentence, scored list, contact A and B for each Top 5 employer, two drafted messages, and the 3B7 dates in the Pipeline Tracker. That completes Dossier items 1–4 for Module 2.",
-       "id": "Jalankan lima langkah pada daftar LAMP-mu sendiri minggu ini: kalimat sasaran, daftar yang dinilai, kontak A dan B untuk setiap perusahaan 5 Teratas, dua draf pesan, dan tanggal 3B7 di Pelacak Alur. Itu melengkapi butir Dossier 1–4 untuk Modul 2."
+       "id": "Jalankan lima langkah ini pada daftar LAMP-mu sendiri minggu ini: kalimat sasaran, daftar yang sudah diberi skor, kontak A dan B untuk tiap perusahaan 5 Teratas, dua draf pesan, dan tanggal-tanggal 3B7 di Pelacak Alur. Dengan itu, butir Dossier 1–4 untuk Modul 2 lengkap."
       },
       "cta": {
        "en": "Open the tracker →",
@@ -12119,15 +12117,15 @@ window.MT_LMS['the-pack'] = {
      "takeaways": [
       {
        "en": "A target sentence someone can act on comes before any list.",
-       "id": "Kalimat sasaran yang bisa ditindaklanjuti orang datang sebelum daftar apa pun."
+       "id": "Kalimat sasaran yang bisa langsung dipakai orang lain harus ada sebelum daftar apa pun."
       },
       {
        "en": "Score, sort, draw the line under row 5, and move far-off windows to the calendar.",
-       "id": "Nilai, urutkan, tarik garis di bawah baris 5, dan pindahkan jendela yang masih jauh ke kalender."
+       "id": "Beri skor, urutkan, tarik garis di bawah baris 5, dan pindahkan jadwal yang masih jauh ke kalender."
       },
       {
        "en": "Two people per employer, six points per message, business days only.",
-       "id": "Dua orang per perusahaan, enam poin per pesan, hari kerja saja."
+       "id": "Dua orang per perusahaan, enam poin per pesan, hitung hari kerja saja."
       }
      ],
      "journey": {
@@ -12138,7 +12136,7 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "Career capital, the LAMP list, the first message, the informational conversation.",
-        "id": "Modal karier, daftar LAMP, pesan pertama, percakapan informasi."
+        "id": "Modal karier, daftar LAMP, pesan pertama, obrolan informasi."
        }
       },
       "now": {
@@ -12158,7 +12156,7 @@ window.MT_LMS['the-pack'] = {
        },
        "desc": {
         "en": "The document your Top 5 will ask for after the conversation; read the way recruiters actually read it.",
-        "id": "Dokumen yang akan diminta 5 Teratas-mu setelah percakapan; dibaca seperti perekrut benar-benar membacanya."
+        "id": "Dokumen yang akan diminta 5 Teratasmu setelah obrolan; dibaca seperti perekrut benar-benar membacanya."
        },
        "lesson": "3.1"
       }
