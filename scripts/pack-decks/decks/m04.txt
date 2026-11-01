@@ -1,321 +1,321 @@
 # The Pack · Module 4 · Passing the ATS & Administrative Gate
 
 @4.1#0
-t: The machine organises; a person decides. Most “ATS rejections” are knockout questions and a recruiter’s filters || Mesin menata; orang memutuskan. Kebanyakan “penolakan ATS” adalah pertanyaan gugur dan saringan perekrut
-em: a person decides || orang memutuskan
-sub: Administrative and software screening eliminates more candidates than any other stage, usually for reasons that have nothing to do with ability, and all of them preventable. || Seleksi administrasi dan perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun, biasanya karena alasan yang tak ada hubungannya dengan kemampuan, dan semuanya bisa dicegah.
+t: The machine organises; a person decides. Most “ATS rejections” are knockout questions and a recruiter’s filters || Mesin memilah, manusia memutuskan. Sebagian besar “penolakan oleh ATS” sebenarnya pertanyaan gugur dan saringan yang dipasang perekrut
+em: a person decides || manusia memutuskan
+sub: Administrative and software screening eliminates more candidates than any other stage, usually for reasons that have nothing to do with ability, and all of them preventable. || Seleksi administrasi dan penyaringan oleh perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun, biasanya karena hal yang tidak ada hubungannya dengan kemampuan, dan semuanya bisa dicegah.
 lay: flow
 n0: Parses || Mengurai
 n1: Indexes || Mengindeks
 n2: Filters || Menyaring
 n3: Ranks || Memeringkat
 n4: Presents || Menyajikan
-d0: Your CV into fields: name, education, titles, dates, skills. If it cannot be read, it becomes an empty record. || CV-mu ke dalam kolom: nama, pendidikan, jabatan, tanggal, keterampilan. Jika tak bisa dibaca, menjadi rekaman kosong.
-d1: The text, so recruiters can search it by the terms in their own advertisement. || Teksnya, agar perekrut bisa mencarinya dengan istilah di iklan mereka sendiri.
-d2: On knockout questions and hard criteria: minimum GPA, major, location, right to work. || Pada pertanyaan gugur dan kriteria mutlak: IPK minimum, jurusan, lokasi, izin kerja.
-d3: Or scores against the advertisement, in some products. || Atau menilai terhadap iklan, pada sebagian produk.
-d4: A sorted list to a human recruiter, who decides; a busy one may never scroll far down. || Daftar terurut ke perekrut manusia, yang memutuskan; yang sibuk mungkin tak pernah menggulir jauh ke bawah.
+d0: Your CV into fields: name, education, titles, dates, skills. If it cannot be read, it becomes an empty record. || CV-mu dipecah menjadi kolom data: nama, pendidikan, jabatan, tanggal, keterampilan. Kalau tidak terbaca, hasilnya data kosong.
+d1: The text, so recruiters can search it by the terms in their own advertisement. || Teksnya, supaya perekrut bisa mencarinya dengan istilah dari iklan mereka sendiri.
+d2: On knockout questions and hard criteria: minimum GPA, major, location, right to work. || Lewat pertanyaan gugur dan kriteria mutlak: IPK minimum, jurusan, lokasi, izin kerja.
+d3: Or scores against the advertisement, in some products. || Atau memberi skor berdasarkan iklan, pada sebagian produk.
+d4: A sorted list to a human recruiter, who decides; a busy one may never scroll far down. || Daftar yang sudah diurutkan sampai ke perekrut, dan perekrut yang memutuskan; perekrut yang sibuk mungkin tidak pernah menggulir jauh ke bawah.
 i: doc,search,filter,chart,users
-band: Write for both: parse-safe for the machine, evidence for the person. || Tulis untuk keduanya: aman diurai untuk mesin, bukti untuk orangnya.
+band: Write for both: parse-safe for the machine, evidence for the person. || Menulislah untuk keduanya: aman dibaca sistem untuk mesinnya, penuh bukti untuk manusianya.
 img: bg/gauntlet/gate-03-assessment.jpg
 
 @4.1#1
-t: Four ideas frame the module: readable, covered, complete, consistent || Empat gagasan membingkai modul: terbaca, tercakup, lengkap, konsisten
+t: Four ideas frame the module: readable, covered, complete, consistent || Empat gagasan membingkai modul ini: terbaca, tercakup, lengkap, konsisten
 em: readable, covered, complete, consistent || terbaca, tercakup, lengkap, konsisten
-sub: Six claims you will hear about the ATS, and what is actually true, are in Lesson 4.1; the fixes are in 4.2 to 4.5. || Enam klaim yang akan kamu dengar tentang ATS, dan yang sebenarnya benar, ada di Pelajaran 4.1; perbaikannya di 4.2 sampai 4.5.
+sub: Six claims you will hear about the ATS, and what is actually true, are in Lesson 4.1; the fixes are in 4.2 to 4.5. || Enam klaim soal ATS yang pasti pernah kamu dengar, dan mana yang benar, ada di Pelajaran 4.1; perbaikannya di Pelajaran 4.2 sampai 4.5.
 lay: grid
-n0: If it can’t be read, it doesn’t exist || Jika tak bisa dibaca, ia tidak ada
-n1: Every must-have, once, exactly, truthfully || Setiap syarat wajib, sekali, persis, jujur
-n2: The instruction is the test || Petunjuk adalah ujiannya
-n3: Consistency is a criterion || Konsistensi adalah kriteria
-d0: A CV the software cannot parse becomes an empty record, silently. Lesson 4.2: eight rules and two tests. || CV yang tak bisa diurai perangkat lunak menjadi rekaman kosong, tanpa suara. Pelajaran 4.2: delapan aturan dan dua uji.
-d1: Keywords belong inside evidence, not in a hidden list. Lesson 4.3: the coverage table and four honest closes. || Kata kunci tempatnya di dalam bukti, bukan daftar tersembunyi. Pelajaran 4.3: tabel cakupan dan empat penutup jujur.
-d2: Completeness is a selection criterion in its own right. Lesson 4.4: seleksi administrasi and the pre-flight. || Kelengkapan adalah kriteria seleksi tersendiri. Pelajaran 4.4: seleksi administrasi dan pra-kirim.
-d3: Recruiters compare the CV with LinkedIn and the form; one record, many formats. Lesson 4.5: the Portal. || Perekrut membandingkan CV dengan LinkedIn dan formulir; satu rekaman, banyak format. Pelajaran 4.5: Portal.
+n0: If it can’t be read, it doesn’t exist || Kalau tidak terbaca, ia dianggap tidak ada
+n1: Every must-have, once, exactly, truthfully || Setiap syarat wajib: sekali, persis, jujur
+n2: The instruction is the test || Instruksinya adalah ujiannya
+n3: Consistency is a criterion || Konsistensi juga dinilai
+d0: A CV the software cannot parse becomes an empty record, silently. Lesson 4.2: eight rules and two tests. || CV yang tidak bisa diurai sistem berubah menjadi data kosong, tanpa pemberitahuan. Pelajaran 4.2: delapan aturan dan dua uji.
+d1: Keywords belong inside evidence, not in a hidden list. Lesson 4.3: the coverage table and four honest closes. || Tempat kata kunci adalah di dalam bukti, bukan di daftar tersembunyi. Pelajaran 4.3: tabel cakupan dan empat cara jujur menutup kekurangan.
+d2: Completeness is a selection criterion in its own right. Lesson 4.4: seleksi administrasi and the pre-flight. || Kelengkapan adalah kriteria seleksi tersendiri. Pelajaran 4.4: seleksi administrasi dan pemeriksaan sebelum kirim.
+d3: Recruiters compare the CV with LinkedIn and the form; one record, many formats. Lesson 4.5: the Portal. || Perekrut membandingkan CV dengan LinkedIn dan formulir; satu sumber data, banyak format. Pelajaran 4.5: studi kasus Portal.
 i: eye,check,clipboard,link
-band: “Hide keywords in white text” is harmful: parsed text shows hidden words to the recruiter, and it reads as manipulation. || “Sembunyikan kata kunci dalam teks putih” itu merugikan: teks yang diurai menunjukkan kata tersembunyi ke perekrut, dan terbaca sebagai manipulasi.
+band: “Hide keywords in white text” is harmful: parsed text shows hidden words to the recruiter, and it reads as manipulation. || “Sembunyikan kata kunci dengan huruf putih” itu merugikan: teks hasil urai memperlihatkan kata-kata tersembunyi itu kepada perekrut, dan kesannya seperti manipulasi.
 imgs: none
 
 @4.1#2
-t: Six claims you will hear, and what is actually true || Enam klaim yang akan kamu dengar, dan yang sebenarnya benar
-em: what is actually true || yang sebenarnya benar
-sub: The “75% / 98% rejected before a human sees them” figures are poorly sourced; what is true is that knockout questions and recruiter filters remove many applicants early. || Angka “75% / 98% ditolak sebelum dilihat manusia” bersumber buruk; yang benar adalah pertanyaan gugur dan saringan perekrut menyingkirkan banyak pelamar lebih awal.
+t: Six claims you will hear, and what is actually true || Enam klaim yang beredar, dan apa yang sebenarnya benar
+em: what is actually true || apa yang sebenarnya benar
+sub: The “75% / 98% rejected before a human sees them” figures are poorly sourced; what is true is that knockout questions and recruiter filters remove many applicants early. || Angka “75% / 98% ditolak sebelum dilihat manusia” sumbernya lemah; yang benar, pertanyaan gugur dan saringan perekrut memang menyisihkan banyak pelamar sejak awal.
 lay: columns
-cA: Claim you will hear || Klaim yang akan kamu dengar
-cAd: Widely repeated || Banyak diulang
+cA: Claim you will hear || Klaim yang beredar
+cAd: Widely repeated || Banyak diulang-ulang
 a0: “ATS rejects 75% of CVs before a human sees them” || “ATS menolak 75% CV sebelum dilihat manusia”
-a1: “Hide keywords in white text to beat the robot” || “Sembunyikan kata kunci dalam teks putih untuk mengalahkan robot”
-a2: “More keywords = higher rank” || “Lebih banyak kata kunci = peringkat lebih tinggi”
+a1: “Hide keywords in white text to beat the robot” || “Sembunyikan kata kunci dengan huruf putih untuk mengakali robot”
+a2: “More keywords = higher rank” || “Makin banyak kata kunci, makin tinggi peringkat”
 a3: “A two-column design shows creativity” || “Desain dua kolom menunjukkan kreativitas”
 cB: What’s true || Yang benar
 cBd: From the practitioner books || Dari buku-buku praktisi
-b0: Knockout questions and filters remove many early; a busy recruiter may never scroll down a ranked list || Pertanyaan gugur dan saringan menyingkirkan banyak lebih awal; perekrut sibuk mungkin tak pernah menggulir daftar peringkat
-b1: Harmful: parsed text shows the hidden words, and it reads as manipulation || Merugikan: teks yang diurai menunjukkan kata tersembunyi, dan terbaca sebagai manipulasi
-b2: Half-true: coverage of genuine must-haves matters; stuffing reads as spam to a person || Setengah benar: cakupan syarat wajib sungguhan penting; penjejalan terbaca sebagai spam bagi orang
-b3: Columns and tables scramble the parse; boring formats win || Kolom dan tabel mengacaukan penguraian; format membosankan menang
+b0: Knockout questions and filters remove many early; a busy recruiter may never scroll down a ranked list || Pertanyaan gugur dan saringan menyisihkan banyak pelamar sejak awal; perekrut yang sibuk mungkin tidak pernah menggulir jauh ke bawah daftar
+b1: Harmful: parsed text shows the hidden words, and it reads as manipulation || Merugikan: teks hasil urai memperlihatkan kata-kata tersembunyi, dan kesannya seperti manipulasi
+b2: Half-true: coverage of genuine must-haves matters; stuffing reads as spam to a person || Setengah benar: yang penting syarat wajib yang memang tercakup; kata kunci yang dijejalkan terbaca seperti spam oleh manusia
+b3: Columns and tables scramble the parse; boring formats win || Kolom ganda dan tabel mengacak hasil urai; format yang membosankan justru menang
 ic: question,check
 ia: calc,eye,list,grid
 ib: filter,warn,scale,doc
-band: LinkedIn works the same way: recruiters type the terms from their own advertisement and filter by location, school and graduation year. || LinkedIn bekerja dengan cara yang sama: perekrut mengetik istilah dari iklan mereka sendiri dan menyaring menurut lokasi, kampus, dan tahun lulus.
+band: LinkedIn works the same way: recruiters type the terms from their own advertisement and filter by location, school and graduation year. || LinkedIn bekerja dengan cara yang sama: perekrut mengetik istilah dari iklan mereka sendiri, lalu menyaring berdasarkan lokasi, kampus, dan tahun lulus.
 img: bg/stage-exploration.jpg
 
 @4.1#3
-t: Three failure modes you control, each with a routine fix and its own lesson || Tiga mode kegagalan yang kamu kendalikan, masing-masing dengan perbaikan rutin dan pelajarannya sendiri
+t: Three failure modes you control, each with a routine fix and its own lesson || Tiga jenis kegagalan yang bisa kamu kendalikan, masing-masing dengan perbaikan rutin dan pelajarannya sendiri
 em: each with a routine fix || masing-masing dengan perbaikan rutin
-sub: Unreadable, uncovered, incomplete. || Tak terbaca, tak tercakup, tak lengkap.
+sub: Unreadable, uncovered, incomplete. || Tidak terbaca, tidak tercakup, tidak lengkap.
 lay: grid
-n0: Unreadable || Tak terbaca
-n1: Uncovered || Tak tercakup
-n2: Incomplete or inconsistent || Tak lengkap atau tak konsisten
-d0: Columns, text boxes, icons, a scanned PDF: the parser returns blanks. Fix: eight rules, the plain-text test, the portal preview (4.2). || Kolom, kotak teks, ikon, PDF pindaian: pengurai mengembalikan kekosongan. Perbaikan: delapan aturan, uji teks polos, pratinjau portal (4.2).
-d1: A must-have present in your life but absent from the page, or in a different form. Fix: the coverage table and four honest closes (4.3). || Syarat wajib yang ada dalam hidupmu tapi tak ada di halaman, atau dalam bentuk berbeda. Perbaikan: tabel cakupan dan empat penutup jujur (4.3).
-d2: A missing scan, an expired certificate, a GPA rounded differently on two documents. Fix: the local checklist and the pre-flight (4.4). || Pindaian hilang, sertifikat kedaluwarsa, IPK dibulatkan berbeda di dua dokumen. Perbaikan: daftar periksa lokal dan pra-kirim (4.4).
+n0: Unreadable || Tidak terbaca
+n1: Uncovered || Tidak tercakup
+n2: Incomplete or inconsistent || Tidak lengkap atau tidak konsisten
+d0: Columns, text boxes, icons, a scanned PDF: the parser returns blanks. Fix: eight rules, the plain-text test, the portal preview (4.2). || Kolom ganda, kotak teks, ikon, PDF hasil pindaian: sistem hanya mendapat isian kosong. Perbaikan: delapan aturan, uji teks polos, pratinjau portal (4.2).
+d1: A must-have present in your life but absent from the page, or in a different form. Fix: the coverage table and four honest closes (4.3). || Syarat wajib yang sebenarnya kamu punya tetapi tidak muncul di halaman, atau muncul dengan istilah lain. Perbaikan: tabel cakupan dan empat cara jujur menutup kekurangan (4.3).
+d2: A missing scan, an expired certificate, a GPA rounded differently on two documents. Fix: the local checklist and the pre-flight (4.4). || Pindaian yang kurang, sertifikat kedaluwarsa, IPK yang dibulatkan berbeda di dua dokumen. Perbaikan: daftar periksa lokal dan pemeriksaan sebelum kirim (4.4).
 i: eye,filter,clipboard
-band: None of the three is about ability; all three end candidacies silently. || Tak satu pun dari ketiganya soal kemampuan; ketiganya mengakhiri pencalonan tanpa suara.
+band: None of the three is about ability; all three end candidacies silently. || Tidak satu pun dari ketiganya soal kemampuan; ketiganya mengakhiri lamaran tanpa suara.
 imgs: none
 
 @4.2#0
-t: Eight rules for a parse-safe CV; none of them is about taste || Delapan aturan untuk CV yang aman diurai; tak satu pun soal selera
-em: none of them is about taste || tak satu pun soal selera
-sub: Boring formats win: consolidated from Bright and Earl, Innes, Knowles, Simunovic and Ow. || Format membosankan menang: dirangkum dari Bright dan Earl, Innes, Knowles, Simunovic, dan Ow.
+t: Eight rules for a parse-safe CV; none of them is about taste || Delapan aturan agar CV aman dibaca sistem; tidak satu pun soal selera
+em: none of them is about taste || tidak satu pun soal selera
+sub: Boring formats win: consolidated from Bright and Earl, Innes, Knowles, Simunovic and Ow. || Format yang membosankan justru menang: dirangkum dari Bright dan Earl, Innes, Knowles, Simunovic, dan Ow.
 lay: grid
 n0: Single column || Satu kolom
-n1: No tables, boxes, icons or bars holding information || Tanpa tabel, kotak, ikon, atau bilah yang memuat informasi
-n2: Standard headings || Judul standar
-n3: Nothing important in headers or footers || Tak ada yang penting di kepala atau kaki halaman
-n4: Standard fonts || Fon standar
-n5: Consistent dates || Tanggal konsisten
-n6: Acronyms spelled out once || Akronim dituliskan sekali
-n7: Real text, never a scan || Teks asli, bukan pindaian
-d0: A parser reads top to bottom; two columns interleave your lines. || Pengurai membaca dari atas ke bawah; dua kolom menyilangkan barismu.
-d1: Skill bars become question marks; a text box pulls text out of order. || Bilah keterampilan menjadi tanda tanya; kotak teks menarik teks keluar urutan.
-d2: Experience, Education, Skills: the words the fields are named after. || Pengalaman, Pendidikan, Keterampilan: kata yang menjadi nama kolomnya.
-d3: Contact details in a header may never be parsed. || Detail kontak di kepala halaman mungkin tak pernah diurai.
-d4: One readable font the parser knows, no decorative faces. || Satu fon terbaca yang dikenal pengurai, tanpa huruf hiasan.
-d5: Month and year, the same way, on every entry; years of experience are computed from them. || Bulan dan tahun, cara yang sama, di setiap entri; tahun pengalaman dihitung darinya.
-d6: “Standard Operating Procedure (SOP)”: both forms, once. || “Standard Operating Procedure (SOP)”: kedua bentuk, sekali.
-d7: A 4 MB “PDF” is almost always a photograph of paper. || “PDF” 4 MB hampir selalu foto kertas.
+n1: No tables, boxes, icons or bars holding information || Tanpa tabel, kotak, ikon, atau bilah yang berisi informasi
+n2: Standard headings || Judul bagian yang standar
+n3: Nothing important in headers or footers || Tidak ada yang penting di kepala atau kaki halaman
+n4: Standard fonts || Jenis huruf standar
+n5: Consistent dates || Format tanggal seragam
+n6: Acronyms spelled out once || Kepanjangan akronim ditulis sekali
+n7: Real text, never a scan || Teks asli, bukan hasil pindaian
+d0: A parser reads top to bottom; two columns interleave your lines. || Sistem membaca dari atas ke bawah; dua kolom membuat baris-barismu bercampur.
+d1: Skill bars become question marks; a text box pulls text out of order. || Bilah keterampilan berubah menjadi tanda tanya; kotak teks membuat urutan teks berantakan.
+d2: Experience, Education, Skills: the words the fields are named after. || Pengalaman, Pendidikan, Keterampilan: kata-kata yang dipakai sebagai nama kolom data.
+d3: Contact details in a header may never be parsed. || Kontak yang ditaruh di kepala halaman bisa tidak terbaca sama sekali.
+d4: One readable font the parser knows, no decorative faces. || Satu jenis huruf yang mudah dibaca dan dikenal sistem, tanpa huruf hias.
+d5: Month and year, the same way, on every entry; years of experience are computed from them. || Bulan dan tahun, dengan cara yang sama, di setiap entri; lama pengalaman dihitung dari situ.
+d6: “Standard Operating Procedure (SOP)”: both forms, once. || “Standard Operating Procedure (SOP)”: kedua bentuknya, sekali saja.
+d7: A 4 MB “PDF” is almost always a photograph of paper. || “PDF” berukuran 4 MB hampir selalu berupa foto kertas.
 i: layers,grid,tag,doc,pen,calendar,book,eye
-band: Export from the source document, never scan a printout; compress, do not photograph. || Ekspor dari dokumen sumber, jangan pernah pindai hasil cetak; kompres, jangan foto.
+band: Export from the source document, never scan a printout; compress, do not photograph. || Ekspor dari dokumen aslinya, jangan memindai hasil cetakan; kompres, jangan difoto.
 imgs: none
 
 @4.2#1
-t: The file decision: follow the portal’s instruction first; otherwise a text-based PDF, with a clean .docx ready || Keputusan berkas: ikuti petunjuk portal lebih dulu; jika tidak ada, PDF berbasis teks, dengan .docx bersih yang siap
-em: follow the portal’s instruction first || ikuti petunjuk portal lebih dulu
-sub: The books disagree; this resolves it. Respect stated size limits, often 500 KB to 2 MB (verify per portal). || Buku-buku berbeda pendapat; ini menyelesaikannya. Hormati batas ukuran yang dinyatakan, sering 500 KB sampai 2 MB (verifikasi per portal).
+t: The file decision: follow the portal’s instruction first; otherwise a text-based PDF, with a clean .docx ready || Soal berkas: ikuti instruksi portal lebih dulu; kalau tidak ada, pakai PDF berbasis teks, dan siapkan juga .docx yang rapi
+em: follow the portal’s instruction first || ikuti instruksi portal lebih dulu
+sub: The books disagree; this resolves it. Respect stated size limits, often 500 KB to 2 MB (verify per portal). || Buku-buku tidak sepakat; inilah jalan tengahnya. Patuhi batas ukuran yang tertera, biasanya 500 KB sampai 2 MB (cek di tiap portal).
 lay: columns
 cA: Do || Lakukan
-cAd: The file as the parser wants it || Berkas seperti yang diinginkan pengurai
-a0: Text-based PDF for email and human readers || PDF berbasis teks untuk surel dan pembaca manusia
-a1: A clean .docx ready for portals and agencies that request Word || .docx bersih siap untuk portal dan agensi yang meminta Word
-a2: Export from the source; compress to the limit || Ekspor dari sumber; kompres sampai batas
-a3: A required photo uploaded separately, as the portal asks || Foto yang diwajibkan diunggah terpisah, seperti permintaan portal
+cAd: The file as the parser wants it || Berkas yang sesuai kebutuhan sistem
+a0: Text-based PDF for email and human readers || PDF berbasis teks untuk email dan pembaca manusia
+a1: A clean .docx ready for portals and agencies that request Word || .docx yang rapi untuk portal dan agen penyalur yang meminta Word
+a2: Export from the source; compress to the limit || Ekspor dari dokumen asli; kompres sampai di bawah batas
+a3: A required photo uploaded separately, as the portal asks || Foto yang diwajibkan diunggah terpisah, sesuai permintaan portal
 cB: Do not || Jangan
-cBd: What turns a CV into blanks || Yang mengubah CV menjadi kekosongan
-b0: A scanned printout saved as PDF || Hasil cetak yang dipindai dan disimpan sebagai PDF
+cBd: What turns a CV into blanks || Yang membuat CV terbaca kosong
+b0: A scanned printout saved as PDF || Hasil cetakan yang dipindai lalu disimpan sebagai PDF
 b1: A photo inside a text box or table in the CV || Foto di dalam kotak teks atau tabel di CV
-b2: A file over the stated limit, or in a format the portal did not ask for || Berkas melebihi batas, atau dalam format yang tidak diminta portal
+b2: A file over the stated limit, or in a format the portal did not ask for || Berkas melebihi batas, atau formatnya tidak sesuai permintaan portal
 b3: A template change you did not re-test || Perubahan templat yang tidak kamu uji ulang
 ic: check,x
 ia: doc,clipboard,bolt,person
 ib: eye,grid,warn,refresh
-band: If an employer insists on a photo in the CV, place it at the top as a plain inline image; Lesson 3.5 covers whether to include one at all. || Jika perusahaan bersikeras foto di dalam CV, letakkan di atas sebagai gambar sebaris biasa; Pelajaran 3.5 membahas apakah perlu menyertakannya.
+band: If an employer insists on a photo in the CV, place it at the top as a plain inline image; Lesson 3.5 covers whether to include one at all. || Kalau perusahaan bersikeras foto ada di dalam CV, letakkan di bagian atas sebagai gambar biasa; apakah foto perlu dipasang sudah dibahas di Pelajaran 3.5.
 img: bg/gauntlet/gate-01-submission.jpg
 
 @4.2#2
-t: Two tests on every version you send: the plain-text test and the portal preview || Dua uji pada setiap versi yang kamu kirim: uji teks polos dan pratinjau portal
-em: on every version you send || pada setiap versi yang kamu kirim
-sub: The preview is the only moment the machine shows you what it saw; most applicants click past it. || Pratinjau adalah satu-satunya saat mesin menunjukkan apa yang dilihatnya; kebanyakan pelamar melewatinya.
+t: Two tests on every version you send: the plain-text test and the portal preview || Dua uji untuk setiap versi yang kamu kirim: uji teks polos dan uji pratinjau portal
+em: on every version you send || untuk setiap versi yang kamu kirim
+sub: The preview is the only moment the machine shows you what it saw; most applicants click past it. || Pratinjau adalah satu-satunya saat mesin memperlihatkan apa yang ia tangkap; kebanyakan pelamar melewatinya begitu saja.
 lay: columns
 cA: Plain-text test || Uji teks polos
-cAd: Paste the CV as plain text; whatever breaks here breaks in a parser || Tempel CV sebagai teks polos; apa pun yang rusak di sini rusak di pengurai
+cAd: Paste the CV as plain text; whatever breaks here breaks in a parser || Tempel CV sebagai teks polos; apa pun yang rusak di sini juga rusak di sistem
 a0: Is everything there? || Apakah semuanya ada?
-a1: In the right order? || Dalam urutan yang benar?
-a2: Are dates next to the right roles? || Apakah tanggal di samping peran yang tepat?
-a3: Any garbled characters, bullets turned to question marks, symbols where the skill bars were? || Ada karakter kacau, butir jadi tanda tanya, simbol di tempat bilah keterampilan?
+a1: In the right order? || Urutannya benar?
+a2: Are dates next to the right roles? || Apakah tanggal berada di samping peran yang tepat?
+a3: Any garbled characters, bullets turned to question marks, symbols where the skill bars were? || Adakah karakter yang kacau, poin yang berubah jadi tanda tanya, simbol di tempat bilah keterampilan?
 cB: Portal preview test || Uji pratinjau portal
-cBd: Read the fields the portal extracted, and correct them || Baca kolom yang diekstrak portal, dan koreksi
-b0: Did your job title land in “company”? || Apakah jabatanmu masuk ke “perusahaan”?
-b1: Is your GPA missing? || Apakah IPK-mu hilang?
-b2: Fix the source document, then correct the fields by hand before submitting || Perbaiki dokumen sumber, lalu koreksi kolomnya dengan tangan sebelum mengirim
-b3: Repeat after any template change || Ulangi setelah perubahan templat apa pun
+cBd: Read the fields the portal extracted, and correct them || Baca isian yang diambil portal, lalu betulkan
+b0: Did your job title land in “company”? || Apakah jabatanmu masuk ke kolom “perusahaan”?
+b1: Is your GPA missing? || Apakah IPK-mu tidak muncul?
+b2: Fix the source document, then correct the fields by hand before submitting || Perbaiki dokumen aslinya, lalu betulkan isiannya secara manual sebelum mengirim
+b3: Repeat after any template change || Ulangi setiap kali templat diubah
 ic: doc,eye
 ia: check,steps,calendar,warn
 ib: tag,cap,pen,refresh
-band: A template change you did not notice can undo a clean result; the tests cost five minutes. || Perubahan templat yang tak kamu sadari bisa membatalkan hasil yang bersih; ujinya hanya butuh lima menit.
+band: A template change you did not notice can undo a clean result; the tests cost five minutes. || Perubahan templat yang tidak kamu sadari bisa merusak hasil yang tadinya rapi; kedua uji itu hanya butuh lima menit.
 img: bg/gauntlet/gate-03-assessment.jpg
 
 @4.3#0
-t: One rule: every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence || Satu aturan: setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar
+t: One rule: every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence || Satu aturan: setiap kata kunci dari syarat wajib muncul minimal sekali, dalam bentuk yang persis sama dengan iklan, di dalam kalimat bukti yang benar
 em: inside a true evidence sentence || di dalam kalimat bukti yang benar
-sub: No keyword lists, no hidden text, no pasted requirement blocks; the exact form costs nothing when it is true. || Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa blok persyaratan yang ditempel; bentuk persis tak berbiaya saat itu benar.
+sub: No keyword lists, no hidden text, no pasted requirement blocks; the exact form costs nothing when it is true. || Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa menempel blok persyaratan; bentuk persis tidak merugikanmu selama memang benar.
 lay: columns
 cA: Exact form || Bentuk persis
-cAd: What software and hurried readers can miss || Yang bisa terlewat oleh perangkat lunak dan pembaca terburu-buru
-a0: “stakeholder management”, not only “managing stakeholders” || “stakeholder management”, bukan hanya “managing stakeholders”
-a1: “people management” and “project management” kept separate, not merged || “people management” dan “project management” dibiarkan terpisah, tidak digabung
-a2: Both the acronym and the full form: “Standard Operating Procedure (SOP)” || Akronim dan bentuk lengkapnya: “Standard Operating Procedure (SOP)”
-a3: The market-standard title beside an unusual internal one: “Operations Intern (Magang Operasional)” || Jabatan standar pasar di samping yang internal tak lazim: “Operations Intern (Magang Operasional)”
+cAd: What software and hurried readers can miss || Yang bisa terlewat oleh perangkat lunak dan pembaca yang terburu-buru
+a0: “stakeholder management”, not only “managing stakeholders” || “manajemen pemangku kepentingan”, bukan hanya “mengelola pihak-pihak terkait”
+a1: “people management” and “project management” kept separate, not merged || “manajemen SDM” dan “manajemen proyek” tetap terpisah, tidak digabung
+a2: Both the acronym and the full form: “Standard Operating Procedure (SOP)” || Akronim sekaligus kepanjangannya: “Standard Operating Procedure (SOP)”
+a3: The market-standard title beside an unusual internal one: “Operations Intern (Magang Operasional)” || Nama jabatan yang lazim di pasar di samping nama internal yang tidak biasa: “Operations Intern (Magang Operasional)”
 cB: Never || Jangan pernah
-cBd: What reads as manipulation || Yang terbaca sebagai manipulasi
-b0: A keyword list under “Skills” with no sentence behind it || Daftar kata kunci di bawah “Keterampilan” tanpa kalimat di baliknya
-b1: White text, tiny text, hidden text || Teks putih, teks mungil, teks tersembunyi
+cBd: What reads as manipulation || Yang terkesan sebagai manipulasi
+b0: A keyword list under “Skills” with no sentence behind it || Daftar kata kunci di bawah “Keterampilan” tanpa satu kalimat bukti pun
+b1: White text, tiny text, hidden text || Huruf putih, huruf mungil, teks tersembunyi
 b2: The requirements block pasted into the CV || Blok persyaratan yang ditempel ke CV
-b3: A keyword for something you have not done || Kata kunci untuk hal yang belum kamu lakukan
+b3: A keyword for something you have not done || Kata kunci untuk hal yang belum pernah kamu kerjakan
 ic: check,x
 ia: tag,layers,book,briefcase
 ib: list,eye,clipboard,warn
-band: The rule only costs you when you would have to bend the truth; that is the point. || Aturan ini hanya merugikanmu saat kamu harus membengkokkan kebenaran; itulah intinya.
+band: The rule only costs you when you would have to bend the truth; that is the point. || Aturan ini baru merugikanmu kalau kamu harus membengkokkan kebenaran; justru itulah intinya.
 img: bg/fg-sprint-positioning.jpg
 
 @4.3#1
-t: The coverage table: a must-have without an evidence sentence is not covered, even if the word appears somewhere || Tabel cakupan: syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat
+t: The coverage table: a must-have without an evidence sentence is not covered, even if the word appears somewhere || Tabel cakupan: syarat wajib tanpa kalimat bukti belum tercakup, meskipun katanya muncul di suatu tempat
 em: is not covered || belum tercakup
-sub: Keyword, where it appears, the evidence sentence, status: covered, rephrase, gap. Nadia’s table for six of Arunika’s must-haves. || Kata kunci, di mana muncul, kalimat bukti, status: tercakup, ubah kata, celah. Tabel Nadia untuk enam syarat wajib Arunika.
+sub: Keyword, where it appears, the evidence sentence, status: covered, rephrase, gap. Nadia’s table for six of Arunika’s must-haves. || Kata kunci, tempat munculnya, kalimat bukti, status: tercakup, perlu diubah, kurang. Tabel Nadia untuk enam syarat wajib dari iklan Arunika.
 lay: list
-n0: Analytical skills: “reconciling three branches’ daily reports, I traced recurring mismatches to one terminal” || Keterampilan analitis: “merekonsiliasi laporan harian tiga cabang, saya melacak selisih berulang ke satu terminal”
-n1: Microsoft Excel: “Excel” only; rephrase to “Microsoft Excel (pivot tables, VLOOKUP)” || Microsoft Excel: hanya “Excel”; ubah menjadi “Microsoft Excel (pivot tables, VLOOKUP)”
-n2: Leadership experience in organisations: “Led a 6-person sponsorship team…” but the word “leadership” is absent; rephrase the statement heading || Pengalaman kepemimpinan di organisasi: “Memimpin tim sponsorship 6 orang…” tapi kata “leadership” tidak ada; ubah judul pernyataannya
-n3: Negotiation: evidence exists, 11 sponsors, but no sentence says it; write the sentence || Negosiasi: bukti ada, 11 sponsor, tapi tak ada kalimat yang mengatakannya; tulis kalimatnya
+n0: Analytical skills: “reconciling three branches’ daily reports, I traced recurring mismatches to one terminal” || Kemampuan analitis: “saat merekonsiliasi laporan harian tiga cabang, saya menelusuri selisih berulang sampai ke satu terminal”
+n1: Microsoft Excel: “Excel” only; rephrase to “Microsoft Excel (pivot tables, VLOOKUP)” || Microsoft Excel: hanya tertulis “Excel”; ganti menjadi “Microsoft Excel (pivot table, VLOOKUP)”
+n2: Leadership experience in organisations: “Led a 6-person sponsorship team…” but the word “leadership” is absent; rephrase the statement heading || Pengalaman memimpin di organisasi: “Memimpin tim sponsor beranggotakan 6 orang…”, tetapi frasa “pengalaman memimpin” tidak ada; ganti judul pernyataannya
+n3: Negotiation: evidence exists, 11 sponsors, but no sentence says it; write the sentence || Negosiasi: buktinya ada, 11 sponsor, tetapi tidak ada kalimat yang menyebutnya; tulis kalimatnya
 l0: Covered || Tercakup
-l1: Rephrase || Ubah kata
-l2: Rephrase || Ubah kata
-l3: Evidence || Bukti
+l1: Rephrase || Ganti istilah
+l2: Rephrase || Ganti istilah
+l3: Evidence || Tambah bukti
 i: check,pen,tag,handshake
-band: Build the table from the keyword table of Lesson 3.2; every must-have gets a row before the CV is sent. || Bangun tabelnya dari tabel kata kunci Pelajaran 3.2; setiap syarat wajib mendapat baris sebelum CV dikirim.
+band: Build the table from the keyword table of Lesson 3.2; every must-have gets a row before the CV is sent. || Susun tabelnya dari tabel kata kunci di Pelajaran 3.2; setiap syarat wajib mendapat satu baris sebelum CV dikirim.
 img: pe/ed-writing.jpg
 
 @4.3#2
-t: Four honest closes for a gap, and a rule of thumb: every hard requirement plus roughly two-thirds of the rest, then apply || Empat penutup jujur untuk celah, dan aturan praktis: setiap syarat mutlak plus kira-kira dua pertiga sisanya, lalu lamar
-em: four honest closes || empat penutup jujur
-sub: Advertisements describe an ideal; do not talk yourself out of roles you are qualified for. Let the employer do the rejecting, if there is rejecting to do. || Iklan menggambarkan yang ideal; jangan bujuk dirimu keluar dari peran yang kamu kuasai. Biarkan perusahaan yang menolak, jika memang ada yang perlu ditolak.
+t: Four honest closes for a gap, and a rule of thumb: every hard requirement plus roughly two-thirds of the rest, then apply || Empat cara jujur menutup kekurangan, dan satu patokan praktis: semua syarat mutlak ditambah kira-kira dua pertiga sisanya, lalu melamarlah
+em: four honest closes || empat cara jujur
+sub: Advertisements describe an ideal; do not talk yourself out of roles you are qualified for. Let the employer do the rejecting, if there is rejecting to do. || Iklan menggambarkan kandidat ideal; jangan membujuk dirimu sendiri untuk mundur dari posisi yang sebenarnya cocok. Biarkan perusahaan yang menolak, kalau memang harus ada penolakan.
 lay: grid
-n0: Rephrase || Ubah kata
-n1: Evidence || Bukti
+n0: Rephrase || Ganti istilah
+n1: Evidence || Tambah bukti
 n2: Learn || Pelajari
 n3: Accept || Terima
-d0: You did the thing; the page says it in different words. Use the advertisement’s exact form. || Kamu melakukannya; halaman mengatakannya dengan kata berbeda. Pakai bentuk persis iklan.
-d1: You did the thing; nothing on the page says so yet. Write the evidence sentence from the pantry. || Kamu melakukannya; belum ada di halaman yang mengatakannya. Tulis kalimat bukti dari lemari.
-d2: You have not done it and it is learnable before the deadline: a course, a project, a certificate, then the sentence. || Kamu belum melakukannya dan bisa dipelajari sebelum tenggat: kursus, proyek, sertifikat, lalu kalimatnya.
-d3: You have not done it and cannot before applying: leave it uncovered, honestly; it is a nice-to-have or a true gap. || Kamu belum melakukannya dan tak bisa sebelum melamar: biarkan tak tercakup, jujur; itu tambahan atau celah sungguhan.
+d0: You did the thing; the page says it in different words. Use the advertisement’s exact form. || Kamu pernah mengerjakannya, tetapi halamanmu menyebutnya dengan istilah lain. Pakai bentuk yang persis sama dengan iklan.
+d1: You did the thing; nothing on the page says so yet. Write the evidence sentence from the pantry. || Kamu pernah mengerjakannya, tetapi belum ada yang menyebutnya di halaman. Tulis kalimat buktinya dari isi lemari.
+d2: You have not done it and it is learnable before the deadline: a course, a project, a certificate, then the sentence. || Kamu belum pernah mengerjakannya, tetapi bisa dipelajari sebelum tenggat: kursus, proyek, sertifikat, lalu tulis kalimatnya.
+d3: You have not done it and cannot before applying: leave it uncovered, honestly; it is a nice-to-have or a true gap. || Kamu belum pernah mengerjakannya dan tidak sempat sebelum melamar: biarkan tidak tercakup, dengan jujur; itu syarat tambahan atau kekurangan yang sebenarnya.
 i: pen,doc,cap,hand
-band: A LinkedIn study reported by Ow found women tended to apply only when they met nearly all criteria and men at around 60%; the ones who applied were more likely to be hired. || Studi LinkedIn yang dilaporkan Ow menemukan perempuan cenderung melamar hanya saat memenuhi hampir semua kriteria dan laki-laki sekitar 60%; yang melamar lebih mungkin direkrut.
+band: A LinkedIn study reported by Ow found women tended to apply only when they met nearly all criteria and men at around 60%; the ones who applied were more likely to be hired. || Studi LinkedIn yang dikutip Ow menemukan perempuan cenderung baru melamar kalau memenuhi hampir semua kriteria, sedangkan laki-laki sudah melamar pada sekitar 60%; perempuan yang akhirnya melamar justru lebih mungkin diterima.
 imgs: none
 
 @4.4#0
-t: Every requirement has an anatomy: competency, qualifier, context, importance || Setiap persyaratan punya anatomi: kompetensi, kualifikasi, konteks, tingkat kepentingan
-em: competency, qualifier, context, importance || kompetensi, kualifikasi, konteks, tingkat kepentingan
-sub: Bright and Earl’s method for public-sector selection criteria translates directly to Indonesian administrative screening. || Metode Bright dan Earl untuk kriteria seleksi sektor publik diterjemahkan langsung ke seleksi administrasi Indonesia.
+t: Every requirement has an anatomy: competency, qualifier, context, importance || Setiap persyaratan punya anatomi: kompetensi, tingkat, konteks, bobot
+em: competency, qualifier, context, importance || kompetensi, tingkat, konteks, bobot
+sub: Bright and Earl’s method for public-sector selection criteria translates directly to Indonesian administrative screening. || Metode Bright dan Earl untuk kriteria seleksi di sektor publik bisa langsung dipakai untuk seleksi administrasi di Indonesia.
 lay: columns
-cA: The advertisement says || Iklan mengatakan
-cAd: The qualifier || Kualifikasinya
-a0: “Excellent / strong / outstanding” || “Excellent / strong / outstanding”
-a1: “Knowledge of / understanding of” || “Knowledge of / understanding of”
-a2: “Demonstrated ability” || “Demonstrated ability”
-a3: “Experience in” || “Experience in”
-cB: It usually means || Biasanya berarti
-cBd: What to show || Yang ditunjukkan
-b0: Reasonably good; use positive language yourself || Cukup baik; pakai bahasa positif sendiri
-b1: Show you know what it is, with named examples || Tunjukkan kamu tahu apa itu, dengan contoh bernama
-b2: You must show you have done it: a specific example with context and result || Kamu harus menunjukkan pernah melakukannya: contoh spesifik dengan konteks dan hasil
-b3: Work evidence first, training second || Bukti kerja dulu, pelatihan kedua
+cA: The advertisement says || Iklan menulis
+cAd: The qualifier || Kata penanda tingkat
+a0: “Excellent / strong / outstanding” || “Sangat baik / kuat / luar biasa”
+a1: “Knowledge of / understanding of” || “Memiliki pengetahuan / pemahaman tentang”
+a2: “Demonstrated ability” || “Kemampuan yang terbukti”
+a3: “Experience in” || “Berpengalaman di”
+cB: It usually means || Biasanya artinya
+cBd: What to show || Yang perlu ditunjukkan
+b0: Reasonably good; use positive language yourself || Cukup baik; pakai bahasa yang positif untuk dirimu sendiri
+b1: Show you know what it is, with named examples || Tunjukkan bahwa kamu tahu apa itu, lengkap dengan contoh yang disebut namanya
+b2: You must show you have done it: a specific example with context and result || Kamu harus menunjukkan bahwa kamu pernah melakukannya: contoh spesifik lengkap dengan konteks dan hasil
+b3: Work evidence first, training second || Bukti dari pengalaman kerja lebih dulu, pelatihan menyusul
 ic: question,check
 ia: star,book,bolt,briefcase
 ib: mic,eye,trophy,layers
-band: Essential means a gate: fail it and you are out. Desirable raises your ranking. Treat every stated requirement as essential. || Esensial berarti gerbang: gagal dan kamu keluar. Tambahan menaikkan peringkatmu. Perlakukan setiap persyaratan yang dinyatakan sebagai esensial.
+band: Essential means a gate: fail it and you are out. Desirable raises your ranking. Treat every stated requirement as essential. || Wajib berarti gerbang: tidak terpenuhi, kamu gugur. Tambahan menaikkan peringkat. Anggap setiap persyaratan yang tertulis sebagai syarat wajib.
 img: bg/ep-stage-architecture.jpg
 
 @4.4#1
-t: The local checklist: six categories whose rules change annually, and the common failure in each || Daftar periksa lokal: enam kategori yang aturannya berubah tiap tahun, dan kegagalan umum di masing-masing
+t: The local checklist: six categories whose rules change annually, and the common failure in each || Daftar periksa lokal: enam kategori yang aturannya berubah setiap tahun, dan kegagalan yang sering terjadi di masing-masing
 em: six categories || enam kategori
-sub: Verify each programme’s rules every cycle; the categories do not change, the thresholds do. || Verifikasi aturan setiap program setiap siklus; kategorinya tidak berubah, ambangnya berubah.
+sub: Verify each programme’s rules every cycle; the categories do not change, the thresholds do. || Cek ulang aturan setiap program di setiap periode; kategorinya tetap, ambang batasnya yang berubah.
 lay: grid
 n0: Eligibility || Kelayakan
 n1: Language || Bahasa
 n2: Documents || Dokumen
-n3: File specs || Spesifikasi berkas
+n3: File specs || Ketentuan berkas
 n4: Declarations || Pernyataan
-n5: Form fields || Kolom formulir
-d0: Minimum GPA, maximum age, graduation year, accepted majors. Failure: applying just outside a rule; a major named differently from the list. || IPK minimum, usia maksimum, tahun lulus, jurusan yang diterima. Kegagalan: melamar sedikit di luar aturan; jurusan dinamai berbeda dari daftar.
-d1: TOEFL ITP, TOEIC or IELTS minimum; score validity, often two years. Failure: an expired certificate. || Minimum TOEFL ITP, TOEIC, atau IELTS; masa berlaku skor, sering dua tahun. Kegagalan: sertifikat kedaluwarsa.
-d2: CV, ijazah or SKL, transcript, ID scan, pas foto, sometimes SKCK, health letter, signed statements. Failure: a missing file; an unreadable scan. || CV, ijazah atau SKL, transkrip, pindaian KTP, pas foto, kadang SKCK, surat sehat, pernyataan bertanda tangan. Kegagalan: berkas hilang; pindaian tak terbaca.
-d3: Format, size, naming, background colour. Failure: a 4 MB photograph where a 500 KB PDF was asked for. || Format, ukuran, penamaan, warna latar. Kegagalan: foto 4 MB saat diminta PDF 500 KB.
-d4: Willingness to be placed, bond terms, truth of information. Failure: a false “yes” that is a document. || Kesediaan ditempatkan, syarat ikatan dinas, kebenaran informasi. Kegagalan: “ya” palsu yang menjadi dokumen.
-d5: GPA in the portal’s format, the accepted major name, dates matching the CV. Failure: 3,4 on the form, 3,38 on the CV. || IPK dalam format portal, nama jurusan yang diterima, tanggal sesuai CV. Kegagalan: 3,4 di formulir, 3,38 di CV.
+n5: Form fields || Isian formulir
+d0: Minimum GPA, maximum age, graduation year, accepted majors. Failure: applying just outside a rule; a major named differently from the list. || IPK minimum, batas usia, tahun lulus, jurusan yang diterima. Kegagalan: melamar padahal sedikit di luar aturan; nama jurusan berbeda dari daftar.
+d1: TOEFL ITP, TOEIC or IELTS minimum; score validity, often two years. Failure: an expired certificate. || Skor minimum TOEFL ITP, TOEIC, atau IELTS; masa berlaku skor, sering dua tahun. Kegagalan: sertifikat sudah kedaluwarsa.
+d2: CV, ijazah or SKL, transcript, ID scan, pas foto, sometimes SKCK, health letter, signed statements. Failure: a missing file; an unreadable scan. || CV, ijazah atau SKL, transkrip, pindaian KTP, pas foto, kadang SKCK, surat keterangan sehat, surat pernyataan bertanda tangan. Kegagalan: berkas kurang; pindaian tidak terbaca.
+d3: Format, size, naming, background colour. Failure: a 4 MB photograph where a 500 KB PDF was asked for. || Format, ukuran, penamaan, warna latar. Kegagalan: foto 4 MB padahal yang diminta PDF 500 KB.
+d4: Willingness to be placed, bond terms, truth of information. Failure: a false “yes” that is a document. || Kesediaan ditempatkan, ketentuan ikatan dinas, kebenaran data. Kegagalan: “ya” palsu yang tercatat sebagai dokumen resmi.
+d5: GPA in the portal’s format, the accepted major name, dates matching the CV. Failure: 3,4 on the form, 3,38 on the CV. || IPK dalam format portal, nama jurusan yang diterima, tanggal yang sama dengan CV. Kegagalan: 3,4 di formulir, 3,38 di CV.
 i: filter,globe,doc,grid,clipboard,table
-band: Programme rules change annually; the categories do not. || Aturan program berubah tiap tahun; kategorinya tidak.
+band: Programme rules change annually; the categories do not. || Aturan program berubah setiap tahun; kategorinya tetap.
 imgs: none
 
 @4.4#2
-t: The pre-flight: seven steps, three to ten minutes, every time || Pra-kirim: tujuh langkah, tiga sampai sepuluh menit, setiap kali
+t: The pre-flight: seven steps, three to ten minutes, every time || Pemeriksaan sebelum kirim: tujuh langkah, tiga sampai sepuluh menit, setiap kali
 em: every time || setiap kali
-sub: One record, many formats: the pantry is the single source, and every document copies from it. || Satu rekaman, banyak format: lemari adalah sumber tunggal, dan setiap dokumen menyalin darinya.
+sub: One record, many formats: the pantry is the single source, and every document copies from it. || Satu sumber data, banyak format: isi lemari menjadi satu-satunya sumber, dan setiap dokumen menyalin darinya.
 lay: flow
 n0: Parse test || Uji urai
-n1: Coverage check || Pemeriksaan cakupan
-n2: Requirement triage || Triase persyaratan
-n3: Document check || Pemeriksaan dokumen
-n4: Consistency sweep || Sapuan konsistensi
-n5: Knockout answers || Jawaban gugur
+n1: Coverage check || Cek cakupan
+n2: Requirement triage || Pilah persyaratan
+n3: Document check || Cek dokumen
+n4: Consistency sweep || Cek konsistensi
+n5: Knockout answers || Jawaban pertanyaan gugur
 n6: Submit and track || Kirim dan catat
 d0: Plain text, then the portal preview. || Teks polos, lalu pratinjau portal.
 d1: Every must-have in its exact form, inside evidence. || Setiap syarat wajib dalam bentuk persis, di dalam bukti.
-d2: Every stated requirement met, or the honest decision not to apply. || Setiap persyaratan terpenuhi, atau keputusan jujur untuk tidak melamar.
-d3: Every file present, readable, within the limit, named as asked. || Setiap berkas ada, terbaca, dalam batas, dinamai seperti diminta.
-d4: Dates, titles and GPA identical across CV, form and LinkedIn. || Tanggal, jabatan, dan IPK identik di CV, formulir, dan LinkedIn.
-d5: Truthful; a false yes may pass the software and end your candidacy later. || Jujur; ya yang palsu bisa lolos perangkat lunak dan mengakhiri pencalonanmu nanti.
-d6: Send it to yourself first for email; record the version in the tracker. || Kirim ke dirimu dulu untuk surel; catat versinya di pelacak.
+d2: Every stated requirement met, or the honest decision not to apply. || Setiap persyaratan yang tertulis terpenuhi, atau keputusan jujur untuk tidak melamar.
+d3: Every file present, readable, within the limit, named as asked. || Setiap berkas ada, terbaca, di bawah batas ukuran, dan diberi nama sesuai permintaan.
+d4: Dates, titles and GPA identical across CV, form and LinkedIn. || Tanggal, jabatan, dan IPK sama persis di CV, formulir, dan LinkedIn.
+d5: Truthful; a false yes may pass the software and end your candidacy later. || Jujur; “ya” yang palsu bisa lolos perangkat lunak, lalu mengakhiri lamaranmu belakangan.
+d6: Send it to yourself first for email; record the version in the tracker. || Untuk email, kirim ke dirimu sendiri dulu; catat versinya di pelacak.
 i: eye,check,filter,doc,link,shield,calendar
-band: Inconsistencies read as carelessness at best and dishonesty at worst; recruiters compare the CV with LinkedIn and the form. || Ketidakkonsistenan terbaca sebagai kecerobohan paling ringan dan ketidakjujuran paling berat; perekrut membandingkan CV dengan LinkedIn dan formulir.
+band: Inconsistencies read as carelessness at best and dishonesty at worst; recruiters compare the CV with LinkedIn and the form. || Data yang tidak sama paling baik terkesan ceroboh, paling buruk terkesan tidak jujur; perekrut membandingkan CV dengan LinkedIn dan formulir.
 img: bg/pack.jpg
 
 @4.5#0
-t: Read all five tabs, then compare: the file specs against the uploads, the form against the CV, the CV against LinkedIn || Baca kelima tab, lalu bandingkan: spesifikasi berkas terhadap unggahan, formulir terhadap CV, CV terhadap LinkedIn
+t: Read all five tabs, then compare: the file specs against the uploads, the form against the CV, the CV against LinkedIn || Baca kelima tab, lalu bandingkan: ketentuan berkas dengan unggahan, formulir dengan CV, CV dengan LinkedIn
 em: then compare || lalu bandingkan
-sub: The problems are spread across the tabs, and some only show when you compare two. || Masalahnya tersebar di berbagai tab, dan sebagian hanya tampak saat kamu membandingkan dua.
+sub: The problems are spread across the tabs, and some only show when you compare two. || Masalahnya tersebar di semua tab, dan sebagian baru terlihat kalau dua tab dibandingkan.
 lay: list
-n0: The advertisement’s file specs against Nadia’s uploads || Spesifikasi berkas iklan terhadap unggahan Nadia
-n1: The form entries against the CV || Isian formulir terhadap CV
-n2: The CV against the LinkedIn summary || CV terhadap ringkasan LinkedIn
-l0: Specs versus uploads || Spesifikasi versus unggahan
-l1: Form versus CV || Formulir versus CV
-l2: CV versus LinkedIn || CV versus LinkedIn
+n0: The advertisement’s file specs against Nadia’s uploads || Ketentuan berkas di iklan dibandingkan dengan unggahan Nadia
+n1: The form entries against the CV || Isian formulir dibandingkan dengan CV
+n2: The CV against the LinkedIn summary || CV dibandingkan dengan ringkasan LinkedIn
+l0: Specs versus uploads || Ketentuan vs unggahan
+l1: Form versus CV || Formulir vs CV
+l2: CV versus LinkedIn || CV vs LinkedIn
 i: grid,table,link
-band: Be the portal before the portal is: every check the machine and the screener will run, run first. || Jadilah portal sebelum portalnya: setiap pemeriksaan yang akan dijalankan mesin dan penyaring, jalankan lebih dulu.
+band: Be the portal before the portal is: every check the machine and the screener will run, run first. || Jadilah portal sebelum portal yang menilai: jalankan lebih dulu setiap pemeriksaan yang akan dijalankan mesin dan petugas seleksi.
 img: bg/stage-exploration.jpg
 
 @4.5#1
-t: Fatal or not: an unmet essential requirement or an unreadable required document is fatal; a ranking loss is not || Fatal atau tidak: syarat esensial yang tak terpenuhi atau dokumen wajib yang tak terbaca itu fatal; kehilangan peringkat tidak
+t: Fatal or not: an unmet essential requirement or an unreadable required document is fatal; a ranking loss is not || Fatal atau tidak: syarat wajib yang tidak terpenuhi atau dokumen wajib yang tidak terbaca itu fatal; turunnya peringkat tidak
 em: fatal or not || fatal atau tidak
-sub: Say which is which, and why. || Katakan mana yang mana, dan mengapa.
+sub: Say which is which, and why. || Sebutkan mana yang mana, dan mengapa.
 lay: columns
 cA: Fatal || Fatal
-cAd: Ends the candidacy at the gate || Mengakhiri pencalonan di gerbang
-a0: An essential requirement not met || Syarat esensial tidak terpenuhi
-a1: A required document missing or unreadable || Dokumen wajib hilang atau tak terbaca
-a2: A declaration answered falsely || Pernyataan dijawab palsu
+cAd: Ends the candidacy at the gate || Lamaran langsung gugur di gerbang
+a0: An essential requirement not met || Syarat wajib tidak terpenuhi
+a1: A required document missing or unreadable || Dokumen wajib kurang atau tidak terbaca
+a2: A declaration answered falsely || Pernyataan dijawab tidak jujur
 cB: Not fatal || Tidak fatal
-cBd: Costs rank, not the application || Mengurangi peringkat, bukan lamaran
-b0: A nice-to-have uncovered || Tambahan yang tak tercakup
-b1: A keyword in a different form || Kata kunci dalam bentuk berbeda
-b2: A profile that could be sharper || Profil yang bisa lebih tajam
+cBd: Costs rank, not the application || Menurunkan peringkat, tidak menggugurkan lamaran
+b0: A nice-to-have uncovered || Syarat tambahan yang tidak tercakup
+b1: A keyword in a different form || Kata kunci dengan istilah yang berbeda
+b2: A profile that could be sharper || Profil yang masih bisa dipertajam
 ic: warn,scale
 ia: filter,doc,shield
 ib: star,tag,pen
-band: The honest decision in Step 4 has no clever workaround: it asks what Nadia should do, and what she should not. || Keputusan jujur di Langkah 4 tidak punya jalan pintas cerdik: ia bertanya apa yang harus dilakukan Nadia, dan apa yang tidak boleh.
+band: The honest decision in Step 4 has no clever workaround: it asks what Nadia should do, and what she should not. || Keputusan jujur di Langkah 4 tidak punya jalan pintas yang cerdik: pertanyaannya, apa yang sebaiknya Nadia lakukan, dan apa yang tidak boleh ia lakukan.
 img: bg/fg-sprint-direction.jpg
 
 @4.5#2
-t: The honest decision: what Nadia should do, and what she should not || Keputusan jujur: apa yang harus dilakukan Nadia, dan apa yang tidak boleh
+t: The honest decision: what Nadia should do, and what she should not || Keputusan yang jujur: apa yang sebaiknya Nadia lakukan, dan apa yang tidak boleh
 em: and what she should not || dan apa yang tidak boleh
-sub: Step 4 has no clever workaround. || Langkah 4 tidak punya jalan pintas cerdik.
+sub: Step 4 has no clever workaround. || Langkah 4 tidak punya jalan pintas yang cerdik.
 lay: list
-n0: Fix every fatal problem that can be fixed before the deadline, in the source document first || Perbaiki setiap masalah fatal yang bisa diperbaiki sebelum tenggat, di dokumen sumber dulu
-n1: Where an essential requirement is genuinely unmet, do not bend a declaration to pass the software || Jika syarat esensial benar-benar tak terpenuhi, jangan bengkokkan pernyataan untuk lolos perangkat lunak
-n2: Record the lesson in the tracker so the next portal does not repeat it || Catat pelajarannya di pelacak agar portal berikutnya tidak mengulanginya
+n0: Fix every fatal problem that can be fixed before the deadline, in the source document first || Perbaiki setiap masalah fatal yang masih bisa diperbaiki sebelum tenggat, mulai dari dokumen aslinya
+n1: Where an essential requirement is genuinely unmet, do not bend a declaration to pass the software || Kalau syarat wajib memang tidak terpenuhi, jangan membengkokkan pernyataan demi lolos perangkat lunak
+n2: Record the lesson in the tracker so the next portal does not repeat it || Catat pelajarannya di pelacak supaya tidak terulang di portal berikutnya
 l0: Fix || Perbaiki
-l1: Do not falsify || Jangan palsukan
+l1: Do not falsify || Jangan memalsukan
 l2: Record || Catat
 i: gear,shield,pen
-band: If the honest answer is “no”, the posting is telling you something about fit, not about your worth. || Jika jawaban jujurnya “tidak”, lowongan itu memberitahumu sesuatu tentang kecocokan, bukan tentang nilaimu.
+band: If the honest answer is “no”, the posting is telling you something about fit, not about your worth. || Kalau jawaban jujurnya “tidak”, lowongan itu sedang memberitahumu soal kecocokan, bukan soal nilai dirimu.
 img: pe/th-mapread.jpg
