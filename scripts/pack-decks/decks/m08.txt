@@ -34,7 +34,7 @@ n4: It cannot judge defensibility || Ia tidak bisa menilai apakah klaim bisa dip
 d0: A number, a tool, a title or a result that was never in your notes, stated with full confidence. || Angka, alat, jabatan, atau hasil yang tidak pernah ada di catatanmu, disampaikan dengan penuh percaya diri.
 d1: “Flagged a mismatch” becomes “spearheaded an end-to-end reconciliation transformation”. || “Menemukan selisih” berubah jadi “memelopori transformasi rekonsiliasi end-to-end”.
 d2: Every candidate who asks gets the same phrases, so the recruiter reads the tool, not you. || Setiap kandidat yang memakainya mendapat frasa yang sama, jadi perekrut membaca alatnya, bukan dirimu.
-d3: Campus titles, the officer programme process, the register for a dosen, what Rp 85 juta means for a student committee. || Jabatan di kampus, alur seleksi program officer, gaya bahasa untuk dosen, arti Rp 85 juta bagi panitia mahasiswa.
+d3: Campus titles, the officer programme process, the register for a dosen, what Rp 85 juta means for a student committee. || Jabatan di kampus, alur seleksi ODP, gaya bahasa untuk dosen, arti Rp 85 juta bagi panitia mahasiswa.
 d4: It does not know which line you could explain for two minutes at interview, and which would end the conversation. || Ia tidak tahu baris mana yang sanggup kamu jelaskan selama dua menit di wawancara, dan mana yang akan mengakhiri percakapan.
 i: warn,rocket,layers,globe,shield
 band: An invented “40% efficiency uplift” survives the ATS, survives the first pass, and dies in the second interview question, taking the application with it. || Klaim karangan seperti “peningkatan efisiensi 40%” bisa lolos ATS, lolos penyaringan pertama, lalu gugur di pertanyaan wawancara kedua, dan lamaranmu ikut gugur bersamanya.
