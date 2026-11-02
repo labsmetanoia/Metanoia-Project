@@ -105,15 +105,15 @@ n1: “I will write again in a month with what I did with this.” || “Saya ak
 n2: “If I have not heard by the 15th, may I check in?” || “Jika belum ada kabar sampai tanggal 15, boleh saya menghubungi?”
 d0: A deliverable with a date; the follow-up is the delivery itself. || Hasil kerja dengan tanggal; tindak lanjutnya adalah pengirimannya sendiri.
 d1: The harvest note, announced in advance, so it arrives expected. || Catatan panen, diumumkan di muka, sehingga datang sesuai harapan.
-d2: The interview version: it asks the recruiter for the date, so the ten-working-days row starts from a date they gave, not one you guessed. || Versi wawancara: meminta tanggal kepada rekruter, sehingga baris sepuluh hari kerja dimulai dari tanggal yang mereka beri, bukan yang kamu tebak.
+d2: The interview version: it asks the recruiter for the date, so the ten-working-days row starts from a date they gave, not one you guessed. || Versi wawancara: meminta tanggal kepada perekrut, sehingga baris sepuluh hari kerja dimulai dari tanggal yang mereka beri, bukan yang kamu tebak.
 i: calendar,refresh,question
 band: A follow-up that begins “As we discussed, I said I would check in around now” cannot read as pressure, because it is the other person’s calendar you are keeping. || Tindak lanjut yang dibuka “Seperti kita bicarakan, saya berjanji mengabari sekitar sekarang” tidak bisa terbaca sebagai tekanan, karena kalender orang lain yang kamu pegang.
 imgs: none
 
 @9.3#0
-t: Reply to rejection briefly and graciously: the recruiter who said no to role A shortlists people like you for role B || Balas penolakan dengan singkat dan anggun: rekruter yang menolak untuk peran A menyeleksi orang sepertimu untuk peran B
+t: Reply to rejection briefly and graciously: the recruiter who said no to role A shortlists people like you for role B || Balas penolakan dengan singkat dan anggun: perekrut yang menolak untuk peran A menyeleksi orang sepertimu untuk peran B
 em: briefly and graciously || singkat dan anggun
-sub: Four sentences; no argument, no request for a second look (Williams, ch. 19). What the recruiter remembers when the next intake opens is the reply. || Empat kalimat; tanpa bantahan, tanpa permintaan ditinjau ulang (Williams, bab 19). Yang diingat rekruter saat intake berikutnya dibuka adalah balasannya.
+sub: Four sentences; no argument, no request for a second look (Williams, ch. 19). What the recruiter remembers when the next intake opens is the reply. || Empat kalimat; tanpa bantahan, tanpa permintaan ditinjau ulang (Williams, bab 19). Yang diingat perekrut saat intake berikutnya dibuka adalah balasannya.
 lay: columns
 cA: The four lines || Empat baris
 cAd: What each one does || Apa yang dilakukan masing-masing
@@ -193,7 +193,7 @@ cA: Your error, seen || Kesalahanmu, terlihat
 cAd: One message, same channel, no spiral || Satu pesan, saluran sama, tanpa berputar-putar
 a0: Joke sent to the alumni group: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.” Not: deleting silently, three apologies, explaining the joke || Lelucon terkirim ke grup alumni: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.” Bukan: menghapus diam-diam, tiga permintaan maaf, menjelaskan leluconnya
 a1: Wrong name in a thread: one reply, “Apologies, Ms. Dewi; I misspelled your name above.” Not: hoping nobody noticed || Nama salah di utas: satu balasan, “Mohon maaf, Bu Dewi; saya salah mengeja nama Ibu di atas.” Bukan: berharap tak ada yang sadar
-a2: Wrong attachment to a recruiter: same thread, within the hour, the right file and one line of ownership. Not: a new thread pretending it is the first send || Lampiran salah ke rekruter: utas yang sama, dalam satu jam, berkas yang benar dan satu baris pengakuan. Bukan: utas baru berpura-pura itu kiriman pertama
+a2: Wrong attachment to a recruiter: same thread, within the hour, the right file and one line of ownership. Not: a new thread pretending it is the first send || Lampiran salah ke perekrut: utas yang sama, dalam satu jam, berkas yang benar dan satu baris pengakuan. Bukan: utas baru berpura-pura itu kiriman pertama
 a3: Then, if a specific person was affected, one private line to them owning it the same way || Lalu, jika orang tertentu terdampak, satu baris pribadi kepada mereka yang mengakuinya dengan cara yang sama
 cB: Their error, costing you || Kesalahan mereka, merugikanmu
 cBd: Private first, factual, unheated || Pribadi dulu, faktual, tanpa emosi
@@ -236,7 +236,7 @@ d0: Every Module 1 to 8 item against the checklist tab: present, gated, dated. |
 d1: End to end, to your Top 1: the tailored CV, the letter in the right format, the pre-flight, the sent email, the tracker row. || Ujung ke ujung, ke Top 1-mu: CV yang disesuaikan, surat dalam format yang tepat, pemeriksaan sebelum kirim, email terkirim, baris pelacak.
 d2: The tracker, the follow-up calendar, the verification log, the LinkedIn routine: what is running, what has lapsed. || Pelacak, kalender tindak lanjut, catatan verifikasi, rutinitas LinkedIn: apa yang berjalan, apa yang terhenti.
 d3: 150 to 250 words: what changed in how you apply, and what you would tell the person you were in Module 1. || 150 sampai 250 kata: apa yang berubah dalam caramu melamar, dan apa yang akan kamu katakan kepada dirimu di Modul 1.
-d4: Two stories from the pantry, in the PREP-STAR shape, ready for The Rope’s first session. || Dua cerita dari pantry, dalam bentuk PREP-STAR, siap untuk sesi pertama The Rope.
+d4: Two stories from the pantry, in the PREP-STAR shape, ready for The Rope’s first session. || Dua cerita dari lemari bahan, dalam bentuk PREP-STAR, siap untuk sesi pertama The Rope.
 i: clipboard,mail,gear,pen,route
 band: Three tabs: the Dossier checklist for Modules 1 to 8, the rubrics each item is judged against, and the handover to The Rope. || Tiga tab: daftar periksa Dossier untuk Modul 1 sampai 8, rubrik yang menilai tiap butir, dan serah terima ke The Rope.
 img: bg/fg-stage-horizon.jpg
