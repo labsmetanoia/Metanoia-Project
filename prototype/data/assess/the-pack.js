@@ -4025,7 +4025,7 @@ window.MT_ASSESS['the-pack'] = {
     },
     "sub": {
      "en": "Verbal, numerical, logical and figural at TPA pace; the TPA-60 mock.",
-     "id": "Verbal, numerik, logika, dan figural dengan tempo TPA; simulasi TPA-60."
+     "id": "Verbal, numerik, logika, dan gambar dengan tempo TPA; simulasi TPA-60."
     }
    },
    {
@@ -4099,7 +4099,7 @@ window.MT_ASSESS['the-pack'] = {
     "lesson": "12.1",
     "q": {
      "en": "A sub-type is amber with a time flag. The next mode is …",
-     "id": "Sebuah sub-tipe kuning dengan tanda waktu. Mode berikutnya …"
+     "id": "Sebuah subtipe kuning dengan label “Kehabisan waktu”. Mode berikutnya …"
     },
     "opts": [
      {
@@ -4108,7 +4108,7 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "the focus loop and a timed set on that sub-type",
-      "id": "putaran fokus dan set berbatas waktu pada sub-tipe itu"
+      "id": "putaran fokus dan set berbatas waktu pada subtipe itu"
      },
      {
       "en": "a mock",
@@ -4356,7 +4356,7 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "the sub-type grid with learner tags",
-      "id": "kisi sub-tipe dengan tanda pelajar"
+      "id": "kisi subtipe dengan label pribadi"
      },
      {
       "en": "a rank against other users",
@@ -4387,7 +4387,7 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "a general-ability battery of the families trained in Module 7 and Track A",
-      "id": "baterai kemampuan umum dari keluarga Modul 7 dan Jalur A"
+      "id": "rangkaian tes kemampuan umum berisi jenis soal dari Modul 7 dan Jalur A"
      },
      {
       "en": "an English test",
@@ -4401,7 +4401,7 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "The format layer is new; the families are not.",
-     "id": "Lapisan formatnya baru; keluarganya tidak."
+     "id": "Lapisan formatnya baru; jenis soalnya tidak."
     }
    },
    {
@@ -4409,7 +4409,7 @@ window.MT_ASSESS['the-pack'] = {
     "lesson": "12.7",
     "q": {
      "en": "The announcement states no wrong-answer penalty. The guessing rule is …",
-     "id": "Pengumuman tidak menyebut penalti jawaban salah. Aturan menebaknya …"
+     "id": "Pengumuman tidak menyebut pengurangan nilai untuk jawaban salah. Aturan menebaknya …"
     },
     "opts": [
      {
@@ -4422,7 +4422,7 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "guess only with two eliminated",
-      "id": "tebak hanya dengan dua tereliminasi"
+      "id": "tebak hanya kalau dua pilihan sudah dicoret"
      },
      {
       "en": "skip the section",
@@ -4432,7 +4432,7 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "A blank is a certain zero when no penalty exists.",
-     "id": "Kosong adalah nol pasti saat tidak ada penalti."
+     "id": "Soal kosong pasti bernilai nol saat tidak ada pengurangan nilai."
     }
    },
    {
@@ -4440,7 +4440,7 @@ window.MT_ASSESS['the-pack'] = {
     "lesson": "12.8",
     "q": {
      "en": "Choosing the second-best option on every one of 30 ranked scenarios scores …",
-     "id": "Memilih opsi terbaik kedua pada setiap dari 30 skenario berjenjang menghasilkan …"
+     "id": "Memilih jawaban terbaik kedua pada setiap dari 30 skenario berjenjang menghasilkan …"
     },
     "opts": [
      {
@@ -4852,7 +4852,7 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "choose the best option, flag it, move on",
-      "id": "pilih opsi terbaik, tandai, lanjut"
+      "id": "pilih jawaban terbaik, tandai, lanjut"
      },
      {
       "en": "finish it whatever it takes",
@@ -4866,7 +4866,7 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "No penalty; a flagged guess beats a blank.",
-     "id": "Tanpa penalti; tebakan bertanda mengalahkan kosong."
+     "id": "Tidak ada pengurangan nilai; tebakan bertanda mengalahkan kosong."
     }
    },
    {
@@ -4967,7 +4967,7 @@ window.MT_ASSESS['the-pack'] = {
     "lesson": "12.19",
     "q": {
      "en": "Raka’s reasoning family is red with “did not understand” tags. The first fortnight …",
-     "id": "Keluarga penalaran Raka merah dengan tanda “belum paham”. Dua minggu pertama …"
+     "id": "Jenis soal penalaran Raka merah dengan label “Belum paham”. Dua minggu pertama …"
     },
     "opts": [
      {
