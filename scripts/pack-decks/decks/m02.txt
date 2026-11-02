@@ -89,8 +89,8 @@ n2: Contacts || Kontak
 n3: Outreach || Penjajakan
 n4: Calendar || Kalender
 d0: The narrow-and-broad sentence. || Kalimat yang sempit sekaligus luas.
-d1: Forty employers, four columns, a Top 5. || Empat puluh perusahaan, empat kolom, satu 5 Teratas.
-d2: Two people per Top 5 employer. || Dua orang di tiap perusahaan 5 Teratas.
+d1: Forty employers, four columns, a Top 5. || Empat puluh perusahaan, empat kolom, satu Lima Teratas.
+d2: Two people per Top 5 employer. || Dua orang di tiap perusahaan Lima Teratas.
 d3: Seventy-five words, advice not a job. || Tujuh puluh lima kata, minta saran bukan pekerjaan.
 d4: Day 3, day 7, then the monthly harvest note. || Hari ke-3, hari ke-7, lalu catatan panen tiap bulan.
 i: target,list,users,mail,calendar
@@ -132,15 +132,15 @@ band: Motivation predicts success better than whether a role is posted, because 
 img: bg/fg-sprint-positioning.jpg
 
 @2.2#2
-t: Sort, verify the Top 5, then stop; the list is a queue, not a monument || Urutkan, periksa 5 Teratas, lalu berhenti; daftar ini antrean, bukan monumen
+t: Sort, verify the Top 5, then stop; the list is a queue, not a monument || Urutkan, periksa Lima Teratas, lalu berhenti; daftar ini antrean, bukan monumen
 em: a queue, not a monument || antrean, bukan monumen
-sub: Would any employer ranked 6–8 displace one of your Top 5? Adjust until the Top 5 feels right; re-score monthly. || Adakah perusahaan di peringkat 6–8 yang layak menggeser salah satu 5 Teratas? Sesuaikan sampai 5 Teratas terasa pas; beri skor ulang tiap bulan.
+sub: Would any employer ranked 6–8 displace one of your Top 5? Adjust until the Top 5 feels right; re-score monthly. || Adakah perusahaan di peringkat 6–8 yang layak menggeser salah satu Lima Teratas? Sesuaikan sampai Lima Teratas terasa pas; beri skor ulang tiap bulan.
 lay: list
 n0: The employers you contact first in Lesson 2.3 || Perusahaan yang kamu hubungi lebih dulu di Pelajaran 2.3
 n1: Long lead times deserve earlier contact; smaller employers hire more just-in-time || Waktu tunggu yang panjang layak dihubungi lebih awal; perusahaan kecil lebih sering merekrut saat butuh
 n2: A process-track employer whose window is months away belongs in the calendar, not in this month’s outreach || Perusahaan jalur proses yang pendaftarannya masih berbulan-bulan lagi masuk kalender, bukan penjajakan bulan ini
 n3: An internship or graduate programme is the employer’s lowest-risk hiring channel: a ten-week interview || Magang atau program lulusan baru adalah saluran rekrutmen yang paling kecil risikonya bagi perusahaan: wawancara sepuluh minggu
-l0: Top 5 || 5 Teratas
+l0: Top 5 || Lima Teratas
 l1: Large versus small || Besar versus kecil
 l2: Calendar items || Butir kalender
 l3: Internships || Magang
@@ -149,7 +149,7 @@ band: Nadia’s 300-person HIMA alumni group alone gives her a Y at eleven of he
 img: pe/strategic-target-list.jpg
 
 @2.3#0
-t: Two people per Top 5 employer, ranked by five traits; alumni two to five years ahead beat senior managers || Dua orang di tiap perusahaan 5 Teratas, diurutkan berdasarkan lima ciri; alumni dua sampai lima tahun di atasmu mengalahkan manajer senior
+t: Two people per Top 5 employer, ranked by five traits; alumni two to five years ahead beat senior managers || Dua orang di tiap perusahaan Lima Teratas, diurutkan berdasarkan lima ciri; alumni dua sampai lima tahun di atasmu mengalahkan manajer senior
 em: ranked by five traits || diurutkan berdasarkan lima ciri
 sub: S. Dalton, The 2-Hour Job Search, ch. 5. || S. Dalton, The 2-Hour Job Search, bab 5.
 lay: grid
@@ -278,7 +278,7 @@ img: bg/map.jpg
 @2.5#1
 t: Score before you argue: A from the alumni sheet, M from her preferences, P from the posting column || Beri skor dulu, baru berdebat: A dari lembar alumni, M dari preferensinya, P dari kolom lowongan
 em: score before you argue || beri skor dulu, baru berdebat
-sub: Sort M, then P, then A. Then argue: which row 6–8 might displace a Top 5, and which Top 5 row is really a calendar item. || Urutkan M, lalu P, lalu A. Baru berdebat: baris 6–8 mana yang mungkin menggeser 5 Teratas, dan baris 5 Teratas mana yang sebenarnya cuma butir kalender.
+sub: Sort M, then P, then A. Then argue: which row 6–8 might displace a Top 5, and which Top 5 row is really a calendar item. || Urutkan M, lalu P, lalu A. Baru berdebat: baris 6–8 mana yang mungkin menggeser Lima Teratas, dan baris Lima Teratas mana yang sebenarnya cuma butir kalender.
 lay: flow
 n0: Advocacy || Advokasi
 n1: Motivation || Motivasi
