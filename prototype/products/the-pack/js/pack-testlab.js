@@ -88,7 +88,7 @@
     /* recommendation */
     main.appendChild(SH.cta({ icon: 'compass', title: { en: 'Recommended next set', id: 'Set berikutnya yang disarankan' }, text: rec.reason, actions: [SH.btn(presetLabel(rec.preset), { icon: 'arrow', onClick: function () { preset(rec.preset); } })] }));
     /* weakness map */
-    var wm = SH.card({ kick: { en: 'Weakness map', id: 'Peta kelemahan' }, title: { en: 'Accuracy and pace per sub-type', id: 'Ketepatan dan tempo per sub-tipe' } });
+    var wm = SH.card({ kick: { en: 'Weakness map', id: 'Peta kelemahan' }, title: { en: 'Accuracy and pace per sub-type', id: 'Ketepatan dan tempo per subtipe' } });
     var fams = Object.keys(C.SUBS);
     var grid = el('div', 'tl-map');
     fams.forEach(function (f) {
@@ -99,20 +99,20 @@
         var e = map[f + '/' + s], band = e ? e.band : 'none';
         var chip = el('button', 'tl-chip ' + band); chip.type = 'button';
         chip.innerHTML = '<span>' + esc(C.SUB[s] || s) + '</span><i>' + (e && e.acc != null && e.n >= 3 ? e.acc + '%' : (e && e.n ? e.n + '/3' : '·')) + (e && e.slow ? ' ⏱' : '') + '</i>';
-        chip.title = T('Drill this sub-type', 'Latih sub-tipe ini');
+        chip.title = T('Drill this sub-type', 'Latih subtipe ini');
         chip.addEventListener('click', function () { start('drill:' + f + '/' + s); });
         row.appendChild(chip);
       });
       box.appendChild(row); grid.appendChild(box);
     });
     wm.appendChild(grid);
-    wm.appendChild(SH.note(esc(T('Red under 50%, amber to 75%, green above; ⏱ marks a median time over 1.5× target. Needs three attempts per sub-type to colour. Scores diagnose against this bank; they predict no employer’s or institution’s cut.', 'Merah di bawah 50%, kuning sampai 75%, hijau di atas; ⏱ menandai waktu median lebih dari 1,5× target. Perlu tiga percobaan per sub-tipe untuk berwarna. Skor mendiagnosis terhadap bank ini; tidak meramalkan ambang perusahaan atau lembaga mana pun.')), 'chart'));
+    wm.appendChild(SH.note(esc(T('Red under 50%, amber to 75%, green above; ⏱ marks a median time over 1.5× target. Needs three attempts per sub-type to colour. Scores diagnose against this bank; they predict no employer’s or institution’s cut.', 'Merah di bawah 50%, kuning sampai 75%, hijau di atas; ⏱ menandai waktu median lebih dari 1,5× target. Perlu tiga percobaan per subtipe supaya berwarna. Skornya mendiagnosis berdasarkan bank soal ini; tidak meramalkan ambang lolos perusahaan atau lembaga mana pun.')), 'chart'));
     main.appendChild(wm);
     /* modes */
     var md = SH.card({ kick: { en: 'Modes', id: 'Mode' }, title: { en: 'Diagnose, drill, time, section, mock', id: 'Diagnosis, latih, waktu, bagian, simulasi' } });
     var tiles = el('div', 'ts-tiles');
     [['target', { en: 'Mixed diagnostic · 40', id: 'Diagnostik campuran · 40' }, { en: 'Untimed; draws the map', id: 'Tanpa batas waktu; menggambar peta' }, 'diagnostic:mixed40'],
-     ['pen', { en: 'Drill a sub-type', id: 'Latih satu sub-tipe' }, { en: 'Instant feedback, tier rises', id: 'Umpan balik seketika, tingkat naik' }, 'drillpick'],
+     ['pen', { en: 'Drill a sub-type', id: 'Latih satu subtipe' }, { en: 'Instant feedback, tier rises', id: 'Umpan balik seketika, tingkat naik' }, 'drillpick'],
      ['refresh', { en: 'Focus loop', id: 'Putaran fokus' }, { en: 'Your misses until right twice', id: 'Kesalahanmu sampai benar dua kali' }, 'focus'],
      ['stopwatch', { en: 'Timed sets', id: 'Set berbatas waktu' }, { en: 'Verbal · numerical · reasoning · figural', id: 'Verbal · numerik · penalaran · figural' }, 'timedpick'],
      ['list', { en: 'Section practice', id: 'Latihan bagian' }, { en: 'TWK 30 · TIU 35 · TKP 45', id: 'TWK 30 · TIU 35 · TKP 45' }, 'sectionpick'],
@@ -121,7 +121,7 @@
      ['zap', { en: 'Kraepelin-style simulator', id: 'Simulator gaya Kraepelin' }, { en: 'Rhythm, work curve', id: 'Ritme, kurva kerja' }, 'kraepelin'],
      ['balance', { en: 'Consistency mirror', id: 'Cermin konsistensi' }, { en: 'Six value pairs', id: 'Enam pasangan nilai' }, 'mirror'],
      ['calendar', { en: 'Plan tracker', id: 'Pelacak rencana' }, { en: 'Sessions and adherence', id: 'Sesi dan kepatuhan' }, 'plan'],
-     ['x', { en: 'Error log', id: 'Catatan kesalahan' }, { en: 'Traps and learner tags', id: 'Jebakan dan tanda pelajar' }, 'errorlog'],
+     ['x', { en: 'Error log', id: 'Catatan kesalahan' }, { en: 'Traps and learner tags', id: 'Jebakan dan label pribadi' }, 'errorlog'],
      ['doc', { en: 'Config and sources', id: 'Konfigurasi dan sumber' }, { en: 'Counts, thresholds, verified date', id: 'Jumlah, ambang, tanggal verifikasi' }, 'config']
     ].forEach(function (t) { tiles.appendChild(SH.tile({ icon: t[0], title: t[1], hint: t[2], onPick: function () { pick(t[3]); } })); });
     md.appendChild(tiles);
@@ -164,7 +164,7 @@
     main.appendChild(back);
     if (m === 'drill') {
       Object.keys(C.SUBS).forEach(function (f) {
-        var c = SH.card({ kick: B(C.FAMILY[f]) || f, title: { en: 'Choose a sub-type', id: 'Pilih sub-tipe' } });
+        var c = SH.card({ kick: B(C.FAMILY[f]) || f, title: { en: 'Choose a sub-type', id: 'Pilih subtipe' } });
         var row = el('div', 'tl-map-row');
         Object.keys(C.SUBS[f]).forEach(function (s) { var e = map[f + '/' + s]; var b = el('button', 'tl-chip ' + (e ? e.band : 'none')); b.type = 'button'; b.innerHTML = '<span>' + esc(C.SUB[s] || s) + '</span><i>' + C.SUBS[f][s] + '</i>'; b.addEventListener('click', function () { start('drill:' + f + '/' + s); }); row.appendChild(b); });
         c.appendChild(row);
@@ -376,7 +376,7 @@
     }
     var statsList = [[r.correct + '/' + r.n, { en: 'correct', id: 'benar' }], [r.accuracy + '%', { en: 'accuracy of attempted', id: 'ketepatan dari yang dikerjakan' }], [r.completion + '%', { en: 'completion', id: 'penyelesaian' }], [r.attempted ? Math.round(r.secs / r.attempted) + 's' : '0s', { en: 'per item', id: 'per soal' }]];
     if (r.secondShare != null) statsList.push([r.secondShare + '%', { en: 'second-best share', id: 'porsi terbaik kedua' }]);
-    if (r.estimate != null && !r.skd) statsList.push([r.estimate, { en: 'estimate if no blanks', id: 'estimasi jika tanpa kosong' }]);
+    if (r.estimate != null && !r.skd) statsList.push([r.estimate, { en: 'estimate if no blanks', id: 'perkiraan jika tanpa soal kosong' }]);
     if (r.last10 != null) statsList.push([r.last10, { en: 'TKP items 36 to 45 mean', id: 'rata-rata TKP soal 36 sampai 45' }]);
     c.appendChild(SH.stats(statsList));
     main.appendChild(c);
@@ -389,7 +389,7 @@
       main.appendChild(cs);
     }
     /* grids */
-    var gr = SH.card({ kick: { en: 'Grid', id: 'Kisi' }, title: { en: 'By family and sub-type', id: 'Per keluarga dan sub-tipe' } });
+    var gr = SH.card({ kick: { en: 'Grid', id: 'Kisi' }, title: { en: 'By family and sub-type', id: 'Per jenis soal dan subtipe' } });
     Object.keys(r.byFamily).forEach(function (f) { var fb = r.byFamily[f]; var med = C.median(fb.times); gr.appendChild(SH.dim(B(C.FAMILY[f]) || f, fb.ok + '/' + fb.n + (fb.blank ? ' · ' + fb.blank + ' ' + T('blank', 'kosong') : '') + (med ? ' · ' + T('median ', 'median ') + med + ' s' : ''), fb.n)); });
     var subs = el('div', 'tl-map-row');
     Object.keys(r.bySub).forEach(function (k) { var s = r.bySub[k], acc = s.n ? Math.round(s.ok / s.n * 100) : 0, band = s.n < 2 ? 'none' : acc < 50 ? 'red' : acc < 75 ? 'amber' : 'green'; var chip = el('button', 'tl-chip ' + band); chip.type = 'button'; chip.innerHTML = '<span>' + esc(C.SUB[s.subtype] || s.subtype) + '</span><i>' + s.ok + '/' + s.n + (C.median(s.times) > s.target * CFG.pacing.skip_at_multiple ? ' ⏱' : '') + '</i>'; chip.addEventListener('click', function () { start('drill:' + s.family + '/' + s.subtype); }); subs.appendChild(chip); });
@@ -549,7 +549,7 @@
     log.forEach(function (e) { (e.traps || []).forEach(function (t) { traps[t] = (traps[t] || 0) + 1; }); learner[e.learner || 'untagged']++; subs[e.family + '/' + e.subtype] = (subs[e.family + '/' + e.subtype] || 0) + 1; });
     c.appendChild(SH.stats([[learner.knew, { en: 'I knew this', id: 'Saya tahu ini' }], [learner.gap, { en: 'did not understand', id: 'belum paham' }], [learner.time, { en: 'ran out of time', id: 'kehabisan waktu' }], [learner.untagged, { en: 'untagged', id: 'tanpa tanda' }]]));
     var tk = el('div', 'ts-tags'); Object.keys(traps).sort(function (a, b) { return traps[b] - traps[a]; }).slice(0, 14).forEach(function (t) { tk.appendChild(SH.pill(t.replace(/_/g, ' ') + ' · ' + traps[t], 'bad')); }); c.appendChild(el('div', 'ts-kick', esc(T('Trap tags', 'Tanda jebakan')))); c.appendChild(tk);
-    var sk = el('div', 'tl-map-row'); Object.keys(subs).sort(function (a, b) { return subs[b] - subs[a]; }).slice(0, 16).forEach(function (k) { var parts = k.split('/'); var b = el('button', 'tl-chip red'); b.type = 'button'; b.innerHTML = '<span>' + esc(C.SUB[parts[1]] || parts[1]) + '</span><i>' + subs[k] + '</i>'; b.addEventListener('click', function () { start('drill:' + k); }); sk.appendChild(b); }); var kk = el('div', 'ts-kick', esc(T('By sub-type', 'Per sub-tipe'))); kk.style.marginTop = '12px'; c.appendChild(kk); c.appendChild(sk);
+    var sk = el('div', 'tl-map-row'); Object.keys(subs).sort(function (a, b) { return subs[b] - subs[a]; }).slice(0, 16).forEach(function (k) { var parts = k.split('/'); var b = el('button', 'tl-chip red'); b.type = 'button'; b.innerHTML = '<span>' + esc(C.SUB[parts[1]] || parts[1]) + '</span><i>' + subs[k] + '</i>'; b.addEventListener('click', function () { start('drill:' + k); }); sk.appendChild(b); }); var kk = el('div', 'ts-kick', esc(T('By sub-type', 'Per subtipe'))); kk.style.marginTop = '12px'; c.appendChild(kk); c.appendChild(sk);
     var row = el('div', 'ts-row'); row.appendChild(SH.btn({ en: 'Focus loop · ' + C.focusIds().length, id: 'Putaran fokus · ' + C.focusIds().length }, { icon: 'refresh', disabled: !C.focusIds().length, onClick: function () { start('focus'); } })); row.appendChild(SH.btn({ en: 'Clear log', id: 'Hapus catatan' }, { quiet: true, onClick: function () { if (confirm(T('Clear the error log on this device?', 'Hapus catatan kesalahan di perangkat ini?'))) { C.save('errorlog', []); paint(); } } })); c.appendChild(row);
     main.appendChild(c);
     main.appendChild(SH.btn({ en: 'Back to the Lab', id: 'Kembali ke Lab' }, { quiet: true, iconL: 'arrowL', onClick: function () { go('home'); } }));
