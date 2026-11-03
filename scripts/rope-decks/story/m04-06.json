@@ -38,70 +38,70 @@
     { "t": { "en": "Record your own five in one take each, compare timings, not wordings", "id": "Rekam lima jawabanmu sendiri, masing-masing sekali; bandingkan waktunya, bukan kata-katanya" } }
   ] },
   "5.1": { "s": [
-    { "t": { "en": "Every screening question serves one of seven checks", "id": "Setiap pertanyaan penyaringan melayani satu dari tujuh pemeriksaan" } },
-    { "t": { "en": "Ten questions recur in almost every HR screen: Modules 4 and 5 answer all of them", "id": "Sepuluh pertanyaan berulang di hampir setiap penyaringan HR, Modul 4 dan 5 menjawab semuanya" } },
-    { "t": { "en": "Placement and bonds are real commitments; decide before the call, then answer truthfully", "id": "Penempatan dan ikatan dinas adalah komitmen nyata; putuskan sebelum panggilan, lalu jawab dengan jujur" } },
-    { "t": { "en": "HR answers take twenty to forty-five seconds and must match your CV and your form", "id": "Jawaban HR berdurasi dua puluh sampai empat puluh lima detik dan harus cocok dengan CV dan formulirmu" } }
+    { "t": { "en": "Every screening question serves one of seven checks", "id": "Setiap pertanyaan di seleksi HR melayani salah satu dari tujuh pemeriksaan" } },
+    { "t": { "en": "Ten questions recur in almost every HR screen: Modules 4 and 5 answer all of them", "id": "Sepuluh pertanyaan muncul di hampir setiap seleksi HR, dan Modul 4 dan 5 menjawab semuanya" } },
+    { "t": { "en": "Placement and bonds are real commitments; decide before the call, then answer truthfully", "id": "Penempatan dan ikatan dinas adalah komitmen sungguhan; putuskan sebelum panggilan, lalu jawab dengan jujur" } },
+    { "t": { "en": "HR answers take twenty to forty-five seconds and must match your CV and your form", "id": "Jawaban HR cukup dua puluh sampai empat puluh lima detik dan harus cocok dengan CV dan formulirmu" } }
   ] },
   "5.2": { "s": [
-    { "t": { "en": "Acknowledge in one sentence, account in two, then advance; the advance is at least half the answer", "id": "Akui dalam satu kalimat, jelaskan dalam dua, lalu maju: bagian maju setidaknya separuh jawaban" } },
+    { "t": { "en": "Acknowledge in one sentence, account in two, then advance; the advance is at least half the answer", "id": "Akui dalam satu kalimat, jelaskan dalam dua, lalu maju: bagian Maju setidaknya separuh jawaban" } },
     { "t": { "en": "Seven difficult-question cases cover most fresh-graduate histories", "id": "Tujuh kasus pertanyaan sulit mencakup sebagian besar riwayat lulusan baru" } },
-    { "t": { "en": "Four moves make a gap bigger: lying, over-explaining, blaming, raising it yourself", "id": "Empat langkah membuat celah makin besar: berbohong, menjelaskan berlebihan, menyalahkan, mengangkatnya sendiri" } },
-    { "t": { "en": "Frame, never falsify: The Rope does not teach concealment", "id": "Bingkai, jangan pernah palsukan; The Rope tidak mengajarkan penyembunyian" } }
+    { "t": { "en": "Four moves make a gap bigger: lying, over-explaining, blaming, raising it yourself", "id": "Empat langkah yang membuat celah makin besar: berbohong, menjelaskan berlebihan, menyalahkan, mengungkitnya sendiri" } },
+    { "t": { "en": "Frame, never falsify: The Rope does not teach concealment", "id": "Bingkai faktanya, jangan pernah memalsukannya; The Rope tidak mengajarkan cara menyembunyikan fakta" } }
   ] },
   "5.3": { "s": [
-    { "t": { "en": "Name a range only after research; structured programmes usually have a fixed package", "id": "Sebutkan rentang hanya setelah riset; program terstruktur biasanya punya paket tetap" } },
-    { "t": { "en": "State the range as gross monthly, and know roughly which deductions apply", "id": "Nyatakan rentang sebagai bruto bulanan, dan ketahui kira-kira potongan apa yang berlaku" } },
-    { "t": { "en": "Four answer shapes: the first number anchors, so research is the reason to name one", "id": "Empat bentuk jawaban: angka pertama menjangkar, maka riset adalah alasan untuk menyebutnya" } },
-    { "t": { "en": "Clarify the practical terms at HR stage; negotiate them after the offer", "id": "Perjelas syarat praktis di tahap HR; negosiasikan setelah penawaran" } }
+    { "t": { "en": "Name a range only after research; structured programmes usually have a fixed package", "id": "Sebut rentang hanya setelah riset; program terstruktur biasanya punya paket tetap" } },
+    { "t": { "en": "State the range as gross monthly, and know roughly which deductions apply", "id": "Sebut rentangnya sebagai gaji kotor per bulan, dan ketahui kira-kira potongan apa saja yang berlaku" } },
+    { "t": { "en": "Four answer shapes: the first number anchors, so research is the reason to name one", "id": "Empat bentuk jawaban: angka pertama menjadi jangkar, jadi riset adalah alasan untuk menyebut angka" } },
+    { "t": { "en": "Clarify the practical terms at HR stage; negotiate them after the offer", "id": "Klarifikasi syarat praktis di tahap HR; negosiasikan setelah tawaran kerja" } }
   ] },
   "5.4": { "s": [
-    { "t": { "en": "The law prohibits discrimination; the questions still happen; The Rope gives practice, not legal advice", "id": "Hukum melarang diskriminasi; pertanyaannya tetap terjadi; The Rope memberi latihan, bukan nasihat hukum" } },
-    { "t": { "en": "Three tiers of answer, all of which keep the room; your comfort chooses the tier", "id": "Tiga tingkat jawaban, semuanya menjaga suasana, kenyamananmu yang memilih tingkatnya" },
+    { "t": { "en": "The law prohibits discrimination; the questions still happen; The Rope gives practice, not legal advice", "id": "Hukum melarang diskriminasi, tetapi pertanyaannya tetap muncul; The Rope memberi latihan, bukan nasihat hukum" } },
+    { "t": { "en": "Three tiers of answer, all of which keep the room; your comfort chooses the tier", "id": "Tiga tingkat jawaban yang semuanya menjaga suasana; kenyamananmu yang memilih tingkatnya" },
       "lay": "pillars", "lbl": [ { "en": "Tier 1", "id": "Tingkat 1" }, { "en": "Tier 2", "id": "Tingkat 2" }, { "en": "Tier 3", "id": "Tingkat 3" } ] },
-    { "t": { "en": "Five employer red flags belong on your list before you say yes", "id": "Lima tanda bahaya pemberi kerja masuk daftar sebelum kamu bilang ya" } },
-    { "t": { "en": "A meal is still an interview; order simply, follow the host, phone away", "id": "Makan bersama tetaplah wawancara; pesan sederhana, ikuti tuan rumah, simpan ponsel" } }
+    { "t": { "en": "Five employer red flags belong on your list before you say yes", "id": "Lima tanda bahaya dari perusahaan masuk ke daftarmu sebelum kamu bilang ya" } },
+    { "t": { "en": "A meal is still an interview; order simply, follow the host, phone away", "id": "Makan bersama tetap sebuah wawancara; pesan yang sederhana, ikuti tuan rumah, simpan ponselmu" } }
   ] },
   "5.5": { "s": [
-    { "t": { "en": "For each answer, name the check it served and whether it passed; count the sentences on the record", "id": "Untuk setiap jawaban, sebut pemeriksaan yang dilayaninya dan apakah lolos; hitung kalimat yang masuk catatan" } },
-    { "t": { "en": "Each rewrite has a target length and a Kit item behind it; the salary range has sources and a floor", "id": "Setiap penulisan ulang punya target panjang dan butir Kit di baliknya; rentang gaji punya sumber dan batas bawah" } }
+    { "t": { "en": "For each answer, name the check it served and whether it passed; count the sentences on the record", "id": "Untuk setiap jawaban, sebut pemeriksaan yang dilayaninya dan apakah lolos; hitung kalimat mana saja yang ikut tercatat" } },
+    { "t": { "en": "Each rewrite has a target length and a Kit item behind it; the salary range has sources and a floor", "id": "Setiap penulisan ulang punya target durasi dan isi Perangkat Wawancara di belakangnya; rentang gajinya punya sumber dan batas bawah" } }
   ] },
   "6.1": { "s": [
-    { "t": { "en": "Every user question is one of three fears in work clothes", "id": "Setiap pertanyaan user adalah satu dari tiga ketakutan yang berpakaian kerja" } },
-    { "t": { "en": "The user interview goes deeper, in the work’s own vocabulary; this is the room for depth cards", "id": "Wawancara user lebih dalam, dalam kosakata pekerjaannya sendiri; ini ruang untuk kartu kedalaman" } },
-    { "t": { "en": "Four question families: concrete, tool-level answers beat polished general ones", "id": "Empat keluarga pertanyaan: jawaban konkret setingkat alat mengalahkan jawaban umum yang mengilap" } },
-    { "t": { "en": "Ask about the first ninety days, the team’s challenge and feedback, their hesitations are data", "id": "Tanyakan sembilan puluh hari pertama, tantangan tim, dan umpan balik, keraguan mereka adalah data" } }
+    { "t": { "en": "Every user question is one of three fears in work clothes", "id": "Setiap pertanyaan user adalah salah satu dari tiga ketakutan dalam baju kerja" } },
+    { "t": { "en": "The user interview goes deeper, in the work’s own vocabulary; this is the room for depth cards", "id": "Wawancara user lebih dalam, dengan istilah dari pekerjaan itu sendiri; inilah ruangan untuk Kartu Kedalaman" } },
+    { "t": { "en": "Four question families: concrete, tool-level answers beat polished general ones", "id": "Empat kelompok pertanyaan: jawaban konkret sampai ke tingkat alat mengalahkan jawaban umum yang terdengar mulus" } },
+    { "t": { "en": "Ask about the first ninety days, the team’s challenge and feedback; their hesitations are data", "id": "Tanyakan sembilan puluh hari pertama, tantangan tim, dan cara mereka memberi masukan; keraguan mereka adalah data" } }
   ] },
   "6.2": { "s": [
-    { "t": { "en": "Prepare five topics you can explain, apply and bound; the limits are where understanding shows", "id": "Siapkan lima topik yang bisa kamu jelaskan, terapkan, dan batasi, batasnya tempat pemahaman terlihat" } },
-    { "t": { "en": "Four sentences: definition, why it matters, an example, a limitation; the fourth separates understanding from recitation", "id": "Empat kalimat: definisi, mengapa penting, contoh, keterbatasan; kalimat keempat memisahkan pemahaman dari hafalan" } },
-    { "t": { "en": "“I don’t know” done well takes fifteen seconds and shows how you will handle the unknown on the job", "id": "“Saya tidak tahu” yang baik butuh lima belas detik dan menunjukkan caramu menghadapi ketidaktahuan di pekerjaan" } },
-    { "t": { "en": "Sixty seconds of plain language on your thesis; think aloud and state assumptions in tests", "id": "Enam puluh detik bahasa sederhana tentang skripsimu; berpikir keras dan nyatakan asumsi saat tes" } }
+    { "t": { "en": "Prepare five topics you can explain, apply and bound; the limits are where understanding shows", "id": "Siapkan lima topik yang bisa kamu jelaskan, terapkan, dan sebutkan batasnya; di batas itulah pemahaman terlihat" } },
+    { "t": { "en": "Four sentences: definition, why it matters, an example, a limitation; the fourth separates understanding from recitation", "id": "Empat kalimat: definisi, kenapa penting, contoh, keterbatasan; kalimat keempat yang membedakan paham dari hafal" } },
+    { "t": { "en": "“I don’t know” done well takes fifteen seconds and shows how you will handle the unknown on the job", "id": "“Saya tidak tahu” yang disampaikan dengan baik cukup lima belas detik dan menunjukkan caramu menghadapi hal yang belum kamu tahu di tempat kerja" } },
+    { "t": { "en": "Sixty seconds of plain language on your thesis; think aloud and state assumptions in tests", "id": "Enam puluh detik dengan bahasa sederhana untuk skripsimu; saat tes, bernalarlah dengan suara keras dan sebutkan asumsimu" } }
   ] },
   "6.3": { "s": [
-    { "t": { "en": "A case scores four things continuously; a stumble caught and corrected often beats a clean run", "id": "Kasus menilai empat hal secara terus-menerus; tersandung lalu diperbaiki sering mengalahkan jalan mulus" } },
-    { "t": { "en": "Five steps, said aloud: clarify, structure, analyse, answer, sanity-check, recommendation before reasons", "id": "Lima langkah, diucapkan: klarifikasi, struktur, analisis, jawab, periksa akal sehat, rekomendasi sebelum alasan" } },
-    { "t": { "en": "Scaffolds come from the case’s own words; a 4Ps on a cost problem fails", "id": "Kerangka berasal dari kata-kata kasusnya sendiri: 4P pada masalah biaya gagal" } },
-    { "t": { "en": "Indonesian realities belong in the structure as branches, not afterthoughts", "id": "Realitas Indonesia masuk ke struktur sebagai cabang, bukan tambahan belakangan" } }
+    { "t": { "en": "A case scores four things continuously; a stumble caught and corrected often beats a clean run", "id": "Kasus menilai empat hal sepanjang waktu; kesalahan yang ketahuan lalu diperbaiki sering mengalahkan pengerjaan yang mulus" } },
+    { "t": { "en": "Five steps, said aloud: clarify, structure, analyse, answer, sanity-check; recommendation before reasons", "id": "Lima langkah, diucapkan: klarifikasi, struktur, analisis, jawab, uji kewajaran; rekomendasi sebelum alasan" } },
+    { "t": { "en": "Scaffolds come from the case’s own words; a 4Ps on a cost problem fails", "id": "Rangkanya berasal dari kata-kata kasus itu sendiri; 4P untuk masalah biaya pasti gagal" } },
+    { "t": { "en": "Indonesian realities belong in the structure as branches, not afterthoughts", "id": "Kenyataan di Indonesia masuk ke struktur sebagai cabang, bukan tambahan di akhir" } }
   ] },
   "6.4": { "s": [
-    { "t": { "en": "Top-down or bottom-up, the path must be auditable: round numbers, flagged assumptions, a sanity check", "id": "Dari atas atau dari bawah, jalurnya harus bisa diaudit: angka bulat, asumsi ditandai, pemeriksaan akal sehat" },
+    { "t": { "en": "Top-down or bottom-up, the path must be auditable: round numbers, flagged assumptions, a sanity check", "id": "Dari atas atau dari bawah, jalannya harus bisa diperiksa: angka bulat, asumsi disebutkan, uji kewajaran" },
       "lay": "compare", "items": [
-        { "l": { "en": "Top-down", "id": "Dari atas" }, "en": "Population → segment → users → frequency → value.", "id": "Populasi → segmen → pengguna → frekuensi → nilai." },
-        { "l": { "en": "Bottom-up", "id": "Dari bawah" }, "en": "Outlets × sales per outlet × days.", "id": "Gerai × penjualan per gerai × hari." } ],
+        { "l": { "en": "Top-down", "id": "Dari atas ke bawah" }, "en": "Population → segment → users → frequency → value.", "id": "Penduduk → segmen → pengguna → frekuensi → nilai." },
+        { "l": { "en": "Bottom-up", "id": "Dari bawah ke atas" }, "en": "Outlets × sales per outlet × days.", "id": "Gerai × penjualan per gerai × jumlah hari." } ],
       "take": { "en": "Round numbers, each assumption flagged, a running product on paper, a sanity check at the end.", "id": "Angka bulat, setiap asumsi ditandai, hasil kali berjalan di kertas, pemeriksaan akal sehat di akhir." } },
-    { "t": { "en": "Break-even is fixed cost over unit margin, and say whether a percentage is of revenue or of profit", "id": "Titik impas adalah biaya tetap dibagi margin per unit, dan katakan apakah persentasenya dari pendapatan atau laba" } },
-    { "t": { "en": "Read the frame, find the one message, connect it to the question, never narrate the chart", "id": "Baca bingkainya, temukan satu pesannya, hubungkan ke pertanyaan, jangan pernah menarasikan grafiknya" } },
-    { "t": { "en": "Work in thousands and millions with one significant figure, and keep three dated anchors", "id": "Bekerja dalam ribuan dan jutaan dengan satu angka penting, dan simpan tiga patokan bertanggal" } }
+    { "t": { "en": "Break-even is fixed cost over unit margin, and say whether a percentage is of revenue or of profit", "id": "Titik impas adalah biaya tetap dibagi margin per unit, dan sebutkan apakah persentasenya dari pendapatan atau dari laba" } },
+    { "t": { "en": "Read the frame, find the one message, connect it to the question; never narrate the chart", "id": "Baca kerangka peraganya, temukan satu pesannya, kaitkan dengan pertanyaannya; jangan pernah menceritakan isi grafiknya" } },
+    { "t": { "en": "Work in thousands and millions with one significant figure, and keep three dated anchors", "id": "Hitung dalam ribuan dan jutaan dengan satu angka penting, dan simpan tiga angka acuan yang bertanggal" } }
   ] },
   "6.5": { "s": [
-    { "t": { "en": "Find the decision first, who will do what differently, then note the format, length, deadline and data", "id": "Temukan keputusannya dulu, siapa akan berbuat apa secara berbeda, lalu catat format, panjang, tenggat, dan data" } },
-    { "t": { "en": "Plan the box: an hour to structure, most on analysis, the last quarter on summary and rehearsal", "id": "Rencanakan kotaknya: satu jam menyusun struktur, sebagian besar analisis, seperempat terakhir ringkasan dan latihan" } },
-    { "t": { "en": "Page one carries the question, the recommendation, three reasons and the main risk, support sits behind it", "id": "Halaman satu memuat pertanyaan, rekomendasi, tiga alasan, dan risiko utama, pendukung ada di belakangnya" } },
-    { "t": { "en": "Ten rehearsed minutes with the recommendation first, and every line your own and explainable", "id": "Sepuluh menit yang dilatih dengan rekomendasi di awal, dan setiap baris milikmu sendiri dan bisa dijelaskan" } }
+    { "t": { "en": "Find the decision first (who will do what differently), then note the format, length, deadline and data", "id": "Temukan keputusannya dulu (siapa yang akan bertindak berbeda), lalu catat format, panjang, tenggat, dan datanya" } },
+    { "t": { "en": "Plan the box: an hour to structure, most on analysis, the last quarter on summary and rehearsal", "id": "Rencanakan batas waktunya: satu jam untuk menyusun kerangka, sebagian besar untuk analisis, seperempat terakhir untuk ringkasan dan latihan" } },
+    { "t": { "en": "Page one carries the question, the recommendation, three reasons and the main risk; support sits behind it", "id": "Halaman satu memuat pertanyaan, rekomendasi, tiga alasan, dan risiko utama; pendukungnya ada di belakang" } },
+    { "t": { "en": "Ten rehearsed minutes with the recommendation first, and every line your own and explainable", "id": "Sepuluh menit yang sudah dilatih dengan rekomendasi di awal, dan setiap baris milikmu sendiri dan bisa dijelaskan" } }
   ] },
   "6.6": { "s": [
-    { "t": { "en": "Steps 1 and 2 come from the opening sentence alone; the exhibits stay closed until Step 3", "id": "Langkah 1 dan 2 berasal dari kalimat pembuka saja; exhibit tetap tertutup sampai Langkah 3" } },
-    { "t": { "en": "Step 5 ends with your case-protocol card; Round 6 is the user interview", "id": "Langkah 5 berakhir dengan kartu protokol kasusmu; Putaran 6 adalah wawancara user" } }
+    { "t": { "en": "Steps 1 and 2 come from the opening sentence alone; the exhibits stay closed until Step 3", "id": "Langkah 1 dan 2 dikerjakan hanya dari kalimat pembuka; peraganya tetap tertutup sampai Langkah 3" } },
+    { "t": { "en": "Step 5 ends with your case-protocol card; Round 6 is the user interview", "id": "Langkah 5 ditutup dengan kartu protokol kasusmu; Putaran 6 adalah wawancara user" } }
   ] }
 }
