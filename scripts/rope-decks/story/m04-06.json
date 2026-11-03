@@ -1,41 +1,41 @@
 {
   "4.1": { "s": [
-    { "t": { "en": "A point is specific evidence tied to the role; an adjective is a word every candidate uses", "id": "Poin adalah bukti spesifik yang terkait peran; kata sifat adalah kata yang dipakai semua kandidat" },
+    { "t": { "en": "A point is specific evidence tied to the role; an adjective is a word every candidate uses", "id": "Poin adalah bukti spesifik yang terkait dengan posisinya; kata sifat adalah kata yang dipakai semua kandidat" },
       "lay": "compare", "items": [
-        { "l": { "en": "A point", "id": "Sebuah poin" }, "en": "“Terbiasa akurat dengan volume tinggi, rekonsiliasi harian tiga cabang saat internship.”", "id": "“Terbiasa akurat dengan volume tinggi, rekonsiliasi harian tiga cabang saat internship.”" },
-        { "l": { "en": "A word", "id": "Sebuah kata" }, "en": "“Teliti.”", "id": "“Teliti.”" } ] },
+        { "l": { "en": "A point", "id": "Poin" }, "en": "“Terbiasa akurat dengan volume tinggi, rekonsiliasi harian tiga cabang saat internship.”", "id": "“Terbiasa akurat dengan volume tinggi, rekonsiliasi harian tiga cabang saat magang.”" },
+        { "l": { "en": "A word", "id": "Sekadar kata" }, "en": "“Teliti.”", "id": "“Teliti.”" } ] },
     { "t": { "en": "Mix the five: skill, motivation, working style and one distinctive point, not five skills", "id": "Campur kelimanya: keterampilan, motivasi, gaya kerja, dan satu poin pembeda, bukan lima keterampilan" } },
-    { "t": { "en": "Bridge to a key point once or twice per interview, only when it is true", "id": "Jembatani ke poin kunci sekali atau dua kali per wawancara, hanya jika benar" } },
-    { "t": { "en": "Before “ada pertanyaan?”, tick the five; a missing point goes into the close", "id": "Sebelum “ada pertanyaan?”, centang kelimanya, poin yang terlewat masuk ke penutup" } }
+    { "t": { "en": "Bridge to a key point once or twice per interview, only when it is true", "id": "Jembatani ke poin penting satu atau dua kali per wawancara, hanya kalau memang nyambung" } },
+    { "t": { "en": "Before “ada pertanyaan?”, tick the five; a missing point goes into the close", "id": "Sebelum “ada pertanyaan?”, centang kelima poinnya; poin yang terlewat dibawa ke penutup" } }
   ] },
   "4.2": { "s": [
-    { "t": { "en": "Sixty seconds in three parts: ten of present, thirty-five of proof, fifteen of future and a handover", "id": "Enam puluh detik dalam tiga bagian: sepuluh detik kini, tiga puluh lima bukti, lima belas masa depan dan serah terima" } },
-    { "t": { "en": "The CV already says it; the opening argues it, so leave the chronology out", "id": "CV sudah mengatakannya: pembuka memperdebatkannya, jadi tinggalkan kronologinya" },
+    { "t": { "en": "Sixty seconds in three parts: ten of present, thirty-five of proof, fifteen of future and a handover", "id": "Enam puluh detik dalam tiga bagian: sepuluh detik Sekarang, tiga puluh lima detik Bukti, lima belas detik Ke Depan dan umpan balik" } },
+    { "t": { "en": "The CV already says it; the opening argues it, so leave the chronology out", "id": "CV sudah menyebutkannya; pembuka bertugas meyakinkan, jadi buang kronologinya" },
       "lay": "grid", "items": [
-        { "en": "Birthplace", "id": "Tempat lahir" }, { "en": "Family", "id": "Keluarga" }, { "en": "Hobbies", "id": "Hobi" }, { "en": "A full chronology", "id": "Kronologi lengkap" }, { "en": "The GPA", "id": "IPK" }, { "en": "“Saya orangnya…” plus adjectives", "id": "“Saya orangnya…” plus kata sifat" } ],
+        { "en": "Birthplace", "id": "Tempat lahir" }, { "en": "Family", "id": "Keluarga" }, { "en": "Hobbies", "id": "Hobi" }, { "en": "A full chronology", "id": "Kronologi lengkap" }, { "en": "The GPA", "id": "IPK" }, { "en": "“Saya orangnya…” plus adjectives", "id": "“Saya orangnya…” ditambah kata sifat" } ],
       "take": { "en": "The CV already says it; the opening argues it.", "id": "CV sudah mengatakannya; pembuka memperdebatkannya." } },
-    { "t": { "en": "Same facts, four audiences; HR hears motivation, the user hears capability, the panel hears direction", "id": "Fakta sama, empat audiens: HR mendengar motivasi, user mendengar kemampuan, panel mendengar arah" } },
-    { "t": { "en": "Memorise the structure and the facts, not the sentences, and keep the register polite", "id": "Hafalkan struktur dan faktanya, bukan kalimatnya, dan jaga register tetap sopan" } }
+    { "t": { "en": "Same facts, four audiences; HR hears motivation, the user hears capability, the panel hears direction", "id": "Fakta sama, empat pendengar: HR mendengar motivasi, user mendengar kemampuan, panel mendengar arah" } },
+    { "t": { "en": "Memorise the structure and the facts, not the sentences, and keep the register polite", "id": "Hafalkan susunan dan faktanya, bukan kalimatnya, dan jaga gaya bahasa tetap sopan" } }
   ] },
   "4.3": { "s": [
     { "t": { "en": "REC answers the hidden concern: research, experience, contribution, not praise", "id": "REC menjawab kekhawatiran tersembunyi: riset, pengalaman, kontribusi, bukan pujian" },
       "lay": "pillars", "items": [
-        { "l": { "en": "Research", "id": "Riset" }, "en": "One or two specific, verifiable things about the company or role (Lesson 3.2).", "id": "Satu atau dua hal spesifik dan dapat diverifikasi tentang perusahaan atau peran (Pelajaran 3.2)." },
-        { "l": { "en": "Experience", "id": "Pengalaman" }, "en": "How your background connects.", "id": "Bagaimana latarmu terhubung." },
+        { "l": { "en": "Research", "id": "Riset" }, "en": "One or two specific, verifiable things about the company or role (Lesson 3.2).", "id": "Satu atau dua hal spesifik yang bisa dicek tentang perusahaan atau posisinya (Pelajaran 3.2)." },
+        { "l": { "en": "Experience", "id": "Pengalaman" }, "en": "How your background connects.", "id": "Bagaimana latar belakangmu terhubung." },
         { "l": { "en": "Contribution", "id": "Kontribusi" }, "en": "What you bring and what you want to learn there.", "id": "Apa yang kamu bawa dan apa yang ingin kamu pelajari di sana." } ] },
-    { "t": { "en": "Three “why” questions, one answer re-weighted: company, role, you", "id": "Tiga pertanyaan “kenapa”, satu jawaban dengan bobot berbeda: perusahaan, peran, kamu" } },
-    { "t": { "en": "Practical motives are legitimate; lead with the work, mention the practical briefly if asked", "id": "Motif praktis itu sah; mulai dari pekerjaannya, sebut yang praktis secara singkat jika ditanya" } },
-    { "t": { "en": "One real differentiator, prepared, and if you applied to the competitor too, say so", "id": "Satu pembeda nyata, disiapkan, dan jika kamu juga melamar ke kompetitor, katakan" } }
+    { "t": { "en": "Three “why” questions, one answer re-weighted: company, role, you", "id": "Tiga pertanyaan “kenapa”, satu jawaban dengan bobot yang digeser: perusahaan, posisi, dirimu" } },
+    { "t": { "en": "Practical motives are legitimate; lead with the work, mention the practical briefly if asked", "id": "Alasan praktis itu sah; dahulukan pekerjaannya, sebut yang praktis secara singkat kalau ditanya" } },
+    { "t": { "en": "One real differentiator, prepared, and if you applied to the competitor too, say so", "id": "Satu pembeda nyata yang disiapkan, dan kalau kamu juga melamar ke kompetitornya, akui saja" } }
   ] },
   "4.4": { "s": [
-    { "t": { "en": "One strength, proven by a twenty-second story and linked to the heaviest scorecard line", "id": "Satu kekuatan, dibuktikan cerita dua puluh detik dan dikaitkan ke baris kartu skor terberat" } },
-    { "t": { "en": "A weakness answer scores on the system, and survives only if the name is real", "id": "Jawaban kelemahan dinilai dari sistemnya, dan bertahan hanya jika namanya nyata" } },
-    { "t": { "en": "Pick a weakness that is real, credible and not a core requirement; never fake, disqualifying or personal", "id": "Pilih kelemahan yang nyata, masuk akal, dan bukan syarat inti; jangan palsu, mendiskualifikasi, atau pribadi" } },
-    { "t": { "en": "Use feedback you actually received, including one developmental point; the interviewer may call them", "id": "Pakai umpan balik yang benar-benar kamu terima, termasuk satu poin pengembangan, pewawancara bisa menelepon mereka" } }
+    { "t": { "en": "One strength, proven by a twenty-second story and linked to the heaviest scorecard line", "id": "Satu kekuatan, dibuktikan dengan cerita dua puluh detik dan dikaitkan dengan baris berbobot terbesar di lembar penilaian" } },
+    { "t": { "en": "A weakness answer scores on the system, and survives only if the name is real", "id": "Jawaban kelemahan dinilai dari Sistem-nya, dan hanya bertahan kalau Nama-nya nyata" } },
+    { "t": { "en": "Pick a weakness that is real, credible and not a core requirement; never fake, disqualifying or personal", "id": "Pilih kelemahan yang nyata, masuk akal, dan bukan syarat utama; jangan yang palsu, menggugurkan, atau terlalu pribadi" } },
+    { "t": { "en": "Use feedback you actually received, including one developmental point; the interviewer may call them", "id": "Pakai masukan yang benar-benar pernah kamu terima, termasuk satu hal yang perlu diperbaiki; pewawancara bisa menelepon orangnya" } }
   ] },
   "4.5": { "s": [
-    { "t": { "en": "The format sets the structure: no handover, no probe, a hard stop at ninety seconds", "id": "Format menentukan struktur: tanpa serah terima, tanpa gali, berhenti tepat di sembilan puluh detik" } },
-    { "t": { "en": "Record your own five in one take each, compare timings, not wordings", "id": "Rekam lima jawabanmu sekali ambil masing-masing; bandingkan waktunya, bukan kata-katanya" } }
+    { "t": { "en": "The format sets the structure: no handover, no probe, a hard stop at ninety seconds", "id": "Format menentukan susunannya: tanpa umpan balik, tanpa galian, dan berhenti tepat di detik sembilan puluh" } },
+    { "t": { "en": "Record your own five in one take each, compare timings, not wordings", "id": "Rekam lima jawabanmu sendiri, masing-masing sekali; bandingkan waktunya, bukan kata-katanya" } }
   ] },
   "5.1": { "s": [
     { "t": { "en": "Every screening question serves one of seven checks", "id": "Setiap pertanyaan penyaringan melayani satu dari tujuh pemeriksaan" } },

@@ -87,29 +87,29 @@
     { "t": { "en": "The job description and the four values tell you which three stories will be probed hardest", "id": "Deskripsi pekerjaan dan empat nilai bank menunjukkan tiga cerita mana yang akan digali paling dalam" } }
   ] },
   "3.1": { "s": [
-    { "t": { "en": "The posting is the exam paper: four layers, each predicting a different question type", "id": "Lowongan adalah lembar ujiannya: empat lapisan, masing-masing memprediksi tipe pertanyaan berbeda" } },
-    { "t": { "en": "The verbs name the competency and set the altitude: support, own or drive", "id": "Kata kerjanya menyebut kompetensi dan menentukan ketinggiannya: mendukung, memiliki, atau menggerakkan" } },
-    { "t": { "en": "Listed first, repeated or marked “wajib” means weighted highest; you are estimating a scorecard of four to six", "id": "Disebut pertama, diulang, atau ditandai “wajib” berarti bobot tertinggi; kamu menaksir kartu skor berisi empat sampai enam" } },
-    { "t": { "en": "Your Pack keyword table is the first pass; The Pack read the posting for the CV, The Rope reads it for the questions", "id": "Tabel kata kunci dari The Pack adalah langkah pertama; The Pack membaca lowongan untuk CV, The Rope membacanya untuk pertanyaan" } }
+    { "t": { "en": "The posting is the exam paper: four layers, each predicting a different question type", "id": "Lowongan adalah soal ujiannya: empat lapis, masing-masing mengarah ke jenis pertanyaan yang berbeda" } },
+    { "t": { "en": "The verbs name the competency and set the altitude: support, own or drive", "id": "Kata kerja menyebut kompetensinya dan menunjukkan levelnya: mendukung, bertanggung jawab, atau memimpin" } },
+    { "t": { "en": "Listed first, repeated or marked “wajib” means weighted highest; you are estimating a scorecard of four to six", "id": "Disebut pertama, diulang, atau ditandai “wajib” berarti bobotnya paling besar; kamu sedang memperkirakan empat sampai enam kompetensi" } },
+    { "t": { "en": "Your Pack keyword table is the first pass; The Pack read the posting for the CV, The Rope reads it for the questions", "id": "Tabel kata kunci dari The Pack adalah bahan awalnya; The Pack membaca lowongan untuk CV, The Rope membacanya untuk menebak pertanyaan" } }
   ] },
   "3.2": { "s": [
-    { "t": { "en": "Ninety minutes in six timed blocks; when the timer rings, move", "id": "Sembilan puluh menit dalam enam blok berjangka, saat alarm berbunyi, lanjut" } },
-    { "t": { "en": "Research ends with six outputs, and the last one is the question you ask at the end", "id": "Riset berakhir dengan enam keluaran, dan yang terakhir adalah pertanyaan yang kamu ajukan di akhir" } },
-    { "t": { "en": "One fact anchors “why us”, one fact powers a question; the rest stays in your notes", "id": "Satu fakta menjangkar “kenapa kami”, satu fakta menggerakkan pertanyaan, sisanya tinggal di catatan" },
+    { "t": { "en": "Ninety minutes in six timed blocks; when the timer rings, move", "id": "Sembilan puluh menit dalam enam sesi berbatas waktu; begitu pengatur waktu berbunyi, pindah" } },
+    { "t": { "en": "Research ends with six outputs, and the last one is the question you ask at the end", "id": "Riset menghasilkan enam catatan, dan yang terakhir adalah pertanyaan yang kamu ajukan di akhir wawancara" } },
+    { "t": { "en": "One fact anchors “why us”, one fact powers a question; the rest stays in your notes", "id": "Satu fakta menguatkan jawaban “kenapa kami”, satu fakta menjadi bahan pertanyaan; sisanya cukup di catatanmu" },
       "lay": "compare", "items": [
         { "l": { "en": "Proves you can read", "id": "Membuktikan kamu bisa membaca" }, "en": "“Perusahaan ini adalah perusahaan terbesar…”", "id": "“Perusahaan ini adalah perusahaan terbesar…”" },
-        { "l": { "en": "Proves you chose", "id": "Membuktikan kamu memilih" }, "en": "A fact from the annual report.", "id": "Sebuah fakta dari laporan tahunan." } ],
+        { "l": { "en": "Proves you chose", "id": "Membuktikan kamu memilih dengan sengaja" }, "en": "A fact from the annual report.", "id": "Satu fakta dari laporan tahunan." } ],
       "take": { "en": "One fact anchors “why us”; one fact powers a question. The rest stays in your notes.", "id": "Satu fakta menjangkar “kenapa kami”; satu fakta menggerakkan pertanyaan. Sisanya tinggal di catatan." } },
-    { "t": { "en": "Indonesian sources differ by company type; check what exists before planning the blocks", "id": "Sumber lokal berbeda menurut jenis perusahaan; periksa apa yang tersedia sebelum merencanakan blok" } }
+    { "t": { "en": "Indonesian sources differ by company type; check what exists before planning the blocks", "id": "Sumber lokal berbeda menurut jenis perusahaan; cek dulu apa yang tersedia sebelum membagi sesi" } }
   ] },
   "3.3": { "s": [
-    { "t": { "en": "Predict ten to fifteen questions in the proportions interviews actually use", "id": "Prediksi sepuluh sampai lima belas pertanyaan dalam proporsi yang benar-benar dipakai wawancara" } },
-    { "t": { "en": "Every competency question needs a primary story and a backup; a question with no story is a gap to mine", "id": "Setiap pertanyaan kompetensi butuh cerita utama dan cadangan; pertanyaan tanpa cerita adalah celah untuk digali" } },
-    { "t": { "en": "The story–competency matrix shows your workhorses, tomorrow’s ambush and the stories to leave at home", "id": "Matriks cerita–kompetensi menunjukkan cerita andalanmu, penyergapan esok hari, dan cerita yang ditinggal di rumah" } },
-    { "t": { "en": "The top five predicted questions go into the simulator once; the day-before checklist takes ten minutes", "id": "Lima pertanyaan prediksi teratas masuk simulator sekali; daftar periksa sehari sebelumnya cukup sepuluh menit" } }
+    { "t": { "en": "Predict ten to fifteen questions in the proportions interviews actually use", "id": "Tebak sepuluh sampai lima belas pertanyaan dengan proporsi seperti wawancara sungguhan" } },
+    { "t": { "en": "Every competency question needs a primary story and a backup; a question with no story is a gap to mine", "id": "Setiap pertanyaan kompetensi butuh cerita utama dan cadangan; pertanyaan tanpa cerita adalah kekurangan yang perlu digali" } },
+    { "t": { "en": "The story–competency matrix shows your workhorses, tomorrow’s ambush and the stories to leave at home", "id": "Matriks cerita × kompetensi memperlihatkan cerita andalanmu, jebakan besok, dan cerita yang perlu disimpan dulu" } },
+    { "t": { "en": "The top five predicted questions go into the simulator once; the day-before checklist takes ten minutes", "id": "Lima pertanyaan prediksi teratas dilatih sekali di simulator; daftar periksa sehari sebelumnya cukup sepuluh menit" } }
   ] },
   "3.4": { "s": [
-    { "t": { "en": "Four pens on the posting; the founder’s post and the news are the company-language layer", "id": "Empat pena pada lowongan; unggahan pendiri dan beritanya adalah lapisan bahasa perusahaan" } },
-    { "t": { "en": "Twelve questions in proportion, ten stories, two gaps; one to mine, one to own", "id": "Dua belas pertanyaan proporsional, sepuluh cerita, dua celah: satu untuk digali, satu untuk diakui" } }
+    { "t": { "en": "Four pens on the posting; the founder’s post and the news are the company-language layer", "id": "Empat spidol untuk lowongannya; unggahan pendiri dan berita adalah lapis bahasa perusahaan" } },
+    { "t": { "en": "Twelve questions in proportion, ten stories, two gaps; one to mine, one to own", "id": "Dua belas pertanyaan dengan proporsi yang tepat, sepuluh cerita, dua kekurangan: satu digali, satu diakui" } }
   ] }
 }
