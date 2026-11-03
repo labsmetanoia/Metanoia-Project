@@ -2,89 +2,89 @@
   "1.1": { "s": [
     { "t": { "en": "Every interview reduces to one decision, and three questions that decide it", "id": "Setiap wawancara bermuara pada satu keputusan, dan tiga pertanyaan yang menentukannya" },
       "lay": "pillars", "lbl": [ { "en": "Capability", "id": "Kemampuan" }, { "en": "Motivation", "id": "Motivasi" }, { "en": "Fit", "id": "Kecocokan" } ] },
-    { "t": { "en": "A wrong yes costs the interviewer more than a missed great candidate, so they hire defensively", "id": "Salah bilang ya lebih mahal bagi pewawancara daripada melewatkan kandidat hebat; maka mereka merekrut dengan hati-hati" } },
-    { "t": { "en": "Claims sound identical across candidates; evidence is what separates you", "id": "Klaim semua kandidat terdengar sama; bukti yang membedakanmu" },
+    { "t": { "en": "A wrong yes costs the interviewer more than a missed great candidate, so they hire defensively", "id": "Bagi pewawancara, salah menerima orang lebih mahal daripada melewatkan kandidat hebat, jadi mereka memilih dengan hati-hati" } },
+    { "t": { "en": "Claims sound identical across candidates; evidence is what separates you", "id": "Klaim semua kandidat terdengar sama; buktilah yang membedakanmu" },
       "lay": "compare", "items": [
-        { "l": { "en": "A claim", "id": "Klaim" }, "en": "“I’m a hard worker.” Identical across candidates.", "id": "“Saya pekerja keras.” Sama di semua kandidat." },
-        { "l": { "en": "Evidence", "id": "Bukti" }, "en": "What you did last March, with a result. Not identical.", "id": "Apa yang kamu lakukan Maret lalu, dengan hasil. Tidak sama." } ] },
-    { "t": { "en": "You are deciding too, and sharp, informed questions make you look more serious", "id": "Kamu juga sedang memutuskan, dan pertanyaan tajam yang terinformasi membuatmu tampak lebih serius" } }
+        { "l": { "en": "A claim", "id": "Klaim" }, "en": "“I’m a hard worker.” Identical across candidates.", "id": "“Saya pekerja keras.” Semua kandidat bisa mengatakannya." },
+        { "l": { "en": "Evidence", "id": "Bukti" }, "en": "What you did last March, with a result. Not identical.", "id": "Apa yang kamu lakukan Maret lalu, lengkap dengan hasilnya. Tidak ada yang sama." } ] },
+    { "t": { "en": "You are deciding too, and sharp, informed questions make you look more serious", "id": "Kamu juga sedang memutuskan, dan pertanyaan tajam yang didukung riset membuatmu terlihat lebih serius" } }
   ] },
   "1.2": { "s": [
-    { "t": { "en": "The scoresheet lists four to seven competencies, each scored on written behavioural anchors", "id": "Lembar penilaian memuat empat sampai tujuh kompetensi, masing-masing dinilai dengan jangkar perilaku tertulis" } },
-    { "t": { "en": "A top score needs all five marks; a 2 is a real example missing your own actions or the result", "id": "Nilai tertinggi butuh kelima tanda; nilai 2 adalah contoh nyata yang kehilangan tindakanmu sendiri atau hasilnya" } },
-    { "t": { "en": "Five red flags override a strong technical score", "id": "Lima tanda bahaya ini mengalahkan nilai teknis yang kuat" },
+    { "t": { "en": "The scoresheet lists four to seven competencies, each scored on written behavioural anchors", "id": "Lembar penilaian berisi empat sampai tujuh kompetensi, masing-masing dinilai dengan jangkar perilaku tertulis" } },
+    { "t": { "en": "A top score needs all five marks; a 2 is a real example missing your own actions or the result", "id": "Nilai tertinggi butuh kelima ciri; nilai 2 adalah contoh nyata tanpa tindakanmu sendiri atau tanpa hasil" } },
+    { "t": { "en": "Five red flags override a strong technical score", "id": "Lima tanda bahaya ini bisa mengalahkan nilai teknis yang tinggi" },
       "lay": "grid", "items": [
-        { "en": "Inconsistency between rounds", "id": "Inkonsistensi antar-putaran" }, { "en": "Blame", "id": "Menyalahkan" }, { "en": "Disrespect to junior staff", "id": "Tidak menghormati staf junior" }, { "en": "No questions", "id": "Tanpa pertanyaan" }, { "en": "Unreasoned salary demands", "id": "Tuntutan gaji tanpa alasan" } ],
+        { "en": "Inconsistency between rounds", "id": "Fakta berubah antartahap" }, { "en": "Blame", "id": "Menyalahkan orang lain" }, { "en": "Disrespect to junior staff", "id": "Meremehkan staf junior" }, { "en": "No questions", "id": "Tidak punya pertanyaan" }, { "en": "Unreasoned salary demands", "id": "Minta gaji tanpa dasar" } ],
       "take": { "en": "A strong technical score does not survive them.", "id": "Nilai teknis yang kuat tidak bertahan menghadapinya." } },
-    { "t": { "en": "Interviewers compare notes after you leave; one source of truth keeps your numbers identical in every room", "id": "Para pewawancara mencocokkan catatan setelah kamu pergi; satu sumber kebenaran menjaga angkamu sama di setiap ruangan" } }
+    { "t": { "en": "Interviewers compare notes after you leave; one source of truth keeps your numbers identical in every room", "id": "Para pewawancara mencocokkan catatan setelah kamu pulang; satu catatan fakta menjaga angkamu tetap sama di setiap ruangan" } }
   ] },
   "1.3": { "s": [
-    { "t": { "en": "Seven question types cover nearly every interview question you will hear", "id": "Tujuh tipe pertanyaan mencakup hampir semua pertanyaan wawancara yang akan kamu dengar" } },
-    { "t": { "en": "Each type has an answer shape; decide the type in two seconds, then use its shape", "id": "Setiap tipe punya bentuk jawaban; tentukan tipenya dalam dua detik, lalu pakai bentuknya" },
+    { "t": { "en": "Seven question types cover nearly every interview question you will hear", "id": "Tujuh jenis pertanyaan ini mencakup hampir semua pertanyaan wawancara yang akan kamu dengar" } },
+    { "t": { "en": "Each type has an answer shape; decide the type in two seconds, then use its shape", "id": "Setiap jenis punya bentuk jawabannya; kenali jenisnya dalam dua detik, lalu pakai bentuknya" },
       "lay": "grid", "items": [
         { "l": { "en": "Behavioural", "id": "Perilaku" }, "en": "STAR+L", "id": "STAR+L" },
         { "l": { "en": "Situational", "id": "Situasional" }, "en": "Principle → steps → real example", "id": "Prinsip → langkah → contoh nyata" },
-        { "l": { "en": "Motivational", "id": "Motivasional" }, "en": "REC", "id": "REC" },
+        { "l": { "en": "Motivational", "id": "Motivasi" }, "en": "REC", "id": "REC (Riset, Pengalaman, Kontribusi)" },
         { "l": { "en": "Self-assessment", "id": "Penilaian diri" }, "en": "Claim + evidence", "id": "Klaim + bukti" },
         { "l": { "en": "Technical", "id": "Teknis" }, "en": "Direct answer → reasoning → example", "id": "Jawaban langsung → alasan → contoh" },
-        { "l": { "en": "Case", "id": "Kasus" }, "en": "Clarify → structure → analyse → answer", "id": "Klarifikasi → struktur → analisis → jawab" } ] },
-    { "t": { "en": "Behind most questions sits a small set of employer worries; answer the worry, not just the words", "id": "Di balik kebanyakan pertanyaan ada sedikit kekhawatiran pemberi kerja; jawab kekhawatirannya, bukan sekadar kata-katanya" } },
-    { "t": { "en": "Under pressure: pause, acknowledge, give evidence, move forward; then let the silence sit", "id": "Di bawah tekanan: jeda, akui, beri bukti, lalu maju, dan biarkan keheningan berbicara" } },
-    { "t": { "en": "Personal questions are common in Indonesia: address the concern behind them without over-sharing", "id": "Pertanyaan pribadi lazim di Indonesia; jawab kekhawatiran di baliknya tanpa berbagi berlebihan" } }
+        { "l": { "en": "Case", "id": "Kasus" }, "en": "Clarify → structure → analyse → answer", "id": "Perjelas → susun kerangka → analisis → jawab" } ] },
+    { "t": { "en": "Behind most questions sits a small set of employer worries; answer the worry, not just the words", "id": "Di balik kebanyakan pertanyaan ada kekhawatiran perusahaan; jawab kekhawatirannya, bukan sekadar kata-katanya" } },
+    { "t": { "en": "Under pressure: pause, acknowledge, give evidence, move forward; then let the silence sit", "id": "Saat ditekan: jeda, akui, beri bukti, lalu lanjutkan, dan biarkan hening sejenak bekerja untukmu" } },
+    { "t": { "en": "Personal questions are common in Indonesia: address the concern behind them without over-sharing", "id": "Pertanyaan pribadi lazim di Indonesia; jawab kekhawatiran di baliknya tanpa bercerita berlebihan" } }
   ] },
   "1.4": { "s": [
-    { "t": { "en": "Five hiring tracks order and weight their stages differently, but the user interview usually decides", "id": "Lima jalur rekrutmen mengurutkan dan menimbang tahapnya secara berbeda, tetapi wawancara user biasanya yang menentukan" } },
-    { "t": { "en": "Each stage has a different owner and a different test; prepare for the person, not just the question", "id": "Setiap tahap punya pemilik dan ujian yang berbeda; bersiaplah untuk orangnya, bukan hanya pertanyaannya" },
+    { "t": { "en": "Five hiring tracks order and weight their stages differently, but the user interview usually decides", "id": "Lima jalur rekrutmen punya urutan dan bobot tahap yang berbeda, tetapi wawancara user biasanya menjadi penentu" } },
+    { "t": { "en": "Each stage has a different owner and a different test; prepare for the person, not just the question", "id": "Setiap tahap punya pemegang dan ujian yang berbeda; bersiaplah untuk orangnya, bukan hanya pertanyaannya" },
       "lay": "pillars", "items": [
         { "l": { "en": "HR", "id": "HR" }, "en": "Screens eligibility.", "id": "Menyaring kelayakan." },
         { "l": { "en": "Psychologist", "id": "Psikolog" }, "en": "Checks consistency.", "id": "Memeriksa konsistensi." },
         { "l": { "en": "User", "id": "User" }, "en": "Tests capability.", "id": "Menguji kemampuan." },
-        { "l": { "en": "Panel", "id": "Panel" }, "en": "Tests values and commitment.", "id": "Menguji nilai dan komitmen." } ],
+        { "l": { "en": "Panel", "id": "Panel" }, "en": "Tests values and commitment.", "id": "Menguji nilai-nilai dan komitmen." } ],
       "take": { "en": "Prepare for the person, not just the question.", "id": "Bersiaplah untuk orangnya, bukan hanya pertanyaannya." } },
-    { "t": { "en": "Eight formats, one preparation habit; rehearse each one before it is the one you face", "id": "Delapan format, satu kebiasaan persiapan; latih masing-masing sebelum menjadi yang kamu hadapi" } }
+    { "t": { "en": "Eight formats, one preparation habit; rehearse each one before it is the one you face", "id": "Delapan format, satu kebiasaan persiapan; latih setiap format sebelum kamu harus menghadapinya" } }
   ] },
   "1.5": { "s": [
-    { "t": { "en": "Each invitation names a stage, the stage names a test, and the test names the module to prepare with", "id": "Setiap undangan menyebut tahap, tahap menyebut ujian, dan ujian menyebut modul untuk bersiap" } },
+    { "t": { "en": "Each invitation names a stage, the stage names a test, and the test names the module to prepare with", "id": "Setiap undangan menyebut tahapnya, setiap tahap menguji sesuatu, dan setiap ujian punya modul untuk menyiapkannya" } },
     { "t": { "en": "Step 5 is your own format map; compare it with Nadia’s plan, never copy it", "id": "Langkah 5 adalah peta formatmu sendiri; bandingkan dengan rencana Nadia, jangan menyalinnya" } }
   ] },
   "2.1": { "s": [
-    { "t": { "en": "Interviewers listen for behaviours that transfer; a kitchen shift holds the same situations as an internship", "id": "Pewawancara mencari perilaku yang bisa dipindahkan; shift dapur menyimpan situasi yang sama dengan magang" } },
-    { "t": { "en": "Run five prompts over every experience, on your CV and off it", "id": "Jalankan lima pemicu atas setiap pengalaman, yang ada di CV maupun yang tidak" } },
+    { "t": { "en": "Interviewers listen for behaviours that transfer; a kitchen shift holds the same situations as an internship", "id": "Pewawancara mencari perilaku yang bisa dibawa ke pekerjaan; satu sif di dapur menyimpan situasi yang sama dengan magang" } },
+    { "t": { "en": "Run five prompts over every experience, on your CV and off it", "id": "Ajukan lima pertanyaan pemancing untuk setiap pengalaman, yang tercantum di CV maupun yang tidak" } },
     { "t": { "en": "Interviewers score the behaviour, not the size of the title", "id": "Pewawancara menilai perilakunya, bukan besarnya jabatan" },
       "lay": "compare", "items": [
-        { "l": { "en": "Wins", "id": "Menang" }, "en": "“I put the sponsor tracking in one sheet.”", "id": "“Saya menyatukan pelacakan sponsor dalam satu lembar.”" },
-        { "l": { "en": "Loses", "id": "Kalah" }, "en": "“I was chairperson.”", "id": "“Saya ketua.”" } ],
+        { "l": { "en": "Wins", "id": "Lebih kuat" }, "en": "“I put the sponsor tracking in one sheet.”", "id": "“Saya menyatukan data sponsor dalam satu lembar kerja.”" },
+        { "l": { "en": "Loses", "id": "Lebih lemah" }, "en": "“I was chairperson.”", "id": "“Saya ketua.”" } ],
       "take": { "en": "Interviewers score the behaviour, not the size of the title.", "id": "Pewawancara menilai perilakunya, bukan ukuran jabatannya." } },
-    { "t": { "en": "Ten stories covering two or three slots each answer forty-plus questions", "id": "Sepuluh cerita yang masing-masing mengisi dua atau tiga slot menjawab empat puluh lebih pertanyaan" },
+    { "t": { "en": "Ten stories covering two or three slots each answer forty-plus questions", "id": "Sepuluh cerita yang masing-masing mengisi dua atau tiga slot bisa menjawab lebih dari empat puluh pertanyaan" },
       "lay": "grid", "items": [
         { "en": "Achievement", "id": "Pencapaian" }, { "en": "Teamwork", "id": "Kerja tim" }, { "en": "Conflict", "id": "Konflik" }, { "en": "Failure", "id": "Kegagalan" }, { "en": "Pressure", "id": "Tekanan" },
         { "en": "Initiative", "id": "Inisiatif" }, { "en": "Leadership", "id": "Kepemimpinan" }, { "en": "Learning", "id": "Belajar" }, { "en": "Service", "id": "Layanan" }, { "en": "Integrity", "id": "Integritas" } ],
       "take": { "en": "Each story covers two or three; ten stories answer forty-plus questions.", "id": "Setiap cerita mencakup dua atau tiga; sepuluh cerita menjawab empat puluh pertanyaan lebih." } }
   ] },
   "2.2": { "s": [
-    { "t": { "en": "STAR+L adds the obstacle and the learning to the structure interviewers already score", "id": "STAR+L menambahkan hambatan dan pembelajaran ke struktur yang sudah dinilai pewawancara" } },
-    { "t": { "en": "Nearly half of every story should be what you did and why; most weak stories are 60% situation", "id": "Hampir separuh setiap cerita adalah apa yang kamu lakukan dan mengapa, kebanyakan cerita lemah 60% situasi" } },
-    { "t": { "en": "A task without difficulty proves nothing; answer “why wasn’t this easy?” in one sentence", "id": "Tugas tanpa kesulitan tidak membuktikan apa-apa; jawab “mengapa ini tidak mudah?” dalam satu kalimat" } },
-    { "t": { "en": "Reasoning tells the interviewer whether your result was skill or luck", "id": "Penalaran memberi tahu pewawancara apakah hasilmu karena keterampilan atau keberuntungan" } },
-    { "t": { "en": "A learning is a specific behaviour change you have applied since, not a platitude", "id": "Pembelajaran adalah perubahan perilaku spesifik yang sudah kamu terapkan, bukan basa-basi" },
+    { "t": { "en": "STAR+L adds the obstacle and the learning to the structure interviewers already score", "id": "STAR+L menambahkan hambatan dan pelajaran ke struktur yang sudah dipakai pewawancara untuk menilai" } },
+    { "t": { "en": "Nearly half of every story should be what you did and why; most weak stories are 60% situation", "id": "Hampir separuh cerita berisi apa yang kamu lakukan dan alasannya, sedangkan cerita yang lemah biasanya 60% situasi" } },
+    { "t": { "en": "A task without difficulty proves nothing; answer “why wasn’t this easy?” in one sentence", "id": "Tugas tanpa kesulitan tidak membuktikan apa-apa; jawab “kenapa ini tidak mudah?” dalam satu kalimat" } },
+    { "t": { "en": "Reasoning tells the interviewer whether your result was skill or luck", "id": "Alasan memberi tahu pewawancara apakah hasilmu berkat kemampuan atau kebetulan" } },
+    { "t": { "en": "A learning is a specific behaviour change you have applied since, not a platitude", "id": "Pelajaran adalah perubahan perilaku spesifik yang sudah kamu terapkan, bukan kalimat klise" },
       "lay": "compare", "items": [
-        { "l": { "en": "A learning", "id": "Pembelajaran" }, "en": "A specific behaviour change, and where you applied it since.", "id": "Perubahan perilaku spesifik, dan di mana kamu menerapkannya sejak itu." },
-        { "l": { "en": "A platitude", "id": "Basa-basi" }, "en": "“Saya belajar pentingnya komunikasi.”", "id": "“Saya belajar pentingnya komunikasi.”" } ] }
+        { "l": { "en": "A learning", "id": "Pelajaran" }, "en": "A specific behaviour change, and where you applied it since.", "id": "Perubahan perilaku yang spesifik, dan di mana kamu sudah menerapkannya." },
+        { "l": { "en": "A platitude", "id": "Klise" }, "en": "“Saya belajar pentingnya komunikasi.”", "id": "“Saya belajar pentingnya komunikasi.”" } ] }
   ] },
   "2.3": { "s": [
-    { "t": { "en": "Interviewers probe along six families; a real story gets richer, an exaggerated one gets vaguer", "id": "Pewawancara menggali lewat enam keluarga pertanyaan: cerita asli makin kaya, cerita berlebihan makin kabur" } },
-    { "t": { "en": "A depth card is a memory check, not a script: three likely follow-ups, the facts, one line of transfer", "id": "Kartu kedalaman adalah pengecekan ingatan, bukan naskah: tiga lanjutan yang mungkin, faktanya, satu kalimat transfer" } },
-    { "t": { "en": "Failure and integrity stories work at fresh-graduate scale: real, moderate, owned and fixed", "id": "Cerita kegagalan dan integritas bekerja pada skala lulusan baru; nyata, sedang, diakui, dan diperbaiki" } },
-    { "t": { "en": "The same facts in every round and every company, interviewers compare notes", "id": "Fakta yang sama di setiap putaran dan setiap perusahaan, pewawancara mencocokkan catatan" } }
+    { "t": { "en": "Interviewers probe along six families; a real story gets richer, an exaggerated one gets vaguer", "id": "Pewawancara menggali lewat enam jenis pertanyaan: cerita yang nyata makin kaya, cerita yang dilebih-lebihkan makin kabur" } },
+    { "t": { "en": "A depth card is a memory check, not a script: three likely follow-ups, the facts, one line of transfer", "id": "Kartu kedalaman adalah cara menyegarkan ingatan, bukan naskah: tiga galian yang mungkin, faktanya, dan satu kalimat penerapan" } },
+    { "t": { "en": "Failure and integrity stories work at fresh-graduate scale: real, moderate, owned and fixed", "id": "Cerita kegagalan dan integritas cukup dalam skala lulusan baru: nyata, berskala sedang, diakui, dan diperbaiki" } },
+    { "t": { "en": "The same facts in every round and every company, interviewers compare notes", "id": "Fakta yang sama di setiap tahap dan setiap perusahaan, karena pewawancara saling mencocokkan catatan" } }
   ] },
   "2.4": { "s": [
-    { "t": { "en": "Every story lives at three lengths: a 20-second headline, a 90-second standard, a 3-minute deep version", "id": "Setiap cerita hidup dalam tiga panjang: tajuk 20 detik, versi standar 90 detik, versi dalam 3 menit" } },
-    { "t": { "en": "One story answers five questions; open with the part the question asks about", "id": "Satu cerita menjawab lima pertanyaan: buka dengan bagian yang ditanyakan" } },
-    { "t": { "en": "Prepare each story in both languages, and log who has heard which one", "id": "Siapkan setiap cerita dalam dua bahasa, dan catat siapa sudah mendengar yang mana" } }
+    { "t": { "en": "Every story lives at three lengths: a 20-second headline, a 90-second standard, a 3-minute deep version", "id": "Setiap cerita punya tiga versi panjang: singkat 20 detik, standar 90 detik, dan lengkap 3 menit" } },
+    { "t": { "en": "One story answers five questions; open with the part the question asks about", "id": "Satu cerita bisa menjawab lima pertanyaan: buka dengan bagian yang ditanyakan" } },
+    { "t": { "en": "Prepare each story in both languages, and log who has heard which one", "id": "Siapkan setiap cerita dalam dua bahasa, dan catat siapa saja yang sudah mendengarnya" } }
   ] },
   "2.5": { "s": [
-    { "t": { "en": "Filter each candidate first, specific, owned, a result, then read the grid for empty slots", "id": "Saring setiap kandidat dulu, spesifik, dimiliki, ada hasil, lalu baca kisi untuk slot yang kosong" } },
-    { "t": { "en": "The job description and the four values tell you which three stories will be probed hardest", "id": "Deskripsi pekerjaan dan empat nilai memberi tahu tiga cerita mana yang akan digali paling dalam" } }
+    { "t": { "en": "Filter each candidate first, specific, owned, a result, then read the grid for empty slots", "id": "Saring setiap calon cerita dulu, apakah spesifik, milikmu, dan ada hasilnya, lalu periksa kisi untuk slot yang kosong" } },
+    { "t": { "en": "The job description and the four values tell you which three stories will be probed hardest", "id": "Deskripsi pekerjaan dan empat nilai bank menunjukkan tiga cerita mana yang akan digali paling dalam" } }
   ] },
   "3.1": { "s": [
     { "t": { "en": "The posting is the exam paper: four layers, each predicting a different question type", "id": "Lowongan adalah lembar ujiannya: empat lapisan, masing-masing memprediksi tipe pertanyaan berbeda" } },

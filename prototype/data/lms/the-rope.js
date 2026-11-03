@@ -35,19 +35,19 @@ window.MT_LMS['the-rope'] = {
    },
    "overview": {
     "en": "Most candidates prepare for an interview as if it were an oral exam with right answers. It is not. An interview is a structured attempt, under time pressure, to reduce an employer’s uncertainty about one decision: if we hire this person, will they do this job well, stay, and work well with us? Four lessons and one case: what the interviewer is deciding, how answers are scored against written anchors, the seven question types and the concern behind each, and how selection processes are sequenced, so you can predict what your own next interview will test.",
-    "id": "Sebagian besar kandidat menyiapkan wawancara seolah ujian lisan dengan jawaban benar. Bukan itu. Wawancara adalah upaya terstruktur, di bawah tekanan waktu, untuk mengurangi ketidakpastian perusahaan tentang satu keputusan: jika kami merekrut orang ini, apakah ia akan bekerja dengan baik, bertahan, dan cocok dengan kami? Empat pelajaran dan satu kasus: apa yang diputuskan pewawancara, bagaimana jawaban dinilai terhadap jangkar tertulis, tujuh tipe pertanyaan dan kekhawatiran di balik masing-masing, dan bagaimana proses seleksi diurutkan; agar kamu bisa memprediksi apa yang akan diuji wawancaramu berikutnya."
+    "id": "Banyak kandidat menyiapkan wawancara seperti ujian lisan yang punya kunci jawaban. Padahal wawancara bukan ujian. Wawancara adalah cara perusahaan, dalam waktu yang terbatas, untuk mengurangi keraguan mereka tentang satu keputusan: kalau kami merekrut orang ini, apakah ia akan bekerja dengan baik, bertahan, dan cocok dengan tim kami? Modul ini terdiri dari empat pelajaran dan satu kasus. Kamu akan mempelajari apa yang sebenarnya diputuskan pewawancara, bagaimana jawaban dinilai dengan skala penilaian berjangkar, tujuh jenis pertanyaan beserta kekhawatiran di balik masing-masing, dan urutan tahap seleksi, sehingga kamu bisa menebak apa yang akan diuji di wawancaramu berikutnya."
    },
    "outcome": {
     "en": "By the end of this module you can explain what an interviewer is trying to find out in each type of interview, how answers are scored, which questions carry hidden concerns, and how selection processes are sequenced, and use this to predict what your own next interview will test.",
-    "id": "Di akhir modul ini kamu bisa menjelaskan apa yang ingin diketahui pewawancara di tiap jenis wawancara, bagaimana jawaban dinilai, pertanyaan mana yang membawa kekhawatiran tersembunyi, dan bagaimana proses seleksi diurutkan, dan memakainya untuk memprediksi apa yang akan diuji wawancaramu berikutnya."
+    "id": "Di akhir modul ini, kamu bisa menjelaskan apa yang ingin diketahui pewawancara di setiap jenis wawancara, bagaimana jawaban dinilai, pertanyaan mana yang menyimpan kekhawatiran tersembunyi, dan bagaimana tahap seleksi disusun. Semua itu bisa kamu pakai untuk menebak apa yang akan diuji di wawancaramu berikutnya."
    },
    "kit": {
     "en": "Format map for your Top 3 targets · personal red/green flag list",
-    "id": "Peta format untuk 3 sasaran teratasmu · daftar tanda merah/hijau pribadi"
+    "id": "Peta format untuk tiga sasaran utamamu · daftar pribadi tanda bahaya dan tanda positif"
    },
    "round": {
     "en": "Round 1 · Diagnostic session (baseline), a mixed six-question session at standard difficulty; Module 9 compares every later session to it.",
-    "id": "Putaran 1 · Sesi diagnostik (garis dasar), sesi campuran enam pertanyaan pada tingkat standar; Modul 9 membandingkan setiap sesi berikutnya dengannya."
+    "id": "Putaran 1 · Sesi diagnostik (titik awalmu): enam pertanyaan campuran dengan tingkat kesulitan standar. Modul 9 akan membandingkan setiap sesi berikutnya dengan sesi ini."
    },
    "hero": "../../assets/bg/rope.jpg",
    "heroPos": "center 34%",
@@ -58,7 +58,7 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "30 min",
-      "id": "30 mnt"
+      "id": "30 menit"
      },
      "title": {
       "en": "What an Interview Is Actually For",
@@ -66,20 +66,20 @@ window.MT_LMS['the-rope'] = {
      },
      "overview": {
       "en": "Most candidates prepare for an interview as if it were an oral exam with right answers. It is not. An interview is a structured attempt, under time pressure, to reduce an employer’s uncertainty about one decision: if we hire this person, will they do this job well, stay, and work well with us? Everything that happens in the room, every question, every follow-up, every silence, serves that decision. When you understand the decision, you stop guessing what “they want to hear” and start giving the evidence they need.",
-      "id": "Sebagian besar kandidat menyiapkan wawancara seolah ujian lisan dengan jawaban benar. Bukan itu. Wawancara adalah upaya terstruktur, di bawah tekanan waktu, untuk mengurangi ketidakpastian perusahaan tentang satu keputusan: jika kami merekrut orang ini, apakah ia akan bekerja dengan baik, bertahan, dan cocok dengan kami? Semua yang terjadi di ruangan, setiap pertanyaan, setiap pertanyaan lanjutan, setiap keheningan, melayani keputusan itu. Saat kamu memahami keputusannya, kamu berhenti menebak “apa yang ingin mereka dengar” dan mulai memberi bukti yang mereka butuhkan."
+      "id": "Kebanyakan kandidat menyiapkan wawancara seperti menghadapi ujian lisan yang punya kunci jawaban. Padahal bukan begitu. Wawancara adalah upaya terstruktur, dalam waktu yang terbatas, untuk mengurangi keraguan perusahaan tentang satu keputusan: kalau kami merekrut orang ini, apakah ia akan bekerja dengan baik, bertahan, dan cocok dengan kami? Semua yang terjadi di ruangan itu, setiap pertanyaan, setiap pertanyaan lanjutan, bahkan setiap jeda, melayani keputusan tersebut. Begitu kamu memahami keputusannya, kamu berhenti menebak-nebak “apa yang ingin mereka dengar” dan mulai memberi bukti yang mereka butuhkan."
      },
      "objectives": [
       {
        "en": "Name the three things every interviewer is trying to decide (can do · will do · will fit) and give an example question for each.",
-       "id": "Menyebutkan tiga hal yang ingin diputuskan setiap pewawancara (bisa · mau · cocok) dan memberi contoh pertanyaan untuk masing-masing."
+       "id": "Menyebutkan tiga hal yang selalu ingin dipastikan pewawancara (bisa · mau · cocok) dan memberi contoh pertanyaan untuk masing-masing."
       },
       {
        "en": "Explain why interviewers probe with follow-up questions, and why rehearsed answers fail under probing.",
-       "id": "Menjelaskan mengapa pewawancara menggali dengan pertanyaan lanjutan, dan mengapa jawaban hafalan gagal saat digali."
+       "id": "Menjelaskan mengapa pewawancara menggali lewat pertanyaan lanjutan, dan mengapa jawaban hafalan runtuh saat digali."
       },
       {
        "en": "Describe the interview as a two-way evaluation and name two things you are deciding.",
-       "id": "Menggambarkan wawancara sebagai evaluasi dua arah dan menyebutkan dua hal yang kamu putuskan."
+       "id": "Menjelaskan wawancara sebagai penilaian dua arah dan menyebutkan dua hal yang sedang kamu putuskan."
       },
       {
        "en": "Recognise the four common interviewer styles and adapt to each.",
@@ -107,15 +107,15 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "A wrong yes costs the interviewer more than a missed great candidate, so they hire defensively",
-         "id": "Salah bilang ya lebih mahal bagi pewawancara daripada melewatkan kandidat hebat; maka mereka merekrut dengan hati-hati"
+         "id": "Bagi pewawancara, salah menerima orang lebih mahal daripada melewatkan kandidat hebat, jadi mereka memilih dengan hati-hati"
         },
         {
          "en": "Claims sound identical across candidates; evidence is what separates you",
-         "id": "Klaim semua kandidat terdengar sama; bukti yang membedakanmu"
+         "id": "Klaim semua kandidat terdengar sama; buktilah yang membedakanmu"
         },
         {
          "en": "You are deciding too, and sharp, informed questions make you look more serious",
-         "id": "Kamu juga sedang memutuskan, dan pertanyaan tajam yang terinformasi membuatmu tampak lebih serius"
+         "id": "Kamu juga sedang memutuskan, dan pertanyaan tajam yang didukung riset membuatmu terlihat lebih serius"
         }
        ],
        "takes": [
@@ -126,17 +126,17 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "Every question maps to at least one of the three.",
-          "id": "Setiap pertanyaan memetakan ke setidaknya satu dari ketiganya."
+          "id": "Setiap pertanyaan wawancara mengarah ke setidaknya satu dari ketiganya."
          }
         },
         {
          "h": {
           "en": "The interviewer’s risk",
-          "id": "Risiko pewawancara"
+          "id": "Risiko di pihak pewawancara"
          },
          "p": {
           "en": "They are more afraid of a wrong yes than of a missed great candidate.",
-          "id": "Mereka lebih takut pada “ya” yang salah daripada kehilangan kandidat hebat."
+          "id": "Mereka lebih takut salah berkata “ya” daripada melewatkan kandidat yang hebat."
          }
         },
         {
@@ -146,17 +146,17 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "Claims sound identical across candidates; evidence is what separates you",
-          "id": "Klaim semua kandidat terdengar sama; bukti yang membedakanmu"
+          "id": "Klaim semua kandidat terdengar sama; buktilah yang membedakanmu"
          }
         },
         {
          "h": {
           "en": "You are interviewing them too",
-          "id": "Kamu juga mewawancarai mereka"
+          "id": "Kamu juga sedang mewawancarai mereka"
          },
          "p": {
           "en": "Candidates who ask sharp, informed questions look more serious to the employer.",
-          "id": "Kandidat yang bertanya tajam dan berdasar terlihat lebih serius di mata perusahaan."
+          "id": "Kandidat yang mengajukan pertanyaan tajam dan berbekal riset terlihat lebih serius di mata perusahaan."
          }
         }
        ],
@@ -182,7 +182,7 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "flame",
            "en": "Will you do it; motivation and reliability?",
-           "id": "Maukah kamu, motivasi dan keandalan?",
+           "id": "Maukah kamu mengerjakannya, dengan motivasi dan bisa diandalkan?",
            "l": {
             "en": "Motivation",
             "id": "Motivasi"
@@ -202,7 +202,7 @@ window.MT_LMS['the-rope'] = {
          ],
          "take": {
           "en": "Every question maps to at least one of the three.",
-          "id": "Setiap pertanyaan memetakan ke setidaknya satu dari ketiganya."
+          "id": "Setiap pertanyaan wawancara mengarah ke setidaknya satu dari ketiganya."
          },
          "em": {
           "en": "and three questions that decide it",
@@ -213,7 +213,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "A wrong yes costs the interviewer more than a missed great candidate, so they hire defensively",
-          "id": "Salah bilang ya lebih mahal bagi pewawancara daripada melewatkan kandidat hebat; maka mereka merekrut dengan hati-hati"
+          "id": "Bagi pewawancara, salah menerima orang lebih mahal daripada melewatkan kandidat hebat, jadi mereka memilih dengan hati-hati"
          },
          "src": {
           "en": "Ryan; Kador",
@@ -225,24 +225,24 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "shield",
            "en": "A bad hire costs the interviewer’s reputation, the team’s time, and months of salary.",
-           "id": "Salah rekrut merugikan reputasi pewawancara, waktu tim, dan berbulan-bulan gaji."
+           "id": "Salah merekrut bisa merusak reputasi pewawancara, menyita waktu tim, dan menghabiskan gaji berbulan-bulan."
           }
          ],
          "take": {
           "en": "They are more afraid of a wrong yes than of a missed great candidate.",
-          "id": "Mereka lebih takut pada “ya” yang salah daripada kehilangan kandidat hebat."
+          "id": "Mereka lebih takut salah berkata “ya” daripada melewatkan kandidat yang hebat."
          },
          "medal": "shield",
          "em": {
           "en": "so they hire defensively",
-          "id": "maka mereka merekrut dengan hati-hati"
+          "id": "jadi mereka memilih dengan hati-hati"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Claims sound identical across candidates; evidence is what separates you",
-          "id": "Klaim semua kandidat terdengar sama; bukti yang membedakanmu"
+          "id": "Klaim semua kandidat terdengar sama; buktilah yang membedakanmu"
          },
          "layout": "compare",
          "items": [
@@ -253,7 +253,7 @@ window.MT_LMS['the-rope'] = {
             "id": "Klaim"
            },
            "en": "“I’m a hard worker.” Identical across candidates.",
-           "id": "“Saya pekerja keras.” Sama di semua kandidat.",
+           "id": "“Saya pekerja keras.” Semua kandidat bisa mengatakannya.",
            "img": "../../assets/bg/fg-stage-ascent.jpg"
           },
           {
@@ -263,24 +263,24 @@ window.MT_LMS['the-rope'] = {
             "id": "Bukti"
            },
            "en": "What you did last March, with a result. Not identical.",
-           "id": "Apa yang kamu lakukan Maret lalu, dengan hasil. Tidak sama.",
+           "id": "Apa yang kamu lakukan Maret lalu, lengkap dengan hasilnya. Tidak ada yang sama.",
            "img": "../../assets/pe/ed-startup.jpg"
           }
          ],
          "lead": {
           "en": "“I’m a hard worker” is a claim. What you did last March, with a result, is evidence.",
-          "id": "“Saya pekerja keras” adalah klaim. Apa yang kamu lakukan Maret lalu, dengan hasil, adalah bukti."
+          "id": "“Saya pekerja keras” adalah klaim. Apa yang kamu kerjakan Maret lalu, lengkap dengan hasilnya, adalah bukti."
          },
          "em": {
           "en": "evidence is what separates you",
-          "id": "bukti yang membedakanmu"
+          "id": "buktilah yang membedakanmu"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "You are deciding too, and sharp, informed questions make you look more serious",
-          "id": "Kamu juga sedang memutuskan, dan pertanyaan tajam yang terinformasi membuatmu tampak lebih serius"
+          "id": "Kamu juga sedang memutuskan, dan pertanyaan tajam yang didukung riset membuatmu terlihat lebih serius"
          },
          "img": "../../assets/bg/fg-sprint-offer.jpg",
          "layout": "statement",
@@ -288,17 +288,17 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "question",
            "en": "You leave with information that tells you whether to accept.",
-           "id": "Kamu pulang dengan informasi yang memberitahumu apakah akan menerima."
+           "id": "Kamu pulang membawa informasi untuk memutuskan apakah akan menerima tawarannya."
           }
          ],
          "take": {
           "en": "Candidates who ask sharp, informed questions look more serious to the employer.",
-          "id": "Kandidat yang bertanya tajam dan berdasar terlihat lebih serius di mata perusahaan."
+          "id": "Kandidat yang mengajukan pertanyaan tajam dan berbekal riset terlihat lebih serius di mata perusahaan."
          },
          "medal": "question",
          "em": {
           "en": "sharp, informed questions",
-          "id": "pertanyaan tajam yang terinformasi"
+          "id": "pertanyaan tajam yang didukung riset"
          }
         }
        ]
@@ -313,7 +313,7 @@ window.MT_LMS['the-rope'] = {
       },
       "intro": {
        "en": "Before the first lesson: the frame that every later module builds on. An interview is not a test of you; it is a decision about a risk.",
-       "id": "Sebelum pelajaran pertama: kerangka yang dibangun setiap modul berikutnya. Wawancara bukan ujian tentangmu; ia keputusan tentang sebuah risiko."
+       "id": "Sebelum pelajaran pertama, inilah cara pandang yang menjadi dasar semua modul berikutnya. Wawancara bukan ujian tentang dirimu; wawancara adalah keputusan tentang sebuah risiko."
       },
       "slides": [
        {
@@ -324,27 +324,27 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Can you do the job? Will you do it; motivation and reliability? Will you work well here?",
-          "id": "Bisakah kamu mengerjakannya? Maukah kamu, motivasi dan keandalan? Cocokkah kamu bekerja di sini?"
+          "id": "Bisakah kamu mengerjakannya? Maukah kamu mengerjakannya, dengan motivasi dan bisa diandalkan? Cocokkah kamu bekerja di sini?"
          },
          {
           "en": "Every question maps to at least one of the three.",
-          "id": "Setiap pertanyaan memetakan ke setidaknya satu dari ketiganya."
+          "id": "Setiap pertanyaan wawancara mengarah ke setidaknya satu dari ketiganya."
          }
         ]
        },
        {
         "h": {
          "en": "The interviewer’s risk",
-         "id": "Risiko pewawancara"
+         "id": "Risiko di pihak pewawancara"
         },
         "points": [
          {
           "en": "A bad hire costs the interviewer’s reputation, the team’s time, and months of salary.",
-          "id": "Salah rekrut merugikan reputasi pewawancara, waktu tim, dan berbulan-bulan gaji."
+          "id": "Salah merekrut bisa merusak reputasi pewawancara, menyita waktu tim, dan menghabiskan gaji berbulan-bulan."
          },
          {
           "en": "They are more afraid of a wrong yes than of a missed great candidate (Ryan; Kador).",
-          "id": "Mereka lebih takut pada “ya” yang salah daripada kehilangan kandidat hebat (Ryan; Kador)."
+          "id": "Mereka lebih takut salah berkata “ya” daripada melewatkan kandidat yang hebat (Ryan; Kador)."
          }
         ]
        },
@@ -356,27 +356,27 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "“I’m a hard worker” is a claim. What you did last March, with a result, is evidence.",
-          "id": "“Saya pekerja keras” adalah klaim. Apa yang kamu lakukan Maret lalu, dengan hasil, adalah bukti."
+          "id": "“Saya pekerja keras” adalah klaim. Apa yang kamu kerjakan Maret lalu, lengkap dengan hasilnya, adalah bukti."
          },
          {
           "en": "Claims are identical across candidates; evidence is not.",
-          "id": "Klaim sama di semua kandidat; bukti tidak."
+          "id": "Klaim semua kandidat terdengar sama; bukti tidak pernah sama."
          }
         ]
        },
        {
         "h": {
          "en": "You are interviewing them too",
-         "id": "Kamu juga mewawancarai mereka"
+         "id": "Kamu juga sedang mewawancarai mereka"
         },
         "points": [
          {
           "en": "You leave with information that tells you whether to accept.",
-          "id": "Kamu pulang dengan informasi yang memberitahumu apakah akan menerima."
+          "id": "Kamu pulang membawa informasi untuk memutuskan apakah akan menerima tawarannya."
          },
          {
           "en": "Candidates who ask sharp, informed questions look more serious to the employer.",
-          "id": "Kandidat yang bertanya tajam dan berdasar terlihat lebih serius di mata perusahaan."
+          "id": "Kandidat yang mengajukan pertanyaan tajam dan berbekal riset terlihat lebih serius di mata perusahaan."
          }
         ]
        }
@@ -393,7 +393,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "An employer invests weeks and a salary commitment in each hire. The interview exists because a CV cannot answer three questions. <b>Can they do it?</b> Skills, knowledge, thinking. <b>Will they do it?</b> Motivation, reliability, fit with the actual work, including the boring parts. <b>Will they fit?</b> How they work with people, handle pressure, respond to feedback. Kador’s guide for interviewers organises the entire hiring conversation around this: every question should reveal something about how the candidate has behaved, because past behaviour in similar situations is the best available predictor of future behaviour <i>(Kador, The Manager’s Book of Questions, Introduction)</i>. That claim is one of the best-supported findings in selection research, structured interviews that ask for past behaviour outperform unstructured conversations, and it is the foundation of Modules 1 and 2.",
-        "id": "Perusahaan menginvestasikan berminggu-minggu dan komitmen gaji pada setiap rekrutan. Wawancara ada karena CV tidak bisa menjawab tiga pertanyaan. <b>Bisakah ia?</b> Keterampilan, pengetahuan, cara berpikir. <b>Maukah ia?</b> Motivasi, keandalan, kecocokan dengan pekerjaan sebenarnya, termasuk bagian yang membosankan. <b>Cocokkah ia?</b> Cara bekerja dengan orang, menangani tekanan, merespons umpan balik. Panduan Kador untuk pewawancara menata seluruh percakapan rekrutmen di sekitar ini: setiap pertanyaan harus mengungkap sesuatu tentang bagaimana kandidat pernah berperilaku, karena perilaku masa lalu dalam situasi serupa adalah prediktor terbaik perilaku masa depan <i>(Kador, The Manager’s Book of Questions, Pendahuluan)</i>. Klaim itu salah satu temuan yang paling kuat didukung dalam riset seleksi, wawancara terstruktur yang menanyakan perilaku masa lalu mengungguli percakapan tak terstruktur, dan itulah fondasi Modul 1 dan 2."
+        "id": "Setiap kali merekrut, perusahaan mempertaruhkan berminggu-minggu waktu dan komitmen gaji. Wawancara diadakan karena CV tidak bisa menjawab tiga pertanyaan. <b>Bisakah ia mengerjakannya?</b> Keterampilan, pengetahuan, cara berpikir. <b>Maukah ia mengerjakannya?</b> Motivasi, bisa diandalkan, cocok dengan pekerjaan yang sebenarnya, termasuk bagian yang membosankan. <b>Cocokkah ia?</b> Caranya bekerja dengan orang lain, menghadapi tekanan, dan menanggapi masukan. Buku panduan Kador untuk pewawancara menyusun seluruh percakapan rekrutmen di sekitar hal ini: setiap pertanyaan harus mengungkap bagaimana kandidat pernah bersikap, karena perilaku di masa lalu dalam situasi serupa adalah petunjuk terbaik tentang perilakunya di masa depan <i>(Kador, The Manager’s Book of Questions, Pendahuluan)</i>. Ini salah satu temuan paling kokoh dalam riset seleksi: wawancara terstruktur yang menanyakan pengalaman nyata lebih akurat daripada obrolan bebas. Temuan inilah yang menjadi fondasi Modul 1 dan 2."
        },
        "table": {
         "cols": [
@@ -414,29 +414,29 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "<b>Can you do it?</b>",
-           "id": "<b>Bisakah kamu?</b>"
+           "id": "<b>Bisakah kamu mengerjakannya?</b>"
           },
           {
            "en": "Skills, knowledge, thinking: for this work, at this level",
-           "id": "Keterampilan, pengetahuan, cara berpikir; untuk pekerjaan ini, di tingkat ini"
+           "id": "Keterampilan, pengetahuan, cara berpikir: untuk pekerjaan ini, di level ini"
           },
           {
            "en": "“Walk me through how you reconciled the budget.” · “How would you find the bottleneck in a process you’ve never seen?”",
-           "id": "“Ceritakan cara Anda merekonsiliasi anggaran itu.” · “Bagaimana Anda menemukan titik hambat dalam proses yang belum pernah Anda lihat?”"
+           "id": "“Coba ceritakan bagaimana Anda merekonsiliasi anggaran itu.” · “Bagaimana Anda mencari titik macet di proses yang belum pernah Anda lihat?”"
           }
          ],
          [
           {
            "en": "<b>Will you do it?</b>",
-           "id": "<b>Maukah kamu?</b>"
+           "id": "<b>Maukah kamu mengerjakannya?</b>"
           },
           {
            "en": "Motivation, reliability, fit with the real work including the boring parts; will you stay",
-           "id": "Motivasi, keandalan, kecocokan dengan pekerjaan nyata termasuk bagian membosankan; apakah kamu bertahan"
+           "id": "Motivasi, bisa diandalkan, cocok dengan pekerjaan sebenarnya termasuk bagian yang membosankan; apakah kamu akan bertahan"
           },
           {
            "en": "“Why this role, and not a role in a bank?” · “Bersedia ditempatkan di luar Jawa?” · “Di mana Anda lima tahun lagi?”",
-           "id": "“Mengapa peran ini, bukan peran di bank?” · “Bersedia ditempatkan di luar Jawa?” · “Di mana Anda lima tahun lagi?”"
+           "id": "“Kenapa posisi ini, bukan posisi di bank?” · “Bersedia ditempatkan di luar Jawa?” · “Di mana Anda lima tahun lagi?”"
           }
          ],
          [
@@ -446,23 +446,23 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "People, pressure, feedback, values",
-           "id": "Orang, tekanan, umpan balik, nilai"
+           "id": "Orang, tekanan, masukan, nilai-nilai"
           },
           {
            "en": "“Tell me about a disagreement with a teammate.” · “How do you handle criticism?”",
-           "id": "“Ceritakan perselisihan dengan rekan setim.” · “Bagaimana Anda menangani kritik?”"
+           "id": "“Ceritakan saat Anda berbeda pendapat dengan rekan satu tim.” · “Bagaimana Anda menanggapi kritik?”"
           }
          ]
         ],
         "caption": {
          "en": "Three questions, one decision. Strong answers cover more than one.",
-         "id": "Tiga pertanyaan, satu keputusan. Jawaban kuat mencakup lebih dari satu."
+         "id": "Tiga pertanyaan, satu keputusan. Jawaban yang kuat menjawab lebih dari satu."
         }
        },
        "after": [
         {
          "en": "<b>For you, this means:</b> before any interview, list what the employer is uncertain about <i>in your specific case</i>. A fresh graduate with no full-time experience creates one uncertainty (can they perform in a real workplace?); a candidate changing fields creates another (why the change, and will they stay?). Your preparation should target the uncertainty you create, not a generic list of “common questions”.",
-         "id": "<b>Bagimu, ini berarti:</b> sebelum wawancara apa pun, daftar apa yang tidak pasti bagi perusahaan <i>dalam kasusmu</i>. Lulusan baru tanpa pengalaman penuh waktu menciptakan satu ketidakpastian (bisakah ia bekerja di tempat kerja sungguhan?); kandidat yang pindah bidang menciptakan yang lain (mengapa pindah, dan apakah bertahan?). Persiapanmu harus membidik ketidakpastian yang kamu ciptakan, bukan daftar generik “pertanyaan umum”."
+         "id": "<b>Artinya bagimu:</b> sebelum wawancara apa pun, tulis apa saja yang membuat perusahaan ragu <i>dalam kasusmu sendiri</i>. Lulusan baru yang belum pernah bekerja penuh waktu menimbulkan satu keraguan (bisakah ia bekerja di kantor sungguhan?); kandidat yang pindah bidang menimbulkan keraguan lain (kenapa pindah, dan apakah akan bertahan?). Persiapanmu harus menjawab keraguan yang kamu timbulkan, bukan daftar umum “pertanyaan yang sering ditanyakan”."
         }
        ]
       },
@@ -474,7 +474,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Trained interviewers know candidates arrive with rehearsed answers. So they ask the first question, listen, then dig: “What exactly did <i>you</i> do?” “Why did you choose that?” “What happened next?” “What would you do differently?” This is called probing. A story you actually lived survives three probes. The details get richer. A story that is exaggerated or borrowed collapses by the second probe. Details get vaguer, “we” replaces “I”, the numbers change. The lesson is not “prepare answers to follow-ups” but <b>prepare real stories in depth</b>. Module 2 teaches exactly this, and the simulator’s probe ladder (Module 9) tests it.",
-        "id": "Pewawancara terlatih tahu kandidat datang dengan jawaban hafalan. Maka mereka mengajukan pertanyaan pertama, mendengarkan, lalu menggali: “Apa persisnya yang <i>Anda</i> lakukan?” “Mengapa memilih cara itu?” “Lalu apa yang terjadi?” “Apa yang akan Anda lakukan berbeda?” Ini disebut menggali (probing). Cerita yang benar-benar kamu alami bertahan tiga galian, detailnya makin kaya. Cerita yang dilebih-lebihkan atau dipinjam runtuh pada galian kedua. Detail makin samar, “kami” menggantikan “saya”, angkanya berubah. Pelajarannya bukan “siapkan jawaban untuk pertanyaan lanjutan” tetapi <b>siapkan cerita nyata secara mendalam</b>. Modul 2 mengajarkan persis ini, dan tangga galian simulator (Modul 9) mengujinya."
+        "id": "Pewawancara yang terlatih tahu kandidat datang membawa jawaban hafalan. Jadi mereka mengajukan pertanyaan pertama, mendengarkan, lalu menggali: “Apa persisnya yang <i>Anda</i> lakukan?” “Kenapa memilih cara itu?” “Lalu apa yang terjadi?” “Apa yang akan Anda lakukan berbeda?” Inilah yang disebut menggali, atau probing. Cerita yang benar-benar kamu alami akan bertahan sampai tiga kali digali, dan detailnya justru makin kaya. Cerita yang dilebih-lebihkan atau dipinjam dari orang lain akan runtuh di galian kedua: detailnya makin kabur, “kami” menggantikan “saya”, angkanya berubah. Pelajarannya bukan “siapkan jawaban untuk setiap pertanyaan lanjutan”, melainkan <b>siapkan cerita nyata secara mendalam</b>. Itulah yang diajarkan Modul 2, dan tangga galian di simulator (Modul 9) akan mengujinya."
        },
        "table": {
         "cols": [
@@ -484,7 +484,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "The probe",
-          "id": "Galian"
+          "id": "Pertanyaan galiannya"
          },
          {
           "en": "Example",
@@ -503,7 +503,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“I’m organised.”",
-           "id": "“Saya orangnya rapi dan terorganisir.”"
+           "id": "“Saya orangnya teratur.”"
           }
          ],
          [
@@ -513,11 +513,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“Tell me about a time.”",
-           "id": "“Ceritakan satu kejadian.”"
+           "id": "“Coba ceritakan satu pengalaman.”"
           },
           {
            "en": "The HIMA treasury year",
-           "id": "Tahun bendahara HIMA"
+           "id": "Setahun menjadi bendahara HIMA"
           }
          ],
          [
@@ -537,11 +537,11 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "Why",
-           "id": "Mengapa"
+           "id": "Alasan"
           },
           {
            "en": "“Why that way? Other options?”",
-           "id": "“Kenapa cara itu? Ada opsi lain?”"
+           "id": "“Kenapa dengan cara itu? Ada pilihan lain?”"
           },
           {
            "en": "“Karena kuitansi hilang di dua acara sebelumnya…”",
@@ -555,7 +555,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“What happened? How do you know?”",
-           "id": "“Apa hasilnya? Bagaimana Anda tahu?”"
+           "id": "“Lalu apa yang terjadi? Dari mana Anda tahu?”"
           },
           {
            "en": "“Audit fakultas nol temuan, pertama dalam tiga tahun.”",
@@ -569,7 +569,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“Looking back?”",
-           "id": "“Kalau mengulang?”"
+           "id": "“Kalau dilihat lagi sekarang?”"
           },
           {
            "en": "“Melibatkan divisi acara sejak awal…”",
@@ -579,11 +579,11 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "Transfer",
-           "id": "Transfer"
+           "id": "Penerapan"
           },
           {
            "en": "“How would that work here?”",
-           "id": "“Bagaimana itu berlaku di sini?”"
+           "id": "“Bagaimana itu bisa diterapkan di sini?”"
           },
           {
            "en": "“Di cabang, rekonsiliasi harian butuh disiplin yang sama…”",
@@ -601,11 +601,11 @@ window.MT_LMS['the-rope'] = {
        "icon": "compass",
        "h": {
         "en": "Two directions of evaluation",
-        "id": "Dua arah evaluasi"
+        "id": "Penilaian berjalan dua arah"
        },
        "body": {
         "en": "The interview is also the only chance you have to see inside the organisation before committing. Bolles argues the candidate should arrive with their own questions about the work, the team and what success looks like, because the decision to accept is as consequential as the decision to hire <i>(Bolles, What Color Is Your Parachute?, interview chapter)</i>. You are deciding: <i>Do I want this work? Will I learn here? Can I trust these people? Is the offer fair?</i> This is not only good for you. Candidates who ask sharp, informed questions look more serious to the employer, and Module 8 builds a question ladder for every stage. Two practical habits follow. First, take notes on what you learn, not only on what you were asked; the tracker in the Interview Kit has a column for it. Second, treat every stage as data about the culture: how you were invited, how long you waited, whether the interviewer had read your CV. Noticing is allowed; deciding in the room is not; the decision belongs to Module 10, with the offer in front of you.",
-        "id": "Wawancara juga satu-satunya kesempatan melihat ke dalam organisasi sebelum berkomitmen. Bolles berpendapat kandidat harus datang dengan pertanyaannya sendiri tentang pekerjaan, tim, dan seperti apa keberhasilan, karena keputusan menerima sama pentingnya dengan keputusan merekrut <i>(Bolles, What Color Is Your Parachute?, bab wawancara)</i>. Kamu sedang memutuskan: <i>Apakah saya mau pekerjaan ini? Apakah saya akan belajar di sini? Bisakah saya memercayai orang-orang ini? Apakah tawarannya adil?</i> Ini bukan hanya baik untukmu, kandidat yang bertanya tajam dan berdasar terlihat lebih serius di mata perusahaan, dan Modul 8 membangun tangga pertanyaan untuk setiap tahap. Dua kebiasaan praktis mengikuti. Pertama, catat apa yang kamu pelajari, bukan hanya apa yang ditanyakan; pelacak di Perangkat Wawancara punya kolom untuk itu. Kedua, perlakukan setiap tahap sebagai data tentang budaya: cara kamu diundang, berapa lama menunggu, apakah pewawancara sudah membaca CV-mu. Memperhatikan boleh; memutuskan di ruangan tidak; keputusan itu milik Modul 10, dengan tawaran di depanmu."
+        "id": "Wawancara juga satu-satunya kesempatanmu melihat isi organisasi sebelum mengikatkan diri. Bolles berpendapat kandidat harus datang membawa pertanyaannya sendiri tentang pekerjaan, tim, dan seperti apa keberhasilan di sana, karena keputusan menerima tawaran sama pentingnya dengan keputusan merekrut <i>(Bolles, What Color Is Your Parachute?, bab wawancara)</i>. Kamu sedang memutuskan: <i>Apakah saya mau pekerjaan ini? Apakah saya akan berkembang di sini? Bisakah saya memercayai orang-orang ini? Apakah tawarannya adil?</i> Ini bukan cuma baik untukmu. Kandidat yang bertanya tajam dan berbekal riset terlihat lebih serius di mata perusahaan, dan Modul 8 menyiapkan tangga pertanyaan untuk setiap tahap. Dari sini lahir dua kebiasaan praktis. Pertama, catat apa yang kamu pelajari, bukan hanya apa yang ditanyakan; pelacak di Perangkat Wawancara punya kolom khusus untuk itu. Kedua, anggap setiap tahap sebagai petunjuk tentang budaya perusahaan: cara kamu diundang, berapa lama kamu menunggu, apakah pewawancara sudah membaca CV-mu. Boleh memperhatikan, tetapi jangan memutuskan di dalam ruangan. Keputusan itu tempatnya di Modul 10, saat tawaran sudah ada di depanmu."
        }
       },
       {
@@ -616,7 +616,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Not every interviewer is trained. Pellett describes interviewer types the candidate must adapt to <i>(Pellett, Cracking the Code to a Successful Interview)</i>; the table adapts them for your market and adds two local figures. The point of recognising the style is not to judge it but to make sure your evidence is heard whatever the style. A talker still has to leave the room with a reason to say yes.",
-        "id": "Tidak semua pewawancara terlatih. Pellett menggambarkan tipe-tipe pewawancara yang harus disesuaikan oleh kandidat <i>(Pellett, Cracking the Code to a Successful Interview)</i>; tabel ini mengadaptasinya untuk Indonesia dan menambah dua sosok lokal. Tujuan mengenali gaya bukan untuk menghakiminya tetapi memastikan buktimu terdengar apa pun gayanya, pewawancara yang banyak bicara tetap harus pulang dengan alasan untuk berkata ya."
+        "id": "Tidak semua pewawancara terlatih. Pellett menggambarkan beberapa tipe pewawancara yang perlu dihadapi kandidat dengan cara berbeda <i>(Pellett, Cracking the Code to a Successful Interview)</i>; tabel di bawah menyesuaikannya dengan kondisi di Indonesia dan menambahkan dua sosok yang khas di sini. Tujuan mengenali gaya pewawancara bukan untuk menilai mereka, melainkan memastikan buktimu tetap terdengar, apa pun gayanya. Pewawancara yang paling banyak bicara pun harus keluar dari ruangan dengan alasan untuk berkata “ya”."
        },
        "table": {
         "cols": [
@@ -630,22 +630,22 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "What to do",
-          "id": "Yang harus dilakukan"
+          "id": "Yang perlu kamu lakukan"
          }
         ],
         "rows": [
          [
           {
            "en": "<b>The structured assessor</b>",
-           "id": "<b>Penilai terstruktur</b>"
+           "id": "<b>Si penilai terstruktur</b>"
           },
           {
            "en": "Fixed list of questions, takes notes, few reactions",
-           "id": "Daftar pertanyaan tetap, mencatat, sedikit reaksi"
+           "id": "Daftar pertanyaannya tetap, rajin mencatat, jarang bereaksi"
           },
           {
            "en": "Give complete, well-structured answers; don’t wait for encouragement",
-           "id": "Beri jawaban lengkap dan terstruktur; jangan menunggu dorongan"
+           "id": "Beri jawaban yang lengkap dan runtut; jangan menunggu tanda-tanda disemangati"
           }
          ],
          [
@@ -655,11 +655,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Talks about the company or themselves for most of the time",
-           "id": "Bicara tentang perusahaan atau dirinya hampir sepanjang waktu"
+           "id": "Sebagian besar waktu dipakainya untuk bercerita tentang perusahaan atau dirinya sendiri"
           },
           {
            "en": "Listen, ask a good question, then bridge: “That connects to something I did…”; make sure your key evidence is heard",
-           "id": "Dengarkan, ajukan pertanyaan bagus, lalu jembatani: “Itu terkait dengan yang pernah saya lakukan…”, pastikan bukti kuncimu terdengar"
+           "id": "Dengarkan, ajukan satu pertanyaan yang bagus, lalu jembatani: “Itu nyambung dengan pengalaman saya…”; pastikan bukti utamamu sempat terdengar"
           }
          ],
          [
@@ -669,11 +669,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Challenges answers, interrupts, sceptical tone",
-           "id": "Menantang jawaban, menyela, nada skeptis"
+           "id": "Membantah jawaban, memotong pembicaraan, nadanya skeptis"
           },
           {
            "en": "Stay calm; acknowledge, then give evidence. It is a test of composure, not a verdict",
-           "id": "Tetap tenang; akui, lalu beri bukti. Ini ujian ketenangan, bukan vonis"
+           "id": "Tetap tenang; akui dulu, lalu berikan bukti. Ini ujian ketenangan, bukan vonis"
           }
          ],
          [
@@ -683,39 +683,39 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Hasn’t read your CV, asks generic questions",
-           "id": "Belum membaca CV-mu, bertanya generik"
+           "id": "Belum membaca CV-mu, pertanyaannya umum-umum saja"
           },
           {
            "en": "Take gentle initiative: “Would it be useful if I walked you through the two experiences most relevant to this role?”",
-           "id": "Ambil inisiatif halus: “Apakah membantu jika saya ceritakan dua pengalaman yang paling relevan dengan peran ini?”"
+           "id": "Ambil inisiatif dengan halus: “Apakah akan membantu kalau saya ceritakan dua pengalaman yang paling relevan dengan posisi ini?”"
           }
          ],
          [
           {
            "en": "<i>Indonesia: the senior Bapak/Ibu</i>",
-           "id": "<i>Indonesia: Bapak/Ibu senior</i>"
+           "id": "<i>Khas Indonesia: Bapak/Ibu senior</i>"
           },
           {
            "en": "Formal, respectful distance, may ask about family or hometown",
-           "id": "Formal, menjaga jarak hormat, mungkin bertanya tentang keluarga atau kampung halaman"
+           "id": "Formal, menjaga jarak dengan sopan, kadang bertanya soal keluarga atau kampung halaman"
           },
           {
            "en": "Answer respectfully and briefly; personal questions are often about rapport, not discrimination, but see Lesson 5.4 on what you don’t have to answer",
-           "id": "Jawab dengan hormat dan singkat; pertanyaan pribadi sering soal keakraban, bukan diskriminasi, tapi lihat Pelajaran 5.4 tentang apa yang tidak wajib kamu jawab"
+           "id": "Jawab dengan sopan dan singkat. Pertanyaan pribadi sering kali sekadar untuk mencairkan suasana, bukan diskriminasi, tetapi lihat Pelajaran 5.4 tentang hal-hal yang tidak wajib kamu jawab"
           }
          ],
          [
           {
            "en": "<i>Indonesia: the user teknis</i>",
-           "id": "<i>Indonesia: user teknis</i>"
+           "id": "<i>Khas Indonesia: user teknis</i>"
           },
           {
            "en": "Direct, detail-focused, low patience for general answers",
-           "id": "Lugas, fokus detail, tidak sabar dengan jawaban umum"
+           "id": "Langsung, fokus pada detail, tidak sabar dengan jawaban yang umum"
           },
           {
            "en": "Go straight to specifics: tools, numbers, what you did",
-           "id": "Langsung ke spesifik: alat, angka, apa yang kamu lakukan"
+           "id": "Langsung ke hal-hal spesifik: alat yang dipakai, angka, apa yang kamu kerjakan"
           }
          ]
         ]
@@ -725,11 +725,11 @@ window.MT_LMS['the-rope'] = {
        "icon": "flag",
        "h": {
         "en": "What does not decide the outcome (despite what you’ve heard)",
-        "id": "Yang tidak menentukan hasil (meski kamu pernah dengar)"
+        "id": "Yang tidak menentukan hasil wawancara (meski sering kamu dengar)"
        },
        "body": {
         "en": "Several popular claims are weaker than they sound. “93% of communication is non-verbal” misreads a narrow 1960s study about ambiguous single words, not interviews <span class=\"ev ev-contested\">Contested · Appendix C</span>. “Power posing before an interview raises testosterone” failed to replicate <span class=\"ev ev-contested\">Contested</span>. “The interviewer decides in the first 30 seconds” overstates it. First impressions matter and can bias what follows, but structured interviews and follow-up evidence regularly overturn them <span class=\"ev ev-dated\">Grade C · nuanced</span>. Good grooming and a warm opening help; they do not replace evidence. The practical consequence is where you spend your preparation hours: on stories that survive probing (Module 2), a decoded role (Module 3) and an opening that sets the frame (Module 4), not on a handshake technique.",
-        "id": "Beberapa klaim populer lebih lemah dari kedengarannya. “93% komunikasi bersifat nonverbal” salah membaca studi sempit tahun 1960-an tentang kata tunggal yang ambigu, bukan wawancara <span class=\"ev ev-contested\">Diperdebatkan · Lampiran C</span>. “Power posing sebelum wawancara menaikkan testosteron” gagal direplikasi <span class=\"ev ev-contested\">Diperdebatkan</span>. “Pewawancara memutuskan dalam 30 detik pertama” berlebihan, kesan pertama penting dan bisa membiaskan yang berikutnya, tetapi wawancara terstruktur dan bukti lanjutan rutin membalikkannya <span class=\"ev ev-dated\">Peringkat C · bernuansa</span>. Penampilan rapi dan pembuka hangat membantu; keduanya tidak menggantikan bukti. Konsekuensi praktisnya adalah ke mana jam persiapanmu pergi: ke cerita yang bertahan saat digali (Modul 2), peran yang dibedah (Modul 3), dan pembuka yang menetapkan kerangka (Modul 4), bukan ke teknik jabat tangan."
+        "id": "Beberapa klaim populer ternyata lebih lemah daripada kedengarannya. “93% komunikasi bersifat nonverbal” adalah salah kaprah dari studi sempit tahun 1960-an tentang kata tunggal yang bermakna ganda, bukan tentang wawancara <span class=\"ev ev-contested\">Diperdebatkan · Lampiran C</span>. “Power posing sebelum wawancara menaikkan testosteron” gagal dibuktikan ulang <span class=\"ev ev-contested\">Diperdebatkan</span>. “Pewawancara memutuskan dalam 30 detik pertama” juga berlebihan. Kesan pertama memang penting dan bisa memengaruhi penilaian berikutnya, tetapi wawancara terstruktur dan bukti dari pertanyaan lanjutan sering membalikkannya <span class=\"ev ev-dated\">Peringkat C · perlu konteks</span>. Penampilan rapi dan pembukaan yang hangat memang membantu, tetapi tidak menggantikan bukti. Artinya dalam praktik: gunakan jam persiapanmu untuk cerita yang tahan digali (Modul 2), peran yang sudah kamu bedah (Modul 3), dan pembukaan yang membingkai percakapan (Modul 4), bukan untuk berlatih teknik jabat tangan."
        }
       }
      ],
@@ -741,7 +741,7 @@ window.MT_LMS['the-rope'] = {
       },
       "title": {
        "en": "Every interview question maps to at least one, and the hire decision sits where they overlap",
-       "id": "Setiap pertanyaan wawancara memetakan ke setidaknya satu, dan keputusan merekrut berada di irisannya"
+       "id": "Setiap pertanyaan wawancara mengarah ke setidaknya satu lingkaran, dan keputusan merekrut ada di irisan ketiganya"
       },
       "items": [
        {
@@ -752,7 +752,7 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Skills and thinking: “Walk me through how you reconciled the budget.”",
-         "id": "Keterampilan dan cara berpikir, “Ceritakan cara Anda merekonsiliasi anggaran itu.”"
+         "id": "Keterampilan dan cara berpikir: “Coba ceritakan bagaimana Anda merekonsiliasi anggaran itu.”"
         }
        },
        {
@@ -763,7 +763,7 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Motivation and reliability: “Why this role, and not a role in a bank?”",
-         "id": "Motivasi dan keandalan: “Mengapa peran ini, bukan peran di bank?”"
+         "id": "Motivasi dan bisa diandalkan: “Kenapa posisi ini, bukan posisi di bank?”"
         }
        },
        {
@@ -774,7 +774,7 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "People and pressure: “Tell me about a disagreement with a teammate.”",
-         "id": "Orang dan tekanan: “Ceritakan perselisihan dengan rekan setim.”"
+         "id": "Orang dan tekanan: “Ceritakan saat Anda berbeda pendapat dengan rekan satu tim.”"
         }
        },
        {
@@ -785,28 +785,28 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Made where the three overlap; probed until the interviewer is sure enough to risk a yes.",
-         "id": "Dibuat di irisan ketiganya; digali sampai pewawancara cukup yakin untuk mengambil risiko berkata ya."
+         "id": "Diambil di irisan ketiganya; terus digali sampai pewawancara cukup yakin untuk mengambil risiko berkata “ya”."
         }
        }
       ],
       "note": {
        "en": "Strong answers cover more than one circle at once; “why accounting?” answers will-do and hints at can-do.",
-       "id": "Jawaban kuat mencakup lebih dari satu lingkaran sekaligus; “mengapa akuntansi?” menjawab mau dan menyiratkan bisa."
+       "id": "Jawaban yang kuat menyentuh lebih dari satu lingkaran sekaligus; jawaban untuk “kenapa akuntansi?” menjawab soal mau sekaligus memberi petunjuk soal bisa."
       },
       "longdesc": {
        "en": "Three overlapping circles labelled “Can you do it?” (skills and thinking, e.g. “Walk me through how you reconciled the budget”), “Will you do it?” (motivation and reliability, e.g. “Why this role, and not a role in a bank?”) and “Will you fit?” (people and pressure, e.g. “Tell me about a disagreement with a teammate”). The overlap is labelled “the hire decision”.",
-       "id": "Tiga lingkaran beririsan berlabel “Bisakah kamu?” (keterampilan dan cara berpikir, mis. “Ceritakan cara Anda merekonsiliasi anggaran itu”), “Maukah kamu?” (motivasi dan keandalan, mis. “Mengapa peran ini, bukan peran di bank?”), dan “Cocokkah kamu?” (orang dan tekanan, mis. “Ceritakan perselisihan dengan rekan setim”). Irisannya berlabel “keputusan merekrut”."
+       "id": "Tiga lingkaran yang saling beririsan bertuliskan “Bisakah kamu mengerjakannya?” (keterampilan dan cara berpikir, misalnya “Coba ceritakan bagaimana Anda merekonsiliasi anggaran itu”), “Maukah kamu mengerjakannya?” (motivasi dan bisa diandalkan, misalnya “Kenapa posisi ini, bukan posisi di bank?”), dan “Cocokkah kamu?” (orang dan tekanan, misalnya “Ceritakan saat Anda berbeda pendapat dengan rekan satu tim”). Irisan ketiganya bertuliskan “keputusan merekrut”."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "“Why should we hire you?”",
-        "id": "“Mengapa kami harus merekrut Anda?”"
+        "id": "“Kenapa kami harus merekrut Anda?”"
        },
        "q": {
         "en": "The recruiter at Bank Sinar Nusantara’s officer programme screen asks Nadia, fifteen minutes in: “Kenapa kami harus merekrut Anda?”",
-        "id": "Rekruter di seleksi ODP Bank Sinar Nusantara bertanya kepada Nadia, di menit kelima belas: “Kenapa kami harus merekrut Anda?”"
+        "id": "Lima belas menit setelah wawancara penyaringan ODP (Officer Development Program) Bank Sinar Nusantara dimulai, perekrut bertanya kepada Nadia: “Kenapa kami harus merekrut Anda?”"
        },
        "weak": {
         "en": "“Saya orangnya pekerja keras, cepat belajar, dan bisa bekerja dalam tim. Saya yakin bisa berkontribusi untuk perusahaan ini.”",
@@ -814,11 +814,11 @@ window.MT_LMS['the-rope'] = {
        },
        "strong": {
         "en": "“Tiga alasan singkat. Pertama, peran ini banyak pekerjaan rekonsiliasi; saya sudah melakukannya selama internship di operasional bank, laporan harian untuk tiga cabang, dan selisih terminal yang berulang berhasil saya tandai sehingga koreksi manual berkurang sekitar 30 menit per hari. Kedua, saya terbiasa bekerja dengan target. Saya mengumpulkan sponsor Rp85 juta dari sebelas sponsor untuk kompetisi nasional dengan tim enam orang. Ketiga, saya ingin berkarier di operasional, bukan hanya mencari pekerjaan pertama; itu sebabnya saya melamar officer programme, bukan posisi frontliner.”",
-        "id": "“Tiga alasan singkat. Pertama, peran ini banyak pekerjaan rekonsiliasi; saya sudah melakukannya selama magang di operasional bank, laporan harian untuk tiga cabang, dan selisih terminal yang berulang berhasil saya tandai sehingga koreksi manual berkurang sekitar 30 menit per hari. Kedua, saya terbiasa bekerja dengan target. Saya mengumpulkan sponsor Rp85 juta dari sebelas sponsor untuk kompetisi nasional dengan tim enam orang. Ketiga, saya ingin berkarier di operasional, bukan hanya mencari pekerjaan pertama; itu sebabnya saya melamar ODP, bukan posisi frontliner.”"
+        "id": "“Ada tiga alasan singkat. Pertama, posisi ini banyak berisi pekerjaan rekonsiliasi, dan itu sudah saya kerjakan selama magang di operasional bank: laporan harian untuk tiga cabang. Selisih terminal yang terus berulang berhasil saya tandai, sehingga koreksi manual berkurang sekitar 30 menit per hari. Kedua, saya terbiasa bekerja dengan target. Bersama tim berenam, saya mengumpulkan dana Rp85 juta dari sebelas sponsor untuk kompetisi nasional. Ketiga, saya memang ingin berkarier di operasional, bukan sekadar mencari pekerjaan pertama. Karena itu saya melamar ODP, bukan posisi frontliner.”"
        },
        "why": {
         "en": "The weak answer is three claims, zero evidence, identical to every other candidate. The strong answer maps to <i>can do</i> (reconciliation evidence with numbers the interviewer can probe), <i>will do</i> (targets, and a motivation for operations specifically), and it is structured, “tiga alasan”, so the interviewer can follow and note it. Every number in it comes from Nadia’s Pack Dossier, which is why it survives the follow-up “berapa lama Anda internship?”.",
-        "id": "Jawaban lemah adalah tiga klaim, nol bukti, identik dengan setiap kandidat lain. Jawaban kuat memetakan ke <i>bisa</i> (bukti rekonsiliasi dengan angka yang bisa digali pewawancara), <i>mau</i> (target, dan motivasi khusus untuk operasional), dan terstruktur, “tiga alasan”, sehingga pewawancara bisa mengikuti dan mencatatnya. Setiap angka di dalamnya berasal dari Dossier The Pack Nadia, itulah sebabnya ia bertahan saat ditanya lanjutan “berapa lama Anda magang?”."
+        "id": "Jawaban yang lemah berisi tiga klaim tanpa satu pun bukti, dan sama persis dengan jawaban kandidat lain. Jawaban yang kuat menjawab soal <i>bisa</i> (bukti rekonsiliasi dengan angka yang bisa digali pewawancara) dan soal <i>mau</i> (terbiasa dengan target, serta motivasi khusus di bidang operasional). Jawabannya juga terstruktur, “tiga alasan”, sehingga pewawancara mudah mengikuti dan mencatatnya. Semua angka di dalamnya berasal dari Dossier The Pack milik Nadia, itulah sebabnya jawaban itu tetap kokoh saat ditanya lanjutan, “Berapa lama Anda magang?”"
        }
       }
      ],
@@ -826,16 +826,16 @@ window.MT_LMS['the-rope'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: Nadia’s first real interview",
-       "id": "Sorotan: wawancara nyata pertama Nadia"
+       "id": "Sorotan: wawancara sungguhan pertama Nadia"
       },
       "body": [
        {
         "en": "Nadia’s first call from Bank Sinar Nusantara is a fifteen-minute phone screen. She has prepared answers about her strengths. The recruiter asks instead: “Kamu bersedia ditempatkan di seluruh Indonesia?” and “Ekspektasi gaji kamu berapa?” She hesitates on both. After the call she realises the screen wasn’t testing her strengths at all; it was testing two eligibility risks: placement and cost.",
-        "id": "Telepon pertama Nadia dari Bank Sinar Nusantara adalah seleksi telepon lima belas menit. Ia sudah menyiapkan jawaban tentang kekuatannya. Rekruter justru bertanya: “Kamu bersedia ditempatkan di seluruh negeri?” dan “Ekspektasi gaji kamu berapa?” Ia ragu pada keduanya. Setelah telepon ia sadar seleksi itu sama sekali tidak menguji kekuatannya; ia menguji dua risiko kelayakan: penempatan dan biaya."
+        "id": "Panggilan pertama dari Bank Sinar Nusantara berupa wawancara penyaringan lewat telepon selama lima belas menit. Nadia sudah menyiapkan jawaban tentang kekuatannya. Ternyata perekrut justru bertanya, “Kamu bersedia ditempatkan di seluruh Indonesia?” dan “Ekspektasi gaji kamu berapa?” Nadia ragu-ragu di kedua pertanyaan itu. Setelah telepon ditutup, ia sadar penyaringan tadi sama sekali tidak menguji kekuatannya. Yang diuji adalah dua risiko soal kelayakan: penempatan dan biaya."
        },
        {
         "en": "The lesson she writes in her tracker that evening: every stage has its own uncertainty. The screen tests eligibility; the user tests capability; the final tests fit and commitment. Her next preparation hour goes to two truthful sentences, one on placement, one on salary, and not to a fourth strengths story. Lesson 1.4 maps the stages; Lesson 5.3 builds the salary answer.",
-        "id": "Pelajaran yang ia tulis di pelacaknya malam itu: setiap tahap punya ketidakpastiannya sendiri. Seleksi awal menguji kelayakan; user menguji kemampuan; final menguji kecocokan dan komitmen. Jam persiapan berikutnya ia pakai untuk dua kalimat jujur, satu tentang penempatan, satu tentang gaji, bukan untuk cerita kekuatan keempat. Pelajaran 1.4 memetakan tahapnya; Pelajaran 5.3 membangun jawaban gajinya."
+        "id": "Malam itu ia menulis satu pelajaran di pelacaknya: setiap tahap punya keraguannya sendiri. Tahap penyaringan menguji kelayakan, wawancara user menguji kemampuan, wawancara akhir menguji kecocokan dan komitmen. Satu jam persiapan berikutnya ia pakai untuk menyusun dua kalimat jujur, satu soal penempatan dan satu soal gaji, bukan cerita keempat tentang kekuatannya. Pelajaran 1.4 memetakan tahapan-tahapannya; Pelajaran 5.3 menyusun jawaban soal gaji."
        }
       ]
      },
@@ -843,29 +843,29 @@ window.MT_LMS['the-rope'] = {
       {
        "h": {
         "en": "Drill 1 · The uncertainty audit",
-        "id": "Latihan 1 · Audit ketidakpastian"
+        "id": "Latihan 1 · Mendata keraguan perusahaan"
        },
        "body": {
         "en": "Write down the three biggest uncertainties an employer would have about hiring <i>you</i> for your top target. Be specific: not “experience” but “no full-time experience in a workplace with deadlines set by other people”. Then, next to each, write the one piece of evidence you already have that reduces it, or “none yet”.",
-        "id": "Tulis tiga ketidakpastian terbesar yang akan dimiliki perusahaan tentang merekrut <i>kamu</i> untuk sasaran teratasmu. Spesifik: bukan “pengalaman” tetapi “belum ada pengalaman penuh waktu di tempat kerja dengan tenggat yang ditetapkan orang lain”. Lalu, di sebelah masing-masing, tulis satu bukti yang sudah kamu punya yang menguranginya, atau “belum ada”."
+        "id": "Tulis tiga keraguan terbesar yang mungkin dimiliki perusahaan sebelum merekrut <i>kamu</i> untuk sasaran utamamu. Tulis secara spesifik: bukan “pengalaman”, melainkan “belum pernah bekerja penuh waktu di tempat yang tenggatnya ditentukan orang lain”. Lalu di sebelah masing-masing, tulis satu bukti yang sudah kamu punya untuk meredakannya, atau tulis “belum ada”."
        },
        "debrief": {
         "en": "Common answers for fresh graduates: no full-time experience; motivation (“is this their first choice or their tenth application?”); stability (“will they leave in a year for S2 or a bigger company?”); a CV item that raises a question (a gap, a low GPA, an unrelated major). Each uncertainty becomes a story you prepare in Module 2. The “none yet” rows are your story-mining priorities. Nadia’s three: no full-time experience (evidence: the internship checklist still in use), motivation for operations rather than “any job” (evidence: applying to officer programme, not frontliner), and placement anywhere in the country (evidence: none yet; she needs a truthful answer, not a story).",
-        "id": "Jawaban umum lulusan baru: belum ada pengalaman penuh waktu; motivasi (“apakah ini pilihan pertama atau lamaran kesepuluh?”); stabilitas (“apakah ia pergi setahun lagi untuk S2 atau perusahaan lebih besar?”); butir CV yang memunculkan pertanyaan (jeda, IPK rendah, jurusan tak terkait). Setiap ketidakpastian menjadi cerita yang kamu siapkan di Modul 2. Baris “belum ada” adalah prioritas penambangan ceritamu. Tiga milik Nadia: belum ada pengalaman penuh waktu (bukti: daftar periksa magang yang masih dipakai), motivasi untuk operasional bukan “pekerjaan apa saja” (bukti: melamar ODP, bukan frontliner), dan penempatan di mana saja di negeri ini (bukti: belum ada; ia butuh jawaban jujur, bukan cerita)."
+        "id": "Keraguan yang umum untuk lulusan baru: belum pernah bekerja penuh waktu; motivasi (“apakah kami pilihan pertamanya, atau lamarannya yang kesepuluh?”); stabilitas (“apakah ia akan keluar setahun lagi untuk S2 atau pindah ke perusahaan yang lebih besar?”); dan baris di CV yang memancing pertanyaan (jeda, IPK rendah, jurusan yang tidak nyambung). Setiap keraguan akan menjadi cerita yang kamu siapkan di Modul 2. Baris bertuliskan “belum ada” adalah prioritasmu untuk menggali cerita. Tiga keraguan versi Nadia: belum pernah bekerja penuh waktu (buktinya: daftar periksa buatannya saat magang yang masih dipakai sampai sekarang), motivasi di bidang operasional dan bukan sekadar “asal kerja” (buktinya: melamar ODP, bukan posisi frontliner), dan kesediaan ditempatkan di mana saja (buktinya: belum ada; yang ia butuhkan adalah jawaban yang jujur, bukan cerita)."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Classify ten questions",
-        "id": "Latihan 2 · Golongkan sepuluh pertanyaan"
+        "id": "Latihan 2 · Kelompokkan sepuluh pertanyaan"
        },
        "body": {
         "en": "Sort these into Can do / Will do / Will fit (some fit more than one): (1) “What did you learn in your thesis?” (2) “Where do you see yourself in 5 years?” (3) “Tell me about a time you missed a deadline.” (4) “How would you calculate the profit of a coffee shop?” (5) “Why did you choose accounting?” (6) “How do you handle criticism?” (7) “What’s your GPA?” (8) “What do you know about us?” (9) “Tell me about conflict in a group project.” (10) “Are you willing to be placed outside Java?”",
-        "id": "Golongkan ke Bisa / Mau / Cocok (sebagian masuk lebih dari satu): (1) “Apa yang Anda pelajari dari skripsi?” (2) “Di mana Anda lima tahun lagi?” (3) “Ceritakan saat Anda melewatkan tenggat.” (4) “Bagaimana Anda menghitung laba sebuah kedai kopi?” (5) “Mengapa memilih akuntansi?” (6) “Bagaimana Anda menangani kritik?” (7) “Berapa IPK Anda?” (8) “Apa yang Anda ketahui tentang kami?” (9) “Ceritakan konflik dalam proyek kelompok.” (10) “Bersedia ditempatkan di luar Jawa?”"
+        "id": "Kelompokkan pertanyaan berikut ke Bisa / Mau / Cocok (sebagian masuk lebih dari satu): (1) “Apa yang Anda pelajari dari skripsi Anda?” (2) “Di mana Anda lima tahun lagi?” (3) “Ceritakan saat Anda melewatkan tenggat.” (4) “Bagaimana cara menghitung laba sebuah kedai kopi?” (5) “Kenapa memilih akuntansi?” (6) “Bagaimana Anda menanggapi kritik?” (7) “Berapa IPK Anda?” (8) “Apa yang Anda ketahui tentang kami?” (9) “Ceritakan konflik dalam tugas kelompok.” (10) “Bersediakah Anda ditempatkan di luar Jawa?”"
        },
        "debrief": {
         "en": "(1) can do; (2) will do, and the hidden concern “will you stay?”; (3) will fit, with a can-do edge (reliability); (4) can do; (5) will do, hinting at can do; (6) will fit; (7) can do, as a screen; (8) will do, seriousness and research; (9) will fit; (10) will do. Eligibility. Several questions test more than one, and that is the point: the strongest answers deliberately cover two circles. “Why accounting?” answered with a reason <i>and</i> a piece of work you did because of that reason answers will-do and can-do in one breath.",
-        "id": "(1) bisa; (2) mau: dan kekhawatiran tersembunyi “apakah kamu bertahan?”; (3) cocok, dengan sisi bisa (keandalan); (4) bisa; (5) mau, menyiratkan bisa; (6) cocok; (7) bisa, sebagai penyaring; (8) mau, keseriusan dan riset; (9) cocok; (10) mau, kelayakan. Beberapa pertanyaan menguji lebih dari satu, dan itulah intinya: jawaban terkuat sengaja mencakup dua lingkaran. “Mengapa akuntansi?” yang dijawab dengan alasan <i>dan</i> satu pekerjaan yang kamu lakukan karena alasan itu menjawab mau dan bisa dalam satu tarikan napas."
+        "id": "(1) bisa; (2) mau, dengan kekhawatiran tersembunyi “apakah kamu akan bertahan?”; (3) cocok, dengan sisi bisa (bisa diandalkan); (4) bisa; (5) mau, sekaligus menyiratkan bisa; (6) cocok; (7) bisa, sebagai penyaring; (8) mau, menunjukkan keseriusan dan riset; (9) cocok; (10) mau, soal kelayakan. Beberapa pertanyaan menguji lebih dari satu hal, dan justru di situlah intinya: jawaban terkuat sengaja menyentuh dua lingkaran. Pertanyaan “Kenapa akuntansi?” yang dijawab dengan satu alasan <i>dan</i> satu pekerjaan yang kamu lakukan karena alasan itu langsung menjawab soal mau dan bisa dalam satu tarikan napas."
        }
       },
       {
@@ -875,11 +875,11 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Pick one achievement from your CV. Answer the probe ladder out loud, rung by rung: claim → example → your action → why → result → what you’d change → transfer to this job. Time yourself. Where did you run out of detail?",
-        "id": "Pilih satu pencapaian dari CV-mu. Jawab tangga galian dengan suara, anak tangga demi anak tangga: klaim → contoh → tindakanmu → mengapa → hasil → yang akan kamu ubah → transfer ke pekerjaan ini. Ukur waktunya. Di mana kamu kehabisan detail?"
+        "id": "Pilih satu pencapaian di CV-mu. Jawab tangga galiannya dengan suara keras, satu anak tangga demi satu: klaim → contoh → tindakanmu → alasan → hasil → yang akan kamu ubah → penerapannya di pekerjaan ini. Catat waktunya. Di anak tangga mana detailmu habis?"
        },
        "debrief": {
         "en": "The rung where you stall is the rung Module 2 will fix. Most graduates stall at <i>why</i> (they did it the way they were told) or <i>result</i> (they never checked what happened afterwards). If you stalled at <i>your action</i>, everything was “kami”, the story may be real but not yet yours; Lesson 1.2 shows the we → I → we shape that fixes it. If you reached <i>transfer</i> with detail to spare, that achievement is a Core 10 candidate.",
-        "id": "Anak tangga tempat kamu macet adalah yang akan diperbaiki Modul 2. Kebanyakan lulusan macet di <i>mengapa</i> (mereka melakukannya seperti yang diperintahkan) atau <i>hasil</i> (mereka tidak pernah memeriksa apa yang terjadi setelahnya). Jika kamu macet di <i>tindakanmu</i>, semuanya “kami”, ceritanya mungkin nyata tetapi belum milikmu; Pelajaran 1.2 menunjukkan bentuk kami → saya → kami yang memperbaikinya. Jika kamu sampai di <i>transfer</i> dengan detail tersisa, pencapaian itu kandidat Core 10."
+        "id": "Anak tangga tempat kamu macet adalah yang akan dibereskan Modul 2. Kebanyakan lulusan macet di <i>alasan</i> (mereka melakukannya karena memang disuruh begitu) atau di <i>hasil</i> (mereka tidak pernah mengecek apa yang terjadi sesudahnya). Kalau kamu macet di <i>tindakanmu</i> karena semuanya “kami”, ceritanya mungkin nyata tetapi belum menjadi milikmu; Pelajaran 1.2 menunjukkan pola kami → saya → kami untuk memperbaikinya. Kalau kamu sampai di <i>penerapan</i> dan detailmu masih tersisa, pencapaian itu layak masuk Core 10."
        }
       }
      ],
@@ -888,41 +888,41 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Preparing “answers” instead of evidence",
-         "id": "Menyiapkan “jawaban” alih-alih bukti"
+         "id": "Menyiapkan “jawaban”, bukan bukti"
         },
         "fix": {
          "en": "Prepare ten real stories deeply (Module 2); answers follow from them.",
-         "id": "Siapkan sepuluh cerita nyata secara mendalam (Modul 2); jawaban mengikuti darinya."
+         "id": "Siapkan sepuluh cerita nyata secara mendalam (Modul 2); jawabannya akan mengalir dari situ."
         }
        },
        {
         "h": {
          "en": "Treating the interviewer as an opponent",
-         "id": "Memperlakukan pewawancara sebagai lawan"
+         "id": "Menganggap pewawancara sebagai lawan"
         },
         "fix": {
          "en": "They want you to be the answer; give them the evidence to justify saying yes.",
-         "id": "Mereka ingin kamu menjadi jawabannya; beri mereka bukti untuk membenarkan “ya”."
+         "id": "Mereka berharap kamulah jawabannya; berikan bukti supaya mereka punya alasan untuk berkata “ya”."
         }
        },
        {
         "h": {
          "en": "Assuming the first five minutes decide everything",
-         "id": "Menganggap lima menit pertama menentukan segalanya"
+         "id": "Mengira lima menit pertama menentukan segalanya"
         },
         "fix": {
          "en": "A nervous start is recoverable; a weak middle is not.",
-         "id": "Awal yang gugup bisa dipulihkan; bagian tengah yang lemah tidak."
+         "id": "Awal yang gugup masih bisa dipulihkan; bagian tengah yang lemah tidak."
         }
        },
        {
         "h": {
          "en": "Not preparing questions of your own",
-         "id": "Tidak menyiapkan pertanyaanmu sendiri"
+         "id": "Tidak menyiapkan pertanyaan sendiri"
         },
         "fix": {
          "en": "At least three per stage (Module 8).",
-         "id": "Setidaknya tiga per tahap (Modul 8)."
+         "id": "Paling sedikit tiga pertanyaan untuk setiap tahap (Modul 8)."
         }
        }
       ]
@@ -935,7 +935,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Follow-up questions that dig into an answer, your action, why, the result, to separate lived stories from rehearsed claims.",
-        "id": "Pertanyaan lanjutan yang menggali jawaban, tindakanmu, mengapa, hasilnya, untuk memisahkan cerita yang dialami dari klaim hafalan."
+        "id": "Pertanyaan lanjutan yang mengorek sebuah jawaban, tentang tindakanmu, alasannya, dan hasilnya, untuk membedakan cerita nyata dari klaim hafalan."
        }
       },
       {
@@ -945,7 +945,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Fixed questions and a written scoring guide, applied to every candidate; the format with the strongest evidence base.",
-        "id": "Pertanyaan tetap dan panduan penilaian tertulis, diterapkan ke setiap kandidat; format dengan basis bukti terkuat."
+        "id": "Pertanyaan yang sudah ditetapkan dan pedoman penilaian tertulis, yang diterapkan sama untuk setiap kandidat; format dengan dukungan bukti paling kuat."
        }
       },
       {
@@ -955,7 +955,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "A behaviour the role needs, problem solving, teamwork, integrity, that questions are designed to find evidence of.",
-        "id": "Perilaku yang dibutuhkan peran, pemecahan masalah, kerja tim, integritas, yang buktinya dicari oleh pertanyaan."
+        "id": "Perilaku yang dibutuhkan sebuah posisi, misalnya memecahkan masalah, kerja sama tim, integritas, yang buktinya dicari lewat pertanyaan wawancara."
        }
       },
       {
@@ -965,27 +965,27 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "A specific past situation with your action and a result; the opposite of a claim.",
-        "id": "Situasi masa lalu yang spesifik dengan tindakanmu dan hasil; lawan dari klaim."
+        "id": "Situasi nyata di masa lalu, lengkap dengan tindakanmu dan hasilnya; kebalikan dari klaim."
        }
       },
       {
        "term": {
         "en": "Hiring manager / user",
-        "id": "Atasan langsung / user"
+        "id": "Manajer perekrut / user"
        },
        "def": {
         "en": "The person you would report to; usually conducts the decisive round.",
-        "id": "Orang yang akan menjadi atasanmu; biasanya memimpin ronde yang menentukan."
+        "id": "Orang yang nantinya menjadi atasanmu; biasanya memimpin babak wawancara yang paling menentukan."
        }
       },
       {
        "term": {
         "en": "Fit",
-        "id": "Kecocokan"
+        "id": "Kecocokan (fit)"
        },
        "def": {
         "en": "How you work with people, handle pressure and respond to feedback, the third of the three questions.",
-        "id": "Cara kamu bekerja dengan orang, menangani tekanan, dan merespons umpan balik, pertanyaan ketiga dari tiga."
+        "id": "Caramu bekerja dengan orang lain, menghadapi tekanan, dan menanggapi masukan; pertanyaan ketiga dari ketiganya."
        }
       }
      ],
@@ -993,36 +993,36 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "An interviewer asks “What exactly was <i>your</i> part in that?” three times in different ways. What is most likely happening?",
-        "id": "Pewawancara bertanya “Apa persisnya bagian <i>Anda</i> dalam itu?” tiga kali dengan cara berbeda. Apa yang paling mungkin terjadi?"
+        "id": "Pewawancara menanyakan “Apa persisnya bagian <i>Anda</i> di situ?” sampai tiga kali dengan cara berbeda. Apa yang paling mungkin sedang terjadi?"
        },
        "options": [
         {
          "en": "They didn’t hear you",
-         "id": "Mereka tidak mendengarmu"
+         "id": "Ia tidak mendengar jawabanmu"
         },
         {
          "en": "They are probing to separate your contribution from the team’s",
-         "id": "Mereka menggali untuk memisahkan kontribusimu dari tim"
+         "id": "Ia sedang menggali untuk memisahkan peranmu dari peran tim"
         },
         {
          "en": "They dislike the answer",
-         "id": "Mereka tidak suka jawabannya"
+         "id": "Ia tidak suka jawabanmu"
         },
         {
          "en": "They are wasting time",
-         "id": "Mereka membuang waktu"
+         "id": "Ia sedang membuang waktu"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Repeated “your part” questions are a probe for ownership; answer with specific actions using “saya”.",
-        "id": "Pertanyaan “bagian Anda” yang berulang adalah galian untuk kepemilikan; jawab dengan tindakan spesifik memakai “saya”."
+        "id": "Pertanyaan berulang tentang “bagian Anda” adalah galian untuk melihat tanggung jawabmu; jawab dengan tindakan spesifik memakai kata “saya”."
        }
       },
       {
        "q": {
         "en": "A fresh graduate with an internship and organisational experience is asked “Why should we hire you?” The best preparation is…",
-        "id": "Lulusan baru dengan magang dan pengalaman organisasi ditanya “Mengapa kami harus merekrut Anda?” Persiapan terbaiknya…"
+        "id": "Seorang lulusan baru yang punya pengalaman magang dan organisasi ditanya “Kenapa kami harus merekrut Anda?” Persiapan terbaiknya adalah …"
        },
        "options": [
         {
@@ -1031,27 +1031,27 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "A memorised paragraph",
-         "id": "Paragraf hafalan"
+         "id": "Satu paragraf hafalan"
         },
         {
          "en": "Two or three pieces of evidence mapped to the job’s main requirements",
-         "id": "Dua atau tiga bukti yang dipetakan ke persyaratan utama pekerjaan"
+         "id": "Dua atau tiga bukti yang dicocokkan dengan syarat utama pekerjaan itu"
         },
         {
          "en": "A statement of passion",
-         "id": "Pernyataan tentang gairah"
+         "id": "Pernyataan tentang passion"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Evidence mapped to requirements answers can-do and will-do together.",
-        "id": "Bukti yang dipetakan ke persyaratan menjawab bisa dan mau sekaligus."
+        "id": "Bukti yang dicocokkan dengan syarat pekerjaan menjawab soal bisa dan mau sekaligus."
        }
       },
       {
        "q": {
         "en": "An interviewer talks for 20 of 30 minutes about the company. What should you do?",
-        "id": "Pewawancara bicara 20 dari 30 menit tentang perusahaan. Apa yang sebaiknya kamu lakukan?"
+        "id": "Pewawancara bercerita tentang perusahaannya selama 20 dari 30 menit. Apa yang sebaiknya kamu lakukan?"
        },
        "options": [
         {
@@ -1060,21 +1060,21 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "Interrupt to tell your stories",
-         "id": "Menyela untuk menceritakan kisahmu"
+         "id": "Memotong pembicaraan untuk menyampaikan ceritamu"
         },
         {
          "en": "Listen, ask a relevant question, then bridge to your most relevant evidence",
-         "id": "Dengarkan, ajukan pertanyaan relevan, lalu jembatani ke bukti paling relevanmu"
+         "id": "Mendengarkan, mengajukan pertanyaan yang relevan, lalu menjembatani ke buktimu yang paling relevan"
         },
         {
          "en": "Ask if they will ask you questions",
-         "id": "Tanyakan apakah mereka akan bertanya kepadamu"
+         "id": "Bertanya apakah ia akan mengajukan pertanyaan kepadamu"
         }
        ],
        "correct": 2,
        "why": {
         "en": "The talker style still needs to leave with evidence to justify a yes.",
-        "id": "Gaya banyak bicara tetap harus pulang dengan bukti untuk membenarkan “ya”."
+        "id": "Pewawancara yang banyak bicara pun tetap harus pulang membawa bukti untuk berkata “ya”."
        }
       }
      ],
@@ -1085,35 +1085,35 @@ window.MT_LMS['the-rope'] = {
       "returnTo": 1,
       "label": {
        "en": "Drill “Why should we hire you?” now",
-       "id": "Latih “Mengapa kami harus merekrut Anda?” sekarang"
+       "id": "Latih “Kenapa kami harus merekrut Anda?” sekarang"
       },
       "desc": {
        "en": "One question with the HR persona. Give three reasons with evidence. The debrief reads whether you named a real requirement and a real result, not adjectives.",
-       "id": "Satu pertanyaan dengan persona HR. Beri tiga alasan dengan bukti; debrief membaca apakah kamu menyebut persyaratan nyata dan hasil nyata, bukan kata sifat."
+       "id": "Satu pertanyaan bersama persona HR. Sampaikan tiga alasan beserta buktinya. Tinjauannya akan melihat apakah kamu menyebut syarat yang nyata dan hasil yang nyata, bukan kata sifat."
       }
      },
      "takeaways": [
       {
        "en": "An interview reduces one uncertainty: can you do it, will you, will you fit.",
-       "id": "Wawancara mengurangi satu ketidakpastian: bisakah kamu, maukah kamu, cocokkah kamu."
+       "id": "Wawancara mengurangi satu keraguan: bisakah kamu, maukah kamu, cocokkah kamu."
       },
       {
        "en": "Real stories survive probing; rehearsed claims don’t.",
-       "id": "Cerita nyata bertahan saat digali; klaim hafalan tidak."
+       "id": "Cerita nyata tahan digali; klaim hafalan tidak."
       },
       {
        "en": "You are evaluating them too; arrive with questions and leave with notes.",
-       "id": "Kamu juga mengevaluasi mereka; datang dengan pertanyaan dan pulang dengan catatan."
+       "id": "Kamu juga sedang menilai mereka; datanglah membawa pertanyaan dan pulanglah membawa catatan."
       }
      ],
      "resources": {
       "title": {
        "en": "Sources and the uncertainty audit",
-       "id": "Sumber dan audit ketidakpastian"
+       "id": "Sumber dan pendataan keraguan"
       },
       "lead": {
        "en": "Three sources, and the one-page audit to run before every process.",
-       "id": "Tiga sumber, dan audit satu halaman untuk dijalankan sebelum setiap proses."
+       "id": "Tiga sumber, dan satu halaman pendataan yang perlu kamu isi sebelum setiap proses rekrutmen."
       },
       "items": [
        {
@@ -1124,24 +1124,24 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "Frameworks paraphrased and attributed; contested claims graded in Appendix C of the blueprint.",
-         "id": "Kerangka diparafrasakan dan diatribusikan; klaim yang diperdebatkan dinilai di Lampiran C cetak biru."
+         "id": "Kerangka dari sumber-sumber ini kami tulis ulang dan sebutkan asalnya; klaim yang masih diperdebatkan dinilai di Lampiran C cetak biru."
         },
         "body": [
          {
           "en": "J. Kador, <i>The Manager’s Book of Questions</i> (rev. ed., 2006), Introduction, behavioural questioning; why interviewers probe.",
-          "id": "J. Kador, <i>The Manager’s Book of Questions</i> (ed. rev., 2006), Pendahuluan, pertanyaan perilaku; mengapa pewawancara menggali."
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i> (ed. revisi, 2006), Pendahuluan: pertanyaan berbasis perilaku; mengapa pewawancara menggali."
          },
          {
           "en": "E. Pellett, <i>Cracking the Code to a Successful Interview</i> (2016), interviewer types.",
-          "id": "E. Pellett, <i>Cracking the Code to a Successful Interview</i> (2016), tipe-tipe pewawancara."
+          "id": "E. Pellett, <i>Cracking the Code to a Successful Interview</i> (2016): tipe-tipe pewawancara."
          },
          {
           "en": "R. N. Bolles, <i>What Color Is Your Parachute?</i>, interview chapter; the candidate’s own questions; the two-way decision.",
-          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i>, bab wawancara, pertanyaan kandidat sendiri; keputusan dua arah."
+          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i>, bab wawancara: pertanyaan dari kandidat sendiri; keputusan dua arah."
          },
          {
           "en": "R. Ryan, <i>60 Seconds & You’re Hired!</i> The interviewer’s risk.",
-          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i> Risiko pewawancara."
+          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i>: risiko di pihak pewawancara."
          }
         ]
        },
@@ -1149,32 +1149,32 @@ window.MT_LMS['the-rope'] = {
         "kind": "worksheet",
         "title": {
          "en": "The uncertainty audit",
-         "id": "Audit ketidakpastian"
+         "id": "Pendataan keraguan"
         },
         "desc": {
          "en": "One page per target; the first entry in your Interview Kit.",
-         "id": "Satu halaman per sasaran; entri pertama di Perangkat Wawancaramu."
+         "id": "Satu halaman untuk setiap sasaran; isian pertama di Perangkat Wawancara-mu."
         },
         "body": [
          {
           "en": "Target role and employer · stage I am preparing for",
-          "id": "Peran dan perusahaan sasaran · tahap yang saya siapkan"
+          "id": "Posisi dan perusahaan sasaran · tahap yang sedang saya siapkan"
          },
          {
           "en": "Uncertainty 1 (can do): … · evidence I have: … · story to build: …",
-          "id": "Ketidakpastian 1 (bisa): … · bukti yang saya punya: … · cerita yang dibangun: …"
+          "id": "Keraguan 1 (bisa): … · bukti yang saya punya: … · cerita yang perlu disiapkan: …"
          },
          {
           "en": "Uncertainty 2 (will do): … · evidence: … · truthful sentence if it is an eligibility question: …",
-          "id": "Ketidakpastian 2 (mau): … · bukti: … · kalimat jujur jika ini pertanyaan kelayakan: …"
+          "id": "Keraguan 2 (mau): … · bukti: … · kalimat jujur kalau ini soal kelayakan: …"
          },
          {
           "en": "Uncertainty 3 (will fit): … · evidence: … · story to build: …",
-          "id": "Ketidakpastian 3 (cocok): … · bukti: … · cerita yang dibangun: …"
+          "id": "Keraguan 3 (cocok): … · bukti: … · cerita yang perlu disiapkan: …"
          },
          {
           "en": "Two things I am deciding about them, and the question that will tell me",
-          "id": "Dua hal yang saya putuskan tentang mereka, dan pertanyaan yang akan memberitahu saya"
+          "id": "Dua hal yang sedang saya putuskan tentang mereka, dan pertanyaan yang akan menjawabnya"
          }
         ]
        }
@@ -1187,15 +1187,15 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "How Answers Are Scored",
-      "id": "Bagaimana Jawaban Dinilai"
+      "id": "Cara Jawaban Dinilai"
      },
      "overview": {
       "en": "In a structured interview, your answer is not judged by whether the interviewer “liked” it. It is compared against a written description of what a weak, acceptable, good and excellent answer looks like for that competency. If you know how the scoresheet is built, you know what to put in your answer, and you know why consistency across rounds is itself scored, why numbers only count when they prove a result, and which red flags override a good score.",
-      "id": "Dalam wawancara terstruktur, jawabanmu tidak dinilai dari apakah pewawancara “menyukainya”. Jawabanmu dibandingkan dengan deskripsi tertulis tentang seperti apa jawaban lemah, cukup, baik, dan sangat baik untuk kompetensi itu. Jika kamu tahu cara lembar penilaian dibangun, kamu tahu apa yang harus masuk ke jawabanmu, dan kamu tahu mengapa konsistensi lintas ronde ikut dinilai, mengapa angka hanya bernilai jika membuktikan hasil, dan tanda bahaya mana yang menggugurkan skor yang baik."
+      "id": "Dalam wawancara terstruktur, jawabanmu tidak dinilai dari apakah pewawancara “suka” atau tidak. Jawabanmu dibandingkan dengan uraian tertulis tentang seperti apa jawaban yang lemah, cukup, baik, dan sangat baik untuk sebuah kompetensi. Kalau kamu tahu bagaimana lembar penilaian itu disusun, kamu tahu apa yang perlu ada di jawabanmu. Kamu juga akan paham mengapa konsistensi antarbabak ikut dinilai, mengapa angka baru berarti kalau membuktikan hasil, dan tanda bahaya apa saja yang bisa menggugurkan nilai yang bagus."
      },
      "objectives": [
       {
@@ -1204,15 +1204,15 @@ window.MT_LMS['the-rope'] = {
       },
       {
        "en": "Identify the five features that separate a “4” answer from a “2” answer.",
-       "id": "Mengenali lima ciri yang membedakan jawaban “4” dari jawaban “2”."
+       "id": "Mengenali lima ciri yang membedakan jawaban bernilai “4” dari jawaban bernilai “2”."
       },
       {
        "en": "Describe how multiple interviewers combine scores, and why consistency across rounds matters.",
-       "id": "Menggambarkan cara beberapa pewawancara menggabungkan skor, dan mengapa konsistensi lintas ronde penting."
+       "id": "Menjelaskan cara beberapa pewawancara menggabungkan nilai, dan mengapa konsistensi antarbabak penting."
       },
       {
        "en": "Recognise the red flags that override a good score.",
-       "id": "Mengenali tanda bahaya yang menggugurkan skor yang baik."
+       "id": "Mengenali tanda bahaya yang bisa menggugurkan nilai yang bagus."
       }
      ],
      "readFirst": {
@@ -1226,25 +1226,25 @@ window.MT_LMS['the-rope'] = {
         "n": "1.2",
         "title": {
          "en": "How Answers Are Scored",
-         "id": "Bagaimana Jawaban Dinilai"
+         "id": "Cara Jawaban Dinilai"
         }
        },
        "story": [
         {
          "en": "The scoresheet lists four to seven competencies, each scored on written behavioural anchors",
-         "id": "Lembar penilaian memuat empat sampai tujuh kompetensi, masing-masing dinilai dengan jangkar perilaku tertulis"
+         "id": "Lembar penilaian berisi empat sampai tujuh kompetensi, masing-masing dinilai dengan jangkar perilaku tertulis"
         },
         {
          "en": "A top score needs all five marks; a 2 is a real example missing your own actions or the result",
-         "id": "Nilai tertinggi butuh kelima tanda; nilai 2 adalah contoh nyata yang kehilangan tindakanmu sendiri atau hasilnya"
+         "id": "Nilai tertinggi butuh kelima ciri; nilai 2 adalah contoh nyata tanpa tindakanmu sendiri atau tanpa hasil"
         },
         {
          "en": "Five red flags override a strong technical score",
-         "id": "Lima tanda bahaya ini mengalahkan nilai teknis yang kuat"
+         "id": "Lima tanda bahaya ini bisa mengalahkan nilai teknis yang tinggi"
         },
         {
          "en": "Interviewers compare notes after you leave; one source of truth keeps your numbers identical in every room",
-         "id": "Para pewawancara mencocokkan catatan setelah kamu pergi; satu sumber kebenaran menjaga angkamu sama di setiap ruangan"
+         "id": "Para pewawancara mencocokkan catatan setelah kamu pulang; satu catatan fakta menjaga angkamu tetap sama di setiap ruangan"
         }
        ],
        "takes": [
@@ -1255,17 +1255,17 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "Trained interviewers write evidence next to the score, not adjectives.",
-          "id": "Pewawancara terlatih menulis bukti di sebelah skor, bukan kata sifat."
+          "id": "Pewawancara terlatih menulis bukti di samping nilainya, bukan kata sifat."
          }
         },
         {
          "h": {
           "en": "What a 4 looks like",
-          "id": "Seperti apa nilai 4"
+          "id": "Seperti apa jawaban bernilai 4"
          },
          "p": {
           "en": "A 2 has a real example but the candidate’s own actions or the result are missing.",
-          "id": "Nilai 2 punya contoh nyata tetapi tindakan kandidat sendiri atau hasilnya hilang."
+          "id": "Jawaban bernilai 2 punya contoh nyata, tetapi tindakan kandidat sendiri atau hasilnya tidak muncul."
          }
         },
         {
@@ -1285,7 +1285,7 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "One source of truth, your Story Bank, keeps the numbers the same in every room.",
-          "id": "Satu sumber kebenaran, Bank Ceritamu, menjaga angka tetap sama di setiap ruangan."
+          "id": "Satu sumber fakta, yaitu Bank Ceritamu, menjaga angkamu tetap sama di setiap ruangan."
          }
         }
        ],
@@ -1294,7 +1294,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "The scoresheet lists four to seven competencies, each scored on written behavioural anchors",
-          "id": "Lembar penilaian memuat empat sampai tujuh kompetensi, masing-masing dinilai dengan jangkar perilaku tertulis"
+          "id": "Lembar penilaian berisi empat sampai tujuh kompetensi, masing-masing dinilai dengan jangkar perilaku tertulis"
          },
          "img": "../../assets/bg/stage-graduation.jpg",
          "layout": "statement",
@@ -1302,12 +1302,12 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "clipboard",
            "en": "Four to seven competencies for the role, one or two questions each, a rating scale with behavioural descriptions.",
-           "id": "Empat hingga tujuh kompetensi untuk peran, satu atau dua pertanyaan masing-masing, skala penilaian dengan deskripsi perilaku."
+           "id": "Empat sampai tujuh kompetensi untuk posisi itu, satu atau dua pertanyaan per kompetensi, dan skala penilaian berisi uraian perilaku."
           }
          ],
          "take": {
           "en": "Trained interviewers write evidence next to the score, not adjectives.",
-          "id": "Pewawancara terlatih menulis bukti di sebelah skor, bukan kata sifat."
+          "id": "Pewawancara terlatih menulis bukti di samping nilainya, bukan kata sifat."
          },
          "medal": "clipboard",
          "em": {
@@ -1319,7 +1319,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "A top score needs all five marks; a 2 is a real example missing your own actions or the result",
-          "id": "Nilai tertinggi butuh kelima tanda; nilai 2 adalah contoh nyata yang kehilangan tindakanmu sendiri atau hasilnya"
+          "id": "Nilai tertinggi butuh kelima ciri; nilai 2 adalah contoh nyata tanpa tindakanmu sendiri atau tanpa hasil"
          },
          "layout": "grid",
          "items": [
@@ -1336,10 +1336,10 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "person",
            "en": "owned",
-           "id": "dimiliki",
+           "id": "milikmu",
            "d": {
             "en": "Your own actions, said in the first person.",
-            "id": "Tindakanmu sendiri, diucapkan sebagai \"saya\"."
+            "id": "Tindakanmu sendiri, diceritakan dengan “saya”."
            },
            "img": "../../assets/bg/map.jpg"
           },
@@ -1349,14 +1349,14 @@ window.MT_LMS['the-rope'] = {
            "id": "beralasan",
            "d": {
             "en": "Why you chose that action over the alternatives.",
-            "id": "Mengapa kamu memilih tindakan itu, bukan yang lain."
+            "id": "Kenapa kamu memilih tindakan itu, bukan yang lain."
            },
            "img": "../../assets/bg/stage-execution.jpg"
           },
           {
            "icon": "chart",
            "en": "resulted",
-           "id": "berhasil",
+           "id": "ada hasilnya",
            "d": {
             "en": "A result someone could check.",
             "id": "Hasil yang bisa diperiksa orang lain."
@@ -1366,7 +1366,7 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "eye",
            "en": "reflected",
-           "id": "direfleksikan",
+           "id": "ada refleksinya",
            "d": {
             "en": "What you would keep or change next time.",
             "id": "Apa yang akan kamu pertahankan atau ubah lain kali."
@@ -1376,68 +1376,68 @@ window.MT_LMS['the-rope'] = {
          ],
          "take": {
           "en": "A 2 has a real example but the candidate’s own actions or the result are missing.",
-          "id": "Nilai 2 punya contoh nyata tetapi tindakan kandidat sendiri atau hasilnya hilang."
+          "id": "Jawaban bernilai 2 punya contoh nyata, tetapi tindakan kandidat sendiri atau hasilnya tidak muncul."
          },
          "em": {
           "en": "all five marks",
-          "id": "kelima tanda"
+          "id": "kelima ciri"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Five red flags override a strong technical score",
-          "id": "Lima tanda bahaya ini mengalahkan nilai teknis yang kuat"
+          "id": "Lima tanda bahaya ini bisa mengalahkan nilai teknis yang tinggi"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "refresh",
            "en": "Inconsistency between rounds",
-           "id": "Inkonsistensi antar-putaran",
+           "id": "Fakta berubah antartahap",
            "d": {
             "en": "A number or fact that changes between interviewers.",
-            "id": "Angka atau fakta yang berubah antar-pewawancara."
+            "id": "Angka atau fakta yang berubah dari satu pewawancara ke yang lain."
            },
            "img": "../../assets/bg/ep-stage-transition.jpg"
           },
           {
            "icon": "hand",
            "en": "Blame",
-           "id": "Menyalahkan",
+           "id": "Menyalahkan orang lain",
            "d": {
             "en": "Failures explained entirely by other people.",
-            "id": "Kegagalan yang sepenuhnya disalahkan pada orang lain."
+            "id": "Kegagalan yang seluruhnya ditimpakan ke orang lain."
            },
            "img": "../../assets/pe/th-stakeholders.jpg"
           },
           {
            "icon": "users",
            "en": "Disrespect to junior staff",
-           "id": "Tidak menghormati staf junior",
+           "id": "Meremehkan staf junior",
            "d": {
             "en": "Courtesy that switches off for the receptionist.",
-            "id": "Kesopanan yang padam di depan resepsionis."
+            "id": "Sopan ke pewawancara, tetapi ketus ke resepsionis."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           },
           {
            "icon": "question",
            "en": "No questions",
-           "id": "Tanpa pertanyaan",
+           "id": "Tidak punya pertanyaan",
            "d": {
             "en": "Nothing to ask when the floor is yours.",
-            "id": "Tidak ada yang ditanyakan saat giliranmu tiba."
+            "id": "Tidak bertanya apa pun saat diberi kesempatan."
            },
            "img": "../../assets/pe/ed-conversations.jpg"
           },
           {
            "icon": "coin",
            "en": "Unreasoned salary demands",
-           "id": "Tuntutan gaji tanpa alasan",
+           "id": "Minta gaji tanpa dasar",
            "d": {
             "en": "A figure with no market reference behind it.",
-            "id": "Angka tanpa acuan pasar di belakangnya."
+            "id": "Angka yang tidak didukung data gaji pasar."
            },
            "img": "../../assets/bg/negotiation.jpg"
           }
@@ -1448,14 +1448,14 @@ window.MT_LMS['the-rope'] = {
          },
          "em": {
           "en": "override a strong technical score",
-          "id": "mengalahkan nilai teknis yang kuat"
+          "id": "bisa mengalahkan nilai teknis yang tinggi"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Interviewers compare notes after you leave; one source of truth keeps your numbers identical in every room",
-          "id": "Para pewawancara mencocokkan catatan setelah kamu pergi; satu sumber kebenaran menjaga angkamu sama di setiap ruangan"
+          "id": "Para pewawancara mencocokkan catatan setelah kamu pulang; satu catatan fakta menjaga angkamu tetap sama di setiap ruangan"
          },
          "img": "../../assets/pe/ed-board.jpg",
          "layout": "list",
@@ -1463,29 +1463,29 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "users",
            "en": "Interviewers compare notes",
-           "id": "Pewawancara membandingkan catatan",
+           "id": "Para pewawancara membandingkan catatan",
            "l": {
             "en": "The debrief",
-            "id": "Debrief"
+            "id": "Rapat evaluasi"
            }
           },
           {
            "icon": "warn",
            "en": "inconsistencies become the topic.",
-           "id": "ketidakkonsistenan menjadi topiknya.",
+           "id": "cerita yang tidak konsisten jadi bahan pembahasan.",
            "l": {
             "en": "The topic",
-            "id": "Topiknya"
+            "id": "Yang dibahas"
            }
           }
          ],
          "take": {
           "en": "One source of truth, your Story Bank, keeps the numbers the same in every room.",
-          "id": "Satu sumber kebenaran, Bank Ceritamu, menjaga angka tetap sama di setiap ruangan."
+          "id": "Satu sumber fakta, yaitu Bank Ceritamu, menjaga angkamu tetap sama di setiap ruangan."
          },
          "em": {
           "en": "one source of truth",
-          "id": "satu sumber kebenaran"
+          "id": "satu catatan fakta"
          }
         }
        ]
@@ -1496,11 +1496,11 @@ window.MT_LMS['the-rope'] = {
       },
       "title": {
        "en": "You are scored against anchors, not against a mood",
-       "id": "Kamu dinilai terhadap jangkar, bukan suasana hati"
+       "id": "Kamu dinilai dengan jangkar, bukan dengan suasana hati"
       },
       "intro": {
        "en": "The scoresheet is the least visible and most decisive object in the room. This deck shows what is written on it.",
-       "id": "Lembar penilaian adalah benda paling tak terlihat dan paling menentukan di ruangan. Deck ini menunjukkan apa yang tertulis di dalamnya."
+       "id": "Lembar penilaian adalah benda yang paling tidak terlihat sekaligus paling menentukan di ruang wawancara. Slide ini memperlihatkan isinya."
       },
       "slides": [
        {
@@ -1511,27 +1511,27 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Four to seven competencies for the role, one or two questions each, a rating scale with behavioural descriptions.",
-          "id": "Empat hingga tujuh kompetensi untuk peran, satu atau dua pertanyaan masing-masing, skala penilaian dengan deskripsi perilaku."
+          "id": "Empat sampai tujuh kompetensi untuk posisi itu, satu atau dua pertanyaan per kompetensi, dan skala penilaian berisi uraian perilaku."
          },
          {
           "en": "Trained interviewers write evidence next to the score, not adjectives.",
-          "id": "Pewawancara terlatih menulis bukti di sebelah skor, bukan kata sifat."
+          "id": "Pewawancara terlatih menulis bukti di samping nilainya, bukan kata sifat."
          }
         ]
        },
        {
         "h": {
          "en": "What a 4 looks like",
-         "id": "Seperti apa nilai 4"
+         "id": "Seperti apa jawaban bernilai 4"
         },
         "points": [
          {
           "en": "Specific · owned · reasoned · resulted · reflected.",
-          "id": "Spesifik · dimiliki · beralasan · berhasil · direfleksikan."
+          "id": "Spesifik · milikmu · beralasan · ada hasilnya · ada refleksinya."
          },
          {
           "en": "A 2 has a real example but the candidate’s own actions or the result are missing.",
-          "id": "Nilai 2 punya contoh nyata tetapi tindakan kandidat sendiri atau hasilnya hilang."
+          "id": "Jawaban bernilai 2 punya contoh nyata, tetapi tindakan kandidat sendiri atau hasilnya tidak muncul."
          }
         ]
        },
@@ -1543,11 +1543,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Inconsistency between rounds, blame, disrespect to junior staff, no questions, unreasoned salary demands.",
-          "id": "Ketidakkonsistenan antar ronde, menyalahkan, tidak hormat pada staf junior, tanpa pertanyaan, tuntutan gaji tanpa alasan."
+          "id": "Cerita yang berubah antarbabak, menyalahkan orang lain, tidak sopan pada staf junior, tidak bertanya apa pun, permintaan gaji tanpa alasan."
          },
          {
           "en": "A strong technical score does not survive them.",
-          "id": "Skor teknis yang kuat tidak bertahan dari itu."
+          "id": "Nilai teknis yang tinggi pun tidak bisa menyelamatkanmu dari hal-hal ini."
          }
         ]
        },
@@ -1559,11 +1559,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Interviewers compare notes; inconsistencies become the topic.",
-          "id": "Pewawancara membandingkan catatan; ketidakkonsistenan menjadi topiknya."
+          "id": "Para pewawancara membandingkan catatan; cerita yang tidak konsisten jadi bahan pembahasan."
          },
          {
           "en": "One source of truth, your Story Bank, keeps the numbers the same in every room.",
-          "id": "Satu sumber kebenaran, Bank Ceritamu, menjaga angka tetap sama di setiap ruangan."
+          "id": "Satu sumber fakta, yaitu Bank Ceritamu, menjaga angkamu tetap sama di setiap ruangan."
          }
         ]
        }
@@ -1579,14 +1579,14 @@ window.MT_LMS['the-rope'] = {
         "id": "Lembar penilaian"
        },
        "body": {
-        "en": "Most large employers, banks, state-owned enterprise, multinationals, use a competency-based interview guide: a list of four to seven competencies for the role, one or two questions for each, and a rating scale with behavioural descriptions. state-owned enterprise processes frequently map to the AKHLAK core values (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif) <span class=\"ev ev-verify\">Verify: current state-owned enterprise core-values guidance</span>. Startups and smaller firms often use lighter versions or none, but trained interviewers still listen for the same things, and untrained ones are persuaded by the same things without knowing why. A typical anchored scale for <i>problem solving</i> reads like the table below. Notice that nothing in it rewards confidence, vocabulary or charm; every row is about what the answer <i>contains</i>.",
-        "id": "Sebagian besar perusahaan besar Indonesia, bank, BUMN, multinasional, memakai panduan wawancara berbasis kompetensi: daftar empat hingga tujuh kompetensi untuk peran, satu atau dua pertanyaan masing-masing, dan skala penilaian dengan deskripsi perilaku. Proses BUMN sering memetakan ke nilai inti AKHLAK (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif) <span class=\"ev ev-verify\">Verifikasi: panduan nilai inti BUMN terkini</span>. Startup dan perusahaan kecil sering memakai versi ringan atau tidak sama sekali, tetapi pewawancara terlatih tetap mendengarkan hal yang sama, dan yang tidak terlatih terbujuk oleh hal yang sama tanpa tahu mengapa. Skala berjangkar yang lazim untuk <i>pemecahan masalah</i> terbaca seperti tabel di bawah. Perhatikan tidak ada yang mengganjar kepercayaan diri, kosakata, atau pesona; setiap baris tentang apa yang <i>dikandung</i> jawaban."
+        "en": "Most large employers (banks, state-owned enterprises, multinationals) use a competency-based interview guide: a list of four to seven competencies for the role, one or two questions for each, and a rating scale with behavioural descriptions. State-owned enterprise processes frequently map to the AKHLAK core values (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif) <span class=\"ev ev-verify\">Verify: current state-owned enterprise core-values guidance</span>. Startups and smaller firms often use lighter versions or none, but trained interviewers still listen for the same things, and untrained ones are persuaded by the same things without knowing why. A typical anchored scale for <i>problem solving</i> reads like the table below. Notice that nothing in it rewards confidence, vocabulary or charm; every row is about what the answer <i>contains</i>.",
+        "id": "Sebagian besar perusahaan besar, seperti bank, BUMN (badan usaha milik negara), dan perusahaan multinasional, memakai panduan wawancara berbasis kompetensi. Isinya: empat sampai tujuh kompetensi untuk posisi itu, satu atau dua pertanyaan untuk masing-masing, dan skala penilaian yang berisi uraian perilaku. Proses rekrutmen BUMN sering mengacu pada nilai utama AKHLAK (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif) <span class=\"ev ev-verify\">Cek ulang: panduan nilai utama BUMN yang berlaku</span>. Startup dan perusahaan yang lebih kecil sering memakai versi yang lebih sederhana, bahkan tidak memakainya sama sekali. Meski begitu, pewawancara yang terlatih tetap mendengarkan hal yang sama, dan yang tidak terlatih pun terkesan oleh hal yang sama, hanya saja tanpa sadar alasannya. Skala berjangkar yang lazim untuk kompetensi <i>pemecahan masalah</i> kira-kira seperti tabel di bawah. Perhatikan: tidak ada satu baris pun yang memberi nilai untuk rasa percaya diri, pilihan kata, atau pesona. Setiap baris menilai apa yang <i>ada di dalam</i> jawabanmu."
        },
        "table": {
         "cols": [
          {
           "en": "Score",
-          "id": "Skor"
+          "id": "Nilai"
          },
          {
           "en": "Anchor: what the interviewer hears",
@@ -1601,7 +1601,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Vague or hypothetical; no specific example; blames others",
-           "id": "Samar atau hipotetis; tanpa contoh spesifik; menyalahkan orang lain"
+           "id": "Samar atau berandai-andai; tidak ada contoh spesifik; menyalahkan orang lain"
           }
          ],
          [
@@ -1611,7 +1611,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "A real example, but the candidate’s own actions are unclear or the result is missing",
-           "id": "Contoh nyata, tetapi tindakan kandidat sendiri tidak jelas atau hasilnya hilang"
+           "id": "Ada contoh nyata, tetapi tindakan kandidat sendiri tidak jelas atau hasilnya tidak disebut"
           }
          ],
          [
@@ -1621,7 +1621,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "A specific example; clear personal actions; a result; some reasoning",
-           "id": "Contoh spesifik; tindakan pribadi jelas; hasil; sedikit alasan"
+           "id": "Contoh yang spesifik; tindakan pribadi yang jelas; ada hasil; ada sedikit alasan"
           }
          ],
          [
@@ -1631,13 +1631,13 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "All of 3, plus: explained <i>why</i> they chose the approach, considered alternatives, measurable result, and a learning applied later",
-           "id": "Semua di 3, plus: menjelaskan <i>mengapa</i> memilih pendekatan itu, mempertimbangkan alternatif, hasil terukur, dan pembelajaran yang diterapkan kemudian"
+           "id": "Semua ciri nilai 3, ditambah: menjelaskan <i>mengapa</i> memilih cara itu, menimbang pilihan lain, hasilnya terukur, dan ada pelajaran yang kemudian diterapkan"
           }
          ]
         ],
         "caption": {
          "en": "An anchored scale for problem solving. The simulator’s debrief shows the same four rows against your answer.",
-         "id": "Skala berjangkar untuk pemecahan masalah. Debrief simulator menunjukkan empat baris yang sama terhadap jawabanmu."
+         "id": "Skala berjangkar untuk pemecahan masalah. Tinjauan di simulator menampilkan keempat baris yang sama di samping jawabanmu."
         }
        }
       },
@@ -1645,38 +1645,38 @@ window.MT_LMS['the-rope'] = {
        "icon": "check",
        "h": {
         "en": "The five features of a top-anchor answer",
-        "id": "Lima ciri jawaban di jangkar teratas"
+        "id": "Lima ciri jawaban bernilai tertinggi"
        },
        "body": {
         "en": "Across interviewer guides <i>(Kador; Graham, Switchers; Pellett)</i> the same features recur, and they are the checklist the simulator scores against.",
-        "id": "Di berbagai panduan pewawancara <i>(Kador; Graham, Switchers; Pellett)</i> ciri yang sama berulang, dan itulah daftar periksa yang dinilai simulator."
+        "id": "Di berbagai buku panduan untuk pewawancara <i>(Kador; Graham, Switchers; Pellett)</i>, ciri yang sama muncul berulang kali. Kelima ciri inilah daftar periksa yang dipakai simulator untuk menilai jawabanmu."
        },
        "bullets": [
         {
          "en": "<b>Specific</b>: one real situation, with when and where. “Di minggu ketiga internship di operasional cabang…”",
-         "id": "<b>Spesifik</b>: satu situasi nyata, dengan kapan dan di mana. “Di minggu ketiga magang di operasional cabang…”"
+         "id": "<b>Spesifik</b>: satu situasi nyata, lengkap dengan kapan dan di mana. “Di minggu ketiga magang di operasional cabang…”"
         },
         {
          "en": "<b>Owned</b>: “saya” for your actions; “kami” only for the shared context.",
-         "id": "<b>Dimiliki</b>: “saya” untuk tindakanmu; “kami” hanya untuk konteks bersama."
+         "id": "<b>Milikmu</b>: “saya” untuk tindakanmu sendiri; “kami” hanya untuk konteks bersama."
         },
         {
          "en": "<b>Reasoned</b>: why you did it that way; the part most candidates skip, and the commonest 3→4 gap.",
-         "id": "<b>Beralasan</b>: mengapa kamu melakukannya dengan cara itu; bagian yang paling sering dilewati kandidat, dan celah 3→4 yang paling umum."
+         "id": "<b>Beralasan</b>: mengapa kamu memilih cara itu. Bagian inilah yang paling sering dilewatkan kandidat, dan paling sering menjadi pembeda antara nilai 3 dan 4."
         },
         {
          "en": "<b>Resulted</b>: an outcome, measured where honest numbers exist; observable where they don’t (“the lecturer adopted our template for the next cohort”).",
-         "id": "<b>Berhasil</b>: sebuah hasil, terukur jika angka jujur ada; teramati jika tidak (“dosen mengadopsi templat kami untuk angkatan berikutnya”)."
+         "id": "<b>Ada hasilnya</b>: sebuah hasil, terukur kalau memang ada angka yang jujur; kalau tidak ada, cukup yang bisa diamati (“dosen memakai templat kami untuk angkatan berikutnya”)."
         },
         {
          "en": "<b>Reflected</b>: what you learned or would change, and evidence you applied it.",
-         "id": "<b>Direfleksikan</b>: apa yang kamu pelajari atau akan kamu ubah, dan bukti kamu menerapkannya."
+         "id": "<b>Ada refleksinya</b>: apa yang kamu pelajari atau akan kamu ubah, dan bukti bahwa kamu sudah menerapkannya."
         }
        ],
        "after": [
         {
          "en": "<b>Numbers are not the point.</b> A number is valuable because it proves a result happened and gives it scale. A number without a result (“I was one of five members”) adds nothing, and inventing one is the fastest way to fail the second probe. The simulator’s scoring credits numbers only when they sit inside a result sentence; digits elsewhere do not count.",
-         "id": "<b>Angka bukan intinya.</b> Angka berharga karena membuktikan sebuah hasil terjadi dan memberinya skala. Angka tanpa hasil (“saya salah satu dari lima anggota”) tidak menambah apa pun, dan mengarangnya adalah cara tercepat gagal di galian kedua. Penilaian simulator menghargai angka hanya jika berada di dalam kalimat hasil; digit di tempat lain tidak dihitung."
+         "id": "<b>Angka bukan tujuannya.</b> Angka berharga karena membuktikan sebuah hasil benar-benar terjadi dan menunjukkan seberapa besar hasil itu. Angka tanpa hasil (“saya salah satu dari lima anggota”) tidak menambah apa pun, dan angka karangan adalah cara tercepat untuk tumbang di galian kedua. Simulator hanya menghitung angka yang berada di dalam kalimat hasil; angka di bagian lain tidak dihitung."
         }
        ]
       },
@@ -1684,32 +1684,32 @@ window.MT_LMS['the-rope'] = {
        "icon": "users",
        "h": {
         "en": "Humility calibration: the local twist",
-        "id": "Kalibrasi kerendahan hati: sentuhan Indonesia"
+        "id": "Menakar rendah hati: tantangan khas di sini"
        },
        "body": {
         "en": "In many local rooms, heavy self-promotion reads as <i>sombong</i>, while too much “we” reads as no contribution. Mills warns that “we” hides what you actually did <i>(Mills, You’re Hired! CVs)</i>; Fry argues “we” projects belonging <i>(Fry, 101 Smart Questions)</i>. The Rope resolves it with the <b>we → I → we</b> shape: set the shared context (“Tim kami lima orang…”), state your specific part in first person (“Saya yang menyusun…”), and return credit to the team at the end (“…dan hasilnya tim kami…”). Interviewers get ownership evidence without the candidate sounding boastful; the “kami” at the end is not modesty theatre but a true statement about who benefited. Use “we” freely when talking about the <i>future</i> team you hope to join; that is the belonging Fry means.",
-        "id": "Di banyak ruangan Indonesia, promosi diri berlebihan terbaca <i>sombong</i>, sementara terlalu banyak “kami” terbaca tanpa kontribusi. Mills memperingatkan “kami” menyembunyikan apa yang sebenarnya kamu lakukan <i>(Mills, You’re Hired! CVs)</i>; Fry berpendapat “kami” memancarkan rasa memiliki <i>(Fry, 101 Smart Questions)</i>. The Rope menyelesaikannya dengan bentuk <b>kami → saya → kami</b>: tetapkan konteks bersama (“Tim kami lima orang…”), nyatakan bagianmu dalam orang pertama (“Saya yang menyusun…”), dan kembalikan kredit ke tim di akhir (“…dan hasilnya tim kami…”). Pewawancara mendapat bukti kepemilikan tanpa kandidat terdengar sombong; “kami” di akhir bukan teater kerendahan hati tetapi pernyataan benar tentang siapa yang diuntungkan. Pakai “kami” dengan bebas saat bicara tentang tim <i>masa depan</i> yang ingin kamu masuki; itulah rasa memiliki yang dimaksud Fry."
+        "id": "Di banyak ruang wawancara di Indonesia, terlalu menonjolkan diri terkesan <i>sombong</i>, sementara terlalu banyak “kami” terkesan tidak berkontribusi. Mills mengingatkan bahwa “kami” menyembunyikan apa yang sebenarnya kamu kerjakan <i>(Mills, You’re Hired! CVs)</i>; Fry berpendapat “kami” memperlihatkan rasa memiliki <i>(Fry, 101 Smart Questions)</i>. The Rope menjembatani keduanya dengan pola <b>kami → saya → kami</b>. Buka dengan konteks bersama (“Tim kami lima orang…”), sampaikan bagianmu dengan kata “saya” (“Saya yang menyusun…”), lalu kembalikan pujian kepada tim di akhir (“…dan hasilnya tim kami…”). Pewawancara mendapat bukti peranmu tanpa kamu terdengar menyombongkan diri. “Kami” di akhir cerita juga bukan basa-basi merendah, melainkan pernyataan jujur tentang siapa yang ikut merasakan hasilnya. Kata “kami” atau “kita” boleh kamu pakai dengan leluasa saat membicarakan tim <i>di masa depan</i> yang ingin kamu masuki; itulah rasa memiliki yang dimaksud Fry."
        },
        "table": {
         "cols": [
          {
           "en": "Shape",
-          "id": "Bentuk"
+          "id": "Pola"
          },
          {
           "en": "Sounds like",
-          "id": "Terdengar seperti"
+          "id": "Kedengarannya"
          },
          {
           "en": "What the interviewer writes down",
-          "id": "Yang ditulis pewawancara"
+          "id": "Yang dicatat pewawancara"
          }
         ],
         "rows": [
          [
           {
            "en": "All “kami”",
-           "id": "Semua “kami”"
+           "id": "Semuanya “kami”"
           },
           {
            "en": "“Kami mencari penyebabnya dan kami berhasil…”",
@@ -1723,7 +1723,7 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "All “saya”",
-           "id": "Semua “saya”"
+           "id": "Semuanya “saya”"
           },
           {
            "en": "“Saya yang menemukan, saya yang memperbaiki, saya yang…”",
@@ -1731,7 +1731,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "evidence noted; a private note “sombong?” in a formal panel",
-           "id": "bukti dicatat; catatan pribadi “sombong?” di panel formal"
+           "id": "bukti dicatat; di panel yang formal, ada catatan kecil “sombong?”"
           }
          ],
          [
@@ -1745,7 +1745,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "owned actions + team credit → 3 or 4",
-           "id": "tindakan dimiliki + kredit tim → 3 atau 4"
+           "id": "tindakan pribadi jelas + pujian untuk tim → 3 atau 4"
           }
          ]
         ]
@@ -1755,47 +1755,47 @@ window.MT_LMS['the-rope'] = {
        "icon": "gear",
        "h": {
         "en": "How scores are combined",
-        "id": "Cara skor digabungkan"
+        "id": "Cara nilai digabungkan"
        },
        "body": {
         "en": "In multi-round processes, each interviewer scores separately, then they meet, the debrief, or <i>rapat keputusan</i>, to compare. Inconsistencies get noticed: if your reason for leaving your internship differs between the HR and user rounds, or your numbers change, that becomes the topic of the meeting. <b>Consistency across rounds is itself scored.</b> The remedy is not memorising sentences, recited answers are their own red flag, but keeping one source of truth for facts: your Story Bank (Module 2), where every story carries its numbers, dates and names once. The interviewer’s notes matter more than their memory: in the debrief, nobody remembers your face; they read what was written. So speak in sentences that are easy to write down, a claim, a number, a named result.",
-        "id": "Dalam proses beberapa ronde, tiap pewawancara menilai terpisah, lalu mereka bertemu, rapat evaluasi, atau <i>rapat keputusan</i>, untuk membandingkan. Ketidakkonsistenan terlihat: jika alasanmu meninggalkan magang berbeda antara ronde HR dan user, atau angkamu berubah, itu menjadi topik rapat. <b>Konsistensi lintas ronde ikut dinilai.</b> Obatnya bukan menghafal kalimat, jawaban yang dibacakan adalah tanda bahaya tersendiri, tetapi menjaga satu sumber kebenaran untuk fakta: Bank Ceritamu (Modul 2), tempat setiap cerita membawa angka, tanggal, dan namanya sekali. Catatan pewawancara lebih penting daripada ingatannya: di rapat evaluasi, tidak ada yang mengingat wajahmu; mereka membaca yang tertulis. Maka bicaralah dalam kalimat yang mudah ditulis, klaim, angka, hasil yang bernama."
+        "id": "Dalam proses yang terdiri atas beberapa babak, setiap pewawancara memberi nilai sendiri-sendiri, lalu mereka bertemu untuk membandingkan catatan dalam rapat evaluasi, atau <i>rapat keputusan</i>. Di sinilah ketidakcocokan ketahuan. Kalau alasanmu keluar dari tempat magang berbeda antara babak HR dan babak user, atau angkamu berubah, hal itu akan menjadi bahan pembahasan. <b>Konsistensi antarbabak ikut dinilai.</b> Obatnya bukan menghafal kalimat, karena jawaban yang terdengar dibacakan justru menjadi tanda bahaya tersendiri. Obatnya adalah menyimpan semua fakta di satu tempat: Bank Ceritamu (Modul 2), tempat setiap cerita mencatat angka, tanggal, dan namanya sekali saja. Catatan pewawancara juga lebih menentukan daripada ingatannya. Di rapat evaluasi, tidak ada yang ingat wajahmu; mereka membaca apa yang tertulis. Jadi bicaralah dengan kalimat yang mudah dicatat: satu klaim, satu angka, satu hasil yang jelas."
        }
       },
       {
        "icon": "flag",
        "h": {
         "en": "Red flags that override a good score",
-        "id": "Tanda bahaya yang menggugurkan skor yang baik"
+        "id": "Tanda bahaya yang menggugurkan nilai bagus"
        },
        "body": {
         "en": "A strong technical score can be overridden by a short list of behaviours that every interviewer guide treats as disqualifying, whatever the scoresheet says.",
-        "id": "Skor teknis yang kuat bisa digugurkan oleh daftar pendek perilaku yang diperlakukan setiap panduan pewawancara sebagai penggugur, apa pun kata lembar penilaian."
+        "id": "Nilai teknis yang tinggi bisa gugur karena segelintir perilaku yang dianggap fatal oleh setiap panduan pewawancara, apa pun isi lembar penilaiannya."
        },
        "bullets": [
         {
          "en": "<b>Dishonesty or inconsistency</b>: a changed number, a reason that shifts between rounds, a grade rounded up.",
-         "id": "<b>Ketidakjujuran atau ketidakkonsistenan</b>: angka yang berubah, alasan yang bergeser antar ronde, nilai yang dibulatkan ke atas."
+         "id": "<b>Tidak jujur atau tidak konsisten</b>: angka yang berubah, alasan yang bergeser antarbabak, nilai yang dibulatkan ke atas."
         },
         {
          "en": "<b>Blaming or badmouthing</b> previous teams, employers or lecturers.",
-         "id": "<b>Menyalahkan atau menjelekkan</b> tim, perusahaan, atau dosen sebelumnya."
+         "id": "<b>Menyalahkan atau menjelek-jelekkan</b> tim, perusahaan, atau dosen sebelumnya."
         },
         {
          "en": "<b>Disrespect to junior staff</b>: receptionists, drivers, coordinators; some employers ask them.",
-         "id": "<b>Tidak hormat pada staf junior</b>: resepsionis, sopir, koordinator; sebagian perusahaan bertanya kepada mereka."
+         "id": "<b>Tidak sopan pada staf junior</b>: resepsionis, sopir, koordinator; sebagian perusahaan sengaja menanyakan pendapat mereka."
         },
         {
          "en": "<b>No questions and no knowledge of the company</b>: the “random application” signal.",
-         "id": "<b>Tanpa pertanyaan dan tanpa pengetahuan tentang perusahaan</b>: sinyal “lamaran acak”."
+         "id": "<b>Tidak bertanya apa pun dan tidak tahu apa-apa tentang perusahaan</b>: tanda “asal melamar”."
         },
         {
          "en": "<b>Unrealistic salary demands without reason</b> (Lesson 5.3).",
-         "id": "<b>Tuntutan gaji tidak realistis tanpa alasan</b> (Pelajaran 5.3)."
+         "id": "<b>Meminta gaji yang tidak realistis tanpa alasan</b> (Pelajaran 5.3)."
         },
         {
          "en": "<b>Refusing eligibility conditions</b>, placement, service bond, that the candidate knew about when applying.",
-         "id": "<b>Menolak syarat kelayakan</b>, penempatan, ikatan dinas, yang sudah diketahui kandidat saat melamar."
+         "id": "<b>Menolak syarat kelayakan</b>, seperti penempatan atau ikatan dinas, yang sebenarnya sudah diketahui sejak melamar."
         }
        ]
       }
@@ -1819,18 +1819,18 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "One story, 60–90 seconds, five features present or absent.",
-         "id": "Satu cerita, 60–90 detik, lima ciri ada atau tidak."
+         "id": "Satu cerita, 60–90 detik, kelima ciri ada atau tidak ada."
         }
        },
        {
         "icon": "chart",
         "h": {
          "en": "Rating per competency",
-         "id": "Penilaian per kompetensi"
+         "id": "Nilai per kompetensi"
         },
         "sub": {
          "en": "1–4 against the written anchor for that competency.",
-         "id": "1–4 terhadap jangkar tertulis untuk kompetensi itu."
+         "id": "1–4, dibandingkan dengan jangkar tertulis untuk kompetensi itu."
         }
        },
        {
@@ -1841,7 +1841,7 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Evidence written next to the score; what can be retold, not how it felt.",
-         "id": "Bukti ditulis di sebelah skor; yang bisa diceritakan ulang, bukan bagaimana rasanya."
+         "id": "Bukti ditulis di samping nilai; yang bisa diceritakan ulang, bukan bagaimana rasanya."
         }
        },
        {
@@ -1852,28 +1852,28 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Interviewers compare; inconsistencies across rounds become the agenda; red flags override.",
-         "id": "Pewawancara membandingkan; ketidakkonsistenan antar ronde menjadi agenda; tanda bahaya menggugurkan."
+         "id": "Pewawancara membandingkan catatan; ketidakcocokan antarbabak jadi bahan bahasan; tanda bahaya menggugurkan."
         }
        },
        {
         "icon": "check",
         "h": {
          "en": "Hire · next round · no",
-         "id": "Rekrut · ronde berikutnya · tidak"
+         "id": "Diterima · lanjut · tidak"
         },
         "sub": {
          "en": "Decided on the notes, not on the memory of your face.",
-         "id": "Diputuskan berdasarkan catatan, bukan ingatan tentang wajahmu."
+         "id": "Diputuskan dari catatan, bukan dari ingatan tentang wajahmu."
         }
        }
       ],
       "note": {
        "en": "Speak in sentences that are easy to write down.",
-       "id": "Bicaralah dalam kalimat yang mudah ditulis."
+       "id": "Bicaralah dengan kalimat yang mudah dicatat."
       },
       "longdesc": {
        "en": "A five-step flow: the candidate’s answer; a rating per competency on a one-to-four anchored scale; the interviewer’s written notes with evidence; the debrief where interviewers compare notes, resolve inconsistencies and apply red flags; and the outcome, hire, next round or no.",
-       "id": "Alur lima langkah: jawaban kandidat; penilaian per kompetensi pada skala berjangkar satu hingga empat; catatan tertulis pewawancara dengan bukti; rapat evaluasi tempat pewawancara membandingkan catatan, menyelesaikan ketidakkonsistenan, dan menerapkan tanda bahaya; dan hasilnya, rekrut, ronde berikutnya, atau tidak."
+       "id": "Alur lima langkah: jawaban kandidat; nilai per kompetensi pada skala berjangkar satu sampai empat; catatan tertulis pewawancara berisi bukti; rapat evaluasi tempat para pewawancara membandingkan catatan, membahas ketidakcocokan, dan menerapkan tanda bahaya; lalu hasilnya, diterima, lanjut ke babak berikutnya, atau tidak."
       }
      },
      "compare": [
@@ -1884,19 +1884,19 @@ window.MT_LMS['the-rope'] = {
        },
        "q": {
         "en": "The same question, the same internship, two answers. Rate each against the anchor table before reading why.",
-        "id": "Pertanyaan yang sama, magang yang sama, dua jawaban. Nilai masing-masing terhadap tabel jangkar sebelum membaca alasannya."
+        "id": "Pertanyaan yang sama, pengalaman magang yang sama, dua jawaban. Beri nilai masing-masing dengan tabel jangkar sebelum membaca penjelasannya."
        },
        "weak": {
         "en": "Score 2: “Waktu internship, ada masalah data yang tidak cocok. Kami tim mencari tahu penyebabnya dan akhirnya berhasil diselesaikan. Dari situ saya belajar pentingnya teliti.”",
-        "id": "Skor 2: “Waktu magang, ada masalah data yang tidak cocok. Kami tim mencari tahu penyebabnya dan akhirnya berhasil diselesaikan. Dari situ saya belajar pentingnya teliti.”"
+        "id": "Nilai 2: “Waktu magang, ada masalah data yang tidak cocok. Kami satu tim mencari tahu penyebabnya dan akhirnya berhasil diselesaikan. Dari situ saya belajar pentingnya teliti.”"
        },
        "strong": {
         "en": "Score 4: “Di minggu ketiga internship di operasional cabang, laporan rekonsiliasi harian untuk tiga cabang selisih hampir setiap hari, dan tiap selisih makan waktu teller sekitar tiga puluh menit koreksi manual. Supervisor minta saya cari polanya. Saya ambil data tiga bulan dan kelompokkan per jenis transaksi, ternyata sebagian besar selisih berasal dari satu terminal yang pengaturannya berbeda. Saya usulkan perbaikan pengaturan dan checklist penutupan dengan satu langkah cek terminal, dan uji coba di satu shift dulu supaya tidak mengganggu operasional. Setelah perbaikan, koreksi manual berkurang sekitar tiga puluh menit per hari, dan checklist-nya masih dipakai tim cabang. Kalau mengulang, saya akan libatkan teller sejak awal; minggu pertama ada resistensi karena mereka merasa diawasi.”",
-        "id": "Skor 4: “Di minggu ketiga magang di operasional cabang, laporan rekonsiliasi harian untuk tiga cabang selisih hampir setiap hari, dan tiap selisih makan waktu teller sekitar tiga puluh menit koreksi manual. Supervisor minta saya cari polanya. Saya ambil data tiga bulan dan kelompokkan per jenis transaksi, ternyata sebagian besar selisih berasal dari satu terminal yang pengaturannya berbeda. Saya usulkan perbaikan pengaturan dan checklist penutupan dengan satu langkah cek terminal, dan uji coba di satu shift dulu supaya tidak mengganggu operasional. Setelah perbaikan, koreksi manual berkurang sekitar tiga puluh menit per hari, dan checklist-nya masih dipakai tim cabang. Kalau mengulang, saya akan libatkan teller sejak awal; minggu pertama ada resistensi karena mereka merasa diawasi.”"
+        "id": "Nilai 4: “Di minggu ketiga magang di operasional cabang, laporan rekonsiliasi harian untuk tiga cabang hampir selalu selisih, dan setiap selisih menyita sekitar tiga puluh menit waktu teller untuk koreksi manual. Supervisor meminta saya mencari polanya. Saya mengambil data tiga bulan dan mengelompokkannya per jenis transaksi. Ternyata sebagian besar selisih berasal dari satu terminal yang pengaturannya berbeda. Saya mengusulkan perbaikan pengaturan dan checklist penutupan dengan satu langkah pengecekan terminal, lalu mengujinya di satu sif dulu supaya operasional tidak terganggu. Setelah diperbaiki, koreksi manual berkurang sekitar tiga puluh menit per hari, dan checklist-nya masih dipakai tim cabang sampai sekarang. Kalau diulang, saya akan melibatkan teller sejak awal, karena di minggu pertama mereka sempat menolak; mereka merasa diawasi.”"
        },
        "why": {
         "en": "Specific time and place; owned (“saya ambil data… saya usulkan”); reasoned (“uji coba di satu shift dulu supaya…”); a result with honest scale (about thirty minutes a day, a checklist still in use); reflection with a real lesson. About 140 words, roughly 60 seconds. The score-2 answer is true, and that is the point: truth alone earns a 2. What lifts it is not more feeling but the five features.",
-        "id": "Waktu dan tempat spesifik; dimiliki (“saya ambil data… saya usulkan”); beralasan (“uji coba di satu shift dulu supaya…”); hasil dengan skala jujur (sekitar tiga puluh menit per hari, daftar periksa yang masih dipakai); refleksi dengan pelajaran nyata. Sekitar 140 kata, kira-kira 60 detik. Jawaban skor 2 itu benar, dan itulah intinya: kebenaran saja mendapat 2. Yang mengangkatnya bukan lebih banyak perasaan tetapi lima ciri."
+        "id": "Waktu dan tempatnya spesifik; jelas milik sendiri (“saya mengambil data… saya mengusulkan”); beralasan (“mengujinya di satu sif dulu supaya…”); ada hasil dengan ukuran yang jujur (sekitar tiga puluh menit sehari, checklist yang masih dipakai); ada refleksi dengan pelajaran nyata. Panjangnya sekitar 140 kata, kira-kira 60 detik. Jawaban bernilai 2 itu juga benar, dan justru di situ pelajarannya: kebenaran saja hanya mendapat nilai 2. Yang mengangkatnya bukan perasaan yang lebih kuat, melainkan kelima ciri tadi."
        }
       }
      ],
@@ -1909,11 +1909,11 @@ window.MT_LMS['the-rope'] = {
       "body": [
        {
         "en": "Nadia sees her feedback from a mock panel run by the campus career centre: <i>Teamwork 3, Problem solving 2, Motivation 4.</i> The note on problem solving says “example clear, own contribution unclear”. She replays the recording and counts: she said “kami” nine times and “saya” once. In the sentence “saya belajar pentingnya teliti”. The story was real. Her part in it was invisible.",
-        "id": "Nadia melihat umpan balik dari panel simulasi yang dijalankan pusat karier kampus: <i>Kerja tim 3, Pemecahan masalah 2, Motivasi 4.</i> Catatan pada pemecahan masalah berbunyi “contoh jelas, kontribusi pribadi tidak jelas”. Ia memutar ulang rekaman dan menghitung: ia berkata “kami” sembilan kali dan “saya” sekali; di kalimat “saya belajar pentingnya teliti”. Ceritanya nyata. Bagiannya di dalamnya tak terlihat."
+        "id": "Nadia membaca umpan balik dari simulasi panel yang diadakan pusat karier kampus: <i>Kerja tim 3, Pemecahan masalah 2, Motivasi 4.</i> Catatan untuk pemecahan masalah berbunyi “contohnya jelas, kontribusi pribadi tidak jelas”. Ia memutar ulang rekamannya dan menghitung. Ia mengucapkan “kami” sembilan kali dan “saya” hanya sekali, yaitu di kalimat “saya belajar pentingnya teliti”. Ceritanya nyata, tetapi perannya sendiri tidak terlihat sama sekali."
        },
        {
         "en": "The fix took ten minutes, not a new story: the same events retold as kami → saya → kami, with the three actions that were actually hers stated in first person. Her second recording scored 4 on the same anchor. The lesson she wrote down: the scoresheet cannot give credit for what it cannot hear.",
-        "id": "Perbaikannya butuh sepuluh menit, bukan cerita baru: peristiwa yang sama diceritakan ulang sebagai kami → saya → kami, dengan tiga tindakan yang benar-benar miliknya dinyatakan dalam orang pertama. Rekaman keduanya mendapat 4 pada jangkar yang sama. Pelajaran yang ia tulis: lembar penilaian tidak bisa memberi kredit untuk yang tidak bisa didengarnya."
+        "id": "Perbaikannya cuma butuh sepuluh menit, tanpa cerita baru. Kejadian yang sama ia ceritakan ulang dengan pola kami → saya → kami, dan tiga tindakan yang memang ia kerjakan sendiri ia sampaikan dengan kata “saya”. Rekaman keduanya mendapat nilai 4 pada jangkar yang sama. Pelajaran yang ia catat: lembar penilaian tidak bisa memberi nilai untuk sesuatu yang tidak terdengar."
        }
       ]
      },
@@ -1925,25 +1925,25 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Three answers to “Tell me about working under pressure.” Rate each 1–4 with the anchor table and name the missing feature. <b>A:</b> “I would stay calm and make a list of priorities, then work through them one by one; I think staying organised is the key.” <b>B:</b> “During the national competition, sponsorship fell short two weeks before the event and the team had to find more; we contacted more companies and in the end the budget was covered.” <b>C:</b> “Two weeks before the competition we were Rp25 juta short. I split the remaining prospects by sector and took the eleven food-and-beverage companies myself, called each with a one-page offer, and closed four in nine days; we reached the full Rp85 juta and the event ran as planned.”",
-        "id": "Tiga jawaban untuk “Ceritakan saat bekerja di bawah tekanan.” Nilai masing-masing 1–4 dengan tabel jangkar dan sebutkan ciri yang hilang. <b>A:</b> “Saya akan tetap tenang dan membuat daftar prioritas, lalu mengerjakannya satu per satu; menurut saya tetap terorganisir adalah kuncinya.” <b>B:</b> “Saat kompetisi nasional, sponsor kurang dua minggu sebelum acara dan tim harus mencari lagi; kami menghubungi lebih banyak perusahaan dan akhirnya anggaran tertutup.” <b>C:</b> “Dua minggu sebelum kompetisi kami kurang Rp25 juta. Saya membagi sisa prospek per sektor dan mengambil sendiri sebelas perusahaan makanan-minuman, menelepon masing-masing dengan penawaran satu halaman, dan menutup empat dalam sembilan hari; kami mencapai Rp85 juta penuh dan acara berjalan sesuai rencana.”"
+        "id": "Berikut tiga jawaban untuk “Ceritakan saat Anda bekerja di bawah tekanan.” Beri nilai 1–4 untuk masing-masing dengan tabel jangkar, lalu sebutkan ciri yang hilang. <b>A:</b> “Saya akan tetap tenang dan membuat daftar prioritas, lalu mengerjakannya satu per satu; menurut saya, kuncinya adalah tetap teratur.” <b>B:</b> “Waktu kompetisi nasional, dana sponsor masih kurang dua minggu sebelum acara, jadi tim harus mencari lagi. Kami menghubungi lebih banyak perusahaan dan akhirnya anggarannya terpenuhi.” <b>C:</b> “Dua minggu sebelum kompetisi, dana kami masih kurang Rp25 juta. Saya membagi sisa calon sponsor per sektor dan memegang sendiri sebelas perusahaan makanan dan minuman. Saya menelepon satu per satu dengan proposal satu halaman, dan dalam sembilan hari empat perusahaan setuju. Target Rp85 juta tercapai dan acara berjalan sesuai rencana.”"
        },
        "debrief": {
         "en": "A = 1: hypothetical (“I would…”), no example. B = 2: a real situation, but no personal action (“the team… we contacted”) and a result without scale. C = 3: specific, owned, resulted with numbers, but no reasoning (why split by sector? why F&B for herself?) and no reflection. To reach 4, C adds one sentence of why (“F&B sponsors had said yes fastest the year before”) and one of learning applied later.",
-        "id": "A = 1: hipotetis (“Saya akan…”), tanpa contoh. B = 2: situasi nyata, tetapi tanpa tindakan pribadi (“tim… kami menghubungi”) dan hasil tanpa skala. C = 3: spesifik, dimiliki, berhasil dengan angka, tetapi tanpa alasan (mengapa dibagi per sektor? mengapa F&B untuk dirinya?) dan tanpa refleksi. Untuk mencapai 4, C menambah satu kalimat mengapa (“sponsor F&B tahun sebelumnya paling cepat berkata ya”) dan satu pembelajaran yang diterapkan kemudian."
+        "id": "A = 1: berandai-andai (“Saya akan…”), tidak ada contoh. B = 2: situasinya nyata, tetapi tidak ada tindakan pribadi (“tim… kami menghubungi”) dan hasilnya tanpa ukuran. C = 3: spesifik, jelas milik sendiri, ada hasil berangka, tetapi tanpa alasan (kenapa dibagi per sektor? kenapa sektor makanan dan minuman dipegang sendiri?) dan tanpa refleksi. Supaya naik ke 4, jawaban C perlu satu kalimat alasan (“tahun sebelumnya sponsor makanan dan minuman paling cepat setuju”) dan satu kalimat tentang pelajaran yang kemudian diterapkan."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Upgrade a 2 to a 4",
-        "id": "Latihan 2 · Naikkan 2 menjadi 4"
+        "id": "Latihan 2 · Naikkan nilai 2 menjadi 4"
        },
        "body": {
         "en": "Take answer B and rewrite it with the five features, using only facts you can defend: when and where, your own actions in “saya”, why you chose them, a result with honest scale, and one learning you applied since. Keep it under 150 words.",
-        "id": "Ambil jawaban B dan tulis ulang dengan lima ciri, hanya memakai fakta yang bisa kamu pertahankan: kapan dan di mana, tindakanmu sendiri dalam “saya”, mengapa memilihnya, hasil dengan skala jujur, dan satu pembelajaran yang kamu terapkan sejak itu. Di bawah 150 kata."
+        "id": "Ambil jawaban B dan tulis ulang dengan kelima ciri, memakai fakta yang bisa kamu pertanggungjawabkan saja: kapan dan di mana, tindakanmu sendiri dengan kata “saya”, alasan kamu memilihnya, hasil dengan ukuran yang jujur, dan satu pelajaran yang sudah kamu terapkan. Maksimal 150 kata."
        },
        "debrief": {
         "en": "Model upgrade, features marked: [specific] “Dua minggu sebelum Kompetisi Bisnis Nasional 2025, dana sponsor masih kurang Rp25 juta dari target Rp85 juta.” [owned] “Sebagai kepala sponsorship, saya membagi 30 prospek tersisa ke enam anggota tim per sektor dan mengambil sektor makanan-minuman sendiri.” [reasoned] “Saya pilih sektor itu karena tahun sebelumnya mereka paling cepat memutuskan.” [resulted] “Dalam sembilan hari, empat dari sebelas perusahaan yang saya hubungi menandatangani, dan tim kami mencapai Rp85 juta dari sebelas sponsor untuk 1.200 peserta.” [reflected] “Sejak itu saya membuat prospek cadangan 30% di awal. Di kompetisi berikutnya tidak ada kekurangan di minggu terakhir.” Note the shape: kami → saya → kami.",
-        "id": "Model peningkatan, ciri ditandai: [spesifik] “Dua minggu sebelum Kompetisi Bisnis Nasional 2025, dana sponsor masih kurang Rp25 juta dari target Rp85 juta.” [dimiliki] “Sebagai kepala sponsorship, saya membagi 30 prospek tersisa ke enam anggota tim per sektor dan mengambil sektor makanan-minuman sendiri.” [beralasan] “Saya pilih sektor itu karena tahun sebelumnya mereka paling cepat memutuskan.” [berhasil] “Dalam sembilan hari, empat dari sebelas perusahaan yang saya hubungi menandatangani, dan tim kami mencapai Rp85 juta dari sebelas sponsor untuk 1.200 peserta.” [direfleksikan] “Sejak itu saya membuat prospek cadangan 30% di awal. Di kompetisi berikutnya tidak ada kekurangan di minggu terakhir.” Perhatikan bentuknya: kami → saya → kami."
+        "id": "Contoh versi yang sudah dinaikkan, dengan cirinya ditandai: [spesifik] “Dua minggu sebelum Kompetisi Bisnis Nasional 2025, dana sponsor masih kurang Rp25 juta dari target Rp85 juta.” [milikmu] “Sebagai kepala divisi sponsor, saya membagi 30 calon sponsor yang tersisa kepada enam anggota tim per sektor, dan memegang sendiri sektor makanan dan minuman.” [beralasan] “Saya memilih sektor itu karena tahun sebelumnya mereka paling cepat mengambil keputusan.” [ada hasilnya] “Dalam sembilan hari, empat dari sebelas perusahaan yang saya hubungi menandatangani kerja sama, dan tim kami mencapai Rp85 juta dari sebelas sponsor untuk 1.200 peserta.” [ada refleksinya] “Sejak itu saya selalu menyiapkan 30% calon sponsor cadangan sejak awal. Di kompetisi berikutnya, tidak ada lagi kekurangan dana di minggu terakhir.” Perhatikan polanya: kami → saya → kami."
        }
       },
       {
@@ -1953,11 +1953,11 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Record yourself telling one team story for 60–90 seconds. Play it back and count “saya” against “kami/kita”. Then mark each sentence: context, action or credit.",
-        "id": "Rekam dirimu menceritakan satu cerita tim selama 60–90 detik. Putar ulang dan hitung “saya” terhadap “kami/kita”. Lalu tandai tiap kalimat: konteks, tindakan, atau kredit."
+        "id": "Rekam dirimu menceritakan satu cerita kerja tim selama 60–90 detik. Putar ulang, lalu hitung berapa kali kamu mengucapkan “saya” dibanding “kami/kita”. Setelah itu, tandai setiap kalimat: konteks, tindakan, atau pujian untuk tim."
        },
        "debrief": {
         "en": "Aim for context in “kami”, actions in “saya”, credit in “kami”, not a ratio, a shape. If every action sentence is “kami”, the story is a 2 however true it is. If there is no “kami” at all in a team story, add the context and the credit; the score does not change, the impression in a formal panel does. The simulator counts this for you in every debrief.",
-        "id": "Targetkan konteks dalam “kami”, tindakan dalam “saya”, kredit dalam “kami”, bukan rasio, melainkan bentuk. Jika setiap kalimat tindakan adalah “kami”, ceritanya bernilai 2 seberapa pun benarnya. Jika tidak ada “kami” sama sekali dalam cerita tim, tambahkan konteks dan kreditnya; skornya tidak berubah, kesan di panel formal berubah. Simulator menghitungnya untukmu di setiap debrief."
+        "id": "Targetnya bukan rasio, melainkan pola: konteks dengan “kami”, tindakan dengan “saya”, pujian dengan “kami”. Kalau semua kalimat tindakan memakai “kami”, ceritanya bernilai 2 sebenar apa pun isinya. Kalau cerita kerja tim sama sekali tidak memakai “kami”, tambahkan konteks dan pujian untuk tim; nilainya tidak berubah, tetapi kesannya di panel yang formal berubah. Simulator menghitungkan ini untukmu di setiap tinjauan."
        }
       }
      ],
@@ -1966,41 +1966,41 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Hypothetical answers to behavioural questions (“I would…”)",
-         "id": "Jawaban hipotetis untuk pertanyaan perilaku (“Saya akan…”)"
+         "id": "Menjawab pertanyaan perilaku dengan berandai-andai (“Saya akan…”)"
         },
         "fix": {
          "en": "A real situation, past tense, with your action; the anchor gives hypotheticals a 1.",
-         "id": "Situasi nyata, lampau, dengan tindakanmu; jangkar memberi hipotetis nilai 1."
+         "id": "Ceritakan situasi nyata, dalam bentuk lampau, lengkap dengan tindakanmu; jangkar memberi nilai 1 untuk jawaban berandai-andai."
         }
        },
        {
         "h": {
          "en": "Stopping at the action without a result",
-         "id": "Berhenti di tindakan tanpa hasil"
+         "id": "Berhenti di tindakan tanpa menyebut hasil"
         },
         "fix": {
          "en": "“Apa hasilnya?” is the next probe; answer it before it is asked.",
-         "id": "“Apa hasilnya?” adalah galian berikutnya, jawab sebelum ditanya."
+         "id": "“Apa hasilnya?” adalah galian berikutnya; jawab sebelum ditanya."
         }
        },
        {
         "h": {
          "en": "Forcing a number where none exists, or inventing one",
-         "id": "Memaksakan angka yang tidak ada, atau mengarangnya"
+         "id": "Memaksakan angka padahal tidak ada, atau mengarangnya"
         },
         "fix": {
          "en": "An observable outcome is honest and scores; an invented figure fails the second probe and the debrief.",
-         "id": "Hasil yang teramati itu jujur dan dinilai; angka karangan gagal di galian kedua dan rapat evaluasi."
+         "id": "Hasil yang bisa diamati itu jujur dan tetap dinilai; angka karangan akan tumbang di galian kedua dan di rapat evaluasi."
         }
        },
        {
         "h": {
          "en": "Changing details between rounds",
-         "id": "Mengubah detail antar ronde"
+         "id": "Mengubah detail antarbabak"
         },
         "fix": {
          "en": "One source of truth, the Story Bank, for every number, date and name.",
-         "id": "Satu sumber kebenaran, Bank Cerita, untuk setiap angka, tanggal, dan nama."
+         "id": "Satu sumber fakta, yaitu Bank Cerita, untuk setiap angka, tanggal, dan nama."
         }
        }
       ]
@@ -2013,27 +2013,27 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "A 1–4 or 1–5 scale where each score has a written behavioural description; interviewers match your answer to the description.",
-        "id": "Skala 1–4 atau 1–5 di mana tiap skor punya deskripsi perilaku tertulis; pewawancara mencocokkan jawabanmu dengan deskripsinya."
+        "id": "Skala 1–4 atau 1–5 yang setiap nilainya punya uraian perilaku tertulis; pewawancara mencocokkan jawabanmu dengan uraian itu."
        }
       },
       {
        "term": {
         "en": "Competency interview",
-        "id": "Wawancara berbasis kompetensi"
+        "id": "Wawancara kompetensi"
        },
        "def": {
         "en": "An interview built from a list of competencies, each with questions and anchors.",
-        "id": "Wawancara yang dibangun dari daftar kompetensi, masing-masing dengan pertanyaan dan jangkar."
+        "id": "Wawancara yang disusun dari daftar kompetensi, masing-masing dengan pertanyaan dan jangkarnya."
        }
       },
       {
        "term": {
         "en": "Debrief (rapat keputusan)",
-        "id": "Rapat evaluasi pewawancara"
+        "id": "Rapat evaluasi (rapat keputusan)"
        },
        "def": {
         "en": "The meeting where interviewers compare scores and notes, and where inconsistencies are discussed.",
-        "id": "Rapat tempat pewawancara membandingkan skor dan catatan, dan tempat ketidakkonsistenan dibahas."
+        "id": "Pertemuan tempat para pewawancara membandingkan nilai dan catatan, dan membahas ketidakcocokan."
        }
       },
       {
@@ -2043,17 +2043,17 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "A behaviour that overrides a good score: dishonesty, blame, disrespect, no questions, unreasoned demands.",
-        "id": "Perilaku yang menggugurkan skor baik: ketidakjujuran, menyalahkan, tidak hormat, tanpa pertanyaan, tuntutan tanpa alasan."
+        "id": "Perilaku yang menggugurkan nilai bagus: tidak jujur, menyalahkan orang lain, tidak sopan, tidak bertanya, permintaan tanpa alasan."
        }
       },
       {
        "term": {
         "en": "Ownership",
-        "id": "Kepemilikan / kontribusi pribadi"
+        "id": "Peran pribadi (ownership)"
        },
        "def": {
         "en": "Your specific actions stated in first person, the feature the we → I → we shape protects.",
-        "id": "Tindakan spesifikmu yang dinyatakan dalam orang pertama, ciri yang dilindungi bentuk kami → saya → kami."
+        "id": "Tindakanmu yang spesifik, disampaikan dengan kata “saya”; ciri yang dijaga oleh pola kami → saya → kami."
        }
       }
      ],
@@ -2061,7 +2061,7 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "Which addition most raises a “3” answer to a “4”?",
-        "id": "Tambahan mana yang paling menaikkan jawaban “3” menjadi “4”?"
+        "id": "Tambahan mana yang paling bisa menaikkan jawaban bernilai “3” menjadi “4”?"
        },
        "options": [
         {
@@ -2070,11 +2070,11 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "A longer situation description",
-         "id": "Deskripsi situasi yang lebih panjang"
+         "id": "Uraian situasi yang lebih panjang"
         },
         {
          "en": "The reasoning behind your choice and a lesson you applied later",
-         "id": "Alasan di balik pilihanmu dan pelajaran yang kamu terapkan kemudian"
+         "id": "Alasan di balik pilihanmu dan pelajaran yang kemudian kamu terapkan"
         },
         {
          "en": "Mentioning the company name",
@@ -2084,65 +2084,65 @@ window.MT_LMS['the-rope'] = {
        "correct": 2,
        "why": {
         "en": "Reasoning and applied reflection are the typical 3→4 differentiators.",
-        "id": "Alasan dan refleksi yang diterapkan adalah pembeda 3→4 yang lazim."
+        "id": "Alasan dan refleksi yang sudah diterapkan biasanya menjadi pembeda antara nilai 3 dan 4."
        }
       },
       {
        "q": {
         "en": "You mentioned “40 transactions per day” in the HR round and “around 100” in the user round. The likely consequence:",
-        "id": "Kamu menyebut “40 transaksi per hari” di ronde HR dan “sekitar 100” di ronde user. Konsekuensi yang mungkin:"
+        "id": "Di babak HR kamu menyebut “40 transaksi per hari”, sedangkan di babak user kamu menyebut “sekitar 100”. Akibat yang paling mungkin:"
        },
        "options": [
         {
          "en": "Nothing",
-         "id": "Tidak ada"
+         "id": "Tidak ada apa-apa"
         },
         {
          "en": "The inconsistency is raised at the debrief and weakens trust in all your evidence",
-         "id": "Ketidakkonsistenan diangkat di rapat evaluasi dan melemahkan kepercayaan pada semua buktimu"
+         "id": "Ketidakcocokan itu dibahas di rapat evaluasi dan membuat semua buktimu yang lain kurang dipercaya"
         },
         {
          "en": "A higher score for scale",
-         "id": "Skor lebih tinggi untuk skala"
+         "id": "Nilaimu naik karena skalanya besar"
         },
         {
          "en": "They assume a typo",
-         "id": "Mereka menganggapnya salah ketik"
+         "id": "Mereka mengira itu salah ketik"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Consistency across rounds is scored; interviewers compare notes.",
-        "id": "Konsistensi lintas ronde dinilai; pewawancara membandingkan catatan."
+        "id": "Konsistensi antarbabak ikut dinilai, dan para pewawancara saling membandingkan catatan."
        }
       },
       {
        "q": {
-        "en": "Best way to handle a team achievement in an panel:",
-        "id": "Cara terbaik menangani pencapaian tim di panel:"
+        "en": "Best way to handle a team achievement in a panel:",
+        "id": "Cara terbaik menceritakan pencapaian tim di depan panel:"
        },
        "options": [
         {
          "en": "Only “kami”, to stay humble",
-         "id": "Hanya “kami”, agar tetap rendah hati"
+         "id": "Pakai “kami” saja, supaya tetap rendah hati"
         },
         {
          "en": "Only “saya”, to show impact",
-         "id": "Hanya “saya”, untuk menunjukkan dampak"
+         "id": "Pakai “saya” saja, supaya dampaknya terlihat"
         },
         {
          "en": "“Kami” for context, “saya” for your actions, “kami” for shared credit",
-         "id": "“Kami” untuk konteks, “saya” untuk tindakanmu, “kami” untuk kredit bersama"
+         "id": "“Kami” untuk konteks, “saya” untuk tindakanmu, “kami” untuk pujian bersama"
         },
         {
          "en": "Avoid team stories",
-         "id": "Hindari cerita tim"
+         "id": "Hindari cerita kerja tim"
         }
        ],
        "correct": 2,
        "why": {
         "en": "We → I → we gives ownership evidence without sounding sombong.",
-        "id": "Kami → saya → kami memberi bukti kepemilikan tanpa terdengar sombong."
+        "id": "Pola kami → saya → kami memberi bukti peranmu tanpa terdengar sombong."
        }
       }
      ],
@@ -2153,25 +2153,25 @@ window.MT_LMS['the-rope'] = {
       "returnTo": 2,
       "label": {
        "en": "Drill “Tell me about a difficult problem you solved”",
-       "id": "Latih “Ceritakan masalah sulit yang Anda pecahkan”"
+       "id": "Latih “Ceritakan masalah sulit yang pernah Anda pecahkan”"
       },
       "desc": {
        "en": "One behavioural question with the Hiring Manager persona. The debrief shows the anchor table against your answer and counts your “saya” and “kami”.",
-       "id": "Satu pertanyaan perilaku dengan persona Hiring Manager. Debrief menunjukkan tabel jangkar terhadap jawabanmu dan menghitung “saya” dan “kami”-mu."
+       "id": "Satu pertanyaan perilaku bersama persona manajer perekrut. Tinjauannya menampilkan tabel jangkar di samping jawabanmu dan menghitung “saya” dan “kami” yang kamu ucapkan."
       }
      },
      "takeaways": [
       {
        "en": "You are scored against written anchors, not “liking”.",
-       "id": "Kamu dinilai terhadap jangkar tertulis, bukan “rasa suka”."
+       "id": "Kamu dinilai dengan jangkar tertulis, bukan dengan rasa suka."
       },
       {
        "en": "Top answers are specific, owned, reasoned, resulted, reflected.",
-       "id": "Jawaban teratas spesifik, dimiliki, beralasan, berhasil, direfleksikan."
+       "id": "Jawaban terbaik itu spesifik, milikmu, beralasan, ada hasilnya, dan ada refleksinya."
       },
       {
        "en": "Consistency across rounds is scored; keep one source of truth.",
-       "id": "Konsistensi lintas ronde dinilai, jaga satu sumber kebenaran."
+       "id": "Konsistensi antarbabak ikut dinilai; simpan semua fakta di satu tempat."
       }
      ],
      "resources": {
@@ -2181,7 +2181,7 @@ window.MT_LMS['the-rope'] = {
       },
       "lead": {
        "en": "Three sources, and the card to keep beside every story you build.",
-       "id": "Tiga sumber, dan kartu untuk disimpan di samping setiap cerita yang kamu bangun."
+       "id": "Tiga sumber, dan satu kartu yang perlu kamu taruh di samping setiap cerita yang kamu susun."
       },
       "items": [
        {
@@ -2192,24 +2192,24 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "Interviewer-side sources; the AKHLAK mapping is marked for verification.",
-         "id": "Sumber dari sisi pewawancara; pemetaan AKHLAK ditandai untuk verifikasi."
+         "id": "Sumber dari sudut pandang pewawancara; acuan AKHLAK ditandai untuk dicek ulang."
         },
         "body": [
          {
           "en": "J. Kador, <i>The Manager’s Book of Questions</i>: behavioural questioning and what interviewers write down.",
-          "id": "J. Kador, <i>The Manager’s Book of Questions</i>: pertanyaan perilaku dan apa yang ditulis pewawancara."
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i>: pertanyaan berbasis perilaku dan apa yang dicatat pewawancara."
          },
          {
           "en": "D. Graham, <i>Switchers</i>: question structure; reasoning and reflection.",
-          "id": "D. Graham, <i>Switchers</i>: struktur pertanyaan; alasan dan refleksi."
+          "id": "D. Graham, <i>Switchers</i>: susunan pertanyaan; alasan dan refleksi."
          },
          {
           "en": "E. Pellett, <i>Cracking the Code to a Successful Interview</i>: how interviewers decide.",
-          "id": "E. Pellett, <i>Cracking the Code to a Successful Interview</i>: cara pewawancara memutuskan."
+          "id": "E. Pellett, <i>Cracking the Code to a Successful Interview</i>: cara pewawancara mengambil keputusan."
          },
          {
           "en": "C. Mills, <i>You’re Hired! CVs</i>; R. Fry, <i>101 Smart Questions</i>: the “I” vs “we” positions The Rope resolves as we → I → we.",
-          "id": "C. Mills, <i>You’re Hired! CVs</i>; R. Fry, <i>101 Smart Questions</i>: posisi “saya” vs “kami” yang diselesaikan The Rope sebagai kami → saya → kami."
+          "id": "C. Mills, <i>You’re Hired! CVs</i>; R. Fry, <i>101 Smart Questions</i>: dua pandangan soal “saya” lawan “kami” yang dijembatani The Rope dengan pola kami → saya → kami."
          }
         ]
        },
@@ -2221,7 +2221,7 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "Run every story through it before it enters the Story Bank.",
-         "id": "Jalankan setiap cerita melaluinya sebelum masuk Bank Cerita."
+         "id": "Uji setiap cerita dengan kartu ini sebelum masuk ke Bank Cerita."
         },
         "body": [
          {
@@ -2230,19 +2230,19 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Owned: my actions in “saya”; context and credit in “kami”",
-          "id": "Dimiliki: tindakan saya dalam “saya”; konteks dan kredit dalam “kami”"
+          "id": "Milikmu: tindakanku dengan “saya”; konteks dan pujian dengan “kami”"
          },
          {
           "en": "Reasoned: why that way; what else I considered",
-          "id": "Beralasan: mengapa cara itu; apa lagi yang saya pertimbangkan"
+          "id": "Beralasan: kenapa dengan cara itu; pilihan lain apa yang kutimbang"
          },
          {
           "en": "Resulted: a measured or observable outcome, honest scale",
-          "id": "Berhasil: hasil terukur atau teramati, skala jujur"
+          "id": "Ada hasilnya: hasil yang terukur atau bisa diamati, dengan ukuran yang jujur"
          },
          {
           "en": "Reflected: what I learned and where I applied it since",
-          "id": "Direfleksikan: apa yang saya pelajari dan di mana saya menerapkannya sejak itu"
+          "id": "Ada refleksinya: apa yang kupelajari dan di mana sudah kuterapkan sejak itu"
          }
         ]
        }
@@ -2255,32 +2255,32 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "40 min",
-      "id": "40 mnt"
+      "id": "40 menit"
      },
      "title": {
       "en": "The Seven Question Types and the Question Behind the Question",
-      "id": "Tujuh Tipe Pertanyaan dan Maksud Tersembunyi di Baliknya"
+      "id": "Tujuh Jenis Pertanyaan dan Maksud di Baliknya"
      },
      "overview": {
       "en": "Interview questions come in a limited number of types, and each type has a right shape of answer. Just as important, many questions carry a hidden concern; “Where do you see yourself in five years?” is usually asking “Will you leave us in a year?” Once you can identify the type and the concern, you can answer the real question. This lesson also gives you the protocol for pressure, silence, scepticism, curveballs, and for the moment you do not know.",
-      "id": "Pertanyaan wawancara datang dalam jumlah tipe yang terbatas, dan setiap tipe punya bentuk jawaban yang tepat. Sama pentingnya, banyak pertanyaan membawa kekhawatiran tersembunyi, “Di mana Anda lima tahun lagi?” biasanya bertanya “Apakah Anda akan pergi setahun lagi?” Begitu kamu bisa mengenali tipe dan kekhawatirannya, kamu bisa menjawab pertanyaan yang sebenarnya. Pelajaran ini juga memberimu protokol untuk tekanan, keheningan, skeptisisme, pertanyaan tak terduga, dan untuk saat kamu tidak tahu."
+      "id": "Pertanyaan wawancara hanya ada beberapa jenis, dan setiap jenis punya bentuk jawaban yang tepat. Yang sama pentingnya, banyak pertanyaan menyimpan kekhawatiran tersembunyi. “Di mana Anda lima tahun lagi?” biasanya sebenarnya bertanya, “Apakah setahun lagi Anda akan keluar?” Begitu kamu bisa mengenali jenis pertanyaan dan kekhawatiran di baliknya, kamu bisa menjawab pertanyaan yang sesungguhnya. Pelajaran ini juga memberimu langkah-langkah menghadapi tekanan, keheningan, keraguan pewawancara, pertanyaan tak terduga, dan saat kamu memang tidak tahu jawabannya."
      },
      "objectives": [
       {
        "en": "Identify seven question types and the answer shape each requires.",
-       "id": "Mengenali tujuh tipe pertanyaan dan bentuk jawaban yang dibutuhkan masing-masing."
+       "id": "Mengenali tujuh jenis pertanyaan dan bentuk jawaban yang dibutuhkan masing-masing."
       },
       {
        "en": "Name the hidden concern behind ten common questions.",
-       "id": "Menyebutkan kekhawatiran tersembunyi di balik sepuluh pertanyaan umum."
+       "id": "Menyebutkan kekhawatiran tersembunyi di balik sepuluh pertanyaan yang umum."
       },
       {
        "en": "Answer a question in a way that addresses both the stated and the hidden concern.",
-       "id": "Menjawab pertanyaan dengan cara yang menangani kekhawatiran yang dinyatakan dan yang tersembunyi."
+       "id": "Menjawab pertanyaan dengan cara yang menjawab isi pertanyaannya sekaligus kekhawatiran di baliknya."
       },
       {
        "en": "Hold steady under stress techniques and say “I don’t know” without bluffing.",
-       "id": "Tetap tenang di bawah teknik tekanan dan berkata “saya tidak tahu” tanpa menggertak."
+       "id": "Tetap tenang menghadapi teknik penekanan, dan berani berkata “saya tidak tahu” tanpa menggertak."
       }
      ],
      "readFirst": {
@@ -2294,40 +2294,40 @@ window.MT_LMS['the-rope'] = {
         "n": "1.3",
         "title": {
          "en": "The Seven Question Types and the Question Behind the Question",
-         "id": "Tujuh Tipe Pertanyaan dan Maksud Tersembunyi di Baliknya"
+         "id": "Tujuh Jenis Pertanyaan dan Maksud di Baliknya"
         }
        },
        "story": [
         {
          "en": "Seven question types cover nearly every interview question you will hear",
-         "id": "Tujuh tipe pertanyaan mencakup hampir semua pertanyaan wawancara yang akan kamu dengar"
+         "id": "Tujuh jenis pertanyaan ini mencakup hampir semua pertanyaan wawancara yang akan kamu dengar"
         },
         {
          "en": "Each type has an answer shape; decide the type in two seconds, then use its shape",
-         "id": "Setiap tipe punya bentuk jawaban; tentukan tipenya dalam dua detik, lalu pakai bentuknya"
+         "id": "Setiap jenis punya bentuk jawabannya; kenali jenisnya dalam dua detik, lalu pakai bentuknya"
         },
         {
          "en": "Behind most questions sits a small set of employer worries; answer the worry, not just the words",
-         "id": "Di balik kebanyakan pertanyaan ada sedikit kekhawatiran pemberi kerja; jawab kekhawatirannya, bukan sekadar kata-katanya"
+         "id": "Di balik kebanyakan pertanyaan ada kekhawatiran perusahaan; jawab kekhawatirannya, bukan sekadar kata-katanya"
         },
         {
          "en": "Under pressure: pause, acknowledge, give evidence, move forward; then let the silence sit",
-         "id": "Di bawah tekanan: jeda, akui, beri bukti, lalu maju, dan biarkan keheningan berbicara"
+         "id": "Saat ditekan: jeda, akui, beri bukti, lalu lanjutkan, dan biarkan hening sejenak bekerja untukmu"
         },
         {
          "en": "Personal questions are common in Indonesia: address the concern behind them without over-sharing",
-         "id": "Pertanyaan pribadi lazim di Indonesia; jawab kekhawatiran di baliknya tanpa berbagi berlebihan"
+         "id": "Pertanyaan pribadi lazim di Indonesia; jawab kekhawatiran di baliknya tanpa bercerita berlebihan"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Seven types",
-          "id": "Tujuh tipe"
+          "id": "Tujuh jenis"
          },
          "p": {
           "en": "Seven question types cover nearly every interview question you will hear",
-          "id": "Tujuh tipe pertanyaan mencakup hampir semua pertanyaan wawancara yang akan kamu dengar"
+          "id": "Tujuh jenis pertanyaan ini mencakup hampir semua pertanyaan wawancara yang akan kamu dengar"
          }
         },
         {
@@ -2337,7 +2337,7 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "Direct answer → reasoning → example for technical; clarify → structure → analyse → answer for case.",
-          "id": "Jawaban langsung → alasan → contoh untuk teknis; klarifikasi → struktur → analisis → jawab untuk kasus."
+          "id": "Jawaban langsung → alasan → contoh untuk pertanyaan teknis; perjelas → susun → analisis → jawab untuk kasus."
          }
         },
         {
@@ -2347,27 +2347,27 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "The best answer addresses the worry directly.",
-          "id": "Jawaban terbaik menangani kekhawatiran itu secara langsung."
+          "id": "Jawaban terbaik langsung menjawab kekhawatiran itu."
          }
         },
         {
          "h": {
           "en": "Stress questions",
-          "id": "Pertanyaan tekanan"
+          "id": "Pertanyaan penekanan"
          },
          "p": {
           "en": "Silence after your answer is not a request for more words.",
-          "id": "Keheningan setelah jawabanmu bukan permintaan untuk lebih banyak kata."
+          "id": "Keheningan setelah jawabanmu bukan permintaan untuk bicara lebih banyak."
          }
         },
         {
          "h": {
           "en": "Illegal and sensitive questions, preview",
-          "id": "Pertanyaan tidak pantas dan sensitif, pratinjau"
+          "id": "Pertanyaan sensitif dan yang tidak pantas, sekilas"
          },
          "p": {
           "en": "Address the concern behind them without over-sharing, Lesson 5.4 gives the tiers.",
-          "id": "Tangani kekhawatiran di baliknya tanpa berbagi berlebihan, Pelajaran 5.4 memberi tingkatannya."
+          "id": "Jawab kekhawatiran di baliknya tanpa membuka terlalu banyak; Pelajaran 5.4 memberikan tingkatannya."
          }
         }
        ],
@@ -2376,11 +2376,11 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Seven question types cover nearly every interview question you will hear",
-          "id": "Tujuh tipe pertanyaan mencakup hampir semua pertanyaan wawancara yang akan kamu dengar"
+          "id": "Tujuh jenis pertanyaan ini mencakup hampir semua pertanyaan wawancara yang akan kamu dengar"
          },
          "src": {
           "en": "Adapted from Kador’s classification for interviewers",
-          "id": "Diadaptasi dari klasifikasi Kador untuk pewawancara"
+          "id": "Disesuaikan dari penggolongan Kador untuk pewawancara"
          },
          "layout": "grid",
          "items": [
@@ -2390,7 +2390,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Perilaku",
            "d": {
             "en": "Past experiences, read as a forecast of future behaviour.",
-            "id": "Pengalaman masa lalu, dibaca sebagai ramalan perilaku mendatang."
+            "id": "Pengalaman masa lalu, dibaca sebagai petunjuk perilaku ke depan."
            },
            "img": "../../assets/bg/stage-exploration.jpg"
           },
@@ -2400,17 +2400,17 @@ window.MT_LMS['the-rope'] = {
            "id": "situasional",
            "d": {
             "en": "A hypothetical: what would you do if.",
-            "id": "Hipotetis: apa yang akan kamu lakukan jika."
+            "id": "Pengandaian: apa yang akan kamu lakukan jika…"
            },
            "img": "../../assets/bg/stage-execution.jpg"
           },
           {
            "icon": "flame",
            "en": "motivational",
-           "id": "motivasional",
+           "id": "motivasi",
            "d": {
             "en": "Why this role, this company, this path.",
-            "id": "Mengapa peran ini, perusahaan ini, jalur ini."
+            "id": "Kenapa posisi ini, perusahaan ini, jalur karier ini."
            },
            "img": "../../assets/bg/fg-sprint-direction.jpg"
           },
@@ -2420,7 +2420,7 @@ window.MT_LMS['the-rope'] = {
            "id": "penilaian diri",
            "d": {
             "en": "Strengths, weaknesses and how you see yourself.",
-            "id": "Kekuatan, kelemahan, dan caramu melihat diri sendiri."
+            "id": "Kekuatan, kelemahan, dan caramu memandang diri sendiri."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           },
@@ -2430,7 +2430,7 @@ window.MT_LMS['the-rope'] = {
            "id": "teknis",
            "d": {
             "en": "Knowledge and method, tested directly.",
-            "id": "Pengetahuan dan metode, diuji langsung."
+            "id": "Pengetahuan dan cara kerja, diuji secara langsung."
            },
            "img": "../../assets/bg/fg-sprint-interview.jpg"
           },
@@ -2440,17 +2440,17 @@ window.MT_LMS['the-rope'] = {
            "id": "kasus",
            "d": {
             "en": "A problem to structure and solve aloud.",
-            "id": "Masalah untuk disusun dan dipecahkan sambil bersuara."
+            "id": "Masalah yang disusun dan dipecahkan sambil berpikir keras."
            },
            "img": "../../assets/pe/ed-lead.jpg"
           },
           {
            "icon": "bolt",
            "en": "stress",
-           "id": "tekanan",
+           "id": "penekanan",
            "d": {
             "en": "Pressure applied on purpose, to see how you hold.",
-            "id": "Tekanan yang sengaja diberikan untuk melihat ketahananmu."
+            "id": "Tekanan yang sengaja diberikan untuk melihat ketenanganmu."
            },
            "img": "../../assets/bg/two-different-muscles.jpg"
           }
@@ -2464,7 +2464,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Each type has an answer shape; decide the type in two seconds, then use its shape",
-          "id": "Setiap tipe punya bentuk jawaban; tentukan tipenya dalam dua detik, lalu pakai bentuknya"
+          "id": "Setiap jenis punya bentuk jawabannya; kenali jenisnya dalam dua detik, lalu pakai bentuknya"
          },
          "layout": "grid",
          "items": [
@@ -2492,10 +2492,10 @@ window.MT_LMS['the-rope'] = {
            "icon": "flame",
            "l": {
             "en": "Motivational",
-            "id": "Motivasional"
+            "id": "Motivasi"
            },
            "en": "REC",
-           "id": "REC",
+           "id": "REC (Riset, Pengalaman, Kontribusi)",
            "img": "../../assets/bg/ep-stage-permission.jpg"
           },
           {
@@ -2525,24 +2525,24 @@ window.MT_LMS['the-rope'] = {
             "id": "Kasus"
            },
            "en": "Clarify → structure → analyse → answer",
-           "id": "Klarifikasi → struktur → analisis → jawab",
+           "id": "Perjelas → susun kerangka → analisis → jawab",
            "img": "../../assets/pe/ed-lead.jpg"
           }
          ],
          "take": {
           "en": "Direct answer → reasoning → example for technical; clarify → structure → analyse → answer for case.",
-          "id": "Jawaban langsung → alasan → contoh untuk teknis; klarifikasi → struktur → analisis → jawab untuk kasus."
+          "id": "Jawaban langsung → alasan → contoh untuk pertanyaan teknis; perjelas → susun → analisis → jawab untuk kasus."
          },
          "em": {
           "en": "decide the type in two seconds",
-          "id": "tentukan tipenya dalam dua detik"
+          "id": "kenali jenisnya dalam dua detik"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Behind most questions sits a small set of employer worries; answer the worry, not just the words",
-          "id": "Di balik kebanyakan pertanyaan ada sedikit kekhawatiran pemberi kerja; jawab kekhawatirannya, bukan sekadar kata-katanya"
+          "id": "Di balik kebanyakan pertanyaan ada kekhawatiran perusahaan; jawab kekhawatirannya, bukan sekadar kata-katanya"
          },
          "src": {
           "en": "Ryan",
@@ -2554,12 +2554,12 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "eye",
            "en": "Behind many common questions sits a small set of employer worries: will you stay, is this random, is there a disqualifier.",
-           "id": "Di balik banyak pertanyaan umum ada sekumpulan kecil kekhawatiran perusahaan: apakah kamu bertahan, apakah ini acak, adakah penggugur."
+           "id": "Di balik banyak pertanyaan umum ada beberapa kekhawatiran perusahaan: apakah kamu akan bertahan, apakah ini lamaran asal-asalan, apakah ada hal yang menggugurkan."
           }
          ],
          "take": {
           "en": "The best answer addresses the worry directly.",
-          "id": "Jawaban terbaik menangani kekhawatiran itu secara langsung."
+          "id": "Jawaban terbaik langsung menjawab kekhawatiran itu."
          },
          "medal": "eye",
          "em": {
@@ -2571,7 +2571,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Under pressure: pause, acknowledge, give evidence, move forward; then let the silence sit",
-          "id": "Di bawah tekanan: jeda, akui, beri bukti, lalu maju, dan biarkan keheningan berbicara"
+          "id": "Saat ditekan: jeda, akui, beri bukti, lalu lanjutkan, dan biarkan hening sejenak bekerja untukmu"
          },
          "img": "../../assets/bg/two-different-muscles.jpg",
          "layout": "flow",
@@ -2582,7 +2582,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Jeda",
            "d": {
             "en": "One breath; it reads as composure, not hesitation.",
-            "id": "Satu tarikan napas; terbaca sebagai ketenangan, bukan ragu."
+            "id": "Satu tarikan napas; terlihat tenang, bukan ragu."
            }
           },
           {
@@ -2591,7 +2591,7 @@ window.MT_LMS['the-rope'] = {
            "id": "akui",
            "d": {
             "en": "Name the point fairly before you answer it.",
-            "id": "Akui poinnya dengan adil sebelum menjawabnya."
+            "id": "Akui poinnya dengan adil sebelum menjawab."
            }
           },
           {
@@ -2600,7 +2600,7 @@ window.MT_LMS['the-rope'] = {
            "id": "bukti",
            "d": {
             "en": "One specific fact or example, not a defence.",
-            "id": "Satu fakta atau contoh spesifik, bukan pembelaan."
+            "id": "Satu fakta atau contoh spesifik, bukan pembelaan diri."
            }
           },
           {
@@ -2609,24 +2609,24 @@ window.MT_LMS['the-rope'] = {
            "id": "ke depan",
            "d": {
             "en": "Return to the role and what you would do in it.",
-            "id": "Kembali ke peran dan apa yang akan kamu lakukan di dalamnya."
+            "id": "Kembali ke posisinya dan apa yang akan kamu kerjakan di sana."
            }
           }
          ],
          "take": {
           "en": "Silence after your answer is not a request for more words.",
-          "id": "Keheningan setelah jawabanmu bukan permintaan untuk lebih banyak kata."
+          "id": "Keheningan setelah jawabanmu bukan permintaan untuk bicara lebih banyak."
          },
          "em": {
           "en": "then let the silence sit",
-          "id": "biarkan keheningan berbicara"
+          "id": "biarkan hening sejenak bekerja untukmu"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Personal questions are common in Indonesia: address the concern behind them without over-sharing",
-          "id": "Pertanyaan pribadi lazim di Indonesia; jawab kekhawatiran di baliknya tanpa berbagi berlebihan"
+          "id": "Pertanyaan pribadi lazim di Indonesia; jawab kekhawatiran di baliknya tanpa bercerita berlebihan"
          },
          "img": "../../assets/pe/th-network.jpg",
          "layout": "statement",
@@ -2634,17 +2634,17 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "lock",
            "en": "Marriage, S2 plans, religion, family: common in Indonesia, sometimes inappropriate.",
-           "id": "Pernikahan, rencana S2, agama, keluarga: umum di Indonesia, kadang tidak pantas."
+           "id": "Pernikahan, rencana S2, agama, keluarga: sering ditanyakan di Indonesia, kadang tidak pantas."
           }
          ],
          "take": {
           "en": "Address the concern behind them without over-sharing, Lesson 5.4 gives the tiers.",
-          "id": "Tangani kekhawatiran di baliknya tanpa berbagi berlebihan, Pelajaran 5.4 memberi tingkatannya."
+          "id": "Jawab kekhawatiran di baliknya tanpa membuka terlalu banyak; Pelajaran 5.4 memberikan tingkatannya."
          },
          "medal": "lock",
          "em": {
           "en": "without over-sharing",
-          "id": "tanpa berbagi berlebihan"
+          "id": "tanpa bercerita berlebihan"
          }
         }
        ]
@@ -2655,26 +2655,26 @@ window.MT_LMS['the-rope'] = {
       },
       "title": {
        "en": "Identify the type, then use its shape",
-       "id": "Kenali tipenya, lalu pakai bentuknya"
+       "id": "Kenali jenisnya, lalu pakai bentuknya"
       },
       "intro": {
        "en": "Seven types, seven shapes, one habit: before answering, spend two seconds deciding which type you just heard.",
-       "id": "Tujuh tipe, tujuh bentuk, satu kebiasaan: sebelum menjawab, luangkan dua detik memutuskan tipe mana yang baru kamu dengar."
+       "id": "Tujuh jenis, tujuh bentuk jawaban, satu kebiasaan: sebelum menjawab, luangkan dua detik untuk mengenali jenis pertanyaan yang baru saja kamu dengar."
       },
       "slides": [
        {
         "h": {
          "en": "Seven types",
-         "id": "Tujuh tipe"
+         "id": "Tujuh jenis"
         },
         "points": [
          {
           "en": "Behavioural · situational · motivational · self-assessment · technical · case · stress.",
-          "id": "Perilaku · situasional · motivasional · penilaian diri · teknis · kasus · tekanan."
+          "id": "Perilaku · situasional · motivasi · penilaian diri · teknis · kasus · penekanan."
          },
          {
           "en": "Adapted from Kador’s classification for interviewers.",
-          "id": "Diadaptasi dari klasifikasi Kador untuk pewawancara."
+          "id": "Disesuaikan dari penggolongan Kador untuk pewawancara."
          }
         ]
        },
@@ -2686,11 +2686,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "STAR+L for behavioural; principle → steps → real example for situational; REC for motivational; claim + evidence for self-assessment.",
-          "id": "STAR+L untuk perilaku; prinsip → langkah → contoh nyata untuk situasional; REC untuk motivasional; klaim + bukti untuk penilaian diri."
+          "id": "STAR+L untuk pertanyaan perilaku; prinsip → langkah → contoh nyata untuk pertanyaan situasional; REC untuk pertanyaan motivasi; klaim + bukti untuk penilaian diri."
          },
          {
           "en": "Direct answer → reasoning → example for technical; clarify → structure → analyse → answer for case.",
-          "id": "Jawaban langsung → alasan → contoh untuk teknis; klarifikasi → struktur → analisis → jawab untuk kasus."
+          "id": "Jawaban langsung → alasan → contoh untuk pertanyaan teknis; perjelas → susun → analisis → jawab untuk kasus."
          }
         ]
        },
@@ -2702,18 +2702,18 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Behind many common questions sits a small set of employer worries: will you stay, is this random, is there a disqualifier.",
-          "id": "Di balik banyak pertanyaan umum ada sekumpulan kecil kekhawatiran perusahaan: apakah kamu bertahan, apakah ini acak, adakah penggugur."
+          "id": "Di balik banyak pertanyaan umum ada beberapa kekhawatiran perusahaan: apakah kamu akan bertahan, apakah ini lamaran asal-asalan, apakah ada hal yang menggugurkan."
          },
          {
           "en": "The best answer addresses the worry directly (Ryan).",
-          "id": "Jawaban terbaik menangani kekhawatiran itu secara langsung (Ryan)."
+          "id": "Jawaban terbaik langsung menjawab kekhawatiran itu (Ryan)."
          }
         ]
        },
        {
         "h": {
          "en": "Stress questions",
-         "id": "Pertanyaan tekanan"
+         "id": "Pertanyaan penekanan"
         },
         "points": [
          {
@@ -2722,23 +2722,23 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Silence after your answer is not a request for more words.",
-          "id": "Keheningan setelah jawabanmu bukan permintaan untuk lebih banyak kata."
+          "id": "Keheningan setelah jawabanmu bukan permintaan untuk bicara lebih banyak."
          }
         ]
        },
        {
         "h": {
          "en": "Illegal and sensitive questions, preview",
-         "id": "Pertanyaan tidak pantas dan sensitif, pratinjau"
+         "id": "Pertanyaan sensitif dan yang tidak pantas, sekilas"
         },
         "points": [
          {
           "en": "Marriage, S2 plans, religion, family: common in Indonesia, sometimes inappropriate.",
-          "id": "Pernikahan, rencana S2, agama, keluarga: umum di Indonesia, kadang tidak pantas."
+          "id": "Pernikahan, rencana S2, agama, keluarga: sering ditanyakan di Indonesia, kadang tidak pantas."
          },
          {
           "en": "Address the concern behind them without over-sharing, Lesson 5.4 gives the tiers.",
-          "id": "Tangani kekhawatiran di baliknya tanpa berbagi berlebihan, Pelajaran 5.4 memberi tingkatannya."
+          "id": "Jawab kekhawatiran di baliknya tanpa membuka terlalu banyak; Pelajaran 5.4 memberikan tingkatannya."
          }
         ]
        }
@@ -2751,17 +2751,17 @@ window.MT_LMS['the-rope'] = {
        "imgPos": "50% 40%",
        "h": {
         "en": "The seven types",
-        "id": "Tujuh tipe"
+        "id": "Tujuh jenis pertanyaan"
        },
        "body": {
         "en": "Kador classifies questions from the interviewer’s side by what each is designed to reveal <i>(Kador, The Manager’s Book of Questions)</i>. Turned around for the candidate, the classification becomes a routing table: identify the type, and the shape of a good answer follows. The mismatch is the commonest failure in the simulator’s logs, a STAR story told to a motivational question, a principle recited to a behavioural one.",
-        "id": "Kador menggolongkan pertanyaan dari sisi pewawancara berdasarkan apa yang dirancang untuk diungkap masing-masing <i>(Kador, The Manager’s Book of Questions)</i>. Dibalik untuk kandidat, klasifikasi itu menjadi tabel pengarah: kenali tipenya, dan bentuk jawaban yang baik mengikuti. Ketidakcocokan adalah kegagalan paling umum di catatan simulator, cerita STAR untuk pertanyaan motivasional, prinsip yang dibacakan untuk pertanyaan perilaku."
+        "id": "Kador menggolongkan pertanyaan dari sisi pewawancara berdasarkan apa yang ingin diungkap setiap pertanyaan <i>(Kador, The Manager’s Book of Questions)</i>. Kalau dibalik untuk kandidat, penggolongan ini menjadi semacam peta penunjuk arah: kenali jenisnya, dan bentuk jawaban yang baik akan mengikuti. Salah bentuk adalah kegagalan paling umum di catatan simulator, misalnya menjawab pertanyaan motivasi dengan cerita STAR, atau menjawab pertanyaan perilaku dengan prinsip-prinsip umum."
        },
        "table": {
         "cols": [
          {
           "en": "Type",
-          "id": "Tipe"
+          "id": "Jenis"
          },
          {
           "en": "Example",
@@ -2784,11 +2784,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“Tell me about a time you had to meet a tight deadline.”",
-           "id": "“Ceritakan saat Anda harus mengejar tenggat yang ketat.”"
+           "id": "“Ceritakan saat Anda harus mengejar tenggat yang sangat ketat.”"
           },
           {
            "en": "Past behaviour as predictor",
-           "id": "Perilaku masa lalu sebagai prediktor"
+           "id": "Perilaku masa lalu sebagai petunjuk masa depan"
           },
           {
            "en": "<b>STAR+L</b> story (Module 2)",
@@ -2798,33 +2798,33 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "<b>Situational / hypothetical</b>",
-           "id": "<b>Situasional / hipotetis</b>"
+           "id": "<b>Situasional / berandai-andai</b>"
           },
           {
            "en": "“What would you do if a customer shouted at you?”",
-           "id": "“Apa yang Anda lakukan jika pelanggan membentak Anda?”"
+           "id": "“Apa yang akan Anda lakukan kalau ada pelanggan yang membentak Anda?”"
           },
           {
            "en": "Judgement, values",
-           "id": "Penilaian, nilai"
+           "id": "Pertimbangan, nilai-nilai"
           },
           {
            "en": "<b>Principle → steps → a real example</b> that shows you’ve done similar",
-           "id": "<b>Prinsip → langkah → contoh nyata</b> yang menunjukkan kamu pernah melakukan yang serupa"
+           "id": "<b>Prinsip → langkah → contoh nyata</b> yang menunjukkan kamu pernah menghadapi hal serupa"
           }
          ],
          [
           {
            "en": "<b>Motivational</b>",
-           "id": "<b>Motivasional</b>"
+           "id": "<b>Motivasi</b>"
           },
           {
            "en": "“Why this company?”, “Why this role?”",
-           "id": "“Mengapa perusahaan ini?”, “Mengapa peran ini?”"
+           "id": "“Kenapa perusahaan ini?”, “Kenapa posisi ini?”"
           },
           {
            "en": "Will-do, commitment",
-           "id": "Mau, komitmen"
+           "id": "Kemauan, komitmen"
           },
           {
            "en": "<b>REC</b>: Research, Experience, Contribution (Module 4)",
@@ -2838,7 +2838,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“What’s your weakness?”, “How would friends describe you?”",
-           "id": "“Apa kelemahan Anda?”, “Bagaimana teman menggambarkan Anda?”"
+           "id": "“Apa kelemahan Anda?”, “Bagaimana teman-teman menggambarkan Anda?”"
           },
           {
            "en": "Self-awareness, honesty",
@@ -2846,7 +2846,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "<b>Claim + evidence</b>; for weakness: real weakness → system → progress (Module 4)",
-           "id": "<b>Klaim + bukti</b>; untuk kelemahan: kelemahan nyata → sistem → kemajuan (Modul 4)"
+           "id": "<b>Klaim + bukti</b>; untuk kelemahan: kelemahan nyata → cara mengatasinya → kemajuannya (Modul 4)"
           }
          ],
          [
@@ -2856,15 +2856,15 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“How does a bank’s net interest margin work?”",
-           "id": "“Bagaimana cara kerja net interest margin bank?”"
+           "id": "“Bagaimana cara kerja margin bunga bersih sebuah bank?”"
           },
           {
            "en": "Can-do",
-           "id": "Bisa"
+           "id": "Kemampuan"
           },
           {
            "en": "<b>Direct answer → reasoning → example of use</b>; say what you don’t know",
-           "id": "<b>Jawaban langsung → alasan → contoh penggunaan</b>; katakan yang tidak kamu tahu"
+           "id": "<b>Jawaban langsung → alasan → contoh penerapan</b>; akui bagian yang tidak kamu tahu"
           }
          ],
          [
@@ -2874,25 +2874,25 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“Estimate the market for bubble tea in Bandung.”",
-           "id": "“Perkirakan pasar boba di Bandung.”"
+           "id": "“Perkirakan besar pasar bubble tea di Bandung.”"
           },
           {
            "en": "Structured thinking",
-           "id": "Berpikir terstruktur"
+           "id": "Cara berpikir yang terstruktur"
           },
           {
            "en": "<b>Clarify → structure → analyse → answer → sanity check</b> (Module 6)",
-           "id": "<b>Klarifikasi → struktur → analisis → jawab → uji kewajaran</b> (Modul 6)"
+           "id": "<b>Perjelas → susun → analisis → jawab → cek kewajaran</b> (Modul 6)"
           }
          ],
          [
           {
            "en": "<b>Stress / curveball</b>",
-           "id": "<b>Tekanan / tak terduga</b>"
+           "id": "<b>Penekanan / tak terduga</b>"
           },
           {
            "en": "“Why is your GPA only 3.1?”, silence, “Convince me.”",
-           "id": "“Kenapa IPK Anda cuma 3,1?”, keheningan, “Yakinkan saya.”"
+           "id": "“Kenapa IPK Anda cuma 3,1?”, diam lama, “Yakinkan saya.”"
           },
           {
            "en": "Composure, honesty",
@@ -2910,17 +2910,17 @@ window.MT_LMS['the-rope'] = {
        "icon": "eye",
        "h": {
         "en": "The question behind the question",
-        "id": "Pertanyaan di balik pertanyaan"
+        "id": "Maksud di balik pertanyaan"
        },
        "body": {
         "en": "Ryan’s advice is that behind many common questions sits a small set of employer worries, and the best answer addresses the worry directly <i>(Ryan, 60 Seconds & You’re Hired!)</i>. The table is an original one for the local early-career market. Read the middle column first: it is what the interviewer is writing in the margin while you answer the left one.",
-        "id": "Saran Ryan adalah bahwa di balik banyak pertanyaan umum ada sekumpulan kecil kekhawatiran perusahaan, dan jawaban terbaik menangani kekhawatiran itu secara langsung <i>(Ryan, 60 Seconds & You’re Hired!)</i>. Tabel ini asli untuk pasar karier awal Indonesia. Baca kolom tengah dulu: itulah yang ditulis pewawancara di pinggir saat kamu menjawab kolom kiri."
+        "id": "Menurut Ryan, di balik banyak pertanyaan umum ada segelintir kekhawatiran perusahaan, dan jawaban terbaik langsung menjawab kekhawatiran itu <i>(Ryan, 60 Seconds & You’re Hired!)</i>. Tabel di bawah disusun khusus untuk pencari kerja tahap awal di Indonesia. Baca kolom tengah lebih dulu: itulah yang dicatat pewawancara di pinggir kertasnya saat kamu menjawab pertanyaan di kolom kiri."
        },
        "table": {
         "cols": [
          {
           "en": "Stated question",
-          "id": "Pertanyaan yang dinyatakan"
+          "id": "Pertanyaan yang diucapkan"
          },
          {
           "en": "Hidden concern",
@@ -2928,7 +2928,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "What the answer must include",
-          "id": "Yang harus ada dalam jawaban"
+          "id": "Yang harus ada di jawabanmu"
          }
         ],
         "rows": [
@@ -2939,11 +2939,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Can you communicate clearly and relevantly?",
-           "id": "Bisakah Anda berkomunikasi dengan jelas dan relevan?"
+           "id": "Bisakah kamu berkomunikasi dengan jelas dan relevan?"
           },
           {
            "en": "A relevant, structured 60-second opening (Module 4)",
-           "id": "Pembuka 60 detik yang relevan dan terstruktur (Modul 4)"
+           "id": "Pembukaan 60 detik yang relevan dan runtut (Modul 4)"
           }
          ],
          [
@@ -2953,11 +2953,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Will you stay? Are you realistic?",
-           "id": "Apakah Anda bertahan? Apakah Anda realistis?"
+           "id": "Apakah kamu akan bertahan? Apakah harapanmu realistis?"
           },
           {
            "en": "Growth <i>inside</i> this path; learning goals; no “own business” or “S2 abroad next year” unless true and handled",
-           "id": "Pertumbuhan <i>di dalam</i> jalur ini; tujuan belajar; tanpa “usaha sendiri” atau “S2 ke luar negeri tahun depan” kecuali benar dan ditangani"
+           "id": "Berkembang <i>di dalam</i> jalur ini; target belajar; jangan sebut “buka usaha sendiri” atau “S2 ke luar negeri tahun depan” kecuali memang benar dan kamu bisa menjelaskannya"
           }
          ],
          [
@@ -2967,11 +2967,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Is this a random application?",
-           "id": "Apakah ini lamaran acak?"
+           "id": "Apakah ini lamaran asal-asalan?"
           },
           {
            "en": "Specific research + fit to your experience",
-           "id": "Riset spesifik + kecocokan dengan pengalamanmu"
+           "id": "Riset yang spesifik + kecocokan dengan pengalamanmu"
           }
          ],
          [
@@ -2981,11 +2981,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Self-awareness; is there a disqualifier?",
-           "id": "Kesadaran diri; adakah penggugur?"
+           "id": "Kesadaran diri; adakah hal yang menggugurkan?"
           },
           {
            "en": "Real, non-core weakness with a system to manage it",
-           "id": "Kelemahan nyata bukan inti dengan sistem untuk mengelolanya"
+           "id": "Kelemahan nyata yang bukan inti pekerjaan, lengkap dengan cara kamu mengatasinya"
           }
          ],
          [
@@ -2995,11 +2995,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Capability; excuses",
-           "id": "Kemampuan; alasan"
+           "id": "Kemampuan; apakah kamu suka berdalih?"
           },
           {
            "en": "Brief ownership, then other evidence of capability",
-           "id": "Pengakuan singkat, lalu bukti kemampuan lain"
+           "id": "Akui singkat, lalu tunjukkan bukti kemampuan yang lain"
           }
          ],
          [
@@ -3009,11 +3009,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Seriousness, your market value, will you accept?",
-           "id": "Keseriusan, nilai pasarmu, apakah Anda menerima?"
+           "id": "Keseriusan, nilai jualmu, apakah kamu akan menerima tawarannya?"
           },
           {
            "en": "Consistent direction, honest but not exhaustive",
-           "id": "Arah yang konsisten, jujur tetapi tidak menyeluruh"
+           "id": "Arah yang konsisten; jujur tetapi tidak perlu dirinci semua"
           }
          ],
          [
@@ -3023,11 +3023,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Eligibility; will you resign after placement?",
-           "id": "Kelayakan; apakah Anda mengundurkan diri setelah penempatan?"
+           "id": "Kelayakan; apakah kamu akan mengundurkan diri setelah ditempatkan?"
           },
           {
            "en": "A truthful answer; if yes, a reason you can mean",
-           "id": "Jawaban jujur; jika ya, alasan yang benar-benar kamu maksud"
+           "id": "Jawaban yang jujur; kalau “ya”, sertakan alasan yang benar-benar kamu yakini"
           }
          ],
          [
@@ -3037,11 +3037,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Will you leave soon? (often asked, sometimes inappropriate)",
-           "id": "Apakah Anda segera pergi? (sering ditanya, kadang tidak pantas)"
+           "id": "Apakah kamu akan segera keluar? (sering ditanyakan, kadang tidak pantas)"
           },
           {
            "en": "Address the concern (commitment) without over-sharing, Lesson 5.4",
-           "id": "Tangani kekhawatirannya (komitmen) tanpa berbagi berlebihan, Pelajaran 5.4"
+           "id": "Jawab kekhawatirannya (komitmen) tanpa membuka terlalu banyak hal pribadi; lihat Pelajaran 5.4"
           }
          ],
          [
@@ -3051,11 +3051,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Problem employee?",
-           "id": "Karyawan bermasalah?"
+           "id": "Apakah kamu karyawan bermasalah?"
           },
           {
            "en": "Forward-looking reason; no blame",
-           "id": "Alasan yang mengarah ke depan; tanpa menyalahkan"
+           "id": "Alasan yang menatap ke depan; tidak menyalahkan siapa pun"
           }
          ],
          [
@@ -3065,17 +3065,17 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Interest, preparation",
-           "id": "Minat, persiapan"
+           "id": "Minat dan persiapan"
           },
           {
            "en": "2–3 researched questions (Module 8)",
-           "id": "2–3 pertanyaan hasil riset (Modul 8)"
+           "id": "2–3 pertanyaan yang lahir dari riset (Modul 8)"
           }
          ]
         ],
         "caption": {
          "en": "Ten stated questions, ten concerns. The right column is what a “4” answer contains.",
-         "id": "Sepuluh pertanyaan yang dinyatakan, sepuluh kekhawatiran. Kolom kanan adalah isi jawaban “4”."
+         "id": "Sepuluh pertanyaan, sepuluh kekhawatiran. Kolom kanan adalah isi jawaban yang bernilai “4”."
         }
        }
       },
@@ -3083,11 +3083,11 @@ window.MT_LMS['the-rope'] = {
        "icon": "lock",
        "h": {
         "en": "Stress techniques and how to hold steady",
-        "id": "Teknik tekanan dan cara tetap tenang"
+        "id": "Teknik penekanan dan cara tetap tenang"
        },
        "body": {
         "en": "Interviewers sometimes deliberately create pressure: a long silence after your answer, rapid questions, open scepticism (“Saya tidak yakin itu cukup”), or questions designed to unsettle. Pellett describes these as tests of composure rather than judgements of content <i>(Pellett, Cracking the Code)</i>. The protocol: <b>pause</b> (two seconds is fine) → <b>acknowledge</b> (“Pertanyaan yang wajar”) → <b>evidence</b> (a fact, not a defence) → <b>forward</b> (what you would do, or what you have learned). Silence after your complete answer: do not keep talking to fill it. The extra sentences are where over-claims and “we” creep in. A short “Apakah itu menjawab pertanyaan Bapak/Ibu, atau ada bagian yang ingin saya perdalam?” is enough, and it hands the turn back. The simulator’s silence mode (Module 9) measures the words you add after a six-second pause; the target is zero.",
-        "id": "Pewawancara kadang sengaja menciptakan tekanan: keheningan panjang setelah jawabanmu, pertanyaan beruntun, skeptisisme terbuka (“Saya tidak yakin itu cukup”), atau pertanyaan yang dirancang untuk mengguncang. Pellett menggambarkannya sebagai ujian ketenangan, bukan penilaian isi <i>(Pellett, Cracking the Code)</i>. Protokolnya: <b>jeda</b> (dua detik tidak apa-apa) → <b>akui</b> (“Pertanyaan yang wajar”) → <b>bukti</b> (fakta, bukan pembelaan) → <b>ke depan</b> (apa yang akan kamu lakukan, atau yang kamu pelajari). Keheningan setelah jawaban lengkapmu: jangan terus bicara untuk mengisinya, kalimat tambahan itulah tempat klaim berlebihan dan “kami” menyelinap. “Apakah itu menjawab pertanyaan Bapak/Ibu, atau ada bagian yang ingin saya perdalam?” yang singkat sudah cukup, dan mengembalikan giliran. Mode keheningan simulator (Modul 9) mengukur kata yang kamu tambahkan setelah jeda enam detik; targetnya nol."
+        "id": "Pewawancara kadang sengaja menciptakan tekanan: diam lama setelah kamu menjawab, pertanyaan yang datang bertubi-tubi, keraguan yang terang-terangan (“Saya tidak yakin itu cukup”), atau pertanyaan yang memang dibuat untuk menggoyahkanmu. Pellett menyebut semua ini ujian ketenangan, bukan penilaian atas isi jawaban <i>(Pellett, Cracking the Code)</i>. Langkahnya: <b>jeda</b> (dua detik tidak apa-apa) → <b>akui</b> (“Pertanyaan yang wajar”) → <b>bukti</b> (sebuah fakta, bukan pembelaan) → <b>ke depan</b> (apa yang akan kamu lakukan, atau apa yang sudah kamu pelajari). Kalau pewawancara diam setelah jawabanmu selesai, jangan terus bicara untuk mengisi kekosongan. Kalimat-kalimat tambahan itulah tempat klaim berlebihan dan kata “kami” menyelinap masuk. Cukup satu kalimat singkat, “Apakah itu sudah menjawab pertanyaan Bapak/Ibu, atau ada bagian yang perlu saya jelaskan lebih dalam?”, lalu giliran bicara kembali kepada mereka. Mode keheningan di simulator (Modul 9) mengukur berapa kata yang kamu tambahkan setelah jeda enam detik; targetnya nol."
        },
        "table": {
         "cols": [
@@ -3097,7 +3097,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "What it is testing",
-          "id": "Yang diuji"
+          "id": "Yang sebenarnya diuji"
          },
          {
           "en": "Your move",
@@ -3108,43 +3108,43 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "Long silence after your answer",
-           "id": "Keheningan panjang setelah jawabanmu"
+           "id": "Diam lama setelah kamu menjawab"
           },
           {
            "en": "Whether you over-talk under discomfort",
-           "id": "Apakah kamu bicara berlebihan saat tidak nyaman"
+           "id": "Apakah kamu jadi kebanyakan bicara saat merasa canggung"
           },
           {
            "en": "Wait, or offer once to go deeper on any part",
-           "id": "Tunggu, atau tawarkan sekali untuk memperdalam bagian mana pun"
+           "id": "Tunggu, atau sekali saja tawarkan untuk menjelaskan bagian mana pun lebih dalam"
           }
          ],
          [
           {
            "en": "Rapid questions",
-           "id": "Pertanyaan beruntun"
+           "id": "Pertanyaan bertubi-tubi"
           },
           {
            "en": "Whether you keep structure at speed",
-           "id": "Apakah kamu menjaga struktur dalam kecepatan"
+           "id": "Apakah jawabanmu tetap runtut meski cepat"
           },
           {
            "en": "Answer each briefly with the type’s shape; do not chase the previous one",
-           "id": "Jawab masing-masing singkat dengan bentuk tipenya; jangan mengejar yang sebelumnya"
+           "id": "Jawab masing-masing dengan singkat sesuai bentuknya; jangan mengejar pertanyaan sebelumnya"
           }
          ],
          [
           {
            "en": "Open scepticism",
-           "id": "Skeptisisme terbuka"
+           "id": "Keraguan yang terang-terangan"
           },
           {
            "en": "Composure; whether evidence exists beneath the claim",
-           "id": "Ketenangan; apakah ada bukti di bawah klaim"
+           "id": "Ketenangan; apakah ada bukti di balik klaimmu"
           },
           {
            "en": "Acknowledge, then one more fact, not a bigger claim",
-           "id": "Akui, lalu satu fakta lagi, bukan klaim yang lebih besar"
+           "id": "Akui, lalu tambahkan satu fakta lagi, bukan klaim yang lebih besar"
           }
          ],
          [
@@ -3154,11 +3154,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Whether you can prioritise",
-           "id": "Apakah kamu bisa memprioritaskan"
+           "id": "Apakah kamu bisa menentukan prioritas"
           },
           {
            "en": "Two reasons with evidence, then stop",
-           "id": "Dua alasan dengan bukti, lalu berhenti"
+           "id": "Dua alasan beserta buktinya, lalu berhenti"
           }
          ]
         ]
@@ -3172,7 +3172,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "For technical questions, bluffing is the worst option, interviewers who know the subject spot it instantly, and a confident wrong answer is remembered longer than an honest gap. The protocol: say what you do know; reason aloud toward an answer; name how you would find out. “Saya belum pernah menghitung NIM secara langsung, tapi setahu saya itu selisih pendapatan bunga dan beban bunga dibagi aset produktif. Kalau salah, saya ingin tahu bagaimana tim di sini menghitungnya.” That answer scores on <i>limits handled</i> even if the formula is imperfect, because it shows the two things a manager needs from a junior: honesty at the edge of knowledge, and the habit of reasoning rather than freezing. Lesson 6.2 turns this into a full “I don’t know” protocol for your field.",
-        "id": "Untuk pertanyaan teknis, menggertak adalah pilihan terburuk, pewawancara yang menguasai subjeknya langsung tahu, dan jawaban salah yang percaya diri diingat lebih lama daripada celah yang jujur. Protokolnya: katakan yang kamu tahu; bernalar dengan suara menuju jawaban; sebutkan cara kamu mencari tahu. “Saya belum pernah menghitung NIM secara langsung, tapi setahu saya itu selisih pendapatan bunga dan beban bunga dibagi aset produktif. Kalau salah, saya ingin tahu bagaimana tim di sini menghitungnya.” Jawaban itu dinilai pada <i>batas yang ditangani</i> meski rumusnya belum sempurna, karena menunjukkan dua hal yang dibutuhkan manajer dari junior: kejujuran di batas pengetahuan, dan kebiasaan bernalar alih-alih membeku. Pelajaran 6.2 mengubah ini menjadi protokol “saya tidak tahu” lengkap untuk bidangmu."
+        "id": "Untuk pertanyaan teknis, menggertak adalah pilihan terburuk. Pewawancara yang menguasai topiknya langsung tahu, dan jawaban salah yang disampaikan dengan yakin diingat jauh lebih lama daripada ketidaktahuan yang diakui dengan jujur. Langkahnya: sampaikan apa yang kamu tahu; bernalarlah dengan suara keras menuju jawaban; sebutkan bagaimana kamu akan mencari tahu. “Saya belum pernah menghitung NIM secara langsung, tapi setahu saya itu selisih pendapatan bunga dan beban bunga dibagi aset produktif. Kalau keliru, saya ingin tahu bagaimana tim di sini menghitungnya.” Jawaban seperti itu tetap dinilai baik dalam hal <i>menyikapi batas pengetahuan</i>, meski rumusnya belum sempurna. Jawaban itu memperlihatkan dua hal yang dibutuhkan atasan dari seorang junior: jujur saat sampai di batas pengetahuannya, dan terbiasa bernalar alih-alih terpaku diam. Pelajaran 6.2 mengembangkannya menjadi langkah lengkap menghadapi “saya tidak tahu” untuk bidangmu."
        }
       }
      ],
@@ -3180,18 +3180,18 @@ window.MT_LMS['the-rope'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 1: Identify → answer shape",
-       "id": "Peraga 1: Kenali → bentuk jawaban"
+       "id": "Peraga 1: Kenali → pilih bentuk jawaban"
       },
       "title": {
        "en": "Seven questions to ask yourself in the two seconds before you answer",
-       "id": "Tujuh pertanyaan untuk dirimu dalam dua detik sebelum menjawab"
+       "id": "Tujuh pertanyaan untuk dirimu sendiri dalam dua detik sebelum menjawab"
       },
       "items": [
        {
         "icon": "clock",
         "h": {
          "en": "Does it ask about the past?",
-         "id": "Apakah bertanya tentang masa lalu?"
+         "id": "Menanyakan masa lalu?"
         },
         "sub": {
          "en": "→ behavioural · STAR+L",
@@ -3202,7 +3202,7 @@ window.MT_LMS['the-rope'] = {
         "icon": "compass",
         "h": {
          "en": "Future or hypothetical?",
-         "id": "Masa depan atau hipotetis?"
+         "id": "Masa depan atau berandai-andai?"
         },
         "sub": {
          "en": "→ situational · principle → steps → real example",
@@ -3213,11 +3213,11 @@ window.MT_LMS['the-rope'] = {
         "icon": "target",
         "h": {
          "en": "Why us / why this?",
-         "id": "Mengapa kami / mengapa ini?"
+         "id": "Kenapa kami / kenapa ini?"
         },
         "sub": {
          "en": "→ motivational · REC",
-         "id": "→ motivasional · REC"
+         "id": "→ motivasi · REC"
         }
        },
        {
@@ -3235,43 +3235,43 @@ window.MT_LMS['the-rope'] = {
         "icon": "book",
         "h": {
          "en": "Knowledge?",
-         "id": "Pengetahuan?"
+         "id": "Soal pengetahuan?"
         },
         "sub": {
          "en": "→ technical · direct → reasoning → example; say what you don’t know",
-         "id": "→ teknis · langsung → alasan → contoh; katakan yang tidak kamu tahu"
+         "id": "→ teknis · langsung → alasan → contoh; akui yang tidak kamu tahu"
         }
        },
        {
         "icon": "chart",
         "h": {
          "en": "A problem to solve?",
-         "id": "Masalah untuk dipecahkan?"
+         "id": "Masalah yang harus dipecahkan?"
         },
         "sub": {
          "en": "→ case · clarify → structure → analyse → answer",
-         "id": "→ kasus · klarifikasi → struktur → analisis → jawab"
+         "id": "→ kasus · perjelas → susun → analisis → jawab"
         }
        },
        {
         "icon": "lock",
         "h": {
          "en": "Pressure?",
-         "id": "Tekanan?"
+         "id": "Ditekan?"
         },
         "sub": {
          "en": "→ stress · pause → acknowledge → evidence → forward",
-         "id": "→ tekanan · jeda → akui → bukti → ke depan"
+         "id": "→ penekanan · jeda → akui → bukti → ke depan"
         }
        }
       ],
       "note": {
        "en": "The routing takes two seconds and prevents the commonest failure: the right story in the wrong shape.",
-       "id": "Pengarahannya butuh dua detik dan mencegah kegagalan paling umum: cerita yang benar dalam bentuk yang salah."
+       "id": "Memilah jenis pertanyaan cukup dua detik, dan mencegah kegagalan paling umum: cerita yang tepat dalam bentuk yang salah."
       },
       "longdesc": {
        "en": "A decision tree with seven branches: a question about the past routes to a behavioural STAR+L answer; a future or hypothetical question to a situational answer of principle, steps and a real example; a why-us question to REC; a question about yourself to claim plus evidence; a knowledge question to a direct answer with reasoning and an example, admitting what you do not know; a problem to the case protocol; and pressure to pause, acknowledge, evidence, forward.",
-       "id": "Pohon keputusan dengan tujuh cabang: pertanyaan tentang masa lalu mengarah ke jawaban perilaku STAR+L; pertanyaan masa depan atau hipotetis ke jawaban situasional berupa prinsip, langkah, dan contoh nyata; pertanyaan mengapa-kami ke REC; pertanyaan tentang dirimu ke klaim plus bukti; pertanyaan pengetahuan ke jawaban langsung dengan alasan dan contoh, mengakui yang tidak kamu tahu; masalah ke protokol kasus; dan tekanan ke jeda, akui, bukti, ke depan."
+       "id": "Pohon keputusan dengan tujuh cabang: pertanyaan tentang masa lalu mengarah ke jawaban perilaku STAR+L; pertanyaan tentang masa depan atau berandai-andai ke jawaban situasional berupa prinsip, langkah, dan contoh nyata; pertanyaan “kenapa kami” ke REC; pertanyaan tentang dirimu ke klaim ditambah bukti; pertanyaan pengetahuan ke jawaban langsung dengan alasan dan contoh, sambil mengakui yang tidak kamu tahu; masalah yang harus dipecahkan ke langkah kasus; dan tekanan ke jeda, akui, bukti, ke depan."
       }
      },
      "compare": [
@@ -3282,7 +3282,7 @@ window.MT_LMS['the-rope'] = {
        },
        "q": {
         "en": "The HR interviewer at Bank Sinar Nusantara asks the five-year question. The hidden concern is “will you stay, and are you realistic?”",
-        "id": "Pewawancara HR di Bank Sinar Nusantara mengajukan pertanyaan lima tahun. Kekhawatiran tersembunyinya “apakah kamu bertahan, dan apakah kamu realistis?”"
+        "id": "Pewawancara HR Bank Sinar Nusantara menanyakan soal lima tahun lagi. Kekhawatiran tersembunyinya: “Apakah kamu akan bertahan, dan apakah harapanmu realistis?”"
        },
        "weak": {
         "en": "“Saya ingin punya usaha sendiri.”, or, “Mungkin di posisi Bapak.”",
@@ -3290,11 +3290,11 @@ window.MT_LMS['the-rope'] = {
        },
        "strong": {
         "en": "“Saya ingin sudah menguasai operasional dan kredit dengan baik; idealnya sudah memegang tanggung jawab penuh atas satu unit atau portofolio. Program officer programme di sini memberi rotasi di tiga fungsi di tahun pertama, dan itu jalur yang saya cari. Yang paling ingin saya bangun adalah kemampuan membaca risiko nasabah, karena itu yang saya lihat paling membedakan orang operasional yang baik.”",
-        "id": "“Saya ingin sudah menguasai operasional dan kredit dengan baik; idealnya sudah memegang tanggung jawab penuh atas satu unit atau portofolio. Program ODP di sini memberi rotasi di tiga fungsi di tahun pertama, dan itu jalur yang saya cari. Yang paling ingin saya bangun adalah kemampuan membaca risiko nasabah, karena itu yang saya lihat paling membedakan orang operasional yang baik.”"
+        "id": "“Saya ingin sudah menguasai operasional dan kredit dengan baik, idealnya sudah memegang tanggung jawab penuh atas satu unit atau satu portofolio. Program ODP di sini memberi rotasi di tiga fungsi pada tahun pertama, dan jalur seperti itulah yang saya cari. Kemampuan yang paling ingin saya bangun adalah membaca risiko nasabah, karena menurut pengamatan saya, itulah yang paling membedakan orang operasional yang baik.”"
        },
        "why": {
         "en": "The first weak answer signals leaving; the second is a cliché that can land as arrogant in a formal room. The strong answer addresses the hidden concern (stay and grow here), shows research (the programme’s three-function rotation), and gives a concrete learning goal. Which is the part interviewers can write down. It is also true, which is why it survives “kenapa risiko nasabah?”.",
-        "id": "Jawaban lemah pertama menandakan pergi; yang kedua klise yang bisa terkesan sombong di ruangan formal. Jawaban kuat menangani kekhawatiran tersembunyi (bertahan dan tumbuh di sini), menunjukkan riset (rotasi tiga fungsi program), dan memberi tujuan belajar konkret. Bagian yang bisa ditulis pewawancara. Jawaban itu juga benar, sebab itulah ia bertahan saat ditanya “kenapa risiko nasabah?”."
+        "id": "Jawaban lemah pertama memberi sinyal akan keluar; yang kedua klise dan di ruangan yang formal bisa terkesan sombong. Jawaban yang kuat langsung menjawab kekhawatiran tersembunyinya (bertahan dan berkembang di sini), menunjukkan riset (rotasi tiga fungsi di program itu), dan menyebut satu target belajar yang konkret, yaitu bagian yang bisa dicatat pewawancara. Jawaban itu juga benar, sehingga tetap kokoh saat ditanya lanjutan, “Kenapa risiko nasabah?”"
        }
       }
      ],
@@ -3307,11 +3307,11 @@ window.MT_LMS['the-rope'] = {
       "body": [
        {
         "en": "In Arunika’s user interview, the supply-chain manager asks: “Kalau kamu diterima di sini dan di Bank Sinar sekaligus, kamu pilih mana?” It is a stress question wearing a motivational coat. Nadia recognises the hidden concern, will she accept, or is Arunika her backup, and answers honestly without overcommitting: she names what draws her to Arunika specifically (the supply-chain rotation and the plant in Semarang, where she interned in bank operations), says the final decision will depend on the role details in each offer, and closes: “tapi posisi ini memang yang paling sesuai dengan minat saya di operasional rantai pasok.”",
-        "id": "Di wawancara user Arunika, manajer rantai pasok bertanya: “Kalau kamu diterima di sini dan di Bank Sinar sekaligus, kamu pilih mana?” Ini pertanyaan tekanan berjubah motivasional. Nadia mengenali kekhawatiran tersembunyinya, apakah ia akan menerima, atau Arunika hanya cadangan, dan menjawab jujur tanpa berjanji berlebihan: ia menyebut yang menariknya ke Arunika secara spesifik (rotasi rantai pasok dan pabrik di Semarang, tempat ia magang di operasional bank), mengatakan keputusan akhir bergantung pada detail peran di tiap tawaran, dan menutup: “tapi posisi ini memang yang paling sesuai dengan minat saya di operasional rantai pasok.”"
+        "id": "Di wawancara user Arunika, manajer rantai pasok bertanya, “Kalau kamu diterima di sini dan di Bank Sinar sekaligus, kamu pilih mana?” Ini pertanyaan penekanan yang dibungkus seperti pertanyaan motivasi. Nadia menangkap kekhawatiran di baliknya, yaitu apakah ia akan menerima tawarannya, atau Arunika hanya cadangan. Ia menjawab dengan jujur tanpa berjanji berlebihan. Ia menyebut apa yang membuatnya tertarik secara khusus pada Arunika (rotasi rantai pasok dan pabrik di Semarang, kota tempat ia magang di operasional bank), mengatakan bahwa keputusan akhirnya bergantung pada rincian posisi di setiap tawaran, lalu menutup, “tapi posisi ini memang yang paling sesuai dengan minat saya di operasional rantai pasok.”"
        },
        {
         "en": "What she did not do matters as much: she did not claim Arunika was her only application (the manager knows better), did not disparage the bank, and did not promise to accept an offer she has not seen. Pause, acknowledge, evidence, forward, and the truth, which is the only answer that is still true in the final panel.",
-        "id": "Yang tidak ia lakukan sama pentingnya: ia tidak mengklaim Arunika satu-satunya lamarannya (manajer itu lebih tahu), tidak merendahkan bank, dan tidak berjanji menerima tawaran yang belum ia lihat. Jeda, akui, bukti, ke depan, dan kebenaran, satu-satunya jawaban yang masih benar di panel akhir."
+        "id": "Yang tidak ia lakukan sama pentingnya. Ia tidak mengaku Arunika satu-satunya lamarannya (manajernya tahu itu tidak mungkin), tidak menjelekkan bank, dan tidak berjanji menerima tawaran yang belum ia lihat. Jeda, akui, bukti, ke depan, ditambah kejujuran. Hanya jawaban jujur yang akan tetap benar sampai panel terakhir."
        }
       ]
      },
@@ -3319,43 +3319,43 @@ window.MT_LMS['the-rope'] = {
       {
        "h": {
         "en": "Drill 1 · Type-spotting speed drill",
-        "id": "Latihan 1 · Latihan cepat mengenali tipe"
+        "id": "Latihan 1 · Kenali jenisnya secepat mungkin"
        },
        "body": {
         "en": "Classify each in under eight seconds: (1) “Describe a time you persuaded someone more senior than you.” (2) “A vendor offers you a gift after you approve their invoice. What do you do?” (3) “What do you know about how we make money?” (4) “Which part of this role do you expect to find hardest?” (5) “Why can a profitable company run out of cash?” (6) “A branch’s new-account openings dropped 30% in three months. How would you investigate?” (7) “I’m not convinced by that example. Give me a better one.” (8) “Tell me about the most repetitive task you’ve done. How did you keep the quality up?” (9) “What would make you leave a job in your first year?” (10) “Estimate how many motorbike taxis operate in a city of 2 million people.”",
-        "id": "Golongkan masing-masing dalam kurang dari delapan detik: (1) “Ceritakan saat Anda meyakinkan orang yang lebih senior.” (2) “Vendor memberi hadiah setelah Anda menyetujui tagihannya. Apa yang Anda lakukan?” (3) “Apa yang Anda tahu tentang cara kami menghasilkan uang?” (4) “Bagian mana dari peran ini yang menurut Anda paling sulit?” (5) “Mengapa perusahaan yang untung bisa kehabisan kas?” (6) “Pembukaan rekening baru di satu cabang turun 30% dalam tiga bulan. Bagaimana Anda menyelidikinya?” (7) “Saya tidak yakin dengan contoh itu. Beri saya yang lebih baik.” (8) “Ceritakan tugas paling berulang yang pernah Anda kerjakan. Bagaimana Anda menjaga kualitasnya?” (9) “Apa yang akan membuat Anda meninggalkan pekerjaan di tahun pertama?” (10) “Perkirakan berapa ojek yang beroperasi di kota berpenduduk 2 juta.”"
+        "id": "Golongkan setiap pertanyaan dalam waktu kurang dari delapan detik: (1) “Ceritakan saat Anda berhasil meyakinkan orang yang lebih senior.” (2) “Seorang vendor memberi Anda hadiah setelah Anda menyetujui tagihannya. Apa yang Anda lakukan?” (3) “Apa yang Anda ketahui tentang cara kami menghasilkan uang?” (4) “Bagian mana dari posisi ini yang menurut Anda paling sulit?” (5) “Kenapa perusahaan yang untung bisa kehabisan uang tunai?” (6) “Pembukaan rekening baru di sebuah cabang turun 30% dalam tiga bulan. Bagaimana Anda menyelidikinya?” (7) “Saya belum yakin dengan contoh itu. Beri saya contoh yang lebih baik.” (8) “Ceritakan pekerjaan paling berulang yang pernah Anda kerjakan. Bagaimana Anda menjaga kualitasnya?” (9) “Apa yang bisa membuat Anda keluar dari pekerjaan di tahun pertama?” (10) “Perkirakan berapa banyak ojek yang beroperasi di kota berpenduduk 2 juta orang.”"
        },
        "debrief": {
         "en": "(1) behavioural; (2) situational: integrity (gratifikasi), principle first, then a real example if you have one; (3) motivational, research; (4) self-assessment; (5) technical; (6) case; (7) stress; (8) behavioural, detail and reliability; (9) motivational. The hidden concern is stability; (10) case, estimation. If you scored eight or more, the routing is automatic; if fewer, the simulator’s mixed-type set (this lesson’s tryit) names the type after each answer until it is.",
-        "id": "(1) perilaku; (2) situasional: integritas (gratifikasi), prinsip dulu, lalu contoh nyata jika ada; (3) motivasional, riset; (4) penilaian diri; (5) teknis; (6) kasus; (7) tekanan; (8) perilaku, ketelitian dan keandalan; (9) motivasional, kekhawatiran tersembunyinya stabilitas; (10) kasus. Estimasi. Jika kamu benar delapan atau lebih, pengarahannya sudah otomatis; jika kurang, set tipe campuran simulator (tryit pelajaran ini) menyebutkan tipe setelah tiap jawaban sampai otomatis."
+        "id": "(1) perilaku; (2) situasional: integritas (gratifikasi), mulai dari prinsip, lalu contoh nyata kalau ada; (3) motivasi, riset; (4) penilaian diri; (5) teknis; (6) kasus; (7) penekanan; (8) perilaku, ketelitian dan bisa diandalkan; (9) motivasi, dengan kekhawatiran tersembunyi soal stabilitas; (10) kasus, perkiraan. Kalau benar delapan atau lebih, kamu sudah otomatis memilahnya. Kalau kurang, set pertanyaan campuran di simulator (bagian “coba sekarang” pelajaran ini) akan menyebut jenisnya setiap kali kamu selesai menjawab, sampai kebiasaan itu terbentuk."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Hidden-concern rewrite",
-        "id": "Latihan 2 · Tulis ulang kekhawatiran tersembunyi"
+        "id": "Latihan 2 · Tulis ulang dengan kekhawatiran tersembunyinya"
        },
        "body": {
         "en": "For three questions on your own target list, the ones you least want to be asked, write the hidden concern in one line, then one sentence that addresses it truthfully. Use the table’s right column as the standard.",
-        "id": "Untuk tiga pertanyaan di daftar sasaranmu sendiri, yang paling tidak ingin kamu tanyakan, tulis kekhawatiran tersembunyinya dalam satu baris, lalu satu kalimat yang menanganinya dengan jujur. Pakai kolom kanan tabel sebagai standar."
+        "id": "Pilih tiga pertanyaan dari daftar sasaranmu sendiri, yaitu pertanyaan yang paling tidak ingin kamu dengar. Untuk masing-masing, tulis kekhawatiran tersembunyinya dalam satu baris, lalu satu kalimat yang menjawabnya dengan jujur. Pakai kolom kanan tabel sebagai patokan."
        },
        "debrief": {
         "en": "Nadia’s three: “Kenapa GPA 3,38 dan bukan di atas 3,5?” → concern: capability → “Semester tiga dan empat saya mengambil peran bendahara penuh waktu; nilai turun, dan itu pilihan saya, tetapi audit fakultas tahun itu nol temuan, dan semester berikutnya GPA saya naik lagi.” “Sudah melamar ke mana saja?” → concern: seriousness and acceptance → “Empat proses, semuanya operasional atau management trainee, arahnya sama.” “Bersedia ditempatkan di luar Jawa?” → concern: eligibility and resignation → a truthful yes with a reason she can mean, or a truthful no. The test of a good rewrite: it would still be true if the interviewer checked.",
-        "id": "Tiga milik Nadia: “Kenapa IPK 3,38 dan bukan di atas 3,5?” → kekhawatiran: kemampuan → “Semester tiga dan empat saya mengambil peran bendahara penuh waktu; nilai turun, dan itu pilihan saya, tetapi audit fakultas tahun itu nol temuan, dan semester berikutnya IPK saya naik lagi.” “Sudah melamar ke mana saja?” → kekhawatiran: keseriusan dan penerimaan → “Empat proses, semuanya operasional atau management trainee, arahnya sama.” “Bersedia ditempatkan di luar Jawa?” → kekhawatiran: kelayakan dan pengunduran diri → ya yang jujur dengan alasan yang benar-benar ia maksud, atau tidak yang jujur. Ujian tulisan ulang yang baik: tetap benar jika pewawancara memeriksanya."
+        "id": "Tiga versi Nadia: “Kenapa IPK 3,38 dan bukan di atas 3,5?” → kekhawatiran: kemampuan → “Di semester tiga dan empat saya memegang peran bendahara secara penuh; nilai saya turun, dan itu memang pilihan saya, tetapi audit fakultas tahun itu tidak menemukan satu pun temuan, dan di semester berikutnya IPK saya naik lagi.” “Sudah melamar ke mana saja?” → kekhawatiran: keseriusan dan kemungkinan menerima → “Empat proses, semuanya di operasional atau management trainee, arahnya sama.” “Bersedia ditempatkan di luar Jawa?” → kekhawatiran: kelayakan dan kemungkinan mengundurkan diri → “ya” yang jujur dengan alasan yang benar-benar ia yakini, atau “tidak” yang juga jujur. Ujian untuk tulisan ulang yang baik: kalimatnya tetap benar seandainya pewawancara mengeceknya."
        }
       },
       {
        "h": {
         "en": "Drill 3 · Silence drill",
-        "id": "Latihan 3 · Latihan keheningan"
+        "id": "Latihan 3 · Tahan dalam diam"
        },
        "body": {
         "en": "Record one full answer to any behavioural question, then stay silent for six seconds after your last sentence. Count the words you added before the six seconds were up. Repeat until the count is zero.",
-        "id": "Rekam satu jawaban lengkap untuk pertanyaan perilaku apa pun, lalu diam enam detik setelah kalimat terakhirmu. Hitung kata yang kamu tambahkan sebelum enam detik habis. Ulangi sampai hitungannya nol."
+        "id": "Rekam satu jawaban lengkap untuk pertanyaan perilaku apa pun, lalu diam selama enam detik setelah kalimat terakhirmu. Hitung berapa kata yang kamu tambahkan sebelum enam detik itu habis. Ulangi sampai hitungannya nol."
        },
        "debrief": {
         "en": "Most learners add ten to forty words on the first attempt, and those words are almost always a weaker restatement, a hedge (“…kalau tidak salah”), or a “we”. The measured target is zero words; the permitted alternative is one sentence handing the turn back. The simulator’s silence mode runs this automatically with a six-second interviewer pause.",
-        "id": "Sebagian besar pembelajar menambah sepuluh hingga empat puluh kata pada percobaan pertama, dan kata-kata itu hampir selalu pernyataan ulang yang lebih lemah, pagar (“…kalau tidak salah”), atau “kami”. Target terukurnya nol kata; alternatif yang diizinkan adalah satu kalimat mengembalikan giliran. Mode keheningan simulator menjalankan ini otomatis dengan jeda pewawancara enam detik."
+        "id": "Kebanyakan peserta menambahkan sepuluh sampai empat puluh kata di percobaan pertama, dan hampir selalu isinya pengulangan yang lebih lemah, kalimat ragu (“…kalau tidak salah”), atau kata “kami”. Targetnya nol kata; yang boleh hanya satu kalimat untuk mengembalikan giliran bicara. Mode keheningan di simulator menjalankan latihan ini secara otomatis dengan jeda pewawancara selama enam detik."
        }
       }
      ],
@@ -3364,41 +3364,41 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Answering a behavioural question hypothetically",
-         "id": "Menjawab pertanyaan perilaku secara hipotetis"
+         "id": "Menjawab pertanyaan perilaku dengan berandai-andai"
         },
         "fix": {
          "en": "“Tell me about a time” wants the past tense and a real situation.",
-         "id": "“Ceritakan saat” menginginkan bentuk lampau dan situasi nyata."
+         "id": "“Ceritakan saat Anda…” meminta bentuk lampau dan situasi yang nyata."
         }
        },
        {
         "h": {
          "en": "Answering a motivational question with a STAR story that never says why <i>this</i> company",
-         "id": "Menjawab pertanyaan motivasional dengan cerita STAR yang tidak pernah menyebut mengapa perusahaan <i>ini</i>"
+         "id": "Menjawab pertanyaan motivasi dengan cerita STAR yang tidak pernah menyebut kenapa perusahaan <i>ini</i>"
         },
         "fix": {
          "en": "REC: one researched fact, one experience, one contribution (Module 4).",
-         "id": "REC: satu fakta riset, satu pengalaman, satu kontribusi (Modul 4)."
+         "id": "REC: satu fakta dari riset, satu pengalaman, satu kontribusi (Modul 4)."
         }
        },
        {
         "h": {
          "en": "Rambling to fill silence",
-         "id": "Mengoceh untuk mengisi keheningan"
+         "id": "Bicara bertele-tele untuk mengisi keheningan"
         },
         "fix": {
          "en": "Wait, or hand the turn back in one sentence.",
-         "id": "Tunggu, atau kembalikan giliran dalam satu kalimat."
+         "id": "Tunggu, atau kembalikan giliran bicara dengan satu kalimat."
         }
        },
        {
         "h": {
          "en": "Bluffing on technical questions",
-         "id": "Menggertak pada pertanyaan teknis"
+         "id": "Menggertak di pertanyaan teknis"
         },
         "fix": {
          "en": "What you know → reasoning aloud → how you would find out.",
-         "id": "Yang kamu tahu → bernalar dengan suara → cara kamu mencari tahu."
+         "id": "Yang kamu tahu → bernalar dengan suara keras → cara kamu akan mencari tahu."
         }
        }
       ]
@@ -3411,7 +3411,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Asks for a real past situation as evidence of how you will behave; answered with STAR+L.",
-        "id": "Meminta situasi nyata masa lalu sebagai bukti caramu akan berperilaku; dijawab dengan STAR+L."
+        "id": "Meminta situasi nyata dari masa lalu sebagai bukti bagaimana kamu akan bersikap; dijawab dengan STAR+L."
        }
       },
       {
@@ -3421,7 +3421,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "A hypothetical that tests judgement and values; answered with a principle, steps and a real example.",
-        "id": "Hipotetis yang menguji penilaian dan nilai; dijawab dengan prinsip, langkah, dan contoh nyata."
+        "id": "Pertanyaan berandai-andai yang menguji pertimbangan dan nilai-nilaimu; dijawab dengan prinsip, langkah, dan contoh nyata."
        }
       },
       {
@@ -3431,17 +3431,17 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "The employer worry behind a stated question; will you stay, is this random, is there a disqualifier.",
-        "id": "Kekhawatiran perusahaan di balik pertanyaan yang dinyatakan; apakah kamu bertahan, apakah ini acak, adakah penggugur."
+        "id": "Kekhawatiran perusahaan di balik sebuah pertanyaan: apakah kamu akan bertahan, apakah ini lamaran asal-asalan, apakah ada hal yang menggugurkan."
        }
       },
       {
        "term": {
         "en": "Stress interview",
-        "id": "Wawancara tekanan"
+        "id": "Wawancara penekanan"
        },
        "def": {
         "en": "Deliberate pressure, silence, rapid fire, scepticism, used to test composure, not content.",
-        "id": "Tekanan yang disengaja, keheningan, beruntun, skeptisisme, dipakai untuk menguji ketenangan, bukan isi."
+        "id": "Tekanan yang sengaja diciptakan, berupa diam lama, pertanyaan bertubi-tubi, atau keraguan, untuk menguji ketenanganmu, bukan isi jawabanmu."
        }
       },
       {
@@ -3451,7 +3451,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Research, Experience, Contribution: the shape of a motivational answer (Module 4; after Dalton).",
-        "id": "Riset, Pengalaman, Kontribusi: bentuk jawaban motivasional (Modul 4; mengikuti Dalton)."
+        "id": "Riset, Pengalaman, Kontribusi: bentuk jawaban untuk pertanyaan motivasi (Modul 4; mengacu pada Dalton)."
        }
       }
      ],
@@ -3459,16 +3459,16 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "“Apa yang akan Anda lakukan jika atasan meminta sesuatu yang menurut Anda salah?” is best answered with…",
-        "id": "“Apa yang akan Anda lakukan jika atasan meminta sesuatu yang menurut Anda salah?” paling baik dijawab dengan…"
+        "id": "“Apa yang akan Anda lakukan jika atasan meminta sesuatu yang menurut Anda salah?” paling tepat dijawab dengan …"
        },
        "options": [
         {
          "en": "A STAR story only",
-         "id": "Hanya cerita STAR"
+         "id": "Cerita STAR saja"
         },
         {
          "en": "Principle and steps, backed by a real example if you have one",
-         "id": "Prinsip dan langkah, didukung contoh nyata jika ada"
+         "id": "Prinsip dan langkah, diperkuat contoh nyata kalau ada"
         },
         {
          "en": "“Saya akan ikuti atasan”",
@@ -3482,65 +3482,65 @@ window.MT_LMS['the-rope'] = {
        "correct": 1,
        "why": {
         "en": "A situational question: show judgement, then evidence.",
-        "id": "Pertanyaan situasional: tunjukkan penilaian, lalu bukti."
+        "id": "Ini pertanyaan situasional: tunjukkan pertimbanganmu, lalu buktinya."
        }
       },
       {
        "q": {
         "en": "The hidden concern behind “Sudah melamar ke mana saja?” is most likely…",
-        "id": "Kekhawatiran tersembunyi di balik “Sudah melamar ke mana saja?” paling mungkin…"
+        "id": "Kekhawatiran tersembunyi di balik “Sudah melamar ke mana saja?” kemungkinan besar adalah …"
        },
        "options": [
         {
          "en": "Curiosity",
-         "id": "Rasa ingin tahu"
+         "id": "Sekadar ingin tahu"
         },
         {
          "en": "Your direction and likelihood of accepting",
-         "id": "Arahmu dan kemungkinan menerima"
+         "id": "Arah kariermu dan seberapa mungkin kamu menerima tawaran mereka"
         },
         {
          "en": "Checking competitors",
-         "id": "Memeriksa pesaing"
+         "id": "Mengintip pesaing"
         },
         {
          "en": "Testing memory",
-         "id": "Menguji ingatan"
+         "id": "Menguji daya ingat"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Seriousness, market value and whether you will accept; answer with a consistent direction, honestly but not exhaustively.",
-        "id": "Keseriusan, nilai pasar, dan apakah kamu menerima; jawab dengan arah yang konsisten, jujur tetapi tidak menyeluruh."
+        "id": "Keseriusan, nilai jualmu, dan apakah kamu akan menerima tawarannya; jawab dengan arah yang konsisten, jujur tetapi tidak perlu dirinci semua."
        }
       },
       {
        "q": {
         "en": "After your full answer, the interviewer says nothing for five seconds. Best move:",
-        "id": "Setelah jawaban lengkapmu, pewawancara diam lima detik. Langkah terbaik:"
+        "id": "Setelah kamu selesai menjawab, pewawancara diam selama lima detik. Langkah terbaik:"
        },
        "options": [
         {
          "en": "Add more detail",
-         "id": "Tambah detail"
+         "id": "Menambah detail"
         },
         {
          "en": "Apologise",
-         "id": "Minta maaf"
+         "id": "Meminta maaf"
         },
         {
          "en": "Wait, or briefly offer to go deeper on any part",
-         "id": "Tunggu, atau tawarkan singkat untuk memperdalam bagian mana pun"
+         "id": "Menunggu, atau menawarkan secara singkat untuk menjelaskan bagian mana pun lebih dalam"
         },
         {
          "en": "Change the subject",
-         "id": "Ganti topik"
+         "id": "Mengganti topik"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Silence tests whether you over-talk; the extra words are where over-claims creep in.",
-        "id": "Keheningan menguji apakah kamu bicara berlebihan; kata tambahan itulah tempat klaim berlebihan menyelinap."
+        "id": "Keheningan menguji apakah kamu kebanyakan bicara; di kata-kata tambahan itulah klaim berlebihan menyelinap."
        }
       }
      ],
@@ -3558,35 +3558,35 @@ window.MT_LMS['the-rope'] = {
       "returnTo": 1,
       "label": {
        "en": "Mixed-type set: five questions, one per type",
-       "id": "Set tipe campuran: lima pertanyaan, satu per tipe"
+       "id": "Set campuran: lima pertanyaan, satu dari tiap jenis"
       },
       "desc": {
        "en": "Behavioural, situational, motivational, self-assessment and stress, in one short session with the HR persona. After each answer the debrief names the type and whether your answer matched its shape.",
-       "id": "Perilaku, situasional, motivasional, penilaian diri, dan tekanan, dalam satu sesi singkat dengan persona HR. Setelah tiap jawaban debrief menyebut tipenya dan apakah jawabanmu cocok dengan bentuknya."
+       "id": "Perilaku, situasional, motivasi, penilaian diri, dan penekanan, dalam satu sesi singkat bersama persona HR. Setelah setiap jawaban, tinjauannya menyebut jenis pertanyaannya dan apakah bentuk jawabanmu sudah sesuai."
       }
      },
      "takeaways": [
       {
        "en": "Identify the type, then use its answer shape.",
-       "id": "Kenali tipenya, lalu pakai bentuk jawabannya."
+       "id": "Kenali jenisnya, lalu pakai bentuk jawaban yang sesuai."
       },
       {
        "en": "Answer the hidden concern, not just the words.",
-       "id": "Jawab kekhawatiran tersembunyinya, bukan hanya kata-katanya."
+       "id": "Jawab kekhawatiran di baliknya, bukan hanya kata-katanya."
       },
       {
        "en": "Composure under pressure is itself the test, pause, acknowledge, evidence, forward.",
-       "id": "Ketenangan di bawah tekanan adalah ujiannya sendiri; jeda, akui, bukti, ke depan."
+       "id": "Tetap tenang di bawah tekanan itulah yang diuji: jeda, akui, bukti, ke depan."
       }
      ],
      "resources": {
       "title": {
        "en": "Sources and the type card",
-       "id": "Sumber dan kartu tipe"
+       "id": "Sumber dan kartu jenis pertanyaan"
       },
       "lead": {
        "en": "Four sources, and the card to read before every session.",
-       "id": "Empat sumber, dan kartu untuk dibaca sebelum setiap sesi."
+       "id": "Empat sumber, dan satu kartu untuk dibaca sebelum setiap sesi."
       },
       "items": [
        {
@@ -3597,24 +3597,24 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "The hidden-concern table is original to The Rope; the classification follows Kador.",
-         "id": "Tabel kekhawatiran tersembunyi asli milik The Rope; klasifikasinya mengikuti Kador."
+         "id": "Tabel kekhawatiran tersembunyi disusun khusus untuk The Rope; penggolongannya mengikuti Kador."
         },
         "body": [
          {
           "en": "J. Kador, <i>The Manager’s Book of Questions</i>: question types from the interviewer’s side.",
-          "id": "J. Kador, <i>The Manager’s Book of Questions</i>: tipe pertanyaan dari sisi pewawancara."
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i>: jenis-jenis pertanyaan dari sisi pewawancara."
          },
          {
           "en": "R. Ryan, <i>60 Seconds & You’re Hired!</i> Employer concerns behind common questions.",
-          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i> Kekhawatiran perusahaan di balik pertanyaan umum."
+          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i>: kekhawatiran perusahaan di balik pertanyaan umum."
          },
          {
           "en": "D. Georgevich, <i>The Top 10 Job Interview Questions</i>: common-question do’s and don’ts (light source).",
-          "id": "D. Georgevich, <i>The Top 10 Job Interview Questions</i>: anjuran dan larangan pertanyaan umum (sumber ringan)."
+          "id": "D. Georgevich, <i>The Top 10 Job Interview Questions</i>: yang sebaiknya dan tidak sebaiknya dilakukan untuk pertanyaan umum (sumber ringan)."
          },
          {
           "en": "E. Pellett, <i>Cracking the Code to a Successful Interview</i>: stress techniques.",
-          "id": "E. Pellett, <i>Cracking the Code to a Successful Interview</i>: teknik tekanan."
+          "id": "E. Pellett, <i>Cracking the Code to a Successful Interview</i>: teknik penekanan."
          }
         ]
        },
@@ -3622,32 +3622,32 @@ window.MT_LMS['the-rope'] = {
         "kind": "checklist",
         "title": {
          "en": "The type card",
-         "id": "Kartu tipe"
+         "id": "Kartu jenis pertanyaan"
         },
         "desc": {
          "en": "Seven lines; two seconds each.",
-         "id": "Tujuh baris; dua detik masing-masing."
+         "id": "Tujuh baris; masing-masing dua detik."
         },
         "body": [
          {
           "en": "Past? → STAR+L. Hypothetical? → principle, steps, real example.",
-          "id": "Masa lalu? → STAR+L. Hipotetis? → prinsip, langkah, contoh nyata."
+          "id": "Masa lalu? → STAR+L. Berandai-andai? → prinsip, langkah, contoh nyata."
          },
          {
           "en": "Why us? → REC. About me? → claim + evidence (weakness: real → system → progress).",
-          "id": "Mengapa kami? → REC. Tentang saya? → klaim + bukti (kelemahan: nyata → sistem → kemajuan)."
+          "id": "Kenapa kami? → REC. Tentang saya? → klaim + bukti (kelemahan: nyata → cara mengatasi → kemajuan)."
          },
          {
           "en": "Knowledge? → direct, reasoning, example; say what I don’t know.",
-          "id": "Pengetahuan? → langsung, alasan, contoh; katakan yang tidak saya tahu."
+          "id": "Pengetahuan? → langsung, alasan, contoh; akui yang tidak saya tahu."
          },
          {
           "en": "Problem? → clarify, structure, analyse, answer, sanity check.",
-          "id": "Masalah? → klarifikasi, struktur, analisis, jawab, uji kewajaran."
+          "id": "Masalah? → perjelas, susun, analisis, jawab, cek kewajaran."
          },
          {
           "en": "Pressure? → pause, acknowledge, evidence, forward, then stop.",
-          "id": "Tekanan? → jeda, akui, bukti, ke depan, lalu berhenti."
+          "id": "Ditekan? → jeda, akui, bukti, ke depan, lalu berhenti."
          }
         ]
        }
@@ -3660,32 +3660,32 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Selection Processes, Stage by Stage",
-      "id": "Proses Seleksi di Indonesia, Tahap demi Tahap"
+      "id": "Proses Seleksi, Tahap demi Tahap"
      },
      "overview": {
       "en": "A fresh graduate applying to a bank’s officer programme, a state-owned enterprise, an FMCG management-trainee programme and a startup will face four very different processes. Each stage tests something different and is run by different people. Knowing the map lets you prepare the right thing at the right time, and the Kit item this lesson produces, your format map, is the first page of your Interview Kit.",
-      "id": "Lulusan baru yang melamar ODP bank, BUMN, program management trainee FMCG, dan startup akan menghadapi empat proses yang sangat berbeda. Setiap tahap menguji hal berbeda dan dijalankan oleh orang berbeda. Mengetahui petanya membuatmu menyiapkan hal yang tepat pada waktu yang tepat, dan butir Perangkat yang dihasilkan pelajaran ini, peta formatmu, adalah halaman pertama Perangkat Wawancaramu."
+      "id": "Lulusan baru yang melamar ke ODP (Officer Development Program) bank, BUMN, program management trainee perusahaan FMCG (barang konsumsi cepat habis, fast-moving consumer goods), dan sebuah startup akan menghadapi empat proses yang sangat berbeda. Setiap tahap menguji hal yang berbeda dan dipegang oleh orang yang berbeda. Dengan memahami petanya, kamu bisa menyiapkan hal yang tepat pada waktu yang tepat. Hasil pelajaran ini, yaitu peta format wawancaramu, menjadi halaman pertama Perangkat Wawancara-mu."
      },
      "objectives": [
       {
        "en": "Sequence the typical stages for five local tracks.",
-       "id": "Mengurutkan tahap yang lazim untuk lima jalur Indonesia."
+       "id": "Mengurutkan tahapan yang lazim di lima jalur rekrutmen di Indonesia."
       },
       {
        "en": "State what each stage tests and who conducts it.",
-       "id": "Menyatakan apa yang diuji tiap tahap dan siapa yang menjalankannya."
+       "id": "Menjelaskan apa yang diuji setiap tahap dan siapa yang memegangnya."
       },
       {
        "en": "Decode an interview invitation for format, duration, interviewer and implied test.",
-       "id": "Menguraikan undangan wawancara untuk format, durasi, pewawancara, dan ujian tersirat."
+       "id": "Membaca undangan wawancara untuk mengetahui format, durasi, pewawancara, dan apa yang sebenarnya akan diuji."
       },
       {
        "en": "Build a format map for your Top 3 targets.",
-       "id": "Membangun peta format untuk 3 sasaran teratasmu."
+       "id": "Menyusun peta format untuk tiga sasaran utamamu."
       }
      ],
      "readFirst": {
@@ -3699,21 +3699,21 @@ window.MT_LMS['the-rope'] = {
         "n": "1.4",
         "title": {
          "en": "Selection Processes, Stage by Stage",
-         "id": "Proses Seleksi di Indonesia, Tahap demi Tahap"
+         "id": "Proses Seleksi, Tahap demi Tahap"
         }
        },
        "story": [
         {
          "en": "Five hiring tracks order and weight their stages differently, but the user interview usually decides",
-         "id": "Lima jalur rekrutmen mengurutkan dan menimbang tahapnya secara berbeda, tetapi wawancara user biasanya yang menentukan"
+         "id": "Lima jalur rekrutmen punya urutan dan bobot tahap yang berbeda, tetapi wawancara user biasanya menjadi penentu"
         },
         {
          "en": "Each stage has a different owner and a different test; prepare for the person, not just the question",
-         "id": "Setiap tahap punya pemilik dan ujian yang berbeda; bersiaplah untuk orangnya, bukan hanya pertanyaannya"
+         "id": "Setiap tahap punya pemegang dan ujian yang berbeda; bersiaplah untuk orangnya, bukan hanya pertanyaannya"
         },
         {
          "en": "Eight formats, one preparation habit; rehearse each one before it is the one you face",
-         "id": "Delapan format, satu kebiasaan persiapan; latih masing-masing sebelum menjadi yang kamu hadapi"
+         "id": "Delapan format, satu kebiasaan persiapan; latih setiap format sebelum kamu harus menghadapinya"
         }
        ],
        "takes": [
@@ -3724,13 +3724,13 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "The user interview usually decides.",
-          "id": "Wawancara user biasanya menentukan."
+          "id": "Wawancara user biasanya yang menentukan."
          }
         },
         {
          "h": {
           "en": "Who runs each stage",
-          "id": "Siapa yang menjalankan tiap tahap"
+          "id": "Siapa yang memegang setiap tahap"
          },
          "p": {
           "en": "Prepare for the person, not just the question.",
@@ -3740,11 +3740,11 @@ window.MT_LMS['the-rope'] = {
         {
          "h": {
           "en": "Formats you must be ready for",
-          "id": "Format yang harus kamu siapkan"
+          "id": "Format yang perlu kamu siapkan"
          },
          "p": {
           "en": "Module 9 lets you practise every one of them in the simulator.",
-          "id": "Modul 9 membuatmu bisa berlatih setiap formatnya di simulator."
+          "id": "Di Modul 9 kamu bisa melatih semuanya di simulator."
          }
         }
        ],
@@ -3753,7 +3753,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Five hiring tracks order and weight their stages differently, but the user interview usually decides",
-          "id": "Lima jalur rekrutmen mengurutkan dan menimbang tahapnya secara berbeda, tetapi wawancara user biasanya yang menentukan"
+          "id": "Lima jalur rekrutmen punya urutan dan bobot tahap yang berbeda, tetapi wawancara user biasanya menjadi penentu"
          },
          "layout": "grid",
          "items": [
@@ -3763,7 +3763,7 @@ window.MT_LMS['the-rope'] = {
            "id": "ODP bank",
            "d": {
             "en": "Psychometrics early, panels late, long and formal.",
-            "id": "Psikometri di awal, panel di akhir; panjang dan formal."
+            "id": "Psikotes di awal, panel di akhir; panjang dan formal."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           },
@@ -3773,7 +3773,7 @@ window.MT_LMS['the-rope'] = {
            "id": "BUMN",
            "d": {
             "en": "Online tests, English, values and a final panel.",
-            "id": "Tes daring, bahasa Inggris, nilai, dan panel akhir."
+            "id": "Tes daring, bahasa Inggris, nilai-nilai AKHLAK, dan panel akhir."
            },
            "img": "../../assets/bg/stage-execution.jpg"
           },
@@ -3783,7 +3783,7 @@ window.MT_LMS['the-rope'] = {
            "id": "MT FMCG/multinasional",
            "d": {
             "en": "Case rounds and assessment centres in English.",
-            "id": "Putaran kasus dan assessment centre berbahasa Inggris."
+            "id": "Studi kasus dan assessment center dalam bahasa Inggris."
            },
            "img": "../../assets/pe/ed-lead.jpg"
           },
@@ -3793,7 +3793,7 @@ window.MT_LMS['the-rope'] = {
            "id": "startup",
            "d": {
             "en": "Fast, informal, a take-home task and a founder chat.",
-            "id": "Cepat, informal, tugas bawa pulang, dan obrolan pendiri."
+            "id": "Cepat, santai, tugas yang dikerjakan di rumah, dan obrolan dengan pendiri."
            },
            "img": "../../assets/pe/ed-conversations.jpg"
           },
@@ -3803,29 +3803,29 @@ window.MT_LMS['the-rope'] = {
            "id": "UKM",
            "d": {
             "en": "Often one or two conversations with the owner.",
-            "id": "Sering hanya satu atau dua percakapan dengan pemilik."
+            "id": "Sering hanya satu atau dua kali ngobrol dengan pemilik."
            },
            "img": "../../assets/bg/fg-sprint-interview.jpg"
           }
          ],
          "take": {
           "en": "The user interview usually decides.",
-          "id": "Wawancara user biasanya menentukan."
+          "id": "Wawancara user biasanya yang menentukan."
          },
          "cap": {
           "en": "Each orders its stages differently and weights them differently.",
-          "id": "Masing-masing mengurutkan dan membobot tahapnya berbeda."
+          "id": "Masing-masing punya urutan tahap dan bobot yang berbeda."
          },
          "em": {
           "en": "the user interview usually decides",
-          "id": "wawancara user biasanya yang menentukan"
+          "id": "wawancara user biasanya menjadi penentu"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Each stage has a different owner and a different test; prepare for the person, not just the question",
-          "id": "Setiap tahap punya pemilik dan ujian yang berbeda; bersiaplah untuk orangnya, bukan hanya pertanyaannya"
+          "id": "Setiap tahap punya pemegang dan ujian yang berbeda; bersiaplah untuk orangnya, bukan hanya pertanyaannya"
          },
          "layout": "pillars",
          "items": [
@@ -3866,7 +3866,7 @@ window.MT_LMS['the-rope'] = {
             "id": "Panel"
            },
            "en": "Tests values and commitment.",
-           "id": "Menguji nilai dan komitmen.",
+           "id": "Menguji nilai-nilai dan komitmen.",
            "img": "../../assets/pe/ed-board.jpg"
           }
          ],
@@ -3883,7 +3883,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Eight formats, one preparation habit; rehearse each one before it is the one you face",
-          "id": "Delapan format, satu kebiasaan persiapan; latih masing-masing sebelum menjadi yang kamu hadapi"
+          "id": "Delapan format, satu kebiasaan persiapan; latih setiap format sebelum kamu harus menghadapinya"
          },
          "layout": "grid",
          "items": [
@@ -3893,7 +3893,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Tatap muka",
            "d": {
             "en": "Eye contact, posture and the handshake at the door.",
-            "id": "Kontak mata, postur, dan jabat tangan di pintu."
+            "id": "Kontak mata, postur, dan jabat tangan sejak di pintu."
            },
            "img": "../../assets/bg/fg-sprint-offer.jpg"
           },
@@ -3903,17 +3903,17 @@ window.MT_LMS['the-rope'] = {
            "id": "panggilan video",
            "d": {
             "en": "Camera at eye level, light in front, notes beside the lens.",
-            "id": "Kamera sejajar mata, cahaya dari depan, catatan di samping lensa."
+            "id": "Kamera sejajar mata, cahaya dari depan, catatan di dekat lensa."
            },
            "img": "../../assets/bg/stage-exploration.jpg"
           },
           {
            "icon": "laptop",
            "en": "one-way recorded video",
-           "id": "video rekaman satu arah",
+           "id": "rekaman video satu arah",
            "d": {
             "en": "No interviewer to read; timing and energy carry it.",
-            "id": "Tak ada pewawancara untuk dibaca; waktu dan energi yang membawanya."
+            "id": "Tidak ada pewawancara yang bisa dibaca; waktu dan energimu yang menentukan."
            },
            "img": "../../assets/bg/map.jpg"
           },
@@ -3923,7 +3923,7 @@ window.MT_LMS['the-rope'] = {
            "id": "telepon atau WhatsApp",
            "d": {
             "en": "Voice only; stand up, smile, keep the Story Bank open.",
-            "id": "Hanya suara; berdiri, tersenyum, buka Story Bank."
+            "id": "Hanya suara; berdiri, tersenyum, dan buka Bank Cerita."
            },
            "img": "../../assets/bg/fg-sprint-interview.jpg"
           },
@@ -3933,7 +3933,7 @@ window.MT_LMS['the-rope'] = {
            "id": "panel",
            "d": {
             "en": "Several scorers at once, each with a different question.",
-            "id": "Beberapa penilai sekaligus, masing-masing dengan pertanyaan berbeda."
+            "id": "Beberapa penilai sekaligus, masing-masing dengan pertanyaannya sendiri."
            },
            "img": "../../assets/bg/stage-execution.jpg"
           },
@@ -3943,38 +3943,38 @@ window.MT_LMS['the-rope'] = {
            "id": "diskusi kelompok",
            "d": {
             "en": "Scored on behaviour with others, not on being loudest.",
-            "id": "Dinilai dari perilaku bersama orang lain, bukan dari paling lantang."
+            "id": "Dinilai dari caramu bekerja dengan orang lain, bukan dari siapa yang paling lantang."
            },
            "img": "../../assets/pe/th-stakeholders.jpg"
           },
           {
            "icon": "smile",
            "en": "meal",
-           "id": "makan",
+           "id": "sambil makan",
            "d": {
             "en": "Manners and conversation are the test, not the food.",
-            "id": "Tata krama dan percakapan adalah ujiannya, bukan makanannya."
+            "id": "Yang diuji adalah sikap dan cara mengobrol, bukan makanannya."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           },
           {
            "icon": "calendar",
            "en": "assessment-centre day",
-           "id": "hari assessment center",
+           "id": "sehari penuh di assessment center",
            "d": {
             "en": "A full day of exercises; stamina and consistency count.",
-            "id": "Sehari penuh latihan; stamina dan konsistensi yang dihitung."
+            "id": "Sehari penuh berbagai latihan; stamina dan konsistensi ikut dinilai."
            },
            "img": "../../assets/pe/ed-conversations.jpg"
           }
          ],
          "take": {
           "en": "Module 9 lets you practise every one of them in the simulator.",
-          "id": "Modul 9 membuatmu bisa berlatih setiap formatnya di simulator."
+          "id": "Di Modul 9 kamu bisa melatih semuanya di simulator."
          },
          "em": {
           "en": "rehearse each one",
-          "id": "latih masing-masing"
+          "id": "latih setiap format"
          }
         }
        ]
@@ -3989,7 +3989,7 @@ window.MT_LMS['the-rope'] = {
       },
       "intro": {
        "en": "Patterns only: every employer differs, and stage names change by year. Confirm from the posting, the recruiter or recent candidates.",
-       "id": "Pola saja: setiap perusahaan berbeda, dan nama tahap berubah tiap tahun. Konfirmasi dari lowongan, rekruter, atau kandidat terbaru."
+       "id": "Ini hanya pola umum: setiap perusahaan berbeda, dan nama tahapannya bisa berganti tiap tahun. Pastikan lewat lowongan, perekrut, atau kandidat yang baru saja mengikuti prosesnya."
       },
       "slides": [
        {
@@ -4000,18 +4000,18 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Bank officer programme · state-owned enterprise · FMCG/multinational MT · startup · SME. Each orders its stages differently and weights them differently.",
-          "id": "ODP bank · BUMN · MT FMCG/multinasional · startup · UKM. Masing-masing mengurutkan dan membobot tahapnya berbeda."
+          "id": "ODP bank · BUMN · MT FMCG/multinasional · startup · UKM. Masing-masing punya urutan tahap dan bobot yang berbeda."
          },
          {
           "en": "The user interview usually decides.",
-          "id": "Wawancara user biasanya menentukan."
+          "id": "Wawancara user biasanya yang menentukan."
          }
         ]
        },
        {
         "h": {
          "en": "Who runs each stage",
-         "id": "Siapa yang menjalankan tiap tahap"
+         "id": "Siapa yang memegang setiap tahap"
         },
         "points": [
          {
@@ -4020,23 +4020,23 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Prepare for the person, not just the question.",
-          "id": "Bersiaplah untuk orangnya, bukan hanya pertanyaannya."
+          "id": "Bersiaplah untuk orangnya, bukan hanya untuk pertanyaannya."
          }
         ]
        },
        {
         "h": {
          "en": "Formats you must be ready for",
-         "id": "Format yang harus kamu siapkan"
+         "id": "Format yang perlu kamu siapkan"
         },
         "points": [
          {
           "en": "In person · video call · one-way recorded video · phone or WhatsApp · panel · group discussion · meal · assessment-centre day.",
-          "id": "Tatap muka · panggilan video · video rekaman satu arah · telepon atau WhatsApp · panel · diskusi kelompok · makan · hari assessment center."
+          "id": "Tatap muka · panggilan video · rekaman video satu arah · telepon atau WhatsApp · panel · diskusi kelompok · sambil makan · sehari penuh di assessment center."
          },
          {
           "en": "Module 9 lets you practise every one of them in the simulator.",
-          "id": "Modul 9 membuatmu bisa berlatih setiap formatnya di simulator."
+          "id": "Di Modul 9 kamu bisa melatih semuanya di simulator."
          }
         ]
        }
@@ -4053,7 +4053,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Patterns only; every employer differs; confirm from the posting, the recruiter or recent candidates <span class=\"ev ev-verify\">Verify each against current public programme pages before publishing</span>. The value of the table is not the exact sequence but the habit of asking, for each target, “which of these am I facing, and which stage have I never practised?”",
-        "id": "Pola saja; setiap perusahaan berbeda, konfirmasi dari lowongan, rekruter, atau kandidat terbaru <span class=\"ev ev-verify\">Verifikasi masing-masing terhadap laman program publik terkini sebelum diterbitkan</span>. Nilai tabel ini bukan urutan persisnya tetapi kebiasaan bertanya, untuk tiap sasaran, “yang mana yang saya hadapi, dan tahap mana yang belum pernah saya latih?”"
+        "id": "Ini hanya pola umum. Setiap perusahaan berbeda, jadi pastikan lewat lowongan, perekrut, atau kandidat yang baru saja mengikuti prosesnya <span class=\"ev ev-verify\">Cek ulang masing-masing di laman program resmi yang berlaku sebelum dipublikasikan</span>. Nilai tabel ini bukan pada urutan persisnya, melainkan pada kebiasaan bertanya untuk setiap sasaran: “Pola mana yang sedang saya hadapi, dan tahap mana yang belum pernah saya latih?”"
        },
        "table": {
         "cols": [
@@ -4063,7 +4063,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Typical sequence",
-          "id": "Urutan lazim"
+          "id": "Urutan yang lazim"
          },
          {
           "en": "Notes",
@@ -4074,29 +4074,29 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "<b>Bank officer programme / officer development</b>",
-           "id": "<b>ODP bank / officer development</b>"
+           "id": "<b>ODP bank / program pengembangan officer</b>"
           },
           {
            "en": "Online application → online test (cognitive, English) → psychological test (<i>psikotes</i>) and/or LGD → HR interview → user interview → sometimes a panel → medical check-up → offer",
-           "id": "Lamaran daring → tes daring (kognitif, Inggris) → tes psikologi (<i>psikotes</i>) dan/atau LGD → wawancara HR → wawancara user → kadang panel → pemeriksaan kesehatan → tawaran"
+           "id": "Lamaran daring → tes daring (kemampuan kognitif, bahasa Inggris) → tes psikologi (<i>psikotes</i>) dan/atau LGD (leaderless group discussion, diskusi kelompok tanpa pemimpin) → wawancara HR → wawancara user → kadang panel → pemeriksaan kesehatan → tawaran"
           },
           {
            "en": "Service bond (<i>ikatan dinas</i>) common; placement anywhere",
-           "id": "Ikatan dinas umum; penempatan di mana saja"
+           "id": "Biasanya ada ikatan dinas; bisa ditempatkan di mana saja"
           }
          ],
          [
           {
-           "en": "<b>state-owned enterprise (joint recruitment and individual)</b>",
-           "id": "<b>BUMN (rekrutmen bersama dan mandiri)</b>"
+           "en": "<b>State-owned enterprises (joint and individual recruitment)</b>",
+           "id": "<b>BUMN (rekrutmen bersama maupun mandiri)</b>"
           },
           {
            "en": "Administrative selection → core-values/AKHLAK test, cognitive test, English → LGD/assessment centre → interview (HR, user, sometimes with core-values focus) → medical → offer",
-           "id": "Seleksi administrasi → tes nilai inti/AKHLAK, tes kognitif, Inggris → LGD/assessment center → wawancara (HR, user, kadang berfokus nilai inti) → medis → tawaran"
+           "id": "Seleksi administrasi → tes nilai AKHLAK, tes kemampuan kognitif, bahasa Inggris → LGD/assessment center → wawancara (HR, user, kadang berfokus pada nilai-nilai perusahaan) → pemeriksaan kesehatan → tawaran"
           },
           {
            "en": "Stages and names differ by year; check the official portal",
-           "id": "Tahap dan nama berbeda tiap tahun; periksa portal resmi"
+           "id": "Tahapan dan namanya berubah dari tahun ke tahun; cek portal resminya"
           }
          ],
          [
@@ -4106,11 +4106,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Online application → online tests (often gamified or one-way video) → assessment centre (LGD, case, presentation) → user interview → final panel with senior leaders",
-           "id": "Lamaran daring → tes daring (sering gamifikasi atau video satu arah) → assessment center (LGD, kasus, presentasi) → wawancara user → panel akhir dengan pemimpin senior"
+           "id": "Lamaran daring → tes daring (sering berbentuk permainan atau video satu arah) → assessment center (LGD, kasus, presentasi) → wawancara user → panel akhir bersama pimpinan senior"
           },
           {
            "en": "Case and group exercises weigh heavily",
-           "id": "Latihan kasus dan kelompok berbobot besar"
+           "id": "Studi kasus dan latihan kelompok berbobot besar"
           }
          ],
          [
@@ -4120,25 +4120,25 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Recruiter screen (often WhatsApp or call) → take-home task or case → hiring-manager interview → founder/culture interview → offer",
-           "id": "Seleksi rekruter (sering WhatsApp atau telepon) → tugas take-home atau kasus → wawancara hiring manager → wawancara pendiri/budaya → tawaran"
+           "id": "Penyaringan oleh perekrut (sering lewat WhatsApp atau telepon) → tugas yang dikerjakan di rumah atau studi kasus → wawancara dengan manajer perekrut → wawancara dengan pendiri atau soal budaya kerja → tawaran"
           },
           {
            "en": "Faster; less structured; practical tasks",
-           "id": "Lebih cepat; kurang terstruktur; tugas praktis"
+           "id": "Lebih cepat; kurang terstruktur; banyak tugas praktis"
           }
          ],
          [
           {
            "en": "<b>SME / family business</b>",
-           "id": "<b>UKM / bisnis keluarga</b>"
+           "id": "<b>UKM / usaha keluarga</b>"
           },
           {
            "en": "Owner or manager interview (sometimes informal, over coffee or lunch) → trial day or week → offer",
-           "id": "Wawancara pemilik atau manajer (kadang informal, sambil kopi atau makan siang) → hari atau minggu percobaan → tawaran"
+           "id": "Wawancara dengan pemilik atau manajer (kadang santai, sambil ngopi atau makan siang) → masa percobaan sehari atau seminggu → tawaran"
           },
           {
            "en": "Trust, attitude, reliability; see Lesson 5.4",
-           "id": "Kepercayaan, sikap, keandalan; lihat Pelajaran 5.4"
+           "id": "Kepercayaan, sikap, bisa diandalkan; lihat Pelajaran 5.4"
           }
          ]
         ]
@@ -4148,28 +4148,28 @@ window.MT_LMS['the-rope'] = {
        "icon": "users",
        "h": {
         "en": "Who runs each stage and what they want",
-        "id": "Siapa yang menjalankan tiap tahap dan apa yang mereka inginkan"
+        "id": "Siapa yang memegang setiap tahap, dan apa yang mereka cari"
        },
        "body": {
         "en": "The same question sounds different from different mouths because each stage owner is reducing a different uncertainty. Preparing “for the interview” is too coarse; prepare for the person.",
-        "id": "Pertanyaan yang sama terdengar berbeda dari mulut berbeda karena tiap pemilik tahap mengurangi ketidakpastian yang berbeda. Bersiap “untuk wawancara” terlalu kasar; bersiaplah untuk orangnya."
+        "id": "Pertanyaan yang sama terdengar berbeda dari mulut yang berbeda, karena setiap pemegang tahap sedang meredakan keraguan yang berbeda. Bersiap “untuk wawancara” itu terlalu umum. Bersiaplah untuk orangnya."
        },
        "bullets": [
         {
          "en": "<b>HR / recruiter screen</b>: eligibility (degree, GPA, placement, salary, start date), communication, basic motivation. Fifteen to twenty minutes; often by phone or WhatsApp; answers should be direct and short.",
-         "id": "<b>Seleksi HR / rekruter</b>: kelayakan (gelar, IPK, penempatan, gaji, tanggal mulai), komunikasi, motivasi dasar. Lima belas hingga dua puluh menit; sering lewat telepon atau WhatsApp; jawaban harus langsung dan singkat."
+         "id": "<b>Penyaringan oleh HR / perekrut</b>: kelayakan (gelar, IPK, penempatan, gaji, tanggal mulai kerja), cara berkomunikasi, dan motivasi dasar. Lima belas sampai dua puluh menit, sering lewat telepon atau WhatsApp; jawabannya harus langsung dan singkat."
         },
         {
          "en": "<b>Psychologist interview</b> (inside <i>psikotes</i>); consistency with your test results, emotional stability, self-awareness. Answer honestly and consistently; do not perform an ideal personality, because the tests you just sat will contradict it.",
-         "id": "<b>Wawancara psikolog</b> (di dalam <i>psikotes</i>), konsistensi dengan hasil tesmu, kestabilan emosi, kesadaran diri. Jawab jujur dan konsisten; jangan memerankan kepribadian ideal, karena tes yang baru kamu jalani akan membantahnya."
+         "id": "<b>Wawancara dengan psikolog</b> (bagian dari <i>psikotes</i>): kesesuaian dengan hasil tesmu, kestabilan emosi, kesadaran diri. Jawab dengan jujur dan konsisten. Jangan memerankan kepribadian yang ideal, karena tes yang baru saja kamu kerjakan akan membantahnya."
         },
         {
          "en": "<b>User interview</b>: your future manager. Capability for the actual work, technical depth, and “can I work with this person?” Usually the decisive round, and the one with the deepest probing (Module 6).",
-         "id": "<b>Wawancara user</b>: calon atasanmu. Kemampuan untuk pekerjaan sebenarnya, kedalaman teknis, dan “bisakah saya bekerja dengan orang ini?” Biasanya ronde yang menentukan, dan yang galiannya paling dalam (Modul 6)."
+         "id": "<b>Wawancara user</b>: calon atasanmu. Kemampuan untuk pekerjaan yang sebenarnya, kedalaman teknis, dan “bisakah saya bekerja bersama orang ini?” Biasanya babak inilah yang menentukan, sekaligus yang paling dalam menggali (Modul 6)."
         },
         {
          "en": "<b>Panel / final</b>: senior leaders. Values, commitment, long-term potential, presence. Often shorter than you expect; answers should be shorter too (Module 8).",
-         "id": "<b>Panel / final</b>: pemimpin senior. Nilai, komitmen, potensi jangka panjang, kehadiran. Sering lebih singkat dari dugaanmu; jawaban juga harus lebih singkat (Modul 8)."
+         "id": "<b>Panel / wawancara akhir</b>: pimpinan senior. Nilai-nilai, komitmen, potensi jangka panjang, dan caramu membawakan diri. Sering lebih singkat daripada dugaanmu, jadi jawabanmu juga harus lebih singkat (Modul 8)."
         }
        ],
        "table": {
@@ -4180,34 +4180,34 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Owner",
-          "id": "Pemilik"
+          "id": "Pemegangnya"
          },
          {
           "en": "Uncertainty it reduces",
-          "id": "Ketidakpastian yang dikurangi"
+          "id": "Keraguan yang ingin diredakan"
          },
          {
           "en": "Prepare",
-          "id": "Siapkan"
+          "id": "Yang perlu disiapkan"
          }
         ],
         "rows": [
          [
           {
            "en": "Screen",
-           "id": "Seleksi awal"
+           "id": "Penyaringan"
           },
           {
            "en": "Recruiter / HR",
-           "id": "Rekruter / HR"
+           "id": "Perekrut / HR"
           },
           {
            "en": "Eligibility, cost, communication",
-           "id": "Kelayakan, biaya, komunikasi"
+           "id": "Kelayakan, biaya, cara berkomunikasi"
           },
           {
            "en": "Truthful one-line answers on placement, salary range, start date (Module 5)",
-           "id": "Jawaban satu baris yang jujur tentang penempatan, rentang gaji, tanggal mulai (Modul 5)"
+           "id": "Jawaban jujur satu kalimat soal penempatan, kisaran gaji, tanggal mulai kerja (Modul 5)"
           }
          ],
          [
@@ -4225,7 +4225,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Honest self-description; the same person in every test",
-           "id": "Deskripsi diri yang jujur; orang yang sama di setiap tes"
+           "id": "Gambaran diri yang jujur; orang yang sama di setiap tes"
           }
          ],
          [
@@ -4239,11 +4239,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Working with others under observation",
-           "id": "Bekerja dengan orang lain di bawah pengamatan"
+           "id": "Bekerja sama dengan orang lain sambil diamati"
           },
           {
            "en": "Role plan and contribution moves (Module 7)",
-           "id": "Rencana peran dan langkah kontribusi (Modul 7)"
+           "id": "Rencana peran dan cara berkontribusi (Modul 7)"
           }
          ],
          [
@@ -4257,29 +4257,29 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Capability, depth, workability",
-           "id": "Kemampuan, kedalaman, kecocokan kerja"
+           "id": "Kemampuan, kedalaman, enak diajak bekerja sama"
           },
           {
            "en": "Core 10 stories, technical five, case protocol (Modules 2, 6)",
-           "id": "Cerita Core 10, lima teknis, protokol kasus (Modul 2, 6)"
+           "id": "Cerita Core 10, lima topik teknis, langkah menjawab kasus (Modul 2, 6)"
           }
          ],
          [
           {
            "en": "Panel / final",
-           "id": "Panel / final"
+           "id": "Panel / akhir"
           },
           {
            "en": "Senior leaders",
-           "id": "Pemimpin senior"
+           "id": "Pimpinan senior"
           },
           {
            "en": "Values, commitment, potential",
-           "id": "Nilai, komitmen, potensi"
+           "id": "Nilai-nilai, komitmen, potensi"
           },
           {
            "en": "Short answers, question ladder, respectful close (Module 8)",
-           "id": "Jawaban singkat, tangga pertanyaan, penutup yang hormat (Modul 8)"
+           "id": "Jawaban singkat, tangga pertanyaan, penutup yang sopan (Modul 8)"
           }
          ]
         ]
@@ -4289,11 +4289,11 @@ window.MT_LMS['the-rope'] = {
        "icon": "gear",
        "h": {
         "en": "Formats you must prepare for",
-        "id": "Format yang harus kamu siapkan"
+        "id": "Format yang perlu kamu siapkan"
        },
        "body": {
         "en": "In person · video call (Zoom, Teams, Meet) · <b>one-way recorded video</b> (you record answers to on-screen prompts with a timer, usually one retake or none) · phone or WhatsApp call · panel of three to five · group discussion · meal interview · assessment-centre day. Each has specific requirements covered in the relevant module, and Module 9 lets you practise every one in the simulator. Two are new to most graduates and decide more than they expect: the one-way video, where nobody nods and the timer is the interviewer (Lesson 4.5 is built around it), and the group discussion, where the assessors are scoring how you treat the other candidates (Module 7).",
-        "id": "Tatap muka · panggilan video (Zoom, Teams, Meet) · <b>video rekaman satu arah</b> (kamu merekam jawaban atas petunjuk di layar dengan pengatur waktu, biasanya satu pengulangan atau tidak sama sekali) · telepon atau WhatsApp · panel tiga hingga lima orang · diskusi kelompok · wawancara sambil makan · hari assessment center. Masing-masing punya persyaratan khusus yang dibahas di modul terkait, dan Modul 9 membuatmu bisa berlatih setiap formatnya di simulator. Dua di antaranya baru bagi sebagian besar lulusan dan lebih menentukan dari dugaan mereka: video satu arah, tempat tidak ada yang mengangguk dan pengatur waktu adalah pewawancaranya (Pelajaran 4.5 dibangun di sekitarnya), dan diskusi kelompok, tempat asesor menilai caramu memperlakukan kandidat lain (Modul 7)."
+        "id": "Tatap muka · panggilan video (Zoom, Teams, Meet) · <b>rekaman video satu arah</b> (kamu merekam jawaban atas pertanyaan yang muncul di layar dengan batas waktu, biasanya hanya boleh mengulang sekali atau tidak sama sekali) · telepon atau WhatsApp · panel berisi tiga sampai lima orang · diskusi kelompok · wawancara sambil makan · sehari penuh di assessment center. Setiap format punya tuntutan khusus yang dibahas di modul terkait, dan di Modul 9 kamu bisa melatih semuanya di simulator. Dua format biasanya masih baru bagi lulusan, padahal lebih menentukan daripada yang mereka kira. Pertama, video satu arah: tidak ada yang mengangguk, dan pewawancaranya adalah pengatur waktu (Pelajaran 4.5 disusun khusus untuk ini). Kedua, diskusi kelompok: asesor menilai caramu memperlakukan kandidat lain (Modul 7)."
        }
       },
       {
@@ -4303,22 +4303,22 @@ window.MT_LMS['the-rope'] = {
         "id": "Membaca undangan"
        },
        "body": {
-        "en": "The invitation email tells you a lot: who is interviewing (look them up on LinkedIn, role, tenure, what they post about), the format, the duration (a 20-minute slot is a screen; 60 minutes or more suggests competency depth or a case), whether to bring anything (a portfolio, ID, a printed CV, and, for state-owned enterprise and banks, original documents). If it is missing, it is appropriate to ask once, politely: “Boleh saya tahu format dan perkiraan durasi wawancaranya, serta dengan siapa saya akan bertemu?” The reply is itself data about the organisation. Log every decoded invitation in the tracker; over four processes, the pattern of what each employer tells you unasked says something about how they treat people.",
-        "id": "Email undangan memberitahumu banyak: siapa yang mewawancarai (cari di LinkedIn, peran, lama bekerja, apa yang mereka unggah), formatnya, durasinya (slot 20 menit adalah seleksi awal; 60 menit atau lebih menyiratkan kedalaman kompetensi atau kasus), apakah perlu membawa sesuatu (portofolio, identitas, CV cetak, dan, untuk BUMN dan bank, dokumen asli). Jika tidak ada, wajar untuk bertanya sekali, dengan sopan: “Boleh saya tahu format dan perkiraan durasi wawancaranya, serta dengan siapa saya akan bertemu?” Balasannya sendiri adalah data tentang organisasi. Catat setiap undangan yang diurai di pelacak; dalam empat proses, pola apa yang diberitahukan tiap perusahaan tanpa diminta mengatakan sesuatu tentang cara mereka memperlakukan orang."
+        "en": "The invitation email tells you a lot: who is interviewing (look them up on LinkedIn, role, tenure, what they post about), the format, the duration (a 20-minute slot is a screen; 60 minutes or more suggests competency depth or a case), whether to bring anything (a portfolio, ID, a printed CV, and, for state-owned enterprises and banks, original documents). If it is missing, it is appropriate to ask once, politely: “Boleh saya tahu format dan perkiraan durasi wawancaranya, serta dengan siapa saya akan bertemu?” The reply is itself data about the organisation. Log every decoded invitation in the tracker; over four processes, the pattern of what each employer tells you unasked says something about how they treat people.",
+        "id": "Email undangan menyimpan banyak petunjuk. Siapa pewawancaranya (cari di LinkedIn: jabatannya, berapa lama ia di sana, apa yang biasa ia unggah), formatnya, durasinya (slot 20 menit berarti penyaringan; 60 menit atau lebih menandakan wawancara kompetensi yang dalam atau studi kasus), dan apakah ada yang perlu dibawa (portofolio, KTP, CV cetak, dan, untuk BUMN dan bank, dokumen asli). Kalau informasinya tidak lengkap, wajar untuk bertanya sekali dengan sopan: “Boleh saya tahu format dan perkiraan durasi wawancaranya, serta dengan siapa saya akan bertemu?” Balasan mereka pun merupakan petunjuk tentang perusahaan itu. Catat setiap undangan yang sudah kamu baca di pelacak. Setelah empat proses, pola tentang apa saja yang diberitahukan setiap perusahaan tanpa diminta akan bercerita banyak tentang cara mereka memperlakukan orang."
        },
        "table": {
         "cols": [
          {
           "en": "Clue in the invitation",
-          "id": "Petunjuk dalam undangan"
+          "id": "Petunjuk di undangan"
          },
          {
           "en": "What it implies",
-          "id": "Yang tersirat"
+          "id": "Artinya"
          },
          {
           "en": "Prepare",
-          "id": "Siapkan"
+          "id": "Yang perlu disiapkan"
          }
         ],
         "rows": [
@@ -4329,25 +4329,25 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "A screen: eligibility and communication",
-           "id": "Seleksi awal: kelayakan dan komunikasi"
+           "id": "Penyaringan: kelayakan dan cara berkomunikasi"
           },
           {
            "en": "Placement, salary, start-date answers; 60-second opening",
-           "id": "Jawaban penempatan, gaji, tanggal mulai; pembuka 60 detik"
+           "id": "Jawaban soal penempatan, gaji, dan tanggal mulai kerja; pembukaan 60 detik"
           }
          ],
          [
           {
            "en": "“Interview with Head of Supply Chain”, 60 min",
-           "id": "“Wawancara dengan Head of Supply Chain”, 60 mnt"
+           "id": "“Wawancara dengan Head of Supply Chain”, 60 menit"
           },
           {
            "en": "User round: depth and probing",
-           "id": "Ronde user: kedalaman dan galian"
+           "id": "Babak user: dalam dan banyak digali"
           },
           {
            "en": "Core 10, technical five, questions for a manager",
-           "id": "Core 10, lima teknis, pertanyaan untuk manajer"
+           "id": "Core 10, lima topik teknis, pertanyaan untuk calon atasan"
           }
          ],
          [
@@ -4357,17 +4357,17 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Assessment-centre element",
-           "id": "Elemen assessment center"
+           "id": "Bagian dari assessment center"
           },
           {
            "en": "Structure, timing, one exhibit (Lesson 7.3)",
-           "id": "Struktur, waktu, satu peraga (Pelajaran 7.3)"
+           "id": "Struktur, pengaturan waktu, satu peraga (Pelajaran 7.3)"
           }
          ],
          [
           {
            "en": "“Record your answers by Friday; 5 questions, 90 s each”",
-           "id": "“Rekam jawaban Anda paling lambat Jumat; 5 pertanyaan, 90 dtk masing-masing”"
+           "id": "“Rekam jawaban Anda paling lambat Jumat; 5 pertanyaan, masing-masing 90 detik”"
           },
           {
            "en": "One-way video",
@@ -4375,7 +4375,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Camera, light, sound; timed rehearsal (Lesson 4.5)",
-           "id": "Kamera, cahaya, suara; latihan berwaktu (Pelajaran 4.5)"
+           "id": "Kamera, cahaya, suara; latihan dengan pengatur waktu (Pelajaran 4.5)"
           }
          ],
          [
@@ -4385,11 +4385,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "SME owner interview: trust and attitude",
-           "id": "Wawancara pemilik UKM: kepercayaan dan sikap"
+           "id": "Wawancara dengan pemilik UKM: kepercayaan dan sikap"
           },
           {
            "en": "Manners, curiosity, the same honesty as a formal room (Lesson 5.4)",
-           "id": "Tata krama, rasa ingin tahu, kejujuran yang sama dengan ruangan formal (Pelajaran 5.4)"
+           "id": "Sopan santun, rasa ingin tahu, dan kejujuran yang sama seperti di ruangan formal (Pelajaran 5.4)"
           }
          ]
         ]
@@ -4404,18 +4404,18 @@ window.MT_LMS['the-rope'] = {
       },
       "title": {
        "en": "What each stage is testing, eligibility, capability, fit or values, across the tracks",
-       "id": "Apa yang diuji tiap tahap, kelayakan, kemampuan, kecocokan, atau nilai, lintas jalur"
+       "id": "Apa yang diuji setiap tahap, kelayakan, kemampuan, kecocokan, atau nilai-nilai, di kelima jalur"
       },
       "items": [
        {
         "icon": "mail",
         "h": {
          "en": "Apply and screen",
-         "id": "Lamar dan seleksi awal"
+         "id": "Melamar dan penyaringan"
         },
         "sub": {
          "en": "Eligibility. All tracks: application; banks and state-owned enterprise add online tests; startups screen by WhatsApp.",
-         "id": "Kelayakan. Semua jalur: lamaran; bank dan BUMN menambah tes daring; startup menyaring lewat WhatsApp."
+         "id": "Kelayakan. Semua jalur dimulai dari lamaran; bank dan BUMN menambahkan tes daring; startup menyaring lewat WhatsApp."
         }
        },
        {
@@ -4426,18 +4426,18 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Capability and consistency. Banks, state-owned enterprise, MT programmes; the psychologist interview sits here.",
-         "id": "Kemampuan dan konsistensi. Bank, BUMN, program MT; wawancara psikolog berada di sini."
+         "id": "Kemampuan dan konsistensi. Bank, BUMN, program MT; wawancara dengan psikolog ada di tahap ini."
         }
        },
        {
         "icon": "users",
         "h": {
          "en": "Group and assessment centre",
-         "id": "Kelompok dan assessment center"
+         "id": "Diskusi kelompok dan assessment center"
         },
         "sub": {
-         "en": "Fit and capability under observation. state-owned enterprise, banks, MT; startups substitute a take-home task.",
-         "id": "Kecocokan dan kemampuan di bawah pengamatan. BUMN, bank, MT; startup menggantinya dengan tugas take-home."
+         "en": "Fit and capability under observation. State-owned enterprises, banks, MT; startups substitute a take-home task.",
+         "id": "Kecocokan dan kemampuan sambil diamati. BUMN, bank, MT; startup menggantinya dengan tugas yang dikerjakan di rumah."
         }
        },
        {
@@ -4448,50 +4448,50 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Capability. Every track; usually decisive; deepest probing.",
-         "id": "Kemampuan. Setiap jalur; biasanya menentukan; galian terdalam."
+         "id": "Kemampuan. Ada di semua jalur; biasanya menentukan; galiannya paling dalam."
         }
        },
        {
         "icon": "flag",
         "h": {
          "en": "Panel, final, founder",
-         "id": "Panel, final, pendiri"
+         "id": "Panel, akhir, pendiri"
         },
         "sub": {
          "en": "Values and commitment. Banks (sometimes), state-owned enterprise, MT, startups (founder); SMEs skip to a trial.",
-         "id": "Nilai dan komitmen. Bank (kadang), BUMN, MT, startup (pendiri); UKM langsung ke percobaan."
+         "id": "Nilai-nilai dan komitmen. Bank (kadang), BUMN, MT, startup (dengan pendiri); UKM langsung ke masa percobaan."
         }
        },
        {
         "icon": "check",
         "h": {
          "en": "Medical and offer",
-         "id": "Medis dan tawaran"
+         "id": "Pemeriksaan kesehatan dan tawaran"
         },
         "sub": {
          "en": "Eligibility again; the contract and any service bond (Module 10).",
-         "id": "Kelayakan lagi; kontrak dan ikatan dinas jika ada (Modul 10)."
+         "id": "Kelayakan sekali lagi; kontrak dan ikatan dinas kalau ada (Modul 10)."
         }
        }
       ],
       "note": {
        "en": "The same colour rarely appears twice in a row: each stage reduces a different uncertainty.",
-       "id": "Warna yang sama jarang muncul dua kali berturut-turut: tiap tahap mengurangi ketidakpastian yang berbeda."
+       "id": "Warna yang sama jarang muncul dua kali berturut-turut: setiap tahap meredakan keraguan yang berbeda."
       },
       "longdesc": {
        "en": "A six-step timeline read across five tracks: apply and screen (eligibility; all tracks); tests and psikotes (capability and consistency; banks, state-owned enterprise, MT); group and assessment centre (fit under observation; state-owned enterprise, banks, MT, with startups using a take-home task instead); the user interview (capability; every track, usually decisive); panel, final or founder interview (values and commitment); and medical and offer (eligibility again, plus contract and service bond).",
-       "id": "Linimasa enam langkah yang dibaca lintas lima jalur: lamar dan seleksi awal (kelayakan; semua jalur); tes dan psikotes (kemampuan dan konsistensi; bank, BUMN, MT); kelompok dan assessment center (kecocokan di bawah pengamatan; BUMN, bank, MT, dengan startup memakai tugas take-home); wawancara user (kemampuan; setiap jalur, biasanya menentukan); wawancara panel, final, atau pendiri (nilai dan komitmen); dan medis serta tawaran (kelayakan lagi, plus kontrak dan ikatan dinas)."
+       "id": "Garis waktu enam tahap yang dibaca di lima jalur: melamar dan penyaringan (kelayakan; semua jalur); tes dan psikotes (kemampuan dan konsistensi; bank, BUMN, MT); diskusi kelompok dan assessment center (kecocokan sambil diamati; BUMN, bank, MT, sementara startup memakai tugas yang dikerjakan di rumah); wawancara user (kemampuan; semua jalur, biasanya menentukan); panel, wawancara akhir, atau wawancara dengan pendiri (nilai-nilai dan komitmen); serta pemeriksaan kesehatan dan tawaran (kelayakan sekali lagi, ditambah kontrak dan ikatan dinas)."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "“Willing to be placed anywhere in the country?” The screen",
-        "id": "“Bersedia ditempatkan di seluruh negeri?” Seleksi awal"
+        "id": "“Bersedia ditempatkan di seluruh Indonesia?” Tahap penyaringan"
        },
        "q": {
         "en": "The Bank Sinar Nusantara recruiter, on a fifteen-minute call, asks the placement question. Nadia knows the officer programme places anywhere for the first two years.",
-        "id": "Rekruter Bank Sinar Nusantara, dalam telepon lima belas menit, mengajukan pertanyaan penempatan. Nadia tahu ODP menempatkan di mana saja selama dua tahun pertama."
+        "id": "Lewat telepon lima belas menit, perekrut Bank Sinar Nusantara menanyakan soal penempatan. Nadia tahu peserta ODP bisa ditempatkan di mana saja selama dua tahun pertama."
        },
        "weak": {
         "en": "“Hmm… tergantung sih, Bu. Kalau bisa di Jawa. Tapi kalau memang harus, ya saya coba dulu, nanti lihat.”",
@@ -4503,7 +4503,7 @@ window.MT_LMS['the-rope'] = {
        },
        "why": {
         "en": "A screen tests eligibility, and the recruiter is listening for a clean yes or a clean no; “coba dulu, nanti lihat” is the profile of the trainee who resigns after placement, which is exactly the hidden concern. The strong answer is direct, shows the condition was read before applying, gives a reason the recruiter can believe (the family conversation), and asks one useful question. If the honest answer is no, say no: a truthful no at the screen costs one process; a false yes costs a service bond.",
-        "id": "Seleksi awal menguji kelayakan, dan rekruter mendengarkan ya yang jelas atau tidak yang jelas; “coba dulu, nanti lihat” adalah profil trainee yang mengundurkan diri setelah penempatan, persis kekhawatiran tersembunyinya. Jawaban kuat langsung, menunjukkan ketentuannya dibaca sebelum melamar, memberi alasan yang bisa dipercaya rekruter (pembicaraan keluarga), dan mengajukan satu pertanyaan berguna. Jika jawaban jujurnya tidak, katakan tidak: tidak yang jujur di seleksi awal mengorbankan satu proses; ya yang palsu mengorbankan ikatan dinas."
+        "id": "Tahap penyaringan menguji kelayakan, dan perekrut sedang menunggu “ya” yang jelas atau “tidak” yang jelas. Jawaban “coba dulu, nanti lihat” adalah ciri peserta yang mengundurkan diri setelah ditempatkan, dan itulah persis kekhawatiran tersembunyinya. Jawaban yang kuat bersifat langsung, menunjukkan bahwa syaratnya sudah dibaca sebelum melamar, memberi alasan yang bisa dipercaya perekrut (sudah dibicarakan dengan keluarga), lalu ditutup dengan satu pertanyaan yang berguna. Kalau jawaban jujurmu “tidak”, katakan “tidak”. “Tidak” yang jujur di tahap penyaringan hanya membuatmu kehilangan satu proses; “ya” yang tidak jujur bisa berujung pada denda ikatan dinas."
        }
       }
      ],
@@ -4511,16 +4511,16 @@ window.MT_LMS['the-rope'] = {
       "icon": "compass",
       "title": {
        "en": "In focus: three group assessments she has never practised",
-       "id": "Sorotan: tiga asesmen kelompok yang belum pernah ia latih"
+       "id": "Sorotan: tiga diskusi kelompok yang belum pernah ia latih"
       },
       "body": [
        {
         "en": "Nadia lists her four processes side by side, Bank Sinar Nusantara officer programme, Arunika MT, KilatPay, Rumah Rempah, and reads the invitations against the table in this lesson. Three of the four include a group assessment she has never practised. Two use one-way video. Only one, Rumah Rempah’s lunch with Bu Ratna, is the conversational interview she has been rehearsing for.",
-        "id": "Nadia mendaftar empat prosesnya berdampingan, ODP Bank Sinar Nusantara, MT Arunika, KilatPay, Rumah Rempah, dan membaca undangannya terhadap tabel di pelajaran ini. Tiga dari empat mencakup asesmen kelompok yang belum pernah ia latih. Dua memakai video satu arah. Hanya satu, makan siang Rumah Rempah dengan Bu Ratna, yang merupakan wawancara percakapan yang selama ini ia latih."
+        "id": "Nadia menjajarkan keempat prosesnya, yaitu ODP Bank Sinar Nusantara, MT Arunika, KilatPay, dan Rumah Rempah, lalu membaca undangan-undangannya dengan tabel di pelajaran ini. Tiga dari empat proses itu memuat diskusi kelompok yang belum pernah ia latih. Dua memakai video satu arah. Hanya satu, makan siang bersama Bu Ratna di Rumah Rempah, yang berupa obrolan wawancara seperti yang selama ini ia latih."
        },
        {
         "en": "She reorders her preparation: Module 7 and one-way video practice first, the Core 10 stories in parallel because they serve all four, and the salary and placement sentences before the phone screen on Tuesday. The format map took twenty minutes; it saved her a week of preparing the wrong thing.",
-        "id": "Ia mengurutkan ulang persiapannya: Modul 7 dan latihan video satu arah lebih dulu, cerita Core 10 secara paralel karena melayani keempatnya, dan kalimat gaji serta penempatan sebelum seleksi telepon hari Selasa. Peta formatnya butuh dua puluh menit; ia menghemat seminggu menyiapkan hal yang salah."
+        "id": "Ia pun menyusun ulang urutan persiapannya: Modul 7 dan latihan video satu arah lebih dulu, cerita Core 10 dikerjakan bersamaan karena berguna untuk keempat proses, dan kalimat soal gaji dan penempatan disiapkan sebelum wawancara telepon hari Selasa. Menyusun peta format hanya butuh dua puluh menit, tetapi menyelamatkannya dari seminggu menyiapkan hal yang salah."
        }
       ]
      },
@@ -4528,29 +4528,29 @@ window.MT_LMS['the-rope'] = {
       {
        "h": {
         "en": "Drill 1 · Build your format map (Kit item)",
-        "id": "Latihan 1 · Bangun peta formatmu (butir Perangkat)"
+        "id": "Latihan 1 · Susun peta formatmu (isi Perangkat)"
        },
        "body": {
         "en": "For your Top 3 targets, fill one row per stage: the stage, who conducts it, what it tests (eligibility · capability · fit · values), the format, and what you will prepare. Mark every stage you have never practised. Use the template in the resources.",
-        "id": "Untuk 3 sasaran teratasmu, isi satu baris per tahap: tahapnya, siapa yang menjalankan, yang diuji (kelayakan · kemampuan · kecocokan · nilai), formatnya, dan apa yang akan kamu siapkan. Tandai setiap tahap yang belum pernah kamu latih. Pakai templat di sumber."
+        "id": "Untuk tiga sasaran utamamu, isi satu baris untuk setiap tahap: nama tahapnya, siapa pemegangnya, apa yang diuji (kelayakan · kemampuan · kecocokan · nilai-nilai), formatnya, dan apa yang akan kamu siapkan. Tandai setiap tahap yang belum pernah kamu latih. Pakai templat di bagian sumber."
        },
        "debrief": {
         "en": "A good map has more rows marked “never practised” than you expected. That is its job. Order your preparation by two things: the nearest deadline, and the stages that serve more than one target (the Core 10 stories serve every user interview; the one-way video serves two of Nadia’s four). Nadia’s map: KilatPay case first by deadline, one-way video with a timer, Core 10 by day five, LGD practice before Arunika’s assessment centre, and the two eligibility sentences before Tuesday.",
-        "id": "Peta yang baik punya lebih banyak baris bertanda “belum pernah dilatih” dari dugaanmu, itulah tugasnya. Urutkan persiapanmu berdasarkan dua hal: tenggat terdekat, dan tahap yang melayani lebih dari satu sasaran (cerita Core 10 melayani setiap wawancara user; video satu arah melayani dua dari empat proses Nadia). Peta Nadia: kasus KilatPay dulu karena tenggat, video satu arah dengan pengatur waktu, Core 10 sebelum hari kelima, latihan LGD sebelum assessment center Arunika, dan dua kalimat kelayakan sebelum Selasa."
+        "id": "Peta yang baik biasanya punya lebih banyak baris bertanda “belum pernah dilatih” daripada yang kamu kira. Justru itulah gunanya. Urutkan persiapanmu berdasarkan dua hal: tenggat terdekat, dan tahap yang berguna untuk lebih dari satu sasaran (cerita Core 10 berguna untuk setiap wawancara user; video satu arah berguna untuk dua dari empat proses Nadia). Peta versi Nadia: studi kasus KilatPay lebih dulu karena tenggatnya paling dekat, lalu latihan video satu arah dengan pengatur waktu, Core 10 selesai di hari kelima, latihan LGD sebelum assessment center Arunika, dan dua kalimat soal kelayakan sebelum hari Selasa."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Invitation decoding",
-        "id": "Latihan 2 · Menguraikan undangan"
+        "id": "Latihan 2 · Membaca undangan"
        },
        "body": {
-        "en": "Extract format, duration, interviewer and implied test from each: (a) “Kami mengundang Anda mengikuti wawancara dengan tim HR pada Selasa, 10.00–10.20, melalui telepon. Mohon konfirmasi ketersediaan.” (b) “Please complete your video interview by Friday. You will answer 5 questions with 90 seconds each and 30 seconds of preparation; one retake is allowed per question.” (c) “Undangan wawancara user bersama Kepala Departemen Supply Chain, Kamis, 14.00–15.00, kantor Bekasi. Mohon membawa national ID card, ijazah asli, dan satu contoh analisis yang pernah Anda kerjakan.”",
-        "id": "Uraikan format, durasi, pewawancara, dan ujian tersirat dari masing-masing: (a) “Kami mengundang Anda mengikuti wawancara dengan tim HR pada Selasa, 10.00–10.20, melalui telepon. Mohon konfirmasi ketersediaan.” (b) “Please complete your video interview by Friday. You will answer 5 questions with 90 seconds each and 30 seconds of preparation; one retake is allowed per question.” (c) “Undangan wawancara user bersama Kepala Departemen Supply Chain, Kamis, 14.00–15.00, kantor Bekasi. Mohon membawa KTP, ijazah asli, dan satu contoh analisis yang pernah Anda kerjakan.”"
+        "en": "Extract format, duration, interviewer and implied test from each: (a) “Kami mengundang Anda mengikuti wawancara dengan tim HR pada Selasa, 10.00–10.20, melalui telepon. Mohon konfirmasi ketersediaan.” (b) “Please complete your video interview by Friday. You will answer 5 questions with 90 seconds each and 30 seconds of preparation; one retake is allowed per question.” (c) “Undangan wawancara user bersama Kepala Departemen Supply Chain, Kamis, 14.00–15.00, kantor Bekasi. Mohon membawa KTP, ijazah asli, dan satu contoh analisis yang pernah Anda kerjakan.”",
+        "id": "Dari setiap undangan berikut, temukan format, durasi, pewawancara, dan apa yang sebenarnya akan diuji: (a) “Kami mengundang Anda mengikuti wawancara dengan tim HR pada Selasa, 10.00–10.20, melalui telepon. Mohon konfirmasi ketersediaan.” (b) “Please complete your video interview by Friday. You will answer 5 questions with 90 seconds each and 30 seconds of preparation; one retake is allowed per question.” (c) “Undangan wawancara user bersama Kepala Departemen Supply Chain, Kamis, 14.00–15.00, kantor Bekasi. Mohon membawa KTP, ijazah asli, dan satu contoh analisis yang pernah Anda kerjakan.”"
        },
        "debrief": {
         "en": "(a) Phone screen, 20 minutes, HR: eligibility, communication, basic motivation; prepare the placement, salary and start-date sentences and a 60-second opening; confirm within one working day. (b) One-way video, asynchronous, no interviewer: structure under a timer. Rehearse with 30 s prep and 90 s answers, use the retake once per question at most, test camera and sound (Lesson 4.5). (c) User interview, 60 minutes, the department head, in person: capability and depth. Bring the documents, choose the one analysis you can defend for ten minutes (the inventory-turnover thesis, not the sponsorship deck), prepare the technical five and two questions for a manager. The document list in (c) also tells you the process is formal enough to check originals: consistency across CV, ijazah and your answers will be noticed.",
-        "id": "(a) Seleksi telepon, 20 menit, HR: kelayakan, komunikasi, motivasi dasar; siapkan kalimat penempatan, gaji, dan tanggal mulai serta pembuka 60 detik; konfirmasi dalam satu hari kerja. (b) Video satu arah, asinkron, tanpa pewawancara: struktur di bawah pengatur waktu. Latih dengan persiapan 30 dtk dan jawaban 90 dtk, pakai pengulangan paling banyak sekali per pertanyaan, uji kamera dan suara (Pelajaran 4.5). (c) Wawancara user, 60 menit, kepala departemen, tatap muka: kemampuan dan kedalaman. Bawa dokumennya, pilih satu analisis yang bisa kamu pertahankan sepuluh menit (skripsi inventory turnover, bukan dek sponsorship), siapkan lima teknis dan dua pertanyaan untuk manajer. Daftar dokumen di (c) juga memberitahumu prosesnya cukup formal untuk memeriksa dokumen asli: konsistensi antara CV, ijazah, dan jawabanmu akan diperhatikan."
+        "id": "(a) Penyaringan lewat telepon, 20 menit, oleh HR: kelayakan, cara berkomunikasi, motivasi dasar. Siapkan kalimat soal penempatan, gaji, dan tanggal mulai kerja, serta pembukaan 60 detik; konfirmasi paling lambat satu hari kerja. (b) Video satu arah, dikerjakan sendiri tanpa pewawancara: menyusun jawaban di bawah tekanan waktu. Berlatihlah dengan 30 detik persiapan dan 90 detik menjawab, pakai kesempatan mengulang paling banyak sekali per pertanyaan, dan uji kamera serta suara (Pelajaran 4.5). (c) Wawancara user, 60 menit, dengan kepala departemen, tatap muka: kemampuan dan kedalaman. Bawa dokumennya, pilih satu analisis yang sanggup kamu pertahankan selama sepuluh menit (skripsi tentang perputaran persediaan, bukan proposal sponsor), dan siapkan lima topik teknis serta dua pertanyaan untuk calon atasan. Daftar dokumen di (c) juga menunjukkan bahwa prosesnya cukup formal sampai memeriksa dokumen asli: kesesuaian antara CV, ijazah, dan jawabanmu akan diperhatikan."
        }
       }
      ],
@@ -4563,37 +4563,37 @@ window.MT_LMS['the-rope'] = {
         },
         "fix": {
          "en": "Map every stage; the user round usually decides.",
-         "id": "Petakan setiap tahap; ronde user biasanya menentukan."
+         "id": "Petakan semua tahapnya; babak user biasanya yang menentukan."
         }
        },
        {
         "h": {
          "en": "Treating the psychologist interview as a performance",
-         "id": "Memperlakukan wawancara psikolog sebagai pertunjukan"
+         "id": "Menganggap wawancara dengan psikolog sebagai panggung pertunjukan"
         },
         "fix": {
          "en": "Honest and consistent with the tests you just sat.",
-         "id": "Jujur dan konsisten dengan tes yang baru kamu jalani."
+         "id": "Jujur dan konsisten dengan tes yang baru saja kamu kerjakan."
         }
        },
        {
         "h": {
          "en": "Not checking the interviewer’s role",
-         "id": "Tidak memeriksa peran pewawancara"
+         "id": "Tidak mencari tahu jabatan pewawancara"
         },
         "fix": {
          "en": "Look them up; prepare for the person and their uncertainty.",
-         "id": "Cari tahu; bersiaplah untuk orangnya dan ketidakpastiannya."
+         "id": "Cari tahu tentang mereka; bersiaplah untuk orangnya dan keraguannya."
         }
        },
        {
         "h": {
          "en": "Ignoring eligibility questions until they are asked",
-         "id": "Mengabaikan pertanyaan kelayakan sampai ditanyakan"
+         "id": "Mengabaikan pertanyaan soal kelayakan sampai benar-benar ditanya"
         },
         "fix": {
          "en": "Truthful one-line answers on placement, bond, salary and start date before the screen.",
-         "id": "Jawaban satu baris yang jujur tentang penempatan, ikatan dinas, gaji, dan tanggal mulai sebelum seleksi awal."
+         "id": "Siapkan jawaban jujur satu kalimat soal penempatan, ikatan dinas, gaji, dan tanggal mulai kerja sebelum tahap penyaringan."
         }
        }
       ]
@@ -4606,17 +4606,17 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "The interview with your future manager; usually the decisive round.",
-        "id": "Wawancara dengan calon atasanmu; biasanya ronde yang menentukan."
+        "id": "Wawancara dengan calon atasanmu; biasanya babak yang paling menentukan."
        }
       },
       {
        "term": {
         "en": "Psychological test (psikotes)",
-        "id": "Psikotes"
+        "id": "Tes psikologi (psikotes)"
        },
        "def": {
         "en": "A battery of tests, often with a psychologist interview, checking consistency and stability.",
-        "id": "Rangkaian tes, sering dengan wawancara psikolog, memeriksa konsistensi dan kestabilan."
+        "id": "Serangkaian tes, sering disertai wawancara dengan psikolog, untuk memeriksa konsistensi dan kestabilan."
        }
       },
       {
@@ -4626,7 +4626,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "A day of observed exercises, group discussion, case, presentation, in-tray, scored by assessors.",
-        "id": "Satu hari latihan yang diamati, diskusi kelompok, kasus, presentasi, in-tray, dinilai asesor."
+        "id": "Sehari penuh latihan yang diamati asesor, seperti diskusi kelompok, studi kasus, presentasi, dan simulasi menyortir dokumen masuk (in-tray)."
        }
       },
       {
@@ -4636,7 +4636,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "A commitment to stay for a period after training, with a penalty for leaving early; common in bank ODPs.",
-        "id": "Komitmen bertahan selama periode setelah pelatihan, dengan penalti jika keluar lebih awal; umum di ODP bank."
+        "id": "Komitmen untuk tetap bekerja selama jangka waktu tertentu setelah pelatihan, dengan denda kalau keluar lebih cepat; lazim di ODP bank."
        }
       },
       {
@@ -4646,7 +4646,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "The health check before an offer; an eligibility stage, not a capability one.",
-        "id": "Pemeriksaan kesehatan sebelum tawaran; tahap kelayakan, bukan kemampuan."
+        "id": "Pemeriksaan kesehatan sebelum tawaran; tahap kelayakan, bukan tahap menguji kemampuan."
        }
       },
       {
@@ -4656,7 +4656,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Recorded answers to on-screen prompts under a timer, reviewed later; no interviewer present.",
-        "id": "Jawaban rekaman atas petunjuk di layar dengan pengatur waktu, ditinjau kemudian; tanpa pewawancara."
+        "id": "Merekam jawaban atas pertanyaan di layar dengan batas waktu, lalu ditinjau belakangan; tidak ada pewawancara."
        }
       }
      ],
@@ -4664,12 +4664,12 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "The decisive round in most corporate processes is usually…",
-        "id": "Ronde yang menentukan di sebagian besar proses korporat Indonesia biasanya…"
+        "id": "Di sebagian besar proses rekrutmen perusahaan, babak yang paling menentukan biasanya …"
        },
        "options": [
         {
          "en": "The HR screen",
-         "id": "Seleksi HR"
+         "id": "Penyaringan oleh HR"
         },
         {
          "en": "The user interview with the future manager",
@@ -4686,43 +4686,43 @@ window.MT_LMS['the-rope'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "The user tests capability for the actual work and “can I work with this person?” And probes deepest.",
-        "id": "User menguji kemampuan untuk pekerjaan sebenarnya dan “bisakah saya bekerja dengan orang ini?” Dan menggali paling dalam."
+        "en": "The user tests capability for the actual work and “can I work with this person?”, and it probes deepest.",
+        "id": "User menguji kemampuan untuk pekerjaan yang sebenarnya dan “bisakah saya bekerja bersama orang ini?”, dan galiannya paling dalam."
        }
       },
       {
        "q": {
         "en": "In a psychologist interview the best approach is…",
-        "id": "Dalam wawancara psikolog pendekatan terbaik adalah…"
+        "id": "Dalam wawancara dengan psikolog, cara terbaik adalah …"
        },
        "options": [
         {
          "en": "Present an ideal personality",
-         "id": "Menampilkan kepribadian ideal"
+         "id": "Menampilkan kepribadian yang ideal"
         },
         {
          "en": "Answer honestly and consistently with your test responses",
-         "id": "Menjawab jujur dan konsisten dengan respons tesmu"
+         "id": "Menjawab dengan jujur dan konsisten dengan jawaban tesmu"
         },
         {
          "en": "Keep answers very short",
-         "id": "Menjaga jawaban sangat singkat"
+         "id": "Menjawab sesingkat mungkin"
         },
         {
          "en": "Ask about the results",
-         "id": "Bertanya tentang hasilnya"
+         "id": "Menanyakan hasil tesnya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The interview checks consistency with the tests you just sat; a performance contradicts them.",
-        "id": "Wawancara memeriksa konsistensi dengan tes yang baru kamu jalani; pertunjukan membantahnya."
+        "id": "Wawancara ini memeriksa kesesuaian dengan tes yang baru saja kamu kerjakan; kalau kamu berpura-pura, hasilnya akan bertentangan."
        }
       },
       {
        "q": {
         "en": "A 20-minute call from a recruiter most likely tests…",
-        "id": "Telepon 20 menit dari rekruter paling mungkin menguji…"
+        "id": "Telepon 20 menit dari perekrut kemungkinan besar menguji …"
        },
        "options": [
         {
@@ -4731,7 +4731,7 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "Eligibility, basic communication and motivation",
-         "id": "Kelayakan, komunikasi dasar, dan motivasi"
+         "id": "Kelayakan, cara berkomunikasi, dan motivasi dasar"
         },
         {
          "en": "Leadership",
@@ -4739,13 +4739,13 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "Case skills",
-         "id": "Keterampilan kasus"
+         "id": "Kemampuan menjawab studi kasus"
         }
        ],
        "correct": 1,
        "why": {
         "en": "A short slot is a screen; prepare direct answers on placement, salary and start date.",
-        "id": "Slot singkat adalah seleksi awal; siapkan jawaban langsung tentang penempatan, gaji, dan tanggal mulai."
+        "id": "Slot yang singkat berarti penyaringan; siapkan jawaban langsung soal penempatan, gaji, dan tanggal mulai kerja."
        }
       }
      ],
@@ -4764,11 +4764,11 @@ window.MT_LMS['the-rope'] = {
       "returnTo": 2,
       "label": {
        "en": "Recruiter screen: five eligibility questions",
-       "id": "Seleksi rekruter: lima pertanyaan kelayakan"
+       "id": "Penyaringan oleh perekrut: lima pertanyaan kelayakan"
       },
       "desc": {
        "en": "Placement, service bond, start date, salary range, other processes, with the HR persona, as a short call. The target is a direct, honest answer in 15–40 seconds each.",
-       "id": "Penempatan, ikatan dinas, tanggal mulai, rentang gaji, proses lain, dengan persona HR, sebagai panggilan singkat. Targetnya jawaban langsung dan jujur dalam 15–40 detik masing-masing."
+       "id": "Penempatan, ikatan dinas, tanggal mulai kerja, kisaran gaji, proses lain yang sedang diikuti, bersama persona HR dalam format telepon singkat. Targetnya: jawaban langsung dan jujur, 15–40 detik untuk masing-masing."
       }
      },
      "tool": {
@@ -4776,11 +4776,11 @@ window.MT_LMS['the-rope'] = {
       "mode": "setup",
       "title": {
        "en": "Round 1 · Diagnostic session (your baseline)",
-       "id": "Putaran 1 · Sesi diagnostik (garis dasarmu)"
+       "id": "Putaran 1 · Sesi diagnostik (titik awalmu)"
       },
       "body": {
        "en": "Before Module 2, run one mixed six-question session at standard difficulty: an opening, two behavioural, one motivational, one difficult, one closing. Do not prepare specially. The point is a baseline. Its scores are stored with the session; Module 9 compares every later session to it and asks you to name what changed.",
-       "id": "Sebelum Modul 2, jalankan satu sesi campuran enam pertanyaan pada tingkat standar: pembuka, dua perilaku, satu motivasional, satu sulit, satu penutup. Jangan bersiap khusus. Intinya adalah garis dasar. Skornya disimpan bersama sesi; Modul 9 membandingkan setiap sesi berikutnya dengannya dan memintamu menyebut apa yang berubah."
+       "id": "Sebelum masuk Modul 2, jalankan satu sesi campuran berisi enam pertanyaan di tingkat kesulitan standar: satu pembukaan, dua pertanyaan perilaku, satu pertanyaan motivasi, satu pertanyaan sulit, dan satu penutup. Tidak perlu persiapan khusus, karena tujuannya mengukur titik awalmu. Nilainya tersimpan bersama sesi itu; Modul 9 akan membandingkan setiap sesi berikutnya dengan titik awal ini dan memintamu menyebutkan apa yang berubah."
       },
       "cta": {
        "en": "Open the simulator →",
@@ -4790,15 +4790,15 @@ window.MT_LMS['the-rope'] = {
      "takeaways": [
       {
        "en": "Every stage tests a different uncertainty.",
-       "id": "Setiap tahap menguji ketidakpastian yang berbeda."
+       "id": "Setiap tahap menguji keraguan yang berbeda."
       },
       {
        "en": "Map the process before you prepare, and mark what you have never practised.",
-       "id": "Petakan prosesnya sebelum bersiap, dan tandai yang belum pernah kamu latih."
+       "id": "Petakan prosesnya sebelum bersiap, dan tandai apa yang belum pernah kamu latih."
       },
       {
        "en": "The user round usually decides.",
-       "id": "Ronde user biasanya menentukan."
+       "id": "Babak user biasanya yang menentukan."
       }
      ],
      "resources": {
@@ -4808,7 +4808,7 @@ window.MT_LMS['the-rope'] = {
       },
       "lead": {
        "en": "The process patterns are course material marked for verification; the template is your first Kit item.",
-       "id": "Pola prosesnya materi kursus yang ditandai untuk verifikasi; templatnya butir Perangkat pertamamu."
+       "id": "Pola proses di pelajaran ini adalah materi kursus yang ditandai untuk dicek ulang; templatnya menjadi isian pertama Perangkat Wawancara-mu."
       },
       "items": [
        {
@@ -4819,20 +4819,20 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "Where the stage logic comes from; the local sequences must be checked against current official programme pages.",
-         "id": "Dari mana logika tahapnya berasal; urutan lokal harus diperiksa terhadap laman program resmi terkini."
+         "id": "Asal-usul logika tahapan; urutan khas Indonesia perlu dicocokkan dengan laman program resmi yang berlaku."
         },
         "body": [
          {
           "en": "E. Pellett, <i>Cracking the Code to a Successful Interview</i>: the recruiter’s view of the sequence.",
-          "id": "E. Pellett, <i>Cracking the Code to a Successful Interview</i>: pandangan rekruter tentang urutan."
+          "id": "E. Pellett, <i>Cracking the Code to a Successful Interview</i>: urutan proses dari sudut pandang perekrut."
          },
          {
           "en": "R. Ryan, <i>60 Seconds & You’re Hired!</i> Interview formats.",
-          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i> Format wawancara."
+          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i>: format-format wawancara."
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> Official sources, checked each cycle: the state-owned enterprise joint-recruitment portal; each bank’s officer programme page; each employer’s careers page.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Sumber resmi, diperiksa tiap siklus: portal rekrutmen bersama BUMN; laman ODP tiap bank; laman karier tiap perusahaan."
+          "id": "<span class=\"ev ev-verify\">Cek ulang</span> Sumber resmi yang perlu dicek setiap periode: portal rekrutmen bersama BUMN; laman ODP setiap bank; laman karier setiap perusahaan."
          }
         ]
        },
@@ -4840,11 +4840,11 @@ window.MT_LMS['the-rope'] = {
         "kind": "template",
         "title": {
          "en": "Format map (Kit item)",
-         "id": "Peta format (butir Perangkat)"
+         "id": "Peta format (isi Perangkat)"
         },
         "desc": {
          "en": "One block per target; one row per stage.",
-         "id": "Satu blok per sasaran; satu baris per tahap."
+         "id": "Satu blok untuk setiap sasaran; satu baris untuk setiap tahap."
         },
         "body": [
          {
@@ -4853,7 +4853,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Stage · who conducts it · tests (eligibility / capability / fit / values) · format · duration",
-          "id": "Tahap · siapa yang menjalankan · menguji (kelayakan / kemampuan / kecocokan / nilai) · format · durasi"
+          "id": "Tahap · pemegangnya · yang diuji (kelayakan / kemampuan / kecocokan / nilai-nilai) · format · durasi"
          },
          {
           "en": "What I will prepare · which module · practised before? (yes / never)",
@@ -4861,11 +4861,11 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "The one question I will ask to learn most about the stage ahead",
-          "id": "Satu pertanyaan yang akan saya ajukan untuk mengetahui tahap berikutnya sebanyak mungkin"
+          "id": "Satu pertanyaan yang akan saya ajukan untuk mengetahui paling banyak tentang tahap berikutnya"
          },
          {
           "en": "Red / green flags noticed so far (invitation tone, punctuality, clarity)",
-          "id": "Tanda merah / hijau yang diperhatikan sejauh ini (nada undangan, ketepatan waktu, kejelasan)"
+          "id": "Tanda bahaya / tanda baik yang sudah terlihat (nada undangan, ketepatan waktu, kejelasan informasi)"
          }
         ]
        }
@@ -4878,32 +4878,32 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "60 min",
-      "id": "60 mnt"
+      "id": "60 menit"
      },
      "title": {
       "en": "Case Assignment: Map Nadia’s Four Processes",
-      "id": "Tugas Kasus: Petakan Empat Proses Nadia"
+      "id": "Tugas Kasus: Petakan Empat Proses Seleksi Nadia"
      },
      "overview": {
       "en": "Nadia has four processes starting within three weeks and two hours a day to prepare. Using everything in Module 1, what each stage tests, who runs it, the hidden concerns, the local sequences, map her four processes, name the uncertainties each employer will have about her specifically, build a two-week preparation plan in priority order, and write the one question she should ask each employer. Then do the same for your own Top 3: your format map is the first item in your Interview Kit.",
-      "id": "Nadia punya empat proses yang dimulai dalam tiga minggu dan dua jam sehari untuk bersiap. Dengan semua isi Modul 1, apa yang diuji tiap tahap, siapa yang menjalankan, kekhawatiran tersembunyi, urutan lokal, petakan empat prosesnya, sebutkan ketidakpastian yang akan dimiliki tiap perusahaan tentang dirinya secara spesifik, bangun rencana persiapan dua minggu dalam urutan prioritas, dan tulis satu pertanyaan yang harus ia ajukan ke tiap perusahaan. Lalu lakukan hal yang sama untuk 3 sasaran teratasmu: peta formatmu adalah butir pertama Perangkat Wawancaramu."
+      "id": "Dalam tiga minggu, Nadia akan menjalani empat proses seleksi sekaligus, dan waktunya untuk bersiap hanya dua jam sehari. Pakai semua yang kamu pelajari di Modul 1: apa yang diuji setiap tahap, siapa pemegangnya, kekhawatiran tersembunyi, dan urutan tahap yang lazim di Indonesia. Petakan keempat prosesnya, tuliskan keraguan yang kemungkinan dimiliki tiap perusahaan tentang Nadia, susun rencana persiapan dua minggu berdasarkan prioritas, dan tulis satu pertanyaan yang perlu ia ajukan ke tiap perusahaan. Setelah itu, lakukan hal yang sama untuk tiga sasaran utamamu. Peta format itu menjadi isi pertama Perangkat Wawancara-mu."
      },
      "objectives": [
       {
        "en": "Map four processes stage by stage, naming what each stage tests.",
-       "id": "Memetakan empat proses Indonesia tahap demi tahap, menyebutkan apa yang diuji tiap tahap."
+       "id": "Memetakan empat proses seleksi tahap demi tahap, lengkap dengan apa yang diuji di setiap tahap."
       },
       {
        "en": "Identify employer-specific uncertainties about a real candidate profile.",
-       "id": "Mengenali ketidakpastian khas perusahaan tentang profil kandidat nyata."
+       "id": "Menemukan keraguan khas tiap perusahaan terhadap profil seorang kandidat."
       },
       {
        "en": "Prioritise two weeks of preparation by deadline and reuse.",
-       "id": "Memprioritaskan dua minggu persiapan berdasarkan tenggat dan pemakaian ulang."
+       "id": "Menyusun prioritas persiapan dua minggu berdasarkan tenggat dan kegunaannya untuk lebih dari satu proses."
       },
       {
        "en": "Write stage-appropriate questions that reveal what comes next.",
-       "id": "Menulis pertanyaan sesuai tahap yang mengungkap apa yang akan datang."
+       "id": "Menulis pertanyaan yang pas untuk tahapnya dan membuka informasi tentang tahap berikutnya."
       }
      ],
      "readFirst": {
@@ -4917,13 +4917,13 @@ window.MT_LMS['the-rope'] = {
         "n": "1.5",
         "title": {
          "en": "Case Assignment: Map Nadia’s Four Processes",
-         "id": "Tugas Kasus: Petakan Empat Proses Nadia"
+         "id": "Tugas Kasus: Petakan Empat Proses Seleksi Nadia"
         }
        },
        "story": [
         {
          "en": "Each invitation names a stage, the stage names a test, and the test names the module to prepare with",
-         "id": "Setiap undangan menyebut tahap, tahap menyebut ujian, dan ujian menyebut modul untuk bersiap"
+         "id": "Setiap undangan menyebut tahapnya, setiap tahap menguji sesuatu, dan setiap ujian punya modul untuk menyiapkannya"
         },
         {
          "en": "Step 5 is your own format map; compare it with Nadia’s plan, never copy it",
@@ -4934,21 +4934,21 @@ window.MT_LMS['the-rope'] = {
         {
          "h": {
           "en": "Read like a planner",
-          "id": "Baca seperti perencana"
+          "id": "Baca seperti orang yang menyusun jadwal"
          },
          "p": {
           "en": "The calendar is the constraint: fourteen days, two hours each, deadlines fixed.",
-          "id": "Kalender adalah kendalanya: empat belas hari, dua jam masing-masing, tenggat tetap."
+          "id": "Batasnya ada di kalender: empat belas hari, dua jam sehari, dan tenggat yang tidak bisa digeser."
          }
         },
         {
          "h": {
           "en": "Then map yourself",
-          "id": "Lalu petakan dirimu"
+          "id": "Lalu petakan prosesmu sendiri"
          },
          "p": {
           "en": "Compare, do not copy: the model is Nadia’s plan, not yours.",
-          "id": "Bandingkan, jangan salin: modelnya rencana Nadia, bukan rencanamu."
+          "id": "Bandingkan, jangan menyalin. Contoh jawaban itu rencana Nadia, bukan rencanamu."
          }
         }
        ],
@@ -4957,7 +4957,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Each invitation names a stage, the stage names a test, and the test names the module to prepare with",
-          "id": "Setiap undangan menyebut tahap, tahap menyebut ujian, dan ujian menyebut modul untuk bersiap"
+          "id": "Setiap undangan menyebut tahapnya, setiap tahap menguji sesuatu, dan setiap ujian punya modul untuk menyiapkannya"
          },
          "img": "../../assets/bg/stage-exploration.jpg",
          "layout": "list",
@@ -4965,7 +4965,7 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "mail",
            "en": "Each invitation names a stage",
-           "id": "Setiap undangan menyebut tahap",
+           "id": "Setiap undangan menyebut tahapnya.",
            "l": {
             "en": "Invitation",
             "id": "Undangan"
@@ -4974,7 +4974,7 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "steps",
            "en": "the stage names a test",
-           "id": "tahap menyebut ujian",
+           "id": "Setiap tahap menguji sesuatu.",
            "l": {
             "en": "Stage",
             "id": "Tahap"
@@ -4983,20 +4983,20 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "clipboard",
            "en": "the test names a module to prepare with.",
-           "id": "ujian menyebut modul untuk bersiap.",
+           "id": "Dan setiap hal yang diuji punya modul untuk menyiapkannya.",
            "l": {
             "en": "Test",
-            "id": "Ujian"
+            "id": "Yang diuji"
            }
           }
          ],
          "take": {
           "en": "The calendar is the constraint: fourteen days, two hours each, deadlines fixed.",
-          "id": "Kalender adalah kendalanya: empat belas hari, dua jam masing-masing, tenggat tetap."
+          "id": "Batasnya ada di kalender: empat belas hari, dua jam sehari, dan tenggat yang tidak bisa digeser."
          },
          "em": {
           "en": "the module to prepare with",
-          "id": "modul untuk bersiap"
+          "id": "modul untuk menyiapkannya"
          }
         },
         {
@@ -5011,17 +5011,17 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "map",
            "en": "Step 5 is your own format map for your Top 3",
-           "id": "Langkah 5 adalah peta formatmu sendiri untuk 3 teratas, butir Perangkat."
+           "id": "Langkah 5 adalah peta format untuk tiga sasaran utamamu, isi pertama Perangkat Wawancara-mu."
           },
           {
            "icon": "doc",
            "en": "the Kit item. Model notes open after you submit.",
-           "id": "Catatan model terbuka setelah kamu mengumpulkan."
+           "id": "Contoh jawaban terbuka setelah kamu mengumpulkan."
           }
          ],
          "take": {
           "en": "Compare, do not copy: the model is Nadia’s plan, not yours.",
-          "id": "Bandingkan, jangan salin: modelnya rencana Nadia, bukan rencanamu."
+          "id": "Bandingkan, jangan menyalin. Contoh jawaban itu rencana Nadia, bukan rencanamu."
          },
          "em": {
           "en": "never copy it",
@@ -5040,38 +5040,38 @@ window.MT_LMS['the-rope'] = {
       },
       "intro": {
        "en": "Five steps, five written answers. The case file has three tabs: Nadia’s profile from The Pack, the four invitations as received, and the three-week calendar. Every answer is checked for the ideas Module 1 taught, not for matching a model.",
-       "id": "Lima langkah, lima jawaban tertulis. Berkas kasus punya tiga tab: profil Nadia dari The Pack, empat undangan sebagaimana diterima, dan kalender tiga minggu. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 1, bukan kecocokan dengan model."
+       "id": "Ada lima langkah, dan setiap langkah meminta satu jawaban tertulis. Berkas kasusnya punya tiga tab: profil Nadia dari The Pack, empat undangan persis seperti yang ia terima, dan kalender tiga minggu. Jawabanmu dinilai dari seberapa baik kamu memakai gagasan Modul 1, bukan dari seberapa mirip dengan contoh jawaban."
       },
       "slides": [
        {
         "h": {
          "en": "Read like a planner",
-         "id": "Baca seperti perencana"
+         "id": "Baca seperti orang yang menyusun jadwal"
         },
         "points": [
          {
           "en": "Each invitation names a stage; the stage names a test; the test names a module to prepare with.",
-          "id": "Setiap undangan menyebut tahap; tahap menyebut ujian; ujian menyebut modul untuk bersiap."
+          "id": "Setiap undangan menyebut tahapnya. Setiap tahap menguji sesuatu. Dan setiap hal yang diuji punya modul untuk menyiapkannya."
          },
          {
           "en": "The calendar is the constraint: fourteen days, two hours each, deadlines fixed.",
-          "id": "Kalender adalah kendalanya: empat belas hari, dua jam masing-masing, tenggat tetap."
+          "id": "Batasnya ada di kalender: empat belas hari, dua jam sehari, dan tenggat yang tidak bisa digeser."
          }
         ]
        },
        {
         "h": {
          "en": "Then map yourself",
-         "id": "Lalu petakan dirimu"
+         "id": "Lalu petakan prosesmu sendiri"
         },
         "points": [
          {
           "en": "Step 5 is your own format map for your Top 3; the Kit item. Model notes open after you submit.",
-          "id": "Langkah 5 adalah peta formatmu sendiri untuk 3 teratas, butir Perangkat. Catatan model terbuka setelah kamu mengumpulkan."
+          "id": "Langkah 5 adalah peta format untuk tiga sasaran utamamu, isi pertama Perangkat Wawancara-mu. Contoh jawaban terbuka setelah kamu mengumpulkan."
          },
          {
           "en": "Compare, do not copy: the model is Nadia’s plan, not yours.",
-          "id": "Bandingkan, jangan salin: modelnya rencana Nadia, bukan rencanamu."
+          "id": "Bandingkan, jangan menyalin. Contoh jawaban itu rencana Nadia, bukan rencanamu."
          }
         ]
        }
@@ -5086,20 +5086,20 @@ window.MT_LMS['the-rope'] = {
       },
       "title": {
        "en": "Map Nadia’s Four Processes",
-       "id": "Petakan Empat Proses Nadia"
+       "id": "Petakan Empat Proses Seleksi Nadia"
       },
       "lead": {
        "en": "Four fictional employers, four invitations, one candidate with two hours a day. Decide what she prepares, in what order, and what each stage is going to test in her case.",
-       "id": "Empat perusahaan fiktif, empat undangan, satu kandidat dengan dua jam sehari. Putuskan apa yang ia siapkan, dalam urutan apa, dan apa yang akan diuji tiap tahap dalam kasusnya."
+       "id": "Empat perusahaan fiktif, empat undangan, dan satu kandidat yang hanya punya dua jam sehari. Tentukan apa yang perlu ia siapkan, urutannya, dan apa yang akan diuji di setiap tahap untuk kasus Nadia."
       },
       "practice": [
        {
         "en": "Stage mapping",
-        "id": "Pemetaan tahap"
+        "id": "Memetakan tahap"
        },
        {
         "en": "Uncertainty audit",
-        "id": "Audit ketidakpastian"
+        "id": "Mendata keraguan"
        },
        {
         "en": "Preparation plan",
@@ -5107,7 +5107,7 @@ window.MT_LMS['the-rope'] = {
        },
        {
         "en": "Stage questions",
-        "id": "Pertanyaan tahap"
+        "id": "Pertanyaan per tahap"
        },
        {
         "en": "Your format map",
@@ -5116,7 +5116,7 @@ window.MT_LMS['the-rope'] = {
       ],
       "goal": {
        "en": "A format map and a fourteen-day plan Nadia could follow tomorrow morning, and the same map for your own targets.",
-       "id": "Peta format dan rencana empat belas hari yang bisa diikuti Nadia besok pagi, dan peta yang sama untuk sasaranmu sendiri."
+       "id": "Peta format dan rencana empat belas hari yang bisa langsung Nadia jalankan besok pagi, ditambah peta yang sama untuk sasaranmu sendiri."
       },
       "brief": {
        "email": {
@@ -5135,44 +5135,44 @@ window.MT_LMS['the-rope'] = {
         },
         "subject": {
          "en": "Nadia’s four processes; help her decide what to prepare and in what order",
-         "id": "Empat proses Nadia: bantu ia memutuskan apa yang disiapkan dan urutannya"
+         "id": "Empat proses seleksi Nadia: tolong bantu ia memilih apa yang disiapkan dulu"
         },
         "paragraphs": [
          {
           "en": "Nadia finished The Pack with a rebuilt CV and a Top 5, and four of them have replied in the same week. I have pasted the four invitations exactly as she received them, and her profile from the Pack Dossier. She has about two hours a day for the next three weeks and is trying to prepare for all four at once, which means she is preparing for none of them.",
-          "id": "Nadia menyelesaikan The Pack dengan CV yang dibangun ulang dan 5 Teratas, dan empat di antaranya membalas di minggu yang sama. Saya tempelkan empat undangan persis seperti yang ia terima, dan profilnya dari Dossier The Pack. Ia punya sekitar dua jam sehari selama tiga minggu ke depan dan mencoba bersiap untuk keempatnya sekaligus, yang berarti ia tidak bersiap untuk satu pun."
+          "id": "Nadia menyelesaikan The Pack dengan CV baru dan daftar lima sasaran utama. Empat di antaranya membalas dalam minggu yang sama. Saya lampirkan keempat undangan itu persis seperti yang ia terima, beserta profilnya dari Dossier The Pack. Waktunya sekitar dua jam sehari selama tiga minggu ke depan, dan ia mencoba menyiapkan keempatnya sekaligus. Akibatnya, tidak ada satu pun yang benar-benar siap."
          },
          {
           "en": "Help her decide what to prepare, in what order, and what each stage is going to test in her case, not in general. She has never done a group discussion or a one-way video, and the KilatPay case is due in four days.",
-          "id": "Bantu ia memutuskan apa yang disiapkan, dalam urutan apa, dan apa yang akan diuji tiap tahap dalam kasusnya, bukan secara umum. Ia belum pernah mengikuti diskusi kelompok atau video satu arah, dan kasus KilatPay jatuh tempo dalam empat hari."
+          "id": "Tolong bantu ia menentukan apa yang perlu disiapkan, urutannya, dan apa yang akan diuji di setiap tahap untuk kasus dia, bukan secara umum. Ia belum pernah ikut diskusi kelompok atau wawancara video satu arah, dan studi kasus KilatPay harus dikirim empat hari lagi."
          },
          {
           "en": "Then do the same for your own three targets. That map is the first page of your Interview Kit; I will look at it at our next session.",
-          "id": "Lalu lakukan hal yang sama untuk tiga sasaranmu sendiri. Peta itu halaman pertama Perangkat Wawancaramu; saya akan melihatnya di sesi kita berikutnya."
+          "id": "Setelah itu, lakukan hal yang sama untuk tiga sasaranmu sendiri. Peta itu menjadi halaman pertama Perangkat Wawancara-mu, dan akan saya lihat di sesi kita berikutnya."
          }
         ],
         "asks": [
          {
           "en": "For each process: the stages and what each tests",
-          "id": "Untuk tiap proses: tahap dan apa yang diuji masing-masing"
+          "id": "Untuk tiap proses: tahap-tahapnya dan apa yang diuji di masing-masing tahap"
          },
          {
           "en": "The three biggest uncertainties each employer will have about Nadia specifically",
-          "id": "Tiga ketidakpastian terbesar tiap perusahaan tentang Nadia secara spesifik"
+          "id": "Tiga keraguan terbesar tiap perusahaan, khusus tentang Nadia"
          },
          {
           "en": "A two-week plan in priority order, with reasons",
-          "id": "Rencana dua minggu dalam urutan prioritas, dengan alasan"
+          "id": "Rencana dua minggu yang diurutkan berdasarkan prioritas, beserta alasannya"
          },
          {
           "en": "One question per employer that learns the most about the stage ahead",
-          "id": "Satu pertanyaan per perusahaan yang paling banyak mengungkap tahap berikutnya"
+          "id": "Satu pertanyaan untuk tiap perusahaan yang paling banyak membuka informasi tentang tahap berikutnya"
          }
         ],
         "closing": [
          {
           "en": "Terima kasih: Rina",
-          "id": "Terima kasih: Rina"
+          "id": "Terima kasih, Rina"
          }
         ]
        },
@@ -5185,7 +5185,7 @@ window.MT_LMS['the-rope'] = {
          },
          "v": {
           "en": "Nadia’s available preparation time for the next three weeks, 14 days ≈ 28 hours in the plan window",
-          "id": "Waktu persiapan Nadia untuk tiga minggu ke depan: 14 hari ≈ 28 jam dalam jendela rencana"
+          "id": "Waktu persiapan Nadia selama tiga minggu ke depan. Dalam rencana 14 hari, totalnya sekitar 28 jam"
          },
          "hot": true
         },
@@ -5197,7 +5197,7 @@ window.MT_LMS['the-rope'] = {
          },
          "v": {
           "en": "KilatPay take-home case due, the nearest hard deadline",
-          "id": "Kasus take-home KilatPay jatuh tempo, tenggat keras terdekat"
+          "id": "Batas pengiriman studi kasus KilatPay, tenggat pasti yang paling dekat"
          },
          "hot": true
         },
@@ -5205,11 +5205,11 @@ window.MT_LMS['the-rope'] = {
          "icon": "users",
          "k": {
           "en": "Never practised",
-          "id": "Belum pernah dilatih"
+          "id": "Belum pernah"
          },
          "v": {
           "en": "group discussion (Bank Sinar Nusantara, Arunika) · one-way video (Arunika) · a take-home case (KilatPay)",
-          "id": "diskusi kelompok (Bank Sinar Nusantara, Arunika) · video satu arah (Arunika) · kasus take-home (KilatPay)"
+          "id": "diskusi kelompok (Bank Sinar Nusantara, Arunika) · wawancara video satu arah (Arunika) · studi kasus yang dikerjakan di rumah (KilatPay)"
          },
          "hot": true
         },
@@ -5221,7 +5221,7 @@ window.MT_LMS['the-rope'] = {
          },
          "v": {
           "en": "Bank Sinar Nusantara phone screen, 15 minutes, HR",
-          "id": "Seleksi telepon Bank Sinar Nusantara, 15 menit, HR"
+          "id": "Wawancara telepon dengan HR Bank Sinar Nusantara, 15 menit"
          }
         },
         {
@@ -5232,7 +5232,7 @@ window.MT_LMS['the-rope'] = {
          },
          "v": {
           "en": "Arunika one-way video due: 5 questions × 90 s, 30 s preparation, one retake each",
-          "id": "Video satu arah Arunika jatuh tempo: 5 pertanyaan × 90 dtk, persiapan 30 dtk, satu pengulangan masing-masing"
+          "id": "Batas video satu arah Arunika: 5 pertanyaan × 90 detik, waktu persiapan 30 detik, boleh mengulang sekali per pertanyaan"
          }
         },
         {
@@ -5243,7 +5243,7 @@ window.MT_LMS['the-rope'] = {
          },
          "v": {
           "en": "Rumah Rempah “ngobrol santai” lunch with the owner, Bu Ratna",
-          "id": "Makan siang “ngobrol santai” Rumah Rempah dengan pemilik, Bu Ratna"
+          "id": "Makan siang “ngobrol santai” dengan pemilik Rumah Rempah, Bu Ratna"
          }
         }
        ],
@@ -5255,46 +5255,46 @@ window.MT_LMS['the-rope'] = {
          },
          "title": {
           "en": "From the Pack Dossier; the facts every answer must use",
-          "id": "Dari Dossier The Pack; fakta yang harus dipakai setiap jawaban"
+          "id": "Dari Dossier The Pack: fakta yang wajib dipakai di setiap jawaban"
          },
          "meta": {
           "en": "The only source for claims about her",
-          "id": "Satu-satunya sumber untuk klaim tentang dirinya"
+          "id": "Satu-satunya sumber untuk klaim tentang Nadia"
          },
          "body": [
           {
            "items": [
             {
              "en": "Nadia Putri, 22 · bachelor’s degree Manajemen, GPA 3,38 · graduates Aug 2026 · thesis on inventory turnover at a Tegal retailer",
-             "id": "Nadia Putri, 22 · S1 Manajemen, IPK 3,38 · lulus Agu 2026 · skripsi tentang inventory turnover di peritel Tegal"
+             "id": "Nadia Putri, 22 tahun · S1 Manajemen, IPK 3,38 · lulus Agustus 2026 · skripsi tentang perputaran persediaan (inventory turnover) di sebuah toko ritel di Tegal"
             },
             {
              "en": "Operations Intern, Bank Sinar Nusantara, Semarang · Jun–Aug 2025 · reconciled daily transaction reports for 3 branches · flagged a recurring terminal mismatch; the fix removed about 30 minutes of manual correction a day · built the reconciliation checklist the branch team still uses",
-             "id": "Operations Intern, Bank Sinar Nusantara, Semarang · Jun–Agu 2025 · merekonsiliasi laporan transaksi harian untuk 3 cabang · menandai selisih terminal berulang; perbaikannya menghilangkan sekitar 30 menit koreksi manual per hari · membangun daftar periksa rekonsiliasi yang masih dipakai tim cabang"
+             "id": "Magang Operasional, Bank Sinar Nusantara, Semarang · Juni–Agustus 2025 · merekonsiliasi laporan transaksi harian 3 cabang · menemukan selisih terminal yang terus berulang, dan perbaikannya menghemat sekitar 30 menit koreksi manual per hari · menyusun daftar periksa rekonsiliasi yang sampai sekarang masih dipakai tim cabang"
             },
             {
              "en": "Treasurer, HIMA Manajemen · Aug 2024–Jul 2025 · 300 members, 12 events, Rp 120 juta budget · monthly close with receipts · faculty audit: zero issues, first in 3 years",
-             "id": "Bendahara, HIMA Manajemen · Agu 2024–Jul 2025 · 300 anggota, 12 acara, anggaran Rp 120 juta · tutup buku bulanan dengan kuitansi · audit fakultas: nol temuan, pertama dalam 3 tahun"
+             "id": "Bendahara, HIMA Manajemen · Agustus 2024–Juli 2025 · 300 anggota, 12 acara, anggaran Rp 120 juta · tutup buku bulanan lengkap dengan kuitansi · audit fakultas tanpa temuan, pertama kalinya dalam 3 tahun"
             },
             {
              "en": "Head of Sponsorship, 2025 National Business Competition · 6-person team · Rp 85 juta from 11 sponsors · 1,200 participants",
-             "id": "Kepala Sponsorship, Kompetisi Bisnis Nasional 2025 · tim 6 orang · Rp 85 juta dari 11 sponsor · 1.200 peserta"
+             "id": "Kepala Divisi Sponsorship, Kompetisi Bisnis Nasional 2025 · tim 6 orang · Rp 85 juta dari 11 sponsor · 1.200 peserta"
             },
             {
              "en": "Barista (part-time), Kopi Tepian · Mar 2024–May 2025 · 120–150 customers a shift · pre-order board for the morning rush · trained 4 new baristas",
-             "id": "Barista (paruh waktu), Kopi Tepian · Mar 2024–Mei 2025 · 120–150 pelanggan per sif · papan pra-pesan untuk jam sibuk pagi · melatih 4 barista baru"
+             "id": "Barista paruh waktu, Kopi Tepian · Maret 2024–Mei 2025 · melayani 120–150 pelanggan per sif · membuat papan pesanan awal untuk jam sibuk pagi · melatih 4 barista baru"
             },
             {
              "en": "community-service financial-literacy workshop, Tegal · Jul 2024 · 40 participants",
-             "id": "Lokakarya literasi keuangan KKN, Tegal · Jul 2024 · 40 peserta"
+             "id": "Lokakarya literasi keuangan saat KKN, Tegal · Juli 2024 · 40 peserta"
             },
             {
              "en": "Tools: Excel (pivot tables, VLOOKUP), Google Sheets; SQL fundamentals course in progress (module 2 of 6); never used Tableau or Power BI · TOEFL ITP 540",
-             "id": "Alat: Excel (pivot table, VLOOKUP), Google Sheets; kursus dasar SQL sedang berjalan (modul 2 dari 6); tidak pernah memakai Tableau atau Power BI · TOEFL ITP 540"
+             "id": "Perangkat kerja: Excel (pivot table, VLOOKUP), Google Sheets; sedang mengikuti kursus dasar SQL (modul 2 dari 6); belum pernah memakai Tableau atau Power BI · TOEFL ITP 540"
             },
             {
              "en": "Targets: operations or management-trainee roles in banking, FMCG, fintech · open to Jakarta · has not yet decided about placement outside Java",
-             "id": "Sasaran: peran operasi atau management trainee di perbankan, FMCG, fintech · bersedia ke Jakarta · belum memutuskan soal penempatan di luar Jawa"
+             "id": "Sasaran: posisi operasional atau management trainee di perbankan, FMCG, dan fintech · bersedia pindah ke Jakarta · belum memutuskan soal penempatan di luar Jawa"
             }
            ]
           }
@@ -5307,7 +5307,7 @@ window.MT_LMS['the-rope'] = {
          },
          "title": {
           "en": "As received: read each for format, duration, interviewer and implied test",
-          "id": "Sebagaimana diterima: baca masing-masing untuk format, durasi, pewawancara, dan ujian tersirat"
+          "id": "Persis seperti yang diterima: baca formatnya, durasinya, siapa pewawancaranya, dan apa yang sebenarnya diuji"
          },
          "meta": {
           "en": "Fictional employers",
@@ -5324,7 +5324,7 @@ window.MT_LMS['the-rope'] = {
            "items": [
             {
              "en": "“Kami mengundang Anda mengikuti wawancara awal dengan tim HR pada Selasa, 10.00–10.15, melalui telepon. Tahap berikutnya: psikotes dan LGD (dijadwalkan setelah wawancara awal), wawancara user dengan Kepala Cabang, dan panel dengan Direktur Regional. Program ini mensyaratkan ikatan dinas dua tahun dan kesediaan penempatan di seluruh Indonesia.”",
-             "id": "“Kami mengundang Anda mengikuti wawancara awal dengan tim HR pada Selasa, 10.00–10.15, melalui telepon. Tahap berikutnya: psikotes dan LGD (dijadwalkan setelah wawancara awal), wawancara user dengan Kepala Cabang, dan panel dengan Direktur Regional. Program ini mensyaratkan ikatan dinas dua tahun dan kesediaan penempatan di seluruh negeri.”"
+             "id": "“Kami mengundang Anda mengikuti wawancara awal dengan tim HR pada Selasa, 10.00–10.15, melalui telepon. Tahap berikutnya: psikotes dan LGD (dijadwalkan setelah wawancara awal), wawancara user dengan Kepala Cabang, dan panel dengan Direktur Regional. Program ini mensyaratkan ikatan dinas dua tahun dan kesediaan ditempatkan di seluruh Indonesia.”"
             }
            ]
           },
@@ -5351,8 +5351,8 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "“Hi Nadia: thanks for the chat yesterday. Next step is a short take-home case (attached): merchant onboarding drop-off. Please send your analysis (max 3 slides or 1 page) within 4 days. If it goes well, you’ll meet Mr. Aditya (Head of Merchant Operations) and then one of our founders., Dewi, Talent Acquisition”",
-             "id": "“Hi Nadia: thanks for the chat yesterday. Next step is a short take-home case (attached): merchant onboarding drop-off. Please send your analysis (max 3 slides or 1 page) within 4 days. If it goes well, you’ll meet Mr. Aditya (Head of Merchant Operations) and then one of our founders., Dewi, Talent Acquisition”"
+             "en": "“Hi Nadia: thanks for the chat yesterday. Next step is a short take-home case (attached): merchant onboarding drop-off. Please send your analysis (max 3 slides or 1 page) within 4 days. If it goes well, you’ll meet Mr. Aditya (Head of Merchant Operations) and then one of our founders. Best, Dewi, Talent Acquisition”",
+             "id": "“Hi Nadia, thanks for the chat yesterday. Next step is a short take-home case (attached): merchant onboarding drop-off. Please send your analysis (max 3 slides or 1 page) within 4 days. If it goes well, you’ll meet Mr. Aditya (Head of Merchant Operations) and then one of our founders. Best, Dewi, Talent Acquisition”"
             }
            ]
           },
@@ -5365,8 +5365,8 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "“Nadia, Bu Ratna mau ngobrol santai sambil makan siang minggu depan di outlet Tembalang, hari Rabu jam 12. Nggak usah bawa apa-apa., Wulan”",
-             "id": "“Nadia, Bu Ratna mau ngobrol santai sambil makan siang minggu depan di outlet Tembalang, hari Rabu jam 12. Nggak usah bawa apa-apa., Wulan”"
+             "en": "“Nadia, Bu Ratna mau ngobrol santai sambil makan siang minggu depan di outlet Tembalang, hari Rabu jam 12. Nggak usah bawa apa-apa. Salam, Wulan”",
+             "id": "“Nadia, Bu Ratna mau ngobrol santai sambil makan siang minggu depan di outlet Tembalang, hari Rabu jam 12. Nggak usah bawa apa-apa. Salam, Wulan”"
             }
            ]
           }
@@ -5379,42 +5379,42 @@ window.MT_LMS['the-rope'] = {
          },
          "title": {
           "en": "Three weeks, deadlines fixed",
-          "id": "Tiga minggu, tenggat tetap"
+          "id": "Tiga minggu, tenggat tidak bisa digeser"
          },
          "meta": {
           "en": "Today is Sunday, day 0",
-          "id": "Hari ini Minggu, hari 0"
+          "id": "Hari ini Minggu, hari ke-0"
          },
          "body": [
           {
            "items": [
             {
              "en": "Day 2 (Tue) · Bank Sinar Nusantara phone screen, 15 min",
-             "id": "Hari 2 (Sel) · seleksi telepon Bank Sinar Nusantara, 15 mnt"
+             "id": "Hari 2 (Selasa) · wawancara telepon Bank Sinar Nusantara, 15 menit"
             },
             {
              "en": "Day 4 (Thu) · KilatPay take-home case due",
-             "id": "Hari 4 (Kam) · kasus take-home KilatPay jatuh tempo"
+             "id": "Hari 4 (Kamis) · batas pengiriman studi kasus KilatPay"
             },
             {
              "en": "Day 5 (Fri) · Arunika one-way video due",
-             "id": "Hari 5 (Jum) · video satu arah Arunika jatuh tempo"
+             "id": "Hari 5 (Jumat) · batas pengiriman video satu arah Arunika"
             },
             {
              "en": "Day 10 (Wed) · Rumah Rempah lunch with Bu Ratna, 12.00",
-             "id": "Hari 10 (Rab) · makan siang Rumah Rempah dengan Bu Ratna, 12.00"
+             "id": "Hari 10 (Rabu) · makan siang di Rumah Rempah dengan Bu Ratna, pukul 12.00"
             },
             {
              "en": "Day 12–14 · likely KilatPay user interview (Mr. Aditya) if the case passes",
-             "id": "Hari 12–14 · kemungkinan wawancara user KilatPay (Bapak Aditya) jika kasus lolos"
+             "id": "Hari 12–14 · kemungkinan wawancara user KilatPay (Pak Aditya) jika studi kasusnya lolos"
             },
             {
              "en": "Day 15–21 · likely Bank Sinar Nusantara psikotes + LGD; likely Arunika assessment centre if shortlisted",
-             "id": "Hari 15–21 · kemungkinan psikotes + LGD Bank Sinar Nusantara; kemungkinan assessment center Arunika jika masuk daftar pendek"
+             "id": "Hari 15–21 · kemungkinan psikotes dan LGD Bank Sinar Nusantara; kemungkinan assessment center Arunika jika lolos seleksi awal"
             },
             {
              "en": "Available: 2 hours every day; Sundays free for a longer block",
-             "id": "Tersedia: 2 jam setiap hari; Minggu luang untuk blok yang lebih panjang"
+             "id": "Waktu luang: 2 jam setiap hari; hari Minggu bisa dipakai untuk sesi yang lebih panjang"
             }
            ]
           }
@@ -5426,7 +5426,7 @@ window.MT_LMS['the-rope'] = {
        {
         "title": {
          "en": "Stage mapping",
-         "id": "Pemetaan tahap"
+         "id": "Memetakan tahap"
         },
         "short": {
          "en": "Stages",
@@ -5434,7 +5434,7 @@ window.MT_LMS['the-rope'] = {
         },
         "guide": {
          "en": "Lesson 1.4. For each of the four processes, list the stages in order and, for each stage, what it tests (eligibility · capability · fit · values) and who conducts it. Use the invitations, not the generic table, where they differ.",
-         "id": "Pelajaran 1.4. Untuk tiap dari empat proses, daftar tahapnya berurutan dan, untuk tiap tahap, apa yang diuji (kelayakan · kemampuan · kecocokan · nilai) dan siapa yang menjalankan. Pakai undangannya, bukan tabel generik, jika berbeda."
+         "id": "Pelajaran 1.4. Untuk keempat proses, tulis tahapnya secara berurutan. Di setiap tahap, sebutkan apa yang diuji (kelayakan · kemampuan · kecocokan · nilai-nilai) dan siapa yang memegangnya. Kalau undangan berbeda dari tabel umum, ikuti undangannya."
         },
         "questions": [
          {
@@ -5443,15 +5443,15 @@ window.MT_LMS['the-rope'] = {
           "rows": 14,
           "title": {
            "en": "Four processes, every stage, what it tests",
-           "id": "Empat proses, setiap tahap, apa yang diuji"
+           "id": "Empat proses, semua tahap, dan apa yang diuji"
           },
           "help": {
            "en": "One block per employer. Name the stage, the owner, and the test. Note which stages are eligibility screens and which is the decisive user round.",
-           "id": "Satu blok per perusahaan. Sebutkan tahap, pemiliknya, dan ujiannya. Catat tahap mana yang seleksi kelayakan dan mana ronde user yang menentukan."
+           "id": "Satu blok untuk tiap perusahaan. Sebutkan tahapnya, pemegangnya, dan apa yang diuji. Tandai tahap mana yang hanya menyaring kelayakan, dan wawancara user mana yang menjadi penentu."
           },
           "placeholder": {
            "en": "Bank Sinar Nusantara: (1) HR phone screen, eligibility: placement, bond, salary, start date · (2) psikotes + LGD, consistency, fit under observation · (3) user interview, Kepala Cabang, capability, decisive · (4) panel, Direktur Regional, values, commitment · (5) MCU, eligibility\nArunika: (1) one-way video, communication and structure … \nKilatPay: …\nRumah Rempah: …",
-           "id": "Bank Sinar Nusantara: (1) seleksi telepon HR, kelayakan: penempatan, ikatan dinas, gaji, tanggal mulai · (2) psikotes + LGD, konsistensi, kecocokan di bawah pengamatan · (3) wawancara user, Kepala Cabang, kemampuan, menentukan · (4) panel, Direktur Regional, nilai, komitmen · (5) MCU, kelayakan\nArunika: (1) video satu arah, komunikasi dan struktur … \nKilatPay: …\nRumah Rempah: …"
+           "id": "Bank Sinar Nusantara: (1) wawancara telepon HR, kelayakan: penempatan, ikatan dinas, gaji, tanggal mulai · (2) psikotes + LGD, konsistensi, kecocokan saat diamati · (3) wawancara user, Kepala Cabang, kemampuan, penentu · (4) panel, Direktur Regional, nilai-nilai, komitmen · (5) MCU, kelayakan\nArunika: (1) video satu arah, komunikasi dan struktur jawaban … \nKilatPay: …\nRumah Rempah: …"
           },
           "keywords": [
            [
@@ -5518,15 +5518,15 @@ window.MT_LMS['the-rope'] = {
        {
         "title": {
          "en": "Uncertainty audit",
-         "id": "Audit ketidakpastian"
+         "id": "Mendata keraguan"
         },
         "short": {
          "en": "Uncertainty",
-         "id": "Ketidakpastian"
+         "id": "Keraguan"
         },
         "guide": {
          "en": "Lesson 1.1. For each employer, the three biggest uncertainties they will have about Nadia specifically, from her profile, not from a generic list, and the evidence in her profile (or “none yet”) that answers each.",
-         "id": "Pelajaran 1.1. Untuk tiap perusahaan, tiga ketidakpastian terbesar mereka tentang Nadia secara spesifik, dari profilnya, bukan daftar generik, dan bukti di profilnya (atau “belum ada”) yang menjawab masing-masing."
+         "id": "Pelajaran 1.1. Untuk tiap perusahaan, tulis tiga keraguan terbesar mereka tentang Nadia. Ambil dari profilnya, bukan dari daftar umum. Lalu sebutkan bukti di profilnya yang bisa menjawab keraguan itu, atau tulis “belum ada”."
         },
         "questions": [
          {
@@ -5535,15 +5535,15 @@ window.MT_LMS['the-rope'] = {
           "rows": 14,
           "title": {
            "en": "Twelve uncertainties, with evidence or “none yet”",
-           "id": "Dua belas ketidakpastian, dengan bukti atau “belum ada”"
+           "id": "Dua belas keraguan, masing-masing dengan bukti atau “belum ada”"
           },
           "help": {
            "en": "Think per employer: the bank worries about placement and the bond; Arunika about supply-chain capability and the group; KilatPay about data tools and speed; Rumah Rempah about attitude and staying. Name the profile fact that answers each.",
-           "id": "Pikirkan per perusahaan: bank khawatir soal penempatan dan ikatan dinas; Arunika soal kemampuan rantai pasok dan kelompok; KilatPay soal alat data dan kecepatan; Rumah Rempah soal sikap dan bertahan. Sebutkan fakta profil yang menjawab masing-masing."
+           "id": "Pikirkan satu per satu. Bank khawatir soal penempatan dan ikatan dinas. Arunika soal kemampuan rantai pasok dan kerja kelompok. KilatPay soal kemampuan mengolah data dan kecepatan kerja. Rumah Rempah soal sikap dan apakah Nadia akan bertahan. Sebutkan fakta di profil yang menjawab masing-masing."
           },
           "placeholder": {
            "en": "Bank Sinar Nusantara: (1) will she accept placement outside Java? evidence: none yet. Needs a truthful answer · (2) no full-time experience: evidence, internship checklist still in use · (3) motivation for officer programme vs a bigger bank: evidence, …\nArunika, …\nKilatPay, (1) SQL/Tableau: evidence, SQL course module 2 of 6, honest close …\nRumah Rempah, …",
-           "id": "Bank Sinar Nusantara: (1) apakah ia menerima penempatan di luar Jawa? bukti: belum ada. Butuh jawaban jujur · (2) belum ada pengalaman penuh waktu: bukti, daftar periksa magang masih dipakai · (3) motivasi ODP vs bank lebih besar: bukti, …\nArunika, …\nKilatPay, (1) SQL/Tableau: bukti, kursus SQL modul 2 dari 6, penutup jujur …\nRumah Rempah, …"
+           "id": "Bank Sinar Nusantara: (1) apakah ia mau ditempatkan di luar Jawa? bukti: belum ada, perlu jawaban jujur · (2) belum pernah bekerja penuh waktu: bukti, daftar periksa saat magang yang masih dipakai · (3) kenapa ODP di bank ini, bukan bank yang lebih besar: bukti, …\nArunika: …\nKilatPay: (1) SQL/Tableau: bukti, kursus SQL modul 2 dari 6, akui dengan jujur …\nRumah Rempah: …"
           },
           "keywords": [
            [
@@ -5623,7 +5623,7 @@ window.MT_LMS['the-rope'] = {
         },
         "guide": {
          "en": "Lessons 1.3 and 1.4, plus the calendar. Fourteen days, two hours each. Order the work by the nearest deadline and by reuse (what serves more than one process). Give a reason for each priority, name the module each item comes from, and say what Nadia does <i>not</i> prepare this fortnight.",
-         "id": "Pelajaran 1.3 dan 1.4, plus kalender. Empat belas hari, dua jam masing-masing. Urutkan pekerjaan berdasarkan tenggat terdekat dan pemakaian ulang (yang melayani lebih dari satu proses). Beri alasan untuk tiap prioritas, sebutkan modul asal tiap butir, dan katakan apa yang <i>tidak</i> disiapkan Nadia dua minggu ini."
+         "id": "Pelajaran 1.3 dan 1.4, ditambah kalender. Empat belas hari, dua jam sehari. Urutkan persiapan berdasarkan tenggat terdekat, lalu berdasarkan kegunaannya untuk lebih dari satu proses. Beri alasan untuk setiap prioritas, sebutkan modul yang dipakai untuk tiap persiapan, dan tulis apa yang sengaja <i>tidak</i> Nadia siapkan dalam dua minggu ini."
         },
         "questions": [
          {
@@ -5632,15 +5632,15 @@ window.MT_LMS['the-rope'] = {
           "rows": 14,
           "title": {
            "en": "Day by day, with reasons",
-           "id": "Hari demi hari, dengan alasan"
+           "id": "Hari demi hari, beserta alasannya"
           },
           "help": {
            "en": "Days 1–2 before the phone screen; days 2–4 the KilatPay case; days 3–5 the one-way video; Core 10 stories running through (they serve every user round); LGD before any assessment centre. Say why each comes when it does.",
-           "id": "Hari 1–2 sebelum seleksi telepon; hari 2–4 kasus KilatPay; hari 3–5 video satu arah; cerita Core 10 berjalan sepanjang waktu (melayani setiap ronde user); LGD sebelum assessment center mana pun. Katakan mengapa masing-masing datang saat itu."
+           "id": "Hari 1–2 untuk wawancara telepon; hari 2–4 untuk studi kasus KilatPay; hari 3–5 untuk video satu arah; cerita Core 10 dikerjakan terus sepanjang dua minggu karena berguna di setiap wawancara user; latihan LGD sebelum assessment center mana pun. Jelaskan kenapa tiap persiapan ditempatkan di hari itu."
           },
           "placeholder": {
-           "en": "Day 1 (Mon): eligibility sentences, placement, bond, salary range, start date (Lesson 5.3, 1.4); decode all four invitations; 60-second opening draft. Reason: phone screen is Tuesday and tests eligibility, not stories.\nDay 2 (Tue): screen in the morning; afternoon. Read the KilatPay case, clarify the question, structure (Module 6). Reason: nearest hard deadline.\nDay 3–4: …\nDay 5 (Fri): record the one-way video …\nDays 6–14: …\nNot this fortnight: …",
-           "id": "Hari 1 (Sen): kalimat kelayakan, penempatan, ikatan dinas, rentang gaji, tanggal mulai (Pelajaran 5.3, 1.4); uraikan keempat undangan; draf pembuka 60 detik. Alasan: seleksi telepon hari Selasa dan menguji kelayakan, bukan cerita.\nHari 2 (Sel): seleksi pagi; sore. Baca kasus KilatPay, klarifikasi pertanyaan, struktur (Modul 6). Alasan: tenggat keras terdekat.\nHari 3–4: …\nHari 5 (Jum): rekam video satu arah …\nHari 6–14: …\nTidak dua minggu ini: …"
+           "en": "Day 1 (Mon): eligibility sentences, placement, bond, salary range, start date (Lesson 5.3, 1.4); decode all four invitations; 60-second opening draft. Reason: phone screen is Tuesday and tests eligibility, not stories.\nDay 2 (Tue): screen in the morning; in the afternoon, read the KilatPay case, clarify the question, structure (Module 6). Reason: nearest hard deadline.\nDay 3–4: …\nDay 5 (Fri): record the one-way video …\nDays 6–14: …\nNot this fortnight: …",
+           "id": "Hari 1 (Senin): kalimat soal kelayakan, yaitu penempatan, ikatan dinas, kisaran gaji, tanggal mulai (Pelajaran 5.3, 1.4); bedah keempat undangan; draf perkenalan 60 detik. Alasan: wawancara telepon hari Selasa menguji kelayakan, bukan cerita.\nHari 2 (Selasa): wawancara telepon di pagi hari; sorenya, baca studi kasus KilatPay, perjelas pertanyaannya, susun kerangkanya (Modul 6). Alasan: tenggat pasti yang paling dekat.\nHari 3–4: …\nHari 5 (Jumat): rekam video satu arah …\nHari 6–14: …\nTidak disiapkan dua minggu ini: …"
           },
           "keywords": [
            [
@@ -5704,7 +5704,7 @@ window.MT_LMS['the-rope'] = {
        {
         "title": {
          "en": "One question per employer",
-         "id": "Satu pertanyaan per perusahaan"
+         "id": "Satu pertanyaan untuk tiap perusahaan"
         },
         "short": {
          "en": "Questions",
@@ -5712,7 +5712,7 @@ window.MT_LMS['the-rope'] = {
         },
         "guide": {
          "en": "Lesson 1.4, section 4. For each employer, the one question Nadia should ask, at the stage she is in now, to learn the most about the stage ahead. The question must be answerable by that person, in the register of Lesson 9.1 of The Pack, and must not ask something the invitation already answered.",
-         "id": "Pelajaran 1.4, bagian 4. Untuk tiap perusahaan, satu pertanyaan yang harus diajukan Nadia, pada tahap yang sedang ia jalani, untuk mengetahui tahap berikutnya sebanyak mungkin. Pertanyaan harus bisa dijawab orang itu, dalam register Pelajaran 9.1 The Pack, dan tidak boleh menanyakan yang sudah dijawab undangan."
+         "id": "Pelajaran 1.4, bagian 4. Untuk tiap perusahaan, tulis satu pertanyaan yang sebaiknya Nadia ajukan di tahap yang sedang ia jalani, agar ia tahu sebanyak mungkin tentang tahap berikutnya. Pertanyaan itu harus bisa dijawab oleh orang yang ditanya, memakai gaya bahasa seperti di Pelajaran 9.1 The Pack, dan tidak menanyakan hal yang sudah dijelaskan di undangan."
         },
         "questions": [
          {
@@ -5721,15 +5721,15 @@ window.MT_LMS['the-rope'] = {
           "rows": 8,
           "title": {
            "en": "Four questions, each to the right person",
-           "id": "Empat pertanyaan, masing-masing ke orang yang tepat"
+           "id": "Empat pertanyaan, masing-masing untuk orang yang tepat"
           },
           "help": {
            "en": "To the HR recruiter on Tuesday; to Dewi at KilatPay; to Arunika (there is no person yet. Say where the question goes); to Wulan or Bu Ratna. Say what each answer would change in her preparation.",
-           "id": "Ke rekruter HR hari Selasa; ke Dewi di KilatPay; ke Arunika (belum ada orangnya. Katakan ke mana pertanyaannya); ke Wulan atau Bu Ratna. Katakan apa yang akan diubah tiap jawaban dalam persiapannya."
+           "id": "Untuk perekrut HR hari Selasa; untuk Dewi di KilatPay; untuk Arunika (belum ada nama kontaknya, jadi tulis ke mana pertanyaan itu dikirim); untuk Wulan atau Bu Ratna. Tulis juga apa yang akan berubah dalam persiapan Nadia setelah mendapat jawabannya."
           },
           "placeholder": {
            "en": "Bank Sinar Nusantara (to HR, end of the screen): “Boleh saya tahu format LGD-nya, berapa orang per kelompok dan apakah topiknya diberikan di tempat?” → changes: how she practises Module 7.\nKilatPay (reply to Dewi): …\nArunika (to the recruiting address, once): …\nRumah Rempah (to Wulan): …",
-           "id": "Bank Sinar Nusantara (ke HR, akhir seleksi): “Boleh saya tahu format LGD-nya, berapa orang per kelompok dan apakah topiknya diberikan di tempat?” → mengubah: cara ia melatih Modul 7.\nKilatPay (balasan ke Dewi): …\nArunika (ke alamat rekrutmen, sekali): …\nRumah Rempah (ke Wulan): …"
+           "id": "Bank Sinar Nusantara (ke HR, di akhir wawancara telepon): “Boleh saya tahu format LGD-nya, berapa orang per kelompok, dan apakah topiknya baru diberikan di tempat?” → yang berubah: cara ia berlatih untuk Modul 7.\nKilatPay (balasan ke Dewi): …\nArunika (ke alamat email rekrutmen, sekali saja): …\nRumah Rempah (ke Wulan): …"
           },
           "keywords": [
            [
@@ -5782,7 +5782,7 @@ window.MT_LMS['the-rope'] = {
        {
         "title": {
          "en": "Your own format map",
-         "id": "Peta formatmu sendiri"
+         "id": "Peta format milikmu"
         },
         "short": {
          "en": "Your map",
@@ -5790,7 +5790,7 @@ window.MT_LMS['the-rope'] = {
         },
         "guide": {
          "en": "The Kit item. For your Top 3 targets, one block each: the stages in order, who conducts each, what it tests, the format, what you will prepare and from which module, and whether you have practised it before. End with your three biggest uncertainties and the one question you will ask at your next stage.",
-         "id": "Butir Perangkat. Untuk 3 sasaran teratasmu, satu blok masing-masing: tahap berurutan, siapa yang menjalankan, apa yang diuji, formatnya, apa yang akan kamu siapkan dan dari modul mana, dan apakah kamu pernah melatihnya. Akhiri dengan tiga ketidakpastian terbesarmu dan satu pertanyaan yang akan kamu ajukan di tahap berikutnya."
+         "id": "Isi Perangkat Wawancara-mu. Buat satu blok untuk masing-masing dari tiga sasaran utamamu: urutan tahap, siapa pemegangnya, apa yang diuji, formatnya, apa yang akan kamu siapkan dan dari modul mana, serta apakah kamu pernah berlatih untuk tahap itu. Tutup dengan tiga keraguan terbesar tentang dirimu dan satu pertanyaan yang akan kamu ajukan di tahap berikutnya."
         },
         "questions": [
          {
@@ -5799,15 +5799,15 @@ window.MT_LMS['the-rope'] = {
           "rows": 14,
           "title": {
            "en": "Three targets, every stage, never-practised marked",
-           "id": "Tiga sasaran, setiap tahap, yang belum pernah dilatih ditandai"
+           "id": "Tiga sasaran, semua tahap, tandai yang belum pernah dilatih"
           },
           "help": {
            "en": "If you do not yet know a target’s stages, write the pattern from Lesson 1.4 for its track and mark it “to confirm”. Mark every stage you have never practised. Save this map, Module 9 reads it back.",
-           "id": "Jika kamu belum tahu tahap sebuah sasaran, tulis polanya dari Pelajaran 1.4 untuk jalurnya dan tandai “akan dikonfirmasi”. Tandai setiap tahap yang belum pernah kamu latih. Simpan peta ini, Modul 9 membacanya kembali."
+           "id": "Kalau kamu belum tahu tahap seleksi sebuah sasaran, tulis pola umumnya dari Pelajaran 1.4 sesuai jalurnya, lalu tandai “perlu dicek”. Tandai setiap tahap yang belum pernah kamu latih. Simpan peta ini, karena Modul 9 akan memakainya lagi."
           },
           "placeholder": {
            "en": "Target 1: [employer], [track]: (1) [stage] · [owner] · tests [ ] · format [ ] · prepare [ ] (Module …) · practised: never …\nTarget 2: …\nTarget 3: …\nMy three uncertainties: …\nMy next-stage question: …",
-           "id": "Sasaran 1: [perusahaan], [jalur]: (1) [tahap] · [pemilik] · menguji [ ] · format [ ] · siapkan [ ] (Modul …) · pernah dilatih: belum …\nSasaran 2: …\nSasaran 3: …\nTiga ketidakpastian saya: …\nPertanyaan tahap berikutnya saya: …"
+           "id": "Sasaran 1: [perusahaan], [jalur]: (1) [tahap] · [pemegang] · menguji [ ] · format [ ] · persiapan [ ] (Modul …) · pernah dilatih: belum …\nSasaran 2: …\nSasaran 3: …\nTiga keraguan terbesar tentang saya: …\nPertanyaan saya untuk tahap berikutnya: …"
           },
           "keywords": [
            [
@@ -5868,35 +5868,35 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Stage mapping: all four processes, every stage with its test and owner; the decisive round named",
-         "id": "Pemetaan tahap: keempat proses, setiap tahap dengan ujian dan pemiliknya; ronde penentu disebut"
+         "id": "Memetakan tahap: keempat proses, setiap tahap lengkap dengan apa yang diuji dan pemegangnya; tahap penentu disebutkan"
         },
         "w": "20%"
        },
        {
         "h": {
          "en": "Uncertainty audit: employer-specific, drawn from Nadia’s profile, each with evidence or “none yet”",
-         "id": "Audit ketidakpastian: khas perusahaan, diambil dari profil Nadia, masing-masing dengan bukti atau “belum ada”"
+         "id": "Mendata keraguan: khas untuk tiap perusahaan, diambil dari profil Nadia, masing-masing dengan bukti atau “belum ada”"
         },
         "w": "20%"
        },
        {
         "h": {
          "en": "Preparation plan: ordered by deadline and reuse, fits 2 h/day, reasons given, modules named, something deliberately left out",
-         "id": "Rencana persiapan: diurutkan berdasarkan tenggat dan pemakaian ulang, muat 2 jam/hari, alasan diberikan, modul disebut, ada yang sengaja ditinggalkan"
+         "id": "Rencana persiapan: diurutkan berdasarkan tenggat dan kegunaan ganda, muat dalam 2 jam sehari, ada alasannya, modulnya disebut, ada yang sengaja tidak disiapkan"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "Stage questions: one per employer, to the right person, in register, not already answered, with what it changes",
-         "id": "Pertanyaan tahap: satu per perusahaan, ke orang yang tepat, dalam register, belum terjawab, dengan apa yang diubahnya"
+         "id": "Pertanyaan per tahap: satu untuk tiap perusahaan, ditujukan ke orang yang tepat, gaya bahasanya pas, belum dijawab di undangan, dan jelas apa yang akan berubah"
         },
         "w": "15%"
        },
        {
         "h": {
          "en": "Your format map: three targets, every stage, never-practised marked, uncertainties and a next-stage question",
-         "id": "Peta formatmu: tiga sasaran, setiap tahap, yang belum pernah dilatih ditandai, ketidakpastian dan pertanyaan tahap berikutnya"
+         "id": "Peta formatmu: tiga sasaran, semua tahap, tahap yang belum pernah dilatih ditandai, ada keraguan dan pertanyaan untuk tahap berikutnya"
         },
         "w": "20%"
        }
@@ -5904,59 +5904,59 @@ window.MT_LMS['the-rope'] = {
       "model": {
        "title": {
         "en": "Model notes: Nadia’s map and plan",
-        "id": "Catatan model: peta dan rencana Nadia"
+        "id": "Contoh jawaban: peta dan rencana Nadia"
        },
        "body": [
         {
          "h": {
           "en": "The stages",
-          "id": "Tahap"
+          "id": "Tahap-tahapnya"
          }
         },
         {
-         "en": "Bank Sinar Nusantara: HR phone screen (eligibility, placement, two-year bond, salary, start) → psikotes and LGD (consistency; fit under observation) → user interview with the Kepala Cabang (capability; decisive) → panel with the Direktur Regional (values and commitment; short) → MCU and offer (eligibility again; the bond in writing). Arunika: one-way video (communication and structure under a timer; a screen, not a conversation) → assessment centre with LGD and a supply-chain case (fit and capability under observation) → user interview (capability; decisive) → final panel (values). KilatPay: recruiter chat, done → take-home case (capability; a written work sample) → user interview with Mr. Aditya (capability; decisive) → founder interview (values and fit). Rumah Rempah: owner lunch (trust, attitude, reliability. An SME interview in a relaxed register; still an interview) → probably a trial day → offer with a fixed-term contract contract (Module 10).",
-         "id": "Bank Sinar Nusantara: seleksi telepon HR (kelayakan, penempatan, ikatan dinas dua tahun, gaji, mulai) → psikotes dan LGD (konsistensi; kecocokan di bawah pengamatan) → wawancara user dengan Kepala Cabang (kemampuan; menentukan) → panel dengan Direktur Regional (nilai dan komitmen; singkat) → MCU dan tawaran (kelayakan lagi; ikatan dinas tertulis). Arunika: video satu arah (komunikasi dan struktur di bawah pengatur waktu; seleksi awal, bukan percakapan) → assessment center dengan LGD dan kasus rantai pasok (kecocokan dan kemampuan di bawah pengamatan) → wawancara user (kemampuan; menentukan) → panel akhir (nilai). KilatPay: obrolan rekruter, selesai → kasus take-home (kemampuan; contoh kerja tertulis) → wawancara user dengan Bapak Aditya (kemampuan; menentukan) → wawancara pendiri (nilai dan kecocokan). Rumah Rempah: makan siang pemilik (kepercayaan, sikap, keandalan, wawancara UKM dalam register santai; tetap wawancara) → mungkin hari percobaan → tawaran dengan kontrak PKWT (Modul 10)."
+         "en": "Bank Sinar Nusantara: HR phone screen (eligibility, placement, two-year bond, salary, start) → psikotes and LGD (consistency; fit under observation) → user interview with the Kepala Cabang (capability; decisive) → panel with the Direktur Regional (values and commitment; short) → MCU and offer (eligibility again; the bond in writing). Arunika: one-way video (communication and structure under a timer; a screen, not a conversation) → assessment centre with LGD and a supply-chain case (fit and capability under observation) → user interview (capability; decisive) → final panel (values). KilatPay: recruiter chat, done → take-home case (capability; a written work sample) → user interview with Mr. Aditya (capability; decisive) → founder interview (values and fit). Rumah Rempah: owner lunch (trust, attitude, reliability. An SME interview in a relaxed register; still an interview) → probably a trial day → offer with a fixed-term contract (Module 10).",
+         "id": "Bank Sinar Nusantara: wawancara telepon HR (kelayakan: penempatan, ikatan dinas dua tahun, gaji, tanggal mulai) → psikotes dan LGD (konsistensi; kecocokan saat diamati) → wawancara user dengan Kepala Cabang (kemampuan; ini penentunya) → panel dengan Direktur Regional (nilai-nilai dan komitmen; biasanya singkat) → MCU dan tawaran kerja (kelayakan sekali lagi; ikatan dinas dituangkan secara tertulis). Arunika: video satu arah (komunikasi dan struktur jawaban dengan batas waktu; ini penyaringan, bukan percakapan) → assessment center berisi LGD dan studi kasus rantai pasok (kecocokan dan kemampuan saat diamati) → wawancara user (kemampuan; penentu) → panel akhir (nilai-nilai). KilatPay: obrolan dengan perekrut, sudah selesai → studi kasus yang dikerjakan di rumah (kemampuan; contoh hasil kerja tertulis) → wawancara user dengan Pak Aditya (kemampuan; penentu) → wawancara dengan pendiri (nilai-nilai dan kecocokan). Rumah Rempah: makan siang dengan pemilik (kepercayaan, sikap, keandalan; gaya UKM yang santai, tetapi tetap wawancara) → kemungkinan hari uji coba kerja → tawaran dengan kontrak PKWT (Modul 10)."
         },
         {
          "h": {
           "en": "The uncertainties",
-          "id": "Ketidakpastian"
+          "id": "Keraguan tiap perusahaan"
          }
         },
         {
          "en": "Bank: will she accept placement outside Java and a two-year bond (none yet. A truthful answer is needed before Tuesday, not a story); can a graduate with no full-time experience run branch operations (the internship checklist still in use; the terminal fix); is officer programme her first choice or a fallback (she applied to officer programme, not frontliner; the reconciliation work). Arunika: supply-chain capability from a management degree (the inventory-turnover thesis; the sponsorship logistics); performance in a group (none yet); will she stay through an 18-month rotation in Semarang and Bekasi (open to placement in Java; her family conversation). KilatPay: data tools (Excel pivot and VLOOKUP; SQL module 2 of 6, closed honestly; no Tableau. Never claim it); speed and “measure everything” (the 30-minutes-a-day figure); startup pace (the barista rush). Rumah Rempah: attitude and reliability in a small team (four baristas trained; the pre-order board); will she leave for a bigger name in six months (her honest answer, and the question she asks Bu Ratna).",
-         "id": "Bank: apakah ia menerima penempatan di luar Jawa dan ikatan dinas dua tahun (belum ada, jawaban jujur dibutuhkan sebelum Selasa, bukan cerita); bisakah lulusan tanpa pengalaman penuh waktu menjalankan operasional cabang (daftar periksa magang masih dipakai; perbaikan terminal); apakah ODP pilihan pertamanya atau cadangan (ia melamar ODP, bukan frontliner; kerja rekonsiliasi). Arunika: kemampuan rantai pasok dari gelar manajemen (skripsi inventory turnover; logistik sponsorship); kinerja dalam kelompok (belum ada); apakah ia bertahan sepanjang rotasi 18 bulan di Semarang dan Bekasi (bersedia penempatan di Jawa; pembicaraan keluarganya). KilatPay: alat data (Excel pivot dan VLOOKUP; SQL modul 2 dari 6, ditutup jujur; tanpa Tableau. Jangan pernah klaim); kecepatan dan “ukur segalanya” (angka 30 menit per hari); ritme startup (jam sibuk barista). Rumah Rempah: sikap dan keandalan di tim kecil (empat barista dilatih; papan pra-pesan); apakah ia pergi ke nama lebih besar dalam enam bulan (jawaban jujurnya, dan pertanyaan yang ia ajukan ke Bu Ratna)."
+         "id": "Bank: apakah ia mau ditempatkan di luar Jawa dan terikat dinas dua tahun (belum ada bukti; yang dibutuhkan jawaban jujur sebelum Selasa, bukan cerita); apakah lulusan yang belum pernah bekerja penuh waktu sanggup menjalankan operasional cabang (daftar periksa magang yang masih dipakai; perbaikan selisih terminal); apakah ODP pilihan utamanya atau sekadar cadangan (ia memilih ODP, bukan posisi frontliner; pengalaman rekonsiliasinya). Arunika: kemampuan rantai pasok dari lulusan manajemen (skripsi perputaran persediaan; urusan logistik sponsorship); kinerjanya dalam kelompok (belum ada bukti); apakah ia akan bertahan selama rotasi 18 bulan di Semarang dan Bekasi (bersedia ditempatkan di Jawa; obrolan dengan keluarganya). KilatPay: kemampuan mengolah data (pivot dan VLOOKUP di Excel; SQL baru modul 2 dari 6, diakui dengan jujur; belum pernah memakai Tableau, jadi jangan pernah mengaku bisa); kecepatan dan kebiasaan “mengukur semuanya” (angka hemat 30 menit per hari); ritme kerja startup (jam sibuk sebagai barista). Rumah Rempah: sikap dan keandalan dalam tim kecil (melatih empat barista; papan pesanan awal); apakah ia akan pindah ke perusahaan yang lebih besar dalam enam bulan (jawaban jujurnya, dan pertanyaan yang ia ajukan ke Bu Ratna)."
         },
         {
          "h": {
           "en": "The plan",
-          "id": "Rencana"
+          "id": "Rencananya"
          }
         },
         {
-         "en": "Day 1: decode the four invitations; write the four eligibility sentences (placement, bond, salary range, start date) and a 60-second opening draft. The screen is Tuesday and tests eligibility, not stories. Day 2: the screen; then the KilatPay case. Clarify the question and set a structure (Module 6), because it is the nearest hard deadline and a written work sample. Day 3: KilatPay analysis and one page; evening, camera and sound test. Day 4: send KilatPay; record the one-way video answers with a 30-second prep timer, one retake maximum (Lesson 4.5). Day 5: submit the video; Sunday block: mine and draft the Core 10 (Module 2). They serve every user round, so they start by day 5 even though no user interview is scheduled yet. Days 6–9: Core 10 to probe depth; Rumah Rempah research and two questions for Bu Ratna. Day 10: the lunch. Days 11–14: LGD practice (Module 7) before either assessment centre; technical five for KilatPay (Module 6); the difficult-case answer on GPA (Module 5). Not this fortnight: panel preparation (Module 8) and salary negotiation (Module 10), nothing reaches those stages within fourteen days.",
-         "id": "Hari 1: uraikan empat undangan; tulis empat kalimat kelayakan (penempatan, ikatan dinas, rentang gaji, tanggal mulai) dan draf pembuka 60 detik, seleksi hari Selasa dan menguji kelayakan, bukan cerita. Hari 2: seleksi; lalu kasus KilatPay, klarifikasi pertanyaan dan tetapkan struktur (Modul 6), karena tenggat keras terdekat dan contoh kerja tertulis. Hari 3: analisis KilatPay dan satu halaman; malam, uji kamera dan suara. Hari 4: kirim KilatPay; rekam jawaban video satu arah dengan pengatur waktu persiapan 30 detik, pengulangan maksimal satu (Pelajaran 4.5). Hari 5: kirim video; blok Minggu: tambang dan draf Core 10 (Modul 2). Melayani setiap ronde user, jadi dimulai sebelum hari 5 meski belum ada wawancara user terjadwal. Hari 6–9: Core 10 sampai kedalaman galian; riset Rumah Rempah dan dua pertanyaan untuk Bu Ratna. Hari 10: makan siang. Hari 11–14: latihan LGD (Modul 7) sebelum assessment center mana pun; lima teknis untuk KilatPay (Modul 6); jawaban kasus sulit tentang IPK (Modul 5). Tidak dua minggu ini: persiapan panel (Modul 8) dan negosiasi gaji (Modul 10); tidak ada yang mencapai tahap itu dalam empat belas hari."
+         "en": "Day 1: decode the four invitations; write the four eligibility sentences (placement, bond, salary range, start date) and a 60-second opening draft. The screen is Tuesday and tests eligibility, not stories. Day 2: the screen; then the KilatPay case. Clarify the question and set a structure (Module 6), because it is the nearest hard deadline and a written work sample. Day 3: KilatPay analysis and one page; evening, camera and sound test. Day 4: send KilatPay; record the one-way video answers with a 30-second prep timer, one retake maximum (Lesson 4.5). Day 5: submit the video, then start mining the Core 10 (Module 2), and use the long Sunday block (day 7) to draft them. They serve every user round, so they start in week one even though no user interview is scheduled yet. Days 6–9: Core 10 to probe depth; Rumah Rempah research and two questions for Bu Ratna. Day 10: the lunch. Days 11–14: LGD practice (Module 7) before either assessment centre; technical five for KilatPay (Module 6); the difficult-case answer on GPA (Module 5). Not this fortnight: panel preparation (Module 8) and salary negotiation (Module 10), nothing reaches those stages within fourteen days.",
+         "id": "Hari 1: bedah keempat undangan; tulis empat kalimat soal kelayakan (penempatan, ikatan dinas, kisaran gaji, tanggal mulai) dan draf perkenalan 60 detik. Wawancara telepon hari Selasa menguji kelayakan, bukan cerita. Hari 2: wawancara telepon; setelah itu mulai studi kasus KilatPay, perjelas pertanyaannya dan tentukan kerangkanya (Modul 6), karena tenggatnya paling dekat dan hasilnya berupa contoh kerja tertulis. Hari 3: analisis KilatPay dan tulis satu halamannya; malamnya, cek kamera dan suara. Hari 4: kirim studi kasus KilatPay; latih jawaban video satu arah dengan pengatur waktu persiapan 30 detik dan maksimal satu kali mengulang (Pelajaran 4.5). Hari 5: kirim videonya, lalu mulai menggali bahan Core 10 (Modul 2), dan pakai sesi panjang hari Minggu (hari 7) untuk menyusun drafnya. Cerita-cerita ini berguna di setiap wawancara user, jadi mulai dikerjakan di minggu pertama walaupun belum ada wawancara user yang terjadwal. Hari 6–9: perdalam Core 10 sampai siap digali; riset Rumah Rempah dan siapkan dua pertanyaan untuk Bu Ratna. Hari 10: makan siang. Hari 11–14: latihan LGD (Modul 7) sebelum assessment center mana pun; lima pertanyaan teknis untuk KilatPay (Modul 6); jawaban untuk pertanyaan sulit soal IPK (Modul 5). Tidak disiapkan dua minggu ini: persiapan panel (Modul 8) dan negosiasi gaji (Modul 10), karena belum ada proses yang sampai ke tahap itu dalam empat belas hari."
         },
         {
          "h": {
           "en": "The questions",
-          "id": "Pertanyaan"
+          "id": "Pertanyaannya"
          }
         },
         {
          "en": "To HR at the end of the screen: “Boleh saya tahu format LGD-nya, berapa orang per kelompok, dan apakah topiknya diberikan di tempat?” It changes how she practises Module 7. To Dewi, in the reply confirming the case: “Is there a preferred format, three slides or one page, and will Mr. Aditya be the reader?” It changes the deliverable and tells her who probes it. To Arunika, once, at the recruiting address: “Is the assessment centre in Bahasa Indonesia or English, and is the case individual or group?” It changes the language she rehearses in. To Wulan: “Apakah Bu Ratna ingin saya cerita soal pengalaman operasional, atau lebih ke kenalan dulu?” It tells her whether to bring the one-page story or only her manners. A question that fails: asking the bank whether placement is nationwide; the invitation already said so.",
-         "id": "Ke HR di akhir seleksi: “Boleh saya tahu format LGD-nya, berapa orang per kelompok, dan apakah topiknya diberikan di tempat?” Mengubah cara ia melatih Modul 7. Ke Dewi, dalam balasan mengonfirmasi kasus: “Is there a preferred format, three slides or one page, and will Mr. Aditya be the reader?” Mengubah hasil kerjanya dan memberitahu siapa yang menggalinya. Ke Arunika, sekali, ke alamat rekrutmen: “Is the assessment centre in Bahasa Indonesia or English, and is the case individual or group?” Mengubah bahasa yang ia latih. Ke Wulan: “Apakah Bu Ratna ingin saya cerita soal pengalaman operasional, atau lebih ke kenalan dulu?” Memberitahunya apakah membawa cerita satu halaman atau hanya tata kramanya. Pertanyaan yang gagal: menanyakan ke bank apakah penempatan nasional, undangan sudah mengatakannya."
+         "id": "Ke HR di akhir wawancara telepon: “Boleh saya tahu format LGD-nya, berapa orang per kelompok, dan apakah topiknya baru diberikan di tempat?” Jawabannya mengubah cara Nadia berlatih untuk Modul 7. Ke Dewi, di email balasan yang mengonfirmasi studi kasus: “Is there a preferred format, three slides or one page, and will Mr. Aditya be the reader?” Jawabannya menentukan bentuk hasil kerjanya dan memberi tahu siapa yang akan menggalinya. Ke Arunika, sekali saja, lewat alamat email rekrutmen: “Is the assessment centre in Bahasa Indonesia or English, and is the case individual or group?” Jawabannya menentukan bahasa yang perlu ia latih. Ke Wulan: “Apakah Bu Ratna ingin saya cerita soal pengalaman operasional, atau lebih ke kenalan dulu?” Jawabannya menentukan apakah Nadia perlu membawa cerita satu halaman atau cukup datang dengan sopan. Contoh pertanyaan yang keliru: menanyakan ke bank apakah penempatannya di seluruh Indonesia, padahal undangannya sudah menyebutkan itu."
         }
        ],
        "after": {
         "en": "Compare, do not copy. If your plan has no day marked for the Core 10, you have prepared for four processes and none of the user rounds. If your questions ask something the invitation already answered, re-read the invitations tab. If your own map has no “never practised” rows, look harder; the group discussion or the one-way video is usually there.",
-        "id": "Bandingkan, jangan salin. Jika rencanamu tidak punya hari untuk Core 10, kamu bersiap untuk empat proses dan tidak untuk satu pun ronde user. Jika pertanyaanmu menanyakan yang sudah dijawab undangan, baca ulang tab undangan. Jika petamu sendiri tidak punya baris “belum pernah dilatih”, lihat lebih teliti, diskusi kelompok atau video satu arah biasanya ada di sana."
+        "id": "Bandingkan, jangan menyalin. Kalau rencanamu tidak menyisihkan hari untuk Core 10, berarti kamu menyiapkan empat proses tetapi tidak siap untuk satu pun wawancara user. Kalau pertanyaanmu menanyakan hal yang sudah dijelaskan di undangan, baca lagi tab undangan. Kalau petamu sendiri tidak punya satu pun tahap yang “belum pernah dilatih”, periksa lagi. Biasanya diskusi kelompok atau video satu arah ada di sana."
        }
       },
       "submit": {
        "title": {
         "en": "Review & submit",
-        "id": "Tinjau & kumpulkan"
+        "id": "Periksa & kumpulkan"
        },
        "short": {
         "en": "Submit",
@@ -5964,19 +5964,19 @@ window.MT_LMS['the-rope'] = {
        },
        "lead": {
         "en": "Read your five answers as Rina would on Monday morning, with Nadia’s calendar open. Submitting locks them on this device, opens the model notes, and saves your format map as the first Kit item.",
-        "id": "Baca kelima jawabanmu seperti Rina pada Senin pagi, dengan kalender Nadia terbuka. Mengumpulkan menguncinya di perangkat ini, membuka catatan model, dan menyimpan peta formatmu sebagai butir Perangkat pertama."
+        "id": "Baca lagi kelima jawabanmu seperti Rina akan membacanya Senin pagi, dengan kalender Nadia terbuka di sebelahnya. Setelah dikumpulkan, jawabanmu terkunci di perangkat ini, contoh jawaban terbuka, dan peta formatmu tersimpan sebagai isi pertama Perangkat Wawancara."
        },
        "button": {
         "en": "Submit the case",
-        "id": "Kumpulkan kasus"
+        "id": "Kumpulkan tugas"
        },
        "doneTitle": {
         "en": "Case submitted",
-        "id": "Kasus terkumpul"
+        "id": "Tugas sudah dikumpulkan"
        },
        "doneBody": {
         "en": "Your answers are locked on this device. Compare with the model notes, then run Round 1 in the simulator, the diagnostic baseline, before you start Module 2.",
-        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan Putaran 1 di simulator, garis dasar diagnostik, sebelum memulai Modul 2."
+        "id": "Jawabanmu sudah terkunci di perangkat ini. Bandingkan dengan contoh jawaban, lalu jalankan Putaran 1 di simulator sebagai titik awalmu sebelum mulai Modul 2."
        }
       }
      },
@@ -5985,41 +5985,41 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Mapping the generic track instead of the invitation",
-         "id": "Memetakan jalur generik alih-alih undangan"
+         "id": "Memetakan pola umum, bukan isi undangan"
         },
         "fix": {
          "en": "The invitation names the stages; the table is only the pattern.",
-         "id": "Undangan menyebut tahapnya; tabel hanya polanya."
+         "id": "Undangan menyebutkan tahap yang sebenarnya; tabel hanya memberi gambaran pola."
         }
        },
        {
         "h": {
          "en": "Uncertainties that could be about any graduate",
-         "id": "Ketidakpastian yang bisa tentang lulusan mana pun"
+         "id": "Keraguan yang berlaku untuk lulusan mana saja"
         },
         "fix": {
          "en": "Draw each one from a line in her profile.",
-         "id": "Ambil masing-masing dari satu baris di profilnya."
+         "id": "Ambil setiap keraguan dari satu baris di profil Nadia."
         }
        },
        {
         "h": {
          "en": "A plan that prepares for all four equally",
-         "id": "Rencana yang menyiapkan keempatnya sama rata"
+         "id": "Rencana yang membagi waktu rata untuk keempatnya"
         },
         "fix": {
          "en": "Deadline first, reuse second; say what you leave out.",
-         "id": "Tenggat dulu, pemakaian ulang kedua; katakan yang kamu tinggalkan."
+         "id": "Dahulukan tenggat, lalu persiapan yang berguna untuk lebih dari satu proses. Sebutkan apa yang kamu tunda."
         }
        },
        {
         "h": {
          "en": "Questions the invitation already answered",
-         "id": "Pertanyaan yang sudah dijawab undangan"
+         "id": "Menanyakan hal yang sudah dijelaskan di undangan"
         },
         "fix": {
          "en": "Ask about the stage ahead, to the person who can answer.",
-         "id": "Tanyakan tahap berikutnya, ke orang yang bisa menjawab."
+         "id": "Tanyakan tentang tahap berikutnya, kepada orang yang bisa menjawabnya."
         }
        }
       ]
@@ -6032,27 +6032,27 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "The Kit item: every stage of every target, with owner, test, format, preparation and whether you have practised it.",
-        "id": "Butir Perangkat: setiap tahap dari setiap sasaran, dengan pemilik, ujian, format, persiapan, dan apakah kamu pernah melatihnya."
+        "id": "Isi Perangkat Wawancara: semua tahap di setiap sasaran, lengkap dengan pemegangnya, apa yang diuji, format, persiapan, dan apakah kamu pernah berlatih untuk tahap itu."
        }
       },
       {
        "term": {
         "en": "Uncertainty audit",
-        "id": "Audit ketidakpastian"
+        "id": "Mendata keraguan"
        },
        "def": {
         "en": "The three things a specific employer is unsure about in your specific case, each with evidence or “none yet”.",
-        "id": "Tiga hal yang tidak pasti bagi perusahaan tertentu dalam kasusmu, masing-masing dengan bukti atau “belum ada”."
+        "id": "Tiga hal yang membuat satu perusahaan tertentu ragu tentang dirimu, masing-masing dengan bukti atau “belum ada”."
        }
       },
       {
        "term": {
         "en": "Reuse",
-        "id": "Pemakaian ulang"
+        "id": "Kegunaan ganda"
        },
        "def": {
         "en": "Preparation that serves more than one process; the Core 10 stories serve every user round.",
-        "id": "Persiapan yang melayani lebih dari satu proses, cerita Core 10 melayani setiap ronde user."
+        "id": "Persiapan yang berguna untuk lebih dari satu proses. Contohnya, cerita Core 10 terpakai di setiap wawancara user."
        }
       },
       {
@@ -6062,7 +6062,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "The Rope’s equivalent of the Pack Dossier: one finished item per module, starting with this map.",
-        "id": "Padanan Dossier The Pack di The Rope: satu butir jadi per modul, dimulai dari peta ini."
+        "id": "Padanan Dossier The Pack di The Rope: satu hasil kerja jadi di setiap modul, dimulai dari peta ini."
        }
       }
      ],
@@ -6070,36 +6070,36 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "Nadia’s nearest hard deadline is the KilatPay case in four days, but her first scheduled contact is the bank screen on Tuesday. Day 1 goes to…",
-        "id": "Tenggat keras terdekat Nadia adalah kasus KilatPay dalam empat hari, tetapi kontak terjadwal pertamanya adalah seleksi bank hari Selasa. Hari 1 untuk…"
+        "id": "Tenggat pasti Nadia yang paling dekat adalah studi kasus KilatPay dalam empat hari, tetapi jadwal pertamanya adalah wawancara telepon dengan bank hari Selasa. Hari 1 sebaiknya dipakai untuk…"
        },
        "options": [
         {
          "en": "The KilatPay case: the deadline is hardest",
-         "id": "Kasus KilatPay: tenggatnya paling keras"
+         "id": "Studi kasus KilatPay, karena tenggatnya paling ketat"
         },
         {
          "en": "The four eligibility sentences and the invitations; the screen tests eligibility and is first",
-         "id": "Empat kalimat kelayakan dan undangan: seleksi menguji kelayakan dan datang lebih dulu"
+         "id": "Empat kalimat soal kelayakan dan membedah undangan, karena wawancara telepon menguji kelayakan dan datang paling awal"
         },
         {
          "en": "Core 10 stories: they serve everything",
-         "id": "Cerita Core 10: melayani semuanya"
+         "id": "Cerita Core 10, karena berguna di semua proses"
         },
         {
          "en": "LGD practice: she has never done one",
-         "id": "Latihan LGD: ia belum pernah"
+         "id": "Latihan LGD, karena ia belum pernah mencobanya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Order by the nearest event and what it tests; the screen needs four truthful sentences, not a case or a story.",
-        "id": "Urutkan berdasarkan acara terdekat dan apa yang diujinya; seleksi butuh empat kalimat jujur, bukan kasus atau cerita."
+        "id": "Urutkan berdasarkan jadwal terdekat dan apa yang diuji di sana. Wawancara telepon itu butuh empat kalimat jujur, bukan studi kasus atau cerita."
        }
       },
       {
        "q": {
         "en": "Which uncertainty is employer-specific rather than generic?",
-        "id": "Ketidakpastian mana yang khas perusahaan, bukan generik?"
+        "id": "Keraguan mana yang khas untuk satu perusahaan, bukan keraguan umum?"
        },
        "options": [
         {
@@ -6108,11 +6108,11 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "“Will she accept placement outside Java for a two-year bond?” For the bank",
-         "id": "“Apakah ia menerima penempatan di luar Jawa dengan ikatan dinas dua tahun?” Untuk bank"
+         "id": "“Apakah ia mau ditempatkan di luar Jawa dengan ikatan dinas dua tahun?” bagi bank"
         },
         {
          "en": "“Is she a team player?”",
-         "id": "“Apakah ia pemain tim?”"
+         "id": "“Apakah ia bisa bekerja dalam tim?”"
         },
         {
          "en": "“Is she confident?”",
@@ -6122,13 +6122,13 @@ window.MT_LMS['the-rope'] = {
        "correct": 1,
        "why": {
         "en": "It comes from the invitation and her profile (“has not yet decided about placement”), and it needs a truthful answer, not a story.",
-        "id": "Berasal dari undangan dan profilnya (“belum memutuskan soal penempatan”), dan butuh jawaban jujur, bukan cerita."
+        "id": "Keraguan ini muncul dari undangan dan profilnya (“belum memutuskan soal penempatan di luar Jawa”), dan yang dibutuhkan adalah jawaban jujur, bukan cerita."
        }
       },
       {
        "q": {
         "en": "The best question to Wulan before the Rumah Rempah lunch is…",
-        "id": "Pertanyaan terbaik ke Wulan sebelum makan siang Rumah Rempah adalah…"
+        "id": "Pertanyaan terbaik untuk Wulan sebelum makan siang di Rumah Rempah adalah…"
        },
        "options": [
         {
@@ -6145,13 +6145,13 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "No question: it is informal",
-         "id": "Tanpa pertanyaan: ini informal"
+         "id": "Tidak perlu bertanya, ini acara santai"
         }
        ],
        "correct": 1,
        "why": {
         "en": "It is answerable by Wulan, in register, not already answered, and it changes what Nadia brings.",
-        "id": "Bisa dijawab Wulan, dalam register, belum terjawab, dan mengubah apa yang dibawa Nadia."
+        "id": "Wulan bisa menjawabnya, nadanya pas, belum dijelaskan di undangan, dan jawabannya menentukan apa yang perlu Nadia bawa."
        }
       }
      ],
@@ -6170,11 +6170,11 @@ window.MT_LMS['the-rope'] = {
       "returnTo": 1,
       "label": {
        "en": "Round 1 · Diagnostic session (baseline)",
-       "id": "Putaran 1 · Sesi diagnostik (garis dasar)"
+       "id": "Putaran 1 · Sesi diagnostik (titik awalmu)"
       },
       "desc": {
        "en": "Six questions, an opening, two behavioural, one motivational, one difficult, one closing, at standard difficulty. Do not prepare specially. The scores become your baseline; Module 9 compares every later session to it.",
-       "id": "Enam pertanyaan, pembuka, dua perilaku, satu motivasional, satu sulit, satu penutup, pada tingkat standar. Jangan bersiap khusus. Skornya menjadi garis dasarmu; Modul 9 membandingkan setiap sesi berikutnya dengannya."
+       "id": "Enam pertanyaan dengan tingkat kesulitan standar: satu pembuka, dua pertanyaan perilaku, satu motivasi, satu pertanyaan sulit, dan satu penutup. Tidak perlu persiapan khusus. Skornya menjadi titik awalmu, dan Modul 9 akan membandingkan setiap sesi berikutnya dengan angka ini."
       }
      },
      "tool": {
@@ -6182,11 +6182,11 @@ window.MT_LMS['the-rope'] = {
       "mode": "history",
       "title": {
        "en": "Your baseline, on record",
-       "id": "Garis dasarmu, tercatat"
+       "id": "Catat titik awalmu"
       },
       "body": {
        "en": "After Round 1, open the session history and note three numbers for the Kit: your content, structure and communication scores. Module 9’s improvement log starts from them. If you skipped Round 1, run it now; a baseline you did not measure cannot show improvement later.",
-       "id": "Setelah Putaran 1, buka riwayat sesi dan catat tiga angka untuk Perangkat: skor isi, struktur, dan komunikasimu. Catatan perbaikan Modul 9 dimulai darinya. Jika kamu melewatkan Putaran 1, jalankan sekarang; garis dasar yang tidak diukur tidak bisa menunjukkan perbaikan nanti."
+       "id": "Setelah Putaran 1, buka riwayat sesi dan catat tiga skormu untuk Perangkat Wawancara: isi, struktur, dan komunikasi. Catatan perkembangan di Modul 9 berangkat dari angka-angka ini. Kalau kamu melewatkan Putaran 1, jalankan sekarang. Tanpa titik awal, kamu tidak akan bisa melihat seberapa jauh kemajuanmu nanti."
       },
       "cta": {
        "en": "Open session history →",
@@ -6196,15 +6196,15 @@ window.MT_LMS['the-rope'] = {
      "takeaways": [
       {
        "en": "Map the invitation, not the generic track; every stage names a test.",
-       "id": "Petakan undangannya, bukan jalur generik; setiap tahap menyebut ujian."
+       "id": "Petakan isi undangan, bukan pola umumnya. Setiap tahap menguji sesuatu."
       },
       {
        "en": "Order preparation by the nearest deadline, then by reuse, and say what you leave out.",
-       "id": "Urutkan persiapan berdasarkan tenggat terdekat, lalu pemakaian ulang, dan katakan yang kamu tinggalkan."
+       "id": "Urutkan persiapan berdasarkan tenggat terdekat, lalu kegunaannya untuk lebih dari satu proses, dan sebutkan apa yang kamu tunda."
       },
       {
        "en": "Your format map is the first Kit item; Round 1 is the baseline everything is measured against.",
-       "id": "Peta formatmu adalah butir Perangkat pertama; Putaran 1 adalah garis dasar tempat semuanya diukur."
+       "id": "Peta formatmu adalah isi pertama Perangkat Wawancara. Putaran 1 menjadi titik awal untuk mengukur semua kemajuanmu."
       }
      ],
      "journey": {
@@ -6215,7 +6215,7 @@ window.MT_LMS['the-rope'] = {
        },
        "desc": {
         "en": "What the interviewer decides, how answers are scored, the seven types and hidden concerns, the local stages.",
-        "id": "Apa yang diputuskan pewawancara, bagaimana jawaban dinilai, tujuh tipe dan kekhawatiran tersembunyi, tahap-tahap lokal."
+        "id": "Apa yang diputuskan pewawancara, bagaimana jawaban dinilai, tujuh jenis pertanyaan dan kekhawatiran tersembunyi, serta tahap seleksi di Indonesia."
        }
       },
       "now": {
@@ -6225,7 +6225,7 @@ window.MT_LMS['the-rope'] = {
        },
        "desc": {
         "en": "You have mapped four processes, audited the uncertainties, planned two weeks, written four questions and built your own format map.",
-        "id": "Kamu sudah memetakan empat proses, mengaudit ketidakpastian, merencanakan dua minggu, menulis empat pertanyaan, dan membangun peta formatmu sendiri."
+        "id": "Kamu sudah memetakan empat proses, mendata keraguan tiap perusahaan, menyusun rencana dua minggu, menulis empat pertanyaan, dan membuat peta formatmu sendiri."
        }
       },
       "next": {
@@ -6235,7 +6235,7 @@ window.MT_LMS['the-rope'] = {
        },
        "desc": {
         "en": "Ten real stories, each prepared to survive three levels of follow-up; the evidence every stage on your map will ask for.",
-        "id": "Sepuluh cerita nyata, masing-masing disiapkan untuk bertahan tiga tingkat pertanyaan lanjutan; bukti yang akan diminta setiap tahap di petamu."
+        "id": "Sepuluh cerita nyata, masing-masing disiapkan agar tetap kuat saat digali sampai tiga lapis pertanyaan lanjutan. Inilah bukti yang akan diminta di setiap tahap pada petamu."
        },
        "lesson": "2.1"
       }
@@ -6252,15 +6252,15 @@ window.MT_LMS['the-rope'] = {
    },
    "overview": {
     "en": "Interviewers get past rehearsed answers with follow-up questions, and a story that was exaggerated or borrowed collapses on the second probe. This module builds a bank of ten real stories in STAR+L form, each tagged to competencies and prepared to survive three levels of follow-up, and teaches you to retell any of them at three lengths and from different angles. Ten, not thirty: the research consensus and a fresh graduate’s history both point to a small bank prepared deeply.",
-    "id": "Pewawancara menembus jawaban hafalan dengan pertanyaan lanjutan, dan cerita yang dilebih-lebihkan atau dipinjam runtuh pada galian kedua. Modul ini membangun bank sepuluh cerita nyata dalam bentuk STAR+L, masing-masing ditandai kompetensi dan disiapkan untuk bertahan tiga tingkat pertanyaan lanjutan, dan mengajarimu menceritakannya kembali dalam tiga panjang dan dari sudut berbeda. Sepuluh, bukan tiga puluh: konsensus riset dan riwayat lulusan baru sama-sama menunjuk ke bank kecil yang disiapkan mendalam."
+    "id": "Pewawancara bisa menembus jawaban hafalan lewat pertanyaan lanjutan, dan cerita yang dilebih-lebihkan atau dipinjam biasanya runtuh di galian kedua. Di modul ini, kamu akan membangun bank berisi sepuluh cerita nyata dalam format STAR+L. Setiap cerita ditandai sesuai kompetensinya dan disiapkan agar tetap kuat saat digali sampai tiga lapis pertanyaan lanjutan. Kamu juga akan belajar menceritakan ulang cerita mana pun dalam tiga versi panjang dan dari sudut yang berbeda. Kenapa sepuluh, bukan tiga puluh? Para peneliti sepakat, dan pengalaman seorang lulusan baru juga menunjukkan, bahwa bank cerita yang kecil tetapi disiapkan matang jauh lebih berguna."
    },
    "outcome": {
     "en": "By the end of this module you have a bank of ten real, tagged stories in STAR+L format, each prepared to survive three levels of follow-up questioning, and can retell any of them at three lengths (20 seconds, 60–90 seconds, 3 minutes) and adapt it to different competency questions.",
-    "id": "Di akhir modul ini kamu punya bank sepuluh cerita nyata bertanda dalam format STAR+L, masing-masing disiapkan untuk bertahan tiga tingkat pertanyaan lanjutan, dan bisa menceritakan kembali salah satunya dalam tiga panjang (20 detik, 60–90 detik, 3 menit) dan menyesuaikannya dengan pertanyaan kompetensi berbeda."
+    "id": "Di akhir modul ini, kamu punya bank berisi sepuluh cerita nyata dalam format STAR+L yang sudah ditandai sesuai kompetensinya. Setiap cerita disiapkan agar tetap kuat saat digali sampai tiga lapis pertanyaan lanjutan, dan bisa kamu ceritakan dalam tiga versi panjang (20 detik, 60–90 detik, 3 menit) serta disesuaikan dengan berbagai pertanyaan kompetensi."
    },
    "kit": {
     "en": "Core 10 story bank (STAR+L, tagged, each with 3 prepared follow-ups)",
-    "id": "Bank cerita Core 10 (STAR+L, bertanda, masing-masing dengan 3 pertanyaan lanjutan yang disiapkan)"
+    "id": "Bank cerita Core 10 (STAR+L, ditandai sesuai kompetensi, masing-masing dengan 3 pertanyaan lanjutan yang sudah disiapkan)"
    },
    "lessons": [
     {
@@ -6269,28 +6269,28 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "40 min",
-      "id": "40 mnt"
+      "id": "40 menit"
      },
      "title": {
       "en": "Mining Your Stories: Where Evidence Hides",
-      "id": "Menggali Cerita: Di Mana Bukti Tersembunyi"
+      "id": "Menggali Cerita: Bukti yang Tersembunyi"
      },
      "overview": {
       "en": "“Saya belum punya pengalaman” is the most common thing fresh graduates say about themselves, and it is almost never true. What is missing is not experience but <i>recognised</i> evidence. Organisations, part-time jobs, coursework, family responsibilities, volunteering, a thesis, a failed side project. All contain the situations interviewers ask about: pressure, conflict, failure, initiative, persuasion, learning fast. This lesson is a structured dig: five prompts that produce twenty-five raw candidates, a filter, and a coverage grid that turns them into a Core 10.",
-      "id": "“Saya belum punya pengalaman” adalah hal yang paling sering dikatakan lulusan baru tentang dirinya, dan hampir tidak pernah benar. Yang kurang bukan pengalaman melainkan bukti yang <i>dikenali</i>. Organisasi, kerja paruh waktu, tugas kuliah, tanggung jawab keluarga, kerja sukarela, skripsi, proyek sampingan yang gagal. Semuanya berisi situasi yang ditanyakan pewawancara: tekanan, konflik, kegagalan, inisiatif, persuasi, belajar cepat. Pelajaran ini adalah penggalian terstruktur: lima pemicu yang menghasilkan dua puluh lima kandidat mentah, sebuah saringan, dan kisi cakupan yang mengubahnya menjadi Core 10."
+      "id": "“Saya belum punya pengalaman” adalah kalimat yang paling sering diucapkan lulusan baru tentang dirinya, padahal hampir selalu keliru. Yang kurang bukan pengalaman, melainkan bukti yang <i>disadari</i>. Organisasi, kerja paruh waktu, tugas kuliah, tanggung jawab di rumah, kegiatan sukarela, skripsi, bahkan proyek sampingan yang gagal: semuanya menyimpan situasi yang ditanyakan pewawancara, seperti tekanan, konflik, kegagalan, inisiatif, meyakinkan orang lain, dan belajar dengan cepat. Pelajaran ini mengajakmu menggali secara teratur: lima pertanyaan pemancing yang menghasilkan dua puluh lima calon cerita, satu saringan, dan satu kisi cakupan yang menyusutkannya menjadi Core 10."
      },
      "objectives": [
       {
        "en": "Use five mining prompts to generate at least 25 raw story candidates.",
-       "id": "Memakai lima pemicu penggalian untuk menghasilkan setidaknya 25 kandidat cerita mentah."
+       "id": "Memakai lima pertanyaan pemancing untuk mengumpulkan setidaknya 25 calon cerita mentah."
       },
       {
        "en": "Recognise “small” stories that are strong evidence (and “big” ones that are weak).",
-       "id": "Mengenali cerita “kecil” yang menjadi bukti kuat (dan cerita “besar” yang lemah)."
+       "id": "Mengenali cerita “kecil” yang justru menjadi bukti kuat (dan cerita “besar” yang ternyata lemah)."
       },
       {
        "en": "Select the ten that cover the competencies your targets test most.",
-       "id": "Memilih sepuluh yang mencakup kompetensi yang paling sering diuji sasaranmu."
+       "id": "Memilih sepuluh cerita yang mencakup kompetensi paling sering diuji oleh perusahaan sasaranmu."
       }
      ],
      "readFirst": {
@@ -6304,17 +6304,17 @@ window.MT_LMS['the-rope'] = {
         "n": "2.1",
         "title": {
          "en": "Mining Your Stories: Where Evidence Hides",
-         "id": "Menggali Cerita: Di Mana Bukti Tersembunyi"
+         "id": "Menggali Cerita: Bukti yang Tersembunyi"
         }
        },
        "story": [
         {
          "en": "Interviewers listen for behaviours that transfer; a kitchen shift holds the same situations as an internship",
-         "id": "Pewawancara mencari perilaku yang bisa dipindahkan; shift dapur menyimpan situasi yang sama dengan magang"
+         "id": "Pewawancara mencari perilaku yang bisa dibawa ke pekerjaan; satu sif di dapur menyimpan situasi yang sama dengan magang"
         },
         {
          "en": "Run five prompts over every experience, on your CV and off it",
-         "id": "Jalankan lima pemicu atas setiap pengalaman, yang ada di CV maupun yang tidak"
+         "id": "Ajukan lima pertanyaan pemancing untuk setiap pengalaman, yang tercantum di CV maupun yang tidak"
         },
         {
          "en": "Interviewers score the behaviour, not the size of the title",
@@ -6322,7 +6322,7 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "Ten stories covering two or three slots each answer forty-plus questions",
-         "id": "Sepuluh cerita yang masing-masing mengisi dua atau tiga slot menjawab empat puluh lebih pertanyaan"
+         "id": "Sepuluh cerita yang masing-masing mengisi dua atau tiga slot bisa menjawab lebih dari empat puluh pertanyaan"
         }
        ],
        "takes": [
@@ -6333,17 +6333,17 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "A kitchen shift, a community-service project and a group assignment contain the same situations as an internship.",
-          "id": "Sif dapur, proyek KKN, dan tugas kelompok berisi situasi yang sama dengan magang."
+          "id": "Satu sif di dapur, proyek KKN, dan tugas kelompok menyimpan situasi yang sama dengan magang."
          }
         },
         {
          "h": {
           "en": "Five mining prompts",
-          "id": "Lima pemicu penggalian"
+          "id": "Lima pertanyaan pemancing"
          },
          "p": {
           "en": "Run all five over every experience on your CV, and the ones that are not on it.",
-          "id": "Jalankan kelimanya pada setiap pengalaman di CV-mu, dan yang tidak ada di dalamnya."
+          "id": "Ajukan kelimanya untuk setiap pengalaman di CV-mu, juga yang tidak tercantum di sana."
          }
         },
         {
@@ -6372,7 +6372,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Interviewers listen for behaviours that transfer; a kitchen shift holds the same situations as an internship",
-          "id": "Pewawancara mencari perilaku yang bisa dipindahkan; shift dapur menyimpan situasi yang sama dengan magang"
+          "id": "Pewawancara mencari perilaku yang bisa dibawa ke pekerjaan; satu sif di dapur menyimpan situasi yang sama dengan magang"
          },
          "img": "../../assets/bg/stage-execution.jpg",
          "layout": "statement",
@@ -6380,24 +6380,24 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "refresh",
            "en": "Interviewers for entry-level roles are listening for behaviours that transfer, not managerial achievements.",
-           "id": "Pewawancara peran awal mendengarkan perilaku yang bisa ditransfer, bukan pencapaian manajerial."
+           "id": "Untuk posisi level awal, pewawancara mencari perilaku yang bisa dibawa ke pekerjaan, bukan pencapaian setingkat manajer."
           }
          ],
          "take": {
           "en": "A kitchen shift, a community-service project and a group assignment contain the same situations as an internship.",
-          "id": "Sif dapur, proyek KKN, dan tugas kelompok berisi situasi yang sama dengan magang."
+          "id": "Satu sif di dapur, proyek KKN, dan tugas kelompok menyimpan situasi yang sama dengan magang."
          },
          "medal": "refresh",
          "em": {
           "en": "a kitchen shift holds the same situations as an internship",
-          "id": "shift dapur menyimpan situasi yang sama dengan magang"
+          "id": "satu sif di dapur menyimpan situasi yang sama dengan magang"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Run five prompts over every experience, on your CV and off it",
-          "id": "Jalankan lima pemicu atas setiap pengalaman, yang ada di CV maupun yang tidak"
+          "id": "Ajukan lima pertanyaan pemancing untuk setiap pengalaman, yang tercantum di CV maupun yang tidak"
          },
          "layout": "grid",
          "items": [
@@ -6414,10 +6414,10 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "bolt",
            "en": "Friction",
-           "id": "Gesekan",
+           "id": "Masalah",
            "d": {
             "en": "A disagreement, a difficult person, a clash of priorities.",
-            "id": "Perselisihan, orang yang sulit, benturan prioritas."
+            "id": "Beda pendapat, orang yang sulit, prioritas yang bertabrakan."
            },
            "img": "../../assets/bg/two-different-muscles.jpg"
           },
@@ -6427,38 +6427,38 @@ window.MT_LMS['the-rope'] = {
            "id": "Perbaikan",
            "d": {
             "en": "Something broken that you repaired or improved.",
-            "id": "Sesuatu yang rusak yang kamu perbaiki atau tingkatkan."
+            "id": "Sesuatu yang bermasalah lalu kamu perbaiki atau tingkatkan."
            },
            "img": "../../assets/pe/ed-writing.jpg"
           },
           {
            "icon": "key",
            "en": "Trust",
-           "id": "Kepercayaan",
+           "id": "Dipercaya",
            "d": {
             "en": "Money, keys, data or a decision handed to you.",
-            "id": "Uang, kunci, data, atau keputusan yang diserahkan padamu."
+            "id": "Uang, kunci, data, atau keputusan yang dititipkan padamu."
            },
            "img": "../../assets/bg/negotiation.jpg"
           },
           {
            "icon": "mountain",
            "en": "Stretch",
-           "id": "Regangan",
+           "id": "Belajar kilat",
            "d": {
             "en": "Work beyond your level, done anyway.",
-            "id": "Pekerjaan di atas levelmu, tetap kamu kerjakan."
+            "id": "Pekerjaan di atas levelmu yang tetap kamu selesaikan."
            },
            "img": "../../assets/bg/mp-stage-impact.jpg"
           }
          ],
          "take": {
           "en": "Run all five over every experience on your CV, and the ones that are not on it.",
-          "id": "Jalankan kelimanya pada setiap pengalaman di CV-mu, dan yang tidak ada di dalamnya."
+          "id": "Ajukan kelimanya untuk setiap pengalaman di CV-mu, juga yang tidak tercantum di sana."
          },
          "em": {
           "en": "on your CV and off it",
-          "id": "yang ada di CV maupun yang tidak"
+          "id": "yang tercantum di CV maupun yang tidak"
          }
         },
         {
@@ -6473,17 +6473,17 @@ window.MT_LMS['the-rope'] = {
            "icon": "check",
            "l": {
             "en": "Wins",
-            "id": "Menang"
+            "id": "Lebih kuat"
            },
            "en": "“I put the sponsor tracking in one sheet.”",
-           "id": "“Saya menyatukan pelacakan sponsor dalam satu lembar.”",
+           "id": "“Saya menyatukan data sponsor dalam satu lembar kerja.”",
            "img": "../../assets/bg/ep-stage-architecture.jpg"
           },
           {
            "icon": "x",
            "l": {
             "en": "Loses",
-            "id": "Kalah"
+            "id": "Lebih lemah"
            },
            "en": "“I was chairperson.”",
            "id": "“Saya ketua.”",
@@ -6503,7 +6503,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Ten stories covering two or three slots each answer forty-plus questions",
-          "id": "Sepuluh cerita yang masing-masing mengisi dua atau tiga slot menjawab empat puluh lebih pertanyaan"
+          "id": "Sepuluh cerita yang masing-masing mengisi dua atau tiga slot bisa menjawab lebih dari empat puluh pertanyaan"
          },
          "layout": "grid",
          "items": [
@@ -6513,7 +6513,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Pencapaian",
            "d": {
             "en": "A result you can put a number on.",
-            "id": "Hasil yang bisa kamu beri angka."
+            "id": "Hasil yang bisa kamu sebutkan angkanya."
            },
            "img": "../../assets/pe/ed-startup.jpg"
           },
@@ -6523,7 +6523,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Kerja tim",
            "d": {
             "en": "Your part in something several people built.",
-            "id": "Bagianmu dalam sesuatu yang dibangun beberapa orang."
+            "id": "Peranmu dalam sesuatu yang dibangun bersama beberapa orang."
            },
            "img": "../../assets/pe/th-stakeholders.jpg"
           },
@@ -6533,7 +6533,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Konflik",
            "d": {
             "en": "A disagreement you worked through, not around.",
-            "id": "Perselisihan yang kamu selesaikan, bukan kamu hindari."
+            "id": "Beda pendapat yang kamu hadapi dan selesaikan, bukan kamu hindari."
            },
            "img": "../../assets/pe/ed-conversations.jpg"
           },
@@ -6543,7 +6543,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Kegagalan",
            "d": {
             "en": "Something that went wrong, and what you did next.",
-            "id": "Sesuatu yang salah, dan apa yang kamu lakukan setelahnya."
+            "id": "Sesuatu yang gagal, dan apa yang kamu lakukan sesudahnya."
            },
            "img": "../../assets/bg/fg-sprint-direction.jpg"
           },
@@ -6553,7 +6553,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Tekanan",
            "d": {
             "en": "A deadline or a crisis, and how you held.",
-            "id": "Tenggat atau krisis, dan bagaimana kamu bertahan."
+            "id": "Tenggat atau krisis, dan bagaimana kamu tetap bertahan."
            },
            "img": "../../assets/bg/fg-stage-ascent.jpg"
           },
@@ -6563,7 +6563,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Inisiatif",
            "d": {
             "en": "Something started without being asked.",
-            "id": "Sesuatu yang dimulai tanpa diminta."
+            "id": "Sesuatu yang kamu mulai tanpa disuruh."
            },
            "img": "../../assets/m/04-basecamp.jpg"
           },
@@ -6573,7 +6573,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Kepemimpinan",
            "d": {
             "en": "People who moved because you moved them.",
-            "id": "Orang yang bergerak karena kamu menggerakkan mereka."
+            "id": "Orang-orang yang bergerak karena kamu menggerakkan mereka."
            },
            "img": "../../assets/pe/ed-ladder.jpg"
           },
@@ -6583,7 +6583,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Belajar",
            "d": {
             "en": "A skill picked up fast, under real conditions.",
-            "id": "Keterampilan yang dikuasai cepat dalam kondisi nyata."
+            "id": "Keterampilan yang cepat kamu kuasai dalam situasi nyata."
            },
            "img": "../../assets/bg/ep-stage-acceleration.jpg"
           },
@@ -6603,7 +6603,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Integritas",
            "d": {
             "en": "A moment the easy option was the wrong one.",
-            "id": "Momen ketika pilihan mudah adalah pilihan yang salah."
+            "id": "Saat pilihan yang mudah justru pilihan yang salah."
            },
            "img": "../../assets/bg/portal.jpg"
           }
@@ -6612,13 +6612,9 @@ window.MT_LMS['the-rope'] = {
           "en": "Each story covers two or three; ten stories answer forty-plus questions.",
           "id": "Setiap cerita mencakup dua atau tiga; sepuluh cerita menjawab empat puluh pertanyaan lebih."
          },
-         "lead": {
-          "en": "Ten slots: achievement, teamwork, conflict, failure, pressure, initiative, leadership, learning, service, integrity.",
-          "id": "Sepuluh slot: pencapaian, kerja tim, konflik, kegagalan, tekanan, inisiatif, kepemimpinan, belajar, layanan, integritas."
-         },
          "em": {
           "en": "forty-plus questions",
-          "id": "empat puluh lebih pertanyaan"
+          "id": "lebih dari empat puluh pertanyaan"
          }
         }
        ]
@@ -6633,7 +6629,7 @@ window.MT_LMS['the-rope'] = {
       },
       "intro": {
        "en": "The Pack’s Evidence Pantry is your starting pile. This lesson digs it again with the interviewer’s questions in mind.",
-       "id": "Lemari Bukti dari The Pack adalah tumpukan awalmu. Pelajaran ini menggalinya lagi dengan pertanyaan pewawancara dalam pikiran."
+       "id": "Lemari Bukti dari The Pack adalah bahan awalmu. Di pelajaran ini, kamu menggalinya lagi sambil membayangkan pertanyaan pewawancara."
       },
       "slides": [
        {
@@ -6644,27 +6640,27 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Interviewers for entry-level roles are listening for behaviours that transfer, not managerial achievements.",
-          "id": "Pewawancara peran awal mendengarkan perilaku yang bisa ditransfer, bukan pencapaian manajerial."
+          "id": "Untuk posisi level awal, pewawancara mencari perilaku yang bisa dibawa ke pekerjaan, bukan pencapaian setingkat manajer."
          },
          {
           "en": "A kitchen shift, a community-service project and a group assignment contain the same situations as an internship.",
-          "id": "Sif dapur, proyek KKN, dan tugas kelompok berisi situasi yang sama dengan magang."
+          "id": "Satu sif di dapur, proyek KKN, dan tugas kelompok menyimpan situasi yang sama dengan magang."
          }
         ]
        },
        {
         "h": {
          "en": "Five mining prompts",
-         "id": "Lima pemicu penggalian"
+         "id": "Lima pertanyaan pemancing"
         },
         "points": [
          {
           "en": "Firsts · Friction · Fixes · Trust · Stretch.",
-          "id": "Pertama kali · Gesekan · Perbaikan · Kepercayaan · Regangan."
+          "id": "Pertama kali · Masalah · Perbaikan · Dipercaya · Belajar kilat."
          },
          {
           "en": "Run all five over every experience on your CV, and the ones that are not on it.",
-          "id": "Jalankan kelimanya pada setiap pengalaman di CV-mu, dan yang tidak ada di dalamnya."
+          "id": "Ajukan kelimanya untuk setiap pengalaman di CV-mu, juga yang tidak tercantum di sana."
          }
         ]
        },
@@ -6676,11 +6672,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Interviewers score the behaviour, not the size of the title.",
-          "id": "Pewawancara menilai perilakunya, bukan ukuran jabatannya."
+          "id": "Pewawancara menilai perilakunya, bukan besarnya jabatan."
          },
          {
           "en": "“I put the sponsor tracking in one sheet” beats “I was chairperson”.",
-          "id": "“Saya menyatukan pelacakan sponsor dalam satu lembar” mengalahkan “Saya ketua”."
+          "id": "“Saya menyatukan data sponsor dalam satu lembar kerja” lebih kuat daripada “Saya ketua”."
          }
         ]
        },
@@ -6696,7 +6692,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Each story covers two or three; ten stories answer forty-plus questions.",
-          "id": "Setiap cerita mencakup dua atau tiga; sepuluh cerita menjawab empat puluh pertanyaan lebih."
+          "id": "Satu cerita biasanya mengisi dua atau tiga slot. Sepuluh cerita bisa menjawab lebih dari empat puluh pertanyaan."
          }
         ]
        }
@@ -6709,28 +6705,28 @@ window.MT_LMS['the-rope'] = {
        "imgPos": "50% 40%",
        "h": {
         "en": "Evidence you already have",
-        "id": "Bukti yang sudah kamu punya"
+        "id": "Bukti yang sebenarnya sudah kamu punya"
        },
        "body": {
         "en": "Interviewers for entry-level roles do not expect managerial achievements. They are listening for <i>behaviours</i> that transfer: taking initiative without being asked, persisting after a setback, handling a difficult person, learning something quickly, organising others, being trusted with money or information, admitting a mistake. These show up in a kitchen shift, a community-service village project or a group assignment as much as in an internship, and Kador’s interviewer guide makes the point from the other side of the table: the question is designed to find the behaviour, and the interviewer does not care where it happened <i>(Kador, The Manager’s Book of Questions)</i>. The Pack’s Evidence Pantry (Pack Module 3) is your starting pile. Import it, then dig again, because the pantry was built for a CV (achievements with numbers) and the Story Bank needs situations (friction, choices, what happened next). Many of your best interview stories were left out of the CV precisely because they did not look like achievements.",
-        "id": "Pewawancara peran awal tidak mengharapkan pencapaian manajerial. Mereka mendengarkan <i>perilaku</i> yang bisa ditransfer: mengambil inisiatif tanpa diminta, bertahan setelah kemunduran, menangani orang sulit, belajar sesuatu dengan cepat, mengorganisasi orang lain, dipercaya memegang uang atau informasi, mengakui kesalahan. Semua itu muncul di sif dapur, proyek desa KKN, atau tugas kelompok sebanyak di magang, dan panduan pewawancara Kador menegaskan dari seberang meja: pertanyaan dirancang untuk menemukan perilakunya, dan pewawancara tidak peduli di mana itu terjadi <i>(Kador, The Manager’s Book of Questions)</i>. Lemari Bukti dari The Pack (Modul 3 The Pack) adalah tumpukan awalmu. Impor, lalu gali lagi, karena lemari dibangun untuk CV (pencapaian dengan angka) dan Bank Cerita butuh situasi (gesekan, pilihan, apa yang terjadi berikutnya). Banyak cerita wawancara terbaikmu justru ditinggalkan dari CV karena tidak tampak seperti pencapaian."
+        "id": "Untuk posisi level awal, pewawancara tidak menunggu pencapaian setingkat manajer. Yang mereka cari adalah <i>perilaku</i> yang bisa dibawa ke pekerjaan: mengambil inisiatif tanpa disuruh, bangkit setelah gagal, menghadapi orang yang sulit, cepat mempelajari hal baru, menggerakkan orang lain, dipercaya memegang uang atau data, dan berani mengakui kesalahan. Perilaku ini bisa muncul di sif dapur, proyek desa saat KKN, atau tugas kelompok, sama seperti di tempat magang. Panduan pewawancara karya Kador menegaskan hal ini dari sisi seberang meja: pertanyaannya dirancang untuk menemukan perilaku, dan pewawancara tidak peduli di mana perilaku itu terjadi <i>(Kador, The Manager’s Book of Questions)</i>. Lemari Bukti dari The Pack (Modul 3) adalah bahan awalmu. Bawa isinya ke sini, lalu gali lagi. Lemari itu disusun untuk CV, jadi isinya pencapaian berangka, sedangkan Bank Cerita membutuhkan situasi: ada masalah, ada pilihan, ada kelanjutannya. Banyak cerita wawancara terbaikmu justru tidak masuk CV, karena dulu tidak terlihat seperti pencapaian."
        }
       },
       {
        "icon": "compass",
        "h": {
         "en": "Five mining prompts",
-        "id": "Lima pemicu penggalian"
+        "id": "Lima pertanyaan pemancing"
        },
        "body": {
         "en": "Work through each prompt for every experience on your CV and outside it. Write one line per candidate, where, when, what happened, and do not judge yet; judging is the next section’s job. Twenty-five is the floor because the filter will remove half.",
-        "id": "Jalankan tiap pemicu untuk setiap pengalaman di CV-mu dan di luarnya. Tulis satu baris per kandidat, di mana, kapan, apa yang terjadi, dan jangan menilai dulu; menilai adalah tugas bagian berikutnya. Dua puluh lima adalah batas bawah karena saringan akan membuang separuhnya."
+        "id": "Ajukan setiap pertanyaan untuk semua pengalamanmu, baik yang ada di CV maupun yang tidak. Tulis satu baris untuk tiap calon cerita: di mana, kapan, apa yang terjadi. Jangan menilai dulu, karena itu tugas bagian berikutnya. Targetkan minimal dua puluh lima baris, sebab saringan nanti akan membuang sekitar separuhnya."
        },
        "table": {
         "cols": [
          {
           "en": "Prompt",
-          "id": "Pemicu"
+          "id": "Pemancing"
          },
          {
           "en": "Ask yourself",
@@ -6738,7 +6734,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Nadia’s example",
-          "id": "Contoh Nadia"
+          "id": "Contoh dari Nadia"
          }
         ],
         "rows": [
@@ -6749,25 +6745,25 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "The first time you did something you had never done, led, presented to a client, handled cash",
-           "id": "Pertama kali kamu melakukan yang belum pernah: memimpin, presentasi ke klien, memegang uang tunai"
+           "id": "Pertama kali kamu melakukan sesuatu yang belum pernah kamu lakukan: memimpin, presentasi ke klien, memegang uang tunai"
           },
           {
            "en": "First time closing the till alone at Kopi Tepian, week two",
-           "id": "Pertama kali menutup kasir sendirian di Kopi Tepian, minggu kedua"
+           "id": "Pertama kali menutup kasir sendirian di Kopi Tepian, di minggu kedua kerja"
           }
          ],
          [
           {
            "en": "<b>Friction</b>",
-           "id": "<b>Gesekan</b>"
+           "id": "<b>Masalah</b>"
           },
           {
            "en": "A time something went wrong, someone disagreed, a plan fell apart",
-           "id": "Saat sesuatu salah, seseorang tidak setuju, rencana berantakan"
+           "id": "Saat ada yang salah, ada yang tidak setuju, atau rencana berantakan"
           },
           {
            "en": "An angry customer in the Saturday rush; a HIMA event division that ignored the budget",
-           "id": "Pelanggan marah di jam sibuk Sabtu; divisi acara HIMA yang mengabaikan anggaran"
+           "id": "Pelanggan marah saat jam sibuk hari Sabtu; divisi acara HIMA yang tidak menghiraukan anggaran"
           }
          ],
          [
@@ -6777,35 +6773,35 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Something you improved, even slightly: a template, a process, a schedule",
-           "id": "Sesuatu yang kamu perbaiki, sekecil apa pun, templat, proses, jadwal"
+           "id": "Sesuatu yang kamu perbaiki, sekecil apa pun: templat, proses, jadwal"
           },
           {
            "en": "The pre-order board for the morning rush; the reconciliation checklist",
-           "id": "Papan pra-pesan untuk jam sibuk pagi; daftar periksa rekonsiliasi"
+           "id": "Papan pesanan awal untuk jam sibuk pagi; daftar periksa rekonsiliasi"
           }
          ],
          [
           {
            "en": "<b>Trust</b>",
-           "id": "<b>Kepercayaan</b>"
+           "id": "<b>Dipercaya</b>"
           },
           {
            "en": "When someone gave you responsibility: money, keys, data, their customers",
-           "id": "Saat seseorang memberimu tanggung jawab: uang, kunci, data, pelanggan mereka"
+           "id": "Saat seseorang menitipkan tanggung jawab padamu: uang, kunci, data, pelanggannya"
           },
           {
            "en": "Rp 120 juta of HIMA money; three branches’ daily reports",
-           "id": "Rp 120 juta uang HIMA; laporan harian tiga cabang"
+           "id": "Uang HIMA sebesar Rp 120 juta; laporan harian tiga cabang"
           }
          ],
          [
           {
            "en": "<b>Stretch</b>",
-           "id": "<b>Regangan</b>"
+           "id": "<b>Belajar kilat</b>"
           },
           {
            "en": "When you learned something fast because you had to",
-           "id": "Saat kamu belajar cepat karena terpaksa"
+           "id": "Saat kamu terpaksa belajar sesuatu dengan cepat"
           },
           {
            "en": "Teaching basic Excel at the community-service workshop after two days of preparation",
@@ -6815,7 +6811,7 @@ window.MT_LMS['the-rope'] = {
         ],
         "caption": {
          "en": "Five prompts × every experience, on the CV or not. Aim for 25 lines.",
-         "id": "Lima pemicu × setiap pengalaman, di CV atau tidak. Targetkan 25 baris."
+         "id": "Lima pemancing untuk setiap pengalaman, tercantum di CV atau tidak. Targetkan 25 baris."
         }
        }
       },
@@ -6823,17 +6819,17 @@ window.MT_LMS['the-rope'] = {
        "icon": "chart",
        "h": {
         "en": "Small stories often beat big ones",
-        "id": "Cerita kecil sering mengalahkan yang besar"
+        "id": "Cerita kecil sering lebih kuat daripada yang besar"
        },
        "body": {
         "en": "“I was the chairperson of a 60-person organisation” sounds big but often produces a weak story: generic, many people involved, unclear contribution. “I noticed our sponsor tracking was on four different WhatsApp chats and put it in one shared sheet, which stopped us double-contacting two sponsors” is small but specific, owned, and shows initiative and systems thinking. Interviewers score the behaviour, not the size of the title <i>(Kador; Fry, 101 Smart Questions)</i>. The test for a candidate is three questions: is it <b>specific</b> (a moment, not a period)? is it <b>owned</b> (your action, in first person)? does it have a <b>result</b> (something changed, measured or observable)? A title fails all three; a shared sheet passes all three. Keep the big titles as <i>context</i> for the small stories, “as treasurer, I…”, not as the story itself.",
-        "id": "“Saya ketua organisasi 60 orang” terdengar besar tetapi sering menghasilkan cerita lemah: generik, banyak orang terlibat, kontribusi tidak jelas. “Saya melihat pelacakan sponsor kami tersebar di empat grup WhatsApp dan menyatukannya dalam satu lembar bersama, yang menghentikan kami menghubungi dua sponsor dua kali” itu kecil tetapi spesifik, dimiliki, dan menunjukkan inisiatif serta cara berpikir sistem. Pewawancara menilai perilakunya, bukan ukuran jabatannya <i>(Kador; Fry, 101 Smart Questions)</i>. Ujian untuk kandidat adalah tiga pertanyaan: apakah <b>spesifik</b> (satu momen, bukan periode)? apakah <b>dimiliki</b> (tindakanmu, orang pertama)? apakah punya <b>hasil</b> (sesuatu berubah, terukur atau teramati)? Jabatan gagal ketiganya; lembar bersama lolos ketiganya. Simpan jabatan besar sebagai <i>konteks</i> untuk cerita kecil, “sebagai bendahara, saya…”, bukan sebagai ceritanya sendiri."
+        "id": "“Saya ketua organisasi beranggotakan 60 orang” terdengar besar, tetapi sering menghasilkan cerita yang lemah: umum, melibatkan banyak orang, dan tidak jelas apa peranmu. Bandingkan dengan ini: “Saya sadar data sponsor kami tersebar di empat grup WhatsApp, lalu saya satukan dalam satu lembar kerja bersama, sehingga kami tidak lagi menghubungi dua sponsor yang sama dua kali.” Ceritanya kecil, tetapi spesifik, jelas milikmu, dan menunjukkan inisiatif serta cara berpikir yang sistematis. Pewawancara menilai perilakunya, bukan besarnya jabatan <i>(Kador; Fry, 101 Smart Questions)</i>. Untuk menguji setiap calon cerita, ajukan tiga pertanyaan. Apakah <b>spesifik</b> (satu momen, bukan satu periode)? Apakah <b>milikmu</b> (tindakanmu sendiri, diceritakan dengan “saya”)? Apakah <b>ada hasilnya</b> (ada yang berubah, bisa diukur atau dilihat)? Sebuah jabatan gagal di ketiganya, sedangkan lembar kerja bersama tadi lolos ketiganya. Simpan jabatan besarmu sebagai <i>latar</i> untuk cerita kecil, misalnya “sebagai bendahara, saya…”, bukan sebagai ceritanya."
        },
        "table": {
         "cols": [
          {
           "en": "Candidate",
-          "id": "Kandidat"
+          "id": "Calon cerita"
          },
          {
           "en": "Specific?",
@@ -6841,15 +6837,15 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Owned?",
-          "id": "Dimiliki?"
+          "id": "Milikmu?"
          },
          {
           "en": "Result?",
-          "id": "Hasil?"
+          "id": "Ada hasilnya?"
          },
          {
           "en": "Verdict",
-          "id": "Putusan"
+          "id": "Keputusan"
          }
         ],
         "rows": [
@@ -6860,7 +6856,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "No: a title",
-           "id": "Tidak: jabatan"
+           "id": "Tidak: ini jabatan"
           },
           {
            "en": "No",
@@ -6872,7 +6868,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Context only",
-           "id": "Hanya konteks"
+           "id": "Hanya sebagai latar"
           }
          ],
          [
@@ -6882,7 +6878,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Partly: a period",
-           "id": "Sebagian: periode"
+           "id": "Sebagian: masih satu periode"
           },
           {
            "en": "Yes",
@@ -6890,17 +6886,17 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Weak: “they were trained”",
-           "id": "Lemah: “mereka terlatih”"
+           "id": "Lemah: “mereka jadi terlatih”"
           },
           {
            "en": "Make specific: one shift, one mistake, one fix",
-           "id": "Buat spesifik: satu sif, satu kesalahan, satu perbaikan"
+           "id": "Buat lebih spesifik: satu sif, satu kesalahan, satu perbaikan"
           }
          ],
          [
           {
            "en": "“Two weeks before the seminar the keynote cancelled; I found a replacement in 48 hours”",
-           "id": "“Dua minggu sebelum seminar pembicara utama membatalkan; saya menemukan pengganti dalam 48 jam”"
+           "id": "“Dua minggu sebelum seminar, pembicara utama membatalkan; saya mendapatkan penggantinya dalam 48 jam”"
           },
           {
            "en": "Yes",
@@ -6916,7 +6912,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Core 10 candidate: pressure, initiative, persuasion",
-           "id": "Kandidat Core 10: tekanan, inisiatif, persuasi"
+           "id": "Calon Core 10: tekanan, inisiatif, meyakinkan orang lain"
           }
          ]
         ]
@@ -6930,7 +6926,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Choose ten stories so that together they cover the competencies most often tested in early-career interviews. The grid below is the minimum coverage; each story will usually cover two or three slots, and that flexibility is intended. Ten well-chosen stories can answer forty or more questions (Lesson 2.4 shows how). Ten, not thirty: the sources converge on a small bank, three or four <i>(Fry)</i>, five <i>(Ratigan, Aced)</i>, five to ten <i>(Verma, Job Search Secrets)</i>: and a fresh graduate’s history produces thirty weak stories or ten strong ones, not thirty strong ones.",
-        "id": "Pilih sepuluh cerita agar bersama-sama mencakup kompetensi yang paling sering diuji di wawancara karier awal. Kisi di bawah adalah cakupan minimum; setiap cerita biasanya mencakup dua atau tiga slot, dan fleksibilitas itu disengaja, sepuluh cerita yang dipilih baik bisa menjawab empat puluh pertanyaan atau lebih (Pelajaran 2.4 menunjukkan caranya). Sepuluh, bukan tiga puluh: sumber-sumber mengerucut ke bank kecil, tiga atau empat <i>(Fry)</i>, lima <i>(Ratigan, Aced)</i>, lima hingga sepuluh <i>(Verma, Job Search Secrets)</i>: dan riwayat lulusan baru menghasilkan tiga puluh cerita lemah atau sepuluh cerita kuat, bukan tiga puluh cerita kuat."
+        "id": "Pilih sepuluh cerita yang jika digabungkan mencakup kompetensi yang paling sering diuji dalam wawancara level awal. Kisi di bawah ini adalah cakupan minimum. Satu cerita biasanya bisa mengisi dua atau tiga slot, dan keluwesan itu memang disengaja. Sepuluh cerita yang dipilih dengan baik bisa menjawab empat puluh pertanyaan atau lebih (caranya ada di Pelajaran 2.4). Kenapa sepuluh, bukan tiga puluh? Para penulis sepakat bahwa jumlah cerita sebaiknya sedikit: tiga atau empat <i>(Fry)</i>, lima <i>(Ratigan, Aced)</i>, lima sampai sepuluh <i>(Verma, Job Search Secrets)</i>. Lagi pula, pengalaman seorang lulusan baru bisa menghasilkan tiga puluh cerita lemah atau sepuluh cerita kuat, tetapi jarang tiga puluh cerita kuat."
        },
        "table": {
         "cols": [
@@ -6940,11 +6936,11 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Competency cluster",
-          "id": "Klaster kompetensi"
+          "id": "Kelompok kompetensi"
          },
          {
           "en": "Typical questions it answers",
-          "id": "Pertanyaan lazim yang dijawab"
+          "id": "Contoh pertanyaan yang bisa dijawab"
          }
         ],
         "rows": [
@@ -6973,7 +6969,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“Working in a team”, “helping a colleague”",
-           "id": "“Bekerja dalam tim”, “membantu rekan”"
+           "id": "“Bekerja dalam tim”, “membantu rekan kerja”"
           }
          ],
          [
@@ -6983,11 +6979,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "<b>Conflict / disagreement</b>",
-           "id": "<b>Konflik / ketidaksepakatan</b>"
+           "id": "<b>Konflik / beda pendapat</b>"
           },
           {
            "en": "“Disagreement with a teammate, lecturer or boss”",
-           "id": "“Ketidaksepakatan dengan rekan, dosen, atau atasan”"
+           "id": "“Berbeda pendapat dengan rekan, dosen, atau atasan”"
           }
          ],
          [
@@ -7001,7 +6997,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“A time you failed”, “a mistake you made”",
-           "id": "“Saat Anda gagal”, “kesalahan yang Anda buat”"
+           "id": "“Saat Anda gagal”, “kesalahan yang pernah Anda buat”"
           }
          ],
          [
@@ -7011,11 +7007,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "<b>Pressure / deadline / multitasking</b>",
-           "id": "<b>Tekanan / tenggat / multitasking</b>"
+           "id": "<b>Tekanan / tenggat / banyak tugas sekaligus</b>"
           },
           {
            "en": "“Tight deadline”, “many priorities”",
-           "id": "“Tenggat ketat”, “banyak prioritas”"
+           "id": "“Tenggat yang mepet”, “banyak prioritas sekaligus”"
           }
          ],
          [
@@ -7039,7 +7035,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "<b>Leadership / influence without authority</b>",
-           "id": "<b>Kepemimpinan / pengaruh tanpa wewenang</b>"
+           "id": "<b>Kepemimpinan / memengaruhi tanpa jabatan</b>"
           },
           {
            "en": "“Led a team”, “persuaded someone”",
@@ -7053,11 +7049,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "<b>Learning fast / adaptability</b>",
-           "id": "<b>Belajar cepat / adaptabilitas</b>"
+           "id": "<b>Belajar cepat / mudah beradaptasi</b>"
           },
           {
            "en": "“Learned something new quickly”, “handled change”",
-           "id": "“Mempelajari hal baru dengan cepat”, “menangani perubahan”"
+           "id": "“Mempelajari hal baru dengan cepat”, “menghadapi perubahan”"
           }
          ],
          [
@@ -7071,7 +7067,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“Difficult customer”, “met someone’s needs”",
-           "id": "“Pelanggan sulit”, “memenuhi kebutuhan seseorang”"
+           "id": "“Pelanggan yang sulit”, “memenuhi kebutuhan orang lain”"
           }
          ],
          [
@@ -7081,17 +7077,17 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "<b>Integrity / values</b>",
-           "id": "<b>Integritas / nilai</b>"
+           "id": "<b>Integritas / nilai-nilai</b>"
           },
           {
            "en": "“Ethical dilemma”, “did the right thing when hard”: important for AKHLAK and bank roles",
-           "id": "“Dilema etika”, “melakukan hal benar saat sulit”: penting untuk AKHLAK dan peran bank"
+           "id": "“Dilema etika”, “tetap melakukan hal yang benar meski sulit”: penting untuk BUMN dengan nilai AKHLAK dan untuk posisi di bank"
           }
          ]
         ],
         "caption": {
          "en": "The Core 10 coverage grid. The most commonly empty slots are 4 (failure) and 10 (integrity), Lesson 2.3 handles both.",
-         "id": "Kisi cakupan Core 10. Slot yang paling sering kosong adalah 4 (kegagalan) dan 10 (integritas), Pelajaran 2.3 menangani keduanya."
+         "id": "Kisi cakupan Core 10. Slot yang paling sering kosong adalah nomor 4 (kegagalan) dan 10 (integritas). Pelajaran 2.3 membahas keduanya."
         }
        }
       },
@@ -7099,28 +7095,28 @@ window.MT_LMS['the-rope'] = {
        "icon": "flag",
        "h": {
         "en": "Stories to avoid",
-        "id": "Cerita yang harus dihindari"
+        "id": "Cerita yang sebaiknya dihindari"
        },
        "body": {
         "en": "Four kinds of story fail regardless of how well they are told, and the coverage grid should never be filled with them.",
-        "id": "Empat jenis cerita gagal seberapa pun baiknya diceritakan, dan kisi cakupan tidak boleh diisi dengannya."
+        "id": "Ada empat jenis cerita yang tetap gagal sebagus apa pun cara menyampaikannya. Jangan pernah mengisi kisi cakupanmu dengan cerita seperti ini."
        },
        "bullets": [
         {
          "en": "<b>Hero stories</b>: where you are the hero and everyone else is incompetent. Interviewers hear a future colleague who blames.",
-         "id": "<b>Cerita pahlawan</b>: kamu pahlawannya dan semua orang lain tidak kompeten. Pewawancara mendengar calon rekan yang menyalahkan."
+         "id": "<b>Cerita pahlawan</b>: kamu tampil sebagai penyelamat dan semua orang lain terlihat tidak becus. Yang ditangkap pewawancara justru calon rekan kerja yang suka menyalahkan."
         },
         {
          "en": "<b>Confidential stories</b>: anything that reveals an internship employer’s internal figures, client names or unreleased plans. The interviewer wonders what you will say about them next year.",
-         "id": "<b>Cerita rahasia</b>: apa pun yang mengungkap angka internal, nama klien, atau rencana belum dirilis dari tempat magang. Pewawancara bertanya-tanya apa yang akan kamu ceritakan tentang mereka tahun depan."
+         "id": "<b>Cerita rahasia</b>: apa pun yang membuka angka internal, nama klien, atau rencana yang belum diumumkan dari tempat magangmu. Pewawancara akan bertanya-tanya apa yang akan kamu ceritakan tentang perusahaan mereka tahun depan."
         },
         {
          "en": "<b>Unethical results</b>: a “win” that involved bending a rule. It may sound resourceful; it reads as a risk.",
-         "id": "<b>Hasil tidak etis</b>: “kemenangan” yang melibatkan membengkokkan aturan. Terdengar cerdik; terbaca sebagai risiko."
+         "id": "<b>Hasil yang tidak etis</b>: “keberhasilan” yang didapat dengan mengakali aturan. Mungkin terdengar cerdik, tetapi bagi pewawancara itu tanda risiko."
         },
         {
          "en": "<b>Sympathy stories</b>: personal crises told to generate sympathy. They can be told, briefly, if the question calls for resilience, but the focus is what you did, not what happened to you.",
-         "id": "<b>Cerita simpati</b>: krisis pribadi yang diceritakan untuk menarik simpati. Boleh diceritakan, singkat, jika pertanyaan meminta ketangguhan, tetapi fokusnya apa yang kamu lakukan, bukan apa yang menimpamu."
+         "id": "<b>Cerita untuk mencari simpati</b>: masalah pribadi yang diceritakan agar dikasihani. Cerita seperti ini boleh disampaikan singkat jika pertanyaannya tentang ketangguhan, tetapi fokusnya harus pada apa yang kamu lakukan, bukan pada apa yang menimpamu."
         }
        ]
       }
@@ -7129,11 +7125,11 @@ window.MT_LMS['the-rope'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 1: From 25 raw candidates to Core 10",
-       "id": "Peraga 1: Dari 25 kandidat mentah ke Core 10"
+       "id": "Peraga 1: Dari 25 calon cerita menjadi Core 10"
       },
       "title": {
        "en": "Mine, filter, cover: the funnel every story passes through",
-       "id": "Gali, saring, cakup: corong yang dilalui setiap cerita"
+       "id": "Gali, saring, petakan: corong yang dilewati setiap cerita"
       },
       "items": [
        {
@@ -7144,7 +7140,7 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Five prompts over every experience, on the CV or not. One line each; no judging.",
-         "id": "Lima pemicu pada setiap pengalaman, di CV atau tidak. Satu baris masing-masing; tanpa menilai."
+         "id": "Lima pemancing untuk setiap pengalaman, tercantum di CV atau tidak. Satu baris per cerita, tanpa menilai."
         }
        },
        {
@@ -7155,18 +7151,18 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Specific? Owned? Real result? Keep the three-yes lines and the ones you can make specific with more recall.",
-         "id": "Spesifik? Dimiliki? Hasil nyata? Simpan baris tiga-ya dan yang bisa dibuat spesifik dengan mengingat lebih."
+         "id": "Spesifik? Milikmu? Ada hasilnya? Simpan yang lolos ketiganya, dan yang bisa dibuat spesifik jika kamu mengingat lebih detail."
         }
        },
        {
         "icon": "chart",
         "h": {
          "en": "Cover · the grid",
-         "id": "Cakup · kisi"
+         "id": "Petakan · kisi"
         },
         "sub": {
          "en": "Assign each survivor to its slots; find the empty ones, usually failure and integrity.",
-         "id": "Tempatkan tiap yang lolos ke slotnya; temukan yang kosong, biasanya kegagalan dan integritas."
+         "id": "Masukkan setiap cerita yang lolos ke slot yang cocok, lalu cari slot yang kosong. Biasanya kegagalan dan integritas."
         }
        },
        {
@@ -7177,28 +7173,28 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Ten stories, all ten slots covered, range across organisations. Prepared deeply in 2.2–2.3.",
-         "id": "Sepuluh cerita, sepuluh slot tercakup, rentang lintas organisasi. Disiapkan mendalam di 2.2–2.3."
+         "id": "Sepuluh cerita, sepuluh slot terisi, dari beragam organisasi. Didalami di Pelajaran 2.2–2.3."
         }
        }
       ],
       "note": {
        "en": "The funnel narrows by quality, not by title size.",
-       "id": "Corong menyempit berdasarkan mutu, bukan ukuran jabatan."
+       "id": "Corong ini menyempit berdasarkan mutu cerita, bukan besarnya jabatan."
       },
       "longdesc": {
        "en": "A four-stage funnel: mine at least 25 candidates with five prompts; filter to the specific, owned ones with a real result; cover the ten-slot grid and find the empty slots; arrive at the Core 10, ten stories covering all slots with range across organisations.",
-       "id": "Corong empat tahap: gali setidaknya 25 kandidat dengan lima pemicu; saring ke yang spesifik, dimiliki, dengan hasil nyata; cakup kisi sepuluh slot dan temukan slot kosong; sampai pada Core 10, sepuluh cerita yang mencakup semua slot dengan rentang lintas organisasi."
+       "id": "Corong empat tahap: gali setidaknya 25 calon cerita dengan lima pemancing; saring hingga tersisa yang spesifik, milikmu, dan ada hasil nyatanya; petakan ke kisi sepuluh slot dan temukan slot yang kosong; hasil akhirnya Core 10, sepuluh cerita yang mengisi semua slot dan berasal dari beragam organisasi."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Raw material → story candidate",
-        "id": "Bahan mentah → kandidat cerita"
+        "id": "Bahan mentah → calon cerita"
        },
        "q": {
         "en": "The same line from Nadia’s CV, “Ketua panitia seminar nasional”, offered as an answer to “Tell me about a time you took initiative.”",
-        "id": "Baris yang sama dari CV Nadia, “Ketua panitia seminar nasional”, ditawarkan sebagai jawaban untuk “Ceritakan saat Anda mengambil inisiatif.”"
+        "id": "Baris yang sama dari CV Nadia, “Ketua panitia seminar nasional”, dipakai untuk menjawab “Ceritakan saat Anda mengambil inisiatif.”"
        },
        "weak": {
         "en": "“Saya ketua panitia seminar nasional di kampus. Acaranya besar, pesertanya dari banyak kampus, dan saya mengoordinasi semua divisi supaya acara berjalan lancar.”",
@@ -7210,7 +7206,7 @@ window.MT_LMS['the-rope'] = {
        },
        "why": {
         "en": "The weak answer is a title with adjectives: no situation, no personal action, no result. A 1 on any anchor. The strong answer is a situation with friction, a personal action with a reason (“supaya beliau bisa memutuskan cepat”), and two results, one observable (the seminar ran) and one adopted (the backup list). It covers three slots at once: pressure, initiative and persuasion. Same CV line; the story was underneath it.",
-        "id": "Jawaban lemah adalah jabatan dengan kata sifat: tanpa situasi, tanpa tindakan pribadi, tanpa hasil, nilai 1 pada jangkar mana pun. Jawaban kuat adalah situasi dengan gesekan, tindakan pribadi dengan alasan (“supaya beliau bisa memutuskan cepat”), dan dua hasil, satu teramati (seminar berjalan) dan satu diadopsi (daftar cadangan). Ia mencakup tiga slot sekaligus: tekanan, inisiatif, dan persuasi. Baris CV yang sama; ceritanya ada di bawahnya."
+        "id": "Jawaban yang lemah hanyalah jabatan ditambah kata sifat: tidak ada situasi, tidak ada tindakan pribadi, tidak ada hasil. Di skala penilaian mana pun, nilainya 1. Jawaban yang kuat punya situasi bermasalah, tindakan pribadi beserta alasannya (“supaya beliau bisa memutuskan cepat”), dan dua hasil: satu terlihat (seminar tetap berjalan) dan satu dipakai orang lain (daftar cadangan pembicara). Sekaligus, cerita ini mengisi tiga slot: tekanan, inisiatif, dan meyakinkan orang lain. Baris CV-nya sama, tetapi ceritanya tersimpan di baliknya."
        }
       }
      ],
@@ -7218,16 +7214,16 @@ window.MT_LMS['the-rope'] = {
       "icon": "compass",
       "title": {
        "en": "In focus: from five HIMA stories to 27 candidates",
-       "id": "Sorotan: dari lima cerita HIMA ke 27 kandidat"
+       "id": "Kisah Nadia: dari lima cerita HIMA menjadi 27 calon cerita"
       },
       "body": [
        {
         "en": "Nadia’s first list has five stories, all from HIMA, all about the treasury year. Using the prompts, she adds her barista job, “friction”: an angry customer on a Saturday rush; “fix”: she reorganised the pastry display so the queue moved faster, her community-service bookkeeping workshop (“stretch”: she learned to teach basic Excel in two days), a group assignment where a member stopped contributing (“conflict”), and the internship (“trust”: three branches’ daily reports; “fix”: the checklist). She ends with 27 candidates across five settings.",
-        "id": "Daftar pertama Nadia punya lima cerita, semuanya dari HIMA, semuanya tentang tahun bendahara. Dengan pemicu, ia menambah pekerjaan baristanya, “gesekan”: pelanggan marah di jam sibuk Sabtu; “perbaikan”: ia menata ulang etalase kue agar antrean lebih cepat, lokakarya pembukuan KKN-nya (“regangan”: belajar mengajar Excel dasar dalam dua hari), tugas kelompok di mana satu anggota berhenti berkontribusi (“konflik”), dan magang (“kepercayaan”: laporan harian tiga cabang; “perbaikan”: daftar periksa). Ia berakhir dengan 27 kandidat dari lima latar."
+        "id": "Daftar pertama Nadia hanya berisi lima cerita, semuanya dari HIMA dan semuanya tentang tahun ia menjadi bendahara. Dengan bantuan pemancing, ia mulai menambah. Dari pekerjaannya sebagai barista ada “masalah” (pelanggan marah saat jam sibuk Sabtu) dan “perbaikan” (ia menata ulang etalase kue supaya antrean bergerak lebih cepat). Dari KKN ada lokakarya pembukuan (“belajar kilat”: ia belajar mengajar Excel dasar dalam dua hari). Dari kuliah ada tugas kelompok yang salah satu anggotanya berhenti berkontribusi (“masalah”). Dari magang ada laporan harian tiga cabang (“dipercaya”) dan daftar periksa rekonsiliasi (“perbaikan”). Akhirnya ia punya 27 calon cerita dari lima latar yang berbeda."
        },
        {
         "en": "The filter cuts eleven, mostly titles and periods. The grid then shows two empty slots: failure and integrity. She has both, she realises; she had simply never thought of a cash count she corrected against herself at the café, or a sponsor she lost by contacting them a week late, as “stories”. Lesson 2.3 makes them safe to tell.",
-        "id": "Saringan memangkas sebelas: kebanyakan jabatan dan periode. Kisi lalu menunjukkan dua slot kosong: kegagalan dan integritas. Ia punya keduanya, sadarnya; ia hanya tidak pernah memikirkan hitungan kas yang ia koreksi meski merugikan dirinya di kafe, atau sponsor yang hilang karena dihubungi seminggu terlambat, sebagai “cerita”. Pelajaran 2.3 membuatnya aman untuk diceritakan."
+        "id": "Saringan memangkas sebelas di antaranya, kebanyakan karena hanya berupa jabatan atau periode. Kisi cakupan lalu memperlihatkan dua slot kosong: kegagalan dan integritas. Nadia baru sadar ia sebenarnya punya keduanya. Ia hanya tidak pernah menganggapnya “cerita”: hitungan kas di kafe yang ia koreksi walaupun selisihnya ditanggung dirinya sendiri, dan sponsor yang batal karena ia menghubunginya seminggu terlambat. Pelajaran 2.3 membantunya menceritakan keduanya dengan aman."
        }
       ]
      },
@@ -7235,15 +7231,15 @@ window.MT_LMS['the-rope'] = {
       {
        "h": {
         "en": "Drill 1 · Mine for 25",
-        "id": "Latihan 1 · Gali 25"
+        "id": "Latihan 1 · Gali 25 cerita"
        },
        "body": {
         "en": "Open your Evidence Pantry from The Pack (or your CV) and run the five prompts over every item, then over the experiences that are not on the CV: family business, religious or community activities, sport, caring responsibilities, a failed side project. One line per candidate: where, when, what happened. Stop at 25 or more.",
-        "id": "Buka Lemari Buktimu dari The Pack (atau CV-mu) dan jalankan lima pemicu pada setiap butir, lalu pada pengalaman yang tidak ada di CV: bisnis keluarga, kegiatan keagamaan atau komunitas, olahraga, tanggung jawab merawat, proyek sampingan yang gagal. Satu baris per kandidat: di mana, kapan, apa yang terjadi. Berhenti di 25 atau lebih."
+        "id": "Buka Lemari Bukti dari The Pack (atau CV-mu), lalu ajukan lima pemancing untuk setiap butirnya. Setelah itu, lakukan hal yang sama untuk pengalaman yang tidak ada di CV: usaha keluarga, kegiatan keagamaan atau komunitas, olahraga, merawat anggota keluarga, proyek sampingan yang gagal. Tulis satu baris untuk tiap calon cerita: di mana, kapan, apa yang terjadi. Berhenti setelah mencapai 25 baris atau lebih."
        },
        "debrief": {
         "en": "If you have fewer than fifteen, the CV is too narrow a source: add the non-CV settings deliberately. A family stall run during Ramadan is trust and pressure; a badminton team you organised is leadership; a semester you nearly failed and recovered is failure and learning. If you have more than forty, you are listing periods, not moments, “treasurer for a year” is one setting that contains six candidates; write the six.",
-        "id": "Jika kurang dari lima belas, CV terlalu sempit sebagai sumber: tambahkan latar non-CV dengan sengaja, warung keluarga yang dijalankan selama Ramadan adalah kepercayaan dan tekanan; tim bulu tangkis yang kamu organisasi adalah kepemimpinan; semester yang nyaris gagal dan pulih adalah kegagalan dan belajar. Jika lebih dari empat puluh, kamu mendaftar periode, bukan momen; “bendahara selama setahun” adalah satu latar yang berisi enam kandidat; tulis keenamnya."
+        "id": "Kalau kamu dapat kurang dari lima belas, berarti CV terlalu sempit sebagai sumber. Sengaja tambahkan pengalaman di luar CV. Menjaga warung keluarga selama Ramadan bisa menjadi cerita tentang dipercaya dan tekanan. Tim bulu tangkis yang kamu urus bisa menjadi cerita kepemimpinan. Semester yang nyaris gagal lalu berhasil kamu selamatkan bisa menjadi cerita kegagalan sekaligus belajar. Kalau kamu dapat lebih dari empat puluh, kemungkinan kamu mencatat periode, bukan momen. “Bendahara selama setahun” adalah satu latar yang menyimpan enam calon cerita. Tuliskan keenamnya."
        }
       },
       {
@@ -7253,25 +7249,25 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Mark each candidate with three ticks or crosses: Specific? Owned? Result? Keep only those with three ticks, or two ticks and a note on what more recall would recover (“I need to check the date and the amount”).",
-        "id": "Tandai tiap kandidat dengan tiga centang atau silang: Spesifik? Dimiliki? Hasil? Simpan hanya yang tiga centang, atau dua centang dan catatan tentang apa yang bisa dipulihkan dengan mengingat lebih (“saya perlu memeriksa tanggal dan jumlahnya”)."
+        "id": "Beri setiap calon cerita tiga tanda centang atau silang: Spesifik? Milikmu? Ada hasilnya? Simpan hanya yang mendapat tiga centang, atau dua centang dengan catatan tentang apa yang masih bisa diingat ulang (“saya perlu mengecek tanggal dan jumlahnya”)."
        },
        "debrief": {
         "en": "Typical survival rate is half. The commonest cross is “Owned”. The candidate is true but everything in it is “kami”. Do not discard those yet: ask what you personally decided or did inside the team effort; if there is a real answer, the story survives as we → I → we (Lesson 1.2). The second commonest cross is “Result”, and the fix is a phone call or a message to someone who was there: “what happened after?” is a question you can still ask.",
-        "id": "Tingkat kelolosan lazimnya separuh. Silang paling umum adalah “Dimiliki”, kandidatnya benar tetapi semuanya “kami”. Jangan buang dulu: tanyakan apa yang kamu putuskan atau lakukan sendiri di dalam usaha tim; jika ada jawaban nyata, ceritanya bertahan sebagai kami → saya → kami (Pelajaran 1.2). Silang kedua terumum adalah “Hasil”, dan perbaikannya adalah telepon atau pesan ke seseorang yang ada di sana: “apa yang terjadi setelahnya?” masih bisa kamu tanyakan."
+        "id": "Biasanya hanya separuh yang lolos. Silang yang paling sering muncul ada di kolom “Milikmu”: ceritanya benar, tetapi semuanya tentang “kami”. Jangan dibuang dulu. Tanyakan pada dirimu apa yang kamu putuskan atau kerjakan sendiri di tengah usaha tim itu. Kalau ada jawabannya, cerita itu tetap bisa dipakai dengan pola kami → saya → kami (Pelajaran 1.2). Silang kedua yang paling sering ada di kolom “Ada hasilnya”, dan solusinya cukup menelepon atau mengirim pesan ke orang yang dulu ada di sana. Pertanyaan “lalu bagaimana kelanjutannya?” masih bisa kamu ajukan sekarang."
        }
       },
       {
        "h": {
         "en": "Drill 3 · Cover",
-        "id": "Latihan 3 · Cakup"
+        "id": "Latihan 3 · Petakan"
        },
        "body": {
         "en": "Assign each survivor to every grid slot it can serve (most serve two or three). Mark the empty slots. Then choose ten so that every slot has at least one story and no organisation supplies more than four.",
-        "id": "Tempatkan tiap yang lolos ke setiap slot kisi yang bisa dilayaninya (kebanyakan melayani dua atau tiga). Tandai slot kosong. Lalu pilih sepuluh agar setiap slot punya setidaknya satu cerita dan tidak ada organisasi yang menyumbang lebih dari empat."
+        "id": "Masukkan setiap cerita yang lolos ke semua slot kisi yang bisa diisinya (kebanyakan bisa mengisi dua atau tiga). Tandai slot yang masih kosong. Lalu pilih sepuluh cerita sehingga setiap slot terisi minimal satu cerita, dan tidak ada satu organisasi yang menyumbang lebih dari empat."
        },
        "debrief": {
         "en": "The most commonly empty slots are failure (4) and integrity (10). Do not fill them with a disguised strength or a borrowed story; Lesson 2.3 shows how to find a real, moderate setback and a real, small integrity moment. Most graduates have both and have never named them. If one organisation supplies more than four of your ten, interviewers will hear a narrow history; trade the weakest of them for a candidate from another setting even if it is slightly smaller.",
-        "id": "Slot yang paling sering kosong adalah kegagalan (4) dan integritas (10). Jangan isi dengan kekuatan yang disamarkan atau cerita pinjaman; Pelajaran 2.3 menunjukkan cara menemukan kemunduran nyata yang sedang dan momen integritas nyata yang kecil. Sebagian besar lulusan punya keduanya dan tidak pernah menamainya. Jika satu organisasi menyumbang lebih dari empat dari sepuluhmu, pewawancara mendengar riwayat sempit; tukar yang terlemah dengan kandidat dari latar lain meski sedikit lebih kecil."
+        "id": "Slot yang paling sering kosong adalah kegagalan (4) dan integritas (10). Jangan mengisinya dengan kelebihan yang disamarkan sebagai kelemahan, apalagi dengan cerita orang lain. Pelajaran 2.3 menunjukkan cara menemukan kegagalan nyata berskala sedang dan momen integritas nyata yang sederhana. Sebagian besar lulusan sebenarnya punya keduanya, hanya belum pernah menyadarinya. Kalau lebih dari empat dari sepuluh ceritamu berasal dari satu organisasi, pewawancara akan menangkap pengalaman yang sempit. Tukar cerita terlemah dari organisasi itu dengan cerita dari latar lain, meski sedikit lebih kecil."
        }
       }
      ],
@@ -7280,11 +7276,11 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Choosing by title size",
-         "id": "Memilih berdasarkan ukuran jabatan"
+         "id": "Memilih berdasarkan besarnya jabatan"
         },
         "fix": {
          "en": "Choose by specific, owned, result; titles are context.",
-         "id": "Pilih berdasarkan spesifik, dimiliki, hasil; jabatan adalah konteks."
+         "id": "Pilih yang spesifik, milikmu, dan ada hasilnya. Jabatan cukup menjadi latar."
         }
        },
        {
@@ -7294,7 +7290,7 @@ window.MT_LMS['the-rope'] = {
         },
         "fix": {
          "en": "Interviewers want range: no more than four from one setting.",
-         "id": "Pewawancara menginginkan rentang: tidak lebih dari empat dari satu latar."
+         "id": "Pewawancara ingin melihat keragaman: maksimal empat cerita dari satu latar."
         }
        },
        {
@@ -7304,7 +7300,7 @@ window.MT_LMS['the-rope'] = {
         },
         "fix": {
          "en": "A real, moderate setback with what you did next (Lesson 2.3).",
-         "id": "Kemunduran nyata yang sedang dengan apa yang kamu lakukan berikutnya (Pelajaran 2.3)."
+         "id": "Siapkan satu kegagalan nyata berskala sedang dan apa yang kamu lakukan sesudahnya (Pelajaran 2.3)."
         }
        },
        {
@@ -7314,7 +7310,7 @@ window.MT_LMS['the-rope'] = {
         },
         "fix": {
          "en": "They collapse under probing and violate the honesty line; mine harder instead.",
-         "id": "Runtuh saat digali dan melanggar garis kejujuran; gali lebih dalam sebagai gantinya."
+         "id": "Cerita seperti ini runtuh saat digali dan melanggar prinsip kejujuran. Lebih baik menggali lebih dalam."
         }
        }
       ]
@@ -7323,11 +7319,11 @@ window.MT_LMS['the-rope'] = {
       {
        "term": {
         "en": "Story bank",
-        "id": "Bank cerita"
+        "id": "Bank Cerita"
        },
        "def": {
         "en": "Your prepared set of real stories, tagged to competencies and prepared for probing; the Core 10 is its readiness criterion.",
-        "id": "Kumpulan cerita nyata yang kamu siapkan, ditandai kompetensi dan disiapkan untuk digali; Core 10 adalah kriteria kesiapannya."
+        "id": "Kumpulan cerita nyata yang sudah kamu siapkan, ditandai sesuai kompetensinya, dan siap digali. Core 10 adalah ukuran kesiapannya."
        }
       },
       {
@@ -7337,7 +7333,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "A specific past situation with your action and a result, the raw material of every story.",
-        "id": "Situasi masa lalu yang spesifik dengan tindakanmu dan hasil, bahan mentah setiap cerita."
+        "id": "Satu situasi spesifik di masa lalu, lengkap dengan tindakanmu dan hasilnya. Inilah bahan mentah setiap cerita."
        }
       },
       {
@@ -7347,7 +7343,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Doing something useful that nobody asked for, one of the most-tested early-career behaviours.",
-        "id": "Melakukan hal berguna yang tidak diminta siapa pun, salah satu perilaku karier awal yang paling sering diuji."
+        "id": "Melakukan sesuatu yang berguna tanpa disuruh siapa pun. Ini salah satu perilaku yang paling sering diuji di level awal."
        }
       },
       {
@@ -7357,17 +7353,17 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Whether your ten stories, together, can answer every slot of the grid.",
-        "id": "Apakah sepuluh ceritamu, bersama-sama, bisa menjawab setiap slot kisi."
+        "id": "Apakah sepuluh ceritamu, jika digabungkan, bisa mengisi semua slot di kisi."
        }
       },
       {
        "term": {
         "en": "Mining prompt",
-        "id": "Pemicu penggalian"
+        "id": "Pertanyaan pemancing"
        },
        "def": {
         "en": "Firsts · Friction · Fixes · Trust · Stretch, five questions that surface stories a CV leaves out.",
-        "id": "Pertama kali · Gesekan · Perbaikan · Kepercayaan · Regangan, lima pertanyaan yang memunculkan cerita yang ditinggalkan CV."
+        "id": "Pertama kali · Masalah · Perbaikan · Dipercaya · Belajar kilat. Lima pertanyaan yang memunculkan cerita yang tidak tercantum di CV."
        }
       }
      ],
@@ -7375,7 +7371,7 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "Which is the strongest story candidate for “initiative”?",
-        "id": "Mana kandidat cerita terkuat untuk “inisiatif”?"
+        "id": "Mana calon cerita terkuat untuk menunjukkan “inisiatif”?"
        },
        "options": [
         {
@@ -7398,13 +7394,13 @@ window.MT_LMS['the-rope'] = {
        "correct": 1,
        "why": {
         "en": "A specific situation, a personal action with a reason, and a result.",
-        "id": "Situasi spesifik, tindakan pribadi dengan alasan, dan hasil."
+        "id": "Ada situasi yang spesifik, tindakan pribadi beserta alasannya, dan hasil."
        }
       },
       {
        "q": {
         "en": "Why is a Core 10 better than a list of 30 for a fresh graduate?",
-        "id": "Mengapa Core 10 lebih baik daripada daftar 30 untuk lulusan baru?"
+        "id": "Kenapa Core 10 lebih baik daripada daftar 30 cerita untuk lulusan baru?"
        },
        "options": [
         {
@@ -7413,40 +7409,40 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "Ten deeply prepared stories survive probing and adapt to many questions; thirty shallow ones do not",
-         "id": "Sepuluh cerita yang disiapkan mendalam bertahan saat digali dan bisa disesuaikan ke banyak pertanyaan; tiga puluh yang dangkal tidak"
+         "id": "Sepuluh cerita yang disiapkan matang tetap kuat saat digali dan bisa dipakai untuk banyak pertanyaan, sedangkan tiga puluh cerita yang dangkal tidak"
         },
         {
          "en": "Thirty is too long to write",
-         "id": "Tiga puluh terlalu panjang untuk ditulis"
+         "id": "Tiga puluh cerita terlalu banyak untuk ditulis"
         },
         {
          "en": "It is the legal limit",
-         "id": "Itu batas hukumnya"
+         "id": "Sudah ada aturan resminya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The sources converge on a small bank; depth beats count under probing.",
-        "id": "Sumber-sumber mengerucut ke bank kecil; kedalaman mengalahkan jumlah saat digali."
+        "id": "Para penulis sepakat jumlah cerita sebaiknya sedikit. Saat digali, kedalaman lebih penting daripada jumlah."
        }
       },
       {
        "q": {
         "en": "You have no “failure” story. Best move:",
-        "id": "Kamu tidak punya cerita “kegagalan”. Langkah terbaik:"
+        "id": "Kamu tidak punya cerita tentang “kegagalan”. Apa langkah terbaik?"
        },
        "options": [
         {
          "en": "Say you have never failed",
-         "id": "Katakan kamu tidak pernah gagal"
+         "id": "Bilang saja kamu tidak pernah gagal"
         },
         {
          "en": "Invent one",
-         "id": "Karang satu"
+         "id": "Karang satu cerita"
         },
         {
          "en": "Look for a smaller real setback, a missed target, a mistake at work, a plan that did not work, and what you did next",
-         "id": "Cari kemunduran nyata yang lebih kecil, target terlewat, kesalahan di tempat kerja, rencana yang tidak berhasil, dan apa yang kamu lakukan berikutnya"
+         "id": "Cari kegagalan nyata yang lebih kecil, seperti target yang meleset, kesalahan saat bekerja, atau rencana yang tidak berhasil, lalu ceritakan apa yang kamu lakukan sesudahnya"
         },
         {
          "en": "Use a friend’s story",
@@ -7456,7 +7452,7 @@ window.MT_LMS['the-rope'] = {
        "correct": 2,
        "why": {
         "en": "Interviewers want ownership, response and learning at a moderate scale; a borrowed story collapses at the second probe.",
-        "id": "Pewawancara menginginkan kepemilikan, respons, dan pembelajaran pada skala sedang; cerita pinjaman runtuh di galian kedua."
+        "id": "Pewawancara ingin melihat tanggung jawab, cara merespons, dan pelajaran yang diambil dari kegagalan berskala sedang. Cerita pinjaman akan runtuh di pertanyaan galian kedua."
        }
       }
      ],
@@ -7467,25 +7463,25 @@ window.MT_LMS['the-rope'] = {
       "returnTo": 4,
       "label": {
        "en": "Drill “Describe a time you improved how something was done”",
-       "id": "Latih “Ceritakan saat Anda memperbaiki cara sesuatu dikerjakan”"
+       "id": "Latihan: “Ceritakan saat Anda memperbaiki cara kerja sesuatu”"
       },
       "desc": {
        "en": "One question with the Hiring Manager persona, answered with your smallest specific fix. The debrief shows which Core 10 slots the story could fill.",
-       "id": "Satu pertanyaan dengan persona Hiring Manager, dijawab dengan perbaikan spesifik terkecilmu. Debrief menunjukkan slot Core 10 mana yang bisa diisi cerita itu."
+       "id": "Satu pertanyaan dari persona Hiring Manager (manajer perekrut). Jawab dengan perbaikan paling kecil tetapi paling spesifik yang pernah kamu lakukan. Ulasan sesudahnya menunjukkan slot Core 10 mana yang bisa diisi cerita itu."
       }
      },
      "takeaways": [
       {
        "en": "You have more evidence than you think.",
-       "id": "Kamu punya lebih banyak bukti dari yang kamu kira."
+       "id": "Buktimu lebih banyak daripada yang kamu kira."
       },
       {
        "en": "Small, specific, owned beats big and vague.",
-       "id": "Kecil, spesifik, dimiliki mengalahkan besar dan samar."
+       "id": "Cerita kecil yang spesifik dan jelas milikmu lebih kuat daripada cerita besar yang samar."
       },
       {
        "en": "Ten stories chosen for coverage answer most questions.",
-       "id": "Sepuluh cerita yang dipilih untuk cakupan menjawab sebagian besar pertanyaan."
+       "id": "Sepuluh cerita yang dipilih untuk mengisi semua slot sudah cukup untuk menjawab sebagian besar pertanyaan."
       }
      ],
      "resources": {
@@ -7495,7 +7491,7 @@ window.MT_LMS['the-rope'] = {
       },
       "lead": {
        "en": "Three sources, and the two worksheets that produce your Core 10 candidates.",
-       "id": "Tiga sumber, dan dua lembar kerja yang menghasilkan kandidat Core 10-mu."
+       "id": "Tiga sumber bacaan, dan dua lembar kerja untuk menghasilkan calon Core 10-mu."
       },
       "items": [
        {
@@ -7506,20 +7502,20 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "The Core 10 resolves the sources’ range of three to ten.",
-         "id": "Core 10 menyelesaikan rentang tiga hingga sepuluh dari sumber-sumber."
+         "id": "Core 10 menjadi titik tengah dari saran para penulis, yang berkisar antara tiga hingga sepuluh cerita."
         },
         "body": [
          {
           "en": "J. Kador, <i>The Manager’s Book of Questions</i>: interviewers score the behaviour, not the setting.",
-          "id": "J. Kador, <i>The Manager’s Book of Questions</i>: pewawancara menilai perilaku, bukan latarnya."
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i>: pewawancara menilai perilaku, bukan tempat kejadiannya."
          },
          {
           "en": "R. Fry, <i>101 Smart Questions to Ask on Your Interview</i>: three or four stories, prepared deeply.",
-          "id": "R. Fry, <i>101 Smart Questions to Ask on Your Interview</i>: tiga atau empat cerita, disiapkan mendalam."
+          "id": "R. Fry, <i>101 Smart Questions to Ask on Your Interview</i>: tiga atau empat cerita yang disiapkan matang."
          },
          {
           "en": "G. Ratigan, <i>Aced</i>; S. Verma, <i>Job Search Secrets</i>: five, and five to ten, stories.",
-          "id": "G. Ratigan, <i>Aced</i>; S. Verma, <i>Job Search Secrets</i>: lima, dan lima hingga sepuluh, cerita."
+          "id": "G. Ratigan, <i>Aced</i>; S. Verma, <i>Job Search Secrets</i>: masing-masing menyarankan lima, dan lima sampai sepuluh cerita."
          }
         ]
        },
@@ -7531,12 +7527,12 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "One row per candidate; 25 rows minimum.",
-         "id": "Satu baris per kandidat; minimum 25 baris."
+         "id": "Satu baris untuk tiap calon cerita, minimal 25 baris."
         },
         "body": [
          {
           "en": "Setting (CV item or non-CV) · prompt (first / friction / fix / trust / stretch)",
-          "id": "Latar (butir CV atau non-CV) · pemicu (pertama / gesekan / perbaikan / kepercayaan / regangan)"
+          "id": "Latar (dari CV atau di luar CV) · pemancing (pertama kali / masalah / perbaikan / dipercaya / belajar kilat)"
          },
          {
           "en": "Where and when · what happened, in one line",
@@ -7544,11 +7540,11 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Specific? Owned? Result? (✓ / ✗ / “recover: …”)",
-          "id": "Spesifik? Dimiliki? Hasil? (✓ / ✗ / “pulihkan: …”)"
+          "id": "Spesifik? Milikmu? Ada hasilnya? (✓ / ✗ / “ingat ulang: …”)"
          },
          {
           "en": "Grid slots it could serve (1–10)",
-          "id": "Slot kisi yang bisa dilayani (1–10)"
+          "id": "Slot kisi yang bisa diisi (1–10)"
          }
         ]
        },
@@ -7556,11 +7552,11 @@ window.MT_LMS['the-rope'] = {
         "kind": "template",
         "title": {
          "en": "Coverage grid (Kit item, part 1)",
-         "id": "Kisi cakupan (butir Perangkat, bagian 1)"
+         "id": "Kisi cakupan (isi Perangkat Wawancara, bagian 1)"
         },
         "desc": {
          "en": "Ten slots; every slot needs at least one story; no organisation more than four.",
-         "id": "Sepuluh slot; setiap slot butuh setidaknya satu cerita; tidak ada organisasi lebih dari empat."
+         "id": "Sepuluh slot. Setiap slot butuh minimal satu cerita, dan tidak ada organisasi yang menyumbang lebih dari empat."
         },
         "body": [
          {
@@ -7569,11 +7565,11 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "6 initiative · 7 leadership/influence · 8 learning fast · 9 service · 10 integrity",
-          "id": "6 inisiatif · 7 kepemimpinan/pengaruh · 8 belajar cepat · 9 layanan · 10 integritas"
+          "id": "6 inisiatif · 7 kepemimpinan/memengaruhi · 8 belajar cepat · 9 layanan · 10 integritas"
          },
          {
           "en": "For each of your ten stories: title (one line) · setting · slots covered · status (raw / STAR+L / depth card)",
-          "id": "Untuk tiap dari sepuluh ceritamu: judul (satu baris) · latar · slot yang dicakup · status (mentah / STAR+L / kartu kedalaman)"
+          "id": "Untuk tiap cerita dari sepuluh ceritamu: judul (satu baris) · latar · slot yang diisi · status (mentah / STAR+L / kartu kedalaman)"
          }
         ]
        }
@@ -7586,32 +7582,32 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "45 min",
-      "id": "45 mnt"
+      "id": "45 menit"
      },
      "title": {
       "en": "STAR+L: Structure That Survives Probing",
-      "id": "STAR+L: Struktur yang Tahan Digali"
+      "id": "STAR+L: Struktur yang Tetap Kokoh Saat Digali"
      },
      "overview": {
       "en": "STAR, Situation, Task, Action, Result, is the most widely taught interview structure. It works, but most candidates use it badly: long situations, short actions, no reasoning, no learning. The Rope uses STAR+L with an Obstacle. The extra pieces, the obstacle, the reasoning inside the action, the learning applied later, are exactly what separate a 3 from a 4 on the scoresheet, and they are what a probe goes looking for.",
-      "id": "STAR, Situasi, Tugas, Aksi, Hasil, adalah struktur wawancara yang paling banyak diajarkan. Ia berhasil, tetapi kebanyakan kandidat memakainya dengan buruk: situasi panjang, aksi pendek, tanpa alasan, tanpa pembelajaran. The Rope memakai STAR+L dengan Hambatan. Bagian tambahan, hambatan, alasan di dalam aksi, pembelajaran yang diterapkan kemudian, persis yang memisahkan 3 dari 4 di lembar penilaian, dan itulah yang dicari galian."
+      "id": "STAR (Situation, Task, Action, Result) adalah struktur wawancara yang paling sering diajarkan. Strukturnya bagus, tetapi kebanyakan kandidat memakainya dengan keliru: situasinya panjang, tindakannya pendek, alasannya tidak ada, dan pelajarannya tidak muncul. The Rope memakai STAR+L yang dilengkapi Hambatan. Tambahan inilah, yaitu hambatan, alasan di balik setiap tindakan, dan pelajaran yang sudah diterapkan, yang membedakan nilai 3 dari nilai 4 di lembar penilaian. Bagian-bagian ini juga yang dicari pewawancara saat menggali."
      },
      "objectives": [
       {
        "en": "Write a story in STAR+L with the right proportions.",
-       "id": "Menulis cerita dalam STAR+L dengan proporsi yang tepat."
+       "id": "Menulis cerita dengan STAR+L dalam proporsi yang tepat."
       },
       {
        "en": "Include the obstacle and your reasoning, the two elements most candidates omit.",
-       "id": "Memasukkan hambatan dan alasanmu, dua elemen yang paling sering dilewatkan kandidat."
+       "id": "Memasukkan hambatan dan alasanmu, dua bagian yang paling sering dilewatkan kandidat."
       },
       {
        "en": "State results honestly, with numbers only where you measured them.",
-       "id": "Menyatakan hasil dengan jujur, dengan angka hanya jika kamu mengukurnya."
+       "id": "Menyampaikan hasil dengan jujur, memakai angka hanya jika kamu benar-benar mengukurnya."
       },
       {
        "en": "Deliver a story in 60–90 seconds.",
-       "id": "Menyampaikan cerita dalam 60–90 detik."
+       "id": "Menyampaikan satu cerita dalam 60–90 detik."
       }
      ],
      "readFirst": {
@@ -7625,29 +7621,29 @@ window.MT_LMS['the-rope'] = {
         "n": "2.2",
         "title": {
          "en": "STAR+L: Structure That Survives Probing",
-         "id": "STAR+L: Struktur yang Tahan Digali"
+         "id": "STAR+L: Struktur yang Tetap Kokoh Saat Digali"
         }
        },
        "story": [
         {
          "en": "STAR+L adds the obstacle and the learning to the structure interviewers already score",
-         "id": "STAR+L menambahkan hambatan dan pembelajaran ke struktur yang sudah dinilai pewawancara"
+         "id": "STAR+L menambahkan hambatan dan pelajaran ke struktur yang sudah dipakai pewawancara untuk menilai"
         },
         {
          "en": "Nearly half of every story should be what you did and why; most weak stories are 60% situation",
-         "id": "Hampir separuh setiap cerita adalah apa yang kamu lakukan dan mengapa, kebanyakan cerita lemah 60% situasi"
+         "id": "Hampir separuh cerita berisi apa yang kamu lakukan dan alasannya, sedangkan cerita yang lemah biasanya 60% situasi"
         },
         {
          "en": "A task without difficulty proves nothing; answer “why wasn’t this easy?” in one sentence",
-         "id": "Tugas tanpa kesulitan tidak membuktikan apa-apa; jawab “mengapa ini tidak mudah?” dalam satu kalimat"
+         "id": "Tugas tanpa kesulitan tidak membuktikan apa-apa; jawab “kenapa ini tidak mudah?” dalam satu kalimat"
         },
         {
          "en": "Reasoning tells the interviewer whether your result was skill or luck",
-         "id": "Penalaran memberi tahu pewawancara apakah hasilmu karena keterampilan atau keberuntungan"
+         "id": "Alasan memberi tahu pewawancara apakah hasilmu berkat kemampuan atau kebetulan"
         },
         {
          "en": "A learning is a specific behaviour change you have applied since, not a platitude",
-         "id": "Pembelajaran adalah perubahan perilaku spesifik yang sudah kamu terapkan, bukan basa-basi"
+         "id": "Pelajaran adalah perubahan perilaku spesifik yang sudah kamu terapkan, bukan kalimat klise"
         }
        ],
        "takes": [
@@ -7658,7 +7654,7 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "STAR+L adds the obstacle and the learning to the structure interviewers already score",
-          "id": "STAR+L menambahkan hambatan dan pembelajaran ke struktur yang sudah dinilai pewawancara"
+          "id": "STAR+L menambahkan hambatan dan pelajaran ke struktur yang sudah dipakai pewawancara untuk menilai"
          }
         },
         {
@@ -7668,7 +7664,7 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "Most weak stories are 60% situation and 0% personal action.",
-          "id": "Sebagian besar cerita lemah adalah 60% situasi dan 0% aksi pribadi."
+          "id": "Cerita yang lemah biasanya 60% situasi dan 0% tindakan pribadi."
          }
         },
         {
@@ -7678,7 +7674,7 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "“Why wasn’t this easy?” One sentence.",
-          "id": "“Mengapa ini tidak mudah?” Satu kalimat."
+          "id": "“Kenapa ini tidak mudah?” Cukup satu kalimat."
          }
         },
         {
@@ -7694,11 +7690,11 @@ window.MT_LMS['the-rope'] = {
         {
          "h": {
           "en": "The L",
-          "id": "L-nya"
+          "id": "Huruf L"
          },
          "p": {
           "en": "“Saya belajar pentingnya komunikasi” is a platitude, not a learning.",
-          "id": "“Saya belajar pentingnya komunikasi” adalah basa-basi, bukan pembelajaran."
+          "id": "“Saya belajar pentingnya komunikasi” itu klise, bukan pelajaran."
          }
         }
        ],
@@ -7707,11 +7703,11 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "STAR+L adds the obstacle and the learning to the structure interviewers already score",
-          "id": "STAR+L menambahkan hambatan dan pembelajaran ke struktur yang sudah dinilai pewawancara"
+          "id": "STAR+L menambahkan hambatan dan pelajaran ke struktur yang sudah dipakai pewawancara untuk menilai"
          },
          "src": {
           "en": "A synthesis of the sources that add a reflective step to STAR (Ratigan; Verma; Graham’s SOART adds the Obstacle)",
-          "id": "Sintesis dari sumber yang menambah langkah reflektif ke STAR (Ratigan; Verma; SOART Graham menambah Hambatan)"
+          "id": "Rangkuman dari beberapa sumber yang menambahkan langkah refleksi pada STAR (Ratigan; Verma; SOART dari Graham menambahkan Hambatan)"
          },
          "layout": "grid",
          "items": [
@@ -7721,7 +7717,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Situasi",
            "d": {
             "en": "Two sentences of context: where, when, who.",
-            "id": "Dua kalimat konteks: di mana, kapan, siapa."
+            "id": "Dua kalimat latar: di mana, kapan, siapa saja."
            },
            "img": "../../assets/pe/ed-writing.jpg"
           },
@@ -7731,7 +7727,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Tugas",
            "d": {
             "en": "What you were responsible for, specifically.",
-            "id": "Apa yang menjadi tanggung jawabmu, secara spesifik."
+            "id": "Apa yang secara khusus menjadi tanggung jawabmu."
            },
            "img": "../../assets/bg/ep-stage-architecture.jpg"
           },
@@ -7741,17 +7737,17 @@ window.MT_LMS['the-rope'] = {
            "id": "Hambatan",
            "d": {
             "en": "Why it was not easy; the part that proves something.",
-            "id": "Mengapa tidak mudah; bagian yang membuktikan sesuatu."
+            "id": "Kenapa ini tidak mudah; bagian yang membuktikan sesuatu."
            },
            "img": "../../assets/bg/early-professional.jpg"
           },
           {
            "icon": "bolt",
            "en": "Action (with reasoning)",
-           "id": "Aksi (dengan alasan)",
+           "id": "Aksi (beserta alasan)",
            "d": {
             "en": "What you did, and why that rather than the alternatives.",
-            "id": "Apa yang kamu lakukan, dan mengapa itu, bukan pilihan lain."
+            "id": "Apa yang kamu lakukan, dan kenapa itu yang kamu pilih."
            },
            "img": "../../assets/pe/ed-conversations.jpg"
           },
@@ -7761,31 +7757,31 @@ window.MT_LMS['the-rope'] = {
            "id": "Hasil",
            "d": {
             "en": "What changed, with a figure where one exists.",
-            "id": "Apa yang berubah, dengan angka jika ada."
+            "id": "Apa yang berubah, dengan angka jika memang ada."
            },
            "img": "../../assets/pe/ed-startup.jpg"
           },
           {
            "icon": "cap",
            "en": "Learning",
-           "id": "Pembelajaran",
+           "id": "Pelajaran",
            "d": {
             "en": "A behaviour you have changed since, and where.",
-            "id": "Perilaku yang kamu ubah sejak itu, dan di mana."
+            "id": "Perilaku yang kamu ubah sejak itu, dan di mana kamu menerapkannya."
            },
            "img": "../../assets/bg/fg-stage-ascent.jpg"
           }
          ],
          "em": {
           "en": "the obstacle and the learning",
-          "id": "hambatan dan pembelajaran"
+          "id": "hambatan dan pelajaran"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Nearly half of every story should be what you did and why; most weak stories are 60% situation",
-          "id": "Hampir separuh setiap cerita adalah apa yang kamu lakukan dan mengapa, kebanyakan cerita lemah 60% situasi"
+          "id": "Hampir separuh cerita berisi apa yang kamu lakukan dan alasannya, sedangkan cerita yang lemah biasanya 60% situasi"
          },
          "img": "../../assets/bg/fg-sprint-interview.jpg",
          "layout": "bars",
@@ -7853,24 +7849,24 @@ window.MT_LMS['the-rope'] = {
            "u": "%",
            "d": {
             "en": "Learning",
-            "id": "Pembelajaran"
+            "id": "Pelajaran"
            }
           }
          ],
          "take": {
           "en": "Most weak stories are 60% situation and 0% personal action.",
-          "id": "Sebagian besar cerita lemah adalah 60% situasi dan 0% aksi pribadi."
+          "id": "Cerita yang lemah biasanya 60% situasi dan 0% tindakan pribadi."
          },
          "em": {
           "en": "most weak stories are 60% situation",
-          "id": "kebanyakan cerita lemah 60% situasi"
+          "id": "cerita yang lemah biasanya 60% situasi"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "A task without difficulty proves nothing; answer “why wasn’t this easy?” in one sentence",
-          "id": "Tugas tanpa kesulitan tidak membuktikan apa-apa; jawab “mengapa ini tidak mudah?” dalam satu kalimat"
+          "id": "Tugas tanpa kesulitan tidak membuktikan apa-apa; jawab “kenapa ini tidak mudah?” dalam satu kalimat"
          },
          "img": "../../assets/m/04-basecamp.jpg",
          "layout": "statement",
@@ -7878,12 +7874,12 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "mountain",
            "en": "A task without difficulty shows nothing",
-           "id": "Tugas tanpa kesulitan tidak menunjukkan apa pun"
+           "id": "Tugas yang tidak ada kesulitannya tidak menunjukkan apa-apa"
           }
          ],
          "take": {
           "en": "“Why wasn’t this easy?” One sentence.",
-          "id": "“Mengapa ini tidak mudah?” Satu kalimat."
+          "id": "“Kenapa ini tidak mudah?” Cukup satu kalimat."
          },
          "medal": "mountain",
          "em": {
@@ -7895,7 +7891,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Reasoning tells the interviewer whether your result was skill or luck",
-          "id": "Penalaran memberi tahu pewawancara apakah hasilmu karena keterampilan atau keberuntungan"
+          "id": "Alasan memberi tahu pewawancara apakah hasilmu berkat kemampuan atau kebetulan"
          },
          "img": "../../assets/bg/stage-execution.jpg",
          "layout": "statement",
@@ -7903,7 +7899,7 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "brain",
            "en": "Interviewers want to know if your good result was skill or luck.",
-           "id": "Pewawancara ingin tahu apakah hasil baikmu adalah keterampilan atau keberuntungan."
+           "id": "Pewawancara ingin tahu apakah hasil baikmu berkat kemampuan atau kebetulan."
           }
          ],
          "take": {
@@ -7913,14 +7909,14 @@ window.MT_LMS['the-rope'] = {
          "medal": "brain",
          "em": {
           "en": "skill or luck",
-          "id": "keterampilan atau keberuntungan"
+          "id": "kemampuan atau kebetulan"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "A learning is a specific behaviour change you have applied since, not a platitude",
-          "id": "Pembelajaran adalah perubahan perilaku spesifik yang sudah kamu terapkan, bukan basa-basi"
+          "id": "Pelajaran adalah perubahan perilaku spesifik yang sudah kamu terapkan, bukan kalimat klise"
          },
          "layout": "compare",
          "items": [
@@ -7928,17 +7924,17 @@ window.MT_LMS['the-rope'] = {
            "icon": "check",
            "l": {
             "en": "A learning",
-            "id": "Pembelajaran"
+            "id": "Pelajaran"
            },
            "en": "A specific behaviour change, and where you applied it since.",
-           "id": "Perubahan perilaku spesifik, dan di mana kamu menerapkannya sejak itu.",
+           "id": "Perubahan perilaku yang spesifik, dan di mana kamu sudah menerapkannya.",
            "img": "../../assets/bg/fg-sprint-positioning.jpg"
           },
           {
            "icon": "x",
            "l": {
             "en": "A platitude",
-            "id": "Basa-basi"
+            "id": "Klise"
            },
            "en": "“Saya belajar pentingnya komunikasi.”",
            "id": "“Saya belajar pentingnya komunikasi.”",
@@ -7947,11 +7943,11 @@ window.MT_LMS['the-rope'] = {
          ],
          "take": {
           "en": "“Saya belajar pentingnya komunikasi” is a platitude, not a learning.",
-          "id": "“Saya belajar pentingnya komunikasi” adalah basa-basi, bukan pembelajaran."
+          "id": "“Saya belajar pentingnya komunikasi” itu klise, bukan pelajaran."
          },
          "em": {
           "en": "not a platitude",
-          "id": "bukan basa-basi"
+          "id": "bukan kalimat klise"
          }
         }
        ]
@@ -7962,11 +7958,11 @@ window.MT_LMS['the-rope'] = {
       },
       "title": {
        "en": "Action carries the score",
-       "id": "Aksi memikul skornya"
+       "id": "Nilai ditentukan oleh tindakanmu"
       },
       "intro": {
        "en": "Six parts, one proportion rule: nearly half of every story is what you did and why.",
-       "id": "Enam bagian, satu aturan proporsi: hampir separuh setiap cerita adalah apa yang kamu lakukan dan mengapa."
+       "id": "Enam bagian, satu aturan proporsi: hampir separuh dari setiap cerita berisi apa yang kamu lakukan dan alasannya."
       },
       "slides": [
        {
@@ -7977,11 +7973,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Situation · Task · Obstacle · Action (with reasoning) · Result · Learning.",
-          "id": "Situasi · Tugas · Hambatan · Aksi (dengan alasan) · Hasil · Pembelajaran."
+          "id": "Situasi · Tugas · Hambatan · Aksi (beserta alasan) · Hasil · Pelajaran."
          },
          {
           "en": "A synthesis of the sources that add a reflective step to STAR (Ratigan; Verma; Graham’s SOART adds the Obstacle).",
-          "id": "Sintesis dari sumber yang menambah langkah reflektif ke STAR (Ratigan; Verma; SOART Graham menambah Hambatan)."
+          "id": "Rangkuman dari beberapa sumber yang menambahkan langkah refleksi pada STAR (Ratigan; Verma; SOART dari Graham menambahkan Hambatan)."
          }
         ]
        },
@@ -7997,7 +7993,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Most weak stories are 60% situation and 0% personal action.",
-          "id": "Sebagian besar cerita lemah adalah 60% situasi dan 0% aksi pribadi."
+          "id": "Cerita yang lemah biasanya 60% situasi dan 0% tindakan pribadi."
          }
         ]
        },
@@ -8009,11 +8005,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "A task without difficulty shows nothing.",
-          "id": "Tugas tanpa kesulitan tidak menunjukkan apa pun."
+          "id": "Tugas yang tidak ada kesulitannya tidak menunjukkan apa-apa."
          },
          {
           "en": "“Why wasn’t this easy?” One sentence.",
-          "id": "“Mengapa ini tidak mudah?” Satu kalimat."
+          "id": "“Kenapa ini tidak mudah?” Cukup satu kalimat."
          }
         ]
        },
@@ -8025,7 +8021,7 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Interviewers want to know if your good result was skill or luck.",
-          "id": "Pewawancara ingin tahu apakah hasil baikmu adalah keterampilan atau keberuntungan."
+          "id": "Pewawancara ingin tahu apakah hasil baikmu berkat kemampuan atau kebetulan."
          },
          {
           "en": "“…karena masalahnya ternyata di jam serah terima, bukan di jumlah orang.”",
@@ -8036,16 +8032,16 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "The L",
-         "id": "L-nya"
+         "id": "Huruf L"
         },
         "points": [
          {
           "en": "A specific behaviour change, and where you applied it since.",
-          "id": "Perubahan perilaku spesifik, dan di mana kamu menerapkannya sejak itu."
+          "id": "Perubahan perilaku yang spesifik, dan di mana kamu sudah menerapkannya sejak itu."
          },
          {
           "en": "“Saya belajar pentingnya komunikasi” is a platitude, not a learning.",
-          "id": "“Saya belajar pentingnya komunikasi” adalah basa-basi, bukan pembelajaran."
+          "id": "“Saya belajar pentingnya komunikasi” itu klise, bukan pelajaran."
          }
         ]
        }
@@ -8062,7 +8058,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "The Rope’s synthesis draws on several sources that add a reflective step to STAR <i>(Ratigan, Aced; Verma, Job Search Secrets; Graham’s SOART in Switchers adds the Obstacle; see Appendix C of the blueprint)</i>. The obstacle matters because a task without difficulty does not show anything; your reasoning matters because interviewers want to know whether your good result was skill or luck. The proportion column is the part most candidates have never seen, and it is the fastest single fix in the whole of The Rope.",
-        "id": "Sintesis The Rope mengambil dari beberapa sumber yang menambah langkah reflektif ke STAR <i>(Ratigan, Aced; Verma, Job Search Secrets; SOART Graham di Switchers menambah Hambatan; lihat Lampiran C cetak biru)</i>. Hambatan penting karena tugas tanpa kesulitan tidak menunjukkan apa pun; alasanmu penting karena pewawancara ingin tahu apakah hasil baikmu adalah keterampilan atau keberuntungan. Kolom proporsi adalah bagian yang belum pernah dilihat kebanyakan kandidat, dan itu perbaikan tunggal tercepat di seluruh The Rope."
+        "id": "Struktur The Rope merangkum beberapa sumber yang menambahkan langkah refleksi pada STAR <i>(Ratigan, Aced; Verma, Job Search Secrets; SOART dari Graham dalam Switchers menambahkan Hambatan; lihat Lampiran C cetak biru)</i>. Hambatan itu penting, karena tugas yang tidak ada kesulitannya tidak menunjukkan apa-apa. Alasanmu juga penting, karena pewawancara ingin tahu apakah hasil baikmu berkat kemampuan atau sekadar kebetulan. Kolom proporsi adalah bagian yang belum pernah dilihat kebanyakan kandidat, dan memperbaikinya adalah cara tercepat untuk menaikkan nilai di seluruh The Rope."
        },
        "table": {
         "cols": [
@@ -8091,7 +8087,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "When, where, who, scale (one or two sentences)",
-           "id": "Kapan, di mana, siapa, skala (satu atau dua kalimat)"
+           "id": "Kapan, di mana, siapa saja, seberapa besar (satu atau dua kalimat)"
           },
           {
            "en": "10%",
@@ -8099,7 +8095,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“Set the scene”",
-           "id": "“Gambarkan latarnya”"
+           "id": "“Gambarkan situasinya”"
           }
          ],
          [
@@ -8109,7 +8105,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "What <i>you</i> were responsible for, or what needed solving",
-           "id": "Apa yang menjadi tanggung jawab <i>kamu</i>, atau yang perlu dipecahkan"
+           "id": "Apa yang menjadi tanggung jawab<i>mu</i>, atau masalah yang perlu diselesaikan"
           },
           {
            "en": "10%",
@@ -8117,17 +8113,17 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“What was at stake for you?”",
-           "id": "“Apa yang dipertaruhkan bagimu?”"
+           "id": "“Apa taruhannya bagimu?”"
           }
          ],
          [
           {
            "en": "<b>O: Obstacle</b>",
-           "id": "<b>O: Hambatan</b>"
+           "id": "<b>H: Hambatan</b>"
           },
           {
            "en": "What made it hard (constraint, resistance, uncertainty)",
-           "id": "Apa yang membuatnya sulit (kendala, penolakan, ketidakpastian)"
+           "id": "Apa yang membuatnya sulit (keterbatasan, penolakan, ketidakpastian)"
           },
           {
            "en": "10%",
@@ -8135,7 +8131,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“Why wasn’t this easy?”",
-           "id": "“Mengapa ini tidak mudah?”"
+           "id": "“Kenapa ini tidak mudah?”"
           }
          ],
          [
@@ -8145,7 +8141,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "What <i>you</i> did, step by step, <b>and why</b>",
-           "id": "Apa yang <i>kamu</i> lakukan, langkah demi langkah, <b>dan mengapa</b>"
+           "id": "Apa yang <i>kamu</i> lakukan, langkah demi langkah, <b>dan alasannya</b>"
           },
           {
            "en": "<b>45%</b>",
@@ -8153,7 +8149,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“What did you do? Why that way?”",
-           "id": "“Apa yang Anda lakukan? Mengapa cara itu?”"
+           "id": "“Apa yang kamu lakukan? Kenapa dengan cara itu?”"
           }
          ],
          [
@@ -8163,7 +8159,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Outcome, measured where honest; observable otherwise",
-           "id": "Hasil, terukur jika jujur; teramati jika tidak"
+           "id": "Hasilnya, diukur jika jujur; jika tidak, yang terlihat"
           },
           {
            "en": "15%",
@@ -8171,17 +8167,17 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“What happened?”",
-           "id": "“Apa yang terjadi?”"
+           "id": "“Lalu apa yang terjadi?”"
           }
          ],
          [
           {
            "en": "<b>L: Learning</b>",
-           "id": "<b>L: Pembelajaran</b>"
+           "id": "<b>L: Pelajaran</b>"
           },
           {
            "en": "What you would do differently, and where you applied it since",
-           "id": "Apa yang akan kamu lakukan berbeda, dan di mana kamu menerapkannya sejak itu"
+           "id": "Apa yang akan kamu lakukan secara berbeda, dan di mana kamu sudah menerapkannya"
           },
           {
            "en": "10%",
@@ -8189,13 +8185,13 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“What did you take from it?”",
-           "id": "“Apa yang Anda ambil darinya?”"
+           "id": "“Apa yang kamu petik dari situ?”"
           }
          ]
         ],
         "caption": {
          "en": "STAR+L with an Obstacle. The Action row is the story; the rest is scaffolding.",
-         "id": "STAR+L dengan Hambatan. Baris Aksi adalah ceritanya; sisanya kerangka."
+         "id": "STAR+L dengan Hambatan. Baris Aksi adalah inti ceritanya; sisanya hanya kerangka."
         }
        }
       },
@@ -8203,21 +8199,21 @@ window.MT_LMS['the-rope'] = {
        "icon": "flag",
        "h": {
         "en": "The most common structural failures",
-        "id": "Kegagalan struktural paling umum"
+        "id": "Kesalahan struktur yang paling sering terjadi"
        },
        "body": {
         "en": "Five failures account for most low scores in the simulator’s logs. Each has a one-line fix.",
-        "id": "Lima kegagalan menyumbang sebagian besar skor rendah di catatan simulator. Masing-masing punya perbaikan satu baris."
+        "id": "Lima kesalahan ini menjadi penyebab sebagian besar nilai rendah dalam catatan simulator. Masing-masing bisa diperbaiki dengan satu langkah sederhana."
        },
        "table": {
         "cols": [
          {
           "en": "Failure",
-          "id": "Kegagalan"
+          "id": "Kesalahan"
          },
          {
           "en": "What it sounds like",
-          "id": "Terdengar seperti"
+          "id": "Contohnya"
          },
          {
           "en": "Fix",
@@ -8228,35 +8224,35 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "<b>Situation sprawl</b>",
-           "id": "<b>Situasi melebar</b>"
+           "id": "<b>Situasi bertele-tele</b>"
           },
           {
            "en": "Forty seconds of background before any action",
-           "id": "Empat puluh detik latar sebelum aksi apa pun"
+           "id": "Empat puluh detik latar belakang sebelum ada satu pun tindakan"
           },
           {
            "en": "Two sentences maximum; the interviewer will ask if they need more",
-           "id": "Maksimal dua kalimat; pewawancara akan bertanya jika perlu lebih"
+           "id": "Maksimal dua kalimat; pewawancara akan bertanya kalau butuh detail lain"
           }
          ],
          [
           {
            "en": "<b>Team fog</b>",
-           "id": "<b>Kabut tim</b>"
+           "id": "<b>Tenggelam dalam “kami”</b>"
           },
           {
            "en": "Actions described as “kami”",
-           "id": "Aksi digambarkan sebagai “kami”"
+           "id": "Semua tindakan diceritakan sebagai “kami”"
           },
           {
            "en": "we → I → we (Lesson 1.2)",
-           "id": "kami → saya → kami (Pelajaran 1.2)"
+           "id": "Pola kami → saya → kami (Pelajaran 1.2)"
           }
          ],
          [
           {
            "en": "<b>Action without reasoning</b>",
-           "id": "<b>Aksi tanpa alasan</b>"
+           "id": "<b>Tindakan tanpa alasan</b>"
           },
           {
            "en": "“Saya buat jadwal baru.”",
@@ -8270,21 +8266,21 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "<b>Missing result</b>",
-           "id": "<b>Hasil hilang</b>"
+           "id": "<b>Hasil tidak disebut</b>"
           },
           {
            "en": "Stopping at “and then we did the event”",
-           "id": "Berhenti di “lalu kami mengadakan acaranya”"
+           "id": "Berhenti di “lalu acaranya kami jalankan”"
           },
           {
            "en": "What changed? For whom? How much?",
-           "id": "Apa yang berubah? Untuk siapa? Berapa banyak?"
+           "id": "Apa yang berubah? Bagi siapa? Seberapa banyak?"
           }
          ],
          [
           {
            "en": "<b>Generic learning</b>",
-           "id": "<b>Pembelajaran generik</b>"
+           "id": "<b>Pelajaran yang klise</b>"
           },
           {
            "en": "“Saya belajar pentingnya komunikasi.”",
@@ -8292,7 +8288,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "A specific behaviour change; “sejak itu, saya selalu minta konfirmasi tertulis untuk setiap komitmen sponsor.”",
-           "id": "Perubahan perilaku spesifik: “sejak itu, saya selalu minta konfirmasi tertulis untuk setiap komitmen sponsor.”"
+           "id": "Perubahan perilaku yang spesifik: “sejak itu, saya selalu minta konfirmasi tertulis untuk setiap komitmen sponsor.”"
           }
          ]
         ]
@@ -8302,11 +8298,11 @@ window.MT_LMS['the-rope'] = {
        "icon": "chart",
        "h": {
         "en": "Results without inventing numbers",
-        "id": "Hasil tanpa mengarang angka"
+        "id": "Menyampaikan hasil tanpa mengarang angka"
        },
        "body": {
         "en": "Honest quantification comes in five kinds: <b>counts</b> (people, transactions, events), <b>time</b> (hours saved, days early), <b>money</b> (raised, saved), <b>percentages</b> (only if you actually measured), and <b>scale</b> (1,200 participants). When there is no number, there are observable outcomes: adopted by others, asked to repeat it, feedback received, a problem that stopped recurring. <b>Never estimate a number you cannot defend under a probe.</b> “Kira-kira” is acceptable only if you can explain how you estimated, “about thirty minutes a day, because the teller told me each correction took ten to fifteen minutes and there were two or three a day”. The simulator credits numbers only inside a result sentence (Lesson 1.2); a digit anywhere else does nothing, and an invented one fails at “how did you measure that?”.",
-        "id": "Kuantifikasi jujur datang dalam lima jenis: <b>hitungan</b> (orang, transaksi, acara), <b>waktu</b> (jam dihemat, hari lebih awal), <b>uang</b> (dikumpulkan, dihemat), <b>persentase</b> (hanya jika kamu benar-benar mengukur), dan <b>skala</b> (1.200 peserta). Saat tidak ada angka, ada hasil yang teramati: diadopsi orang lain, diminta mengulang, umpan balik diterima, masalah yang berhenti berulang. <b>Jangan pernah memperkirakan angka yang tidak bisa kamu pertahankan saat digali.</b> “Kira-kira” boleh hanya jika kamu bisa menjelaskan cara memperkirakannya, “sekitar tiga puluh menit sehari, karena teller bilang tiap koreksi butuh sepuluh sampai lima belas menit dan ada dua atau tiga sehari”. Simulator menghargai angka hanya di dalam kalimat hasil (Pelajaran 1.2); digit di tempat lain tidak berpengaruh, dan yang dikarang gagal di “bagaimana Anda mengukurnya?”."
+        "id": "Ada lima jenis angka yang bisa kamu sampaikan dengan jujur: <b>jumlah</b> (orang, transaksi, acara), <b>waktu</b> (jam yang dihemat, selesai berapa hari lebih cepat), <b>uang</b> (yang terkumpul atau yang dihemat), <b>persentase</b> (hanya jika kamu benar-benar mengukurnya), dan <b>skala</b> (1.200 peserta). Kalau tidak ada angkanya, masih ada hasil yang bisa dilihat: caramu ditiru orang lain, kamu diminta mengulanginya, ada tanggapan yang kamu terima, atau masalahnya tidak muncul lagi. <b>Jangan pernah menyebut perkiraan angka yang tidak bisa kamu pertanggungjawabkan saat digali.</b> “Kira-kira” boleh dipakai asalkan kamu bisa menjelaskan cara menghitungnya, misalnya “sekitar tiga puluh menit sehari, karena teller bilang tiap koreksi butuh sepuluh sampai lima belas menit dan sehari ada dua atau tiga kali”. Simulator hanya menghitung angka yang muncul di kalimat hasil (Pelajaran 1.2). Angka di bagian lain tidak berpengaruh, dan angka karangan akan runtuh saat ditanya “bagaimana Anda mengukurnya?”."
        },
        "table": {
         "cols": [
@@ -8316,18 +8312,18 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Honest example",
-          "id": "Contoh jujur"
+          "id": "Contoh yang jujur"
          },
          {
           "en": "Dishonest version",
-          "id": "Versi tidak jujur"
+          "id": "Versi yang tidak jujur"
          }
         ],
         "rows": [
          [
           {
            "en": "Count",
-           "id": "Hitungan"
+           "id": "Jumlah"
           },
           {
            "en": "“Rp 85 juta from eleven sponsors”",
@@ -8345,17 +8341,17 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“about thirty minutes a day, from the teller’s own estimate”",
-           "id": "“sekitar tiga puluh menit sehari, dari perkiraan teller sendiri”"
+           "id": "“sekitar tiga puluh menit sehari, berdasarkan perkiraan teller sendiri”"
           },
           {
            "en": "“a 40% efficiency uplift”",
-           "id": "“peningkatan efisiensi 40%”"
+           "id": "“efisiensi naik 40%”"
           }
          ],
          [
           {
            "en": "Observable",
-           "id": "Teramati"
+           "id": "Bisa dilihat"
           },
           {
            "en": "“the checklist is still used by the branch team”",
@@ -8363,7 +8359,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“significantly improved operations”",
-           "id": "“meningkatkan operasional secara signifikan”"
+           "id": "“operasional meningkat signifikan”"
           }
          ],
          [
@@ -8373,11 +8369,11 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "“attendance rose from 60% to 85%, we counted”",
-           "id": "“kehadiran naik dari 60% ke 85%, kami menghitung”"
+           "id": "“kehadiran naik dari 60% ke 85%, kami menghitungnya”"
           },
           {
            "en": "“roughly doubled”, never counted",
-           "id": "“kira-kira dua kali lipat”, tidak pernah dihitung"
+           "id": "“naik kira-kira dua kali lipat”, padahal tidak pernah dihitung"
           }
          ]
         ]
@@ -8387,22 +8383,22 @@ window.MT_LMS['the-rope'] = {
        "icon": "clock",
        "h": {
         "en": "Timing",
-        "id": "Waktu"
+        "id": "Durasi"
        },
        "body": {
         "en": "A full STAR+L story should take <b>60–90 seconds</b>: about 150–220 words spoken. Longer answers lose the interviewer; shorter ones usually skip the reasoning. Ryan’s “60-second rule” makes the same point about keeping answers focused and inviting the interviewer to ask for more <i>(Ryan, 60 Seconds & You’re Hired!)</i>: a story that ends cleanly at ninety seconds hands the turn back, and the interviewer’s next probe tells you exactly which part they want expanded. A story that runs to three minutes has answered probes nobody asked and left no room for the ones they will. The simulator times every answer against a 60–90 second target band and shows where the time went by part.",
-        "id": "Cerita STAR+L lengkap seharusnya memakan <b>60–90 detik</b>: sekitar 150–220 kata diucapkan. Jawaban lebih panjang kehilangan pewawancara; yang lebih pendek biasanya melewati alasan. “Aturan 60 detik” Ryan menegaskan hal yang sama tentang menjaga jawaban fokus dan mengundang pewawancara meminta lebih <i>(Ryan, 60 Seconds & You’re Hired!)</i>: cerita yang berakhir rapi di sembilan puluh detik mengembalikan giliran, dan galian berikutnya pewawancara memberitahumu persis bagian mana yang ingin diperluas. Cerita yang berjalan tiga menit sudah menjawab galian yang tidak ditanyakan dan tidak menyisakan ruang untuk yang akan ditanyakan. Simulator mengukur setiap jawaban terhadap pita target 60–90 detik dan menunjukkan ke mana waktunya pergi per bagian."
+        "id": "Satu cerita STAR+L yang lengkap sebaiknya berlangsung <b>60–90 detik</b>, atau sekitar 150–220 kata saat diucapkan. Kalau lebih panjang, perhatian pewawancara mulai hilang. Kalau lebih pendek, biasanya alasannya terlewat. “Aturan 60 detik” dari Ryan menyampaikan hal serupa: jaga jawaban tetap fokus, lalu biarkan pewawancara meminta detail tambahan <i>(Ryan, 60 Seconds & You’re Hired!)</i>. Cerita yang selesai dengan rapi di detik kesembilan puluh memberi giliran kembali kepada pewawancara, dan pertanyaan galian berikutnya akan memberitahumu bagian mana yang ingin mereka dengar lebih jauh. Cerita yang berlangsung tiga menit sudah menjawab hal yang tidak ditanyakan dan tidak menyisakan ruang untuk pertanyaan yang sebenarnya akan datang. Simulator mencatat durasi setiap jawaban terhadap target 60–90 detik dan menunjukkan berapa lama waktu yang terpakai di setiap bagian."
        }
       },
       {
        "icon": "users",
        "h": {
         "en": "Memorise facts, not sentences",
-        "id": "Hafalkan fakta, bukan kalimat"
+        "id": "Hafalkan faktanya, bukan kalimatnya"
        },
        "body": {
         "en": "Some sources encourage memorised model answers <i>(Van Nas, Interview Like a Boss)</i>; others warn that recruiters spot templates instantly <i>(Ryan; Graham)</i>. The Rope resolves it: memorise the <b>facts</b> and the <b>structure</b>, the date, the number, the three actions in order, the one sentence of learning, and let the sentences form in the room. A story told from facts sounds different every time and survives interruption; a story told from a script breaks when the interviewer cuts in at sentence four, and the simulator’s natural-variation indicator flags takes that overlap more than nine-tenths with the last one. This is also why STAR+L is written as a table in the Story Bank, not as a paragraph.",
-        "id": "Beberapa sumber menganjurkan jawaban model yang dihafal <i>(Van Nas, Interview Like a Boss)</i>; yang lain memperingatkan rekruter langsung mengenali templat <i>(Ryan; Graham)</i>. The Rope menyelesaikannya: hafalkan <b>fakta</b> dan <b>struktur</b>, tanggal, angka, tiga aksi berurutan, satu kalimat pembelajaran, dan biarkan kalimatnya terbentuk di ruangan. Cerita yang diceritakan dari fakta terdengar berbeda setiap kali dan bertahan saat disela; cerita dari naskah patah saat pewawancara memotong di kalimat keempat, dan indikator variasi alami simulator menandai rekaman yang tumpang tindih lebih dari sembilan per sepuluh dengan yang terakhir. Inilah juga mengapa STAR+L ditulis sebagai tabel di Bank Cerita, bukan sebagai paragraf."
+        "id": "Sebagian sumber menyarankan menghafal contoh jawaban <i>(Van Nas, Interview Like a Boss)</i>, sementara yang lain mengingatkan bahwa perekrut langsung tahu kalau jawabannya hafalan <i>(Ryan; Graham)</i>. The Rope mengambil jalan tengah: hafalkan <b>fakta</b> dan <b>strukturnya</b>, yaitu tanggal, angka, tiga tindakan secara berurutan, dan satu kalimat pelajaran, lalu biarkan kalimatnya mengalir saat wawancara. Cerita yang bertumpu pada fakta akan terdengar sedikit berbeda setiap kali diceritakan dan tetap utuh saat disela. Cerita yang bertumpu pada naskah akan buyar begitu pewawancara memotong di kalimat keempat. Indikator variasi alami di simulator juga akan menandai rekaman yang lebih dari sembilan puluh persen sama dengan rekaman sebelumnya. Karena itu pula, STAR+L di Bank Cerita ditulis dalam bentuk tabel, bukan paragraf."
        }
       }
      ],
@@ -8410,11 +8406,11 @@ window.MT_LMS['the-rope'] = {
       "type": "ladder",
       "exhibit": {
        "en": "Exhibit 1: The proportion bar",
-       "id": "Peraga 1: Bilah proporsi"
+       "id": "Peraga 1: Batang proporsi"
       },
       "title": {
        "en": "Where the ninety seconds go, Action is nearly half",
-       "id": "Ke mana sembilan puluh detik pergi, Aksi hampir separuh"
+       "id": "Ke mana sembilan puluh detik itu pergi: hampir separuhnya untuk Aksi"
       },
       "items": [
        {
@@ -8425,7 +8421,7 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "About nine seconds. When, where, who, scale.",
-         "id": "Sekitar sembilan detik. Kapan, di mana, siapa, skala."
+         "id": "Sekitar sembilan detik. Kapan, di mana, siapa saja, seberapa besar."
         }
        },
        {
@@ -8443,11 +8439,11 @@ window.MT_LMS['the-rope'] = {
         "icon": "flag",
         "h": {
          "en": "O · Obstacle · 10%",
-         "id": "O · Hambatan · 10%"
+         "id": "H · Hambatan · 10%"
         },
         "sub": {
          "en": "Why it was not easy.",
-         "id": "Mengapa tidak mudah."
+         "id": "Kenapa ini tidak mudah."
         }
        },
        {
@@ -8458,7 +8454,7 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "About forty seconds. What you did, step by step, and why each step.",
-         "id": "Sekitar empat puluh detik. Apa yang kamu lakukan, langkah demi langkah, dan mengapa tiap langkah."
+         "id": "Sekitar empat puluh detik. Apa yang kamu lakukan, langkah demi langkah, dan alasan setiap langkah."
         }
        },
        {
@@ -8469,28 +8465,28 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Measured where honest; observable otherwise.",
-         "id": "Terukur jika jujur; teramati jika tidak."
+         "id": "Diukur jika bisa dengan jujur; jika tidak, sebutkan yang terlihat."
         }
        },
        {
         "icon": "book",
         "h": {
          "en": "L · Learning · 10%",
-         "id": "L · Pembelajaran · 10%"
+         "id": "L · Pelajaran · 10%"
         },
         "sub": {
          "en": "A behaviour change, applied since.",
-         "id": "Perubahan perilaku, diterapkan sejak itu."
+         "id": "Perubahan perilaku yang sudah kamu terapkan."
         }
        }
       ],
       "note": {
        "en": "The simulator draws this bar for every answer. Most first attempts show S at 50% and A at 10%.",
-       "id": "Simulator menggambar bilah ini untuk setiap jawaban. Sebagian besar percobaan pertama menunjukkan S 50% dan A 10%."
+       "id": "Simulator menggambar batang ini untuk setiap jawaban. Percobaan pertama biasanya menunjukkan S 50% dan A hanya 10%."
       },
       "longdesc": {
        "en": "A six-segment bar for a ninety-second story: Situation ten percent, Task ten, Obstacle ten, Action forty-five (the largest, highlighted), Result fifteen, Learning ten.",
-       "id": "Bilah enam segmen untuk cerita sembilan puluh detik: Situasi sepuluh persen, Tugas sepuluh, Hambatan sepuluh, Aksi empat puluh lima (terbesar, disorot), Hasil lima belas, Pembelajaran sepuluh."
+       "id": "Batang enam bagian untuk cerita sembilan puluh detik: Situasi sepuluh persen, Tugas sepuluh, Hambatan sepuluh, Aksi empat puluh lima (bagian terbesar dan disorot), Hasil lima belas, Pelajaran sepuluh."
       }
      },
      "compare": [
@@ -8501,7 +8497,7 @@ window.MT_LMS['the-rope'] = {
        },
        "q": {
         "en": "The same sponsorship story from Nadia’s Core 10, told twice. Mark each sentence S/T/O/A/R/L as you read.",
-        "id": "Cerita sponsorship yang sama dari Core 10 Nadia, diceritakan dua kali. Tandai tiap kalimat S/T/O/A/R/L sambil membaca."
+        "id": "Cerita sponsorship yang sama dari Core 10 Nadia, diceritakan dua kali. Sambil membaca, tandai setiap kalimat dengan S/T/H/A/R/L."
        },
        "weak": {
         "en": "“Jadi waktu itu saya di HIMA, kami ada acara kompetisi nasional, pesertanya banyak, dari 30 kampus, dan acaranya sudah direncanakan dari 6 bulan sebelumnya, terus ternyata ada masalah dengan sponsor, lalu kami semua kerja keras dan akhirnya acaranya sukses. Saya belajar bahwa kerja tim itu penting.”",
@@ -8509,11 +8505,11 @@ window.MT_LMS['the-rope'] = {
        },
        "strong": {
         "en": "“[S] Tiga minggu sebelum kompetisi nasional kami, 1.200 peserta, sponsor utama mundur, dan kami kekurangan Rp25 juta dari target Rp85 juta. [T] Saya kepala sponsorship, jadi menutup kekurangan itu tanggung jawab saya. [O] Masalahnya, kebanyakan perusahaan sudah menutup anggaran CSR mereka. [A] Saya putuskan tidak mencari satu sponsor besar pengganti, karena itu terlalu lambat. Saya pecah jadi paket kecil Rp5–10 juta dan fokus ke UMKM dan alumni yang pernah ikut kompetisi. Mereka bisa memutuskan dalam hitungan hari, bukan minggu. Saya bagi tim enam orang jadi tiga pasang, masing-masing sepuluh kontak per hari, dan saya pegang tracker bersama supaya tidak ada yang dihubungi dua kali. [R] Dalam 16 hari kami menutup kekurangannya, total sebelas sponsor, Rp85 juta, dan acara jalan tanpa memotong hadiah. [L] Yang saya ubah sejak itu: saya selalu punya daftar cadangan sponsor sejak awal. Di acara berikutnya kami tidak pernah bergantung pada satu sponsor lagi.”",
-        "id": "“[S] Tiga minggu sebelum kompetisi nasional kami, 1.200 peserta, sponsor utama mundur, dan kami kekurangan Rp25 juta dari target Rp85 juta. [T] Saya kepala sponsorship, jadi menutup kekurangan itu tanggung jawab saya. [O] Masalahnya, kebanyakan perusahaan sudah menutup anggaran CSR mereka. [A] Saya putuskan tidak mencari satu sponsor besar pengganti, karena itu terlalu lambat. Saya pecah jadi paket kecil Rp5–10 juta dan fokus ke UMKM dan alumni yang pernah ikut kompetisi. Mereka bisa memutuskan dalam hitungan hari, bukan minggu. Saya bagi tim enam orang jadi tiga pasang, masing-masing sepuluh kontak per hari, dan saya pegang tracker bersama supaya tidak ada yang dihubungi dua kali. [R] Dalam 16 hari kami menutup kekurangannya, total sebelas sponsor, Rp85 juta, dan acara jalan tanpa memotong hadiah. [L] Yang saya ubah sejak itu: saya selalu punya daftar cadangan sponsor sejak awal. Di acara berikutnya kami tidak pernah bergantung pada satu sponsor lagi.”"
+        "id": "“[S] Tiga minggu sebelum kompetisi nasional kami, 1.200 peserta, sponsor utama mundur, dan kami kekurangan Rp25 juta dari target Rp85 juta. [T] Saya kepala sponsorship, jadi menutup kekurangan itu tanggung jawab saya. [H] Masalahnya, kebanyakan perusahaan sudah menutup anggaran CSR mereka. [A] Saya putuskan tidak mencari satu sponsor besar pengganti, karena itu terlalu lambat. Saya pecah jadi paket kecil Rp5–10 juta dan fokus ke UMKM dan alumni yang pernah ikut kompetisi. Mereka bisa memutuskan dalam hitungan hari, bukan minggu. Saya bagi tim enam orang jadi tiga pasang, masing-masing sepuluh kontak per hari, dan saya pegang tracker bersama supaya tidak ada yang dihubungi dua kali. [R] Dalam 16 hari kami menutup kekurangannya, total sebelas sponsor, Rp85 juta, dan acara jalan tanpa memotong hadiah. [L] Yang saya ubah sejak itu: saya selalu punya daftar cadangan sponsor sejak awal. Di acara berikutnya kami tidak pernah bergantung pada satu sponsor lagi.”"
        },
        "why": {
         "en": "The weak version is roughly seventy percent situation, zero percent personal action, and ends on a platitude. A 2 at best. The strong version has a compact situation, an explicit obstacle, an action that is half the answer and includes the <i>why</i> of each choice (“karena itu terlalu lambat”; “supaya tidak ada yang dihubungi dua kali”), a measured result using only Nadia’s real numbers, and a learning that is a behaviour, applied. About 190 words, inside the 60–90 second band.",
-        "id": "Versi lemah kira-kira tujuh puluh persen situasi, nol persen aksi pribadi, dan berakhir dengan basa-basi, paling tinggi 2. Versi kuat punya situasi ringkas, hambatan eksplisit, aksi yang separuh jawaban dan memuat <i>mengapa</i> tiap pilihan (“karena itu terlalu lambat”; “supaya tidak ada yang dihubungi dua kali”), hasil terukur yang hanya memakai angka nyata Nadia, dan pembelajaran yang berupa perilaku, diterapkan. Sekitar 190 kata, di dalam pita 60–90 detik."
+        "id": "Versi yang lemah kira-kira tujuh puluh persen berisi situasi, tidak ada tindakan pribadi sama sekali, dan ditutup dengan kalimat klise. Paling tinggi nilainya 2. Versi yang kuat punya situasi yang ringkas, hambatan yang disebut jelas, dan bagian aksi yang mengisi separuh jawaban lengkap dengan <i>alasan</i> setiap pilihan (“karena itu terlalu lambat”; “supaya tidak ada yang dihubungi dua kali”). Hasilnya terukur dan hanya memakai angka nyata milik Nadia, dan pelajarannya berupa perilaku yang sudah diterapkan. Panjangnya sekitar 190 kata, masih dalam rentang 60–90 detik."
        }
       }
      ],
@@ -8521,16 +8517,16 @@ window.MT_LMS['the-rope'] = {
       "icon": "clock",
       "title": {
        "en": "In focus: 2 min 40 s, of which 1 min 30 s is the situation",
-       "id": "Sorotan: 2 mnt 40 dtk, yang 1 mnt 30 dtk adalah situasi"
+       "id": "Kisah Nadia: 2 menit 40 detik, dan 1 menit 30 detik di antaranya situasi"
       },
       "body": [
        {
         "en": "Nadia records her sponsor story for the first time: 2 minutes 40 seconds, of which 1 minute 30 seconds is the situation, the competition, its history, the sponsors, the team. The simulator’s debrief shows the proportion bar: S 56%, A 12%, no O, R at the very end, L a platitude. Her personal actions are there, but they arrive at second 110, when an interviewer would already have cut in.",
-        "id": "Nadia merekam cerita sponsornya untuk pertama kali: 2 menit 40 detik, yang 1 menit 30 detik adalah situasi, kompetisinya, sejarahnya, sponsornya, timnya. Debrief simulator menunjukkan bilah proporsi: S 56%, A 12%, tanpa O, R di paling akhir, L basa-basi. Aksi pribadinya ada, tetapi tiba di detik ke-110, saat pewawancara sudah akan memotong."
+        "id": "Nadia merekam cerita sponsornya untuk pertama kali. Durasinya 2 menit 40 detik, dan 1 menit 30 detik habis untuk situasi: kompetisinya, sejarahnya, para sponsor, timnya. Ulasan simulator menampilkan batang proporsinya: S 56%, A 12%, tanpa H, R baru muncul di akhir, dan L berupa kalimat klise. Tindakan pribadinya sebenarnya ada, tetapi baru muncul di detik ke-110, saat pewawancara mungkin sudah memotong."
        },
        {
         "en": "She rewrites from the STAR+L table, not from the recording: two sentences of situation, one of obstacle, the three actions with their reasons, the result with the real numbers, one learning. The second take is 85 seconds with Action at 48%. Nothing in the story changed; only where the time went.",
-        "id": "Ia menulis ulang dari tabel STAR+L, bukan dari rekaman: dua kalimat situasi, satu hambatan, tiga aksi dengan alasannya, hasil dengan angka nyata, satu pembelajaran. Rekaman kedua 85 detik dengan Aksi 48%. Tidak ada yang berubah dalam ceritanya; hanya ke mana waktunya pergi."
+        "id": "Ia menulis ulang ceritanya dari tabel STAR+L, bukan dari rekaman: dua kalimat situasi, satu kalimat hambatan, tiga tindakan beserta alasannya, hasil dengan angka yang sebenarnya, dan satu pelajaran. Rekaman keduanya berdurasi 85 detik, dengan Aksi 48%. Isi ceritanya sama sekali tidak berubah. Yang berubah hanya ke mana waktunya dipakai."
        }
       ]
      },
@@ -8542,39 +8538,39 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Take the weak example in the compare above. Mark each sentence S, T, O, A, R or L, count the words in each part, and compute the proportions.",
-        "id": "Ambil contoh lemah di perbandingan di atas. Tandai tiap kalimat S, T, O, A, R, atau L, hitung kata di tiap bagian, dan hitung proporsinya."
+        "id": "Ambil contoh yang lemah di perbandingan di atas. Tandai setiap kalimat dengan S, T, H, A, R, atau L, hitung jumlah kata di setiap bagian, lalu hitung proporsinya."
        },
        "debrief": {
         "en": "Roughly 70% situation (everything up to “masalah dengan sponsor”), 0% task, 0% obstacle stated as an obstacle (the sponsor problem is mentioned as more situation), about 10% action, and it is “kami semua kerja keras”, which is not an action, 10% result without content (“sukses”), 10% generic learning. The rebalanced story needs the same facts moved, not new facts added.",
-        "id": "Kira-kira 70% situasi (semua sampai “masalah dengan sponsor”), 0% tugas, 0% hambatan yang dinyatakan sebagai hambatan (masalah sponsor disebut sebagai situasi lagi), sekitar 10% aksi, dan itu “kami semua kerja keras”, yang bukan aksi, 10% hasil tanpa isi (“sukses”), 10% pembelajaran generik. Cerita yang diseimbangkan butuh fakta yang sama dipindahkan, bukan fakta baru ditambahkan."
+        "id": "Kira-kira 70% situasi (semua kalimat sampai “masalah dengan sponsor”), 0% tugas, dan 0% hambatan, karena masalah sponsor hanya disebut sebagai bagian dari situasi. Aksinya sekitar 10%, dan isinya “kami semua kerja keras”, yang sebenarnya bukan tindakan. Hasilnya 10% tanpa isi (“sukses”), dan pelajarannya 10% yang klise. Untuk memperbaikinya, kamu cukup memindahkan fakta yang sama, bukan menambah fakta baru."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Write two of your Core 10 in STAR+L",
-        "id": "Latihan 2 · Tulis dua Core 10-mu dalam STAR+L"
+        "id": "Latihan 2 · Tulis dua cerita Core 10 dengan STAR+L"
        },
        "body": {
         "en": "Using the STAR+L card in the resources, write two stories from your coverage grid as six labelled rows, not as a paragraph. Put a reason next to every action. Put the honest kind of result (count, time, money, percentage, observable) next to the R.",
-        "id": "Dengan kartu STAR+L di sumber, tulis dua cerita dari kisi cakupanmu sebagai enam baris berlabel, bukan sebagai paragraf. Letakkan alasan di sebelah setiap aksi. Letakkan jenis hasil yang jujur (hitungan, waktu, uang, persentase, teramati) di sebelah R."
+        "id": "Pakai kartu STAR+L di bagian sumber. Tulis dua cerita dari kisi cakupanmu dalam enam baris berlabel, bukan dalam bentuk paragraf. Tulis alasan di samping setiap tindakan. Di samping R, tulis jenis hasil yang jujur (jumlah, waktu, uang, persentase, atau hasil yang terlihat)."
        },
        "debrief": {
         "en": "Check three things. Does the A row have at least three actions, each with a “karena/supaya”? If not, the story is a list of events, not decisions. Does the R row have a kind next to it? If the kind is “percentage” and you did not measure, change it to observable. Is the L a behaviour you have actually repeated since? If you cannot name where, it is a platitude; find the smaller, truer learning.",
-        "id": "Periksa tiga hal. Apakah baris A punya setidaknya tiga aksi, masing-masing dengan “karena/supaya”? Jika tidak, ceritanya daftar peristiwa, bukan keputusan. Apakah baris R punya jenis di sebelahnya? Jika jenisnya “persentase” dan kamu tidak mengukur, ubah ke teramati. Apakah L adalah perilaku yang benar-benar kamu ulangi sejak itu? Jika tidak bisa menyebut di mana, itu basa-basi; temukan pembelajaran yang lebih kecil dan lebih benar."
+        "id": "Periksa tiga hal. Apakah baris A berisi minimal tiga tindakan, masing-masing dengan “karena” atau “supaya”? Kalau belum, ceritamu baru daftar kejadian, belum berisi keputusan. Apakah jenis hasilnya sudah ditulis di baris R? Kalau jenisnya “persentase” padahal kamu tidak pernah mengukurnya, ganti menjadi hasil yang terlihat. Apakah L berupa perilaku yang benar-benar sudah kamu ulangi sejak itu? Kalau kamu tidak bisa menyebut di mana kamu menerapkannya, berarti itu masih klise. Carilah pelajaran yang lebih kecil tetapi lebih jujur."
        }
       },
       {
        "h": {
         "en": "Drill 3 · Say it in 90 seconds",
-        "id": "Latihan 3 · Ucapkan dalam 90 detik"
+        "id": "Latihan 3 · Ceritakan dalam 90 detik"
        },
        "body": {
         "en": "Record one of the two stories in the simulator with the timer visible. Speak from the six rows, not from a script. Then read the debrief’s duration, the proportion bar and the “saya/kami” count.",
-        "id": "Rekam salah satu dari dua cerita di simulator dengan pengatur waktu terlihat. Bicara dari enam baris, bukan dari naskah. Lalu baca durasi debrief, bilah proporsi, dan hitungan “saya/kami”."
+        "id": "Rekam salah satu dari dua cerita itu di simulator dengan pengatur waktu yang terlihat. Bicaralah berdasarkan enam baris tadi, bukan dari naskah. Lalu periksa durasi, batang proporsi, dan jumlah “saya/kami” di ulasannya."
        },
        "debrief": {
         "en": "The simulator shows duration, the “saya/kami” ratio, and whether reasoning markers (“karena”, “supaya”, “because”, “so that”) were detected. Three common results and their fixes: over two minutes with S above 30%. Cut the situation to two sentences; under fifty seconds. The A row was told as a list, add the reasons back; “kami” above “saya”, retell the A row in first person and put the “kami” at the ends.",
-        "id": "Simulator menunjukkan durasi, rasio “saya/kami”, dan apakah penanda alasan (“karena”, “supaya”, “because”, “so that”) terdeteksi. Tiga hasil umum dan perbaikannya: lebih dari dua menit dengan S di atas 30%, pangkas situasi ke dua kalimat; di bawah lima puluh detik, baris A diceritakan sebagai daftar, kembalikan alasannya; “kami” di atas “saya”, ceritakan ulang baris A dalam orang pertama dan letakkan “kami” di ujung-ujungnya."
+        "id": "Simulator menampilkan durasi, perbandingan “saya/kami”, dan apakah penanda alasan (“karena”, “supaya”, “because”, “so that”) terdeteksi. Ada tiga hasil yang sering muncul. Lebih dari dua menit dengan S di atas 30%: pangkas situasi menjadi dua kalimat. Kurang dari lima puluh detik: baris A diceritakan seperti daftar, jadi tambahkan lagi alasannya. “Kami” lebih banyak daripada “saya”: ceritakan ulang baris A dengan “saya”, dan simpan “kami” untuk awal dan akhir."
        }
       }
      ],
@@ -8587,37 +8583,37 @@ window.MT_LMS['the-rope'] = {
         },
         "fix": {
          "en": "It sounds recited and breaks when interrupted; memorise facts and structure.",
-         "id": "Terdengar dibacakan dan patah saat disela; hafalkan fakta dan struktur."
+         "id": "Terdengar seperti membaca dan buyar saat disela. Hafalkan fakta dan strukturnya saja."
         }
        },
        {
         "h": {
          "en": "Leaving out the obstacle",
-         "id": "Meninggalkan hambatan"
+         "id": "Melewatkan hambatan"
         },
         "fix": {
          "en": "One sentence: why it was not easy.",
-         "id": "Satu kalimat: mengapa tidak mudah."
+         "id": "Cukup satu kalimat: kenapa ini tidak mudah."
         }
        },
        {
         "h": {
          "en": "“We” throughout",
-         "id": "“Kami” di sepanjang cerita"
+         "id": "“Kami” dari awal sampai akhir"
         },
         "fix": {
          "en": "we → I → we; the A row in first person.",
-         "id": "kami → saya → kami; baris A dalam orang pertama."
+         "id": "Pakai pola kami → saya → kami; ceritakan baris A dengan “saya”."
         }
        },
        {
         "h": {
          "en": "A learning that is a platitude",
-         "id": "Pembelajaran yang basa-basi"
+         "id": "Pelajaran yang klise"
         },
         "fix": {
          "en": "A behaviour change and where you applied it since.",
-         "id": "Perubahan perilaku dan di mana kamu menerapkannya sejak itu."
+         "id": "Sebutkan perubahan perilaku dan di mana kamu sudah menerapkannya."
         }
        }
       ]
@@ -8630,7 +8626,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Situation, Task, Obstacle, Action with reasoning, Result, Learning, The Rope’s story structure.",
-        "id": "Situasi, Tugas, Hambatan, Aksi dengan alasan, Hasil, Pembelajaran, struktur cerita The Rope."
+        "id": "Situasi, Tugas, Hambatan, Aksi beserta alasan, Hasil, Pelajaran. Inilah struktur cerita yang dipakai The Rope."
        }
       },
       {
@@ -8640,37 +8636,37 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "The constraint, resistance or uncertainty that made the task hard; without it the story shows nothing.",
-        "id": "Kendala, penolakan, atau ketidakpastian yang membuat tugas sulit; tanpanya cerita tidak menunjukkan apa pun."
+        "id": "Keterbatasan, penolakan, atau ketidakpastian yang membuat tugasnya sulit. Tanpa hambatan, cerita tidak menunjukkan apa-apa."
        }
       },
       {
        "term": {
         "en": "Reasoning",
-        "id": "Alasan / pertimbangan"
+        "id": "Alasan"
        },
        "def": {
         "en": "Why you chose each action; the part that tells the interviewer your result was skill, not luck.",
-        "id": "Mengapa kamu memilih tiap aksi; bagian yang memberi tahu pewawancara hasilmu adalah keterampilan, bukan keberuntungan."
+        "id": "Kenapa kamu memilih setiap tindakan. Bagian ini yang meyakinkan pewawancara bahwa hasilmu berkat kemampuan, bukan kebetulan."
        }
       },
       {
        "term": {
         "en": "Proportion bar",
-        "id": "Bilah proporsi"
+        "id": "Batang proporsi"
        },
        "def": {
         "en": "The share of words per part; the simulator draws it for every answer.",
-        "id": "Porsi kata per bagian; simulator menggambarnya untuk setiap jawaban."
+        "id": "Porsi kata di setiap bagian cerita. Simulator menggambarnya untuk setiap jawaban."
        }
       },
       {
        "term": {
         "en": "Observable outcome",
-        "id": "Hasil teramati"
+        "id": "Hasil yang terlihat"
        },
        "def": {
         "en": "A result without a number, adopted, repeated, asked for again, stopped recurring, that is honest and still scores.",
-        "id": "Hasil tanpa angka, diadopsi, diulang, diminta lagi, berhenti berulang, yang jujur dan tetap dinilai."
+        "id": "Hasil tanpa angka, misalnya caramu ditiru, diulang, diminta lagi, atau masalahnya berhenti muncul. Jujur, dan tetap dinilai."
        }
       }
      ],
@@ -8678,7 +8674,7 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "Which part should take the most time in a STAR+L answer?",
-        "id": "Bagian mana yang harus memakan waktu paling banyak dalam jawaban STAR+L?"
+        "id": "Bagian mana yang seharusnya paling banyak memakan waktu dalam jawaban STAR+L?"
        },
        "options": [
         {
@@ -8695,13 +8691,13 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "Learning",
-         "id": "Pembelajaran"
+         "id": "Pelajaran"
         }
        ],
        "correct": 2,
        "why": {
         "en": "About 45%: what you did and why is what the scoresheet rewards.",
-        "id": "Sekitar 45%: apa yang kamu lakukan dan mengapa adalah yang dihargai lembar penilaian."
+        "id": "Sekitar 45%. Apa yang kamu lakukan dan alasannya adalah bagian yang paling dihargai di lembar penilaian."
        }
       },
       {
@@ -8716,7 +8712,7 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "It is generic; a strong L names a specific behaviour change and where it was applied",
-         "id": "Generik; L yang kuat menyebut perubahan perilaku spesifik dan di mana diterapkan"
+         "id": "Terlalu umum. L yang kuat menyebut perubahan perilaku yang spesifik dan di mana kamu menerapkannya"
         },
         {
          "en": "Communication is not a competency",
@@ -8730,13 +8726,13 @@ window.MT_LMS['the-rope'] = {
        "correct": 1,
        "why": {
         "en": "A learning is a behaviour you have repeated since, not a value you now hold.",
-        "id": "Pembelajaran adalah perilaku yang kamu ulangi sejak itu, bukan nilai yang kini kamu pegang."
+        "id": "Pelajaran adalah perilaku yang sudah kamu ulangi sejak itu, bukan nilai yang sekarang kamu yakini."
        }
       },
       {
        "q": {
         "en": "You helped increase event attendance but never measured it. Best result statement:",
-        "id": "Kamu membantu menaikkan kehadiran acara tetapi tidak pernah mengukurnya. Pernyataan hasil terbaik:"
+        "id": "Kamu membantu menaikkan jumlah peserta acara, tetapi tidak pernah menghitungnya. Kalimat hasil terbaik adalah:"
        },
        "options": [
         {
@@ -8749,7 +8745,7 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "Skip the result",
-         "id": "Lewati hasilnya"
+         "id": "Tidak usah menyebut hasil"
         },
         {
          "en": "“Sangat sukses”",
@@ -8759,7 +8755,7 @@ window.MT_LMS['the-rope'] = {
        "correct": 1,
        "why": {
         "en": "An observable outcome is honest and specific; an unmeasured percentage fails the first probe.",
-        "id": "Hasil teramati itu jujur dan spesifik; persentase yang tidak diukur gagal di galian pertama."
+        "id": "Hasil yang terlihat itu jujur dan spesifik. Persentase yang tidak pernah diukur akan gugur di pertanyaan galian pertama."
        }
       }
      ],
@@ -8770,25 +8766,25 @@ window.MT_LMS['the-rope'] = {
       "returnTo": 1,
       "label": {
        "en": "Drill “a tight deadline” in 90 seconds",
-       "id": "Latih “tenggat ketat” dalam 90 detik"
+       "id": "Latihan: “tenggat yang ketat” dalam 90 detik"
       },
       "desc": {
        "en": "One behavioural question with the Hiring Manager persona, timer visible. Speak from your six rows. The debrief shows duration, the proportion of situation to action, “saya/kami”, and whether it detected a reason.",
-       "id": "Satu pertanyaan perilaku dengan persona Hiring Manager, pengatur waktu terlihat. Bicara dari enam barismu. Debrief menunjukkan durasi, proporsi situasi terhadap aksi, “saya/kami”, dan apakah ia mendeteksi alasan."
+       "id": "Satu pertanyaan perilaku dari persona Hiring Manager, dengan pengatur waktu yang terlihat. Bicaralah berdasarkan enam barismu. Ulasannya menampilkan durasi, perbandingan situasi dengan aksi, jumlah “saya/kami”, dan apakah ada alasan yang terdeteksi."
       }
      },
      "takeaways": [
       {
        "en": "Action and reasoning carry the score.",
-       "id": "Aksi dan alasan memikul skornya."
+       "id": "Nilaimu ditentukan oleh tindakan dan alasannya."
       },
       {
        "en": "The obstacle shows why it mattered.",
-       "id": "Hambatan menunjukkan mengapa itu penting."
+       "id": "Hambatan menunjukkan kenapa ceritamu penting."
       },
       {
        "en": "Honest results only: a number you measured, or an outcome you observed.",
-       "id": "Hanya hasil jujur: angka yang kamu ukur, atau hasil yang kamu amati."
+       "id": "Hasil harus jujur: angka yang kamu ukur sendiri, atau hasil yang bisa dilihat."
       }
      ],
      "resources": {
@@ -8798,7 +8794,7 @@ window.MT_LMS['the-rope'] = {
       },
       "lead": {
        "en": "Four sources, the card every Core 10 story is written on, and the honest-result checklist.",
-       "id": "Empat sumber, kartu tempat setiap cerita Core 10 ditulis, dan daftar periksa hasil jujur."
+       "id": "Empat sumber bacaan, kartu untuk menulis setiap cerita Core 10, dan daftar periksa hasil yang jujur."
       },
       "items": [
        {
@@ -8809,24 +8805,24 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "The structure is a synthesis; the “memorise facts, not sentences” rule resolves a contradiction among the sources.",
-         "id": "Strukturnya sintesis; aturan “hafalkan fakta, bukan kalimat” menyelesaikan pertentangan di antara sumber."
+         "id": "Strukturnya merupakan rangkuman beberapa sumber. Aturan “hafalkan fakta, bukan kalimat” menjadi jalan tengah dari saran yang saling bertentangan."
         },
         "body": [
          {
           "en": "G. Ratigan, <i>Aced</i>; S. Verma, <i>Job Search Secrets</i>: STAR with a reflective step.",
-          "id": "G. Ratigan, <i>Aced</i>; S. Verma, <i>Job Search Secrets</i>: STAR dengan langkah reflektif."
+          "id": "G. Ratigan, <i>Aced</i>; S. Verma, <i>Job Search Secrets</i>: STAR dengan langkah refleksi."
          },
          {
           "en": "D. Graham, <i>Switchers</i>: SOART; the Obstacle.",
-          "id": "D. Graham, <i>Switchers</i>: SOART; Hambatan."
+          "id": "D. Graham, <i>Switchers</i>: SOART, asal bagian Hambatan."
          },
          {
           "en": "R. Ryan, <i>60 Seconds & You’re Hired!</i> The 60-second rule.",
-          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i> Aturan 60 detik."
+          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i>: aturan 60 detik."
          },
          {
           "en": "Van Nas, <i>Interview Like a Boss</i> (memorised answers) vs Ryan and Graham (recruiters spot templates), resolved as facts and structure, not sentences.",
-          "id": "Van Nas, <i>Interview Like a Boss</i> (jawaban hafalan) vs Ryan dan Graham (rekruter mengenali templat), diselesaikan sebagai fakta dan struktur, bukan kalimat."
+          "id": "Van Nas, <i>Interview Like a Boss</i> (menghafal jawaban) dan Ryan serta Graham (perekrut langsung mengenali jawaban hafalan). Jalan tengahnya: hafalkan fakta dan struktur, bukan kalimat."
          }
         ]
        },
@@ -8834,16 +8830,16 @@ window.MT_LMS['the-rope'] = {
         "kind": "template",
         "title": {
          "en": "STAR+L card (Kit item, part 2)",
-         "id": "Kartu STAR+L (butir Perangkat, bagian 2)"
+         "id": "Kartu STAR+L (isi Perangkat Wawancara, bagian 2)"
         },
         "desc": {
          "en": "One card per Core 10 story; six rows, never a paragraph.",
-         "id": "Satu kartu per cerita Core 10; enam baris, tidak pernah paragraf."
+         "id": "Satu kartu untuk setiap cerita Core 10. Enam baris, tidak pernah dalam bentuk paragraf."
         },
         "body": [
          {
           "en": "S · when, where, who, scale, two sentences",
-          "id": "S · kapan, di mana, siapa, skala, dua kalimat"
+          "id": "S · kapan, di mana, siapa saja, seberapa besar, dalam dua kalimat"
          },
          {
           "en": "T · what I was responsible for",
@@ -8851,19 +8847,19 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "O · why it was not easy",
-          "id": "O · mengapa tidak mudah"
+          "id": "H · kenapa ini tidak mudah"
          },
          {
           "en": "A · action 1, because … · action 2, because … · action 3, because …",
-          "id": "A · aksi 1, karena … · aksi 2, karena … · aksi 3, karena …"
+          "id": "A · tindakan 1, karena … · tindakan 2, karena … · tindakan 3, karena …"
          },
          {
           "en": "R · result: kind: count / time / money / percentage (measured) / observable",
-          "id": "R · hasil: jenis: hitungan / waktu / uang / persentase (diukur) / teramati"
+          "id": "R · hasil, dengan jenisnya: jumlah / waktu / uang / persentase (diukur) / terlihat"
          },
          {
           "en": "L · what I do differently now, and where I have applied it",
-          "id": "L · apa yang kini saya lakukan berbeda, dan di mana saya menerapkannya"
+          "id": "L · apa yang sekarang saya lakukan secara berbeda, dan di mana saya sudah menerapkannya"
          }
         ]
        },
@@ -8871,16 +8867,16 @@ window.MT_LMS['the-rope'] = {
         "kind": "checklist",
         "title": {
          "en": "Honest-result check",
-         "id": "Pemeriksaan hasil jujur"
+         "id": "Cek kejujuran hasil"
         },
         "desc": {
          "en": "Before any number enters a story.",
-         "id": "Sebelum angka apa pun masuk ke cerita."
+         "id": "Lakukan sebelum ada angka yang masuk ke ceritamu."
         },
         "body": [
          {
           "en": "Did I measure it, or did someone who was there tell me? If neither, it is observable, not a number.",
-          "id": "Apakah saya mengukurnya, atau seseorang yang ada di sana memberi tahu saya? Jika tidak keduanya, itu teramati, bukan angka."
+          "id": "Apakah saya mengukurnya sendiri, atau ada orang yang terlibat langsung yang memberi tahu saya? Kalau bukan keduanya, sampaikan sebagai hasil yang terlihat, bukan angka."
          },
          {
           "en": "Can I explain how I estimated it in one sentence?",
@@ -8888,7 +8884,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "Is it the same number in my CV, my Story Bank and every round?",
-          "id": "Apakah angkanya sama di CV, Bank Cerita, dan setiap ronde?"
+          "id": "Apakah angkanya sama di CV, di Bank Cerita, dan di setiap tahap wawancara?"
          }
         ]
        }
@@ -8901,32 +8897,32 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "40 min",
-      "id": "40 mnt"
+      "id": "40 menit"
      },
      "title": {
       "en": "Depth: Preparing for the Third Follow-Up",
-      "id": "Kedalaman: Siap untuk Pertanyaan Lanjutan Ketiga"
+      "id": "Kedalaman: Bersiap sampai Pertanyaan Lanjutan Ketiga"
      },
      "overview": {
       "en": "The first answer gets you a 2 or a 3. The follow-ups decide whether you reach a 4, or fall to a 1. This lesson prepares each Core 10 story for the probes interviewers actually use: six probe families, a depth card per story with the facts each family will ask for, the safe way to tell failure and integrity stories, and the consistency rule that keeps your facts the same in every round.",
-      "id": "Jawaban pertama memberimu 2 atau 3. Pertanyaan lanjutanlah yang memutuskan apakah kamu mencapai 4, atau jatuh ke 1. Pelajaran ini menyiapkan setiap cerita Core 10 untuk galian yang benar-benar dipakai pewawancara: enam keluarga galian, kartu kedalaman per cerita dengan fakta yang akan diminta tiap keluarga, cara aman menceritakan kegagalan dan integritas, dan aturan konsistensi yang menjaga faktamu sama di setiap ronde."
+      "id": "Jawaban pertamamu biasanya hanya mengantar ke nilai 2 atau 3. Pertanyaan lanjutanlah yang menentukan apakah kamu naik ke 4 atau justru jatuh ke 1. Pelajaran ini menyiapkan setiap cerita Core 10 untuk menghadapi pertanyaan galian yang benar-benar dipakai pewawancara: enam jenis galian, satu kartu kedalaman untuk setiap cerita berisi fakta yang akan ditanyakan, cara aman menceritakan kegagalan dan integritas, serta aturan konsistensi agar faktamu tetap sama di setiap tahap."
      },
      "objectives": [
       {
        "en": "Anticipate the three most likely follow-ups for each story.",
-       "id": "Mengantisipasi tiga pertanyaan lanjutan paling mungkin untuk tiap cerita."
+       "id": "Menebak tiga pertanyaan lanjutan yang paling mungkin muncul untuk setiap cerita."
       },
       {
        "en": "Prepare the details, tools, numbers, sequence, alternatives considered, that make probes easy.",
-       "id": "Menyiapkan detail, alat, angka, urutan, alternatif yang dipertimbangkan, yang membuat galian mudah."
+       "id": "Menyiapkan detail yang membuat galian terasa mudah: alat, angka, urutan kejadian, dan pilihan lain yang sempat dipertimbangkan."
       },
       {
        "en": "Handle failure and integrity stories safely and honestly.",
-       "id": "Menangani cerita kegagalan dan integritas dengan aman dan jujur."
+       "id": "Menceritakan kegagalan dan integritas dengan aman dan jujur."
       },
       {
        "en": "Keep the same facts in every round and every company.",
-       "id": "Menjaga fakta yang sama di setiap ronde dan setiap perusahaan."
+       "id": "Menjaga fakta tetap sama di setiap tahap dan di setiap perusahaan."
       }
      ],
      "readFirst": {
@@ -8940,36 +8936,36 @@ window.MT_LMS['the-rope'] = {
         "n": "2.3",
         "title": {
          "en": "Depth: Preparing for the Third Follow-Up",
-         "id": "Kedalaman: Siap untuk Pertanyaan Lanjutan Ketiga"
+         "id": "Kedalaman: Bersiap sampai Pertanyaan Lanjutan Ketiga"
         }
        },
        "story": [
         {
          "en": "Interviewers probe along six families; a real story gets richer, an exaggerated one gets vaguer",
-         "id": "Pewawancara menggali lewat enam keluarga pertanyaan: cerita asli makin kaya, cerita berlebihan makin kabur"
+         "id": "Pewawancara menggali lewat enam jenis pertanyaan: cerita yang nyata makin kaya, cerita yang dilebih-lebihkan makin kabur"
         },
         {
          "en": "A depth card is a memory check, not a script: three likely follow-ups, the facts, one line of transfer",
-         "id": "Kartu kedalaman adalah pengecekan ingatan, bukan naskah: tiga lanjutan yang mungkin, faktanya, satu kalimat transfer"
+         "id": "Kartu kedalaman adalah cara menyegarkan ingatan, bukan naskah: tiga galian yang mungkin, faktanya, dan satu kalimat penerapan"
         },
         {
          "en": "Failure and integrity stories work at fresh-graduate scale: real, moderate, owned and fixed",
-         "id": "Cerita kegagalan dan integritas bekerja pada skala lulusan baru; nyata, sedang, diakui, dan diperbaiki"
+         "id": "Cerita kegagalan dan integritas cukup dalam skala lulusan baru: nyata, berskala sedang, diakui, dan diperbaiki"
         },
         {
          "en": "The same facts in every round and every company, interviewers compare notes",
-         "id": "Fakta yang sama di setiap putaran dan setiap perusahaan, pewawancara mencocokkan catatan"
+         "id": "Fakta yang sama di setiap tahap dan setiap perusahaan, karena pewawancara saling mencocokkan catatan"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Six probe families",
-          "id": "Enam keluarga galian"
+          "id": "Enam jenis galian"
          },
          "p": {
           "en": "Interviewers probe along six families; a real story gets richer, an exaggerated one gets vaguer",
-          "id": "Pewawancara menggali lewat enam keluarga pertanyaan: cerita asli makin kaya, cerita berlebihan makin kabur"
+          "id": "Pewawancara menggali lewat enam jenis pertanyaan: cerita yang nyata makin kaya, cerita yang dilebih-lebihkan makin kabur"
          }
         },
         {
@@ -8979,7 +8975,7 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "Not a script: a memory check, so you do not freeze.",
-          "id": "Bukan naskah: pemeriksaan ingatan, agar kamu tidak membeku."
+          "id": "Bukan naskah, melainkan cara menyegarkan ingatan supaya kamu tidak blank."
          }
         },
         {
@@ -8989,7 +8985,7 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "Integrity at fresh-graduate scale: a cash count corrected against yourself; a mistake reported before it was noticed.",
-          "id": "Integritas pada skala lulusan baru: hitungan kas yang dikoreksi meski merugikan diri; kesalahan yang dilaporkan sebelum disadari."
+          "id": "Integritas dalam skala lulusan baru: mengoreksi hitungan kas walaupun merugikan dirimu, atau melaporkan kesalahan sebelum ada yang menyadarinya."
          }
         },
         {
@@ -8999,7 +8995,7 @@ window.MT_LMS['the-rope'] = {
          },
          "p": {
           "en": "Interviewers compare notes (Lesson 1.2).",
-          "id": "Pewawancara membandingkan catatan (Pelajaran 1.2)."
+          "id": "Para pewawancara saling mencocokkan catatan (Pelajaran 1.2)."
          }
         }
        ],
@@ -9008,21 +9004,21 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Interviewers probe along six families; a real story gets richer, an exaggerated one gets vaguer",
-          "id": "Pewawancara menggali lewat enam keluarga pertanyaan: cerita asli makin kaya, cerita berlebihan makin kabur"
+          "id": "Pewawancara menggali lewat enam jenis pertanyaan: cerita yang nyata makin kaya, cerita yang dilebih-lebihkan makin kabur"
          },
          "src": {
           "en": "Adapted from Kador’s probing technique and Fry’s follow-up chains",
-          "id": "Diadaptasi dari teknik penggalian Kador dan rantai pertanyaan lanjutan Fry"
+          "id": "Diadaptasi dari teknik menggali Kador dan rangkaian pertanyaan lanjutan Fry"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "person",
            "en": "Ownership",
-           "id": "Kepemilikan",
+           "id": "Peran pribadi",
            "d": {
             "en": "“Which part was yours alone?”",
-            "id": "“Bagian mana yang murni milikmu?”"
+            "id": "“Bagian mana yang benar-benar kamu kerjakan sendiri?”"
            },
            "img": "../../assets/bg/two-different-muscles.jpg"
           },
@@ -9032,7 +9028,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Alasan",
            "d": {
             "en": "“Why that approach and not another?”",
-            "id": "“Mengapa pendekatan itu, bukan yang lain?”"
+            "id": "“Kenapa memilih cara itu, bukan cara lain?”"
            },
            "img": "../../assets/pe/ed-writing.jpg"
           },
@@ -9059,34 +9055,34 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "refresh",
            "en": "Counterfactual",
-           "id": "Kontrafaktual",
+           "id": "Seandainya",
            "d": {
             "en": "“What would have happened without you?”",
-            "id": "“Apa yang akan terjadi tanpa kamu?”"
+            "id": "“Apa yang akan terjadi seandainya kamu tidak ada?”"
            },
            "img": "../../assets/bg/ep-stage-architecture.jpg"
           },
           {
            "icon": "arrow",
            "en": "Transfer",
-           "id": "Transfer",
+           "id": "Penerapan",
            "d": {
             "en": "“Where have you used this since?”",
-            "id": "“Di mana kamu memakainya sejak itu?”"
+            "id": "“Di mana kamu menerapkannya sejak itu?”"
            },
            "img": "../../assets/bg/early-professional.jpg"
           }
          ],
          "em": {
           "en": "a real story gets richer",
-          "id": "cerita asli makin kaya"
+          "id": "cerita yang nyata makin kaya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "A depth card is a memory check, not a script: three likely follow-ups, the facts, one line of transfer",
-          "id": "Kartu kedalaman adalah pengecekan ingatan, bukan naskah: tiga lanjutan yang mungkin, faktanya, satu kalimat transfer"
+          "id": "Kartu kedalaman adalah cara menyegarkan ingatan, bukan naskah: tiga galian yang mungkin, faktanya, dan satu kalimat penerapan"
          },
          "img": "../../assets/bg/pack.jpg",
          "layout": "statement",
@@ -9094,79 +9090,53 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "clipboard",
            "en": "Three likely follow-ups, the prepared facts for each, one sentence of transfer.",
-           "id": "Tiga pertanyaan lanjutan yang mungkin, fakta yang disiapkan untuk masing-masing, satu kalimat transfer."
+           "id": "Tiga pertanyaan lanjutan yang paling mungkin, fakta yang sudah disiapkan untuk masing-masing, dan satu kalimat penerapan."
           }
          ],
          "take": {
           "en": "Not a script: a memory check, so you do not freeze.",
-          "id": "Bukan naskah: pemeriksaan ingatan, agar kamu tidak membeku."
+          "id": "Bukan naskah, melainkan cara menyegarkan ingatan supaya kamu tidak blank."
          },
          "medal": "clipboard",
          "em": {
           "en": "a memory check, not a script",
-          "id": "pengecekan ingatan, bukan naskah"
+          "id": "cara menyegarkan ingatan, bukan naskah"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Failure and integrity stories work at fresh-graduate scale: real, moderate, owned and fixed",
-          "id": "Cerita kegagalan dan integritas bekerja pada skala lulusan baru; nyata, sedang, diakui, dan diperbaiki"
+          "id": "Cerita kegagalan dan integritas cukup dalam skala lulusan baru: nyata, berskala sedang, diakui, dan diperbaiki"
          },
          "img": "../../assets/bg/fg-sprint-positioning.jpg",
-         "layout": "list",
+         "layout": "statement",
          "items": [
           {
            "icon": "warn",
-           "en": "A real, moderate setback you contributed to",
-           "id": "Kemunduran nyata yang sedang yang kamu ikut sebabkan",
+           "en": "A real, moderate setback you contributed to; what you did immediately; what you changed; evidence it worked.",
+           "id": "Kegagalan nyata berskala sedang yang ikut kamu sebabkan, apa yang langsung kamu lakukan, apa yang kamu ubah, dan bukti perubahannya berhasil.",
            "l": {
             "en": "The setback",
-            "id": "Kemunduran"
-           }
-          },
-          {
-           "icon": "bolt",
-           "en": "what you did immediately",
-           "id": "apa yang segera kamu lakukan",
-           "l": {
-            "en": "The response",
-            "id": "Respons"
-           }
-          },
-          {
-           "icon": "refresh",
-           "en": "what you changed",
-           "id": "apa yang kamu ubah",
-           "l": {
-            "en": "The change",
-            "id": "Perubahan"
-           }
-          },
-          {
-           "icon": "check",
-           "en": "evidence it worked.",
-           "id": "bukti berhasil.",
-           "l": {
-            "en": "The proof",
-            "id": "Bukti"
+            "id": "Kegagalannya"
            }
           }
          ],
          "take": {
           "en": "Integrity at fresh-graduate scale: a cash count corrected against yourself; a mistake reported before it was noticed.",
-          "id": "Integritas pada skala lulusan baru: hitungan kas yang dikoreksi meski merugikan diri; kesalahan yang dilaporkan sebelum disadari."
+          "id": "Integritas dalam skala lulusan baru: mengoreksi hitungan kas walaupun merugikan dirimu, atau melaporkan kesalahan sebelum ada yang menyadarinya."
          },
+         "medal": "warn",
          "em": {
           "en": "real, moderate, owned and fixed",
-          "id": "nyata, sedang, diakui, dan diperbaiki"
+          "id": "nyata, berskala sedang, diakui, dan diperbaiki"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "The same facts in every round and every company, interviewers compare notes",
-          "id": "Fakta yang sama di setiap putaran dan setiap perusahaan, pewawancara mencocokkan catatan"
+          "id": "Fakta yang sama di setiap tahap dan setiap perusahaan, karena pewawancara saling mencocokkan catatan"
          },
          "img": "../../assets/pe/ed-writing.jpg",
          "layout": "list",
@@ -9174,7 +9144,7 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "lock",
            "en": "The same facts in every round and every company",
-           "id": "Fakta yang sama di setiap ronde dan setiap perusahaan",
+           "id": "Fakta yang sama di setiap tahap dan setiap perusahaan.",
            "l": {
             "en": "Same facts everywhere",
             "id": "Fakta sama di mana pun"
@@ -9183,20 +9153,20 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "pen",
            "en": "“approx.” written on the card is “kira-kira” in the room.",
-           "id": "“kira-kira” di kartu adalah “kira-kira” di ruangan.",
+           "id": "Tulisan “perkiraan” di kartu menjadi kata “kira-kira” saat wawancara.",
            "l": {
             "en": "Approximate stays approximate",
-            "id": "Kira-kira tetap kira-kira"
+            "id": "Perkiraan tetap perkiraan"
            }
           }
          ],
          "take": {
           "en": "Interviewers compare notes (Lesson 1.2).",
-          "id": "Pewawancara membandingkan catatan (Pelajaran 1.2)."
+          "id": "Para pewawancara saling mencocokkan catatan (Pelajaran 1.2)."
          },
          "em": {
           "en": "interviewers compare notes",
-          "id": "pewawancara mencocokkan catatan"
+          "id": "pewawancara saling mencocokkan catatan"
          }
         }
        ]
@@ -9207,26 +9177,26 @@ window.MT_LMS['the-rope'] = {
       },
       "title": {
        "en": "The third follow-up decides",
-       "id": "Pertanyaan lanjutan ketiga yang memutuskan"
+       "id": "Pertanyaan lanjutan ketiga yang menentukan"
       },
       "intro": {
        "en": "A real story gets richer under three probes; an exaggerated one gets vaguer. Depth cards make sure yours is the first kind.",
-       "id": "Cerita nyata makin kaya di bawah tiga galian; yang dilebih-lebihkan makin samar. Kartu kedalaman memastikan milikmu jenis yang pertama."
+       "id": "Cerita yang nyata justru makin kaya saat digali tiga kali, sedangkan cerita yang dilebih-lebihkan makin kabur. Kartu kedalaman memastikan ceritamu termasuk yang pertama."
       },
       "slides": [
        {
         "h": {
          "en": "Six probe families",
-         "id": "Enam keluarga galian"
+         "id": "Enam jenis galian"
         },
         "points": [
          {
           "en": "Ownership · Reasoning · Detail · Difficulty · Counterfactual · Transfer.",
-          "id": "Kepemilikan · Alasan · Detail · Kesulitan · Kontrafaktual · Transfer."
+          "id": "Peran pribadi · Alasan · Detail · Kesulitan · Seandainya · Penerapan."
          },
          {
           "en": "Adapted from Kador’s probing technique and Fry’s follow-up chains.",
-          "id": "Diadaptasi dari teknik penggalian Kador dan rantai pertanyaan lanjutan Fry."
+          "id": "Diadaptasi dari teknik menggali Kador dan rangkaian pertanyaan lanjutan Fry."
          }
         ]
        },
@@ -9238,11 +9208,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Three likely follow-ups, the prepared facts for each, one sentence of transfer.",
-          "id": "Tiga pertanyaan lanjutan yang mungkin, fakta yang disiapkan untuk masing-masing, satu kalimat transfer."
+          "id": "Tiga pertanyaan lanjutan yang paling mungkin, fakta yang sudah disiapkan untuk masing-masing, dan satu kalimat penerapan."
          },
          {
           "en": "Not a script: a memory check, so you do not freeze.",
-          "id": "Bukan naskah: pemeriksaan ingatan, agar kamu tidak membeku."
+          "id": "Bukan naskah, melainkan cara menyegarkan ingatan supaya kamu tidak blank."
          }
         ]
        },
@@ -9254,11 +9224,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "A real, moderate setback you contributed to; what you did immediately; what you changed; evidence it worked.",
-          "id": "Kemunduran nyata yang sedang yang kamu ikut sebabkan; apa yang segera kamu lakukan; apa yang kamu ubah; bukti berhasil."
+          "id": "Kegagalan nyata berskala sedang yang ikut kamu sebabkan, apa yang langsung kamu lakukan, apa yang kamu ubah, dan bukti perubahannya berhasil."
          },
          {
           "en": "Integrity at fresh-graduate scale: a cash count corrected against yourself; a mistake reported before it was noticed.",
-          "id": "Integritas pada skala lulusan baru: hitungan kas yang dikoreksi meski merugikan diri; kesalahan yang dilaporkan sebelum disadari."
+          "id": "Integritas dalam skala lulusan baru: mengoreksi hitungan kas walaupun merugikan dirimu, atau melaporkan kesalahan sebelum ada yang menyadarinya."
          }
         ]
        },
@@ -9270,11 +9240,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "The same facts in every round and every company; “approx.” written on the card is “kira-kira” in the room.",
-          "id": "Fakta yang sama di setiap ronde dan setiap perusahaan; “kira-kira” di kartu adalah “kira-kira” di ruangan."
+          "id": "Fakta yang sama di setiap tahap dan setiap perusahaan. Tulisan “perkiraan” di kartu menjadi kata “kira-kira” saat wawancara."
          },
          {
           "en": "Interviewers compare notes (Lesson 1.2).",
-          "id": "Pewawancara membandingkan catatan (Pelajaran 1.2)."
+          "id": "Para pewawancara saling mencocokkan catatan (Pelajaran 1.2)."
          }
         ]
        }
@@ -9287,17 +9257,17 @@ window.MT_LMS['the-rope'] = {
        "imgPos": "50% 42%",
        "h": {
         "en": "The probe families",
-        "id": "Keluarga galian"
+        "id": "Enam jenis galian"
        },
        "body": {
         "en": "Interviewers’ follow-ups fall into six families <i>(adapted from Kador’s probing technique and Fry’s follow-up chains)</i>. Knowing the families means you can prepare for a probe before you know its wording. The interviewer may ask “tools apa yang dipakai?” or “berapa lama?” or “siapa yang mengerjakan bagian datanya?”, and all three are the Detail family asking for the same card.",
-        "id": "Pertanyaan lanjutan pewawancara jatuh ke enam keluarga <i>(diadaptasi dari teknik penggalian Kador dan rantai pertanyaan lanjutan Fry)</i>. Mengetahui keluarganya berarti kamu bisa bersiap untuk galian sebelum tahu kata-katanya, pewawancara mungkin bertanya “tools apa yang dipakai?” atau “berapa lama?” atau “siapa yang mengerjakan bagian datanya?”, dan ketiganya adalah keluarga Detail yang meminta kartu yang sama."
+        "id": "Pertanyaan lanjutan pewawancara bisa dikelompokkan ke dalam enam jenis <i>(diadaptasi dari teknik menggali Kador dan rangkaian pertanyaan lanjutan Fry)</i>. Kalau kamu mengenali jenisnya, kamu bisa bersiap sebelum tahu bagaimana pertanyaannya akan diucapkan. Pewawancara mungkin bertanya “tools apa yang dipakai?”, “berapa lama?”, atau “siapa yang mengerjakan bagian datanya?”. Ketiganya termasuk jenis Detail, dan jawabannya ada di kartu yang sama."
        },
        "table": {
         "cols": [
          {
           "en": "Probe family",
-          "id": "Keluarga galian"
+          "id": "Jenis galian"
          },
          {
           "en": "Example",
@@ -9305,14 +9275,14 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "What to prepare",
-          "id": "Yang disiapkan"
+          "id": "Yang perlu disiapkan"
          }
         ],
         "rows": [
          [
           {
            "en": "<b>Ownership</b>",
-           "id": "<b>Kepemilikan</b>"
+           "id": "<b>Peran pribadi</b>"
           },
           {
            "en": "“Apa yang Anda lakukan sendiri?”",
@@ -9320,7 +9290,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Your three specific actions, in order",
-           "id": "Tiga tindakan spesifikmu, berurutan"
+           "id": "Tiga tindakan spesifikmu, secara berurutan"
           }
          ],
          [
@@ -9334,7 +9304,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Alternatives you considered and why you rejected them",
-           "id": "Alternatif yang kamu pertimbangkan dan mengapa kamu tolak"
+           "id": "Pilihan lain yang sempat kamu pertimbangkan dan kenapa tidak kamu ambil"
           }
          ],
          [
@@ -9348,7 +9318,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Concrete facts: tools, dates, numbers, names of roles (not people)",
-           "id": "Fakta konkret: alat, tanggal, angka, nama peran (bukan orang)"
+           "id": "Fakta konkret: alat, tanggal, angka, nama peran (bukan nama orang)"
           }
          ],
          [
@@ -9362,27 +9332,27 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "The obstacle and how you felt and decided",
-           "id": "Hambatan dan bagaimana kamu merasa dan memutuskan"
+           "id": "Hambatannya, apa yang kamu rasakan, dan bagaimana kamu memutuskan"
           }
          ],
          [
           {
            "en": "<b>Counterfactual</b>",
-           "id": "<b>Kontrafaktual</b>"
+           "id": "<b>Seandainya</b>"
           },
           {
            "en": "“Apa yang akan Anda lakukan berbeda?”",
-           "id": "“Apa yang akan Anda lakukan berbeda?”"
+           "id": "“Apa yang akan Anda lakukan secara berbeda?”"
           },
           {
            "en": "An honest improvement",
-           "id": "Perbaikan yang jujur"
+           "id": "Satu perbaikan yang jujur"
           }
          ],
          [
           {
            "en": "<b>Transfer</b>",
-           "id": "<b>Transfer</b>"
+           "id": "<b>Penerapan</b>"
           },
           {
            "en": "“Bagaimana itu relevan untuk posisi ini?”",
@@ -9390,13 +9360,13 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "One sentence linking the story to the role",
-           "id": "Satu kalimat yang mengaitkan cerita dengan peran"
+           "id": "Satu kalimat yang menghubungkan cerita dengan posisi yang kamu lamar"
           }
          ]
         ],
         "caption": {
          "en": "Six families, six prepared facts. The simulator’s probe ladder (Module 9) draws from the same families.",
-         "id": "Enam keluarga, enam fakta yang disiapkan. Tangga galian simulator (Modul 9) mengambil dari keluarga yang sama."
+         "id": "Enam jenis galian, enam fakta yang disiapkan. Tangga galian di simulator (Modul 9) juga memakai enam jenis ini."
         }
        }
       },
@@ -9407,8 +9377,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Kartu kedalaman"
        },
        "body": {
-        "en": "For each Core 10 story, the Story Bank stores a depth card: the three most likely follow-ups (from the families above), your prepared facts for each, and the one sentence of transfer to your target role. Preparing this is not memorising answers. It is re-checking your memory so you do not freeze. The difference shows in the room: a candidate with a depth card answers “berapa lama?” with “sixteen days. The deadline was the 20th and we closed on the 4th” and looks like someone who lived it; a candidate without one says “sekitar dua mingguan… atau tiga” and looks like someone who is guessing, even when the story is true. The card is also where “approx.” gets written, so that the honest hedge is planned rather than improvised.",
-        "id": "Untuk tiap cerita Core 10, Bank Cerita menyimpan kartu kedalaman: tiga pertanyaan lanjutan paling mungkin (dari keluarga di atas), fakta yang kamu siapkan untuk masing-masing, dan satu kalimat transfer ke peran sasaranmu. Menyiapkan ini bukan menghafal jawaban. Ini memeriksa ulang ingatanmu agar kamu tidak membeku. Perbedaannya terlihat di ruangan: kandidat dengan kartu kedalaman menjawab “berapa lama?” dengan “enam belas hari, tenggatnya tanggal 20 dan kami menutup tanggal 4” dan tampak seperti orang yang mengalaminya; kandidat tanpa kartu berkata “sekitar dua mingguan… atau tiga” dan tampak seperti orang yang menebak, bahkan saat ceritanya benar. Kartu juga tempat “kira-kira” ditulis, agar pagar jujur itu direncanakan, bukan diimprovisasi."
+        "en": "For each Core 10 story, the Story Bank stores a depth card: the three most likely follow-ups (from the families above), your prepared facts for each, and the one sentence of transfer to your target role. Preparing this is not memorising answers. It is re-checking your memory so you do not freeze. The difference shows in the room: a candidate with a depth card answers “berapa lama?” with “sixteen days. We started on the 4th and closed on the 20th” and looks like someone who lived it; a candidate without one says “sekitar dua mingguan… atau tiga” and looks like someone who is guessing, even when the story is true. The card is also where “approx.” gets written, so that the honest hedge is planned rather than improvised.",
+        "id": "Untuk setiap cerita Core 10, Bank Cerita menyimpan satu kartu kedalaman: tiga pertanyaan lanjutan yang paling mungkin muncul (dari enam jenis tadi), fakta yang sudah kamu siapkan untuk masing-masing, dan satu kalimat yang menghubungkan cerita dengan posisi sasaranmu. Menyiapkan kartu ini bukan berarti menghafal jawaban. Kamu sedang menyegarkan ingatan supaya tidak blank. Bedanya langsung terasa di ruang wawancara. Kandidat yang punya kartu kedalaman akan menjawab “berapa lama?” dengan “enam belas hari. Kami mulai tanggal 4 dan selesai tanggal 20”, dan terdengar seperti orang yang benar-benar mengalaminya. Kandidat tanpa kartu akan bilang “sekitar dua mingguan… atau tiga”, dan terdengar seperti sedang menebak, walaupun ceritanya benar. Di kartu ini pula kamu menulis “perkiraan”, supaya kata “kira-kira” yang jujur sudah direncanakan, bukan muncul mendadak."
        },
        "table": {
         "cols": [
@@ -9425,41 +9395,41 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "Likely probe 1 · Reasoning: “Kenapa paket kecil?”",
-           "id": "Kemungkinan galian 1 · Alasan: “Kenapa paket kecil?”"
+           "id": "Galian 1 yang mungkin muncul · Alasan: “Kenapa paket kecil?”"
           },
           {
            "en": "Two options considered; large sponsors decide in 3–4 weeks (last year’s experience); we had three; enough people for many contacts",
-           "id": "Dua opsi dipertimbangkan; sponsor besar memutuskan dalam 3–4 minggu (pengalaman tahun lalu); kami punya tiga; cukup orang untuk banyak kontak"
+           "id": "Ada dua pilihan; sponsor besar butuh 3–4 minggu untuk memutuskan (berdasarkan pengalaman tahun sebelumnya), padahal kami hanya punya tiga minggu; orang kami cukup untuk menghubungi banyak kontak"
           }
          ],
          [
           {
            "en": "Likely probe 2 · Detail: “Berapa harga paketnya? Berapa kontak?”",
-           "id": "Kemungkinan galian 2 · Detail: “Berapa harga paketnya? Berapa kontak?”"
+           "id": "Galian 2 yang mungkin muncul · Detail: “Berapa harga paketnya? Berapa kontak?”"
           },
           {
            "en": "Rp 5–10 juta, benchmarked on last year’s package prices; six people in three pairs, ten contacts a day each, one shared tracker (Google Sheets)",
-           "id": "Rp 5–10 juta, dibandingkan dengan harga paket tahun lalu; enam orang dalam tiga pasang, sepuluh kontak per hari, satu pelacak bersama (Google Sheets)"
+           "id": "Rp 5–10 juta, mengacu pada harga paket tahun lalu; enam orang dibagi tiga pasang, masing-masing sepuluh kontak per hari, satu tracker bersama (Google Sheets)"
           }
          ],
          [
           {
            "en": "Likely probe 3 · Counterfactual: “Kalau gagal?”",
-           "id": "Kemungkinan galian 3 · Kontrafaktual: “Kalau gagal?”"
+           "id": "Galian 3 yang mungkin muncul · Seandainya: “Kalau gagal?”"
           },
           {
            "en": "Prizes would have been cut by about a third; the fallback was a smaller venue, decided with the chair in week one",
-           "id": "Hadiah akan dipotong sekitar sepertiga; cadangannya tempat lebih kecil, diputuskan dengan ketua di minggu pertama"
+           "id": "Hadiah akan dipotong sekitar sepertiga; rencana cadangannya pindah ke tempat yang lebih kecil, sudah disepakati dengan ketua di minggu pertama"
           }
          ],
          [
           {
            "en": "Transfer (KilatPay)",
-           "id": "Transfer (KilatPay)"
+           "id": "Penerapan (KilatPay)"
           },
           {
            "en": "“Segmenting a problem and choosing speed over size is what I would do first with a merchant churn problem.”",
-           "id": "“Memecah masalah dan memilih kecepatan daripada ukuran adalah yang pertama saya lakukan pada masalah churn merchant.”"
+           "id": "“Memecah masalah menjadi bagian kecil dan memilih kecepatan ketimbang ukuran, itu juga yang akan saya lakukan pertama kali saat menghadapi masalah merchant yang berhenti memakai layanan.”"
           }
          ]
         ]
@@ -9473,7 +9443,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "The interviewer wants to see ownership, response and learning, not a disaster. Choose a real setback with a moderate consequence that you contributed to. Structure: <b>what happened</b> (brief, owned) → <b>what you did immediately</b> → <b>what you changed</b> → <b>evidence the change worked</b>. Avoid three things: “failures” that are disguised strengths (“I worked too hard”, “I cared too much”), which interviewers recognise instantly; failures blamed on others, which fail the ownership probe; and failures that reveal a disqualifying trait for the role, mishandling money for a bank role, missing a safety step for an engineering role. Nadia’s failure story is a sponsor she lost by contacting them a week late: moderate consequence (one sponsor, not the event), her own error (she prioritised the wrong list), a change she made (a dated contact schedule), and evidence (no sponsor was contacted late at the next event).",
-        "id": "Pewawancara ingin melihat kepemilikan, respons, dan pembelajaran, bukan bencana. Pilih kemunduran nyata dengan konsekuensi sedang yang kamu ikut sebabkan. Struktur: <b>apa yang terjadi</b> (singkat, dimiliki) → <b>apa yang segera kamu lakukan</b> → <b>apa yang kamu ubah</b> → <b>bukti perubahannya berhasil</b>. Hindari tiga hal: “kegagalan” yang sebenarnya kekuatan yang disamarkan (“saya bekerja terlalu keras”, “saya terlalu peduli”), yang langsung dikenali pewawancara; kegagalan yang disalahkan ke orang lain, yang gagal di galian kepemilikan; dan kegagalan yang mengungkap sifat penggugur untuk peran, salah mengelola uang untuk peran bank, melewatkan langkah keselamatan untuk peran teknik. Cerita kegagalan Nadia adalah sponsor yang hilang karena dihubungi seminggu terlambat: konsekuensi sedang (satu sponsor, bukan acaranya), kesalahannya sendiri (ia memprioritaskan daftar yang salah), perubahan yang ia buat (jadwal kontak bertanggal), dan bukti (tidak ada sponsor yang dihubungi terlambat di acara berikutnya)."
+        "id": "Pewawancara ingin melihat apakah kamu mau bertanggung jawab, bagaimana kamu merespons, dan apa yang kamu pelajari, bukan mendengar cerita bencana. Pilih kegagalan nyata dengan dampak sedang yang ikut kamu sebabkan. Susunannya: <b>apa yang terjadi</b> (singkat, dan akui bagianmu) → <b>apa yang langsung kamu lakukan</b> → <b>apa yang kamu ubah</b> → <b>bukti bahwa perubahan itu berhasil</b>. Hindari tiga hal. Pertama, “kegagalan” yang sebenarnya kelebihan terselubung (“saya terlalu keras bekerja”, “saya terlalu peduli”), karena pewawancara langsung mengenalinya. Kedua, kegagalan yang disalahkan ke orang lain, karena akan gugur saat ditanya peran pribadimu. Ketiga, kegagalan yang memperlihatkan sifat yang menggugurkanmu untuk posisi itu, misalnya salah mengelola uang untuk posisi di bank, atau melewatkan prosedur keselamatan untuk posisi teknik. Cerita kegagalan Nadia adalah sponsor yang batal karena ia menghubunginya seminggu terlambat. Dampaknya sedang (satu sponsor, bukan seluruh acara), kesalahannya sendiri (ia mendahulukan daftar yang salah), ada perubahan yang ia buat (jadwal kontak bertanggal), dan ada buktinya (di acara berikutnya tidak ada sponsor yang terlambat dihubungi)."
        }
       },
       {
@@ -9483,8 +9453,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Cerita integritas"
        },
        "body": {
-        "en": "Especially for banks and state-owned enterprise; the AKHLAK value <i>Amanah</i> is asked about directly <span class=\"ev ev-verify\">Verify: current state-owned enterprise core-values guidance</span>. Real examples at fresh-graduate scale: refusing to share exam answers; correcting a cash count that favoured you; reporting a mistake you made in an internship before anyone noticed; declining a gift from a vendor while managing sponsorship. Keep it factual, not preachy: what the temptation or pressure was, what you did, what it cost you (a friendship, an hour, a small loss), and what happened. The story that fails here is the sermon, three sentences on the importance of honesty and no situation. Nadia’s integrity story is a Saturday at Kopi Tepian when the till was Rp 150,000 over and the easy thing was to pocket the difference or say nothing; she recounted, found the double-charged customer’s receipt, and refunded through the manager. Small, real, and exactly what a bank asks about.",
-        "id": "Terutama untuk bank dan BUMN, nilai AKHLAK <i>Amanah</i> ditanyakan langsung <span class=\"ev ev-verify\">Verifikasi: panduan nilai inti BUMN terkini</span>. Contoh nyata pada skala lulusan baru: menolak membagikan jawaban ujian; mengoreksi hitungan kas yang menguntungkanmu; melaporkan kesalahan yang kamu buat saat magang sebelum ada yang menyadari; menolak hadiah dari vendor saat mengelola sponsorship. Buat faktual, bukan menceramahi: apa godaan atau tekanannya, apa yang kamu lakukan, apa biayanya (pertemanan, satu jam, kerugian kecil), dan apa yang terjadi. Cerita yang gagal di sini adalah khotbah, tiga kalimat tentang pentingnya kejujuran dan tanpa situasi. Cerita integritas Nadia adalah Sabtu di Kopi Tepian saat kasir lebih Rp 150.000 dan yang mudah adalah mengantongi selisihnya atau diam; ia menghitung ulang, menemukan struk pelanggan yang tertagih dua kali, dan mengembalikan lewat manajer. Kecil, nyata, dan persis yang ditanyakan bank."
+        "en": "Especially for banks and state-owned enterprises; the AKHLAK value <i>Amanah</i> is asked about directly <span class=\"ev ev-verify\">Verify: current state-owned enterprise core-values guidance</span>. Real examples at fresh-graduate scale: refusing to share exam answers; correcting a cash count that favoured you; reporting a mistake you made in an internship before anyone noticed; declining a gift from a vendor while managing sponsorship. Keep it factual, not preachy: what the temptation or pressure was, what you did, what it cost you (a friendship, an hour, a small loss), and what happened. The story that fails here is the sermon, three sentences on the importance of honesty and no situation. Nadia’s integrity story is a Saturday at Kopi Tepian when the till was Rp 150,000 over and the easy thing was to pocket the difference or say nothing; she recounted, found the double-charged customer’s receipt, and refunded through the manager. Small, real, and exactly what a bank asks about.",
+        "id": "Cerita ini sangat penting untuk bank dan BUMN, karena nilai AKHLAK <i>Amanah</i> sering ditanyakan secara langsung <span class=\"ev ev-verify\">Verifikasi: panduan nilai inti BUMN terbaru</span>. Contoh nyata dalam skala lulusan baru: menolak membagikan jawaban ujian; mengoreksi hitungan kas yang sebenarnya menguntungkanmu; melaporkan kesalahanmu sendiri saat magang sebelum ada yang menyadarinya; menolak hadiah dari vendor saat mengurus sponsorship. Ceritakan apa adanya, jangan berceramah: apa godaan atau tekanannya, apa yang kamu lakukan, apa yang harus kamu korbankan (pertemanan, waktu satu jam, kerugian kecil), dan apa yang terjadi kemudian. Cerita integritas yang gagal biasanya berbentuk khotbah: tiga kalimat tentang pentingnya kejujuran tanpa situasi apa pun. Cerita integritas Nadia terjadi pada suatu Sabtu di Kopi Tepian. Uang di kasir lebih Rp 150.000, dan pilihan termudah adalah mengantongi selisihnya atau diam saja. Ia menghitung ulang, menemukan struk pelanggan yang tertagih dua kali, lalu mengembalikan uangnya lewat manajer. Ceritanya kecil, nyata, dan persis seperti yang ditanyakan bank."
        }
       },
       {
@@ -9495,7 +9465,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "Once your depth cards exist, use the same facts in every round and every company. If a fact is uncertain, write “approx.” on the card and phrase it honestly in the room, “sekitar enam belas hari” is fine; “enam belas hari” in the HR round and “tiga minggu” in the user round is not, because the interviewers meet afterwards (Lesson 1.2). Consistency is also what makes the simulator’s consistency check possible: it compares the numbers in your answer with the numbers stored on the card and with earlier sessions, and flags a contradiction with both quotes shown. The rule has one more benefit: a story whose facts never change is a story you stop having to think about, which is what frees your attention for the interviewer.",
-        "id": "Begitu kartu kedalamanmu ada, pakai fakta yang sama di setiap ronde dan setiap perusahaan. Jika sebuah fakta tidak pasti, tulis “kira-kira” di kartu dan ucapkan dengan jujur di ruangan, “sekitar enam belas hari” boleh; “enam belas hari” di ronde HR dan “tiga minggu” di ronde user tidak, karena pewawancara bertemu setelahnya (Pelajaran 1.2). Konsistensi juga yang memungkinkan pemeriksaan konsistensi simulator: ia membandingkan angka dalam jawabanmu dengan angka di kartu dan dengan sesi sebelumnya, dan menandai kontradiksi dengan kedua kutipan ditampilkan. Aturan ini punya satu manfaat lagi: cerita yang faktanya tidak pernah berubah adalah cerita yang tidak perlu lagi kamu pikirkan, dan itulah yang membebaskan perhatianmu untuk pewawancara."
+        "id": "Setelah kartu kedalamanmu jadi, pakai fakta yang sama di setiap tahap dan di setiap perusahaan. Kalau ada fakta yang kamu tidak yakin, tulis “perkiraan” di kartu dan sampaikan dengan jujur saat wawancara. “Sekitar enam belas hari” tidak masalah. Yang bermasalah adalah menyebut “enam belas hari” di wawancara HR lalu “tiga minggu” di wawancara user, karena para pewawancara akan bertemu dan mencocokkan catatan (Pelajaran 1.2). Konsistensi juga yang membuat fitur cek konsistensi di simulator bisa bekerja: simulator membandingkan angka dalam jawabanmu dengan angka di kartu dan di sesi sebelumnya, lalu menandai jika ada yang bertentangan, lengkap dengan kutipan keduanya. Aturan ini punya satu manfaat lagi. Cerita yang faktanya tidak pernah berubah adalah cerita yang tidak perlu kamu pikirkan lagi, sehingga perhatianmu bisa sepenuhnya tertuju pada pewawancara."
        }
       }
      ],
@@ -9503,11 +9473,11 @@ window.MT_LMS['the-rope'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 1: One story, three probes",
-       "id": "Peraga 1: Satu cerita, tiga galian"
+       "id": "Peraga 1: Satu cerita, tiga pertanyaan galian"
       },
       "title": {
        "en": "What happens to a true story and an exaggerated one under the same three follow-ups",
-       "id": "Apa yang terjadi pada cerita benar dan cerita yang dilebih-lebihkan di bawah tiga pertanyaan lanjutan yang sama"
+       "id": "Nasib cerita yang nyata dan cerita yang dilebih-lebihkan saat menghadapi tiga pertanyaan lanjutan yang sama"
       },
       "items": [
        {
@@ -9518,18 +9488,18 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "Both sound similar at 60 seconds: a situation, actions, a result.",
-         "id": "Keduanya terdengar mirip di 60 detik: situasi, aksi, hasil."
+         "id": "Di detik ke-60, keduanya terdengar mirip: ada situasi, tindakan, dan hasil."
         }
        },
        {
         "icon": "users",
         "h": {
          "en": "Probe 1 · Ownership",
-         "id": "Galian 1 · Kepemilikan"
+         "id": "Galian 1 · Peran pribadi"
         },
         "sub": {
          "en": "True: three actions in order, in “saya”. Exaggerated: “kami…” and the actions blur.",
-         "id": "Benar: tiga aksi berurutan, dalam “saya”. Dilebih-lebihkan: “kami…” dan aksinya mengabur."
+         "id": "Nyata: tiga tindakan berurutan, dengan “saya”. Dilebih-lebihkan: “kami…”, dan tindakannya jadi kabur."
         }
        },
        {
@@ -9540,39 +9510,39 @@ window.MT_LMS['the-rope'] = {
         },
         "sub": {
          "en": "True: tools, dates, the price of a package. Exaggerated: a new number that contradicts the first answer.",
-         "id": "Benar: alat, tanggal, harga paket. Dilebih-lebihkan: angka baru yang bertentangan dengan jawaban pertama."
+         "id": "Nyata: alat, tanggal, harga paket. Dilebih-lebihkan: muncul angka baru yang bertentangan dengan jawaban pertama."
         }
        },
        {
         "icon": "compass",
         "h": {
          "en": "Probe 3 · Counterfactual",
-         "id": "Galian 3 · Kontrafaktual"
+         "id": "Galian 3 · Seandainya"
         },
         "sub": {
          "en": "True: an honest improvement with a reason. Exaggerated: “nothing, it went perfectly.”",
-         "id": "Benar: perbaikan jujur dengan alasan. Dilebih-lebihkan: “tidak ada, semuanya sempurna.”"
+         "id": "Nyata: perbaikan yang jujur beserta alasannya. Dilebih-lebihkan: “tidak ada, semuanya berjalan sempurna.”"
         }
        },
        {
         "icon": "chart",
         "h": {
          "en": "Probe resilience",
-         "id": "Ketahanan galian"
+         "id": "Ketahanan saat digali"
         },
         "sub": {
          "en": "True story: 4: each probe added consistent new detail. Exaggerated: 1, contradiction or collapse.",
-         "id": "Cerita benar: 4: tiap galian menambah detail baru yang konsisten. Dilebih-lebihkan: 1, kontradiksi atau runtuh."
+         "id": "Cerita nyata: 4, setiap galian menambah detail baru yang konsisten. Dilebih-lebihkan: 1, bertentangan atau runtuh."
         }
        }
       ],
       "note": {
        "en": "The first answer cannot tell them apart. The third probe always can.",
-       "id": "Jawaban pertama tidak bisa membedakan keduanya. Galian ketiga selalu bisa."
+       "id": "Jawaban pertama belum bisa membedakan keduanya. Galian ketiga selalu bisa."
       },
       "longdesc": {
        "en": "A five-stage flow comparing a true and an exaggerated story: similar main answers; an ownership probe where the true story gives three first-person actions and the exaggerated one blurs into “kami”; a detail probe where the true story gives tools and dates and the exaggerated one contradicts itself; a counterfactual probe where the true story offers an honest improvement and the exaggerated one claims perfection; and a probe-resilience score of 4 versus 1.",
-       "id": "Alur lima tahap yang membandingkan cerita benar dan yang dilebih-lebihkan: jawaban utama mirip; galian kepemilikan di mana cerita benar memberi tiga aksi orang pertama dan yang dilebih-lebihkan mengabur ke “kami”; galian detail di mana cerita benar memberi alat dan tanggal dan yang dilebih-lebihkan bertentangan dengan dirinya; galian kontrafaktual di mana cerita benar menawarkan perbaikan jujur dan yang dilebih-lebihkan mengklaim sempurna; dan skor ketahanan galian 4 versus 1."
+       "id": "Alur lima tahap yang membandingkan cerita nyata dan cerita yang dilebih-lebihkan: jawaban utama yang mirip; galian peran pribadi, saat cerita nyata menyebut tiga tindakan dengan “saya” sementara cerita yang dilebih-lebihkan kabur menjadi “kami”; galian detail, saat cerita nyata menyebut alat dan tanggal sementara cerita lainnya bertentangan sendiri; galian seandainya, saat cerita nyata menawarkan perbaikan yang jujur sementara cerita lainnya mengaku sempurna; dan nilai ketahanan saat digali, 4 dibanding 1."
       }
      },
      "compare": [
@@ -9583,7 +9553,7 @@ window.MT_LMS['the-rope'] = {
        },
        "q": {
         "en": "The Reasoning probe on Nadia’s sponsorship story, in the KilatPay user interview.",
-        "id": "Galian Alasan pada cerita sponsorship Nadia, di wawancara user KilatPay."
+        "id": "Galian jenis Alasan untuk cerita sponsorship Nadia, di wawancara user KilatPay."
        },
        "weak": {
         "en": "“Ya, karena itu ide terbaik saat itu.”",
@@ -9595,7 +9565,7 @@ window.MT_LMS['the-rope'] = {
        },
        "why": {
         "en": "The weak reply answers the words and not the probe; it tells the interviewer there was no reasoning, which drops a 3 to a 2. The strong reply names the alternative, the evidence for rejecting it (last year’s timing), the constraint that decided it, and the resource that made it possible, the Reasoning family’s full card, delivered in four sentences without a script.",
-        "id": "Balasan lemah menjawab kata-katanya, bukan galiannya; ia memberi tahu pewawancara tidak ada alasan, yang menurunkan 3 ke 2. Balasan kuat menyebut alternatifnya, bukti untuk menolaknya (waktu tahun lalu), kendala yang memutuskan, dan sumber daya yang memungkinkannya, kartu keluarga Alasan lengkap, disampaikan dalam empat kalimat tanpa naskah."
+        "id": "Jawaban yang lemah hanya menanggapi kata-katanya, bukan maksud galiannya. Pewawancara jadi menangkap bahwa tidak ada pertimbangan di balik keputusan itu, dan nilai 3 turun menjadi 2. Jawaban yang kuat menyebut pilihan lainnya, alasan menolaknya (pengalaman tahun sebelumnya), kendala yang menentukan keputusan, dan sumber daya yang memungkinkannya. Seluruh isi baris Alasan di kartu tersampaikan dalam empat kalimat, tanpa naskah."
        }
       }
      ],
@@ -9603,16 +9573,16 @@ window.MT_LMS['the-rope'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: four probes in the founder interview",
-       "id": "Sorotan: empat galian di wawancara pendiri"
+       "id": "Kisah Nadia: empat galian di wawancara dengan pendiri"
       },
       "body": [
        {
         "en": "In the KilatPay founder interview, Nadia’s sponsor story is probed four times: “Who in the alumni list said no?”, “How did you price the packages?”, “What if you had failed?”, and “What does this tell me about how you would handle a merchant churn problem?” Because her depth card covers pricing, she benchmarked last year’s package prices, and transfer, segmenting, and speed over size, she gets stronger with each probe rather than vaguer. The one she had not prepared, “who said no”, she answers honestly with what she remembers and what she does not: “dua dari sebelas alumni; saya ingat alasannya soal waktu, bukan soal acaranya.”",
-        "id": "Di wawancara pendiri KilatPay, cerita sponsor Nadia digali empat kali: “Siapa di daftar alumni yang menolak?”, “Bagaimana Anda menetapkan harga paketnya?”, “Kalau gagal bagaimana?”, dan “Apa yang ini katakan tentang cara Anda menangani masalah churn merchant?” Karena kartu kedalamannya mencakup harga, ia membandingkan dengan harga paket tahun lalu, dan transfer, memecah, dan kecepatan daripada ukuran, ia makin kuat di setiap galian, bukan makin samar. Yang belum ia siapkan, “siapa yang menolak”, ia jawab jujur dengan yang ia ingat dan yang tidak: “dua dari sebelas alumni; saya ingat alasannya soal waktu, bukan soal acaranya.”"
+        "id": "Di wawancara dengan pendiri KilatPay, cerita sponsor Nadia digali empat kali: “Siapa di daftar alumni yang menolak?”, “Bagaimana Anda menentukan harga paketnya?”, “Bagaimana kalau gagal?”, dan “Apa yang bisa saya simpulkan dari sini tentang cara Anda menangani merchant yang berhenti memakai layanan kami?” Kartu kedalamannya sudah mencakup soal harga (ia mengacu pada harga paket tahun lalu) dan soal penerapan (memecah masalah, dan mendahulukan kecepatan ketimbang ukuran). Karena itu, jawabannya makin kuat di setiap galian, bukan makin kabur. Untuk satu pertanyaan yang tidak ia siapkan, “siapa yang menolak”, ia menjawab jujur apa yang ia ingat dan apa yang tidak: “dua dari sebelas alumni; saya ingat alasannya soal waktu, bukan soal acaranya.”"
        },
        {
         "en": "The founder’s note afterwards, which she never sees, says “consistent under questioning; reasons for choices; honest about gaps”. That is a probe-resilience 4, and it came from a card she wrote in twenty minutes.",
-        "id": "Catatan pendiri setelahnya, yang tidak pernah ia lihat, berbunyi “konsisten saat ditanya; alasan untuk pilihan; jujur tentang celah”. Itu ketahanan galian 4, dan datang dari kartu yang ia tulis dalam dua puluh menit."
+        "id": "Catatan sang pendiri setelah wawancara, yang tidak pernah Nadia lihat, berbunyi: “konsisten saat ditanya lebih jauh; punya alasan untuk setiap pilihan; jujur soal hal yang tidak ia ingat”. Itu nilai ketahanan 4, dan semuanya berawal dari kartu yang ia tulis dalam dua puluh menit."
        }
       ]
      },
@@ -9620,15 +9590,15 @@ window.MT_LMS['the-rope'] = {
       {
        "h": {
         "en": "Drill 1 · Build depth cards for three stories",
-        "id": "Latihan 1 · Bangun kartu kedalaman untuk tiga cerita"
+        "id": "Latihan 1 · Buat kartu kedalaman untuk tiga cerita"
        },
        "body": {
         "en": "Choose the three Core 10 stories most likely to be probed by your top target (usually the ones closest to the role). For each, write the depth card: three likely probes from different families, the prepared facts for each, and one sentence of transfer.",
-        "id": "Pilih tiga cerita Core 10 yang paling mungkin digali sasaran teratasmu (biasanya yang paling dekat dengan peran). Untuk masing-masing, tulis kartu kedalaman: tiga galian yang mungkin dari keluarga berbeda, fakta yang disiapkan untuk masing-masing, dan satu kalimat transfer."
+        "id": "Pilih tiga cerita Core 10 yang paling mungkin digali oleh perusahaan sasaran utamamu (biasanya yang paling dekat dengan posisinya). Untuk masing-masing, tulis kartu kedalamannya: tiga galian yang mungkin muncul dari jenis yang berbeda, fakta yang sudah disiapkan untuk masing-masing, dan satu kalimat penerapan."
        },
        "debrief": {
         "en": "Two checks. First, are the three probes from three different families? A card with three Detail probes prepares you for one kind of interviewer. Second, is every prepared fact something you could say without looking at the card? If not, it is a fact you need to recover, call someone who was there, or check a document, not a fact you should improvise. Cards with an honest “approx.” are stronger than cards with a confident number you cannot source.",
-        "id": "Dua pemeriksaan. Pertama, apakah tiga galian dari tiga keluarga berbeda? Kartu dengan tiga galian Detail menyiapkanmu untuk satu jenis pewawancara. Kedua, apakah setiap fakta yang disiapkan bisa kamu ucapkan tanpa melihat kartu? Jika tidak, itu fakta yang perlu kamu pulihkan, telepon seseorang yang ada di sana, atau periksa dokumen, bukan fakta yang boleh kamu improvisasi. Kartu dengan “kira-kira” yang jujur lebih kuat daripada kartu dengan angka percaya diri yang tidak bisa kamu buktikan."
+        "id": "Ada dua hal yang perlu dicek. Pertama, apakah tiga galian itu berasal dari tiga jenis yang berbeda? Kartu yang isinya tiga galian Detail hanya menyiapkanmu untuk satu tipe pewawancara. Kedua, apakah setiap fakta di kartu bisa kamu ucapkan tanpa melihat kartunya? Kalau belum, itu fakta yang perlu kamu pastikan dulu, misalnya dengan menghubungi orang yang terlibat atau mengecek dokumen, bukan fakta yang kamu karang di tempat. Kartu yang jujur menulis “perkiraan” lebih kuat daripada kartu berisi angka meyakinkan yang tidak jelas sumbernya."
        }
       },
       {
@@ -9638,25 +9608,25 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "In the simulator, answer one behavioural question, then three follow-ups from different families. Read the debrief for each probe: did you add new, specific detail, or repeat the main answer? Did your pronouns stay first person for actions? Did any number change?",
-        "id": "Di simulator, jawab satu pertanyaan perilaku, lalu tiga pertanyaan lanjutan dari keluarga berbeda. Baca debrief untuk tiap galian: apakah kamu menambah detail baru yang spesifik, atau mengulang jawaban utama? Apakah kata gantimu tetap orang pertama untuk aksi? Apakah ada angka yang berubah?"
+        "id": "Di simulator, jawab satu pertanyaan perilaku, lalu tiga pertanyaan lanjutan dari jenis yang berbeda. Baca ulasan untuk setiap galian. Apakah kamu menambahkan detail baru yang spesifik, atau hanya mengulang jawaban utama? Apakah kamu tetap memakai “saya” saat menceritakan tindakanmu? Apakah ada angka yang berubah?"
        },
        "debrief": {
         "en": "The simulator reports per-probe specificity (new details introduced versus repetition), pronoun ownership, and consistency with the story’s stored facts. The commonest weakness is repetition: the probe asks “why”, and the answer retells “what”. The fix is on the card. The Reasoning row exists so that “why” has a prepared answer that is not the main story again. A number that changed between the main answer and probe 2 is the most serious flag; correct the card, not the memory.",
-        "id": "Simulator melaporkan spesifisitas per galian (detail baru versus pengulangan), kepemilikan kata ganti, dan konsistensi dengan fakta cerita yang tersimpan. Kelemahan paling umum adalah pengulangan: galian bertanya “mengapa”, dan jawaban menceritakan ulang “apa”. Perbaikannya ada di kartu. Baris Alasan ada agar “mengapa” punya jawaban siap yang bukan cerita utama lagi. Angka yang berubah antara jawaban utama dan galian 2 adalah tanda paling serius; koreksi kartunya, bukan ingatanmu."
+        "id": "Simulator melaporkan tingkat kekhususan setiap jawaban galian (detail baru atau sekadar pengulangan), pemakaian “saya” untuk tindakan, dan kesesuaian dengan fakta yang tersimpan di kartu. Kelemahan yang paling sering muncul adalah pengulangan: galiannya bertanya “kenapa”, tetapi jawabannya kembali menceritakan “apa”. Solusinya ada di kartu. Baris Alasan dibuat supaya pertanyaan “kenapa” punya jawaban yang sudah disiapkan, bukan cerita utama yang diulang. Angka yang berubah antara jawaban utama dan galian kedua adalah tanda bahaya paling serius. Perbaiki kartunya, bukan ingatanmu."
        }
       },
       {
        "h": {
         "en": "Drill 3 · Failure story workshop",
-        "id": "Latihan 3 · Lokakarya cerita kegagalan"
+        "id": "Latihan 3 · Bengkel cerita kegagalan"
        },
        "body": {
         "en": "Draft your failure story in the four-part structure, what happened (owned), what you did immediately, what you changed, evidence it worked, in under 120 words. Then read it for blame language (“karena dia”, “mereka tidak”, “their fault”) and for disguised strengths.",
-        "id": "Susun cerita kegagalanmu dalam struktur empat bagian; apa yang terjadi (dimiliki), apa yang segera kamu lakukan, apa yang kamu ubah, bukti berhasil, di bawah 120 kata. Lalu baca untuk bahasa menyalahkan (“karena dia”, “mereka tidak”, “their fault”) dan untuk kekuatan yang disamarkan."
+        "id": "Tulis draf cerita kegagalanmu dengan susunan empat bagian: apa yang terjadi (akui bagianmu), apa yang langsung kamu lakukan, apa yang kamu ubah, dan bukti bahwa perubahan itu berhasil. Maksimal 120 kata. Lalu baca ulang dan cari kalimat yang menyalahkan orang lain (“karena dia”, “mereka tidak”, “their fault”) dan kelebihan yang disamarkan sebagai kegagalan."
        },
        "debrief": {
         "en": "A passing draft has the consequence in the first sentence, your contribution to it in the second, and no third party as the cause. If the “failure” is that you worked too hard or cared too much, it is not a failure and the interviewer will hear the evasion. Find the sponsor you contacted late, the report you sent with the wrong total, the group deadline you missed by a day. If the failure is a disqualifier for the role (money for a bank, safety for a plant), choose another; honesty does not require volunteering the one story that ends the process.",
-        "id": "Draf yang lolos punya konsekuensi di kalimat pertama, kontribusimu di kalimat kedua, dan tanpa pihak ketiga sebagai penyebab. Jika “kegagalan” itu kamu bekerja terlalu keras atau terlalu peduli, itu bukan kegagalan dan pewawancara akan mendengar kelitnya. Temukan sponsor yang kamu hubungi terlambat, laporan yang kamu kirim dengan total salah, tenggat kelompok yang terlewat sehari. Jika kegagalannya penggugur untuk peran (uang untuk bank, keselamatan untuk pabrik), pilih yang lain; kejujuran tidak mengharuskan menawarkan satu cerita yang mengakhiri proses."
+        "id": "Draf yang lolos menyebut dampaknya di kalimat pertama, peranmu dalam kegagalan itu di kalimat kedua, dan tidak menjadikan orang lain sebagai penyebabnya. Kalau “kegagalan”-mu adalah terlalu keras bekerja atau terlalu peduli, itu bukan kegagalan, dan pewawancara akan menangkap bahwa kamu sedang mengelak. Carilah sponsor yang terlambat kamu hubungi, laporan yang kamu kirim dengan total yang salah, atau tenggat kelompok yang terlewat sehari. Kalau kegagalanmu justru menggugurkanmu untuk posisi itu (soal uang untuk bank, soal keselamatan untuk pabrik), pilih cerita lain. Jujur bukan berarti harus menyodorkan satu-satunya cerita yang langsung mengakhiri prosesmu."
        }
       }
      ],
@@ -9665,11 +9635,11 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Repeating the original answer when probed",
-         "id": "Mengulang jawaban asli saat digali"
+         "id": "Mengulang jawaban awal saat digali"
         },
         "fix": {
          "en": "Each family has its own card row; answer the family, not the words.",
-         "id": "Tiap keluarga punya baris kartunya; jawab keluarganya, bukan kata-katanya."
+         "id": "Setiap jenis galian punya baris sendiri di kartu. Jawab maksud galiannya, bukan sekadar kata-katanya."
         }
        },
        {
@@ -9679,7 +9649,7 @@ window.MT_LMS['the-rope'] = {
         },
         "fix": {
          "en": "A probe is interest, not doubt; add detail calmly.",
-         "id": "Galian adalah minat, bukan keraguan; tambahkan detail dengan tenang."
+         "id": "Galian adalah tanda pewawancara tertarik, bukan curiga. Tambahkan detail dengan tenang."
         }
        },
        {
@@ -9689,17 +9659,17 @@ window.MT_LMS['the-rope'] = {
         },
         "fix": {
          "en": "One card, one set of numbers; “approx.” where uncertain.",
-         "id": "Satu kartu, satu set angka; “kira-kira” jika tidak pasti."
+         "id": "Satu kartu, satu set angka. Tulis “perkiraan” jika kamu tidak yakin."
         }
        },
        {
         "h": {
          "en": "Failure stories that are secretly boasts",
-         "id": "Cerita kegagalan yang diam-diam membanggakan"
+         "id": "Cerita kegagalan yang diam-diam pamer"
         },
         "fix": {
          "en": "A real, moderate setback you contributed to, with what you changed.",
-         "id": "Kemunduran nyata yang sedang yang kamu ikut sebabkan, dengan apa yang kamu ubah."
+         "id": "Pilih kegagalan nyata berskala sedang yang ikut kamu sebabkan, beserta apa yang kamu ubah."
         }
        }
       ]
@@ -9708,11 +9678,11 @@ window.MT_LMS['the-rope'] = {
       {
        "term": {
         "en": "Probe family",
-        "id": "Keluarga galian"
+        "id": "Jenis galian"
        },
        "def": {
         "en": "One of six kinds of follow-up, ownership, reasoning, detail, difficulty, counterfactual, transfer, each with a prepared card row.",
-        "id": "Salah satu dari enam jenis pertanyaan lanjutan, kepemilikan, alasan, detail, kesulitan, kontrafaktual, transfer, masing-masing dengan baris kartu yang disiapkan."
+        "id": "Salah satu dari enam jenis pertanyaan lanjutan: peran pribadi, alasan, detail, kesulitan, seandainya, dan penerapan. Masing-masing punya baris yang disiapkan di kartu."
        }
       },
       {
@@ -9722,37 +9692,37 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Per story: three likely probes, the facts for each, one sentence of transfer.",
-        "id": "Per cerita: tiga galian yang mungkin, fakta untuk masing-masing, satu kalimat transfer."
+        "id": "Untuk setiap cerita: tiga galian yang mungkin muncul, fakta untuk masing-masing, dan satu kalimat penerapan."
        }
       },
       {
        "term": {
         "en": "Probe resilience",
-        "id": "Ketahanan galian"
+        "id": "Ketahanan saat digali"
        },
        "def": {
         "en": "A 1–4 score for how a story holds under follow-ups: consistent new detail scores 4; contradiction or collapse scores 1.",
-        "id": "Skor 1–4 untuk bagaimana cerita bertahan di bawah pertanyaan lanjutan: detail baru yang konsisten bernilai 4; kontradiksi atau runtuh bernilai 1."
+        "id": "Nilai 1–4 untuk seberapa kuat cerita bertahan menghadapi pertanyaan lanjutan. Detail baru yang konsisten bernilai 4; jawaban yang bertentangan atau runtuh bernilai 1."
        }
       },
       {
        "term": {
         "en": "Disguised strength",
-        "id": "Kekuatan yang disamarkan"
+        "id": "Kelebihan terselubung"
        },
        "def": {
         "en": "A “failure” like “I worked too hard”, recognised instantly and scored as evasion.",
-        "id": "“Kegagalan” seperti “saya bekerja terlalu keras”; langsung dikenali dan dinilai sebagai kelit."
+        "id": "“Kegagalan” seperti “saya terlalu keras bekerja”. Langsung dikenali pewawancara dan dinilai sebagai upaya mengelak."
        }
       },
       {
        "term": {
         "en": "Consistency check",
-        "id": "Pemeriksaan konsistensi"
+        "id": "Cek konsistensi"
        },
        "def": {
         "en": "The simulator’s comparison of numbers across your answer, your card and earlier sessions.",
-        "id": "Perbandingan simulator atas angka di jawabanmu, kartumu, dan sesi sebelumnya."
+        "id": "Fitur simulator yang membandingkan angka di jawabanmu, di kartumu, dan di sesi-sesi sebelumnya."
        }
       }
      ],
@@ -9760,7 +9730,7 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "The interviewer asks “What would you do differently?” You think the project went perfectly. Best answer:",
-        "id": "Pewawancara bertanya “Apa yang akan Anda lakukan berbeda?” Menurutmu proyeknya berjalan sempurna. Jawaban terbaik:"
+        "id": "Pewawancara bertanya, “Apa yang akan Anda lakukan secara berbeda?” Menurutmu proyek itu berjalan sempurna. Jawaban terbaik:"
        },
        "options": [
         {
@@ -9769,32 +9739,32 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "An honest improvement, starting earlier, involving someone sooner, with the reason",
-         "id": "Perbaikan jujur, mulai lebih awal, melibatkan seseorang lebih cepat, dengan alasannya"
+         "id": "Satu perbaikan yang jujur, misalnya mulai lebih awal atau melibatkan seseorang lebih cepat, beserta alasannya"
         },
         {
          "en": "Blame a teammate",
-         "id": "Salahkan rekan setim"
+         "id": "Menyalahkan rekan satu tim"
         },
         {
          "en": "Change stories",
-         "id": "Ganti cerita"
+         "id": "Beralih ke cerita lain"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The counterfactual probe tests reflection; “nothing” scores as no learning.",
-        "id": "Galian kontrafaktual menguji refleksi; “tidak ada” dinilai sebagai tanpa pembelajaran."
+        "id": "Galian seandainya menguji kemampuanmu merenung. Jawaban “tidak ada” dianggap tidak ada pelajaran yang dipetik."
        }
       },
       {
        "q": {
         "en": "For a bank role, which failure story is riskiest?",
-        "id": "Untuk peran bank, cerita kegagalan mana yang paling berisiko?"
+        "id": "Untuk posisi di bank, cerita kegagalan mana yang paling berisiko?"
        },
        "options": [
         {
          "en": "Missing a deadline for a report",
-         "id": "Melewatkan tenggat laporan"
+         "id": "Terlambat menyerahkan laporan"
         },
         {
          "en": "A cash discrepancy you hid",
@@ -9812,36 +9782,36 @@ window.MT_LMS['the-rope'] = {
        "correct": 1,
        "why": {
         "en": "It reveals an integrity risk directly tied to the role, a disqualifier, not a learning story.",
-        "id": "Ia mengungkap risiko integritas yang langsung terkait peran, penggugur, bukan cerita pembelajaran."
+        "id": "Cerita ini langsung menunjukkan risiko integritas yang berkaitan dengan posisinya. Itu alasan untuk menggugurkan, bukan cerita tentang belajar."
        }
       },
       {
        "q": {
         "en": "A good probe response…",
-        "id": "Respons galian yang baik…"
+        "id": "Respons yang baik terhadap pertanyaan galian…"
        },
        "options": [
         {
          "en": "Repeats the story more slowly",
-         "id": "Mengulang cerita lebih lambat"
+         "id": "Mengulang cerita dengan lebih pelan"
         },
         {
          "en": "Adds new, specific detail that is consistent with the first answer",
-         "id": "Menambah detail baru yang spesifik dan konsisten dengan jawaban pertama"
+         "id": "Menambahkan detail baru yang spesifik dan konsisten dengan jawaban pertama"
         },
         {
          "en": "Asks the interviewer why they are asking",
-         "id": "Bertanya kepada pewawancara mengapa mereka bertanya"
+         "id": "Menanyakan balik kenapa pewawancara bertanya"
         },
         {
          "en": "Gives a different example",
-         "id": "Memberi contoh berbeda"
+         "id": "Memberi contoh yang berbeda"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Specificity gain plus consistency is what probe resilience measures.",
-        "id": "Tambahan spesifisitas plus konsistensi adalah yang diukur ketahanan galian."
+        "id": "Detail yang bertambah dan tetap konsisten, itulah yang diukur oleh nilai ketahanan saat digali."
        }
       }
      ],
@@ -9853,11 +9823,11 @@ window.MT_LMS['the-rope'] = {
       "returnTo": 3,
       "label": {
        "en": "Drill your failure story under three follow-ups",
-       "id": "Latih cerita kegagalanmu di bawah tiga pertanyaan lanjutan"
+       "id": "Latih cerita kegagalanmu dengan tiga pertanyaan lanjutan"
       },
       "desc": {
        "en": "“Tell me about a goal you set for yourself and missed” with the Hiring Manager persona. Then follow-ups from three families. The debrief scores probe resilience and flags blame language.",
-       "id": "“Ceritakan target yang Anda tetapkan dan tidak tercapai” dengan persona Hiring Manager. Lalu pertanyaan lanjutan dari tiga keluarga. Debrief menilai ketahanan galian dan menandai bahasa menyalahkan."
+       "id": "“Ceritakan target yang Anda tetapkan untuk diri sendiri dan tidak tercapai”, dari persona Hiring Manager. Lalu tiga pertanyaan lanjutan dari tiga jenis galian. Ulasannya menilai ketahanan ceritamu saat digali dan menandai kalimat yang menyalahkan orang lain."
       }
      },
      "takeaways": [
@@ -9867,11 +9837,11 @@ window.MT_LMS['the-rope'] = {
       },
       {
        "en": "The third follow-up decides.",
-       "id": "Pertanyaan lanjutan ketiga yang memutuskan."
+       "id": "Pertanyaan lanjutan ketiga yang menentukan."
       },
       {
        "en": "Failure and integrity stories need the most care, real, moderate, owned.",
-       "id": "Cerita kegagalan dan integritas butuh perhatian paling besar, nyata, sedang, dimiliki."
+       "id": "Cerita kegagalan dan integritas paling butuh kehati-hatian: nyata, berskala sedang, dan kamu akui bagianmu."
       }
      ],
      "resources": {
@@ -9881,7 +9851,7 @@ window.MT_LMS['the-rope'] = {
       },
       "lead": {
        "en": "Two sources, and the two cards that make a story probe-proof.",
-       "id": "Dua sumber, dan dua kartu yang membuat cerita tahan galian."
+       "id": "Dua sumber bacaan, dan dua kartu yang membuat ceritamu tahan digali."
       },
       "items": [
        {
@@ -9892,20 +9862,20 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "The six families are adapted from two interviewer-side sources.",
-         "id": "Enam keluarga diadaptasi dari dua sumber sisi pewawancara."
+         "id": "Enam jenis galian diadaptasi dari dua sumber yang ditulis dari sudut pandang pewawancara."
         },
         "body": [
          {
           "en": "J. Kador, <i>The Manager’s Book of Questions</i>: probing technique; separating the candidate from the team.",
-          "id": "J. Kador, <i>The Manager’s Book of Questions</i>: teknik penggalian; memisahkan kandidat dari tim."
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i>: teknik menggali; memisahkan peran kandidat dari peran tim."
          },
          {
           "en": "R. Fry, <i>101 Smart Questions to Ask on Your Interview</i>: follow-up chains.",
-          "id": "R. Fry, <i>101 Smart Questions to Ask on Your Interview</i>: rantai pertanyaan lanjutan."
+          "id": "R. Fry, <i>101 Smart Questions to Ask on Your Interview</i>: rangkaian pertanyaan lanjutan."
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> state-owned enterprise core values (AKHLAK); confirm current guidance before publishing the integrity examples as programme-specific.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Nilai inti BUMN (AKHLAK), konfirmasi panduan terkini sebelum menerbitkan contoh integritas sebagai khas program."
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> nilai inti BUMN (AKHLAK); pastikan panduan terbarunya sebelum menerbitkan contoh integritas sebagai contoh khas program tertentu."
          }
         ]
        },
@@ -9913,36 +9883,36 @@ window.MT_LMS['the-rope'] = {
         "kind": "template",
         "title": {
          "en": "Depth card (Kit item, part 3)",
-         "id": "Kartu kedalaman (butir Perangkat, bagian 3)"
+         "id": "Kartu kedalaman (isi Perangkat Wawancara, bagian 3)"
         },
         "desc": {
          "en": "One per Core 10 story; three probes from three families.",
-         "id": "Satu per cerita Core 10; tiga galian dari tiga keluarga."
+         "id": "Satu kartu untuk setiap cerita Core 10, berisi tiga galian dari tiga jenis yang berbeda."
         },
         "body": [
          {
           "en": "Story · target role it is most likely to be probed for",
-          "id": "Cerita · peran sasaran tempat ia paling mungkin digali"
+          "id": "Cerita · posisi sasaran yang paling mungkin menggali cerita ini"
          },
          {
           "en": "Probe 1 (family: …) · prepared facts · “approx.” where uncertain",
-          "id": "Galian 1 (keluarga: …) · fakta yang disiapkan · “kira-kira” jika tidak pasti"
+          "id": "Galian 1 (jenis: …) · fakta yang disiapkan · tulis “perkiraan” jika tidak yakin"
          },
          {
           "en": "Probe 2 (family: …) · prepared facts",
-          "id": "Galian 2 (keluarga: …) · fakta yang disiapkan"
+          "id": "Galian 2 (jenis: …) · fakta yang disiapkan"
          },
          {
           "en": "Probe 3 (family: …) · prepared facts",
-          "id": "Galian 3 (keluarga: …) · fakta yang disiapkan"
+          "id": "Galian 3 (jenis: …) · fakta yang disiapkan"
          },
          {
           "en": "Transfer: one sentence linking the story to this role",
-          "id": "Transfer: satu kalimat yang mengaitkan cerita dengan peran ini"
+          "id": "Penerapan: satu kalimat yang menghubungkan cerita dengan posisi ini"
          },
          {
           "en": "Used with: (interviewer · round · date), so no story is told twice to the same person",
-          "id": "Dipakai dengan: (pewawancara · ronde · tanggal); agar tidak ada cerita diceritakan dua kali ke orang yang sama"
+          "id": "Sudah dipakai di: (pewawancara · tahap · tanggal), agar tidak ada cerita yang diceritakan dua kali ke orang yang sama"
          }
         ]
        },
@@ -9954,16 +9924,16 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "Four parts each; under 120 words.",
-         "id": "Empat bagian masing-masing; di bawah 120 kata."
+         "id": "Masing-masing empat bagian, maksimal 120 kata."
         },
         "body": [
          {
           "en": "Failure: what happened (owned) → what I did immediately → what I changed → evidence it worked · blame words removed · not a disguised strength · not a disqualifier for this role",
-          "id": "Kegagalan: apa yang terjadi (dimiliki) → apa yang segera saya lakukan → apa yang saya ubah → bukti berhasil · kata menyalahkan dihapus · bukan kekuatan yang disamarkan · bukan penggugur untuk peran ini"
+          "id": "Kegagalan: apa yang terjadi (akui bagian saya) → apa yang langsung saya lakukan → apa yang saya ubah → bukti perubahannya berhasil · tanpa kata-kata menyalahkan · bukan kelebihan terselubung · bukan hal yang menggugurkan saya untuk posisi ini"
          },
          {
           "en": "Integrity: the temptation or pressure → what I did → what it cost me → what happened · factual, not preachy",
-          "id": "Integritas: godaan atau tekanan → apa yang saya lakukan → apa biayanya bagi saya → apa yang terjadi · faktual, bukan menceramahi"
+          "id": "Integritas: godaan atau tekanannya → apa yang saya lakukan → apa yang harus saya korbankan → apa yang terjadi · apa adanya, tanpa berceramah"
          }
         ]
        }
@@ -9976,32 +9946,32 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Flexing One Story: Lengths, Angles and Languages",
-      "id": "Satu Cerita, Banyak Sudut, Panjang, Sudut, dan Bahasa"
+      "id": "Satu Cerita, Banyak Kegunaan: Panjang, Sudut, dan Bahasa"
      },
      "overview": {
       "en": "A single strong story can answer many questions, if you know how to change its emphasis, length and language. This lesson teaches three lengths (20 seconds, 60–90 seconds, 3 minutes), angle-shifting so the same facts open with the part the question asks about, delivering the same story in English and your local language, and a “used with” log so no interviewer hears the same story twice.",
-      "id": "Satu cerita kuat bisa menjawab banyak pertanyaan; jika kamu tahu cara mengubah penekanan, panjang, dan bahasanya. Pelajaran ini mengajarkan tiga panjang (20 detik, 60–90 detik, 3 menit), pergeseran sudut agar fakta yang sama dibuka dengan bagian yang ditanyakan, menyampaikan cerita yang sama dalam bahasa Inggris dan Indonesia, dan catatan “dipakai dengan” agar tidak ada pewawancara mendengar cerita yang sama dua kali."
+      "id": "Satu cerita yang kuat bisa menjawab banyak pertanyaan, asalkan kamu tahu cara mengubah penekanan, panjang, dan bahasanya. Di pelajaran ini kamu akan berlatih menceritakan satu kisah dalam tiga versi panjang (20 detik, 60–90 detik, 3 menit), menggeser sudut cerita supaya fakta yang sama dibuka dengan bagian yang ditanyakan, menyampaikan cerita yang sama dalam bahasa Inggris dan bahasa Indonesia, serta mencatat cerita mana yang sudah dipakai dengan siapa, agar tidak ada pewawancara yang mendengar cerita yang sama dua kali."
      },
      "objectives": [
       {
        "en": "Tell one story at three lengths without losing its structure.",
-       "id": "Menceritakan satu cerita dalam tiga panjang tanpa kehilangan strukturnya."
+       "id": "Menceritakan satu kisah dalam tiga versi panjang tanpa kehilangan strukturnya."
       },
       {
        "en": "Open a story with the part the competency question asks about.",
-       "id": "Membuka cerita dengan bagian yang ditanyakan pertanyaan kompetensi."
+       "id": "Membuka cerita dengan bagian yang sesuai dengan kompetensi yang ditanyakan."
       },
       {
        "en": "Deliver the same story in English and your local language, and handle a mid-answer switch.",
-       "id": "Menyampaikan cerita yang sama dalam bahasa Inggris dan Indonesia, dan menangani peralihan di tengah jawaban."
+       "id": "Menyampaikan cerita yang sama dalam bahasa Inggris dan bahasa Indonesia, termasuk saat diminta berganti bahasa di tengah jawaban."
       },
       {
        "en": "Track which stories you have used with which interviewer.",
-       "id": "Melacak cerita mana yang sudah kamu pakai dengan pewawancara mana."
+       "id": "Mencatat cerita mana yang sudah kamu pakai dengan pewawancara yang mana."
       }
      ],
      "readFirst": {
@@ -10015,38 +9985,38 @@ window.MT_LMS['the-rope'] = {
         "n": "2.4",
         "title": {
          "en": "Flexing One Story: Lengths, Angles and Languages",
-         "id": "Satu Cerita, Banyak Sudut, Panjang, Sudut, dan Bahasa"
+         "id": "Satu Cerita, Banyak Kegunaan: Panjang, Sudut, dan Bahasa"
         }
        },
        "story": [
         {
          "en": "Every story lives at three lengths: a 20-second headline, a 90-second standard, a 3-minute deep version",
-         "id": "Setiap cerita hidup dalam tiga panjang: tajuk 20 detik, versi standar 90 detik, versi dalam 3 menit"
+         "id": "Setiap cerita punya tiga versi panjang: singkat 20 detik, standar 90 detik, dan lengkap 3 menit"
         },
         {
          "en": "One story answers five questions; open with the part the question asks about",
-         "id": "Satu cerita menjawab lima pertanyaan: buka dengan bagian yang ditanyakan"
+         "id": "Satu cerita bisa menjawab lima pertanyaan: buka dengan bagian yang ditanyakan"
         },
         {
          "en": "Prepare each story in both languages, and log who has heard which one",
-         "id": "Siapkan setiap cerita dalam dua bahasa, dan catat siapa sudah mendengar yang mana"
+         "id": "Siapkan setiap cerita dalam dua bahasa, dan catat siapa saja yang sudah mendengarnya"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Three lengths",
-          "id": "Tiga panjang"
+          "id": "Tiga versi panjang"
          },
          "p": {
           "en": "Every story lives at three lengths: a 20-second headline, a 90-second standard, a 3-minute deep version",
-          "id": "Setiap cerita hidup dalam tiga panjang: tajuk 20 detik, versi standar 90 detik, versi dalam 3 menit"
+          "id": "Setiap cerita punya tiga versi panjang: singkat 20 detik, standar 90 detik, dan lengkap 3 menit"
          }
         },
         {
          "h": {
           "en": "Angle-shifting",
-          "id": "Pergeseran sudut"
+          "id": "Menggeser sudut"
          },
          "p": {
           "en": "Open with the part the question asks about.",
@@ -10059,8 +10029,8 @@ window.MT_LMS['the-rope'] = {
           "id": "Dua bahasa, satu catatan"
          },
          "p": {
-          "en": "Prepare each story in both languages, and log who has heard which one",
-          "id": "Siapkan setiap cerita dalam dua bahasa, dan catat siapa sudah mendengar yang mana"
+          "en": "Log which story you told to whom; never four times to one interviewer.",
+          "id": "Catat cerita mana yang kamu sampaikan ke siapa. Jangan sampai satu pewawancara mendengar cerita yang sama empat kali."
          }
         }
        ],
@@ -10069,55 +10039,55 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Every story lives at three lengths: a 20-second headline, a 90-second standard, a 3-minute deep version",
-          "id": "Setiap cerita hidup dalam tiga panjang: tajuk 20 detik, versi standar 90 detik, versi dalam 3 menit"
+          "id": "Setiap cerita punya tiga versi panjang: singkat 20 detik, standar 90 detik, dan lengkap 3 menit"
          },
          "src": {
           "en": "The current Rope’s “three altitudes” idea, kept and formalised",
-          "id": "Gagasan “tiga ketinggian” The Rope saat ini, dipertahankan dan diformalkan"
+          "id": "Gagasan “tiga ketinggian” dari The Rope versi sebelumnya, dipertahankan dan dibuat lebih rapi"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "bolt",
            "en": "20-second headline",
-           "id": "Headline 20 detik",
+           "id": "Versi singkat 20 detik",
            "d": {
             "en": "The result and your role, for a list question or a follow-up.",
-            "id": "Hasil dan peranmu, untuk pertanyaan daftar atau lanjutan."
+            "id": "Hasil dan peranmu, untuk pertanyaan daftar atau pertanyaan lanjutan."
            },
            "img": "../../assets/bg/stage-execution.jpg"
           },
           {
            "icon": "clock",
            "en": "60–90-second standard",
-           "id": "standar 60–90 detik",
+           "id": "versi standar 60–90 detik",
            "d": {
             "en": "Full STAR+L; the version most questions get.",
-            "id": "STAR+L lengkap; versi yang didapat kebanyakan pertanyaan."
+            "id": "STAR+L lengkap; versi yang dipakai untuk kebanyakan pertanyaan."
            },
            "img": "../../assets/pe/ed-writing.jpg"
           },
           {
            "icon": "layers",
            "en": "3-minute deep version",
-           "id": "versi mendalam 3 menit",
+           "id": "versi lengkap 3 menit",
            "d": {
             "en": "With the reasoning and the detail, for the probing interviewer.",
-            "id": "Dengan alasan dan detail, untuk pewawancara yang menggali."
+            "id": "Lengkap dengan alasan dan detail, untuk pewawancara yang suka menggali."
            },
            "img": "../../assets/bg/fg-sprint-interview.jpg"
           }
          ],
          "em": {
           "en": "three lengths",
-          "id": "tiga panjang"
+          "id": "tiga versi panjang"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "One story answers five questions; open with the part the question asks about",
-          "id": "Satu cerita menjawab lima pertanyaan: buka dengan bagian yang ditanyakan"
+          "id": "Satu cerita bisa menjawab lima pertanyaan: buka dengan bagian yang ditanyakan"
          },
          "img": "../../assets/bg/two-different-muscles.jpg",
          "layout": "statement",
@@ -10125,7 +10095,7 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "key",
            "en": "The sponsor story answers pressure, leadership, persuasion, problem solving or failure; by what it opens with.",
-           "id": "Cerita sponsor menjawab tekanan, kepemimpinan, persuasi, pemecahan masalah, atau kegagalan, lewat apa yang dibukanya."
+           "id": "Cerita sponsor bisa menjawab soal tekanan, kepemimpinan, meyakinkan orang lain, memecahkan masalah, atau kegagalan, tergantung bagian mana yang dibuka lebih dulu."
           }
          ],
          "take": {
@@ -10142,37 +10112,29 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Prepare each story in both languages, and log who has heard which one",
-          "id": "Siapkan setiap cerita dalam dua bahasa, dan catat siapa sudah mendengar yang mana"
+          "id": "Siapkan setiap cerita dalam dua bahasa, dan catat siapa saja yang sudah mendengarnya"
          },
-         "img": "../../assets/bg/fg-sprint-interview.jpg",
-         "layout": "list",
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "statement",
          "items": [
           {
            "icon": "book",
-           "en": "Log which story you told to whom",
-           "id": "Catat cerita mana yang kamu ceritakan kepada siapa",
+           "en": "Prepare the headline and key vocabulary of each story in both languages.",
+           "id": "Siapkan versi singkat dan kosakata kunci setiap cerita dalam dua bahasa.",
            "l": {
             "en": "The log",
-            "id": "Catatan"
-           }
-          },
-          {
-           "icon": "x",
-           "en": "never four times to one interviewer.",
-           "id": "jangan pernah empat kali ke satu pewawancara.",
-           "l": {
-            "en": "The limit",
-            "id": "Batasnya"
+            "id": "Catatannya"
            }
           }
          ],
-         "lead": {
-          "en": "Prepare the headline and key vocabulary of each story in both languages.",
-          "id": "Siapkan headline dan kosakata kunci tiap cerita dalam dua bahasa."
+         "take": {
+          "en": "Log which story you told to whom; never four times to one interviewer.",
+          "id": "Catat cerita mana yang kamu sampaikan ke siapa. Jangan sampai satu pewawancara mendengar cerita yang sama empat kali."
          },
+         "medal": "book",
          "em": {
           "en": "log who has heard which one",
-          "id": "catat siapa sudah mendengar yang mana"
+          "id": "catat siapa saja yang sudah mendengarnya"
          }
         }
        ]
@@ -10187,34 +10149,34 @@ window.MT_LMS['the-rope'] = {
       },
       "intro": {
        "en": "The facts stay identical. The order, the emphasis and the length change with the question.",
-       "id": "Faktanya tetap sama. Urutan, penekanan, dan panjangnya berubah mengikuti pertanyaan."
+       "id": "Faktanya tetap sama. Yang berubah mengikuti pertanyaan adalah urutan, penekanan, dan panjangnya."
       },
       "slides": [
        {
         "h": {
          "en": "Three lengths",
-         "id": "Tiga panjang"
+         "id": "Tiga versi panjang"
         },
         "points": [
          {
           "en": "20-second headline · 60–90-second standard · 3-minute deep version.",
-          "id": "Headline 20 detik · standar 60–90 detik · versi mendalam 3 menit."
+          "id": "Versi singkat 20 detik · versi standar 60–90 detik · versi lengkap 3 menit."
          },
          {
           "en": "The current Rope’s “three altitudes” idea, kept and formalised.",
-          "id": "Gagasan “tiga ketinggian” The Rope saat ini, dipertahankan dan diformalkan."
+          "id": "Gagasan “tiga ketinggian” dari The Rope versi sebelumnya, dipertahankan dan dibuat lebih rapi."
          }
         ]
        },
        {
         "h": {
          "en": "Angle-shifting",
-         "id": "Pergeseran sudut"
+         "id": "Menggeser sudut"
         },
         "points": [
          {
           "en": "The sponsor story answers pressure, leadership, persuasion, problem solving or failure; by what it opens with.",
-          "id": "Cerita sponsor menjawab tekanan, kepemimpinan, persuasi, pemecahan masalah, atau kegagalan, lewat apa yang dibukanya."
+          "id": "Cerita sponsor bisa menjawab soal tekanan, kepemimpinan, meyakinkan orang lain, memecahkan masalah, atau kegagalan, tergantung bagian mana yang dibuka lebih dulu."
          },
          {
           "en": "Open with the part the question asks about.",
@@ -10230,11 +10192,11 @@ window.MT_LMS['the-rope'] = {
         "points": [
          {
           "en": "Prepare the headline and key vocabulary of each story in both languages.",
-          "id": "Siapkan headline dan kosakata kunci tiap cerita dalam dua bahasa."
+          "id": "Siapkan versi singkat dan kosakata kunci setiap cerita dalam dua bahasa."
          },
          {
           "en": "Log which story you told to whom; never four times to one interviewer.",
-          "id": "Catat cerita mana yang kamu ceritakan kepada siapa; jangan pernah empat kali ke satu pewawancara."
+          "id": "Catat cerita mana yang kamu sampaikan ke siapa. Jangan sampai satu pewawancara mendengar cerita yang sama empat kali."
          }
         ]
        }
@@ -10247,11 +10209,11 @@ window.MT_LMS['the-rope'] = {
        "imgPos": "50% 40%",
        "h": {
         "en": "Three lengths",
-        "id": "Tiga panjang"
+        "id": "Tiga versi panjang"
        },
        "body": {
         "en": "The same story exists at three lengths, and the interviewer chooses which one they want by how they ask. The <b>20-second headline</b> is for the opening, for lists (“give me three examples of…”), or when time is short: situation + your action + result in two sentences. The <b>60–90-second standard</b> is the full STAR+L from Lesson 2.2. The <b>3-minute deep version</b> is for case-heavy or senior rounds, or when invited, “Walk me through that in detail”, and adds stakeholders, alternatives, numbers and reflection, in effect the depth card spoken aloud. The mistake is telling the 3-minute version to a question that wanted the headline; the second mistake is having only the standard, so that “give me three examples” gets one story and two apologies.",
-        "id": "Cerita yang sama ada dalam tiga panjang, dan pewawancara memilih yang mana lewat cara bertanya. <b>Headline 20 detik</b> untuk pembuka, untuk daftar (“beri saya tiga contoh…”), atau saat waktu singkat: situasi + tindakanmu + hasil dalam dua kalimat. <b>Standar 60–90 detik</b> adalah STAR+L lengkap dari Pelajaran 2.2. <b>Versi mendalam 3 menit</b> untuk ronde berat kasus atau senior, atau saat diundang, “Ceritakan detailnya”, dan menambah pemangku kepentingan, alternatif, angka, dan refleksi, pada dasarnya kartu kedalaman yang diucapkan. Kesalahannya adalah menceritakan versi 3 menit untuk pertanyaan yang menginginkan headline; kesalahan kedua adalah hanya punya versi standar, sehingga “beri saya tiga contoh” mendapat satu cerita dan dua permintaan maaf."
+        "id": "Satu cerita punya tiga versi panjang, dan pewawancara menentukan versi mana yang mereka mau lewat cara mereka bertanya. <b>Versi singkat 20 detik</b> dipakai untuk pembukaan, untuk pertanyaan berbentuk daftar (“beri saya tiga contoh…”), atau saat waktunya sempit: situasi, tindakanmu, dan hasil dalam dua kalimat. <b>Versi standar 60–90 detik</b> adalah STAR+L lengkap dari Pelajaran 2.2. <b>Versi lengkap 3 menit</b> dipakai di tahap yang banyak membahas kasus atau tahap untuk posisi senior, atau saat kamu diminta, “Coba ceritakan lebih detail”. Versi ini menambahkan pihak-pihak yang terlibat, pilihan lain yang dipertimbangkan, angka, dan refleksi, sehingga isinya kurang lebih kartu kedalaman yang diucapkan. Kesalahan yang sering terjadi adalah menyampaikan versi 3 menit untuk pertanyaan yang hanya butuh versi singkat. Kesalahan kedua adalah hanya punya versi standar, sehingga saat diminta “beri saya tiga contoh”, kamu hanya bisa memberi satu cerita dan dua kali minta maaf."
        },
        "table": {
         "cols": [
@@ -10261,22 +10223,22 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "When",
-          "id": "Kapan"
+          "id": "Kapan dipakai"
          },
          {
           "en": "The sponsorship story at that length",
-          "id": "Cerita sponsorship pada panjang itu"
+          "id": "Cerita sponsorship dalam versi itu"
          }
         ],
         "rows": [
          [
           {
            "en": "<b>20 s headline</b>",
-           "id": "<b>Headline 20 dtk</b>"
+           "id": "<b>Singkat 20 dtk</b>"
           },
           {
            "en": "Openings, lists, short slots",
-           "id": "Pembuka, daftar, slot singkat"
+           "id": "Pembukaan, pertanyaan daftar, waktu sempit"
           },
           {
            "en": "“Tiga minggu sebelum kompetisi nasional, sponsor utama mundur dan kami kekurangan Rp25 juta; saya memecahnya jadi paket kecil ke UMKM dan alumni, dan dalam 16 hari kami menutupnya dari sebelas sponsor.”",
@@ -10294,21 +10256,21 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "The full STAR+L in Lesson 2.2’s compare",
-           "id": "STAR+L lengkap di perbandingan Pelajaran 2.2"
+           "id": "STAR+L lengkap seperti di perbandingan Pelajaran 2.2"
           }
          ],
          [
           {
            "en": "<b>3 min deep</b>",
-           "id": "<b>Mendalam 3 mnt</b>"
+           "id": "<b>Lengkap 3 mnt</b>"
           },
           {
            "en": "“Walk me through it”; senior or case rounds",
-           "id": "“Ceritakan detailnya”; ronde senior atau kasus"
+           "id": "“Coba ceritakan lebih detail”; tahap kasus atau posisi senior"
           },
           {
            "en": "Adds: the two options and last year’s timing; package pricing; the three pairs and the tracker; the two alumni who said no and why; the fallback agreed with the chair; what changed the next year",
-           "id": "Menambah: dua opsi dan waktu tahun lalu; harga paket; tiga pasang dan pelacak; dua alumni yang menolak dan mengapa; cadangan yang disepakati dengan ketua; apa yang berubah tahun berikutnya"
+           "id": "Ditambah: dua pilihan yang ada dan lamanya keputusan sponsor tahun lalu; harga paket; tiga pasang dan tracker bersama; dua alumni yang menolak dan alasannya; rencana cadangan yang disepakati dengan ketua; apa yang berubah tahun berikutnya"
           }
          ]
         ]
@@ -10318,11 +10280,11 @@ window.MT_LMS['the-rope'] = {
        "icon": "compass",
        "h": {
         "en": "Angle-shifting",
-        "id": "Pergeseran sudut"
+        "id": "Menggeser sudut cerita"
        },
        "body": {
         "en": "The sponsor story can answer “pressure” (emphasise the three-week deadline), “leadership” (emphasise organising three pairs and the tracker), “persuasion” (emphasise convincing alumni), “problem solving” (emphasise the choice between options), or even “failure” (if you frame the original sponsor loss as a risk you did not plan for, and the learning as the backup list). The facts stay identical; the order and emphasis change. <b>Open with the part the question asks about</b>: the first sentence is what the interviewer writes down under the competency they are scoring, and a leadership question answered with “tiga minggu sebelum kompetisi…” has spent its first sentence on pressure. This is why the coverage grid assigns each story to two or three slots: an angle is a slot.",
-        "id": "Cerita sponsor bisa menjawab “tekanan” (tekankan tenggat tiga minggu), “kepemimpinan” (tekankan mengorganisasi tiga pasang dan pelacak), “persuasi” (tekankan meyakinkan alumni), “pemecahan masalah” (tekankan pilihan antar opsi), atau bahkan “kegagalan” (jika kamu membingkai hilangnya sponsor awal sebagai risiko yang tidak kamu rencanakan, dan pembelajarannya sebagai daftar cadangan). Faktanya tetap sama; urutan dan penekanannya berubah. <b>Buka dengan bagian yang ditanyakan</b>: kalimat pertama adalah yang ditulis pewawancara di bawah kompetensi yang mereka nilai, dan pertanyaan kepemimpinan yang dijawab dengan “tiga minggu sebelum kompetisi…” sudah menghabiskan kalimat pertamanya untuk tekanan. Inilah mengapa kisi cakupan menempatkan tiap cerita di dua atau tiga slot: sudut adalah slot."
+        "id": "Cerita sponsor bisa menjawab pertanyaan tentang “tekanan” (tekankan tenggat tiga minggu), “kepemimpinan” (tekankan pembagian tiga pasang dan tracker bersama), “meyakinkan orang lain” (tekankan cara membujuk alumni), “memecahkan masalah” (tekankan pilihan di antara dua opsi), bahkan “kegagalan” (jika kamu menempatkan mundurnya sponsor utama sebagai risiko yang tidak kamu antisipasi, dan daftar sponsor cadangan sebagai pelajarannya). Faktanya tetap sama. Yang berubah hanya urutan dan penekanannya. <b>Buka dengan bagian yang ditanyakan.</b> Kalimat pertamamu adalah yang dicatat pewawancara di bawah kompetensi yang sedang mereka nilai. Pertanyaan tentang kepemimpinan yang dijawab dengan “tiga minggu sebelum kompetisi…” sudah memakai kalimat pertamanya untuk tekanan. Itulah sebabnya kisi cakupan menempatkan setiap cerita di dua atau tiga slot: setiap sudut adalah satu slot."
        },
        "table": {
         "cols": [
@@ -10343,7 +10305,7 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "“Tell me about pressure”",
-           "id": "“Ceritakan tentang tekanan”"
+           "id": "“Ceritakan saat Anda di bawah tekanan”"
           },
           {
            "en": "“Tiga minggu dan kekurangan Rp25 juta…”",
@@ -10351,13 +10313,13 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "The deadline, the decision speed",
-           "id": "Tenggat, kecepatan keputusan"
+           "id": "Tenggatnya, kecepatan mengambil keputusan"
           }
          ],
          [
           {
            "en": "“Tell me about leading others”",
-           "id": "“Ceritakan tentang memimpin orang lain”"
+           "id": "“Ceritakan saat Anda memimpin orang lain”"
           },
           {
            "en": "“Saya membagi enam orang jadi tiga pasang dengan target harian dan satu tracker…”",
@@ -10365,13 +10327,13 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Organising, targets, the shared tracker",
-           "id": "Mengorganisasi, target, pelacak bersama"
+           "id": "Pengaturan tim, target, tracker bersama"
           }
          ],
          [
           {
            "en": "“Tell me about persuading someone”",
-           "id": "“Ceritakan tentang meyakinkan seseorang”"
+           "id": "“Ceritakan saat Anda meyakinkan seseorang”"
           },
           {
            "en": "“Alumni yang pernah ikut kompetisi bisa memutuskan dalam hitungan hari, kalau ditawari paket yang tepat…”",
@@ -10379,13 +10341,13 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "The pitch, the pricing, who said yes and why",
-           "id": "Tawaran, harga, siapa yang setuju dan mengapa"
+           "id": "Cara menawarkan, harga paket, siapa yang setuju dan kenapa"
           }
          ],
          [
           {
            "en": "“Tell me about solving a problem”",
-           "id": "“Ceritakan tentang memecahkan masalah”"
+           "id": "“Ceritakan saat Anda memecahkan masalah”"
           },
           {
            "en": "“Ada dua opsi, dan waktu adalah kendalanya…”",
@@ -10393,13 +10355,13 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "The choice, the reasoning, the alternative rejected",
-           "id": "Pilihan, alasan, alternatif yang ditolak"
+           "id": "Pilihannya, alasannya, opsi yang tidak diambil"
           }
          ],
          [
           {
            "en": "“Tell me about a failure”",
-           "id": "“Ceritakan tentang kegagalan”"
+           "id": "“Ceritakan saat Anda gagal”"
           },
           {
            "en": "“Kami bergantung pada satu sponsor utama, dan itu risiko yang tidak saya rencanakan…”",
@@ -10407,13 +10369,13 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "The gap in planning, the recovery, the backup list",
-           "id": "Celah perencanaan, pemulihan, daftar cadangan"
+           "id": "Celah dalam perencanaan, cara memulihkannya, daftar sponsor cadangan"
           }
          ]
         ],
         "caption": {
          "en": "Same facts, five doors. The first sentence chooses the door.",
-         "id": "Fakta sama, lima pintu. Kalimat pertama memilih pintunya."
+         "id": "Fakta yang sama, lima pintu. Kalimat pertama menentukan pintu mana yang kamu buka."
         }
        }
       },
@@ -10421,17 +10383,17 @@ window.MT_LMS['the-rope'] = {
        "icon": "chat",
        "h": {
         "en": "Bilingual delivery",
-        "id": "Penyampaian dwibahasa"
+        "id": "Bercerita dalam dua bahasa"
        },
        "body": {
-        "en": "Interviews in Indonesia frequently switch languages, an English round in a multinational, an local user round, or an interviewer who says “Sekarang coba dalam bahasa Inggris.” Prepare the headline and the key vocabulary of each Core 10 story in both languages: the nouns (reconciliation, sponsorship package, shift, audit), the numbers, and the one sentence of learning. Code-switching mid-answer, adding an English term inside an local sentence, is normal and unremarkable; sustained switching back and forth can sound unprepared in formal panels. If your English is weaker, prepare fewer, clearer sentences rather than complex ones: a 60-second story in six plain sentences scores higher than a 90-second story that loses its structure in the grammar. When asked to switch mid-answer, finish the sentence, then continue in the new language with the same structure; do not start the story over.",
-        "id": "Wawancara di Indonesia sering berganti bahasa, ronde bahasa Inggris di multinasional, ronde user bahasa Indonesia, atau pewawancara yang berkata “Sekarang coba dalam bahasa Inggris.” Siapkan headline dan kosakata kunci tiap cerita Core 10 dalam dua bahasa: kata bendanya (rekonsiliasi, paket sponsorship, sif, audit), angkanya, dan satu kalimat pembelajaran. Alih kode di tengah jawaban, menambah istilah Inggris dalam kalimat Indonesia, normal dan tidak mencolok; peralihan bolak-balik yang terus-menerus bisa terdengar tidak siap di panel formal. Jika bahasa Inggrismu lebih lemah, siapkan kalimat yang lebih sedikit dan lebih jelas daripada yang rumit: cerita 60 detik dalam enam kalimat sederhana dinilai lebih tinggi daripada cerita 90 detik yang kehilangan struktur di tata bahasanya. Saat diminta beralih di tengah jawaban, selesaikan kalimatnya, lalu lanjutkan dalam bahasa baru dengan struktur yang sama; jangan mulai cerita dari awal."
+        "en": "Interviews in Indonesia frequently switch languages, an English round in a multinational, a user round in Bahasa Indonesia, or an interviewer who says “Sekarang coba dalam bahasa Inggris.” Prepare the headline and the key vocabulary of each Core 10 story in both languages: the nouns (reconciliation, sponsorship package, shift, audit), the numbers, and the one sentence of learning. Code-switching mid-answer, adding an English term inside an Indonesian sentence, is normal and unremarkable; sustained switching back and forth can sound unprepared in formal panels. If your English is weaker, prepare fewer, clearer sentences rather than complex ones: a 60-second story in six plain sentences scores higher than a 90-second story that loses its structure in the grammar. When asked to switch mid-answer, finish the sentence, then continue in the new language with the same structure; do not start the story over.",
+        "id": "Wawancara di Indonesia sering berpindah bahasa: tahap berbahasa Inggris di perusahaan multinasional, wawancara user dalam bahasa Indonesia, atau pewawancara yang tiba-tiba berkata, “Sekarang coba dalam bahasa Inggris.” Siapkan versi singkat dan kosakata kunci setiap cerita Core 10 dalam dua bahasa: kata benda pentingnya (rekonsiliasi, paket sponsor, sif, audit), angka-angkanya, dan satu kalimat pelajarannya. Menyelipkan istilah bahasa Inggris di tengah kalimat bahasa Indonesia itu wajar dan tidak akan dipermasalahkan. Namun, bolak-balik berganti bahasa terus-menerus bisa terdengar tidak siap di panel yang formal. Kalau bahasa Inggrismu belum terlalu kuat, siapkan kalimat yang lebih sedikit dan lebih jelas, bukan kalimat yang rumit. Cerita 60 detik dalam enam kalimat sederhana dinilai lebih tinggi daripada cerita 90 detik yang strukturnya hilang karena sibuk memikirkan tata bahasa. Kalau diminta berganti bahasa di tengah jawaban, selesaikan kalimatmu, lalu lanjutkan dalam bahasa yang baru dengan struktur yang sama. Jangan mengulang cerita dari awal."
        },
        "table": {
         "cols": [
          {
           "en": "Story element",
-          "id": "Elemen cerita"
+          "id": "Unsur cerita"
          },
          {
           "en": "Bahasa Indonesia",
@@ -10439,14 +10401,14 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "English",
-          "id": "Bahasa Inggris"
+          "id": "English"
          }
         ],
         "rows": [
          [
           {
            "en": "Headline",
-           "id": "Headline"
+           "id": "Versi singkat"
           },
           {
            "en": "“Tiga minggu sebelum kompetisi, sponsor utama mundur…”",
@@ -10464,7 +10426,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "paket sponsor · alumni · pelacak bersama · kekurangan",
-           "id": "paket sponsor · alumni · pelacak bersama · kekurangan"
+           "id": "paket sponsor · alumni · tracker bersama · kekurangan dana"
           },
           {
            "en": "sponsorship package · alumni · shared tracker · shortfall",
@@ -10488,7 +10450,7 @@ window.MT_LMS['the-rope'] = {
          [
           {
            "en": "Learning",
-           "id": "Pembelajaran"
+           "id": "Pelajaran"
           },
           {
            "en": "“Sejak itu saya selalu punya daftar cadangan sponsor.”",
@@ -10506,11 +10468,11 @@ window.MT_LMS['the-rope'] = {
        "icon": "book",
        "h": {
         "en": "Avoiding over-use",
-        "id": "Menghindari pemakaian berlebihan"
+        "id": "Jangan memakai satu cerita berlebihan"
        },
        "body": {
         "en": "In a multi-round process, do not use the same story for every question with the same interviewer. The third time the sponsorship story appears, the interviewer stops hearing evidence and starts hearing a thin history. Track which stories you used with which interviewer in the Story Bank’s “used with” log: interviewer, round, date, angle. Across rounds the rule relaxes: the HR interviewer and the user do not compare which story you told, only whether the facts agreed (Lesson 1.2), so the sponsorship story can serve HR on Tuesday and the user on Thursday at different angles. Within one room, the rule is one story per question and no story more than twice.",
-        "id": "Dalam proses beberapa ronde, jangan pakai cerita yang sama untuk setiap pertanyaan dengan pewawancara yang sama, kali ketiga cerita sponsorship muncul, pewawancara berhenti mendengar bukti dan mulai mendengar riwayat yang tipis. Lacak cerita mana yang kamu pakai dengan pewawancara mana di catatan “dipakai dengan” Bank Cerita: pewawancara, ronde, tanggal, sudut. Lintas ronde aturannya melonggar: pewawancara HR dan user tidak membandingkan cerita mana yang kamu ceritakan, hanya apakah faktanya cocok (Pelajaran 1.2), jadi cerita sponsorship bisa melayani HR hari Selasa dan user hari Kamis dari sudut berbeda. Dalam satu ruangan, aturannya satu cerita per pertanyaan dan tidak ada cerita lebih dari dua kali."
+        "id": "Dalam proses seleksi yang bertahap, jangan memakai cerita yang sama untuk setiap pertanyaan dari pewawancara yang sama. Saat cerita sponsorship muncul untuk ketiga kalinya, pewawancara berhenti mendengar bukti dan mulai menangkap pengalaman yang tipis. Catat cerita mana yang kamu pakai dengan pewawancara mana di catatan “sudah dipakai” di Bank Cerita: pewawancara, tahap, tanggal, dan sudutnya. Antartahap, aturannya lebih longgar. Pewawancara HR dan user tidak membandingkan cerita mana yang kamu sampaikan, hanya apakah faktanya sama (Pelajaran 1.2). Jadi, cerita sponsorship bisa dipakai untuk HR pada hari Selasa dan untuk user pada hari Kamis dengan sudut yang berbeda. Di dalam satu ruangan, aturannya: satu cerita untuk satu pertanyaan, dan tidak ada cerita yang dipakai lebih dari dua kali."
        }
       }
      ],
@@ -10518,77 +10480,77 @@ window.MT_LMS['the-rope'] = {
       "type": "pair",
       "exhibit": {
        "en": "Exhibit 1: Same story, two questions",
-       "id": "Peraga 1: Cerita sama, dua pertanyaan"
+       "id": "Peraga 1: Cerita yang sama, dua pertanyaan"
       },
       "title": {
        "en": "The first sentence chooses the competency the interviewer scores",
-       "id": "Kalimat pertama memilih kompetensi yang dinilai pewawancara"
+       "id": "Kalimat pertama menentukan kompetensi yang dinilai pewawancara"
       },
       "cols": [
        {
         "h": {
          "en": "“Tell me about leadership”",
-         "id": "“Ceritakan tentang kepemimpinan”"
+         "id": "“Ceritakan soal kepemimpinan”"
         },
         "sub": {
          "en": "Opens with the organising",
-         "id": "Dibuka dengan pengorganisasian"
+         "id": "Dibuka dengan pengaturan tim"
         },
         "items": [
          {
           "en": "“I organised six teammates into three pairs, each with daily targets and one shared tracker…”",
-          "id": "“Saya mengorganisasi enam rekan menjadi tiga pasang, masing-masing dengan target harian dan satu pelacak bersama…”"
+          "id": "“Saya membagi enam rekan tim jadi tiga pasang, masing-masing dengan target harian dan satu tracker bersama…”"
          },
          {
           "en": "Then: why pairs; how targets were set; the gap that made it urgent",
-          "id": "Lalu: mengapa berpasangan; bagaimana target ditetapkan; kekurangan yang membuatnya mendesak"
+          "id": "Lalu: kenapa berpasangan, bagaimana targetnya ditentukan, kekurangan dana yang membuatnya mendesak"
          },
          {
           "en": "Result: eleven sponsors in sixteen days; nobody contacted twice",
-          "id": "Hasil: sebelas sponsor dalam enam belas hari; tidak ada yang dihubungi dua kali"
+          "id": "Hasil: sebelas sponsor dalam enam belas hari, tidak ada yang dihubungi dua kali"
          },
          {
           "en": "Learning: a backup list, and a tracker from day one",
-          "id": "Pembelajaran: daftar cadangan, dan pelacak sejak hari pertama"
+          "id": "Pelajaran: daftar cadangan, dan tracker sejak hari pertama"
          }
         ]
        },
        {
         "h": {
          "en": "“Tell me about pressure”",
-         "id": "“Ceritakan tentang tekanan”"
+         "id": "“Ceritakan soal tekanan”"
         },
         "sub": {
          "en": "Opens with the deadline",
-         "id": "Dibuka dengan tenggat"
+         "id": "Dibuka dengan tenggatnya"
         },
         "items": [
          {
           "en": "“We had three weeks and a 25-million-rupiah gap…”",
-          "id": "“Kami punya tiga minggu dan kekurangan 25 juta rupiah…”"
+          "id": "“Waktu kami tinggal tiga minggu, dan dananya kurang Rp25 juta…”"
          },
          {
           "en": "Then: the decision to go small and fast; the reasoning",
-          "id": "Lalu: keputusan untuk kecil dan cepat; alasannya"
+          "id": "Lalu: keputusan untuk mengejar sponsor kecil dengan cepat, beserta alasannya"
          },
          {
           "en": "Result: closed in sixteen days without cutting prizes",
-          "id": "Hasil: ditutup dalam enam belas hari tanpa memotong hadiah"
+          "id": "Hasil: kekurangannya tertutup dalam enam belas hari tanpa memotong hadiah"
          },
          {
           "en": "Learning: plan for the risk you did not plan for",
-          "id": "Pembelajaran: rencanakan risiko yang tidak kamu rencanakan"
+          "id": "Pelajaran: siapkan rencana untuk risiko yang belum terpikirkan"
          }
         ]
        }
       ],
       "note": {
        "en": "Identical facts, identical numbers. Only the first sentence and the emphasis moved.",
-       "id": "Fakta identik, angka identik. Hanya kalimat pertama dan penekanannya yang bergeser."
+       "id": "Faktanya sama, angkanya sama. Yang bergeser hanya kalimat pertama dan penekanannya."
       },
       "longdesc": {
        "en": "Two columns show the same sponsorship story answering two questions: for leadership it opens with organising six teammates into pairs with targets and a tracker; for pressure it opens with the three-week deadline and the shortfall. Both end with the same result and a learning suited to the angle.",
-       "id": "Dua kolom menunjukkan cerita sponsorship yang sama menjawab dua pertanyaan: untuk kepemimpinan dibuka dengan mengorganisasi enam rekan menjadi pasangan dengan target dan pelacak; untuk tekanan dibuka dengan tenggat tiga minggu dan kekurangan. Keduanya berakhir dengan hasil yang sama dan pembelajaran yang sesuai sudutnya."
+       "id": "Dua kolom menampilkan cerita sponsorship yang sama untuk menjawab dua pertanyaan. Untuk kepemimpinan, cerita dibuka dengan pembagian enam rekan tim menjadi tiga pasang, lengkap dengan target dan tracker. Untuk tekanan, cerita dibuka dengan tenggat tiga minggu dan kekurangan dana. Keduanya berakhir dengan hasil yang sama dan pelajaran yang sesuai dengan sudutnya."
       }
      },
      "compare": [
@@ -10599,19 +10561,19 @@ window.MT_LMS['the-rope'] = {
        },
        "q": {
         "en": "Midway through her sponsorship story in Arunika’s user interview, the manager asks Nadia to continue in English.",
-        "id": "Di tengah cerita sponsorship-nya di wawancara user Arunika, manajer meminta Nadia melanjutkan dalam bahasa Inggris."
+        "id": "Di tengah cerita sponsorship-nya dalam wawancara user di Arunika, manajernya meminta Nadia melanjutkan dalam bahasa Inggris."
        },
        "weak": {
         "en": "“Oh… okay. So, um, the story is… ada kompetisi, national competition, and the sponsor… the main sponsor, dia mundur, withdrew, so we… kami harus cari… we must find another sponsor, and it was very… sangat sulit, and finally… akhirnya berhasil.”",
         "id": "“Oh… okay. So, um, the story is… ada kompetisi, national competition, and the sponsor… the main sponsor, dia mundur, withdrew, so we… kami harus cari… we must find another sponsor, and it was very… sangat sulit, and finally… akhirnya berhasil.”"
        },
        "strong": {
-        "en": "“…supaya tidak ada yang dihubungi dua kali., Of course. So the result: in sixteen days we closed the gap, eleven sponsors, 85 million rupiah in total, and the event ran without cutting prizes. What I changed afterwards is that I now keep a backup sponsor list from day one; at the next event we never depended on a single sponsor again.”",
-        "id": "“…supaya tidak ada yang dihubungi dua kali., Of course. So the result: in sixteen days we closed the gap, eleven sponsors, 85 million rupiah in total, and the event ran without cutting prizes. What I changed afterwards is that I now keep a backup sponsor list from day one; at the next event we never depended on a single sponsor again.”"
+        "en": "“…supaya tidak ada yang dihubungi dua kali. Of course. So the result: in sixteen days we closed the gap, eleven sponsors, 85 million rupiah in total, and the event ran without cutting prizes. What I changed afterwards is that I now keep a backup sponsor list from day one; at the next event we never depended on a single sponsor again.”",
+        "id": "“…supaya tidak ada yang dihubungi dua kali. Of course. So the result: in sixteen days we closed the gap, eleven sponsors, 85 million rupiah in total, and the event ran without cutting prizes. What I changed afterwards is that I now keep a backup sponsor list from day one; at the next event we never depended on a single sponsor again.”"
        },
        "why": {
-        "en": "The weak version restarts the story from the situation, translates word by word, and loses the structure in the grammar. The interviewer learns nothing new and hears the panic. The strong version finishes the local sentence, switches, and continues from the same point of the structure (Result, then Learning) in short plain sentences with the prepared key nouns and numbers. Same story, no restart, no apology.",
-        "id": "Versi lemah memulai ulang cerita dari situasi, menerjemahkan kata demi kata, dan kehilangan struktur di tata bahasa. Pewawancara tidak belajar apa pun yang baru dan mendengar paniknya. Versi kuat menyelesaikan kalimat Indonesianya, beralih, dan melanjutkan dari titik struktur yang sama (Hasil, lalu Pembelajaran) dalam kalimat pendek dan sederhana dengan kata benda kunci dan angka yang disiapkan. Cerita sama, tanpa mulai ulang, tanpa permintaan maaf."
+        "en": "The weak version restarts the story from the situation, translates word by word, and loses the structure in the grammar. The interviewer learns nothing new and hears the panic. The strong version finishes the Indonesian sentence, switches, and continues from the same point of the structure (Result, then Learning) in short plain sentences with the prepared key nouns and numbers. Same story, no restart, no apology.",
+        "id": "Versi yang lemah mengulang cerita dari situasi, menerjemahkan kata per kata, dan strukturnya hilang karena sibuk dengan tata bahasa. Pewawancara tidak mendapat informasi baru dan malah menangkap kepanikannya. Versi yang kuat menyelesaikan kalimat bahasa Indonesianya, berganti bahasa, lalu melanjutkan dari titik yang sama dalam struktur (Hasil, lalu Pelajaran) dengan kalimat pendek yang sederhana, memakai kata benda kunci dan angka yang sudah disiapkan. Ceritanya sama, tanpa mengulang dari awal, tanpa minta maaf."
        }
       }
      ],
@@ -10619,16 +10581,16 @@ window.MT_LMS['the-rope'] = {
       "icon": "compass",
       "title": {
        "en": "In focus: the same story, four questions, one afternoon",
-       "id": "Sorotan: cerita yang sama, empat pertanyaan, satu sore"
+       "id": "Kisah Nadia: satu cerita, empat pertanyaan, satu sore"
       },
       "body": [
        {
         "en": "In a mock panel at the campus career centre, Nadia is asked four competency questions in a row, pressure, leadership, persuasion, failure, and answers all four with the sponsorship story. The first answer scores well. By the fourth, the assessor’s note reads “only one story?”, and the leadership answer opened with the deadline, so it was scored as pressure again.",
-        "id": "Di panel simulasi pusat karier kampus, Nadia ditanya empat pertanyaan kompetensi berturut-turut, tekanan, kepemimpinan, persuasi, kegagalan, dan menjawab keempatnya dengan cerita sponsorship. Jawaban pertama dinilai baik. Pada yang keempat, catatan asesor berbunyi “hanya satu cerita?”, dan jawaban kepemimpinan dibuka dengan tenggat, sehingga dinilai sebagai tekanan lagi."
+        "id": "Dalam simulasi panel di pusat karier kampus, Nadia mendapat empat pertanyaan kompetensi berturut-turut, yaitu tentang tekanan, kepemimpinan, meyakinkan orang lain, dan kegagalan. Keempatnya ia jawab dengan cerita sponsorship. Jawaban pertamanya dinilai bagus. Namun, di jawaban keempat, catatan penilainya berbunyi “hanya punya satu cerita?”. Jawaban soal kepemimpinannya juga dibuka dengan tenggat, sehingga lagi-lagi dinilai sebagai cerita tentang tekanan."
        },
        {
         "en": "Two fixes, both from this lesson. Angle-shifting: the leadership answer now opens with the three pairs and the tracker, so the first sentence lands under the right competency. Over-use: with the Core 10 in front of her, she gives the persuasion question to the seminar keynote story and the failure question to the late-contacted sponsor. Four questions, three stories, and the sponsorship story told once at the right angle; that is what the coverage grid was for.",
-        "id": "Dua perbaikan, keduanya dari pelajaran ini. Pergeseran sudut: jawaban kepemimpinan kini dibuka dengan tiga pasang dan pelacak, sehingga kalimat pertama mendarat di bawah kompetensi yang tepat. Pemakaian berlebihan: dengan Core 10 di depannya, ia memberikan pertanyaan persuasi ke cerita pembicara seminar dan pertanyaan kegagalan ke sponsor yang dihubungi terlambat. Empat pertanyaan, tiga cerita, dan cerita sponsorship diceritakan sekali dari sudut yang tepat, untuk itulah kisi cakupan dibuat."
+        "id": "Ada dua perbaikan, dan keduanya dari pelajaran ini. Pertama, menggeser sudut: jawaban soal kepemimpinan kini dibuka dengan tiga pasang dan tracker bersama, sehingga kalimat pertamanya tercatat di bawah kompetensi yang tepat. Kedua, tidak memakai satu cerita berlebihan: dengan Core 10 di depannya, ia menjawab pertanyaan soal meyakinkan orang lain dengan cerita pembicara utama seminar, dan pertanyaan soal kegagalan dengan cerita sponsor yang terlambat dihubungi. Empat pertanyaan, tiga cerita, dan cerita sponsorship hanya dipakai sekali dengan sudut yang tepat. Untuk itulah kisi cakupan dibuat."
        }
       ]
      },
@@ -10636,43 +10598,43 @@ window.MT_LMS['the-rope'] = {
       {
        "h": {
         "en": "Drill 1 · Three lengths",
-        "id": "Latihan 1 · Tiga panjang"
+        "id": "Latihan 1 · Tiga versi panjang"
        },
        "body": {
         "en": "Record one Core 10 story three times in the simulator: at 20 seconds, at about 75 seconds, and at 3 minutes. Do not script; speak from the STAR+L card and the depth card. Compare the three debriefs.",
-        "id": "Rekam satu cerita Core 10 tiga kali di simulator: 20 detik, sekitar 75 detik, dan 3 menit. Jangan pakai naskah; bicara dari kartu STAR+L dan kartu kedalaman. Bandingkan ketiga debrief."
+        "id": "Rekam satu cerita Core 10 tiga kali di simulator: dalam 20 detik, sekitar 75 detik, dan 3 menit. Jangan memakai naskah. Bicaralah berdasarkan kartu STAR+L dan kartu kedalamanmu. Lalu bandingkan ketiga ulasannya."
        },
        "debrief": {
         "en": "The debrief shows timing and what was dropped or added. A good 20-second version keeps situation, your action and the result and drops the task, obstacle and learning; if it kept the situation and dropped the action, it is a headline about an event, not about you. A good 3-minute version adds the depth card, alternatives, stakeholders, numbers, the fallback, and does not merely slow down; if the proportion bar shows the same shape stretched, you added nothing. The standard should sit between them with Action still near half.",
-        "id": "Debrief menunjukkan waktu dan apa yang dibuang atau ditambah. Versi 20 detik yang baik mempertahankan situasi, tindakanmu, dan hasil, dan membuang tugas, hambatan, dan pembelajaran; jika mempertahankan situasi dan membuang aksi, itu headline tentang acara, bukan tentangmu. Versi 3 menit yang baik menambah kartu kedalaman, alternatif, pemangku kepentingan, angka, cadangan, dan bukan sekadar memperlambat; jika bilah proporsi menunjukkan bentuk yang sama diregangkan, kamu tidak menambah apa pun. Standar harus berada di antaranya dengan Aksi tetap hampir separuh."
+        "id": "Ulasannya menampilkan durasi serta bagian yang dibuang atau ditambahkan. Versi 20 detik yang baik tetap memuat situasi, tindakanmu, dan hasil, lalu membuang tugas, hambatan, dan pelajaran. Kalau yang tersisa justru situasinya sementara tindakanmu hilang, itu ringkasan tentang sebuah acara, bukan tentang dirimu. Versi 3 menit yang baik menambahkan isi kartu kedalaman, seperti pilihan lain, pihak yang terlibat, angka, dan rencana cadangan, bukan sekadar berbicara lebih pelan. Kalau batang proporsinya hanya bentuk yang sama yang direntangkan, berarti tidak ada yang kamu tambahkan. Versi standar berada di antara keduanya, dengan Aksi tetap mendekati separuh."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Angle roulette",
-        "id": "Latihan 2 · Roulette sudut"
+        "id": "Latihan 2 · Undian sudut"
        },
        "body": {
         "en": "The simulator draws four competency questions; answer each with the <i>same</i> story, opening with the part that question asks about. After each answer, check whether your first sentence matched the competency asked.",
-        "id": "Simulator mengundi empat pertanyaan kompetensi; jawab masing-masing dengan cerita yang <i>sama</i>, dibuka dengan bagian yang ditanyakan pertanyaan itu. Setelah tiap jawaban, periksa apakah kalimat pertamamu cocok dengan kompetensi yang ditanyakan."
+        "id": "Simulator mengundi empat pertanyaan kompetensi. Jawab semuanya dengan cerita yang <i>sama</i>, dan buka setiap jawaban dengan bagian yang ditanyakan. Setelah tiap jawaban, cek apakah kalimat pertamamu sesuai dengan kompetensi yang ditanyakan."
        },
        "debrief": {
         "en": "The debrief names the competency asked and reports whether the first sentence matched it. Most learners match two of four on the first run: the story has a “default” opening (usually the situation) that surfaces under pressure. The fix is to write the four opening sentences on the story’s card, one per slot it covers, so the opening is chosen, not defaulted. If a question does not fit the story at all (the simulator may draw “customer service” for the sponsorship story), say so and choose another; forcing a story into the wrong slot is the over-use error in miniature.",
-        "id": "Debrief menyebut kompetensi yang ditanyakan dan melaporkan apakah kalimat pertama cocok. Sebagian besar pembelajar mencocokkan dua dari empat pada percobaan pertama: cerita punya pembuka “bawaan” (biasanya situasi) yang muncul di bawah tekanan. Perbaikannya adalah menulis empat kalimat pembuka di kartu cerita, satu per slot yang dicakupnya, agar pembukanya dipilih, bukan bawaan. Jika sebuah pertanyaan sama sekali tidak cocok dengan cerita (simulator mungkin mengundi “layanan pelanggan” untuk cerita sponsorship), katakan dan pilih yang lain; memaksakan cerita ke slot yang salah adalah kesalahan pemakaian berlebihan dalam bentuk mini."
+        "id": "Ulasannya menyebut kompetensi yang ditanyakan dan apakah kalimat pertamamu sesuai. Di percobaan pertama, kebanyakan peserta hanya tepat di dua dari empat pertanyaan, karena setiap cerita punya pembukaan “bawaan” (biasanya situasinya) yang muncul saat kita tertekan. Solusinya, tulis empat kalimat pembuka di kartu cerita itu, satu untuk setiap slot yang bisa diisinya, supaya pembukaanmu dipilih dengan sadar, bukan muncul otomatis. Kalau ada pertanyaan yang sama sekali tidak cocok dengan ceritanya (misalnya simulator mengundi “layanan pelanggan” untuk cerita sponsorship), katakan saja dan pilih cerita lain. Memaksakan cerita ke slot yang salah adalah bentuk kecil dari kesalahan memakai satu cerita berlebihan."
        }
       },
       {
        "h": {
         "en": "Drill 3 · Language switch",
-        "id": "Latihan 3 · Peralihan bahasa"
+        "id": "Latihan 3 · Berganti bahasa"
        },
        "body": {
         "en": "Start one story in Indonesian; halfway through, switch to English (or the reverse) and finish it. Then do the same story starting in the other language. Compare clarity in each half: fillers, pace, whether the structure survived.",
-        "id": "Mulai satu cerita dalam bahasa Indonesia; di tengah jalan, beralih ke bahasa Inggris (atau sebaliknya) dan selesaikan. Lalu lakukan cerita yang sama mulai dalam bahasa lain. Bandingkan kejelasan di tiap paruh: kata pengisi, tempo, apakah strukturnya bertahan."
+        "id": "Mulai satu cerita dalam bahasa Indonesia. Di tengah jalan, beralih ke bahasa Inggris (atau sebaliknya) sampai selesai. Lalu ceritakan lagi cerita yang sama, kali ini dimulai dengan bahasa yang satunya. Bandingkan kejelasan di setiap bagian: kata pengisi, tempo, dan apakah strukturnya tetap utuh."
        },
        "debrief": {
         "en": "The debrief reports fillers and pace for each language segment. Expect more fillers and a slower pace in your weaker language. That is normal; the fault to fix is the restart. If you began the story again after the switch, you lost thirty seconds and told the interviewer the languages are two separate scripts. Practise the switch at the Result boundary first (easiest), then at the middle of the Action (hardest). Prepare the bilingual key-noun row for every Core 10 story before your next multinational round.",
-        "id": "Debrief melaporkan kata pengisi dan tempo untuk tiap segmen bahasa. Harapkan lebih banyak kata pengisi dan tempo lebih lambat di bahasa yang lebih lemah. Itu normal; kesalahan yang harus diperbaiki adalah memulai ulang. Jika kamu memulai cerita lagi setelah beralih, kamu kehilangan tiga puluh detik dan memberi tahu pewawancara bahasanya dua naskah terpisah. Latih peralihan di batas Hasil dulu (termudah), lalu di tengah Aksi (tersulit). Siapkan baris kata benda kunci dwibahasa untuk setiap cerita Core 10 sebelum ronde multinasional berikutnya."
+        "id": "Ulasannya menampilkan kata pengisi dan tempo untuk setiap bagian bahasa. Wajar kalau kata pengisi lebih banyak dan tempo lebih lambat di bahasa yang kurang kamu kuasai. Yang perlu diperbaiki adalah mengulang dari awal. Kalau kamu memulai cerita lagi setelah berganti bahasa, kamu kehilangan tiga puluh detik dan memberi kesan bahwa kedua bahasa itu dua naskah yang terpisah. Latih perpindahan bahasa di batas Hasil lebih dulu (paling mudah), lalu di tengah Aksi (paling sulit). Siapkan baris kata benda kunci dalam dua bahasa untuk setiap cerita Core 10 sebelum wawancara berikutnya di perusahaan multinasional."
        }
       }
      ],
@@ -10681,21 +10643,21 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Telling the story identically for every question",
-         "id": "Menceritakan cerita secara identik untuk setiap pertanyaan"
+         "id": "Menyampaikan cerita dengan cara yang persis sama untuk setiap pertanyaan"
         },
         "fix": {
          "en": "Open with the part the question asks about; write the opening per slot on the card.",
-         "id": "Buka dengan bagian yang ditanyakan; tulis pembuka per slot di kartu."
+         "id": "Buka dengan bagian yang ditanyakan. Tulis kalimat pembuka untuk setiap slot di kartumu."
         }
        },
        {
         "h": {
          "en": "Switching language badly mid-sentence",
-         "id": "Beralih bahasa dengan buruk di tengah kalimat"
+         "id": "Berganti bahasa dengan kacau di tengah kalimat"
         },
         "fix": {
          "en": "Finish the sentence, switch, continue from the same point of the structure.",
-         "id": "Selesaikan kalimatnya, beralih, lanjutkan dari titik struktur yang sama."
+         "id": "Selesaikan kalimatnya, ganti bahasa, lalu lanjutkan dari titik yang sama dalam struktur."
         }
        },
        {
@@ -10705,7 +10667,7 @@ window.MT_LMS['the-rope'] = {
         },
         "fix": {
          "en": "One story per question; no story more than twice; keep the “used with” log.",
-         "id": "Satu cerita per pertanyaan; tidak ada cerita lebih dari dua kali; simpan catatan “dipakai dengan”."
+         "id": "Satu cerita untuk satu pertanyaan, maksimal dua kali. Isi terus catatan “sudah dipakai”."
         }
        },
        {
@@ -10715,7 +10677,7 @@ window.MT_LMS['the-rope'] = {
         },
         "fix": {
          "en": "Prepare the 20-second headline and the 3-minute deep version too.",
-         "id": "Siapkan juga headline 20 detik dan versi mendalam 3 menit."
+         "id": "Siapkan juga versi singkat 20 detik dan versi lengkap 3 menit."
         }
        }
       ]
@@ -10724,11 +10686,11 @@ window.MT_LMS['the-rope'] = {
       {
        "term": {
         "en": "Three lengths",
-        "id": "Tiga panjang"
+        "id": "Tiga versi panjang"
        },
        "def": {
         "en": "20-second headline, 60–90-second standard, 3-minute deep version of the same story.",
-        "id": "Headline 20 detik, standar 60–90 detik, versi mendalam 3 menit dari cerita yang sama."
+        "id": "Versi singkat 20 detik, versi standar 60–90 detik, dan versi lengkap 3 menit dari cerita yang sama."
        }
       },
       {
@@ -10738,27 +10700,27 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "The competency a story is told for; chosen by the first sentence and the emphasis, with the facts unchanged.",
-        "id": "Kompetensi yang dituju sebuah cerita; dipilih oleh kalimat pertama dan penekanan, dengan fakta tak berubah."
+        "id": "Kompetensi yang ingin ditunjukkan sebuah cerita. Ditentukan oleh kalimat pertama dan penekanannya, sementara faktanya tidak berubah."
        }
       },
       {
        "term": {
         "en": "Code-switching",
-        "id": "Alih kode"
+        "id": "Campur bahasa"
        },
        "def": {
         "en": "Adding a term from the other language inside a sentence, normal; sustained switching in formal panels is not.",
-        "id": "Menambah istilah dari bahasa lain di dalam kalimat; normal; peralihan terus-menerus di panel formal tidak."
+        "id": "Menyelipkan istilah dari bahasa lain di dalam satu kalimat. Itu wajar, tetapi berganti bahasa terus-menerus di panel yang formal tidak."
        }
       },
       {
        "term": {
         "en": "“Used with” log",
-        "id": "Catatan “dipakai dengan”"
+        "id": "Catatan “sudah dipakai”"
        },
        "def": {
         "en": "Per story: interviewer, round, date, angle, so no story is told twice to the same person.",
-        "id": "Per cerita: pewawancara, ronde, tanggal, sudut; agar tidak ada cerita diceritakan dua kali ke orang yang sama."
+        "id": "Untuk setiap cerita: pewawancara, tahap, tanggal, dan sudutnya, agar tidak ada cerita yang disampaikan dua kali ke orang yang sama."
        }
       }
      ],
@@ -10766,7 +10728,7 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "When the question is “Tell me about leading others”, your sponsor story should open with…",
-        "id": "Saat pertanyaannya “Ceritakan tentang memimpin orang lain”, cerita sponsormu harus dibuka dengan…"
+        "id": "Kalau pertanyaannya “Ceritakan saat Anda memimpin orang lain”, cerita sponsormu sebaiknya dibuka dengan…"
        },
        "options": [
         {
@@ -10775,21 +10737,21 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "How you organised and directed the team",
-         "id": "Bagaimana kamu mengorganisasi dan mengarahkan tim"
+         "id": "Cara kamu mengatur dan mengarahkan tim"
         },
         {
          "en": "The final amount",
-         "id": "Jumlah akhir"
+         "id": "Jumlah dana akhirnya"
         },
         {
          "en": "What you learned",
-         "id": "Apa yang kamu pelajari"
+         "id": "Pelajaran yang kamu petik"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The first sentence is what the interviewer writes under the competency being scored.",
-        "id": "Kalimat pertama adalah yang ditulis pewawancara di bawah kompetensi yang dinilai."
+        "id": "Kalimat pertama adalah yang dicatat pewawancara di bawah kompetensi yang sedang dinilai."
        }
       },
       {
@@ -10804,11 +10766,11 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "When invited to go deeper, or in case-heavy or senior rounds",
-         "id": "Saat diundang lebih dalam, atau di ronde berat kasus atau senior"
+         "id": "Saat diminta bercerita lebih dalam, atau di tahap yang banyak membahas kasus atau untuk posisi senior"
         },
         {
          "en": "In the opening",
-         "id": "Di pembuka"
+         "id": "Saat pembukaan"
         },
         {
          "en": "Never",
@@ -10818,13 +10780,13 @@ window.MT_LMS['the-rope'] = {
        "correct": 1,
        "why": {
         "en": "It is the depth card spoken aloud; unasked, it answers probes nobody made.",
-        "id": "Ini kartu kedalaman yang diucapkan; tanpa diminta, ia menjawab galian yang tidak ada."
+        "id": "Versi ini adalah kartu kedalaman yang diucapkan. Kalau tidak diminta, kamu menjawab galian yang tidak pernah ditanyakan."
        }
       },
       {
        "q": {
         "en": "An English-speaking interviewer asks you to switch to Bahasa Indonesia. You should…",
-        "id": "Pewawancara berbahasa Inggris memintamu beralih ke Bahasa Indonesia. Kamu sebaiknya…"
+        "id": "Pewawancara yang berbahasa Inggris memintamu beralih ke bahasa Indonesia. Sebaiknya kamu…"
        },
        "options": [
         {
@@ -10837,17 +10799,17 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "Start the story over",
-         "id": "Memulai cerita dari awal"
+         "id": "Mengulang cerita dari awal"
         },
         {
          "en": "Mix both languages evenly",
-         "id": "Mencampur kedua bahasa secara merata"
+         "id": "Mencampur kedua bahasa dengan porsi sama"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Finish the sentence, switch, continue from the same point; the structure is language-independent.",
-        "id": "Selesaikan kalimatnya, beralih, lanjutkan dari titik yang sama; strukturnya tidak bergantung bahasa."
+        "id": "Selesaikan kalimatnya, ganti bahasa, lalu lanjutkan dari titik yang sama. Strukturnya tidak bergantung pada bahasa."
        }
       }
      ],
@@ -10864,17 +10826,17 @@ window.MT_LMS['the-rope'] = {
       "returnTo": 2,
       "label": {
        "en": "Angle roulette: four questions, one story",
-       "id": "Roulette sudut: empat pertanyaan, satu cerita"
+       "id": "Undian sudut: empat pertanyaan, satu cerita"
       },
       "desc": {
        "en": "Persuasion, pressure, prioritisation, integrity; answer all four with the same Core 10 story, opening each with the part it asks about. The debrief names the competency and checks your first sentence.",
-       "id": "Persuasi, tekanan, prioritisasi, integritas; jawab keempatnya dengan cerita Core 10 yang sama, membuka masing-masing dengan bagian yang ditanyakan. Debrief menyebut kompetensinya dan memeriksa kalimat pertamamu."
+       "id": "Meyakinkan orang lain, tekanan, menentukan prioritas, dan integritas. Jawab keempatnya dengan satu cerita Core 10 yang sama, dan buka setiap jawaban dengan bagian yang ditanyakan. Ulasannya menyebut kompetensi yang ditanyakan dan mengecek kalimat pertamamu."
       }
      },
      "takeaways": [
       {
        "en": "One story, three lengths.",
-       "id": "Satu cerita, tiga panjang."
+       "id": "Satu cerita, tiga versi panjang."
       },
       {
        "en": "Lead with the angle asked.",
@@ -10882,17 +10844,17 @@ window.MT_LMS['the-rope'] = {
       },
       {
        "en": "Prepare both languages, and log which story you told to whom.",
-       "id": "Siapkan kedua bahasa, dan catat cerita mana yang kamu ceritakan kepada siapa."
+       "id": "Siapkan dalam dua bahasa, dan catat cerita mana yang kamu sampaikan ke siapa."
       }
      ],
      "resources": {
       "title": {
        "en": "Sources and the flex card",
-       "id": "Sumber dan kartu fleksi"
+       "id": "Sumber dan kartu fleksibel"
       },
       "lead": {
        "en": "One source, the current Rope’s retained idea, and the card that finishes each Core 10 story.",
-       "id": "Satu sumber, gagasan The Rope saat ini yang dipertahankan, dan kartu yang menyelesaikan tiap cerita Core 10."
+       "id": "Satu sumber bacaan, satu gagasan dari The Rope versi sebelumnya yang dipertahankan, dan kartu yang melengkapi setiap cerita Core 10."
       },
       "items": [
        {
@@ -10903,20 +10865,20 @@ window.MT_LMS['the-rope'] = {
         },
         "desc": {
          "en": "The three lengths formalise the current Rope’s “three altitudes”.",
-         "id": "Tiga panjang memformalkan “tiga ketinggian” The Rope saat ini."
+         "id": "Tiga versi panjang adalah bentuk yang lebih rapi dari gagasan “tiga ketinggian” di The Rope versi sebelumnya."
         },
         "body": [
          {
           "en": "R. Ryan, <i>60 Seconds & You’re Hired!</i> Short answers that invite the follow-up.",
-          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i> Jawaban singkat yang mengundang pertanyaan lanjutan."
+          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i>: jawaban singkat yang mengundang pertanyaan lanjutan."
          },
          {
           "en": "The Rope (current), “three altitudes of one story”, retained and formalised as three lengths.",
-          "id": "The Rope (saat ini), “tiga ketinggian satu cerita”, dipertahankan dan diformalkan sebagai tiga panjang."
+          "id": "The Rope versi sebelumnya: “tiga ketinggian untuk satu cerita”, dipertahankan dan dirapikan menjadi tiga versi panjang."
          },
          {
           "en": "<span class=\"ev ev-contested\">Course guidance</span> The bilingual-delivery rules are The Pack and The Rope’s own local adaptation.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Aturan penyampaian dwibahasa adalah adaptasi lokal milik The Pack dan The Rope."
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Aturan bercerita dalam dua bahasa adalah adaptasi lokal yang disusun The Pack dan The Rope."
          }
         ]
        },
@@ -10924,20 +10886,20 @@ window.MT_LMS['the-rope'] = {
         "kind": "template",
         "title": {
          "en": "Flex card (Kit item, part 4)",
-         "id": "Kartu fleksi (butir Perangkat, bagian 4)"
+         "id": "Kartu fleksibel (isi Perangkat Wawancara, bagian 4)"
         },
         "desc": {
          "en": "One per Core 10 story; completes the Story Bank entry.",
-         "id": "Satu per cerita Core 10; melengkapi entri Bank Cerita."
+         "id": "Satu kartu untuk setiap cerita Core 10, sebagai pelengkap entri Bank Cerita."
         },
         "body": [
          {
           "en": "20-second headline (ID) · 20-second headline (EN)",
-          "id": "Headline 20 detik (ID) · headline 20 detik (EN)"
+          "id": "Versi singkat 20 detik (ID) · versi singkat 20 detik (EN)"
          },
          {
           "en": "Opening sentence per slot covered: slot … → “…” · slot … → “…” · slot … → “…”",
-          "id": "Kalimat pembuka per slot yang dicakup: slot … → “…” · slot … → “…” · slot … → “…”"
+          "id": "Kalimat pembuka untuk setiap slot: slot … → “…” · slot … → “…” · slot … → “…”"
          },
          {
           "en": "Key nouns and numbers in both languages",
@@ -10945,11 +10907,11 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "3-minute additions: alternatives · stakeholders · numbers · fallback · what changed next year",
-          "id": "Tambahan 3 menit: alternatif · pemangku kepentingan · angka · cadangan · apa yang berubah tahun berikutnya"
+          "id": "Tambahan untuk versi 3 menit: pilihan lain · pihak yang terlibat · angka · rencana cadangan · apa yang berubah tahun berikutnya"
          },
          {
           "en": "Used with: interviewer · round · date · angle",
-          "id": "Dipakai dengan: pewawancara · ronde · tanggal · sudut"
+          "id": "Sudah dipakai dengan: pewawancara · tahap · tanggal · sudut"
          }
         ]
        }
@@ -10962,32 +10924,32 @@ window.MT_LMS['the-rope'] = {
      "placeholder": false,
      "dur": {
       "en": "60 min",
-      "id": "60 mnt"
+      "id": "60 menit"
      },
      "title": {
       "en": "Case Assignment: Nadia’s Core 10",
-      "id": "Tugas Kasus: Core 10 Nadia"
+      "id": "Tugas Kasus: Core 10 Milik Nadia"
      },
      "overview": {
       "en": "Nadia has mined 27 raw candidates from five settings, the bank internship, the HIMA treasury, the sponsorship team, the café and the community service, and her user interview with a Kepala Cabang at Bank Sinar Nusantara is the next round that will probe them. Using Lessons 2.1–2.4, choose her ten, justify each against the coverage grid, rewrite one vague candidate into a full STAR+L, build depth cards for the three stories the bank’s stated values will pull on, and name the one story she must not tell there. Then submit your own Core 10, the second Interview Kit item.",
-      "id": "Nadia sudah menggali 27 kandidat mentah dari lima latar, magang bank, bendahara HIMA, tim sponsorship, kafe, dan KKN, dan wawancara user-nya dengan Kepala Cabang di Bank Sinar Nusantara adalah ronde berikutnya yang akan menggalinya. Dengan Pelajaran 2.1–2.4, pilih sepuluh miliknya, benarkan masing-masing terhadap kisi cakupan, tulis ulang satu kandidat samar menjadi STAR+L penuh, bangun kartu kedalaman untuk tiga cerita yang akan ditarik nilai-nilai bank, dan sebutkan satu cerita yang tidak boleh ia ceritakan di sana. Lalu kumpulkan Core 10-mu sendiri, butir Perangkat Wawancara kedua."
+      "id": "Nadia sudah menggali 27 calon cerita dari lima latar: magang di bank, bendahara HIMA, tim sponsorship, kafe, dan KKN. Tahap berikutnya, wawancara user dengan seorang Kepala Cabang Bank Sinar Nusantara, akan menggali cerita-cerita itu. Dengan bekal Pelajaran 2.1–2.4, pilihkan sepuluh cerita untuknya, jelaskan alasan setiap pilihan berdasarkan kisi cakupan, tulis ulang satu calon cerita yang masih samar menjadi STAR+L lengkap, buat kartu kedalaman untuk tiga cerita yang paling mungkin disorot oleh nilai-nilai bank itu, dan tunjukkan satu cerita yang tidak boleh ia ceritakan di sana. Setelah itu, kumpulkan Core 10 milikmu sendiri sebagai isi kedua Perangkat Wawancara."
      },
      "objectives": [
       {
        "en": "Select ten stories from a raw list so that every coverage slot is filled and no setting dominates.",
-       "id": "Memilih sepuluh cerita dari daftar mentah agar setiap slot cakupan terisi dan tidak ada latar yang mendominasi."
+       "id": "Memilih sepuluh cerita dari daftar mentah sehingga semua slot terisi dan tidak ada satu latar yang terlalu dominan."
       },
       {
        "en": "Turn a vague candidate into a STAR+L with an obstacle, reasoning and a behaviour-change learning.",
-       "id": "Mengubah kandidat samar menjadi STAR+L dengan hambatan, alasan, dan pembelajaran berupa perubahan perilaku."
+       "id": "Mengubah calon cerita yang samar menjadi STAR+L lengkap dengan hambatan, alasan, dan pelajaran berupa perubahan perilaku."
       },
       {
        "en": "Build depth cards that anticipate three probe families for the stories an employer’s values will pull on.",
-       "id": "Membangun kartu kedalaman yang mengantisipasi tiga keluarga galian untuk cerita yang akan ditarik nilai-nilai perusahaan."
+       "id": "Membuat kartu kedalaman yang mengantisipasi tiga jenis galian untuk cerita yang paling disorot oleh nilai-nilai perusahaan."
       },
       {
        "en": "Recognise a story that is true but unsafe to tell, confidential, blaming or reputationally risky.",
-       "id": "Mengenali cerita yang benar tetapi tidak aman diceritakan, rahasia, menyalahkan, atau berisiko reputasi."
+       "id": "Mengenali cerita yang benar tetapi tidak aman untuk diceritakan: membuka rahasia, menyalahkan orang lain, atau berisiko bagi reputasi."
       }
      ],
      "readFirst": {
@@ -11001,38 +10963,38 @@ window.MT_LMS['the-rope'] = {
         "n": "2.5",
         "title": {
          "en": "Case Assignment: Nadia’s Core 10",
-         "id": "Tugas Kasus: Core 10 Nadia"
+         "id": "Tugas Kasus: Core 10 Milik Nadia"
         }
        },
        "story": [
         {
          "en": "Filter each candidate first, specific, owned, a result, then read the grid for empty slots",
-         "id": "Saring setiap kandidat dulu, spesifik, dimiliki, ada hasil, lalu baca kisi untuk slot yang kosong"
+         "id": "Saring setiap calon cerita dulu, apakah spesifik, milikmu, dan ada hasilnya, lalu periksa kisi untuk slot yang kosong"
         },
         {
          "en": "The job description and the four values tell you which three stories will be probed hardest",
-         "id": "Deskripsi pekerjaan dan empat nilai memberi tahu tiga cerita mana yang akan digali paling dalam"
+         "id": "Deskripsi pekerjaan dan empat nilai bank menunjukkan tiga cerita mana yang akan digali paling dalam"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Read like a selector",
-          "id": "Baca seperti penyeleksi"
+          "id": "Baca seperti seorang penyeleksi"
          },
          "p": {
           "en": "Then read the grid: which slots are empty, and which setting is over-supplying.",
-          "id": "Lalu baca kisinya: slot mana yang kosong, dan latar mana yang menyumbang berlebih."
+          "id": "Lalu periksa kisinya: slot mana yang kosong, dan latar mana yang menyumbang terlalu banyak."
          }
         },
         {
          "h": {
           "en": "Then read like the bank",
-          "id": "Lalu baca seperti bank"
+          "id": "Lalu baca dari sudut pandang bank"
          },
          "p": {
-          "en": "The job description and the four values tell you which three stories will be probed hardest",
-          "id": "Deskripsi pekerjaan dan empat nilai memberi tahu tiga cerita mana yang akan digali paling dalam"
+          "en": "Step 5 is your own Core 10. Model notes open after you submit; compare, do not copy.",
+          "id": "Langkah 5 adalah Core 10 milikmu sendiri. Contoh jawaban terbuka setelah kamu mengumpulkan. Bandingkan, jangan menyalin."
          }
         }
        ],
@@ -11041,7 +11003,7 @@ window.MT_LMS['the-rope'] = {
          "kind": "body",
          "t": {
           "en": "Filter each candidate first, specific, owned, a result, then read the grid for empty slots",
-          "id": "Saring setiap kandidat dulu, spesifik, dimiliki, ada hasil, lalu baca kisi untuk slot yang kosong"
+          "id": "Saring setiap calon cerita dulu, apakah spesifik, milikmu, dan ada hasilnya, lalu periksa kisi untuk slot yang kosong"
          },
          "img": "../../assets/bg/map.jpg",
          "layout": "statement",
@@ -11049,51 +11011,43 @@ window.MT_LMS['the-rope'] = {
           {
            "icon": "filter",
            "en": "Run each candidate through the filter first: specific? owned? a result? Titles and periods fail.",
-           "id": "Jalankan tiap kandidat lewat saringan dulu: spesifik? dimiliki? ada hasil? Jabatan dan periode gagal."
+           "id": "Saring setiap calon cerita lebih dulu: spesifik? milikmu? ada hasilnya? Jabatan dan periode tidak akan lolos."
           }
          ],
          "take": {
           "en": "Then read the grid: which slots are empty, and which setting is over-supplying.",
-          "id": "Lalu baca kisinya: slot mana yang kosong, dan latar mana yang menyumbang berlebih."
+          "id": "Lalu periksa kisinya: slot mana yang kosong, dan latar mana yang menyumbang terlalu banyak."
          },
          "medal": "filter",
          "em": {
           "en": "specific, owned, a result",
-          "id": "spesifik, dimiliki, ada hasil"
+          "id": "apakah spesifik, milikmu, dan ada hasilnya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "The job description and the four values tell you which three stories will be probed hardest",
-          "id": "Deskripsi pekerjaan dan empat nilai memberi tahu tiga cerita mana yang akan digali paling dalam"
+          "id": "Deskripsi pekerjaan dan empat nilai bank menunjukkan tiga cerita mana yang akan digali paling dalam"
          },
          "img": "../../assets/bg/stage-exploration.jpg",
-         "layout": "list",
+         "layout": "statement",
          "items": [
           {
            "icon": "grid",
-           "en": "Step 5 is your own Core 10. Model notes open after you submit",
-           "id": "Langkah 5 adalah Core 10-mu sendiri. Catatan model terbuka setelah kamu mengumpulkan",
+           "en": "The JD and the four values tell you which three stories the Kepala Cabang will probe hardest.",
+           "id": "Deskripsi pekerjaan dan empat nilai bank memberi tahu tiga cerita mana yang akan digali paling dalam oleh Kepala Cabang.",
            "l": {
             "en": "Your Core 10",
             "id": "Core 10-mu"
            }
-          },
-          {
-           "icon": "eye",
-           "en": "compare, do not copy.",
-           "id": "bandingkan, jangan salin.",
-           "l": {
-            "en": "Compare, never copy",
-            "id": "Bandingkan, jangan salin"
-           }
           }
          ],
-         "lead": {
-          "en": "The JD and the four values tell you which three stories the Kepala Cabang will probe hardest.",
-          "id": "JD dan empat nilai memberi tahu tiga cerita mana yang akan digali paling keras oleh Kepala Cabang."
+         "take": {
+          "en": "Step 5 is your own Core 10. Model notes open after you submit; compare, do not copy.",
+          "id": "Langkah 5 adalah Core 10 milikmu sendiri. Contoh jawaban terbuka setelah kamu mengumpulkan. Bandingkan, jangan menyalin."
          },
+         "medal": "grid",
          "em": {
           "en": "probed hardest",
           "id": "digali paling dalam"
@@ -11107,42 +11061,42 @@ window.MT_LMS['the-rope'] = {
       },
       "title": {
        "en": "Twenty-seven candidates, ten places",
-       "id": "Dua puluh tujuh kandidat, sepuluh tempat"
+       "id": "Dua puluh tujuh calon, sepuluh tempat"
       },
       "intro": {
        "en": "Five steps, five written answers. The case file has three tabs: Nadia’s 27 candidates as she captured them, the Bank Sinar Nusantara officer programme job description, and the bank’s four stated values. Every answer is checked for the ideas Module 2 taught, coverage, ownership, obstacle, reasoning, probe families, the confidentiality rule, not for matching a model.",
-       "id": "Lima langkah, lima jawaban tertulis. Berkas kasus punya tiga tab: 27 kandidat Nadia sebagaimana ia catat, deskripsi pekerjaan ODP Bank Sinar Nusantara, dan empat nilai yang dinyatakan bank. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 2, cakupan, kepemilikan, hambatan, alasan, keluarga galian, aturan kerahasiaan, bukan kecocokan dengan model."
+       "id": "Ada lima langkah, dan setiap langkah meminta satu jawaban tertulis. Berkas kasusnya punya tiga tab: 27 calon cerita Nadia persis seperti yang ia catat, deskripsi pekerjaan ODP Bank Sinar Nusantara, dan empat nilai yang dipegang bank itu. Jawabanmu dinilai dari seberapa baik kamu memakai gagasan Modul 2, yaitu cakupan, peran pribadi, hambatan, alasan, jenis galian, dan aturan kerahasiaan, bukan dari seberapa mirip dengan contoh jawaban."
       },
       "slides": [
        {
         "h": {
          "en": "Read like a selector",
-         "id": "Baca seperti penyeleksi"
+         "id": "Baca seperti seorang penyeleksi"
         },
         "points": [
          {
           "en": "Run each candidate through the filter first: specific? owned? a result? Titles and periods fail.",
-          "id": "Jalankan tiap kandidat lewat saringan dulu: spesifik? dimiliki? ada hasil? Jabatan dan periode gagal."
+          "id": "Saring setiap calon cerita lebih dulu: spesifik? milikmu? ada hasilnya? Jabatan dan periode tidak akan lolos."
          },
          {
           "en": "Then read the grid: which slots are empty, and which setting is over-supplying.",
-          "id": "Lalu baca kisinya: slot mana yang kosong, dan latar mana yang menyumbang berlebih."
+          "id": "Lalu periksa kisinya: slot mana yang kosong, dan latar mana yang menyumbang terlalu banyak."
          }
         ]
        },
        {
         "h": {
          "en": "Then read like the bank",
-         "id": "Lalu baca seperti bank"
+         "id": "Lalu baca dari sudut pandang bank"
         },
         "points": [
          {
           "en": "The JD and the four values tell you which three stories the Kepala Cabang will probe hardest.",
-          "id": "JD dan empat nilai memberi tahu tiga cerita mana yang akan digali paling keras oleh Kepala Cabang."
+          "id": "Deskripsi pekerjaan dan empat nilai bank memberi tahu tiga cerita mana yang akan digali paling dalam oleh Kepala Cabang."
          },
          {
           "en": "Step 5 is your own Core 10. Model notes open after you submit; compare, do not copy.",
-          "id": "Langkah 5 adalah Core 10-mu sendiri. Catatan model terbuka setelah kamu mengumpulkan; bandingkan, jangan salin."
+          "id": "Langkah 5 adalah Core 10 milikmu sendiri. Contoh jawaban terbuka setelah kamu mengumpulkan. Bandingkan, jangan menyalin."
          }
         ]
        }
@@ -11157,20 +11111,20 @@ window.MT_LMS['the-rope'] = {
       },
       "title": {
        "en": "Nadia’s Core 10",
-       "id": "Core 10 Nadia"
+       "id": "Core 10 Milik Nadia"
       },
       "lead": {
        "en": "Twenty-seven raw candidates, ten places, one user interview at a bank whose values are on the wall. Choose, structure, deepen, and decide what stays out.",
-       "id": "Dua puluh tujuh kandidat mentah, sepuluh tempat, satu wawancara user di bank yang nilai-nilainya terpampang di dinding. Pilih, susun, perdalam, dan putuskan apa yang tidak dibawa."
+       "id": "Dua puluh tujuh calon cerita, sepuluh tempat, dan satu wawancara user di bank yang memajang nilai-nilainya di dinding. Pilih, susun, perdalam, dan putuskan cerita mana yang tidak dibawa."
       },
       "practice": [
        {
         "en": "Selection and coverage",
-        "id": "Seleksi dan cakupan"
+        "id": "Memilih dan memetakan"
        },
        {
         "en": "STAR+L rewrite",
-        "id": "Tulis ulang STAR+L"
+        "id": "Menulis ulang STAR+L"
        },
        {
         "en": "Depth cards",
@@ -11178,16 +11132,16 @@ window.MT_LMS['the-rope'] = {
        },
        {
         "en": "The story to leave out",
-        "id": "Cerita yang ditinggalkan"
+        "id": "Cerita yang tidak dibawa"
        },
        {
         "en": "Your Core 10",
-        "id": "Core 10-mu"
+        "id": "Core 10 milikmu"
        }
       ],
       "goal": {
        "en": "A Core 10 Nadia could carry into the Kepala Cabang interview on Thursday, and your own ten, filed as the second Kit item.",
-       "id": "Core 10 yang bisa dibawa Nadia ke wawancara Kepala Cabang hari Kamis, dan sepuluh milikmu sendiri, diarsipkan sebagai butir Perangkat kedua."
+       "id": "Core 10 yang siap Nadia bawa ke wawancara dengan Kepala Cabang hari Kamis, ditambah sepuluh cerita milikmu yang tersimpan sebagai isi kedua Perangkat Wawancara."
       },
       "brief": {
        "email": {
@@ -11206,44 +11160,44 @@ window.MT_LMS['the-rope'] = {
         },
         "subject": {
          "en": "Nadia’s 27 candidates: help her choose ten before the Kepala Cabang interview",
-         "id": "27 kandidat Nadia: bantu ia memilih sepuluh sebelum wawancara Kepala Cabang"
+         "id": "27 calon cerita Nadia: tolong bantu ia memilih sepuluh sebelum wawancara dengan Kepala Cabang"
         },
         "paragraphs": [
          {
           "en": "Nadia passed the Bank Sinar Nusantara phone screen and the psikotes, and the user interview with a Kepala Cabang is on Thursday. She did the mining exercise from Lesson 2.1 properly, 27 candidates, pasted below exactly as she captured them, some specific, some just titles. Now she wants to prepare all 27, which is how she will walk in with none of them ready.",
-          "id": "Nadia lolos seleksi telepon dan psikotes Bank Sinar Nusantara, dan wawancara user dengan Kepala Cabang hari Kamis. Ia mengerjakan latihan penggalian Pelajaran 2.1 dengan benar; 27 kandidat, saya tempelkan di bawah persis seperti ia mencatatnya, sebagian spesifik, sebagian hanya jabatan. Sekarang ia ingin menyiapkan semua 27, dan begitulah ia akan masuk tanpa satu pun yang siap."
+          "id": "Nadia lolos wawancara telepon dan psikotes Bank Sinar Nusantara, dan wawancara user dengan Kepala Cabang dijadwalkan hari Kamis. Ia sudah mengerjakan latihan menggali dari Pelajaran 2.1 dengan baik: ada 27 calon cerita, saya tempel di bawah persis seperti yang ia catat. Sebagian sudah spesifik, sebagian lagi baru berupa jabatan. Sekarang ia ingin menyiapkan ke-27 cerita itu, dan dengan cara itu ia justru akan datang tanpa satu pun cerita yang benar-benar siap."
          },
          {
           "en": "Help her choose ten. I have attached the officer programme job description she applied to and the four values the bank prints on its careers page. A branch manager at that bank will not ask for her biggest achievement; he will ask about cash, mistakes and customers, and then ask again.",
-          "id": "Bantu ia memilih sepuluh. Saya lampirkan deskripsi pekerjaan ODP yang ia lamar dan empat nilai yang dicetak bank di halaman kariernya. Kepala cabang di bank itu tidak akan menanyakan pencapaian terbesarnya; ia akan bertanya soal kas, kesalahan, dan nasabah, lalu bertanya lagi."
+          "id": "Tolong bantu ia memilih sepuluh. Saya lampirkan deskripsi pekerjaan ODP yang ia lamar dan empat nilai yang dicantumkan bank itu di halaman kariernya. Seorang kepala cabang di bank itu tidak akan menanyakan pencapaian terbesarnya. Ia akan bertanya soal uang tunai, kesalahan, dan nasabah, lalu menggalinya lagi."
          },
          {
           "en": "One more thing: one of her 27 should never be told at a bank, and she does not see it yet. Find it. Then build your own Core 10. It is the second page of your Kit and I will read it before your next simulator round.",
-          "id": "Satu lagi: satu dari 27-nya tidak boleh pernah diceritakan di bank, dan ia belum melihatnya. Temukan. Lalu bangun Core 10-mu sendiri; itu halaman kedua Perangkatmu dan saya akan membacanya sebelum putaran simulatormu berikutnya."
+          "id": "Satu lagi: ada satu dari 27 cerita itu yang tidak boleh diceritakan di bank, dan Nadia belum menyadarinya. Temukan cerita itu. Setelah itu, susun Core 10 milikmu sendiri. Itu menjadi halaman kedua Perangkat Wawancara-mu, dan akan saya baca sebelum sesi simulator berikutnya."
          }
         ],
         "asks": [
          {
           "en": "Her ten, each justified against the coverage grid, with the empty slots and the bench named",
-          "id": "Sepuluh miliknya, masing-masing dibenarkan terhadap kisi cakupan, dengan slot kosong dan cadangan disebut"
+          "id": "Sepuluh cerita pilihannya, masing-masing dengan alasan berdasarkan kisi cakupan, lengkap dengan slot yang sulit diisi dan cerita cadangannya"
          },
          {
           "en": "One vague candidate rewritten as a full STAR+L",
-          "id": "Satu kandidat samar ditulis ulang sebagai STAR+L penuh"
+          "id": "Satu calon cerita yang samar, ditulis ulang menjadi STAR+L lengkap"
          },
          {
           "en": "Depth cards for the three stories the bank’s values will pull on",
-          "id": "Kartu kedalaman untuk tiga cerita yang akan ditarik nilai-nilai bank"
+          "id": "Kartu kedalaman untuk tiga cerita yang paling disorot oleh nilai-nilai bank"
          },
          {
           "en": "The one story she must not tell there, and why",
-          "id": "Satu cerita yang tidak boleh ia ceritakan di sana, dan mengapa"
+          "id": "Satu cerita yang tidak boleh ia ceritakan di sana, beserta alasannya"
          }
         ],
         "closing": [
          {
           "en": "Terima kasih: Rina",
-          "id": "Terima kasih: Rina"
+          "id": "Terima kasih, Rina"
          }
         ]
        },
@@ -11256,7 +11210,7 @@ window.MT_LMS['the-rope'] = {
          },
          "v": {
           "en": "User interview with a Kepala Cabang, Bank Sinar Nusantara officer programme, 45 minutes, one interviewer, behavioural and technical",
-          "id": "Wawancara user dengan Kepala Cabang, ODP Bank Sinar Nusantara, 45 menit, satu pewawancara, perilaku dan teknis"
+          "id": "Wawancara user dengan Kepala Cabang, ODP Bank Sinar Nusantara, 45 menit, satu pewawancara, pertanyaan perilaku dan teknis"
          },
          "hot": true
         },
@@ -11268,7 +11222,7 @@ window.MT_LMS['the-rope'] = {
          },
          "v": {
           "en": "Ten slots must be covered; each story serves up to three; no setting supplies more than four",
-          "id": "Sepuluh slot harus tercakup; tiap cerita melayani hingga tiga; tidak ada latar menyumbang lebih dari empat"
+          "id": "Sepuluh slot harus terisi; satu cerita bisa mengisi sampai tiga slot; tidak ada latar yang menyumbang lebih dari empat"
          },
          "hot": true
         },
@@ -11280,7 +11234,7 @@ window.MT_LMS['the-rope'] = {
          },
          "v": {
           "en": "Integritas · Pelayanan · Kolaborasi · Kehati-hatian: the bank’s stated values (fictional)",
-          "id": "Integritas · Pelayanan · Kolaborasi · Kehati-hatian: nilai yang dinyatakan bank (fiktif)"
+          "id": "Integritas · Pelayanan · Kolaborasi · Kehati-hatian: nilai-nilai yang dicantumkan bank (fiktif)"
          },
          "hot": true
         },
@@ -11292,29 +11246,29 @@ window.MT_LMS['the-rope'] = {
          },
          "v": {
           "en": "Bank Sinar internship · HIMA treasury · sponsorship team · Kopi Tepian · community service, plus thesis and coursework",
-          "id": "Magang Bank Sinar · bendahara HIMA · tim sponsorship · Kopi Tepian · KKN, plus skripsi dan perkuliahan"
+          "id": "Magang di Bank Sinar · bendahara HIMA · tim sponsorship · Kopi Tepian · KKN, ditambah skripsi dan tugas kuliah"
          }
         },
         {
          "icon": "clock",
          "k": {
           "en": "90 s",
-          "id": "90 dtk"
+          "id": "90 detik"
          },
          "v": {
           "en": "Standard length for a full STAR+L answer, Action about 45%",
-          "id": "Panjang standar jawaban STAR+L penuh, Aksi sekitar 45%"
+          "id": "Panjang standar untuk jawaban STAR+L lengkap, dengan Aksi sekitar 45%"
          }
         },
         {
          "icon": "eye",
          "k": {
           "en": "Same facts",
-          "id": "Fakta sama"
+          "id": "Fakta yang sama"
          },
          "v": {
           "en": "HR and the Kepala Cabang meet at the debrief; numbers must match Round 1 and the HR screen",
-          "id": "HR dan Kepala Cabang bertemu di rapat evaluasi; angka harus sama dengan Putaran 1 dan seleksi HR"
+          "id": "HR dan Kepala Cabang bertemu di rapat evaluasi; angkanya harus sama dengan Putaran 1 dan wawancara telepon HR"
          }
         }
        ],
@@ -11322,32 +11276,32 @@ window.MT_LMS['the-rope'] = {
         {
          "tab": {
           "en": "27 candidates",
-          "id": "27 kandidat"
+          "id": "27 calon cerita"
          },
          "title": {
           "en": "Nadia’s mining sheet: as captured, one line each",
-          "id": "Lembar penggalian Nadia: sebagaimana dicatat, satu baris masing-masing"
+          "id": "Lembar penggalian Nadia: persis seperti yang ia catat, satu baris per cerita"
          },
          "meta": {
           "en": "Numbered for your answers; setting in brackets",
-          "id": "Dinomori untuk jawabanmu; latar dalam kurung"
+          "id": "Diberi nomor untuk memudahkan jawabanmu; latar ditulis dalam kurung siku"
          },
          "body": [
           {
            "h": {
             "en": "Bank Sinar Nusantara internship (Jun–Aug 2025)",
-            "id": "Magang Bank Sinar Nusantara (Jun–Agu 2025)"
+            "id": "Magang di Bank Sinar Nusantara (Juni–Agustus 2025)"
            }
           },
           {
            "items": [
             {
              "en": "1 · [BSN] Noticed the same terminal mismatch appearing in the daily report for three branches; traced it to a handover-time cut-off; proposed a fix that removed about 30 minutes of manual correction a day.",
-             "id": "1 · [BSN] Melihat selisih terminal yang sama muncul di laporan harian tiga cabang; melacaknya ke batas waktu serah terima; mengusulkan perbaikan yang menghilangkan sekitar 30 menit koreksi manual per hari."
+             "id": "1 · [BSN] Melihat selisih terminal yang sama muncul di laporan harian tiga cabang; menelusurinya sampai ketemu penyebabnya, yaitu batas waktu serah terima; mengusulkan perbaikan yang menghemat sekitar 30 menit koreksi manual per hari."
             },
             {
              "en": "2 · [BSN] Built the one-page reconciliation checklist the branch team still uses after I left.",
-             "id": "2 · [BSN] Membangun daftar periksa rekonsiliasi satu halaman yang masih dipakai tim cabang setelah saya pergi."
+             "id": "2 · [BSN] Menyusun daftar periksa rekonsiliasi satu halaman yang masih dipakai tim cabang setelah saya selesai magang."
             },
             {
              "en": "3 · [BSN] Learned a lot about banking operations.",
@@ -11355,29 +11309,29 @@ window.MT_LMS['the-rope'] = {
             },
             {
              "en": "4 · [BSN] In week one I did not understand the reconciliation flow; asked the senior officer to walk me through it three times, kept notes each time, and was doing it unsupervised by week three.",
-             "id": "4 · [BSN] Di minggu pertama saya tidak paham alur rekonsiliasi; minta petugas senior menjelaskannya tiga kali, mencatat tiap kali, dan mengerjakannya tanpa pengawasan pada minggu ketiga."
+             "id": "4 · [BSN] Di minggu pertama saya belum paham alur rekonsiliasi; saya minta petugas senior menjelaskannya sampai tiga kali, mencatat setiap penjelasannya, dan di minggu ketiga sudah bisa mengerjakannya tanpa diawasi."
             },
             {
              "en": "5 · [BSN] While reconciling, spotted an unusual pattern of large transfers on one corporate customer’s account and raised it with my supervisor. It turned out to be a payroll batch, but the supervisor said the instinct was right.",
-             "id": "5 · [BSN] Saat merekonsiliasi, melihat pola transfer besar yang tidak biasa di rekening satu nasabah korporasi dan melaporkannya ke supervisor, ternyata batch payroll, tetapi supervisor bilang instingnya benar."
+             "id": "5 · [BSN] Saat rekonsiliasi, melihat pola transfer besar yang tidak biasa di rekening seorang nasabah korporasi dan melaporkannya ke supervisor. Ternyata itu pembayaran gaji massal, tetapi supervisor bilang naluri saya sudah benar."
             },
             {
              "en": "6 · [BSN] Given a week of manual data entry; proposed a template; supervisor said keep it simple; did it manually and finished a day early.",
-             "id": "6 · [BSN] Diberi seminggu entri data manual; mengusulkan templat; supervisor bilang biarkan sederhana; mengerjakannya manual dan selesai sehari lebih awal."
+             "id": "6 · [BSN] Ditugasi entri data manual selama seminggu; mengusulkan templat; supervisor minta tetap dibuat sederhana; saya kerjakan manual dan selesai sehari lebih cepat."
             }
            ]
           },
           {
            "h": {
             "en": "HIMA Manajemen treasury (Aug 2024–Jul 2025)",
-            "id": "Bendahara HIMA Manajemen (Agu 2024–Jul 2025)"
+            "id": "Bendahara HIMA Manajemen (Agustus 2024–Juli 2025)"
            }
           },
           {
            "items": [
             {
              "en": "7 · [HIMA] Introduced a monthly close with receipts for every line; the faculty audit found zero issues, the first clean audit in three years.",
-             "id": "7 · [HIMA] Memperkenalkan tutup buku bulanan dengan kuitansi untuk setiap baris; audit fakultas menemukan nol temuan, audit bersih pertama dalam tiga tahun."
+             "id": "7 · [HIMA] Memperkenalkan tutup buku bulanan dengan kuitansi untuk setiap pos; audit fakultas tanpa temuan, audit bersih pertama dalam tiga tahun."
             },
             {
              "en": "8 · [HIMA] Managed a Rp 120 juta budget.",
@@ -11385,11 +11339,11 @@ window.MT_LMS['the-rope'] = {
             },
             {
              "en": "9 · [HIMA] A division head submitted Rp 2,3 juta of event expenses without receipts and wanted reimbursement before the event report; I refused until the receipts came, he escalated to the chair, and we ended up agreeing a partial-advance rule for future events.",
-             "id": "9 · [HIMA] Seorang kepala divisi mengajukan pengeluaran acara Rp 2,3 juta tanpa kuitansi dan ingin diganti sebelum laporan acara; saya menolak sampai kuitansinya ada, ia mengeskalasi ke ketua, dan akhirnya kami menyepakati aturan uang muka sebagian untuk acara berikutnya."
+             "id": "9 · [HIMA] Seorang kepala divisi mengajukan pengeluaran acara Rp 2,3 juta tanpa kuitansi dan minta diganti sebelum laporan acara selesai; saya menolak sampai kuitansinya ada, ia membawa masalah ini ke ketua, dan akhirnya kami menyepakati aturan uang muka sebagian untuk acara-acara berikutnya."
             },
             {
              "en": "10 · [HIMA] Two events fell in the same week as my midterms; built an hour-by-hour schedule, delegated cash collection to my deputy with a sign-off sheet, and both events closed on time with no missing receipts.",
-             "id": "10 · [HIMA] Dua acara jatuh di minggu yang sama dengan UTS saya; membuat jadwal per jam, mendelegasikan pengumpulan kas ke wakil saya dengan lembar tanda tangan, dan kedua acara tutup buku tepat waktu tanpa kuitansi hilang."
+             "id": "10 · [HIMA] Dua acara jatuh di minggu yang sama dengan UTS saya; saya menyusun jadwal per jam, menyerahkan penagihan kas ke wakil saya dengan lembar tanda terima, dan kedua acara tutup buku tepat waktu tanpa ada kuitansi yang hilang."
             },
             {
              "en": "11 · [HIMA] Was treasurer for a year.",
@@ -11400,94 +11354,94 @@ window.MT_LMS['the-rope'] = {
           {
            "h": {
             "en": "Head of Sponsorship, 2025 National Business Competition",
-            "id": "Kepala Sponsorship, Kompetisi Bisnis Nasional 2025"
+            "id": "Kepala Divisi Sponsorship, Kompetisi Bisnis Nasional 2025"
            }
           },
           {
            "items": [
             {
              "en": "12 · [NBC] Sixteen days before the event we were Rp 25 juta short; I split the alumni list by industry, priced three smaller packages, and closed the gap with 11 sponsors totalling Rp 85 juta.",
-             "id": "12 · [NBC] Enam belas hari sebelum acara kami kekurangan Rp 25 juta; saya memecah daftar alumni per industri, menetapkan harga tiga paket lebih kecil, dan menutup kekurangan dengan 11 sponsor senilai Rp 85 juta."
+             "id": "12 · [KBN] Enam belas hari sebelum acara, dana kami kurang Rp 25 juta; saya memilah daftar alumni berdasarkan industri, menyusun tiga paket yang lebih murah, dan menutup kekurangannya dengan 11 sponsor senilai total Rp 85 juta."
             },
             {
              "en": "13 · [NBC] Lost last year’s biggest returning sponsor because I contacted them a week after their budget was already committed; I had worked the new list first.",
-             "id": "13 · [NBC] Kehilangan sponsor terbesar yang kembali dari tahun lalu karena saya menghubungi mereka seminggu setelah anggarannya sudah dialokasikan; saya mengerjakan daftar baru lebih dulu."
+             "id": "13 · [KBN] Kehilangan sponsor langganan terbesar dari tahun lalu karena saya baru menghubungi mereka seminggu setelah anggaran mereka habis dialokasikan; saya mendahulukan daftar sponsor baru."
             },
             {
              "en": "14 · [NBC] One of the six stopped replying for two weeks in exam season; I redistributed her sponsors, then called her rather than messaging, and she came back for the final stretch.",
-             "id": "14 · [NBC] Satu dari enam berhenti membalas selama dua minggu di musim ujian; saya membagi ulang sponsornya, lalu meneleponnya alih-alih mengirim pesan, dan ia kembali untuk tahap akhir."
+             "id": "14 · [KBN] Satu dari enam anggota tim berhenti membalas pesan selama dua minggu di musim ujian; saya membagi ulang sponsor yang ia pegang, lalu meneleponnya alih-alih mengirim pesan, dan ia kembali bergabung untuk tahap akhir."
             },
             {
              "en": "15 · [NBC] Persuaded the competition chair to approve a cheaper package for small businesses by showing last year’s conversion by package size.",
-             "id": "15 · [NBC] Meyakinkan ketua kompetisi menyetujui paket lebih murah untuk usaha kecil dengan menunjukkan konversi tahun lalu per ukuran paket."
+             "id": "15 · [KBN] Meyakinkan ketua kompetisi untuk menyetujui paket yang lebih murah bagi usaha kecil dengan menunjukkan data konversi tahun lalu per ukuran paket."
             },
             {
              "en": "16 · [NBC] Worked with a great team.",
-             "id": "16 · [NBC] Bekerja dengan tim yang hebat."
+             "id": "16 · [KBN] Bekerja dengan tim yang hebat."
             }
            ]
           },
           {
            "h": {
             "en": "Barista, Kopi Tepian (Mar 2024–May 2025)",
-            "id": "Barista, Kopi Tepian (Mar 2024–Mei 2025)"
+            "id": "Barista, Kopi Tepian (Maret 2024–Mei 2025)"
            }
           },
           {
            "items": [
             {
              "en": "17 · [Kopi] At closing the till was Rp 150.000 over; I reported it to the supervisor instead of leaving it, we re-counted and found a customer charged twice, and she was refunded the next morning.",
-             "id": "17 · [Kopi] Saat tutup, kas lebih Rp 150.000; saya melaporkannya ke supervisor alih-alih membiarkannya, kami menghitung ulang dan menemukan pelanggan yang ditagih dua kali, dan ia dikembalikan uangnya keesokan paginya."
+             "id": "17 · [Kopi] Saat tutup, uang di kasir lebih Rp 150.000; saya melaporkannya ke supervisor alih-alih mendiamkannya, kami menghitung ulang dan menemukan pelanggan yang tertagih dua kali, dan uangnya dikembalikan keesokan paginya."
             },
             {
              "en": "18 · [Kopi] Set up a pre-order board for the 07.00–09.00 rush after regulars kept leaving the queue; the morning queue visibly shortened and the owner kept the board.",
-             "id": "18 · [Kopi] Membuat papan pra-pesan untuk jam sibuk 07.00–09.00 setelah pelanggan tetap terus meninggalkan antrean; antrean pagi terlihat memendek dan pemilik mempertahankan papannya."
+             "id": "18 · [Kopi] Membuat papan pesanan awal untuk jam sibuk 07.00–09.00 setelah pelanggan tetap sering meninggalkan antrean; antrean pagi terlihat lebih pendek dan pemilik kafe tetap memakai papan itu."
             },
             {
              "en": "19 · [Kopi] Trained four new baristas over a year using a one-page opening-and-closing checklist I wrote; three were left running shifts alone within a month.",
-             "id": "19 · [Kopi] Melatih empat barista baru selama setahun dengan daftar periksa buka-tutup satu halaman yang saya tulis; tiga di antaranya menjalankan sif sendiri dalam sebulan."
+             "id": "19 · [Kopi] Melatih empat barista baru selama setahun dengan daftar periksa buka-tutup satu halaman yang saya tulis; tiga di antaranya sudah menjalankan sif sendiri dalam sebulan."
             },
             {
              "en": "20 · [Kopi] A regular got the wrong order twice in one week and said so loudly at the counter; I remade it, apologised without excuses, and asked what he usually ordered so I could write it on the board; he is still a regular.",
-             "id": "20 · [Kopi] Seorang pelanggan tetap dua kali salah pesanan dalam seminggu dan mengatakannya keras di konter; saya membuat ulang, minta maaf tanpa alasan, dan bertanya pesanan biasanya agar saya tulis di papan, ia masih pelanggan tetap."
+             "id": "20 · [Kopi] Seorang pelanggan tetap dua kali menerima pesanan yang salah dalam seminggu dan protes dengan suara keras di konter; saya membuatkan ulang pesanannya, minta maaf tanpa berdalih, dan menanyakan pesanan favoritnya supaya bisa saya tulis di papan; sampai sekarang ia masih jadi pelanggan tetap."
             },
             {
              "en": "21 · [Kopi] Learned to handle pressure.",
-             "id": "21 · [Kopi] Belajar menangani tekanan."
+             "id": "21 · [Kopi] Belajar menghadapi tekanan."
             }
            ]
           },
           {
            "h": {
-            "en": "community service, thesis and coursework",
-            "id": "KKN, skripsi, dan perkuliahan"
+            "en": "Community service, thesis and coursework",
+            "id": "KKN, skripsi, dan tugas kuliah"
            }
           },
           {
            "items": [
             {
              "en": "22 · [community service] Prepared a financial-literacy workshop for students, then found the 40 participants were mostly market traders; rewrote the material the night before around a daily cash book instead of savings products.",
-             "id": "22 · [KKN] Menyiapkan lokakarya literasi keuangan untuk pelajar, lalu mendapati 40 pesertanya kebanyakan pedagang pasar; menulis ulang materinya malam sebelumnya seputar buku kas harian alih-alih produk tabungan."
+             "id": "22 · [KKN] Menyiapkan lokakarya literasi keuangan untuk pelajar, lalu ternyata 40 pesertanya kebanyakan pedagang pasar; malam sebelumnya saya menulis ulang materinya dengan fokus pada buku kas harian, bukan produk tabungan."
             },
             {
              "en": "23 · [community service] Disagreed with a teammate about the schedule but we sorted it out.",
-             "id": "23 · [KKN] Berbeda pendapat dengan rekan soal jadwal tetapi kami menyelesaikannya."
+             "id": "23 · [KKN] Berbeda pendapat dengan rekan soal jadwal, tetapi akhirnya kami bisa menyelesaikannya."
             },
             {
              "en": "24 · [Thesis] The retailer’s sales records had a three-month gap; reconstructed the months from supplier purchase notes and stock counts so the inventory-turnover analysis could run.",
-             "id": "24 · [Skripsi] Catatan penjualan peritel punya jeda tiga bulan; merekonstruksi bulan-bulan itu dari nota pembelian pemasok dan hitungan stok agar analisis inventory turnover bisa berjalan."
+             "id": "24 · [Skripsi] Data penjualan toko ritel itu bolong tiga bulan; saya merekonstruksi bulan-bulan itu dari nota pembelian ke pemasok dan hasil hitung stok, supaya analisis perputaran persediaan tetap bisa dikerjakan."
             },
             {
              "en": "25 · [Thesis] Wrote my thesis on inventory.",
-             "id": "25 · [Skripsi] Menulis skripsi tentang inventori."
+             "id": "25 · [Skripsi] Menulis skripsi tentang persediaan barang."
             },
             {
              "en": "26 · [Coursework] A group-project member did nothing, so I did his part myself and we still got an A.",
-             "id": "26 · [Kuliah] Anggota proyek kelompok tidak mengerjakan apa pun, jadi saya mengerjakan bagiannya sendiri dan kami tetap dapat A."
+             "id": "26 · [Kuliah] Ada anggota kelompok yang tidak mengerjakan apa-apa, jadi saya mengerjakan bagiannya sendiri dan kami tetap dapat A."
             },
             {
              "en": "27 · [Self-study] Doing an SQL course in the evenings, module 2 of 6.",
-             "id": "27 · [Belajar mandiri] Mengikuti kursus SQL di malam hari, modul 2 dari 6."
+             "id": "27 · [Belajar mandiri] Sedang ikut kursus SQL setiap malam, baru modul 2 dari 6."
             }
            ]
           }
@@ -11500,11 +11454,11 @@ window.MT_LMS['the-rope'] = {
          },
          "title": {
           "en": "Bank Sinar Nusantara: Officer Development Program (Operations stream)",
-          "id": "Bank Sinar Nusantara: Officer Development Program (jalur Operasi)"
+          "id": "Bank Sinar Nusantara: Officer Development Program (jalur Operasional)"
          },
          "meta": {
           "en": "Fictional employer · read as a scoresheet (Lesson 3.1 does this formally)",
-          "id": "Perusahaan fiktif · baca sebagai lembar penilaian (Pelajaran 3.1 melakukannya secara formal)"
+          "id": "Perusahaan fiktif · baca sebagai lembar penilaian (Pelajaran 3.1 membahasnya secara lengkap)"
          },
          "body": [
           {
@@ -11517,11 +11471,11 @@ window.MT_LMS['the-rope'] = {
            "items": [
             {
              "en": "12 months of classroom and branch rotation, then placement as an Officer in a branch anywhere in the country; a two-year service bond after placement.",
-             "id": "12 bulan kelas dan rotasi cabang, lalu penempatan sebagai Officer di cabang mana pun di Indonesia; ikatan dinas dua tahun setelah penempatan."
+             "id": "12 bulan pelatihan kelas dan rotasi di cabang, lalu penempatan sebagai Officer di cabang mana pun di Indonesia; ikatan dinas dua tahun setelah penempatan."
             },
             {
              "en": "Responsibilities during rotation: daily branch operations and cash management; transaction reconciliation and reporting; customer service and complaint handling; support to the Kepala Cabang on compliance checks; coordination with Teller, Customer Service and back-office teams.",
-             "id": "Tanggung jawab selama rotasi: operasional cabang harian dan pengelolaan kas; rekonsiliasi dan pelaporan transaksi; layanan nasabah dan penanganan keluhan; dukungan kepada Kepala Cabang dalam pemeriksaan kepatuhan; koordinasi dengan tim Teller, Customer Service, dan back-office."
+             "id": "Tanggung jawab selama rotasi: operasional harian cabang dan pengelolaan kas; rekonsiliasi dan pelaporan transaksi; layanan nasabah dan penanganan keluhan; membantu Kepala Cabang dalam pemeriksaan kepatuhan; koordinasi dengan tim Teller, Customer Service, dan back-office."
             }
            ]
           },
@@ -11534,8 +11488,8 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "bachelor’s degree any major, GPA minimum 3,00 · maximum age 26 at application · TOEFL ITP 500 or equivalent, no older than two years · willing to be placed anywhere in the country (wajib) · willing to sign the service bond (wajib).",
-             "id": "S1 semua jurusan, IPK minimal 3,00 · usia maksimal 26 saat melamar · TOEFL ITP 500 atau setara, tidak lebih dari dua tahun · bersedia ditempatkan di seluruh negeri (wajib) · bersedia menandatangani ikatan dinas (wajib)."
+             "en": "Bachelor’s degree, any major, GPA minimum 3,00 · maximum age 26 at application · TOEFL ITP 500 or equivalent, no older than two years · willing to be placed anywhere in the country (wajib) · willing to sign the service bond (wajib).",
+             "id": "S1 semua jurusan, IPK minimal 3,00 · usia maksimal 26 tahun saat melamar · TOEFL ITP 500 atau setara, berlaku maksimal dua tahun · bersedia ditempatkan di seluruh Indonesia (wajib) · bersedia menandatangani ikatan dinas (wajib)."
             },
             {
              "en": "“Teliti, jujur, dan berorientasi pada layanan; mampu bekerja dalam tim dan di bawah tekanan; memiliki integritas tinggi dalam pengelolaan uang dan data nasabah.”",
@@ -11546,14 +11500,14 @@ window.MT_LMS['the-rope'] = {
           {
            "h": {
             "en": "Selection",
-            "id": "Seleksi"
+            "id": "Tahap seleksi"
            }
           },
           {
            "items": [
             {
              "en": "Administrative screen → online test → HR phone interview → psikotes and LGD → user interview with a Kepala Cabang → panel with a Direktur Regional → medical check-up → offer.",
-             "id": "Seleksi administrasi → tes daring → wawancara telepon HR → psikotes dan LGD → wawancara user dengan Kepala Cabang → panel dengan Direktur Regional → pemeriksaan kesehatan → tawaran."
+             "id": "Seleksi administrasi → tes daring → wawancara telepon HR → psikotes dan LGD → wawancara user dengan Kepala Cabang → panel dengan Direktur Regional → pemeriksaan kesehatan → tawaran kerja."
             }
            ]
           }
@@ -11566,44 +11520,44 @@ window.MT_LMS['the-rope'] = {
          },
          "title": {
           "en": "From the bank’s careers page; the words the Kepala Cabang was trained on",
-          "id": "Dari halaman karier bank: kata-kata yang dilatihkan kepada Kepala Cabang"
+          "id": "Dari halaman karier bank: kata-kata yang menjadi pegangan Kepala Cabang saat menilai"
          },
          "meta": {
           "en": "Fictional values for a fictional bank; the pattern of value-driven probing is real",
-          "id": "Nilai fiktif untuk bank fiktif; pola penggalian berbasis nilai itu nyata"
+          "id": "Nilai fiktif untuk bank fiktif; tetapi pola menggali berdasarkan nilai perusahaan itu nyata"
          },
          "body": [
           {
            "items": [
             {
              "en": "<b>Integritas</b>: “Kami melakukan hal yang benar meski tidak ada yang melihat, terutama dengan uang dan data nasabah.” Likely questions: a time honesty cost you something; a mistake with money; a rule you were pressured to bend.",
-             "id": "<b>Integritas</b>: “Kami melakukan hal yang benar meski tidak ada yang melihat, terutama dengan uang dan data nasabah.” Pertanyaan yang mungkin: saat kejujuran merugikanmu; kesalahan dengan uang; aturan yang kamu ditekan untuk dilanggar."
+             "id": "<b>Integritas</b>: “Kami melakukan hal yang benar meski tidak ada yang melihat, terutama dengan uang dan data nasabah.” Pertanyaan yang mungkin muncul: saat kejujuran membuatmu rugi; kesalahan yang berkaitan dengan uang; aturan yang kamu didesak untuk dilanggar."
             },
             {
              "en": "<b>Pelayanan</b>: “Nasabah merasakan sikap kami sebelum produk kami.” Likely questions: a difficult customer; a complaint you handled; a time you went beyond the request.",
-             "id": "<b>Pelayanan</b>: “Nasabah merasakan sikap kami sebelum produk kami.” Pertanyaan yang mungkin: pelanggan sulit; keluhan yang kamu tangani; saat kamu melampaui permintaan."
+             "id": "<b>Pelayanan</b>: “Nasabah merasakan sikap kami sebelum produk kami.” Pertanyaan yang mungkin muncul: pelanggan yang sulit; keluhan yang pernah kamu tangani; saat kamu melakukan lebih dari yang diminta."
             },
             {
              "en": "<b>Kolaborasi</b>: “Cabang bekerja sebagai satu tim.” Likely questions: a disagreement with a colleague; helping someone who was behind; working with a team you did not choose.",
-             "id": "<b>Kolaborasi</b>: “Cabang bekerja sebagai satu tim.” Pertanyaan yang mungkin: ketidaksepakatan dengan rekan; membantu yang tertinggal; bekerja dengan tim yang tidak kamu pilih."
+             "id": "<b>Kolaborasi</b>: “Cabang bekerja sebagai satu tim.” Pertanyaan yang mungkin muncul: berbeda pendapat dengan rekan kerja; membantu rekan yang tertinggal; bekerja dengan tim yang tidak kamu pilih sendiri."
             },
             {
              "en": "<b>Kehati-hatian</b>: “Setiap angka diperiksa dua kali.” Likely questions: a time you caught an error; how you check your own work; a process you made safer.",
-             "id": "<b>Kehati-hatian</b>: “Setiap angka diperiksa dua kali.” Pertanyaan yang mungkin: saat kamu menangkap kesalahan; cara memeriksa pekerjaan sendiri; proses yang kamu buat lebih aman."
+             "id": "<b>Kehati-hatian</b>: “Setiap angka diperiksa dua kali.” Pertanyaan yang mungkin muncul: saat kamu menemukan kesalahan; caramu memeriksa pekerjaan sendiri; proses yang kamu buat lebih aman."
             }
            ]
           },
           {
            "h": {
             "en": "The unspoken filter",
-            "id": "Saringan tak terucap"
+            "id": "Saringan yang tidak diucapkan"
            }
           },
           {
            "items": [
             {
              "en": "Anything a candidate says about a previous employer’s customers, cash or internal data is itself evidence about Integritas, in the wrong direction if it reveals what should stay inside.",
-             "id": "Apa pun yang dikatakan kandidat tentang nasabah, kas, atau data internal pemberi kerja sebelumnya adalah bukti tentang Integritas, ke arah yang salah jika mengungkap yang seharusnya tetap di dalam."
+             "id": "Apa pun yang diceritakan kandidat tentang nasabah, uang tunai, atau data internal tempat kerja sebelumnya menjadi bukti tentang Integritas. Buktinya justru buruk jika cerita itu membuka hal yang seharusnya tetap di dalam."
             }
            ]
           }
@@ -11615,7 +11569,7 @@ window.MT_LMS['the-rope'] = {
        {
         "title": {
          "en": "Select ten and justify",
-         "id": "Pilih sepuluh dan benarkan"
+         "id": "Pilih sepuluh dan beri alasan"
         },
         "short": {
          "en": "Select",
@@ -11623,7 +11577,7 @@ window.MT_LMS['the-rope'] = {
         },
         "guide": {
          "en": "Lesson 2.1. Run all 27 through the filter (specific? owned? a result?) and say which fail and why in one line each. Then choose ten so that every slot of the coverage grid has a story, no setting supplies more than four, and the range across organisations is visible. For each of the ten, name the slots it covers. Name the slots that were hardest to fill and the candidates you keep on the bench.",
-         "id": "Pelajaran 2.1. Jalankan semua 27 lewat saringan (spesifik? dimiliki? ada hasil?) dan sebutkan mana yang gagal beserta alasannya satu baris masing-masing. Lalu pilih sepuluh agar setiap slot kisi cakupan punya cerita, tidak ada latar menyumbang lebih dari empat, dan rentang lintas organisasi terlihat. Untuk tiap dari sepuluh, sebutkan slot yang dicakupnya. Sebutkan slot yang paling sulit diisi dan kandidat yang kamu simpan sebagai cadangan."
+         "id": "Pelajaran 2.1. Saring ke-27 calon cerita (spesifik? milikmu? ada hasilnya?) dan tulis dalam satu baris mana yang tidak lolos dan kenapa. Lalu pilih sepuluh sehingga setiap slot kisi cakupan terisi, tidak ada latar yang menyumbang lebih dari empat, dan keragaman organisasinya terlihat. Untuk setiap cerita pilihan, sebutkan slot yang diisinya. Sebutkan juga slot yang paling sulit diisi dan cerita mana yang kamu simpan sebagai cadangan."
         },
         "questions": [
          {
@@ -11632,15 +11586,15 @@ window.MT_LMS['the-rope'] = {
           "rows": 16,
           "title": {
            "en": "The filter, the ten, the slots, the bench",
-           "id": "Saringan, sepuluh, slot, cadangan"
+           "id": "Saringan, sepuluh pilihan, slot, dan cadangan"
           },
           "help": {
            "en": "Expect the vague ones (titles, periods, “learned a lot”) to fail. Failure and integrity are the slots most graduates cannot fill; Nadia can; find them. Check the count per setting before you finish.",
-           "id": "Yang samar (jabatan, periode, “belajar banyak”) diperkirakan gagal. Kegagalan dan integritas adalah slot yang tidak bisa diisi sebagian besar lulusan; Nadia bisa; temukan. Periksa jumlah per latar sebelum selesai."
+           "id": "Calon cerita yang samar (jabatan, periode, “belajar banyak”) pasti tidak lolos. Kegagalan dan integritas adalah slot yang paling sulit diisi kebanyakan lulusan. Nadia punya keduanya, jadi temukan. Sebelum selesai, hitung jumlah cerita dari setiap latar."
           },
           "placeholder": {
            "en": "Fail the filter: #3 (no situation, no action) · #8 (a title) · #11 · #16 · #21 · #25 · #27 (no result yet) · #23 (no specific action) · #26 (“did his part myself”, owned, but the action is the weak one) …\nCore 10:\n1. #1 terminal mismatch, slots 6 initiative, 1 achievement, (Kehati-hatian)\n2. #17 till overage, slot 10 integrity …\n…\nHardest slots: 4 failure → #13; 3 conflict → #9\nPer setting: BSN 2 · HIMA 3 · NBC 2 · Kopi 3\nBench: #15, #18, #22, #24",
-           "id": "Gagal saringan: #3 (tanpa situasi, tanpa tindakan) · #8 (jabatan) · #11 · #16 · #21 · #25 · #27 (belum ada hasil) · #23 (tanpa tindakan spesifik) · #26 (“mengerjakan bagiannya sendiri”, dimiliki, tetapi tindakannya yang lemah) …\nCore 10:\n1. #1 selisih terminal, slot 6 inisiatif, 1 pencapaian, (Kehati-hatian)\n2. #17 kas lebih, slot 10 integritas …\n…\nSlot tersulit: 4 kegagalan → #13; 3 konflik → #9\nPer latar: BSN 2 · HIMA 3 · NBC 2 · Kopi 3\nCadangan: #15, #18, #22, #24"
+           "id": "Tidak lolos saringan: #3 (tanpa situasi, tanpa tindakan) · #8 (hanya jabatan) · #11 · #16 · #21 · #25 · #27 (belum ada hasilnya) · #23 (tanpa tindakan yang spesifik) · #26 (“mengerjakan bagiannya sendiri” memang milik Nadia, tetapi tindakannya justru yang lemah) …\nCore 10:\n1. #1 selisih terminal, slot 6 inisiatif, 1 pencapaian (Kehati-hatian)\n2. #17 kelebihan uang kasir, slot 10 integritas …\n…\nSlot tersulit: 4 kegagalan → #13; 3 konflik → #9\nPer latar: BSN 2 · HIMA 3 · KBN 2 · Kopi 3\nCadangan: #15, #18, #22, #24"
           },
           "keywords": [
            [
@@ -11716,7 +11670,7 @@ window.MT_LMS['the-rope'] = {
        {
         "title": {
          "en": "Rewrite one vague candidate as STAR+L",
-         "id": "Tulis ulang satu kandidat samar sebagai STAR+L"
+         "id": "Tulis ulang satu calon cerita yang samar menjadi STAR+L"
         },
         "short": {
          "en": "STAR+L",
@@ -11724,7 +11678,7 @@ window.MT_LMS['the-rope'] = {
         },
         "guide": {
          "en": "Lesson 2.2. Pick one candidate that failed the filter for vagueness (#3, #8, #11, #16, #21, #23 or #25) and write the story that is underneath it as a full STAR+L: Situation · Task · Obstacle · Action with reasoning · Result · Learning. Use only facts from Nadia’s profile and the 27 lines; where a number is not known, write “approx.” rather than inventing it. Action should be close to half the words. The Learning must be a behaviour change, not a platitude.",
-         "id": "Pelajaran 2.2. Pilih satu kandidat yang gagal saringan karena samar (#3, #8, #11, #16, #21, #23, atau #25) dan tulis cerita di baliknya sebagai STAR+L penuh: Situasi · Tugas · Hambatan · Aksi dengan alasan · Hasil · Pembelajaran. Pakai hanya fakta dari profil Nadia dan 27 baris; jika angka tidak diketahui, tulis “kira-kira” alih-alih mengarang. Aksi seharusnya hampir separuh kata. Pembelajaran harus perubahan perilaku, bukan basa-basi."
+         "id": "Pelajaran 2.2. Pilih satu calon cerita yang tidak lolos saringan karena terlalu samar (#3, #8, #11, #16, #21, #23, atau #25), lalu tulis cerita yang tersimpan di baliknya sebagai STAR+L lengkap: Situasi · Tugas · Hambatan · Aksi beserta alasan · Hasil · Pelajaran. Pakai hanya fakta dari profil Nadia dan ke-27 baris tadi. Kalau ada angka yang tidak diketahui, tulis “perkiraan”, jangan mengarang. Bagian Aksi sebaiknya hampir separuh dari seluruh kata. Pelajarannya harus berupa perubahan perilaku, bukan kalimat klise."
         },
         "questions": [
          {
@@ -11737,11 +11691,11 @@ window.MT_LMS['the-rope'] = {
           },
           "help": {
            "en": "#8 “Managed a Rp 120 juta budget” has #7 and #10 underneath it; #21 “learned to handle pressure” has #18 or #20; #16 has #14. Label each part. Include one “karena…” in the Action.",
-           "id": "#8 “Mengelola anggaran Rp 120 juta” punya #7 dan #10 di baliknya; #21 “belajar menangani tekanan” punya #18 atau #20; #16 punya #14. Beri label tiap bagian. Sertakan satu “karena…” di Aksi."
+           "id": "Di balik #8 “Mengelola anggaran Rp 120 juta” ada #7 dan #10; di balik #21 “belajar menghadapi tekanan” ada #18 atau #20; di balik #16 ada #14. Beri label pada setiap bagian. Masukkan minimal satu “karena…” di bagian Aksi."
           },
           "placeholder": {
-           "en": "Candidate: #8 “Managed a Rp 120 juta budget”\nS, HIMA Manajemen, 300 members, 12 events a year, Rp 120 juta; the previous two audits had findings.\nT; As treasurer I was responsible for …\nO, Division heads were used to claiming without receipts, and …\nA, First I … because … Second … Third …\nR, Zero audit issues, the first in three years; the monthly close is still used (approx.: adopted by the next treasurer).\nL, I now … (behaviour), which I applied at … ",
-           "id": "Kandidat: #8 “Mengelola anggaran Rp 120 juta”\nS, HIMA Manajemen, 300 anggota, 12 acara setahun, Rp 120 juta; dua audit sebelumnya punya temuan.\nT; Sebagai bendahara saya bertanggung jawab atas …\nO, Kepala divisi terbiasa mengklaim tanpa kuitansi, dan …\nA, Pertama saya … karena … Kedua … Ketiga …\nR, Nol temuan audit, pertama dalam tiga tahun; tutup buku bulanan masih dipakai (kira-kira: diadopsi bendahara berikutnya).\nL; Sekarang saya … (perilaku), yang saya terapkan di … "
+           "en": "Candidate: #8 “Managed a Rp 120 juta budget”\nS: HIMA Manajemen, 300 members, 12 events a year, Rp 120 juta; the previous two audits had findings.\nT: As treasurer I was responsible for …\nO: Division heads were used to claiming without receipts, and …\nA: First I … because … Second … Third …\nR: Zero audit issues, the first in three years; the monthly close is still used (approx.: adopted by the next treasurer).\nL: I now … (behaviour), which I applied at … ",
+           "id": "Calon cerita: #8 “Mengelola anggaran Rp 120 juta”\nS: HIMA Manajemen, 300 anggota, 12 acara setahun, Rp 120 juta; dua audit sebelumnya ada temuan.\nT: Sebagai bendahara, saya bertanggung jawab atas …\nH: Para kepala divisi sudah terbiasa mengajukan klaim tanpa kuitansi, dan …\nA: Pertama, saya … karena … Kedua … Ketiga …\nR: Audit tanpa temuan, pertama dalam tiga tahun; tutup buku bulanan masih dipakai (perkiraan: diteruskan oleh bendahara berikutnya).\nL: Sekarang saya … (perilaku), dan sudah saya terapkan di …"
           },
           "keywords": [
            [
@@ -11813,7 +11767,7 @@ window.MT_LMS['the-rope'] = {
         },
         "guide": {
          "en": "Lesson 2.3. Read the four values and pick the three Core 10 stories the Kepala Cabang is most likely to probe. For each, write a depth card: the three most likely follow-ups from three different probe families (ownership · reasoning · detail · difficulty · counterfactual · transfer), the prepared fact for each, and one transfer sentence to branch operations. Mark any fact as “approx.” where Nadia’s profile does not give it.",
-         "id": "Pelajaran 2.3. Baca empat nilai dan pilih tiga cerita Core 10 yang paling mungkin digali Kepala Cabang. Untuk masing-masing, tulis kartu kedalaman: tiga pertanyaan lanjutan paling mungkin dari tiga keluarga galian berbeda (kepemilikan · alasan · detail · kesulitan · kontrafaktual · transfer), fakta yang disiapkan untuk masing-masing, dan satu kalimat transfer ke operasional cabang. Tandai fakta “kira-kira” jika profil Nadia tidak memberikannya."
+         "id": "Pelajaran 2.3. Baca keempat nilai bank, lalu pilih tiga cerita Core 10 yang paling mungkin digali oleh Kepala Cabang. Untuk masing-masing, tulis kartu kedalaman: tiga pertanyaan lanjutan yang paling mungkin dari tiga jenis galian yang berbeda (peran pribadi · alasan · detail · kesulitan · seandainya · penerapan), fakta yang sudah disiapkan untuk masing-masing, dan satu kalimat penerapan ke pekerjaan operasional cabang. Tulis “perkiraan” untuk fakta yang tidak ada di profil Nadia."
         },
         "questions": [
          {
@@ -11822,15 +11776,15 @@ window.MT_LMS['the-rope'] = {
           "rows": 16,
           "title": {
            "en": "Three cards, three families each, one transfer sentence each",
-           "id": "Tiga kartu, tiga keluarga masing-masing, satu kalimat transfer masing-masing"
+           "id": "Tiga kartu, masing-masing tiga jenis galian dan satu kalimat penerapan"
           },
           "help": {
            "en": "Integritas will pull on the till story; Kehati-hatian on the reconciliation fix or the audit; Pelayanan on the regular with the wrong order. Name the family before each probe. The transfer sentence should mention cash, customers or a branch process.",
-           "id": "Integritas akan menarik cerita kas; Kehati-hatian cerita perbaikan rekonsiliasi atau audit; Pelayanan cerita pelanggan tetap yang salah pesanan. Sebutkan keluarganya sebelum tiap galian. Kalimat transfer harus menyebut kas, nasabah, atau proses cabang."
+           "id": "Nilai Integritas akan menyorot cerita kasir; Kehati-hatian menyorot perbaikan rekonsiliasi atau audit; Pelayanan menyorot pelanggan tetap yang salah menerima pesanan. Tulis jenis galiannya sebelum setiap pertanyaan. Kalimat penerapannya sebaiknya menyebut uang tunai, nasabah, atau proses di cabang."
           },
           "placeholder": {
-           "en": "Card 1 · #17 till overage (Integritas)\n, Detail: “Berapa selisihnya, dan jam berapa?” → Rp 150.000, at closing, approx. 21.30\n; Reasoning: “Kenapa tidak dibiarkan saja. Kan lebih, bukan kurang?” → because an overage is still a wrong record; someone was charged twice\n, Transfer: “Apa hubungannya dengan kerja di cabang?” → …\nTransfer sentence: …\nCard 2 · #1 terminal mismatch (Kehati-hatian) …\nCard 3 · #20 wrong order (Pelayanan) …",
-           "id": "Kartu 1 · #17 kas lebih (Integritas)\n, Detail: “Berapa selisihnya, dan jam berapa?” → Rp 150.000, saat tutup, kira-kira 21.30\n; Alasan: “Kenapa tidak dibiarkan saja. Kan lebih, bukan kurang?” → karena kelebihan tetap catatan yang salah; ada yang ditagih dua kali\n, Transfer: “Apa hubungannya dengan kerja di cabang?” → …\nKalimat transfer: …\nKartu 2 · #1 selisih terminal (Kehati-hatian) …\nKartu 3 · #20 salah pesanan (Pelayanan) …"
+           "en": "Card 1 · #17 till overage (Integritas)\n· Detail: “Berapa selisihnya, dan jam berapa?” → Rp 150.000, at closing, approx. 21.30\n· Reasoning: “Kenapa tidak dibiarkan saja? Kan lebih, bukan kurang?” → because an overage is still a wrong record; someone was charged twice\n· Transfer: “Apa hubungannya dengan kerja di cabang?” → …\nTransfer sentence: …\nCard 2 · #1 terminal mismatch (Kehati-hatian) …\nCard 3 · #20 wrong order (Pelayanan) …",
+           "id": "Kartu 1 · #17 kelebihan uang kasir (Integritas)\n· Detail: “Berapa selisihnya, dan jam berapa?” → Rp 150.000, saat tutup, perkiraan pukul 21.30\n· Alasan: “Kenapa tidak dibiarkan saja? Kan lebih, bukan kurang?” → karena kelebihan tetap berarti catatannya salah; ada orang yang tertagih dua kali\n· Penerapan: “Apa hubungannya dengan pekerjaan di cabang?” → …\nKalimat penerapan: …\nKartu 2 · #1 selisih terminal (Kehati-hatian) …\nKartu 3 · #20 pesanan yang salah (Pelayanan) …"
           },
           "keywords": [
            [
@@ -11893,15 +11847,15 @@ window.MT_LMS['the-rope'] = {
        {
         "title": {
          "en": "The story Nadia must not tell at the bank",
-         "id": "Cerita yang tidak boleh diceritakan Nadia di bank"
+         "id": "Cerita yang tidak boleh Nadia ceritakan di bank"
         },
         "short": {
          "en": "Leave out",
-         "id": "Tinggalkan"
+         "id": "Tidak dibawa"
         },
         "guide": {
          "en": "Lessons 2.1 (the four kinds that fail) and 2.3 (what stays confidential). One of the 27 is true, specific and owned, and must not be told at Bank Sinar Nusantara or anywhere else. Name it, say what it reveals, what the Kepala Cabang would conclude, and what Nadia can say instead if the same competency is asked. If a second candidate is risky for a different reason, name it too.",
-         "id": "Pelajaran 2.1 (empat jenis yang gagal) dan 2.3 (yang tetap rahasia). Satu dari 27 itu benar, spesifik, dan dimiliki, dan tidak boleh diceritakan di Bank Sinar Nusantara atau di mana pun. Sebutkan, katakan apa yang diungkapnya, apa yang akan disimpulkan Kepala Cabang, dan apa yang bisa dikatakan Nadia sebagai gantinya jika kompetensi yang sama ditanyakan. Jika kandidat kedua berisiko karena alasan berbeda, sebutkan juga."
+         "id": "Pelajaran 2.1 (empat jenis cerita yang gagal) dan 2.3 (apa yang harus tetap rahasia). Ada satu dari 27 cerita yang benar, spesifik, dan milik Nadia sendiri, tetapi tidak boleh diceritakan di Bank Sinar Nusantara maupun di tempat lain. Sebutkan cerita itu, apa yang terbuka jika diceritakan, kesimpulan apa yang akan diambil Kepala Cabang, dan apa yang bisa Nadia ceritakan sebagai gantinya jika kompetensi yang sama ditanyakan. Kalau ada cerita kedua yang berisiko karena alasan lain, sebutkan juga."
         },
         "questions": [
          {
@@ -11910,15 +11864,15 @@ window.MT_LMS['the-rope'] = {
           "rows": 10,
           "title": {
            "en": "The story, the risk, the replacement",
-           "id": "Ceritanya, risikonya, penggantinya"
+           "id": "Ceritanya, risikonya, dan penggantinya"
           },
           "help": {
            "en": "Look for a story whose telling requires a customer, an account or internal data. Then look for a story that only works by blaming someone. Say what each costs at the debrief.",
-           "id": "Cari cerita yang penceritaannya membutuhkan nasabah, rekening, atau data internal. Lalu cari cerita yang hanya berhasil dengan menyalahkan seseorang. Katakan apa yang dibayar tiap cerita di rapat evaluasi."
+           "id": "Cari cerita yang hanya bisa diceritakan dengan menyebut nasabah, rekening, atau data internal. Lalu cari cerita yang hanya berhasil jika menyalahkan orang lain. Jelaskan apa akibat masing-masing di rapat evaluasi."
           },
           "placeholder": {
            "en": "Do not tell: #5: the unusual transfers on a corporate customer’s account. Why: … even without the name, it reveals … The Kepala Cabang concludes … Instead, for “a time you caught an error”, use #1 (the terminal mismatch, a process, not a customer).\nAlso risky: #26, …",
-           "id": "Jangan ceritakan: #5: transfer tidak biasa di rekening nasabah korporasi. Mengapa: … bahkan tanpa nama, ia mengungkap … Kepala Cabang menyimpulkan … Sebagai ganti, untuk “saat kamu menangkap kesalahan”, pakai #1 (selisih terminal; proses, bukan nasabah).\nJuga berisiko: #26, …"
+           "id": "Jangan diceritakan: #5, transfer tidak biasa di rekening nasabah korporasi. Alasannya: … meskipun tanpa nama, cerita ini membuka … Kepala Cabang akan menyimpulkan … Sebagai gantinya, untuk “saat Anda menemukan kesalahan”, pakai #1 (selisih terminal, tentang proses, bukan nasabah).\nJuga berisiko: #26, …"
           },
           "keywords": [
            [
@@ -11970,7 +11924,7 @@ window.MT_LMS['the-rope'] = {
        {
         "title": {
          "en": "Your own Core 10",
-         "id": "Core 10-mu sendiri"
+         "id": "Core 10 milikmu"
         },
         "short": {
          "en": "Your Core 10",
@@ -11978,7 +11932,7 @@ window.MT_LMS['the-rope'] = {
         },
         "guide": {
          "en": "The Kit item. From your own mining sheet (Lesson 2.1, Drill 1), list your ten: title, setting, slots covered, status (raw / STAR+L / depth card). Confirm every slot is covered and at least three settings are represented. Then write the full STAR+L for the story you will use for “tell me about a mistake” and the depth card for the story you expect to be probed hardest at your top target. The Story Bank readiness rule: ten stories, all slots, three or more settings, at least three depth cards in total.",
-         "id": "Butir Perangkat. Dari lembar penggalianmu sendiri (Pelajaran 2.1, Latihan 1), daftar sepuluh milikmu: judul, latar, slot yang dicakup, status (mentah / STAR+L / kartu kedalaman). Pastikan setiap slot tercakup dan minimal tiga latar terwakili. Lalu tulis STAR+L penuh untuk cerita yang akan kamu pakai untuk “ceritakan sebuah kesalahan” dan kartu kedalaman untuk cerita yang kamu perkirakan digali paling keras di sasaran teratasmu. Aturan kesiapan Bank Cerita: sepuluh cerita, semua slot, tiga latar atau lebih, minimal tiga kartu kedalaman total."
+         "id": "Isi Perangkat Wawancara-mu. Dari lembar penggalianmu sendiri (Pelajaran 2.1, Latihan 1), tulis sepuluh ceritamu: judul, latar, slot yang diisi, dan statusnya (mentah / STAR+L / kartu kedalaman). Pastikan semua slot terisi dan minimal ada tiga latar yang berbeda. Lalu tulis STAR+L lengkap untuk cerita yang akan kamu pakai saat ditanya “ceritakan kesalahan yang pernah Anda buat”, dan kartu kedalaman untuk cerita yang kamu perkirakan paling dalam digali oleh perusahaan sasaran utamamu. Syarat kesiapan Bank Cerita: sepuluh cerita, semua slot terisi, minimal tiga latar, dan total minimal tiga kartu kedalaman."
         },
         "questions": [
          {
@@ -11987,15 +11941,15 @@ window.MT_LMS['the-rope'] = {
           "rows": 18,
           "title": {
            "en": "Ten titles with slots, one STAR+L, one depth card",
-           "id": "Sepuluh judul dengan slot, satu STAR+L, satu kartu kedalaman"
+           "id": "Sepuluh judul beserta slotnya, satu STAR+L, satu kartu kedalaman"
           },
           "help": {
            "en": "If a slot is empty, write “EMPTY, candidate: …” rather than filling it with a disguised strength. If one setting supplies more than four, mark the weakest for a swap. Save this, Modules 3, 4 and 9 read it back.",
-           "id": "Jika ada slot kosong, tulis “KOSONG, kandidat: …” alih-alih mengisinya dengan kekuatan yang disamarkan. Jika satu latar menyumbang lebih dari empat, tandai yang terlemah untuk ditukar. Simpan ini, Modul 3, 4, dan 9 membacanya kembali."
+           "id": "Kalau ada slot yang kosong, tulis “KOSONG, calon: …”, jangan diisi dengan kelebihan terselubung. Kalau ada latar yang menyumbang lebih dari empat, tandai cerita terlemahnya untuk ditukar. Simpan jawaban ini, karena Modul 3, 4, dan 9 akan memakainya lagi."
           },
           "placeholder": {
-           "en": "1. [title] · [setting] · slots 1, 6 · STAR+L\n2. …\n10. …\nSlots empty: none / 4, candidate: …\nSettings: [a] 3 · [b] 3 · [c] 2 · [d] 2\nMistake story STAR+L, S … T … O … A … R … L …\nDepth card, story: … · family/probe → fact · family/probe → fact · family/probe → fact · transfer: …",
-           "id": "1. [judul] · [latar] · slot 1, 6 · STAR+L\n2. …\n10. …\nSlot kosong: tidak ada / 4, kandidat: …\nLatar: [a] 3 · [b] 3 · [c] 2 · [d] 2\nSTAR+L cerita kesalahan, S … T … O … A … R … L …\nKartu kedalaman, cerita: … · keluarga/galian → fakta · keluarga/galian → fakta · keluarga/galian → fakta · transfer: …"
+           "en": "1. [title] · [setting] · slots 1, 6 · STAR+L\n2. …\n10. …\nSlots empty: none / 4, candidate: …\nSettings: [a] 3 · [b] 3 · [c] 2 · [d] 2\nMistake story STAR+L: S … T … O … A … R … L …\nDepth card: story: … · family/probe → fact · family/probe → fact · family/probe → fact · transfer: …",
+           "id": "1. [judul] · [latar] · slot 1, 6 · STAR+L\n2. …\n10. …\nSlot kosong: tidak ada / 4, calon: …\nLatar: [a] 3 · [b] 3 · [c] 2 · [d] 2\nSTAR+L cerita kesalahan: S … T … H … A … R … L …\nKartu kedalaman, cerita: … · jenis/galian → fakta · jenis/galian → fakta · jenis/galian → fakta · penerapan: …"
           },
           "keywords": [
            [
@@ -12055,35 +12009,35 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Selection and coverage: vague candidates filtered with reasons; ten chosen; every slot covered; no setting over four; bench named",
-         "id": "Seleksi dan cakupan: kandidat samar disaring dengan alasan; sepuluh dipilih; setiap slot tercakup; tidak ada latar lebih dari empat; cadangan disebut"
+         "id": "Memilih dan memetakan: calon cerita yang samar disaring beserta alasannya; sepuluh cerita dipilih; semua slot terisi; tidak ada latar yang lebih dari empat; cadangan disebutkan"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "STAR+L rewrite: six labelled parts, a real obstacle, reasoning in the Action, a result without invented numbers, a behaviour-change learning",
-         "id": "Tulis ulang STAR+L, enam bagian berlabel, hambatan nyata, alasan di Aksi, hasil tanpa angka karangan, pembelajaran berupa perubahan perilaku"
+         "id": "Menulis ulang STAR+L: enam bagian berlabel, hambatan yang nyata, alasan di bagian Aksi, hasil tanpa angka karangan, pelajaran berupa perubahan perilaku"
         },
         "w": "20%"
        },
        {
         "h": {
          "en": "Depth cards: three stories matched to the values, three families each, prepared facts with “approx.” where needed, transfer to branch work",
-         "id": "Kartu kedalaman: tiga cerita dicocokkan dengan nilai, tiga keluarga masing-masing, fakta disiapkan dengan “kira-kira” bila perlu, transfer ke kerja cabang"
+         "id": "Kartu kedalaman: tiga cerita yang sesuai dengan nilai bank, masing-masing tiga jenis galian, fakta yang disiapkan dengan “perkiraan” jika perlu, dan penerapan ke pekerjaan cabang"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "The story to leave out, the confidential one found, the risk explained at the level of the debrief, a replacement given",
-         "id": "Cerita yang ditinggalkan: yang rahasia ditemukan, risikonya dijelaskan di tingkat rapat evaluasi, pengganti diberikan"
+         "id": "Cerita yang tidak dibawa: cerita rahasia ditemukan, risikonya dijelaskan sampai ke dampaknya di rapat evaluasi, dan penggantinya disebutkan"
         },
         "w": "10%"
        },
        {
         "h": {
          "en": "Your Core 10: ten titles with slots and settings, coverage confirmed, one full STAR+L, one depth card",
-         "id": "Core 10-mu: sepuluh judul dengan slot dan latar, cakupan dipastikan, satu STAR+L penuh, satu kartu kedalaman"
+         "id": "Core 10 milikmu: sepuluh judul dengan slot dan latarnya, cakupan dipastikan, satu STAR+L lengkap, satu kartu kedalaman"
         },
         "w": "20%"
        }
@@ -12091,7 +12045,7 @@ window.MT_LMS['the-rope'] = {
       "model": {
        "title": {
         "en": "Model notes: a worked Core 10 for Nadia",
-        "id": "Catatan model: Core 10 Nadia yang sudah dikerjakan"
+        "id": "Contoh jawaban: Core 10 untuk Nadia"
        },
        "body": [
         {
@@ -12102,27 +12056,27 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "Eight fail for vagueness: #3, #8, #11, #16, #21, #25 are titles or periods with no situation and no action; #23 has a disagreement but no specific action; #27 has no result yet. It is a fact for the technical round (“SQL module 2 of 6, closed honestly”), not a story. #26 passes the filter but fails Lesson 2.1’s fourth kind: its only action is absorbing someone else’s work, and its natural telling blames a classmate. #5 passes every filter and is the story to leave out (below). That leaves sixteen usable candidates, more than enough for ten with a bench.",
-         "id": "Delapan gagal karena samar: #3, #8, #11, #16, #21, #25 adalah jabatan atau periode tanpa situasi dan tindakan; #23 punya ketidaksepakatan tetapi tanpa tindakan spesifik; #27 belum punya hasil. Itu fakta untuk ronde teknis (“SQL modul 2 dari 6, ditutup jujur”), bukan cerita. #26 lolos saringan tetapi gagal jenis keempat Pelajaran 2.1: satu-satunya tindakannya menyerap pekerjaan orang lain, dan penceritaan alaminya menyalahkan teman. #5 lolos semua saringan dan adalah cerita yang ditinggalkan (di bawah). Tersisa enam belas kandidat layak, lebih dari cukup untuk sepuluh dengan cadangan."
+         "id": "Delapan calon tidak lolos karena terlalu samar. #3, #8, #11, #16, #21, dan #25 hanya berupa jabatan atau periode, tanpa situasi dan tanpa tindakan. #23 menyebut perbedaan pendapat, tetapi tidak ada tindakan yang spesifik. #27 belum punya hasil. Itu fakta untuk wawancara teknis (“SQL baru modul 2 dari 6, diakui dengan jujur”), bukan cerita. #26 lolos saringan, tetapi masuk jenis keempat yang harus dihindari di Pelajaran 2.1: satu-satunya tindakannya adalah mengambil alih pekerjaan orang lain, dan cara menceritakannya mau tidak mau menyalahkan teman sekelas. #5 lolos semua saringan, dan justru itulah cerita yang tidak boleh dibawa (lihat di bawah). Tersisa enam belas calon yang bisa dipakai, lebih dari cukup untuk sepuluh cerita plus cadangan."
         },
         {
          "h": {
           "en": "The ten",
-          "id": "Sepuluh"
+          "id": "Sepuluh pilihan"
          }
         },
         {
          "en": "#1 terminal mismatch: slots 6 initiative, 1 achievement; the primary “can do” story for any operations role, and the one the Kepala Cabang will probe for Kehati-hatian. #4 asking three times, slot 8 learning; it also answers the hidden concern “can a fresh graduate admit what she does not know”. #7 the clean audit, slots 1 achievement, 10 integrity (Kehati-hatian in the bank’s words). #9 the receipts refusal, slots 3 conflict, 10 integrity; the story where honesty cost her goodwill. #10 two events and midterms, slot 5 pressure. #12 the Rp 25 juta gap, slots 1, 5, 7; the flagship achievement, already carrying a depth card from Lesson 2.3. #13 the lost returning sponsor, slot 4 failure; a real, moderate setback with a clear learning (returning sponsors first). #17 the till overage, slot 10 integrity; the Integritas story, small and exactly the right shape for a bank. #19 training four baristas, slots 7 leadership, 2 teamwork. #20 the wrong order, slot 9 customer, the Pelayanan story. Coverage: all ten slots. Settings: BSN 2, HIMA 3, NBC 2, Kopi 3, no setting over four. Bench: #15 (persuasion, if #12 has already been used with this interviewer), #18 (initiative with an observable result), #22 (adaptability, useful if the panel asks about working outside Java), #24 (problem-solving with data, for KilatPay rather than the bank).",
-         "id": "#1 selisih terminal: slot 6 inisiatif, 1 pencapaian; cerita “bisa” utama untuk peran operasi mana pun, dan yang akan digali Kepala Cabang untuk Kehati-hatian. #4 bertanya tiga kali, slot 8 belajar; juga menjawab kekhawatiran tersembunyi “bisakah lulusan baru mengakui yang tidak ia tahu”. #7 audit bersih, slot 1 pencapaian, 10 integritas (Kehati-hatian dalam kata bank). #9 penolakan kuitansi, slot 3 konflik, 10 integritas; cerita ketika kejujuran merugikan hubungan baiknya. #10 dua acara dan UTS, slot 5 tekanan. #12 kekurangan Rp 25 juta, slot 1, 5, 7; pencapaian unggulan, sudah punya kartu kedalaman dari Pelajaran 2.3. #13 sponsor kembali yang hilang, slot 4 kegagalan; kemunduran nyata yang sedang dengan pembelajaran jelas (sponsor kembali lebih dulu). #17 kas lebih, slot 10 integritas; cerita Integritas, kecil dan persis bentuk yang tepat untuk bank. #19 melatih empat barista, slot 7 kepemimpinan, 2 kerja tim. #20 salah pesanan, slot 9 pelanggan, cerita Pelayanan. Cakupan: sepuluh slot. Latar: BSN 2, HIMA 3, NBC 2, Kopi 3. Tidak ada latar lebih dari empat. Cadangan: #15 (persuasi, jika #12 sudah dipakai dengan pewawancara ini), #18 (inisiatif dengan hasil teramati), #22 (adaptabilitas, berguna jika panel bertanya soal bekerja di luar Jawa), #24 (pemecahan masalah dengan data, untuk KilatPay alih-alih bank)."
+         "id": "#1 selisih terminal: slot 6 inisiatif dan 1 pencapaian. Ini cerita utama yang membuktikan kemampuan untuk posisi operasional apa pun, dan yang akan digali Kepala Cabang untuk nilai Kehati-hatian. #4 bertanya sampai tiga kali: slot 8 belajar. Cerita ini juga menjawab kekhawatiran tersembunyi “apakah lulusan baru berani mengakui hal yang belum ia pahami”. #7 audit bersih: slot 1 pencapaian dan 10 integritas (dalam bahasa bank, Kehati-hatian). #9 menolak klaim tanpa kuitansi: slot 3 konflik dan 10 integritas. Di cerita inilah kejujuran membuatnya kehilangan simpati orang. #10 dua acara saat UTS: slot 5 tekanan. #12 kekurangan Rp 25 juta: slot 1, 5, dan 7. Ini pencapaian andalannya, dan sudah punya kartu kedalaman dari Pelajaran 2.3. #13 sponsor langganan yang lepas: slot 4 kegagalan. Kegagalan nyata berskala sedang dengan pelajaran yang jelas (dahulukan sponsor langganan). #17 kelebihan uang kasir: slot 10 integritas. Inilah cerita untuk nilai Integritas, kecil dan bentuknya pas untuk bank. #19 melatih empat barista: slot 7 kepemimpinan dan 2 kerja tim. #20 pesanan yang salah: slot 9 pelanggan, cerita untuk nilai Pelayanan. Cakupan: kesepuluh slot terisi. Latar: BSN 2, HIMA 3, KBN 2, Kopi 3, tidak ada yang lebih dari empat. Cadangan: #15 (meyakinkan orang lain, jika #12 sudah dipakai dengan pewawancara yang sama), #18 (inisiatif dengan hasil yang terlihat), #22 (kemampuan beradaptasi, berguna jika panel bertanya soal bekerja di luar Jawa), #24 (memecahkan masalah dengan data, lebih cocok untuk KilatPay daripada untuk bank)."
         },
         {
          "h": {
           "en": "The rewrite: #8 becomes the audit story",
-          "id": "Tulis ulang: #8 menjadi cerita audit"
+          "id": "Menulis ulang: #8 menjadi cerita audit"
          }
         },
         {
          "en": "S: HIMA Manajemen, 300 members, twelve events a year on a Rp 120 juta budget; the two previous faculty audits had findings. T: as treasurer I was accountable for every rupiah and for the audit. O: division heads were used to claiming expenses weeks later without receipts, and the previous treasurer had signed anyway to keep the peace. A: I introduced a monthly close, every line needed a receipt within seven days, because findings came from late, undocumented claims, not from theft; I published the close to the division heads each month so nobody was surprised; and when the first division head pushed back (the receipts story, #9) I held the line but proposed a partial advance so events were not starved of cash. R: the faculty audit found zero issues, the first clean audit in three years, and the next treasurer kept the monthly close (approx.; Nadia has heard this, not verified it). L: I now put the check at the point where the money moves, not at the end; I did the same with the sign-off sheet during midterms (#10). Action is about half; there is one “because”; the learning is a behaviour with a second instance.",
-         "id": "S: HIMA Manajemen, 300 anggota, dua belas acara setahun dengan anggaran Rp 120 juta; dua audit fakultas sebelumnya punya temuan. T: sebagai bendahara saya bertanggung jawab atas setiap rupiah dan atas audit. O: kepala divisi terbiasa mengklaim pengeluaran berminggu-minggu kemudian tanpa kuitansi, dan bendahara sebelumnya tetap menandatangani demi kedamaian. A: saya memperkenalkan tutup buku bulanan. Setiap baris butuh kuitansi dalam tujuh hari, karena temuan berasal dari klaim terlambat dan tak terdokumentasi, bukan dari pencurian; saya membagikan tutup buku ke kepala divisi tiap bulan agar tidak ada yang terkejut; dan saat kepala divisi pertama menolak (cerita kuitansi, #9) saya bertahan tetapi mengusulkan uang muka sebagian agar acara tidak kekurangan kas. R: audit fakultas menemukan nol temuan, audit bersih pertama dalam tiga tahun, dan bendahara berikutnya mempertahankan tutup buku bulanan (kira-kira; Nadia mendengarnya, belum memverifikasi). L: sekarang saya menaruh pemeriksaan di titik uang bergerak, bukan di akhir. Saya melakukan hal sama dengan lembar tanda tangan saat UTS (#10). Aksi sekitar separuh; ada satu “karena”; pembelajarannya perilaku dengan contoh kedua."
+         "id": "S: HIMA Manajemen, 300 anggota, dua belas acara setahun dengan anggaran Rp 120 juta; dua audit fakultas sebelumnya selalu ada temuan. T: sebagai bendahara, saya bertanggung jawab atas setiap rupiah dan atas hasil auditnya. H: para kepala divisi terbiasa mengajukan klaim pengeluaran berminggu-minggu kemudian tanpa kuitansi, dan bendahara sebelumnya tetap menyetujuinya supaya tidak ribut. A: saya memperkenalkan tutup buku bulanan, dengan aturan setiap pos harus disertai kuitansi paling lambat tujuh hari, karena temuan audit selama ini berasal dari klaim yang terlambat dan tidak berdokumen, bukan dari pencurian. Setiap bulan saya membagikan hasil tutup buku ke para kepala divisi supaya tidak ada yang kaget. Saat kepala divisi pertama menolak (cerita kuitansi, #9), saya tetap pada aturan, tetapi mengusulkan uang muka sebagian supaya acara tidak kekurangan dana. R: audit fakultas tanpa temuan, audit bersih pertama dalam tiga tahun, dan bendahara berikutnya meneruskan tutup buku bulanan (perkiraan; Nadia mendengarnya, tetapi belum memastikannya). L: sekarang saya menaruh pemeriksaan di titik ketika uang berpindah tangan, bukan di akhir. Hal yang sama saya lakukan dengan lembar tanda terima saat UTS (#10). Bagian Aksi kira-kira separuh, ada satu “karena”, dan pelajarannya berupa perilaku yang sudah diterapkan di tempat kedua."
         },
         {
          "h": {
@@ -12131,29 +12085,29 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Integritas → #17 the till. Detail: “Berapa selisihnya, jam berapa?” Rp 150.000, at closing, approx. 21.30. Reasoning: “Kenapa tidak dibiarkan. Kan lebih, bukan kurang?” An overage is still a wrong record, and it meant a customer had paid twice; leaving it would have been keeping someone’s money. Counterfactual: “Kalau supervisor bilang ‘sudah, simpan saja’?” I would still have written it in the closing log, because the record is the point. Transfer: at a branch, cash is counted twice and a difference is reported the same evening, in either direction. Kehati-hatian → #1 the terminal mismatch. Ownership: “Apa yang Anda lakukan sendiri?” Noticed the pattern across three days, compared the time stamps, wrote the one-page note. Detail: “Selisihnya berapa, seberapa sering?” Small amounts (approx.), every day, three branches; the fix saved about 30 minutes a day of correction. Difficulty: “Bagian tersulitnya?” Telling a senior officer that the cut-off he set was the cause, so I framed it as a question with the data attached. Transfer: reconciliation is the officer programme rotation’s daily work. Pelayanan → #20 the wrong order. Ownership: “Apa yang Anda lakukan, bukan tim?” Remade it myself, apologised without explaining, asked his usual order. Reasoning: “Kenapa tidak jelaskan bahwa yang salah barista baru?” Because the customer wanted his coffee, not a reason, and blaming a colleague in front of him would have cost the café more. Transfer: a complaint at the counter is handled the same way; fix, apologise, then prevent (the board).",
-         "id": "Integritas → #17 kas. Detail: “Berapa selisihnya, jam berapa?” Rp 150.000, saat tutup, kira-kira 21.30. Alasan: “Kenapa tidak dibiarkan. Kan lebih, bukan kurang?” Kelebihan tetap catatan yang salah, dan berarti ada pelanggan yang membayar dua kali; membiarkannya sama dengan menyimpan uang orang. Kontrafaktual: “Kalau supervisor bilang ‘sudah, simpan saja’?” Saya tetap menulisnya di log penutupan, karena catatannya yang penting. Transfer: di cabang, kas dihitung dua kali dan selisih dilaporkan malam itu juga, ke arah mana pun. Kehati-hatian → #1 selisih terminal. Kepemilikan: “Apa yang Anda lakukan sendiri?” Melihat polanya selama tiga hari, membandingkan cap waktu, menulis catatan satu halaman. Detail: “Selisihnya berapa, seberapa sering?” Jumlah kecil (kira-kira), setiap hari, tiga cabang; perbaikannya menghemat sekitar 30 menit koreksi per hari. Kesulitan: “Bagian tersulitnya?” Memberi tahu petugas senior bahwa batas waktu yang ia tetapkan adalah penyebabnya, jadi saya membingkainya sebagai pertanyaan dengan data terlampir. Transfer: rekonsiliasi adalah pekerjaan harian rotasi ODP. Pelayanan → #20 salah pesanan. Kepemilikan: “Apa yang Anda lakukan, bukan tim?” Membuat ulang sendiri, minta maaf tanpa menjelaskan, bertanya pesanan biasanya. Alasan: “Kenapa tidak jelaskan bahwa yang salah barista baru?” Karena pelanggan ingin kopinya, bukan alasan, dan menyalahkan rekan di depannya akan lebih merugikan kafe. Transfer: keluhan di konter ditangani dengan cara sama; perbaiki, minta maaf, lalu cegah (papan)."
+         "en": "Integritas → #17 the till. Detail: “Berapa selisihnya, jam berapa?” Rp 150.000, at closing, approx. 21.30. Reasoning: “Kenapa tidak dibiarkan saja? Kan lebih, bukan kurang?” An overage is still a wrong record, and it meant a customer had paid twice; leaving it would have been keeping someone’s money. Counterfactual: “Kalau supervisor bilang ‘sudah, simpan saja’?” I would still have written it in the closing log, because the record is the point. Transfer: at a branch, cash is counted twice and a difference is reported the same evening, in either direction. Kehati-hatian → #1 the terminal mismatch. Ownership: “Apa yang Anda lakukan sendiri?” Noticed the pattern across three days, compared the time stamps, wrote the one-page note. Detail: “Selisihnya berapa, seberapa sering?” Small amounts (approx.), every day, three branches; the fix saved about 30 minutes a day of correction. Difficulty: “Bagian tersulitnya?” Telling a senior officer that the cut-off he set was the cause, so I framed it as a question with the data attached. Transfer: reconciliation is the officer programme rotation’s daily work. Pelayanan → #20 the wrong order. Ownership: “Apa yang Anda lakukan, bukan tim?” Remade it myself, apologised without explaining, asked his usual order. Reasoning: “Kenapa tidak jelaskan bahwa yang salah barista baru?” Because the customer wanted his coffee, not a reason, and blaming a colleague in front of him would have cost the café more. Transfer: a complaint at the counter is handled the same way; fix, apologise, then prevent (the board).",
+         "id": "Integritas → #17 uang kasir. Detail: “Berapa selisihnya, jam berapa?” Rp 150.000, saat tutup, perkiraan pukul 21.30. Alasan: “Kenapa tidak dibiarkan saja? Kan lebih, bukan kurang?” Kelebihan tetap berarti catatannya salah, dan artinya ada pelanggan yang membayar dua kali; mendiamkannya sama dengan menyimpan uang orang lain. Seandainya: “Kalau supervisor bilang ‘sudah, simpan saja’?” Saya tetap akan mencatatnya di buku tutup kasir, karena justru catatan itulah intinya. Penerapan: di cabang, uang tunai dihitung dua kali, dan selisih apa pun, lebih atau kurang, dilaporkan di sore yang sama. Kehati-hatian → #1 selisih terminal. Peran pribadi: “Apa yang Anda lakukan sendiri?” Menyadari polanya selama tiga hari, membandingkan cap waktunya, dan menulis catatan satu halaman. Detail: “Selisihnya berapa, dan seberapa sering?” Nominal kecil (perkiraan), setiap hari, di tiga cabang; perbaikannya menghemat sekitar 30 menit koreksi per hari. Kesulitan: “Bagian tersulitnya?” Menyampaikan ke petugas senior bahwa batas waktu yang ia tetapkan adalah penyebabnya, jadi saya menyampaikannya sebagai pertanyaan, lengkap dengan datanya. Penerapan: rekonsiliasi adalah pekerjaan harian selama rotasi ODP. Pelayanan → #20 pesanan yang salah. Peran pribadi: “Apa yang Anda lakukan sendiri, bukan tim?” Membuat ulang pesanannya sendiri, minta maaf tanpa berdalih, dan menanyakan pesanan favoritnya. Alasan: “Kenapa tidak menjelaskan bahwa yang salah barista baru?” Karena pelanggan itu menginginkan kopinya, bukan alasan, dan menyalahkan rekan kerja di depannya akan lebih merugikan kafe. Penerapan: keluhan di meja layanan ditangani dengan cara yang sama: perbaiki, minta maaf, lalu cegah supaya tidak terulang (papan pesanan)."
         },
         {
          "h": {
           "en": "The story to leave out",
-          "id": "Cerita yang ditinggalkan"
+          "id": "Cerita yang tidak dibawa"
          }
         },
         {
          "en": "#5. It is true, specific and owned, and it shows exactly the instinct a bank wants. Which is why it is tempting. But it cannot be told without describing a specific customer’s account activity, and even with the name removed a Kepala Cabang hears an intern who takes customer transaction patterns out of the building and into interviews. The bank’s own JD names “integritas tinggi dalam pengelolaan uang dan data nasabah”; the story is evidence against it, in whichever direction the payroll batch turned out. At the debrief it becomes “she talks about customer data”, which overrides everything else she said (Lesson 1.2). For “a time you caught an error” she uses #1, a process, not a customer. The second risk is #26: its only telling is “he did nothing, so I did his part”, which blames a classmate and shows no influence; if teamwork is asked, #14 (the sponsorship teammate she called rather than messaged) or #19 covers it with an action of her own.",
-         "id": "#5. Benar, spesifik, dan dimiliki, dan menunjukkan persis insting yang diinginkan bank, itulah sebabnya menggoda. Tetapi tidak bisa diceritakan tanpa menggambarkan aktivitas rekening nasabah tertentu, dan bahkan tanpa nama, Kepala Cabang mendengar seorang magang yang membawa pola transaksi nasabah keluar gedung ke dalam wawancara. JD bank sendiri menyebut “integritas tinggi dalam pengelolaan uang dan data nasabah”; cerita itu bukti melawannya, ke arah mana pun batch payroll itu ternyata. Di rapat evaluasi ia menjadi “ia membicarakan data nasabah”, yang menggugurkan semua hal lain yang ia katakan (Pelajaran 1.2). Untuk “saat kamu menangkap kesalahan” ia memakai #1. Proses, bukan nasabah. Risiko kedua adalah #26: satu-satunya penceritaannya “ia tidak mengerjakan apa pun, jadi saya kerjakan bagiannya”, yang menyalahkan teman dan tidak menunjukkan pengaruh; jika kerja tim ditanyakan, #14 (rekan sponsorship yang ia telepon alih-alih dikirimi pesan) atau #19 mencakupnya dengan tindakannya sendiri."
+         "id": "#5. Ceritanya benar, spesifik, dan milik Nadia sendiri, bahkan menunjukkan naluri yang dicari bank. Justru karena itu cerita ini menggoda. Masalahnya, cerita ini tidak bisa diceritakan tanpa menggambarkan aktivitas rekening nasabah tertentu. Meskipun namanya disembunyikan, seorang Kepala Cabang akan menangkap sosok peserta magang yang membawa pola transaksi nasabah keluar dari kantor, sampai ke ruang wawancara. Deskripsi pekerjaan bank itu sendiri menyebut “integritas tinggi dalam pengelolaan uang dan data nasabah”, dan cerita ini menjadi bukti yang berlawanan, apa pun kenyataan soal pembayaran gaji massal itu. Di rapat evaluasi, cerita ini berubah menjadi “dia membicarakan data nasabah”, dan kesan itu menutupi semua hal baik yang ia sampaikan (Pelajaran 1.2). Untuk pertanyaan “saat Anda menemukan kesalahan”, ia memakai #1, yang tentang proses, bukan nasabah. Risiko kedua adalah #26. Satu-satunya cara menceritakannya adalah “dia tidak mengerjakan apa-apa, jadi saya kerjakan bagiannya”, yang menyalahkan teman sekelas dan tidak menunjukkan kemampuan memengaruhi orang lain. Kalau ditanya soal kerja tim, #14 (rekan tim sponsorship yang ia telepon alih-alih ia kirimi pesan) atau #19 sudah cukup, dengan tindakan yang benar-benar miliknya."
         }
        ],
        "after": {
         "en": "Compare, do not copy. If your ten has no failure story, you filled slot 4 with a disguised strength. Go back to #13. If your depth cards have no “approx.”, you have either verified every number or invented one; check. If you kept #5 because it “shows initiative”, read the values tab again: the bank is testing whether you know what stays inside. Your own Core 10 is now the second Kit item; Round 2 in the simulator probes it.",
-        "id": "Bandingkan, jangan salin. Jika sepuluhmu tidak punya cerita kegagalan, kamu mengisi slot 4 dengan kekuatan yang disamarkan, kembali ke #13. Jika kartu kedalamanmu tidak punya “kira-kira”, kamu sudah memverifikasi setiap angka atau mengarang satu; periksa. Jika kamu mempertahankan #5 karena “menunjukkan inisiatif”, baca tab nilai lagi: bank menguji apakah kamu tahu apa yang tetap di dalam. Core 10-mu sendiri kini butir Perangkat kedua; Putaran 2 di simulator menggalinya."
+        "id": "Bandingkan, jangan menyalin. Kalau sepuluh pilihanmu tidak punya cerita kegagalan, berarti slot 4 kamu isi dengan kelebihan terselubung. Kembali ke #13. Kalau kartu kedalamanmu tidak punya satu pun “perkiraan”, berarti kamu sudah memastikan semua angka, atau ada angka yang kamu karang. Periksa lagi. Kalau kamu tetap memilih #5 karena “menunjukkan inisiatif”, baca lagi tab nilai. Bank sedang menguji apakah kamu tahu hal apa yang harus tetap di dalam. Core 10 milikmu sekarang menjadi isi kedua Perangkat Wawancara, dan Putaran 2 di simulator akan menggalinya."
        }
       },
       "submit": {
        "title": {
         "en": "Review & submit",
-        "id": "Tinjau & kumpulkan"
+        "id": "Periksa & kumpulkan"
        },
        "short": {
         "en": "Submit",
@@ -12161,19 +12115,19 @@ window.MT_LMS['the-rope'] = {
        },
        "lead": {
         "en": "Read your five answers as the Kepala Cabang would on Thursday, with the four values in front of him. Submitting locks them on this device, opens the model notes, and files your Core 10 as the second Kit item.",
-        "id": "Baca kelima jawabanmu seperti Kepala Cabang pada hari Kamis, dengan empat nilai di depannya. Mengumpulkan menguncinya di perangkat ini, membuka catatan model, dan mengarsipkan Core 10-mu sebagai butir Perangkat kedua."
+        "id": "Baca lagi kelima jawabanmu seperti Kepala Cabang akan membacanya hari Kamis, dengan empat nilai bank di depannya. Setelah dikumpulkan, jawabanmu terkunci di perangkat ini, contoh jawaban terbuka, dan Core 10 milikmu tersimpan sebagai isi kedua Perangkat Wawancara."
        },
        "button": {
         "en": "Submit the case",
-        "id": "Kumpulkan kasus"
+        "id": "Kumpulkan tugas"
        },
        "doneTitle": {
         "en": "Case submitted",
-        "id": "Kasus terkumpul"
+        "id": "Tugas sudah dikumpulkan"
        },
        "doneBody": {
         "en": "Your answers are locked on this device. Compare with the model notes, then run Round 2, four behavioural questions with probes, and compare the debrief with your Round 1 baseline before Module 3.",
-        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan Putaran 2, empat pertanyaan perilaku dengan galian, dan bandingkan debrief-nya dengan garis dasar Putaran 1-mu sebelum Modul 3."
+        "id": "Jawabanmu sudah terkunci di perangkat ini. Bandingkan dengan contoh jawaban, lalu jalankan Putaran 2, yaitu empat pertanyaan perilaku dengan galian, dan bandingkan ulasannya dengan titik awalmu di Putaran 1 sebelum mulai Modul 3."
        }
       }
      },
@@ -12182,41 +12136,41 @@ window.MT_LMS['the-rope'] = {
        {
         "h": {
          "en": "Choosing the ten most impressive instead of the ten that cover",
-         "id": "Memilih sepuluh yang paling mengesankan alih-alih sepuluh yang mencakup"
+         "id": "Memilih sepuluh yang paling mengesankan, bukan yang paling lengkap cakupannya"
         },
         "fix": {
          "en": "Check the grid first; impressiveness is decided per question, not per bank.",
-         "id": "Periksa kisinya dulu; kesan diputuskan per pertanyaan, bukan per bank."
+         "id": "Periksa kisinya dulu. Mengesankan atau tidak ditentukan per pertanyaan, bukan per bank."
         }
        },
        {
         "h": {
          "en": "Filling the failure slot with a strength in disguise",
-         "id": "Mengisi slot kegagalan dengan kekuatan yang disamarkan"
+         "id": "Mengisi slot kegagalan dengan kelebihan terselubung"
         },
         "fix": {
          "en": "A real, moderate setback with a learning; #13, not “I work too hard”.",
-         "id": "Kemunduran nyata yang sedang dengan pembelajaran; #13, bukan “saya terlalu keras bekerja”."
+         "id": "Pakai kegagalan nyata berskala sedang yang ada pelajarannya, seperti #13, bukan “saya terlalu keras bekerja”."
         }
        },
        {
         "h": {
          "en": "Depth cards with invented precision",
-         "id": "Kartu kedalaman dengan ketepatan karangan"
+         "id": "Kartu kedalaman dengan angka yang dibuat-buat agar terlihat pasti"
         },
         "fix": {
          "en": "Write “approx.” on the card and say “sekitar” in the room.",
-         "id": "Tulis “kira-kira” di kartu dan katakan “sekitar” di ruangan."
+         "id": "Tulis “perkiraan” di kartu dan katakan “sekitar” saat wawancara."
         }
        },
        {
         "h": {
          "en": "Keeping the customer-data story because it shows initiative",
-         "id": "Mempertahankan cerita data nasabah karena menunjukkan inisiatif"
+         "id": "Tetap membawa cerita data nasabah karena menunjukkan inisiatif"
         },
         "fix": {
          "en": "What it shows first is what you carry out of a building. Use the process story.",
-         "id": "Yang ditunjukkannya lebih dulu adalah apa yang kamu bawa keluar gedung. Pakai cerita proses."
+         "id": "Yang pertama terlihat dari cerita itu adalah apa saja yang kamu bawa keluar dari kantor. Pakai cerita tentang proses."
         }
        }
       ]
@@ -12229,7 +12183,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "Usable stories outside the Core 10, kept for a second interviewer or a different role.",
-        "id": "Cerita layak di luar Core 10, disimpan untuk pewawancara kedua atau peran berbeda."
+        "id": "Cerita yang layak dipakai tetapi tidak masuk Core 10, disimpan untuk pewawancara kedua atau posisi yang berbeda."
        }
       },
       {
@@ -12239,7 +12193,7 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "The Core 10 story an employer’s stated value will pull on; the one to prepare a depth card for first.",
-        "id": "Cerita Core 10 yang akan ditarik nilai yang dinyatakan perusahaan, yang kartu kedalamannya disiapkan lebih dulu."
+        "id": "Cerita Core 10 yang paling disorot oleh nilai perusahaan. Inilah yang pertama perlu dibuatkan kartu kedalaman."
        }
       },
       {
@@ -12249,17 +12203,17 @@ window.MT_LMS['the-rope'] = {
        },
        "def": {
         "en": "A story that needs a previous employer’s customer, cash or internal data to be told is evidence against your integrity, however good the instinct it shows.",
-        "id": "Cerita yang butuh nasabah, kas, atau data internal pemberi kerja sebelumnya untuk diceritakan adalah bukti melawan integritasmu, sebaik apa pun insting yang ditunjukkannya."
+        "id": "Cerita yang hanya bisa diceritakan dengan membuka data nasabah, uang, atau data internal tempat kerja sebelumnya menjadi bukti yang melemahkan integritasmu, sebagus apa pun naluri yang ditunjukkannya."
        }
       },
       {
        "term": {
         "en": "Readiness check",
-        "id": "Pemeriksaan kesiapan"
+        "id": "Cek kesiapan"
        },
        "def": {
         "en": "Ten stories, all slots covered, three or more settings, at least three depth cards, the Story Bank’s definition of a complete Core 10.",
-        "id": "Sepuluh cerita, semua slot tercakup, tiga latar atau lebih, minimal tiga kartu kedalaman, definisi Bank Cerita untuk Core 10 yang lengkap."
+        "id": "Sepuluh cerita, semua slot terisi, minimal tiga latar, dan minimal tiga kartu kedalaman. Itulah definisi Core 10 yang lengkap di Bank Cerita."
        }
       }
      ],
@@ -12267,41 +12221,41 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "Nadia’s ten strongest candidates by impressiveness would be four from the sponsorship team, three from the bank and three from HIMA. The grid says…",
-        "id": "Sepuluh kandidat terkuat Nadia berdasarkan kesan adalah empat dari tim sponsorship, tiga dari bank, dan tiga dari HIMA. Kisi berkata…"
+        "id": "Kalau dipilih berdasarkan seberapa mengesankan, sepuluh cerita terkuat Nadia adalah empat dari tim sponsorship, tiga dari bank, dan tiga dari HIMA. Menurut kisi cakupan…"
        },
        "options": [
         {
          "en": "Fine: impressive is what counts",
-         "id": "Tidak apa: kesan yang penting"
+         "id": "Tidak masalah, yang penting mengesankan"
         },
         {
          "en": "Check the slots: customer (9) and integrity (10) are probably empty, and one setting is at its limit",
-         "id": "Periksa slotnya: pelanggan (9) dan integritas (10) mungkin kosong, dan satu latar di batasnya"
+         "id": "Cek slotnya: pelanggan (9) dan integritas (10) kemungkinan kosong, dan satu latar sudah di batas maksimal"
         },
         {
          "en": "Replace all HIMA stories with café stories",
-         "id": "Ganti semua cerita HIMA dengan cerita kafe"
+         "id": "Ganti semua cerita HIMA dengan cerita dari kafe"
         },
         {
          "en": "Add a community-service story to make eleven",
-         "id": "Tambahkan cerita KKN menjadi sebelas"
+         "id": "Tambahkan satu cerita KKN supaya jadi sebelas"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Coverage first, then range; the café supplies the Pelayanan and Integritas stories the bank will actually ask for.",
-        "id": "Cakupan dulu, lalu rentang; kafe menyediakan cerita Pelayanan dan Integritas yang benar-benar akan ditanyakan bank."
+        "id": "Utamakan cakupan, lalu keragaman. Justru kafe yang menyediakan cerita Pelayanan dan Integritas, dua hal yang benar-benar akan ditanyakan bank."
        }
       },
       {
        "q": {
         "en": "Which candidate should stay out of every interview, even though it is true and shows good instinct?",
-        "id": "Kandidat mana yang harus tetap di luar setiap wawancara, meski benar dan menunjukkan insting baik?"
+        "id": "Calon cerita mana yang tidak boleh dibawa ke wawancara mana pun, walaupun benar dan menunjukkan naluri yang baik?"
        },
        "options": [
         {
          "en": "#13: the lost sponsor",
-         "id": "#13: sponsor yang hilang"
+         "id": "#13: sponsor yang lepas"
         },
         {
          "en": "#5: the unusual transfers on a customer’s account",
@@ -12309,46 +12263,46 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "en": "#17: the till overage",
-         "id": "#17: kas lebih"
+         "id": "#17: kelebihan uang kasir"
         },
         {
          "en": "#9: the receipts refusal",
-         "id": "#9: penolakan kuitansi"
+         "id": "#9: menolak klaim tanpa kuitansi"
         }
        ],
        "correct": 1,
        "why": {
         "en": "It cannot be told without a customer’s account activity; the JD itself names integrity with customer data.",
-        "id": "Tidak bisa diceritakan tanpa aktivitas rekening nasabah; JD sendiri menyebut integritas dengan data nasabah."
+        "id": "Cerita ini tidak bisa disampaikan tanpa membuka aktivitas rekening nasabah, padahal deskripsi pekerjaannya sendiri menyebut integritas dalam mengelola data nasabah."
        }
       },
       {
        "q": {
         "en": "On a depth card for the till story, the fact for “jam berapa?” is not in Nadia’s profile. She should…",
-        "id": "Di kartu kedalaman cerita kas, fakta untuk “jam berapa?” tidak ada di profil Nadia. Ia sebaiknya…"
+        "id": "Di kartu kedalaman untuk cerita kasir, fakta untuk pertanyaan “jam berapa?” tidak ada di profil Nadia. Sebaiknya ia…"
        },
        "options": [
         {
          "en": "Write a precise time so she sounds sure",
-         "id": "Menulis waktu tepat agar terdengar yakin"
+         "id": "Menulis jam yang pasti supaya terdengar yakin"
         },
         {
          "en": "Write “approx. 21.30, at closing” and say “sekitar” in the room",
-         "id": "Menulis “kira-kira 21.30, saat tutup” dan mengatakan “sekitar” di ruangan"
+         "id": "Menulis “perkiraan pukul 21.30, saat tutup” dan mengatakan “sekitar” saat wawancara"
         },
         {
          "en": "Leave the probe unprepared",
-         "id": "Membiarkan galian tanpa persiapan"
+         "id": "Tidak menyiapkan jawaban untuk galian itu"
         },
         {
          "en": "Drop the story",
-         "id": "Membuang ceritanya"
+         "id": "Tidak memakai cerita itu"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The card is where the honest hedge is planned; consistency across rounds matters more than precision.",
-        "id": "Kartu adalah tempat pagar jujur direncanakan; konsistensi lintas ronde lebih penting daripada ketepatan."
+        "id": "Kartu adalah tempat merencanakan kata “kira-kira” yang jujur. Konsistensi antartahap lebih penting daripada ketepatan."
        }
       }
      ],
@@ -12370,7 +12324,7 @@ window.MT_LMS['the-rope'] = {
       },
       "desc": {
        "en": "Four behavioural questions from the slots most often left weak, failure, integrity, customer, teamwork, each followed by up to three probes. Answer from your Core 10 only. The debrief compares your scores with the Round 1 baseline.",
-       "id": "Empat pertanyaan perilaku dari slot yang paling sering lemah, kegagalan, integritas, pelanggan, kerja tim, masing-masing diikuti hingga tiga galian. Jawab hanya dari Core 10-mu. Debrief membandingkan skormu dengan garis dasar Putaran 1."
+       "id": "Empat pertanyaan perilaku dari slot yang paling sering lemah, yaitu kegagalan, integritas, pelanggan, dan kerja tim, masing-masing diikuti sampai tiga pertanyaan galian. Jawab hanya dengan cerita dari Core 10-mu. Ulasannya membandingkan skormu dengan titik awal di Putaran 1."
       }
      },
      "tool": {
@@ -12378,11 +12332,11 @@ window.MT_LMS['the-rope'] = {
       "mode": "history",
       "title": {
        "en": "Round 2 against Round 1",
-       "id": "Putaran 2 melawan Putaran 1"
+       "id": "Putaran 2 dibanding Putaran 1"
       },
       "body": {
        "en": "After Round 2, open the session history and put the two sessions side by side. The content score should have moved most. That is what a prepared story bank changes first. Note which probe family cost you points; that is the depth card to rewrite before Module 3.",
-       "id": "Setelah Putaran 2, buka riwayat sesi dan sandingkan kedua sesi. Skor isi seharusnya paling banyak bergerak, itulah yang pertama diubah oleh bank cerita yang disiapkan. Catat keluarga galian mana yang merugikanmu; itulah kartu kedalaman yang ditulis ulang sebelum Modul 3."
+       "id": "Setelah Putaran 2, buka riwayat sesi dan sandingkan kedua sesi. Skor isi seharusnya paling banyak berubah, karena itulah yang pertama kali diperbaiki oleh Bank Cerita yang disiapkan dengan baik. Catat jenis galian mana yang membuat nilaimu turun. Itulah kartu kedalaman yang perlu kamu tulis ulang sebelum Modul 3."
       },
       "cta": {
        "en": "Open session history →",
@@ -12392,15 +12346,15 @@ window.MT_LMS['the-rope'] = {
      "takeaways": [
       {
        "en": "Choose for coverage and range, not for impressiveness.",
-       "id": "Pilih untuk cakupan dan rentang, bukan untuk kesan."
+       "id": "Pilih cerita berdasarkan cakupan dan keragaman, bukan karena paling mengesankan."
       },
       {
        "en": "A depth card turns a true story into one that gets stronger under probing.",
-       "id": "Kartu kedalaman mengubah cerita benar menjadi cerita yang makin kuat saat digali."
+       "id": "Kartu kedalaman membuat cerita yang nyata makin kuat saat digali."
       },
       {
        "en": "A story that needs someone else’s customer data is never told, however good it makes you look.",
-       "id": "Cerita yang butuh data nasabah orang lain tidak pernah diceritakan, sebaik apa pun kesan yang diberikannya."
+       "id": "Cerita yang membutuhkan data nasabah orang lain tidak pernah diceritakan, sebagus apa pun kesan yang ditimbulkannya."
       }
      ],
      "journey": {
@@ -12411,17 +12365,17 @@ window.MT_LMS['the-rope'] = {
        },
        "desc": {
         "en": "Mining, the coverage grid, STAR+L, the six probe families and depth cards, flexing one story across lengths and languages.",
-        "id": "Penggalian, kisi cakupan, STAR+L, enam keluarga galian dan kartu kedalaman, memfleksikan satu cerita lintas panjang dan bahasa."
+        "id": "Menggali cerita, kisi cakupan, STAR+L, enam jenis galian dan kartu kedalaman, serta mengolah satu cerita dalam berbagai panjang dan bahasa."
        }
       },
       "now": {
        "label": {
         "en": "2.5 · Nadia’s Core 10",
-        "id": "2.5 · Core 10 Nadia"
+        "id": "2.5 · Core 10 milik Nadia"
        },
        "desc": {
         "en": "You have filtered 27 candidates to ten, rewritten a vague one, built three depth cards, found the story to leave out, and filed your own Core 10.",
-        "id": "Kamu sudah menyaring 27 kandidat menjadi sepuluh, menulis ulang yang samar, membangun tiga kartu kedalaman, menemukan cerita yang ditinggalkan, dan mengarsipkan Core 10-mu sendiri."
+        "id": "Kamu sudah menyaring 27 calon cerita menjadi sepuluh, menulis ulang satu cerita yang samar, membuat tiga kartu kedalaman, menemukan cerita yang tidak boleh dibawa, dan menyimpan Core 10 milikmu sendiri."
        }
       },
       "next": {
@@ -12431,7 +12385,7 @@ window.MT_LMS['the-rope'] = {
        },
        "desc": {
         "en": "Read a job description as a scoresheet, research an organisation in ninety minutes, predict the questions, and map your Core 10 to each.",
-        "id": "Baca deskripsi pekerjaan sebagai lembar penilaian, riset organisasi dalam sembilan puluh menit, prediksi pertanyaannya, dan petakan Core 10-mu ke masing-masing."
+        "id": "Membaca deskripsi pekerjaan sebagai lembar penilaian, meriset perusahaan dalam sembilan puluh menit, menebak pertanyaan yang akan muncul, dan memetakan Core 10-mu ke setiap pertanyaan itu."
        },
        "lesson": "3.1"
       }
@@ -12442,7 +12396,7 @@ window.MT_LMS['the-rope'] = {
    "heroPos": "center 30%",
    "round": {
     "en": "Round 2 · Behavioural probe session, four behavioural questions from the slots most often left weak, each with up to three probes; the debrief compares against the Round 1 baseline.",
-    "id": "Putaran 2 · Sesi galian perilaku, empat pertanyaan perilaku dari slot yang paling sering lemah, masing-masing dengan hingga tiga galian; debrief membandingkan dengan garis dasar Putaran 1."
+    "id": "Putaran 2 · Sesi galian perilaku: empat pertanyaan perilaku dari slot yang paling sering lemah, masing-masing diikuti sampai tiga pertanyaan galian. Ulasannya membandingkan hasilmu dengan titik awal di Putaran 1."
    }
   },
   {
@@ -39631,7 +39585,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Dinamika lokal: senioritas, ketidaksetujuan terbuka, musyawarah"
        },
        "body": {
-        "en": "Three dynamics shape how the moves land in an local room, and the phrase bank is built for them. <b>Seniority deference:</b> a candidate who is older, or who has worked, or who simply speaks first with authority, will often be deferred to, and the group may drift toward their view without testing it. The respectful-disagreement phrase exists for this, “Saya melihatnya agak berbeda, Mas, karena di brief…”, a reason and a question, addressed with the honorific, which lets the group test the view without anyone losing face. <b>Reluctance to disagree openly:</b> many candidates will signal disagreement by silence or by a vague “mungkin bisa dipertimbangkan juga…”, which assessors cannot score. Make disagreement explicit and kind: name the point, give the reason, offer the alternative as a question. <b>Musyawarah:</b> consensus is valued, and a group that reaches a decision everyone can live with is scored well, but consensus is not the same as never deciding. The failure mode assessors see most in Indonesian groups is a warm, respectful discussion that ends at minute thirty with four half-agreed ideas and no choice. The Summariser and Timekeeper roles exist to prevent it: “Kita sudah sepakat A dan B; untuk C, bagaimana kalau kita catat sebagai syarat dan putuskan sekarang?” Consensus honoured, decision reached. The current Rope’s endgame protocol is retained: at minus five, someone must switch the group from exploring to concluding, and the person who lands the plane is remembered by name <span class=\"ev ev-contested\">Course guidance; group norms vary by employer and region</span>.",
+        "en": "Three dynamics shape how the moves land in an Indonesian room, and the phrase bank is built for them. <b>Seniority deference:</b> a candidate who is older, or who has worked, or who simply speaks first with authority, will often be deferred to, and the group may drift toward their view without testing it. The respectful-disagreement phrase exists for this, “Saya melihatnya agak berbeda, Mas, karena di brief…”, a reason and a question, addressed with the honorific, which lets the group test the view without anyone losing face. <b>Reluctance to disagree openly:</b> many candidates will signal disagreement by silence or by a vague “mungkin bisa dipertimbangkan juga…”, which assessors cannot score. Make disagreement explicit and kind: name the point, give the reason, offer the alternative as a question. <b>Musyawarah:</b> consensus is valued, and a group that reaches a decision everyone can live with is scored well, but consensus is not the same as never deciding. The failure mode assessors see most in Indonesian groups is a warm, respectful discussion that ends at minute thirty with four half-agreed ideas and no choice. The Summariser and Timekeeper roles exist to prevent it: “Kita sudah sepakat A dan B; untuk C, bagaimana kalau kita catat sebagai syarat dan putuskan sekarang?” Consensus honoured, decision reached. The current Rope’s endgame protocol is retained: at minus five, someone must switch the group from exploring to concluding, and the person who lands the plane is remembered by name <span class=\"ev ev-contested\">Course guidance; group norms vary by employer and region</span>.",
         "id": "Tiga dinamika membentuk bagaimana langkah-langkah mendarat di ruangan Indonesia, dan bank frasa dibangun untuknya. <b>Penghormatan senioritas:</b> kandidat yang lebih tua, atau yang sudah bekerja, atau yang sekadar bicara lebih dulu dengan wibawa, sering akan dihormati, dan kelompok bisa melenceng ke pandangannya tanpa mengujinya. Frasa ketidaksetujuan hormat ada untuk ini, “Saya melihatnya agak berbeda, Mas, karena di brief…”, alasan dan pertanyaan, disampaikan dengan sapaan hormat, yang memungkinkan kelompok menguji pandangan tanpa ada yang kehilangan muka. <b>Keengganan berbeda pendapat secara terbuka:</b> banyak kandidat akan menandakan ketidaksetujuan dengan diam atau dengan “mungkin bisa dipertimbangkan juga…” yang samar, yang tidak bisa dinilai asesor. Buat ketidaksetujuan eksplisit dan baik: sebut poinnya, beri alasannya, tawarkan alternatif sebagai pertanyaan. <b>Musyawarah:</b> mufakat dihargai, dan kelompok yang mencapai keputusan yang bisa diterima semua orang dinilai baik, tetapi mufakat tidak sama dengan tidak pernah memutuskan. Mode kegagalan yang paling sering dilihat asesor di kelompok Indonesia adalah diskusi hangat dan hormat yang berakhir di menit tiga puluh dengan empat gagasan setengah disepakati dan tanpa pilihan. Peran Perangkum dan Penjaga waktu ada untuk mencegahnya: “Kita sudah sepakat A dan B; untuk C, bagaimana kalau kita catat sebagai syarat dan putuskan sekarang?” Mufakat dihormati, keputusan tercapai. Protokol akhir The Rope saat ini dipertahankan: di lima menit terakhir, seseorang harus mengalihkan kelompok dari menjelajah ke menyimpulkan, dan orang yang mendaratkan pesawat diingat namanya <span class=\"ev ev-contested\">Panduan kursus; norma kelompok berbeda per pemberi kerja dan wilayah</span>."
        }
       }
