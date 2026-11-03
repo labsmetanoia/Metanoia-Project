@@ -15,29 +15,29 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "One decision, three questions; why interviewers probe; two directions; four interviewer styles.",
-     "id": "Satu keputusan, tiga pertanyaan; mengapa pewawancara menggali; dua arah; empat gaya pewawancara."
+     "id": "Satu keputusan, tiga pertanyaan; kenapa pewawancara menggali; wawancara dua arah; empat gaya pewawancara."
     }
    },
    {
     "lesson": "1.2",
     "h": {
      "en": "How Answers Are Scored",
-     "id": "Bagaimana Jawaban Dinilai"
+     "id": "Cara Jawaban Dinilai"
     },
     "sub": {
      "en": "Anchored scales, the five features, we → I → we, the debrief, red flags.",
-     "id": "Skala berjangkar, lima ciri, kami → saya → kami, rapat evaluasi, tanda bahaya."
+     "id": "Skala penilaian berjangkar, lima ciri jawaban kuat, kami → saya → kami, rapat evaluasi, tanda bahaya."
     }
    },
    {
     "lesson": "1.3",
     "h": {
      "en": "The Seven Question Types",
-     "id": "Tujuh Tipe Pertanyaan"
+     "id": "Tujuh Jenis Pertanyaan"
     },
     "sub": {
      "en": "Types and answer shapes, hidden concerns, stress protocol, “I don’t know”.",
-     "id": "Tipe dan bentuk jawaban, kekhawatiran tersembunyi, protokol tekanan, “saya tidak tahu”."
+     "id": "Jenis pertanyaan dan bentuk jawabannya, kekhawatiran tersembunyi, cara menghadapi tekanan, “saya tidak tahu”."
     }
    },
    {
@@ -48,7 +48,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Five tracks, stage owners, formats, reading the invitation, the format map.",
-     "id": "Lima jalur, pemilik tahap, format, membaca undangan, peta format."
+     "id": "Lima jalur, pemegang tiap tahap, format, membaca undangan, peta format."
     }
    }
   ],
@@ -81,7 +81,7 @@ window.MT_ASSESS['the-rope'] = {
     "correct": 1,
     "expl": {
      "en": "Every question maps to at least one of the three; the hire decision sits where they overlap (Kador).",
-     "id": "Setiap pertanyaan memetakan ke setidaknya satu dari ketiganya; keputusan merekrut berada di irisannya (Kador)."
+     "id": "Setiap pertanyaan wawancara mengarah ke setidaknya satu dari ketiganya, dan keputusan merekrut diambil di titik temu ketiganya (Kador)."
     }
    },
    {
@@ -89,30 +89,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "1.1",
     "q": {
      "en": "An interviewer has talked about the company for twenty of thirty minutes. The best move is…",
-     "id": "Pewawancara sudah bicara tentang perusahaan selama dua puluh dari tiga puluh menit. Langkah terbaiknya…"
+     "id": "Pewawancara sudah bercerita tentang perusahaannya selama dua puluh dari tiga puluh menit. Langkah terbaikmu…"
     },
     "opts": [
      {
       "en": "Wait: they will ask when ready",
-      "id": "Tunggu: mereka akan bertanya saat siap"
+      "id": "Menunggu, nanti mereka akan bertanya sendiri"
      },
      {
       "en": "Listen, ask one relevant question, then bridge to your most relevant evidence",
-      "id": "Dengarkan, ajukan satu pertanyaan relevan, lalu jembatani ke bukti paling relevanmu"
+      "id": "Mendengarkan, mengajukan satu pertanyaan yang relevan, lalu mengaitkannya dengan bukti terkuatmu"
      },
      {
       "en": "Interrupt with your strongest story",
-      "id": "Sela dengan cerita terkuatmu"
+      "id": "Memotong dengan cerita terbaikmu"
      },
      {
       "en": "Ask how much time is left",
-      "id": "Tanyakan berapa waktu tersisa"
+      "id": "Menanyakan sisa waktunya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The talker still has to leave the room with evidence to justify a yes (Pellett).",
-     "id": "Si banyak bicara tetap harus pulang dengan bukti untuk membenarkan “ya” (Pellett)."
+     "id": "Pewawancara yang banyak bicara pun tetap butuh bukti untuk bisa berkata “ya” (Pellett)."
     }
    },
    {
@@ -120,30 +120,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "1.2",
     "q": {
      "en": "A candidate answers “Tell me about a time you solved a problem” with a real internship example in which every action is “kami”, and no result. On a 1–4 anchor this is…",
-     "id": "Kandidat menjawab “Ceritakan saat Anda memecahkan masalah” dengan contoh magang nyata di mana setiap tindakan adalah “kami”, dan tanpa hasil. Pada jangkar 1–4 ini…"
+     "id": "Kandidat menjawab “Ceritakan saat Anda memecahkan masalah” dengan contoh nyata dari tempat magang, tetapi semua tindakannya diceritakan sebagai “kami” dan tidak ada hasilnya. Dengan skala 1–4, jawaban ini…"
     },
     "opts": [
      {
       "en": "A 4: it was real",
-      "id": "Nilai 4: itu nyata"
+      "id": "Nilai 4, karena ceritanya nyata"
      },
      {
       "en": "A 2: real, but own actions unclear and result missing",
-      "id": "Nilai 2: nyata, tetapi tindakan sendiri tidak jelas dan hasil hilang"
+      "id": "Nilai 2: nyata, tetapi tindakan pribadinya tidak jelas dan hasilnya tidak ada"
      },
      {
       "en": "A 1: hypothetical",
-      "id": "Nilai 1: hipotetis"
+      "id": "Nilai 1, karena hanya pengandaian"
      },
      {
       "en": "A 3: specific enough",
-      "id": "Nilai 3: cukup spesifik"
+      "id": "Nilai 3, karena cukup spesifik"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Truth alone earns a 2; ownership and a result are what the anchor asks for next.",
-     "id": "Kebenaran saja mendapat 2; kepemilikan dan hasil adalah yang diminta jangkar berikutnya."
+     "id": "Cerita yang nyata saja baru mendapat 2. Untuk naik ke jangkar berikutnya, dibutuhkan tindakan pribadi yang jelas dan hasil."
     }
    },
    {
@@ -151,16 +151,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "1.2",
     "q": {
      "en": "Which of these overrides a strong technical score?",
-     "id": "Mana yang menggugurkan skor teknis yang kuat?"
+     "id": "Mana yang bisa menggugurkan nilai teknis yang tinggi?"
     },
     "opts": [
      {
       "en": "A nervous first minute",
-      "id": "Menit pertama yang gugup"
+      "id": "Gugup di menit pertama"
      },
      {
       "en": "Numbers that differ between the HR and user rounds",
-      "id": "Angka yang berbeda antara ronde HR dan user"
+      "id": "Angka yang berbeda antara wawancara HR dan wawancara user"
      },
      {
       "en": "A short answer to a closing question",
@@ -168,13 +168,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Asking about the team’s size",
-      "id": "Bertanya tentang ukuran tim"
+      "id": "Bertanya tentang besar tim"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Inconsistency across rounds is raised at the debrief and weakens trust in all your evidence.",
-     "id": "Ketidakkonsistenan lintas ronde diangkat di rapat evaluasi dan melemahkan kepercayaan pada semua buktimu."
+     "id": "Fakta yang berubah antartahap akan dibahas di rapat evaluasi dan membuat pewawancara meragukan semua buktimu."
     }
    },
    {
@@ -182,30 +182,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "1.3",
     "q": {
      "en": "“Kenapa ingin bekerja di sini?” The hidden concern and the shape of a good answer are…",
-     "id": "“Kenapa ingin bekerja di sini?” Kekhawatiran tersembunyi dan bentuk jawaban yang baik adalah…"
+     "id": "“Kenapa ingin bekerja di sini?” Kekhawatiran tersembunyi dan bentuk jawaban yang tepat adalah…"
     },
     "opts": [
      {
       "en": "Will you stay: a five-year plan",
-      "id": "Apakah kamu bertahan: rencana lima tahun"
+      "id": "Apakah kamu akan bertahan: rencana lima tahun"
      },
      {
       "en": "Is this a random application; specific research plus fit to your experience (REC)",
-      "id": "Apakah ini lamaran acak: riset spesifik plus kecocokan dengan pengalamanmu (REC)"
+      "id": "Apakah ini lamaran asal kirim: riset yang spesifik ditambah kaitannya dengan pengalamanmu (REC)"
      },
      {
       "en": "Can you do it, a STAR story",
-      "id": "Bisakah kamu: cerita STAR"
+      "id": "Apakah kamu mampu: cerita STAR"
      },
      {
       "en": "Are you honest: a weakness",
-      "id": "Apakah kamu jujur: kelemahan"
+      "id": "Apakah kamu jujur: kelemahanmu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "A motivational question: one researched fact, one experience, one contribution; never a STAR story that skips why this company.",
-     "id": "Pertanyaan motivasional: satu fakta riset, satu pengalaman, satu kontribusi, bukan cerita STAR yang melewati mengapa perusahaan ini."
+     "id": "Ini pertanyaan motivasi: satu fakta hasil riset, satu pengalaman, dan satu kontribusi. Cerita STAR justru melewatkan alasan kenapa perusahaan ini."
     }
    },
    {
@@ -213,30 +213,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "1.3",
     "q": {
      "en": "The user asks how a bank’s net interest margin works, and you have never calculated one. You…",
-     "id": "User bertanya cara kerja net interest margin bank, dan kamu belum pernah menghitungnya. Kamu…"
+     "id": "User menanyakan cara kerja net interest margin di bank, padahal kamu belum pernah menghitungnya. Kamu…"
     },
     "opts": [
      {
       "en": "Give a confident guess",
-      "id": "Beri tebakan percaya diri"
+      "id": "Menebak dengan yakin"
      },
      {
       "en": "Say what you know, reason aloud toward it, and say how you would find out",
-      "id": "Katakan yang kamu tahu, bernalar dengan suara ke arahnya, dan katakan cara kamu mencari tahu"
+      "id": "Menyampaikan yang kamu tahu, bernalar sambil berpikir keras ke arah jawabannya, lalu menjelaskan cara kamu akan mencari tahu"
      },
      {
       "en": "Say “I don’t know” and stop",
-      "id": "Katakan “saya tidak tahu” dan berhenti"
+      "id": "Bilang “saya tidak tahu”, lalu diam"
      },
      {
       "en": "Change the subject to your thesis",
-      "id": "Alihkan ke skripsimu"
+      "id": "Mengalihkan pembicaraan ke skripsimu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Bluffing is the worst option; honest reasoning at the edge of knowledge scores on limits handled.",
-     "id": "Menggertak pilihan terburuk; bernalar jujur di batas pengetahuan dinilai pada batas yang ditangani."
+     "id": "Mengarang jawaban adalah pilihan terburuk. Bernalar dengan jujur di batas pengetahuanmu dinilai dari caramu menghadapi batas itu."
     }
    },
    {
@@ -244,7 +244,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "1.4",
     "q": {
      "en": "In a bank ODP process, the round that usually decides is…",
-     "id": "Dalam proses ODP bank, ronde yang biasanya menentukan adalah…"
+     "id": "Dalam proses seleksi ODP bank, tahap yang biasanya paling menentukan adalah…"
     },
     "opts": [
      {
@@ -261,13 +261,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "The HR phone screen",
-      "id": "Seleksi telepon HR"
+      "id": "Wawancara telepon dengan HR"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The user tests capability for the actual work and probes deepest; the screen tests eligibility.",
-     "id": "User menguji kemampuan untuk pekerjaan sebenarnya dan menggali paling dalam; seleksi awal menguji kelayakan."
+     "id": "User menguji kemampuan untuk pekerjaan yang sebenarnya dan menggali paling dalam. Tahap penyaringan hanya menguji kelayakan."
     }
    },
    {
@@ -275,7 +275,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "1.4",
     "q": {
      "en": "An invitation says: “5 questions, 90 seconds each, 30 seconds preparation, one retake, due Friday.” You prepare…",
-     "id": "Undangan berbunyi: “5 pertanyaan, 90 detik masing-masing, persiapan 30 detik, satu pengulangan, jatuh tempo Jumat.” Kamu menyiapkan…"
+     "id": "Undangannya berbunyi: “5 pertanyaan, masing-masing 90 detik, waktu persiapan 30 detik, boleh mengulang sekali, batas pengiriman hari Jumat.” Yang perlu kamu siapkan adalah…"
     },
     "opts": [
      {
@@ -284,41 +284,41 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Structured 90-second answers under a timer, plus camera and sound",
-      "id": "Jawaban 90 detik terstruktur di bawah pengatur waktu, plus kamera dan suara"
+      "id": "Jawaban 90 detik yang terstruktur dengan pengatur waktu, ditambah kamera dan suara"
      },
      {
       "en": "A group-discussion role",
-      "id": "Peran diskusi kelompok"
+      "id": "Peran dalam diskusi kelompok"
      },
      {
       "en": "A salary range",
-      "id": "Rentang gaji"
+      "id": "Kisaran gaji"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "It is a one-way video: no interviewer, the timer is the interviewer; rehearse with the same timings.",
-     "id": "Ini video satu arah: tanpa pewawancara, pengatur waktu adalah pewawancaranya; latih dengan waktu yang sama."
+     "id": "Ini wawancara video satu arah. Tidak ada pewawancara, jadi pengatur waktulah “pewawancaranya”. Berlatihlah dengan batas waktu yang sama."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Two questions. First: what uncertainty will your top employer have about you specifically. Name it from your own profile, and say what evidence you have or do not yet have. Second: which interview format on your format map are you least prepared for, and what is the first thing you will do about it this week?",
-    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: ketidakpastian apa yang akan dimiliki perusahaan sasaran teratasmu tentang dirimu secara spesifik. Sebutkan dari profilmu sendiri, dan katakan bukti apa yang kamu punya atau belum punya. Kedua: format wawancara mana di peta formatmu yang paling tidak kamu siapkan, dan apa hal pertama yang akan kamu lakukan minggu ini?"
+    "id": "Minimal 100 kata, untuk dua pertanyaan. Pertama: keraguan apa yang kemungkinan dimiliki perusahaan sasaran utamamu tentang dirimu? Ambil dari profilmu sendiri, lalu sebutkan bukti apa yang sudah atau belum kamu punya. Kedua: format wawancara mana di peta formatmu yang paling belum kamu siapkan, dan apa langkah pertama yang akan kamu lakukan minggu ini?"
    },
    "guide": [
     {
      "en": "Draw the uncertainty from a line in your CV, not from a generic list.",
-     "id": "Ambil ketidakpastiannya dari satu baris di CV-mu, bukan dari daftar generik."
+     "id": "Ambil keraguannya dari satu baris di CV-mu, bukan dari daftar umum."
     },
     {
      "en": "Name the format (one-way video, LGD, phone screen, panel…) and the module that trains it.",
-     "id": "Sebutkan formatnya (video satu arah, LGD, seleksi telepon, panel…) dan modul yang melatihnya."
+     "id": "Sebutkan formatnya (video satu arah, LGD, wawancara telepon, panel, dan sebagainya) dan modul yang melatihnya."
     },
     {
      "en": "The first action should fit in two hours.",
-     "id": "Tindakan pertama harus muat dalam dua jam."
+     "id": "Langkah pertamanya harus bisa selesai dalam dua jam."
     }
    ],
    "min": 100
@@ -335,7 +335,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Five prompts, the filter, the Core 10 coverage grid, the four kinds that fail.",
-     "id": "Lima pemicu, saringan, kisi cakupan Core 10, empat jenis yang gagal."
+     "id": "Lima pertanyaan pemancing, saringan, kisi cakupan Core 10, empat jenis cerita yang gagal."
     }
    },
    {
@@ -346,29 +346,29 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Obstacle, reasoning in the Action, results without invented numbers, the learning, timing.",
-     "id": "Hambatan, alasan di Aksi, hasil tanpa angka karangan, pembelajaran, waktu."
+     "id": "Hambatan, alasan di bagian Aksi, hasil tanpa angka karangan, pelajaran, durasi."
     }
    },
    {
     "lesson": "2.3",
     "h": {
      "en": "Depth: Surviving the Probes",
-     "id": "Kedalaman: Bertahan dari Galian"
+     "id": "Kedalaman: Tetap Kuat Saat Digali"
     },
     "sub": {
      "en": "Six probe families, depth cards, failure and integrity stories, the consistency rule.",
-     "id": "Enam keluarga galian, kartu kedalaman, cerita kegagalan dan integritas, aturan konsistensi."
+     "id": "Enam jenis galian, kartu kedalaman, cerita kegagalan dan integritas, aturan konsistensi."
     }
    },
    {
     "lesson": "2.4",
     "h": {
      "en": "Flexing One Story",
-     "id": "Satu Cerita, Banyak Sudut"
+     "id": "Satu Cerita, Banyak Kegunaan"
     },
     "sub": {
      "en": "Three lengths, leading with the angle asked, both languages, the used-with log.",
-     "id": "Tiga panjang, membuka dengan sudut yang ditanyakan, dua bahasa, catatan pemakaian."
+     "id": "Tiga versi panjang, membuka dengan sudut yang ditanyakan, dua bahasa, catatan “sudah dipakai”."
     }
    }
   ],
@@ -378,30 +378,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "2.1",
     "q": {
      "en": "A fresh graduate’s mining sheet has 27 candidates. The Core 10 is chosen so that…",
-     "id": "Lembar penggalian lulusan baru punya 27 kandidat. Core 10 dipilih agar…"
+     "id": "Lembar penggalian seorang lulusan baru berisi 27 calon cerita. Core 10 dipilih supaya…"
     },
     "opts": [
      {
       "en": "The ten most impressive are kept",
-      "id": "Sepuluh yang paling mengesankan dipertahankan"
+      "id": "Sepuluh yang paling mengesankan yang dipakai"
      },
      {
       "en": "Every coverage slot has a story and no single setting supplies more than four",
-      "id": "Setiap slot cakupan punya cerita dan tidak ada satu latar menyumbang lebih dari empat"
+      "id": "Setiap slot cakupan terisi, dan tidak ada satu latar yang menyumbang lebih dari empat cerita"
      },
      {
       "en": "All ten come from paid work",
-      "id": "Semua sepuluh dari pekerjaan berbayar"
+      "id": "Kesepuluhnya berasal dari pekerjaan berbayar"
      },
      {
       "en": "Each story covers exactly one slot",
-      "id": "Tiap cerita mencakup tepat satu slot"
+      "id": "Setiap cerita mengisi tepat satu slot"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Coverage first, then range; a story usually serves two or three slots, which is why ten answer forty questions.",
-     "id": "Cakupan dulu, lalu rentang; satu cerita biasanya melayani dua atau tiga slot, itulah sebabnya sepuluh menjawab empat puluh pertanyaan."
+     "id": "Utamakan cakupan, lalu keragaman. Satu cerita biasanya bisa mengisi dua atau tiga slot, itulah sebabnya sepuluh cerita bisa menjawab empat puluh pertanyaan."
     }
    },
    {
@@ -409,30 +409,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "2.1",
     "q": {
      "en": "“Was treasurer of HIMA for a year and managed Rp 120 juta.” As a story candidate this…",
-     "id": "“Menjadi bendahara HIMA selama setahun dan mengelola Rp 120 juta.” Sebagai kandidat cerita ini…"
+     "id": "“Menjadi bendahara HIMA selama setahun dan mengelola Rp 120 juta.” Sebagai calon cerita, kalimat ini…"
     },
     "opts": [
      {
       "en": "Passes: it has a number",
-      "id": "Lolos: ada angkanya"
+      "id": "Lolos, karena ada angkanya"
      },
      {
       "en": "Fails the filter: a title and a period, no situation, no action, no result; the story is underneath it",
-      "id": "Gagal saringan: jabatan dan periode, tanpa situasi, tindakan, hasil; ceritanya ada di bawahnya"
+      "id": "Tidak lolos saringan: hanya jabatan dan periode, tanpa situasi, tindakan, dan hasil. Ceritanya tersimpan di baliknya"
      },
      {
       "en": "Fails: HIMA is not real experience",
-      "id": "Gagal: HIMA bukan pengalaman nyata"
+      "id": "Tidak lolos, karena HIMA bukan pengalaman nyata"
      },
      {
       "en": "Passes: it covers the leadership slot",
-      "id": "Lolos: mencakup slot kepemimpinan"
+      "id": "Lolos, karena mengisi slot kepemimpinan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Titles and periods are the most common false candidates; dig under them for the audit, the receipts refusal, the midterm week.",
-     "id": "Jabatan dan periode adalah kandidat palsu paling umum; gali di bawahnya untuk audit, penolakan kuitansi, minggu UTS."
+     "id": "Jabatan dan periode adalah calon cerita palsu yang paling sering muncul. Gali yang ada di baliknya: audit, klaim tanpa kuitansi yang ditolak, minggu UTS."
     }
    },
    {
@@ -440,30 +440,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "2.2",
     "q": {
      "en": "In a 90-second STAR+L answer, the Action should take about…",
-     "id": "Dalam jawaban STAR+L 90 detik, Aksi seharusnya memakan sekitar…"
+     "id": "Dalam jawaban STAR+L berdurasi 90 detik, bagian Aksi sebaiknya memakan sekitar…"
     },
     "opts": [
      {
       "en": "10%: keep it brief",
-      "id": "10%: singkat saja"
+      "id": "10%, cukup singkat"
      },
      {
       "en": "45%: nearly half, step by step with reasons",
-      "id": "45%: hampir separuh, langkah demi langkah dengan alasan"
+      "id": "45%, hampir separuh, langkah demi langkah beserta alasannya"
      },
      {
       "en": "75%: everything else is filler",
-      "id": "75%: sisanya pengisi"
+      "id": "75%, sisanya hanya pengisi"
      },
      {
       "en": "25%: equal to the Situation",
-      "id": "25%: sama dengan Situasi"
+      "id": "25%, sama dengan Situasi"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Action carries the score; Situation, Task and Obstacle are about ten percent each, Result and Learning share the rest.",
-     "id": "Aksi memikul skornya; Situasi, Tugas, dan Hambatan sekitar sepuluh persen masing-masing, Hasil dan Pembelajaran berbagi sisanya."
+     "id": "Nilai ditentukan oleh bagian Aksi. Situasi, Tugas, dan Hambatan masing-masing sekitar sepuluh persen, sementara Hasil dan Pelajaran berbagi sisanya."
     }
    },
    {
@@ -471,16 +471,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "2.2",
     "q": {
      "en": "A candidate ends a story with “Saya belajar pentingnya komunikasi.” The Learning is…",
-     "id": "Kandidat mengakhiri cerita dengan “Saya belajar pentingnya komunikasi.” Pembelajarannya…"
+     "id": "Seorang kandidat menutup ceritanya dengan “Saya belajar pentingnya komunikasi.” Pelajaran ini…"
     },
     "opts": [
      {
       "en": "Acceptable: it is reflective",
-      "id": "Boleh: reflektif"
+      "id": "Sudah baik, karena reflektif"
      },
      {
       "en": "A platitude: it should name a specific behaviour change and where it was applied since",
-      "id": "Basa-basi: seharusnya menyebut perubahan perilaku spesifik dan di mana diterapkan sejak itu"
+      "id": "Klise. Seharusnya menyebut perubahan perilaku yang spesifik dan di mana sudah diterapkan"
      },
      {
       "en": "Too long",
@@ -488,13 +488,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Fine if said in English",
-      "id": "Boleh jika dalam bahasa Inggris"
+      "id": "Sudah baik kalau disampaikan dalam bahasa Inggris"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "“I now call rather than message when someone goes quiet, and did so with…” is a learning; a value word is not.",
-     "id": "“Sekarang saya menelepon alih-alih mengirim pesan saat seseorang diam, dan melakukannya dengan…” adalah pembelajaran; kata nilai bukan."
+     "id": "“Sekarang saya langsung menelepon, bukan mengirim pesan, kalau ada rekan yang menghilang, dan itu saya lakukan juga saat…” adalah pelajaran. Sekadar menyebut sebuah nilai bukan pelajaran."
     }
    },
    {
@@ -502,12 +502,12 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "2.3",
     "q": {
      "en": "“Tools apa yang dipakai?”, “berapa lama?” and “siapa yang mengerjakan bagian datanya?” all belong to the probe family…",
-     "id": "“Tools apa yang dipakai?”, “berapa lama?”, dan “siapa yang mengerjakan bagian datanya?” semuanya termasuk keluarga galian…"
+     "id": "“Tools apa yang dipakai?”, “berapa lama?”, dan “siapa yang mengerjakan bagian datanya?” termasuk jenis galian…"
     },
     "opts": [
      {
       "en": "Transfer",
-      "id": "Transfer"
+      "id": "Penerapan"
      },
      {
       "en": "Detail",
@@ -515,7 +515,7 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Counterfactual",
-      "id": "Kontrafaktual"
+      "id": "Seandainya"
      },
      {
       "en": "Difficulty",
@@ -525,7 +525,7 @@ window.MT_ASSESS['the-rope'] = {
     "correct": 1,
     "expl": {
      "en": "Knowing the family lets you prepare the fact before you know the wording; the depth card holds one prepared fact per family.",
-     "id": "Mengetahui keluarganya membuatmu bisa menyiapkan faktanya sebelum tahu kata-katanya; kartu kedalaman menyimpan satu fakta per keluarga."
+     "id": "Dengan mengenali jenisnya, kamu bisa menyiapkan faktanya sebelum tahu bagaimana pertanyaannya diucapkan. Kartu kedalaman menyimpan satu fakta untuk setiap jenis galian."
     }
    },
    {
@@ -533,30 +533,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "2.3",
     "q": {
      "en": "In the HR round a candidate said the sponsorship gap closed in “sixteen days”; in the user round she says “about three weeks”. At the debrief this…",
-     "id": "Di ronde HR kandidat berkata kekurangan sponsorship ditutup dalam “enam belas hari”; di ronde user ia berkata “sekitar tiga minggu”. Di rapat evaluasi ini…"
+     "id": "Di wawancara HR, kandidat bilang kekurangan dana sponsorship tertutup dalam “enam belas hari”; di wawancara user ia bilang “sekitar tiga minggu”. Di rapat evaluasi, hal ini…"
     },
     "opts": [
      {
       "en": "Goes unnoticed: the rounds are separate",
-      "id": "Tidak disadari: rondenya terpisah"
+      "id": "Tidak akan ketahuan, karena tahapnya terpisah"
      },
      {
       "en": "Is raised as an inconsistency and weakens trust in all her evidence; the depth card should have fixed the number or marked it “approx.”",
-      "id": "Diangkat sebagai ketidakkonsistenan dan melemahkan kepercayaan pada semua buktinya, kartu kedalaman seharusnya menetapkan angkanya atau menandainya “kira-kira”"
+      "id": "Dibahas sebagai fakta yang tidak konsisten dan membuat pewawancara meragukan semua buktinya. Kartu kedalaman seharusnya menetapkan angkanya atau menandainya sebagai “perkiraan”"
      },
      {
       "en": "Helps: it shows flexibility",
-      "id": "Membantu: menunjukkan fleksibilitas"
+      "id": "Justru membantu, karena menunjukkan fleksibilitas"
      },
      {
       "en": "Is fine because both are roughly right",
-      "id": "Tidak apa karena keduanya kira-kira benar"
+      "id": "Tidak masalah, karena keduanya kurang lebih benar"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Interviewers meet afterwards; the consistency rule is to use the same facts in every round, with the honest hedge planned on the card.",
-     "id": "Pewawancara bertemu setelahnya; aturan konsistensi adalah memakai fakta yang sama di setiap ronde, dengan pagar jujur direncanakan di kartu."
+     "id": "Para pewawancara bertemu setelahnya. Aturan konsistensi: pakai fakta yang sama di setiap tahap, dan rencanakan kata “kira-kira” yang jujur di kartu."
     }
    },
    {
@@ -564,30 +564,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "2.4",
     "q": {
      "en": "The same sponsorship story is asked as “ceritakan saat Anda meyakinkan orang yang lebih senior”. The strong opening is…",
-     "id": "Cerita sponsorship yang sama ditanyakan sebagai “ceritakan saat Anda meyakinkan orang yang lebih senior”. Pembuka yang kuat adalah…"
+     "id": "Cerita sponsorship yang sama dipakai untuk menjawab “ceritakan saat Anda meyakinkan orang yang lebih senior”. Pembuka yang kuat adalah…"
     },
     "opts": [
      {
       "en": "The full story from the beginning, as always",
-      "id": "Cerita penuh dari awal, seperti biasa"
+      "id": "Cerita lengkap dari awal, seperti biasa"
      },
      {
       "en": "The persuasion part first, the chair, the conversion data, the cheaper package, then the rest as context",
-      "id": "Bagian persuasinya dulu, ketua, data konversi, paket lebih murah, lalu sisanya sebagai konteks"
+      "id": "Bagian meyakinkannya lebih dulu (ketua, data konversi, paket yang lebih murah), lalu sisanya sebagai latar"
      },
      {
       "en": "A different story: one story cannot answer two questions",
-      "id": "Cerita berbeda: satu cerita tidak bisa menjawab dua pertanyaan"
+      "id": "Cerita lain, karena satu cerita tidak bisa menjawab dua pertanyaan"
      },
      {
       "en": "The result first, to impress",
-      "id": "Hasilnya dulu, agar mengesankan"
+      "id": "Hasilnya lebih dulu, supaya mengesankan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Lead with the angle asked; the same facts, a different first sentence.",
-     "id": "Buka dengan sudut yang ditanyakan; fakta yang sama, kalimat pertama berbeda."
+     "id": "Buka dengan sudut yang ditanyakan. Faktanya sama, hanya kalimat pertamanya yang berbeda."
     }
    },
    {
@@ -595,50 +595,50 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "2.4",
     "q": {
      "en": "The three lengths of a prepared story are…",
-     "id": "Tiga panjang cerita yang disiapkan adalah…"
+     "id": "Tiga versi panjang cerita yang perlu disiapkan adalah…"
     },
     "opts": [
      {
       "en": "30 s, 5 min, 15 min",
-      "id": "30 dtk, 5 mnt, 15 mnt"
+      "id": "30 detik, 5 menit, 15 menit"
      },
      {
       "en": "A 20-second headline, a 60–90-second standard answer, a 3-minute deep version for probing",
-      "id": "Headline 20 detik, jawaban standar 60–90 detik, versi dalam 3 menit untuk galian"
+      "id": "Versi singkat 20 detik, versi standar 60–90 detik, dan versi lengkap 3 menit untuk menghadapi galian"
      },
      {
       "en": "Short, medium, long: decided on the day",
-      "id": "Pendek, sedang, panjang: diputuskan saat itu"
+      "id": "Pendek, sedang, panjang, ditentukan saat itu juga"
      },
      {
       "en": "One length; interviewers stop you if needed",
-      "id": "Satu panjang; pewawancara menghentikanmu jika perlu"
+      "id": "Satu versi saja; pewawancara akan menghentikanmu kalau perlu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The headline answers a one-way video or a quick “contohnya?”; the full answer is the default; the deep version is what the probes unpack.",
-     "id": "Headline menjawab video satu arah atau “contohnya?” singkat; jawaban penuh adalah bawaan; versi dalam adalah yang dibongkar galian."
+     "id": "Versi singkat menjawab video satu arah atau permintaan “contohnya?” yang cepat. Versi standar dipakai sehari-hari. Versi lengkap adalah yang terbuka saat kamu digali."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Which of your Core 10 stories are you least confident defending under probing, and which probe family (ownership, reasoning, detail, difficulty, counterfactual, transfer) would expose it? Name the fact you need to recover to answer that probe, where you will recover it from (a message thread, a report, a person), and what you will write as “approx.” if you cannot.",
-    "id": "Minimal 100 kata. Cerita Core 10 mana yang paling tidak yakin kamu pertahankan saat digali, dan keluarga galian mana (kepemilikan, alasan, detail, kesulitan, kontrafaktual, transfer) yang akan membongkarnya? Sebutkan fakta yang perlu kamu pulihkan untuk menjawab galian itu, dari mana kamu memulihkannya (utas pesan, laporan, seseorang), dan apa yang akan kamu tulis sebagai “kira-kira” jika tidak bisa."
+    "id": "Minimal 100 kata. Cerita Core 10 mana yang paling tidak yakin bisa kamu pertahankan saat digali, dan jenis galian mana (peran pribadi, alasan, detail, kesulitan, seandainya, penerapan) yang akan menggoyahkannya? Sebutkan fakta yang perlu kamu pastikan ulang untuk menjawab galian itu, dari mana kamu akan memastikannya (riwayat pesan, laporan, atau orang yang terlibat), dan apa yang akan kamu tulis sebagai “perkiraan” jika tidak bisa dipastikan."
    },
    "guide": [
     {
      "en": "Name the story by its Kit title and the slot it fills.",
-     "id": "Sebutkan cerita dengan judul Perangkat dan slot yang diisinya."
+     "id": "Sebutkan ceritanya dengan judul di Perangkat Wawancara dan slot yang diisinya."
     },
     {
      "en": "Name the family, not just “they might ask details”.",
-     "id": "Sebutkan keluarganya, bukan hanya “mereka mungkin bertanya detail”."
+     "id": "Sebutkan jenis galiannya, bukan sekadar “mungkin mereka akan menanyakan detail”."
     },
     {
      "en": "The recovery should be an action you can take this week.",
-     "id": "Pemulihan harus tindakan yang bisa kamu lakukan minggu ini."
+     "id": "Cara memastikannya harus berupa tindakan yang bisa kamu lakukan minggu ini."
     }
    ],
    "min": 100

@@ -7,15 +7,15 @@ em: and three questions that decide it || dan tiga pertanyaan yang menentukannya
 i: gear,flame,users
 
 @1.1#1
-em: so they hire defensively || maka mereka merekrut dengan hati-hati
+em: so they hire defensively || jadi mereka memilih dengan hati-hati
 i: shield
 
 @1.1#2
-em: evidence is what separates you || bukti yang membedakanmu
+em: evidence is what separates you || buktilah yang membedakanmu
 i: chat,doc
 
 @1.1#3
-em: sharp, informed questions || pertanyaan tajam yang terinformasi
+em: sharp, informed questions || pertanyaan tajam yang didukung riset
 i: question
 
 @1.2#0
@@ -23,42 +23,42 @@ em: written behavioural anchors || jangkar perilaku tertulis
 i: clipboard
 
 @1.2#1
-em: all five marks || kelima tanda
+em: all five marks || kelima ciri
 d0: A named place, time and task, not a general habit. || Tempat, waktu, dan tugas yang jelas, bukan kebiasaan umum.
-d1: Your own actions, said in the first person. || Tindakanmu sendiri, diucapkan sebagai "saya".
-d2: Why you chose that action over the alternatives. || Mengapa kamu memilih tindakan itu, bukan yang lain.
+d1: Your own actions, said in the first person. || Tindakanmu sendiri, diceritakan dengan “saya”.
+d2: Why you chose that action over the alternatives. || Kenapa kamu memilih tindakan itu, bukan yang lain.
 d3: A result someone could check. || Hasil yang bisa diperiksa orang lain.
 d4: What you would keep or change next time. || Apa yang akan kamu pertahankan atau ubah lain kali.
 i: pin,person,brain,chart,eye
 
 @1.2#2
-em: override a strong technical score || mengalahkan nilai teknis yang kuat
-d0: A number or fact that changes between interviewers. || Angka atau fakta yang berubah antar-pewawancara.
-d1: Failures explained entirely by other people. || Kegagalan yang sepenuhnya disalahkan pada orang lain.
-d2: Courtesy that switches off for the receptionist. || Kesopanan yang padam di depan resepsionis.
-d3: Nothing to ask when the floor is yours. || Tidak ada yang ditanyakan saat giliranmu tiba.
-d4: A figure with no market reference behind it. || Angka tanpa acuan pasar di belakangnya.
+em: override a strong technical score || bisa mengalahkan nilai teknis yang tinggi
+d0: A number or fact that changes between interviewers. || Angka atau fakta yang berubah dari satu pewawancara ke yang lain.
+d1: Failures explained entirely by other people. || Kegagalan yang seluruhnya ditimpakan ke orang lain.
+d2: Courtesy that switches off for the receptionist. || Sopan ke pewawancara, tetapi ketus ke resepsionis.
+d3: Nothing to ask when the floor is yours. || Tidak bertanya apa pun saat diberi kesempatan.
+d4: A figure with no market reference behind it. || Angka yang tidak didukung data gaji pasar.
 i: refresh,hand,users,question,coin
 
 @1.2#3
-em: one source of truth || satu sumber kebenaran
-l0: The debrief || Debrief
-l1: The topic || Topiknya
+em: one source of truth || satu catatan fakta
+l0: The debrief || Rapat evaluasi
+l1: The topic || Yang dibahas
 i: users,warn
 
 @1.3#0
 em: nearly every interview question || hampir semua pertanyaan wawancara
-d0: Past experiences, read as a forecast of future behaviour. || Pengalaman masa lalu, dibaca sebagai ramalan perilaku mendatang.
-d1: A hypothetical: what would you do if. || Hipotetis: apa yang akan kamu lakukan jika.
-d2: Why this role, this company, this path. || Mengapa peran ini, perusahaan ini, jalur ini.
-d3: Strengths, weaknesses and how you see yourself. || Kekuatan, kelemahan, dan caramu melihat diri sendiri.
-d4: Knowledge and method, tested directly. || Pengetahuan dan metode, diuji langsung.
-d5: A problem to structure and solve aloud. || Masalah untuk disusun dan dipecahkan sambil bersuara.
-d6: Pressure applied on purpose, to see how you hold. || Tekanan yang sengaja diberikan untuk melihat ketahananmu.
+d0: Past experiences, read as a forecast of future behaviour. || Pengalaman masa lalu, dibaca sebagai petunjuk perilaku ke depan.
+d1: A hypothetical: what would you do if. || Pengandaian: apa yang akan kamu lakukan jika…
+d2: Why this role, this company, this path. || Kenapa posisi ini, perusahaan ini, jalur karier ini.
+d3: Strengths, weaknesses and how you see yourself. || Kekuatan, kelemahan, dan caramu memandang diri sendiri.
+d4: Knowledge and method, tested directly. || Pengetahuan dan cara kerja, diuji secara langsung.
+d5: A problem to structure and solve aloud. || Masalah yang disusun dan dipecahkan sambil berpikir keras.
+d6: Pressure applied on purpose, to see how you hold. || Tekanan yang sengaja diberikan untuk melihat ketenanganmu.
 i: clock,compass,flame,person,gear,puzzle,bolt
 
 @1.3#1
-em: decide the type in two seconds || tentukan tipenya dalam dua detik
+em: decide the type in two seconds || kenali jenisnya dalam dua detik
 i: clock,compass,flame,person,gear,puzzle
 
 @1.3#2
@@ -66,24 +66,24 @@ em: answer the worry, not just the words || jawab kekhawatirannya, bukan sekadar
 i: eye
 
 @1.3#3
-em: then let the silence sit || biarkan keheningan berbicara
-d0: One breath; it reads as composure, not hesitation. || Satu tarikan napas; terbaca sebagai ketenangan, bukan ragu.
-d1: Name the point fairly before you answer it. || Akui poinnya dengan adil sebelum menjawabnya.
-d2: One specific fact or example, not a defence. || Satu fakta atau contoh spesifik, bukan pembelaan.
-d3: Return to the role and what you would do in it. || Kembali ke peran dan apa yang akan kamu lakukan di dalamnya.
+em: then let the silence sit || biarkan hening sejenak bekerja untukmu
+d0: One breath; it reads as composure, not hesitation. || Satu tarikan napas; terlihat tenang, bukan ragu.
+d1: Name the point fairly before you answer it. || Akui poinnya dengan adil sebelum menjawab.
+d2: One specific fact or example, not a defence. || Satu fakta atau contoh spesifik, bukan pembelaan diri.
+d3: Return to the role and what you would do in it. || Kembali ke posisinya dan apa yang akan kamu kerjakan di sana.
 i: pause,hand,doc,arrow
 
 @1.3#4
-em: without over-sharing || tanpa berbagi berlebihan
+em: without over-sharing || tanpa bercerita berlebihan
 i: lock
 
 @1.4#0
-em: the user interview usually decides || wawancara user biasanya yang menentukan
-d0: Psychometrics early, panels late, long and formal. || Psikometri di awal, panel di akhir; panjang dan formal.
-d1: Online tests, English, values and a final panel. || Tes daring, bahasa Inggris, nilai, dan panel akhir.
-d2: Case rounds and assessment centres in English. || Putaran kasus dan assessment centre berbahasa Inggris.
-d3: Fast, informal, a take-home task and a founder chat. || Cepat, informal, tugas bawa pulang, dan obrolan pendiri.
-d4: Often one or two conversations with the owner. || Sering hanya satu atau dua percakapan dengan pemilik.
+em: the user interview usually decides || wawancara user biasanya menjadi penentu
+d0: Psychometrics early, panels late, long and formal. || Psikotes di awal, panel di akhir; panjang dan formal.
+d1: Online tests, English, values and a final panel. || Tes daring, bahasa Inggris, nilai-nilai AKHLAK, dan panel akhir.
+d2: Case rounds and assessment centres in English. || Studi kasus dan assessment center dalam bahasa Inggris.
+d3: Fast, informal, a take-home task and a founder chat. || Cepat, santai, tugas yang dikerjakan di rumah, dan obrolan dengan pendiri.
+d4: Often one or two conversations with the owner. || Sering hanya satu atau dua kali ngobrol dengan pemilik.
 i: building,flag,globe,rocket,briefcase
 
 @1.4#1
@@ -91,22 +91,22 @@ em: prepare for the person, not just the question || bersiaplah untuk orangnya, 
 i: clipboard,brain,gear,users
 
 @1.4#2
-em: rehearse each one || latih masing-masing
-d0: Eye contact, posture and the handshake at the door. || Kontak mata, postur, dan jabat tangan di pintu.
-d1: Camera at eye level, light in front, notes beside the lens. || Kamera sejajar mata, cahaya dari depan, catatan di samping lensa.
-d2: No interviewer to read; timing and energy carry it. || Tak ada pewawancara untuk dibaca; waktu dan energi yang membawanya.
-d3: Voice only; stand up, smile, keep the Story Bank open. || Hanya suara; berdiri, tersenyum, buka Story Bank.
-d4: Several scorers at once, each with a different question. || Beberapa penilai sekaligus, masing-masing dengan pertanyaan berbeda.
-d5: Scored on behaviour with others, not on being loudest. || Dinilai dari perilaku bersama orang lain, bukan dari paling lantang.
-d6: Manners and conversation are the test, not the food. || Tata krama dan percakapan adalah ujiannya, bukan makanannya.
-d7: A full day of exercises; stamina and consistency count. || Sehari penuh latihan; stamina dan konsistensi yang dihitung.
+em: rehearse each one || latih setiap format
+d0: Eye contact, posture and the handshake at the door. || Kontak mata, postur, dan jabat tangan sejak di pintu.
+d1: Camera at eye level, light in front, notes beside the lens. || Kamera sejajar mata, cahaya dari depan, catatan di dekat lensa.
+d2: No interviewer to read; timing and energy carry it. || Tidak ada pewawancara yang bisa dibaca; waktu dan energimu yang menentukan.
+d3: Voice only; stand up, smile, keep the Story Bank open. || Hanya suara; berdiri, tersenyum, dan buka Bank Cerita.
+d4: Several scorers at once, each with a different question. || Beberapa penilai sekaligus, masing-masing dengan pertanyaannya sendiri.
+d5: Scored on behaviour with others, not on being loudest. || Dinilai dari caramu bekerja dengan orang lain, bukan dari siapa yang paling lantang.
+d6: Manners and conversation are the test, not the food. || Yang diuji adalah sikap dan cara mengobrol, bukan makanannya.
+d7: A full day of exercises; stamina and consistency count. || Sehari penuh berbagai latihan; stamina dan konsistensi ikut dinilai.
 i: handshake,video,laptop,phone,users,chat,smile,calendar
 
 @1.5#0
-em: the module to prepare with || modul untuk bersiap
+em: the module to prepare with || modul untuk menyiapkannya
 l0: Invitation || Undangan
 l1: Stage || Tahap
-l2: Test || Ujian
+l2: Test || Yang diuji
 i: mail,steps,clipboard
 
 @1.5#1
