@@ -398,3 +398,82 @@
   :root[data-theme="light"] .pf-stages-2 .fold-tab.on .ft-name{color:#8B6914;text-shadow:none}
   :root[data-theme="light"] .pf-stages-2 .fold-tab:not(.on) .ft-name{color:#1A1F28;text-shadow:0 1px 6px rgba(255,255,255,.9)}
 }
+
+/* ───────── 1c · Stage folders in the Home "Summit" card language (Early + Mature Professional, Chapter I) ─────────
+   Badge + kicker + hairline on top, serif title and line beneath, photography carrying the lower half of the
+   card and fading in under the copy; the active stage is lit in gold. Scoped to .pf-summit only. */
+.pf-summit-block .mk-kicker{display:flex;align-items:center;gap:14px;font-size:11.5px;letter-spacing:.26em;margin-bottom:14px}
+.pf-summit-block .mk-kicker::after{content:"";flex:0 0 132px;height:24px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 26' fill='none' stroke='%23C9A84C' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 21 L17 7 L22 13 L27 4 L36 21'/%3E%3Ccircle cx='27' cy='4' r='1.6' fill='%23C9A84C' stroke='none'/%3E%3C/svg%3E") 0 50%/36px 22px no-repeat,
+    linear-gradient(90deg,rgba(201,168,76,.6),rgba(201,168,76,0)) 46px 50%/86px 1px no-repeat}
+.pf-summit-block .mk-title{font-size:clamp(1.8rem,3.4vw,2.75rem);line-height:1.1;letter-spacing:-.012em;margin:0 0 14px;max-width:22ch;font-weight:600}
+.pf-summit-block .mk-lede{margin:0 0 30px;max-width:58ch;font-size:16px;line-height:1.7;color:var(--text-sub)}
+
+.pf-stages-2.pf-summit{padding:30px 30px 32px}
+.pf-stages-2.pf-summit .fold-tabs{gap:20px;padding:0 0 30px}
+.pf-stages-2.pf-summit .pf-rail{display:none}
+.pf-stages-2.pf-summit .fold-tab{position:relative;overflow:hidden;isolation:isolate;justify-content:flex-start;gap:0;
+  min-height:300px;padding:22px 22px 132px;border-radius:18px;border:1px solid rgba(245,239,230,.18);
+  background:rgba(8,13,22,.62);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05);transition:transform .3s cubic-bezier(.22,1,.36,1),border-color .3s,box-shadow .35s}
+.pf-stages-2.pf-summit .fold-tab::after{content:none}
+.pf-stages-2.pf-summit .fold-tab + .fold-tab::before,.pf-stages-2.pf-summit .fold-tab::before{content:"";position:absolute;top:0;left:18%;right:18%;width:auto;height:1px;margin:0;border:0;transform:none;
+  background:linear-gradient(90deg,transparent,rgba(201,168,76,.7),transparent);opacity:0;z-index:2;transition:opacity .35s ease}
+.pf-stages-2.pf-summit .fold-tab:hover{transform:translateY(-6px);border-color:rgba(201,168,76,.5);background:rgba(8,13,22,.7)}
+.pf-stages-2.pf-summit .fold-tab:hover::before,.pf-stages-2.pf-summit .fold-tab.on::before{opacity:1}
+/* top row: badge, kicker, hairline */
+.pf-stages-2.pf-summit .fold-tab .ft-top{position:static;display:flex;align-items:center;justify-content:flex-start;gap:13px;margin:0 0 16px}
+.pf-stages-2.pf-summit .fold-tab .ft-top::after{content:"";flex:1;height:1px;background:rgba(245,239,230,.16)}
+.pf-stages-2.pf-summit .fold-tab .ft-num{display:none}
+.pf-stages-2.pf-summit .fold-tab .ft-stage-ic{width:48px;height:48px;border:1.5px solid var(--gold);background:rgba(6,11,20,.55);color:var(--gold);transform:none;transition:box-shadow .35s,background .35s,color .35s}
+.pf-stages-2.pf-summit .fold-tab:hover .ft-stage-ic{box-shadow:0 0 0 4px rgba(201,168,76,.12),0 0 22px rgba(201,168,76,.28)}
+.pf-stages-2.pf-summit .fold-tab .ft-k{flex:none;font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+/* copy */
+.pf-stages-2.pf-summit .fold-tab .ft-name{font-family:var(--serif);font-size:clamp(19px,1.55vw,21.5px);font-weight:600;line-height:1.2;letter-spacing:.002em;color:var(--text);text-shadow:none;margin:0 0 9px}
+.pf-stages-2.pf-summit .fold-tab .ft-sub{font-size:12.5px;line-height:1.62;color:var(--text-muted);text-shadow:none;max-width:30em}
+/* imagery carries the lower half of the card */
+.pf-stages-2.pf-summit .fold-tab .ft-img{position:absolute;inset:auto 0 0 0;height:58%;z-index:-1;pointer-events:none}
+.pf-stages-2.pf-summit .fold-tab .ft-img::after{content:none}
+.pf-stages-2.pf-summit .fold-tab .ft-img img{width:100%;height:100%;object-fit:cover;display:block;opacity:.85;filter:none;transform:none;
+  -webkit-mask-image:linear-gradient(180deg,transparent,rgba(0,0,0,.72) 34%,#000 60%);mask-image:linear-gradient(180deg,transparent,rgba(0,0,0,.72) 34%,#000 60%);
+  transition:transform .8s cubic-bezier(.22,.8,.3,1)}
+.pf-stages-2.pf-summit .fold-tab:hover .ft-img img,.pf-stages-2.pf-summit .fold-tab.on .ft-img img{transform:scale(1.05);opacity:.92;filter:none}
+/* active stage */
+.pf-stages-2.pf-summit .fold-tab.on{border-color:rgba(240,216,120,.8);background:rgba(10,18,32,.72);
+  box-shadow:0 0 0 1px rgba(240,216,120,.3),0 0 36px rgba(240,216,120,.16),0 22px 44px rgba(0,0,0,.4)}
+.pf-stages-2.pf-summit .fold-tab.on .ft-name{color:var(--gold-bright)}
+.pf-stages-2.pf-summit .fold-tab.on .ft-stage-ic{background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));color:#160d03;border-color:transparent;box-shadow:0 0 0 5px rgba(201,168,76,.14)}
+.pf-stages-2.pf-summit .fold-tab.on .ft-top::after{background:linear-gradient(90deg,rgba(240,216,120,.6),rgba(240,216,120,.08))}
+.pf-stages-2.pf-summit .fold-tab:focus-visible{outline:2px solid var(--gold-bright);outline-offset:3px}
+@media(max-width:1100px){
+  .pf-stages-2.pf-summit .fold-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pf-stages-2.pf-summit .fold-tab{min-height:260px;padding-bottom:118px}
+}
+@media(max-width:860px){
+  .pf-summit-block .mk-lede{font-size:15px;margin-bottom:22px}
+  .pf-summit-block .mk-kicker{gap:10px;letter-spacing:.2em}
+  .pf-summit-block .mk-kicker::after{flex-basis:30px;background-size:30px 18px,0 0}
+  .pf-stages-2.pf-summit{padding:18px 14px 22px}
+  .pf-stages-2.pf-summit .fold-tabs{display:flex;gap:12px;padding-bottom:22px}
+  .pf-stages-2.pf-summit .fold-tab{flex:0 0 min(76vw,290px);min-height:262px;padding:18px 18px 118px}
+  .pf-stages-2.pf-summit .fold-tab .ft-img{height:50%}
+  .pf-stages-2.pf-summit .fold-tab .ft-stage-ic{width:42px;height:42px}
+  .pf-stages-2.pf-summit .fold-tab .ft-name{font-size:19px}
+  .pf-stages-2.pf-summit .fold-tab .ft-sub{display:block}
+}
+@media (prefers-reduced-motion: reduce){
+  .pf-stages-2.pf-summit .fold-tab,.pf-stages-2.pf-summit .fold-tab .ft-img img{transition:none}
+  .pf-stages-2.pf-summit .fold-tab:hover{transform:none}
+  .pf-stages-2.pf-summit .fold-tab:hover .ft-img img,.pf-stages-2.pf-summit .fold-tab.on .ft-img img{transform:none}
+}
+:root[data-theme="light"] .pf-summit-block .mk-lede{color:#3A4250}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab{background:rgba(255,255,255,.88);border-color:rgba(139,105,20,.22);box-shadow:0 10px 26px rgba(20,30,50,.08)}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab .ft-name{color:#1A1F28}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab .ft-sub{color:#4A5260}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab .ft-k{color:#8B6914}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab .ft-top::after{background:rgba(139,105,20,.2)}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab .ft-stage-ic{background:#fff;color:#8B6914;border-color:rgba(139,105,20,.5)}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab.on{background:#fff;border-color:#8B6914;box-shadow:0 0 0 1px rgba(139,105,20,.25),0 18px 40px rgba(20,30,50,.14)}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab.on .ft-name{color:#8B6914}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab.on .ft-sub{color:#4A5260}
+:root[data-theme="light"] .pf-stages-2.pf-summit .fold-tab.on .ft-stage-ic{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#160d03}
