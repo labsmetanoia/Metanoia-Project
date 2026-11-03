@@ -1,162 +1,162 @@
 # The Rope · Module 6 · The User, Technical and Case Interview
 
 @6.1#0
-em: three fears in work clothes || tiga ketakutan yang berpakaian kerja
+em: three fears in work clothes || tiga ketakutan dalam baju kerja
 l0: Supervision || Pengawasan
 l1: Learning || Belajar
 l2: The team || Tim
-d0: A hire who needs checking on every task, every day. || Rekrutan yang harus diperiksa di setiap tugas, setiap hari.
-d1: A hire who cannot pick up the work at the team’s pace. || Rekrutan yang tidak bisa menangkap pekerjaan secepat tim.
-d2: A hire who costs the team more than they add. || Rekrutan yang membebani tim lebih dari yang ia tambahkan.
+d0: A hire who needs checking on every task, every day. || Karyawan baru yang harus dicek di setiap tugas, setiap hari.
+d1: A hire who cannot pick up the work at the team’s pace. || Karyawan baru yang tidak bisa mengikuti pekerjaan secepat timnya.
+d2: A hire who costs the team more than they add. || Karyawan baru yang lebih membebani tim daripada membantunya.
 i: eye,cap,users
 
 @6.1#1
-em: the room for depth cards || ruang untuk kartu kedalaman
-l0: Follow-ups || Pertanyaan lanjutan
-l1: Vocabulary || Kosakata
+em: the room for depth cards || inilah ruangan untuk Kartu Kedalaman
+l0: Follow-ups || Galian lanjutan
+l1: Vocabulary || Istilah
 l2: Day one || Hari pertama
 l3: Your CV || CV-mu
-d0: Three to four on one story is normal; the third decides. || Tiga sampai empat pada satu cerita itu normal; yang ketiga menentukan.
-d1: Asked in the work’s own words; answer in them. || Ditanya dengan kata-kata pekerjaannya; jawab dengan kata itu juga.
-d2: “What would you do first?” wants a plan, not a mood. || “Apa yang kamu lakukan pertama?” menuntut rencana, bukan suasana hati.
-d3: One line on the CV, opened and tested in detail. || Satu baris di CV, dibuka dan diuji secara rinci.
+d0: Three to four on one story is normal; the third decides. || Tiga sampai empat galian untuk satu cerita itu biasa; galian ketiga yang menentukan.
+d1: Asked in the work’s own words; answer in them. || Ditanyakan dengan istilah pekerjaan itu; jawab dengan istilah yang sama.
+d2: “What would you do first?” wants a plan, not a mood. || “Apa yang pertama kamu lakukan?” meminta rencana, bukan suasana hati.
+d3: One line on the CV, opened and tested in detail. || Satu baris di CV, dibuka dan diuji sampai rinci.
 i: layers,chat,calendar,doc
 
 @6.1#2
-em: beat polished general ones || mengalahkan jawaban umum yang mengilap
-d0: “Walk me through how you would handle a typical Monday.” || “Ceritakan bagaimana kamu menangani Senin yang biasa.”
+em: beat polished general ones || mengalahkan jawaban umum yang terdengar mulus
+d0: “Walk me through how you would handle a typical Monday.” || “Coba ceritakan bagaimana kamu menjalani hari Senin yang biasa.”
 d1: Do a piece of the job, here, now. || Kerjakan sepotong pekerjaannya, di sini, sekarang.
-d2: How you pick up a tool or process you have never used. || Cara kamu menguasai alat atau proses yang belum pernah kamu pakai.
-d3: How you work with the people you will actually sit beside. || Cara kamu bekerja dengan orang yang akan duduk di sebelahmu.
+d2: How you pick up a tool or process you have never used. || Caramu menguasai alat atau proses yang belum pernah kamu pakai.
+d3: How you work with the people you will actually sit beside. || Caramu bekerja dengan orang-orang yang nanti duduk di sebelahmu.
 i: calendar,gear,cap,users
 
 @6.1#3
 em: their hesitations are data || keraguan mereka adalah data
 l0: Ninety days || Sembilan puluh hari
-l1: The challenge || Tantangan
-l2: Feedback || Umpan balik
+l1: The challenge || Tantangannya
+l2: Feedback || Masukan
 d0: “What would a good first ninety days look like?” || “Seperti apa sembilan puluh hari pertama yang baik?”
 d1: “What is the team’s biggest challenge this year?” || “Apa tantangan terbesar tim tahun ini?”
-d2: “How do you give feedback, and how often?” || “Bagaimana Anda memberi umpan balik, dan seberapa sering?”
+d2: “How do you give feedback, and how often?” || “Bagaimana Bapak/Ibu memberi masukan, dan seberapa sering?”
 i: calendar,mountain,chat
 
 @6.2#0
-em: the limits are where understanding shows || batasnya tempat pemahaman terlihat
+em: the limits are where understanding shows || di batas itulah pemahaman terlihat
 l0: Accounting || Akuntansi
-l1: Operations || Operasi
-l2: IT || IT
+l1: Operations || Operasional
+l2: IT || TI
 l3: Marketing || Pemasaran
 d0: Reconciliation, accruals, one ratio you can defend. || Rekonsiliasi, akrual, satu rasio yang bisa kamu pertahankan.
-d1: One process you improved, with the before and after. || Satu proses yang kamu perbaiki, dengan sebelum dan sesudahnya.
-d2: A stack you actually used, and where it broke. || Stack yang benar-benar kamu pakai, dan di mana ia gagal.
+d1: One process you improved, with the before and after. || Satu proses yang kamu perbaiki, dengan kondisi sebelum dan sesudahnya.
+d2: A stack you actually used, and where it broke. || Teknologi yang benar-benar kamu pakai, dan di mana ia gagal.
 d3: One campaign metric, and what moved it. || Satu metrik kampanye, dan apa yang menggerakkannya.
 i: calc,gear,laptop,chart
 
 @6.2#1
-em: the fourth separates understanding from recitation || kalimat keempat memisahkan pemahaman dari hafalan
+em: the fourth separates understanding from recitation || kalimat keempat yang membedakan paham dari hafal
 d0: One plain sentence, no jargon. || Satu kalimat sederhana, tanpa jargon.
 d1: The decision it changes or the risk it prevents. || Keputusan yang diubahnya atau risiko yang dicegahnya.
 d2: Where you applied it, and what happened. || Di mana kamu menerapkannya, dan apa yang terjadi.
-d3: When it fails or misleads; the sentence that proves understanding. || Kapan ia gagal atau menyesatkan; kalimat yang membuktikan pemahaman.
+d3: When it fails or misleads; the sentence that proves understanding. || Kapan konsep itu gagal atau menyesatkan; kalimat yang membuktikan pemahamanmu.
 i: book,target,pin,warn
 
 @6.2#2
 em: fifteen seconds || lima belas detik
 d0: The adjacent fact you are sure of. || Fakta terdekat yang kamu yakini.
-d1: How you would approach it, step by step, out loud. || Bagaimana kamu akan mendekatinya, langkah demi langkah, bersuara.
-d2: The source, the colleague or the test you would use. || Sumber, rekan, atau pengujian yang akan kamu pakai.
-d3: A guess dressed as knowledge ends the technical round. || Tebakan yang berpakaian pengetahuan mengakhiri putaran teknis.
+d1: How you would approach it, step by step, out loud. || Bagaimana kamu akan mendekatinya, langkah demi langkah, dengan suara keras.
+d2: The source, the colleague or the test you would use. || Sumber, rekan kerja, atau pengujian yang akan kamu pakai.
+d3: A guess dressed as knowledge ends the technical round. || Tebakan yang berlagak seperti pengetahuan mengakhiri babak teknis.
 i: check,brain,search,x
 
 @6.2#3
-em: think aloud and state assumptions || berpikir keras dan nyatakan asumsi
-l0: Plain language || Bahasa awam
+em: think aloud and state assumptions || bernalarlah dengan suara keras dan sebutkan asumsimu
+l0: Plain language || Bahasa sederhana
 l1: Method || Metode
 l2: Limitation || Keterbatasan
 l3: Implication || Implikasi
-d0: Your thesis, explained to someone outside the field. || Skripsimu, dijelaskan kepada orang di luar bidang.
-d1: One choice you made, and why that one. || Satu pilihan yang kamu buat, dan mengapa yang itu.
+d0: Your thesis, explained to someone outside the field. || Skripsimu, dijelaskan kepada orang di luar bidangmu.
+d1: One choice you made, and why that one. || Satu pilihan yang kamu buat, dan kenapa yang itu.
 d2: What the study cannot claim. || Apa yang tidak bisa diklaim penelitian itu.
-d3: One thing a practitioner could do with it. || Satu hal yang bisa dilakukan praktisi dengannya.
+d3: One thing a practitioner could do with it. || Satu hal yang bisa dilakukan praktisi dengan temuannya.
 i: chat,gear,warn,rocket
 
 @6.3#0
-em: a stumble caught and corrected || tersandung lalu diperbaiki
+em: a stumble caught and corrected || kesalahan yang ketahuan lalu diperbaiki
 l0: Structure || Struktur
 l1: Numbers || Angka
-l2: Business sense || Akal bisnis
+l2: Business sense || Naluri bisnis
 l3: Communication || Komunikasi
 d0: A tree the interviewer can follow before you fill it. || Pohon yang bisa diikuti pewawancara sebelum kamu mengisinya.
-d1: Round, auditable arithmetic without panic. || Hitungan bulat yang bisa diaudit, tanpa panik.
-d2: Knowing which branch matters and saying why. || Tahu cabang mana yang penting dan mengatakan alasannya.
-d3: Scored continuously, from the first sentence. || Dinilai terus-menerus, sejak kalimat pertama.
+d1: Round, auditable arithmetic without panic. || Hitungan bulat yang bisa diperiksa, tanpa panik.
+d2: Knowing which branch matters and saying why. || Tahu cabang mana yang penting dan menyebutkan alasannya.
+d3: Scored continuously, from the first sentence. || Dinilai sepanjang waktu, sejak kalimat pertama.
 i: layers,calc,bulb,chat
 
 @6.3#1
 em: recommendation before reasons || rekomendasi sebelum alasan
 d0: Repeat the question; ask for the goal and the constraints. || Ulangi pertanyaannya; tanyakan tujuan dan batasannya.
 d1: Say the tree aloud before you touch a branch. || Ucapkan pohonnya sebelum menyentuh satu cabang pun.
-d2: One branch at a time, with the number and the meaning. || Satu cabang pada satu waktu, dengan angka dan maknanya.
+d2: One branch at a time, with the number and the meaning. || Satu cabang setiap kali, dengan angka dan artinya.
 d3: The recommendation first, then the reasons. || Rekomendasi dulu, baru alasannya.
 d4: Does the number make sense in the real world? || Apakah angkanya masuk akal di dunia nyata?
 i: question,layers,search,flag,check
 
 @6.3#2
-em: a 4Ps on a cost problem fails || 4P pada masalah biaya gagal
+em: a 4Ps on a cost problem fails || 4P untuk masalah biaya pasti gagal
 l0: Profitability || Profitabilitas
 l1: Revenue || Pendapatan
 l2: Market entry || Masuk pasar
-l3: Operations || Operasi
+l3: Operations || Operasional
 i: coin,chart,map,gear
 
 @6.3#3
-em: as branches, not afterthoughts || sebagai cabang, bukan tambahan belakangan
-d0: Logistics cost and time change by island. || Biaya dan waktu logistik berubah menurut pulau.
-d1: Small, cash-based, price-sensitive, relationship-led. || Kecil, berbasis tunai, peka harga, berbasis relasi.
-d2: Cash on delivery shapes returns and working capital. || Bayar di tempat membentuk retur dan modal kerja.
-d3: Demand, staffing and logistics all spike together. || Permintaan, staf, dan logistik melonjak bersamaan.
-d4: The same product, priced differently across regions. || Produk yang sama, harga berbeda antarwilayah.
+em: as branches, not afterthoughts || sebagai cabang, bukan tambahan di akhir
+d0: Logistics cost and time change by island. || Biaya dan waktu logistik berbeda di tiap pulau.
+d1: Small, cash-based, price-sensitive, relationship-led. || Kecil, mengandalkan uang tunai, peka harga, mengandalkan hubungan.
+d2: Cash on delivery shapes returns and working capital. || Bayar di tempat memengaruhi barang kembali dan modal kerja.
+d3: Demand, staffing and logistics all spike together. || Permintaan, kebutuhan staf, dan logistik melonjak bersamaan.
+d4: The same product, priced differently across regions. || Produk yang sama, harganya berbeda di tiap wilayah.
 i: map,users,wallet,calendar,tag
 
 @6.4#0
-em: the path must be auditable || jalurnya harus bisa diaudit
+em: the path must be auditable || jalannya harus bisa diperiksa
 i: layers,steps
 
 @6.4#1
-em: of revenue or of profit || dari pendapatan atau laba
+em: of revenue or of profit || dari pendapatan atau dari laba
 i: calc
 
 @6.4#2
-em: never narrate the chart || jangan pernah menarasikan grafiknya
-l0: Read the frame || Baca bingkainya
+em: never narrate the chart || jangan pernah menceritakan isi grafiknya
+l0: Read the frame || Baca kerangkanya
 l1: Find the message || Temukan pesannya
-l2: Connect it || Hubungkan
+l2: Connect it || Kaitkan
 d0: Title, axes, units, footnotes, before any number. || Judul, sumbu, satuan, catatan kaki, sebelum angka apa pun.
-d1: The outlier, the crossover or the trend break. || Pencilan, persilangan, atau patahan tren.
-d2: One sentence that ties it to the question asked. || Satu kalimat yang mengikatnya ke pertanyaan yang diajukan.
+d1: The outlier, the crossover or the trend break. || Angka yang menyimpang, titik silang, atau patahnya tren.
+d2: One sentence that ties it to the question asked. || Satu kalimat yang mengaitkannya dengan pertanyaan yang diajukan.
 i: eye,search,link
 
 @6.4#3
-em: three dated anchors || tiga patokan bertanggal
+em: three dated anchors || tiga angka acuan yang bertanggal
 l0: Units || Satuan
-l1: Precision || Presisi
+l1: Precision || Ketelitian
 l2: Percentages || Persentase
 i: calc,target,chart
 
 @6.5#0
-em: Find the decision first || temukan keputusannya dulu
+em: Find the decision first || Temukan keputusannya dulu
 l0: The decision || Keputusannya
 l1: The question || Pertanyaannya
 i: target,question
 
 @6.5#1
-em: Plan the box || rencanakan kotaknya
+em: Plan the box || Rencanakan batas waktunya
 l0: The implied effort || Usaha yang tersirat
 l1: The plan || Rencananya
 i: clock,calendar
 
 @6.5#2
-em: Page one || halaman satu
+em: Page one || Halaman satu
 l0: One point per slide || Satu poin per slide
 l1: One message per chart || Satu pesan per grafik
 l2: Every number sourced || Setiap angka bersumber
@@ -169,11 +169,11 @@ l1: The questions || Pertanyaannya
 i: mic,question
 
 @6.6#0
-em: the exhibits stay closed until Step 3 || exhibit tetap tertutup sampai Langkah 3
+em: the exhibits stay closed until Step 3 || peraganya tetap tertutup sampai Langkah 3
 i: lock
 
 @6.6#1
 em: Round 6 is the user interview || Putaran 6 adalah wawancara user
 l0: Your protocol card || Kartu protokolmu
-l1: After you submit || Setelah mengumpulkan
+l1: After you submit || Setelah mengirim
 i: clipboard,lock

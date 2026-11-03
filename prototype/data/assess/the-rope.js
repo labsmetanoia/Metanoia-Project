@@ -1156,11 +1156,11 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "5.1",
     "h": {
      "en": "What HR Is Screening For",
-     "id": "Apa yang Disaring oleh HR"
+     "id": "Apa yang Sebenarnya Disaring HR"
     },
     "sub": {
      "en": "The seven checks, the ten questions, eligibility decided in advance, answer length, consistency.",
-     "id": "Tujuh pemeriksaan, sepuluh pertanyaan, kelayakan diputuskan lebih dulu, panjang jawaban, konsistensi."
+     "id": "Tujuh pemeriksaan, sepuluh pertanyaan, kelayakan yang diputuskan lebih dulu, panjang jawaban, konsistensi."
     }
    },
    {
@@ -1171,7 +1171,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Acknowledge → Account → Advance; the seven paths; what not to do; frame, never falsify.",
-     "id": "Akui → Jelaskan → Maju; tujuh jalur; yang tidak boleh; bingkai, jangan pernah memalsukan."
+     "id": "Akui → Jelaskan → Maju; tujuh jalur; yang jangan dilakukan; bingkai faktanya, jangan pernah memalsukannya."
     }
    },
    {
@@ -1182,7 +1182,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Sources and the floor, gross versus take-home, four answer shapes, anchoring, the practical five.",
-     "id": "Sumber dan lantai, kotor versus bersih, empat bentuk jawaban, penjangkaran, lima praktis."
+     "id": "Sumber dan batas bawah, gaji kotor dan gaji bersih, empat bentuk jawaban, efek jangkar, lima pertanyaan praktis."
     }
    },
    {
@@ -1193,7 +1193,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "The hidden concern, three tiers, employer red flags, values in religious terms, meal interviews.",
-     "id": "Kekhawatiran tersembunyi, tiga tingkat, tanda bahaya pemberi kerja, nilai dalam istilah agama, wawancara makan."
+     "id": "Kekhawatiran tersembunyi, tiga tingkat respons, tanda bahaya dari perusahaan, pertanyaan nilai dengan bahasa agama, wawancara sambil makan."
     }
    }
   ],
@@ -1203,16 +1203,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "5.1",
     "q": {
      "en": "In a fifteen-minute phone screen, ten HR answers should total about…",
-     "id": "Dalam seleksi telepon lima belas menit, sepuluh jawaban HR sebaiknya total sekitar…"
+     "id": "Dalam seleksi telepon lima belas menit, total sepuluh jawaban HR sebaiknya sekitar…"
     },
     "opts": [
      {
       "en": "Twelve minutes: use the time",
-      "id": "Dua belas menit: pakai waktunya"
+      "id": "Dua belas menit, manfaatkan waktunya"
      },
      {
       "en": "Eight minutes: sixty for the opening, thirty to forty-five for the middle, fifteen or less for eligibility and practical questions",
-      "id": "Delapan menit: enam puluh untuk pembuka, tiga puluh hingga empat puluh lima untuk tengah, lima belas atau kurang untuk kelayakan dan praktis"
+      "id": "Delapan menit: enam puluh detik untuk pembukaan, tiga puluh sampai empat puluh lima detik untuk pertanyaan di tengah, lima belas detik atau kurang untuk pertanyaan kelayakan dan praktis"
      },
      {
       "en": "Three minutes",
@@ -1220,13 +1220,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "It does not matter",
-      "id": "Tidak penting"
+      "id": "Tidak masalah berapa lama"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Length is scored under communication, and running long cuts the eligibility questions HR most needed.",
-     "id": "Panjang dinilai di bawah komunikasi, dan kepanjangan memotong pertanyaan kelayakan yang paling dibutuhkan HR."
+     "id": "Panjang jawaban dinilai di bawah komunikasi, dan bicara terlalu lama membuat pertanyaan kelayakan yang paling dibutuhkan HR terpangkas."
     }
    },
    {
@@ -1234,30 +1234,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "5.1",
     "q": {
      "en": "“Bersedia ditempatkan di seluruh Indonesia?” and you have not discussed it at home. The honest move is…",
-     "id": "“Bersedia ditempatkan di seluruh Indonesia?” dan kamu belum membicarakannya di rumah. Langkah jujurnya…"
+     "id": "“Bersedia ditempatkan di seluruh Indonesia?”, dan kamu belum membicarakannya di rumah. Langkah yang jujur adalah…"
     },
     "opts": [
      {
       "en": "Say yes and decide later",
-      "id": "Mengiyakan dan memutuskan nanti"
+      "id": "Bilang bersedia dan memutuskannya belakangan"
      },
      {
       "en": "Say “tergantung”",
-      "id": "Berkata “tergantung”"
+      "id": "Bilang “tergantung”"
      },
      {
       "en": "Decide before the interview, at home, and answer with the decision, condition included if any",
-      "id": "Memutuskan sebelum wawancara, di rumah, dan menjawab dengan keputusan itu, syarat disertakan jika ada"
+      "id": "Memutuskannya sebelum wawancara, di rumah, lalu menjawab dengan keputusan itu, lengkap dengan syarat kalau ada"
      },
      {
       "en": "Ask HR to skip the question",
-      "id": "Meminta HR melewati pertanyaan"
+      "id": "Meminta HR melewati pertanyaan itu"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "A yes you withdraw damages you and may cost money under a bond; the decision is made before the call, not in it.",
-     "id": "“Ya” yang kamu tarik merugikanmu dan bisa berbiaya di bawah ikatan dinas; keputusan dibuat sebelum panggilan, bukan di dalamnya."
+     "id": "Bilang bersedia lalu mundur merusak namamu dan bisa memakan biaya kalau ada ikatan dinas; keputusannya dibuat sebelum panggilan, bukan di tengahnya."
     }
    },
    {
@@ -1265,7 +1265,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "5.2",
     "q": {
      "en": "In the three-part difficult-question answer, the longest part is…",
-     "id": "Dalam jawaban pertanyaan sulit tiga bagian, bagian terpanjang adalah…"
+     "id": "Dalam jawaban tiga bagian untuk pertanyaan sulit, bagian yang paling panjang adalah…"
     },
     "opts": [
      {
@@ -1278,17 +1278,17 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Advance: what you did about it and what is true now, at least half",
-      "id": "Maju: apa yang kamu lakukan tentangnya dan apa yang benar sekarang, setidaknya separuh"
+      "id": "Maju: apa yang sudah kamu lakukan dan bagaimana keadaanmu sekarang, setidaknya separuh jawaban"
      },
      {
       "en": "All equal",
-      "id": "Semua sama"
+      "id": "Semuanya sama panjang"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "When Account grows the answer becomes an excuse; when Advance shrinks, a confession.",
-     "id": "Saat Jelaskan membesar jawaban menjadi alasan; saat Maju menyusut, pengakuan dosa."
+     "id": "Kalau Jelaskan membengkak, jawabannya berubah jadi alasan; kalau Maju menyusut, jadi pengakuan dosa."
     }
    },
    {
@@ -1296,30 +1296,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "5.2",
     "q": {
      "en": "Asked directly whether you were let go from an internship, and you were, the integrity line says…",
-     "id": "Ditanya langsung apakah kamu diberhentikan dari magang, dan memang begitu, garis integritas berkata…"
+     "id": "Kamu ditanya langsung apakah magangmu diputus, dan memang begitu. Garis integritasnya berarti…"
     },
     "opts": [
      {
       "en": "Call it a mutual decision",
-      "id": "Sebut keputusan bersama"
+      "id": "Menyebutnya keputusan bersama"
      },
      {
       "en": "Answer truthfully, frame with the owned reason, and move to what is true now",
-      "id": "Jawab jujur, bingkai dengan alasan yang diakui, dan beralih ke apa yang benar sekarang"
+      "id": "Menjawab dengan jujur, membingkainya dengan alasan yang kamu akui, lalu beralih ke keadaanmu sekarang"
      },
      {
       "en": "Say you left for a better opportunity",
-      "id": "Katakan kamu pergi untuk kesempatan lebih baik"
+      "id": "Bilang kamu keluar karena dapat kesempatan yang lebih baik"
      },
      {
       "en": "Change the subject",
-      "id": "Alihkan topik"
+      "id": "Mengalihkan pembicaraan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Frame, never falsify; the reference call finds anything else and the loss is every other answer.",
-     "id": "Bingkai, jangan pernah memalsukan; panggilan referensi menemukan yang lain dan kerugiannya setiap jawaban lain."
+     "id": "Bingkai faktanya, jangan pernah memalsukannya; telepon ke pemberi referensi akan menemukan versi lain, dan taruhannya adalah semua jawabanmu yang lain."
     }
    },
    {
@@ -1327,7 +1327,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "5.3",
     "q": {
      "en": "You state “Rp 6,5–8 juta” and HR asks “kotor atau THP?”. You had not decided. The lesson is…",
-     "id": "Kamu menyatakan “Rp 6,5–8 juta” dan HR bertanya “kotor atau THP?”. Kamu belum memutuskan. Pelajarannya…"
+     "id": "Kamu menyebut “Rp 6,5–8 juta”, lalu HR bertanya “kotor atau THP?”. Kamu belum memutuskannya. Pelajarannya adalah…"
     },
     "opts": [
      {
@@ -1335,22 +1335,22 @@ window.MT_ASSESS['the-rope'] = {
       "id": "Tidak penting"
      },
      {
-      "en": "State the range as gross monthly and say the word, a range given in one and heard in the other surfaces at the offer",
-      "id": "Nyatakan rentang sebagai kotor bulanan dan ucapkan katanya, rentang yang diberikan dalam satu dan didengar dalam yang lain muncul saat tawaran"
+      "en": "State the range as gross monthly and say the word; a range given in one and heard in the other surfaces at the offer",
+      "id": "Sebut rentangnya sebagai gaji kotor per bulan dan ucapkan katanya; rentang yang disebut dalam satu ukuran tapi didengar dalam ukuran lain akan jadi masalah saat tawaran kerja"
      },
      {
       "en": "Always say take-home",
-      "id": "Selalu sebut THP"
+      "id": "Selalu sebut gaji bersih"
      },
      {
       "en": "Refuse to specify",
-      "id": "Menolak menentukan"
+      "id": "Menolak memperjelas"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Sources quote gross; graduates think in take-home; the misunderstanding is expensive later.",
-     "id": "Sumber mengutip kotor; lulusan berpikir dalam THP; kesalahpahamannya mahal nanti."
+     "id": "Sumber-sumber menyebut gaji kotor, sementara lulusan berpikir dalam gaji bersih; salah paham itu mahal belakangan."
     }
    },
    {
@@ -1358,7 +1358,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "5.3",
     "q": {
      "en": "The anchoring effect is a reason to…",
-     "id": "Efek penjangkaran adalah alasan untuk…"
+     "id": "Efek jangkar adalah alasan untuk…"
     },
     "opts": [
      {
@@ -1367,7 +1367,7 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Research, so that the range you name is defensible; an inflated one costs credibility",
-      "id": "Riset, agar rentang yang kamu sebut bisa dipertahankan, yang dilebihkan mengorbankan kredibilitas"
+      "id": "Riset, supaya rentang yang kamu sebut bisa dipertanggungjawabkan; angka yang digelembungkan merusak kepercayaan"
      },
      {
       "en": "Never name a number",
@@ -1375,13 +1375,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Say “terserah”",
-      "id": "Berkata “terserah”"
+      "id": "Bilang “terserah”"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "“Terserah” hands the anchor to HR; a researched range anchors well; the magnitude is contested, the direction is not.",
-     "id": "“Terserah” menyerahkan jangkar ke HR; rentang hasil riset menjangkar baik; besarannya diperdebatkan, arahnya tidak."
+     "id": "“Terserah” menyerahkan jangkarnya kepada HR; rentang hasil riset menjadi jangkar yang baik; besarnya efek masih diperdebatkan, arahnya tidak."
     }
    },
    {
@@ -1389,30 +1389,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "5.4",
     "q": {
      "en": "“Rencana menikah kapan?” asked warmly in a screen. The balanced answer…",
-     "id": "“Rencana menikah kapan?” ditanyakan hangat di seleksi awal. Jawaban seimbang…"
+     "id": "“Rencana menikah kapan?” ditanyakan dengan ramah dalam seleksi HR. Jawaban yang seimbang…"
     },
     "opts": [
      {
       "en": "Explains the relationship and a possible wedding timing",
-      "id": "Menjelaskan hubungan dan kemungkinan waktu pernikahan"
+      "id": "Menjelaskan hubungannya dan kemungkinan waktu menikah"
      },
      {
-      "en": "Answers the hidden concern, commitment and mobility, in under fifteen seconds, at the tier you choose",
-      "id": "Menjawab kekhawatiran tersembunyi, komitmen dan mobilitas, di bawah lima belas detik, pada tingkat yang kamu pilih"
+      "en": "Answers the hidden concern (commitment and mobility) in under fifteen seconds, at the tier you choose",
+      "id": "Menjawab kekhawatiran tersembunyinya (komitmen dan kesediaan pindah) dalam waktu kurang dari lima belas detik, dengan tingkat respons yang kamu pilih"
      },
      {
       "en": "Refuses sharply",
-      "id": "Menolak tajam"
+      "id": "Menolak dengan ketus"
      },
      {
       "en": "Asks why they want to know",
-      "id": "Bertanya mengapa mereka ingin tahu"
+      "id": "Balik bertanya kenapa mereka ingin tahu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Most personal questions are commitment questions; any of the three tiers keeps the room.",
-     "id": "Kebanyakan pertanyaan pribadi adalah pertanyaan komitmen; tingkat mana pun dari tiga menjaga ruangan."
+     "id": "Sebagian besar pertanyaan pribadi adalah pertanyaan soal komitmen; ketiga tingkat respons sama-sama menjaga suasana."
     }
    },
    {
@@ -1420,50 +1420,50 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "5.4",
     "q": {
      "en": "An employer asks for your original diploma and a training fee before you start. This is…",
-     "id": "Pemberi kerja meminta ijazah asli dan biaya pelatihan sebelum kamu mulai. Ini adalah…"
+     "id": "Sebuah perusahaan meminta ijazah aslimu dan biaya pelatihan sebelum kamu mulai bekerja. Ini adalah…"
     },
     "opts": [
      {
       "en": "Normal: comply",
-      "id": "Normal: patuhi"
+      "id": "Hal biasa, jadi turuti saja"
      },
      {
       "en": "An employer red flag about documents and money; ask the basis and whether it is in writing, record it, verify before signing",
-      "id": "Tanda bahaya pemberi kerja soal dokumen dan uang; tanyakan dasarnya dan apakah tertulis, catat, verifikasi sebelum menandatangani"
+      "id": "Tanda bahaya dari perusahaan soal dokumen dan uang; tanyakan dasarnya dan apakah tercantum tertulis, catat, lalu pastikan sebelum menandatangani"
      },
      {
       "en": "A personal question: use Tier 3",
-      "id": "Pertanyaan pribadi: pakai Tingkat 3"
+      "id": "Pertanyaan pribadi, jadi pakai Tingkat 3"
      },
      {
       "en": "A reason to accept quickly",
-      "id": "Alasan untuk menerima cepat"
+      "id": "Alasan untuk segera menerima"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Money, documents and pressure are information about the employer; the diploma’s legal status is a verify point, not an assumption.",
-     "id": "Uang, dokumen, dan tekanan adalah informasi tentang pemberi kerja; status hukum ijazah adalah titik verifikasi, bukan asumsi."
+     "id": "Uang, dokumen, dan desakan adalah informasi tentang perusahaannya; status hukum penahanan ijazah perlu dipastikan, bukan diasumsikan."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. Write the four eligibility sentences you would say for your top target, placement, bond, start date, salary range, and say which one you had not decided before this module and what you did to decide it. Then name your difficult question in one sentence and write your Acknowledge and the first sentence of your Advance.",
-    "id": "Minimal 100 kata. Tulis empat kalimat kelayakan yang akan kamu ucapkan untuk sasaran teratasmu, penempatan, ikatan dinas, tanggal mulai, rentang gaji, dan katakan mana yang belum kamu putuskan sebelum modul ini dan apa yang kamu lakukan untuk memutuskannya. Lalu sebutkan pertanyaan tersulitmu dalam satu kalimat dan tulis Akui-mu dan kalimat pertama Maju-mu."
+    "en": "At least 100 words. Write the four eligibility sentences you would say for your top target (placement, bond, start date, salary range), and say which one you had not decided before this module and what you did to decide it. Then name your difficult question in one sentence and write your Acknowledge and the first sentence of your Advance.",
+    "id": "Minimal 100 kata. Tulis empat kalimat kelayakan yang akan kamu ucapkan untuk perusahaan incaran utamamu (penempatan, ikatan dinas, tanggal mulai, rentang gaji), lalu sebutkan mana yang belum kamu putuskan sebelum modul ini dan apa yang kamu lakukan untuk memutuskannya. Setelah itu, sebutkan pertanyaan tersulitmu dalam satu kalimat, lalu tulis bagian Akui dan kalimat pertama bagian Maju-mu."
    },
    "guide": [
     {
      "en": "The salary sentence must say “kotor” and come from at least two sources.",
-     "id": "Kalimat gaji harus menyebut “kotor” dan berasal dari setidaknya dua sumber."
+     "id": "Kalimat soal gaji harus menyebut “kotor” dan berasal dari setidaknya dua sumber."
     },
     {
      "en": "“What you did to decide” should name a conversation or a document, not a feeling.",
-     "id": "“Apa yang kamu lakukan untuk memutuskan” harus menyebut pembicaraan atau dokumen, bukan perasaan."
+     "id": "“Apa yang kamu lakukan untuk memutuskan” harus menyebut sebuah obrolan atau dokumen, bukan perasaan."
     },
     {
      "en": "Acknowledge is the exact fact; the Advance sentence has a number.",
-     "id": "Akui adalah fakta persis; kalimat Maju punya angka."
+     "id": "Bagian Akui adalah fakta yang tepat; kalimat Maju memuat angka."
     }
    ],
    "min": 100
@@ -1480,7 +1480,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "What the future manager fears, what changes versus HR, the four user question families, questions to ask the user.",
-     "id": "Yang ditakuti calon atasan, apa yang berubah versus HR, empat keluarga pertanyaan user, pertanyaan untuk user."
+     "id": "Ketakutan calon atasan, apa yang berubah dibandingkan HR, empat kelompok pertanyaan user, pertanyaan untuk user."
     }
    },
    {
@@ -1491,7 +1491,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "The technical five, explain like a colleague, the protocol, thesis questions, tests on the spot.",
-     "id": "Teknis lima, jelaskan seperti rekan kerja, protokolnya, pertanyaan skripsi, tes di tempat."
+     "id": "Lima topik pendalaman teknis, menjelaskan seperti kepada rekan kerja, protokolnya, pertanyaan skripsi, tes di tempat."
     }
    },
    {
@@ -1502,7 +1502,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "What a case tests, the five steps, frameworks as scaffolds, communicating, Indonesian contexts.",
-     "id": "Apa yang diuji kasus, lima langkah, kerangka sebagai penopang, berkomunikasi, konteks Indonesia."
+     "id": "Apa yang diuji kasus, lima langkah, kerangka sebagai rangka, berkomunikasi, konteks Indonesia."
     }
    },
    {
@@ -1513,7 +1513,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Sizing top-down and bottom-up, break-even, reading exhibits, mental maths, anchor numbers.",
-     "id": "Estimasi dari atas dan dari bawah, titik impas, membaca peraga, matematika mental, angka jangkar."
+     "id": "Ukuran pasar dari atas dan dari bawah, titik impas, membaca peraga, berhitung di kepala, angka acuan."
     }
    },
    {
@@ -1524,7 +1524,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Reading the brief, time-boxing, answer first, the ten-minute rule, ethics and AI tools, the Q&A.",
-     "id": "Membaca brief, batas waktu, jawaban dulu, aturan sepuluh menit, etika dan alat AI, tanya jawab."
+     "id": "Membaca brief, batas waktu, jawaban lebih dulu, aturan sepuluh menit, etika dan alat AI, tanya jawab."
     }
    }
   ],
@@ -1534,16 +1534,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "6.1",
     "q": {
      "en": "The user interviewer asks the same question a third time, more specifically. This most likely means…",
-     "id": "Pewawancara user menanyakan pertanyaan yang sama untuk ketiga kalinya, lebih spesifik. Ini kemungkinan besar berarti…"
+     "id": "Pewawancara user mengajukan pertanyaan yang sama untuk ketiga kalinya, kali ini lebih spesifik. Kemungkinan besar artinya…"
     },
     "opts": [
      {
       "en": "They did not hear you",
-      "id": "Mereka tidak mendengarmu"
+      "id": "Ia tidak mendengar jawabanmu"
      },
      {
       "en": "Probing to three or four levels is normal in a user round; they want the tool-level detail your first two answers did not give",
-      "id": "Menggali tiga atau empat tingkat normal di ronde user; mereka ingin detail tingkat alat yang tidak diberikan dua jawaban pertamamu"
+      "id": "Galian sampai tiga atau empat tingkat itu biasa di babak user; ia ingin detail sampai ke tingkat alat yang belum muncul di dua jawaban pertamamu"
      },
      {
       "en": "You have failed",
@@ -1551,13 +1551,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "They are testing your patience",
-      "id": "Mereka menguji kesabaranmu"
+      "id": "Ia sedang menguji kesabaranmu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The user fears a hire who cannot do the tasks; the probe is how they check, and the answer is specifics, not repetition.",
-     "id": "User takut merekrut orang yang tidak bisa mengerjakan tugasnya; galian adalah cara mereka memeriksa, dan jawabannya spesifik, bukan pengulangan."
+     "id": "User takut mendapat karyawan yang tidak bisa mengerjakan tugasnya; galian adalah caranya memeriksa, dan jawabannya adalah detail, bukan pengulangan."
     }
    },
    {
@@ -1565,30 +1565,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "6.2",
     "q": {
      "en": "The “I don’t know” protocol, in order, is…",
-     "id": "Protokol “saya tidak tahu”, berurutan, adalah…"
+     "id": "Urutan protokol “saya tidak tahu” adalah…"
     },
     "opts": [
      {
       "en": "Apologise → guess → move on",
-      "id": "Minta maaf → tebak → lanjut"
+      "id": "Minta maaf → menebak → lanjut"
      },
      {
       "en": "Say what you know → reason aloud → state what you would check and how → never bluff",
-      "id": "Katakan yang kamu tahu → bernalar dengan suara → nyatakan apa yang akan kamu periksa dan caranya → jangan pernah menggertak"
+      "id": "Sebutkan yang kamu tahu → bernalar dengan suara keras → sebutkan apa yang akan kamu cek dan caranya → jangan pernah menggertak"
      },
      {
       "en": "Change the subject to a strength",
-      "id": "Alihkan ke kekuatan"
+      "id": "Alihkan pembicaraan ke kelebihanmu"
      },
      {
       "en": "Ask the interviewer for the answer",
-      "id": "Minta jawaban dari pewawancara"
+      "id": "Minta pewawancara memberi tahu jawabannya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Interviewers probe for bluffing; a visible reasoning path with a named check scores where a bluff ends the round.",
-     "id": "Pewawancara menggali gertakan; jalur penalaran yang terlihat dengan pemeriksaan bernama mendapat nilai di mana gertakan mengakhiri ronde."
+     "id": "Pewawancara menggali untuk mencari gertakan; jalan pikiran yang terlihat dengan pengecekan yang disebutkan tetap bernilai, sedangkan gertakan mengakhiri babaknya."
     }
    },
    {
@@ -1596,12 +1596,12 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "6.3",
     "q": {
      "en": "In the five-step case protocol, the recommendation comes…",
-     "id": "Dalam protokol kasus lima langkah, rekomendasi datang…"
+     "id": "Dalam protokol kasus lima langkah, rekomendasinya datang…"
     },
     "opts": [
      {
       "en": "Only if the interviewer asks",
-      "id": "Hanya jika pewawancara bertanya"
+      "id": "Hanya kalau pewawancara bertanya"
      },
      {
       "en": "Before the analysis, as a guess",
@@ -1609,17 +1609,17 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "At step four, stated first, then the reasons, followed by the sanity check of risks and what to verify",
-      "id": "Di langkah empat, dinyatakan dulu, lalu alasannya, diikuti uji kewajaran risiko dan apa yang diverifikasi"
+      "id": "Di langkah keempat, disebut lebih dulu, lalu alasannya, disusul uji kewajaran berupa risiko dan hal yang perlu dipastikan"
      },
      {
       "en": "Never; cases have no right answer",
-      "id": "Tidak pernah; kasus tidak punya jawaban benar"
+      "id": "Tidak pernah, karena kasus tidak punya jawaban yang benar"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "Clarify → Structure → Analyse → Answer → Sanity-check; the answer is a recommendation first, reasons after.",
-     "id": "Klarifikasi → Struktur → Analisis → Jawab → Uji kewajaran; jawabannya rekomendasi dulu, alasan setelahnya."
+     "id": "Klarifikasi → Struktur → Analisis → Jawab → Uji kewajaran; jawabannya berupa rekomendasi lebih dulu, alasannya sesudahnya."
     }
    },
    {
@@ -1627,7 +1627,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "6.3",
     "q": {
      "en": "“Penjualan produk kami turun 20% di Sulawesi. Kenapa?” Your first thirty seconds should be…",
-     "id": "“Penjualan produk kami turun 20% di Sulawesi. Kenapa?” Tiga puluh detik pertamamu sebaiknya…"
+     "id": "“Penjualan produk kami turun 20% di Sulawesi. Kenapa?” Tiga puluh detik pertamamu sebaiknya berisi…"
     },
     "opts": [
      {
@@ -1635,22 +1635,22 @@ window.MT_ASSESS['the-rope'] = {
       "id": "“Mungkin karena pesaing, Pak.”"
      },
      {
-      "en": "A restatement and two or three clarifying questions, objective, scope, timing, before any structure",
-      "id": "Pernyataan ulang dan dua atau tiga pertanyaan klarifikasi, tujuan, cakupan, waktu, sebelum struktur apa pun"
+      "en": "A restatement and two or three clarifying questions (objective, scope, timing) before any structure",
+      "id": "Pengulangan masalahnya dan dua atau tiga pertanyaan klarifikasi (tujuan, cakupan, waktunya) sebelum menyusun struktur apa pun"
      },
      {
       "en": "A named framework recited in full",
-      "id": "Kerangka bernama dibacakan penuh"
+      "id": "Kerangka bernama yang dibacakan lengkap"
      },
      {
       "en": "A request for all the data",
-      "id": "Permintaan semua data"
+      "id": "Permintaan semua datanya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Jumping to an answer is the mistake the compare in Lesson 6.3 shows; clarify first, then structure aloud.",
-     "id": "Melompat ke jawaban adalah kesalahan yang ditunjukkan perbandingan di Pelajaran 6.3; klarifikasi dulu, lalu struktur dengan suara."
+     "id": "Langsung melompat ke jawaban adalah kesalahan yang ditunjukkan perbandingan di Pelajaran 6.3; klarifikasi dulu, lalu ucapkan strukturnya."
     }
    },
    {
@@ -1675,13 +1675,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "It cannot be computed without revenue",
-      "id": "Tidak bisa dihitung tanpa pendapatan"
+      "id": "Tidak bisa dihitung tanpa data pendapatan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Fixed cost ÷ margin per unit: Rp 30 juta ÷ Rp 12.000 = 2.500. Dividing by price (1.500) is the common error.",
-     "id": "Biaya tetap ÷ margin per unit: Rp 30 juta ÷ Rp 12.000 = 2.500. Membagi dengan harga (1.500) adalah kesalahan umum."
+     "id": "Biaya tetap ÷ margin per unit: Rp 30 juta ÷ Rp 12.000 = 2.500. Membagi dengan harga (1.500) adalah kesalahan yang umum."
     }
    },
    {
@@ -1689,16 +1689,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "6.4",
     "q": {
      "en": "A retail point sells one pallet every ten days and holds seven days of safety stock. Lead time rises from 6 to 13 days and dispatch moves from weekly to fortnightly. The days of exposure a point can face between ordering and delivery is now up to…",
-     "id": "Titik ritel menjual satu palet setiap sepuluh hari dan memegang stok pengaman tujuh hari. Lead time naik dari 6 ke 13 hari dan pengiriman berubah dari mingguan ke dua mingguan. Hari paparan yang bisa dihadapi titik antara memesan dan pengiriman kini hingga…"
+     "id": "Sebuah titik ritel menjual satu palet setiap sepuluh hari dan memegang stok pengaman tujuh hari. Lead time naik dari 6 menjadi 13 hari, dan pengiriman berubah dari mingguan menjadi dua mingguan. Masa terpapar yang bisa dialami titik ritel itu, dari memesan sampai barang tiba, sekarang bisa mencapai…"
     },
     "opts": [
      {
       "en": "13 days: the lead time",
-      "id": "13 hari: lead time-nya"
+      "id": "13 hari, sesuai lead time-nya"
      },
      {
       "en": "About 27 days: 13 days of lead time plus up to 14 days waiting for the next dispatch, against 7 days of cover",
-      "id": "Sekitar 27 hari: 13 hari lead time plus hingga 14 hari menunggu pengiriman berikutnya, terhadap 7 hari cakupan"
+      "id": "Sekitar 27 hari: 13 hari lead time ditambah sampai 14 hari menunggu pengiriman berikutnya, dibandingkan cakupan 7 hari"
      },
      {
       "en": "7 days",
@@ -1712,7 +1712,7 @@ window.MT_ASSESS['the-rope'] = {
     "correct": 1,
     "expl": {
      "en": "Lead time plus the order cycle; with seven days of cover, an empty shelf is arithmetic, not chance; safety stock must be re-set when lead time changes.",
-     "id": "Lead time plus siklus pesanan; dengan cakupan tujuh hari, rak kosong adalah aritmetika, bukan kebetulan; stok pengaman harus diatur ulang saat lead time berubah."
+     "id": "Lead time ditambah siklus pesanannya; dengan cakupan tujuh hari, rak kosong itu soal aritmetika, bukan kebetulan; stok pengaman harus diatur ulang saat lead time berubah."
     }
    },
    {
@@ -1720,30 +1720,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "6.5",
     "q": {
      "en": "A take-home brief says “about four hours; five slides”. The deliverable that scores best…",
-     "id": "Brief take-home berkata “sekitar empat jam; lima slide”. Hasil kerja yang dinilai paling baik…"
+     "id": "Brief take-home menyebut “sekitar empat jam; lima slide”. Hasil kerja yang paling bernilai adalah…"
     },
     "opts": [
      {
       "en": "Fourteen slides after a weekend of work, recommendation at the end",
-      "id": "Empat belas slide setelah akhir pekan kerja, rekomendasi di akhir"
+      "id": "Empat belas slide hasil kerja seakhir pekan, dengan rekomendasi di akhir"
      },
      {
       "en": "Five slides with the recommendation on page one, three reasons with numbers, an assumptions page with the hours and tools, and “with more time”",
-      "id": "Lima slide dengan rekomendasi di halaman satu, tiga alasan dengan angka, halaman asumsi dengan jam dan alat, dan “dengan waktu lebih”"
+      "id": "Lima slide dengan rekomendasi di halaman satu, tiga alasan dengan angka, halaman asumsi berisi jumlah jam dan alat yang dipakai, dan “dengan waktu lebih”"
      },
      {
       "en": "A one-line email answer",
-      "id": "Jawaban email satu baris"
+      "id": "Jawaban satu baris lewat email"
      },
      {
       "en": "A deck built by a friend who works in the field",
-      "id": "Dek yang dibuat teman yang bekerja di bidang itu"
+      "id": "Dek yang dibuatkan teman yang bekerja di bidang itu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Format and length are instructions; page one carries the answer; the time-box and the tools go on the assumptions page.",
-     "id": "Format dan panjang adalah instruksi; halaman satu memuat jawaban; batas waktu dan alat ditulis di halaman asumsi."
+     "id": "Format dan panjang adalah perintah; halaman satu memuat jawabannya; batas waktu dan alatnya ditulis di halaman asumsi."
     }
    },
    {
@@ -1751,16 +1751,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "6.5",
     "q": {
      "en": "In the Q&A the interviewer shows that your denominator was wrong. You…",
-     "id": "Di tanya jawab pewawancara menunjukkan penyebutmu salah. Kamu…"
+     "id": "Di sesi tanya jawab, pewawancara menunjukkan bahwa penyebutmu salah. Kamu…"
     },
     "opts": [
      {
       "en": "Defend the number",
-      "id": "Mempertahankan angkanya"
+      "id": "Membela angkanya"
      },
      {
       "en": "Agree in one sentence, give the corrected direction if you can, and carry on; how you take correction is what is scored",
-      "id": "Setuju dalam satu kalimat, beri arah koreksinya jika bisa, dan lanjutkan; cara menerima koreksi itulah yang dinilai"
+      "id": "Mengakuinya dalam satu kalimat, menyebut arah koreksinya kalau bisa, lalu melanjutkan; caramu menerima koreksi itulah yang dinilai"
      },
      {
       "en": "Blame the data",
@@ -1768,33 +1768,33 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Withdraw the whole recommendation",
-      "id": "Menarik seluruh rekomendasi"
+      "id": "Menarik seluruh rekomendasimu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The “corrected” test from Lesson 6.1 is run here; collapsing and arguing both fail it.",
-     "id": "Ujian “dikoreksi” dari Pelajaran 6.1 dijalankan di sini; runtuh dan berdebat sama-sama gagal."
+     "id": "Ujian “dikoreksi” dari Pelajaran 6.1 dijalankan di sini; runtuh dan membantah sama-sama gagal."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. Name your technical five, the five topics from your field and the job description you can define, apply and state the limits of, and mark the one you are least ready to be probed on. Then write the first sentence you would say to a case prompt in your target’s industry (the restatement) and the three branches of your structure. Finish with the one number on your anchor card you have actually verified, and its date.",
-    "id": "Minimal 100 kata. Sebutkan teknis lima-mu, lima topik dari bidangmu dan deskripsi pekerjaan yang bisa kamu definisikan, terapkan, dan nyatakan batasnya, dan tandai yang paling belum siap kamu gali. Lalu tulis kalimat pertama yang akan kamu ucapkan untuk soal kasus di industri sasaranmu (pernyataan ulang) dan tiga cabang strukturmu. Akhiri dengan satu angka di kartu jangkarmu yang benar-benar sudah kamu verifikasi, dan tanggalnya."
+    "en": "At least 100 words. Name your technical five (the five topics from your field and the job description you can define, apply and state the limits of) and mark the one you are least ready to be probed on. Then write the first sentence you would say to a case prompt in your target’s industry (the restatement) and the three branches of your structure. Finish with the one number on your anchor card you have actually verified, and its date.",
+    "id": "Minimal 100 kata. Sebutkan lima topik pendalaman teknismu (lima topik dari bidangmu dan deskripsi pekerjaannya yang bisa kamu definisikan, terapkan, dan sebutkan batasnya), lalu tandai satu yang paling belum siap kamu hadapi saat digali. Setelah itu, tulis kalimat pertama yang akan kamu ucapkan saat menerima pertanyaan kasus di industri perusahaan incaranmu (pengulangan masalahnya) dan tiga cabang strukturmu. Tutup dengan satu angka di kartu angka acuanmu yang benar-benar sudah kamu pastikan, beserta tanggalnya."
    },
    "guide": [
     {
      "en": "Each of the five should have a real example you have used, not a textbook one.",
-     "id": "Masing-masing dari lima harus punya contoh nyata yang pernah kamu pakai, bukan dari buku teks."
+     "id": "Setiap topik dari kelima topik itu harus punya contoh nyata yang pernah kamu pakai, bukan contoh dari buku teks."
     },
     {
      "en": "The restatement names a metric, a scope and a period; the branches are built for that question.",
-     "id": "Pernyataan ulang menyebut metrik, cakupan, dan periode; cabangnya dibangun untuk pertanyaan itu."
+     "id": "Pengulangan masalahnya menyebut metrik, cakupan, dan periode; cabang-cabangnya disusun untuk pertanyaan itu."
     },
     {
      "en": "An anchor without a source and a date is not verified.",
-     "id": "Jangkar tanpa sumber dan tanggal belum terverifikasi."
+     "id": "Angka acuan tanpa sumber dan tanggal belum bisa disebut sudah dipastikan."
     }
    ],
    "min": 100
