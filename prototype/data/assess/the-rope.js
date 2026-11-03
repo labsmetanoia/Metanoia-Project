@@ -1807,11 +1807,11 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "7.1",
     "h": {
      "en": "How Group Discussions Are Scored",
-     "id": "Bagaimana Diskusi Kelompok Dinilai"
+     "id": "Cara Diskusi Kelompok Dinilai"
     },
     "sub": {
      "en": "Formats, what assessors observe, the scorecard with anchors, the three myths, quality events not minutes.",
-     "id": "Format, yang diamati asesor, kartu skor dengan jangkar, tiga mitos, peristiwa berkualitas bukan menit."
+     "id": "Format, apa yang diamati penilai, lembar penilaian dengan jangkar perilaku, tiga mitos, kontribusi bermutu, bukan lamanya bicara."
     }
    },
    {
@@ -1822,7 +1822,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Six roles, the phrase bank, split-sheet notes, three interventions for quieter candidates, online and Indonesian dynamics.",
-     "id": "Enam peran, bank frasa, catatan lembar terbagi, tiga intervensi untuk kandidat pendiam, dinamika daring dan Indonesia."
+     "id": "Enam peran, bank frasa, catatan tiga kolom, tiga kontribusi terencana untuk kandidat pendiam, dinamika daring dan budaya setempat."
     }
    },
    {
@@ -1833,7 +1833,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "The in-tray method, the role-play protocol, prep in thirds, the assessment-centre day and the wash-up.",
-     "id": "Metode in-tray, protokol role-play, persiapan sepertiga, hari assessment center dan wash-up."
+     "id": "Metode in-tray, protokol role-play, persiapan dibagi tiga, hari assessment center, dan rapat penilai."
     }
    }
   ],
@@ -1843,30 +1843,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "7.1",
     "q": {
      "en": "Assessors in a group discussion tally…",
-     "id": "Asesor dalam diskusi kelompok menghitung…"
+     "id": "Dalam diskusi kelompok, penilai menghitung…"
     },
     "opts": [
      {
       "en": "Minutes of airtime",
-      "id": "Menit waktu bicara"
+      "id": "Berapa menit kamu bicara"
      },
      {
-      "en": "Quality events against behavioural anchors, structure, builds by name, invitations, syntheses, and anti-behaviours",
-      "id": "Peristiwa berkualitas terhadap jangkar perilaku, struktur, membangun dengan nama, undangan, sintesis, dan anti-perilaku"
+      "en": "Quality events against behavioural anchors (structure, builds by name, invitations, syntheses) and anti-behaviours",
+      "id": "Kontribusi bermutu berdasarkan jangkar perilaku (menyusun alur, menyambung poin dengan menyebut nama, mengajak, merangkum) dan perilaku negatif"
      },
      {
       "en": "Who reached the right answer",
-      "id": "Siapa yang mencapai jawaban benar"
+      "id": "Siapa yang sampai ke jawaban yang benar"
      },
      {
       "en": "Who was chosen as leader",
-      "id": "Siapa yang dipilih sebagai pemimpin"
+      "id": "Siapa yang dipilih menjadi pemimpin"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The topic is a prop; eight strong seconds outscore eight minutes of filler.",
-     "id": "Topiknya properti; delapan detik kuat mengalahkan delapan menit pengisi."
+     "id": "Topiknya hanya alat peraga; delapan detik yang bermutu mengalahkan delapan menit yang sekadar mengisi."
     }
    },
    {
@@ -1874,30 +1874,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "7.1",
     "q": {
      "en": "A candidate stays silent for the whole discussion while thinking hard. On the scorecard they…",
-     "id": "Seorang kandidat diam sepanjang diskusi sambil berpikir keras. Di kartu skor mereka…"
+     "id": "Seorang kandidat diam sepanjang diskusi sambil berpikir keras. Di lembar penilaian, ia…"
     },
     "opts": [
      {
       "en": "Score neutrally: no mistakes",
-      "id": "Skor netral: tanpa kesalahan"
+      "id": "Mendapat nilai netral karena tidak berbuat salah"
      },
      {
       "en": "Score 1 on every dimension; no evidence is a low score, not a safe one",
-      "id": "Skor 1 di setiap dimensi; tanpa bukti adalah skor rendah, bukan aman"
+      "id": "Mendapat nilai 1 di setiap dimensi, karena tanpa bukti berarti nilai rendah, bukan aman"
      },
      {
       "en": "Score high on Composure",
-      "id": "Skor tinggi di Ketenangan"
+      "id": "Mendapat nilai tinggi untuk Ketenangan"
      },
      {
       "en": "Are scored at the wash-up from the interview",
-      "id": "Dinilai di wash-up dari wawancara"
+      "id": "Dinilai di rapat penilai berdasarkan wawancaranya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Silence is the least safe position in the room; plan the first contribution for minute two.",
-     "id": "Diam adalah posisi paling tidak aman di ruangan; rencanakan kontribusi pertama untuk menit dua."
+     "id": "Diam adalah posisi yang paling tidak aman di ruangan; rencanakan kontribusi pertamamu di menit kedua."
     }
    },
    {
@@ -1905,7 +1905,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "7.2",
     "q": {
      "en": "Someone proposes cutting the marketing budget entirely. The turn that scores four tallies is…",
-     "id": "Seseorang mengusulkan memangkas anggaran pemasaran seluruhnya. Giliran yang mendapat empat hitungan adalah…"
+     "id": "Seseorang mengusulkan anggaran pemasaran dipangkas habis. Giliran bicara yang mendapat empat catatan adalah…"
     },
     "opts": [
      {
@@ -1914,29 +1914,29 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Credit the idea, bring a number from the brief, offer a testable middle as a question, and hand the floor onward by name",
-      "id": "Hargai gagasannya, bawa angka dari brief, tawarkan jalan tengah yang bisa diuji sebagai pertanyaan, dan serahkan lantai dengan nama"
+      "id": "Menghargai gagasannya, membawa angka dari arahan kasus, menawarkan jalan tengah yang bisa diuji dalam bentuk pertanyaan, lalu memberi giliran ke orang berikutnya dengan menyebut namanya"
      },
      {
       "en": "Stay silent to avoid conflict",
-      "id": "Diam untuk menghindari konflik"
+      "id": "Diam supaya tidak terjadi konflik"
      },
      {
       "en": "Call a vote",
-      "id": "Ajak voting"
+      "id": "Mengajak voting"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Contribution, Composure, Influence and Collaboration in one turn, with zero heat.",
-     "id": "Kontribusi, Ketenangan, Pengaruh, dan Kolaborasi dalam satu giliran, tanpa panas."
+     "id": "Mutu kontribusi, Ketenangan, Pengaruh, dan Kolaborasi dalam satu giliran, tanpa memanaskan suasana."
     }
    },
    {
     "type": "know",
     "lesson": "7.2",
     "q": {
-     "en": "The split sheet’s third column, open decisions, exists so that…",
-     "id": "Kolom ketiga lembar terbagi, keputusan terbuka, ada agar…"
+     "en": "The split sheet’s third column (open decisions) exists so that…",
+     "id": "Kolom ketiga di catatan tiga kolom (keputusan yang masih terbuka) ada supaya…"
     },
     "opts": [
      {
@@ -1945,21 +1945,21 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "The summary at minus five minutes can be read from it: agreed, open, condition",
-      "id": "Rangkuman di lima menit terakhir bisa dibaca darinya: disepakati, terbuka, syarat"
+      "id": "Rangkuman di lima menit terakhir bisa langsung dibaca dari situ: yang disepakati, yang masih terbuka, syaratnya"
      },
      {
       "en": "You can vote",
-      "id": "Kamu bisa memilih"
+      "id": "Kamu bisa mengadakan voting"
      },
      {
       "en": "Assessors can check your notes",
-      "id": "Asesor bisa memeriksa catatanmu"
+      "id": "Penilai bisa memeriksa catatanmu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The summary is the highest-scoring twenty seconds in the format and is impossible from memory.",
-     "id": "Rangkuman adalah dua puluh detik paling bernilai dalam format ini dan mustahil dari ingatan."
+     "id": "Rangkuman adalah dua puluh detik dengan nilai tertinggi dalam format ini, dan mustahil disusun hanya dari ingatan."
     }
    },
    {
@@ -1967,16 +1967,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "7.3",
     "q": {
      "en": "Twelve in-tray items, thirty minutes, and item one is an urgent request from your boss. You…",
-     "id": "Dua belas butir in-tray, tiga puluh menit, dan butir satu adalah permintaan mendesak dari atasanmu. Kamu…"
+     "id": "Dua belas butir in-tray, tiga puluh menit, dan butir pertama adalah permintaan mendesak dari atasanmu. Kamu…"
     },
     "opts": [
      {
       "en": "Answer it in full first",
-      "id": "Menjawabnya secara penuh lebih dulu"
+      "id": "Menjawabnya sampai tuntas lebih dulu"
      },
      {
       "en": "Skim all twelve first with a one-line note each, then classify and find the linked items; the boss’s request may contradict a policy memo further down",
-      "id": "Memindai kedua belasnya dulu dengan catatan satu baris masing-masing, lalu klasifikasi dan temukan butir terkait, permintaan atasan mungkin bertentangan dengan memo kebijakan di bawah"
+      "id": "Membaca sekilas kedua belas butir dulu dengan catatan satu baris untuk masing-masing, lalu mengelompokkan dan mencari butir yang saling terkait; permintaan atasan mungkin bertentangan dengan memo kebijakan di bawahnya"
      },
      {
       "en": "Delegate everything",
@@ -1984,13 +1984,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Sort by sender",
-      "id": "Mengurutkan per pengirim"
+      "id": "Mengurutkannya berdasarkan pengirim"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The items are designed to interact; the planted links carry most of the score.",
-     "id": "Butir-butirnya dirancang saling berinteraksi; kaitan yang ditanam membawa sebagian besar skor."
+     "id": "Butir-butirnya sengaja dirancang saling berkaitan; kaitan yang disisipkan itulah yang membawa sebagian besar nilai."
     }
    },
    {
@@ -1998,50 +1998,50 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "7.3",
     "q": {
      "en": "In a role-play the actor playing an upset customer raises their voice. The scored response is…",
-     "id": "Dalam role-play aktor yang memerankan pelanggan kesal meninggikan suara. Respons yang dinilai adalah…"
+     "id": "Dalam role-play, aktor yang memerankan pelanggan kesal mulai meninggikan suara. Respons yang dinilai baik adalah…"
     },
     "opts": [
      {
       "en": "Explaining the system update that caused it",
-      "id": "Menjelaskan pembaruan sistem yang menyebabkannya"
+      "id": "Menjelaskan pembaruan sistem yang menjadi penyebabnya"
      },
      {
       "en": "A level voice, listening to the end, a question about what matters most to them, and an agreement with a time and a named contact",
-      "id": "Suara datar, mendengar sampai selesai, pertanyaan tentang apa yang paling penting bagi mereka, dan kesepakatan dengan waktu dan kontak bernama"
+      "id": "Suara yang tetap tenang, mendengarkan sampai selesai, bertanya apa yang paling penting baginya, lalu kesepakatan dengan waktu yang jelas dan nama orang yang bisa dihubungi"
      },
      {
       "en": "Stepping out of role to discuss the exercise",
-      "id": "Keluar dari peran untuk membahas latihan"
+      "id": "Keluar dari peran untuk membahas latihannya"
      },
      {
       "en": "Promising a full refund immediately",
-      "id": "Menjanjikan pengembalian dana penuh segera"
+      "id": "Langsung menjanjikan pengembalian dana penuh"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The escalation is scripted to test composure and listening; the workable agreement is the outcome.",
-     "id": "Eskalasi bernaskah untuk menguji ketenangan dan mendengarkan; kesepakatan yang bisa dijalankan adalah hasilnya."
+     "id": "Kemarahan itu sudah ada di naskah untuk menguji ketenangan dan caramu mendengarkan; hasil yang dicari adalah kesepakatan yang bisa dijalankan."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. Name the one or two roles you will own in a group discussion and why they fit how you think, and write your first intervention word for word in Indonesian. Then name the anti-behaviour you are most likely to produce under pressure, interrupting, repeating, hedging, going silent, going off on a tangent, and the phrase from the bank that replaces it. Finish with the two questions you will ask the recruiter about the assessment-centre day.",
-    "id": "Minimal 100 kata. Sebutkan satu atau dua peran yang akan kamu miliki dalam diskusi kelompok dan mengapa cocok dengan cara berpikirmu, dan tulis intervensi pertamamu kata demi kata dalam bahasa Indonesia. Lalu sebutkan anti-perilaku yang paling mungkin kamu hasilkan di bawah tekanan, menyela, mengulang, kata pengaman, diam, melantur, dan frasa dari bank yang menggantikannya. Akhiri dengan dua pertanyaan yang akan kamu ajukan ke rekruter tentang hari assessment center."
+    "en": "At least 100 words. Name the one or two roles you will own in a group discussion and why they fit how you think, and write your first intervention word for word in Indonesian. Then name the anti-behaviour you are most likely to produce under pressure (interrupting, repeating, hedging, going silent, going off on a tangent) and the phrase from the bank that replaces it. Finish with the two questions you will ask the recruiter about the assessment-centre day.",
+    "id": "Minimal 100 kata. Sebutkan satu atau dua peran yang akan kamu pegang dalam diskusi kelompok dan kenapa peran itu cocok dengan caramu berpikir, lalu tulis kontribusi pertamamu kata per kata dalam bahasa Indonesia. Setelah itu, sebutkan perilaku negatif yang paling mungkin muncul darimu saat tertekan (menyela, mengulang, terlalu banyak basa-basi pengaman, diam, atau melantur), beserta frasa dari bank frasa yang menggantikannya. Tutup dengan dua pertanyaan yang akan kamu ajukan kepada rekruter tentang hari assessment center."
    },
    "guide": [
     {
-     "en": "At least one of the two roles should be a landing role, Timekeeper or Summariser.",
-     "id": "Setidaknya satu dari dua peran harus peran mendaratkan, Penjaga waktu atau Perangkum."
+     "en": "At least one of the two roles should be a landing role: Timekeeper or Summariser.",
+     "id": "Setidaknya satu dari dua peran itu adalah peran yang membawa diskusi ke keputusan: Penjaga waktu atau Perangkum."
     },
     {
      "en": "The first intervention is offered as a question and names a criterion or a time split.",
-     "id": "Intervensi pertama ditawarkan sebagai pertanyaan dan menyebut kriteria atau pembagian waktu."
+     "id": "Kontribusi pertama disampaikan dalam bentuk pertanyaan dan menyebut kriteria atau pembagian waktu."
     },
     {
      "en": "The replacement phrase names a person or a number.",
-     "id": "Frasa pengganti menyebut orang atau angka."
+     "id": "Frasa penggantinya menyebut nama orang atau angka."
     }
    ],
    "min": 100
@@ -2058,29 +2058,29 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Panel roles, eye contact and names, the senior time horizon and brevity, conflicting signals, values panels.",
-     "id": "Peran panel, kontak mata dan nama, horizon waktu senior dan keringkasan, sinyal bertentangan, panel nilai."
+     "id": "Peran di panel, kontak mata dan nama, cara senior berpikir dalam hitungan tahun dan jawaban yang ringkas, sinyal panel yang bertentangan, panel nilai."
     }
    },
    {
     "lesson": "8.2",
     "h": {
      "en": "Values, Potential and “Big Picture” Questions",
-     "id": "Pertanyaan Nilai, Potensi, dan “Gambaran Besar”"
+     "id": "Nilai, Potensi, dan Pertanyaan “Gambaran Besar”"
     },
     "sub": {
      "en": "One story per value, the capability arc, the framing pattern, industry and leadership questions, the curious counter.",
-     "id": "Satu cerita per nilai, lengkung kemampuan, pola pembingkaian, pertanyaan industri dan kepemimpinan, tanya balik penasaran."
+     "id": "Satu cerita untuk tiap nilai, alur kemampuan, pola pembingkaian, pertanyaan industri dan kepemimpinan, jurus tanya balik."
     }
    },
    {
     "lesson": "8.3",
     "h": {
      "en": "Questions to Ask: The Stage Ladder",
-     "id": "Pertanyaan untuk Diajukan: Tangga Tahap"
+     "id": "Pertanyaan untuk Diajukan: Tangga Tahapan"
     },
     "sub": {
      "en": "Why questions are scored, the ladder by stage, the objection question, don’t ask, three to five prepared and two asked.",
-     "id": "Mengapa pertanyaan dinilai, tangga per tahap, pertanyaan keberatan, jangan tanyakan, tiga hingga lima disiapkan dan dua diajukan."
+     "id": "Mengapa pertanyaan ikut dinilai, tangga per tahap, pertanyaan keberatan, yang jangan ditanyakan, siapkan tiga sampai lima dan ajukan dua."
     }
    },
    {
@@ -2091,7 +2091,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "The respectful close, the one-hour debrief, the thank-you within a day, follow-up timing, handling rejection.",
-     "id": "Penutup yang hormat, debrief satu jam, terima kasih dalam sehari, waktu tindak lanjut, menangani penolakan."
+     "id": "Penutup yang sopan, evaluasi satu jam, pesan terima kasih dalam sehari, waktu tindak lanjut, menyikapi penolakan."
     }
    }
   ],
@@ -2101,30 +2101,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "8.1",
     "q": {
      "en": "A senior interviewer with thirty minutes rewards answers that are…",
-     "id": "Pewawancara senior dengan tiga puluh menit menghargai jawaban yang…"
+     "id": "Pewawancara senior yang hanya punya tiga puluh menit akan menghargai jawaban yang…"
     },
     "opts": [
      {
       "en": "Two to three minutes with full context",
-      "id": "Dua hingga tiga menit dengan konteks penuh"
+      "id": "Dua sampai tiga menit dengan konteks lengkap"
      },
      {
-      "en": "Forty to sixty seconds, headline first, with a value or a direction, depth offered, not forced",
-      "id": "Empat puluh hingga enam puluh detik, headline dulu, dengan nilai atau arah, kedalaman ditawarkan, bukan dipaksakan"
+      "en": "Forty to sixty seconds: headline first, a value or a direction, depth offered, not forced",
+      "id": "Empat puluh sampai enam puluh detik: inti lebih dulu, membawa nilai atau arah, dan kedalaman ditawarkan, bukan dipaksakan"
      },
      {
       "en": "As short as one sentence",
-      "id": "Sesingkat satu kalimat"
+      "id": "Sependek satu kalimat"
      },
      {
       "en": "Delivered only to the chair",
-      "id": "Disampaikan hanya ke ketua"
+      "id": "Disampaikan hanya kepada ketua panel"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Seniors think in years and buy consequences first; saying less earns the invitation to say more.",
-     "id": "Senior berpikir dalam tahun dan membeli konsekuensi dulu; berkata lebih sedikit mengundang untuk berkata lebih banyak."
+     "id": "Pewawancara senior berpikir dalam hitungan tahun dan ingin tahu akibatnya lebih dulu; bicara lebih sedikit justru membuatmu diundang bicara lebih banyak."
     }
    },
    {
@@ -2132,20 +2132,20 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "8.1",
     "q": {
      "en": "The chair asks; the technical lead, the HR partner and a silent observer listen. Your eyes go…",
-     "id": "Ketua bertanya; pimpinan teknis, mitra HR, dan pengamat diam mendengar. Matamu pergi…"
+     "id": "Ketua panel bertanya; pewawancara teknis, mitra HR, dan seorang pengamat yang diam ikut mendengarkan. Pandanganmu mengarah…"
     },
     "opts": [
      {
       "en": "To the chair only",
-      "id": "Hanya ke ketua"
+      "id": "Hanya ke ketua panel"
      },
      {
       "en": "To the asker first, a phrase to each of the others including the observer, and back to the asker at the end",
-      "id": "Ke penanya dulu, satu frasa ke tiap yang lain termasuk pengamat, dan kembali ke penanya di akhir"
+      "id": "Ke penanya lebih dulu, lalu satu frasa untuk tiap orang lain termasuk pengamat, lalu kembali ke penanya di akhir"
      },
      {
       "en": "Around the room continuously",
-      "id": "Berkeliling ruangan terus-menerus"
+      "id": "Berkeliling ruangan tanpa henti"
      },
      {
       "en": "To your notes",
@@ -2155,7 +2155,7 @@ window.MT_ASSESS['the-rope'] = {
     "correct": 1,
     "expl": {
      "en": "Every seat is scoring; the observer scores exactly this.",
-     "id": "Setiap kursi menilai; pengamat menilai persis ini."
+     "id": "Setiap kursi sedang menilai, dan pengamat menilai persis hal ini."
     }
    },
    {
@@ -2163,16 +2163,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "8.2",
     "q": {
      "en": "“Apa yang akan Anda ubah dari bank kami?” The answer that scores is…",
-     "id": "“Apa yang akan Anda ubah dari bank kami?” Jawaban yang dapat nilai adalah…"
+     "id": "“Apa yang akan Anda ubah dari bank kami?” Jawaban yang mendapat nilai adalah…"
     },
     "opts": [
      {
       "en": "A verdict on their digital strategy from a headline",
-      "id": "Vonis atas strategi digital mereka dari tajuk berita"
+      "id": "Vonis atas strategi digital mereka berdasarkan judul berita"
      },
      {
       "en": "One observation from your own use, options, a small recommendation with a reason, and a humility close",
-      "id": "Satu pengamatan dari pemakaianmu sendiri, opsi, rekomendasi kecil dengan alasan, dan penutup rendah hati"
+      "id": "Satu pengamatan dari pengalamanmu sendiri, beberapa pilihan, usulan kecil beserta alasannya, dan penutup yang rendah hati"
      },
      {
       "en": "“Tidak ada”",
@@ -2180,13 +2180,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "A reallocation of their budget",
-      "id": "Pemindahan anggaran mereka"
+      "id": "Usulan memindahkan anggaran mereka"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Respectful, researched, humble: the framing pattern; never a person or a branch by name.",
-     "id": "Hormat, hasil riset, rendah hati; pola pembingkaian; jangan pernah orang atau cabang dengan nama."
+     "id": "Sopan, berbekal riset, rendah hati: itulah pola pembingkaiannya; jangan pernah menyebut nama orang atau cabang."
     }
    },
    {
@@ -2194,30 +2194,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "8.3",
     "q": {
      "en": "The user has already described the first ninety days. When asked “ada pertanyaan?”, you…",
-     "id": "User sudah menggambarkan sembilan puluh hari pertama. Saat ditanya “ada pertanyaan?”, kamu…"
+     "id": "User sudah menjelaskan sembilan puluh hari pertama. Saat ditanya “ada pertanyaan?”, kamu…"
     },
     "opts": [
      {
       "en": "Ask about the first ninety days anyway",
-      "id": "Tetap bertanya tentang sembilan puluh hari pertama"
+      "id": "Tetap menanyakan soal sembilan puluh hari pertama"
      },
      {
-      "en": "Cross it off and ask a survivor, adapted, “tadi Bapak menjelaskan …, yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?”",
-      "id": "Mencoretnya dan mengajukan yang bertahan, disesuaikan, “tadi Bapak menjelaskan …, yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?”"
+      "en": "Cross it off and ask a survivor, adapted: “tadi Bapak menjelaskan …, yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?”",
+      "id": "Mencoretnya, lalu mengajukan pertanyaan lain yang disesuaikan: “tadi Bapak menjelaskan …, yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?”"
      },
      {
       "en": "Ask about leave",
-      "id": "Bertanya tentang cuti"
+      "id": "Menanyakan soal cuti"
      },
      {
       "en": "Say everything is clear",
-      "id": "Berkata semuanya sudah jelas"
+      "id": "Bilang semuanya sudah jelas"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "An answered question is scored as not listening; no questions is scored as no interest.",
-     "id": "Pertanyaan yang sudah dijawab dinilai sebagai tidak mendengar; tanpa pertanyaan dinilai sebagai tanpa minat."
+     "id": "Menanyakan hal yang sudah dijawab dinilai tidak mendengarkan; tidak bertanya sama sekali dinilai tidak berminat."
     }
    },
    {
@@ -2225,30 +2225,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "8.4",
     "q": {
      "en": "The respectful close, in order, is…",
-     "id": "Penutup yang hormat, berurutan, adalah…"
+     "id": "Urutan penutup yang sopan adalah…"
     },
     "opts": [
      {
       "en": "Ask if you passed → thank → leave",
-      "id": "Tanya apakah lolos → terima kasih → pergi"
+      "id": "Tanya apakah lolos → ucapkan terima kasih → pergi"
      },
      {
       "en": "Specific thanks → one sentence of fit → clear interest → the next step, under ninety seconds",
-      "id": "Terima kasih spesifik → satu kalimat kecocokan → minat yang jelas → langkah berikutnya, di bawah sembilan puluh detik"
+      "id": "Terima kasih yang spesifik → satu kalimat kecocokan → minat yang jelas → langkah berikutnya, kurang dari sembilan puluh detik"
      },
      {
       "en": "A second summary of your CV",
-      "id": "Rangkuman kedua CV-mu"
+      "id": "Rangkuman kedua isi CV-mu"
      },
      {
       "en": "A promise to follow up until answered",
-      "id": "Janji menindaklanjuti sampai dijawab"
+      "id": "Janji akan terus menghubungi sampai ada jawaban"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "The Indonesian register adapts, not copies, “closing the deal”; pushing loses composure in the last minute.",
-     "id": "Register Indonesia mengadaptasi, bukan menyalin, “menutup transaksi”; mendesak kehilangan ketenangan di menit terakhir."
+     "en": "The Indonesian register adapts “closing the deal” rather than copying it; pushing loses composure in the last minute.",
+     "id": "Gaya bahasa setempat menyesuaikan jurus “menutup transaksi”, bukan menirunya; memaksa membuat nilai ketenanganmu jatuh di menit terakhir."
     }
    },
    {
@@ -2256,20 +2256,20 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "8.4",
     "q": {
      "en": "A rejection email arrives. You…",
-     "id": "Email penolakan datang. Kamu…"
+     "id": "Email penolakan masuk. Kamu…"
     },
     "opts": [
      {
       "en": "Explain why the decision is wrong",
-      "id": "Menjelaskan mengapa keputusannya salah"
+      "id": "Menjelaskan kenapa keputusannya keliru"
      },
      {
       "en": "Reply within a day with thanks and one request for feedback, log the lessons from your debrief, and update the stories that were probed past their depth",
-      "id": "Membalas dalam sehari dengan terima kasih dan satu permintaan umpan balik, mencatat pelajaran dari debrief-mu, dan memperbarui cerita yang digali melewati kedalamannya"
+      "id": "Membalas dalam sehari dengan ucapan terima kasih dan satu permintaan masukan, mencatat pelajaran dari evaluasimu, dan memperbarui cerita yang digali melewati kedalamannya"
      },
      {
       "en": "Send a second feedback request a week later",
-      "id": "Mengirim permintaan umpan balik kedua seminggu kemudian"
+      "id": "Mengirim permintaan masukan kedua seminggu kemudian"
      },
      {
       "en": "Do nothing",
@@ -2279,27 +2279,27 @@ window.MT_ASSESS['the-rope'] = {
     "correct": 1,
     "expl": {
      "en": "Ask once; treat the rejection as a data point about a round; keep the relationship for the next intake.",
-     "id": "Minta sekali; perlakukan penolakan sebagai titik data tentang sebuah ronde; jaga hubungan untuk angkatan berikutnya."
+     "id": "Minta sekali saja; perlakukan penolakan sebagai data tentang satu babak; jaga hubungannya untuk angkatan berikutnya."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. For your top target’s final round, name the three seats you expect and the concern each will bring to your file, and write the one story you would give the most sceptical of them at panel length, headline, decision, the value in the last line. Then write your four-beat close word for word in Indonesian.",
-    "id": "Minimal 100 kata. Untuk ronde final sasaran teratasmu, sebutkan tiga kursi yang kamu perkirakan dan kekhawatiran yang dibawa masing-masing ke berkasmu, dan tulis satu cerita yang akan kamu berikan kepada yang paling skeptis dari mereka pada panjang panel, headline, keputusan, nilai di baris terakhir. Lalu tulis penutup empat bagianmu kata demi kata dalam bahasa Indonesia."
+    "en": "At least 100 words. For your top target’s final round, name the three seats you expect and the concern each will bring to your file, and write the one story you would give the most sceptical of them at panel length (headline, decision, the value in the last line). Then write your four-beat close word for word in Indonesian.",
+    "id": "Minimal 100 kata. Untuk babak final di perusahaan incaran utamamu, sebutkan tiga kursi panel yang kamu perkirakan dan kekhawatiran yang akan dibawa masing-masing saat membaca berkasmu. Lalu tulis satu cerita yang akan kamu sampaikan kepada yang paling skeptis di antara mereka, dalam versi panel (inti, keputusan, nama nilai di kalimat terakhir). Setelah itu tulis penutup empat ketukanmu kata per kata dalam bahasa Indonesia."
    },
    "guide": [
     {
      "en": "A concern is a fear about the future, not a fact about the CV.",
-     "id": "Kekhawatiran adalah ketakutan tentang masa depan, bukan fakta tentang CV."
+     "id": "Kekhawatiran adalah ketakutan tentang masa depan, bukan fakta di CV."
     },
     {
      "en": "The story has a number in the first ten seconds and the value in the last line.",
-     "id": "Cerita punya angka di sepuluh detik pertama dan nilai di baris terakhir."
+     "id": "Ceritanya memuat angka di sepuluh detik pertama dan nama nilai di kalimat terakhir."
     },
     {
      "en": "The close does not ask whether you passed.",
-     "id": "Penutup tidak bertanya apakah kamu lolos."
+     "id": "Penutupnya tidak menanyakan apakah kamu lolos."
     }
    ],
    "min": 100
