@@ -2901,44 +2901,44 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "11.1",
     "h": {
      "en": "What Probation Evaluates",
-     "id": "Apa yang Dievaluasi Masa Percobaan"
+     "id": "Apa yang Dinilai di Masa Percobaan"
     },
     "sub": {
      "en": "The rules, the five things managers evaluate, the unwritten criteria, rotation forms.",
-     "id": "Aturannya, lima hal yang dievaluasi manajer, kriteria tak tertulis, formulir rotasi."
+     "id": "Aturannya, lima hal yang dinilai atasan, kriteria tak tertulis, formulir rotasi."
     }
    },
    {
     "lesson": "11.2",
     "h": {
      "en": "Your 30/60/90 Plan",
-     "id": "Rencana 30/60/90-mu"
+     "id": "Rencana 30/60/90 Harimu"
     },
     "sub": {
      "en": "The success-criteria conversation, learn–contribute–deliver, the first contribution, a checkable plan.",
-     "id": "Percakapan kriteria keberhasilan, belajar–berkontribusi–menghasilkan, kontribusi pertama, rencana yang bisa diperiksa."
+     "id": "Percakapan soal kriteria keberhasilan, belajar–berkontribusi–membuktikan, kontribusi pertama, rencana yang bisa dicek."
     }
    },
    {
     "lesson": "11.3",
     "h": {
      "en": "Relationships, Feedback, Mistakes",
-     "id": "Hubungan, Umpan Balik, Kesalahan"
+     "id": "Hubungan Kerja, Masukan, Kesalahan"
     },
     "sub": {
      "en": "The stakeholder map, workplace norms, specific feedback, report-own-fix-prevent, gratifikasi.",
-     "id": "Peta pemangku kepentingan, norma tempat kerja, umpan balik spesifik, laporkan-akui-perbaiki-cegah, gratifikasi."
+     "id": "Peta pemangku kepentingan, kebiasaan tempat kerja, masukan yang spesifik, laporkan-akui-perbaiki-cegah, gratifikasi."
     }
    },
    {
     "lesson": "11.4",
     "h": {
      "en": "Evidence Log and the First Review",
-     "id": "Log Bukti dan Evaluasi Pertama"
+     "id": "Catatan Bukti dan Evaluasi Pertama"
     },
     "sub": {
      "en": "The weekly log, the self-review, the room, the early conversation, the Story Bank loop.",
-     "id": "Log mingguan, tinjauan diri, ruangan, percakapan dini, putaran Bank Cerita."
+     "id": "Catatan mingguan, tinjauan diri, di dalam ruangan, percakapan lebih awal, lingkaran Bank Cerita."
     }
    }
   ],
@@ -2948,16 +2948,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "11.1",
     "q": {
      "en": "Probation mostly evaluates…",
-     "id": "Masa percobaan terutama mengevaluasi…"
+     "id": "Masa percobaan terutama menilai…"
     },
     "opts": [
      {
       "en": "How much you produce in three months",
-      "id": "Berapa banyak yang kamu hasilkan dalam tiga bulan"
+      "id": "Seberapa banyak yang kamu hasilkan dalam tiga bulan"
      },
      {
       "en": "Reliability, learning speed, attitude, relationships and quality, from small, early evidence",
-      "id": "Keandalan, kecepatan belajar, sikap, hubungan, dan kualitas: dari bukti kecil dan awal"
+      "id": "Keandalan, kecepatan belajar, sikap, hubungan kerja, dan mutu, dari bukti-bukti kecil sejak awal"
      },
      {
       "en": "Big ideas in the first month",
@@ -2965,13 +2965,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Hours worked",
-      "id": "Jam kerja"
+      "id": "Jumlah jam kerja"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "A manager is forming a prediction about year two; a new hire’s output is small by design.",
-     "id": "Manajer membentuk prediksi tentang tahun kedua; hasil karyawan baru memang kecil."
+     "id": "Atasan sedang membentuk perkiraan tentang tahun kedua; hasil kerja karyawan baru memang kecil."
     }
    },
    {
@@ -2979,20 +2979,20 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "11.2",
     "q": {
      "en": "In week one your supervisor says “bantu-bantu tim dulu, ya”. You…",
-     "id": "Di minggu pertama supervisormu berkata “bantu-bantu tim dulu, ya”. Kamu…"
+     "id": "Di minggu pertama, supervisormu bilang “bantu-bantu tim dulu, ya”. Kamu…"
     },
     "opts": [
      {
       "en": "Help and wait to be told more",
-      "id": "Membantu dan menunggu diberi tahu lebih"
+      "id": "Membantu dan menunggu diberi tahu lebih lanjut"
      },
      {
-      "en": "Ask for fifteen minutes: “Apa yang menurut Ibu menandakan saya berhasil di tiga bulan pertama?” And send a summary the same day",
-      "id": "Meminta lima belas menit: “Apa yang menurut Ibu menandakan saya berhasil di tiga bulan pertama?” Dan mengirim rangkuman hari itu juga"
+      "en": "Ask for fifteen minutes: “Apa yang menurut Ibu menandakan saya berhasil di tiga bulan pertama?”, and send a summary the same day",
+      "id": "Meminta waktu lima belas menit: “Apa yang menurut Ibu menandakan saya berhasil di tiga bulan pertama?”, lalu mengirim rangkumannya di hari yang sama"
      },
      {
       "en": "Propose an improvement to show initiative",
-      "id": "Mengusulkan perbaikan untuk menunjukkan inisiatif"
+      "id": "Mengusulkan perbaikan supaya terlihat punya inisiatif"
      },
      {
       "en": "Ask HR instead",
@@ -3002,7 +3002,7 @@ window.MT_ASSESS['the-rope'] = {
     "correct": 1,
     "expl": {
      "en": "The answer becomes the top line of your plan and the measure at your review.",
-     "id": "Jawabannya menjadi baris atas rencanamu dan ukuran saat evaluasi."
+     "id": "Jawabannya menjadi baris teratas rencanamu dan ukuran saat evaluasimu."
     }
    },
    {
@@ -3015,25 +3015,25 @@ window.MT_ASSESS['the-rope'] = {
     "opts": [
      {
       "en": "Redesigning the whole filing system",
-      "id": "Merancang ulang seluruh sistem pengarsipan"
+      "id": "Merombak seluruh sistem pengarsipan"
      },
      {
       "en": "Quietly reformatting last year’s archive",
-      "id": "Diam-diam memformat ulang arsip tahun lalu"
+      "id": "Diam-diam merapikan format arsip tahun lalu"
      },
      {
       "en": "Updating an out-of-date checklist new staff use every month, validated with the senior who owns it",
-      "id": "Memperbarui daftar periksa usang yang dipakai staf baru tiap bulan, divalidasi dengan senior pemiliknya"
+      "id": "Memperbarui daftar periksa usang yang dipakai staf baru setiap bulan, disetujui dulu oleh senior pemiliknya"
      },
      {
       "en": "Changing a live process on your own",
-      "id": "Mengubah proses aktif sendirian"
+      "id": "Mengubah proses yang sedang berjalan sendirian"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "Visible, finishable, useful and low-risk, and validated before it is changed.",
-     "id": "Terlihat, bisa diselesaikan, berguna, dan berisiko rendah, dan divalidasi sebelum diubah."
+     "id": "Terlihat, bisa diselesaikan, berguna, dan berisiko rendah, serta disetujui sebelum diubah."
     }
    },
    {
@@ -3041,7 +3041,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "11.3",
     "q": {
      "en": "You find your own mistake before it reaches the weekly recap. You say first…",
-     "id": "Kamu menemukan kesalahanmu sendiri sebelum sampai ke rekap mingguan. Yang kamu ucapkan pertama…"
+     "id": "Kamu menemukan kesalahanmu sendiri sebelum masuk rekap mingguan. Kalimat pertamamu adalah…"
     },
     "opts": [
      {
@@ -3054,17 +3054,17 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "“Bu, mohon waktunya lima menit. Saya salah memasukkan…”; then the fix with a time and the prevention",
-      "id": "“Bu, mohon waktunya lima menit. Saya salah memasukkan…”; lalu perbaikan dengan waktu dan pencegahannya"
+      "id": "“Bu, mohon waktunya lima menit. Saya salah memasukkan…”; lalu perbaikannya dengan waktu yang jelas dan pencegahannya"
      },
      {
       "en": "Nothing: fix it quietly",
-      "id": "Tidak ada: perbaiki diam-diam"
+      "id": "Tidak ada: betulkan diam-diam"
      }
     ],
     "correct": 2,
     "expl": {
-     "en": "Report early, own it in one sentence, fix it, prevent it, no minimising, no “tapi”.",
-     "id": "Laporkan dini, akui dalam satu kalimat, perbaiki, cegah, tanpa mengecilkan, tanpa “tapi”."
+     "en": "Report early, own it in one sentence, fix it, prevent it; no minimising, no “tapi”.",
+     "id": "Laporkan lebih awal, akui dalam satu kalimat, perbaiki, cegah; tanpa mengecilkan, tanpa “tapi”."
     }
    },
    {
@@ -3072,20 +3072,20 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "11.3",
     "q": {
      "en": "A customer leaves a parcel for you after a loan disbursement. The right move is…",
-     "id": "Nasabah meninggalkan parsel untukmu setelah pencairan kredit. Langkah yang tepat adalah…"
+     "id": "Seorang nasabah meninggalkan parsel untukmu setelah pinjamannya cair. Langkah yang tepat adalah…"
     },
     "opts": [
      {
       "en": "Keep it; it is small",
-      "id": "Menyimpannya; itu kecil"
+      "id": "Menyimpannya; toh kecil"
      },
      {
       "en": "Put it in the pantry for everyone",
-      "id": "Menaruhnya di pantry untuk semua"
+      "id": "Menaruhnya di pantri untuk semua orang"
      },
      {
       "en": "Decline politely, or report it the same day and follow your employer’s gratifikasi policy",
-      "id": "Menolak dengan sopan, atau melaporkannya hari itu juga dan mengikuti kebijakan gratifikasi pemberi kerjamu"
+      "id": "Menolak dengan sopan, atau melaporkannya di hari yang sama dan mengikuti kebijakan gratifikasi perusahaanmu"
      },
      {
       "en": "Return it without telling anyone",
@@ -3095,7 +3095,7 @@ window.MT_ASSESS['the-rope'] = {
     "correct": 2,
     "expl": {
      "en": "A gift connected to a transaction is exactly what the rules and codes of conduct address (verify your sector and policy).",
-     "id": "Hadiah terkait transaksi persis yang diatur aturan dan kode etik (verifikasi sektor dan kebijakanmu)."
+     "id": "Hadiah yang berkaitan dengan transaksi justru yang diatur dalam aturan dan kode etik (periksa aturan sektormu dan kebijakan perusahaanmu)."
     }
    },
    {
@@ -3103,7 +3103,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "11.4",
     "q": {
      "en": "The purpose of the weekly evidence log is…",
-     "id": "Tujuan log bukti mingguan adalah…"
+     "id": "Fungsi catatan bukti mingguan adalah…"
     },
     "opts": [
      {
@@ -3112,41 +3112,41 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Dated results, feedback and learning for your review, and future Story Bank stories",
-      "id": "Hasil, umpan balik, dan pembelajaran bertanggal untuk evaluasimu, dan cerita Bank Cerita masa depan"
+      "id": "Hasil, masukan, dan pelajaran yang bertanggal untuk evaluasimu, sekaligus cerita untuk Bank Ceritamu kelak"
      },
      {
       "en": "To report colleagues’ mistakes",
-      "id": "Melaporkan kesalahan rekan"
+      "id": "Melaporkan kesalahan rekan kerja"
      },
      {
       "en": "Only the weeks that went well",
-      "id": "Hanya minggu yang berjalan baik"
+      "id": "Hanya minggu-minggu yang berjalan baik"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Ten minutes every Friday; results not effort; the bad weeks included.",
-     "id": "Sepuluh menit setiap Jumat; hasil bukan usaha; minggu buruk disertakan."
+     "id": "Sepuluh menit setiap Jumat; hasil, bukan usaha; minggu-minggu yang buruk ikut dicatat."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. Write the success-criteria line for a role you hold or expect, in your manager’s words or as you imagine them. Name the first contribution you would propose and show that it passes the four criteria. Then write, in Indonesian, the four-step report of a real mistake you have made, and the log entry it becomes, task, result, feedback, learning.",
-    "id": "Minimal 100 kata. Tulis baris kriteria keberhasilan untuk peran yang kamu pegang atau harapkan, dalam kata manajermu atau sebagaimana kamu bayangkan. Sebutkan kontribusi pertama yang akan kamu usulkan dan tunjukkan bahwa ia lolos empat kriteria. Lalu tulis, dalam bahasa Indonesia, laporan empat langkah atas kesalahan nyata yang pernah kamu buat, dan entri log yang dihasilkannya, tugas, hasil, umpan balik, pembelajaran."
+    "en": "At least 100 words. Write the success-criteria line for a role you hold or expect, in your manager’s words or as you imagine them. Name the first contribution you would propose and show that it passes the four criteria. Then write, in Indonesian, the four-step report of a real mistake you have made, and the log entry it becomes (task, result, feedback, learning).",
+    "id": "Minimal 100 kata. Tulis kalimat kriteria keberhasilan untuk posisi yang kamu jalani atau kamu harapkan, dengan kata-kata atasanmu atau sebagaimana kamu membayangkannya. Sebutkan kontribusi pertama yang akan kamu usulkan dan tunjukkan bahwa kontribusi itu lolos keempat kriteria. Lalu tulis dalam bahasa Indonesia laporan empat langkah tentang satu kesalahan nyata yang pernah kamu buat, dan entri catatan yang terbentuk darinya (tugas, hasil, masukan, pelajaran)."
    },
    "guide": [
     {
      "en": "The success line is specific enough to check at month three.",
-     "id": "Baris keberhasilan cukup spesifik untuk diperiksa di bulan ketiga."
+     "id": "Kalimat kriteria keberhasilannya cukup spesifik untuk dicek di bulan ketiga."
     },
     {
      "en": "The mistake report has no “sedikit” and no “tapi”, and ends on prevention.",
-     "id": "Laporan kesalahan tanpa “sedikit” dan tanpa “tapi”, dan berakhir pada pencegahan."
+     "id": "Laporan kesalahannya tanpa “sedikit” dan tanpa “tapi”, dan diakhiri dengan pencegahan."
     },
     {
      "en": "The log entry names a result, not effort.",
-     "id": "Entri log menyebut hasil, bukan usaha."
+     "id": "Entri catatannya menyebut hasil, bukan usaha."
     }
    ],
    "min": 100

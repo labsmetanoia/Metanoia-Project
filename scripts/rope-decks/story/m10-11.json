@@ -37,31 +37,31 @@
     { "t": { "en": "Fixed pay is clarified, a band is negotiated once, and the matrix uses Nadia’s weights, not yours", "id": "Gaji tetap cukup diklarifikasi, rentang dinegosiasikan sekali, dan matriksnya memakai bobot Nadia, bukan bobotmu" } }
   ] },
   "11.1": { "s": [
-    { "t": { "en": "Probation: permanent contract only, three months at most, criteria in writing from week one", "id": "Masa percobaan: hanya kontrak tidak tertentu, maksimal tiga bulan, kriteria tertulis sejak minggu pertama" } },
-    { "t": { "en": "Your manager is predicting year two from five things seen early", "id": "Manajermu memprediksi tahun kedua dari lima hal yang terlihat sejak awal" } },
-    { "t": { "en": "The unwritten criteria: good questions, no repeated mistakes, errors owned early", "id": "Kriteria tak tertulis: pertanyaan yang baik, tidak mengulang kesalahan, mengakui kekeliruan lebih awal" } },
-    { "t": { "en": "Officer and MT programmes score probation on forms; ask to see yours in week one", "id": "Program officer dan MT menilai masa percobaan dengan formulir; minta lihat milikmu di minggu pertama" } }
+    { "t": { "en": "Probation: PKWTT only, three months at most, criteria in writing from week one", "id": "Masa percobaan: hanya di PKWTT, paling lama tiga bulan, kriteria tertulis sejak minggu pertama" } },
+    { "t": { "en": "Your manager is predicting year two from five things seen early", "id": "Atasanmu sedang memperkirakan tahun kedua dari lima hal yang terlihat sejak awal" } },
+    { "t": { "en": "The unwritten criteria: good questions, no repeated mistakes, errors owned early", "id": "Kriteria tak tertulis: pertanyaan yang baik, tidak mengulang kesalahan, kesalahan diakui sejak awal" } },
+    { "t": { "en": "Officer and MT programmes score probation on forms; ask to see yours in week one", "id": "Program ODP dan MT menilai masa percobaan dengan formulir; minta untuk melihat formulirmu di minggu pertama" } }
   ] },
   "11.2": { "s": [
-    { "t": { "en": "Days 1–30: learn: hold the success-criteria conversation in week one", "id": "Hari 1–30: belajar: adakan percakapan kriteria sukses di minggu pertama" } },
-    { "t": { "en": "Days 31–60: contribute: own small tasks fully, raise one careful improvement", "id": "Hari 31–60: berkontribusi: miliki tugas kecil sepenuhnya, ajukan satu perbaikan dengan hati-hati" } },
-    { "t": { "en": "Days 61–90: deliver: consistent output, a lane you own, the review prepared", "id": "Hari 61–90: menghasilkan: keluaran konsisten, jalur yang kamu miliki, tinjauan yang disiapkan" } },
-    { "t": { "en": "One page your manager could tick, with checkpoints at days 14, 45 and 75", "id": "Satu halaman yang bisa dicentang manajermu, dengan titik periksa di hari 14, 45, dan 75" } }
+    { "t": { "en": "Days 1–30, learn: hold the success-criteria conversation in week one", "id": "Hari 1–30, belajar: lakukan percakapan soal kriteria keberhasilan di minggu pertama" } },
+    { "t": { "en": "Days 31–60, contribute: own small tasks fully, raise one careful improvement", "id": "Hari 31–60, berkontribusi: pegang tugas kecil sampai tuntas, ajukan satu perbaikan dengan hati-hati" } },
+    { "t": { "en": "Days 61–90, deliver: consistent output, a lane you own, the review prepared", "id": "Hari 61–90, membuktikan: kinerja konsisten, satu bidang yang kamu pegang, evaluasi yang sudah disiapkan" } },
+    { "t": { "en": "One page your manager could tick, with checkpoints at days 14, 45 and 75", "id": "Satu halaman yang bisa dicentang atasanmu, dengan titik pemeriksaan di hari 14, 45, dan 75" } }
   ] },
   "11.3": { "s": [
-    { "t": { "en": "Two relationships decide: your manager and the peer whose opinion others borrow", "id": "Dua hubungan yang menentukan: manajermu dan rekan yang pendapatnya dipinjam orang lain" } },
-    { "t": { "en": "Five Indonesian workplace norms shape how your reputation travels", "id": "Lima norma tempat kerja Indonesia membentuk cara reputasimu menyebar" } },
+    { "t": { "en": "Two relationships decide: your manager and the peer whose opinion others borrow", "id": "Dua hubungan yang menentukan: atasanmu, dan rekan yang pendapatnya diikuti orang lain" } },
+    { "t": { "en": "Five Indonesian workplace norms shape how your reputation travels", "id": "Lima kebiasaan tempat kerja di Indonesia menentukan cara nama baikmu menyebar" } },
     { "t": { "en": "Ask for one thing to improve; on the worst morning: report early, own, fix, prevent", "id": "Minta satu hal untuk diperbaiki; di pagi terburuk: laporkan lebih awal, akui, perbaiki, cegah" } },
-    { "t": { "en": "Know the gratifikasi rules for your sector, decline politely or report", "id": "Ketahui aturan gratifikasi di sektormu: tolak dengan sopan atau laporkan" } }
+    { "t": { "en": "Know the gratifikasi rules for your sector; decline politely or report", "id": "Ketahui aturan gratifikasi di sektormu; tolak dengan sopan atau laporkan" } }
   ] },
   "11.4": { "s": [
-    { "t": { "en": "Four lines every Friday, task, result, feedback, learning, make your work legible", "id": "Empat baris setiap Jumat, tugas, hasil, umpan balik, pembelajaran, membuat kerjamu terbaca" } },
-    { "t": { "en": "One page, shared two days ahead: delivered, learned, fell short and changed, next", "id": "Satu halaman, dibagikan dua hari sebelumnya: dicapai, dipelajari, kurang dan diubah, berikutnya" } },
-    { "t": { "en": "In the review: notes visibly, one clarifying question, a plan not a defence, close forward", "id": "Dalam tinjauan: catat secara terlihat, satu pertanyaan klarifikasi, rencana bukan pembelaan, tutup ke depan" }, "lay": "flow" },
-    { "t": { "en": "Say so early if it is not going well; every entry is a future Story Bank story", "id": "Katakan lebih awal jika tidak berjalan baik; setiap catatan adalah cerita Bank Cerita di masa depan" } }
+    { "t": { "en": "Four lines every Friday (task, result, feedback, learning) make your work legible", "id": "Empat baris setiap Jumat (tugas, hasil, masukan, pelajaran) membuat pekerjaanmu terbaca" } },
+    { "t": { "en": "One page, shared two days ahead: delivered, learned, fell short and changed, next", "id": "Satu halaman, dikirim dua hari sebelumnya: yang dihasilkan, yang dipelajari, yang kurang dan diubah, langkah berikutnya" } },
+    { "t": { "en": "In the review: notes visibly, one clarifying question, a plan not a defence, close forward", "id": "Di evaluasi: mencatat dengan terlihat, satu pertanyaan klarifikasi, rencana bukan pembelaan, tutup dengan melihat ke depan" }, "lay": "flow" },
+    { "t": { "en": "Say so early if it is not going well; every entry is a future Story Bank story", "id": "Bicarakan lebih awal kalau tidak berjalan baik; setiap entri adalah cerita untuk Bank Ceritamu kelak" } }
   ] },
   "11.5": { "s": [
-    { "t": { "en": "The supervisor’s two sentences at the top, the five criteria beneath, dates on every line", "id": "Dua kalimat penyelia di atas, lima kriteria di bawahnya, tanggal di setiap baris" } },
-    { "t": { "en": "Pak Joko is the influential peer; plan eight weeks, and log results rather than effort", "id": "Pak Joko adalah rekan berpengaruh; rencanakan delapan minggu, dan catat hasil, bukan usaha" } }
+    { "t": { "en": "The supervisor’s two sentences at the top, the five criteria beneath, dates on every line", "id": "Dua kalimat supervisor di bagian atas, lima kriteria di bawahnya, tanggal di setiap baris" } },
+    { "t": { "en": "Pak Joko is the influential peer; plan eight weeks, and log results rather than effort", "id": "Pak Joko adalah rekan yang berpengaruh; rencanakan delapan minggu, dan catat hasil, bukan usaha" } }
   ] }
 }
