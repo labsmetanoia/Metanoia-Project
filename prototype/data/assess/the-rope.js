@@ -2312,44 +2312,44 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "9.1",
     "h": {
      "en": "Deliberate Practice",
-     "id": "Latihan yang Disengaja"
+     "id": "Latihan Terarah"
     },
     "sub": {
      "en": "The practice loop, spaced rehearsal, the realism ladder, what to memorise and what not.",
-     "id": "Lingkar latihan, latihan berjarak, tangga realisme, apa yang dihafal dan apa yang tidak."
+     "id": "Siklus latihan, latihan berjarak, tangga realisme, apa yang perlu dihafal dan apa yang tidak."
     }
    },
    {
     "lesson": "9.2",
     "h": {
      "en": "Reading Your Feedback",
-     "id": "Membaca Umpan Balikmu"
+     "id": "Membaca Umpan Balik"
     },
     "sub": {
      "en": "What the simulator measures, the debrief in order, one fix at a time, trends, when the tool is wrong.",
-     "id": "Apa yang diukur simulator, debrief berurutan, satu perbaikan pada satu waktu, tren, saat alat salah."
+     "id": "Apa yang diukur simulator, membaca evaluasi secara berurutan, satu perbaikan setiap kali, tren, saat alatnya keliru."
     }
    },
    {
     "lesson": "9.3",
     "h": {
      "en": "Practising with People",
-     "id": "Berlatih Bersama Orang Lain"
+     "id": "Berlatih dengan Orang"
     },
     "sub": {
      "en": "Partner practice, the peer scorecard, giving feedback, mentors, group practice.",
-     "id": "Latihan pasangan, kartu skor sebaya, memberi umpan balik, mentor, latihan kelompok."
+     "id": "Latihan berpasangan, lembar penilaian teman, memberi masukan, mentor, latihan kelompok."
     }
    },
    {
     "lesson": "9.4",
     "h": {
      "en": "Delivery",
-     "id": "Penyampaian"
+     "id": "Cara Membawakan Diri"
     },
     "sub": {
      "en": "Voice, presence and the self-review, video set-up, nerves with evidence, accessibility.",
-     "id": "Suara, kehadiran dan tinjauan diri, pengaturan video, gugup dengan bukti, aksesibilitas."
+     "id": "Suara, sikap dan tinjauan diri, persiapan video, rasa gugup menurut bukti, aksesibilitas."
     }
    },
    {
@@ -2360,7 +2360,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "The sprint plan, the day-before checklist, the day itself, the fast-track.",
-     "id": "Rencana sprint, daftar periksa sehari sebelumnya, harinya sendiri, jalur cepat."
+     "id": "Rencana sprint, daftar periksa hari sebelumnya, hari-H, versi kilat."
     }
    }
   ],
@@ -2370,30 +2370,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "9.1",
     "q": {
      "en": "The practice loop is…",
-     "id": "Lingkar latihan adalah…"
+     "id": "Siklus latihan adalah…"
     },
     "opts": [
      {
       "en": "Read the answer aloud until it is smooth",
-      "id": "Baca jawaban dengan suara sampai mulus"
+      "id": "Membaca jawaban keras-keras sampai lancar"
      },
      {
       "en": "One target → one question set → answer aloud, timed → feedback → one change → the same question again → move on",
-      "id": "Satu target → satu set pertanyaan → jawab dengan suara, berwaktu → umpan balik → satu perubahan → pertanyaan yang sama lagi → lanjut"
+      "id": "Satu target → satu set pertanyaan → jawab bersuara, dengan waktu → umpan balik → satu perubahan → pertanyaan yang sama sekali lagi → lanjut"
      },
      {
       "en": "Twenty questions in one sitting",
-      "id": "Dua puluh pertanyaan dalam satu duduk"
+      "id": "Dua puluh pertanyaan dalam sekali duduk"
      },
      {
       "en": "Memorise a model answer",
-      "id": "Hafal jawaban model"
+      "id": "Menghafal jawaban model"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Three to five focused repetitions with one change each beat twenty unfocused ones.",
-     "id": "Tiga hingga lima pengulangan terfokus dengan satu perubahan masing-masing mengalahkan dua puluh yang tak terfokus."
+     "id": "Tiga sampai lima pengulangan yang terarah, masing-masing dengan satu perubahan, lebih ampuh daripada dua puluh pengulangan tanpa arah."
     }
    },
    {
@@ -2401,30 +2401,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "9.2",
     "q": {
      "en": "Your debrief shows a low content score on a values answer that, correctly, had no number. You…",
-     "id": "Debrief-mu menunjukkan skor isi rendah pada jawaban nilai yang, dengan benar, tanpa angka. Kamu…"
+     "id": "Evaluasimu menunjukkan nilai isi yang rendah untuk jawaban tentang nilai yang memang benar tidak memakai angka. Kamu…"
     },
     "opts": [
      {
       "en": "Add a number next time",
-      "id": "Tambah angka lain kali"
+      "id": "Menambahkan angka lain kali"
      },
      {
       "en": "Name the rule that fired, log “disagree” with the reason, and exclude it from your trend; rarely, and only with a reason",
-      "id": "Sebutkan aturan yang berlaku, catat “tidak setuju” dengan alasan, dan keluarkan dari trenmu; jarang, dan hanya dengan alasan"
+      "id": "Menyebut aturan yang terpicu, mencatat “tidak setuju” beserta alasannya, dan mengeluarkannya dari trenmu; jarang saja, dan hanya kalau ada alasannya"
      },
      {
       "en": "Ignore all content scores",
-      "id": "Abaikan semua skor isi"
+      "id": "Mengabaikan semua nilai isi"
      },
      {
       "en": "Chase the overall number",
-      "id": "Kejar angka keseluruhan"
+      "id": "Mengejar nilai keseluruhan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Rule-based analysis misreads predictably; scores are practice signals, not verdicts.",
-     "id": "Analisis berbasis aturan salah baca dengan cara yang bisa diprediksi; skor adalah sinyal latihan, bukan vonis."
+     "id": "Analisis berbasis aturan bisa salah baca dengan pola yang bisa ditebak; nilai adalah sinyal latihan, bukan vonis."
     }
    },
    {
@@ -2432,30 +2432,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "9.3",
     "q": {
      "en": "You are the observer in a partner round. During the round you…",
-     "id": "Kamu pengamat dalam ronde pasangan. Selama ronde kamu…"
+     "id": "Kamu menjadi pengamat dalam babak berpasangan. Selama babak berlangsung, kamu…"
     },
     "opts": [
      {
       "en": "Listen, then score from memory afterwards",
-      "id": "Mendengar, lalu menilai dari ingatan setelahnya"
+      "id": "Mendengarkan, lalu menilai dari ingatan sesudahnya"
      },
      {
       "en": "Fill every row of the scorecard as it happens, with quotes and timestamps, scoring the transcript rather than the friend",
-      "id": "Mengisi setiap baris kartu skor saat terjadi, dengan kutipan dan waktu, menilai transkrip bukan teman"
+      "id": "Mengisi setiap baris lembar penilaian saat itu juga, dengan kutipan dan menit, dan menilai transkripnya, bukan temannya"
      },
      {
       "en": "Coach the candidate between questions",
-      "id": "Melatih kandidat di antara pertanyaan"
+      "id": "Melatih kandidat di sela pertanyaan"
      },
      {
       "en": "Score only the overall impression",
-      "id": "Menilai hanya kesan keseluruhan"
+      "id": "Hanya menilai kesan keseluruhan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Evidence written during the round is what makes the feedback actionable.",
-     "id": "Bukti yang ditulis selama ronde adalah yang membuat umpan balik dapat ditindaklanjuti."
+     "id": "Bukti yang ditulis selama babak itulah yang membuat masukan bisa ditindaklanjuti."
     }
    },
    {
@@ -2463,7 +2463,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "9.4",
     "q": {
      "en": "Which of these does the simulator score?",
-     "id": "Mana dari ini yang dinilai simulator?"
+     "id": "Mana yang dinilai simulator?"
     },
     "opts": [
      {
@@ -2472,7 +2472,7 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Pace, fillers and pauses from the audio; presence is a self-review against a checklist and is never scored",
-      "id": "Kecepatan, kata pengisi, dan jeda dari audio; kehadiran adalah tinjauan diri terhadap daftar periksa dan tak pernah dinilai"
+      "id": "Tempo, kata pengisi, dan jeda dari audio; sikap ditinjau sendiri dengan daftar periksa dan tidak pernah dinilai"
      },
      {
       "en": "Your outfit",
@@ -2480,13 +2480,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Whether you will be hired",
-      "id": "Apakah kamu akan direkrut"
+      "id": "Apakah kamu akan diterima kerja"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The tool measures what audio can carry; the rest is yours to review in small doses.",
-     "id": "Alat mengukur yang bisa dibawa audio; sisanya milikmu untuk ditinjau dalam dosis kecil."
+     "id": "Alat mengukur apa yang bisa dibawa audio; sisanya kamu tinjau sendiri, sedikit-sedikit."
     }
    },
    {
@@ -2494,7 +2494,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "9.4",
     "q": {
      "en": "Your pace is 180 words a minute with nine fillers. The one fix is…",
-     "id": "Kecepatanmu 180 kata per menit dengan sembilan kata pengisi. Satu perbaikannya…"
+     "id": "Tempomu 180 kata per menit dengan sembilan kata pengisi. Satu perbaikannya adalah…"
     },
     "opts": [
      {
@@ -2517,7 +2517,7 @@ window.MT_ASSESS['the-rope'] = {
     "correct": 1,
     "expl": {
      "en": "A silent pause does the filler’s job and slows the pace; monitoring fillers while talking increases them.",
-     "id": "Jeda hening melakukan tugas kata pengisi dan memperlambat kecepatan; mengawasi kata pengisi sambil bicara menambahnya."
+     "id": "Jeda hening menggantikan tugas kata pengisi dan menurunkan tempo; mengawasi kata pengisi sambil bicara justru menambahnya."
     }
    },
    {
@@ -2525,16 +2525,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "9.5",
     "q": {
      "en": "It is the day before the interview. The right evening is…",
-     "id": "Ini sehari sebelum wawancara. Malam yang tepat adalah…"
+     "id": "Besok kamu wawancara. Malam yang tepat adalah…"
     },
     "opts": [
      {
       "en": "Three simulator sessions to peak",
-      "id": "Tiga sesi simulator untuk memuncak"
+      "id": "Tiga sesi simulator supaya sedang di puncak"
      },
      {
       "en": "The checklist by 18.00, copies not originals, the one page, three questions, three stories aloud once, and sleep",
-      "id": "Daftar periksa sebelum 18.00, salinan bukan dokumen asli, satu halaman, tiga pertanyaan, tiga cerita dengan suara sekali, dan tidur"
+      "id": "Daftar periksa beres pukul 18.00, fotokopi bukan dokumen asli, ringkasan satu halaman, tiga pertanyaan, tiga cerita diucapkan sekali, lalu tidur"
      },
      {
       "en": "Writing new answers",
@@ -2542,33 +2542,33 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Re-reading every Depth Card",
-      "id": "Membaca ulang setiap Kartu Kedalaman"
+      "id": "Membaca ulang semua Kartu Kedalaman"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Sleep is preparation; the night-before session is the one the sprint forbids.",
-     "id": "Tidur adalah persiapan; sesi malam sebelumnya adalah yang dilarang sprint."
+     "id": "Tidur itu bagian dari persiapan; sesi di malam sebelumnya adalah satu-satunya yang dilarang sprint."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Name the one delivery or content habit you have been working on in the simulator, quote the evidence sentence from a debrief that showed it, and describe the fix in one sentence you could hear in your next transcript. Then say which level of the realism ladder you are at, what would move you up, and who you will ask for a mock interview and when.",
-    "id": "Minimal 100 kata. Sebutkan satu kebiasaan penyampaian atau isi yang sedang kamu kerjakan di simulator, kutip kalimat bukti dari debrief yang menunjukkannya, dan gambarkan perbaikannya dalam satu kalimat yang bisa kamu dengar di transkrip berikutnya. Lalu katakan di tingkat tangga realisme mana kamu berada, apa yang akan menaikkanmu, dan siapa yang akan kamu minta untuk wawancara tiruan dan kapan."
+    "id": "Minimal 100 kata. Sebutkan satu kebiasaan cara membawakan diri atau isi jawaban yang sedang kamu latih di simulator, kutip kalimat bukti dari evaluasi yang menunjukkannya, lalu jelaskan perbaikannya dalam satu kalimat yang bisa kamu dengar di transkrip berikutnya. Setelah itu sebutkan kamu sedang di tingkat berapa di tangga realisme, apa yang akan membuatmu naik, dan siapa yang akan kamu minta untuk wawancara tiruan serta kapan."
    },
    "guide": [
     {
      "en": "The evidence sentence is quoted from a real debrief, with the question and a timestamp or word position.",
-     "id": "Kalimat bukti dikutip dari debrief nyata, dengan pertanyaan dan waktu atau posisi kata."
+     "id": "Kalimat buktinya dikutip dari evaluasi sungguhan, lengkap dengan pertanyaannya dan menit atau posisi katanya."
     },
     {
      "en": "The fix is a habit, not a wish: “‘karena’ before the first action”, not “more reasoning”.",
-     "id": "Perbaikannya kebiasaan, bukan harapan: “‘karena’ sebelum tindakan pertama”, bukan “lebih banyak alasan”."
+     "id": "Perbaikannya berupa kebiasaan, bukan keinginan: “‘karena’ sebelum tindakan pertama”, bukan “lebih banyak alasan”."
     },
     {
      "en": "The mock has a name and a date.",
-     "id": "Tiruan punya nama dan tanggal."
+     "id": "Wawancara tiruannya punya nama dan tanggal."
     }
    ],
    "min": 100
@@ -2585,7 +2585,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "Components, gross and take-home, annual value, non-money factors, verbal vs written.",
-     "id": "Komponen, kotor dan take-home, nilai tahunan, faktor non-uang, lisan vs tertulis."
+     "id": "Komponen, gaji kotor dan take-home, nilai tahunan, faktor nonuang, lisan lawan tertulis."
     }
    },
    {
@@ -2603,11 +2603,11 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "10.3",
     "h": {
      "en": "To Negotiate or Not",
-     "id": "Negosiasi: Perlu atau Tidak"
+     "id": "Negosiasi atau Tidak"
     },
     "sub": {
      "en": "Three pay styles, the prep sheet, six steps, competing offers, register, what never to do.",
-     "id": "Tiga gaya gaji, lembar persiapan, enam langkah, tawaran lain, register, yang tidak boleh dilakukan."
+     "id": "Tiga gaya penggajian, lembar persiapan, enam langkah, tawaran lain, gaya bahasa, hal yang tidak boleh dilakukan."
     }
    },
    {
@@ -2618,7 +2618,7 @@ window.MT_ASSESS['the-rope'] = {
     },
     "sub": {
      "en": "The decision matrix and sensitivity, acceptance, decline, extensions, reneging.",
-     "id": "Matriks keputusan dan sensitivitas, penerimaan, penolakan, perpanjangan, pembatalan."
+     "id": "Matriks keputusan dan uji kepekaan, penerimaan, penolakan, perpanjangan waktu, membatalkan setelah menerima."
     }
    }
   ],
@@ -2633,25 +2633,25 @@ window.MT_ASSESS['the-rope'] = {
     "opts": [
      {
       "en": "The headline figure on page one",
-      "id": "Angka utama di halaman satu"
+      "id": "Angka utama di halaman pertama"
      },
      {
       "en": "Gross minus employee BPJS contributions, PPh 21 and other deductions",
-      "id": "Kotor dikurangi iuran BPJS karyawan, PPh 21, dan potongan lain"
+      "id": "Gaji kotor dikurangi iuran BPJS bagian karyawan, PPh 21, dan potongan lain"
      },
      {
       "en": "Base salary plus THR",
-      "id": "Gaji pokok plus THR"
+      "id": "Gaji pokok ditambah THR"
      },
      {
       "en": "Gross plus the employer’s BPJS contribution",
-      "id": "Kotor plus iuran BPJS pemberi kerja"
+      "id": "Gaji kotor ditambah iuran BPJS bagian perusahaan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Always clarify gross or take-home, and compare offers on the same basis; deduction rates are to be verified.",
-     "id": "Selalu klarifikasi kotor atau take-home, dan bandingkan tawaran dengan dasar sama; tarif potongan untuk diverifikasi."
+     "id": "Selalu pastikan apakah angkanya gaji kotor atau take-home, dan bandingkan tawaran dengan dasar yang sama; tarif potongannya perlu diperiksa."
     }
    },
    {
@@ -2659,7 +2659,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "10.1",
     "q": {
      "en": "An offer pays Rp 6 juta fixed a month, THR of one month, a bonus that has averaged one month (count half, conservatively) and a housing allowance of Rp 1 juta a month. Its conservative annual value, in Rp juta, is…",
-     "id": "Sebuah tawaran membayar Rp 6 juta tetap per bulan, THR satu bulan, bonus yang rata-rata satu bulan (hitung setengah, secara konservatif), dan tunjangan perumahan Rp 1 juta per bulan. Nilai tahunan konservatifnya, dalam Rp juta, adalah…"
+     "id": "Sebuah tawaran membayar Rp 6 juta tetap per bulan, THR satu bulan, bonus yang rata-ratanya satu bulan (hitung separuhnya supaya hati-hati), dan tunjangan perumahan Rp 1 juta per bulan. Nilai tahunannya yang hati-hati, dalam juta rupiah, adalah…"
     },
     "opts": [
      {
@@ -2690,30 +2690,30 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "10.2",
     "q": {
      "en": "A twelve-month PKWT says “tiga bulan pertama merupakan masa percobaan”. You…",
-     "id": "PKWT dua belas bulan menyatakan “tiga bulan pertama merupakan masa percobaan”. Kamu…"
+     "id": "PKWT dua belas bulan menyebut “tiga bulan pertama merupakan masa percobaan”. Kamu…"
     },
     "opts": [
      {
       "en": "Sign: it is standard",
-      "id": "Menandatangani: itu standar"
+      "id": "Tanda tangan: itu hal biasa"
      },
      {
       "en": "Ask politely, in writing, the basis for probation in a fixed-term contract",
-      "id": "Bertanya dengan sopan, tertulis, dasar masa percobaan dalam kontrak waktu tertentu"
+      "id": "Menanyakan dengan sopan dan tertulis apa dasar masa percobaan di PKWT"
      },
      {
       "en": "Refuse the offer",
-      "id": "Menolak tawaran"
+      "id": "Menolak tawarannya"
      },
      {
       "en": "Argue the law with the recruiter",
-      "id": "Berdebat hukum dengan rekruter"
+      "id": "Berdebat soal hukum dengan rekruter"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Under current rules probation belongs to PKWTT only, three months at most (verify); ask, don’t litigate.",
-     "id": "Di bawah aturan terkini percobaan hanya milik PKWTT, paling lama tiga bulan (verifikasi); tanyakan, jangan menggugat."
+     "id": "Menurut aturan yang berlaku sekarang, masa percobaan hanya untuk PKWTT, paling lama tiga bulan (periksa); bertanyalah, jangan berperkara."
     }
    },
    {
@@ -2721,7 +2721,7 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "10.2",
     "q": {
      "en": "A bond of Rp 36 juta over 24 months decreases by Rp 1,5 juta for each month served. Leaving after 16 months, you would repay…",
-     "id": "Ikatan dinas Rp 36 juta selama 24 bulan berkurang Rp 1,5 juta untuk setiap bulan dijalani. Keluar setelah 16 bulan, kamu membayar kembali…"
+     "id": "Ikatan dinas Rp 36 juta selama 24 bulan berkurang Rp 1,5 juta untuk setiap bulan kerja. Kalau keluar setelah 16 bulan, kamu harus mengganti…"
     },
     "opts": [
      {
@@ -2743,8 +2743,8 @@ window.MT_ASSESS['the-rope'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "36 − (16 × 1,5) = 36 − 24 = 12. A flat bond would still be 36; which is why “does it decrease?” is asked before signing.",
-     "id": "36 − (16 × 1,5) = 36 − 24 = 12. Ikatan datar tetap 36: itulah mengapa “apakah menurun?” ditanyakan sebelum menandatangani."
+     "en": "36 − (16 × 1,5) = 36 − 24 = 12. A flat bond would still be 36, which is why “does it decrease?” is asked before signing.",
+     "id": "36 − (16 × 1,5) = 36 − 24 = 12. Ikatan dinas yang tetap masih 36, karena itulah “apakah berkurang?” ditanyakan sebelum tanda tangan."
     }
    },
    {
@@ -2752,16 +2752,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "10.3",
     "q": {
      "en": "A bank’s ODP letter says the package is the same for every member of the intake. Your best move is…",
-     "id": "Surat ODP sebuah bank menyatakan paketnya sama untuk seluruh peserta angkatan. Langkah terbaikmu adalah…"
+     "id": "Surat ODP sebuah bank menyebut paketnya sama untuk semua peserta di angkatannya. Langkah terbaikmu adalah…"
     },
     "opts": [
      {
       "en": "Ask for a higher base with market data",
-      "id": "Meminta pokok lebih tinggi dengan data pasar"
+      "id": "Meminta gaji pokok lebih tinggi dengan data pasar"
      },
      {
       "en": "Make no pay request and clarify placement, start date, relocation or bond terms",
-      "id": "Tidak meminta soal gaji dan mengklarifikasi penempatan, tanggal mulai, relokasi, atau syarat ikatan dinas"
+      "id": "Tidak meminta apa pun soal gaji, dan mengklarifikasi penempatan, tanggal mulai, bantuan pindah, atau ketentuan ikatan dinas"
      },
      {
       "en": "Mention a competing offer to force a change",
@@ -2775,7 +2775,7 @@ window.MT_ASSESS['the-rope'] = {
     "correct": 1,
     "expl": {
      "en": "Fixed pay has little or no room; the useful conversation is clarification.",
-     "id": "Gaji tetap punya sedikit atau tanpa ruang; percakapan yang berguna adalah klarifikasi."
+     "id": "Gaji tetap hampir tidak menyisakan ruang; percakapan yang berguna adalah klarifikasi."
     }
    },
    {
@@ -2788,25 +2788,25 @@ window.MT_ASSESS['the-rope'] = {
     "opts": [
      {
       "en": "Mentioning a real written offer, without threat",
-      "id": "Menyebut tawaran tertulis nyata, tanpa ancaman"
+      "id": "Menyebut tawaran tertulis yang nyata, tanpa ancaman"
      },
      {
       "en": "Asking for a six-month review in writing when the base is fixed",
-      "id": "Meminta evaluasi enam bulan tertulis saat pokok tetap"
+      "id": "Meminta evaluasi enam bulan secara tertulis saat gaji pokoknya tetap"
      },
      {
       "en": "Inventing or inflating a competing offer",
-      "id": "Mengarang atau menggelembungkan tawaran lain"
+      "id": "Mengarang atau membesar-besarkan tawaran lain"
      },
      {
       "en": "Pausing after the ask",
-      "id": "Berhenti setelah meminta"
+      "id": "Diam sejenak setelah meminta"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "Invented offers can be checked, and the employer may simply say “take it”.",
-     "id": "Tawaran karangan bisa diperiksa, dan pemberi kerja mungkin sekadar berkata “ambil saja”."
+     "id": "Tawaran karangan bisa dicek, dan perusahaan bisa saja menjawab “silakan ambil”."
     }
    },
    {
@@ -2814,16 +2814,16 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "10.4",
     "q": {
      "en": "Your matrix gives Offer A 405 and Offer B 395; pay is weighted 20, and a Rp 500 ribu change moves pay by one point. The decision is…",
-     "id": "Matriksmu memberi Tawaran A 405 dan Tawaran B 395; gaji berbobot 20, dan perubahan Rp 500 ribu menggeser gaji satu poin. Keputusannya…"
+     "id": "Matriksmu memberi Tawaran A 405 dan Tawaran B 395; bobot gaji 20, dan selisih Rp 500 ribu menggeser gaji satu poin. Keputusannya…"
     },
     "opts": [
      {
       "en": "Robust: A wins clearly",
-      "id": "Kokoh: A menang jelas"
+      "id": "Kokoh: A jelas menang"
      },
      {
       "en": "Effectively tied: decide on your top-weighted criterion or ask the question that would break it",
-      "id": "Praktis seri: putuskan pada kriteria berbobot tertinggi atau ajukan pertanyaan yang memecahkannya"
+      "id": "Praktis seri: putuskan berdasarkan kriteria dengan bobot tertinggi, atau ajukan pertanyaan yang bisa memecahkannya"
      },
      {
       "en": "B, because pay matters most",
@@ -2831,13 +2831,13 @@ window.MT_ASSESS['the-rope'] = {
      },
      {
       "en": "Impossible to make",
-      "id": "Mustahil dibuat"
+      "id": "Mustahil diputuskan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "A gap of 10 is smaller than one pay point (20), so a small change would flip it.",
-     "id": "Selisih 10 lebih kecil dari satu poin gaji (20), jadi perubahan kecil akan membaliknya."
+     "id": "Selisih 10 lebih kecil daripada satu poin gaji (20), jadi perubahan kecil saja bisa membaliknya."
     }
    },
    {
@@ -2845,50 +2845,50 @@ window.MT_ASSESS['the-rope'] = {
     "lesson": "10.4",
     "q": {
      "en": "You accepted Offer B this morning. To Offer A’s recruiter you…",
-     "id": "Kamu menerima Tawaran B pagi ini. Kepada rekruter Tawaran A kamu…"
+     "id": "Pagi ini kamu menerima Tawaran B. Kepada rekruter Tawaran A, kamu…"
     },
     "opts": [
      {
       "en": "Wait a week in case B falls through",
-      "id": "Menunggu seminggu kalau-kalau B batal"
+      "id": "Menunggu seminggu, siapa tahu B batal"
      },
      {
       "en": "Decline today, gratefully and briefly, without comparing the offers",
-      "id": "Menolak hari ini, dengan terima kasih dan singkat, tanpa membandingkan tawaran"
+      "id": "Menolak hari ini, dengan terima kasih dan singkat, tanpa membandingkan kedua tawaran"
      },
      {
       "en": "Explain in detail why B is better",
-      "id": "Menjelaskan rinci mengapa B lebih baik"
+      "id": "Menjelaskan panjang lebar kenapa B lebih baik"
      },
      {
       "en": "Say nothing",
-      "id": "Tidak mengatakan apa pun"
+      "id": "Tidak bilang apa-apa"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "A prompt decline returns their second candidate and keeps a door open with people you may meet again.",
-     "id": "Penolakan cepat mengembalikan kandidat kedua mereka dan menjaga pintu terbuka dengan orang yang mungkin kamu temui lagi."
+     "id": "Penolakan yang cepat mengembalikan kandidat kedua kepada mereka dan menjaga pintu tetap terbuka dengan orang yang mungkin kamu temui lagi."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Decode one offer you hold or expect: its components, whether your figure is gross or take-home, and its annual value on a conservative basis. Name the contract type and one clause you would ask about, with the question in Indonesian. Then name the employer’s pay style, and write your one request with its reason and your alternative, or, if the pay is fixed, the clarification you would ask instead.",
-    "id": "Minimal 100 kata. Urai satu tawaran yang kamu pegang atau harapkan: komponennya, apakah angkamu kotor atau take-home, dan nilai tahunannya dengan dasar konservatif. Sebutkan jenis kontrak dan satu klausul yang akan kamu tanyakan, dengan pertanyaannya dalam bahasa Indonesia. Lalu sebutkan gaya gaji pemberi kerja, dan tulis satu permintaanmu dengan alasan dan alternatifmu, atau, jika gajinya tetap, klarifikasi yang akan kamu tanyakan sebagai gantinya."
+    "id": "Minimal 100 kata. Bedah satu tawaran yang kamu pegang atau yang kamu perkirakan: komponennya, apakah angkamu gaji kotor atau take-home, dan nilai tahunannya dengan dasar yang hati-hati. Sebutkan jenis kontraknya dan satu klausul yang akan kamu tanyakan, lengkap dengan pertanyaannya dalam bahasa Indonesia. Lalu sebutkan gaya penggajian perusahaannya, dan tulis satu permintaanmu beserta alasan dan pilihan penggantinya, atau, kalau gajinya tetap, klarifikasi yang akan kamu tanyakan sebagai gantinya."
    },
    "guide": [
     {
      "en": "The annual value shows its arithmetic, and any bonus is counted by history, not by “up to”.",
-     "id": "Nilai tahunan menunjukkan aritmetikanya, dan bonus apa pun dihitung menurut riwayat, bukan “hingga”."
+     "id": "Nilai tahunannya menunjukkan hitungannya, dan bonus apa pun dihitung dari riwayatnya, bukan dari angka “hingga”."
     },
     {
      "en": "The clause question asks; it does not argue the law. Regulated terms are marked to verify.",
-     "id": "Pertanyaan klausul bertanya; ia tidak berdebat hukum. Syarat yang diatur ditandai untuk diverifikasi."
+     "id": "Pertanyaan soal klausul itu bertanya, tidak berdebat soal hukum. Ketentuan yang diatur regulasi ditandai untuk diperiksa."
     },
     {
      "en": "One request, one reason, one alternative, or a clarification for fixed pay.",
-     "id": "Satu permintaan, satu alasan, satu alternatif, atau klarifikasi untuk gaji tetap."
+     "id": "Satu permintaan, satu alasan, satu pilihan pengganti, atau klarifikasi untuk gaji tetap."
     }
    ],
    "min": 100
