@@ -1463,29 +1463,29 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "The pipeline, the three yeses, formal rules such as time-in-grade, why files win close cases.",
-     "id": "Alur, tiga ya, aturan formal seperti masa kerja di golongan, mengapa berkas memenangkan kasus ketat."
+     "id": "Alur promosi, tiga “ya”, aturan resmi seperti masa kerja di golongan, dan kenapa berkas yang menentukan keputusan yang ketat."
     }
    },
    {
     "lesson": "5.2",
     "h": {
      "en": "Building Your Promotion Case Over Time",
-     "id": "Membangun Kasus Promosimu"
+     "id": "Menyusun Argumen Promosimu dari Waktu ke Waktu"
     },
     "sub": {
      "en": "The claim against the next level, five-part evidence, the gap plan, the advocate brief.",
-     "id": "Klaim terhadap level berikutnya, bukti lima bagian, rencana celah, ringkasan untuk pembela."
+     "id": "Klaim terhadap level berikutnya, bukti lima bagian, rencana menutup celah, ringkasan untuk pembela."
     }
    },
    {
     "lesson": "5.3",
     "h": {
      "en": "Timing and Initiating the Promotion Conversation",
-     "id": "Waktu dan Memulai Percakapan Promosi"
+     "id": "Waktu yang Tepat dan Cara Memulai Percakapan Promosi"
     },
     "sub": {
      "en": "Calendar and weather, the four-move ask, the four answers, the pay question.",
-     "id": "Kalender dan cuaca, permintaan empat langkah, empat jawaban, pertanyaan gaji."
+     "id": "Kalender dan cuaca, permintaan empat langkah, empat jawaban, soal gaji."
     }
    },
    {
@@ -1496,7 +1496,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "The 48-hour rule, the diagnostic conversation, three verdicts, the month after.",
-     "id": "Aturan 48 jam, percakapan diagnostik, tiga putusan, bulan sesudahnya."
+     "id": "Aturan 48 jam, percakapan diagnosis, tiga putusan, bulan sesudahnya."
     }
    },
    {
@@ -1517,30 +1517,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "5.1",
     "q": {
      "en": "The three yeses a promotion needs are…",
-     "id": "Tiga ya yang dibutuhkan promosi adalah…"
+     "id": "Tiga “ya” yang dibutuhkan sebuah promosi adalah…"
     },
     "opts": [
      {
       "en": "HR, finance and the CEO",
-      "id": "HR, keuangan, dan CEO"
+      "id": "HR, bagian keuangan, dan direktur utama"
      },
      {
       "en": "Your manager’s, the room’s, and the slot’s",
-      "id": "Dari manajermu, dari ruangan, dan dari slot"
+      "id": "Dari atasanmu, dari ruangan, dan dari ketersediaan kursi"
      },
      {
       "en": "Your peers’, your juniors’ and your clients’",
-      "id": "Dari rekanmu, juniormu, dan klienmu"
+      "id": "Dari rekan sebayamu, juniormu, dan nasabahmu"
      },
      {
       "en": "Yours, your mentor’s and your manager’s",
-      "id": "Darimu, mentormu, dan manajermu"
+      "id": "Dari dirimu, mentormu, dan atasanmu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Each depends on different things; the slot is the one you influence least.",
-     "id": "Masing-masing bergantung pada hal berbeda; slot yang paling sedikit bisa kamu pengaruhi."
+     "id": "Masing-masing bergantung pada hal yang berbeda; kursi adalah yang paling sedikit bisa kamu pengaruhi."
     }
    },
    {
@@ -1548,7 +1548,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "5.1",
     "q": {
      "en": "You learn the policy requires 24 months in grade; you will have 20 at file-close. The sensible response is…",
-     "id": "Kamu mengetahui kebijakan mensyaratkan 24 bulan di golongan; kamu baru 20 saat berkas ditutup. Respons yang masuk akal adalah…"
+     "id": "Kamu baru tahu kebijakannya mensyaratkan 24 bulan di golongan, padahal saat berkas ditutup masa kerjamu baru 20 bulan. Tanggapan yang masuk akal adalah…"
     },
     "opts": [
      {
@@ -1557,7 +1557,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Check for an accelerated route, then choose between an exception case now and a strong case next round",
-      "id": "Memeriksa jalur percepatan, lalu memilih antara kasus pengecualian sekarang dan kasus kuat putaran berikutnya"
+      "id": "Memeriksa apakah ada jalur percepatan, lalu memilih antara argumen pengecualian sekarang atau argumen yang kuat di putaran berikutnya"
      },
      {
       "en": "Complain that the rule is unfair",
@@ -1571,7 +1571,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "The rulebook shapes the plan; both routes are legitimate once you know it.",
-     "id": "Buku aturan membentuk rencananya; kedua jalur sah setelah kamu mengetahuinya."
+     "id": "Aturan membentuk rencananya; kedua jalur sama-sama sah begitu kamu mengetahuinya."
     }
    },
    {
@@ -1588,7 +1588,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Action, scope, outcome, witness and a link to a next-level expectation",
-      "id": "Tindakan, cakupan, hasil, saksi, dan tautan ke harapan level berikutnya"
+      "id": "Tindakan, cakupan, hasil, saksi, dan kaitan dengan satu harapan level berikutnya"
      },
      {
       "en": "A list of duties",
@@ -1602,7 +1602,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "The level link is what turns good evidence into a promotion argument.",
-     "id": "Tautan level itulah yang mengubah bukti baik menjadi argumen promosi."
+     "id": "Kaitan level itulah yang mengubah bukti yang bagus menjadi argumen promosi."
     }
    },
    {
@@ -1610,30 +1610,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "5.2",
     "q": {
      "en": "Your case has a gap you cannot credibly close before nominations. You…",
-     "id": "Kasusmu punya celah yang tak bisa ditutup secara kredibel sebelum nominasi. Kamu…"
+     "id": "Argumenmu punya celah yang tidak bisa ditutup secara meyakinkan sebelum nominasi. Kamu…"
     },
     "opts": [
      {
       "en": "Stretch a weak example to cover it",
-      "id": "Memaksakan contoh lemah untuk menutupinya"
+      "id": "Memaksakan contoh yang lemah untuk menutupinya"
      },
      {
       "en": "Leave it out and hope",
-      "id": "Menghilangkannya dan berharap"
+      "id": "Tidak mencantumkannya dan berharap tidak ada yang sadar"
      },
      {
       "en": "Name it, move it to next round’s plan, and change the ask accordingly",
-      "id": "Menyebutnya, memindahkannya ke rencana putaran berikutnya, dan mengubah permintaannya"
+      "id": "Menyebutnya, memindahkannya ke rencana putaran berikutnya, dan menyesuaikan permintaanmu"
      },
      {
       "en": "Withdraw permanently",
-      "id": "Mundur selamanya"
+      "id": "Mundur untuk selamanya"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "An honest next-round case is stronger than a stretched this-round one.",
-     "id": "Kasus putaran berikutnya yang jujur lebih kuat daripada kasus putaran ini yang dipaksakan."
+     "id": "Argumen yang jujur untuk putaran berikutnya lebih kuat daripada argumen yang dipaksakan untuk putaran ini."
     }
    },
    {
@@ -1641,7 +1641,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "5.3",
     "q": {
      "en": "Nominations close in January. The main promotion conversation is best held…",
-     "id": "Nominasi ditutup di Januari. Percakapan promosi utama paling baik dilakukan…"
+     "id": "Nominasi ditutup bulan Januari. Percakapan promosi yang utama paling baik dilakukan…"
     },
     "opts": [
      {
@@ -1650,7 +1650,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Around October: about a quarter before",
-      "id": "Sekitar Oktober: kira-kira satu kuartal sebelumnya"
+      "id": "Sekitar Oktober, kira-kira satu kuartal sebelumnya"
      },
      {
       "en": "After the announcement",
@@ -1658,21 +1658,21 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Only if your manager asks",
-      "id": "Hanya jika manajermu bertanya"
+      "id": "Hanya kalau atasanmu bertanya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Early enough for gaps to close and your manager to test the case.",
-     "id": "Cukup awal agar celah bisa ditutup dan manajermu bisa menguji kasusnya."
+     "id": "Cukup awal supaya celah masih bisa ditutup dan atasanmu sempat menguji argumennya."
     }
    },
    {
     "type": "scen",
     "lesson": "5.3",
     "q": {
-     "en": "Your manager says, “Not yet, you haven’t owned a portfolio.” Your best response is…",
-     "id": "Manajermu berkata, “Belum: kamu belum pernah memegang portofolio.” Respons terbaikmu adalah…"
+     "en": "Your manager says, “Not yet: you haven’t owned a portfolio.” Your best response is…",
+     "id": "Atasanmu berkata, “Belum. Kamu belum pernah memegang portofolio.” Tanggapan terbaikmu adalah…"
     },
     "opts": [
      {
@@ -1681,11 +1681,11 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "“If I own the portfolio that opens in December for two quarters, is that enough for next round?” Then confirm in writing",
-      "id": "“Kalau saya memegang portofolio yang terbuka di Desember selama dua kuartal, apakah itu cukup untuk putaran berikutnya?” Lalu konfirmasi tertulis"
+      "id": "“Kalau saya memegang portofolio yang terbuka bulan Desember selama dua kuartal, apakah itu cukup untuk putaran berikutnya?” Lalu konfirmasi secara tertulis"
      },
      {
       "en": "Say nothing",
-      "id": "Diam"
+      "id": "Diam saja"
      },
      {
       "en": "Mention an outside offer",
@@ -1703,16 +1703,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "5.4",
     "q": {
      "en": "In the first 48 hours after being passed over, you should…",
-     "id": "Dalam 48 jam pertama setelah terlewati, kamu sebaiknya…"
+     "id": "Dalam 48 jam pertama setelah terlewat, sebaiknya kamu…"
     },
     "opts": [
      {
       "en": "Write to your manager explaining why the decision was wrong",
-      "id": "Menulis kepada manajermu mengapa keputusannya salah"
+      "id": "Menulis kepada atasan untuk menjelaskan kenapa keputusannya salah"
      },
      {
       "en": "Make no decisions, congratulate the person promoted, and write your thoughts privately",
-      "id": "Tidak membuat keputusan, memberi selamat kepada yang dipromosikan, dan menulis pikiranmu secara pribadi"
+      "id": "Tidak mengambil keputusan, memberi selamat kepada orang yang dipromosikan, dan menuliskan pikiranmu untuk dirimu sendiri"
      },
      {
       "en": "Start applying elsewhere",
@@ -1720,13 +1720,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Discuss it in the team chat",
-      "id": "Membahasnya di obrolan tim"
+      "id": "Membahasnya di grup chat tim"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Disappointment writes cheques competence has to cash; the first two days are a sampled moment.",
-     "id": "Kekecewaan menulis cek yang harus dicairkan kompetensi; dua hari pertama adalah momen tersampel."
+     "id": "Kekecewaan suka berjanji besar yang nanti harus dibayar oleh kemampuanmu; dua hari pertama adalah momen yang terekam."
     }
    },
    {
@@ -1734,7 +1734,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "5.4",
     "q": {
      "en": "The diagnostic conversation reveals your case was accepted but the region had one slot and a freeze for 18 months. This is…",
-     "id": "Percakapan diagnostik mengungkap kasusmu diterima tetapi wilayah itu punya satu slot dan pembekuan 18 bulan. Ini adalah…"
+     "id": "Percakapan diagnosis mengungkap bahwa argumenmu diterima, tetapi wilayahnya hanya punya satu kursi dan pembekuan selama 18 bulan. Ini adalah…"
     },
     "opts": [
      {
@@ -1747,7 +1747,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "A structural verdict: a decision-gate input",
-      "id": "Putusan struktural: masukan gerbang keputusan"
+      "id": "Putusan struktural: bahan untuk gerbang keputusan"
      },
      {
       "en": "A reason to stop working hard",
@@ -1757,7 +1757,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 2,
     "expl": {
      "en": "A strong case with no path: stay and prepare, move within, or move out, decided calmly at the gate.",
-     "id": "Kasus kuat tanpa jalur: bertahan dan bersiap, pindah di dalam, atau pindah keluar, diputuskan dengan tenang di gerbang."
+     "id": "Argumen yang kuat tanpa jalan: bertahan dan bersiap, pindah di dalam, atau pindah keluar, diputuskan dengan tenang di gerbang."
     }
    },
    {
@@ -1765,50 +1765,50 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "5.5",
     "q": {
      "en": "A committee member will have read the report showing arrears in your inherited portfolio. Your file should…",
-     "id": "Seorang anggota komite pasti sudah membaca laporan yang menunjukkan tunggakan di portofolio warisanmu. Berkasmu sebaiknya…"
+     "id": "Pasti ada anggota komite yang sudah membaca laporan tunggakan di portofolio warisanmu. Berkasmu sebaiknya…"
     },
     "opts": [
      {
       "en": "Omit it",
-      "id": "Menghilangkannya"
+      "id": "Tidak mencantumkannya"
      },
      {
       "en": "Blame the previous owner",
-      "id": "Menyalahkan pemilik sebelumnya"
+      "id": "Menyalahkan pemegang sebelumnya"
      },
      {
       "en": "Explain it first, as what you did: early warnings raised, actions taken, results",
-      "id": "Menjelaskannya lebih dulu, sebagai apa yang kamu lakukan: peringatan dini diangkat, tindakan diambil, hasilnya"
+      "id": "Menjelaskannya lebih dulu, sebagai apa yang kamu lakukan: peringatan dini yang diangkat, tindakan yang diambil, hasilnya"
      },
      {
       "en": "Ask your manager to argue it verbally only",
-      "id": "Meminta manajermu membelanya secara lisan saja"
+      "id": "Meminta atasanmu membelanya secara lisan saja"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "Explaining awkward facts before the room does turns them into evidence and protects trust.",
-     "id": "Menjelaskan fakta canggung sebelum ruangan melakukannya mengubahnya menjadi bukti dan menjaga kepercayaan."
+     "id": "Menjelaskan fakta canggung sebelum ruangan menanyakannya mengubah fakta itu menjadi bukti dan menjaga kepercayaan."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Two questions. First: for your next level, which expectation can you prove best today, and which can you not yet prove, and what is the smallest credible evidence you could create for it in the next two quarters? Second: when will you have the promotion conversation with your manager, and what is your recruiting question?",
-    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: untuk level berikutmu, harapan mana yang paling bisa kamu buktikan hari ini, dan mana yang belum, dan apa bukti terkecil yang kredibel yang bisa kamu ciptakan untuknya dalam dua kuartal ke depan? Kedua: kapan kamu akan melakukan percakapan promosi dengan manajermu, dan apa pertanyaan yang merekrutmu?"
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: untuk level berikutnya, harapan mana yang paling bisa kamu buktikan hari ini, mana yang belum, dan apa bukti terkecil yang meyakinkan yang bisa kamu ciptakan untuknya dalam dua kuartal ke depan? Kedua: kapan kamu akan menjalankan percakapan promosi dengan atasanmu, dan apa pertanyaan yang akan kamu ajukan untuk mengajaknya bekerja sama?"
    },
    "guide": [
     {
      "en": "Use the next level’s expectations in your organisation’s words if you have them.",
-     "id": "Pakai harapan level berikutnya dengan kata-kata organisasimu jika ada."
+     "id": "Pakai harapan level berikutnya dengan kata-kata organisasimu sendiri kalau ada."
     },
     {
      "en": "Evidence means an artefact, a number or a witness, with a date.",
-     "id": "Bukti berarti artefak, angka, atau saksi, dengan tanggal."
+     "id": "Bukti berarti dokumen, angka, atau saksi, lengkap dengan tanggalnya."
     },
     {
      "en": "The date should work backwards from the nomination window.",
-     "id": "Tanggalnya harus bekerja mundur dari jendela nominasi."
+     "id": "Hitung tanggalnya mundur dari jendela nominasi."
     }
    ],
    "min": 100
@@ -1821,11 +1821,11 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "6.1",
     "h": {
      "en": "Mentors vs. Sponsors: A Critical Distinction",
-     "id": "Mentor vs. Sponsor: Perbedaan yang Menentukan"
+     "id": "Mentor dan Sponsor: Perbedaan yang Menentukan"
     },
     "sub": {
      "en": "What each role gives and costs, the frustration test, proximity–proof–safety, the line with “orang dalam”.",
-     "id": "Apa yang diberikan dan biaya tiap peran, uji frustrasi, kedekatan–bukti–keamanan, garis dengan “orang dalam”."
+     "id": "Apa yang diberikan dan dikorbankan tiap peran, tes frustrasi, kedekatan–bukti–rasa aman, dan garis batas dengan “orang dalam”."
     }
    },
    {
@@ -1836,7 +1836,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Choosing for the gap, the five-part ask, agenda and closed loops, boundaries and ending well.",
-     "id": "Memilih untuk celahnya, permintaan lima bagian, agenda dan lingkaran yang ditutup, batas dan mengakhiri dengan baik."
+     "id": "Memilih berdasarkan celah, permintaan lima bagian, agenda dan kabar tindak lanjut, batasan dan cara mengakhiri dengan baik."
     }
    },
    {
@@ -1847,7 +1847,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "The rooms, deposits before withdrawals, the window and one-sentence answer, repaying the bet.",
-     "id": "Ruangannya, setoran sebelum penarikan, jendela dan jawaban satu kalimat, membayar taruhannya."
+     "id": "Ruangan-ruangannya, menabung sebelum menarik, momen dan jawaban satu kalimat, membalas taruhannya."
     }
    },
    {
@@ -1869,7 +1869,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "A circle in transition, a sponsorship window and a shortcut declined.",
-     "id": "Lingkaran yang berubah, jendela sponsorship, dan jalan pintas yang ditolak."
+     "id": "Lingkaran yang sedang berubah, momen sponsorship, dan jalan pintas yang ditolak."
     }
    }
   ],
@@ -1879,30 +1879,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "6.1",
     "q": {
      "en": "What does sponsorship cost the sponsor, and why does that matter?",
-     "id": "Apa biaya sponsorship bagi sponsor, dan mengapa itu penting?"
+     "id": "Apa yang dipertaruhkan sponsor, dan kenapa itu penting?"
     },
     "opts": [
      {
       "en": "Time: so it can be asked for freely",
-      "id": "Waktu: jadi bisa diminta dengan bebas"
+      "id": "Waktu, jadi bisa diminta dengan bebas"
      },
      {
       "en": "Credibility: so it is extended when earned rather than requested",
-      "id": "Kredibilitas: jadi ia diberikan saat pantas, bukan diminta"
+      "id": "Kredibilitas, jadi sponsorship diberikan kalau sudah layak, bukan diminta"
      },
      {
       "en": "Money: so it needs HR approval",
-      "id": "Uang: jadi butuh persetujuan HR"
+      "id": "Uang, jadi butuh persetujuan HR"
      },
      {
       "en": "Nothing: so anyone can do it",
-      "id": "Tidak ada: jadi siapa pun bisa"
+      "id": "Tidak ada, jadi siapa pun bisa melakukannya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "If you fail, the sponsor looks bad; they bet only on proximity, proof and safety.",
-     "id": "Jika kamu gagal, sponsor terlihat buruk; ia hanya bertaruh atas kedekatan, bukti, dan keamanan."
+     "id": "Kalau kamu gagal, sponsor ikut terlihat buruk; ia hanya bertaruh atas dasar kedekatan, bukti, dan rasa aman."
     }
    },
    {
@@ -1910,7 +1910,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "6.1",
     "q": {
      "en": "Your frustrations this year were mostly “I knew what to do, did it well, and nothing happened.” You most likely need…",
-     "id": "Frustrasimu tahun ini kebanyakan “aku tahu harus berbuat apa, mengerjakannya dengan baik, dan tak terjadi apa-apa.” Kemungkinan besar kamu butuh…"
+     "id": "Frustrasimu tahun ini kebanyakan berbunyi “aku tahu harus ngapain, sudah kukerjakan dengan baik, tapi nggak ada yang terjadi.” Kemungkinan besar kamu butuh…"
     },
     "opts": [
      {
@@ -1933,7 +1933,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 2,
     "expl": {
      "en": "An access problem: the people who decide do not know your work.",
-     "id": "Masalah akses: orang yang memutuskan tidak mengenal pekerjaanmu."
+     "id": "Ini masalah akses: orang-orang yang memutuskan tidak mengenal pekerjaanmu."
     }
    },
    {
@@ -1950,11 +1950,11 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "One conversation on one precise question, thirty minutes, with an easy exit",
-      "id": "Satu percakapan tentang satu pertanyaan tepat, tiga puluh menit, dengan jalan keluar yang mudah"
+      "id": "Satu percakapan untuk satu pertanyaan yang tepat, tiga puluh menit, dengan jalan keluar yang mudah"
      },
      {
       "en": "A long email with your full CV",
-      "id": "Email panjang dengan CV lengkapmu"
+      "id": "Email panjang berisi CV lengkapmu"
      },
      {
       "en": "A LinkedIn connection request with no message",
@@ -1964,7 +1964,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Specific, bounded and easy to refuse; the mentor can say yes in ten seconds.",
-     "id": "Spesifik, terbatas, dan mudah ditolak; mentor bisa menjawab ya dalam sepuluh detik."
+     "id": "Spesifik, terbatas, dan mudah ditolak; mentornya bisa menjawab ya dalam sepuluh detik."
     }
    },
    {
@@ -1972,16 +1972,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "6.2",
     "q": {
      "en": "An outside mentor asks you to email an internal report containing customer data. You…",
-     "id": "Mentor dari luar memintamu mengirim laporan internal yang berisi data nasabah. Kamu…"
+     "id": "Mentor dari luar memintamu mengirim lewat email laporan internal yang berisi data nasabah. Kamu…"
     },
     "opts": [
      {
       "en": "Send it: mentors are trustworthy",
-      "id": "Mengirimnya: mentor bisa dipercaya"
+      "id": "Mengirimnya, karena mentor bisa dipercaya"
      },
      {
       "en": "Describe the situation in general terms and keep the data inside",
-      "id": "Menggambarkan situasinya secara umum dan menjaga datanya tetap di dalam"
+      "id": "Menceritakan situasinya secara umum dan tetap menyimpan datanya di dalam"
      },
      {
       "en": "Send a redacted screenshot without asking anyone",
@@ -1989,13 +1989,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Stop talking to them",
-      "id": "Berhenti berbicara dengannya"
+      "id": "Berhenti berhubungan dengannya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Confidentiality runs both ways; use formal channels if data is truly needed.",
-     "id": "Kerahasiaan berlaku dua arah; pakai jalur resmi jika data benar-benar dibutuhkan."
+     "id": "Kerahasiaan berlaku dua arah; pakai jalur resmi kalau datanya memang benar-benar dibutuhkan."
     }
    },
    {
@@ -2003,7 +2003,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "6.3",
     "q": {
      "en": "Which of these is a deposit rather than a withdrawal with a potential sponsor?",
-     "id": "Mana yang merupakan setoran, bukan penarikan, dengan calon sponsor?"
+     "id": "Mana yang termasuk tabungan, bukan penarikan, di mata calon sponsor?"
     },
     "opts": [
      {
@@ -2012,11 +2012,11 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "A two-line proof note with a result, no ask, copied to your manager",
-      "id": "Catatan bukti dua baris dengan hasil, tanpa permintaan, tembusan ke manajermu"
+      "id": "Kabar bukti dua baris berisi hasil, tanpa permintaan, dengan tembusan ke atasanmu"
      },
      {
       "en": "Asking for an introduction to their peers",
-      "id": "Meminta diperkenalkan kepada sejawatnya"
+      "id": "Meminta diperkenalkan kepada rekan-rekan setingkatnya"
      },
      {
       "en": "Asking for career advice",
@@ -2026,7 +2026,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Deposits show that betting on you is safe and useful; withdrawals spend that trust.",
-     "id": "Setoran menunjukkan bahwa bertaruh padamu aman dan berguna; penarikan membelanjakan kepercayaan itu."
+     "id": "Tabungan menunjukkan bahwa bertaruh padamu itu aman dan berguna; penarikan menghabiskan kepercayaan itu."
     }
    },
    {
@@ -2034,30 +2034,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "6.3",
     "q": {
      "en": "A director’s office invites you to a two-week review. Your manager does not know yet. You…",
-     "id": "Kantor seorang direktur mengundangmu ke kajian dua minggu. Manajermu belum tahu. Kamu…"
+     "id": "Kantor seorang direktur mengundangmu ke kajian dua minggu. Atasanmu belum tahu. Kamu…"
     },
     "opts": [
      {
       "en": "Accept at once and tell your manager later",
-      "id": "Langsung menerima dan memberi tahu manajermu belakangan"
+      "id": "Langsung menerima dan memberi tahu atasanmu belakangan"
      },
      {
       "en": "Go to your manager first with a workload plan, and let them reply or be copied",
-      "id": "Menemui manajermu lebih dulu dengan rencana beban kerja, dan membiarkannya membalas atau ditembuskan"
+      "id": "Menemui atasanmu lebih dulu dengan rencana beban kerja, lalu membiarkannya membalas atau ditembuskan"
      },
      {
       "en": "Decline to avoid trouble",
-      "id": "Menolak agar tak bermasalah"
+      "id": "Menolak supaya tidak repot"
      },
      {
       "en": "Ask the director to inform your manager",
-      "id": "Meminta direktur memberi tahu manajermu"
+      "id": "Meminta direktur yang memberi tahu atasanmu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Never melangkahi atasan; a sponsor who hears the manager was surprised often withdraws.",
-     "id": "Jangan melangkahi atasan; sponsor yang mendengar manajer terkejut sering mundur."
+     "id": "Jangan pernah melangkahi atasan; sponsor yang mendengar atasanmu kaget sering kali mundur."
     }
    },
    {
@@ -2065,12 +2065,12 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "6.4",
     "q": {
      "en": "Granovetter’s “strength of weak ties” suggests that…",
-     "id": "“Kekuatan ikatan lemah” Granovetter menunjukkan bahwa…"
+     "id": "“Kekuatan ikatan longgar” dari Granovetter menunjukkan bahwa…"
     },
     "opts": [
      {
       "en": "Close friends are the best source of job leads",
-      "id": "Teman dekat adalah sumber peluang kerja terbaik"
+      "id": "Teman dekat adalah sumber info lowongan terbaik"
      },
      {
       "en": "Acquaintances outside your close circle often bring new information",
@@ -2078,7 +2078,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Weak relationships should be dropped",
-      "id": "Hubungan lemah sebaiknya ditinggalkan"
+      "id": "Hubungan yang longgar sebaiknya ditinggalkan"
      },
      {
       "en": "Networks do not matter for careers",
@@ -2087,8 +2087,8 @@ window.MT_ASSESS['the-route'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "They move in different worlds; which is why connectors have a seat on the board.",
-     "id": "Mereka bergerak di dunia berbeda; itulah sebabnya penghubung punya kursi di dewan."
+     "en": "They move in different worlds, which is why connectors have a seat on the board.",
+     "id": "Mereka bergerak di dunia yang berbeda, dan karena itulah para penghubung punya kursi di dewanmu."
     }
    },
    {
@@ -2096,16 +2096,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "6.4",
     "q": {
      "en": "Every person on your board is older than you, works in your organisation and agrees with you. The best single change is…",
-     "id": "Setiap orang di dewanmu lebih tua darimu, bekerja di organisasimu, dan setuju denganmu. Satu perubahan terbaik adalah…"
+     "id": "Semua orang di dewanmu lebih tua darimu, bekerja di organisasimu, dan selalu sependapat denganmu. Satu perubahan terbaik adalah…"
     },
     "opts": [
      {
       "en": "Add another senior leader from your organisation",
-      "id": "Menambah satu pemimpin senior lagi dari organisasimu"
+      "id": "Menambah satu pimpinan senior lagi dari organisasimu"
      },
      {
       "en": "Add an outsider, a junior reverse mentor or a challenger",
-      "id": "Menambah orang luar, mentor terbalik yang junior, atau penantang"
+      "id": "Menambah orang luar, mentor terbalik yang lebih junior, atau seorang penantang"
      },
      {
       "en": "Drop half the board",
@@ -2113,13 +2113,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Change nothing: agreement is useful",
-      "id": "Tidak mengubah apa pun, kesepakatan itu berguna"
+      "id": "Tidak mengubah apa pun, karena kesepakatan itu berguna"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "A board that only confirms what you think is an echo chamber.",
-     "id": "Dewan yang hanya membenarkan pikiranmu adalah ruang gema."
+     "id": "Dewan yang hanya membenarkan apa yang kamu pikirkan adalah ruang gema."
     }
    },
    {
@@ -2127,16 +2127,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "6.5",
     "q": {
      "en": "A family friend offers to “titip nama” with a director and says there is no need to go through your manager. The best reply…",
-     "id": "Seorang teman keluarga menawarkan “titip nama” kepada seorang direktur dan bilang tak perlu lewat manajermu. Balasan terbaik…"
+     "id": "Seorang teman keluarga menawarkan untuk “titip nama” ke seorang direktur dan bilang tidak perlu lewat atasanmu. Balasan terbaik adalah yang…"
     },
     "opts": [
      {
       "en": "Accepts quietly: it cannot hurt",
-      "id": "Menerima diam-diam: tak ada ruginya"
+      "id": "Menerimanya diam-diam, karena toh tidak ada ruginya"
      },
      {
       "en": "Thanks him warmly, explains you will go through the nomination, and asks for one piece of advice",
-      "id": "Berterima kasih dengan hangat, menjelaskan kamu akan lewat nominasi, dan meminta satu nasihat"
+      "id": "Berterima kasih dengan hangat, menjelaskan bahwa kamu akan lewat nominasi, dan meminta satu nasihat"
      },
      {
       "en": "Reports him to compliance immediately",
@@ -2150,27 +2150,27 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "It fails the evidence, process and daylight tests; a gracious decline keeps the relationship.",
-     "id": "Ia gagal di uji bukti, proses, dan terang; penolakan santun menjaga hubungannya."
+     "id": "Tawaran itu gagal di tes bukti, proses, dan terang; menolak dengan santun menjaga hubungannya."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Two questions. First: looking at your last six months, is your biggest gap a map problem, an access problem, a skill problem or isolation, and who, specifically, could help with it? Second: what is one deposit you could make this month with someone who sits in a room where decisions about you are made, and how will your manager see it?",
-    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: melihat enam bulan terakhirmu, apakah celah terbesarmu masalah peta, masalah akses, masalah keterampilan, atau keterasingan, dan siapa, secara spesifik, yang bisa membantu? Kedua: apa satu setoran yang bisa kamu lakukan bulan ini dengan seseorang yang duduk di ruangan tempat keputusan tentangmu dibuat, dan bagaimana manajermu akan melihatnya?"
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: melihat enam bulan terakhirmu, apakah celah terbesarmu berupa masalah peta, masalah akses, masalah keterampilan, atau rasa terisolasi, dan siapa, secara spesifik, yang bisa membantumu? Kedua: apa satu tabungan yang bisa kamu lakukan bulan ini kepada seseorang yang duduk di ruangan tempat keputusan tentangmu dibuat, dan bagaimana atasanmu akan melihatnya?"
    },
    "guide": [
     {
      "en": "Name the gap precisely enough to know who could help.",
-     "id": "Sebutkan celahnya cukup tepat untuk tahu siapa yang bisa membantu."
+     "id": "Namai celahnya dengan cukup tepat untuk tahu siapa yang bisa membantu."
     },
     {
      "en": "A deposit is real work that helps them, not flattery, and not an ask.",
-     "id": "Setoran adalah kerja nyata yang membantu mereka, bukan pujian, dan bukan permintaan."
+     "id": "Tabungan adalah pekerjaan nyata yang membantu mereka, bukan sanjungan, dan bukan permintaan."
     },
     {
      "en": "If your plan only works if your manager does not see it, change the plan.",
-     "id": "Jika rencanamu hanya berhasil bila manajermu tak melihatnya, ubah rencananya."
+     "id": "Kalau rencanamu hanya berhasil asalkan atasanmu tidak melihatnya, ubah rencananya."
     }
    ],
    "min": 100
