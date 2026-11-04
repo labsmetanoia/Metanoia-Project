@@ -37696,11 +37696,11 @@ window.MT_LMS['the-route'] = {
    },
    "overview": {
     "en": "The second move of a career is the first one made with real evidence behind you, and it is often decided by a bad week, a recruiter’s deadline or a friend’s new title. Four lessons and one case replace those triggers with a method: taking stock of your career capital and your position on the learning curve; evaluating a next role through four lenses against staying; using internal mobility, which keeps most of what you have built; and executing an external move in the right order, from a discreet search to a clean exit.",
-    "id": "Langkah kedua dalam karier adalah yang pertama dibuat dengan bukti nyata di belakangmu, dan sering diputuskan oleh minggu yang buruk, tenggat rekruter, atau jabatan baru seorang teman. Empat pelajaran dan satu kasus mengganti pemicu-pemicu itu dengan metode: menginventarisasi modal kariermu dan posisimu di kurva belajar; menilai peran berikutnya melalui empat lensa dibanding bertahan; memanfaatkan mobilitas internal, yang mempertahankan sebagian besar yang sudah kamu bangun; dan menjalankan perpindahan ke luar dengan urutan yang benar, dari pencarian diam-diam sampai kepergian yang rapi."
+    "id": "Langkah kedua dalam karier adalah langkah pertama yang diambil dengan bukti nyata di tanganmu, dan sering diputuskan oleh minggu yang buruk, tenggat dari rekruter, atau jabatan baru seorang teman. Empat pelajaran dan satu kasus mengganti pemicu-pemicu itu dengan sebuah metode: mendata modal kariermu dan posisimu di kurva belajar; menilai peran berikutnya lewat empat lensa dibanding bertahan; memanfaatkan mobilitas internal, yang mempertahankan sebagian besar yang sudah kamu bangun; dan menjalankan kepindahan ke luar dengan urutan yang benar, dari mencari kerja diam-diam sampai pergi dengan rapi."
    },
    "outcome": {
-    "en": "By the end of this module you can judge whether and when to move, evaluate any option, including staying, on evidence through four lenses, use your organisation’s internal market and manager conversation well, read an offer and contract for risks, and resign, hand over and leave in a way that strengthens your reputation.",
-    "id": "Di akhir modul ini kamu bisa menilai apakah dan kapan pindah, mengevaluasi pilihan apa pun, termasuk bertahan, berdasarkan bukti melalui empat lensa, memanfaatkan pasar internal organisasimu dan percakapan dengan manajer dengan baik, membaca tawaran dan kontrak untuk menemukan risikonya, serta mengundurkan diri, menyerahkan pekerjaan, dan pergi dengan cara yang memperkuat reputasimu."
+    "en": "By the end of this module you can judge whether and when to move, evaluate any option (including staying) on evidence through four lenses, use your organisation’s internal market and manager conversation well, read an offer and contract for risks, and resign, hand over and leave in a way that strengthens your reputation.",
+    "id": "Di akhir modul ini kamu bisa menilai apakah dan kapan perlu pindah, mengevaluasi pilihan apa pun (termasuk bertahan) berdasarkan bukti lewat empat lensa, memanfaatkan pasar internal dan percakapan dengan atasanmu dengan baik, membaca tawaran dan kontrak untuk menemukan risikonya, serta mengundurkan diri, menyerahkan pekerjaan, dan pergi dengan cara yang memperkuat reputasimu."
    },
    "lessons": [
     {
@@ -37709,32 +37709,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Career Capital and the Right Time to Move",
       "id": "Modal Karier dan Waktu yang Tepat untuk Pindah"
      },
      "overview": {
-      "en": "The second move of a career, the first one you choose with real evidence behind you, is often decided by a bad week, a recruiter’s call or a friend’s new title. This lesson replaces those triggers with a method. You will take stock of the career capital you have built, locate yourself on the learning curve of your current role, separate good reasons to move from weak ones, and write an honest ledger of what moving now would cost against moving in twelve months. The aim is not to make you stay or go, but to make the timing your decision.",
-      "id": "Langkah kedua dalam karier, yang pertama kamu pilih dengan bukti nyata di belakangmu, sering diputuskan oleh minggu yang buruk, telepon rekruter, atau jabatan baru seorang teman. Pelajaran ini mengganti pemicu-pemicu itu dengan metode. Kamu akan menginventarisasi modal karier yang sudah kamu bangun, menemukan posisimu di kurva belajar peranmu sekarang, memisahkan alasan pindah yang baik dari yang lemah, dan menulis neraca jujur tentang biaya pindah sekarang dibanding pindah dua belas bulan lagi. Tujuannya bukan membuatmu bertahan atau pergi, melainkan membuat waktunya menjadi keputusanmu."
+      "en": "The second move of a career (the first one you choose with real evidence behind you) is often decided by a bad week, a recruiter’s call or a friend’s new title. This lesson replaces those triggers with a method. You will take stock of the career capital you have built, locate yourself on the learning curve of your current role, separate good reasons to move from weak ones, and write an honest ledger of what moving now would cost against moving in twelve months. The aim is not to make you stay or go, but to make the timing your decision.",
+      "id": "Langkah kedua dalam karier (yang pertama kali kamu pilih dengan bukti nyata di tanganmu) sering diputuskan oleh minggu yang buruk, telepon dari rekruter, atau jabatan baru seorang teman. Pelajaran ini mengganti pemicu-pemicu itu dengan sebuah metode. Kamu akan mendata modal karier yang sudah kamu bangun, menemukan posisimu di kurva belajar peranmu sekarang, memisahkan alasan pindah yang kuat dari yang lemah, dan menulis neraca yang jujur tentang biaya pindah sekarang dibanding pindah dua belas bulan lagi. Tujuannya bukan membuatmu bertahan atau pergi, melainkan memastikan waktunya adalah keputusanmu sendiri."
      },
      "objectives": [
       {
        "en": "Inventory the career capital you have built and what is not yet built.",
-       "id": "Menginventarisasi modal karier yang sudah kamu bangun dan yang belum."
+       "id": "Mendata modal karier yang sudah kamu bangun dan yang belum."
       },
       {
        "en": "Locate yourself on the learning curve of your current role.",
-       "id": "Menemukan posisimu di kurva belajar peranmu saat ini."
+       "id": "Menemukan posisimu di kurva belajar peranmu sekarang."
       },
       {
        "en": "Separate good reasons to move from weak ones, and spot the biases in both directions.",
-       "id": "Memisahkan alasan pindah yang baik dari yang lemah, dan mengenali bias di kedua arah."
+       "id": "Memisahkan alasan pindah yang kuat dari yang lemah, dan mengenali bias ke dua arah."
       },
       {
        "en": "Write the ledger of moving now versus in twelve months.",
-       "id": "Menulis neraca pindah sekarang versus dua belas bulan lagi."
+       "id": "Menulis neraca pindah sekarang dibanding dua belas bulan lagi."
       }
      ],
      "readFirst": {
@@ -37754,19 +37754,19 @@ window.MT_LMS['the-route'] = {
        "story": [
         {
          "en": "Before any second move, take stock of five kinds of capital, and ask whether each would travel",
-         "id": "Sebelum langkah kedua apa pun, inventarisasi lima jenis modal, dan tanyakan apakah masing-masing bisa dibawa"
+         "id": "Sebelum langkah kedua apa pun, data lima jenis modalmu, lalu tanyakan apakah masing-masing bisa dibawa"
         },
         {
          "en": "Every role has an S-curve; where you are on it sets the default for staying or moving",
-         "id": "Setiap peran punya kurva S; posisimu di kurva itu menentukan asumsi dasar bertahan atau pindah"
+         "id": "Setiap peran punya kurva S; posisimu di kurva itu menentukan pilihan bawaan untuk bertahan atau pindah"
         },
         {
          "en": "A plateau or a structural block is a reason; a bad month is a mood",
-         "id": "Dataran tinggi atau hambatan struktural adalah alasan; bulan yang buruk adalah suasana hati"
+         "id": "Stagnasi atau hambatan struktural adalah alasan; bulan yang buruk hanyalah suasana hati"
         },
         {
          "en": "Make “now” and “in twelve months” equally concrete with a five-line ledger",
-         "id": "Buat “sekarang” dan “dua belas bulan lagi” sama konkretnya dengan buku besar lima baris"
+         "id": "Buat “sekarang” dan “dua belas bulan lagi” sama konkretnya dengan neraca lima baris"
         }
        ],
        "takes": [
@@ -37777,17 +37777,17 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Capital only counts in a move if someone new can verify it.",
-          "id": "Modal hanya dihitung dalam sebuah langkah jika orang baru bisa memverifikasinya."
+          "id": "Modal hanya berarti saat pindah kalau orang baru bisa memeriksanya."
          }
         },
         {
          "h": {
           "en": "Where are you on the curve?",
-          "id": "Di mana kamu di kurva?"
+          "id": "Di mana posisimu di kurva?"
          },
          "p": {
           "en": "Moving on the lower curve wastes capital; the next employer sees a short stint with no result.",
-          "id": "Pindah di kurva bawah membuang modal; pemberi kerja berikutnya melihat masa singkat tanpa hasil."
+          "id": "Pindah di bagian bawah kurva membuang modal; pemberi kerja berikutnya hanya melihat masa kerja singkat tanpa hasil."
          }
         },
         {
@@ -37797,7 +37797,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Move on evidence, not on a bad week.",
-          "id": "Pindah karena bukti, bukan karena minggu yang buruk."
+          "id": "Pindahlah karena bukti, bukan karena minggu yang buruk."
          }
         },
         {
@@ -37807,7 +37807,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Leaving two months before a pilot’s result turns “led” into “was working on”, for the rest of your career.",
-          "id": "Pergi dua bulan sebelum hasil uji coba mengubah “memimpin” menjadi “sedang mengerjakan”, untuk sisa kariermu."
+          "id": "Pergi dua bulan sebelum hasil uji coba keluar mengubah “memimpin” menjadi “sedang mengerjakan”, untuk seterusnya dalam kariermu."
          }
         }
        ],
@@ -37816,7 +37816,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Before any second move, take stock of five kinds of capital, and ask whether each would travel",
-          "id": "Sebelum langkah kedua apa pun, inventarisasi lima jenis modal, dan tanyakan apakah masing-masing bisa dibawa"
+          "id": "Sebelum langkah kedua apa pun, data lima jenis modalmu, lalu tanyakan apakah masing-masing bisa dibawa"
          },
          "layout": "grid",
          "items": [
@@ -37826,7 +37826,7 @@ window.MT_LMS['the-route'] = {
            "id": "Keterampilan",
            "d": {
             "en": "Could you demonstrate it in a new setting in your first month? SME credit judgement; SQL reporting; explaining models to branches.",
-            "id": "Bisakah kamu menunjukkannya di tempat baru pada bulan pertama? Penilaian kredit UMKM; pelaporan SQL; menjelaskan model ke cabang."
+            "id": "Bisakah kamu menunjukkannya di tempat baru pada bulan pertama? Penilaian kredit UMKM; laporan dengan SQL; menjelaskan model kepada cabang."
            },
            "img": "../../assets/bg/journey-start.jpg"
           },
@@ -37836,7 +37836,7 @@ window.MT_LMS['the-route'] = {
            "id": "Bukti",
            "d": {
             "en": "Numbers, witnesses and dates a stranger could check: the document check in 12 branches; taskforce findings adopted.",
-            "id": "Angka, saksi, dan tanggal yang bisa diperiksa orang asing: cek dokumen di 12 cabang; temuan satgas yang diadopsi."
+            "id": "Angka, saksi, dan tanggal yang bisa diperiksa orang asing: pemeriksaan dokumen di 12 cabang; temuan gugus tugas dipakai."
            },
            "img": "../../assets/bg/negotiation.jpg"
           },
@@ -37845,8 +37845,8 @@ window.MT_LMS['the-route'] = {
            "en": "Reputation",
            "id": "Reputasi",
            "d": {
-            "en": "Would people outside your unit use the same words? “Paham data dan paham aturan”, known in two regions.",
-            "id": "Apakah orang di luar unitmu memakai kata yang sama? “Paham data dan paham aturan”, dikenal di dua wilayah."
+            "en": "Would people outside your unit use the same words? “Paham data dan paham aturan”: known in two regions.",
+            "id": "Apakah orang di luar unitmu akan memakai kata-kata yang sama? “Paham data dan paham aturan”: dikenal di dua wilayah."
            },
            "img": "../../assets/pe/ed-board.jpg"
           },
@@ -37856,7 +37856,7 @@ window.MT_LMS['the-route'] = {
            "id": "Hubungan",
            "d": {
             "en": "Who outside your current chain would vouch for you?",
-            "id": "Siapa di luar rantai komandomu saat ini yang mau menjaminmu?"
+            "id": "Siapa di luar jalur atasanmu sekarang yang mau menjaminmu?"
            },
            "img": "../../assets/m/06-horizon.jpg"
           },
@@ -37866,18 +37866,18 @@ window.MT_LMS['the-route'] = {
            "id": "Pilihan",
            "d": {
             "en": "The doors your capital opens now, inside and outside, including staying.",
-            "id": "Pintu yang dibuka modalmu sekarang, di dalam dan di luar, termasuk bertahan."
+            "id": "Pintu-pintu yang dibuka modalmu sekarang, di dalam dan di luar, termasuk bertahan."
            },
            "img": "../../assets/bg/compass.jpg"
           }
          ],
          "sub": {
-          "en": "C. Newport’s argument: the good things in a career are bought with career capital, rare and valuable skills built through deliberate effort.",
-          "id": "Argumen C. Newport: hal-hal baik dalam karier dibeli dengan modal karier, keterampilan langka dan berharga yang dibangun lewat usaha sengaja."
+          "en": "C. Newport’s argument: the good things in a career are bought with career capital: rare and valuable skills built through deliberate effort.",
+          "id": "Argumen C. Newport: hal-hal baik dalam karier dibeli dengan modal karier, yaitu keterampilan langka dan berharga yang dibangun lewat usaha yang disengaja."
          },
          "band": {
           "en": "Capital only counts in a move if someone new can verify it.",
-          "id": "Modal hanya dihitung dalam sebuah langkah jika orang baru bisa memverifikasinya."
+          "id": "Modal hanya berarti saat pindah kalau orang baru bisa memeriksanya."
          },
          "em": {
           "en": "whether each would travel",
@@ -37888,7 +37888,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Every role has an S-curve; where you are on it sets the default for staying or moving",
-          "id": "Setiap peran punya kurva S; posisimu di kurva itu menentukan asumsi dasar bertahan atau pindah"
+          "id": "Setiap peran punya kurva S; posisimu di kurva itu menentukan pilihan bawaan untuk bertahan atau pindah"
          },
          "img": "../../assets/bg/fg-stage-ascent.jpg",
          "layout": "flow",
@@ -37896,19 +37896,19 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "rocket",
            "en": "Launch",
-           "id": "Peluncuran",
+           "id": "Awal",
            "d": {
             "en": "Still learning the basics; results not yet yours. Default: stay and learn.",
-            "id": "Masih mempelajari dasar; hasil belum milikmu. Asumsi dasar: bertahan dan belajar."
+            "id": "Masih mempelajari dasar-dasarnya; hasilnya belum menjadi milikmu. Pilihan bawaan: bertahan dan belajar."
            }
           },
           {
            "icon": "mountain",
            "en": "Steep",
-           "id": "Curam",
+           "id": "Menanjak",
            "d": {
             "en": "Stretched most weeks; results forming. Default: stay and convert learning into evidence.",
-            "id": "Teregang hampir tiap minggu; hasil mulai terbentuk. Asumsi dasar: bertahan dan ubah pembelajaran jadi bukti."
+            "id": "Tertantang hampir setiap minggu; hasil mulai terbentuk. Pilihan bawaan: bertahan dan ubah pembelajaran menjadi bukti."
            }
           },
           {
@@ -37917,17 +37917,17 @@ window.MT_LMS['the-route'] = {
            "id": "Puncak",
            "d": {
             "en": "Teaching more than learning; a complete story to tell. Default: consider a new curve, inside first, then outside.",
-            "id": "Lebih banyak mengajar daripada belajar; cerita utuh untuk diceritakan. Asumsi dasar: pertimbangkan kurva baru, di dalam dulu, lalu di luar."
+            "id": "Lebih banyak mengajar daripada belajar; ada kisah utuh untuk diceritakan. Pilihan bawaan: pertimbangkan kurva baru, di dalam dulu, lalu di luar."
            }
           }
          ],
          "sub": {
           "en": "W. Johnson, Disrupt Yourself: a slow start, a steep middle where competence grows quickly, a flattening top where each month teaches less.",
-          "id": "W. Johnson, Disrupt Yourself: awal yang lambat, tengah yang curam saat kompetensi tumbuh cepat, puncak yang mendatar saat tiap bulan mengajarkan lebih sedikit."
+          "id": "W. Johnson, Disrupt Yourself: awal yang lambat, tengah yang menanjak saat kemampuan tumbuh cepat, dan puncak yang mendatar saat setiap bulan mengajarimu lebih sedikit."
          },
          "band": {
           "en": "Moving on the lower curve wastes capital; the next employer sees a short stint with no result.",
-          "id": "Pindah di kurva bawah membuang modal; pemberi kerja berikutnya melihat masa singkat tanpa hasil."
+          "id": "Pindah di bagian bawah kurva membuang modal; pemberi kerja berikutnya hanya melihat masa kerja singkat tanpa hasil."
          },
          "em": {
           "en": "where you are on it",
@@ -37938,13 +37938,13 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "A plateau or a structural block is a reason; a bad month is a mood",
-          "id": "Dataran tinggi atau hambatan struktural adalah alasan; bulan yang buruk adalah suasana hati"
+          "id": "Stagnasi atau hambatan struktural adalah alasan; bulan yang buruk hanyalah suasana hati"
          },
          "cols": [
           {
            "l": {
             "en": "Good reasons",
-            "id": "Alasan baik"
+            "id": "Alasan yang kuat"
            },
            "d": {
             "en": "Push and pull",
@@ -37954,22 +37954,22 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "chart",
              "en": "A flat curve that cannot be restarted inside",
-             "id": "Kurva datar yang tak bisa dimulai ulang di dalam"
+             "id": "Kurva datar yang tidak bisa dimulai ulang di dalam"
             },
             {
              "icon": "lock",
              "en": "A structural block: a freeze, no slot, a level unreachable from this unit",
-             "id": "Hambatan struktural: pembekuan, tanpa slot, level yang tak terjangkau dari unit ini"
+             "id": "Hambatan struktural: pembekuan, kursi yang tidak ada, level yang tidak bisa dicapai dari unit ini"
             },
             {
              "icon": "shield",
              "en": "A red line crossed repeatedly; health or family the role cannot accommodate",
-             "id": "Garis merah dilanggar berulang; kesehatan atau keluarga yang tak bisa diakomodasi peran"
+             "id": "Garis merah berulang kali dilanggar; kesehatan atau keluarga yang tidak bisa diakomodasi peranmu"
             },
             {
              "icon": "route",
              "en": "Capital you cannot build here; the next door in your trajectory",
-             "id": "Modal yang tak bisa dibangun di sini; pintu berikutnya di lintasanmu"
+             "id": "Modal yang tidak bisa kamu bangun di sini; pintu berikutnya dalam lintasanmu"
             }
            ],
            "icon": "check"
@@ -37977,7 +37977,7 @@ window.MT_LMS['the-route'] = {
           {
            "l": {
             "en": "Weak reasons",
-            "id": "Alasan lemah"
+            "id": "Alasan yang lemah"
            },
            "d": {
             "en": "Moods and mirages",
@@ -37987,22 +37987,22 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "moon",
              "en": "A bad month; one conflict",
-             "id": "Bulan yang buruk; satu konflik"
+             "id": "Satu bulan yang buruk; satu konflik"
             },
             {
              "icon": "question",
              "en": "One lost promotion round with no diagnostic conversation",
-             "id": "Satu putaran promosi yang hilang tanpa percakapan diagnostik"
+             "id": "Kalah satu putaran promosi tanpa percakapan diagnosis"
             },
             {
              "icon": "pause",
              "en": "Boredom during a steep part that is simply hard",
-             "id": "Kebosanan di bagian curam yang memang sulit"
+             "id": "Bosan di bagian kurva yang menanjak yang memang sedang berat"
             },
             {
              "icon": "tag",
              "en": "A title; a number alone; a friend’s move; a brand",
-             "id": "Jabatan; angka semata; kepindahan teman; merek"
+             "id": "Jabatan; angka saja; kepindahan teman; nama besar"
             }
            ],
            "icon": "x"
@@ -38013,22 +38013,22 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "Push and pull reasons can each be good or weak; two biases make the vivid option look better than the vague one.",
-          "id": "Alasan dorongan dan tarikan masing-masing bisa baik atau lemah; dua bias membuat pilihan yang mencolok tampak lebih baik dari yang samar."
+          "id": "Alasan dorongan dan tarikan masing-masing bisa kuat atau lemah; dua bias membuat pilihan yang jelas terlihat tampak lebih baik daripada yang samar."
          },
          "band": {
           "en": "Move on evidence, not on a bad week.",
-          "id": "Pindah karena bukti, bukan karena minggu yang buruk."
+          "id": "Pindahlah karena bukti, bukan karena minggu yang buruk."
          },
          "em": {
           "en": "a bad month is a mood",
-          "id": "bulan yang buruk adalah suasana hati"
+          "id": "bulan yang buruk hanyalah suasana hati"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Make “now” and “in twelve months” equally concrete with a five-line ledger",
-          "id": "Buat “sekarang” dan “dua belas bulan lagi” sama konkretnya dengan buku besar lima baris"
+          "id": "Buat “sekarang” dan “dua belas bulan lagi” sama konkretnya dengan neraca lima baris"
          },
          "cols": [
           {
@@ -38038,13 +38038,13 @@ window.MT_LMS['the-route'] = {
            },
            "d": {
             "en": "What it costs and gains",
-            "id": "Biaya dan hasilnya"
+            "id": "Biaya dan keuntungannya"
            },
            "items": [
             {
              "icon": "coin",
              "en": "Money: a bonus forfeited? A training bond to repay? Read your agreement (verify)",
-             "id": "Uang: bonus hangus? Ikatan dinas yang harus dibayar? Baca perjanjianmu (verifikasi)"
+             "id": "Uang: bonus hangus? Ikatan dinas yang harus diganti? Baca perjanjianmu (periksa)"
             },
             {
              "icon": "doc",
@@ -38054,17 +38054,17 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "users",
              "en": "Relationships: a sponsor half-earned",
-             "id": "Hubungan: sponsor yang baru setengah diperoleh"
+             "id": "Hubungan: sponsor baru setengah diraih"
             },
             {
              "icon": "mail",
              "en": "Window: this specific role",
-             "id": "Jendela: peran spesifik ini"
+             "id": "Momen: peran yang spesifik ini"
             },
             {
              "icon": "heart",
              "en": "Life: relocation, probation, family timing",
-             "id": "Hidup: relokasi, masa percobaan, waktu keluarga"
+             "id": "Hidup: pindah kota, masa percobaan, waktu untuk keluarga"
             }
            ],
            "icon": "bolt"
@@ -38076,28 +38076,28 @@ window.MT_LMS['the-route'] = {
            },
            "d": {
             "en": "What it costs and gains",
-            "id": "Biaya dan hasilnya"
+            "id": "Biaya dan keuntungannya"
            },
            "items": [
             {
              "icon": "coin",
              "en": "Money: bonus paid; bond expired; a higher base to negotiate from",
-             "id": "Uang: bonus dibayar; ikatan berakhir; dasar lebih tinggi untuk bernegosiasi"
+             "id": "Uang: bonus dibayar; ikatan dinas habis; gaji pokok lebih tinggi sebagai titik tawar"
             },
             {
              "icon": "doc",
              "en": "Story: “Led … which achieved …”",
-             "id": "Cerita: “Memimpin … yang mencapai …”"
+             "id": "Cerita: “Memimpin … yang berhasil …”"
             },
             {
              "icon": "users",
              "en": "Relationships: a reference who has seen the result",
-             "id": "Hubungan: pemberi referensi yang sudah melihat hasilnya"
+             "id": "Hubungan: referensi yang sudah melihat hasilnya"
             },
             {
              "icon": "mail",
              "en": "Window: similar roles, possibly one level higher",
-             "id": "Jendela: peran serupa, mungkin satu level lebih tinggi"
+             "id": "Momen: peran serupa, mungkin satu level lebih tinggi"
             },
             {
              "icon": "heart",
@@ -38112,12 +38112,12 @@ window.MT_LMS['the-route'] = {
          "layout": "columns",
          "items": [],
          "sub": {
-          "en": "Most timing mistakes come from comparing a vivid option, the offer on the table, with a vague one, “staying”.",
-          "id": "Kebanyakan kesalahan waktu datang dari membandingkan pilihan yang mencolok, tawaran di meja, dengan yang samar, “bertahan”."
+          "en": "Most timing mistakes come from comparing a vivid option (the offer on the table) with a vague one (“staying”).",
+          "id": "Kebanyakan kesalahan soal waktu berasal dari membandingkan pilihan yang jelas terlihat (tawaran di depan mata) dengan pilihan yang samar (“bertahan”)."
          },
          "band": {
           "en": "Leaving two months before a pilot’s result turns “led” into “was working on”, for the rest of your career.",
-          "id": "Pergi dua bulan sebelum hasil uji coba mengubah “memimpin” menjadi “sedang mengerjakan”, untuk sisa kariermu."
+          "id": "Pergi dua bulan sebelum hasil uji coba keluar mengubah “memimpin” menjadi “sedang mengerjakan”, untuk seterusnya dalam kariermu."
          },
          "em": {
           "en": "equally concrete",
@@ -38140,7 +38140,7 @@ window.MT_LMS['the-route'] = {
       },
       "intro": {
        "en": "The best moves are made from strength, at the top of a learning curve, with the result already in the file.",
-       "id": "Langkah terbaik dibuat dari posisi kuat, di puncak kurva belajar, dengan hasilnya sudah ada di berkas."
+       "id": "Langkah pindah terbaik diambil dari posisi kuat, di puncak kurva belajar, dengan hasilnya sudah tercatat di berkas."
       },
       "slides": [
        {
@@ -38158,12 +38158,12 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Where are you on the curve?",
-         "id": "Di mana kamu di kurva?"
+         "id": "Di mana posisimu di kurva?"
         },
         "points": [
          {
-          "en": "Still steep: stay and convert. Flat, consider moving.",
-          "id": "Masih curam: bertahan dan konversikan. Datar, pertimbangkan pindah."
+          "en": "Still steep: stay and convert. Flat: consider moving.",
+          "id": "Masih menanjak: bertahan dan ubah jadi bukti. Sudah datar: pertimbangkan pindah."
          }
         ]
        },
@@ -38175,7 +38175,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "A plateau or a structural block is a reason. A bad month is a mood.",
-          "id": "Dataran tinggi atau hambatan struktural adalah alasan. Bulan yang buruk adalah suasana hati."
+          "id": "Stagnasi atau hambatan struktural adalah alasan. Bulan yang buruk hanyalah suasana hati."
          }
         ]
        },
@@ -38203,8 +38203,8 @@ window.MT_LMS['the-route'] = {
         "id": "Apa yang sudah kamu bangun: inventaris modal"
        },
        "body": {
-        "en": "Cal Newport’s argument in <i>So Good They Can’t Ignore You</i> is that the good things in a career, interesting work, autonomy, pay, choice, are bought with <b>career capital</b>: rare and valuable skills built through deliberate effort. In Lesson 1.4 you mapped yours at the start of the course. Before any second move, take stock again, more broadly, across five kinds of capital. <b>Skills</b>: what can you now do that a good employer would pay for and that fewer people can do, not tasks you have performed, but capabilities you could demonstrate in a new setting. <b>Evidence</b>: results with numbers, witnesses and dates (Module 5’s file). Capital only counts in a move if someone new can verify it. <b>Reputation</b>: the two or three words people attach to your name (Module 4), inside and, increasingly, outside your organisation. <b>Relationships</b>: the board of Module 6. Who would take your call, vouch for you, or tell you about a role before it is posted. <b>Options</b>: financial room (savings that let you walk away from a bad offer, Module 8), portable credentials, and the absence of binding obligations such as an unexpired training bond. Then mark, for each, what is <b>not yet built</b> and what would be built by staying another year. The inventory often surprises people in both directions: some find they have more portable capital than they thought and have been underselling it; others find that most of their capital is local, relationships and reputation that would not travel, and that the result which would make them portable is six months away.",
-        "id": "Argumen Cal Newport dalam <i>So Good They Can’t Ignore You</i> adalah bahwa hal-hal baik dalam karier, pekerjaan menarik, otonomi, gaji, pilihan, dibeli dengan <b>modal karier</b>: keterampilan langka dan bernilai yang dibangun lewat usaha yang disengaja. Di Pelajaran 1.4 kamu memetakannya di awal kursus. Sebelum langkah kedua apa pun, inventarisasi lagi, lebih luas, di lima jenis modal. <b>Keterampilan</b>: apa yang kini bisa kamu lakukan yang akan dibayar pemberi kerja yang baik dan yang lebih sedikit orang bisa, bukan tugas yang pernah kamu jalankan, melainkan kapabilitas yang bisa kamu tunjukkan di tempat baru. <b>Bukti</b>: hasil dengan angka, saksi, dan tanggal (berkas Modul 5). Modal hanya dihitung dalam perpindahan jika orang baru bisa memverifikasinya. <b>Reputasi</b>: dua atau tiga kata yang melekat pada namamu (Modul 4), di dalam dan, semakin lama, di luar organisasimu. <b>Hubungan</b>: dewan dari Modul 6. Siapa yang mau mengangkat teleponmu, menjaminmu, atau memberitahumu tentang peran sebelum diumumkan. <b>Pilihan</b>: ruang finansial (tabungan yang memungkinkanmu menolak tawaran buruk, Modul 8), kredensial yang bisa dibawa, dan tidak adanya kewajiban yang mengikat seperti ikatan dinas pelatihan yang belum habis. Lalu tandai, untuk masing-masing, apa yang <b>belum dibangun</b> dan apa yang akan terbangun jika bertahan setahun lagi. Inventaris ini sering mengejutkan ke dua arah: sebagian orang menemukan modal yang bisa dibawa lebih banyak dari dugaan dan selama ini menjual dirinya terlalu murah; yang lain menemukan sebagian besar modalnya lokal, hubungan dan reputasi yang tak akan ikut pindah, dan bahwa hasil yang akan membuatnya bisa pindah masih enam bulan lagi."
+        "en": "Cal Newport’s argument in <i>So Good They Can’t Ignore You</i> is that the good things in a career (interesting work, autonomy, pay, choice) are bought with <b>career capital</b>: rare and valuable skills built through deliberate effort. In Lesson 1.4 you mapped yours at the start of the course. Before any second move, take stock again, more broadly, across five kinds of capital. <b>Skills</b>: what can you now do that a good employer would pay for and that fewer people can do: not tasks you have performed, but capabilities you could demonstrate in a new setting. <b>Evidence</b>: results with numbers, witnesses and dates (Module 5’s file). Capital only counts in a move if someone new can verify it. <b>Reputation</b>: the two or three words people attach to your name (Module 4), inside and, increasingly, outside your organisation. <b>Relationships</b>: the board of Module 6: who would take your call, vouch for you, or tell you about a role before it is posted. <b>Options</b>: financial room (savings that let you walk away from a bad offer, Module 8), portable credentials, and the absence of binding obligations such as an unexpired training bond. Then mark, for each, what is <b>not yet built</b> and what would be built by staying another year. The inventory often surprises people in both directions: some find they have more portable capital than they thought and have been underselling it; others find that most of their capital is local (relationships and reputation that would not travel), and that the result which would make them portable is six months away.",
+        "id": "Argumen Cal Newport dalam <i>So Good They Can’t Ignore You</i> adalah bahwa hal-hal baik dalam karier (pekerjaan yang menarik, otonomi, gaji, pilihan) dibeli dengan <b>modal karier</b>: keterampilan langka dan berharga yang dibangun lewat usaha yang disengaja. Di Pelajaran 1.4 kamu sudah memetakan modalmu di awal kursus. Sebelum langkah kedua apa pun, data lagi dengan cakupan yang lebih luas, dalam lima jenis modal. <b>Keterampilan</b>: apa yang sekarang bisa kamu kerjakan, yang mau dibayar oleh pemberi kerja yang baik dan yang tidak banyak orang bisa. Bukan tugas yang pernah kamu jalankan, melainkan kemampuan yang bisa kamu tunjukkan di tempat baru. <b>Bukti</b>: hasil dengan angka, saksi, dan tanggal (berkas dari Modul 5). Modal hanya berarti saat pindah kalau orang baru bisa memeriksanya. <b>Reputasi</b>: dua atau tiga kata yang dilekatkan orang pada namamu (Modul 4), di dalam dan, makin lama makin sering, di luar organisasimu. <b>Hubungan</b>: dewan dari Modul 6, yaitu siapa yang mau mengangkat teleponmu, menjaminmu, atau memberitahumu soal lowongan sebelum diumumkan. <b>Pilihan</b>: ruang finansial (tabungan yang membuatmu bisa menolak tawaran buruk, Modul 8), kredensial yang bisa dibawa, dan tidak adanya kewajiban yang mengikat seperti ikatan dinas pelatihan yang belum habis. Lalu tandai, untuk masing-masing, apa yang <b>belum dibangun</b> dan apa yang akan terbangun kalau kamu bertahan setahun lagi. Inventaris ini sering mengejutkan ke dua arah. Sebagian orang mendapati modal yang bisa dibawanya ternyata lebih banyak dari dugaan, dan selama ini mereka terlalu merendahkannya. Sebagian lain mendapati kebanyakan modalnya bersifat lokal (hubungan dan reputasi yang tidak akan ikut terbawa), dan hasil yang akan membuat mereka siap pindah baru keluar enam bulan lagi."
        },
        "table": {
         "cols": [
@@ -38214,7 +38214,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Test: would it travel?",
-          "id": "Uji: apakah bisa dibawa?"
+          "id": "Tes: apakah bisa dibawa?"
          },
          {
           "en": "Nadia (illustration)",
@@ -38233,7 +38233,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "SME credit judgement; SQL reporting; explaining models to branches",
-           "id": "Penilaian kredit UMKM; pelaporan SQL; menjelaskan model kepada cabang"
+           "id": "Penilaian kredit UMKM; laporan dengan SQL; menjelaskan model kepada cabang"
           }
          ],
          [
@@ -38243,11 +38243,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Numbers, witnesses and dates a stranger could check",
-           "id": "Angka, saksi, dan tanggal yang bisa dicek orang asing"
+           "id": "Angka, saksi, dan tanggal yang bisa diperiksa orang asing"
           },
           {
            "en": "Document check in 12 branches; taskforce findings adopted",
-           "id": "Cek dokumen di 12 cabang; temuan satgas diadopsi"
+           "id": "Pemeriksaan dokumen di 12 cabang; temuan gugus tugas dipakai"
           }
          ],
          [
@@ -38257,7 +38257,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Would people outside your unit use the same words?",
-           "id": "Apakah orang di luar unitmu memakai kata yang sama?"
+           "id": "Apakah orang di luar unitmu akan memakai kata-kata yang sama?"
           },
           {
            "en": "“Paham data dan paham aturan”: known in two regions and one head-office unit",
@@ -38271,7 +38271,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Who outside your current chain would vouch for you?",
-           "id": "Siapa di luar rantaimu sekarang yang mau menjaminmu?"
+           "id": "Siapa di luar jalur atasanmu sekarang yang mau menjaminmu?"
           },
           {
            "en": "Pak Arya, Mas Fajar, Mbak Rara, Dewi",
@@ -38285,7 +38285,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Savings, credentials, and no binding obligations",
-           "id": "Tabungan, kredensial, dan tanpa kewajiban mengikat"
+           "id": "Tabungan, kredensial, dan tanpa kewajiban yang mengikat"
           },
           {
            "en": "Four months’ savings; a training bond with five months left",
@@ -38295,7 +38295,7 @@ window.MT_LMS['the-route'] = {
         ],
         "caption": {
          "en": "After Newport’s career-capital idea; the five-part inventory is course guidance.",
-         "id": "Mengikuti gagasan modal karier Newport; inventaris lima bagian adalah panduan kursus."
+         "id": "Berdasarkan gagasan modal karier dari Newport; inventaris lima bagian adalah panduan kursus."
         }
        }
       },
@@ -38303,11 +38303,11 @@ window.MT_LMS['the-route'] = {
        "icon": "chart",
        "h": {
         "en": "Where you are on the curve",
-        "id": "Di mana kamu di kurva"
+        "id": "Di mana posisimu di kurva"
        },
        "body": {
-        "en": "Every role has a learning curve. Whitney Johnson, in <i>Disrupt Yourself</i>, popularised describing it as an <b>S-curve</b>: a slow start while you learn the basics, a steep middle where competence and confidence grow quickly, and a flattening top where you have mastered the role and each extra month teaches you less. The shape suggests a rule of thumb for timing. <b>On the lower part of the curve</b>, moving usually wastes capital: you leave before the learning has turned into evidence, and the next employer sees a short stint with no result. <b>On the steep part</b>, staying usually pays: this is where most capital is built, and the results that make you portable are being produced. <b>On the flat top</b>, the case for a change, a new role inside or outside, grows each month, because you are exchanging your time for less learning while the capital you have built is at its most visible. Signs that you have reached the top: you could do most of your work half-asleep; new problems are variations of old ones; you are teaching more than you are learning; your manager relies on you but cannot stretch you further; and you can describe your last year’s results as a complete story with a beginning and an end. Two cautions. The curve can be restarted without leaving, a new portfolio, a taskforce, a secondment (Lesson 7.3), and that is often the cheapest way to climb again. And a flat curve is a reason to <b>consider</b> moving, not proof that you should; the next role must actually start a steeper curve, which is the subject of Lesson 7.2.",
-        "id": "Setiap peran punya kurva belajar. Whitney Johnson, dalam <i>Disrupt Yourself</i>, memopulerkan cara menggambarkannya sebagai <b>kurva S</b>: awal yang lambat saat kamu mempelajari dasar-dasarnya, bagian tengah yang curam di mana kompetensi dan kepercayaan diri tumbuh cepat, dan puncak yang mendatar di mana kamu sudah menguasai peran itu dan setiap bulan tambahan mengajarimu lebih sedikit. Bentuknya menyarankan patokan kasar untuk waktu. <b>Di bagian bawah kurva</b>, pindah biasanya memboroskan modal: kamu pergi sebelum pembelajaran berubah menjadi bukti, dan pemberi kerja berikutnya melihat masa kerja singkat tanpa hasil. <b>Di bagian curam</b>, bertahan biasanya menguntungkan: di sinilah sebagian besar modal dibangun, dan hasil yang membuatmu bisa pindah sedang diciptakan. <b>Di puncak yang datar</b>, alasan untuk berubah, peran baru di dalam atau di luar, bertambah setiap bulan, karena kamu menukar waktumu dengan pembelajaran yang lebih sedikit sementara modal yang sudah kamu bangun sedang paling terlihat. Tanda bahwa kamu sudah di puncak: kamu bisa mengerjakan sebagian besar pekerjaanmu sambil setengah tidur; masalah baru hanyalah variasi masalah lama; kamu lebih banyak mengajar daripada belajar; manajermu mengandalkanmu tetapi tak bisa meregangkanmu lebih jauh; dan kamu bisa menceritakan hasil setahun terakhir sebagai kisah utuh dengan awal dan akhir. Dua peringatan. Kurva bisa dimulai ulang tanpa pergi, portofolio baru, satgas, penugasan sementara (Pelajaran 7.3), dan itu sering cara termurah untuk mendaki lagi. Dan kurva yang datar adalah alasan untuk <b>mempertimbangkan</b> pindah, bukan bukti bahwa kamu harus pindah; peran berikutnya harus benar-benar memulai kurva yang lebih curam, yang menjadi pokok Pelajaran 7.2."
+        "en": "Every role has a learning curve. Whitney Johnson, in <i>Disrupt Yourself</i>, popularised describing it as an <b>S-curve</b>: a slow start while you learn the basics, a steep middle where competence and confidence grow quickly, and a flattening top where you have mastered the role and each extra month teaches you less. The shape suggests a rule of thumb for timing. <b>On the lower part of the curve</b>, moving usually wastes capital: you leave before the learning has turned into evidence, and the next employer sees a short stint with no result. <b>On the steep part</b>, staying usually pays: this is where most capital is built, and the results that make you portable are being produced. <b>On the flat top</b>, the case for a change (a new role inside or outside) grows each month, because you are exchanging your time for less learning while the capital you have built is at its most visible. Signs that you have reached the top: you could do most of your work half-asleep; new problems are variations of old ones; you are teaching more than you are learning; your manager relies on you but cannot stretch you further; and you can describe your last year’s results as a complete story with a beginning and an end. Two cautions. The curve can be restarted without leaving (a new portfolio, a taskforce, a secondment; Lesson 7.3), and that is often the cheapest way to climb again. And a flat curve is a reason to <b>consider</b> moving, not proof that you should; the next role must actually start a steeper curve, which is the subject of Lesson 7.2.",
+        "id": "Setiap peran punya kurva belajar. Whitney Johnson, dalam <i>Disrupt Yourself</i>, mempopulerkan cara menggambarkannya sebagai <b>kurva S</b>: awal yang lambat saat kamu mempelajari dasar-dasarnya, bagian tengah yang menanjak saat kemampuan dan rasa percaya diri tumbuh cepat, dan puncak yang mendatar saat kamu sudah menguasai peran itu dan setiap bulan tambahan mengajarimu lebih sedikit. Bentuk ini memberi patokan kasar soal waktu. <b>Di bagian bawah kurva</b>, pindah biasanya membuang modal: kamu pergi sebelum pembelajaranmu berubah menjadi bukti, dan pemberi kerja berikutnya hanya melihat masa kerja singkat tanpa hasil. <b>Di bagian yang menanjak</b>, bertahan biasanya sepadan: di sinilah sebagian besar modal dibangun, dan hasil-hasil yang membuatmu siap pindah sedang terbentuk. <b>Di puncak yang datar</b>, alasan untuk berganti (peran baru, di dalam atau di luar) makin kuat dari bulan ke bulan, karena waktumu ditukar dengan pembelajaran yang makin sedikit, sementara modal yang sudah kamu bangun sedang paling terlihat. Tanda-tanda kamu sudah sampai di puncak: sebagian besar pekerjaanmu bisa dikerjakan sambil setengah tidur; masalah baru hanyalah variasi masalah lama; kamu lebih banyak mengajar daripada belajar; atasanmu mengandalkanmu tetapi tidak bisa lagi menantangmu; dan hasil setahun terakhirmu bisa diceritakan sebagai kisah utuh dengan awal dan akhir. Dua peringatan. Kurva bisa dimulai ulang tanpa pergi (portofolio baru, gugus tugas, penugasan sementara; Pelajaran 7.3), dan itu sering menjadi cara termurah untuk menanjak lagi. Kurva yang datar juga baru alasan untuk <b>mempertimbangkan</b> pindah, bukan bukti bahwa kamu harus pindah. Peran berikutnya harus benar-benar memulai kurva yang lebih curam, dan itulah pokok bahasan Pelajaran 7.2."
        },
        "table": {
         "cols": [
@@ -38321,7 +38321,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Default",
-          "id": "Bawaan"
+          "id": "Pilihan bawaan"
          }
         ],
         "rows": [
@@ -38332,7 +38332,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Still learning the basics; results not yet yours",
-           "id": "Masih mempelajari dasar; hasil belum milikmu"
+           "id": "Masih mempelajari dasar-dasarnya; hasilnya belum menjadi milikmu"
           },
           {
            "en": "Stay and learn",
@@ -38342,11 +38342,11 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Steep</b>",
-           "id": "<b>Curam</b>"
+           "id": "<b>Menanjak</b>"
           },
           {
            "en": "Stretched most weeks; results forming",
-           "id": "Teregang hampir tiap minggu; hasil sedang terbentuk"
+           "id": "Tertantang hampir setiap minggu; hasil mulai terbentuk"
           },
           {
            "en": "Stay and convert learning into evidence",
@@ -38364,13 +38364,13 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Consider a new curve, inside first, then outside",
-           "id": "Pertimbangkan kurva baru: di dalam dulu, lalu di luar"
+           "id": "Pertimbangkan kurva baru, di dalam dulu, lalu di luar"
           }
          ]
         ],
         "caption": {
          "en": "After Whitney Johnson’s S-curve of learning; defaults are course guidance, not rules.",
-         "id": "Mengikuti kurva S pembelajaran Whitney Johnson; bawaan adalah panduan kursus, bukan aturan."
+         "id": "Berdasarkan kurva S pembelajaran dari Whitney Johnson; pilihan bawaannya adalah panduan kursus, bukan aturan."
         }
        }
       },
@@ -38378,11 +38378,11 @@ window.MT_LMS['the-route'] = {
        "icon": "compass",
        "h": {
         "en": "Good reasons, weak reasons, and two biases",
-        "id": "Alasan baik, alasan lemah, dan dua bias"
+        "id": "Alasan kuat, alasan lemah, dan dua bias"
        },
        "body": {
-        "en": "Reasons to move come as <b>push</b> (something wrong where you are) and <b>pull</b> (something attractive elsewhere). Both can be good or weak. <b>Good push reasons</b>: the curve is flat and cannot be restarted inside; a <b>structural block</b> from Lesson 5.4. A freeze, no slot, a level you cannot reach from this unit; a red line from Lesson 1.3 being crossed repeatedly; a manager relationship that has been honestly worked on and still damages your growth; health or family needs the role cannot accommodate. <b>Weak push reasons</b>: a bad month, a single conflict, a promotion that went to someone else this round without a diagnostic conversation, boredom during a steep part that is simply hard. <b>Good pull reasons</b>: a role that builds capital you cannot build here, opens a door that matters in your trajectory, with a manager and organisation that will accelerate you (Lesson 7.2). <b>Weak pull reasons</b>: a title, a bigger number alone, a friend’s move, a brand. Two biases pull in opposite directions, and you should suspect both. <b>Status quo bias</b>: Samuelson and Zeckhauser’s finding that people prefer the current state out of proportion to its merits. Keeps people in flat roles for years, especially in cultures where loyalty is prized and leaving feels like betrayal. The opposite, the <b>grass-is-greener</b> effect, makes the unknown option look better because its problems are invisible: the new organisation has politics, targets and difficult managers too; you just have not met them. A useful discipline from Chip and Dan Heath’s <i>Decisive</i> is to attain distance, for example with Suzy Welch’s “10/10/10” question: how will I feel about this decision in ten minutes, ten months and ten years?",
-        "id": "Alasan untuk pindah datang sebagai <b>dorongan</b> (ada yang salah di tempatmu) dan <b>tarikan</b> (ada yang menarik di tempat lain). Keduanya bisa baik atau lemah. <b>Dorongan yang baik</b>: kurvanya datar dan tak bisa dimulai ulang di dalam; <b>hambatan struktural</b> dari Pelajaran 5.4. Pembekuan, tak ada slot, level yang tak bisa dicapai dari unit ini; garis merah dari Pelajaran 1.3 yang dilanggar berulang kali; hubungan dengan manajer yang sudah diupayakan dengan jujur dan tetap merusak pertumbuhanmu; kebutuhan kesehatan atau keluarga yang tak bisa diakomodasi peran itu. <b>Dorongan yang lemah</b>: bulan yang buruk, satu konflik, promosi yang jatuh ke orang lain di putaran ini tanpa percakapan diagnostik, rasa bosan di bagian curam yang memang sulit. <b>Tarikan yang baik</b>: peran yang membangun modal yang tak bisa kamu bangun di sini, membuka pintu yang penting dalam lintasanmu, dengan manajer dan organisasi yang akan mempercepatmu (Pelajaran 7.2). <b>Tarikan yang lemah</b>: jabatan, angka yang lebih besar semata, kepindahan teman, merek. Dua bias menarik ke arah berlawanan, dan kamu sebaiknya mencurigai keduanya. <b>Bias status quo</b>, temuan Samuelson dan Zeckhauser bahwa orang lebih menyukai keadaan sekarang melebihi kelebihannya yang sebenarnya, membuat orang bertahan di peran datar selama bertahun-tahun, terutama di budaya yang menjunjung kesetiaan dan di mana pergi terasa seperti pengkhianatan. Kebalikannya, efek <b>rumput tetangga lebih hijau</b>, membuat pilihan yang tak dikenal tampak lebih baik karena masalahnya tak terlihat: organisasi baru juga punya politik, target, dan manajer sulit; kamu hanya belum bertemu mereka. Disiplin berguna dari <i>Decisive</i> karya Chip dan Dan Heath adalah mengambil jarak, misalnya dengan pertanyaan “10/10/10” dari Suzy Welch: bagaimana perasaanku tentang keputusan ini dalam sepuluh menit, sepuluh bulan, dan sepuluh tahun?"
+        "en": "Reasons to move come as <b>push</b> (something wrong where you are) and <b>pull</b> (something attractive elsewhere). Both can be good or weak. <b>Good push reasons</b>: the curve is flat and cannot be restarted inside; a <b>structural block</b> from Lesson 5.4 (a freeze, no slot, a level you cannot reach from this unit); a red line from Lesson 1.3 being crossed repeatedly; a manager relationship that has been honestly worked on and still damages your growth; health or family needs the role cannot accommodate. <b>Weak push reasons</b>: a bad month, a single conflict, a promotion that went to someone else this round without a diagnostic conversation, boredom during a steep part that is simply hard. <b>Good pull reasons</b>: a role that builds capital you cannot build here, opens a door that matters in your trajectory, with a manager and organisation that will accelerate you (Lesson 7.2). <b>Weak pull reasons</b>: a title, a bigger number alone, a friend’s move, a brand. Two biases pull in opposite directions, and you should suspect both. <b>Status quo bias</b> (Samuelson and Zeckhauser’s finding that people prefer the current state out of proportion to its merits) keeps people in flat roles for years, especially in cultures where loyalty is prized and leaving feels like betrayal. The opposite, the <b>grass-is-greener</b> effect, makes the unknown option look better because its problems are invisible: the new organisation has politics, targets and difficult managers too; you just have not met them. A useful discipline from Chip and Dan Heath’s <i>Decisive</i> is to attain distance, for example with Suzy Welch’s “10/10/10” question: how will I feel about this decision in ten minutes, ten months and ten years?",
+        "id": "Alasan untuk pindah datang sebagai <b>dorongan</b> (ada yang salah di tempatmu sekarang) dan <b>tarikan</b> (ada yang menarik di tempat lain). Keduanya bisa kuat atau lemah. <b>Dorongan yang kuat</b>: kurvanya datar dan tidak bisa dimulai ulang di dalam; ada <b>hambatan struktural</b> dari Pelajaran 5.4 (pembekuan, kursi yang tidak ada, level yang tidak bisa dicapai dari unit ini); garis merah dari Pelajaran 1.3 berulang kali dilanggar; hubungan dengan atasan yang sudah diusahakan dengan jujur tetapi tetap merusak pertumbuhanmu; kebutuhan kesehatan atau keluarga yang tidak bisa diakomodasi peranmu. <b>Dorongan yang lemah</b>: satu bulan yang buruk, satu konflik, promosi yang jatuh ke orang lain di putaran ini tanpa percakapan diagnosis, atau rasa bosan di bagian kurva yang menanjak yang memang sedang berat. <b>Tarikan yang kuat</b>: peran yang membangun modal yang tidak bisa kamu bangun di sini, membuka pintu yang penting bagi lintasanmu, dengan atasan dan organisasi yang akan mempercepatmu (Pelajaran 7.2). <b>Tarikan yang lemah</b>: jabatan, angka yang lebih besar saja, kepindahan seorang teman, atau nama besar perusahaan. Ada dua bias yang menarik ke arah berlawanan, dan kamu perlu mencurigai keduanya. <b>Bias status quo</b> (temuan Samuelson dan Zeckhauser bahwa orang lebih menyukai keadaan sekarang melebihi nilai sebenarnya) membuat orang bertahan bertahun-tahun di peran yang datar, terutama di budaya yang menjunjung loyalitas dan yang membuat pergi terasa seperti berkhianat. Kebalikannya, efek <b>rumput tetangga lebih hijau</b>, membuat pilihan yang belum dikenal terlihat lebih baik karena masalahnya tidak kelihatan: organisasi baru juga punya politik, target, dan atasan yang sulit; kamu hanya belum bertemu dengan semua itu. Disiplin yang berguna dari buku <i>Decisive</i> karya Chip dan Dan Heath adalah mengambil jarak, misalnya dengan pertanyaan “10/10/10” dari Suzy Welch: bagaimana perasaanku tentang keputusan ini sepuluh menit, sepuluh bulan, dan sepuluh tahun lagi?"
        },
        "table": {
         "cols": [
@@ -38392,7 +38392,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Good",
-          "id": "Baik"
+          "id": "Kuat"
          },
          {
           "en": "Weak",
@@ -38407,11 +38407,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Flat curve; structural block; repeated red-line breach; health or family",
-           "id": "Kurva datar; hambatan struktural; garis merah dilanggar berulang; kesehatan atau keluarga"
+           "id": "Kurva datar; hambatan struktural; garis merah berulang kali dilanggar; kesehatan atau keluarga"
           },
           {
            "en": "A bad month; one conflict; one lost round with no diagnosis",
-           "id": "Bulan buruk; satu konflik; kalah satu putaran tanpa diagnosis"
+           "id": "Satu bulan yang buruk; satu konflik; kalah satu putaran tanpa diagnosis"
           }
          ],
          [
@@ -38421,17 +38421,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Capital you cannot build here; the next door in your trajectory",
-           "id": "Modal yang tak bisa dibangun di sini; pintu berikutnya dalam lintasanmu"
+           "id": "Modal yang tidak bisa kamu bangun di sini; pintu berikutnya dalam lintasanmu"
           },
           {
            "en": "A title; a number alone; a friend’s move; a brand",
-           "id": "Jabatan; angka semata; kepindahan teman; merek"
+           "id": "Jabatan; angka saja; kepindahan teman; nama besar"
           }
          ]
         ],
         "caption": {
          "en": "Course guidance; biases after Samuelson and Zeckhauser (1988) and Heath and Heath, <i>Decisive</i>.",
-         "id": "Panduan kursus; bias mengikuti Samuelson dan Zeckhauser (1988) serta Heath dan Heath, <i>Decisive</i>."
+         "id": "Panduan kursus; bias berdasarkan Samuelson dan Zeckhauser (1988) serta Heath dan Heath, <i>Decisive</i>."
         }
        }
       },
@@ -38439,11 +38439,11 @@ window.MT_LMS['the-route'] = {
        "icon": "target",
        "h": {
         "en": "The ledger: now versus twelve months",
-        "id": "Neraca: sekarang versus dua belas bulan"
+        "id": "Neracanya: sekarang atau dua belas bulan lagi"
        },
        "body": {
-        "en": "Most timing mistakes come from comparing a vivid option (the offer on the table) with a vague one (“staying”). Make both concrete with a <b>ledger</b>: what moving now would cost and gain, against what moving in twelve months would cost and gain. Five lines usually matter. <b>Money</b>: a bonus or incentive paid only to people employed on a date; the timing of holiday bonus; unvested benefits; and any <b>training bond</b> (ikatan dinas) you would have to repay if you left before it expires. Read your agreement, since the terms and their enforceability vary <span class=\"ev ev-verify\">Verify</span>. <b>The story</b>: is there a result due in the next months that would complete the story you will tell the next employer? Leaving two months before a pilot’s results turns “I led the pilot that cut returns by a third” into “I was working on a pilot”. <b>Relationships</b>: are you mid-way through earning a sponsor, or in the first months with a new manager who will later be a reference? <b>The window</b>: is the opportunity genuinely time-limited, or will similar ones exist in a year, perhaps at a better level, because your file is stronger? <b>Your life</b>: family events, health, study, the financial cushion to absorb a probation period or a relocation. Tenure norms matter less than they once did, but a pattern of very short stints can still prompt questions from employers; one well-explained short stint rarely does <span class=\"ev ev-contested\">Contested</span>. Write the ledger in numbers and sentences, show it to one person on your board (Lesson 6.4), and notice which column you keep adding to; that is often your real answer.",
-        "id": "Kebanyakan kesalahan waktu berasal dari membandingkan pilihan yang jelas (tawaran di meja) dengan pilihan yang samar (“bertahan”). Buat keduanya konkret dengan <b>neraca</b>: apa biaya dan manfaat pindah sekarang, dibanding biaya dan manfaat pindah dua belas bulan lagi. Lima baris biasanya penting. <b>Uang</b>: bonus atau insentif yang hanya dibayarkan kepada karyawan yang masih bekerja pada tanggal tertentu; waktu THR; manfaat yang belum menjadi hakmu; dan <b>ikatan dinas</b> pelatihan yang harus kamu bayar kembali jika pergi sebelum habis. Baca perjanjianmu, karena syarat dan keberlakuannya berbeda-beda <span class=\"ev ev-verify\">Verifikasi</span>. <b>Ceritanya</b>: adakah hasil yang jatuh tempo dalam beberapa bulan ke depan yang akan melengkapi cerita yang akan kamu sampaikan kepada pemberi kerja berikutnya? Pergi dua bulan sebelum hasil pilot keluar mengubah “saya memimpin pilot yang memangkas pengembalian sepertiga” menjadi “saya sedang mengerjakan pilot”. <b>Hubungan</b>: apakah kamu sedang di tengah jalan mendapatkan sponsor, atau di bulan-bulan pertama dengan manajer baru yang kelak akan menjadi referensi? <b>Jendelanya</b>: apakah kesempatan itu benar-benar terbatas waktu, atau akan ada yang serupa setahun lagi, mungkin di level yang lebih baik, karena berkasmu lebih kuat? <b>Hidupmu</b>: acara keluarga, kesehatan, studi, bantalan finansial untuk menghadapi masa percobaan atau relokasi. Norma masa kerja tak sepenting dulu, tetapi pola masa kerja yang sangat singkat masih bisa memancing pertanyaan dari pemberi kerja; satu masa kerja singkat yang dijelaskan dengan baik jarang menjadi masalah <span class=\"ev ev-contested\">Diperdebatkan</span>. Tulis neracanya dalam angka dan kalimat, tunjukkan kepada satu orang di dewanmu (Pelajaran 6.4), dan perhatikan kolom mana yang terus kamu tambahi; itu sering jawabanmu yang sebenarnya."
+        "en": "Most timing mistakes come from comparing a vivid option (the offer on the table) with a vague one (“staying”). Make both concrete with a <b>ledger</b>: what moving now would cost and gain, against what moving in twelve months would cost and gain. Five lines usually matter. <b>Money</b>: a bonus or incentive paid only to people employed on a date; the timing of THR; unvested benefits; and any <b>training bond</b> (ikatan dinas) you would have to repay if you left before it expires. Read your agreement, since the terms and their enforceability vary <span class=\"ev ev-verify\">Verify</span>. <b>The story</b>: is there a result due in the next months that would complete the story you will tell the next employer? Leaving two months before a pilot’s results turns “I led the pilot that cut returns by a third” into “I was working on a pilot”. <b>Relationships</b>: are you mid-way through earning a sponsor, or in the first months with a new manager who will later be a reference? <b>The window</b>: is the opportunity genuinely time-limited, or will similar ones exist in a year, perhaps at a better level, because your file is stronger? <b>Your life</b>: family events, health, study, the financial cushion to absorb a probation period or a relocation. Tenure norms matter less than they once did, but a pattern of very short stints can still prompt questions from employers; one well-explained short stint rarely does <span class=\"ev ev-contested\">Contested</span>. Write the ledger in numbers and sentences, show it to one person on your board (Lesson 6.4), and notice which column you keep adding to; that is often your real answer.",
+        "id": "Kebanyakan kesalahan soal waktu berasal dari membandingkan pilihan yang jelas terlihat (tawaran di depan mata) dengan pilihan yang samar (“bertahan”). Buat keduanya konkret dengan sebuah <b>neraca</b>: apa biaya dan keuntungan pindah sekarang, dibanding biaya dan keuntungan pindah dua belas bulan lagi. Biasanya ada lima baris yang penting. <b>Uang</b>: bonus atau insentif yang hanya dibayarkan kepada karyawan yang masih bekerja pada tanggal tertentu; jadwal THR; manfaat yang belum menjadi hakmu; dan <b>ikatan dinas</b> apa pun yang harus kamu ganti biayanya kalau keluar sebelum masanya habis. Baca perjanjianmu, karena syarat dan keberlakuannya berbeda-beda <span class=\"ev ev-verify\">Periksa</span>. <b>Ceritanya</b>: apakah ada hasil yang keluar dalam beberapa bulan ke depan yang akan melengkapi kisah yang akan kamu ceritakan kepada pemberi kerja berikutnya? Pergi dua bulan sebelum hasil uji coba keluar mengubah “saya memimpin uji coba yang memangkas berkas yang dikembalikan hingga sepertiga” menjadi “saya sedang mengerjakan uji coba”. <b>Hubungan</b>: apakah kamu sedang di tengah jalan meraih seorang sponsor, atau baru beberapa bulan bersama atasan baru yang kelak akan menjadi referensimu? <b>Momennya</b>: apakah kesempatannya benar-benar terbatas waktu, atau kesempatan serupa akan tetap ada setahun lagi, mungkin di level yang lebih tinggi karena berkasmu lebih kuat? <b>Hidupmu</b>: acara keluarga, kesehatan, kuliah, dan bantalan finansial untuk melewati masa percobaan atau pindah kota. Norma lama bekerja kini tidak sepenting dulu, tetapi pola masa kerja yang sangat singkat berulang kali masih bisa memancing pertanyaan dari pemberi kerja; satu masa kerja singkat yang dijelaskan dengan baik jarang dipersoalkan <span class=\"ev ev-contested\">Masih diperdebatkan</span>. Tulis neracanya dalam angka dan kalimat, tunjukkan kepada satu orang di dewanmu (Pelajaran 6.4), dan perhatikan kolom mana yang terus kamu tambahi. Sering kali itulah jawabanmu yang sebenarnya."
        },
        "table": {
         "cols": [
@@ -38468,11 +38468,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Bonus forfeited? Bond repayment?",
-           "id": "Bonus hangus? Pembayaran ikatan dinas?"
+           "id": "Bonus hangus? Ganti biaya ikatan dinas?"
           },
           {
            "en": "Bonus paid; bond expired; higher base to negotiate from",
-           "id": "Bonus dibayar; ikatan habis; gaji pokok lebih tinggi sebagai dasar negosiasi"
+           "id": "Bonus dibayar; ikatan dinas habis; gaji pokok lebih tinggi sebagai titik tawar"
           }
          ],
          [
@@ -38486,7 +38486,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "“Led … which achieved …”",
-           "id": "“Memimpin … yang mencapai …”"
+           "id": "“Memimpin … yang berhasil …”"
           }
          ],
          [
@@ -38496,7 +38496,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Sponsor half-earned",
-           "id": "Sponsor setengah jalan"
+           "id": "Sponsor baru setengah diraih"
           },
           {
            "en": "A reference who has seen the result",
@@ -38506,11 +38506,11 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Window</b>",
-           "id": "<b>Jendela</b>"
+           "id": "<b>Momen</b>"
           },
           {
            "en": "This specific role",
-           "id": "Peran spesifik ini"
+           "id": "Peran yang spesifik ini"
           },
           {
            "en": "Similar roles, possibly one level higher",
@@ -38524,7 +38524,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Relocation, probation, family timing",
-           "id": "Relokasi, masa percobaan, waktu keluarga"
+           "id": "Pindah kota, masa percobaan, waktu untuk keluarga"
           },
           {
            "en": "More savings; family plans clearer",
@@ -38533,8 +38533,8 @@ window.MT_LMS['the-route'] = {
          ]
         ],
         "caption": {
-         "en": "Course guidance. Bonus, holiday bonus and bond terms depend on your contract and policy, verify yours.",
-         "id": "Panduan kursus. Syarat bonus, THR, dan ikatan dinas bergantung pada kontrak dan kebijakanmu, verifikasi milikmu."
+         "en": "Course guidance. Bonus, THR and bond terms depend on your contract and policy; verify yours.",
+         "id": "Panduan kursus. Syarat bonus, THR, dan ikatan dinas bergantung pada kontrak dan kebijakan di tempatmu; periksa milikmu."
         }
        }
       }
@@ -38543,11 +38543,11 @@ window.MT_LMS['the-route'] = {
       "type": "timeline",
       "exhibit": {
        "en": "Exhibit 1: The S-curve of a role",
-       "id": "Peraga 1: Kurva S sebuah peran"
+       "id": "Gambar 1: Kurva S sebuah peran"
       },
       "title": {
        "en": "Slow start, steep middle, flat top; the timing question lives at the top",
-       "id": "Awal lambat, tengah curam, puncak datar; pertanyaan waktu ada di puncak"
+       "id": "Awal yang lambat, tengah yang menanjak, puncak yang datar; pertanyaan soal waktu ada di puncak"
       },
       "items": [
        {
@@ -38558,25 +38558,25 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Learning the basics. Moving now wastes capital.",
-         "id": "Mempelajari dasar. Pindah sekarang memboroskan modal."
+         "id": "Mempelajari dasar-dasarnya. Pindah sekarang membuang modal."
         }
        },
        {
         "icon": "book",
         "h": {
          "en": "Climb",
-         "id": "Mendaki"
+         "id": "Menanjak"
         },
         "sub": {
          "en": "Stretched most weeks. Capital is being built.",
-         "id": "Teregang hampir tiap minggu. Modal sedang dibangun."
+         "id": "Tertantang hampir setiap minggu. Modal sedang dibangun."
         }
        },
        {
         "icon": "chart",
         "h": {
          "en": "Convert",
-         "id": "Konversi"
+         "id": "Mengubah"
         },
         "sub": {
          "en": "Learning becomes evidence with numbers and witnesses.",
@@ -38587,32 +38587,32 @@ window.MT_LMS['the-route'] = {
         "icon": "target",
         "h": {
          "en": "Mastery",
-         "id": "Penguasaan"
+         "id": "Menguasai"
         },
         "sub": {
          "en": "Teaching more than learning. The story is complete.",
-         "id": "Lebih banyak mengajar daripada belajar. Ceritanya utuh."
+         "id": "Lebih banyak mengajar daripada belajar. Kisahnya sudah utuh."
         }
        },
        {
         "icon": "compass",
         "h": {
          "en": "Decide",
-         "id": "Putuskan"
+         "id": "Memutuskan"
         },
         "sub": {
          "en": "Restart the curve inside, or move to a steeper one.",
-         "id": "Mulai ulang kurva di dalam, atau pindah ke kurva yang lebih curam."
+         "id": "Mulai ulang kurvanya di dalam, atau pindah ke kurva yang lebih curam."
         }
        }
       ],
       "note": {
        "en": "Move from the top of a curve, with the result in the file, not from the bottom, with a bad week in your head.",
-       "id": "Pindahlah dari puncak kurva, dengan hasil di berkas, bukan dari bawah, dengan minggu yang buruk di kepala."
+       "id": "Pindahlah dari puncak kurva dengan hasil yang sudah tercatat di berkas, bukan dari bawah dengan minggu yang buruk di kepalamu."
       },
       "longdesc": {
        "en": "A five-stage timeline of a role’s learning curve. Launch: learning the basics; moving wastes capital. Climb: stretched most weeks while capital is built. Convert: learning becomes evidence. Mastery: teaching more than learning, with a complete story. Decide: restart the curve inside the organisation or move to a steeper curve elsewhere.",
-       "id": "Garis waktu lima tahap kurva belajar sebuah peran. Awal: mempelajari dasar; pindah memboroskan modal. Mendaki: teregang hampir tiap minggu sementara modal dibangun. Konversi: pembelajaran menjadi bukti. Penguasaan: lebih banyak mengajar daripada belajar, dengan cerita utuh. Putuskan: mulai ulang kurva di dalam organisasi atau pindah ke kurva yang lebih curam di tempat lain."
+       "id": "Linimasa lima tahap kurva belajar sebuah peran. Awal: mempelajari dasar-dasarnya; pindah membuang modal. Menanjak: tertantang hampir setiap minggu saat modal dibangun. Mengubah: pembelajaran menjadi bukti. Menguasai: lebih banyak mengajar daripada belajar, dengan kisah yang utuh. Memutuskan: memulai ulang kurva di dalam organisasi atau pindah ke kurva yang lebih curam di tempat lain."
       }
      },
      "compare": [
@@ -38623,7 +38623,7 @@ window.MT_LMS['the-route'] = {
        },
        "q": {
         "en": "Rina asks Nadia, a month after the taskforce ended, whether she is thinking of moving.",
-        "id": "Rina bertanya kepada Nadia, sebulan setelah satgas selesai, apakah ia berpikir untuk pindah."
+        "id": "Sebulan setelah gugus tugas selesai, Rina bertanya kepada Nadia apakah ia sedang berpikir untuk pindah."
        },
        "weak": {
         "en": "“Jujur, Kak, aku bosan. Teman-teman seangkatan sudah pada pindah ke fintech, gajinya jauh lebih besar. Kayaknya aku harus cepat-cepat keluar sebelum ketinggalan.”",
@@ -38635,7 +38635,7 @@ window.MT_LMS['the-route'] = {
        },
        "why": {
         "en": "The first mixes a mood, a comparison and fear of missing out. The second locates her on the curve, names portable capital and unfinished business, and turns “when” into a plan, inside options first. Fictional.",
-        "id": "Yang pertama mencampur suasana hati, perbandingan, dan takut ketinggalan. Yang kedua menempatkan dirinya di kurva, menyebut modal yang bisa dibawa dan urusan yang belum selesai, dan mengubah “kapan” menjadi rencana, pilihan di dalam lebih dulu. Fiktif."
+        "id": "Yang pertama mencampur suasana hati, perbandingan, dan takut ketinggalan. Yang kedua menempatkan dirinya di kurva, menyebut modal yang bisa dibawa dan urusan yang belum selesai, dan mengubah “kapan” menjadi rencana, dengan pilihan di dalam lebih dulu. Fiktif."
        }
       }
      ],
@@ -38643,16 +38643,16 @@ window.MT_LMS['the-route'] = {
       "icon": "chat",
       "title": {
        "en": "In focus: the recruiter’s call",
-       "id": "Sorotan: telepon rekruter"
+       "id": "Sorotan: telepon dari rekruter"
       },
       "body": [
        {
-        "en": "A recruiter calls Nadia on a Tuesday afternoon: a Jakarta fintech wants an SME credit lead, “gaji naik 40%, bisa mulai bulan depan”. Her heart rate rises. It has been a hard month, two borrowers restructuring, a difficult committee, and the number is large.",
-        "id": "Seorang rekruter menelepon Nadia pada Selasa sore: sebuah fintech Jakarta mencari pemimpin kredit UMKM, “gaji naik 40%, bisa mulai bulan depan”. Jantungnya berdebar. Bulan ini berat, dua debitur direstrukturisasi, komite yang sulit, dan angkanya besar."
+        "en": "A recruiter calls Nadia on a Tuesday afternoon: a Jakarta fintech wants an SME credit lead, “gaji naik 40%, bisa mulai bulan depan”. Her heart rate rises. It has been a hard month (two borrowers restructuring, a difficult committee), and the number is large.",
+        "id": "Seorang rekruter menelepon Nadia pada Selasa sore: sebuah fintech di Jakarta butuh pemimpin kredit UMKM, “gaji naik 40%, bisa mulai bulan depan”. Jantungnya berdegup lebih cepat. Bulan ini berat (dua debitur sedang direstrukturisasi, rapat komite yang alot), dan angkanya besar."
        },
        {
-        "en": "She asks for the role description and says she will reply on Friday. That evening she writes the ledger. Money: her annual bonus is paid in March, three months away, and the certification bond has five months left to run. Story: the restructuring results are due in four months. Relationships: Pak Arya has just seen her taskforce work. Window: the recruiter admits the role “sering dibuka”. On Friday she tells the recruiter, warmly, that the timing is not right, that she would like to stay in touch, and that she will be in a stronger position to talk in six months. The recruiter notes it, and calls again in five.",
-        "id": "Ia meminta deskripsi perannya dan bilang akan membalas hari Jumat. Malam itu ia menulis neracanya. Uang: bonus tahunannya dibayar bulan Maret, tiga bulan lagi, dan ikatan dinas sertifikasi masih lima bulan. Cerita: hasil restrukturisasi keluar empat bulan lagi. Hubungan: Pak Arya baru saja melihat kerja satgasnya. Jendela: rekruter mengakui peran itu “sering dibuka”. Hari Jumat ia memberi tahu rekruter dengan hangat bahwa waktunya belum tepat, bahwa ia ingin tetap berhubungan, dan bahwa posisinya akan lebih kuat untuk berbicara enam bulan lagi. Rekruter mencatatnya, dan menelepon lagi lima bulan kemudian."
+        "en": "She asks for the role description and says she will reply on Friday. That evening she writes the ledger. Money: her annual bonus is paid in March, three months away, and the certification bond has five months left to run. Story: the restructuring results are due in four months. Relationships: Pak Arya has just seen her taskforce work. Window: the recruiter admits the role “sering dibuka”. On Friday she tells the recruiter, warmly, that the timing is not right, that she would like to stay in touch, and that she will be in a stronger position to talk in six months. The recruiter notes it, and calls again three months later.",
+        "id": "Ia meminta deskripsi perannya dan bilang akan membalas hari Jumat. Malam itu ia menulis neracanya. Uang: bonus tahunannya dibayarkan bulan Maret, tiga bulan lagi, dan ikatan dinas sertifikasinya masih lima bulan. Cerita: hasil restrukturisasi keluar empat bulan lagi. Hubungan: Pak Arya baru saja melihat hasil kerjanya di gugus tugas. Momen: rekruter itu mengakui perannya “sering dibuka”. Hari Jumat ia menyampaikan kepada rekruter dengan hangat bahwa waktunya belum tepat, bahwa ia ingin tetap berhubungan, dan bahwa enam bulan lagi posisinya akan lebih kuat untuk bicara. Rekruter itu mencatatnya, dan menelepon lagi tiga bulan kemudian."
        }
       ]
      },
@@ -38663,12 +38663,12 @@ window.MT_LMS['the-route'] = {
         "id": "Latihan 1 · Inventaris modal"
        },
        "body": {
-        "en": "Fill the five rows, skills, evidence, reputation, relationships, options, with what you have now. For each, apply the travel test and mark one thing not yet built.",
-        "id": "Isi kelima baris, keterampilan, bukti, reputasi, hubungan, pilihan, dengan yang kamu punya sekarang. Untuk masing-masing, terapkan uji bisa-dibawa dan tandai satu hal yang belum dibangun."
+        "en": "Fill the five rows (skills, evidence, reputation, relationships, options) with what you have now. For each, apply the travel test and mark one thing not yet built.",
+        "id": "Isi kelima barisnya (keterampilan, bukti, reputasi, hubungan, pilihan) dengan apa yang kamu punya sekarang. Untuk masing-masing, jalankan tes “bisa dibawa” dan tandai satu hal yang belum dibangun."
        },
        "debrief": {
-        "en": "If most of your capital fails the travel test, the next year is about making it portable, evidence and external reputation, whether you move or not.",
-        "id": "Jika sebagian besar modalmu gagal di uji bisa-dibawa, setahun ke depan adalah tentang membuatnya bisa dibawa, bukti dan reputasi eksternal, entah kamu pindah atau tidak."
+        "en": "If most of your capital fails the travel test, the next year is about making it portable (evidence and external reputation), whether you move or not.",
+        "id": "Kalau sebagian besar modalmu gagal di tes itu, tahun depan adalah soal membuatnya bisa dibawa (bukti dan reputasi eksternal), entah kamu pindah atau tidak."
        }
       },
       {
@@ -38678,11 +38678,11 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Answer five questions with yes or no: most work doable half-asleep; new problems are variations of old; teaching more than learning; manager cannot stretch you further; last year is a complete story. Where are you?",
-        "id": "Jawab lima pertanyaan dengan ya atau tidak: sebagian besar pekerjaan bisa dikerjakan setengah tidur; masalah baru adalah variasi lama; lebih banyak mengajar daripada belajar; manajer tak bisa meregangkanmu lagi; setahun terakhir adalah kisah utuh. Di mana posisimu?"
+        "id": "Jawab lima pertanyaan dengan ya atau tidak: sebagian besar pekerjaan bisa dikerjakan sambil setengah tidur; masalah baru hanyalah variasi masalah lama; lebih banyak mengajar daripada belajar; atasan tidak bisa lagi menantangmu; setahun terakhir sudah menjadi kisah utuh. Di mana posisimu?"
        },
        "debrief": {
         "en": "Four or five yes answers suggest the top. Before looking outside, list two ways the curve could restart inside.",
-        "id": "Empat atau lima jawaban ya menandakan puncak. Sebelum melihat ke luar, daftar dua cara kurva bisa dimulai ulang di dalam."
+        "id": "Empat atau lima jawaban ya menandakan puncak. Sebelum melihat ke luar, tulis dua cara kurvanya bisa dimulai ulang di dalam."
        }
       },
       {
@@ -38691,12 +38691,12 @@ window.MT_LMS['the-route'] = {
         "id": "Latihan 3 · Neracanya"
        },
        "body": {
-        "en": "Write the five-line ledger, money, story, relationships, window, life, for moving now versus in twelve months. Use numbers and dates wherever you can.",
-        "id": "Tulis neraca lima baris, uang, cerita, hubungan, jendela, hidup, untuk pindah sekarang versus dua belas bulan lagi. Pakai angka dan tanggal sebisa mungkin."
+        "en": "Write the five-line ledger (money, story, relationships, window, life) for moving now versus in twelve months. Use numbers and dates wherever you can.",
+        "id": "Tulis neraca lima baris (uang, cerita, hubungan, momen, hidup) untuk pindah sekarang dibanding dua belas bulan lagi. Pakai angka dan tanggal sebisa mungkin."
        },
        "debrief": {
         "en": "Run 10/10/10 on the answer. If “now” wins only in the ten-minute column, it is probably a mood.",
-        "id": "Jalankan 10/10/10 pada jawabannya. Jika “sekarang” hanya menang di kolom sepuluh menit, kemungkinan itu suasana hati."
+        "id": "Uji jawabannya dengan 10/10/10. Kalau “sekarang” hanya menang di kolom sepuluh menit, kemungkinan besar itu suasana hati."
        }
       }
      ],
@@ -38705,7 +38705,7 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Moving on a bad month",
-         "id": "Pindah karena bulan yang buruk"
+         "id": "Pindah karena satu bulan yang buruk"
         },
         "fix": {
          "en": "Separate push from mood; write the ledger first.",
@@ -38719,13 +38719,13 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Check the story line: what completes it, and when?",
-         "id": "Periksa baris cerita: apa yang melengkapinya, dan kapan?"
+         "id": "Cek baris cerita: apa yang melengkapinya, dan kapan?"
         }
        },
        {
         "h": {
          "en": "Staying years on a flat curve",
-         "id": "Bertahan bertahun-tahun di kurva datar"
+         "id": "Bertahan bertahun-tahun di kurva yang datar"
         },
         "fix": {
          "en": "Suspect status quo bias; restart the curve or plan a move.",
@@ -38739,7 +38739,7 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Read bond, bonus and notice terms before any conversation.",
-         "id": "Baca syarat ikatan dinas, bonus, dan pemberitahuan sebelum percakapan apa pun."
+         "id": "Baca syarat ikatan dinas, bonus, dan masa pemberitahuan sebelum percakapan apa pun."
         }
        }
       ]
@@ -38752,7 +38752,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "Rare and valuable skills, evidence, reputation, relationships and options that buy you better work and more choice.",
-        "id": "Keterampilan langka dan bernilai, bukti, reputasi, hubungan, dan pilihan yang membelikanmu pekerjaan lebih baik dan lebih banyak pilihan."
+        "id": "Keterampilan, bukti, reputasi, hubungan, dan pilihan yang langka dan berharga, yang membelikanmu pekerjaan yang lebih baik dan pilihan yang lebih banyak."
        }
       },
       {
@@ -38762,7 +38762,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The learning curve of a role: slow start, steep middle, flat top.",
-        "id": "Kurva belajar sebuah peran: awal lambat, tengah curam, puncak datar."
+        "id": "Kurva belajar sebuah peran: awal yang lambat, tengah yang menanjak, puncak yang datar."
        }
       },
       {
@@ -38772,7 +38772,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "An agreement to stay a set time after employer-funded training, or repay part of its cost; terms vary.",
-        "id": "Perjanjian untuk bertahan selama waktu tertentu setelah pelatihan yang dibiayai pemberi kerja, atau membayar kembali sebagian biayanya; syaratnya berbeda-beda."
+        "id": "Perjanjian untuk bertahan selama waktu tertentu setelah pelatihan yang dibiayai pemberi kerja, atau mengganti sebagian biayanya; syaratnya berbeda-beda."
        }
       },
       {
@@ -38782,7 +38782,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "Preferring the current situation out of proportion to its merits.",
-        "id": "Lebih menyukai situasi saat ini melebihi kelebihannya yang sebenarnya."
+        "id": "Lebih menyukai keadaan sekarang melebihi nilai sebenarnya."
        }
       }
      ],
@@ -38790,20 +38790,20 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "You are stretched most weeks and the results of your main project are due in four months. The default is…",
-        "id": "Kamu teregang hampir tiap minggu dan hasil proyek utamamu keluar empat bulan lagi. Bawaannya adalah…"
+        "id": "Kamu tertantang hampir setiap minggu dan hasil proyek utamamu keluar empat bulan lagi. Pilihan bawaannya adalah…"
        },
        "options": [
         {
          "en": "Move now while you are motivated",
-         "id": "Pindah sekarang selagi termotivasi"
+         "id": "Pindah sekarang selagi semangat"
         },
         {
          "en": "Stay and convert the learning into evidence",
-         "id": "Bertahan dan ubah pembelajaran menjadi bukti"
+         "id": "Bertahan dan ubah pembelajarannya menjadi bukti"
         },
         {
          "en": "Ask for a transfer immediately",
-         "id": "Segera meminta mutasi"
+         "id": "Langsung meminta mutasi"
         },
         {
          "en": "Stop working on the project",
@@ -38813,18 +38813,18 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "You are on the steep part; leaving now turns a result into “was working on”.",
-        "id": "Kamu di bagian curam; pergi sekarang mengubah hasil menjadi “sedang mengerjakan”."
+        "id": "Kamu sedang di bagian yang menanjak; pergi sekarang mengubah hasil menjadi “sedang mengerjakan”."
        }
       },
       {
        "q": {
         "en": "Which is a good push reason to consider moving?",
-        "id": "Mana yang merupakan dorongan yang baik untuk mempertimbangkan pindah?"
+        "id": "Mana yang termasuk dorongan kuat untuk mempertimbangkan pindah?"
        },
        "options": [
         {
          "en": "A difficult month",
-         "id": "Bulan yang sulit"
+         "id": "Satu bulan yang berat"
         },
         {
          "en": "A friend’s new title",
@@ -38832,23 +38832,23 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "A structural block confirmed in a diagnostic conversation",
-         "id": "Hambatan struktural yang dikonfirmasi dalam percakapan diagnostik"
+         "id": "Hambatan struktural yang dipastikan lewat percakapan diagnosis"
         },
         {
          "en": "One disagreement with your manager",
-         "id": "Satu ketidaksepakatan dengan manajermu"
+         "id": "Satu perbedaan pendapat dengan atasanmu"
         }
        ],
        "correct": 2,
        "why": {
         "en": "A strong case with no path is a real reason; the others are moods or comparisons.",
-        "id": "Kasus kuat tanpa jalur adalah alasan nyata; yang lain adalah suasana hati atau perbandingan."
+        "id": "Argumen yang kuat tanpa jalan adalah alasan yang nyata; yang lain hanyalah suasana hati atau perbandingan."
        }
       },
       {
        "q": {
         "en": "Before replying to an attractive offer, the first thing to check is…",
-        "id": "Sebelum membalas tawaran yang menarik, hal pertama yang diperiksa adalah…"
+        "id": "Sebelum membalas tawaran yang menarik, hal pertama yang perlu dicek adalah…"
        },
        "options": [
         {
@@ -38857,7 +38857,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "The ledger: bonus timing, bond terms, the result due, the window",
-         "id": "Neracanya: waktu bonus, syarat ikatan dinas, hasil yang akan keluar, jendelanya"
+         "id": "Neracanya: jadwal bonus, syarat ikatan dinas, hasil yang akan keluar, momennya"
         },
         {
          "en": "The company’s logo",
@@ -38880,11 +38880,11 @@ window.MT_LMS['the-route'] = {
       "mode": "readiness",
       "title": {
        "en": "Check your readiness to move",
-       "id": "Periksa kesiapanmu untuk pindah"
+       "id": "Cek kesiapanmu untuk pindah"
       },
       "body": {
        "en": "Open the readiness diagnostic and read your scores as a mover would: which strengths are portable, and which gap would a new employer notice first? Note one thing to finish before you move.",
-       "id": "Buka diagnostik kesiapan dan baca skormu seperti orang yang akan pindah: kekuatan mana yang bisa dibawa, dan celah mana yang pertama diperhatikan pemberi kerja baru? Catat satu hal yang perlu diselesaikan sebelum pindah."
+       "id": "Buka diagnostik kesiapan dan baca nilaimu dari sudut pandang orang yang akan pindah: kekuatan mana yang bisa dibawa, dan celah mana yang pertama kali akan dilihat pemberi kerja baru? Catat satu hal yang perlu kamu tuntaskan sebelum pindah."
       },
       "cta": {
        "en": "Open the readiness diagnostic",
@@ -38893,20 +38893,20 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "Move from the top of a curve, with the result in the file, not from a bad week.",
-      "id": "Pindahlah dari puncak kurva, dengan hasil di berkas, bukan dari minggu yang buruk."
+      "id": "Pindahlah dari puncak kurva dengan hasil yang sudah tercatat di berkas, bukan karena minggu yang buruk."
      },
      "takeaways": [
       {
-       "en": "Inventory five kinds of capital, skills, evidence, reputation, relationships, options, and test whether each would travel.",
-       "id": "Inventarisasi lima jenis modal, keterampilan, bukti, reputasi, hubungan, pilihan, dan uji apakah masing-masing bisa dibawa."
+       "en": "Inventory five kinds of capital (skills, evidence, reputation, relationships, options) and test whether each would travel.",
+       "id": "Data lima jenis modal (keterampilan, bukti, reputasi, hubungan, pilihan) dan uji apakah masing-masing bisa dibawa."
       },
       {
        "en": "Stay on the steep part of the curve; consider moving at the flat top, after trying to restart it inside.",
-       "id": "Bertahan di bagian curam kurva; pertimbangkan pindah di puncak yang datar, setelah mencoba memulainya ulang di dalam."
+       "id": "Bertahanlah di bagian kurva yang menanjak; pertimbangkan pindah di puncak yang datar, setelah mencoba memulai ulang kurvanya di dalam."
       },
       {
        "en": "Separate push from pull and good from weak, suspect both biases, and write the now-versus-twelve-months ledger.",
-       "id": "Pisahkan dorongan dari tarikan dan yang baik dari yang lemah, curigai kedua bias, dan tulis neraca sekarang-versus-dua-belas-bulan."
+       "id": "Pisahkan dorongan dari tarikan dan yang kuat dari yang lemah, curigai kedua bias, dan tulis neraca sekarang dibanding dua belas bulan lagi."
       }
      ],
      "resources": {
@@ -38916,7 +38916,7 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "Career Kit item (part 1): your readiness assessment.",
-       "id": "Butir Career Kit (bagian 1): penilaian kesiapanmu."
+       "id": "Isi Perangkat Karier (bagian 1): penilaian kesiapanmu."
       },
       "items": [
        {
@@ -38927,7 +38927,7 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Where the ideas come from.",
-         "id": "Dari mana gagasannya berasal."
+         "id": "Dari mana gagasan-gagasan ini berasal."
         },
         "body": [
          {
@@ -38939,12 +38939,12 @@ window.MT_LMS['the-route'] = {
           "id": "W. Samuelson dan R. Zeckhauser, “Status Quo Bias in Decision Making” (1988); C. Heath dan D. Heath, <i>Decisive</i>: mengambil jarak, termasuk 10/10/10 dari Suzy Welch."
          },
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> Training-bond, bonus-eligibility and holiday bonus terms depend on your contract, company regulation and the law; read yours before deciding.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Syarat ikatan dinas, kelayakan bonus, dan THR bergantung pada kontrak, peraturan perusahaan, dan hukum; baca milikmu sebelum memutuskan."
+          "en": "<span class=\"ev ev-verify\">Verify</span> Training-bond, bonus-eligibility and THR terms depend on your contract, company regulation and the law; read yours before deciding.",
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Syarat ikatan dinas, hak atas bonus, dan THR bergantung pada kontrakmu, peraturan perusahaan, dan undang-undang; baca milikmu sebelum memutuskan."
          },
          {
           "en": "<span class=\"ev ev-contested\">Contested</span> How employers read short tenures varies by sector and generation; the five-part inventory and the ledger are course guidance.",
-          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Cara pemberi kerja membaca masa kerja singkat berbeda per sektor dan generasi; inventaris lima bagian dan neracanya adalah panduan kursus."
+          "id": "<span class=\"ev ev-contested\">Masih diperdebatkan</span> Cara pemberi kerja membaca masa kerja yang singkat berbeda menurut sektor dan generasi; inventaris lima bagian dan neracanya adalah panduan kursus."
          }
         ]
        },
@@ -38956,7 +38956,7 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Forty minutes; redo before any serious move.",
-         "id": "Empat puluh menit; ulangi sebelum perpindahan serius apa pun."
+         "id": "Empat puluh menit; ulangi sebelum mempertimbangkan pindah dengan serius."
         },
         "body": [
          {
@@ -38965,7 +38965,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "CURVE: launch / climb / top · evidence … · INSIDE RESTARTS: 1 … 2 … · REASONS: push … (good/weak) · pull … (good/weak)",
-          "id": "KURVA: awal / mendaki / puncak · bukti … · MULAI ULANG DI DALAM: 1 … 2 … · ALASAN: dorongan … (baik/lemah) · tarikan … (baik/lemah)"
+          "id": "KURVA: awal / menanjak / puncak · buktinya … · MULAI ULANG DI DALAM: 1 … 2 … · ALASAN: dorongan … (kuat/lemah) · tarikan … (kuat/lemah)"
          }
         ]
        },
@@ -38973,20 +38973,20 @@ window.MT_LMS['the-route'] = {
         "kind": "template",
         "title": {
          "en": "The now-versus-12-months ledger",
-         "id": "Neraca sekarang-versus-12-bulan"
+         "id": "Neraca sekarang dibanding 12 bulan lagi"
         },
         "desc": {
          "en": "One page; show it to one board member.",
-         "id": "Satu halaman; tunjukkan kepada satu anggota dewan."
+         "id": "Satu halaman; tunjukkan kepada satu anggota dewanmu."
         },
         "body": [
          {
           "en": "MONEY: now … / 12m … · STORY: now … / 12m … · RELATIONSHIPS: now … / 12m … · WINDOW: now … / 12m … · LIFE: now … / 12m …",
-          "id": "UANG: sekarang … / 12b … · CERITA: sekarang … / 12b … · HUBUNGAN: sekarang … / 12b … · JENDELA: sekarang … / 12b … · HIDUP: sekarang … / 12b …"
+          "id": "UANG: sekarang … / 12 bln … · CERITA: sekarang … / 12 bln … · HUBUNGAN: sekarang … / 12 bln … · MOMEN: sekarang … / 12 bln … · HIDUP: sekarang … / 12 bln …"
          },
          {
           "en": "10/10/10: in 10 minutes … · 10 months … · 10 years … · THE COLUMN I KEEP ADDING TO: …",
-          "id": "10/10/10: dalam 10 menit … · 10 bulan … · 10 tahun … · KOLOM YANG TERUS KUTAMBAHI: …"
+          "id": "10/10/10: dalam 10 menit … · 10 bulan … · 10 tahun … · KOLOM YANG TERUS SAYA TAMBAHI: …"
          }
         ]
        }
@@ -38999,32 +38999,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Evaluating Your Next Role Against Your Career Architecture",
-      "id": "Menilai Peran Berikutmu terhadap Arsitektur Kariermu"
+      "id": "Menilai Peran Berikutnya dengan Arsitektur Kariermu"
      },
      "overview": {
-      "en": "An offer arrives as a title, a number and a logo. None of the three tells you whether the role will build the capital you need, whether the manager will develop or stall you, whether the organisation will still be healthy in two years, or why the seat is empty. This lesson gives you four lenses, role, manager, organisation, team, and the questions and evidence for each; a way to score options against the career architecture you built in Module 1, with weights set before you see the number; and ethical ways to reality-test an option before you commit.",
-      "id": "Tawaran datang sebagai jabatan, angka, dan logo. Tak satu pun dari ketiganya memberitahumu apakah peran itu akan membangun modal yang kamu butuhkan, apakah manajernya akan mengembangkan atau menghambatmu, apakah organisasinya masih sehat dua tahun lagi, atau mengapa kursinya kosong. Pelajaran ini memberimu empat lensa, peran, manajer, organisasi, tim, beserta pertanyaan dan bukti untuk masing-masing; cara menilai pilihan terhadap arsitektur karier yang kamu bangun di Modul 1, dengan bobot yang ditetapkan sebelum kamu melihat angkanya; dan cara etis untuk menguji kenyataan sebuah pilihan sebelum berkomitmen."
+      "en": "An offer arrives as a title, a number and a logo. None of the three tells you whether the role will build the capital you need, whether the manager will develop or stall you, whether the organisation will still be healthy in two years, or why the seat is empty. This lesson gives you four lenses (role, manager, organisation, team) and the questions and evidence for each; a way to score options against the career architecture you built in Module 1, with weights set before you see the number; and ethical ways to reality-test an option before you commit.",
+      "id": "Tawaran datang dalam bentuk jabatan, angka, dan logo. Ketiganya tidak memberitahumu apakah peran itu akan membangun modal yang kamu butuhkan, apakah atasannya akan mengembangkan atau menghambatmu, apakah organisasinya masih sehat dua tahun lagi, atau kenapa kursinya kosong. Pelajaran ini memberimu empat lensa (peran, atasan, organisasi, tim) beserta pertanyaan dan bukti untuk masing-masing; cara menilai pilihan-pilihan dengan arsitektur karier yang kamu bangun di Modul 1, dengan bobot yang ditetapkan sebelum kamu melihat angkanya; dan cara-cara etis untuk menguji sebuah pilihan sebelum kamu berkomitmen."
      },
      "objectives": [
       {
        "en": "Evaluate a role through four lenses: role, manager, organisation, team.",
-       "id": "Menilai peran melalui empat lensa: peran, manajer, organisasi, tim."
+       "id": "Menilai sebuah peran lewat empat lensa: peran, atasan, organisasi, tim."
       },
       {
        "en": "Ask the questions, and find the evidence, that reveal each lens.",
-       "id": "Mengajukan pertanyaan, dan menemukan bukti, yang mengungkap tiap lensa."
+       "id": "Mengajukan pertanyaan dan menemukan bukti yang mengungkap tiap lensa."
       },
       {
        "en": "Score options against your career architecture with weights set in advance.",
-       "id": "Menilai pilihan terhadap arsitektur kariermu dengan bobot yang ditetapkan lebih dulu."
+       "id": "Menilai pilihan-pilihan dengan arsitektur kariermu, memakai bobot yang ditetapkan lebih dulu."
       },
       {
        "en": "Reality-test an option ethically before committing.",
-       "id": "Menguji kenyataan sebuah pilihan secara etis sebelum berkomitmen."
+       "id": "Menguji sebuah pilihan secara etis sebelum berkomitmen."
       }
      ],
      "readFirst": {
@@ -39038,25 +39038,25 @@ window.MT_LMS['the-route'] = {
         "n": "7.2",
         "title": {
          "en": "Evaluating Your Next Role Against Your Career Architecture",
-         "id": "Menilai Peran Berikutmu terhadap Arsitektur Kariermu"
+         "id": "Menilai Peran Berikutnya dengan Arsitektur Kariermu"
         }
        },
        "story": [
         {
          "en": "Ignore the title for a moment and describe the work: what capital does it build, and which door does it open?",
-         "id": "Abaikan jabatan sejenak dan gambarkan pekerjaannya: modal apa yang dibangun, dan pintu mana yang dibuka?"
+         "id": "Abaikan dulu jabatannya dan gambarkan pekerjaannya: modal apa yang dibangunnya, dan pintu mana yang dibukanya?"
         },
         {
          "en": "The manager is much of the job; ask where their last three reports went",
-         "id": "Manajer adalah sebagian besar pekerjaan; tanyakan ke mana tiga bawahan terakhirnya pergi"
+         "id": "Atasan menentukan sebagian besar pekerjaannya; tanyakan ke mana tiga anak buah terakhirnya pergi"
         },
         {
          "en": "The organisation and the team: healthy in two years, and why is this seat empty?",
-         "id": "Organisasi dan tim: sehat dua tahun lagi, dan mengapa kursi ini kosong?"
+         "id": "Organisasi dan timnya: masih sehat dua tahun lagi, dan kenapa kursi ini kosong?"
         },
         {
          "en": "Set the weights before you see the number, separate gates from weights, then test with three conversations",
-         "id": "Tetapkan bobot sebelum melihat angkanya, pisahkan gerbang dari bobot, lalu uji dengan tiga percakapan"
+         "id": "Tetapkan bobot sebelum kamu melihat angkanya, pisahkan syarat mutlak dari bobot, lalu uji dengan tiga percakapan"
         }
        ],
        "takes": [
@@ -39067,27 +39067,27 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "A title, a number and a logo are not a role; evaluate what the next two years would actually build.",
-          "id": "Jabatan, angka, dan logo bukanlah peran; nilai apa yang sebenarnya akan dibangun dua tahun ke depan."
+          "id": "Jabatan, angka, dan logo belum tentu sebuah peran; nilai apa yang benar-benar akan dibangun dua tahun ke depan."
          }
         },
         {
          "h": {
           "en": "The manager",
-          "id": "Manajernya"
+          "id": "Atasannya"
          },
          "p": {
           "en": "Listen for specifics and names; thirty minutes in an interview, where both sides are performing, is not enough.",
-          "id": "Dengarkan hal spesifik dan nama; tiga puluh menit wawancara, saat kedua pihak berakting, tidaklah cukup."
+          "id": "Dengarkan apakah jawabannya spesifik dan menyebut nama; tiga puluh menit di wawancara, ketika kedua pihak sama-sama tampil sebaik mungkin, tidak cukup."
          }
         },
         {
          "h": {
           "en": "The organisation and team",
-          "id": "Organisasi dan tim"
+          "id": "Organisasi dan timnya"
          },
          "p": {
           "en": "Look for evidence of culture rather than slogans; the way the process treats you is a sample of how the organisation will.",
-          "id": "Cari bukti budaya, bukan slogan; cara proses memperlakukanmu adalah sampel cara organisasi akan memperlakukanmu."
+          "id": "Carilah bukti budaya, bukan slogan; cara proses rekrutmen memperlakukanmu adalah contoh cara organisasi itu akan memperlakukanmu."
          }
         },
         {
@@ -39097,7 +39097,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "A gate is a must-have; an option that fails it is out however well it scores.",
-          "id": "Gerbang adalah syarat mutlak; pilihan yang gagal melewatinya gugur, sebagus apa pun nilainya."
+          "id": "Syarat mutlak adalah hal yang wajib ada; pilihan yang gagal di situ langsung gugur, setinggi apa pun nilainya."
          }
         }
        ],
@@ -39106,23 +39106,23 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Ignore the title for a moment and describe the work: what capital does it build, and which door does it open?",
-          "id": "Abaikan jabatan sejenak dan gambarkan pekerjaannya: modal apa yang dibangun, dan pintu mana yang dibuka?"
+          "id": "Abaikan dulu jabatannya dan gambarkan pekerjaannya: modal apa yang dibangunnya, dan pintu mana yang dibukanya?"
          },
          "cols": [
           {
            "l": {
             "en": "Weak answer",
-            "id": "Jawaban lemah"
+            "id": "Jawaban yang lemah"
            },
            "d": {
             "en": "What you hear when nobody has thought about the role",
-            "id": "Yang kamu dengar saat tak ada yang memikirkan perannya"
+            "id": "Yang kamu dengar saat belum ada yang memikirkan perannya"
            },
            "items": [
             {
              "icon": "question",
              "en": "What would I do in a typical week? “Macam-macam, dinamis.”",
-             "id": "Apa yang akan kulakukan di minggu biasa? “Macam-macam, dinamis.”"
+             "id": "Apa yang akan saya kerjakan dalam seminggu yang biasa? “Macam-macam, dinamis.”"
             },
             {
              "icon": "calendar",
@@ -39132,12 +39132,12 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "tag",
              "en": "What capital would I add? A bigger title",
-             "id": "Modal apa yang akan kutambahkan? Jabatan yang lebih besar"
+             "id": "Modal apa yang akan saya tambahkan? Jabatan yang lebih besar"
             },
             {
              "icon": "map",
              "en": "Where do people in this role go next? Nobody knows",
-             "id": "Ke mana orang di peran ini melangkah berikutnya? Tak ada yang tahu"
+             "id": "Ke mana orang di peran ini pergi berikutnya? Tidak ada yang tahu"
             }
            ],
            "icon": "x"
@@ -39145,7 +39145,7 @@ window.MT_LMS['the-route'] = {
           {
            "l": {
             "en": "Strong answer",
-            "id": "Jawaban kuat"
+            "id": "Jawaban yang kuat"
            },
            "d": {
             "en": "What you hear when the role is real",
@@ -39160,17 +39160,17 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "target",
              "en": "Two or three concrete outcomes",
-             "id": "Dua atau tiga hasil konkret"
+             "id": "Dua atau tiga hasil yang konkret"
             },
             {
              "icon": "gear",
              "en": "Named skills or results you cannot build now: “built and ran a credit process for a digital product”",
-             "id": "Keterampilan atau hasil bernama yang tak bisa kamu bangun sekarang: “membangun dan menjalankan proses kredit untuk produk digital”"
+             "id": "Keterampilan atau hasil yang disebut namanya dan tidak bisa dibangun sekarang: “membangun dan menjalankan proses kredit untuk produk digital”"
             },
             {
              "icon": "route",
              "en": "Examples that match your next door",
-             "id": "Contoh yang cocok dengan pintu berikutnya"
+             "id": "Contoh yang cocok dengan pintu berikutnyamu"
             }
            ],
            "icon": "check"
@@ -39181,22 +39181,22 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "Start from the trajectory you designed in Lesson 1.2.",
-          "id": "Mulai dari lintasan yang kamu rancang di Pelajaran 1.2."
+          "id": "Mulailah dari lintasan yang kamu rancang di Pelajaran 1.2."
          },
          "band": {
           "en": "A title, a number and a logo are not a role; evaluate what the next two years would actually build.",
-          "id": "Jabatan, angka, dan logo bukanlah peran; nilai apa yang sebenarnya akan dibangun dua tahun ke depan."
+          "id": "Jabatan, angka, dan logo belum tentu sebuah peran; nilai apa yang benar-benar akan dibangun dua tahun ke depan."
          },
          "em": {
           "en": "which door does it open?",
-          "id": "pintu mana yang dibuka?"
+          "id": "pintu mana yang dibukanya?"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "The manager is much of the job; ask where their last three reports went",
-          "id": "Manajer adalah sebagian besar pekerjaan; tanyakan ke mana tiga bawahan terakhirnya pergi"
+          "id": "Atasan menentukan sebagian besar pekerjaannya; tanyakan ke mana tiga anak buah terakhirnya pergi"
          },
          "img": "../../assets/bg/fg-sprint-interview.jpg",
          "layout": "list",
@@ -39204,7 +39204,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "users",
            "en": "“How do you like to work with the people on your team? How often do you meet one to one?”",
-           "id": "“Bagaimana Anda suka bekerja dengan orang di tim? Seberapa sering bertemu empat mata?”",
+           "id": "“Bagaimana Bapak atau Ibu suka bekerja dengan anggota tim? Seberapa sering bertemu empat mata?”",
            "l": {
             "en": "Working style",
             "id": "Gaya kerja"
@@ -39213,7 +39213,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "route",
            "en": "“Tell me about someone you developed. Where are they now?”",
-           "id": "“Ceritakan seseorang yang Anda kembangkan. Di mana mereka sekarang?”",
+           "id": "“Ceritakan seseorang yang pernah Anda kembangkan. Di mana dia sekarang?”",
            "l": {
             "en": "Track record",
             "id": "Rekam jejak"
@@ -39222,16 +39222,16 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "chat",
            "en": "“How do you give feedback when something goes wrong?”",
-           "id": "“Bagaimana Anda memberi umpan balik saat sesuatu salah?”",
+           "id": "“Bagaimana Anda memberi masukan saat ada yang salah?”",
            "l": {
             "en": "Feedback",
-            "id": "Umpan balik"
+            "id": "Masukan"
            }
           },
           {
            "icon": "target",
            "en": "“What would you want from me that your last person in this role did not give you?”",
-           "id": "“Apa yang Anda inginkan dari saya yang tidak diberikan orang sebelumnya di peran ini?”",
+           "id": "“Apa yang Anda harapkan dari saya yang tidak diberikan orang sebelumnya di peran ini?”",
            "l": {
             "en": "Expectations",
             "id": "Harapan"
@@ -39240,31 +39240,31 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "search",
            "en": "Two backchannels: people who worked for them, found through your board",
-           "id": "Dua jalur belakang: orang yang pernah bekerja untuk mereka, lewat dewanmu",
+           "id": "Dua jalur belakang: orang yang pernah bekerja di bawahnya, ditemukan lewat dewanmu",
            "l": {
             "en": "Verification",
-            "id": "Verifikasi"
+            "id": "Pengecekan"
            }
           }
          ],
          "sub": {
           "en": "Your next manager decides much of what you learn, how visible your work is, what your rating says, and whether you are put forward.",
-          "id": "Manajer berikutmu menentukan sebagian besar yang kamu pelajari, seberapa terlihat kerjamu, apa kata peringkatmu, dan apakah kamu diajukan."
+          "id": "Atasanmu berikutnya menentukan sebagian besar dari apa yang kamu pelajari, seberapa terlihat pekerjaanmu, apa isi nilai kinerjamu, dan apakah kamu diajukan."
          },
          "band": {
           "en": "Listen for specifics and names; thirty minutes in an interview, where both sides are performing, is not enough.",
-          "id": "Dengarkan hal spesifik dan nama; tiga puluh menit wawancara, saat kedua pihak berakting, tidaklah cukup."
+          "id": "Dengarkan apakah jawabannya spesifik dan menyebut nama; tiga puluh menit di wawancara, ketika kedua pihak sama-sama tampil sebaik mungkin, tidak cukup."
          },
          "em": {
           "en": "where their last three reports went",
-          "id": "ke mana tiga bawahan terakhirnya pergi"
+          "id": "ke mana tiga anak buah terakhirnya pergi"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "The organisation and the team: healthy in two years, and why is this seat empty?",
-          "id": "Organisasi dan tim: sehat dua tahun lagi, dan mengapa kursi ini kosong?"
+          "id": "Organisasi dan timnya: masih sehat dua tahun lagi, dan kenapa kursi ini kosong?"
          },
          "layout": "grid",
          "items": [
@@ -39274,7 +39274,7 @@ window.MT_LMS['the-route'] = {
            "id": "Organisasi",
            "d": {
             "en": "Annual report or funding stage; news of layoffs; licences; where it invests, and whether your unit is part of that or a cost to be cut.",
-            "id": "Laporan tahunan atau tahap pendanaan; berita PHK; izin; ke mana ia berinvestasi, dan apakah unitmu bagian darinya atau biaya yang dipangkas."
+            "id": "Laporan tahunan atau tahap pendanaan; berita PHK; izin; tempat ia berinvestasi, dan apakah unitmu termasuk di dalamnya atau justru biaya yang akan dipangkas."
            },
            "img": "../../assets/bg/stage-exploration.jpg"
           },
@@ -39284,7 +39284,7 @@ window.MT_LMS['the-route'] = {
            "id": "Tim",
            "d": {
             "en": "Growth or replacement? How many have left? Meet your future peers before you sign.",
-            "id": "Pertumbuhan atau penggantian? Berapa yang sudah pergi? Temui calon rekanmu sebelum tanda tangan."
+            "id": "Pertumbuhan atau penggantian? Berapa orang yang sudah keluar? Temui calon rekan setimmu sebelum tanda tangan."
            },
            "img": "../../assets/bg/alumni.jpg"
           },
@@ -39294,29 +39294,29 @@ window.MT_LMS['the-route'] = {
            "id": "Budaya",
            "d": {
             "en": "How decisions and mistakes are handled: consistent stories from different people; how the hiring process treats you.",
-            "id": "Bagaimana keputusan dan kesalahan ditangani: cerita yang konsisten dari orang berbeda; bagaimana proses rekrutmen memperlakukanmu."
+            "id": "Bagaimana keputusan dan kesalahan ditangani: cerita yang konsisten dari orang yang berbeda; cara proses rekrutmen memperlakukanmu."
            },
            "img": "../../assets/pe/th-stakeholders.jpg"
           }
          ],
          "sub": {
           "en": "For a listed company, the annual report; for a start-up, runway and funding stage; in regulated sectors, the licences the model requires (verify).",
-          "id": "Untuk perusahaan tercatat, laporan tahunan; untuk start-up, runway dan tahap pendanaan; di sektor teregulasi, izin yang dibutuhkan modelnya (verifikasi)."
+          "id": "Untuk perusahaan terbuka, laporan tahunannya; untuk perusahaan rintisan, dana operasional dan tahap pendanaannya; di sektor yang diatur ketat, izin yang dibutuhkan model bisnisnya (periksa)."
          },
          "band": {
           "en": "Look for evidence of culture rather than slogans; the way the process treats you is a sample of how the organisation will.",
-          "id": "Cari bukti budaya, bukan slogan; cara proses memperlakukanmu adalah sampel cara organisasi akan memperlakukanmu."
+          "id": "Carilah bukti budaya, bukan slogan; cara proses rekrutmen memperlakukanmu adalah contoh cara organisasi itu akan memperlakukanmu."
          },
          "em": {
           "en": "why is this seat empty?",
-          "id": "mengapa kursi ini kosong?"
+          "id": "kenapa kursi ini kosong?"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Set the weights before you see the number, separate gates from weights, then test with three conversations",
-          "id": "Tetapkan bobot sebelum melihat angkanya, pisahkan gerbang dari bobot, lalu uji dengan tiga percakapan"
+          "id": "Tetapkan bobot sebelum kamu melihat angkanya, pisahkan syarat mutlak dari bobot, lalu uji dengan tiga percakapan"
          },
          "img": "../../assets/bg/journey-start.jpg",
          "layout": "list",
@@ -39324,16 +39324,16 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "cap",
            "en": "Learning the target capability (30%): stay 2, curve flat; option A 5, core of the role; option B 3",
-           "id": "Mempelajari kapabilitas sasaran (30%): bertahan 2, kurva datar; opsi A 5, inti peran; opsi B 3",
+           "id": "Mempelajari kemampuan yang diincar (30%): bertahan 2, kurvanya datar; pilihan A 5, inti perannya; pilihan B 3",
            "l": {
             "en": "Capability",
-            "id": "Kapabilitas"
+            "id": "Kemampuan"
            }
           },
           {
            "icon": "route",
            "en": "Next door in the trajectory (25%): stay 3; A 4; B 3",
-           "id": "Pintu berikutnya di lintasan (25%): bertahan 3; A 4; B 3",
+           "id": "Pintu berikutnya dalam lintasan (25%): bertahan 3; A 4; B 3",
            "l": {
             "en": "Trajectory",
             "id": "Lintasan"
@@ -39342,10 +39342,10 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "users",
            "en": "Manager and team (20%): stay 4, known; A 4, two good backchannels; B 2, three left in 18 months",
-           "id": "Manajer dan tim (20%): bertahan 4, dikenal; A 4, dua jalur belakang baik; B 2, tiga pergi dalam 18 bulan",
+           "id": "Atasan dan tim (20%): bertahan 4, sudah dikenal; A 4, dua cerita baik lewat jalur belakang; B 2, tiga orang keluar dalam 18 bulan",
            "l": {
             "en": "Manager and team",
-            "id": "Manajer dan tim"
+            "id": "Atasan dan tim"
            }
           },
           {
@@ -39359,8 +39359,8 @@ window.MT_LMS['the-route'] = {
           },
           {
            "icon": "heart",
-           "en": "Family and location (10%), gate: within a day of home: stay 5; A 3; B 3",
-           "id": "Keluarga dan lokasi (10%), gerbang: dalam sehari dari rumah: bertahan 5; A 3; B 3",
+           "en": "Family and location (10%; gate: within a day of home): stay 5; A 3; B 3",
+           "id": "Keluarga dan lokasi (10%; syarat mutlak: maksimal sehari perjalanan dari rumah): bertahan 5; A 3; B 3",
            "l": {
             "en": "Family and location",
             "id": "Keluarga dan lokasi"
@@ -39369,15 +39369,15 @@ window.MT_LMS['the-route'] = {
          ],
          "sub": {
           "en": "Otherwise the salary quietly rewrites your priorities; staying is always one of the options scored.",
-          "id": "Jika tidak, gaji diam-diam menulis ulang prioritasmu; bertahan selalu menjadi salah satu pilihan yang dinilai."
+          "id": "Kalau tidak, gaji diam-diam akan menulis ulang prioritasmu; bertahan selalu menjadi salah satu pilihan yang dinilai."
          },
          "band": {
           "en": "A gate is a must-have; an option that fails it is out however well it scores.",
-          "id": "Gerbang adalah syarat mutlak; pilihan yang gagal melewatinya gugur, sebagus apa pun nilainya."
+          "id": "Syarat mutlak adalah hal yang wajib ada; pilihan yang gagal di situ langsung gugur, setinggi apa pun nilainya."
          },
          "em": {
           "en": "before you see the number",
-          "id": "sebelum melihat angkanya"
+          "id": "sebelum kamu melihat angkanya"
          }
         }
        ],
@@ -39392,11 +39392,11 @@ window.MT_LMS['the-route'] = {
       },
       "title": {
        "en": "A title, a number and a logo are not a role",
-       "id": "Jabatan, angka, dan logo bukanlah peran"
+       "id": "Jabatan, angka, dan logo belum tentu sebuah peran"
       },
       "intro": {
        "en": "Evaluate what the next two years would actually build, and who you would be building it with.",
-       "id": "Nilai apa yang sebenarnya akan dibangun dua tahun ke depan, dan bersama siapa kamu membangunnya."
+       "id": "Nilai apa yang benar-benar akan dibangun dua tahun ke depan, dan bersama siapa kamu membangunnya."
       },
       "slides": [
        {
@@ -39407,31 +39407,31 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "What capital does it build, and which door does it open?",
-          "id": "Modal apa yang dibangun, dan pintu mana yang dibuka?"
+          "id": "Modal apa yang dibangunnya, dan pintu mana yang dibukanya?"
          }
         ]
        },
        {
         "h": {
          "en": "The manager",
-         "id": "Manajernya"
+         "id": "Atasannya"
         },
         "points": [
          {
           "en": "Where did their last three reports go?",
-          "id": "Ke mana tiga bawahan terakhirnya pergi?"
+          "id": "Ke mana tiga anak buah terakhirnya pergi?"
          }
         ]
        },
        {
         "h": {
          "en": "The organisation and team",
-         "id": "Organisasi dan tim"
+         "id": "Organisasi dan timnya"
         },
         "points": [
          {
           "en": "Healthy in two years? Why is this seat empty?",
-          "id": "Sehat dua tahun lagi? Mengapa kursi ini kosong?"
+          "id": "Masih sehat dua tahun lagi? Kenapa kursi ini kosong?"
          }
         ]
        },
@@ -39443,7 +39443,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Weights before the number. Three conversations before the answer.",
-          "id": "Bobot sebelum angka. Tiga percakapan sebelum jawaban."
+          "id": "Bobot sebelum angka. Tiga percakapan sebelum menjawab."
          }
         ]
        }
@@ -39455,12 +39455,12 @@ window.MT_LMS['the-route'] = {
        "img": "../../assets/m/02-prep.jpg",
        "imgPos": "50% 45%",
        "h": {
-        "en": "Lens 1: the role: capital and the next door",
-        "id": "Lensa 1: perannya: modal dan pintu berikutnya"
+        "en": "Lens 1, the role: capital and the next door",
+        "id": "Lensa 1, perannya: modal dan pintu berikutnya"
        },
        "body": {
-        "en": "Start from the trajectory you designed in Lesson 1.2. A good next role does two things: it <b>builds capital you cannot build where you are</b>, and it <b>opens the next door</b> in your trajectory, or at least does not close it. Ignore the title for a moment and describe the work. What would you actually do in a typical week? Which decisions would be yours? What would you be measured on (Module 2)? What would you be able to say at the end of two years that you cannot say now, “built and ran a credit process for a digital product”, “managed a team of four”, “owned a P&amp;L”? Then check the door: in your field, does this role usually lead where you want to go next, and do people who hold it get there? Titles are especially unreliable across organisations of different sizes. A “Head of Credit” at a twenty-person lender may do less senior work than a senior analyst at a large bank; a “Manager” title may carry no people. Equally, a lateral title at a larger or faster-growing organisation can be the steepest learning curve available. Two further tests help. <b>The first-90-days test</b>: ask the hiring manager what success in the first three months would look like; vague answers suggest the role is not yet designed. <b>The capital test</b>: list the three skills or results the role would add to your inventory from Lesson 7.1; if you cannot name them, the pull is probably the title or the number.",
-        "id": "Mulailah dari lintasan yang kamu rancang di Pelajaran 1.2. Peran berikutnya yang baik melakukan dua hal: ia <b>membangun modal yang tak bisa kamu bangun di tempatmu sekarang</b>, dan ia <b>membuka pintu berikutnya</b> dalam lintasanmu, atau setidaknya tidak menutupnya. Abaikan jabatannya sejenak dan gambarkan pekerjaannya. Apa yang sebenarnya akan kamu kerjakan dalam seminggu yang biasa? Keputusan mana yang menjadi milikmu? Kamu akan diukur dengan apa (Modul 2)? Apa yang bisa kamu katakan di akhir dua tahun yang belum bisa kamu katakan sekarang; “membangun dan menjalankan proses kredit untuk produk digital”, “memimpin tim empat orang”, “memegang laba rugi”? Lalu periksa pintunya: di bidangmu, apakah peran ini biasanya mengarah ke tujuan berikutnya yang kamu inginkan, dan apakah orang yang memegangnya sampai ke sana? Jabatan sangat tidak bisa diandalkan antarorganisasi yang ukurannya berbeda. “Kepala Kredit” di pemberi pinjaman dua puluh orang mungkin mengerjakan pekerjaan yang kurang senior dibanding analis senior di bank besar; jabatan “Manajer” mungkin tak membawahi siapa pun. Sebaliknya, jabatan setara di organisasi yang lebih besar atau tumbuh lebih cepat bisa menjadi kurva belajar paling curam yang tersedia. Dua uji tambahan membantu. <b>Uji 90 hari pertama</b>: tanyakan kepada manajer perekrut seperti apa keberhasilan dalam tiga bulan pertama; jawaban yang samar menandakan perannya belum dirancang. <b>Uji modal</b>: daftar tiga keterampilan atau hasil yang akan ditambahkan peran itu ke inventarismu dari Pelajaran 7.1; jika kamu tak bisa menyebutnya, tarikannya mungkin jabatan atau angkanya."
+        "en": "Start from the trajectory you designed in Lesson 1.2. A good next role does two things: it <b>builds capital you cannot build where you are</b>, and it <b>opens the next door</b> in your trajectory, or at least does not close it. Ignore the title for a moment and describe the work. What would you actually do in a typical week? Which decisions would be yours? What would you be measured on (Module 2)? What would you be able to say at the end of two years that you cannot say now (“built and ran a credit process for a digital product”, “managed a team of four”, “owned a P&amp;L”)? Then check the door: in your field, does this role usually lead where you want to go next, and do people who hold it get there? Titles are especially unreliable across organisations of different sizes. A “Head of Credit” at a twenty-person lender may do less senior work than a senior analyst at a large bank; a “Manager” title may carry no people. Equally, a lateral title at a larger or faster-growing organisation can be the steepest learning curve available. Two further tests help. <b>The first-90-days test</b>: ask the hiring manager what success in the first three months would look like; vague answers suggest the role is not yet designed. <b>The capital test</b>: list the three skills or results the role would add to your inventory from Lesson 7.1; if you cannot name them, the pull is probably the title or the number.",
+        "id": "Mulailah dari lintasan yang kamu rancang di Pelajaran 1.2. Peran berikutnya yang baik melakukan dua hal: <b>membangun modal yang tidak bisa kamu bangun di tempatmu sekarang</b>, dan <b>membuka pintu berikutnya</b> dalam lintasanmu, atau setidaknya tidak menutupnya. Abaikan dulu jabatannya dan gambarkan pekerjaannya. Apa yang benar-benar akan kamu kerjakan dalam seminggu yang biasa? Keputusan mana yang menjadi wewenangmu? Kamu akan diukur dengan apa (Modul 2)? Apa yang bisa kamu katakan setelah dua tahun, yang belum bisa kamu katakan sekarang (“membangun dan menjalankan proses kredit untuk produk digital”, “memimpin tim berisi empat orang”, “memegang laporan laba rugi”)? Lalu cek pintunya: di bidangmu, apakah peran ini biasanya mengarah ke tempat yang ingin kamu tuju berikutnya, dan apakah orang yang memegangnya memang sampai ke sana? Jabatan sangat tidak bisa diandalkan antara organisasi yang ukurannya berbeda. “Head of Credit” di perusahaan pembiayaan berisi dua puluh orang bisa jadi mengerjakan pekerjaan yang kurang senior dibanding analis senior di bank besar, dan jabatan “Manager” bisa saja tanpa anak buah. Sebaliknya, jabatan setara di organisasi yang lebih besar atau tumbuh lebih cepat bisa menjadi kurva belajar paling curam yang tersedia. Ada dua tes lagi yang membantu. <b>Tes 90 hari pertama</b>: tanyakan kepada manajer perekrut seperti apa keberhasilan dalam tiga bulan pertama; jawaban yang samar menandakan perannya belum dirancang. <b>Tes modal</b>: tulis tiga keterampilan atau hasil yang akan ditambahkan peran itu ke inventarismu dari Pelajaran 7.1. Kalau kamu tidak bisa menyebutkannya, yang menarikmu kemungkinan besar jabatan atau angkanya."
        },
        "table": {
         "cols": [
@@ -39470,18 +39470,18 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Weak answer",
-          "id": "Jawaban lemah"
+          "id": "Jawaban yang lemah"
          },
          {
           "en": "Strong answer",
-          "id": "Jawaban kuat"
+          "id": "Jawaban yang kuat"
          }
         ],
         "rows": [
          [
           {
            "en": "What would I do in a typical week?",
-           "id": "Apa yang akan saya kerjakan di minggu biasa?"
+           "id": "Apa yang akan saya kerjakan dalam seminggu yang biasa?"
           },
           {
            "en": "“Macam-macam, dinamis.”",
@@ -39495,7 +39495,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "What does success look like at 90 days?",
-           "id": "Seperti apa keberhasilan di 90 hari?"
+           "id": "Seperti apa keberhasilan di hari ke-90?"
           },
           {
            "en": "“Nanti kita lihat.”",
@@ -39503,21 +39503,21 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Two or three concrete outcomes",
-           "id": "Dua atau tiga hasil konkret"
+           "id": "Dua atau tiga hasil yang konkret"
           }
          ],
          [
           {
            "en": "What capital would I add?",
-           "id": "Modal apa yang akan saya tambah?"
+           "id": "Modal apa yang akan saya tambahkan?"
           },
           {
            "en": "A bigger title",
-           "id": "Jabatan lebih besar"
+           "id": "Jabatan yang lebih besar"
           },
           {
            "en": "Named skills or results you cannot build now",
-           "id": "Keterampilan atau hasil yang tak bisa dibangun sekarang"
+           "id": "Keterampilan atau hasil yang disebut namanya dan tidak bisa dibangun sekarang"
           }
          ],
          [
@@ -39527,11 +39527,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Nobody knows",
-           "id": "Tak ada yang tahu"
+           "id": "Tidak ada yang tahu"
           },
           {
            "en": "Examples that match your next door",
-           "id": "Contoh yang cocok dengan pintu berikutmu"
+           "id": "Contoh yang cocok dengan pintu berikutnyamu"
           }
          ]
         ],
@@ -39545,28 +39545,28 @@ window.MT_LMS['the-route'] = {
        "icon": "users",
        "h": {
         "en": "Lens 2: the manager is much of the job",
-        "id": "Lensa 2: manajer adalah sebagian besar pekerjaannya"
+        "id": "Lensa 2: atasan menentukan sebagian besar pekerjaannya"
        },
        "body": {
-        "en": "Your next manager will decide much of what you learn, how visible your work is, what your rating says, and whether you are put forward, the whole of Modules 2 to 6, seen from the other side. Yet many people accept roles after thirty minutes with the manager in an interview, where both sides are performing. Evaluate the manager deliberately. <b>Ask them directly</b>, in the interview or a follow-up call: how do you like to work with the people on your team? How often do you meet one to one? Tell me about someone you developed. Where are they now? How do you give feedback when something goes wrong? What would you want from me that your last person in this role did not give you? Listen for specifics and for how they speak about former team members. <b>Look at the evidence</b>: where did their last few direct reports go, promoted, moved to good roles, or left quickly? How long have they themselves been in the role, and are they likely to stay (a manager who leaves in six months means you are effectively hired by someone else)? <b>Backchannel ethically</b>: ask someone who has worked with them, a former team member, a colleague in another unit, a contact from your board (Module 6). Keep it respectful and fair: ask open questions (“what was it like to work for her?”, “what kind of person thrives with him?”), weigh one bad story against several good ones, do not share what the hiring process told you in confidence, and do not ask current colleagues of your own to spread the word that you are looking. Red flags include vague answers about development, contempt for predecessors, a pattern of quick departures, and a manager who cannot say what success looks like.",
-        "id": "Manajer berikutmu akan menentukan sebagian besar apa yang kamu pelajari, seberapa terlihat pekerjaanmu, apa isi penilaianmu, dan apakah kamu diajukan, seluruh Modul 2 sampai 6, dilihat dari sisi lain. Namun banyak orang menerima peran setelah tiga puluh menit dengan manajernya di wawancara, di mana kedua pihak sedang berlakon. Nilailah manajernya dengan sengaja. <b>Tanyakan langsung</b>, di wawancara atau telepon lanjutan: bagaimana Anda suka bekerja dengan anggota tim? Seberapa sering bertemu empat mata? Ceritakan tentang seseorang yang Anda kembangkan. Di mana ia sekarang? Bagaimana Anda memberi umpan balik saat ada yang salah? Apa yang Anda harapkan dari saya yang tidak diberikan pemegang peran ini sebelumnya? Dengarkan kekhususannya dan cara ia berbicara tentang mantan anggota timnya. <b>Lihat buktinya</b>: ke mana beberapa bawahan langsung terakhirnya pergi, dipromosikan, pindah ke peran yang baik, atau cepat keluar? Berapa lama ia sendiri di peran itu, dan apakah ia kemungkinan bertahan (manajer yang pergi dalam enam bulan berarti kamu sebenarnya direkrut oleh orang lain)? <b>Tanya di belakang layar secara etis</b>: tanyakan kepada orang yang pernah bekerja dengannya, mantan anggota tim, kolega di unit lain, kontak dari dewanmu (Modul 6). Jaga tetap hormat dan adil: ajukan pertanyaan terbuka (“seperti apa bekerja dengannya?”, “orang seperti apa yang berkembang bersamanya?”), timbang satu cerita buruk terhadap beberapa cerita baik, jangan bagikan apa yang dikatakan proses rekrutmen secara rahasia, dan jangan meminta rekan kerjamu sendiri menyebarkan bahwa kamu sedang mencari. Tanda bahaya mencakup jawaban samar soal pengembangan, meremehkan pendahulu, pola kepergian yang cepat, dan manajer yang tak bisa mengatakan seperti apa keberhasilan."
+        "en": "Your next manager will decide much of what you learn, how visible your work is, what your rating says, and whether you are put forward: the whole of Modules 2 to 6, seen from the other side. Yet many people accept roles after thirty minutes with the manager in an interview, where both sides are performing. Evaluate the manager deliberately. <b>Ask them directly</b>, in the interview or a follow-up call: how do you like to work with the people on your team? How often do you meet one to one? Tell me about someone you developed. Where are they now? How do you give feedback when something goes wrong? What would you want from me that your last person in this role did not give you? Listen for specifics and for how they speak about former team members. <b>Look at the evidence</b>: where did their last few direct reports go (promoted, moved to good roles, or left quickly)? How long have they themselves been in the role, and are they likely to stay (a manager who leaves in six months means you are effectively hired by someone else)? <b>Backchannel ethically</b>: ask someone who has worked with them: a former team member, a colleague in another unit, a contact from your board (Module 6). Keep it respectful and fair: ask open questions (“what was it like to work for her?”, “what kind of person thrives with him?”), weigh one bad story against several good ones, do not share what the hiring process told you in confidence, and do not ask current colleagues of your own to spread the word that you are looking. Red flags include vague answers about development, contempt for predecessors, a pattern of quick departures, and a manager who cannot say what success looks like.",
+        "id": "Atasanmu berikutnya akan menentukan sebagian besar dari apa yang kamu pelajari, seberapa terlihat pekerjaanmu, apa isi nilai kinerjamu, dan apakah kamu diajukan: seluruh isi Modul 2 sampai 6, dilihat dari sisi seberangnya. Padahal banyak orang menerima peran setelah tiga puluh menit bersama atasannya di wawancara, ketika kedua pihak sama-sama sedang tampil sebaik mungkin. Nilai atasannya dengan sengaja. <b>Tanyakan langsung</b>, di wawancara atau di telepon lanjutan: bagaimana Bapak atau Ibu suka bekerja dengan anggota tim? Seberapa sering bertemu empat mata? Ceritakan seseorang yang pernah Anda kembangkan. Di mana dia sekarang? Bagaimana Anda memberi masukan saat ada yang salah? Apa yang Anda harapkan dari saya yang tidak diberikan orang sebelumnya di peran ini? Dengarkan apakah jawabannya spesifik, dan bagaimana ia membicarakan mantan anggota timnya. <b>Lihat buktinya</b>: ke mana beberapa anak buah langsung terakhirnya pergi (dipromosikan, pindah ke peran yang baik, atau cepat keluar)? Sudah berapa lama ia sendiri di peran itu, dan apakah ia kemungkinan bertahan? Atasan yang pergi enam bulan lagi berarti kamu sebenarnya direkrut untuk orang lain. <b>Cari tahu lewat jalur belakang secara etis</b>: tanyakan kepada orang yang pernah bekerja dengannya, misalnya mantan anggota tim, rekan di unit lain, atau kenalan dari dewanmu (Modul 6). Jaga tetap sopan dan adil: ajukan pertanyaan terbuka (“seperti apa rasanya bekerja dengan beliau?”, “orang seperti apa yang berkembang di bawahnya?”), timbang satu cerita buruk terhadap beberapa cerita baik, jangan membagikan apa yang disampaikan kepadamu secara rahasia selama proses rekrutmen, dan jangan meminta rekan kerjamu sendiri menyebarkan kabar bahwa kamu sedang mencari. Tanda bahayanya antara lain jawaban yang samar soal pengembangan, sikap merendahkan pendahulu, pola orang yang cepat keluar, dan atasan yang tidak bisa menjelaskan seperti apa keberhasilan itu."
        },
        "bullets": [
         {
          "en": "<b>Ask</b>: one-to-ones, feedback, someone they developed and where that person is now.",
-         "id": "<b>Tanyakan</b>: empat mata, umpan balik, seseorang yang ia kembangkan dan di mana orang itu sekarang."
+         "id": "<b>Tanyakan</b>: pertemuan empat mata, cara memberi masukan, orang yang pernah ia kembangkan dan di mana orang itu sekarang."
         },
         {
          "en": "<b>Look</b>: where their last reports went; how long they are likely to stay.",
-         "id": "<b>Lihat</b>: ke mana bawahan terakhirnya pergi; berapa lama ia kemungkinan bertahan."
+         "id": "<b>Lihat</b>: ke mana anak buah terakhirnya pergi; berapa lama ia kemungkinan bertahan."
         },
         {
          "en": "<b>Backchannel</b>: open questions, fair weighting, no confidences broken.",
-         "id": "<b>Belakang layar</b>: pertanyaan terbuka, penimbangan adil, tanpa membocorkan rahasia."
+         "id": "<b>Jalur belakang</b>: pertanyaan terbuka, menimbang dengan adil, tanpa membocorkan rahasia."
         },
         {
          "en": "<b>Red flags</b>: vague on development, contempt for predecessors, quick departures.",
-         "id": "<b>Tanda bahaya</b>: samar soal pengembangan, meremehkan pendahulu, kepergian cepat."
+         "id": "<b>Tanda bahaya</b>: samar soal pengembangan, merendahkan pendahulu, banyak yang cepat keluar."
         }
        ]
       },
@@ -39574,11 +39574,11 @@ window.MT_LMS['the-route'] = {
        "icon": "eye",
        "h": {
         "en": "Lenses 3 and 4: the organisation and the team",
-        "id": "Lensa 3 dan 4: organisasi dan tim"
+        "id": "Lensa 3 dan 4: organisasi dan timnya"
        },
        "body": {
-        "en": "<b>The organisation</b>: will it be healthy and heading somewhere in two years? For a listed company, the annual report and recent news tell you about growth, profitability and strategy. For a start-up or fintech, ask about runway and funding stage, and search for news of layoffs or restructuring; in regulated sectors such as lending and payments, check that the business holds the licences its model requires, in Indonesia, for example, many financial services are supervised by OJK <span class=\"ev ev-verify\">Verify</span>. Ask where the organisation is investing, and whether your future unit is part of that or a cost to be cut. Look for evidence of culture rather than slogans: how decisions are made, how mistakes are handled, how long people stay, whether leaders you meet contradict each other. <b>The team</b>: who would you work with every day, and why is this seat empty? “Why is this role open?” is one of the most revealing questions you can ask. Growth (a new product, a new region) is usually a good answer. Replacement is fine if the previous person moved up or on for good reasons; it is a warning if several people have left the same seat in a short time. Ask to meet one or two future peers, and ask them what the manager is like, what a good week looks like, and what they would change. Notice what the team would teach you: a team of people stronger than you in the skills you want is itself capital. Finally, look at how you are treated during the process. Whether people are on time, prepared and honest about the downsides. Organisations tend to show their habits early.",
-        "id": "<b>Organisasinya</b>: apakah ia akan sehat dan menuju ke suatu arah dua tahun lagi? Untuk perusahaan terbuka, laporan tahunan dan berita terkini memberitahumu tentang pertumbuhan, profitabilitas, dan strategi. Untuk perusahaan rintisan atau fintech, tanyakan tentang dana cadangan dan tahap pendanaan, dan cari berita tentang PHK atau restrukturisasi; di sektor teregulasi seperti pinjaman dan pembayaran, periksa bahwa bisnis itu memegang izin yang dibutuhkan modelnya, di Indonesia, misalnya, banyak layanan keuangan diawasi OJK <span class=\"ev ev-verify\">Verifikasi</span>. Tanyakan ke mana organisasi berinvestasi, dan apakah unit masa depanmu bagian dari itu atau biaya yang akan dipangkas. Cari bukti budaya, bukan slogan: bagaimana keputusan dibuat, bagaimana kesalahan ditangani, berapa lama orang bertahan, apakah pemimpin yang kamu temui saling bertentangan. <b>Timnya</b>: dengan siapa kamu akan bekerja setiap hari, dan mengapa kursi ini kosong? “Mengapa peran ini terbuka?” adalah salah satu pertanyaan paling mengungkap yang bisa kamu ajukan. Pertumbuhan (produk baru, wilayah baru) biasanya jawaban yang baik. Penggantian tidak masalah jika orang sebelumnya naik atau pindah karena alasan baik; itu peringatan jika beberapa orang meninggalkan kursi yang sama dalam waktu singkat. Mintalah bertemu satu atau dua calon rekan, dan tanyakan seperti apa manajernya, seperti apa minggu yang baik, dan apa yang ingin mereka ubah. Perhatikan apa yang akan diajarkan tim itu kepadamu: tim berisi orang-orang yang lebih kuat darimu dalam keterampilan yang kamu inginkan adalah modal tersendiri. Terakhir, perhatikan bagaimana kamu diperlakukan selama proses, apakah orang tepat waktu, siap, dan jujur tentang sisi buruknya. Organisasi cenderung menunjukkan kebiasaannya sejak awal."
+        "en": "<b>The organisation</b>: will it be healthy and heading somewhere in two years? For a listed company, the annual report and recent news tell you about growth, profitability and strategy. For a start-up or fintech, ask about runway and funding stage, and search for news of layoffs or restructuring; in regulated sectors such as lending and payments, check that the business holds the licences its model requires (in Indonesia, for example, many financial services are supervised by OJK) <span class=\"ev ev-verify\">Verify</span>. Ask where the organisation is investing, and whether your future unit is part of that or a cost to be cut. Look for evidence of culture rather than slogans: how decisions are made, how mistakes are handled, how long people stay, whether leaders you meet contradict each other. <b>The team</b>: who would you work with every day, and why is this seat empty? “Why is this role open?” is one of the most revealing questions you can ask. Growth (a new product, a new region) is usually a good answer. Replacement is fine if the previous person moved up or on for good reasons; it is a warning if several people have left the same seat in a short time. Ask to meet one or two future peers, and ask them what the manager is like, what a good week looks like, and what they would change. Notice what the team would teach you: a team of people stronger than you in the skills you want is itself capital. Finally, look at how you are treated during the process: whether people are on time, prepared and honest about the downsides. Organisations tend to show their habits early.",
+        "id": "<b>Organisasinya</b>: apakah dua tahun lagi masih sehat dan punya arah? Untuk perusahaan terbuka, laporan tahunan dan berita terbaru menceritakan pertumbuhan, profitabilitas, dan strateginya. Untuk perusahaan rintisan atau fintech, tanyakan berapa lama dana operasionalnya cukup dan di tahap pendanaan mana mereka, lalu cari berita soal PHK atau restrukturisasi. Di sektor yang diatur ketat seperti pinjaman dan pembayaran, cek apakah usahanya memegang izin yang dibutuhkan model bisnisnya (di Indonesia, misalnya, banyak layanan keuangan diawasi OJK) <span class=\"ev ev-verify\">Periksa</span>. Tanyakan di mana organisasi itu berinvestasi, dan apakah unit yang akan kamu masuki termasuk di dalamnya atau justru biaya yang akan dipangkas. Carilah bukti budaya, bukan slogan: bagaimana keputusan dibuat, bagaimana kesalahan ditangani, berapa lama orang bertahan, dan apakah para pemimpin yang kamu temui saling bertentangan. <b>Timnya</b>: dengan siapa kamu akan bekerja setiap hari, dan kenapa kursi ini kosong? “Kenapa posisi ini dibuka?” adalah salah satu pertanyaan paling mengungkap yang bisa kamu ajukan. Pertumbuhan (produk baru, wilayah baru) biasanya jawaban yang baik. Penggantian juga wajar kalau orang sebelumnya naik atau pindah karena alasan yang baik, tetapi menjadi peringatan kalau beberapa orang meninggalkan kursi yang sama dalam waktu singkat. Mintalah bertemu satu atau dua calon rekan setim, lalu tanyakan seperti apa atasannya, seperti apa minggu yang baik, dan apa yang ingin mereka ubah. Perhatikan apa yang bisa diajarkan tim itu kepadamu: tim yang berisi orang-orang yang lebih kuat darimu di keterampilan yang kamu incar adalah modal tersendiri. Terakhir, perhatikan bagaimana kamu diperlakukan selama prosesnya: apakah orang-orangnya tepat waktu, siap, dan jujur soal sisi buruknya. Organisasi cenderung menunjukkan kebiasaannya sejak awal."
        },
        "table": {
         "cols": [
@@ -39592,7 +39592,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Evidence to look for",
-          "id": "Bukti yang dicari"
+          "id": "Bukti yang perlu dicari"
          }
         ],
         "rows": [
@@ -39603,11 +39603,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Healthy and heading somewhere in two years?",
-           "id": "Sehat dan menuju ke suatu arah dua tahun lagi?"
+           "id": "Masih sehat dan punya arah dua tahun lagi?"
           },
           {
            "en": "Annual report or funding stage; news; licences; where it invests",
-           "id": "Laporan tahunan atau tahap pendanaan; berita; izin; ke mana ia berinvestasi"
+           "id": "Laporan tahunan atau tahap pendanaan; berita; izin; tempat ia berinvestasi"
           }
          ],
          [
@@ -39617,11 +39617,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Why is this seat empty?",
-           "id": "Mengapa kursi ini kosong?"
+           "id": "Kenapa kursi ini kosong?"
           },
           {
            "en": "Growth vs replacement; how many have left; meeting future peers",
-           "id": "Pertumbuhan vs penggantian; berapa yang sudah pergi; bertemu calon rekan"
+           "id": "Pertumbuhan atau penggantian; berapa orang yang sudah keluar; bertemu calon rekan setim"
           }
          ],
          [
@@ -39635,25 +39635,25 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Consistent stories from different people; how the process treats you",
-           "id": "Cerita yang konsisten dari orang berbeda; bagaimana prosesnya memperlakukanmu"
+           "id": "Cerita yang konsisten dari orang yang berbeda; cara proses rekrutmen memperlakukanmu"
           }
          ]
         ],
         "caption": {
          "en": "Course guidance. Licensing and supervision depend on the business model; verify with the regulator’s public lists.",
-         "id": "Panduan kursus. Perizinan dan pengawasan bergantung pada model bisnis; verifikasi dengan daftar publik regulator."
+         "id": "Panduan kursus. Perizinan dan pengawasan bergantung pada model bisnisnya; periksa daftar publik dari regulator."
         }
        }
       },
       {
        "icon": "chart",
        "h": {
-        "en": "Scoring honestly: and testing before you leap",
-        "id": "Menilai dengan jujur: dan menguji sebelum melompat"
+        "en": "Scoring honestly, and testing before you leap",
+        "id": "Menilai dengan jujur, dan menguji sebelum melompat"
        },
        "body": {
-        "en": "Once you have evidence, compare options, including <b>staying</b>, which is always an option, against your career architecture. Take the three to five things that matter most from your Module 1 work: perhaps learning a specific capability, the next door in your trajectory, pay, stability, time for family, location. <b>Set the weights before you see the number</b>; otherwise the salary quietly rewrites your priorities. Separate <b>gates</b> from <b>weights</b>: a gate is a must-have (“no relocation until my father’s treatment ends”, “no role that breaches my red lines”); an option that fails a gate is out, however well it scores. Score each option on each criterion from 1 to 5, with a one-line reason drawn from the evidence of the four lenses, multiply by the weights, and look at the result. Then look at your reaction to it. If you are disappointed that the “wrong” option won, that disappointment is information: either a weight is wrong or something is missing. Compare <b>total compensation</b>, not base salary: allowances, holiday bonus, bonus, insurance, pension contributions, and the real cost of living in the new location (Module 8 and The Rope’s offer module go deeper). Then <b>reality-test</b> the leading option before committing. Chip and Dan Heath’s <i>Decisive</i> recommends small experiments, “ooching”, before big commitments: talk to three people who know the role or the manager, spend half a day with the team if you can, ask for the written job description and targets, and read the contract in full. The aim is to replace the imagined version of the job with the real one. A choice that survives honest scoring and three conversations is rarely one you regret.",
-        "id": "Setelah punya bukti, bandingkan pilihan, termasuk <b>bertahan</b>, yang selalu merupakan pilihan, terhadap arsitektur kariermu. Ambil tiga sampai lima hal yang paling penting dari pekerjaan Modul 1-mu: mungkin mempelajari kapabilitas tertentu, pintu berikutnya dalam lintasanmu, gaji, stabilitas, waktu untuk keluarga, lokasi. <b>Tetapkan bobot sebelum melihat angkanya</b>; jika tidak, gaji diam-diam menulis ulang prioritasmu. Pisahkan <b>gerbang</b> dari <b>bobot</b>: gerbang adalah syarat mutlak (“tidak pindah kota sampai pengobatan ayah selesai”, “tak ada peran yang melanggar garis merahku”); pilihan yang gagal di gerbang tersingkir, setinggi apa pun nilainya. Beri nilai tiap pilihan di tiap kriteria dari 1 sampai 5, dengan alasan satu baris dari bukti empat lensa, kalikan dengan bobotnya, dan lihat hasilnya. Lalu perhatikan reaksimu. Jika kamu kecewa karena pilihan yang “salah” menang, kekecewaan itu adalah informasi: entah bobotnya keliru atau ada yang terlewat. Bandingkan <b>total kompensasi</b>, bukan gaji pokok: tunjangan, THR, bonus, asuransi, iuran pensiun, dan biaya hidup nyata di lokasi baru (Modul 8 dan modul tawaran The Rope membahas lebih dalam). Lalu <b>uji kenyataan</b> pilihan terdepan sebelum berkomitmen. <i>Decisive</i> karya Chip dan Dan Heath menyarankan eksperimen kecil, “ooching”, sebelum komitmen besar: bicara dengan tiga orang yang mengenal peran atau manajernya, habiskan setengah hari bersama timnya jika bisa, minta deskripsi pekerjaan dan target tertulis, dan baca kontraknya sampai habis. Tujuannya mengganti versi pekerjaan yang dibayangkan dengan versi nyatanya. Pilihan yang bertahan dari penilaian jujur dan tiga percakapan jarang disesali."
+        "en": "Once you have evidence, compare options, including <b>staying</b> (always an option), against your career architecture. Take the three to five things that matter most from your Module 1 work: perhaps learning a specific capability, the next door in your trajectory, pay, stability, time for family, location. <b>Set the weights before you see the number</b>; otherwise the salary quietly rewrites your priorities. Separate <b>gates</b> from <b>weights</b>: a gate is a must-have (“no relocation until my father’s treatment ends”, “no role that breaches my red lines”); an option that fails a gate is out, however well it scores. Score each option on each criterion from 1 to 5, with a one-line reason drawn from the evidence of the four lenses, multiply by the weights, and look at the result. Then look at your reaction to it. If you are disappointed that the “wrong” option won, that disappointment is information: either a weight is wrong or something is missing. Compare <b>total compensation</b>, not base salary: allowances, THR, bonus, insurance, pension contributions, and the real cost of living in the new location (Module 8 and The Rope’s offer module go deeper). Then <b>reality-test</b> the leading option before committing. Chip and Dan Heath’s <i>Decisive</i> recommends small experiments (“ooching”) before big commitments: talk to three people who know the role or the manager, spend half a day with the team if you can, ask for the written job description and targets, and read the contract in full. The aim is to replace the imagined version of the job with the real one. A choice that survives honest scoring and three conversations is rarely one you regret.",
+        "id": "Setelah buktinya terkumpul, bandingkan pilihan-pilihanmu, termasuk <b>bertahan</b> (yang selalu menjadi pilihan), dengan arsitektur kariermu. Ambil tiga sampai lima hal yang paling penting dari hasil kerjamu di Modul 1: mungkin mempelajari satu kemampuan tertentu, pintu berikutnya dalam lintasanmu, gaji, stabilitas, waktu untuk keluarga, atau lokasi. <b>Tetapkan bobotnya sebelum kamu melihat angkanya</b>; kalau tidak, gaji diam-diam akan menulis ulang prioritasmu. Pisahkan <b>syarat mutlak</b> dari <b>bobot</b>. Syarat mutlak adalah hal yang wajib ada (“tidak pindah kota sampai pengobatan ayah selesai”, “tidak menerima peran yang melanggar garis merahku”), dan pilihan yang gagal di satu syarat mutlak langsung gugur, setinggi apa pun nilainya. Beri nilai 1 sampai 5 untuk tiap pilihan di tiap kriteria, dengan alasan satu baris yang diambil dari bukti keempat lensa, kalikan dengan bobotnya, lalu lihat hasilnya. Setelah itu, perhatikan reaksimu terhadap hasil itu. Kalau kamu kecewa karena pilihan yang “salah” yang menang, kekecewaan itu adalah informasi: ada bobot yang keliru atau ada yang terlewat. Bandingkan <b>total kompensasi</b>, bukan gaji pokok: tunjangan, THR, bonus, asuransi, iuran pensiun, dan biaya hidup sebenarnya di lokasi baru (Modul 8 dan modul tawaran kerja di The Rope membahasnya lebih dalam). Lalu <b>uji kenyataannya</b> untuk pilihan teratas sebelum berkomitmen. Buku <i>Decisive</i> karya Chip dan Dan Heath menyarankan eksperimen kecil (“ooching”) sebelum komitmen besar: bicara dengan tiga orang yang mengenal peran atau atasannya, habiskan setengah hari bersama timnya kalau bisa, minta deskripsi pekerjaan dan targetnya secara tertulis, dan baca kontraknya sampai habis. Tujuannya mengganti versi pekerjaan yang kamu bayangkan dengan versi yang sebenarnya. Pilihan yang lolos dari penilaian yang jujur dan tiga percakapan jarang menjadi pilihan yang kamu sesali."
        },
        "table": {
         "cols": [
@@ -39678,15 +39678,15 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Learning the target capability (30%)",
-           "id": "Mempelajari kapabilitas sasaran (30%)"
+           "id": "Mempelajari kemampuan yang diincar (30%)"
           },
           {
            "en": "2: curve flat",
-           "id": "2: kurva datar"
+           "id": "2: kurvanya datar"
           },
           {
            "en": "5: core of the role",
-           "id": "5: inti peran"
+           "id": "5: inti perannya"
           },
           {
            "en": "3: partly",
@@ -39714,7 +39714,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Manager and team (20%)",
-           "id": "Manajer dan tim (20%)"
+           "id": "Atasan dan tim (20%)"
           },
           {
            "en": "4: known",
@@ -39722,11 +39722,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "4: two good backchannels",
-           "id": "4: dua cerita baik"
+           "id": "4: dua cerita baik lewat jalur belakang"
           },
           {
            "en": "2: three left in 18 months",
-           "id": "2: tiga orang pergi dalam 18 bulan"
+           "id": "2: tiga orang keluar dalam 18 bulan"
           }
          ],
          [
@@ -39750,7 +39750,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Family and location (10%) · gate: within a day of home",
-           "id": "Keluarga dan lokasi (10%) · gerbang: sehari dari rumah"
+           "id": "Keluarga dan lokasi (10%) · syarat mutlak: maksimal sehari perjalanan dari rumah"
           },
           {
            "en": "5",
@@ -39768,7 +39768,7 @@ window.MT_LMS['the-route'] = {
         ],
         "caption": {
          "en": "Fictional illustration of a weighted comparison; scores need one-line reasons from evidence.",
-         "id": "Ilustrasi fiktif perbandingan berbobot; nilai butuh alasan satu baris dari bukti."
+         "id": "Ilustrasi fiktif perbandingan berbobot; setiap nilai butuh alasan satu baris dari bukti."
         }
        }
       }
@@ -39777,7 +39777,7 @@ window.MT_LMS['the-route'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 1: From offer to evidence-based choice",
-       "id": "Peraga 1: Dari tawaran ke pilihan berbasis bukti"
+       "id": "Gambar 1: Dari tawaran ke pilihan berbasis bukti"
       },
       "title": {
        "en": "Architecture → four lenses → weights → score → reality test",
@@ -39792,7 +39792,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "What matters most, from Module 1.",
-         "id": "Yang paling penting, dari Modul 1."
+         "id": "Apa yang paling penting, dari Modul 1."
         }
        },
        {
@@ -39803,18 +39803,18 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Role, manager, organisation, team.",
-         "id": "Peran, manajer, organisasi, tim."
+         "id": "Peran, atasan, organisasi, tim."
         }
        },
        {
         "icon": "gear",
         "h": {
          "en": "Gates and weights",
-         "id": "Gerbang dan bobot"
+         "id": "Syarat mutlak dan bobot"
         },
         "sub": {
          "en": "Set before you see the number.",
-         "id": "Ditetapkan sebelum melihat angkanya."
+         "id": "Ditetapkan sebelum kamu melihat angkanya."
         }
        },
        {
@@ -39825,7 +39825,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Every option, including staying, with reasons.",
-         "id": "Setiap pilihan, termasuk bertahan, dengan alasan."
+         "id": "Setiap pilihan, termasuk bertahan, lengkap dengan alasannya."
         }
        },
        {
@@ -39836,17 +39836,17 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Three conversations, the contract, the real week.",
-         "id": "Tiga percakapan, kontraknya, minggu yang nyata."
+         "id": "Tiga percakapan, kontraknya, minggu yang sebenarnya."
         }
        }
       ],
       "note": {
        "en": "The option that survives honest scoring and three conversations is rarely the one you regret.",
-       "id": "Pilihan yang bertahan dari penilaian jujur dan tiga percakapan jarang yang disesali."
+       "id": "Pilihan yang lolos dari penilaian jujur dan tiga percakapan jarang menjadi pilihan yang kamu sesali."
       },
       "longdesc": {
        "en": "A five-step flow. Start from your career architecture. Examine each option through four lenses: role, manager, organisation, team. Set gates and weights before seeing the salary. Score every option, including staying, with reasons from evidence. Reality-test the leading option with three conversations, the contract and a look at the real week.",
-       "id": "Alur lima langkah. Mulai dari arsitektur kariermu. Periksa tiap pilihan melalui empat lensa: peran, manajer, organisasi, tim. Tetapkan gerbang dan bobot sebelum melihat gaji. Nilai setiap pilihan, termasuk bertahan, dengan alasan dari bukti. Uji kenyataan pilihan terdepan dengan tiga percakapan, kontraknya, dan melihat minggu yang nyata."
+       "id": "Alur lima langkah. Mulai dari arsitektur kariermu. Periksa setiap pilihan lewat empat lensa: peran, atasan, organisasi, tim. Tetapkan syarat mutlak dan bobot sebelum melihat gajinya. Beri nilai setiap pilihan, termasuk bertahan, dengan alasan dari bukti. Uji kenyataan pilihan teratas lewat tiga percakapan, kontraknya, dan gambaran minggu yang sebenarnya."
       }
      },
      "compare": [
@@ -39857,19 +39857,19 @@ window.MT_LMS['the-route'] = {
        },
        "q": {
         "en": "Nadia’s friend asks what she thinks of an offer she received from a fast-growing lender.",
-        "id": "Teman Nadia bertanya pendapatnya tentang tawaran yang ia terima dari pemberi pinjaman yang tumbuh pesat."
+        "id": "Seorang teman Nadia bertanya pendapatnya tentang tawaran dari sebuah perusahaan pembiayaan yang tumbuh cepat."
        },
        "weak": {
         "en": "“Ambil! Jabatannya Head, gajinya naik 50%, kantornya keren di SCBD. Kapan lagi?”",
         "id": "“Ambil! Jabatannya Head, gajinya naik 50%, kantornya keren di SCBD. Kapan lagi?”"
        },
        "strong": {
-        "en": "“Selamat dulu! Sebelum jawab: kerjamu seminggu seperti apa, dan kamu diukur dengan apa? Head itu membawahi berapa orang? Ke mana tiga orang terakhir yang pegang peran ini? Izinnya sudah lengkap? Kalau semua jawabannya bagus dan bobotmu sudah ditulis sebelum lihat angka, baru kita bicara gaji, total, bukan pokok.”",
-        "id": "“Selamat dulu! Sebelum jawab: kerjamu seminggu seperti apa, dan kamu diukur dengan apa? Head itu membawahi berapa orang? Ke mana tiga orang terakhir yang pegang peran ini? Izinnya sudah lengkap? Kalau semua jawabannya bagus dan bobotmu sudah ditulis sebelum lihat angka, baru kita bicara gaji, total, bukan pokok.”"
+        "en": "“Selamat dulu! Sebelum jawab: kerjamu seminggu seperti apa, dan kamu diukur dengan apa? Head itu membawahi berapa orang? Ke mana tiga orang terakhir yang pegang peran ini? Izinnya sudah lengkap? Kalau semua jawabannya bagus dan bobotmu sudah ditulis sebelum lihat angka, baru kita bicara gaji: total, bukan pokok.”",
+        "id": "“Selamat dulu! Sebelum jawab: kerjamu seminggu seperti apa, dan kamu diukur dengan apa? Head itu membawahi berapa orang? Ke mana tiga orang terakhir yang pegang peran ini? Izinnya sudah lengkap? Kalau semua jawabannya bagus dan bobotmu sudah ditulis sebelum lihat angka, baru kita bicara gaji: total, bukan pokok.”"
        },
        "why": {
         "en": "The first judges by title, number and address. The second turns them into questions about the role, the seat’s history, the organisation’s licences and the weights, then the money. Fictional.",
-        "id": "Yang pertama menilai dari jabatan, angka, dan alamat. Yang kedua mengubahnya menjadi pertanyaan tentang peran, riwayat kursinya, izin organisasinya, dan bobotnya, baru uangnya. Fiktif."
+        "id": "Yang pertama menilai dari jabatan, angka, dan alamat. Yang kedua mengubah semuanya menjadi pertanyaan tentang perannya, riwayat kursinya, izin organisasinya, dan bobotnya, baru kemudian soal uang. Fiktif."
        }
       }
      ],
@@ -39877,16 +39877,16 @@ window.MT_LMS['the-route'] = {
       "icon": "eye",
       "title": {
        "en": "In focus: Yosef’s “Head of Credit”",
-       "id": "Sorotan: “Kepala Kredit” Yosef"
+       "id": "Sorotan: “Head of Credit”-nya Yosef"
       },
       "body": [
        {
         "en": "Six months ago Yosef, Nadia’s peer, left the bank to become “Head of Credit” at a small multifinance company. The title was two levels above his, the pay thirty per cent higher, and the owner charming in the interview. He did not ask why the seat was empty, how many people he would lead, or what data existed.",
-        "id": "Enam bulan lalu Yosef, rekan Nadia, meninggalkan bank untuk menjadi “Kepala Kredit” di sebuah perusahaan pembiayaan kecil. Jabatannya dua level di atasnya, gajinya tiga puluh persen lebih tinggi, dan pemiliknya memikat saat wawancara. Ia tidak bertanya mengapa kursinya kosong, berapa orang yang akan ia pimpin, atau data apa yang tersedia."
+        "id": "Enam bulan lalu Yosef, rekan sebaya Nadia, keluar dari bank untuk menjadi “Head of Credit” di sebuah perusahaan multifinance kecil. Jabatannya dua level di atas jabatannya dulu, gajinya tiga puluh persen lebih tinggi, dan pemiliknya memikat saat wawancara. Ia tidak bertanya kenapa kursinya kosong, berapa orang yang akan ia pimpin, atau data apa saja yang tersedia."
        },
        {
-        "en": "The answers arrived in the first month: two predecessors in eighteen months, a team of one, himself, and approvals the owner overrode by phone. Over coffee, he tells Nadia he has learned a lot about what not to do, and is applying back to the bank at his old level. Nadia writes one line in her notes: “Tanya kenapa kursinya kosong. Tanya ke mana tiga orang terakhir pergi.”",
-        "id": "Jawabannya datang di bulan pertama: dua pendahulu dalam delapan belas bulan, tim satu orang, dirinya sendiri, dan persetujuan yang dibatalkan pemilik lewat telepon. Sambil ngopi, ia bercerita kepada Nadia bahwa ia belajar banyak tentang apa yang tak boleh dilakukan, dan sedang melamar kembali ke bank di level lamanya. Nadia menulis satu baris di catatannya: “Tanya kenapa kursinya kosong. Tanya ke mana tiga orang terakhir pergi.”"
+        "en": "The answers arrived in the first month: two predecessors in eighteen months, a team of one (himself), and approvals the owner overrode by phone. Over coffee, he tells Nadia he has learned a lot about what not to do, and is applying back to the bank at his old level. Nadia writes one line in her notes: “Tanya kenapa kursinya kosong. Tanya ke mana tiga orang terakhir pergi.”",
+        "id": "Jawabannya datang di bulan pertama: dua pendahulu dalam delapan belas bulan, tim yang hanya berisi satu orang (dirinya sendiri), dan persetujuan kredit yang dibatalkan pemilik lewat telepon. Sambil ngopi, ia bercerita kepada Nadia bahwa ia belajar banyak soal apa yang tidak boleh dilakukan, dan kini melamar kembali ke bank di level lamanya. Nadia menulis satu baris di catatannya: “Tanya kenapa kursinya kosong. Tanya ke mana tiga orang terakhir pergi.”"
        }
       ]
      },
@@ -39898,25 +39898,25 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "For a role you are considering (or one you admire), write a typical week without using the title: tasks, decisions, people, measures. Then list the three capital items it would add.",
-        "id": "Untuk peran yang sedang kamu pertimbangkan (atau yang kamu kagumi), tulis minggu yang biasa tanpa memakai jabatannya: tugas, keputusan, orang, ukuran. Lalu daftar tiga butir modal yang akan ditambahkannya."
+        "id": "Untuk peran yang sedang kamu pertimbangkan (atau yang kamu kagumi), tulis seminggu yang biasa tanpa menyebut jabatannya: tugas, keputusan, orang, ukuran. Lalu tulis tiga modal yang akan ditambahkannya."
        },
        "debrief": {
         "en": "Gaps in the description are the questions for your next conversation with the hiring manager.",
-        "id": "Celah dalam deskripsi adalah pertanyaan untuk percakapanmu berikutnya dengan manajer perekrut."
+        "id": "Bagian yang kosong dalam gambaranmu adalah pertanyaan untuk percakapan berikutnya dengan manajer perekrut."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Five manager questions",
-        "id": "Latihan 2 · Lima pertanyaan untuk manajer"
+        "id": "Latihan 2 · Lima pertanyaan untuk calon atasan"
        },
        "body": {
         "en": "Write the five questions you would ask a future manager, in the words you would use, and one backchannel question for someone who has worked with them.",
-        "id": "Tulis lima pertanyaan yang akan kamu ajukan kepada calon manajer, dengan kata-kata yang akan kamu pakai, dan satu pertanyaan belakang layar untuk orang yang pernah bekerja dengannya."
+        "id": "Tulis lima pertanyaan yang akan kamu ajukan kepada calon atasan, dengan kata-kata yang akan kamu pakai, dan satu pertanyaan jalur belakang untuk orang yang pernah bekerja dengannya."
        },
        "debrief": {
         "en": "Include “tell me about someone you developed; where are they now?” It reveals more than any question about management style.",
-        "id": "Sertakan “ceritakan tentang seseorang yang Anda kembangkan; di mana ia sekarang?” Pertanyaan itu mengungkap lebih banyak daripada pertanyaan apa pun tentang gaya memimpin."
+        "id": "Masukkan “ceritakan seseorang yang pernah Bapak atau Ibu kembangkan; di mana dia sekarang?” Pertanyaan itu mengungkap lebih banyak daripada pertanyaan apa pun soal gaya kepemimpinan."
        }
       },
       {
@@ -39926,11 +39926,11 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Write your gates and three to five weighted criteria now, before any offer. Score staying against them today.",
-        "id": "Tulis gerbang dan tiga sampai lima kriteria berbobotmu sekarang, sebelum ada tawaran. Nilai pilihan bertahan terhadapnya hari ini."
+        "id": "Tulis syarat mutlak dan tiga sampai lima kriteria berbobot sekarang, sebelum ada tawaran apa pun. Nilai pilihan bertahan dengan kriteria itu hari ini."
        },
        "debrief": {
         "en": "Staying’s score is your benchmark. An option must beat it on evidence, not on excitement.",
-        "id": "Nilai bertahan adalah patokanmu. Sebuah pilihan harus mengalahkannya dengan bukti, bukan dengan antusiasme."
+        "id": "Nilai untuk bertahan adalah patokanmu. Pilihan lain harus mengalahkannya berdasarkan bukti, bukan karena rasa antusias."
        }
       }
      ],
@@ -39939,41 +39939,41 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Choosing the title",
-         "id": "Memilih jabatan"
+         "id": "Memilih jabatannya"
         },
         "fix": {
          "en": "Describe the week and name the capital it adds.",
-         "id": "Gambarkan minggunya dan sebut modal yang ditambahkan."
+         "id": "Gambarkan minggunya dan sebut modal yang ditambahkannya."
         }
        },
        {
         "h": {
          "en": "Thirty minutes with the manager",
-         "id": "Tiga puluh menit dengan manajer"
+         "id": "Tiga puluh menit bersama atasan"
         },
         "fix": {
          "en": "Ask where their last reports went; backchannel ethically.",
-         "id": "Tanyakan ke mana bawahan terakhirnya pergi; tanya di belakang layar secara etis."
+         "id": "Tanyakan ke mana anak buah terakhirnya pergi; cari tahu lewat jalur belakang secara etis."
         }
        },
        {
         "h": {
          "en": "Never asking why the seat is empty",
-         "id": "Tak pernah bertanya mengapa kursinya kosong"
+         "id": "Tidak pernah bertanya kenapa kursinya kosong"
         },
         "fix": {
-         "en": "Growth or replacement: and how many before you?",
-         "id": "Pertumbuhan atau penggantian: dan berapa orang sebelummu?"
+         "en": "Growth or replacement, and how many before you?",
+         "id": "Pertumbuhan atau penggantian, dan berapa orang sebelum kamu?"
         }
        },
        {
         "h": {
          "en": "Letting the salary set the weights",
-         "id": "Membiarkan gaji menetapkan bobot"
+         "id": "Membiarkan gaji menentukan bobot"
         },
         "fix": {
          "en": "Gates and weights first; total compensation, not base.",
-         "id": "Gerbang dan bobot dulu; total kompensasi, bukan gaji pokok."
+         "id": "Syarat mutlak dan bobot lebih dulu; total kompensasi, bukan gaji pokok."
         }
        }
       ]
@@ -39985,28 +39985,28 @@ window.MT_LMS['the-route'] = {
         "id": "Empat lensa"
        },
        "def": {
-        "en": "Role, manager, organisation and team; the parts of an offer that decide what the next two years build.",
-        "id": "Peran, manajer, organisasi, dan tim; bagian tawaran yang menentukan apa yang dibangun dua tahun ke depan."
+        "en": "Role, manager, organisation and team: the parts of an offer that decide what the next two years build.",
+        "id": "Peran, atasan, organisasi, dan tim: bagian-bagian tawaran yang menentukan apa yang dibangun dua tahun ke depan."
        }
       },
       {
        "term": {
         "en": "Gate",
-        "id": "Gerbang"
+        "id": "Syarat mutlak"
        },
        "def": {
         "en": "A must-have that removes an option regardless of its score.",
-        "id": "Syarat mutlak yang menyingkirkan sebuah pilihan berapa pun nilainya."
+        "id": "Hal wajib yang menggugurkan sebuah pilihan, berapa pun nilainya."
        }
       },
       {
        "term": {
         "en": "Backchannel",
-        "id": "Tanya di belakang layar"
+        "id": "Jalur belakang"
        },
        "def": {
-        "en": "Asking people who have worked with a manager or team what it is like, openly, fairly, without breaking confidences.",
-        "id": "Bertanya kepada orang yang pernah bekerja dengan manajer atau tim seperti apa rasanya, terbuka, adil, tanpa membocorkan rahasia."
+        "en": "Asking people who have worked with a manager or team what it is like: openly, fairly, without breaking confidences.",
+        "id": "Bertanya kepada orang yang pernah bekerja dengan seorang atasan atau sebuah tim seperti apa rasanya: terbuka, adil, tanpa membocorkan rahasia."
        }
       },
       {
@@ -40016,7 +40016,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "Heath and Heath’s term for a small experiment that tests an option before a big commitment.",
-        "id": "Istilah Heath dan Heath untuk eksperimen kecil yang menguji pilihan sebelum komitmen besar."
+        "id": "Istilah Heath dan Heath untuk eksperimen kecil yang menguji sebuah pilihan sebelum komitmen besar."
        }
       }
      ],
@@ -40024,30 +40024,30 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "The single most revealing question about a team is often…",
-        "id": "Pertanyaan paling mengungkap tentang sebuah tim sering kali…"
+        "id": "Pertanyaan yang paling mengungkap tentang sebuah tim sering kali adalah…"
        },
        "options": [
         {
          "en": "“How big is the office?”",
-         "id": "“Seberapa besar kantornya?”"
+         "id": "“Kantornya seberapa besar?”"
         },
         {
          "en": "“Why is this role open?”",
-         "id": "“Mengapa peran ini terbuka?”"
+         "id": "“Kenapa posisi ini dibuka?”"
         },
         {
          "en": "“Is there free lunch?”",
-         "id": "“Apakah ada makan siang gratis?”"
+         "id": "“Ada makan siang gratis?”"
         },
         {
          "en": "“What is the dress code?”",
-         "id": "“Apa aturan berpakaiannya?”"
+         "id": "“Aturan berpakaiannya apa?”"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Growth or replacement, and a pattern of departures, tells you a great deal.",
-        "id": "Pertumbuhan atau penggantian, dan pola kepergian, memberitahumu banyak hal."
+        "id": "Pertumbuhan atau penggantian, dan pola orang yang keluar, memberitahumu banyak hal."
        }
       },
       {
@@ -40058,7 +40058,7 @@ window.MT_LMS['the-route'] = {
        "options": [
         {
          "en": "After seeing all the salaries",
-         "id": "Setelah melihat semua gaji"
+         "id": "Setelah melihat semua gajinya"
         },
         {
          "en": "Before seeing the number",
@@ -40066,46 +40066,46 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Only if the options are close",
-         "id": "Hanya jika pilihannya berdekatan"
+         "id": "Hanya kalau pilihannya bersaing ketat"
         },
         {
          "en": "Never: go with your gut",
-         "id": "Tidak pernah: ikuti naluri"
+         "id": "Tidak perlu, ikuti naluri saja"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Otherwise the salary quietly rewrites your priorities.",
-        "id": "Jika tidak, gaji diam-diam menulis ulang prioritasmu."
+        "id": "Kalau tidak, gaji diam-diam akan menulis ulang prioritasmu."
        }
       },
       {
        "q": {
         "en": "A role scores highest but requires relocating while your gate says no relocation this year. It…",
-        "id": "Sebuah peran bernilai tertinggi tetapi mengharuskan pindah kota sementara gerbangmu bilang tak pindah tahun ini. Ia…"
+        "id": "Sebuah peran mendapat nilai tertinggi tetapi mengharuskan pindah kota, padahal syarat mutlakmu tidak pindah kota tahun ini. Peran itu…"
        },
        "options": [
         {
          "en": "Wins: the score is highest",
-         "id": "Menang: nilainya tertinggi"
+         "id": "Menang, karena nilainya tertinggi"
         },
         {
          "en": "Is out, unless the gate itself changes",
-         "id": "Tersingkir, kecuali gerbangnya sendiri berubah"
+         "id": "Gugur, kecuali syarat mutlaknya sendiri berubah"
         },
         {
          "en": "Should be accepted and renegotiated later",
-         "id": "Sebaiknya diterima dan dinegosiasi ulang nanti"
+         "id": "Sebaiknya diterima, lalu dinegosiasikan ulang nanti"
         },
         {
          "en": "Needs a higher salary to win",
-         "id": "Butuh gaji lebih tinggi untuk menang"
+         "id": "Butuh gaji lebih tinggi supaya menang"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Gates are not weights; an option that fails one is out.",
-        "id": "Gerbang bukan bobot; pilihan yang gagal di gerbang tersingkir."
+        "id": "Syarat mutlak bukan bobot; pilihan yang gagal di salah satunya langsung gugur."
        }
       }
      ],
@@ -40117,8 +40117,8 @@ window.MT_LMS['the-route'] = {
        "id": "Jadwalkan tiga percakapan uji kenyataan"
       },
       "body": {
-       "en": "Open the 90-day plan and add three conversations for your leading option. Someone who knows the role, someone who has worked with the manager, and a future peer; each with one open question.",
-       "id": "Buka rencana 90 hari dan tambahkan tiga percakapan untuk pilihan terdepanmu, orang yang mengenal perannya, orang yang pernah bekerja dengan manajernya, dan calon rekan, masing-masing dengan satu pertanyaan terbuka."
+       "en": "Open the 90-day plan and add three conversations for your leading option: someone who knows the role, someone who has worked with the manager, and a future peer; each with one open question.",
+       "id": "Buka rencana 90 hari dan tambahkan tiga percakapan untuk pilihan teratasmu: seseorang yang mengenal perannya, seseorang yang pernah bekerja dengan atasannya, dan seorang calon rekan setim, masing-masing dengan satu pertanyaan terbuka."
       },
       "cta": {
        "en": "Open the 90-day plan",
@@ -40127,20 +40127,20 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "A title, a number and a logo are not a role. Ask what the next two years would build, and with whom.",
-      "id": "Jabatan, angka, dan logo bukanlah peran. Tanyakan apa yang akan dibangun dua tahun ke depan, dan bersama siapa."
+      "id": "Jabatan, angka, dan logo belum tentu sebuah peran. Tanyakan apa yang akan dibangun dua tahun ke depan, dan bersama siapa."
      },
      "takeaways": [
       {
        "en": "Evaluate the role by the capital it builds and the door it opens; describe the week, not the title.",
-       "id": "Nilai peran dari modal yang dibangunnya dan pintu yang dibukanya, gambarkan minggunya, bukan jabatannya."
+       "id": "Nilai perannya dari modal yang dibangunnya dan pintu yang dibukanya; gambarkan minggunya, bukan jabatannya."
       },
       {
        "en": "The manager is much of the job: ask where their last reports went, and backchannel ethically; ask why the seat is empty.",
-       "id": "Manajer adalah sebagian besar pekerjaannya: tanyakan ke mana bawahan terakhirnya pergi, dan tanya di belakang layar secara etis; tanyakan mengapa kursinya kosong."
+       "id": "Atasan menentukan sebagian besar pekerjaannya: tanyakan ke mana anak buah terakhirnya pergi, cari tahu lewat jalur belakang secara etis, dan tanyakan kenapa kursinya kosong."
       },
       {
        "en": "Set gates and weights before the number, score every option including staying, and reality-test before you leap.",
-       "id": "Tetapkan gerbang dan bobot sebelum angka, nilai setiap pilihan termasuk bertahan, dan uji kenyataan sebelum melompat."
+       "id": "Tetapkan syarat mutlak dan bobot sebelum melihat angka, nilai setiap pilihan termasuk bertahan, dan uji kenyataannya sebelum melompat."
       }
      ],
      "resources": {
@@ -40150,7 +40150,7 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "Career Kit item (part 2): your opportunity evaluation.",
-       "id": "Butir Career Kit (bagian 2): penilaian peluangmu."
+       "id": "Isi Perangkat Karier (bagian 2): penilaian peluangmu."
       },
       "items": [
        {
@@ -40161,7 +40161,7 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Where the ideas come from.",
-         "id": "Dari mana gagasannya berasal."
+         "id": "Dari mana gagasan-gagasan ini berasal."
         },
         "body": [
          {
@@ -40170,11 +40170,11 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> Whether a financial business is licensed or registered for its activities can be checked against the regulator’s public lists; requirements change.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Apakah bisnis keuangan berizin atau terdaftar untuk kegiatannya bisa dicek pada daftar publik regulator; persyaratannya berubah."
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Apakah sebuah usaha keuangan sudah berizin atau terdaftar untuk kegiatannya bisa dicek di daftar publik regulator; persyaratannya bisa berubah."
          },
          {
           "en": "<span class=\"ev ev-contested\">Course guidance</span> The four lenses, gates and weights and the backchannel rules are The Route’s working methods.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Empat lensa, gerbang dan bobot, serta aturan tanya di belakang layar adalah metode kerja The Route."
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Empat lensa, syarat mutlak dan bobot, serta aturan jalur belakang adalah metode kerja The Route."
          }
         ]
        },
@@ -40186,16 +40186,16 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "One per option, including staying.",
-         "id": "Satu per pilihan, termasuk bertahan."
+         "id": "Satu untuk tiap pilihan, termasuk bertahan."
         },
         "body": [
          {
           "en": "ROLE: typical week … · 90-day success … · capital added 1 … 2 … 3 … · next door … · MANAGER: answers … · last reports went … · backchannel …",
-          "id": "PERAN: minggu biasa … · keberhasilan 90 hari … · modal ditambah 1 … 2 … 3 … · pintu berikutnya … · MANAJER: jawaban … · bawahan terakhir ke … · belakang layar …"
+          "id": "PERAN: seminggu yang biasa … · keberhasilan 90 hari … · modal yang bertambah 1 … 2 … 3 … · pintu berikutnya … · ATASAN: jawabannya … · anak buah terakhirnya pergi ke … · jalur belakang …"
          },
          {
           "en": "ORGANISATION: health … · licences … · investing in … · TEAM: why open … · departures … · peers met … · RED FLAGS: …",
-          "id": "ORGANISASI: kesehatan … · izin … · berinvestasi di … · TIM: mengapa terbuka … · kepergian … · rekan yang ditemui … · TANDA BAHAYA: …"
+          "id": "ORGANISASI: kesehatan … · izin … · berinvestasi di … · TIM: alasan dibuka … · yang sudah keluar … · rekan setim yang ditemui … · TANDA BAHAYA: …"
          }
         ]
        },
@@ -40203,20 +40203,20 @@ window.MT_LMS['the-route'] = {
         "kind": "template",
         "title": {
          "en": "Gates, weights and the score",
-         "id": "Gerbang, bobot, dan nilai"
+         "id": "Syarat mutlak, bobot, dan nilainya"
         },
         "desc": {
          "en": "Written before any number.",
-         "id": "Ditulis sebelum ada angka."
+         "id": "Ditulis sebelum ada angka apa pun."
         },
         "body": [
          {
           "en": "GATES: 1 … 2 … · CRITERIA (weight): … (…%) · … (…%) · … (…%) · … (…%)",
-          "id": "GERBANG: 1 … 2 … · KRITERIA (bobot): … (…%) · … (…%) · … (…%) · … (…%)"
+          "id": "SYARAT MUTLAK: 1 … 2 … · KRITERIA (bobot): … (…%) · … (…%) · … (…%) · … (…%)"
          },
          {
           "en": "SCORES 1–5 with reasons: stay … · option A … · option B … · MY REACTION TO THE RESULT: … · REALITY TESTS: 1 … 2 … 3 …",
-          "id": "NILAI 1–5 dengan alasan: bertahan … · pilihan A … · pilihan B … · REAKSIKU TERHADAP HASILNYA: … · UJI KENYATAAN: 1 … 2 … 3 …"
+          "id": "NILAI 1–5 dengan alasan: bertahan … · pilihan A … · pilihan B … · REAKSI SAYA TERHADAP HASILNYA: … · UJI KENYATAAN: 1 … 2 … 3 …"
          }
         ]
        }
@@ -40229,32 +40229,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Internal Mobility: Moving Within Your Organisation",
       "id": "Mobilitas Internal: Pindah di Dalam Organisasimu"
      },
      "overview": {
-      "en": "The steepest new curve is sometimes one building away. An internal move keeps most of the capital you have built, reputation, relationships, knowledge of how things work, while giving you new skills and a new story. Yet many people only look outside, because internal moves feel politically risky and the rules are unclear. This lesson sets out the forms internal mobility takes, how internal markets actually work, how to have the conversation with your current manager without damaging the relationship, and how to land well on the other side.",
-      "id": "Kurva baru yang paling curam kadang hanya satu gedung jauhnya. Perpindahan internal mempertahankan sebagian besar modal yang sudah kamu bangun, reputasi, hubungan, pengetahuan tentang cara kerja, sambil memberimu keterampilan baru dan cerita baru. Namun banyak orang hanya melihat ke luar, karena perpindahan internal terasa berisiko secara politis dan aturannya tidak jelas. Pelajaran ini memaparkan bentuk-bentuk mobilitas internal, bagaimana pasar internal sebenarnya bekerja, cara melakukan percakapan dengan manajermu sekarang tanpa merusak hubungan, dan cara mendarat dengan baik di sisi lain."
+      "en": "The steepest new curve is sometimes one building away. An internal move keeps most of the capital you have built (reputation, relationships, knowledge of how things work) while giving you new skills and a new story. Yet many people only look outside, because internal moves feel politically risky and the rules are unclear. This lesson sets out the forms internal mobility takes, how internal markets actually work, how to have the conversation with your current manager without damaging the relationship, and how to land well on the other side.",
+      "id": "Kurva baru yang paling curam kadang hanya berjarak satu gedung. Pindah di dalam membuatmu tetap membawa sebagian besar modal yang sudah kamu bangun (reputasi, hubungan, pemahaman tentang cara kerja organisasi), sambil memberimu keterampilan baru dan cerita baru. Meski begitu, banyak orang hanya melihat ke luar, karena pindah di dalam terasa berisiko secara politis dan aturannya tidak jelas. Pelajaran ini menjabarkan bentuk-bentuk mobilitas internal, cara kerja pasar internal yang sebenarnya, cara membicarakannya dengan atasanmu sekarang tanpa merusak hubungan, dan cara mendarat dengan baik di tempat baru."
      },
      "objectives": [
       {
        "en": "Compare the forms of internal mobility, from taskforce to relocation.",
-       "id": "Membandingkan bentuk-bentuk mobilitas internal, dari satgas sampai relokasi."
+       "id": "Membandingkan bentuk-bentuk mobilitas internal, dari gugus tugas sampai pindah kota."
       },
       {
        "en": "Read your organisation’s internal-move rules and its informal market.",
-       "id": "Membaca aturan perpindahan internal organisasimu dan pasar informalnya."
+       "id": "Membaca aturan pindah internal di organisasimu dan pasar informalnya."
       },
       {
        "en": "Hold the conversation with your current manager early and well.",
-       "id": "Melakukan percakapan dengan manajermu sekarang lebih awal dan dengan baik."
+       "id": "Membicarakannya dengan atasanmu sekarang sejak awal dan dengan baik."
       },
       {
        "en": "Land the move: the internal interview, level and pay, release and handover.",
-       "id": "Mendaratkan perpindahannya: wawancara internal, level dan gaji, pelepasan dan serah terima."
+       "id": "Menuntaskan kepindahannya: wawancara internal, level dan gaji, pelepasan dan serah terima."
       }
      ],
      "readFirst": {
@@ -40274,30 +40274,30 @@ window.MT_LMS['the-route'] = {
        "story": [
         {
          "en": "Inside first: most of your capital comes with you, and the forms range from a taskforce to a relocation",
-         "id": "Di dalam dulu: sebagian besar modalmu ikut, dan bentuknya berkisar dari satgas sampai relokasi"
+         "id": "Di dalam dulu: sebagian besar modalmu ikut terbawa, dan bentuknya mulai dari gugus tugas sampai pindah kota"
         },
         {
          "en": "Read the internal posting policy, then learn the second market: roles discussed before they are posted",
-         "id": "Baca kebijakan lowongan internal, lalu pelajari pasar kedua: peran yang dibahas sebelum diumumkan"
+         "id": "Baca kebijakan lowongan internal, lalu pelajari pasar kedua: peran yang dibicarakan sebelum diumumkan"
         },
         {
          "en": "Your manager should hear it from you, early, framed as growth within the organisation, with a handover plan",
-         "id": "Manajermu harus mendengarnya darimu, lebih awal, dibingkai sebagai pertumbuhan di dalam organisasi, dengan rencana serah terima"
+         "id": "Atasanmu harus mendengarnya darimu, sejak awal, dibingkai sebagai bertumbuh di dalam organisasi, lengkap dengan rencana serah terima"
         },
         {
          "en": "Prepare as for an outside interview, then agree level, pay, release date and handover in writing",
-         "id": "Bersiap seperti wawancara luar, lalu sepakati level, gaji, tanggal pelepasan, dan serah terima secara tertulis"
+         "id": "Bersiaplah seperti untuk wawancara di luar, lalu sepakati level, gaji, tanggal pelepasan, dan serah terima secara tertulis"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Many forms",
-          "id": "Banyak bentuk"
+          "id": "Banyak bentuknya"
          },
          "p": {
           "en": "A new curve without starting from zero: your reputation, your knowledge of how decisions are made, and your sponsors still work.",
-          "id": "Kurva baru tanpa mulai dari nol: reputasimu, pengetahuanmu tentang cara keputusan dibuat, dan sponsormu masih bekerja."
+          "id": "Kurva baru tanpa mulai dari nol: reputasimu, pemahamanmu tentang cara keputusan dibuat, dan sponsormu tetap berfungsi."
          }
         },
         {
@@ -40307,17 +40307,17 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Inside, your reputation is your CV; the roles worth having are often discussed in the second market before they reach the first.",
-          "id": "Di dalam, reputasimu adalah CV-mu; peran yang layak sering dibahas di pasar kedua sebelum sampai ke pasar pertama."
+          "id": "Di dalam, reputasimu adalah CV-mu; peran yang layak dikejar sering sudah dibicarakan di pasar kedua sebelum sampai ke pasar pertama."
          }
         },
         {
          "h": {
           "en": "Manager early",
-          "id": "Manajer lebih awal"
+          "id": "Atasan sejak awal"
          },
          "p": {
           "en": "Your current manager is part of the process, not an obstacle to hide from.",
-          "id": "Manajermu saat ini adalah bagian dari proses, bukan penghalang untuk dihindari."
+          "id": "Atasanmu sekarang adalah bagian dari prosesnya, bukan penghalang yang perlu dihindari."
          }
         },
         {
@@ -40327,7 +40327,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Bring evidence they can verify inside, name witnesses they know, and answer the obvious question first: why leave a unit where you are doing well?",
-          "id": "Bawa bukti yang bisa mereka verifikasi di dalam, sebut saksi yang mereka kenal, dan jawab pertanyaan yang jelas lebih dulu: mengapa meninggalkan unit tempat kamu berhasil?"
+          "id": "Bawa bukti yang bisa mereka periksa di dalam, sebut saksi yang mereka kenal, dan jawab dulu pertanyaan yang pasti muncul: kenapa meninggalkan unit tempat kamu sedang berkinerja baik?"
          }
         }
        ],
@@ -40336,17 +40336,17 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Inside first: most of your capital comes with you, and the forms range from a taskforce to a relocation",
-          "id": "Di dalam dulu: sebagian besar modalmu ikut, dan bentuknya berkisar dari satgas sampai relokasi"
+          "id": "Di dalam dulu: sebagian besar modalmu ikut terbawa, dan bentuknya mulai dari gugus tugas sampai pindah kota"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "grid",
            "en": "Project or taskforce",
-           "id": "Proyek atau satgas",
+           "id": "Proyek atau gugus tugas",
            "d": {
-            "en": "Low commitment, keep your job: testing a new area; visibility to another unit.",
-            "id": "Komitmen rendah, pekerjaan tetap: menguji bidang baru; visibilitas ke unit lain."
+            "en": "Low commitment (keep your job): testing a new area; visibility to another unit.",
+            "id": "Komitmen rendah (pekerjaanmu tetap): mencoba bidang baru; terlihat oleh unit lain."
            },
            "img": "../../assets/m/06-horizon.jpg"
           },
@@ -40355,8 +40355,8 @@ window.MT_LMS['the-route'] = {
            "en": "Secondment",
            "id": "Penugasan sementara",
            "d": {
-            "en": "Medium, months with a return: both sides testing the fit.",
-            "id": "Menengah, berbulan-bulan dengan jalan kembali: kedua pihak menguji kecocokan."
+            "en": "Medium (months, with a return): both sides testing the fit.",
+            "id": "Sedang (beberapa bulan, lalu kembali): kedua pihak menguji kecocokan."
            },
            "img": "../../assets/bg/compass.jpg"
           },
@@ -40366,49 +40366,49 @@ window.MT_LMS['the-route'] = {
            "id": "Pindah setara",
            "d": {
             "en": "Medium to high: breadth that later promotions need.",
-            "id": "Menengah sampai tinggi: keluasan yang dibutuhkan promosi berikutnya."
+            "id": "Sedang sampai tinggi: keluasan yang kelak dibutuhkan untuk promosi."
            },
            "img": "../../assets/bg/fg-sprint-direction.jpg"
           },
           {
            "icon": "steps",
            "en": "Promotion elsewhere",
-           "id": "Promosi di tempat lain",
+           "id": "Promosi di unit lain",
            "d": {
             "en": "High: a new level when your unit has no slot.",
-            "id": "Tinggi: level baru saat unitmu tak punya slot."
+            "id": "Tinggi: level baru saat unitmu tidak punya kursi."
            },
            "img": "../../assets/bg/ep-stage-acceleration.jpg"
           },
           {
            "icon": "pin",
            "en": "Relocation",
-           "id": "Relokasi",
+           "id": "Pindah kota",
            "d": {
-            "en": "Highest, work and life: head-office or regional exposure; bigger curves.",
-            "id": "Tertinggi, kerja dan hidup: paparan kantor pusat atau regional; kurva lebih besar."
+            "en": "Highest (work and life): head-office or regional exposure; bigger curves.",
+            "id": "Paling tinggi (pekerjaan dan hidup): pengalaman di kantor pusat atau wilayah; kurva yang lebih besar."
            },
            "img": "../../assets/pe/th-network.jpg"
           }
          ],
          "sub": {
           "en": "M. Bidwell, “Paying More to Get Less”: external hires were often paid more than internal promotions, yet rated lower early on and more likely to leave.",
-          "id": "M. Bidwell, “Paying More to Get Less”: rekrutan eksternal sering dibayar lebih dari promosi internal, namun dinilai lebih rendah di awal dan lebih mungkin pergi."
+          "id": "M. Bidwell, “Paying More to Get Less”: karyawan dari luar sering dibayar lebih tinggi daripada karyawan internal yang dipromosikan, tetapi dinilai lebih rendah di awal dan lebih mungkin keluar."
          },
          "band": {
           "en": "A new curve without starting from zero: your reputation, your knowledge of how decisions are made, and your sponsors still work.",
-          "id": "Kurva baru tanpa mulai dari nol: reputasimu, pengetahuanmu tentang cara keputusan dibuat, dan sponsormu masih bekerja."
+          "id": "Kurva baru tanpa mulai dari nol: reputasimu, pemahamanmu tentang cara keputusan dibuat, dan sponsormu tetap berfungsi."
          },
          "em": {
           "en": "most of your capital comes with you",
-          "id": "sebagian besar modalmu ikut"
+          "id": "sebagian besar modalmu ikut terbawa"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Read the internal posting policy, then learn the second market: roles discussed before they are posted",
-          "id": "Baca kebijakan lowongan internal, lalu pelajari pasar kedua: peran yang dibahas sebelum diumumkan"
+          "id": "Baca kebijakan lowongan internal, lalu pelajari pasar kedua: peran yang dibicarakan sebelum diumumkan"
          },
          "layout": "grid",
          "items": [
@@ -40428,17 +40428,17 @@ window.MT_LMS['the-route'] = {
            "id": "Ambang kinerja",
            "d": {
             "en": "Which rating, from which review.",
-            "id": "Peringkat mana, dari evaluasi mana."
+            "id": "Nilai yang mana, dari evaluasi yang mana."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           },
           {
            "icon": "bell",
            "en": "Manager notification",
-           "id": "Pemberitahuan manajer",
+           "id": "Pemberitahuan kepada atasan",
            "d": {
             "en": "Before applying, or before an offer? Approval or information?",
-            "id": "Sebelum melamar, atau sebelum tawaran? Persetujuan atau informasi?"
+            "id": "Sebelum melamar, atau sebelum tawaran keluar? Persetujuan atau sekadar pemberitahuan?"
            },
            "img": "../../assets/bg/stage-execution.jpg"
           },
@@ -40448,7 +40448,7 @@ window.MT_LMS['the-route'] = {
            "id": "Masa pelepasan",
            "d": {
             "en": "The maximum weeks your unit can hold you for handover.",
-            "id": "Maksimum minggu unitmu bisa menahanmu untuk serah terima."
+            "id": "Paling lama berapa minggu unitmu boleh menahanmu untuk serah terima."
            },
            "img": "../../assets/bg/ch1-realization.jpg"
           },
@@ -40458,18 +40458,18 @@ window.MT_LMS['the-route'] = {
            "id": "Golongan dan gaji saat pindah",
            "d": {
             "en": "Lateral versus promotion rules; relocation allowances.",
-            "id": "Aturan pindah setara versus promosi; tunjangan relokasi."
+            "id": "Aturan pindah setara dan promosi; tunjangan untuk pindah kota."
            },
            "img": "../../assets/bg/negotiation.jpg"
           }
          ],
          "sub": {
           "en": "The policy usually answers the questions people are afraid to ask (verify).",
-          "id": "Kebijakan biasanya menjawab pertanyaan yang orang takut tanyakan (verifikasi)."
+          "id": "Kebijakan itu biasanya menjawab pertanyaan yang takut diajukan orang (periksa)."
          },
          "band": {
           "en": "Inside, your reputation is your CV; the roles worth having are often discussed in the second market before they reach the first.",
-          "id": "Di dalam, reputasimu adalah CV-mu; peran yang layak sering dibahas di pasar kedua sebelum sampai ke pasar pertama."
+          "id": "Di dalam, reputasimu adalah CV-mu; peran yang layak dikejar sering sudah dibicarakan di pasar kedua sebelum sampai ke pasar pertama."
          },
          "em": {
           "en": "the second market",
@@ -40480,7 +40480,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Your manager should hear it from you, early, framed as growth within the organisation, with a handover plan",
-          "id": "Manajermu harus mendengarnya darimu, lebih awal, dibingkai sebagai pertumbuhan di dalam organisasi, dengan rencana serah terima"
+          "id": "Atasanmu harus mendengarnya darimu, sejak awal, dibingkai sebagai bertumbuh di dalam organisasi, lengkap dengan rencana serah terima"
          },
          "img": "../../assets/bg/compass.jpg",
          "layout": "flow",
@@ -40488,10 +40488,10 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "heart",
            "en": "Appreciation",
-           "id": "Apresiasi",
+           "id": "Penghargaan",
            "d": {
             "en": "What you have learned in the role and from them, specifically.",
-            "id": "Apa yang kamu pelajari di peran ini dan dari mereka, secara spesifik."
+            "id": "Apa yang kamu pelajari di peran itu dan darinya, secara spesifik."
            }
           },
           {
@@ -40500,35 +40500,35 @@ window.MT_LMS['the-route'] = {
            "id": "Arah",
            "d": {
             "en": "The capability you want to build next, and why this unit cannot give it.",
-            "id": "Kapabilitas yang ingin kamu bangun berikutnya, dan mengapa unit ini tak bisa memberinya."
+            "id": "Kemampuan yang ingin kamu bangun berikutnya, dan kenapa unit ini tidak bisa memberikannya."
            }
           },
           {
            "icon": "hand",
            "en": "The ask",
-           "id": "Permintaan",
+           "id": "Permintaannya",
            "d": {
             "en": "Their support, or at least their awareness, before you apply.",
-            "id": "Dukungan mereka, atau setidaknya pengetahuan mereka, sebelum kamu melamar."
+            "id": "Dukungannya, atau setidaknya sepengetahuannya, sebelum kamu melamar."
            }
           },
           {
            "icon": "refresh",
            "en": "The handover",
-           "id": "Serah terima",
+           "id": "Serah terimanya",
            "d": {
             "en": "Who takes what, and how long the overlap would be.",
-            "id": "Siapa menerima apa, dan berapa lama tumpang tindihnya."
+            "id": "Siapa mengambil alih apa, dan berapa lama tumpang tindihnya."
            }
           }
          ],
          "sub": {
           "en": "Applying in secret, so that your manager hears from HR or the other unit, breaks trust and reads as melangkahi atasan.",
-          "id": "Melamar diam-diam, sehingga manajermu tahu dari HR atau unit lain, merusak kepercayaan dan terbaca sebagai melangkahi atasan."
+          "id": "Melamar diam-diam, sampai atasanmu mendengarnya dari HR atau unit lain, merusak kepercayaan dan terbaca sebagai melangkahi atasan."
          },
          "band": {
           "en": "Your current manager is part of the process, not an obstacle to hide from.",
-          "id": "Manajermu saat ini adalah bagian dari proses, bukan penghalang untuk dihindari."
+          "id": "Atasanmu sekarang adalah bagian dari prosesnya, bukan penghalang yang perlu dihindari."
          },
          "em": {
           "en": "hear it from you",
@@ -40539,7 +40539,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Prepare as for an outside interview, then agree level, pay, release date and handover in writing",
-          "id": "Bersiap seperti wawancara luar, lalu sepakati level, gaji, tanggal pelepasan, dan serah terima secara tertulis"
+          "id": "Bersiaplah seperti untuk wawancara di luar, lalu sepakati level, gaji, tanggal pelepasan, dan serah terima secara tertulis"
          },
          "layout": "grid",
          "items": [
@@ -40586,11 +40586,11 @@ window.MT_LMS['the-route'] = {
          ],
          "sub": {
           "en": "Internal candidates under-prepare, assuming being known is enough; the receiving manager may know you only as two words from a hallway.",
-          "id": "Kandidat internal kurang bersiap, mengira dikenal saja cukup; manajer penerima mungkin mengenalmu hanya sebagai dua kata dari lorong."
+          "id": "Kandidat internal sering kurang bersiap karena mengira dikenal saja sudah cukup; calon atasanmu di unit penerima mungkin hanya mengenalmu sebatas dua kata dari obrolan lorong."
          },
          "band": {
           "en": "Bring evidence they can verify inside, name witnesses they know, and answer the obvious question first: why leave a unit where you are doing well?",
-          "id": "Bawa bukti yang bisa mereka verifikasi di dalam, sebut saksi yang mereka kenal, dan jawab pertanyaan yang jelas lebih dulu: mengapa meninggalkan unit tempat kamu berhasil?"
+          "id": "Bawa bukti yang bisa mereka periksa di dalam, sebut saksi yang mereka kenal, dan jawab dulu pertanyaan yang pasti muncul: kenapa meninggalkan unit tempat kamu sedang berkinerja baik?"
          },
          "em": {
           "en": "in writing",
@@ -40613,18 +40613,18 @@ window.MT_LMS['the-route'] = {
       },
       "intro": {
        "en": "Inside, your reputation is your CV, and your current manager is part of the process, not an obstacle to hide from.",
-       "id": "Di dalam, reputasimu adalah CV-mu, dan manajermu sekarang adalah bagian dari prosesnya, bukan penghalang untuk dihindari."
+       "id": "Di dalam, reputasimu adalah CV-mu, dan atasanmu sekarang adalah bagian dari prosesnya, bukan penghalang yang perlu dihindari."
       },
       "slides": [
        {
         "h": {
          "en": "Many forms",
-         "id": "Banyak bentuk"
+         "id": "Banyak bentuknya"
         },
         "points": [
          {
           "en": "Taskforce, secondment, lateral move, promotion, relocation.",
-          "id": "Satgas, penugasan sementara, pindah setara, promosi, relokasi."
+          "id": "Gugus tugas, penugasan sementara, pindah setara, promosi, pindah kota."
          }
         ]
        },
@@ -40636,19 +40636,19 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "The posted one, and the one where roles are discussed before posting.",
-          "id": "Yang diumumkan, dan yang peran-perannya dibahas sebelum diumumkan."
+          "id": "Yang diumumkan, dan yang membicarakan peran sebelum diumumkan."
          }
         ]
        },
        {
         "h": {
          "en": "Manager early",
-         "id": "Manajer lebih awal"
+         "id": "Atasan sejak awal"
         },
         "points": [
          {
           "en": "They should hear it from you, with a handover plan.",
-          "id": "Ia harus mendengarnya darimu, dengan rencana serah terima."
+          "id": "Ia harus mendengarnya darimu, lengkap dengan rencana serah terima."
          }
         ]
        },
@@ -40660,7 +40660,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Prepare as for an outside interview; agree level, pay and release date.",
-          "id": "Bersiap seperti wawancara luar; sepakati level, gaji, dan tanggal pelepasan."
+          "id": "Bersiaplah seperti untuk wawancara di luar; sepakati level, gaji, dan tanggal pelepasan."
          }
         ]
        }
@@ -40672,12 +40672,12 @@ window.MT_LMS['the-route'] = {
        "img": "../../assets/m/03-climb.jpg",
        "imgPos": "50% 45%",
        "h": {
-        "en": "Why inside first: and the forms it takes",
-        "id": "Mengapa di dalam dulu, dan bentuk-bentuknya"
+        "en": "Why inside first, and the forms it takes",
+        "id": "Kenapa di dalam dulu, dan bentuk-bentuknya"
        },
        "body": {
-        "en": "When you move inside, most of your capital comes with you: people already know your reputation, you know how decisions are made, and your relationships and sponsors (Module 6) still work. When you move outside, much of that capital must be rebuilt from zero, and the new employer is betting on a stranger. Research supports the value of internal moves: Matthew Bidwell’s study “Paying More to Get Less” found that external hires were often paid more than internal promotions into similar jobs, yet received lower performance evaluations in their early years and were more likely to leave. That does not make outside moves wrong, sometimes the capital you need simply does not exist inside, but it does mean the inside should be examined first. Internal mobility comes in several forms, which differ in commitment and risk. A <b>project or taskforce</b> restarts part of the curve without changing your job. A <b>secondment</b>, a temporary assignment to another unit for months, lets both sides test the fit. A <b>lateral move</b> changes function or product at the same level; it is often the most underrated move of an early career, because it adds breadth that later promotions depend on. A <b>promotion</b> in another unit combines new work with a new level. A <b>relocation</b>, to head office, another region or another country in a group, combines all of this with a change of life. For each, ask the same questions as in Lesson 7.2: what capital would it build, and which door would it open?",
-        "id": "Saat kamu pindah di dalam, sebagian besar modalmu ikut: orang sudah mengenal reputasimu, kamu tahu cara keputusan dibuat, dan hubungan serta sponsormu (Modul 6) masih bekerja. Saat kamu pindah ke luar, banyak modal itu harus dibangun ulang dari nol, dan pemberi kerja baru bertaruh pada orang asing. Riset mendukung nilai perpindahan internal: studi Matthew Bidwell “Paying More to Get Less” menemukan bahwa rekrutan eksternal sering dibayar lebih tinggi daripada promosi internal ke pekerjaan serupa, tetapi menerima penilaian kinerja lebih rendah di tahun-tahun awalnya dan lebih mungkin keluar. Itu tidak membuat perpindahan ke luar salah, kadang modal yang kamu butuhkan memang tak ada di dalam, tetapi berarti bagian dalam sebaiknya diperiksa lebih dulu. Mobilitas internal hadir dalam beberapa bentuk, yang berbeda dalam komitmen dan risiko. <b>Proyek atau satgas</b> memulai ulang sebagian kurva tanpa mengubah pekerjaanmu. <b>Penugasan sementara</b>, tugas sementara di unit lain selama beberapa bulan, memungkinkan kedua pihak menguji kecocokan. <b>Pindah setara</b> mengubah fungsi atau produk di level yang sama; ini sering menjadi langkah paling diremehkan di awal karier, karena menambah keluasan yang kelak dibutuhkan promosi. <b>Promosi</b> di unit lain menggabungkan pekerjaan baru dengan level baru. <b>Relokasi</b>, ke kantor pusat, wilayah lain, atau negara lain dalam satu grup, menggabungkan semua itu dengan perubahan hidup. Untuk masing-masing, ajukan pertanyaan yang sama seperti di Pelajaran 7.2: modal apa yang akan dibangun, dan pintu mana yang akan dibuka?"
+        "en": "When you move inside, most of your capital comes with you: people already know your reputation, you know how decisions are made, and your relationships and sponsors (Module 6) still work. When you move outside, much of that capital must be rebuilt from zero, and the new employer is betting on a stranger. Research supports the value of internal moves: Matthew Bidwell’s study “Paying More to Get Less” found that external hires were often paid more than internal promotions into similar jobs, yet received lower performance evaluations in their early years and were more likely to leave. That does not make outside moves wrong (sometimes the capital you need simply does not exist inside), but it does mean the inside should be examined first. Internal mobility comes in several forms, which differ in commitment and risk. A <b>project or taskforce</b> restarts part of the curve without changing your job. A <b>secondment</b> (a temporary assignment to another unit for months) lets both sides test the fit. A <b>lateral move</b> changes function or product at the same level; it is often the most underrated move of an early career, because it adds breadth that later promotions depend on. A <b>promotion</b> in another unit combines new work with a new level. A <b>relocation</b> (to head office, another region or another country in a group) combines all of this with a change of life. For each, ask the same questions as in Lesson 7.2: what capital would it build, and which door would it open?",
+        "id": "Saat pindah di dalam, sebagian besar modalmu ikut terbawa: orang sudah mengenal reputasimu, kamu tahu cara keputusan dibuat, dan hubungan serta sponsormu (Modul 6) tetap berfungsi. Saat pindah ke luar, banyak dari modal itu harus dibangun ulang dari nol, dan pemberi kerja baru sedang bertaruh pada orang asing. Riset mendukung nilai pindah di dalam: studi Matthew Bidwell, “Paying More to Get Less”, menemukan bahwa karyawan yang direkrut dari luar sering dibayar lebih tinggi daripada karyawan internal yang dipromosikan ke pekerjaan serupa, tetapi menerima penilaian kinerja yang lebih rendah di tahun-tahun awalnya dan lebih mungkin keluar. Itu tidak berarti pindah ke luar itu salah (kadang modal yang kamu butuhkan memang tidak ada di dalam), tetapi pilihan di dalam layak diperiksa lebih dulu. Mobilitas internal punya beberapa bentuk, yang berbeda dalam tingkat komitmen dan risikonya. <b>Proyek atau gugus tugas</b> memulai ulang sebagian kurvamu tanpa mengubah pekerjaanmu. <b>Penugasan sementara</b> (ditempatkan di unit lain selama beberapa bulan) membuat kedua pihak bisa menguji kecocokannya. <b>Pindah setara</b> mengubah fungsi atau produk di level yang sama; langkah ini sering paling diremehkan di awal karier, padahal menambah keluasan yang kelak dibutuhkan untuk promosi. <b>Promosi</b> di unit lain menggabungkan pekerjaan baru dengan level baru. <b>Pindah kota</b> (ke kantor pusat, wilayah lain, atau negara lain dalam satu grup) menggabungkan semuanya dengan perubahan hidup. Untuk masing-masing, ajukan pertanyaan yang sama seperti di Pelajaran 7.2: modal apa yang akan dibangunnya, dan pintu mana yang akan dibukanya?"
        },
        "table": {
         "cols": [
@@ -40698,15 +40698,15 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Project / taskforce</b>",
-           "id": "<b>Proyek / satgas</b>"
+           "id": "<b>Proyek / gugus tugas</b>"
           },
           {
            "en": "Low: keep your job",
-           "id": "Rendah: tetap di pekerjaanmu"
+           "id": "Rendah: pekerjaanmu tetap"
           },
           {
            "en": "Testing a new area; visibility to another unit",
-           "id": "Menguji area baru; visibilitas ke unit lain"
+           "id": "Mencoba bidang baru; terlihat oleh unit lain"
           }
          ],
          [
@@ -40716,7 +40716,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Medium: months, with a return",
-           "id": "Sedang: beberapa bulan, dengan kepulangan"
+           "id": "Sedang: beberapa bulan, lalu kembali"
           },
           {
            "en": "Both sides testing the fit",
@@ -40730,11 +40730,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Medium–high",
-           "id": "Sedang–tinggi"
+           "id": "Sedang sampai tinggi"
           },
           {
            "en": "Breadth that later promotions need",
-           "id": "Keluasan yang kelak dibutuhkan promosi"
+           "id": "Keluasan yang kelak dibutuhkan untuk promosi"
           }
          ],
          [
@@ -40748,21 +40748,21 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "A new level when your unit has no slot",
-           "id": "Level baru saat unitmu tak punya slot"
+           "id": "Level baru saat unitmu tidak punya kursi"
           }
          ],
          [
           {
            "en": "<b>Relocation</b>",
-           "id": "<b>Relokasi</b>"
+           "id": "<b>Pindah kota</b>"
           },
           {
            "en": "Highest: work and life",
-           "id": "Tertinggi: kerja dan hidup"
+           "id": "Paling tinggi: pekerjaan dan hidup"
           },
           {
            "en": "Head-office or regional exposure; bigger curves",
-           "id": "Paparan kantor pusat atau wilayah; kurva lebih besar"
+           "id": "Pengalaman di kantor pusat atau wilayah; kurva yang lebih besar"
           }
          ]
         ],
@@ -40776,17 +40776,17 @@ window.MT_LMS['the-route'] = {
        "icon": "book",
        "h": {
         "en": "The rules and the two markets",
-        "id": "Aturan dan dua pasar"
+        "id": "Aturannya dan dua pasar"
        },
        "body": {
-        "en": "Most mid-sized and large organisations have an <b>internal job posting</b> policy. Read it before you do anything else; it usually answers questions people are afraid to ask. Common provisions include a <b>minimum time in your current role</b> before you may apply (often twelve to twenty-four months), a <b>performance threshold</b> such as a rating of “meets” or above, whether your <b>current manager must be informed</b> or must approve before you apply or before an offer, a <b>release period</b> your current unit may require for handover, and how <b>grade and pay</b> are set when you move, in many organisations a lateral move carries no pay change and a promotion follows the standard band <span class=\"ev ev-verify\">Verify</span>. Then understand that there are <b>two markets</b>. The <b>posted market</b>, the roles on the internal portal, is fair and open, but by the time a role is posted, the hiring manager sometimes already has a person in mind. The <b>informal market</b> is the conversation before the posting: a head of unit mentions to a colleague that they will need a data analyst in the next quarter; a taskforce lead remembers who delivered. You enter the informal market through the same things Modules 4 and 6 built, visibility beyond your unit, a reputation in two or three words, and a board that includes people in other units. Making your interest known in advance (“saya tertarik ke pengembangan produk suatu saat”) lets people think of you when a need appears. Two cautions keep this clean: the informal market is for being known, not for bypassing the posting. The process test from Lesson 6.1 still applies, and approaching another unit’s manager should never happen in a way your own manager would first hear about from them.",
-        "id": "Kebanyakan organisasi menengah dan besar punya kebijakan <b>lowongan internal</b>. Bacalah sebelum melakukan apa pun; biasanya ia menjawab pertanyaan yang orang takut tanyakan. Ketentuan umum mencakup <b>masa minimum di peranmu sekarang</b> sebelum boleh melamar (sering dua belas sampai dua puluh empat bulan), <b>ambang kinerja</b> seperti penilaian “memenuhi” atau lebih, apakah <b>manajermu sekarang harus diberi tahu</b> atau harus menyetujui sebelum kamu melamar atau sebelum tawaran, <b>masa pelepasan</b> yang mungkin disyaratkan unitmu untuk serah terima, dan bagaimana <b>golongan dan gaji</b> ditetapkan saat kamu pindah, di banyak organisasi pindah setara tidak mengubah gaji dan promosi mengikuti rentang standar <span class=\"ev ev-verify\">Verifikasi</span>. Lalu pahami bahwa ada <b>dua pasar</b>. <b>Pasar yang diumumkan</b>, peran-peran di portal internal, adil dan terbuka, tetapi saat sebuah peran diumumkan, manajer perekrut kadang sudah punya calon di kepala. <b>Pasar informal</b> adalah percakapan sebelum pengumuman: seorang kepala unit menyebut kepada koleganya bahwa ia akan butuh analis data kuartal depan; seorang pemimpin satgas ingat siapa yang menuntaskan kerja. Kamu memasuki pasar informal lewat hal-hal yang dibangun Modul 4 dan 6, visibilitas di luar unitmu, reputasi dalam dua atau tiga kata, dan dewan yang mencakup orang di unit lain. Membuat minatmu diketahui lebih dulu (“saya tertarik ke pengembangan produk suatu saat”) membuat orang teringat kamu saat kebutuhan muncul. Dua peringatan menjaganya tetap bersih: pasar informal adalah untuk dikenal, bukan untuk melewati lowongan, uji proses dari Pelajaran 6.1 tetap berlaku, dan mendekati manajer unit lain tak boleh terjadi dengan cara yang membuat manajermu sendiri pertama kali mendengarnya dari mereka."
+        "en": "Most mid-sized and large organisations have an <b>internal job posting</b> policy. Read it before you do anything else; it usually answers questions people are afraid to ask. Common provisions include a <b>minimum time in your current role</b> before you may apply (often twelve to twenty-four months), a <b>performance threshold</b> such as a rating of “meets” or above, whether your <b>current manager must be informed</b> or must approve before you apply or before an offer, a <b>release period</b> your current unit may require for handover, and how <b>grade and pay</b> are set when you move (in many organisations a lateral move carries no pay change and a promotion follows the standard band) <span class=\"ev ev-verify\">Verify</span>. Then understand that there are <b>two markets</b>. The <b>posted market</b> (the roles on the internal portal) is fair and open, but by the time a role is posted, the hiring manager sometimes already has a person in mind. The <b>informal market</b> is the conversation before the posting: a head of unit mentions to a colleague that they will need a data analyst in the next quarter; a taskforce lead remembers who delivered. You enter the informal market through the same things Modules 4 and 6 built: visibility beyond your unit, a reputation in two or three words, and a board that includes people in other units. Making your interest known in advance (“saya tertarik ke pengembangan produk suatu saat”) lets people think of you when a need appears. Two cautions keep this clean. First, the informal market is for being known, not for bypassing the posting: the process test from Lesson 6.1 still applies. Second, approaching another unit’s manager should never happen in a way your own manager would first hear about from them.",
+        "id": "Kebanyakan organisasi menengah dan besar punya kebijakan <b>lowongan internal</b>. Baca dulu sebelum melakukan apa pun, karena kebijakan itu biasanya menjawab pertanyaan yang takut diajukan orang. Ketentuan yang umum antara lain <b>masa minimum di peran sekarang</b> sebelum boleh melamar (sering dua belas sampai dua puluh empat bulan), <b>ambang kinerja</b> seperti nilai “memenuhi” atau lebih, apakah <b>atasanmu sekarang harus diberi tahu</b> atau harus menyetujui sebelum kamu melamar atau sebelum tawaran keluar, <b>masa pelepasan</b> yang bisa diminta unitmu untuk serah terima, dan cara <b>golongan dan gaji</b> ditetapkan saat kamu pindah (di banyak organisasi, pindah setara tidak mengubah gaji dan promosi mengikuti rentang yang baku) <span class=\"ev ev-verify\">Periksa</span>. Lalu pahami bahwa ada <b>dua pasar</b>. <b>Pasar yang diumumkan</b> (peran-peran di portal internal) adil dan terbuka, tetapi saat sebuah peran diumumkan, manajer perekrutnya kadang sudah punya calon di kepalanya. <b>Pasar informal</b> adalah obrolan sebelum lowongan diumumkan: seorang kepala unit menyebut kepada koleganya bahwa ia akan butuh analis data kuartal depan; seorang pemimpin gugus tugas ingat siapa yang dulu menuntaskan pekerjaannya. Kamu masuk ke pasar informal lewat hal-hal yang sama yang dibangun di Modul 4 dan 6: visibilitas di luar unitmu, reputasi dalam dua atau tiga kata, dan dewan yang mencakup orang-orang di unit lain. Menyampaikan minatmu dari awal (“saya tertarik ke pengembangan produk suatu saat”) membuat orang teringat padamu saat kebutuhan muncul. Ada dua peringatan yang menjaga semua ini tetap bersih. Pertama, pasar informal adalah tempat untuk dikenal, bukan untuk melompati lowongan resmi: tes proses dari Pelajaran 6.1 tetap berlaku. Kedua, mendekati atasan di unit lain tidak boleh terjadi dengan cara yang membuat atasanmu sendiri pertama kali mendengarnya dari orang itu."
        },
        "table": {
         "cols": [
          {
           "en": "Typical policy provision",
-          "id": "Ketentuan kebijakan yang lazim"
+          "id": "Ketentuan kebijakan yang umum"
          },
          {
           "en": "What to find out",
@@ -40811,17 +40811,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Which rating, from which review",
-           "id": "Peringkat mana, dari penilaian yang mana"
+           "id": "Nilai yang mana, dari evaluasi yang mana"
           }
          ],
          [
           {
            "en": "Manager notification or approval",
-           "id": "Pemberitahuan atau persetujuan manajer"
+           "id": "Atasan diberi tahu atau menyetujui"
           },
           {
            "en": "Before applying, or before an offer?",
-           "id": "Sebelum melamar, atau sebelum tawaran?"
+           "id": "Sebelum melamar, atau sebelum tawaran keluar?"
           }
          ],
          [
@@ -40831,7 +40831,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Maximum weeks your unit can hold you",
-           "id": "Maksimum minggu unitmu bisa menahanmu"
+           "id": "Paling lama berapa minggu unitmu boleh menahanmu"
           }
          ],
          [
@@ -40841,13 +40841,13 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Lateral vs promotion rules; allowances for relocation",
-           "id": "Aturan pindah setara vs promosi; tunjangan relokasi"
+           "id": "Aturan pindah setara dan promosi; tunjangan untuk pindah kota"
           }
          ]
         ],
         "caption": {
-         "en": "Course guidance. Provisions vary by organisation, read your own policy.",
-         "id": "Panduan kursus. Ketentuan berbeda per organisasi, baca kebijakanmu sendiri."
+         "en": "Course guidance. Provisions vary by organisation; read your own policy.",
+         "id": "Panduan kursus. Ketentuannya berbeda di tiap organisasi; baca kebijakan di tempatmu."
         }
        }
       },
@@ -40855,11 +40855,11 @@ window.MT_LMS['the-route'] = {
        "icon": "chat",
        "h": {
         "en": "The conversation with your current manager",
-        "id": "Percakapan dengan manajermu sekarang"
+        "id": "Percakapan dengan atasanmu sekarang"
        },
        "body": {
-        "en": "The conversation people dread most is the one with their current manager. They fear being seen as disloyal, being quietly punished, or being held back, and so they apply in secret, and their manager hears from HR or from the other unit. That is the worst possible outcome: it breaks trust, and in many organisations it reads as <i>melangkahi atasan</i>. The better path, in most cases, is to tell your manager <b>early</b>, ideally before you apply, and certainly before an offer, and to frame the move as <b>growth within the organisation</b>, not escape from them. A useful structure has four parts. <b>Appreciation</b>: what you have learned in the role and from them, specifically. <b>Direction</b>: the capability you want to build next and why the other role builds it, the trajectory from Module 1. <b>Responsibility</b>: a handover plan. Who could take over what, how long you would need, what you will finish first. <b>Request</b>: their advice, and, if they are willing, their support. “Bu, saya sangat berterima kasih, dua tahun di sini saya belajar menilai kredit dan memimpin pilot. Saya ingin membangun kemampuan di produk digital, dan ada posisi di unit Pak Arya yang cocok. Saya sudah siapkan rencana serah terima. Saya ingin minta pendapat Ibu, dan kalau Ibu berkenan, dukungannya.” Some managers will be delighted; many will be disappointed first and supportive later; a few will try to hold on; “jangan dulu, unit butuh kamu”. If that happens, ask what would make a move possible and when, offer to develop a successor, refer politely to the policy’s release period, and, if the block persists without reason, seek advice from HR or your skip-level manager, calmly, and without making it a complaint.",
-        "id": "Percakapan yang paling ditakuti adalah percakapan dengan manajer sekarang. Orang takut dianggap tidak setia, dihukum diam-diam, atau ditahan. Sehingga mereka melamar diam-diam, dan manajernya mendengar dari HR atau dari unit lain. Itulah hasil terburuk: ia merusak kepercayaan, dan di banyak organisasi terbaca sebagai melangkahi atasan. Jalan yang lebih baik, dalam kebanyakan kasus, adalah memberi tahu manajermu <b>lebih awal</b>, idealnya sebelum melamar, dan pasti sebelum tawaran, dan membingkai perpindahan sebagai <b>pertumbuhan di dalam organisasi</b>, bukan melarikan diri darinya. Struktur yang berguna punya empat bagian. <b>Penghargaan</b>: apa yang kamu pelajari di peran itu dan darinya, secara spesifik. <b>Arah</b>: kapabilitas yang ingin kamu bangun berikutnya dan mengapa peran lain itu membangunnya, lintasan dari Modul 1. <b>Tanggung jawab</b>: rencana serah terima. Siapa yang bisa mengambil alih apa, berapa lama kamu butuh, apa yang akan kamu selesaikan lebih dulu. <b>Permintaan</b>: nasihatnya, dan, jika ia bersedia, dukungannya. “Bu, saya sangat berterima kasih, dua tahun di sini saya belajar menilai kredit dan memimpin pilot. Saya ingin membangun kemampuan di produk digital, dan ada posisi di unit Pak Arya yang cocok. Saya sudah siapkan rencana serah terima. Saya ingin minta pendapat Ibu, dan kalau Ibu berkenan, dukungannya.” Sebagian manajer akan senang; banyak yang kecewa dulu lalu mendukung; segelintir akan mencoba menahan; “jangan dulu, unit butuh kamu”. Jika itu terjadi, tanyakan apa yang membuat perpindahan mungkin dan kapan, tawarkan untuk mengembangkan pengganti, rujuk dengan sopan pada masa pelepasan dalam kebijakan, dan, jika hambatannya bertahan tanpa alasan, minta saran HR atau atasan dari atasanmu, dengan tenang, dan tanpa menjadikannya keluhan."
+        "en": "The conversation people dread most is the one with their current manager. They fear being seen as disloyal, being quietly punished, or being held back, and so they apply in secret, and their manager hears from HR or from the other unit. That is the worst possible outcome: it breaks trust, and in many organisations it reads as <i>melangkahi atasan</i>. The better path, in most cases, is to tell your manager <b>early</b> (ideally before you apply, and certainly before an offer) and to frame the move as <b>growth within the organisation</b>, not escape from them. A useful structure has four parts. <b>Appreciation</b>: what you have learned in the role and from them, specifically. <b>Direction</b>: the capability you want to build next and why the other role builds it: the trajectory from Module 1. <b>Responsibility</b>: a handover plan: who could take over what, how long you would need, what you will finish first. <b>Request</b>: their advice, and, if they are willing, their support. “Bu, saya sangat berterima kasih. Dua tahun di sini saya belajar menilai kredit dan memimpin pilot. Saya ingin membangun kemampuan di produk digital, dan ada posisi di unit Pak Arya yang cocok. Saya sudah siapkan rencana serah terima. Saya ingin minta pendapat Ibu, dan kalau Ibu berkenan, dukungannya.” Some managers will be delighted; many will be disappointed first and supportive later; a few will try to hold on (“jangan dulu, unit butuh kamu”). If that happens, ask what would make a move possible and when, offer to develop a successor, refer politely to the policy’s release period, and, if the block persists without reason, seek advice from HR or your skip-level manager, calmly, and without making it a complaint.",
+        "id": "Percakapan yang paling ditakuti orang adalah percakapan dengan atasannya sekarang. Mereka takut dianggap tidak loyal, diam-diam dihukum, atau ditahan, jadi mereka melamar diam-diam, lalu atasannya mendengar kabar itu dari HR atau dari unit lain. Itulah hasil terburuk yang mungkin terjadi: kepercayaan rusak, dan di banyak organisasi hal itu terbaca sebagai melangkahi atasan. Jalan yang lebih baik, dalam kebanyakan kasus, adalah memberi tahu atasanmu <b>sejak awal</b> (idealnya sebelum melamar, dan pasti sebelum tawaran keluar) dan membingkai kepindahan itu sebagai <b>bertumbuh di dalam organisasi</b>, bukan kabur darinya. Ada struktur empat bagian yang berguna. <b>Penghargaan</b>: apa yang kamu pelajari di peran itu dan darinya, secara spesifik. <b>Arah</b>: kemampuan yang ingin kamu bangun berikutnya dan kenapa peran lain itu membangunnya, sesuai lintasan dari Modul 1. <b>Tanggung jawab</b>: rencana serah terima, yaitu siapa yang bisa mengambil alih apa, berapa lama waktu yang kamu butuhkan, dan apa yang akan kamu tuntaskan lebih dulu. <b>Permintaan</b>: pendapatnya dan, kalau ia bersedia, dukungannya. “Bu, saya sangat berterima kasih. Dua tahun di sini saya belajar menilai kredit dan memimpin uji coba. Saya ingin membangun kemampuan di produk digital, dan ada posisi di unit Pak Arya yang cocok. Saya sudah siapkan rencana serah terima. Saya ingin minta pendapat Ibu, dan kalau Ibu berkenan, dukungannya.” Sebagian atasan akan senang; banyak yang kecewa dulu, lalu mendukung belakangan; segelintir akan mencoba menahan (“jangan dulu, unit butuh kamu”). Kalau itu terjadi, tanyakan apa yang perlu terjadi supaya kepindahan itu mungkin dan kapan, tawarkan untuk menyiapkan pengganti, singgung dengan sopan masa pelepasan dalam kebijakan, dan kalau penahanan itu berlanjut tanpa alasan, minta saran dari HR atau atasan dari atasanmu dengan tenang, tanpa menjadikannya keluhan."
        },
        "bullets": [
         {
@@ -40868,15 +40868,15 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "<b>Direction</b>: the capability you want next, and why that role builds it.",
-         "id": "<b>Arah</b>: kapabilitas yang kamu inginkan berikutnya, dan mengapa peran itu membangunnya."
+         "id": "<b>Arah</b>: kemampuan yang ingin kamu bangun berikutnya, dan kenapa peran itu membangunnya."
         },
         {
          "en": "<b>Responsibility</b>: a handover plan and what you will finish first.",
-         "id": "<b>Tanggung jawab</b>: rencana serah terima dan apa yang akan kamu selesaikan dulu."
+         "id": "<b>Tanggung jawab</b>: rencana serah terima dan apa yang akan kamu tuntaskan lebih dulu."
         },
         {
          "en": "<b>Request</b>: their advice and, if willing, their support.",
-         "id": "<b>Permintaan</b>: nasihatnya dan, jika bersedia, dukungannya."
+         "id": "<b>Permintaan</b>: pendapatnya dan, kalau bersedia, dukungannya."
         }
        ]
       },
@@ -40884,21 +40884,21 @@ window.MT_LMS['the-route'] = {
        "icon": "flag",
        "h": {
         "en": "Landing the move",
-        "id": "Mendaratkan perpindahannya"
+        "id": "Menuntaskan kepindahannya"
        },
        "body": {
-        "en": "Internal candidates often under-prepare, assuming that being known is enough. It is not: the receiving manager knows your reputation, but may know it only as two words from a hallway, and may be comparing you with external candidates who arrive with polished stories. Prepare as you would for an outside interview, The Rope’s methods apply, with one advantage: you can bring <b>evidence they can verify inside</b>. Use your win log and promotion file (Modules 2 and 5), mention witnesses they know, and show that you understand their unit’s priorities. Address the obvious question before it is asked: why leave a unit where you are doing well? Then agree the practicalities in writing. <b>Level and pay</b>: ask how the grade is set, whether a lateral move changes pay, and what allowances apply if you relocate; internal moves often bring smaller increases than external ones, which is part of the Bidwell pattern, so weigh the capital you keep against the money you might gain outside. <b>Release date</b>: agree it between both managers, within the policy. <b>Handover</b>: a written list of what you are handing to whom, with a short overlap if possible. The way you leave a unit is part of your reputation in the whole organisation. Finally, <b>stay connected</b> to the unit you left: send a note after the first month, help your successor when asked, and thank your former manager publicly where it is natural. A well-handled internal move adds a second unit of people who will vouch for you.",
-        "id": "Kandidat internal sering kurang bersiap, mengira bahwa sudah dikenal itu cukup. Tidak cukup: manajer penerima mengenal reputasimu, tetapi mungkin hanya sebagai dua kata dari obrolan lorong, dan mungkin sedang membandingkanmu dengan kandidat eksternal yang datang dengan cerita yang rapi. Bersiaplah seperti untuk wawancara di luar, metode The Rope berlaku, dengan satu keunggulan: kamu bisa membawa <b>bukti yang bisa mereka verifikasi di dalam</b>. Pakai catatan capaian dan berkas promosimu (Modul 2 dan 5), sebut saksi yang mereka kenal, dan tunjukkan bahwa kamu memahami prioritas unit mereka. Jawab pertanyaan yang jelas sebelum diajukan: mengapa meninggalkan unit tempat kamu berprestasi? Lalu sepakati hal-hal praktisnya secara tertulis. <b>Level dan gaji</b>: tanyakan bagaimana golongan ditetapkan, apakah pindah setara mengubah gaji, dan tunjangan apa yang berlaku jika kamu relokasi; perpindahan internal sering membawa kenaikan lebih kecil daripada eksternal, yang merupakan bagian dari pola Bidwell, jadi timbang modal yang kamu pertahankan terhadap uang yang mungkin kamu dapat di luar. <b>Tanggal pelepasan</b>: sepakati antara kedua manajer, sesuai kebijakan. <b>Serah terima</b>: daftar tertulis tentang apa yang kamu serahkan kepada siapa, dengan masa tumpang tindih singkat jika mungkin. Cara kamu meninggalkan unit adalah bagian dari reputasimu di seluruh organisasi. Terakhir, <b>tetap terhubung</b> dengan unit yang kamu tinggalkan: kirim catatan setelah bulan pertama, bantu penggantimu saat diminta, dan berterima kasihlah kepada mantan manajermu di depan umum bila wajar. Perpindahan internal yang ditangani dengan baik menambah satu unit lagi berisi orang-orang yang mau menjaminmu."
+        "en": "Internal candidates often under-prepare, assuming that being known is enough. It is not: the receiving manager knows your reputation, but may know it only as two words from a hallway, and may be comparing you with external candidates who arrive with polished stories. Prepare as you would for an outside interview (The Rope’s methods apply), with one advantage: you can bring <b>evidence they can verify inside</b>. Use your win log and promotion file (Modules 2 and 5), mention witnesses they know, and show that you understand their unit’s priorities. Address the obvious question before it is asked: why leave a unit where you are doing well? Then agree the practicalities in writing. <b>Level and pay</b>: ask how the grade is set, whether a lateral move changes pay, and what allowances apply if you relocate; internal moves often bring smaller increases than external ones, which is part of the Bidwell pattern, so weigh the capital you keep against the money you might gain outside. <b>Release date</b>: agree it between both managers, within the policy. <b>Handover</b>: a written list of what you are handing to whom, with a short overlap if possible. The way you leave a unit is part of your reputation in the whole organisation. Finally, <b>stay connected</b> to the unit you left: send a note after the first month, help your successor when asked, and thank your former manager publicly where it is natural. A well-handled internal move adds a second unit of people who will vouch for you.",
+        "id": "Kandidat internal sering kurang bersiap karena mengira dikenal saja sudah cukup. Padahal tidak: calon atasanmu di unit penerima memang tahu reputasimu, tetapi mungkin hanya sebatas dua kata dari obrolan lorong, dan mungkin sedang membandingkanmu dengan kandidat dari luar yang datang membawa cerita yang rapi. Bersiaplah seperti untuk wawancara di luar (metode di The Rope berlaku), dengan satu keunggulan: kamu bisa membawa <b>bukti yang bisa mereka periksa di dalam</b>. Pakai catatan capaian dan berkas promosimu (Modul 2 dan 5), sebut saksi yang mereka kenal, dan tunjukkan bahwa kamu memahami prioritas unit mereka. Jawab pertanyaan yang sudah pasti muncul sebelum ditanyakan: kenapa meninggalkan unit tempat kamu sedang berkinerja baik? Lalu sepakati urusan praktisnya secara tertulis. <b>Level dan gaji</b>: tanyakan cara golongan ditetapkan, apakah pindah setara mengubah gaji, dan tunjangan apa yang berlaku kalau kamu pindah kota. Pindah di dalam sering membawa kenaikan yang lebih kecil daripada pindah ke luar, dan itu bagian dari pola yang ditemukan Bidwell, jadi timbang modal yang tetap kamu bawa dengan uang yang mungkin kamu dapat di luar. <b>Tanggal pelepasan</b>: sepakati antara kedua atasan, sesuai kebijakan. <b>Serah terima</b>: daftar tertulis tentang apa yang kamu serahkan kepada siapa, dengan masa tumpang tindih singkat kalau memungkinkan. Cara kamu meninggalkan sebuah unit adalah bagian dari reputasimu di seluruh organisasi. Terakhir, <b>tetap terhubung</b> dengan unit yang kamu tinggalkan: kirim kabar setelah bulan pertama, bantu penggantimu saat diminta, dan berterima kasihlah kepada mantan atasanmu di depan orang lain kalau kesempatannya wajar. Kepindahan internal yang ditangani dengan baik menambah satu unit lagi berisi orang-orang yang mau menjaminmu."
        },
        "table": {
         "cols": [
          {
           "en": "Agree in writing",
-          "id": "Sepakati tertulis"
+          "id": "Sepakati secara tertulis"
          },
          {
           "en": "Question to ask",
-          "id": "Pertanyaan yang diajukan"
+          "id": "Pertanyaan yang perlu diajukan"
          }
         ],
         "rows": [
@@ -40954,22 +40954,22 @@ window.MT_LMS['the-route'] = {
       "type": "ladder",
       "exhibit": {
        "en": "Exhibit 1: Restarting the curve inside",
-       "id": "Peraga 1: Memulai ulang kurva di dalam"
+       "id": "Gambar 1: Memulai ulang kurva di dalam"
       },
       "title": {
        "en": "From low commitment to high; try the lower rungs first",
-       "id": "Dari komitmen rendah ke tinggi: coba anak tangga bawah dulu"
+       "id": "Dari komitmen rendah ke tinggi; coba anak tangga yang lebih rendah dulu"
       },
       "items": [
        {
         "icon": "users",
         "h": {
          "en": "Project or taskforce",
-         "id": "Proyek atau satgas"
+         "id": "Proyek atau gugus tugas"
         },
         "sub": {
          "en": "New work alongside your job; visibility to another unit.",
-         "id": "Pekerjaan baru di samping pekerjaanmu; visibilitas ke unit lain."
+         "id": "Pekerjaan baru di samping pekerjaanmu; terlihat oleh unit lain."
         }
        },
        {
@@ -40980,7 +40980,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Months in another unit, with a return; both sides test the fit.",
-         "id": "Beberapa bulan di unit lain, dengan kepulangan, kedua pihak menguji kecocokan."
+         "id": "Beberapa bulan di unit lain, lalu kembali; kedua pihak menguji kecocokan."
         }
        },
        {
@@ -40990,8 +40990,8 @@ window.MT_LMS['the-route'] = {
          "id": "Pindah setara"
         },
         "sub": {
-         "en": "New function or product at the same level, breadth.",
-         "id": "Fungsi atau produk baru di level yang sama, keluasan."
+         "en": "New function or product at the same level: breadth.",
+         "id": "Fungsi atau produk baru di level yang sama: keluasan."
         }
        },
        {
@@ -41002,39 +41002,39 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "A new level where your unit has no slot.",
-         "id": "Level baru saat unitmu tak punya slot."
+         "id": "Level baru saat unitmu tidak punya kursi."
         }
        },
        {
         "icon": "flag",
         "h": {
          "en": "Relocation",
-         "id": "Relokasi"
+         "id": "Pindah kota"
         },
         "sub": {
-         "en": "Head office, region or group company, work and life change.",
-         "id": "Kantor pusat, wilayah, atau perusahaan grup, kerja dan hidup berubah."
+         "en": "Head office, region or group company: work and life change.",
+         "id": "Kantor pusat, wilayah lain, atau perusahaan dalam grup: pekerjaan dan hidup berubah."
         }
        }
       ],
       "note": {
        "en": "Each rung keeps most of your capital. Check them before you look outside.",
-       "id": "Setiap anak tangga mempertahankan sebagian besar modalmu. Periksa sebelum melihat ke luar."
+       "id": "Setiap anak tangga mempertahankan sebagian besar modalmu. Periksa semuanya sebelum melihat ke luar."
       },
       "longdesc": {
        "en": "A five-rung ladder of internal mobility, from lowest to highest commitment: a project or taskforce alongside your job; a secondment of some months with a return; a lateral move to a new function at the same level; a promotion in another unit; and a relocation to head office, another region or a group company. Each keeps most of your career capital.",
-       "id": "Tangga lima anak tangga mobilitas internal, dari komitmen terendah ke tertinggi: proyek atau satgas di samping pekerjaanmu; penugasan sementara beberapa bulan dengan kepulangan; pindah setara ke fungsi baru di level yang sama; promosi di unit lain; dan relokasi ke kantor pusat, wilayah lain, atau perusahaan grup. Masing-masing mempertahankan sebagian besar modal kariermu."
+       "id": "Tangga lima anak tangga mobilitas internal, dari komitmen terendah sampai tertinggi: proyek atau gugus tugas di samping pekerjaanmu; penugasan sementara selama beberapa bulan lalu kembali; pindah setara ke fungsi baru di level yang sama; promosi di unit lain; dan pindah kota ke kantor pusat, wilayah lain, atau perusahaan dalam grup. Masing-masing mempertahankan sebagian besar modal kariermu."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "“You already know me” → evidence they can verify",
-        "id": "“Bapak sudah kenal saya” → bukti yang bisa diverifikasi"
+        "id": "“Bapak kan sudah kenal saya” → bukti yang bisa mereka periksa"
        },
        "q": {
         "en": "In the internal interview for the digital unit, the hiring manager asks Nadia why she is the right person.",
-        "id": "Di wawancara internal untuk unit digital, manajer perekrut bertanya mengapa Nadia orang yang tepat."
+        "id": "Di wawancara internal untuk unit digital, manajer perekrut bertanya kepada Nadia kenapa dialah orang yang tepat."
        },
        "weak": {
         "en": "“Bapak kan sudah kenal kerja saya dari satgas. Saya pekerja keras dan cepat belajar, dan saya sudah lama ingin ke unit ini.”",
@@ -41046,7 +41046,7 @@ window.MT_LMS['the-route'] = {
        },
        "why": {
         "en": "The first relies on being known and on adjectives. The second brings three verifiable results tied to the unit’s needs, and answers the obvious question, including that her manager is on side, before it is asked. Fictional.",
-        "id": "Yang pertama bergantung pada sudah dikenal dan kata sifat. Yang kedua membawa tiga hasil yang bisa diverifikasi dan terkait kebutuhan unit, serta menjawab pertanyaan yang jelas, termasuk bahwa manajernya mendukung, sebelum diajukan. Fiktif."
+        "id": "Yang pertama mengandalkan sudah dikenal dan kata sifat. Yang kedua membawa tiga hasil yang bisa diperiksa dan terkait dengan kebutuhan unitnya, lalu menjawab pertanyaan yang pasti muncul, termasuk bahwa atasannya mendukung, sebelum ditanyakan. Fiktif."
        }
       }
      ],
@@ -41059,11 +41059,11 @@ window.MT_LMS['the-route'] = {
       "body": [
        {
         "en": "Tika, the Kudus branch operations officer who once sent Nadia late Friday data, wants to move into the regional credit centre as a junior analyst. The internal posting is open, she meets the eighteen-month rule, and Nadia would welcome her. Her branch manager, Pak Heru, says: “Jangan dulu, Tika. Cabang ini butuh kamu. Tahun depan saja.”",
-        "id": "Tika, petugas operasional cabang Kudus yang dulu mengirim data Jumat sore kepada Nadia, ingin pindah ke pusat kredit regional sebagai analis junior. Lowongan internal sedang dibuka, ia memenuhi aturan delapan belas bulan, dan Nadia akan menyambutnya. Manajer cabangnya, Pak Heru, berkata: “Jangan dulu, Tika. Cabang ini butuh kamu. Tahun depan saja.”"
+        "id": "Tika, petugas operasional cabang Kudus yang dulu mengirim data hari Jumat sore kepada Nadia, ingin pindah ke pusat kredit wilayah sebagai analis junior. Lowongan internalnya sedang dibuka, ia memenuhi aturan delapan belas bulan, dan Nadia akan senang bekerja dengannya. Kepala cabangnya, Pak Heru, berkata: “Jangan dulu, Tika. Cabang ini butuh kamu. Tahun depan saja.”"
        },
        {
         "en": "Tika does not argue and does not apply behind his back. She asks what would make a move possible. His concern is month-end reporting, which only she knows. She proposes to train a colleague over six weeks, write the procedure down, and stay on call for the first month-end after she moves, within the policy’s release period. Pak Heru agrees, a little reluctantly, and signs her application. A year later, when he needs a credit query answered quickly, he calls Tika first.",
-        "id": "Tika tidak membantah dan tidak melamar di belakangnya. Ia bertanya apa yang membuat perpindahan mungkin. Kekhawatirannya adalah laporan akhir bulan, yang hanya Tika kuasai. Ia mengusulkan melatih seorang rekan selama enam minggu, menuliskan prosedurnya, dan tetap bisa dihubungi untuk akhir bulan pertama setelah ia pindah, dalam masa pelepasan sesuai kebijakan. Pak Heru setuju, sedikit berat hati, dan menandatangani lamarannya. Setahun kemudian, saat ia butuh pertanyaan kredit dijawab cepat, Tika yang ia telepon pertama kali."
+        "id": "Tika tidak membantah dan tidak melamar diam-diam. Ia menanyakan apa yang perlu terjadi supaya kepindahannya mungkin. Kekhawatiran Pak Heru ternyata soal laporan akhir bulan, yang hanya dikuasai Tika. Tika mengusulkan untuk melatih seorang rekan selama enam minggu, menuliskan prosedurnya, dan tetap bisa dihubungi untuk akhir bulan pertama setelah ia pindah, masih dalam masa pelepasan sesuai kebijakan. Pak Heru setuju, sedikit berat hati, dan menandatangani lamarannya. Setahun kemudian, saat ia butuh jawaban cepat soal kredit, orang pertama yang ia telepon adalah Tika."
        }
       ]
      },
@@ -41075,11 +41075,11 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Find your organisation’s internal-move policy and fill the five provisions: minimum time, performance threshold, manager notification, release period, grade and pay. Mark anything you could not find.",
-        "id": "Temukan kebijakan perpindahan internal organisasimu dan isi lima ketentuan: masa minimum, ambang kinerja, pemberitahuan manajer, masa pelepasan, golongan dan gaji. Tandai yang tidak kamu temukan."
+        "id": "Temukan kebijakan pindah internal di organisasimu dan isi kelima ketentuannya: masa minimum, ambang kinerja, pemberitahuan kepada atasan, masa pelepasan, golongan dan gaji. Tandai apa pun yang tidak kamu temukan."
        },
        "debrief": {
         "en": "Unanswered provisions are questions for HR, asked neutrally, as information, before any conversation about a specific role.",
-        "id": "Ketentuan yang belum terjawab adalah pertanyaan untuk HR, diajukan netral, sebagai informasi, sebelum percakapan tentang peran tertentu."
+        "id": "Ketentuan yang belum terjawab adalah pertanyaan untuk HR, diajukan secara netral sebagai permintaan informasi, sebelum ada pembicaraan tentang peran tertentu."
        }
       },
       {
@@ -41088,26 +41088,26 @@ window.MT_LMS['the-route'] = {
         "id": "Latihan 2 · Petakan pilihan di dalam"
        },
        "body": {
-        "en": "For each rung of the ladder, taskforce, secondment, lateral, promotion elsewhere, relocation, write one real possibility in your organisation, and who in the informal market would know about it.",
-        "id": "Untuk tiap anak tangga, satgas, penugasan sementara, pindah setara, promosi di unit lain, relokasi, tulis satu kemungkinan nyata di organisasimu, dan siapa di pasar informal yang tahu tentangnya."
+        "en": "For each rung of the ladder (taskforce, secondment, lateral, promotion elsewhere, relocation), write one real possibility in your organisation, and who in the informal market would know about it.",
+        "id": "Untuk tiap anak tangga (gugus tugas, penugasan sementara, pindah setara, promosi di unit lain, pindah kota), tulis satu kemungkinan nyata di organisasimu, dan siapa di pasar informal yang akan tahu tentangnya."
        },
        "debrief": {
         "en": "If you cannot name anyone who would know, your next step is visibility and your board, not an application.",
-        "id": "Jika kamu tak bisa menyebut siapa pun yang tahu, langkah berikutmu adalah visibilitas dan dewanmu, bukan lamaran."
+        "id": "Kalau kamu tidak bisa menyebut siapa pun yang akan tahu, langkah berikutnya adalah visibilitas dan dewanmu, bukan melamar."
        }
       },
       {
        "h": {
         "en": "Drill 3 · Script the manager conversation",
-        "id": "Latihan 3 · Tulis naskah percakapan dengan manajer"
+        "id": "Latihan 3 · Susun naskah percakapan dengan atasan"
        },
        "body": {
-        "en": "Write the four parts, appreciation, direction, responsibility, request, in your own words. Then write how you would respond to “jangan dulu”.",
-        "id": "Tulis keempat bagian, penghargaan, arah, tanggung jawab, permintaan, dengan kata-katamu sendiri. Lalu tulis bagaimana kamu akan merespons “jangan dulu”."
+        "en": "Write the four parts (appreciation, direction, responsibility, request) in your own words. Then write how you would respond to “jangan dulu”.",
+        "id": "Tulis keempat bagiannya (penghargaan, arah, tanggung jawab, permintaan) dengan kata-katamu sendiri. Lalu tulis bagaimana kamu akan menanggapi “jangan dulu”."
        },
        "debrief": {
         "en": "A good response to “not yet” asks what would make it possible and when, and offers a successor plan, without threats or secret applications.",
-        "id": "Respons yang baik untuk “jangan dulu” menanyakan apa yang membuatnya mungkin dan kapan, dan menawarkan rencana pengganti, tanpa ancaman atau lamaran diam-diam."
+        "id": "Tanggapan yang baik untuk “belum” menanyakan apa yang perlu terjadi supaya mungkin dan kapan, serta menawarkan rencana pengganti, tanpa ancaman dan tanpa melamar diam-diam."
        }
       }
      ],
@@ -41120,7 +41120,7 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Check every rung of the inside ladder first.",
-         "id": "Periksa setiap anak tangga di dalam lebih dulu."
+         "id": "Periksa dulu setiap anak tangga di dalam."
         }
        },
        {
@@ -41130,17 +41130,17 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Tell your manager early, with a handover plan.",
-         "id": "Beri tahu manajermu lebih awal, dengan rencana serah terima."
+         "id": "Beri tahu atasanmu sejak awal, lengkap dengan rencana serah terima."
         }
        },
        {
         "h": {
          "en": "Assuming being known is enough",
-         "id": "Mengira sudah dikenal itu cukup"
+         "id": "Mengira dikenal saja sudah cukup"
         },
         "fix": {
          "en": "Prepare as for an outside interview, with verifiable evidence.",
-         "id": "Bersiap seperti wawancara luar, dengan bukti yang bisa diverifikasi."
+         "id": "Bersiaplah seperti untuk wawancara di luar, dengan bukti yang bisa diperiksa."
         }
        },
        {
@@ -41150,7 +41150,7 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Written handover, an overlap, and a note after a month.",
-         "id": "Serah terima tertulis, tumpang tindih, dan catatan setelah sebulan."
+         "id": "Serah terima tertulis, masa tumpang tindih, dan kabar setelah sebulan."
         }
        }
       ]
@@ -41163,7 +41163,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "An organisation’s process and rules for filling roles from existing staff.",
-        "id": "Proses dan aturan organisasi untuk mengisi peran dari karyawan yang ada."
+        "id": "Proses dan aturan organisasi untuk mengisi peran dari karyawan yang sudah ada."
        }
       },
       {
@@ -41173,7 +41173,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "A temporary assignment to another unit or company in the group, usually with a return date.",
-        "id": "Tugas sementara di unit lain atau perusahaan dalam grup, biasanya dengan tanggal kepulangan."
+        "id": "Penempatan sementara di unit lain atau perusahaan lain dalam grup, biasanya dengan tanggal kembali."
        }
       },
       {
@@ -41183,7 +41183,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "A move to a different function or product at the same level.",
-        "id": "Perpindahan ke fungsi atau produk berbeda di level yang sama."
+        "id": "Pindah ke fungsi atau produk yang berbeda di level yang sama."
        }
       },
       {
@@ -41193,7 +41193,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The time your current unit may hold you for handover after an internal move is agreed.",
-        "id": "Waktu unitmu sekarang boleh menahanmu untuk serah terima setelah perpindahan internal disepakati."
+        "id": "Waktu unitmu sekarang boleh menahanmu untuk serah terima setelah kepindahan internal disepakati."
        }
       }
      ],
@@ -41201,7 +41201,7 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "According to Bidwell’s research, compared with internal promotions, external hires into similar jobs were often…",
-        "id": "Menurut riset Bidwell, dibanding promosi internal, rekrutan eksternal ke pekerjaan serupa sering…"
+        "id": "Menurut riset Bidwell, dibanding karyawan internal yang dipromosikan, karyawan yang direkrut dari luar untuk pekerjaan serupa sering kali…"
        },
        "options": [
         {
@@ -41214,7 +41214,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Identical in every way",
-         "id": "Sama dalam segala hal"
+         "id": "Sama persis dalam segala hal"
         },
         {
          "en": "Always promoted faster",
@@ -41224,13 +41224,13 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Internal movers keep capital that outsiders must rebuild.",
-        "id": "Orang yang pindah di dalam mempertahankan modal yang harus dibangun ulang orang luar."
+        "id": "Orang yang pindah di dalam membawa modal yang harus dibangun ulang oleh orang luar."
        }
       },
       {
        "q": {
         "en": "When should your current manager hear about an internal application?",
-        "id": "Kapan manajermu sekarang sebaiknya mendengar tentang lamaran internal?"
+        "id": "Kapan atasanmu sekarang sebaiknya mendengar soal lamaran internalmu?"
        },
        "options": [
         {
@@ -41239,36 +41239,36 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "From HR, to avoid awkwardness",
-         "id": "Dari HR, agar tidak canggung"
+         "id": "Dari HR, supaya tidak canggung"
         },
         {
          "en": "Early: from you, ideally before you apply, with a handover plan",
-         "id": "Lebih awal: darimu, idealnya sebelum melamar, dengan rencana serah terima"
+         "id": "Sejak awal, langsung darimu, idealnya sebelum melamar, lengkap dengan rencana serah terima"
         },
         {
          "en": "Never: it is not their business",
-         "id": "Tidak pernah: itu bukan urusannya"
+         "id": "Tidak perlu, karena itu bukan urusannya"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Hearing it elsewhere reads as melangkahi atasan and damages trust.",
-        "id": "Mendengarnya dari tempat lain terbaca sebagai melangkahi atasan dan merusak kepercayaan."
+        "id": "Mendengarnya dari orang lain terbaca sebagai melangkahi atasan dan merusak kepercayaan."
        }
       },
       {
        "q": {
         "en": "Your manager says “jangan dulu”. The best first response is…",
-        "id": "Manajermu berkata “jangan dulu”. Respons pertama terbaik adalah…"
+        "id": "Atasanmu berkata “jangan dulu”. Tanggapan pertama yang terbaik adalah…"
        },
        "options": [
         {
          "en": "Apply anyway without telling them",
-         "id": "Tetap melamar tanpa memberi tahu"
+         "id": "Tetap melamar tanpa memberitahunya"
         },
         {
          "en": "Ask what would make a move possible and when, and offer a successor plan",
-         "id": "Menanyakan apa yang membuat perpindahan mungkin dan kapan, dan menawarkan rencana pengganti"
+         "id": "Menanyakan apa yang perlu terjadi supaya kepindahannya mungkin dan kapan, lalu menawarkan rencana pengganti"
         },
         {
          "en": "Complain to HR immediately",
@@ -41282,7 +41282,7 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Solve their real concern within the policy; escalate calmly only if the block has no reason.",
-        "id": "Selesaikan kekhawatiran sebenarnya sesuai kebijakan; eskalasi dengan tenang hanya jika hambatannya tanpa alasan."
+        "id": "Selesaikan kekhawatirannya yang sebenarnya sesuai kebijakan; naikkan ke HR dengan tenang hanya kalau penahanannya tanpa alasan."
        }
       }
      ],
@@ -41291,11 +41291,11 @@ window.MT_LMS['the-route'] = {
       "mode": "wins",
       "title": {
        "en": "Pull three wins for the internal interview",
-       "id": "Ambil tiga capaian untuk wawancara internal"
+       "id": "Pilih tiga capaian untuk wawancara internal"
       },
       "body": {
        "en": "Open the win log and choose three entries the receiving unit could verify inside the organisation, each with a witness they know. These are your internal CV.",
-       "id": "Buka catatan capaian dan pilih tiga entri yang bisa diverifikasi unit penerima di dalam organisasi, masing-masing dengan saksi yang mereka kenal. Itulah CV internalmu."
+       "id": "Buka catatan capaian dan pilih tiga entri yang bisa diperiksa unit penerima di dalam organisasi, masing-masing dengan saksi yang mereka kenal. Itulah CV internalmu."
       },
       "cta": {
        "en": "Open the win log",
@@ -41304,30 +41304,30 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "Inside, your reputation is your CV, and the way you leave a unit is part of it.",
-      "id": "Di dalam, reputasimu adalah CV-mu, dan cara kamu meninggalkan unit adalah bagian darinya."
+      "id": "Di dalam, reputasimu adalah CV-mu, dan cara kamu meninggalkan sebuah unit termasuk di dalamnya."
      },
      "takeaways": [
       {
        "en": "Look inside first: taskforces, secondments, lateral moves, promotions elsewhere and relocations all keep most of your capital.",
-       "id": "Lihat ke dalam dulu: satgas, penugasan sementara, pindah setara, promosi di unit lain, dan relokasi semuanya mempertahankan sebagian besar modalmu."
+       "id": "Lihat ke dalam dulu: gugus tugas, penugasan sementara, pindah setara, promosi di unit lain, dan pindah kota sama-sama mempertahankan sebagian besar modalmu."
       },
       {
-       "en": "Read the policy, and enter the informal market by being known; never by bypassing the posting.",
-       "id": "Baca kebijakannya, dan masuki pasar informal dengan dikenal; tak pernah dengan melewati lowongan."
+       "en": "Read the policy, and enter the informal market by being known, never by bypassing the posting.",
+       "id": "Baca kebijakannya, dan masuki pasar informal dengan cara dikenal, bukan dengan melompati lowongan resmi."
       },
       {
        "en": "Tell your manager early with a handover plan, prepare as for an outside interview, and leave the old unit well.",
-       "id": "Beri tahu manajermu lebih awal dengan rencana serah terima, bersiap seperti wawancara luar, dan tinggalkan unit lama dengan baik."
+       "id": "Beri tahu atasanmu sejak awal dengan rencana serah terima, bersiaplah seperti untuk wawancara di luar, dan tinggalkan unit lamamu dengan baik."
       }
      ],
      "resources": {
       "title": {
        "en": "The internal-move toolkit",
-       "id": "Perangkat perpindahan internal"
+       "id": "Perangkat pindah internal"
       },
       "lead": {
        "en": "Career Kit item (part 3): the internal route in your transition plan.",
-       "id": "Butir Career Kit (bagian 3): jalur internal dalam rencana peralihanmu."
+       "id": "Isi Perangkat Karier (bagian 3): jalur internal dalam rencana peralihanmu."
       },
       "items": [
        {
@@ -41338,7 +41338,7 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Where the ideas come from.",
-         "id": "Dari mana gagasannya berasal."
+         "id": "Dari mana gagasan-gagasan ini berasal."
         },
         "body": [
          {
@@ -41346,12 +41346,12 @@ window.MT_LMS['the-route'] = {
           "id": "M. Bidwell, “Paying More to Get Less: The Effects of External Hiring versus Internal Mobility”, <i>Administrative Science Quarterly</i> (2011)."
          },
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> Internal-posting rules, minimum tenure, ratings, manager approval, release periods, grade and pay, are set by each employer.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Aturan lowongan internal, masa minimum, peringkat, persetujuan manajer, masa pelepasan, golongan dan gaji, ditetapkan tiap pemberi kerja."
+          "en": "<span class=\"ev ev-verify\">Verify</span> Internal-posting rules (minimum tenure, ratings, manager approval, release periods, grade and pay) are set by each employer.",
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Aturan lowongan internal (masa kerja minimum, nilai kinerja, persetujuan atasan, masa pelepasan, golongan dan gaji) ditetapkan oleh masing-masing pemberi kerja."
          },
          {
           "en": "<span class=\"ev ev-contested\">Course guidance</span> The mobility ladder, the two markets and the four-part manager conversation are The Route’s working methods.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Tangga mobilitas, dua pasar, dan percakapan empat bagian dengan manajer adalah metode kerja The Route."
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Tangga mobilitas, dua pasar, dan percakapan empat bagian dengan atasan adalah metode kerja The Route."
          }
         ]
        },
@@ -41359,7 +41359,7 @@ window.MT_LMS['the-route'] = {
         "kind": "worksheet",
         "title": {
          "en": "Inside options and policy",
-         "id": "Pilihan di dalam dan kebijakan"
+         "id": "Pilihan di dalam dan kebijakannya"
         },
         "desc": {
          "en": "Thirty minutes.",
@@ -41368,11 +41368,11 @@ window.MT_LMS['the-route'] = {
         "body": [
          {
           "en": "POLICY: minimum time … · threshold … · manager informed/approves … · release … · grade & pay … · UNKNOWN: …",
-          "id": "KEBIJAKAN: masa minimum … · ambang … · manajer diberi tahu/menyetujui … · pelepasan … · golongan & gaji … · BELUM DIKETAHUI: …"
+          "id": "KEBIJAKAN: masa minimum … · ambang … · atasan diberi tahu/menyetujui … · pelepasan … · golongan & gaji … · BELUM DIKETAHUI: …"
          },
          {
           "en": "LADDER: taskforce … · secondment … · lateral … · promotion elsewhere … · relocation … · WHO WOULD KNOW: …",
-          "id": "TANGGA: satgas … · penugasan sementara … · setara … · promosi di unit lain … · relokasi … · SIAPA YANG TAHU: …"
+          "id": "TANGGA: gugus tugas … · penugasan sementara … · pindah setara … · promosi di unit lain … · pindah kota … · SIAPA YANG AKAN TAHU: …"
          }
         ]
        },
@@ -41380,11 +41380,11 @@ window.MT_LMS['the-route'] = {
         "kind": "template",
         "title": {
          "en": "The manager conversation",
-         "id": "Percakapan dengan manajer"
+         "id": "Percakapan dengan atasan"
         },
         "desc": {
          "en": "Four parts, plus “not yet”.",
-         "id": "Empat bagian, plus “jangan dulu”."
+         "id": "Empat bagian, ditambah tanggapan untuk “belum”."
         },
         "body": [
          {
@@ -41393,7 +41393,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "IF “JANGAN DULU”: “Apa yang perlu terjadi supaya ini mungkin, dan kira-kira kapan? Saya bisa menyiapkan [pengganti] selama [minggu].”",
-          "id": "JIKA “JANGAN DULU”: “Apa yang perlu terjadi supaya ini mungkin, dan kira-kira kapan? Saya bisa menyiapkan [pengganti] selama [minggu].”"
+          "id": "KALAU “JANGAN DULU”: “Apa yang perlu terjadi supaya ini mungkin, dan kira-kira kapan? Saya bisa menyiapkan [pengganti] selama [minggu].”"
          }
         ]
        }
@@ -41406,24 +41406,24 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "30 min",
-      "id": "30 mnt"
+      "id": "30 menit"
      },
      "title": {
       "en": "Executing the External Transition",
-      "id": "Menjalankan Peralihan ke Luar"
+      "id": "Menjalankan Kepindahan ke Luar"
      },
      "overview": {
-      "en": "A good decision can be spoiled by a poor exit. This interactive lesson walks through the external move in sequence, searching discreetly while employed, getting from offer to signature without surprises in the contract, resigning in the right order and handling a counter-offer, and using the last month to leave a reputation that follows you well. It ends at the door of the new job, where The Rope’s first-90-days module takes over. You will practise the three hardest moments with a scenario coach.",
-      "id": "Keputusan yang baik bisa rusak oleh kepergian yang buruk. Pelajaran interaktif ini menelusuri perpindahan ke luar secara berurutan. Mencari dengan diam-diam saat masih bekerja, dari tawaran sampai tanda tangan tanpa kejutan dalam kontrak, mengundurkan diri dengan urutan yang benar dan menghadapi tawaran balik, dan memakai bulan terakhir untuk meninggalkan reputasi yang mengikutimu dengan baik. Pelajaran berakhir di pintu pekerjaan baru, tempat modul 90 hari pertama The Rope mengambil alih. Kamu akan melatih tiga momen tersulit dengan pelatih skenario."
+      "en": "A good decision can be spoiled by a poor exit. This interactive lesson walks through the external move in sequence: searching discreetly while employed, getting from offer to signature without surprises in the contract, resigning in the right order and handling a counter-offer, and using the last month to leave a reputation that follows you well. It ends at the door of the new job, where The Rope’s first-90-days module takes over. You will practise the three hardest moments with a scenario coach.",
+      "id": "Keputusan yang baik bisa rusak oleh cara keluar yang buruk. Pelajaran interaktif ini membahas kepindahan ke luar secara berurutan: mencari kerja diam-diam selagi masih bekerja, dari tawaran sampai tanda tangan tanpa kejutan di kontrak, mengundurkan diri dengan urutan yang benar dan menghadapi tawaran balik, serta memakai bulan terakhir untuk meninggalkan reputasi yang akan mengikutimu dengan baik. Pelajaran ini berakhir di pintu pekerjaan baru, tempat modul 90 hari pertama di The Rope mengambil alih. Kamu akan berlatih menghadapi tiga momen tersulit bersama scenario coach."
      },
      "objectives": [
       {
        "en": "Search discreetly while employed, without using your employer’s time or data.",
-       "id": "Mencari dengan diam-diam saat masih bekerja, tanpa memakai waktu atau data pemberi kerjamu."
+       "id": "Mencari kerja diam-diam selagi masih bekerja, tanpa memakai waktu atau data pemberi kerjamu."
       },
       {
        "en": "Get from offer to signature with the contract read and the risks known.",
-       "id": "Dari tawaran sampai tanda tangan dengan kontrak terbaca dan risiko diketahui."
+       "id": "Melangkah dari tawaran sampai tanda tangan dengan kontrak yang sudah dibaca dan risiko yang sudah diketahui."
       },
       {
        "en": "Resign in the right order, within the notice period, and handle a counter-offer.",
@@ -41431,7 +41431,7 @@ window.MT_LMS['the-route'] = {
       },
       {
        "en": "Use the last month to hand over well and leave a reputation that travels.",
-       "id": "Memakai bulan terakhir untuk serah terima dengan baik dan meninggalkan reputasi yang ikut terbawa."
+       "id": "Memakai bulan terakhir untuk menyerahkan pekerjaan dengan baik dan meninggalkan reputasi yang ikut terbawa."
       }
      ],
      "readFirst": {
@@ -41445,36 +41445,36 @@ window.MT_LMS['the-route'] = {
         "n": "7.4",
         "title": {
          "en": "Executing the External Transition",
-         "id": "Menjalankan Peralihan ke Luar"
+         "id": "Menjalankan Kepindahan ke Luar"
         }
        },
        "story": [
         {
          "en": "Search quietly: your own time, devices and words, and no employer data",
-         "id": "Cari dengan tenang: waktu, perangkat, dan kata-katamu sendiri, dan tanpa data pemberi kerja"
+         "id": "Cari dengan diam-diam: waktu, perangkat, dan kata-katamu sendiri, tanpa data pemberi kerja"
         },
         {
          "en": "Sign before you resign: a written offer, a read contract, conditions completed or clearly defined",
-         "id": "Tanda tangan sebelum mundur: tawaran tertulis, kontrak yang terbaca, syarat yang selesai atau jelas"
+         "id": "Tanda tangani dulu, baru mengundurkan diri: tawaran tertulis, kontrak yang sudah dibaca, syarat yang sudah beres atau jelas batasannya"
         },
         {
          "en": "Your manager hears first, in person, from you, with a handover plan; decline counter-offers gracefully",
-         "id": "Manajermu mendengar pertama, langsung, darimu, dengan rencana serah terima; tolak tawaran balik dengan santun"
+         "id": "Atasanmu mendengarnya lebih dulu, langsung, darimu, dengan rencana serah terima; tolak tawaran balik dengan santun"
         },
         {
          "en": "The last month is sampled; people remember how you left more vividly than what you did in the middle",
-         "id": "Bulan terakhir tersampel; orang mengingat caramu pergi lebih jelas daripada yang kamu lakukan di tengah"
+         "id": "Bulan terakhir akan terekam; orang lebih mengingat cara kamu pergi daripada apa yang kamu kerjakan di tengah-tengahnya"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Search quietly",
-          "id": "Cari dengan tenang"
+          "id": "Cari dengan diam-diam"
          },
          "p": {
           "en": "A profile suddenly marked “open to work” is often seen by your manager before any recruiter.",
-          "id": "Profil yang tiba-tiba ditandai “open to work” sering dilihat manajermu sebelum perekrut mana pun."
+          "id": "Profil yang tiba-tiba bertanda “open to work” sering dilihat atasanmu lebih dulu sebelum rekruter mana pun."
          }
         },
         {
@@ -41484,17 +41484,17 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Evaluate with Lesson 7.2 and negotiate before signing, not after; The Rope’s Module 10 has the method.",
-          "id": "Nilai dengan Pelajaran 7.2 dan negosiasikan sebelum tanda tangan, bukan sesudahnya; Modul 10 The Rope punya metodenya."
+          "id": "Nilai tawarannya dengan Pelajaran 7.2 dan bernegosiasilah sebelum tanda tangan, bukan sesudahnya; Modul 10 di The Rope punya metodenya."
          }
         },
         {
          "h": {
           "en": "Manager first",
-          "id": "Manajer lebih dulu"
+          "id": "Atasan lebih dulu"
          },
          "p": {
           "en": "The order matters as much as the decision: manager, then HR, then the team, then anyone else.",
-          "id": "Urutannya sama pentingnya dengan keputusannya: manajer, lalu HR, lalu tim, lalu yang lain."
+          "id": "Urutannya sama pentingnya dengan keputusannya: atasan, lalu HR, lalu tim, lalu yang lain."
          }
         },
         {
@@ -41504,7 +41504,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Your former colleagues are your future network; introduce your successor to the people they will depend on.",
-          "id": "Mantan rekanmu adalah jejaring masa depanmu; perkenalkan penggantimu kepada orang yang akan mereka andalkan."
+          "id": "Mantan rekan kerjamu adalah jaringanmu di masa depan; perkenalkan penggantimu kepada orang-orang yang akan ia andalkan."
          }
         }
        ],
@@ -41513,7 +41513,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Search quietly: your own time, devices and words, and no employer data",
-          "id": "Cari dengan tenang: waktu, perangkat, dan kata-katamu sendiri, dan tanpa data pemberi kerja"
+          "id": "Cari dengan diam-diam: waktu, perangkat, dan kata-katamu sendiri, tanpa data pemberi kerja"
          },
          "cols": [
           {
@@ -41523,28 +41523,28 @@ window.MT_LMS['the-route'] = {
            },
            "d": {
             "en": "Discretion",
-            "id": "Kehati-hatian"
+            "id": "Kerahasiaan"
            },
            "items": [
             {
              "icon": "clock",
              "en": "Search on your own time and devices; take leave for interviews",
-             "id": "Cari di waktu dan perangkatmu sendiri; ambil cuti untuk wawancara"
+             "id": "Cari di waktu dan dengan perangkatmu sendiri; ambil cuti untuk wawancara"
             },
             {
              "icon": "pen",
              "en": "Describe results in publishable terms",
-             "id": "Gambarkan hasil dalam istilah yang bisa dipublikasikan"
+             "id": "Gambarkan hasil dengan cara yang aman dipublikasikan"
             },
             {
              "icon": "users",
              "en": "Tell one or two trusted board members",
-             "id": "Beri tahu satu atau dua anggota dewan yang dipercaya"
+             "id": "Beri tahu satu atau dua anggota dewan yang tepercaya"
             },
             {
              "icon": "mail",
              "en": "Line up references who have seen your work, with permission",
-             "id": "Siapkan pemberi referensi yang pernah melihat kerjamu, dengan izin"
+             "id": "Siapkan referensi yang pernah melihat pekerjaanmu, dengan izin mereka"
             }
            ],
            "icon": "check"
@@ -41556,28 +41556,28 @@ window.MT_LMS['the-route'] = {
            },
            "d": {
             "en": "What is seen before any recruiter sees it",
-            "id": "Yang terlihat sebelum perekrut mana pun melihatnya"
+            "id": "Yang terlihat sebelum rekruter mana pun melihatnya"
            },
            "items": [
             {
              "icon": "laptop",
              "en": "Use work laptops, email or hours for your search",
-             "id": "Memakai laptop, surel, atau jam kerja untuk pencarianmu"
+             "id": "Memakai laptop, email, atau jam kerja kantor untuk mencari kerja"
             },
             {
              "icon": "lock",
              "en": "Bring client lists, internal reports or numbers",
-             "id": "Membawa daftar nasabah, laporan internal, atau angka"
+             "id": "Membawa daftar nasabah, laporan internal, atau angka internal"
             },
             {
              "icon": "phone",
              "en": "Announce it in the team chat or on social media",
-             "id": "Mengumumkannya di obrolan tim atau media sosial"
+             "id": "Mengumumkannya di grup chat tim atau media sosial"
             },
             {
              "icon": "warn",
              "en": "List your current manager before an offer depends on it",
-             "id": "Mencantumkan manajermu saat ini sebelum sebuah tawaran bergantung padanya"
+             "id": "Mencantumkan atasanmu sekarang sebelum tawaran bergantung pada itu"
             }
            ],
            "icon": "x"
@@ -41588,11 +41588,11 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "Most strong moves are made from a job, not between jobs; that creates a duty of discretion toward your employer and colleagues.",
-          "id": "Kebanyakan langkah kuat dibuat dari sebuah pekerjaan, bukan di antara pekerjaan; itu menciptakan kewajiban kehati-hatian terhadap pemberi kerja dan rekanmu."
+          "id": "Kebanyakan kepindahan yang kuat dilakukan dari posisi masih bekerja, bukan di sela-sela pekerjaan; itu menimbulkan kewajiban menjaga kerahasiaan terhadap pemberi kerja dan rekan-rekanmu."
          },
          "band": {
           "en": "A profile suddenly marked “open to work” is often seen by your manager before any recruiter.",
-          "id": "Profil yang tiba-tiba ditandai “open to work” sering dilihat manajermu sebelum perekrut mana pun."
+          "id": "Profil yang tiba-tiba bertanda “open to work” sering dilihat atasanmu lebih dulu sebelum rekruter mana pun."
          },
          "em": {
           "en": "no employer data",
@@ -41603,7 +41603,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Sign before you resign: a written offer, a read contract, conditions completed or clearly defined",
-          "id": "Tanda tangan sebelum mundur: tawaran tertulis, kontrak yang terbaca, syarat yang selesai atau jelas"
+          "id": "Tanda tangani dulu, baru mengundurkan diri: tawaran tertulis, kontrak yang sudah dibaca, syarat yang sudah beres atau jelas batasannya"
          },
          "layout": "grid",
          "items": [
@@ -41613,7 +41613,7 @@ window.MT_LMS['the-route'] = {
            "id": "Jenis kontrak dan masa percobaan",
            "d": {
             "en": "Fixed-term or permanent, and whether probation applies: your security and the rules that apply to you (verify).",
-            "id": "Waktu tertentu atau tidak tertentu, dan apakah ada masa percobaan: keamananmu dan aturan yang berlaku (verifikasi)."
+            "id": "PKWT atau PKWTT, dan apakah ada masa percobaan: keamanan kerjamu dan aturan yang berlaku untukmu (periksa)."
            },
            "img": "../../assets/bg/fg-sprint-offer.jpg"
           },
@@ -41623,27 +41623,27 @@ window.MT_LMS['the-route'] = {
            "id": "Tanggal mulai",
            "d": {
             "en": "Must fit your current notice period.",
-            "id": "Harus sesuai dengan masa pemberitahuanmu saat ini."
+            "id": "Harus cocok dengan masa pemberitahuanmu sekarang."
            },
            "img": "../../assets/bg/map.jpg"
           },
           {
            "icon": "lock",
            "en": "Confidentiality, IP, non-compete",
-           "id": "Kerahasiaan, HKI, non-kompetisi",
+           "id": "Kerahasiaan, kekayaan intelektual, larangan bersaing",
            "d": {
             "en": "What you may and may not do during and after.",
-            "id": "Apa yang boleh dan tidak boleh kamu lakukan selama dan sesudahnya."
+            "id": "Apa yang boleh dan tidak boleh kamu lakukan selama dan sesudah bekerja."
            },
            "img": "../../assets/bg/fg-stage-horizon.jpg"
           },
           {
            "icon": "coin",
            "en": "Bond or clawback",
-           "id": "Ikatan atau pengembalian",
+           "id": "Ikatan dinas atau pengembalian biaya",
            "d": {
             "en": "What leaving early would cost.",
-            "id": "Berapa biaya pergi lebih awal."
+            "id": "Berapa biayanya kalau keluar lebih awal."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           },
@@ -41653,29 +41653,29 @@ window.MT_LMS['the-route'] = {
            "id": "Total kompensasi",
            "d": {
             "en": "What was promised, in writing.",
-            "id": "Yang dijanjikan, secara tertulis."
+            "id": "Apa yang dijanjikan, secara tertulis."
            },
            "img": "../../assets/pe/ed-writing.jpg"
           }
          ],
          "sub": {
           "en": "A verbal offer, a WhatsApp “selamat, kamu diterima”, or an offer “subject to final approval” is not an offer you can resign on.",
-          "id": "Tawaran lisan, WhatsApp “selamat, kamu diterima”, atau tawaran “menunggu persetujuan akhir” bukan tawaran yang bisa menjadi dasar mundur."
+          "id": "Tawaran lisan, pesan WhatsApp “selamat, kamu diterima”, atau tawaran yang “menunggu persetujuan akhir” bukanlah tawaran yang bisa dijadikan dasar untuk mengundurkan diri."
          },
          "band": {
           "en": "Evaluate with Lesson 7.2 and negotiate before signing, not after; The Rope’s Module 10 has the method.",
-          "id": "Nilai dengan Pelajaran 7.2 dan negosiasikan sebelum tanda tangan, bukan sesudahnya; Modul 10 The Rope punya metodenya."
+          "id": "Nilai tawarannya dengan Pelajaran 7.2 dan bernegosiasilah sebelum tanda tangan, bukan sesudahnya; Modul 10 di The Rope punya metodenya."
          },
          "em": {
           "en": "Sign before you resign",
-          "id": "Tanda tangan sebelum mundur"
+          "id": "Tanda tangani dulu, baru mengundurkan diri"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Your manager hears first, in person, from you, with a handover plan; decline counter-offers gracefully",
-          "id": "Manajermu mendengar pertama, langsung, darimu, dengan rencana serah terima; tolak tawaran balik dengan santun"
+          "id": "Atasanmu mendengarnya lebih dulu, langsung, darimu, dengan rencana serah terima; tolak tawaran balik dengan santun"
          },
          "img": "../../assets/bg/map.jpg",
          "layout": "flow",
@@ -41683,19 +41683,19 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "clock",
            "en": "Fifteen private minutes",
-           "id": "Lima belas menit pribadi",
+           "id": "Lima belas menit berdua",
            "d": {
             "en": "Early in the day, before HR, a colleague or a farewell post can reach them.",
-            "id": "Di awal hari, sebelum HR, rekan, atau unggahan perpisahan sampai ke mereka."
+            "id": "Di awal hari, sebelum HR, rekan kerja, atau unggahan perpisahan sampai kepadanya."
            }
           },
           {
            "icon": "mic",
            "en": "Say it plainly and warmly",
-           "id": "Katakan terang dan hangat",
+           "id": "Sampaikan dengan lugas dan hangat",
            "d": {
             "en": "Thanks for what you learned, the decision already made, your proposed last day, your handover plan.",
-            "id": "Terima kasih atas yang kamu pelajari, keputusan yang sudah dibuat, hari terakhir yang kamu usulkan, rencana serah terimamu."
+            "id": "Terima kasih atas apa yang kamu pelajari, keputusan yang sudah diambil, usulan hari terakhir, dan rencana serah terimamu."
            }
           },
           {
@@ -41704,7 +41704,7 @@ window.MT_LMS['the-route'] = {
            "id": "Suratnya",
            "d": {
             "en": "Bring the resignation letter so the conversation ends with the formal step done.",
-            "id": "Bawa surat pengunduran diri agar percakapan berakhir dengan langkah formal selesai."
+            "id": "Bawa surat pengunduran dirinya supaya percakapan itu berakhir dengan langkah resmi yang sudah beres."
            }
           },
           {
@@ -41713,38 +41713,38 @@ window.MT_LMS['the-route'] = {
            "id": "Tawaran balik",
            "d": {
             "en": "Thank them; the reasons that made you decide rarely change with a number.",
-            "id": "Berterima kasih; alasan yang membuatmu memutuskan jarang berubah karena angka."
+            "id": "Berterima kasihlah; alasan yang membuatmu memutuskan jarang berubah karena sebuah angka."
            }
           }
          ],
          "sub": {
           "en": "Indonesian regulation requires written notice, commonly at least thirty days; your contract may set more (verify); follow the longer.",
-          "id": "Regulasi Indonesia mewajibkan pemberitahuan tertulis, umumnya minimal tiga puluh hari; kontrakmu mungkin menetapkan lebih (verifikasi); ikuti yang lebih lama."
+          "id": "Peraturan di Indonesia mewajibkan pemberitahuan tertulis, umumnya paling lambat tiga puluh hari sebelumnya; kontrakmu bisa menetapkan lebih lama (periksa); ikuti yang paling lama."
          },
          "band": {
           "en": "The order matters as much as the decision: manager, then HR, then the team, then anyone else.",
-          "id": "Urutannya sama pentingnya dengan keputusannya: manajer, lalu HR, lalu tim, lalu yang lain."
+          "id": "Urutannya sama pentingnya dengan keputusannya: atasan, lalu HR, lalu tim, lalu yang lain."
          },
          "em": {
           "en": "hears first, in person, from you",
-          "id": "mendengar pertama, langsung, darimu"
+          "id": "mendengarnya lebih dulu, langsung, darimu"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "The last month is sampled; people remember how you left more vividly than what you did in the middle",
-          "id": "Bulan terakhir tersampel; orang mengingat caramu pergi lebih jelas daripada yang kamu lakukan di tengah"
+          "id": "Bulan terakhir akan terekam; orang lebih mengingat cara kamu pergi daripada apa yang kamu kerjakan di tengah-tengahnya"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "doc",
            "en": "Open work",
-           "id": "Pekerjaan terbuka",
+           "id": "Pekerjaan yang berjalan",
            "d": {
             "en": "Each file, its status and next step.",
-            "id": "Setiap berkas, statusnya, dan langkah berikutnya."
+            "id": "Tiap berkas, statusnya, dan langkah berikutnya."
            },
            "img": "../../assets/bg/fg-sprint-direction.jpg"
           },
@@ -41754,17 +41754,17 @@ window.MT_LMS['the-route'] = {
            "id": "Ritme",
            "d": {
             "en": "Recurring tasks, deadlines, reports.",
-            "id": "Tugas berulang, tenggat, laporan."
+            "id": "Tugas rutin, tenggat, laporan."
            },
            "img": "../../assets/m/06-horizon.jpg"
           },
           {
            "icon": "users",
            "en": "People",
-           "id": "Orang",
+           "id": "Orang-orang",
            "d": {
             "en": "Key contacts and what each needs.",
-            "id": "Kontak kunci dan kebutuhan masing-masing."
+            "id": "Kontak utama dan kebutuhan masing-masing."
            },
            "img": "../../assets/pe/th-stakeholders.jpg"
           },
@@ -41774,7 +41774,7 @@ window.MT_LMS['the-route'] = {
            "id": "Letak semuanya",
            "d": {
             "en": "Folders, systems, access to transfer.",
-            "id": "Folder, sistem, akses yang dialihkan."
+            "id": "Folder, sistem, akses yang perlu dialihkan."
            },
            "img": "../../assets/bg/compass.jpg"
           },
@@ -41791,15 +41791,15 @@ window.MT_LMS['the-route'] = {
          ],
          "sub": {
           "en": "Return equipment and leave data behind: company files, templates built on company time and customer information are not yours to take.",
-          "id": "Kembalikan peralatan dan tinggalkan data: berkas perusahaan, templat yang dibuat di waktu perusahaan, dan informasi nasabah bukan milikmu."
+          "id": "Kembalikan perangkat dan tinggalkan datanya: berkas perusahaan, templat yang dibuat di jam kerja, dan informasi nasabah bukan milikmu untuk dibawa."
          },
          "band": {
           "en": "Your former colleagues are your future network; introduce your successor to the people they will depend on.",
-          "id": "Mantan rekanmu adalah jejaring masa depanmu; perkenalkan penggantimu kepada orang yang akan mereka andalkan."
+          "id": "Mantan rekan kerjamu adalah jaringanmu di masa depan; perkenalkan penggantimu kepada orang-orang yang akan ia andalkan."
          },
          "em": {
           "en": "The last month is sampled",
-          "id": "Bulan terakhir tersampel"
+          "id": "Bulan terakhir akan terekam"
          }
         }
        ],
@@ -41818,13 +41818,13 @@ window.MT_LMS['the-route'] = {
       },
       "intro": {
        "en": "Search quietly, sign before you resign, tell your manager first, and leave better than you arrived.",
-       "id": "Cari dengan tenang, tanda tangan sebelum mengundurkan diri, beri tahu manajer lebih dulu, dan pergi lebih baik daripada saat datang."
+       "id": "Cari dengan diam-diam, tanda tangani dulu baru mengundurkan diri, beri tahu atasanmu lebih dulu, dan tinggalkan tempatmu dalam keadaan lebih baik daripada saat kamu datang."
       },
       "slides": [
        {
         "h": {
          "en": "Search quietly",
-         "id": "Cari dengan tenang"
+         "id": "Cari dengan diam-diam"
         },
         "points": [
          {
@@ -41841,19 +41841,19 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "A signed offer and a read contract before any resignation.",
-          "id": "Tawaran yang ditandatangani dan kontrak yang terbaca sebelum pengunduran diri apa pun."
+          "id": "Tawaran yang sudah ditandatangani dan kontrak yang sudah dibaca sebelum mengundurkan diri."
          }
         ]
        },
        {
         "h": {
          "en": "Manager first",
-         "id": "Manajer lebih dulu"
+         "id": "Atasan lebih dulu"
         },
         "points": [
          {
           "en": "In person, with a handover plan. Decline counter-offers gracefully.",
-          "id": "Langsung, dengan rencana serah terima. Tolak tawaran balik dengan santun."
+          "id": "Bertatap muka, dengan rencana serah terima. Tolak tawaran balik dengan santun."
          }
         ]
        },
@@ -41865,7 +41865,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "The last month is sampled. Your former colleagues are your future network.",
-          "id": "Bulan terakhir itu tersampel. Mantan rekanmu adalah jejaring masa depanmu."
+          "id": "Bulan terakhir akan terekam. Mantan rekan kerjamu adalah jaringanmu di masa depan."
          }
         ]
        }
@@ -41878,11 +41878,11 @@ window.MT_LMS['the-route'] = {
        "imgPos": "50% 40%",
        "h": {
         "en": "Searching while employed",
-        "id": "Mencari sambil tetap bekerja"
+        "id": "Mencari kerja selagi masih bekerja"
        },
        "body": {
-        "en": "Most strong moves are made from a job, not between jobs: you negotiate from security, and employers read continuity as a signal. That creates a duty of <b>discretion</b> toward your current employer and your colleagues. Search on your own time and your own devices; take leave for interviews rather than inventing appointments; never use your employer’s confidential information to impress another. No client lists, internal numbers or reports in a portfolio, and describe results in terms you would be comfortable seeing published. Be careful with public signals: a profile suddenly marked “open to work”, or a post about “exciting new chapters”, is often seen by your manager before any recruiter. Keep the circle of people who know small, one or two people on your board (Module 6), not the team chat. Prepare <b>references</b> early: ask permission from people who have seen your work, a former manager, a sponsor, a senior colleague in another unit, and tell them what the role is so they can speak to what matters. It is usually unwise to give your current manager as a reference until an offer is conditional on it, and good employers understand that. Use The Rope for the interviews themselves, and carry this module’s evaluation into every conversation: the questions from Lesson 7.2 are also signals to the employer that you choose carefully. Finally, pace yourself. A search while employed takes months, not weeks; decide in advance how many processes you can run well at once, and protect the quality of your current work; you still need the result and the reference.",
-        "id": "Kebanyakan perpindahan yang kuat dilakukan dari sebuah pekerjaan, bukan di antara pekerjaan: kamu bernegosiasi dari posisi aman, dan pemberi kerja membaca kesinambungan sebagai sinyal. Itu menciptakan kewajiban <b>kebijaksanaan</b> terhadap pemberi kerjamu sekarang dan rekan-rekanmu. Carilah di waktumu sendiri dan dengan perangkatmu sendiri; ambil cuti untuk wawancara alih-alih mengarang janji; jangan pernah memakai informasi rahasia pemberi kerjamu untuk mengesankan pihak lain, tanpa daftar nasabah, angka internal, atau laporan dalam portofolio, dan gambarkan hasil dengan cara yang kamu nyaman jika dipublikasikan. Hati-hati dengan sinyal publik: profil yang tiba-tiba ditandai “open to work”, atau unggahan tentang “babak baru yang menarik”, sering dilihat manajermu sebelum rekruter mana pun. Jaga lingkaran orang yang tahu tetap kecil, satu atau dua orang di dewanmu (Modul 6), bukan obrolan tim. Siapkan <b>referensi</b> lebih awal: minta izin dari orang yang pernah melihat kerjamu, mantan manajer, sponsor, kolega senior di unit lain, dan beri tahu mereka perannya agar bisa berbicara tentang hal yang penting. Biasanya kurang bijak memberikan manajermu sekarang sebagai referensi sampai tawaran bergantung padanya, dan pemberi kerja yang baik memahaminya. Pakai The Rope untuk wawancaranya, dan bawa penilaian dari modul ini ke setiap percakapan: pertanyaan dari Pelajaran 7.2 juga menjadi sinyal bagi pemberi kerja bahwa kamu memilih dengan cermat. Terakhir, atur tempo. Mencari sambil bekerja butuh berbulan-bulan, bukan berminggu-minggu; tentukan lebih dulu berapa proses yang bisa kamu jalani dengan baik sekaligus, dan jaga kualitas pekerjaanmu sekarang; kamu masih butuh hasil dan referensinya."
+        "en": "Most strong moves are made from a job, not between jobs: you negotiate from security, and employers read continuity as a signal. That creates a duty of <b>discretion</b> toward your current employer and your colleagues. Search on your own time and your own devices; take leave for interviews rather than inventing appointments; never use your employer’s confidential information to impress another: no client lists, internal numbers or reports in a portfolio, and describe results in terms you would be comfortable seeing published. Be careful with public signals: a profile suddenly marked “open to work”, or a post about “exciting new chapters”, is often seen by your manager before any recruiter. Keep the circle of people who know small: one or two people on your board (Module 6), not the team chat. Prepare <b>references</b> early: ask permission from people who have seen your work (a former manager, a sponsor, a senior colleague in another unit) and tell them what the role is so they can speak to what matters. It is usually unwise to give your current manager as a reference until an offer is conditional on it, and good employers understand that. Use The Rope for the interviews themselves, and carry this module’s evaluation into every conversation: the questions from Lesson 7.2 are also signals to the employer that you choose carefully. Finally, pace yourself. A search while employed takes months, not weeks; decide in advance how many processes you can run well at once, and protect the quality of your current work, since you still need the result and the reference.",
+        "id": "Kebanyakan kepindahan yang kuat dilakukan dari posisi masih bekerja, bukan di sela-sela pekerjaan: kamu bernegosiasi dari posisi aman, dan pemberi kerja membaca kesinambungan sebagai sinyal yang baik. Itu menimbulkan kewajiban untuk <b>menjaga kerahasiaan</b> terhadap pemberi kerjamu sekarang dan rekan-rekanmu. Carilah di waktu dan dengan perangkatmu sendiri; ambil cuti untuk wawancara alih-alih mengarang janji lain; jangan pernah memakai informasi rahasia pemberi kerjamu untuk membuat kesan di tempat lain: tanpa daftar nasabah, angka internal, atau laporan di portofoliomu, dan gambarkan hasilmu dengan cara yang tetap nyaman kalau dipublikasikan. Hati-hati dengan sinyal publik: profil yang tiba-tiba bertanda “open to work”, atau unggahan soal “babak baru yang menyenangkan”, sering dilihat atasanmu lebih dulu sebelum rekruter mana pun. Jaga lingkaran orang yang tahu tetap kecil: satu atau dua orang di dewanmu (Modul 6), bukan grup chat tim. Siapkan <b>referensi</b> sejak awal: minta izin kepada orang-orang yang pernah melihat pekerjaanmu (mantan atasan, sponsor, rekan senior di unit lain) dan ceritakan perannya supaya mereka bisa membicarakan hal yang penting. Biasanya kurang bijak mencantumkan atasanmu sekarang sebagai referensi sampai tawaran bergantung pada itu, dan pemberi kerja yang baik memahaminya. Pakai The Rope untuk wawancaranya, dan bawa cara menilai dari modul ini ke setiap percakapan: pertanyaan dari Pelajaran 7.2 juga memberi sinyal kepada pemberi kerja bahwa kamu memilih dengan cermat. Terakhir, atur tenagamu. Mencari kerja sambil tetap bekerja butuh waktu berbulan-bulan, bukan berminggu-minggu. Putuskan dari awal berapa banyak proses yang sanggup kamu jalani dengan baik sekaligus, dan jaga mutu pekerjaanmu sekarang, karena kamu masih butuh hasil dan referensinya."
        },
        "table": {
         "cols": [
@@ -41899,47 +41899,47 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Search on your own time and devices; take leave for interviews",
-           "id": "Cari di waktu dan perangkatmu sendiri; ambil cuti untuk wawancara"
+           "id": "Cari di waktu dan dengan perangkatmu sendiri; ambil cuti untuk wawancara"
           },
           {
            "en": "Use work laptops, email or hours for your search",
-           "id": "Memakai laptop, email, atau jam kerja untuk pencarianmu"
+           "id": "Memakai laptop, email, atau jam kerja kantor untuk mencari kerja"
           }
          ],
          [
           {
            "en": "Describe results in publishable terms",
-           "id": "Gambarkan hasil dengan istilah yang layak dipublikasikan"
+           "id": "Gambarkan hasil dengan cara yang aman dipublikasikan"
           },
           {
            "en": "Bring client lists, internal reports or numbers",
-           "id": "Membawa daftar nasabah, laporan, atau angka internal"
+           "id": "Membawa daftar nasabah, laporan internal, atau angka internal"
           }
          ],
          [
           {
            "en": "Tell one or two trusted board members",
-           "id": "Beri tahu satu atau dua anggota dewan tepercaya"
+           "id": "Beri tahu satu atau dua anggota dewan yang tepercaya"
           },
           {
            "en": "Announce it in the team chat or on social media",
-           "id": "Mengumumkannya di obrolan tim atau media sosial"
+           "id": "Mengumumkannya di grup chat tim atau media sosial"
           }
          ],
          [
           {
            "en": "Line up references who have seen your work, with permission",
-           "id": "Siapkan referensi yang pernah melihat kerjamu, dengan izin"
+           "id": "Siapkan referensi yang pernah melihat pekerjaanmu, dengan izin mereka"
           },
           {
            "en": "List your current manager before an offer depends on it",
-           "id": "Mencantumkan manajermu sekarang sebelum tawaran bergantung padanya"
+           "id": "Mencantumkan atasanmu sekarang sebelum tawaran bergantung pada itu"
           }
          ]
         ],
         "caption": {
          "en": "Course guidance. Confidentiality duties come from your contract, policies and the law.",
-         "id": "Panduan kursus. Kewajiban kerahasiaan berasal dari kontrak, kebijakan, dan hukum."
+         "id": "Panduan kursus. Kewajiban menjaga kerahasiaan berasal dari kontrak, kebijakan, dan undang-undang."
         }
        }
       },
@@ -41950,29 +41950,29 @@ window.MT_LMS['the-route'] = {
         "id": "Dari tawaran sampai tanda tangan"
        },
        "body": {
-        "en": "The rule is simple and often broken: <b>sign before you resign</b>. A verbal offer, a WhatsApp message saying “selamat, kamu diterima”, or an offer “subject to final approval” is not an offer you can resign on. Wait for the written offer letter, then the contract, and make sure any conditions, background check, reference check, medical, are completed or clearly defined. Evaluate the offer with Lesson 7.2 and negotiate before signing, not after (The Rope, Module 10). Then <b>read the contract in full</b>, and pay particular attention to five things. The <b>type of contract</b>: permanent (permanent contract) or fixed-term (fixed-term contract), and whether a <b>probation</b> period applies, in Indonesian law probation is generally associated with permanent contracts and capped in length <span class=\"ev ev-verify\">Verify</span>. The <b>start date</b> against your current notice period. <b>Confidentiality, intellectual-property and non-compete clauses</b>: how broadly they are written, and for how long; the enforceability of post-employment non-competes in Indonesia is debated, but you should not sign what you do not intend to honour <span class=\"ev ev-contested\">Contested</span>. Any <b>training bond or clawback</b> in the new contract. And <b>total compensation in writing</b>: base, fixed allowances, holiday bonus, bonus basis, insurance, pension. If something differs from what was said, ask politely for it to be corrected before you sign. Only then turn to your current employer, and check your own contract and company regulation for the <b>notice period</b>, any bond you still owe, and the handling of unused leave.",
-        "id": "Aturannya sederhana dan sering dilanggar: <b>tanda tangan dulu, baru mengundurkan diri</b>. Tawaran lisan, pesan WhatsApp “selamat, kamu diterima”, atau tawaran “menunggu persetujuan akhir” bukanlah tawaran yang bisa kamu jadikan dasar mengundurkan diri. Tunggu surat tawaran tertulis, lalu kontraknya, dan pastikan syarat apa pun, pemeriksaan latar belakang, referensi, kesehatan, sudah selesai atau jelas batasannya. Nilai tawarannya dengan Pelajaran 7.2 dan bernegosiasilah sebelum tanda tangan, bukan sesudahnya (The Rope, Modul 10). Lalu <b>baca kontraknya sampai habis</b>, dan perhatikan lima hal. <b>Jenis kontrak</b>: tetap (PKWTT) atau waktu tertentu (PKWT), dan apakah ada <b>masa percobaan</b>: dalam hukum Indonesia masa percobaan umumnya dikaitkan dengan kontrak tetap dan dibatasi lamanya <span class=\"ev ev-verify\">Verifikasi</span>. <b>Tanggal mulai</b> dibanding masa pemberitahuanmu sekarang. <b>Klausul kerahasiaan, kekayaan intelektual, dan larangan bersaing</b>: seberapa luas ditulis, dan untuk berapa lama; keberlakuan larangan bersaing pasca-kerja di Indonesia masih diperdebatkan, tetapi jangan menandatangani yang tak ingin kamu patuhi <span class=\"ev ev-contested\">Diperdebatkan</span>. <b>Ikatan dinas atau klausul pengembalian</b> apa pun dalam kontrak baru. Dan <b>total kompensasi tertulis</b>: gaji pokok, tunjangan tetap, THR, dasar bonus, asuransi, pensiun. Jika ada yang berbeda dari yang dikatakan, minta dengan sopan agar diperbaiki sebelum kamu tanda tangan. Baru setelah itu beralih ke pemberi kerjamu sekarang, dan periksa kontrak serta peraturan perusahaanmu sendiri untuk <b>masa pemberitahuan</b>, ikatan dinas yang masih kamu tanggung, dan penanganan cuti yang belum dipakai."
+        "en": "The rule is simple and often broken: <b>sign before you resign</b>. A verbal offer, a WhatsApp message saying “selamat, kamu diterima”, or an offer “subject to final approval” is not an offer you can resign on. Wait for the written offer letter, then the contract, and make sure any conditions (background check, reference check, medical) are completed or clearly defined. Evaluate the offer with Lesson 7.2 and negotiate before signing, not after (The Rope, Module 10). Then <b>read the contract in full</b>, and pay particular attention to five things. The <b>type of contract</b>: permanent (PKWTT) or fixed-term (PKWT), and whether a <b>probation</b> period applies (in Indonesian law probation is generally associated with PKWTT contracts and capped in length) <span class=\"ev ev-verify\">Verify</span>. The <b>start date</b> against your current notice period. <b>Confidentiality, intellectual-property and non-compete clauses</b>: how broadly they are written, and for how long; the enforceability of post-employment non-competes in Indonesia is debated, but you should not sign what you do not intend to honour <span class=\"ev ev-contested\">Contested</span>. Any <b>training bond or clawback</b> in the new contract. And <b>total compensation in writing</b>: base, fixed allowances, THR, bonus basis, insurance, pension. If something differs from what was said, ask politely for it to be corrected before you sign. Only then turn to your current employer, and check your own contract and company regulation for the <b>notice period</b>, any bond you still owe, and the handling of unused leave.",
+        "id": "Aturannya sederhana dan sering dilanggar: <b>tanda tangani dulu, baru mengundurkan diri</b>. Tawaran lisan, pesan WhatsApp berbunyi “selamat, kamu diterima”, atau tawaran yang “menunggu persetujuan akhir” bukanlah tawaran yang bisa dijadikan dasar untuk mengundurkan diri. Tunggu surat penawaran tertulis, lalu kontraknya, dan pastikan semua syaratnya (pemeriksaan latar belakang, pemeriksaan referensi, tes kesehatan) sudah selesai atau jelas batasannya. Nilai tawarannya dengan Pelajaran 7.2 dan bernegosiasilah sebelum tanda tangan, bukan sesudahnya (The Rope, Modul 10). Lalu <b>baca kontraknya sampai habis</b>, dan perhatikan lima hal. <b>Jenis kontraknya</b>: tetap (PKWTT) atau berjangka (PKWT), dan apakah ada <b>masa percobaan</b> (dalam hukum Indonesia, masa percobaan umumnya dikaitkan dengan kontrak tetap dan lamanya dibatasi) <span class=\"ev ev-verify\">Periksa</span>. <b>Tanggal mulai</b> dibanding masa pemberitahuanmu sekarang. <b>Klausul kerahasiaan, kekayaan intelektual, dan larangan bersaing</b>: seberapa luas rumusannya dan berapa lama berlakunya. Keberlakuan larangan bersaing setelah hubungan kerja berakhir masih diperdebatkan di Indonesia, tetapi jangan menandatangani apa yang tidak berniat kamu patuhi <span class=\"ev ev-contested\">Masih diperdebatkan</span>. <b>Ikatan dinas atau klausul pengembalian biaya</b> apa pun di kontrak baru. Dan <b>total kompensasi secara tertulis</b>: gaji pokok, tunjangan tetap, THR, dasar bonus, asuransi, pensiun. Kalau ada yang berbeda dari yang dibicarakan, minta dengan sopan supaya diperbaiki sebelum kamu tanda tangan. Baru setelah itu beralih ke pemberi kerjamu sekarang, dan cek kontrak serta peraturan perusahaanmu sendiri soal <b>masa pemberitahuan</b>, ikatan dinas yang masih berjalan, dan perlakuan atas sisa cuti."
        },
        "table": {
         "cols": [
          {
           "en": "Check in the new contract",
-          "id": "Periksa di kontrak baru"
+          "id": "Cek di kontrak baru"
          },
          {
           "en": "Why it matters",
-          "id": "Mengapa penting"
+          "id": "Kenapa penting"
          }
         ],
         "rows": [
          [
           {
-           "en": "<b>fixed-term contract or permanent contract; probation</b>",
+           "en": "<b>PKWT or PKWTT; probation</b>",
            "id": "<b>PKWT atau PKWTT; masa percobaan</b>"
           },
           {
            "en": "Your security and the rules that apply to you",
-           "id": "Keamananmu dan aturan yang berlaku bagimu"
+           "id": "Keamanan kerjamu dan aturan yang berlaku untukmu"
           }
          ],
          [
@@ -41982,27 +41982,27 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Must fit your current notice period",
-           "id": "Harus sesuai masa pemberitahuanmu sekarang"
+           "id": "Harus cocok dengan masa pemberitahuanmu sekarang"
           }
          ],
          [
           {
            "en": "<b>Confidentiality, IP, non-compete</b>",
-           "id": "<b>Kerahasiaan, HKI, larangan bersaing</b>"
+           "id": "<b>Kerahasiaan, kekayaan intelektual, larangan bersaing</b>"
           },
           {
            "en": "What you may and may not do during and after",
-           "id": "Apa yang boleh dan tidak boleh kamu lakukan selama dan sesudahnya"
+           "id": "Apa yang boleh dan tidak boleh kamu lakukan selama dan sesudah bekerja"
           }
          ],
          [
           {
            "en": "<b>Bond or clawback</b>",
-           "id": "<b>Ikatan dinas atau pengembalian</b>"
+           "id": "<b>Ikatan dinas atau pengembalian biaya</b>"
           },
           {
            "en": "What leaving early would cost",
-           "id": "Biaya jika pergi lebih awal"
+           "id": "Berapa biayanya kalau keluar lebih awal"
           }
          ],
          [
@@ -42018,7 +42018,7 @@ window.MT_LMS['the-route'] = {
         ],
         "caption": {
          "en": "Education, not legal advice. Contract types, probation rules and clause enforceability should be checked against current regulation or with a professional.",
-         "id": "Edukasi, bukan nasihat hukum. Jenis kontrak, aturan masa percobaan, dan keberlakuan klausul perlu dicek terhadap regulasi terkini atau dengan profesional."
+         "id": "Edukasi, bukan nasihat hukum. Jenis kontrak, aturan masa percobaan, dan keberlakuan klausul perlu dicek dengan peraturan terbaru atau kepada profesional."
         }
        }
       },
@@ -42029,17 +42029,17 @@ window.MT_LMS['the-route'] = {
         "id": "Mengundurkan diri dengan urutan yang benar"
        },
        "body": {
-        "en": "Order matters. <b>Your manager hears first, in person</b> (or by video if you work remotely), from you, not from HR, a colleague or a farewell post. Ask for fifteen private minutes early in the day. Say it plainly and warmly: thanks for what you learned, the decision (already made, not a negotiation), your proposed last day, and your handover plan. Bring the resignation letter so the conversation ends with the formal step done. Indonesian regulation requires a resigning employee to give written notice, commonly at least thirty days before the last day, and company regulations or your contract may set more <span class=\"ev ev-verify\">Verify</span>; follow the longer of what applies, and agree the exact date with your manager and HR. Then the others, in order: HR, your team, key stakeholders and clients, with a message agreed with your manager so the story is consistent. Expect three reactions. <b>Disappointment</b> is normal; do not argue with it. <b>A request to stay longer</b> is worth considering if it protects something important and your new employer agrees. <b>A counter-offer</b>, more pay, a faster promotion, is flattering and usually worth declining: it answers the money, rarely the reason in your ledger (Lesson 7.1), you have given your word to the new employer, and your current employer now knows you were ready to go. Decline with gratitude and one clear reason. What you say to colleagues about why you are leaving should be true, brief and positive about the new role, never a list of complaints about the old one; the <b>exit interview</b> is the place for honest, constructive feedback, delivered as you would want to receive it.",
-        "id": "Urutannya penting. <b>Manajermu mendengar lebih dulu, langsung</b> (atau lewat video jika kamu bekerja jarak jauh), darimu, bukan dari HR, rekan, atau unggahan perpisahan. Minta lima belas menit empat mata di awal hari. Sampaikan dengan jelas dan hangat: terima kasih atas yang kamu pelajari, keputusannya (sudah bulat, bukan negosiasi), usulan hari terakhirmu, dan rencana serah terimamu. Bawa surat pengunduran diri agar percakapan berakhir dengan langkah formal yang selesai. Regulasi Indonesia mewajibkan karyawan yang mengundurkan diri memberi pemberitahuan tertulis, umumnya paling lambat tiga puluh hari sebelum hari terakhir, dan peraturan perusahaan atau kontrakmu mungkin menetapkan lebih <span class=\"ev ev-verify\">Verifikasi</span>; ikuti yang lebih panjang dari yang berlaku, dan sepakati tanggal pastinya dengan manajer dan HR. Lalu yang lain, berurutan: HR, timmu, pemangku kepentingan utama dan nasabah, dengan pesan yang disepakati bersama manajermu agar ceritanya konsisten. Harapkan tiga reaksi. <b>Kekecewaan</b> itu wajar; jangan membantahnya. <b>Permintaan untuk tinggal lebih lama</b> layak dipertimbangkan jika melindungi sesuatu yang penting dan pemberi kerja barumu setuju. <b>Tawaran balik</b>, gaji lebih tinggi, promosi lebih cepat, memang menyanjung dan biasanya layak ditolak: ia menjawab soal uang, jarang soal alasan di neracamu (Pelajaran 7.1), kamu sudah berjanji kepada pemberi kerja baru, dan pemberi kerjamu sekarang tahu kamu siap pergi. Tolak dengan terima kasih dan satu alasan yang jelas. Apa yang kamu katakan kepada rekan tentang alasan pergi sebaiknya benar, singkat, dan positif tentang peran baru, bukan daftar keluhan tentang yang lama; <b>wawancara keluar</b> adalah tempat untuk umpan balik yang jujur dan membangun, disampaikan sebagaimana kamu ingin menerimanya."
+        "en": "Order matters. <b>Your manager hears first, in person</b> (or by video if you work remotely), from you, not from HR, a colleague or a farewell post. Ask for fifteen private minutes early in the day. Say it plainly and warmly: thanks for what you learned, the decision (already made, not a negotiation), your proposed last day, and your handover plan. Bring the resignation letter so the conversation ends with the formal step done. Indonesian regulation requires a resigning employee to give written notice, commonly at least thirty days before the last day, and company regulations or your contract may set more <span class=\"ev ev-verify\">Verify</span>; follow the longer of what applies, and agree the exact date with your manager and HR. Then the others, in order: HR, your team, key stakeholders and clients, with a message agreed with your manager so the story is consistent. Expect three reactions. <b>Disappointment</b> is normal; do not argue with it. <b>A request to stay longer</b> is worth considering if it protects something important and your new employer agrees. <b>A counter-offer</b> (more pay, a faster promotion) is flattering and usually worth declining: it answers the money, rarely the reason in your ledger (Lesson 7.1); you have given your word to the new employer, and your current employer now knows you were ready to go. Decline with gratitude and one clear reason. What you say to colleagues about why you are leaving should be true, brief and positive about the new role, never a list of complaints about the old one; the <b>exit interview</b> is the place for honest, constructive feedback, delivered as you would want to receive it.",
+        "id": "Urutan itu penting. <b>Atasanmu mendengarnya lebih dulu, secara langsung</b> (atau lewat video kalau kamu bekerja jarak jauh), darimu, bukan dari HR, rekan kerja, atau unggahan perpisahan. Minta waktu lima belas menit berdua di awal hari. Sampaikan dengan lugas dan hangat: terima kasih atas apa yang kamu pelajari, keputusannya (sudah diambil, bukan untuk ditawar), usulan hari terakhirmu, dan rencana serah terimamu. Bawa surat pengunduran dirinya supaya percakapan itu berakhir dengan langkah resmi yang sudah beres. Peraturan di Indonesia mewajibkan karyawan yang mengundurkan diri memberi pemberitahuan tertulis, umumnya paling lambat tiga puluh hari sebelum hari terakhir, dan peraturan perusahaan atau kontrakmu bisa menetapkan lebih lama <span class=\"ev ev-verify\">Periksa</span>; ikuti mana yang paling lama, dan sepakati tanggal pastinya dengan atasan dan HR. Lalu orang-orang lain, secara berurutan: HR, timmu, pemangku kepentingan utama, dan nasabah, dengan pesan yang disepakati bersama atasanmu supaya ceritanya konsisten. Bersiaplah untuk tiga reaksi. <b>Kekecewaan</b> itu wajar; jangan dibantah. <b>Permintaan untuk bertahan lebih lama</b> layak dipertimbangkan kalau melindungi sesuatu yang penting dan pemberi kerja barumu setuju. <b>Tawaran balik</b> (gaji lebih tinggi, promosi lebih cepat) memang menyanjung, tetapi biasanya lebih baik ditolak: tawaran itu menjawab soal uang, jarang menjawab alasan di neracamu (Pelajaran 7.1); kamu sudah memberi janji kepada pemberi kerja baru; dan pemberi kerjamu sekarang jadi tahu kamu sudah siap pergi. Tolak dengan rasa terima kasih dan satu alasan yang jelas. Apa yang kamu sampaikan kepada rekan kerja soal alasan pergi sebaiknya benar, singkat, dan positif tentang peran baru, bukan daftar keluhan tentang tempat lama. <b>Wawancara keluar</b> adalah tempat untuk masukan yang jujur dan membangun, disampaikan seperti kamu ingin menerimanya."
        },
        "bullets": [
         {
          "en": "<b>Manager first</b>: in person, thanks, decision, last day, handover plan, letter.",
-         "id": "<b>Manajer lebih dulu</b>: langsung, terima kasih, keputusan, hari terakhir, rencana serah terima, surat."
+         "id": "<b>Atasan lebih dulu</b>: bertatap muka, terima kasih, keputusan, hari terakhir, rencana serah terima, surat."
         },
         {
          "en": "<b>Notice</b>: written, within the period your regulation, contract and policy require.",
-         "id": "<b>Pemberitahuan</b>: tertulis, sesuai masa yang disyaratkan regulasi, kontrak, dan kebijakan."
+         "id": "<b>Pemberitahuan</b>: tertulis, dalam jangka waktu yang diwajibkan peraturan, kontrak, dan kebijakan."
         },
         {
          "en": "<b>Then the others</b>: HR, team, stakeholders, with one agreed message.",
@@ -42047,19 +42047,19 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "<b>Counter-offer</b>: decline with gratitude and one clear reason.",
-         "id": "<b>Tawaran balik</b>: tolak dengan terima kasih dan satu alasan yang jelas."
+         "id": "<b>Tawaran balik</b>: tolak dengan rasa terima kasih dan satu alasan yang jelas."
         }
        ]
       },
       {
        "icon": "flag",
        "h": {
-        "en": "The last month: and the first day",
-        "id": "Bulan terakhir: dan hari pertama"
+        "en": "The last month, and the first day",
+        "id": "Bulan terakhir, dan hari pertama"
        },
        "body": {
-        "en": "The last month is one of the most <b>sampled moments</b> of a career (Module 4): people remember how you left more vividly than what you did in the middle. Use it deliberately. Write a <b>handover document</b>: open files and their status, recurring tasks and deadlines, key contacts and what each needs, where things are stored, and the three things most likely to go wrong. Spend time with your successor, or with whoever will cover the work, and introduce them to the people they will depend on. Finish what you can finish; hand over clearly what you cannot. Return equipment and <b>leave data behind</b>: company files, templates built on company time and customer information are not yours to take, and doing so may breach your contract, confidentiality duties and data-protection law <span class=\"ev ev-verify\">Verify</span>. Thank people specifically: the mentor who reviewed your memos, the branch officer who sent the data on time, the manager who gave you the stretch. Ask one or two people whether they would be willing to be references in future. Then keep the network warm: a note after your first month in the new role, congratulations when former colleagues are promoted, help when they ask. Many organisations now welcome <b>boomerang</b> hires, and former colleagues become clients, partners and sometimes managers again. Finally, the move is not complete when you leave. It is complete when you have landed. The first ninety days in the new role, from learning the unwritten rules to your first visible result, are the subject of The Rope’s final module; start it the week you sign.",
-        "id": "Bulan terakhir adalah salah satu <b>momen tersampel</b> paling penting dalam karier (Modul 4): orang mengingat bagaimana kamu pergi lebih jelas daripada apa yang kamu kerjakan di tengah. Pakailah dengan sengaja. Tulis <b>dokumen serah terima</b>: berkas terbuka dan statusnya, tugas rutin dan tenggatnya, kontak kunci dan kebutuhan masing-masing, tempat penyimpanan, dan tiga hal yang paling mungkin salah. Luangkan waktu bersama penggantimu, atau siapa pun yang akan menangani pekerjaannya, dan perkenalkan mereka kepada orang-orang yang akan mereka andalkan. Selesaikan yang bisa diselesaikan; serahkan dengan jelas yang tidak bisa. Kembalikan peralatan dan <b>tinggalkan datanya</b>: berkas perusahaan, templat yang dibuat di jam kerja, dan informasi nasabah bukan milikmu untuk dibawa, dan melakukannya bisa melanggar kontrak, kewajiban kerahasiaan, dan hukum pelindungan data <span class=\"ev ev-verify\">Verifikasi</span>. Berterima kasihlah secara spesifik: mentor yang meninjau memomu, petugas cabang yang mengirim data tepat waktu, manajer yang memberimu tantangan. Tanyakan kepada satu atau dua orang apakah mereka bersedia menjadi referensi kelak. Lalu jaga jejaringnya tetap hangat: catatan setelah bulan pertamamu di peran baru, ucapan selamat saat mantan rekan dipromosikan, bantuan saat mereka meminta. Banyak organisasi kini menyambut rekrutan <b>bumerang</b>, dan mantan rekan menjadi nasabah, mitra, dan kadang manajer lagi. Terakhir, perpindahan belum selesai saat kamu pergi. Ia selesai saat kamu sudah mendarat. Sembilan puluh hari pertama di peran baru, dari mempelajari aturan tak tertulis sampai hasil pertamamu yang terlihat, adalah pokok modul terakhir The Rope; mulailah di minggu kamu menandatangani."
+        "en": "The last month is one of the most <b>sampled moments</b> of a career (Module 4): people remember how you left more vividly than what you did in the middle. Use it deliberately. Write a <b>handover document</b>: open files and their status, recurring tasks and deadlines, key contacts and what each needs, where things are stored, and the three things most likely to go wrong. Spend time with your successor, or with whoever will cover the work, and introduce them to the people they will depend on. Finish what you can finish; hand over clearly what you cannot. Return equipment and <b>leave data behind</b>: company files, templates built on company time and customer information are not yours to take, and doing so may breach your contract, confidentiality duties and data-protection law <span class=\"ev ev-verify\">Verify</span>. Thank people specifically: the mentor who reviewed your memos, the branch officer who sent the data on time, the manager who gave you the stretch. Ask one or two people whether they would be willing to be references in future. Then keep the network warm: a note after your first month in the new role, congratulations when former colleagues are promoted, help when they ask. Many organisations now welcome <b>boomerang</b> hires, and former colleagues become clients, partners and sometimes managers again. Finally, the move is not complete when you leave. It is complete when you have landed. The first ninety days in the new role (from learning the unwritten rules to your first visible result) are the subject of The Rope’s final module; start it the week you sign.",
+        "id": "Bulan terakhir termasuk <b>momen yang paling terekam</b> dalam karier (Modul 4): orang lebih mengingat cara kamu pergi daripada apa yang kamu kerjakan di tengah-tengahnya. Pakai bulan itu dengan sengaja. Tulis <b>dokumen serah terima</b>: berkas yang masih berjalan dan statusnya, tugas rutin dan tenggatnya, kontak utama dan kebutuhan masing-masing, tempat semuanya disimpan, dan tiga hal yang paling mungkin salah. Luangkan waktu bersama penggantimu, atau siapa pun yang akan memegang pekerjaannya, dan perkenalkan ia kepada orang-orang yang akan ia andalkan. Tuntaskan apa yang bisa dituntaskan; serahkan dengan jelas apa yang tidak bisa. Kembalikan perangkat dan <b>tinggalkan datanya</b>: berkas perusahaan, templat yang dibuat di jam kerja, dan informasi nasabah bukan milikmu untuk dibawa, dan membawanya bisa melanggar kontrak, kewajiban kerahasiaan, dan undang-undang pelindungan data <span class=\"ev ev-verify\">Periksa</span>. Berterima kasihlah secara spesifik: kepada mentor yang meninjau memomu, petugas cabang yang mengirim data tepat waktu, atasan yang memberimu tantangan. Tanyakan kepada satu atau dua orang apakah mereka bersedia menjadi referensimu kelak. Lalu jaga jaringannya tetap hangat: kirim kabar setelah bulan pertama di peran baru, beri selamat saat mantan rekan kerja dipromosikan, dan bantu saat mereka meminta. Banyak organisasi kini menyambut karyawan <b>bumerang</b>, dan mantan rekan kerja bisa menjadi nasabah, mitra, bahkan atasan lagi. Terakhir, kepindahanmu belum selesai saat kamu pergi. Kepindahan itu selesai saat kamu sudah mendarat. Sembilan puluh hari pertama di peran baru (dari mempelajari aturan tak tertulis sampai hasil pertama yang terlihat) adalah pokok bahasan modul terakhir The Rope; mulailah di minggu kamu menandatangani kontrak."
        },
        "table": {
         "cols": [
@@ -42069,14 +42069,14 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Include",
-          "id": "Sertakan"
+          "id": "Isinya"
          }
         ],
         "rows": [
          [
           {
            "en": "<b>Open work</b>",
-           "id": "<b>Pekerjaan terbuka</b>"
+           "id": "<b>Pekerjaan yang berjalan</b>"
           },
           {
            "en": "Each file, its status and next step",
@@ -42096,21 +42096,21 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>People</b>",
-           "id": "<b>Orang</b>"
+           "id": "<b>Orang-orang</b>"
           },
           {
            "en": "Key contacts and what each needs",
-           "id": "Kontak kunci dan kebutuhan masing-masing"
+           "id": "Kontak utama dan kebutuhan masing-masing"
           }
          ],
          [
           {
            "en": "<b>Where things are</b>",
-           "id": "<b>Letak barang</b>"
+           "id": "<b>Letak semuanya</b>"
           },
           {
            "en": "Folders, systems, access to transfer",
-           "id": "Folder, sistem, akses yang dialihkan"
+           "id": "Folder, sistem, akses yang perlu dialihkan"
           }
          ],
          [
@@ -42135,22 +42135,22 @@ window.MT_LMS['the-route'] = {
       "type": "timeline",
       "exhibit": {
        "en": "Exhibit 1: The external move, in order",
-       "id": "Peraga 1: Perpindahan ke luar, berurutan"
+       "id": "Gambar 1: Kepindahan ke luar, secara berurutan"
       },
       "title": {
        "en": "Search → sign → tell → hand over → leave → land",
-       "id": "Cari → tanda tangan → sampaikan → serahkan → pergi → mendarat"
+       "id": "Mencari → tanda tangan → memberi tahu → serah terima → pergi → mendarat"
       },
       "items": [
        {
         "icon": "eye",
         "h": {
          "en": "Search",
-         "id": "Cari"
+         "id": "Mencari"
         },
         "sub": {
          "en": "Quietly, on your own time; references lined up.",
-         "id": "Diam-diam, di waktumu sendiri; referensi disiapkan."
+         "id": "Diam-diam, di waktumu sendiri; referensi sudah siap."
         }
        },
        {
@@ -42161,25 +42161,25 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Written offer and contract read, before resigning.",
-         "id": "Tawaran tertulis dan kontrak terbaca, sebelum mundur."
+         "id": "Tawaran tertulis dan kontrak sudah dibaca, sebelum mengundurkan diri."
         }
        },
        {
         "icon": "chat",
         "h": {
          "en": "Tell",
-         "id": "Sampaikan"
+         "id": "Memberi tahu"
         },
         "sub": {
          "en": "Manager first, in person, with the letter and a plan.",
-         "id": "Manajer dulu, langsung, dengan surat dan rencana."
+         "id": "Atasan lebih dulu, bertatap muka, dengan surat dan rencananya."
         }
        },
        {
         "icon": "gear",
         "h": {
          "en": "Hand over",
-         "id": "Serahkan"
+         "id": "Serah terima"
         },
         "sub": {
          "en": "Written handover; time with the successor.",
@@ -42194,7 +42194,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Data stays; thanks are specific; the network stays warm.",
-         "id": "Data tinggal; terima kasih spesifik; jejaring tetap hangat."
+         "id": "Data ditinggal; terima kasih yang spesifik; jaringan tetap hangat."
         }
        },
        {
@@ -42211,18 +42211,18 @@ window.MT_LMS['the-route'] = {
       ],
       "note": {
        "en": "The move is not complete when you leave. It is complete when you have landed.",
-       "id": "Perpindahan belum selesai saat kamu pergi. Ia selesai saat kamu sudah mendarat."
+       "id": "Kepindahanmu belum selesai saat kamu pergi. Kepindahan itu selesai saat kamu sudah mendarat."
       },
       "longdesc": {
        "en": "A six-step timeline for an external move. Search quietly on your own time with references ready. Sign the written offer and read the contract before resigning. Tell your manager first, in person, with the letter and a handover plan. Hand over in writing and spend time with your successor. Leave the data behind, thank people specifically and keep the network warm. Land in the new role through the first ninety days.",
-       "id": "Garis waktu enam langkah untuk perpindahan ke luar. Cari dengan diam-diam di waktumu sendiri dengan referensi siap. Tandatangani tawaran tertulis dan baca kontraknya sebelum mengundurkan diri. Beri tahu manajermu lebih dulu, langsung, dengan surat dan rencana serah terima. Serahkan secara tertulis dan luangkan waktu bersama penggantimu. Tinggalkan datanya, berterima kasihlah secara spesifik, dan jaga jejaring tetap hangat. Mendarat di peran baru melalui sembilan puluh hari pertama."
+       "id": "Linimasa enam langkah untuk kepindahan ke luar. Cari dengan diam-diam di waktumu sendiri dengan referensi yang sudah siap. Tanda tangani tawaran tertulis dan baca kontraknya sebelum mengundurkan diri. Beri tahu atasanmu lebih dulu, bertatap muka, dengan surat dan rencana serah terima. Serahkan pekerjaan secara tertulis dan luangkan waktu bersama penggantimu. Tinggalkan datanya, berterima kasihlah secara spesifik, dan jaga jaringan tetap hangat. Mendaratlah di peran baru lewat sembilan puluh hari pertama."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "An email to HR → the manager first",
-        "id": "Email ke HR → manajer lebih dulu"
+        "id": "Email ke HR → atasan lebih dulu"
        },
        "q": {
         "en": "Mbak Wulan, the Pati branch operations officer, has signed with another bank and must resign this week.",
@@ -42230,15 +42230,15 @@ window.MT_LMS['the-route'] = {
        },
        "weak": {
         "en": "Friday, 17.45: she emails her resignation letter to HR with her manager in copy, and posts a farewell photo on Instagram the same evening.",
-        "id": "Jumat, 17.45: ia mengirim surat pengunduran diri lewat email ke HR dengan tembusan ke manajernya, dan mengunggah foto perpisahan di Instagram malam itu juga."
+        "id": "Jumat, 17.45: ia mengirim surat pengunduran diri lewat email ke HR dengan tembusan ke atasannya, lalu mengunggah foto perpisahan di Instagram malam itu juga."
        },
        "strong": {
         "en": "Monday, 08.30, in her manager’s office: “Pak, terima kasih untuk empat tahun ini. Saya belajar banyak, terutama soal kepatuhan dokumen. Saya sudah menerima tawaran dari bank lain dan memutuskan untuk pindah. Hari terakhir yang saya usulkan tanggal 30 bulan depan, sesuai ketentuan. Ini surat resminya, dan ini draf rencana serah terima. Saya usulkan Rudi yang menggantikan laporan akhir bulan, dan saya latih mulai minggu ini.”",
-        "id": "Senin, 08.30, di ruang manajernya: “Pak, terima kasih untuk empat tahun ini. Saya belajar banyak, terutama soal kepatuhan dokumen. Saya sudah menerima tawaran dari bank lain dan memutuskan untuk pindah. Hari terakhir yang saya usulkan tanggal 30 bulan depan, sesuai ketentuan. Ini surat resminya, dan ini draf rencana serah terima. Saya usulkan Rudi yang menggantikan laporan akhir bulan, dan saya latih mulai minggu ini.”"
+        "id": "Senin, 08.30, di ruang atasannya: “Pak, terima kasih untuk empat tahun ini. Saya belajar banyak, terutama soal kepatuhan dokumen. Saya sudah menerima tawaran dari bank lain dan memutuskan untuk pindah. Hari terakhir yang saya usulkan tanggal 30 bulan depan, sesuai ketentuan. Ini surat resminya, dan ini draf rencana serah terima. Saya usulkan Rudi yang menggantikan laporan akhir bulan, dan saya latih mulai minggu ini.”"
        },
        "why": {
         "en": "The first is formally complete and relationally careless: the manager learns from an inbox and a photo. The second gives thanks, a clear decision, a date within the notice rules, the letter and a named successor plan, so the manager can protect the branch. Fictional.",
-        "id": "Yang pertama lengkap secara formal dan ceroboh secara hubungan: manajer mengetahui dari kotak masuk dan sebuah foto. Yang kedua memberi terima kasih, keputusan yang jelas, tanggal sesuai aturan pemberitahuan, surat, dan rencana pengganti yang bernama; sehingga manajer bisa melindungi cabangnya. Fiktif."
+        "id": "Yang pertama lengkap secara formal tetapi ceroboh secara hubungan: atasannya tahu dari kotak masuk dan sebuah foto. Yang kedua menyampaikan terima kasih, keputusan yang jelas, tanggal sesuai aturan pemberitahuan, surat resmi, dan rencana pengganti yang disebut namanya, sehingga atasannya bisa melindungi cabangnya. Fiktif."
        }
       }
      ],
@@ -42246,16 +42246,16 @@ window.MT_LMS['the-route'] = {
       "icon": "users",
       "title": {
        "en": "In focus: the handover that came back",
-       "id": "Sorotan: serah terima yang kembali"
+       "id": "Sorotan: serah terima yang berbuah"
       },
       "body": [
        {
         "en": "In her last month at the Pati branch, Mbak Wulan writes an eight-page handover: every recurring report with its deadline and data source, the six branch contacts who send documents late and how to remind each one politely, and the three month-end errors she has fixed most often. She sits with Rudi, her successor, for four afternoons and introduces him to Nadia at the credit centre. She takes nothing with her but her own notes on what she learned.",
-        "id": "Di bulan terakhirnya di cabang Pati, Mbak Wulan menulis serah terima delapan halaman: setiap laporan rutin dengan tenggat dan sumber datanya, enam kontak cabang yang sering terlambat mengirim dokumen dan cara mengingatkan masing-masing dengan sopan, dan tiga kesalahan akhir bulan yang paling sering ia perbaiki. Ia duduk bersama Rudi, penggantinya, selama empat sore dan memperkenalkannya kepada Nadia di pusat kredit. Ia tak membawa apa pun kecuali catatan pribadinya tentang apa yang ia pelajari."
+        "id": "Di bulan terakhirnya di cabang Pati, Mbak Wulan menulis dokumen serah terima setebal delapan halaman: setiap laporan rutin lengkap dengan tenggat dan sumber datanya, enam kontak cabang yang suka terlambat mengirim dokumen dan cara mengingatkan masing-masing dengan sopan, serta tiga kesalahan akhir bulan yang paling sering ia perbaiki. Ia duduk bersama Rudi, penggantinya, selama empat sore dan memperkenalkannya kepada Nadia di pusat kredit. Ia tidak membawa apa pun selain catatannya sendiri tentang apa yang ia pelajari."
        },
        {
-        "en": "Two years later, the bank’s regional office is looking for an operations lead with experience at another bank. Her former branch manager, asked for names, gives one without hesitation. The recruiter mentions that three people independently described Mbak Wulan’s handover. Her exit had become part of her reputation, the best part.",
-        "id": "Dua tahun kemudian, kantor regional bank mencari pemimpin operasional yang berpengalaman di bank lain. Mantan manajer cabangnya, saat dimintai nama, menyebut satu tanpa ragu. Rekruternya menyebut bahwa tiga orang secara terpisah menggambarkan serah terima Mbak Wulan. Kepergiannya telah menjadi bagian dari reputasinya, bagian terbaiknya."
+        "en": "Two years later, the bank’s regional office is looking for an operations lead with experience at another bank. Her former branch manager, asked for names, gives one without hesitation. The recruiter mentions that three people independently described Mbak Wulan’s handover. Her exit had become part of her reputation: the best part.",
+        "id": "Dua tahun kemudian, kantor wilayah bank itu mencari pemimpin operasional yang punya pengalaman di bank lain. Mantan kepala cabangnya, saat dimintai nama, menyebut satu nama tanpa ragu. Rekruter menyebut bahwa tiga orang secara terpisah bercerita tentang dokumen serah terima Mbak Wulan. Cara ia pergi sudah menjadi bagian dari reputasinya: bagian yang terbaik."
        }
       ]
      },
@@ -42263,15 +42263,15 @@ window.MT_LMS['the-route'] = {
       {
        "h": {
         "en": "Drill 1 · The discretion check",
-        "id": "Latihan 1 · Cek kebijaksanaan"
+        "id": "Latihan 1 · Cek kerahasiaan"
        },
        "body": {
         "en": "Review your profile, portfolio and recent posts as your manager would. Remove anything that signals a search you have not chosen to signal, and any detail drawn from confidential work.",
-        "id": "Tinjau profil, portofolio, dan unggahan terbarumu seperti manajermu akan melihatnya. Hapus apa pun yang menandakan pencarian yang tak ingin kamu tandakan, dan detail apa pun yang diambil dari pekerjaan rahasia."
+        "id": "Tinjau profil, portofolio, dan unggahan terbarumu seperti atasanmu akan melihatnya. Hapus apa pun yang menandakan pencarian kerja yang tidak ingin kamu tandakan, dan detail apa pun yang berasal dari pekerjaan rahasia."
        },
        "debrief": {
         "en": "A good test for any example: would you be comfortable if your current manager read it aloud in a team meeting?",
-        "id": "Uji yang baik untuk contoh apa pun: apakah kamu nyaman jika manajermu sekarang membacanya keras-keras di rapat tim?"
+        "id": "Tes yang bagus untuk contoh apa pun: apakah kamu nyaman kalau atasanmu sekarang membacanya keras-keras di rapat tim?"
        }
       },
       {
@@ -42281,25 +42281,25 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Take your current contract (or an offer) and find the five items: contract type and probation, start date and notice, confidentiality and non-compete, bond or clawback, total compensation. Write one question for each you could not answer.",
-        "id": "Ambil kontrakmu sekarang (atau sebuah tawaran) dan temukan lima butir: jenis kontrak dan masa percobaan, tanggal mulai dan pemberitahuan, kerahasiaan dan larangan bersaing, ikatan dinas atau pengembalian, total kompensasi. Tulis satu pertanyaan untuk tiap butir yang tak bisa kamu jawab."
+        "id": "Ambil kontrakmu sekarang (atau sebuah tawaran) dan temukan lima halnya: jenis kontrak dan masa percobaan, tanggal mulai dan masa pemberitahuan, kerahasiaan dan larangan bersaing, ikatan dinas atau pengembalian biaya, total kompensasi. Tulis satu pertanyaan untuk tiap hal yang tidak bisa kamu jawab."
        },
        "debrief": {
-        "en": "Your notice period and any bond set the earliest realistic start date for any new role, know them before an interview asks.",
-        "id": "Masa pemberitahuan dan ikatan dinasmu menetapkan tanggal mulai paling awal yang realistis untuk peran baru apa pun, ketahui sebelum wawancara menanyakannya."
+        "en": "Your notice period and any bond set the earliest realistic start date for any new role; know them before an interview asks.",
+        "id": "Masa pemberitahuan dan ikatan dinasmu menentukan tanggal mulai paling cepat yang realistis untuk peran baru apa pun; ketahui keduanya sebelum ditanya di wawancara."
        }
       },
       {
        "h": {
         "en": "Drill 3 · Practise the three moments",
-        "id": "Latihan 3 · Latih tiga momen"
+        "id": "Latihan 3 · Latih tiga momennya"
        },
        "body": {
         "en": "Open the scenario coach below and play “Leaving well”: telling your manager, the counter-offer, and the last month. Then write your own four-sentence resignation opening.",
-        "id": "Buka pelatih skenario di bawah dan mainkan “Pergi dengan baik”: memberi tahu manajer, tawaran balik, dan bulan terakhir. Lalu tulis empat kalimat pembuka pengunduran dirimu sendiri."
+        "id": "Buka scenario coach di bawah dan mainkan “Pergi dengan baik”: memberi tahu atasan, tawaran balik, dan bulan terakhir. Lalu tulis empat kalimat pembuka pengunduran dirimu sendiri."
        },
        "debrief": {
-        "en": "Thanks, decision, date, plan, in that order. If your draft includes reasons you are unhappy, move them to the exit interview.",
-        "id": "Terima kasih, keputusan, tanggal, rencana; dengan urutan itu. Jika drafmu memuat alasan ketidakpuasan, pindahkan ke wawancara keluar."
+        "en": "Thanks, decision, date, plan: in that order. If your draft includes reasons you are unhappy, move them to the exit interview.",
+        "id": "Terima kasih, keputusan, tanggal, rencana: dengan urutan itu. Kalau drafmu memuat alasan kamu tidak puas, pindahkan ke wawancara keluar."
        }
       }
      ],
@@ -42308,21 +42308,21 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Resigning on a verbal offer",
-         "id": "Mundur berdasarkan tawaran lisan"
+         "id": "Mengundurkan diri karena tawaran lisan"
         },
         "fix": {
-         "en": "Sign, then resign: with conditions cleared.",
-         "id": "Tanda tangan, lalu mundur, dengan syarat sudah selesai."
+         "en": "Sign, then resign, with conditions cleared.",
+         "id": "Tanda tangani dulu, baru mundur, dengan semua syarat sudah beres."
         }
        },
        {
         "h": {
          "en": "The manager hears it second-hand",
-         "id": "Manajer mendengar dari orang lain"
+         "id": "Atasan mendengarnya dari orang lain"
         },
         "fix": {
          "en": "Manager first, in person, with the letter and a plan.",
-         "id": "Manajer dulu, langsung, dengan surat dan rencana."
+         "id": "Atasan lebih dulu, bertatap muka, dengan surat dan rencananya."
         }
        },
        {
@@ -42332,17 +42332,17 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Decline with gratitude; the reasons in your ledger remain.",
-         "id": "Tolak dengan terima kasih; alasan di neracamu tetap ada."
+         "id": "Tolak dengan rasa terima kasih; alasan di neracamu tetap sama."
         }
        },
        {
         "h": {
          "en": "Taking files “for reference”",
-         "id": "Membawa berkas “untuk referensi”"
+         "id": "Membawa berkas “buat referensi”"
         },
         "fix": {
          "en": "Data stays; take only your own notes on what you learned.",
-         "id": "Data tinggal; bawa hanya catatan pribadimu tentang yang kamu pelajari."
+         "id": "Data ditinggal; bawa hanya catatanmu sendiri tentang apa yang kamu pelajari."
         }
        }
       ]
@@ -42355,17 +42355,17 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The written notice you must give before your last day, set by regulation, contract and company policy.",
-        "id": "Pemberitahuan tertulis yang wajib kamu berikan sebelum hari terakhir, ditetapkan regulasi, kontrak, dan kebijakan perusahaan."
+        "id": "Pemberitahuan tertulis yang wajib kamu berikan sebelum hari terakhir, ditetapkan oleh peraturan, kontrak, dan kebijakan perusahaan."
        }
       },
       {
        "term": {
-        "en": "fixed-term contract / permanent contract",
+        "en": "PKWT / PKWTT",
         "id": "PKWT / PKWTT"
        },
        "def": {
         "en": "Fixed-term and permanent employment contracts under Indonesian law; rules on probation and termination differ.",
-        "id": "Perjanjian kerja waktu tertentu dan tidak tertentu menurut hukum Indonesia; aturan masa percobaan dan pengakhirannya berbeda."
+        "id": "Perjanjian kerja waktu tertentu (berjangka) dan waktu tidak tertentu (tetap) menurut hukum Indonesia; aturan masa percobaan dan pemutusannya berbeda."
        }
       },
       {
@@ -42375,17 +42375,17 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "An improved package offered by your current employer after you resign.",
-        "id": "Paket yang lebih baik yang ditawarkan pemberi kerjamu sekarang setelah kamu mengundurkan diri."
+        "id": "Paket yang lebih baik dari pemberi kerjamu sekarang setelah kamu mengundurkan diri."
        }
       },
       {
        "term": {
         "en": "Boomerang hire",
-        "id": "Rekrutan bumerang"
+        "id": "Karyawan bumerang"
        },
        "def": {
         "en": "A former employee rehired later, more likely when they left well.",
-        "id": "Mantan karyawan yang direkrut kembali kelak, lebih mungkin jika dulu pergi dengan baik."
+        "id": "Mantan karyawan yang direkrut kembali di kemudian hari, lebih mungkin terjadi kalau dulu ia pergi dengan baik."
        }
       }
      ],
@@ -42393,20 +42393,20 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "You receive a WhatsApp message: “Selamat, kamu diterima! Surat menyusul.” You should…",
-        "id": "Kamu menerima pesan WhatsApp: “Selamat, kamu diterima! Surat menyusul.” Kamu sebaiknya…"
+        "id": "Kamu menerima pesan WhatsApp: “Selamat, kamu diterima! Surat menyusul.” Sebaiknya kamu…"
        },
        "options": [
         {
          "en": "Resign today to secure the start date",
-         "id": "Mengundurkan diri hari ini agar tanggal mulai aman"
+         "id": "Mengundurkan diri hari ini supaya tanggal mulainya aman"
         },
         {
          "en": "Wait for the written offer and contract, with conditions cleared, before resigning",
-         "id": "Menunggu tawaran tertulis dan kontrak, dengan syarat selesai, sebelum mengundurkan diri"
+         "id": "Menunggu tawaran tertulis dan kontraknya, dengan semua syarat beres, sebelum mengundurkan diri"
         },
         {
          "en": "Tell your team the good news",
-         "id": "Memberi tahu kabar baik ke timmu"
+         "id": "Memberi tahu kabar gembira itu ke timmu"
         },
         {
          "en": "Post it on LinkedIn",
@@ -42416,13 +42416,13 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Sign, then resign.",
-        "id": "Tanda tangan, lalu mundur."
+        "id": "Tanda tangani dulu, baru mengundurkan diri."
        }
       },
       {
        "q": {
         "en": "Who should hear about your resignation first?",
-        "id": "Siapa yang sebaiknya pertama kali mendengar tentang pengunduran dirimu?"
+        "id": "Siapa yang sebaiknya pertama kali mendengar soal pengunduran dirimu?"
        },
        "options": [
         {
@@ -42431,11 +42431,11 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Your closest colleague",
-         "id": "Rekan terdekatmu"
+         "id": "Rekan kerja terdekatmu"
         },
         {
          "en": "Your manager, in person, from you",
-         "id": "Manajermu, langsung, darimu"
+         "id": "Atasanmu, secara langsung, darimu"
         },
         {
          "en": "Your clients",
@@ -42456,15 +42456,15 @@ window.MT_LMS['the-route'] = {
        "options": [
         {
          "en": "Copy them to a personal drive",
-         "id": "Menyalinnya ke drive pribadi"
+         "id": "Menyalinnya ke penyimpanan pribadi"
         },
         {
          "en": "Leave them, and keep only your own notes on what you learned",
-         "id": "Meninggalkannya, dan hanya menyimpan catatan pribadimu tentang yang kamu pelajari"
+         "id": "Meninggalkannya, dan hanya membawa catatanmu sendiri tentang apa yang kamu pelajari"
         },
         {
          "en": "Email them to your new work address",
-         "id": "Mengirimnya ke alamat email kerja barumu"
+         "id": "Mengirimkannya ke alamat email kantor barumu"
         },
         {
          "en": "Ask a colleague to send them later",
@@ -42474,7 +42474,7 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Work built on company time and data generally belongs to the company; taking it risks your contract and reputation.",
-        "id": "Pekerjaan yang dibuat di jam kerja dan dengan data perusahaan umumnya milik perusahaan; membawanya membahayakan kontrak dan reputasimu."
+        "id": "Hasil kerja yang dibuat di jam kerja dan dengan data perusahaan umumnya milik perusahaan; membawanya mempertaruhkan kontrak dan reputasimu."
        }
       }
      ],
@@ -42487,7 +42487,7 @@ window.MT_LMS['the-route'] = {
       },
       "body": {
        "en": "Three decisions after you have signed an offer: how your manager finds out, what you say to a counter-offer, and what matters most in the last month.",
-       "id": "Tiga keputusan setelah kamu menandatangani tawaran: bagaimana manajermu mengetahuinya, apa yang kamu katakan pada tawaran balik, dan apa yang paling penting di bulan terakhir."
+       "id": "Tiga keputusan setelah kamu menandatangani tawaran: bagaimana atasanmu mengetahuinya, apa yang kamu katakan menghadapi tawaran balik, dan apa yang paling penting di bulan terakhir."
       },
       "cta": {
        "en": "Start the practice",
@@ -42496,20 +42496,20 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "People remember how you left more vividly than what you did in the middle.",
-      "id": "Orang mengingat bagaimana kamu pergi lebih jelas daripada apa yang kamu kerjakan di tengah."
+      "id": "Orang lebih mengingat cara kamu pergi daripada apa yang kamu kerjakan di tengah-tengahnya."
      },
      "takeaways": [
       {
        "en": "Search quietly on your own time, with no employer data, and line up references who have seen your work.",
-       "id": "Cari dengan diam-diam di waktumu sendiri, tanpa data pemberi kerja, dan siapkan referensi yang pernah melihat kerjamu."
+       "id": "Cari dengan diam-diam di waktumu sendiri, tanpa data pemberi kerja, dan siapkan referensi yang pernah melihat pekerjaanmu."
       },
       {
        "en": "Sign before you resign, read the contract in full, and give notice as your regulation, contract and policy require.",
-       "id": "Tanda tangan sebelum mundur, baca kontraknya sampai habis, dan beri pemberitahuan sesuai regulasi, kontrak, dan kebijakan."
+       "id": "Tanda tangani dulu sebelum mengundurkan diri, baca kontraknya sampai habis, dan beri pemberitahuan sesuai peraturan, kontrak, dan kebijakan."
       },
       {
        "en": "Tell your manager first, decline counter-offers gracefully, hand over in writing, and start your first 90 days the week you sign.",
-       "id": "Beri tahu manajermu lebih dulu, tolak tawaran balik dengan santun, serahkan secara tertulis, dan mulai 90 hari pertamamu di minggu kamu menandatangani."
+       "id": "Beri tahu atasanmu lebih dulu, tolak tawaran balik dengan santun, serahkan pekerjaan secara tertulis, dan mulai rencana 90 hari pertamamu di minggu kamu menandatangani kontrak."
       }
      ],
      "resources": {
@@ -42519,7 +42519,7 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "Career Kit item (part 3): the execution plan for your move.",
-       "id": "Butir Career Kit (bagian 3): rencana pelaksanaan perpindahanmu."
+       "id": "Isi Perangkat Karier (bagian 3): rencana pelaksanaan kepindahanmu."
       },
       "items": [
        {
@@ -42529,21 +42529,21 @@ window.MT_LMS['the-route'] = {
          "id": "Sumber dan catatan bukti · Pelajaran 7.4"
         },
         "desc": {
-         "en": "Where the rules come from, education, not legal advice.",
-         "id": "Dari mana aturannya berasal, edukasi, bukan nasihat hukum."
+         "en": "Where the rules come from. Education, not legal advice.",
+         "id": "Dari mana aturan-aturan ini berasal. Edukasi, bukan nasihat hukum."
         },
         "body": [
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> Resignation notice, contract types (fixed-term contract/permanent contract) and probation are governed by Indonesian manpower law and its implementing regulations, including PP 35/2021, plus your contract and company regulation; check the current text.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Pemberitahuan pengunduran diri, jenis kontrak (PKWT/PKWTT), dan masa percobaan diatur hukum ketenagakerjaan Indonesia dan peraturan pelaksananya, termasuk PP 35/2021, ditambah kontrak dan peraturan perusahaanmu; periksa teks terkini."
+          "en": "<span class=\"ev ev-verify\">Verify</span> Resignation notice, contract types (PKWT/PKWTT) and probation are governed by Indonesian manpower law and its implementing regulations, including PP 35/2021, plus your contract and company regulation; check the current text.",
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Pemberitahuan pengunduran diri, jenis kontrak (PKWT/PKWTT), dan masa percobaan diatur oleh hukum ketenagakerjaan Indonesia dan peraturan pelaksananya, termasuk PP 35/2021, ditambah kontrak dan peraturan perusahaanmu; cek teks terbarunya."
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> Taking company or customer data may breach confidentiality duties and data-protection law (UU PDP No. 27/2022).",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Membawa data perusahaan atau nasabah bisa melanggar kewajiban kerahasiaan dan hukum pelindungan data (UU PDP No. 27/2022)."
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Membawa data perusahaan atau nasabah bisa melanggar kewajiban kerahasiaan dan undang-undang pelindungan data pribadi (UU PDP No. 27/2022)."
          },
          {
           "en": "<span class=\"ev ev-contested\">Contested</span> The enforceability of post-employment non-compete clauses in Indonesia is debated; how counter-offers turn out varies; the advice here is course guidance.",
-          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Keberlakuan klausul larangan bersaing pasca-kerja di Indonesia masih diperdebatkan; hasil tawaran balik beragam; saran di sini adalah panduan kursus."
+          "id": "<span class=\"ev ev-contested\">Masih diperdebatkan</span> Keberlakuan klausul larangan bersaing setelah hubungan kerja berakhir masih diperdebatkan di Indonesia, dan hasil tawaran balik berbeda-beda; saran di sini adalah panduan kursus."
          }
         ]
        },
@@ -42555,16 +42555,16 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Tick in order.",
-         "id": "Centang berurutan."
+         "id": "Centang secara berurutan."
         },
         "body": [
          {
           "en": "SEARCH: own time/devices ☐ · no employer data ☐ · references asked ☐ · SIGN: written offer ☐ · conditions cleared ☐ · contract read (5 items) ☐ · my notice … days · bond …",
-          "id": "CARI: waktu/perangkat sendiri ☐ · tanpa data pemberi kerja ☐ · referensi diminta ☐ · TANDA TANGAN: tawaran tertulis ☐ · syarat selesai ☐ · kontrak dibaca (5 butir) ☐ · pemberitahuanku … hari · ikatan dinas …"
+          "id": "MENCARI: waktu/perangkat sendiri ☐ · tanpa data pemberi kerja ☐ · referensi sudah dimintai izin ☐ · TANDA TANGAN: tawaran tertulis ☐ · syarat beres ☐ · kontrak dibaca (5 hal) ☐ · masa pemberitahuan saya … hari · ikatan dinas …"
          },
          {
           "en": "TELL: manager (date) … · HR … · team … · HANDOVER: document ☐ · successor time ☐ · LEAVE: data left ☐ · thanks (names) … · references … · LAND: first-90-days plan started ☐",
-          "id": "SAMPAIKAN: manajer (tanggal) … · HR … · tim … · SERAH TERIMA: dokumen ☐ · waktu dengan pengganti ☐ · PERGI: data ditinggal ☐ · terima kasih (nama) … · referensi … · MENDARAT: rencana 90 hari dimulai ☐"
+          "id": "MEMBERI TAHU: atasan (tanggal) … · HR … · tim … · SERAH TERIMA: dokumen ☐ · waktu bersama pengganti ☐ · PERGI: data ditinggal ☐ · terima kasih (nama) … · referensi … · MENDARAT: rencana 90 hari pertama dimulai ☐"
          }
         ]
        },
@@ -42572,11 +42572,11 @@ window.MT_LMS['the-route'] = {
         "kind": "template",
         "title": {
          "en": "The resignation opening and letter",
-         "id": "Pembuka dan surat pengunduran diri"
+         "id": "Pembuka pengunduran diri dan suratnya"
         },
         "desc": {
          "en": "Four sentences, then the formal step.",
-         "id": "Empat kalimat, lalu langkah formal."
+         "id": "Empat kalimat, lalu langkah resminya."
         },
         "body": [
          {
@@ -42598,32 +42598,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "60 min",
-      "id": "60 mnt"
+      "id": "60 menit"
      },
      "title": {
       "en": "Case Assignment: Nadia’s Second Move",
       "id": "Tugas Kasus: Langkah Kedua Nadia"
      },
      "overview": {
-      "en": "Six months after the recruiter’s first call, the restructuring results are in, the certification bond has five weeks left, and Nadia has three real options: stay for a portfolio-lead role that may open in Semarang in nine months; move inside to a credit-product role in the digital-lending unit in Jakarta; or accept an offer from a fast-growing fintech at thirty-eight per cent more. Each has evidence for and against, and one contract contains a surprise. In this case you assess her readiness, evaluate the three options through four lenses, plan the internal route and the transition, and then build your own Career Move Evaluation Framework.",
-      "id": "Enam bulan setelah telepon pertama rekruter, hasil restrukturisasi sudah keluar, ikatan dinas sertifikasi tersisa lima minggu, dan Nadia punya tiga pilihan nyata: bertahan untuk peran pemimpin portofolio yang mungkin terbuka di Semarang sembilan bulan lagi; pindah di dalam ke peran produk kredit di unit pinjaman digital Jakarta; atau menerima tawaran fintech yang tumbuh pesat dengan gaji tiga puluh delapan persen lebih tinggi. Masing-masing punya bukti yang mendukung dan melemahkan, dan satu kontrak berisi kejutan. Dalam kasus ini kamu menilai kesiapannya, mengevaluasi ketiga pilihan melalui empat lensa, merencanakan jalur internal dan peralihannya; lalu membangun Kerangka Evaluasi Langkah Kariermu sendiri."
+      "en": "Four months after the recruiter’s first call, the restructuring results are in, the certification bond has five weeks left, and Nadia has three real options: stay for a portfolio-lead role that may open in Semarang in nine months; move inside to a credit-product role in the digital-lending unit in Jakarta; or accept an offer from a fast-growing fintech at thirty-eight per cent more. Each has evidence for and against, and one contract contains a surprise. In this case you assess her readiness, evaluate the three options through four lenses, plan the internal route and the transition, and then build your own Career Move Evaluation Framework.",
+      "id": "Empat bulan setelah telepon pertama dari rekruter, hasil restrukturisasi sudah keluar, ikatan dinas sertifikasi tinggal lima minggu, dan Nadia punya tiga pilihan nyata: bertahan untuk peran pemimpin portofolio yang mungkin dibuka di Semarang sembilan bulan lagi; pindah di dalam ke peran produk kredit di unit kredit digital di Jakarta; atau menerima tawaran dari fintech yang tumbuh cepat dengan gaji tiga puluh delapan persen lebih tinggi. Masing-masing punya bukti yang mendukung dan yang melemahkan, dan salah satu kontraknya menyimpan kejutan. Dalam kasus ini kamu menilai kesiapannya, mengevaluasi ketiga pilihan lewat empat lensa, merencanakan jalur internal dan peralihannya, lalu menyusun Kerangka Penilaian Langkah Karier milikmu sendiri."
      },
      "objectives": [
       {
        "en": "Assess readiness to move: capital, curve, reasons and the ledger.",
-       "id": "Menilai kesiapan pindah: modal, kurva, alasan, dan neraca."
+       "id": "Menilai kesiapan untuk pindah: modal, kurva, alasan, dan neracanya."
       },
       {
        "en": "Evaluate three options, including staying, through four lenses with gates and weights.",
-       "id": "Mengevaluasi tiga pilihan, termasuk bertahan, melalui empat lensa dengan gerbang dan bobot."
+       "id": "Mengevaluasi tiga pilihan, termasuk bertahan, lewat empat lensa dengan syarat mutlak dan bobot."
       },
       {
        "en": "Plan the internal route: policy, the manager conversation and landing.",
-       "id": "Merencanakan jalur internal: kebijakan, percakapan dengan manajer, dan pendaratan."
+       "id": "Merencanakan jalur internal: kebijakan, percakapan dengan atasan, dan mendarat di tempat baru."
       },
       {
        "en": "Spot contract risks and sequence an external transition correctly.",
-       "id": "Mengenali risiko kontrak dan mengurutkan peralihan ke luar dengan benar."
+       "id": "Menemukan risiko kontrak dan mengurutkan kepindahan ke luar dengan benar."
       }
      ],
      "readFirst": {
@@ -42643,32 +42643,32 @@ window.MT_LMS['the-route'] = {
        "story": [
         {
          "en": "Read like her board: separate the number from the capital, the title from the week, the offer from the contract",
-         "id": "Baca seperti dewannya: pisahkan angka dari modal, jabatan dari minggu kerja, tawaran dari kontrak"
+         "id": "Baca seperti dewannya: pisahkan angka dari modal, jabatan dari minggu kerjanya, tawaran dari kontraknya"
         },
         {
          "en": "Then build your own Career Move Evaluation Framework: capital, curve, lenses, weights, gates",
-         "id": "Lalu bangun Kerangka Evaluasi Langkah Kariermu sendiri: modal, kurva, lensa, bobot, gerbang"
+         "id": "Lalu susun Kerangka Penilaian Langkah Karier milikmu sendiri: modal, kurva, lensa, bobot, syarat mutlak"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Read like her board",
-          "id": "Baca seperti dewannya"
+          "id": "Membaca seperti dewannya"
          },
          "p": {
           "en": "There is more than one defensible answer; what is graded is whether yours follows from the evidence.",
-          "id": "Ada lebih dari satu jawaban yang bisa dipertahankan; yang dinilai adalah apakah jawabanmu mengikuti buktinya."
+          "id": "Ada lebih dari satu jawaban yang bisa dipertanggungjawabkan; yang dinilai adalah apakah jawabanmu mengalir dari buktinya."
          }
         },
         {
          "h": {
           "en": "Then build your own",
-          "id": "Lalu bangun milikmu"
+          "id": "Lalu susun milikmu sendiri"
          },
          "p": {
           "en": "Compare, do not copy: Nadia’s weights are hers; yours come from your own architecture.",
-          "id": "Bandingkan, jangan salin: bobot Nadia milik dia; milikmu datang dari arsitekturmu sendiri."
+          "id": "Bandingkan, jangan menyalin: bobot Nadia adalah miliknya; bobotmu berasal dari arsitekturmu sendiri."
          }
         }
        ],
@@ -42677,7 +42677,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Read like her board: separate the number from the capital, the title from the week, the offer from the contract",
-          "id": "Baca seperti dewannya: pisahkan angka dari modal, jabatan dari minggu kerja, tawaran dari kontrak"
+          "id": "Baca seperti dewannya: pisahkan angka dari modal, jabatan dari minggu kerjanya, tawaran dari kontraknya"
          },
          "img": "../../assets/m/06-horizon.jpg",
          "layout": "list",
@@ -42685,38 +42685,38 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "coin",
            "en": "What each option would actually build in two years, not what it pays",
-           "id": "Apa yang sebenarnya dibangun tiap pilihan dalam dua tahun, bukan bayarannya",
+           "id": "Apa yang benar-benar akan dibangun tiap pilihan dalam dua tahun, bukan berapa bayarannya",
            "l": {
             "en": "Number versus capital",
-            "id": "Angka versus modal"
+            "id": "Angka dibanding modal"
            }
           },
           {
            "icon": "calendar",
            "en": "What a typical week would contain, not what the business card says",
-           "id": "Apa isi minggu biasanya, bukan apa kata kartu nama",
+           "id": "Isi seminggu yang biasa, bukan apa yang tertulis di kartu nama",
            "l": {
             "en": "Title versus week",
-            "id": "Jabatan versus minggu"
+            "id": "Jabatan dibanding minggu kerja"
            }
           },
           {
            "icon": "clipboard",
            "en": "What is written, with conditions completed, not what was said",
-           "id": "Apa yang tertulis, dengan syarat terpenuhi, bukan yang dikatakan",
+           "id": "Apa yang tertulis, dengan syarat yang sudah beres, bukan apa yang diucapkan",
            "l": {
             "en": "Offer versus contract",
-            "id": "Tawaran versus kontrak"
+            "id": "Tawaran dibanding kontrak"
            }
           }
          ],
          "sub": {
           "en": "Four tabs: Nadia’s readiness notes, the three options, the policy and contracts, and her backchannel notes. Staying is an option; score it too.",
-          "id": "Empat tab: catatan kesiapan Nadia, tiga pilihan, kebijakan dan kontrak, dan catatan jalur belakangnya. Bertahan adalah pilihan; nilai juga."
+          "id": "Empat tab: catatan kesiapan Nadia, tiga pilihannya, kebijakan dan kontrak, serta catatan jalur belakangnya. Bertahan juga sebuah pilihan; beri nilai juga."
          },
          "band": {
           "en": "There is more than one defensible answer; what is graded is whether yours follows from the evidence.",
-          "id": "Ada lebih dari satu jawaban yang bisa dipertahankan; yang dinilai adalah apakah jawabanmu mengikuti buktinya."
+          "id": "Ada lebih dari satu jawaban yang bisa dipertanggungjawabkan; yang dinilai adalah apakah jawabanmu mengalir dari buktinya."
          },
          "em": {
           "en": "like her board",
@@ -42727,7 +42727,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Then build your own Career Move Evaluation Framework: capital, curve, lenses, weights, gates",
-          "id": "Lalu bangun Kerangka Evaluasi Langkah Kariermu sendiri: modal, kurva, lensa, bobot, gerbang"
+          "id": "Lalu susun Kerangka Penilaian Langkah Karier milikmu sendiri: modal, kurva, lensa, bobot, syarat mutlak"
          },
          "img": "../../assets/bg/portal.jpg",
          "layout": "list",
@@ -42743,8 +42743,8 @@ window.MT_LMS['the-route'] = {
           },
           {
            "icon": "eye",
-           "en": "Role, manager, organisation, team, with the questions you will ask",
-           "id": "Peran, manajer, organisasi, tim, dengan pertanyaan yang akan kamu ajukan",
+           "en": "Role, manager, organisation, team: the questions you will ask",
+           "id": "Peran, atasan, organisasi, tim: pertanyaan yang akan kamu ajukan",
            "l": {
             "en": "The four lenses",
             "id": "Empat lensa"
@@ -42753,24 +42753,24 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "scale",
            "en": "Weights set before any number; gates named; staying scored",
-           "id": "Bobot ditetapkan sebelum angka apa pun; gerbang disebut; bertahan dinilai",
+           "id": "Bobot ditetapkan sebelum ada angka; syarat mutlak disebutkan; bertahan juga dinilai",
            "l": {
             "en": "The scoring",
-            "id": "Penilaian"
+            "id": "Penilaiannya"
            }
           }
          ],
          "sub": {
           "en": "Step 5 is your own framework. Model notes open after you submit.",
-          "id": "Langkah 5 adalah kerangkamu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+          "id": "Langkah 5 adalah kerangkamu sendiri. Catatan model terbuka setelah kamu mengirim jawaban."
          },
          "band": {
           "en": "Compare, do not copy: Nadia’s weights are hers; yours come from your own architecture.",
-          "id": "Bandingkan, jangan salin: bobot Nadia milik dia; milikmu datang dari arsitekturmu sendiri."
+          "id": "Bandingkan, jangan menyalin: bobot Nadia adalah miliknya; bobotmu berasal dari arsitekturmu sendiri."
          },
          "em": {
           "en": "your own Career Move Evaluation Framework",
-          "id": "Kerangka Evaluasi Langkah Kariermu sendiri"
+          "id": "Kerangka Penilaian Langkah Karier milikmu sendiri"
          }
         }
        ],
@@ -42784,39 +42784,39 @@ window.MT_LMS['the-route'] = {
        "id": "Baca dulu · cara kerja kasus ini"
       },
       "title": {
-       "en": "Three good options: and the evidence to choose",
-       "id": "Tiga pilihan bagus: dan bukti untuk memilih"
+       "en": "Three good options, and the evidence to choose",
+       "id": "Tiga pilihan yang bagus, dan bukti untuk memilih"
       },
       "intro": {
        "en": "Five steps, six written answers. The case file has four tabs: Nadia’s readiness notes, the three options, the policy and contracts, and her backchannel notes. There is more than one defensible answer; what is graded is whether yours follows from the evidence.",
-       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: catatan kesiapan Nadia, ketiga pilihan, kebijakan dan kontrak, dan catatan belakang layarnya. Ada lebih dari satu jawaban yang bisa dipertahankan; yang dinilai adalah apakah jawabanmu mengikuti buktinya."
+       "id": "Ada lima langkah dan enam jawaban tertulis. Berkas kasusnya punya empat tab: catatan kesiapan Nadia, tiga pilihannya, kebijakan dan kontrak, serta catatan jalur belakangnya. Ada lebih dari satu jawaban yang bisa dipertanggungjawabkan; yang dinilai adalah apakah jawabanmu mengalir dari buktinya."
       },
       "slides": [
        {
         "h": {
          "en": "Read like her board",
-         "id": "Baca seperti dewannya"
+         "id": "Membaca seperti dewannya"
         },
         "points": [
          {
           "en": "Separate the number from the capital, the title from the week, the offer from the contract.",
-          "id": "Pisahkan angka dari modal, jabatan dari minggu kerja, tawaran dari kontrak."
+          "id": "Pisahkan angka dari modal, jabatan dari minggu kerjanya, tawaran dari kontraknya."
          },
          {
-          "en": "Staying is an option, score it too.",
-          "id": "Bertahan adalah pilihan: nilai juga."
+          "en": "Staying is an option: score it too.",
+          "id": "Bertahan juga sebuah pilihan: beri nilai juga."
          }
         ]
        },
        {
         "h": {
          "en": "Then build your own",
-         "id": "Lalu bangun milikmu"
+         "id": "Lalu susun milikmu sendiri"
         },
         "points": [
          {
           "en": "Step 5 is your own Career Move Evaluation Framework. Model notes open after you submit.",
-          "id": "Langkah 5 adalah Kerangka Evaluasi Langkah Kariermu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+          "id": "Langkah 5 adalah Kerangka Penilaian Langkah Karier milikmu sendiri. Catatan model terbuka setelah kamu mengirim jawaban."
          }
         ]
        }
@@ -42835,7 +42835,7 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "A fictional bank and fintech, a real kind of choice. Stay, move inside or move out; decide on evidence, then execute cleanly.",
-       "id": "Bank dan fintech fiktif, jenis pilihan yang nyata. Bertahan, pindah di dalam, atau pindah ke luar; putuskan berdasarkan bukti, lalu jalankan dengan rapi."
+       "id": "Bank dan fintech-nya fiktif, tetapi pilihan seperti ini nyata. Bertahan, pindah di dalam, atau pindah keluar: putuskan berdasarkan bukti, lalu jalankan dengan rapi."
       },
       "practice": [
        {
@@ -42861,7 +42861,7 @@ window.MT_LMS['the-route'] = {
       ],
       "goal": {
        "en": "A recommendation Nadia could defend to her board, with the conversations and the contract questions ready, and the same framework for your own next move.",
-       "id": "Rekomendasi yang bisa Nadia pertahankan di depan dewannya, dengan percakapan dan pertanyaan kontrak yang siap, dan kerangka yang sama untuk langkah berikutmu sendiri."
+       "id": "Rekomendasi yang bisa dipertanggungjawabkan Nadia di depan dewannya, lengkap dengan percakapan dan pertanyaan soal kontrak yang sudah siap, ditambah kerangka yang sama untuk langkahmu sendiri berikutnya."
       },
       "brief": {
        "email": {
@@ -42885,15 +42885,15 @@ window.MT_LMS['the-route'] = {
         "paragraphs": [
          {
           "en": "Nadia called me tonight, as a friend now, since our programme ended. The fintech wants an answer by Friday and a start date in four weeks. The internal posting in the digital-lending unit closes in ten days. Bu Sinta has hinted that a portfolio-lead role may open in Semarang in about nine months, but there is one slot and nothing is promised.",
-          "id": "Nadia menelepon saya malam ini, sebagai teman sekarang, karena program kita sudah selesai. Fintech itu ingin jawaban paling lambat Jumat dan tanggal mulai empat minggu lagi. Lowongan internal di unit pinjaman digital ditutup sepuluh hari lagi. Bu Sinta memberi isyarat bahwa peran pemimpin portofolio mungkin terbuka di Semarang sekitar sembilan bulan lagi, tetapi slotnya satu dan belum ada yang dijanjikan."
+          "id": "Nadia menelepon saya malam ini, sebagai teman, karena program kita sudah selesai. Fintech itu ingin jawaban paling lambat Jumat dan tanggal mulai empat minggu lagi. Lowongan internal di unit kredit digital ditutup sepuluh hari lagi. Bu Sinta sudah memberi isyarat bahwa peran pemimpin portofolio mungkin dibuka di Semarang sekitar sembilan bulan lagi, tetapi kursinya hanya satu dan tidak ada yang dijanjikan."
          },
          {
-          "en": "She is excited by the money, her father’s treatment in Tegal is expensive, and anxious about leaving the bank that trained her. She has done good homework; it is in the file. What she needs is a method, not a verdict from me.",
-          "id": "Ia tergiur oleh uangnya, pengobatan ayahnya di Tegal mahal, dan cemas meninggalkan bank yang melatihnya. Ia sudah mengerjakan pekerjaan rumahnya dengan baik; semuanya ada di berkas. Yang ia butuhkan adalah metode, bukan putusan dari saya."
+          "en": "She is excited by the money (her father’s treatment in Tegal is expensive) and anxious about leaving the bank that trained her. She has done good homework; it is in the file. What she needs is a method, not a verdict from me.",
+          "id": "Ia tergiur angkanya (pengobatan ayahnya di Tegal mahal) dan sekaligus cemas meninggalkan bank yang telah mendidiknya. Ia sudah mengerjakan PR-nya dengan baik, dan semuanya ada di berkas. Yang ia butuhkan adalah metode, bukan vonis dari saya."
          },
          {
           "en": "Help her decide and plan the move. Then build your own framework; it is the seventh page of your Career Kit.",
-          "id": "Bantu ia memutuskan dan merencanakan perpindahannya. Lalu bangun kerangkamu sendiri; itu halaman ketujuh Career Kit-mu."
+          "id": "Bantu dia memutuskan dan merencanakan kepindahannya. Setelah itu, susun kerangkamu sendiri, karena itulah halaman ketujuh Perangkat Karier-mu."
          }
         ],
         "asks": [
@@ -42903,7 +42903,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Evaluate stay, inside and outside through four lenses",
-          "id": "Evaluasi bertahan, di dalam, dan ke luar melalui empat lensa"
+          "id": "Evaluasi pilihan bertahan, pindah di dalam, dan pindah keluar lewat empat lensa"
          },
          {
           "en": "The internal route: policy and the conversation with Bu Sinta",
@@ -42911,11 +42911,11 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "The contract and the transition plan",
-          "id": "Kontrak dan rencana peralihan"
+          "id": "Kontrak dan rencana peralihannya"
          },
          {
           "en": "Your own Career Move Evaluation Framework",
-          "id": "Kerangka Evaluasi Langkah Kariermu sendiri"
+          "id": "Kerangka Penilaian Langkah Karier milikmu sendiri"
          }
         ],
         "closing": [
@@ -42934,7 +42934,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "the fintech’s deadline for an answer; they want a start in four weeks",
-          "id": "tenggat jawaban dari fintech; mereka ingin mulai empat minggu lagi"
+          "id": "tenggat jawaban dari fintech; mereka ingin ia mulai empat minggu lagi"
          },
          "hot": true
         },
@@ -42946,7 +42946,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "left on the certification bond; leaving earlier means repaying part of the cost (her contract)",
-          "id": "tersisa pada ikatan dinas sertifikasi; pergi lebih awal berarti membayar kembali sebagian biayanya (kontraknya)"
+          "id": "sisa ikatan dinas sertifikasi; keluar lebih awal berarti mengganti sebagian biayanya (sesuai kontraknya)"
          },
          "hot": true
         },
@@ -42957,8 +42957,8 @@ window.MT_LMS['the-route'] = {
           "id": "+38%"
          },
          "v": {
-          "en": "fintech base salary versus her current base; fewer allowances, no holiday bonus guarantee stated",
-          "id": "gaji pokok fintech dibanding gaji pokoknya sekarang; tunjangan lebih sedikit, jaminan THR tidak disebut"
+          "en": "fintech base salary versus her current base; fewer allowances, no THR guarantee stated",
+          "id": "gaji pokok di fintech dibanding gaji pokoknya sekarang; tunjangan lebih sedikit, THR tidak disebutkan dijamin"
          }
         },
         {
@@ -42981,7 +42981,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "in her current role; the internal posting requires 18 and a “memenuhi” rating",
-          "id": "di perannya sekarang; lowongan internal mensyaratkan 18 bulan dan peringkat “memenuhi”"
+          "id": "di perannya sekarang; lowongan internal mensyaratkan 18 bulan dan nilai “memenuhi”"
          }
         },
         {
@@ -42992,7 +42992,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "her father is in treatment; about 2.5 hours by train from Semarang, about 4.5 from Jakarta",
-          "id": "ayahnya sedang dirawat; sekitar 2,5 jam naik kereta dari Semarang, sekitar 4,5 jam dari Jakarta"
+          "id": "ayahnya sedang menjalani pengobatan; sekitar 2,5 jam naik kereta dari Semarang, sekitar 4,5 jam dari Jakarta"
          }
         }
        ],
@@ -43021,11 +43021,11 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "Skills: SME credit judgement; SQL reporting; explaining model results to branch officers (taskforce)",
-             "id": "Keterampilan: penilaian kredit UMKM; pelaporan SQL; menjelaskan hasil model kepada petugas cabang (satgas)"
+             "id": "Keterampilan: penilaian kredit UMKM; laporan dengan SQL; menjelaskan hasil model kepada petugas cabang (gugus tugas)"
             },
             {
-             "en": "Evidence: document check in 12 branches; taskforce finding on harvest timing adopted in model v2; restructuring results, 1 of 2 borrowers back to current, 1 settled with partial recovery",
-             "id": "Bukti: cek dokumen di 12 cabang; temuan satgas tentang waktu panen diadopsi di model v2; hasil restrukturisasi, 1 dari 2 debitur kembali lancar, 1 diselesaikan dengan pemulihan sebagian"
+             "en": "Evidence: document check in 12 branches; taskforce finding on harvest timing adopted in model v2; restructuring results: 1 of 2 borrowers back to current, 1 settled with partial recovery",
+             "id": "Bukti: pemeriksaan dokumen di 12 cabang; temuan gugus tugas soal waktu panen dipakai di model versi 2; hasil restrukturisasi: 1 dari 2 debitur kembali lancar, 1 diselesaikan dengan pemulihan sebagian"
             },
             {
              "en": "Reputation: “paham data dan paham aturan” (Pak Arya’s team, two regions)",
@@ -43047,7 +43047,7 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "“I teach Sekar and the new analysts more than I learn. The portfolio runs itself. The taskforce was the steepest six months I have had.”",
-             "id": "“Aku lebih banyak mengajar Sekar dan analis baru daripada belajar. Portofolionya berjalan sendiri. Satgas adalah enam bulan paling curam yang pernah kualami.”"
+             "id": "“Aku lebih banyak mengajari Sekar dan analis-analis baru daripada belajar. Portofolionya sudah jalan sendiri. Gugus tugas kemarin adalah enam bulan paling menanjak yang pernah kualami.”"
             }
            ]
           },
@@ -43060,8 +43060,8 @@ window.MT_LMS['the-route'] = {
           {
            "items": [
             {
-             "en": "Paid in March to staff employed on 1 March: four months away (company policy)",
-             "id": "Dibayarkan di bulan Maret kepada karyawan yang masih bekerja pada 1 Maret, empat bulan lagi (kebijakan perusahaan)"
+             "en": "Paid in March to staff employed on 1 March: eleven months away (company policy)",
+             "id": "Dibayarkan bulan Maret kepada karyawan yang masih bekerja per 1 Maret: sebelas bulan lagi (kebijakan perusahaan)"
             }
            ]
           }
@@ -43074,35 +43074,35 @@ window.MT_LMS['the-route'] = {
          },
          "title": {
           "en": "Stay, inside, outside",
-          "id": "Bertahan, di dalam, ke luar"
+          "id": "Bertahan, pindah di dalam, pindah keluar"
          },
          "meta": {
           "en": "Fictional; summaries of what Nadia has learned",
-          "id": "Fiktif; ringkasan yang telah dipelajari Nadia"
+          "id": "Fiktif; ringkasan dari apa yang sudah diketahui Nadia"
          },
          "body": [
           {
            "h": {
             "en": "A · Stay: portfolio lead, Semarang (possible in ~9 months)",
-            "id": "A · Bertahan: pemimpin portofolio, Semarang (mungkin ~9 bulan lagi)"
+            "id": "A · Bertahan: pemimpin portofolio, Semarang (mungkin dibuka sekitar 9 bulan lagi)"
            }
           },
           {
            "items": [
             {
              "en": "One slot; Bu Sinta “would support” her; Yosef (returning to the bank) may also apply",
-             "id": "Satu slot; Bu Sinta “akan mendukung”; Yosef (kembali ke bank) mungkin juga melamar"
+             "id": "Satu kursi; Bu Sinta “akan mendukung”; Yosef (yang kembali ke bank) mungkin juga melamar"
             },
             {
              "en": "Builds: people leadership of three analysts; P&L view of a portfolio. Near family. Promotion to the next grade if selected",
-             "id": "Membangun: memimpin tiga analis; pandangan laba rugi portofolio. Dekat keluarga. Naik golongan jika terpilih"
+             "id": "Yang dibangun: memimpin tiga analis; sudut pandang laba rugi sebuah portofolio. Dekat dengan keluarga. Naik ke golongan berikutnya kalau terpilih"
             }
            ]
           },
           {
            "h": {
             "en": "B · Inside: credit-product analyst, digital-lending unit, Jakarta",
-            "id": "B · Di dalam: analis produk kredit, unit pinjaman digital, Jakarta"
+            "id": "B · Pindah di dalam: analis produk kredit, unit kredit digital, Jakarta"
            }
           },
           {
@@ -43113,37 +43113,37 @@ window.MT_LMS['the-route'] = {
             },
             {
              "en": "Why open: the unit is growing, two new roles for the SME product launching next year",
-             "id": "Mengapa terbuka: unitnya bertumbuh: dua peran baru untuk produk UMKM yang diluncurkan tahun depan"
+             "id": "Kenapa dibuka: unitnya sedang tumbuh, ada dua peran baru untuk produk UMKM yang diluncurkan tahun depan"
             },
             {
              "en": "Lateral grade; pay unchanged; Jakarta location allowance and one-time relocation support (policy)",
-             "id": "Golongan setara; gaji tetap; tunjangan lokasi Jakarta dan bantuan relokasi satu kali (kebijakan)"
+             "id": "Golongan setara; gaji tidak berubah; tunjangan lokasi Jakarta dan bantuan relokasi satu kali (sesuai kebijakan)"
             },
             {
              "en": "Builds: credit-product design, working with model and product teams, head-office exposure",
-             "id": "Membangun: desain produk kredit, bekerja dengan tim model dan produk, paparan kantor pusat"
+             "id": "Yang dibangun: desain produk kredit, bekerja dengan tim model dan tim produk, pengalaman di kantor pusat"
             }
            ]
           },
           {
            "h": {
             "en": "C · Outside: “SME Credit Lead”, PT Dana Tumbuh Digital (fictional fintech)",
-            "id": "C · Ke luar: “SME Credit Lead”, PT Dana Tumbuh Digital (fintech fiktif)"
+            "id": "C · Pindah keluar: “SME Credit Lead”, PT Dana Tumbuh Digital (fintech fiktif)"
            }
           },
           {
            "items": [
             {
              "en": "Base +38%; fewer fixed allowances; bonus “discretionary”; Series B funded; states it is licensed for its lending activity (to verify)",
-             "id": "Gaji pokok +38%; tunjangan tetap lebih sedikit; bonus “diskresioner”; pendanaan Seri B; menyatakan berizin untuk kegiatan pinjamannya (perlu diverifikasi)"
+             "id": "Gaji pokok +38%; tunjangan tetap lebih sedikit; bonus “diskresioner”; pendanaan Seri B; menyatakan sudah berizin untuk kegiatan pinjamannya (perlu dicek)"
             },
             {
              "en": "Team: one junior analyst; reports to the COO; the seat has been vacated twice in 18 months",
-             "id": "Tim: satu analis junior; melapor kepada COO; kursinya sudah dua kali ditinggalkan dalam 18 bulan"
+             "id": "Tim: satu analis junior; melapor kepada COO; kursinya sudah dua kali kosong dalam 18 bulan"
             },
             {
              "en": "Builds: end-to-end credit policy at a small lender; speed; a “Lead” title",
-             "id": "Membangun: kebijakan kredit menyeluruh di pemberi pinjaman kecil; kecepatan; jabatan “Lead”"
+             "id": "Yang dibangun: kebijakan kredit dari awal sampai akhir di pemberi pinjaman kecil; kecepatan; jabatan “Lead”"
             }
            ]
           }
@@ -43156,7 +43156,7 @@ window.MT_LMS['the-route'] = {
          },
          "title": {
           "en": "What the documents say",
-          "id": "Apa kata dokumennya"
+          "id": "Isi dokumen-dokumennya"
          },
          "meta": {
           "en": "Fictional summaries; education, not legal advice",
@@ -43173,15 +43173,15 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "Eligibility: 18 months in current role; latest rating “memenuhi” or above",
-             "id": "Kelayakan: 18 bulan di peran sekarang; peringkat terakhir “memenuhi” atau lebih"
+             "id": "Syarat: 18 bulan di peran sekarang; nilai terakhir “memenuhi” atau lebih"
             },
             {
              "en": "Current manager must be informed before the application is submitted; release within 6 weeks of an offer",
-             "id": "Manajer sekarang harus diberi tahu sebelum lamaran dikirim; pelepasan paling lama 6 minggu setelah tawaran"
+             "id": "Atasan sekarang wajib diberi tahu sebelum lamaran diajukan; pelepasan paling lambat 6 minggu setelah tawaran"
             },
             {
              "en": "Internal moves do not trigger repayment of training bonds",
-             "id": "Perpindahan internal tidak memicu pembayaran kembali ikatan dinas pelatihan"
+             "id": "Pindah internal tidak memicu kewajiban mengganti biaya ikatan dinas pelatihan"
             }
            ]
           },
@@ -43194,38 +43194,38 @@ window.MT_LMS['the-route'] = {
           {
            "items": [
             {
-             "en": "Permanent (permanent contract); resignation requires written notice at least 30 days before the last day (company regulation)",
-             "id": "Tetap (PKWTT); pengunduran diri mensyaratkan pemberitahuan tertulis paling lambat 30 hari sebelum hari terakhir (peraturan perusahaan)"
+             "en": "Permanent (PKWTT); resignation requires written notice at least 30 days before the last day (company regulation)",
+             "id": "Tetap (PKWTT); pengunduran diri wajib diberitahukan secara tertulis paling lambat 30 hari sebelum hari terakhir (peraturan perusahaan)"
             },
             {
              "en": "Certification bond: leaving the bank within 24 months of certification requires pro-rata repayment; 5 weeks remain",
-             "id": "Ikatan dinas sertifikasi: meninggalkan bank dalam 24 bulan setelah sertifikasi mewajibkan pembayaran kembali proporsional; tersisa 5 minggu"
+             "id": "Ikatan dinas sertifikasi: keluar dari bank dalam 24 bulan sejak sertifikasi wajib mengganti biaya secara proporsional; tersisa 5 minggu"
             }
            ]
           },
           {
            "h": {
             "en": "Fintech: offer letter and draft contract",
-            "id": "Fintech: surat tawaran dan draf kontrak"
+            "id": "Fintech: surat penawaran dan draf kontrak"
            }
           },
           {
            "items": [
             {
-             "en": "Contract type: fixed-term (fixed-term contract), 12 months, “with a 3-month probation period”",
-             "id": "Jenis kontrak: waktu tertentu (PKWT), 12 bulan, “dengan masa percobaan 3 bulan”"
+             "en": "Contract type: fixed-term (PKWT), 12 months, “with a 3-month probation period”",
+             "id": "Jenis kontrak: berjangka (PKWT), 12 bulan, “dengan masa percobaan 3 bulan”"
             },
             {
              "en": "Start date: four weeks from acceptance",
-             "id": "Tanggal mulai: empat minggu sejak penerimaan"
+             "id": "Tanggal mulai: empat minggu setelah tawaran diterima"
             },
             {
              "en": "Non-compete: no work for any bank or lender in Indonesia for 12 months after leaving",
-             "id": "Larangan bersaing: tidak bekerja untuk bank atau pemberi pinjaman mana pun di Indonesia selama 12 bulan setelah keluar"
+             "id": "Larangan bersaing: tidak boleh bekerja untuk bank atau pemberi pinjaman mana pun di Indonesia selama 12 bulan setelah keluar"
             },
             {
-             "en": "Offer “subject to final approval by the board”, no date given",
-             "id": "Tawaran “menunggu persetujuan akhir direksi”, tanpa tanggal"
+             "en": "Offer “subject to final approval by the board”; no date given",
+             "id": "Tawaran “menunggu persetujuan akhir direksi”; tanggalnya tidak disebutkan"
             }
            ]
           }
@@ -43234,15 +43234,15 @@ window.MT_LMS['the-route'] = {
         {
          "tab": {
           "en": "Backchannel notes",
-          "id": "Catatan belakang layar"
+          "id": "Catatan jalur belakang"
          },
          "title": {
           "en": "What people told her",
-          "id": "Apa kata orang kepadanya"
+          "id": "Apa yang diceritakan orang kepadanya"
          },
          "meta": {
           "en": "Open questions; weighed, not believed whole",
-          "id": "Pertanyaan terbuka; ditimbang, tidak ditelan bulat"
+          "id": "Pertanyaan terbuka; ditimbang, tidak ditelan bulat-bulat"
          },
          "body": [
           {
@@ -43253,15 +43253,15 @@ window.MT_LMS['the-route'] = {
             },
             {
              "en": "A former digital-unit analyst (via Mas Fajar): “Ritmenya cepat dan jam kerjanya panjang menjelang peluncuran.”",
-             "id": "Mantan analis unit digital (lewat Mas Fajar): “Ritmenya cepat dan jam kerjanya panjang menjelang peluncuran.”"
+             "id": "Seorang mantan analis unit digital (lewat Mas Fajar): “Ritmenya cepat dan jam kerjanya panjang menjelang peluncuran.”"
             },
             {
              "en": "Dewi on the fintech: “Produknya bagus dan tumbuh. Tapi COO-nya sering membatalkan keputusan kredit kalau target bulanan kurang; itu yang bikin dua orang sebelumnya keluar.”",
-             "id": "Dewi tentang fintech: “Produknya bagus dan tumbuh. Tapi COO-nya sering membatalkan keputusan kredit kalau target bulanan kurang; itu yang bikin dua orang sebelumnya keluar.”"
+             "id": "Dewi tentang fintech itu: “Produknya bagus dan tumbuh. Tapi COO-nya sering membatalkan keputusan kredit kalau target bulanan kurang; itu yang bikin dua orang sebelumnya keluar.”"
             },
             {
              "en": "The fintech hiring manager, asked what success looks like at 90 days: “Nanti kita lihat bareng, yang penting cepat.”",
-             "id": "Manajer perekrut fintech, ditanya seperti apa keberhasilan di 90 hari: “Nanti kita lihat bareng, yang penting cepat.”"
+             "id": "Manajer perekrut di fintech, saat ditanya seperti apa keberhasilan di hari ke-90: “Nanti kita lihat bareng, yang penting cepat.”"
             }
            ]
           }
@@ -43280,8 +43280,8 @@ window.MT_LMS['the-route'] = {
          "id": "Kesiapan"
         },
         "guide": {
-         "en": "Lesson 7.1. Is Nadia ready to move, and is now the time? Use her capital notes (which items travel?), her curve, and her reasons, separate push from pull and good from weak, and name any bias you suspect. Then write the ledger of moving in four weeks versus in about two months versus in twelve months: money (bond, bonus), story, relationships, window, life.",
-         "id": "Pelajaran 7.1. Apakah Nadia siap pindah, dan apakah sekarang waktunya? Pakai catatan modalnya (butir mana yang bisa dibawa?), kurvanya, dan alasan-alasannya, pisahkan dorongan dari tarikan dan yang baik dari yang lemah, dan sebut bias yang kamu curigai. Lalu tulis neraca pindah empat minggu lagi versus sekitar dua bulan lagi versus dua belas bulan lagi: uang (ikatan dinas, bonus), cerita, hubungan, jendela, hidup."
+         "en": "Lesson 7.1. Is Nadia ready to move, and is now the time? Use her capital notes (which items travel?), her curve, and her reasons (separate push from pull and good from weak), and name any bias you suspect. Then write the ledger of moving in four weeks versus in about two months versus in twelve months: money (bond, bonus), story, relationships, window, life.",
+         "id": "Pelajaran 7.1. Apakah Nadia siap pindah, dan apakah sekarang waktunya? Pakai catatan modalnya (mana yang bisa dibawa?), kurvanya, dan alasan-alasannya (pisahkan dorongan dari tarikan, dan yang kuat dari yang lemah), lalu sebut bias apa pun yang kamu curigai. Setelah itu tulis neraca pindah empat minggu lagi, sekitar dua bulan lagi, dan dua belas bulan lagi: uang (ikatan dinas, bonus), cerita, hubungan, momen, hidup."
         },
         "questions": [
          {
@@ -43290,15 +43290,15 @@ window.MT_LMS['the-route'] = {
           "rows": 11,
           "title": {
            "en": "Capital, curve, reasons and the ledger",
-           "id": "Modal, kurva, alasan, dan neraca"
+           "id": "Modal, kurva, alasan, dan neracanya"
           },
           "help": {
-           "en": "Her story is complete now; the restructuring results are in. Starting in four weeks would fall inside the bond; starting after five weeks would not. The bonus is four months away. Her father’s treatment is a real pull toward money and toward Tegal at the same time.",
-           "id": "Ceritanya kini utuh: hasil restrukturisasi sudah keluar. Mulai empat minggu lagi masih di dalam masa ikatan dinas; mulai setelah lima minggu tidak. Bonus empat bulan lagi. Pengobatan ayahnya adalah tarikan nyata ke arah uang dan ke arah Tegal sekaligus."
+           "en": "Her story is complete now; the restructuring results are in. Starting in four weeks would fall inside the bond; starting after five weeks would not. The next bonus is eleven months away. Her father’s treatment is a real pull toward money and toward Tegal at the same time.",
+           "id": "Ceritanya kini sudah utuh, karena hasil restrukturisasi sudah keluar. Mulai empat minggu lagi masih di dalam masa ikatan dinas; mulai setelah lima minggu tidak lagi. Bonus berikutnya baru sebelas bulan lagi. Pengobatan ayahnya menjadi tarikan nyata ke arah uang sekaligus ke arah Tegal."
           },
           "placeholder": {
            "en": "Capital that travels: … · local only: …\nCurve: … because …\nPush: … (good/weak) · Pull: … (good/weak) · bias I suspect: …\nLedger, 4 weeks: … · ~2 months: … · 12 months: …",
-           "id": "Modal yang bisa dibawa: … · hanya lokal: …\nKurva: … karena …\nDorongan: … (baik/lemah) · Tarikan: … (baik/lemah) · bias yang kucurigai: …\nNeraca, 4 minggu: … · ~2 bulan: … · 12 bulan: …"
+           "id": "Modal yang bisa dibawa: … · hanya lokal: …\nKurva: … karena …\nDorongan: … (kuat/lemah) · Tarikan: … (kuat/lemah) · bias yang saya curigai: …\nNeraca, 4 minggu: … · ~2 bulan: … · 12 bulan: …"
           },
           "keywords": [
            [
@@ -43355,8 +43355,8 @@ window.MT_LMS['the-route'] = {
          "id": "Pilihan"
         },
         "guide": {
-         "en": "Lesson 7.2. Set Nadia’s gates and three to five weighted criteria first, from what she values. Then run the four lenses, role, manager, organisation, team, for A (stay), B (inside) and C (outside), with the evidence from the file. Score each option with one-line reasons, compare total compensation rather than base, and state your recommendation and the reality tests still needed.",
-         "id": "Pelajaran 7.2. Tetapkan dulu gerbang Nadia dan tiga sampai lima kriteria berbobot, dari hal-hal yang ia hargai. Lalu jalankan empat lensa, peran, manajer, organisasi, tim, untuk A (bertahan), B (di dalam), dan C (ke luar), dengan bukti dari berkas. Nilai tiap pilihan dengan alasan satu baris, bandingkan total kompensasi alih-alih gaji pokok, dan nyatakan rekomendasimu serta uji kenyataan yang masih diperlukan."
+         "en": "Lesson 7.2. Set Nadia’s gates and three to five weighted criteria first, from what she values. Then run the four lenses (role, manager, organisation, team) for A (stay), B (inside) and C (outside), with the evidence from the file. Score each option with one-line reasons, compare total compensation rather than base, and state your recommendation and the reality tests still needed.",
+         "id": "Pelajaran 7.2. Tetapkan dulu syarat mutlak Nadia dan tiga sampai lima kriteria berbobot, berdasarkan apa yang ia hargai. Lalu jalankan keempat lensa (peran, atasan, organisasi, tim) untuk A (bertahan), B (pindah di dalam), dan C (pindah keluar), dengan bukti dari berkasnya. Beri nilai tiap pilihan dengan alasan satu baris, bandingkan total kompensasi alih-alih gaji pokok, dan sampaikan rekomendasimu beserta uji kenyataan yang masih dibutuhkan."
         },
         "questions": [
          {
@@ -43365,15 +43365,15 @@ window.MT_LMS['the-route'] = {
           "rows": 15,
           "title": {
            "en": "Gates, weights, four lenses, scores and a recommendation",
-           "id": "Gerbang, bobot, empat lensa, nilai, dan rekomendasi"
+           "id": "Syarat mutlak, bobot, empat lensa, nilai, dan rekomendasi"
           },
           "help": {
-           "en": "“Why is this seat empty?” has two very different answers for B and C. “Nanti kita lihat bareng” is the first-90-days test failing. The +38% is on base only; the bank pays allowances and holiday bonus, and B adds a Jakarta allowance. A depends on one uncertain slot.",
-           "id": "“Mengapa kursi ini kosong?” punya dua jawaban yang sangat berbeda untuk B dan C. “Nanti kita lihat bareng” adalah uji 90 hari pertama yang gagal. +38% hanya pada gaji pokok; bank membayar tunjangan dan THR, dan B menambah tunjangan Jakarta. A bergantung pada satu slot yang belum pasti."
+           "en": "“Why is this seat empty?” has two very different answers for B and C. “Nanti kita lihat bareng” is the first-90-days test failing. The +38% is on base only; the bank pays allowances and THR, and B adds a Jakarta allowance. A depends on one uncertain slot.",
+           "id": "“Kenapa kursi ini kosong?” punya dua jawaban yang sangat berbeda untuk B dan C. “Nanti kita lihat bareng” berarti tes 90 hari pertama gagal. Angka +38% hanya untuk gaji pokok; bank membayar tunjangan dan THR, dan B menambah tunjangan Jakarta. A bergantung pada satu kursi yang belum pasti."
           },
           "placeholder": {
            "en": "Gates: … · Weights: … (…%) · … (…%) · … (…%)\nA stay, role … manager … org … team … → score …\nB inside, role … manager … org … team … → score …\nC outside, role … manager … org … team … → score …\nTotal compensation: …\nRecommendation: … because … · Reality tests: …",
-           "id": "Gerbang: … · Bobot: … (…%) · … (…%) · … (…%)\nA bertahan, peran … manajer … org … tim … → nilai …\nB di dalam, peran … manajer … org … tim … → nilai …\nC ke luar, peran … manajer … org … tim … → nilai …\nTotal kompensasi: …\nRekomendasi: … karena … · Uji kenyataan: …"
+           "id": "Syarat mutlak: … · Bobot: … (…%) · … (…%) · … (…%)\nA bertahan: peran … atasan … organisasi … tim … → nilai …\nB pindah di dalam: peran … atasan … organisasi … tim … → nilai …\nC pindah keluar: peran … atasan … organisasi … tim … → nilai …\nTotal kompensasi: …\nRekomendasi: … karena … · Uji kenyataan: …"
           },
           "keywords": [
            [
@@ -43430,8 +43430,8 @@ window.MT_LMS['the-route'] = {
          "id": "Di dalam"
         },
         "guide": {
-         "en": "Lesson 7.3. Check Nadia’s eligibility against the posting policy. Then write her conversation with Bu Sinta in four parts, appreciation, direction, responsibility, request, including a concrete handover (Sekar, the portfolio, the new analysts). Write her response if Bu Sinta says “jangan dulu, tunggu posisi pemimpin portofolio”. Finally, list what she must agree in writing if she is selected.",
-         "id": "Pelajaran 7.3. Periksa kelayakan Nadia terhadap kebijakan lowongan. Lalu tulis percakapannya dengan Bu Sinta dalam empat bagian, penghargaan, arah, tanggung jawab, permintaan, termasuk serah terima yang konkret (Sekar, portofolio, analis baru). Tulis responsnya jika Bu Sinta berkata “jangan dulu, tunggu posisi pemimpin portofolio”. Terakhir, daftar hal yang harus ia sepakati tertulis jika terpilih."
+         "en": "Lesson 7.3. Check Nadia’s eligibility against the posting policy. Then write her conversation with Bu Sinta in four parts (appreciation, direction, responsibility, request), including a concrete handover (Sekar, the portfolio, the new analysts). Write her response if Bu Sinta says “jangan dulu, tunggu posisi pemimpin portofolio”. Finally, list what she must agree in writing if she is selected.",
+         "id": "Pelajaran 7.3. Cek kelayakan Nadia dengan kebijakan lowongan internal. Lalu tulis percakapannya dengan Bu Sinta dalam empat bagian (penghargaan, arah, tanggung jawab, permintaan), termasuk serah terima yang konkret (Sekar, portofolionya, analis-analis baru). Tulis tanggapannya kalau Bu Sinta berkata “jangan dulu, tunggu posisi pemimpin portofolio”. Terakhir, tulis apa saja yang perlu ia sepakati secara tertulis kalau terpilih."
         },
         "questions": [
          {
@@ -43440,15 +43440,15 @@ window.MT_LMS['the-route'] = {
           "rows": 12,
           "title": {
            "en": "Eligibility, the four-part conversation, “jangan dulu”, and landing",
-           "id": "Kelayakan, percakapan empat bagian, “jangan dulu”, dan pendaratan"
+           "id": "Kelayakan, percakapan empat bagian, “jangan dulu”, dan mendarat"
           },
           "help": {
            "en": "The policy requires Bu Sinta to be told before the application. The portfolio-lead role is uncertain and nine months away. Honour Bu Sinta’s offer without treating it as a promise. Internal moves do not trigger the bond.",
-           "id": "Kebijakan mewajibkan Bu Sinta diberi tahu sebelum lamaran. Peran pemimpin portofolio belum pasti dan sembilan bulan lagi, hargai tawaran Bu Sinta tanpa menganggapnya janji. Perpindahan internal tidak memicu ikatan dinas."
+           "id": "Kebijakannya mewajibkan Bu Sinta diberi tahu sebelum lamaran diajukan. Peran pemimpin portofolio belum pasti dan baru sembilan bulan lagi. Hargai tawaran Bu Sinta tanpa memperlakukannya sebagai janji. Pindah internal tidak memicu kewajiban ikatan dinas."
           },
           "placeholder": {
            "en": "Eligibility: … · Before applying: …\nAppreciation: “…” · Direction: “…” · Responsibility: handover … · Request: “…”\nIf “jangan dulu”: “…”\nIn writing if selected: level … pay/allowances … release date … handover …",
-           "id": "Kelayakan: … · Sebelum melamar: …\nPenghargaan: “…” · Arah: “…” · Tanggung jawab: serah terima … · Permintaan: “…”\nJika “jangan dulu”: “…”\nTertulis jika terpilih: level … gaji/tunjangan … tanggal pelepasan … serah terima …"
+           "id": "Kelayakan: … · Sebelum melamar: …\nPenghargaan: “…” · Arah: “…” · Tanggung jawab: serah terima … · Permintaan: “…”\nKalau “jangan dulu”: “…”\nSecara tertulis kalau terpilih: level … gaji/tunjangan … tanggal pelepasan … serah terima …"
           },
           "keywords": [
            [
@@ -43505,7 +43505,7 @@ window.MT_LMS['the-route'] = {
         },
         "guide": {
          "en": "Lesson 7.4. Suppose Nadia still wants to consider the fintech. List every issue in its offer letter and draft contract, and the question or change she should request for each. Then write the correct sequence for an external move from today: what must be true before she resigns, the earliest sensible last day given the notice rule and the bond, how she tells Bu Sinta, what she says to a counter-offer, and the handover.",
-         "id": "Pelajaran 7.4. Misalkan Nadia masih ingin mempertimbangkan fintech itu. Daftar setiap masalah di surat tawaran dan draf kontraknya, serta pertanyaan atau perubahan yang sebaiknya ia minta untuk masing-masing. Lalu tulis urutan yang benar untuk perpindahan ke luar mulai hari ini: apa yang harus benar sebelum ia mengundurkan diri, hari terakhir paling masuk akal mengingat aturan pemberitahuan dan ikatan dinas, cara ia memberi tahu Bu Sinta, apa yang ia katakan pada tawaran balik, dan serah terimanya."
+         "id": "Pelajaran 7.4. Misalkan Nadia tetap ingin mempertimbangkan fintech itu. Daftarkan setiap masalah di surat penawaran dan draf kontraknya, beserta pertanyaan atau perubahan yang perlu ia minta untuk masing-masing. Lalu tulis urutan yang benar untuk kepindahan ke luar mulai hari ini: apa yang harus sudah terpenuhi sebelum ia mengundurkan diri, hari terakhir paling cepat yang masuk akal mengingat aturan pemberitahuan dan ikatan dinasnya, cara ia memberi tahu Bu Sinta, apa yang ia katakan menghadapi tawaran balik, dan serah terimanya."
         },
         "questions": [
          {
@@ -43517,12 +43517,12 @@ window.MT_LMS['the-route'] = {
            "id": "Masalah kontrak, urutannya, dan bulan terakhir"
           },
           "help": {
-           "en": "Probation is generally associated with permanent contracts in Indonesian law. A fixed-term contract with probation is a question to raise (verify). “Subject to board approval” is not a final offer. A 12-month ban on working for any lender is very broad. Four weeks is inside both the notice period and the bond.",
-           "id": "Masa percobaan umumnya dikaitkan dengan kontrak tetap dalam hukum Indonesia, PKWT dengan masa percobaan adalah pertanyaan yang perlu diangkat (verifikasi). “Menunggu persetujuan direksi” bukan tawaran final. Larangan 12 bulan bekerja untuk pemberi pinjaman mana pun sangat luas. Empat minggu berada di dalam masa pemberitahuan sekaligus masa ikatan dinas."
+           "en": "Probation is generally associated with PKWTT contracts in Indonesian law. A PKWT with probation is a question to raise (verify). “Subject to board approval” is not a final offer. A 12-month ban on working for any lender is very broad. Four weeks is inside both the notice period and the bond.",
+           "id": "Dalam hukum Indonesia, masa percobaan umumnya dikaitkan dengan kontrak tetap. PKWT dengan masa percobaan adalah hal yang perlu dipertanyakan (periksa). “Menunggu persetujuan direksi” bukan tawaran final. Larangan bekerja untuk pemberi pinjaman mana pun selama 12 bulan sangat luas. Empat minggu masih di dalam masa pemberitahuan sekaligus masa ikatan dinas."
           },
           "placeholder": {
            "en": "Issues: 1 … → ask … · 2 … → ask … · 3 … → ask … · 4 … → ask …\nBefore resigning: …\nEarliest sensible last day: … because …\nTelling Bu Sinta: “…” · Counter-offer: “…” · Handover: …",
-           "id": "Masalah: 1 … → tanyakan … · 2 … → tanyakan … · 3 … → tanyakan … · 4 … → tanyakan …\nSebelum mengundurkan diri: …\nHari terakhir paling masuk akal: … karena …\nMemberi tahu Bu Sinta: “…” · Tawaran balik: “…” · Serah terima: …"
+           "id": "Masalah: 1 … → tanyakan … · 2 … → tanyakan … · 3 … → tanyakan … · 4 … → tanyakan …\nSebelum mengundurkan diri: …\nHari terakhir paling cepat yang masuk akal: … karena …\nMemberi tahu Bu Sinta: “…” · Tawaran balik: “…” · Serah terima: …"
           },
           "keywords": [
            [
@@ -43568,7 +43568,7 @@ window.MT_LMS['the-route'] = {
        {
         "title": {
          "en": "Your Career Move Evaluation Framework",
-         "id": "Kerangka Evaluasi Langkah Kariermu"
+         "id": "Kerangka Penilaian Langkah Kariermu"
         },
         "short": {
          "en": "Your framework",
@@ -43576,7 +43576,7 @@ window.MT_LMS['the-route'] = {
         },
         "guide": {
          "en": "The Kit item. Part A, Readiness and opportunity: your capital inventory with what travels and what is not yet built; your position on the curve; your reasons; the now-versus-twelve-months ledger; then one specific next role (inside or outside) evaluated through the four lenses, with your gates, weights and scores against staying. Part B, Transition plan: if you made this move in the next six months, the sequence, policy or contract checks, the conversation with your manager, notice and bond dates, counter-offer response, handover, and how you will leave and land well.",
-         "id": "Butir Kit. Bagian A, Kesiapan dan peluang: inventaris modalmu dengan yang bisa dibawa dan yang belum dibangun; posisimu di kurva; alasan-alasanmu; neraca sekarang-versus-dua-belas-bulan; lalu satu peran berikutnya yang spesifik (di dalam atau ke luar) dievaluasi melalui empat lensa, dengan gerbang, bobot, dan nilai dibanding bertahan. Bagian B, Rencana peralihan: jika kamu melakukan perpindahan ini dalam enam bulan ke depan, urutannya, pemeriksaan kebijakan atau kontrak, percakapan dengan manajermu, tanggal pemberitahuan dan ikatan dinas, respons terhadap tawaran balik, serah terima, dan cara kamu pergi serta mendarat dengan baik."
+         "id": "Isi Perangkat Karier. Bagian A, Kesiapan dan peluang: inventaris modalmu, mana yang bisa dibawa dan mana yang belum dibangun; posisimu di kurva; alasan-alasanmu; neraca sekarang dibanding dua belas bulan lagi; lalu satu peran berikutnya yang spesifik (di dalam atau di luar) yang dievaluasi lewat empat lensa, dengan syarat mutlak, bobot, dan nilainya dibanding bertahan. Bagian B, Rencana peralihan: kalau kamu pindah dalam enam bulan ke depan, urutannya, pengecekan kebijakan atau kontrak, percakapan dengan atasanmu, tanggal masa pemberitahuan dan ikatan dinas, tanggapan untuk tawaran balik, serah terima, dan cara kamu pergi serta mendarat dengan baik."
         },
         "questions": [
          {
@@ -43589,11 +43589,11 @@ window.MT_LMS['the-route'] = {
           },
           "help": {
            "en": "If you are not considering a move, evaluate the best inside option against staying anyway; the framework is most useful before you need it.",
-           "id": "Jika kamu tidak sedang mempertimbangkan pindah, tetap evaluasi pilihan terbaik di dalam dibanding bertahan; kerangka ini paling berguna sebelum kamu membutuhkannya."
+           "id": "Kalau kamu sedang tidak mempertimbangkan pindah, tetap evaluasi pilihan terbaik di dalam dibanding bertahan; kerangka ini paling berguna sebelum kamu membutuhkannya."
           },
           "placeholder": {
            "en": "Capital: … (travels: …) · not yet built: …\nCurve: … · Reasons: push … pull … · Ledger: now … / 12 months …\nOption: … · Role … · Manager … · Organisation … · Team …\nGates: … · Weights: … · Scores, stay … option …",
-           "id": "Modal: … (bisa dibawa: …) · belum dibangun: …\nKurva: … · Alasan: dorongan … tarikan … · Neraca: sekarang … / 12 bulan …\nPilihan: … · Peran … · Manajer … · Organisasi … · Tim …\nGerbang: … · Bobot: … · Nilai, bertahan … pilihan …"
+           "id": "Modal: … (bisa dibawa: …) · belum dibangun: …\nKurva: … · Alasan: dorongan … tarikan … · Neraca: sekarang … / 12 bulan …\nPilihan: … · Peran … · Atasan … · Organisasi … · Tim …\nSyarat mutlak: … · Bobot: … · Nilai: bertahan … pilihan …"
           },
           "keywords": [
            [
@@ -43647,11 +43647,11 @@ window.MT_LMS['the-route'] = {
           },
           "help": {
            "en": "Use real dates: your notice period, any bond, bonus dates. Write the first two sentences you would say to your manager.",
-           "id": "Pakai tanggal nyata: masa pemberitahuanmu, ikatan dinas, tanggal bonus. Tulis dua kalimat pertama yang akan kamu katakan kepada manajermu."
+           "id": "Pakai tanggal sungguhan: masa pemberitahuanmu, ikatan dinas apa pun, tanggal bonus. Tulis dua kalimat pertama yang akan kamu sampaikan kepada atasanmu."
           },
           "placeholder": {
            "en": "Checks: policy/contract … notice … days · bond … · bonus …\nManager: “…” (date …)\nCounter-offer: “…”\nHandover: … · Leaving well: … · Landing (first 90 days): …",
-           "id": "Pemeriksaan: kebijakan/kontrak … pemberitahuan … hari · ikatan dinas … · bonus …\nManajer: “…” (tanggal …)\nTawaran balik: “…”\nSerah terima: … · Pergi dengan baik: … · Mendarat (90 hari pertama): …"
+           "id": "Pengecekan: kebijakan/kontrak … masa pemberitahuan … hari · ikatan dinas … · bonus …\nAtasan: “…” (tanggal …)\nTawaran balik: “…”\nSerah terima: … · Pergi dengan baik: … · Mendarat (90 hari pertama): …"
           },
           "keywords": [
            [
@@ -43692,35 +43692,35 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Readiness: portable and local capital separated; curve located; push/pull and a bias named; a dated ledger including bond and bonus",
-         "id": "Kesiapan: modal yang bisa dibawa dan lokal dipisahkan; kurva ditentukan; dorongan/tarikan dan satu bias disebut; neraca bertanggal termasuk ikatan dinas dan bonus"
+         "id": "Kesiapan: modal yang bisa dibawa dan yang lokal dipisahkan; posisi di kurva ditemukan; dorongan/tarikan dan satu bias disebut; neraca bertanggal yang mencakup ikatan dinas dan bonus"
         },
         "w": "15%"
        },
        {
         "h": {
          "en": "Evaluation: gates and weights set first; four lenses for all three options with evidence; total compensation; a recommendation that follows from the scores",
-         "id": "Evaluasi: gerbang dan bobot ditetapkan dulu; empat lensa untuk ketiga pilihan dengan bukti; total kompensasi; rekomendasi yang mengikuti nilainya"
+         "id": "Evaluasi: syarat mutlak dan bobot ditetapkan lebih dulu; empat lensa untuk ketiga pilihan dengan bukti; total kompensasi; rekomendasi yang mengalir dari nilainya"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "Internal route: eligibility checked; manager told before applying; four parts with a real handover; “jangan dulu” handled; landing terms listed",
-         "id": "Jalur internal: kelayakan diperiksa; manajer diberi tahu sebelum melamar; empat bagian dengan serah terima nyata; “jangan dulu” ditangani; syarat pendaratan didaftar"
+         "id": "Jalur internal: kelayakan dicek; atasan diberi tahu sebelum melamar; empat bagian dengan serah terima yang nyata; “jangan dulu” ditangani; syarat mendarat dicantumkan"
         },
         "w": "20%"
        },
        {
         "h": {
-         "en": "Transition: contract issues spotted (probation in a fixed-term contract, conditional offer, broad non-compete, start date vs notice and bond); correct sequence; counter-offer and handover",
-         "id": "Peralihan: masalah kontrak dikenali (masa percobaan di PKWT, tawaran bersyarat, larangan bersaing yang luas, tanggal mulai vs pemberitahuan dan ikatan dinas); urutan yang benar; tawaran balik dan serah terima"
+         "en": "Transition: contract issues spotted (probation in a PKWT, conditional offer, broad non-compete, start date vs notice and bond); correct sequence; counter-offer and handover",
+         "id": "Peralihan: masalah kontrak ditemukan (masa percobaan di PKWT, tawaran bersyarat, larangan bersaing yang luas, tanggal mulai dibanding masa pemberitahuan dan ikatan dinas); urutan yang benar; tawaran balik dan serah terima"
         },
         "w": "15%"
        },
        {
         "h": {
-         "en": "Your Career Move Evaluation Framework, Parts A and B complete, with evidence, dates and a staying benchmark",
-         "id": "Kerangka Evaluasi Langkah Kariermu, Bagian A dan B lengkap, dengan bukti, tanggal, dan patokan bertahan"
+         "en": "Your Career Move Evaluation Framework: Parts A and B complete, with evidence, dates and a staying benchmark",
+         "id": "Kerangka Penilaian Langkah Kariermu: Bagian A dan B lengkap, dengan bukti, tanggal, dan patokan bertahan"
         },
         "w": "25%"
        }
@@ -43738,18 +43738,18 @@ window.MT_LMS['the-route'] = {
          }
         },
         {
-         "en": "Capital that travels: SME credit judgement, SQL reporting, the taskforce finding adopted in model v2, the document-check rollout, and a reputation that already reaches Pak Arya’s unit. Local only: her standing with Bu Sinta and the branch network. Curve: at the top; “I teach more than I learn”; the taskforce proved a steeper curve exists. Reasons: a good push (flat curve) and a good pull (digital credit capability); a real life factor (her father’s treatment) that pulls both toward money and toward Tegal. Bias to suspect: the grass-is-greener effect around the +38%, and status quo bias around “the bank that trained me”. Ledger: moving in four weeks falls inside the bond (pro-rata repayment) and inside the 30-day notice, forfeits the March bonus, and is forced by someone else’s deadline; moving in about two months clears the bond but still forfeits the bonus; moving in twelve months keeps both but leaves her on a flat curve with one uncertain slot. Her story is now complete, the restructuring results are in, so the “story” line no longer argues for waiting.",
-         "id": "Modal yang bisa dibawa: penilaian kredit UMKM, pelaporan SQL, temuan satgas yang diadopsi di model v2, peluncuran cek dokumen, dan reputasi yang sudah sampai ke unit Pak Arya. Hanya lokal: kedudukannya di mata Bu Sinta dan jaringan cabang. Kurva: di puncak, “aku lebih banyak mengajar daripada belajar”; satgas membuktikan ada kurva yang lebih curam. Alasan: dorongan yang baik (kurva datar) dan tarikan yang baik (kapabilitas kredit digital); faktor hidup yang nyata (pengobatan ayahnya) yang menarik ke arah uang sekaligus ke arah Tegal. Bias yang dicurigai: efek rumput tetangga di sekitar +38%, dan bias status quo di sekitar “bank yang melatihku”. Neraca: pindah empat minggu lagi jatuh di dalam masa ikatan dinas (pembayaran kembali proporsional) dan di dalam pemberitahuan 30 hari, menghanguskan bonus Maret, dan dipaksa oleh tenggat orang lain; pindah sekitar dua bulan lagi melewati ikatan dinas tetapi tetap menghanguskan bonus; pindah dua belas bulan lagi mempertahankan keduanya tetapi membuatnya tetap di kurva datar dengan satu slot yang belum pasti. Ceritanya kini utuh, hasil restrukturisasi sudah keluar, jadi baris “cerita” tak lagi mendukung menunggu."
+         "en": "Capital that travels: SME credit judgement, SQL reporting, the taskforce finding adopted in model v2, the document-check rollout, and a reputation that already reaches Pak Arya’s unit. Local only: her standing with Bu Sinta and the branch network. Curve: at the top; “I teach more than I learn”; the taskforce proved a steeper curve exists. Reasons: a good push (flat curve) and a good pull (digital credit capability); a real life factor (her father’s treatment) that pulls both toward money and toward Tegal. Bias to suspect: the grass-is-greener effect around the +38%, and status quo bias around “the bank that trained me”. Ledger: moving in four weeks falls inside the bond (pro-rata repayment) and inside the 30-day notice, forfeits the March bonus, and is forced by someone else’s deadline; moving in about two months clears the bond but still forfeits the bonus; moving in twelve months keeps both but leaves her on a flat curve with one uncertain slot. Her story is now complete (the restructuring results are in), so the “story” line no longer argues for waiting.",
+         "id": "Modal yang bisa dibawa: penilaian kredit UMKM, laporan dengan SQL, temuan gugus tugas yang dipakai di model versi 2, penerapan pemeriksaan dokumen, dan reputasi yang sudah sampai ke unit Pak Arya. Yang hanya lokal: kedudukannya di mata Bu Sinta dan jaringan cabang. Kurva: di puncak; “aku lebih banyak mengajar daripada belajar”; gugus tugas membuktikan ada kurva yang lebih curam. Alasan: dorongan yang kuat (kurva datar) dan tarikan yang kuat (kemampuan kredit digital); ada faktor hidup yang nyata (pengobatan ayahnya) yang menarik ke arah uang sekaligus ke arah Tegal. Bias yang perlu dicurigai: efek rumput tetangga lebih hijau di sekitar angka +38%, dan bias status quo di sekitar “bank yang telah mendidikku”. Neraca: pindah empat minggu lagi masih di dalam masa ikatan dinas (ganti biaya proporsional) dan di dalam masa pemberitahuan 30 hari, kehilangan bonus Maret berikutnya, dan waktunya dipaksakan oleh tenggat orang lain; pindah sekitar dua bulan lagi sudah bebas dari ikatan dinas tetapi tetap kehilangan bonus; pindah dua belas bulan lagi mempertahankan keduanya, tetapi membuatnya tetap di kurva yang datar dengan satu kursi yang belum pasti. Ceritanya kini sudah utuh (hasil restrukturisasi sudah keluar), jadi baris “cerita” tidak lagi menjadi alasan untuk menunggu."
         },
         {
          "h": {
           "en": "The options",
-          "id": "Pilihannya"
+          "id": "Pilihan-pilihannya"
          }
         },
         {
-         "en": "Gates: within a day’s travel of Tegal (all three pass; Jakarta is about 4.5 hours by train); no role that requires breaching her red lines. Weights, set first: learning digital credit capability 30%, next door in her trajectory 25%, manager and team 20%, total compensation 15%, family proximity 10%. A (stay): role builds people leadership but not the capability she wants; manager known and supportive; one uncertain slot, with a possible rival, about 3.2. B (inside): role is the core of her target capability, in a growing unit (the seat exists because of growth); Bu Indah’s record is strong on two independent sources; lateral pay but a Jakarta allowance, relocation support, holiday bonus and the bonus schedule continue, and no bond repayment, about 4.2. C (outside): a “Lead” title with one junior, reporting to a COO who overrides credit decisions; the seat emptied twice in 18 months; “nanti kita lihat bareng” fails the first-90-days test; +38% on base but fewer allowances, a discretionary bonus and no stated holiday bonus, so the real gap is smaller; licence to verify, about 2.9. Recommendation: B, with C declined politely and the recruiter relationship kept; A remains the fallback if B is not offered. Reality tests before applying: a call with Bu Indah on what success looks like at 90 days, and a conversation with one current analyst in the unit about hours around launches. A different recommendation can earn full marks if it follows from stated weights and evidence.",
-         "id": "Gerbang: dalam jarak sehari perjalanan dari Tegal (ketiganya lolos, Jakarta sekitar 4,5 jam naik kereta); tak ada peran yang mengharuskan melanggar garis merahnya. Bobot, ditetapkan lebih dulu: mempelajari kapabilitas kredit digital 30%, pintu berikutnya dalam lintasan 25%, manajer dan tim 20%, total kompensasi 15%, kedekatan keluarga 10%. A (bertahan): perannya membangun kepemimpinan tetapi bukan kapabilitas yang ia inginkan; manajer dikenal dan mendukung; satu slot yang belum pasti, dengan kemungkinan pesaing, sekitar 3,2. B (di dalam): perannya adalah inti kapabilitas sasarannya, di unit yang bertumbuh (kursinya ada karena pertumbuhan); rekam jejak Bu Indah kuat dari dua sumber terpisah; gaji setara tetapi ada tunjangan Jakarta, bantuan relokasi, THR dan jadwal bonus tetap berjalan, dan tanpa pembayaran kembali ikatan dinas, sekitar 4,2. C (ke luar): jabatan “Lead” dengan satu junior, melapor kepada COO yang membatalkan keputusan kredit; kursinya kosong dua kali dalam 18 bulan; “nanti kita lihat bareng” gagal di uji 90 hari pertama; +38% pada gaji pokok tetapi tunjangan lebih sedikit, bonus diskresioner, dan THR tidak disebut, sehingga selisih nyatanya lebih kecil; izin perlu diverifikasi, sekitar 2,9. Rekomendasi: B, dengan C ditolak dengan sopan dan hubungan dengan rekruter dijaga; A tetap menjadi cadangan jika B tidak ditawarkan. Uji kenyataan sebelum melamar: telepon dengan Bu Indah tentang seperti apa keberhasilan di 90 hari, dan percakapan dengan satu analis di unit itu tentang jam kerja menjelang peluncuran. Rekomendasi berbeda bisa mendapat nilai penuh jika mengikuti bobot dan bukti yang dinyatakan."
+         "en": "Gates: within a day’s travel of Tegal (all three pass; Jakarta is about 4.5 hours by train); no role that requires breaching her red lines. Weights, set first: learning digital credit capability 30%, next door in her trajectory 25%, manager and team 20%, total compensation 15%, family proximity 10%. A (stay): role builds people leadership but not the capability she wants; manager known and supportive; one uncertain slot, with a possible rival: about 3.2. B (inside): role is the core of her target capability, in a growing unit (the seat exists because of growth); Bu Indah’s record is strong on two independent sources; lateral pay but a Jakarta allowance, relocation support, THR and the bonus schedule continue, and no bond repayment: about 4.2. C (outside): a “Lead” title with one junior, reporting to a COO who overrides credit decisions; the seat emptied twice in 18 months; “nanti kita lihat bareng” fails the first-90-days test; +38% on base but fewer allowances, a discretionary bonus and no stated THR, so the real gap is smaller; licence to verify: about 2.9. Recommendation: B, with C declined politely and the recruiter relationship kept; A remains the fallback if B is not offered. Reality tests before applying: a call with Bu Indah on what success looks like at 90 days, and a conversation with one current analyst in the unit about hours around launches. A different recommendation can earn full marks if it follows from stated weights and evidence.",
+         "id": "Syarat mutlak: maksimal sehari perjalanan dari Tegal (ketiganya lolos; Jakarta sekitar 4,5 jam naik kereta); tidak ada peran yang mengharuskan melanggar garis merahnya. Bobot, ditetapkan lebih dulu: mempelajari kemampuan kredit digital 30%, pintu berikutnya dalam lintasannya 25%, atasan dan tim 20%, total kompensasi 15%, kedekatan dengan keluarga 10%. A (bertahan): perannya membangun kepemimpinan atas orang tetapi bukan kemampuan yang ia incar; atasannya sudah dikenal dan mendukung; satu kursi yang belum pasti, dengan kemungkinan pesaing: sekitar 3,2. B (pindah di dalam): perannya adalah inti dari kemampuan yang ia incar, di unit yang sedang tumbuh (kursinya ada karena pertumbuhan); rekam jejak Bu Indah kuat menurut dua sumber yang terpisah; gaji setara, tetapi ada tunjangan Jakarta dan bantuan relokasi, THR dan jadwal bonus tetap berjalan, dan tidak ada kewajiban mengganti biaya ikatan dinas: sekitar 4,2. C (pindah keluar): jabatan “Lead” dengan satu analis junior, melapor kepada COO yang suka membatalkan keputusan kredit; kursinya kosong dua kali dalam 18 bulan; “nanti kita lihat bareng” gagal di tes 90 hari pertama; +38% untuk gaji pokok tetapi tunjangan lebih sedikit, bonus diskresioner, dan THR tidak disebutkan, sehingga selisih sebenarnya lebih kecil; izinnya perlu dicek: sekitar 2,9. Rekomendasi: B, dengan C ditolak secara sopan dan hubungan dengan rekruter tetap dijaga; A tetap menjadi cadangan kalau B tidak ditawarkan. Uji kenyataan sebelum melamar: telepon dengan Bu Indah soal seperti apa keberhasilan di hari ke-90, dan obrolan dengan satu analis yang sekarang bekerja di unit itu soal jam kerja menjelang peluncuran. Rekomendasi yang berbeda bisa mendapat nilai penuh kalau mengalir dari bobot dan bukti yang dinyatakan."
         },
         {
          "h": {
@@ -43758,8 +43758,8 @@ window.MT_LMS['the-route'] = {
          }
         },
         {
-         "en": "Eligible: 26 months in role (18 required); rating above “memenuhi”. The policy requires Bu Sinta to be told before the application, this week, not after. “Bu, terima kasih. Dua tahun ini Ibu memberi saya portofolio, satgas, dan kepercayaan. Saya ingin membangun kemampuan di desain produk kredit, dan posisi di unit Bu Indah membangun itu. Saya sudah siapkan serah terima: laporan portofolio ke Sekar dengan pendampingan saya selama empat minggu, dua debitur pengawasan khusus ke analis senior yang Ibu tunjuk, dan panduan untuk analis baru. Saya ingin minta pendapat Ibu, dan kalau berkenan, dukungannya.” If “jangan dulu, tunggu pemimpin portofolio”: “Terima kasih, Bu, saya sangat menghargai itu. Kalau posisinya belum pasti dan baru sembilan bulan lagi, apakah Ibu keberatan saya mencoba jalur ini sekarang? Kalau saya tidak terpilih, saya dengan senang hati tetap di sini dan menyiapkan diri untuk posisi itu.” In writing if selected: grade (lateral), pay and the Jakarta allowance, relocation support, the release date within six weeks, and the handover list.",
-         "id": "Layak: 26 bulan di peran (18 disyaratkan); peringkat di atas “memenuhi”. Kebijakan mewajibkan Bu Sinta diberi tahu sebelum lamaran. Minggu ini, bukan sesudahnya. “Bu, terima kasih. Dua tahun ini Ibu memberi saya portofolio, satgas, dan kepercayaan. Saya ingin membangun kemampuan di desain produk kredit, dan posisi di unit Bu Indah membangun itu. Saya sudah siapkan serah terima: laporan portofolio ke Sekar dengan pendampingan saya selama empat minggu, dua debitur pengawasan khusus ke analis senior yang Ibu tunjuk, dan panduan untuk analis baru. Saya ingin minta pendapat Ibu, dan kalau berkenan, dukungannya.” Jika “jangan dulu, tunggu pemimpin portofolio”: “Terima kasih, Bu, saya sangat menghargai itu. Kalau posisinya belum pasti dan baru sembilan bulan lagi, apakah Ibu keberatan saya mencoba jalur ini sekarang? Kalau saya tidak terpilih, saya dengan senang hati tetap di sini dan menyiapkan diri untuk posisi itu.” Tertulis jika terpilih: golongan (setara), gaji dan tunjangan Jakarta, bantuan relokasi, tanggal pelepasan dalam enam minggu, dan daftar serah terima."
+         "en": "Eligible: 26 months in role (18 required); rating above “memenuhi”. The policy requires Bu Sinta to be told before the application: this week, not after. “Bu, terima kasih. Dua tahun ini Ibu memberi saya portofolio, satgas, dan kepercayaan. Saya ingin membangun kemampuan di desain produk kredit, dan posisi di unit Bu Indah membangun itu. Saya sudah siapkan serah terima: laporan portofolio ke Sekar dengan pendampingan saya selama empat minggu, dua debitur pengawasan khusus ke analis senior yang Ibu tunjuk, dan panduan untuk analis baru. Saya ingin minta pendapat Ibu, dan kalau berkenan, dukungannya.” If “jangan dulu, tunggu pemimpin portofolio”: “Terima kasih, Bu, saya sangat menghargai itu. Kalau posisinya belum pasti dan baru sembilan bulan lagi, apakah Ibu keberatan saya mencoba jalur ini sekarang? Kalau saya tidak terpilih, saya dengan senang hati tetap di sini dan menyiapkan diri untuk posisi itu.” In writing if selected: grade (lateral), pay and the Jakarta allowance, relocation support, the release date within six weeks, and the handover list.",
+         "id": "Memenuhi syarat: 26 bulan di peran (syaratnya 18); nilai di atas “memenuhi”. Kebijakannya mewajibkan Bu Sinta diberi tahu sebelum lamaran diajukan: minggu ini, bukan sesudahnya. “Bu, terima kasih. Dua tahun ini Ibu memberi saya portofolio, satgas, dan kepercayaan. Saya ingin membangun kemampuan di desain produk kredit, dan posisi di unit Bu Indah membangun itu. Saya sudah siapkan serah terima: laporan portofolio ke Sekar dengan pendampingan saya selama empat minggu, dua debitur pengawasan khusus ke analis senior yang Ibu tunjuk, dan panduan untuk analis baru. Saya ingin minta pendapat Ibu, dan kalau berkenan, dukungannya.” Kalau Bu Sinta berkata “jangan dulu, tunggu pemimpin portofolio”: “Terima kasih, Bu, saya sangat menghargai itu. Kalau posisinya belum pasti dan baru sembilan bulan lagi, apakah Ibu keberatan saya mencoba jalur ini sekarang? Kalau saya tidak terpilih, saya dengan senang hati tetap di sini dan menyiapkan diri untuk posisi itu.” Yang perlu disepakati secara tertulis kalau terpilih: golongan (setara), gaji dan tunjangan Jakarta, bantuan relokasi, tanggal pelepasan dalam enam minggu, dan daftar serah terimanya."
         },
         {
          "h": {
@@ -43768,39 +43768,39 @@ window.MT_LMS['the-route'] = {
          }
         },
         {
-         "en": "Issues in the fintech offer: (1) “subject to final approval by the board”, not a final offer; ask for the date and do not resign before it is confirmed in writing; (2) probation in a fixed-term fixed-term contract, generally associated only with permanent contracts in Indonesian law; ask for it to be removed or the contract type clarified (verify); (3) a 12-month ban on working for any bank or lender in Indonesia. Very broad; ask for it to be narrowed to direct competitors and a shorter period, or understand its enforceability is debated before signing; (4) a start in four weeks. Inside the 30-day notice and the bond; propose a start about six weeks out, after the bond ends; (5) total compensation. Ask for allowances, holiday bonus and bonus basis in writing. Sequence if she went outside: written final offer and signed contract; notice given in person to Bu Sinta first, with the letter and a handover plan; last day after the bond date and at least 30 days after notice; counter-offer declined with thanks; “keputusan saya soal kapabilitas, bukan gaji”; written handover, time with Sekar, data left behind, thanks to Mbak Rara, Pak Bambang and the branch officers; the first-90-days plan started the week she signs.",
-         "id": "Masalah di tawaran fintech: (1) “menunggu persetujuan akhir direksi”, bukan tawaran final; tanyakan tanggalnya dan jangan mengundurkan diri sebelum dikonfirmasi tertulis; (2) masa percobaan dalam PKWT, dalam hukum Indonesia umumnya hanya dikaitkan dengan kontrak tetap; minta agar dihapus atau jenis kontraknya diperjelas (verifikasi); (3) larangan 12 bulan bekerja untuk bank atau pemberi pinjaman mana pun di Indonesia. Sangat luas; minta dipersempit ke pesaing langsung dan periode lebih pendek, atau pahami bahwa keberlakuannya diperdebatkan sebelum menandatangani; (4) mulai empat minggu lagi, di dalam pemberitahuan 30 hari dan ikatan dinas; usulkan mulai sekitar enam minggu lagi, setelah ikatan dinas berakhir; (5) total kompensasi. Minta tunjangan, THR, dan dasar bonus secara tertulis. Urutan jika ia pindah ke luar: tawaran final tertulis dan kontrak yang ditandatangani; pemberitahuan disampaikan langsung kepada Bu Sinta lebih dulu, dengan surat dan rencana serah terima; hari terakhir setelah tanggal ikatan dinas dan paling cepat 30 hari setelah pemberitahuan; tawaran balik ditolak dengan terima kasih; “keputusan saya soal kapabilitas, bukan gaji”; serah terima tertulis, waktu bersama Sekar, data ditinggalkan, terima kasih kepada Mbak Rara, Pak Bambang, dan petugas cabang; rencana 90 hari pertama dimulai di minggu ia menandatangani."
+         "en": "Issues in the fintech offer: (1) “subject to final approval by the board”, not a final offer; ask for the date and do not resign before it is confirmed in writing; (2) probation in a fixed-term (PKWT) contract, generally associated only with PKWTT contracts in Indonesian law; ask for it to be removed or the contract type clarified (verify); (3) a 12-month ban on working for any bank or lender in Indonesia: very broad; ask for it to be narrowed to direct competitors and a shorter period, or understand its enforceability is debated before signing; (4) a start in four weeks: inside the 30-day notice and the bond; propose a start about six weeks out, after the bond ends; (5) total compensation. Ask for allowances, THR and bonus basis in writing. Sequence if she went outside: written final offer and signed contract; notice given in person to Bu Sinta first, with the letter and a handover plan; last day after the bond date and at least 30 days after notice; counter-offer declined with thanks (“keputusan saya soal kapabilitas, bukan gaji”); written handover, time with Sekar, data left behind, thanks to Mbak Rara, Pak Bambang and the branch officers; the first-90-days plan started the week she signs.",
+         "id": "Masalah di tawaran fintech: (1) “menunggu persetujuan akhir direksi”, belum tawaran final; tanyakan tanggalnya dan jangan mengundurkan diri sebelum dikonfirmasi secara tertulis; (2) masa percobaan di kontrak berjangka (PKWT), padahal dalam hukum Indonesia umumnya hanya dikaitkan dengan kontrak tetap; minta supaya dihapus atau jenis kontraknya diperjelas (periksa); (3) larangan bekerja untuk bank atau pemberi pinjaman mana pun di Indonesia selama 12 bulan: sangat luas; minta dipersempit menjadi pesaing langsung dengan jangka waktu lebih pendek, atau pahami bahwa keberlakuannya masih diperdebatkan sebelum tanda tangan; (4) mulai empat minggu lagi: masih di dalam masa pemberitahuan 30 hari dan masa ikatan dinas; usulkan mulai sekitar enam minggu lagi, setelah ikatan dinas berakhir; (5) total kompensasi: minta tunjangan, THR, dan dasar bonus secara tertulis. Urutan kalau ia pindah keluar: tawaran final tertulis dan kontrak yang sudah ditandatangani; pemberitahuan disampaikan langsung kepada Bu Sinta lebih dulu, dengan surat dan rencana serah terima; hari terakhir setelah tanggal berakhirnya ikatan dinas dan paling cepat 30 hari setelah pemberitahuan; tawaran balik ditolak dengan rasa terima kasih (“keputusan saya soal kapabilitas, bukan gaji”); serah terima tertulis, waktu bersama Sekar, data ditinggal, terima kasih kepada Mbak Rara, Pak Bambang, dan para petugas cabang; rencana 90 hari pertama dimulai di minggu ia menandatangani kontrak."
         }
        ],
        "after": {
         "en": "Compare, do not copy. If your plan accepts the fintech by Friday because of the deadline, check your ledger: someone else’s deadline set your timing, inside a bond. If your evaluation compares only base salaries, redo the compensation line. If you applied internally before telling Bu Sinta, re-read the policy, and Lesson 7.3.",
-        "id": "Bandingkan, jangan menyalin. Jika rencanamu menerima fintech itu paling lambat Jumat karena tenggatnya, periksa neracamu: tenggat orang lain menentukan waktumu, di dalam masa ikatan dinas. Jika evaluasimu hanya membandingkan gaji pokok, ulangi baris kompensasinya. Jika kamu melamar secara internal sebelum memberi tahu Bu Sinta, baca ulang kebijakannya, dan Pelajaran 7.3."
+        "id": "Bandingkan, jangan menyalin. Kalau rencanamu menerima fintech itu paling lambat Jumat karena tenggatnya, cek lagi neracamu: tenggat orang lain yang menentukan waktumu, dan itu masih di dalam masa ikatan dinas. Kalau evaluasimu hanya membandingkan gaji pokok, ulangi baris kompensasinya. Kalau kamu melamar ke dalam sebelum memberi tahu Bu Sinta, baca lagi kebijakannya, dan Pelajaran 7.3."
        }
       },
       "submit": {
        "title": {
         "en": "Review & submit",
-        "id": "Tinjau & kumpulkan"
+        "id": "Tinjau & kirim"
        },
        "short": {
         "en": "Submit",
-        "id": "Kumpulkan"
+        "id": "Kirim"
        },
        "lead": {
         "en": "Read your six answers as Nadia’s board would, and as Bu Sinta would if she read your conversation plan. Submitting locks them on this device, opens the model notes, and saves your Career Move Evaluation Framework as the seventh Career Kit item.",
-        "id": "Baca keenam jawabanmu seperti dewan Nadia membacanya, dan seperti Bu Sinta jika ia membaca rencana percakapanmu. Mengumpulkan akan mengunci jawabanmu di perangkat ini, membuka catatan model, dan menyimpan Kerangka Evaluasi Langkah Kariermu sebagai butir Career Kit ketujuh."
+        "id": "Baca keenam jawabanmu seperti dewan Nadia akan membacanya, dan seperti Bu Sinta kalau ia membaca rencana percakapanmu. Setelah dikirim, jawabanmu terkunci di perangkat ini, catatan model terbuka, dan Kerangka Penilaian Langkah Kariermu tersimpan sebagai isi ketujuh Perangkat Karier."
        },
        "button": {
         "en": "Submit the case",
-        "id": "Kumpulkan kasus"
+        "id": "Kirim kasus"
        },
        "doneTitle": {
         "en": "Case submitted",
-        "id": "Kasus terkumpul"
+        "id": "Kasus terkirim"
        },
        "doneBody": {
-        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 7 assessment, and put your notice, bond and bonus dates in your calendar; even if you are not moving.",
-        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 7, dan masukkan tanggal pemberitahuan, ikatan dinas, dan bonusmu ke kalender; meskipun kamu tidak sedang pindah."
+        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 7 assessment, and put your notice, bond and bonus dates in your calendar, even if you are not moving.",
+        "id": "Jawabanmu sudah terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 7, dan masukkan tanggal masa pemberitahuan, ikatan dinas, dan bonusmu ke kalender, walaupun kamu tidak sedang berencana pindah."
        }
       }
      },
@@ -43813,7 +43813,7 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Write the ledger; propose a date that fits your notice and bond.",
-         "id": "Tulis neracanya; usulkan tanggal yang sesuai pemberitahuan dan ikatan dinasmu."
+         "id": "Tulis neracanya; usulkan tanggal yang sesuai dengan masa pemberitahuan dan ikatan dinasmu."
         }
        },
        {
@@ -43822,28 +43822,28 @@ window.MT_LMS['the-route'] = {
          "id": "Membandingkan gaji pokok"
         },
         "fix": {
-         "en": "Total compensation: allowances, holiday bonus, bonus basis, benefits.",
-         "id": "Total kompensasi: tunjangan, THR, dasar bonus, manfaat."
+         "en": "Total compensation: allowances, THR, bonus basis, benefits.",
+         "id": "Total kompensasi: tunjangan, THR, dasar bonus, manfaat lainnya."
         }
        },
        {
         "h": {
          "en": "Applying inside before telling your manager",
-         "id": "Melamar di dalam sebelum memberi tahu manajer"
+         "id": "Melamar ke dalam sebelum memberi tahu atasan"
         },
         "fix": {
          "en": "Policy and trust both say: manager first.",
-         "id": "Kebijakan dan kepercayaan sama-sama berkata: manajer dulu."
+         "id": "Kebijakan dan kepercayaan sama-sama bilang: atasan lebih dulu."
         }
        },
        {
         "h": {
          "en": "Signing without reading",
-         "id": "Menandatangani tanpa membaca"
+         "id": "Tanda tangan tanpa membaca"
         },
         "fix": {
          "en": "Contract type, probation, non-compete, start date, conditions.",
-         "id": "Jenis kontrak, masa percobaan, larangan bersaing, tanggal mulai, syarat."
+         "id": "Jenis kontrak, masa percobaan, larangan bersaing, tanggal mulai, syarat-syaratnya."
         }
        }
       ]
@@ -43852,11 +43852,11 @@ window.MT_LMS['the-route'] = {
       {
        "term": {
         "en": "Career Move Evaluation Framework",
-        "id": "Kerangka Evaluasi Langkah Karier"
+        "id": "Kerangka Penilaian Langkah Karier"
        },
        "def": {
         "en": "The Module 7 Career Kit item: readiness, a four-lens opportunity evaluation against staying, and a transition plan.",
-        "id": "Butir Career Kit Modul 7: kesiapan, evaluasi peluang empat lensa dibanding bertahan, dan rencana peralihan."
+        "id": "Isi Perangkat Karier dari Modul 7: kesiapan, evaluasi peluang empat lensa dibanding bertahan, dan rencana peralihan."
        }
       },
       {
@@ -43866,7 +43866,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "An offer that still depends on an approval or check, not one to resign on.",
-        "id": "Tawaran yang masih bergantung pada persetujuan atau pemeriksaan, bukan dasar untuk mengundurkan diri."
+        "id": "Tawaran yang masih bergantung pada persetujuan atau pemeriksaan, sehingga belum bisa dijadikan dasar untuk mengundurkan diri."
        }
       },
       {
@@ -43876,7 +43876,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The score of your current role on your own criteria, which any move must beat on evidence.",
-        "id": "Nilai peranmu sekarang pada kriteriamu sendiri, yang harus dikalahkan perpindahan apa pun dengan bukti."
+        "id": "Nilai peranmu sekarang menurut kriteriamu sendiri, yang harus dikalahkan oleh setiap kepindahan berdasarkan bukti."
        }
       }
      ],
@@ -43884,16 +43884,16 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "The fintech offer is “subject to final approval by the board”. Nadia should…",
-        "id": "Tawaran fintech “menunggu persetujuan akhir direksi”. Nadia sebaiknya…"
+        "id": "Tawaran fintech itu “menunggu persetujuan akhir direksi”. Sebaiknya Nadia…"
        },
        "options": [
         {
          "en": "Resign now to be ready",
-         "id": "Mengundurkan diri sekarang agar siap"
+         "id": "Mengundurkan diri sekarang supaya siap"
         },
         {
          "en": "Ask for the approval date and not resign until the final offer and contract are signed",
-         "id": "Menanyakan tanggal persetujuannya dan tidak mengundurkan diri sampai tawaran final dan kontrak ditandatangani"
+         "id": "Menanyakan tanggal persetujuannya dan tidak mengundurkan diri sampai tawaran final dan kontraknya ditandatangani"
         },
         {
          "en": "Accept verbally and tell her team",
@@ -43901,19 +43901,19 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Ignore the condition",
-         "id": "Mengabaikan syaratnya"
+         "id": "Mengabaikan syarat itu"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Sign, then resign.",
-        "id": "Tanda tangan, lalu mundur."
+        "id": "Tanda tangani dulu, baru mengundurkan diri."
        }
       },
       {
        "q": {
         "en": "Why does the “why is this seat empty?” question favour the internal role here?",
-        "id": "Mengapa pertanyaan “mengapa kursi ini kosong?” menguntungkan peran internal di sini?"
+        "id": "Kenapa pertanyaan “kenapa kursi ini kosong?” menguntungkan peran internal dalam kasus ini?"
        },
        "options": [
         {
@@ -43922,7 +43922,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "The internal seat exists because the unit is growing; the fintech seat emptied twice in 18 months",
-         "id": "Kursi internal ada karena unitnya bertumbuh; kursi fintech kosong dua kali dalam 18 bulan"
+         "id": "Kursi internal ada karena unitnya sedang tumbuh, sedangkan kursi di fintech sudah dua kali kosong dalam 18 bulan"
         },
         {
          "en": "The fintech is smaller",
@@ -43936,26 +43936,26 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Growth is usually a good answer; repeated departures are a warning.",
-        "id": "Pertumbuhan biasanya jawaban yang baik; kepergian berulang adalah peringatan."
+        "id": "Pertumbuhan biasanya jawaban yang baik; orang yang berulang kali keluar adalah peringatan."
        }
       },
       {
        "q": {
         "en": "Under the bank’s policy, when must Bu Sinta hear about Nadia’s internal application?",
-        "id": "Menurut kebijakan bank, kapan Bu Sinta harus mendengar tentang lamaran internal Nadia?"
+        "id": "Menurut kebijakan bank, kapan Bu Sinta harus mendengar soal lamaran internal Nadia?"
        },
        "options": [
         {
          "en": "After the offer",
-         "id": "Setelah tawaran"
+         "id": "Setelah tawaran keluar"
         },
         {
          "en": "Before the application is submitted",
-         "id": "Sebelum lamaran dikirim"
+         "id": "Sebelum lamaran diajukan"
         },
         {
          "en": "Only if Nadia is selected",
-         "id": "Hanya jika Nadia terpilih"
+         "id": "Hanya kalau Nadia terpilih"
         },
         {
          "en": "From HR",
@@ -43965,7 +43965,7 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "The policy and the relationship agree: manager first.",
-        "id": "Kebijakan dan hubungan sepakat: manajer dulu."
+        "id": "Kebijakan dan hubungan kerja sama-sama bilang: atasan lebih dulu."
        }
       }
      ],
@@ -43974,11 +43974,11 @@ window.MT_LMS['the-route'] = {
       "mode": "plan",
       "title": {
        "en": "Put the dates that govern your move in your plan",
-       "id": "Masukkan tanggal-tanggal yang mengatur perpindahanmu ke rencana"
+       "id": "Masukkan tanggal-tanggal yang mengatur kepindahanmu ke dalam rencanamu"
       },
       "body": {
        "en": "Open the 90-day plan and add your notice period, any bond end date, your bonus date, and the date of your next conversation with your manager about direction, whether or not you are moving.",
-       "id": "Buka rencana 90 hari dan tambahkan masa pemberitahuan, tanggal berakhirnya ikatan dinas, tanggal bonus, dan tanggal percakapan berikutnya dengan manajermu tentang arah; entah kamu pindah atau tidak."
+       "id": "Buka rencana 90 hari dan tambahkan masa pemberitahuanmu, tanggal berakhirnya ikatan dinas kalau ada, tanggal bonusmu, dan tanggal percakapan berikutnya dengan atasanmu soal arah kariermu, entah kamu sedang berencana pindah atau tidak."
       },
       "cta": {
        "en": "Open the 90-day plan",
@@ -43988,15 +43988,15 @@ window.MT_LMS['the-route'] = {
      "takeaways": [
       {
        "en": "Decide on readiness, not on a deadline: capital that travels, a flat curve, good reasons and a dated ledger.",
-       "id": "Putuskan berdasarkan kesiapan, bukan tenggat: modal yang bisa dibawa, kurva datar, alasan yang baik, dan neraca bertanggal."
+       "id": "Putuskan berdasarkan kesiapan, bukan tenggat: modal yang bisa dibawa, kurva yang datar, alasan yang kuat, dan neraca yang bertanggal."
       },
       {
        "en": "Score every option, including staying, through four lenses, with gates and weights set before the number.",
-       "id": "Nilai setiap pilihan, termasuk bertahan, melalui empat lensa, dengan gerbang dan bobot yang ditetapkan sebelum angka."
+       "id": "Beri nilai setiap pilihan, termasuk bertahan, lewat empat lensa, dengan syarat mutlak dan bobot yang ditetapkan sebelum melihat angka."
       },
       {
        "en": "Inside or out, the manager hears first, the contract is read in full, and you sign before you resign.",
-       "id": "Di dalam atau ke luar, manajer mendengar lebih dulu, kontrak dibaca sampai habis, dan kamu tanda tangan sebelum mundur."
+       "id": "Di dalam atau di luar, atasan mendengar lebih dulu, kontrak dibaca sampai habis, dan kamu tanda tangan dulu sebelum mengundurkan diri."
       }
      ],
      "journey": {
@@ -44007,7 +44007,7 @@ window.MT_LMS['the-route'] = {
        },
        "desc": {
         "en": "Career capital and timing, evaluating the next role, internal mobility, the external transition.",
-        "id": "Modal karier dan waktu, menilai peran berikutnya, mobilitas internal, peralihan ke luar."
+        "id": "Modal karier dan waktunya, menilai peran berikutnya, mobilitas internal, kepindahan ke luar."
        }
       },
       "now": {
@@ -44017,7 +44017,7 @@ window.MT_LMS['the-route'] = {
        },
        "desc": {
         "en": "You have assessed readiness, evaluated three options on evidence, planned the internal route and the transition, and built your own framework.",
-        "id": "Kamu sudah menilai kesiapan, mengevaluasi tiga pilihan berdasarkan bukti, merencanakan jalur internal dan peralihannya, dan membangun kerangkamu sendiri."
+        "id": "Kamu sudah menilai kesiapan, mengevaluasi tiga pilihan berdasarkan bukti, merencanakan jalur internal dan peralihannya, dan menyusun kerangkamu sendiri."
        }
       },
       "next": {
@@ -44026,8 +44026,8 @@ window.MT_LMS['the-route'] = {
         "id": "Modul 8 · Kecerdasan Finansial di Awal Karier"
        },
        "desc": {
-        "en": "Total compensation, a savings system that works on any income, investment foundations, and the long horizon; the options that make every career move freer.",
-        "id": "Total kompensasi, sistem tabungan yang bekerja di penghasilan berapa pun, dasar-dasar investasi, dan cakrawala panjang; pilihan yang membuat setiap langkah karier lebih bebas."
+        "en": "Total compensation, a savings system that works on any income, investment foundations, and the long horizon: the options that make every career move freer.",
+        "id": "Total kompensasi, sistem tabungan yang bekerja di penghasilan berapa pun, dasar-dasar investasi, dan cakrawala panjang: pilihan-pilihan yang membuat setiap langkah karier lebih leluasa."
        },
        "lesson": "8.1"
       }
@@ -44037,8 +44037,8 @@ window.MT_LMS['the-route'] = {
    "hero": "../../assets/m/06-horizon.jpg",
    "heroPos": "center 40%",
    "kit": {
-    "en": "Career Move Evaluation Framework, readiness, four-lens opportunity evaluation against staying, and a transition plan",
-    "id": "Kerangka Evaluasi Langkah Karier, kesiapan, evaluasi peluang empat lensa dibanding bertahan, dan rencana peralihan"
+    "en": "Career Move Evaluation Framework: readiness, four-lens opportunity evaluation against staying, and a transition plan",
+    "id": "Kerangka Penilaian Langkah Karier: kesiapan, evaluasi peluang empat lensa dibanding bertahan, dan rencana peralihan"
    }
   },
   {
@@ -44048,12 +44048,12 @@ window.MT_LMS['the-route'] = {
     "id": "Kecerdasan Finansial di Awal Karier"
    },
    "overview": {
-    "en": "Money is the quiet partner of every career decision: savings are what let you decline a bad offer, take a better one, support your family and survive a hard year. Four lessons and one case, grounded in local realities and marked for verification wherever rules and figures change: understanding and benchmarking your total compensation; a savings system that works on any income, including family obligations and debt; investment foundations and scam reflexes; and the long horizon from first salary to the point where work becomes a choice. Education, not financial advice.",
-    "id": "Uang adalah mitra diam dari setiap keputusan karier: tabungan memungkinkanmu menolak tawaran buruk, menerima yang lebih baik, mendukung keluargamu, dan bertahan melewati tahun yang berat. Empat pelajaran dan satu kasus, berpijak pada realitas Indonesia dan ditandai untuk verifikasi di mana pun aturan dan angka berubah: memahami dan membandingkan total kompensasimu; sistem tabungan yang bekerja di penghasilan berapa pun, termasuk kewajiban keluarga dan utang; dasar-dasar investasi dan refleks anti-penipuan; dan cakrawala panjang dari gaji pertama sampai titik di mana bekerja menjadi pilihan. Edukasi, bukan nasihat keuangan."
+    "en": "Money is the quiet partner of every career decision: savings are what let you decline a bad offer, take a better one, support your family and survive a hard year. Four lessons and one case, grounded in Indonesian realities and marked for verification wherever rules and figures change: understanding and benchmarking your total compensation; a savings system that works on any income, including family obligations and debt; investment foundations and scam reflexes; and the long horizon from first salary to the point where work becomes a choice. Education, not financial advice.",
+    "id": "Uang adalah mitra diam di balik setiap keputusan karier: tabunganlah yang membuatmu bisa menolak tawaran buruk, menerima tawaran yang lebih baik, membantu keluargamu, dan bertahan melewati tahun yang berat. Empat pelajaran dan satu kasus, berpijak pada realitas Indonesia dan ditandai untuk diperiksa di mana pun aturan dan angkanya bisa berubah: memahami dan membandingkan total kompensasimu; sistem tabungan yang bekerja di penghasilan berapa pun, termasuk dengan kewajiban keluarga dan utang; dasar-dasar investasi dan refleks anti-penipuan; serta cakrawala panjang dari gaji pertama sampai titik ketika bekerja menjadi pilihan. Edukasi, bukan nasihat keuangan."
    },
    "outcome": {
     "en": "By the end of this module you can calculate and benchmark your total compensation, run a payslip audit, set up an automated savings system with named buckets and a family line, handle debt and investment offers safely, describe the main instruments and principles of long-term investing, and keep a horizon map with an annual review.",
-    "id": "Di akhir modul ini kamu bisa menghitung dan membandingkan total kompensasimu, menjalankan audit slip gaji, memasang sistem tabungan otomatis dengan pos bernama dan pos keluarga, menangani utang dan tawaran investasi dengan aman, menjelaskan instrumen dan prinsip utama investasi jangka panjang, serta menjaga peta cakrawala dengan tinjauan tahunan."
+    "id": "Di akhir modul ini kamu bisa menghitung dan membandingkan total kompensasimu, mengaudit slip gaji, memasang sistem tabungan otomatis dengan pos-pos bernama dan pos keluarga, menangani utang dan tawaran investasi dengan aman, menjelaskan instrumen dan prinsip utama investasi jangka panjang, serta menjaga peta cakrawala dengan tinjauan tahunan."
    },
    "lessons": [
     {
@@ -44062,32 +44062,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Your Total Compensation and How to Benchmark It",
       "id": "Total Kompensasimu dan Cara Membandingkannya"
      },
      "overview": {
-      "en": "You cannot negotiate, compare or plan around a number you do not understand, and most early-career professionals know their take-home pay but not what their work is actually worth. This lesson decomposes total compensation in an local setting: base salary, fixed and variable allowances, holiday bonus, bonus, the statutory social insurance programmes and what they are for, tax withholding, and benefits in kind. It then builds the benchmarking habit, comparing like with like, in real terms, so that your sense of your market value is calibrated to evidence rather than to rumour. Figures and rules here change; everything regulatory is marked for you to verify.",
-      "id": "Kamu tak bisa bernegosiasi, membandingkan, atau merencanakan dengan angka yang tak kamu pahami, dan kebanyakan profesional awal karier tahu gaji bersihnya tetapi tidak tahu berapa sebenarnya nilai pekerjaannya. Pelajaran ini mengurai total kompensasi dalam konteks lokal: gaji pokok, tunjangan tetap dan tidak tetap, THR, bonus, program BPJS dan fungsinya, potongan pajak, dan manfaat dalam bentuk natura. Lalu membangun kebiasaan membandingkan, setara dengan setara, dalam nilai riil, agar rasa nilai pasarmu terkalibrasi oleh bukti, bukan kabar burung. Angka dan aturan di sini berubah; semua yang bersifat regulasi ditandai untuk kamu verifikasi."
+      "en": "You cannot negotiate, compare or plan around a number you do not understand, and most early-career professionals know their take-home pay but not what their work is actually worth. This lesson decomposes total compensation in an Indonesian setting: base salary, fixed and variable allowances, THR, bonus, the BPJS programmes and what they are for, tax withholding, and benefits in kind. It then builds the benchmarking habit (comparing like with like, in real terms) so that your sense of your market value is calibrated to evidence rather than to rumour. Figures and rules here change; everything regulatory is marked for you to verify.",
+      "id": "Kamu tidak bisa bernegosiasi, membandingkan, atau merencanakan dengan angka yang tidak kamu pahami, padahal kebanyakan profesional muda hanya tahu gaji bersihnya, bukan berapa sebenarnya nilai pekerjaannya. Pelajaran ini membedah total kompensasi dalam konteks Indonesia: gaji pokok, tunjangan tetap dan tidak tetap, THR, bonus, program BPJS dan fungsinya, pemotongan pajak, serta manfaat dalam bentuk barang atau fasilitas. Setelah itu, pelajaran ini membangun kebiasaan membandingkan (setara dengan setara, dalam nilai riil) supaya perkiraanmu tentang nilai pasarmu berpijak pada bukti, bukan kabar burung. Angka dan aturan di sini bisa berubah; semua yang berkaitan dengan regulasi ditandai untuk kamu periksa."
      },
      "objectives": [
       {
        "en": "Decompose your total compensation from your payslip and contract.",
-       "id": "Mengurai total kompensasimu dari slip gaji dan kontrak."
+       "id": "Membedah total kompensasimu dari slip gaji dan kontrakmu."
       },
       {
-       "en": "Explain what holiday bonus, statutory social insurance contributions and tax withholding mean for you.",
-       "id": "Menjelaskan arti THR, iuran BPJS, dan potongan pajak bagimu."
+       "en": "Explain what THR, BPJS contributions and tax withholding mean for you.",
+       "id": "Menjelaskan arti THR, iuran BPJS, dan pemotongan pajak bagimu."
       },
       {
        "en": "Benchmark your pay like for like, from several sources, in real terms.",
-       "id": "Membandingkan gajimu setara dengan setara, dari beberapa sumber, dalam nilai riil."
+       "id": "Membandingkan gajimu secara setara, dari beberapa sumber, dalam nilai riil."
       },
       {
        "en": "Quantify a pay gap honestly and decide what to do with it.",
-       "id": "Menghitung selisih gaji dengan jujur dan memutuskan apa yang dilakukan dengannya."
+       "id": "Mengukur selisih gaji dengan jujur dan memutuskan langkahnya."
       }
      ],
      "readFirst": {
@@ -44107,40 +44107,40 @@ window.MT_LMS['the-route'] = {
        "story": [
         {
          "en": "Your work is paid in several currencies; open the payslip and the contract side by side",
-         "id": "Kerjamu dibayar dalam beberapa mata uang; buka slip gaji dan kontrak berdampingan"
+         "id": "Pekerjaanmu dibayar dalam beberapa mata uang; buka slip gaji dan kontrakmu berdampingan"
         },
         {
          "en": "Compare yearly totals, not monthly base; the employer’s contributions count too",
-         "id": "Bandingkan total tahunan, bukan gaji pokok bulanan; iuran pemberi kerja juga dihitung"
+         "id": "Bandingkan total setahun, bukan gaji pokok sebulan; iuran dari pemberi kerja juga dihitung"
         },
         {
          "en": "Benchmark like for like, from three sources, and look for agreement",
-         "id": "Bandingkan setara dengan setara, dari tiga sumber, dan cari kesepakatannya"
+         "id": "Bandingkan secara setara, dari tiga sumber, dan cari titik temunya"
         },
         {
          "en": "Know your number without being preoccupied by it; where you sit decides the usual next step",
-         "id": "Ketahui angkamu tanpa terobsesi padanya; posisimu menentukan langkah berikutnya yang lazim"
+         "id": "Ketahui angkamu tanpa terobsesi; posisimu menentukan langkah berikutnya yang lazim"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Decompose",
-          "id": "Urai"
+          "id": "Bedah"
          },
          "p": {
           "en": "Take-home is not what you are paid; count all of it before you compare, negotiate or plan.",
-          "id": "Gaji bersih bukan yang dibayarkan kepadamu; hitung semuanya sebelum membandingkan, bernegosiasi, atau merencanakan."
+          "id": "Gaji bersih bukanlah seluruh bayaranmu; hitung semuanya sebelum membandingkan, bernegosiasi, atau merencanakan."
          }
         },
         {
          "h": {
           "en": "Annualise",
-          "id": "Setahunkan"
+          "id": "Hitung setahun"
          },
          "p": {
           "en": "Once a year, read every line of a payslip and ask what it is; an error found in month two is cheap.",
-          "id": "Setahun sekali, baca tiap baris slip gaji dan tanyakan apa itu; kesalahan yang ditemukan di bulan kedua itu murah."
+          "id": "Setahun sekali, baca setiap baris slip gaji dan tanyakan artinya; kesalahan yang ketahuan di bulan kedua murah biayanya."
          }
         },
         {
@@ -44150,7 +44150,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Benchmarking replaces a friend’s salary, a recruiter’s teaser and a viral post with a range.",
-          "id": "Pembandingan mengganti gaji teman, umpan perekrut, dan unggahan viral dengan sebuah rentang."
+          "id": "Membandingkan dengan benar mengganti gaji teman, iming-iming rekruter, dan unggahan viral dengan sebuah rentang."
          }
         },
         {
@@ -44160,7 +44160,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Three ethical lines: respect confidentiality rules, never misstate your current package, and use what peers share only as they intended.",
-          "id": "Tiga garis etika: hormati aturan kerahasiaan, jangan pernah salah menyatakan paketmu saat ini, dan pakai yang dibagikan rekan hanya seperti yang mereka maksud."
+          "id": "Tiga garis etika: hormati aturan kerahasiaan, jangan pernah melebih-lebihkan paketmu sekarang, dan pakai apa yang dibagikan rekan hanya sesuai maksud mereka."
          }
         }
        ],
@@ -44169,7 +44169,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Your work is paid in several currencies; open the payslip and the contract side by side",
-          "id": "Kerjamu dibayar dalam beberapa mata uang; buka slip gaji dan kontrak berdampingan"
+          "id": "Pekerjaanmu dibayar dalam beberapa mata uang; buka slip gaji dan kontrakmu berdampingan"
          },
          "layout": "grid",
          "items": [
@@ -44179,7 +44179,7 @@ window.MT_LMS['the-route'] = {
            "id": "Gaji pokok",
            "d": {
             "en": "Core monthly pay; often the basis for raises and some benefits.",
-            "id": "Gaji bulanan inti; sering menjadi dasar kenaikan dan sebagian manfaat."
+            "id": "Bayaran inti bulanan; sering menjadi dasar kenaikan gaji dan sebagian manfaat."
            },
            "img": "../../assets/bg/negotiation.jpg"
           },
@@ -44188,8 +44188,8 @@ window.MT_LMS['the-route'] = {
            "en": "Fixed allowances",
            "id": "Tunjangan tetap",
            "d": {
-            "en": "Regular, not tied to attendance; usually counted in the wage for the holiday bonus (verify).",
-            "id": "Rutin, tak terkait kehadiran; biasanya dihitung dalam upah untuk THR (verifikasi)."
+            "en": "Regular, not tied to attendance; usually counted in the wage for the THR (verify).",
+            "id": "Rutin, tidak terkait kehadiran; biasanya dihitung dalam upah untuk THR (periksa)."
            },
            "img": "../../assets/bg/mature-professional.jpg"
           },
@@ -44199,17 +44199,17 @@ window.MT_LMS['the-route'] = {
            "id": "Tunjangan tidak tetap",
            "d": {
             "en": "Per day worked: transport, meals; falls when you are on leave or remote.",
-            "id": "Per hari kerja: transportasi, makan; turun saat cuti atau jarak jauh."
+            "id": "Per hari kerja: transpor, makan; berkurang saat kamu cuti atau bekerja jarak jauh."
            },
            "img": "../../assets/bg/ch1-realization.jpg"
           },
           {
            "icon": "calendar",
-           "en": "Holiday bonus",
+           "en": "THR",
            "id": "THR",
            "d": {
             "en": "A religious-holiday allowance, at least one month’s wage after twelve months (verify).",
-            "id": "Tunjangan hari raya, minimal satu bulan upah setelah dua belas bulan (verifikasi)."
+            "id": "Tunjangan hari raya keagamaan, paling sedikit satu bulan upah setelah dua belas bulan (periksa)."
            },
            "img": "../../assets/bg/fg-stage-horizon.jpg"
           },
@@ -44219,17 +44219,17 @@ window.MT_LMS['the-route'] = {
            "id": "Bonus atau insentif",
            "d": {
             "en": "Performance or company-result pay; contractual or discretionary? Paid on which date?",
-            "id": "Bayaran kinerja atau hasil perusahaan; kontraktual atau diskresi? Dibayar tanggal berapa?"
+            "id": "Bayaran atas kinerja atau hasil perusahaan; tercantum di kontrak atau diskresioner? Dibayar tanggal berapa?"
            },
            "img": "../../assets/pe/ed-writing.jpg"
           },
           {
            "icon": "shield",
-           "en": "Statutory social insurance",
+           "en": "BPJS",
            "id": "BPJS",
            "d": {
             "en": "Health and employment programmes; the employer’s share is real money paid because you work there.",
-            "id": "Program kesehatan dan ketenagakerjaan; bagian pemberi kerja adalah uang nyata yang dibayar karena kamu bekerja di sana."
+            "id": "Program kesehatan dan ketenagakerjaan; bagian pemberi kerja adalah uang sungguhan yang dibayarkan karena kamu bekerja di sana."
            },
            "img": "../../assets/bg/stage-graduation.jpg"
           },
@@ -44239,7 +44239,7 @@ window.MT_LMS['the-route'] = {
            "id": "Manfaat",
            "d": {
             "en": "Insurance, devices, training, loans at staff rates: count what you would otherwise buy.",
-            "id": "Asuransi, perangkat, pelatihan, pinjaman tarif karyawan: hitung yang seharusnya kamu beli sendiri."
+            "id": "Asuransi, perangkat, pelatihan, pinjaman dengan bunga karyawan: hitung apa yang kalau tidak ada harus kamu beli sendiri."
            },
            "img": "../../assets/bg/ep-stage-architecture.jpg"
           },
@@ -44249,18 +44249,18 @@ window.MT_LMS['the-route'] = {
            "id": "Pajak",
            "d": {
             "en": "PPh 21 withheld by the employer; the rules change, so verify the current ones.",
-            "id": "PPh 21 yang dipotong pemberi kerja; aturannya berubah, jadi verifikasi yang terkini."
+            "id": "PPh 21 dipotong pemberi kerja; aturannya berubah, jadi periksa aturan terbarunya."
            },
            "img": "../../assets/bg/ep-stage-transition.jpg"
           }
          ],
          "sub": {
-          "en": "Each layer is treated differently for the holiday bonus, statutory social insurance, overtime and tax (verify).",
-          "id": "Setiap lapisan diperlakukan berbeda untuk THR, BPJS, lembur, dan pajak (verifikasi)."
+          "en": "Each layer is treated differently for the THR, BPJS, overtime and tax (verify).",
+          "id": "Setiap lapisan diperlakukan berbeda untuk THR, BPJS, lembur, dan pajak (periksa)."
          },
          "band": {
           "en": "Take-home is not what you are paid; count all of it before you compare, negotiate or plan.",
-          "id": "Gaji bersih bukan yang dibayarkan kepadamu; hitung semuanya sebelum membandingkan, bernegosiasi, atau merencanakan."
+          "id": "Gaji bersih bukanlah seluruh bayaranmu; hitung semuanya sebelum membandingkan, bernegosiasi, atau merencanakan."
          },
          "em": {
           "en": "several currencies",
@@ -44271,13 +44271,13 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Compare yearly totals, not monthly base; the employer’s contributions count too",
-          "id": "Bandingkan total tahunan, bukan gaji pokok bulanan; iuran pemberi kerja juga dihitung"
+          "id": "Bandingkan total setahun, bukan gaji pokok sebulan; iuran dari pemberi kerja juga dihitung"
          },
          "cols": [
           {
            "l": {
             "en": "Annualise",
-            "id": "Setahunkan"
+            "id": "Hitung setahun"
            },
            "d": {
             "en": "One number for the year",
@@ -44292,17 +44292,17 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "sun",
              "en": "Non-fixed allowances at the days you actually work",
-             "id": "Tunjangan tidak tetap sesuai hari yang benar-benar kamu kerjakan"
+             "id": "Tunjangan tidak tetap sesuai hari kerja yang sebenarnya"
             },
             {
              "icon": "star",
-             "en": "The holiday bonus and a conservative bonus",
-             "id": "THR dan bonus yang konservatif"
+             "en": "The THR and a conservative bonus",
+             "id": "THR dan perkiraan bonus yang konservatif"
             },
             {
              "icon": "shield",
              "en": "The employer’s statutory contributions and benefits you would otherwise buy",
-             "id": "Iuran wajib pemberi kerja dan manfaat yang seharusnya kamu beli sendiri"
+             "id": "Iuran wajib dari pemberi kerja dan manfaat yang kalau tidak ada harus kamu beli sendiri"
             }
            ],
            "icon": "calendar"
@@ -44314,18 +44314,18 @@ window.MT_LMS['the-route'] = {
            },
            "d": {
             "en": "What the deductions buy",
-            "id": "Yang dibeli potongan"
+            "id": "Apa yang dibeli oleh potongannya"
            },
            "items": [
             {
              "icon": "heart",
-             "en": "Public health insurance: national cover, shared contribution up to a cap",
-             "id": "Jaminan kesehatan: perlindungan nasional, iuran bersama sampai batas"
+             "en": "BPJS Kesehatan: national cover, shared contribution up to a cap",
+             "id": "BPJS Kesehatan: jaminan nasional, iuran ditanggung bersama sampai batas tertentu"
             },
             {
              "icon": "wallet",
              "en": "Old-age savings (JHT) and pension (JP): claimable under conditions",
-             "id": "Jaminan hari tua (JHT) dan pensiun (JP): bisa diklaim dengan syarat"
+             "id": "Jaminan hari tua (JHT) dan pensiun (JP): bisa dicairkan dengan syarat tertentu"
             },
             {
              "icon": "shield",
@@ -44335,7 +44335,7 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "calc",
              "en": "Income tax withheld; check the status and the number used",
-             "id": "Pajak penghasilan yang dipotong; periksa status dan angka yang dipakai"
+             "id": "PPh yang dipotong; cek status dan angka yang dipakai"
             }
            ],
            "icon": "search"
@@ -44346,29 +44346,29 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "Two sets of payslip lines reduce take-home but buy you something; it is worth knowing what (verify).",
-          "id": "Dua kelompok baris di slip gaji mengurangi gaji bersih tetapi membelikanmu sesuatu; layak diketahui apa (verifikasi)."
+          "id": "Dua kelompok baris di slip gaji mengurangi gaji bersih tetapi membelikanmu sesuatu; layak diketahui apa saja (periksa)."
          },
          "band": {
           "en": "Once a year, read every line of a payslip and ask what it is; an error found in month two is cheap.",
-          "id": "Setahun sekali, baca tiap baris slip gaji dan tanyakan apa itu; kesalahan yang ditemukan di bulan kedua itu murah."
+          "id": "Setahun sekali, baca setiap baris slip gaji dan tanyakan artinya; kesalahan yang ketahuan di bulan kedua murah biayanya."
          },
          "em": {
           "en": "yearly totals, not monthly base",
-          "id": "total tahunan, bukan gaji pokok bulanan"
+          "id": "total setahun, bukan gaji pokok sebulan"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Benchmark like for like, from three sources, and look for agreement",
-          "id": "Bandingkan setara dengan setara, dari tiga sumber, dan cari kesepakatannya"
+          "id": "Bandingkan secara setara, dari tiga sumber, dan cari titik temunya"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "doc",
            "en": "Recruitment-firm salary guides",
-           "id": "Panduan gaji firma rekrutmen",
+           "id": "Panduan gaji dari firma rekrutmen",
            "d": {
             "en": "Ranges by role and sector; skewed to larger employers, often base only.",
             "id": "Rentang menurut peran dan sektor; condong ke pemberi kerja besar, sering hanya gaji pokok."
@@ -44378,62 +44378,62 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "search",
            "en": "Job-posting ranges",
-           "id": "Rentang di lowongan",
+           "id": "Rentang gaji di lowongan",
            "d": {
             "en": "Current and specific; few postings show them.",
-            "id": "Terkini dan spesifik; sedikit lowongan yang menampilkannya."
+            "id": "Terkini dan spesifik; sedikit lowongan yang mencantumkannya."
            },
            "img": "../../assets/bg/fg-sprint-positioning.jpg"
           },
           {
            "icon": "phone",
            "en": "Recruiters",
-           "id": "Perekrut",
+           "id": "Rekruter",
            "d": {
             "en": "A live market view, and they will often share a range; interested in moving you.",
-            "id": "Pandangan pasar langsung, dan sering mau berbagi rentang; berkepentingan memindahkanmu."
+            "id": "Gambaran pasar terkini, dan sering mau berbagi rentang; berkepentingan membuatmu pindah."
            },
            "img": "../../assets/pe/th-network.jpg"
           },
           {
            "icon": "users",
            "en": "Peers and alumni",
-           "id": "Rekan dan alumni",
+           "id": "Rekan sebaya dan alumni",
            "d": {
             "en": "Real totals, including benefits; a small sample that requires trust both ways.",
-            "id": "Total nyata, termasuk manfaat; sampel kecil yang butuh kepercayaan dua arah."
+            "id": "Total yang nyata, termasuk manfaat; sampelnya kecil dan butuh saling percaya."
            },
            "img": "../../assets/bg/alumni.jpg"
           }
          ],
          "sub": {
           "en": "The same level of responsibility, not the same title; the same sector; the same city; total compensation against total compensation.",
-          "id": "Tingkat tanggung jawab yang sama, bukan jabatan yang sama; sektor yang sama; kota yang sama; total kompensasi terhadap total kompensasi."
+          "id": "Tingkat tanggung jawab yang sama, bukan jabatan yang sama; sektor yang sama; kota yang sama; total kompensasi dibanding total kompensasi."
          },
          "band": {
           "en": "Benchmarking replaces a friend’s salary, a recruiter’s teaser and a viral post with a range.",
-          "id": "Pembandingan mengganti gaji teman, umpan perekrut, dan unggahan viral dengan sebuah rentang."
+          "id": "Membandingkan dengan benar mengganti gaji teman, iming-iming rekruter, dan unggahan viral dengan sebuah rentang."
          },
          "em": {
           "en": "like for like",
-          "id": "setara dengan setara"
+          "id": "secara setara"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Know your number without being preoccupied by it; where you sit decides the usual next step",
-          "id": "Ketahui angkamu tanpa terobsesi padanya; posisimu menentukan langkah berikutnya yang lazim"
+          "id": "Ketahui angkamu tanpa terobsesi; posisimu menentukan langkah berikutnya yang lazim"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "check",
            "en": "Within range, rare capital",
-           "id": "Dalam rentang, modal langka",
+           "id": "Di dalam rentang, modal langka",
            "d": {
             "en": "Keep pace with inflation; let the capital compound.",
-            "id": "Ikuti laju inflasi; biarkan modalnya berlipat."
+            "id": "Jaga agar tidak tertinggal inflasi; biarkan modalmu bertumbuh."
            },
            "img": "../../assets/bg/hero.jpg"
           },
@@ -44443,28 +44443,28 @@ window.MT_LMS['the-route'] = {
            "id": "Di bawah rentang",
            "d": {
             "en": "A documented market-adjustment or promotion case, with Module 5’s evidence.",
-            "id": "Kasus penyesuaian pasar atau promosi yang terdokumentasi, dengan bukti Modul 5."
+            "id": "Argumen tertulis untuk penyesuaian gaji sesuai pasar atau promosi, dengan bukti dari Modul 5."
            },
            "img": "../../assets/bg/ep-stage-acceleration.jpg"
           },
           {
            "icon": "arrow",
            "en": "Below range, no path inside",
-           "id": "Di bawah rentang, tanpa jalur di dalam",
+           "id": "Di bawah rentang, tanpa jalan di dalam",
            "d": {
             "en": "An internal or external move, evaluated with Module 7.",
-            "id": "Langkah internal atau eksternal, dinilai dengan Modul 7."
+            "id": "Pindah di dalam atau keluar, dievaluasi dengan Modul 7."
            },
            "img": "../../assets/bg/fg-sprint-direction.jpg"
           }
          ],
          "sub": {
           "en": "A raise below inflation is a pay cut you did not notice; the number protects you in a negotiation, a decision and a plan.",
-          "id": "Kenaikan di bawah inflasi adalah potongan gaji yang tak kamu sadari; angkanya melindungimu dalam negosiasi, keputusan, dan rencana."
+          "id": "Kenaikan gaji di bawah inflasi adalah pemotongan gaji yang tidak kamu sadari; angkanya melindungimu saat bernegosiasi, memutuskan, dan merencanakan."
          },
          "band": {
           "en": "Three ethical lines: respect confidentiality rules, never misstate your current package, and use what peers share only as they intended.",
-          "id": "Tiga garis etika: hormati aturan kerahasiaan, jangan pernah salah menyatakan paketmu saat ini, dan pakai yang dibagikan rekan hanya seperti yang mereka maksud."
+          "id": "Tiga garis etika: hormati aturan kerahasiaan, jangan pernah melebih-lebihkan paketmu sekarang, dan pakai apa yang dibagikan rekan hanya sesuai maksud mereka."
          },
          "em": {
           "en": "where you sit",
@@ -44483,7 +44483,7 @@ window.MT_LMS['the-route'] = {
       },
       "title": {
        "en": "Take-home is not what you are paid",
-       "id": "Gaji bersih bukan yang dibayarkan kepadamu"
+       "id": "Gaji bersih bukanlah seluruh bayaranmu"
       },
       "intro": {
        "en": "Your work is paid in several currencies. Count all of them before you compare, negotiate or plan.",
@@ -44493,11 +44493,11 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Decompose",
-         "id": "Urai"
+         "id": "Bedah"
         },
         "points": [
          {
-          "en": "Base, allowances, holiday bonus, bonus, statutory social insurance, benefits, tax.",
+          "en": "Base, allowances, THR, bonus, BPJS, benefits, tax.",
           "id": "Gaji pokok, tunjangan, THR, bonus, BPJS, manfaat, pajak."
          }
         ]
@@ -44505,12 +44505,12 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Annualise",
-         "id": "Setahunkan"
+         "id": "Hitung setahun"
         },
         "points": [
          {
           "en": "Compare yearly totals, not monthly base.",
-          "id": "Bandingkan total tahunan, bukan gaji pokok bulanan."
+          "id": "Bandingkan total setahun, bukan gaji pokok sebulan."
          }
         ]
        },
@@ -44522,7 +44522,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Like for like: level, sector, city, from three sources.",
-          "id": "Setara dengan setara: level, sektor, kota, dari tiga sumber."
+          "id": "Secara setara: level, sektor, kota, dari tiga sumber."
          }
         ]
        },
@@ -44534,7 +44534,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "A raise below inflation is a pay cut you did not notice.",
-          "id": "Kenaikan di bawah inflasi adalah potongan gaji yang tak kamu sadari."
+          "id": "Kenaikan gaji di bawah inflasi adalah pemotongan gaji yang tidak kamu sadari."
          }
         ]
        }
@@ -44550,8 +44550,8 @@ window.MT_LMS['the-route'] = {
         "id": "Bagian-bagian gajimu"
        },
        "body": {
-        "en": "Open your last payslip and your contract side by side. Indonesian pay typically has several layers, and each is treated differently for holiday bonus, statutory social insurance, overtime and tax. <b>Base salary</b> (gaji pokok) is the core. <b>Fixed allowances</b> (tunjangan tetap) are paid regularly regardless of attendance, a position or location allowance, for example, and together with base they usually form the “wage” on which holiday bonus and some contributions are calculated <span class=\"ev ev-verify\">Verify</span>. <b>Non-fixed allowances</b> (tunjangan tidak tetap) depend on attendance or activity, transport or meal allowances paid per day worked. <b>holiday bonus</b> (Tunjangan Hari Raya) is a religious-holiday allowance required by regulation; employees with twelve months or more of service generally receive at least one month’s wage, and those with shorter service a pro-rata amount <span class=\"ev ev-verify\">Verify</span>. <b>Bonuses and incentives</b> vary widely: some are contractual, many are discretionary, and many are paid only to people employed on a certain date (Lesson 7.1). <b>Overtime</b>, where it applies, is calculated under PP 35/2021 <span class=\"ev ev-verify\">Verify</span>. <b>Benefits</b> include statutory social insurance programmes (next section), private health or life insurance, pension plans such as a DPLK, leave, training, and benefits in kind such as a phone, housing or meals. Finally, <b>tax</b>, PPh 21, is withheld by your employer each month under rules that have changed in recent years <span class=\"ev ev-verify\">Verify</span>. Once you can name each line on your payslip, add them up for a year. That annual figure, not the monthly base, is your <b>total compensation</b>, and it is the only number that is fair to compare with another offer.",
-        "id": "Buka slip gaji terakhirmu dan kontrakmu berdampingan. Gaji di Indonesia biasanya punya beberapa lapisan, dan masing-masing diperlakukan berbeda untuk THR, BPJS, lembur, dan pajak. <b>Gaji pokok</b> adalah intinya. <b>Tunjangan tetap</b> dibayarkan rutin tanpa bergantung pada kehadiran, tunjangan jabatan atau lokasi, misalnya, dan bersama gaji pokok biasanya membentuk “upah” yang menjadi dasar perhitungan THR dan sebagian iuran <span class=\"ev ev-verify\">Verifikasi</span>. <b>Tunjangan tidak tetap</b> bergantung pada kehadiran atau aktivitas, uang transport atau makan yang dibayar per hari kerja. <b>THR</b> (Tunjangan Hari Raya) adalah tunjangan hari raya keagamaan yang diwajibkan regulasi; karyawan dengan masa kerja dua belas bulan atau lebih umumnya menerima paling sedikit satu bulan upah, dan yang masa kerjanya lebih pendek secara proporsional <span class=\"ev ev-verify\">Verifikasi</span>. <b>Bonus dan insentif</b> sangat beragam: sebagian tercantum dalam kontrak, banyak yang diskresioner, dan banyak yang hanya dibayarkan kepada yang masih bekerja pada tanggal tertentu (Pelajaran 7.1). <b>Lembur</b>, bila berlaku, dihitung menurut PP 35/2021 <span class=\"ev ev-verify\">Verifikasi</span>. <b>Manfaat</b> mencakup program BPJS (bagian berikut), asuransi kesehatan atau jiwa swasta, program pensiun seperti DPLK, cuti, pelatihan, dan manfaat natura seperti ponsel, tempat tinggal, atau makan. Terakhir, <b>pajak</b>, PPh 21, dipotong pemberi kerjamu setiap bulan dengan aturan yang berubah dalam beberapa tahun terakhir <span class=\"ev ev-verify\">Verifikasi</span>. Setelah kamu bisa menyebut setiap baris di slip gajimu, jumlahkan untuk setahun. Angka tahunan itu, bukan gaji pokok bulanan, adalah <b>total kompensasimu</b>, dan satu-satunya angka yang adil untuk dibandingkan dengan tawaran lain."
+        "en": "Open your last payslip and your contract side by side. Indonesian pay typically has several layers, and each is treated differently for THR, BPJS, overtime and tax. <b>Base salary</b> (gaji pokok) is the core. <b>Fixed allowances</b> (tunjangan tetap) are paid regularly regardless of attendance (a position or location allowance, for example), and together with base they usually form the “wage” on which THR and some contributions are calculated <span class=\"ev ev-verify\">Verify</span>. <b>Non-fixed allowances</b> (tunjangan tidak tetap) depend on attendance or activity: transport or meal allowances paid per day worked. <b>THR</b> (Tunjangan Hari Raya) is a religious-holiday allowance required by regulation; employees with twelve months or more of service generally receive at least one month’s wage, and those with shorter service a pro-rata amount <span class=\"ev ev-verify\">Verify</span>. <b>Bonuses and incentives</b> vary widely: some are contractual, many are discretionary, and many are paid only to people employed on a certain date (Lesson 7.1). <b>Overtime</b>, where it applies, is calculated under PP 35/2021 <span class=\"ev ev-verify\">Verify</span>. <b>Benefits</b> include BPJS programmes (next section), private health or life insurance, pension plans such as a DPLK, leave, training, and benefits in kind such as a phone, housing or meals. Finally, <b>tax</b> (PPh 21) is withheld by your employer each month under rules that have changed in recent years <span class=\"ev ev-verify\">Verify</span>. Once you can name each line on your payslip, add them up for a year. That annual figure, not the monthly base, is your <b>total compensation</b>, and it is the only number that is fair to compare with another offer.",
+        "id": "Buka slip gaji terakhir dan kontrakmu berdampingan. Gaji di Indonesia biasanya punya beberapa lapisan, dan masing-masing diperlakukan berbeda untuk THR, BPJS, lembur, dan pajak. <b>Gaji pokok</b> adalah intinya. <b>Tunjangan tetap</b> dibayar rutin tanpa bergantung pada kehadiran (misalnya tunjangan jabatan atau lokasi), dan bersama gaji pokok biasanya membentuk “upah” yang menjadi dasar perhitungan THR dan sebagian iuran <span class=\"ev ev-verify\">Periksa</span>. <b>Tunjangan tidak tetap</b> bergantung pada kehadiran atau kegiatan, misalnya uang transpor atau uang makan yang dibayar per hari kerja. <b>THR</b> (Tunjangan Hari Raya) adalah tunjangan hari raya keagamaan yang diwajibkan peraturan; karyawan dengan masa kerja dua belas bulan atau lebih umumnya menerima paling sedikit satu bulan upah, dan yang masa kerjanya lebih pendek menerima secara proporsional <span class=\"ev ev-verify\">Periksa</span>. <b>Bonus dan insentif</b> sangat beragam: sebagian tercantum di kontrak, banyak yang diskresioner, dan banyak yang hanya dibayarkan kepada karyawan yang masih bekerja pada tanggal tertentu (Pelajaran 7.1). <b>Lembur</b>, bila berlaku, dihitung berdasarkan PP 35/2021 <span class=\"ev ev-verify\">Periksa</span>. <b>Manfaat</b> mencakup program BPJS (bagian berikutnya), asuransi kesehatan atau jiwa swasta, program pensiun seperti DPLK, cuti, pelatihan, serta fasilitas seperti ponsel, tempat tinggal, atau makan. Terakhir, <b>pajak</b> (PPh 21) dipotong pemberi kerjamu setiap bulan berdasarkan aturan yang sudah beberapa kali berubah dalam beberapa tahun terakhir <span class=\"ev ev-verify\">Periksa</span>. Setelah kamu bisa menyebut arti setiap baris di slip gajimu, jumlahkan semuanya untuk setahun. Angka tahunan itulah, bukan gaji pokok bulanan, yang menjadi <b>total kompensasimu</b>, dan hanya angka itu yang adil dibandingkan dengan tawaran lain."
        },
        "table": {
         "cols": [
@@ -44565,7 +44565,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Watch for",
-          "id": "Perhatikan"
+          "id": "Yang perlu diperhatikan"
          }
         ],
         "rows": [
@@ -44576,11 +44576,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Core monthly pay",
-           "id": "Gaji inti bulanan"
+           "id": "Bayaran inti bulanan"
           },
           {
            "en": "Often the basis for raises and some benefits",
-           "id": "Sering menjadi dasar kenaikan dan sebagian manfaat"
+           "id": "Sering menjadi dasar kenaikan gaji dan sebagian manfaat"
           }
          ],
          [
@@ -44590,11 +44590,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Regular, not tied to attendance",
-           "id": "Rutin, tak terkait kehadiran"
+           "id": "Rutin, tidak terkait kehadiran"
           },
           {
-           "en": "Usually counted in the wage for holiday bonus <span class=\"ev ev-verify\">Verify</span>",
-           "id": "Biasanya dihitung dalam upah untuk THR <span class=\"ev ev-verify\">Verifikasi</span>"
+           "en": "Usually counted in the wage for THR <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Biasanya dihitung dalam upah untuk THR <span class=\"ev ev-verify\">Periksa</span>"
           }
          ],
          [
@@ -44604,16 +44604,16 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Per day worked: transport, meals",
-           "id": "Per hari kerja: transport, makan"
+           "id": "Per hari kerja: transpor, makan"
           },
           {
            "en": "Falls when you are on leave or remote",
-           "id": "Turun saat cuti atau kerja jarak jauh"
+           "id": "Berkurang saat kamu cuti atau bekerja jarak jauh"
           }
          ],
          [
           {
-           "en": "<b>holiday bonus</b>",
+           "en": "<b>THR</b>",
            "id": "<b>THR</b>"
           },
           {
@@ -44622,7 +44622,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "At least one month’s wage after 12 months <span class=\"ev ev-verify\">Verify</span>",
-           "id": "Paling sedikit satu bulan upah setelah 12 bulan <span class=\"ev ev-verify\">Verifikasi</span>"
+           "id": "Paling sedikit satu bulan upah setelah 12 bulan <span class=\"ev ev-verify\">Periksa</span>"
           }
          ],
          [
@@ -44632,11 +44632,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Performance or company-result pay",
-           "id": "Bayaran berdasarkan kinerja atau hasil perusahaan"
+           "id": "Bayaran atas kinerja atau hasil perusahaan"
           },
           {
            "en": "Contractual or discretionary? Paid on which date?",
-           "id": "Kontraktual atau diskresioner? Dibayar tanggal berapa?"
+           "id": "Tercantum di kontrak atau diskresioner? Dibayar pada tanggal berapa?"
           }
          ],
          [
@@ -44645,12 +44645,12 @@ window.MT_LMS['the-route'] = {
            "id": "<b>Manfaat</b>"
           },
           {
-           "en": "statutory social insurance, insurance, pension, leave, in kind",
-           "id": "BPJS, asuransi, pensiun, cuti, natura"
+           "en": "BPJS, insurance, pension, leave, in kind",
+           "id": "BPJS, asuransi, pensiun, cuti, fasilitas"
           },
           {
            "en": "Employer contributions are part of your pay",
-           "id": "Iuran pemberi kerja adalah bagian dari bayaranmu"
+           "id": "Iuran dari pemberi kerja adalah bagian dari bayaranmu"
           }
          ],
          [
@@ -44660,29 +44660,29 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Income tax withheld monthly",
-           "id": "Pajak penghasilan dipotong bulanan"
+           "id": "Pajak penghasilan yang dipotong setiap bulan"
           },
           {
            "en": "Withholding method changes; check the annual reconciliation <span class=\"ev ev-verify\">Verify</span>",
-           "id": "Metode pemotongan berubah; periksa rekonsiliasi tahunan <span class=\"ev ev-verify\">Verifikasi</span>"
+           "id": "Metode pemotongannya berubah; cek rekonsiliasi tahunannya <span class=\"ev ev-verify\">Periksa</span>"
           }
          ]
         ],
         "caption": {
-         "en": "Education, not tax or legal advice. Definitions and thresholds are set by regulation and change, verify current rules.",
-         "id": "Edukasi, bukan nasihat pajak atau hukum. Definisi dan ambang ditetapkan regulasi dan berubah, verifikasi aturan terkini."
+         "en": "Education, not tax or legal advice. Definitions and thresholds are set by regulation and change; verify current rules.",
+         "id": "Edukasi, bukan nasihat pajak atau hukum. Definisi dan ambang batasnya ditetapkan peraturan dan bisa berubah; periksa aturan terbaru."
         }
        }
       },
       {
        "icon": "gear",
        "h": {
-        "en": "statutory social insurance, tax and the payslip audit",
+        "en": "BPJS, tax and the payslip audit",
         "id": "BPJS, pajak, dan audit slip gaji"
        },
        "body": {
-        "en": "Two sets of lines on your payslip reduce take-home pay but buy you something, and it is worth knowing what. <b>public health insurance</b> provides national health insurance; the contribution is shared between employer and employee as a percentage of the wage, up to a cap <span class=\"ev ev-verify\">Verify</span>. <b>statutory employment insurance</b> runs several programmes: <b>JHT</b> (old-age savings, which you can claim under specified conditions), <b>JP</b> (a pension programme), <b>JKK</b> (work-accident protection), <b>JKM</b> (death benefit) and, more recently, <b>JKP</b> (job-loss protection). Each with its own contribution split and rules <span class=\"ev ev-verify\">Verify</span>. The employer’s share is real money the employer pays because you work there; count it in your total compensation, and check your statutory social insurance balance through the official app from time to time, errors and unpaid contributions do happen. <b>PPh 21</b> is withheld monthly and reconciled over the year; your employer should give you an annual withholding slip (bukti potong) that you need for your own tax return <span class=\"ev ev-verify\">Verify</span>. A useful habit is the <b>payslip audit</b>, twice a year: check that every component matches your contract, that allowances changed when your role changed, that statutory social insurance deductions and balances agree, that overtime (where it applies) is paid correctly, and that holiday bonus arrived on time and in full. If something is wrong, raise it politely with HR in writing, with the payslip attached. Most errors are administrative and are fixed quickly. The audit also has a second purpose: it produces the exact numbers you will need when you benchmark, negotiate or plan your savings in Lesson 8.2.",
-        "id": "Dua kelompok baris di slip gajimu mengurangi gaji bersih tetapi membelikanmu sesuatu, dan layak diketahui apa itu. <b>BPJS Kesehatan</b> menyediakan jaminan kesehatan nasional; iurannya dibagi antara pemberi kerja dan karyawan sebagai persentase upah, sampai batas atas tertentu <span class=\"ev ev-verify\">Verifikasi</span>. <b>BPJS Ketenagakerjaan</b> menjalankan beberapa program: <b>JHT</b> (tabungan hari tua, yang bisa kamu klaim dengan syarat tertentu), <b>JP</b> (program pensiun), <b>JKK</b> (perlindungan kecelakaan kerja), <b>JKM</b> (santunan kematian), dan, belakangan, <b>JKP</b> (jaminan kehilangan pekerjaan), masing-masing dengan pembagian iuran dan aturannya sendiri <span class=\"ev ev-verify\">Verifikasi</span>. Bagian pemberi kerja adalah uang nyata yang dibayarkan karena kamu bekerja di sana; hitung dalam total kompensasimu, dan sesekali periksa saldo BPJS-mu lewat aplikasi resmi, kesalahan dan iuran yang tak dibayar memang terjadi. <b>PPh 21</b> dipotong bulanan dan direkonsiliasi sepanjang tahun; pemberi kerjamu semestinya memberikan bukti potong tahunan yang kamu butuhkan untuk SPT-mu sendiri <span class=\"ev ev-verify\">Verifikasi</span>. Kebiasaan yang berguna adalah <b>audit slip gaji</b>, dua kali setahun: periksa bahwa setiap komponen sesuai kontrakmu, bahwa tunjangan berubah saat peranmu berubah, bahwa potongan dan saldo BPJS cocok, bahwa lembur (bila berlaku) dibayar dengan benar, dan bahwa THR datang tepat waktu dan penuh. Jika ada yang salah, sampaikan dengan sopan kepada HR secara tertulis, dengan slip gaji terlampir. Kebanyakan kesalahan bersifat administratif dan cepat diperbaiki. Audit ini juga punya tujuan kedua: ia menghasilkan angka pasti yang akan kamu butuhkan saat membandingkan, bernegosiasi, atau merencanakan tabungan di Pelajaran 8.2."
+        "en": "Two sets of lines on your payslip reduce take-home pay but buy you something, and it is worth knowing what. <b>BPJS Kesehatan</b> provides national health insurance; the contribution is shared between employer and employee as a percentage of the wage, up to a cap <span class=\"ev ev-verify\">Verify</span>. <b>BPJS Ketenagakerjaan</b> runs several programmes: <b>JHT</b> (old-age savings, which you can claim under specified conditions), <b>JP</b> (a pension programme), <b>JKK</b> (work-accident protection), <b>JKM</b> (death benefit) and, more recently, <b>JKP</b> (job-loss protection), each with its own contribution split and rules <span class=\"ev ev-verify\">Verify</span>. The employer’s share is real money the employer pays because you work there; count it in your total compensation, and check your BPJS balance through the official app from time to time; errors and unpaid contributions do happen. <b>PPh 21</b> is withheld monthly and reconciled over the year; your employer should give you an annual withholding slip (bukti potong) that you need for your own tax return <span class=\"ev ev-verify\">Verify</span>. A useful habit is the <b>payslip audit</b>, twice a year: check that every component matches your contract, that allowances changed when your role changed, that BPJS deductions and balances agree, that overtime (where it applies) is paid correctly, and that THR arrived on time and in full. If something is wrong, raise it politely with HR in writing, with the payslip attached. Most errors are administrative and are fixed quickly. The audit also has a second purpose: it produces the exact numbers you will need when you benchmark, negotiate or plan your savings in Lesson 8.2.",
+        "id": "Dua kelompok baris di slip gajimu mengurangi gaji bersih, tetapi membelikanmu sesuatu, dan layak diketahui apa saja. <b>BPJS Kesehatan</b> menyediakan jaminan kesehatan nasional; iurannya ditanggung bersama pemberi kerja dan karyawan sebagai persentase dari upah, sampai batas tertentu <span class=\"ev ev-verify\">Periksa</span>. <b>BPJS Ketenagakerjaan</b> menjalankan beberapa program: <b>JHT</b> (jaminan hari tua, yang bisa kamu cairkan dengan syarat tertentu), <b>JP</b> (jaminan pensiun), <b>JKK</b> (jaminan kecelakaan kerja), <b>JKM</b> (jaminan kematian), dan yang lebih baru, <b>JKP</b> (jaminan kehilangan pekerjaan), masing-masing dengan pembagian iuran dan aturannya sendiri <span class=\"ev ev-verify\">Periksa</span>. Bagian pemberi kerja adalah uang sungguhan yang dibayarkan karena kamu bekerja di sana; hitung sebagai bagian dari total kompensasimu, dan sesekali cek saldo BPJS-mu lewat aplikasi resminya, karena kesalahan dan iuran yang tidak disetor memang bisa terjadi. <b>PPh 21</b> dipotong setiap bulan dan direkonsiliasi di akhir tahun; pemberi kerjamu seharusnya memberimu bukti potong tahunan yang kamu perlukan untuk SPT-mu sendiri <span class=\"ev ev-verify\">Periksa</span>. Kebiasaan yang berguna adalah <b>audit slip gaji</b> dua kali setahun: cek bahwa setiap komponen sesuai kontrakmu, tunjangan ikut berubah saat peranmu berubah, potongan dan saldo BPJS cocok, lembur (bila berlaku) dibayar dengan benar, dan THR datang tepat waktu dan penuh. Kalau ada yang salah, sampaikan dengan sopan kepada HR secara tertulis, dengan melampirkan slip gajinya. Kebanyakan kesalahan bersifat administratif dan cepat diperbaiki. Audit ini juga punya tujuan kedua: menghasilkan angka-angka persis yang kamu butuhkan saat membandingkan gaji, bernegosiasi, atau merencanakan tabungan di Pelajaran 8.2."
        },
        "bullets": [
         {
@@ -44690,15 +44690,15 @@ window.MT_LMS['the-route'] = {
          "id": "<b>Cocokkan</b>: setiap komponen dengan kontrak dan peran terbarumu."
         },
         {
-         "en": "<b>statutory social insurance</b>: deductions on the payslip agree with balances in the official app.",
-         "id": "<b>BPJS</b>: potongan di slip cocok dengan saldo di aplikasi resmi."
+         "en": "<b>BPJS</b>: deductions on the payslip agree with balances in the official app.",
+         "id": "<b>BPJS</b>: potongan di slip gaji cocok dengan saldo di aplikasi resminya."
         },
         {
          "en": "<b>Tax</b>: monthly PPh 21 and the annual withholding slip.",
          "id": "<b>Pajak</b>: PPh 21 bulanan dan bukti potong tahunan."
         },
         {
-         "en": "<b>holiday bonus and overtime</b>: on time, in full, where they apply.",
+         "en": "<b>THR and overtime</b>: on time, in full, where they apply.",
          "id": "<b>THR dan lembur</b>: tepat waktu, penuh, bila berlaku."
         }
        ]
@@ -44707,11 +44707,11 @@ window.MT_LMS['the-route'] = {
        "icon": "chart",
        "h": {
         "en": "Benchmarking like for like",
-        "id": "Membandingkan setara dengan setara"
+        "id": "Membandingkan secara setara"
        },
        "body": {
-        "en": "Most people’s sense of their market value comes from a few anecdotes: a friend’s salary, a recruiter’s teaser, a viral post. Benchmarking replaces anecdotes with a range. Three principles keep it honest. <b>Compare like with like</b>: the same level of responsibility (not the same title), the same sector (banking pays differently from fintech, which pays differently from government), the same city (Jakarta, Surabaya and Semarang are different labour markets), and the same basis, total compensation against total compensation, not your base against someone else’s package. <b>Use several sources</b> and look for agreement: published salary guides from recruitment firms (useful for ranges, but often skewed toward larger employers); pay ranges in job postings where they are shown; conversations with recruiters, who will often share a range if you ask directly; your professional association or alumni network; and honest exchanges with peers you trust, in both directions. No single source is reliable; three that roughly agree are a benchmark. <b>Think in real terms</b>: a raise below inflation is a pay cut you did not notice. Indonesia’s statistics agency, BPS, publishes inflation figures <span class=\"ev ev-verify\">Verify</span>; if your pay rose five per cent in a year when prices rose three, your real raise was about two. Then quantify the gap: where does your total compensation sit in the range, bottom, middle, top, and what explains it? Early in a career, being in the lower half of a range is often reasonable when the role is building rare capital (Lesson 7.1); being below the range for your level and sector for years is information worth acting on, through the promotion conversation (Module 5), an internal move (Lesson 7.3), or an external one.",
-        "id": "Rasa nilai pasar kebanyakan orang berasal dari beberapa anekdot: gaji teman, bocoran rekruter, unggahan viral. Membandingkan mengganti anekdot dengan rentang. Tiga prinsip menjaganya jujur. <b>Bandingkan setara dengan setara</b>: tingkat tanggung jawab yang sama (bukan jabatan yang sama), sektor yang sama (perbankan membayar berbeda dari fintech, yang berbeda lagi dari pemerintahan), kota yang sama (Jakarta, Surabaya, dan Semarang adalah pasar tenaga kerja yang berbeda), dan dasar yang sama, total kompensasi dengan total kompensasi, bukan gaji pokokmu dengan paket orang lain. <b>Pakai beberapa sumber</b> dan cari kesepakatannya: panduan gaji yang diterbitkan perusahaan rekrutmen (berguna untuk rentang, tetapi sering condong ke pemberi kerja besar); rentang gaji di lowongan jika dicantumkan; percakapan dengan rekruter, yang sering mau berbagi rentang jika ditanya langsung; asosiasi profesi atau jaringan alumni; dan pertukaran jujur dengan rekan yang kamu percayai, dua arah. Tak ada satu sumber yang andal; tiga yang kurang lebih sepakat adalah patokan. <b>Berpikir dalam nilai riil</b>: kenaikan di bawah inflasi adalah potongan gaji yang tak kamu sadari. Badan Pusat Statistik (BPS) menerbitkan angka inflasi <span class=\"ev ev-verify\">Verifikasi</span>; jika gajimu naik lima persen di tahun ketika harga naik tiga, kenaikan riilmu sekitar dua. Lalu hitung selisihnya: di mana total kompensasimu berada dalam rentang, bawah, tengah, atas, dan apa yang menjelaskannya? Di awal karier, berada di separuh bawah rentang sering masuk akal bila perannya membangun modal langka (Pelajaran 7.1); berada di bawah rentang untuk level dan sektormu selama bertahun-tahun adalah informasi yang layak ditindaklanjuti, lewat percakapan promosi (Modul 5), perpindahan internal (Pelajaran 7.3), atau ke luar."
+        "en": "Most people’s sense of their market value comes from a few anecdotes: a friend’s salary, a recruiter’s teaser, a viral post. Benchmarking replaces anecdotes with a range. Three principles keep it honest. <b>Compare like with like</b>: the same level of responsibility (not the same title), the same sector (banking pays differently from fintech, which pays differently from government), the same city (Jakarta, Surabaya and Semarang are different labour markets), and the same basis: total compensation against total compensation, not your base against someone else’s package. <b>Use several sources</b> and look for agreement: published salary guides from recruitment firms (useful for ranges, but often skewed toward larger employers); pay ranges in job postings where they are shown; conversations with recruiters, who will often share a range if you ask directly; your professional association or alumni network; and honest exchanges with peers you trust, in both directions. No single source is reliable; three that roughly agree are a benchmark. <b>Think in real terms</b>: a raise below inflation is a pay cut you did not notice. Indonesia’s statistics agency, BPS, publishes inflation figures <span class=\"ev ev-verify\">Verify</span>; if your pay rose five per cent in a year when prices rose three, your real raise was about two. Then quantify the gap: where does your total compensation sit in the range (bottom, middle, top), and what explains it? Early in a career, being in the lower half of a range is often reasonable when the role is building rare capital (Lesson 7.1); being below the range for your level and sector for years is information worth acting on, through the promotion conversation (Module 5), an internal move (Lesson 7.3), or an external one.",
+        "id": "Perkiraan kebanyakan orang tentang nilai pasarnya datang dari segelintir cerita: gaji seorang teman, iming-iming rekruter, unggahan viral. Membandingkan dengan benar mengganti cerita-cerita itu dengan sebuah rentang. Ada tiga prinsip yang menjaganya tetap jujur. <b>Bandingkan yang setara</b>: tingkat tanggung jawab yang sama (bukan jabatan yang sama), sektor yang sama (bank membayar berbeda dari fintech, dan fintech berbeda dari pemerintahan), kota yang sama (Jakarta, Surabaya, dan Semarang adalah pasar tenaga kerja yang berbeda), dan dasar yang sama: total kompensasi dibanding total kompensasi, bukan gaji pokokmu dibanding paket orang lain. <b>Pakai beberapa sumber</b> dan cari titik temunya: panduan gaji yang diterbitkan firma rekrutmen (berguna untuk rentang, tetapi sering condong ke pemberi kerja besar); rentang gaji di lowongan kalau dicantumkan; obrolan dengan rekruter, yang sering mau berbagi rentang kalau ditanya langsung; asosiasi profesi atau jaringan alumnimu; dan pertukaran yang jujur dengan rekan yang kamu percaya, ke dua arah. Tidak ada satu sumber pun yang bisa diandalkan sendirian; tiga sumber yang kira-kira sepakat sudah menjadi patokan. <b>Berpikir dalam nilai riil</b>: kenaikan gaji di bawah inflasi adalah pemotongan gaji yang tidak kamu sadari. Badan Pusat Statistik (BPS) menerbitkan angka inflasi <span class=\"ev ev-verify\">Periksa</span>; kalau gajimu naik lima persen di tahun ketika harga naik tiga persen, kenaikan riilmu sekitar dua persen. Lalu ukur selisihnya: di mana posisi total kompensasimu dalam rentang itu (bawah, tengah, atas), dan apa yang menjelaskannya? Di awal karier, berada di separuh bawah rentang sering masih wajar kalau perannya sedang membangun modal yang langka (Pelajaran 7.1). Berada di bawah rentang untuk level dan sektormu selama bertahun-tahun adalah informasi yang layak ditindaklanjuti, lewat percakapan promosi (Modul 5), pindah di dalam (Pelajaran 7.3), atau pindah keluar."
        },
        "table": {
         "cols": [
@@ -44732,11 +44732,11 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Recruitment-firm salary guides",
-           "id": "Panduan gaji perusahaan rekrutmen"
+           "id": "Panduan gaji dari firma rekrutmen"
           },
           {
            "en": "Ranges by role and sector",
-           "id": "Rentang per peran dan sektor"
+           "id": "Rentang menurut peran dan sektor"
           },
           {
            "en": "Skewed to larger employers; often base only",
@@ -44746,7 +44746,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Job-posting ranges",
-           "id": "Rentang di lowongan"
+           "id": "Rentang gaji di lowongan"
           },
           {
            "en": "Current, specific",
@@ -44754,7 +44754,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Few postings show them",
-           "id": "Sedikit lowongan mencantumkannya"
+           "id": "Sedikit lowongan yang mencantumkannya"
           }
          ],
          [
@@ -44764,31 +44764,31 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Live market view; will often share a range",
-           "id": "Pandangan pasar terkini; sering mau berbagi rentang"
+           "id": "Gambaran pasar terkini; sering mau berbagi rentang"
           },
           {
            "en": "Interested in moving you",
-           "id": "Berkepentingan memindahkanmu"
+           "id": "Berkepentingan membuatmu pindah"
           }
          ],
          [
           {
            "en": "Peers and alumni",
-           "id": "Rekan dan alumni"
+           "id": "Rekan sebaya dan alumni"
           },
           {
            "en": "Real totals, including benefits",
-           "id": "Total nyata, termasuk manfaat"
+           "id": "Total yang nyata, termasuk manfaat"
           },
           {
            "en": "Small sample; requires trust both ways",
-           "id": "Sampel kecil; butuh kepercayaan dua arah"
+           "id": "Sampelnya kecil; butuh saling percaya"
           }
          ]
         ],
         "caption": {
          "en": "Course guidance. Use three sources that roughly agree.",
-         "id": "Panduan kursus. Pakai tiga sumber yang kurang lebih sepakat."
+         "id": "Panduan kursus. Pakai tiga sumber yang kira-kira sepakat."
         }
        }
       },
@@ -44796,11 +44796,11 @@ window.MT_LMS['the-route'] = {
        "icon": "target",
        "h": {
         "en": "Your number, your ethics, your next step",
-        "id": "Angkamu, etikamu, langkah berikutmu"
+        "id": "Angkamu, etikamu, langkah berikutnya"
        },
        "body": {
-        "en": "Knowing your number is not the same as being preoccupied with it. Pay is one of several things a role gives you, and Modules 1 and 7 argued that early in a career capital often matters more. But knowing the number protects you in three moments. <b>In a negotiation</b>: for an offer (The Rope, Module 10), a promotion (Lesson 5.3) or an internal move. You can speak about ranges and total compensation calmly instead of guessing. <b>In a decision</b>: Lesson 7.2’s comparison uses total compensation, not base. <b>In planning</b>: Lesson 8.2’s savings system starts from real take-home pay and real annual extras such as holiday bonus and bonus. Three ethical lines apply. <b>Confidentiality</b>: some employers ask staff not to disclose pay; check your contract and policy, and when you share with peers, share your own numbers, not colleagues’ <span class=\"ev ev-verify\">Verify</span>. <b>Honesty</b>: never inflate your current pay to a prospective employer; a figure you cannot support can undo an offer, and many employers verify. <b>Perspective</b>: pay comparisons are the fastest route to envy; compare to decide, not to feel better or worse. Finally, write down your <b>next step</b>: if your total compensation sits in the range for your level, sector and city, your job is to keep it there in real terms and let capital do its work. If it sits clearly below, decide which lever fits, the promotion conversation, a documented case for a market adjustment, an internal move or an external one, and when you will use it. A market-adjustment request, like a promotion case, is strongest with evidence: your benchmark range, your level’s expectations, and your results.",
-        "id": "Mengetahui angkamu tidak sama dengan terobsesi padanya. Gaji adalah salah satu dari beberapa hal yang diberikan sebuah peran, dan Modul 1 serta 7 berargumen bahwa di awal karier modal sering lebih penting. Tetapi mengetahui angkanya melindungimu di tiga momen. <b>Dalam negosiasi</b>: untuk tawaran (The Rope, Modul 10), promosi (Pelajaran 5.3), atau perpindahan internal. Kamu bisa berbicara tentang rentang dan total kompensasi dengan tenang alih-alih menebak. <b>Dalam keputusan</b>: perbandingan Pelajaran 7.2 memakai total kompensasi, bukan gaji pokok. <b>Dalam perencanaan</b>: sistem tabungan Pelajaran 8.2 dimulai dari gaji bersih nyata dan tambahan tahunan nyata seperti THR dan bonus. Tiga garis etis berlaku. <b>Kerahasiaan</b>: sebagian pemberi kerja meminta staf tidak membuka gaji; periksa kontrak dan kebijakanmu, dan saat berbagi dengan rekan, bagikan angkamu sendiri, bukan angka kolega <span class=\"ev ev-verify\">Verifikasi</span>. <b>Kejujuran</b>: jangan pernah menggelembungkan gajimu sekarang kepada calon pemberi kerja; angka yang tak bisa kamu dukung bisa membatalkan tawaran, dan banyak pemberi kerja memverifikasinya. <b>Perspektif</b>: perbandingan gaji adalah jalan tercepat menuju iri; bandingkan untuk memutuskan, bukan untuk merasa lebih baik atau lebih buruk. Terakhir, tulis <b>langkah berikutmu</b>: jika total kompensasimu ada dalam rentang untuk level, sektor, dan kotamu, tugasmu menjaganya tetap di sana dalam nilai riil dan membiarkan modal bekerja. Jika jelas di bawahnya, putuskan tuas mana yang cocok, percakapan promosi, kasus terdokumentasi untuk penyesuaian pasar, perpindahan internal, atau ke luar, dan kapan kamu akan memakainya. Permintaan penyesuaian pasar, seperti kasus promosi, paling kuat dengan bukti: rentang pembandingmu, harapan levelmu, dan hasil kerjamu."
+        "en": "Knowing your number is not the same as being preoccupied with it. Pay is one of several things a role gives you, and Modules 1 and 7 argued that early in a career capital often matters more. But knowing the number protects you in three moments. <b>In a negotiation</b>: for an offer (The Rope, Module 10), a promotion (Lesson 5.3) or an internal move, you can speak about ranges and total compensation calmly instead of guessing. <b>In a decision</b>: Lesson 7.2’s comparison uses total compensation, not base. <b>In planning</b>: Lesson 8.2’s savings system starts from real take-home pay and real annual extras such as THR and bonus. Three ethical lines apply. <b>Confidentiality</b>: some employers ask staff not to disclose pay; check your contract and policy, and when you share with peers, share your own numbers, not colleagues’ <span class=\"ev ev-verify\">Verify</span>. <b>Honesty</b>: never inflate your current pay to a prospective employer; a figure you cannot support can undo an offer, and many employers verify. <b>Perspective</b>: pay comparisons are the fastest route to envy; compare to decide, not to feel better or worse. Finally, write down your <b>next step</b>: if your total compensation sits in the range for your level, sector and city, your job is to keep it there in real terms and let capital do its work. If it sits clearly below, decide which lever fits (the promotion conversation, a documented case for a market adjustment, an internal move or an external one) and when you will use it. A market-adjustment request, like a promotion case, is strongest with evidence: your benchmark range, your level’s expectations, and your results.",
+        "id": "Mengetahui angkamu tidak sama dengan terobsesi pada angka itu. Gaji hanyalah satu dari beberapa hal yang diberikan sebuah peran, dan Modul 1 serta 7 berpendapat bahwa di awal karier, modal sering kali lebih penting. Tetapi mengetahui angkanya melindungimu di tiga momen. <b>Saat bernegosiasi</b>: untuk tawaran kerja (The Rope, Modul 10), promosi (Pelajaran 5.3), atau pindah di dalam, kamu bisa membicarakan rentang dan total kompensasi dengan tenang alih-alih menebak. <b>Saat memutuskan</b>: perbandingan di Pelajaran 7.2 memakai total kompensasi, bukan gaji pokok. <b>Saat merencanakan</b>: sistem tabungan di Pelajaran 8.2 dimulai dari gaji bersih yang sebenarnya dan tambahan tahunan yang nyata seperti THR dan bonus. Ada tiga garis etika yang berlaku. <b>Kerahasiaan</b>: sebagian pemberi kerja meminta karyawannya tidak membuka besaran gaji; cek kontrak dan kebijakanmu, dan saat berbagi dengan rekan, bagikan angkamu sendiri, bukan angka rekan kerja <span class=\"ev ev-verify\">Periksa</span>. <b>Kejujuran</b>: jangan pernah melebih-lebihkan gajimu sekarang di depan calon pemberi kerja; angka yang tidak bisa kamu buktikan bisa membatalkan tawaran, dan banyak pemberi kerja memeriksanya. <b>Sudut pandang</b>: membandingkan gaji adalah jalan tercepat menuju iri hati; bandingkan untuk memutuskan, bukan untuk merasa lebih baik atau lebih buruk. Terakhir, tuliskan <b>langkah berikutnya</b>. Kalau total kompensasimu ada di dalam rentang untuk level, sektor, dan kotamu, tugasmu adalah menjaganya tetap di sana dalam nilai riil dan membiarkan modalmu bekerja. Kalau jelas di bawahnya, putuskan pengungkit mana yang cocok (percakapan promosi, argumen tertulis untuk penyesuaian gaji sesuai pasar, pindah di dalam, atau pindah keluar) dan kapan kamu akan memakainya. Permintaan penyesuaian gaji sesuai pasar, seperti argumen promosi, paling kuat kalau disertai bukti: rentang pembandingmu, harapan untuk levelmu, dan hasil-hasilmu."
        },
        "table": {
         "cols": [
@@ -44810,18 +44810,18 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Usual next step",
-          "id": "Langkah berikut yang lazim"
+          "id": "Langkah berikutnya yang lazim"
          }
         ],
         "rows": [
          [
           {
            "en": "Within range, role building rare capital",
-           "id": "Dalam rentang, peran membangun modal langka"
+           "id": "Di dalam rentang, peran membangun modal langka"
           },
           {
            "en": "Keep pace with inflation; let capital compound",
-           "id": "Jaga agar tak kalah dari inflasi; biarkan modal bertumbuh"
+           "id": "Jaga agar tidak tertinggal inflasi; biarkan modalmu bertumbuh"
           }
          ],
          [
@@ -44831,17 +44831,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "A documented market-adjustment or promotion case (Module 5)",
-           "id": "Kasus penyesuaian pasar atau promosi yang terdokumentasi (Modul 5)"
+           "id": "Argumen tertulis untuk penyesuaian gaji sesuai pasar atau promosi (Modul 5)"
           }
          ],
          [
           {
            "en": "Below range, no path inside",
-           "id": "Di bawah rentang, tak ada jalur di dalam"
+           "id": "Di bawah rentang, tanpa jalan di dalam"
           },
           {
            "en": "An internal or external move, evaluated with Module 7",
-           "id": "Perpindahan internal atau ke luar, dinilai dengan Modul 7"
+           "id": "Pindah di dalam atau keluar, dievaluasi dengan Modul 7"
           }
          ]
         ],
@@ -44856,11 +44856,11 @@ window.MT_LMS['the-route'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 1: From base salary to total compensation",
-       "id": "Peraga 1: Dari gaji pokok ke total kompensasi"
+       "id": "Gambar 1: Dari gaji pokok ke total kompensasi"
       },
       "title": {
-       "en": "Base → allowances → holiday bonus and bonus → benefits → the annual total",
-       "id": "Gaji pokok → tunjangan → THR dan bonus → manfaat → total tahunan"
+       "en": "Base → allowances → THR and bonus → benefits → the annual total",
+       "id": "Gaji pokok → tunjangan → THR dan bonus → manfaat → total setahun"
       },
       "items": [
        {
@@ -44888,12 +44888,12 @@ window.MT_LMS['the-route'] = {
        {
         "icon": "flag",
         "h": {
-         "en": "holiday bonus and bonus",
+         "en": "THR and bonus",
          "id": "THR dan bonus"
         },
         "sub": {
          "en": "Annual extras: rules and dates matter.",
-         "id": "Tambahan tahunan: aturan dan tanggal penting."
+         "id": "Tambahan tahunan: aturan dan tanggalnya penting."
         }
        },
        {
@@ -44903,15 +44903,15 @@ window.MT_LMS['the-route'] = {
          "id": "Manfaat"
         },
         "sub": {
-         "en": "Employer statutory social insurance share, insurance, pension, in kind.",
-         "id": "Iuran BPJS pemberi kerja, asuransi, pensiun, natura."
+         "en": "Employer BPJS share, insurance, pension, in kind.",
+         "id": "Bagian BPJS dari pemberi kerja, asuransi, pensiun, fasilitas."
         }
        },
        {
         "icon": "chart",
         "h": {
          "en": "Annual total",
-         "id": "Total tahunan"
+         "id": "Total setahun"
         },
         "sub": {
          "en": "The only fair number to compare.",
@@ -44921,34 +44921,34 @@ window.MT_LMS['the-route'] = {
       ],
       "note": {
        "en": "Compare yearly totals like for like, then adjust for inflation.",
-       "id": "Bandingkan total tahunan setara dengan setara, lalu sesuaikan dengan inflasi."
+       "id": "Bandingkan total setahun secara setara, lalu sesuaikan dengan inflasi."
       },
       "longdesc": {
-       "en": "A five-step flow from base salary to total compensation: base salary; fixed and non-fixed allowances; annual extras such as holiday bonus and bonus; benefits including the employer’s statutory social insurance contributions, insurance, pension and benefits in kind; and the annual total, which is the only fair figure to compare with another offer.",
-       "id": "Alur lima langkah dari gaji pokok ke total kompensasi: gaji pokok; tunjangan tetap dan tidak tetap; tambahan tahunan seperti THR dan bonus; manfaat termasuk iuran BPJS pemberi kerja, asuransi, pensiun, dan natura; dan total tahunan, satu-satunya angka yang adil untuk dibandingkan dengan tawaran lain."
+       "en": "A five-step flow from base salary to total compensation: base salary; fixed and non-fixed allowances; annual extras such as THR and bonus; benefits including the employer’s BPJS contributions, insurance, pension and benefits in kind; and the annual total, which is the only fair figure to compare with another offer.",
+       "id": "Alur lima langkah dari gaji pokok ke total kompensasi: gaji pokok; tunjangan tetap dan tidak tetap; tambahan tahunan seperti THR dan bonus; manfaat termasuk iuran BPJS dari pemberi kerja, asuransi, pensiun, dan fasilitas; serta total setahun, satu-satunya angka yang adil dibandingkan dengan tawaran lain."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Base against base → total against total",
-        "id": "Pokok dengan pokok → total dengan total"
+        "id": "Gaji pokok dibanding gaji pokok → total dibanding total"
        },
        "q": {
         "en": "Nadia’s friend says her new job “pays 30% more” than Nadia’s.",
-        "id": "Teman Nadia bilang pekerjaan barunya “bayarannya 30% lebih tinggi” dari Nadia."
+        "id": "Seorang teman Nadia bilang pekerjaan barunya “bayarannya 30% lebih tinggi” daripada Nadia."
        },
        "weak": {
         "en": "Nadia feels underpaid all week and starts browsing job sites that evening.",
-        "id": "Nadia merasa dibayar rendah sepanjang minggu dan mulai menjelajah situs lowongan malam itu."
+        "id": "Nadia merasa dibayar terlalu rendah sepanjang minggu dan malam itu juga mulai menelusuri situs lowongan kerja."
        },
        "strong": {
-        "en": "Nadia asks what is included. Her friend’s figure is base only, with no fixed allowances, a discretionary bonus and private insurance not included. Nadia annualises both packages, base, allowances, holiday bonus, bonus history, employer statutory social insurance share, insurance, and finds the real difference is about eight per cent, for a role in a different sector and city. She notes it in her benchmark sheet and goes back to her week.",
-        "id": "Nadia menanyakan apa saja yang termasuk. Angka temannya hanya gaji pokok, tanpa tunjangan tetap, bonus diskresioner, dan tanpa asuransi swasta. Nadia menyetahunkan kedua paket, gaji pokok, tunjangan, THR, riwayat bonus, iuran BPJS pemberi kerja, asuransi, dan menemukan selisih sebenarnya sekitar delapan persen, untuk peran di sektor dan kota yang berbeda. Ia mencatatnya di lembar pembandingnya dan kembali ke minggunya."
+        "en": "Nadia asks what is included. Her friend’s figure is base only, with no fixed allowances, a discretionary bonus and private insurance not included. Nadia annualises both packages (base, allowances, THR, bonus history, employer BPJS share, insurance) and finds the real difference is about eight per cent, for a role in a different sector and city. She notes it in her benchmark sheet and goes back to her week.",
+        "id": "Nadia bertanya apa saja yang termasuk dalam angka itu. Angka temannya hanya gaji pokok, tanpa tunjangan tetap, dengan bonus diskresioner, dan tanpa asuransi swasta. Nadia menghitung kedua paket untuk setahun (gaji pokok, tunjangan, THR, riwayat bonus, bagian BPJS dari pemberi kerja, asuransi) dan mendapati selisih sebenarnya sekitar delapan persen, untuk peran di sektor dan kota yang berbeda. Ia mencatatnya di lembar pembandingnya dan kembali menjalani minggunya."
        },
        "why": {
         "en": "The first compares one line with another and lets envy decide. The second compares yearly totals, notices sector and city differences, and turns an anecdote into a data point. Fictional.",
-        "id": "Yang pertama membandingkan satu baris dengan baris lain dan membiarkan iri yang memutuskan. Yang kedua membandingkan total tahunan, memperhatikan perbedaan sektor dan kota, dan mengubah anekdot menjadi titik data. Fiktif."
+        "id": "Yang pertama membandingkan satu baris dengan baris lain dan membiarkan rasa iri yang memutuskan. Yang kedua membandingkan total setahun, memperhatikan perbedaan sektor dan kota, dan mengubah sebuah cerita menjadi satu titik data. Fiktif."
        }
       }
      ],
@@ -44956,16 +44956,16 @@ window.MT_LMS['the-route'] = {
       "icon": "book",
       "title": {
        "en": "In focus: the allowance that did not move",
-       "id": "Sorotan: tunjangan yang tidak ikut berubah"
+       "id": "Sorotan: tunjangan yang tidak ikut naik"
       },
       "body": [
        {
-        "en": "Three months after her promotion to senior analyst, Nadia finally does a payslip audit. Base salary: correct. Position allowance: still the analyst rate. holiday bonus last year: calculated on base only. statutory social insurance app: two months of JP contributions missing.",
-        "id": "Tiga bulan setelah dipromosikan menjadi analis senior, Nadia akhirnya melakukan audit slip gaji. Gaji pokok: benar. Tunjangan jabatan: masih tarif analis. THR tahun lalu: dihitung dari gaji pokok saja. Aplikasi BPJS: dua bulan iuran JP tidak tercatat."
+        "en": "Three months after her promotion to senior analyst, Nadia finally does a payslip audit. Base salary: correct. Position allowance: still the analyst rate. THR last year: calculated on base only. BPJS app: two months of JP contributions missing.",
+        "id": "Tiga bulan setelah dipromosikan menjadi analis senior, Nadia akhirnya mengaudit slip gajinya. Gaji pokok: benar. Tunjangan jabatan: masih tarif analis. THR tahun lalu: dihitung dari gaji pokok saja. Aplikasi BPJS: iuran JP dua bulan tidak tercatat."
        },
        {
-        "en": "She writes one short email to HR with the three payslips and a screenshot attached: “Mohon bantuan pengecekan tiga hal berikut…” HR corrects the allowance with back pay, explains that the holiday bonus calculation followed an old template and pays the difference, and chases the statutory social insurance contributions with the payroll vendor. Total recovered: a little over one month’s allowance. Time spent: forty minutes. She puts a reminder in her calendar for the same audit every January and July.",
-        "id": "Ia menulis satu email singkat kepada HR dengan tiga slip gaji dan tangkapan layar terlampir: “Mohon bantuan pengecekan tiga hal berikut…” HR memperbaiki tunjangannya dengan rapel, menjelaskan bahwa perhitungan THR mengikuti templat lama dan membayar selisihnya, serta menelusuri iuran BPJS dengan vendor penggajian. Total yang kembali: sedikit lebih dari satu bulan tunjangan. Waktu yang dipakai: empat puluh menit. Ia memasang pengingat di kalender untuk audit yang sama setiap Januari dan Juli."
+        "en": "She writes one short email to HR with the three payslips and a screenshot attached: “Mohon bantuan pengecekan tiga hal berikut…” HR corrects the allowance with back pay, explains that the THR calculation followed an old template and pays the difference, and chases the BPJS contributions with the payroll vendor. Total recovered: a little over one month’s allowance. Time spent: forty minutes. She puts a reminder in her calendar for the same audit every January and July.",
+        "id": "Ia menulis satu email singkat ke HR dengan melampirkan tiga slip gaji dan sebuah tangkapan layar: “Mohon bantuan pengecekan tiga hal berikut…” HR memperbaiki tunjangannya beserta kekurangan bayarnya, menjelaskan bahwa perhitungan THR memakai templat lama lalu membayar selisihnya, dan menagih iuran BPJS yang belum disetor kepada vendor penggajian. Total yang kembali: sedikit lebih dari tunjangan satu bulan. Waktu yang dihabiskan: empat puluh menit. Ia memasang pengingat di kalendernya untuk audit yang sama setiap Januari dan Juli."
        }
       ]
      },
@@ -44973,43 +44973,43 @@ window.MT_LMS['the-route'] = {
       {
        "h": {
         "en": "Drill 1 · Decode your payslip",
-        "id": "Latihan 1 · Uraikan slip gajimu"
+        "id": "Latihan 1 · Bedah slip gajimu"
        },
        "body": {
-        "en": "Label every line of your last payslip: base, fixed allowance, non-fixed allowance, deduction (which statutory social insurance programme, tax), or other. Circle anything you cannot explain.",
-        "id": "Beri label setiap baris slip gaji terakhirmu: gaji pokok, tunjangan tetap, tunjangan tidak tetap, potongan (program BPJS yang mana, pajak), atau lainnya. Lingkari yang tak bisa kamu jelaskan."
+        "en": "Label every line of your last payslip: base, fixed allowance, non-fixed allowance, deduction (which BPJS programme, tax), or other. Circle anything you cannot explain.",
+        "id": "Beri label setiap baris di slip gaji terakhirmu: gaji pokok, tunjangan tetap, tunjangan tidak tetap, potongan (program BPJS yang mana, pajak), atau lainnya. Lingkari apa pun yang tidak bisa kamu jelaskan."
        },
        "debrief": {
         "en": "Every circled line is a question for HR or your contract. Most people find at least one.",
-        "id": "Setiap baris yang dilingkari adalah pertanyaan untuk HR atau kontrakmu. Kebanyakan orang menemukan setidaknya satu."
+        "id": "Setiap baris yang dilingkari adalah pertanyaan untuk HR atau untuk kontrakmu. Kebanyakan orang menemukan setidaknya satu."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Your annual total",
-        "id": "Latihan 2 · Total tahunanmu"
+        "id": "Latihan 2 · Total setahunmu"
        },
        "body": {
-        "en": "Calculate your total compensation for a year: 12 × (base + fixed allowances) + expected non-fixed allowances + holiday bonus + bonus (use last year’s, marked as uncertain) + employer statutory social insurance share + insurance and other benefits.",
-        "id": "Hitung total kompensasimu setahun: 12 × (gaji pokok + tunjangan tetap) + perkiraan tunjangan tidak tetap + THR + bonus (pakai tahun lalu, ditandai belum pasti) + iuran BPJS pemberi kerja + asuransi dan manfaat lain."
+        "en": "Calculate your total compensation for a year: 12 × (base + fixed allowances) + expected non-fixed allowances + THR + bonus (use last year’s, marked as uncertain) + employer BPJS share + insurance and other benefits.",
+        "id": "Hitung total kompensasimu dalam setahun: 12 × (gaji pokok + tunjangan tetap) + perkiraan tunjangan tidak tetap + THR + bonus (pakai bonus tahun lalu, tandai sebagai belum pasti) + bagian BPJS dari pemberi kerja + asuransi dan manfaat lainnya."
        },
        "debrief": {
         "en": "Compare it with twelve times your take-home pay. The difference is what you forget when you compare offers.",
-        "id": "Bandingkan dengan dua belas kali gaji bersihmu. Selisihnya adalah yang kamu lupakan saat membandingkan tawaran."
+        "id": "Bandingkan dengan dua belas kali gaji bersihmu. Selisihnya adalah apa yang sering terlupa saat kamu membandingkan tawaran."
        }
       },
       {
        "h": {
         "en": "Drill 3 · A three-source benchmark",
-        "id": "Latihan 3 · Pembanding tiga sumber"
+        "id": "Latihan 3 · Pembanding dari tiga sumber"
        },
        "body": {
         "en": "Find three sources for your level, sector and city. Write the range each gives, whether it is base or total, and where your annual total sits. Then calculate your real raise last year against inflation.",
-        "id": "Temukan tiga sumber untuk level, sektor, dan kotamu. Tulis rentang dari masing-masing, apakah itu gaji pokok atau total, dan di mana total tahunanmu berada. Lalu hitung kenaikan riilmu tahun lalu terhadap inflasi."
+        "id": "Temukan tiga sumber untuk level, sektor, dan kotamu. Tulis rentang dari masing-masing, apakah itu gaji pokok atau total, dan di mana posisi total setahunmu. Lalu hitung kenaikan riilmu tahun lalu dibanding inflasi."
        },
        "debrief": {
         "en": "If the sources disagree widely, you are probably not comparing like with like; check level and basis first.",
-        "id": "Jika sumbernya sangat berbeda, kemungkinan kamu belum membandingkan setara dengan setara; periksa level dan dasarnya dulu."
+        "id": "Kalau sumber-sumbernya sangat berbeda, kemungkinan besar kamu belum membandingkan yang setara; cek level dan dasarnya dulu."
        }
       }
      ],
@@ -45018,17 +45018,17 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Comparing base with a package",
-         "id": "Membandingkan gaji pokok dengan paket"
+         "id": "Membandingkan gaji pokok dengan sebuah paket"
         },
         "fix": {
          "en": "Annual total against annual total.",
-         "id": "Total tahunan dengan total tahunan."
+         "id": "Total setahun dibanding total setahun."
         }
        },
        {
         "h": {
          "en": "Never reading the payslip",
-         "id": "Tak pernah membaca slip gaji"
+         "id": "Tidak pernah membaca slip gaji"
         },
         "fix": {
          "en": "Audit twice a year; raise errors in writing.",
@@ -45038,7 +45038,7 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Benchmarking from one anecdote",
-         "id": "Membandingkan dari satu anekdot"
+         "id": "Membandingkan dari satu cerita"
         },
         "fix": {
          "en": "Three sources, same level, sector and city.",
@@ -45064,28 +45064,28 @@ window.MT_LMS['the-route'] = {
         "id": "Total kompensasi"
        },
        "def": {
-        "en": "Everything your work pays you in a year: base, allowances, holiday bonus, bonus, employer contributions and benefits.",
-        "id": "Semua yang dibayarkan pekerjaanmu dalam setahun: gaji pokok, tunjangan, THR, bonus, iuran pemberi kerja, dan manfaat."
+        "en": "Everything your work pays you in a year: base, allowances, THR, bonus, employer contributions and benefits.",
+        "id": "Semua yang dibayarkan atas pekerjaanmu dalam setahun: gaji pokok, tunjangan, THR, bonus, iuran dari pemberi kerja, dan manfaat."
        }
       },
       {
        "term": {
-        "en": "holiday bonus",
+        "en": "THR",
         "id": "THR"
        },
        "def": {
         "en": "Tunjangan Hari Raya: a regulated religious-holiday allowance; rules on amount and timing should be verified.",
-        "id": "Tunjangan Hari Raya: tunjangan hari raya keagamaan yang diatur regulasi; aturan jumlah dan waktunya perlu diverifikasi."
+        "id": "Tunjangan Hari Raya: tunjangan hari raya keagamaan yang diatur peraturan; aturan besaran dan waktunya perlu diperiksa."
        }
       },
       {
        "term": {
-        "en": "statutory employment insurance",
+        "en": "BPJS Ketenagakerjaan",
         "id": "BPJS Ketenagakerjaan"
        },
        "def": {
         "en": "The social-security agency running JHT, JP, JKK, JKM and JKP programmes for workers.",
-        "id": "Badan jaminan sosial yang menjalankan program JHT, JP, JKK, JKM, dan JKP bagi pekerja."
+        "id": "Badan jaminan sosial yang menjalankan program JHT, JP, JKK, JKM, dan JKP untuk pekerja."
        }
       },
       {
@@ -45103,7 +45103,7 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "Which number is fair to compare with another offer?",
-        "id": "Angka mana yang adil untuk dibandingkan dengan tawaran lain?"
+        "id": "Angka mana yang adil dibandingkan dengan tawaran lain?"
        },
        "options": [
         {
@@ -45116,7 +45116,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Annual total compensation",
-         "id": "Total kompensasi tahunan"
+         "id": "Total kompensasi setahun"
         },
         {
          "en": "The highest monthly figure you have received",
@@ -45125,14 +45125,14 @@ window.MT_LMS['the-route'] = {
        ],
        "correct": 2,
        "why": {
-        "en": "Only the annual total includes holiday bonus, bonus, allowances and benefits.",
-        "id": "Hanya total tahunan yang memuat THR, bonus, tunjangan, dan manfaat."
+        "en": "Only the annual total includes THR, bonus, allowances and benefits.",
+        "id": "Hanya total setahun yang mencakup THR, bonus, tunjangan, dan manfaat."
        }
       },
       {
        "q": {
         "en": "Your pay rose 4% last year and inflation was about 3%. Your real raise was roughly…",
-        "id": "Gajimu naik 4% tahun lalu dan inflasi sekitar 3%. Kenaikan riilmu kira-kira…"
+        "id": "Gajimu naik 4% tahun lalu dan inflasinya sekitar 3%. Kenaikan riilmu kira-kira…"
        },
        "options": [
         {
@@ -45160,17 +45160,17 @@ window.MT_LMS['the-route'] = {
       },
       {
        "q": {
-        "en": "Your statutory social insurance app shows two months of missing contributions. You…",
-        "id": "Aplikasi BPJS-mu menunjukkan dua bulan iuran tak tercatat. Kamu…"
+        "en": "Your BPJS app shows two months of missing contributions. You…",
+        "id": "Aplikasi BPJS-mu menunjukkan iuran dua bulan tidak tercatat. Kamu…"
        },
        "options": [
         {
          "en": "Ignore it: it will sort itself out",
-         "id": "Mengabaikannya: nanti beres sendiri"
+         "id": "Membiarkannya, nanti juga beres sendiri"
         },
         {
          "en": "Email HR politely with the evidence attached",
-         "id": "Mengirim email sopan ke HR dengan bukti terlampir"
+         "id": "Mengirim email sopan ke HR dengan melampirkan buktinya"
         },
         {
          "en": "Complain on social media",
@@ -45184,7 +45184,7 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Most errors are administrative and are fixed quickly when raised with evidence.",
-        "id": "Kebanyakan kesalahan bersifat administratif dan cepat diperbaiki bila disampaikan dengan bukti."
+        "id": "Kebanyakan kesalahan bersifat administratif dan cepat diperbaiki kalau disampaikan dengan bukti."
        }
       }
      ],
@@ -45197,7 +45197,7 @@ window.MT_LMS['the-route'] = {
       },
       "body": {
        "en": "Open the 90-day plan and add two dates: a payslip audit (repeat every January and July) and a three-source benchmark before your next review or offer conversation.",
-       "id": "Buka rencana 90 hari dan tambahkan dua tanggal: audit slip gaji (ulangi setiap Januari dan Juli) dan pembanding tiga sumber sebelum penilaian atau percakapan tawaran berikutmu."
+       "id": "Buka rencana 90 hari dan tambahkan dua tanggal: audit slip gaji (ulangi setiap Januari dan Juli) dan pembanding dari tiga sumber sebelum evaluasi atau percakapan soal tawaran berikutnya."
       },
       "cta": {
        "en": "Open the 90-day plan",
@@ -45206,12 +45206,12 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "Take-home is not what you are paid. Count every currency before you compare.",
-      "id": "Gaji bersih bukan yang dibayarkan kepadamu. Hitung setiap mata uang sebelum membandingkan."
+      "id": "Gaji bersih bukanlah seluruh bayaranmu. Hitung setiap mata uangnya sebelum membandingkan."
      },
      "takeaways": [
       {
-       "en": "Decompose your pay, base, allowances, holiday bonus, bonus, statutory social insurance, benefits, tax, and add it up for a year.",
-       "id": "Urai gajimu, gaji pokok, tunjangan, THR, bonus, BPJS, manfaat, pajak, dan jumlahkan untuk setahun."
+       "en": "Decompose your pay (base, allowances, THR, bonus, BPJS, benefits, tax) and add it up for a year.",
+       "id": "Bedah gajimu (gaji pokok, tunjangan, THR, bonus, BPJS, manfaat, pajak) dan jumlahkan untuk setahun."
       },
       {
        "en": "Audit your payslip twice a year and raise errors in writing, with evidence.",
@@ -45219,7 +45219,7 @@ window.MT_LMS['the-route'] = {
       },
       {
        "en": "Benchmark like for like from three sources, think in real terms, and choose a lever if you are below the range.",
-       "id": "Bandingkan setara dengan setara dari tiga sumber, berpikir dalam nilai riil, dan pilih tuas jika kamu di bawah rentang."
+       "id": "Bandingkan secara setara dari tiga sumber, berpikirlah dalam nilai riil, dan pilih pengungkit kalau kamu di bawah rentang."
       }
      ],
      "resources": {
@@ -45229,7 +45229,7 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "Career Kit item (part 1): your total-compensation audit.",
-       "id": "Butir Career Kit (bagian 1): audit total kompensasimu."
+       "id": "Isi Perangkat Karier (bagian 1): audit total kompensasimu."
       },
       "items": [
        {
@@ -45244,16 +45244,16 @@ window.MT_LMS['the-route'] = {
         },
         "body": [
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> holiday bonus entitlement and the definition of “wage” (Ministry of Manpower regulation), overtime (PP 35/2021), statutory social insurance contribution rates and caps, and PPh 21 withholding methods are set by regulation and change; check the current official texts.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Hak THR dan definisi “upah” (peraturan Kementerian Ketenagakerjaan), lembur (PP 35/2021), tarif dan batas iuran BPJS, serta metode pemotongan PPh 21 ditetapkan regulasi dan berubah; periksa teks resmi terkini."
+          "en": "<span class=\"ev ev-verify\">Verify</span> THR entitlement and the definition of “wage” (Ministry of Manpower regulation), overtime (PP 35/2021), BPJS contribution rates and caps, and PPh 21 withholding methods are set by regulation and change; check the current official texts.",
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Hak atas THR dan definisi “upah” (peraturan Kementerian Ketenagakerjaan), lembur (PP 35/2021), besaran dan batas iuran BPJS, serta metode pemotongan PPh 21 ditetapkan peraturan dan bisa berubah; cek teks resmi terbarunya."
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> Inflation figures are published by BPS; use the figure for the period you are comparing.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Angka inflasi diterbitkan BPS; pakai angka untuk periode yang kamu bandingkan."
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Angka inflasi diterbitkan BPS; pakai angka untuk periode yang kamu bandingkan."
          },
          {
           "en": "<span class=\"ev ev-contested\">Course guidance</span> The payslip audit, the three-source benchmark and the “where you sit” responses are The Route’s working methods.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Audit slip gaji, pembanding tiga sumber, dan respons “posisimu” adalah metode kerja The Route."
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Audit slip gaji, pembanding dari tiga sumber, dan langkah berdasarkan posisimu adalah metode kerja The Route."
          }
         ]
        },
@@ -45265,16 +45265,16 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Thirty minutes with your payslip and contract.",
-         "id": "Tiga puluh menit dengan slip gaji dan kontrakmu."
+         "id": "Tiga puluh menit bersama slip gaji dan kontrakmu."
         },
         "body": [
          {
-          "en": "MONTHLY: base … · fixed allowances … · non-fixed (avg) … · deductions: statutory social insurance Kes … · JHT … · JP … · PPh 21 … · take-home …",
+          "en": "MONTHLY: base … · fixed allowances … · non-fixed (avg) … · deductions: BPJS Kes … · JHT … · JP … · PPh 21 … · take-home …",
           "id": "BULANAN: gaji pokok … · tunjangan tetap … · tidak tetap (rata-rata) … · potongan: BPJS Kes … · JHT … · JP … · PPh 21 … · gaji bersih …"
          },
          {
-          "en": "ANNUAL: 12 × (base + fixed) … · non-fixed … · holiday bonus … · bonus (uncertain) … · employer statutory social insurance … · insurance/other … · TOTAL … · ERRORS FOUND: …",
-          "id": "TAHUNAN: 12 × (pokok + tetap) … · tidak tetap … · THR … · bonus (belum pasti) … · BPJS pemberi kerja … · asuransi/lain … · TOTAL … · KESALAHAN DITEMUKAN: …"
+          "en": "ANNUAL: 12 × (base + fixed) … · non-fixed … · THR … · bonus (uncertain) … · employer BPJS … · insurance/other … · TOTAL … · ERRORS FOUND: …",
+          "id": "SETAHUN: 12 × (pokok + tetap) … · tidak tetap … · THR … · bonus (belum pasti) … · BPJS dari pemberi kerja … · asuransi/lainnya … · TOTAL … · KESALAHAN YANG DITEMUKAN: …"
          }
         ]
        },
@@ -45286,16 +45286,16 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Update before every pay conversation.",
-         "id": "Perbarui sebelum setiap percakapan gaji."
+         "id": "Perbarui sebelum setiap percakapan soal gaji."
         },
         "body": [
          {
           "en": "LEVEL … · SECTOR … · CITY … · SOURCE 1 … (base/total) range … · SOURCE 2 … · SOURCE 3 … · MY TOTAL … · POSITION: bottom / middle / top",
-          "id": "LEVEL … · SEKTOR … · KOTA … · SUMBER 1 … (pokok/total) rentang … · SUMBER 2 … · SUMBER 3 … · TOTALKU … · POSISI: bawah / tengah / atas"
+          "id": "LEVEL … · SEKTOR … · KOTA … · SUMBER 1 … (pokok/total) rentang … · SUMBER 2 … · SUMBER 3 … · TOTAL SAYA … · POSISI: bawah / tengah / atas"
          },
          {
           "en": "REAL RAISE last year: nominal …% − inflation …% = …% · NEXT STEP: keep pace / market-adjustment case / promotion / move · BY: …",
-          "id": "KENAIKAN RIIL tahun lalu: nominal …% − inflasi …% = …% · LANGKAH BERIKUT: jaga laju / kasus penyesuaian pasar / promosi / pindah · PALING LAMBAT: …"
+          "id": "KENAIKAN RIIL tahun lalu: nominal …% − inflasi …% = …% · LANGKAH BERIKUTNYA: jaga laju / argumen penyesuaian pasar / promosi / pindah · PALING LAMBAT: …"
          }
         ]
        }
@@ -45308,7 +45308,7 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Building a Savings Discipline on Any Income",
@@ -45316,24 +45316,24 @@ window.MT_LMS['the-route'] = {
      },
      "overview": {
       "en": "Savings are not what is left at the end of the month; for most people nothing is. They are what is moved at the start, automatically, before spending begins. This lesson installs a simple system that works on a first salary and scales with every raise: pay yourself first, a set of named buckets with the emergency fund first, a budget you can actually keep in a life with family obligations and social costs, a firewall against lifestyle inflation, and clear rules for debt, including paylater and online loans. The aim is not austerity; it is options. Savings are what let you say no to a bad offer, take a better one, or survive a hard year.",
-      "id": "Tabungan bukanlah sisa di akhir bulan; bagi kebanyakan orang sisanya nol. Tabungan adalah yang dipindahkan di awal, otomatis, sebelum belanja dimulai. Pelajaran ini memasang sistem sederhana yang bekerja sejak gaji pertama dan tumbuh bersama setiap kenaikan: bayar dirimu lebih dulu, sekumpulan pos bernama dengan dana darurat sebagai yang pertama, anggaran yang benar-benar bisa kamu jalankan dalam hidup di Indonesia dengan kewajiban keluarga dan biaya sosial, tembok penahan inflasi gaya hidup, dan aturan jelas tentang utang, termasuk paylater dan pinjaman online. Tujuannya bukan hidup serba hemat; tujuannya pilihan. Tabungan memungkinkanmu menolak tawaran buruk, menerima yang lebih baik, atau bertahan melewati tahun yang berat."
+      "id": "Tabungan bukanlah sisa di akhir bulan, karena bagi kebanyakan orang tidak ada yang tersisa. Tabungan adalah uang yang dipindahkan di awal bulan, secara otomatis, sebelum belanja dimulai. Pelajaran ini memasang sistem sederhana yang bisa jalan sejak gaji pertama dan ikut membesar di setiap kenaikan gaji: bayar dirimu lebih dulu, beberapa pos tabungan bernama dengan dana darurat di urutan pertama, anggaran yang benar-benar bisa kamu jalani di tengah kewajiban keluarga dan biaya sosial, tembok penghalang inflasi gaya hidup, dan aturan yang jelas soal utang, termasuk paylater dan pinjaman online. Tujuannya bukan hidup serba hemat, melainkan punya pilihan. Tabunganlah yang membuatmu bisa menolak tawaran buruk, menerima tawaran yang lebih baik, atau bertahan melewati tahun yang berat."
      },
      "objectives": [
       {
        "en": "Set up pay-yourself-first automation on payday.",
-       "id": "Memasang otomatisasi bayar-dirimu-lebih-dulu di hari gajian."
+       "id": "Memasang otomatisasi “bayar dirimu lebih dulu” di hari gajian."
       },
       {
        "en": "Build named buckets, with the emergency fund first and a family line where needed.",
-       "id": "Membangun pos bernama, dengan dana darurat lebih dulu dan pos keluarga bila perlu."
+       "id": "Membangun pos-pos tabungan bernama, dengan dana darurat lebih dulu dan pos keluarga bila perlu."
       },
       {
        "en": "Keep a budget that fits real life and a firewall against lifestyle inflation.",
-       "id": "Menjalankan anggaran yang sesuai kehidupan nyata dan tembok penahan inflasi gaya hidup."
+       "id": "Menjalankan anggaran yang cocok dengan hidup sehari-hari dan tembok penghalang inflasi gaya hidup."
       },
       {
        "en": "Apply clear rules to debt, paylater and family requests.",
-       "id": "Menerapkan aturan jelas untuk utang, paylater, dan permintaan keluarga."
+       "id": "Menerapkan aturan yang jelas untuk utang, paylater, dan permintaan bantuan dari keluarga."
       }
      ],
      "readFirst": {
@@ -45353,19 +45353,19 @@ window.MT_LMS['the-route'] = {
        "story": [
         {
          "en": "People save far more when saving is the default rather than a decision; set the transfer once",
-         "id": "Orang menabung jauh lebih banyak saat menabung adalah bawaan, bukan keputusan; atur transfernya sekali"
+         "id": "Orang menabung jauh lebih banyak saat menabung menjadi pilihan bawaan, bukan keputusan; atur transfernya sekali saja"
         },
         {
          "en": "Savings work better with names: emergency fund first, then goals, then long-term capital",
-         "id": "Tabungan bekerja lebih baik dengan nama: dana darurat dulu, lalu tujuan, lalu modal jangka panjang"
+         "id": "Tabungan lebih awet kalau diberi nama: dana darurat dulu, lalu tujuan, lalu modal jangka panjang"
         },
         {
          "en": "A budget you can keep is a shape, not a spreadsheet; firewall every raise before you see it",
-         "id": "Anggaran yang bisa kamu jaga adalah bentuk, bukan lembar kerja; bentengi setiap kenaikan sebelum kamu melihatnya"
+         "id": "Anggaran yang bisa dijalani adalah sebuah bentuk, bukan lembar kerja; amankan setiap kenaikan gaji sebelum kamu melihatnya"
         },
         {
          "en": "Never borrow at high cost for things that do not last; convert every offer into an annual figure first",
-         "id": "Jangan pernah meminjam dengan biaya tinggi untuk hal yang tak bertahan; ubah setiap tawaran menjadi angka tahunan dulu"
+         "id": "Jangan pernah berutang dengan biaya tinggi untuk hal yang tidak bertahan lama; ubah setiap tawaran kredit ke angka tahunan dulu"
         }
        ],
        "takes": [
@@ -45376,7 +45376,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "A system you set once beats willpower you need every day.",
-          "id": "Sistem yang kamu atur sekali mengalahkan tekad yang kamu butuhkan setiap hari."
+          "id": "Sistem yang diatur sekali mengalahkan tekad yang harus dipaksakan setiap hari."
          }
         },
         {
@@ -45386,27 +45386,27 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "The emergency fund is the fund that buys career courage: it means a bad manager or a bad offer never becomes a trap.",
-          "id": "Dana darurat adalah dana yang membeli keberanian karier: manajer buruk atau tawaran buruk tak pernah menjadi jebakan."
+          "id": "Dana darurat adalah dana yang membeli keberanian berkarier: dengan dana itu, atasan yang buruk atau tawaran yang buruk tidak pernah menjadi jebakan."
          }
         },
         {
          "h": {
           "en": "Firewall the raises",
-          "id": "Bentengi kenaikan gaji"
+          "id": "Amankan kenaikan gaji"
          },
          "p": {
           "en": "Track one month honestly from bank statements and e-wallet histories, then set the shape and stop tracking.",
-          "id": "Lacak satu bulan dengan jujur dari rekening koran dan riwayat dompet digital, lalu tetapkan bentuknya dan berhenti melacak."
+          "id": "Catat pengeluaranmu sebulan dengan jujur dari mutasi rekening dan riwayat dompet digital, lalu tetapkan bentuknya dan berhenti mencatat."
          }
         },
         {
          "h": {
           "en": "Rules for debt",
-          "id": "Aturan utang"
+          "id": "Aturan soal utang"
          },
          "p": {
           "en": "Credit cards, paylater and online loans can carry high effective annual costs once interest, fees and penalties are counted.",
-          "id": "Kartu kredit, paylater, dan pinjaman daring bisa membawa biaya tahunan efektif yang tinggi setelah bunga, biaya, dan penalti dihitung."
+          "id": "Kartu kredit, paylater, dan pinjaman online bisa menanggung biaya tahunan efektif yang tinggi setelah bunga, biaya, dan denda dihitung."
          }
         }
        ],
@@ -45415,7 +45415,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "People save far more when saving is the default rather than a decision; set the transfer once",
-          "id": "Orang menabung jauh lebih banyak saat menabung adalah bawaan, bukan keputusan; atur transfernya sekali"
+          "id": "Orang menabung jauh lebih banyak saat menabung menjadi pilihan bawaan, bukan keputusan; atur transfernya sekali saja"
          },
          "img": "../../assets/bg/map.jpg",
          "layout": "flow",
@@ -45426,7 +45426,7 @@ window.MT_LMS['the-route'] = {
            "id": "Hari gajian",
            "d": {
             "en": "Or the day after, to be safe.",
-            "id": "Atau sehari setelahnya, agar aman."
+            "id": "Atau sehari sesudahnya, supaya aman."
            }
           },
           {
@@ -45435,7 +45435,7 @@ window.MT_LMS['the-route'] = {
            "id": "Transfer otomatis",
            "d": {
             "en": "A fixed amount, before you can spend it.",
-            "id": "Jumlah tetap, sebelum kamu bisa membelanjakannya."
+            "id": "Jumlah tetap, sebelum kamu sempat membelanjakannya."
            }
           },
           {
@@ -45444,7 +45444,7 @@ window.MT_LMS['the-route'] = {
            "id": "Rekening terpisah",
            "d": {
             "en": "Ideally at a different bank or a pocket not linked to your card.",
-            "id": "Idealnya di bank lain atau kantong yang tak terhubung ke kartumu."
+            "id": "Idealnya di bank lain atau di kantong yang tidak terhubung dengan kartumu."
            }
           },
           {
@@ -45453,28 +45453,28 @@ window.MT_LMS['the-route'] = {
            "id": "Hidup dari sisanya",
            "d": {
             "en": "The budget is whatever remains, not whatever is left at month-end.",
-            "id": "Anggaran adalah apa pun yang tersisa setelahnya, bukan apa pun yang tersisa di akhir bulan."
+            "id": "Anggaranmu adalah apa yang tersisa sesudah transfer, bukan apa yang tersisa di akhir bulan."
            }
           }
          ],
          "sub": {
           "en": "R. Thaler and S. Benartzi’s “Save More Tomorrow”: a decision made once, before the money arrived, kept savings rates up.",
-          "id": "“Save More Tomorrow” dari R. Thaler dan S. Benartzi: keputusan yang dibuat sekali, sebelum uangnya tiba, menjaga tingkat tabungan tetap tinggi."
+          "id": "“Save More Tomorrow” dari R. Thaler dan S. Benartzi: keputusan yang dibuat sekali, sebelum uangnya datang, membuat tingkat tabungan tetap tinggi."
          },
          "band": {
           "en": "A system you set once beats willpower you need every day.",
-          "id": "Sistem yang kamu atur sekali mengalahkan tekad yang kamu butuhkan setiap hari."
+          "id": "Sistem yang diatur sekali mengalahkan tekad yang harus dipaksakan setiap hari."
          },
          "em": {
           "en": "the default rather than a decision",
-          "id": "bawaan, bukan keputusan"
+          "id": "pilihan bawaan, bukan keputusan"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Savings work better with names: emergency fund first, then goals, then long-term capital",
-          "id": "Tabungan bekerja lebih baik dengan nama: dana darurat dulu, lalu tujuan, lalu modal jangka panjang"
+          "id": "Tabungan lebih awet kalau diberi nama: dana darurat dulu, lalu tujuan, lalu modal jangka panjang"
          },
          "layout": "grid",
          "items": [
@@ -45484,7 +45484,7 @@ window.MT_LMS['the-route'] = {
            "id": "Dana darurat",
            "d": {
             "en": "Three to six months of essentials for job loss, illness or a family emergency; savings, short deposits or money-market funds (verify).",
-            "id": "Tiga sampai enam bulan kebutuhan pokok untuk kehilangan kerja, sakit, atau darurat keluarga; tabungan, deposito pendek, atau reksa dana pasar uang (verifikasi)."
+            "id": "Tiga sampai enam bulan kebutuhan pokok untuk kehilangan pekerjaan, sakit, atau keadaan darurat keluarga; tabungan, deposito berjangka pendek, atau reksa dana pasar uang (periksa)."
            },
            "img": "../../assets/bg/negotiation.jpg"
           },
@@ -45494,7 +45494,7 @@ window.MT_LMS['the-route'] = {
            "id": "Dana tujuan",
            "d": {
             "en": "Things one to five years away, in low-risk instruments matched to the date.",
-            "id": "Hal-hal satu sampai lima tahun ke depan, dalam instrumen berisiko rendah yang disesuaikan dengan tanggalnya."
+            "id": "Hal-hal satu sampai lima tahun lagi, di instrumen berisiko rendah yang cocok dengan tanggalnya."
            },
            "img": "../../assets/bg/mature-professional.jpg"
           },
@@ -45504,7 +45504,7 @@ window.MT_LMS['the-route'] = {
            "id": "Modal jangka panjang",
            "d": {
             "en": "Five years and more, for growth; diversified investments (Lesson 8.3).",
-            "id": "Lima tahun lebih, untuk pertumbuhan; investasi terdiversifikasi (Pelajaran 8.3)."
+            "id": "Lima tahun lebih, untuk bertumbuh; investasi yang terdiversifikasi (Pelajaran 8.3)."
            },
            "img": "../../assets/pe/ed-writing.jpg"
           },
@@ -45514,18 +45514,18 @@ window.MT_LMS['the-route'] = {
            "id": "Pos keluarga",
            "d": {
             "en": "Regular support and a known emergency capacity, as a planned monthly transfer.",
-            "id": "Dukungan rutin dan kapasitas darurat yang diketahui, sebagai transfer bulanan terencana."
+            "id": "Dukungan rutin dan kemampuan bantuan darurat yang sudah diketahui, dalam bentuk transfer bulanan yang terencana."
            },
            "img": "../../assets/bg/alumni.jpg"
           }
          ],
          "sub": {
           "en": "A pot called “savings” gets raided for a holiday; a pot called “emergency fund, six months of essentials” does not.",
-          "id": "Pos bernama “tabungan” dirampok untuk liburan; pos bernama “dana darurat, enam bulan kebutuhan pokok” tidak."
+          "id": "Pos bernama “tabungan” gampang terpakai untuk liburan; pos bernama “dana darurat, enam bulan kebutuhan pokok” tidak."
          },
          "band": {
           "en": "The emergency fund is the fund that buys career courage: it means a bad manager or a bad offer never becomes a trap.",
-          "id": "Dana darurat adalah dana yang membeli keberanian karier: manajer buruk atau tawaran buruk tak pernah menjadi jebakan."
+          "id": "Dana darurat adalah dana yang membeli keberanian berkarier: dengan dana itu, atasan yang buruk atau tawaran yang buruk tidak pernah menjadi jebakan."
          },
          "em": {
           "en": "emergency fund first",
@@ -45536,7 +45536,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "A budget you can keep is a shape, not a spreadsheet; firewall every raise before you see it",
-          "id": "Anggaran yang bisa kamu jaga adalah bentuk, bukan lembar kerja; bentengi setiap kenaikan sebelum kamu melihatnya"
+          "id": "Anggaran yang bisa dijalani adalah sebuah bentuk, bukan lembar kerja; amankan setiap kenaikan gaji sebelum kamu melihatnya"
          },
          "layout": "grid",
          "items": [
@@ -45546,7 +45546,7 @@ window.MT_LMS['the-route'] = {
            "id": "Kebutuhan, sekitar 50%",
            "d": {
             "en": "Rent in big cities can take a third of a first salary alone.",
-            "id": "Sewa di kota besar bisa memakan sepertiga gaji pertama sendirian."
+            "id": "Di kota besar, sewa saja bisa memakan sepertiga gaji pertama."
            },
            "img": "../../assets/bg/map.jpg"
           },
@@ -45556,7 +45556,7 @@ window.MT_LMS['the-route'] = {
            "id": "Keinginan, sekitar 30%",
            "d": {
             "en": "Include the social costs: kondangan, arisan, office collections.",
-            "id": "Masukkan biaya sosial: kondangan, arisan, patungan kantor."
+            "id": "Masukkan biaya sosial: kondangan, arisan, iuran kantor."
            },
            "img": "../../assets/pe/ed-board.jpg"
           },
@@ -45566,39 +45566,39 @@ window.MT_LMS['the-route'] = {
            "id": "Tabungan dan utang, sekitar 20%",
            "d": {
             "en": "Automate it; raise it with every raise, committing part of the increase before it arrives.",
-            "id": "Otomatiskan; naikkan dengan setiap kenaikan, komitkan sebagian kenaikan sebelum tiba."
+            "id": "Otomatiskan; naikkan di setiap kenaikan gaji, dengan mengalokasikan sebagian kenaikannya sebelum uangnya datang."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           },
           {
            "icon": "heart",
            "en": "Family and giving",
-           "id": "Keluarga dan memberi",
+           "id": "Keluarga dan berbagi",
            "d": {
             "en": "An explicit line: planned, not improvised.",
-            "id": "Pos eksplisit: direncanakan, bukan dadakan."
+            "id": "Baris tersendiri: direncanakan, bukan dadakan."
            },
            "img": "../../assets/bg/stage-graduation.jpg"
           }
          ],
          "sub": {
           "en": "The 50/30/20 guideline of E. Warren and A. Warren Tyagi is a starting shape, not a rule; Indonesian budgets need explicit family and social lines.",
-          "id": "Pedoman 50/30/20 dari E. Warren dan A. Warren Tyagi adalah bentuk awal, bukan aturan; anggaran Indonesia butuh pos keluarga dan sosial yang eksplisit."
+          "id": "Patokan 50/30/20 dari E. Warren dan A. Warren Tyagi adalah bentuk awal, bukan aturan; anggaran di Indonesia butuh baris tersendiri untuk keluarga dan biaya sosial."
          },
          "band": {
           "en": "Track one month honestly from bank statements and e-wallet histories, then set the shape and stop tracking.",
-          "id": "Lacak satu bulan dengan jujur dari rekening koran dan riwayat dompet digital, lalu tetapkan bentuknya dan berhenti melacak."
+          "id": "Catat pengeluaranmu sebulan dengan jujur dari mutasi rekening dan riwayat dompet digital, lalu tetapkan bentuknya dan berhenti mencatat."
          },
          "em": {
           "en": "firewall every raise",
-          "id": "bentengi setiap kenaikan"
+          "id": "amankan setiap kenaikan gaji"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Never borrow at high cost for things that do not last; convert every offer into an annual figure first",
-          "id": "Jangan pernah meminjam dengan biaya tinggi untuk hal yang tak bertahan; ubah setiap tawaran menjadi angka tahunan dulu"
+          "id": "Jangan pernah berutang dengan biaya tinggi untuk hal yang tidak bertahan lama; ubah setiap tawaran kredit ke angka tahunan dulu"
          },
          "layout": "grid",
          "items": [
@@ -45608,24 +45608,24 @@ window.MT_LMS['the-route'] = {
            "id": "Tawaran kredit apa pun",
            "d": {
             "en": "Convert it to an annual cost; check the lender is licensed against the regulator’s lists (verify).",
-            "id": "Ubah menjadi biaya tahunan; periksa pemberi pinjaman berizin pada daftar regulator (verifikasi)."
+            "id": "Ubah ke biaya tahunan; cek apakah pemberi pinjamannya berizin di daftar regulator (periksa)."
            },
            "img": "../../assets/bg/fg-sprint-offer.jpg"
           },
           {
            "icon": "warn",
            "en": "Existing costly debt",
-           "id": "Utang mahal yang ada",
+           "id": "Utang mahal yang sudah ada",
            "d": {
             "en": "Stop adding; minimums on all; extra to the most expensive, or the smallest, first.",
-            "id": "Berhenti menambah; minimum untuk semua; tambahan ke yang termahal, atau terkecil, dulu."
+            "id": "Berhenti menambah; bayar minimum di semuanya; tambahan untuk yang termahal, atau yang terkecil, lebih dulu."
            },
            "img": "../../assets/bg/ep-stage-architecture.jpg"
           },
           {
            "icon": "heart",
            "en": "A family request",
-           "id": "Permintaan keluarga",
+           "id": "Permintaan dari keluarga",
            "d": {
             "en": "From the family line; only what you could afford to lose; never via costly loans.",
             "id": "Dari pos keluarga; hanya yang sanggup kamu relakan; jangan pernah lewat pinjaman mahal."
@@ -45638,22 +45638,22 @@ window.MT_LMS['the-route'] = {
            "id": "Paylater untuk keinginan",
            "d": {
             "en": "Wait a week; if still wanted, save for it.",
-            "id": "Tunggu seminggu; jika masih ingin, tabung untuk itu."
+            "id": "Tunggu seminggu; kalau masih ingin, menabunglah untuk itu."
            },
            "img": "../../assets/bg/negotiation.jpg"
           }
          ],
          "sub": {
           "en": "A home you will live in for years or an education that raises earning power can be sensible debt; gadgets, holidays and dinners are not.",
-          "id": "Rumah yang kamu tinggali bertahun-tahun atau pendidikan yang menaikkan daya hasil bisa menjadi utang yang masuk akal; gawai, liburan, dan makan malam tidak."
+          "id": "Rumah yang akan kamu tinggali bertahun-tahun atau pendidikan yang menaikkan penghasilan bisa menjadi utang yang masuk akal; gawai, liburan, dan makan malam tidak."
          },
          "band": {
           "en": "Credit cards, paylater and online loans can carry high effective annual costs once interest, fees and penalties are counted.",
-          "id": "Kartu kredit, paylater, dan pinjaman daring bisa membawa biaya tahunan efektif yang tinggi setelah bunga, biaya, dan penalti dihitung."
+          "id": "Kartu kredit, paylater, dan pinjaman online bisa menanggung biaya tahunan efektif yang tinggi setelah bunga, biaya, dan denda dihitung."
          },
          "em": {
           "en": "things that do not last",
-          "id": "hal yang tak bertahan"
+          "id": "hal yang tidak bertahan lama"
          }
         }
        ],
@@ -45672,7 +45672,7 @@ window.MT_LMS['the-route'] = {
       },
       "intro": {
        "en": "A system you set once beats willpower you need every day.",
-       "id": "Sistem yang dipasang sekali mengalahkan tekad yang kamu butuhkan setiap hari."
+       "id": "Sistem yang diatur sekali mengalahkan tekad yang harus dipaksakan setiap hari."
       },
       "slides": [
        {
@@ -45683,7 +45683,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "An automatic transfer on payday, before you can spend.",
-          "id": "Transfer otomatis di hari gajian, sebelum kamu bisa belanja."
+          "id": "Transfer otomatis di hari gajian, sebelum kamu sempat membelanjakannya."
          }
         ]
        },
@@ -45702,24 +45702,24 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Firewall the raises",
-         "id": "Bentengi kenaikan gaji"
+         "id": "Amankan kenaikan gaji"
         },
         "points": [
          {
           "en": "Commit part of every raise before you see it.",
-          "id": "Komit sebagian setiap kenaikan sebelum kamu melihatnya."
+          "id": "Alokasikan sebagian dari setiap kenaikan gaji sebelum kamu melihatnya."
          }
         ]
        },
        {
         "h": {
          "en": "Rules for debt",
-         "id": "Aturan utang"
+         "id": "Aturan soal utang"
         },
         "points": [
          {
           "en": "Never borrow at high cost for things that do not last.",
-          "id": "Jangan pernah meminjam dengan biaya tinggi untuk hal yang tak bertahan."
+          "id": "Jangan pernah berutang dengan biaya tinggi untuk hal yang tidak bertahan lama."
          }
         ]
        }
@@ -45732,28 +45732,28 @@ window.MT_LMS['the-route'] = {
        "imgPos": "50% 40%",
        "h": {
         "en": "Pay yourself first: automatically",
-        "id": "Bayar dirimu lebih dulu, otomatis"
+        "id": "Bayar dirimu lebih dulu, secara otomatis"
        },
        "body": {
-        "en": "The most reliable finding in personal finance is also the least glamorous: people save far more when saving is the <b>default</b> rather than a decision. Behavioural economists Richard Thaler and Shlomo Benartzi showed this with “Save More Tomorrow”, a programme in which employees committed in advance to put part of future raises into retirement savings; because the decision was made once, before the money arrived, savings rates rose substantially and stayed up. You can build the same default for yourself. On payday, or the day after, to be safe, set an <b>automatic transfer</b> from your salary account to a separate savings account, ideally at a different bank or in a separate pocket that is not linked to your debit card or e-wallet. The small friction matters: money you cannot see in your spending account is money you do not spend. Choose a percentage you can keep in your worst month, not your best, ten per cent is a common start, and any number is better than none, and then raise it on a schedule: every raise, every promotion, every time a debt is paid off. Treat holiday bonus and bonus as annual events with their own plan decided in advance, for example a fixed share to the emergency fund, a share to goals and a share to enjoy. Two cautions. Automation is not a substitute for knowing your numbers; review the system monthly for ten minutes. And automation only works if the rest of the month is survivable, if the transfer repeatedly forces you into paylater or overdrafts, lower it and fix the budget first.",
-        "id": "Temuan paling andal dalam keuangan pribadi juga yang paling tidak glamor: orang menabung jauh lebih banyak saat menabung menjadi <b>bawaan</b>, bukan keputusan. Ekonom perilaku Richard Thaler dan Shlomo Benartzi menunjukkannya lewat “Save More Tomorrow”, program di mana karyawan berkomitmen lebih dulu untuk menyisihkan sebagian kenaikan gaji mendatang ke tabungan pensiun; karena keputusannya dibuat sekali, sebelum uangnya datang, tingkat tabungan naik cukup besar dan bertahan. Kamu bisa membangun bawaan yang sama untuk dirimu. Di hari gajian, atau sehari sesudahnya, agar aman, pasang <b>transfer otomatis</b> dari rekening gaji ke rekening tabungan terpisah, idealnya di bank lain atau di kantong terpisah yang tak terhubung ke kartu debit atau dompet digitalmu. Sedikit hambatan itu penting: uang yang tak terlihat di rekening belanjamu adalah uang yang tidak kamu belanjakan. Pilih persentase yang bisa kamu jaga di bulan terburukmu, bukan terbaikmu, sepuluh persen adalah awal yang umum, dan angka berapa pun lebih baik daripada nol, lalu naikkan sesuai jadwal: setiap kenaikan gaji, setiap promosi, setiap kali utang lunas. Perlakukan THR dan bonus sebagai peristiwa tahunan dengan rencananya sendiri yang diputuskan lebih dulu, misalnya porsi tetap untuk dana darurat, porsi untuk tujuan, dan porsi untuk dinikmati. Dua peringatan. Otomatisasi bukan pengganti mengetahui angkamu; tinjau sistemnya sebulan sekali selama sepuluh menit. Dan otomatisasi hanya bekerja jika sisa bulan masih bisa dijalani. Jika transfer itu berulang kali memaksamu memakai paylater atau cerukan, turunkan dulu dan perbaiki anggarannya."
+        "en": "The most reliable finding in personal finance is also the least glamorous: people save far more when saving is the <b>default</b> rather than a decision. Behavioural economists Richard Thaler and Shlomo Benartzi showed this with “Save More Tomorrow”, a programme in which employees committed in advance to put part of future raises into retirement savings; because the decision was made once, before the money arrived, savings rates rose substantially and stayed up. You can build the same default for yourself. On payday (or the day after, to be safe), set an <b>automatic transfer</b> from your salary account to a separate savings account, ideally at a different bank or in a separate pocket that is not linked to your debit card or e-wallet. The small friction matters: money you cannot see in your spending account is money you do not spend. Choose a percentage you can keep in your worst month, not your best (ten per cent is a common start, and any number is better than none), and then raise it on a schedule: every raise, every promotion, every time a debt is paid off. Treat THR and bonus as annual events with their own plan decided in advance, for example a fixed share to the emergency fund, a share to goals and a share to enjoy. Two cautions. Automation is not a substitute for knowing your numbers; review the system monthly for ten minutes. And automation only works if the rest of the month is survivable: if the transfer repeatedly forces you into paylater or overdrafts, lower it and fix the budget first.",
+        "id": "Temuan paling andal dalam keuangan pribadi juga yang paling tidak menarik: orang menabung jauh lebih banyak saat menabung menjadi <b>pilihan bawaan</b>, bukan keputusan. Ekonom perilaku Richard Thaler dan Shlomo Benartzi menunjukkannya lewat “Save More Tomorrow”, program yang membuat karyawan berkomitmen sejak awal untuk menyisihkan sebagian kenaikan gaji mendatang ke tabungan pensiun. Karena keputusannya dibuat sekali, sebelum uangnya datang, tingkat tabungan naik cukup besar dan bertahan. Kamu bisa membangun pilihan bawaan yang sama untuk dirimu sendiri. Di hari gajian (atau sehari sesudahnya, supaya aman), atur <b>transfer otomatis</b> dari rekening gaji ke rekening tabungan terpisah, idealnya di bank lain atau di kantong terpisah yang tidak terhubung dengan kartu debit atau dompet digitalmu. Sedikit hambatan itu penting: uang yang tidak terlihat di rekening belanjamu adalah uang yang tidak kamu belanjakan. Pilih persentase yang sanggup kamu pertahankan di bulan terburukmu, bukan bulan terbaikmu (sepuluh persen adalah awal yang umum, dan angka berapa pun lebih baik daripada tidak sama sekali), lalu naikkan secara terjadwal: setiap naik gaji, setiap promosi, setiap kali satu utang lunas. Perlakukan THR dan bonus sebagai peristiwa tahunan dengan rencananya sendiri yang diputuskan lebih dulu, misalnya bagian tetap untuk dana darurat, bagian untuk tujuan, dan bagian untuk dinikmati. Dua peringatan. Otomatisasi bukan pengganti untuk mengetahui angka-angkamu; tinjau sistemnya sebulan sekali selama sepuluh menit. Otomatisasi juga hanya berhasil kalau sisa bulannya masih bisa dijalani: kalau transfer itu berulang kali memaksamu memakai paylater atau cerukan, turunkan dulu dan perbaiki anggarannya."
        },
        "bullets": [
         {
          "en": "<b>Default, not decision</b>: the transfer happens on payday without you.",
-         "id": "<b>Bawaan, bukan keputusan</b>: transfer terjadi di hari gajian tanpa kamu."
+         "id": "<b>Pilihan bawaan, bukan keputusan</b>: transfernya terjadi di hari gajian tanpa campur tanganmu."
         },
         {
          "en": "<b>Friction</b>: a separate account or pocket, not linked to your card.",
-         "id": "<b>Hambatan</b>: rekening atau kantong terpisah, tak terhubung ke kartumu."
+         "id": "<b>Hambatan</b>: rekening atau kantong terpisah, tidak terhubung dengan kartumu."
         },
         {
          "en": "<b>Worst-month rate</b>: start where you can hold it; raise it on a schedule.",
-         "id": "<b>Tarif bulan terburuk</b>: mulai dari yang bisa kamu jaga; naikkan sesuai jadwal."
+         "id": "<b>Tarif bulan terburuk</b>: mulai dari angka yang sanggup kamu pertahankan; naikkan secara terjadwal."
         },
         {
-         "en": "<b>holiday bonus and bonus</b>: a split decided before they arrive.",
-         "id": "<b>THR dan bonus</b>: pembagian diputuskan sebelum datang."
+         "en": "<b>THR and bonus</b>: a split decided before they arrive.",
+         "id": "<b>THR dan bonus</b>: pembagiannya diputuskan sebelum uangnya datang."
         }
        ]
       },
@@ -45761,11 +45761,11 @@ window.MT_LMS['the-route'] = {
        "icon": "target",
        "h": {
         "en": "The buckets: emergency fund first",
-        "id": "Pos-posnya: dana darurat lebih dulu"
+        "id": "Pos-pos tabungan: dana darurat lebih dulu"
        },
        "body": {
-        "en": "Savings work better with names. A pot called “savings” gets raided for a holiday; a pot called “emergency fund, six months of essentials” does not. Build three buckets, in order, with a fourth line many professionals also need. <b>1 · Emergency fund.</b> Enough to cover your essential monthly expenses, rent or kos, food, transport, family obligations, loan instalments, insurance, for three to six months; the Fieldwork runway calculator uses six as its target. Keep it safe and quickly accessible: a savings account or short deposits at a bank covered by the deposit-insurance scheme, or a money-market fund; not stocks, not crypto, not lent to friends <span class=\"ev ev-verify\">Verify</span>. This is the fund that buys career courage: it is what lets you leave a toxic job, decline a bad offer, or survive a probation that ends badly (Module 7). <b>2 · Goals fund.</b> Money for things one to five years away, a wedding, a down payment on a home, a master’s degree, a sabbatical. Keep it in low-risk instruments matched to the date. <b>3 · Long-term investment capital.</b> Money you will not need for at least five years, invested for growth (Lesson 8.3). <b>The family line.</b> Many early-career Indonesians support parents, siblings’ school fees or relatives in need. The “sandwich generation”. Treat this as a planned line in your budget, not an interruption: a regular amount agreed with yourself, sometimes discussed openly with family, plus a clear view of what you can offer in an emergency. Order matters: build at least a starter emergency fund (one month of essentials) before investing, and clear high-cost debt before building beyond it.",
-        "id": "Tabungan bekerja lebih baik dengan nama. Wadah bernama “tabungan” dibobol untuk liburan; wadah bernama “dana darurat, enam bulan kebutuhan pokok” tidak. Bangun tiga pos, berurutan, dengan pos keempat yang juga dibutuhkan banyak profesional. <b>1 · Dana darurat.</b> Cukup untuk menutup pengeluaran pokok bulanan, sewa atau kos, makan, transport, kewajiban keluarga, cicilan, asuransi, selama tiga sampai enam bulan; kalkulator landasan pacu Fieldwork memakai enam sebagai targetnya. Simpan dengan aman dan mudah dicairkan: rekening tabungan atau deposito jangka pendek di bank yang dijamin program penjaminan simpanan, atau reksa dana pasar uang; bukan saham, bukan kripto, bukan dipinjamkan ke teman <span class=\"ev ev-verify\">Verifikasi</span>. Inilah dana yang membeli keberanian berkarier: ia yang memungkinkanmu meninggalkan pekerjaan beracun, menolak tawaran buruk, atau bertahan dari masa percobaan yang berakhir buruk (Modul 7). <b>2 · Dana tujuan.</b> Uang untuk hal-hal satu sampai lima tahun lagi, pernikahan, uang muka rumah, S2, cuti panjang. Simpan dalam instrumen berisiko rendah yang sesuai tanggalnya. <b>3 · Modal investasi jangka panjang.</b> Uang yang tak akan kamu butuhkan setidaknya lima tahun, diinvestasikan untuk pertumbuhan (Pelajaran 8.3). <b>Pos keluarga.</b> Banyak orang Indonesia di awal karier membantu orang tua, biaya sekolah adik, atau kerabat yang membutuhkan; “generasi sandwich”. Perlakukan ini sebagai pos terencana dalam anggaranmu, bukan gangguan: jumlah rutin yang kamu sepakati dengan dirimu sendiri, kadang dibicarakan terbuka dengan keluarga, plus gambaran jelas tentang apa yang bisa kamu tawarkan saat darurat. Urutan itu penting: bangun setidaknya dana darurat awal (satu bulan kebutuhan pokok) sebelum berinvestasi, dan lunasi utang berbiaya tinggi sebelum membangun lebih jauh."
+        "en": "Savings work better with names. A pot called “savings” gets raided for a holiday; a pot called “emergency fund, six months of essentials” does not. Build three buckets, in order, with a fourth line many professionals also need. <b>1 · Emergency fund.</b> Enough to cover your essential monthly expenses (rent or kos, food, transport, family obligations, loan instalments, insurance) for three to six months; the Fieldwork runway calculator uses six as its target. Keep it safe and quickly accessible: a savings account or short deposits at a bank covered by LPS deposit insurance, or a money-market fund; not stocks, not crypto, not lent to friends <span class=\"ev ev-verify\">Verify</span>. This is the fund that buys career courage: it is what lets you leave a toxic job, decline a bad offer, or survive a probation that ends badly (Module 7). <b>2 · Goals fund.</b> Money for things one to five years away: a wedding, a down payment on a home, a master’s degree, a sabbatical. Keep it in low-risk instruments matched to the date. <b>3 · Long-term investment capital.</b> Money you will not need for at least five years, invested for growth (Lesson 8.3). <b>The family line.</b> Many early-career Indonesians support parents, siblings’ school fees or relatives in need: the “sandwich generation”. Treat this as a planned line in your budget, not an interruption: a regular amount agreed with yourself, sometimes discussed openly with family, plus a clear view of what you can offer in an emergency. Order matters: build at least a starter emergency fund (one month of essentials) before investing, and clear high-cost debt before building beyond it.",
+        "id": "Tabungan lebih awet kalau diberi nama. Pos bernama “tabungan” gampang terpakai untuk liburan; pos bernama “dana darurat, enam bulan kebutuhan pokok” tidak. Bangun tiga pos secara berurutan, ditambah satu baris keempat yang juga dibutuhkan banyak profesional. <b>1 · Dana darurat.</b> Cukup untuk menutup pengeluaran pokok bulanan (sewa atau kos, makan, transpor, kewajiban keluarga, cicilan, asuransi) selama tiga sampai enam bulan; kalkulator runway di Fieldwork memakai enam bulan sebagai targetnya. Simpan di tempat yang aman dan cepat dicairkan: tabungan atau deposito berjangka pendek di bank yang dijamin LPS, atau reksa dana pasar uang; bukan saham, bukan kripto, bukan dipinjamkan ke teman <span class=\"ev ev-verify\">Periksa</span>. Inilah dana yang membeli keberanian berkarier: dana inilah yang membuatmu bisa meninggalkan pekerjaan yang merusak, menolak tawaran buruk, atau bertahan saat masa percobaan berakhir buruk (Modul 7). <b>2 · Dana tujuan.</b> Uang untuk hal-hal satu sampai lima tahun lagi: pernikahan, uang muka rumah, kuliah S2, cuti panjang. Simpan di instrumen berisiko rendah yang jangka waktunya cocok dengan tanggal tujuannya. <b>3 · Modal investasi jangka panjang.</b> Uang yang tidak akan kamu butuhkan setidaknya lima tahun ke depan, diinvestasikan untuk bertumbuh (Pelajaran 8.3). <b>Pos keluarga.</b> Banyak profesional muda Indonesia ikut menanggung orang tua, biaya sekolah adik, atau kerabat yang membutuhkan: yang disebut “generasi sandwich”. Perlakukan ini sebagai baris terencana dalam anggaranmu, bukan gangguan: jumlah rutin yang kamu sepakati dengan dirimu sendiri, kadang dibicarakan terbuka dengan keluarga, ditambah gambaran jelas tentang apa yang bisa kamu berikan saat darurat. Urutannya penting: bangun setidaknya dana darurat awal (satu bulan kebutuhan pokok) sebelum berinvestasi, dan lunasi utang mahal sebelum menambah dana darurat lebih jauh."
        },
        "table": {
         "cols": [
@@ -45790,11 +45790,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "3–6 months of essentials; job loss, illness, family emergency",
-           "id": "3–6 bulan kebutuhan pokok; kehilangan kerja, sakit, darurat keluarga"
+           "id": "3–6 bulan kebutuhan pokok; kehilangan pekerjaan, sakit, keadaan darurat keluarga"
           },
           {
            "en": "Savings, short deposits, money-market funds <span class=\"ev ev-verify\">Verify</span>",
-           "id": "Tabungan, deposito pendek, reksa dana pasar uang <span class=\"ev ev-verify\">Verifikasi</span>"
+           "id": "Tabungan, deposito berjangka pendek, reksa dana pasar uang <span class=\"ev ev-verify\">Periksa</span>"
           }
          ],
          [
@@ -45808,7 +45808,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Low-risk instruments matched to the date",
-           "id": "Instrumen berisiko rendah sesuai tanggalnya"
+           "id": "Instrumen berisiko rendah yang cocok dengan tanggalnya"
           }
          ],
          [
@@ -45818,11 +45818,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "5+ years; growth",
-           "id": "5+ tahun; pertumbuhan"
+           "id": "5 tahun lebih; untuk bertumbuh"
           },
           {
            "en": "Diversified investments (Lesson 8.3)",
-           "id": "Investasi terdiversifikasi (Pelajaran 8.3)"
+           "id": "Investasi yang terdiversifikasi (Pelajaran 8.3)"
           }
          ],
          [
@@ -45832,17 +45832,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Regular support; a known emergency capacity",
-           "id": "Dukungan rutin; kapasitas darurat yang jelas"
+           "id": "Dukungan rutin; kemampuan bantuan darurat yang sudah diketahui"
           },
           {
            "en": "A planned monthly transfer",
-           "id": "Transfer bulanan terencana"
+           "id": "Transfer bulanan yang terencana"
           }
          ]
         ],
         "caption": {
-         "en": "Course guidance; education, not financial advice. Deposit-insurance coverage has limits and conditions, verify with LPS.",
-         "id": "Panduan kursus; edukasi, bukan nasihat keuangan. Penjaminan simpanan punya batas dan syarat, verifikasi dengan LPS."
+         "en": "Course guidance; education, not financial advice. Deposit-insurance coverage has limits and conditions; verify with LPS.",
+         "id": "Panduan kursus; edukasi, bukan nasihat keuangan. Penjaminan simpanan punya batas dan syarat; periksa di LPS."
         }
        }
       },
@@ -45850,21 +45850,21 @@ window.MT_LMS['the-route'] = {
        "icon": "chart",
        "h": {
         "en": "A budget you can keep, and the lifestyle firewall",
-        "id": "Anggaran yang bisa dijalankan, dan tembok gaya hidup"
+        "id": "Anggaran yang bisa dijalani, dan tembok gaya hidup"
        },
        "body": {
-        "en": "Detailed budgets fail because life is irregular. A simple frame works better. Elizabeth Warren and Amelia Warren Tyagi popularised the <b>50/30/20</b> guideline in <i>All Your Worth</i>: roughly half of after-tax income for needs, thirty per cent for wants, twenty per cent for savings and debt repayment. Treat it as a starting shape, not a rule, in Jakarta, rent alone can take a third of a first salary, and many Indonesian budgets need explicit lines for family support, religious giving such as zakat or sedekah, and social costs such as wedding gifts, arisan and office collections. Track your spending honestly for one month (bank statements and e-wallet histories make this easy), sort it into needs, wants, family and savings, and adjust the transfer and the categories to something you can keep. Then build the <b>lifestyle firewall</b>. Lifestyle inflation, spending rising as fast as income, is the main reason people earning twice their first salary still feel they cannot save. Its fuel is <b>fixed costs</b>: a better kos, a car instalment, subscriptions, a phone on credit. Fixed costs are sticky; they stay when bonuses do not, and they shrink your runway permanently. A practical firewall, in the spirit of Save More Tomorrow: whenever your income rises, commit a set share, half is a common course suggestion, to the automatic transfer before the first new payday, and enjoy the rest. Upgrade your life, deliberately and visibly, with the other half. Finally, notice social pressure: gengsi, the group dinner, the colleague’s new phone. A budget that leaves room for some joy survives; one that forbids it fails in the second month.",
-        "id": "Anggaran yang terlalu rinci gagal karena hidup tidak teratur. Kerangka sederhana bekerja lebih baik. Elizabeth Warren dan Amelia Warren Tyagi memopulerkan pedoman <b>50/30/20</b> dalam <i>All Your Worth</i>: kira-kira separuh penghasilan setelah pajak untuk kebutuhan, tiga puluh persen untuk keinginan, dua puluh persen untuk tabungan dan pelunasan utang. Anggap ini bentuk awal, bukan aturan, di Jakarta, sewa saja bisa menghabiskan sepertiga gaji pertama, dan banyak anggaran di Indonesia butuh pos eksplisit untuk dukungan keluarga, sumbangan keagamaan seperti zakat atau sedekah, dan biaya sosial seperti amplop pernikahan, arisan, dan iuran kantor. Catat pengeluaranmu dengan jujur selama sebulan (mutasi rekening dan riwayat dompet digital memudahkannya), pilah menjadi kebutuhan, keinginan, keluarga, dan tabungan, lalu sesuaikan transfer dan kategorinya menjadi sesuatu yang bisa kamu jaga. Lalu bangun <b>tembok gaya hidup</b>. Inflasi gaya hidup, pengeluaran naik secepat penghasilan, adalah alasan utama orang yang berpenghasilan dua kali gaji pertamanya tetap merasa tak bisa menabung. Bahan bakarnya adalah <b>biaya tetap</b>: kos lebih bagus, cicilan mobil, langganan, ponsel kredit. Biaya tetap itu lengket; ia tetap ada saat bonus tidak, dan memperpendek landasan pacumu secara permanen. Tembok yang praktis, dengan semangat Save More Tomorrow: setiap kali penghasilanmu naik, komit porsi tertentu, separuh adalah saran kursus yang umum, ke transfer otomatis sebelum gajian baru pertama, dan nikmati sisanya. Tingkatkan hidupmu, dengan sengaja dan terlihat, dengan separuh lainnya. Terakhir, sadari tekanan sosial: gengsi, makan malam rombongan, ponsel baru kolega. Anggaran yang menyisakan ruang untuk kesenangan akan bertahan; anggaran yang melarangnya gagal di bulan kedua."
+        "en": "Detailed budgets fail because life is irregular. A simple frame works better. Elizabeth Warren and Amelia Warren Tyagi popularised the <b>50/30/20</b> guideline in <i>All Your Worth</i>: roughly half of after-tax income for needs, thirty per cent for wants, twenty per cent for savings and debt repayment. Treat it as a starting shape, not a rule: in Jakarta, rent alone can take a third of a first salary, and many Indonesian budgets need explicit lines for family support, religious giving such as zakat or sedekah, and social costs such as wedding gifts, arisan and office collections. Track your spending honestly for one month (bank statements and e-wallet histories make this easy), sort it into needs, wants, family and savings, and adjust the transfer and the categories to something you can keep. Then build the <b>lifestyle firewall</b>. Lifestyle inflation (spending rising as fast as income) is the main reason people earning twice their first salary still feel they cannot save. Its fuel is <b>fixed costs</b>: a better kos, a car instalment, subscriptions, a phone on credit. Fixed costs are sticky; they stay when bonuses do not, and they shrink your runway permanently. A practical firewall, in the spirit of Save More Tomorrow: whenever your income rises, commit a set share (half is a common course suggestion) to the automatic transfer before the first new payday, and enjoy the rest. Upgrade your life, deliberately and visibly, with the other half. Finally, notice social pressure: gengsi, the group dinner, the colleague’s new phone. A budget that leaves room for some joy survives; one that forbids it fails in the second month.",
+        "id": "Anggaran yang terlalu rinci gagal karena hidup tidak teratur. Kerangka sederhana bekerja lebih baik. Elizabeth Warren dan Amelia Warren Tyagi mempopulerkan patokan <b>50/30/20</b> dalam <i>All Your Worth</i>: kira-kira separuh penghasilan setelah pajak untuk kebutuhan, tiga puluh persen untuk keinginan, dua puluh persen untuk tabungan dan pelunasan utang. Anggap itu bentuk awal, bukan aturan: di Jakarta, sewa saja bisa memakan sepertiga gaji pertama, dan banyak anggaran di Indonesia butuh baris tersendiri untuk menanggung keluarga, sumbangan keagamaan seperti zakat atau sedekah, dan biaya sosial seperti amplop kondangan, arisan, dan iuran kantor. Catat pengeluaranmu dengan jujur selama sebulan (mutasi rekening dan riwayat dompet digital membuat ini mudah), kelompokkan menjadi kebutuhan, keinginan, keluarga, dan tabungan, lalu sesuaikan transfer dan kategorinya sampai jadi sesuatu yang bisa kamu jalani. Setelah itu, bangun <b>tembok gaya hidup</b>. Inflasi gaya hidup (pengeluaran yang naik secepat penghasilan) adalah alasan utama orang yang penghasilannya sudah dua kali lipat gaji pertama tetap merasa tidak bisa menabung. Bahan bakarnya adalah <b>biaya tetap</b>: kos yang lebih bagus, cicilan mobil, langganan, ponsel kredit. Biaya tetap itu lengket; ia tetap ada saat bonus tidak datang, dan memperpendek runway-mu untuk seterusnya. Tembok yang praktis, sejalan dengan semangat Save More Tomorrow: setiap kali penghasilanmu naik, alokasikan bagian yang sudah ditetapkan (separuh adalah saran yang umum di kursus ini) ke transfer otomatis sebelum hari gajian baru yang pertama, lalu nikmati sisanya. Tingkatkan hidupmu dengan separuh yang lain secara sengaja dan terlihat. Terakhir, perhatikan tekanan sosial: gengsi, makan malam bareng geng, ponsel baru rekan kerja. Anggaran yang masih menyisakan ruang untuk bersenang-senang akan bertahan; anggaran yang melarangnya gagal di bulan kedua."
        },
        "table": {
         "cols": [
          {
           "en": "Line",
-          "id": "Pos"
+          "id": "Baris"
          },
          {
           "en": "Guideline share",
-          "id": "Porsi pedoman"
+          "id": "Patokan porsi"
          },
          {
           "en": "Indonesian reality check",
@@ -45883,7 +45883,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Rent in big cities can take a third alone",
-           "id": "Sewa di kota besar bisa menghabiskan sepertiga sendiri"
+           "id": "Di kota besar, sewa saja bisa memakan sepertiga"
           }
          ],
          [
@@ -45897,7 +45897,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Include social costs: kondangan, arisan, collections",
-           "id": "Sertakan biaya sosial: kondangan, arisan, iuran"
+           "id": "Masukkan biaya sosial: kondangan, arisan, iuran"
           }
          ],
          [
@@ -45911,17 +45911,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Automate it; raise it with every raise",
-           "id": "Otomatiskan; naikkan setiap kenaikan gaji"
+           "id": "Otomatiskan; naikkan di setiap kenaikan gaji"
           }
          ],
          [
           {
            "en": "<b>Family and giving</b>",
-           "id": "<b>Keluarga dan sumbangan</b>"
+           "id": "<b>Keluarga dan berbagi</b>"
           },
           {
            "en": "Explicit line",
-           "id": "Pos eksplisit"
+           "id": "Baris tersendiri"
           },
           {
            "en": "Planned, not improvised",
@@ -45931,7 +45931,7 @@ window.MT_LMS['the-route'] = {
         ],
         "caption": {
          "en": "After Warren and Warren Tyagi, <i>All Your Worth</i>; shares are a starting shape, adapted as course guidance.",
-         "id": "Mengikuti Warren dan Warren Tyagi, <i>All Your Worth</i>; porsinya bentuk awal, diadaptasi sebagai panduan kursus."
+         "id": "Berdasarkan Warren dan Warren Tyagi, <i>All Your Worth</i>; porsinya adalah bentuk awal, disesuaikan sebagai panduan kursus."
         }
        }
       },
@@ -45939,11 +45939,11 @@ window.MT_LMS['the-route'] = {
        "icon": "flag",
        "h": {
         "en": "Debt, paylater and family requests",
-        "id": "Utang, paylater, dan permintaan keluarga"
+        "id": "Utang, paylater, dan permintaan dari keluarga"
        },
        "body": {
-        "en": "Not all debt is equal. Borrowing at a reasonable rate for something that lasts and pays back. A home you will live in for years, an education that raises your earning power. Can be sensible. Borrowing at a high rate for things that do not last, gadgets, holidays, dinners, is the fastest way to turn a good salary into a trap. Three rules keep early-career debt safe. <b>Know the real cost.</b> Credit cards, paylater and online loans can carry high effective annual costs once interest, fees and late penalties are counted; convert every offer into an annual figure before accepting it. <b>Use only licensed lenders</b>, and check them against the regulator’s lists: unlicensed online lenders are associated with abusive collection and misuse of personal data <span class=\"ev ev-verify\">Verify</span>. <b>Protect your credit record.</b> Late payments are reported to the financial-information system that lenders check later. Including when you apply for a home loan <span class=\"ev ev-verify\">Verify</span>. If you already have costly debt: stop adding to it, list every balance with its rate and minimum payment, pay minimums on all, and put every extra rupiah on the most expensive first (the “avalanche” method), or on the smallest first if quick wins keep you going (the “snowball”). Then <b>family requests</b>. Supporting family is a value for many, not a failure of discipline, and your family line exists for it. For larger requests, three principles help: give or lend only what you could afford never to see again; never borrow at high cost to lend at none; and say what you can do rather than only what you cannot; “Aku bisa bantu Rp 2 juta bulan ini, dan kita bisa bicarakan rencana untuk sisanya.” Honesty about your own emergency fund is not selfishness; it is what keeps you able to help when a real emergency arrives.",
-        "id": "Tidak semua utang sama. Meminjam dengan bunga wajar untuk sesuatu yang bertahan dan memberi imbal, rumah yang akan kamu tinggali bertahun-tahun, pendidikan yang menaikkan daya hasilmu, bisa masuk akal. Meminjam dengan biaya tinggi untuk hal yang tak bertahan, gawai, liburan, makan malam, adalah jalan tercepat mengubah gaji yang baik menjadi jebakan. Tiga aturan menjaga utang awal karier tetap aman. <b>Ketahui biaya sebenarnya.</b> Kartu kredit, paylater, dan pinjaman online bisa membawa biaya tahunan efektif yang tinggi setelah bunga, biaya, dan denda keterlambatan dihitung; ubah setiap tawaran menjadi angka tahunan sebelum menerimanya. <b>Pakai hanya pemberi pinjaman berizin</b>, dan periksa di daftar regulator: pinjaman online tak berizin dikaitkan dengan penagihan kasar dan penyalahgunaan data pribadi <span class=\"ev ev-verify\">Verifikasi</span>. <b>Lindungi catatan kreditmu.</b> Keterlambatan pembayaran dilaporkan ke sistem informasi keuangan yang diperiksa pemberi pinjaman kelak. Termasuk saat kamu mengajukan KPR <span class=\"ev ev-verify\">Verifikasi</span>. Jika kamu sudah punya utang mahal: berhenti menambahnya, daftar setiap saldo dengan bunga dan pembayaran minimumnya, bayar minimum semuanya, dan arahkan setiap rupiah tambahan ke yang paling mahal lebih dulu (metode “avalanche”), atau ke yang terkecil lebih dulu jika kemenangan cepat membuatmu bertahan (metode “snowball”). Lalu <b>permintaan keluarga</b>. Membantu keluarga adalah nilai bagi banyak orang, bukan kegagalan disiplin, dan pos keluargamu ada untuk itu. Untuk permintaan yang lebih besar, tiga prinsip membantu: berikan atau pinjamkan hanya yang sanggup tak kembali; jangan pernah meminjam dengan biaya tinggi untuk meminjamkan tanpa biaya; dan sampaikan apa yang bisa kamu lakukan, bukan hanya yang tidak bisa; “Aku bisa bantu Rp 2 juta bulan ini, dan kita bisa bicarakan rencana untuk sisanya.” Jujur tentang dana daruratmu sendiri bukan egois; itulah yang membuatmu tetap mampu membantu saat darurat sungguhan datang."
+        "en": "Not all debt is equal. Borrowing at a reasonable rate for something that lasts and pays back (a home you will live in for years, an education that raises your earning power) can be sensible. Borrowing at a high rate for things that do not last (gadgets, holidays, dinners) is the fastest way to turn a good salary into a trap. Three rules keep early-career debt safe. <b>Know the real cost.</b> Credit cards, paylater and online loans can carry high effective annual costs once interest, fees and late penalties are counted; convert every offer into an annual figure before accepting it. <b>Use only licensed lenders</b>, and check them against the regulator’s lists: unlicensed online lenders are associated with abusive collection and misuse of personal data <span class=\"ev ev-verify\">Verify</span>. <b>Protect your credit record.</b> Late payments are reported to SLIK, the credit-information system that lenders check later, including when you apply for a home loan <span class=\"ev ev-verify\">Verify</span>. If you already have costly debt: stop adding to it, list every balance with its rate and minimum payment, pay minimums on all, and put every extra rupiah on the most expensive first (the “avalanche” method), or on the smallest first if quick wins keep you going (the “snowball”). Then <b>family requests</b>. Supporting family is a value for many, not a failure of discipline, and your family line exists for it. For larger requests, three principles help: give or lend only what you could afford never to see again; never borrow at high cost to lend at none; and say what you can do rather than only what you cannot: “Aku bisa bantu Rp 2 juta bulan ini, dan kita bisa bicarakan rencana untuk sisanya.” Honesty about your own emergency fund is not selfishness; it is what keeps you able to help when a real emergency arrives.",
+        "id": "Tidak semua utang sama. Meminjam dengan bunga yang wajar untuk sesuatu yang bertahan lama dan menghasilkan balik (rumah yang akan kamu tinggali bertahun-tahun, pendidikan yang menaikkan penghasilanmu) bisa masuk akal. Meminjam dengan biaya tinggi untuk hal yang tidak bertahan lama (gawai, liburan, makan malam) adalah cara tercepat mengubah gaji yang bagus menjadi jebakan. Ada tiga aturan yang menjaga utang di awal karier tetap aman. <b>Ketahui biaya sebenarnya.</b> Kartu kredit, paylater, dan pinjaman online bisa menanggung biaya tahunan efektif yang tinggi setelah bunga, biaya, dan denda keterlambatan dihitung; ubah setiap tawaran ke angka tahunan sebelum menerimanya. <b>Hanya pakai pemberi pinjaman berizin</b>, dan cek namanya di daftar regulator: pinjaman online ilegal dikenal dengan penagihan yang kasar dan penyalahgunaan data pribadi <span class=\"ev ev-verify\">Periksa</span>. <b>Jaga riwayat kreditmu.</b> Keterlambatan bayar dilaporkan ke SLIK, sistem informasi kredit yang nanti dicek pemberi pinjaman, termasuk saat kamu mengajukan KPR <span class=\"ev ev-verify\">Periksa</span>. Kalau kamu sudah punya utang mahal: berhenti menambahnya, tulis setiap saldo beserta bunga dan cicilan minimumnya, bayar minimum di semuanya, lalu taruh setiap rupiah tambahan di utang termahal lebih dulu (metode “avalanche”), atau di utang terkecil lebih dulu kalau kemenangan cepat membuatmu tetap semangat (metode “snowball”). Lalu soal <b>permintaan dari keluarga</b>. Membantu keluarga adalah nilai yang dipegang banyak orang, bukan kegagalan disiplin, dan pos keluargamu memang ada untuk itu. Untuk permintaan yang lebih besar, tiga prinsip membantu: berikan atau pinjamkan hanya sejumlah yang sanggup kamu relakan tidak kembali; jangan pernah meminjam dengan biaya tinggi untuk meminjamkan tanpa bunga; dan sampaikan apa yang bisa kamu lakukan, bukan hanya apa yang tidak bisa: “Aku bisa bantu Rp 2 juta bulan ini, dan kita bisa bicarakan rencana untuk sisanya.” Jujur soal dana daruratmu sendiri bukanlah sikap egois; justru itulah yang membuatmu tetap mampu membantu saat keadaan darurat yang sebenarnya datang."
        },
        "table": {
         "cols": [
@@ -45953,7 +45953,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Rule",
-          "id": "Aturan"
+          "id": "Aturannya"
          }
         ],
         "rows": [
@@ -45964,7 +45964,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Convert to an annual cost; check the lender is licensed",
-           "id": "Ubah ke biaya tahunan; pastikan pemberi pinjaman berizin"
+           "id": "Ubah ke biaya tahunan; cek apakah pemberi pinjamannya berizin"
           }
          ],
          [
@@ -45974,17 +45974,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Stop adding; minimums on all; extra to the most expensive (or smallest) first",
-           "id": "Berhenti menambah; minimum untuk semua; tambahan ke yang termahal (atau terkecil) dulu"
+           "id": "Berhenti menambah; bayar minimum di semuanya; tambahan untuk yang termahal (atau terkecil) lebih dulu"
           }
          ],
          [
           {
            "en": "A family request",
-           "id": "Permintaan keluarga"
+           "id": "Permintaan dari keluarga"
           },
           {
            "en": "From the family line; only what you could lose; never via costly loans",
-           "id": "Dari pos keluarga; hanya yang sanggup hilang; tak pernah lewat pinjaman mahal"
+           "id": "Dari pos keluarga; hanya yang sanggup kamu relakan; jangan pernah lewat pinjaman mahal"
           }
          ],
          [
@@ -45994,13 +45994,13 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Wait a week; if still wanted, save for it",
-           "id": "Tunggu seminggu; jika masih ingin, menabunglah untuknya"
+           "id": "Tunggu seminggu; kalau masih ingin, menabunglah untuk itu"
           }
          ]
         ],
         "caption": {
          "en": "Course guidance; education, not financial advice. Check lenders against OJK’s public lists.",
-         "id": "Panduan kursus; edukasi, bukan nasihat keuangan. Periksa pemberi pinjaman di daftar publik OJK."
+         "id": "Panduan kursus; edukasi, bukan nasihat keuangan. Cek pemberi pinjaman di daftar publik OJK."
         }
        }
       }
@@ -46009,11 +46009,11 @@ window.MT_LMS['the-route'] = {
       "type": "ladder",
       "exhibit": {
        "en": "Exhibit 1: The order of the buckets",
-       "id": "Peraga 1: Urutan pos-posnya"
+       "id": "Gambar 1: Urutan pos-pos tabungan"
       },
       "title": {
        "en": "Build from the bottom; each rung protects the one above",
-       "id": "Bangun dari bawah: setiap anak tangga melindungi yang di atasnya"
+       "id": "Bangun dari bawah; setiap anak tangga melindungi yang di atasnya"
       },
       "items": [
        {
@@ -46024,7 +46024,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Paid every month, planned not improvised.",
-         "id": "Dibayar setiap bulan, direncanakan bukan dadakan."
+         "id": "Dibayar setiap bulan, direncanakan, bukan dadakan."
         }
        },
        {
@@ -46045,8 +46045,8 @@ window.MT_LMS['the-route'] = {
          "id": "Lunasi utang mahal"
         },
         "sub": {
-         "en": "Paylater, cards, online loans, most expensive first.",
-         "id": "Paylater, kartu, pinjaman online, yang termahal dulu."
+         "en": "Paylater, cards, online loans: most expensive first.",
+         "id": "Paylater, kartu kredit, pinjaman online: yang termahal lebih dulu."
         }
        },
        {
@@ -46056,8 +46056,8 @@ window.MT_LMS['the-route'] = {
          "id": "Dana darurat penuh"
         },
         "sub": {
-         "en": "Three to six months, career courage.",
-         "id": "Tiga sampai enam bulan, keberanian berkarier."
+         "en": "Three to six months: career courage.",
+         "id": "Tiga sampai enam bulan: keberanian berkarier."
         }
        },
        {
@@ -46068,40 +46068,40 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Matched to dates; growth for 5+ years.",
-         "id": "Sesuai tanggal; pertumbuhan untuk 5+ tahun."
+         "id": "Disesuaikan dengan tanggalnya; bertumbuh untuk 5 tahun lebih."
         }
        }
       ],
       "note": {
        "en": "Automate the transfer; let the ladder decide where each rupiah goes.",
-       "id": "Otomatiskan transfernya; biarkan tangga menentukan ke mana setiap rupiah pergi."
+       "id": "Otomatiskan transfernya; biarkan tangga ini yang menentukan ke mana setiap rupiah pergi."
       },
       "longdesc": {
        "en": "A five-rung ladder for savings priorities, built from the bottom: essential costs and a planned family line; a starter emergency fund of one month; clearing costly debt, most expensive first; a full emergency fund of three to six months; and finally goals funds and long-term investing.",
-       "id": "Tangga lima anak tangga untuk prioritas tabungan, dibangun dari bawah: biaya pokok dan pos keluarga terencana; dana darurat awal satu bulan; melunasi utang mahal, termahal dulu; dana darurat penuh tiga sampai enam bulan; dan akhirnya dana tujuan serta investasi jangka panjang."
+       "id": "Tangga lima anak tangga untuk prioritas menabung, dibangun dari bawah: biaya pokok dan pos keluarga yang terencana; dana darurat awal sebesar satu bulan; melunasi utang mahal, yang termahal lebih dulu; dana darurat penuh sebesar tiga sampai enam bulan; dan terakhir dana tujuan serta investasi jangka panjang."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Saving what is left → spending what is left",
-        "id": "Menabung sisa → membelanjakan sisa"
+        "id": "Menabung sisanya → membelanjakan sisanya"
        },
        "q": {
         "en": "Nadia moves to Jakarta. Her take-home rises with the location allowance, and so does her rent.",
-        "id": "Nadia pindah ke Jakarta. Gaji bersihnya naik bersama tunjangan lokasi, begitu juga sewanya."
+        "id": "Nadia pindah ke Jakarta. Gaji bersihnya naik karena tunjangan lokasi, dan begitu pula sewanya."
        },
        "weak": {
         "en": "“Nanti kalau ada sisa di akhir bulan, aku tabung.” By the third month the kos, the commute and the team dinners have absorbed the allowance, and the savings account has not moved.",
-        "id": "“Nanti kalau ada sisa di akhir bulan, aku tabung.” Di bulan ketiga, kos, perjalanan, dan makan malam tim sudah menyerap tunjangannya, dan rekening tabungan tak bergerak."
+        "id": "“Nanti kalau ada sisa di akhir bulan, aku tabung.” Di bulan ketiga, kos, ongkos perjalanan, dan makan malam bersama tim sudah menghabiskan tunjangan itu, dan saldo tabungannya tidak bergerak."
        },
        "strong": {
         "en": "Before her first Jakarta payday she sets two automatic transfers for the 26th: fifteen per cent to a savings account at another bank (emergency fund first), and a fixed amount to her mother for her father’s treatment. She commits half the location allowance to savings, uses the other half for a kos near the office, and reviews the numbers on the first Sunday of each month.",
-        "id": "Sebelum gajian pertamanya di Jakarta ia memasang dua transfer otomatis tanggal 26: lima belas persen ke rekening tabungan di bank lain (dana darurat dulu), dan jumlah tetap ke ibunya untuk pengobatan ayahnya. Ia mengomit separuh tunjangan lokasi ke tabungan, memakai separuh lainnya untuk kos dekat kantor, dan meninjau angkanya setiap Minggu pertama tiap bulan."
+        "id": "Sebelum hari gajian pertamanya di Jakarta, ia memasang dua transfer otomatis untuk tanggal 26: lima belas persen ke rekening tabungan di bank lain (dana darurat lebih dulu), dan jumlah tetap untuk ibunya demi pengobatan ayahnya. Ia mengalokasikan separuh tunjangan lokasinya ke tabungan, memakai separuh lainnya untuk kos dekat kantor, dan meninjau angka-angkanya setiap Minggu pertama tiap bulan."
        },
        "why": {
         "en": "The first relies on willpower against a city designed to spend. The second makes saving and family support the default, splits the raise before it arrives, and adds a monthly review. Fictional.",
-        "id": "Yang pertama mengandalkan tekad melawan kota yang dirancang untuk belanja. Yang kedua menjadikan menabung dan dukungan keluarga sebagai bawaan, membagi kenaikan sebelum datang, dan menambah tinjauan bulanan. Fiktif."
+        "id": "Yang pertama mengandalkan tekad melawan kota yang dirancang untuk berbelanja. Yang kedua menjadikan menabung dan membantu keluarga sebagai pilihan bawaan, membagi kenaikan gajinya sebelum uangnya datang, dan menambahkan tinjauan bulanan. Fiktif."
        }
       }
      ],
@@ -46114,11 +46114,11 @@ window.MT_LMS['the-route'] = {
       "body": [
        {
         "en": "Sekar, now a junior analyst, asks Nadia for advice over lunch, embarrassed. Three paylater accounts, a phone on instalments and one online loan taken to cover the others: total monthly payments are forty per cent of her take-home, and one lender has started messaging her colleagues.",
-        "id": "Sekar, kini analis junior, meminta saran Nadia saat makan siang, dengan malu. Tiga akun paylater, ponsel cicilan, dan satu pinjaman online yang diambil untuk menutup yang lain: total cicilan bulanan empat puluh persen dari gaji bersihnya, dan satu pemberi pinjaman mulai mengirim pesan ke rekan kerjanya."
+        "id": "Sekar, yang kini analis junior, meminta saran Nadia saat makan siang dengan malu-malu. Tiga akun paylater, satu ponsel cicilan, dan satu pinjaman online yang diambil untuk menutup yang lain: total cicilan bulanannya empat puluh persen dari gaji bersihnya, dan salah satu pemberi pinjaman mulai mengirim pesan ke rekan-rekan kerjanya."
        },
        {
-        "en": "Nadia helps her write every debt on one page with its real annual cost and due date. They check the online lender against the regulator’s list, it is not there, and Sekar reports the harassment through the official channel. She freezes new paylater use, pays minimums on everything, and puts her whole holiday bonus on the most expensive balance. It takes seven months. On the day the last one is paid, Sekar sets up her first automatic savings transfer, for the same amount she had been paying in instalments.",
-        "id": "Nadia membantunya menulis setiap utang di satu halaman dengan biaya tahunan sebenarnya dan tanggal jatuh temponya. Mereka memeriksa pemberi pinjaman online di daftar regulator, tidak ada, dan Sekar melaporkan teror penagihannya lewat saluran resmi. Ia membekukan pemakaian paylater baru, membayar minimum semuanya, dan menaruh seluruh THR-nya ke saldo termahal. Butuh tujuh bulan. Di hari cicilan terakhir lunas, Sekar memasang transfer tabungan otomatis pertamanya, sebesar jumlah yang selama ini ia bayarkan untuk cicilan."
+        "en": "Nadia helps her write every debt on one page with its real annual cost and due date. They check the online lender against the regulator’s list (it is not there), and Sekar reports the harassment through the official channel. She freezes new paylater use, pays minimums on everything, and puts her whole THR on the most expensive balance. It takes seven months. On the day the last one is paid, Sekar sets up her first automatic savings transfer, for the same amount she had been paying in instalments.",
+        "id": "Nadia membantunya menulis setiap utang di satu halaman, lengkap dengan biaya tahunan sebenarnya dan tanggal jatuh temponya. Mereka mengecek pemberi pinjaman online itu di daftar regulator (namanya tidak ada), dan Sekar melaporkan penagihan yang kasar itu lewat jalur resmi. Ia membekukan pemakaian paylater baru, membayar minimum di semuanya, dan memakai seluruh THR-nya untuk saldo yang paling mahal. Butuh tujuh bulan. Di hari utang terakhirnya lunas, Sekar memasang transfer tabungan otomatis pertamanya, sebesar jumlah yang selama ini ia bayarkan untuk cicilan."
        }
       ]
      },
@@ -46126,29 +46126,29 @@ window.MT_LMS['the-route'] = {
       {
        "h": {
         "en": "Drill 1 · Set the default",
-        "id": "Latihan 1 · Pasang bawaannya"
+        "id": "Latihan 1 · Pasang pilihan bawaannya"
        },
        "body": {
         "en": "Choose a savings percentage you could keep in your worst month. Write the date, the amount, the destination account and the rule for raising it (every raise, every promotion, every debt paid off).",
-        "id": "Pilih persentase tabungan yang bisa kamu jaga di bulan terburukmu. Tulis tanggal, jumlah, rekening tujuan, dan aturan menaikkannya (setiap kenaikan gaji, setiap promosi, setiap utang lunas)."
+        "id": "Pilih persentase tabungan yang sanggup kamu pertahankan di bulan terburukmu. Tulis tanggal, jumlah, rekening tujuan, dan aturan untuk menaikkannya (setiap naik gaji, setiap promosi, setiap utang lunas)."
        },
        "debrief": {
         "en": "Set the transfer today, even if small. The habit matters more than the first amount.",
-        "id": "Pasang transfernya hari ini, meski kecil. Kebiasaannya lebih penting daripada jumlah pertamanya."
+        "id": "Pasang transfernya hari ini, walaupun kecil. Kebiasaannya lebih penting daripada jumlah pertamanya."
        }
       },
       {
        "h": {
         "en": "Drill 2 · One month of truth",
-        "id": "Latihan 2 · Sebulan kejujuran"
+        "id": "Latihan 2 · Satu bulan kejujuran"
        },
        "body": {
         "en": "Sort last month’s bank and e-wallet transactions into needs, wants, family and giving, savings and debt. Compare with 50/30/20 and name one fixed cost you would not choose again.",
-        "id": "Pilah transaksi bank dan dompet digital bulan lalu menjadi kebutuhan, keinginan, keluarga dan sumbangan, tabungan dan utang. Bandingkan dengan 50/30/20 dan sebut satu biaya tetap yang tak akan kamu pilih lagi."
+        "id": "Kelompokkan transaksi bank dan dompet digital bulan lalu menjadi kebutuhan, keinginan, keluarga dan berbagi, serta tabungan dan utang. Bandingkan dengan 50/30/20 dan sebut satu biaya tetap yang tidak akan kamu pilih lagi."
        },
        "debrief": {
         "en": "Fixed costs are the lever. One changed subscription or kos decision can do more than a year of skipped coffees.",
-        "id": "Biaya tetap adalah tuasnya. Satu langganan atau keputusan kos yang diubah bisa berdampak lebih besar daripada setahun menahan kopi."
+        "id": "Biaya tetap adalah pengungkitnya. Satu langganan atau keputusan soal kos yang diubah bisa berdampak lebih besar daripada setahun tidak membeli kopi."
        }
       },
       {
@@ -46158,11 +46158,11 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "List any debts with real annual cost and due date, and choose avalanche or snowball. Then write your family line: the regular amount, and what you could offer in an emergency without touching your own fund below one month.",
-        "id": "Daftar utang apa pun dengan biaya tahunan sebenarnya dan tanggal jatuh tempo, dan pilih avalanche atau snowball. Lalu tulis pos keluargamu: jumlah rutin, dan apa yang bisa kamu tawarkan saat darurat tanpa menurunkan dana daruratmu di bawah satu bulan."
+        "id": "Tulis semua utangmu beserta biaya tahunan sebenarnya dan tanggal jatuh temponya, lalu pilih avalanche atau snowball. Setelah itu tulis pos keluargamu: jumlah rutinnya, dan apa yang bisa kamu berikan saat darurat tanpa membuat danamu sendiri turun di bawah satu bulan."
        },
        "debrief": {
         "en": "Knowing your emergency capacity in advance makes the hard conversation kinder and faster.",
-        "id": "Mengetahui kapasitas daruratmu lebih dulu membuat percakapan sulit lebih ramah dan cepat."
+        "id": "Mengetahui kemampuan bantuan daruratmu sejak awal membuat percakapan yang sulit menjadi lebih lembut dan lebih cepat."
        }
       }
      ],
@@ -46171,7 +46171,7 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Saving what is left",
-         "id": "Menabung yang tersisa"
+         "id": "Menabung dari sisa"
         },
         "fix": {
          "en": "Automate the transfer on payday.",
@@ -46185,27 +46185,27 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Starter fund first; clear costly debt; then invest.",
-         "id": "Dana awal dulu; lunasi utang mahal; baru berinvestasi."
+         "id": "Dana darurat awal dulu; lunasi utang mahal; baru berinvestasi."
         }
        },
        {
         "h": {
          "en": "Turning raises into fixed costs",
-         "id": "Mengubah kenaikan menjadi biaya tetap"
+         "id": "Mengubah kenaikan gaji menjadi biaya tetap"
         },
         "fix": {
          "en": "Commit half of every raise before you see it.",
-         "id": "Komit separuh setiap kenaikan sebelum kamu melihatnya."
+         "id": "Alokasikan separuh dari setiap kenaikan gaji sebelum kamu melihatnya."
         }
        },
        {
         "h": {
          "en": "Borrowing to help family",
-         "id": "Meminjam untuk membantu keluarga"
+         "id": "Berutang untuk membantu keluarga"
         },
         "fix": {
          "en": "Help from the family line; never via costly loans.",
-         "id": "Bantu dari pos keluarga; tak pernah lewat pinjaman mahal."
+         "id": "Bantu dari pos keluarga; jangan pernah lewat pinjaman mahal."
         }
        }
       ]
@@ -46228,7 +46228,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "Three to six months of essential expenses, kept safe and quickly accessible.",
-        "id": "Tiga sampai enam bulan pengeluaran pokok, disimpan aman dan mudah dicairkan."
+        "id": "Tiga sampai enam bulan pengeluaran pokok, disimpan di tempat yang aman dan cepat dicairkan."
        }
       },
       {
@@ -46238,7 +46238,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "Spending rising as fast as income, usually through fixed costs.",
-        "id": "Pengeluaran naik secepat penghasilan, biasanya lewat biaya tetap."
+        "id": "Pengeluaran yang naik secepat penghasilan, biasanya lewat biaya tetap."
        }
       },
       {
@@ -46248,7 +46248,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "Paying extra on the most expensive debt first, or on the smallest first.",
-        "id": "Membayar lebih untuk utang termahal lebih dulu, atau yang terkecil lebih dulu."
+        "id": "Membayar lebih untuk utang termahal lebih dulu, atau untuk utang terkecil lebih dulu."
        }
       }
      ],
@@ -46256,12 +46256,12 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "Which approach saves most reliably?",
-        "id": "Pendekatan mana yang paling andal untuk menabung?"
+        "id": "Cara mana yang paling andal untuk menabung?"
        },
        "options": [
         {
          "en": "Saving whatever is left at month-end",
-         "id": "Menabung sisa di akhir bulan"
+         "id": "Menabung apa pun yang tersisa di akhir bulan"
         },
         {
          "en": "An automatic transfer on payday to a separate account",
@@ -46269,7 +46269,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Saving only bonuses",
-         "id": "Hanya menabung bonus"
+         "id": "Menabung bonus saja"
         },
         {
          "en": "Cutting all wants",
@@ -46279,7 +46279,7 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Defaults beat decisions; friction protects the money.",
-        "id": "Bawaan mengalahkan keputusan; hambatan melindungi uangnya."
+        "id": "Pilihan bawaan mengalahkan keputusan; sedikit hambatan melindungi uangnya."
        }
       },
       {
@@ -46290,11 +46290,11 @@ window.MT_LMS['the-route'] = {
        "options": [
         {
          "en": "In individual stocks for growth",
-         "id": "Di saham individual untuk pertumbuhan"
+         "id": "Di saham perorangan supaya bertumbuh"
         },
         {
          "en": "Somewhere safe and quickly accessible, such as savings or a money-market fund",
-         "id": "Di tempat aman dan mudah dicairkan, seperti tabungan atau reksa dana pasar uang"
+         "id": "Di tempat yang aman dan cepat dicairkan, seperti tabungan atau reksa dana pasar uang"
         },
         {
          "en": "Lent to a friend at interest",
@@ -46308,13 +46308,13 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Its job is to be there, in full, when you need it.",
-        "id": "Tugasnya ada, utuh, saat kamu membutuhkannya."
+        "id": "Tugasnya adalah tersedia, utuh, saat kamu membutuhkannya."
        }
       },
       {
        "q": {
         "en": "A relative asks for a loan larger than your family line. The best principle is…",
-        "id": "Seorang kerabat meminjam lebih besar dari pos keluargamu. Prinsip terbaiknya adalah…"
+        "id": "Seorang kerabat meminta pinjaman yang lebih besar dari pos keluargamu. Prinsip terbaiknya adalah…"
        },
        "options": [
         {
@@ -46323,7 +46323,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Give or lend only what you could afford never to see again, and say what you can do",
-         "id": "Memberi atau meminjamkan hanya yang sanggup tak kembali, dan sampaikan apa yang bisa kamu lakukan"
+         "id": "Memberi atau meminjamkan hanya sejumlah yang sanggup kamu relakan tidak kembali, dan menyampaikan apa yang bisa kamu lakukan"
         },
         {
          "en": "Refuse without explanation",
@@ -46337,7 +46337,7 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "It protects both the relationship and your ability to help in a real emergency.",
-        "id": "Itu menjaga hubungan sekaligus kemampuanmu membantu saat darurat sungguhan."
+        "id": "Prinsip itu melindungi hubungannya sekaligus kemampuanmu membantu saat keadaan darurat yang sebenarnya."
        }
       }
      ],
@@ -46350,7 +46350,7 @@ window.MT_LMS['the-route'] = {
       },
       "body": {
        "en": "Three decisions in one week: what to do with a raise before payday, a cousin’s loan request, and a friend’s “5% a month” investment.",
-       "id": "Tiga keputusan dalam seminggu: apa yang dilakukan dengan kenaikan gaji sebelum gajian, permintaan pinjaman sepupu, dan “investasi 5% sebulan” dari teman."
+       "id": "Tiga keputusan dalam satu minggu: apa yang dilakukan dengan kenaikan gaji sebelum hari gajian, permintaan pinjaman dari sepupu, dan ajakan investasi “5% sebulan” dari seorang teman."
       },
       "cta": {
        "en": "Start the practice",
@@ -46359,20 +46359,20 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "Savings are not what is left at the end of the month. They are what is moved at the start.",
-      "id": "Tabungan bukanlah sisa di akhir bulan. Tabungan adalah yang dipindahkan di awal."
+      "id": "Tabungan bukanlah sisa di akhir bulan. Tabungan adalah uang yang dipindahkan di awal."
      },
      "takeaways": [
       {
        "en": "Pay yourself first with an automatic payday transfer, and raise the rate on a schedule.",
-       "id": "Bayar dirimu lebih dulu dengan transfer otomatis di hari gajian, dan naikkan tarifnya sesuai jadwal."
+       "id": "Bayar dirimu lebih dulu dengan transfer otomatis di hari gajian, dan naikkan tarifnya secara terjadwal."
       },
       {
-       "en": "Name the buckets, emergency fund first, then goals and long-term capital, and plan the family line.",
-       "id": "Beri nama pos-posnya, dana darurat dulu, lalu tujuan dan modal jangka panjang, dan rencanakan pos keluarga."
+       "en": "Name the buckets (emergency fund first, then goals and long-term capital) and plan the family line.",
+       "id": "Beri nama pos-posnya (dana darurat dulu, lalu tujuan dan modal jangka panjang) dan rencanakan pos keluarga."
       },
       {
        "en": "Firewall your raises against fixed costs, know the real cost of any debt, and never borrow at high cost to help.",
-       "id": "Bentengi kenaikan gajimu dari biaya tetap, ketahui biaya sebenarnya dari setiap utang, dan jangan pernah meminjam mahal untuk membantu."
+       "id": "Lindungi kenaikan gajimu dari biaya tetap, ketahui biaya sebenarnya dari utang apa pun, dan jangan pernah berutang mahal untuk membantu."
       }
      ],
      "resources": {
@@ -46382,7 +46382,7 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "Career Kit item (part 2): your savings system.",
-       "id": "Butir Career Kit (bagian 2): sistem tabunganmu."
+       "id": "Isi Perangkat Karier (bagian 2): sistem tabunganmu."
       },
       "items": [
        {
@@ -46397,20 +46397,20 @@ window.MT_LMS['the-route'] = {
         },
         "body": [
          {
-          "en": "R. H. Thaler and S. Benartzi, “Save More Tomorrow” (<i>Journal of Political Economy</i>, 2004); committing future raises to savings.",
-          "id": "R. H. Thaler dan S. Benartzi, “Save More Tomorrow” (<i>Journal of Political Economy</i>, 2004), mengomit kenaikan gaji masa depan ke tabungan."
+          "en": "R. H. Thaler and S. Benartzi, “Save More Tomorrow” (<i>Journal of Political Economy</i>, 2004): committing future raises to savings.",
+          "id": "R. H. Thaler dan S. Benartzi, “Save More Tomorrow” (<i>Journal of Political Economy</i>, 2004): menyisihkan kenaikan gaji mendatang untuk tabungan."
          },
          {
           "en": "E. Warren and A. Warren Tyagi, <i>All Your Worth</i>: the 50/30/20 guideline.",
-          "id": "E. Warren dan A. Warren Tyagi, <i>All Your Worth</i>: pedoman 50/30/20."
+          "id": "E. Warren dan A. Warren Tyagi, <i>All Your Worth</i>: patokan 50/30/20."
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> Deposit-insurance limits (LPS), lender licensing lists (OJK) and how credit history is reported (SLIK) should be checked on the official sites.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Batas penjaminan simpanan (LPS), daftar izin pemberi pinjaman (OJK), dan cara riwayat kredit dilaporkan (SLIK) perlu diperiksa di situs resmi."
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Batas penjaminan simpanan (LPS), daftar pemberi pinjaman berizin (OJK), dan cara riwayat kredit dilaporkan (SLIK) perlu dicek di situs resminya."
          },
          {
           "en": "<span class=\"ev ev-contested\">Course guidance</span> The bucket order, the half-of-every-raise firewall and the family-line rules are The Route’s working methods, not personal advice.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Urutan pos, tembok separuh-setiap-kenaikan, dan aturan pos keluarga adalah metode kerja The Route, bukan nasihat pribadi."
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Urutan pos, tembok separuh dari setiap kenaikan gaji, dan aturan pos keluarga adalah metode kerja The Route, bukan nasihat pribadi."
          }
         ]
        },
@@ -46422,16 +46422,16 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "One page; review monthly for ten minutes.",
-         "id": "Satu halaman; tinjau bulanan selama sepuluh menit."
+         "id": "Satu halaman; tinjau sebulan sekali selama sepuluh menit."
         },
         "body": [
          {
           "en": "TAKE-HOME … · ESSENTIALS … · TRANSFER on … : …% → account … · EMERGENCY: target (×6) … · now … · months to target …",
-          "id": "GAJI BERSIH … · KEBUTUHAN POKOK … · TRANSFER tanggal … : …% → rekening … · DARURAT: target (×6) … · sekarang … · bulan ke target …"
+          "id": "GAJI BERSIH … · KEBUTUHAN POKOK … · TRANSFER tanggal … : …% → rekening … · DARURAT: target (×6) … · sekarang … · bulan sampai target …"
          },
          {
-          "en": "GOALS: … by … (…/month) · LONG-TERM: …/month · FAMILY LINE: …/month · emergency capacity … · holiday bonus/BONUS split: …% / …% / …%",
-          "id": "TUJUAN: … paling lambat … (…/bulan) · JANGKA PANJANG: …/bulan · POS KELUARGA: …/bulan · kapasitas darurat … · PEMBAGIAN THR/BONUS: …% / …% / …%"
+          "en": "GOALS: … by … (…/month) · LONG-TERM: …/month · FAMILY LINE: …/month · emergency capacity … · THR/BONUS split: …% / …% / …%",
+          "id": "TUJUAN: … paling lambat … (…/bulan) · JANGKA PANJANG: …/bulan · POS KELUARGA: …/bulan · kemampuan bantuan darurat … · PEMBAGIAN THR/BONUS: …% / …% / …%"
          }
         ]
        },
@@ -46465,32 +46465,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Investment Foundations for Your Market",
-      "id": "Dasar-Dasar Investasi untuk Pasarmu"
+      "id": "Dasar-Dasar Investasi untuk Pasar Indonesia"
      },
      "overview": {
-      "en": "Once your emergency fund is built and costly debt is gone, money you will not need for years should work harder than a savings account. Otherwise inflation slowly takes it. This lesson gives an early-career professional the foundations: what to have in place first, the main instruments in ascending order of risk, the few principles that survive every market, time horizon, diversification, cost, consistency, and the reflexes that protect you from the schemes that target people with a new salary. It is education, not advice: it will not tell you what to buy, but it will help you ask better questions of anyone who does.",
-      "id": "Setelah dana daruratmu terbangun dan utang mahal lunas, uang yang tak akan kamu butuhkan selama bertahun-tahun sebaiknya bekerja lebih keras daripada rekening tabungan. Kalau tidak, inflasi perlahan menggerusnya. Pelajaran ini memberi profesional di awal karier dasar-dasarnya: apa yang perlu ada lebih dulu, instrumen utama berurutan dari risiko terendah, beberapa prinsip yang bertahan di setiap pasar, horizon waktu, diversifikasi, biaya, konsistensi, dan refleks yang melindungimu dari skema yang mengincar orang bergaji baru. Ini edukasi, bukan nasihat: pelajaran ini tak akan memberitahumu apa yang harus dibeli, tetapi akan membantumu mengajukan pertanyaan lebih baik kepada siapa pun yang memberitahumu."
+      "en": "Once your emergency fund is built and costly debt is gone, money you will not need for years should work harder than a savings account; otherwise inflation slowly takes it. This lesson gives an early-career professional the foundations: what to have in place first, the main instruments in ascending order of risk, the few principles that survive every market (time horizon, diversification, cost, consistency), and the reflexes that protect you from the schemes that target people with a new salary. It is education, not advice: it will not tell you what to buy, but it will help you ask better questions of anyone who does.",
+      "id": "Setelah dana daruratmu terbangun dan utang mahal sudah lunas, uang yang tidak akan kamu butuhkan selama bertahun-tahun sebaiknya bekerja lebih keras daripada di rekening tabungan; kalau tidak, inflasi pelan-pelan menggerusnya. Pelajaran ini memberi profesional muda dasar-dasarnya: apa yang harus sudah beres lebih dulu, instrumen-instrumen utama yang diurutkan dari risiko terendah, segelintir prinsip yang bertahan di pasar mana pun (jangka waktu, diversifikasi, biaya, konsistensi), dan refleks yang melindungimu dari skema yang mengincar orang-orang yang baru punya gaji. Ini edukasi, bukan nasihat: pelajaran ini tidak akan memberitahumu apa yang harus dibeli, tetapi akan membantumu mengajukan pertanyaan yang lebih baik kepada siapa pun yang memberitahumu."
      },
      "objectives": [
       {
        "en": "Check the foundations before investing: fund, debt, protection, horizon.",
-       "id": "Memeriksa fondasi sebelum berinvestasi: dana, utang, perlindungan, horizon."
+       "id": "Mengecek fondasinya sebelum berinvestasi: dana darurat, utang, perlindungan, jangka waktu."
       },
       {
        "en": "Describe the main Indonesian instruments in order of risk.",
-       "id": "Menjelaskan instrumen utama di Indonesia berurutan menurut risiko."
+       "id": "Menjelaskan instrumen utama di Indonesia menurut urutan risikonya."
       },
       {
        "en": "Apply four durable principles: horizon, diversification, cost, consistency.",
-       "id": "Menerapkan empat prinsip yang tahan lama: horizon, diversifikasi, biaya, konsistensi."
+       "id": "Menerapkan empat prinsip yang awet: jangka waktu, diversifikasi, biaya, konsistensi."
       },
       {
        "en": "Recognise and check an investment scheme before it costs you.",
-       "id": "Mengenali dan memeriksa skema investasi sebelum merugikanmu."
+       "id": "Mengenali dan mengecek sebuah skema investasi sebelum merugikanmu."
       }
      ],
      "readFirst": {
@@ -46504,25 +46504,25 @@ window.MT_LMS['the-route'] = {
         "n": "8.3",
         "title": {
          "en": "Investment Foundations for Your Market",
-         "id": "Dasar-Dasar Investasi untuk Pasarmu"
+         "id": "Dasar-Dasar Investasi untuk Pasar Indonesia"
         }
        },
        "story": [
         {
          "en": "Investing is the third bucket, not the first; four foundations come before any instrument whose value can fall",
-         "id": "Investasi adalah pos ketiga, bukan yang pertama; empat fondasi datang sebelum instrumen apa pun yang nilainya bisa turun"
+         "id": "Investasi adalah pos ketiga, bukan yang pertama; empat fondasi harus beres sebelum instrumen apa pun yang nilainya bisa turun"
         },
         {
          "en": "The instruments, from lower to higher risk, each with a horizon and one thing to check",
-         "id": "Instrumennya, dari risiko rendah ke tinggi, masing-masing dengan horizon dan satu hal untuk diperiksa"
+         "id": "Instrumen-instrumennya, dari risiko rendah ke tinggi, masing-masing dengan jangka waktu dan satu hal yang perlu dicek"
         },
         {
          "en": "Four principles survive every market: horizon, diversification, cost, consistency",
-         "id": "Empat prinsip bertahan di setiap pasar: horizon, diversifikasi, biaya, konsistensi"
+         "id": "Empat prinsip bertahan di pasar mana pun: jangka waktu, diversifikasi, biaya, konsistensi"
         },
         {
          "en": "Is it legal, and is it logical? Five warning signs that end the conversation",
-         "id": "Apakah legal, dan apakah logis? Lima tanda bahaya yang mengakhiri percakapan"
+         "id": "Legal dan logis? Lima tanda bahaya yang mengakhiri pembicaraan"
         }
        ],
        "takes": [
@@ -46533,17 +46533,17 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Most wealth for salaried professionals comes from saving consistently and investing boringly for a long time.",
-          "id": "Sebagian besar kekayaan profesional bergaji datang dari menabung konsisten dan berinvestasi membosankan untuk waktu yang lama."
+          "id": "Kekayaan sebagian besar profesional bergaji datang dari menabung secara konsisten dan berinvestasi dengan cara yang membosankan dalam waktu lama."
          }
         },
         {
          "h": {
           "en": "Match risk to time",
-          "id": "Sesuaikan risiko dengan waktu"
+          "id": "Cocokkan risiko dengan waktu"
          },
          "p": {
           "en": "Crypto and anything promising fixed high returns sit outside this ladder; treat them as speculation or as warnings.",
-          "id": "Kripto dan apa pun yang menjanjikan imbal hasil tinggi tetap berada di luar tangga ini; anggap sebagai spekulasi atau peringatan."
+          "id": "Kripto dan apa pun yang menjanjikan imbal hasil tinggi yang pasti berada di luar tangga ini; anggap sebagai spekulasi atau sebagai tanda bahaya."
          }
         },
         {
@@ -46553,7 +46553,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Over long periods diversified markets have historically recovered and grown, but history is not a promise.",
-          "id": "Dalam jangka panjang pasar terdiversifikasi secara historis pulih dan tumbuh, tetapi sejarah bukan janji."
+          "id": "Dalam jangka panjang, pasar yang terdiversifikasi secara historis pulih dan bertumbuh, tetapi sejarah bukanlah janji."
          }
         },
         {
@@ -46563,7 +46563,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Check the regulator’s public lists and warnings before transferring anything; the friend who introduced it is usually a victim too.",
-          "id": "Periksa daftar publik dan peringatan regulator sebelum mentransfer apa pun; teman yang memperkenalkannya biasanya juga korban."
+          "id": "Cek daftar publik dan peringatan dari regulator sebelum mentransfer apa pun; teman yang mengajakmu biasanya juga korban."
          }
         }
        ],
@@ -46572,7 +46572,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Investing is the third bucket, not the first; four foundations come before any instrument whose value can fall",
-          "id": "Investasi adalah pos ketiga, bukan yang pertama; empat fondasi datang sebelum instrumen apa pun yang nilainya bisa turun"
+          "id": "Investasi adalah pos ketiga, bukan yang pertama; empat fondasi harus beres sebelum instrumen apa pun yang nilainya bisa turun"
          },
          "layout": "grid",
          "items": [
@@ -46582,7 +46582,7 @@ window.MT_LMS['the-route'] = {
            "id": "Dana darurat",
            "d": {
             "en": "Three to six months of essentials, so a job loss never forces you to sell at a bad time.",
-            "id": "Tiga sampai enam bulan kebutuhan pokok, agar kehilangan kerja tak pernah memaksamu menjual di waktu yang buruk."
+            "id": "Tiga sampai enam bulan kebutuhan pokok, supaya kehilangan pekerjaan tidak pernah memaksamu menjual di waktu yang buruk."
            },
            "img": "../../assets/bg/negotiation.jpg"
           },
@@ -46592,7 +46592,7 @@ window.MT_LMS['the-route'] = {
            "id": "Tanpa utang mahal",
            "d": {
             "en": "Cleared before growth money goes anywhere.",
-            "id": "Dilunasi sebelum uang pertumbuhan pergi ke mana pun."
+            "id": "Dilunasi sebelum uang untuk bertumbuh ditaruh di mana pun."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           },
@@ -46602,28 +46602,28 @@ window.MT_LMS['the-route'] = {
            "id": "Perlindungan dasar",
            "d": {
             "en": "Health cover as a baseline; term life once someone depends on your income; caution with products that bundle insurance and investment.",
-            "id": "Jaminan kesehatan sebagai dasar; asuransi jiwa berjangka saat ada yang bergantung padamu; hati-hati dengan produk yang menggabungkan asuransi dan investasi."
+            "id": "Jaminan kesehatan sebagai dasar; asuransi jiwa berjangka begitu ada yang bergantung pada penghasilanmu; hati-hati dengan produk yang menggabungkan asuransi dan investasi."
            },
            "img": "../../assets/bg/mature-professional.jpg"
           },
           {
            "icon": "calendar",
            "en": "A horizon",
-           "id": "Sebuah horizon",
+           "id": "Jangka waktu",
            "d": {
             "en": "Money for next year is not money for the next decade; know which pot this is.",
-            "id": "Uang untuk tahun depan bukan uang untuk dekade depan; ketahui pos yang mana ini."
+            "id": "Uang untuk tahun depan bukan uang untuk sepuluh tahun ke depan; ketahui pos mana yang sedang kamu isi."
            },
            "img": "../../assets/bg/fg-stage-horizon.jpg"
           }
          ],
          "sub": {
           "en": "Paying off a loan that costs twenty or thirty per cent a year is a guaranteed return no investment can match.",
-          "id": "Melunasi pinjaman yang berbiaya dua puluh atau tiga puluh persen setahun adalah imbal hasil pasti yang tak bisa ditandingi investasi mana pun."
+          "id": "Melunasi pinjaman yang biayanya dua puluh atau tiga puluh persen setahun adalah imbal hasil pasti yang tidak bisa disaingi investasi apa pun."
          },
          "band": {
           "en": "Most wealth for salaried professionals comes from saving consistently and investing boringly for a long time.",
-          "id": "Sebagian besar kekayaan profesional bergaji datang dari menabung konsisten dan berinvestasi membosankan untuk waktu yang lama."
+          "id": "Kekayaan sebagian besar profesional bergaji datang dari menabung secara konsisten dan berinvestasi dengan cara yang membosankan dalam waktu lama."
          },
          "em": {
           "en": "four foundations",
@@ -46634,7 +46634,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "The instruments, from lower to higher risk, each with a horizon and one thing to check",
-          "id": "Instrumennya, dari risiko rendah ke tinggi, masing-masing dengan horizon dan satu hal untuk diperiksa"
+          "id": "Instrumen-instrumennya, dari risiko rendah ke tinggi, masing-masing dengan jangka waktu dan satu hal yang perlu dicek"
          },
          "img": "../../assets/bg/journey-start.jpg",
          "layout": "flow",
@@ -46645,7 +46645,7 @@ window.MT_LMS['the-route'] = {
            "id": "Tabungan dan deposito",
            "d": {
             "en": "Low risk; any horizon, the emergency fund. Check the LPS limit and rate condition.",
-            "id": "Risiko rendah; horizon apa pun, dana darurat. Periksa batas LPS dan syarat bunga."
+            "id": "Risiko rendah; jangka waktu berapa pun, termasuk dana darurat. Cek batas penjaminan LPS dan syarat bunganya."
            }
           },
           {
@@ -46654,7 +46654,7 @@ window.MT_LMS['the-route'] = {
            "id": "SBN ritel",
            "d": {
             "en": "Low risk; two to six years. Check whether it is tradable and the coupon type.",
-            "id": "Risiko rendah; dua sampai enam tahun. Periksa apakah bisa diperdagangkan dan jenis kuponnya."
+            "id": "Risiko rendah; dua sampai enam tahun. Cek apakah bisa diperdagangkan dan jenis kuponnya."
            }
           },
           {
@@ -46663,7 +46663,7 @@ window.MT_LMS['the-route'] = {
            "id": "Reksa dana pasar uang",
            "d": {
             "en": "Low risk; under a year. Check the manager is licensed by OJK.",
-            "id": "Risiko rendah; di bawah setahun. Periksa manajer berizin OJK."
+            "id": "Risiko rendah; di bawah setahun. Cek apakah manajer investasinya berizin OJK."
            }
           },
           {
@@ -46672,7 +46672,7 @@ window.MT_LMS['the-route'] = {
            "id": "Reksa dana pendapatan tetap dan campuran",
            "d": {
             "en": "Medium; one to five years. Check the fees and what it holds.",
-            "id": "Menengah; satu sampai lima tahun. Periksa biaya dan isinya."
+            "id": "Sedang; satu sampai lima tahun. Cek biaya dan isi portofolionya."
            }
           },
           {
@@ -46681,26 +46681,26 @@ window.MT_LMS['the-route'] = {
            "id": "Reksa dana saham dan indeks",
            "d": {
             "en": "Higher; five years and more. Check costs and diversification.",
-            "id": "Lebih tinggi; lima tahun lebih. Periksa biaya dan diversifikasi."
+            "id": "Lebih tinggi; lima tahun lebih. Cek biaya dan diversifikasinya."
            }
           },
           {
            "icon": "bolt",
            "en": "Individual stocks",
-           "id": "Saham individual",
+           "id": "Saham perorangan",
            "d": {
             "en": "High; five years and more. A licensed broker, and your own knowledge and time.",
-            "id": "Tinggi; lima tahun lebih. Pialang berizin, dan pengetahuan serta waktumu sendiri."
+            "id": "Tinggi; lima tahun lebih. Sekuritas berizin, serta pengetahuan dan waktumu sendiri."
            }
           }
          ],
          "sub": {
           "en": "Many are available from a phone with small minimums; the licence behind each matters more than the app in front of it (verify).",
-          "id": "Banyak yang tersedia dari ponsel dengan minimum kecil; izin di balik masing-masing lebih penting daripada aplikasi di depannya (verifikasi)."
+          "id": "Banyak yang bisa dibeli dari ponsel dengan modal kecil; izin di balik setiap produk lebih penting daripada aplikasi di depannya (periksa)."
          },
          "band": {
           "en": "Crypto and anything promising fixed high returns sit outside this ladder; treat them as speculation or as warnings.",
-          "id": "Kripto dan apa pun yang menjanjikan imbal hasil tinggi tetap berada di luar tangga ini; anggap sebagai spekulasi atau peringatan."
+          "id": "Kripto dan apa pun yang menjanjikan imbal hasil tinggi yang pasti berada di luar tangga ini; anggap sebagai spekulasi atau sebagai tanda bahaya."
          },
          "em": {
           "en": "from lower to higher risk",
@@ -46711,17 +46711,17 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Four principles survive every market: horizon, diversification, cost, consistency",
-          "id": "Empat prinsip bertahan di setiap pasar: horizon, diversifikasi, biaya, konsistensi"
+          "id": "Empat prinsip bertahan di pasar mana pun: jangka waktu, diversifikasi, biaya, konsistensi"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "calendar",
            "en": "Horizon",
-           "id": "Horizon",
+           "id": "Jangka waktu",
            "d": {
             "en": "Growth money is money you will not need for five years; it prevents forced selling in a downturn.",
-            "id": "Uang pertumbuhan adalah uang yang tak kamu butuhkan selama lima tahun; mencegah penjualan terpaksa saat pasar turun."
+            "id": "Uang untuk bertumbuh adalah uang yang tidak akan kamu butuhkan selama lima tahun; ini mencegah terpaksa menjual saat pasar turun."
            },
            "img": "../../assets/bg/ch1-realization.jpg"
           },
@@ -46731,7 +46731,7 @@ window.MT_LMS['the-route'] = {
            "id": "Diversifikasi",
            "d": {
             "en": "Broad funds over single bets; one failure cannot sink everything.",
-            "id": "Reksa dana luas daripada taruhan tunggal; satu kegagalan tak bisa menenggelamkan semuanya."
+            "id": "Reksa dana yang luas, bukan taruhan tunggal; satu kegagalan tidak bisa menenggelamkan semuanya."
            },
            "img": "../../assets/pe/ed-writing.jpg"
           },
@@ -46741,7 +46741,7 @@ window.MT_LMS['the-route'] = {
            "id": "Biaya",
            "d": {
             "en": "Check fees before past returns; J. C. Bogle’s case for low-cost index funds rests on this.",
-            "id": "Periksa biaya sebelum imbal hasil masa lalu; argumen J. C. Bogle untuk reksa dana indeks berbiaya rendah bertumpu di sini."
+            "id": "Cek biaya sebelum imbal hasil masa lalu; argumen J. C. Bogle untuk reksa dana indeks berbiaya rendah bertumpu di sini."
            },
            "img": "../../assets/pe/ed-lead.jpg"
           },
@@ -46751,29 +46751,29 @@ window.MT_LMS['the-route'] = {
            "id": "Konsistensi",
            "d": {
             "en": "A fixed monthly amount, automated; it prevents chasing and panic-selling.",
-            "id": "Jumlah bulanan tetap, otomatis; mencegah mengejar dan menjual panik."
+            "id": "Jumlah bulanan tetap, otomatis; ini mencegah mengejar tren dan menjual karena panik."
            },
            "img": "../../assets/bg/stage-graduation.jpg"
           }
          ],
          "sub": {
           "en": "Fees are one of the few things you control, and they compound against you as surely as returns compound for you.",
-          "id": "Biaya adalah salah satu dari sedikit hal yang kamu kendalikan, dan ia berlipat melawanmu sepasti imbal hasil berlipat untukmu."
+          "id": "Biaya adalah salah satu dari sedikit hal yang bisa kamu kendalikan, dan biaya berbunga melawanmu sama pastinya dengan imbal hasil berbunga untukmu."
          },
          "band": {
           "en": "Over long periods diversified markets have historically recovered and grown, but history is not a promise.",
-          "id": "Dalam jangka panjang pasar terdiversifikasi secara historis pulih dan tumbuh, tetapi sejarah bukan janji."
+          "id": "Dalam jangka panjang, pasar yang terdiversifikasi secara historis pulih dan bertumbuh, tetapi sejarah bukanlah janji."
          },
          "em": {
           "en": "survive every market",
-          "id": "bertahan di setiap pasar"
+          "id": "bertahan di pasar mana pun"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Is it legal, and is it logical? Five warning signs that end the conversation",
-          "id": "Apakah legal, dan apakah logis? Lima tanda bahaya yang mengakhiri percakapan"
+          "id": "Legal dan logis? Lima tanda bahaya yang mengakhiri pembicaraan"
          },
          "layout": "grid",
          "items": [
@@ -46783,44 +46783,44 @@ window.MT_LMS['the-route'] = {
            "id": "Imbal hasil bulanan tinggi yang “dijamin”",
            "d": {
             "en": "Legitimate markets cannot promise this.",
-            "id": "Pasar yang sah tak bisa menjanjikan ini."
+            "id": "Pasar yang sah tidak bisa menjanjikan ini."
            },
            "img": "../../assets/bg/ep-stage-architecture.jpg"
           },
           {
            "icon": "users",
            "en": "Returns for recruiting others",
-           "id": "Imbal hasil karena merekrut orang lain",
+           "id": "Imbalan karena merekrut orang lain",
            "d": {
             "en": "The classic structure of a Ponzi-type scheme.",
-            "id": "Struktur klasik skema jenis Ponzi."
+            "id": "Struktur klasik skema Ponzi."
            },
            "img": "../../assets/bg/early-professional.jpg"
           },
           {
            "icon": "timer",
            "en": "Pressure to decide now; keep it secret",
-           "id": "Tekanan memutuskan sekarang; rahasiakan",
+           "id": "Didesak memutuskan sekarang; diminta merahasiakan",
            "d": {
             "en": "Designed to prevent you from checking.",
-            "id": "Dirancang agar kamu tak sempat memeriksa."
+            "id": "Dirancang supaya kamu tidak sempat mengecek."
            },
            "img": "../../assets/bg/two-different-muscles.jpg"
           },
           {
            "icon": "search",
            "en": "Not on the regulator’s licensed lists",
-           "id": "Tak ada di daftar berizin regulator",
+           "id": "Tidak ada di daftar berizin regulator",
            "d": {
             "en": "No supervision, no protection; a business permit is not a licence to manage investments.",
-            "id": "Tanpa pengawasan, tanpa perlindungan; izin usaha bukan izin mengelola investasi."
+            "id": "Tanpa pengawasan, tanpa perlindungan; izin usaha bukan izin untuk mengelola investasi."
            },
            "img": "../../assets/pe/ed-board.jpg"
           },
           {
            "icon": "lock",
            "en": "Requests for OTP, PIN or account access",
-           "id": "Permintaan OTP, PIN, atau akses rekening",
+           "id": "Meminta OTP, PIN, atau akses rekening",
            "d": {
             "en": "A direct route to losing everything.",
             "id": "Jalan langsung menuju kehilangan segalanya."
@@ -46830,15 +46830,15 @@ window.MT_LMS['the-route'] = {
          ],
          "sub": {
           "en": "People with a new salary, limited experience and a wish to catch up are exactly who schemes target, often through friends, family groups and influencers.",
-          "id": "Orang dengan gaji baru, pengalaman terbatas, dan keinginan mengejar ketertinggalan adalah sasaran skema, sering lewat teman, grup keluarga, dan pemengaruh."
+          "id": "Orang yang baru punya gaji, pengalamannya terbatas, dan ingin cepat mengejar ketertinggalan adalah sasaran utama skema semacam ini, sering lewat teman, grup keluarga, dan influencer."
          },
          "band": {
           "en": "Check the regulator’s public lists and warnings before transferring anything; the friend who introduced it is usually a victim too.",
-          "id": "Periksa daftar publik dan peringatan regulator sebelum mentransfer apa pun; teman yang memperkenalkannya biasanya juga korban."
+          "id": "Cek daftar publik dan peringatan dari regulator sebelum mentransfer apa pun; teman yang mengajakmu biasanya juga korban."
          },
          "em": {
           "en": "legal, and is it logical?",
-          "id": "legal, dan apakah logis?"
+          "id": "Legal dan logis?"
          }
         }
        ],
@@ -46852,12 +46852,12 @@ window.MT_LMS['the-route'] = {
        "id": "Baca dulu · 4 slide"
       },
       "title": {
-       "en": "Slow, cheap, diversified: and legal",
-       "id": "Perlahan, murah, terdiversifikasi: dan legal"
+       "en": "Slow, cheap, diversified, and legal",
+       "id": "Pelan, murah, terdiversifikasi, dan legal"
       },
       "intro": {
        "en": "Most wealth for salaried professionals comes from saving consistently and investing boringly for a long time.",
-       "id": "Kebanyakan kekayaan profesional bergaji berasal dari menabung secara konsisten dan berinvestasi secara membosankan dalam waktu lama."
+       "id": "Kekayaan sebagian besar profesional bergaji datang dari menabung secara konsisten dan berinvestasi dengan cara yang membosankan dalam waktu lama."
       },
       "slides": [
        {
@@ -46875,12 +46875,12 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Match risk to time",
-         "id": "Sesuaikan risiko dengan waktu"
+         "id": "Cocokkan risiko dengan waktu"
         },
         "points": [
          {
           "en": "Money for next year is not money for the next decade.",
-          "id": "Uang untuk tahun depan bukan uang untuk dekade depan."
+          "id": "Uang untuk tahun depan bukan uang untuk sepuluh tahun ke depan."
          }
         ]
        },
@@ -46892,7 +46892,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Horizon, diversification, cost, consistency.",
-          "id": "Horizon, diversifikasi, biaya, konsistensi."
+          "id": "Jangka waktu, diversifikasi, biaya, konsistensi."
          }
         ]
        },
@@ -46904,7 +46904,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Licensed, and returns that make sense. Otherwise, no.",
-          "id": "Berizin, dan imbal hasil yang masuk akal. Jika tidak, jangan."
+          "id": "Berizin, dan imbal hasilnya masuk akal. Kalau tidak, jawabannya tidak."
          }
         ]
        }
@@ -46920,17 +46920,17 @@ window.MT_LMS['the-route'] = {
         "id": "Sebelum berinvestasi"
        },
        "body": {
-        "en": "Investing is the third bucket of Lesson 8.2, not the first. Before any money goes into instruments whose value can fall, four foundations should be in place. <b>An emergency fund</b> of three to six months of essentials, so that a job loss or illness never forces you to sell investments at a bad time. <b>No costly debt</b>: paying off a loan that costs twenty or thirty per cent a year is a guaranteed return no investment can match. <b>Basic protection</b>: health cover through public health insurance as a baseline, and, once someone depends on your income, term life cover sized to their needs; many planners caution against products that combine insurance and investment, because fees can be high and the two needs are easier to meet separately <span class=\"ev ev-contested\">Contested</span>. <b>A horizon for each rupiah</b>: money needed within a year or two belongs in low-risk places; money for five years or more can accept the ups and downs that growth requires. Then understand the basic trade-off. <b>Higher expected returns come with higher risk</b>: the chance that value falls, sometimes sharply, sometimes for years. There is no legitimate investment that offers high returns with no risk; anyone who promises one is either mistaken or dishonest. Your <b>risk capacity</b> (how much loss your finances can absorb) and your <b>risk tolerance</b> (how much loss you can live with without panicking) both matter; the second is usually lower than people think until they experience their first drop. Starting small and learning how you actually feel in a falling market is part of the education.",
-        "id": "Investasi adalah pos ketiga dari Pelajaran 8.2, bukan yang pertama. Sebelum uang masuk ke instrumen yang nilainya bisa turun, empat fondasi sebaiknya sudah ada. <b>Dana darurat</b> tiga sampai enam bulan kebutuhan pokok, agar kehilangan pekerjaan atau sakit tak pernah memaksamu menjual investasi di saat buruk. <b>Tanpa utang mahal</b>: melunasi pinjaman yang berbiaya dua puluh atau tiga puluh persen setahun adalah imbal pasti yang tak bisa ditandingi investasi mana pun. <b>Perlindungan dasar</b>: jaminan kesehatan lewat BPJS Kesehatan sebagai dasar, dan, begitu ada yang bergantung pada penghasilanmu, asuransi jiwa berjangka sesuai kebutuhan mereka; banyak perencana keuangan mengingatkan agar berhati-hati dengan produk yang menggabungkan asuransi dan investasi, karena biayanya bisa tinggi dan kedua kebutuhan lebih mudah dipenuhi terpisah <span class=\"ev ev-contested\">Diperdebatkan</span>. <b>Horizon untuk setiap rupiah</b>: uang yang dibutuhkan dalam satu atau dua tahun berada di tempat berisiko rendah; uang untuk lima tahun atau lebih bisa menerima naik-turun yang dibutuhkan pertumbuhan. Lalu pahami pertukaran dasarnya. <b>Imbal hasil yang diharapkan lebih tinggi datang dengan risiko lebih tinggi</b>: kemungkinan nilainya turun, kadang tajam, kadang bertahun-tahun. Tak ada investasi sah yang menawarkan imbal tinggi tanpa risiko; siapa pun yang menjanjikannya entah keliru atau tidak jujur. <b>Kapasitas risiko</b>mu (seberapa besar kerugian yang bisa diserap keuanganmu) dan <b>toleransi risiko</b>mu (seberapa besar kerugian yang bisa kamu jalani tanpa panik) sama-sama penting; yang kedua biasanya lebih rendah dari dugaan sampai orang mengalami penurunan pertamanya. Memulai kecil dan mempelajari bagaimana perasaanmu sebenarnya di pasar yang turun adalah bagian dari pendidikannya."
+        "en": "Investing is the third bucket of Lesson 8.2, not the first. Before any money goes into instruments whose value can fall, four foundations should be in place. <b>An emergency fund</b> of three to six months of essentials, so that a job loss or illness never forces you to sell investments at a bad time. <b>No costly debt</b>: paying off a loan that costs twenty or thirty per cent a year is a guaranteed return no investment can match. <b>Basic protection</b>: health cover through BPJS Kesehatan as a baseline, and, once someone depends on your income, term life cover sized to their needs; many planners caution against products that combine insurance and investment, because fees can be high and the two needs are easier to meet separately <span class=\"ev ev-contested\">Contested</span>. <b>A horizon for each rupiah</b>: money needed within a year or two belongs in low-risk places; money for five years or more can accept the ups and downs that growth requires. Then understand the basic trade-off. <b>Higher expected returns come with higher risk</b>: the chance that value falls, sometimes sharply, sometimes for years. There is no legitimate investment that offers high returns with no risk; anyone who promises one is either mistaken or dishonest. Your <b>risk capacity</b> (how much loss your finances can absorb) and your <b>risk tolerance</b> (how much loss you can live with without panicking) both matter; the second is usually lower than people think until they experience their first drop. Starting small and learning how you actually feel in a falling market is part of the education.",
+        "id": "Investasi adalah pos ketiga dari Pelajaran 8.2, bukan yang pertama. Sebelum ada uang yang masuk ke instrumen yang nilainya bisa turun, empat fondasi sebaiknya sudah beres. <b>Dana darurat</b> sebesar tiga sampai enam bulan kebutuhan pokok, supaya kehilangan pekerjaan atau sakit tidak pernah memaksamu menjual investasi di waktu yang buruk. <b>Tanpa utang mahal</b>: melunasi pinjaman yang biayanya dua puluh atau tiga puluh persen setahun adalah imbal hasil pasti yang tidak bisa disaingi investasi apa pun. <b>Perlindungan dasar</b>: jaminan kesehatan lewat BPJS Kesehatan sebagai dasarnya, dan, begitu ada orang yang bergantung pada penghasilanmu, asuransi jiwa berjangka yang besarnya sesuai kebutuhan mereka. Banyak perencana keuangan menyarankan berhati-hati terhadap produk yang menggabungkan asuransi dan investasi, karena biayanya bisa tinggi dan kedua kebutuhan itu lebih mudah dipenuhi secara terpisah <span class=\"ev ev-contested\">Masih diperdebatkan</span>. <b>Jangka waktu untuk setiap rupiah</b>: uang yang dibutuhkan dalam satu atau dua tahun tempatnya di instrumen berisiko rendah; uang untuk lima tahun lebih bisa menerima naik-turun yang memang dibutuhkan untuk bertumbuh. Lalu pahami tukar-menukar dasarnya. <b>Imbal hasil yang diharapkan lebih tinggi datang bersama risiko yang lebih tinggi</b>: kemungkinan nilainya turun, kadang tajam, kadang bertahun-tahun. Tidak ada investasi yang sah yang menawarkan imbal hasil tinggi tanpa risiko; siapa pun yang menjanjikannya kalau tidak keliru, ya tidak jujur. <b>Kapasitas risikomu</b> (seberapa besar kerugian yang sanggup ditanggung keuanganmu) dan <b>toleransi risikomu</b> (seberapa besar kerugian yang bisa kamu jalani tanpa panik) sama-sama penting; yang kedua biasanya lebih rendah dari dugaan orang sampai mereka mengalami penurunan pertamanya. Mulai dari jumlah kecil dan belajar bagaimana sebenarnya perasaanmu saat pasar turun adalah bagian dari pendidikannya."
        },
        "bullets": [
         {
          "en": "<b>Emergency fund</b>: three to six months, in place.",
-         "id": "<b>Dana darurat</b>: tiga sampai enam bulan, sudah ada."
+         "id": "<b>Dana darurat</b>: tiga sampai enam bulan, sudah tersedia."
         },
         {
          "en": "<b>No costly debt</b>: paying it off is a guaranteed return.",
-         "id": "<b>Tanpa utang mahal</b>: melunasinya adalah imbal pasti."
+         "id": "<b>Tanpa utang mahal</b>: melunasinya adalah imbal hasil yang pasti."
         },
         {
          "en": "<b>Protection</b>: health cover; term life once others depend on you.",
@@ -46938,7 +46938,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "<b>Horizon</b>: each rupiah labelled with when you need it.",
-         "id": "<b>Horizon</b>: setiap rupiah diberi label kapan dibutuhkan."
+         "id": "<b>Jangka waktu</b>: setiap rupiah diberi label kapan kamu membutuhkannya."
         }
        ]
       },
@@ -46946,11 +46946,11 @@ window.MT_LMS['the-route'] = {
        "icon": "chart",
        "h": {
         "en": "The instruments, in order of risk",
-        "id": "Instrumen-instrumen, berurutan menurut risiko"
+        "id": "Instrumen-instrumennya, menurut urutan risiko"
        },
        "body": {
-        "en": "Savers today have access to a wide range of instruments, many available from a phone with small minimums. From lower to higher risk, broadly: <b>Savings and time deposits</b> at banks, covered by the deposit-insurance scheme (LPS) up to a limit and subject to conditions such as the interest rate not exceeding the guaranteed rate <span class=\"ev ev-verify\">Verify</span>. <b>Retail government securities</b> (SBN ritel), such as ORI, SBR and retail sukuk, issued by the state in periodic offerings, with fixed or floating coupons; some can be sold before maturity and some cannot <span class=\"ev ev-verify\">Verify</span>. <b>Mutual funds</b> (reksa dana), managed by licensed investment managers and supervised by OJK: money-market funds (low risk, suitable for short horizons and emergency funds), fixed-income funds, balanced funds, and equity funds, including <b>index funds and ETFs</b> that track a market index at low cost. <b>Individual stocks</b> on the Indonesia Stock Exchange, bought through a licensed broker, higher risk, and demanding more knowledge and time. <b>Gold</b>, popular in households, in physical or digital form. Check that any digital platform is properly registered <span class=\"ev ev-verify\">Verify</span>. <b>Property</b>: large, illiquid, often bought with a mortgage (Lesson 8.4). <b>Crypto-assets</b>: highly volatile, with regulatory oversight that has been changing; treat any allocation as money you could lose entirely <span class=\"ev ev-verify\">Verify</span>. For most early-career professionals, a simple combination, retail government securities or money-market funds for shorter goals, and low-cost diversified funds for the long term; covers most needs without requiring you to pick winners.",
-        "id": "Penabung Indonesia kini punya akses ke banyak instrumen, sebagian besar tersedia dari ponsel dengan minimum kecil. Dari risiko lebih rendah ke lebih tinggi, secara garis besar: <b>Tabungan dan deposito</b> di bank, dijamin program penjaminan simpanan (LPS) sampai batas tertentu dan dengan syarat seperti suku bunga tidak melebihi bunga penjaminan <span class=\"ev ev-verify\">Verifikasi</span>. <b>Surat Berharga Negara ritel</b> (SBN ritel), seperti ORI, SBR, dan sukuk ritel, diterbitkan negara dalam penawaran berkala, dengan kupon tetap atau mengambang; sebagian bisa dijual sebelum jatuh tempo dan sebagian tidak <span class=\"ev ev-verify\">Verifikasi</span>. <b>Reksa dana</b>, dikelola manajer investasi berizin dan diawasi OJK: reksa dana pasar uang (risiko rendah, cocok untuk horizon pendek dan dana darurat), pendapatan tetap, campuran, dan saham, termasuk <b>reksa dana indeks dan ETF</b> yang mengikuti indeks pasar dengan biaya rendah. <b>Saham individual</b> di Bursa Efek Indonesia, dibeli lewat broker berizin, risiko lebih tinggi, dan menuntut lebih banyak pengetahuan dan waktu. <b>Emas</b>, populer di rumah tangga Indonesia, dalam bentuk fisik atau digital. Periksa bahwa platform digitalnya terdaftar dengan benar <span class=\"ev ev-verify\">Verifikasi</span>. <b>Properti</b>: besar, tidak likuid, sering dibeli dengan KPR (Pelajaran 8.4). <b>Aset kripto</b>: sangat fluktuatif, dengan pengawasan regulasi yang terus berubah; perlakukan porsi apa pun sebagai uang yang bisa hilang seluruhnya <span class=\"ev ev-verify\">Verifikasi</span>. Bagi kebanyakan profesional awal karier, kombinasi sederhana, SBN ritel atau reksa dana pasar uang untuk tujuan jangka pendek, dan reksa dana terdiversifikasi berbiaya rendah untuk jangka panjang, memenuhi sebagian besar kebutuhan tanpa mengharuskanmu memilih pemenang."
+        "en": "Savers today have access to a wide range of instruments, many available from a phone with small minimums. From lower to higher risk, broadly: <b>Savings and time deposits</b> at banks, covered by the deposit-insurance scheme (LPS) up to a limit and subject to conditions such as the interest rate not exceeding the guaranteed rate <span class=\"ev ev-verify\">Verify</span>. <b>Retail government securities</b> (SBN ritel), such as ORI, SBR and retail sukuk, issued by the state in periodic offerings, with fixed or floating coupons; some can be sold before maturity and some cannot <span class=\"ev ev-verify\">Verify</span>. <b>Mutual funds</b> (reksa dana), managed by licensed investment managers and supervised by OJK: money-market funds (low risk, suitable for short horizons and emergency funds), fixed-income funds, balanced funds, and equity funds, including <b>index funds and ETFs</b> that track a market index at low cost. <b>Individual stocks</b> on the Indonesia Stock Exchange, bought through a licensed broker: higher risk, and demanding more knowledge and time. <b>Gold</b>, popular in households, in physical or digital form; check that any digital platform is properly registered <span class=\"ev ev-verify\">Verify</span>. <b>Property</b>: large, illiquid, often bought with a mortgage (Lesson 8.4). <b>Crypto-assets</b>: highly volatile, with regulatory oversight that has been changing; treat any allocation as money you could lose entirely <span class=\"ev ev-verify\">Verify</span>. For most early-career professionals, a simple combination (retail government securities or money-market funds for shorter goals, and low-cost diversified funds for the long term) covers most needs without requiring you to pick winners.",
+        "id": "Penabung sekarang punya akses ke beragam instrumen, banyak yang bisa dibeli lewat ponsel dengan modal kecil. Dari risiko rendah ke tinggi, secara garis besar: <b>Tabungan dan deposito</b> di bank, dijamin LPS sampai batas tertentu dan dengan syarat, misalnya bunganya tidak melebihi tingkat bunga penjaminan <span class=\"ev ev-verify\">Periksa</span>. <b>SBN ritel</b>, seperti ORI, SBR, dan sukuk ritel, diterbitkan negara dalam masa penawaran berkala, dengan kupon tetap atau mengambang; sebagian bisa dijual sebelum jatuh tempo dan sebagian tidak <span class=\"ev ev-verify\">Periksa</span>. <b>Reksa dana</b>, dikelola manajer investasi berizin dan diawasi OJK: reksa dana pasar uang (risiko rendah, cocok untuk jangka pendek dan dana darurat), reksa dana pendapatan tetap, reksa dana campuran, dan reksa dana saham, termasuk <b>reksa dana indeks dan ETF</b> yang mengikuti indeks pasar dengan biaya rendah. <b>Saham perorangan</b> di Bursa Efek Indonesia, dibeli lewat perusahaan sekuritas berizin: risikonya lebih tinggi, dan butuh pengetahuan serta waktu lebih banyak. <b>Emas</b>, populer di banyak rumah tangga, dalam bentuk fisik atau digital; cek bahwa platform digital mana pun sudah terdaftar dengan benar <span class=\"ev ev-verify\">Periksa</span>. <b>Properti</b>: besar nilainya, sulit dicairkan, sering dibeli dengan KPR (Pelajaran 8.4). <b>Aset kripto</b>: sangat fluktuatif, dengan pengawasan regulasi yang terus berubah; anggap porsi apa pun di sana sebagai uang yang bisa hilang seluruhnya <span class=\"ev ev-verify\">Periksa</span>. Bagi kebanyakan profesional muda, kombinasi sederhana (SBN ritel atau reksa dana pasar uang untuk tujuan jangka pendek, dan reksa dana terdiversifikasi berbiaya rendah untuk jangka panjang) sudah memenuhi sebagian besar kebutuhan tanpa mengharuskanmu memilih pemenang."
        },
        "table": {
         "cols": [
@@ -46964,11 +46964,11 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Typical horizon",
-          "id": "Horizon lazim"
+          "id": "Jangka waktu umum"
          },
          {
           "en": "Check",
-          "id": "Periksa"
+          "id": "Yang perlu dicek"
          }
         ],
         "rows": [
@@ -46987,7 +46987,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "LPS limit and rate condition <span class=\"ev ev-verify\">Verify</span>",
-           "id": "Batas LPS dan syarat bunga <span class=\"ev ev-verify\">Verifikasi</span>"
+           "id": "Batas penjaminan LPS dan syarat bunganya <span class=\"ev ev-verify\">Periksa</span>"
           }
          ],
          [
@@ -47005,7 +47005,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Tradable or not; coupon type <span class=\"ev ev-verify\">Verify</span>",
-           "id": "Bisa diperdagangkan atau tidak; jenis kupon <span class=\"ev ev-verify\">Verifikasi</span>"
+           "id": "Bisa diperdagangkan atau tidak; jenis kuponnya <span class=\"ev ev-verify\">Periksa</span>"
           }
          ],
          [
@@ -47023,7 +47023,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Manager licensed by OJK",
-           "id": "Manajer berizin OJK"
+           "id": "Manajer investasinya berizin OJK"
           }
          ],
          [
@@ -47041,7 +47041,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Fees; what it holds",
-           "id": "Biaya; apa isinya"
+           "id": "Biaya; isi portofolionya"
           }
          ],
          [
@@ -47055,7 +47055,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "5+ years",
-           "id": "5+ tahun"
+           "id": "5 tahun lebih"
           },
           {
            "en": "Costs; diversification",
@@ -47065,7 +47065,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Individual stocks",
-           "id": "Saham individual"
+           "id": "Saham perorangan"
           },
           {
            "en": "High",
@@ -47073,11 +47073,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "5+ years",
-           "id": "5+ tahun"
+           "id": "5 tahun lebih"
           },
           {
            "en": "Licensed broker; your knowledge and time",
-           "id": "Broker berizin; pengetahuan dan waktumu"
+           "id": "Sekuritas berizin; pengetahuan dan waktumu"
           }
          ],
          [
@@ -47091,17 +47091,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Money you can lose",
-           "id": "Uang yang sanggup hilang"
+           "id": "Uang yang siap hilang"
           },
           {
            "en": "Registered platform; changing rules <span class=\"ev ev-verify\">Verify</span>",
-           "id": "Platform terdaftar; aturan berubah <span class=\"ev ev-verify\">Verifikasi</span>"
+           "id": "Platform terdaftar; aturan yang terus berubah <span class=\"ev ev-verify\">Periksa</span>"
           }
          ]
         ],
         "caption": {
          "en": "Education, not financial advice. Risk levels are broad categories; products and rules change; verify with OJK, LPS and the Ministry of Finance.",
-         "id": "Edukasi, bukan nasihat keuangan. Tingkat risiko adalah kategori umum; produk dan aturan berubah; verifikasi dengan OJK, LPS, dan Kementerian Keuangan."
+         "id": "Edukasi, bukan nasihat keuangan. Tingkat risiko adalah kategori garis besar; produk dan aturannya bisa berubah; periksa di OJK, LPS, dan Kementerian Keuangan."
         }
        }
       },
@@ -47109,11 +47109,11 @@ window.MT_LMS['the-route'] = {
        "icon": "gear",
        "h": {
         "en": "Four principles that survive every market",
-        "id": "Empat prinsip yang bertahan di setiap pasar"
+        "id": "Empat prinsip yang bertahan di pasar mana pun"
        },
        "body": {
-        "en": "Markets change; a few principles do not. <b>1 · Time horizon.</b> Money invested for growth should be money you will not need for at least five years, so that you are never forced to sell in a downturn. Over short periods, prices of growth assets can fall sharply; over long periods, diversified markets have historically recovered and grown, but history is not a promise. <b>2 · Diversification.</b> Spread risk across many companies, sectors and, where possible, types of asset. A single stock, a single sector, or a friend’s business can fail; a broad fund rarely goes to zero. <b>3 · Cost.</b> Fees are one of the few things you control, and they compound against you as surely as returns compound for you. John C. Bogle, founder of Vanguard, built a career on this point in <i>The Little Book of Common Sense Investing</i>: low-cost, broadly diversified index funds have been hard for most actively managed funds to beat after fees over long periods. Check a fund’s fees before its past returns. <b>4 · Consistency.</b> Investing a fixed amount every month, rupiah-cost averaging, removes the temptation to time the market and buys more units when prices are low. Its power comes from compounding: returns earning returns over many years. The Fieldwork money instrument shows the arithmetic on your own numbers with an assumed rate you choose; try a modest assumption and notice how much of the final figure comes from time rather than from the amount. Two behavioural traps undo these principles: <b>chasing</b> whatever rose most last year, and <b>panic-selling</b> after a fall. Writing a one-page investment plan, goals, horizon, allocation, monthly amount, and what you will do when markets fall, before you invest is the best protection against both.",
-        "id": "Pasar berubah; beberapa prinsip tidak. <b>1 · Horizon waktu.</b> Uang yang diinvestasikan untuk pertumbuhan sebaiknya uang yang tak akan kamu butuhkan setidaknya lima tahun, agar kamu tak pernah terpaksa menjual saat pasar turun. Dalam jangka pendek, harga aset pertumbuhan bisa turun tajam; dalam jangka panjang, pasar yang terdiversifikasi secara historis pulih dan bertumbuh, tetapi sejarah bukan janji. <b>2 · Diversifikasi.</b> Sebar risiko ke banyak perusahaan, sektor, dan, bila mungkin, jenis aset. Satu saham, satu sektor, atau usaha seorang teman bisa gagal; reksa dana yang luas jarang menjadi nol. <b>3 · Biaya.</b> Biaya adalah salah satu dari sedikit hal yang bisa kamu kendalikan, dan ia memajemuk melawanmu sepasti imbal hasil memajemuk untukmu. John C. Bogle, pendiri Vanguard, membangun kariernya di atas poin ini dalam <i>The Little Book of Common Sense Investing</i>: reksa dana indeks berbiaya rendah yang terdiversifikasi luas sulit dikalahkan kebanyakan reksa dana yang dikelola aktif setelah biaya, dalam jangka panjang. Periksa biaya sebuah reksa dana sebelum imbal masa lalunya. <b>4 · Konsistensi.</b> Berinvestasi dengan jumlah tetap setiap bulan, rata-rata biaya rupiah, menghapus godaan menebak waktu pasar dan membeli lebih banyak unit saat harga rendah. Kekuatannya berasal dari pemajemukan: imbal yang menghasilkan imbal selama bertahun-tahun. Instrumen uang Fieldwork menunjukkan aritmetikanya dengan angkamu sendiri dan asumsi imbal yang kamu pilih; coba asumsi yang sedang dan perhatikan berapa banyak angka akhirnya berasal dari waktu, bukan dari jumlahnya. Dua jebakan perilaku meruntuhkan prinsip-prinsip ini: <b>mengejar</b> apa pun yang naik paling tinggi tahun lalu, dan <b>menjual karena panik</b> setelah penurunan. Menulis rencana investasi satu halaman, tujuan, horizon, alokasi, jumlah bulanan, dan apa yang akan kamu lakukan saat pasar turun, sebelum berinvestasi adalah perlindungan terbaik dari keduanya."
+        "en": "Markets change; a few principles do not. <b>1 · Time horizon.</b> Money invested for growth should be money you will not need for at least five years, so that you are never forced to sell in a downturn. Over short periods, prices of growth assets can fall sharply; over long periods, diversified markets have historically recovered and grown, but history is not a promise. <b>2 · Diversification.</b> Spread risk across many companies, sectors and, where possible, types of asset. A single stock, a single sector, or a friend’s business can fail; a broad fund rarely goes to zero. <b>3 · Cost.</b> Fees are one of the few things you control, and they compound against you as surely as returns compound for you. John C. Bogle, founder of Vanguard, built a career on this point in <i>The Little Book of Common Sense Investing</i>: low-cost, broadly diversified index funds have been hard for most actively managed funds to beat after fees over long periods. Check a fund’s fees before its past returns. <b>4 · Consistency.</b> Investing a fixed amount every month (rupiah-cost averaging) removes the temptation to time the market and buys more units when prices are low. Its power comes from compounding: returns earning returns over many years. The Fieldwork money instrument shows the arithmetic on your own numbers with an assumed rate you choose; try a modest assumption and notice how much of the final figure comes from time rather than from the amount. Two behavioural traps undo these principles: <b>chasing</b> whatever rose most last year, and <b>panic-selling</b> after a fall. Writing a one-page investment plan (goals, horizon, allocation, monthly amount, and what you will do when markets fall) before you invest is the best protection against both.",
+        "id": "Pasar berubah; segelintir prinsip tidak. <b>1 · Jangka waktu.</b> Uang yang diinvestasikan untuk bertumbuh sebaiknya uang yang tidak akan kamu butuhkan setidaknya lima tahun ke depan, supaya kamu tidak pernah terpaksa menjual saat pasar turun. Dalam jangka pendek, harga aset pertumbuhan bisa turun tajam; dalam jangka panjang, pasar yang terdiversifikasi secara historis pulih dan bertumbuh, tetapi sejarah bukanlah janji. <b>2 · Diversifikasi.</b> Sebar risikonya ke banyak perusahaan, sektor, dan, kalau memungkinkan, jenis aset. Satu saham, satu sektor, atau usaha seorang teman bisa gagal; reksa dana yang luas jarang sampai nol. <b>3 · Biaya.</b> Biaya adalah salah satu dari sedikit hal yang bisa kamu kendalikan, dan biaya berbunga melawanmu sama pastinya dengan imbal hasil berbunga untukmu. John C. Bogle, pendiri Vanguard, membangun kariernya di atas poin ini dalam <i>The Little Book of Common Sense Investing</i>: reksa dana indeks berbiaya rendah yang terdiversifikasi luas sulit dikalahkan oleh kebanyakan reksa dana yang dikelola aktif, setelah dipotong biaya, dalam jangka panjang. Cek biaya sebuah reksa dana sebelum melihat imbal hasil masa lalunya. <b>4 · Konsistensi.</b> Berinvestasi dengan jumlah tetap setiap bulan (rupiah-cost averaging) menghilangkan godaan untuk menebak waktu pasar dan membeli lebih banyak unit saat harga sedang rendah. Kekuatannya datang dari bunga berbunga: imbal hasil yang menghasilkan imbal hasil selama bertahun-tahun. Instrumen uang di Fieldwork menunjukkan hitungannya dengan angka-angkamu sendiri dan asumsi imbal hasil yang kamu pilih; coba asumsi yang moderat dan perhatikan seberapa besar angka akhirnya berasal dari waktu, bukan dari jumlah setorannya. Ada dua jebakan perilaku yang meruntuhkan prinsip-prinsip ini: <b>mengejar</b> apa pun yang paling naik tahun lalu, dan <b>menjual karena panik</b> setelah pasar turun. Menulis rencana investasi satu halaman (tujuan, jangka waktu, alokasi, jumlah bulanan, dan apa yang akan kamu lakukan saat pasar turun) sebelum berinvestasi adalah perlindungan terbaik dari keduanya."
        },
        "table": {
         "cols": [
@@ -47123,22 +47123,22 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "In practice",
-          "id": "Dalam praktik"
+          "id": "Dalam praktiknya"
          },
          {
           "en": "Trap it prevents",
-          "id": "Jebakan yang dicegah"
+          "id": "Jebakan yang dicegahnya"
          }
         ],
         "rows": [
          [
           {
            "en": "<b>Horizon</b>",
-           "id": "<b>Horizon</b>"
+           "id": "<b>Jangka waktu</b>"
           },
           {
            "en": "Growth money = 5+ years",
-           "id": "Uang pertumbuhan = 5+ tahun"
+           "id": "Uang untuk bertumbuh = 5 tahun lebih"
           },
           {
            "en": "Forced selling in a downturn",
@@ -47152,7 +47152,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Broad funds over single bets",
-           "id": "Reksa dana luas daripada taruhan tunggal"
+           "id": "Reksa dana yang luas, bukan taruhan tunggal"
           },
           {
            "en": "One failure sinking everything",
@@ -47166,11 +47166,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Check fees before past returns",
-           "id": "Periksa biaya sebelum imbal masa lalu"
+           "id": "Cek biaya sebelum imbal hasil masa lalu"
           },
           {
            "en": "Fees compounding against you",
-           "id": "Biaya memajemuk melawanmu"
+           "id": "Biaya yang berbunga melawanmu"
           }
          ],
          [
@@ -47180,17 +47180,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "A fixed monthly amount, automated",
-           "id": "Jumlah tetap bulanan, diotomatiskan"
+           "id": "Jumlah bulanan tetap, otomatis"
           },
           {
            "en": "Chasing and panic-selling",
-           "id": "Mengejar dan menjual karena panik"
+           "id": "Mengejar tren dan menjual karena panik"
           }
          ]
         ],
         "caption": {
          "en": "After J. C. Bogle, <i>The Little Book of Common Sense Investing</i>; education, not financial advice.",
-         "id": "Mengikuti J. C. Bogle, <i>The Little Book of Common Sense Investing</i>; edukasi, bukan nasihat keuangan."
+         "id": "Berdasarkan J. C. Bogle, <i>The Little Book of Common Sense Investing</i>; edukasi, bukan nasihat keuangan."
         }
        }
       },
@@ -47201,8 +47201,8 @@ window.MT_LMS['the-route'] = {
         "id": "Refleks anti-penipuan: legal dan logis"
        },
        "body": {
-        "en": "People with a new salary, limited experience and a wish to catch up are exactly who investment schemes target. Often through friends, colleagues, family groups or social-media influencers displaying wealth. Indonesia has seen many such schemes, and education campaigns by the financial regulator have promoted a simple test: is it <b>legal</b>, and is it <b>logical</b>? <span class=\"ev ev-verify\">Verify</span> <b>Legal</b>: is the company, the product and the person selling it licensed or registered for this activity? Check the regulator’s public lists and its warnings about illegal investments before transferring anything. A company registration or a business permit is not the same as a licence to manage investments. <b>Logical</b>: does the return make sense? Legitimate investments rarely promise fixed high returns; “guaranteed” returns of several per cent a month (which compound to far more than any legitimate market pays in a year), returns paid from recruiting new members, “robot trading” that cannot lose, pressure to decide today, and requests to keep it confidential are all warning signs. Other reflexes help. Never share OTP codes, PINs or account access with anyone offering “help”. Be wary of anyone who profits from your purchase, including influencers paid by platforms, and ask how they are paid. Do not invest in anything you cannot explain to a friend in two sentences. And if you or someone close has been caught, act quickly: stop further transfers, keep evidence, and report through the regulator’s official channels <span class=\"ev ev-verify\">Verify</span>. Declining is easier with a script: “Terima kasih sudah ngajak. Aku punya aturan pribadi hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kalau kamu mau, kita cek bareng di daftar OJK.”",
-        "id": "Orang dengan gaji baru, pengalaman terbatas, dan keinginan mengejar ketertinggalan persis adalah sasaran skema investasi. Sering lewat teman, kolega, grup keluarga, atau influencer media sosial yang memamerkan kekayaan. Indonesia sudah mengalami banyak skema seperti itu, dan kampanye edukasi regulator keuangan mempromosikan uji sederhana: apakah ia <b>legal</b>, dan apakah ia <b>logis</b>? <span class=\"ev ev-verify\">Verifikasi</span> <b>Legal</b>: apakah perusahaan, produk, dan orang yang menjualnya berizin atau terdaftar untuk kegiatan ini? Periksa daftar publik regulator dan peringatannya tentang investasi ilegal sebelum mentransfer apa pun, akta perusahaan atau izin usaha tidak sama dengan izin mengelola investasi. <b>Logis</b>: apakah imbalnya masuk akal? Investasi sah jarang menjanjikan imbal tinggi yang tetap; imbal “terjamin” beberapa persen sebulan (yang bila dimajemukkan jauh melampaui yang dibayarkan pasar sah mana pun dalam setahun), imbal yang dibayar dari merekrut anggota baru, “robot trading” yang tak bisa rugi, desakan untuk memutuskan hari ini, dan permintaan untuk merahasiakannya adalah tanda-tanda bahaya. Refleks lain membantu. Jangan pernah membagikan kode OTP, PIN, atau akses rekening kepada siapa pun yang menawarkan “bantuan”. Waspadai siapa pun yang mendapat untung dari pembelianmu, termasuk influencer yang dibayar platform, dan tanyakan bagaimana mereka dibayar. Jangan berinvestasi pada apa pun yang tak bisa kamu jelaskan kepada teman dalam dua kalimat. Dan jika kamu atau orang dekat sudah terjebak, bertindak cepat: hentikan transfer berikutnya, simpan bukti, dan laporkan lewat saluran resmi regulator <span class=\"ev ev-verify\">Verifikasi</span>. Menolak lebih mudah dengan naskah: “Terima kasih sudah ngajak. Aku punya aturan pribadi hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kalau kamu mau, kita cek bareng di daftar OJK.”"
+        "en": "People with a new salary, limited experience and a wish to catch up are exactly who investment schemes target, often through friends, colleagues, family groups or social-media influencers displaying wealth. Indonesia has seen many such schemes, and education campaigns by the financial regulator have promoted a simple test: is it <b>legal</b>, and is it <b>logical</b>? <span class=\"ev ev-verify\">Verify</span> <b>Legal</b>: is the company, the product and the person selling it licensed or registered for this activity? Check the regulator’s public lists and its warnings about illegal investments before transferring anything. A company registration or a business permit is not the same as a licence to manage investments. <b>Logical</b>: does the return make sense? Legitimate investments rarely promise fixed high returns; “guaranteed” returns of several per cent a month (which compound to far more than any legitimate market pays in a year), returns paid from recruiting new members, “robot trading” that cannot lose, pressure to decide today, and requests to keep it confidential are all warning signs. Other reflexes help. Never share OTP codes, PINs or account access with anyone offering “help”. Be wary of anyone who profits from your purchase, including influencers paid by platforms, and ask how they are paid. Do not invest in anything you cannot explain to a friend in two sentences. And if you or someone close has been caught, act quickly: stop further transfers, keep evidence, and report through the regulator’s official channels <span class=\"ev ev-verify\">Verify</span>. Declining is easier with a script: “Terima kasih sudah ngajak. Aku punya aturan pribadi hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kalau kamu mau, kita cek bareng di daftar OJK.”",
+        "id": "Orang yang baru punya gaji, pengalamannya terbatas, dan ingin cepat mengejar ketertinggalan adalah sasaran utama skema investasi, sering lewat teman, rekan kerja, grup keluarga, atau influencer media sosial yang memamerkan kekayaan. Indonesia sudah sering diterpa skema semacam ini, dan kampanye edukasi dari regulator keuangan mempopulerkan tes sederhana: apakah <b>legal</b>, dan apakah <b>logis</b>? <span class=\"ev ev-verify\">Periksa</span> <b>Legal</b>: apakah perusahaan, produk, dan orang yang menjualnya berizin atau terdaftar untuk kegiatan itu? Cek daftar publik regulator dan peringatannya soal investasi ilegal sebelum mentransfer apa pun. Akta perusahaan atau izin usaha tidak sama dengan izin untuk mengelola investasi. <b>Logis</b>: apakah imbal hasilnya masuk akal? Investasi yang sah jarang menjanjikan imbal hasil tinggi yang pasti; imbal hasil “dijamin” beberapa persen sebulan (yang kalau dibungakan jauh melampaui apa yang dibayar pasar yang sah dalam setahun), imbalan dari merekrut anggota baru, “robot trading” yang tidak mungkin rugi, desakan untuk memutuskan hari ini, dan permintaan untuk merahasiakannya adalah tanda bahaya. Ada beberapa refleks lain yang membantu. Jangan pernah membagikan kode OTP, PIN, atau akses rekening kepada siapa pun yang menawarkan “bantuan”. Waspadai siapa pun yang mendapat untung dari pembelianmu, termasuk influencer yang dibayar platform, dan tanyakan bagaimana mereka dibayar. Jangan berinvestasi di apa pun yang tidak bisa kamu jelaskan kepada teman dalam dua kalimat. Dan kalau kamu atau orang dekatmu sudah terjerat, bertindaklah cepat: hentikan transfer berikutnya, simpan buktinya, dan laporkan lewat jalur resmi regulator <span class=\"ev ev-verify\">Periksa</span>. Menolak jadi lebih mudah dengan naskah: “Terima kasih sudah ngajak. Aku punya aturan pribadi hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kalau kamu mau, kita cek bareng di daftar OJK.”"
        },
        "table": {
         "cols": [
@@ -47212,24 +47212,24 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Why it matters",
-          "id": "Mengapa penting"
+          "id": "Kenapa penting"
          }
         ],
         "rows": [
          [
           {
            "en": "“Guaranteed” high monthly returns",
-           "id": "Imbal bulanan tinggi yang “terjamin”"
+           "id": "Imbal hasil bulanan tinggi yang “dijamin”"
           },
           {
            "en": "Legitimate markets cannot promise this",
-           "id": "Pasar sah tak bisa menjanjikannya"
+           "id": "Pasar yang sah tidak bisa menjanjikan ini"
           }
          ],
          [
           {
            "en": "Returns for recruiting others",
-           "id": "Imbal karena merekrut orang lain"
+           "id": "Imbalan karena merekrut orang lain"
           },
           {
            "en": "The classic structure of a Ponzi-type scheme",
@@ -47239,11 +47239,11 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Pressure to decide now; keep it secret",
-           "id": "Desakan memutuskan sekarang; rahasiakan"
+           "id": "Didesak memutuskan sekarang; diminta merahasiakan"
           },
           {
            "en": "Prevents you from checking",
-           "id": "Mencegahmu memeriksa"
+           "id": "Mencegahmu mengecek"
           }
          ],
          [
@@ -47259,17 +47259,17 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Requests for OTP, PIN or account access",
-           "id": "Permintaan OTP, PIN, atau akses rekening"
+           "id": "Meminta OTP, PIN, atau akses rekening"
           },
           {
            "en": "Direct route to losing everything",
-           "id": "Jalan langsung kehilangan segalanya"
+           "id": "Jalan langsung menuju kehilangan segalanya"
           }
          ]
         ],
         "caption": {
-         "en": "Course guidance. Check licences and warnings on OJK’s official channels; the “legal and logical” test is used in regulator education campaigns, verify current materials.",
-         "id": "Panduan kursus. Periksa izin dan peringatan di kanal resmi OJK; uji “legal dan logis” dipakai dalam kampanye edukasi regulator, verifikasi materi terkini."
+         "en": "Course guidance. Check licences and warnings on OJK’s official channels; the “legal and logical” test is used in regulator education campaigns; verify current materials.",
+         "id": "Panduan kursus. Cek izin dan peringatan di kanal resmi OJK; tes “legal dan logis” dipakai dalam kampanye edukasi regulator; periksa materi terbarunya."
         }
        }
       }
@@ -47278,11 +47278,11 @@ window.MT_LMS['the-route'] = {
       "type": "pair",
       "exhibit": {
        "en": "Exhibit 1: Investing or a scheme?",
-       "id": "Peraga 1: Investasi atau skema?"
+       "id": "Gambar 1: Investasi atau skema?"
       },
       "title": {
        "en": "Two sets of signals, side by side",
-       "id": "Dua kelompok sinyal, berdampingan"
+       "id": "Dua kelompok tanda, berdampingan"
       },
       "cols": [
        {
@@ -47301,15 +47301,15 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Returns vary; risks explained in writing",
-          "id": "Imbal berubah-ubah; risiko dijelaskan tertulis"
+          "id": "Imbal hasilnya naik-turun; risikonya dijelaskan tertulis"
          },
          {
           "en": "Fees disclosed",
-          "id": "Biaya diungkapkan"
+          "id": "Biayanya diungkapkan"
          },
          {
           "en": "Time to think, no pressure",
-          "id": "Waktu untuk berpikir, tanpa desakan"
+          "id": "Ada waktu untuk berpikir, tanpa desakan"
          },
          {
           "en": "You can explain it in two sentences",
@@ -47320,24 +47320,24 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "A scheme",
-         "id": "Skema"
+         "id": "Sebuah skema"
         },
         "sub": {
          "en": "Fails one or both tests",
-         "id": "Gagal di salah satu atau kedua uji"
+         "id": "Gagal di salah satu atau kedua tes"
         },
         "items": [
          {
           "en": "Unlicensed, or licensed for something else",
-          "id": "Tak berizin, atau berizin untuk hal lain"
+          "id": "Tidak berizin, atau berizin untuk hal lain"
          },
          {
           "en": "Fixed high returns, “no risk”",
-          "id": "Imbal tinggi tetap, “tanpa risiko”"
+          "id": "Imbal hasil tinggi yang pasti, “tanpa risiko”"
          },
          {
           "en": "Bonuses for recruiting",
-          "id": "Bonus untuk merekrut"
+          "id": "Bonus karena merekrut"
          },
          {
           "en": "Urgency and secrecy",
@@ -47345,18 +47345,18 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Nobody can explain where returns come from",
-          "id": "Tak ada yang bisa menjelaskan dari mana imbalnya"
+          "id": "Tidak ada yang bisa menjelaskan dari mana imbal hasilnya"
          }
         ]
        }
       ],
       "note": {
        "en": "If you cannot verify it is legal and explain why it is logical, the answer is no.",
-       "id": "Jika kamu tak bisa memverifikasi legalitasnya dan menjelaskan logikanya, jawabannya tidak."
+       "id": "Kalau kamu tidak bisa memastikan legalitasnya dan menjelaskan kenapa logis, jawabannya tidak."
       },
       "longdesc": {
        "en": "A two-column comparison. Legitimate investing: a licensed provider found on official lists, variable returns with risks explained in writing, disclosed fees, time to think, and something you can explain in two sentences. A scheme: unlicensed or licensed for something else, fixed high returns with “no risk”, bonuses for recruiting, urgency and secrecy, and no explanation of where returns come from.",
-       "id": "Perbandingan dua kolom. Investasi sah: penyedia berizin di daftar resmi, imbal yang berubah dengan risiko dijelaskan tertulis, biaya diungkapkan, waktu untuk berpikir, dan sesuatu yang bisa kamu jelaskan dalam dua kalimat. Skema: tak berizin atau berizin untuk hal lain, imbal tinggi tetap “tanpa risiko”, bonus untuk merekrut, desakan dan kerahasiaan, dan tak ada penjelasan dari mana imbalnya berasal."
+       "id": "Perbandingan dua kolom. Investasi yang sah: penyedia berizin yang ada di daftar resmi, imbal hasil yang naik-turun dengan risiko dijelaskan tertulis, biaya yang diungkapkan, waktu untuk berpikir, dan sesuatu yang bisa kamu jelaskan dalam dua kalimat. Sebuah skema: tidak berizin atau berizin untuk hal lain, imbal hasil tinggi yang pasti “tanpa risiko”, bonus karena merekrut, desakan dan kerahasiaan, serta tidak ada penjelasan dari mana imbal hasilnya."
       }
      },
      "compare": [
@@ -47367,19 +47367,19 @@ window.MT_LMS['the-route'] = {
        },
        "q": {
         "en": "Nadia’s emergency fund is complete. A colleague tells her about a stock that “pasti naik minggu depan”.",
-        "id": "Dana darurat Nadia sudah lengkap. Seorang rekan bercerita tentang saham yang “pasti naik minggu depan”."
+        "id": "Dana darurat Nadia sudah lengkap. Seorang rekan kerja bercerita soal saham yang “pasti naik minggu depan”."
        },
        "weak": {
         "en": "She moves half her savings into the stock that evening. It falls 30% in two weeks; she sells in a panic and decides investing “bukan buat aku”.",
-        "id": "Ia memindahkan separuh tabungannya ke saham itu malam itu juga. Harganya turun 30% dalam dua minggu; ia menjual karena panik dan memutuskan investasi “bukan buat aku”."
+        "id": "Malam itu juga ia memindahkan separuh tabungannya ke saham itu. Dalam dua minggu harganya turun 30%; ia menjual karena panik dan menyimpulkan investasi “bukan buat aku”."
        },
        "strong": {
-        "en": "She writes a one-page plan first: goals (a home down payment in five years; long-term capital), horizon for each, a monthly amount set to go out automatically the day after payday, part to a retail government bond for the down payment, part to a low-cost index fund for the long term, and one line: “Kalau pasar turun 20%, aku tidak menjual; aku tetap setor.” She tells her colleague she only buys what fits her plan.",
-        "id": "Ia menulis rencana satu halaman lebih dulu: tujuan (uang muka rumah dalam lima tahun; modal jangka panjang), horizon masing-masing, jumlah bulanan yang otomatis keluar sehari setelah gajian, sebagian ke SBN ritel untuk uang muka, sebagian ke reksa dana indeks berbiaya rendah untuk jangka panjang, dan satu baris: “Kalau pasar turun 20%, aku tidak menjual; aku tetap setor.” Ia bilang kepada rekannya bahwa ia hanya membeli yang sesuai rencananya."
+        "en": "She writes a one-page plan first: goals (a home down payment in five years; long-term capital), horizon for each, a monthly amount set to go out automatically the day after payday (part to a retail government bond for the down payment, part to a low-cost index fund for the long term), and one line: “Kalau pasar turun 20%, aku tidak menjual; aku tetap setor.” She tells her colleague she only buys what fits her plan.",
+        "id": "Ia menulis rencana satu halaman lebih dulu: tujuan (uang muka rumah dalam lima tahun; modal jangka panjang), jangka waktu untuk masing-masing, jumlah bulanan yang ditransfer otomatis sehari setelah gajian (sebagian ke obligasi negara ritel untuk uang muka, sebagian ke reksa dana indeks berbiaya rendah untuk jangka panjang), dan satu baris: “Kalau pasar turun 20%, aku tidak menjual; aku tetap setor.” Ia bilang kepada rekannya bahwa ia hanya membeli yang sesuai rencananya."
        },
        "why": {
         "en": "The first concentrates, times the market on a tip, and learns the wrong lesson. The second matches instruments to horizons, diversifies, automates, and decides in advance what to do in a fall. Fictional; not a recommendation of any product.",
-        "id": "Yang pertama memusatkan, menebak waktu pasar berdasarkan bisikan, dan mempelajari pelajaran yang salah. Yang kedua mencocokkan instrumen dengan horizon, mendiversifikasi, mengotomatiskan, dan memutuskan lebih dulu apa yang dilakukan saat pasar turun. Fiktif; bukan rekomendasi produk apa pun."
+        "id": "Yang pertama menaruh semuanya di satu tempat, menebak waktu pasar berdasarkan bisikan, dan menarik pelajaran yang keliru. Yang kedua mencocokkan instrumen dengan jangka waktu, mendiversifikasi, mengotomatiskan, dan memutuskan sejak awal apa yang dilakukan saat pasar turun. Fiktif; bukan rekomendasi produk apa pun."
        }
       }
      ],
@@ -47392,11 +47392,11 @@ window.MT_LMS['the-route'] = {
       "body": [
        {
         "en": "Eight months into her plan, markets fall sharply on global news. Nadia’s index-fund balance is below what she has put in; the office group chat fills with screenshots of red numbers, and someone announces they have “sold everything to be safe”.",
-        "id": "Delapan bulan menjalankan rencananya, pasar turun tajam karena berita global. Saldo reksa dana indeks Nadia di bawah total setorannya; grup obrolan kantor penuh tangkapan layar angka merah, dan seseorang mengumumkan telah “menjual semua biar aman”."
+        "id": "Delapan bulan setelah rencananya berjalan, pasar turun tajam karena berita global. Saldo reksa dana indeks Nadia di bawah jumlah yang sudah ia setor; grup chat kantor penuh tangkapan layar angka merah, dan seseorang mengumumkan bahwa ia sudah “jual semua biar aman”."
        },
        {
-        "en": "She rereads the last line of her plan, checks that her emergency fund and the bond for her down payment are untouched, and lets the next automatic purchase go through, at a lower price, buying more units. She also notices how uncomfortable she feels, and writes it down: useful information about her real risk tolerance for when she next reviews the allocation. Education, not advice: markets can stay down for a long time, which is exactly why this money was labelled five years or more.",
-        "id": "Ia membaca ulang baris terakhir rencananya, memastikan dana darurat dan SBN untuk uang mukanya tidak tersentuh, dan membiarkan pembelian otomatis berikutnya berjalan, di harga lebih rendah, membeli lebih banyak unit. Ia juga menyadari betapa tidak nyamannya perasaannya, dan menuliskannya: informasi berguna tentang toleransi risikonya yang sebenarnya untuk tinjauan alokasi berikutnya. Edukasi, bukan nasihat: pasar bisa tetap turun dalam waktu lama, itulah sebabnya uang ini diberi label lima tahun atau lebih."
+        "en": "She rereads the last line of her plan, checks that her emergency fund and the bond for her down payment are untouched, and lets the next automatic purchase go through at a lower price, buying more units. She also notices how uncomfortable she feels, and writes it down: useful information about her real risk tolerance for when she next reviews the allocation. Education, not advice: markets can stay down for a long time, which is exactly why this money was labelled five years or more.",
+        "id": "Ia membaca ulang baris terakhir rencananya, mengecek bahwa dana darurat dan obligasi untuk uang mukanya tidak tersentuh, dan membiarkan pembelian otomatis berikutnya berjalan di harga yang lebih rendah, sehingga membeli lebih banyak unit. Ia juga memperhatikan betapa tidak nyamannya perasaannya, lalu menuliskannya: informasi berguna soal toleransi risikonya yang sebenarnya untuk tinjauan alokasi berikutnya. Edukasi, bukan nasihat: pasar bisa bertahan di bawah dalam waktu lama, dan justru karena itulah uang ini diberi label lima tahun lebih."
        }
       ]
      },
@@ -47404,29 +47404,29 @@ window.MT_LMS['the-route'] = {
       {
        "h": {
         "en": "Drill 1 · The foundation check",
-        "id": "Latihan 1 · Cek fondasi"
+        "id": "Latihan 1 · Cek fondasinya"
        },
        "body": {
         "en": "Answer yes or no: emergency fund at target; no debt costing more than a few per cent a year; health cover; life cover if anyone depends on you; each rupiah labelled with a horizon. Which is the first “no” to fix?",
-        "id": "Jawab ya atau tidak: dana darurat sesuai target; tak ada utang berbiaya lebih dari beberapa persen setahun; jaminan kesehatan; asuransi jiwa jika ada yang bergantung padamu; setiap rupiah diberi label horizon. “Tidak” mana yang pertama diperbaiki?"
+        "id": "Jawab ya atau tidak: dana darurat sudah sesuai target; tidak ada utang dengan biaya lebih dari beberapa persen setahun; ada jaminan kesehatan; ada asuransi jiwa kalau ada yang bergantung padamu; setiap rupiah sudah diberi label jangka waktu. “Tidak” yang mana yang perlu dibereskan lebih dulu?"
        },
        "debrief": {
         "en": "Fix the first “no” before investing for growth; it is part of your return.",
-        "id": "Perbaiki “tidak” pertama sebelum berinvestasi untuk pertumbuhan; itu bagian dari imbalmu."
+        "id": "Bereskan “tidak” yang pertama sebelum berinvestasi untuk bertumbuh; itu bagian dari imbal hasilmu."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Run the arithmetic",
-        "id": "Latihan 2 · Jalankan aritmetikanya"
+        "id": "Latihan 2 · Jalankan hitungannya"
        },
        "body": {
         "en": "Open the money instrument below. Enter a monthly amount you could invest, a modest assumed annual return, and 10 years; then 20. Note how much of the result is growth rather than contributions.",
-        "id": "Buka instrumen uang di bawah. Masukkan jumlah bulanan yang bisa kamu investasikan, asumsi imbal tahunan yang sedang, dan 10 tahun; lalu 20. Catat berapa banyak hasilnya berupa pertumbuhan, bukan setoran."
+        "id": "Buka instrumen uang di bawah. Masukkan jumlah bulanan yang bisa kamu investasikan, asumsi imbal hasil tahunan yang moderat, dan 10 tahun; lalu 20 tahun. Catat seberapa besar hasilnya berasal dari pertumbuhan, bukan dari setoran."
        },
        "debrief": {
         "en": "Time does most of the work. Starting a year earlier often matters more than investing a little more.",
-        "id": "Waktu mengerjakan sebagian besar pekerjaannya. Mulai setahun lebih awal sering lebih penting daripada berinvestasi sedikit lebih banyak."
+        "id": "Waktulah yang paling banyak bekerja. Mulai setahun lebih awal sering lebih berpengaruh daripada menyetor sedikit lebih banyak."
        }
       },
       {
@@ -47435,8 +47435,8 @@ window.MT_LMS['the-route'] = {
         "id": "Latihan 3 · Cek legal dan logis"
        },
        "body": {
-        "en": "Take any investment offer you have seen recently, from a friend, an advertisement or social media. Check the provider on the regulator’s lists, convert the promised return to a yearly figure, and list any warning signs.",
-        "id": "Ambil tawaran investasi apa pun yang baru kamu lihat, dari teman, iklan, atau media sosial. Periksa penyedianya di daftar regulator, ubah imbal yang dijanjikan menjadi angka tahunan, dan daftar tanda bahayanya."
+        "en": "Take any investment offer you have seen recently (from a friend, an advertisement or social media). Check the provider on the regulator’s lists, convert the promised return to a yearly figure, and list any warning signs.",
+        "id": "Ambil satu tawaran investasi yang baru-baru ini kamu lihat (dari teman, iklan, atau media sosial). Cek penyedianya di daftar regulator, ubah imbal hasil yang dijanjikan ke angka tahunan, dan tulis tanda bahaya apa pun."
        },
        "debrief": {
         "en": "Write your one-sentence refusal script now, while calm, for the day someone you like asks.",
@@ -47453,7 +47453,7 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Foundations first; label every rupiah with a horizon.",
-         "id": "Fondasi dulu; beri label horizon pada setiap rupiah."
+         "id": "Fondasi dulu; beri label jangka waktu untuk setiap rupiah."
         }
        },
        {
@@ -47463,7 +47463,7 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "A one-page plan: goals, horizon, allocation, monthly amount.",
-         "id": "Rencana satu halaman: tujuan, horizon, alokasi, jumlah bulanan."
+         "id": "Rencana satu halaman: tujuan, jangka waktu, alokasi, jumlah bulanan."
         }
        },
        {
@@ -47473,17 +47473,17 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Check costs before past returns.",
-         "id": "Periksa biaya sebelum imbal masa lalu."
+         "id": "Cek biaya sebelum imbal hasil masa lalu."
         }
        },
        {
         "h": {
          "en": "“It’s legal, my friend is in it”",
-         "id": "“Legal kok, temanku ikut”"
+         "id": "“Ini legal kok, temanku ikut”"
         },
         "fix": {
          "en": "Check the regulator’s lists and the logic of the return.",
-         "id": "Periksa daftar regulator dan logika imbalnya."
+         "id": "Cek daftar regulator dan logika imbal hasilnya."
         }
        }
       ]
@@ -47496,7 +47496,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "Retail government securities such as ORI, SBR and retail sukuk, offered periodically to individuals.",
-        "id": "Surat berharga negara ritel seperti ORI, SBR, dan sukuk ritel, ditawarkan berkala kepada perorangan."
+        "id": "Surat berharga negara untuk perorangan seperti ORI, SBR, dan sukuk ritel, yang ditawarkan secara berkala."
        }
       },
       {
@@ -47506,17 +47506,17 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "A fund that tracks a market index at low cost, giving broad diversification.",
-        "id": "Reksa dana yang mengikuti indeks pasar dengan biaya rendah, memberi diversifikasi luas."
+        "id": "Reksa dana yang mengikuti indeks pasar dengan biaya rendah, sehingga memberi diversifikasi yang luas."
        }
       },
       {
        "term": {
         "en": "Rupiah-cost averaging",
-        "id": "Rata-rata biaya rupiah"
+        "id": "Rupiah-cost averaging"
        },
        "def": {
         "en": "Investing a fixed amount regularly, buying more units when prices are low.",
-        "id": "Berinvestasi dengan jumlah tetap secara rutin, membeli lebih banyak unit saat harga rendah."
+        "id": "Berinvestasi dengan jumlah tetap secara rutin, sehingga membeli lebih banyak unit saat harga rendah."
        }
       },
       {
@@ -47526,7 +47526,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The two-part scam check: licensed for the activity, and returns that make sense.",
-        "id": "Cek penipuan dua bagian: berizin untuk kegiatannya, dan imbal yang masuk akal."
+        "id": "Cek anti-penipuan dua bagian: berizin untuk kegiatannya, dan imbal hasilnya masuk akal."
        }
       }
      ],
@@ -47534,12 +47534,12 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "Money you will need for a wedding in 18 months is best kept in…",
-        "id": "Uang yang kamu butuhkan untuk pernikahan 18 bulan lagi paling baik disimpan di…"
+        "id": "Uang yang akan kamu butuhkan untuk pernikahan 18 bulan lagi paling baik disimpan di…"
        },
        "options": [
         {
          "en": "Individual growth stocks",
-         "id": "Saham pertumbuhan individual"
+         "id": "Saham pertumbuhan perorangan"
         },
         {
          "en": "Low-risk instruments such as deposits, SBN ritel or money-market funds",
@@ -47551,19 +47551,19 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "A friend’s business",
-         "id": "Usaha teman"
+         "id": "Usaha seorang teman"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Short horizons cannot absorb a fall at the wrong moment.",
-        "id": "Horizon pendek tak bisa menyerap penurunan di saat yang salah."
+        "id": "Jangka waktu yang pendek tidak sanggup menyerap penurunan di saat yang salah."
        }
       },
       {
        "q": {
         "en": "A scheme promises a “guaranteed” 5% a month. Compounded, that is roughly…",
-        "id": "Sebuah skema menjanjikan 5% sebulan yang “terjamin”. Bila dimajemukkan, itu kira-kira…"
+        "id": "Sebuah skema menjanjikan imbal hasil “dijamin” 5% sebulan. Kalau dibungakan, itu kira-kira…"
        },
        "options": [
         {
@@ -47586,18 +47586,18 @@ window.MT_LMS['the-route'] = {
        "correct": 2,
        "why": {
         "en": "It fails the “logical” test before you even check the licence.",
-        "id": "Ia gagal di uji “logis” bahkan sebelum kamu memeriksa izinnya."
+        "id": "Skema itu gagal di tes “logis” bahkan sebelum kamu mengecek izinnya."
        }
       },
       {
        "q": {
         "en": "Markets fall 20% a year into your long-term plan. According to your plan, you…",
-        "id": "Pasar turun 20% setahun setelah rencana jangka panjangmu berjalan. Menurut rencanamu, kamu…"
+        "id": "Setahun setelah rencana jangka panjangmu berjalan, pasar turun 20%. Sesuai rencanamu, kamu…"
        },
        "options": [
         {
          "en": "Sell everything to stop the loss",
-         "id": "Menjual semua untuk menghentikan kerugian"
+         "id": "Menjual semuanya untuk menghentikan kerugian"
         },
         {
          "en": "Keep the automatic contributions going and review allocation calmly",
@@ -47605,17 +47605,17 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Borrow to buy more",
-         "id": "Meminjam untuk membeli lebih banyak"
+         "id": "Berutang untuk membeli lebih banyak"
         },
         {
          "en": "Move everything into the best performer of last year",
-         "id": "Memindahkan semua ke yang terbaik tahun lalu"
+         "id": "Memindahkan semuanya ke yang kinerjanya terbaik tahun lalu"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Growth money was labelled five years or more precisely for this.",
-        "id": "Uang pertumbuhan diberi label lima tahun atau lebih justru untuk ini."
+        "id": "Uang untuk bertumbuh diberi label lima tahun lebih justru untuk keadaan seperti ini."
        }
       }
      ],
@@ -47624,11 +47624,11 @@ window.MT_LMS['the-route'] = {
       "mode": "money",
       "title": {
        "en": "Run the arithmetic on your numbers",
-       "id": "Jalankan aritmetikanya dengan angkamu"
+       "id": "Jalankan hitungannya dengan angka-angkamu"
       },
       "body": {
        "en": "Open the money instruments: check your emergency runway, then enter a monthly amount, a modest assumed return and a horizon to see compound growth. Formulas are shown; the assumptions are yours, and real returns can be negative.",
-       "id": "Buka instrumen uang: periksa landasan pacu daruratmu, lalu masukkan jumlah bulanan, asumsi imbal yang sedang, dan horizon untuk melihat pertumbuhan majemuk. Rumus ditampilkan; asumsinya milikmu, dan imbal nyata bisa negatif."
+       "id": "Buka instrumen uang: cek runway daruratmu, lalu masukkan jumlah bulanan, asumsi imbal hasil yang moderat, dan jangka waktu untuk melihat pertumbuhan bunga berbunga. Rumusnya ditampilkan; asumsinya milikmu, dan imbal hasil sebenarnya bisa negatif."
       },
       "cta": {
        "en": "Open the money instruments",
@@ -47637,30 +47637,30 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "Most wealth for salaried professionals comes from saving consistently and investing boringly for a long time.",
-      "id": "Kebanyakan kekayaan profesional bergaji berasal dari menabung konsisten dan berinvestasi secara membosankan dalam waktu lama."
+      "id": "Kekayaan sebagian besar profesional bergaji datang dari menabung secara konsisten dan berinvestasi dengan cara yang membosankan dalam waktu lama."
      },
      "takeaways": [
       {
        "en": "Invest only on top of an emergency fund, no costly debt and basic protection, with a horizon for every rupiah.",
-       "id": "Berinvestasilah hanya di atas dana darurat, tanpa utang mahal, dan perlindungan dasar; dengan horizon untuk setiap rupiah."
+       "id": "Berinvestasilah hanya di atas dana darurat, tanpa utang mahal, dan dengan perlindungan dasar, dengan jangka waktu untuk setiap rupiah."
       },
       {
        "en": "Match instruments to horizons and follow four principles: horizon, diversification, cost, consistency.",
-       "id": "Cocokkan instrumen dengan horizon dan ikuti empat prinsip: horizon, diversifikasi, biaya, konsistensi."
+       "id": "Cocokkan instrumen dengan jangka waktunya dan ikuti empat prinsip: jangka waktu, diversifikasi, biaya, konsistensi."
       },
       {
        "en": "Legal and logical, or no: check licences, convert promised returns to yearly figures, and keep a refusal script ready.",
-       "id": "Legal dan logis, atau tidak: periksa izin, ubah imbal yang dijanjikan menjadi angka tahunan, dan siapkan naskah penolakan."
+       "id": "Legal dan logis, atau tidak sama sekali: cek izinnya, ubah imbal hasil yang dijanjikan ke angka tahunan, dan siapkan naskah penolakan."
       }
      ],
      "resources": {
       "title": {
        "en": "The investment plan and the scam check",
-       "id": "Rencana investasi dan cek penipuan"
+       "id": "Rencana investasi dan cek anti-penipuan"
       },
       "lead": {
        "en": "Career Kit item (part 3): your investment orientation.",
-       "id": "Butir Career Kit (bagian 3): orientasi investasimu."
+       "id": "Isi Perangkat Karier (bagian 3): orientasi investasimu."
       },
       "items": [
        {
@@ -47680,11 +47680,11 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> LPS coverage limits and conditions; SBN ritel features (Ministry of Finance); licensing of investment managers, brokers, gold and crypto platforms, and illegal-investment warnings (OJK and related task forces); check official sites before acting.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Batas dan syarat penjaminan LPS; fitur SBN ritel (Kementerian Keuangan); perizinan manajer investasi, broker, platform emas dan kripto, serta peringatan investasi ilegal (OJK dan satgas terkait); periksa situs resmi sebelum bertindak."
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Batas dan syarat penjaminan LPS; fitur SBN ritel (Kementerian Keuangan); perizinan manajer investasi, perusahaan sekuritas, platform emas dan kripto, serta peringatan investasi ilegal (OJK dan satgas terkait); cek situs resminya sebelum bertindak."
          },
          {
           "en": "<span class=\"ev ev-contested\">Contested</span> Views differ on insurance-linked investment products and on active versus passive funds; this lesson presents common course guidance, not personal advice. Consult a licensed adviser for your situation.",
-          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Pandangan berbeda tentang produk investasi yang terkait asuransi dan tentang reksa dana aktif versus pasif; pelajaran ini menyajikan panduan kursus yang umum, bukan nasihat pribadi. Konsultasikan dengan penasihat berizin untuk situasimu."
+          "id": "<span class=\"ev ev-contested\">Masih diperdebatkan</span> Pandangan berbeda soal produk asuransi yang dikaitkan dengan investasi dan soal reksa dana aktif dibanding pasif; pelajaran ini menyajikan panduan kursus yang umum, bukan nasihat pribadi. Konsultasikan dengan penasihat berizin untuk situasimu."
          }
         ]
        },
@@ -47696,16 +47696,16 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Write before investing; review yearly.",
-         "id": "Tulis sebelum berinvestasi; tinjau tahunan."
+         "id": "Tulis sebelum berinvestasi; tinjau setahun sekali."
         },
         "body": [
          {
           "en": "FOUNDATIONS: emergency ☐ · no costly debt ☐ · health ☐ · life (if dependants) ☐ · GOAL 1 … horizon … instrument … · GOAL 2 … · LONG-TERM: horizon 5+ · allocation …",
-          "id": "FONDASI: darurat ☐ · tanpa utang mahal ☐ · kesehatan ☐ · jiwa (jika ada tanggungan) ☐ · TUJUAN 1 … horizon … instrumen … · TUJUAN 2 … · JANGKA PANJANG: horizon 5+ · alokasi …"
+          "id": "FONDASI: darurat ☐ · tanpa utang mahal ☐ · kesehatan ☐ · jiwa (kalau ada tanggungan) ☐ · TUJUAN 1 … jangka waktu … instrumen … · TUJUAN 2 … · JANGKA PANJANG: 5 tahun lebih · alokasi …"
          },
          {
           "en": "MONTHLY: … on … (automatic) · FEES checked ☐ · IF MARKETS FALL 20%: … · REVIEW DATE: …",
-          "id": "BULANAN: … tanggal … (otomatis) · BIAYA diperiksa ☐ · JIKA PASAR TURUN 20%: … · TANGGAL TINJAUAN: …"
+          "id": "BULANAN: … pada tanggal … (otomatis) · BIAYA sudah dicek ☐ · KALAU PASAR TURUN 20%: … · TANGGAL TINJAUAN: …"
          }
         ]
        },
@@ -47722,11 +47722,11 @@ window.MT_LMS['the-route'] = {
         "body": [
          {
           "en": "LEGAL: provider … licensed for … (list checked on …) · seller licensed? · LOGICAL: promised return … per month = … per year · where does it come from? … · warning signs: …",
-          "id": "LEGAL: penyedia … berizin untuk … (daftar dicek pada …) · penjual berizin? · LOGIS: imbal dijanjikan … per bulan = … per tahun · dari mana asalnya? … · tanda bahaya: …"
+          "id": "LEGAL: penyedia … berizin untuk … (daftar dicek pada …) · penjualnya berizin? · LOGIS: imbal hasil yang dijanjikan … per bulan = … per tahun · dari mana asalnya? … · tanda bahaya: …"
          },
          {
-          "en": "SCRIPT: “Terima kasih sudah ngajak, aku hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kita cek bareng di daftar OJK, yuk.”",
-          "id": "NASKAH: “Terima kasih sudah ngajak, aku hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kita cek bareng di daftar OJK, yuk.”"
+          "en": "SCRIPT: “Terima kasih sudah ngajak. Aku hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kita cek bareng di daftar OJK, yuk.”",
+          "id": "NASKAH: “Terima kasih sudah ngajak. Aku hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kita cek bareng di daftar OJK, yuk.”"
          }
         ]
        }
@@ -47739,32 +47739,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "30 min",
-      "id": "30 mnt"
+      "id": "30 menit"
      },
      "title": {
       "en": "The Financial Planning Horizon: From First Salary to Financial Independence",
-      "id": "Cakrawala Perencanaan Keuangan: Dari Gaji Pertama ke Kemandirian Finansial"
+      "id": "Cakrawala Perencanaan Keuangan: Dari Gaji Pertama sampai Kebebasan Finansial"
      },
      "overview": {
-      "en": "Lessons 8.1 to 8.3 built a monthly system. This interactive lesson lifts your eyes to the decades: the milestones that will ask for large sums. A home, a marriage, children, parents who need care, a year of study, a career change, and the long arc toward the point where work becomes a choice. You will map your own horizon, look at the big early decisions with clearer eyes, check that the plan is protected against the shocks that most often derail it, and set up a once-a-year money review that keeps everything connected to the career you are building.",
-      "id": "Pelajaran 8.1 sampai 8.3 membangun sistem bulanan. Pelajaran interaktif ini mengangkat pandanganmu ke dekade-dekade: tonggak-tonggak yang akan meminta jumlah besar, rumah, pernikahan, anak, orang tua yang butuh perawatan, setahun studi, pergantian karier, dan lengkung panjang menuju titik di mana bekerja menjadi pilihan. Kamu akan memetakan cakrawalamu sendiri, melihat keputusan-keputusan besar di awal dengan lebih jernih, memastikan rencananya terlindungi dari guncangan yang paling sering menggagalkannya, dan memasang tinjauan keuangan tahunan yang menjaga semuanya terhubung dengan karier yang sedang kamu bangun."
+      "en": "Lessons 8.1 to 8.3 built a monthly system. This interactive lesson lifts your eyes to the decades: the milestones that will ask for large sums (a home, a marriage, children, parents who need care, a year of study, a career change) and the long arc toward the point where work becomes a choice. You will map your own horizon, look at the big early decisions with clearer eyes, check that the plan is protected against the shocks that most often derail it, and set up a once-a-year money review that keeps everything connected to the career you are building.",
+      "id": "Pelajaran 8.1 sampai 8.3 membangun sistem bulanan. Pelajaran interaktif ini mengangkat pandanganmu ke rentang puluhan tahun: tonggak-tonggak yang akan meminta dana besar (rumah, pernikahan, anak, orang tua yang butuh perawatan, setahun kuliah lagi, ganti karier) dan perjalanan panjang menuju titik ketika bekerja menjadi pilihan. Kamu akan memetakan cakrawalamu sendiri, melihat keputusan-keputusan besar di awal karier dengan lebih jernih, memastikan rencananya terlindungi dari guncangan yang paling sering menggagalkannya, dan memasang tinjauan keuangan tahunan yang menjaga semuanya tetap terhubung dengan karier yang sedang kamu bangun."
      },
      "objectives": [
       {
        "en": "Map the financial milestones of the next one, five, ten and twenty years.",
-       "id": "Memetakan tonggak keuangan satu, lima, sepuluh, dan dua puluh tahun ke depan."
+       "id": "Memetakan tonggak keuangan untuk satu, lima, sepuluh, dan dua puluh tahun ke depan."
       },
       {
-       "en": "Approach the big early decisions, housing, marriage, family support, with numbers and conversations.",
-       "id": "Menghadapi keputusan besar awal, tempat tinggal, pernikahan, dukungan keluarga, dengan angka dan percakapan."
+       "en": "Approach the big early decisions (housing, marriage, family support) with numbers and conversations.",
+       "id": "Menghadapi keputusan besar di awal karier (tempat tinggal, pernikahan, membantu keluarga) dengan angka dan percakapan."
       },
       {
        "en": "Protect the plan against the shocks that most often derail it.",
-       "id": "Melindungi rencana dari guncangan yang paling sering menggagalkannya."
+       "id": "Melindungi rencananya dari guncangan yang paling sering menggagalkannya."
       },
       {
        "en": "Run an annual money review, including a simple net-worth statement.",
-       "id": "Menjalankan tinjauan keuangan tahunan, termasuk laporan kekayaan bersih sederhana."
+       "id": "Menjalankan tinjauan keuangan tahunan, termasuk laporan kekayaan bersih yang sederhana."
       }
      ],
      "readFirst": {
@@ -47778,21 +47778,21 @@ window.MT_LMS['the-route'] = {
         "n": "8.4",
         "title": {
          "en": "The Financial Planning Horizon: From First Salary to Financial Independence",
-         "id": "Cakrawala Perencanaan Keuangan: Dari Gaji Pertama ke Kemandirian Finansial"
+         "id": "Cakrawala Perencanaan Keuangan: Dari Gaji Pertama sampai Kebebasan Finansial"
         }
        },
        "story": [
         {
          "en": "Map the horizon on one page: what one, five, ten and twenty-plus years will ask for, and which bucket pays",
-         "id": "Petakan cakrawala di satu halaman: apa yang diminta satu, lima, sepuluh, dan dua puluh tahun lebih, dan pos mana yang membayar"
+         "id": "Petakan cakrawalanya di satu halaman: apa yang akan diminta satu, lima, sepuluh, dan dua puluh tahun lebih, dan pos mana yang membayarnya"
         },
         {
          "en": "Housing, marriage, family support: numbers first, then conversations",
-         "id": "Tempat tinggal, pernikahan, dukungan keluarga: angka dulu, lalu percakapan"
+         "id": "Tempat tinggal, pernikahan, membantu keluarga: angka dulu, baru percakapan"
         },
         {
          "en": "Long plans fail less from poor returns than from shocks; check four protections before the shock, not after",
-         "id": "Rencana panjang lebih sering gagal karena guncangan daripada imbal hasil buruk; periksa empat perlindungan sebelum guncangan, bukan sesudahnya"
+         "id": "Rencana jangka panjang lebih sering gagal karena guncangan daripada karena imbal hasil yang buruk; cek empat perlindungan sebelum guncangan datang, bukan sesudahnya"
         },
         {
          "en": "One afternoon, one page, every year: five questions keep the whole system connected",
@@ -47803,11 +47803,11 @@ window.MT_LMS['the-route'] = {
         {
          "h": {
           "en": "Map the horizon",
-          "id": "Petakan cakrawala"
+          "id": "Petakan cakrawalanya"
          },
          "p": {
-          "en": "For each milestone: when, how much in today’s cost, and from where; rough is enough, the aim is to see the shape.",
-          "id": "Untuk tiap tonggak: kapan, berapa dengan biaya hari ini, dan dari mana; kasar sudah cukup, tujuannya melihat bentuknya."
+          "en": "For each milestone: when, how much in today’s cost, and from where; rough is enough; the aim is to see the shape.",
+          "id": "Untuk setiap tonggak: kapan, berapa biayanya dengan harga hari ini, dan dari mana; perkiraan kasar sudah cukup, karena tujuannya melihat bentuknya."
          }
         },
         {
@@ -47817,27 +47817,27 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Buying suits people likely to stay put for years; renting keeps options open during the mobile years of a career.",
-          "id": "Membeli cocok bagi yang kemungkinan menetap bertahun-tahun; menyewa menjaga pilihan tetap terbuka di tahun-tahun karier yang berpindah."
+          "id": "Membeli rumah cocok untuk orang yang kemungkinan menetap bertahun-tahun; menyewa membuat pilihan tetap terbuka di tahun-tahun karier yang masih sering berpindah."
          }
         },
         {
          "h": {
           "en": "Protect it",
-          "id": "Lindungi"
+          "id": "Lindungi rencananya"
          },
          "p": {
           "en": "An illness, a job loss, a death in the family: the plan survives these only if the layer was built in a calm year.",
-          "id": "Sakit, kehilangan kerja, kematian di keluarga: rencana bertahan hanya jika lapisannya dibangun di tahun yang tenang."
+          "id": "Sakit, kehilangan pekerjaan, kematian di keluarga: rencananya hanya selamat kalau lapisan perlindungannya dibangun di tahun yang tenang."
          }
         },
         {
          "h": {
           "en": "Review yearly",
-          "id": "Tinjau tahunan"
+          "id": "Tinjau setiap tahun"
          },
          "p": {
           "en": "The monthly system pays for the decades, if you know what the decades will ask for.",
-          "id": "Sistem bulanan membayar dekade-dekade itu, jika kamu tahu apa yang akan diminta dekade-dekade itu."
+          "id": "Sistem bulanan membiayai puluhan tahun ke depan, asalkan kamu tahu apa yang akan diminta puluhan tahun itu."
          }
         }
        ],
@@ -47846,7 +47846,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Map the horizon on one page: what one, five, ten and twenty-plus years will ask for, and which bucket pays",
-          "id": "Petakan cakrawala di satu halaman: apa yang diminta satu, lima, sepuluh, dan dua puluh tahun lebih, dan pos mana yang membayar"
+          "id": "Petakan cakrawalanya di satu halaman: apa yang akan diminta satu, lima, sepuluh, dan dua puluh tahun lebih, dan pos mana yang membayarnya"
          },
          "img": "../../assets/pe/ed-conversations.jpg",
          "layout": "flow",
@@ -47856,8 +47856,8 @@ window.MT_LMS['the-route'] = {
            "en": "1 year",
            "id": "1 tahun",
            "d": {
-            "en": "Emergency fund complete; a move; a course. From the monthly system, the holiday bonus and the bonus.",
-            "id": "Dana darurat lengkap; pindah; kursus. Dari sistem bulanan, THR, dan bonus."
+            "en": "Emergency fund complete; a move; a course. From the monthly system, the THR and the bonus.",
+            "id": "Dana darurat lengkap; pindah kota; kursus. Dari sistem bulanan, THR, dan bonus."
            }
           },
           {
@@ -47866,7 +47866,7 @@ window.MT_LMS['the-route'] = {
            "id": "5 tahun",
            "d": {
             "en": "A wedding; a home deposit; a master’s degree; a career-option fund. From goals funds in low-risk instruments.",
-            "id": "Pernikahan; uang muka rumah; gelar magister; dana opsi karier. Dari dana tujuan dalam instrumen berisiko rendah."
+            "id": "Pernikahan; uang muka rumah; kuliah S2; dana pilihan karier. Dari dana tujuan di instrumen berisiko rendah."
            }
           },
           {
@@ -47875,7 +47875,7 @@ window.MT_LMS['the-route'] = {
            "id": "10 tahun",
            "d": {
             "en": "Children’s early education; parents’ care; a bigger home. From goals funds and long-term capital.",
-            "id": "Pendidikan awal anak; perawatan orang tua; rumah lebih besar. Dari dana tujuan dan modal jangka panjang."
+            "id": "Pendidikan awal anak; perawatan orang tua; rumah yang lebih besar. Dari dana tujuan dan modal jangka panjang."
            }
           },
           {
@@ -47884,28 +47884,28 @@ window.MT_LMS['the-route'] = {
            "id": "20+ tahun",
            "d": {
             "en": "University fees; retirement; financial independence. From long-term capital and pension programmes.",
-            "id": "Biaya kuliah; pensiun; kemandirian finansial. Dari modal jangka panjang dan program pensiun."
+            "id": "Biaya kuliah anak; pensiun; kebebasan finansial. Dari modal jangka panjang dan program pensiun."
            }
           }
          ],
          "sub": {
           "en": "Most financial stress comes from large, predictable costs that arrive as surprises: a wedding everyone knew was coming, a parent’s surgery, school fees.",
-          "id": "Kebanyakan stres keuangan datang dari biaya besar yang bisa diprediksi tetapi tiba sebagai kejutan: pernikahan yang semua tahu akan datang, operasi orang tua, biaya sekolah."
+          "id": "Kebanyakan stres keuangan datang dari biaya besar yang sebenarnya bisa diperkirakan tetapi datang sebagai kejutan: pernikahan yang sudah diketahui semua orang, operasi orang tua, biaya sekolah."
          },
          "band": {
-          "en": "For each milestone: when, how much in today’s cost, and from where; rough is enough, the aim is to see the shape.",
-          "id": "Untuk tiap tonggak: kapan, berapa dengan biaya hari ini, dan dari mana; kasar sudah cukup, tujuannya melihat bentuknya."
+          "en": "For each milestone: when, how much in today’s cost, and from where; rough is enough; the aim is to see the shape.",
+          "id": "Untuk setiap tonggak: kapan, berapa biayanya dengan harga hari ini, dan dari mana; perkiraan kasar sudah cukup, karena tujuannya melihat bentuknya."
          },
          "em": {
           "en": "which bucket pays",
-          "id": "pos mana yang membayar"
+          "id": "pos mana yang membayarnya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Housing, marriage, family support: numbers first, then conversations",
-          "id": "Tempat tinggal, pernikahan, dukungan keluarga: angka dulu, lalu percakapan"
+          "id": "Tempat tinggal, pernikahan, membantu keluarga: angka dulu, baru percakapan"
          },
          "cols": [
           {
@@ -47915,23 +47915,23 @@ window.MT_LMS['the-route'] = {
            },
            "d": {
             "en": "What to compute before anyone talks",
-            "id": "Yang dihitung sebelum siapa pun bicara"
+            "id": "Yang perlu dihitung sebelum ada yang bicara"
            },
            "items": [
             {
              "icon": "building",
              "en": "Buy or rent: the full monthly cost of each, years you will stay, deposit and affordability (verify)",
-             "id": "Beli atau sewa: biaya bulanan penuh masing-masing, berapa tahun kamu tinggal, uang muka dan keterjangkauan (verifikasi)"
+             "id": "Beli atau sewa: biaya bulanan penuh masing-masing, berapa tahun kamu akan menetap, uang muka dan kemampuan bayar (periksa)"
             },
             {
              "icon": "heart",
              "en": "Marriage: incomes, debts, obligations, the wedding budget",
-             "id": "Pernikahan: penghasilan, utang, kewajiban, anggaran pernikahan"
+             "id": "Pernikahan: penghasilan, utang, kewajiban, anggaran resepsi"
             },
             {
              "icon": "users",
              "en": "Family support: the current line, its likely growth, parents’ health cover",
-             "id": "Dukungan keluarga: pos saat ini, kemungkinan pertumbuhannya, jaminan kesehatan orang tua"
+             "id": "Membantu keluarga: pos yang sekarang, kemungkinan pertambahannya, jaminan kesehatan orang tua"
             }
            ],
            "icon": "calc"
@@ -47939,11 +47939,11 @@ window.MT_LMS['the-route'] = {
           {
            "l": {
             "en": "Then the conversation",
-            "id": "Lalu percakapan"
+            "id": "Lalu percakapannya"
            },
            "d": {
             "en": "With the people who share the decision",
-            "id": "Dengan orang yang berbagi keputusan"
+            "id": "Dengan orang-orang yang ikut menanggung keputusannya"
            },
            "items": [
             {
@@ -47954,12 +47954,12 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "wallet",
              "en": "How you will manage money together",
-             "id": "Bagaimana kalian mengelola uang bersama"
+             "id": "Bagaimana kalian akan mengelola uang bersama"
             },
             {
              "icon": "users",
              "en": "With siblings: how responsibility is shared",
-             "id": "Dengan saudara: bagaimana tanggung jawab dibagi"
+             "id": "Dengan saudara kandung: bagaimana tanggung jawabnya dibagi"
             }
            ],
            "icon": "chat"
@@ -47970,22 +47970,22 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "Three decisions in the first decade shape finances for much longer, and each goes better in that order.",
-          "id": "Tiga keputusan di dekade pertama membentuk keuangan jauh lebih lama, dan masing-masing berjalan lebih baik dalam urutan itu."
+          "id": "Tiga keputusan di sepuluh tahun pertama membentuk keuanganmu jauh lebih lama, dan masing-masing berjalan lebih baik dengan urutan itu."
          },
          "band": {
           "en": "Buying suits people likely to stay put for years; renting keeps options open during the mobile years of a career.",
-          "id": "Membeli cocok bagi yang kemungkinan menetap bertahun-tahun; menyewa menjaga pilihan tetap terbuka di tahun-tahun karier yang berpindah."
+          "id": "Membeli rumah cocok untuk orang yang kemungkinan menetap bertahun-tahun; menyewa membuat pilihan tetap terbuka di tahun-tahun karier yang masih sering berpindah."
          },
          "em": {
           "en": "numbers first, then conversations",
-          "id": "angka dulu, lalu percakapan"
+          "id": "angka dulu, baru percakapan"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Long plans fail less from poor returns than from shocks; check four protections before the shock, not after",
-          "id": "Rencana panjang lebih sering gagal karena guncangan daripada imbal hasil buruk; periksa empat perlindungan sebelum guncangan, bukan sesudahnya"
+          "id": "Rencana jangka panjang lebih sering gagal karena guncangan daripada karena imbal hasil yang buruk; cek empat perlindungan sebelum guncangan datang, bukan sesudahnya"
          },
          "layout": "grid",
          "items": [
@@ -47994,8 +47994,8 @@ window.MT_LMS['the-route'] = {
            "en": "Health",
            "id": "Kesehatan",
            "d": {
-            "en": "Public cover as the baseline; check what your parents have too, since their medical costs often become yours.",
-            "id": "Jaminan publik sebagai dasar; periksa juga milik orang tuamu, karena biaya medis mereka sering menjadi milikmu."
+            "en": "BPJS Kesehatan as the baseline; check what your parents have too, since their medical costs often become yours.",
+            "id": "BPJS Kesehatan sebagai dasarnya; cek juga apa yang dimiliki orang tuamu, karena biaya pengobatan mereka sering kali menjadi tanggunganmu."
            },
            "img": "../../assets/bg/pack.jpg"
           },
@@ -48004,8 +48004,8 @@ window.MT_LMS['the-route'] = {
            "en": "Income",
            "id": "Penghasilan",
            "d": {
-            "en": "The emergency fund first; the job-loss programme may provide limited support under its conditions (verify); career capital second.",
-            "id": "Dana darurat dulu; program kehilangan pekerjaan mungkin memberi dukungan terbatas dengan syaratnya (verifikasi); modal karier kedua."
+            "en": "The emergency fund first; BPJS Ketenagakerjaan’s job-loss programme (JKP) may provide limited support under its conditions (verify); career capital second.",
+            "id": "Dana darurat dulu; program JKP dari BPJS Ketenagakerjaan mungkin memberi dukungan terbatas sesuai syaratnya (periksa); modal karier kedua."
            },
            "img": "../../assets/pe/ed-ladder.jpg"
           },
@@ -48015,7 +48015,7 @@ window.MT_LMS['the-route'] = {
            "id": "Tanggungan",
            "d": {
             "en": "Term life sized to their needs once someone depends on your income.",
-            "id": "Asuransi jiwa berjangka sesuai kebutuhan mereka saat ada yang bergantung pada penghasilanmu."
+            "id": "Asuransi jiwa berjangka yang besarnya sesuai kebutuhan mereka, begitu ada yang bergantung pada penghasilanmu."
            },
            "img": "../../assets/bg/negotiation.jpg"
           },
@@ -48025,22 +48025,22 @@ window.MT_LMS['the-route'] = {
            "id": "Catatan",
            "d": {
             "en": "Beneficiaries named; account list and documents where a trusted person can find them.",
-            "id": "Ahli waris disebutkan; daftar rekening dan dokumen di tempat yang bisa ditemukan orang terpercaya."
+            "id": "Ahli waris sudah dicantumkan; daftar rekening dan dokumen ada di tempat yang bisa ditemukan orang yang kamu percaya."
            },
            "img": "../../assets/pe/ed-writing.jpg"
           }
          ],
          "sub": {
           "en": "Protection is the unglamorous layer that keeps one bad year from undoing ten good ones.",
-          "id": "Perlindungan adalah lapisan tak menarik yang menjaga satu tahun buruk agar tak membatalkan sepuluh tahun baik."
+          "id": "Perlindungan adalah lapisan yang tidak menarik, tetapi menjaga satu tahun yang buruk supaya tidak menghapus sepuluh tahun yang baik."
          },
          "band": {
           "en": "An illness, a job loss, a death in the family: the plan survives these only if the layer was built in a calm year.",
-          "id": "Sakit, kehilangan kerja, kematian di keluarga: rencana bertahan hanya jika lapisannya dibangun di tahun yang tenang."
+          "id": "Sakit, kehilangan pekerjaan, kematian di keluarga: rencananya hanya selamat kalau lapisan perlindungannya dibangun di tahun yang tenang."
          },
          "em": {
           "en": "before the shock, not after",
-          "id": "sebelum guncangan, bukan sesudahnya"
+          "id": "sebelum guncangan datang, bukan sesudahnya"
          }
         },
         {
@@ -48055,7 +48055,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "scale",
            "en": "Owned minus owed: up or down since last year? The direction matters more than the number.",
-           "id": "Milik dikurangi utang: naik atau turun sejak tahun lalu? Arahnya lebih penting dari angkanya.",
+           "id": "Yang dimiliki dikurangi yang diutang: naik atau turun dibanding tahun lalu? Arahnya lebih penting daripada angkanya.",
            "l": {
             "en": "Net worth",
             "id": "Kekayaan bersih"
@@ -48064,7 +48064,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "chart",
            "en": "What share of income did I actually save and invest? The single most powerful driver for salaried professionals.",
-           "id": "Berapa bagian penghasilan yang benar-benar kutabung dan investasikan? Pendorong paling kuat bagi profesional bergaji.",
+           "id": "Berapa porsi penghasilan yang benar-benar saya tabung dan investasikan? Inilah pendorong paling kuat bagi profesional bergaji.",
            "l": {
             "en": "Savings rate",
             "id": "Tingkat tabungan"
@@ -48073,7 +48073,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "target",
            "en": "On track, behind, or no longer wanted?",
-           "id": "Sesuai jalur, tertinggal, atau tak lagi diinginkan?",
+           "id": "Sesuai jalur, tertinggal, atau tidak diinginkan lagi?",
            "l": {
             "en": "Goals",
             "id": "Tujuan"
@@ -48082,7 +48082,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "shield",
            "en": "Health, life, beneficiaries, records current?",
-           "id": "Kesehatan, jiwa, ahli waris, catatan mutakhir?",
+           "id": "Kesehatan, jiwa, ahli waris, catatan sudah terkini?",
            "l": {
             "en": "Protection",
             "id": "Perlindungan"
@@ -48090,8 +48090,8 @@ window.MT_LMS['the-route'] = {
           },
           {
            "icon": "calendar",
-           "en": "The new transfer rate after this year’s raise; the holiday bonus and bonus split; one habit.",
-           "id": "Tingkat transfer baru setelah kenaikan tahun ini; pembagian THR dan bonus; satu kebiasaan.",
+           "en": "The new transfer rate after this year’s raise; the THR and bonus split; one habit.",
+           "id": "Tarif transfer baru setelah kenaikan gaji tahun ini; pembagian THR dan bonus; satu kebiasaan.",
            "l": {
             "en": "Next year",
             "id": "Tahun depan"
@@ -48099,12 +48099,12 @@ window.MT_LMS['the-route'] = {
           }
          ],
          "sub": {
-          "en": "Many people choose the week after the holiday bonus or the start of the year.",
+          "en": "Many people choose the week after the THR or the start of the year.",
           "id": "Banyak orang memilih minggu setelah THR atau awal tahun."
          },
          "band": {
           "en": "The monthly system pays for the decades, if you know what the decades will ask for.",
-          "id": "Sistem bulanan membayar dekade-dekade itu, jika kamu tahu apa yang akan diminta dekade-dekade itu."
+          "id": "Sistem bulanan membiayai puluhan tahun ke depan, asalkan kamu tahu apa yang akan diminta puluhan tahun itu."
          },
          "em": {
           "en": "One afternoon, one page, every year",
@@ -48123,17 +48123,17 @@ window.MT_LMS['the-route'] = {
       },
       "title": {
        "en": "From monthly to decadal",
-       "id": "Dari bulanan ke dekade"
+       "id": "Dari bulanan ke puluhan tahun"
       },
       "intro": {
        "en": "The monthly system pays for the decades, if you know what the decades will ask for.",
-       "id": "Sistem bulanan membiayai dekade-dekade; jika kamu tahu apa yang akan diminta dekade itu."
+       "id": "Sistem bulanan membiayai puluhan tahun ke depan, asalkan kamu tahu apa yang akan diminta puluhan tahun itu."
       },
       "slides": [
        {
         "h": {
          "en": "Map the horizon",
-         "id": "Petakan cakrawala"
+         "id": "Petakan cakrawalanya"
         },
         "points": [
          {
@@ -48150,26 +48150,26 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Housing, marriage, family: numbers first, then conversations.",
-          "id": "Tempat tinggal, pernikahan, keluarga, angka dulu, lalu percakapan."
+          "id": "Tempat tinggal, pernikahan, keluarga: angka dulu, baru percakapan."
          }
         ]
        },
        {
         "h": {
          "en": "Protect it",
-         "id": "Lindungi"
+         "id": "Lindungi rencananya"
         },
         "points": [
          {
           "en": "Health, income, dependants: before the shock, not after.",
-          "id": "Kesehatan, penghasilan, tanggungan: sebelum guncangan, bukan sesudahnya."
+          "id": "Kesehatan, penghasilan, tanggungan: sebelum guncangan datang, bukan sesudahnya."
          }
         ]
        },
        {
         "h": {
          "en": "Review yearly",
-         "id": "Tinjau tahunan"
+         "id": "Tinjau setiap tahun"
         },
         "points": [
          {
@@ -48190,8 +48190,8 @@ window.MT_LMS['the-route'] = {
         "id": "Petakan cakrawalamu"
        },
        "body": {
-        "en": "Most financial stress comes from large, predictable costs that arrive as surprises: a wedding everyone knew was coming, a home deposit, a parent’s surgery, school fees. The cure is a <b>horizon map</b>: a single page with the milestones you expect in the next one, five, ten and twenty-plus years, a rough cost for each, and the bucket that will pay for it. Rough is enough: the aim is to see the shape, not to forecast precisely. For each milestone, ask three questions. <b>When?</b> A date or a range. <b>How much?</b> Today’s cost from quotes or people who have done it recently, increased for inflation if it is years away. <b>From where?</b> The emergency fund, a goals fund, long-term capital, a loan, family, or a mix. Then look for collisions: two large goals in the same year, a goal whose cost exceeds what the monthly system can build in time, or a family obligation that will grow as parents age. Collisions are easier to solve five years out than five months out, by moving a date, lowering a cost, raising the monthly amount, or deciding that one goal matters more than another. Connect the map to your career: a planned move to a more expensive city (Module 7), a year of study, or a lower-paid role that builds rare capital (Lesson 7.1) are all financial milestones too. And include one line many plans leave out: a <b>career-option fund</b>: enough, beyond the emergency fund, to make a deliberate change without panic. People with it negotiate and choose differently.",
-        "id": "Kebanyakan stres keuangan berasal dari biaya besar yang bisa diperkirakan tetapi datang sebagai kejutan: pernikahan yang semua orang tahu akan datang, uang muka rumah, operasi orang tua, biaya sekolah. Obatnya adalah <b>peta cakrawala</b>: satu halaman berisi tonggak-tonggak yang kamu perkirakan dalam satu, lima, sepuluh, dan dua puluh tahun lebih, perkiraan biaya masing-masing, dan pos yang akan membiayainya. Perkiraan kasar sudah cukup: tujuannya melihat bentuknya, bukan meramal dengan tepat. Untuk setiap tonggak, ajukan tiga pertanyaan. <b>Kapan?</b> Tanggal atau rentang. <b>Berapa?</b> Biaya hari ini dari penawaran harga atau orang yang baru melakukannya, dinaikkan untuk inflasi jika masih bertahun-tahun lagi. <b>Dari mana?</b> Dana darurat, dana tujuan, modal jangka panjang, pinjaman, keluarga, atau campurannya. Lalu cari tabrakan: dua tujuan besar di tahun yang sama, tujuan yang biayanya melampaui kemampuan sistem bulanan membangunnya tepat waktu, atau kewajiban keluarga yang akan membesar seiring orang tua menua. Tabrakan lebih mudah dipecahkan lima tahun sebelumnya daripada lima bulan sebelumnya, dengan menggeser tanggal, menurunkan biaya, menaikkan jumlah bulanan, atau memutuskan satu tujuan lebih penting dari yang lain. Hubungkan peta itu dengan kariermu: rencana pindah ke kota yang lebih mahal (Modul 7), setahun studi, atau peran bergaji lebih rendah yang membangun modal langka (Pelajaran 7.1) semuanya juga tonggak keuangan. Dan sertakan satu baris yang sering terlewat: <b>dana pilihan karier</b>: cukup, di luar dana darurat, untuk membuat perubahan yang disengaja tanpa panik. Orang yang memilikinya bernegosiasi dan memilih dengan cara berbeda."
+        "en": "Most financial stress comes from large, predictable costs that arrive as surprises: a wedding everyone knew was coming, a home deposit, a parent’s surgery, school fees. The cure is a <b>horizon map</b>: a single page with the milestones you expect in the next one, five, ten and twenty-plus years, a rough cost for each, and the bucket that will pay for it. Rough is enough: the aim is to see the shape, not to forecast precisely. For each milestone, ask three questions. <b>When?</b> A date or a range. <b>How much?</b> Today’s cost from quotes or people who have done it recently, increased for inflation if it is years away. <b>From where?</b> The emergency fund, a goals fund, long-term capital, a loan, family, or a mix. Then look for collisions: two large goals in the same year, a goal whose cost exceeds what the monthly system can build in time, or a family obligation that will grow as parents age. Collisions are easier to solve five years out than five months out: by moving a date, lowering a cost, raising the monthly amount, or deciding that one goal matters more than another. Connect the map to your career: a planned move to a more expensive city (Module 7), a year of study, or a lower-paid role that builds rare capital (Lesson 7.1) are all financial milestones too. And include one line many plans leave out: a <b>career-option fund</b>: enough, beyond the emergency fund, to make a deliberate change without panic. People with it negotiate and choose differently.",
+        "id": "Kebanyakan stres keuangan datang dari biaya besar yang sebenarnya bisa diperkirakan tetapi datang sebagai kejutan: pernikahan yang sudah diketahui semua orang, uang muka rumah, operasi orang tua, biaya sekolah. Obatnya adalah <b>peta cakrawala</b>: satu halaman berisi tonggak-tonggak yang kamu perkirakan dalam satu, lima, sepuluh, dan dua puluh tahun lebih, perkiraan kasar biaya masing-masing, dan pos yang akan membayarnya. Perkiraan kasar sudah cukup: tujuannya melihat bentuknya, bukan meramal dengan tepat. Untuk setiap tonggak, ajukan tiga pertanyaan. <b>Kapan?</b> Sebuah tanggal atau rentang waktu. <b>Berapa?</b> Biaya hari ini dari penawaran harga atau dari orang yang baru saja mengalaminya, ditambah inflasi kalau masih bertahun-tahun lagi. <b>Dari mana?</b> Dana darurat, dana tujuan, modal jangka panjang, pinjaman, keluarga, atau gabungannya. Lalu cari tabrakannya: dua tujuan besar di tahun yang sama, tujuan yang biayanya melebihi apa yang bisa dibangun sistem bulanan tepat waktu, atau kewajiban keluarga yang akan membesar seiring orang tua menua. Tabrakan lebih mudah diselesaikan lima tahun sebelumnya daripada lima bulan sebelumnya: dengan menggeser tanggal, menurunkan biaya, menaikkan jumlah bulanan, atau memutuskan bahwa satu tujuan lebih penting daripada yang lain. Hubungkan petanya dengan kariermu: rencana pindah ke kota yang lebih mahal (Modul 7), setahun kuliah lagi, atau peran bergaji lebih rendah yang membangun modal langka (Pelajaran 7.1) juga termasuk tonggak keuangan. Lalu masukkan satu baris yang sering terlewat dalam banyak rencana: <b>dana pilihan karier</b>, yaitu dana di luar dana darurat yang cukup untuk melakukan perubahan karier yang disengaja tanpa panik. Orang yang memilikinya bernegosiasi dan memilih dengan cara yang berbeda."
        },
        "table": {
         "cols": [
@@ -48201,11 +48201,11 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Typical milestones",
-          "id": "Tonggak yang lazim"
+          "id": "Tonggak yang umum"
          },
          {
           "en": "Usually paid from",
-          "id": "Biasanya dibiayai dari"
+          "id": "Biasanya dibayar dari"
          }
         ],
         "rows": [
@@ -48216,10 +48216,10 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Emergency fund complete; a move; a course",
-           "id": "Dana darurat lengkap; pindah; kursus"
+           "id": "Dana darurat lengkap; pindah kota; kursus"
           },
           {
-           "en": "Monthly system; holiday bonus and bonus",
+           "en": "Monthly system; THR and bonus",
            "id": "Sistem bulanan; THR dan bonus"
           }
          ],
@@ -48230,7 +48230,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Wedding; home deposit; master’s degree; career-option fund",
-           "id": "Pernikahan; uang muka rumah; S2; dana pilihan karier"
+           "id": "Pernikahan; uang muka rumah; kuliah S2; dana pilihan karier"
           },
           {
            "en": "Goals funds in low-risk instruments",
@@ -48244,7 +48244,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Children’s early education; parents’ care; a bigger home",
-           "id": "Pendidikan awal anak; perawatan orang tua; rumah lebih besar"
+           "id": "Pendidikan awal anak; perawatan orang tua; rumah yang lebih besar"
           },
           {
            "en": "Goals funds and long-term capital",
@@ -48258,7 +48258,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "University fees; retirement; financial independence",
-           "id": "Biaya kuliah anak; pensiun; kemandirian finansial"
+           "id": "Biaya kuliah anak; pensiun; kebebasan finansial"
           },
           {
            "en": "Long-term capital, pension programmes",
@@ -48268,7 +48268,7 @@ window.MT_LMS['the-route'] = {
         ],
         "caption": {
          "en": "Course guidance; costs and choices vary widely.",
-         "id": "Panduan kursus; biaya dan pilihan sangat beragam."
+         "id": "Panduan kursus; biaya dan pilihannya sangat beragam."
         }
        }
       },
@@ -48276,11 +48276,11 @@ window.MT_LMS['the-route'] = {
        "icon": "users",
        "h": {
         "en": "The big early decisions",
-        "id": "Keputusan besar di awal"
+        "id": "Keputusan besar di awal karier"
        },
        "body": {
-        "en": "Three decisions in the first decade shape finances for much longer, and each goes better with numbers first and conversations second. <b>Housing.</b> Buying a home is a major goal for many Indonesians, often with a KPR (mortgage). Before deciding, compare the full monthly cost of buying, instalment, maintenance, insurance, taxes and fees, with renting a similar place, and consider how long you will stay: buying suits people likely to stay put for years; renting keeps options open during the mobile years of a career (Module 7). Banks typically assess affordability by comparing instalments with income, and larger down payments reduce both the loan and the risk <span class=\"ev ev-verify\">Verify</span>. Check your credit record is clean long before you apply (Lesson 8.2). <b>Marriage and joint finances.</b> Money is one of the most common sources of conflict between couples; the conversation is far easier before the wedding than after. Talk about incomes, debts, family obligations on both sides, goals, and how you will manage money, fully joint, fully separate, or a mix with a shared account for shared costs. Wedding costs deserve their own honest budget; many couples find that a smaller celebration buys a home deposit. Indonesian law also allows couples to make a marriage agreement on property <span class=\"ev ev-verify\">Verify</span>. <b>Supporting family.</b> For many, the family line of Lesson 8.2 grows over time as parents age. Talk early with siblings about how responsibility is shared, find out what health cover parents have, and plan rather than react. None of these decisions has a single right answer; each has a better process: write the numbers, talk to the people affected, and decide on a date rather than drift.",
-        "id": "Tiga keputusan di dekade pertama membentuk keuangan jauh lebih lama, dan masing-masing berjalan lebih baik dengan angka lebih dulu dan percakapan sesudahnya. <b>Tempat tinggal.</b> Membeli rumah adalah tujuan besar bagi banyak orang Indonesia, sering dengan KPR. Sebelum memutuskan, bandingkan biaya bulanan penuh untuk membeli, cicilan, perawatan, asuransi, pajak, dan biaya, dengan menyewa tempat serupa, dan pertimbangkan berapa lama kamu akan tinggal: membeli cocok untuk yang kemungkinan menetap bertahun-tahun; menyewa menjaga pilihan tetap terbuka di tahun-tahun karier yang masih banyak berpindah (Modul 7). Bank biasanya menilai kemampuan bayar dengan membandingkan cicilan dan penghasilan, dan uang muka yang lebih besar mengurangi pinjaman sekaligus risikonya <span class=\"ev ev-verify\">Verifikasi</span>. Pastikan catatan kreditmu bersih jauh sebelum mengajukan (Pelajaran 8.2). <b>Pernikahan dan keuangan bersama.</b> Uang adalah salah satu sumber konflik paling umum bagi pasangan; percakapannya jauh lebih mudah sebelum menikah daripada sesudahnya. Bicarakan penghasilan, utang, kewajiban keluarga di kedua pihak, tujuan, dan cara kalian mengelola uang, sepenuhnya bersama, sepenuhnya terpisah, atau campuran dengan rekening bersama untuk biaya bersama. Biaya pernikahan layak punya anggaran jujurnya sendiri; banyak pasangan mendapati bahwa perayaan yang lebih kecil bisa membeli uang muka rumah. Hukum Indonesia juga memungkinkan pasangan membuat perjanjian perkawinan tentang harta <span class=\"ev ev-verify\">Verifikasi</span>. <b>Mendukung keluarga.</b> Bagi banyak orang, pos keluarga dari Pelajaran 8.2 membesar seiring orang tua menua. Bicarakan lebih awal dengan saudara tentang pembagian tanggung jawab, cari tahu jaminan kesehatan apa yang dimiliki orang tua, dan rencanakan alih-alih bereaksi. Tak satu pun keputusan ini punya satu jawaban benar; masing-masing punya proses yang lebih baik: tulis angkanya, bicara dengan orang-orang yang terdampak, dan putuskan pada tanggal tertentu alih-alih hanyut."
+        "en": "Three decisions in the first decade shape finances for much longer, and each goes better with numbers first and conversations second. <b>Housing.</b> Buying a home is a major goal for many Indonesians, often with a KPR (mortgage). Before deciding, compare the full monthly cost of buying (instalment, maintenance, insurance, taxes and fees) with renting a similar place, and consider how long you will stay: buying suits people likely to stay put for years; renting keeps options open during the mobile years of a career (Module 7). Banks typically assess affordability by comparing instalments with income, and larger down payments reduce both the loan and the risk <span class=\"ev ev-verify\">Verify</span>. Check your credit record is clean long before you apply (Lesson 8.2). <b>Marriage and joint finances.</b> Money is one of the most common sources of conflict between couples; the conversation is far easier before the wedding than after. Talk about incomes, debts, family obligations on both sides, goals, and how you will manage money: fully joint, fully separate, or a mix with a shared account for shared costs. Wedding costs deserve their own honest budget; many couples find that a smaller celebration buys a home deposit. Indonesian law also allows couples to make a marriage agreement on property <span class=\"ev ev-verify\">Verify</span>. <b>Supporting family.</b> For many, the family line of Lesson 8.2 grows over time as parents age. Talk early with siblings about how responsibility is shared, find out what health cover parents have, and plan rather than react. None of these decisions has a single right answer; each has a better process: write the numbers, talk to the people affected, and decide on a date rather than drift.",
+        "id": "Tiga keputusan di sepuluh tahun pertama membentuk keuanganmu jauh lebih lama, dan masing-masing berjalan lebih baik dengan angka lebih dulu dan percakapan sesudahnya. <b>Tempat tinggal.</b> Membeli rumah adalah tujuan besar bagi banyak orang Indonesia, sering dengan KPR. Sebelum memutuskan, bandingkan biaya bulanan penuh untuk membeli (cicilan, perawatan, asuransi, pajak, dan biaya-biaya) dengan menyewa tempat yang serupa, dan pertimbangkan berapa lama kamu akan menetap: membeli cocok untuk orang yang kemungkinan menetap bertahun-tahun; menyewa membuat pilihan tetap terbuka di tahun-tahun karier yang masih sering berpindah (Modul 7). Bank biasanya menilai kemampuan bayar dengan membandingkan cicilan dengan penghasilan, dan uang muka yang lebih besar mengurangi pinjaman sekaligus risikonya <span class=\"ev ev-verify\">Periksa</span>. Pastikan riwayat kreditmu bersih jauh sebelum mengajukan (Pelajaran 8.2). <b>Pernikahan dan keuangan bersama.</b> Uang adalah salah satu sumber konflik yang paling umum bagi pasangan; percakapannya jauh lebih mudah sebelum menikah daripada sesudahnya. Bicarakan penghasilan, utang, kewajiban keluarga di kedua pihak, tujuan, dan cara kalian akan mengelola uang: sepenuhnya bersama, sepenuhnya terpisah, atau gabungan dengan satu rekening bersama untuk biaya bersama. Biaya pernikahan layak punya anggaran jujurnya sendiri; banyak pasangan mendapati resepsi yang lebih kecil bisa membiayai uang muka rumah. Hukum Indonesia juga memungkinkan pasangan membuat perjanjian perkawinan soal harta <span class=\"ev ev-verify\">Periksa</span>. <b>Membantu keluarga.</b> Bagi banyak orang, pos keluarga dari Pelajaran 8.2 makin besar seiring orang tua menua. Bicarakan sejak awal dengan saudara kandung soal pembagian tanggung jawabnya, cari tahu jaminan kesehatan apa yang dimiliki orang tua, dan rencanakan alih-alih bereaksi. Tidak satu pun dari keputusan ini punya satu jawaban yang benar, tetapi masing-masing punya proses yang lebih baik: tulis angkanya, bicara dengan orang-orang yang terdampak, dan putuskan pada tanggal tertentu alih-alih membiarkannya mengambang."
        },
        "table": {
         "cols": [
@@ -48305,7 +48305,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Full monthly cost of each; years you will stay; deposit and affordability",
-           "id": "Biaya bulanan penuh masing-masing; berapa tahun menetap; uang muka dan kemampuan bayar"
+           "id": "Biaya bulanan penuh masing-masing; berapa tahun kamu akan menetap; uang muka dan kemampuan bayar"
           },
           {
            "en": "With your partner or family; with the bank early",
@@ -48319,25 +48319,25 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Incomes, debts, obligations, wedding budget",
-           "id": "Penghasilan, utang, kewajiban, anggaran pernikahan"
+           "id": "Penghasilan, utang, kewajiban, anggaran resepsi"
           },
           {
            "en": "How you will manage money together",
-           "id": "Cara kalian mengelola uang bersama"
+           "id": "Bagaimana kalian akan mengelola uang bersama"
           }
          ],
          [
           {
            "en": "<b>Family support</b>",
-           "id": "<b>Dukungan keluarga</b>"
+           "id": "<b>Membantu keluarga</b>"
           },
           {
            "en": "Current line; likely growth; parents’ health cover",
-           "id": "Pos sekarang; kemungkinan bertambah; jaminan kesehatan orang tua"
+           "id": "Pos yang sekarang; kemungkinan pertambahannya; jaminan kesehatan orang tua"
           },
           {
            "en": "With siblings: how responsibility is shared",
-           "id": "Dengan saudara: bagaimana tanggung jawab dibagi"
+           "id": "Dengan saudara kandung: bagaimana tanggung jawabnya dibagi"
           }
          ]
         ],
@@ -48354,13 +48354,13 @@ window.MT_LMS['the-route'] = {
         "id": "Melindungi rencananya"
        },
        "body": {
-        "en": "Long plans fail less often from poor returns than from shocks: an illness, a job loss, a death in the family, an accident. Protection is the unglamorous layer that keeps one bad year from undoing ten good ones. Check four things. <b>Health</b>: public health insurance is the baseline; some people add employer or private cover for faster access or specific needs. Check what your parents have too. Their medical costs often become yours. <b>Income</b>: your emergency fund is the first defence; statutory employment insurance’s job-loss programme (JKP) may provide limited support under its conditions <span class=\"ev ev-verify\">Verify</span>. Your career capital, skills, reputation, a warm network (Modules 4 and 6), is the second defence: it shortens the time to your next job. <b>Dependants</b>: once anyone relies on your income, a partner, children, parents, term life insurance sized to their needs protects them at relatively low cost; buy protection separately from investments unless you have compared the fees carefully <span class=\"ev ev-contested\">Contested</span>. <b>Retirement</b>: JHT and JP from statutory employment insurance provide a foundation, but for many salaried professionals they are unlikely on their own to replace a comfortable share of working income <span class=\"ev ev-verify\">Verify</span>. Personal long-term investing (Lesson 8.3), and in some cases a voluntary pension plan (DPLK), fill the gap. Two final protections cost nothing: keep a simple, shared record of your accounts, policies and beneficiaries so that someone you trust could find them, and make sure beneficiaries are up to date after marriage or other life changes.",
-        "id": "Rencana panjang lebih jarang gagal karena imbal yang buruk daripada karena guncangan: sakit, kehilangan pekerjaan, kematian dalam keluarga, kecelakaan. Perlindungan adalah lapisan tak glamor yang menjaga satu tahun buruk tak meruntuhkan sepuluh tahun yang baik. Periksa empat hal. <b>Kesehatan</b>: BPJS Kesehatan adalah dasarnya; sebagian orang menambah jaminan dari pemberi kerja atau swasta untuk akses lebih cepat atau kebutuhan khusus. Periksa juga apa yang dimiliki orang tuamu. Biaya medis mereka sering menjadi biayamu. <b>Penghasilan</b>: dana daruratmu adalah pertahanan pertama; program jaminan kehilangan pekerjaan (JKP) BPJS Ketenagakerjaan mungkin memberi dukungan terbatas sesuai syaratnya <span class=\"ev ev-verify\">Verifikasi</span>. Modal kariermu, keterampilan, reputasi, jejaring yang hangat (Modul 4 dan 6), adalah pertahanan kedua: ia memperpendek waktu menuju pekerjaan berikutmu. <b>Tanggungan</b>: begitu ada yang bergantung pada penghasilanmu, pasangan, anak, orang tua, asuransi jiwa berjangka sesuai kebutuhan mereka melindungi mereka dengan biaya yang relatif rendah; beli perlindungan terpisah dari investasi kecuali kamu sudah membandingkan biayanya dengan cermat <span class=\"ev ev-contested\">Diperdebatkan</span>. <b>Pensiun</b>: JHT dan JP dari BPJS Ketenagakerjaan memberi fondasi, tetapi bagi banyak profesional bergaji, keduanya sendiri kemungkinan tak cukup menggantikan porsi yang nyaman dari penghasilan saat bekerja <span class=\"ev ev-verify\">Verifikasi</span>. Investasi jangka panjang pribadi (Pelajaran 8.3), dan dalam beberapa kasus program pensiun sukarela (DPLK), mengisi celahnya. Dua perlindungan terakhir tak berbiaya: simpan catatan sederhana tentang rekening, polis, dan ahli waris yang bisa ditemukan orang yang kamu percayai, dan pastikan ahli waris diperbarui setelah menikah atau perubahan hidup lainnya."
+        "en": "Long plans fail less often from poor returns than from shocks: an illness, a job loss, a death in the family, an accident. Protection is the unglamorous layer that keeps one bad year from undoing ten good ones. Check four things. <b>Health</b>: BPJS Kesehatan is the baseline; some people add employer or private cover for faster access or specific needs. Check what your parents have too: their medical costs often become yours. <b>Income</b>: your emergency fund is the first defence; BPJS Ketenagakerjaan’s job-loss programme (JKP) may provide limited support under its conditions <span class=\"ev ev-verify\">Verify</span>. Your career capital (skills, reputation, a warm network; Modules 4 and 6) is the second defence: it shortens the time to your next job. <b>Dependants</b>: once anyone relies on your income (a partner, children, parents), term life insurance sized to their needs protects them at relatively low cost; buy protection separately from investments unless you have compared the fees carefully <span class=\"ev ev-contested\">Contested</span>. <b>Retirement</b>: JHT and JP from BPJS Ketenagakerjaan provide a foundation, but for many salaried professionals they are unlikely on their own to replace a comfortable share of working income <span class=\"ev ev-verify\">Verify</span>. Personal long-term investing (Lesson 8.3), and in some cases a voluntary pension plan (DPLK), fill the gap. Two final protections cost nothing: keep a simple, shared record of your accounts, policies and beneficiaries so that someone you trust could find them, and make sure beneficiaries are up to date after marriage or other life changes.",
+        "id": "Rencana jangka panjang lebih jarang gagal karena imbal hasil yang buruk daripada karena guncangan: sakit, kehilangan pekerjaan, kematian di keluarga, kecelakaan. Perlindungan adalah lapisan yang tidak menarik, tetapi menjaga satu tahun yang buruk supaya tidak menghapus sepuluh tahun yang baik. Cek empat hal. <b>Kesehatan</b>: BPJS Kesehatan adalah dasarnya; sebagian orang menambah asuransi dari kantor atau swasta untuk akses yang lebih cepat atau kebutuhan tertentu. Cek juga apa yang dimiliki orang tuamu, karena biaya pengobatan mereka sering kali menjadi tanggunganmu. <b>Penghasilan</b>: dana daruratmu adalah pertahanan pertama; program JKP dari BPJS Ketenagakerjaan mungkin memberi dukungan terbatas sesuai syaratnya <span class=\"ev ev-verify\">Periksa</span>. Modal kariermu (keterampilan, reputasi, jaringan yang hangat; Modul 4 dan 6) adalah pertahanan kedua, karena memperpendek waktu sampai kamu mendapat pekerjaan berikutnya. <b>Tanggungan</b>: begitu ada orang yang bergantung pada penghasilanmu (pasangan, anak, orang tua), asuransi jiwa berjangka yang besarnya sesuai kebutuhan mereka melindungi mereka dengan biaya yang relatif rendah; beli perlindungan terpisah dari investasi kecuali kamu sudah membandingkan biayanya dengan cermat <span class=\"ev ev-contested\">Masih diperdebatkan</span>. <b>Pensiun</b>: JHT dan JP dari BPJS Ketenagakerjaan memberi fondasi, tetapi bagi banyak profesional bergaji, keduanya kemungkinan tidak cukup untuk menggantikan porsi penghasilan kerja yang nyaman <span class=\"ev ev-verify\">Periksa</span>. Investasi jangka panjang pribadi (Pelajaran 8.3), dan dalam beberapa kasus program pensiun sukarela (DPLK), mengisi celahnya. Dua perlindungan terakhir tidak memakan biaya: simpan catatan sederhana yang bisa diakses orang yang kamu percaya tentang rekening, polis, dan ahli warismu, dan pastikan data ahli waris diperbarui setelah menikah atau perubahan hidup lainnya."
        },
        "bullets": [
         {
-         "en": "<b>Health</b>: public health insurance as the baseline; know your parents’ cover.",
-         "id": "<b>Kesehatan</b>: BPJS Kesehatan sebagai dasar; ketahui jaminan orang tuamu."
+         "en": "<b>Health</b>: BPJS Kesehatan as the baseline; know your parents’ cover.",
+         "id": "<b>Kesehatan</b>: BPJS Kesehatan sebagai dasarnya; ketahui jaminan kesehatan orang tuamu."
         },
         {
          "en": "<b>Income</b>: emergency fund first; career capital second.",
@@ -48372,19 +48372,19 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "<b>Records</b>: accounts, policies and beneficiaries findable and current.",
-         "id": "<b>Catatan</b>: rekening, polis, dan ahli waris bisa ditemukan dan mutakhir."
+         "id": "<b>Catatan</b>: rekening, polis, dan ahli waris mudah ditemukan dan selalu terkini."
         }
        ]
       },
       {
        "icon": "chart",
        "h": {
-        "en": "The annual review: and the long arc",
-        "id": "Tinjauan tahunan: dan lengkung panjang"
+        "en": "The annual review, and the long arc",
+        "id": "Tinjauan tahunan, dan perjalanan panjangnya"
        },
        "body": {
-        "en": "One afternoon a year, many people choose the week after holiday bonus or the start of the year, keeps the whole system connected. The <b>annual money review</b> has five parts. <b>A net-worth statement</b>: everything you own (savings, investments, JHT balance, property) minus everything you owe; the number matters less than its direction. <b>Your savings rate</b>: the share of income you actually saved and invested this year, for salaried professionals, the single most powerful driver of long-term outcomes. <b>Progress on each goal</b> in the horizon map, with dates adjusted honestly. <b>Protection check</b>: health, life, beneficiaries, records. <b>Next year’s settings</b>: the new transfer rate after this year’s raise, the holiday bonus and bonus split, and one financial habit to build. Then the long arc. <b>Financial independence</b> is the point at which income from your savings and investments could cover your expenses, making paid work a choice rather than a necessity. A widely quoted rule of thumb from US research, William Bengen’s work in the 1990s, suggests that spending around four per cent of a portfolio a year has historically been sustainable over long retirements; its applicability to markets, inflation and life expectancy is debated, so treat it as an illustration, not a target <span class=\"ev ev-contested\">Contested</span>. The practical lesson is simpler: the higher your savings rate and the earlier you start, the sooner work becomes a choice. Morgan Housel, in <i>The Psychology of Money</i>, adds the counterweight: the hardest financial skill is getting the goalpost to stop moving. Knowing what is <b>enough</b>. A good plan buys freedom and security, not an endless race; it should leave room for generosity, rest and the work you actually want to do.",
-        "id": "Satu sore setahun, banyak orang memilih minggu setelah THR atau awal tahun, menjaga seluruh sistem tetap terhubung. <b>Tinjauan keuangan tahunan</b> punya lima bagian. <b>Laporan kekayaan bersih</b>: semua yang kamu miliki (tabungan, investasi, saldo JHT, properti) dikurangi semua yang kamu utangkan; angkanya kurang penting daripada arahnya. <b>Tingkat tabunganmu</b>: porsi penghasilan yang benar-benar kamu tabung dan investasikan tahun ini, bagi profesional bergaji, pendorong tunggal paling kuat untuk hasil jangka panjang. <b>Kemajuan tiap tujuan</b> di peta cakrawala, dengan tanggal yang disesuaikan secara jujur. <b>Cek perlindungan</b>: kesehatan, jiwa, ahli waris, catatan. <b>Pengaturan tahun depan</b>: tarif transfer baru setelah kenaikan tahun ini, pembagian THR dan bonus, dan satu kebiasaan keuangan untuk dibangun. Lalu lengkung panjangnya. <b>Kemandirian finansial</b> adalah titik ketika penghasilan dari tabungan dan investasimu bisa menutup pengeluaranmu, membuat bekerja menjadi pilihan, bukan keharusan. Patokan yang sering dikutip dari riset di AS, karya William Bengen di tahun 1990-an, menyiratkan bahwa membelanjakan sekitar empat persen portofolio setahun secara historis berkelanjutan selama masa pensiun yang panjang; penerapannya untuk pasar, inflasi, dan harapan hidup Indonesia diperdebatkan, jadi anggap sebagai ilustrasi, bukan sasaran <span class=\"ev ev-contested\">Diperdebatkan</span>. Pelajaran praktisnya lebih sederhana: semakin tinggi tingkat tabunganmu dan semakin awal kamu mulai, semakin cepat bekerja menjadi pilihan. Morgan Housel, dalam <i>The Psychology of Money</i>, menambahkan penyeimbangnya: keterampilan keuangan tersulit adalah menghentikan tiang gawang yang terus bergeser, mengetahui apa yang <b>cukup</b>. Rencana yang baik membeli kebebasan dan rasa aman, bukan perlombaan tanpa akhir; ia harus menyisakan ruang untuk kedermawanan, istirahat, dan pekerjaan yang benar-benar ingin kamu lakukan."
+        "en": "One afternoon a year (many people choose the week after THR or the start of the year) keeps the whole system connected. The <b>annual money review</b> has five parts. <b>A net-worth statement</b>: everything you own (savings, investments, JHT balance, property) minus everything you owe; the number matters less than its direction. <b>Your savings rate</b>: the share of income you actually saved and invested this year: for salaried professionals, the single most powerful driver of long-term outcomes. <b>Progress on each goal</b> in the horizon map, with dates adjusted honestly. <b>Protection check</b>: health, life, beneficiaries, records. <b>Next year’s settings</b>: the new transfer rate after this year’s raise, the THR and bonus split, and one financial habit to build. Then the long arc. <b>Financial independence</b> is the point at which income from your savings and investments could cover your expenses, making paid work a choice rather than a necessity. A widely quoted rule of thumb from US research (William Bengen’s work in the 1990s) suggests that spending around four per cent of a portfolio a year has historically been sustainable over long retirements; its applicability to markets, inflation and life expectancy is debated, so treat it as an illustration, not a target <span class=\"ev ev-contested\">Contested</span>. The practical lesson is simpler: the higher your savings rate and the earlier you start, the sooner work becomes a choice. Morgan Housel, in <i>The Psychology of Money</i>, adds the counterweight: the hardest financial skill is getting the goalpost to stop moving: knowing what is <b>enough</b>. A good plan buys freedom and security, not an endless race; it should leave room for generosity, rest and the work you actually want to do.",
+        "id": "Satu sore dalam setahun (banyak orang memilih minggu setelah THR atau awal tahun) menjaga seluruh sistem tetap terhubung. <b>Tinjauan keuangan tahunan</b> punya lima bagian. <b>Laporan kekayaan bersih</b>: semua yang kamu miliki (tabungan, investasi, saldo JHT, properti) dikurangi semua yang kamu utang; angkanya kurang penting dibanding arahnya. <b>Tingkat tabunganmu</b>: porsi penghasilan yang benar-benar kamu tabung dan investasikan tahun ini, yang bagi profesional bergaji adalah pendorong paling kuat untuk hasil jangka panjang. <b>Kemajuan tiap tujuan</b> di peta cakrawala, dengan tanggal yang disesuaikan secara jujur. <b>Cek perlindungan</b>: kesehatan, jiwa, ahli waris, catatan. <b>Pengaturan untuk tahun depan</b>: tarif transfer baru setelah kenaikan gaji tahun ini, pembagian THR dan bonus, dan satu kebiasaan keuangan yang ingin dibangun. Lalu perjalanan panjangnya. <b>Kebebasan finansial</b> adalah titik ketika penghasilan dari tabungan dan investasimu bisa menutup pengeluaranmu, sehingga bekerja menjadi pilihan, bukan keharusan. Patokan yang sering dikutip dari riset di Amerika Serikat (karya William Bengen di tahun 1990-an) menyebut bahwa membelanjakan sekitar empat persen portofolio per tahun secara historis bisa bertahan sepanjang masa pensiun yang panjang. Penerapannya untuk pasar, inflasi, dan harapan hidup yang berbeda masih diperdebatkan, jadi anggap sebagai ilustrasi, bukan target <span class=\"ev ev-contested\">Masih diperdebatkan</span>. Pelajaran praktisnya lebih sederhana: makin tinggi tingkat tabunganmu dan makin awal kamu mulai, makin cepat bekerja menjadi pilihan. Morgan Housel, dalam <i>The Psychology of Money</i>, menambahkan penyeimbangnya: keterampilan keuangan yang paling sulit adalah membuat tiang gawang berhenti bergeser, yaitu mengetahui kapan sudah <b>cukup</b>. Rencana yang baik membeli kebebasan dan rasa aman, bukan perlombaan tanpa akhir; rencana itu harus menyisakan ruang untuk berbagi, beristirahat, dan pekerjaan yang benar-benar ingin kamu lakukan."
        },
        "table": {
         "cols": [
@@ -48394,7 +48394,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Question",
-          "id": "Pertanyaan"
+          "id": "Pertanyaannya"
          }
         ],
         "rows": [
@@ -48405,7 +48405,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Owned minus owed: up or down since last year?",
-           "id": "Dimiliki dikurangi utang: naik atau turun sejak tahun lalu?"
+           "id": "Yang dimiliki dikurangi yang diutang: naik atau turun dibanding tahun lalu?"
           }
          ],
          [
@@ -48415,7 +48415,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "What share of income did I actually save and invest?",
-           "id": "Berapa porsi penghasilan yang benar-benar kutabung dan investasikan?"
+           "id": "Berapa porsi penghasilan yang benar-benar saya tabung dan investasikan?"
           }
          ],
          [
@@ -48425,7 +48425,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "On track, behind, or no longer wanted?",
-           "id": "Sesuai jalur, tertinggal, atau tak lagi diinginkan?"
+           "id": "Sesuai jalur, tertinggal, atau tidak diinginkan lagi?"
           }
          ],
          [
@@ -48435,7 +48435,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Health, life, beneficiaries, records current?",
-           "id": "Kesehatan, jiwa, ahli waris, catatan mutakhir?"
+           "id": "Kesehatan, jiwa, ahli waris, catatan sudah terkini?"
           }
          ],
          [
@@ -48444,14 +48444,14 @@ window.MT_LMS['the-route'] = {
            "id": "<b>Tahun depan</b>"
           },
           {
-           "en": "New transfer rate, holiday bonus/bonus split, one habit",
+           "en": "New transfer rate, THR/bonus split, one habit",
            "id": "Tarif transfer baru, pembagian THR/bonus, satu kebiasaan"
           }
          ]
         ],
         "caption": {
          "en": "Course guidance. The four-per-cent rule is a US-derived illustration and is contested for other markets.",
-         "id": "Panduan kursus. Aturan empat persen adalah ilustrasi dari AS dan diperdebatkan untuk pasar lain."
+         "id": "Panduan kursus. Aturan empat persen adalah ilustrasi yang berasal dari Amerika Serikat dan masih diperdebatkan untuk pasar lain."
         }
        }
       }
@@ -48460,11 +48460,11 @@ window.MT_LMS['the-route'] = {
       "type": "timeline",
       "exhibit": {
        "en": "Exhibit 1: The horizon, from first salary to choice",
-       "id": "Peraga 1: Cakrawala, dari gaji pertama ke pilihan"
+       "id": "Gambar 1: Cakrawalanya, dari gaji pertama sampai bekerja menjadi pilihan"
       },
       "title": {
        "en": "Each horizon asks for something different, and the monthly system pays for all of them",
-       "id": "Setiap cakrawala meminta hal berbeda, dan sistem bulanan membiayai semuanya"
+       "id": "Setiap cakrawala meminta hal yang berbeda, dan sistem bulanan membiayai semuanya"
       },
       "items": [
        {
@@ -48475,7 +48475,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Payday transfer, buckets, no costly debt.",
-         "id": "Transfer hari gajian, pos-pos, tanpa utang mahal."
+         "id": "Transfer di hari gajian, pos-pos bernama, tanpa utang mahal."
         }
        },
        {
@@ -48486,7 +48486,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Emergency fund complete; protection in place.",
-         "id": "Dana darurat lengkap; perlindungan terpasang."
+         "id": "Dana darurat lengkap; perlindungan sudah ada."
         }
        },
        {
@@ -48497,7 +48497,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Home deposit, wedding, study, career-option fund.",
-         "id": "Uang muka rumah, pernikahan, studi, dana pilihan karier."
+         "id": "Uang muka rumah, pernikahan, kuliah, dana pilihan karier."
         }
        },
        {
@@ -48508,7 +48508,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Children, parents’ care, a larger home.",
-         "id": "Anak, perawatan orang tua, rumah lebih besar."
+         "id": "Anak, perawatan orang tua, rumah yang lebih besar."
         }
        },
        {
@@ -48529,7 +48529,7 @@ window.MT_LMS['the-route'] = {
       },
       "longdesc": {
        "en": "A five-stage timeline of financial horizons. Now: the payday transfer, named buckets and no costly debt. One year: a complete emergency fund and protection in place. Five years: home deposit, wedding, study and a career-option fund. Ten years: children, parents’ care and perhaps a larger home. Twenty years and beyond: education fees, retirement and the point where work becomes a choice.",
-       "id": "Garis waktu lima tahap cakrawala keuangan. Sekarang: transfer hari gajian, pos bernama, dan tanpa utang mahal. Satu tahun: dana darurat lengkap dan perlindungan terpasang. Lima tahun: uang muka rumah, pernikahan, studi, dan dana pilihan karier. Sepuluh tahun: anak, perawatan orang tua, dan mungkin rumah lebih besar. Dua puluh tahun dan seterusnya: biaya pendidikan, pensiun, dan titik ketika bekerja menjadi pilihan."
+       "id": "Linimasa lima tahap cakrawala keuangan. Sekarang: transfer di hari gajian, pos-pos bernama, dan tanpa utang mahal. Satu tahun: dana darurat lengkap dan perlindungan sudah ada. Lima tahun: uang muka rumah, pernikahan, kuliah, dan dana pilihan karier. Sepuluh tahun: anak, perawatan orang tua, dan mungkin rumah yang lebih besar. Dua puluh tahun lebih: biaya pendidikan, pensiun, dan titik ketika bekerja menjadi pilihan."
       }
      },
      "compare": [
@@ -48540,19 +48540,19 @@ window.MT_LMS['the-route'] = {
        },
        "q": {
         "en": "Nadia and her fiancé Bima, a civil engineer in Jakarta, are planning to marry in eighteen months.",
-        "id": "Nadia dan tunangannya Bima, insinyur sipil di Jakarta, berencana menikah delapan belas bulan lagi."
+        "id": "Nadia dan tunangannya, Bima, seorang insinyur sipil di Jakarta, berencana menikah delapan belas bulan lagi."
        },
        "weak": {
         "en": "“Soal uang nanti saja setelah nikah, yang penting acaranya lancar dulu.” They book a large venue on instalments and agree to “figure out” the home and family support later.",
-        "id": "“Soal uang nanti saja setelah nikah, yang penting acaranya lancar dulu.” Mereka memesan gedung besar dengan cicilan dan sepakat “mengatur” soal rumah dan dukungan keluarga nanti."
+        "id": "“Soal uang nanti saja setelah nikah, yang penting acaranya lancar dulu.” Mereka memesan gedung besar dengan cicilan dan sepakat soal rumah dan bantuan untuk keluarga “dipikirkan nanti”."
        },
        "strong": {
-        "en": "They spend a Sunday on one page: both incomes and debts, Nadia’s support for her father’s treatment and Bima’s for his younger sister’s tuition, the wedding budget, a home deposit in four years, and how they will manage money, separate accounts plus a shared one for shared costs. They choose a smaller reception that fits the budget and move the difference into the home-deposit fund.",
-        "id": "Mereka menghabiskan satu hari Minggu untuk satu halaman: penghasilan dan utang keduanya, dukungan Nadia untuk pengobatan ayahnya dan dukungan Bima untuk biaya kuliah adiknya, anggaran pernikahan, uang muka rumah dalam empat tahun, dan cara mengelola uang, rekening terpisah plus satu rekening bersama untuk biaya bersama. Mereka memilih resepsi lebih kecil yang sesuai anggaran dan memindahkan selisihnya ke dana uang muka rumah."
+        "en": "They spend a Sunday on one page: both incomes and debts, Nadia’s support for her father’s treatment and Bima’s for his younger sister’s tuition, the wedding budget, a home deposit in four years, and how they will manage money (separate accounts plus a shared one for shared costs). They choose a smaller reception that fits the budget and move the difference into the home-deposit fund.",
+        "id": "Mereka menghabiskan satu hari Minggu untuk satu halaman: penghasilan dan utang keduanya, bantuan Nadia untuk pengobatan ayahnya dan bantuan Bima untuk biaya kuliah adiknya, anggaran resepsi, uang muka rumah dalam empat tahun, dan cara mereka akan mengelola uang (rekening masing-masing ditambah satu rekening bersama untuk biaya bersama). Mereka memilih resepsi yang lebih kecil sesuai anggaran dan memindahkan selisihnya ke dana uang muka rumah."
        },
        "why": {
         "en": "The first postpones the conversation until the commitments are already made. The second puts both families’ obligations on the table, sets a shared system, and lets a visible trade-off fund the next milestone. Fictional.",
-        "id": "Yang pertama menunda percakapan sampai komitmen sudah terlanjur dibuat. Yang kedua membuka kewajiban kedua keluarga, menetapkan sistem bersama, dan membiarkan pertukaran yang terlihat membiayai tonggak berikutnya. Fiktif."
+        "id": "Yang pertama menunda percakapannya sampai komitmen sudah telanjur dibuat. Yang kedua meletakkan kewajiban kedua keluarga di atas meja, menyepakati sistem bersama, dan membiarkan satu pilihan yang terlihat jelas membiayai tonggak berikutnya. Fiktif."
        }
       }
      ],
@@ -48565,11 +48565,11 @@ window.MT_LMS['the-route'] = {
       "body": [
        {
         "en": "When Nadia asks Rina how she stays calm about money, Rina shows her a folder. Every January for eleven years she has spent one afternoon on the same page: what she owns, what she owes, her savings rate, each goal, her policies and beneficiaries, and next year’s settings.",
-        "id": "Saat Nadia bertanya kepada Rina bagaimana ia tetap tenang soal uang, Rina menunjukkan sebuah map. Setiap Januari selama sebelas tahun ia menghabiskan satu sore untuk halaman yang sama: apa yang ia miliki, apa yang ia utangkan, tingkat tabungannya, setiap tujuan, polis dan ahli warisnya, dan pengaturan tahun depan."
+        "id": "Saat Nadia bertanya kepada Rina bagaimana ia bisa tetap tenang soal uang, Rina menunjukkan sebuah map. Setiap Januari selama sebelas tahun, ia menghabiskan satu sore untuk halaman yang sama: apa yang ia miliki, apa yang ia utang, tingkat tabungannya, setiap tujuan, polis dan ahli warisnya, serta pengaturan untuk tahun berikutnya."
        },
        {
-        "en": "The early pages are small numbers and several goals crossed out. A car she decided she did not want, a second degree she postponed. The later pages show a line that rises in most years and dips in a few. “Yang membuat saya tenang bukan angkanya,” Rina says, “tapi saya selalu tahu arahnya, dan saya sudah memutuskan apa yang cukup.” Nadia books the second Saturday of January in her calendar.",
-        "id": "Halaman-halaman awal berisi angka kecil dan beberapa tujuan yang dicoret. Mobil yang ia putuskan tak ia inginkan, gelar kedua yang ia tunda. Halaman-halaman selanjutnya menunjukkan garis yang naik di sebagian besar tahun dan turun di beberapa tahun. “Yang membuat saya tenang bukan angkanya,” kata Rina, “tapi saya selalu tahu arahnya, dan saya sudah memutuskan apa yang cukup.” Nadia memesan Sabtu kedua bulan Januari di kalendernya."
+        "en": "The early pages are small numbers and several goals crossed out: a car she decided she did not want, a second degree she postponed. The later pages show a line that rises in most years and dips in a few. “Yang membuat saya tenang bukan angkanya,” Rina says, “tapi saya selalu tahu arahnya, dan saya sudah memutuskan apa yang cukup.” Nadia books the second Saturday of January in her calendar.",
+        "id": "Halaman-halaman awalnya berisi angka kecil dan beberapa tujuan yang dicoret: mobil yang akhirnya tidak ia inginkan, gelar kedua yang ia tunda. Halaman-halaman berikutnya menunjukkan garis yang naik di sebagian besar tahun dan turun di beberapa tahun. “Yang membuat saya tenang bukan angkanya,” kata Rina, “tapi saya selalu tahu arahnya, dan saya sudah memutuskan apa yang cukup.” Nadia mencatat Sabtu kedua bulan Januari di kalendernya."
        }
       ]
      },
@@ -48581,11 +48581,11 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "List your expected milestones at 1, 5, 10 and 20+ years. For each: when, a rough cost, and which bucket pays. Circle any collision.",
-        "id": "Daftar tonggak yang kamu perkirakan di 1, 5, 10, dan 20+ tahun. Untuk masing-masing: kapan, perkiraan biaya, dan pos mana yang membiayai. Lingkari tabrakan apa pun."
+        "id": "Tulis tonggak yang kamu perkirakan dalam 1, 5, 10, dan 20+ tahun. Untuk masing-masing: kapan, perkiraan kasar biayanya, dan pos mana yang membayarnya. Lingkari tabrakan apa pun."
        },
        "debrief": {
         "en": "For each collision, choose one lever now: move a date, lower a cost, raise the monthly amount, or drop a goal.",
-        "id": "Untuk setiap tabrakan, pilih satu tuas sekarang: geser tanggal, turunkan biaya, naikkan jumlah bulanan, atau lepaskan satu tujuan."
+        "id": "Untuk setiap tabrakan, pilih satu pengungkit sekarang: geser tanggalnya, turunkan biayanya, naikkan jumlah bulanannya, atau coret tujuannya."
        }
       },
       {
@@ -48595,25 +48595,25 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Write everything you own and everything you owe, with today’s values, including your JHT balance. Subtract. Then calculate last year’s savings rate.",
-        "id": "Tulis semua yang kamu miliki dan semua yang kamu utangkan, dengan nilai hari ini, termasuk saldo JHT-mu. Kurangkan. Lalu hitung tingkat tabunganmu tahun lalu."
+        "id": "Tulis semua yang kamu miliki dan semua yang kamu utang, dengan nilai hari ini, termasuk saldo JHT-mu. Kurangkan. Lalu hitung tingkat tabunganmu tahun lalu."
        },
        "debrief": {
-        "en": "A negative number early in a career is common, student loans, a first vehicle. Watch the direction and the savings rate.",
-        "id": "Angka negatif di awal karier itu umum, pinjaman kuliah, kendaraan pertama. Perhatikan arahnya dan tingkat tabungannya."
+        "en": "A negative number early in a career is common (student loans, a first vehicle). Watch the direction and the savings rate.",
+        "id": "Angka negatif di awal karier itu umum (pinjaman kuliah, kendaraan pertama). Perhatikan arahnya dan tingkat tabunganmu."
        }
       },
       {
        "h": {
         "en": "Drill 3 · One money conversation",
-        "id": "Latihan 3 · Satu percakapan uang"
+        "id": "Latihan 3 · Satu percakapan soal uang"
        },
        "body": {
-        "en": "Choose one person whose finances are tied to yours; a partner, a parent, a sibling. Write three questions you need to discuss and a date to discuss them.",
-        "id": "Pilih satu orang yang keuangannya terkait denganmu, pasangan, orang tua, saudara. Tulis tiga pertanyaan yang perlu dibicarakan dan tanggal untuk membicarakannya."
+        "en": "Choose one person whose finances are tied to yours: a partner, a parent, a sibling. Write three questions you need to discuss and a date to discuss them.",
+        "id": "Pilih satu orang yang keuangannya terikat dengan keuanganmu: pasangan, orang tua, atau saudara kandung. Tulis tiga pertanyaan yang perlu kalian bicarakan dan tanggal untuk membicarakannya."
        },
        "debrief": {
         "en": "Start with goals and worries, not with who pays what. The numbers come easier once the goals are shared.",
-        "id": "Mulailah dengan tujuan dan kekhawatiran, bukan siapa membayar apa. Angka lebih mudah dibicarakan setelah tujuannya sama."
+        "id": "Mulailah dari tujuan dan kekhawatiran, bukan dari siapa membayar apa. Angkanya lebih mudah dibicarakan setelah tujuannya sama."
        }
       }
      ],
@@ -48622,17 +48622,17 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Big costs as surprises",
-         "id": "Biaya besar sebagai kejutan"
+         "id": "Biaya besar datang sebagai kejutan"
         },
         "fix": {
          "en": "A horizon map with dates, costs and buckets.",
-         "id": "Peta cakrawala dengan tanggal, biaya, dan pos."
+         "id": "Peta cakrawala lengkap dengan tanggal, biaya, dan posnya."
         }
        },
        {
         "h": {
          "en": "The money talk after the wedding",
-         "id": "Bicara uang setelah menikah"
+         "id": "Membicarakan uang setelah menikah"
         },
         "fix": {
          "en": "One page together before commitments are made.",
@@ -48642,17 +48642,17 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Protection after the shock",
-         "id": "Perlindungan setelah guncangan"
+         "id": "Perlindungan setelah guncangan datang"
         },
         "fix": {
          "en": "Health, dependants and records checked every year.",
-         "id": "Kesehatan, tanggungan, dan catatan diperiksa setiap tahun."
+         "id": "Kesehatan, tanggungan, dan catatan dicek setiap tahun."
         }
        },
        {
         "h": {
          "en": "A goalpost that never stops moving",
-         "id": "Tiang gawang yang terus bergeser"
+         "id": "Tiang gawang yang tidak pernah berhenti bergeser"
         },
         "fix": {
          "en": "Decide what is enough; review once a year.",
@@ -48669,7 +48669,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "A one-page list of expected milestones with dates, rough costs and the bucket that pays for each.",
-        "id": "Daftar satu halaman tonggak yang diperkirakan dengan tanggal, perkiraan biaya, dan pos yang membiayai masing-masing."
+        "id": "Daftar satu halaman berisi tonggak yang diperkirakan, lengkap dengan tanggal, perkiraan biaya, dan pos yang membayar masing-masing."
        }
       },
       {
@@ -48679,7 +48679,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "Everything you own minus everything you owe.",
-        "id": "Semua yang kamu miliki dikurangi semua yang kamu utangkan."
+        "id": "Semua yang kamu miliki dikurangi semua yang kamu utang."
        }
       },
       {
@@ -48689,17 +48689,17 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The share of income actually saved and invested in a period.",
-        "id": "Porsi penghasilan yang benar-benar ditabung dan diinvestasikan dalam suatu periode."
+        "id": "Porsi penghasilan yang benar-benar ditabung dan diinvestasikan dalam satu periode."
        }
       },
       {
        "term": {
         "en": "Financial independence",
-        "id": "Kemandirian finansial"
+        "id": "Kebebasan finansial"
        },
        "def": {
         "en": "When income from savings and investments could cover your expenses, making paid work a choice.",
-        "id": "Saat penghasilan dari tabungan dan investasi bisa menutup pengeluaranmu, menjadikan kerja berbayar sebuah pilihan."
+        "id": "Saat penghasilan dari tabungan dan investasi bisa menutup pengeluaranmu, sehingga bekerja menjadi pilihan."
        }
       }
      ],
@@ -48716,27 +48716,27 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Years ahead, when you can still move dates, costs or monthly amounts",
-         "id": "Bertahun-tahun sebelumnya, saat kamu masih bisa menggeser tanggal, biaya, atau jumlah bulanan"
+         "id": "Bertahun-tahun sebelumnya, saat tanggal, biaya, atau jumlah bulanan masih bisa digeser"
         },
         {
          "en": "Never: use a loan",
-         "id": "Tidak pernah: pakai pinjaman"
+         "id": "Tidak perlu, pakai pinjaman saja"
         },
         {
          "en": "After both goals are missed",
-         "id": "Setelah kedua tujuan terlewat"
+         "id": "Setelah kedua tujuan sama-sama gagal"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Collisions are cheap to solve early and expensive to solve late.",
-        "id": "Tabrakan murah diselesaikan lebih awal dan mahal diselesaikan terlambat."
+        "id": "Tabrakan murah diselesaikan lebih awal dan mahal kalau terlambat."
        }
       },
       {
        "q": {
         "en": "For salaried professionals, the single most powerful driver of long-term outcomes is usually…",
-        "id": "Bagi profesional bergaji, pendorong tunggal paling kuat untuk hasil jangka panjang biasanya…"
+        "id": "Bagi profesional bergaji, pendorong paling kuat untuk hasil jangka panjang biasanya adalah…"
        },
        "options": [
         {
@@ -48745,7 +48745,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "The savings rate, started early",
-         "id": "Tingkat tabungan, dimulai lebih awal"
+         "id": "Tingkat tabungan, dimulai sejak awal"
         },
         {
          "en": "Timing the market",
@@ -48753,42 +48753,42 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "A lucky bonus",
-         "id": "Bonus keberuntungan"
+         "id": "Bonus yang kebetulan besar"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Time and consistency do most of the work.",
-        "id": "Waktu dan konsistensi mengerjakan sebagian besar pekerjaannya."
+        "id": "Waktu dan konsistensi yang paling banyak bekerja."
        }
       },
       {
        "q": {
         "en": "Once someone depends on your income, the protection most often recommended is…",
-        "id": "Begitu ada yang bergantung pada penghasilanmu, perlindungan yang paling sering disarankan adalah…"
+        "id": "Begitu ada orang yang bergantung pada penghasilanmu, perlindungan yang paling sering disarankan adalah…"
        },
        "options": [
         {
          "en": "More investments in growth stocks",
-         "id": "Lebih banyak investasi di saham pertumbuhan"
+         "id": "Menambah investasi di saham pertumbuhan"
         },
         {
          "en": "Term life cover sized to their needs, bought with the fees understood",
-         "id": "Asuransi jiwa berjangka sesuai kebutuhan mereka, dibeli dengan biaya yang dipahami"
+         "id": "Asuransi jiwa berjangka yang besarnya sesuai kebutuhan mereka, dibeli dengan memahami biayanya"
         },
         {
          "en": "A second job",
          "id": "Pekerjaan kedua"
         },
         {
-         "en": "Nothing: statutory social insurance covers everything",
-         "id": "Tidak ada: BPJS menanggung semuanya"
+         "en": "Nothing: BPJS covers everything",
+         "id": "Tidak perlu, BPJS sudah menanggung semuanya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "It protects dependants at relatively low cost; compare fees before any combined product.",
-        "id": "Ia melindungi tanggungan dengan biaya yang relatif rendah; bandingkan biaya sebelum produk gabungan apa pun."
+        "id": "Asuransi itu melindungi tanggunganmu dengan biaya yang relatif rendah; bandingkan biayanya sebelum memilih produk gabungan apa pun."
        }
       }
      ],
@@ -48797,11 +48797,11 @@ window.MT_LMS['the-route'] = {
       "mode": "plan",
       "title": {
        "en": "Book your annual money review",
-       "id": "Pesan tinjauan keuangan tahunanmu"
+       "id": "Jadwalkan tinjauan keuangan tahunanmu"
       },
       "body": {
        "en": "Open the 90-day plan and add three items: your annual money review date, the money conversation from Drill 3, and the first action from your horizon map.",
-       "id": "Buka rencana 90 hari dan tambahkan tiga butir: tanggal tinjauan keuangan tahunanmu, percakapan uang dari Latihan 3, dan tindakan pertama dari peta cakrawalamu."
+       "id": "Buka rencana 90 hari dan tambahkan tiga hal: tanggal tinjauan keuangan tahunanmu, percakapan soal uang dari Latihan 3, dan tindakan pertama dari peta cakrawalamu."
       },
       "cta": {
        "en": "Open the 90-day plan",
@@ -48810,20 +48810,20 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "The goal of a financial plan is not an endless race. It is freedom, security, and knowing what is enough.",
-      "id": "Tujuan rencana keuangan bukan perlombaan tanpa akhir. Tujuannya kebebasan, rasa aman, dan mengetahui apa yang cukup."
+      "id": "Tujuan rencana keuangan bukan perlombaan tanpa akhir, melainkan kebebasan, rasa aman, dan tahu kapan sudah cukup."
      },
      "takeaways": [
       {
        "en": "Map milestones at 1, 5, 10 and 20+ years with dates, rough costs and buckets, and solve collisions early.",
-       "id": "Petakan tonggak di 1, 5, 10, dan 20+ tahun dengan tanggal, perkiraan biaya, dan pos, dan selesaikan tabrakan lebih awal."
+       "id": "Petakan tonggak di 1, 5, 10, dan 20+ tahun dengan tanggal, perkiraan biaya, dan posnya, lalu selesaikan tabrakan sejak awal."
       },
       {
        "en": "Approach housing, marriage and family support with numbers first and conversations second; protect the plan before the shock.",
-       "id": "Hadapi tempat tinggal, pernikahan, dan dukungan keluarga dengan angka dulu dan percakapan kemudian; lindungi rencana sebelum guncangan."
+       "id": "Hadapi soal tempat tinggal, pernikahan, dan membantu keluarga dengan angka lebih dulu dan percakapan sesudahnya; lindungi rencananya sebelum guncangan datang."
       },
       {
-       "en": "Review once a year, net worth, savings rate, goals, protection, next year’s settings, and decide what is enough.",
-       "id": "Tinjau setahun sekali, kekayaan bersih, tingkat tabungan, tujuan, perlindungan, pengaturan tahun depan, dan putuskan apa yang cukup."
+       "en": "Review once a year (net worth, savings rate, goals, protection, next year’s settings) and decide what is enough.",
+       "id": "Tinjau setahun sekali (kekayaan bersih, tingkat tabungan, tujuan, perlindungan, pengaturan tahun depan) dan putuskan apa yang cukup."
       }
      ],
      "resources": {
@@ -48833,7 +48833,7 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "Career Kit item (part 4): your long-range plan.",
-       "id": "Butir Career Kit (bagian 4): rencana jangka panjangmu."
+       "id": "Isi Perangkat Karier (bagian 4): rencana jangka panjangmu."
       },
       "items": [
        {
@@ -48848,16 +48848,16 @@ window.MT_LMS['the-route'] = {
         },
         "body": [
          {
-          "en": "M. Housel, <i>The Psychology of Money</i>: knowing what is enough. W. P. Bengen, “Determining Withdrawal Rates Using Historical Data” (1994), the origin of the four-per-cent illustration.",
-          "id": "M. Housel, <i>The Psychology of Money</i>: mengetahui apa yang cukup. W. P. Bengen, “Determining Withdrawal Rates Using Historical Data” (1994), asal ilustrasi empat persen."
+          "en": "M. Housel, <i>The Psychology of Money</i>: knowing what is enough. W. P. Bengen, “Determining Withdrawal Rates Using Historical Data” (1994): the origin of the four-per-cent illustration.",
+          "id": "M. Housel, <i>The Psychology of Money</i>: mengetahui kapan sudah cukup. W. P. Bengen, “Determining Withdrawal Rates Using Historical Data” (1994): asal ilustrasi empat persen."
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> Mortgage affordability criteria, marriage property agreements, JKP eligibility, and JHT/JP benefit rules are set by banks and regulation and change; check current official sources.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Kriteria kemampuan bayar KPR, perjanjian perkawinan tentang harta, syarat JKP, dan aturan manfaat JHT/JP ditetapkan bank dan regulasi serta berubah; periksa sumber resmi terkini."
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Kriteria kemampuan bayar KPR, perjanjian perkawinan soal harta, syarat JKP, dan aturan manfaat JHT/JP ditetapkan bank dan peraturan, dan bisa berubah; cek sumber resmi terbarunya."
          },
          {
           "en": "<span class=\"ev ev-contested\">Contested</span> Safe withdrawal rates and combined insurance-investment products are debated; this lesson gives course guidance, not personal advice. Consult licensed professionals for decisions.",
-          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Tingkat penarikan yang aman dan produk gabungan asuransi-investasi masih diperdebatkan; pelajaran ini memberi panduan kursus, bukan nasihat pribadi. Konsultasikan dengan profesional berizin untuk keputusan."
+          "id": "<span class=\"ev ev-contested\">Masih diperdebatkan</span> Tingkat penarikan yang aman dan produk gabungan asuransi-investasi masih diperdebatkan; pelajaran ini memberi panduan kursus, bukan nasihat pribadi. Konsultasikan dengan profesional berizin untuk keputusanmu."
          }
         ]
        },
@@ -48878,7 +48878,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "COLLISIONS: … → lever: move date / lower cost / raise monthly / drop goal · PROTECTION: health ☐ · life (if dependants) ☐ · records ☐ · beneficiaries ☐",
-          "id": "TABRAKAN: … → tuas: geser tanggal / turunkan biaya / naikkan bulanan / lepaskan tujuan · PERLINDUNGAN: kesehatan ☐ · jiwa (jika ada tanggungan) ☐ · catatan ☐ · ahli waris ☐"
+          "id": "TABRAKAN: … → pengungkit: geser tanggal / turunkan biaya / naikkan bulanan / coret tujuan · PERLINDUNGAN: kesehatan ☐ · jiwa (kalau ada tanggungan) ☐ · catatan ☐ · ahli waris ☐"
          }
         ]
        },
@@ -48895,10 +48895,10 @@ window.MT_LMS['the-route'] = {
         "body": [
          {
           "en": "NET WORTH: owned … − owed … = … (last year …) · SAVINGS RATE: …% · GOALS: on track … / behind … / dropped …",
-          "id": "KEKAYAAN BERSIH: dimiliki … − utang … = … (tahun lalu …) · TINGKAT TABUNGAN: …% · TUJUAN: sesuai jalur … / tertinggal … / dilepas …"
+          "id": "KEKAYAAN BERSIH: dimiliki … − diutang … = … (tahun lalu …) · TINGKAT TABUNGAN: …% · TUJUAN: sesuai jalur … / tertinggal … / dicoret …"
          },
          {
-          "en": "NEXT YEAR: transfer …% · holiday bonus/bonus split … · one habit … · WHAT IS ENOUGH (one sentence): …",
+          "en": "NEXT YEAR: transfer …% · THR/bonus split … · one habit … · WHAT IS ENOUGH (one sentence): …",
           "id": "TAHUN DEPAN: transfer …% · pembagian THR/bonus … · satu kebiasaan … · APA YANG CUKUP (satu kalimat): …"
          }
         ]
@@ -48912,32 +48912,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "60 min",
-      "id": "60 mnt"
+      "id": "60 menit"
      },
      "title": {
       "en": "Case Assignment: Nadia’s Financial Foundation Plan",
       "id": "Tugas Kasus: Rencana Fondasi Keuangan Nadia"
      },
      "overview": {
-      "en": "Three months into her credit-product role in Jakarta, Nadia earns more than ever and saves almost nothing. The kos, the commute, a phone on paylater, her father’s treatment, her brother’s tuition and a busy social calendar absorb the whole of her take-home pay. Her emergency fund covers under two months; five million rupiah sits in a friend’s “arisan investasi”; the wedding is eighteen months away; and a colleague is pitching a crypto robot that pays “4% a month”. In this case you audit her compensation, rebuild her savings architecture, handle the debt and the family line, set her investment orientation and horizon, and then build your own Financial Foundation Plan.",
-      "id": "Tiga bulan menjalani peran produk kredit di Jakarta, Nadia berpenghasilan lebih besar dari sebelumnya dan hampir tak menabung. Kos, perjalanan, ponsel paylater, pengobatan ayahnya, biaya kuliah adiknya, dan kalender sosial yang padat menyerap seluruh gaji bersihnya. Dana daruratnya kurang dari dua bulan; lima juta rupiah tersimpan di “arisan investasi” seorang teman; pernikahan delapan belas bulan lagi; dan seorang rekan menawarkan robot kripto yang membayar “4% sebulan”. Dalam kasus ini kamu mengaudit kompensasinya, membangun ulang arsitektur tabungannya, menangani utang dan pos keluarganya, menetapkan orientasi investasi dan cakrawalanya; lalu membangun Rencana Fondasi Keuanganmu sendiri."
+      "en": "Three months into her credit-product role in Jakarta, Nadia earns more than ever and saves almost nothing. The kos, the commute, a phone on paylater, her father’s treatment, her younger brother’s tuition and a busy social calendar absorb the whole of her take-home pay. Her emergency fund covers under two months; five million rupiah sits in a friend’s “arisan investasi”; the wedding is eighteen months away; and a colleague is pitching a crypto robot that pays “4% a month”. In this case you audit her compensation, rebuild her savings architecture, handle the debt and the family line, set her investment orientation and horizon, and then build your own Financial Foundation Plan.",
+      "id": "Tiga bulan setelah memegang peran produk kredit di Jakarta, penghasilan Nadia lebih besar daripada sebelumnya, tetapi ia nyaris tidak menabung. Kos, ongkos perjalanan, ponsel cicilan paylater, pengobatan ayahnya, biaya kuliah adik laki-lakinya, dan jadwal sosial yang padat menghabiskan seluruh gaji bersihnya. Dana daruratnya kurang dari dua bulan; lima juta rupiah tertahan di “arisan investasi” milik seorang teman; pernikahannya tinggal delapan belas bulan lagi; dan seorang rekan kerja sedang menawarkan robot kripto yang membayar “4% sebulan”. Dalam kasus ini kamu mengaudit kompensasinya, menyusun ulang arsitektur tabungannya, menangani utang dan pos keluarganya, menetapkan orientasi investasi dan cakrawalanya, lalu menyusun Rencana Fondasi Keuangan milikmu sendiri."
      },
      "objectives": [
       {
        "en": "Audit a real-looking compensation package and benchmark it.",
-       "id": "Mengaudit paket kompensasi yang realistis dan membandingkannya."
+       "id": "Mengaudit paket kompensasi yang mirip aslinya dan membandingkannya."
       },
       {
        "en": "Rebuild a savings system around fixed costs, buckets and automation.",
-       "id": "Membangun ulang sistem tabungan di sekitar biaya tetap, pos, dan otomatisasi."
+       "id": "Menyusun ulang sistem tabungan berdasarkan biaya tetap, pos-pos, dan otomatisasi."
       },
       {
        "en": "Handle costly debt, a suspicious scheme and a family line fairly.",
-       "id": "Menangani utang mahal, skema mencurigakan, dan pos keluarga dengan adil."
+       "id": "Menangani utang mahal, skema yang mencurigakan, dan pos keluarga dengan adil."
       },
       {
        "en": "Set an investment orientation and a horizon map with protection.",
-       "id": "Menetapkan orientasi investasi dan peta cakrawala dengan perlindungan."
+       "id": "Menetapkan orientasi investasi dan peta cakrawala lengkap dengan perlindungannya."
       }
      ],
      "readFirst": {
@@ -48957,32 +48957,32 @@ window.MT_LMS['the-route'] = {
        "story": [
         {
          "en": "Read like a planner: income is not the problem; find the fixed costs, the leaks and the risks",
-         "id": "Baca seperti perencana: penghasilan bukan masalahnya; temukan biaya tetap, kebocoran, dan risikonya"
+         "id": "Membaca seperti perencana keuangan: penghasilan bukan masalahnya; temukan biaya tetap, kebocoran, dan risikonya"
         },
         {
          "en": "Then build your own Financial Foundation Plan: the transfer, the buckets, the shape, the protections",
-         "id": "Lalu bangun Rencana Fondasi Keuanganmu sendiri: transfer, pos, bentuk, perlindungan"
+         "id": "Lalu susun Rencana Fondasi Keuangan milikmu sendiri: transfernya, pos-posnya, bentuk anggarannya, perlindungannya"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Read like a planner",
-          "id": "Baca seperti perencana"
+          "id": "Membaca seperti perencana keuangan"
          },
          "p": {
           "en": "Education, not financial advice: the case teaches a method, and every rate in it is illustrative.",
-          "id": "Edukasi, bukan nasihat keuangan: kasus ini mengajarkan metode, dan setiap tarif di dalamnya ilustratif."
+          "id": "Edukasi, bukan nasihat keuangan: kasus ini mengajarkan metode, dan setiap angka di dalamnya hanya ilustrasi."
          }
         },
         {
          "h": {
           "en": "Then build your own",
-          "id": "Lalu bangun milikmu"
+          "id": "Lalu susun milikmu sendiri"
          },
          "p": {
           "en": "Compare, do not copy: Nadia’s figures are fictional; yours are real, and the method is the same.",
-          "id": "Bandingkan, jangan salin: angka Nadia fiktif; milikmu nyata, dan metodenya sama."
+          "id": "Bandingkan, jangan menyalin: angka Nadia fiktif, angkamu nyata, dan metodenya sama."
          }
         }
        ],
@@ -48991,7 +48991,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Read like a planner: income is not the problem; find the fixed costs, the leaks and the risks",
-          "id": "Baca seperti perencana: penghasilan bukan masalahnya; temukan biaya tetap, kebocoran, dan risikonya"
+          "id": "Membaca seperti perencana keuangan: penghasilan bukan masalahnya; temukan biaya tetap, kebocoran, dan risikonya"
          },
          "img": "../../assets/bg/negotiation.jpg",
          "layout": "list",
@@ -49008,7 +49008,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "refresh",
            "en": "Paylater, subscriptions, the social calendar: what leaves without a decision",
-           "id": "Paylater, langganan, kalender sosial: yang pergi tanpa keputusan",
+           "id": "Paylater, langganan, jadwal sosial: yang keluar tanpa keputusan",
            "l": {
             "en": "Leaks",
             "id": "Kebocoran"
@@ -49017,7 +49017,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "warn",
            "en": "No emergency fund, a costly loan, an offer in the messages that fails the legal-and-logical test",
-           "id": "Tanpa dana darurat, pinjaman mahal, tawaran di pesan yang gagal uji legal dan logis",
+           "id": "Tanpa dana darurat, pinjaman mahal, dan tawaran di pesan masuk yang gagal di tes legal dan logis",
            "l": {
             "en": "Risks",
             "id": "Risiko"
@@ -49026,11 +49026,11 @@ window.MT_LMS['the-route'] = {
          ],
          "sub": {
           "en": "Four tabs: the payslip and package, one month of spending, balances and goals, and messages. All figures are fictional; the method is what transfers.",
-          "id": "Empat tab: slip gaji dan paket, satu bulan pengeluaran, saldo dan tujuan, dan pesan. Semua angka fiktif; metodenya yang dibawa."
+          "id": "Empat tab: slip gaji dan paketnya, pengeluaran sebulan, saldo dan tujuan, serta pesan-pesan. Semua angkanya fiktif; yang bisa dibawa pulang adalah metodenya."
          },
          "band": {
           "en": "Education, not financial advice: the case teaches a method, and every rate in it is illustrative.",
-          "id": "Edukasi, bukan nasihat keuangan: kasus ini mengajarkan metode, dan setiap tarif di dalamnya ilustratif."
+          "id": "Edukasi, bukan nasihat keuangan: kasus ini mengajarkan metode, dan setiap angka di dalamnya hanya ilustrasi."
          },
          "em": {
           "en": "income is not the problem",
@@ -49041,7 +49041,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Then build your own Financial Foundation Plan: the transfer, the buckets, the shape, the protections",
-          "id": "Lalu bangun Rencana Fondasi Keuanganmu sendiri: transfer, pos, bentuk, perlindungan"
+          "id": "Lalu susun Rencana Fondasi Keuangan milikmu sendiri: transfernya, pos-posnya, bentuk anggarannya, perlindungannya"
          },
          "img": "../../assets/bg/early-professional.jpg",
          "layout": "list",
@@ -49049,7 +49049,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "calc",
            "en": "Your total compensation annualised, and where it sits against a benchmark",
-           "id": "Total kompensasimu disetahunkan, dan posisinya terhadap pembanding",
+           "id": "Total kompensasimu dalam setahun, dan posisinya dibanding pembanding",
            "l": {
             "en": "The number",
             "id": "Angkanya"
@@ -49058,7 +49058,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "refresh",
            "en": "The payday transfer, the named buckets, the family line",
-           "id": "Transfer hari gajian, pos bernama, pos keluarga",
+           "id": "Transfer di hari gajian, pos-pos bernama, pos keluarga",
            "l": {
             "en": "The system",
             "id": "Sistemnya"
@@ -49067,16 +49067,16 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "grid",
            "en": "Needs, wants, savings and giving, with the raise firewall set",
-           "id": "Kebutuhan, keinginan, tabungan, dan memberi, dengan benteng kenaikan terpasang",
+           "id": "Kebutuhan, keinginan, tabungan, dan berbagi, dengan tembok kenaikan gaji yang sudah dipasang",
            "l": {
             "en": "The shape",
-            "id": "Bentuknya"
+            "id": "Bentuk anggarannya"
            }
           },
           {
            "icon": "shield",
            "en": "Health, income, dependants, records, and the horizon map",
-           "id": "Kesehatan, penghasilan, tanggungan, catatan, dan peta cakrawala",
+           "id": "Kesehatan, penghasilan, tanggungan, catatan, dan peta cakrawalanya",
            "l": {
             "en": "The protection",
             "id": "Perlindungannya"
@@ -49085,15 +49085,15 @@ window.MT_LMS['the-route'] = {
          ],
          "sub": {
           "en": "Step 5 is your own plan. Model notes open after you submit.",
-          "id": "Langkah 5 adalah rencanamu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+          "id": "Langkah 5 adalah rencanamu sendiri. Catatan model terbuka setelah kamu mengirim jawaban."
          },
          "band": {
           "en": "Compare, do not copy: Nadia’s figures are fictional; yours are real, and the method is the same.",
-          "id": "Bandingkan, jangan salin: angka Nadia fiktif; milikmu nyata, dan metodenya sama."
+          "id": "Bandingkan, jangan menyalin: angka Nadia fiktif, angkamu nyata, dan metodenya sama."
          },
          "em": {
           "en": "your own Financial Foundation Plan",
-          "id": "Rencana Fondasi Keuanganmu sendiri"
+          "id": "Rencana Fondasi Keuangan milikmu sendiri"
          }
         }
        ],
@@ -49108,22 +49108,22 @@ window.MT_LMS['the-route'] = {
       },
       "title": {
        "en": "A good salary with no system",
-       "id": "Gaji yang baik tanpa sistem"
+       "id": "Gaji yang bagus tanpa sistem"
       },
       "intro": {
        "en": "Five steps, six written answers. The case file has four tabs: the payslip and package, one month of spending, balances and goals, and messages. All figures are fictional and rates illustrative; the method is what transfers.",
-       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: slip gaji dan paket, pengeluaran sebulan, saldo dan tujuan, dan pesan-pesan. Semua angka fiktif dan tarifnya ilustratif, metodenya yang bisa dibawa."
+       "id": "Ada lima langkah dan enam jawaban tertulis. Berkas kasusnya punya empat tab: slip gaji dan paketnya, pengeluaran sebulan, saldo dan tujuan, serta pesan-pesan. Semua angkanya fiktif dan tarifnya hanya ilustrasi; yang bisa dibawa pulang adalah metodenya."
       },
       "slides": [
        {
         "h": {
          "en": "Read like a planner",
-         "id": "Baca seperti perencana"
+         "id": "Membaca seperti perencana keuangan"
         },
         "points": [
          {
           "en": "Income is not the problem. Find the fixed costs, the leaks and the risks.",
-          "id": "Penghasilannya bukan masalah. Temukan biaya tetap, kebocoran, dan risikonya."
+          "id": "Penghasilan bukan masalahnya. Temukan biaya tetap, kebocoran, dan risikonya."
          },
          {
           "en": "Education, not financial advice.",
@@ -49134,12 +49134,12 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Then build your own",
-         "id": "Lalu bangun milikmu"
+         "id": "Lalu susun milikmu sendiri"
         },
         "points": [
          {
           "en": "Step 5 is your own Financial Foundation Plan. Model notes open after you submit.",
-          "id": "Langkah 5 adalah Rencana Fondasi Keuanganmu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+          "id": "Langkah 5 adalah Rencana Fondasi Keuangan milikmu sendiri. Catatan model terbuka setelah kamu mengirim jawaban."
          }
         ]
        }
@@ -49158,7 +49158,7 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "Fictional numbers, a real kind of month. Turn a good salary into a system that protects her family, her wedding and her next career move.",
-       "id": "Angka fiktif, jenis bulan yang nyata. Ubah gaji yang baik menjadi sistem yang melindungi keluarganya, pernikahannya, dan langkah karier berikutnya."
+       "id": "Angkanya fiktif, tetapi bulan seperti ini nyata. Ubah gaji yang bagus menjadi sistem yang melindungi keluarganya, pernikahannya, dan langkah karier berikutnya."
       },
       "practice": [
        {
@@ -49184,7 +49184,7 @@ window.MT_LMS['the-route'] = {
       ],
       "goal": {
        "en": "A one-page plan Nadia could set up this payday, and the same plan for your own money.",
-       "id": "Rencana satu halaman yang bisa Nadia pasang di gajian ini, dan rencana yang sama untuk uangmu sendiri."
+       "id": "Rencana satu halaman yang bisa dipasang Nadia di hari gajian ini, ditambah rencana yang sama untuk uangmu sendiri."
       },
       "brief": {
        "email": {
@@ -49203,42 +49203,42 @@ window.MT_LMS['the-route'] = {
         },
         "subject": {
          "en": "Nadia earns more than ever and saves nothing",
-         "id": "Nadia berpenghasilan lebih dari sebelumnya dan tak menabung apa pun"
+         "id": "Penghasilan Nadia lebih besar dari sebelumnya, tetapi ia tidak menabung sama sekali"
         },
         "paragraphs": [
          {
           "en": "Nadia sent me her payslip, her bank statement and a list of balances, a little embarrassed. The move to Jakarta went well at work; financially, every rupiah is spoken for by the 20th. She wants a system before the wedding planning starts in earnest, and before she says yes to anything else.",
-          "id": "Nadia mengirimi saya slip gaji, mutasi rekening, dan daftar saldonya, dengan sedikit malu. Kepindahan ke Jakarta berjalan baik di pekerjaan; secara keuangan, setiap rupiah sudah terpakai sebelum tanggal 20. Ia ingin punya sistem sebelum persiapan pernikahan dimulai sungguh-sungguh, dan sebelum mengiyakan hal lain lagi."
+          "id": "Nadia mengirimi saya slip gaji, mutasi rekening, dan daftar saldonya, dengan sedikit malu. Kepindahan ke Jakarta berjalan baik di pekerjaan; secara keuangan, setiap rupiah sudah habis teralokasi sebelum tanggal 20. Ia ingin punya sistem sebelum persiapan pernikahan benar-benar dimulai, dan sebelum ia mengiyakan apa pun lagi."
          },
          {
           "en": "Please be practical and kind. Her family obligations are not a mistake to be corrected; they are part of the plan. Everything here is education, not financial advice, and the numbers are hers to adjust.",
-          "id": "Mohon praktis dan penuh pengertian. Kewajiban keluarganya bukan kesalahan yang harus dikoreksi; itu bagian dari rencana. Semua ini edukasi, bukan nasihat keuangan, dan angkanya bisa ia sesuaikan."
+          "id": "Tolong praktis dan berempati. Kewajiban keluarganya bukan kesalahan yang perlu dikoreksi; kewajiban itu bagian dari rencananya. Semua yang ada di sini adalah edukasi, bukan nasihat keuangan, dan angkanya boleh ia sesuaikan."
          },
          {
           "en": "Then build your own plan; it is the eighth page of your Career Kit.",
-          "id": "Lalu bangun rencanamu sendiri; itu halaman kedelapan Career Kit-mu."
+          "id": "Setelah itu, susun rencanamu sendiri, karena itulah halaman kedelapan Perangkat Karier-mu."
          }
         ],
         "asks": [
          {
           "en": "Her total compensation, a payslip check and a benchmark",
-          "id": "Total kompensasinya, cek slip gaji, dan pembanding"
+          "id": "Total kompensasinya, cek slip gaji, dan pembandingnya"
          },
          {
           "en": "A savings architecture with monthly amounts",
-          "id": "Arsitektur tabungan dengan jumlah bulanan"
+          "id": "Arsitektur tabungan lengkap dengan jumlah bulanannya"
          },
          {
           "en": "The paylater, the “arisan investasi” and the family line",
-          "id": "Paylater, “arisan investasi”, dan pos keluarga"
+          "id": "Paylater, “arisan investasi”, dan pos keluarganya"
          },
          {
           "en": "Investment orientation, horizon map and protection",
-          "id": "Orientasi investasi, peta cakrawala, dan perlindungan"
+          "id": "Orientasi investasi, peta cakrawala, dan perlindungannya"
          },
          {
           "en": "Your own Financial Foundation Plan",
-          "id": "Rencana Fondasi Keuanganmu sendiri"
+          "id": "Rencana Fondasi Keuangan milikmu sendiri"
          }
         ],
         "closing": [
@@ -49268,7 +49268,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "left at month-end after spending; nothing is moved to savings automatically",
-          "id": "tersisa di akhir bulan setelah belanja; tak ada yang dipindahkan otomatis ke tabungan"
+          "id": "sisa di akhir bulan setelah belanja; tidak ada yang dipindahkan ke tabungan secara otomatis"
          },
          "hot": true
         },
@@ -49291,8 +49291,8 @@ window.MT_LMS['the-route'] = {
           "id": "Rp 4 juta"
          },
          "v": {
-          "en": "a month to family: her father’s treatment and her brother’s tuition",
-          "id": "sebulan untuk keluarga: pengobatan ayahnya dan biaya kuliah adiknya"
+          "en": "a month to family: her father’s treatment and her younger brother’s tuition",
+          "id": "sebulan untuk keluarga: pengobatan ayahnya dan biaya kuliah adik laki-lakinya"
          }
         },
         {
@@ -49314,7 +49314,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "a colleague’s crypto-robot pitch; Rp 5 juta already in a friend’s “arisan investasi”",
-          "id": "tawaran robot kripto dari rekan; Rp 5 juta sudah di “arisan investasi” seorang teman"
+          "id": "tawaran robot kripto dari seorang rekan kerja; Rp 5 juta sudah tertanam di “arisan investasi” milik seorang teman"
          },
          "hot": true
         }
@@ -49323,15 +49323,15 @@ window.MT_LMS['the-route'] = {
         {
          "tab": {
           "en": "Payslip and package",
-          "id": "Slip gaji dan paket"
+          "id": "Slip gaji dan paketnya"
          },
          "title": {
           "en": "Monthly payslip and annual items",
-          "id": "Slip gaji bulanan dan butir tahunan"
+          "id": "Slip gaji bulanan dan komponen tahunan"
          },
          "meta": {
           "en": "Fictional; contribution and tax lines are illustrative, verify current rates",
-          "id": "Fiktif; baris iuran dan pajak ilustratif, verifikasi tarif terkini"
+          "id": "Fiktif; baris iuran dan pajaknya hanya ilustrasi; periksa tarif terbarunya"
          },
          "body": [
           {
@@ -49348,37 +49348,37 @@ window.MT_LMS['the-route'] = {
             },
             {
              "en": "Transport and meal allowance (per day worked) about Rp 1,100,000",
-             "id": "Tunjangan transport dan makan (per hari kerja) sekitar Rp 1.100.000"
+             "id": "Uang transpor dan makan (per hari kerja) sekitar Rp 1.100.000"
             },
             {
-             "en": "Deductions: public health insurance, JHT, JP and PPh 21, about Rp 1,380,000 in total · take-home about Rp 15,220,000",
+             "en": "Deductions: BPJS Kesehatan, JHT, JP and PPh 21, about Rp 1,380,000 in total · take-home about Rp 15,220,000",
              "id": "Potongan: BPJS Kesehatan, JHT, JP, dan PPh 21, total sekitar Rp 1.380.000 · gaji bersih sekitar Rp 15.220.000"
             },
             {
              "en": "Note: the Jakarta location allowance is listed under “tunjangan tidak tetap” on the payslip, although the transfer letter calls it a fixed monthly allowance",
-             "id": "Catatan: tunjangan lokasi Jakarta tercantum di bawah “tunjangan tidak tetap” di slip gaji, padahal surat mutasi menyebutnya tunjangan bulanan tetap"
+             "id": "Catatan: tunjangan lokasi Jakarta tercantum sebagai “tunjangan tidak tetap” di slip gaji, padahal surat mutasinya menyebutnya tunjangan bulanan tetap"
             }
            ]
           },
           {
            "h": {
             "en": "Annual and employer-paid",
-            "id": "Tahunan dan dibayar pemberi kerja"
+            "id": "Tahunan dan yang dibayar pemberi kerja"
            }
           },
           {
            "items": [
             {
-             "en": "holiday bonus: one month’s wage, paid before the holiday · bonus: discretionary; last year 1.5 × base",
+             "en": "THR: one month’s wage, paid before the holiday · bonus: discretionary; last year 1.5 × base",
              "id": "THR: satu bulan upah, dibayar sebelum hari raya · bonus: diskresioner; tahun lalu 1,5 × gaji pokok"
             },
             {
-             "en": "Employer statutory social insurance contributions about Rp 1,300,000 a month · group health insurance worth about Rp 6,000,000 a year",
-             "id": "Iuran BPJS pemberi kerja sekitar Rp 1.300.000 sebulan · asuransi kesehatan kelompok senilai sekitar Rp 6.000.000 setahun"
+             "en": "Employer BPJS contributions about Rp 1,300,000 a month · group health insurance worth about Rp 6,000,000 a year",
+             "id": "Iuran BPJS dari pemberi kerja sekitar Rp 1.300.000 sebulan · asuransi kesehatan kumpulan senilai sekitar Rp 6.000.000 setahun"
             },
             {
-             "en": "statutory social insurance app: JP contribution missing for her first month in Jakarta (unit transfer)",
-             "id": "Aplikasi BPJS: iuran JP tidak tercatat untuk bulan pertamanya di Jakarta (mutasi unit)"
+             "en": "BPJS app: JP contribution missing for her first month in Jakarta (unit transfer)",
+             "id": "Aplikasi BPJS: iuran JP bulan pertamanya di Jakarta tidak tercatat (mutasi unit)"
             }
            ]
           },
@@ -49392,7 +49392,7 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "Credit-product analyst, bank, Jakarta, 4–5 years’ experience, total compensation ranges: Rp 210–290 juta; Rp 230–300 juta; Rp 220–280 juta. Inflation last year about 3% (to verify).",
-             "id": "Analis produk kredit, bank, Jakarta, pengalaman 4–5 tahun, rentang total kompensasi: Rp 210–290 juta; Rp 230–300 juta; Rp 220–280 juta. Inflasi tahun lalu sekitar 3% (perlu diverifikasi)."
+             "id": "Analis produk kredit, bank, Jakarta, pengalaman 4–5 tahun, rentang total kompensasi: Rp 210–290 juta; Rp 230–300 juta; Rp 220–280 juta. Inflasi tahun lalu sekitar 3% (perlu dicek)."
             }
            ]
           }
@@ -49405,7 +49405,7 @@ window.MT_LMS['the-route'] = {
          },
          "title": {
           "en": "From her bank and e-wallet statements",
-          "id": "Dari mutasi bank dan dompet digitalnya"
+          "id": "Dari mutasi rekening dan riwayat dompet digitalnya"
          },
          "meta": {
           "en": "Last month, rounded",
@@ -49416,19 +49416,19 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "Kos near the office Rp 3,500,000 · food Rp 3,000,000 · transport Rp 800,000 · phone and internet Rp 400,000",
-             "id": "Kos dekat kantor Rp 3.500.000 · makan Rp 3.000.000 · transport Rp 800.000 · ponsel dan internet Rp 400.000"
+             "id": "Kos dekat kantor Rp 3.500.000 · makan Rp 3.000.000 · transpor Rp 800.000 · ponsel dan internet Rp 400.000"
             },
             {
-             "en": "To her mother for her father’s treatment Rp 2,500,000 · her brother’s tuition (spread monthly) Rp 1,500,000",
-             "id": "Ke ibunya untuk pengobatan ayahnya Rp 2.500.000 · biaya kuliah adiknya (dicicil bulanan) Rp 1.500.000"
+             "en": "To her mother for her father’s treatment Rp 2,500,000 · her younger brother’s tuition (spread monthly) Rp 1,500,000",
+             "id": "Untuk ibunya, biaya pengobatan ayahnya Rp 2.500.000 · biaya kuliah adik laki-lakinya (dicicil bulanan) Rp 1.500.000"
             },
             {
              "en": "Paylater instalment for her phone Rp 900,000 (4 months left; fees make the effective annual cost high)",
-             "id": "Cicilan paylater ponsel Rp 900.000 (tersisa 4 bulan; biayanya membuat biaya tahunan efektif tinggi)"
+             "id": "Cicilan paylater untuk ponselnya Rp 900.000 (tersisa 4 bulan; biaya-biayanya membuat biaya tahunan efektifnya tinggi)"
             },
             {
              "en": "Social: two wedding gifts, office arisan, team dinners Rp 1,200,000 · subscriptions Rp 300,000 · other Rp 800,000",
-             "id": "Sosial: dua amplop pernikahan, arisan kantor, makan malam tim Rp 1.200.000 · langganan Rp 300.000 · lain-lain Rp 800.000"
+             "id": "Sosial: dua amplop kondangan, arisan kantor, makan malam tim Rp 1.200.000 · langganan Rp 300.000 · lain-lain Rp 800.000"
             },
             {
              "en": "Total about Rp 14,900,000",
@@ -49456,19 +49456,19 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "Savings account Rp 22,000,000 · JHT balance about Rp 18,000,000 · Rp 5,000,000 in a friend’s “arisan investasi” promising 3% a month (paid twice, then “delayed”)",
-             "id": "Rekening tabungan Rp 22.000.000 · saldo JHT sekitar Rp 18.000.000 · Rp 5.000.000 di “arisan investasi” teman yang menjanjikan 3% sebulan (dibayar dua kali, lalu “tertunda”)"
+             "id": "Rekening tabungan Rp 22.000.000 · saldo JHT sekitar Rp 18.000.000 · Rp 5.000.000 di “arisan investasi” milik seorang teman yang menjanjikan 3% sebulan (dibayar dua kali, lalu “tertunda”)"
             },
             {
              "en": "Wedding in 18 months with Bima, her share about Rp 60,000,000 · home deposit in about 4 years, joint target to be agreed",
-             "id": "Pernikahan 18 bulan lagi dengan Bima, bagiannya sekitar Rp 60.000.000 · uang muka rumah sekitar 4 tahun lagi, target bersama belum disepakati"
+             "id": "Menikah dengan Bima 18 bulan lagi, bagiannya sekitar Rp 60.000.000 · uang muka rumah sekitar 4 tahun lagi, target bersama belum disepakati"
             },
             {
              "en": "Her older brother, Mas Ardi, works in Surabaya and does not currently contribute to their father’s treatment; they have never discussed it",
-             "id": "Kakaknya, Mas Ardi, bekerja di Surabaya dan saat ini tidak ikut membiayai pengobatan ayah mereka; mereka belum pernah membicarakannya"
+             "id": "Kakak laki-lakinya, Mas Ardi, bekerja di Surabaya dan saat ini tidak ikut membiayai pengobatan ayah mereka; mereka belum pernah membicarakannya"
             },
             {
-             "en": "Protection: public health insurance and group health insurance; no life cover; her father relies partly on her support",
-             "id": "Perlindungan: BPJS Kesehatan dan asuransi kesehatan kelompok; tanpa asuransi jiwa; ayahnya sebagian bergantung pada dukungannya"
+             "en": "Protection: BPJS Kesehatan and group health insurance; no life cover; her father relies partly on her support",
+             "id": "Perlindungan: BPJS Kesehatan dan asuransi kesehatan kumpulan; tanpa asuransi jiwa; ayahnya sebagian bergantung pada bantuannya"
             }
            ]
           }
@@ -49491,7 +49491,7 @@ window.MT_LMS['the-route'] = {
           {
            "h": {
             "en": "Colleague · WhatsApp",
-            "id": "Rekan · WhatsApp"
+            "id": "Rekan kerja · WhatsApp"
            }
           },
           {
@@ -49531,8 +49531,8 @@ window.MT_LMS['the-route'] = {
          "id": "Gaji"
         },
         "guide": {
-         "en": "Lesson 8.1. Calculate Nadia’s approximate annual total compensation from the package tab, showing each component. Identify anything on the payslip or in the statutory social insurance app worth raising with HR, and write the request. Then place her in the benchmark range and calculate her real raise if her pay rose 7% with the move and inflation was about 3%.",
-         "id": "Pelajaran 8.1. Hitung perkiraan total kompensasi tahunan Nadia dari tab paket, dengan setiap komponennya. Temukan apa pun di slip gaji atau aplikasi BPJS yang layak disampaikan ke HR, dan tulis permintaannya. Lalu tempatkan ia di rentang pembanding dan hitung kenaikan riilnya jika gajinya naik 7% bersama kepindahan dan inflasi sekitar 3%."
+         "en": "Lesson 8.1. Calculate Nadia’s approximate annual total compensation from the package tab, showing each component. Identify anything on the payslip or in the BPJS app worth raising with HR, and write the request. Then place her in the benchmark range and calculate her real raise if her pay rose 7% with the move and inflation was about 3%.",
+         "id": "Pelajaran 8.1. Hitung perkiraan total kompensasi tahunan Nadia dari tab paketnya, dengan menunjukkan setiap komponennya. Temukan apa pun di slip gaji atau aplikasi BPJS yang layak disampaikan kepada HR, lalu tulis permintaannya. Setelah itu tempatkan posisinya dalam rentang pembanding dan hitung kenaikan riilnya kalau gajinya naik 7% karena pindah dan inflasinya sekitar 3%."
         },
         "questions": [
          {
@@ -49541,15 +49541,15 @@ window.MT_LMS['the-route'] = {
           "rows": 11,
           "title": {
            "en": "Annual total, payslip issues, benchmark and real raise",
-           "id": "Total tahunan, masalah slip gaji, pembanding, dan kenaikan riil"
+           "id": "Total setahun, masalah slip gaji, pembanding, dan kenaikan riil"
           },
           "help": {
-           "en": "Roughly: 12 × fixed monthly pay, non-fixed allowances, holiday bonus, a bonus marked uncertain, employer statutory social insurance, insurance. The allowance classification matters because it may affect what counts as “wage” for holiday bonus; verify. The missing JP month is a simple administrative fix.",
-           "id": "Kira-kira: 12 × gaji tetap bulanan, tunjangan tidak tetap, THR, bonus yang ditandai belum pasti, BPJS pemberi kerja, asuransi. Klasifikasi tunjangan penting karena bisa memengaruhi apa yang dihitung sebagai “upah” untuk THR; verifikasi. Bulan JP yang hilang adalah perbaikan administratif sederhana."
+           "en": "Roughly: 12 × fixed monthly pay, non-fixed allowances, THR, a bonus marked uncertain, employer BPJS, insurance. The allowance classification matters because it may affect what counts as “wage” for THR; verify. The missing JP month is a simple administrative fix.",
+           "id": "Kira-kira: 12 × gaji bulanan tetap, tunjangan tidak tetap, THR, bonus yang ditandai belum pasti, iuran BPJS dari pemberi kerja, asuransi. Klasifikasi tunjangan itu penting karena bisa memengaruhi apa yang dihitung sebagai “upah” untuk THR; periksa. Iuran JP satu bulan yang tidak tercatat adalah urusan administratif yang mudah dibereskan."
           },
           "placeholder": {
-           "en": "Annual: 12 × … = … · non-fixed … · holiday bonus … · bonus (uncertain) … · employer statutory social insurance … · insurance … · TOTAL ≈ …\nPayslip issues: 1 … 2 … · Request to HR: “…”\nBenchmark: sources … → position … · Real raise: …",
-           "id": "Tahunan: 12 × … = … · tidak tetap … · THR … · bonus (belum pasti) … · BPJS pemberi kerja … · asuransi … · TOTAL ≈ …\nMasalah slip: 1 … 2 … · Permintaan ke HR: “…”\nPembanding: sumber … → posisi … · Kenaikan riil: …"
+           "en": "Annual: 12 × … = … · non-fixed … · THR … · bonus (uncertain) … · employer BPJS … · insurance … · TOTAL ≈ …\nPayslip issues: 1 … 2 … · Request to HR: “…”\nBenchmark: sources … → position … · Real raise: …",
+           "id": "Setahun: 12 × … = … · tidak tetap … · THR … · bonus (belum pasti) … · BPJS dari pemberi kerja … · asuransi … · TOTAL ≈ …\nMasalah slip gaji: 1 … 2 … · Permintaan ke HR: “…”\nPembanding: sumber … → posisi … · Kenaikan riil: …"
           },
           "keywords": [
            [
@@ -49601,8 +49601,8 @@ window.MT_LMS['the-route'] = {
          "id": "Tabungan"
         },
         "guide": {
-         "en": "Lesson 8.2. Redesign Nadia’s month: which costs are fixed and which can change, and which one or two changes free the most money? Set a payday transfer and name the buckets, emergency fund (target and months to reach it), wedding fund, family line, with monthly amounts that add up to her take-home. Decide in advance how holiday bonus and the bonus will be split.",
-         "id": "Pelajaran 8.2. Rancang ulang bulan Nadia: biaya mana yang tetap dan mana yang bisa berubah, dan satu atau dua perubahan mana yang membebaskan uang paling banyak? Tetapkan transfer hari gajian dan beri nama pos-posnya, dana darurat (target dan berapa bulan untuk mencapainya), dana pernikahan, pos keluarga, dengan jumlah bulanan yang totalnya sama dengan gaji bersihnya. Putuskan lebih dulu bagaimana THR dan bonus dibagi."
+         "en": "Lesson 8.2. Redesign Nadia’s month: which costs are fixed and which can change, and which one or two changes free the most money? Set a payday transfer and name the buckets (emergency fund with target and months to reach it, wedding fund, family line), with monthly amounts that add up to her take-home. Decide in advance how THR and the bonus will be split.",
+         "id": "Pelajaran 8.2. Rancang ulang bulan Nadia: biaya mana yang tetap dan mana yang bisa berubah, dan satu atau dua perubahan mana yang paling banyak membebaskan uang? Pasang transfer di hari gajian dan beri nama pos-posnya (dana darurat dengan target dan berapa bulan sampai tercapai, dana pernikahan, pos keluarga), dengan jumlah bulanan yang totalnya sama dengan gaji bersihnya. Putuskan sejak awal bagaimana THR dan bonus akan dibagi."
         },
         "questions": [
          {
@@ -49610,16 +49610,16 @@ window.MT_LMS['the-route'] = {
           "min": 110,
           "rows": 13,
           "title": {
-           "en": "Fixed costs, the transfer, buckets with amounts, holiday bonus and bonus split",
-           "id": "Biaya tetap, transfer, pos dengan jumlah, pembagian THR dan bonus"
+           "en": "Fixed costs, the transfer, buckets with amounts, THR and bonus split",
+           "id": "Biaya tetap, transfernya, pos-pos beserta jumlahnya, pembagian THR dan bonus"
           },
           "help": {
-           "en": "Essentials are about Rp 12.6 juta, so six months is about Rp 75 juta. The paylater ends in four months and frees Rp 900,000. Rp 60 juta in 18 months is about Rp 3.3 juta a month, likely not possible from the monthly system alone; holiday bonus and bonus matter here.",
-           "id": "Kebutuhan pokok sekitar Rp 12,6 juta, jadi enam bulan sekitar Rp 75 juta. Paylater selesai empat bulan lagi dan membebaskan Rp 900.000. Rp 60 juta dalam 18 bulan sekitar Rp 3,3 juta sebulan, kemungkinan tak mungkin dari sistem bulanan saja; THR dan bonus penting di sini."
+           "en": "Essentials are about Rp 12.6 juta, so six months is about Rp 75 juta. The paylater ends in four months and frees Rp 900,000. Rp 60 juta in 18 months is about Rp 3.3 juta a month, likely not possible from the monthly system alone; THR and bonus matter here.",
+           "id": "Kebutuhan pokoknya sekitar Rp 12,6 juta, jadi enam bulan sekitar Rp 75 juta. Paylater berakhir empat bulan lagi dan membebaskan Rp 900.000. Rp 60 juta dalam 18 bulan berarti sekitar Rp 3,3 juta sebulan, yang kemungkinan tidak bisa dipenuhi dari sistem bulanan saja; THR dan bonus berperan penting di sini."
           },
           "placeholder": {
            "en": "Fixed: … · Flexible: … · Changes: 1 … frees … 2 … frees …\nTransfer on …: … → emergency (target … ; months …) · wedding … · family line … · spending …\nTHR split: … · Bonus split: …",
-           "id": "Tetap: … · Fleksibel: … · Perubahan: 1 … membebaskan … 2 … membebaskan …\nTransfer tanggal …: … → darurat (target … ; bulan …) · pernikahan … · pos keluarga … · belanja …\nPembagian THR: … · Pembagian bonus: …"
+           "id": "Tetap: … · Fleksibel: … · Perubahan: 1 … membebaskan … 2 … membebaskan …\nTransfer tanggal …: … → darurat (target … ; berapa bulan …) · pernikahan … · pos keluarga … · belanja …\nPembagian THR: … · Pembagian bonus: …"
           },
           "keywords": [
            [
@@ -49670,8 +49670,8 @@ window.MT_LMS['the-route'] = {
          "id": "Risiko"
         },
         "guide": {
-         "en": "Lessons 8.2 and 8.3. Decide what to do about the paylater balance. Run the “arisan investasi” and the crypto robot through the legal-and-logical test, convert their promised returns to yearly figures, and write Nadia’s reply to her colleague and her plan for the Rp 5 juta. Then look at the family line: is Rp 4 juta sustainable, and what conversation, with Mas Ardi, and with Bima, would make it fairer and clearer?",
-         "id": "Pelajaran 8.2 dan 8.3. Putuskan apa yang dilakukan dengan saldo paylater. Jalankan “arisan investasi” dan robot kripto melalui uji legal dan logis, ubah imbal yang dijanjikan menjadi angka tahunan, dan tulis balasan Nadia untuk rekannya serta rencananya untuk Rp 5 juta itu. Lalu lihat pos keluarganya: apakah Rp 4 juta berkelanjutan, dan percakapan apa, dengan Mas Ardi, dan dengan Bima, yang membuatnya lebih adil dan jelas?"
+         "en": "Lessons 8.2 and 8.3. Decide what to do about the paylater balance. Run the “arisan investasi” and the crypto robot through the legal-and-logical test, convert their promised returns to yearly figures, and write Nadia’s reply to her colleague and her plan for the Rp 5 juta. Then look at the family line: is Rp 4 juta sustainable, and what conversation (with Mas Ardi, and with Bima) would make it fairer and clearer?",
+         "id": "Pelajaran 8.2 dan 8.3. Putuskan apa yang dilakukan dengan sisa paylater-nya. Uji “arisan investasi” dan robot kripto itu dengan tes legal dan logis, ubah imbal hasil yang dijanjikan ke angka tahunan, lalu tulis balasan Nadia kepada rekannya dan rencananya untuk Rp 5 juta itu. Setelah itu lihat pos keluarganya: apakah Rp 4 juta bisa dipertahankan, dan percakapan apa (dengan Mas Ardi, dan dengan Bima) yang akan membuatnya lebih adil dan jelas?"
         },
         "questions": [
          {
@@ -49680,15 +49680,15 @@ window.MT_LMS['the-route'] = {
           "rows": 12,
           "title": {
            "en": "Paylater, two schemes, the Rp 5 juta, and the family conversations",
-           "id": "Paylater, dua skema, Rp 5 juta, dan percakapan keluarga"
+           "id": "Paylater, dua skema, Rp 5 juta, dan percakapan dengan keluarga"
           },
           "help": {
-           "en": "3% a month compounds to over 40% a year; 4% to around 60%. “Paid twice, then delayed” and bonuses for recruiting are classic signs. The family line is about 26% of take-home, generous and important, but it should be discussed, not assumed.",
-           "id": "3% sebulan bila dimajemukkan melebihi 40% setahun; 4% sekitar 60%. “Dibayar dua kali, lalu tertunda” dan bonus merekrut adalah tanda klasik. Pos keluarga sekitar 26% dari gaji bersih, murah hati dan penting, tetapi sebaiknya dibicarakan, bukan diasumsikan."
+           "en": "3% a month compounds to over 40% a year; 4% to around 60%. “Paid twice, then delayed” and bonuses for recruiting are classic signs. The family line is about 26% of take-home: generous and important, but it should be discussed, not assumed.",
+           "id": "3% sebulan kalau dibungakan menjadi lebih dari 40% setahun; 4% menjadi sekitar 60%. “Dibayar dua kali, lalu tertunda” dan bonus karena merekrut adalah tanda klasik. Pos keluarganya sekitar 26% dari gaji bersih: murah hati dan penting, tetapi perlu dibicarakan, bukan diasumsikan."
           },
           "placeholder": {
            "en": "Paylater: …\nArisan investasi, legal … logical (…% a year) … → plan for Rp 5 juta: …\nCrypto robot, legal … logical … → reply: “…”\nFamily line: sustainable? … · With Mas Ardi: “…” · With Bima: …",
-           "id": "Paylater: …\nArisan investasi, legal … logis (…% setahun) … → rencana untuk Rp 5 juta: …\nRobot kripto, legal … logis … → balasan: “…”\nPos keluarga: berkelanjutan? … · Dengan Mas Ardi: “…” · Dengan Bima: …"
+           "id": "Paylater: …\nArisan investasi: legal … logis (…% setahun) … → rencana untuk Rp 5 juta: …\nRobot kripto: legal … logis … → balasan: “…”\nPos keluarga: bisa dipertahankan? … · Dengan Mas Ardi: “…” · Dengan Bima: …"
           },
           "keywords": [
            [
@@ -49728,7 +49728,7 @@ window.MT_LMS['the-route'] = {
        {
         "title": {
          "en": "Investing and the horizon",
-         "id": "Investasi dan cakrawala"
+         "id": "Investasi dan cakrawalanya"
         },
         "short": {
          "en": "Horizon",
@@ -49736,7 +49736,7 @@ window.MT_LMS['the-route'] = {
         },
         "guide": {
          "en": "Lessons 8.3 and 8.4. Is Nadia ready to invest for growth, and if not, what must happen first, and when? Sketch her investment orientation for when she is ready: which instruments for the home deposit in four years, which for the long term, and her “if markets fall” line. Then write her horizon map (1, 5, 10, 20+ years), the protection gaps, and the date of her first annual money review.",
-         "id": "Pelajaran 8.3 dan 8.4. Apakah Nadia siap berinvestasi untuk pertumbuhan, dan jika belum, apa yang harus terjadi lebih dulu, dan kapan? Buat sketsa orientasi investasinya untuk saat ia siap: instrumen mana untuk uang muka rumah empat tahun lagi, mana untuk jangka panjang, dan baris “jika pasar turun”-nya. Lalu tulis peta cakrawalanya (1, 5, 10, 20+ tahun), celah perlindungan, dan tanggal tinjauan keuangan tahunan pertamanya."
+         "id": "Pelajaran 8.3 dan 8.4. Apakah Nadia siap berinvestasi untuk bertumbuh, dan kalau belum, apa yang harus terjadi lebih dulu, dan kapan? Buat sketsa orientasi investasinya untuk saat ia siap: instrumen mana untuk uang muka rumah dalam empat tahun, mana untuk jangka panjang, dan baris “kalau pasar turun”-nya. Lalu tulis peta cakrawalanya (1, 5, 10, 20+ tahun), celah perlindungannya, dan tanggal tinjauan keuangan tahunannya yang pertama."
         },
         "questions": [
          {
@@ -49749,11 +49749,11 @@ window.MT_LMS['the-route'] = {
           },
           "help": {
            "en": "Emergency fund under two months and a paylater balance mean growth investing can wait a little. The wedding (18 months) belongs in low-risk places. Her father’s partial reliance on her income is the case for considering modest term life cover.",
-           "id": "Dana darurat kurang dari dua bulan dan saldo paylater berarti investasi pertumbuhan bisa menunggu sebentar. Pernikahan (18 bulan) berada di tempat berisiko rendah. Ketergantungan sebagian ayahnya pada penghasilannya menjadi alasan mempertimbangkan asuransi jiwa berjangka yang sederhana."
+           "id": "Dana darurat di bawah dua bulan dan sisa paylater berarti investasi untuk bertumbuh bisa menunggu sebentar. Dana pernikahan (18 bulan lagi) tempatnya di instrumen berisiko rendah. Ayahnya yang sebagian bergantung pada penghasilannya menjadi alasan untuk mempertimbangkan asuransi jiwa berjangka yang sederhana."
           },
           "placeholder": {
            "en": "Ready? … First: … by …\nWhen ready, home deposit (4 yrs): … · long term: … · if markets fall: “…”\nHorizon: 1 yr … · 5 yrs … · 10 yrs … · 20+ … · collisions: …\nProtection: … · Annual review date: …",
-           "id": "Siap? … Dulu: … paling lambat …\nSaat siap, uang muka rumah (4 th): … · jangka panjang: … · jika pasar turun: “…”\nCakrawala: 1 th … · 5 th … · 10 th … · 20+ … · tabrakan: …\nPerlindungan: … · Tanggal tinjauan tahunan: …"
+           "id": "Siap? … Lebih dulu: … paling lambat …\nSaat siap: uang muka rumah (4 thn): … · jangka panjang: … · kalau pasar turun: “…”\nCakrawala: 1 thn … · 5 thn … · 10 thn … · 20+ … · tabrakan: …\nPerlindungan: … · Tanggal tinjauan tahunan: …"
           },
           "keywords": [
            [
@@ -49807,8 +49807,8 @@ window.MT_LMS['the-route'] = {
          "id": "Rencanamu"
         },
         "guide": {
-         "en": "The Kit item. Part A, Compensation audit and savings architecture: your annual total compensation by component, one payslip check, your benchmark position and real raise; then your savings system, the payday transfer, buckets with targets and monthly amounts, your family line, the holiday bonus and bonus split, and any debt plan. Part B, Investment orientation and horizon: your foundation check, what you know and do not yet know, your first instruments and horizons when ready, your legal-and-logical rule, your horizon map with protection, and the date of your annual review. This is an educational planning exercise; consult a licensed adviser before real investment decisions.",
-         "id": "Butir Kit. Bagian A, Audit kompensasi dan arsitektur tabungan: total kompensasi tahunanmu per komponen, satu cek slip gaji, posisi pembanding dan kenaikan riilmu; lalu sistem tabunganmu, transfer hari gajian, pos dengan target dan jumlah bulanan, pos keluargamu, pembagian THR dan bonus, dan rencana utang bila ada. Bagian B, Orientasi investasi dan cakrawala: cek fondasimu, apa yang sudah dan belum kamu ketahui, instrumen dan horizon pertamamu saat siap, aturan legal-dan-logismu, peta cakrawalamu dengan perlindungan, dan tanggal tinjauan tahunanmu. Ini latihan perencanaan edukatif; konsultasikan dengan penasihat berizin sebelum keputusan investasi nyata."
+         "en": "The Kit item. Part A, Compensation audit and savings architecture: your annual total compensation by component, one payslip check, your benchmark position and real raise; then your savings system (the payday transfer, buckets with targets and monthly amounts, your family line, the THR and bonus split) and any debt plan. Part B, Investment orientation and horizon: your foundation check, what you know and do not yet know, your first instruments and horizons when ready, your legal-and-logical rule, your horizon map with protection, and the date of your annual review. This is an educational planning exercise; consult a licensed adviser before real investment decisions.",
+         "id": "Isi Perangkat Karier. Bagian A, Audit kompensasi dan arsitektur tabungan: total kompensasi tahunanmu per komponen, satu cek slip gaji, posisimu dibanding pembanding dan kenaikan riilmu; lalu sistem tabunganmu (transfer di hari gajian, pos-pos dengan target dan jumlah bulanannya, pos keluargamu, pembagian THR dan bonus) dan rencana utang kalau ada. Bagian B, Orientasi investasi dan cakrawala: cek fondasimu, apa yang sudah dan belum kamu ketahui, instrumen dan jangka waktu pertamamu saat siap, aturan legal dan logismu, peta cakrawala lengkap dengan perlindungannya, dan tanggal tinjauan tahunanmu. Ini latihan perencanaan edukatif; konsultasikan dengan penasihat berizin sebelum mengambil keputusan investasi sungguhan."
         },
         "questions": [
          {
@@ -49821,11 +49821,11 @@ window.MT_LMS['the-route'] = {
           },
           "help": {
            "en": "Use your real numbers where you are comfortable; round them, or use percentages, if you prefer. Nothing leaves this device.",
-           "id": "Pakai angka nyatamu sejauh kamu nyaman; bulatkan, atau pakai persentase, jika lebih suka. Tak ada yang keluar dari perangkat ini."
+           "id": "Pakai angka aslimu sejauh kamu nyaman; bulatkan, atau pakai persentase kalau lebih suka. Tidak ada yang keluar dari perangkat ini."
           },
           "placeholder": {
            "en": "Annual total: … (components …) · payslip check: … · benchmark: … · real raise: …\nTransfer: …% on … → emergency (target …, months …) · goals … · long-term … · family line …\nTHR/bonus split: … · Debt plan: …",
-           "id": "Total tahunan: … (komponen …) · cek slip: … · pembanding: … · kenaikan riil: …\nTransfer: …% tanggal … → darurat (target …, bulan …) · tujuan … · jangka panjang … · pos keluarga …\nPembagian THR/bonus: … · Rencana utang: …"
+           "id": "Total setahun: … (komponen …) · cek slip gaji: … · pembanding: … · kenaikan riil: …\nTransfer: …% tanggal … → darurat (target …, berapa bulan …) · tujuan … · jangka panjang … · pos keluarga …\nPembagian THR/bonus: … · Rencana utang: …"
           },
           "keywords": [
            [
@@ -49872,11 +49872,11 @@ window.MT_LMS['the-route'] = {
           },
           "help": {
            "en": "Write what you know and what you do not yet know honestly; the plan is a learning plan as much as a money plan.",
-           "id": "Tulis dengan jujur apa yang sudah dan belum kamu ketahui; rencana ini adalah rencana belajar sekaligus rencana uang."
+           "id": "Tulis dengan jujur apa yang sudah kamu ketahui dan apa yang belum; rencana ini adalah rencana belajar sekaligus rencana keuangan."
           },
           "placeholder": {
            "en": "Foundations: emergency … · costly debt … · protection …\nI know … · I do not yet know … · I will learn by …\nWhen ready: goal … → instrument … · long term … · if markets fall: …\nMy rule: legal and logical, “…”\nHorizon: 1 … 5 … 10 … 20+ … · Annual review: …",
-           "id": "Fondasi: darurat … · utang mahal … · perlindungan …\nAku tahu … · Aku belum tahu … · Aku akan belajar dengan …\nSaat siap: tujuan … → instrumen … · jangka panjang … · jika pasar turun: …\nAturanku: legal dan logis, “…”\nCakrawala: 1 … 5 … 10 … 20+ … · Tinjauan tahunan: …"
+           "id": "Fondasi: darurat … · utang mahal … · perlindungan …\nYang saya tahu … · Yang belum saya tahu … · Saya akan mempelajarinya dengan …\nSaat siap: tujuan … → instrumen … · jangka panjang … · kalau pasar turun: …\nAturan saya: legal dan logis, “…”\nCakrawala: 1 … 5 … 10 … 20+ … · Tinjauan tahunan: …"
           },
           "keywords": [
            [
@@ -49921,35 +49921,35 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Compensation: annual total built from components; allowance classification and missing JP raised politely; benchmark position and real raise correct",
-         "id": "Kompensasi: total tahunan dibangun dari komponen; klasifikasi tunjangan dan JP yang hilang disampaikan dengan sopan; posisi pembanding dan kenaikan riil benar"
+         "id": "Kompensasi: total setahun disusun dari komponennya; klasifikasi tunjangan dan JP yang tidak tercatat disampaikan dengan sopan; posisi dibanding pembanding dan kenaikan riilnya benar"
         },
         "w": "15%"
        },
        {
         "h": {
-         "en": "Savings architecture: fixed costs identified; automated transfer; buckets with targets and amounts that add up; holiday bonus and bonus split decided in advance",
-         "id": "Arsitektur tabungan: biaya tetap dikenali; transfer otomatis; pos dengan target dan jumlah yang totalnya pas; pembagian THR dan bonus diputuskan lebih dulu"
+         "en": "Savings architecture: fixed costs identified; automated transfer; buckets with targets and amounts that add up; THR and bonus split decided in advance",
+         "id": "Arsitektur tabungan: biaya tetap ditemukan; transfer otomatis; pos-pos dengan target dan jumlah yang totalnya pas; pembagian THR dan bonus diputuskan lebih dulu"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "Risks: paylater cleared without new debt; both schemes failed on legal and logical grounds with yearly figures; a kind reply; the family line treated as a plan and discussed",
-         "id": "Risiko: paylater dilunasi tanpa utang baru; kedua skema gagal di uji legal dan logis dengan angka tahunan; balasan yang ramah; pos keluarga diperlakukan sebagai rencana dan dibicarakan"
+         "id": "Risiko: paylater dilunasi tanpa utang baru; kedua skema gagal di tes legal dan logis dengan angka tahunannya; balasan yang ramah; pos keluarga diperlakukan sebagai rencana dan dibicarakan"
         },
         "w": "20%"
        },
        {
         "h": {
          "en": "Investing and horizon: readiness judged honestly; instruments matched to horizons; a falling-market rule; horizon map, protection gaps and a review date",
-         "id": "Investasi dan cakrawala: kesiapan dinilai jujur; instrumen dicocokkan dengan horizon; aturan saat pasar turun; peta cakrawala, celah perlindungan, dan tanggal tinjauan"
+         "id": "Investasi dan cakrawala: kesiapan dinilai dengan jujur; instrumen dicocokkan dengan jangka waktunya; aturan saat pasar turun; peta cakrawala, celah perlindungan, dan tanggal tinjauan"
         },
         "w": "15%"
        },
        {
         "h": {
-         "en": "Your Financial Foundation Plan, Parts A and B complete, with numbers or percentages, honest gaps and the educational disclaimer respected",
-         "id": "Rencana Fondasi Keuanganmu: Bagian A dan B lengkap, dengan angka atau persentase, celah yang jujur, dan penafian edukatif dihormati"
+         "en": "Your Financial Foundation Plan: Parts A and B complete, with numbers or percentages, honest gaps and the educational disclaimer respected",
+         "id": "Rencana Fondasi Keuanganmu: Bagian A dan B lengkap, dengan angka atau persentase, celah yang jujur, dan pernyataan edukatifnya dihormati"
         },
         "w": "25%"
        }
@@ -49967,8 +49967,8 @@ window.MT_LMS['the-route'] = {
          }
         },
         {
-         "en": "Annual total, roughly: 12 × fixed monthly pay (base + position + location allowance = Rp 15.5 juta) = Rp 186 juta; non-fixed allowances about Rp 13 juta; holiday bonus about Rp 15.5 juta; bonus, uncertain, last year’s level about Rp 17 juta; employer statutory social insurance about Rp 16 juta; group insurance about Rp 6 juta, about Rp 250–255 juta. That sits in the middle of all three benchmark ranges: fair pay for her level; no urgent pay action. Payslip issues: (1) the location allowance is classified as non-fixed although the transfer letter calls it fixed. This may affect whether it counts toward holiday bonus; ask HR to confirm the classification (verify the rule); (2) the missing JP contribution for the first Jakarta month. Request: “Selamat pagi, Bu. Mohon bantuan pengecekan dua hal: klasifikasi tunjangan lokasi di slip gaji saya (surat mutasi menyebutnya tunjangan tetap), dan iuran JP bulan pertama saya di Jakarta yang belum tercatat di aplikasi statutory social insurance. Slip gaji dan tangkapan layar terlampir. Terima kasih.” Real raise: about 7% − 3% ≈ 4%.",
-         "id": "Total tahunan, kira-kira: 12 × gaji tetap bulanan (pokok + jabatan + lokasi = Rp 15,5 juta) = Rp 186 juta; tunjangan tidak tetap sekitar Rp 13 juta; THR sekitar Rp 15,5 juta; bonus, belum pasti, setara tahun lalu sekitar Rp 17 juta; BPJS pemberi kerja sekitar Rp 16 juta; asuransi kelompok sekitar Rp 6 juta, sekitar Rp 250–255 juta. Itu berada di tengah ketiga rentang pembanding: bayaran wajar untuk levelnya; tak ada tindakan gaji yang mendesak. Masalah slip: (1) tunjangan lokasi diklasifikasikan tidak tetap padahal surat mutasi menyebutnya tetap. Ini bisa memengaruhi apakah ia dihitung untuk THR; minta HR mengonfirmasi klasifikasinya (verifikasi aturannya); (2) iuran JP bulan pertama di Jakarta yang hilang. Permintaan: “Selamat pagi, Bu. Mohon bantuan pengecekan dua hal: klasifikasi tunjangan lokasi di slip gaji saya (surat mutasi menyebutnya tunjangan tetap), dan iuran JP bulan pertama saya di Jakarta yang belum tercatat di aplikasi BPJS. Slip gaji dan tangkapan layar terlampir. Terima kasih.” Kenaikan riil: sekitar 7% − 3% ≈ 4%."
+         "en": "Annual total, roughly: 12 × fixed monthly pay (base + position + location allowance = Rp 15.5 juta) = Rp 186 juta; non-fixed allowances about Rp 13 juta; THR about Rp 15.5 juta; bonus, uncertain, last year’s level about Rp 17 juta; employer BPJS about Rp 16 juta; group insurance about Rp 6 juta: about Rp 250–255 juta in total. That sits in the middle of all three benchmark ranges: fair pay for her level; no urgent pay action. Payslip issues: (1) the location allowance is classified as non-fixed although the transfer letter calls it fixed, which may affect whether it counts toward THR; ask HR to confirm the classification (verify the rule); (2) the missing JP contribution for the first Jakarta month. Request: “Selamat pagi, Bu. Mohon bantuan pengecekan dua hal: klasifikasi tunjangan lokasi di slip gaji saya (surat mutasi menyebutnya tunjangan tetap), dan iuran JP bulan pertama saya di Jakarta yang belum tercatat di aplikasi BPJS. Slip gaji dan tangkapan layar terlampir. Terima kasih.” Real raise: about 7% − 3% ≈ 4%.",
+         "id": "Total setahun, kira-kira: 12 × gaji bulanan tetap (pokok + jabatan + tunjangan lokasi = Rp 15,5 juta) = Rp 186 juta; tunjangan tidak tetap sekitar Rp 13 juta; THR sekitar Rp 15,5 juta; bonus, belum pasti, setara tahun lalu sekitar Rp 17 juta; BPJS dari pemberi kerja sekitar Rp 16 juta; asuransi kumpulan sekitar Rp 6 juta: totalnya sekitar Rp 250–255 juta. Angka itu berada di tengah ketiga rentang pembanding: gaji yang wajar untuk levelnya, tanpa langkah mendesak soal gaji. Masalah slip gaji: (1) tunjangan lokasi digolongkan tidak tetap padahal surat mutasinya menyebutnya tetap, yang bisa memengaruhi apakah tunjangan itu dihitung untuk THR; minta HR memastikan klasifikasinya (periksa aturannya); (2) iuran JP bulan pertama di Jakarta yang tidak tercatat. Permintaannya: “Selamat pagi, Bu. Mohon bantuan pengecekan dua hal: klasifikasi tunjangan lokasi di slip gaji saya (surat mutasi menyebutnya tunjangan tetap), dan iuran JP bulan pertama saya di Jakarta yang belum tercatat di aplikasi BPJS. Slip gaji dan tangkapan layar terlampir. Terima kasih.” Kenaikan riil: sekitar 7% − 3% ≈ 4%."
         },
         {
          "h": {
@@ -49977,8 +49977,8 @@ window.MT_LMS['the-route'] = {
          }
         },
         {
-         "en": "Fixed: kos, family support, paylater (four months), subscriptions, phone. Flexible: food, social, other. The two biggest levers: food and social (Rp 4.2 juta together, cooking some weekday meals and capping team dinners and gifts could free about Rp 1.2 juta), and the paylater ending in four months (Rp 900,000, then permanently redirected). Subscriptions trimmed by Rp 150,000. Transfer on the 26th, the day after payday, to an account at another bank: Rp 1.5 juta now, rising to Rp 2.4 juta when the paylater ends. Buckets: emergency fund, target about Rp 75 juta (six months of Rp 12.6 juta essentials); the whole transfer goes there until it reaches three months (about Rp 38 juta), roughly eight months with part of holiday bonus, and then splits between the emergency and wedding funds. Wedding fund, Rp 60 juta in 18 months cannot come from the monthly system alone: agree with Bima on a smaller total or a later date, and put most of holiday bonus and the bonus there (for example holiday bonus 50% wedding, 30% emergency, 20% enjoy; bonus 60% wedding, 30% emergency, 10% enjoy). Family line, Rp 4 juta planned, not improvised. The numbers add up: the Rp 1.5 juta transfer and the Rp 4 juta family line leave about Rp 9.7 juta for the kos, the paylater, transport, phone and the reduced food and social budget, with a small buffer.",
-         "id": "Tetap: kos, dukungan keluarga, paylater (empat bulan), langganan, ponsel. Fleksibel: makan, sosial, lain-lain. Dua tuas terbesar: makan dan sosial (Rp 4,2 juta bersama, memasak sebagian makan di hari kerja serta membatasi makan malam tim dan amplop bisa membebaskan sekitar Rp 1,2 juta), dan paylater yang selesai empat bulan lagi (Rp 900.000, lalu dialihkan permanen). Langganan dipangkas Rp 150.000. Transfer tanggal 26, sehari setelah gajian, ke rekening di bank lain: Rp 1,5 juta sekarang, naik menjadi Rp 2,4 juta saat paylater selesai. Pos: dana darurat, target sekitar Rp 75 juta (enam bulan kebutuhan pokok Rp 12,6 juta); seluruh transfer masuk ke sana sampai mencapai tiga bulan (sekitar Rp 38 juta), kira-kira delapan bulan dengan sebagian THR. Lalu dibagi antara dana darurat dan dana pernikahan. Dana pernikahan, Rp 60 juta dalam 18 bulan tak bisa berasal dari sistem bulanan saja: sepakati dengan Bima total yang lebih kecil atau tanggal lebih lambat, dan taruh sebagian besar THR dan bonus di sana (misalnya THR 50% pernikahan, 30% darurat, 20% dinikmati; bonus 60% pernikahan, 30% darurat, 10% dinikmati). Pos keluarga, Rp 4 juta terencana, bukan dadakan. Angkanya pas: transfer Rp 1,5 juta dan pos keluarga Rp 4 juta menyisakan sekitar Rp 9,7 juta untuk kos, paylater, transport, ponsel, serta anggaran makan dan sosial yang sudah dikurangi, dengan sedikit cadangan."
+         "en": "Fixed: kos, family support, paylater (four months), subscriptions, phone. Flexible: food, social, other. The two biggest levers: food and social (Rp 4.2 juta together; cooking some weekday meals and capping team dinners and gifts could free about Rp 1.2 juta), and the paylater ending in four months (Rp 900,000, then permanently redirected). Subscriptions trimmed by Rp 150,000. Transfer on the 26th, the day after payday, to an account at another bank: Rp 1.5 juta now, rising to Rp 2.4 juta when the paylater ends. Buckets: emergency fund with a target of about Rp 75 juta (six months of Rp 12.6 juta essentials); the whole transfer goes there until it reaches three months (about Rp 38 juta), roughly eight months with part of THR, and then splits between the emergency and wedding funds. Wedding fund: Rp 60 juta in 18 months cannot come from the monthly system alone: agree with Bima on a smaller total or a later date, and put most of THR and the bonus there (for example THR 50% wedding, 30% emergency, 20% enjoy; bonus 60% wedding, 30% emergency, 10% enjoy). Family line: Rp 4 juta, planned, not improvised. The numbers add up: the Rp 1.5 juta transfer and the Rp 4 juta family line leave about Rp 9.7 juta for the kos, the paylater, transport, phone and the reduced food and social budget, with a small buffer.",
+         "id": "Tetap: kos, bantuan keluarga, paylater (empat bulan), langganan, ponsel. Fleksibel: makan, sosial, lain-lain. Dua pengungkit terbesar: makan dan sosial (total Rp 4,2 juta; memasak sebagian makan di hari kerja serta membatasi makan malam tim dan amplop bisa membebaskan sekitar Rp 1,2 juta), dan paylater yang berakhir empat bulan lagi (Rp 900.000, lalu dialihkan untuk seterusnya). Langganan dipangkas Rp 150.000. Transfer tanggal 26, sehari setelah gajian, ke rekening di bank lain: Rp 1,5 juta sekarang, naik menjadi Rp 2,4 juta saat paylater berakhir. Pos-posnya: dana darurat dengan target sekitar Rp 75 juta (enam bulan kebutuhan pokok sebesar Rp 12,6 juta); seluruh transfer masuk ke sana sampai mencapai tiga bulan (sekitar Rp 38 juta), kira-kira delapan bulan dengan bantuan sebagian THR, lalu dibagi antara dana darurat dan dana pernikahan. Dana pernikahan: Rp 60 juta dalam 18 bulan tidak bisa dipenuhi dari sistem bulanan saja; sepakati dengan Bima total yang lebih kecil atau tanggal yang lebih mundur, dan taruh sebagian besar THR dan bonus di sana (misalnya THR 50% pernikahan, 30% darurat, 20% dinikmati; bonus 60% pernikahan, 30% darurat, 10% dinikmati). Pos keluarga: Rp 4 juta, direncanakan, bukan dadakan. Angkanya pas: transfer Rp 1,5 juta dan pos keluarga Rp 4 juta menyisakan sekitar Rp 9,7 juta untuk kos, paylater, transpor, ponsel, serta anggaran makan dan sosial yang sudah dikurangi, dengan sedikit cadangan."
         },
         {
          "h": {
@@ -49987,8 +49987,8 @@ window.MT_LMS['the-route'] = {
          }
         },
         {
-         "en": "Paylater: pay it off on schedule (four months), no new paylater, and redirect the instalment to savings when it ends. The “arisan investasi”: 3% a month is over 40% a year compounded; “paid twice, then delayed” is a classic pattern; check the regulator’s lists and warnings, ask for the Rp 5 juta back in writing, and stop any further transfers; if it is not returned, keep evidence and report through official channels. The crypto robot: 4% a month is about 60% a year, recruitment bonuses and “slot terbatas” pressure. Fails both legal and logical. Reply: “Makasih udah ngajak, tapi aku punya aturan cuma investasi di produk berizin OJK yang bisa kujelaskan sendiri, dan imbal 4% sebulan nggak masuk akal buatku. Hati-hati juga ya. Coba cek bareng di daftar OJK?” Family line: about 26% of take-home is generous and, for now, affordable within the plan, but it should be shared and visible. Conversation with Mas Ardi: “Mas, pengobatan Bapak sekarang Rp 2,5 juta sebulan dari aku. Bisa kita bicarakan pembagiannya, sesuai kemampuan masing-masing?” With Bima: next week, one page, both incomes, both family lines, the wedding budget and the home deposit, before meeting the wedding organiser.",
-         "id": "Paylater: lunasi sesuai jadwal (empat bulan), tanpa paylater baru, dan alihkan cicilannya ke tabungan saat selesai. “Arisan investasi”: 3% sebulan lebih dari 40% setahun bila dimajemukkan; “dibayar dua kali, lalu tertunda” adalah pola klasik; periksa daftar dan peringatan regulator, minta Rp 5 juta dikembalikan secara tertulis, dan hentikan transfer berikutnya; jika tidak dikembalikan, simpan bukti dan laporkan lewat saluran resmi. Robot kripto: 4% sebulan sekitar 60% setahun, bonus rekrutmen, dan desakan “slot terbatas”, gagal di uji legal dan logis. Balasan: “Makasih udah ngajak, tapi aku punya aturan cuma investasi di produk berizin OJK yang bisa kujelaskan sendiri, dan imbal 4% sebulan nggak masuk akal buatku. Hati-hati juga ya. Coba cek bareng di daftar OJK?” Pos keluarga: sekitar 26% dari gaji bersih itu murah hati dan, untuk sekarang, terjangkau dalam rencana, tetapi sebaiknya dibagi dan terlihat. Percakapan dengan Mas Ardi: “Mas, pengobatan Bapak sekarang Rp 2,5 juta sebulan dari aku. Bisa kita bicarakan pembagiannya, sesuai kemampuan masing-masing?” Dengan Bima: minggu depan, satu halaman, penghasilan keduanya, pos keluarga keduanya, anggaran pernikahan, dan uang muka rumah, sebelum bertemu WO."
+         "en": "Paylater: pay it off on schedule (four months), no new paylater, and redirect the instalment to savings when it ends. The “arisan investasi”: 3% a month is over 40% a year compounded; “paid twice, then delayed” is a classic pattern; check the regulator’s lists and warnings, ask for the Rp 5 juta back in writing, and stop any further transfers; if it is not returned, keep evidence and report through official channels. The crypto robot: 4% a month is about 60% a year, with recruitment bonuses and “slot terbatas” pressure; it fails both legal and logical. Reply: “Makasih udah ngajak, tapi aku punya aturan cuma investasi di produk berizin OJK yang bisa kujelaskan sendiri, dan imbal 4% sebulan nggak masuk akal buatku. Hati-hati juga ya. Coba cek bareng di daftar OJK?” Family line: about 26% of take-home is generous and, for now, affordable within the plan, but it should be shared and visible. Conversation with Mas Ardi: “Mas, pengobatan Bapak sekarang Rp 2,5 juta sebulan dari aku. Bisa kita bicarakan pembagiannya, sesuai kemampuan masing-masing?” With Bima: next week, one page, both incomes, both family lines, the wedding budget and the home deposit, before meeting the wedding organiser.",
+         "id": "Paylater: lunasi sesuai jadwal (empat bulan), tanpa paylater baru, dan alihkan cicilannya ke tabungan saat lunas. “Arisan investasi”: 3% sebulan berarti lebih dari 40% setahun kalau dibungakan; “dibayar dua kali, lalu tertunda” adalah pola klasik; cek daftar dan peringatan regulator, minta Rp 5 juta itu dikembalikan secara tertulis, dan hentikan transfer berikutnya; kalau tidak dikembalikan, simpan buktinya dan laporkan lewat jalur resmi. Robot kripto: 4% sebulan berarti sekitar 60% setahun, dengan bonus perekrutan dan desakan “slot terbatas”; gagal di tes legal maupun logis. Balasannya: “Makasih udah ngajak, tapi aku punya aturan cuma investasi di produk berizin OJK yang bisa kujelaskan sendiri, dan imbal 4% sebulan nggak masuk akal buatku. Hati-hati juga ya. Coba cek bareng di daftar OJK?” Pos keluarga: sekitar 26% dari gaji bersih memang murah hati dan, untuk saat ini, masih terjangkau dalam rencananya, tetapi sebaiknya dibagi dan terlihat jelas. Percakapan dengan Mas Ardi: “Mas, pengobatan Bapak sekarang Rp 2,5 juta sebulan dari aku. Bisa kita bicarakan pembagiannya, sesuai kemampuan masing-masing?” Dengan Bima: minggu depan, satu halaman berisi penghasilan keduanya, pos keluarga masing-masing, anggaran pernikahan, dan uang muka rumah, sebelum bertemu WO."
         },
         {
          "h": {
@@ -49997,39 +49997,39 @@ window.MT_LMS['the-route'] = {
          }
         },
         {
-         "en": "Not yet ready for growth investing: first three months of emergency fund and the paylater cleared, about twelve months. The wedding fund stays in low-risk places (savings, short deposits or a money-market fund). When ready: the home deposit in four years in low-risk instruments such as retail government securities; long-term capital in a low-cost diversified fund with an automatic monthly amount; “Kalau pasar turun 20%, aku tidak menjual; setoran tetap jalan.” Horizon: 1 year, three months’ emergency fund, paylater gone, wedding fund growing; 5 years, wedding done, six months’ fund, home deposit, a career-option fund; 10 years, children’s education, parents’ care; 20+, retirement beyond JHT and JP. Collision: wedding and emergency fund in the same 18 months, solved by the holiday bonus and bonus split and a conversation about the wedding size. Protection: health covered; consider modest term life cover because her father relies partly on her income, bought separately from investments; list accounts and beneficiaries. First annual review: the Saturday after holiday bonus.",
-         "id": "Belum siap untuk investasi pertumbuhan: dulu tiga bulan dana darurat dan paylater lunas, sekitar dua belas bulan. Dana pernikahan tetap di tempat berisiko rendah (tabungan, deposito pendek, atau reksa dana pasar uang). Saat siap: uang muka rumah empat tahun lagi di instrumen berisiko rendah seperti SBN ritel; modal jangka panjang di reksa dana terdiversifikasi berbiaya rendah dengan jumlah bulanan otomatis; “Kalau pasar turun 20%, aku tidak menjual; setoran tetap jalan.” Cakrawala: 1 tahun, dana darurat tiga bulan, paylater lunas, dana pernikahan bertumbuh; 5 tahun, pernikahan selesai, dana enam bulan, uang muka rumah, dana pilihan karier; 10 tahun, pendidikan anak, perawatan orang tua; 20+, pensiun di luar JHT dan JP. Tabrakan: pernikahan dan dana darurat di 18 bulan yang sama, diselesaikan dengan pembagian THR dan bonus serta percakapan tentang skala pernikahan. Perlindungan: kesehatan tertutup; pertimbangkan asuransi jiwa berjangka yang sederhana karena ayahnya sebagian bergantung pada penghasilannya, dibeli terpisah dari investasi; catat rekening dan ahli waris. Tinjauan tahunan pertama: Sabtu setelah THR."
+         "en": "Not yet ready for growth investing: first three months of emergency fund and the paylater cleared (about twelve months). The wedding fund stays in low-risk places (savings, short deposits or a money-market fund). When ready: the home deposit in four years in low-risk instruments such as retail government securities; long-term capital in a low-cost diversified fund with an automatic monthly amount; “Kalau pasar turun 20%, aku tidak menjual; setoran tetap jalan.” Horizon: 1 year: three months’ emergency fund, paylater gone, wedding fund growing; 5 years: wedding done, six months’ fund, home deposit, a career-option fund; 10 years: children’s education, parents’ care; 20+: retirement beyond JHT and JP. Collision: wedding and emergency fund in the same 18 months, solved by the THR and bonus split and a conversation about the wedding size. Protection: health covered; consider modest term life cover because her father relies partly on her income, bought separately from investments; list accounts and beneficiaries. First annual review: the Saturday after THR.",
+         "id": "Belum siap berinvestasi untuk bertumbuh: lebih dulu dana darurat tiga bulan dan paylater lunas (sekitar dua belas bulan). Dana pernikahan tetap di instrumen berisiko rendah (tabungan, deposito berjangka pendek, atau reksa dana pasar uang). Saat siap: uang muka rumah dalam empat tahun di instrumen berisiko rendah seperti SBN ritel; modal jangka panjang di reksa dana terdiversifikasi berbiaya rendah dengan setoran bulanan otomatis; “Kalau pasar turun 20%, aku tidak menjual; setoran tetap jalan.” Cakrawala: 1 tahun: dana darurat tiga bulan, paylater lunas, dana pernikahan bertambah; 5 tahun: sudah menikah, dana darurat enam bulan, uang muka rumah, dana pilihan karier; 10 tahun: pendidikan anak, perawatan orang tua; 20+ tahun: pensiun di luar JHT dan JP. Tabrakannya: pernikahan dan dana darurat di 18 bulan yang sama, diselesaikan lewat pembagian THR dan bonus serta percakapan soal besar kecilnya pernikahan. Perlindungan: kesehatan sudah tertanggung; pertimbangkan asuransi jiwa berjangka yang sederhana karena ayahnya sebagian bergantung pada penghasilannya, dibeli terpisah dari investasi; catat rekening dan ahli warisnya. Tinjauan tahunan pertama: hari Sabtu setelah THR."
         }
        ],
        "after": {
         "en": "Compare, do not copy. If your plan starts investing for growth this month, check the foundations: under two months of emergency fund and an open paylater balance. If your plan cuts the family line without a conversation, it is a spreadsheet, not a plan. If the Rp 5 juta stays in the arisan “to see what happens”, re-read Lesson 8.3’s scam reflexes.",
-        "id": "Bandingkan, jangan menyalin. Jika rencanamu mulai berinvestasi untuk pertumbuhan bulan ini, periksa fondasinya: dana darurat kurang dari dua bulan dan saldo paylater yang masih terbuka. Jika rencanamu memangkas pos keluarga tanpa percakapan, itu lembar kerja, bukan rencana. Jika Rp 5 juta dibiarkan di arisan “untuk melihat perkembangannya”, baca ulang refleks anti-penipuan Pelajaran 8.3."
+        "id": "Bandingkan, jangan menyalin. Kalau rencanamu mulai berinvestasi untuk bertumbuh bulan ini, cek lagi fondasinya: dana darurat di bawah dua bulan dan sisa paylater yang belum lunas. Kalau rencanamu memangkas pos keluarga tanpa percakapan, itu lembar hitung, bukan rencana. Kalau Rp 5 juta itu dibiarkan di arisan “sambil lihat nanti”, baca lagi refleks anti-penipuan di Pelajaran 8.3."
        }
       },
       "submit": {
        "title": {
         "en": "Review & submit",
-        "id": "Tinjau & kumpulkan"
+        "id": "Tinjau & kirim"
        },
        "short": {
         "en": "Submit",
-        "id": "Kumpulkan"
+        "id": "Kirim"
        },
        "lead": {
-        "en": "Read your six answers as Nadia would on payday; could she set this up in an hour? Submitting locks them on this device, opens the model notes, and saves your Financial Foundation Plan as the eighth Career Kit item. This is an educational exercise, not financial advice.",
-        "id": "Baca keenam jawabanmu seperti Nadia membacanya di hari gajian; bisakah ia memasangnya dalam satu jam? Mengumpulkan akan mengunci jawabanmu di perangkat ini, membuka catatan model, dan menyimpan Rencana Fondasi Keuanganmu sebagai butir Career Kit kedelapan. Ini latihan edukatif, bukan nasihat keuangan."
+        "en": "Read your six answers as Nadia would on payday: could she set this up in an hour? Submitting locks them on this device, opens the model notes, and saves your Financial Foundation Plan as the eighth Career Kit item. This is an educational exercise, not financial advice.",
+        "id": "Baca keenam jawabanmu seperti Nadia akan membacanya di hari gajian: bisakah ia memasangnya dalam satu jam? Setelah dikirim, jawabanmu terkunci di perangkat ini, catatan model terbuka, dan Rencana Fondasi Keuanganmu tersimpan sebagai isi kedelapan Perangkat Karier. Ini latihan edukatif, bukan nasihat keuangan."
        },
        "button": {
         "en": "Submit the case",
-        "id": "Kumpulkan kasus"
+        "id": "Kirim kasus"
        },
        "doneTitle": {
         "en": "Case submitted",
-        "id": "Kasus terkumpul"
+        "id": "Kasus terkirim"
        },
        "doneBody": {
         "en": "Your answers are locked on this device. Compare with the model notes, take the Module 8 assessment, and set up your payday transfer before your next salary arrives.",
-        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 8, dan pasang transfer hari gajianmu sebelum gaji berikutnya datang."
+        "id": "Jawabanmu sudah terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 8, dan pasang transfer hari gajianmu sebelum gaji berikutnya datang."
        }
       }
      },
@@ -50042,13 +50042,13 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Find the fixed costs and the missing default transfer.",
-         "id": "Temukan biaya tetap dan transfer bawaan yang tidak ada."
+         "id": "Temukan biaya tetapnya dan transfer bawaan yang belum ada."
         }
        },
        {
         "h": {
          "en": "Investing before the foundations",
-         "id": "Berinvestasi sebelum fondasi"
+         "id": "Berinvestasi sebelum fondasinya siap"
         },
         "fix": {
          "en": "Emergency fund and costly debt first.",
@@ -50058,21 +50058,21 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Waiting to see if a scheme pays",
-         "id": "Menunggu apakah skema membayar"
+         "id": "Menunggu apakah sebuah skema membayar"
         },
         "fix": {
          "en": "Legal and logical; ask for the money back in writing.",
-         "id": "Legal dan logis; minta uangnya kembali secara tertulis."
+         "id": "Legal dan logis; minta uangnya dikembalikan secara tertulis."
         }
        },
        {
         "h": {
          "en": "Cutting family support in a spreadsheet",
-         "id": "Memangkas dukungan keluarga di lembar kerja"
+         "id": "Memangkas bantuan keluarga di lembar hitung"
         },
         "fix": {
          "en": "Plan it, share it, discuss it.",
-         "id": "Rencanakan, bagi, bicarakan."
+         "id": "Rencanakan, bagikan, bicarakan."
         }
        }
       ]
@@ -50085,7 +50085,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The Module 8 Career Kit item: compensation audit, savings architecture, investment orientation and horizon.",
-        "id": "Butir Career Kit Modul 8: audit kompensasi, arsitektur tabungan, orientasi investasi, dan cakrawala."
+        "id": "Isi Perangkat Karier dari Modul 8: audit kompensasi, arsitektur tabungan, orientasi investasi, dan cakrawala."
        }
       },
       {
@@ -50094,8 +50094,8 @@ window.MT_LMS['the-route'] = {
         "id": "Arisan investasi"
        },
        "def": {
-        "en": "A rotating-savings group rebranded as an investment promising fixed returns, often a warning sign.",
-        "id": "Kelompok arisan yang dikemas ulang sebagai investasi dengan imbal tetap, sering menjadi tanda bahaya."
+        "en": "A rotating-savings group rebranded as an investment promising fixed returns; often a warning sign.",
+        "id": "Kelompok arisan yang dikemas ulang sebagai investasi dengan imbal hasil pasti; sering kali tanda bahaya."
        }
       },
       {
@@ -50104,8 +50104,8 @@ window.MT_LMS['the-route'] = {
         "id": "Kebutuhan pokok"
        },
        "def": {
-        "en": "The monthly costs you must pay in any month, the basis for the emergency-fund target.",
-        "id": "Biaya bulanan yang harus kamu bayar di bulan apa pun, dasar target dana darurat."
+        "en": "The monthly costs you must pay in any month: the basis for the emergency-fund target.",
+        "id": "Biaya bulanan yang wajib dibayar di bulan apa pun: dasar untuk menghitung target dana darurat."
        }
       }
      ],
@@ -50113,12 +50113,12 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "Nadia’s emergency fund covers 1.7 months and she has a paylater balance. The best next step for new savings is…",
-        "id": "Dana darurat Nadia mencukupi 1,7 bulan dan ia punya saldo paylater. Langkah berikut terbaik untuk tabungan baru adalah…"
+        "id": "Dana darurat Nadia baru menutup 1,7 bulan dan ia masih punya sisa paylater. Langkah terbaik berikutnya untuk tabungan baru adalah…"
        },
        "options": [
         {
          "en": "An equity fund for growth",
-         "id": "Reksa dana saham untuk pertumbuhan"
+         "id": "Reksa dana saham supaya bertumbuh"
         },
         {
          "en": "Build the emergency fund and clear the paylater first",
@@ -50126,7 +50126,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "The crypto robot",
-         "id": "Robot kripto"
+         "id": "Robot kripto itu"
         },
         {
          "en": "A car loan",
@@ -50136,13 +50136,13 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Foundations first; clearing costly debt is a guaranteed return.",
-        "id": "Fondasi dulu; melunasi utang mahal adalah imbal pasti."
+        "id": "Fondasi dulu; melunasi utang mahal adalah imbal hasil yang pasti."
        }
       },
       {
        "q": {
         "en": "A scheme “paid twice, then delayed” and promises 3% a month. The most likely explanation is…",
-        "id": "Sebuah skema “dibayar dua kali, lalu tertunda” dan menjanjikan 3% sebulan. Penjelasan paling mungkin adalah…"
+        "id": "Sebuah skema “dibayar dua kali, lalu tertunda” dan menjanjikan 3% sebulan. Penjelasan yang paling mungkin adalah…"
        },
        "options": [
         {
@@ -50151,7 +50151,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "A scheme paying early members from new money, now running short",
-         "id": "Skema yang membayar anggota awal dari uang baru, kini kehabisan"
+         "id": "Skema yang membayar anggota awal dari uang anggota baru, dan kini mulai kehabisan dana"
         },
         {
          "en": "A bank error",
@@ -50159,13 +50159,13 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Normal investment volatility",
-         "id": "Volatilitas investasi yang wajar"
+         "id": "Naik-turun investasi yang wajar"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "It fails the logical test; act; ask for the money back and keep evidence.",
-        "id": "Ia gagal di uji logis; bertindaklah; minta uangnya kembali dan simpan bukti."
+        "en": "It fails the logical test. Act: ask for the money back and keep evidence.",
+        "id": "Skema itu gagal di tes logis. Bertindaklah: minta uangnya dikembalikan dan simpan buktinya."
        }
       },
       {
@@ -50180,7 +50180,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Low-risk, accessible instruments",
-         "id": "Instrumen berisiko rendah dan mudah dicairkan"
+         "id": "Instrumen berisiko rendah yang mudah dicairkan"
         },
         {
          "en": "Crypto",
@@ -50188,13 +50188,13 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "A friend’s business",
-         "id": "Usaha teman"
+         "id": "Usaha seorang teman"
         }
        ],
        "correct": 1,
        "why": {
         "en": "A short horizon cannot absorb a fall at the wrong time.",
-        "id": "Horizon pendek tak bisa menyerap penurunan di saat yang salah."
+        "id": "Jangka waktu yang pendek tidak sanggup menyerap penurunan di saat yang salah."
        }
       }
      ],
@@ -50203,11 +50203,11 @@ window.MT_LMS['the-route'] = {
       "mode": "money",
       "title": {
        "en": "Run your own numbers",
-       "id": "Jalankan angkamu sendiri"
+       "id": "Jalankan angka-angkamu sendiri"
       },
       "body": {
        "en": "Open the money instruments: enter your take-home, essential expenses and current savings to see your runway and months to a six-month fund, then try the compound-growth arithmetic for when you are ready to invest.",
-       "id": "Buka instrumen uang: masukkan gaji bersih, pengeluaran pokok, dan tabunganmu sekarang untuk melihat landasan pacu dan bulan menuju dana enam bulan, lalu coba aritmetika pertumbuhan majemuk untuk saat kamu siap berinvestasi."
+       "id": "Buka instrumen uang: masukkan gaji bersih, pengeluaran pokok, dan tabunganmu sekarang untuk melihat runway dan berapa bulan sampai dana darurat enam bulan, lalu coba hitungan pertumbuhan bunga berbunga untuk saat kamu siap berinvestasi."
       },
       "cta": {
        "en": "Open the money instruments",
@@ -50217,15 +50217,15 @@ window.MT_LMS['the-route'] = {
      "takeaways": [
       {
        "en": "A good salary without a system saves nothing: find the fixed costs and set the default transfer.",
-       "id": "Gaji yang baik tanpa sistem tak menabung apa pun: temukan biaya tetap dan pasang transfer bawaan."
+       "id": "Gaji yang bagus tanpa sistem tidak menghasilkan tabungan: temukan biaya tetapnya dan pasang transfer bawaannya."
       },
       {
        "en": "Foundations before growth: emergency fund, costly debt cleared, protection, and legal and logical, always.",
-       "id": "Fondasi sebelum pertumbuhan: dana darurat, utang mahal lunas, perlindungan, dan legal serta logis, selalu."
+       "id": "Fondasi sebelum pertumbuhan: dana darurat, utang mahal lunas, perlindungan, dan selalu legal dan logis."
       },
       {
        "en": "Family obligations belong in the plan and in the conversation, not in the leftovers.",
-       "id": "Kewajiban keluarga berada di dalam rencana dan percakapan, bukan di sisa-sisa."
+       "id": "Kewajiban keluarga tempatnya di dalam rencana dan di dalam percakapan, bukan di sisa uang."
       }
      ],
      "journey": {
@@ -50236,7 +50236,7 @@ window.MT_LMS['the-route'] = {
        },
        "desc": {
         "en": "Total compensation, the savings system, investment foundations, the long horizon.",
-        "id": "Total kompensasi, sistem tabungan, dasar investasi, cakrawala panjang."
+        "id": "Total kompensasi, sistem tabungan, dasar-dasar investasi, cakrawala jangka panjang."
        }
       },
       "now": {
@@ -50246,7 +50246,7 @@ window.MT_LMS['the-route'] = {
        },
        "desc": {
         "en": "You have audited a package, rebuilt a savings system, handled debt, schemes and family, set a horizon, and built your own plan.",
-        "id": "Kamu sudah mengaudit paket, membangun ulang sistem tabungan, menangani utang, skema, dan keluarga, menetapkan cakrawala, dan membangun rencanamu sendiri."
+        "id": "Kamu sudah mengaudit sebuah paket, menyusun ulang sistem tabungan, menangani utang, skema, dan keluarga, menetapkan cakrawala, dan menyusun rencanamu sendiri."
        }
       },
       "next": {
@@ -50256,7 +50256,7 @@ window.MT_LMS['the-route'] = {
        },
        "desc": {
         "en": "Executive presence, developing others, a reputation worth following, and thinking like a leader before you have the title.",
-        "id": "Kehadiran eksekutif, mengembangkan orang lain, reputasi yang layak diikuti, dan berpikir seperti pemimpin sebelum memegang jabatannya."
+        "id": "Kehadiran eksekutif, mengembangkan orang lain, reputasi yang layak diikuti, dan berpikir seperti pemimpin sebelum jabatannya datang."
        },
        "lesson": "9.1"
       }
@@ -50752,7 +50752,7 @@ window.MT_LMS['the-route'] = {
         "id": "Apa itu kehadiran: dan apa yang bukan"
        },
        "body": {
-        "en": "Sylvia Ann Hewlett’s research on <i>Executive Presence</i> describes it as a combination of how you act (gravitas: confidence, composure, decisiveness), how you speak (communication: clarity, ability to read an audience), and how you look (appearance: mainly not distracting from the first two). Her respondents weighted gravitas and communication far above appearance. That is good news for early-career professionals, because both can be practised. Presence is <b>not</b> dominance, speaking most, or sounding certain about things you are not sure of, in many workplaces, that reads as arrogance and damages trust. It <b>is</b> the steady impression that you have done the thinking, know what matters, and will not waste the room’s time. That impression is formed in small, sampled moments (Module 4): the first thirty seconds of an update in a regional meeting, how you respond when a director questions your number, the three-line email you send before a decision. Three habits drive most of it, and the rest of this lesson takes them in turn: <b>structure</b>: saying the conclusion first; <b>altitude</b>: pitching the message to what this audience needs to decide or do; and <b>composure</b>: staying calm and precise when challenged. A fourth, <b>respectful directness</b>, holds them together in an local context: clear content, delivered with courteous form. “Pak, rekomendasi saya adalah B, dengan tiga alasan” is both direct and polite; it is the vague, apologetic build-up before the point that costs presence, not the honorific.",
+        "en": "Sylvia Ann Hewlett’s research on <i>Executive Presence</i> describes it as a combination of how you act (gravitas: confidence, composure, decisiveness), how you speak (communication: clarity, ability to read an audience), and how you look (appearance: mainly not distracting from the first two). Her respondents weighted gravitas and communication far above appearance. That is good news for early-career professionals, because both can be practised. Presence is <b>not</b> dominance, speaking most, or sounding certain about things you are not sure of, in many workplaces, that reads as arrogance and damages trust. It <b>is</b> the steady impression that you have done the thinking, know what matters, and will not waste the room’s time. That impression is formed in small, sampled moments (Module 4): the first thirty seconds of an update in a regional meeting, how you respond when a director questions your number, the three-line email you send before a decision. Three habits drive most of it, and the rest of this lesson takes them in turn: <b>structure</b>: saying the conclusion first; <b>altitude</b>: pitching the message to what this audience needs to decide or do; and <b>composure</b>: staying calm and precise when challenged. A fourth, <b>respectful directness</b>, holds them together in an Indonesian context: clear content, delivered with courteous form. “Pak, rekomendasi saya adalah B, dengan tiga alasan” is both direct and polite; it is the vague, apologetic build-up before the point that costs presence, not the honorific.",
         "id": "Riset Sylvia Ann Hewlett tentang <i>Executive Presence</i> menggambarkannya sebagai gabungan cara kamu bertindak (gravitas: percaya diri, tenang, tegas), cara kamu berbicara (komunikasi: kejelasan, kemampuan membaca audiens), dan cara kamu tampil (penampilan: terutama tidak mengalihkan perhatian dari dua yang pertama). Para respondennya memberi bobot gravitas dan komunikasi jauh di atas penampilan. Itu kabar baik bagi profesional awal karier, karena keduanya bisa dilatih. Kehadiran <b>bukan</b> mendominasi, paling banyak berbicara, atau terdengar yakin tentang hal yang belum pasti, di banyak tempat kerja, itu terbaca sebagai arogan dan merusak kepercayaan. Kehadiran <b>adalah</b> kesan mantap bahwa kamu sudah berpikir tuntas, tahu apa yang penting, dan tak akan membuang waktu ruangan. Kesan itu terbentuk di momen-momen kecil yang tersampel (Modul 4): tiga puluh detik pertama laporan di rapat regional, caramu merespons saat direktur mempertanyakan angkamu, email tiga baris yang kamu kirim sebelum sebuah keputusan. Tiga kebiasaan menggerakkan sebagian besarnya, dan sisa pelajaran ini membahasnya satu per satu: <b>struktur</b>: menyampaikan kesimpulan lebih dulu; <b>ketinggian</b>: menyesuaikan pesan dengan apa yang perlu diputuskan atau dilakukan audiens ini; dan <b>ketenangan</b>: tetap tenang dan tepat saat ditantang. Yang keempat, <b>lugas yang hormat</b>, menyatukan semuanya dalam konteks lokal: isi yang jelas, disampaikan dengan bentuk yang sopan. “Pak, rekomendasi saya adalah B, dengan tiga alasan” itu lugas sekaligus sopan; yang mengurangi kehadiran adalah pengantar yang samar dan penuh permintaan maaf sebelum inti, bukan sapaan hormatnya."
        },
        "table": {

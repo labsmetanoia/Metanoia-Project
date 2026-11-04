@@ -1,216 +1,216 @@
 # The Route · Module 7 · The Second Move
 
 @7.1#0
-t: Before any second move, take stock of five kinds of capital, and ask whether each would travel || Sebelum langkah kedua apa pun, inventarisasi lima jenis modal, dan tanyakan apakah masing-masing bisa dibawa
+t: Before any second move, take stock of five kinds of capital, and ask whether each would travel || Sebelum langkah kedua apa pun, data lima jenis modalmu, lalu tanyakan apakah masing-masing bisa dibawa
 em: whether each would travel || apakah masing-masing bisa dibawa
-sub: C. Newport’s argument: the good things in a career are bought with career capital, rare and valuable skills built through deliberate effort. || Argumen C. Newport: hal-hal baik dalam karier dibeli dengan modal karier, keterampilan langka dan berharga yang dibangun lewat usaha sengaja.
+sub: C. Newport’s argument: the good things in a career are bought with career capital: rare and valuable skills built through deliberate effort. || Argumen C. Newport: hal-hal baik dalam karier dibeli dengan modal karier, yaitu keterampilan langka dan berharga yang dibangun lewat usaha yang disengaja.
 lay: grid
 n0: Skills || Keterampilan
 n1: Evidence || Bukti
 n2: Reputation || Reputasi
 n3: Relationships || Hubungan
 n4: Options || Pilihan
-d0: Could you demonstrate it in a new setting in your first month? SME credit judgement; SQL reporting; explaining models to branches. || Bisakah kamu menunjukkannya di tempat baru pada bulan pertama? Penilaian kredit UMKM; pelaporan SQL; menjelaskan model ke cabang.
-d1: Numbers, witnesses and dates a stranger could check: the document check in 12 branches; taskforce findings adopted. || Angka, saksi, dan tanggal yang bisa diperiksa orang asing: cek dokumen di 12 cabang; temuan satgas yang diadopsi.
-d2: Would people outside your unit use the same words? “Paham data dan paham aturan”, known in two regions. || Apakah orang di luar unitmu memakai kata yang sama? “Paham data dan paham aturan”, dikenal di dua wilayah.
-d3: Who outside your current chain would vouch for you? || Siapa di luar rantai komandomu saat ini yang mau menjaminmu?
-d4: The doors your capital opens now, inside and outside, including staying. || Pintu yang dibuka modalmu sekarang, di dalam dan di luar, termasuk bertahan.
+d0: Could you demonstrate it in a new setting in your first month? SME credit judgement; SQL reporting; explaining models to branches. || Bisakah kamu menunjukkannya di tempat baru pada bulan pertama? Penilaian kredit UMKM; laporan dengan SQL; menjelaskan model kepada cabang.
+d1: Numbers, witnesses and dates a stranger could check: the document check in 12 branches; taskforce findings adopted. || Angka, saksi, dan tanggal yang bisa diperiksa orang asing: pemeriksaan dokumen di 12 cabang; temuan gugus tugas dipakai.
+d2: Would people outside your unit use the same words? “Paham data dan paham aturan”: known in two regions. || Apakah orang di luar unitmu akan memakai kata-kata yang sama? “Paham data dan paham aturan”: dikenal di dua wilayah.
+d3: Who outside your current chain would vouch for you? || Siapa di luar jalur atasanmu sekarang yang mau menjaminmu?
+d4: The doors your capital opens now, inside and outside, including staying. || Pintu-pintu yang dibuka modalmu sekarang, di dalam dan di luar, termasuk bertahan.
 i: gear,doc,tag,users,key
-band: Capital only counts in a move if someone new can verify it. || Modal hanya dihitung dalam sebuah langkah jika orang baru bisa memverifikasinya.
+band: Capital only counts in a move if someone new can verify it. || Modal hanya berarti saat pindah kalau orang baru bisa memeriksanya.
 
 @7.1#1
-t: Every role has an S-curve; where you are on it sets the default for staying or moving || Setiap peran punya kurva S; posisimu di kurva itu menentukan asumsi dasar bertahan atau pindah
+t: Every role has an S-curve; where you are on it sets the default for staying or moving || Setiap peran punya kurva S; posisimu di kurva itu menentukan pilihan bawaan untuk bertahan atau pindah
 em: where you are on it || posisimu di kurva itu
-sub: W. Johnson, Disrupt Yourself: a slow start, a steep middle where competence grows quickly, a flattening top where each month teaches less. || W. Johnson, Disrupt Yourself: awal yang lambat, tengah yang curam saat kompetensi tumbuh cepat, puncak yang mendatar saat tiap bulan mengajarkan lebih sedikit.
+sub: W. Johnson, Disrupt Yourself: a slow start, a steep middle where competence grows quickly, a flattening top where each month teaches less. || W. Johnson, Disrupt Yourself: awal yang lambat, tengah yang menanjak saat kemampuan tumbuh cepat, dan puncak yang mendatar saat setiap bulan mengajarimu lebih sedikit.
 lay: flow
-n0: Launch || Peluncuran
-n1: Steep || Curam
+n0: Launch || Awal
+n1: Steep || Menanjak
 n2: Top || Puncak
-d0: Still learning the basics; results not yet yours. Default: stay and learn. || Masih mempelajari dasar; hasil belum milikmu. Asumsi dasar: bertahan dan belajar.
-d1: Stretched most weeks; results forming. Default: stay and convert learning into evidence. || Teregang hampir tiap minggu; hasil mulai terbentuk. Asumsi dasar: bertahan dan ubah pembelajaran jadi bukti.
-d2: Teaching more than learning; a complete story to tell. Default: consider a new curve, inside first, then outside. || Lebih banyak mengajar daripada belajar; cerita utuh untuk diceritakan. Asumsi dasar: pertimbangkan kurva baru, di dalam dulu, lalu di luar.
+d0: Still learning the basics; results not yet yours. Default: stay and learn. || Masih mempelajari dasar-dasarnya; hasilnya belum menjadi milikmu. Pilihan bawaan: bertahan dan belajar.
+d1: Stretched most weeks; results forming. Default: stay and convert learning into evidence. || Tertantang hampir setiap minggu; hasil mulai terbentuk. Pilihan bawaan: bertahan dan ubah pembelajaran menjadi bukti.
+d2: Teaching more than learning; a complete story to tell. Default: consider a new curve, inside first, then outside. || Lebih banyak mengajar daripada belajar; ada kisah utuh untuk diceritakan. Pilihan bawaan: pertimbangkan kurva baru, di dalam dulu, lalu di luar.
 i: rocket,mountain,flag
-band: Moving on the lower curve wastes capital; the next employer sees a short stint with no result. || Pindah di kurva bawah membuang modal; pemberi kerja berikutnya melihat masa singkat tanpa hasil.
+band: Moving on the lower curve wastes capital; the next employer sees a short stint with no result. || Pindah di bagian bawah kurva membuang modal; pemberi kerja berikutnya hanya melihat masa kerja singkat tanpa hasil.
 
 @7.1#2
-t: A plateau or a structural block is a reason; a bad month is a mood || Dataran tinggi atau hambatan struktural adalah alasan; bulan yang buruk adalah suasana hati
-em: a bad month is a mood || bulan yang buruk adalah suasana hati
-sub: Push and pull reasons can each be good or weak; two biases make the vivid option look better than the vague one. || Alasan dorongan dan tarikan masing-masing bisa baik atau lemah; dua bias membuat pilihan yang mencolok tampak lebih baik dari yang samar.
+t: A plateau or a structural block is a reason; a bad month is a mood || Stagnasi atau hambatan struktural adalah alasan; bulan yang buruk hanyalah suasana hati
+em: a bad month is a mood || bulan yang buruk hanyalah suasana hati
+sub: Push and pull reasons can each be good or weak; two biases make the vivid option look better than the vague one. || Alasan dorongan dan tarikan masing-masing bisa kuat atau lemah; dua bias membuat pilihan yang jelas terlihat tampak lebih baik daripada yang samar.
 lay: columns
-cA: Good reasons || Alasan baik
+cA: Good reasons || Alasan yang kuat
 cAd: Push and pull || Dorongan dan tarikan
-a0: A flat curve that cannot be restarted inside || Kurva datar yang tak bisa dimulai ulang di dalam
-a1: A structural block: a freeze, no slot, a level unreachable from this unit || Hambatan struktural: pembekuan, tanpa slot, level yang tak terjangkau dari unit ini
-a2: A red line crossed repeatedly; health or family the role cannot accommodate || Garis merah dilanggar berulang; kesehatan atau keluarga yang tak bisa diakomodasi peran
-a3: Capital you cannot build here; the next door in your trajectory || Modal yang tak bisa dibangun di sini; pintu berikutnya di lintasanmu
-cB: Weak reasons || Alasan lemah
+a0: A flat curve that cannot be restarted inside || Kurva datar yang tidak bisa dimulai ulang di dalam
+a1: A structural block: a freeze, no slot, a level unreachable from this unit || Hambatan struktural: pembekuan, kursi yang tidak ada, level yang tidak bisa dicapai dari unit ini
+a2: A red line crossed repeatedly; health or family the role cannot accommodate || Garis merah berulang kali dilanggar; kesehatan atau keluarga yang tidak bisa diakomodasi peranmu
+a3: Capital you cannot build here; the next door in your trajectory || Modal yang tidak bisa kamu bangun di sini; pintu berikutnya dalam lintasanmu
+cB: Weak reasons || Alasan yang lemah
 cBd: Moods and mirages || Suasana hati dan fatamorgana
-b0: A bad month; one conflict || Bulan yang buruk; satu konflik
-b1: One lost promotion round with no diagnostic conversation || Satu putaran promosi yang hilang tanpa percakapan diagnostik
-b2: Boredom during a steep part that is simply hard || Kebosanan di bagian curam yang memang sulit
-b3: A title; a number alone; a friend’s move; a brand || Jabatan; angka semata; kepindahan teman; merek
+b0: A bad month; one conflict || Satu bulan yang buruk; satu konflik
+b1: One lost promotion round with no diagnostic conversation || Kalah satu putaran promosi tanpa percakapan diagnosis
+b2: Boredom during a steep part that is simply hard || Bosan di bagian kurva yang menanjak yang memang sedang berat
+b3: A title; a number alone; a friend’s move; a brand || Jabatan; angka saja; kepindahan teman; nama besar
 ic: check,x
 ia: chart,lock,shield,route
 ib: moon,question,pause,tag
-band: Move on evidence, not on a bad week. || Pindah karena bukti, bukan karena minggu yang buruk.
+band: Move on evidence, not on a bad week. || Pindahlah karena bukti, bukan karena minggu yang buruk.
 img: m/06-horizon.jpg
 
 @7.1#3
-t: Make “now” and “in twelve months” equally concrete with a five-line ledger || Buat “sekarang” dan “dua belas bulan lagi” sama konkretnya dengan buku besar lima baris
+t: Make “now” and “in twelve months” equally concrete with a five-line ledger || Buat “sekarang” dan “dua belas bulan lagi” sama konkretnya dengan neraca lima baris
 em: equally concrete || sama konkretnya
-sub: Most timing mistakes come from comparing a vivid option, the offer on the table, with a vague one, “staying”. || Kebanyakan kesalahan waktu datang dari membandingkan pilihan yang mencolok, tawaran di meja, dengan yang samar, “bertahan”.
+sub: Most timing mistakes come from comparing a vivid option (the offer on the table) with a vague one (“staying”). || Kebanyakan kesalahan soal waktu berasal dari membandingkan pilihan yang jelas terlihat (tawaran di depan mata) dengan pilihan yang samar (“bertahan”).
 lay: columns
 cA: Move now || Pindah sekarang
-cAd: What it costs and gains || Biaya dan hasilnya
-a0: Money: a bonus forfeited? A training bond to repay? Read your agreement (verify) || Uang: bonus hangus? Ikatan dinas yang harus dibayar? Baca perjanjianmu (verifikasi)
+cAd: What it costs and gains || Biaya dan keuntungannya
+a0: Money: a bonus forfeited? A training bond to repay? Read your agreement (verify) || Uang: bonus hangus? Ikatan dinas yang harus diganti? Baca perjanjianmu (periksa)
 a1: Story: “Was working on…” || Cerita: “Sedang mengerjakan…”
-a2: Relationships: a sponsor half-earned || Hubungan: sponsor yang baru setengah diperoleh
-a3: Window: this specific role || Jendela: peran spesifik ini
-a4: Life: relocation, probation, family timing || Hidup: relokasi, masa percobaan, waktu keluarga
+a2: Relationships: a sponsor half-earned || Hubungan: sponsor baru setengah diraih
+a3: Window: this specific role || Momen: peran yang spesifik ini
+a4: Life: relocation, probation, family timing || Hidup: pindah kota, masa percobaan, waktu untuk keluarga
 cB: Move in 12 months || Pindah 12 bulan lagi
-cBd: What it costs and gains || Biaya dan hasilnya
-b0: Money: bonus paid; bond expired; a higher base to negotiate from || Uang: bonus dibayar; ikatan berakhir; dasar lebih tinggi untuk bernegosiasi
-b1: Story: “Led … which achieved …” || Cerita: “Memimpin … yang mencapai …”
-b2: Relationships: a reference who has seen the result || Hubungan: pemberi referensi yang sudah melihat hasilnya
-b3: Window: similar roles, possibly one level higher || Jendela: peran serupa, mungkin satu level lebih tinggi
+cBd: What it costs and gains || Biaya dan keuntungannya
+b0: Money: bonus paid; bond expired; a higher base to negotiate from || Uang: bonus dibayar; ikatan dinas habis; gaji pokok lebih tinggi sebagai titik tawar
+b1: Story: “Led … which achieved …” || Cerita: “Memimpin … yang berhasil …”
+b2: Relationships: a reference who has seen the result || Hubungan: referensi yang sudah melihat hasilnya
+b3: Window: similar roles, possibly one level higher || Momen: peran serupa, mungkin satu level lebih tinggi
 b4: Life: more savings; family plans clearer || Hidup: tabungan lebih banyak; rencana keluarga lebih jelas
 ic: bolt,calendar
 ia: coin,doc,users,mail,heart
 ib: coin,doc,users,mail,heart
-band: Leaving two months before a pilot’s result turns “led” into “was working on”, for the rest of your career. || Pergi dua bulan sebelum hasil uji coba mengubah “memimpin” menjadi “sedang mengerjakan”, untuk sisa kariermu.
+band: Leaving two months before a pilot’s result turns “led” into “was working on”, for the rest of your career. || Pergi dua bulan sebelum hasil uji coba keluar mengubah “memimpin” menjadi “sedang mengerjakan”, untuk seterusnya dalam kariermu.
 img: bg/compass.jpg
 
 @7.2#0
-t: Ignore the title for a moment and describe the work: what capital does it build, and which door does it open? || Abaikan jabatan sejenak dan gambarkan pekerjaannya: modal apa yang dibangun, dan pintu mana yang dibuka?
-em: which door does it open? || pintu mana yang dibuka?
-sub: Start from the trajectory you designed in Lesson 1.2. || Mulai dari lintasan yang kamu rancang di Pelajaran 1.2.
+t: Ignore the title for a moment and describe the work: what capital does it build, and which door does it open? || Abaikan dulu jabatannya dan gambarkan pekerjaannya: modal apa yang dibangunnya, dan pintu mana yang dibukanya?
+em: which door does it open? || pintu mana yang dibukanya?
+sub: Start from the trajectory you designed in Lesson 1.2. || Mulailah dari lintasan yang kamu rancang di Pelajaran 1.2.
 lay: columns
-cA: Weak answer || Jawaban lemah
-cAd: What you hear when nobody has thought about the role || Yang kamu dengar saat tak ada yang memikirkan perannya
-a0: What would I do in a typical week? “Macam-macam, dinamis.” || Apa yang akan kulakukan di minggu biasa? “Macam-macam, dinamis.”
+cA: Weak answer || Jawaban yang lemah
+cAd: What you hear when nobody has thought about the role || Yang kamu dengar saat belum ada yang memikirkan perannya
+a0: What would I do in a typical week? “Macam-macam, dinamis.” || Apa yang akan saya kerjakan dalam seminggu yang biasa? “Macam-macam, dinamis.”
 a1: What does success look like at 90 days? “Nanti kita lihat.” || Seperti apa keberhasilan di hari ke-90? “Nanti kita lihat.”
-a2: What capital would I add? A bigger title || Modal apa yang akan kutambahkan? Jabatan yang lebih besar
-a3: Where do people in this role go next? Nobody knows || Ke mana orang di peran ini melangkah berikutnya? Tak ada yang tahu
-cB: Strong answer || Jawaban kuat
+a2: What capital would I add? A bigger title || Modal apa yang akan saya tambahkan? Jabatan yang lebih besar
+a3: Where do people in this role go next? Nobody knows || Ke mana orang di peran ini pergi berikutnya? Tidak ada yang tahu
+cB: Strong answer || Jawaban yang kuat
 cBd: What you hear when the role is real || Yang kamu dengar saat perannya nyata
 b0: Specific tasks, decisions and stakeholders || Tugas, keputusan, dan pemangku kepentingan yang spesifik
-b1: Two or three concrete outcomes || Dua atau tiga hasil konkret
-b2: Named skills or results you cannot build now: “built and ran a credit process for a digital product” || Keterampilan atau hasil bernama yang tak bisa kamu bangun sekarang: “membangun dan menjalankan proses kredit untuk produk digital”
-b3: Examples that match your next door || Contoh yang cocok dengan pintu berikutnya
+b1: Two or three concrete outcomes || Dua atau tiga hasil yang konkret
+b2: Named skills or results you cannot build now: “built and ran a credit process for a digital product” || Keterampilan atau hasil yang disebut namanya dan tidak bisa dibangun sekarang: “membangun dan menjalankan proses kredit untuk produk digital”
+b3: Examples that match your next door || Contoh yang cocok dengan pintu berikutnyamu
 ic: x,check
 ia: question,calendar,tag,map
 ib: list,target,gear,route
-band: A title, a number and a logo are not a role; evaluate what the next two years would actually build. || Jabatan, angka, dan logo bukanlah peran; nilai apa yang sebenarnya akan dibangun dua tahun ke depan.
+band: A title, a number and a logo are not a role; evaluate what the next two years would actually build. || Jabatan, angka, dan logo belum tentu sebuah peran; nilai apa yang benar-benar akan dibangun dua tahun ke depan.
 img: m/02-prep.jpg
 
 @7.2#1
-t: The manager is much of the job; ask where their last three reports went || Manajer adalah sebagian besar pekerjaan; tanyakan ke mana tiga bawahan terakhirnya pergi
-em: where their last three reports went || ke mana tiga bawahan terakhirnya pergi
-sub: Your next manager decides much of what you learn, how visible your work is, what your rating says, and whether you are put forward. || Manajer berikutmu menentukan sebagian besar yang kamu pelajari, seberapa terlihat kerjamu, apa kata peringkatmu, dan apakah kamu diajukan.
+t: The manager is much of the job; ask where their last three reports went || Atasan menentukan sebagian besar pekerjaannya; tanyakan ke mana tiga anak buah terakhirnya pergi
+em: where their last three reports went || ke mana tiga anak buah terakhirnya pergi
+sub: Your next manager decides much of what you learn, how visible your work is, what your rating says, and whether you are put forward. || Atasanmu berikutnya menentukan sebagian besar dari apa yang kamu pelajari, seberapa terlihat pekerjaanmu, apa isi nilai kinerjamu, dan apakah kamu diajukan.
 lay: list
-n0: “How do you like to work with the people on your team? How often do you meet one to one?” || “Bagaimana Anda suka bekerja dengan orang di tim? Seberapa sering bertemu empat mata?”
-n1: “Tell me about someone you developed. Where are they now?” || “Ceritakan seseorang yang Anda kembangkan. Di mana mereka sekarang?”
-n2: “How do you give feedback when something goes wrong?” || “Bagaimana Anda memberi umpan balik saat sesuatu salah?”
-n3: “What would you want from me that your last person in this role did not give you?” || “Apa yang Anda inginkan dari saya yang tidak diberikan orang sebelumnya di peran ini?”
-n4: Two backchannels: people who worked for them, found through your board || Dua jalur belakang: orang yang pernah bekerja untuk mereka, lewat dewanmu
+n0: “How do you like to work with the people on your team? How often do you meet one to one?” || “Bagaimana Bapak atau Ibu suka bekerja dengan anggota tim? Seberapa sering bertemu empat mata?”
+n1: “Tell me about someone you developed. Where are they now?” || “Ceritakan seseorang yang pernah Anda kembangkan. Di mana dia sekarang?”
+n2: “How do you give feedback when something goes wrong?” || “Bagaimana Anda memberi masukan saat ada yang salah?”
+n3: “What would you want from me that your last person in this role did not give you?” || “Apa yang Anda harapkan dari saya yang tidak diberikan orang sebelumnya di peran ini?”
+n4: Two backchannels: people who worked for them, found through your board || Dua jalur belakang: orang yang pernah bekerja di bawahnya, ditemukan lewat dewanmu
 l0: Working style || Gaya kerja
 l1: Track record || Rekam jejak
-l2: Feedback || Umpan balik
+l2: Feedback || Masukan
 l3: Expectations || Harapan
-l4: Verification || Verifikasi
+l4: Verification || Pengecekan
 i: users,route,chat,target,search
-band: Listen for specifics and names; thirty minutes in an interview, where both sides are performing, is not enough. || Dengarkan hal spesifik dan nama; tiga puluh menit wawancara, saat kedua pihak berakting, tidaklah cukup.
+band: Listen for specifics and names; thirty minutes in an interview, where both sides are performing, is not enough. || Dengarkan apakah jawabannya spesifik dan menyebut nama; tiga puluh menit di wawancara, ketika kedua pihak sama-sama tampil sebaik mungkin, tidak cukup.
 img: bg/fg-sprint-interview.jpg
 
 @7.2#2
-t: The organisation and the team: healthy in two years, and why is this seat empty? || Organisasi dan tim: sehat dua tahun lagi, dan mengapa kursi ini kosong?
-em: why is this seat empty? || mengapa kursi ini kosong?
-sub: For a listed company, the annual report; for a start-up, runway and funding stage; in regulated sectors, the licences the model requires (verify). || Untuk perusahaan tercatat, laporan tahunan; untuk start-up, runway dan tahap pendanaan; di sektor teregulasi, izin yang dibutuhkan modelnya (verifikasi).
+t: The organisation and the team: healthy in two years, and why is this seat empty? || Organisasi dan timnya: masih sehat dua tahun lagi, dan kenapa kursi ini kosong?
+em: why is this seat empty? || kenapa kursi ini kosong?
+sub: For a listed company, the annual report; for a start-up, runway and funding stage; in regulated sectors, the licences the model requires (verify). || Untuk perusahaan terbuka, laporan tahunannya; untuk perusahaan rintisan, dana operasional dan tahap pendanaannya; di sektor yang diatur ketat, izin yang dibutuhkan model bisnisnya (periksa).
 lay: grid
 n0: Organisation || Organisasi
 n1: Team || Tim
 n2: Culture || Budaya
-d0: Annual report or funding stage; news of layoffs; licences; where it invests, and whether your unit is part of that or a cost to be cut. || Laporan tahunan atau tahap pendanaan; berita PHK; izin; ke mana ia berinvestasi, dan apakah unitmu bagian darinya atau biaya yang dipangkas.
-d1: Growth or replacement? How many have left? Meet your future peers before you sign. || Pertumbuhan atau penggantian? Berapa yang sudah pergi? Temui calon rekanmu sebelum tanda tangan.
-d2: How decisions and mistakes are handled: consistent stories from different people; how the hiring process treats you. || Bagaimana keputusan dan kesalahan ditangani: cerita yang konsisten dari orang berbeda; bagaimana proses rekrutmen memperlakukanmu.
+d0: Annual report or funding stage; news of layoffs; licences; where it invests, and whether your unit is part of that or a cost to be cut. || Laporan tahunan atau tahap pendanaan; berita PHK; izin; tempat ia berinvestasi, dan apakah unitmu termasuk di dalamnya atau justru biaya yang akan dipangkas.
+d1: Growth or replacement? How many have left? Meet your future peers before you sign. || Pertumbuhan atau penggantian? Berapa orang yang sudah keluar? Temui calon rekan setimmu sebelum tanda tangan.
+d2: How decisions and mistakes are handled: consistent stories from different people; how the hiring process treats you. || Bagaimana keputusan dan kesalahan ditangani: cerita yang konsisten dari orang yang berbeda; cara proses rekrutmen memperlakukanmu.
 i: building,users,heart
-band: Look for evidence of culture rather than slogans; the way the process treats you is a sample of how the organisation will. || Cari bukti budaya, bukan slogan; cara proses memperlakukanmu adalah sampel cara organisasi akan memperlakukanmu.
+band: Look for evidence of culture rather than slogans; the way the process treats you is a sample of how the organisation will. || Carilah bukti budaya, bukan slogan; cara proses rekrutmen memperlakukanmu adalah contoh cara organisasi itu akan memperlakukanmu.
 
 @7.2#3
-t: Set the weights before you see the number, separate gates from weights, then test with three conversations || Tetapkan bobot sebelum melihat angkanya, pisahkan gerbang dari bobot, lalu uji dengan tiga percakapan
-em: before you see the number || sebelum melihat angkanya
-sub: Otherwise the salary quietly rewrites your priorities; staying is always one of the options scored. || Jika tidak, gaji diam-diam menulis ulang prioritasmu; bertahan selalu menjadi salah satu pilihan yang dinilai.
+t: Set the weights before you see the number, separate gates from weights, then test with three conversations || Tetapkan bobot sebelum kamu melihat angkanya, pisahkan syarat mutlak dari bobot, lalu uji dengan tiga percakapan
+em: before you see the number || sebelum kamu melihat angkanya
+sub: Otherwise the salary quietly rewrites your priorities; staying is always one of the options scored. || Kalau tidak, gaji diam-diam akan menulis ulang prioritasmu; bertahan selalu menjadi salah satu pilihan yang dinilai.
 lay: list
-n0: Learning the target capability (30%): stay 2, curve flat; option A 5, core of the role; option B 3 || Mempelajari kapabilitas sasaran (30%): bertahan 2, kurva datar; opsi A 5, inti peran; opsi B 3
-n1: Next door in the trajectory (25%): stay 3; A 4; B 3 || Pintu berikutnya di lintasan (25%): bertahan 3; A 4; B 3
-n2: Manager and team (20%): stay 4, known; A 4, two good backchannels; B 2, three left in 18 months || Manajer dan tim (20%): bertahan 4, dikenal; A 4, dua jalur belakang baik; B 2, tiga pergi dalam 18 bulan
+n0: Learning the target capability (30%): stay 2, curve flat; option A 5, core of the role; option B 3 || Mempelajari kemampuan yang diincar (30%): bertahan 2, kurvanya datar; pilihan A 5, inti perannya; pilihan B 3
+n1: Next door in the trajectory (25%): stay 3; A 4; B 3 || Pintu berikutnya dalam lintasan (25%): bertahan 3; A 4; B 3
+n2: Manager and team (20%): stay 4, known; A 4, two good backchannels; B 2, three left in 18 months || Atasan dan tim (20%): bertahan 4, sudah dikenal; A 4, dua cerita baik lewat jalur belakang; B 2, tiga orang keluar dalam 18 bulan
 n3: Total compensation, real terms (15%): stay 3; A 3; B 5 || Total kompensasi, nilai riil (15%): bertahan 3; A 3; B 5
-n4: Family and location (10%), gate: within a day of home: stay 5; A 3; B 3 || Keluarga dan lokasi (10%), gerbang: dalam sehari dari rumah: bertahan 5; A 3; B 3
-l0: Capability || Kapabilitas
+n4: Family and location (10%; gate: within a day of home): stay 5; A 3; B 3 || Keluarga dan lokasi (10%; syarat mutlak: maksimal sehari perjalanan dari rumah): bertahan 5; A 3; B 3
+l0: Capability || Kemampuan
 l1: Trajectory || Lintasan
-l2: Manager and team || Manajer dan tim
+l2: Manager and team || Atasan dan tim
 l3: Compensation || Kompensasi
 l4: Family and location || Keluarga dan lokasi
 i: cap,route,users,coin,heart
-band: A gate is a must-have; an option that fails it is out however well it scores. || Gerbang adalah syarat mutlak; pilihan yang gagal melewatinya gugur, sebagus apa pun nilainya.
+band: A gate is a must-have; an option that fails it is out however well it scores. || Syarat mutlak adalah hal yang wajib ada; pilihan yang gagal di situ langsung gugur, setinggi apa pun nilainya.
 img: bg/journey-start.jpg
 
 @7.3#0
-t: Inside first: most of your capital comes with you, and the forms range from a taskforce to a relocation || Di dalam dulu: sebagian besar modalmu ikut, dan bentuknya berkisar dari satgas sampai relokasi
-em: most of your capital comes with you || sebagian besar modalmu ikut
-sub: M. Bidwell, “Paying More to Get Less”: external hires were often paid more than internal promotions, yet rated lower early on and more likely to leave. || M. Bidwell, “Paying More to Get Less”: rekrutan eksternal sering dibayar lebih dari promosi internal, namun dinilai lebih rendah di awal dan lebih mungkin pergi.
+t: Inside first: most of your capital comes with you, and the forms range from a taskforce to a relocation || Di dalam dulu: sebagian besar modalmu ikut terbawa, dan bentuknya mulai dari gugus tugas sampai pindah kota
+em: most of your capital comes with you || sebagian besar modalmu ikut terbawa
+sub: M. Bidwell, “Paying More to Get Less”: external hires were often paid more than internal promotions, yet rated lower early on and more likely to leave. || M. Bidwell, “Paying More to Get Less”: karyawan dari luar sering dibayar lebih tinggi daripada karyawan internal yang dipromosikan, tetapi dinilai lebih rendah di awal dan lebih mungkin keluar.
 lay: grid
-n0: Project or taskforce || Proyek atau satgas
+n0: Project or taskforce || Proyek atau gugus tugas
 n1: Secondment || Penugasan sementara
 n2: Lateral move || Pindah setara
-n3: Promotion elsewhere || Promosi di tempat lain
-n4: Relocation || Relokasi
-d0: Low commitment, keep your job: testing a new area; visibility to another unit. || Komitmen rendah, pekerjaan tetap: menguji bidang baru; visibilitas ke unit lain.
-d1: Medium, months with a return: both sides testing the fit. || Menengah, berbulan-bulan dengan jalan kembali: kedua pihak menguji kecocokan.
-d2: Medium to high: breadth that later promotions need. || Menengah sampai tinggi: keluasan yang dibutuhkan promosi berikutnya.
-d3: High: a new level when your unit has no slot. || Tinggi: level baru saat unitmu tak punya slot.
-d4: Highest, work and life: head-office or regional exposure; bigger curves. || Tertinggi, kerja dan hidup: paparan kantor pusat atau regional; kurva lebih besar.
+n3: Promotion elsewhere || Promosi di unit lain
+n4: Relocation || Pindah kota
+d0: Low commitment (keep your job): testing a new area; visibility to another unit. || Komitmen rendah (pekerjaanmu tetap): mencoba bidang baru; terlihat oleh unit lain.
+d1: Medium (months, with a return): both sides testing the fit. || Sedang (beberapa bulan, lalu kembali): kedua pihak menguji kecocokan.
+d2: Medium to high: breadth that later promotions need. || Sedang sampai tinggi: keluasan yang kelak dibutuhkan untuk promosi.
+d3: High: a new level when your unit has no slot. || Tinggi: level baru saat unitmu tidak punya kursi.
+d4: Highest (work and life): head-office or regional exposure; bigger curves. || Paling tinggi (pekerjaan dan hidup): pengalaman di kantor pusat atau wilayah; kurva yang lebih besar.
 i: grid,refresh,arrow,steps,pin
-band: A new curve without starting from zero: your reputation, your knowledge of how decisions are made, and your sponsors still work. || Kurva baru tanpa mulai dari nol: reputasimu, pengetahuanmu tentang cara keputusan dibuat, dan sponsormu masih bekerja.
+band: A new curve without starting from zero: your reputation, your knowledge of how decisions are made, and your sponsors still work. || Kurva baru tanpa mulai dari nol: reputasimu, pemahamanmu tentang cara keputusan dibuat, dan sponsormu tetap berfungsi.
 
 @7.3#1
-t: Read the internal posting policy, then learn the second market: roles discussed before they are posted || Baca kebijakan lowongan internal, lalu pelajari pasar kedua: peran yang dibahas sebelum diumumkan
+t: Read the internal posting policy, then learn the second market: roles discussed before they are posted || Baca kebijakan lowongan internal, lalu pelajari pasar kedua: peran yang dibicarakan sebelum diumumkan
 em: the second market || pasar kedua
-sub: The policy usually answers the questions people are afraid to ask (verify). || Kebijakan biasanya menjawab pertanyaan yang orang takut tanyakan (verifikasi).
+sub: The policy usually answers the questions people are afraid to ask (verify). || Kebijakan itu biasanya menjawab pertanyaan yang takut diajukan orang (periksa).
 lay: grid
 n0: Minimum time in role || Masa minimum di peran
 n1: Performance threshold || Ambang kinerja
-n2: Manager notification || Pemberitahuan manajer
+n2: Manager notification || Pemberitahuan kepada atasan
 n3: Release period || Masa pelepasan
 n4: Grade and pay on moving || Golongan dan gaji saat pindah
 d0: Often twelve to twenty-four months; find out whether exceptions exist. || Sering dua belas sampai dua puluh empat bulan; cari tahu apakah ada pengecualian.
-d1: Which rating, from which review. || Peringkat mana, dari evaluasi mana.
-d2: Before applying, or before an offer? Approval or information? || Sebelum melamar, atau sebelum tawaran? Persetujuan atau informasi?
-d3: The maximum weeks your unit can hold you for handover. || Maksimum minggu unitmu bisa menahanmu untuk serah terima.
-d4: Lateral versus promotion rules; relocation allowances. || Aturan pindah setara versus promosi; tunjangan relokasi.
+d1: Which rating, from which review. || Nilai yang mana, dari evaluasi yang mana.
+d2: Before applying, or before an offer? Approval or information? || Sebelum melamar, atau sebelum tawaran keluar? Persetujuan atau sekadar pemberitahuan?
+d3: The maximum weeks your unit can hold you for handover. || Paling lama berapa minggu unitmu boleh menahanmu untuk serah terima.
+d4: Lateral versus promotion rules; relocation allowances. || Aturan pindah setara dan promosi; tunjangan untuk pindah kota.
 i: clock,chart,bell,calendar,coin
-band: Inside, your reputation is your CV; the roles worth having are often discussed in the second market before they reach the first. || Di dalam, reputasimu adalah CV-mu; peran yang layak sering dibahas di pasar kedua sebelum sampai ke pasar pertama.
+band: Inside, your reputation is your CV; the roles worth having are often discussed in the second market before they reach the first. || Di dalam, reputasimu adalah CV-mu; peran yang layak dikejar sering sudah dibicarakan di pasar kedua sebelum sampai ke pasar pertama.
 
 @7.3#2
-t: Your manager should hear it from you, early, framed as growth within the organisation, with a handover plan || Manajermu harus mendengarnya darimu, lebih awal, dibingkai sebagai pertumbuhan di dalam organisasi, dengan rencana serah terima
+t: Your manager should hear it from you, early, framed as growth within the organisation, with a handover plan || Atasanmu harus mendengarnya darimu, sejak awal, dibingkai sebagai bertumbuh di dalam organisasi, lengkap dengan rencana serah terima
 em: hear it from you || mendengarnya darimu
-sub: Applying in secret, so that your manager hears from HR or the other unit, breaks trust and reads as melangkahi atasan. || Melamar diam-diam, sehingga manajermu tahu dari HR atau unit lain, merusak kepercayaan dan terbaca sebagai melangkahi atasan.
+sub: Applying in secret, so that your manager hears from HR or the other unit, breaks trust and reads as melangkahi atasan. || Melamar diam-diam, sampai atasanmu mendengarnya dari HR atau unit lain, merusak kepercayaan dan terbaca sebagai melangkahi atasan.
 lay: flow
-n0: Appreciation || Apresiasi
+n0: Appreciation || Penghargaan
 n1: Direction || Arah
-n2: The ask || Permintaan
-n3: The handover || Serah terima
-d0: What you have learned in the role and from them, specifically. || Apa yang kamu pelajari di peran ini dan dari mereka, secara spesifik.
-d1: The capability you want to build next, and why this unit cannot give it. || Kapabilitas yang ingin kamu bangun berikutnya, dan mengapa unit ini tak bisa memberinya.
-d2: Their support, or at least their awareness, before you apply. || Dukungan mereka, atau setidaknya pengetahuan mereka, sebelum kamu melamar.
-d3: Who takes what, and how long the overlap would be. || Siapa menerima apa, dan berapa lama tumpang tindihnya.
+n2: The ask || Permintaannya
+n3: The handover || Serah terimanya
+d0: What you have learned in the role and from them, specifically. || Apa yang kamu pelajari di peran itu dan darinya, secara spesifik.
+d1: The capability you want to build next, and why this unit cannot give it. || Kemampuan yang ingin kamu bangun berikutnya, dan kenapa unit ini tidak bisa memberikannya.
+d2: Their support, or at least their awareness, before you apply. || Dukungannya, atau setidaknya sepengetahuannya, sebelum kamu melamar.
+d3: Who takes what, and how long the overlap would be. || Siapa mengambil alih apa, dan berapa lama tumpang tindihnya.
 i: heart,compass,hand,refresh
-band: Your current manager is part of the process, not an obstacle to hide from. || Manajermu saat ini adalah bagian dari proses, bukan penghalang untuk dihindari.
+band: Your current manager is part of the process, not an obstacle to hide from. || Atasanmu sekarang adalah bagian dari prosesnya, bukan penghalang yang perlu dihindari.
 
 @7.3#3
-t: Prepare as for an outside interview, then agree level, pay, release date and handover in writing || Bersiap seperti wawancara luar, lalu sepakati level, gaji, tanggal pelepasan, dan serah terima secara tertulis
+t: Prepare as for an outside interview, then agree level, pay, release date and handover in writing || Bersiaplah seperti untuk wawancara di luar, lalu sepakati level, gaji, tanggal pelepasan, dan serah terima secara tertulis
 em: in writing || secara tertulis
-sub: Internal candidates under-prepare, assuming being known is enough; the receiving manager may know you only as two words from a hallway. || Kandidat internal kurang bersiap, mengira dikenal saja cukup; manajer penerima mungkin mengenalmu hanya sebagai dua kata dari lorong.
+sub: Internal candidates under-prepare, assuming being known is enough; the receiving manager may know you only as two words from a hallway. || Kandidat internal sering kurang bersiap karena mengira dikenal saja sudah cukup; calon atasanmu di unit penerima mungkin hanya mengenalmu sebatas dua kata dari obrolan lorong.
 lay: grid
 n0: Level || Level
 n1: Pay and allowances || Gaji dan tunjangan
@@ -221,109 +221,109 @@ d1: “Apakah ada perubahan gaji, dan tunjangan relokasinya apa saja?” || “A
 d2: “Kapan tanggal yang disepakati kedua atasan?” || “Kapan tanggal yang disepakati kedua atasan?”
 d3: “Siapa menerima apa, dan berapa lama tumpang tindihnya?” || “Siapa menerima apa, dan berapa lama tumpang tindihnya?”
 i: layers,coin,calendar,refresh
-band: Bring evidence they can verify inside, name witnesses they know, and answer the obvious question first: why leave a unit where you are doing well? || Bawa bukti yang bisa mereka verifikasi di dalam, sebut saksi yang mereka kenal, dan jawab pertanyaan yang jelas lebih dulu: mengapa meninggalkan unit tempat kamu berhasil?
+band: Bring evidence they can verify inside, name witnesses they know, and answer the obvious question first: why leave a unit where you are doing well? || Bawa bukti yang bisa mereka periksa di dalam, sebut saksi yang mereka kenal, dan jawab dulu pertanyaan yang pasti muncul: kenapa meninggalkan unit tempat kamu sedang berkinerja baik?
 
 @7.4#0
-t: Search quietly: your own time, devices and words, and no employer data || Cari dengan tenang: waktu, perangkat, dan kata-katamu sendiri, dan tanpa data pemberi kerja
+t: Search quietly: your own time, devices and words, and no employer data || Cari dengan diam-diam: waktu, perangkat, dan kata-katamu sendiri, tanpa data pemberi kerja
 em: no employer data || tanpa data pemberi kerja
-sub: Most strong moves are made from a job, not between jobs; that creates a duty of discretion toward your employer and colleagues. || Kebanyakan langkah kuat dibuat dari sebuah pekerjaan, bukan di antara pekerjaan; itu menciptakan kewajiban kehati-hatian terhadap pemberi kerja dan rekanmu.
+sub: Most strong moves are made from a job, not between jobs; that creates a duty of discretion toward your employer and colleagues. || Kebanyakan kepindahan yang kuat dilakukan dari posisi masih bekerja, bukan di sela-sela pekerjaan; itu menimbulkan kewajiban menjaga kerahasiaan terhadap pemberi kerja dan rekan-rekanmu.
 lay: columns
 cA: Do || Lakukan
-cAd: Discretion || Kehati-hatian
-a0: Search on your own time and devices; take leave for interviews || Cari di waktu dan perangkatmu sendiri; ambil cuti untuk wawancara
-a1: Describe results in publishable terms || Gambarkan hasil dalam istilah yang bisa dipublikasikan
-a2: Tell one or two trusted board members || Beri tahu satu atau dua anggota dewan yang dipercaya
-a3: Line up references who have seen your work, with permission || Siapkan pemberi referensi yang pernah melihat kerjamu, dengan izin
+cAd: Discretion || Kerahasiaan
+a0: Search on your own time and devices; take leave for interviews || Cari di waktu dan dengan perangkatmu sendiri; ambil cuti untuk wawancara
+a1: Describe results in publishable terms || Gambarkan hasil dengan cara yang aman dipublikasikan
+a2: Tell one or two trusted board members || Beri tahu satu atau dua anggota dewan yang tepercaya
+a3: Line up references who have seen your work, with permission || Siapkan referensi yang pernah melihat pekerjaanmu, dengan izin mereka
 cB: Do not || Jangan
-cBd: What is seen before any recruiter sees it || Yang terlihat sebelum perekrut mana pun melihatnya
-b0: Use work laptops, email or hours for your search || Memakai laptop, surel, atau jam kerja untuk pencarianmu
-b1: Bring client lists, internal reports or numbers || Membawa daftar nasabah, laporan internal, atau angka
-b2: Announce it in the team chat or on social media || Mengumumkannya di obrolan tim atau media sosial
-b3: List your current manager before an offer depends on it || Mencantumkan manajermu saat ini sebelum sebuah tawaran bergantung padanya
+cBd: What is seen before any recruiter sees it || Yang terlihat sebelum rekruter mana pun melihatnya
+b0: Use work laptops, email or hours for your search || Memakai laptop, email, atau jam kerja kantor untuk mencari kerja
+b1: Bring client lists, internal reports or numbers || Membawa daftar nasabah, laporan internal, atau angka internal
+b2: Announce it in the team chat or on social media || Mengumumkannya di grup chat tim atau media sosial
+b3: List your current manager before an offer depends on it || Mencantumkan atasanmu sekarang sebelum tawaran bergantung pada itu
 ic: check,x
 ia: clock,pen,users,mail
 ib: laptop,lock,phone,warn
-band: A profile suddenly marked “open to work” is often seen by your manager before any recruiter. || Profil yang tiba-tiba ditandai “open to work” sering dilihat manajermu sebelum perekrut mana pun.
+band: A profile suddenly marked “open to work” is often seen by your manager before any recruiter. || Profil yang tiba-tiba bertanda “open to work” sering dilihat atasanmu lebih dulu sebelum rekruter mana pun.
 img: bg/negotiation.jpg
 
 @7.4#1
-t: Sign before you resign: a written offer, a read contract, conditions completed or clearly defined || Tanda tangan sebelum mundur: tawaran tertulis, kontrak yang terbaca, syarat yang selesai atau jelas
-em: sign before you resign || tanda tangan sebelum mundur
-sub: A verbal offer, a WhatsApp “selamat, kamu diterima”, or an offer “subject to final approval” is not an offer you can resign on. || Tawaran lisan, WhatsApp “selamat, kamu diterima”, atau tawaran “menunggu persetujuan akhir” bukan tawaran yang bisa menjadi dasar mundur.
+t: Sign before you resign: a written offer, a read contract, conditions completed or clearly defined || Tanda tangani dulu, baru mengundurkan diri: tawaran tertulis, kontrak yang sudah dibaca, syarat yang sudah beres atau jelas batasannya
+em: sign before you resign || Tanda tangani dulu, baru mengundurkan diri
+sub: A verbal offer, a WhatsApp “selamat, kamu diterima”, or an offer “subject to final approval” is not an offer you can resign on. || Tawaran lisan, pesan WhatsApp “selamat, kamu diterima”, atau tawaran yang “menunggu persetujuan akhir” bukanlah tawaran yang bisa dijadikan dasar untuk mengundurkan diri.
 lay: grid
 n0: Contract type and probation || Jenis kontrak dan masa percobaan
 n1: Start date || Tanggal mulai
-n2: Confidentiality, IP, non-compete || Kerahasiaan, HKI, non-kompetisi
-n3: Bond or clawback || Ikatan atau pengembalian
+n2: Confidentiality, IP, non-compete || Kerahasiaan, kekayaan intelektual, larangan bersaing
+n3: Bond or clawback || Ikatan dinas atau pengembalian biaya
 n4: Total compensation || Total kompensasi
-d0: Fixed-term or permanent, and whether probation applies: your security and the rules that apply to you (verify). || Waktu tertentu atau tidak tertentu, dan apakah ada masa percobaan: keamananmu dan aturan yang berlaku (verifikasi).
-d1: Must fit your current notice period. || Harus sesuai dengan masa pemberitahuanmu saat ini.
-d2: What you may and may not do during and after. || Apa yang boleh dan tidak boleh kamu lakukan selama dan sesudahnya.
-d3: What leaving early would cost. || Berapa biaya pergi lebih awal.
-d4: What was promised, in writing. || Yang dijanjikan, secara tertulis.
+d0: Fixed-term or permanent, and whether probation applies: your security and the rules that apply to you (verify). || PKWT atau PKWTT, dan apakah ada masa percobaan: keamanan kerjamu dan aturan yang berlaku untukmu (periksa).
+d1: Must fit your current notice period. || Harus cocok dengan masa pemberitahuanmu sekarang.
+d2: What you may and may not do during and after. || Apa yang boleh dan tidak boleh kamu lakukan selama dan sesudah bekerja.
+d3: What leaving early would cost. || Berapa biayanya kalau keluar lebih awal.
+d4: What was promised, in writing. || Apa yang dijanjikan, secara tertulis.
 i: clipboard,calendar,lock,coin,calc
-band: Evaluate with Lesson 7.2 and negotiate before signing, not after; The Rope’s Module 10 has the method. || Nilai dengan Pelajaran 7.2 dan negosiasikan sebelum tanda tangan, bukan sesudahnya; Modul 10 The Rope punya metodenya.
+band: Evaluate with Lesson 7.2 and negotiate before signing, not after; The Rope’s Module 10 has the method. || Nilai tawarannya dengan Pelajaran 7.2 dan bernegosiasilah sebelum tanda tangan, bukan sesudahnya; Modul 10 di The Rope punya metodenya.
 
 @7.4#2
-t: Your manager hears first, in person, from you, with a handover plan; decline counter-offers gracefully || Manajermu mendengar pertama, langsung, darimu, dengan rencana serah terima; tolak tawaran balik dengan santun
-em: hears first, in person, from you || mendengar pertama, langsung, darimu
-sub: Indonesian regulation requires written notice, commonly at least thirty days; your contract may set more (verify); follow the longer. || Regulasi Indonesia mewajibkan pemberitahuan tertulis, umumnya minimal tiga puluh hari; kontrakmu mungkin menetapkan lebih (verifikasi); ikuti yang lebih lama.
+t: Your manager hears first, in person, from you, with a handover plan; decline counter-offers gracefully || Atasanmu mendengarnya lebih dulu, langsung, darimu, dengan rencana serah terima; tolak tawaran balik dengan santun
+em: hears first, in person, from you || mendengarnya lebih dulu, langsung, darimu
+sub: Indonesian regulation requires written notice, commonly at least thirty days; your contract may set more (verify); follow the longer. || Peraturan di Indonesia mewajibkan pemberitahuan tertulis, umumnya paling lambat tiga puluh hari sebelumnya; kontrakmu bisa menetapkan lebih lama (periksa); ikuti yang paling lama.
 lay: flow
-n0: Fifteen private minutes || Lima belas menit pribadi
-n1: Say it plainly and warmly || Katakan terang dan hangat
+n0: Fifteen private minutes || Lima belas menit berdua
+n1: Say it plainly and warmly || Sampaikan dengan lugas dan hangat
 n2: The letter || Suratnya
 n3: The counter-offer || Tawaran balik
-d0: Early in the day, before HR, a colleague or a farewell post can reach them. || Di awal hari, sebelum HR, rekan, atau unggahan perpisahan sampai ke mereka.
-d1: Thanks for what you learned, the decision already made, your proposed last day, your handover plan. || Terima kasih atas yang kamu pelajari, keputusan yang sudah dibuat, hari terakhir yang kamu usulkan, rencana serah terimamu.
-d2: Bring the resignation letter so the conversation ends with the formal step done. || Bawa surat pengunduran diri agar percakapan berakhir dengan langkah formal selesai.
-d3: Thank them; the reasons that made you decide rarely change with a number. || Berterima kasih; alasan yang membuatmu memutuskan jarang berubah karena angka.
+d0: Early in the day, before HR, a colleague or a farewell post can reach them. || Di awal hari, sebelum HR, rekan kerja, atau unggahan perpisahan sampai kepadanya.
+d1: Thanks for what you learned, the decision already made, your proposed last day, your handover plan. || Terima kasih atas apa yang kamu pelajari, keputusan yang sudah diambil, usulan hari terakhir, dan rencana serah terimamu.
+d2: Bring the resignation letter so the conversation ends with the formal step done. || Bawa surat pengunduran dirinya supaya percakapan itu berakhir dengan langkah resmi yang sudah beres.
+d3: Thank them; the reasons that made you decide rarely change with a number. || Berterima kasihlah; alasan yang membuatmu memutuskan jarang berubah karena sebuah angka.
 i: clock,mic,doc,scale
-band: The order matters as much as the decision: manager, then HR, then the team, then anyone else. || Urutannya sama pentingnya dengan keputusannya: manajer, lalu HR, lalu tim, lalu yang lain.
+band: The order matters as much as the decision: manager, then HR, then the team, then anyone else. || Urutannya sama pentingnya dengan keputusannya: atasan, lalu HR, lalu tim, lalu yang lain.
 
 @7.4#3
-t: The last month is sampled; people remember how you left more vividly than what you did in the middle || Bulan terakhir tersampel; orang mengingat caramu pergi lebih jelas daripada yang kamu lakukan di tengah
-em: the last month is sampled || bulan terakhir tersampel
-sub: Return equipment and leave data behind: company files, templates built on company time and customer information are not yours to take. || Kembalikan peralatan dan tinggalkan data: berkas perusahaan, templat yang dibuat di waktu perusahaan, dan informasi nasabah bukan milikmu.
+t: The last month is sampled; people remember how you left more vividly than what you did in the middle || Bulan terakhir akan terekam; orang lebih mengingat cara kamu pergi daripada apa yang kamu kerjakan di tengah-tengahnya
+em: the last month is sampled || Bulan terakhir akan terekam
+sub: Return equipment and leave data behind: company files, templates built on company time and customer information are not yours to take. || Kembalikan perangkat dan tinggalkan datanya: berkas perusahaan, templat yang dibuat di jam kerja, dan informasi nasabah bukan milikmu untuk dibawa.
 lay: grid
-n0: Open work || Pekerjaan terbuka
+n0: Open work || Pekerjaan yang berjalan
 n1: Rhythm || Ritme
-n2: People || Orang
+n2: People || Orang-orang
 n3: Where things are || Letak semuanya
 n4: Risks || Risiko
-d0: Each file, its status and next step. || Setiap berkas, statusnya, dan langkah berikutnya.
-d1: Recurring tasks, deadlines, reports. || Tugas berulang, tenggat, laporan.
-d2: Key contacts and what each needs. || Kontak kunci dan kebutuhan masing-masing.
-d3: Folders, systems, access to transfer. || Folder, sistem, akses yang dialihkan.
+d0: Each file, its status and next step. || Tiap berkas, statusnya, dan langkah berikutnya.
+d1: Recurring tasks, deadlines, reports. || Tugas rutin, tenggat, laporan.
+d2: Key contacts and what each needs. || Kontak utama dan kebutuhan masing-masing.
+d3: Folders, systems, access to transfer. || Folder, sistem, akses yang perlu dialihkan.
 d4: The three things most likely to go wrong. || Tiga hal yang paling mungkin salah.
 i: doc,calendar,users,grid,warn
-band: Your former colleagues are your future network; introduce your successor to the people they will depend on. || Mantan rekanmu adalah jejaring masa depanmu; perkenalkan penggantimu kepada orang yang akan mereka andalkan.
+band: Your former colleagues are your future network; introduce your successor to the people they will depend on. || Mantan rekan kerjamu adalah jaringanmu di masa depan; perkenalkan penggantimu kepada orang-orang yang akan ia andalkan.
 
 @7.5#0
-t: Read like her board: separate the number from the capital, the title from the week, the offer from the contract || Baca seperti dewannya: pisahkan angka dari modal, jabatan dari minggu kerja, tawaran dari kontrak
+t: Read like her board: separate the number from the capital, the title from the week, the offer from the contract || Baca seperti dewannya: pisahkan angka dari modal, jabatan dari minggu kerjanya, tawaran dari kontraknya
 em: like her board || seperti dewannya
-sub: Four tabs: Nadia’s readiness notes, the three options, the policy and contracts, and her backchannel notes. Staying is an option; score it too. || Empat tab: catatan kesiapan Nadia, tiga pilihan, kebijakan dan kontrak, dan catatan jalur belakangnya. Bertahan adalah pilihan; nilai juga.
+sub: Four tabs: Nadia’s readiness notes, the three options, the policy and contracts, and her backchannel notes. Staying is an option; score it too. || Empat tab: catatan kesiapan Nadia, tiga pilihannya, kebijakan dan kontrak, serta catatan jalur belakangnya. Bertahan juga sebuah pilihan; beri nilai juga.
 lay: list
-n0: What each option would actually build in two years, not what it pays || Apa yang sebenarnya dibangun tiap pilihan dalam dua tahun, bukan bayarannya
-n1: What a typical week would contain, not what the business card says || Apa isi minggu biasanya, bukan apa kata kartu nama
-n2: What is written, with conditions completed, not what was said || Apa yang tertulis, dengan syarat terpenuhi, bukan yang dikatakan
-l0: Number versus capital || Angka versus modal
-l1: Title versus week || Jabatan versus minggu
-l2: Offer versus contract || Tawaran versus kontrak
+n0: What each option would actually build in two years, not what it pays || Apa yang benar-benar akan dibangun tiap pilihan dalam dua tahun, bukan berapa bayarannya
+n1: What a typical week would contain, not what the business card says || Isi seminggu yang biasa, bukan apa yang tertulis di kartu nama
+n2: What is written, with conditions completed, not what was said || Apa yang tertulis, dengan syarat yang sudah beres, bukan apa yang diucapkan
+l0: Number versus capital || Angka dibanding modal
+l1: Title versus week || Jabatan dibanding minggu kerja
+l2: Offer versus contract || Tawaran dibanding kontrak
 i: coin,calendar,clipboard
-band: There is more than one defensible answer; what is graded is whether yours follows from the evidence. || Ada lebih dari satu jawaban yang bisa dipertahankan; yang dinilai adalah apakah jawabanmu mengikuti buktinya.
+band: There is more than one defensible answer; what is graded is whether yours follows from the evidence. || Ada lebih dari satu jawaban yang bisa dipertanggungjawabkan; yang dinilai adalah apakah jawabanmu mengalir dari buktinya.
 img: m/06-horizon.jpg
 
 @7.5#1
-t: Then build your own Career Move Evaluation Framework: capital, curve, lenses, weights, gates || Lalu bangun Kerangka Evaluasi Langkah Kariermu sendiri: modal, kurva, lensa, bobot, gerbang
-em: your own Career Move Evaluation Framework || Kerangka Evaluasi Langkah Kariermu sendiri
-sub: Step 5 is your own framework. Model notes open after you submit. || Langkah 5 adalah kerangkamu sendiri. Catatan model terbuka setelah kamu mengumpulkan.
+t: Then build your own Career Move Evaluation Framework: capital, curve, lenses, weights, gates || Lalu susun Kerangka Penilaian Langkah Karier milikmu sendiri: modal, kurva, lensa, bobot, syarat mutlak
+em: your own Career Move Evaluation Framework || Kerangka Penilaian Langkah Karier milikmu sendiri
+sub: Step 5 is your own framework. Model notes open after you submit. || Langkah 5 adalah kerangkamu sendiri. Catatan model terbuka setelah kamu mengirim jawaban.
 lay: list
 n0: Five kinds of capital, and where you sit on the curve || Lima jenis modal, dan posisimu di kurva
-n1: Role, manager, organisation, team, with the questions you will ask || Peran, manajer, organisasi, tim, dengan pertanyaan yang akan kamu ajukan
-n2: Weights set before any number; gates named; staying scored || Bobot ditetapkan sebelum angka apa pun; gerbang disebut; bertahan dinilai
+n1: Role, manager, organisation, team: the questions you will ask || Peran, atasan, organisasi, tim: pertanyaan yang akan kamu ajukan
+n2: Weights set before any number; gates named; staying scored || Bobot ditetapkan sebelum ada angka; syarat mutlak disebutkan; bertahan juga dinilai
 l0: Readiness || Kesiapan
 l1: The four lenses || Empat lensa
-l2: The scoring || Penilaian
+l2: The scoring || Penilaiannya
 i: chart,eye,scale
-band: Compare, do not copy: Nadia’s weights are hers; yours come from your own architecture. || Bandingkan, jangan salin: bobot Nadia milik dia; milikmu datang dari arsitekturmu sendiri.
+band: Compare, do not copy: Nadia’s weights are hers; yours come from your own architecture. || Bandingkan, jangan menyalin: bobot Nadia adalah miliknya; bobotmu berasal dari arsitekturmu sendiri.
 img: bg/portal.jpg
