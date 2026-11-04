@@ -2907,11 +2907,11 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.1",
     "h": {
      "en": "Communication with Executive Presence",
-     "id": "Komunikasi dengan Kehadiran Eksekutif"
+     "id": "Berkomunikasi dengan Kehadiran Eksekutif"
     },
     "sub": {
      "en": "Answer first, altitude, composure under challenge, executive emails, respectful directness.",
-     "id": "Jawaban dulu, ketinggian, tenang saat ditantang, email eksekutif, lugas yang hormat."
+     "id": "Jawaban lebih dulu, ketinggian, ketenangan saat ditantang, email untuk eksekutif, lugas tetapi santun."
     }
    },
    {
@@ -2929,33 +2929,33 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.3",
     "h": {
      "en": "Building the Reputation of Someone Worth Following",
-     "id": "Membangun Reputasi sebagai Orang yang Layak Diikuti"
+     "id": "Membangun Reputasi Orang yang Layak Diikuti"
     },
     "sub": {
      "en": "The trust equation, Ki Hajar Dewantara’s triad, credit and ownership, holding the line.",
-     "id": "Persamaan kepercayaan, tiga semboyan Ki Hajar Dewantara, kredit dan kepemilikan, menjaga garis."
+     "id": "Persamaan kepercayaan, tiga semboyan Ki Hajar Dewantara, pujian dan pengakuan kesalahan, menjaga garis."
     }
    },
    {
     "lesson": "9.4",
     "h": {
      "en": "Thinking Like a Leader as an Individual Contributor",
-     "id": "Berpikir seperti Pemimpin sebagai Kontributor Individu"
+     "id": "Berpikir seperti Pemimpin Sebelum Punya Tim"
     },
     "sub": {
      "en": "Outcomes, systems, one-way and two-way doors, the pre-mortem, the stewardship review.",
-     "id": "Hasil, sistem, pintu satu arah dan dua arah, pre-mortem, tinjauan kepengurusan."
+     "id": "Hasil, sistem, pintu satu arah dan dua arah, pre-mortem, tinjauan tahunan."
     }
    },
    {
     "lesson": "9.5",
     "h": {
      "en": "Capstone: Nadia’s First Team",
-     "id": "Kasus Puncak: Tim Pertama Nadia"
+     "id": "Studi Kasus Penutup: Tim Pertama Nadia"
     },
     "sub": {
      "en": "A first week of leading: briefing, team, credit, a mistake, pressure and judgement.",
-     "id": "Minggu pertama memimpin: paparan, tim, kredit, kesalahan, tekanan, dan penilaian."
+     "id": "Minggu pertama memimpin: paparan, tim, pujian, sebuah kesalahan, tekanan, dan pertimbangan."
     }
    }
   ],
@@ -2965,16 +2965,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.1",
     "q": {
      "en": "An answer-first update to a director opens with…",
-     "id": "Laporan jawaban-dulu kepada direktur dibuka dengan…"
+     "id": "Kabar terbaru untuk direktur yang dimulai dari jawabannya dibuka dengan…"
     },
     "opts": [
      {
       "en": "The background of the project",
-      "id": "Latar belakang proyek"
+      "id": "Latar belakang proyeknya"
      },
      {
       "en": "The decision needed or the conclusion, in one sentence",
-      "id": "Keputusan yang dibutuhkan atau kesimpulan, dalam satu kalimat"
+      "id": "Keputusan yang dibutuhkan atau kesimpulannya, dalam satu kalimat"
      },
      {
       "en": "An apology for taking time",
@@ -2988,7 +2988,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Senior listeners evaluate; they need the answer before the reasons.",
-     "id": "Pendengar senior menilai; mereka butuh jawabannya sebelum alasannya."
+     "id": "Pendengar senior sedang menilai. Mereka butuh jawabannya sebelum alasannya."
     }
    },
    {
@@ -2996,30 +2996,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.1",
     "q": {
      "en": "A VP challenges your recommendation with an option you already rejected. The best sequence is…",
-     "id": "Seorang VP menantang rekomendasimu dengan opsi yang sudah kamu tolak. Urutan terbaik adalah…"
+     "id": "Seorang VP menantang rekomendasimu dengan opsi yang sudah kamu tolak. Urutan terbaiknya adalah…"
     },
     "opts": [
      {
       "en": "Defend immediately and at length",
-      "id": "Langsung membela panjang lebar"
+      "id": "Langsung membela diri panjang lebar"
      },
      {
       "en": "Pause, acknowledge the concern, give the reason briefly, bridge back to the decision",
-      "id": "Jeda, akui kekhawatirannya, beri alasan singkat, jembatani kembali ke keputusan"
+      "id": "Jeda, akui kekhawatirannya, beri alasan singkat, lalu kembalikan ke keputusan"
      },
      {
       "en": "Agree to avoid conflict",
-      "id": "Setuju agar tak berkonflik"
+      "id": "Setuju saja supaya tidak ada konflik"
      },
      {
       "en": "Say you will think about it",
-      "id": "Bilang akan memikirkannya"
+      "id": "Bilang akan memikirkannya dulu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Composure is a sequence you can practise.",
-     "id": "Ketenangan adalah urutan yang bisa dilatih."
+     "id": "Ketenangan adalah urutan langkah yang bisa dilatih."
     }
    },
    {
@@ -3027,7 +3027,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.2",
     "q": {
      "en": "In Oncken and Wass’s terms, asking “What do you recommend?” when a junior brings a problem…",
-     "id": "Dalam istilah Oncken dan Wass, bertanya “Apa rekomendasimu?” saat junior membawa masalah…"
+     "id": "Dalam istilah Oncken dan Wass, bertanya “Apa rekomendasimu?” saat seorang junior membawa masalah…"
     },
     "opts": [
      {
@@ -3036,11 +3036,11 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Keeps the monkey with them and builds their judgement",
-      "id": "Menjaga monyetnya tetap pada mereka dan membangun penilaiannya"
+      "id": "Menjaga monyetnya tetap di tangan mereka dan membangun pertimbangan mereka"
      },
      {
       "en": "Is rude in Indonesian workplaces",
-      "id": "Tidak sopan di tempat kerja Indonesia"
+      "id": "Dianggap tidak sopan di tempat kerja Indonesia"
      },
      {
       "en": "Delays the work",
@@ -3050,7 +3050,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "The next move stays with the person who owns the task.",
-     "id": "Langkah berikutnya tetap pada orang yang memiliki tugasnya."
+     "id": "Langkah berikutnya tetap di tangan orang yang memiliki tugas itu."
     }
    },
    {
@@ -3058,7 +3058,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.2",
     "q": {
      "en": "A junior says “siap” quickly after every briefing but keeps making the same error. The best first move is…",
-     "id": "Seorang junior selalu cepat berkata “siap” setelah setiap pengarahan tetapi terus membuat kesalahan yang sama. Langkah pertama terbaik adalah…"
+     "id": "Seorang junior selalu cepat menjawab “siap” setiap kali diberi arahan, tetapi terus mengulang kesalahan yang sama. Langkah pertama terbaik adalah…"
     },
     "opts": [
      {
@@ -3067,21 +3067,21 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Ask them to explain the plan back, then teach the principle with a worked example and a checklist",
-      "id": "Memintanya menjelaskan kembali rencananya, lalu mengajarkan prinsipnya dengan contoh jadi dan daftar periksa"
+      "id": "Memintanya menjelaskan ulang rencananya, lalu mengajarkan prinsipnya dengan contoh jadi dan daftar periksa"
      },
      {
       "en": "Report them to your manager",
-      "id": "Melaporkannya kepada manajermu"
+      "id": "Melaporkannya kepada atasanmu"
      },
      {
       "en": "Give them less work",
-      "id": "Memberinya lebih sedikit pekerjaan"
+      "id": "Mengurangi pekerjaannya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "“Siap” in a hierarchy can hide confusion; a play-back check and teaching address the cause.",
-     "id": "“Siap” dalam hierarki bisa menyembunyikan kebingungan; pengecekan menjelaskan kembali dan mengajar menangani penyebabnya."
+     "id": "Di lingkungan hierarkis, “siap” bisa menyembunyikan kebingungan. Meminta ia menjelaskan ulang, lalu mengajarinya, menyentuh penyebabnya."
     }
    },
    {
@@ -3089,12 +3089,12 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.3",
     "q": {
      "en": "In the trust equation, what reduces trustworthiness across the board?",
-     "id": "Dalam persamaan kepercayaan, apa yang mengurangi kelayakan dipercaya secara keseluruhan?"
+     "id": "Dalam persamaan kepercayaan, apa yang menurunkan tingkat kepercayaan secara menyeluruh?"
     },
     "opts": [
      {
       "en": "Low credibility only",
-      "id": "Hanya kredibilitas rendah"
+      "id": "Hanya kredibilitas yang rendah"
      },
      {
       "en": "High self-orientation",
@@ -3102,7 +3102,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Too much reliability",
-      "id": "Terlalu andal"
+      "id": "Keandalan yang berlebihan"
      },
      {
       "en": "Keeping confidences",
@@ -3112,7 +3112,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Self-orientation is the denominator: it divides everything else.",
-     "id": "Orientasi diri adalah penyebutnya: ia membagi semua yang lain."
+     "id": "Orientasi diri adalah pembaginya. Unsur ini membagi semua unsur lainnya."
     }
    },
    {
@@ -3120,30 +3120,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.3",
     "q": {
      "en": "You discover an error in a report you approved that has already gone out. The ownership statement includes…",
-     "id": "Kamu menemukan kesalahan di laporan yang kamu setujui dan sudah terkirim. Pernyataan kepemilikan memuat…"
+     "id": "Kamu menemukan kesalahan di laporan yang kamu setujui dan sudah terkirim. Pernyataan kepemilikannya memuat…"
     },
     "opts": [
      {
       "en": "Who built the report",
-      "id": "Siapa yang membuat laporannya"
+      "id": "Siapa yang menyusun laporannya"
      },
      {
-      "en": "The mistake, your part, the fix and the process change, no excuses",
+      "en": "The mistake, your part, the fix and the process change, with no excuses",
       "id": "Kesalahannya, bagianmu, perbaikannya, dan perubahan prosesnya, tanpa dalih"
      },
      {
       "en": "A long apology",
-      "id": "Permintaan maaf panjang"
+      "id": "Permintaan maaf yang panjang"
      },
      {
       "en": "Why the data source was poor",
-      "id": "Mengapa sumber datanya buruk"
+      "id": "Alasan kenapa sumber datanya buruk"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Owning it first, and fixing the process, builds followership.",
-     "id": "Mengakuinya lebih dulu, dan memperbaiki prosesnya, membangun kepengikutan."
+     "id": "Mengakuinya lebih dulu, lalu memperbaiki prosesnya, membuat orang mau mengikutimu."
     }
    },
    {
@@ -3156,11 +3156,11 @@ window.MT_ASSESS['the-route'] = {
     "opts": [
      {
       "en": "Slowly, by a committee",
-      "id": "Perlahan, oleh komite"
+      "id": "Pelan-pelan, oleh komite"
      },
      {
       "en": "Quickly, by the person closest to the work",
-      "id": "Cepat, oleh orang yang paling dekat dengan pekerjaannya"
+      "id": "Dengan cepat, oleh orang yang paling dekat dengan pekerjaannya"
      },
      {
       "en": "Never",
@@ -3168,13 +3168,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Only after 100% of the information",
-      "id": "Hanya setelah 100% informasi"
+      "id": "Hanya setelah informasinya lengkap 100%"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Reversible decisions reward speed; irreversible ones reward care.",
-     "id": "Keputusan yang bisa dibalik menghargai kecepatan; yang tak bisa dibalik menghargai kehati-hatian."
+     "id": "Keputusan yang bisa dibalik diuntungkan oleh kecepatan; yang tidak bisa dibalik diuntungkan oleh kehati-hatian."
     }
    },
    {
@@ -3182,7 +3182,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.4",
     "q": {
      "en": "Before a major launch, the team is confident. A useful way to surface hidden risks is…",
-     "id": "Sebelum peluncuran besar, tim merasa yakin. Cara berguna memunculkan risiko tersembunyi adalah…"
+     "id": "Menjelang peluncuran besar, tim merasa yakin. Cara yang berguna untuk memunculkan risiko tersembunyi adalah…"
     },
     "opts": [
      {
@@ -3191,7 +3191,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "A pre-mortem: imagine it failed and have everyone write why, anonymously",
-      "id": "Pre-mortem: bayangkan gagal dan minta semua menuliskan alasannya, anonim"
+      "id": "Pre-mortem: bayangkan peluncurannya gagal dan minta semua orang menulis alasannya secara anonim"
      },
      {
       "en": "Postpone the launch",
@@ -3199,13 +3199,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Ask only the most senior person",
-      "id": "Hanya bertanya kepada yang paling senior"
+      "id": "Bertanya hanya kepada orang yang paling senior"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "It gives juniors permission to voice doubts that hierarchy would hide.",
-     "id": "Ia memberi izin kepada junior untuk menyuarakan keraguan yang disembunyikan hierarki."
+     "id": "Cara ini memberi junior izin menyuarakan keraguan yang biasanya tertutup oleh hierarki."
     }
    },
    {
@@ -3213,16 +3213,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "9.5",
     "q": {
      "en": "A sales head asks you to support a full launch you will not recommend. The followable reply…",
-     "id": "Seorang kepala penjualan memintamu mendukung peluncuran penuh yang tak akan kamu rekomendasikan. Balasan yang layak diikuti…"
+     "id": "Seorang kepala penjualan memintamu mendukung peluncuran penuh yang tidak akan kamu rekomendasikan. Balasan yang membuat orang mau mengikutimu…"
     },
     "opts": [
      {
       "en": "Promises support to keep the peace",
-      "id": "Menjanjikan dukungan agar damai"
+      "id": "Menjanjikan dukungan supaya suasana tetap damai"
      },
      {
       "en": "Acknowledges his pressure, states your recommendation honestly and offers a legitimate alternative",
-      "id": "Mengakui tekanannya, menyatakan rekomendasimu dengan jujur, dan menawarkan alternatif yang sah"
+      "id": "Mengakui tekanan yang ia hadapi, menyampaikan rekomendasimu dengan jujur, dan menawarkan alternatif yang sah"
      },
      {
       "en": "Ignores the message",
@@ -3236,27 +3236,27 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Say the same thing to everyone, with respect, and give the business a real option.",
-     "id": "Katakan hal yang sama kepada semua orang, dengan hormat, dan beri bisnis pilihan yang nyata."
+     "id": "Katakan hal yang sama kepada semua orang, dengan santun, dan beri bisnis pilihan yang nyata."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Two questions. First: where have you already made the shift from individual-contributor thinking to leader thinking, and where do you still work from the old frame? Second: who is one person you will help develop in the next quarter, and how (teach, delegate, coach)?",
-    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: di mana kamu sudah bergeser dari cara berpikir kontributor individu ke cara berpikir pemimpin, dan di mana kamu masih memakai kerangka lama? Kedua: siapa satu orang yang akan kamu bantu kembangkan kuartal depan, dan bagaimana (mengajar, mendelegasikan, coaching)?"
+    "id": "Minimal 100 kata, untuk dua pertanyaan. Pertama: di bagian mana kamu sudah bergeser dari cara berpikir kontributor individu ke cara berpikir pemimpin, dan di bagian mana kamu masih bekerja dengan kerangka lama? Kedua: siapa satu orang yang akan kamu bantu berkembang di kuartal depan, dan bagaimana caranya (mengajar, mendelegasikan, coaching)?"
    },
    "guide": [
     {
      "en": "Use one real moment for each side of the first question.",
-     "id": "Pakai satu momen nyata untuk tiap sisi pertanyaan pertama."
+     "id": "Pakai satu momen nyata untuk masing-masing sisi pertanyaan pertama."
     },
     {
      "en": "Name the person (or their role) and the skill or level of initiative you will build.",
-     "id": "Sebut orangnya (atau perannya) dan keterampilan atau tingkat inisiatif yang akan kamu bangun."
+     "id": "Sebut nama orangnya (atau perannya) dan keterampilan atau tingkat inisiatif yang akan kamu bangun."
     },
     {
      "en": "End with a date, and put your yearly stewardship review in the calendar.",
-     "id": "Akhiri dengan tanggal: dan masukkan tinjauan kepengurusan tahunanmu ke kalender."
+     "id": "Akhiri dengan tanggal, lalu masukkan tinjauan tahunanmu ke kalender."
     }
    ],
    "min": 100

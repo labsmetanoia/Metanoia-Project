@@ -39,7 +39,7 @@ window.MT_LMS['the-route'] = {
    },
    "outcome": {
     "en": "By the end of this module you can read your current role for asset yield, describe a 3–5 year destination as three researched versions with a Plan Z, write milestones someone else could verify, schedule your decision gates and red lines, and inventory your career capital with evidence. Then you use all of it to make one real career decision on purpose.",
-    "id": "Di akhir modul ini kamu bisa membaca peranmu sekarang dari imbal hasil asetnya, menggambarkan tujuan 3–5 tahun sebagai tiga versi yang sudah diriset lengkap dengan Plan Z, menulis tonggak yang bisa diverifikasi orang lain, menjadwalkan gerbang keputusan dan garis merahmu, dan menginventaris modal kariermu dengan bukti. Lalu kamu memakai semuanya untuk mengambil satu keputusan karier yang nyata dengan sengaja."
+    "id": "Di akhir modul ini kamu bisa membaca peranmu sekarang dari imbal hasil asetnya, menggambarkan tujuan 3–5 tahun sebagai tiga versi yang sudah diriset lengkap dengan Plan Z, menulis tonggak yang bisa dicek orang lain, menjadwalkan gerbang keputusan dan garis merahmu, dan menginventaris modal kariermu dengan bukti. Lalu kamu memakai semuanya untuk mengambil satu keputusan karier yang nyata dengan sengaja."
    },
    "lessons": [
     {
@@ -5958,7 +5958,7 @@ window.MT_LMS['the-route'] = {
           },
           "help": {
            "en": "A milestone someone else could verify; a gate on a date, with its three inputs; tripwires that are observable, not moods; red lines as sentences. The reply should neither burn the bridge nor open a negotiation she is not ready for.",
-           "id": "Tonggak harus bisa diverifikasi orang lain. Gerbang harus punya tanggal dan tiga masukannya. Pemicu harus bisa diamati, bukan suasana hati. Garis merah ditulis sebagai kalimat. Balasannya tidak boleh memutus hubungan, tetapi juga tidak membuka negosiasi yang belum siap ia jalani."
+           "id": "Tonggak harus bisa dicek orang lain. Gerbang harus punya tanggal dan tiga masukannya. Pemicu harus bisa diamati, bukan suasana hati. Garis merah ditulis sebagai kalimat. Balasannya tidak boleh memutus hubungan, tetapi juga tidak membuka negosiasi yang belum siap ia jalani."
           },
           "placeholder": {
            "en": "Milestones: (1) … · by … · witness … (2) … (3) …\nGate: [month], inputs: yield score, gate progress, life constraints …\nTripwires: …\nRed lines: “…” / “…”\nReply to KilatPay: “Terima kasih … saya baru …; boleh saya simpan kontak Anda dan …”",
@@ -50277,12 +50277,12 @@ window.MT_LMS['the-route'] = {
     "id": "Fondasi Kepemimpinan"
    },
    "overview": {
-    "en": "Leadership is practised long before it is awarded. The final module of The Route builds the foundations while your badge still says individual contributor: communicating with executive presence, developing others as a multiplier, earning a reputation people want to follow, including Ki Hajar Dewantara’s ing ngarsa, ing madya, tut wuri, and thinking like a leader about outcomes, systems and decisions. Four lessons and a capstone case in which Nadia leads her first team, and you complete the ninth and final Career Kit item.",
-    "id": "Kepemimpinan dilatih jauh sebelum dianugerahkan. Modul terakhir The Route membangun fondasinya selagi lencanamu masih bertuliskan kontributor individu: berkomunikasi dengan kehadiran eksekutif, mengembangkan orang lain sebagai pengganda, meraih reputasi yang ingin diikuti orang, termasuk ing ngarsa, ing madya, tut wuri dari Ki Hajar Dewantara, dan berpikir seperti pemimpin tentang hasil, sistem, dan keputusan. Empat pelajaran dan kasus puncak di mana Nadia memimpin tim pertamanya, dan kamu menyelesaikan butir Career Kit kesembilan dan terakhir."
+    "en": "Leadership is practised long before it is awarded. The final module of The Route builds the foundations while your badge still says individual contributor: communicating with executive presence, developing others as a multiplier, earning a reputation people want to follow (including Ki Hajar Dewantara’s ing ngarsa, ing madya, tut wuri), and thinking like a leader about outcomes, systems and decisions. Four lessons and a capstone case in which Nadia leads her first team, and you complete the ninth and final Career Kit item.",
+    "id": "Kepemimpinan sudah dilatih jauh sebelum dianugerahkan. Modul terakhir The Route membangun fondasinya selagi jabatanmu masih kontributor individu: berkomunikasi dengan kehadiran eksekutif, mengembangkan orang lain sebagai pengganda, membangun reputasi yang membuat orang mau mengikutimu (termasuk lewat ing ngarsa, ing madya, tut wuri dari Ki Hajar Dewantara), dan berpikir seperti pemimpin soal hasil, sistem, dan keputusan. Empat pelajaran dan satu studi kasus penutup. Di studi kasus itu, Nadia memimpin tim pertamanya, dan kamu menyelesaikan isi kesembilan sekaligus terakhir Perangkat Karier."
    },
    "outcome": {
     "en": "By the end of this module you can brief senior leaders answer-first and stay composed under challenge, teach and delegate in ways that build others’ judgement, earn trust through credit, ownership and consistent standards, decide well with incomplete information, and review your whole Career Kit once a year.",
-    "id": "Di akhir modul ini kamu bisa memaparkan kepada pemimpin senior dengan jawaban dulu dan tetap tenang saat ditantang, mengajar dan mendelegasikan dengan cara yang membangun penilaian orang lain, meraih kepercayaan lewat kredit, kepemilikan, dan standar yang konsisten, memutuskan dengan baik dengan informasi tak lengkap, dan meninjau seluruh Career Kit-mu setahun sekali."
+    "id": "Di akhir modul ini kamu bisa memberi paparan kepada pimpinan senior dengan jawaban lebih dulu dan tetap tenang saat ditantang, mengajar dan mendelegasikan dengan cara yang menumbuhkan pertimbangan orang lain, mendapatkan kepercayaan lewat cara menyikapi pujian, mengakui kesalahan, dan standar yang konsisten, memutuskan dengan baik meski informasinya belum lengkap, serta meninjau seluruh Perangkat Kariermu sekali setahun."
    },
    "lessons": [
     {
@@ -50291,28 +50291,28 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Communication with Executive Presence",
-      "id": "Komunikasi dengan Kehadiran Eksekutif"
+      "id": "Berkomunikasi dengan Kehadiran Eksekutif"
      },
      "overview": {
-      "en": "Executive presence is not charisma, height or a loud voice. It is the impression, earned in a few minutes, that you know what matters, that you can be trusted with more, and that things are under control when you speak. This lesson breaks presence into skills you can practise long before you lead a team: structuring what you say so the answer comes first, pitching it at the altitude of your audience, staying composed when you are challenged, and writing the short messages senior people actually read; all in a way that fits professional norms of respect.",
-      "id": "Kehadiran eksekutif bukan karisma, postur, atau suara lantang. Ia adalah kesan, yang dibangun dalam beberapa menit, bahwa kamu tahu apa yang penting, bahwa kamu bisa dipercaya dengan tanggung jawab lebih, dan bahwa semuanya terkendali saat kamu berbicara. Pelajaran ini memecah kehadiran menjadi keterampilan yang bisa kamu latih jauh sebelum memimpin tim: menyusun ucapan agar jawabannya datang lebih dulu, menyesuaikannya dengan ketinggian pandangan audiensmu, tetap tenang saat ditantang, dan menulis pesan singkat yang benar-benar dibaca orang senior, semuanya dengan cara yang sesuai norma hormat profesional."
+      "en": "Executive presence is not charisma, height or a loud voice. It is the impression, earned in a few minutes, that you know what matters, that you can be trusted with more, and that things are under control when you speak. This lesson breaks presence into skills you can practise long before you lead a team: structuring what you say so the answer comes first, pitching it at the altitude of your audience, staying composed when you are challenged, and writing the short messages senior people actually read, all in a way that fits Indonesian norms of respect.",
+      "id": "Kehadiran eksekutif bukanlah karisma, tinggi badan, atau suara yang lantang. Kehadiran eksekutif adalah kesan, yang terbentuk dalam beberapa menit, bahwa kamu tahu apa yang penting, bahwa kamu bisa dipercaya memegang lebih banyak, dan bahwa semuanya terkendali saat kamu berbicara. Pelajaran ini memecah kehadiran itu menjadi keterampilan yang bisa kamu latih jauh sebelum memimpin tim: menyusun ucapanmu supaya jawabannya datang lebih dulu, menyampaikannya di ketinggian yang sesuai dengan pendengarmu, tetap tenang saat ditantang, dan menulis pesan singkat yang benar-benar dibaca para senior, semuanya dengan cara yang sesuai dengan norma kesopanan di Indonesia."
      },
      "objectives": [
       {
        "en": "Structure a message answer-first, with reasons in groups of three or fewer.",
-       "id": "Menyusun pesan dengan jawaban lebih dulu, dengan alasan dalam kelompok tiga atau kurang."
+       "id": "Menyusun pesan dengan jawaban lebih dulu, dengan alasan yang dikelompokkan paling banyak tiga."
       },
       {
        "en": "Pitch the same content at the altitude of different audiences.",
-       "id": "Menyesuaikan konten yang sama dengan ketinggian pandangan audiens yang berbeda."
+       "id": "Menyampaikan isi yang sama di ketinggian yang sesuai dengan pendengar yang berbeda."
       },
       {
        "en": "Stay composed under challenge: pause, acknowledge, answer, bridge.",
-       "id": "Tetap tenang saat ditantang: jeda, akui, jawab, jembatani."
+       "id": "Tetap tenang saat ditantang: jeda, akui, jawab, kembalikan."
       },
       {
        "en": "Write briefings and emails that senior readers act on.",
@@ -50330,36 +50330,36 @@ window.MT_LMS['the-route'] = {
         "n": "9.1",
         "title": {
          "en": "Communication with Executive Presence",
-         "id": "Komunikasi dengan Kehadiran Eksekutif"
+         "id": "Berkomunikasi dengan Kehadiran Eksekutif"
         }
        },
        "story": [
         {
          "en": "Start with the answer, then three reasons, then the detail on request",
-         "id": "Mulai dengan jawaban, lalu tiga alasan, lalu detail bila diminta"
+         "id": "Mulai dari jawabannya, lalu tiga alasan, lalu detailnya kalau diminta"
         },
         {
          "en": "The same project can be described at three altitudes; presence is choosing the right one for the room",
-         "id": "Proyek yang sama bisa digambarkan di tiga ketinggian; kehadiran adalah memilih yang tepat untuk ruangan"
+         "id": "Proyek yang sama bisa diceritakan di tiga ketinggian; kehadiran berarti memilih yang tepat untuk ruangannya"
         },
         {
          "en": "Composure is a skill, not a temperament: pause, acknowledge, answer, bridge back",
-         "id": "Ketenangan adalah keterampilan, bukan temperamen: jeda, akui, jawab, jembatani kembali"
+         "id": "Ketenangan adalah keterampilan, bukan watak: jeda, akui, jawab, lalu kembalikan"
         },
         {
          "en": "Presence is clear content in courteous form, not dominance, volume or false certainty",
-         "id": "Kehadiran adalah isi yang jelas dalam bentuk yang sopan, bukan dominasi, volume, atau kepastian palsu"
+         "id": "Kehadiran adalah isi yang jelas dalam bentuk yang santun, bukan dominasi, suara keras, atau kepastian palsu"
         }
        ],
        "takes": [
         {
          "h": {
           "en": "Answer first",
-          "id": "Jawaban dulu"
+          "id": "Jawaban lebih dulu"
          },
          "p": {
           "en": "Presence is structure under pressure: the steady impression that you have done the thinking and will not waste the room’s time.",
-          "id": "Kehadiran adalah struktur di bawah tekanan: kesan tenang bahwa kamu sudah berpikir dan tak akan membuang waktu ruangan."
+          "id": "Kehadiran adalah struktur di bawah tekanan: kesan tenang bahwa kamu sudah memikirkannya matang dan tidak akan membuang waktu orang di ruangan."
          }
         },
         {
@@ -50368,8 +50368,8 @@ window.MT_LMS['the-route'] = {
           "id": "Ketinggian yang tepat"
          },
          "p": {
-          "en": "The opposite mistake, abstractions for a team that needs to know what to do on Monday, costs just as much.",
-          "id": "Kesalahan sebaliknya, abstraksi untuk tim yang perlu tahu apa yang dikerjakan hari Senin, sama mahalnya."
+          "en": "The opposite mistake (abstractions for a team that needs to know what to do on Monday) costs just as much.",
+          "id": "Kesalahan sebaliknya (bicara serba abstrak kepada tim yang perlu tahu apa yang harus dikerjakan hari Senin) sama mahalnya."
          }
         },
         {
@@ -50379,17 +50379,17 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "If you do not know, say so plainly and commit to a time: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.”",
-          "id": "Jika tidak tahu, katakan terang dan janjikan waktu: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.”"
+          "id": "Kalau kamu tidak tahu, katakan terus terang dan janjikan waktunya: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.”"
          }
         },
         {
          "h": {
           "en": "Respectful directness",
-          "id": "Lugas yang hormat"
+          "id": "Lugas tetapi santun"
          },
          "p": {
           "en": "In writing the same rules hold: the answer in line one, the working in an appendix, the register respectful.",
-          "id": "Dalam tulisan aturan yang sama berlaku: jawaban di baris pertama, perhitungan di lampiran, register yang hormat."
+          "id": "Dalam tulisan, aturannya sama: jawabannya di baris pertama, hitungannya di lampiran, bahasanya santun."
          }
         }
        ],
@@ -50398,7 +50398,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Start with the answer, then three reasons, then the detail on request",
-          "id": "Mulai dengan jawaban, lalu tiga alasan, lalu detail bila diminta"
+          "id": "Mulai dari jawabannya, lalu tiga alasan, lalu detailnya kalau diminta"
          },
          "cols": [
           {
@@ -50408,7 +50408,7 @@ window.MT_LMS['the-route'] = {
            },
            "d": {
             "en": "Arrives at the point as attention runs out",
-            "id": "Tiba di intinya saat perhatian habis"
+            "id": "Sampai ke intinya saat perhatian sudah habis"
            },
            "items": [
             {
@@ -50419,12 +50419,12 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "list",
              "en": "Findings in the order they were found",
-             "id": "Temuan dalam urutan ditemukannya"
+             "id": "Temuan disampaikan sesuai urutan ditemukannya"
             },
             {
              "icon": "question",
              "en": "The ask, if it arrives, at minute nine",
-             "id": "Permintaannya, jika sampai, di menit kesembilan"
+             "id": "Permintaannya, kalau sempat, baru muncul di menit kesembilan"
             }
            ],
            "icon": "x"
@@ -50432,11 +50432,11 @@ window.MT_LMS['the-route'] = {
           {
            "l": {
             "en": "Answer-first",
-            "id": "Jawaban dulu"
+            "id": "Jawaban lebih dulu"
            },
            "d": {
             "en": "Lets the listener decide how deep to go",
-            "id": "Membiarkan pendengar memutuskan sedalam apa"
+            "id": "Pendengar bisa memilih seberapa dalam ingin menggali"
            },
            "items": [
             {
@@ -50463,22 +50463,22 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "B. Minto’s Pyramid Principle, or “bottom line up front”: senior listeners are evaluating, not learning.",
-          "id": "Prinsip Piramida B. Minto, atau “inti di depan”: pendengar senior sedang menilai, bukan belajar."
+          "id": "Pyramid Principle dari B. Minto, atau “bottom line up front”: pendengar senior sedang menilai, bukan sedang belajar."
          },
          "band": {
           "en": "Presence is structure under pressure: the steady impression that you have done the thinking and will not waste the room’s time.",
-          "id": "Kehadiran adalah struktur di bawah tekanan: kesan tenang bahwa kamu sudah berpikir dan tak akan membuang waktu ruangan."
+          "id": "Kehadiran adalah struktur di bawah tekanan: kesan tenang bahwa kamu sudah memikirkannya matang dan tidak akan membuang waktu orang di ruangan."
          },
          "em": {
           "en": "Start with the answer",
-          "id": "Mulai dengan jawaban"
+          "id": "Mulai dari jawabannya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "The same project can be described at three altitudes; presence is choosing the right one for the room",
-          "id": "Proyek yang sama bisa digambarkan di tiga ketinggian; kehadiran adalah memilih yang tepat untuk ruangan"
+          "id": "Proyek yang sama bisa diceritakan di tiga ketinggian; kehadiran berarti memilih yang tepat untuk ruangannya"
          },
          "img": "../../assets/pe/ed-lead.jpg",
          "layout": "flow",
@@ -50486,19 +50486,19 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "flag",
            "en": "Altitude",
-           "id": "Ketinggian",
+           "id": "Ketinggian atas",
            "d": {
             "en": "Directors and committees: the decision, the risk, the money, one or two numbers.",
-            "id": "Direktur dan komite: keputusan, risiko, uang, satu atau dua angka."
+            "id": "Direktur dan komite: keputusannya, risikonya, uangnya, satu atau dua angka."
            }
           },
           {
            "icon": "chart",
            "en": "Mid-level",
-           "id": "Tingkat menengah",
+           "id": "Ketinggian menengah",
            "d": {
             "en": "Your manager and peer managers: progress, issues, trade-offs, what you need.",
-            "id": "Manajermu dan manajer sejawat: kemajuan, masalah, pertukaran, yang kamu butuhkan."
+            "id": "Atasanmu dan atasan setingkat: kemajuan, masalah, pertukaran, dan apa yang kamu butuhkan."
            }
           },
           {
@@ -50507,28 +50507,28 @@ window.MT_LMS['the-route'] = {
            "id": "Permukaan tanah",
            "d": {
             "en": "Peers and your team: tasks, method, data, who does what by when.",
-            "id": "Rekan dan timmu: tugas, metode, data, siapa mengerjakan apa dan kapan."
+            "id": "Rekan sebaya dan timmu: tugas, metode, data, siapa mengerjakan apa dan kapan."
            }
           }
          ],
          "sub": {
           "en": "Presenting the SQL query and the three weeks of cleaning to a director feels like diligence; it reads as not knowing what matters.",
-          "id": "Mempresentasikan kueri SQL dan tiga minggu pembersihan ke direktur terasa seperti ketekunan; terbaca sebagai tak tahu apa yang penting."
+          "id": "Memaparkan query SQL dan tiga minggu pembersihan data kepada direktur terasa seperti ketekunan, padahal terbaca seperti tidak tahu mana yang penting."
          },
          "band": {
-          "en": "The opposite mistake, abstractions for a team that needs to know what to do on Monday, costs just as much.",
-          "id": "Kesalahan sebaliknya, abstraksi untuk tim yang perlu tahu apa yang dikerjakan hari Senin, sama mahalnya."
+          "en": "The opposite mistake (abstractions for a team that needs to know what to do on Monday) costs just as much.",
+          "id": "Kesalahan sebaliknya (bicara serba abstrak kepada tim yang perlu tahu apa yang harus dikerjakan hari Senin) sama mahalnya."
          },
          "em": {
           "en": "the right one for the room",
-          "id": "yang tepat untuk ruangan"
+          "id": "yang tepat untuk ruangannya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Composure is a skill, not a temperament: pause, acknowledge, answer, bridge back",
-          "id": "Ketenangan adalah keterampilan, bukan temperamen: jeda, akui, jawab, jembatani kembali"
+          "id": "Ketenangan adalah keterampilan, bukan watak: jeda, akui, jawab, lalu kembalikan"
          },
          "img": "../../assets/bg/fg-sprint-interview.jpg",
          "layout": "flow",
@@ -50539,7 +50539,7 @@ window.MT_LMS['the-route'] = {
            "id": "Jeda",
            "d": {
             "en": "One breath; it signals thought, not panic.",
-            "id": "Satu tarikan napas; menandakan berpikir, bukan panik."
+            "id": "Satu tarikan napas. Ini menandakan kamu berpikir, bukan panik."
            }
           },
           {
@@ -50563,7 +50563,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "arrow",
            "en": "Bridge",
-           "id": "Jembatani",
+           "id": "Kembalikan",
            "d": {
             "en": "“Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.”",
             "id": "“Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.”"
@@ -50572,22 +50572,22 @@ window.MT_LMS['the-route'] = {
          ],
          "sub": {
           "en": "Presence is tested most when someone senior pushes back: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, or silence.",
-          "id": "Kehadiran paling diuji saat seseorang senior menentang: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, atau keheningan."
+          "id": "Kehadiran paling diuji saat orang senior membantah: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, atau diam saja."
          },
          "band": {
           "en": "If you do not know, say so plainly and commit to a time: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.”",
-          "id": "Jika tidak tahu, katakan terang dan janjikan waktu: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.”"
+          "id": "Kalau kamu tidak tahu, katakan terus terang dan janjikan waktunya: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.”"
          },
          "em": {
           "en": "a skill, not a temperament",
-          "id": "keterampilan, bukan temperamen"
+          "id": "keterampilan, bukan watak"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Presence is clear content in courteous form, not dominance, volume or false certainty",
-          "id": "Kehadiran adalah isi yang jelas dalam bentuk yang sopan, bukan dominasi, volume, atau kepastian palsu"
+          "id": "Kehadiran adalah isi yang jelas dalam bentuk yang santun, bukan dominasi, suara keras, atau kepastian palsu"
          },
          "cols": [
           {
@@ -50613,12 +50613,12 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "clock",
              "en": "“I don’t know yet; I’ll confirm by 3 p.m.”",
-             "id": "“Saya belum tahu; saya konfirmasi sebelum jam tiga.”"
+             "id": "“Saya belum tahu; saya pastikan sebelum jam tiga sore.”"
             },
             {
              "icon": "heart",
              "en": "Direct content, courteous form",
-             "id": "Isi yang lugas, bentuk yang sopan"
+             "id": "Isi yang lugas, bentuk yang santun"
             }
            ],
            "icon": "check"
@@ -50630,7 +50630,7 @@ window.MT_LMS['the-route'] = {
            },
            "d": {
             "en": "What reads as arrogance",
-            "id": "Yang terbaca sebagai arogansi"
+            "id": "Yang terbaca sebagai arogan"
            },
            "items": [
             {
@@ -50641,17 +50641,17 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "list",
              "en": "Showing all the work you did",
-             "id": "Menunjukkan semua kerja yang kamu lakukan"
+             "id": "Memamerkan semua pekerjaan yang sudah kamu lakukan"
             },
             {
              "icon": "warn",
              "en": "Sounding certain about what you are not",
-             "id": "Terdengar yakin tentang hal yang tak kamu yakini"
+             "id": "Terdengar yakin soal hal yang tidak kamu yakini"
             },
             {
              "icon": "bolt",
              "en": "Bluntness that ignores hierarchy",
-             "id": "Keterusterangan yang mengabaikan hierarki"
+             "id": "Blak-blakan tanpa mengindahkan hierarki"
             }
            ],
            "icon": "x"
@@ -50662,15 +50662,15 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "S. A. Hewlett’s research on executive presence weighted gravitas and communication far above appearance; both can be practised.",
-          "id": "Riset S. A. Hewlett tentang kehadiran eksekutif menimbang wibawa dan komunikasi jauh di atas penampilan; keduanya bisa dilatih."
+          "id": "Riset S. A. Hewlett tentang kehadiran eksekutif menimbang wibawa dan komunikasi jauh di atas penampilan, dan keduanya bisa dilatih."
          },
          "band": {
           "en": "In writing the same rules hold: the answer in line one, the working in an appendix, the register respectful.",
-          "id": "Dalam tulisan aturan yang sama berlaku: jawaban di baris pertama, perhitungan di lampiran, register yang hormat."
+          "id": "Dalam tulisan, aturannya sama: jawabannya di baris pertama, hitungannya di lampiran, bahasanya santun."
          },
          "em": {
           "en": "clear content in courteous form",
-          "id": "isi yang jelas dalam bentuk yang sopan"
+          "id": "isi yang jelas dalam bentuk yang santun"
          }
         }
        ],
@@ -50689,18 +50689,18 @@ window.MT_LMS['the-route'] = {
       },
       "intro": {
        "en": "People judge readiness for more responsibility largely by how you communicate when it matters.",
-       "id": "Orang menilai kesiapan untuk tanggung jawab lebih sebagian besar dari caramu berkomunikasi saat hal itu penting."
+       "id": "Orang menilai kesiapanmu memikul tanggung jawab lebih besar sebagian besar dari caramu berkomunikasi di saat yang penting."
       },
       "slides": [
        {
         "h": {
          "en": "Answer first",
-         "id": "Jawaban dulu"
+         "id": "Jawaban lebih dulu"
         },
         "points": [
          {
           "en": "The recommendation, then three reasons, then the detail on request.",
-          "id": "Rekomendasi, lalu tiga alasan, lalu detail bila diminta."
+          "id": "Rekomendasinya, lalu tiga alasan, lalu rinciannya kalau diminta."
          }
         ]
        },
@@ -50712,7 +50712,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Directors want decisions and risks; peers want the how.",
-          "id": "Direktur ingin keputusan dan risiko; rekan ingin caranya."
+          "id": "Direktur butuh keputusan dan risiko; rekan sebaya butuh caranya."
          }
         ]
        },
@@ -50724,19 +50724,19 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Pause, acknowledge, answer, bridge back.",
-          "id": "Jeda, akui, jawab, jembatani kembali."
+          "id": "Jeda, akui, jawab, kembalikan ke keputusan."
          }
         ]
        },
        {
         "h": {
          "en": "Respectful directness",
-         "id": "Lugas yang hormat"
+         "id": "Lugas tetapi santun"
         },
         "points": [
          {
           "en": "Clear content, courteous form.",
-          "id": "Isi yang jelas, bentuk yang sopan."
+          "id": "Isinya jelas, bentuknya sopan."
          }
         ]
        }
@@ -50749,11 +50749,11 @@ window.MT_LMS['the-route'] = {
        "imgPos": "50% 40%",
        "h": {
         "en": "What presence is: and is not",
-        "id": "Apa itu kehadiran: dan apa yang bukan"
+        "id": "Apa itu kehadiran, dan apa yang bukan"
        },
        "body": {
-        "en": "Sylvia Ann Hewlett’s research on <i>Executive Presence</i> describes it as a combination of how you act (gravitas: confidence, composure, decisiveness), how you speak (communication: clarity, ability to read an audience), and how you look (appearance: mainly not distracting from the first two). Her respondents weighted gravitas and communication far above appearance. That is good news for early-career professionals, because both can be practised. Presence is <b>not</b> dominance, speaking most, or sounding certain about things you are not sure of, in many workplaces, that reads as arrogance and damages trust. It <b>is</b> the steady impression that you have done the thinking, know what matters, and will not waste the room’s time. That impression is formed in small, sampled moments (Module 4): the first thirty seconds of an update in a regional meeting, how you respond when a director questions your number, the three-line email you send before a decision. Three habits drive most of it, and the rest of this lesson takes them in turn: <b>structure</b>: saying the conclusion first; <b>altitude</b>: pitching the message to what this audience needs to decide or do; and <b>composure</b>: staying calm and precise when challenged. A fourth, <b>respectful directness</b>, holds them together in an Indonesian context: clear content, delivered with courteous form. “Pak, rekomendasi saya adalah B, dengan tiga alasan” is both direct and polite; it is the vague, apologetic build-up before the point that costs presence, not the honorific.",
-        "id": "Riset Sylvia Ann Hewlett tentang <i>Executive Presence</i> menggambarkannya sebagai gabungan cara kamu bertindak (gravitas: percaya diri, tenang, tegas), cara kamu berbicara (komunikasi: kejelasan, kemampuan membaca audiens), dan cara kamu tampil (penampilan: terutama tidak mengalihkan perhatian dari dua yang pertama). Para respondennya memberi bobot gravitas dan komunikasi jauh di atas penampilan. Itu kabar baik bagi profesional awal karier, karena keduanya bisa dilatih. Kehadiran <b>bukan</b> mendominasi, paling banyak berbicara, atau terdengar yakin tentang hal yang belum pasti, di banyak tempat kerja, itu terbaca sebagai arogan dan merusak kepercayaan. Kehadiran <b>adalah</b> kesan mantap bahwa kamu sudah berpikir tuntas, tahu apa yang penting, dan tak akan membuang waktu ruangan. Kesan itu terbentuk di momen-momen kecil yang tersampel (Modul 4): tiga puluh detik pertama laporan di rapat regional, caramu merespons saat direktur mempertanyakan angkamu, email tiga baris yang kamu kirim sebelum sebuah keputusan. Tiga kebiasaan menggerakkan sebagian besarnya, dan sisa pelajaran ini membahasnya satu per satu: <b>struktur</b>: menyampaikan kesimpulan lebih dulu; <b>ketinggian</b>: menyesuaikan pesan dengan apa yang perlu diputuskan atau dilakukan audiens ini; dan <b>ketenangan</b>: tetap tenang dan tepat saat ditantang. Yang keempat, <b>lugas yang hormat</b>, menyatukan semuanya dalam konteks lokal: isi yang jelas, disampaikan dengan bentuk yang sopan. “Pak, rekomendasi saya adalah B, dengan tiga alasan” itu lugas sekaligus sopan; yang mengurangi kehadiran adalah pengantar yang samar dan penuh permintaan maaf sebelum inti, bukan sapaan hormatnya."
+        "en": "Sylvia Ann Hewlett’s research on <i>Executive Presence</i> describes it as a combination of how you act (gravitas: confidence, composure, decisiveness), how you speak (communication: clarity, ability to read an audience), and how you look (appearance: mainly not distracting from the first two). Her respondents weighted gravitas and communication far above appearance. That is good news for early-career professionals, because both can be practised. Presence is <b>not</b> dominance, speaking most, or sounding certain about things you are not sure of; in many Indonesian workplaces, that reads as arrogance and damages trust. It <b>is</b> the steady impression that you have done the thinking, know what matters, and will not waste the room’s time. That impression is formed in small, sampled moments (Module 4): the first thirty seconds of an update in a regional meeting, how you respond when a director questions your number, the three-line email you send before a decision. Three habits drive most of it, and the rest of this lesson takes them in turn: <b>structure</b> (saying the conclusion first), <b>altitude</b> (pitching the message to what this audience needs to decide or do) and <b>composure</b> (staying calm and precise when challenged). A fourth, <b>respectful directness</b>, holds them together in an Indonesian context: clear content, delivered with courteous form. “Pak, rekomendasi saya adalah B, dengan tiga alasan” is both direct and polite; it is the vague, apologetic build-up before the point that costs presence, not the honorific.",
+        "id": "Riset Sylvia Ann Hewlett tentang <i>Executive Presence</i> menggambarkannya sebagai gabungan dari cara kamu bersikap (gravitas: percaya diri, tenang, tegas), cara kamu berbicara (komunikasi: kejelasan, kemampuan membaca pendengar), dan penampilanmu (terutama supaya tidak mengalihkan perhatian dari dua hal tadi). Para respondennya memberi bobot jauh lebih besar pada gravitas dan komunikasi daripada penampilan. Ini kabar baik bagi profesional muda, karena keduanya bisa dilatih. Kehadiran <b>bukanlah</b> mendominasi, paling banyak bicara, atau terdengar yakin soal hal yang sebenarnya belum pasti; di banyak tempat kerja di Indonesia, itu terbaca sebagai sombong dan merusak kepercayaan. Kehadiran <b>adalah</b> kesan yang ajek bahwa kamu sudah berpikir matang, tahu apa yang penting, dan tidak akan membuang waktu orang di ruangan. Kesan itu terbentuk di momen-momen kecil yang terekam (Modul 4): tiga puluh detik pertama laporanmu di rapat wilayah, caramu menanggapi saat seorang direktur mempertanyakan angkamu, email tiga baris yang kamu kirim sebelum sebuah keputusan. Ada tiga kebiasaan yang paling menentukan, dan sisa pelajaran ini membahasnya satu per satu: <b>struktur</b> (menyampaikan kesimpulan lebih dulu), <b>ketinggian</b> (menyesuaikan pesan dengan apa yang perlu diputuskan atau dilakukan pendengarnya), dan <b>ketenangan</b> (tetap tenang dan tepat saat ditantang). Kebiasaan keempat, <b>lugas tetapi santun</b>, menyatukan ketiganya dalam konteks Indonesia: isinya jelas, disampaikan dengan bentuk yang sopan. “Pak, rekomendasi saya adalah B, dengan tiga alasan” itu lugas sekaligus sopan; yang menggerus kehadiranmu adalah basa-basi yang samar dan penuh permintaan maaf sebelum sampai ke intinya, bukan sapaan hormatnya."
        },
        "table": {
         "cols": [
@@ -50763,54 +50763,54 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Presence is not…",
-          "id": "Kehadiran bukan…"
+          "id": "Kehadiran bukanlah…"
          }
         ],
         "rows": [
          [
           {
            "en": "The conclusion first, calmly",
-           "id": "Kesimpulan dulu, dengan tenang"
+           "id": "Kesimpulan lebih dulu, dengan tenang"
           },
           {
            "en": "Speaking most or loudest",
-           "id": "Paling banyak atau paling keras berbicara"
+           "id": "Paling banyak atau paling keras bicara"
           }
          ],
          [
           {
            "en": "Knowing what this audience needs",
-           "id": "Tahu apa yang dibutuhkan audiens ini"
+           "id": "Tahu apa yang dibutuhkan pendengar ini"
           },
           {
            "en": "Showing all the work you did",
-           "id": "Memperlihatkan semua pekerjaan yang kamu lakukan"
+           "id": "Memamerkan semua pekerjaan yang sudah kamu lakukan"
           }
          ],
          [
           {
            "en": "“I don’t know yet; I’ll confirm by 3 p.m.”",
-           "id": "“Saya belum tahu: saya konfirmasi paling lambat jam 3.”"
+           "id": "“Saya belum tahu; saya pastikan sebelum jam tiga.”"
           },
           {
            "en": "Sounding certain about what you are not",
-           "id": "Terdengar yakin tentang hal yang belum pasti"
+           "id": "Terdengar yakin soal hal yang belum pasti"
           }
          ],
          [
           {
            "en": "Direct content, courteous form",
-           "id": "Isi lugas, bentuk sopan"
+           "id": "Isi yang lugas, bentuk yang sopan"
           },
           {
            "en": "Bluntness that ignores hierarchy",
-           "id": "Blak-blakan yang mengabaikan hierarki"
+           "id": "Blak-blakan tanpa mengindahkan hierarki"
           }
          ]
         ],
         "caption": {
-         "en": "After S. A. Hewlett, <i>Executive Presence</i>; course guidance for the local context.",
-         "id": "Mengikuti S. A. Hewlett, <i>Executive Presence</i>; panduan kursus untuk konteks lokal."
+         "en": "After S. A. Hewlett, <i>Executive Presence</i>; course guidance for the Indonesian context.",
+         "id": "Berdasarkan S. A. Hewlett, <i>Executive Presence</i>; panduan kursus untuk konteks Indonesia."
         }
        }
       },
@@ -50818,11 +50818,11 @@ window.MT_LMS['the-route'] = {
        "icon": "target",
        "h": {
         "en": "Structure: answer first",
-        "id": "Struktur: jawaban dulu"
+        "id": "Struktur: jawaban lebih dulu"
        },
        "body": {
-        "en": "The single most useful structure for communicating upward comes from Barbara Minto’s <i>The Pyramid Principle</i>, developed for consultants: <b>start with the answer</b>, then give the few reasons that support it, then the evidence beneath each reason, and let the listener decide how deep to go. Military writers call a similar habit BLUF, “bottom line up front”. Most people do the opposite: they narrate chronologically, the background, what they did, what they found, and arrive at the recommendation just as the director’s attention runs out or the meeting ends. Answer-first works because senior listeners are evaluating, not learning: they need to know what you want from them before they can judge your reasons. A practical template for a two-minute spoken update: <b>(1) The point</b>: the decision needed or the conclusion, in one sentence. <b>(2) Why</b>: two or three reasons, each in one sentence, grouped and numbered (“tiga alasan”). <b>(3) The risk or ask</b>: what could go wrong and what you need. <b>(4) Detail on request</b>: “Detailnya ada di lampiran; saya bisa jelaskan bagian mana pun.” The same structure works in writing, where it matters even more: the subject line carries the point, the first two lines carry the recommendation and the ask, and everything else is optional. Two cautions. Answer-first is not rudeness; greeting and context of one sentence are fine (“Selamat pagi, Pak. Terkait pilot cek dokumen”). And it requires having an answer: if you do not have a recommendation yet, say what you know, what you do not, and when you will; that too is answer-first.",
-        "id": "Struktur paling berguna untuk berkomunikasi ke atas berasal dari <i>The Pyramid Principle</i> karya Barbara Minto, yang dikembangkan untuk konsultan: <b>mulai dengan jawabannya</b>, lalu beri beberapa alasan pendukungnya, lalu bukti di bawah tiap alasan, dan biarkan pendengar memutuskan seberapa dalam. Penulis militer menyebut kebiasaan serupa BLUF, “bottom line up front”. Kebanyakan orang melakukan kebalikannya: mereka bercerita secara kronologis, latar belakang, apa yang dilakukan, apa yang ditemukan, dan tiba di rekomendasi tepat saat perhatian direktur habis atau rapat berakhir. Jawaban-dulu berhasil karena pendengar senior sedang menilai, bukan belajar: mereka perlu tahu apa yang kamu minta sebelum bisa menilai alasanmu. Templat praktis untuk laporan lisan dua menit: <b>(1) Intinya</b>: keputusan yang dibutuhkan atau kesimpulan, dalam satu kalimat. <b>(2) Mengapa</b>: dua atau tiga alasan, masing-masing satu kalimat, dikelompokkan dan diberi nomor (“tiga alasan”). <b>(3) Risiko atau permintaan</b>: apa yang bisa salah dan apa yang kamu butuhkan. <b>(4) Detail bila diminta</b>: “Detailnya ada di lampiran; saya bisa jelaskan bagian mana pun.” Struktur yang sama bekerja dalam tulisan, di mana ia justru lebih penting: subjek membawa intinya, dua baris pertama membawa rekomendasi dan permintaan, dan sisanya opsional. Dua peringatan. Jawaban-dulu bukan kekasaran; salam dan konteks satu kalimat itu wajar (“Selamat pagi, Pak. Terkait pilot cek dokumen”). Dan ia menuntut adanya jawaban: jika kamu belum punya rekomendasi, sampaikan apa yang kamu ketahui, apa yang belum, dan kapan kamu akan tahu, itu pun jawaban-dulu."
+        "en": "The single most useful structure for communicating upward comes from Barbara Minto’s <i>The Pyramid Principle</i>, developed for consultants: <b>start with the answer</b>, then give the few reasons that support it, then the evidence beneath each reason, and let the listener decide how deep to go. Military writers call a similar habit BLUF, “bottom line up front”. Most people do the opposite: they narrate chronologically (the background, what they did, what they found) and arrive at the recommendation just as the director’s attention runs out or the meeting ends. Answer-first works because senior listeners are evaluating, not learning: they need to know what you want from them before they can judge your reasons. A practical template for a two-minute spoken update: <b>(1) The point</b>: the decision needed or the conclusion, in one sentence. <b>(2) Why</b>: two or three reasons, each in one sentence, grouped and numbered (“tiga alasan”). <b>(3) The risk or ask</b>: what could go wrong and what you need. <b>(4) Detail on request</b>: “Detailnya ada di lampiran; saya bisa jelaskan bagian mana pun.” The same structure works in writing, where it matters even more: the subject line carries the point, the first two lines carry the recommendation and the ask, and everything else is optional. Two cautions. Answer-first is not rudeness; greeting and context of one sentence are fine (“Selamat pagi, Pak. Terkait pilot cek dokumen”). And it requires having an answer: if you do not have a recommendation yet, say what you know, what you do not, and when you will; that too is answer-first.",
+        "id": "Struktur paling berguna untuk berkomunikasi ke atas berasal dari <i>The Pyramid Principle</i> karya Barbara Minto, yang dikembangkan untuk para konsultan: <b>mulai dari jawabannya</b>, lalu beberapa alasan yang mendukungnya, lalu bukti di bawah tiap alasan, dan biarkan pendengar memutuskan seberapa dalam ingin masuk. Para penulis di militer menyebut kebiasaan serupa BLUF, “bottom line up front”. Kebanyakan orang melakukan kebalikannya: bercerita secara kronologis (latar belakang, apa yang dikerjakan, apa yang ditemukan) dan baru sampai ke rekomendasi tepat saat perhatian direktur habis atau rapatnya selesai. Jawaban lebih dulu berhasil karena pendengar senior sedang menilai, bukan sedang belajar: mereka perlu tahu apa yang kamu minta sebelum bisa menimbang alasanmu. Templat praktis untuk laporan lisan dua menit: <b>(1) Intinya</b>: keputusan yang dibutuhkan atau kesimpulannya, dalam satu kalimat. <b>(2) Alasannya</b>: dua atau tiga alasan, masing-masing satu kalimat, dikelompokkan dan diberi nomor (“tiga alasan”). <b>(3) Risiko atau permintaannya</b>: apa yang bisa salah dan apa yang kamu butuhkan. <b>(4) Rincian kalau diminta</b>: “Detailnya ada di lampiran; saya bisa jelaskan bagian mana pun.” Struktur yang sama berlaku dalam tulisan, bahkan lebih penting lagi: baris subjek membawa intinya, dua baris pertama membawa rekomendasi dan permintaannya, dan sisanya boleh dibaca atau tidak. Dua peringatan. Jawaban lebih dulu bukan berarti tidak sopan; salam dan konteks satu kalimat tetap wajar (“Selamat pagi, Pak. Terkait pilot cek dokumen”). Struktur ini juga menuntut kamu punya jawaban: kalau belum punya rekomendasi, sampaikan apa yang sudah kamu tahu, apa yang belum, dan kapan kamu akan tahu; itu pun termasuk jawaban lebih dulu."
        },
        "table": {
         "cols": [
@@ -50832,7 +50832,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Answer-first (strong)",
-          "id": "Jawaban dulu (kuat)"
+          "id": "Jawaban lebih dulu (kuat)"
          }
         ],
         "rows": [
@@ -50849,7 +50849,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Findings in the order they were found",
-           "id": "Temuan sesuai urutan ditemukan"
+           "id": "Temuan disampaikan sesuai urutan ditemukannya"
           },
           {
            "en": "“Tiga alasan: pengembalian turun sepertiga, biaya kecil, kepatuhan setuju.”",
@@ -50859,7 +50859,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "The ask, if it arrives, at minute nine",
-           "id": "Permintaan, jika sampai, di menit kesembilan"
+           "id": "Permintaannya, kalau sempat disampaikan, di menit kesembilan"
           },
           {
            "en": "“Yang saya butuhkan: persetujuan Bapak hari ini dan satu orang dari operasional.”",
@@ -50869,7 +50869,7 @@ window.MT_LMS['the-route'] = {
         ],
         "caption": {
          "en": "After B. Minto, <i>The Pyramid Principle</i>; fictional example.",
-         "id": "Mengikuti B. Minto, <i>The Pyramid Principle</i>; contoh fiktif."
+         "id": "Berdasarkan B. Minto, <i>The Pyramid Principle</i>; contoh fiktif."
         }
        }
       },
@@ -50877,11 +50877,11 @@ window.MT_LMS['the-route'] = {
        "icon": "eye",
        "h": {
         "en": "Altitude: what this audience needs",
-        "id": "Ketinggian: apa yang dibutuhkan audiens ini"
+        "id": "Ketinggian: apa yang dibutuhkan pendengar ini"
        },
        "body": {
-        "en": "The same project can be described at several altitudes. At <b>ground level</b> are the tasks, the data, the method. What your peers and your team need. At <b>mid-level</b> are progress, issues and trade-offs. What your manager needs. At <b>altitude</b> are decisions, risks, money and strategic fit. What directors and committees need. Presence depends heavily on choosing the right altitude for the room. A common early-career mistake is to present to a director at ground level: the SQL query, the twelve data fields, the three weeks of cleaning. It feels like showing diligence; it reads as not knowing what matters. The opposite mistake, speaking only in abstractions to a team that needs to know what to do on Monday. Reads as vague. Before any meeting or message, answer three questions. <b>Who is the most senior person, and what do they decide or care about?</b> A regional head cares about approvals, risk and targets; a compliance officer cares about rules; an operations lead cares about workload. <b>What do they already know?</b> Skip what they know; define what they do not. <b>What is the one thing they should remember?</b> Build everything else around it. Then practise “altitude shifting”: be ready to go down a level on request (“Bagaimana angkanya dihitung?”) and back up again without losing the thread. Numbers help at every altitude, but choose them: one or two numbers that carry the decision, not a slide of twenty. The coach at the end of this lesson, the executive summary, practises exactly this: eight minutes, a problem in your area, and a decision to win.",
-        "id": "Proyek yang sama bisa digambarkan di beberapa ketinggian. Di <b>tingkat dasar</b> ada tugas, data, metode, yang dibutuhkan rekan dan timmu. Di <b>tingkat tengah</b> ada kemajuan, masalah, dan pertukaran, yang dibutuhkan manajermu. Di <b>ketinggian</b> ada keputusan, risiko, uang, dan kecocokan strategis, yang dibutuhkan direktur dan komite. Kehadiran sangat bergantung pada pemilihan ketinggian yang tepat untuk ruangan itu. Kesalahan umum awal karier adalah memaparkan kepada direktur di tingkat dasar: query SQL, dua belas kolom data, tiga minggu membersihkan data. Rasanya menunjukkan ketekunan; terbacanya tidak tahu apa yang penting. Kesalahan sebaliknya, hanya berbicara abstrak kepada tim yang perlu tahu apa yang dikerjakan Senin, terbaca samar. Sebelum rapat atau pesan apa pun, jawab tiga pertanyaan. <b>Siapa orang paling senior, dan apa yang ia putuskan atau pedulikan?</b> Kepala wilayah peduli pada persetujuan, risiko, dan target; petugas kepatuhan peduli pada aturan; pemimpin operasional peduli pada beban kerja. <b>Apa yang sudah mereka ketahui?</b> Lewati yang sudah diketahui; definisikan yang belum. <b>Satu hal apa yang harus mereka ingat?</b> Bangun semua yang lain di sekitarnya. Lalu latih “berpindah ketinggian”: siap turun satu tingkat bila diminta (“Bagaimana angkanya dihitung?”) dan naik lagi tanpa kehilangan benang merah. Angka membantu di setiap ketinggian, tetapi pilihlah: satu atau dua angka yang membawa keputusan, bukan slide berisi dua puluh angka. Pelatih di akhir pelajaran ini, ringkasan eksekutif, melatih persis hal ini: delapan menit, satu masalah di areamu, dan satu keputusan yang harus dimenangkan."
+        "en": "The same project can be described at several altitudes. At <b>ground level</b> are the tasks, the data, the method: what your peers and your team need. At <b>mid-level</b> are progress, issues and trade-offs: what your manager needs. At <b>altitude</b> are decisions, risks, money and strategic fit: what directors and committees need. Presence depends heavily on choosing the right altitude for the room. A common early-career mistake is to present to a director at ground level: the SQL query, the twelve data fields, the three weeks of cleaning. It feels like showing diligence; it reads as not knowing what matters. The opposite mistake (speaking only in abstractions to a team that needs to know what to do on Monday) reads as vague. Before any meeting or message, answer three questions. <b>Who is the most senior person, and what do they decide or care about?</b> A regional head cares about approvals, risk and targets; a compliance officer cares about rules; an operations lead cares about workload. <b>What do they already know?</b> Skip what they know; define what they do not. <b>What is the one thing they should remember?</b> Build everything else around it. Then practise “altitude shifting”: be ready to go down a level on request (“Bagaimana angkanya dihitung?”) and back up again without losing the thread. Numbers help at every altitude, but choose them: one or two numbers that carry the decision, not a slide of twenty. The coach at the end of this lesson (the executive summary) practises exactly this: eight minutes, a problem in your area, and a decision to win.",
+        "id": "Proyek yang sama bisa digambarkan dari beberapa ketinggian. Di <b>permukaan tanah</b> ada tugas, data, dan metodenya: yang dibutuhkan rekan sebaya dan timmu. Di <b>ketinggian menengah</b> ada kemajuan, masalah, dan tukar prioritas: yang dibutuhkan atasanmu. Di <b>ketinggian atas</b> ada keputusan, risiko, uang, dan kecocokan strategis: yang dibutuhkan direktur dan komite. Kehadiran sangat bergantung pada memilih ketinggian yang tepat untuk ruangan itu. Kesalahan umum di awal karier adalah melapor kepada direktur dari permukaan tanah: kueri SQL-nya, dua belas kolom datanya, tiga minggu membersihkan data. Rasanya seperti menunjukkan ketekunan, padahal terbaca seperti tidak tahu apa yang penting. Kesalahan sebaliknya (hanya berbicara secara abstrak kepada tim yang perlu tahu apa yang harus dikerjakan hari Senin) terbaca samar. Sebelum rapat atau pesan apa pun, jawab tiga pertanyaan. <b>Siapa orang paling senior di sana, dan apa yang ia putuskan atau pedulikan?</b> Kepala wilayah peduli pada persetujuan, risiko, dan target; petugas kepatuhan peduli pada aturan; pemimpin operasional peduli pada beban kerja. <b>Apa yang sudah mereka ketahui?</b> Lewati yang sudah mereka tahu; jelaskan yang belum. <b>Apa satu hal yang harus mereka ingat?</b> Bangun semua yang lain di sekitarnya. Lalu latih “berpindah ketinggian”: siap turun satu tingkat kalau diminta (“Bagaimana angkanya dihitung?”) dan naik lagi tanpa kehilangan benang merahnya. Angka membantu di setiap ketinggian, tetapi pilihlah: satu atau dua angka yang menentukan keputusannya, bukan satu slide berisi dua puluh angka. Coach di akhir pelajaran ini (ringkasan eksekutif) melatih hal ini persis: delapan menit, satu masalah di bidangmu, dan satu keputusan yang harus kamu menangkan."
        },
        "table": {
         "cols": [
@@ -50891,18 +50891,18 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Audience",
-          "id": "Audiens"
+          "id": "Pendengar"
          },
          {
           "en": "They need",
-          "id": "Mereka butuh"
+          "id": "Yang mereka butuhkan"
          }
         ],
         "rows": [
          [
           {
            "en": "<b>Altitude</b>",
-           "id": "<b>Ketinggian</b>"
+           "id": "<b>Ketinggian atas</b>"
           },
           {
            "en": "Directors, committees",
@@ -50916,29 +50916,29 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Mid-level</b>",
-           "id": "<b>Tingkat tengah</b>"
+           "id": "<b>Ketinggian menengah</b>"
           },
           {
            "en": "Your manager, peer managers",
-           "id": "Manajermu, manajer sejawat"
+           "id": "Atasanmu, atasan lain yang setingkat"
           },
           {
            "en": "Progress, issues, trade-offs, what you need",
-           "id": "Kemajuan, masalah, pertukaran, apa yang kamu butuhkan"
+           "id": "Kemajuan, masalah, tukar prioritas, apa yang kamu butuhkan"
           }
          ],
          [
           {
            "en": "<b>Ground level</b>",
-           "id": "<b>Tingkat dasar</b>"
+           "id": "<b>Permukaan tanah</b>"
           },
           {
            "en": "Peers, your team",
-           "id": "Rekan, timmu"
+           "id": "Rekan sebaya, timmu"
           },
           {
            "en": "Tasks, method, data, who does what by when",
-           "id": "Tugas, metode, data, siapa mengerjakan apa kapan"
+           "id": "Tugas, metode, data, siapa mengerjakan apa paling lambat kapan"
           }
          ]
         ],
@@ -50951,12 +50951,12 @@ window.MT_LMS['the-route'] = {
       {
        "icon": "flag",
        "h": {
-        "en": "Composure under challenge: and in writing",
-        "id": "Ketenangan saat ditantang: dan dalam tulisan"
+        "en": "Composure under challenge, and in writing",
+        "id": "Tenang saat ditantang, dan dalam tulisan"
        },
        "body": {
-        "en": "Presence is tested most when someone senior pushes back: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, or silence. Composure is a skill, not a temperament, and a simple sequence helps. <b>Pause</b>: one breath; it signals thought, not panic. <b>Acknowledge</b>: show you heard the real concern: “Pertanyaan yang tepat, Pak, opsi C memang lebih murah.” <b>Answer</b>: briefly, with the reason or evidence: “Kami tidak memilihnya karena waktu prosesnya tiga kali lebih lama untuk nasabah UMKM.” <b>Bridge</b>: return to the decision: “Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.” If you do not know, say so plainly and commit to a time: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.” That sentence builds more presence than a confident guess that turns out wrong. If the challenge reveals that you <b>are</b> wrong, concede quickly and specifically; “Bapak benar, saya salah memasukkan data Kudus; saya perbaiki hari ini”. Which reads as strength, not weakness. Watch the physical side too: a steady voice, fewer filler words (“eh”, “jadi”, “sebenarnya”), and in video calls a camera at eye level and a quiet background. Then apply the same discipline to <b>writing</b>, which is where much executive impression is now formed. An executive email has a subject that states the point (“Mohon persetujuan: perluasan cek dokumen ke 20 cabang”), a first line with the recommendation and the ask, up to three short numbered reasons, one line on risk, and a clear deadline. Attach detail rather than pasting it. Read it once as the busiest person on the list: could they approve it from their phone in thirty seconds?",
-        "id": "Kehadiran paling diuji saat seseorang senior membantah: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, atau diam. Ketenangan adalah keterampilan, bukan watak, dan urutan sederhana membantu. <b>Jeda</b>: satu tarikan napas; itu menandakan berpikir, bukan panik. <b>Akui</b>: tunjukkan kamu mendengar kekhawatiran sebenarnya: “Pertanyaan yang tepat, Pak, opsi C memang lebih murah.” <b>Jawab</b>: singkat, dengan alasan atau bukti: “Kami tidak memilihnya karena waktu prosesnya tiga kali lebih lama untuk nasabah UMKM.” <b>Jembatani</b>: kembali ke keputusan: “Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.” Jika kamu tidak tahu, katakan terus terang dan janjikan waktu: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.” Kalimat itu membangun kehadiran lebih besar daripada tebakan yakin yang ternyata salah. Jika tantangan itu menunjukkan bahwa kamu <b>memang</b> salah, akui dengan cepat dan spesifik; “Bapak benar, saya salah memasukkan data Kudus; saya perbaiki hari ini”. Yang terbaca sebagai kekuatan, bukan kelemahan. Perhatikan juga sisi fisiknya: suara yang mantap, lebih sedikit kata pengisi (“eh”, “jadi”, “sebenarnya”), dan di panggilan video kamera sejajar mata serta latar yang tenang. Lalu terapkan disiplin yang sama dalam <b>tulisan</b>, tempat sebagian besar kesan eksekutif kini terbentuk. Email eksekutif punya subjek yang menyatakan intinya (“Mohon persetujuan: perluasan cek dokumen ke 20 cabang”), baris pertama berisi rekomendasi dan permintaan, paling banyak tiga alasan singkat bernomor, satu baris tentang risiko, dan tenggat yang jelas. Lampirkan detail alih-alih menempelkannya. Baca sekali sebagai orang tersibuk di daftar penerima: bisakah ia menyetujuinya dari ponsel dalam tiga puluh detik?"
+        "en": "Presence is tested most when someone senior pushes back: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, or silence. Composure is a skill, not a temperament, and a simple sequence helps. <b>Pause</b>: one breath; it signals thought, not panic. <b>Acknowledge</b>: show you heard the real concern: “Pertanyaan yang tepat, Pak, opsi C memang lebih murah.” <b>Answer</b>: briefly, with the reason or evidence: “Kami tidak memilihnya karena waktu prosesnya tiga kali lebih lama untuk nasabah UMKM.” <b>Bridge</b>: return to the decision: “Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.” If you do not know, say so plainly and commit to a time: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.” That sentence builds more presence than a confident guess that turns out wrong. If the challenge reveals that you <b>are</b> wrong, concede quickly and specifically (“Bapak benar, saya salah memasukkan data Kudus; saya perbaiki hari ini”), which reads as strength, not weakness. Watch the physical side too: a steady voice, fewer filler words (“eh”, “jadi”, “sebenarnya”), and in video calls a camera at eye level and a quiet background. Then apply the same discipline to <b>writing</b>, which is where much executive impression is now formed. An executive email has a subject that states the point (“Mohon persetujuan: perluasan cek dokumen ke 20 cabang”), a first line with the recommendation and the ask, up to three short numbered reasons, one line on risk, and a clear deadline. Attach detail rather than pasting it. Read it once as the busiest person on the list: could they approve it from their phone in thirty seconds?",
+        "id": "Kehadiran paling diuji saat seorang senior membantah: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, atau diam saja. Ketenangan adalah keterampilan, bukan watak, dan urutan sederhana ini membantu. <b>Jeda</b>: satu tarikan napas; itu menandakan kamu berpikir, bukan panik. <b>Akui</b>: tunjukkan bahwa kamu menangkap kekhawatiran yang sebenarnya: “Pertanyaan yang tepat, Pak, opsi C memang lebih murah.” <b>Jawab</b>: singkat, dengan alasan atau buktinya: “Kami tidak memilihnya karena waktu prosesnya tiga kali lebih lama untuk nasabah UMKM.” <b>Kembalikan</b>: bawa lagi ke keputusannya: “Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.” Kalau kamu tidak tahu, katakan terus terang dan janjikan waktunya: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.” Kalimat itu membangun kehadiran lebih kuat daripada tebakan yakin yang ternyata salah. Kalau bantahan itu menunjukkan bahwa kamu <b>memang</b> salah, akui dengan cepat dan spesifik (“Bapak benar, saya salah memasukkan data Kudus; saya perbaiki hari ini”), dan itu terbaca sebagai kekuatan, bukan kelemahan. Perhatikan juga sisi fisiknya: suara yang mantap, lebih sedikit kata pengisi (“eh”, “jadi”, “sebenarnya”), dan di panggilan video, kamera sejajar mata dan latar yang tenang. Lalu terapkan disiplin yang sama pada <b>tulisan</b>, tempat sebagian besar kesan eksekutif kini terbentuk. Email eksekutif punya subjek yang menyebut intinya (“Mohon persetujuan: perluasan cek dokumen ke 20 cabang”), baris pertama berisi rekomendasi dan permintaannya, paling banyak tiga alasan singkat bernomor, satu baris soal risiko, dan tenggat yang jelas. Lampirkan rinciannya alih-alih menempelkannya di badan email. Baca sekali dari sudut pandang orang tersibuk di daftar penerima: bisakah ia menyetujuinya dari ponsel dalam tiga puluh detik?"
        },
        "bullets": [
         {
@@ -50965,15 +50965,15 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "<b>Acknowledge</b>: name the real concern.",
-         "id": "<b>Akui</b>: sebut kekhawatiran sebenarnya."
+         "id": "<b>Akui</b>: sebut kekhawatiran yang sebenarnya."
         },
         {
          "en": "<b>Answer</b>: the reason or evidence, briefly; or “I will confirm by…”.",
-         "id": "<b>Jawab</b>: alasan atau bukti, singkat; atau “saya konfirmasi paling lambat…”."
+         "id": "<b>Jawab</b>: alasan atau buktinya, singkat; atau “saya pastikan paling lambat…”."
         },
         {
          "en": "<b>Bridge</b>: back to the decision.",
-         "id": "<b>Jembatani</b>: kembali ke keputusan."
+         "id": "<b>Kembalikan</b>: bawa lagi ke keputusannya."
         }
        ]
       }
@@ -50982,11 +50982,11 @@ window.MT_LMS['the-route'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 1: The two-minute executive update",
-       "id": "Peraga 1: Laporan eksekutif dua menit"
+       "id": "Gambar 1: Laporan eksekutif dua menit"
       },
       "title": {
        "en": "Point → reasons → risk and ask → detail on request",
-       "id": "Inti → alasan → risiko dan permintaan → detail bila diminta"
+       "id": "Intinya → alasan → risiko dan permintaan → rincian kalau diminta"
       },
       "items": [
        {
@@ -50997,7 +50997,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "The decision or conclusion, one sentence.",
-         "id": "Keputusan atau kesimpulan, satu kalimat."
+         "id": "Keputusan atau kesimpulannya, satu kalimat."
         }
        },
        {
@@ -51008,7 +51008,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Grouped, numbered, one sentence each.",
-         "id": "Dikelompokkan, bernomor, satu kalimat masing-masing."
+         "id": "Dikelompokkan, bernomor, masing-masing satu kalimat."
         }
        },
        {
@@ -51026,11 +51026,11 @@ window.MT_LMS['the-route'] = {
         "icon": "book",
         "h": {
          "en": "Detail on request",
-         "id": "Detail bila diminta"
+         "id": "Rincian kalau diminta"
         },
         "sub": {
          "en": "Ready to go down a level, and back up.",
-         "id": "Siap turun satu tingkat, dan naik lagi."
+         "id": "Siap turun satu tingkat, lalu naik lagi."
         }
        }
       ],
@@ -51040,22 +51040,22 @@ window.MT_LMS['the-route'] = {
       },
       "longdesc": {
        "en": "A four-step flow for a two-minute executive update: state the point, the decision or conclusion, in one sentence; give two or three grouped, numbered reasons; name the risk and what you need; and hold the detail for when it is requested, ready to move down a level and back.",
-       "id": "Alur empat langkah untuk laporan eksekutif dua menit: sampaikan intinya, keputusan atau kesimpulan, dalam satu kalimat; beri dua atau tiga alasan yang dikelompokkan dan bernomor; sebut risiko dan apa yang kamu butuhkan; dan simpan detailnya sampai diminta, siap turun satu tingkat dan naik lagi."
+       "id": "Alur empat langkah untuk laporan eksekutif dua menit: sampaikan intinya, yaitu keputusan atau kesimpulan, dalam satu kalimat; beri dua atau tiga alasan yang dikelompokkan dan bernomor; sebut risikonya dan apa yang kamu butuhkan; dan simpan rinciannya sampai diminta, siap turun satu tingkat lalu naik lagi."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Background first → answer first",
-        "id": "Latar dulu → jawaban dulu"
+        "id": "Latar belakang dulu → jawaban dulu"
        },
        "q": {
         "en": "Nadia has three minutes in Pak Arya’s monthly meeting to update on the SME scoring pilot, which is behind schedule.",
-        "id": "Nadia punya tiga menit di rapat bulanan Pak Arya untuk melaporkan pilot skor UMKM, yang terlambat dari jadwal."
+        "id": "Nadia punya waktu tiga menit di rapat bulanan Pak Arya untuk melaporkan pilot penilaian kredit UMKM, yang terlambat dari jadwal."
        },
        "weak": {
-        "en": "“Selamat pagi, Bapak-Ibu. Mohon maaf sebelumnya. Jadi, bulan lalu kami mulai menarik data dari tiga wilayah, lalu ada kendala di format data Kudus, sehingga kami perlu membersihkan manual, dan kemudian…”, at minute three she has not yet said the pilot is late or what she needs.",
-        "id": "“Selamat pagi, Bapak-Ibu. Mohon maaf sebelumnya. Jadi, bulan lalu kami mulai menarik data dari tiga wilayah, lalu ada kendala di format data Kudus, sehingga kami perlu membersihkan manual, dan kemudian…”. Di menit ketiga ia belum menyebut bahwa pilotnya terlambat atau apa yang ia butuhkan."
+        "en": "“Selamat pagi, Bapak-Ibu. Mohon maaf sebelumnya. Jadi, bulan lalu kami mulai menarik data dari tiga wilayah, lalu ada kendala di format data Kudus, sehingga kami perlu membersihkan manual, dan kemudian…” At minute three she has not yet said the pilot is late or what she needs.",
+        "id": "“Selamat pagi, Bapak-Ibu. Mohon maaf sebelumnya. Jadi, bulan lalu kami mulai menarik data dari tiga wilayah, lalu ada kendala di format data Kudus, sehingga kami perlu membersihkan manual, dan kemudian…” Di menit ketiga ia belum juga menyebut bahwa pilotnya terlambat atau apa yang ia butuhkan."
        },
        "strong": {
         "en": "“Selamat pagi, Pak. Intinya: pilot skor UMKM mundur tiga minggu, dan saya butuh satu keputusan hari ini. Dua penyebab: format data Kudus tidak standar, dan satu analis sakit dua minggu. Usulan saya: kita jalankan dulu di dua wilayah sesuai jadwal, Kudus menyusul. Risikonya sampel lebih kecil di bulan pertama. Mohon persetujuan Bapak untuk opsi itu.”",
@@ -51063,7 +51063,7 @@ window.MT_LMS['the-route'] = {
        },
        "why": {
         "en": "The first apologises, narrates and never reaches the ask. The second states the bad news and the decision needed in the first sentence, gives two reasons, offers an option with its risk, and asks, respectfully and in under a minute. Fictional.",
-        "id": "Yang pertama meminta maaf, bercerita, dan tak pernah sampai ke permintaan. Yang kedua menyampaikan kabar buruk dan keputusan yang dibutuhkan di kalimat pertama, memberi dua alasan, menawarkan opsi dengan risikonya, dan meminta, dengan hormat dan dalam kurang dari semenit. Fiktif."
+        "id": "Yang pertama meminta maaf, bercerita, dan tidak pernah sampai ke permintaannya. Yang kedua menyampaikan kabar buruk dan keputusan yang dibutuhkan di kalimat pertama, memberi dua alasan, menawarkan satu opsi beserta risikonya, lalu meminta dengan sopan, dalam waktu kurang dari semenit. Fiktif."
        }
       }
      ],
@@ -51080,7 +51080,7 @@ window.MT_LMS['the-route'] = {
        },
        {
         "en": "She pauses for a breath. “Terima kasih, Bu, pertanyaan yang penting. Laporan regional menghitung semua jenis pengembalian; angka 18 persen ini hanya pengembalian karena dokumen kurang, yang menjadi sasaran pilot. Definisinya ada di catatan kaki halaman dua. Kalau Ibu berkenan, saya kirim rekonsiliasi kedua angka itu sore ini.” Bu Lestari nods and moves on. After the meeting, Nadia adds the definition to the first line of the slide, and sends the reconciliation by 15.00, as promised.",
-        "id": "Ia berhenti sejenak untuk menarik napas. “Terima kasih, Bu, pertanyaan yang penting. Laporan regional menghitung semua jenis pengembalian; angka 18 persen ini hanya pengembalian karena dokumen kurang, yang menjadi sasaran pilot. Definisinya ada di catatan kaki halaman dua. Kalau Ibu berkenan, saya kirim rekonsiliasi kedua angka itu sore ini.” Bu Lestari mengangguk dan melanjutkan. Setelah rapat, Nadia menambahkan definisinya di baris pertama slide, dan mengirim rekonsiliasinya paling lambat 15.00, seperti dijanjikan."
+        "id": "Ia mengambil satu tarikan napas. “Terima kasih, Bu, pertanyaan yang penting. Laporan regional menghitung semua jenis pengembalian; angka 18 persen ini hanya pengembalian karena dokumen kurang, yang menjadi sasaran pilot. Definisinya ada di catatan kaki halaman dua. Kalau Ibu berkenan, saya kirim rekonsiliasi kedua angka itu sore ini.” Bu Lestari mengangguk dan melanjutkan rapat. Seusai rapat, Nadia memindahkan definisinya ke baris pertama slide, lalu mengirim rekonsiliasinya sebelum pukul 15.00, sesuai janjinya."
        }
       ]
      },
@@ -51088,15 +51088,15 @@ window.MT_LMS['the-route'] = {
       {
        "h": {
         "en": "Drill 1 · Rewrite answer-first",
-        "id": "Latihan 1 · Tulis ulang dengan jawaban dulu"
+        "id": "Latihan 1 · Tulis ulang dengan jawaban lebih dulu"
        },
        "body": {
         "en": "Take your last update email or meeting report. Rewrite it in four lines: the point, three reasons, the risk and ask, and where the detail is.",
-        "id": "Ambil email laporan atau laporan rapat terakhirmu. Tulis ulang dalam empat baris: intinya, tiga alasan, risiko dan permintaan, dan letak detailnya."
+        "id": "Ambil email laporan atau laporan rapat terakhirmu. Tulis ulang dalam empat baris: intinya, tiga alasan, risiko dan permintaannya, dan di mana rinciannya."
        },
        "debrief": {
         "en": "If you could not write the first line, you did not yet have a point; the real work was to find it.",
-        "id": "Jika kamu tak bisa menulis baris pertama, kamu belum punya inti, pekerjaan sebenarnya adalah menemukannya."
+        "id": "Kalau kamu tidak bisa menulis baris pertama, berarti kamu belum punya intinya; pekerjaan yang sebenarnya adalah menemukannya."
        }
       },
       {
@@ -51106,25 +51106,25 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Describe one current project in three versions: two sentences for a director, four for your manager, and a short task list for your team.",
-        "id": "Gambarkan satu proyek saat ini dalam tiga versi: dua kalimat untuk direktur, empat untuk manajermu, dan daftar tugas singkat untuk timmu."
+        "id": "Gambarkan satu proyekmu sekarang dalam tiga versi: dua kalimat untuk direktur, empat kalimat untuk atasanmu, dan daftar tugas singkat untuk timmu."
        },
        "debrief": {
         "en": "The director version should contain a decision or a risk and at most two numbers.",
-        "id": "Versi direktur sebaiknya memuat keputusan atau risiko dan paling banyak dua angka."
+        "id": "Versi untuk direktur harus memuat satu keputusan atau satu risiko dan paling banyak dua angka."
        }
       },
       {
        "h": {
         "en": "Drill 3 · The challenge rehearsal",
-        "id": "Latihan 3 · Gladi tantangan"
+        "id": "Latihan 3 · Gladi menghadapi bantahan"
        },
        "body": {
         "en": "Write the three hardest questions a senior person could ask about your work, and answer each with pause–acknowledge–answer–bridge. Then practise with the executive-summary coach below.",
-        "id": "Tulis tiga pertanyaan tersulit yang bisa diajukan orang senior tentang pekerjaanmu, dan jawab masing-masing dengan jeda–akui–jawab–jembatani. Lalu berlatih dengan pelatih ringkasan eksekutif di bawah."
+        "id": "Tulis tiga pertanyaan tersulit yang bisa diajukan seorang senior tentang pekerjaanmu, lalu jawab masing-masing dengan jeda–akui–jawab–kembalikan. Setelah itu berlatih dengan coach ringkasan eksekutif di bawah."
        },
        "debrief": {
         "en": "At least one answer should be “I don’t know yet; I will confirm by…”. Practise saying it calmly.",
-        "id": "Setidaknya satu jawaban sebaiknya “Saya belum tahu; saya konfirmasi paling lambat…”. Latih mengucapkannya dengan tenang."
+        "id": "Setidaknya satu jawaban sebaiknya berbunyi “saya belum tahu; saya pastikan paling lambat…”. Latih mengucapkannya dengan tenang."
        }
       }
      ],
@@ -51137,13 +51137,13 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Point, three reasons, risk and ask, detail on request.",
-         "id": "Inti, tiga alasan, risiko dan permintaan, detail bila diminta."
+         "id": "Intinya, tiga alasan, risiko dan permintaan, rincian kalau diminta."
         }
        },
        {
         "h": {
          "en": "Ground-level detail for directors",
-         "id": "Detail tingkat dasar untuk direktur"
+         "id": "Rincian permukaan tanah untuk direktur"
         },
         "fix": {
          "en": "Decision, risk, money, one or two numbers.",
@@ -51153,21 +51153,21 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Guessing under pressure",
-         "id": "Menebak di bawah tekanan"
+         "id": "Menebak saat ditekan"
         },
         "fix": {
-         "en": "“I don’t know yet; I’ll confirm by…”, then do it.",
-         "id": "“Saya belum tahu: saya konfirmasi paling lambat…”, lalu tepati."
+         "en": "“I don’t know yet; I’ll confirm by…” Then do it.",
+         "id": "“Saya belum tahu; saya pastikan paling lambat…” Lalu tepati."
         }
        },
        {
         "h": {
          "en": "Apologetic build-ups",
-         "id": "Pengantar penuh permintaan maaf"
+         "id": "Basa-basi penuh permintaan maaf"
         },
         "fix": {
          "en": "A courteous greeting, then straight to the point.",
-         "id": "Salam yang sopan, lalu langsung ke inti."
+         "id": "Salam yang sopan, lalu langsung ke intinya."
         }
        }
       ]
@@ -51179,18 +51179,18 @@ window.MT_LMS['the-route'] = {
         "id": "Kehadiran eksekutif"
        },
        "def": {
-        "en": "The earned impression that you know what matters and can be trusted with more, mostly gravitas and communication.",
-        "id": "Kesan yang dibangun bahwa kamu tahu apa yang penting dan bisa dipercaya dengan lebih, sebagian besar gravitas dan komunikasi."
+        "en": "The earned impression that you know what matters and can be trusted with more: mostly gravitas and communication.",
+        "id": "Kesan yang diraih bahwa kamu tahu apa yang penting dan bisa dipercaya memegang lebih banyak: terutama gravitas dan komunikasi."
        }
       },
       {
        "term": {
         "en": "Answer-first (pyramid) structure",
-        "id": "Struktur jawaban dulu (piramida)"
+        "id": "Struktur jawaban lebih dulu (piramida)"
        },
        "def": {
         "en": "Conclusion first, then grouped reasons, then evidence, after Minto.",
-        "id": "Kesimpulan dulu, lalu alasan yang dikelompokkan, lalu bukti, mengikuti Minto."
+        "id": "Kesimpulan lebih dulu, lalu alasan yang dikelompokkan, lalu buktinya, berdasarkan Minto."
        }
       },
       {
@@ -51200,17 +51200,17 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The level of detail suited to an audience: decisions for directors, trade-offs for managers, tasks for teams.",
-        "id": "Tingkat detail yang sesuai audiens: keputusan untuk direktur, pertukaran untuk manajer, tugas untuk tim."
+        "id": "Tingkat rincian yang sesuai dengan pendengar: keputusan untuk direktur, tukar prioritas untuk atasan, tugas untuk tim."
        }
       },
       {
        "term": {
         "en": "Pause–acknowledge–answer–bridge",
-        "id": "Jeda–akui–jawab–jembatani"
+        "id": "Jeda–akui–jawab–kembalikan"
        },
        "def": {
         "en": "A four-step response to challenge that keeps composure and returns to the decision.",
-        "id": "Respons empat langkah terhadap tantangan yang menjaga ketenangan dan kembali ke keputusan."
+        "id": "Tanggapan empat langkah terhadap bantahan yang menjaga ketenangan dan membawa kembali ke keputusannya."
        }
       }
      ],
@@ -51218,12 +51218,12 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "A director has two minutes for your update. You should open with…",
-        "id": "Seorang direktur punya dua menit untuk laporanmu. Kamu sebaiknya membuka dengan…"
+        "id": "Seorang direktur punya waktu dua menit untuk laporanmu. Sebaiknya kamu membuka dengan…"
        },
        "options": [
         {
          "en": "The project background",
-         "id": "Latar belakang proyek"
+         "id": "Latar belakang proyeknya"
         },
         {
          "en": "The decision you need or your conclusion, in one sentence",
@@ -51235,19 +51235,19 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "The data-cleaning method",
-         "id": "Metode pembersihan data"
+         "id": "Metode pembersihan datanya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Senior listeners evaluate; give them the answer first.",
-        "id": "Pendengar senior menilai; beri mereka jawabannya lebih dulu."
+        "id": "Pendengar senior sedang menilai; beri mereka jawabannya lebih dulu."
        }
       },
       {
        "q": {
         "en": "A senior colleague questions a number you are not sure about. The best response is…",
-        "id": "Seorang senior mempertanyakan angka yang belum kamu yakini. Respons terbaik adalah…"
+        "id": "Seorang senior mempertanyakan angka yang kamu sendiri belum yakin. Tanggapan terbaik adalah…"
        },
        "options": [
         {
@@ -51256,50 +51256,50 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Acknowledge, say you will confirm by a specific time, and do it",
-         "id": "Mengakui, bilang akan mengonfirmasi pada waktu tertentu, dan menepatinya"
+         "id": "Mengakuinya, menyebut kapan kamu akan memastikannya, lalu menepatinya"
         },
         {
          "en": "Change the subject",
-         "id": "Mengalihkan topik"
+         "id": "Mengalihkan pembicaraan"
         },
         {
          "en": "Blame the data source",
-         "id": "Menyalahkan sumber data"
+         "id": "Menyalahkan sumber datanya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Honest precision under pressure builds more presence than a confident guess.",
-        "id": "Ketepatan yang jujur di bawah tekanan membangun kehadiran lebih besar daripada tebakan yang yakin."
+        "id": "Ketepatan yang jujur di bawah tekanan membangun kehadiran lebih kuat daripada tebakan yang yakin."
        }
       },
       {
        "q": {
-        "en": "In an workplace, respectful directness means…",
-        "id": "Di tempat kerja, lugas yang hormat berarti…"
+        "en": "In an Indonesian workplace, respectful directness means…",
+        "id": "Di tempat kerja di Indonesia, lugas tetapi santun berarti…"
        },
        "options": [
         {
          "en": "Dropping all honorifics",
-         "id": "Membuang semua sapaan hormat"
+         "id": "Menghilangkan semua sapaan hormat"
         },
         {
          "en": "A courteous greeting, then the point clearly",
-         "id": "Salam yang sopan, lalu inti dengan jelas"
+         "id": "Salam yang sopan, lalu intinya dengan jelas"
         },
         {
          "en": "Waiting until asked for your view",
-         "id": "Menunggu sampai dimintai pendapat"
+         "id": "Menunggu sampai diminta pendapat"
         },
         {
          "en": "Long apologies before any bad news",
-         "id": "Permintaan maaf panjang sebelum kabar buruk"
+         "id": "Meminta maaf panjang lebar sebelum kabar buruk apa pun"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Clear content, courteous form; it is the vague build-up that costs presence.",
-        "id": "Isi jelas, bentuk sopan, pengantar yang samar itulah yang mengurangi kehadiran."
+        "id": "Isinya jelas, bentuknya sopan; yang menggerus kehadiran adalah basa-basi yang samar."
        }
       }
      ],
@@ -51312,7 +51312,7 @@ window.MT_LMS['the-route'] = {
       },
       "body": {
        "en": "Eight minutes on a leadership call to present a problem in your area and win a decision: how you open, what you do when a VP challenges your option, and how you handle the credit when it goes your way.",
-       "id": "Delapan menit di rapat pimpinan untuk memaparkan masalah di areamu dan memenangkan keputusan: caramu membuka, apa yang kamu lakukan saat seorang VP menantang opsimu, dan caramu menangani kredit saat keputusan berpihak padamu."
+       "id": "Delapan menit di rapat pimpinan untuk memaparkan masalah di bidangmu dan memenangkan sebuah keputusan: cara kamu membuka, apa yang kamu lakukan saat seorang VP membantah opsimu, dan cara kamu menangani pujian saat keputusannya berpihak padamu."
       },
       "cta": {
        "en": "Start the practice",
@@ -51321,20 +51321,20 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "Presence is structure under pressure: the answer first, at the right altitude, delivered calmly.",
-      "id": "Kehadiran adalah struktur di bawah tekanan: jawaban dulu, di ketinggian yang tepat, disampaikan dengan tenang."
+      "id": "Kehadiran adalah struktur di bawah tekanan: jawaban lebih dulu, di ketinggian yang tepat, disampaikan dengan tenang."
      },
      "takeaways": [
       {
-       "en": "Presence is mostly gravitas and communication, practisable skills, not personality.",
-       "id": "Kehadiran sebagian besar gravitas dan komunikasi; keterampilan yang bisa dilatih, bukan kepribadian."
+       "en": "Presence is mostly gravitas and communication: practisable skills, not personality.",
+       "id": "Kehadiran sebagian besar adalah gravitas dan komunikasi: keterampilan yang bisa dilatih, bukan kepribadian."
       },
       {
        "en": "Answer first, at the altitude of the most senior person in the room, with one or two numbers that carry the decision.",
-       "id": "Jawaban dulu, di ketinggian orang paling senior di ruangan, dengan satu atau dua angka yang membawa keputusan."
+       "id": "Sampaikan jawaban lebih dulu, di ketinggian orang paling senior di ruangan, dengan satu atau dua angka yang menentukan keputusannya."
       },
       {
-       "en": "Under challenge: pause, acknowledge, answer, bridge, and write emails a busy reader can approve in thirty seconds.",
-       "id": "Saat ditantang: jeda, akui, jawab, jembatani, dan tulis email yang bisa disetujui pembaca sibuk dalam tiga puluh detik."
+       "en": "Under challenge, pause, acknowledge, answer and bridge; and write emails a busy reader can approve in thirty seconds.",
+       "id": "Saat ditantang, jeda, akui, jawab, dan kembalikan; lalu tulis email yang bisa disetujui pembaca sibuk dalam tiga puluh detik."
       }
      ],
      "resources": {
@@ -51344,7 +51344,7 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "Career Kit item (part 1): your communication audit.",
-       "id": "Butir Career Kit (bagian 1): audit komunikasimu."
+       "id": "Perangkat Karier (bagian 1): audit komunikasimu."
       },
       "items": [
        {
@@ -51355,7 +51355,7 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Where the ideas come from.",
-         "id": "Dari mana gagasannya berasal."
+         "id": "Dari mana gagasan-gagasan ini berasal."
         },
         "body": [
          {
@@ -51364,11 +51364,11 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "B. Minto, <i>The Pyramid Principle</i>: answer-first, grouped reasoning.",
-          "id": "B. Minto, <i>The Pyramid Principle</i>: jawaban dulu, penalaran yang dikelompokkan."
+          "id": "B. Minto, <i>The Pyramid Principle</i>: jawaban lebih dulu, penalaran yang dikelompokkan."
          },
          {
-          "en": "<span class=\"ev ev-contested\">Course guidance</span> Altitude levels, pause–acknowledge–answer–bridge and the respectful-directness framing for workplaces are The Route’s working methods.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Tingkat ketinggian, jeda–akui–jawab–jembatani, dan pembingkaian lugas yang hormat untuk tempat kerja adalah metode kerja The Route."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> Altitude levels, pause–acknowledge–answer–bridge and the respectful-directness framing for Indonesian workplaces are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Tingkat ketinggian, jeda–akui–jawab–kembalikan, dan pembingkaian lugas tetapi santun untuk tempat kerja di Indonesia adalah metode kerja The Route."
          }
         ]
        },
@@ -51385,11 +51385,11 @@ window.MT_LMS['the-route'] = {
         "body": [
          {
           "en": "POINT in first sentence? Y/N · REASONS grouped (≤3)? · RISK and ASK stated? · ALTITUDE right for the most senior person? · NUMBERS used: …",
-          "id": "INTI di kalimat pertama? Y/T · ALASAN dikelompokkan (≤3)? · RISIKO dan PERMINTAAN disebut? · KETINGGIAN tepat untuk orang paling senior? · ANGKA yang dipakai: …"
+          "id": "INTI di kalimat pertama? Y/T · ALASAN dikelompokkan (≤3)? · RISIKO dan PERMINTAAN disebutkan? · KETINGGIAN sesuai orang paling senior? · ANGKA yang dipakai: …"
          },
          {
           "en": "CHALLENGES: question … → paused / acknowledged / answered / bridged? · FILLERS noticed: … · ONE THING TO CHANGE: …",
-          "id": "TANTANGAN: pertanyaan … → jeda / akui / jawab / jembatani? · KATA PENGISI yang disadari: … · SATU HAL YANG DIUBAH: …"
+          "id": "BANTAHAN: pertanyaan … → jeda / akui / jawab / kembalikan? · KATA PENGISI yang muncul: … · SATU HAL YANG PERLU DIUBAH: …"
          }
         ]
        },
@@ -51405,12 +51405,12 @@ window.MT_LMS['the-route'] = {
         },
         "body": [
          {
-          "en": "SPOKEN: “[Salam]: intinya: [keputusan/kesimpulan]. [Dua/tiga] alasan: 1 … 2 … 3 …. Risikonya … . Yang saya butuhkan: … . Detailnya ada di lampiran.”",
-          "id": "LISAN: “[Salam]: intinya: [keputusan/kesimpulan]. [Dua/tiga] alasan: 1 … 2 … 3 …. Risikonya … . Yang saya butuhkan: … . Detailnya ada di lampiran.”"
+          "en": "SPOKEN: “[Salam]. Intinya: [keputusan/kesimpulan]. [Dua/tiga] alasan: 1 … 2 … 3 …. Risikonya … . Yang saya butuhkan: … . Detailnya ada di lampiran.”",
+          "id": "LISAN: “[Salam]. Intinya: [keputusan/kesimpulan]. [Dua/tiga] alasan: 1 … 2 … 3 …. Risikonya … . Yang saya butuhkan: … . Detailnya ada di lampiran.”"
          },
          {
           "en": "EMAIL: Subject: “[Mohon persetujuan/Info]: [inti]” · Line 1: recommendation and ask by [date] · 1–3 numbered reasons · Risk: … · Attachment: detail.",
-          "id": "EMAIL: Subjek: “[Mohon persetujuan/Info]: [inti]” · Baris 1: rekomendasi dan permintaan paling lambat [tanggal] · 1–3 alasan bernomor · Risiko: … · Lampiran: detail."
+          "id": "EMAIL: Subjek: “[Mohon persetujuan/Info]: [inti]” · Baris 1: rekomendasi dan permintaan paling lambat [tanggal] · 1–3 alasan bernomor · Risiko: … · Lampiran: rincian."
          }
         ]
        }
@@ -51423,32 +51423,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Developing Others: The Leadership Multiplier",
       "id": "Mengembangkan Orang Lain: Pengganda Kepemimpinan"
      },
      "overview": {
-      "en": "One person’s output has a ceiling; a person who makes five others better does not. That arithmetic is why developing others is the clearest sign of leadership potential, and it can be practised long before anyone reports to you: with an intern, a new analyst, a peer who asks for help. This lesson gives you four tools: the multiplier mindset, a way of teaching a skill so it sticks, a ladder for delegating that builds initiative instead of dependence, and coaching conversations that make it safe for people, especially in hierarchical workplaces, to say what they do not yet understand.",
-      "id": "Hasil kerja satu orang punya batas; orang yang membuat lima orang lain lebih baik tidak. Aritmetika itulah mengapa mengembangkan orang lain adalah tanda potensi kepemimpinan paling jelas, dan bisa dilatih jauh sebelum ada yang melapor kepadamu: dengan anak magang, analis baru, rekan yang minta bantuan. Pelajaran ini memberimu empat alat: pola pikir pengganda, cara mengajarkan keterampilan agar melekat, tangga pendelegasian yang membangun inisiatif alih-alih ketergantungan, dan percakapan coaching yang membuat orang merasa aman, terutama di tempat kerja hierarkis, untuk mengatakan apa yang belum mereka pahami."
+      "en": "One person’s output has a ceiling; a person who makes five others better does not. That arithmetic is why developing others is the clearest sign of leadership potential, and it can be practised long before anyone reports to you: with an intern, a new analyst, a peer who asks for help. This lesson gives you four tools: the multiplier mindset, a way of teaching a skill so it sticks, a ladder for delegating that builds initiative instead of dependence, and coaching conversations that make it safe for people, especially in hierarchical Indonesian workplaces, to say what they do not yet understand.",
+      "id": "Hasil kerja satu orang ada batasnya. Orang yang membuat lima orang lain menjadi lebih baik tidak punya batas itu. Hitungan sederhana inilah yang membuat kemampuan mengembangkan orang lain menjadi tanda paling jelas dari potensi kepemimpinan. Kemampuan ini bisa dilatih jauh sebelum ada yang melapor kepadamu: pada anak magang, analis baru, atau rekan yang minta tolong. Pelajaran ini memberimu empat alat: pola pikir pengganda, cara mengajarkan keterampilan supaya melekat, tangga delegasi yang menumbuhkan inisiatif alih-alih ketergantungan, dan percakapan coaching yang membuat orang merasa aman mengatakan apa yang belum mereka pahami, terutama di tempat kerja Indonesia yang hierarkis."
      },
      "objectives": [
       {
        "en": "Recognise multiplier and diminisher behaviours in yourself.",
-       "id": "Mengenali perilaku pengganda dan pengecil dalam dirimu."
+       "id": "Mengenali perilaku pengganda dan pengecil dalam dirimu sendiri."
       },
       {
        "en": "Teach a skill using explain, show, try and debrief.",
-       "id": "Mengajarkan keterampilan dengan jelaskan, tunjukkan, coba, dan tinjau."
+       "id": "Mengajarkan keterampilan dengan urutan jelaskan, tunjukkan, coba, dan tinjau."
       },
       {
        "en": "Delegate with a clear level of initiative, and not take the task back.",
-       "id": "Mendelegasikan dengan tingkat inisiatif yang jelas, dan tidak mengambil kembali tugasnya."
+       "id": "Mendelegasikan dengan tingkat inisiatif yang jelas, lalu tidak mengambil kembali tugasnya."
       },
       {
        "en": "Run a short coaching conversation and make it safe to not know.",
-       "id": "Menjalankan percakapan coaching singkat dan membuat aman untuk belum tahu."
+       "id": "Menjalankan percakapan coaching singkat dan membuat orang merasa aman untuk belum tahu."
       }
      ],
      "readFirst": {
@@ -51468,19 +51468,19 @@ window.MT_LMS['the-route'] = {
        "story": [
         {
          "en": "Diminishers give answers and rescue; multipliers stretch people and give them the thinking",
-         "id": "Pengecil memberi jawaban dan menyelamatkan; pengganda meregangkan orang dan memberi mereka cara berpikirnya"
+         "id": "Pengecil memberi jawaban dan langsung menyelamatkan; pengganda memberi tantangan dan cara berpikirnya"
         },
         {
          "en": "Teach so it sticks: explain the principle, show one thinking aloud, try together, then alone, debrief",
-         "id": "Ajarkan agar melekat: jelaskan prinsipnya, tunjukkan satu sambil berpikir keras, coba bersama, lalu sendiri, tinjau"
+         "id": "Mengajar supaya melekat: jelaskan prinsipnya, tunjukkan satu contoh sambil berpikir keras, coba bersama lalu sendiri, lalu tinjau"
         },
         {
          "en": "Delegate without taking the monkey back: agree who holds the next move and the level of initiative",
-         "id": "Delegasikan tanpa mengambil kembali monyetnya: sepakati siapa memegang langkah berikutnya dan tingkat inisiatifnya"
+         "id": "Mendelegasikan tanpa mengambil kembali monyetnya: sepakati siapa yang memegang langkah berikutnya dan tingkat inisiatifnya"
         },
         {
          "en": "Coach with GROW, ask before telling, and make “I don’t understand yet” safe",
-         "id": "Coaching dengan GROW, bertanya sebelum memberi tahu, dan buat “aku belum paham” terasa aman"
+         "id": "Lakukan coaching dengan GROW, bertanya sebelum memberi tahu, dan buat “aku belum paham” terasa aman"
         }
        ],
        "takes": [
@@ -51491,7 +51491,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "The question is not “how good am I?” but “who is better because I was here?”",
-          "id": "Pertanyaannya bukan “seberapa baik aku?” tetapi “siapa yang lebih baik karena aku ada di sini?”"
+          "id": "Pertanyaannya bukan “seberapa hebat aku?”, melainkan “siapa yang jadi lebih baik karena aku ada di sini?”"
          }
         },
         {
@@ -51501,7 +51501,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "“Begini caranya” teaches clicks; thinking aloud teaches judgement.",
-          "id": "“Begini caranya” mengajarkan klik; berpikir keras mengajarkan penilaian."
+          "id": "“Begini caranya” mengajarkan klik; berpikir keras mengajarkan pertimbangan."
          }
         },
         {
@@ -51511,7 +51511,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Name the level every time you delegate, and leave the task with them.",
-          "id": "Sebut levelnya setiap kali mendelegasikan, dan biarkan tugasnya tetap di tangan mereka."
+          "id": "Sebutkan tingkatnya setiap kali kamu mendelegasikan, dan biarkan tugas itu tetap di tangan mereka."
          }
         },
         {
@@ -51521,7 +51521,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Ask first and advise last, and only if they are genuinely stuck; thank the person who says “saya belum paham”.",
-          "id": "Bertanya dulu dan menasihati terakhir, hanya jika mereka benar-benar buntu; berterima kasihlah pada orang yang berkata “saya belum paham”."
+          "id": "Bertanya dulu, memberi saran paling akhir, itu pun hanya kalau ia benar-benar buntu. Berterima kasihlah kepada orang yang berani bilang “saya belum paham”."
          }
         }
        ],
@@ -51530,7 +51530,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Diminishers give answers and rescue; multipliers stretch people and give them the thinking",
-          "id": "Pengecil memberi jawaban dan menyelamatkan; pengganda meregangkan orang dan memberi mereka cara berpikirnya"
+          "id": "Pengecil memberi jawaban dan langsung menyelamatkan; pengganda memberi tantangan dan cara berpikirnya"
          },
          "cols": [
           {
@@ -51540,18 +51540,18 @@ window.MT_LMS['the-route'] = {
            },
            "d": {
             "en": "Makes people smaller without meaning to",
-            "id": "Membuat orang lebih kecil tanpa sengaja"
+            "id": "Membuat orang mengecil tanpa sengaja"
            },
            "items": [
             {
              "icon": "chat",
              "en": "Gives the answer",
-             "id": "Memberi jawaban"
+             "id": "Memberi jawabannya"
             },
             {
              "icon": "bolt",
              "en": "Rescues at the first problem",
-             "id": "Menyelamatkan di masalah pertama"
+             "id": "Langsung menyelamatkan begitu ada masalah"
             },
             {
              "icon": "pen",
@@ -51579,12 +51579,12 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "question",
              "en": "Asks “What do you recommend, and why?”",
-             "id": "Bertanya “Apa rekomendasimu, dan mengapa?”"
+             "id": "Bertanya “Apa rekomendasimu, dan kenapa?”"
             },
             {
              "icon": "bulb",
              "en": "Asks what they have tried; offers a hint, not a fix",
-             "id": "Bertanya apa yang sudah dicoba; memberi petunjuk, bukan perbaikan"
+             "id": "Menanyakan apa yang sudah ia coba, lalu memberi petunjuk, bukan perbaikan"
             },
             {
              "icon": "list",
@@ -51605,22 +51605,22 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "L. Wiseman, Multipliers: the “accidental diminisher” is the well-meaning helper whose quick rescues teach others to wait.",
-          "id": "L. Wiseman, Multipliers: “pengecil tak sengaja” adalah penolong bermaksud baik yang penyelamatan cepatnya mengajarkan orang lain menunggu."
+          "id": "L. Wiseman, Multipliers: “pengecil yang tak disengaja” adalah penolong berniat baik yang karena selalu cepat menolong, mengajari orang lain untuk menunggu."
          },
          "band": {
           "en": "The question is not “how good am I?” but “who is better because I was here?”",
-          "id": "Pertanyaannya bukan “seberapa baik aku?” tetapi “siapa yang lebih baik karena aku ada di sini?”"
+          "id": "Pertanyaannya bukan “seberapa hebat aku?”, melainkan “siapa yang jadi lebih baik karena aku ada di sini?”"
          },
          "em": {
           "en": "give them the thinking",
-          "id": "memberi mereka cara berpikirnya"
+          "id": "cara berpikirnya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Teach so it sticks: explain the principle, show one thinking aloud, try together, then alone, debrief",
-          "id": "Ajarkan agar melekat: jelaskan prinsipnya, tunjukkan satu sambil berpikir keras, coba bersama, lalu sendiri, tinjau"
+          "id": "Mengajar supaya melekat: jelaskan prinsipnya, tunjukkan satu contoh sambil berpikir keras, coba bersama lalu sendiri, lalu tinjau"
          },
          "img": "../../assets/bg/alumni.jpg",
          "layout": "flow",
@@ -51631,7 +51631,7 @@ window.MT_LMS['the-route'] = {
            "id": "Jelaskan",
            "d": {
             "en": "The purpose and the principle first: why each document matters and what goes wrong without it.",
-            "id": "Tujuan dan prinsip lebih dulu: mengapa tiap dokumen penting dan apa yang salah tanpanya."
+            "id": "Tujuan dan prinsipnya lebih dulu: kenapa setiap dokumen penting dan apa yang salah kalau dokumen itu tidak ada."
            }
           },
           {
@@ -51640,7 +51640,7 @@ window.MT_LMS['the-route'] = {
            "id": "Tunjukkan",
            "d": {
             "en": "One example, thinking aloud: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.”",
-            "id": "Satu contoh, berpikir keras: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.”"
+            "id": "Satu contoh, sambil berpikir keras: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.”"
            }
           },
           {
@@ -51649,7 +51649,7 @@ window.MT_LMS['the-route'] = {
            "id": "Coba",
            "d": {
             "en": "Together on the next one while you watch, then the next few on their own.",
-            "id": "Bersama pada yang berikutnya sambil kamu mengamati, lalu beberapa berikutnya sendiri."
+            "id": "Kerjakan bersama yang berikutnya sementara kamu memperhatikan, lalu beberapa berikutnya ia kerjakan sendiri."
            }
           },
           {
@@ -51658,28 +51658,28 @@ window.MT_LMS['the-route'] = {
            "id": "Tinjau",
            "d": {
             "en": "What they noticed, what they would do differently, one principle to carry.",
-            "id": "Apa yang mereka perhatikan, apa yang akan dilakukan berbeda, satu prinsip untuk dibawa."
+            "id": "Apa yang ia perhatikan, apa yang akan ia lakukan secara berbeda, dan satu prinsip untuk dibawa."
            }
           }
          ],
          "sub": {
-          "en": "The gradual release of responsibility, often summarised as “I do, we do, you do”; a lecture and an abandonment both waste time.",
-          "id": "Pelepasan tanggung jawab bertahap, sering diringkas “saya, kita, kamu”; ceramah dan pembiaran sama-sama membuang waktu."
+          "en": "The gradual release of responsibility (often summarised as “I do, we do, you do”): a lecture and an abandonment both waste time.",
+          "id": "Pelepasan tanggung jawab bertahap, sering diringkas menjadi “aku melakukan, kita melakukan, kamu melakukan”. Ceramah dan pembiaran sama-sama membuang waktu."
          },
          "band": {
           "en": "“Begini caranya” teaches clicks; thinking aloud teaches judgement.",
-          "id": "“Begini caranya” mengajarkan klik; berpikir keras mengajarkan penilaian."
+          "id": "“Begini caranya” mengajarkan klik; berpikir keras mengajarkan pertimbangan."
          },
          "em": {
           "en": "so it sticks",
-          "id": "agar melekat"
+          "id": "supaya melekat"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Delegate without taking the monkey back: agree who holds the next move and the level of initiative",
-          "id": "Delegasikan tanpa mengambil kembali monyetnya: sepakati siapa memegang langkah berikutnya dan tingkat inisiatifnya"
+          "id": "Mendelegasikan tanpa mengambil kembali monyetnya: sepakati siapa yang memegang langkah berikutnya dan tingkat inisiatifnya"
          },
          "img": "../../assets/bg/fg-sprint-direction.jpg",
          "layout": "flow",
@@ -51690,7 +51690,7 @@ window.MT_LMS['the-route'] = {
            "id": "Menunggu",
            "d": {
             "en": "Wait until told; rarely useful, the starting point to move away from.",
-            "id": "Menunggu sampai disuruh; jarang berguna, titik awal untuk ditinggalkan."
+            "id": "Menunggu sampai diberi tahu. Jarang berguna, dan ini titik awal yang perlu ditinggalkan."
            }
           },
           {
@@ -51699,7 +51699,7 @@ window.MT_LMS['the-route'] = {
            "id": "Bertanya",
            "d": {
             "en": "Ask what to do; the first days in a new task.",
-            "id": "Bertanya apa yang harus dilakukan; hari-hari pertama di tugas baru."
+            "id": "Bertanya apa yang harus dilakukan. Untuk hari-hari pertama dalam tugas baru."
            }
           },
           {
@@ -51708,53 +51708,53 @@ window.MT_LMS['the-route'] = {
            "id": "Merekomendasikan",
            "d": {
             "en": "Bring a recommendation, then act; customer-facing or higher-risk work.",
-            "id": "Membawa rekomendasi, lalu bertindak; kerja yang menghadap nasabah atau berisiko lebih tinggi."
+            "id": "Membawa rekomendasi, lalu bertindak. Untuk pekerjaan yang berhadapan dengan nasabah atau berisiko lebih tinggi."
            }
           },
           {
            "icon": "bolt",
            "en": "Act and advise",
-           "id": "Bertindak dan memberi tahu",
+           "id": "Bertindak lalu mengabari",
            "d": {
             "en": "Act, then tell you at once; routine work with some judgement.",
-            "id": "Bertindak, lalu segera memberi tahu; kerja rutin dengan sedikit penilaian."
+            "id": "Bertindak, lalu segera memberi tahu kamu. Untuk pekerjaan rutin yang butuh sedikit pertimbangan."
            }
           },
           {
            "icon": "check",
            "en": "Act and report",
-           "id": "Bertindak dan melapor",
+           "id": "Bertindak lalu melapor",
            "d": {
             "en": "Act and report routinely; proven areas of ownership.",
-            "id": "Bertindak dan melapor rutin; wilayah kepemilikan yang terbukti."
+            "id": "Bertindak dan melapor secara rutin. Untuk area kepemilikan yang sudah terbukti."
            }
           }
          ],
          "sub": {
           "en": "W. Oncken and D. Wass, “Who’s Got the Monkey?”: “let me think about it” moves the next move from their back to yours.",
-          "id": "W. Oncken dan D. Wass, “Who’s Got the Monkey?”: “biar saya pikirkan dulu” memindahkan langkah berikutnya dari punggung mereka ke punggungmu."
+          "id": "W. Oncken dan D. Wass, “Who’s Got the Monkey?”: kalimat “nanti saya pikirkan” memindahkan langkah berikutnya dari punggung mereka ke punggungmu."
          },
          "band": {
           "en": "Name the level every time you delegate, and leave the task with them.",
-          "id": "Sebut levelnya setiap kali mendelegasikan, dan biarkan tugasnya tetap di tangan mereka."
+          "id": "Sebutkan tingkatnya setiap kali kamu mendelegasikan, dan biarkan tugas itu tetap di tangan mereka."
          },
          "em": {
           "en": "who holds the next move",
-          "id": "siapa memegang langkah berikutnya"
+          "id": "siapa yang memegang langkah berikutnya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Coach with GROW, ask before telling, and make “I don’t understand yet” safe",
-          "id": "Coaching dengan GROW, bertanya sebelum memberi tahu, dan buat “aku belum paham” terasa aman"
+          "id": "Lakukan coaching dengan GROW, bertanya sebelum memberi tahu, dan buat “aku belum paham” terasa aman"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "target",
            "en": "Goal",
-           "id": "Tujuan",
+           "id": "Goal",
            "d": {
             "en": "“Apa hasil yang kamu inginkan dari situasi ini?”",
             "id": "“Apa hasil yang kamu inginkan dari situasi ini?”"
@@ -51764,7 +51764,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "eye",
            "en": "Reality",
-           "id": "Kenyataan",
+           "id": "Reality",
            "d": {
             "en": "“Apa yang sudah terjadi, dan apa yang sudah kamu coba?”",
             "id": "“Apa yang sudah terjadi, dan apa yang sudah kamu coba?”"
@@ -51774,7 +51774,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "list",
            "en": "Options",
-           "id": "Pilihan",
+           "id": "Options",
            "d": {
             "en": "“Apa saja pilihannya? Apa lagi?”",
             "id": "“Apa saja pilihannya? Apa lagi?”"
@@ -51784,7 +51784,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "flag",
            "en": "Will",
-           "id": "Kemauan",
+           "id": "Will",
            "d": {
             "en": "“Apa yang akan kamu lakukan, kapan, dan bagaimana saya tahu?”",
             "id": "“Apa yang akan kamu lakukan, kapan, dan bagaimana saya tahu?”"
@@ -51794,11 +51794,11 @@ window.MT_LMS['the-route'] = {
          ],
          "sub": {
           "en": "J. Whitmore’s GROW takes ten minutes at a desk; A. Edmondson’s psychological safety is what makes the answers honest.",
-          "id": "GROW dari J. Whitmore butuh sepuluh menit di meja; keamanan psikologis dari A. Edmondson adalah yang membuat jawabannya jujur."
+          "id": "GROW dari J. Whitmore cukup sepuluh menit di meja kerja; rasa aman psikologis dari A. Edmondson membuat jawabannya jujur."
          },
          "band": {
           "en": "Ask first and advise last, and only if they are genuinely stuck; thank the person who says “saya belum paham”.",
-          "id": "Bertanya dulu dan menasihati terakhir, hanya jika mereka benar-benar buntu; berterima kasihlah pada orang yang berkata “saya belum paham”."
+          "id": "Bertanya dulu, memberi saran paling akhir, itu pun hanya kalau ia benar-benar buntu. Berterima kasihlah kepada orang yang berani bilang “saya belum paham”."
          },
          "em": {
           "en": "make “I don’t understand yet” safe",
@@ -51817,11 +51817,11 @@ window.MT_LMS['the-route'] = {
       },
       "title": {
        "en": "Your output, multiplied",
-       "id": "Hasil kerjamu, dilipatgandakan"
+       "id": "Hasil kerjamu, berlipat ganda"
       },
       "intro": {
        "en": "The question is not “how good am I?” but “who is better because I was here?”",
-       "id": "Pertanyaannya bukan “seberapa baik aku?” melainkan “siapa yang lebih baik karena aku ada di sini?”"
+       "id": "Pertanyaannya bukan “seberapa hebat aku?”, melainkan “siapa yang jadi lebih baik karena aku ada di sini?”"
       },
       "slides": [
        {
@@ -51832,7 +51832,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Stretch people and give them the thinking, not just the answer.",
-          "id": "Regangkan orang dan beri mereka cara berpikirnya, bukan hanya jawabannya."
+          "id": "Beri orang tantangan, dan beri mereka cara berpikirnya, bukan hanya jawabannya."
          }
         ]
        },
@@ -51844,7 +51844,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Explain, show, let them try, debrief.",
-          "id": "Jelaskan, tunjukkan, biarkan mencoba, tinjau."
+          "id": "Jelaskan, tunjukkan, biarkan mereka mencoba, lalu tinjau bersama."
          }
         ]
        },
@@ -51856,7 +51856,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Name the level of initiative. Leave the task with them.",
-          "id": "Sebut tingkat inisiatifnya. Biarkan tugas tetap di tangan mereka."
+          "id": "Sebutkan tingkat inisiatifnya. Biarkan tugas itu tetap di tangan mereka."
          }
         ]
        },
@@ -51868,7 +51868,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "Ask before telling; make “I don’t understand yet” safe.",
-          "id": "Bertanya sebelum memberi tahu; buat “aku belum paham” terasa aman."
+          "id": "Bertanya dulu sebelum memberi tahu. Buat kalimat “aku belum paham” terasa aman diucapkan."
          }
         ]
        }
@@ -51884,8 +51884,8 @@ window.MT_LMS['the-route'] = {
         "id": "Pola pikir pengganda"
        },
        "body": {
-        "en": "Liz Wiseman’s research, published as <i>Multipliers</i>, contrasts two kinds of leaders. <b>Diminishers</b> are often brilliant individuals who, without meaning to, make the people around them smaller: they give answers instead of asking questions, rescue work at the first sign of trouble, dominate discussions and hold on to decisions. <b>Multipliers</b> draw out more of people’s capability: they give stretching work, ask hard questions, debate before deciding, and give ownership back. Wiseman also describes the “accidental diminisher”, the well-meaning helper whose quick rescues and constant ideas quietly teach others to wait. You do not need a title to be either. The senior analyst who rewrites an intern’s memo at nine at night, the colleague who always has the answer in the meeting, the expert who never explains how they reached it. Each diminishes. The analyst who hands over a checklist, asks “apa rekomendasimu?”, and lets a junior present the finding they found, multiplies. In the early years, developing others shows up in small, visible acts: onboarding a newcomer well (Lesson 3.4), sharing a template and explaining the thinking behind it, reviewing work in a way that teaches, and giving credit publicly (Lesson 3.2). These acts are among the strongest evidence for the “developing others” expectation that appears in most promotion guides (Module 5), and they are the practice ground for everything a first team will demand.",
-        "id": "Riset Liz Wiseman, yang diterbitkan sebagai <i>Multipliers</i>, membandingkan dua jenis pemimpin. <b>Pengecil</b> sering individu cemerlang yang, tanpa bermaksud, membuat orang di sekitarnya mengecil: mereka memberi jawaban alih-alih bertanya, menyelamatkan pekerjaan di tanda masalah pertama, mendominasi diskusi, dan menahan keputusan. <b>Pengganda</b> menarik keluar lebih banyak kemampuan orang: memberi pekerjaan yang meregangkan, mengajukan pertanyaan sulit, berdebat sebelum memutuskan, dan mengembalikan kepemilikan. Wiseman juga menggambarkan “pengecil yang tak disengaja”, penolong berniat baik yang penyelamatan cepat dan gagasannya yang tak henti diam-diam mengajari orang lain untuk menunggu. Kamu tak butuh jabatan untuk menjadi salah satunya. Analis senior yang menulis ulang memo anak magang pukul sembilan malam, kolega yang selalu punya jawaban di rapat, ahli yang tak pernah menjelaskan bagaimana ia sampai pada jawabannya, masing-masing mengecilkan. Analis yang menyerahkan daftar periksa, bertanya “apa rekomendasimu?”, dan membiarkan junior memaparkan temuan yang ia temukan, melipatgandakan. Di tahun-tahun awal, mengembangkan orang lain muncul dalam tindakan kecil yang terlihat: menerima pendatang baru dengan baik (Pelajaran 3.4), berbagi templat dan menjelaskan cara berpikir di baliknya, meninjau pekerjaan dengan cara yang mengajar, dan memberi kredit di depan umum (Pelajaran 3.2). Tindakan-tindakan ini termasuk bukti terkuat untuk harapan “mengembangkan orang lain” yang ada di kebanyakan panduan promosi (Modul 5), dan menjadi tempat latihan untuk semua yang akan dituntut tim pertama."
+        "en": "Liz Wiseman’s research, published as <i>Multipliers</i>, contrasts two kinds of leaders. <b>Diminishers</b> are often brilliant individuals who, without meaning to, make the people around them smaller: they give answers instead of asking questions, rescue work at the first sign of trouble, dominate discussions and hold on to decisions. <b>Multipliers</b> draw out more of people’s capability: they give stretching work, ask hard questions, debate before deciding, and give ownership back. Wiseman also describes the “accidental diminisher”: the well-meaning helper whose quick rescues and constant ideas quietly teach others to wait. You do not need a title to be either. The senior analyst who rewrites an intern’s memo at nine at night, the colleague who always has the answer in the meeting, the expert who never explains how they reached it: each diminishes. The analyst who hands over a checklist, asks “apa rekomendasimu?” and lets a junior present the finding they found multiplies. In the early years, developing others shows up in small, visible acts: onboarding a newcomer well (Lesson 3.4), sharing a template and explaining the thinking behind it, reviewing work in a way that teaches, and giving credit publicly (Lesson 3.2). These acts are among the strongest evidence for the “developing others” expectation that appears in most promotion guides (Module 5), and they are the practice ground for everything a first team will demand.",
+        "id": "Riset Liz Wiseman yang terbit sebagai <i>Multipliers</i> membandingkan dua jenis pemimpin. <b>Pengecil</b> sering kali adalah individu cemerlang yang, tanpa sengaja, membuat orang di sekitarnya mengecil. Mereka memberi jawaban alih-alih bertanya, langsung menyelamatkan pekerjaan begitu ada tanda masalah, menguasai diskusi, dan memegang erat setiap keputusan. <b>Pengganda</b> menarik keluar lebih banyak kemampuan orang lain. Mereka memberi pekerjaan yang menantang, mengajukan pertanyaan sulit, berdebat dulu sebelum memutuskan, dan mengembalikan kepemilikan kepada orang itu. Wiseman juga menggambarkan “pengecil yang tak disengaja”: penolong yang niatnya baik, tetapi karena selalu cepat menolong dan selalu punya ide, diam-diam mengajari orang lain untuk menunggu saja. Kamu tidak butuh jabatan untuk menjadi salah satunya. Analis senior yang menulis ulang memo anak magang pukul sembilan malam, rekan yang selalu punya jawaban di rapat, pakar yang tidak pernah menjelaskan bagaimana ia sampai pada jawabannya: semuanya mengecilkan. Analis yang menyerahkan daftar periksa, bertanya “apa rekomendasimu?”, lalu membiarkan juniornya mempresentasikan temuan yang ia temukan sendiri, sedang melipatgandakan. Di tahun-tahun awal kariermu, mengembangkan orang lain tampak dalam tindakan kecil yang terlihat: menyambut pendatang baru dengan baik (Pelajaran 3.4), membagikan templat sambil menjelaskan cara berpikir di baliknya, meninjau pekerjaan dengan cara yang mengajar, dan memberi pujian di depan umum (Pelajaran 3.2). Tindakan seperti ini termasuk bukti terkuat untuk harapan “mengembangkan orang lain” yang muncul di sebagian besar panduan promosi (Modul 5). Ini juga tempat berlatih untuk semua tuntutan yang akan datang saat kamu memimpin tim pertamamu."
        },
        "table": {
         "cols": [
@@ -51902,21 +51902,21 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Gives the answer",
-           "id": "Memberi jawaban"
+           "id": "Memberi jawabannya"
           },
           {
            "en": "Asks “What do you recommend, and why?”",
-           "id": "Bertanya “Apa rekomendasimu, dan mengapa?”"
+           "id": "Bertanya “Apa rekomendasimu, dan kenapa?”"
           }
          ],
          [
           {
            "en": "Rescues at the first problem",
-           "id": "Menyelamatkan di masalah pertama"
+           "id": "Langsung menyelamatkan begitu ada masalah"
           },
           {
            "en": "Asks what they have tried; offers a hint, not a fix",
-           "id": "Bertanya apa yang sudah dicoba; memberi petunjuk, bukan perbaikan"
+           "id": "Menanyakan apa yang sudah ia coba, lalu memberi petunjuk, bukan perbaikan"
           }
          ],
          [
@@ -51932,17 +51932,17 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "Presents the team’s findings",
-           "id": "Memaparkan temuan tim"
+           "id": "Mempresentasikan temuan tim"
           },
           {
            "en": "Lets the person who found it present it",
-           "id": "Membiarkan penemunya yang memaparkan"
+           "id": "Membiarkan orang yang menemukannya mempresentasikannya"
           }
          ]
         ],
         "caption": {
          "en": "After L. Wiseman, <i>Multipliers</i>; examples are course guidance.",
-         "id": "Mengikuti L. Wiseman, <i>Multipliers</i>; contoh adalah panduan kursus."
+         "id": "Mengacu pada L. Wiseman, <i>Multipliers</i>. Contoh-contohnya adalah panduan kursus."
         }
        }
       },
@@ -51950,16 +51950,16 @@ window.MT_LMS['the-route'] = {
        "icon": "book",
        "h": {
         "en": "Teaching a skill so it sticks",
-        "id": "Mengajarkan keterampilan agar melekat"
+        "id": "Mengajarkan keterampilan supaya melekat"
        },
        "body": {
-        "en": "Most on-the-job teaching is either a lecture (“begini caranya”) or an abandonment (“coba kerjakan dulu”). Both waste time. A sequence familiar from education research as the <b>gradual release of responsibility</b>, often summarised as “I do, we do, you do”, works far better. <b>Explain</b> the purpose and the principle first: not only how to check a borrower’s documents, but why each document matters and what goes wrong without it. <b>Show</b> one example, thinking aloud so the learner hears your judgement, not just your clicks: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.” <b>Try together, then alone</b>: let them do the next one while you watch, then the next few on their own. <b>Debrief</b>: ask what was hard, what they would do differently, and point out one thing done well and one to improve (the SBI feedback of Module 2). Three supports make the sequence faster. A <b>worked example</b>, a finished, good-quality piece, shows the standard more clearly than any description. A short <b>checklist</b> of the five things that most often go wrong turns your experience into something they can carry. And <b>productive struggle</b>, letting them wrestle with a problem for a limited time before helping, builds understanding that instant answers do not; the art is to set a time box (“coba dua puluh menit, lalu kita bahas”). Teaching also teaches the teacher: explaining your judgement forces you to see it clearly, and often to improve it.",
-        "id": "Kebanyakan pengajaran di tempat kerja berupa ceramah (“begini caranya”) atau pembiaran (“coba kerjakan dulu”). Keduanya membuang waktu. Urutan yang dikenal dalam riset pendidikan sebagai <b>pelepasan tanggung jawab bertahap</b>, sering diringkas menjadi “aku lakukan, kita lakukan, kamu lakukan”, bekerja jauh lebih baik. <b>Jelaskan</b> tujuan dan prinsipnya dulu: bukan hanya cara memeriksa dokumen debitur, tetapi mengapa tiap dokumen penting dan apa yang salah tanpanya. <b>Tunjukkan</b> satu contoh, sambil berpikir keras agar pembelajar mendengar penilaianmu, bukan hanya klikmu: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.” <b>Coba bersama, lalu sendiri</b>: biarkan ia mengerjakan yang berikutnya sementara kamu mengamati, lalu beberapa berikutnya sendirian. <b>Tinjau</b>: tanyakan apa yang sulit, apa yang akan ia lakukan berbeda, dan tunjukkan satu hal yang sudah baik dan satu yang perlu diperbaiki (umpan balik SBI dari Modul 2). Tiga penopang mempercepat urutannya. <b>Contoh jadi</b>, hasil kerja yang selesai dan berkualitas, menunjukkan standarnya lebih jelas daripada deskripsi apa pun. <b>Daftar periksa</b> singkat berisi lima hal yang paling sering salah mengubah pengalamanmu menjadi sesuatu yang bisa ia bawa. Dan <b>perjuangan yang produktif</b>, membiarkan ia bergulat dengan masalah dalam waktu terbatas sebelum dibantu, membangun pemahaman yang tak dibangun jawaban instan; seninya adalah menetapkan batas waktu (“coba dua puluh menit, lalu kita bahas”). Mengajar juga mengajari pengajarnya: menjelaskan penilaianmu memaksamu melihatnya dengan jelas, dan sering memperbaikinya."
+        "en": "Most on-the-job teaching is either a lecture (“begini caranya”) or an abandonment (“coba kerjakan dulu”). Both waste time. A sequence familiar from education research as the <b>gradual release of responsibility</b> (often summarised as “I do, we do, you do”) works far better. <b>Explain</b> the purpose and the principle first: not only how to check a borrower’s documents, but why each document matters and what goes wrong without it. <b>Show</b> one example, thinking aloud so the learner hears your judgement, not just your clicks: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.” <b>Try together, then alone</b>: let them do the next one while you watch, then the next few on their own. <b>Debrief</b>: ask what was hard, what they would do differently, and point out one thing done well and one to improve (the SBI feedback of Module 2). Three supports make the sequence faster. A <b>worked example</b> (a finished, good-quality piece) shows the standard more clearly than any description. A short <b>checklist</b> of the five things that most often go wrong turns your experience into something they can carry. And <b>productive struggle</b> (letting them wrestle with a problem for a limited time before helping) builds understanding that instant answers do not; the art is to set a time box (“coba dua puluh menit, lalu kita bahas”). Teaching also teaches the teacher: explaining your judgement forces you to see it clearly, and often to improve it.",
+        "id": "Sebagian besar pengajaran di tempat kerja berbentuk ceramah (“begini caranya”) atau pembiaran (“coba kerjakan dulu”). Keduanya membuang waktu. Urutan yang dikenal dalam riset pendidikan sebagai <b>pelepasan tanggung jawab bertahap</b>, yang sering diringkas menjadi “aku melakukan, kita melakukan, kamu melakukan”, jauh lebih efektif. <b>Jelaskan</b> tujuan dan prinsipnya lebih dulu. Bukan hanya cara memeriksa dokumen calon debitur, tetapi juga kenapa setiap dokumen penting dan apa yang salah kalau dokumen itu tidak ada. <b>Tunjukkan</b> satu contoh sambil berpikir keras, supaya pembelajar mendengar pertimbanganmu, bukan hanya melihat klikmu: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.” <b>Coba bersama, lalu sendiri</b>: biarkan ia mengerjakan yang berikutnya sementara kamu memperhatikan, lalu beberapa berikutnya sendiri. <b>Tinjau</b>: tanyakan bagian mana yang sulit dan apa yang akan ia lakukan secara berbeda, lalu sebutkan satu hal yang sudah bagus dan satu hal yang perlu diperbaiki (masukan SBI dari Modul 2). Tiga penopang membuat urutan ini lebih cepat. <b>Contoh jadi</b>, yaitu hasil kerja yang sudah selesai dan berkualitas baik, menunjukkan standarnya lebih jelas daripada deskripsi apa pun. <b>Daftar periksa</b> singkat berisi lima hal yang paling sering salah mengubah pengalamanmu menjadi sesuatu yang bisa ia bawa. Lalu ada <b>perjuangan yang produktif</b>: biarkan ia bergulat dengan masalahnya selama waktu yang terbatas sebelum kamu membantu. Cara ini membangun pemahaman yang tidak bisa dibangun oleh jawaban instan. Seninya ada pada batas waktu (“coba dua puluh menit, lalu kita bahas”). Mengajar juga mengajari pengajarnya. Menjelaskan pertimbanganmu memaksamu melihatnya dengan jernih, dan sering kali memperbaikinya."
        },
        "bullets": [
         {
          "en": "<b>Explain</b>: the purpose and the principle, not only the steps.",
-         "id": "<b>Jelaskan</b>: tujuan dan prinsipnya, bukan hanya langkahnya."
+         "id": "<b>Jelaskan</b>: tujuan dan prinsipnya, bukan hanya langkah-langkahnya."
         },
         {
          "en": "<b>Show</b>: one worked example, thinking aloud.",
@@ -51967,7 +51967,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "<b>Try</b>: together, then alone, with a checklist and a time box.",
-         "id": "<b>Coba</b>: bersama, lalu sendiri, dengan daftar periksa dan batas waktu."
+         "id": "<b>Coba</b>: bersama dulu, lalu sendiri, dengan daftar periksa dan batas waktu."
         },
         {
          "en": "<b>Debrief</b>: what was hard, one strength, one improvement.",
@@ -51982,8 +51982,8 @@ window.MT_LMS['the-route'] = {
         "id": "Mendelegasikan tanpa mengambil kembali monyetnya"
        },
        "body": {
-        "en": "In a classic 1974 <i>Harvard Business Review</i> article, “Management Time: Who’s Got the Monkey?”, William Oncken and Donald Wass described how managers end up doing their team’s work: a junior stops them in the corridor with a problem, the manager says “let me think about it”, and the “monkey”, the next move, has jumped from the junior’s back to the manager’s. You will meet the same pattern the first time you supervise an intern or lead a small piece of work. The antidote is to agree, every time you delegate, <b>who holds the next move</b> and <b>what level of initiative</b> the person has. Oncken and Wass described five levels, from least to most freedom: <b>(1)</b> wait until told; <b>(2)</b> ask what to do; <b>(3)</b> recommend, then act on the agreed recommendation; <b>(4)</b> act, then advise at once; <b>(5)</b> act on your own and report routinely. Development means moving people up the ladder deliberately as their judgement is proven: a new analyst might start at level 3 for customer communications and level 4 for data cleaning. Name the level explicitly, “Untuk surat ke nasabah, kirim draf dan rekomendasimu dulu; untuk pembersihan data, langsung kerjakan dan kabari saya setelahnya.” Then, when they bring you a problem, resist the rescue: “Apa rekomendasimu?” keeps the monkey where it belongs. Good delegation also states the <b>outcome and the limits</b> (Lesson 3.4): what good looks like, the deadline, the budget or boundaries, and the check-in points. The cost is a little time now; the return is a colleague who needs you less every month; which is exactly what makes you available for bigger work.",
-        "id": "Dalam artikel klasik <i>Harvard Business Review</i> tahun 1974, “Management Time: Who’s Got the Monkey?”, William Oncken dan Donald Wass menggambarkan bagaimana manajer akhirnya mengerjakan pekerjaan timnya: seorang junior menghentikannya di lorong dengan sebuah masalah, sang manajer berkata “nanti saya pikirkan”, dan “monyet”, langkah berikutnya, melompat dari punggung si junior ke punggung sang manajer. Kamu akan bertemu pola yang sama saat pertama kali mengawasi anak magang atau memimpin sebagian kecil pekerjaan. Penangkalnya adalah menyepakati, setiap kali mendelegasikan, <b>siapa yang memegang langkah berikutnya</b> dan <b>tingkat inisiatif</b> yang dimiliki orang itu. Oncken dan Wass menggambarkan lima tingkat, dari kebebasan paling sedikit ke paling banyak: <b>(1)</b> menunggu sampai diberi tahu; <b>(2)</b> bertanya apa yang harus dilakukan; <b>(3)</b> merekomendasikan, lalu bertindak sesuai rekomendasi yang disepakati; <b>(4)</b> bertindak, lalu segera melapor; <b>(5)</b> bertindak sendiri dan melapor secara rutin. Pengembangan berarti menaikkan orang di tangga ini dengan sengaja seiring penilaiannya terbukti: analis baru mungkin mulai di tingkat 3 untuk komunikasi dengan nasabah dan tingkat 4 untuk pembersihan data. Sebutkan tingkatnya secara eksplisit, “Untuk surat ke nasabah, kirim draf dan rekomendasimu dulu; untuk pembersihan data, langsung kerjakan dan kabari saya setelahnya.” Lalu, saat ia membawa masalah kepadamu, tahan dorongan untuk menyelamatkan: “Apa rekomendasimu?” menjaga monyetnya tetap di tempatnya. Pendelegasian yang baik juga menyebut <b>hasil dan batasannya</b> (Pelajaran 3.4): seperti apa hasil yang baik, tenggatnya, anggaran atau batasannya, dan titik pemeriksaannya. Biayanya sedikit waktu sekarang; imbalnya adalah rekan yang semakin jarang membutuhkanmu setiap bulan; yang justru membuatmu tersedia untuk pekerjaan yang lebih besar."
+        "en": "In a classic 1974 <i>Harvard Business Review</i> article, “Management Time: Who’s Got the Monkey?”, William Oncken and Donald Wass described how managers end up doing their team’s work: a junior stops them in the corridor with a problem, the manager says “let me think about it”, and the “monkey” (the next move) has jumped from the junior’s back to the manager’s. You will meet the same pattern the first time you supervise an intern or lead a small piece of work. The antidote is to agree, every time you delegate, <b>who holds the next move</b> and <b>what level of initiative</b> the person has. Oncken and Wass described five levels, from least to most freedom: <b>(1)</b> wait until told; <b>(2)</b> ask what to do; <b>(3)</b> recommend, then act on the agreed recommendation; <b>(4)</b> act, then advise at once; <b>(5)</b> act on your own and report routinely. Development means moving people up the ladder deliberately as their judgement is proven: a new analyst might start at level 3 for customer communications and level 4 for data cleaning. Name the level explicitly: “Untuk surat ke nasabah, kirim draf dan rekomendasimu dulu; untuk pembersihan data, langsung kerjakan dan kabari saya setelahnya.” Then, when they bring you a problem, resist the rescue: “Apa rekomendasimu?” keeps the monkey where it belongs. Good delegation also states the <b>outcome and the limits</b> (Lesson 3.4): what good looks like, the deadline, the budget or boundaries, and the check-in points. The cost is a little time now; the return is a colleague who needs you less every month, which is exactly what makes you available for bigger work.",
+        "id": "Dalam artikel klasik <i>Harvard Business Review</i> tahun 1974, “Management Time: Who’s Got the Monkey?”, William Oncken dan Donald Wass menggambarkan bagaimana atasan akhirnya mengerjakan pekerjaan timnya sendiri. Seorang junior mencegatnya di lorong dengan sebuah masalah, sang atasan menjawab “nanti saya pikirkan”, dan “monyet” itu (langkah berikutnya) melompat dari punggung si junior ke punggung sang atasan. Kamu akan bertemu pola yang sama saat pertama kali membimbing anak magang atau memimpin sebagian kecil pekerjaan. Penangkalnya adalah menyepakati, setiap kali kamu mendelegasikan, <b>siapa yang memegang langkah berikutnya</b> dan <b>seberapa tinggi tingkat inisiatif</b> orang itu. Oncken dan Wass menggambarkan lima tingkat, dari kebebasan paling kecil sampai paling besar: <b>(1)</b> menunggu sampai diberi tahu; <b>(2)</b> bertanya apa yang harus dilakukan; <b>(3)</b> memberi rekomendasi, lalu bertindak sesuai rekomendasi yang disepakati; <b>(4)</b> bertindak, lalu segera mengabari; <b>(5)</b> bertindak sendiri dan melapor secara rutin. Mengembangkan orang berarti menaikkan mereka di tangga ini dengan sengaja, seiring pertimbangan mereka terbukti. Analis baru mungkin mulai di tingkat 3 untuk komunikasi dengan nasabah dan di tingkat 4 untuk pembersihan data. Sebutkan tingkatnya secara terang: “Untuk surat ke nasabah, kirim draf dan rekomendasimu dulu; untuk pembersihan data, langsung kerjakan dan kabari saya setelahnya.” Lalu, saat ia datang membawa masalah, tahan dorongan untuk menyelamatkan. Pertanyaan “Apa rekomendasimu?” menjaga monyet itu tetap di tempatnya. Delegasi yang baik juga menyebutkan <b>hasil dan batasannya</b> (Pelajaran 3.4): seperti apa hasil yang baik, tenggatnya, anggaran atau batasannya, dan kapan kalian akan mengecek. Biayanya sedikit waktu sekarang. Imbalannya adalah rekan yang setiap bulan semakin jarang membutuhkanmu, dan justru itulah yang membuatmu leluasa mengambil pekerjaan yang lebih besar."
        },
        "table": {
         "cols": [
@@ -51997,7 +51997,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Typical use",
-          "id": "Pemakaian lazim"
+          "id": "Penggunaan umum"
          }
         ],
         "rows": [
@@ -52012,7 +52012,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Rarely useful; the starting point to move away from",
-           "id": "Jarang berguna; titik awal untuk ditinggalkan"
+           "id": "Jarang berguna. Ini titik awal yang perlu ditinggalkan"
           }
          ],
          [
@@ -52022,11 +52022,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Ask what to do",
-           "id": "Bertanya apa yang dilakukan"
+           "id": "Bertanya apa yang harus dilakukan"
           },
           {
            "en": "First days in a new task",
-           "id": "Hari-hari pertama di tugas baru"
+           "id": "Hari-hari pertama dalam tugas baru"
           }
          ],
          [
@@ -52040,27 +52040,27 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Customer-facing or higher-risk work",
-           "id": "Pekerjaan berhadapan dengan nasabah atau berisiko lebih tinggi"
+           "id": "Pekerjaan yang berhadapan dengan nasabah atau berisiko lebih tinggi"
           }
          ],
          [
           {
            "en": "<b>4 · Act and advise</b>",
-           "id": "<b>4 · Bertindak dan lapor</b>"
+           "id": "<b>4 · Bertindak lalu mengabari</b>"
           },
           {
            "en": "Act, then tell you at once",
-           "id": "Bertindak, lalu segera memberi tahu"
+           "id": "Bertindak, lalu segera memberi tahu kamu"
           },
           {
            "en": "Routine work with some judgement",
-           "id": "Pekerjaan rutin dengan sedikit penilaian"
+           "id": "Pekerjaan rutin yang butuh sedikit pertimbangan"
           }
          ],
          [
           {
            "en": "<b>5 · Act and report</b>",
-           "id": "<b>5 · Bertindak dan laporan rutin</b>"
+           "id": "<b>5 · Bertindak lalu melapor</b>"
           },
           {
            "en": "Act and report routinely",
@@ -52074,19 +52074,19 @@ window.MT_LMS['the-route'] = {
         ],
         "caption": {
          "en": "After W. Oncken and D. L. Wass, “Management Time: Who’s Got the Monkey?” (<i>Harvard Business Review</i>, 1974).",
-         "id": "Mengikuti W. Oncken dan D. L. Wass, “Management Time: Who’s Got the Monkey?” (<i>Harvard Business Review</i>, 1974)."
+         "id": "Mengacu pada W. Oncken dan D. L. Wass, “Management Time: Who’s Got the Monkey?” (<i>Harvard Business Review</i>, 1974)."
         }
        }
       },
       {
        "icon": "chat",
        "h": {
-        "en": "Coaching conversations: and making it safe to not know",
-        "id": "Percakapan coaching: dan membuat aman untuk belum tahu"
+        "en": "Coaching conversations, and making it safe to not know",
+        "id": "Percakapan coaching, dan membuat orang aman untuk belum tahu"
        },
        "body": {
-        "en": "Coaching is helping someone think their way to a better answer rather than handing them yours. The most widely used structure, from John Whitmore’s <i>Coaching for Performance</i>, is <b>GROW</b>: <b>Goal</b>: what do you want to achieve in this situation? <b>Reality</b>: what is happening now, and what have you tried? <b>Options</b>: what could you do? What else? <b>Will</b>: what will you do, by when, and how will I know? A good coaching conversation can take ten minutes at a desk. The discipline is to ask first and advise last, and only if they are genuinely stuck. None of this works, however, if people do not feel safe to say what they do not understand. Amy Edmondson’s research on <b>psychological safety</b>: the shared belief that it is safe to take interpersonal risks such as asking questions or admitting mistakes. Shows that teams where people feel this safety learn faster and catch errors earlier. In hierarchical workplaces, juniors often answer “sudah paham” or “siap” out of respect even when they are lost, and a question like “ada yang belum jelas?” almost always gets silence. Build safety with specific moves. Ask questions that assume confusion is normal: “Bagian mana yang paling membingungkan?” Admit your own mistakes and uncertainties first. Thank people for bad news and early questions, visibly. Separate a mistake from the person: discuss the process that allowed it (Lesson 3.4’s framing of Sekar’s error), not their character. And when someone says “siap” too quickly, ask them to explain the plan back in their own words; kindly, as a check for both of you.",
-        "id": "Coaching adalah membantu seseorang berpikir menuju jawaban yang lebih baik alih-alih menyerahkan jawabanmu. Struktur yang paling luas dipakai, dari <i>Coaching for Performance</i> karya John Whitmore, adalah <b>GROW</b>: <b>Goal</b>: apa yang ingin kamu capai dalam situasi ini? <b>Reality</b>: apa yang terjadi sekarang, dan apa yang sudah kamu coba? <b>Options</b>: apa yang bisa kamu lakukan? Apa lagi? <b>Will</b>: apa yang akan kamu lakukan, kapan, dan bagaimana aku akan tahu? Percakapan coaching yang baik bisa sepuluh menit di meja. Disiplinnya adalah bertanya dulu dan memberi saran terakhir, dan hanya jika ia benar-benar buntu. Namun semua ini tak bekerja jika orang tak merasa aman mengatakan apa yang belum mereka pahami. Riset Amy Edmondson tentang <b>rasa aman psikologis</b>, keyakinan bersama bahwa aman untuk mengambil risiko antarpribadi seperti bertanya atau mengakui kesalahan, menunjukkan bahwa tim yang merasakannya belajar lebih cepat dan menangkap kesalahan lebih awal. Di tempat kerja yang hierarkis, junior sering menjawab “sudah paham” atau “siap” karena hormat meskipun sebenarnya bingung, dan pertanyaan seperti “ada yang belum jelas?” hampir selalu dijawab diam. Bangun rasa aman dengan langkah spesifik. Ajukan pertanyaan yang menganggap kebingungan itu wajar: “Bagian mana yang paling membingungkan?” Akui kesalahan dan ketidakpastianmu sendiri lebih dulu. Berterima kasihlah atas kabar buruk dan pertanyaan awal, secara terlihat. Pisahkan kesalahan dari orangnya: bahas proses yang memungkinkannya (pembingkaian kesalahan Sekar di Pelajaran 3.4), bukan wataknya. Dan saat seseorang berkata “siap” terlalu cepat, minta ia menjelaskan kembali rencananya dengan kata-katanya sendiri, dengan ramah, sebagai pengecekan bagi kalian berdua."
+        "en": "Coaching is helping someone think their way to a better answer rather than handing them yours. The most widely used structure, from John Whitmore’s <i>Coaching for Performance</i>, is <b>GROW</b>. <b>Goal</b>: what do you want to achieve in this situation? <b>Reality</b>: what is happening now, and what have you tried? <b>Options</b>: what could you do? What else? <b>Will</b>: what will you do, by when, and how will I know? A good coaching conversation can take ten minutes at a desk. The discipline is to ask first and advise last, and only if they are genuinely stuck. None of this works, however, if people do not feel safe to say what they do not understand. Amy Edmondson’s research on <b>psychological safety</b> (the shared belief that it is safe to take interpersonal risks such as asking questions or admitting mistakes) shows that teams where people feel this safety learn faster and catch errors earlier. In hierarchical Indonesian workplaces, juniors often answer “sudah paham” or “siap” out of respect even when they are lost, and a question like “ada yang belum jelas?” almost always gets silence. Build safety with specific moves. Ask questions that assume confusion is normal: “Bagian mana yang paling membingungkan?” Admit your own mistakes and uncertainties first. Thank people for bad news and early questions, visibly. Separate a mistake from the person: discuss the process that allowed it (Lesson 3.4’s framing of Sekar’s error), not their character. And when someone says “siap” too quickly, ask them to explain the plan back in their own words, kindly, as a check for both of you.",
+        "id": "Coaching berarti membantu seseorang menemukan jawaban yang lebih baik dengan pikirannya sendiri, bukan menyerahkan jawabanmu. Struktur yang paling banyak dipakai, dari buku John Whitmore <i>Coaching for Performance</i>, adalah <b>GROW</b>. <b>Goal</b> (tujuan): apa yang ingin kamu capai dalam situasi ini? <b>Reality</b> (kenyataan): apa yang sedang terjadi, dan apa yang sudah kamu coba? <b>Options</b> (pilihan): apa yang bisa kamu lakukan? Apa lagi? <b>Will</b> (tekad): apa yang akan kamu lakukan, kapan, dan bagaimana aku tahu? Percakapan coaching yang baik bisa selesai dalam sepuluh menit di meja kerja. Disiplinnya adalah bertanya dulu dan memberi saran paling akhir, itu pun hanya kalau ia benar-benar buntu. Tetapi semua ini tidak akan berhasil kalau orang tidak merasa aman mengatakan apa yang belum ia pahami. Riset Amy Edmondson tentang <b>rasa aman psikologis</b> (keyakinan bersama bahwa aman untuk mengambil risiko antarpribadi, seperti bertanya atau mengakui kesalahan) menunjukkan bahwa tim yang merasakannya belajar lebih cepat dan menangkap kesalahan lebih awal. Di tempat kerja Indonesia yang hierarkis, junior sering menjawab “sudah paham” atau “siap” karena sungkan, padahal ia sebenarnya bingung. Pertanyaan seperti “ada yang belum jelas?” hampir selalu dijawab dengan diam. Bangun rasa aman lewat langkah yang spesifik. Ajukan pertanyaan yang menganggap kebingungan itu wajar: “Bagian mana yang paling membingungkan?” Akui kesalahan dan ketidakpastianmu sendiri lebih dulu. Berterima kasihlah atas kabar buruk dan pertanyaan yang datang lebih awal, dan lakukan itu secara terlihat. Pisahkan kesalahan dari orangnya: bahas proses yang memungkinkan kesalahan itu terjadi (seperti cara Pelajaran 3.4 membingkai kesalahan Sekar), bukan wataknya. Lalu, kalau seseorang menjawab “siap” terlalu cepat, minta ia menjelaskan ulang rencananya dengan kata-katanya sendiri. Lakukan dengan ramah, sebagai pengecekan untuk kalian berdua."
        },
        "table": {
         "cols": [
@@ -52096,14 +52096,14 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "A question to ask",
-          "id": "Pertanyaan yang diajukan"
+          "id": "Pertanyaan yang bisa diajukan"
          }
         ],
         "rows": [
          [
           {
            "en": "<b>Goal</b>",
-           "id": "<b>Goal (Tujuan)</b>"
+           "id": "<b>Goal</b>"
           },
           {
            "en": "“Apa hasil yang kamu inginkan dari situasi ini?”",
@@ -52113,7 +52113,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Reality</b>",
-           "id": "<b>Reality (Kenyataan)</b>"
+           "id": "<b>Reality</b>"
           },
           {
            "en": "“Apa yang sudah terjadi, dan apa yang sudah kamu coba?”",
@@ -52123,7 +52123,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Options</b>",
-           "id": "<b>Options (Pilihan)</b>"
+           "id": "<b>Options</b>"
           },
           {
            "en": "“Apa saja pilihannya? Apa lagi?”",
@@ -52133,7 +52133,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Will</b>",
-           "id": "<b>Will (Tekad)</b>"
+           "id": "<b>Will</b>"
           },
           {
            "en": "“Apa yang akan kamu lakukan, kapan, dan bagaimana saya tahu?”",
@@ -52143,7 +52143,7 @@ window.MT_LMS['the-route'] = {
         ],
         "caption": {
          "en": "After J. Whitmore, <i>Coaching for Performance</i>; psychological safety after A. C. Edmondson.",
-         "id": "Mengikuti J. Whitmore, <i>Coaching for Performance</i>; rasa aman psikologis mengikuti A. C. Edmondson."
+         "id": "Mengacu pada J. Whitmore, <i>Coaching for Performance</i>. Rasa aman psikologis mengacu pada A. C. Edmondson."
         }
        }
       }
@@ -52152,11 +52152,11 @@ window.MT_LMS['the-route'] = {
       "type": "ladder",
       "exhibit": {
        "en": "Exhibit 1: The ladder of initiative",
-       "id": "Peraga 1: Tangga inisiatif"
+       "id": "Gambar 1: Tangga inisiatif"
       },
       "title": {
-       "en": "Develop people by moving them up; deliberately, as judgement is proven",
-       "id": "Kembangkan orang dengan menaikkan mereka: dengan sengaja, seiring penilaiannya terbukti"
+       "en": "Develop people by moving them up, deliberately, as judgement is proven",
+       "id": "Kembangkan orang dengan menaikkan mereka setingkat demi setingkat, dengan sengaja, seiring pertimbangan mereka terbukti"
       },
       "items": [
        {
@@ -52167,18 +52167,18 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "The starting point to move away from.",
-         "id": "Titik awal untuk ditinggalkan."
+         "id": "Titik awal yang perlu ditinggalkan."
         }
        },
        {
         "icon": "chat",
         "h": {
          "en": "Ask what to do",
-         "id": "Bertanya apa yang dilakukan"
+         "id": "Bertanya apa yang harus dilakukan"
         },
         "sub": {
          "en": "First days in a new task.",
-         "id": "Hari-hari pertama di tugas baru."
+         "id": "Hari-hari pertama dalam tugas baru."
         }
        },
        {
@@ -52189,46 +52189,46 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "“Apa rekomendasimu?” The monkey stays with them.",
-         "id": "“Apa rekomendasimu?” Monyetnya tetap pada mereka."
+         "id": "“Apa rekomendasimu?” Monyetnya tetap di tangan mereka."
         }
        },
        {
         "icon": "gear",
         "h": {
          "en": "Act, then advise at once",
-         "id": "Bertindak, lalu segera lapor"
+         "id": "Bertindak, lalu segera mengabari"
         },
         "sub": {
          "en": "Routine work with some judgement.",
-         "id": "Pekerjaan rutin dengan sedikit penilaian."
+         "id": "Pekerjaan rutin yang butuh sedikit pertimbangan."
         }
        },
        {
         "icon": "flag",
         "h": {
          "en": "Act and report routinely",
-         "id": "Bertindak dan lapor rutin"
+         "id": "Bertindak dan melapor secara rutin"
         },
         "sub": {
-         "en": "Proven ownership: and your time freed.",
-         "id": "Kepemilikan terbukti: dan waktumu terbebaskan."
+         "en": "Proven ownership, and your time freed.",
+         "id": "Kepemilikan yang sudah terbukti, dan waktumu jadi lega."
         }
        }
       ],
       "note": {
        "en": "Name the level every time you delegate. When they bring a problem, ask for their recommendation.",
-       "id": "Sebut tingkatnya setiap kali mendelegasikan. Saat mereka membawa masalah, minta rekomendasinya."
+       "id": "Sebutkan tingkatnya setiap kali kamu mendelegasikan. Saat mereka membawa masalah, minta rekomendasi mereka."
       },
       "longdesc": {
        "en": "A five-rung ladder of initiative, after Oncken and Wass: wait until told; ask what to do; recommend, then act; act, then advise at once; act on your own and report routinely. Developing others means naming the level for each task and moving people up as their judgement is proven, while keeping the next move with them.",
-       "id": "Tangga lima anak tangga inisiatif, mengikuti Oncken dan Wass: menunggu sampai diberi tahu; bertanya apa yang dilakukan; merekomendasikan, lalu bertindak; bertindak, lalu segera melapor; bertindak sendiri dan melapor rutin. Mengembangkan orang berarti menyebut tingkatnya untuk tiap tugas dan menaikkan mereka seiring penilaiannya terbukti, sambil menjaga langkah berikutnya tetap pada mereka."
+       "id": "Tangga inisiatif lima anak tangga, mengacu pada Oncken dan Wass: menunggu sampai diberi tahu; bertanya apa yang harus dilakukan; merekomendasikan, lalu bertindak; bertindak, lalu segera mengabari; bertindak sendiri dan melapor secara rutin. Mengembangkan orang lain berarti menyebutkan tingkat untuk setiap tugas dan menaikkan orang seiring pertimbangannya terbukti, sambil tetap membiarkan langkah berikutnya di tangan mereka."
       }
      },
      "compare": [
       {
        "tag": {
         "en": "Taking the monkey → keeping it with them",
-        "id": "Mengambil monyetnya → membiarkannya pada mereka"
+        "id": "Mengambil monyetnya → membiarkannya di tangan mereka"
        },
        "q": {
         "en": "Putri, a new junior analyst in Nadia’s unit, comes to her desk: “Kak, data dua cabang tidak cocok dengan laporan regional. Gimana ya?”",
@@ -52236,7 +52236,7 @@ window.MT_LMS['the-route'] = {
        },
        "weak": {
         "en": "“Oh, sini, biar aku cek.” Nadia spends the evening reconciling it herself. Next week Putri brings three more mismatches.",
-        "id": "“Oh, sini, biar aku cek.” Nadia menghabiskan malam merekonsiliasinya sendiri. Minggu berikutnya Putri membawa tiga ketidakcocokan lagi."
+        "id": "“Oh, sini, biar aku cek.” Nadia menghabiskan malamnya mencocokkan data itu sendiri. Minggu berikutnya, Putri datang membawa tiga ketidakcocokan lagi."
        },
        "strong": {
         "en": "“Bagus kamu menemukannya. Apa yang sudah kamu cek? … Oke, menurutmu kemungkinan penyebabnya apa, dan apa rekomendasimu? … Masuk akal. Coba cek periode tanggalnya dulu. Itu penyebab paling umum. Kabari aku jam empat dengan temuanmu, dan kalau sudah ketemu polanya, tulis satu baris di daftar periksa kita.”",
@@ -52244,7 +52244,7 @@ window.MT_LMS['the-route'] = {
        },
        "why": {
         "en": "The first rescues, takes the monkey and teaches Putri to bring problems. The second thanks her, asks for her reality and recommendation, gives one hint, sets a check-in, and turns the lesson into a checklist line others can use. Fictional.",
-        "id": "Yang pertama menyelamatkan, mengambil monyetnya, dan mengajari Putri untuk membawa masalah. Yang kedua berterima kasih, menanyakan kenyataan dan rekomendasinya, memberi satu petunjuk, menetapkan waktu pengecekan, dan mengubah pelajarannya menjadi baris daftar periksa yang bisa dipakai orang lain. Fiktif."
+        "id": "Jawaban pertama langsung menyelamatkan, mengambil monyetnya, dan mengajari Putri untuk menyerahkan masalah. Jawaban kedua berterima kasih, menanyakan kenyataan dan rekomendasinya, memberi satu petunjuk, menetapkan waktu pengecekan, lalu mengubah pelajarannya menjadi satu baris daftar periksa yang bisa dipakai orang lain. Fiktif."
        }
       }
      ],
@@ -52257,11 +52257,11 @@ window.MT_LMS['the-route'] = {
       "body": [
        {
         "en": "At 21.00 Nadia opens Putri’s first credit memo, due to Bu Indah at 09.00. It is weak: the recommendation is buried on page three, two cash-flow figures do not reconcile, and the risk section is copied from a template. Rewriting it would take Nadia an hour and produce a good memo by morning.",
-        "id": "Pukul 21.00 Nadia membuka memo kredit pertama Putri, yang harus diserahkan ke Bu Indah pukul 09.00. Memonya lemah: rekomendasinya terkubur di halaman tiga, dua angka arus kas tidak cocok, dan bagian risikonya disalin dari templat. Menulis ulang akan memakan waktu sejam bagi Nadia dan menghasilkan memo yang baik esok pagi."
+        "id": "Pukul 21.00 Nadia membuka memo kredit pertama Putri, yang harus sampai ke Bu Indah pukul 09.00. Memonya lemah. Rekomendasinya terkubur di halaman tiga, dua angka arus kas tidak cocok, dan bagian risikonya disalin dari templat. Kalau Nadia menulis ulang, ia butuh satu jam, dan besok pagi memonya akan bagus."
        },
        {
         "en": "Instead she writes three comments, each with the principle: “Rekomendasi di kalimat pertama; Bu Indah membaca itu dulu.” “Kedua angka ini harus cocok; cek sumber datanya.” “Risiko harus spesifik untuk debitur ini; apa yang paling mungkin salah?” She attaches one of her own old memos as a worked example and messages Bu Indah that the memo will arrive at 11.00, not 09.00, because Putri is revising it. At 08.00 she spends twenty minutes with Putri. The memo arrives at 10.45, good, and Putri’s. Her second memo, a month later, needs one comment.",
-        "id": "Sebagai gantinya ia menulis tiga komentar, masing-masing dengan prinsipnya: “Rekomendasi di kalimat pertama; Bu Indah membaca itu dulu.” “Kedua angka ini harus cocok; cek sumber datanya.” “Risiko harus spesifik untuk debitur ini; apa yang paling mungkin salah?” Ia melampirkan salah satu memo lamanya sebagai contoh jadi dan mengabari Bu Indah bahwa memonya datang pukul 11.00, bukan 09.00, karena Putri sedang merevisinya. Pukul 08.00 ia menghabiskan dua puluh menit bersama Putri. Memo itu datang pukul 10.45, bagus, dan milik Putri. Memo keduanya, sebulan kemudian, hanya butuh satu komentar."
+        "id": "Nadia memilih menulis tiga komentar, masing-masing dengan prinsipnya: “Rekomendasi di kalimat pertama; Bu Indah membaca itu dulu.” “Kedua angka ini harus cocok; cek sumber datanya.” “Risiko harus spesifik untuk debitur ini; apa yang paling mungkin salah?” Ia melampirkan salah satu memo lamanya sebagai contoh jadi, lalu mengabari Bu Indah bahwa memo itu akan sampai pukul 11.00, bukan 09.00, karena Putri sedang merevisinya. Pukul 08.00 ia meluangkan dua puluh menit bersama Putri. Memo itu sampai pukul 10.45, sudah bagus, dan tetap karya Putri. Memo keduanya, sebulan kemudian, hanya butuh satu komentar."
        }
       ]
      },
@@ -52273,25 +52273,25 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Think of the last time you helped a colleague. Did you give the answer, rescue, rewrite or present on their behalf? Write the multiplier alternative you could have used.",
-        "id": "Ingat terakhir kali kamu membantu rekan. Apakah kamu memberi jawaban, menyelamatkan, menulis ulang, atau memaparkan atas namanya? Tulis alternatif pengganda yang bisa kamu pakai."
+        "id": "Ingat lagi saat terakhir kamu membantu rekan kerja. Apakah kamu memberi jawaban, langsung menyelamatkan, menulis ulang, atau mempresentasikan atas namanya? Tulis alternatif pengganda yang sebenarnya bisa kamu pakai."
        },
        "debrief": {
         "en": "Most accidental diminishers are generous people in a hurry. The fix is a question and a time box, not less help.",
-        "id": "Kebanyakan pengecil tak disengaja adalah orang murah hati yang terburu-buru. Perbaikannya adalah pertanyaan dan batas waktu, bukan mengurangi bantuan."
+        "id": "Kebanyakan pengecil yang tak disengaja adalah orang murah hati yang sedang terburu-buru. Obatnya adalah satu pertanyaan dan batas waktu, bukan mengurangi bantuan."
        }
       },
       {
        "h": {
         "en": "Drill 2 · Plan a teaching sequence",
-        "id": "Latihan 2 · Rencanakan urutan mengajar"
+        "id": "Latihan 2 · Rancang urutan mengajar"
        },
        "body": {
         "en": "Choose one skill you could teach a newcomer. Write the purpose and principle, the worked example you would show, a five-line checklist of common errors, and the time box for their first solo try.",
-        "id": "Pilih satu keterampilan yang bisa kamu ajarkan kepada pendatang baru. Tulis tujuan dan prinsipnya, contoh jadi yang akan kamu tunjukkan, daftar periksa lima baris berisi kesalahan umum, dan batas waktu untuk percobaan sendiri pertamanya."
+        "id": "Pilih satu keterampilan yang bisa kamu ajarkan kepada pendatang baru. Tulis tujuan dan prinsipnya, contoh jadi yang akan kamu tunjukkan, daftar periksa lima baris berisi kesalahan umum, dan batas waktu untuk percobaan pertamanya sendirian."
        },
        "debrief": {
         "en": "The checklist is the most reusable part; share it with the whole team.",
-        "id": "Daftar periksa adalah bagian yang paling bisa dipakai ulang, bagikan ke seluruh tim."
+        "id": "Daftar periksa adalah bagian yang paling bisa dipakai ulang. Bagikan ke seluruh tim."
        }
       },
       {
@@ -52301,11 +52301,11 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Take one task you could hand over. Write the delegation: outcome, deadline, limits, check-in, and the initiative level (1–5). Then write your first response when they come back with a problem.",
-        "id": "Ambil satu tugas yang bisa kamu serahkan. Tulis pendelegasiannya: hasil, tenggat, batasan, titik pengecekan, dan tingkat inisiatif (1–5). Lalu tulis respons pertamamu saat mereka kembali dengan masalah."
+        "id": "Ambil satu tugas yang bisa kamu serahkan. Tulis delegasinya: hasil, tenggat, batasan, waktu pengecekan, dan tingkat inisiatifnya (1–5). Lalu tulis respons pertamamu saat ia kembali membawa masalah."
        },
        "debrief": {
         "en": "Your first response should be a question. If it is a solution, the monkey has jumped.",
-        "id": "Respons pertamamu sebaiknya pertanyaan. Jika berupa solusi, monyetnya sudah melompat."
+        "id": "Respons pertamamu sebaiknya berupa pertanyaan. Kalau isinya solusi, monyetnya sudah melompat."
        }
       }
      ],
@@ -52314,11 +52314,11 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Rescuing",
-         "id": "Menyelamatkan"
+         "id": "Langsung menyelamatkan"
         },
         "fix": {
          "en": "“Apa rekomendasimu?” and a hint, not a fix.",
-         "id": "“Apa rekomendasimu?” dan petunjuk, bukan perbaikan."
+         "id": "“Apa rekomendasimu?” dan satu petunjuk, bukan perbaikan."
         }
        },
        {
@@ -52338,17 +52338,17 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Outcome, limits, check-in, initiative level.",
-         "id": "Hasil, batasan, titik pengecekan, tingkat inisiatif."
+         "id": "Hasil, batasan, waktu pengecekan, tingkat inisiatif."
         }
        },
        {
         "h": {
          "en": "Believing “siap”",
-         "id": "Memercayai “siap”"
+         "id": "Percaya begitu saja pada “siap”"
         },
         "fix": {
          "en": "Ask them to explain the plan back, kindly.",
-         "id": "Minta mereka menjelaskan kembali rencananya, dengan ramah."
+         "id": "Minta ia menjelaskan ulang rencananya, dengan ramah."
         }
        }
       ]
@@ -52360,18 +52360,18 @@ window.MT_LMS['the-route'] = {
         "id": "Pengganda"
        },
        "def": {
-        "en": "Someone who draws out more of others’ capability, Wiseman’s term.",
-        "id": "Orang yang menarik keluar lebih banyak kemampuan orang lain, istilah Wiseman."
+        "en": "Someone who draws out more of others’ capability (Wiseman’s term).",
+        "id": "Orang yang menarik keluar lebih banyak kemampuan orang lain (istilah Wiseman)."
        }
       },
       {
        "term": {
         "en": "The monkey",
-        "id": "Monyetnya"
+        "id": "Monyet"
        },
        "def": {
-        "en": "The next move on a problem, Oncken and Wass’s image for who holds responsibility.",
-        "id": "Langkah berikutnya pada sebuah masalah, gambaran Oncken dan Wass tentang siapa yang memegang tanggung jawab."
+        "en": "The next move on a problem: Oncken and Wass’s image for who holds responsibility.",
+        "id": "Langkah berikutnya pada sebuah masalah: gambaran Oncken dan Wass tentang siapa yang memegang tanggung jawab."
        }
       },
       {
@@ -52380,8 +52380,8 @@ window.MT_LMS['the-route'] = {
         "id": "GROW"
        },
        "def": {
-        "en": "Goal, Reality, Options, Will, Whitmore’s coaching structure.",
-        "id": "Goal, Reality, Options, Will, struktur coaching Whitmore."
+        "en": "Goal, Reality, Options, Will: Whitmore’s coaching structure.",
+        "id": "Goal, Reality, Options, Will: struktur coaching dari Whitmore."
        }
       },
       {
@@ -52390,8 +52390,8 @@ window.MT_LMS['the-route'] = {
         "id": "Rasa aman psikologis"
        },
        "def": {
-        "en": "A shared belief that it is safe to ask questions and admit mistakes, Edmondson.",
-        "id": "Keyakinan bersama bahwa aman untuk bertanya dan mengakui kesalahan, Edmondson."
+        "en": "A shared belief that it is safe to ask questions and admit mistakes (Edmondson).",
+        "id": "Keyakinan bersama bahwa aman untuk bertanya dan mengakui kesalahan (Edmondson)."
        }
       }
      ],
@@ -52399,12 +52399,12 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "A junior brings you a problem. The multiplier response is…",
-        "id": "Seorang junior membawa masalah kepadamu. Respons pengganda adalah…"
+        "id": "Seorang junior membawa masalah kepadamu. Respons seorang pengganda adalah…"
        },
        "options": [
         {
          "en": "“Let me handle it.”",
-         "id": "“Biar saya tangani.”"
+         "id": "“Biar aku yang urus.”"
         },
         {
          "en": "“What have you tried, and what do you recommend?”",
@@ -52412,7 +52412,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "“Ask someone else.”",
-         "id": "“Tanya orang lain.”"
+         "id": "“Tanya orang lain saja.”"
         },
         {
          "en": "“Figure it out yourself.”",
@@ -52422,7 +52422,7 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "It keeps the monkey with them and builds their judgement.",
-        "id": "Ia menjaga monyetnya tetap pada mereka dan membangun penilaiannya."
+        "id": "Respons ini menjaga monyetnya tetap di tangan mereka dan membangun pertimbangan mereka."
        }
       },
       {
@@ -52437,27 +52437,27 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Recommend, then act on the agreed recommendation",
-         "id": "Merekomendasikan, lalu bertindak sesuai rekomendasi yang disepakati"
+         "id": "Memberi rekomendasi, lalu bertindak sesuai rekomendasi yang disepakati"
         },
         {
          "en": "Act and report routinely",
-         "id": "Bertindak dan melapor rutin"
+         "id": "Bertindak dan melapor secara rutin"
         },
         {
          "en": "Ask what to do",
-         "id": "Bertanya apa yang dilakukan"
+         "id": "Bertanya apa yang harus dilakukan"
         }
        ],
        "correct": 1,
        "why": {
         "en": "A common level for higher-risk work while judgement is being proven.",
-        "id": "Tingkat yang umum untuk pekerjaan berisiko lebih tinggi selagi penilaian dibuktikan."
+        "id": "Tingkat yang umum untuk pekerjaan berisiko lebih tinggi selama pertimbangan seseorang masih dibuktikan."
        }
       },
       {
        "q": {
         "en": "After a briefing, a junior says “siap, Kak” very quickly. You…",
-        "id": "Setelah pengarahan, seorang junior berkata “siap, Kak” dengan sangat cepat. Kamu…"
+        "id": "Setelah diberi arahan, seorang junior cepat sekali menjawab “siap, Kak”. Kamu…"
        },
        "options": [
         {
@@ -52466,7 +52466,7 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Ask them kindly to explain the plan back in their own words",
-         "id": "Memintanya dengan ramah menjelaskan kembali rencananya dengan kata-katanya sendiri"
+         "id": "Dengan ramah memintanya menjelaskan ulang rencananya dengan kata-katanya sendiri"
         },
         {
          "en": "Ask “any questions?”",
@@ -52474,13 +52474,13 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Repeat the briefing louder",
-         "id": "Mengulang pengarahan lebih keras"
+         "id": "Mengulang arahan dengan suara lebih keras"
         }
        ],
        "correct": 1,
        "why": {
         "en": "In hierarchical settings, a play-back check is kinder and more reliable than “any questions?”.",
-        "id": "Di lingkungan hierarkis, pengecekan dengan menjelaskan kembali lebih ramah dan andal daripada “ada pertanyaan?”."
+        "id": "Di lingkungan yang hierarkis, meminta orang menjelaskan ulang lebih ramah dan lebih bisa diandalkan daripada bertanya “ada pertanyaan?”."
        }
       }
      ],
@@ -52493,7 +52493,7 @@ window.MT_LMS['the-route'] = {
       },
       "body": {
        "en": "Open the win log and add one entry for a person you helped grow: what you taught or delegated, how, and what they can now do alone. These entries are your evidence for “developing others”.",
-       "id": "Buka catatan capaian dan tambahkan satu entri untuk orang yang kamu bantu bertumbuh: apa yang kamu ajarkan atau delegasikan, bagaimana, dan apa yang kini bisa ia lakukan sendiri. Entri-entri ini adalah buktimu untuk “mengembangkan orang lain”."
+       "id": "Buka catatan capaian dan tambahkan satu entri untuk orang yang kamu bantu bertumbuh: apa yang kamu ajarkan atau delegasikan, bagaimana caranya, dan apa yang sekarang bisa ia kerjakan sendiri. Entri seperti ini adalah buktimu untuk “mengembangkan orang lain”."
       },
       "cta": {
        "en": "Open the win log",
@@ -52502,30 +52502,30 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "The question is not how good you are, but who is better because you were there.",
-      "id": "Pertanyaannya bukan seberapa baik kamu, melainkan siapa yang lebih baik karena kamu ada di sana."
+      "id": "Pertanyaannya bukan seberapa hebat kamu, melainkan siapa yang jadi lebih baik karena kamu ada di sana."
      },
      "takeaways": [
       {
        "en": "Multiply rather than diminish: ask for their recommendation, give hints not fixes, let them present what they found.",
-       "id": "Lipat gandakan, jangan kecilkan: minta rekomendasinya, beri petunjuk bukan perbaikan, biarkan mereka memaparkan temuannya."
+       "id": "Lipat gandakan, jangan kecilkan: minta rekomendasi mereka, beri petunjuk alih-alih perbaikan, dan biarkan mereka mempresentasikan apa yang mereka temukan."
       },
       {
-       "en": "Teach with explain, show, try, debrief; plus worked examples, checklists and time-boxed struggle.",
-       "id": "Ajarkan dengan jelaskan, tunjukkan, coba, tinjau; plus contoh jadi, daftar periksa, dan perjuangan berbatas waktu."
+       "en": "Teach with explain, show, try, debrief, plus worked examples, checklists and time-boxed struggle.",
+       "id": "Ajarkan dengan urutan jelaskan, tunjukkan, coba, tinjau, ditambah contoh jadi, daftar periksa, dan perjuangan dengan batas waktu."
       },
       {
        "en": "Delegate with an explicit initiative level, coach with GROW, and make it safe to say “I don’t understand yet”.",
-       "id": "Delegasikan dengan tingkat inisiatif yang eksplisit, coaching dengan GROW, dan buat aman untuk berkata “aku belum paham”."
+       "id": "Delegasikan dengan tingkat inisiatif yang jelas, lakukan coaching dengan GROW, dan buat kalimat “aku belum paham” terasa aman diucapkan."
       }
      ],
      "resources": {
       "title": {
        "en": "The developing-others toolkit",
-       "id": "Perangkat mengembangkan orang lain"
+       "id": "Perangkat untuk mengembangkan orang lain"
       },
       "lead": {
        "en": "Career Kit item (part 2): your development contribution.",
-       "id": "Butir Career Kit (bagian 2): kontribusi pengembanganmu."
+       "id": "Perangkat Karier (bagian 2): kontribusimu dalam mengembangkan orang lain."
       },
       "items": [
        {
@@ -52536,7 +52536,7 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Where the ideas come from.",
-         "id": "Dari mana gagasannya berasal."
+         "id": "Asal gagasan-gagasan ini."
         },
         "body": [
          {
@@ -52548,8 +52548,8 @@ window.MT_LMS['the-route'] = {
           "id": "J. Whitmore, <i>Coaching for Performance</i>: GROW; A. C. Edmondson, <i>The Fearless Organization</i>: rasa aman psikologis."
          },
          {
-          "en": "<span class=\"ev ev-contested\">Course guidance</span> The “explain, show, try, debrief” sequence draws on the gradual-release model from education research; its adaptation here and the local-workplace moves are The Route’s working methods.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Urutan “jelaskan, tunjukkan, coba, tinjau” bersumber dari model pelepasan bertahap dalam riset pendidikan; adaptasinya di sini dan langkah-langkah untuk tempat kerja adalah metode kerja The Route."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The “explain, show, try, debrief” sequence draws on the gradual-release model from education research; its adaptation here and the Indonesian-workplace moves are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Urutan “jelaskan, tunjukkan, coba, tinjau” bersumber dari model pelepasan bertahap dalam riset pendidikan. Adaptasinya di sini dan langkah-langkah untuk tempat kerja Indonesia adalah metode kerja The Route."
          }
         ]
        },
@@ -52561,16 +52561,16 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "One page per person you help.",
-         "id": "Satu halaman per orang yang kamu bantu."
+         "id": "Satu halaman untuk setiap orang yang kamu bantu."
         },
         "body": [
          {
           "en": "PERSON … · SKILL … · PRINCIPLE … · WORKED EXAMPLE … · CHECKLIST (5): … · FIRST SOLO TRY by … (time box …)",
-          "id": "ORANG … · KETERAMPILAN … · PRINSIP … · CONTOH JADI … · DAFTAR PERIKSA (5): … · PERCOBAAN SENDIRI PERTAMA paling lambat … (batas waktu …)"
+          "id": "ORANG … · KETERAMPILAN … · PRINSIP … · CONTOH JADI … · DAFTAR PERIKSA (5): … · PERCOBAAN PERTAMA SENDIRIAN paling lambat … (batas waktu …)"
          },
          {
           "en": "DELEGATED: task … · level now … → target level … by … · CHECK-INS … · WHAT THEY CAN NOW DO ALONE: …",
-          "id": "DIDELEGASIKAN: tugas … · tingkat sekarang … → tingkat sasaran … paling lambat … · PENGECEKAN … · YANG KINI BISA IA LAKUKAN SENDIRI: …"
+          "id": "DIDELEGASIKAN: tugas … · tingkat sekarang … → target tingkat … paling lambat … · WAKTU PENGECEKAN … · YANG SEKARANG BISA IA KERJAKAN SENDIRI: …"
          }
         ]
        },
@@ -52578,16 +52578,16 @@ window.MT_LMS['the-route'] = {
         "kind": "template",
         "title": {
          "en": "Delegation note and GROW prompts",
-         "id": "Catatan pendelegasian dan pertanyaan GROW"
+         "id": "Catatan delegasi dan pertanyaan GROW"
         },
         "desc": {
          "en": "For the desk and the chat.",
-         "id": "Untuk meja dan obrolan."
+         "id": "Untuk di meja kerja dan di chat."
         },
         "body": [
          {
           "en": "DELEGATION: “Hasil yang kita perlukan: … paling lambat … . Batasannya: … . Tingkatnya: [rekomendasikan dulu / langsung kerjakan lalu kabari]. Kita cek [kapan].”",
-          "id": "PENDELEGASIAN: “Hasil yang kita perlukan: … paling lambat … . Batasannya: … . Tingkatnya: [rekomendasikan dulu / langsung kerjakan lalu kabari]. Kita cek [kapan].”"
+          "id": "DELEGASI: “Hasil yang kita perlukan: … paling lambat … . Batasannya: … . Tingkatnya: [rekomendasikan dulu / langsung kerjakan lalu kabari]. Kita cek [kapan].”"
          },
          {
           "en": "GROW: “Apa yang ingin kamu capai?” · “Apa yang sudah terjadi dan sudah dicoba?” · “Pilihannya apa saja? Apa lagi?” · “Apa langkahmu, kapan, dan bagaimana aku tahu?”",
@@ -52604,20 +52604,20 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "35 min",
-      "id": "35 mnt"
+      "id": "35 menit"
      },
      "title": {
       "en": "Building the Reputation of Someone Worth Following",
-      "id": "Membangun Reputasi sebagai Orang yang Layak Diikuti"
+      "id": "Membangun Reputasi Orang yang Layak Diikuti"
      },
      "overview": {
       "en": "People follow evidence before they follow titles. Long before anyone is asked to report to you, your colleagues are deciding whether they would want to, from how you handle credit and blame, whether your word holds, how you behave when a shortcut is popular, and whether you are the same person in front of the director and behind closed doors. This lesson assembles that “followable” reputation from four parts: trust that can be analysed and built, a model of leading from any position that Indonesian educators have taught for a century, fairness in credit and mistakes, and standards that do not depend on who is watching.",
-      "id": "Orang mengikuti bukti sebelum mengikuti jabatan. Jauh sebelum ada yang diminta melapor kepadamu, rekan-rekanmu sedang memutuskan apakah mereka mau, dari caramu menangani kredit dan kesalahan, apakah kata-katamu bisa dipegang, bagaimana kamu bersikap saat jalan pintas sedang populer, dan apakah kamu orang yang sama di depan direktur dan di balik pintu tertutup. Pelajaran ini merakit reputasi yang “layak diikuti” itu dari empat bagian: kepercayaan yang bisa dianalisis dan dibangun, model memimpin dari posisi mana pun yang sudah diajarkan pendidik Indonesia selama seabad, keadilan dalam kredit dan kesalahan, dan standar yang tak bergantung pada siapa yang melihat."
+      "id": "Orang mengikuti bukti sebelum mengikuti jabatan. Jauh sebelum ada yang diminta melapor kepadamu, rekan-rekanmu sudah menilai apakah mereka mau. Mereka melihat caramu menyikapi pujian dan kesalahan, apakah ucapanmu bisa dipegang, bagaimana sikapmu saat jalan pintas sedang digemari, dan apakah kamu tetap orang yang sama di depan direktur maupun di balik pintu tertutup. Pelajaran ini menyusun reputasi “layak diikuti” itu dari empat bagian: kepercayaan yang bisa diurai dan dibangun, cara memimpin dari posisi mana pun yang sudah diajarkan para pendidik Indonesia selama satu abad, sikap adil dalam soal pujian dan kesalahan, dan standar yang tidak bergantung pada siapa yang sedang melihat."
      },
      "objectives": [
       {
        "en": "Analyse trust with the four elements of the trust equation.",
-       "id": "Menganalisis kepercayaan dengan empat unsur persamaan kepercayaan."
+       "id": "Mengurai kepercayaan dengan empat unsur persamaan kepercayaan."
       },
       {
        "en": "Apply “ing ngarsa, ing madya, tut wuri” to leading without a title.",
@@ -52625,7 +52625,7 @@ window.MT_LMS['the-route'] = {
       },
       {
        "en": "Handle credit and mistakes in ways that build followership.",
-       "id": "Menangani kredit dan kesalahan dengan cara yang membangun kepengikutan."
+       "id": "Menyikapi pujian dan kesalahan dengan cara yang membuat orang mau mengikutimu."
       },
       {
        "en": "Hold standards under pressure and raise concerns constructively.",
@@ -52643,13 +52643,13 @@ window.MT_LMS['the-route'] = {
         "n": "9.3",
         "title": {
          "en": "Building the Reputation of Someone Worth Following",
-         "id": "Membangun Reputasi sebagai Orang yang Layak Diikuti"
+         "id": "Membangun Reputasi Orang yang Layak Diikuti"
         }
        },
        "story": [
         {
          "en": "Trust can be taken apart: credibility plus reliability plus intimacy, divided by self-orientation",
-         "id": "Kepercayaan bisa diurai: kredibilitas plus keandalan plus keakraban, dibagi orientasi diri"
+         "id": "Kepercayaan bisa diurai: kredibilitas ditambah keandalan ditambah keakraban, dibagi orientasi diri"
         },
         {
          "en": "Ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani: leadership as positions, not a rank",
@@ -52657,11 +52657,11 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Two moments reveal character faster than any others: give credit away, and own your mistakes first",
-         "id": "Dua momen mengungkap karakter lebih cepat dari yang lain: berikan kredit, dan akui kesalahanmu lebih dulu"
+         "id": "Dua momen membuka watak lebih cepat dari yang lain: berikan pujian kepada orang lain, dan akui kesalahanmu lebih dulu"
         },
         {
          "en": "Standards that do not depend on who is watching: hold the line with an alternative, not a lecture",
-         "id": "Standar yang tidak bergantung pada siapa yang melihat: pegang garisnya dengan alternatif, bukan ceramah"
+         "id": "Standar yang tidak bergantung pada siapa yang melihat: jaga garis dengan alternatif, bukan ceramah"
         }
        ],
        "takes": [
@@ -52672,7 +52672,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "A followable reputation is built in ordinary weeks and tested in a few hard moments.",
-          "id": "Reputasi yang layak diikuti dibangun di minggu-minggu biasa dan diuji di beberapa momen sulit."
+          "id": "Reputasi yang layak diikuti dibangun dalam minggu-minggu biasa, lalu diuji dalam beberapa momen sulit."
          }
         },
         {
@@ -52682,17 +52682,17 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "Which position a week needs from you is a judgement; being able to occupy all three is the skill.",
-          "id": "Posisi mana yang dibutuhkan minggu itu darimu adalah penilaian; mampu menempati ketiganya adalah keterampilannya."
+          "id": "Posisi mana yang dibutuhkan minggu ini darimu adalah soal pertimbangan; mampu menempati ketiganya adalah keterampilannya."
          }
         },
         {
          "h": {
           "en": "Credit and blame",
-          "id": "Kredit dan kesalahan"
+          "id": "Pujian dan kesalahan"
          },
          "p": {
           "en": "Credit given is not lost; it signals security, and people remember who shared the light.",
-          "id": "Kredit yang diberikan tidak hilang; ia menandakan rasa aman, dan orang ingat siapa yang berbagi cahaya."
+          "id": "Pujian yang diberikan tidak hilang. Pujian itu menunjukkan kamu merasa aman, dan orang ingat siapa yang mau berbagi sorotan."
          }
         },
         {
@@ -52702,7 +52702,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "In these moments people watch, often silently, to see whether your standards hold when they cost you something.",
-          "id": "Di momen-momen ini orang mengamati, sering diam-diam, untuk melihat apakah standarmu bertahan saat merugikanmu."
+          "id": "Di momen seperti ini, orang memperhatikan, sering kali diam-diam, apakah standarmu tetap bertahan saat standar itu merugikanmu."
          }
         }
        ],
@@ -52711,7 +52711,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Trust can be taken apart: credibility plus reliability plus intimacy, divided by self-orientation",
-          "id": "Kepercayaan bisa diurai: kredibilitas plus keandalan plus keakraban, dibagi orientasi diri"
+          "id": "Kepercayaan bisa diurai: kredibilitas ditambah keandalan ditambah keakraban, dibagi orientasi diri"
          },
          "layout": "grid",
          "items": [
@@ -52721,7 +52721,7 @@ window.MT_LMS['the-route'] = {
            "id": "Kredibilitas",
            "d": {
             "en": "Built by expertise plus honesty about its limits; broken by bluffing and overclaiming.",
-            "id": "Dibangun oleh keahlian plus kejujuran tentang batasnya; dirusak oleh menggertak dan mengklaim berlebihan."
+            "id": "Dibangun lewat keahlian dan kejujuran tentang batasnya; dirusak oleh gertakan dan klaim berlebihan."
            },
            "img": "../../assets/bg/mature-professional.jpg"
           },
@@ -52731,7 +52731,7 @@ window.MT_LMS['the-route'] = {
            "id": "Keandalan",
            "d": {
             "en": "Built by small promises kept, visibly; broken by “nanti saya kabari” and nothing.",
-            "id": "Dibangun oleh janji kecil yang ditepati, terlihat; dirusak oleh “nanti saya kabari” lalu tak ada apa-apa."
+            "id": "Dibangun lewat janji kecil yang ditepati secara terlihat; dirusak oleh “nanti saya kabari” yang tidak pernah ada kabarnya."
            },
            "img": "../../assets/m/05-summit.jpg"
           },
@@ -52741,7 +52741,7 @@ window.MT_LMS['the-route'] = {
            "id": "Keakraban",
            "d": {
             "en": "Built by confidences kept and listening without judgement; broken by repeating private conversations.",
-            "id": "Dibangun oleh rahasia yang dijaga dan mendengar tanpa menghakimi; dirusak oleh mengulang percakapan pribadi."
+            "id": "Dibangun lewat rahasia yang dijaga dan mendengarkan tanpa menghakimi; dirusak oleh mengulang percakapan pribadi ke orang lain."
            },
            "img": "../../assets/bg/journey-start.jpg"
           },
@@ -52751,18 +52751,18 @@ window.MT_LMS['the-route'] = {
            "id": "Orientasi diri",
            "d": {
             "en": "Lowered by focus on the work and the people; raised by steering every conversation to yourself.",
-            "id": "Diturunkan oleh fokus pada kerja dan orang; dinaikkan oleh mengarahkan setiap percakapan ke dirimu."
+            "id": "Turun kalau kamu fokus pada pekerjaan dan orang-orangnya; naik kalau setiap obrolan kamu belokkan ke dirimu sendiri."
            },
            "img": "../../assets/bg/stage-execution.jpg"
           }
          ],
          "sub": {
           "en": "D. Maister, C. Green and R. Galford, The Trusted Advisor: the denominator is how much people sense you are focused on yourself.",
-          "id": "D. Maister, C. Green, dan R. Galford, The Trusted Advisor: penyebutnya adalah seberapa besar orang merasa kamu berfokus pada dirimu sendiri."
+          "id": "D. Maister, C. Green, dan R. Galford, The Trusted Advisor: pembaginya adalah seberapa kuat orang merasa kamu sibuk memikirkan dirimu sendiri."
          },
          "band": {
           "en": "A followable reputation is built in ordinary weeks and tested in a few hard moments.",
-          "id": "Reputasi yang layak diikuti dibangun di minggu-minggu biasa dan diuji di beberapa momen sulit."
+          "id": "Reputasi yang layak diikuti dibangun dalam minggu-minggu biasa, lalu diuji dalam beberapa momen sulit."
          },
          "em": {
           "en": "divided by self-orientation",
@@ -52784,7 +52784,7 @@ window.MT_LMS['the-route'] = {
            "id": "Di depan",
            "d": {
             "en": "Sung tuladha: when you are the most experienced on a task, the first to arrive prepared, the one whose work shows the standard, the one who does the unglamorous part.",
-            "id": "Sung tuladha: saat kamu paling berpengalaman pada sebuah tugas, yang pertama datang siap, yang kerjanya menunjukkan standar, yang mengerjakan bagian tak menarik."
+            "id": "Sung tuladha: saat kamu yang paling berpengalaman dalam sebuah tugas, jadilah yang pertama datang dengan persiapan, yang pekerjaannya menunjukkan standar, yang mengerjakan bagian yang tidak menarik."
            }
           },
           {
@@ -52793,7 +52793,7 @@ window.MT_LMS['the-route'] = {
            "id": "Di tengah",
            "d": {
             "en": "Mangun karsa: among peers, build will and initiative; ask the question that moves the group, volunteer the structure, keep energy when it dips.",
-            "id": "Mangun karsa: di antara rekan, bangun kemauan dan inisiatif; ajukan pertanyaan yang menggerakkan kelompok, tawarkan struktur, jaga energi saat turun."
+            "id": "Mangun karsa: di antara rekan sebaya, bangun kemauan dan prakarsa. Ajukan pertanyaan yang menggerakkan kelompok, tawarkan diri menyusun kerangkanya, jaga semangat saat mulai turun."
            }
           },
           {
@@ -52802,17 +52802,17 @@ window.MT_LMS['the-route'] = {
            "id": "Di belakang",
            "d": {
             "en": "Handayani: when others lead, support and encourage; make their plan work, give credit, cover the gap without being asked.",
-            "id": "Handayani: saat orang lain memimpin, dukung dan beri semangat; buat rencana mereka berhasil, beri kredit, tutupi celah tanpa diminta."
+            "id": "Handayani: saat orang lain memimpin, dukung dan beri semangat. Bantu rencananya berhasil, beri pujian, tutup celahnya tanpa diminta."
            }
           }
          ],
          "sub": {
           "en": "Ki Hajar Dewantara’s statement describes positions you can occupy in any week.",
-          "id": "Pernyataan Ki Hajar Dewantara menggambarkan posisi yang bisa kamu tempati di minggu mana pun."
+          "id": "Semboyan Ki Hajar Dewantara menggambarkan posisi yang bisa kamu tempati di minggu mana pun."
          },
          "band": {
           "en": "Which position a week needs from you is a judgement; being able to occupy all three is the skill.",
-          "id": "Posisi mana yang dibutuhkan minggu itu darimu adalah penilaian; mampu menempati ketiganya adalah keterampilannya."
+          "id": "Posisi mana yang dibutuhkan minggu ini darimu adalah soal pertimbangan; mampu menempati ketiganya adalah keterampilannya."
          },
          "em": {
           "en": "positions, not a rank",
@@ -52823,28 +52823,28 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Two moments reveal character faster than any others: give credit away, and own your mistakes first",
-          "id": "Dua momen mengungkap karakter lebih cepat dari yang lain: berikan kredit, dan akui kesalahanmu lebih dulu"
+          "id": "Dua momen membuka watak lebih cepat dari yang lain: berikan pujian kepada orang lain, dan akui kesalahanmu lebih dulu"
          },
          "cols": [
           {
            "l": {
             "en": "Builds followership",
-            "id": "Membangun pengikut"
+            "id": "Membuat orang mau mengikuti"
            },
            "d": {
             "en": "Secure, and remembered",
-            "id": "Aman, dan diingat"
+            "id": "Merasa aman, dan diingat"
            },
            "items": [
             {
              "icon": "star",
              "en": "Success: credit named, specific, public. “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.”",
-             "id": "Keberhasilan: kredit disebut, spesifik, publik. “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.”"
+             "id": "Keberhasilan: pujian yang menyebut nama, spesifik, di depan umum. “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.”"
             },
             {
              "icon": "shield",
              "en": "Your mistake: stated, owned, fixed, the process improved",
-             "id": "Kesalahanmu: dinyatakan, diakui, diperbaiki, prosesnya ditingkatkan"
+             "id": "Kesalahanmu: disebut, diakui, diperbaiki, prosesnya ditingkatkan"
             },
             {
              "icon": "chat",
@@ -52854,7 +52854,7 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "scale",
              "en": "Across audiences: the same story up and down",
-             "id": "Lintas audiens: cerita yang sama ke atas dan ke bawah"
+             "id": "Di depan audiens berbeda: cerita yang sama ke atas maupun ke bawah"
             }
            ],
            "icon": "check"
@@ -52862,32 +52862,32 @@ window.MT_LMS['the-route'] = {
           {
            "l": {
             "en": "Destroys it",
-            "id": "Menghancurkannya"
+            "id": "Merusaknya"
            },
            "d": {
             "en": "Discovered, in a small organisation, always",
-            "id": "Ketahuan, di organisasi kecil, selalu"
+            "id": "Di organisasi kecil, selalu ketahuan"
            },
            "items": [
             {
              "icon": "person",
              "en": "“Saya yang menemukan…” about others’ work",
-             "id": "“Saya yang menemukan…” tentang kerja orang lain"
+             "id": "“Saya yang menemukan…” untuk kerja orang lain"
             },
             {
              "icon": "pause",
              "en": "Excuses; silence until discovered",
-             "id": "Alasan; diam sampai ketahuan"
+             "id": "Dalih; diam sampai ketahuan"
             },
             {
              "icon": "warn",
              "en": "Public blame; gossip",
-             "id": "Menyalahkan di depan umum; gosip"
+             "id": "Menyalahkan di depan umum; bergosip"
             },
             {
              "icon": "refresh",
              "en": "Different versions for different ranks",
-             "id": "Versi berbeda untuk pangkat berbeda"
+             "id": "Versi berbeda untuk pangkat yang berbeda"
             }
            ],
            "icon": "x"
@@ -52898,11 +52898,11 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "J. Willink and L. Babin, Extreme Ownership: the leader owns everything in their world, before anyone asks and before anyone else is mentioned.",
-          "id": "J. Willink dan L. Babin, Extreme Ownership: pemimpin memiliki segalanya di dunianya, sebelum ada yang bertanya dan sebelum orang lain disebut."
+          "id": "J. Willink dan L. Babin, Extreme Ownership: pemimpin memiliki semua yang ada di dunianya, sebelum ada yang bertanya dan sebelum menyebut nama orang lain."
          },
          "band": {
           "en": "Credit given is not lost; it signals security, and people remember who shared the light.",
-          "id": "Kredit yang diberikan tidak hilang; ia menandakan rasa aman, dan orang ingat siapa yang berbagi cahaya."
+          "id": "Pujian yang diberikan tidak hilang. Pujian itu menunjukkan kamu merasa aman, dan orang ingat siapa yang mau berbagi sorotan."
          },
          "em": {
           "en": "own your mistakes first",
@@ -52913,17 +52913,17 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Standards that do not depend on who is watching: hold the line with an alternative, not a lecture",
-          "id": "Standar yang tidak bergantung pada siapa yang melihat: pegang garisnya dengan alternatif, bukan ceramah"
+          "id": "Standar yang tidak bergantung pada siapa yang melihat: jaga garis dengan alternatif, bukan ceramah"
          },
          "layout": "grid",
          "items": [
           {
            "icon": "clipboard",
            "en": "A borderline file",
-           "id": "Berkas di ambang batas",
+           "id": "Berkas yang meragukan",
            "d": {
             "en": "The rule, plus a way to meet the deadline properly: “Saya tidak bisa menyetujui tanpa laporan keuangan, tapi saya bantu hubungi nasabahnya pagi ini.”",
-            "id": "Aturannya, plus cara memenuhi tenggat dengan benar: “Saya tidak bisa menyetujui tanpa laporan keuangan, tapi saya bantu hubungi nasabahnya pagi ini.”"
+            "id": "Aturannya, ditambah cara yang benar untuk tetap mengejar tenggat: “Saya tidak bisa menyetujui tanpa laporan keuangan, tapi saya bantu hubungi nasabahnya pagi ini.”"
            },
            "img": "../../assets/bg/early-professional.jpg"
           },
@@ -52933,38 +52933,38 @@ window.MT_LMS['the-route'] = {
            "id": "“Rapikan angkanya sekali ini”",
            "d": {
             "en": "The true number, explained, with context.",
-            "id": "Angka yang sebenarnya, dijelaskan, dengan konteks."
+            "id": "Angka yang sebenarnya, dijelaskan beserta konteksnya."
            },
            "img": "../../assets/bg/rope-team.jpg"
           },
           {
            "icon": "users",
            "en": "Mockery of an absent colleague",
-           "id": "Ejekan pada rekan yang tidak hadir",
+           "id": "Rekan yang tidak ada diolok-olok",
            "d": {
             "en": "Not joining; changing the subject; a private word later.",
-            "id": "Tidak ikut; mengganti topik; kata pribadi kemudian."
+            "id": "Tidak ikut; mengganti topik; bicara empat mata belakangan."
            },
            "img": "../../assets/bg/visibility.jpg"
           },
           {
            "icon": "bell",
            "en": "A compliance or safety concern",
-           "id": "Kekhawatiran kepatuhan atau keselamatan",
+           "id": "Kekhawatiran soal kepatuhan atau keselamatan",
            "d": {
             "en": "What, why, proposal: to the person who can act, early.",
-            "id": "Apa, mengapa, usulan: kepada orang yang bisa bertindak, lebih awal."
+            "id": "Apa, kenapa, usulan, kepada orang yang bisa bertindak, sejak dini."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           }
          ],
          "sub": {
           "en": "The red lines you wrote in Lesson 1.3 are easier to hold because you decided them when calm.",
-          "id": "Garis merah yang kamu tulis di Pelajaran 1.3 lebih mudah dipegang karena kamu memutuskannya saat tenang."
+          "id": "Garis merah yang kamu tulis di Pelajaran 1.3 lebih mudah dijaga karena kamu memutuskannya saat sedang tenang."
          },
          "band": {
           "en": "In these moments people watch, often silently, to see whether your standards hold when they cost you something.",
-          "id": "Di momen-momen ini orang mengamati, sering diam-diam, untuk melihat apakah standarmu bertahan saat merugikanmu."
+          "id": "Di momen seperti ini, orang memperhatikan, sering kali diam-diam, apakah standarmu tetap bertahan saat standar itu merugikanmu."
          },
          "em": {
           "en": "with an alternative, not a lecture",
@@ -52987,7 +52987,7 @@ window.MT_LMS['the-route'] = {
       },
       "intro": {
        "en": "A followable reputation is built in ordinary weeks, and tested in a few hard moments.",
-       "id": "Reputasi yang layak diikuti dibangun di minggu-minggu biasa, dan diuji di beberapa momen sulit."
+       "id": "Reputasi yang layak diikuti dibangun dalam minggu-minggu biasa, lalu diuji dalam beberapa momen sulit."
       },
       "slides": [
        {
@@ -52997,8 +52997,8 @@ window.MT_LMS['the-route'] = {
         },
         "points": [
          {
-          "en": "Credibility, reliability, intimacy: divided by self-orientation.",
-          "id": "Kredibilitas, keandalan, keakraban: dibagi orientasi diri."
+          "en": "Credibility, reliability, intimacy, divided by self-orientation.",
+          "id": "Kredibilitas, keandalan, keakraban, dibagi dengan orientasi diri."
          }
         ]
        },
@@ -53010,19 +53010,19 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "In front, an example; in the middle, energy; behind, support.",
-          "id": "Di depan, teladan; di tengah, semangat; di belakang, dorongan."
+          "id": "Di depan, memberi teladan. Di tengah, membangun semangat. Di belakang, memberi dukungan."
          }
         ]
        },
        {
         "h": {
          "en": "Credit and blame",
-         "id": "Kredit dan kesalahan"
+         "id": "Pujian dan kesalahan"
         },
         "points": [
          {
           "en": "Give credit away; own mistakes first.",
-          "id": "Berikan kredit; akui kesalahan lebih dulu."
+          "id": "Berikan pujian kepada orang lain. Akui kesalahan lebih dulu."
          }
         ]
        },
@@ -53034,7 +53034,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "The same person when nobody is watching.",
-          "id": "Orang yang sama saat tak ada yang melihat."
+          "id": "Tetap orang yang sama saat tidak ada yang melihat."
          }
         ]
        }
@@ -53047,11 +53047,11 @@ window.MT_LMS['the-route'] = {
        "imgPos": "50% 40%",
        "h": {
         "en": "Trust, taken apart",
-        "id": "Kepercayaan, diurai"
+        "id": "Kepercayaan, diurai satu per satu"
        },
        "body": {
-        "en": "Trust feels like a single impression, but it can be taken apart. David Maister, Charles Green and Robert Galford, in <i>The Trusted Advisor</i>, proposed the <b>trust equation</b>: trustworthiness equals <b>credibility</b> plus <b>reliability</b> plus <b>intimacy</b>, divided by <b>self-orientation</b>. Credibility is whether people believe what you say, your expertise and honesty about its limits. Reliability is whether you do what you say. The thousand small promises kept (“saya kirim jam tiga” sent at three). Intimacy is whether people feel safe telling you things, confidences kept, problems heard without judgement. Self-orientation, the denominator, is how much people sense you are focused on yourself, your credit, your image, your next step, rather than on them and the work; it divides everything else. The equation is a useful mirror because it shows that trust can fail in different ways. A brilliant analyst who misses deadlines has a reliability problem. A dependable colleague who repeats what she hears in private has an intimacy problem. A charming high performer who always steers the conversation to his achievements has a self-orientation problem, and it is often the hardest to see in oneself. Most early-career professionals over-invest in credibility (skills and knowledge) and under-invest in the other three. Yet the people others want to follow are usually those who are reliably, quietly on the side of the work and the team. The ones whose name comes up when someone asks, “Siapa yang bisa dipercaya untuk ini?”",
-        "id": "Kepercayaan terasa seperti satu kesan, tetapi bisa diurai. David Maister, Charles Green, dan Robert Galford, dalam <i>The Trusted Advisor</i>, mengajukan <b>persamaan kepercayaan</b>: kelayakan dipercaya sama dengan <b>kredibilitas</b> ditambah <b>keandalan</b> ditambah <b>keakraban</b>, dibagi <b>orientasi diri</b>. Kredibilitas adalah apakah orang memercayai ucapanmu, keahlianmu dan kejujuran tentang batasnya. Keandalan adalah apakah kamu melakukan yang kamu katakan, ribuan janji kecil yang ditepati (“saya kirim jam tiga” terkirim jam tiga). Keakraban adalah apakah orang merasa aman bercerita kepadamu, rahasia terjaga, masalah didengar tanpa penghakiman. Orientasi diri, penyebutnya, adalah seberapa besar orang merasa kamu terfokus pada dirimu sendiri, kreditmu, citramu, langkah berikutmu. Alih-alih pada mereka dan pekerjaannya; ia membagi semua yang lain. Persamaan ini cermin yang berguna karena menunjukkan bahwa kepercayaan bisa gagal dengan cara berbeda. Analis cemerlang yang melewatkan tenggat punya masalah keandalan. Rekan yang bisa diandalkan tetapi mengulang apa yang ia dengar secara pribadi punya masalah keakraban. Orang berprestasi yang menawan tetapi selalu mengarahkan percakapan ke pencapaiannya punya masalah orientasi diri, dan itu sering paling sulit dilihat pada diri sendiri. Kebanyakan profesional awal karier berinvestasi berlebih pada kredibilitas (keterampilan dan pengetahuan) dan kurang pada tiga lainnya. Padahal orang yang ingin diikuti biasanya mereka yang dengan andal dan tenang berpihak pada pekerjaan dan tim, yang namanya muncul saat seseorang bertanya, “Siapa yang bisa dipercaya untuk ini?”"
+        "en": "Trust feels like a single impression, but it can be taken apart. David Maister, Charles Green and Robert Galford, in <i>The Trusted Advisor</i>, proposed the <b>trust equation</b>: trustworthiness equals <b>credibility</b> plus <b>reliability</b> plus <b>intimacy</b>, divided by <b>self-orientation</b>. Credibility is whether people believe what you say: your expertise and honesty about its limits. Reliability is whether you do what you say: the thousand small promises kept (“saya kirim jam tiga” sent at three). Intimacy is whether people feel safe telling you things: confidences kept, problems heard without judgement. Self-orientation (the denominator) is how much people sense you are focused on yourself (your credit, your image, your next step) rather than on them and the work; it divides everything else. The equation is a useful mirror because it shows that trust can fail in different ways. A brilliant analyst who misses deadlines has a reliability problem. A dependable colleague who repeats what she hears in private has an intimacy problem. A charming high performer who always steers the conversation to his achievements has a self-orientation problem, and it is often the hardest to see in oneself. Most early-career professionals over-invest in credibility (skills and knowledge) and under-invest in the other three. Yet the people others want to follow are usually those who are reliably, quietly on the side of the work and the team: the ones whose name comes up when someone asks, “Siapa yang bisa dipercaya untuk ini?”",
+        "id": "Kepercayaan terasa seperti satu kesan utuh, padahal bisa diurai. David Maister, Charles Green, dan Robert Galford, dalam <i>The Trusted Advisor</i>, mengusulkan <b>persamaan kepercayaan</b>: tingkat kepercayaan sama dengan <b>kredibilitas</b> ditambah <b>keandalan</b> ditambah <b>keakraban</b>, lalu dibagi <b>orientasi diri</b>. Kredibilitas adalah soal apakah orang percaya pada ucapanmu: keahlianmu, dan kejujuranmu tentang batas keahlian itu. Keandalan adalah soal apakah kamu melakukan apa yang kamu katakan, yaitu ribuan janji kecil yang ditepati (“saya kirim jam tiga”, lalu benar-benar terkirim jam tiga). Keakraban adalah soal apakah orang merasa aman bercerita kepadamu: rahasia dijaga, masalah didengar tanpa dihakimi. Orientasi diri, sang pembagi, adalah seberapa kuat orang merasa kamu sibuk memikirkan dirimu sendiri (pujianmu, citramu, langkah kariermu berikutnya), bukan mereka dan pekerjaannya. Unsur ini membagi semua unsur lainnya. Persamaan ini berguna sebagai cermin karena menunjukkan bahwa kepercayaan bisa runtuh lewat jalan yang berbeda-beda. Analis cemerlang yang sering melewati tenggat punya masalah keandalan. Rekan yang bisa diandalkan tetapi suka mengulang cerita pribadi yang ia dengar punya masalah keakraban. Rekan berprestasi yang memikat tetapi selalu membelokkan obrolan ke pencapaiannya sendiri punya masalah orientasi diri, dan masalah inilah yang paling sulit dilihat pada diri sendiri. Kebanyakan profesional di awal karier terlalu banyak berinvestasi pada kredibilitas (keterampilan dan pengetahuan) dan terlalu sedikit pada tiga unsur lainnya. Padahal orang yang ingin diikuti orang lain biasanya adalah mereka yang secara konsisten, tanpa banyak bicara, berpihak pada pekerjaan dan timnya. Merekalah yang namanya disebut saat seseorang bertanya, “Siapa yang bisa dipercaya untuk ini?”"
        },
        "table": {
         "cols": [
@@ -53061,7 +53061,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Built by",
-          "id": "Dibangun dengan"
+          "id": "Dibangun lewat"
          },
          {
           "en": "Broken by",
@@ -53076,11 +53076,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Expertise plus honesty about its limits",
-           "id": "Keahlian plus kejujuran tentang batasnya"
+           "id": "Keahlian, ditambah kejujuran tentang batasnya"
           },
           {
            "en": "Bluffing; overclaiming",
-           "id": "Menggertak; mengklaim berlebihan"
+           "id": "Menggertak; mengaku lebih dari kenyataan"
           }
          ],
          [
@@ -53090,11 +53090,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Small promises kept, visibly",
-           "id": "Janji kecil ditepati, secara terlihat"
+           "id": "Janji-janji kecil yang ditepati secara terlihat"
           },
           {
-           "en": "“Nanti saya kabari”: and nothing",
-           "id": "“Nanti saya kabari”: lalu tak ada kabar"
+           "en": "“Nanti saya kabari”, and nothing",
+           "id": "“Nanti saya kabari”, lalu tidak ada kabar"
           }
          ],
          [
@@ -53104,11 +53104,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Confidences kept; listening without judgement",
-           "id": "Rahasia terjaga; mendengar tanpa menghakimi"
+           "id": "Menjaga rahasia; mendengarkan tanpa menghakimi"
           },
           {
            "en": "Repeating private conversations",
-           "id": "Mengulang percakapan pribadi"
+           "id": "Mengulang percakapan pribadi ke orang lain"
           }
          ],
          [
@@ -53118,17 +53118,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Focus on the work and the people",
-           "id": "Fokus pada pekerjaan dan orangnya"
+           "id": "Fokus pada pekerjaan dan orang-orangnya"
           },
           {
            "en": "Steering every conversation to yourself",
-           "id": "Mengarahkan setiap percakapan ke dirimu"
+           "id": "Membelokkan setiap obrolan ke dirimu sendiri"
           }
          ]
         ],
         "caption": {
          "en": "After D. H. Maister, C. H. Green and R. M. Galford, <i>The Trusted Advisor</i>.",
-         "id": "Mengikuti D. H. Maister, C. H. Green, dan R. M. Galford, <i>The Trusted Advisor</i>."
+         "id": "Mengacu pada D. H. Maister, C. H. Green, dan R. M. Galford, <i>The Trusted Advisor</i>."
         }
        }
       },
@@ -53139,21 +53139,21 @@ window.MT_LMS['the-route'] = {
         "id": "Memimpin dari posisi mana pun: ing ngarsa, ing madya, tut wuri"
        },
        "body": {
-        "en": "Indonesia has its own classic statement of leadership, from the educator Ki Hajar Dewantara, founder of Taman Siswa: <i>ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani</i>: in front, set an example; in the middle, build will and initiative; from behind, give support and encouragement. Its last phrase became the motto of Indonesian education. What makes it useful for an early-career professional is that it describes leadership as a <b>set of positions you can occupy in any week</b>, not a rank. <b>In front, sung tuladha</b>: when you are the most experienced person on a task, lead by example: the first to arrive prepared, the one whose work shows the standard, the one who does the unglamorous part without being asked. Juniors copy what you do, not what you say. <b>In the middle, mangun karsa</b>: among peers, build energy and initiative: propose the next step when a meeting drifts, connect people who should talk, turn a complaint into a plan, make others’ ideas better rather than competing with them. <b>From behind, tut wuri handayani</b>: when someone else is leading or learning, support them: let the intern present her finding while you stand ready with the backup slide; encourage without taking over; give credit forward. The same person can occupy all three positions in one day, leading the data review in the morning, energising a cross-unit meeting at noon, supporting a junior’s first presentation in the afternoon. Followability grows from being good in all three, not only in front.",
-        "id": "Indonesia punya pernyataan klasik kepemimpinannya sendiri, dari pendidik Ki Hajar Dewantara, pendiri Taman Siswa: <i>ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani</i>: di depan memberi teladan, di tengah membangun kemauan dan prakarsa, di belakang memberi dorongan. Frasa terakhirnya menjadi semboyan pendidikan Indonesia. Yang membuatnya berguna bagi profesional awal karier adalah ia menggambarkan kepemimpinan sebagai <b>serangkaian posisi yang bisa kamu tempati di minggu mana pun</b>, bukan pangkat. <b>Di depan. Sung tuladha</b>: saat kamu orang paling berpengalaman di sebuah tugas, pimpin dengan teladan: yang pertama datang dengan siap, yang pekerjaannya menunjukkan standar, yang mengerjakan bagian tak glamor tanpa diminta. Junior meniru apa yang kamu lakukan, bukan apa yang kamu katakan. <b>Di tengah, mangun karsa</b>: di antara rekan, bangun semangat dan prakarsa: usulkan langkah berikutnya saat rapat melantur, hubungkan orang yang perlu berbicara, ubah keluhan menjadi rencana, buat gagasan orang lain lebih baik alih-alih bersaing dengannya. <b>Di belakang, tut wuri handayani</b>: saat orang lain memimpin atau belajar, dukung mereka: biarkan anak magang memaparkan temuannya sementara kamu siap dengan slide cadangan; dorong tanpa mengambil alih; teruskan kreditnya. Orang yang sama bisa menempati ketiga posisi dalam satu hari, memimpin tinjauan data di pagi hari, menyemangati rapat lintas unit di siang hari, mendukung presentasi pertama seorang junior di sore hari. Kelayakan untuk diikuti tumbuh dari menjadi baik di ketiganya, bukan hanya di depan."
+        "en": "Indonesia has its own classic statement of leadership, from the educator Ki Hajar Dewantara, founder of Taman Siswa: <i>ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani</i>: in front, set an example; in the middle, build will and initiative; from behind, give support and encouragement. Its last phrase became the motto of Indonesian education. What makes it useful for an early-career professional is that it describes leadership as a <b>set of positions you can occupy in any week</b>, not a rank. <b>In front, sung tuladha</b>: when you are the most experienced person on a task, lead by example: the first to arrive prepared, the one whose work shows the standard, the one who does the unglamorous part without being asked. Juniors copy what you do, not what you say. <b>In the middle, mangun karsa</b>: among peers, build energy and initiative: propose the next step when a meeting drifts, connect people who should talk, turn a complaint into a plan, make others’ ideas better rather than competing with them. <b>From behind, tut wuri handayani</b>: when someone else is leading or learning, support them: let the intern present her finding while you stand ready with the backup slide; encourage without taking over; give credit forward. The same person can occupy all three positions in one day: leading the data review in the morning, energising a cross-unit meeting at noon, supporting a junior’s first presentation in the afternoon. Followability grows from being good in all three, not only in front.",
+        "id": "Indonesia punya rumusan kepemimpinan klasiknya sendiri, dari pendidik Ki Hajar Dewantara, pendiri Taman Siswa: <i>ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani</i>. Di depan, memberi teladan. Di tengah, membangun kemauan dan prakarsa. Di belakang, memberi dukungan dan dorongan. Semboyan terakhirnya menjadi semboyan pendidikan Indonesia. Yang membuatnya berguna bagi profesional di awal karier adalah ia menggambarkan kepemimpinan sebagai <b>serangkaian posisi yang bisa kamu tempati di minggu mana pun</b>, bukan sebagai pangkat. <b>Di depan, sung tuladha</b>: saat kamu orang yang paling berpengalaman dalam sebuah tugas, pimpin dengan teladan. Jadilah yang pertama datang dengan persiapan, yang pekerjaannya menunjukkan standar, yang mengerjakan bagian yang tidak menarik tanpa disuruh. Junior meniru apa yang kamu lakukan, bukan apa yang kamu katakan. <b>Di tengah, mangun karsa</b>: di antara rekan sebaya, bangun semangat dan prakarsa. Usulkan langkah berikutnya saat rapat mulai melantur, pertemukan orang-orang yang perlu bicara, ubah keluhan menjadi rencana, dan buat ide orang lain menjadi lebih baik alih-alih menyainginya. <b>Di belakang, tut wuri handayani</b>: saat orang lain sedang memimpin atau belajar, dukung dia. Biarkan anak magang mempresentasikan temuannya sementara kamu bersiap dengan slide cadangan. Beri semangat tanpa mengambil alih. Teruskan pujian kepada orang lain. Orang yang sama bisa menempati ketiga posisi itu dalam satu hari: memimpin tinjauan data di pagi hari, menghidupkan rapat lintas unit di siang hari, dan mendukung presentasi pertama seorang junior di sore hari. Orang mau mengikutimu kalau kamu baik di ketiga posisi itu, bukan hanya di depan."
        },
        "bullets": [
         {
          "en": "<b>Ing ngarsa sung tuladha</b>: in front, the example: prepared, standard-setting, doing the unglamorous part.",
-         "id": "<b>Ing ngarsa sung tuladha</b>: di depan, teladan: siap, menetapkan standar, mengerjakan bagian tak glamor."
+         "id": "<b>Ing ngarsa sung tuladha</b>: di depan, menjadi teladan. Siap, menetapkan standar, mengerjakan bagian yang tidak menarik."
         },
         {
          "en": "<b>Ing madya mangun karsa</b>: in the middle, the energy: next steps, connections, better ideas together.",
-         "id": "<b>Ing madya mangun karsa</b>: di tengah, semangat: langkah berikutnya, koneksi, gagasan lebih baik bersama."
+         "id": "<b>Ing madya mangun karsa</b>: di tengah, menjadi penggerak. Langkah berikutnya, mempertemukan orang, membuat ide bersama jadi lebih baik."
         },
         {
          "en": "<b>Tut wuri handayani</b>: from behind, the support: let others lead, stand ready, give credit forward.",
-         "id": "<b>Tut wuri handayani</b>: di belakang, dorongan: biarkan orang lain memimpin, siap siaga, teruskan kreditnya."
+         "id": "<b>Tut wuri handayani</b>: di belakang, menjadi pendukung. Biarkan orang lain memimpin, bersiaplah membantu, teruskan pujian kepada mereka."
         }
        ]
       },
@@ -53161,11 +53161,11 @@ window.MT_LMS['the-route'] = {
        "icon": "target",
        "h": {
         "en": "Fairness in credit and in mistakes",
-        "id": "Keadilan dalam kredit dan kesalahan"
+        "id": "Adil dalam pujian dan dalam kesalahan"
        },
        "body": {
         "en": "Two moments reveal character faster than any others: when something goes well, and when something goes wrong. <b>When it goes well</b>, give credit away, specifically and publicly (Lesson 3.2): “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.” Credit given is not lost; it signals security, and people remember who shared the light. Taking credit for others’ work is the fastest way to lose followers, and in small organisations it is almost always discovered. <b>When it goes wrong</b>, own your part first, before anyone asks, and before you mention anyone else’s. Jocko Willink and Leif Babin’s <i>Extreme Ownership</i> makes the point in a military setting: the leader owns everything in their world, including what their team got wrong, because only ownership leads to fixing it. For an early-career professional, ownership sounds like: “Kesalahan angka Kudus di laporan kemarin berasal dari saya. Saya tidak mengecek periode datanya. Sudah saya perbaiki, dan saya tambahkan satu langkah pengecekan supaya tidak terulang.” Notice the four parts: the mistake stated plainly, your part named, the fix done, the process improved. What is absent matters too: no long apology, no excuses, no hint that someone else was really at fault. If someone else’s error was involved, deal with it privately and focus on the process, not the person (Lesson 9.2). <b>Consistency</b> completes fairness: tell the same story to the director and to the team; do not praise someone to their face and criticise them behind their back; do not take sides in factions (Lesson 6.3). People follow those whose treatment of others does not depend on rank.",
-        "id": "Dua momen mengungkap watak lebih cepat daripada yang lain: saat sesuatu berjalan baik, dan saat sesuatu salah. <b>Saat berjalan baik</b>, berikan kredit, secara spesifik dan di depan umum (Pelajaran 3.2): “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.” Kredit yang diberikan tidak hilang; ia menandakan rasa aman, dan orang mengingat siapa yang berbagi sorotan. Mengambil kredit atas kerja orang lain adalah cara tercepat kehilangan pengikut, dan di organisasi kecil hampir selalu ketahuan. <b>Saat berjalan salah</b>, akui bagianmu lebih dulu, sebelum ada yang bertanya, dan sebelum menyebut orang lain. <i>Extreme Ownership</i> karya Jocko Willink dan Leif Babin menegaskannya dalam latar militer: pemimpin memiliki segala sesuatu di dunianya, termasuk apa yang salah dikerjakan timnya, karena hanya kepemilikan yang mengarah pada perbaikan. Bagi profesional awal karier, kepemilikan terdengar seperti: “Kesalahan angka Kudus di laporan kemarin berasal dari saya. Saya tidak mengecek periode datanya. Sudah saya perbaiki, dan saya tambahkan satu langkah pengecekan supaya tidak terulang.” Perhatikan empat bagiannya: kesalahan disebut dengan jelas, bagianmu disebut, perbaikan sudah dilakukan, prosesnya diperbaiki. Yang tidak ada juga penting: tanpa permintaan maaf panjang, tanpa dalih, tanpa isyarat bahwa sebenarnya orang lain yang salah. Jika ada kesalahan orang lain yang terlibat, tangani secara pribadi dan fokus pada prosesnya, bukan orangnya (Pelajaran 9.2). <b>Konsistensi</b> melengkapi keadilan: sampaikan cerita yang sama kepada direktur dan kepada tim; jangan memuji seseorang di depannya dan mengkritiknya di belakang; jangan berpihak dalam faksi (Pelajaran 6.3). Orang mengikuti mereka yang perlakuannya terhadap orang lain tak bergantung pada pangkat."
+        "id": "Ada dua momen yang membuka watak seseorang lebih cepat daripada momen lain: saat sesuatu berjalan baik, dan saat sesuatu berjalan salah. <b>Saat berjalan baik</b>, berikan pujian kepada orang lain, secara spesifik dan di depan umum (Pelajaran 3.2): “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.” Pujian yang diberikan tidak hilang. Pujian itu menunjukkan bahwa kamu merasa aman dengan dirimu, dan orang akan ingat siapa yang mau berbagi sorotan. Mengambil pujian atas kerja orang lain adalah cara tercepat kehilangan pengikut, dan di organisasi kecil hal itu hampir selalu ketahuan. <b>Saat berjalan salah</b>, akui bagianmu lebih dulu, sebelum ada yang bertanya dan sebelum kamu menyebut bagian orang lain. Buku <i>Extreme Ownership</i> karya Jocko Willink dan Leif Babin menyampaikan hal ini dalam latar militer: pemimpin memiliki semua yang ada di dunianya, termasuk kesalahan timnya, karena hanya sikap memiliki yang membawa ke perbaikan. Bagi profesional di awal karier, sikap memiliki terdengar seperti ini: “Kesalahan angka Kudus di laporan kemarin berasal dari saya. Saya tidak mengecek periode datanya. Sudah saya perbaiki, dan saya tambahkan satu langkah pengecekan supaya tidak terulang.” Perhatikan empat bagiannya: kesalahan disebut dengan terang, bagianmu diakui, perbaikan sudah dilakukan, dan prosesnya ditingkatkan. Yang tidak ada juga penting: tidak ada permintaan maaf yang panjang, tidak ada dalih, tidak ada isyarat bahwa sebenarnya orang lain yang salah. Kalau ada kesalahan orang lain yang ikut berperan, bahas secara pribadi dan fokus pada prosesnya, bukan pada orangnya (Pelajaran 9.2). <b>Konsistensi</b> melengkapi keadilan. Ceritakan versi yang sama kepada direktur dan kepada tim. Jangan memuji seseorang di depannya lalu mengkritiknya di belakang. Jangan ikut berpihak dalam kubu-kubuan (Pelajaran 6.3). Orang mengikuti mereka yang memperlakukan orang lain tanpa melihat pangkat."
        },
        "table": {
         "cols": [
@@ -53175,11 +53175,11 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Builds followership",
-          "id": "Membangun kepengikutan"
+          "id": "Membuat orang mau mengikuti"
          },
          {
           "en": "Destroys it",
-          "id": "Meruntuhkannya"
+          "id": "Merusaknya"
          }
         ],
         "rows": [
@@ -53190,11 +53190,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Credit named, specific, public",
-           "id": "Kredit disebut, spesifik, di depan umum"
+           "id": "Pujian yang menyebut nama, spesifik, di depan umum"
           },
           {
            "en": "“Saya yang menemukan…” about others’ work",
-           "id": "“Saya yang menemukan…” atas kerja orang lain"
+           "id": "“Saya yang menemukan…” untuk kerja orang lain"
           }
          ],
          [
@@ -53222,27 +53222,27 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Public blame; gossip",
-           "id": "Menyalahkan di depan umum; gosip"
+           "id": "Menyalahkan di depan umum; bergosip"
           }
          ],
          [
           {
            "en": "<b>Across audiences</b>",
-           "id": "<b>Antar-audiens</b>"
+           "id": "<b>Di depan audiens berbeda</b>"
           },
           {
            "en": "The same story up and down",
-           "id": "Cerita yang sama ke atas dan ke bawah"
+           "id": "Cerita yang sama ke atas maupun ke bawah"
           },
           {
            "en": "Different versions for different ranks",
-           "id": "Versi berbeda untuk pangkat berbeda"
+           "id": "Versi berbeda untuk pangkat yang berbeda"
           }
          ]
         ],
         "caption": {
          "en": "Course guidance; ownership after J. Willink and L. Babin, <i>Extreme Ownership</i>.",
-         "id": "Panduan kursus; kepemilikan mengikuti J. Willink dan L. Babin, <i>Extreme Ownership</i>."
+         "id": "Panduan kursus. Sikap memiliki mengacu pada J. Willink dan L. Babin, <i>Extreme Ownership</i>."
         }
        }
       },
@@ -53250,11 +53250,11 @@ window.MT_LMS['the-route'] = {
        "icon": "flag",
        "h": {
         "en": "Standards that do not depend on who is watching",
-        "id": "Standar yang tak bergantung pada siapa yang melihat"
+        "id": "Standar yang tidak bergantung pada siapa yang melihat"
        },
        "body": {
         "en": "The final test of a followable reputation comes when a shortcut is <b>popular</b>: the team wants to push borderline files through before month-end, a senior colleague suggests smoothing a number “just this once”, everyone is laughing at a colleague who is not in the room. In these moments people watch, often silently, to see whether your standards hold when they cost you something. Three habits help. <b>Know your lines in advance</b>: the red lines you wrote in Lesson 1.3 are easier to hold because you decided them when calm. <b>Hold the line with an alternative</b>, not a lecture: “Saya tidak bisa menyetujui berkas ini tanpa laporan keuangan, tapi saya bisa bantu hubungi nasabahnya pagi ini supaya masih masuk bulan ini.” The alternative shows you are on the team’s side while keeping the standard. <b>Speak up constructively</b> when something is wrong: name what you see, why it matters, and a proposal, to the person who can act, privately first where possible, through formal channels if needed, and never through gossip <span class=\"ev ev-verify\">Verify</span>. Courage in an early career is usually small and specific: questioning a number, declining to share confidential data, refusing to join the laughter, raising a safety or compliance concern early. Each act is noticed by fewer people than you think and remembered by more. Over years, these moments add up to a reputation that no title can give and no single mistake can erase: “Kalau Nadia bilang aman, ya aman.” That sentence, said about you in a room you are not in, is the foundation of every leadership role that follows.",
-        "id": "Ujian terakhir reputasi yang layak diikuti datang saat sebuah jalan pintas sedang <b>populer</b>: tim ingin meloloskan berkas yang meragukan sebelum akhir bulan, seorang senior menyarankan “merapikan” angka “sekali ini saja”, semua orang menertawakan rekan yang tak ada di ruangan. Di momen-momen ini orang mengamati, sering diam-diam, apakah standarmu bertahan saat itu merugikanmu. Tiga kebiasaan membantu. <b>Ketahui garismu lebih dulu</b>: garis merah yang kamu tulis di Pelajaran 1.3 lebih mudah dijaga karena kamu memutuskannya saat tenang. <b>Jaga garisnya dengan alternatif</b>, bukan ceramah: “Saya tidak bisa menyetujui berkas ini tanpa laporan keuangan, tapi saya bisa bantu hubungi nasabahnya pagi ini supaya masih masuk bulan ini.” Alternatif itu menunjukkan kamu berpihak pada tim sambil menjaga standar. <b>Bersuara secara membangun</b> saat ada yang salah: sebut apa yang kamu lihat, mengapa penting, dan usulan, kepada orang yang bisa bertindak, secara pribadi dulu bila mungkin, lewat saluran resmi bila perlu, dan tak pernah lewat gosip <span class=\"ev ev-verify\">Verifikasi</span>. Keberanian di awal karier biasanya kecil dan spesifik: mempertanyakan angka, menolak membagikan data rahasia, menolak ikut tertawa, mengangkat kekhawatiran keselamatan atau kepatuhan lebih awal. Setiap tindakan diperhatikan lebih sedikit orang daripada yang kamu kira dan diingat lebih banyak orang. Seiring tahun, momen-momen ini membentuk reputasi yang tak bisa diberikan jabatan apa pun dan tak bisa dihapus satu kesalahan: “Kalau Nadia bilang aman, ya aman.” Kalimat itu, diucapkan tentangmu di ruangan tempat kamu tak hadir, adalah fondasi setiap peran kepemimpinan yang menyusul."
+        "id": "Ujian terakhir bagi reputasi yang layak diikuti datang saat sebuah jalan pintas sedang <b>digemari</b>. Tim ingin meloloskan berkas yang meragukan sebelum akhir bulan, seorang rekan senior mengusulkan merapikan angka “sekali ini saja”, atau semua orang sedang menertawakan rekan yang tidak ada di ruangan. Di momen seperti ini, orang memperhatikan, sering kali diam-diam, apakah standarmu tetap bertahan saat standar itu merugikanmu. Ada tiga kebiasaan yang membantu. <b>Ketahui garismu sejak awal</b>: garis merah yang kamu tulis di Pelajaran 1.3 lebih mudah dijaga karena kamu memutuskannya saat sedang tenang. <b>Jaga garis itu dengan menawarkan alternatif</b>, bukan dengan berceramah: “Saya tidak bisa menyetujui berkas ini tanpa laporan keuangan, tapi saya bisa bantu hubungi nasabahnya pagi ini supaya masih masuk bulan ini.” Alternatif itu menunjukkan bahwa kamu berpihak pada tim sambil tetap menjaga standar. <b>Bersuaralah secara membangun</b> saat ada yang salah. Sebutkan apa yang kamu lihat, kenapa itu penting, dan usulanmu, kepada orang yang bisa bertindak. Sampaikan secara pribadi lebih dulu kalau memungkinkan, lewat saluran resmi kalau perlu, dan jangan pernah lewat gosip <span class=\"ev ev-verify\">Periksa</span>. Keberanian di awal karier biasanya kecil dan spesifik: mempertanyakan sebuah angka, menolak membagikan data rahasia, tidak ikut tertawa, atau menyampaikan kekhawatiran soal keselamatan atau kepatuhan sejak dini. Setiap tindakan seperti itu disadari oleh lebih sedikit orang daripada yang kamu kira, tetapi diingat oleh lebih banyak orang. Selama bertahun-tahun, momen-momen ini bertumpuk menjadi reputasi yang tidak bisa diberikan oleh jabatan apa pun dan tidak bisa dihapus oleh satu kesalahan: “Kalau Nadia bilang aman, ya aman.” Kalimat itu, yang diucapkan tentang dirimu di ruangan tempat kamu tidak hadir, adalah fondasi bagi setiap peran kepemimpinan sesudahnya."
        },
        "table": {
         "cols": [
@@ -53264,18 +53264,18 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Hold the line with…",
-          "id": "Jaga garisnya dengan…"
+          "id": "Jaga garis dengan…"
          }
         ],
         "rows": [
          [
           {
            "en": "Pressure to pass a borderline file",
-           "id": "Tekanan meloloskan berkas meragukan"
+           "id": "Tekanan untuk meloloskan berkas yang meragukan"
           },
           {
            "en": "The rule, plus a way to meet the deadline properly",
-           "id": "Aturannya, plus cara memenuhi tenggat dengan benar"
+           "id": "Aturannya, ditambah cara yang benar untuk tetap mengejar tenggat"
           }
          ],
          [
@@ -53285,33 +53285,33 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "The true number, explained, with context",
-           "id": "Angka sebenarnya, dijelaskan, dengan konteks"
+           "id": "Angka yang sebenarnya, dijelaskan beserta konteksnya"
           }
          ],
          [
           {
            "en": "Mockery of an absent colleague",
-           "id": "Mengejek rekan yang tidak hadir"
+           "id": "Rekan yang sedang tidak ada diolok-olok"
           },
           {
            "en": "Not joining; changing the subject; a private word later",
-           "id": "Tidak ikut; mengalihkan topik; bicara pribadi nanti"
+           "id": "Tidak ikut; mengganti topik; bicara empat mata belakangan"
           }
          ],
          [
           {
            "en": "A compliance or safety concern",
-           "id": "Kekhawatiran kepatuhan atau keselamatan"
+           "id": "Kekhawatiran soal kepatuhan atau keselamatan"
           },
           {
            "en": "What, why, proposal: to the person who can act, early",
-           "id": "Apa, mengapa, usulan: kepada orang yang bisa bertindak, lebih awal"
+           "id": "Apa, kenapa, usulan, kepada orang yang bisa bertindak, sejak dini"
           }
          ]
         ],
         "caption": {
-         "en": "Course guidance. Whistleblowing and reporting channels are set by your employer’s policy and sector rules, verify yours.",
-         "id": "Panduan kursus. Saluran pelaporan pelanggaran ditetapkan kebijakan pemberi kerja dan aturan sektor, verifikasi milikmu."
+         "en": "Course guidance. Whistleblowing and reporting channels are set by your employer’s policy and sector rules; verify yours.",
+         "id": "Panduan kursus. Saluran pelaporan pelanggaran dan pengaduan diatur oleh kebijakan perusahaanmu dan aturan sektornya. Periksa yang berlaku untukmu."
         }
        }
       }
@@ -53320,11 +53320,11 @@ window.MT_LMS['the-route'] = {
       "type": "flow",
       "exhibit": {
        "en": "Exhibit 1: Three positions of leadership",
-       "id": "Peraga 1: Tiga posisi kepemimpinan"
+       "id": "Gambar 1: Tiga posisi kepemimpinan"
       },
       "title": {
        "en": "Ki Hajar Dewantara’s triad: occupied in any week, with or without a title",
-       "id": "Tiga semboyan Ki Hajar Dewantara: ditempati di minggu mana pun, dengan atau tanpa jabatan"
+       "id": "Tiga semboyan Ki Hajar Dewantara, yang bisa kamu jalani di minggu mana pun, dengan atau tanpa jabatan"
       },
       "items": [
        {
@@ -53346,7 +53346,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "In the middle: build will and initiative among peers.",
-         "id": "Di tengah: membangun kemauan dan prakarsa di antara rekan."
+         "id": "Di tengah: membangun kemauan dan prakarsa di antara rekan sebaya."
         }
        },
        {
@@ -53357,17 +53357,17 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "From behind: support others to lead and grow.",
-         "id": "Di belakang: mendukung orang lain memimpin dan bertumbuh."
+         "id": "Di belakang: mendukung orang lain untuk memimpin dan bertumbuh."
         }
        }
       ],
       "note": {
        "en": "Followability grows from being good in all three positions, not only in front.",
-       "id": "Kelayakan untuk diikuti tumbuh dari menjadi baik di ketiga posisi, bukan hanya di depan."
+       "id": "Orang mau mengikutimu kalau kamu baik di ketiga posisi, bukan hanya di depan."
       },
       "longdesc": {
        "en": "Three positions of leadership from Ki Hajar Dewantara: in front, set the example by being prepared and setting the standard; in the middle, build will and initiative among peers; from behind, support others as they lead and grow. Anyone can occupy all three in a single week, with or without a title.",
-       "id": "Tiga posisi kepemimpinan dari Ki Hajar Dewantara: di depan, memberi teladan dengan siap dan menetapkan standar; di tengah, membangun kemauan dan prakarsa di antara rekan; di belakang, mendukung orang lain memimpin dan bertumbuh. Siapa pun bisa menempati ketiganya dalam satu minggu, dengan atau tanpa jabatan."
+       "id": "Tiga posisi kepemimpinan dari Ki Hajar Dewantara: di depan, memberi teladan dengan datang siap dan menetapkan standar; di tengah, membangun kemauan dan prakarsa di antara rekan sebaya; di belakang, mendukung orang lain saat mereka memimpin dan bertumbuh. Siapa pun bisa menempati ketiganya dalam satu minggu, dengan atau tanpa jabatan."
       }
      },
      "compare": [
@@ -53378,7 +53378,7 @@ window.MT_LMS['the-route'] = {
        },
        "q": {
         "en": "A figure in Nadia’s pilot report to Pak Arya’s team turns out to be wrong. The team lead asks what happened.",
-        "id": "Satu angka di laporan pilot Nadia untuk tim Pak Arya ternyata salah. Pemimpin tim bertanya apa yang terjadi."
+        "id": "Sebuah angka di laporan pilot Nadia untuk tim Pak Arya ternyata salah. Ketua tim bertanya apa yang terjadi."
        },
        "weak": {
         "en": "“Datanya dari cabang memang sering tidak rapi, Mas, dan Putri yang menarik datanya. Tapi secara umum kesimpulannya tetap sama kok.”",
@@ -53390,7 +53390,7 @@ window.MT_LMS['the-route'] = {
        },
        "why": {
         "en": "The first blames the branches and a junior in front of a senior, and minimises. The second owns the approval, gives the correct number and its effect, confirms the fix and improves the process, and leaves Putri’s part for a private conversation about the checklist. Fictional.",
-        "id": "Yang pertama menyalahkan cabang dan seorang junior di depan senior, dan mengecilkan masalah. Yang kedua mengakui persetujuannya, memberi angka yang benar dan dampaknya, memastikan perbaikan dan meningkatkan prosesnya, dan menyisakan bagian Putri untuk percakapan pribadi tentang daftar periksa. Fiktif."
+        "id": "Jawaban pertama menyalahkan cabang dan seorang junior di depan orang senior, lalu mengecilkan masalahnya. Jawaban kedua mengakui persetujuan yang ia berikan, menyebut angka yang benar beserta dampaknya, memastikan perbaikannya, dan meningkatkan prosesnya. Bagian Putri disimpan untuk percakapan pribadi tentang daftar periksa. Fiktif."
        }
       }
      ],
@@ -53398,16 +53398,16 @@ window.MT_LMS['the-route'] = {
       "icon": "flag",
       "title": {
        "en": "In focus: the month-end push",
-       "id": "Sorotan: dorongan akhir bulan"
+       "id": "Sorotan: kejar target akhir bulan"
       },
       "body": [
        {
         "en": "Two days before month-end, the unit is short of its approval target. In the group chat, a relationship manager suggests approving four SME files “dengan catatan dokumen menyusul”; two colleagues reply with thumbs-up. Two of the files lack financial statements the credit policy requires.",
-        "id": "Dua hari sebelum akhir bulan, unit masih kurang dari target persetujuan. Di grup obrolan, seorang relationship manager menyarankan menyetujui empat berkas UMKM “dengan catatan dokumen menyusul”; dua rekan membalas dengan jempol. Dua berkas di antaranya tak punya laporan keuangan yang diwajibkan kebijakan kredit."
+        "id": "Dua hari sebelum akhir bulan, unit Nadia masih kurang dari target persetujuan. Di grup chat, seorang relationship manager mengusulkan agar empat berkas UMKM disetujui “dengan catatan dokumen menyusul”. Dua rekan membalas dengan jempol. Dua dari berkas itu belum punya laporan keuangan yang diwajibkan kebijakan kredit."
        },
        {
         "en": "Nadia replies, briefly and without judgement: “Dua berkas yang lengkap bisa saya proses hari ini. Yang dua lagi belum ada laporan keuangan, jadi belum bisa, tapi saya bisa ikut telepon nasabahnya besok pagi; kalau laporannya masuk sebelum jam dua, masih sempat bulan ini.” One file makes it; one does not. The target is missed by one file. Three months later, one of the files that others had wanted to push through is flagged for fraud at another bank. Nobody mentions the chat. But when Bu Indah needs someone to review the unit’s approval process, she asks Nadia.",
-        "id": "Nadia membalas, singkat dan tanpa menghakimi: “Dua berkas yang lengkap bisa saya proses hari ini. Yang dua lagi belum ada laporan keuangan, jadi belum bisa, tapi saya bisa ikut telepon nasabahnya besok pagi; kalau laporannya masuk sebelum jam dua, masih sempat bulan ini.” Satu berkas berhasil; satu tidak. Target meleset satu berkas. Tiga bulan kemudian, salah satu berkas yang tadinya ingin didorong orang lain ditandai sebagai penipuan di bank lain. Tak ada yang menyinggung obrolan itu. Tetapi saat Bu Indah butuh seseorang untuk meninjau proses persetujuan unit, ia meminta Nadia."
+        "id": "Nadia membalas singkat, tanpa menghakimi: “Dua berkas yang lengkap bisa saya proses hari ini. Yang dua lagi belum ada laporan keuangan, jadi belum bisa, tapi saya bisa ikut telepon nasabahnya besok pagi; kalau laporannya masuk sebelum jam dua, masih sempat bulan ini.” Satu berkas berhasil menyusul, satu lagi tidak. Target meleset satu berkas. Tiga bulan kemudian, salah satu berkas yang tadinya ingin diloloskan rekan-rekannya ditandai sebagai kasus penipuan di bank lain. Tidak ada yang menyinggung soal chat itu. Tetapi saat Bu Indah butuh seseorang untuk meninjau proses persetujuan di unit itu, ia meminta Nadia."
        }
       ]
      },
@@ -53419,11 +53419,11 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Score yourself 1–5 on credibility, reliability and intimacy, and on self-orientation (5 = very self-focused). Then ask one trusted colleague for their honest scores.",
-        "id": "Nilai dirimu 1–5 untuk kredibilitas, keandalan, dan keakraban, serta orientasi diri (5 = sangat berfokus pada diri). Lalu minta satu rekan tepercaya memberi nilai jujurnya."
+        "id": "Beri dirimu nilai 1–5 untuk kredibilitas, keandalan, dan keakraban, juga untuk orientasi diri (5 = sangat terpusat pada diri sendiri). Lalu minta satu rekan yang kamu percaya memberi nilai jujurnya."
        },
        "debrief": {
         "en": "The biggest gap between your score and theirs is your development priority. It is often reliability or self-orientation.",
-        "id": "Selisih terbesar antara nilaimu dan nilainya adalah prioritas pengembanganmu. Sering kali keandalan atau orientasi diri."
+        "id": "Selisih terbesar antara nilaimu dan nilai darinya adalah prioritas pengembanganmu. Sering kali itu keandalan atau orientasi diri."
        }
       },
       {
@@ -53433,25 +53433,25 @@ window.MT_LMS['the-route'] = {
        },
        "body": {
         "en": "Plan one act for each position this week: in front (an example you will set), in the middle (energy or initiative you will build among peers), from behind (someone you will support to lead).",
-        "id": "Rencanakan satu tindakan untuk tiap posisi minggu ini: di depan (teladan yang akan kamu berikan), di tengah (semangat atau prakarsa yang akan kamu bangun di antara rekan), di belakang (seseorang yang akan kamu dukung untuk memimpin)."
+        "id": "Rencanakan satu tindakan untuk setiap posisi minggu ini: di depan (teladan yang akan kamu berikan), di tengah (semangat atau prakarsa yang akan kamu bangun di antara rekan sebaya), dan di belakang (orang yang akan kamu dukung untuk memimpin)."
        },
        "debrief": {
         "en": "Most people find “from behind” the hardest. It is also the one others remember longest.",
-        "id": "Kebanyakan orang merasa “di belakang” paling sulit. Itu juga yang paling lama diingat orang lain."
+        "id": "Kebanyakan orang merasa posisi “di belakang” paling sulit. Posisi itu juga yang paling lama diingat orang."
        }
       },
       {
        "h": {
         "en": "Drill 3 · Your ownership sentence",
-        "id": "Latihan 3 · Kalimat kepemilikanmu"
+        "id": "Latihan 3 · Kalimat pengakuanmu"
        },
        "body": {
-        "en": "Recall a recent mistake. Write the four-part ownership statement: the mistake, your part, the fix, the process improvement, with no excuse and no one else’s name.",
-        "id": "Ingat sebuah kesalahan baru-baru ini. Tulis pernyataan kepemilikan empat bagian: kesalahannya, bagianmu, perbaikannya, peningkatan prosesnya, tanpa dalih dan tanpa nama orang lain."
+        "en": "Recall a recent mistake. Write the four-part ownership statement (the mistake, your part, the fix, the process improvement) with no excuse and no one else’s name.",
+        "id": "Ingat satu kesalahan yang baru terjadi. Tulis pernyataan kepemilikan empat bagian (kesalahannya, bagianmu, perbaikannya, peningkatan prosesnya) tanpa dalih dan tanpa menyebut nama orang lain."
        },
        "debrief": {
         "en": "If it feels uncomfortable to write, it is probably right. Say it to the person who most needs to hear it.",
-        "id": "Jika terasa tak nyaman ditulis, kemungkinan besar sudah benar. Sampaikan kepada orang yang paling perlu mendengarnya."
+        "id": "Kalau terasa tidak nyaman untuk ditulis, kemungkinan besar itu sudah benar. Sampaikan kepada orang yang paling perlu mendengarnya."
        }
       }
      ],
@@ -53463,8 +53463,8 @@ window.MT_LMS['the-route'] = {
          "id": "Hanya berinvestasi pada kredibilitas"
         },
         "fix": {
-         "en": "Reliability, intimacy: and lower self-orientation.",
-         "id": "Keandalan, keakraban: dan orientasi diri yang lebih rendah."
+         "en": "Reliability, intimacy, and lower self-orientation.",
+         "id": "Keandalan, keakraban, dan orientasi diri yang lebih rendah."
         }
        },
        {
@@ -53484,17 +53484,17 @@ window.MT_LMS['the-route'] = {
         },
         "fix": {
          "en": "Mistake, your part, fix, process, first.",
-         "id": "Kesalahan, bagianmu, perbaikan, proses, lebih dulu."
+         "id": "Kesalahan, bagianmu, perbaikan, proses, dan lebih dulu."
         }
        },
        {
         "h": {
          "en": "Standards that bend with the crowd",
-         "id": "Standar yang membengkok mengikuti orang banyak"
+         "id": "Standar yang ikut arus orang banyak"
         },
         "fix": {
          "en": "Hold the line with an alternative, not a lecture.",
-         "id": "Jaga garisnya dengan alternatif, bukan ceramah."
+         "id": "Jaga garis dengan alternatif, bukan ceramah."
         }
        }
       ]
@@ -53506,8 +53506,8 @@ window.MT_LMS['the-route'] = {
         "id": "Persamaan kepercayaan"
        },
        "def": {
-        "en": "(Credibility + reliability + intimacy) ÷ self-orientation, Maister, Green and Galford.",
-        "id": "(Kredibilitas + keandalan + keakraban) ÷ orientasi diri, Maister, Green, dan Galford."
+        "en": "(Credibility + reliability + intimacy) ÷ self-orientation (Maister, Green and Galford).",
+        "id": "(Kredibilitas + keandalan + keakraban) ÷ orientasi diri (Maister, Green, dan Galford)."
        }
       },
       {
@@ -53517,7 +53517,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "Ki Hajar Dewantara’s triad: example in front, initiative in the middle, support from behind.",
-        "id": "Tiga semboyan Ki Hajar Dewantara: teladan di depan, prakarsa di tengah, dorongan di belakang."
+        "id": "Tiga semboyan Ki Hajar Dewantara: teladan di depan, prakarsa di tengah, dukungan di belakang."
        }
       },
       {
@@ -53527,7 +53527,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The mistake, your part, the fix and the process improvement, without excuses.",
-        "id": "Kesalahan, bagianmu, perbaikan, dan peningkatan proses, tanpa dalih."
+        "id": "Kesalahannya, bagianmu, perbaikannya, dan peningkatan prosesnya, tanpa dalih."
        }
       },
       {
@@ -53545,7 +53545,7 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "In the trust equation, which element divides the others?",
-        "id": "Dalam persamaan kepercayaan, unsur mana yang membagi yang lain?"
+        "id": "Dalam persamaan kepercayaan, unsur mana yang membagi unsur lainnya?"
        },
        "options": [
         {
@@ -53568,13 +53568,13 @@ window.MT_LMS['the-route'] = {
        "correct": 2,
        "why": {
         "en": "The more self-focused you appear, the less the other elements count.",
-        "id": "Semakin terlihat berfokus pada diri, semakin kecil arti unsur lainnya."
+        "id": "Makin kamu terlihat terpusat pada diri sendiri, makin kecil arti unsur-unsur lainnya."
        }
       },
       {
        "q": {
         "en": "“Tut wuri handayani” describes leading by…",
-        "id": "“Tut wuri handayani” menggambarkan memimpin dengan…"
+        "id": "“Tut wuri handayani” menggambarkan cara memimpin dengan…"
        },
        "options": [
         {
@@ -53587,36 +53587,36 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Commanding the team",
-         "id": "Memerintah tim"
+         "id": "Memberi perintah kepada tim"
         },
         {
          "en": "Competing with peers",
-         "id": "Bersaing dengan rekan"
+         "id": "Bersaing dengan rekan sebaya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "From behind: let others lead and grow, and give credit forward.",
-        "id": "Dari belakang: biarkan orang lain memimpin dan bertumbuh, dan teruskan kreditnya."
+        "id": "Dari belakang: biarkan orang lain memimpin dan bertumbuh, dan teruskan pujian kepada mereka."
        }
       },
       {
        "q": {
         "en": "Your team wants to approve a file missing a required document to hit the target. The followable response is…",
-        "id": "Timmu ingin menyetujui berkas yang tak punya dokumen wajib demi target. Respons yang layak diikuti adalah…"
+        "id": "Timmu ingin menyetujui berkas yang belum punya dokumen wajib demi mengejar target. Respons yang membuat orang mau mengikutimu adalah…"
        },
        "options": [
         {
          "en": "Go along: it is only once",
-         "id": "Ikut saja: hanya sekali"
+         "id": "Ikut saja, toh hanya sekali"
         },
         {
          "en": "Lecture the team in the group chat",
-         "id": "Menceramahi tim di grup obrolan"
+         "id": "Menceramahi tim di grup chat"
         },
         {
          "en": "Decline that file and offer a legitimate way to still meet the deadline",
-         "id": "Menolak berkas itu dan menawarkan cara sah untuk tetap memenuhi tenggat"
+         "id": "Menolak berkas itu dan menawarkan cara yang sah supaya tenggat tetap terkejar"
         },
         {
          "en": "Report everyone immediately",
@@ -53626,7 +53626,7 @@ window.MT_LMS['the-route'] = {
        "correct": 2,
        "why": {
         "en": "Hold the line with an alternative; it shows you are on the team’s side.",
-        "id": "Jaga garisnya dengan alternatif; itu menunjukkan kamu berpihak pada tim."
+        "id": "Jaga garis dengan alternatif. Cara ini menunjukkan kamu berpihak pada tim."
        }
       }
      ],
@@ -53638,8 +53638,8 @@ window.MT_LMS['the-route'] = {
        "id": "Rencanakan tiga posisimu"
       },
       "body": {
-       "en": "Open the 90-day plan and add one act for each position, in front, in the middle, from behind, for the next four weeks, and one reliability promise you will track (“sent when I said”).",
-       "id": "Buka rencana 90 hari dan tambahkan satu tindakan untuk tiap posisi, di depan, di tengah, di belakang, untuk empat minggu ke depan, dan satu janji keandalan yang akan kamu lacak (“terkirim saat kujanjikan”)."
+       "en": "Open the 90-day plan and add one act for each position (in front, in the middle, from behind) for the next four weeks, and one reliability promise you will track (“sent when I said”).",
+       "id": "Buka rencana 90 hari dan tambahkan satu tindakan untuk setiap posisi (di depan, di tengah, di belakang) untuk empat minggu ke depan, ditambah satu janji keandalan yang akan kamu pantau (“terkirim sesuai janji”)."
       },
       "cta": {
        "en": "Open the 90-day plan",
@@ -53652,26 +53652,26 @@ window.MT_LMS['the-route'] = {
      },
      "takeaways": [
       {
-       "en": "Build all four parts of trust, credibility, reliability, intimacy, and keep self-orientation low.",
-       "id": "Bangun keempat bagian kepercayaan, kredibilitas, keandalan, keakraban, dan jaga orientasi diri tetap rendah."
+       "en": "Build all four parts of trust: raise credibility, reliability and intimacy, and keep self-orientation low.",
+       "id": "Bangun keempat unsur kepercayaan: naikkan kredibilitas, keandalan, dan keakraban, dan jaga orientasi diri tetap rendah."
       },
       {
        "en": "Lead from any position: the example in front, the energy in the middle, the support from behind.",
-       "id": "Pimpin dari posisi mana pun: teladan di depan, semangat di tengah, dorongan di belakang."
+       "id": "Pimpin dari posisi mana pun: teladan di depan, semangat di tengah, dukungan di belakang."
       },
       {
        "en": "Give credit away, own mistakes first, and hold your standards, with an alternative, when a shortcut is popular.",
-       "id": "Berikan kredit, akui kesalahan lebih dulu, dan jaga standarmu, dengan alternatif, saat jalan pintas sedang populer."
+       "id": "Berikan pujian kepada orang lain, akui kesalahan lebih dulu, dan jaga standarmu, dengan alternatif, saat jalan pintas sedang digemari."
       }
      ],
      "resources": {
       "title": {
        "en": "The followability toolkit",
-       "id": "Perangkat kelayakan diikuti"
+       "id": "Perangkat untuk menjadi layak diikuti"
       },
       "lead": {
        "en": "Career Kit item (part 3): your leadership mindset evidence.",
-       "id": "Butir Career Kit (bagian 3): bukti pola pikir kepemimpinanmu."
+       "id": "Perangkat Karier (bagian 3): bukti pola pikir kepemimpinanmu."
       },
       "items": [
        {
@@ -53682,7 +53682,7 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Where the ideas come from.",
-         "id": "Dari mana gagasannya berasal."
+         "id": "Asal gagasan-gagasan ini."
         },
         "body": [
          {
@@ -53695,7 +53695,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> Speak-up and whistleblowing channels and protections depend on your employer’s policy and sector regulation. <span class=\"ev ev-contested\">Course guidance</span> The ownership statement and holding-the-line moves are The Route’s working methods.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Saluran dan perlindungan pelaporan pelanggaran bergantung pada kebijakan pemberi kerja dan regulasi sektor. <span class=\"ev ev-contested\">Panduan kursus</span> Pernyataan kepemilikan dan langkah menjaga garis adalah metode kerja The Route."
+          "id": "<span class=\"ev ev-verify\">Periksa</span> Saluran dan perlindungan untuk menyuarakan masalah atau melaporkan pelanggaran bergantung pada kebijakan perusahaanmu dan regulasi sektornya. <span class=\"ev ev-contested\">Panduan kursus</span> Pernyataan kepemilikan dan langkah-langkah menjaga garis adalah metode kerja The Route."
          }
         ]
        },
@@ -53707,7 +53707,7 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Fifteen minutes, once a quarter.",
-         "id": "Lima belas menit, sekali sekuartal."
+         "id": "Lima belas menit, sekali setiap kuartal."
         },
         "body": [
          {
@@ -53716,7 +53716,7 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "IN FRONT: … · IN THE MIDDLE: … · FROM BEHIND: … · CREDIT GIVEN this month: … · MISTAKES OWNED: …",
-          "id": "DI DEPAN: … · DI TENGAH: … · DI BELAKANG: … · KREDIT DIBERIKAN bulan ini: … · KESALAHAN DIAKUI: …"
+          "id": "DI DEPAN: … · DI TENGAH: … · DI BELAKANG: … · PUJIAN YANG DIBERIKAN bulan ini: … · KESALAHAN YANG DIAKUI: …"
          }
         ]
        },
@@ -53724,7 +53724,7 @@ window.MT_LMS['the-route'] = {
         "kind": "template",
         "title": {
          "en": "Ownership and holding the line",
-         "id": "Kepemilikan dan menjaga garis"
+         "id": "Mengakui kesalahan dan menjaga garis"
         },
         "desc": {
          "en": "Two scripts for hard moments.",
@@ -53750,32 +53750,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "30 min",
-      "id": "30 mnt"
+      "id": "30 menit"
      },
      "title": {
       "en": "Thinking Like a Leader as an Individual Contributor",
-      "id": "Berpikir seperti Pemimpin sebagai Kontributor Individu"
+      "id": "Berpikir seperti Pemimpin Sebelum Punya Tim"
      },
      "overview": {
-      "en": "Leadership is a way of thinking before it is a job title. This interactive lesson, the last of The Route, drills four shifts that mark someone ready for more: from “my task” to “the outcome”, from fixing symptoms to fixing systems, from waiting for certainty to deciding well with incomplete information, and from managing your own career to stewarding the people and the work around you. It closes with a stewardship review of your whole Career Kit, the nine items you have built across The Route, and a plan for the year ahead.",
-      "id": "Kepemimpinan adalah cara berpikir sebelum menjadi jabatan. Pelajaran interaktif ini, yang terakhir di The Route, melatih empat pergeseran yang menandai seseorang siap untuk lebih: dari “tugasku” ke “hasilnya”, dari memperbaiki gejala ke memperbaiki sistem, dari menunggu kepastian ke memutuskan dengan baik dengan informasi tak lengkap, dan dari mengelola kariermu sendiri ke merawat orang dan pekerjaan di sekitarmu. Pelajaran ini ditutup dengan tinjauan kepengurusan atas seluruh Career Kit-mu, sembilan butir yang kamu bangun sepanjang The Route, dan rencana untuk tahun ke depan."
+      "en": "Leadership is a way of thinking before it is a job title. This interactive lesson (the last before the capstone) drills four shifts that mark someone ready for more: from “my task” to “the outcome”, from fixing symptoms to fixing systems, from waiting for certainty to deciding well with incomplete information, and from managing your own career to stewarding the people and the work around you. It closes with a stewardship review of your whole Career Kit (the nine items you have built across The Route) and a plan for the year ahead.",
+      "id": "Kepemimpinan adalah cara berpikir sebelum menjadi jabatan. Pelajaran interaktif ini, yang terakhir sebelum studi kasus penutup The Route, melatih empat pergeseran yang menandai seseorang siap untuk tanggung jawab lebih besar: dari “tugasku” ke “hasilnya”, dari memperbaiki gejala ke memperbaiki sistem, dari menunggu kepastian ke memutuskan dengan baik meski informasinya belum lengkap, dan dari mengurus kariermu sendiri ke merawat orang-orang dan pekerjaan di sekitarmu. Pelajaran ini ditutup dengan tinjauan tahunan atas seluruh Perangkat Karier (sembilan bagian yang kamu bangun sepanjang The Route) dan rencana untuk setahun ke depan."
      },
      "objectives": [
       {
        "en": "Shift from owning tasks to owning outcomes, within your role.",
-       "id": "Bergeser dari memiliki tugas ke memiliki hasil, dalam batas peranmu."
+       "id": "Bergeser dari memiliki tugas ke memiliki hasil, tetap di dalam batas peranmu."
       },
       {
        "en": "Look for the system behind a recurring problem and fix it.",
-       "id": "Mencari sistem di balik masalah yang berulang dan memperbaikinya."
+       "id": "Mencari sistem di balik masalah yang terus berulang, lalu memperbaikinya."
       },
       {
        "en": "Decide well with incomplete information: reversibility, 70%, the pre-mortem.",
-       "id": "Memutuskan dengan baik dengan informasi tak lengkap: bisa dibalik, 70%, pre-mortem."
+       "id": "Memutuskan dengan baik meski informasinya belum lengkap: bisa dibalik atau tidak, 70%, dan pre-mortem."
       },
       {
        "en": "Run a stewardship review of your Career Kit and set next year’s plan.",
-       "id": "Menjalankan tinjauan kepengurusan Career Kit-mu dan menetapkan rencana tahun depan."
+       "id": "Menjalankan tinjauan tahunan atas Perangkat Kariermu dan menyusun rencana tahun depan."
       }
      ],
      "readFirst": {
@@ -53789,25 +53789,25 @@ window.MT_LMS['the-route'] = {
         "n": "9.4",
         "title": {
          "en": "Thinking Like a Leader as an Individual Contributor",
-         "id": "Berpikir seperti Pemimpin sebagai Kontributor Individu"
+         "id": "Berpikir seperti Pemimpin Sebelum Punya Tim"
         }
        },
        "story": [
         {
          "en": "From task to outcome: “what needs to be done?” rather than “what was I asked to do?”",
-         "id": "Dari tugas ke hasil: “apa yang perlu dilakukan?” bukan “apa yang diminta dariku?”"
+         "id": "Dari tugas ke hasil: “apa yang perlu diselesaikan?”, bukan “apa yang diminta dariku?”"
         },
         {
          "en": "From symptom to system: the first time fix it, the second time note it, the third time fix the cause",
-         "id": "Dari gejala ke sistem: pertama kali perbaiki, kedua kali catat, ketiga kali perbaiki penyebabnya"
+         "id": "Dari gejala ke sistem: pertama kali, perbaiki; kedua kali, catat; ketiga kali, perbaiki penyebabnya"
         },
         {
          "en": "Two kinds of doors: reversible decisions fast, irreversible ones carefully, policy-governed ones by the book",
-         "id": "Dua jenis pintu: keputusan yang bisa dibalik cepat, yang tak bisa dibalik dengan hati-hati, yang diatur kebijakan sesuai aturan"
+         "id": "Dua jenis pintu: yang bisa dibalik diputuskan cepat, yang tidak bisa dibalik dengan hati-hati, yang diatur kebijakan sesuai aturannya"
         },
         {
          "en": "From career to stewardship: leave the work, the people and your capabilities better than you found them",
-         "id": "Dari karier ke kepengurusan: tinggalkan pekerjaan, orangnya, dan kemampuanmu lebih baik daripada saat kamu datang"
+         "id": "Dari karier ke merawat: tinggalkan pekerjaan, orang-orangnya, dan kemampuanmu dalam keadaan lebih baik daripada saat kamu menemukannya"
         }
        ],
        "takes": [
@@ -53818,7 +53818,7 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "“Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”: one line that owns the outcome.",
-          "id": "“Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”: satu baris yang memiliki hasilnya."
+          "id": "“Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%.” Satu baris yang memiliki hasilnya."
          }
         },
         {
@@ -53828,27 +53828,27 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "The five whys, a simple process map and one measured handover are enough tools for most early-career systems.",
-          "id": "Lima mengapa, peta proses sederhana, dan satu serah terima yang diukur adalah alat yang cukup untuk kebanyakan sistem awal karier."
+          "id": "Lima kali kenapa, peta proses sederhana, dan satu titik serah terima yang diukur sudah cukup untuk sebagian besar perbaikan sistem di awal karier."
          }
         },
         {
          "h": {
           "en": "Certainty → judgement",
-          "id": "Kepastian → penilaian"
+          "id": "Kepastian → pertimbangan"
          },
          "p": {
           "en": "Many people slow every decision as if it were irreversible, or rush irreversible ones as if they were not.",
-          "id": "Banyak orang memperlambat setiap keputusan seolah tak bisa dibalik, atau menerjang yang tak bisa dibalik seolah bisa."
+          "id": "Banyak orang memperlambat setiap keputusan seolah semuanya tidak bisa dibalik, atau justru terburu-buru mengambil keputusan yang tidak bisa dibalik seolah bisa."
          }
         },
         {
          "h": {
           "en": "Career → stewardship",
-          "id": "Karier → kepengurusan"
+          "id": "Karier → merawat"
          },
          "p": {
           "en": "Put the stewardship review in your calendar once a year; it is the review that closes The Route and keeps it working.",
-          "id": "Masukkan tinjauan kepengurusan ke kalendermu setahun sekali; itulah tinjauan yang menutup The Route dan menjaganya tetap bekerja."
+          "id": "Masukkan tinjauan tahunan ke kalendermu, sekali setahun. Tinjauan inilah yang menutup The Route dan membuatnya terus bekerja."
          }
         }
        ],
@@ -53857,23 +53857,23 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "From task to outcome: “what needs to be done?” rather than “what was I asked to do?”",
-          "id": "Dari tugas ke hasil: “apa yang perlu dilakukan?” bukan “apa yang diminta dariku?”"
+          "id": "Dari tugas ke hasil: “apa yang perlu diselesaikan?”, bukan “apa yang diminta dariku?”"
          },
          "cols": [
           {
            "l": {
             "en": "Task thinking",
-            "id": "Berpikir tugas"
+            "id": "Berpikir soal tugas"
            },
            "d": {
             "en": "Done, and stops there",
-            "id": "Selesai, dan berhenti di situ"
+            "id": "Selesai, lalu berhenti di situ"
            },
            "items": [
             {
              "icon": "check",
              "en": "“I delivered what was asked.”",
-             "id": "“Saya menyerahkan yang diminta.”"
+             "id": "“Saya sudah menyerahkan yang diminta.”"
             },
             {
              "icon": "x",
@@ -53896,17 +53896,17 @@ window.MT_LMS['the-route'] = {
           {
            "l": {
             "en": "Outcome thinking",
-            "id": "Berpikir hasil"
+            "id": "Berpikir soal hasil"
            },
            "d": {
             "en": "Owns what the task was for",
-            "id": "Memiliki tujuan tugasnya"
+            "id": "Memiliki tujuan di balik tugasnya"
            },
            "items": [
             {
              "icon": "question",
              "en": "“Did it achieve what it was for?”",
-             "id": "“Apakah ia mencapai tujuannya?”"
+             "id": "“Apakah tujuannya tercapai?”"
             },
             {
              "icon": "hand",
@@ -53916,12 +53916,12 @@ window.MT_LMS['the-route'] = {
             {
              "icon": "compass",
              "en": "Asks what decision it serves, then starts",
-             "id": "Bertanya keputusan apa yang dilayaninya, lalu mulai"
+             "id": "Menanyakan keputusan apa yang akan dilayaninya, baru mulai"
             },
             {
              "icon": "eye",
              "en": "Checks the result a few weeks later",
-             "id": "Memeriksa hasilnya beberapa minggu kemudian"
+             "id": "Mengecek hasilnya beberapa minggu kemudian"
             }
            ],
            "icon": "target"
@@ -53932,22 +53932,22 @@ window.MT_LMS['the-route'] = {
          "items": [],
          "sub": {
           "en": "P. Drucker on effective executives: they asked what needs to be done, and what is right for the enterprise, rather than what they wanted.",
-          "id": "P. Drucker tentang eksekutif efektif: mereka bertanya apa yang perlu dilakukan, dan apa yang benar bagi perusahaan, bukan apa yang mereka inginkan."
+          "id": "P. Drucker tentang eksekutif yang efektif: mereka bertanya apa yang perlu diselesaikan dan apa yang benar untuk organisasi, bukan apa yang mereka inginkan."
          },
          "band": {
           "en": "“Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”: one line that owns the outcome.",
-          "id": "“Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”: satu baris yang memiliki hasilnya."
+          "id": "“Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%.” Satu baris yang memiliki hasilnya."
          },
          "em": {
           "en": "what needs to be done?",
-          "id": "apa yang perlu dilakukan?"
+          "id": "apa yang perlu diselesaikan?"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "From symptom to system: the first time fix it, the second time note it, the third time fix the cause",
-          "id": "Dari gejala ke sistem: pertama kali perbaiki, kedua kali catat, ketiga kali perbaiki penyebabnya"
+          "id": "Dari gejala ke sistem: pertama kali, perbaiki; kedua kali, catat; ketiga kali, perbaiki penyebabnya"
          },
          "img": "../../assets/bg/map.jpg",
          "layout": "flow",
@@ -53967,7 +53967,7 @@ window.MT_LMS['the-route'] = {
            "id": "Kedua kali",
            "d": {
             "en": "Note it: which process, incentive, handover or missing information made it likely.",
-            "id": "Catat: proses, insentif, serah terima, atau informasi hilang mana yang membuatnya mungkin."
+            "id": "Catat: proses, insentif, serah terima, atau informasi apa yang hilang sehingga masalah itu mudah terjadi."
            }
           },
           {
@@ -53976,28 +53976,28 @@ window.MT_LMS['the-route'] = {
            "id": "Ketiga kali",
            "d": {
             "en": "Fix the system that produces it; the document-check pilot changed the step before the file was sent.",
-            "id": "Perbaiki sistem yang menghasilkannya; uji coba cek dokumen mengubah langkah sebelum berkas dikirim."
+            "id": "Perbaiki sistem yang menghasilkannya. Pilot pengecekan dokumen mengubah langkah sebelum berkas dikirim."
            }
           }
          ],
          "sub": {
-          "en": "Many workplaces reward heroics, the analyst who stays until midnight to fix the month-end report, again; leaders notice the “again”.",
-          "id": "Banyak tempat kerja menghargai kepahlawanan, analis yang lembur sampai tengah malam memperbaiki laporan akhir bulan, lagi; pemimpin memperhatikan kata “lagi”."
+          "en": "Many workplaces reward heroics (the analyst who stays until midnight to fix the month-end report, again); leaders notice the “again”.",
+          "id": "Banyak tempat kerja menghargai aksi kepahlawanan (analis yang bertahan sampai tengah malam untuk memperbaiki laporan akhir bulan, lagi). Pemimpin memperhatikan kata “lagi” itu."
          },
          "band": {
           "en": "The five whys, a simple process map and one measured handover are enough tools for most early-career systems.",
-          "id": "Lima mengapa, peta proses sederhana, dan satu serah terima yang diukur adalah alat yang cukup untuk kebanyakan sistem awal karier."
+          "id": "Lima kali kenapa, peta proses sederhana, dan satu titik serah terima yang diukur sudah cukup untuk sebagian besar perbaikan sistem di awal karier."
          },
          "em": {
           "en": "the third time fix the cause",
-          "id": "ketiga kali perbaiki penyebabnya"
+          "id": "ketiga kali, perbaiki penyebabnya"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Two kinds of doors: reversible decisions fast, irreversible ones carefully, policy-governed ones by the book",
-          "id": "Dua jenis pintu: keputusan yang bisa dibalik cepat, yang tak bisa dibalik dengan hati-hati, yang diatur kebijakan sesuai aturan"
+          "id": "Dua jenis pintu: yang bisa dibalik diputuskan cepat, yang tidak bisa dibalik dengan hati-hati, yang diatur kebijakan sesuai aturannya"
          },
          "layout": "grid",
          "items": [
@@ -54007,7 +54007,7 @@ window.MT_LMS['the-route'] = {
            "id": "Pintu dua arah",
            "d": {
             "en": "Reversible: quickly, close to the work. A report format, a meeting cadence, a pilot sequence.",
-            "id": "Bisa dibalik: cepat, dekat dengan kerjanya. Format laporan, irama rapat, urutan uji coba."
+            "id": "Bisa dibalik: cepat, oleh orang yang dekat dengan pekerjaannya. Format laporan, jadwal rapat, urutan pilot."
            },
            "img": "../../assets/pe/ed-board.jpg"
           },
@@ -54017,7 +54017,7 @@ window.MT_LMS['the-route'] = {
            "id": "Pintu satu arah",
            "d": {
             "en": "Hard to reverse: consult, run a pre-mortem, write the reasoning. A hire, a policy exception, a career move.",
-            "id": "Sulit dibalik: konsultasi, jalankan pra-mortem, tulis alasannya. Perekrutan, pengecualian kebijakan, langkah karier."
+            "id": "Sulit dibalik: konsultasi, jalankan pre-mortem, tulis alasannya. Merekrut orang, pengecualian kebijakan, langkah karier."
            },
            "img": "../../assets/pe/ed-ladder.jpg"
           },
@@ -54027,29 +54027,29 @@ window.MT_LMS['the-route'] = {
            "id": "Diatur kebijakan",
            "d": {
             "en": "The required information is not optional. Credit approval, compliance sign-off.",
-            "id": "Informasi yang disyaratkan bukan pilihan. Persetujuan kredit, tanda tangan kepatuhan."
+            "id": "Informasi yang diwajibkan tidak bisa ditawar. Persetujuan kredit, tanda tangan kepatuhan."
            },
            "img": "../../assets/m/05-summit.jpg"
           }
          ],
          "sub": {
           "en": "J. Bezos’s shareholder letters: two-way doors should be decided quickly by the person closest to the work, with around seventy per cent of the information.",
-          "id": "Surat pemegang saham J. Bezos: pintu dua arah sebaiknya diputuskan cepat oleh orang terdekat dengan kerjanya, dengan sekitar tujuh puluh persen informasi."
+          "id": "Surat-surat J. Bezos kepada pemegang saham: pintu dua arah sebaiknya diputuskan cepat oleh orang yang paling dekat dengan pekerjaannya, dengan sekitar tujuh puluh persen informasi."
          },
          "band": {
           "en": "Many people slow every decision as if it were irreversible, or rush irreversible ones as if they were not.",
-          "id": "Banyak orang memperlambat setiap keputusan seolah tak bisa dibalik, atau menerjang yang tak bisa dibalik seolah bisa."
+          "id": "Banyak orang memperlambat setiap keputusan seolah semuanya tidak bisa dibalik, atau justru terburu-buru mengambil keputusan yang tidak bisa dibalik seolah bisa."
          },
          "em": {
           "en": "reversible decisions fast, irreversible ones carefully",
-          "id": "yang bisa dibalik cepat, yang tak bisa dibalik dengan hati-hati"
+          "id": "yang bisa dibalik diputuskan cepat, yang tidak bisa dibalik dengan hati-hati"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "From career to stewardship: leave the work, the people and your capabilities better than you found them",
-          "id": "Dari karier ke kepengurusan: tinggalkan pekerjaan, orangnya, dan kemampuanmu lebih baik daripada saat kamu datang"
+          "id": "Dari karier ke merawat: tinggalkan pekerjaan, orang-orangnya, dan kemampuanmu dalam keadaan lebih baik daripada saat kamu menemukannya"
          },
          "layout": "grid",
          "items": [
@@ -54059,7 +54059,7 @@ window.MT_LMS['the-route'] = {
            "id": "Arah",
            "d": {
             "en": "Still the right map and lines? The trajectory blueprint (1) and the career-move framework (7).",
-            "id": "Masih peta dan garis yang tepat? Cetak biru lintasan (1) dan kerangka langkah karier (7)."
+            "id": "Peta dan garisnya masih tepat? Cetak biru lintasan (1) dan kerangka langkah karier (7)."
            },
            "img": "../../assets/bg/compass.jpg"
           },
@@ -54069,7 +54069,7 @@ window.MT_LMS['the-route'] = {
            "id": "Bukti",
            "d": {
             "en": "What can someone verify? The performance audit (2) and the promotion case file (5).",
-            "id": "Apa yang bisa diverifikasi seseorang? Audit kinerja (2) dan berkas kasus promosi (5)."
+            "id": "Apa yang bisa dicek orang lain? Audit kinerja (2) dan berkas kasus promosi (5)."
            },
            "img": "../../assets/bg/early-professional.jpg"
           },
@@ -54079,7 +54079,7 @@ window.MT_LMS['the-route'] = {
            "id": "Orang",
            "d": {
             "en": "Who is better because I was there? The navigation map (3), the inner circle (6), the leadership portfolio (9).",
-            "id": "Siapa yang lebih baik karena aku ada di sana? Peta navigasi (3), lingkaran dalam (6), portofolio kepemimpinan (9)."
+            "id": "Siapa yang jadi lebih baik karena aku ada di sana? Peta navigasi (3), lingkaran dalam (6), portofolio kepemimpinan (9)."
            },
            "img": "../../assets/pe/th-stakeholders.jpg"
           },
@@ -54089,7 +54089,7 @@ window.MT_LMS['the-route'] = {
            "id": "Sistem",
            "d": {
             "en": "What keeps working without me? The visibility system (4) and the financial plan (8).",
-            "id": "Apa yang tetap bekerja tanpaku? Sistem visibilitas (4) dan rencana keuangan (8)."
+            "id": "Apa yang tetap berjalan tanpa aku? Sistem visibilitas (4) dan rencana keuangan (8)."
            },
            "img": "../../assets/bg/ep-stage-architecture.jpg"
           },
@@ -54099,22 +54099,22 @@ window.MT_LMS['the-route'] = {
            "id": "Tahun depan",
            "d": {
             "en": "One capability, one relationship, one decision: all nine.",
-            "id": "Satu kapabilitas, satu hubungan, satu keputusan: kesembilannya."
+            "id": "Satu kemampuan, satu hubungan, satu keputusan: kesembilannya."
            },
            "img": "../../assets/bg/ch1-realization.jpg"
           }
          ],
          "sub": {
           "en": "Nine Career Kit items across nine modules; a kit that is not reviewed decays within a year.",
-          "id": "Sembilan butir Career Kit di sembilan modul; kit yang tidak ditinjau meluruh dalam setahun."
+          "id": "Sembilan bagian Perangkat Karier dari sembilan modul. Perangkat yang tidak pernah ditinjau akan usang dalam setahun."
          },
          "band": {
           "en": "Put the stewardship review in your calendar once a year; it is the review that closes The Route and keeps it working.",
-          "id": "Masukkan tinjauan kepengurusan ke kalendermu setahun sekali; itulah tinjauan yang menutup The Route dan menjaganya tetap bekerja."
+          "id": "Masukkan tinjauan tahunan ke kalendermu, sekali setahun. Tinjauan inilah yang menutup The Route dan membuatnya terus bekerja."
          },
          "em": {
           "en": "better than you found them",
-          "id": "lebih baik daripada saat kamu datang"
+          "id": "lebih baik daripada saat kamu menemukannya"
          }
         }
        ],
@@ -54133,7 +54133,7 @@ window.MT_LMS['the-route'] = {
       },
       "intro": {
        "en": "People are usually promoted into leadership because they already think like leaders.",
-       "id": "Orang biasanya dipromosikan ke kepemimpinan karena mereka sudah berpikir seperti pemimpin."
+       "id": "Orang biasanya dipromosikan ke posisi pemimpin karena mereka sudah berpikir seperti pemimpin."
       },
       "slides": [
        {
@@ -54144,7 +54144,7 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "“What needs to be done?” not “what was I asked to do?”",
-          "id": "“Apa yang perlu dilakukan?” bukan “apa yang diminta dariku?”"
+          "id": "“Apa yang perlu diselesaikan?”, bukan “apa yang diminta dariku?”"
          }
         ]
        },
@@ -54156,31 +54156,31 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "The third time a problem appears, fix the cause.",
-          "id": "Kali ketiga masalah muncul, perbaiki penyebabnya."
+          "id": "Saat masalah muncul untuk ketiga kalinya, perbaiki penyebabnya."
          }
         ]
        },
        {
         "h": {
          "en": "Certainty → judgement",
-         "id": "Kepastian → penilaian"
+         "id": "Kepastian → pertimbangan"
         },
         "points": [
          {
           "en": "Reversible decisions fast; irreversible ones carefully.",
-          "id": "Keputusan yang bisa dibalik cepat; yang tak bisa dibalik dengan hati-hati."
+          "id": "Keputusan yang bisa dibalik, ambil dengan cepat. Yang tidak bisa dibalik, ambil dengan hati-hati."
          }
         ]
        },
        {
         "h": {
          "en": "Career → stewardship",
-         "id": "Karier → kepengurusan"
+         "id": "Karier → merawat"
         },
         "points": [
          {
           "en": "Leave the work and the people better than you found them.",
-          "id": "Tinggalkan pekerjaan dan orangnya lebih baik daripada saat kamu datang."
+          "id": "Tinggalkan pekerjaan dan orang-orangnya dalam keadaan lebih baik daripada saat kamu datang."
          }
         ]
        }
@@ -54196,18 +54196,18 @@ window.MT_LMS['the-route'] = {
         "id": "Dari tugas ke hasil"
        },
        "body": {
-        "en": "Peter Drucker, describing what effective executives had in common, noted that they asked <b>“What needs to be done?”</b> rather than “What do I want to do?”, and <b>“What is right for the enterprise?”</b> rather than what is right for themselves. Both questions work at any level. An individual contributor who thinks like a leader still does their assigned task well, but also asks what the task is <b>for</b>, and notices when completing it perfectly would still leave the outcome unmet. The analyst who delivers the requested report on time, then adds one line, “Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”, is owning the outcome, not only the task. Three habits express the shift. <b>Clarify the purpose</b> before starting: “Laporan ini akan dipakai untuk keputusan apa?” The answer often changes what a good report looks like. <b>Close the loop on outcomes</b>, not just deliverables: did the memo lead to the right decision; did the pilot change behaviour at the branches? <b>Say what you see beyond your box</b>, with a proposal and without overstepping: “Ini di luar tugas saya, tapi saya perhatikan…; kalau Ibu setuju, saya bisa…”. The boundaries matter: thinking like an owner does not mean taking over other people’s work or ignoring your manager (Module 3), and it never means breaking rules to get a result. It means caring about whether the work achieves what it was meant to, and acting within your role to make that more likely.",
-        "id": "Peter Drucker, saat menggambarkan kesamaan para eksekutif yang efektif, mencatat bahwa mereka bertanya <b>“Apa yang perlu dilakukan?”</b> alih-alih “Apa yang ingin saya lakukan?”, dan <b>“Apa yang benar bagi organisasi?”</b> alih-alih apa yang benar bagi diri mereka. Kedua pertanyaan bekerja di level mana pun. Kontributor individu yang berpikir seperti pemimpin tetap mengerjakan tugasnya dengan baik, tetapi juga bertanya tugas itu <b>untuk apa</b>, dan menyadari saat menyelesaikannya dengan sempurna tetap tak memenuhi hasilnya. Analis yang menyerahkan laporan yang diminta tepat waktu, lalu menambahkan satu baris, “Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”, sedang memiliki hasilnya, bukan hanya tugasnya. Tiga kebiasaan mengungkapkan pergeseran ini. <b>Perjelas tujuannya</b> sebelum memulai: “Laporan ini akan dipakai untuk keputusan apa?” Jawabannya sering mengubah seperti apa laporan yang baik. <b>Tutup lingkaran pada hasil</b>, bukan hanya pada hasil kerja: apakah memonya menghasilkan keputusan yang tepat; apakah pilotnya mengubah perilaku di cabang? <b>Sampaikan apa yang kamu lihat di luar kotakmu</b>, dengan usulan dan tanpa melampaui batas: “Ini di luar tugas saya, tapi saya perhatikan…; kalau Ibu setuju, saya bisa…”. Batasannya penting: berpikir seperti pemilik bukan berarti mengambil alih pekerjaan orang lain atau mengabaikan manajermu (Modul 3), dan tak pernah berarti melanggar aturan demi hasil. Artinya peduli apakah pekerjaan mencapai tujuannya, dan bertindak dalam peranmu untuk membuatnya lebih mungkin."
+        "en": "Peter Drucker, describing what effective executives had in common, noted that they asked <b>“What needs to be done?”</b> rather than “What do I want to do?”, and <b>“What is right for the enterprise?”</b> rather than what is right for themselves. Both questions work at any level. An individual contributor who thinks like a leader still does their assigned task well, but also asks what the task is <b>for</b>, and notices when completing it perfectly would still leave the outcome unmet. The analyst who delivers the requested report on time and then adds one line (“Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”) is owning the outcome, not only the task. Three habits express the shift. <b>Clarify the purpose</b> before starting: “Laporan ini akan dipakai untuk keputusan apa?” The answer often changes what a good report looks like. <b>Close the loop on outcomes</b>, not just deliverables: did the memo lead to the right decision; did the pilot change behaviour at the branches? <b>Say what you see beyond your box</b>, with a proposal and without overstepping: “Ini di luar tugas saya, tapi saya perhatikan…; kalau Ibu setuju, saya bisa…”. The boundaries matter: thinking like an owner does not mean taking over other people’s work or ignoring your manager (Module 3), and it never means breaking rules to get a result. It means caring about whether the work achieves what it was meant to, and acting within your role to make that more likely.",
+        "id": "Saat menggambarkan kesamaan para eksekutif yang efektif, Peter Drucker mencatat bahwa mereka bertanya <b>“Apa yang perlu diselesaikan?”</b>, bukan “Apa yang ingin saya kerjakan?”. Mereka juga bertanya <b>“Apa yang benar untuk organisasi?”</b>, bukan apa yang benar untuk diri mereka sendiri. Kedua pertanyaan ini berlaku di level mana pun. Kontributor individu yang berpikir seperti pemimpin tetap mengerjakan tugasnya dengan baik, tetapi juga bertanya tugas itu sebenarnya <b>untuk apa</b>, dan sadar kalau tugas yang dikerjakan dengan sempurna pun masih bisa gagal mencapai hasilnya. Analis yang menyerahkan laporan tepat waktu, lalu menambahkan satu baris (“Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”), sedang memiliki hasilnya, bukan hanya tugasnya. Ada tiga kebiasaan yang menunjukkan pergeseran ini. <b>Perjelas tujuannya</b> sebelum mulai: “Laporan ini akan dipakai untuk keputusan apa?” Jawabannya sering mengubah seperti apa laporan yang baik. <b>Tuntaskan sampai ke hasilnya</b>, bukan hanya sampai ke hasil kerjanya. Apakah memo itu menghasilkan keputusan yang tepat? Apakah pilot itu mengubah kebiasaan di cabang? <b>Sampaikan apa yang kamu lihat di luar kotakmu</b>, dengan usulan dan tanpa melangkahi siapa pun: “Ini di luar tugas saya, tapi saya perhatikan…; kalau Ibu setuju, saya bisa…”. Batasnya penting. Berpikir seperti pemilik tidak berarti mengambil alih pekerjaan orang lain atau melangkahi atasanmu (Modul 3), dan tidak pernah berarti melanggar aturan demi hasil. Artinya kamu peduli apakah pekerjaan itu mencapai tujuannya, lalu bertindak di dalam peranmu supaya peluangnya lebih besar."
        },
        "table": {
         "cols": [
          {
           "en": "Task thinking",
-          "id": "Berpikir tugas"
+          "id": "Berpikir soal tugas"
          },
          {
           "en": "Outcome thinking",
-          "id": "Berpikir hasil"
+          "id": "Berpikir soal hasil"
          }
         ],
         "rows": [
@@ -54218,7 +54218,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "“Did it achieve what it was for?”",
-           "id": "“Apakah itu mencapai tujuannya?”"
+           "id": "“Apakah tujuannya tercapai?”"
           }
          ],
          [
@@ -54238,7 +54238,7 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Asks what decision it serves, then starts",
-           "id": "Bertanya keputusan apa yang dilayani, lalu mulai"
+           "id": "Menanyakan keputusan apa yang akan dilayaninya, baru mulai"
           }
          ],
          [
@@ -54248,13 +54248,13 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Checks the result a few weeks later",
-           "id": "Memeriksa hasilnya beberapa minggu kemudian"
+           "id": "Mengecek hasilnya beberapa minggu kemudian"
           }
          ]
         ],
         "caption": {
          "en": "After P. F. Drucker, “What Makes an Effective Executive” (<i>HBR</i>, 2004); course guidance.",
-         "id": "Mengikuti P. F. Drucker, “What Makes an Effective Executive” (<i>HBR</i>, 2004); panduan kursus."
+         "id": "Mengacu pada P. F. Drucker, “What Makes an Effective Executive” (<i>HBR</i>, 2004), dan panduan kursus."
         }
        }
       },
@@ -54265,25 +54265,25 @@ window.MT_LMS['the-route'] = {
         "id": "Dari gejala ke sistem"
        },
        "body": {
-        "en": "Many workplaces reward heroics: the analyst who stays until midnight to fix the month-end report, again. Leaders notice the “again”. A useful rule of thumb: <b>the first time a problem appears, fix it; the second time, note it; the third time, fix the system that produces it.</b> Systems thinking asks why a problem keeps recurring, which process, incentive, handover or missing piece of information makes it likely, and changes that rather than the symptom. The document-check pilot of Module 3 was exactly this: instead of chasing each rejected file, Nadia changed the step before the file was sent. Three tools help. <b>The five whys</b>: ask “why?” repeatedly until you reach a cause you can act on (a technique associated with Toyota’s production system); stop when you reach a process, not a person. <b>Look for the handover</b>: many recurring errors live at the boundary between two teams, where each assumes the other checks. <b>Change the default</b>: as in Lesson 8.2, systems work best when the right action is the easy one, a template with required fields, a checklist in the workflow, a report that flags missing data automatically. Systemic fixes need allies and permission, so use Modules 3 and 4: bring a short, answer-first proposal (Lesson 9.1) to the person who owns the process, with the cost of the recurring problem in numbers and a small pilot. Fixing systems is also how individual contributors create leverage without authority: one good checklist can prevent more errors than a year of personal heroics, and it keeps working when you move on.",
-        "id": "Banyak tempat kerja menghargai kepahlawanan: analis yang bertahan sampai tengah malam untuk memperbaiki laporan akhir bulan, lagi. Pemimpin memperhatikan kata “lagi”. Patokan yang berguna: <b>kali pertama masalah muncul, perbaiki; kali kedua, catat; kali ketiga, perbaiki sistem yang menghasilkannya.</b> Berpikir sistem bertanya mengapa masalah terus berulang, proses, insentif, serah terima, atau informasi yang hilang mana yang membuatnya mungkin, dan mengubah itu, bukan gejalanya. Pilot cek dokumen di Modul 3 persis seperti ini: alih-alih mengejar setiap berkas yang ditolak, Nadia mengubah langkah sebelum berkas dikirim. Tiga alat membantu. <b>Lima mengapa</b>: tanyakan “mengapa?” berulang kali sampai tiba di penyebab yang bisa ditindaklanjuti (teknik yang dikaitkan dengan sistem produksi Toyota); berhenti saat tiba di proses, bukan orang. <b>Cari titik serah terima</b>: banyak kesalahan berulang tinggal di batas antara dua tim, di mana masing-masing mengira pihak lain yang memeriksa. <b>Ubah bawaannya</b>: seperti di Pelajaran 8.2, sistem bekerja paling baik saat tindakan yang benar adalah yang paling mudah, templat dengan kolom wajib, daftar periksa di alur kerja, laporan yang otomatis menandai data yang hilang. Perbaikan sistem butuh sekutu dan izin, jadi pakai Modul 3 dan 4: bawa usulan singkat berjawaban-dulu (Pelajaran 9.1) kepada pemilik prosesnya, dengan biaya masalah berulang dalam angka dan pilot kecil. Memperbaiki sistem juga cara kontributor individu menciptakan daya ungkit tanpa wewenang: satu daftar periksa yang baik bisa mencegah lebih banyak kesalahan daripada setahun kepahlawanan pribadi, dan tetap bekerja saat kamu pindah."
+        "en": "Many workplaces reward heroics: the analyst who stays until midnight to fix the month-end report, again. Leaders notice the “again”. A useful rule of thumb: <b>the first time a problem appears, fix it; the second time, note it; the third time, fix the system that produces it.</b> Systems thinking asks why a problem keeps recurring (which process, incentive, handover or missing piece of information makes it likely) and changes that rather than the symptom. The document-check pilot of Module 3 was exactly this: instead of chasing each rejected file, Nadia changed the step before the file was sent. Three tools help. <b>The five whys</b>: ask “why?” repeatedly until you reach a cause you can act on (a technique associated with Toyota’s production system); stop when you reach a process, not a person. <b>Look for the handover</b>: many recurring errors live at the boundary between two teams, where each assumes the other checks. <b>Change the default</b>: as in Lesson 8.2, systems work best when the right action is the easy one: a template with required fields, a checklist in the workflow, a report that flags missing data automatically. Systemic fixes need allies and permission, so use Modules 3 and 4: bring a short, answer-first proposal (Lesson 9.1) to the person who owns the process, with the cost of the recurring problem in numbers and a small pilot. Fixing systems is also how individual contributors create leverage without authority: one good checklist can prevent more errors than a year of personal heroics, and it keeps working when you move on.",
+        "id": "Banyak tempat kerja menghargai aksi kepahlawanan: analis yang bertahan sampai tengah malam untuk memperbaiki laporan akhir bulan, lagi. Pemimpin memperhatikan kata “lagi” itu. Ada satu pegangan praktis yang berguna: <b>saat sebuah masalah muncul pertama kali, perbaiki; saat muncul kedua kali, catat; saat muncul ketiga kali, perbaiki sistem yang menghasilkannya.</b> Berpikir sistem berarti bertanya kenapa sebuah masalah terus berulang (proses, insentif, serah terima, atau informasi apa yang hilang sehingga masalah itu mudah terjadi), lalu mengubah hal itu, bukan gejalanya. Pilot pengecekan dokumen di Modul 3 persis seperti ini. Alih-alih mengejar setiap berkas yang ditolak, Nadia mengubah langkah sebelum berkas dikirim. Ada tiga alat yang membantu. <b>Lima kali kenapa</b>: tanyakan “kenapa?” berulang kali sampai kamu menemukan penyebab yang bisa ditindaklanjuti (teknik yang dikaitkan dengan sistem produksi Toyota). Berhentilah saat kamu sampai pada sebuah proses, bukan pada seseorang. <b>Cari titik serah terima</b>: banyak kesalahan yang berulang tinggal di perbatasan antara dua tim, tempat masing-masing mengira pihak lain yang mengecek. <b>Ubah bawaannya</b>: seperti di Pelajaran 8.2, sistem bekerja paling baik kalau tindakan yang benar adalah tindakan yang paling mudah. Contohnya templat dengan kolom wajib, daftar periksa yang menempel di alur kerja, atau laporan yang otomatis menandai data yang hilang. Perbaikan sistem butuh sekutu dan izin, jadi pakai Modul 3 dan 4. Bawa usulan singkat yang dimulai dari jawabannya (Pelajaran 9.1) kepada pemilik proses, lengkap dengan biaya masalah yang berulang itu dalam angka dan sebuah pilot kecil. Memperbaiki sistem juga cara kontributor individu menciptakan daya ungkit tanpa wewenang. Satu daftar periksa yang baik bisa mencegah lebih banyak kesalahan daripada setahun aksi kepahlawanan pribadi, dan daftar itu tetap bekerja setelah kamu pindah."
        },
        "bullets": [
         {
          "en": "<b>First time</b>: fix it. <b>Second</b>: note it. <b>Third</b>: fix the system.",
-         "id": "<b>Pertama</b>: perbaiki. <b>Kedua</b>: catat. <b>Ketiga</b>: perbaiki sistemnya."
+         "id": "<b>Pertama kali</b>: perbaiki. <b>Kedua</b>: catat. <b>Ketiga</b>: perbaiki sistemnya."
         },
         {
          "en": "<b>Five whys</b>: stop at a process, not a person.",
-         "id": "<b>Lima mengapa</b>: berhenti di proses, bukan orang."
+         "id": "<b>Lima kali kenapa</b>: berhenti di proses, bukan di orang."
         },
         {
          "en": "<b>Handovers</b>: where each side assumes the other checks.",
-         "id": "<b>Serah terima</b>: di mana masing-masing mengira pihak lain yang memeriksa."
+         "id": "<b>Serah terima</b>: tempat masing-masing pihak mengira pihak lain yang mengecek."
         },
         {
          "en": "<b>Defaults</b>: make the right action the easy one.",
-         "id": "<b>Bawaan</b>: jadikan tindakan yang benar yang paling mudah."
+         "id": "<b>Bawaan</b>: jadikan tindakan yang benar sebagai tindakan yang paling mudah."
         }
        ]
       },
@@ -54291,11 +54291,11 @@ window.MT_LMS['the-route'] = {
        "icon": "compass",
        "h": {
         "en": "Deciding with incomplete information",
-        "id": "Memutuskan dengan informasi tak lengkap"
+        "id": "Memutuskan saat informasinya belum lengkap"
        },
        "body": {
-        "en": "Early in a career, most decisions are made for you; the leadership shift includes making good ones yourself, usually before you feel ready. Three ideas help. <b>Two kinds of doors.</b> In a 2015 shareholder letter, Jeff Bezos distinguished “one-way door” decisions, consequential and hard to reverse, from “two-way door” decisions that can be undone if wrong. The first deserve care, consultation and time; the second should be made quickly by the person closest to the work. Many people slow down every decision as if it were irreversible, or rush irreversible ones as if they were not. <b>Around seventy per cent.</b> In his 2016 letter, Bezos suggested that most decisions should probably be made with somewhere around seventy per cent of the information you wish you had; waiting for ninety per cent usually means being slow. The number is a heuristic, not a law, for a credit decision governed by policy, the required information is not optional, but the principle holds for most operational choices <span class=\"ev ev-contested\">Contested</span>. <b>The pre-mortem.</b> Gary Klein proposed imagining, before a decision is final, that it is a year later and the plan has failed. Then asking everyone to write down why. The exercise surfaces risks that optimism and hierarchy hide, and it gives juniors permission to voice doubts (Lesson 9.2). Combine the three with Module 6’s board consult for the big decisions, and write down your reasoning when you decide: what you knew, what you assumed, and what would make you change course. That note turns a decision into learning, whatever the outcome.",
-        "id": "Di awal karier, kebanyakan keputusan dibuat untukmu; pergeseran kepemimpinan mencakup membuat keputusan yang baik sendiri, biasanya sebelum merasa siap. Tiga gagasan membantu. <b>Dua jenis pintu.</b> Dalam surat pemegang saham 2015, Jeff Bezos membedakan keputusan “pintu satu arah”, berdampak besar dan sulit dibalik, dari keputusan “pintu dua arah” yang bisa dibatalkan jika salah. Yang pertama layak mendapat kehati-hatian, konsultasi, dan waktu; yang kedua sebaiknya diputuskan cepat oleh orang yang paling dekat dengan pekerjaannya. Banyak orang memperlambat setiap keputusan seolah tak bisa dibalik, atau terburu-buru pada yang tak bisa dibalik seolah bisa. <b>Sekitar tujuh puluh persen.</b> Dalam suratnya tahun 2016, Bezos menyiratkan bahwa sebagian besar keputusan sebaiknya dibuat dengan sekitar tujuh puluh persen informasi yang kamu harapkan; menunggu sembilan puluh persen biasanya berarti lambat. Angka itu patokan kasar, bukan hukum, untuk keputusan kredit yang diatur kebijakan, informasi yang diwajibkan tidaklah opsional, tetapi prinsipnya berlaku untuk sebagian besar pilihan operasional <span class=\"ev ev-contested\">Diperdebatkan</span>. <b>Pre-mortem.</b> Gary Klein mengusulkan membayangkan, sebelum keputusan final, bahwa setahun telah berlalu dan rencananya gagal. Lalu meminta semua orang menuliskan mengapa. Latihan ini memunculkan risiko yang disembunyikan optimisme dan hierarki, dan memberi izin kepada junior untuk menyuarakan keraguan (Pelajaran 9.2). Gabungkan ketiganya dengan konsultasi dewan Modul 6 untuk keputusan besar, dan tuliskan penalaranmu saat memutuskan: apa yang kamu ketahui, apa yang kamu asumsikan, dan apa yang akan membuatmu mengubah arah. Catatan itu mengubah keputusan menjadi pembelajaran, apa pun hasilnya."
+        "en": "Early in a career, most decisions are made for you; the leadership shift includes making good ones yourself, usually before you feel ready. Three ideas help. <b>Two kinds of doors.</b> In a 2015 shareholder letter, Jeff Bezos distinguished “one-way door” decisions (consequential and hard to reverse) from “two-way door” decisions that can be undone if wrong. The first deserve care, consultation and time; the second should be made quickly by the person closest to the work. Many people slow down every decision as if it were irreversible, or rush irreversible ones as if they were not. <b>Around seventy per cent.</b> In his 2016 letter, Bezos suggested that most decisions should probably be made with somewhere around seventy per cent of the information you wish you had; waiting for ninety per cent usually means being slow. The number is a heuristic, not a law: for a credit decision governed by policy, the required information is not optional. But the principle holds for most operational choices <span class=\"ev ev-contested\">Contested</span>. <b>The pre-mortem.</b> Gary Klein proposed imagining, before a decision is final, that it is a year later and the plan has failed, then asking everyone to write down why. The exercise surfaces risks that optimism and hierarchy hide, and it gives juniors permission to voice doubts (Lesson 9.2). Combine the three with Module 6’s board consult for the big decisions, and write down your reasoning when you decide: what you knew, what you assumed, and what would make you change course. That note turns a decision into learning, whatever the outcome.",
+        "id": "Di awal karier, sebagian besar keputusan diambilkan untukmu. Pergeseran menuju kepemimpinan termasuk belajar mengambil keputusan yang baik sendiri, biasanya sebelum kamu merasa siap. Ada tiga gagasan yang membantu. <b>Dua jenis pintu.</b> Dalam surat kepada pemegang saham tahun 2015, Jeff Bezos membedakan keputusan “pintu satu arah” (berdampak besar dan sulit dibalik) dari keputusan “pintu dua arah” yang masih bisa dibatalkan kalau ternyata keliru. Jenis pertama layak diambil dengan hati-hati, lewat konsultasi, dan dengan waktu yang cukup. Jenis kedua sebaiknya diambil dengan cepat oleh orang yang paling dekat dengan pekerjaannya. Banyak orang memperlambat setiap keputusan seolah semuanya tidak bisa dibalik, atau justru terburu-buru mengambil keputusan yang tidak bisa dibalik seolah bisa. <b>Sekitar tujuh puluh persen.</b> Dalam suratnya tahun 2016, Bezos berpendapat bahwa sebagian besar keputusan mungkin sebaiknya diambil saat kamu memegang sekitar tujuh puluh persen informasi yang kamu harapkan. Menunggu sampai sembilan puluh persen biasanya berarti terlambat. Angka ini pegangan kasar, bukan hukum. Untuk keputusan kredit yang diatur kebijakan, informasi yang diwajibkan tidak bisa ditawar. Tetapi prinsipnya tetap berlaku untuk sebagian besar pilihan operasional <span class=\"ev ev-contested\">Masih diperdebatkan</span>. <b>Pre-mortem.</b> Gary Klein mengusulkan agar, sebelum keputusan final, semua orang membayangkan bahwa sekarang sudah setahun kemudian dan rencananya gagal, lalu masing-masing menuliskan kenapa. Latihan ini memunculkan risiko yang tersembunyi di balik optimisme dan hierarki, dan memberi junior izin untuk menyuarakan keraguannya (Pelajaran 9.2). Gabungkan ketiganya dengan konsultasi dewan dari Modul 6 untuk keputusan besar, dan tuliskan alasanmu saat memutuskan: apa yang kamu ketahui, apa yang kamu asumsikan, dan apa yang akan membuatmu berubah arah. Catatan itu mengubah sebuah keputusan menjadi pelajaran, apa pun hasilnya."
        },
        "table": {
         "cols": [
@@ -54320,11 +54320,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Quickly, close to the work, with ~70% of the information",
-           "id": "Cepat, dekat dengan pekerjaan, dengan ~70% informasi"
+           "id": "Cepat, oleh orang yang dekat dengan pekerjaannya, dengan sekitar 70% informasi"
           },
           {
            "en": "Report format; meeting cadence; pilot sequence",
-           "id": "Format laporan; ritme rapat; urutan pilot"
+           "id": "Format laporan; jadwal rapat; urutan pilot"
           }
          ],
          [
@@ -54334,11 +54334,11 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "Carefully: consult, pre-mortem, write the reasoning",
-           "id": "Hati-hati: konsultasi, pre-mortem, tulis penalarannya"
+           "id": "Hati-hati: konsultasi, pre-mortem, tulis alasannya"
           },
           {
            "en": "A hire; a policy exception; a career move",
-           "id": "Rekrutmen; pengecualian kebijakan; perpindahan karier"
+           "id": "Merekrut orang; pengecualian kebijakan; langkah karier"
           }
          ],
          [
@@ -54348,17 +54348,17 @@ window.MT_LMS['the-route'] = {
           },
           {
            "en": "The required information is not optional",
-           "id": "Informasi yang diwajibkan tidak opsional"
+           "id": "Informasi yang diwajibkan tidak bisa ditawar"
           },
           {
            "en": "Credit approval; compliance sign-off",
-           "id": "Persetujuan kredit; persetujuan kepatuhan"
+           "id": "Persetujuan kredit; tanda tangan kepatuhan"
           }
          ]
         ],
         "caption": {
          "en": "After J. Bezos’s shareholder letters (2015, 2016) and G. Klein, “Performing a Project Premortem” (<i>HBR</i>, 2007); heuristics, not rules.",
-         "id": "Mengikuti surat pemegang saham J. Bezos (2015, 2016) dan G. Klein, “Performing a Project Premortem” (<i>HBR</i>, 2007); patokan, bukan aturan."
+         "id": "Mengacu pada surat-surat J. Bezos kepada pemegang saham (2015, 2016) dan G. Klein, “Performing a Project Premortem” (<i>HBR</i>, 2007). Ini pegangan kasar, bukan aturan."
         }
        }
       },
@@ -54366,11 +54366,11 @@ window.MT_LMS['the-route'] = {
        "icon": "flag",
        "h": {
         "en": "Stewardship: the review that closes The Route",
-        "id": "Kepengurusan: tinjauan yang menutup The Route"
+        "id": "Merawat: tinjauan yang menutup The Route"
        },
        "body": {
-        "en": "The last shift is from managing your career to <b>stewarding</b>: taking responsibility for leaving the work, the people and your own capabilities better than you found them. It is also the right frame for closing this course. Across nine modules you have built a <b>Career Kit</b>: a Career Trajectory Blueprint (1), a Performance Audit and Visibility Plan (2), an Organisational Navigation Map (3), a Personal Visibility System (4), a Promotion Case File (5), an Inner Circle Blueprint (6), a Career Move Evaluation Framework (7), a Financial Foundation Plan (8), and now a Leadership Presence Portfolio (9). A kit that is not reviewed decays within a year. Put a <b>stewardship review</b> in your calendar, once a year, perhaps in the same week as your money review (Lesson 8.4), and ask five questions. <b>Direction</b>: does my trajectory blueprint still describe where I want to go, and are my red lines intact? <b>Evidence</b>: what did I build this year that someone else could verify? <b>People</b>: who is better because I was there. Whom did I develop, sponsor, thank? <b>Systems</b>: what did I fix that will keep working without me? <b>Next year</b>: what is the one capability, the one relationship and the one decision that matter most? Then make it visible to the people who help you, your manager, your board, because, as every module has argued, careers are built in the open, with others. Finally, remember that leadership is not only management. Many organisations have expert tracks where people lead through knowledge, standards and influence rather than headcount; the four shifts in this lesson apply to both. The Route ends here, but the habits do not: they are meant to be repeated, a little better, every year.",
-        "id": "Pergeseran terakhir adalah dari mengelola kariermu ke <b>merawat</b>: bertanggung jawab meninggalkan pekerjaan, orang, dan kemampuanmu sendiri lebih baik daripada saat kamu datang. Itu juga kerangka yang tepat untuk menutup kursus ini. Sepanjang sembilan modul kamu telah membangun <b>Career Kit</b>: Cetak Biru Lintasan Karier (1), Audit Kinerja dan Rencana Visibilitas (2), Peta Navigasi Organisasi (3), Sistem Visibilitas Pribadi (4), Berkas Kasus Promosi (5), Cetak Biru Lingkaran Dalam (6), Kerangka Evaluasi Langkah Karier (7), Rencana Fondasi Keuangan (8), dan kini Portofolio Kehadiran Kepemimpinan (9). Kit yang tak ditinjau akan usang dalam setahun. Masukkan <b>tinjauan kepengurusan</b> ke kalendermu, setahun sekali, mungkin di minggu yang sama dengan tinjauan keuanganmu (Pelajaran 8.4), dan ajukan lima pertanyaan. <b>Arah</b>: apakah cetak biru lintasanku masih menggambarkan tujuanku, dan apakah garis merahku utuh? <b>Bukti</b>: apa yang kubangun tahun ini yang bisa diverifikasi orang lain? <b>Orang</b>: siapa yang lebih baik karena aku ada di sana, siapa yang kukembangkan, kusponsori, kuberi terima kasih? <b>Sistem</b>: apa yang kuperbaiki yang akan tetap bekerja tanpaku? <b>Tahun depan</b>: satu kapabilitas, satu hubungan, dan satu keputusan apa yang paling penting? Lalu buat terlihat bagi orang-orang yang membantumu, manajermu, dewanmu, karena, seperti diargumenkan setiap modul, karier dibangun secara terbuka, bersama orang lain. Terakhir, ingat bahwa kepemimpinan bukan hanya manajemen. Banyak organisasi punya jalur ahli tempat orang memimpin lewat pengetahuan, standar, dan pengaruh, bukan jumlah bawahan; empat pergeseran dalam pelajaran ini berlaku untuk keduanya. The Route berakhir di sini, tetapi kebiasaannya tidak: kebiasaan itu dimaksudkan untuk diulang, sedikit lebih baik, setiap tahun."
+        "en": "The last shift is from managing your career to <b>stewarding</b>: taking responsibility for leaving the work, the people and your own capabilities better than you found them. It is also the right frame for closing this course. Across nine modules you have built a <b>Career Kit</b>: a Career Trajectory Blueprint (1), a Performance Audit and Visibility Plan (2), an Organisational Navigation Map (3), a Personal Visibility System (4), a Promotion Case File (5), an Inner Circle Blueprint (6), a Career Move Evaluation Framework (7), a Financial Foundation Plan (8), and now a Leadership Presence Portfolio (9). A kit that is not reviewed decays within a year. Put a <b>stewardship review</b> in your calendar, once a year, perhaps in the same week as your money review (Lesson 8.4), and ask five questions. <b>Direction</b>: does my trajectory blueprint still describe where I want to go, and are my red lines intact? <b>Evidence</b>: what did I build this year that someone else could verify? <b>People</b>: who is better because I was there? Whom did I develop, sponsor, thank? <b>Systems</b>: what did I fix that will keep working without me? <b>Next year</b>: what is the one capability, the one relationship and the one decision that matter most? Then make it visible to the people who help you (your manager, your board), because, as every module has argued, careers are built in the open, with others. Finally, remember that leadership is not only management. Many organisations have expert tracks where people lead through knowledge, standards and influence rather than headcount; the four shifts in this lesson apply to both. The Route closes with the capstone that follows, but the habits do not: they are meant to be repeated, a little better, every year.",
+        "id": "Pergeseran terakhir adalah dari mengurus kariermu ke <b>merawat</b>: bertanggung jawab meninggalkan pekerjaan, orang-orang, dan kemampuanmu sendiri dalam keadaan lebih baik daripada saat kamu menemukannya. Ini juga bingkai yang tepat untuk menutup kursus ini. Selama sembilan modul, kamu sudah membangun <b>Perangkat Karier</b>: Cetak Biru Lintasan Karier (1), Audit Kinerja dan Rencana Visibilitas (2), Peta Navigasi Organisasi (3), Sistem Visibilitas Pribadi (4), Berkas Kasus Promosi (5), Cetak Biru Lingkaran Dalam (6), Kerangka Penilaian Langkah Karier (7), Rencana Fondasi Keuangan (8), dan sekarang Portofolio Kehadiran Kepemimpinan (9). Perangkat yang tidak pernah ditinjau akan usang dalam setahun. Masukkan <b>tinjauan tahunan</b> ke kalendermu, sekali setahun, mungkin di minggu yang sama dengan tinjauan keuanganmu (Pelajaran 8.4), lalu ajukan lima pertanyaan. <b>Arah</b>: apakah cetak biru lintasanku masih menggambarkan tujuanku, dan apakah garis merahku masih utuh? <b>Bukti</b>: apa yang kubangun tahun ini yang bisa dicek orang lain? <b>Orang</b>: siapa yang jadi lebih baik karena aku ada di sana? Siapa yang kukembangkan, kusponsori, dan kuucapi terima kasih? <b>Sistem</b>: apa yang kuperbaiki yang akan tetap berjalan tanpa aku? <b>Tahun depan</b>: satu kemampuan, satu hubungan, dan satu keputusan apa yang paling penting? Lalu tunjukkan hasilnya kepada orang-orang yang membantumu (atasanmu, dewan pribadimu), karena seperti yang sudah dibahas di setiap modul, karier dibangun secara terbuka, bersama orang lain. Terakhir, ingat bahwa kepemimpinan tidak hanya berarti memimpin tim. Banyak organisasi punya jalur ahli, tempat orang memimpin lewat pengetahuan, standar, dan pengaruh, bukan lewat jumlah anak buah. Empat pergeseran dalam pelajaran ini berlaku untuk kedua jalur. Perjalanan The Route ditutup dengan studi kasus berikutnya, tetapi kebiasaannya tidak ikut berakhir. Kebiasaan ini dimaksudkan untuk diulang setiap tahun, sedikit lebih baik dari sebelumnya."
        },
        "table": {
         "cols": [
@@ -54380,14 +54380,14 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "Kit items it draws on",
-          "id": "Butir Kit yang dipakai"
+          "id": "Bagian perangkat yang dipakai"
          }
         ],
         "rows": [
          [
           {
            "en": "<b>Direction</b>: still the right map and lines?",
-           "id": "<b>Arah</b>: masih peta dan garis yang tepat?"
+           "id": "<b>Arah</b>: peta dan garisnya masih tepat?"
           },
           {
            "en": "Trajectory blueprint (1), career-move framework (7)",
@@ -54397,7 +54397,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Evidence</b>: what can someone verify?",
-           "id": "<b>Bukti</b>: apa yang bisa diverifikasi orang lain?"
+           "id": "<b>Bukti</b>: apa yang bisa dicek orang lain?"
           },
           {
            "en": "Performance audit (2), promotion case file (5)",
@@ -54407,7 +54407,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>People</b>: who is better because I was there?",
-           "id": "<b>Orang</b>: siapa yang lebih baik karena aku ada?"
+           "id": "<b>Orang</b>: siapa yang jadi lebih baik karena aku ada di sana?"
           },
           {
            "en": "Navigation map (3), inner circle (6), leadership portfolio (9)",
@@ -54417,7 +54417,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Systems</b>: what keeps working without me?",
-           "id": "<b>Sistem</b>: apa yang tetap bekerja tanpaku?"
+           "id": "<b>Sistem</b>: apa yang tetap berjalan tanpa aku?"
           },
           {
            "en": "Visibility system (4), financial plan (8)",
@@ -54427,7 +54427,7 @@ window.MT_LMS['the-route'] = {
          [
           {
            "en": "<b>Next year</b>: one capability, one relationship, one decision",
-           "id": "<b>Tahun depan</b>: satu kapabilitas, satu hubungan, satu keputusan"
+           "id": "<b>Tahun depan</b>: satu kemampuan, satu hubungan, satu keputusan"
           },
           {
            "en": "All nine",
@@ -54446,11 +54446,11 @@ window.MT_LMS['the-route'] = {
       "type": "ring",
       "exhibit": {
        "en": "Exhibit 1: The leader’s loop, without the title",
-       "id": "Peraga 1: Lingkaran pemimpin, tanpa jabatan"
+       "id": "Gambar 1: Siklus seorang pemimpin, tanpa jabatan"
       },
       "title": {
        "en": "Own → see the system → decide → develop → review",
-       "id": "Miliki → lihat sistemnya → putuskan → kembangkan → tinjau"
+       "id": "Miliki hasilnya → lihat sistemnya → putuskan → kembangkan orang → tinjau"
       },
       "items": [
        {
@@ -54461,7 +54461,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "“What needs to be done?”",
-         "id": "“Apa yang perlu dilakukan?”"
+         "id": "“Apa yang perlu diselesaikan?”"
         }
        },
        {
@@ -54472,7 +54472,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Third time: fix the cause.",
-         "id": "Kali ketiga: perbaiki penyebabnya."
+         "id": "Ketiga kalinya: perbaiki penyebabnya."
         }
        },
        {
@@ -54483,7 +54483,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Two-way doors fast; one-way doors with care.",
-         "id": "Pintu dua arah cepat; pintu satu arah dengan hati-hati."
+         "id": "Pintu dua arah dengan cepat; pintu satu arah dengan hati-hati."
         }
        },
        {
@@ -54494,7 +54494,7 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Multiply, delegate, coach (Lesson 9.2).",
-         "id": "Lipat gandakan, delegasikan, coaching (Pelajaran 9.2)."
+         "id": "Lipat gandakan, delegasikan, lakukan coaching (Pelajaran 9.2)."
         }
        },
        {
@@ -54505,17 +54505,17 @@ window.MT_LMS['the-route'] = {
         },
         "sub": {
          "en": "Once a year: direction, evidence, people, systems, next.",
-         "id": "Setahun sekali: arah, bukti, orang, sistem, berikutnya."
+         "id": "Sekali setahun: arah, bukti, orang, sistem, tahun depan."
         }
        }
       ],
       "note": {
        "en": "Leadership is practised long before it is awarded.",
-       "id": "Kepemimpinan dilatih jauh sebelum dianugerahkan."
+       "id": "Kepemimpinan sudah dilatih jauh sebelum dianugerahkan."
       },
       "longdesc": {
        "en": "A five-step loop for leading without a title: own the outcome by asking what needs to be done; see the system behind recurring problems and fix causes; decide reversible matters quickly and irreversible ones carefully; develop others; and review and steward your work, people and Career Kit once a year before starting again.",
-       "id": "Lingkaran lima langkah untuk memimpin tanpa jabatan: miliki hasilnya dengan bertanya apa yang perlu dilakukan; lihat sistem di balik masalah berulang dan perbaiki penyebabnya; putuskan hal yang bisa dibalik dengan cepat dan yang tak bisa dibalik dengan hati-hati; kembangkan orang lain; dan tinjau serta rawat pekerjaan, orang, dan Career Kit-mu setahun sekali sebelum memulai lagi."
+       "id": "Siklus lima langkah untuk memimpin tanpa jabatan: miliki hasilnya dengan bertanya apa yang perlu diselesaikan; lihat sistem di balik masalah yang berulang dan perbaiki penyebabnya; ambil keputusan yang bisa dibalik dengan cepat dan yang tidak bisa dibalik dengan hati-hati; kembangkan orang lain; lalu tinjau dan rawat pekerjaanmu, orang-orangmu, dan Perangkat Kariermu sekali setahun sebelum memulai lagi."
       }
      },
      "compare": [
@@ -54526,19 +54526,19 @@ window.MT_LMS['the-route'] = {
        },
        "q": {
         "en": "Nadia notices that branch officers are misreading the new SME score: many treat a “medium” score as an automatic rejection, which is not what the model intends.",
-        "id": "Nadia memperhatikan petugas cabang salah membaca skor UMKM baru: banyak yang memperlakukan skor “sedang” sebagai penolakan otomatis, padahal bukan itu maksud modelnya."
+        "id": "Nadia memperhatikan bahwa petugas cabang salah membaca skor UMKM yang baru. Banyak yang menganggap skor “sedang” sebagai penolakan otomatis, padahal bukan itu maksud modelnya."
        },
        "weak": {
-        "en": "She mentions it at lunch, “Cabang-cabang itu memang susah diajari”, and returns to her own backlog, since branch training belongs to another unit.",
-        "id": "Ia menyinggungnya saat makan siang, “Cabang-cabang itu memang susah diajari”, dan kembali ke tumpukan pekerjaannya, karena pelatihan cabang milik unit lain."
+        "en": "She mentions it at lunch (“Cabang-cabang itu memang susah diajari”) and returns to her own backlog, since branch training belongs to another unit.",
+        "id": "Ia menyinggungnya saat makan siang (“Cabang-cabang itu memang susah diajari”) lalu kembali ke tumpukan pekerjaannya sendiri, karena pelatihan cabang adalah urusan unit lain."
        },
        "strong": {
         "en": "She checks the pattern in two weeks of data (about a third of “medium” files were rejected without review), then writes to the training unit’s lead, copying Bu Indah: “Di luar tugas saya, tapi saya perhatikan… Usulan: satu halaman panduan membaca skor dan sesi 30 menit di rapat cabang bulan depan. Saya bisa menyiapkan drafnya kalau Bapak setuju.”",
-        "id": "Ia memeriksa polanya di data dua minggu (sekitar sepertiga berkas “sedang” ditolak tanpa ditinjau), lalu menulis kepada pemimpin unit pelatihan, dengan tembusan ke Bu Indah: “Di luar tugas saya, tapi saya perhatikan… Usulan: satu halaman panduan membaca skor dan sesi 30 menit di rapat cabang bulan depan. Saya bisa menyiapkan drafnya kalau Bapak setuju.”"
+        "id": "Ia mengecek polanya di data dua minggu (sekitar sepertiga berkas “sedang” ditolak tanpa ditinjau), lalu menulis kepada kepala unit pelatihan dengan tembusan ke Bu Indah: “Di luar tugas saya, tapi saya perhatikan… Usulan: satu halaman panduan membaca skor dan sesi 30 menit di rapat cabang bulan depan. Saya bisa menyiapkan drafnya kalau Bapak setuju.”"
        },
        "why": {
-        "en": "The first complains and stays in her box. The second checks the evidence, respects the other unit’s ownership, proposes a systemic fix and offers help, owning the outcome without overstepping. Fictional.",
-        "id": "Yang pertama mengeluh dan tetap di kotaknya. Yang kedua memeriksa buktinya, menghormati kepemilikan unit lain, mengusulkan perbaikan sistemik, dan menawarkan bantuan; memiliki hasilnya tanpa melampaui batas. Fiktif."
+        "en": "The first complains and stays in her box. The second checks the evidence, respects the other unit’s ownership, proposes a systemic fix and offers help: owning the outcome without overstepping. Fictional.",
+        "id": "Respons pertama mengeluh dan tetap di dalam kotaknya. Respons kedua mengecek buktinya, menghormati kepemilikan unit lain, mengusulkan perbaikan sistem, dan menawarkan bantuan. Itulah memiliki hasil tanpa melangkahi siapa pun. Fiktif."
        }
       }
      ],
@@ -54551,11 +54551,11 @@ window.MT_LMS['the-route'] = {
       "body": [
        {
         "en": "A week before the SME product goes live in its second region, Bu Indah asks Nadia to run the final review meeting. Everyone is confident; the model has passed testing. Nadia opens differently: “Bayangkan ini enam bulan dari sekarang, dan peluncurannya dianggap gagal. Tolong masing-masing tulis tiga alasan kenapa, anonim.”",
-        "id": "Seminggu sebelum produk UMKM berjalan di wilayah keduanya, Bu Indah meminta Nadia memimpin rapat tinjauan akhir. Semua orang yakin; modelnya sudah lolos pengujian. Nadia membuka dengan cara berbeda: “Bayangkan ini enam bulan dari sekarang, dan peluncurannya dianggap gagal. Tolong masing-masing tulis tiga alasan kenapa, anonim.”"
+        "id": "Seminggu sebelum produk UMKM diluncurkan di wilayah keduanya, Bu Indah meminta Nadia memimpin rapat tinjauan terakhir. Semua orang yakin, karena modelnya sudah lolos pengujian. Nadia membuka rapat dengan cara berbeda: “Bayangkan ini enam bulan dari sekarang, dan peluncurannya dianggap gagal. Tolong masing-masing tulis tiga alasan kenapa, anonim.”"
        },
        {
-        "en": "Putri, the most junior person in the room, writes that branch officers in two districts have not been trained on the new score. Two others write the same. It is a one-way door, a poor launch would damage branch trust in the product for years, so the team delays those districts by three weeks and runs the training first. The launch goes smoothly. Nobody calls it heroic; it simply works, which is the point.",
-        "id": "Putri, orang paling junior di ruangan, menulis bahwa petugas cabang di dua kabupaten belum dilatih tentang skor baru. Dua orang lain menulis hal yang sama. Itu pintu satu arah, peluncuran yang buruk akan merusak kepercayaan cabang terhadap produk itu selama bertahun-tahun, jadi tim menunda kedua kabupaten itu tiga minggu dan menjalankan pelatihan dulu. Peluncurannya berjalan mulus. Tak ada yang menyebutnya heroik; ia sekadar berhasil, dan memang itulah intinya."
+        "en": "Putri, the most junior person in the room, writes that branch officers in two districts have not been trained on the new score. Two others write the same. It is a one-way door (a poor launch would damage branch trust in the product for years), so the team delays those districts by three weeks and runs the training first. The launch goes smoothly. Nobody calls it heroic; it simply works, which is the point.",
+        "id": "Putri, orang paling junior di ruangan itu, menulis bahwa petugas cabang di dua kabupaten belum dilatih membaca skor baru. Dua orang lain menulis hal yang sama. Ini pintu satu arah, karena peluncuran yang buruk bisa merusak kepercayaan cabang pada produk itu selama bertahun-tahun. Maka tim menunda peluncuran di dua kabupaten itu selama tiga minggu dan menjalankan pelatihan lebih dulu. Peluncurannya berjalan mulus. Tidak ada yang menyebutnya aksi kepahlawanan. Semuanya berjalan saja, dan memang itulah intinya."
        }
       ]
      },
@@ -54563,43 +54563,43 @@ window.MT_LMS['the-route'] = {
       {
        "h": {
         "en": "Drill 1 · The outcome upgrade",
-        "id": "Latihan 1 · Peningkatan ke hasil"
+        "id": "Latihan 1 · Naikkan ke tingkat hasil"
        },
        "body": {
         "en": "Take a task on your list this week. Write what decision or outcome it serves, one risk that completing it perfectly would still miss, and the one line you will add to close the gap.",
-        "id": "Ambil satu tugas di daftarmu minggu ini. Tulis keputusan atau hasil apa yang dilayaninya, satu risiko yang tetap terlewat meskipun diselesaikan dengan sempurna, dan satu baris yang akan kamu tambahkan untuk menutup celahnya."
+        "id": "Ambil satu tugas di daftarmu minggu ini. Tulis keputusan atau hasil apa yang dilayaninya, satu risiko yang tetap terlewat meski tugasnya dikerjakan dengan sempurna, dan satu baris yang akan kamu tambahkan untuk menutup celah itu."
        },
        "debrief": {
         "en": "If you do not know what the task is for, the first leadership move is to ask.",
-        "id": "Jika kamu tak tahu tugas itu untuk apa, langkah kepemimpinan pertama adalah bertanya."
+        "id": "Kalau kamu tidak tahu tugas itu untuk apa, langkah kepemimpinan pertamamu adalah bertanya."
        }
       },
       {
        "h": {
         "en": "Drill 2 · The third-time problem",
-        "id": "Latihan 2 · Masalah kali ketiga"
+        "id": "Latihan 2 · Masalah yang ketiga kalinya"
        },
        "body": {
-        "en": "Name one problem you have fixed at least three times. Run five whys to a process, find the handover, and propose one change to the default; in an answer-first paragraph to the process owner.",
-        "id": "Sebut satu masalah yang sudah kamu perbaiki setidaknya tiga kali. Jalankan lima mengapa sampai ke proses, temukan titik serah terimanya, dan usulkan satu perubahan bawaan, dalam paragraf berjawaban-dulu untuk pemilik prosesnya."
+        "en": "Name one problem you have fixed at least three times. Run five whys to a process, find the handover, and propose one change to the default, in an answer-first paragraph to the process owner.",
+        "id": "Sebutkan satu masalah yang sudah kamu perbaiki setidaknya tiga kali. Jalankan lima kali kenapa sampai ketemu prosesnya, temukan titik serah terimanya, lalu usulkan satu perubahan pada bawaannya, dalam satu paragraf yang dimulai dari jawabannya untuk pemilik proses."
        },
        "debrief": {
         "en": "Add the cost of the recurring problem in hours or rupiah. Numbers turn a complaint into a proposal.",
-        "id": "Tambahkan biaya masalah berulang itu dalam jam atau rupiah. Angka mengubah keluhan menjadi usulan."
+        "id": "Tambahkan biaya masalah yang berulang itu dalam jam atau rupiah. Angka mengubah keluhan menjadi usulan."
        }
       },
       {
        "h": {
         "en": "Drill 3 · The stewardship review",
-        "id": "Latihan 3 · Tinjauan kepengurusan"
+        "id": "Latihan 3 · Tinjauan tahunan"
        },
        "body": {
-        "en": "Answer the five review questions, direction, evidence, people, systems, next year, for your own Career Kit, then open the readiness diagnostic below and compare it with where you started.",
-        "id": "Jawab lima pertanyaan tinjauan, arah, bukti, orang, sistem, tahun depan, untuk Career Kit-mu sendiri, lalu buka diagnostik kesiapan di bawah dan bandingkan dengan titik awalmu."
+        "en": "Answer the five review questions (direction, evidence, people, systems, next year) for your own Career Kit, then open the readiness diagnostic below and compare it with where you started.",
+        "id": "Jawab lima pertanyaan tinjauan (arah, bukti, orang, sistem, tahun depan) untuk Perangkat Kariermu sendiri, lalu buka diagnostik kesiapan di bawah dan bandingkan dengan titik awalmu."
        },
        "debrief": {
         "en": "Book the next review in your calendar now, a year from today. The Route ends; the habit should not.",
-        "id": "Pesan tinjauan berikutnya di kalendermu sekarang, setahun dari hari ini. The Route berakhir; kebiasaannya jangan."
+        "id": "Jadwalkan tinjauan berikutnya di kalendermu sekarang, setahun dari hari ini. The Route berakhir, kebiasaannya jangan."
        }
       }
      ],
@@ -54608,41 +54608,41 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Staying inside the task",
-         "id": "Tetap di dalam tugas"
+         "id": "Tetap terkurung di dalam tugas"
         },
         "fix": {
          "en": "Ask what it is for; close the loop on the outcome.",
-         "id": "Tanyakan untuk apa; tutup lingkaran pada hasilnya."
+         "id": "Tanyakan untuk apa tugas itu, lalu tuntaskan sampai ke hasilnya."
         }
        },
        {
         "h": {
          "en": "Heroics instead of fixes",
-         "id": "Kepahlawanan alih-alih perbaikan"
+         "id": "Aksi kepahlawanan alih-alih perbaikan"
         },
         "fix": {
          "en": "Third time, fix the system, with a proposal and numbers.",
-         "id": "Kali ketiga, perbaiki sistemnya, dengan usulan dan angka."
+         "id": "Ketiga kalinya, perbaiki sistemnya, dengan usulan dan angka."
         }
        },
        {
         "h": {
          "en": "Treating every decision the same",
-         "id": "Memperlakukan semua keputusan sama"
+         "id": "Memperlakukan semua keputusan dengan cara yang sama"
         },
         "fix": {
          "en": "Two-way doors fast; one-way doors with care.",
-         "id": "Pintu dua arah cepat; pintu satu arah dengan hati-hati."
+         "id": "Pintu dua arah dengan cepat; pintu satu arah dengan hati-hati."
         }
        },
        {
         "h": {
          "en": "A Career Kit that is never reviewed",
-         "id": "Career Kit yang tak pernah ditinjau"
+         "id": "Perangkat Karier yang tidak pernah ditinjau"
         },
         "fix": {
          "en": "A yearly stewardship review, in the calendar.",
-         "id": "Tinjauan kepengurusan tahunan, di kalender."
+         "id": "Tinjauan tahunan, tercatat di kalender."
         }
        }
       ]
@@ -54651,21 +54651,21 @@ window.MT_LMS['the-route'] = {
       {
        "term": {
         "en": "Outcome ownership",
-        "id": "Kepemilikan hasil"
+        "id": "Memiliki hasil"
        },
        "def": {
         "en": "Caring whether the work achieves its purpose, and acting within your role to make that more likely.",
-        "id": "Peduli apakah pekerjaan mencapai tujuannya, dan bertindak dalam peranmu untuk membuatnya lebih mungkin."
+        "id": "Peduli apakah pekerjaan mencapai tujuannya, lalu bertindak di dalam peranmu supaya peluangnya lebih besar."
        }
       },
       {
        "term": {
         "en": "Five whys",
-        "id": "Lima mengapa"
+        "id": "Lima kali kenapa"
        },
        "def": {
         "en": "Asking “why?” repeatedly to reach a process-level cause of a recurring problem.",
-        "id": "Bertanya “mengapa?” berulang kali untuk mencapai penyebab tingkat proses dari masalah berulang."
+        "id": "Bertanya “kenapa?” berulang kali sampai menemukan penyebab di tingkat proses dari masalah yang berulang."
        }
       },
       {
@@ -54674,8 +54674,8 @@ window.MT_LMS['the-route'] = {
         "id": "Pintu satu arah dan dua arah"
        },
        "def": {
-        "en": "Irreversible decisions deserving care versus reversible ones best made quickly, Bezos.",
-        "id": "Keputusan yang tak bisa dibalik dan butuh kehati-hatian versus yang bisa dibalik dan sebaiknya diambil cepat, Bezos."
+        "en": "Irreversible decisions deserving care versus reversible ones best made quickly (Bezos).",
+        "id": "Keputusan yang tidak bisa dibalik dan perlu kehati-hatian, dibandingkan keputusan yang bisa dibalik dan sebaiknya diambil cepat (Bezos)."
        }
       },
       {
@@ -54684,8 +54684,8 @@ window.MT_LMS['the-route'] = {
         "id": "Pre-mortem"
        },
        "def": {
-        "en": "Imagining a plan has failed and listing why, before deciding, Klein.",
-        "id": "Membayangkan rencana sudah gagal dan mendaftar alasannya, sebelum memutuskan, Klein."
+        "en": "Imagining a plan has failed and listing why, before deciding (Klein).",
+        "id": "Membayangkan sebuah rencana sudah gagal dan mendaftar alasannya, sebelum memutuskan (Klein)."
        }
       }
      ],
@@ -54693,7 +54693,7 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "You have fixed the same month-end error for the third time. The leader’s move is…",
-        "id": "Kamu sudah memperbaiki kesalahan akhir bulan yang sama untuk ketiga kalinya. Langkah pemimpin adalah…"
+        "id": "Kamu sudah memperbaiki kesalahan akhir bulan yang sama untuk ketiga kalinya. Langkah seorang pemimpin adalah…"
        },
        "options": [
         {
@@ -54702,27 +54702,27 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Find the process cause and propose a change to the owner",
-         "id": "Menemukan penyebab prosesnya dan mengusulkan perubahan kepada pemiliknya"
+         "id": "Mencari penyebabnya di tingkat proses dan mengusulkan perubahan kepada pemiliknya"
         },
         {
          "en": "Complain to colleagues",
-         "id": "Mengeluh kepada rekan"
+         "id": "Mengeluh kepada rekan kerja"
         },
         {
          "en": "Ignore it",
-         "id": "Mengabaikannya"
+         "id": "Membiarkannya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Third time: fix the system, with a proposal and numbers.",
-        "id": "Kali ketiga: perbaiki sistemnya, dengan usulan dan angka."
+        "id": "Ketiga kalinya: perbaiki sistemnya, dengan usulan dan angka."
        }
       },
       {
        "q": {
         "en": "Changing the format of a weekly internal report is best treated as…",
-        "id": "Mengubah format laporan internal mingguan paling baik diperlakukan sebagai…"
+        "id": "Mengubah format laporan internal mingguan paling tepat diperlakukan sebagai…"
        },
        "options": [
         {
@@ -54731,11 +54731,11 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "A two-way door; decide quickly, adjust if needed",
-         "id": "Pintu dua arah: putuskan cepat, sesuaikan bila perlu"
+         "id": "Pintu dua arah: putuskan dengan cepat, sesuaikan kalau perlu"
         },
         {
          "en": "Something to avoid",
-         "id": "Sesuatu yang harus dihindari"
+         "id": "Sesuatu yang sebaiknya dihindari"
         },
         {
          "en": "A policy exception",
@@ -54745,7 +54745,7 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "Reversible decisions should be made quickly, close to the work.",
-        "id": "Keputusan yang bisa dibalik sebaiknya diambil cepat, dekat dengan pekerjaannya."
+        "id": "Keputusan yang bisa dibalik sebaiknya diambil dengan cepat oleh orang yang dekat dengan pekerjaannya."
        }
       },
       {
@@ -54760,11 +54760,11 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Imagine the plan has failed and write down why",
-         "id": "Membayangkan rencananya gagal dan menuliskan mengapa"
+         "id": "Membayangkan rencananya sudah gagal dan menuliskan kenapa"
         },
         {
          "en": "Blame someone after failure",
-         "id": "Menyalahkan seseorang setelah gagal"
+         "id": "Mencari kambing hitam setelah gagal"
         },
         {
          "en": "Skip the risk review",
@@ -54774,7 +54774,7 @@ window.MT_LMS['the-route'] = {
        "correct": 1,
        "why": {
         "en": "It surfaces risks that optimism and hierarchy hide.",
-        "id": "Ia memunculkan risiko yang disembunyikan optimisme dan hierarki."
+        "id": "Latihan ini memunculkan risiko yang tersembunyi di balik optimisme dan hierarki."
        }
       }
      ],
@@ -54787,7 +54787,7 @@ window.MT_LMS['the-route'] = {
       },
       "body": {
        "en": "Open the readiness diagnostic and complete it again. Compare with your first attempt in Module 1: where have you grown, and which one area is next year’s focus?",
-       "id": "Buka diagnostik kesiapan dan isi lagi. Bandingkan dengan percobaan pertamamu di Modul 1: di mana kamu bertumbuh, dan satu area mana yang menjadi fokus tahun depan?"
+       "id": "Buka diagnostik kesiapan dan isi sekali lagi. Bandingkan dengan percobaan pertamamu di Modul 1: di bagian mana kamu sudah bertumbuh, dan area mana yang menjadi fokus tahun depan?"
       },
       "cta": {
        "en": "Open the readiness diagnostic",
@@ -54796,30 +54796,30 @@ window.MT_LMS['the-route'] = {
      },
      "quote": {
       "en": "Leadership is practised long before it is awarded.",
-      "id": "Kepemimpinan dilatih jauh sebelum dianugerahkan."
+      "id": "Kepemimpinan sudah dilatih jauh sebelum dianugerahkan."
      },
      "takeaways": [
       {
        "en": "Ask what needs to be done and what is right for the organisation; own outcomes, not only tasks, within your role.",
-       "id": "Tanyakan apa yang perlu dilakukan dan apa yang benar bagi organisasi; miliki hasil, bukan hanya tugas, dalam batas peranmu."
+       "id": "Tanyakan apa yang perlu diselesaikan dan apa yang benar untuk organisasi. Miliki hasilnya, bukan hanya tugasnya, di dalam batas peranmu."
       },
       {
        "en": "Fix systems, not symptoms; decide reversible matters fast and irreversible ones carefully, with a pre-mortem.",
-       "id": "Perbaiki sistem, bukan gejala; putuskan hal yang bisa dibalik dengan cepat dan yang tak bisa dibalik dengan hati-hati, dengan pre-mortem."
+       "id": "Perbaiki sistem, bukan gejala. Ambil keputusan yang bisa dibalik dengan cepat dan yang tidak bisa dibalik dengan hati-hati, dengan pre-mortem."
       },
       {
        "en": "Steward your Career Kit with a yearly review: direction, evidence, people, systems, next year.",
-       "id": "Rawat Career Kit-mu dengan tinjauan tahunan: arah, bukti, orang, sistem, tahun depan."
+       "id": "Rawat Perangkat Kariermu dengan tinjauan tahunan: arah, bukti, orang, sistem, tahun depan."
       }
      ],
      "resources": {
       "title": {
        "en": "The leader’s loop and the stewardship review",
-       "id": "Lingkaran pemimpin dan tinjauan kepengurusan"
+       "id": "Siklus pemimpin dan tinjauan tahunan"
       },
       "lead": {
        "en": "Career Kit item (part 4): your leadership mindset reflection.",
-       "id": "Butir Career Kit (bagian 4): refleksi pola pikir kepemimpinanmu."
+       "id": "Perangkat Karier (bagian 4): refleksi pola pikir kepemimpinanmu."
       },
       "items": [
        {
@@ -54830,7 +54830,7 @@ window.MT_LMS['the-route'] = {
         },
         "desc": {
          "en": "Where the ideas come from.",
-         "id": "Dari mana gagasannya berasal."
+         "id": "Asal gagasan-gagasan ini."
         },
         "body": [
          {
@@ -54839,11 +54839,11 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "J. Bezos, Amazon shareholder letters (2015: one-way and two-way doors; 2016: deciding with about 70% of the information); the five whys, associated with the Toyota Production System.",
-          "id": "J. Bezos, surat pemegang saham Amazon (2015: pintu satu arah dan dua arah; 2016: memutuskan dengan sekitar 70% informasi); lima mengapa, dikaitkan dengan Sistem Produksi Toyota."
+          "id": "J. Bezos, surat kepada pemegang saham Amazon (2015: pintu satu arah dan dua arah; 2016: memutuskan dengan sekitar 70% informasi); lima kali kenapa, yang dikaitkan dengan Toyota Production System."
          },
          {
           "en": "<span class=\"ev ev-contested\">Contested</span> The 70% figure is a heuristic; policy-governed decisions such as credit approval require the information the policy specifies. The stewardship review is The Route’s working method.",
-          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Angka 70% adalah patokan kasar; keputusan yang diatur kebijakan seperti persetujuan kredit mensyaratkan informasi yang ditetapkan kebijakannya. Tinjauan kepengurusan adalah metode kerja The Route."
+          "id": "<span class=\"ev ev-contested\">Masih diperdebatkan</span> Angka 70% adalah pegangan kasar. Keputusan yang diatur kebijakan, seperti persetujuan kredit, tetap membutuhkan informasi yang ditetapkan kebijakannya. Tinjauan tahunan adalah metode kerja The Route."
          }
         ]
        },
@@ -54851,20 +54851,20 @@ window.MT_LMS['the-route'] = {
         "kind": "worksheet",
         "title": {
          "en": "Stewardship review",
-         "id": "Tinjauan kepengurusan"
+         "id": "Tinjauan tahunan"
         },
         "desc": {
          "en": "Once a year: book it now.",
-         "id": "Setahun sekali: pesan sekarang."
+         "id": "Sekali setahun. Jadwalkan sekarang."
         },
         "body": [
          {
           "en": "DIRECTION: map still right? … red lines intact? … · EVIDENCE this year: 1 … 2 … 3 … · PEOPLE better because I was there: …",
-          "id": "ARAH: peta masih tepat? … garis merah utuh? … · BUKTI tahun ini: 1 … 2 … 3 … · ORANG yang lebih baik karena aku ada: …"
+          "id": "ARAH: peta masih tepat? … garis merah masih utuh? … · BUKTI tahun ini: 1 … 2 … 3 … · ORANG yang jadi lebih baik karena saya ada di sana: …"
          },
          {
           "en": "SYSTEMS I fixed: … · NEXT YEAR: one capability … one relationship … one decision … · NEXT REVIEW: [date]",
-          "id": "SISTEM yang kuperbaiki: … · TAHUN DEPAN: satu kapabilitas … satu hubungan … satu keputusan … · TINJAUAN BERIKUTNYA: [tanggal]"
+          "id": "SISTEM yang saya perbaiki: … · TAHUN DEPAN: satu kemampuan … satu hubungan … satu keputusan … · TINJAUAN BERIKUTNYA: [tanggal]"
          }
         ]
        },
@@ -54872,7 +54872,7 @@ window.MT_LMS['the-route'] = {
         "kind": "template",
         "title": {
          "en": "Beyond-my-box note and pre-mortem prompt",
-         "id": "Catatan di luar kotak dan pemicu pre-mortem"
+         "id": "Catatan di luar kotak dan pembuka pre-mortem"
         },
         "desc": {
          "en": "Two short scripts.",
@@ -54881,11 +54881,11 @@ window.MT_LMS['the-route'] = {
         "body": [
          {
           "en": "BEYOND MY BOX: “[Bapak/Ibu], ini di luar tugas saya, tapi saya perhatikan [pola + angka]. Usulan: [perubahan kecil]. Kalau berkenan, saya bisa [bantuan konkret].”",
-          "id": "DI LUAR KOTAK: “[Bapak/Ibu], ini di luar tugas saya, tapi saya perhatikan [pola + angka]. Usulan: [perubahan kecil]. Kalau berkenan, saya bisa [bantuan konkret].”"
+          "id": "DI LUAR KOTAK SAYA: “[Bapak/Ibu], ini di luar tugas saya, tapi saya perhatikan [pola + angka]. Usulan: [perubahan kecil]. Kalau berkenan, saya bisa [bantuan konkret].”"
          },
          {
-          "en": "PRE-MORTEM: “Bayangkan [waktu] dari sekarang, dan [rencana] dianggap gagal. Tulis tiga alasan kenapa; anonim. Lalu kita pilih dua yang paling mungkin dan cegah sekarang.”",
-          "id": "PRE-MORTEM: “Bayangkan [waktu] dari sekarang, dan [rencana] dianggap gagal. Tulis tiga alasan kenapa; anonim. Lalu kita pilih dua yang paling mungkin dan cegah sekarang.”"
+          "en": "PRE-MORTEM: “Bayangkan [waktu] dari sekarang, dan [rencana] dianggap gagal. Tulis tiga alasan kenapa, anonim. Lalu kita pilih dua yang paling mungkin dan cegah sekarang.”",
+          "id": "PRE-MORTEM: “Bayangkan [waktu] dari sekarang, dan [rencana] dianggap gagal. Tulis tiga alasan kenapa, anonim. Lalu kita pilih dua yang paling mungkin dan cegah sekarang.”"
          }
         ]
        }
@@ -54898,32 +54898,32 @@ window.MT_LMS['the-route'] = {
      "placeholder": false,
      "dur": {
       "en": "60 min",
-      "id": "60 mnt"
+      "id": "60 menit"
      },
      "title": {
       "en": "Case Assignment: Nadia’s First Team",
-      "id": "Tugas Kasus: Tim Pertama Nadia"
+      "id": "Studi Kasus: Tim Pertama Nadia"
      },
      "overview": {
-      "en": "Bu Indah asks Nadia to lead a three-person squad for eight weeks to prepare the SME product’s launch in a third region. It is her first time leading people, and the first week brings everything at once: a rollout at risk and an eight-minute briefing to Pak Arya on Tuesday; a junior who says “siap” and then misses deadlines; a data analyst fixing the same problem every night; a compliment in a meeting for work that was mostly someone else’s; a dashboard error that was hers; and a regional sales head who wants to “just launch” for the quarter. In this capstone you bring Module 9, and the whole Route, to bear, and then build your own Leadership Presence Portfolio.",
-      "id": "Bu Indah meminta Nadia memimpin skuad tiga orang selama delapan minggu untuk menyiapkan peluncuran produk UMKM di wilayah ketiga. Ini pertama kalinya ia memimpin orang, dan minggu pertama membawa segalanya sekaligus: peluncuran yang berisiko dan paparan delapan menit kepada Pak Arya hari Selasa; junior yang berkata “siap” lalu melewatkan tenggat; analis data yang memperbaiki masalah yang sama setiap malam; pujian di rapat untuk pekerjaan yang sebagian besar milik orang lain; kesalahan dasbor yang berasal darinya; dan kepala penjualan wilayah yang ingin “langsung luncurkan saja” demi kuartal ini. Dalam kasus puncak ini kamu mengerahkan Modul 9, dan seluruh The Route, lalu membangun Portofolio Kehadiran Kepemimpinanmu sendiri."
+      "en": "Bu Indah asks Nadia to lead a three-person squad for eight weeks to prepare the SME product’s launch in a third region. It is her first time leading people, and the first week brings everything at once: a rollout at risk and an eight-minute briefing to Pak Arya on Tuesday; a junior who says “siap” and then misses deadlines; a data analyst fixing the same problem every night; a compliment in a meeting for work that was mostly someone else’s; a dashboard error that was hers; and a regional sales head who wants to “just launch” for the quarter. In this capstone you bring Module 9 (and the whole Route) to bear, then build your own Leadership Presence Portfolio.",
+      "id": "Bu Indah meminta Nadia memimpin skuad tiga orang selama delapan minggu untuk menyiapkan peluncuran produk UMKM di wilayah ketiga. Ini pertama kalinya Nadia memimpin orang, dan minggu pertama datang dengan semuanya sekaligus. Ada peluncuran yang terancam dan paparan delapan menit untuk Pak Arya hari Selasa. Ada junior yang menjawab “siap” lalu melewatkan tenggat. Ada analis data yang memperbaiki masalah yang sama setiap malam. Ada pujian di rapat untuk pekerjaan yang sebagian besar dikerjakan orang lain, kesalahan dasbor yang memang kesalahan Nadia, dan kepala penjualan wilayah yang ingin “langsung luncurkan saja” demi target kuartal. Di studi kasus penutup ini, kamu memakai Modul 9, juga seluruh The Route, lalu menyusun Portofolio Kehadiran Kepemimpinanmu sendiri."
      },
      "objectives": [
       {
        "en": "Brief a senior leader answer-first and handle challenge with composure.",
-       "id": "Memaparkan kepada pemimpin senior dengan jawaban dulu dan menghadapi tantangan dengan tenang."
+       "id": "Memberi paparan kepada pimpinan senior dengan jawaban lebih dulu, dan tetap tenang saat ditantang."
       },
       {
        "en": "Develop two different team members with teaching, delegation and coaching.",
-       "id": "Mengembangkan dua anggota tim yang berbeda dengan mengajar, mendelegasikan, dan coaching."
+       "id": "Mengembangkan dua anggota tim yang berbeda lewat cara mengajar, delegasi, dan coaching."
       },
       {
        "en": "Handle credit, a mistake and pressure in ways that build followership.",
-       "id": "Menangani kredit, kesalahan, dan tekanan dengan cara yang membangun kepengikutan."
+       "id": "Menyikapi pujian, kesalahan, dan tekanan dengan cara yang membuat orang mau mengikutimu."
       },
       {
        "en": "Think like a leader: pre-mortem, systems fix, decision types, stewardship.",
-       "id": "Berpikir seperti pemimpin: pre-mortem, perbaikan sistem, jenis keputusan, kepengurusan."
+       "id": "Berpikir seperti pemimpin: pre-mortem, perbaikan sistem, jenis keputusan, dan tinjauan tahunan."
       }
      ],
      "readFirst": {
@@ -54937,17 +54937,17 @@ window.MT_LMS['the-route'] = {
         "n": "9.5",
         "title": {
          "en": "Case Assignment: Nadia’s First Team",
-         "id": "Tugas Kasus: Tim Pertama Nadia"
+         "id": "Studi Kasus: Tim Pertama Nadia"
         }
        },
        "story": [
         {
          "en": "Read like her sponsor: what would make Pak Arya and Bu Indah trust her with more?",
-         "id": "Baca seperti sponsornya: apa yang akan membuat Pak Arya dan Bu Indah memercayainya dengan lebih?"
+         "id": "Baca seperti sponsornya: apa yang akan membuat Pak Arya dan Bu Indah percaya memberinya tanggung jawab lebih besar?"
         },
         {
          "en": "Then build your own Leadership Presence Portfolio, the ninth and final Career Kit item",
-         "id": "Lalu bangun Portofolio Kehadiran Kepemimpinanmu sendiri, butir Career Kit kesembilan dan terakhir"
+         "id": "Lalu susun Portofolio Kehadiran Kepemimpinanmu sendiri, isi kesembilan sekaligus terakhir Perangkat Karier"
         }
        ],
        "takes": [
@@ -54958,17 +54958,17 @@ window.MT_LMS['the-route'] = {
          },
          "p": {
           "en": "The first week of a first team sets what the team learns is safe; it is read by the people above as closely as by the people below.",
-          "id": "Minggu pertama tim pertama menetapkan apa yang dipelajari tim sebagai aman; ia dibaca oleh orang di atas sama cermatnya dengan orang di bawah."
+          "id": "Minggu pertama bersama tim pertama menentukan apa yang menurut tim aman dilakukan. Orang-orang di atas membacanya sama teliti dengan orang-orang di bawah."
          }
         },
         {
          "h": {
           "en": "Then build your own",
-          "id": "Lalu bangun milikmu"
+          "id": "Lalu susun milikmu sendiri"
          },
          "p": {
           "en": "Compare, do not copy: Nadia’s first team is hers; the portfolio is evidence of yours.",
-          "id": "Bandingkan, jangan salin: tim pertama Nadia milik dia; portofolio adalah bukti milikmu."
+          "id": "Bandingkan, jangan menyalin. Tim pertama itu milik Nadia; portofolio ini adalah bukti milikmu."
          }
         }
        ],
@@ -54977,7 +54977,7 @@ window.MT_LMS['the-route'] = {
          "kind": "body",
          "t": {
           "en": "Read like her sponsor: what would make Pak Arya and Bu Indah trust her with more?",
-          "id": "Baca seperti sponsornya: apa yang akan membuat Pak Arya dan Bu Indah memercayainya dengan lebih?"
+          "id": "Baca seperti sponsornya: apa yang akan membuat Pak Arya dan Bu Indah percaya memberinya tanggung jawab lebih besar?"
          },
          "img": "../../assets/pe/ed-board.jpg",
          "layout": "list",
@@ -54985,16 +54985,16 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "eye",
            "en": "Every event this week is a sampled moment",
-           "id": "Setiap peristiwa minggu ini adalah momen tersampel",
+           "id": "Setiap peristiwa minggu ini adalah momen yang terekam",
            "l": {
             "en": "The week",
-            "id": "Minggunya"
+            "id": "Minggu ini"
            }
           },
           {
            "icon": "flag",
            "en": "Answer first at altitude; the monkey stays with the team; credit down, blame up",
-           "id": "Jawaban dulu di ketinggian; monyet tetap di tim; kredit ke bawah, kesalahan ke atas",
+           "id": "Jawaban lebih dulu di ketinggian yang tepat; monyetnya tetap di tangan tim; pujian ke bawah, tanggung jawab ke atas",
            "l": {
             "en": "The moves",
             "id": "Langkah-langkahnya"
@@ -55003,31 +55003,31 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "layers",
            "en": "Expect to use ideas from earlier modules as well as Module 9",
-           "id": "Bersiaplah memakai gagasan dari modul sebelumnya sekaligus Modul 9",
+           "id": "Bersiaplah memakai gagasan dari modul-modul sebelumnya, bukan hanya Modul 9",
            "l": {
             "en": "The kit",
-            "id": "Kit-nya"
+            "id": "Perangkatnya"
            }
           }
          ],
          "sub": {
           "en": "Four tabs: the rollout data, the team, the week’s events and messages, and Nadia’s notes. This is the capstone of The Route.",
-          "id": "Empat tab: data peluncuran, tim, peristiwa dan pesan minggu itu, dan catatan Nadia. Ini adalah puncak The Route."
+          "id": "Empat tab: data peluncuran, timnya, peristiwa dan pesan minggu ini, dan catatan Nadia. Ini studi kasus penutup The Route."
          },
          "band": {
           "en": "The first week of a first team sets what the team learns is safe; it is read by the people above as closely as by the people below.",
-          "id": "Minggu pertama tim pertama menetapkan apa yang dipelajari tim sebagai aman; ia dibaca oleh orang di atas sama cermatnya dengan orang di bawah."
+          "id": "Minggu pertama bersama tim pertama menentukan apa yang menurut tim aman dilakukan. Orang-orang di atas membacanya sama teliti dengan orang-orang di bawah."
          },
          "em": {
           "en": "trust her with more",
-          "id": "memercayainya dengan lebih"
+          "id": "percaya memberinya tanggung jawab lebih besar"
          }
         },
         {
          "kind": "body",
          "t": {
           "en": "Then build your own Leadership Presence Portfolio, the ninth and final Career Kit item",
-          "id": "Lalu bangun Portofolio Kehadiran Kepemimpinanmu sendiri, butir Career Kit kesembilan dan terakhir"
+          "id": "Lalu susun Portofolio Kehadiran Kepemimpinanmu sendiri, isi kesembilan sekaligus terakhir Perangkat Karier"
          },
          "img": "../../assets/m/05-summit.jpg",
          "layout": "list",
@@ -55035,7 +55035,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "mic",
            "en": "One answer-first brief at the right altitude, and one composed response to a challenge",
-           "id": "Satu ringkasan jawaban-dulu di ketinggian yang tepat, dan satu respons tenang terhadap tantangan",
+           "id": "Satu paparan dengan jawaban lebih dulu di ketinggian yang tepat, dan satu respons tenang saat ditantang",
            "l": {
             "en": "Presence",
             "id": "Kehadiran"
@@ -55044,16 +55044,16 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "users",
            "en": "One skill taught so it stuck, one delegation with its level named, one GROW conversation",
-           "id": "Satu keterampilan yang diajarkan hingga melekat, satu delegasi dengan levelnya disebut, satu percakapan GROW",
+           "id": "Satu keterampilan yang diajarkan sampai melekat, satu delegasi dengan tingkat yang disebutkan, satu percakapan GROW",
            "l": {
             "en": "Developing others",
-            "id": "Mengembangkan orang"
+            "id": "Mengembangkan orang lain"
            }
           },
           {
            "icon": "award",
            "en": "The trust equation, the three positions, credit and blame, your lines",
-           "id": "Persamaan kepercayaan, tiga posisi, kredit dan kesalahan, garis-garismu",
+           "id": "Persamaan kepercayaan, tiga posisi, pujian dan kesalahan, garis-garismu",
            "l": {
             "en": "Reputation",
             "id": "Reputasi"
@@ -55062,7 +55062,7 @@ window.MT_LMS['the-route'] = {
           {
            "icon": "compass",
            "en": "Task to outcome, symptom to system, the doors, and the stewardship review in the calendar",
-           "id": "Tugas ke hasil, gejala ke sistem, pintu-pintu, dan tinjauan kepengurusan di kalender",
+           "id": "Dari tugas ke hasil, dari gejala ke sistem, jenis pintu, dan tinjauan tahunan di kalender",
            "l": {
             "en": "The shifts",
             "id": "Pergeserannya"
@@ -55071,15 +55071,15 @@ window.MT_LMS['the-route'] = {
          ],
          "sub": {
           "en": "Step 5 is your own portfolio. Model notes open after you submit.",
-          "id": "Langkah 5 adalah portofoliomu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+          "id": "Langkah 5 adalah portofoliomu sendiri. Catatan model terbuka setelah kamu mengirim jawaban."
          },
          "band": {
           "en": "Compare, do not copy: Nadia’s first team is hers; the portfolio is evidence of yours.",
-          "id": "Bandingkan, jangan salin: tim pertama Nadia milik dia; portofolio adalah bukti milikmu."
+          "id": "Bandingkan, jangan menyalin. Tim pertama itu milik Nadia; portofolio ini adalah bukti milikmu."
          },
          "em": {
           "en": "the ninth and final Career Kit item",
-          "id": "butir Career Kit kesembilan dan terakhir"
+          "id": "isi kesembilan sekaligus terakhir"
          }
         }
        ],
@@ -55090,15 +55090,15 @@ window.MT_LMS['the-route'] = {
       },
       "kicker": {
        "en": "Read first · how this case works",
-       "id": "Baca dulu · cara kerja kasus ini"
+       "id": "Baca dulu · cara kerja studi kasus ini"
       },
       "title": {
        "en": "The first week of a first team",
-       "id": "Minggu pertama tim pertama"
+       "id": "Minggu pertama bersama tim pertama"
       },
       "intro": {
        "en": "Five steps, six written answers. The case file has four tabs: the rollout data, the team, the week’s events and messages, and Nadia’s notes. This is the capstone of The Route: expect to use ideas from earlier modules as well as Module 9.",
-       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: data peluncuran, timnya, peristiwa dan pesan minggu ini, dan catatan Nadia. Ini puncak The Route: bersiaplah memakai gagasan dari modul-modul sebelumnya selain Modul 9."
+       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: data peluncuran, timnya, peristiwa dan pesan minggu ini, dan catatan Nadia. Ini studi kasus penutup The Route, jadi bersiaplah memakai gagasan dari modul-modul sebelumnya, bukan hanya Modul 9."
       },
       "slides": [
        {
@@ -55109,23 +55109,23 @@ window.MT_LMS['the-route'] = {
         "points": [
          {
           "en": "What would make Pak Arya and Bu Indah trust her with more?",
-          "id": "Apa yang membuat Pak Arya dan Bu Indah memercayainya dengan lebih?"
+          "id": "Apa yang akan membuat Pak Arya dan Bu Indah percaya memberinya tanggung jawab lebih besar?"
          },
          {
           "en": "Every event this week is a sampled moment.",
-          "id": "Setiap peristiwa minggu ini adalah momen tersampel."
+          "id": "Setiap peristiwa minggu ini adalah momen yang terekam."
          }
         ]
        },
        {
         "h": {
          "en": "Then build your own",
-         "id": "Lalu bangun milikmu"
+         "id": "Lalu susun milikmu sendiri"
         },
         "points": [
          {
           "en": "Step 5 is your own Leadership Presence Portfolio, the ninth and final Career Kit item.",
-          "id": "Langkah 5 adalah Portofolio Kehadiran Kepemimpinanmu sendiri, butir Career Kit kesembilan dan terakhir."
+          "id": "Langkah 5 adalah Portofolio Kehadiran Kepemimpinanmu sendiri, isi kesembilan sekaligus terakhir Perangkat Karier."
          }
         ]
        }
@@ -55136,7 +55136,7 @@ window.MT_LMS['the-route'] = {
       "idPrefix": "RT9",
       "kicker": {
        "en": "Case assignment · Capstone",
-       "id": "Tugas kasus · Puncak"
+       "id": "Studi kasus · Penutup"
       },
       "title": {
        "en": "Nadia’s First Team",
@@ -55144,12 +55144,12 @@ window.MT_LMS['the-route'] = {
       },
       "lead": {
        "en": "A fictional bank, a real kind of first week. Lead without a title upgrade, on evidence, fairness and composure.",
-       "id": "Bank fiktif, jenis minggu pertama yang nyata. Memimpin tanpa kenaikan jabatan, dengan bukti, keadilan, dan ketenangan."
+       "id": "Banknya fiktif, tetapi minggu pertama seperti ini nyata. Memimpin tanpa kenaikan jabatan, bermodal bukti, sikap adil, dan ketenangan."
       },
       "practice": [
        {
         "en": "The executive briefing",
-        "id": "Paparan eksekutif"
+        "id": "Paparan untuk eksekutif"
        },
        {
         "en": "Developing the team",
@@ -55157,7 +55157,7 @@ window.MT_LMS['the-route'] = {
        },
        {
         "en": "Credit, mistake, pressure",
-        "id": "Kredit, kesalahan, tekanan"
+        "id": "Pujian, kesalahan, tekanan"
        },
        {
         "en": "Thinking like a leader",
@@ -55170,7 +55170,7 @@ window.MT_LMS['the-route'] = {
       ],
       "goal": {
        "en": "A week Nadia could be proud of in a year’s time, and your own Leadership Presence Portfolio.",
-       "id": "Minggu yang bisa dibanggakan Nadia setahun lagi, dan Portofolio Kehadiran Kepemimpinanmu sendiri."
+       "id": "Satu minggu yang setahun lagi masih bisa dibanggakan Nadia, dan Portofolio Kehadiran Kepemimpinanmu sendiri."
       },
       "brief": {
        "email": {
@@ -55188,21 +55188,21 @@ window.MT_LMS['the-route'] = {
          "id": "Senin, 07.45"
         },
         "subject": {
-         "en": "Region 3 squad: you lead it; briefing to Pak Arya Tuesday",
-         "id": "Skuad Wilayah 3: kamu yang memimpin; paparan ke Pak Arya hari Selasa"
+         "en": "Region 3 squad: briefing to Pak Arya Tuesday",
+         "id": "Skuad Wilayah 3: paparan untuk Pak Arya hari Selasa"
         },
         "paragraphs": [
          {
-          "en": "Nadia, I would like you to lead the squad preparing the Region 3 launch for the next eight weeks: Putri, Raka from Mas Fajar’s data team, and Laras from product. You report to me; the title stays the same, but I want to see how you lead.",
-          "id": "Nadia, saya ingin kamu memimpin skuad yang menyiapkan peluncuran Wilayah 3 selama delapan minggu ke depan: Putri, Raka dari tim data Mas Fajar, dan Laras dari produk. Kamu melapor kepada saya; jabatannya tetap, tetapi saya ingin melihat caramu memimpin."
+          "en": "Nadia, thank you for a full first week leading the squad preparing the Region 3 launch (Putri, Raka from Mas Fajar’s data team, and Laras from product). Seven weeks to go. You report to me; the title stays the same, but I want to see how you lead.",
+          "id": "Nadia, terima kasih untuk minggu pertamamu memimpin skuad yang menyiapkan peluncuran Wilayah 3 (Putri, Raka dari tim data Mas Fajar, dan Laras dari tim produk). Masih ada tujuh minggu lagi. Kamu melapor kepada saya. Jabatanmu tetap sama, tetapi saya ingin melihat caramu memimpin."
          },
          {
           "en": "Pak Arya wants a decision on the launch date at Tuesday’s leadership call. You have eight minutes. The readiness data is not good, and the Region 3 sales head is pushing hard for the original date. Bring me your recommendation by Monday evening.",
-          "id": "Pak Arya ingin keputusan tentang tanggal peluncuran di rapat pimpinan hari Selasa. Kamu punya delapan menit. Data kesiapannya kurang baik, dan kepala penjualan Wilayah 3 menekan keras untuk tanggal semula. Kirim rekomendasimu kepada saya paling lambat Senin sore."
+          "id": "Pak Arya ingin ada keputusan soal tanggal peluncuran di rapat pimpinan hari Selasa. Waktumu delapan menit. Data kesiapannya kurang bagus, dan kepala penjualan Wilayah 3 terus mendesak agar tanggal semula dipertahankan. Kirim rekomendasimu ke saya paling lambat Senin sore."
          },
          {
-          "en": "I have copied your coach from the programme; please help her think it through. Then build your own portfolio; it closes The Route.",
-          "id": "Saya menembuskan coach-nya dari program; tolong bantu ia memikirkannya. Lalu bangun portofoliomu sendiri; itu menutup The Route."
+          "en": "I have copied your coach from the programme. Coach: please help Nadia think it through, then build your own portfolio; it closes The Route.",
+          "id": "Saya sertakan coach-mu dari program dalam email ini. Untuk coach: tolong bantu Nadia memikirkannya, lalu susun portofoliomu sendiri, yang menjadi penutup The Route."
          }
         ],
         "asks": [
@@ -55212,11 +55212,11 @@ window.MT_LMS['the-route'] = {
          },
          {
           "en": "A development plan for Putri and for Raka",
-          "id": "Rencana pengembangan untuk Putri dan Raka"
+          "id": "Rencana pengembangan untuk Putri dan untuk Raka"
          },
          {
           "en": "Credit, the dashboard error and the sales head",
-          "id": "Kredit, kesalahan dasbor, dan kepala penjualan"
+          "id": "Pujian, kesalahan dasbor, dan kepala penjualan"
          },
          {
           "en": "Pre-mortem, a systems fix, decision types",
@@ -55243,7 +55243,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "on Tuesday’s leadership call for a launch-date decision",
-          "id": "di rapat pimpinan Selasa untuk keputusan tanggal peluncuran"
+          "id": "di rapat pimpinan hari Selasa untuk memutuskan tanggal peluncuran"
          },
          "hot": true
         },
@@ -55255,7 +55255,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "of Region 3 branch officers trained on the new score so far (target before launch: 90%)",
-          "id": "petugas cabang Wilayah 3 yang sudah dilatih skor baru sejauh ini (target sebelum peluncuran: 90%)"
+          "id": "petugas cabang Wilayah 3 yang sejauh ini sudah dilatih membaca skor baru (target sebelum peluncuran: 90%)"
          },
          "hot": true
         },
@@ -55267,7 +55267,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "the training unit needs to reach 90%",
-          "id": "yang dibutuhkan unit pelatihan untuk mencapai 90%"
+          "id": "waktu yang dibutuhkan unit pelatihan untuk mencapai 90%"
          }
         },
         {
@@ -55289,7 +55289,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "Nadia approved a branch dashboard with the wrong denominator; it went to 40 branches on Friday",
-          "id": "Nadia menyetujui dasbor cabang dengan penyebut yang salah; terkirim ke 40 cabang hari Jumat"
+          "id": "Nadia menyetujui dasbor cabang dengan penyebut yang salah, dan dasbor itu terkirim ke 40 cabang hari Jumat"
          },
          "hot": true
         },
@@ -55301,7 +55301,7 @@ window.MT_LMS['the-route'] = {
          },
          "v": {
           "en": "the Region 3 sales head wants the original date to count new loans this quarter",
-          "id": "kepala penjualan Wilayah 3 ingin tanggal semula agar kredit baru terhitung kuartal ini"
+          "id": "kepala penjualan Wilayah 3 ingin tanggal semula supaya kredit baru terhitung di kuartal ini"
          }
         }
        ],
@@ -55324,11 +55324,11 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "Original launch: in 2 weeks · model validated · systems ready",
-             "id": "Peluncuran semula: 2 minggu lagi · model tervalidasi · sistem siap"
+             "id": "Jadwal peluncuran semula: 2 minggu lagi · model sudah divalidasi · sistem siap"
             },
             {
              "en": "Branch officers trained: 41% (Regions 1 and 2 launched at 92% and 95%)",
-             "id": "Petugas cabang terlatih: 41% (Wilayah 1 dan 2 diluncurkan pada 92% dan 95%)"
+             "id": "Petugas cabang yang sudah dilatih: 41% (Wilayah 1 dan 2 diluncurkan saat angkanya 92% dan 95%)"
             },
             {
              "en": "In Region 1’s first month, before training was complete in two areas, about a third of “medium” scores were rejected without review (see Lesson 9.4)",
@@ -55336,7 +55336,7 @@ window.MT_LMS['the-route'] = {
             },
             {
              "en": "Options: A, launch on the original date · B, delay 3 weeks until training reaches 90% · C, launch on the original date in the 60% of branches that will be trained by then, the rest 3 weeks later, with manual review of all “medium” scores in the first month",
-             "id": "Opsi: A, luncurkan di tanggal semula · B, tunda 3 minggu sampai pelatihan mencapai 90% · C, luncurkan di tanggal semula di 60% cabang yang sudah terlatih saat itu, sisanya 3 minggu kemudian, dengan tinjauan manual semua skor “sedang” di bulan pertama"
+             "id": "Pilihan: A, luncurkan sesuai tanggal semula · B, tunda 3 minggu sampai pelatihan mencapai 90% · C, luncurkan sesuai tanggal semula di 60% cabang yang sudah terlatih pada saat itu, sisanya 3 minggu kemudian, dengan tinjauan manual untuk semua skor “sedang” di bulan pertama"
             },
             {
              "en": "Estimated new loans in the first 3 weeks: A about 180 · B 0 · C about 110",
@@ -55364,15 +55364,15 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "Putri: eight months in the unit; bright, careful, quiet. Said “siap, Kak” to two tasks this week and delivered both a day late; the second had the same error as the first. Has never asked a question in a squad meeting.",
-             "id": "Putri: delapan bulan di unit; cerdas, teliti, pendiam. Berkata “siap, Kak” untuk dua tugas minggu ini dan menyerahkan keduanya terlambat sehari; yang kedua punya kesalahan yang sama dengan yang pertama. Belum pernah bertanya di rapat skuad."
+             "id": "Putri: delapan bulan di unit ini; cerdas, teliti, pendiam. Minggu ini ia menjawab “siap, Kak” untuk dua tugas, dan keduanya terlambat sehari. Tugas kedua memuat kesalahan yang sama dengan tugas pertama. Ia belum pernah bertanya di rapat skuad."
             },
             {
              "en": "Raka: strong data analyst on loan from Mas Fajar. Stays until 22.00 most nights reformatting branch data files that arrive in three different layouts. Says “nggak apa-apa, sudah biasa”.",
-             "id": "Raka: analis data yang kuat, dipinjamkan dari Mas Fajar. Bertahan sampai 22.00 hampir setiap malam memformat ulang berkas data cabang yang datang dalam tiga tata letak berbeda. Berkata “nggak apa-apa, sudah biasa”."
+             "id": "Raka: analis data andal yang dipinjamkan Mas Fajar. Hampir setiap malam ia bertahan sampai pukul 22.00 untuk merapikan berkas data cabang yang datang dalam tiga format berbeda. Katanya, “nggak apa-apa, sudah biasa”."
             },
             {
              "en": "Laras: product associate, confident, ready for more responsibility; has asked to own the branch-communication plan.",
-             "id": "Laras: associate produk, percaya diri, siap untuk tanggung jawab lebih; sudah meminta untuk memegang rencana komunikasi cabang."
+             "id": "Laras: associate produk, percaya diri, siap memegang tanggung jawab lebih besar. Ia sudah meminta untuk memegang rencana komunikasi ke cabang."
             }
            ]
           }
@@ -55396,11 +55396,11 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "Wednesday’s product meeting: Bu Indah said, “Analisis pola cabang dari Nadia bagus sekali.” The analysis was Raka’s; Nadia had reviewed it. Raka was not in the meeting. Nadia said nothing at the time.",
-             "id": "Rapat produk Rabu: Bu Indah berkata, “Analisis pola cabang dari Nadia bagus sekali.” Analisis itu milik Raka; Nadia yang meninjaunya. Raka tidak hadir di rapat. Nadia tidak berkata apa-apa saat itu."
+             "id": "Rapat produk hari Rabu: Bu Indah berkata, “Analisis pola cabang dari Nadia bagus sekali.” Analisis itu buatan Raka, dan Nadia hanya meninjaunya. Raka tidak ikut rapat. Saat itu Nadia diam saja."
             },
             {
              "en": "Friday: the branch dashboard Nadia approved went to 40 branches. On Monday morning Laras noticed the approval rate used all applications as the denominator instead of scored applications, making rates look about 12 points lower.",
-             "id": "Jumat: dasbor cabang yang disetujui Nadia terkirim ke 40 cabang. Senin pagi Laras menyadari tingkat persetujuan memakai semua aplikasi sebagai penyebut, bukan aplikasi yang sudah diskor, sehingga tingkatnya tampak sekitar 12 poin lebih rendah."
+             "id": "Jumat: dasbor cabang yang disetujui Nadia terkirim ke 40 cabang. Senin pagi, Laras menyadari bahwa tingkat persetujuan dihitung dengan semua aplikasi sebagai penyebut, bukan aplikasi yang sudah diskor, sehingga angkanya tampak sekitar 12 poin lebih rendah."
             }
            ]
           },
@@ -55438,7 +55438,7 @@ window.MT_LMS['the-route'] = {
            "items": [
             {
              "en": "“If I recommend a delay, Pak Gunawan will say I am blocking the business. If I don’t, we repeat Region 1.”",
-             "id": "“Kalau aku merekomendasikan penundaan, Pak Gunawan akan bilang aku menghambat bisnis. Kalau tidak, kita mengulang Wilayah 1.”"
+             "id": "“Kalau aku merekomendasikan penundaan, Pak Gunawan akan bilang aku menghambat bisnis. Kalau tidak, kita mengulang kejadian Wilayah 1.”"
             },
             {
              "en": "“Pak Arya always asks: ‘Kenapa tidak opsi A saja, dengan risiko yang dikelola?’”",
@@ -55446,7 +55446,7 @@ window.MT_LMS['the-route'] = {
             },
             {
              "en": "“I am tempted to just fix Putri’s work myself and do Raka’s formatting on Saturday so everyone can breathe.”",
-             "id": "“Aku tergoda memperbaiki pekerjaan Putri sendiri dan mengerjakan format Raka hari Sabtu supaya semua bisa bernapas.”"
+             "id": "“Rasanya ingin kuperbaiki sendiri saja pekerjaan Putri, dan kukerjakan perapian data Raka hari Sabtu, supaya semua orang bisa bernapas.”"
             }
            ]
           }
@@ -55458,7 +55458,7 @@ window.MT_LMS['the-route'] = {
        {
         "title": {
          "en": "The executive briefing",
-         "id": "Paparan eksekutif"
+         "id": "Paparan untuk eksekutif"
         },
         "short": {
          "en": "Briefing",
@@ -55466,7 +55466,7 @@ window.MT_LMS['the-route'] = {
         },
         "guide": {
          "en": "Lesson 9.1. Write the opening of Nadia’s eight-minute briefing answer-first: the point, three reasons, the risk and the ask. Choose the altitude and the one or two numbers that carry the decision. Then answer two challenges with pause–acknowledge–answer–bridge: Pak Arya’s “Kenapa tidak opsi A saja?” and Pak Gunawan’s “Pelatihan bisa sambil jalan.”",
-         "id": "Pelajaran 9.1. Tulis pembuka paparan delapan menit Nadia dengan jawaban dulu: intinya, tiga alasan, risiko, dan permintaan. Pilih ketinggiannya dan satu atau dua angka yang membawa keputusan. Lalu jawab dua tantangan dengan jeda–akui–jawab–jembatani: “Kenapa tidak opsi A saja?” dari Pak Arya dan “Pelatihan bisa sambil jalan” dari Pak Gunawan."
+         "id": "Pelajaran 9.1. Tulis pembuka paparan delapan menit Nadia dengan jawaban lebih dulu: intinya, tiga alasan, risikonya, dan permintaannya. Pilih ketinggian yang tepat serta satu atau dua angka yang menentukan keputusan. Lalu jawab dua tantangan dengan jeda, akui, jawab, kembalikan: pertanyaan Pak Arya, “Kenapa tidak opsi A saja?”, dan pernyataan Pak Gunawan, “Pelatihan bisa sambil jalan.”"
         },
         "questions": [
          {
@@ -55475,15 +55475,15 @@ window.MT_LMS['the-route'] = {
           "rows": 13,
           "title": {
            "en": "Answer-first opening, numbers, and two challenges",
-           "id": "Pembuka jawaban-dulu, angka, dan dua tantangan"
+           "id": "Pembuka dengan jawaban lebih dulu, angka, dan dua tantangan"
           },
           "help": {
            "en": "Option C balances the quarter and the Region 1 lesson; B is safest; A repeats the risk. Whichever you choose, the reasons must come from the data. Two numbers probably carry it: 41% trained versus 90%, and the Region 1 pattern.",
-           "id": "Opsi C menyeimbangkan kuartal dan pelajaran Wilayah 1; B paling aman; A mengulang risikonya. Apa pun pilihanmu, alasannya harus berasal dari data. Dua angka kemungkinan membawanya: 41% terlatih versus 90%, dan pola Wilayah 1."
+           "id": "Opsi C menyeimbangkan target kuartal dengan pelajaran dari Wilayah 1. Opsi B paling aman. Opsi A mengulang risikonya. Apa pun pilihanmu, alasannya harus berasal dari data. Kemungkinan besar dua angka yang menentukan: 41% terlatih dibanding target 90%, dan pola di Wilayah 1."
           },
           "placeholder": {
            "en": "Point: “…”\nReasons: 1 … 2 … 3 …\nRisk: … · Ask: “…”\nNumbers I will use: …\nPak Arya, pause / acknowledge “…” / answer “…” / bridge “…”\nPak Gunawan, …",
-           "id": "Inti: “…”\nAlasan: 1 … 2 … 3 …\nRisiko: … · Permintaan: “…”\nAngka yang kupakai: …\nPak Arya, jeda / akui “…” / jawab “…” / jembatani “…”\nPak Gunawan, …"
+           "id": "Inti: “…”\nAlasan: 1 … 2 … 3 …\nRisiko: … · Permintaan: “…”\nAngka yang kupakai: …\nPak Arya: jeda / akui “…” / jawab “…” / kembalikan “…”\nPak Gunawan: …"
           },
           "keywords": [
            [
@@ -55542,7 +55542,7 @@ window.MT_LMS['the-route'] = {
         },
         "guide": {
          "en": "Lesson 9.2. Write a development plan for Putri: what is really happening (think about “siap” in a hierarchical setting), how you will teach the skill she is missing, the delegation level for her next task, and one GROW conversation. Then Raka: the systems problem behind his late nights, what you will change, and what you will not do on Saturday. Finally, one line on Laras.",
-         "id": "Pelajaran 9.2. Tulis rencana pengembangan untuk Putri: apa yang sebenarnya terjadi (pikirkan “siap” dalam lingkungan hierarkis), bagaimana kamu mengajarkan keterampilan yang kurang, tingkat pendelegasian untuk tugas berikutnya, dan satu percakapan GROW. Lalu Raka: masalah sistem di balik malam-malam larutnya, apa yang akan kamu ubah, dan apa yang tidak akan kamu lakukan hari Sabtu. Terakhir, satu baris tentang Laras."
+         "id": "Pelajaran 9.2. Tulis rencana pengembangan untuk Putri: apa yang sebenarnya terjadi (pikirkan arti “siap” di lingkungan yang hierarkis), bagaimana kamu akan mengajarkan keterampilan yang belum ia kuasai, tingkat delegasi untuk tugas berikutnya, dan satu percakapan GROW. Lalu Raka: masalah sistem di balik lemburnya setiap malam, apa yang akan kamu ubah, dan apa yang tidak akan kamu lakukan hari Sabtu. Terakhir, satu baris tentang Laras."
         },
         "questions": [
          {
@@ -55555,11 +55555,11 @@ window.MT_LMS['the-route'] = {
           },
           "help": {
            "en": "The same error twice suggests a missing principle, not carelessness. “Nggak apa-apa, sudah biasa” is a heroics pattern. Third time, fix the system. Laras is asking for the next rung of the initiative ladder.",
-           "id": "Kesalahan yang sama dua kali menandakan prinsip yang belum dipahami, bukan kecerobohan. “Nggak apa-apa, sudah biasa” adalah pola kepahlawanan; kali ketiga, perbaiki sistemnya. Laras meminta anak tangga inisiatif berikutnya."
+           "id": "Kesalahan yang sama dua kali menandakan ada prinsip yang belum dipahami, bukan kecerobohan. “Nggak apa-apa, sudah biasa” adalah pola aksi kepahlawanan. Ketiga kalinya, perbaiki sistemnya. Laras sedang meminta naik ke anak tangga berikutnya di tangga inisiatif."
           },
           "placeholder": {
            "en": "Putri: what is happening: … · teach: explain … show … try … debrief … · next task level: … · GROW: G “…” R “…” O “…” W “…” · safety move: …\nRaka, system cause: … · change: … · I will not: …\nLaras, …",
-           "id": "Putri: yang terjadi: … · ajarkan: jelaskan … tunjukkan … coba … tinjau … · tingkat tugas berikutnya: … · GROW: G “…” R “…” O “…” W “…” · langkah rasa aman: …\nRaka, penyebab sistem: … · perubahan: … · aku tidak akan: …\nLaras, …"
+           "id": "Putri: yang terjadi: … · ajarkan: jelaskan … tunjukkan … coba … tinjau … · tingkat tugas berikutnya: … · GROW: G “…” R “…” O “…” W “…” · langkah rasa aman: …\nRaka: penyebab sistemnya: … · perubahan: … · yang tidak akan kulakukan: …\nLaras: …"
           },
           "keywords": [
            [
@@ -55607,15 +55607,15 @@ window.MT_LMS['the-route'] = {
        {
         "title": {
          "en": "Credit, the mistake and the push",
-         "id": "Kredit, kesalahan, dan dorongan"
+         "id": "Pujian, kesalahan, dan desakan"
         },
         "short": {
          "en": "Character",
-         "id": "Karakter"
+         "id": "Watak"
         },
         "guide": {
          "en": "Lesson 9.3. Three moments. The credit: what Nadia should do now about Wednesday’s compliment, and to whom. The dashboard: write her ownership statement for Bu Indah and the message to the 40 branches. The push: write her reply to Pak Gunawan, holding her line with an alternative, respectful of his real pressure, and without promising support she will not give.",
-         "id": "Pelajaran 9.3. Tiga momen. Kredit: apa yang sebaiknya Nadia lakukan sekarang atas pujian Rabu, dan kepada siapa. Dasbor: tulis pernyataan kepemilikannya untuk Bu Indah dan pesan untuk 40 cabang. Dorongan: tulis balasannya untuk Pak Gunawan. Menjaga garisnya dengan alternatif, menghormati tekanan nyatanya, dan tanpa menjanjikan dukungan yang tak akan ia berikan."
+         "id": "Pelajaran 9.3. Ada tiga momen. Pujian: apa yang sebaiknya dilakukan Nadia sekarang soal pujian hari Rabu, dan kepada siapa. Dasbor: tulis pernyataan kepemilikannya untuk Bu Indah dan pesannya untuk 40 cabang. Desakan: tulis balasannya untuk Pak Gunawan, yang menjaga garisnya dengan alternatif, menghargai tekanan nyata yang ia hadapi, dan tidak menjanjikan dukungan yang tidak akan ia berikan."
         },
         "questions": [
          {
@@ -55624,15 +55624,15 @@ window.MT_LMS['the-route'] = {
           "rows": 13,
           "title": {
            "en": "Credit corrected, a mistake owned, a line held",
-           "id": "Kredit diluruskan, kesalahan diakui, garis dijaga"
+           "id": "Pujian diluruskan, kesalahan diakui, garis dijaga"
           },
           "help": {
-           "en": "It is not too late to correct credit, in writing, to Bu Indah, and in front of the squad. The ownership statement has four parts and no one else’s name. Pak Gunawan’s pressure is real; option C or a clear process may be the alternative.",
-           "id": "Belum terlambat untuk meluruskan kredit, secara tertulis, kepada Bu Indah, dan di depan skuad. Pernyataan kepemilikan punya empat bagian dan tanpa nama orang lain. Tekanan Pak Gunawan nyata; opsi C atau proses yang jelas bisa menjadi alternatifnya."
+           "en": "It is not too late to correct credit: in writing to Bu Indah, and in front of the squad. The ownership statement has four parts and no one else’s name. Pak Gunawan’s pressure is real; option C or a clear process may be the alternative.",
+           "id": "Belum terlambat untuk meluruskan pujian: secara tertulis kepada Bu Indah, dan di depan skuad. Pernyataan kepemilikan punya empat bagian dan tidak menyebut nama orang lain. Tekanan yang dihadapi Pak Gunawan itu nyata. Opsi C, atau proses yang jelas, bisa menjadi alternatifnya."
           },
           "placeholder": {
            "en": "Credit: to Bu Indah “…” · to the squad …\nOwnership to Bu Indah: mistake … · my part … · fix … · process …\nTo the 40 branches: “…”\nTo Pak Gunawan: “…”",
-           "id": "Kredit: kepada Bu Indah “…” · kepada skuad …\nKepemilikan kepada Bu Indah: kesalahan … · bagianku … · perbaikan … · proses …\nKepada 40 cabang: “…”\nKepada Pak Gunawan: “…”"
+           "id": "Pujian: kepada Bu Indah “…” · kepada skuad …\nPengakuan kepada Bu Indah: kesalahan … · bagianku … · perbaikan … · proses …\nKepada 40 cabang: “…”\nKepada Pak Gunawan: “…”"
           },
           "keywords": [
            [
@@ -55689,7 +55689,7 @@ window.MT_LMS['the-route'] = {
         },
         "guide": {
          "en": "Lesson 9.4. Run a pre-mortem for the Region 3 launch under your recommended option: three reasons it could fail and how you will prevent the two most likely. Classify the launch-date decision, the dashboard fix and Laras’s request as one-way or two-way doors, and say how each should be decided. Name one systemic fix that would outlast the squad. Then write Nadia’s end-of-week stewardship note to Bu Indah in five lines.",
-         "id": "Pelajaran 9.4. Jalankan pre-mortem untuk peluncuran Wilayah 3 dengan opsi rekomendasimu: tiga alasan bisa gagal dan cara mencegah dua yang paling mungkin. Golongkan keputusan tanggal peluncuran, perbaikan dasbor, dan permintaan Laras sebagai pintu satu arah atau dua arah, dan jelaskan cara memutuskan masing-masing. Sebut satu perbaikan sistemik yang bertahan melampaui skuad. Lalu tulis catatan kepengurusan akhir minggu Nadia untuk Bu Indah dalam lima baris."
+         "id": "Pelajaran 9.4. Jalankan pre-mortem untuk peluncuran Wilayah 3 dengan opsi yang kamu rekomendasikan: tiga alasan kenapa peluncuran itu bisa gagal, dan cara mencegah dua yang paling mungkin. Golongkan keputusan tanggal peluncuran, perbaikan dasbor, dan permintaan Laras ke dalam pintu satu arah atau dua arah, lalu jelaskan bagaimana masing-masing sebaiknya diputuskan. Sebutkan satu perbaikan sistem yang akan bertahan lebih lama daripada skuadnya. Lalu tulis catatan akhir minggu Nadia untuk Bu Indah dalam lima baris."
         },
         "questions": [
          {
@@ -55698,15 +55698,15 @@ window.MT_LMS['the-route'] = {
           "rows": 12,
           "title": {
            "en": "Pre-mortem, doors, a systems fix, a stewardship note",
-           "id": "Pre-mortem, pintu, perbaikan sistem, catatan kepengurusan"
+           "id": "Pre-mortem, jenis pintu, perbaikan sistem, catatan akhir minggu"
           },
           "help": {
            "en": "The launch date is closer to a one-way door (branch trust); the dashboard fix and Laras owning the communication plan are two-way doors. A standard branch data template, or a dashboard review checklist, would outlast the squad.",
-           "id": "Tanggal peluncuran lebih dekat ke pintu satu arah (kepercayaan cabang); perbaikan dasbor dan Laras memegang rencana komunikasi adalah pintu dua arah. Templat data cabang standar, atau daftar periksa tinjauan dasbor, akan bertahan melampaui skuad."
+           "id": "Tanggal peluncuran lebih dekat ke pintu satu arah (kepercayaan cabang). Perbaikan dasbor dan permintaan Laras memegang rencana komunikasi adalah pintu dua arah. Templat data cabang yang baku, atau daftar periksa tinjauan dasbor, akan bertahan lebih lama daripada skuadnya."
           },
           "placeholder": {
            "en": "Pre-mortem: 1 … 2 … 3 … · prevent: … and …\nDoors: launch date … · dashboard fix … · Laras … \nSystems fix: …\nStewardship note: 1 … 2 … 3 … 4 … 5 …",
-           "id": "Pre-mortem: 1 … 2 … 3 … · cegah: … dan …\nPintu: tanggal peluncuran … · perbaikan dasbor … · Laras …\nPerbaikan sistem: …\nCatatan kepengurusan: 1 … 2 … 3 … 4 … 5 …"
+           "id": "Pre-mortem: 1 … 2 … 3 … · cegah: … dan …\nPintu: tanggal peluncuran … · perbaikan dasbor … · Laras …\nPerbaikan sistem: …\nCatatan akhir minggu: 1 … 2 … 3 … 4 … 5 …"
           },
           "keywords": [
            [
@@ -55753,8 +55753,8 @@ window.MT_LMS['the-route'] = {
          "id": "Portofoliomu"
         },
         "guide": {
-         "en": "The final Kit item. Part A; Communication audit: write the script of a three-to-five-minute answer-first briefing to a senior leader about a real work project or challenge (you may also record it on your phone and watch it back), then a self-assessment of about 150 words on your presence, structure, altitude, composure, respectful directness. Part B, Development and mindset: one instance where you helped someone develop (what you did, its impact, what you learned), and a reflection of about 300 words on the shift from individual-contributor thinking to leader thinking. Where you have already made it, where you still operate from the old frame, and what you will change. Close with the date of your first yearly stewardship review.",
-         "id": "Butir Kit terakhir. Bagian A; Audit komunikasi: tulis naskah paparan tiga sampai lima menit dengan jawaban dulu kepada pemimpin senior tentang proyek atau tantangan kerja nyata (kamu juga boleh merekamnya dengan ponsel dan menontonnya kembali), lalu penilaian diri sekitar 150 kata tentang kehadiranmu, struktur, ketinggian, ketenangan, lugas yang hormat. Bagian B, Pengembangan dan pola pikir: satu contoh saat kamu membantu seseorang berkembang (apa yang kamu lakukan, dampaknya, apa yang kamu pelajari), dan refleksi sekitar 300 kata tentang pergeseran dari cara berpikir kontributor individu ke cara berpikir pemimpin. Di mana kamu sudah bergeser, di mana masih memakai kerangka lama, dan apa yang akan kamu ubah. Tutup dengan tanggal tinjauan kepengurusan tahunan pertamamu."
+         "en": "The final Kit item. Part A, Communication audit: write the script of a three-to-five-minute answer-first briefing to a senior leader about a real work project or challenge (you may also record it on your phone and watch it back), then a self-assessment of about 150 words on your presence (structure, altitude, composure, respectful directness). Part B, Development and mindset: one instance where you helped someone develop (what you did, its impact, what you learned), and a reflection of about 300 words on the shift from individual-contributor thinking to leader thinking: where you have already made it, where you still operate from the old frame, and what you will change. Close with the date of your first yearly stewardship review.",
+         "id": "Isi terakhir Perangkat Karier. Bagian A, audit komunikasi: tulis naskah paparan tiga sampai lima menit dengan jawaban lebih dulu, untuk pimpinan senior, tentang proyek atau tantangan kerja yang nyata (kamu juga bisa merekamnya di ponsel lalu menontonnya ulang). Setelah itu tulis penilaian diri sekitar 150 kata tentang kehadiranmu: struktur, ketinggian, ketenangan, dan sikap lugas tetapi santun. Bagian B, pengembangan dan pola pikir: satu contoh saat kamu membantu orang lain berkembang (apa yang kamu lakukan, dampaknya, dan apa yang kamu pelajari), lalu refleksi sekitar 300 kata tentang pergeseran dari cara berpikir kontributor individu ke cara berpikir pemimpin. Di mana kamu sudah bergeser, di mana kamu masih memakai kerangka lama, dan apa yang akan kamu ubah. Tutup dengan tanggal tinjauan tahunan pertamamu."
         },
         "questions": [
          {
@@ -55763,15 +55763,15 @@ window.MT_LMS['the-route'] = {
           "rows": 16,
           "title": {
            "en": "Part A: briefing script and presence self-assessment",
-           "id": "Bagian A: naskah paparan dan penilaian diri kehadiran"
+           "id": "Bagian A: naskah paparan dan penilaian diri soal kehadiran"
           },
           "help": {
            "en": "Use a real situation if you can; anonymise names and confidential details. Read the script aloud once and time it.",
-           "id": "Pakai situasi nyata jika bisa; samarkan nama dan detail rahasia. Bacakan naskahnya sekali dan catat waktunya."
+           "id": "Pakai situasi nyata kalau bisa, dan samarkan nama serta detail yang rahasia. Bacakan naskahnya sekali dengan suara keras dan ukur waktunya."
           },
           "placeholder": {
            "en": "Audience: … · decision needed: …\nScript, point: … · reasons: 1 … 2 … 3 … · risk: … · ask: … · detail on request: …\nLikely challenge and my answer: …\nSelf-assessment (~150 words): structure … altitude … composure … directness … one thing to change …",
-           "id": "Audiens: … · keputusan yang dibutuhkan: …\nNaskah, inti: … · alasan: 1 … 2 … 3 … · risiko: … · permintaan: … · detail bila diminta: …\nTantangan yang mungkin dan jawabanku: …\nPenilaian diri (~150 kata): struktur … ketinggian … ketenangan … lugas … satu hal yang diubah …"
+           "id": "Audiens: … · keputusan yang dibutuhkan: …\nNaskah, inti: … · alasan: 1 … 2 … 3 … · risiko: … · permintaan: … · detail bila diminta: …\nTantangan yang mungkin muncul dan jawabanku: …\nPenilaian diri (~150 kata): struktur … ketinggian … ketenangan … lugas … satu hal yang akan kuubah …"
           },
           "keywords": [
            [
@@ -55822,11 +55822,11 @@ window.MT_LMS['the-route'] = {
           },
           "help": {
            "en": "The reflection is most useful when it is specific: a real moment when you thought like a leader, and a real moment when you did not. End with one change and a date.",
-           "id": "Refleksinya paling berguna jika spesifik: momen nyata ketika kamu berpikir seperti pemimpin, dan momen nyata ketika tidak. Akhiri dengan satu perubahan dan tanggal."
+           "id": "Refleksi paling berguna kalau spesifik: satu momen nyata saat kamu berpikir seperti pemimpin, dan satu momen nyata saat kamu tidak melakukannya. Akhiri dengan satu perubahan dan tanggalnya."
           },
           "placeholder": {
            "en": "Development contribution: person … · what I did (teach / delegate / coach) … · impact … · what I learned …\nReflection (~300 words): where I already think like a leader … · where I still use the old frame … · what I will change, by when …\nFirst stewardship review: [date]",
-           "id": "Kontribusi pengembangan: orang … · apa yang kulakukan (mengajar / mendelegasikan / coaching) … · dampaknya … · yang kupelajari …\nRefleksi (~300 kata): di mana aku sudah berpikir seperti pemimpin … · di mana masih memakai kerangka lama … · apa yang akan kuubah, kapan …\nTinjauan kepengurusan pertama: [tanggal]"
+           "id": "Kontribusi pengembangan: orang … · apa yang kulakukan (mengajar / mendelegasikan / coaching) … · dampaknya … · yang kupelajari …\nRefleksi (~300 kata): di mana aku sudah berpikir seperti pemimpin … · di mana aku masih memakai kerangka lama … · apa yang akan kuubah, kapan …\nTinjauan tahunan pertama: [tanggal]"
           },
           "keywords": [
            [
@@ -55877,35 +55877,35 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "The briefing: a clear recommendation first, three evidence-based reasons, risk and ask, the right altitude, two challenges answered with composure",
-         "id": "Paparan: rekomendasi jelas lebih dulu, tiga alasan berbasis bukti, risiko dan permintaan, ketinggian yang tepat, dua tantangan dijawab dengan tenang"
+         "id": "Paparan: rekomendasi yang jelas di awal, tiga alasan berbasis bukti, risiko dan permintaan, ketinggian yang tepat, dan dua tantangan dijawab dengan tenang"
         },
         "w": "20%"
        },
        {
         "h": {
          "en": "The team: Putri’s real issue named with a teaching plan, a delegation level, GROW and a safety move; Raka’s system cause fixed; Laras moved up a rung",
-         "id": "Tim: masalah sebenarnya Putri disebut dengan rencana mengajar, tingkat pendelegasian, GROW, dan langkah rasa aman; penyebab sistem Raka diperbaiki; Laras dinaikkan satu anak tangga"
+         "id": "Tim: masalah Putri yang sebenarnya disebut, lengkap dengan rencana mengajar, tingkat delegasi, GROW, dan langkah rasa aman; penyebab sistem di balik masalah Raka diperbaiki; Laras naik satu anak tangga"
         },
         "w": "20%"
        },
        {
         "h": {
          "en": "Character: credit corrected in writing and in public; a four-part ownership statement and a branch correction; a respectful reply to the sales head that holds the line",
-         "id": "Karakter: kredit diluruskan secara tertulis dan di depan umum; pernyataan kepemilikan empat bagian dan koreksi ke cabang; balasan hormat kepada kepala penjualan yang menjaga garis"
+         "id": "Watak: pujian diluruskan secara tertulis dan di depan umum; pernyataan kepemilikan empat bagian dan koreksi ke cabang; balasan yang santun kepada kepala penjualan yang tetap menjaga garis"
         },
         "w": "20%"
        },
        {
         "h": {
          "en": "Leader thinking: a real pre-mortem with prevention, decisions classified correctly, a systemic fix, a concise stewardship note",
-         "id": "Berpikir pemimpin: pre-mortem nyata dengan pencegahan, keputusan digolongkan dengan benar, perbaikan sistemik, catatan kepengurusan yang ringkas"
+         "id": "Cara berpikir pemimpin: pre-mortem sungguhan beserta pencegahannya, keputusan digolongkan dengan tepat, satu perbaikan sistem, dan catatan akhir minggu yang ringkas"
         },
         "w": "15%"
        },
        {
         "h": {
-         "en": "Your Leadership Presence Portfolio; a timed answer-first script, an honest self-assessment, a specific development contribution, a reflection with one dated change",
-         "id": "Portofolio Kehadiran Kepemimpinanmu: naskah jawaban-dulu yang diukur waktunya, penilaian diri yang jujur, kontribusi pengembangan yang spesifik, refleksi dengan satu perubahan bertanggal"
+         "en": "Your Leadership Presence Portfolio: a timed answer-first script, an honest self-assessment, a specific development contribution, a reflection with one dated change",
+         "id": "Portofolio Kehadiran Kepemimpinanmu: naskah dengan jawaban lebih dulu yang sudah diukur waktunya, penilaian diri yang jujur, kontribusi pengembangan yang spesifik, dan refleksi dengan satu perubahan bertanggal"
         },
         "w": "25%"
        }
@@ -55919,32 +55919,32 @@ window.MT_LMS['the-route'] = {
         {
          "h": {
           "en": "The briefing",
-          "id": "Paparannya"
+          "id": "Paparan"
          }
         },
         {
-         "en": "Recommendation: option C. Opening: “Pak, intinya: saya merekomendasikan peluncuran Wilayah 3 bertahap, tanggal semula di 60% cabang yang sudah terlatih, sisanya tiga minggu kemudian. Tiga alasan: pertama, baru 41% petugas terlatih, jauh dari target 90% yang dipakai di Wilayah 1 dan 2; kedua, di Wilayah 1, cabang yang belum terlatih menolak sekitar sepertiga skor ‘sedang’ tanpa ditinjau. Kita kehilangan nasabah yang layak dan kepercayaan cabang; ketiga, opsi bertahap tetap menghasilkan sekitar 110 kredit di tiga minggu pertama untuk Q4. Risikonya: beban tinjauan manual di bulan pertama; kami siapkan dua peninjau. Yang saya butuhkan: persetujuan Bapak untuk opsi C hari ini.” Altitude: the decision, the risk and two numbers, 41% versus 90%, and the Region 1 pattern; the training schedule and dashboard detail stay in the appendix. Pak Arya. Pause; “Pertanyaan yang tepat, Pak. Opsi A memang memberi sekitar 180 kredit.” Answer: “Tapi di Wilayah 1, risiko yang ‘dikelola’ tetap menghasilkan sepertiga penolakan keliru di cabang yang belum terlatih; opsi C mengambil sebagian besar volumenya tanpa mengulang itu.” Bridge: “Jadi rekomendasi saya tetap C.” Pak Gunawan; “Saya paham tekanan Q4, Pak, dan opsi C memang dirancang supaya sebagian besar cabang Bapak tetap mulai sesuai jadwal. Pelatihan sambil jalan sudah kita coba di Wilayah 1, dan hasilnya penolakan yang seharusnya tidak terjadi; tiga minggu untuk 40% cabang sisanya melindungi nasabah Bapak juga.” A well-argued B can also earn full marks; A needs a credible answer to the Region 1 evidence.",
-         "id": "Rekomendasi: opsi C. Pembuka: “Pak, intinya: saya merekomendasikan peluncuran Wilayah 3 bertahap, tanggal semula di 60% cabang yang sudah terlatih, sisanya tiga minggu kemudian. Tiga alasan: pertama, baru 41% petugas terlatih, jauh dari target 90% yang dipakai di Wilayah 1 dan 2; kedua, di Wilayah 1, cabang yang belum terlatih menolak sekitar sepertiga skor ‘sedang’ tanpa ditinjau. Kita kehilangan nasabah yang layak dan kepercayaan cabang; ketiga, opsi bertahap tetap menghasilkan sekitar 110 kredit di tiga minggu pertama untuk Q4. Risikonya: beban tinjauan manual di bulan pertama; kami siapkan dua peninjau. Yang saya butuhkan: persetujuan Bapak untuk opsi C hari ini.” Ketinggian: keputusan, risiko, dan dua angka, 41% versus 90%, dan pola Wilayah 1; jadwal pelatihan dan detail dasbor tetap di lampiran. Pak Arya, jeda; “Pertanyaan yang tepat, Pak. Opsi A memang memberi sekitar 180 kredit.” Jawab: “Tapi di Wilayah 1, risiko yang ‘dikelola’ tetap menghasilkan sepertiga penolakan keliru di cabang yang belum terlatih; opsi C mengambil sebagian besar volumenya tanpa mengulang itu.” Jembatani: “Jadi rekomendasi saya tetap C.” Pak Gunawan; “Saya paham tekanan Q4, Pak, dan opsi C memang dirancang supaya sebagian besar cabang Bapak tetap mulai sesuai jadwal. Pelatihan sambil jalan sudah kita coba di Wilayah 1, dan hasilnya penolakan yang seharusnya tidak terjadi; tiga minggu untuk 40% cabang sisanya melindungi nasabah Bapak juga.” Opsi B yang diargumentasikan dengan baik juga bisa mendapat nilai penuh; opsi A butuh jawaban kredibel atas bukti Wilayah 1."
+         "en": "Recommendation: option C. Opening: “Pak, intinya: saya merekomendasikan peluncuran Wilayah 3 bertahap, tanggal semula di 60% cabang yang sudah terlatih, sisanya tiga minggu kemudian. Tiga alasan: pertama, baru 41% petugas terlatih, jauh dari target 90% yang dipakai di Wilayah 1 dan 2; kedua, di Wilayah 1, cabang yang belum terlatih menolak sekitar sepertiga skor ‘sedang’ tanpa ditinjau, sehingga kita kehilangan nasabah yang layak dan kepercayaan cabang; ketiga, opsi bertahap tetap menghasilkan sekitar 110 kredit di tiga minggu pertama untuk Q4. Risikonya: beban tinjauan manual di bulan pertama; kami siapkan dua peninjau. Yang saya butuhkan: persetujuan Bapak untuk opsi C hari ini.” Altitude: the decision, the risk and two numbers (41% versus 90%, and the Region 1 pattern); the training schedule and dashboard detail stay in the appendix. Pak Arya: pause. Acknowledge: “Pertanyaan yang tepat, Pak. Opsi A memang memberi sekitar 180 kredit.” Answer: “Tapi di Wilayah 1, risiko yang ‘dikelola’ tetap menghasilkan sepertiga penolakan keliru di cabang yang belum terlatih; opsi C mengambil sebagian besar volumenya tanpa mengulang itu.” Bridge: “Jadi rekomendasi saya tetap C.” Pak Gunawan: “Saya paham tekanan Q4, Pak, dan opsi C memang dirancang supaya sebagian besar cabang Bapak tetap mulai sesuai jadwal. Pelatihan sambil jalan sudah kita coba di Wilayah 1, dan hasilnya penolakan yang seharusnya tidak terjadi; tiga minggu untuk 40% cabang sisanya melindungi nasabah Bapak juga.” A well-argued B can also earn full marks; A needs a credible answer to the Region 1 evidence.",
+         "id": "Rekomendasi: opsi C. Pembuka: “Pak, intinya: saya merekomendasikan peluncuran Wilayah 3 bertahap, tanggal semula di 60% cabang yang sudah terlatih, sisanya tiga minggu kemudian. Tiga alasan: pertama, baru 41% petugas terlatih, jauh dari target 90% yang dipakai di Wilayah 1 dan 2; kedua, di Wilayah 1, cabang yang belum terlatih menolak sekitar sepertiga skor ‘sedang’ tanpa ditinjau, sehingga kita kehilangan nasabah yang layak dan kepercayaan cabang; ketiga, opsi bertahap tetap menghasilkan sekitar 110 kredit di tiga minggu pertama untuk Q4. Risikonya: beban tinjauan manual di bulan pertama; kami siapkan dua peninjau. Yang saya butuhkan: persetujuan Bapak untuk opsi C hari ini.” Ketinggian: keputusannya, risikonya, dan dua angka (41% dibanding 90%, dan pola di Wilayah 1). Jadwal pelatihan dan detail dasbor cukup di lampiran. Untuk Pak Arya: jeda. Akui: “Pertanyaan yang tepat, Pak. Opsi A memang memberi sekitar 180 kredit.” Jawab: “Tapi di Wilayah 1, risiko yang ‘dikelola’ tetap menghasilkan sepertiga penolakan keliru di cabang yang belum terlatih; opsi C mengambil sebagian besar volumenya tanpa mengulang itu.” Kembalikan: “Jadi rekomendasi saya tetap C.” Untuk Pak Gunawan: “Saya paham tekanan Q4, Pak, dan opsi C memang dirancang supaya sebagian besar cabang Bapak tetap mulai sesuai jadwal. Pelatihan sambil jalan sudah kita coba di Wilayah 1, dan hasilnya penolakan yang seharusnya tidak terjadi; tiga minggu untuk 40% cabang sisanya melindungi nasabah Bapak juga.” Opsi B yang argumennya kuat juga bisa mendapat nilai penuh. Opsi A butuh jawaban yang meyakinkan atas bukti dari Wilayah 1."
         },
         {
          "h": {
           "en": "The team",
-          "id": "Timnya"
+          "id": "Tim"
          }
         },
         {
-         "en": "Putri: the same error twice points to a principle she has not grasped, and “siap, Kak” in a hierarchy often means “I don’t want to bother you”. Teach: explain why the scored-applications denominator matters, show one worked example thinking aloud, let her do the next one with Nadia watching, then alone with a five-line checklist; debrief with one strength and one improvement. Next task at level 3. Recommend, then act. GROW in ten minutes: Goal; “Apa yang ingin kamu kuasai di skuad ini?” Reality, “Apa yang paling membingungkan di dua tugas kemarin?” Options; “Apa yang bisa membantu?” Will; “Kapan kita cek lagi?” Safety move: Nadia admits her own dashboard error first, and asks Putri to explain the plan back after each briefing. Raka: the system cause is three branch data layouts; the fix is a single required template agreed with the branches and a validation script, proposed to Mas Fajar and the regional operations lead with the cost in hours (about 12 a week). Nadia will not do the formatting herself on Saturday. That would take the monkey and hide the system problem. Laras: give her the branch-communication plan at level 4; act, then advise; with a check-in on Thursday.",
-         "id": "Putri: kesalahan yang sama dua kali menunjukkan prinsip yang belum ia pahami, dan “siap, Kak” dalam hierarki sering berarti “aku tak mau merepotkan”. Ajarkan: jelaskan mengapa penyebut aplikasi yang sudah diskor itu penting, tunjukkan satu contoh jadi sambil berpikir keras, biarkan ia mengerjakan yang berikutnya sambil Nadia mengamati, lalu sendirian dengan daftar periksa lima baris; tinjau dengan satu kekuatan dan satu perbaikan. Tugas berikutnya di tingkat 3. Merekomendasikan, lalu bertindak. GROW dalam sepuluh menit: Goal; “Apa yang ingin kamu kuasai di skuad ini?” Reality, “Apa yang paling membingungkan di dua tugas kemarin?” Options; “Apa yang bisa membantu?” Will; “Kapan kita cek lagi?” Langkah rasa aman: Nadia mengakui kesalahan dasbornya sendiri lebih dulu, dan meminta Putri menjelaskan kembali rencananya setelah setiap pengarahan. Raka: penyebab sistemnya adalah tiga tata letak data cabang; perbaikannya satu templat wajib yang disepakati dengan cabang dan skrip validasi, diusulkan kepada Mas Fajar dan pemimpin operasional wilayah dengan biaya dalam jam (sekitar 12 jam seminggu). Nadia tidak akan mengerjakan format itu sendiri hari Sabtu. Itu mengambil monyetnya dan menyembunyikan masalah sistemnya. Laras: beri ia rencana komunikasi cabang di tingkat 4; bertindak, lalu melapor, dengan pengecekan hari Kamis."
+         "en": "Putri: the same error twice points to a principle she has not grasped, and “siap, Kak” in a hierarchy often means “I don’t want to bother you”. Teach: explain why the scored-applications denominator matters, show one worked example thinking aloud, let her do the next one with Nadia watching, then alone with a five-line checklist; debrief with one strength and one improvement. Next task at level 3 (recommend, then act). GROW in ten minutes. Goal: “Apa yang ingin kamu kuasai di skuad ini?” Reality: “Apa yang paling membingungkan di dua tugas kemarin?” Options: “Apa yang bisa membantu?” Will: “Kapan kita cek lagi?” Safety move: Nadia admits her own dashboard error first, and asks Putri to explain the plan back after each briefing. Raka: the system cause is three branch data layouts; the fix is a single required template agreed with the branches and a validation script, proposed to Mas Fajar and the regional operations lead with the cost in hours (about 12 a week). Nadia will not do the formatting herself on Saturday: that would take the monkey and hide the system problem. Laras: give her the branch-communication plan at level 4 (act, then advise), with a check-in on Thursday.",
+         "id": "Putri: kesalahan yang sama dua kali menunjukkan ada prinsip yang belum ia pahami, dan “siap, Kak” di lingkungan hierarkis sering berarti “aku tidak mau merepotkan”. Cara mengajarnya: jelaskan kenapa penyebutnya harus aplikasi yang sudah diskor, tunjukkan satu contoh jadi sambil berpikir keras, biarkan ia mengerjakan yang berikutnya sementara Nadia memperhatikan, lalu biarkan ia mengerjakannya sendiri dengan daftar periksa lima baris. Tinjau bersama dengan satu kekuatan dan satu perbaikan. Tugas berikutnya di tingkat 3 (rekomendasikan, lalu bertindak). GROW dalam sepuluh menit. Goal: “Apa yang ingin kamu kuasai di skuad ini?” Reality: “Apa yang paling membingungkan di dua tugas kemarin?” Options: “Apa yang bisa membantu?” Will: “Kapan kita cek lagi?” Langkah rasa aman: Nadia lebih dulu mengakui kesalahan dasbornya sendiri, dan meminta Putri menjelaskan ulang rencananya setiap kali selesai diberi arahan. Raka: penyebab sistemnya adalah tiga format data cabang yang berbeda. Perbaikannya adalah satu templat wajib yang disepakati dengan cabang, ditambah skrip validasi, yang diusulkan kepada Mas Fajar dan kepala operasional wilayah lengkap dengan biayanya dalam jam (sekitar 12 jam seminggu). Nadia tidak akan merapikan data itu sendiri hari Sabtu, karena itu sama dengan mengambil monyetnya dan menyembunyikan masalah sistemnya. Laras: serahkan rencana komunikasi ke cabang di tingkat 4 (bertindak, lalu mengabari), dengan pengecekan hari Kamis."
         },
         {
          "h": {
           "en": "Credit, mistake, push",
-          "id": "Kredit, kesalahan, dorongan"
+          "id": "Pujian, kesalahan, desakan"
          }
         },
         {
-         "en": "Credit: a short message to Bu Indah today, “Bu, terima kasih atas apresiasinya kemarin. Analisis pola cabang itu sebenarnya dikerjakan Raka; saya meninjau. Saya ingin Ibu tahu kontribusinya”, copied to Mas Fajar, who lent Raka; and in Monday’s squad meeting, name Raka’s work specifically. Ownership to Bu Indah: “Bu, dasbor cabang yang terkirim Jumat memakai penyebut yang salah, semua aplikasi, bukan aplikasi yang sudah diskor, sehingga tingkat persetujuan tampak sekitar 12 poin lebih rendah. Saya yang menyetujuinya tanpa mengecek definisi. Versi yang benar sudah siap dan saya kirim ke cabang pagi ini; mulai minggu ini setiap dasbor lewat daftar periksa definisi sebelum dikirim.” To branches: “Mohon maaf, dasbor Jumat memuat kesalahan perhitungan tingkat persetujuan. Versi yang benar terlampir; angka Bapak/Ibu sekitar 12 poin lebih tinggi dari yang tertera sebelumnya.” (Laras spotted it. Thank her too.) To Pak Gunawan: “Pak Gunawan, terima kasih sudah menyampaikan langsung. Saya paham tim Bapak sudah berjanji ke nasabah dan Q4 penting. Saya tidak bisa merekomendasikan peluncuran penuh dengan pelatihan 41%, karena di Wilayah 1 itu menyebabkan penolakan yang tidak perlu. Yang akan saya usulkan Selasa: 60% cabang Bapak tetap mulai sesuai tanggal semula, sisanya tiga minggu kemudian. Kalau Bapak bisa membantu mempercepat jadwal pelatihan di cabang sisanya, tiga minggu itu bisa lebih pendek.”",
-         "id": "Kredit: pesan singkat kepada Bu Indah hari ini, “Bu, terima kasih atas apresiasinya kemarin. Analisis pola cabang itu sebenarnya dikerjakan Raka; saya meninjau. Saya ingin Ibu tahu kontribusinya”, dengan tembusan ke Mas Fajar, yang meminjamkan Raka; dan di rapat skuad Senin, sebut pekerjaan Raka secara spesifik. Kepemilikan kepada Bu Indah: “Bu, dasbor cabang yang terkirim Jumat memakai penyebut yang salah, semua aplikasi, bukan aplikasi yang sudah diskor, sehingga tingkat persetujuan tampak sekitar 12 poin lebih rendah. Saya yang menyetujuinya tanpa mengecek definisi. Versi yang benar sudah siap dan saya kirim ke cabang pagi ini; mulai minggu ini setiap dasbor lewat daftar periksa definisi sebelum dikirim.” Kepada cabang: “Mohon maaf, dasbor Jumat memuat kesalahan perhitungan tingkat persetujuan. Versi yang benar terlampir; angka Bapak/Ibu sekitar 12 poin lebih tinggi dari yang tertera sebelumnya.” (Laras yang menemukannya. Berterima kasihlah kepadanya juga.) Kepada Pak Gunawan: “Pak Gunawan, terima kasih sudah menyampaikan langsung. Saya paham tim Bapak sudah berjanji ke nasabah dan Q4 penting. Saya tidak bisa merekomendasikan peluncuran penuh dengan pelatihan 41%, karena di Wilayah 1 itu menyebabkan penolakan yang tidak perlu. Yang akan saya usulkan Selasa: 60% cabang Bapak tetap mulai sesuai tanggal semula, sisanya tiga minggu kemudian. Kalau Bapak bisa membantu mempercepat jadwal pelatihan di cabang sisanya, tiga minggu itu bisa lebih pendek.”"
+         "en": "Credit: a short message to Bu Indah today (“Bu, terima kasih atas apresiasinya kemarin. Analisis pola cabang itu sebenarnya dikerjakan Raka; saya meninjau. Saya ingin Ibu tahu kontribusinya”), copied to Mas Fajar, who lent Raka; and in today’s squad meeting, name Raka’s work specifically. Ownership to Bu Indah: “Bu, dasbor cabang yang terkirim Jumat memakai penyebut yang salah (semua aplikasi, bukan aplikasi yang sudah diskor), sehingga tingkat persetujuan tampak sekitar 12 poin lebih rendah. Saya yang menyetujuinya tanpa mengecek definisi. Versi yang benar sudah siap dan saya kirim ke cabang pagi ini; mulai minggu ini setiap dasbor lewat daftar periksa definisi sebelum dikirim.” To branches: “Mohon maaf, dasbor Jumat memuat kesalahan perhitungan tingkat persetujuan. Versi yang benar terlampir; angka Bapak/Ibu sekitar 12 poin lebih tinggi dari yang tertera sebelumnya.” (Laras spotted it. Thank her too.) To Pak Gunawan: “Pak Gunawan, terima kasih sudah menyampaikan langsung. Saya paham tim Bapak sudah berjanji ke nasabah dan Q4 penting. Saya tidak bisa merekomendasikan peluncuran penuh dengan pelatihan 41%, karena di Wilayah 1 itu menyebabkan penolakan yang tidak perlu. Yang akan saya usulkan Selasa: 60% cabang Bapak tetap mulai sesuai tanggal semula, sisanya tiga minggu kemudian. Kalau Bapak bisa membantu mempercepat jadwal pelatihan di cabang sisanya, tiga minggu itu bisa lebih pendek.”",
+         "id": "Pujian: kirim pesan singkat kepada Bu Indah hari ini (“Bu, terima kasih atas apresiasinya kemarin. Analisis pola cabang itu sebenarnya dikerjakan Raka; saya meninjau. Saya ingin Ibu tahu kontribusinya”), dengan tembusan ke Mas Fajar yang meminjamkan Raka. Lalu, di rapat skuad hari ini, sebut kerja Raka secara spesifik. Pengakuan kepada Bu Indah: “Bu, dasbor cabang yang terkirim Jumat memakai penyebut yang salah (semua aplikasi, bukan aplikasi yang sudah diskor), sehingga tingkat persetujuan tampak sekitar 12 poin lebih rendah. Saya yang menyetujuinya tanpa mengecek definisi. Versi yang benar sudah siap dan saya kirim ke cabang pagi ini; mulai minggu ini setiap dasbor lewat daftar periksa definisi sebelum dikirim.” Kepada cabang: “Mohon maaf, dasbor Jumat memuat kesalahan perhitungan tingkat persetujuan. Versi yang benar terlampir; angka Bapak/Ibu sekitar 12 poin lebih tinggi dari yang tertera sebelumnya.” (Laras yang menemukannya. Berterima kasihlah kepadanya juga.) Kepada Pak Gunawan: “Pak Gunawan, terima kasih sudah menyampaikan langsung. Saya paham tim Bapak sudah berjanji ke nasabah dan Q4 penting. Saya tidak bisa merekomendasikan peluncuran penuh dengan pelatihan 41%, karena di Wilayah 1 itu menyebabkan penolakan yang tidak perlu. Yang akan saya usulkan Selasa: 60% cabang Bapak tetap mulai sesuai tanggal semula, sisanya tiga minggu kemudian. Kalau Bapak bisa membantu mempercepat jadwal pelatihan di cabang sisanya, tiga minggu itu bisa lebih pendek.”"
         },
         {
          "h": {
@@ -55953,39 +55953,39 @@ window.MT_LMS['the-route'] = {
          }
         },
         {
-         "en": "Pre-mortem for option C: (1) manual review overwhelms the two reviewers and approvals slow down; (2) branches in the second wave start early without training; (3) the corrected dashboard confuses branches and they distrust the numbers. Prevent (1) with a daily review cap and a third reviewer on call from Nadia’s old unit; prevent (2) with system access switched on only after a branch reaches 90% training. Doors: the launch date is close to a one-way door, branch trust is slow to rebuild, so it goes to Pak Arya with evidence; the dashboard fix is a two-way door. Fix and send today; Laras owning the communication plan is a two-way door, delegate now at level 4. Systems fix: the single branch data template with validation, and a dashboard definition checklist used by every squad after this one. Stewardship note: (1) recommendation for Tuesday: C, attached; (2) dashboard error mine, corrected and branches informed; (3) Raka’s analysis credited; template proposal sent to Mas Fajar; (4) Putri on a teaching plan, Laras owns branch communications; (5) next week: training tracker daily, pre-mortem actions in place.",
-         "id": "Pre-mortem untuk opsi C: (1) tinjauan manual membanjiri dua peninjau dan persetujuan melambat; (2) cabang gelombang kedua mulai lebih awal tanpa pelatihan; (3) dasbor yang dikoreksi membingungkan cabang sehingga mereka tak percaya angkanya. Cegah (1) dengan batas tinjauan harian dan peninjau ketiga siaga dari unit lama Nadia; cegah (2) dengan akses sistem baru diaktifkan setelah cabang mencapai 90% pelatihan. Pintu: tanggal peluncuran dekat dengan pintu satu arah, kepercayaan cabang lambat dibangun kembali, jadi dibawa ke Pak Arya dengan bukti; perbaikan dasbor adalah pintu dua arah. Perbaiki dan kirim hari ini; Laras memegang rencana komunikasi adalah pintu dua arah, delegasikan sekarang di tingkat 4. Perbaikan sistem: satu templat data cabang dengan validasi, dan daftar periksa definisi dasbor yang dipakai setiap skuad setelah ini. Catatan kepengurusan: (1) rekomendasi untuk Selasa: C, terlampir; (2) kesalahan dasbor dariku, sudah dikoreksi dan cabang diberi tahu; (3) analisis Raka sudah dikreditkan; usulan templat dikirim ke Mas Fajar; (4) Putri dengan rencana mengajar, Laras memegang komunikasi cabang; (5) minggu depan: pelacak pelatihan harian, tindakan pre-mortem terpasang."
+         "en": "Pre-mortem for option C: (1) manual review overwhelms the two reviewers and approvals slow down; (2) branches in the second wave start early without training; (3) the corrected dashboard confuses branches and they distrust the numbers. Prevent (1) with a daily review cap and a third reviewer on call from Nadia’s old unit; prevent (2) with system access switched on only after a branch reaches 90% training. Doors: the launch date is close to a one-way door (branch trust is slow to rebuild), so it goes to Pak Arya with evidence; the dashboard fix is a two-way door: fix and send today; Laras owning the communication plan is a two-way door: delegate now at level 4. Systems fix: the single branch data template with validation, and a dashboard definition checklist used by every squad after this one. Stewardship note: (1) launch recommendation: C, as briefed on Tuesday; (2) dashboard error mine, corrected and branches informed; (3) Raka’s analysis credited; template proposal sent to Mas Fajar; (4) Putri on a teaching plan, Laras owns branch communications; (5) next week: training tracker daily, pre-mortem actions in place.",
+         "id": "Pre-mortem untuk opsi C: (1) tinjauan manual membanjiri dua peninjau dan persetujuan jadi lambat; (2) cabang di gelombang kedua mulai lebih awal tanpa pelatihan; (3) dasbor yang sudah dikoreksi membingungkan cabang sehingga mereka tidak percaya pada angkanya. Cegah (1) dengan batas tinjauan harian dan satu peninjau ketiga yang siap dipanggil dari unit lama Nadia. Cegah (2) dengan membuka akses sistem hanya setelah sebuah cabang mencapai 90% pelatihan. Jenis pintu: tanggal peluncuran mendekati pintu satu arah (kepercayaan cabang lambat dipulihkan), jadi keputusannya dibawa ke Pak Arya dengan bukti. Perbaikan dasbor adalah pintu dua arah: perbaiki dan kirim hari ini. Laras memegang rencana komunikasi juga pintu dua arah: delegasikan sekarang di tingkat 4. Perbaikan sistem: satu templat data cabang dengan validasi, dan daftar periksa definisi dasbor yang dipakai setiap skuad sesudah skuad ini. Catatan akhir minggu: (1) rekomendasi peluncuran: C, sesuai paparan hari Selasa; (2) kesalahan dasbor adalah kesalahan saya, sudah dikoreksi dan cabang sudah diberi tahu; (3) analisis Raka sudah disebut sebagai karyanya, dan usulan templat sudah dikirim ke Mas Fajar; (4) Putri menjalani rencana belajar, Laras memegang komunikasi ke cabang; (5) minggu depan: pelacak pelatihan dipantau setiap hari, tindakan hasil pre-mortem sudah berjalan."
         }
        ],
        "after": {
         "en": "Compare, do not copy. If your briefing opens with background, move the recommendation to the first sentence. If your plan has Nadia fixing Putri’s work or Raka’s files herself, the monkey has jumped. If the dashboard statement mentions who built the dashboard, remove the name. And if your reply to Pak Gunawan promises support you would not give on Tuesday, rewrite it; followability depends on saying the same thing to everyone.",
-        "id": "Bandingkan, jangan menyalin. Jika paparanmu dibuka dengan latar belakang, pindahkan rekomendasi ke kalimat pertama. Jika rencanamu membuat Nadia memperbaiki pekerjaan Putri atau berkas Raka sendiri, monyetnya sudah melompat. Jika pernyataan dasbor menyebut siapa yang membangun dasbornya, hapus namanya. Dan jika balasanmu kepada Pak Gunawan menjanjikan dukungan yang tak akan kamu berikan hari Selasa, tulis ulang, kelayakan diikuti bergantung pada mengatakan hal yang sama kepada semua orang."
+        "id": "Bandingkan, jangan menyalin. Kalau paparanmu dibuka dengan latar belakang, pindahkan rekomendasinya ke kalimat pertama. Kalau rencanamu membuat Nadia memperbaiki sendiri pekerjaan Putri atau berkas Raka, monyetnya sudah melompat. Kalau pernyataan soal dasbor menyebut siapa yang membuat dasbornya, hapus nama itu. Dan kalau balasanmu kepada Pak Gunawan menjanjikan dukungan yang tidak akan kamu berikan hari Selasa, tulis ulang. Orang mau mengikutimu kalau kamu mengatakan hal yang sama kepada semua orang."
        }
       },
       "submit": {
        "title": {
         "en": "Review & submit",
-        "id": "Tinjau & kumpulkan"
+        "id": "Tinjau & kirim"
        },
        "short": {
         "en": "Submit",
-        "id": "Kumpulkan"
+        "id": "Kirim"
        },
        "lead": {
         "en": "Read your six answers as Bu Indah would a year from now, deciding whether Nadia is ready to lead a unit. Submitting locks them on this device, opens the model notes, and saves your Leadership Presence Portfolio as the ninth and final Career Kit item.",
-        "id": "Baca keenam jawabanmu seperti Bu Indah membacanya setahun lagi, saat memutuskan apakah Nadia siap memimpin unit. Mengumpulkan akan mengunci jawabanmu di perangkat ini, membuka catatan model, dan menyimpan Portofolio Kehadiran Kepemimpinanmu sebagai butir Career Kit kesembilan dan terakhir."
+        "id": "Baca enam jawabanmu seperti Bu Indah akan membacanya setahun lagi, saat ia memutuskan apakah Nadia siap memimpin sebuah unit. Mengirim akan mengunci jawabanmu di perangkat ini, membuka catatan model, dan menyimpan Portofolio Kehadiran Kepemimpinanmu sebagai isi kesembilan sekaligus terakhir Perangkat Karier."
        },
        "button": {
         "en": "Submit the capstone",
-        "id": "Kumpulkan kasus puncak"
+        "id": "Kirim studi kasus penutup"
        },
        "doneTitle": {
         "en": "Capstone submitted: The Route complete",
-        "id": "Kasus puncak terkumpul: The Route selesai"
+        "id": "Studi kasus penutup terkirim: The Route selesai"
        },
        "doneBody": {
-        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 9 assessment, and book your first yearly stewardship review. Your Career Kit now has nine items, keep them alive.",
-        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 9, dan pesan tinjauan kepengurusan tahunan pertamamu. Career Kit-mu kini punya sembilan butir, jaga agar tetap hidup."
+        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 9 assessment, and book your first yearly stewardship review. Your Career Kit now has nine items; keep them alive.",
+        "id": "Jawabanmu sudah terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 9, dan jadwalkan tinjauan tahunan pertamamu. Perangkat Kariermu sekarang berisi sembilan bagian. Jaga semuanya tetap hidup."
        }
       }
      },
@@ -55994,41 +55994,41 @@ window.MT_LMS['the-route'] = {
        {
         "h": {
          "en": "Background first in the briefing",
-         "id": "Latar belakang dulu dalam paparan"
+         "id": "Membuka paparan dengan latar belakang"
         },
         "fix": {
          "en": "Recommendation in the first sentence; two numbers.",
-         "id": "Rekomendasi di kalimat pertama; dua angka."
+         "id": "Rekomendasi di kalimat pertama, dengan dua angka."
         }
        },
        {
         "h": {
          "en": "Fixing the team’s work yourself",
-         "id": "Memperbaiki pekerjaan tim sendiri"
+         "id": "Memperbaiki sendiri pekerjaan tim"
         },
         "fix": {
          "en": "Teach, delegate with a level, fix the system.",
-         "id": "Ajarkan, delegasikan dengan tingkat, perbaiki sistemnya."
+         "id": "Ajarkan, delegasikan dengan tingkat yang jelas, perbaiki sistemnya."
         }
        },
        {
         "h": {
          "en": "Letting wrong credit stand",
-         "id": "Membiarkan kredit yang keliru"
+         "id": "Membiarkan pujian salah alamat"
         },
         "fix": {
          "en": "Correct it in writing and in public, promptly.",
-         "id": "Luruskan secara tertulis dan di depan umum, segera."
+         "id": "Luruskan secara tertulis dan di depan umum, secepatnya."
         }
        },
        {
         "h": {
          "en": "Different stories for different people",
-         "id": "Cerita berbeda untuk orang berbeda"
+         "id": "Cerita berbeda untuk orang yang berbeda"
         },
         "fix": {
          "en": "The same recommendation to the sales head and the director.",
-         "id": "Rekomendasi yang sama kepada kepala penjualan dan direktur."
+         "id": "Rekomendasi yang sama untuk kepala penjualan dan untuk direktur."
         }
        }
       ]
@@ -56041,7 +56041,7 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "The Module 9 Career Kit item: a briefing script and presence self-assessment, a development contribution and a leadership-mindset reflection.",
-        "id": "Butir Career Kit Modul 9: naskah paparan dan penilaian diri kehadiran, kontribusi pengembangan, dan refleksi pola pikir kepemimpinan."
+        "id": "Isi Perangkat Karier dari Modul 9: naskah paparan dan penilaian diri soal kehadiran, satu kontribusi pengembangan, dan refleksi pola pikir kepemimpinan."
        }
       },
       {
@@ -56051,17 +56051,17 @@ window.MT_LMS['the-route'] = {
        },
        "def": {
         "en": "A small, temporary team formed for one goal; often the first place people lead without a title.",
-        "id": "Tim kecil sementara yang dibentuk untuk satu tujuan; sering tempat pertama orang memimpin tanpa jabatan."
+        "id": "Tim kecil dan sementara yang dibentuk untuk satu tujuan. Sering menjadi tempat pertama orang memimpin tanpa jabatan."
        }
       },
       {
        "term": {
         "en": "Stewardship note",
-        "id": "Catatan kepengurusan"
+        "id": "Catatan akhir minggu"
        },
        "def": {
         "en": "A short end-of-week summary to your manager: decisions, mistakes owned, credit given, people developed, next steps.",
-        "id": "Ringkasan singkat akhir minggu untuk manajermu: keputusan, kesalahan yang diakui, kredit yang diberikan, orang yang dikembangkan, langkah berikutnya."
+        "id": "Ringkasan singkat di akhir minggu untuk atasanmu: keputusan, kesalahan yang diakui, pujian yang diberikan, orang yang dikembangkan, dan langkah berikutnya."
        }
       }
      ],
@@ -56069,49 +56069,49 @@ window.MT_LMS['the-route'] = {
       {
        "q": {
         "en": "Bu Indah praised Nadia for an analysis Raka did. The best action is…",
-        "id": "Bu Indah memuji Nadia atas analisis yang dikerjakan Raka. Tindakan terbaik adalah…"
+        "id": "Bu Indah memuji Nadia atas analisis yang dikerjakan Raka. Tindakan terbaiknya adalah…"
        },
        "options": [
         {
          "en": "Say nothing: it would be awkward now",
-         "id": "Diam saja: sekarang akan canggung"
+         "id": "Diam saja, karena sekarang sudah canggung"
         },
         {
          "en": "Correct it in writing to Bu Indah and name Raka’s work in front of the squad",
-         "id": "Meluruskannya secara tertulis kepada Bu Indah dan menyebut pekerjaan Raka di depan skuad"
+         "id": "Meluruskannya secara tertulis kepada Bu Indah dan menyebut kerja Raka di depan skuad"
         },
         {
          "en": "Tell Raka privately that you are sorry",
-         "id": "Meminta maaf kepada Raka secara pribadi"
+         "id": "Minta maaf kepada Raka secara pribadi"
         },
         {
          "en": "Wait for a better moment next quarter",
-         "id": "Menunggu momen yang lebih baik kuartal depan"
+         "id": "Menunggu momen yang lebih pas di kuartal depan"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Credit corrected promptly is followership earned; credit kept is followership lost.",
-        "id": "Kredit yang segera diluruskan membangun kepengikutan; kredit yang disimpan meruntuhkannya."
+        "id": "Pujian yang segera diluruskan membuat orang mau mengikutimu. Pujian yang disimpan sendiri membuat mereka pergi."
        }
       },
       {
        "q": {
         "en": "Raka reformats branch files every night. The leader’s move is…",
-        "id": "Raka memformat ulang berkas cabang setiap malam. Langkah pemimpin adalah…"
+        "id": "Raka merapikan berkas cabang setiap malam. Langkah seorang pemimpin adalah…"
        },
        "options": [
         {
          "en": "Do the formatting yourself on Saturday",
-         "id": "Mengerjakan formatnya sendiri hari Sabtu"
+         "id": "Merapikannya sendiri hari Sabtu"
         },
         {
          "en": "Praise his dedication",
          "id": "Memuji dedikasinya"
         },
         {
-         "en": "Fix the system, a required template and validation, with the process owners",
-         "id": "Memperbaiki sistemnya, templat wajib dan validasi, bersama pemilik prosesnya"
+         "en": "Fix the system (a required template and validation) with the process owners",
+         "id": "Memperbaiki sistemnya (templat wajib dan validasi) bersama para pemilik proses"
         },
         {
          "en": "Ask him to work faster",
@@ -56121,22 +56121,22 @@ window.MT_LMS['the-route'] = {
        "correct": 2,
        "why": {
         "en": "Heroics hide the system problem; fix the cause.",
-        "id": "Kepahlawanan menyembunyikan masalah sistem; perbaiki penyebabnya."
+        "id": "Aksi kepahlawanan menyembunyikan masalah sistem. Perbaiki penyebabnya."
        }
       },
       {
        "q": {
         "en": "The Region 3 launch date is best treated as…",
-        "id": "Tanggal peluncuran Wilayah 3 paling baik diperlakukan sebagai…"
+        "id": "Tanggal peluncuran Wilayah 3 paling tepat diperlakukan sebagai…"
        },
        "options": [
         {
          "en": "A two-way door to decide alone, quickly",
-         "id": "Pintu dua arah untuk diputuskan sendiri dengan cepat"
+         "id": "Pintu dua arah yang bisa diputuskan sendiri dengan cepat"
         },
         {
          "en": "Close to a one-way door, brought to the decision-maker with evidence and a pre-mortem",
-         "id": "Dekat dengan pintu satu arah: dibawa ke pembuat keputusan dengan bukti dan pre-mortem"
+         "id": "Hampir pintu satu arah, dibawa ke pengambil keputusan dengan bukti dan pre-mortem"
         },
         {
          "en": "The sales head’s decision",
@@ -56144,13 +56144,13 @@ window.MT_LMS['the-route'] = {
         },
         {
          "en": "Something to postpone indefinitely",
-         "id": "Sesuatu yang ditunda tanpa batas"
+         "id": "Sesuatu yang ditunda tanpa batas waktu"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Branch trust is slow to rebuild; decide it carefully and at the right level.",
-        "id": "Kepercayaan cabang lambat dibangun kembali; putuskan dengan hati-hati dan di level yang tepat."
+        "id": "Kepercayaan cabang lambat dipulihkan. Putuskan dengan hati-hati dan di level yang tepat."
        }
       }
      ],
@@ -56163,7 +56163,7 @@ window.MT_LMS['the-route'] = {
       },
       "body": {
        "en": "Open the readiness diagnostic one last time in this course. Compare it with your first attempt, note your strongest growth and your next focus, and put the date of your first yearly stewardship review in your plan.",
-       "id": "Buka diagnostik kesiapan untuk terakhir kalinya di kursus ini. Bandingkan dengan percobaan pertamamu, catat pertumbuhan terkuat dan fokus berikutmu, dan masukkan tanggal tinjauan kepengurusan tahunan pertamamu ke rencanamu."
+       "id": "Buka diagnostik kesiapan untuk terakhir kalinya di kursus ini. Bandingkan dengan percobaan pertamamu, catat pertumbuhan terbesarmu dan fokus berikutnya, lalu masukkan tanggal tinjauan tahunan pertamamu ke rencanamu."
       },
       "cta": {
        "en": "Open the readiness diagnostic",
@@ -56173,15 +56173,15 @@ window.MT_LMS['the-route'] = {
      "takeaways": [
       {
        "en": "Lead the room with the answer first, the right altitude and calm under challenge.",
-       "id": "Pimpin ruangan dengan jawaban dulu, ketinggian yang tepat, dan tenang saat ditantang."
+       "id": "Pimpin ruangan dengan jawaban lebih dulu, ketinggian yang tepat, dan ketenangan saat ditantang."
       },
       {
        "en": "Lead people by teaching, delegating with a level and fixing systems, not by doing their work.",
-       "id": "Pimpin orang dengan mengajar, mendelegasikan dengan tingkat, dan memperbaiki sistem, bukan dengan mengerjakan pekerjaan mereka."
+       "id": "Pimpin orang dengan mengajar, mendelegasikan dengan tingkat yang jelas, dan memperbaiki sistem, bukan dengan mengerjakan pekerjaan mereka."
       },
       {
        "en": "Lead yourself: give credit away, own mistakes first, say the same thing to everyone, and review your Career Kit every year.",
-       "id": "Pimpin dirimu: berikan kredit, akui kesalahan lebih dulu, katakan hal yang sama kepada semua orang, dan tinjau Career Kit-mu setiap tahun."
+       "id": "Pimpin dirimu sendiri: berikan pujian kepada orang lain, akui kesalahan lebih dulu, katakan hal yang sama kepada semua orang, dan tinjau Perangkat Kariermu setiap tahun."
       }
      ],
      "journey": {
@@ -56198,21 +56198,21 @@ window.MT_LMS['the-route'] = {
       "now": {
        "label": {
         "en": "9.5 · Nadia’s first team, The Route complete",
-        "id": "9.5 · Tim pertama Nadia: The Route selesai"
+        "id": "9.5 · Tim pertama Nadia, The Route selesai"
        },
        "desc": {
-        "en": "You have led a first week, briefing, team, character and judgement, and completed the ninth and final Career Kit item.",
-        "id": "Kamu sudah memimpin minggu pertama, paparan, tim, karakter, dan penilaian, dan menyelesaikan butir Career Kit kesembilan dan terakhir."
+        "en": "You have led a first week (briefing, team, character and judgement) and completed the ninth and final Career Kit item.",
+        "id": "Kamu sudah memimpin satu minggu pertama (paparan, tim, watak, dan pertimbangan) dan menyelesaikan isi kesembilan sekaligus terakhir Perangkat Karier."
        }
       },
       "next": {
        "label": {
         "en": "Your yearly stewardship review",
-        "id": "Tinjauan kepengurusan tahunanmu"
+        "id": "Tinjauan tahunanmu"
        },
        "desc": {
         "en": "A year from now, return to Module 1 and redo your Career Trajectory Blueprint with everything you have learned; then review the other eight items.",
-        "id": "Setahun lagi, kembali ke Modul 1 dan ulangi Cetak Biru Lintasan Kariermu dengan semua yang telah kamu pelajari; lalu tinjau delapan butir lainnya."
+        "id": "Setahun dari sekarang, kembali ke Modul 1 dan susun ulang Cetak Biru Lintasan Kariermu dengan semua yang sudah kamu pelajari. Setelah itu, tinjau delapan bagian lainnya."
        },
        "lesson": "1.1"
       }
