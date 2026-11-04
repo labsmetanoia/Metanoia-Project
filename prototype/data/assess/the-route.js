@@ -15,7 +15,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Four compounding assets, reading a role for asset yield, the Friday win log, loyalty without drift.",
-     "id": "Empat aset yang bertumbuh, membaca peran dari hasil asetnya, catatan capaian Jumat, loyalitas tanpa hanyut."
+     "id": "Empat aset yang terus bertumbuh, membaca peran dari imbal hasil asetnya, catatan capaian setiap Jumat, setia tanpa hanyut."
     }
    },
    {
@@ -26,7 +26,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Destinations as role families, three versions and a Plan Z, way-stations and gates, reversibility.",
-     "id": "Tujuan sebagai keluarga peran, tiga versi dan Rencana Z, stasiun antara dan gerbang, keterbalikan."
+     "id": "Tujuan sebagai rumpun peran, tiga versi dan Plan Z, persinggahan dan gerbang, kemudahan dibatalkan."
     }
    },
    {
@@ -37,7 +37,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Artefact · date · witness, four gate verdicts, tripwires, red lines as sentences.",
-     "id": "Artefak · tanggal · saksi, empat putusan gerbang, tripwire, garis merah sebagai kalimat."
+     "id": "Artefak · tanggal · saksi, empat putusan gerbang, pemicu, garis merah dalam bentuk kalimat."
     }
    },
    {
@@ -48,7 +48,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "The four-column inventory, the depth ladder, the market check, four gap types, raising yield.",
-     "id": "Inventaris empat kolom, tangga kedalaman, cek pasar, empat jenis celah, menaikkan hasil."
+     "id": "Inventaris empat kolom, tangga kedalaman, cek pasar, empat jenis celah, menaikkan imbal hasil."
     }
    },
    {
@@ -59,7 +59,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Ranking placement tracks by yield, gate and reversibility; the cost of a decreasing bond.",
-     "id": "Memeringkat jalur penempatan menurut hasil, gerbang, dan keterbalikan; biaya ikatan dinas yang menurun."
+     "id": "Memeringkat jalur penempatan menurut imbal hasil, gerbang, dan kemudahan dibatalkan; biaya ikatan dinas yang dendanya terus berkurang."
     }
    }
   ],
@@ -69,7 +69,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "1.1",
     "q": {
      "en": "The four assets that compound across a career, in this course, are…",
-     "id": "Empat aset yang bertumbuh sepanjang karier, dalam kursus ini, adalah…"
+     "id": "Dalam kursus ini, empat aset yang terus bertumbuh sepanjang karier adalah…"
     },
     "opts": [
      {
@@ -77,8 +77,8 @@ window.MT_ASSESS['the-route'] = {
       "id": "Gaji, jabatan, kantor, jumlah koneksi"
      },
      {
-      "en": "Skills, reputation, relationships, artefacts",
-      "id": "Keterampilan, reputasi, hubungan, artefak"
+      "en": "Skills, results, relationships, reputation",
+      "id": "Keterampilan, hasil, hubungan, reputasi"
      },
      {
       "en": "IPK, certificates, languages, hobbies",
@@ -86,13 +86,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Loyalty, hours, attendance, politeness",
-      "id": "Loyalitas, jam kerja, kehadiran, kesopanan"
+      "id": "Loyalitas, jam kerja, kehadiran, sopan santun"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Each of the four can be built on purpose inside an ordinary job, and each is carried to the next role.",
-     "id": "Keempatnya bisa dibangun dengan sengaja di dalam pekerjaan biasa, dan masing-masing terbawa ke peran berikutnya."
+     "id": "Keempatnya bisa dibangun dengan sengaja di dalam pekerjaan biasa, dan masing-masing ikut terbawa ke peran berikutnya."
     }
    },
    {
@@ -100,7 +100,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "1.1",
     "q": {
      "en": "For three Fridays in a row your win log is empty and your yield score is 3 of 10, lowest on exposure. The best first move is…",
-     "id": "Tiga Jumat berturut-turut catatan capaianmu kosong dan skor hasilmu 3 dari 10, terendah pada paparan. Langkah pertama terbaik adalah…"
+     "id": "Tiga Jumat berturut-turut catatan capaianmu kosong, dan skor imbal hasilmu 3 dari 10, terendah di paparan. Langkah pertama terbaik adalah…"
     },
     "opts": [
      {
@@ -117,13 +117,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Wait for the annual review",
-      "id": "Tunggu evaluasi tahunan"
+      "id": "Menunggu evaluasi tahunan"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "Raise the lowest signal inside the role first; a pattern of empty weeks is data for the gate, not a reason to leave today.",
-     "id": "Naikkan sinyal terendah di dalam peran dulu; pola minggu kosong adalah data untuk gerbang, bukan alasan untuk pergi hari ini."
+     "id": "Naikkan dulu sinyal terendah di dalam peranmu. Pola minggu-minggu kosong adalah data untuk gerbang, bukan alasan untuk pergi hari ini."
     }
    },
    {
@@ -131,30 +131,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "1.2",
     "q": {
      "en": "Which of these is a destination in the sense of Lesson 1.2?",
-     "id": "Mana yang merupakan tujuan dalam arti Pelajaran 1.2?"
+     "id": "Mana yang termasuk tujuan dalam arti Pelajaran 1.2?"
     },
     "opts": [
      {
       "en": "“Manager in three years”",
-      "id": "“Manajer dalam tiga tahun”"
+      "id": "“Jadi manajer dalam tiga tahun”"
      },
      {
       "en": "“Work in Jakarta”",
-      "id": "“Bekerja di Jakarta”"
+      "id": "“Kerja di Jakarta”"
      },
      {
       "en": "“Holding an SME credit portfolio in a structured bank, known for careful analysis”",
-      "id": "“Memegang portofolio kredit UMKM di bank yang terstruktur, dikenal karena analisis yang teliti”"
+      "id": "“Memegang portofolio kredit UKM di bank yang tertata, dikenal karena analisisnya teliti”"
      },
      {
       "en": "“Be successful by 30”",
-      "id": "“Sukses sebelum 30”"
+      "id": "“Sukses sebelum umur 30”"
      }
     ],
     "correct": 2,
     "expl": {
-     "en": "A role family, work, context, reputation, is specific enough to research and loose enough to adapt.",
-     "id": "Keluarga peran, pekerjaan, konteks, reputasi, cukup spesifik untuk diteliti dan cukup longgar untuk disesuaikan."
+     "en": "A role family (work, context, reputation) is specific enough to research and loose enough to adapt.",
+     "id": "Rumpun peran (pekerjaannya, konteksnya, reputasinya) cukup spesifik untuk diriset dan cukup longgar untuk disesuaikan."
     }
    },
    {
@@ -162,30 +162,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "1.2",
     "q": {
      "en": "Two options look equally attractive. One is a six-month secondment; the other needs relocation with a two-year bond. Lesson 1.2 says…",
-     "id": "Dua pilihan tampak sama menariknya. Satu penugasan sementara enam bulan; lainnya butuh pindah dengan ikatan dinas dua tahun. Pelajaran 1.2 berkata…"
+     "id": "Dua pilihan tampak sama menariknya. Yang satu penugasan sementara enam bulan; yang lain mengharuskan pindah kota dengan ikatan dinas dua tahun. Menurut Pelajaran 1.2…"
     },
     "opts": [
      {
-      "en": "Choose the harder one, it shows ambition",
-      "id": "Pilih yang lebih berat, itu menunjukkan ambisi"
+      "en": "Choose the harder one: it shows ambition",
+      "id": "Pilih yang lebih berat, karena itu menunjukkan ambisi"
      },
      {
       "en": "Spend more deliberation on the one you cannot easily undo",
-      "id": "Curahkan pertimbangan lebih banyak pada yang tidak mudah dibatalkan"
+      "id": "Timbang lebih lama pilihan yang tidak mudah dibatalkan"
      },
      {
       "en": "Always choose the reversible one",
-      "id": "Selalu pilih yang bisa dibalik"
+      "id": "Selalu pilih yang bisa dibatalkan"
      },
      {
       "en": "Ask friends to vote",
-      "id": "Minta teman memilih"
+      "id": "Minta teman-teman memilihkan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Reversibility sets how much deliberation a choice deserves; it does not make the choice by itself.",
-     "id": "Keterbalikan menentukan seberapa banyak pertimbangan yang layak untuk sebuah pilihan; ia tidak memutuskan pilihannya sendiri."
+     "id": "Kemudahan dibatalkan menentukan seberapa lama sebuah pilihan layak ditimbang, tetapi tidak memutuskan pilihannya sendiri."
     }
    },
    {
@@ -198,19 +198,19 @@ window.MT_ASSESS['the-route'] = {
     "opts": [
      {
       "en": "A feeling, a hope and a reward",
-      "id": "Sebuah perasaan, harapan, dan hadiah"
+      "id": "Perasaan, harapan, dan hadiah"
      },
      {
       "en": "An artefact, a date and a witness",
-      "id": "Sebuah artefak, tanggal, dan saksi"
+      "id": "Artefak, tanggal, dan saksi"
      },
      {
       "en": "A job title and a salary",
-      "id": "Sebuah jabatan dan gaji"
+      "id": "Jabatan dan gaji"
      },
      {
       "en": "A number of hours",
-      "id": "Sejumlah jam"
+      "id": "Sejumlah jam kerja"
      }
     ],
     "correct": 1,
@@ -224,43 +224,43 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "1.3",
     "q": {
      "en": "A recruiter offers 30% more, mid-plan, and wants an answer by Friday. Your tripwire says any offer above 20% triggers a gate. You…",
-     "id": "Seorang rekruter menawarkan 30% lebih banyak, di tengah rencana, dan ingin jawaban hari Jumat. Tripwire-mu berkata tawaran di atas 20% memicu gerbang. Kamu…"
+     "id": "Di tengah rencana, seorang rekruter menawarkan gaji 30% lebih tinggi dan minta jawaban hari Jumat. Pemicumu berbunyi: tawaran di atas 20% memicu gerbang. Kamu…"
     },
     "opts": [
      {
       "en": "Accept: 30% is a lot",
-      "id": "Terima: 30% itu banyak"
+      "id": "Menerimanya, karena 30% itu banyak"
      },
      {
       "en": "Decline: you have a plan",
-      "id": "Tolak: kamu punya rencana"
+      "id": "Menolaknya, karena kamu sudah punya rencana"
      },
      {
       "en": "Thank them, ask for a week, and run the gate with its inputs",
-      "id": "Berterima kasih, minta satu minggu, dan jalankan gerbang dengan masukannya"
+      "id": "Berterima kasih, minta waktu seminggu, dan jalankan gerbang dengan masukannya"
      },
      {
       "en": "Tell your manager to match it",
-      "id": "Minta atasanmu menyamakannya"
+      "id": "Minta atasanmu menyamai tawaran itu"
      }
     ],
     "correct": 2,
     "expl": {
-     "en": "A tripwire turns a surprise into a scheduled decision; the gate’s inputs, yield, gate progress, life, decide, not the number alone.",
-     "id": "Tripwire mengubah kejutan menjadi keputusan terjadwal; masukan gerbang, hasil, kemajuan gerbang, hidup, yang memutuskan, bukan angkanya saja."
+     "en": "A tripwire turns a surprise into a scheduled decision; the gate’s inputs (yield, gate progress, life) decide, not the number alone.",
+     "id": "Pemicu mengubah kejutan menjadi keputusan yang terjadwal. Yang memutuskan adalah masukan gerbang (imbal hasil, kemajuan gerbang, kehidupanmu), bukan angkanya saja."
     }
    },
    {
     "type": "know",
     "lesson": "1.4",
     "q": {
-     "en": "On the depth ladder, the best evidence for level 4 (“can teach”) is…",
-     "id": "Di tangga kedalaman, bukti terbaik untuk level 4 (“bisa mengajar”) adalah…"
+     "en": "On the depth ladder, the best evidence for step 4 (“can teach”) is…",
+     "id": "Di tangga kedalaman, bukti terbaik untuk anak tangga 4 (“bisa mengajarkan”) adalah…"
     },
     "opts": [
      {
       "en": "A certificate",
-      "id": "Sebuah sertifikat"
+      "id": "Sertifikat"
      },
      {
       "en": "Your own rating",
@@ -268,17 +268,17 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Someone you trained who now does it, or a guide you wrote that others use",
-      "id": "Orang yang kamu latih yang kini mengerjakannya, atau panduan tulisanmu yang dipakai orang lain"
+      "id": "Orang yang kamu latih dan kini mengerjakannya, atau panduan yang kamu tulis dan dipakai orang lain"
      },
      {
       "en": "Years in the role",
-      "id": "Lamanya di peran"
+      "id": "Lamanya kamu di peran itu"
      }
     ],
     "correct": 2,
     "expl": {
-     "en": "Levels stand on evidence someone else could check; teaching leaves a person or an artefact behind.",
-     "id": "Level bertahan di atas bukti yang bisa diperiksa orang lain; mengajar meninggalkan orang atau artefak."
+     "en": "Steps stand on evidence someone else could check; teaching leaves a person or an artefact behind.",
+     "id": "Anak tangga hanya sah kalau buktinya bisa dicek orang lain. Mengajar selalu meninggalkan orang atau artefak."
     }
    },
    {
@@ -286,20 +286,20 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "1.4",
     "q": {
      "en": "You can do cash-flow analysis with a supervisor checking, and every ad for your target role asks for it done independently. This is a…",
-     "id": "Kamu bisa menganalisis arus kas dengan atasan memeriksa, dan setiap iklan untuk peran sasaranmu memintanya dikerjakan mandiri. Ini adalah…"
+     "id": "Kamu bisa menganalisis arus kas kalau ada atasan yang mengecek, sementara setiap iklan untuk peran sasaranmu meminta analisis itu dikerjakan mandiri. Ini adalah…"
     },
     "opts": [
      {
-      "en": "Missing-skill gap",
-      "id": "Celah keterampilan hilang"
+      "en": "Evidence gap",
+      "id": "Celah bukti"
      },
      {
-      "en": "Depth gap",
-      "id": "Celah kedalaman"
+      "en": "Skill gap",
+      "id": "Celah keterampilan"
      },
      {
-      "en": "Reputation gap",
-      "id": "Celah reputasi"
+      "en": "Witness gap",
+      "id": "Celah saksi"
      },
      {
       "en": "No gap",
@@ -308,8 +308,8 @@ window.MT_ASSESS['the-route'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "You have the skill at level 2; the market asks for level 3. Close it with reps and feedback, not a new course.",
-     "id": "Kamu punya keterampilannya di level 2; pasar meminta level 3. Tutup dengan pengulangan dan masukan, bukan kursus baru."
+     "en": "You have the skill at step 2 (with help); the market asks for step 3 (independently). That is a skill gap: close it with supervised practice on real files and feedback, not a new course alone.",
+     "id": "Keterampilanmu ada di anak tangga 2 (dengan bantuan), sedangkan pasar meminta anak tangga 3 (mandiri). Itu celah keterampilan: tutup dengan latihan terawasi pada berkas sungguhan dan masukan, bukan hanya dengan kursus baru."
     }
    },
    {
@@ -317,7 +317,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "1.5",
     "q": {
      "en": "A fictional service bond: Rp 36 juta, reduced by Rp 1.5 juta for every month served. You are offered a move after 10 months. What would leaving cost?",
-     "id": "Ikatan dinas fiktif: Rp 36 juta, berkurang Rp 1,5 juta untuk setiap bulan dijalani. Kamu ditawari pindah setelah 10 bulan. Berapa biaya keluarnya?"
+     "id": "Ikatan dinas fiktif: Rp 36 juta, berkurang Rp 1,5 juta untuk setiap bulan yang dijalani. Kamu ditawari pindah setelah 10 bulan. Berapa biaya keluarnya?"
     },
     "opts": [
      {
@@ -340,27 +340,27 @@ window.MT_ASSESS['the-route'] = {
     "correct": 2,
     "expl": {
      "en": "36 − (10 × 1.5) = 21. It is one reversibility input for the gate, alongside yield, gate progress and life, never the decision on its own. Real bonds are calculated in different ways; read your contract.",
-     "id": "36 − (10 × 1,5) = 21. Ini satu masukan keterbalikan untuk gerbang, bersama hasil, kemajuan gerbang, dan hidup, tidak pernah keputusannya sendiri. Ikatan dinas nyata dihitung dengan berbagai cara; baca kontrakmu."
+     "id": "36 − (10 × 1,5) = 21. Ini satu masukan soal kemudahan dibatalkan untuk gerbang, bersama imbal hasil, kemajuan gerbang, dan kehidupanmu, tetapi tidak pernah menjadi keputusannya sendiri. Ikatan dinas yang sungguhan dihitung dengan cara berbeda-beda; baca kontrakmu."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Two questions. First: which of your four assets is strongest, and what is the evidence someone else could check? Second: name the next decision gate on your own blueprint, its date, its three inputs, and the one tripwire most likely to bring it forward.",
-    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: aset mana dari empat asetmu yang paling kuat, dan apa buktinya yang bisa diperiksa orang lain? Kedua: sebutkan gerbang keputusan berikutnya di cetak birumu, tanggalnya, tiga masukannya, dan satu tripwire yang paling mungkin memajukannya."
+    "id": "Minimal 100 kata. Ada dua pertanyaan. Pertama: dari empat asetmu, mana yang paling kuat, dan apa buktinya yang bisa dicek orang lain? Kedua: sebutkan gerbang keputusan berikutnya di cetak birumu, tanggalnya, tiga masukannya, dan satu pemicu yang paling mungkin memajukannya."
    },
    "guide": [
     {
      "en": "Name a person or an artefact as evidence, not an adjective.",
-     "id": "Sebutkan orang atau artefak sebagai bukti, bukan kata sifat."
+     "id": "Sebut orang atau artefak sebagai bukti, bukan kata sifat."
     },
     {
      "en": "Put a real date on the gate.",
-     "id": "Beri tanggal nyata pada gerbangnya."
+     "id": "Beri gerbangnya tanggal yang nyata."
     },
     {
      "en": "A tripwire is observable: “three empty Fridays”, not “if I feel stuck”.",
-     "id": "Tripwire bisa diamati: “tiga Jumat kosong”, bukan “jika aku merasa buntu”."
+     "id": "Pemicu harus bisa diamati: “tiga Jumat kosong”, bukan “kalau aku merasa buntu”."
     }
    ],
    "min": 100
@@ -377,29 +377,29 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Two measurement systems, the manager’s scoreboard, criteria into evidence, invisible criteria, gaming.",
-     "id": "Dua sistem pengukuran, papan skor manajer, kriteria menjadi bukti, kriteria tak terlihat, mengakali."
+     "id": "Dua sistem pengukuran, papan skor atasan, kriteria menjadi bukti, kriteria tak terlihat, mengakali ukuran."
     }
    },
    {
     "lesson": "2.2",
     "h": {
      "en": "Visible Contribution Without Self-Promotion",
-     "id": "Kontribusi yang Terlihat, Tanpa Promosi Diri"
+     "id": "Kontribusi yang Terlihat Tanpa Memuji Diri"
     },
     "sub": {
      "en": "Legibility, the weekly line, artefacts that travel, credit, a voice in the room.",
-     "id": "Keterbacaan, baris mingguan, artefak yang berjalan sendiri, pujian, suara di ruangan."
+     "id": "Keterbacaan, laporan mingguan, artefak yang beredar, pujian untuk orang lain, suara di ruang rapat."
     }
    },
    {
     "lesson": "2.3",
     "h": {
      "en": "Seeking and Acting on Developmental Feedback",
-     "id": "Mencari dan Menindaklanjuti Umpan Balik"
+     "id": "Mencari dan Menindaklanjuti Masukan untuk Berkembang"
     },
     "sub": {
      "en": "Specific questions, triggers, hold–clarify–thank, sorting, closing the loop.",
-     "id": "Pertanyaan spesifik, pemicu, tahan–perjelas–terima kasih, memilah, menutup lingkaran."
+     "id": "Pertanyaan spesifik, pemicu reaksi, tahan–perjelas–berterima kasih, memilah, menutup lingkaran."
     }
    },
    {
@@ -410,7 +410,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Load bands, the trade-off, recovery rules, early warning signs.",
-     "id": "Pita beban, pertukaran, aturan pemulihan, tanda peringatan dini."
+     "id": "Lapis beban, tukar prioritas, aturan pemulihan, tanda bahaya awal."
     }
    },
    {
@@ -421,7 +421,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Applying rating rules honestly and calculating a weighted score.",
-     "id": "Menerapkan aturan peringkat dengan jujur dan menghitung skor tertimbang."
+     "id": "Menerapkan aturan peringkat dengan jujur dan menghitung skor berbobot."
     }
    }
   ],
@@ -440,11 +440,11 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "A meeting where managers compare draft ratings across teams so the scale means the same everywhere",
-      "id": "Rapat tempat manajer membandingkan draf peringkat lintas tim agar skalanya bermakna sama di mana pun"
+      "id": "Rapat tempat para atasan membandingkan draf peringkat lintas tim supaya skalanya berarti sama di mana pun"
      },
      {
       "en": "Setting goals at the start of the year",
-      "id": "Menetapkan sasaran di awal tahun"
+      "id": "Penetapan sasaran di awal tahun"
      },
      {
       "en": "The salary increase",
@@ -454,7 +454,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Your manager has to defend your rating to peers who do not know you, with the examples you supplied during the year.",
-     "id": "Manajermu harus membela peringkatmu di depan rekan yang tidak mengenalmu; dengan contoh yang kamu berikan sepanjang tahun."
+     "id": "Atasanmu harus membela peringkatmu di depan rekan-rekannya yang tidak mengenalmu, dengan contoh-contoh yang kamu berikan sepanjang tahun."
     }
    },
    {
@@ -462,16 +462,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "2.1",
     "q": {
      "en": "A colleague improves turnaround by submitting memos with the risk section “to follow”. Applying the gaming test, this is…",
-     "id": "Seorang rekan memperbaiki waktu penyelesaian dengan mengirim memo yang bagian risikonya “menyusul”. Dengan uji mengakali, ini adalah…"
+     "id": "Seorang rekan memperbaiki waktu prosesnya dengan mengirim memo yang bagian risikonya bertanda “menyusul”. Menurut uji mengakali, ini adalah…"
     },
     "opts": [
      {
       "en": "Alignment: the number went up",
-      "id": "Penyelarasan: angkanya naik"
+      "id": "Menyelaraskan diri: angkanya naik"
      },
      {
       "en": "Gaming: the number moved but the reality it measures did not",
-      "id": "Mengakali: angkanya bergerak tetapi kenyataan yang diukurnya tidak"
+      "id": "Mengakali: angkanya bergerak, tetapi kenyataan yang diukurnya tidak"
      },
      {
       "en": "Initiative",
@@ -479,13 +479,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Acceptable if the manager does not notice",
-      "id": "Boleh jika manajer tidak menyadarinya"
+      "id": "Tidak masalah asal atasan tidak menyadarinya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Goodhart’s law: when a measure becomes a target it can be moved without the reality, and it teaches your manager to check your numbers.",
-     "id": "Hukum Goodhart: ketika ukuran menjadi target, ia bisa digerakkan tanpa kenyataannya, dan mengajari manajermu memeriksa angkamu."
+     "id": "Hukum Goodhart: ketika sebuah ukuran dijadikan target, angkanya bisa digerakkan tanpa kenyataannya ikut bergerak, dan itu mengajari atasanmu untuk mengecek ulang angka-angkamu."
     }
    },
    {
@@ -493,12 +493,12 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "2.2",
     "q": {
      "en": "A good weekly line to your manager contains…",
-     "id": "Baris mingguan yang baik ke manajermu memuat…"
+     "id": "Laporan mingguan yang baik untuk atasanmu berisi…"
     },
     "opts": [
      {
       "en": "Adjectives about your effort",
-      "id": "Kata sifat tentang usahamu"
+      "id": "Kata sifat tentang kerja kerasmu"
      },
      {
       "en": "Done (with a number), next (by when), blocked (or none)",
@@ -506,7 +506,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Every task you did, in detail",
-      "id": "Setiap tugas yang kamu kerjakan, secara rinci"
+      "id": "Semua tugas yang kamu kerjakan, secara rinci"
      },
      {
       "en": "Only problems",
@@ -516,7 +516,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Fifteen to forty words, useful to the reader, and a dated record for December.",
-     "id": "Lima belas sampai empat puluh kata, berguna bagi pembaca, dan catatan bertanggal untuk Desember."
+     "id": "Lima belas sampai empat puluh kata, berguna bagi pembacanya, dan menjadi catatan bertanggal untuk bulan Desember."
     }
    },
    {
@@ -524,16 +524,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "2.2",
     "q": {
      "en": "Your analysis is presented by a colleague at a regional meeting without your name, for the first time. The best response is…",
-     "id": "Analisismu dipresentasikan rekan di rapat regional tanpa namamu, untuk pertama kali. Respons terbaik adalah…"
+     "id": "Untuk pertama kalinya, analisismu dipresentasikan seorang rekan di rapat regional tanpa menyebut namamu. Respons terbaiknya adalah…"
     },
     "opts": [
      {
       "en": "Correct the record in the meeting",
-      "id": "Meluruskan di rapat"
+      "id": "Meluruskannya di dalam rapat"
      },
      {
       "en": "Record it factually in your weekly line; ask privately only if it repeats",
-      "id": "Mencatatnya secara faktual di baris mingguan; bertanya secara pribadi hanya jika terulang"
+      "id": "Mencatatnya dengan datar di laporan mingguan, dan baru bertanya secara pribadi kalau terulang"
      },
      {
       "en": "Complain to the team",
@@ -541,13 +541,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Stop sharing analyses",
-      "id": "Berhenti berbagi analisis"
+      "id": "Berhenti membagikan analisis"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The record reaches your manager and nobody loses face.",
-     "id": "Catatannya sampai ke manajermu dan tak ada yang kehilangan muka."
+     "id": "Catatannya sampai ke atasanmu, dan tidak ada yang kehilangan muka."
     }
    },
    {
@@ -555,7 +555,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "2.3",
     "q": {
      "en": "“She has no right to tell me that” is, in Stone and Heen’s terms, a…",
-     "id": "“Dia tidak berhak bilang begitu” adalah, dalam istilah Stone dan Heen, sebuah…"
+     "id": "“Dia tidak berhak bilang begitu,” dalam istilah Stone dan Heen, adalah…"
     },
     "opts": [
      {
@@ -572,13 +572,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Proof the feedback is wrong",
-      "id": "Bukti umpan baliknya salah"
+      "id": "Bukti bahwa masukannya salah"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The reaction is about the giver, not the content; separate them and hear the content first.",
-     "id": "Reaksinya tentang pemberi, bukan isinya; pisahkan dan dengar isinya dulu."
+     "id": "Reaksinya tertuju pada pemberinya, bukan isinya. Pisahkan keduanya, dan dengarkan isinya lebih dulu."
     }
    },
    {
@@ -586,12 +586,12 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "2.3",
     "q": {
      "en": "Three one-on-ones in a row end with “Ada masukan, Pak?” → “Sudah bagus.” What should change?",
-     "id": "Tiga one-on-one berturut-turut berakhir dengan “Ada masukan, Pak?” → “Sudah bagus.” Apa yang harus berubah?"
+     "id": "Tiga sesi empat mata berturut-turut berakhir dengan “Ada masukan, Pak?” → “Sudah bagus.” Apa yang harus berubah?"
     },
     "opts": [
      {
       "en": "Nothing: the manager is satisfied",
-      "id": "Tidak ada: manajernya puas"
+      "id": "Tidak ada: atasannya sudah puas"
      },
      {
       "en": "The question: ask about one artefact, moment or change",
@@ -609,7 +609,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "General questions get general politeness; specific ones make an honest answer easy.",
-     "id": "Pertanyaan umum mendapat kesopanan umum; yang spesifik membuat jawaban jujur mudah."
+     "id": "Pertanyaan yang umum mendapat basa-basi yang umum; pertanyaan yang spesifik membuat jawaban jujur jadi mudah."
     }
    },
    {
@@ -617,7 +617,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "2.4",
     "q": {
      "en": "Wednesday afternoon your manager asks for an urgent memo by Thursday, which is already full. The best answer is…",
-     "id": "Rabu sore manajermu meminta memo mendesak untuk Kamis, yang sudah penuh. Jawaban terbaik adalah…"
+     "id": "Rabu sore, atasanmu meminta memo mendesak untuk hari Kamis, padahal Kamis sudah penuh. Jawaban terbaiknya adalah…"
     },
     "opts": [
      {
@@ -634,13 +634,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Say nothing and see what happens",
-      "id": "Diam dan lihat yang terjadi"
+      "id": "Diam saja dan lihat apa yang terjadi"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "The trade-off: willing, specific about what moves, and the owner of the priorities decides.",
-     "id": "Pertukaran: bersedia, spesifik soal apa yang bergeser, dan pemilik prioritas yang memutuskan."
+     "id": "Tukar prioritas: bersedia, spesifik soal apa yang bergeser, dan pemegang prioritas yang memutuskan."
     }
    },
    {
@@ -648,7 +648,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "2.4",
     "q": {
      "en": "WHO ICD-11 describes burnout by three dimensions. Which is NOT one of them?",
-     "id": "ICD-11 WHO menggambarkan burnout dengan tiga dimensi. Mana yang BUKAN salah satunya?"
+     "id": "ICD-11 dari WHO menggambarkan burnout lewat tiga dimensi. Mana yang BUKAN salah satunya?"
     },
     "opts": [
      {
@@ -661,17 +661,17 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Reduced professional efficacy",
-      "id": "Efektivitas profesional menurun"
+      "id": "Efektivitas profesional yang menurun"
      },
      {
       "en": "Low intelligence",
-      "id": "Kecerdasan rendah"
+      "id": "Kecerdasan yang rendah"
      }
     ],
     "correct": 3,
     "expl": {
      "en": "Burnout is an occupational phenomenon from unmanaged chronic workplace stress, not a trait of the person.",
-     "id": "Burnout adalah fenomena pekerjaan akibat stres kerja kronis yang tak terkelola, bukan sifat orangnya."
+     "id": "Burnout adalah fenomena pekerjaan akibat stres kerja kronis yang tidak terkelola, bukan sifat bawaan orangnya."
     }
    },
    {
@@ -679,7 +679,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "2.5",
     "q": {
      "en": "Goals weighted 30, 20, 10 are rated 3, 4, 2; competencies weighted 20, 20 are rated 3, 3. The weighted score is…",
-     "id": "Sasaran berbobot 30, 20, 10 dinilai 3, 4, 2; kompetensi berbobot 20, 20 dinilai 3, 3. Skor tertimbangnya adalah…"
+     "id": "Sasaran berbobot 30, 20, 10 mendapat nilai 3, 4, 2; kompetensi berbobot 20, 20 mendapat nilai 3, 3. Skor berbobotnya adalah…"
     },
     "opts": [
      {
@@ -702,14 +702,14 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "90 + 80 + 20 + 60 + 60 = 310, divided by 100 = 3.10. Calibration usually starts from this number and then argues with evidence.",
-     "id": "90 + 80 + 20 + 60 + 60 = 310, dibagi 100 = 3,10. Kalibrasi biasanya dimulai dari angka ini lalu berargumen dengan bukti."
+     "id": "90 + 80 + 20 + 60 + 60 = 310, dibagi 100 = 3,10. Kalibrasi biasanya dimulai dari angka ini, lalu berargumen dengan bukti."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Two questions. First: which criterion in your own performance system is your manager most likely to under-rate you on today, and what evidence would change that by the next review? Second: write the weekly line you will send this Friday, and name the one person you will ask a specific feedback question next week, with the question.",
-    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: kriteria mana di sistem kinerjamu sendiri yang kemungkinan dinilai rendah oleh manajermu hari ini, dan bukti apa yang akan mengubahnya sebelum penilaian berikutnya? Kedua: tulis baris mingguan yang akan kamu kirim Jumat ini, dan sebutkan satu orang yang akan kamu ajukan pertanyaan umpan balik spesifik minggu depan, beserta pertanyaannya."
+    "id": "Minimal 100 kata. Ada dua pertanyaan. Pertama: di sistem kinerjamu sendiri, kriteria mana yang hari ini paling mungkin dinilai rendah oleh atasanmu, dan bukti apa yang bisa mengubahnya sebelum penilaian berikutnya? Kedua: tulis laporan mingguan yang akan kamu kirim Jumat ini, lalu sebutkan satu orang yang akan kamu beri pertanyaan masukan yang spesifik minggu depan, lengkap dengan pertanyaannya."
    },
    "guide": [
     {
@@ -722,7 +722,7 @@ window.MT_ASSESS['the-route'] = {
     },
     {
      "en": "The feedback question should be impossible to answer with “sudah bagus”.",
-     "id": "Pertanyaan umpan balik harus tak mungkin dijawab dengan “sudah bagus”."
+     "id": "Pertanyaan masukanmu harus mustahil dijawab dengan “sudah bagus”."
     }
    ],
    "min": 100
