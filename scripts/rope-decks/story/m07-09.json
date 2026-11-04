@@ -63,8 +63,8 @@
   ] },
   "9.1": { "s": [
     { "t": { "en": "One target, one question set, timed answers, feedback, one change, repeat; then stop at three to five", "id": "Satu target, satu set pertanyaan, jawaban berwaktu, umpan balik, satu perubahan, ulangi; lalu berhenti di tiga sampai lima" } },
-    { "t": { "en": "Spacing beats cramming: one, three and seven days, then again before the interview", "id": "Jeda mengalahkan sistem kebut: satu, tiga, dan tujuh hari, lalu lagi sebelum wawancara" } },
-    { "t": { "en": "Climb five realism levels; move up when your scores stabilise, not when you feel ready", "id": "Naiki lima tingkat realisme: naik saat nilaimu stabil, bukan saat merasa siap" } },
+    { "t": { "en": "Spacing beats cramming: one, three and seven days, then again before the interview", "id": "Latihan berjarak mengalahkan kebut semalam: satu, tiga, dan tujuh hari, lalu sekali lagi sebelum wawancara" } },
+    { "t": { "en": "Climb five realism levels; move up when your scores stabilise, not when you feel ready", "id": "Naiki lima tingkat realisme: naik saat nilaimu stabil, bukan saat kamu merasa siap" } },
     { "t": { "en": "Memorise facts and structure, never sentences; scripts do not survive probing", "id": "Hafalkan fakta dan struktur, jangan pernah kalimat; naskah tidak bertahan saat digali" },
       "lay": "compare", "items": [
         { "l": { "en": "Memorise", "id": "Hafalkan" }, "en": "Your five points, story facts and numbers, company facts, your salary range, your questions.", "id": "Lima poinmu, fakta dan angka cerita, fakta perusahaan, rentang gajimu, pertanyaanmu." },
@@ -72,37 +72,37 @@
   ] },
   "9.2": { "s": [
     { "t": { "en": "The simulator measures structure, language, numbers and pace from the transcript, not your face or your ideas", "id": "Simulator mengukur struktur, bahasa, angka, dan tempo dari transkrip, bukan wajahmu atau gagasanmu" } },
-    { "t": { "en": "Read the debrief evidence first, number last", "id": "Baca debrief dari buktinya dulu, angkanya terakhir" } },
-    { "t": { "en": "Fix the lowest dimension with the biggest gap; one fix, then redo the same question immediately", "id": "Perbaiki dimensi terendah dengan celah terbesar; satu perbaikan, lalu ulangi pertanyaan yang sama segera" } },
-    { "t": { "en": "Trends over three or more sessions beat single scores, and note where the rules misread you", "id": "Tren tiga sesi atau lebih mengalahkan nilai tunggal, dan catat di mana aturannya salah membaca" } }
+    { "t": { "en": "Read the debrief evidence first, number last", "id": "Baca evaluasi mulai dari buktinya, angkanya paling akhir" } },
+    { "t": { "en": "Fix the lowest dimension with the biggest gap; one fix, then redo the same question immediately", "id": "Perbaiki dimensi terendah dengan celah terbesar; satu perbaikan, lalu langsung ulangi pertanyaan yang sama" } },
+    { "t": { "en": "Trends over three or more sessions beat single scores, and note where the rules misread you", "id": "Tren dari tiga sesi atau lebih lebih bisa dipercaya daripada satu nilai, dan catat saat aturannya salah membaca" } }
   ] },
   "9.3": { "s": [
-    { "t": { "en": "Three roles, twenty-minute rounds, rotate, two people works too", "id": "Tiga peran, putaran dua puluh menit, bergilir, berdua pun bisa" } },
-    { "t": { "en": "The peer scorecard uses the same anchors, filled during the round with quotes and timestamps", "id": "Kartu skor rekan memakai jangkar yang sama, diisi selama putaran dengan kutipan dan penanda waktu" } },
-    { "t": { "en": "Feedback is one strength and one fix in their words, then a five-minute retry", "id": "Umpan balik adalah satu kekuatan dan satu perbaikan dalam kata-kata mereka, lalu coba ulang lima menit" } },
-    { "t": { "en": "Group discussions need a group, four or five friends, a brief, the scorecard, one observer", "id": "Diskusi kelompok butuh kelompok: empat atau lima teman, arahan, kartu skor, satu pengamat" } }
+    { "t": { "en": "Three roles, twenty-minute rounds, rotate; two people works too", "id": "Tiga peran, babak dua puluh menit, bergiliran; berdua pun bisa" } },
+    { "t": { "en": "The peer scorecard uses the same anchors, filled during the round with quotes and timestamps", "id": "Lembar penilaian teman memakai jangkar yang sama, diisi selama babak dengan kutipan dan menit" } },
+    { "t": { "en": "Feedback is one strength and one fix in their words, then a five-minute retry", "id": "Masukan berisi satu kekuatan dan satu perbaikan dari kata-katanya sendiri, lalu ulangi lima menit" } },
+    { "t": { "en": "Group discussions need a group: four or five friends, a brief, the scorecard, one observer", "id": "Diskusi kelompok butuh kelompok: empat atau lima teman, satu kasus, lembar penilaian, satu pengamat" } }
   ] },
   "9.4": { "s": [
-    { "t": { "en": "Aim for 120–160 words a minute, pause before key points, reduce fillers without eliminating them", "id": "Targetkan 120–160 kata per menit, jeda sebelum poin kunci, kurangi kata pengisi tanpa menghilangkannya" } },
-    { "t": { "en": "Presence is a short checklist you can self-review; the tool does not score your face", "id": "Kehadiran adalah daftar periksa singkat yang bisa kamu tinjau sendiri, alat tidak menilai wajahmu" },
+    { "t": { "en": "Aim for 120–160 words a minute, pause before key points, reduce fillers without eliminating them", "id": "Bidik 120–160 kata per menit, beri jeda sebelum poin penting, kurangi kata pengisi tanpa menghapusnya" } },
+    { "t": { "en": "Presence is a short checklist you can self-review; the tool does not score your face", "id": "Sikap adalah daftar periksa pendek yang bisa kamu tinjau sendiri; alat tidak menilai wajahmu" },
       "lay": "grid", "items": [
-        { "en": "Upright and relaxed", "id": "Tegak dan santai" }, { "en": "Natural eye contact: the lens for key points on video", "id": "Kontak mata alami: lensa untuk poin kunci di video" }, { "en": "Hands visible and mostly still", "id": "Tangan terlihat dan sebagian besar diam" }, { "en": "A genuine greeting", "id": "Salam yang tulus" }, { "en": "Dress one level above the daily norm: formal for banks and state enterprises", "id": "Berpakaian satu tingkat di atas norma harian: formal untuk bank dan BUMN" } ],
-      "take": { "en": "A self-review against a checklist; the tool does not score your face.", "id": "Tinjauan diri terhadap daftar periksa; alat tidak menilai wajahmu." } },
-    { "t": { "en": "Set the room before the call, eye-level camera, light on your face, connection tested, apps closed", "id": "Siapkan ruangan sebelum panggilan: kamera setinggi mata, cahaya ke wajah, koneksi diuji, aplikasi ditutup" },
+        { "en": "Upright and relaxed", "id": "Tegak dan santai" }, { "en": "Natural eye contact: the lens for key points on video", "id": "Kontak mata yang wajar: ke lensa untuk poin penting saat video" }, { "en": "Hands visible and mostly still", "id": "Tangan terlihat dan lebih banyak diam" }, { "en": "A genuine greeting", "id": "Salam yang tulus" }, { "en": "Dress one level above the daily norm: formal for banks and state enterprises", "id": "Pakaian satu tingkat di atas kebiasaan sehari-hari: formal untuk bank dan BUMN" } ],
+      "take": { "en": "A self-review against a checklist; the tool does not score your face.", "id": "Tinjauan diri dengan daftar periksa; alat tidak menilai wajahmu." } },
+    { "t": { "en": "Set the room before the call: eye-level camera, light on your face, connection tested, apps closed", "id": "Siapkan ruangan sebelum panggilan: kamera sejajar mata, cahaya ke wajah, koneksi dites, aplikasi ditutup" },
       "lay": "grid", "items": [
-        { "en": "Camera at eye level", "id": "Kamera setinggi mata" }, { "en": "Light facing you", "id": "Cahaya menghadapmu" }, { "en": "Neutral background", "id": "Latar netral" }, { "en": "Connection tested thirty minutes before", "id": "Koneksi diuji tiga puluh menit sebelumnya" },
-        { "en": "Headphones", "id": "Headphone" }, { "en": "Keyword notes near the lens", "id": "Catatan kata kunci dekat lensa" }, { "en": "Other apps closed", "id": "Aplikasi lain ditutup" }, { "en": "Phone silent", "id": "Ponsel senyap" } ],
-      "take": { "en": "One-way video: real timers; usually no retake.", "id": "Video satu arah: pengatur waktu sungguhan; biasanya tanpa pengulangan." } },
-    { "t": { "en": "Nerves are normal and less visible than you think; realistic practice is the most reliable remedy", "id": "Gugup itu normal dan tak sejelas yang kamu kira; latihan realistis adalah obat paling andal" } }
+        { "en": "Camera at eye level", "id": "Kamera sejajar mata" }, { "en": "Light facing you", "id": "Cahaya dari depan" }, { "en": "Neutral background", "id": "Latar polos" }, { "en": "Connection tested thirty minutes before", "id": "Koneksi dites tiga puluh menit sebelumnya" },
+        { "en": "Headphones", "id": "Headphone" }, { "en": "Keyword notes near the lens", "id": "Catatan kata kunci di dekat lensa" }, { "en": "Other apps closed", "id": "Aplikasi lain ditutup" }, { "en": "Phone silent", "id": "Ponsel senyap" } ],
+      "take": { "en": "One-way video: real timers; usually no retake.", "id": "Video satu arah: pengatur waktunya sungguhan; biasanya tidak bisa diulang." } },
+    { "t": { "en": "Nerves are normal and less visible than you think; realistic practice is the most reliable remedy", "id": "Rasa gugup itu wajar dan tidak setampak yang kamu kira; latihan yang realistis adalah obat paling andal" } }
   ] },
   "9.5": { "s": [
-    { "t": { "en": "Days 10–8: decode the posting, run the research sprint, predict twelve questions, take a baseline", "id": "Hari 10–8: bedah lowongan, jalankan sprint riset, prediksi dua belas pertanyaan, ambil garis dasar" } },
-    { "t": { "en": "Days 7–3: refresh stories and opening, then rehearse the exact format at realism level 3–4", "id": "Hari 7–3: segarkan cerita dan pembuka, lalu latih format persisnya di tingkat realisme 3–4" } },
-    { "t": { "en": "Day 2 is human; day 1 is light; sleep is preparation, anxiety rehearsal is not", "id": "Hari 2 bersama manusia; hari 1 ringan; tidur adalah persiapan, melatih kecemasan bukan" } },
-    { "t": { "en": "Arrive early, be courteous from the security desk on, and debrief within an hour", "id": "Datang lebih awal, sopan sejak meja keamanan, dan debrief dalam satu jam" } }
+    { "t": { "en": "Days 10–8: decode the posting, run the research sprint, predict twelve questions, take a baseline", "id": "Hari 10–8: bedah lowongan, jalankan sprint riset, prediksi dua belas pertanyaan, ambil titik awal" } },
+    { "t": { "en": "Days 7–3: refresh stories and opening, then rehearse the exact format at realism level 3–4", "id": "Hari 7–3: segarkan cerita dan pembuka, lalu latih format yang persis sama di tingkat realisme 3–4" } },
+    { "t": { "en": "Day 2 is human; day 1 is light; sleep is preparation, anxiety rehearsal is not", "id": "Hari 2 bersama manusia; hari 1 ringan; tidur itu persiapan, mengulang-ulang kecemasan bukan" } },
+    { "t": { "en": "Arrive early, be courteous from the security desk on, and debrief within an hour", "id": "Datang lebih awal, sopan sejak meja satpam, dan evaluasi dalam satu jam" } }
   ] },
   "9.6": { "s": [
-    { "t": { "en": "Run the capstone in process order over several days, guidance off, camera on", "id": "Jalankan capstone dalam urutan proses selama beberapa hari, panduan mati, kamera menyala" } },
-    { "t": { "en": "The simulation record and the improvement log are the Kit item; you check the criteria yourself", "id": "Catatan simulasi dan log perbaikan adalah butir Kit, kamu memeriksa kriterianya sendiri" } }
+    { "t": { "en": "Run the capstone in process order over several days, guidance off, camera on", "id": "Jalankan proyek akhir sesuai urutan proses dalam beberapa hari, panduan mati, kamera menyala" } },
+    { "t": { "en": "The simulation record and the improvement log are the Kit item; you check the criteria yourself", "id": "Catatan simulasi dan catatan perbaikan adalah isi Perangkat Wawancara; kriterianya kamu periksa sendiri" } }
   ] }
 }
