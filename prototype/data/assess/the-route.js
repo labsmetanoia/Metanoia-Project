@@ -2187,18 +2187,18 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Five kinds of capital, the S-curve, good and weak reasons, the now-versus-12-months ledger.",
-     "id": "Lima jenis modal, kurva S, alasan baik dan lemah, neraca sekarang-versus-12-bulan."
+     "id": "Lima jenis modal, kurva S, alasan yang kuat dan yang lemah, neraca sekarang dibanding 12 bulan lagi."
     }
    },
    {
     "lesson": "7.2",
     "h": {
      "en": "Evaluating Your Next Role",
-     "id": "Menilai Peran Berikutmu"
+     "id": "Menilai Peran Berikutnya"
     },
     "sub": {
      "en": "Four lenses, the manager and the empty seat, gates and weights, reality tests.",
-     "id": "Empat lensa, manajer dan kursi kosong, gerbang dan bobot, uji kenyataan."
+     "id": "Empat lensa, atasan dan kursi yang kosong, syarat mutlak dan bobot, uji kenyataan."
     }
    },
    {
@@ -2209,18 +2209,18 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "The mobility ladder, posting rules and two markets, the manager conversation, landing.",
-     "id": "Tangga mobilitas, aturan lowongan dan dua pasar, percakapan dengan manajer, pendaratan."
+     "id": "Tangga mobilitas, aturan lowongan dan dua pasar, percakapan dengan atasan, mendarat di tempat baru."
     }
    },
    {
     "lesson": "7.4",
     "h": {
      "en": "Executing the External Transition",
-     "id": "Menjalankan Peralihan ke Luar"
+     "id": "Menjalankan Kepindahan ke Luar"
     },
     "sub": {
      "en": "Discreet search, sign before you resign, notice and counter-offers, leaving well.",
-     "id": "Pencarian diam-diam, tanda tangan sebelum mundur, pemberitahuan dan tawaran balik, pergi dengan baik."
+     "id": "Mencari dengan diam-diam, tanda tangan dulu baru mundur, masa pemberitahuan dan tawaran balik, pergi dengan baik."
     }
    },
    {
@@ -2231,7 +2231,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Stay, inside or outside, decided on evidence, with the contract read.",
-     "id": "Bertahan, di dalam, atau ke luar, diputuskan berdasarkan bukti, dengan kontrak terbaca."
+     "id": "Bertahan, pindah di dalam, atau pindah keluar, diputuskan berdasarkan bukti, dengan kontrak yang sudah dibaca."
     }
    }
   ],
@@ -2241,30 +2241,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "7.1",
     "q": {
      "en": "On the S-curve of a role, the strongest default for considering a move is…",
-     "id": "Di kurva S sebuah peran, bawaan terkuat untuk mempertimbangkan pindah adalah…"
+     "id": "Di kurva S sebuah peran, waktu bawaan yang paling kuat untuk mempertimbangkan pindah adalah…"
     },
     "opts": [
      {
       "en": "The launch phase, while motivation is high",
-      "id": "Fase awal, saat motivasi tinggi"
+      "id": "Tahap awal, selagi semangat masih tinggi"
      },
      {
       "en": "The steep middle, when you are stretched",
-      "id": "Bagian tengah yang curam, saat kamu teregang"
+      "id": "Bagian tengah yang menanjak, saat kamu sedang tertantang"
      },
      {
       "en": "The flat top, after trying to restart the curve inside",
-      "id": "Puncak yang datar, setelah mencoba memulai ulang kurva di dalam"
+      "id": "Puncak yang datar, setelah mencoba memulai ulang kurvanya di dalam"
      },
      {
       "en": "Any time an offer arrives",
-      "id": "Kapan pun tawaran datang"
+      "id": "Kapan saja ada tawaran datang"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "At the top, learning slows while your capital is most visible.",
-     "id": "Di puncak, pembelajaran melambat sementara modalmu paling terlihat."
+     "id": "Di puncak, pembelajaranmu melambat sementara modalmu sedang paling terlihat."
     }
    },
    {
@@ -2272,16 +2272,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "7.1",
     "q": {
      "en": "An attractive offer would start two months before your project’s results and inside a training bond. The best first step is…",
-     "id": "Tawaran menarik akan dimulai dua bulan sebelum hasil proyekmu dan di dalam masa ikatan dinas. Langkah pertama terbaik adalah…"
+     "id": "Sebuah tawaran menarik akan dimulai dua bulan sebelum hasil proyekmu keluar dan masih di dalam masa ikatan dinas. Langkah pertama yang terbaik adalah…"
     },
     "opts": [
      {
       "en": "Accept at once: offers do not wait",
-      "id": "Langsung menerima: tawaran tak menunggu"
+      "id": "Langsung menerima, karena tawaran tidak menunggu"
      },
      {
       "en": "Write the ledger: money, story, relationships, window, life",
-      "id": "Menulis neraca: uang, cerita, hubungan, jendela, hidup"
+      "id": "Menulis neracanya: uang, cerita, hubungan, momen, hidup"
      },
      {
       "en": "Decline without replying",
@@ -2289,13 +2289,13 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Ask your manager to match it",
-      "id": "Meminta manajermu menyamainya"
+      "id": "Meminta atasanmu menyamai tawarannya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Make both options concrete before comparing; the story and bond lines both argue for later.",
-     "id": "Buat kedua pilihan konkret sebelum membandingkan; baris cerita dan ikatan dinas sama-sama mendukung nanti."
+     "id": "Buat kedua pilihan konkret sebelum membandingkannya; baris cerita dan ikatan dinas sama-sama mendukung pindah belakangan."
     }
    },
    {
@@ -2303,7 +2303,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "7.2",
     "q": {
      "en": "When should you set the weights for comparing roles?",
-     "id": "Kapan kamu sebaiknya menetapkan bobot untuk membandingkan peran?"
+     "id": "Kapan sebaiknya kamu menetapkan bobot untuk membandingkan peran?"
     },
     "opts": [
      {
@@ -2316,17 +2316,17 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Only for external roles",
-      "id": "Hanya untuk peran eksternal"
+      "id": "Hanya untuk peran di luar"
      },
      {
       "en": "Never: decide by feel",
-      "id": "Tidak pernah: putuskan berdasarkan rasa"
+      "id": "Tidak perlu, putuskan dengan perasaan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Otherwise the salary quietly rewrites your priorities.",
-     "id": "Jika tidak, gaji diam-diam menulis ulang prioritasmu."
+     "id": "Kalau tidak, gaji diam-diam akan menulis ulang prioritasmu."
     }
    },
    {
@@ -2334,30 +2334,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "7.2",
     "q": {
      "en": "A “Head” role pays well, but the seat has emptied twice in 18 months and the manager cannot describe success at 90 days. This suggests…",
-     "id": "Peran “Head” bergaji baik, tetapi kursinya kosong dua kali dalam 18 bulan dan manajernya tak bisa menggambarkan keberhasilan di 90 hari. Ini menandakan…"
+     "id": "Sebuah peran “Head” bergaji tinggi, tetapi kursinya sudah dua kali kosong dalam 18 bulan dan atasannya tidak bisa menjelaskan keberhasilan di hari ke-90. Ini menandakan…"
     },
     "opts": [
      {
       "en": "A great opportunity to be the one who stays",
-      "id": "Kesempatan emas untuk menjadi yang bertahan"
+      "id": "Peluang emas untuk menjadi orang yang bertahan"
      },
      {
       "en": "Red flags on the manager and team lenses to test before deciding",
-      "id": "Tanda bahaya di lensa manajer dan tim yang perlu diuji sebelum memutuskan"
+      "id": "Tanda bahaya di lensa atasan dan tim yang perlu diuji sebelum memutuskan"
      },
      {
       "en": "Nothing: titles matter most",
-      "id": "Tidak ada: jabatan paling penting"
+      "id": "Tidak ada apa-apa, jabatan yang paling penting"
      },
      {
       "en": "You should ask for more money",
-      "id": "Kamu harus meminta uang lebih"
+      "id": "Kamu sebaiknya meminta gaji lebih tinggi"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Why the seat is empty, and whether the role is designed, reveal the real job.",
-     "id": "Mengapa kursinya kosong, dan apakah perannya sudah dirancang, mengungkap pekerjaan sebenarnya."
+     "id": "Kenapa kursinya kosong, dan apakah perannya sudah dirancang, mengungkap pekerjaan yang sebenarnya."
     }
    },
    {
@@ -2365,16 +2365,16 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "7.3",
     "q": {
      "en": "Bidwell’s research on internal versus external hires suggests that internal movers…",
-     "id": "Riset Bidwell tentang rekrutan internal versus eksternal menunjukkan bahwa orang yang pindah di dalam…"
+     "id": "Riset Bidwell tentang karyawan internal dan karyawan dari luar menunjukkan bahwa orang yang pindah di dalam…"
     },
     "opts": [
      {
       "en": "Are always paid more",
-      "id": "Selalu dibayar lebih"
+      "id": "Selalu dibayar lebih tinggi"
      },
      {
       "en": "Keep capital that external hires must rebuild, and often perform better early",
-      "id": "Mempertahankan modal yang harus dibangun ulang rekrutan eksternal, dan sering berkinerja lebih baik di awal"
+      "id": "Membawa modal yang harus dibangun ulang oleh karyawan dari luar, dan sering berkinerja lebih baik di awal"
      },
      {
       "en": "Are rarely promoted again",
@@ -2388,7 +2388,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "External hires were often paid more yet rated lower early on.",
-     "id": "Rekrutan eksternal sering dibayar lebih tinggi tetapi dinilai lebih rendah di awal."
+     "id": "Karyawan dari luar sering dibayar lebih tinggi, tetapi dinilai lebih rendah di awal."
     }
    },
    {
@@ -2396,30 +2396,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "7.3",
     "q": {
      "en": "You want to apply for an internal role. Your manager does not know yet. You…",
-     "id": "Kamu ingin melamar peran internal. Manajermu belum tahu. Kamu…"
+     "id": "Kamu ingin melamar peran internal, dan atasanmu belum tahu. Kamu…"
     },
     "opts": [
      {
       "en": "Apply first and tell them if you are shortlisted",
-      "id": "Melamar dulu dan memberi tahu jika masuk daftar pendek"
+      "id": "Melamar dulu, lalu memberitahunya kalau masuk daftar pendek"
      },
      {
       "en": "Tell them first, with appreciation, direction, a handover plan and a request for advice",
-      "id": "Memberi tahu lebih dulu, dengan penghargaan, arah, rencana serah terima, dan permintaan nasihat"
+      "id": "Memberitahunya lebih dulu, dengan penghargaan, arah, rencana serah terima, dan permintaan pendapat"
      },
      {
       "en": "Ask the other unit’s head to tell them",
-      "id": "Meminta kepala unit lain memberitahunya"
+      "id": "Meminta kepala unit lain yang memberitahunya"
      },
      {
       "en": "Wait for them to notice",
-      "id": "Menunggu ia menyadarinya"
+      "id": "Menunggu sampai ia sadar sendiri"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Hearing it elsewhere reads as melangkahi atasan; many policies require notice anyway.",
-     "id": "Mendengarnya dari tempat lain terbaca sebagai melangkahi atasan; banyak kebijakan memang mewajibkan pemberitahuan."
+     "id": "Mendengarnya dari orang lain terbaca sebagai melangkahi atasan; banyak kebijakan juga mewajibkan pemberitahuan."
     }
    },
    {
@@ -2427,7 +2427,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "7.4",
     "q": {
      "en": "Which should come first in an external move?",
-     "id": "Mana yang harus didahulukan dalam perpindahan ke luar?"
+     "id": "Mana yang harus didahulukan dalam kepindahan ke luar?"
     },
     "opts": [
      {
@@ -2436,7 +2436,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "A signed contract with any conditions cleared",
-      "id": "Kontrak yang ditandatangani dengan syarat apa pun sudah selesai"
+      "id": "Kontrak yang sudah ditandatangani dengan semua syarat beres"
      },
      {
       "en": "Announcing it on social media",
@@ -2450,7 +2450,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Sign, then resign.",
-     "id": "Tanda tangan, lalu mundur."
+     "id": "Tanda tangani dulu, baru mengundurkan diri."
     }
    },
    {
@@ -2458,30 +2458,30 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "7.4",
     "q": {
      "en": "After you resign, your manager offers a 20% raise to stay. You signed the new contract last week. The best response is…",
-     "id": "Setelah kamu mengundurkan diri, manajermu menawarkan kenaikan 20% agar bertahan. Kamu sudah menandatangani kontrak baru minggu lalu. Respons terbaik adalah…"
+     "id": "Setelah kamu mengundurkan diri, atasanmu menawarkan kenaikan gaji 20% supaya kamu bertahan. Kamu sudah menandatangani kontrak baru minggu lalu. Tanggapan terbaik adalah…"
     },
     "opts": [
      {
       "en": "Accept and withdraw from the new contract",
-      "id": "Menerima dan membatalkan kontrak baru"
+      "id": "Menerima dan mundur dari kontrak baru"
      },
      {
       "en": "Decline with gratitude and one clear reason, and focus on the handover",
-      "id": "Menolak dengan terima kasih dan satu alasan yang jelas, lalu fokus pada serah terima"
+      "id": "Menolak dengan rasa terima kasih dan satu alasan yang jelas, lalu fokus pada serah terima"
      },
      {
       "en": "Ask the new employer to beat it",
-      "id": "Meminta pemberi kerja baru mengalahkannya"
+      "id": "Meminta pemberi kerja baru menawar lebih tinggi"
      },
      {
       "en": "Say you will think about it for a month",
-      "id": "Bilang akan memikirkannya sebulan"
+      "id": "Bilang akan memikirkannya selama sebulan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Counter-offers answer the money, rarely the reason, and you have given your word.",
-     "id": "Tawaran balik menjawab soal uang, jarang soal alasannya, dan kamu sudah berjanji."
+     "id": "Tawaran balik menjawab soal uang, jarang menjawab alasannya, dan kamu sudah memberi janji."
     }
    },
    {
@@ -2489,50 +2489,50 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "7.5",
     "q": {
      "en": "A fixed-term (PKWT) offer includes a three-month probation period, a start date inside your notice period, and a 12-month ban on working for any lender. You should…",
-     "id": "Tawaran kontrak waktu tertentu (PKWT) memuat masa percobaan tiga bulan, tanggal mulai di dalam masa pemberitahuanmu, dan larangan 12 bulan bekerja untuk pemberi pinjaman mana pun. Kamu sebaiknya…"
+     "id": "Tawaran kontrak berjangka (PKWT) memuat masa percobaan tiga bulan, tanggal mulai yang masih di dalam masa pemberitahuanmu, dan larangan bekerja untuk pemberi pinjaman mana pun selama 12 bulan. Sebaiknya kamu…"
     },
     "opts": [
      {
       "en": "Sign quickly before it is withdrawn",
-      "id": "Segera menandatangani sebelum ditarik"
+      "id": "Cepat-cepat tanda tangan sebelum tawarannya ditarik"
      },
      {
-      "en": "Raise each point before signing, probation in a PKWT, the start date, the breadth of the non-compete",
-      "id": "Mengangkat tiap poin sebelum menandatangani: masa percobaan di PKWT, tanggal mulai, luasnya larangan bersaing"
+      "en": "Raise each point before signing: probation in a PKWT, the start date, the breadth of the non-compete",
+      "id": "Mengangkat setiap poinnya sebelum tanda tangan: masa percobaan di PKWT, tanggal mulai, dan luasnya larangan bersaing"
      },
      {
       "en": "Ignore the clauses: they are standard",
-      "id": "Mengabaikan klausulnya: itu standar"
+      "id": "Mengabaikan klausulnya, karena itu sudah standar"
      },
      {
       "en": "Resign first, then negotiate",
-      "id": "Mengundurkan diri dulu, lalu bernegosiasi"
+      "id": "Mengundurkan diri dulu, baru bernegosiasi"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Read the contract in full and resolve issues before the signature; verify the legal points.",
-     "id": "Baca kontrak sampai habis dan selesaikan masalah sebelum tanda tangan; verifikasi poin hukumnya."
+     "id": "Baca kontraknya sampai habis dan selesaikan masalahnya sebelum tanda tangan; periksa poin-poin hukumnya."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "At least 100 words. Two questions. First: where are you on the learning curve of your current role, and which of your career capital would travel if you moved tomorrow? Second: what is the best option inside your organisation that would start a new curve, and what would you say to your manager about it?",
-    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: di mana posisimu di kurva belajar peranmu sekarang, dan modal kariermu yang mana yang bisa dibawa jika kamu pindah besok? Kedua: apa pilihan terbaik di dalam organisasimu yang akan memulai kurva baru, dan apa yang akan kamu katakan kepada manajermu tentangnya?"
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: di mana posisimu di kurva belajar peranmu sekarang, dan modal karier mana yang akan ikut terbawa kalau kamu pindah besok? Kedua: apa pilihan terbaik di dalam organisasimu yang akan memulai kurva baru, dan apa yang akan kamu sampaikan kepada atasanmu tentang itu?"
    },
    "guide": [
     {
      "en": "Use the curve signs: stretched, converting, or teaching more than learning.",
-     "id": "Pakai tanda-tanda kurva: teregang, mengonversi, atau lebih banyak mengajar daripada belajar."
+     "id": "Pakai tanda-tanda kurvanya: tertantang, sedang mengubah pembelajaran menjadi bukti, atau lebih banyak mengajar daripada belajar."
     },
     {
      "en": "Capital travels if a stranger could verify it.",
-     "id": "Modal bisa dibawa jika orang asing bisa memverifikasinya."
+     "id": "Modal bisa dibawa kalau orang asing bisa memeriksanya."
     },
     {
      "en": "The manager sentence should include appreciation, direction and a handover idea.",
-     "id": "Kalimat untuk manajer sebaiknya memuat penghargaan, arah, dan gagasan serah terima."
+     "id": "Kalimat untuk atasanmu sebaiknya memuat penghargaan, arah, dan gagasan serah terima."
     }
    ],
    "min": 100
@@ -2549,7 +2549,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Components, THR and BPJS, the payslip audit, like-for-like benchmarks, real raises.",
-     "id": "Komponen, THR dan BPJS, audit slip gaji, pembanding setara, kenaikan riil."
+     "id": "Komponen gaji, THR dan BPJS, audit slip gaji, pembanding yang setara, kenaikan riil."
     }
    },
    {
@@ -2560,14 +2560,14 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "Pay yourself first, the buckets, 50/30/20 and the lifestyle firewall, debt and family requests.",
-     "id": "Bayar dirimu dulu, pos-pos, 50/30/20 dan tembok gaya hidup, utang dan permintaan keluarga."
+     "id": "Bayar dirimu lebih dulu, pos-pos tabungan, 50/30/20 dan tembok gaya hidup, utang dan permintaan keluarga."
     }
    },
    {
     "lesson": "8.3",
     "h": {
      "en": "Investment Foundations for Your Market",
-     "id": "Dasar-Dasar Investasi untuk Pasarmu"
+     "id": "Dasar-Dasar Investasi untuk Pasar Indonesia"
     },
     "sub": {
      "en": "Foundations first, instruments by risk, four principles, legal and logical.",
@@ -2582,7 +2582,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "The horizon map, big early decisions, protection, the annual review and “enough”.",
-     "id": "Peta cakrawala, keputusan besar awal, perlindungan, tinjauan tahunan, dan “cukup”."
+     "id": "Peta cakrawala, keputusan besar di awal karier, perlindungan, tinjauan tahunan, dan “cukup”."
     }
    },
    {
@@ -2593,7 +2593,7 @@ window.MT_ASSESS['the-route'] = {
     },
     "sub": {
      "en": "A good salary with no system: audit, rebuild, protect, plan.",
-     "id": "Gaji yang baik tanpa sistem: audit, bangun ulang, lindungi, rencanakan."
+     "id": "Gaji yang bagus tanpa sistem: audit, susun ulang, lindungi, rencanakan."
     }
    }
   ],
@@ -2603,7 +2603,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "8.1",
     "q": {
      "en": "Which figure should you compare with another offer?",
-     "id": "Angka mana yang sebaiknya dibandingkan dengan tawaran lain?"
+     "id": "Angka mana yang sebaiknya kamu bandingkan dengan tawaran lain?"
     },
     "opts": [
      {
@@ -2616,7 +2616,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Annual total compensation, including THR, bonus, allowances and benefits",
-      "id": "Total kompensasi tahunan, termasuk THR, bonus, tunjangan, dan manfaat"
+      "id": "Total kompensasi setahun, termasuk THR, bonus, tunjangan, dan manfaat"
      },
      {
       "en": "The largest monthly amount you have received",
@@ -2626,7 +2626,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 2,
     "expl": {
      "en": "Only the annual total compares like with like.",
-     "id": "Hanya total tahunan yang membandingkan setara dengan setara."
+     "id": "Hanya total setahun yang membandingkan secara setara."
     }
    },
    {
@@ -2634,7 +2634,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "8.1",
     "q": {
      "en": "Your pay rose 5% and inflation was about 3%. A friend says you got “a good raise”. In real terms it was roughly…",
-     "id": "Gajimu naik 5% dan inflasi sekitar 3%. Seorang teman bilang kamu mendapat “kenaikan bagus”. Dalam nilai riil kira-kira…"
+     "id": "Gajimu naik 5% dan inflasinya sekitar 3%. Seorang teman bilang kenaikanmu “lumayan”. Dalam nilai riil, kenaikannya kira-kira…"
     },
     "opts": [
      {
@@ -2651,7 +2651,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Nothing",
-      "id": "Nol"
+      "id": "Tidak ada"
      }
     ],
     "correct": 2,
@@ -2670,7 +2670,7 @@ window.MT_ASSESS['the-route'] = {
     "opts": [
      {
       "en": "Saving what is left at month-end",
-      "id": "Menabung sisa di akhir bulan"
+      "id": "Menabung yang tersisa di akhir bulan"
      },
      {
       "en": "An automatic payday transfer to a separate account",
@@ -2678,7 +2678,7 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Saving only when motivated",
-      "id": "Menabung hanya saat termotivasi"
+      "id": "Menabung hanya saat sedang semangat"
      },
      {
       "en": "Keeping cash at home",
@@ -2688,7 +2688,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Defaults beat decisions.",
-     "id": "Bawaan mengalahkan keputusan."
+     "id": "Pilihan bawaan mengalahkan keputusan."
     }
    },
    {
@@ -2696,20 +2696,20 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "8.2",
     "q": {
      "en": "You receive a 10% raise. To avoid lifestyle inflation, you…",
-     "id": "Kamu menerima kenaikan 10%. Untuk menghindari inflasi gaya hidup, kamu…"
+     "id": "Gajimu naik 10%. Supaya tidak terjebak inflasi gaya hidup, kamu…"
     },
     "opts": [
      {
       "en": "Upgrade your kos immediately",
-      "id": "Langsung pindah ke kos lebih bagus"
+      "id": "Langsung pindah ke kos yang lebih bagus"
      },
      {
-      "en": "Commit part of the raise, for example half, to the automatic transfer before the first new payday",
-      "id": "Mengomit sebagian kenaikan, misalnya separuh, ke transfer otomatis sebelum gajian baru pertama"
+      "en": "Commit part of the raise (for example half) to the automatic transfer before the first new payday",
+      "id": "Mengalokasikan sebagian kenaikannya (misalnya separuh) ke transfer otomatis sebelum hari gajian baru yang pertama"
      },
      {
       "en": "Decide later",
-      "id": "Memutuskan nanti"
+      "id": "Memutuskannya nanti"
      },
      {
       "en": "Take a car loan",
@@ -2719,7 +2719,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Commit future raises in advance, in the spirit of Save More Tomorrow.",
-     "id": "Komit kenaikan masa depan lebih dulu, dengan semangat Save More Tomorrow."
+     "id": "Alokasikan kenaikan gaji mendatang sejak awal, sejalan dengan semangat Save More Tomorrow."
     }
    },
    {
@@ -2727,7 +2727,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "8.3",
     "q": {
      "en": "Before investing for growth, you should normally have…",
-     "id": "Sebelum berinvestasi untuk pertumbuhan, kamu biasanya sudah punya…"
+     "id": "Sebelum berinvestasi untuk bertumbuh, biasanya kamu sudah harus punya…"
     },
     "opts": [
      {
@@ -2740,17 +2740,17 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "A stockbroker friend",
-      "id": "Teman pialang saham"
+      "id": "Teman yang bekerja di sekuritas"
      },
      {
       "en": "A large bonus",
-      "id": "Bonus besar"
+      "id": "Bonus yang besar"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Foundations first, so you are never forced to sell at the wrong time.",
-     "id": "Fondasi dulu, agar kamu tak pernah terpaksa menjual di saat yang salah."
+     "id": "Fondasi dulu, supaya kamu tidak pernah terpaksa menjual di waktu yang salah."
     }
    },
    {
@@ -2758,7 +2758,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "8.3",
     "q": {
      "en": "A colleague offers a “guaranteed” 4% a month with bonuses for recruiting. Your first check is…",
-     "id": "Seorang rekan menawarkan 4% sebulan yang “terjamin” dengan bonus untuk merekrut. Pemeriksaan pertamamu adalah…"
+     "id": "Seorang rekan kerja menawarkan imbal hasil “dijamin” 4% sebulan dengan bonus untuk merekrut orang. Cek pertamamu adalah…"
     },
     "opts": [
      {
@@ -2767,21 +2767,21 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Legal and logical: is it licensed, and does about 60% a year make sense?",
-      "id": "Legal dan logis: apakah berizin, dan apakah sekitar 60% setahun masuk akal?"
+      "id": "Legal dan logis: apakah berizin, dan apakah sekitar 60% setahun itu masuk akal?"
      },
      {
       "en": "How much you could earn by recruiting",
-      "id": "Berapa yang bisa kamu dapat dari merekrut"
+      "id": "Berapa banyak yang bisa kamu dapat dari merekrut"
      },
      {
       "en": "Whether early members were paid",
-      "id": "Apakah anggota awal dibayar"
+      "id": "Apakah anggota awal sudah dibayar"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "It fails the logical test on its face; recruitment bonuses are a classic sign.",
-     "id": "Ia jelas gagal di uji logis; bonus rekrutmen adalah tanda klasik."
+     "id": "Tawaran itu jelas gagal di tes logis; bonus perekrutan adalah tanda klasik."
     }
    },
    {
@@ -2789,12 +2789,12 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "8.4",
     "q": {
      "en": "In an annual money review, which measure is usually the most powerful driver of long-term outcomes?",
-     "id": "Dalam tinjauan keuangan tahunan, ukuran mana yang biasanya menjadi pendorong terkuat hasil jangka panjang?"
+     "id": "Dalam tinjauan keuangan tahunan, ukuran mana yang biasanya menjadi pendorong paling kuat untuk hasil jangka panjang?"
     },
     "opts": [
      {
       "en": "Last year’s best-performing fund",
-      "id": "Reksa dana terbaik tahun lalu"
+      "id": "Reksa dana dengan kinerja terbaik tahun lalu"
      },
      {
       "en": "Your savings rate",
@@ -2812,7 +2812,7 @@ window.MT_ASSESS['the-route'] = {
     "correct": 1,
     "expl": {
      "en": "Savings rate, started early and kept up, does most of the work.",
-     "id": "Tingkat tabungan, dimulai lebih awal dan dijaga, mengerjakan sebagian besar pekerjaannya."
+     "id": "Tingkat tabungan, yang dimulai sejak awal dan dijaga, yang paling banyak bekerja."
     }
    },
    {
@@ -2820,7 +2820,7 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "8.4",
     "q": {
      "en": "You and your partner plan to marry in 18 months. The best time for the money conversation is…",
-     "id": "Kamu dan pasanganmu berencana menikah 18 bulan lagi. Waktu terbaik untuk percakapan uang adalah…"
+     "id": "Kamu dan pasanganmu berencana menikah 18 bulan lagi. Waktu terbaik untuk membicarakan uang adalah…"
     },
     "opts": [
      {
@@ -2829,21 +2829,21 @@ window.MT_ASSESS['the-route'] = {
      },
      {
       "en": "Before commitments such as the venue are made",
-      "id": "Sebelum komitmen seperti gedung dibuat"
+      "id": "Sebelum komitmen seperti memesan gedung dibuat"
      },
      {
       "en": "Only if problems arise",
-      "id": "Hanya jika muncul masalah"
+      "id": "Hanya kalau muncul masalah"
      },
      {
       "en": "Never: money is private",
-      "id": "Tidak pernah: uang itu pribadi"
+      "id": "Tidak perlu, uang itu urusan pribadi"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Incomes, debts, family obligations and goals are far easier to align before commitments.",
-     "id": "Penghasilan, utang, kewajiban keluarga, dan tujuan jauh lebih mudah diselaraskan sebelum komitmen."
+     "id": "Penghasilan, utang, kewajiban keluarga, dan tujuan jauh lebih mudah diselaraskan sebelum ada komitmen."
     }
    },
    {
@@ -2851,50 +2851,50 @@ window.MT_ASSESS['the-route'] = {
     "lesson": "8.5",
     "q": {
      "en": "Rp 5 juta sits in an “arisan investasi” that paid twice and is now “delayed”. The best action is…",
-     "id": "Rp 5 juta tersimpan di “arisan investasi” yang membayar dua kali dan kini “tertunda”. Tindakan terbaik adalah…"
+     "id": "Rp 5 juta tertahan di “arisan investasi” yang dua kali membayar dan kini “tertunda”. Tindakan terbaiknya adalah…"
     },
     "opts": [
      {
       "en": "Wait: it may resume",
-      "id": "Menunggu: mungkin berjalan lagi"
+      "id": "Menunggu, siapa tahu jalan lagi"
      },
      {
       "en": "Add more to keep your slot",
-      "id": "Menambah agar slotmu tetap"
+      "id": "Menambah setoran supaya tidak kehilangan giliran"
      },
      {
       "en": "Ask for the money back in writing, stop further transfers, keep evidence and check official lists and channels",
-      "id": "Meminta uangnya kembali secara tertulis, menghentikan transfer berikutnya, menyimpan bukti, dan memeriksa daftar serta saluran resmi"
+      "id": "Meminta uangnya dikembalikan secara tertulis, menghentikan transfer berikutnya, menyimpan bukti, dan mengecek daftar serta jalur resmi"
      },
      {
       "en": "Recruit others to speed up payouts",
-      "id": "Merekrut orang lain agar pembayaran lebih cepat"
+      "id": "Merekrut orang lain supaya pembayarannya lebih cepat"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "Delays after early payouts are a common pattern in failing schemes; act early.",
-     "id": "Penundaan setelah pembayaran awal adalah pola umum skema yang gagal; bertindaklah lebih awal."
+     "id": "Penundaan setelah pembayaran awal adalah pola umum skema yang sedang runtuh; bertindaklah sejak awal."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. Two questions. First: what is your annual total compensation, roughly, and where does it sit against a like-for-like benchmark? Second: what payday transfer, amount, date and destination, will you set up this month, and which single fixed cost or habit would free the most money for it? This is an educational reflection, not financial advice.",
-    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: berapa kira-kira total kompensasi tahunanmu, dan di mana posisinya dibanding pembanding yang setara? Kedua: transfer hari gajian apa, jumlah, tanggal, dan tujuan, yang akan kamu pasang bulan ini, dan satu biaya tetap atau kebiasaan mana yang paling membebaskan uang untuknya? Ini refleksi edukatif, bukan nasihat keuangan."
+    "en": "At least 100 words. Two questions. First: what is your annual total compensation, roughly, and where does it sit against a like-for-like benchmark? Second: what payday transfer (amount, date and destination) will you set up this month, and which single fixed cost or habit would free the most money for it? This is an educational reflection, not financial advice.",
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: berapa kira-kira total kompensasi tahunanmu, dan di mana posisinya dibanding pembanding yang setara? Kedua: transfer hari gajian apa (jumlah, tanggal, dan tujuannya) yang akan kamu pasang bulan ini, dan satu biaya tetap atau kebiasaan mana yang paling banyak membebaskan uang untuknya? Ini refleksi edukatif, bukan nasihat keuangan."
    },
    "guide": [
     {
      "en": "Use percentages instead of amounts if you prefer privacy.",
-     "id": "Pakai persentase alih-alih jumlah jika kamu lebih suka privasi."
+     "id": "Pakai persentase alih-alih jumlah kalau kamu ingin menjaga privasi."
     },
     {
      "en": "Compare totals, not base salaries.",
-     "id": "Bandingkan total, bukan gaji pokok."
+     "id": "Bandingkan totalnya, bukan gaji pokoknya."
     },
     {
      "en": "Name the date: a transfer without a date rarely happens.",
-     "id": "Sebut tanggalnya: transfer tanpa tanggal jarang terjadi."
+     "id": "Sebutkan tanggalnya: transfer tanpa tanggal jarang terjadi."
     }
    ],
    "min": 100
