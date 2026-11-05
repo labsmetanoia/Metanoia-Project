@@ -15053,42 +15053,42 @@ window.MT_LMS['the-map'] = {
      "n": "5.4",
      "title": {
       "en": "Listening, Disagreeing and Conversations That Matter",
-      "id": "Mendengar, Berbeda Pendapat, dan Percakapan yang Bermakna"
+      "id": "Mendengarkan, Berbeda Pendapat, dan Percakapan yang Penting"
      },
      "dur": {
       "en": "40 min",
-      "id": "40 mnt"
+      "id": "40 menit"
      },
      "kind": "interactive",
      "placeholder": false,
      "outcome": {
       "en": "Listen actively and prove it with a restatement, choose the conversation type before you start, climb the Disagreement Ladder, disagree upward respectfully, and run a group discussion that ends in a recorded decision.",
-      "id": "Mendengar aktif dan membuktikannya dengan pengulangan, memilih jenis percakapan sebelum mulai, menaiki Tangga Perbedaan Pendapat, berbeda pendapat ke atas dengan santun, dan memimpin diskusi kelompok yang berakhir dengan keputusan tercatat."
+      "id": "Mendengarkan secara aktif dan membuktikannya dengan mengulang pernyataan, memilih jenis percakapan sebelum mulai, menaiki Tangga Ketidaksetujuan, menyampaikan ketidaksetujuan kepada atasan dengan hormat, dan memimpin diskusi kelompok yang berakhir dengan keputusan yang tercatat."
      },
      "outcomeDetail": {
       "en": "By the end you can listen actively and prove it with an accurate restatement, choose the conversation type before starting, climb the Disagreement Ladder to reach agreement or understood disagreement, disagree upward respectfully, and run a meeting or study-group discussion that surfaces every voice and ends in a recorded decision.",
-      "id": "Di akhir pelajaran kamu bisa mendengar aktif dan membuktikannya dengan pengulangan yang akurat, memilih jenis percakapan sebelum mulai, menaiki Tangga Perbedaan Pendapat untuk mencapai kesepakatan atau perbedaan yang dipahami, berbeda pendapat ke atas dengan santun, dan memimpin rapat atau diskusi kelompok belajar yang memunculkan setiap suara dan berakhir dengan keputusan tercatat."
+      "id": "Di akhir pelajaran ini, kamu bisa mendengarkan secara aktif dan membuktikannya dengan pengulangan yang akurat, memilih jenis percakapan sebelum mulai, menaiki Tangga Ketidaksetujuan untuk mencapai kesepakatan atau ketidaksetujuan yang saling dipahami, menyampaikan ketidaksetujuan kepada atasan dengan hormat, dan memimpin rapat atau diskusi kelompok belajar yang memunculkan semua suara dan berakhir dengan keputusan yang tercatat."
      },
      "overview": {
       "en": "Strong relationships aren't the ones without disagreement. They're the ones where disagreement is handled well. This lesson gives you four practical tools: listening as real work, choosing what kind of conversation you're having, a ladder for disagreeing well, and rules for group discussions that don't end in silent “agreement” and private complaints. You'll practise each one, including disagreeing respectfully with someone more senior.",
-      "id": "Relasi yang kuat bukan relasi tanpa perbedaan pendapat. Relasi yang kuat adalah relasi yang menangani perbedaan pendapat dengan baik. Pelajaran ini memberimu empat alat praktis: mendengar sebagai kerja sungguhan, memilih jenis percakapan yang sedang kamu jalani, sebuah tangga untuk berbeda pendapat dengan baik, dan aturan diskusi kelompok yang tidak berakhir dengan “setuju” dalam diam dan keluhan di belakang. Kamu akan melatih masing-masing, termasuk berbeda pendapat dengan santun kepada orang yang lebih senior."
+      "id": "Relasi yang kuat bukan relasi tanpa perbedaan pendapat. Relasi yang kuat adalah relasi tempat perbedaan pendapat ditangani dengan baik. Pelajaran ini memberimu empat alat praktis: mendengarkan sebagai kerja yang sungguhan, memilih jenis percakapan yang sedang kamu jalani, sebuah tangga untuk berbeda pendapat dengan baik, dan aturan untuk diskusi kelompok agar tidak berakhir dengan \"kesepakatan\" dalam diam lalu keluhan di belakang. Kamu akan melatih masing-masing, termasuk menyampaikan ketidaksetujuan dengan hormat kepada orang yang lebih senior."
      },
      "objectives": [
       {
        "en": "Listen actively and confirm understanding with a restatement the speaker accepts.",
-       "id": "Mendengar aktif dan mengonfirmasi pemahaman dengan pengulangan yang diterima pembicara."
+       "id": "Mendengarkan secara aktif dan memastikan pemahaman dengan pengulangan yang diterima oleh pembicaranya."
       },
       {
        "en": "Identify the type and purpose of a conversation before it starts, and say what success looks like.",
-       "id": "Mengenali jenis dan tujuan percakapan sebelum dimulai, dan menyebutkan seperti apa keberhasilannya."
+       "id": "Mengenali jenis dan tujuan sebuah percakapan sebelum dimulai, dan menyebutkan seperti apa keberhasilannya."
       },
       {
        "en": "Use the Disagreement Ladder to turn a disagreement into agreement, or into understood disagreement with a decision.",
-       "id": "Memakai Tangga Perbedaan Pendapat untuk mengubah perbedaan menjadi kesepakatan, atau menjadi perbedaan yang dipahami disertai keputusan."
+       "id": "Memakai Tangga Ketidaksetujuan untuk mengubah perbedaan pendapat menjadi kesepakatan, atau menjadi ketidaksetujuan yang saling dipahami lengkap dengan keputusannya."
       },
       {
        "en": "Run a group discussion (rapat, study group or WhatsApp decision) that hears every voice and records the decision and any dissent.",
-       "id": "Memimpin diskusi kelompok (rapat, kelompok belajar, atau keputusan di WhatsApp) yang mendengar setiap suara dan mencatat keputusan serta ketidaksetujuan."
+       "id": "Memimpin diskusi kelompok (rapat, kelompok belajar, atau keputusan lewat WhatsApp) yang mendengar semua suara dan mencatat keputusan serta perbedaan pendapat yang ada."
       }
      ],
      "readFirst": {
@@ -15702,23 +15702,23 @@ window.MT_LMS['the-map'] = {
        "id": "Bicara Dua Arah"
       },
       "intro": {
-       "en": "Five ideas from Adler's classic on speaking and listening, adapted for local hierarchy, sungkan, musyawarah and WhatsApp groups.",
-       "id": "Lima gagasan dari karya klasik Adler tentang berbicara dan mendengar, diadaptasi untuk hierarki lokal, sungkan, musyawarah, dan grup WhatsApp."
+       "en": "Seven ideas from Adler's classic on speaking and listening, adapted for local hierarchy, sungkan, musyawarah and WhatsApp groups.",
+       "id": "Tujuh gagasan dari buku klasik Adler tentang berbicara dan mendengarkan, disesuaikan dengan hierarki, sungkan, musyawarah, dan grup WhatsApp di sekitar kita."
       },
       "slides": [
        {
         "h": {
          "en": "Listening is catching, not waiting",
-         "id": "Mendengar itu menangkap, bukan menunggu"
+         "id": "Mendengarkan itu menangkap, bukan menunggu giliran"
         },
         "points": [
          {
           "en": "Hearing is seeing the words. Listening is reading them: the mind works to rebuild what the speaker means.",
-          "id": "Mendengar bunyi itu seperti melihat kata. Menyimak itu membacanya: pikiran bekerja membangun ulang maksud pembicara."
+          "id": "Mendengar itu seperti melihat kata-kata. Mendengarkan itu seperti membacanya: pikiran bekerja untuk menyusun ulang maksud pembicara."
          },
          {
           "en": "The catcher works as hard as the pitcher. Different skill, same effort.",
-          "id": "Penangkap bola bekerja sekeras pelempar. Keterampilan berbeda, usaha sama."
+          "id": "Penangkap bola bekerja sama kerasnya dengan pelempar. Keterampilannya berbeda, usahanya sama."
          }
         ]
        },
@@ -15730,59 +15730,59 @@ window.MT_LMS['the-map'] = {
         "points": [
          {
           "en": "Social, personal, understanding or decision: four kinds of conversation, four kinds of success.",
-          "id": "Sosial, personal, pemahaman, atau keputusan: empat jenis percakapan, empat jenis keberhasilan."
+          "id": "Sosial, pribadi, pemahaman, atau keputusan: empat jenis percakapan, empat jenis keberhasilan."
          },
          {
           "en": "Most painful talks are type mismatches: one person wants to be heard, the other wants to decide.",
-          "id": "Kebanyakan percakapan yang menyakitkan adalah salah jenis: yang satu ingin didengar, yang lain ingin memutuskan."
+          "id": "Sebagian besar obrolan yang menyakitkan adalah salah jenis: satu orang ingin didengar, yang lain ingin memutuskan."
          }
         ]
        },
        {
         "h": {
          "en": "Understand, then judge",
-         "id": "Pahami, baru nilai"
+         "id": "Pahami dulu, baru menilai"
         },
         "points": [
          {
           "en": "Don’t agree or disagree until you can restate their view, and their reasons, in a way they accept.",
-          "id": "Jangan setuju atau tidak setuju sebelum kamu bisa mengulang pandangan mereka, beserta alasannya, dengan cara yang mereka terima."
+          "id": "Jangan setuju atau tidak setuju sampai kamu bisa mengulang pandangan dan alasannya dengan cara yang ia terima."
          },
          {
           "en": "“Saya cek dulu ya: maksudnya ___, karena ___, betul?”",
-          "id": "“Saya cek dulu ya: maksudnya ___, karena ___, betul?”"
+          "id": "\"Saya cek dulu ya: maksudnya ___, karena ___, betul?\""
          }
         ]
        },
        {
         "h": {
          "en": "The Disagreement Ladder",
-         "id": "Tangga Perbedaan Pendapat"
+         "id": "Tangga Ketidaksetujuan"
         },
         "points": [
          {
           "en": "Is it arguable, facts, understand, real or apparent, which level, which ground, close. Climb in order; don’t skip rungs.",
-          "id": "Bisa diperdebatkan, fakta, pahami, nyata atau semu, tingkat mana, dasar mana, tutup. Naiki berurutan; jangan melewati anak tangga."
+          "id": "Apakah bisa diperdebatkan, fakta, pahami, nyata atau semu, tingkat mana, dasar apa, tutup. Naiki secara berurutan; jangan melompati anak tangga."
          },
          {
           "en": "Look facts up. Share tastes. Argue only what reasons can settle.",
-          "id": "Cari faktanya. Bagikan selera. Perdebatkan hanya yang bisa diselesaikan alasan."
+          "id": "Cek faktanya. Bagikan selera. Perdebatkan hanya hal yang bisa diselesaikan dengan alasan."
          }
         ]
        },
        {
         "h": {
          "en": "Disagreeing upward: jujur dengan santun",
-         "id": "Berbeda pendapat ke atas: jujur dengan santun"
+         "id": "Tidak setuju dengan atasan: jujur dengan santun"
         },
         "points": [
          {
           "en": "Shared goal, restate, offer your ground as information, propose rather than oppose, leave room for the decision.",
-          "id": "Tujuan bersama, ulangi, tawarkan dasarmu sebagai informasi, usulkan alih-alih menentang, beri ruang bagi keputusan."
+          "id": "Tujuan bersama, ulangi pandangannya, tawarkan dasarmu sebagai informasi, usulkan alih-alih menentang, beri ruang untuk keputusannya."
          },
          {
           "en": "“Iya” may mean “I heard you”, not “I agree”. Civil, but not too polite.",
-          "id": "“Iya” bisa berarti “saya dengar”, bukan “saya setuju”. Sopan, tapi tidak terlalu sungkan."
+          "id": "\"Iya\" bisa berarti \"aku dengar\", bukan \"aku setuju\". Sopan, tapi jangan terlalu sungkan."
          }
         ]
        },
@@ -15794,27 +15794,27 @@ window.MT_LMS['the-map'] = {
         "points": [
          {
           "en": "Open with the question, round-robin juniors first, understand before you challenge, look facts up, settled is settled, close with the record.",
-          "id": "Buka dengan pertanyaannya, giliran bicara junior dulu, pahami sebelum menantang, cari faktanya, yang diputuskan selesai, tutup dengan catatan."
+          "id": "Buka dengan pertanyaannya, giliran bicara dimulai dari yang paling junior, pahami dulu sebelum menantang, cek faktanya, yang sudah diputuskan tidak dibuka lagi, tutup dengan catatan."
          },
          {
           "en": "Groups over-discuss what everyone knows and miss what only one person knows. Record the decision and the dissent.",
-          "id": "Kelompok terlalu banyak membahas yang sudah diketahui semua orang dan melewatkan yang hanya diketahui satu orang. Catat keputusan dan ketidaksetujuannya."
+          "id": "Kelompok terlalu banyak membahas hal yang semua orang sudah tahu dan melewatkan hal yang hanya diketahui satu orang. Catat keputusan dan perbedaan pendapatnya."
          }
         ]
        },
        {
         "h": {
          "en": "When it gets heated",
-         "id": "Saat memanas"
+         "id": "Ketika suasana memanas"
         },
         "points": [
          {
           "en": "Warning signs: a raised voice, the same point repeated louder, sarcasm, mocking, baiting, over-certainty, attacking the person.",
-          "id": "Tanda peringatan: suara meninggi, poin yang sama diulang lebih keras, sarkasme, ejekan, pancingan, terlalu yakin, menyerang orangnya."
+          "id": "Tanda-tandanya: suara meninggi, poin yang sama diulang makin keras, sindiran, ejekan, memancing emosi, terlalu yakin, menyerang orangnya."
          },
          {
           "en": "You are heating up: pause. They are heating up: acknowledge the feeling first. It has become personal: repair the relationship, then return to the decision.",
-          "id": "Kamu memanas: jeda. Mereka memanas: akui perasaannya dulu. Sudah jadi personal: perbaiki relasinya, lalu kembali ke keputusannya."
+          "id": "Kamu mulai panas: berhenti sejenak. Dia mulai panas: akui perasaannya dulu. Sudah jadi urusan pribadi: perbaiki hubungannya dulu, lalu kembali ke keputusan."
          }
         ]
        }
@@ -15825,24 +15825,24 @@ window.MT_LMS['the-map'] = {
        "icon": "eye",
        "h": {
         "en": "Listening is work: catch the meaning",
-        "id": "Mendengar adalah kerja: tangkap maknanya"
+        "id": "Mendengarkan adalah kerja: tangkap maknanya"
        },
        "body": {
         "en": "Adler separates <i>hearing</i> from <i>listening</i> the way we separate seeing words from reading them. Listening means the mind is working to rebuild what the speaker means. His analogy: the catcher is as much a player as the pitcher. Different skill, same effort. <b>Four questions a good listener holds:</b> (1) What is this about overall, and what are they really trying to say? (2) What are the main points and key words, and what do <i>they</i> mean by those words? (3) Is it well supported, and what's missing? (4) <i>So what?</i> Why does this matter, and to me? You can answer the first two during the talk. The last two often come afterwards.",
-        "id": "Adler memisahkan <i>mendengar bunyi</i> dari <i>menyimak</i> sebagaimana kita memisahkan melihat kata dari membacanya. Menyimak berarti pikiran bekerja membangun ulang apa yang dimaksud pembicara. Analoginya: penangkap bola sama-sama pemain seperti pelempar. Keterampilan berbeda, usaha sama. <b>Empat pertanyaan yang dipegang penyimak yang baik:</b> (1) Ini tentang apa secara keseluruhan, dan apa yang sebenarnya ingin mereka sampaikan? (2) Apa poin utama dan kata kuncinya, dan apa arti kata-kata itu bagi <i>mereka</i>? (3) Apakah didukung dengan baik, dan apa yang kurang? (4) <i>Lalu kenapa?</i> Mengapa ini penting, dan bagi saya? Dua pertama bisa dijawab selama pembicaraan. Dua terakhir sering datang setelahnya."
+        "id": "Adler membedakan <i>mendengar</i> dari <i>mendengarkan</i> seperti kita membedakan melihat kata-kata dari membacanya. Mendengarkan berarti pikiran bekerja untuk menyusun ulang maksud pembicara. Analoginya: penangkap bola sama-sama pemain seperti pelemparnya. Keterampilannya berbeda, usahanya sama. <b>Empat pertanyaan yang dipegang pendengar yang baik:</b> (1) Secara keseluruhan ini tentang apa, dan apa yang sebenarnya ingin ia sampaikan? (2) Apa poin utama dan kata kuncinya, dan apa yang <i>ia</i> maksud dengan kata-kata itu? (3) Apakah didukung dengan baik, dan apa yang kurang? (4) <i>Lalu kenapa?</i> Kenapa ini penting, dan apa artinya bagiku? Dua pertanyaan pertama bisa kamu jawab selama percakapan. Dua yang terakhir sering kali baru terjawab sesudahnya."
        },
        "bullets": [
         {
          "en": "<b>Habits that kill listening:</b> judging the speaker's style instead of the substance; faking attention; letting distractions win; reacting to trigger words; deciding it's boring before they've explained why it matters; daydreaming. Most of us listen brilliantly when the stakes are obvious, as when a pilot announces an emergency. The skill is to bring that attention to ordinary conversations.",
-         "id": "<b>Kebiasaan yang mematikan simak:</b> menilai gaya pembicara alih-alih isinya; berpura-pura memperhatikan; membiarkan gangguan menang; bereaksi pada kata pemicu; memutuskan ini membosankan sebelum mereka menjelaskan mengapa penting; melamun. Kebanyakan kita menyimak dengan sangat baik saat taruhannya jelas, seperti saat pilot mengumumkan keadaan darurat. Keterampilannya adalah membawa perhatian itu ke percakapan biasa."
+         "id": "<b>Kebiasaan yang membunuh kemampuan mendengarkan:</b> menilai gaya bicara alih-alih isinya; pura-pura memperhatikan; membiarkan gangguan menang; bereaksi pada kata-kata pemicu; memutuskan topiknya membosankan sebelum ia menjelaskan kenapa itu penting; melamun. Kebanyakan dari kita bisa mendengarkan dengan luar biasa saat taruhannya jelas, misalnya ketika pilot mengumumkan keadaan darurat. Keterampilannya adalah membawa perhatian sebesar itu ke percakapan sehari-hari."
         },
         {
          "en": "<b>Record first, react later.</b> In a lecture, a 1:1 with a supervisor or a mentor call, note the purpose, key terms, assumptions and how they get from reasons to conclusion. Keep your reactions for a second pass afterwards: what I didn't understand, what I agree with, what I disagree with and why, and so what. Taking notes and reviewing them aids learning.",
-         "id": "<b>Catat dulu, bereaksi kemudian.</b> Dalam kuliah, 1:1 dengan atasan, atau panggilan dengan mentor, catat tujuannya, istilah kunci, asumsi, dan bagaimana mereka sampai dari alasan ke kesimpulan. Simpan reaksimu untuk putaran kedua setelahnya: apa yang tidak kupahami, apa yang kusetujui, apa yang tidak kusetujui dan mengapa, lalu kenapa. Mencatat dan meninjau catatan membantu belajar."
+         "id": "<b>Catat dulu, bereaksi belakangan.</b> Di kuliah, obrolan empat mata dengan atasan, atau panggilan dengan mentor, catat tujuannya, istilah kuncinya, asumsinya, dan bagaimana ia bergerak dari alasan ke kesimpulan. Simpan reaksimu untuk putaran kedua sesudahnya: apa yang belum kupahami, apa yang kusetujui, apa yang tidak kusetujui dan kenapa, serta lalu kenapa. Mencatat dan meninjau ulang catatan membantu proses belajar."
         },
         {
          "en": "<b>How it connects to AVEC.</b> Attention is being present. This section is what you do with that presence: build an accurate picture of what they mean. Lesson 5.3's listening levels describe the stance; these questions are the method.",
-         "id": "<b>Hubungannya dengan AVEC.</b> Perhatian adalah hadir. Bagian ini adalah apa yang kamu lakukan dengan kehadiran itu: membangun gambaran akurat tentang maksud mereka. Tingkat mendengar di Pelajaran 5.3 menggambarkan sikapnya; pertanyaan-pertanyaan ini metodenya."
+         "id": "<b>Kaitannya dengan AVEC.</b> Perhatian berarti hadir. Bagian ini membahas apa yang kamu lakukan dengan kehadiran itu: menyusun gambaran yang akurat tentang maksudnya. Tingkatan mendengarkan di Pelajaran 5.3 menjelaskan sikapnya; pertanyaan-pertanyaan ini adalah metodenya."
         }
        ]
       },
@@ -15854,16 +15854,16 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Adler sorts conversations by purpose, and one of his rules is to decide in advance which kind you're having. Most painful conversations are <b>type mismatches</b>. One person wants to be heard (personal) and the other offers a fix (decision). Or a meeting meant to decide becomes an endless debate (understanding). Rina tells her mentor she feels she doesn't belong at her internship, and he replies with a pros-and-cons table: that is a mismatch.",
-        "id": "Adler memilah percakapan berdasarkan tujuannya, dan salah satu aturannya adalah memutuskan di awal jenis mana yang sedang kamu jalani. Kebanyakan percakapan yang menyakitkan adalah <b>salah jenis</b>. Satu orang ingin didengar (personal) dan yang lain menawarkan solusi (keputusan). Atau rapat yang dimaksudkan untuk memutuskan menjadi debat tanpa akhir (pemahaman). Rina memberi tahu mentornya bahwa ia merasa tidak cocok di tempat magangnya, dan mentornya membalas dengan tabel untung-rugi: itu salah jenis."
+        "id": "Adler memilah percakapan berdasarkan tujuannya, dan salah satu aturannya adalah menentukan sejak awal jenis percakapan apa yang akan kamu jalani. Sebagian besar percakapan yang menyakitkan adalah <b>salah jenis</b>. Satu orang ingin didengar (pribadi), sementara yang lain menawarkan solusi (keputusan). Atau rapat yang seharusnya memutuskan malah berubah menjadi debat tanpa ujung (pemahaman). Rina bercerita kepada mentornya bahwa ia merasa tidak cocok di tempat magangnya, dan mentornya membalas dengan tabel untung-rugi: itulah salah jenis."
        },
        "bullets": [
         {
          "en": "<b>How to practise: the Purpose Picker.</b> Before any important talk, write one sentence: “This is a ___ conversation with ___; success = ___.” If it mixes types (family career talks often mix personal and decision), say so and sequence them: “Hari ini aku cuma ingin kita saling paham dulu; keputusannya kita bahas minggu depan.”",
-         "id": "<b>Cara berlatih: Pemilih Tujuan.</b> Sebelum percakapan penting apa pun, tulis satu kalimat: “Ini percakapan ___ dengan ___; berhasil = ___.” Jika bercampur jenis (obrolan karier dengan keluarga sering mencampur personal dan keputusan), katakan dan urutkan: “Hari ini aku cuma ingin kita saling paham dulu; keputusannya kita bahas minggu depan.”"
+         "id": "<b>Cara melatihnya: Pemilih Tujuan.</b> Sebelum obrolan penting apa pun, tulis satu kalimat: \"Ini percakapan ___ dengan ___; berhasil = ___.\" Kalau jenisnya campuran (obrolan karier dengan keluarga sering mencampur yang pribadi dan keputusan), katakan dan urutkan: \"Hari ini aku cuma ingin kita saling paham dulu; keputusannya kita bahas minggu depan.\""
         },
         {
          "en": "<b>Check the time and place.</b> Adler's first rule is not to attempt a serious conversation with someone who is preoccupied. A senior on deadline at 17:55 is not your audience.",
-         "id": "<b>Periksa waktu dan tempat.</b> Aturan pertama Adler adalah jangan mencoba percakapan serius dengan orang yang sedang sibuk. Senior yang dikejar tenggat pukul 17.55 bukan audiensmu."
+         "id": "<b>Cek waktu dan tempatnya.</b> Aturan pertama Adler adalah jangan mencoba percakapan serius dengan orang yang sedang sibuk pikirannya. Senior yang dikejar tenggat jam 17:55 bukan audiensmu."
         }
        ],
        "table": {
@@ -15878,7 +15878,7 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Success looks like",
-          "id": "Keberhasilannya"
+          "id": "Wujud keberhasilannya"
          },
          {
           "en": "Example",
@@ -15893,21 +15893,21 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Enjoyment and connection",
-           "id": "Kesenangan dan keterhubungan"
+           "id": "Kesenangan dan keakraban"
           },
           {
            "en": "People leave lighter",
-           "id": "Orang pulang lebih ringan"
+           "id": "Semua pulang dengan perasaan lebih ringan"
           },
           {
            "en": "Ngopi after class",
-           "id": "Ngopi setelah kuliah"
+           "id": "Ngopi sepulang kuliah"
           }
          ],
          [
           {
            "en": "Personal",
-           "id": "Personal"
+           "id": "Pribadi"
           },
           {
            "en": "Clear up feelings, ease tension",
@@ -15919,7 +15919,7 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "“Are we okay after yesterday?”",
-           "id": "“Kita baik-baik saja setelah kemarin?”"
+           "id": "\"Kita baik-baik saja kan setelah kemarin?\""
           }
          ],
          [
@@ -15929,15 +15929,15 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Shared understanding of an idea",
-           "id": "Pemahaman bersama atas sebuah gagasan"
+           "id": "Pemahaman bersama tentang sebuah gagasan"
           },
           {
            "en": "You can each state the other's view; it can stay open",
-           "id": "Kalian masing-masing bisa menyatakan pandangan yang lain; boleh tetap terbuka"
+           "id": "Kalian masing-masing bisa menyebutkan pandangan pihak lain; persoalannya boleh tetap terbuka"
           },
           {
            "en": "Study group on a theory",
-           "id": "Kelompok belajar tentang sebuah teori"
+           "id": "Kelompok belajar membahas sebuah teori"
           }
          ],
          [
@@ -15947,7 +15947,7 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "A decision or action",
-           "id": "Sebuah keputusan atau tindakan"
+           "id": "Keputusan atau tindakan"
           },
           {
            "en": "Decision, owner, deadline, by a time limit",
@@ -15955,7 +15955,7 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Rapat on the event budget",
-           "id": "Rapat anggaran acara"
+           "id": "Rapat soal anggaran acara"
           }
          ]
         ],
@@ -15966,26 +15966,26 @@ window.MT_LMS['the-map'] = {
        "icon": "book",
        "h": {
         "en": "Understand before you judge",
-        "id": "Pahami sebelum menilai"
+        "id": "Pahami dulu sebelum menilai"
        },
        "body": {
         "en": "This is the heart of Adler's book. Don't agree or disagree until you are sure you understand the other person's position. Check by restating it in your own words, <i>with their reasons</i>, until they confirm. He puts it bluntly: disagreeing before you understand is impertinent; agreeing is inane. <b>The restate loop:</b> (1) They state their view. (2) You say: “Let me check I've got you: you're saying ___, because ___. Is that right?” In Indonesian: “Saya cek dulu ya, maksud Kakak/Bapak/Ibu ___, karena ___, betul?” (3) They confirm or correct. Repeat until they say yes. (4) Only then respond.",
-        "id": "Ini jantung buku Adler. Jangan setuju atau tidak setuju sebelum kamu yakin memahami posisi orang lain. Periksa dengan mengulangnya dalam kata-katamu sendiri, <i>beserta alasan mereka</i>, sampai mereka mengonfirmasi. Ia mengatakannya terus terang: tidak setuju sebelum paham itu lancang; setuju sebelum paham itu hampa. <b>Putaran pengulangan:</b> (1) Mereka menyatakan pandangannya. (2) Kamu berkata: “Saya cek dulu ya, maksud Kakak/Bapak/Ibu ___, karena ___, betul?” (3) Mereka mengonfirmasi atau mengoreksi. Ulangi sampai mereka bilang ya. (4) Baru kemudian merespons."
+        "id": "Inilah inti buku Adler. Jangan setuju atau tidak setuju sampai kamu yakin memahami posisi orang lain. Periksa dengan mengulang posisinya dengan kata-katamu sendiri, <i>beserta alasannya</i>, sampai ia membenarkan. Ia menyatakannya dengan lugas: tidak setuju sebelum paham itu lancang; setuju sebelum paham itu konyol. <b>Putaran mengulang:</b> (1) Ia menyampaikan pandangannya. (2) Kamu berkata, \"Saya cek dulu ya, maksud Kakak/Bapak/Ibu ___, karena ___, betul?\" (3) Ia membenarkan atau mengoreksi. Ulangi sampai ia berkata ya. (4) Baru setelah itu tanggapi."
        },
        "bullets": [
         {
          "en": "<b>Apparent vs real disagreement.</b> Many disagreements are misunderstandings in disguise: you are answering different questions, or using the same word differently. A disagreement is real only when you both understand the question the same way and still answer differently.",
-         "id": "<b>Perbedaan semu vs nyata.</b> Banyak perbedaan pendapat adalah kesalahpahaman yang menyamar: kalian menjawab pertanyaan yang berbeda, atau memakai kata yang sama dengan arti berbeda. Perbedaan itu nyata hanya jika kalian memahami pertanyaan dengan cara yang sama dan tetap menjawab berbeda."
+         "id": "<b>Ketidaksetujuan semu vs nyata.</b> Banyak ketidaksetujuan sebenarnya salah paham yang menyamar: kalian menjawab pertanyaan yang berbeda, atau memakai kata yang sama dengan arti berbeda. Ketidaksetujuan baru nyata ketika kalian berdua memahami pertanyaannya dengan cara yang sama dan tetap menjawab berbeda."
         },
         {
          "en": "<b>Understood disagreement is a success.</b> Even when you still disagree, aim for each person being able to state the other's view and reasons in a way the other accepts. Adler calls this a minimal meeting of minds. For practical matters you still need a decision, but the relationship survives it.",
-         "id": "<b>Perbedaan yang dipahami adalah keberhasilan.</b> Bahkan saat kalian tetap berbeda, bidiklah agar masing-masing bisa menyatakan pandangan dan alasan yang lain dengan cara yang diterima. Adler menyebutnya pertemuan pikiran yang minimal. Untuk urusan praktis kamu tetap butuh keputusan, tetapi relasinya selamat."
+         "id": "<b>Ketidaksetujuan yang saling dipahami adalah keberhasilan.</b> Meski kalian tetap tidak setuju, usahakan agar masing-masing bisa menyebutkan pandangan dan alasan pihak lain dengan cara yang diterima pihak itu. Adler menyebutnya titik temu pikiran yang paling minimal. Untuk urusan praktis kalian tetap butuh keputusan, tetapi relasinya selamat."
         }
        ],
        "after": [
         {
          "en": "<i>Evidence note: research on conversational receptiveness shows that acknowledging the other view before stating yours makes people evaluate you better and reduces escalation. Follow-up questions increase liking. Paraphrasing increases the speaker's sense of being understood. If it sounds mechanical it backfires, so restate in your own words, not theirs.</i>",
-         "id": "<i>Catatan bukti: riset tentang keterbukaan percakapan menunjukkan bahwa mengakui pandangan lain sebelum menyatakan pandanganmu membuat orang menilaimu lebih baik dan mengurangi eskalasi. Pertanyaan lanjutan meningkatkan rasa suka. Parafrase meningkatkan rasa dipahami pembicara. Jika terdengar mekanis, hasilnya berbalik, jadi ulangi dengan kata-katamu sendiri, bukan kata mereka.</i>"
+         "id": "<i>Catatan bukti: penelitian tentang keterbukaan dalam percakapan menunjukkan bahwa mengakui pandangan lain sebelum menyampaikan pandanganmu membuat orang menilaimu lebih baik dan mengurangi ketegangan. Pertanyaan lanjutan membuat orang lebih menyukaimu. Parafrase membuat pembicara merasa lebih dipahami. Kalau terdengar seperti mesin, hasilnya justru berbalik, jadi ulangi dengan kata-katamu sendiri, bukan kata-katanya.</i>"
         }
        ]
       },
@@ -15993,24 +15993,24 @@ window.MT_LMS['the-map'] = {
        "icon": "target",
        "h": {
         "en": "The Disagreement Ladder",
-        "id": "Tangga Perbedaan Pendapat"
+        "id": "Tangga Ketidaksetujuan"
        },
        "body": {
         "en": "An original Metanoia tool built on Adler. Climb in order and don't skip rungs. Exhibit 1 below shows the ladder; this table gives you what to ask yourself and what to say at each rung.",
-        "id": "Alat asli Metanoia yang dibangun di atas Adler. Naiki berurutan dan jangan melewati anak tangga. Peraga 1 di bawah menunjukkan tangganya; tabel ini memberimu apa yang perlu ditanyakan pada diri sendiri dan apa yang dikatakan di tiap anak tangga."
+        "id": "Alat orisinal Metanoia yang dibangun dari Adler. Naiki secara berurutan dan jangan melompati anak tangga. Gambar 1 di bawah menunjukkan tangganya; tabel ini memberimu apa yang perlu kamu tanyakan pada diri sendiri dan apa yang perlu kamu katakan di setiap anak tangga."
        },
        "bullets": [
         {
          "en": "<b>Why levels matter in Indonesia.</b> Agreeing first on the principle (the shared goal) keeps face for everyone. You can then differ on policy or the particular case without sounding like you're challenging the person. “Kita sama-sama ingin acaranya inklusif untuk maba; bedanya cuma soal tiket gratis atau tidak.”",
-         "id": "<b>Mengapa tingkat penting di Indonesia.</b> Menyepakati prinsip (tujuan bersama) lebih dulu menjaga muka semua orang. Setelah itu kamu bisa berbeda pada kebijakan atau kasus tertentu tanpa terdengar menantang orangnya. “Kita sama-sama ingin acaranya inklusif untuk maba; bedanya cuma soal tiket gratis atau tidak.”"
+         "id": "<b>Kenapa tingkatan penting di Indonesia.</b> Menyepakati prinsipnya dulu (tujuan bersama) menjaga muka semua orang. Setelah itu kalian bisa berbeda soal kebijakan atau kasus tertentu tanpa terdengar seperti menantang orangnya. \"Kita sama-sama ingin acaranya inklusif untuk maba; bedanya cuma soal tiket gratis atau tidak.\""
         },
         {
          "en": "<b>Intellectual honesty.</b> Adler names two ways emotion corrupts argument: hiding points you can see weaken your case, and refusing to admit you're wrong when you know you are. Practise conceding one point sincerely before giving your view: “Kamu benar soal ___.”",
-         "id": "<b>Kejujuran intelektual.</b> Adler menyebut dua cara emosi merusak argumen: menyembunyikan poin yang kamu tahu melemahkan posisimu, dan menolak mengakui salah saat kamu tahu kamu salah. Latihlah mengakui satu poin dengan tulus sebelum menyampaikan pandanganmu: “Kamu benar soal ___.”"
+         "id": "<b>Kejujuran intelektual.</b> Adler menyebut dua cara emosi merusak argumen: menyembunyikan poin yang kamu tahu melemahkan argumenmu, dan menolak mengakui kesalahan padahal kamu tahu kamu salah. Latih dirimu untuk mengakui satu poin dengan tulus sebelum menyampaikan pandanganmu: \"Kamu benar soal ___.\""
         },
         {
          "en": "<b>Fallacies to avoid:</b> attacking the person (“of course you'd say that, you're rich”); treating an authority's quote as the end of the argument; proof by anecdote; voting on facts.",
-         "id": "<b>Sesat pikir yang harus dihindari:</b> menyerang orangnya (“ya jelas kamu bilang begitu, kamu kan kaya”); memperlakukan kutipan otoritas sebagai akhir argumen; bukti lewat anekdot; memungut suara untuk fakta."
+         "id": "<b>Kesesatan berpikir yang perlu dihindari:</b> menyerang orangnya (\"ya jelas kamu ngomong gitu, kamu kan kaya\"); menganggap kutipan seorang tokoh sebagai akhir perdebatan; pembuktian dengan satu cerita; memutuskan fakta lewat voting."
         }
        ],
        "table": {
@@ -16021,7 +16021,7 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Ask yourself",
-          "id": "Tanyakan pada diri"
+          "id": "Tanyakan pada dirimu"
          },
          {
           "en": "Say",
@@ -16036,11 +16036,11 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Taste, unsupported opinion, or a claim with reasons?",
-           "id": "Selera, opini tanpa dasar, atau klaim dengan alasan?"
+           "id": "Soal selera, pendapat tanpa dasar, atau klaim yang punya alasan?"
           },
           {
            "en": "“Ini soal selera, atau soal mana yang lebih berhasil?”",
-           "id": "“Ini soal selera, atau soal mana yang lebih berhasil?”"
+           "id": "\"Ini soal selera, atau soal mana yang lebih berhasil?\""
           }
          ],
          [
@@ -16050,11 +16050,11 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Is the gap about facts? Look them up; don't debate them",
-           "id": "Apakah selisihnya soal fakta? Cari; jangan diperdebatkan"
+           "id": "Apakah perbedaannya soal fakta? Cek faktanya; jangan diperdebatkan"
           },
           {
            "en": "“Let's check the data first.”",
-           "id": "“Kita cek datanya dulu.”"
+           "id": "\"Ayo kita cek datanya dulu.\""
           }
          ],
          [
@@ -16064,11 +16064,11 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Can I restate their view and reasons to their satisfaction?",
-           "id": "Bisakah aku mengulang pandangan dan alasan mereka sampai mereka puas?"
+           "id": "Bisakah aku mengulang pandangan dan alasannya sampai ia puas?"
           },
           {
            "en": "“Do I understand you to say…?”",
-           "id": "“Kalau saya tangkap, maksudnya…?”"
+           "id": "\"Apakah maksudmu…?\""
           }
          ],
          [
@@ -16078,11 +16078,11 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Are we answering the same question?",
-           "id": "Apakah kita menjawab pertanyaan yang sama?"
+           "id": "Apakah kami menjawab pertanyaan yang sama?"
           },
           {
            "en": "“Are we both talking about X?”",
-           "id": "“Kita sama-sama membahas X, kan?”"
+           "id": "\"Kita berdua sedang membahas X, kan?\""
           }
          ],
          [
@@ -16096,21 +16096,21 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "“We agree on the goal; we differ on how.”",
-           "id": "“Kita sepakat tujuannya; bedanya di caranya.”"
+           "id": "\"Kita sepakat soal tujuannya; kita beda soal caranya.\""
           }
          ],
          [
           {
            "en": "5 · Which ground?",
-           "id": "5 · Dasar mana?"
+           "id": "5 · Dasar apa?"
           },
           {
            "en": "Missing info, wrong info, a logic gap, or stopped too soon?",
-           "id": "Informasi kurang, informasi salah, celah logika, atau berhenti terlalu dini?"
+           "id": "Informasi yang kurang, informasi yang keliru, celah logika, atau berhenti terlalu cepat?"
           },
           {
            "en": "Offer it as information: “Ada satu data yang mungkin relevan…”",
-           "id": "Tawarkan sebagai informasi: “Ada satu data yang mungkin relevan…”"
+           "id": "Tawarkan sebagai informasi: \"Ada satu data yang mungkin relevan…\""
           }
          ],
          [
@@ -16120,11 +16120,11 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Agreement, understood disagreement + decision, or parked with a date?",
-           "id": "Kesepakatan, perbedaan yang dipahami + keputusan, atau diparkir dengan tanggal?"
+           "id": "Sepakat, ketidaksetujuan yang saling dipahami + keputusan, atau ditunda dengan tanggal?"
           },
           {
            "en": "“We differ on ___ because ___; for now we'll do ___ and review on ___.”",
-           "id": "“Kita berbeda soal ___ karena ___; untuk sekarang kita lakukan ___ dan tinjau pada ___.”"
+           "id": "\"Kita beda soal ___ karena ___; untuk sekarang kita jalankan ___ dan tinjau lagi tanggal ___.\""
           }
          ]
         ],
@@ -16136,7 +16136,7 @@ window.MT_LMS['the-map'] = {
         "type": "ladder",
         "exhibit": {
          "en": "Exhibit 1: The Disagreement Ladder",
-         "id": "Peraga 1: Tangga Perbedaan Pendapat"
+         "id": "Gambar 1: Tangga Ketidaksetujuan"
         },
         "title": {
          "en": "Seven rungs, climbed in order",
@@ -16150,7 +16150,7 @@ window.MT_LMS['the-map'] = {
           },
           "sub": {
            "en": "Taste, opinion or a claim with reasons",
-           "id": "Selera, opini, atau klaim beralasan"
+           "id": "Selera, pendapat, atau klaim beralasan"
           }
          },
          {
@@ -16160,7 +16160,7 @@ window.MT_LMS['the-map'] = {
           },
           "sub": {
            "en": "Look them up",
-           "id": "Cari faktanya"
+           "id": "Cek dulu"
           }
          },
          {
@@ -16180,7 +16180,7 @@ window.MT_LMS['the-map'] = {
           },
           "sub": {
            "en": "Same question?",
-           "id": "Pertanyaan yang sama?"
+           "id": "Pertanyaannya sama?"
           }
          },
          {
@@ -16210,17 +16210,17 @@ window.MT_LMS['the-map'] = {
           },
           "sub": {
            "en": "Agree, understood disagreement, or parked",
-           "id": "Sepakat, perbedaan dipahami, atau diparkir"
+           "id": "Sepakat, saling paham beda, atau ditunda"
           }
          }
         ],
         "note": {
          "en": "Don't skip rungs. Most arguments fail at rung 1 (facts) or rung 2 (understanding).",
-         "id": "Jangan melewati anak tangga. Kebanyakan perdebatan gagal di anak tangga 1 (fakta) atau 2 (pemahaman)."
+         "id": "Jangan melompati anak tangga. Sebagian besar perdebatan gagal di anak tangga 1 (fakta) atau anak tangga 2 (memahami)."
         },
         "longdesc": {
          "en": "A seven-rung ladder for disagreeing well. Check whether the matter is arguable at all; look up facts rather than debate them; restate the other view with its reasons until confirmed; check whether the disagreement is real or a misunderstanding; name whether you differ on principle, policy or a particular case; name your ground (missing information, wrong information, a logic gap, or incomplete reasoning) and offer it as information; close with agreement, understood disagreement plus a decision, or a parked question with a review date.",
-         "id": "Tangga tujuh anak tangga untuk berbeda pendapat dengan baik. Periksa apakah masalahnya bisa diperdebatkan sama sekali; cari fakta alih-alih memperdebatkannya; ulangi pandangan lain beserta alasannya sampai dikonfirmasi; periksa apakah perbedaannya nyata atau kesalahpahaman; sebutkan apakah kalian berbeda pada prinsip, kebijakan, atau kasus tertentu; sebutkan dasarmu (informasi kurang, informasi salah, celah logika, atau penalaran yang belum lengkap) dan tawarkan sebagai informasi; tutup dengan kesepakatan, perbedaan yang dipahami plus keputusan, atau pertanyaan yang diparkir dengan tanggal tinjauan."
+         "id": "Tangga tujuh anak tangga untuk berbeda pendapat dengan baik. Periksa apakah persoalannya memang bisa diperdebatkan; cek faktanya alih-alih memperdebatkannya; ulangi pandangan pihak lain beserta alasannya sampai dibenarkan; periksa apakah ketidaksetujuannya nyata atau hanya salah paham; sebutkan apakah kalian berbeda soal prinsip, kebijakan, atau kasus tertentu; sebutkan dasarmu (informasi yang kurang, informasi yang keliru, celah logika, atau penalaran yang belum tuntas) dan tawarkan sebagai informasi; tutup dengan kesepakatan, ketidaksetujuan yang saling dipahami beserta keputusan, atau pertanyaan yang ditunda dengan tanggal peninjauan."
         }
        }
       },
@@ -16228,24 +16228,24 @@ window.MT_LMS['the-map'] = {
        "icon": "chat",
        "h": {
         "en": "Disagreeing upward, respectfully",
-        "id": "Berbeda pendapat ke atas, dengan santun"
+        "id": "Tidak setuju dengan atasan, dengan hormat"
        },
        "body": {
         "en": "Indonesia scores high on power distance in published cross-cultural research. Juniors often signal disagreement indirectly (“mungkin bisa dipertimbangkan lagi”) or not at all, and “iya” may mean “I heard you”, not “I agree”. Adler's rule, <i>civil but not too polite</i>, translates well as <b>jujur dengan santun</b>. <b>A five-step script for disagreeing with a senior:</b> (1) Shared goal: “Saya setuju tujuannya ___.” (2) Restate: “Kalau saya tangkap, Bapak/Ibu ingin ___ karena ___, betul?” (3) Offer your ground as information: “Ada satu data/pengalaman yang mungkin relevan…” (4) Propose, don't oppose: “Bagaimana kalau untuk kasus ini kita coba ___?” (5) Leave room: “Tentu keputusan di Bapak/Ibu; saya ingin masukan ini tercatat.”",
-        "id": "Indonesia mendapat skor tinggi pada jarak kekuasaan dalam riset lintas budaya yang dipublikasikan. Junior sering menandakan ketidaksetujuan secara tidak langsung (“mungkin bisa dipertimbangkan lagi”) atau tidak sama sekali, dan “iya” bisa berarti “saya dengar”, bukan “saya setuju”. Aturan Adler, <i>sopan tapi tidak terlalu sungkan</i>, cocok diterjemahkan sebagai <b>jujur dengan santun</b>. <b>Naskah lima langkah untuk berbeda pendapat dengan senior:</b> (1) Tujuan bersama: “Saya setuju tujuannya ___.” (2) Ulangi: “Kalau saya tangkap, Bapak/Ibu ingin ___ karena ___, betul?” (3) Tawarkan dasarmu sebagai informasi: “Ada satu data/pengalaman yang mungkin relevan…” (4) Usulkan, jangan tentang: “Bagaimana kalau untuk kasus ini kita coba ___?” (5) Beri ruang: “Tentu keputusan di Bapak/Ibu; saya ingin masukan ini tercatat.”"
+        "id": "Dalam penelitian lintas budaya yang sudah dipublikasikan, Indonesia mendapat skor tinggi untuk jarak kuasa. Junior sering menyampaikan ketidaksetujuan secara tidak langsung (\"mungkin bisa dipertimbangkan lagi\") atau tidak sama sekali, dan \"iya\" bisa berarti \"aku dengar\", bukan \"aku setuju\". Aturan Adler, <i>sopan tetapi jangan terlalu sungkan</i>, cocok diterjemahkan menjadi <b>jujur dengan santun</b>. <b>Naskah lima langkah untuk tidak setuju dengan senior:</b> (1) Tujuan bersama: \"Saya setuju tujuannya ___.\" (2) Ulangi: \"Kalau saya tangkap, Bapak/Ibu ingin ___ karena ___, betul?\" (3) Tawarkan dasarmu sebagai informasi: \"Ada satu data/pengalaman yang mungkin relevan…\" (4) Usulkan, jangan menentang: \"Bagaimana kalau untuk kasus ini kita coba ___?\" (5) Beri ruang: \"Tentu keputusan di Bapak/Ibu; saya ingin masukan ini tercatat.\""
        },
        "bullets": [
         {
          "en": "<b>Channel.</b> Raise it in private first (japri or a short 1:1), not in the group. Ask understanding questions in public and challenge questions in private.",
-         "id": "<b>Saluran.</b> Sampaikan secara privat dulu (japri atau 1:1 singkat), bukan di grup. Ajukan pertanyaan pemahaman di depan umum dan pertanyaan yang menantang secara privat."
+         "id": "<b>Salurannya.</b> Sampaikan secara pribadi dulu (japri atau obrolan singkat empat mata), bukan di grup. Ajukan pertanyaan untuk memahami di depan umum, dan pertanyaan yang menantang secara pribadi."
         },
         {
          "en": "<b>Correcting a misquote.</b> If someone says “You said X” and you didn't, correct it calmly before answering: “Mohon maaf Pak, maksud saya kemarin…”",
-         "id": "<b>Mengoreksi salah kutip.</b> Jika seseorang berkata “Kamu bilang X” padahal tidak, koreksi dengan tenang sebelum menjawab: “Mohon maaf Pak, maksud saya kemarin…”"
+         "id": "<b>Meluruskan kutipan yang keliru.</b> Kalau seseorang berkata \"Kamu bilang X\" padahal tidak, luruskan dengan tenang sebelum menjawab: \"Mohon maaf Pak, maksud saya kemarin…\""
         },
         {
          "en": "<b>When it's an ethics issue, not a difference of opinion.</b> If you're asked to do something illegal or unethical, it's no longer a disagreement to manage. Escalate through proper channels (Lesson 5.5 covers the three-tier rule).",
-         "id": "<b>Saat ini soal etika, bukan beda pendapat.</b> Jika kamu diminta melakukan sesuatu yang ilegal atau tidak etis, itu bukan lagi perbedaan pendapat untuk dikelola. Eskalasi lewat saluran yang tepat (Pelajaran 5.5 membahas aturan tiga tingkat)."
+         "id": "<b>Ketika itu soal etika, bukan beda pendapat.</b> Kalau kamu diminta melakukan sesuatu yang melanggar hukum atau tidak etis, itu bukan lagi ketidaksetujuan yang perlu dikelola. Laporkan lewat jalur yang semestinya (Pelajaran 5.5 membahas aturan tiga tingkat)."
         }
        ]
       },
@@ -16253,20 +16253,20 @@ window.MT_LMS['the-map'] = {
        "icon": "users",
        "h": {
         "en": "Group conversations: rapat, study groups and WhatsApp decisions",
-        "id": "Percakapan kelompok: rapat, kelompok belajar, dan keputusan di WhatsApp"
+        "id": "Percakapan kelompok: rapat, kelompok belajar, dan keputusan lewat WhatsApp"
        },
        "body": {
         "en": "In organisation meetings and team chats, the ketua or senior speaks first and everyone else nods. Decisions are “agreed” because nobody objected. This false consensus (<i>mufakat semu</i>) is the group version of apparent agreement. Research on “hidden profiles” shows groups over-discuss what everyone already knows and miss what only one person knows. <b>Meeting Rules Card:</b> open with the question, not the topic (“The question is ___; success means ___ by ___”), and recap previous decisions in two minutes. Round-robin, juniors first: everyone answers the opening question in one minute before discussion starts, or writes their view in the chat first. Understand before you challenge: clarifying questions first, objections second. Facts get looked up; tastes get noted; arguable points get reasons. Settled is settled: write it down so it doesn't come back. Close with the decision, owner, deadline, and any dissent recorded in the notulen.",
-        "id": "Di rapat organisasi dan chat tim, ketua atau senior bicara dulu dan yang lain mengangguk. Keputusan “disetujui” karena tidak ada yang keberatan. Mufakat semu ini adalah versi kelompok dari kesepakatan semu. Riset tentang “profil tersembunyi” menunjukkan kelompok terlalu banyak membahas yang sudah diketahui semua orang dan melewatkan yang hanya diketahui satu orang. <b>Kartu Aturan Rapat:</b> buka dengan pertanyaannya, bukan topiknya (“Pertanyaannya ___; berhasil berarti ___ sebelum ___”), dan rangkum keputusan sebelumnya dalam dua menit. Giliran bicara, junior dulu: semua menjawab pertanyaan pembuka dalam satu menit sebelum diskusi dimulai, atau menulis pandangannya di chat dulu. Pahami sebelum menantang: pertanyaan klarifikasi dulu, keberatan kemudian. Fakta dicari; selera dicatat; poin yang bisa diperdebatkan diberi alasan. Yang sudah diputuskan tetap diputuskan: tulis agar tidak kembali. Tutup dengan keputusan, penanggung jawab, tenggat, dan ketidaksetujuan apa pun dicatat di notulen."
+        "id": "Di rapat organisasi dan grup chat tim, ketua atau senior bicara lebih dulu dan semua orang lain mengangguk. Keputusan dianggap \"disepakati\" karena tidak ada yang keberatan. Kesepakatan palsu ini (mufakat semu) adalah versi kelompok dari kesepakatan semu. Penelitian tentang \"profil tersembunyi\" menunjukkan bahwa kelompok terlalu banyak membahas hal yang sudah diketahui semua orang dan melewatkan hal yang hanya diketahui satu orang. <b>Kartu Aturan Rapat:</b> buka dengan pertanyaannya, bukan topiknya (\"Pertanyaannya ___; berhasil berarti ___ paling lambat ___\"), dan rangkum keputusan sebelumnya dalam dua menit. Giliran bicara dimulai dari yang paling junior: semua orang menjawab pertanyaan pembuka dalam satu menit sebelum diskusi dimulai, atau menulis pandangannya di chat lebih dulu. Pahami dulu sebelum menantang: pertanyaan klarifikasi dulu, keberatan belakangan. Fakta dicek; selera dicatat; poin yang bisa diperdebatkan disertai alasan. Yang sudah diputuskan tidak dibuka lagi: tulis supaya tidak muncul kembali. Tutup dengan keputusan, penanggung jawab, tenggat, dan perbedaan pendapat yang tercatat di notulen."
        },
        "bullets": [
         {
          "en": "<b>Study group seminar (Diskusi Sokratik).</b> For a 60–90 minute study group: everyone reads a short text; the moderator prepares 1–3 open questions; the session opens with a round-robin, then the moderator asks “Why?” and “What follows?” and points people at each other (“Rina, how does your view fit with Dimas's?”); it ends by mapping the positions, with no forced consensus. Rotate the moderator. If the moderator answers their own question after ten seconds of silence, the seminar has become a lecture.",
-         "id": "<b>Seminar kelompok belajar (Diskusi Sokratik).</b> Untuk kelompok belajar 60–90 menit: semua membaca teks pendek; moderator menyiapkan 1–3 pertanyaan terbuka; sesi dibuka dengan giliran bicara, lalu moderator bertanya “Mengapa?” dan “Lalu apa akibatnya?” dan mengarahkan orang satu sama lain (“Rina, bagaimana pandanganmu cocok dengan Dimas?”); diakhiri dengan memetakan posisi, tanpa mufakat yang dipaksakan. Gilir moderatornya. Jika moderator menjawab pertanyaannya sendiri setelah sepuluh detik hening, seminar sudah menjadi ceramah."
+         "id": "<b>Seminar kelompok belajar (Diskusi Sokratik).</b> Untuk kelompok belajar 60–90 menit: semua orang membaca satu teks pendek; moderator menyiapkan 1–3 pertanyaan terbuka; sesi dibuka dengan giliran bicara, lalu moderator bertanya \"Kenapa?\" dan \"Lalu apa akibatnya?\" dan mengarahkan orang untuk saling menanggapi (\"Rina, bagaimana pandanganmu nyambung dengan pandangan Dimas?\"); sesi berakhir dengan memetakan posisi masing-masing, tanpa memaksakan kesepakatan. Gilir moderatornya. Kalau moderator menjawab pertanyaannya sendiri setelah sepuluh detik hening, seminarnya sudah berubah menjadi kuliah."
         },
         {
          "en": "<b>WhatsApp decisions.</b> Replace “Ada yang keberatan?” with a poll or “Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00”. Move disagreements to japri or a call. Before replying to a long message, restate its main point in one line. For forwarded claims, look up the facts rather than arguing about them.",
-         "id": "<b>Keputusan di WhatsApp.</b> Ganti “Ada yang keberatan?” dengan polling atau “Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00”. Pindahkan perbedaan pendapat ke japri atau telepon. Sebelum membalas pesan panjang, ulangi poin utamanya dalam satu baris. Untuk klaim yang diteruskan, cari faktanya alih-alih memperdebatkannya."
+         "id": "<b>Keputusan lewat WhatsApp.</b> Ganti \"Ada yang keberatan?\" dengan polling atau \"Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00\". Pindahkan perbedaan pendapat ke japri atau telepon. Sebelum membalas pesan yang panjang, ulangi poin utamanya dalam satu baris. Untuk klaim yang diteruskan, cek faktanya alih-alih memperdebatkannya."
         }
        ]
       },
@@ -16274,16 +16274,16 @@ window.MT_LMS['the-map'] = {
        "icon": "flag",
        "h": {
         "en": "When it gets heated",
-        "id": "Saat memanas"
+        "id": "Ketika suasana memanas"
        },
        "body": {
         "en": "Warning signs, in yourself or others: raised voice; repeating the same point louder; sarcasm; mocking; baiting; over-certainty; attacking the person. In Gottman's research, contempt (sarcasm, mockery) is one of the strongest predictors of relationship breakdown. <b>You're heating up:</b> pause. “Boleh kita lanjut besok? Saya mau pikirkan dulu.” Gottman's work suggests a break of about 20 minutes when physiologically flooded. Use 5.2's tools to let your body finish. <b>They're heating up:</b> acknowledge the feeling first (AVEC empathy), then return to the question. <b>It has become personal:</b> suspend the topic and repair the relationship first (a personal conversation), then return to the decision.",
-        "id": "Tanda peringatan, pada dirimu atau orang lain: suara meninggi; mengulang poin yang sama lebih keras; sarkasme; mengejek; memancing; terlalu yakin; menyerang orangnya. Dalam riset Gottman, penghinaan (sarkasme, ejekan) adalah salah satu prediktor terkuat putusnya relasi. <b>Kamu memanas:</b> jeda. “Boleh kita lanjut besok? Saya mau pikirkan dulu.” Karya Gottman menyarankan jeda sekitar 20 menit saat banjir secara fisiologis. Pakai alat 5.2 untuk membiarkan tubuhmu menuntaskan. <b>Mereka memanas:</b> akui perasaannya dulu (empati AVEC), lalu kembali ke pertanyaannya. <b>Sudah jadi personal:</b> tangguhkan topiknya dan perbaiki relasinya dulu (percakapan personal), lalu kembali ke keputusannya."
+        "id": "Tanda-tandanya, pada dirimu atau orang lain: suara meninggi; mengulang poin yang sama makin keras; sindiran; ejekan; memancing emosi; terlalu yakin; menyerang orangnya. Dalam penelitian Gottman, sikap merendahkan (sindiran, ejekan) adalah salah satu prediktor terkuat rusaknya hubungan. <b>Kamu mulai panas:</b> berhenti sejenak. \"Boleh kita lanjut besok? Saya mau pikirkan dulu.\" Penelitian Gottman menyarankan jeda sekitar 20 menit ketika tubuh sedang kewalahan secara fisiologis. Pakai alat-alat dari 5.2 untuk membiarkan tubuhmu menuntaskannya. <b>Dia mulai panas:</b> akui perasaannya dulu (empati dalam AVEC), lalu kembali ke pertanyaannya. <b>Sudah jadi urusan pribadi:</b> tunda topiknya dan perbaiki hubungannya dulu (percakapan pribadi), lalu kembali ke keputusannya."
        },
        "after": [
         {
          "en": "<b>Where we correct the source.</b> Adler says emotion has no place in impersonal argument. Modern research disagrees: suppressing emotion has social and physical costs, and emotions carry information (5.2). Keep his useful core, <i>argument is not aggression</i>, and drop the rest: notice, name, regulate, then reason.",
-         "id": "<b>Di mana kami mengoreksi sumbernya.</b> Adler mengatakan emosi tidak punya tempat dalam argumen impersonal. Riset modern tidak sependapat: menekan emosi punya biaya sosial dan fisik, dan emosi membawa informasi (5.2). Pertahankan inti yang berguna, <i>argumen bukan agresi</i>, dan tinggalkan sisanya: sadari, namai, atur, baru bernalar."
+         "id": "<b>Bagian yang kami koreksi dari sumbernya.</b> Adler berpendapat emosi tidak punya tempat dalam argumen yang tidak bersifat pribadi. Penelitian modern tidak sependapat: menekan emosi punya biaya sosial dan fisik, dan emosi membawa informasi (5.2). Ambil intinya yang berguna, <i>berargumen bukan berarti menyerang</i>, dan tinggalkan sisanya: sadari, sebutkan, kelola, lalu bernalar."
         }
        ]
       }
@@ -16292,23 +16292,23 @@ window.MT_LMS['the-map'] = {
       {
        "tag": {
         "en": "The dashboard disagreement",
-        "id": "Perbedaan pendapat soal dashboard"
+        "id": "Beda pendapat soal dasbor"
        },
        "q": {
         "en": "In a team call, Mbak Sari proposes a weekly delivery dashboard grouped by warehouse. Raka thinks it should be grouped by customer. What does he say?",
-        "id": "Dalam panggilan tim, Mbak Sari mengusulkan dashboard pengiriman mingguan yang dikelompokkan per gudang. Raka berpikir seharusnya per pelanggan. Apa yang ia katakan?"
+        "id": "Dalam panggilan tim, Mbak Sari mengusulkan dasbor pengiriman mingguan yang dikelompokkan per gudang. Raka berpikir dasbor itu sebaiknya dikelompokkan per pelanggan. Apa yang ia katakan?"
        },
        "weak": {
         "en": "“Tapi kalau per gudang kurang berguna sih, Mbak. Mending per customer.” (Then he goes quiet and complains to Dimas on WhatsApp afterwards.)",
-        "id": "“Tapi kalau per gudang kurang berguna sih, Mbak. Mending per customer.” (Lalu ia diam dan mengeluh ke Dimas lewat WhatsApp setelahnya.)"
+        "id": "\"Tapi kalau per gudang kurang berguna sih, Mbak. Mending per customer.\" (Lalu ia diam dan mengeluh ke Dimas lewat WhatsApp sesudahnya.)"
        },
        "strong": {
         "en": "“Mbak, saya cek dulu ya: dashboard per gudang supaya kepala gudang bisa lihat performa timnya, betul?” (Sari confirms.) “Setuju tujuannya membantu perbaikan operasional. Satu hal yang mungkin relevan: tiga komplain terakhir datang dari dua customer besar, dan polanya lintas gudang. Bagaimana kalau tampilan utamanya per gudang, plus satu tab per customer untuk lima customer teratas? Kalau tidak sempat minggu ini, saya bisa catat sebagai usulan untuk versi berikutnya.”",
-        "id": "“Mbak, saya cek dulu ya: dashboard per gudang supaya kepala gudang bisa lihat performa timnya, betul?” (Sari mengonfirmasi.) “Setuju tujuannya membantu perbaikan operasional. Satu hal yang mungkin relevan: tiga komplain terakhir datang dari dua customer besar, dan polanya lintas gudang. Bagaimana kalau tampilan utamanya per gudang, plus satu tab per customer untuk lima customer teratas? Kalau tidak sempat minggu ini, saya bisa catat sebagai usulan untuk versi berikutnya.”"
+        "id": "\"Mbak, saya cek dulu ya: dashboard per gudang supaya kepala gudang bisa lihat performa timnya, betul?\" (Mbak Sari membenarkan.) \"Setuju tujuannya membantu perbaikan operasional. Satu hal yang mungkin relevan: tiga komplain terakhir datang dari dua customer besar, dan polanya lintas gudang. Bagaimana kalau tampilan utamanya per gudang, plus satu tab per customer untuk lima customer teratas? Kalau tidak sempat minggu ini, saya bisa catat sebagai usulan untuk versi berikutnya.\""
        },
        "why": {
         "en": "Raka restates first (rung 2) and agrees on the principle (rung 4). He offers his ground as information (rung 5, missing info), proposes a both/and option, and leaves room for the senior's decision (rung 6). The weak version disagrees before understanding, then turns the disagreement into a private grievance.",
-        "id": "Raka mengulang dulu (anak tangga 2) dan sepakat pada prinsipnya (anak tangga 4). Ia menawarkan dasarnya sebagai informasi (anak tangga 5, informasi yang kurang), mengusulkan opsi “dan”, dan memberi ruang untuk keputusan senior (anak tangga 6). Versi yang lemah tidak setuju sebelum paham, lalu mengubah perbedaan menjadi keluhan di belakang."
+        "id": "Raka mengulang dulu (anak tangga 2) dan menyepakati prinsipnya (anak tangga 4). Ia menawarkan dasarnya sebagai informasi (anak tangga 5, informasi yang kurang), mengusulkan pilihan yang memadukan keduanya, dan memberi ruang bagi keputusan seniornya (anak tangga 6). Versi yang lemah tidak setuju sebelum memahami, lalu mengubah ketidaksetujuannya menjadi keluhan di belakang."
        }
       }
      ],
@@ -16317,16 +16317,16 @@ window.MT_LMS['the-map'] = {
       "placement": "after-sections",
       "title": {
        "en": "In focus: the silent “yes”",
-       "id": "Sorotan: “ya” yang diam"
+       "id": "Sorotan: \"ya\" dalam diam"
       },
       "body": [
        {
         "en": "The trainees' WhatsApp group: Bu Wulan posts a new reporting schedule and asks “Ada yang keberatan?” Nobody replies, so the schedule stands. Three days later, two trainees miss the Friday deadline. The schedule clashed with the warehouse stock-count everyone knew about but nobody mentioned.",
-        "id": "Grup WhatsApp para trainee: Bu Wulan memposting jadwal pelaporan baru dan bertanya “Ada yang keberatan?” Tidak ada yang membalas, maka jadwal berlaku. Tiga hari kemudian, dua trainee melewatkan tenggat Jumat. Jadwalnya bentrok dengan stock opname gudang yang semua orang tahu tapi tidak ada yang menyebutkan."
+        "id": "Grup WhatsApp para trainee: Bu Wulan mengunggah jadwal pelaporan baru dan bertanya, \"Ada yang keberatan?\" Tidak ada yang membalas, jadi jadwalnya berlaku. Tiga hari kemudian, dua trainee melewatkan tenggat hari Jumat. Jadwalnya bentrok dengan stock opname gudang yang sebenarnya diketahui semua orang, tetapi tidak ada yang menyebutkannya."
        },
        {
         "en": "At the retrospective, Raka suggests a small change: decisions in the group get a numbered reply (“1 setuju / 2 tidak / 3 ada catatan”) with a deadline, and the trainees speak first in the Monday stand-up. Bu Wulan tries it the next week. Two “3 ada catatan” replies surface a holiday clash before it costs anyone a deadline.",
-        "id": "Pada retrospektif, Raka mengusulkan perubahan kecil: keputusan di grup mendapat balasan bernomor (“1 setuju / 2 tidak / 3 ada catatan”) dengan tenggat, dan para trainee bicara lebih dulu di stand-up Senin. Bu Wulan mencobanya minggu berikutnya. Dua balasan “3 ada catatan” memunculkan bentrokan hari libur sebelum merugikan tenggat siapa pun."
+        "id": "Dalam rapat evaluasi, Raka mengusulkan perubahan kecil: keputusan di grup dijawab dengan balasan bernomor (\"1 setuju / 2 tidak / 3 ada catatan\") lengkap dengan tenggatnya, dan para trainee bicara lebih dulu di stand-up hari Senin. Bu Wulan mencobanya minggu berikutnya. Dua balasan \"3 ada catatan\" memunculkan bentrokan dengan hari libur sebelum ada yang sampai melewatkan tenggat."
        }
       ]
      },
@@ -16334,15 +16334,15 @@ window.MT_LMS['the-map'] = {
       {
        "h": {
         "en": "Drill 1: Restate-before-you-respond triads (20 min, with two friends)",
-        "id": "Latihan 1: Ulangi-sebelum-merespons bertiga (20 menit, dengan dua teman)"
+        "id": "Latihan 1: Bertiga, ulangi dulu sebelum menanggapi (20 menit, dengan dua teman)"
        },
        "body": {
         "en": "Speaker gives a 90-second view on a mild campus issue (for example, “Should attendance count toward grades?”). Listener restates position and reasons until the speaker confirms; only then responds. Observer counts loops and notes any “smuggled rebuttal” (“so you're saying, naively…”). Rotate roles.",
-        "id": "Pembicara memberi pandangan 90 detik tentang isu kampus yang ringan (misalnya, “Haruskah kehadiran dihitung dalam nilai?”). Penyimak mengulang posisi dan alasannya sampai pembicara mengonfirmasi; baru kemudian merespons. Pengamat menghitung putaran dan mencatat “bantahan selundupan” (“jadi maksudmu, secara naif…”). Gilir peran."
+        "id": "Pembicara menyampaikan pandangan selama 90 detik tentang isu kampus yang ringan (misalnya, \"Apakah kehadiran sebaiknya dihitung dalam nilai?\"). Pendengar mengulang posisi dan alasannya sampai pembicara membenarkan, baru kemudian menanggapi. Pengamat menghitung berapa kali putaran dan mencatat \"bantahan yang diselundupkan\" (\"jadi maksudmu, dengan naifnya…\"). Bergantian peran."
        },
        "debrief": {
         "en": "Most people need two or three loops at first, and leave out the reasons. If you got the conclusion but not the “because”, you haven't understood yet; you've only heard.",
-        "id": "Kebanyakan orang butuh dua atau tiga putaran pada awalnya, dan melewatkan alasannya. Jika kamu menangkap kesimpulannya tapi bukan “karena”-nya, kamu belum paham; kamu baru mendengar."
+        "id": "Kebanyakan orang awalnya butuh dua atau tiga putaran, dan lupa menyertakan alasannya. Kalau kamu menangkap kesimpulannya tetapi tidak menangkap \"karena\"-nya, kamu belum memahami; kamu baru mendengar."
        }
       },
       {
@@ -16352,25 +16352,25 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Pick an upcoming important talk (with a parent, supervisor or teammate) and complete the planner below: type, success sentence, right time and place, opening line.",
-        "id": "Pilih percakapan penting yang akan datang (dengan orang tua, atasan, atau rekan tim) dan lengkapi perencana di bawah: jenis, kalimat keberhasilan, waktu dan tempat yang tepat, kalimat pembuka."
+        "id": "Pilih satu obrolan penting yang akan datang (dengan orang tua, atasan, atau rekan tim) dan lengkapi perencana di bawah: jenis, kalimat keberhasilan, waktu dan tempat yang tepat, kalimat pembuka."
        },
        "debrief": {
         "en": "Afterwards, check: did it end in the state you named? Mismatches usually happen in the first two minutes. That's why the opening line matters.",
-        "id": "Setelahnya, periksa: apakah berakhir dalam keadaan yang kamu sebutkan? Salah jenis biasanya terjadi di dua menit pertama. Itu sebabnya kalimat pembuka penting."
+        "id": "Sesudahnya, periksa: apakah percakapannya berakhir di keadaan yang kamu sebutkan? Salah jenis biasanya terjadi di dua menit pertama. Karena itulah kalimat pembuka penting."
        }
       },
       {
        "h": {
         "en": "Drill 3: Ladder a live disagreement (30 min)",
-        "id": "Latihan 3: Tanggai perbedaan pendapat yang nyata (30 menit)"
+        "id": "Latihan 3: Naiki tangga untuk ketidaksetujuan yang sedang terjadi (30 menit)"
        },
        "body": {
         "en": "Take a real disagreement in a group project or organisation. Work through rungs 0–6 in writing, then in a short call. End with a shared statement posted to the group: “We agree on ___; we differ on ___ because ___; we'll do ___; review on ___.”",
-        "id": "Ambil perbedaan pendapat nyata di proyek kelompok atau organisasi. Kerjakan anak tangga 0–6 secara tertulis, lalu dalam panggilan singkat. Akhiri dengan pernyataan bersama yang diposting ke grup: “Kita sepakat soal ___; kita berbeda soal ___ karena ___; kita akan ___; tinjau pada ___.”"
+        "id": "Ambil satu ketidaksetujuan nyata di kerja kelompok atau organisasimu. Kerjakan anak tangga 0–6 secara tertulis, lalu dalam panggilan singkat. Akhiri dengan pernyataan bersama yang diunggah ke grup: \"Kita sepakat soal ___; kita beda soal ___ karena ___; kita akan menjalankan ___; ditinjau lagi tanggal ___.\""
        },
        "debrief": {
         "en": "If everyone signs off on the statement, you've reached understood disagreement, which is a real outcome, not a failure.",
-        "id": "Jika semua orang menyetujui pernyataan itu, kamu sudah mencapai perbedaan yang dipahami, yang merupakan hasil nyata, bukan kegagalan."
+        "id": "Kalau semua orang menyetujui pernyataan itu, kalian sudah mencapai ketidaksetujuan yang saling dipahami, dan itu hasil yang nyata, bukan kegagalan."
        }
       },
       {
@@ -16379,29 +16379,29 @@ window.MT_LMS['the-map'] = {
         "id": "Latihan 4: Fakta, selera, atau bisa diperdebatkan? (latihan memilah 10 menit)"
        },
        "body": {
-        "en": "Sort the statements in the resource-kit worksheet (for example “Kopi di kantin enak banget”, “regional minimum wage Jakarta tahun ini naik sekian persen”, “Magang tidak dibayar itu eksploitatif”, “Kita harus pakai Notion bukan Trello”) into fact to look up, taste to note, or arguable with reasons. Then check the answer key on the card.",
-        "id": "Pilah pernyataan di lembar kerja perangkat sumber daya (misalnya “Kopi di kantin enak banget”, “UMR Jakarta tahun ini naik sekian persen”, “Magang tidak dibayar itu eksploitatif”, “Kita harus pakai Notion bukan Trello”) menjadi fakta untuk dicari, selera untuk dicatat, atau bisa diperdebatkan dengan alasan. Lalu periksa kunci jawaban di kartu."
+        "en": "Sort the statements in the resource-kit worksheet (for example “Kopi di kantin enak banget”, “UMP Jakarta tahun ini naik sekian persen”, “Magang tidak dibayar itu eksploitatif”, “Kita harus pakai Notion bukan Trello”) into fact to look up, taste to note, or arguable with reasons. Then check the answer key on the card.",
+        "id": "Pilah pernyataan-pernyataan di lembar kerja perlengkapan (misalnya \"Kopi di kantin enak banget\", \"UMP Jakarta tahun ini naik sekian persen\", \"Magang tidak dibayar itu eksploitatif\", \"Kita harus pakai Notion bukan Trello\") ke dalam fakta yang perlu dicek, selera yang cukup dicatat, atau hal yang bisa diperdebatkan dengan alasan. Lalu cocokkan dengan kunci jawaban di kartunya."
        },
        "debrief": {
         "en": "The wage claim is a fact to look up, not a debate. The tool choice is a practical decision to make with criteria. The internship claim is genuinely arguable, so bring reasons.",
-        "id": "Klaim upah adalah fakta untuk dicari, bukan diperdebatkan. Pilihan alat adalah keputusan praktis yang diambil dengan kriteria. Klaim magang benar-benar bisa diperdebatkan, jadi bawa alasan."
+        "id": "Klaim soal upah adalah fakta yang perlu dicek, bukan bahan debat. Pilihan alat kerja adalah keputusan praktis yang diambil dengan kriteria. Klaim soal magang memang bisa diperdebatkan, jadi bawalah alasan."
        }
       }
      ],
      "mistakes": {
       "title": {
        "en": "Common mistakes",
-       "id": "Kesalahan umum"
+       "id": "Kesalahan yang sering terjadi"
       },
       "items": [
        {
         "h": {
          "en": "Disagreeing before you understand",
-         "id": "Tidak setuju sebelum paham"
+         "id": "Tidak setuju sebelum memahami"
         },
         "fix": {
          "en": "Restate with reasons first; only respond after they confirm.",
-         "id": "Ulangi beserta alasannya dulu; respons hanya setelah mereka mengonfirmasi."
+         "id": "Ulangi beserta alasannya dulu; tanggapi hanya setelah ia membenarkan."
         }
        },
        {
@@ -16411,27 +16411,27 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "Look them up. Argue about what follows from them.",
-         "id": "Cari faktanya. Perdebatkan apa yang mengikutinya."
+         "id": "Cek faktanya. Perdebatkan apa yang mengikuti dari fakta itu."
         }
        },
        {
         "h": {
          "en": "Reading silence as agreement",
-         "id": "Membaca diam sebagai setuju"
+         "id": "Menganggap diam sebagai setuju"
         },
         "fix": {
          "en": "Round-robin, juniors first, or a numbered poll with a deadline.",
-         "id": "Giliran bicara, junior dulu, atau polling bernomor dengan tenggat."
+         "id": "Giliran bicara dimulai dari yang paling junior, atau polling bernomor dengan tenggat."
         }
        },
        {
         "h": {
          "en": "Restating with a hidden jab",
-         "id": "Mengulang dengan sindiran tersembunyi"
+         "id": "Mengulang sambil menyindir diam-diam"
         },
         "fix": {
          "en": "A restatement the other person would happily sign. Save your view for afterwards.",
-         "id": "Pengulangan yang akan ditandatangani orang itu dengan senang hati. Simpan pandanganmu untuk setelahnya."
+         "id": "Ulangi dengan cara yang akan ditandatangani pihak lain dengan senang hati. Simpan pandanganmu untuk sesudahnya."
         }
        },
        {
@@ -16441,7 +16441,7 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "Rephrase, give an example, or ask people in turn.",
-         "id": "Ubah susunan kalimatnya, beri contoh, atau tanyai orang bergiliran."
+         "id": "Ulangi dengan kalimat lain, beri contoh, atau tanyakan kepada orang-orang secara bergiliran."
         }
        }
       ]
@@ -16450,41 +16450,41 @@ window.MT_LMS['the-map'] = {
       {
        "term": {
         "en": "active listening",
-        "id": "mendengar aktif"
+        "id": "mendengarkan secara aktif"
        },
        "def": {
         "en": "Working to rebuild the speaker's meaning and checking it, not just staying quiet.",
-        "id": "Bekerja membangun ulang makna pembicara dan memeriksanya, bukan sekadar diam."
+        "id": "Bekerja menyusun ulang maksud pembicara lalu memeriksanya, bukan sekadar diam."
        }
       },
       {
        "term": {
         "en": "restatement",
-        "id": "pengulangan dengan kata sendiri"
+        "id": "pengulangan"
        },
        "def": {
         "en": "Saying their view and reasons in your own words until they confirm.",
-        "id": "Menyatakan pandangan dan alasan mereka dengan kata-katamu sendiri sampai mereka mengonfirmasi."
+        "id": "Menyampaikan pandangan dan alasannya dengan kata-katamu sendiri sampai ia membenarkan."
        }
       },
       {
        "term": {
         "en": "apparent disagreement",
-        "id": "perbedaan semu"
+        "id": "ketidaksetujuan semu"
        },
        "def": {
         "en": "A misunderstanding that looks like a disagreement.",
-        "id": "Kesalahpahaman yang tampak seperti perbedaan pendapat."
+        "id": "Salah paham yang terlihat seperti ketidaksetujuan."
        }
       },
       {
        "term": {
         "en": "understood disagreement",
-        "id": "perbedaan yang dipahami"
+        "id": "ketidaksetujuan yang saling dipahami"
        },
        "def": {
         "en": "Each side can state the other's view and reasons; a decision can still be made.",
-        "id": "Tiap pihak bisa menyatakan pandangan dan alasan pihak lain; keputusan tetap bisa diambil."
+        "id": "Masing-masing pihak bisa menyebutkan pandangan dan alasan pihak lain; keputusan tetap bisa diambil."
        }
       },
       {
@@ -16494,17 +16494,17 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Shared goal / general approach / this specific situation: three levels at which people can differ.",
-        "id": "Tujuan bersama / pendekatan umum / situasi spesifik ini: tiga tingkat tempat orang bisa berbeda."
+        "id": "Tujuan bersama / pendekatan umum / situasi spesifik ini: tiga tingkat tempat orang bisa berbeda pendapat."
        }
       },
       {
        "term": {
         "en": "false consensus",
-        "id": "mufakat semu"
+        "id": "kesepakatan palsu"
        },
        "def": {
         "en": "“Agreement” because nobody objected.",
-        "id": "“Kesepakatan” karena tidak ada yang keberatan."
+        "id": "\"Kesepakatan\" karena tidak ada yang keberatan."
        }
       }
      ],
@@ -16512,16 +16512,16 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "In a group call, Dimas says “Let's drop the survey and just do interviews.” Sari immediately replies “No, interviews take too long.” What should Sari have done first?",
-        "id": "Dalam panggilan kelompok, Dimas berkata “Kita buang surveinya dan wawancara saja.” Sari langsung membalas “Jangan, wawancara terlalu lama.” Apa yang seharusnya Sari lakukan lebih dulu?"
+        "id": "Dalam panggilan kelompok, Dimas berkata, \"Kita batalkan surveinya dan wawancara saja.\" Sari langsung membalas, \"Jangan, wawancara terlalu lama.\" Apa yang seharusnya dilakukan Sari lebih dulu?"
        },
        "options": [
         {
          "en": "Called a vote",
-         "id": "Mengadakan pemungutan suara"
+         "id": "Mengadakan voting"
         },
         {
          "en": "Restated Dimas's proposal and his reasons, and checked she had it right",
-         "id": "Mengulang usulan Dimas dan alasannya, dan memastikan ia menangkapnya dengan benar"
+         "id": "Mengulang usulan Dimas beserta alasannya, lalu memastikan pemahamannya sudah benar"
         },
         {
          "en": "Cited the lecturer's preference",
@@ -16529,19 +16529,19 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Agreed to keep the peace",
-         "id": "Setuju demi menjaga kedamaian"
+         "id": "Setuju supaya suasana tetap damai"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Disagreeing before understanding risks arguing with a misunderstanding. Dimas may have reasons about data quality.",
-        "id": "Tidak setuju sebelum paham berisiko berdebat dengan kesalahpahaman. Dimas mungkin punya alasan soal kualitas data."
+        "id": "Tidak setuju sebelum memahami berisiko memperdebatkan salah paham. Dimas mungkin punya alasan soal kualitas data."
        }
       },
       {
        "q": {
         "en": "Two HIMA members argue for 30 minutes about whether last year's event had 300 or 450 attendees. Best advice?",
-        "id": "Dua anggota HIMA berdebat 30 menit tentang apakah acara tahun lalu dihadiri 300 atau 450 orang. Saran terbaik?"
+        "id": "Dua anggota HIMA berdebat selama 30 menit soal apakah acara tahun lalu dihadiri 300 atau 450 orang. Saran terbaiknya?"
        },
        "options": [
         {
@@ -16554,32 +16554,32 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Check the records; discuss only what would follow if each number were true",
-         "id": "Periksa catatannya; bahas hanya apa yang mengikuti jika masing-masing angka benar"
+         "id": "Cek catatannya; bahas hanya apa akibatnya kalau masing-masing angka itu benar"
         },
         {
          "en": "Vote",
-         "id": "Pungut suara"
+         "id": "Voting"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Facts are settled by looking them up, not by argument or votes.",
-        "id": "Fakta diselesaikan dengan mencarinya, bukan dengan argumen atau suara."
+        "id": "Fakta diselesaikan dengan mengeceknya, bukan dengan berdebat atau voting."
        }
       },
       {
        "q": {
         "en": "The ketua asks “Ada yang keberatan?” and nobody responds. Best interpretation and action?",
-        "id": "Ketua bertanya “Ada yang keberatan?” dan tidak ada yang merespons. Tafsiran dan tindakan terbaik?"
+        "id": "Ketua bertanya, \"Ada yang keberatan?\" dan tidak ada yang menjawab. Tafsiran dan tindakan terbaiknya?"
        },
        "options": [
         {
          "en": "Unanimous agreement; proceed",
-         "id": "Setuju bulat; lanjutkan"
+         "id": "Semua setuju; lanjutkan"
         },
         {
          "en": "Possibly false consensus driven by sungkan; ask each person in turn, juniors first, or run a numbered poll",
-         "id": "Mungkin mufakat semu karena sungkan; tanyai tiap orang bergiliran, junior dulu, atau jalankan polling bernomor"
+         "id": "Mungkin kesepakatan palsu karena sungkan; tanyakan kepada setiap orang secara bergiliran, dimulai dari yang paling junior, atau adakan polling bernomor"
         },
         {
          "en": "Members don't care; cancel",
@@ -16593,26 +16593,26 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "Silence under power distance is not a meeting of minds.",
-        "id": "Diam di bawah jarak kekuasaan bukan pertemuan pikiran."
+        "id": "Diam di tengah jarak kuasa yang tinggi bukanlah titik temu pikiran."
        }
       },
       {
        "q": {
         "en": "You and a teammate agree the event should be welcoming for maba but disagree on whether it should be free. What is this?",
-        "id": "Kamu dan rekan tim sepakat acara harus ramah untuk maba tapi berbeda soal apakah harus gratis. Ini apa?"
+        "id": "Kamu dan rekan timmu sepakat bahwa acaranya harus ramah bagi maba, tetapi tidak sepakat soal apakah acaranya harus gratis. Ini termasuk apa?"
        },
        "options": [
         {
          "en": "Disagreement on principle",
-         "id": "Perbedaan pada prinsip"
+         "id": "Ketidaksetujuan soal prinsip"
         },
         {
          "en": "Agreement on principle, disagreement on policy: work through costs and effects, then decide",
-         "id": "Sepakat pada prinsip, berbeda pada kebijakan: bahas biaya dan dampaknya, lalu putuskan"
+         "id": "Sepakat soal prinsip, tidak sepakat soal kebijakan: bahas biaya dan dampaknya, lalu putuskan"
         },
         {
          "en": "Apparent disagreement only",
-         "id": "Hanya perbedaan semu"
+         "id": "Hanya ketidaksetujuan semu"
         },
         {
          "en": "A matter of taste",
@@ -16622,13 +16622,13 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "Naming the level keeps the shared goal visible and the difference workable.",
-        "id": "Menyebut tingkatnya menjaga tujuan bersama tetap terlihat dan perbedaannya bisa dikerjakan."
+        "id": "Menyebut tingkatnya membuat tujuan bersama tetap terlihat dan perbedaannya bisa ditangani."
        }
       },
       {
        "q": {
         "en": "Rina tells her mentor she feels she doesn't belong at her internship. The mentor replies with a pros-and-cons table. What went wrong?",
-        "id": "Rina memberi tahu mentornya bahwa ia merasa tidak cocok di tempat magangnya. Mentornya membalas dengan tabel untung-rugi. Apa yang salah?"
+        "id": "Rina bercerita kepada mentornya bahwa ia merasa tidak cocok di tempat magangnya. Mentornya membalas dengan tabel untung-rugi. Apa yang salah?"
        },
        "options": [
         {
@@ -16637,7 +16637,7 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "A personal conversation was treated as a decision conversation",
-         "id": "Percakapan personal diperlakukan sebagai percakapan keputusan"
+         "id": "Percakapan pribadi diperlakukan sebagai percakapan keputusan"
         },
         {
          "en": "The mentor should have argued harder",
@@ -16651,7 +16651,7 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "Type mismatch. AVEC comes before problem-solving in a personal conversation.",
-        "id": "Salah jenis. AVEC datang sebelum pemecahan masalah dalam percakapan personal."
+        "id": "Salah jenis. Dalam percakapan pribadi, AVEC datang sebelum pemecahan masalah."
        }
       }
      ],
@@ -16659,12 +16659,12 @@ window.MT_LMS['the-map'] = {
       "id": "plan",
       "mode": "plan",
       "title": {
-       "en": "Conversation Planner + Disagreement Ladder, Plan section 5",
-       "id": "Perencana Percakapan + Tangga Perbedaan Pendapat, Bagian 5 Rencana"
+       "en": "Conversation Planner + Disagreement Ladder: Plan section 5",
+       "id": "Perencana Percakapan + Tangga Ketidaksetujuan: Rencana bagian 5"
       },
       "body": {
        "en": "Plan the type and opening of your next important conversation, work a disagreement up the ladder, and draft the shared summary for the group. Saved on this device.",
-       "id": "Rencanakan jenis dan pembukaan percakapan pentingmu berikutnya, kerjakan perbedaan pendapat menaiki tangga, dan susun ringkasan bersama untuk grup. Disimpan di perangkat ini."
+       "id": "Rencanakan jenis dan pembuka percakapan pentingmu berikutnya, bawa satu ketidaksetujuan menaiki tangga, dan susun draf ringkasan bersama untuk kelompok. Tersimpan di perangkat ini."
       },
       "sections": [
        {
@@ -16675,18 +16675,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "One real conversation and one real disagreement.",
-         "id": "Satu percakapan nyata dan satu perbedaan pendapat nyata."
+         "id": "Satu percakapan nyata dan satu ketidaksetujuan nyata."
         },
         "fields": [
          {
           "id": "picker",
           "label": {
            "en": "Purpose Picker: “This is a ___ conversation with ___; success = ___.” Time and place. Opening line.",
-           "id": "Pemilih Tujuan: “Ini percakapan ___ dengan ___; berhasil = ___.” Waktu dan tempat. Kalimat pembuka."
+           "id": "Pemilih Tujuan: \"Ini percakapan ___ dengan ___; berhasil = ___.\" Waktu dan tempat. Kalimat pembuka."
           },
           "hint": {
            "en": "e.g. personal, then decision next week · Ibu · success = she feels heard · Sunday after lunch · “Bu, aku ingin cerita dulu, belum minta keputusan.”",
-           "id": "mis. personal, lalu keputusan minggu depan · Ibu · berhasil = ia merasa didengar · Minggu setelah makan siang · “Bu, aku ingin cerita dulu, belum minta keputusan.”"
+           "id": "mis. pribadi, lalu keputusan minggu depan · Ibu · berhasil = Ibu merasa didengar · Minggu sesudah makan siang · \"Bu, aku ingin cerita dulu, belum minta keputusan.\""
           },
           "rows": 3
          },
@@ -16694,11 +16694,11 @@ window.MT_LMS['the-map'] = {
           "id": "ladder",
           "label": {
            "en": "The ladder for one disagreement: rung 0 arguable? · 1 facts to check · 2 their view and reasons · 3 same question? · 4 level · 5 my ground · 6 close",
-           "id": "Tangga untuk satu perbedaan: anak tangga 0 bisa diperdebatkan? · 1 fakta untuk dicek · 2 pandangan dan alasan mereka · 3 pertanyaan yang sama? · 4 tingkat · 5 dasarku · 6 tutup"
+           "id": "Tangga untuk satu ketidaksetujuan: anak tangga 0 bisa diperdebatkan? · 1 fakta yang perlu dicek · 2 pandangan dan alasannya · 3 pertanyaan yang sama? · 4 tingkat · 5 dasarku · 6 tutup"
           },
           "hint": {
            "en": "e.g. arguable · check last year's attendance · Sari: by warehouse so heads can act · yes · agree on goal, differ on policy · complaints cluster by customer · main view by warehouse + top-5 customer tab, review in 2 weeks",
-           "id": "mis. bisa diperdebatkan · cek kehadiran tahun lalu · Sari: per gudang agar kepala gudang bisa bertindak · ya · sepakat tujuan, beda kebijakan · komplain mengelompok per pelanggan · tampilan utama per gudang + tab 5 pelanggan teratas, tinjau 2 minggu lagi"
+           "id": "mis. bisa diperdebatkan · cek jumlah hadirin tahun lalu · Mbak Sari: per gudang supaya kepala gudang bisa bertindak · ya · sepakat soal tujuan, beda soal kebijakan · komplain menumpuk per pelanggan · tampilan utama per gudang + tab lima pelanggan teratas, ditinjau 2 minggu lagi"
           },
           "rows": 5
          },
@@ -16706,7 +16706,7 @@ window.MT_LMS['the-map'] = {
           "id": "summary",
           "label": {
            "en": "Shared statement for the group: “We agree on ___; we differ on ___ because ___; we'll do ___; review on ___.”",
-           "id": "Pernyataan bersama untuk grup: “Kita sepakat soal ___; kita berbeda soal ___ karena ___; kita akan ___; tinjau pada ___.”"
+           "id": "Pernyataan bersama untuk kelompok: \"Kita sepakat soal ___; kita beda soal ___ karena ___; kita akan menjalankan ___; ditinjau lagi tanggal ___.\""
           },
           "hint": {
            "en": "",
@@ -16718,11 +16718,11 @@ window.MT_LMS['the-map'] = {
           "id": "senior",
           "label": {
            "en": "My five-step script for disagreeing with a senior (shared goal · restate · ground as information · propose · leave room)",
-           "id": "Naskah lima langkahku untuk berbeda pendapat dengan senior (tujuan bersama · ulangi · dasar sebagai informasi · usulkan · beri ruang)"
+           "id": "Naskah lima langkahku untuk tidak setuju dengan senior (tujuan bersama · ulangi · dasar sebagai informasi · usulkan · beri ruang)"
           },
           "hint": {
            "en": "e.g. “Saya setuju tujuannya…” · “Kalau saya tangkap…” · “Ada satu data…” · “Bagaimana kalau…” · “Tentu keputusan di Ibu…”",
-           "id": "mis. “Saya setuju tujuannya…” · “Kalau saya tangkap…” · “Ada satu data…” · “Bagaimana kalau…” · “Tentu keputusan di Ibu…”"
+           "id": "mis. \"Saya setuju tujuannya…\" · \"Kalau saya tangkap…\" · \"Ada satu data…\" · \"Bagaimana kalau…\" · \"Tentu keputusan di Ibu…\""
           },
           "rows": 3
          }
@@ -16733,11 +16733,11 @@ window.MT_LMS['the-map'] = {
      "resources": {
       "title": {
        "en": "Resource kit · 5.4",
-       "id": "Perangkat sumber daya · 5.4"
+       "id": "Perlengkapan · 5.4"
       },
       "lead": {
        "en": "Cards for meetings, group chats and hard conversations. Everything stays on your device.",
-       "id": "Kartu untuk rapat, grup chat, dan percakapan sulit. Semuanya tetap di perangkatmu."
+       "id": "Kartu untuk rapat, grup chat, dan percakapan sulit. Semuanya tersimpan di perangkatmu."
       },
       "items": [
        {
@@ -16748,32 +16748,32 @@ window.MT_LMS['the-map'] = {
         },
         "desc": {
          "en": "Pin it to the notulen template.",
-         "id": "Sematkan di templat notulen."
+         "id": "Tempelkan di templat notulen."
         },
         "body": [
          {
           "en": "Open with the question and what success means, by when; recap previous decisions in two minutes",
-          "id": "Buka dengan pertanyaannya dan apa arti berhasil, sebelum kapan; rangkum keputusan sebelumnya dalam dua menit"
+          "id": "Buka dengan pertanyaannya dan arti berhasil, beserta tenggatnya; rangkum keputusan sebelumnya dalam dua menit"
          },
          {
           "en": "Round-robin, juniors first: one minute each before discussion",
-          "id": "Giliran bicara, junior dulu: satu menit masing-masing sebelum diskusi"
+          "id": "Giliran bicara dimulai dari yang paling junior: masing-masing satu menit sebelum diskusi"
          },
          {
           "en": "Clarifying questions first, objections second",
-          "id": "Pertanyaan klarifikasi dulu, keberatan kemudian"
+          "id": "Pertanyaan klarifikasi dulu, keberatan belakangan"
          },
          {
           "en": "Facts get looked up; tastes get noted; arguable points get reasons",
-          "id": "Fakta dicari; selera dicatat; poin yang bisa diperdebatkan diberi alasan"
+          "id": "Fakta dicek; selera dicatat; poin yang bisa diperdebatkan disertai alasan"
          },
          {
           "en": "Settled is settled: write it down",
-          "id": "Yang sudah diputuskan tetap diputuskan: tulis"
+          "id": "Yang sudah diputuskan tidak dibuka lagi: tuliskan"
          },
          {
           "en": "Close with decision, owner, deadline, and dissent recorded",
-          "id": "Tutup dengan keputusan, penanggung jawab, tenggat, dan ketidaksetujuan tercatat"
+          "id": "Tutup dengan keputusan, penanggung jawab, tenggat, dan perbedaan pendapat yang tercatat"
          }
         ]
        },
@@ -16781,28 +16781,28 @@ window.MT_LMS['the-map'] = {
         "kind": "script",
         "title": {
          "en": "WhatsApp decision script",
-         "id": "Naskah keputusan WhatsApp"
+         "id": "Naskah keputusan lewat WhatsApp"
         },
         "desc": {
          "en": "Replace “Ada yang keberatan?”",
-         "id": "Ganti “Ada yang keberatan?”"
+         "id": "Pengganti \"Ada yang keberatan?\""
         },
         "body": [
          {
           "en": "“Usulan: ___. Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00.”",
-          "id": "“Usulan: ___. Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00.”"
+          "id": "\"Usulan: ___. Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00.\""
          },
          {
           "en": "Disagreements move to japri or a call",
-          "id": "Perbedaan pendapat pindah ke japri atau telepon"
+          "id": "Perbedaan pendapat dipindah ke japri atau telepon"
          },
          {
           "en": "Before replying to a long message, restate its main point in one line",
-          "id": "Sebelum membalas pesan panjang, ulangi poin utamanya dalam satu baris"
+          "id": "Sebelum membalas pesan yang panjang, ulangi poin utamanya dalam satu baris"
          },
          {
           "en": "Forwarded claims: look up the facts, don't argue them",
-          "id": "Klaim yang diteruskan: cari faktanya, jangan diperdebatkan"
+          "id": "Klaim yang diteruskan: cek faktanya, jangan diperdebatkan"
          }
         ]
        },
@@ -16810,32 +16810,32 @@ window.MT_LMS['the-map'] = {
         "kind": "worksheet",
         "title": {
          "en": "Fact, taste or arguable? (with key)",
-         "id": "Fakta, selera, atau bisa diperdebatkan? (dengan kunci)"
+         "id": "Fakta, selera, atau bisa diperdebatkan? (dengan kunci jawaban)"
         },
         "desc": {
          "en": "Sort first, then read the key.",
-         "id": "Pilah dulu, baru baca kuncinya."
+         "id": "Pilah dulu, lalu baca kuncinya."
         },
         "body": [
          {
           "en": "“Kopi di kantin enak banget” → taste: note it, don't argue",
-          "id": "“Kopi di kantin enak banget” → selera: catat, jangan diperdebatkan"
+          "id": "\"Kopi di kantin enak banget\" → selera: catat saja, jangan diperdebatkan"
          },
          {
-          "en": "“regional minimum wage Jakarta tahun ini naik sekian persen” → fact: look it up",
-          "id": "“UMR Jakarta tahun ini naik sekian persen” → fakta: cari"
+          "en": "“UMP Jakarta tahun ini naik sekian persen” → fact: look it up",
+          "id": "\"UMP Jakarta tahun ini naik sekian persen\" → fakta: cek datanya"
          },
          {
           "en": "“Magang tidak dibayar itu eksploitatif” → arguable: bring reasons and definitions",
-          "id": "“Magang tidak dibayar itu eksploitatif” → bisa diperdebatkan: bawa alasan dan definisi"
+          "id": "\"Magang tidak dibayar itu eksploitatif\" → bisa diperdebatkan: bawa alasan dan definisinya"
          },
          {
           "en": "“Kita harus pakai Notion bukan Trello” → practical decision: agree criteria, then choose",
-          "id": "“Kita harus pakai Notion bukan Trello” → keputusan praktis: sepakati kriteria, lalu pilih"
+          "id": "\"Kita harus pakai Notion bukan Trello\" → keputusan praktis: sepakati kriterianya, lalu pilih"
          },
          {
           "en": "“Dosen itu nggak suka sama aku” → interpretation: check the facts first (5.5)",
-          "id": "“Dosen itu nggak suka sama aku” → tafsiran: cek faktanya dulu (5.5)"
+          "id": "\"Dosen itu nggak suka sama aku\" → tafsiran: cek faktanya dulu (5.5)"
          }
         ]
        },
@@ -16852,7 +16852,7 @@ window.MT_LMS['the-map'] = {
         "body": [
          {
           "en": "Everyone reads a short text beforehand",
-          "id": "Semua membaca teks pendek sebelumnya"
+          "id": "Semua orang membaca satu teks pendek sebelumnya"
          },
          {
           "en": "Moderator prepares 1–3 open questions",
@@ -16860,15 +16860,15 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Round-robin opening, then “Why?” and “What follows?”",
-          "id": "Pembukaan bergiliran, lalu “Mengapa?” dan “Lalu apa akibatnya?”"
+          "id": "Dibuka dengan giliran bicara, lalu \"Kenapa?\" dan \"Lalu apa akibatnya?\""
          },
          {
           "en": "Point people at each other: “Rina, how does your view fit with Dimas's?”",
-          "id": "Arahkan orang satu sama lain: “Rina, bagaimana pandanganmu cocok dengan Dimas?”"
+          "id": "Arahkan orang untuk saling menanggapi: \"Rina, bagaimana pandanganmu nyambung dengan pandangan Dimas?\""
          },
          {
           "en": "End by mapping positions; no forced consensus",
-          "id": "Akhiri dengan memetakan posisi; tanpa mufakat yang dipaksakan"
+          "id": "Akhiri dengan memetakan posisi; tanpa memaksakan kesepakatan"
          }
         ]
        },
@@ -16884,12 +16884,12 @@ window.MT_LMS['the-map'] = {
         },
         "body": [
          {
-          "en": "Adler, How to Speak, How to Listen, ch. 7–14: listening, conversation types, understanding before judging, seminars",
-          "id": "Adler, How to Speak, How to Listen, bab 7–14: menyimak, jenis percakapan, memahami sebelum menilai, seminar"
+          "en": "Adler, How to Speak, How to Listen: listening, conversation types, understanding before judging, seminars",
+          "id": "Adler, How to Speak, How to Listen: mendengarkan, jenis-jenis percakapan, memahami sebelum menilai, seminar"
          },
          {
           "en": "Research on conversational receptiveness and hidden profiles (summarised in the evidence notes above)",
-          "id": "Riset tentang keterbukaan percakapan dan profil tersembunyi (dirangkum di catatan bukti di atas)"
+          "id": "Penelitian tentang keterbukaan dalam percakapan dan profil tersembunyi (dirangkum dalam catatan bukti di atas)"
          }
         ]
        }
@@ -16902,15 +16902,15 @@ window.MT_LMS['the-map'] = {
      "takeaways": [
       {
        "en": "Understand before you judge: restate their view and reasons until they confirm.",
-       "id": "Pahami sebelum menilai: ulangi pandangan dan alasan mereka sampai mereka mengonfirmasi."
+       "id": "Pahami dulu sebelum menilai: ulangi pandangan dan alasannya sampai ia membenarkan."
       },
       {
        "en": "Know which conversation you're having (social, personal, understanding or decision) and what success means.",
-       "id": "Ketahui percakapan mana yang sedang kamu jalani (sosial, personal, pemahaman, atau keputusan) dan apa arti berhasil."
+       "id": "Ketahui percakapan apa yang sedang kamu jalani (sosial, pribadi, pemahaman, atau keputusan) dan apa arti berhasilnya."
       },
       {
        "en": "Silence isn't agreement. Ask everyone, juniors first, and write down the decision and the dissent.",
-       "id": "Diam bukan berarti setuju. Tanyai semua orang, junior dulu, dan tulis keputusan beserta ketidaksetujuannya."
+       "id": "Diam bukan berarti setuju. Tanyakan kepada semua orang, dimulai dari yang paling junior, dan catat keputusan serta perbedaan pendapatnya."
       }
      ]
     },
@@ -16918,44 +16918,44 @@ window.MT_LMS['the-map'] = {
      "n": "5.5",
      "title": {
       "en": "Staying Relevant Amid Rapid Technological Change",
-      "id": "Tetap Relevan di Tengah Perubahan Teknologi yang Pesat"
+      "id": "Tetap Relevan di Tengah Perubahan Teknologi yang Cepat"
      },
      "dur": {
       "en": "40 min",
-      "id": "40 mnt"
+      "id": "40 menit"
      },
      "kind": "visual",
      "placeholder": false,
      "overview": {
       "en": "Technology cycles will outrun any specific tool you learn this year. What survives is a stance: fundamentals beneath the tools, a personal learning system, public evidence of skill, and a network that tells you what is changing before the news does. Explore the four anchors on the system map.",
-      "id": "Siklus teknologi akan selalu lebih cepat daripada alat apa pun yang kamu pelajari tahun ini. Yang bertahan adalah sebuah sikap: fondasi di bawah alat-alat itu, sistem belajar pribadi, bukti keterampilan yang bisa dilihat publik, dan jaringan yang memberitahumu apa yang berubah sebelum beritanya tersebar. Jelajahi empat jangkar ini pada peta sistem."
+      "id": "Siklus teknologi akan melampaui alat apa pun yang kamu pelajari tahun ini. Yang bertahan adalah sebuah sikap: dasar-dasar di bawah alat-alat itu, sistem belajar pribadi, bukti keterampilan yang bisa dilihat publik, dan jaringan yang memberitahumu apa yang sedang berubah sebelum masuk berita. Jelajahi empat jangkar di peta sistem."
      },
      "objectives": [
       {
        "en": "Distinguish durable fundamentals from perishable tools in your own field.",
-       "id": "Membedakan fondasi yang tahan lama dari alat yang cepat usang di bidangmu sendiri."
+       "id": "Membedakan dasar-dasar yang awet dari alat-alat yang cepat usang di bidangmu sendiri."
       },
       {
        "en": "Set up a lightweight personal learning loop: one source, one project, one log.",
-       "id": "Menyiapkan putaran belajar pribadi yang ringan: satu sumber, satu proyek, satu catatan."
+       "id": "Menyiapkan lingkaran belajar pribadi yang ringan: satu sumber, satu proyek, satu catatan."
       },
       {
        "en": "Name where your skills are publicly evidenced and where the gaps are.",
-       "id": "Menyebutkan di mana keterampilanmu sudah terbukti secara publik, dan di mana celahnya."
+       "id": "Menyebutkan di mana keterampilanmu sudah terbukti secara publik dan di mana celahnya."
       },
       {
        "en": "Read your own reaction to a change honestly and choose one action within your control, whether the change is chosen or imposed.",
-       "id": "Membaca reaksimu sendiri terhadap sebuah perubahan dengan jujur dan memilih satu tindakan dalam kendalimu, entah perubahan itu dipilih atau dipaksakan."
+       "id": "Membaca reaksimu sendiri terhadap sebuah perubahan dengan jujur dan memilih satu tindakan dalam kendalimu, entah perubahan itu kamu pilih atau dipaksakan."
       }
      ],
      "takeaways": [
       {
-       "en": "Tools expire; the fundamentals beneath them, logic, statistics, writing, domain judgment, compound.",
-       "id": "Alat akan usang; fondasi di bawahnya, logika, statistika, menulis, penilaian di bidang, justru terus berlipat."
+       "en": "Tools expire; the fundamentals beneath them (logic, statistics, writing, domain judgment) compound.",
+       "id": "Alat-alat kedaluwarsa; dasar-dasar di bawahnya (logika, statistika, menulis, penilaian di bidangmu) terus berlipat nilainya."
       },
       {
        "en": "One hour a week of deliberate learning, logged, beats occasional panic sprints when a new tool trends.",
-       "id": "Satu jam belajar terencana setiap minggu, dicatat, mengalahkan sprint panik sesekali saat ada alat baru yang sedang tren."
+       "id": "Satu jam seminggu untuk belajar dengan sengaja, lengkap dengan catatannya, mengalahkan belajar kilat sesekali karena panik setiap ada alat baru yang sedang tren."
       },
       {
        "en": "Skill that is not evidenced publicly is invisible to everyone who could reward it.",
@@ -16963,11 +16963,11 @@ window.MT_LMS['the-map'] = {
       },
       {
        "en": "The pattern of adaptation is old (tasks shift, people retrain); the speed is new. Calm and urgency together.",
-       "id": "Pola adaptasinya lama (tugas bergeser, orang belajar ulang); kecepatannya yang baru. Tenang dan mendesak bersamaan."
+       "id": "Pola adaptasinya sudah lama (tugas bergeser, orang belajar ulang); yang baru adalah kecepatannya. Tenang dan sigap sekaligus."
       },
       {
        "en": "People rarely resist change; they resist being changed without a voice. Ask before you push.",
-       "id": "Orang jarang menolak perubahan; mereka menolak diubah tanpa suara. Bertanyalah sebelum mendorong."
+       "id": "Orang jarang menolak perubahan; mereka menolak diubah tanpa diberi suara. Bertanyalah sebelum mendorong."
       }
      ],
      "hotspots": [
@@ -16976,11 +16976,11 @@ window.MT_LMS['the-map'] = {
        "y": 26,
        "h": {
         "en": "Fundamentals first",
-        "id": "Fondasi lebih dulu"
+        "id": "Dasar-dasar dulu"
        },
        "body": {
-        "en": "Beneath every tool wave sits a durable layer: statistics beneath analytics dashboards, argumentation beneath slide software, human motivation beneath every marketing platform. Ask of anything you study: which part of this survives the tool's replacement? Spend 70% of learning time there. When the next wave arrives, you relearn syntax, not substance; which is why fundamentals-first people surf transitions that drown tool-only people.",
-        "id": "Di bawah setiap gelombang alat baru ada lapisan yang tahan lama: statistika di bawah dasbor analitik, argumentasi di bawah perangkat lunak presentasi, motivasi manusia di bawah setiap platform pemasaran. Tanyakan pada apa pun yang kamu pelajari: bagian mana yang tetap berlaku saat alatnya diganti? Habiskan 70% waktu belajarmu di sana. Saat gelombang berikutnya datang, kamu hanya perlu mempelajari ulang sintaksnya, bukan substansinya, itulah mengapa orang yang mengutamakan fondasi bisa menunggangi transisi yang menenggelamkan orang yang hanya menguasai alat."
+        "en": "Beneath every tool wave sits a durable layer: statistics beneath analytics dashboards, argumentation beneath slide software, human motivation beneath every marketing platform. Ask of anything you study: which part of this survives the tool's replacement? Spend 70% of learning time there. When the next wave arrives, you relearn syntax, not substance, which is why fundamentals-first people surf transitions that drown tool-only people.",
+        "id": "Di bawah setiap gelombang alat ada lapisan yang awet: statistika di bawah dasbor analitik, cara berargumen di bawah perangkat lunak presentasi, motivasi manusia di bawah setiap platform pemasaran. Tanyakan pada apa pun yang kamu pelajari: bagian mana yang tetap bertahan ketika alatnya diganti? Habiskan 70% waktu belajarmu di sana. Ketika gelombang berikutnya datang, kamu cukup belajar ulang sintaksnya, bukan substansinya, dan itulah sebabnya orang yang mendahulukan dasar-dasar bisa berselancar melewati masa transisi yang menenggelamkan orang yang hanya menguasai alat."
        }
       },
       {
@@ -16988,11 +16988,11 @@ window.MT_LMS['the-map'] = {
        "y": 24,
        "h": {
         "en": "The learning loop",
-        "id": "Putaran belajar"
+        "id": "Lingkaran belajar"
        },
        "body": {
         "en": "A sustainable system has three parts: <b>one source</b> you trust per field (a newsletter, a practitioner you follow) so you are not drinking the whole internet; <b>one small project</b> at any time that forces the new knowledge through your hands; <b>one log</b>: a page where you note what you learned each week. An hour weekly, defended in the calendar like any important-not-urgent block. The log matters more than it looks: it is raw material for CVs, interviews and the “tell me how you stay current” question.",
-        "id": "Sistem yang berkelanjutan punya tiga bagian: <b>satu sumber</b> tepercaya per bidang (sebuah nawala, seorang praktisi yang kamu ikuti) supaya kamu tidak berusaha menelan seluruh internet; <b>satu proyek kecil</b> yang selalu berjalan, yang memaksa pengetahuan baru melewati tanganmu sendiri; <b>satu catatan</b>: satu halaman tempat kamu menulis apa yang kamu pelajari setiap minggu. Satu jam per minggu, dijaga di kalender seperti blok penting-tapi-tidak-mendesak lainnya. Catatan itu jauh lebih penting daripada kelihatannya: ia bahan mentah untuk CV, wawancara, dan pertanyaan “bagaimana kamu menjaga pengetahuanmu tetap mutakhir?”"
+        "id": "Sistem yang berkelanjutan punya tiga bagian: <b>satu sumber</b> yang kamu percaya untuk setiap bidang (sebuah newsletter, seorang praktisi yang kamu ikuti) supaya kamu tidak menenggak seisi internet; <b>satu proyek kecil</b> di setiap waktu yang memaksa pengetahuan baru itu melewati tanganmu; <b>satu catatan</b>: satu halaman tempat kamu mencatat apa yang kamu pelajari setiap minggu. Satu jam setiap minggu, dilindungi di kalender seperti blok penting-tapi-tidak-mendesak lainnya. Catatannya lebih penting dari kelihatannya: catatan itu menjadi bahan mentah untuk CV, wawancara, dan pertanyaan \"bagaimana kamu terus mengikuti perkembangan?\"."
        }
       },
       {
@@ -17000,11 +17000,11 @@ window.MT_LMS['the-map'] = {
        "y": 72,
        "h": {
         "en": "Public evidence",
-        "id": "Bukti yang bisa dilihat publik"
+        "id": "Bukti publik"
        },
        "body": {
-        "en": "Certificates say you attended; artefacts say you can. A tidied portfolio project, a written analysis, a small app, a well-documented spreadsheet, visible where your field looks (a repository, a portfolio page, a professional profile). One honest artefact per quarter is enough. The test: could a stranger in your field, in five minutes, see evidence of what you claim? If not, this quarter's project is that artefact.",
-        "id": "Sertifikat hanya membuktikan kamu pernah hadir; artefak membuktikan kamu bisa. Proyek portofolio yang dirapikan, analisis tertulis, aplikasi kecil, spreadsheet yang terdokumentasi dengan baik, dipajang di tempat orang-orang di bidangmu biasa melihat (repositori, halaman portofolio, profil profesional). Satu artefak yang jujur per kuartal sudah cukup. Ujiannya: bisakah orang asing di bidangmu, dalam lima menit, melihat bukti dari apa yang kamu klaim? Kalau tidak, proyek kuartal ini adalah artefak itu."
+        "en": "Certificates say you attended; artefacts say you can: a tidied portfolio project, a written analysis, a small app, a well-documented spreadsheet, visible where your field looks (a repository, a portfolio page, a professional profile). One honest artefact per quarter is enough. The test: could a stranger in your field, in five minutes, see evidence of what you claim? If not, this quarter's project is that artefact.",
+        "id": "Sertifikat membuktikan kamu hadir; karya membuktikan kamu mampu: proyek portofolio yang rapi, analisis tertulis, aplikasi kecil, spreadsheet yang terdokumentasi dengan baik, dan semuanya bisa dilihat di tempat yang biasa dilihat orang di bidangmu (repositori, halaman portofolio, profil profesional). Satu karya yang jujur setiap kuartal sudah cukup. Ujiannya: bisakah orang asing di bidangmu, dalam lima menit, melihat bukti atas apa yang kamu klaim? Kalau belum, proyek kuartal ini adalah karya itu."
        }
       },
       {
@@ -17012,11 +17012,11 @@ window.MT_LMS['the-map'] = {
        "y": 70,
        "h": {
         "en": "The sensing network",
-        "id": "Jaringan pengindra"
+        "id": "Jaringan pemantau"
        },
        "body": {
         "en": "Change reaches conversations months before it reaches curricula. Three or four practitioners you can ask “what's actually changing in your team?” form an early-warning system no course provides. Build it the way 4.3 taught: small specific asks, genuine homework, gratitude. In return, share what you learn. A network is fed by both directions. Basecamp and mentor sessions inside Metanoia are designed as this layer.",
-        "id": "Perubahan sampai ke percakapan berbulan-bulan sebelum sampai ke kurikulum. Tiga atau empat praktisi yang bisa kamu tanya “apa yang benar-benar sedang berubah di timmu?” membentuk sistem peringatan dini yang tidak bisa diberikan kursus mana pun. Bangun jaringan ini seperti yang diajarkan di 4.3: permintaan yang kecil dan spesifik, PR yang sungguhan, rasa terima kasih. Sebagai balasannya, bagikan apa yang kamu pelajari, jaringan hidup dari dua arah. Basecamp dan sesi mentor di Metanoia memang dirancang sebagai lapisan ini."
+        "id": "Perubahan sampai ke percakapan berbulan-bulan sebelum sampai ke kurikulum. Tiga atau empat praktisi yang bisa kamu tanya \"apa yang sebenarnya sedang berubah di timmu?\" membentuk sistem peringatan dini yang tidak disediakan kursus mana pun. Bangun jaringan itu seperti yang diajarkan di 4.3: permintaan kecil yang spesifik, pekerjaan rumah yang sungguhan, dan ucapan terima kasih. Sebagai balasannya, bagikan apa yang kamu pelajari. Jaringan diberi makan dari dua arah. Basecamp dan sesi mentor di Metanoia dirancang sebagai lapisan ini."
        }
       }
      ],
@@ -17032,8 +17032,8 @@ window.MT_LMS['the-map'] = {
         "id": "Perangkat Digital: Materi"
        },
        "intro": {
-        "en": "Three slides from the Digital Toolkit, the source course's own opener for this chapter. They frame the digital world the four anchors are built for, emerging technologies, AI, data and analytics, automation, digital collaboration, business transformation, tell you how to use the material whether you are experienced or new to digital, and end with a reflection to carry into the film below: the most recent digital project you were part of, or watched others lead. What made it memorable, and what promise for the future did it hold?",
-        "id": "Tiga slide dari Perangkat Digital, pembuka dari kursus sumbernya sendiri untuk bab ini. Slide-slide ini membingkai dunia digital yang menjadi alasan empat jangkar tadi dibangun, teknologi baru, AI, data dan analitik, otomatisasi, kolaborasi digital, transformasi bisnis, memberitahumu cara memakai materi ini baik kamu sudah berpengalaman maupun baru mulai, dan ditutup dengan refleksi untuk dibawa ke film di bawah: proyek digital terbaru yang pernah kamu ikuti, atau kamu lihat dipimpin orang lain. Apa yang membuatnya berkesan, dan janji apa untuk masa depan yang ditawarkannya?"
+        "en": "Three slides from the Digital Toolkit, the source course's own opener for this chapter. They frame the digital world the four anchors are built for (emerging technologies, AI, data and analytics, automation, digital collaboration, business transformation), tell you how to use the material whether you are experienced or new to digital, and end with a reflection to carry into the film below: the most recent digital project you were part of, or watched others lead. What made it memorable, and what promise for the future did it hold?",
+        "id": "Tiga slide dari Perangkat Digital, pembuka bab ini dari kursus sumbernya. Slide-slide ini menggambarkan dunia digital yang menjadi latar empat jangkar tadi (teknologi baru, AI, data dan analitik, otomatisasi, kolaborasi digital, transformasi bisnis), memberi tahu cara memakai materinya entah kamu sudah berpengalaman atau baru mengenal dunia digital, dan ditutup dengan bahan renungan untuk dibawa ke film di bawah: proyek digital terbaru yang kamu ikuti, atau yang kamu lihat dipimpin orang lain. Apa yang membuatnya berkesan, dan janji masa depan apa yang dibawanya?"
        },
        "base": "../../assets/lms/the-map/slides/digital-toolkit-",
        "slides": [
@@ -17043,28 +17043,28 @@ window.MT_LMS['the-map'] = {
           "id": "Perangkat Digital"
          },
          "text": {
-          "en": "Chapter 5 · Digital Toolkit. Practical tools and resources to help you apply what you have learned and create a lasting impact. Tools; ready-to-use templates. Resources, guides and references. Application, put learning into practice.",
-          "id": "Bab 5 · Perangkat Digital. Berbagai alat dan sumber daya praktis yang dapat membantu Anda menerapkan apa yang telah dipelajari dan menciptakan dampak yang berkelanjutan. Alat. Template siap pakai yang dapat langsung digunakan. Sumber daya, panduan dan referensi pendukung. Penerapan, menerapkan pembelajaran ke dalam praktik nyata."
+          "en": "Chapter 5 · Digital Toolkit. Practical tools and resources to help you apply what you have learned and create a lasting impact. Tools: ready-to-use templates. Resources: guides and references. Application: put learning into practice.",
+          "id": "Bab 5 · Perangkat Digital. Alat dan bahan praktis untuk membantumu menerapkan apa yang sudah kamu pelajari dan menciptakan dampak yang bertahan lama. Alat: templat siap pakai. Bahan: panduan dan rujukan. Penerapan: mempraktikkan apa yang dipelajari."
          }
         },
         {
          "title": {
           "en": "Introduction to the Digital Toolkit",
-          "id": "Pengenalan Perangkat Digital"
+          "id": "Pengantar Perangkat Digital"
          },
          "text": {
-          "en": "Module introduction. This module aims to help you understand the basics of the digital world and reflect on how it impacts our lives. It also encourages you to think about your role and skills in this evolving digital landscape. The digital world is changing rapidly. These changes not only affect our daily lives but also the needs of organizations. Many organizations now recognize the importance of being more digital, data-driven, and efficient. They need people with the right skills and mindsets. The landscape: emerging technologies, artificial intelligence (AI), data & analytics, automation, digital collaboration, business transformation. Who is this module for? Whether you're already familiar with the digital world or just starting to include it in your career, this module will help you. If you are experienced, dive into advanced concepts and sharpen your expertise, embracing the evolving nature of the digital landscape; explore additional resources in the Wrap Up section. If you are new to digital. Use this module as a way to explore new concepts; identify topics that interest you and incorporate them into your personal digital learning plan. In this module, you'll learn to: 01. Identify different digital advancements and how they impact you. 02. Develop your digital toolkit based on the knowledge and skills you want to explore.",
-          "id": "Pengenalan modul. Modul ini bertujuan untuk membantu Anda memahami konsep dasar dunia digital dan merenungkan dampaknya terhadap kehidupan kita saat ini. Modul ini juga mendorong Anda untuk mengeksplorasi peran dan keterampilan Anda dalam lanskap digital yang terus berkembang. Dunia digital berkembang sangat cepat. Perubahan ini tidak hanya memengaruhi kehidupan kita, tetapi juga kebutuhan organisasi. Banyak organisasi kini menyadari pentingnya menjadi lebih digital, berbasis data, dan efisien. Mereka membutuhkan individu dengan keterampilan dan pola pikir yang tepat. Lanskapnya: teknologi baru, kecerdasan buatan (AI), data & analitik, otomatisasi, kolaborasi digital, transformasi bisnis. Untuk siapa modul ini? Baik Anda sudah familiar dengan dunia digital maupun baru mulai memasukkannya dalam karier Anda, modul ini akan membantu Anda. Jika Anda sudah berpengalaman, dalami konsep-konsep lanjutan dan pertajam keahlian Anda, dengan merangkul perkembangan terbaru dalam dunia digital; jelajahi sumber daya tambahan di bagian Wrap Up. Jika Anda baru mulai. Gunakan modul ini sebagai cara untuk mengeksplorasi konsep-konsep baru; identifikasi topik yang menarik bagi Anda dan masukkan ke dalam rencana pembelajaran digital Anda. Dalam modul ini, Anda akan: 01. Mengidentifikasi berbagai perkembangan digital dan bagaimana dampaknya terhadap Anda. 02. Mengembangkan perangkat digital Anda berdasarkan pengetahuan dan keterampilan yang ingin Anda eksplorasi."
+          "en": "Module introduction. This module aims to help you understand the basics of the digital world and reflect on how it impacts our lives. It also encourages you to think about your role and skills in this evolving digital landscape. The digital world is changing rapidly. These changes not only affect our daily lives but also the needs of organizations. Many organizations now recognize the importance of being more digital, data-driven, and efficient. They need people with the right skills and mindsets. The landscape: emerging technologies, artificial intelligence (AI), data & analytics, automation, digital collaboration, business transformation. Who is this module for? Whether you're already familiar with the digital world or just starting to include it in your career, this module will help you. If you are experienced, dive into advanced concepts and sharpen your expertise, embracing the evolving nature of the digital landscape; continue to Lessons 5.6 and 5.7. If you are new to digital, use this module as a way to explore new concepts; identify topics that interest you and incorporate them into your personal digital learning plan. In this module, you'll learn to: 01. Identify different digital advancements and how they impact you. 02. Develop your digital toolkit based on the knowledge and skills you want to explore.",
+          "id": "Pengantar modul. Modul ini bertujuan membantumu memahami dasar-dasar dunia digital dan merenungkan bagaimana dunia itu memengaruhi hidup kita. Modul ini juga mengajakmu memikirkan peran dan keterampilanmu dalam lanskap digital yang terus berkembang. Dunia digital berubah dengan cepat. Perubahan ini tidak hanya memengaruhi kehidupan sehari-hari kita, tetapi juga kebutuhan organisasi. Banyak organisasi kini menyadari pentingnya menjadi lebih digital, berbasis data, dan efisien. Mereka butuh orang dengan keterampilan dan pola pikir yang tepat. Lanskapnya: teknologi baru, kecerdasan buatan (AI), data dan analitik, otomatisasi, kolaborasi digital, transformasi bisnis. Untuk siapa modul ini? Entah kamu sudah akrab dengan dunia digital atau baru mulai memasukkannya ke kariermu, modul ini akan membantumu. Kalau kamu sudah berpengalaman, dalami konsep-konsep lanjutan dan asah keahlianmu sambil merangkul sifat lanskap digital yang terus berubah; lanjutkan ke Pelajaran 5.6 dan 5.7. Kalau kamu baru mengenal dunia digital, pakai modul ini untuk menjelajahi konsep-konsep baru; temukan topik yang menarik bagimu dan masukkan ke rencana belajar digital pribadimu. Di modul ini, kamu akan belajar: 01. Mengenali berbagai kemajuan digital dan dampaknya bagimu. 02. Membangun perangkat digitalmu berdasarkan pengetahuan dan keterampilan yang ingin kamu jelajahi."
          }
         },
         {
          "title": {
           "en": "Going digital is transforming our lives",
-          "id": "Transformasi digital mengubah kehidupan kita"
+          "id": "Dunia digital sedang mengubah hidup kita"
          },
          "text": {
           "en": "Reflection. Going digital is transforming our personal and professional lives, helping us work together better, innovate, and solve urgent problems. Work together better; innovate faster; solve urgent problems; create new opportunities. Examples: smart cities, AI at work, digital collaboration, automation & efficiency. Reflection. As you watch this video, think about the most recent digital project you were part of at work or witnessed others leading. It could even be something you read about in an article or in the news. What made it so memorable to you? What promise for the future did it hold?",
-          "id": "Refleksi. Transformasi digital sedang mengubah kehidupan pribadi dan profesional kita, membantu kita bekerja bersama dengan lebih baik, berinovasi, dan menyelesaikan masalah-masalah mendesak. Bekerja bersama lebih baik; berinovasi lebih cepat; menyelesaikan masalah-masalah mendesak; menciptakan peluang baru. Contoh: kota pintar (smart city), kecerdasan buatan (AI) di tempat kerja, kolaborasi digital, otomatisasi & efisiensi. Refleksi, saat Anda menonton video ini, pikirkan tentang proyek digital terbaru yang pernah Anda ikuti di tempat kerja atau yang Anda lihat dipimpin oleh orang lain. Ini juga bisa berupa sesuatu yang Anda baca dalam artikel atau berita. Apa yang membuat proyek tersebut begitu berkesan bagi Anda? Apa janji atau potensi untuk masa depan yang ditawarkannya?"
+          "id": "Renungan. Dunia digital sedang mengubah kehidupan pribadi dan profesional kita, membantu kita bekerja sama lebih baik, berinovasi, dan memecahkan masalah yang mendesak. Bekerja sama lebih baik; berinovasi lebih cepat; memecahkan masalah yang mendesak; menciptakan peluang baru. Contoh: kota pintar, AI di tempat kerja, kolaborasi digital, otomatisasi dan efisiensi. Renungan. Sambil menonton video ini, pikirkan proyek digital terbaru yang kamu ikuti di tempat kerja atau yang kamu lihat dipimpin orang lain. Bisa juga sesuatu yang kamu baca di artikel atau berita. Apa yang membuatnya begitu berkesan bagimu? Janji masa depan apa yang dibawanya?"
          }
         }
        ]
@@ -17077,22 +17077,22 @@ window.MT_LMS['the-map'] = {
        },
        "title": {
         "en": "Opportunities Ahead: Material",
-        "id": "Peluang di Masa Depan, Materi"
+        "id": "Peluang di Depan: Materi"
        },
        "intro": {
-        "en": "One slide and one more film before the check. The first film ended on the invitation to invent the future together; this slide, the source course's companion to it, lists the innovations that film showed, cloud computing, AI, smart cities, digital payments, automation, data and analytics, remote work, and asks two reflection questions to carry into the short film below, which was made to follow it: which parts of your life digital has already changed, and which of those innovations you are most excited about, and why. Hold them while you watch, then take the knowledge check.",
-        "id": "Satu slide dan satu film lagi sebelum uji pemahaman. Film pertama ditutup dengan ajakan menciptakan masa depan bersama; slide ini, pendamping dari kursus sumbernya, mendaftar inovasi yang ditunjukkan film itu, komputasi awan, AI, kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh, dan mengajukan dua pertanyaan refleksi untuk dibawa ke film pendek di bawah, yang memang dibuat untuk mengikutinya: bagian mana dari hidupmu yang sudah diubah digital, dan inovasi mana yang paling membuatmu antusias, dan mengapa. Simpan keduanya selagi menonton, lalu kerjakan cek pemahaman."
+        "en": "One slide and one more film before the check. The first film ended on the invitation to invent the future together; this slide, the source course's companion to it, lists the innovations that film showed (cloud computing, AI, smart cities, digital payments, automation, data and analytics, remote work) and asks two reflection questions to carry into the short film below, which was made to follow it: which parts of your life digital has already changed, and which of those innovations you are most excited about, and why. Hold them while you watch, then take the knowledge check.",
+        "id": "Satu slide dan satu film lagi sebelum cek pemahaman. Film pertama ditutup dengan ajakan untuk menciptakan masa depan bersama; slide ini, pendamping film itu dari kursus sumbernya, mendaftar inovasi yang diperlihatkan film tadi (komputasi awan, AI, kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh) dan mengajukan dua pertanyaan renungan untuk dibawa ke film pendek di bawah, yang memang dibuat sebagai lanjutannya: bagian hidupmu yang mana yang sudah diubah oleh dunia digital, dan inovasi mana yang paling membuatmu bersemangat, serta kenapa. Pegang kedua pertanyaan itu sambil menonton, lalu kerjakan cek pemahaman."
        },
        "base": "../../assets/lms/the-map/slides/opportunities-ahead-",
        "slides": [
         {
          "title": {
           "en": "Opportunities ahead",
-          "id": "Peluang di masa depan"
+          "id": "Peluang di depan"
          },
          "text": {
           "en": "Opportunities ahead. Digital has played a large part in shaping our world today, and will continue to do so as we develop more and more fantastic innovations! As you watch this video, take a moment to think: what parts of your life have been impacted by digital? Which of the following digital innovations mentioned are you most excited about? Innovations shown: cloud computing, artificial intelligence (AI), smart cities, digital payments, automation, data & analytics, remote work. Reflection: 1. What parts of your life have been impacted by digital? 2. Which of the digital innovations mentioned are you most excited about, and why?",
-          "id": "Peluang di masa depan. Digital telah memainkan peran besar dalam membentuk dunia kita saat ini, dan akan terus melakukannya seiring dengan semakin banyaknya inovasi luar biasa yang dikembangkan! Saat Anda menonton video ini, luangkan waktu sejenak untuk berpikir: bagian mana dari hidup Anda yang telah dipengaruhi oleh digital? Dari inovasi digital berikut ini, mana yang paling membuat Anda antusias? Inovasi yang ditampilkan: komputasi awan (cloud), kecerdasan buatan (AI), kota pintar (smart city), pembayaran digital, otomatisasi, data & analitik, kerja jarak jauh. Refleksi: 1. Bagian mana dari hidup Anda yang telah dipengaruhi oleh digital? 2. Dari inovasi digital yang disebutkan, mana yang paling membuat Anda antusias, dan mengapa?"
+          "id": "Peluang di depan. Dunia digital berperan besar dalam membentuk dunia kita hari ini, dan akan terus begitu seiring kita mengembangkan makin banyak inovasi yang luar biasa! Sambil menonton video ini, luangkan waktu untuk berpikir: bagian hidupmu yang mana yang sudah dipengaruhi dunia digital? Inovasi digital mana yang disebut yang paling membuatmu bersemangat? Inovasi yang diperlihatkan: komputasi awan, kecerdasan buatan (AI), kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh. Renungan: 1. Bagian hidupmu yang mana yang sudah dipengaruhi dunia digital? 2. Inovasi digital mana yang disebut yang paling membuatmu bersemangat, dan kenapa?"
          }
         }
        ]
@@ -17104,23 +17104,23 @@ window.MT_LMS['the-map'] = {
         "id": "Baca terakhir · 3 slide"
        },
        "title": {
-        "en": "How Has Digital Impacted Your Life, Material",
-        "id": "Bagaimana Digital Memengaruhi Hidup Anda, Materi"
+        "en": "How Has Digital Impacted Your Life: Material",
+        "id": "Bagaimana Dunia Digital Memengaruhi Hidupmu: Materi"
        },
        "intro": {
-        "en": "Three slides, then one short film, close the lesson before the check. The first turns the film's question on you: one new app, device or digital service you have started using, how it changed your life, and which benefits you gained, and it tells you the answer to the tick-list before you reach it. The second defines what the source course means by digital, data, technology and new ways of working, and the third goes deeper into data. Its “as you watch this video” points at the short film that follows the deck; how we use data now, and the knowledge check comes after that.",
-        "id": "Tiga slide, lalu satu film pendek, menutup pelajaran sebelum uji pemahaman. Slide pertama membalikkan pertanyaan film kepadamu: satu aplikasi, perangkat, atau layanan digital baru yang mulai kamu pakai, bagaimana ia mengubah hidupmu, dan manfaat apa yang kamu dapatkan, dan slide itu memberitahumu jawaban daftar centangnya sebelum kamu sampai di sana. Slide kedua mendefinisikan apa yang dimaksud kursus sumbernya dengan digital, data, teknologi, dan cara kerja baru, dan slide ketiga mendalami data. Kalimat “saat Anda menonton video ini” menunjuk pada film pendek yang mengikuti deck ini; bagaimana kita memakai data sekarang, dan uji pemahaman menyusul setelahnya."
+        "en": "Three slides, then one short film, close the lesson before the check. The first turns the film's question on you: one new app, device or digital service you have started using, how it changed your life, and which benefits you gained, and it tells you the answer to the tick-list before you reach it. The second defines what the source course means by digital, data, technology and new ways of working, and the third goes deeper into data. Its “as you watch this video” points at the short film that follows the deck (How we use data now); the knowledge check comes after that.",
+        "id": "Tiga slide, lalu satu film pendek, menutup pelajaran ini sebelum cek pemahaman. Slide pertama mengarahkan pertanyaan film tadi kepadamu: satu aplikasi, perangkat, atau layanan digital baru yang mulai kamu pakai, bagaimana itu mengubah hidupmu, dan manfaat apa yang kamu dapat; slide itu juga memberi tahu jawaban daftar centangnya sebelum kamu sampai ke sana. Slide kedua menjelaskan apa yang dimaksud kursus sumber dengan digital, data, teknologi, dan cara kerja baru, dan slide ketiga membahas data lebih dalam. Ajakan \"sambil menonton video ini\" di slide itu mengarah ke film pendek sesudah slide-slide ini (Cara kita memakai data sekarang); cek pemahaman datang sesudahnya."
        },
        "base": "../../assets/lms/the-map/slides/digital-impact-",
        "slides": [
         {
          "title": {
           "en": "How has digital impacted your life?",
-          "id": "Bagaimana digital memengaruhi hidup Anda?"
+          "id": "Bagaimana dunia digital memengaruhi hidupmu?"
          },
          "text": {
-          "en": "Reflection. What new app, device, or digital service have you started using? 1. How has this product impacted your life? What made you start using this in the first place? 2. Write a brief answer to the above questions within the Forward Learning Workbook, then answer the question on the right. Areas shown: work & productivity, communication & collaboration, daily life & convenience, health & well-being, smart home & lifestyle. What benefits have you gained from using the new app, device, or service? Review the following statements, then select all that apply: it makes my work easier or more efficient; it helps me connect to friends, family, or colleagues; it allows me to get more relevant information to make better decisions; it solves a problem I didn't know I had; other benefits not mentioned here. Great! All of these benefits illustrate the value of digital. Going digital isn't just using new technology: it's combining technology with data and new ways of working to make better decisions, automate, connect, and improve our experiences as customers, employees, and members of our communities.",
-          "id": "Refleksi. Aplikasi, perangkat, atau layanan digital baru apa yang mulai Anda gunakan? 1. Bagaimana produk ini memengaruhi hidup Anda? Apa yang membuat Anda mulai menggunakannya? 2. Tulis jawaban singkat atas pertanyaan di atas di dalam Forward Learning Workbook, lalu jawab pertanyaan di sebelah kanan. Bidang yang ditampilkan: kerja & produktivitas, komunikasi & kolaborasi, kehidupan sehari-hari & kemudahan, kesehatan & kesejahteraan, rumah pintar & gaya hidup. Manfaat apa yang Anda peroleh dari menggunakan aplikasi, perangkat, atau layanan baru itu? Tinjau pernyataan berikut, lalu pilih semua yang sesuai: membuat pekerjaan saya lebih mudah atau lebih efisien; membantu saya terhubung dengan teman, keluarga, atau rekan kerja; memungkinkan saya mendapatkan informasi yang lebih relevan untuk mengambil keputusan yang lebih baik; memecahkan masalah yang tidak saya sadari; manfaat lain yang tidak disebutkan di sini. Hebat! Semua manfaat ini menggambarkan nilai digital. Menjadi digital bukan sekadar memakai teknologi baru: melainkan menggabungkan teknologi dengan data dan cara kerja baru untuk mengambil keputusan yang lebih baik, mengotomatisasi, terhubung, dan meningkatkan pengalaman kita sebagai pelanggan, karyawan, dan anggota komunitas."
+          "en": "Reflection. What new app, device, or digital service have you started using? 1. How has this product impacted your life? What made you start using this in the first place? 2. Write a brief answer to the above questions in your workbook in Metanoia, then answer the question on the right. Areas shown: work & productivity, communication & collaboration, daily life & convenience, health & well-being, smart home & lifestyle. What benefits have you gained from using the new app, device, or service? Review the following statements, then select all that apply: it makes my work easier or more efficient; it helps me connect to friends, family, or colleagues; it allows me to get more relevant information to make better decisions; it solves a problem I didn't know I had; other benefits not mentioned here. Great! All of these benefits illustrate the value of digital. Going digital isn't just using new technology: it's combining technology with data and new ways of working to make better decisions, automate, connect, and improve our experiences as customers, employees, and members of our communities.",
+          "id": "Renungan. Aplikasi, perangkat, atau layanan digital baru apa yang mulai kamu pakai? 1. Bagaimana produk itu memengaruhi hidupmu? Apa yang membuatmu mulai memakainya? 2. Tulis jawaban singkat untuk pertanyaan di atas di buku kerjamu di Metanoia, lalu jawab pertanyaan di sebelah kanan. Bidang yang ditampilkan: kerja dan produktivitas, komunikasi dan kolaborasi, kehidupan sehari-hari dan kemudahan, kesehatan dan kesejahteraan, rumah pintar dan gaya hidup. Manfaat apa yang kamu dapat dari memakai aplikasi, perangkat, atau layanan baru itu? Tinjau pernyataan berikut, lalu pilih semua yang sesuai: membuat pekerjaanku lebih mudah atau efisien; membantuku terhubung dengan teman, keluarga, atau rekan kerja; memungkinkanku mendapat informasi yang lebih relevan untuk mengambil keputusan yang lebih baik; menyelesaikan masalah yang tidak kusadari sebelumnya; manfaat lain yang tidak disebutkan di sini. Bagus! Semua manfaat ini menggambarkan nilai dunia digital. Menjadi digital bukan sekadar memakai teknologi baru: menjadi digital berarti memadukan teknologi dengan data dan cara kerja baru untuk mengambil keputusan yang lebih baik, mengotomatiskan, terhubung, dan memperbaiki pengalaman kita sebagai pelanggan, karyawan, dan anggota masyarakat."
          }
         },
         {
@@ -17129,8 +17129,8 @@ window.MT_LMS['the-map'] = {
           "id": "Apa yang kita maksud dengan digital?"
          },
          "text": {
-          "en": "Introduction. You know digital is transforming lives at home and at work. In this course, you'll explore what digital is, data, technology, and new ways of working that can help us maximize value. Data turns information into better decisions: how do new approaches to collecting and analyzing data help us better understand the people we serve, make better decisions faster, and develop new solutions? Technology accelerates impact and helps create new solutions: how do new technologies help accelerate impact and solve problems at work? Ways of working enable us to be more adaptable, collaborative, and productive: how do new ways of working enable us to meet people's needs better and more quickly?",
-          "id": "Pengenalan. Anda sudah melihat bagaimana digital mengubah kehidupan sehari-hari, baik di rumah maupun di tempat kerja. Dalam modul ini, kita akan mengeksplorasi apa itu digital, mulai dari data, teknologi, hingga cara bekerja baru, dan bagaimana semuanya dapat membantu kita menciptakan nilai yang lebih besar. Data mengubah informasi menjadi keputusan yang lebih baik: bagaimana pendekatan baru dalam mengumpulkan dan menganalisis data dapat membantu kita lebih memahami orang yang kita layani, membuat keputusan yang lebih baik dengan lebih cepat, dan mengembangkan solusi baru? Teknologi mempercepat dampak dan menciptakan solusi baru: bagaimana teknologi baru dapat mempercepat dampak dan membantu kita menyelesaikan masalah di tempat kerja? Cara bekerja baru membuat kita lebih adaptif, kolaboratif, dan produktif: bagaimana cara kerja yang baru memungkinkan kita untuk memenuhi kebutuhan orang dengan lebih baik dan lebih cepat?"
+          "en": "Introduction. You know digital is transforming lives at home and at work. In this course, you'll explore what digital is: data, technology, and new ways of working that can help us maximize value. Data turns information into better decisions: how do new approaches to collecting and analyzing data help us better understand the people we serve, make better decisions faster, and develop new solutions? Technology accelerates impact and helps create new solutions: how do new technologies help accelerate impact and solve problems at work? Ways of working enable us to be more adaptable, collaborative, and productive: how do new ways of working enable us to meet people's needs better and more quickly?",
+          "id": "Pengantar. Kamu tahu dunia digital sedang mengubah kehidupan di rumah dan di tempat kerja. Di kursus ini, kamu akan menjelajahi apa itu digital: data, teknologi, dan cara kerja baru yang bisa membantu kita memaksimalkan nilai. Data mengubah informasi menjadi keputusan yang lebih baik: bagaimana pendekatan baru dalam mengumpulkan dan menganalisis data membantu kita lebih memahami orang-orang yang kita layani, mengambil keputusan yang lebih baik dengan lebih cepat, dan mengembangkan solusi baru? Teknologi mempercepat dampak dan membantu menciptakan solusi baru: bagaimana teknologi baru membantu mempercepat dampak dan memecahkan masalah di tempat kerja? Cara kerja baru membuat kita lebih mudah beradaptasi, berkolaborasi, dan produktif: bagaimana cara kerja baru memungkinkan kita memenuhi kebutuhan orang dengan lebih baik dan lebih cepat?"
          }
         },
         {
@@ -17140,7 +17140,7 @@ window.MT_LMS['the-map'] = {
          },
          "text": {
           "en": "Data. In a connected world, we create mountains of data as we use our devices. Organizations in every sector now rely on the flow and exchange of that data. Advanced analytical techniques can even create new data from patterns in existing information. We generate data everywhere. Every device, app, and interaction creates data. Organizations rely on data. Data flows and is exchanged across every sector. Analytics create new insights. Advanced techniques can uncover patterns and generate new data. Examples: consumer behavior (purchase patterns and preferences), smart cities (traffic, mobility, and urban planning), healthcare (better diagnosis and personalized care), sustainability (monitoring and optimizing resources), business decisions (faster, smarter, more accurate decisions). As you watch this video, pay attention to how creative people and organizations are finding new ways to use data. Do any of these ways sound familiar to you?",
-          "id": "Data. Di dunia yang semakin terhubung, kita menghasilkan jutaan data setiap kali menggunakan perangkat kita. Organisasi di berbagai sektor kini sangat bergantung pada aliran dan pertukaran data tersebut. Teknik analitik yang semakin canggih bahkan dapat menciptakan data baru dari pola dalam informasi yang sudah ada. Kita menghasilkan data di mana saja. Setiap perangkat, aplikasi, dan interaksi menciptakan data. Organisasi bergantung pada data, data mengalir dan dipertukarkan di seluruh sektor. Analitik menciptakan wawasan baru. Teknik yang canggih dapat mengungkap pola dan menghasilkan data baru. Contoh: perilaku konsumen (pola pembelian dan preferensi), kota pintar (lalu lintas, mobilitas, dan perencanaan kota), kesehatan (diagnosis yang lebih baik dan layanan kesehatan yang dipersonalisasi), keberlanjutan (pemantauan dan optimalisasi sumber daya), keputusan bisnis (lebih cepat, lebih cerdas, dan lebih akurat). Saat Anda menonton video ini, perhatikan bagaimana orang-orang kreatif dan organisasi menemukan cara-cara baru untuk memanfaatkan data. Apakah ada cara tersebut yang terasa familiar bagi Anda?"
+          "id": "Data. Di dunia yang saling terhubung, kita menciptakan segunung data setiap kali memakai perangkat kita. Organisasi di setiap sektor kini bergantung pada aliran dan pertukaran data itu. Teknik analitik lanjutan bahkan bisa menciptakan data baru dari pola dalam informasi yang sudah ada. Kita menghasilkan data di mana-mana. Setiap perangkat, aplikasi, dan interaksi menciptakan data. Organisasi bergantung pada data. Data mengalir dan dipertukarkan di setiap sektor. Analitik menciptakan wawasan baru. Teknik lanjutan bisa menemukan pola dan menghasilkan data baru. Contoh: perilaku konsumen (pola dan preferensi pembelian), kota pintar (lalu lintas, mobilitas, dan perencanaan kota), layanan kesehatan (diagnosis yang lebih baik dan perawatan yang dipersonalisasi), keberlanjutan (memantau dan mengoptimalkan sumber daya), keputusan bisnis (keputusan yang lebih cepat, cerdas, dan akurat). Sambil menonton video ini, perhatikan bagaimana orang dan organisasi yang kreatif menemukan cara-cara baru untuk memakai data. Adakah cara yang terdengar akrab bagimu?"
          }
         }
        ]
@@ -17152,12 +17152,12 @@ window.MT_LMS['the-map'] = {
         "id": "Baca terakhir · 9 slide"
        },
        "title": {
-        "en": "How Data Create Value, Material",
-        "id": "Bagaimana Data Menciptakan Nilai, Materi"
+        "en": "How Data Create Value: Material",
+        "id": "Bagaimana Data Menciptakan Nilai: Materi"
        },
        "intro": {
         "en": "The film's last line was that it is the use of data, not the data, that transforms industries. These nine slides show what that looks like in practice, and complete the digital toolkit the lesson has been assembling. Slides 1–2 follow Victor and a streaming service through collect → analyse → deliver value → create new content. Slides 3–5 turn to technology: cloud, AI and generative AI, connected devices, each with real-world examples. Slides 6–9 cover new ways of working: design thinking, solving the right problem, design thinking for every role, and Agile with its sprint cycle. Read them as the field guide behind the four anchors; the last slide's Agile-versus-traditional table is then played out in a short film before the knowledge check.",
-        "id": "Kalimat terakhir film tadi: pemakaian datalah, bukan datanya, yang mentransformasi industri. Sembilan slide ini menunjukkan wujudnya dalam praktik, dan melengkapi perangkat digital yang dirangkai pelajaran ini. Slide 1–2 mengikuti Victor dan sebuah layanan streaming melalui kumpulkan → analisis → berikan nilai → ciptakan konten baru. Slide 3–5 beralih ke teknologi: komputasi awan, AI dan AI generatif, perangkat terhubung, masing-masing dengan contoh nyata. Slide 6–9 membahas cara baru dalam bekerja: design thinking, memecahkan masalah yang tepat, design thinking untuk semua peran, dan Agile dengan siklus sprintnya. Bacalah sebagai panduan lapangan di balik empat jangkar; tabel Agile-versus-tradisional di slide terakhir lalu dimainkan dalam sebuah film pendek sebelum uji pemahaman."
+        "id": "Kalimat terakhir film tadi menyatakan bahwa yang mengubah industri adalah cara data dipakai, bukan datanya. Sembilan slide ini menunjukkan wujudnya dalam praktik, sekaligus melengkapi perangkat digital yang sedang dirakit pelajaran ini. Slide 1–2 mengikuti Victor dan sebuah layanan streaming melalui alur kumpulkan → analisis → berikan nilai → ciptakan konten baru. Slide 3–5 beralih ke teknologi: komputasi awan, AI dan AI generatif, perangkat terhubung, masing-masing dengan contoh nyata. Slide 6–9 membahas cara kerja baru: design thinking, memecahkan masalah yang tepat, design thinking untuk setiap peran, dan Agile beserta siklus sprint-nya. Bacalah sebagai panduan lapangan di balik empat jangkar; tabel Agile lawan cara tradisional di slide terakhir kemudian diperagakan dalam film pendek sebelum cek pemahaman."
        },
        "base": "../../assets/lms/the-map/slides/data-value-",
        "slides": [
@@ -17167,18 +17167,18 @@ window.MT_LMS['the-map'] = {
           "id": "Bagaimana data menciptakan nilai"
          },
          "text": {
-          "en": "After a long day at work, Victor loves to watch his favorite shows. Media streaming companies use advanced data analytics to understand his viewing habits and preferences. Based on these insights, they can provide him with personalized recommendations and create new shows that will appeal to him and other customers like him. See how Victor's actions correlate to one media streaming company's approach to data. Data collected: watched content (what he watches), time spent (how long he watches), ratings & likes (what he likes), search activity (what he looks for), device & time (where and when he watches). 1. Collect data, the platform collects data from Victor's viewing activity, search history, ratings, and device usage. 2. Analyze patterns, advanced analytics identify his preferences, viewing habits, and emerging interests. 3. Deliver personalized value, the platform recommends relevant content that matches his interests. 4. Create new content, insights from millions of viewers like Victor help the company develop new shows and better content.",
-          "id": "Setelah hari yang panjang bekerja, Victor suka menonton acara favoritnya. Perusahaan streaming media menggunakan analitik data yang canggih untuk memahami kebiasaan menonton dan preferensinya. Berdasarkan wawasan tersebut, mereka dapat memberikan rekomendasi yang dipersonalisasi dan menciptakan acara baru yang akan menarik bagi Victor dan pelanggan lain yang serupa dengan dirinya. Lihat bagaimana tindakan Victor berkorelasi dengan pendekatan salah satu perusahaan streaming media terhadap data. Data yang dikumpulkan: konten yang ditonton (jenis film/serial, genre, waktu menonton), durasi menonton (berapa lama ditonton), rating & like (apa yang disukai), aktivitas pencarian (topik, kata kunci, aktor, sutradara), perangkat & waktu (di perangkat apa dan kapan menonton). 1. Mengumpulkan data, platform mengumpulkan data dari aktivitas menonton Victor, riwayat pencarian, rating, dan penggunaan perangkat. 2. Menganalisis pola, analitik yang canggih mengidentifikasi preferensi, kebiasaan menonton, dan minat yang muncul. 3. Memberikan nilai yang dipersonalisasi, platform merekomendasikan konten yang relevan dengan minat Victor. 4. Menciptakan konten baru, wawasan dari jutaan penonton seperti Victor membantu perusahaan mengembangkan acara baru dan konten yang lebih baik."
+          "en": "After a long day at work, Victor loves to watch his favorite shows. Media streaming companies use advanced data analytics to understand his viewing habits and preferences. Based on these insights, they can provide him with personalized recommendations and create new shows that will appeal to him and other customers like him. See how Victor's actions correlate to one media streaming company's approach to data. Data collected: watched content (what he watches), time spent (how long he watches), ratings & likes (what he likes), search activity (what he looks for), device & time (where and when he watches). 1. Collect data: the platform collects data from Victor's viewing activity, search history, ratings, and device usage. 2. Analyze patterns: advanced analytics identify his preferences, viewing habits, and emerging interests. 3. Deliver personalized value: the platform recommends relevant content that matches his interests. 4. Create new content: insights from millions of viewers like Victor help the company develop new shows and better content.",
+          "id": "Setelah seharian bekerja, Victor senang menonton acara-acara favoritnya. Perusahaan layanan streaming memakai analitik data lanjutan untuk memahami kebiasaan dan preferensi menontonnya. Berdasarkan wawasan ini, mereka bisa memberinya rekomendasi yang dipersonalisasi dan membuat acara baru yang akan menarik baginya dan pelanggan lain yang mirip dengannya. Lihat bagaimana tindakan Victor berkaitan dengan pendekatan sebuah perusahaan streaming terhadap data. Data yang dikumpulkan: konten yang ditonton (apa yang ia tonton), waktu yang dihabiskan (berapa lama ia menonton), rating dan suka (apa yang ia sukai), aktivitas pencarian (apa yang ia cari), perangkat dan waktu (di mana dan kapan ia menonton). 1. Kumpulkan data: platform mengumpulkan data dari aktivitas menonton, riwayat pencarian, rating, dan pemakaian perangkat Victor. 2. Analisis pola: analitik lanjutan mengenali preferensi, kebiasaan menonton, dan minat barunya. 3. Berikan nilai yang dipersonalisasi: platform merekomendasikan konten relevan yang sesuai minatnya. 4. Ciptakan konten baru: wawasan dari jutaan penonton seperti Victor membantu perusahaan mengembangkan acara baru dan konten yang lebih baik."
          }
         },
         {
          "title": {
-          "en": "How data creates value, real-world example",
-          "id": "Bagaimana data menciptakan nilai, contoh nyata"
+          "en": "How data creates value: a real-world example",
+          "id": "Bagaimana data menciptakan nilai: contoh nyata"
          },
          "text": {
-          "en": "Real-world example. Victor's action 1; continuing to watch while working out: one day, while working out, Victor continues watching the most recent episode on his mobile phone. Streaming company's approach. Requesting data: Victor can seamlessly switch across devices because the company keeps a user profile of his activities across devices and integrates them into one record that is synchronized and stored in the cloud. Victor's action 2. Searching for new shows: a few weeks later, Victor wants to watch a similar show, so he searches for new content on his tablet. Streaming company's approach, analyzing data: the streaming company uses machine learning to predict Victor's preferences based on data from his activities and those of other users, as well as data collected outside the platform. The system incorporates new data as Victor generates it. The company analyzes viewing habits (duration, genre, watch time, devices), compares with similar users (patterns from millions of users) and provides relevant recommendations (content that matches his interests). The cycle: 1. Collects data, viewing behavior, searches, and user interactions. 2. Analyzes patterns, uses data analytics and AI to find insights. 3. Creates value, personalized recommendations and new content. 4. Better experiences; more relevant shows for Victor and millions of other customers.",
-          "id": "Contoh nyata. Aksi Victor 1, melanjutkan menonton saat berolahraga: keesokan hari, saat sedang berolahraga, Victor melanjutkan menonton episode terbaru di ponselnya. Pendekatan perusahaan streaming. Meminta data: Victor dapat berpindah perangkat dengan mulus karena perusahaan menjaga profil aktivitasnya di berbagai perangkat dan mengintegrasikannya ke dalam satu akun yang tersimpan di cloud. Aksi Victor 2. Mencari tontonan baru: beberapa minggu kemudian, Victor ingin menonton acara serupa, sehingga ia mencari konten baru di tabletnya. Pendekatan perusahaan streaming, menganalisis data: perusahaan streaming menggunakan machine learning untuk memprediksi preferensi Victor berdasarkan aktivitasnya dan pengguna lain yang serupa, serta data eksternal. Sistem ini menggabungkan data tersebut untuk menghasilkan rekomendasi konten baru. Perusahaan menganalisis kebiasaan menonton (durasi, genre, waktu menonton, perangkat), membandingkan dengan pengguna serupa (pola dari jutaan pengguna lain), dan memberikan rekomendasi yang tepat (konten yang relevan dan menarik). Siklusnya: 1. Mengumpulkan data, aktivitas menonton, pencarian, dan interaksi pengguna. 2. Menganalisis pola, menggunakan analitik data dan AI untuk menemukan wawasan. 3. Menciptakan nilai, rekomendasi yang dipersonalisasi dan konten baru. 4. Pengalaman lebih baik, acara yang lebih relevan bagi Victor dan jutaan pengguna lainnya."
+          "en": "Real-world example. Victor's action 1: continuing to watch while working out: one day, while working out, Victor continues watching the most recent episode on his mobile phone. Streaming company's approach. Requesting data: Victor can seamlessly switch across devices because the company keeps a user profile of his activities across devices and integrates them into one record that is synchronized and stored in the cloud. Victor's action 2. Searching for new shows: a few weeks later, Victor wants to watch a similar show, so he searches for new content on his tablet. Streaming company's approach. Analyzing data: the streaming company uses machine learning to predict Victor's preferences based on data from his activities and those of other users, as well as data collected outside the platform. The system incorporates new data as Victor generates it. The company analyzes viewing habits (duration, genre, watch time, devices), compares with similar users (patterns from millions of users) and provides relevant recommendations (content that matches his interests). The cycle: 1. Collects data: viewing behavior, searches, and user interactions. 2. Analyzes patterns: uses data analytics and AI to find insights. 3. Creates value: personalized recommendations and new content. 4. Better experiences: more relevant shows for Victor and millions of other customers.",
+          "id": "Contoh nyata. Tindakan Victor 1: terus menonton sambil berolahraga. Suatu hari, sambil berolahraga, Victor melanjutkan menonton episode terbaru di ponselnya. Pendekatan perusahaan streaming. Meminta data: Victor bisa berpindah perangkat dengan mulus karena perusahaan menyimpan profil pengguna berisi aktivitasnya di berbagai perangkat dan menyatukannya dalam satu catatan yang tersinkronisasi dan tersimpan di cloud. Tindakan Victor 2. Mencari acara baru: beberapa minggu kemudian, Victor ingin menonton acara yang serupa, jadi ia mencari konten baru di tabletnya. Pendekatan perusahaan streaming. Menganalisis data: perusahaan streaming memakai machine learning untuk memprediksi preferensi Victor berdasarkan data aktivitasnya dan pengguna lain, serta data yang dikumpulkan di luar platform. Sistem itu memasukkan data baru begitu Victor menghasilkannya. Perusahaan menganalisis kebiasaan menonton (durasi, genre, waktu menonton, perangkat), membandingkan dengan pengguna serupa (pola dari jutaan pengguna), dan memberikan rekomendasi yang relevan (konten yang sesuai minatnya). Siklusnya: 1. Mengumpulkan data: perilaku menonton, pencarian, dan interaksi pengguna. 2. Menganalisis pola: memakai analitik data dan AI untuk menemukan wawasan. 3. Menciptakan nilai: rekomendasi yang dipersonalisasi dan konten baru. 4. Pengalaman yang lebih baik: acara yang lebih relevan bagi Victor dan jutaan pelanggan lainnya."
          }
         },
         {
@@ -17187,22 +17187,22 @@ window.MT_LMS['the-map'] = {
           "id": "Teknologi dan AI"
          },
          "text": {
-          "en": "New technologies are changing the way we live, work, and solve problems. From cloud computing to artificial intelligence and connected devices, these innovations help individuals, organizations, and governments create greater value for the people they serve. Technology, new technologies such as cloud, artificial intelligence, and connected devices help us solve problems at home and at work. The same technologies that improve our personal lives also help companies, non-profits, and governments serve their stakeholders better. Cloud. The cloud is on-demand computing power and data storage, accessed through the internet. Organizations that use the cloud can adjust their data and processing capacity up or down as needed. Modern applications and business services based in the cloud allow multiple people in different locations to work on the same document simultaneously. Questions: what does my favorite show on a streaming service have to do with the cloud? How does the cloud help humanitarian organizations respond to crises? Real-world examples: streaming services use the cloud to deliver content to millions of viewers, the cloud provides on-demand access to data, allowing streaming services to store and deliver millions of shows and movies simultaneously; customers can find programs to watch and get personalized recommendations based on their interests. Humanitarian organizations use cloud-based solutions to respond to crises. Because data is stored in the cloud, volunteers around the world can access the same information and collaborate in real time, helping them quickly find and deliver resources to the people who need them most.",
-          "id": "Teknologi baru sedang mengubah cara kita hidup, bekerja, dan memecahkan masalah. Dari komputasi awan, kecerdasan buatan, hingga perangkat yang terhubung, inovasi ini membantu individu, organisasi, dan pemerintah menciptakan nilai yang lebih besar bagi masyarakat yang dilayani. Teknologi, teknologi baru seperti komputasi awan, kecerdasan buatan, dan perangkat yang terhubung membantu kita memecahkan masalah di rumah dan di tempat kerja. Teknologi yang sama yang meningkatkan kehidupan pribadi juga membantu perusahaan, organisasi nirlaba, dan pemerintah melayani para pemangku kepentingan mereka dengan lebih baik. Komputasi awan. Komputasi awan adalah daya komputasi dan penyimpanan data yang tersedia sesuai kebutuhan melalui internet. Organisasi yang menggunakan komputasi awan dapat dengan mudah menyesuaikan data dan kapasitas pemrosesan sesuai kebutuhan. Aplikasi modern dan layanan bisnis berbasis cloud memungkinkan banyak orang di lokasi yang berbeda untuk bekerja pada dokumen yang sama secara bersamaan. Pertanyaan: apa hubungan acara favorit saya di layanan streaming dengan komputasi awan? Bagaimana komputasi awan membantu organisasi kemanusiaan dalam merespons krisis? Contoh nyata: layanan streaming menggunakan komputasi awan untuk menghadirkan konten kepada jutaan penonton, komputasi awan menyediakan akses data sesuai kebutuhan, memungkinkan layanan streaming menyimpan dan menyajikan jutaan acara dan film secara bersamaan; pengguna dapat menemukan program untuk ditonton dan mendapatkan rekomendasi personalisasi berdasarkan minat mereka. Organisasi kemanusiaan menggunakan solusi berbasis komputasi awan untuk merespons krisis. Karena data disimpan di komputasi awan, relawan di seluruh dunia dapat mengakses informasi yang sama dan berkolaborasi secara real-time, membantu mereka dengan cepat menemukan dan menyalurkan bantuan kepada masyarakat yang paling membutuhkan."
+          "en": "New technologies are changing the way we live, work, and solve problems. From cloud computing to artificial intelligence and connected devices, these innovations help individuals, organizations, and governments create greater value for the people they serve. Technology. New technologies such as cloud, artificial intelligence, and connected devices help us solve problems at home and at work. The same technologies that improve our personal lives also help companies, non-profits, and governments serve their stakeholders better. Cloud. The cloud is on-demand computing power and data storage, accessed through the internet. Organizations that use the cloud can adjust their data and processing capacity up or down as needed. Modern applications and business services based in the cloud allow multiple people in different locations to work on the same document simultaneously. Questions: what does my favorite show on a streaming service have to do with the cloud? How does the cloud help humanitarian organizations respond to crises? Real-world examples: streaming services use the cloud to deliver content to millions of viewers: the cloud provides on-demand access to data, allowing streaming services to store and deliver millions of shows and movies simultaneously; customers can find programs to watch and get personalized recommendations based on their interests. Humanitarian organizations use cloud-based solutions to respond to crises. Because data is stored in the cloud, volunteers around the world can access the same information and collaborate in real time, helping them quickly find and deliver resources to the people who need them most.",
+          "id": "Teknologi baru sedang mengubah cara kita hidup, bekerja, dan memecahkan masalah. Dari komputasi awan sampai kecerdasan buatan dan perangkat terhubung, inovasi-inovasi ini membantu individu, organisasi, dan pemerintah menciptakan nilai yang lebih besar bagi orang-orang yang mereka layani. Teknologi. Teknologi baru seperti cloud, kecerdasan buatan, dan perangkat terhubung membantu kita memecahkan masalah di rumah dan di tempat kerja. Teknologi yang sama yang memperbaiki kehidupan pribadi kita juga membantu perusahaan, lembaga nirlaba, dan pemerintah melayani para pemangku kepentingannya dengan lebih baik. Cloud. Cloud adalah daya komputasi dan penyimpanan data sesuai kebutuhan yang diakses lewat internet. Organisasi yang memakai cloud bisa menaikkan atau menurunkan kapasitas data dan pemrosesannya sesuai kebutuhan. Aplikasi modern dan layanan bisnis berbasis cloud memungkinkan banyak orang di lokasi berbeda mengerjakan dokumen yang sama secara bersamaan. Pertanyaan: apa hubungan acara favoritku di layanan streaming dengan cloud? Bagaimana cloud membantu organisasi kemanusiaan menanggapi krisis? Contoh nyata: layanan streaming memakai cloud untuk menyajikan konten kepada jutaan penonton: cloud menyediakan akses data sesuai kebutuhan, sehingga layanan streaming bisa menyimpan dan menyajikan jutaan acara dan film secara bersamaan; pelanggan bisa menemukan tontonan dan mendapat rekomendasi yang dipersonalisasi sesuai minatnya. Organisasi kemanusiaan memakai solusi berbasis cloud untuk menanggapi krisis. Karena datanya tersimpan di cloud, relawan di seluruh dunia bisa mengakses informasi yang sama dan berkolaborasi secara langsung, sehingga mereka bisa cepat menemukan dan menyalurkan bantuan kepada orang-orang yang paling membutuhkannya."
          }
         },
         {
          "title": {
           "en": "Artificial Intelligence",
-          "id": "Kecerdasan Buatan (AI)"
+          "id": "Kecerdasan Buatan"
          },
          "text": {
-          "en": "Artificial intelligence (AI) refers to machines that have been programmed to imitate human intelligence. Examples include speech recognition, image analysis, and predictive analytics that help solve complex problems such as customer retention. AI in everyday life and business; AI is already part of our daily lives, from virtual assistants like Siri to personalized recommendations on streaming platforms. Organizations across industries use AI to make better decisions, improve efficiency, and create more personalized experiences for their customers. Generative AI, generative AI tools, AI systems capable of creating new and diverse content such as text, images, videos, music, code, and even 3D models, have rapidly advanced and become widely accessible. These tools not only generate creative works but also assist with workflow management, complex problem-solving, personalized learning, and interactive experiences. Check the additional resources in the Wrap Up lesson at the end of this course if you'd like to delve deeper into the transformative potential of AI. Real-world example. How do retailers manage same day delivery using artificial intelligence? Retailers use AI to predict demand, optimize inventory, and plan delivery routes in real time. By analyzing customer data, traffic conditions, and store inventory, AI helps ensure products can be delivered faster and more efficiently. Real-world example. How does generative AI help office workers structure documents in a clear and concise way? Generative AI can analyze existing data and generate well-structured document drafts, summaries, and key insights. It helps office workers save time, improve clarity, and communicate their ideas more effectively. Examples of generative AI capabilities: text (write, summarize, and brainstorm ideas), image (create visuals from a simple description), video (generate videos from text or images), code (generate and explain code), 3D models (create 3D models from text or images).",
-          "id": "Kecerdasan buatan (AI) mengacu pada mesin yang diprogram untuk meniru kecerdasan manusia. Contohnya meliputi pengenalan suara, analisis gambar, dan analitik prediktif yang membantu memecahkan masalah kompleks, seperti retensi pelanggan. AI dalam kehidupan sehari-hari dan bisnis; AI sudah menjadi bagian dari kehidupan sehari-hari, mulai dari asisten virtual seperti Siri hingga rekomendasi yang dipersonalisasi di platform streaming. Organisasi di berbagai industri menggunakan AI untuk membuat keputusan yang lebih baik, meningkatkan efisiensi, dan menciptakan pengalaman yang lebih personal bagi pelanggan mereka. AI Generatif. Alat AI generatif adalah sistem AI yang mampu menciptakan konten baru dan beragam, seperti teks, gambar, video, musik, kode, dan bahkan model 3D. Teknologi ini berkembang pesat dan kini semakin mudah diakses. Selain menghasilkan karya kreatif, AI generatif juga dapat membantu dalam manajemen alur kerja, penyelesaian masalah kompleks, pembelajaran yang dipersonalisasi, dan pengalaman interaktif. Lihat sumber daya tambahan pada pelajaran Wrap Up di akhir kursus ini jika Anda ingin mendalami potensi transformatif dari AI. Contoh nyata, bagaimana retailer mengelola pengiriman di hari yang sama menggunakan kecerdasan buatan? Retailer menggunakan AI untuk memprediksi permintaan, mengoptimalkan persediaan, dan merencanakan rute pengiriman secara real-time. Dengan menganalisis data pelanggan, kondisi lalu lintas, dan ketersediaan stok, AI membantu memastikan produk dapat dikirim lebih cepat dan lebih efisien. Contoh nyata, bagaimana AI generatif membantu pekerja kantor menyusun dokumen dengan jelas dan ringkas? AI generatif dapat menganalisis data yang ada dan menghasilkan draf dokumen, ringkasan, dan wawasan utama yang terstruktur dengan baik. Ini membantu pekerja kantor menghemat waktu, meningkatkan kejelasan, dan mengomunikasikan ide mereka dengan lebih efektif. Contoh kemampuan AI generatif: teks (menulis, meringkas, dan menghasilkan ide), gambar (membuat visual dari deskripsi sederhana), video (menghasilkan video dari teks atau gambar), kode (menghasilkan dan menjelaskan kode), model 3D (membuat model 3D dari teks atau gambar)."
+          "en": "Artificial intelligence (AI) refers to machines that have been programmed to imitate human intelligence. Examples include speech recognition, image analysis, and predictive analytics that help solve complex problems such as customer retention. AI in everyday life and business. AI is already part of our daily lives, from virtual assistants like Siri to personalized recommendations on streaming platforms. Organizations across industries use AI to make better decisions, improve efficiency, and create more personalized experiences for their customers. Generative AI. Generative AI tools (AI systems capable of creating new and diverse content such as text, images, videos, music, code, and even 3D models) have rapidly advanced and become widely accessible. These tools not only generate creative works but also assist with workflow management, complex problem-solving, personalized learning, and interactive experiences. Lesson 5.6 goes deeper into working with AI. Real-world example. How do retailers manage same day delivery using artificial intelligence? Retailers use AI to predict demand, optimize inventory, and plan delivery routes in real time. By analyzing customer data, traffic conditions, and store inventory, AI helps ensure products can be delivered faster and more efficiently. Real-world example. How does generative AI help office workers structure documents in a clear and concise way? Generative AI can analyze existing data and generate well-structured document drafts, summaries, and key insights. It helps office workers save time, improve clarity, and communicate their ideas more effectively. Examples of generative AI capabilities: text (write, summarize, and brainstorm ideas), image (create visuals from a simple description), video (generate videos from text or images), code (generate and explain code), 3D models (create 3D models from text or images).",
+          "id": "Kecerdasan buatan (AI) adalah mesin yang diprogram untuk meniru kecerdasan manusia. Contohnya pengenalan suara, analisis gambar, dan analitik prediktif yang membantu memecahkan masalah rumit seperti mempertahankan pelanggan. AI dalam kehidupan sehari-hari dan bisnis. AI sudah menjadi bagian dari kehidupan sehari-hari kita, dari asisten virtual seperti Siri sampai rekomendasi yang dipersonalisasi di platform streaming. Organisasi di berbagai industri memakai AI untuk mengambil keputusan yang lebih baik, meningkatkan efisiensi, dan menciptakan pengalaman yang lebih personal bagi pelanggannya. AI generatif. Alat-alat AI generatif (sistem AI yang mampu menciptakan konten baru dan beragam seperti teks, gambar, video, musik, kode, bahkan model 3D) berkembang pesat dan makin mudah diakses. Alat-alat ini tidak hanya menghasilkan karya kreatif, tetapi juga membantu mengelola alur kerja, memecahkan masalah yang rumit, belajar secara personal, dan menciptakan pengalaman interaktif. Pelajaran 5.6 membahas lebih dalam cara bekerja dengan AI. Contoh nyata. Bagaimana peritel mengelola pengiriman di hari yang sama dengan kecerdasan buatan? Peritel memakai AI untuk memprediksi permintaan, mengoptimalkan stok, dan merencanakan rute pengiriman secara langsung. Dengan menganalisis data pelanggan, kondisi lalu lintas, dan stok toko, AI membantu memastikan produk bisa dikirim lebih cepat dan efisien. Contoh nyata. Bagaimana AI generatif membantu pekerja kantoran menyusun dokumen yang jelas dan ringkas? AI generatif bisa menganalisis data yang ada dan menghasilkan draf dokumen, ringkasan, serta wawasan kunci yang tersusun rapi. Ini membantu pekerja kantoran menghemat waktu, memperjelas tulisan, dan menyampaikan ide dengan lebih efektif. Contoh kemampuan AI generatif: teks (menulis, meringkas, dan mencari ide), gambar (membuat visual dari deskripsi sederhana), video (menghasilkan video dari teks atau gambar), kode (menghasilkan dan menjelaskan kode), model 3D (membuat model 3D dari teks atau gambar)."
          },
          "caption": {
           "en": "Editorial note: the examples on this slide describe AI as of the source course's date; capabilities change every few months. Lesson 5.6 teaches how to test current tools yourself.",
-          "id": "Catatan editorial: contoh di slide ini menggambarkan AI per tanggal kursus sumber; kemampuannya berubah tiap beberapa bulan. Pelajaran 5.6 mengajarkan cara menguji alat terkini sendiri."
+          "id": "Catatan redaksi: contoh-contoh di slide ini menggambarkan AI per tanggal kursus sumbernya; kemampuannya berubah setiap beberapa bulan. Pelajaran 5.6 mengajarkan cara menguji sendiri alat-alat yang ada sekarang."
          }
         },
         {
@@ -17211,18 +17211,18 @@ window.MT_LMS['the-map'] = {
           "id": "Perangkat Terhubung"
          },
          "text": {
-          "en": "Connected devices are physical objects that use the internet to connect with each other. Always connected. Connected devices use the internet to exchange data in real time. Smarter and more efficient, with data, connected devices can operate more automatically, accurately, and efficiently. Creating real value. Connected devices help individuals, businesses, and governments deliver safer, more convenient, and more sustainable services. Real-world example. How can connected devices help reduce the number of road accidents? Sensors, cameras, and connected devices on vehicles and road infrastructure can share real-time data, helping to detect potential hazards, provide early warnings, and enable safer, more autonomous driving, ultimately reducing traffic accidents (real-time traffic monitoring, early hazard detection, vehicle-to-vehicle communication). Real-world example. How do utility companies use connected devices to provide more consistent services? Connected devices such as smart meters in homes and businesses and sensors across the power grid allow utility companies to monitor usage in real time, detect faults early, reduce outages, and better balance supply and demand (real-time energy consumption monitoring, faster fault detection, more stable energy supply). Examples of connected devices in everyday life: connected vehicles (share data with other vehicles and infrastructure to enable safer and more efficient journeys), smart homes (devices like thermostats, cameras, and smart appliances can be monitored and controlled remotely), industry (sensors on machines monitor performance and help prevent downtime), healthcare (wearable devices monitor vital signs, activity, and health conditions in real time), smart cities (connected streetlights, public transport, and sensors help create more efficient and livable cities).",
-          "id": "Perangkat terhubung adalah benda fisik yang menggunakan internet untuk saling terhubung satu sama lain. Selalu terhubung, perangkat terhubung menggunakan internet untuk bertukar data secara real-time. Lebih pintar dan efisien, dengan data yang terkumpul, perangkat dapat bekerja lebih otomatis, akurat, dan efisien. Memberikan nilai nyata, perangkat terhubung membantu individu, bisnis, dan pemerintah menciptakan layanan yang lebih aman, nyaman, dan berkelanjutan. Contoh nyata. Bagaimana perangkat terhubung dapat membantu mengurangi jumlah kecelakaan di jalan? Sensor, kamera, dan perangkat terhubung pada kendaraan dan infrastruktur jalan dapat saling berbagi data secara real-time, membantu kendaraan untuk mendeteksi bahaya, memberikan peringatan dini, dan menavigasi jalan dengan lebih aman (pemantauan lalu lintas real-time, peringatan dini adanya potensi bahaya, komunikasi antar kendaraan). Contoh nyata, bagaimana perusahaan utilitas menggunakan perangkat terhubung untuk memberikan layanan yang lebih konsisten? Perangkat terhubung seperti meter pintar dan sensor membantu perusahaan utilitas memantau jaringan secara real-time, mengurangi gangguan, serta menyeimbangkan pasokan dan permintaan energi (pemantauan konsumsi energi real-time, deteksi gangguan lebih cepat, pasokan energi lebih stabil). Contoh perangkat terhubung dalam kehidupan sehari-hari: kendaraan terhubung (berbagi data dengan kendaraan lain dan infrastruktur untuk perjalanan yang lebih aman), rumah pintar (perangkat seperti termostat dan kamera yang dapat dipantau dari jarak jauh), industri (sensor pada mesin memantau kinerja dan mencegah gangguan operasional), kesehatan (perangkat wearable untuk memantau detak jantung, aktivitas, dan kondisi kesehatan), kota pintar (lampu jalan, transportasi, dan sistem publik yang terhubung untuk layanan kota yang lebih efisien)."
+          "en": "Connected devices are physical objects that use the internet to connect with each other. Always connected. Connected devices use the internet to exchange data in real time. Smarter and more efficient. With data, connected devices can operate more automatically, accurately, and efficiently. Creating real value. Connected devices help individuals, businesses, and governments deliver safer, more convenient, and more sustainable services. Real-world example. How can connected devices help reduce the number of road accidents? Sensors, cameras, and connected devices on vehicles and road infrastructure can share real-time data, helping to detect potential hazards, provide early warnings, and enable safer, more autonomous driving, ultimately reducing traffic accidents (real-time traffic monitoring, early hazard detection, vehicle-to-vehicle communication). Real-world example. How do utility companies use connected devices to provide more consistent services? Connected devices such as smart meters in homes and businesses and sensors across the power grid allow utility companies to monitor usage in real time, detect faults early, reduce outages, and better balance supply and demand (real-time energy consumption monitoring, faster fault detection, more stable energy supply). Examples of connected devices in everyday life: connected vehicles (share data with other vehicles and infrastructure to enable safer and more efficient journeys), smart homes (devices like thermostats, cameras, and smart appliances can be monitored and controlled remotely), industry (sensors on machines monitor performance and help prevent downtime), healthcare (wearable devices monitor vital signs, activity, and health conditions in real time), smart cities (connected streetlights, public transport, and sensors help create more efficient and livable cities).",
+          "id": "Perangkat terhubung adalah benda fisik yang memakai internet untuk saling terhubung. Selalu terhubung. Perangkat terhubung memakai internet untuk bertukar data secara langsung. Lebih cerdas dan efisien. Dengan data, perangkat terhubung bisa bekerja lebih otomatis, akurat, dan efisien. Menciptakan nilai nyata. Perangkat terhubung membantu individu, bisnis, dan pemerintah memberikan layanan yang lebih aman, praktis, dan berkelanjutan. Contoh nyata. Bagaimana perangkat terhubung bisa membantu mengurangi kecelakaan lalu lintas? Sensor, kamera, dan perangkat terhubung di kendaraan dan infrastruktur jalan bisa berbagi data secara langsung, membantu mendeteksi potensi bahaya, memberi peringatan dini, dan memungkinkan berkendara yang lebih aman dan otomatis, sehingga akhirnya mengurangi kecelakaan lalu lintas (pemantauan lalu lintas secara langsung, deteksi bahaya lebih awal, komunikasi antarkendaraan). Contoh nyata. Bagaimana perusahaan utilitas memakai perangkat terhubung untuk memberikan layanan yang lebih konsisten? Perangkat terhubung seperti meteran pintar di rumah dan tempat usaha serta sensor di seluruh jaringan listrik memungkinkan perusahaan utilitas memantau pemakaian secara langsung, mendeteksi gangguan lebih awal, mengurangi pemadaman, dan menyeimbangkan pasokan dan permintaan dengan lebih baik (pemantauan konsumsi energi secara langsung, deteksi gangguan lebih cepat, pasokan energi lebih stabil). Contoh perangkat terhubung dalam kehidupan sehari-hari: kendaraan terhubung (berbagi data dengan kendaraan dan infrastruktur lain agar perjalanan lebih aman dan efisien), rumah pintar (perangkat seperti termostat, kamera, dan peralatan pintar bisa dipantau dan dikendalikan dari jauh), industri (sensor di mesin memantau kinerja dan membantu mencegah mesin berhenti), layanan kesehatan (perangkat yang dipakai di tubuh memantau tanda vital, aktivitas, dan kondisi kesehatan secara langsung), kota pintar (lampu jalan, transportasi umum, dan sensor yang terhubung membantu menciptakan kota yang lebih efisien dan layak huni)."
          }
         },
         {
          "title": {
-          "en": "New ways of working, Design thinking",
-          "id": "Cara baru dalam bekerja, Design Thinking"
+          "en": "New ways of working: design thinking",
+          "id": "Cara kerja baru: design thinking"
          },
          "text": {
-          "en": "The third component of going digital is introducing new ways of working. By using technology and data to collaborate, take smarter risks, and test ideas faster, we can better meet people's needs. Next, we'll explore one powerful way of working: design thinking. What is design thinking? Design thinking is a human-centered way of working focused on understanding the needs of users or customers. It helps us solve problems in a creative and innovative way. It starts with a deep understanding of our users and the problems they face, so we can design products or services that better meet their needs. Identifying the end user. A key strength of design thinking is its emphasis on truly knowing the end users. We can use various methods, such as interviews, focus groups, observation, and surveys, to learn about their behaviors, needs, and pain points. By understanding what they do, think, and feel, we can create solutions that deliver greater value and a better experience. Real-world example. If you are designing hotel rooms, who is your end user? End users are the guests who stay at the hotel. Understanding their needs, preferences, and behaviors helps us design room features and services that create a more comfortable and memorable stay (comfortable and restful stay, convenient and seamless experience, personalized services). Real-world example. If you are testing a new menu item at your restaurant, who is your end user? End users are your customers. Understanding their tastes, dietary preferences, and dining behaviors helps you design and test menu items that they will enjoy and keep coming back for (delicious and high-quality taste, healthy and nutritious options, great value and dining experience). The design thinking process: 01 Empathize. Understand the end users and their needs (conduct interviews with hotel guests). 02 Define, identify key problems and opportunities (identify common pain points). 03 Ideate, generate many creative ideas (brainstorm room concepts). 04 Prototype. Build a simple version of the solution (create a mock-up room layout). 05 Test; get feedback from users and iterate (test with real guests and gather feedback).",
-          "id": "Komponen ketiga dari transformasi digital adalah menghadirkan cara baru dalam bekerja. Dengan memanfaatkan teknologi dan data untuk berkolaborasi, mengambil risiko yang lebih terukur, dan menguji ide lebih cepat, kita dapat memenuhi kebutuhan manusia dengan lebih baik. Selanjutnya, kita akan membahas satu cara baru dalam bekerja, yaitu Design Thinking. Apa itu Design Thinking? Design Thinking adalah cara bekerja yang berfokus pada pemahaman kebutuhan pengguna atau pelanggan. Pendekatan ini membantu kita memecahkan masalah secara kreatif dan inovatif, dimulai dengan memahami pengguna secara mendalam dan tantangan yang mereka hadapi, sehingga kita dapat merancang produk atau layanan yang lebih sesuai dengan kebutuhan mereka. Mengidentifikasi pengguna akhir, kekuatan utama dari Design Thinking adalah dimulai dengan mengenal pengguna akhir secara mendalam. Kita bisa menggunakan berbagai metode, seperti wawancara, fokus grup, observasi, dan survei, untuk memahami perilaku, kebutuhan, dan tantangan mereka. Dengan memahami apa yang mereka lakukan, pikirkan, dan rasakan, kita dapat menciptakan solusi yang memberikan nilai lebih tinggi dan pengalaman yang lebih baik. Contoh nyata, jika Anda mendesain kamar hotel, siapa pengguna akhir Anda? Pengguna akhir adalah tamu yang menginap di hotel. Dengan memahami kebutuhan, preferensi, dan perilaku mereka, kita dapat merancang fitur kamar dan layanan yang menciptakan pengalaman menginap yang lebih nyaman dan berkesan (penginapan yang nyaman dan menyenangkan, pengalaman check-in yang mudah dan cepat, layanan yang dipersonalisasi). Contoh nyata, jika Anda menguji menu baru di restoran, siapa pengguna akhir Anda? Pengguna akhir adalah pelanggan Anda. Dengan memahami selera, preferensi makanan, dan perilaku makan mereka, kita dapat merancang dan menguji menu yang mereka sukai dan membuat mereka kembali lagi (rasa yang lezat dan berkualitas tinggi, pilihan makanan yang sehat dan bergizi, pengalaman bersantap yang bernilai dan menyenangkan). Tahapan Design Thinking: 01 Empati, memahami pengguna akhir dan kebutuhan mereka (lakukan wawancara dengan tamu hotel). 02 Definisikan, mengidentifikasi masalah utama dan peluang (identifikasi kebutuhan dan pain points utama). 03 Hasilkan ide, mengembangkan banyak ide kreatif (brainstorm konsep kamar hotel). 04 Buat prototipe. Membuat versi sederhana dari solusi (buat mock-up desain kamar). 05 Uji coba, mendapatkan masukan dari pengguna dan melakukan iterasi (uji coba dengan tamu hotel dan kumpulkan feedback)."
+          "en": "The third component of going digital is introducing new ways of working. By using technology and data to collaborate, take smarter risks, and test ideas faster, we can better meet people's needs. Next, we'll explore one powerful way of working: design thinking. What is design thinking? Design thinking is a human-centered way of working focused on understanding the needs of users or customers. It helps us solve problems in a creative and innovative way. It starts with a deep understanding of our users and the problems they face, so we can design products or services that better meet their needs. Identifying the end user. A key strength of design thinking is its emphasis on truly knowing the end users. We can use various methods, such as interviews, focus groups, observation, and surveys, to learn about their behaviors, needs, and pain points. By understanding what they do, think, and feel, we can create solutions that deliver greater value and a better experience. Real-world example. If you are designing hotel rooms, who is your end user? End users are the guests who stay at the hotel. Understanding their needs, preferences, and behaviors helps us design room features and services that create a more comfortable and memorable stay (comfortable and restful stay, convenient and seamless experience, personalized services). Real-world example. If you are testing a new menu item at your restaurant, who is your end user? End users are your customers. Understanding their tastes, dietary preferences, and dining behaviors helps you design and test menu items that they will enjoy and keep coming back for (delicious and high-quality taste, healthy and nutritious options, great value and dining experience). The design thinking process: 01 Empathize. Understand the end users and their needs (conduct interviews with hotel guests). 02 Define. Identify key problems and opportunities (identify common pain points). 03 Ideate. Generate many creative ideas (brainstorm room concepts). 04 Prototype. Build a simple version of the solution (create a mock-up room layout). 05 Test. Get feedback from users and iterate (test with real guests and gather feedback).",
+          "id": "Komponen ketiga dari menjadi digital adalah memperkenalkan cara kerja baru. Dengan memakai teknologi dan data untuk berkolaborasi, mengambil risiko secara lebih cerdas, dan menguji ide lebih cepat, kita bisa memenuhi kebutuhan orang dengan lebih baik. Berikutnya, kita akan menjelajahi satu cara kerja yang ampuh: design thinking. Apa itu design thinking? Design thinking adalah cara kerja yang berpusat pada manusia dan berfokus pada pemahaman kebutuhan pengguna atau pelanggan. Cara ini membantu kita memecahkan masalah secara kreatif dan inovatif. Prosesnya dimulai dengan pemahaman mendalam tentang pengguna dan masalah yang mereka hadapi, supaya kita bisa merancang produk atau layanan yang lebih memenuhi kebutuhan mereka. Mengenali pengguna akhir. Kekuatan utama design thinking adalah penekanannya pada benar-benar mengenal pengguna akhir. Kita bisa memakai berbagai cara, seperti wawancara, diskusi kelompok terarah, pengamatan, dan survei, untuk mempelajari perilaku, kebutuhan, dan titik masalah mereka. Dengan memahami apa yang mereka lakukan, pikirkan, dan rasakan, kita bisa menciptakan solusi yang memberi nilai lebih besar dan pengalaman yang lebih baik. Contoh nyata. Kalau kamu merancang kamar hotel, siapa pengguna akhirnya? Pengguna akhirnya adalah tamu yang menginap di hotel itu. Memahami kebutuhan, preferensi, dan perilaku mereka membantu kita merancang fasilitas kamar dan layanan yang membuat masa menginap lebih nyaman dan berkesan (menginap yang nyaman dan nyenyak, pengalaman yang praktis dan mulus, layanan yang personal). Contoh nyata. Kalau kamu menguji menu baru di restoranmu, siapa pengguna akhirnya? Pengguna akhirnya adalah pelangganmu. Memahami selera, pilihan diet, dan kebiasaan makan mereka membantumu merancang dan menguji menu yang akan mereka nikmati dan membuat mereka datang lagi (rasa yang lezat dan berkualitas, pilihan yang sehat dan bergizi, nilai dan pengalaman bersantap yang hebat). Proses design thinking: 01 Berempati. Pahami pengguna akhir dan kebutuhannya (wawancarai tamu hotel). 02 Definisikan. Kenali masalah dan peluang utamanya (kenali titik masalah yang umum). 03 Cari ide. Munculkan banyak ide kreatif (curah gagasan konsep kamar). 04 Buat prototipe. Buat versi sederhana dari solusinya (buat tiruan tata letak kamar). 05 Uji. Dapatkan masukan dari pengguna dan perbaiki terus (uji dengan tamu sungguhan dan kumpulkan masukan)."
          }
         },
         {
@@ -17231,28 +17231,28 @@ window.MT_LMS['the-map'] = {
           "id": "Memecahkan masalah yang tepat"
          },
          "text": {
-          "en": "By putting end users at the center, you can uncover unmet needs that should be the focus of your design. No matter your role or industry, understanding how end users feel and defining the right problem saves time and improves the solution. Start with real people. Go beyond assumptions; understand what end users do, think, feel, and struggle with. Find the real problem. Look for unmet needs and root causes, not just surface-level symptoms. Design better solutions, by solving the right problem, you can create solutions that are more relevant, effective, and impactful. Government, rethinking meal delivery for the elderly: a government-run meal delivery service noticed that many elderly recipients were not eating the provided meals. Initial assumption: the issue was the food menu. Real problem: the real issue was social isolation; they needed human interaction, not just food. Food & beverage, understanding customer preferences: milkshake sales were flat at a global fast food chain; the team initially assumed the flavors were the problem. Initial assumption: the issue was the texture and flavor options. Real problem: customers wanted a more filling, long-lasting, and easy-to-eat option while on the go. Hospitality, redesigning the hotel experience: guests complained about long check-in times; the hotel first thought the issue was the staffing process. Initial assumption: the issue was staff efficiency. Real problem: guests wanted a more seamless and personalized experience, including digital check-in and clearer communication. Key takeaways: 01 Observe. Spend time with end users in their real environment. 02 Define the problem. Identify unmet needs and key pain points. 03 Generate insights. Look for patterns and deeper human needs. 04 Design and test; create and test solutions with real users.",
-          "id": "Dengan menempatkan pengguna akhir di pusat perhatian, kita dapat menemukan kebutuhan yang belum terpenuhi yang seharusnya menjadi fokus dalam desain. Apa pun peran atau industri Anda, memahami bagaimana pengguna akhir berpikir dan merasa serta mendefinisikan masalah yang tepat dapat menghemat waktu dan menghasilkan solusi yang lebih baik. Mulai dari manusia nyata. Pergi lebih dari sekadar asumsi; pahami apa yang dilakukan, dipikirkan, dirasakan, dan menjadi tantangan bagi pengguna akhir. Temukan masalah sebenarnya. Cari kebutuhan yang belum terpenuhi dan akar penyebabnya, bukan hanya gejala yang terlihat. Rancang solusi yang lebih baik, dengan memecahkan masalah yang tepat, kita dapat menciptakan solusi yang lebih relevan, efektif, dan berdampak. Pemerintahan, meninjau ulang layanan pengantaran makanan untuk lansia: sebuah layanan pengantaran makanan pemerintah menemukan bahwa banyak penerima lansia tidak mengonsumsi makanan yang diberikan. Asumsi awal: masalahnya adalah menu makanan. Masalah sebenarnya: masalah sebenarnya adalah isolasi sosial; mereka membutuhkan interaksi manusia, bukan hanya makanan. Makanan & minuman, memahami preferensi pelanggan: penjualan milkshake stagnan di rantai makanan cepat saji global; tim awalnya mengira masalahnya ada pada rasa. Asumsi awal: masalahnya adalah tekstur dan pilihan rasa. Masalah sebenarnya: pelanggan menginginkan pilihan yang lebih mengenyangkan, tahan lama, dan mudah dikonsumsi saat bepergian. Perhotelan, merancang ulang pengalaman menginap di hotel: tamu mengeluh tentang waktu check-in yang lama; pihak hotel awalnya mengira masalahnya ada pada proses staf. Asumsi awal: masalahnya adalah efisiensi staf. Masalah sebenarnya: tamu menginginkan pengalaman yang lebih mulus dan personal, termasuk check-in digital dan komunikasi yang lebih jelas. Tahapan Design Thinking: 01 Amati (Empati), luangkan waktu dengan pengguna akhir di lingkungan nyata mereka. 02 Definisikan masalah. Identifikasi kebutuhan yang belum terpenuhi dan titik-titik masalah utama. 03 Hasilkan ide, kembangkan banyak ide kreatif berdasarkan wawasan yang didapat. 04 Rancang dan uji; buat dan uji solusi bersama pengguna nyata."
+          "en": "By putting end users at the center, you can uncover unmet needs that should be the focus of your design. No matter your role or industry, understanding how end users feel and defining the right problem saves time and improves the solution. Start with real people. Go beyond assumptions; understand what end users do, think, feel, and struggle with. Find the real problem. Look for unmet needs and root causes, not just surface-level symptoms. Design better solutions. By solving the right problem, you can create solutions that are more relevant, effective, and impactful. Government: rethinking meal delivery for the elderly: a government-run meal delivery service noticed that many elderly recipients were not eating the provided meals. Initial assumption: the issue was the food menu. Real problem: the real issue was social isolation; they needed human interaction, not just food. Food & beverage: understanding customer preferences: milkshake sales were flat at a global fast food chain; the team initially assumed the flavors were the problem. Initial assumption: the issue was the texture and flavor options. Real problem: customers wanted a more filling, long-lasting, and easy-to-eat option while on the go. Hospitality: redesigning the hotel experience: guests complained about long check-in times; the hotel first thought the issue was the staffing process. Initial assumption: the issue was staff efficiency. Real problem: guests wanted a more seamless and personalized experience, including digital check-in and clearer communication. Key takeaways: 01 Observe. Spend time with end users in their real environment. 02 Define the problem. Identify unmet needs and key pain points. 03 Generate insights. Look for patterns and deeper human needs. 04 Design and test. Create and test solutions with real users.",
+          "id": "Dengan menempatkan pengguna akhir di pusat, kamu bisa menemukan kebutuhan yang belum terpenuhi yang seharusnya menjadi fokus rancanganmu. Apa pun peran atau industrimu, memahami perasaan pengguna akhir dan mendefinisikan masalah yang tepat menghemat waktu dan memperbaiki solusinya. Mulai dari orang sungguhan. Lampaui asumsi; pahami apa yang dilakukan, dipikirkan, dirasakan, dan dikeluhkan pengguna akhir. Temukan masalah yang sebenarnya. Cari kebutuhan yang belum terpenuhi dan akar masalahnya, bukan sekadar gejala di permukaan. Rancang solusi yang lebih baik. Dengan memecahkan masalah yang tepat, kamu bisa menciptakan solusi yang lebih relevan, efektif, dan berdampak. Pemerintah: memikirkan ulang layanan antar makanan untuk lansia. Sebuah layanan antar makanan yang dijalankan pemerintah menyadari bahwa banyak penerima lansia tidak memakan makanan yang diberikan. Asumsi awal: masalahnya ada pada menu makanannya. Masalah yang sebenarnya: kesepian; mereka butuh interaksi dengan manusia, bukan hanya makanan. Makanan dan minuman: memahami preferensi pelanggan. Penjualan milkshake di sebuah jaringan restoran cepat saji global stagnan; tim awalnya mengira rasanya yang bermasalah. Asumsi awal: masalahnya ada pada tekstur dan pilihan rasa. Masalah yang sebenarnya: pelanggan ingin pilihan yang lebih mengenyangkan, tahan lama, dan mudah dinikmati di perjalanan. Perhotelan: merancang ulang pengalaman menginap. Tamu mengeluhkan proses check-in yang lama; hotel awalnya mengira masalahnya ada pada proses kerja staf. Asumsi awal: masalahnya ada pada efisiensi staf. Masalah yang sebenarnya: tamu menginginkan pengalaman yang lebih mulus dan personal, termasuk check-in digital dan komunikasi yang lebih jelas. Poin penting: 01 Amati. Habiskan waktu bersama pengguna akhir di lingkungan nyata mereka. 02 Definisikan masalahnya. Kenali kebutuhan yang belum terpenuhi dan titik masalah utamanya. 03 Hasilkan wawasan. Cari pola dan kebutuhan manusia yang lebih dalam. 04 Rancang dan uji. Buat dan uji solusi bersama pengguna sungguhan."
          }
         },
         {
          "title": {
-          "en": "Applying design thinking, for every role",
-          "id": "Menerapkan Design Thinking, untuk semua peran"
+          "en": "Applying design thinking in every role",
+          "id": "Menerapkan design thinking di setiap peran"
          },
          "text": {
           "en": "You might be thinking that design thinking is only for people in creative roles. Not true! No matter what your role or industry is, you can apply the design thinking process to improve your users' experience. Explore the examples on the right to see how people from different roles use design thinking in their daily work, even if their roles are not focused on design. Customer service representative: “When I'm on the phone with customers, I take notes on all the things they wish for. Every month, my boss asks our team to share what we're hearing. She uses these ideas to make our processes better.” Impact of using design thinking: identifies customer needs directly; improves service processes based on real input; creates a more consistent and better customer experience. Finance analyst: “I see the colleagues who read my financial reports as end users. Understanding the information they want and need helps me deliver a more targeted and relevant analysis.” Impact: understands user needs (internal stakeholders); presents analysis that is more relevant and easier to understand; supports better and faster decision-making. Recruiter: “I think of job applicants as end users. Personas help me understand who the applicants are and what motivates them. Thinking of our job application process as a user journey helped me create a better experience for our applicants and get them excited to work here.” Impact: understands candidate needs and motivations; designs a more relevant and efficient recruitment process; creates a more positive candidate experience and stronger talent attraction.",
-          "id": "Anda mungkin berpikir bahwa design thinking hanya untuk orang yang bekerja di bidang kreatif. Tidak benar! Apa pun peran Anda, Anda dapat menerapkan proses design thinking untuk meningkatkan pengalaman pengguna (user) Anda. Lihat contoh di samping untuk melihat bagaimana orang-orang dari berbagai peran menggunakan design thinking dalam pekerjaan mereka sehari-hari. Perwakilan layanan pelanggan: “Saat saya berbicara dengan pelanggan, saya mencatat semua hal yang mereka inginkan. Setiap bulan, atasan saya meminta tim kami untuk membagikan apa yang kami dengar. Saya menggunakan ide-ide ini untuk membuat proses kami lebih baik.” Dampak menggunakan design thinking: mengidentifikasi kebutuhan pelanggan secara langsung; meningkatkan proses layanan berdasarkan masukan nyata; pengalaman pelanggan yang lebih baik dan lebih konsisten. Analis keuangan: “Saya melihat rekan-rekan yang membaca laporan keuangan saya sebagai pengguna akhir. Memahami informasi yang mereka butuhkan dan bagaimana mereka menggunakannya untuk mengambil keputusan, membantu saya memberikan analisis yang lebih relevan dan tepat sasaran.” Dampak: memahami kebutuhan pengguna informasi (rekan kerja/manajemen); menyajikan analisis yang lebih relevan dan mudah dipahami; mendukung pengambilan keputusan yang lebih baik. Rekruter: “Saya menganggap kandidat sebagai pengguna akhir. Dengan memahami siapa mereka, apa yang memotivasi mereka, dan apa yang mereka butuhkan, saya dapat merancang proses rekrutmen yang lebih baik dan menciptakan pengalaman yang positif bagi kandidat kami.” Dampak: memahami kebutuhan dan motivasi kandidat; merancang proses rekrutmen yang lebih relevan dan efisien; pengalaman kandidat yang lebih positif dan meningkatkan daya tarik talenta."
+          "id": "Mungkin kamu berpikir design thinking hanya untuk orang di peran kreatif. Tidak benar! Apa pun peran atau industrimu, kamu bisa menerapkan proses design thinking untuk memperbaiki pengalaman penggunamu. Jelajahi contoh di sebelah kanan untuk melihat bagaimana orang dari berbagai peran memakai design thinking dalam pekerjaan sehari-hari, meski perannya tidak berfokus pada desain. Petugas layanan pelanggan: \"Saat menelepon pelanggan, aku mencatat semua hal yang mereka harapkan. Setiap bulan, atasanku meminta tim kami membagikan apa yang kami dengar. Ia memakai ide-ide ini untuk memperbaiki proses kami.\" Dampak memakai design thinking: mengenali kebutuhan pelanggan secara langsung; memperbaiki proses layanan berdasarkan masukan nyata; menciptakan pengalaman pelanggan yang lebih konsisten dan lebih baik. Analis keuangan: \"Aku melihat rekan-rekan yang membaca laporan keuanganku sebagai pengguna akhir. Memahami informasi yang mereka inginkan dan butuhkan membantuku memberikan analisis yang lebih terarah dan relevan.\" Dampak: memahami kebutuhan pengguna (pemangku kepentingan internal); menyajikan analisis yang lebih relevan dan mudah dipahami; mendukung pengambilan keputusan yang lebih baik dan cepat. Perekrut: \"Aku memandang pelamar kerja sebagai pengguna akhir. Persona membantuku memahami siapa pelamarnya dan apa yang memotivasi mereka. Memandang proses lamaran kerja kami sebagai perjalanan pengguna membantuku menciptakan pengalaman yang lebih baik bagi pelamar dan membuat mereka bersemangat bekerja di sini.\" Dampak: memahami kebutuhan dan motivasi kandidat; merancang proses rekrutmen yang lebih relevan dan efisien; menciptakan pengalaman kandidat yang lebih positif dan daya tarik talenta yang lebih kuat."
          }
         },
         {
          "title": {
-          "en": "New ways of working, Agile",
-          "id": "Cara baru dalam bekerja, Agile"
+          "en": "New ways of working: Agile",
+          "id": "Cara kerja baru: Agile"
          },
          "text": {
-          "en": "Once you've identified the right problems and have a deeper understanding of your end user, what are the best ways to create and test your ideas? Agile provides principles and methodologies that help organizations respond rapidly to changing conditions. At the core of Agile are “sprints,” short cycles that speed innovation. Understand the problem → test ideas quickly → deliver real impact. How is Agile different from traditional ways of working? Traditional way of working, linear, rigid, and slower: detailed planning upfront (plan everything before execution); fixed scope (changes are difficult and time-consuming); long development cycles (deliver results after a long period); higher risk of misalignment (may not fully meet user needs). Agile way of working, iterative, flexible, and faster: start with user needs (focus on solving the right problem); iterative development (build, test, and learn in short cycles, or sprints); adapt quickly (be responsive to changing conditions); deliver meaningful impact (continuous improvement based on real user feedback). How Agile works. The sprint cycle: sprints are short, time-boxed cycles (typically 1–4 weeks) to turn ideas into real solutions, test with users, and continuously improve. 1. Plan, define the problem and set goals for the sprint. 2. Build, develop a simple solution (prototype or MVP). 3. Test. Get feedback from real users. 4. Learn, analyze insights and identify improvements. 5. Iterate, refine and scale what works. Repeat through multiple sprints.",
-          "id": "Setelah Anda mengidentifikasi masalah yang tepat dan memiliki pemahaman yang lebih mendalam tentang pengguna akhir Anda, apa cara terbaik untuk menciptakan dan menguji ide-ide Anda? Agile menyediakan prinsip dan metodologi yang membantu organisasi merespons dengan cepat terhadap perubahan kondisi. Inti dari Agile adalah “sprint”, yaitu siklus singkat yang mempercepat inovasi. Memahami masalahnya → menguji ide dengan cepat → memberikan dampak nyata. Apa perbedaan Agile dengan cara kerja tradisional? Cara kerja tradisional, linear, kaku, dan lebih lambat: perencanaan yang detail di awal (merencanakan semuanya sebelum eksekusi); ruang lingkup yang tetap (perubahan sulit dan memakan waktu); siklus pengembangan yang panjang (hasil diberikan setelah periode yang lama); risiko ketidaksesuaian yang lebih tinggi (mungkin tidak sepenuhnya memenuhi kebutuhan pengguna). Cara kerja Agile, iteratif, fleksibel, dan lebih cepat: dimulai dari kebutuhan pengguna (fokus pada pemecahan masalah yang tepat); pengembangan secara iteratif (membangun, menguji, dan belajar dalam siklus singkat, atau sprint); mudah beradaptasi (responsif terhadap perubahan kondisi); memberikan dampak yang lebih nyata (peningkatan berkelanjutan berdasarkan umpan balik pengguna yang nyata). Bagaimana Agile bekerja. Siklus sprint: sprint adalah siklus singkat dan terbatas waktu (biasanya 1–4 minggu) untuk mengubah ide menjadi solusi nyata, menguji dengan pengguna, dan terus melakukan perbaikan. 1. Rencanakan, definisikan masalah dan tetapkan tujuan untuk sprint. 2. Bangun, kembangkan prototipe atau solusi sederhana (MVP). 3. Uji, dapatkan umpan balik dari pengguna nyata. 4. Pelajari, analisis wawasan dan identifikasi perbaikan. 5. Iterasi, sempurnakan dan perluas solusi yang efektif. Ulangi melalui beberapa sprint."
+          "en": "Once you've identified the right problems and have a deeper understanding of your end user, what are the best ways to create and test your ideas? Agile provides principles and methodologies that help organizations respond rapidly to changing conditions. At the core of Agile are “sprints,” short cycles that speed innovation. Understand the problem → test ideas quickly → deliver real impact. How is Agile different from traditional ways of working? Traditional way of working (linear, rigid, and slower): detailed planning upfront (plan everything before execution); fixed scope (changes are difficult and time-consuming); long development cycles (deliver results after a long period); higher risk of misalignment (may not fully meet user needs). Agile way of working (iterative, flexible, and faster): start with user needs (focus on solving the right problem); iterative development (build, test, and learn in short cycles, or sprints); adapt quickly (be responsive to changing conditions); deliver meaningful impact (continuous improvement based on real user feedback). How Agile works. The sprint cycle: sprints are short, time-boxed cycles (typically 1–4 weeks) to turn ideas into real solutions, test with users, and continuously improve. 1. Plan: define the problem and set goals for the sprint. 2. Build: develop a simple solution (prototype or MVP). 3. Test. Get feedback from real users. 4. Learn: analyze insights and identify improvements. 5. Iterate: refine and scale what works. Repeat through multiple sprints.",
+          "id": "Setelah kamu menemukan masalah yang tepat dan memahami pengguna akhirmu lebih dalam, apa cara terbaik untuk membuat dan menguji idemu? Agile menyediakan prinsip dan metode yang membantu organisasi menanggapi perubahan keadaan dengan cepat. Inti Agile adalah \"sprint\", siklus pendek yang mempercepat inovasi. Pahami masalahnya → uji ide dengan cepat → berikan dampak nyata. Apa bedanya Agile dengan cara kerja tradisional? Cara kerja tradisional (linear, kaku, dan lebih lambat): perencanaan detail di awal (merencanakan semuanya sebelum dijalankan); cakupan yang tetap (perubahan sulit dan makan waktu); siklus pengembangan yang panjang (hasil baru muncul setelah waktu lama); risiko tidak selaras yang lebih tinggi (mungkin tidak sepenuhnya memenuhi kebutuhan pengguna). Cara kerja Agile (berulang, fleksibel, dan lebih cepat): mulai dari kebutuhan pengguna (fokus memecahkan masalah yang tepat); pengembangan berulang (bangun, uji, dan belajar dalam siklus pendek, atau sprint); beradaptasi dengan cepat (tanggap terhadap perubahan keadaan); berikan dampak yang berarti (perbaikan terus-menerus berdasarkan masukan pengguna sungguhan). Cara kerja Agile. Siklus sprint: sprint adalah siklus pendek berbatas waktu (biasanya 1–4 minggu) untuk mengubah ide menjadi solusi nyata, mengujinya bersama pengguna, dan terus memperbaikinya. 1. Rencanakan: definisikan masalahnya dan tetapkan sasaran sprint. 2. Bangun: kembangkan solusi sederhana (prototipe atau MVP). 3. Uji. Dapatkan masukan dari pengguna sungguhan. 4. Pelajari: analisis wawasannya dan kenali perbaikan yang diperlukan. 5. Ulangi: perhalus dan perluas yang berhasil. Ulangi lewat beberapa sprint."
          }
         }
        ]
@@ -17267,8 +17267,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Video pelajaran"
        },
        "intro": {
-        "en": "The toolkit's last slide asked you to watch this film with one digital project in mind. The most recent one you were part of, or saw others lead. The four anchors, fundamentals, the learning loop, public evidence, the sensing network. Are a stance for a world where the tools keep changing; the film shows that world from the other side: not what you must keep up with, but what the people who use digital, data and new ways of working are already building, farms that feed more people, supply chains at a scale never reached before, medicine reaching patients who were out of reach, and the part it hands to you. Two and a half minutes before the check. Listen for the three habits it names at the end; the check then asks what the fundamentals-first stance prescribes when the next tool arrives.",
-        "id": "Slide terakhir perangkat digital tadi memintamu menonton film ini dengan satu proyek digital di benakmu. Yang terbaru yang kamu ikuti, atau kamu lihat dipimpin orang lain. Empat jangkar, fondasi, putaran belajar, bukti publik, jaringan pengindra. Adalah sikap untuk dunia yang alatnya terus berubah; film ini memperlihatkan dunia itu dari sisi lain: bukan apa yang harus kamu kejar, melainkan apa yang sudah dibangun oleh orang-orang yang memakai digital, data, dan cara kerja baru. Ladang yang memberi makan lebih banyak orang, rantai pasok dalam skala yang belum pernah dicapai, obat yang sampai ke pasien yang dulu tak terjangkau, dan peran yang diserahkannya kepadamu. Dua setengah menit sebelum uji pemahaman. Simak tiga kebiasaan yang disebutkan di akhir film; uji pemahaman lalu menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat berikutnya tiba."
+        "en": "The toolkit's last slide asked you to watch this film with one digital project in mind: the most recent one you were part of, or saw others lead. The four anchors (fundamentals, the learning loop, public evidence, the sensing network) are a stance for a world where the tools keep changing; the film shows that world from the other side: not what you must keep up with, but what the people who use digital, data and new ways of working are already building (farms that feed more people, supply chains at a scale never reached before, medicine reaching patients who were out of reach), and the part it hands to you. Two and a half minutes before the check. Listen for the three habits it names at the end; the check then asks what the fundamentals-first stance prescribes when the next tool arrives.",
+        "id": "Slide terakhir perangkat digital memintamu menonton film ini sambil memikirkan satu proyek digital: proyek terbaru yang kamu ikuti, atau yang kamu lihat dipimpin orang lain. Empat jangkar (dasar-dasar, lingkaran belajar, bukti publik, jaringan pemantau) adalah sikap untuk dunia yang alat-alatnya terus berubah; film ini memperlihatkan dunia itu dari sisi sebaliknya: bukan apa yang harus kamu kejar, melainkan apa yang sudah dibangun orang-orang yang memakai digital, data, dan cara kerja baru (pertanian yang memberi makan lebih banyak orang, rantai pasok dalam skala yang belum pernah tercapai, layanan kesehatan yang menjangkau pasien yang sebelumnya tak terjangkau), serta peran yang diserahkannya kepadamu. Dua setengah menit sebelum cek pemahaman. Dengarkan tiga kebiasaan yang disebutkan di akhir; cek pemahaman kemudian menanyakan apa yang dianjurkan sikap mendahulukan dasar-dasar ketika alat berikutnya datang."
        },
        "videos": [
         {
@@ -17292,12 +17292,12 @@ window.MT_LMS['the-map'] = {
         },
         "body": [
          {
-          "en": "The film closes on three habits; stay curious, take opportunities to learn new skills, keep seeking new possibilities. They are the four anchors in other words: curiosity is the sensing network and the fundamentals question, learning new skills is the loop, and seeking possibilities is the project that becomes public evidence.",
-          "id": "Film ini ditutup dengan tiga kebiasaan; tetap ingin tahu, mengambil kesempatan mempelajari keterampilan baru, terus mencari kemungkinan baru. Itu adalah empat jangkar dalam kata lain: rasa ingin tahu adalah jaringan pengindra dan pertanyaan fondasi, mempelajari keterampilan baru adalah putaran belajar, dan mencari kemungkinan adalah proyek yang menjadi bukti publik."
+          "en": "The film closes on three habits: stay curious, take opportunities to learn new skills, keep seeking new possibilities. They are the four anchors in other words: curiosity is the sensing network and the fundamentals question, learning new skills is the loop, and seeking possibilities is the project that becomes public evidence.",
+          "id": "Film ini ditutup dengan tiga kebiasaan: tetap penasaran, ambil kesempatan untuk mempelajari keterampilan baru, dan terus mencari kemungkinan baru. Ketiganya adalah empat jangkar dengan kata-kata lain: rasa penasaran adalah jaringan pemantau dan pertanyaan tentang dasar-dasar, mempelajari keterampilan baru adalah lingkarannya, dan mencari kemungkinan adalah proyek yang menjadi bukti publik."
          },
          {
-          "en": "A slide and a second short film stand between this film and the knowledge check, Opportunities Ahead, with two reflection questions, and the film made to follow it. The check then asks what the fundamentals-first stance prescribes when a new tool sweeps your industry. Answer it with the film in mind: the people it celebrates did not wait for the tool to settle; they put it through a real problem.",
-          "id": "Satu slide dan satu film pendek lagi berdiri di antara film ini dan uji pemahaman, Peluang di Masa Depan, dengan dua pertanyaan refleksi, dan film yang dibuat untuk mengikutinya. Uji pemahaman lalu menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat baru melanda industrimu. Jawablah dengan film ini di benakmu: orang-orang yang dirayakannya tidak menunggu alat itu mapan; mereka mengujinya pada masalah yang nyata."
+          "en": "A slide and a second short film stand between this film and the knowledge check: Opportunities Ahead, with two reflection questions, and the film made to follow it. The check then asks what the fundamentals-first stance prescribes when a new tool sweeps your industry. Answer it with the film in mind: the people it celebrates did not wait for the tool to settle; they put it through a real problem.",
+          "id": "Satu slide dan satu film pendek lagi berada di antara film ini dan cek pemahaman: Peluang di Depan, dengan dua pertanyaan renungan, dan film yang dibuat sebagai lanjutannya. Cek pemahaman lalu menanyakan apa yang dianjurkan sikap mendahulukan dasar-dasar ketika sebuah alat baru melanda industrimu. Jawablah sambil mengingat film ini: orang-orang yang dirayakannya tidak menunggu alatnya mapan; mereka langsung mengujinya pada masalah yang nyata."
          }
         ]
        }
@@ -17310,8 +17310,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton terakhir · Video pelajaran"
        },
        "intro": {
-        "en": "The slide above asked you to watch this video with two questions in mind. Here it is: two minutes on a future that is uncertain but certainly digital, self-driving cars built from sensors, cloud storage and AI; the lives and carbon they could save, and on what stays the same as change speeds up: the human abilities that decide how much autonomy a car gets and who is accountable. It then names the digital toolkit this lesson has been assembling, knowledge, skills, and three mindsets: curiosity, iteration, abundance, and ends with the question the knowledge check picks up. The narration is in English with English and Bahasa Indonesia subtitles.",
-        "id": "Slide di atas memintamu menonton video ini dengan dua pertanyaan di benakmu. Inilah videonya: dua menit tentang masa depan yang tidak pasti tetapi pasti digital, mobil tanpa pengemudi yang dibangun dari sensor, penyimpanan awan, dan AI; nyawa dan karbon yang bisa diselamatkannya, dan tentang apa yang tetap sama saat perubahan makin cepat: kemampuan manusia yang memutuskan seberapa besar otonomi sebuah mobil dan siapa yang bertanggung jawab. Film lalu menamai perangkat digital yang dirangkai pelajaran ini, pengetahuan, keterampilan, dan tiga pola pikir: rasa ingin tahu, iterasi, kelimpahan, dan ditutup dengan pertanyaan yang dilanjutkan uji pemahaman. Narasinya berbahasa Inggris dengan subtitel bahasa Inggris dan bahasa Indonesia."
+        "en": "The slide above asked you to watch this video with two questions in mind. Here it is: two minutes on a future that is uncertain but certainly digital (self-driving cars built from sensors, cloud storage and AI; the lives and carbon they could save), and on what stays the same as change speeds up: the human abilities that decide how much autonomy a car gets and who is accountable. It then names the digital toolkit this lesson has been assembling (knowledge, skills, and three mindsets: curiosity, iteration, abundance), and ends with the question the knowledge check picks up. The narration is in English with English and Bahasa Indonesia subtitles.",
+        "id": "Slide di atas memintamu menonton video ini dengan dua pertanyaan di kepala. Inilah dia: dua menit tentang masa depan yang tidak pasti tetapi pasti digital (mobil swakemudi yang dibangun dari sensor, penyimpanan cloud, dan AI; nyawa dan karbon yang bisa diselamatkannya), dan tentang apa yang tetap sama ketika perubahan makin cepat: kemampuan manusia yang menentukan seberapa besar kemandirian sebuah mobil dan siapa yang bertanggung jawab. Video ini lalu menyebut perangkat digital yang sedang dirakit pelajaran ini (pengetahuan, keterampilan, dan tiga pola pikir: rasa penasaran, iterasi, kelimpahan), dan ditutup dengan pertanyaan yang diangkat lagi di cek pemahaman. Narasinya berbahasa Inggris dengan subtitel bahasa Inggris dan Bahasa Indonesia."
        },
        "videos": [
         {
@@ -17320,7 +17320,7 @@ window.MT_LMS['the-map'] = {
          "dur": "2:11",
          "title": {
           "en": "Opportunities ahead",
-          "id": "Peluang di masa depan"
+          "id": "Peluang di depan"
          },
          "captions": {
           "en": "../../assets/lms/the-map/opportunities-ahead-1-en.vtt",
@@ -17331,16 +17331,16 @@ window.MT_LMS['the-map'] = {
        "outro": {
         "title": {
          "en": "Curiosity, iteration, abundance: and the four anchors",
-         "id": "Rasa ingin tahu, iterasi, kelimpahan, dan empat jangkar"
+         "id": "Rasa penasaran, iterasi, kelimpahan: dan empat jangkar"
         },
         "body": [
          {
-          "en": "The film's three mindsets are the four anchors seen from the inside. Curiosity, ask questions, challenge constraints, build on what you know, is the fundamentals question and the sensing network. Iteration, treat what you do as improvable with feedback, is the learning loop and the quarterly artefact. Abundance, seek opportunities, share what you know, learn with your community, is the network fed in both directions.",
-          "id": "Tiga pola pikir dalam film adalah empat jangkar dilihat dari dalam. Rasa ingin tahu, ajukan pertanyaan, pertanyakan batasan, bangun di atas yang kamu ketahui, adalah pertanyaan fondasi dan jaringan pengindra. Iterasi, perlakukan yang kamu kerjakan sebagai sesuatu yang bisa diperbaiki dengan umpan balik, adalah putaran belajar dan artefak per kuartal. Kelimpahan, cari peluang, bagikan yang kamu ketahui, belajar bersama komunitasmu, adalah jaringan yang hidup dari dua arah."
+          "en": "The film's three mindsets are the four anchors seen from the inside. Curiosity (ask questions, challenge constraints, build on what you know) is the fundamentals question and the sensing network. Iteration (treat what you do as improvable with feedback) is the learning loop and the quarterly artefact. Abundance (seek opportunities, share what you know, learn with your community) is the network fed in both directions.",
+          "id": "Tiga pola pikir dalam film ini adalah empat jangkar yang dilihat dari dalam. Rasa penasaran (bertanya, menantang batasan, membangun dari apa yang kamu tahu) adalah pertanyaan tentang dasar-dasar dan jaringan pemantau. Iterasi (memperlakukan apa yang kamu kerjakan sebagai sesuatu yang bisa diperbaiki dengan masukan) adalah lingkaran belajar dan karya per kuartal. Kelimpahan (mencari peluang, berbagi apa yang kamu tahu, belajar bersama komunitasmu) adalah jaringan yang diberi makan dari dua arah."
          },
          {
-          "en": "The film closed on a question: when unexpected change reaches your world, how will you answer the call to act, and what choices will you make? Three closing slides below turn that question on you, one app, device or service that changed your life, and what the source course means by digital, and then the knowledge check asks the same thing in one concrete case: a new AI tool sweeping your industry. Answer it as the person the film describes.",
-          "id": "Film ditutup dengan sebuah pertanyaan: saat perubahan tak terduga sampai ke duniamu, bagaimana kamu akan menjawab panggilan untuk bertindak, dan keputusan apa yang akan kamu ambil? Tiga slide penutup di bawah membalikkan pertanyaan itu kepadamu, satu aplikasi, perangkat, atau layanan yang mengubah hidupmu, dan apa yang dimaksud kursus sumbernya dengan digital. Lalu uji pemahaman menanyakan hal yang sama dalam satu kasus konkret: alat AI baru yang melanda industrimu. Jawablah sebagai orang yang digambarkan film itu."
+          "en": "The film closed on a question: when unexpected change reaches your world, how will you answer the call to act, and what choices will you make? Three closing slides below turn that question on you (one app, device or service that changed your life, and what the source course means by digital), and then the knowledge check asks the same thing in one concrete case: a new AI tool sweeping your industry. Answer it as the person the film describes.",
+          "id": "Film ini ditutup dengan sebuah pertanyaan: ketika perubahan tak terduga sampai ke duniamu, bagaimana kamu akan menjawab panggilan untuk bertindak, dan pilihan apa yang akan kamu buat? Tiga slide penutup di bawah mengarahkan pertanyaan itu kepadamu (satu aplikasi, perangkat, atau layanan yang mengubah hidupmu, dan apa yang dimaksud kursus sumber dengan digital), lalu cek pemahaman menanyakan hal yang sama dalam satu kasus konkret: alat AI baru yang melanda industrimu. Jawablah sebagai orang yang digambarkan film ini."
          }
         ]
        }
@@ -17353,8 +17353,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton terakhir · Video pelajaran"
        },
        "intro": {
-        "en": "The Data slide asked you to watch this video and notice how creative people and organizations are finding new ways to use data. Here it is: 46 seconds on old data, rows on spreadsheets, tied to one topic, and new data, an ecosystem where data begets other data, where insights come from unexpected places, and where people find uses for data that was made for something else. Its last line is the lesson's: it is not the data that transforms industries but the way creative people use it. Do any of these ways sound familiar to you?",
-        "id": "Slide Data tadi memintamu menonton video ini dan memperhatikan bagaimana orang-orang kreatif dan organisasi menemukan cara baru memakai data. Inilah videonya: 46 detik tentang data lama, baris-baris di spreadsheet, terikat pada satu topik, dan data baru, sebuah ekosistem tempat data melahirkan data lain, tempat wawasan datang dari tempat tak terduga, dan tempat orang menemukan kegunaan untuk data yang dibuat untuk hal lain. Kalimat terakhirnya adalah inti pelajaran ini: bukan datanya yang mentransformasi industri, melainkan cara orang-orang kreatif memakainya. Apakah ada cara tersebut yang terasa familiar bagimu?"
+        "en": "The Data slide asked you to watch this video and notice how creative people and organizations are finding new ways to use data. Here it is: 46 seconds on old data (rows on spreadsheets, tied to one topic) and new data (an ecosystem where data begets other data, where insights come from unexpected places, and where people find uses for data that was made for something else). Its last line is the lesson's: it is not the data that transforms industries but the way creative people use it. Do any of these ways sound familiar to you?",
+        "id": "Slide Data memintamu menonton video ini dan memperhatikan bagaimana orang dan organisasi yang kreatif menemukan cara-cara baru memakai data. Inilah dia: 46 detik tentang data lama (baris-baris di spreadsheet, terikat pada satu topik) dan data baru (sebuah ekosistem tempat data melahirkan data lain, tempat wawasan datang dari arah yang tak terduga, dan tempat orang menemukan kegunaan bagi data yang dibuat untuk tujuan lain). Kalimat terakhirnya adalah inti pelajaran ini: yang mengubah industri bukan datanya, melainkan cara orang-orang kreatif memakainya. Adakah cara yang terdengar akrab bagimu?"
        },
        "videos": [
         {
@@ -17363,7 +17363,7 @@ window.MT_LMS['the-map'] = {
          "dur": "0:46",
          "title": {
           "en": "How we use data now",
-          "id": "Bagaimana kita memakai data sekarang"
+          "id": "Cara kita memakai data sekarang"
          },
          "captions": {
           "en": "../../assets/lms/the-map/data-now-1-en.vtt",
@@ -17374,16 +17374,16 @@ window.MT_LMS['the-map'] = {
        "outro": {
         "title": {
          "en": "Not the data: the use",
-         "id": "Bukan datanya: melainkan pemakaiannya"
+         "id": "Bukan datanya: cara memakainya"
         },
         "body": [
          {
-          "en": "The film's closing line is the fundamentals-first stance in miniature: the tool, new data, the next AI model, whatever arrives this year, is not what creates value. The durable skill is seeing what it could be used for, which is the question the Data slide, the hotspot map and both films have been circling.",
-          "id": "Kalimat penutup film adalah sikap “fondasi lebih dulu” dalam bentuk mini: alatnya, data baru, model AI berikutnya, apa pun yang tiba tahun ini, bukan yang menciptakan nilai. Keterampilan yang tahan lama adalah melihat untuk apa ia bisa dipakai, pertanyaan yang terus diputari slide Data, peta jangkar, dan kedua film tadi."
+          "en": "The film's closing line is the fundamentals-first stance in miniature: the tool (new data, the next AI model, whatever arrives this year) is not what creates value. The durable skill is seeing what it could be used for, which is the question the Data slide, the hotspot map and both films have been circling.",
+          "id": "Kalimat penutup film ini adalah sikap mendahulukan dasar-dasar dalam bentuk mini: alatnya (data baru, model AI berikutnya, apa pun yang datang tahun ini) bukan yang menciptakan nilai. Keterampilan yang awet adalah melihat untuk apa alat itu bisa dipakai, dan itulah pertanyaan yang terus diputari slide Data, peta jangkar, dan kedua film."
          },
          {
-          "en": "Nine closing slides below show that use in practice, Victor and his streaming service, cloud, AI, connected devices, design thinking and Agile, and complete the digital toolkit, and a last film plays out the Agile slide. Then the knowledge check gives you one concrete case, a new AI tool sweeping your industry, and asks what the fundamentals-first stance prescribes. Answer it the way the film's creative people would.",
-          "id": "Sembilan slide penutup di bawah menunjukkan pemakaian itu dalam praktik, Victor dan layanan streamingnya, komputasi awan, AI, perangkat terhubung, design thinking, dan Agile, dan melengkapi perangkat digital, dan satu film terakhir memainkan slide Agile. Lalu uji pemahaman memberimu satu kasus konkret, alat AI baru yang melanda industrimu, dan menanyakan apa yang disarankan sikap “fondasi lebih dulu”. Jawablah seperti orang-orang kreatif dalam film itu."
+          "en": "Nine closing slides below show that use in practice (Victor and his streaming service, cloud, AI, connected devices, design thinking and Agile) and complete the digital toolkit, and a last film plays out the Agile slide. Then the knowledge check gives you one concrete case (a new AI tool sweeping your industry) and asks what the fundamentals-first stance prescribes. Answer it the way the film's creative people would.",
+          "id": "Sembilan slide penutup di bawah menunjukkan cara memakainya dalam praktik (Victor dan layanan streaming-nya, cloud, AI, perangkat terhubung, design thinking, dan Agile) dan melengkapi perangkat digitalnya, lalu satu film terakhir memperagakan slide Agile. Setelah itu cek pemahaman memberimu satu kasus konkret (alat AI baru yang melanda industrimu) dan menanyakan apa yang dianjurkan sikap mendahulukan dasar-dasar. Jawablah seperti orang-orang kreatif dalam film itu akan menjawab."
          }
         ]
        }
@@ -17396,8 +17396,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton terakhir · Video pelajaran"
        },
        "intro": {
-        "en": "The last slide set Agile against the traditional way of working in a table. This film plays it out: two teams, three months, the same sunglasses app. The traditional team designs, develops, deploys and tests in sequence and meets its customers once, at the end. The Agile team builds one feature per sprint and takes each one to the store, so it learns about photo naming at week three and zooming at the halfway mark. Watch for the line that sums up the difference, one feedback loop that came too late against many, and for the closing list of what Agile asks of a team. Three minutes, then the knowledge check.",
-        "id": "Slide terakhir tadi membandingkan Agile dengan cara kerja tradisional dalam sebuah tabel. Film ini memainkannya: dua tim, tiga bulan, aplikasi kacamata hitam yang sama. Tim tradisional mendesain, mengembangkan, menerapkan, dan menguji secara berurutan dan menemui pelanggannya sekali, di akhir. Tim Agile membangun satu fitur per sprint dan membawa masing-masing ke toko, sehingga mereka tahu soal penamaan foto di minggu ketiga dan soal zoom di pertengahan jalan. Simak kalimat yang merangkum perbedaannya, satu putaran umpan balik yang datang terlambat melawan banyak putaran, dan daftar penutup tentang apa yang diminta Agile dari sebuah tim. Tiga menit, lalu uji pemahaman."
+        "en": "The last slide set Agile against the traditional way of working in a table. This film plays it out: two teams, three months, the same sunglasses app. The traditional team designs, develops, deploys and tests in sequence and meets its customers once, at the end. The Agile team builds one feature per sprint and takes each one to the store, so it learns about photo naming at week three and zooming at the halfway mark. Watch for the line that sums up the difference (one feedback loop that came too late, against many) and for the closing list of what Agile asks of a team. Three minutes, then the knowledge check.",
+        "id": "Slide terakhir membandingkan Agile dengan cara kerja tradisional dalam sebuah tabel. Film ini memperagakannya: dua tim, tiga bulan, aplikasi kacamata hitam yang sama. Tim tradisional merancang, mengembangkan, meluncurkan, dan menguji secara berurutan, dan baru bertemu pelanggannya sekali, di akhir. Tim Agile membangun satu fitur di setiap sprint dan membawa masing-masing ke toko, sehingga mereka belajar soal penamaan foto di minggu ketiga dan soal fitur zoom di pertengahan jalan. Perhatikan kalimat yang merangkum perbedaannya (satu lingkaran masukan yang datang terlambat, melawan banyak lingkaran) dan daftar penutup tentang apa yang dituntut Agile dari sebuah tim. Tiga menit, lalu cek pemahaman."
        },
        "videos": [
         {
@@ -17417,16 +17417,16 @@ window.MT_LMS['the-map'] = {
        "outro": {
         "title": {
          "en": "Many feedback loops, not one",
-         "id": "Banyak putaran umpan balik, bukan satu"
+         "id": "Banyak lingkaran masukan, bukan satu"
         },
         "body": [
          {
-          "en": "Both teams shipped a working app. The traditional team's one feedback loop came too late to change anything; the Agile team's loops changed the product three times before launch. That is the learning loop from the hotspot map at team scale, one small project at a time, through real hands, logged and adjusted, and it is why the lesson keeps saying to metabolise a new tool through a project rather than a plan.",
-          "id": "Kedua tim mengirimkan aplikasi yang berfungsi. Satu putaran umpan balik tim tradisional datang terlambat untuk mengubah apa pun; putaran-putaran tim Agile mengubah produk tiga kali sebelum peluncuran. Itulah putaran belajar dari peta jangkar pada skala tim, satu proyek kecil pada satu waktu, lewat tangan sendiri, dicatat dan disesuaikan, dan itulah mengapa pelajaran ini terus berkata: cerna alat baru lewat proyek, bukan lewat rencana."
+          "en": "Both teams shipped a working app. The traditional team's one feedback loop came too late to change anything; the Agile team's loops changed the product three times before launch. That is the learning loop from the hotspot map at team scale (one small project at a time, through real hands, logged and adjusted), and it is why the lesson keeps saying to metabolise a new tool through a project rather than a plan.",
+          "id": "Kedua tim sama-sama meluncurkan aplikasi yang berfungsi. Satu-satunya lingkaran masukan tim tradisional datang terlalu terlambat untuk mengubah apa pun; lingkaran-lingkaran tim Agile mengubah produknya tiga kali sebelum peluncuran. Itulah lingkaran belajar dari peta jangkar dalam skala tim (satu proyek kecil setiap kali, lewat tangan sendiri, dicatat dan disesuaikan), dan karena itulah pelajaran ini terus mengatakan bahwa alat baru sebaiknya dicerna lewat proyek, bukan lewat rencana."
          },
          {
           "en": "The knowledge check below asks what the fundamentals-first stance prescribes when a new AI tool sweeps your industry. The Agile team already answered it: build one real thing with it, show it to someone, adjust.",
-          "id": "Uji pemahaman di bawah menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat AI baru melanda industrimu. Tim Agile sudah menjawabnya: bangun satu hal nyata dengannya, tunjukkan kepada seseorang, sesuaikan."
+          "id": "Cek pemahaman di bawah menanyakan apa yang dianjurkan sikap mendahulukan dasar-dasar ketika alat AI baru melanda industrimu. Tim Agile sudah menjawabnya: bangun satu hal nyata dengan alat itu, tunjukkan kepada seseorang, lalu sesuaikan."
          }
         ]
        }
@@ -17436,84 +17436,84 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "A new AI tool sweeps your target industry. What does the fundamentals-first stance prescribe?",
-        "id": "Sebuah alat AI baru melanda industri yang kamu incar. Apa yang disarankan sikap “fondasi lebih dulu”?"
+        "id": "Sebuah alat AI baru melanda industri yang kamu incar. Apa yang dianjurkan sikap mendahulukan dasar-dasar?"
        },
        "options": [
         {
          "en": "Ignore it: tools always pass",
-         "id": "Abaikan: alat selalu datang dan pergi"
+         "id": "Abaikan saja: alat selalu datang dan pergi"
         },
         {
          "en": "Learn it through a small real project while identifying which underlying skill it amplifies or replaces",
-         "id": "Pelajari lewat satu proyek kecil yang nyata, sambil mengenali keterampilan dasar mana yang ia perkuat atau gantikan"
+         "id": "Pelajari lewat satu proyek kecil yang nyata sambil mengenali keterampilan dasar mana yang diperkuat atau digantikannya"
         },
         {
          "en": "Drop current studies and retrain around the tool full-time",
-         "id": "Tinggalkan studi yang sedang berjalan dan belajar ulang penuh waktu seputar alat itu"
+         "id": "Tinggalkan kuliahmu sekarang dan belajar ulang sepenuhnya di seputar alat itu"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The loop metabolises new tools through projects; the fundamentals lens tells you how much of your stack it actually changes; usually less than the headlines claim.",
-        "id": "Putaran belajar mencerna alat baru lewat proyek; lensa fondasi memberitahumu seberapa banyak perangkat keterampilanmu yang benar-benar berubah; biasanya jauh lebih sedikit daripada yang diklaim berita."
+        "en": "The loop metabolises new tools through projects; the fundamentals lens tells you how much of your stack it actually changes, usually less than the headlines claim.",
+        "id": "Lingkaran belajar mencerna alat baru lewat proyek; kacamata dasar-dasar memberi tahu seberapa banyak bagian dari kemampuanmu yang benar-benar diubahnya, biasanya lebih sedikit dari klaim berita utama."
        }
       },
       {
        "q": {
         "en": "Which reaction to AI best fits a realistic optimist?",
-        "id": "Reaksi terhadap AI mana yang paling cocok dengan optimis realistis?"
+        "id": "Reaksi mana terhadap AI yang paling cocok dengan seorang optimis yang realistis?"
        },
        "options": [
         {
          "en": "“AI will do everything, so I don't need to study”",
-         "id": "“AI akan melakukan segalanya, jadi aku tidak perlu belajar”"
+         "id": "\"AI akan mengerjakan semuanya, jadi aku tidak perlu belajar\""
         },
         {
          "en": "“AI is hype; it won't touch my field”",
-         "id": "“AI cuma hype; tidak akan menyentuh bidangku”"
+         "id": "\"AI cuma heboh sesaat; bidangku tidak akan tersentuh\""
         },
         {
          "en": "“Some tasks in my target role are exposed; I'll test where AI helps, strengthen what it can't do, and get good at checking it”",
-         "id": "“Beberapa tugas di peran targetku terpapar; aku akan menguji di mana AI membantu, memperkuat yang tidak bisa dilakukannya, dan mahir mengeceknya”"
+         "id": "\"Sebagian tugas di peran yang kuincar terpapar AI; aku akan menguji di mana AI membantu, memperkuat apa yang tidak bisa dilakukannya, dan menjadi mahir memeriksa hasilnya\""
         },
         {
          "en": "“There's nothing I can do”",
-         "id": "“Tidak ada yang bisa kulakukan”"
+         "id": "\"Tidak ada yang bisa kulakukan\""
         }
        ],
        "correct": 2,
        "why": {
         "en": "It sees the risk and acts on it with evidence.",
-        "id": "Ia melihat risikonya dan bertindak dengan bukti."
+        "id": "Reaksi itu melihat risikonya dan menanggapinya dengan bukti."
        }
       },
       {
        "q": {
         "en": "Your team will adopt a new workflow. A senior says, “The last system failed too.” Best first response?",
-        "id": "Timmu akan mengadopsi alur kerja baru. Seorang senior berkata, “Sistem yang lalu juga gagal.” Respons pertama terbaik?"
+        "id": "Timmu akan memakai alur kerja baru. Seorang senior berkata, \"Sistem yang dulu juga gagal.\" Tanggapan pertama terbaik?"
        },
        "options": [
         {
          "en": "Repeat the benefits more firmly",
-         "id": "Ulangi manfaatnya lebih tegas"
+         "id": "Ulangi manfaatnya dengan lebih tegas"
         },
         {
          "en": "Report them as a resister",
-         "id": "Laporkan mereka sebagai penentang"
+         "id": "Laporkan dia sebagai penghambat"
         },
         {
          "en": "Ask what went wrong last time and what they're worried about now",
-         "id": "Tanyakan apa yang salah waktu itu dan apa yang mereka khawatirkan sekarang"
+         "id": "Tanyakan apa yang salah waktu itu dan apa yang ia khawatirkan sekarang"
         },
         {
          "en": "Ignore them and work with supporters",
-         "id": "Abaikan mereka dan bekerja dengan pendukung"
+         "id": "Abaikan dia dan bekerja dengan para pendukung saja"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Pull, don't push. Questions surface real concerns and context.",
-        "id": "Tarik, jangan dorong. Pertanyaan memunculkan kekhawatiran dan konteks yang nyata."
+        "id": "Tarik, jangan dorong. Pertanyaan memunculkan kekhawatiran dan konteks yang sebenarnya."
        }
       },
       {
@@ -17524,46 +17524,46 @@ window.MT_LMS['the-map'] = {
        "options": [
         {
          "en": "Post your frustration publicly",
-         "id": "Posting frustrasimu di depan umum"
+         "id": "Unggah kekesalanmu di media sosial"
         },
         {
          "en": "Separate facts from interpretations and take stock of what has and hasn't changed",
-         "id": "Pisahkan fakta dari tafsiran dan inventarisasi apa yang berubah dan tidak"
+         "id": "Pisahkan fakta dari tafsiran, lalu periksa apa yang berubah dan apa yang tidak"
         },
         {
          "en": "Wait for things to go back to normal",
-         "id": "Tunggu keadaan kembali normal"
+         "id": "Tunggu sampai keadaan kembali normal"
         },
         {
          "en": "Resign immediately",
-         "id": "Mengundurkan diri segera"
+         "id": "Langsung mengundurkan diri"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The change steps start by separating thinking from events; “back to normal” ignores the new-normal premise.",
-        "id": "Langkah perubahan dimulai dengan memisahkan pikiran dari peristiwa; “kembali normal” mengabaikan premis normal baru."
+        "id": "Langkah-langkah menghadapi perubahan dimulai dengan memisahkan pikiran dari peristiwa; \"kembali normal\" mengabaikan premis bahwa perubahan adalah kenormalan baru."
        }
       }
      ],
      "outcomeDetail": {
       "en": "By the end you can name the durable fundamentals beneath your field's tools, run a weekly learning loop, read your own reaction to change honestly, cope with a change you didn't choose, and contribute usefully to an organisation's change from a junior position.",
-      "id": "Di akhir pelajaran kamu bisa menyebut fondasi tahan lama di balik alat-alat bidangmu, menjalankan putaran belajar mingguan, membaca reaksimu sendiri terhadap perubahan dengan jujur, menghadapi perubahan yang tidak kamu pilih, dan berkontribusi secara berguna pada perubahan organisasi dari posisi junior."
+      "id": "Di akhir pelajaran ini, kamu bisa menyebutkan dasar-dasar yang awet di balik alat-alat di bidangmu, menjalankan lingkaran belajar mingguan, membaca reaksimu sendiri terhadap perubahan dengan jujur, menghadapi perubahan yang tidak kamu pilih, dan berkontribusi dengan berguna dalam perubahan organisasi dari posisi junior."
      },
      "takeawaysLead": {
-      "en": "Three things to carry into 5.6, where we look at the change that's moving fastest, AI, task by task:",
-      "id": "Tiga hal untuk dibawa ke 5.6, tempat kita melihat perubahan yang bergerak paling cepat, AI, tugas demi tugas:"
+      "en": "Three things to carry into 5.6, where we look at the change that's moving fastest (AI), task by task:",
+      "id": "Tiga hal untuk dibawa ke 5.6, tempat kita membedah perubahan yang bergerak paling cepat (AI) tugas demi tugas:"
      },
      "tool": {
       "id": "plan",
       "mode": "plan",
       "title": {
        "en": "Relevance & Change Kit: Plan section 6",
-       "id": "Perangkat Relevansi & Perubahan: Bagian 6 Rencana"
+       "id": "Perangkat Relevansi & Perubahan: Rencana bagian 6"
       },
       "body": {
        "en": "Edit your fundamentals, set up your learning loop and future scan, and take a change-readiness reading. Saved on this device.",
-       "id": "Sunting fondasimu, siapkan putaran belajar dan pemindaian masa depanmu, dan ambil pembacaan kesiapan berubah. Disimpan di perangkat ini."
+       "id": "Sunting dasar-dasarmu, siapkan lingkaran belajar dan pemindaian masa depanmu, lalu ukur kesiapanmu menghadapi perubahan. Tersimpan di perangkat ini."
       },
       "sections": [
        {
@@ -17574,18 +17574,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "Fundamentals, the loop, and one real change.",
-         "id": "Fondasi, putaran, dan satu perubahan nyata."
+         "id": "Dasar-dasar, lingkaran belajar, dan satu perubahan nyata."
         },
         "fields": [
          {
           "id": "fundamentals",
           "label": {
            "en": "Three tools I use → the fundamental beneath each (mark the one under 30% of my learning time)",
-           "id": "Tiga alat yang kupakai → fondasi di balik masing-masing (tandai yang di bawah 30% waktu belajarku)"
+           "id": "Tiga alat yang kupakai → dasar di balik masing-masing (tandai yang mendapat kurang dari 30% waktu belajarku)"
           },
           "hint": {
            "en": "e.g. Power BI → statistics and clear charts (*) · Excel → data cleaning logic · Canva → audience and structure",
-           "id": "mis. Power BI → statistika dan grafik yang jelas (*) · Excel → logika pembersihan data · Canva → audiens dan struktur"
+           "id": "mis. Power BI → statistika dan grafik yang jelas (*) · Excel → logika membersihkan data · Canva → audiens dan struktur"
           },
           "rows": 3
          },
@@ -17593,11 +17593,11 @@ window.MT_LMS['the-map'] = {
           "id": "loop",
           "label": {
            "en": "My learning loop: one source · one project · log location · defended hour · 30-min future scan slot",
-           "id": "Putaran belajarku: satu sumber · satu proyek · lokasi catatan · jam yang dijaga · slot pemindaian masa depan 30 menit"
+           "id": "Lingkaran belajarku: satu sumber · satu proyek · tempat catatan · satu jam yang dilindungi · slot pemindaian masa depan 30 menit"
           },
           "hint": {
            "en": "e.g. one newsletter · dashboard for HIMA finances · Notes app · Sat 09:00 · Sun 20:00",
-           "id": "mis. satu newsletter · dashboard keuangan HIMA · aplikasi Catatan · Sab 09.00 · Min 20.00"
+           "id": "mis. satu newsletter · dasbor keuangan HIMA · aplikasi Catatan · Sabtu 09:00 · Minggu 20:00"
           },
           "rows": 2
          },
@@ -17605,7 +17605,7 @@ window.MT_LMS['the-map'] = {
           "id": "log1",
           "label": {
            "en": "This week's first log entry: learned · built · result",
-           "id": "Entri catatan pertama minggu ini: belajar · membuat · hasil"
+           "id": "Catatan pertama minggu ini: yang kupelajari · yang kubangun · hasilnya"
           },
           "hint": {
            "en": "",
@@ -17617,7 +17617,7 @@ window.MT_LMS['the-map'] = {
           "id": "bets",
           "label": {
            "en": "My three 90-day skill bets (one fundamental, one AI-assisted workflow, one public artefact), each with a metric",
-           "id": "Tiga taruhan keterampilan 90 hariku (satu fondasi, satu alur kerja berbantuan AI, satu artefak publik), masing-masing dengan metrik"
+           "id": "Tiga taruhan keterampilanku untuk 90 hari (satu dasar, satu alur kerja berbantuan AI, satu karya publik), masing-masing dengan ukurannya"
           },
           "hint": {
            "en": "",
@@ -17629,11 +17629,11 @@ window.MT_LMS['the-map'] = {
           "id": "change",
           "label": {
            "en": "One real change I face: facts | interpretations · my reaction type · “from ___ to ___” · one action within my control",
-           "id": "Satu perubahan nyata yang kuhadapi: fakta | tafsiran · tipe reaksiku · “dari ___ ke ___” · satu tindakan dalam kendaliku"
+           "id": "Satu perubahan nyata yang kuhadapi: fakta | tafsiran · jenis reaksiku · \"dari ___ menjadi ___\" · satu tindakan dalam kendaliku"
           },
           "hint": {
            "en": "e.g. new AI tool from March | “they're replacing us” · realistic pessimist · from waiting to testing · test it on last month's report",
-           "id": "mis. alat AI baru mulai Maret | “mereka mengganti kita” · pesimis realistis · dari menunggu ke menguji · uji di laporan bulan lalu"
+           "id": "mis. alat AI baru mulai Maret | \"kita bakal digantikan\" · pesimis yang realistis · dari menunggu menjadi menguji · uji pada laporan bulan lalu"
           },
           "rows": 4
          }
@@ -17644,39 +17644,39 @@ window.MT_LMS['the-map'] = {
      "resources": {
       "title": {
        "en": "Resource kit · 5.5",
-       "id": "Perangkat sumber daya · 5.5"
+       "id": "Perlengkapan · 5.5"
       },
       "lead": {
        "en": "Worksheets for the drills. Everything stays on your device.",
-       "id": "Lembar kerja untuk latihan. Semuanya tetap di perangkatmu."
+       "id": "Lembar kerja untuk latihan-latihannya. Semuanya tersimpan di perangkatmu."
       },
       "items": [
        {
         "kind": "worksheet",
         "title": {
          "en": "Dodo or coyote? (reflection aid)",
-         "id": "Dodo atau koyote? (alat bantu refleksi)"
+         "id": "Dodo atau koyote? (alat bantu renungan)"
         },
         "desc": {
          "en": "Rate yourself 1–5 on each; not a validated test.",
-         "id": "Nilai dirimu 1–5 pada masing-masing; bukan tes tervalidasi."
+         "id": "Beri nilai 1–5 untuk dirimu sendiri di setiap pernyataan; ini bukan tes yang tervalidasi."
         },
         "body": [
          {
           "en": "I notice changes in my field before they affect me",
-          "id": "Aku menyadari perubahan di bidangku sebelum memengaruhiku"
+          "id": "Aku menyadari perubahan di bidangku sebelum perubahan itu berdampak padaku"
          },
          {
           "en": "I try new tools on real work within a month of hearing about them",
-          "id": "Aku mencoba alat baru pada pekerjaan nyata dalam sebulan setelah mendengarnya"
+          "id": "Aku mencoba alat baru pada pekerjaan nyata dalam sebulan sejak mendengarnya"
          },
          {
           "en": "I ask people outside my circle what they're seeing",
-          "id": "Aku bertanya pada orang di luar lingkaranku apa yang mereka lihat"
+          "id": "Aku bertanya kepada orang di luar lingkaranku tentang apa yang mereka lihat"
          },
          {
           "en": "I can name what I'd do if my current plan failed",
-          "id": "Aku bisa menyebut apa yang akan kulakukan jika rencanaku sekarang gagal"
+          "id": "Aku bisa menyebutkan apa yang akan kulakukan kalau rencanaku saat ini gagal"
          },
          {
           "en": "I separate facts from interpretations before reacting",
@@ -17684,7 +17684,7 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "I keep a log of what I learn and build",
-          "id": "Aku menyimpan catatan tentang apa yang kupelajari dan kubuat"
+          "id": "Aku menyimpan catatan tentang apa yang kupelajari dan kubangun"
          },
          {
           "en": "I collaborate with people whose skills differ from mine",
@@ -17692,11 +17692,11 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "I spend time each week thinking ahead",
-          "id": "Aku meluangkan waktu tiap minggu berpikir ke depan"
+          "id": "Aku meluangkan waktu setiap minggu untuk memikirkan masa depan"
          },
          {
           "en": "I see problems in a change and still look for a way through",
-          "id": "Aku melihat masalah dalam perubahan dan tetap mencari jalan keluar"
+          "id": "Aku melihat masalah dalam sebuah perubahan dan tetap mencari jalan keluarnya"
          },
          {
           "en": "I take one small step rather than waiting for certainty",
@@ -17704,7 +17704,7 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Mostly 4–5: coyote habits. Mostly 1–2: dodo risk. Pick one statement to move by one point this month.",
-          "id": "Kebanyakan 4–5: kebiasaan koyote. Kebanyakan 1–2: risiko dodo. Pilih satu pernyataan untuk dinaikkan satu poin bulan ini."
+          "id": "Sebagian besar 4–5: kebiasaan koyote. Sebagian besar 1–2: risiko dodo. Pilih satu pernyataan untuk dinaikkan satu poin bulan ini."
          }
         ]
        },
@@ -17716,36 +17716,36 @@ window.MT_LMS['the-map'] = {
         },
         "desc": {
          "en": "Answer honestly, for yourself.",
-         "id": "Jawab dengan jujur, untuk dirimu."
+         "id": "Jawab dengan jujur, untuk dirimu sendiri."
         },
         "body": [
          {
           "en": "How does it affect me?",
-          "id": "Bagaimana pengaruhnya pada saya?"
+          "id": "Bagaimana perubahan ini memengaruhiku?"
          },
          {
           "en": "Does it move us toward something I want?",
-          "id": "Apakah ini menggerakkan kita ke sesuatu yang saya inginkan?"
+          "id": "Apakah perubahan ini membawa kami ke arah yang kuinginkan?"
          },
          {
           "en": "Is the cost of changing lower than the cost of staying the same?",
-          "id": "Apakah biaya berubah lebih rendah daripada biaya tetap sama?"
+          "id": "Apakah biaya untuk berubah lebih rendah daripada biaya untuk tetap sama?"
          },
          {
           "en": "What do I know about it, and do I trust the messenger?",
-          "id": "Apa yang saya tahu tentangnya, dan apakah saya percaya pembawa pesannya?"
+          "id": "Apa yang kuketahui tentangnya, dan apakah aku percaya pada pembawa pesannya?"
          },
          {
           "en": "How much influence do I have?",
-          "id": "Seberapa besar pengaruh saya?"
+          "id": "Seberapa besar pengaruhku?"
          },
          {
           "en": "Has it produced real results?",
-          "id": "Apakah sudah menghasilkan hasil nyata?"
+          "id": "Apakah perubahan ini sudah menghasilkan sesuatu yang nyata?"
          },
          {
           "en": "Does it add to or drain my ability to cope?",
-          "id": "Apakah ini menambah atau menguras kemampuan saya mengatasi?"
+          "id": "Apakah perubahan ini menambah atau menguras kemampuanku untuk bertahan?"
          }
         ]
        },
@@ -17762,7 +17762,7 @@ window.MT_LMS['the-map'] = {
         "body": [
          {
           "en": "Sources read: one Indonesian, one global",
-          "id": "Sumber yang dibaca: satu Indonesia, satu global"
+          "id": "Sumber yang dibaca: satu dari Indonesia, satu dari luar negeri"
          },
          {
           "en": "One trend",
@@ -17774,7 +17774,7 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "One opportunity, and the fundamental it rewards",
-          "id": "Satu peluang, dan fondasi yang dihargainya"
+          "id": "Satu peluang, dan dasar yang dihargainya"
          }
         ]
        },
@@ -17790,8 +17790,8 @@ window.MT_LMS['the-map'] = {
         },
         "body": [
          {
-          "en": "Pennington, Make Change Work, ch. 3, 7 and 13: the seven questions, four reactions, imposed change",
-          "id": "Pennington, Make Change Work, bab 3, 7, dan 13: tujuh pertanyaan, empat reaksi, perubahan yang dipaksakan"
+          "en": "Pennington, Make Change Work: the seven questions, four reactions, imposed change",
+          "id": "Pennington, Make Change Work: tujuh pertanyaan, empat reaksi, perubahan yang dipaksakan"
          },
          {
           "en": "Bridges, Managing Transitions (summary)",
@@ -17809,23 +17809,23 @@ window.MT_LMS['the-map'] = {
       {
        "tag": {
         "en": "Reacting to the AI rollout announcement",
-        "id": "Bereaksi pada pengumuman peluncuran AI"
+        "id": "Menanggapi pengumuman peluncuran AI"
        },
        "q": {
         "en": "PT Nusantara Logistik announces that from next month, weekly reports will be drafted with an AI-assisted tool. In the trainees' group, people are anxious. What does Raka post?",
-        "id": "PT Nusantara Logistik mengumumkan bahwa mulai bulan depan, laporan mingguan akan disusun dengan alat berbantuan AI. Di grup trainee, orang-orang cemas. Apa yang Raka posting?"
+        "id": "PT Nusantara Logistik mengumumkan bahwa mulai bulan depan, laporan mingguan akan didraf dengan alat berbantuan AI. Di grup para trainee, semua orang cemas. Apa yang diunggah Raka?"
        },
        "weak": {
         "en": "“Wah, berarti kita trainee nggak dibutuhin lagi dong 😅 siap-siap cari kerja baru guys.”",
-        "id": "“Wah, berarti kita trainee nggak dibutuhin lagi dong 😅 siap-siap cari kerja baru guys.”"
+        "id": "\"Wah, berarti kita trainee nggak dibutuhin lagi dong 😅 siap-siap cari kerja baru guys.\""
        },
        "strong": {
         "en": "“Aku coba pisahin dulu: faktanya, laporan mingguan akan di-draft pakai tool baru mulai bulan depan. Yang belum jelas: bagian mana yang tetap kita kerjakan dan bagaimana pengecekannya. Gimana kalau kita kumpulin pertanyaan dan aku sampaikan ke Bu Wulan di 1:1 Kamis? Sementara itu aku mau coba map tugas laporan kita mana yang kira-kira terbantu, mana yang tetap perlu kita.”",
-        "id": "“Aku coba pisahin dulu: faktanya, laporan mingguan akan di-draft pakai tool baru mulai bulan depan. Yang belum jelas: bagian mana yang tetap kita kerjakan dan bagaimana pengecekannya. Gimana kalau kita kumpulin pertanyaan dan aku sampaikan ke Bu Wulan di 1:1 Kamis? Sementara itu aku mau coba map tugas laporan kita mana yang kira-kira terbantu, mana yang tetap perlu kita.”"
+        "id": "\"Aku coba pisahin dulu: faktanya, laporan mingguan akan di-draft pakai tool baru mulai bulan depan. Yang belum jelas: bagian mana yang tetap kita kerjakan dan bagaimana pengecekannya. Gimana kalau kita kumpulin pertanyaan dan aku sampaikan ke Bu Wulan di 1:1 Kamis? Sementara itu aku mau coba map tugas laporan kita mana yang kira-kira terbantu, mana yang tetap perlu kita.\""
        },
        "why": {
         "en": "The strong post separates fact from interpretation, turns anxiety into questions, uses the proper channel (a 1:1 with the supervisor), and moves toward the task-level analysis that 5.6 teaches. The weak post spreads an interpretation as fact. It's an understandable reaction, but it raises everyone's stress and helps no one.",
-        "id": "Postingan yang kuat memisahkan fakta dari tafsiran, mengubah kecemasan menjadi pertanyaan, memakai saluran yang tepat (1:1 dengan atasan), dan bergerak menuju analisis tingkat tugas yang diajarkan 5.6. Postingan yang lemah menyebarkan tafsiran sebagai fakta. Reaksi yang bisa dimengerti, tapi menaikkan stres semua orang dan tidak membantu siapa pun."
+        "id": "Unggahan yang kuat memisahkan fakta dari tafsiran, mengubah kecemasan menjadi pertanyaan, memakai jalur yang tepat (obrolan empat mata dengan atasan), dan bergerak ke arah analisis per tugas yang diajarkan di 5.6. Unggahan yang lemah menyebarkan tafsiran sebagai fakta. Reaksi itu bisa dimengerti, tetapi menaikkan stres semua orang dan tidak membantu siapa pun."
        }
       }
      ],
@@ -17834,20 +17834,20 @@ window.MT_LMS['the-map'] = {
       "placement": "after-sections",
       "title": {
        "en": "In focus: the announcement",
-       "id": "Sorotan: pengumuman itu"
+       "id": "Sorotan: pengumumannya"
       },
       "body": [
        {
         "en": "The email lands on a Tuesday. By lunch, three versions of the story are circulating: the tool will replace the trainees, it's just a pilot, and it will double everyone's workload.",
-        "id": "Email itu tiba hari Selasa. Menjelang makan siang, tiga versi cerita beredar: alat itu akan menggantikan para trainee, ini hanya uji coba, dan ini akan menggandakan beban kerja semua orang."
+        "id": "Emailnya masuk hari Selasa. Menjelang makan siang, sudah beredar tiga versi cerita: alat itu akan menggantikan para trainee, itu hanya uji coba, dan beban kerja semua orang akan berlipat dua."
        },
        {
         "en": "Raka notices his own reflex. He has already half-drafted an anxious message to his mother. He uses the pause cue on his lock screen, writes facts and interpretations in two columns, and answers Pennington's seven questions for himself. Two answers surprise him: the cost of <i>not</i> learning the tool is higher than the cost of learning it, and he has more influence than he thought, because nobody on the team has tried it yet.",
-        "id": "Raka menyadari refleksnya sendiri. Ia sudah setengah menulis pesan cemas untuk ibunya. Ia memakai isyarat jeda di layar kuncinya, menulis fakta dan tafsiran dalam dua kolom, dan menjawab tujuh pertanyaan Pennington untuk dirinya. Dua jawaban mengejutkannya: biaya <i>tidak</i> mempelajari alat itu lebih tinggi daripada biaya mempelajarinya, dan ia punya pengaruh lebih besar dari dugaannya, karena belum ada di tim yang mencobanya."
+        "id": "Raka menyadari refleksnya sendiri. Ia sudah setengah menulis pesan cemas untuk ibunya. Ia memakai isyarat jeda di layar kunci ponselnya, menulis fakta dan tafsiran dalam dua kolom, lalu menjawab tujuh pertanyaan Pennington untuk dirinya sendiri. Dua jawaban mengejutkannya: biaya <i>tidak</i> mempelajari alat itu lebih tinggi daripada biaya mempelajarinya, dan pengaruhnya lebih besar dari yang ia kira, karena belum ada seorang pun di tim yang mencobanya."
        },
        {
         "en": "He volunteers to test the tool on last month's reports, using the verification checklist from Lesson 5.6, and to share what he finds. Three weeks later Bu Wulan asks him to show the team. He has moved from awareness to participation.",
-        "id": "Ia menawarkan diri menguji alat itu pada laporan bulan lalu, memakai daftar verifikasi dari Pelajaran 5.6, dan membagikan temuannya. Tiga minggu kemudian Bu Wulan memintanya menunjukkan ke tim. Ia sudah bergerak dari kesadaran ke partisipasi."
+        "id": "Ia menawarkan diri menguji alat itu pada laporan bulan lalu, memakai daftar periksa verifikasi dari Pelajaran 5.6, lalu membagikan temuannya. Tiga minggu kemudian, Bu Wulan memintanya memperagakannya di depan tim. Ia sudah naik dari tahap sadar ke tahap berpartisipasi."
        }
       ]
      },
@@ -17856,20 +17856,20 @@ window.MT_LMS['the-map'] = {
        "icon": "compass",
        "h": {
         "en": "The relevance questions",
-        "id": "Pertanyaan relevansi"
+        "id": "Pertanyaan-pertanyaan relevansi"
        },
        "body": {
         "en": "Pennington argues that the biggest professional threat is not change itself but <b>irrelevance</b>. Employers and customers keep asking three questions, at least implicitly: <i>Why you? Why now? What value do you add compared with what you cost?</i> He also suggests treating rapid change as the new normal rather than a storm to wait out. A practical lens: <b>faster, better, cheaper, friendlier</b>. People judge your work against the best experience they've had anywhere, not the average. For any task you do, ask which of the four your next improvement delivers.",
-        "id": "Pennington berargumen bahwa ancaman profesional terbesar bukan perubahan itu sendiri melainkan <b>ketidakrelevanan</b>. Pemberi kerja dan pelanggan terus bertanya tiga hal, setidaknya secara tersirat: <i>Mengapa kamu? Mengapa sekarang? Nilai apa yang kamu tambahkan dibanding biayamu?</i> Ia juga menyarankan memperlakukan perubahan cepat sebagai normal baru, bukan badai yang ditunggu reda. Lensa praktis: <b>lebih cepat, lebih baik, lebih murah, lebih ramah</b>. Orang menilai pekerjaanmu terhadap pengalaman terbaik yang pernah mereka dapat di mana pun, bukan rata-rata. Untuk tugas apa pun yang kamu kerjakan, tanyakan mana dari empat itu yang dihasilkan perbaikanmu berikutnya."
+        "id": "Pennington berpendapat bahwa ancaman profesional terbesar bukan perubahan itu sendiri, melainkan <b>menjadi tidak relevan</b>. Pemberi kerja dan pelanggan terus mengajukan tiga pertanyaan, setidaknya secara tersirat: <i>Kenapa kamu? Kenapa sekarang? Nilai apa yang kamu tambahkan dibandingkan biayamu?</i> Ia juga menyarankan agar perubahan yang cepat diperlakukan sebagai kenormalan baru, bukan badai yang ditunggu reda. Satu kacamata praktis: <b>lebih cepat, lebih baik, lebih murah, lebih ramah</b>. Orang menilai pekerjaanmu dengan membandingkannya dengan pengalaman terbaik yang pernah mereka dapat di mana pun, bukan rata-ratanya. Untuk setiap tugas yang kamu kerjakan, tanyakan mana dari keempatnya yang dihasilkan perbaikanmu berikutnya."
        },
        "bullets": [
         {
          "en": "<b>Why it matters for fresh graduates.</b> The four anchors on the system map (fundamentals, learning loop, public evidence, sensing network) are how you answer the relevance questions with evidence rather than adjectives. A recruiter's “why should we hire you?” (The Rope, Module 4) is a relevance question.",
-         "id": "<b>Mengapa penting bagi fresh graduate.</b> Empat jangkar di peta sistem (fondasi, putaran belajar, bukti publik, jaringan pemindai) adalah cara menjawab pertanyaan relevansi dengan bukti, bukan kata sifat. Pertanyaan perekrut “mengapa kami harus merekrutmu?” (The Rope, Modul 4) adalah pertanyaan relevansi."
+         "id": "<b>Kenapa ini penting bagi lulusan baru.</b> Empat jangkar di peta sistem (dasar-dasar, lingkaran belajar, bukti publik, jaringan pemantau) adalah cara menjawab pertanyaan relevansi dengan bukti, bukan dengan kata sifat. Pertanyaan perekrut \"kenapa kami harus merekrutmu?\" (The Rope, Modul 4) adalah pertanyaan relevansi."
         },
         {
          "en": "<b>Common mistake.</b> Answering relevance with tools (“I know Canva, ChatGPT and Excel”). Tools are the how. Relevance is the value: “I turn messy operations data into a weekly dashboard managers actually use.”",
-         "id": "<b>Kesalahan umum.</b> Menjawab relevansi dengan alat (“Saya bisa Canva, ChatGPT, dan Excel”). Alat adalah caranya. Relevansi adalah nilainya: “Saya mengubah data operasi yang berantakan menjadi dashboard mingguan yang benar-benar dipakai manajer.”"
+         "id": "<b>Kesalahan yang sering terjadi.</b> Menjawab soal relevansi dengan daftar alat (\"Aku bisa Canva, ChatGPT, dan Excel\"). Alat adalah caranya. Relevansi adalah nilainya: \"Aku mengubah data operasional yang berantakan menjadi dasbor mingguan yang benar-benar dipakai para manajer.\""
         }
        ]
       },
@@ -17877,11 +17877,11 @@ window.MT_LMS['the-map'] = {
        "icon": "book",
        "h": {
         "en": "Fundamentals by field: what lasts beneath the tools",
-        "id": "Fondasi per bidang: yang bertahan di balik alat"
+        "id": "Dasar-dasar per bidang: yang bertahan di bawah alat-alatnya"
        },
        "body": {
         "en": "The <i>Fundamentals first</i> hotspot asks: which part of what I'm learning survives the tool's replacement? This table is a starting point for each field. Edit your own version in the plan section below.",
-        "id": "Titik <i>Fondasi lebih dulu</i> bertanya: bagian mana dari yang kupelajari bertahan saat alatnya diganti? Tabel ini adalah titik awal untuk tiap bidang. Sunting versimu sendiri di bagian rencana di bawah."
+        "id": "Jangkar <i>Dasar-dasar dulu</i> bertanya: bagian mana dari yang sedang kupelajari yang tetap bertahan ketika alatnya diganti? Tabel ini titik awal untuk setiap bidang. Sunting versimu sendiri di bagian rencana di bawah."
        },
        "table": {
         "cols": [
@@ -17891,11 +17891,11 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Perishable (tools and syntax)",
-          "id": "Mudah usang (alat dan sintaks)"
+          "id": "Cepat usang (alat dan sintaks)"
          },
          {
           "en": "Durable (fundamentals)",
-          "id": "Tahan lama (fondasi)"
+          "id": "Awet (dasar-dasar)"
          }
         ],
         "rows": [
@@ -17934,11 +17934,11 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "A specific BI tool, library versions",
-           "id": "Alat BI tertentu, versi pustaka"
+           "id": "Alat BI tertentu, versi library"
           },
           {
            "en": "Statistics, data cleaning logic, causal thinking, clear charts",
-           "id": "Statistika, logika pembersihan data, berpikir kausal, grafik yang jelas"
+           "id": "Statistika, logika membersihkan data, berpikir sebab-akibat, grafik yang jelas"
           }
          ],
          [
@@ -17948,7 +17948,7 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "A framework of the year",
-           "id": "Framework tahun ini"
+           "id": "Framework yang sedang naik daun tahun ini"
           },
           {
            "en": "Algorithms, systems design, testing, reading other people's code",
@@ -17958,7 +17958,7 @@ window.MT_LMS['the-map'] = {
          [
           {
            "en": "Operations and supply chain",
-           "id": "Operasi dan rantai pasok"
+           "id": "Operasional dan rantai pasok"
           },
           {
            "en": "A specific ERP screen",
@@ -17966,21 +17966,21 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Flow, bottlenecks, inventory logic, root-cause analysis (Module 3)",
-           "id": "Aliran, kemacetan, logika persediaan, analisis akar masalah (Modul 3)"
+           "id": "Aliran kerja, titik sumbat, logika persediaan, analisis akar masalah (Modul 3)"
           }
          ],
          [
           {
            "en": "HR and people",
-           "id": "SDM"
+           "id": "SDM dan pengelolaan orang"
           },
           {
            "en": "An ATS product",
-           "id": "Produk ATS"
+           "id": "Produk ATS tertentu"
           },
           {
            "en": "Fair selection, motivation, employment-law basics, difficult conversations (5.3–5.4)",
-           "id": "Seleksi yang adil, motivasi, dasar hukum ketenagakerjaan, percakapan sulit (5.3–5.4)"
+           "id": "Seleksi yang adil, motivasi, dasar-dasar hukum ketenagakerjaan, percakapan sulit (5.3–5.4)"
           }
          ],
          [
@@ -17990,11 +17990,11 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "A legal database interface",
-           "id": "Antarmuka basis data hukum"
+           "id": "Antarmuka database hukum"
           },
           {
            "en": "Legal reasoning, reading statutes, drafting precision, ethics",
-           "id": "Penalaran hukum, membaca undang-undang, ketepatan menyusun dokumen, etika"
+           "id": "Penalaran hukum, membaca peraturan, ketepatan menyusun naskah, etika"
           }
          ],
          [
@@ -18021,7 +18021,7 @@ window.MT_LMS['the-map'] = {
        "after": [
         {
          "en": "<b>How to use it.</b> Spend most of your learning time on the right-hand column (the hotspot says about 70%). Learn tools <i>through</i> projects (the learning loop). When a new tool arrives, ask which fundamental it amplifies.",
-         "id": "<b>Cara memakainya.</b> Habiskan sebagian besar waktu belajarmu di kolom kanan (titik itu menyebut sekitar 70%). Pelajari alat <i>lewat</i> proyek (putaran belajar). Saat alat baru datang, tanyakan fondasi mana yang diperkuatnya."
+         "id": "<b>Cara memakainya.</b> Habiskan sebagian besar waktu belajarmu di kolom kanan (menurut jangkar tadi, sekitar 70%). Pelajari alat <i>lewat</i> proyek (lingkaran belajar). Ketika alat baru datang, tanyakan dasar mana yang diperkuatnya."
         }
        ]
       },
@@ -18029,22 +18029,22 @@ window.MT_LMS['the-map'] = {
        "icon": "target",
        "h": {
         "en": "Make the learning loop stick: 90 days, one log",
-        "id": "Buat putaran belajar melekat: 90 hari, satu catatan"
+        "id": "Membuat lingkaran belajar bertahan: 90 hari, satu catatan"
        },
        "body": {
         "en": "The hotspot defines the loop: one source, one project, one log, one defended hour a week. Three refinements make it last. <b>Expect weeks, not days, for a habit.</b> The popular “21 days” figure is a myth. In a UCL study, new daily habits took a median of about two months to become automatic, with wide variation. Plan in 90-day sprints. <b>Think about the future on purpose.</b> Pennington suggests even frontline staff spend 15–30 minutes a week thinking ahead. Put a 30-minute weekly future scan in your calendar: two credible sources (one Indonesian, one global), one trend, one task in your field that is changing, one opportunity. <b>Make the log your evidence bank.</b> Each weekly entry (“learned X, built Y, result Z”) becomes raw material for your CV (The Pack), interview stories (The Rope) and the public-evidence hotspot.",
-        "id": "Titik itu mendefinisikan putarannya: satu sumber, satu proyek, satu catatan, satu jam yang dijaga per minggu. Tiga penyempurnaan membuatnya bertahan. <b>Harapkan minggu, bukan hari, untuk sebuah kebiasaan.</b> Angka populer “21 hari” adalah mitos. Dalam studi UCL, kebiasaan harian baru butuh median sekitar dua bulan untuk menjadi otomatis, dengan variasi lebar. Rencanakan dalam sprint 90 hari. <b>Pikirkan masa depan dengan sengaja.</b> Pennington menyarankan bahkan staf garis depan meluangkan 15–30 menit seminggu untuk berpikir ke depan. Taruh pemindaian masa depan 30 menit mingguan di kalendermu: dua sumber tepercaya (satu Indonesia, satu global), satu tren, satu tugas di bidangmu yang sedang berubah, satu peluang. <b>Jadikan catatan sebagai bank bukti.</b> Tiap entri mingguan (“belajar X, membuat Y, hasil Z”) menjadi bahan mentah untuk CV-mu (The Pack), cerita wawancara (The Rope), dan titik bukti publik."
+        "id": "Jangkar tadi mendefinisikan lingkarannya: satu sumber, satu proyek, satu catatan, satu jam seminggu yang dilindungi. Tiga penyempurnaan membuatnya bertahan. <b>Bersiaplah butuh berminggu-minggu, bukan berhari-hari, untuk sebuah kebiasaan.</b> Angka populer \"21 hari\" adalah mitos. Dalam sebuah penelitian dari UCL, kebiasaan harian yang baru butuh waktu median sekitar dua bulan sampai menjadi otomatis, dengan variasi yang lebar. Rencanakan dalam sprint 90 hari. <b>Pikirkan masa depan dengan sengaja.</b> Pennington menyarankan agar staf lini depan sekalipun meluangkan 15–30 menit seminggu untuk memikirkan masa depan. Masukkan pemindaian masa depan mingguan selama 30 menit ke kalendermu: dua sumber yang kredibel (satu dari Indonesia, satu dari luar negeri), satu tren, satu tugas di bidangmu yang sedang berubah, satu peluang. <b>Jadikan catatanmu bank bukti.</b> Setiap catatan mingguan (\"belajar X, membangun Y, hasilnya Z\") menjadi bahan mentah untuk CV-mu (The Pack), cerita wawancara (The Rope), dan jangkar bukti publik."
        },
        "bullets": [
         {
          "en": "<b>The 90-day relevance sprint.</b> Pick three skill bets: one fundamental, one AI-assisted workflow (5.6), one artefact for public evidence. Give each a metric and a visible output. Review at day 45 and show the result at day 90.",
-         "id": "<b>Sprint relevansi 90 hari.</b> Pilih tiga taruhan keterampilan: satu fondasi, satu alur kerja berbantuan AI (5.6), satu artefak untuk bukti publik. Beri masing-masing metrik dan keluaran yang terlihat. Tinjau di hari ke-45 dan tunjukkan hasilnya di hari ke-90."
+         "id": "<b>Sprint relevansi 90 hari.</b> Pilih tiga taruhan keterampilan: satu dasar, satu alur kerja berbantuan AI (5.6), satu karya untuk bukti publik. Beri masing-masing ukuran dan hasil yang terlihat. Tinjau di hari ke-45 dan tunjukkan hasilnya di hari ke-90."
         }
        ],
        "after": [
         {
-         "en": "<i>Evidence note: the habit-formation study is Lally and colleagues (2010); the exact median is to be verified against the paper before this figure is quoted elsewhere.</i>",
-         "id": "<i>Catatan bukti: studi pembentukan kebiasaan itu adalah Lally dan rekan (2010); median persisnya perlu diverifikasi terhadap makalahnya sebelum angka ini dikutip di tempat lain.</i>"
+         "en": "<i>Evidence note: the habit-formation study is Lally and colleagues (2010), which reported a median of 66 days, with a range of 18 to 254.</i>",
+         "id": "<i>Catatan bukti: penelitian pembentukan kebiasaan ini dilakukan oleh Lally dan rekan-rekan (2010), yang melaporkan median 66 hari, dengan rentang 18 sampai 254 hari.</i>"
         }
        ]
       },
@@ -18052,26 +18052,26 @@ window.MT_LMS['the-map'] = {
        "icon": "eye",
        "h": {
         "en": "How people react to change, starting with you",
-        "id": "Bagaimana orang bereaksi pada perubahan, mulai dari dirimu"
+        "id": "Bagaimana orang bereaksi terhadap perubahan, dimulai dari dirimu"
        },
        "body": {
         "en": "<b>Seven questions everyone asks about a change.</b> When your campus changes its curriculum, your internship introduces a new AI tool, or your team is reorganised, people ask, consciously or not: (1) How does it affect me? (2) Does it move us toward something I want? (3) Is the cost of changing lower than the cost of staying the same? (4) What do I know about it, and do I trust the messenger? (5) How much influence do I have? (6) Has it produced real results? (7) Does it add to or drain my ability to cope? Answering them honestly for yourself turns vague anxiety into specific questions you can act on.",
-        "id": "<b>Tujuh pertanyaan yang semua orang ajukan tentang perubahan.</b> Saat kampusmu mengubah kurikulum, tempat magangmu memperkenalkan alat AI baru, atau timmu direorganisasi, orang bertanya, sadar atau tidak: (1) Bagaimana pengaruhnya pada saya? (2) Apakah ini menggerakkan kita ke sesuatu yang saya inginkan? (3) Apakah biaya berubah lebih rendah daripada biaya tetap sama? (4) Apa yang saya tahu tentangnya, dan apakah saya percaya pembawa pesannya? (5) Seberapa besar pengaruh saya? (6) Apakah sudah menghasilkan hasil nyata? (7) Apakah ini menambah atau menguras kemampuan saya mengatasi? Menjawabnya dengan jujur untuk dirimu mengubah kecemasan samar menjadi pertanyaan spesifik yang bisa ditindaklanjuti."
+        "id": "<b>Tujuh pertanyaan yang diajukan semua orang tentang sebuah perubahan.</b> Ketika kampusmu mengganti kurikulum, tempat magangmu memperkenalkan alat AI baru, atau timmu direorganisasi, orang bertanya, sadar atau tidak: (1) Bagaimana perubahan ini memengaruhiku? (2) Apakah perubahan ini membawa kita ke arah yang kuinginkan? (3) Apakah biaya untuk berubah lebih rendah daripada biaya untuk tetap sama? (4) Apa yang kuketahui tentangnya, dan apakah aku percaya pada pembawa pesannya? (5) Seberapa besar pengaruhku? (6) Apakah perubahan ini sudah menghasilkan sesuatu yang nyata? (7) Apakah perubahan ini menambah atau menguras kemampuanku untuk bertahan? Menjawabnya dengan jujur untuk dirimu sendiri mengubah kecemasan yang samar menjadi pertanyaan-pertanyaan spesifik yang bisa kamu tindak lanjuti."
        },
        "bullets": [
         {
          "en": "<b>Four reactions.</b> Unrealistic pessimist: “AI will take every job; nothing I can do.” Realistic pessimist: names real risks, with reasons. Useful. Unrealistic optimist: “AI will do everything; I don't need to learn.” <b>Realistic optimist (the target):</b> sees the problems clearly and looks for the way through. Watch for three truth-blockers: denial, distortion and delusion.",
-         "id": "<b>Empat reaksi.</b> Pesimis tidak realistis: “AI akan mengambil semua pekerjaan; tidak ada yang bisa kulakukan.” Pesimis realistis: menyebut risiko nyata, dengan alasan. Berguna. Optimis tidak realistis: “AI akan melakukan segalanya; aku tidak perlu belajar.” <b>Optimis realistis (targetnya):</b> melihat masalah dengan jelas dan mencari jalan keluarnya. Waspadai tiga penghalang kebenaran: penyangkalan, distorsi, dan delusi."
+         "id": "<b>Empat reaksi.</b> Pesimis yang tidak realistis: \"AI akan mengambil semua pekerjaan; tidak ada yang bisa kulakukan.\" Pesimis yang realistis: menyebut risiko nyata, lengkap dengan alasannya. Berguna. Optimis yang tidak realistis: \"AI akan mengerjakan semuanya; aku tidak perlu belajar.\" <b>Optimis yang realistis (sasarannya):</b> melihat masalahnya dengan jernih dan mencari jalan keluarnya. Waspadai tiga penghalang kebenaran: penyangkalan, pemelintiran, dan khayalan."
         },
         {
          "en": "<b>Dodo or coyote?</b> Pennington contrasts the dodo, which grew complacent in a safe environment and never saw change coming, with the coyote, an alert, opportunistic problem-solver that collaborates even outside its own kind. The resource kit includes a short individual self-rating. As he says himself, it is a reflection aid, not a validated test.",
-         "id": "<b>Dodo atau koyote?</b> Pennington mengontraskan dodo, yang menjadi berpuas diri di lingkungan aman dan tidak pernah melihat perubahan datang, dengan koyote, pemecah masalah yang waspada dan oportunistis yang berkolaborasi bahkan di luar kaumnya. Perangkat sumber daya menyertakan penilaian diri singkat. Seperti katanya sendiri, ini alat bantu refleksi, bukan tes tervalidasi."
+         "id": "<b>Dodo atau koyote?</b> Pennington membandingkan dodo, yang terlena di lingkungan yang aman dan tidak pernah melihat perubahan datang, dengan koyote, pemecah masalah yang waspada dan pandai melihat peluang, yang bahkan bekerja sama dengan yang bukan sejenisnya. Perlengkapan memuat penilaian diri singkat. Seperti yang ia katakan sendiri, itu alat bantu renungan, bukan tes yang tervalidasi."
         }
        ],
        "after": [
         {
          "en": "<i>Evidence note: Pennington's frameworks match mainstream change literature (Bridges, Lewin, Kotter) as a practitioner synthesis. The widely repeated “70% of change efforts fail” figure lacks a solid empirical basis and is not taught here.</i>",
-         "id": "<i>Catatan bukti: kerangka Pennington sejalan dengan literatur perubahan arus utama (Bridges, Lewin, Kotter) sebagai sintesis praktisi. Angka “70% upaya perubahan gagal” yang banyak diulang tidak punya dasar empiris yang kuat dan tidak diajarkan di sini.</i>"
+         "id": "<i>Catatan bukti: kerangka-kerangka Pennington sejalan dengan literatur perubahan arus utama (Bridges, Lewin, Kotter) sebagai sintesis seorang praktisi. Angka \"70% upaya perubahan gagal\" yang sering diulang tidak punya dasar empiris yang kuat dan tidak diajarkan di sini.</i>"
         }
        ]
       },
@@ -18079,20 +18079,20 @@ window.MT_LMS['the-map'] = {
        "icon": "flag",
        "h": {
         "en": "When change isn't your choice",
-        "id": "Saat perubahan bukan pilihanmu"
+        "id": "Ketika perubahan bukan pilihanmu"
        },
        "body": {
         "en": "Some changes arrive without asking you: a restructuring, a new manager, a cancelled programme, a hiring freeze, an AI tool that changes half your tasks. Pennington's steps, adapted: (1) <b>Slow down.</b> Don't react on reflex. Pennington calls reflexive reaction “spineating” and suggests a physical cue to pause. Make yours a lock-screen phrase: “Jeda. Pikir. Pilih.” (2) <b>Separate fact from interpretation.</b> “The team will use the new tool from March” is a fact. “They're replacing us” is an interpretation. (3) <b>Take stock.</b> What has changed, and what hasn't? Your fundamentals, your relationships and your track record usually haven't. (4) <b>Explore one different future.</b> What could go well? (5) <b>Take one small step this week.</b> (6) <b>Celebrate the step.</b> Then complete the stress cycle (5.2), because imposed change is a chronic stressor.",
-        "id": "Beberapa perubahan datang tanpa bertanya padamu: restrukturisasi, manajer baru, program yang dibatalkan, pembekuan perekrutan, alat AI yang mengubah separuh tugasmu. Langkah-langkah Pennington, diadaptasi: (1) <b>Pelan-pelan.</b> Jangan bereaksi refleks. Pennington menyebut reaksi refleks “spineating” dan menyarankan isyarat fisik untuk jeda. Jadikan milikmu frasa di layar kunci: “Jeda. Pikir. Pilih.” (2) <b>Pisahkan fakta dari tafsiran.</b> “Tim akan memakai alat baru mulai Maret” adalah fakta. “Mereka mengganti kita” adalah tafsiran. (3) <b>Ambil inventaris.</b> Apa yang berubah, dan apa yang tidak? Fondasimu, relasimu, dan rekam jejakmu biasanya tidak. (4) <b>Jelajahi satu masa depan yang berbeda.</b> Apa yang bisa berjalan baik? (5) <b>Ambil satu langkah kecil minggu ini.</b> (6) <b>Rayakan langkah itu.</b> Lalu tuntaskan siklus stres (5.2), karena perubahan yang dipaksakan adalah pemicu stres kronis."
+        "id": "Sebagian perubahan datang tanpa bertanya kepadamu: restrukturisasi, atasan baru, program yang dibatalkan, penahanan rekrutmen, alat AI yang mengubah separuh tugasmu. Langkah-langkah Pennington, disesuaikan: (1) <b>Pelankan dirimu.</b> Jangan bereaksi secara refleks. Pennington menyebut reaksi refleks itu \"spineating\" dan menyarankan satu isyarat fisik untuk berhenti sejenak. Jadikan milikmu sebuah frasa di layar kunci: \"Jeda. Pikir. Pilih.\" (2) <b>Pisahkan fakta dari tafsiran.</b> \"Tim akan memakai alat baru mulai Maret\" adalah fakta. \"Kita bakal digantikan\" adalah tafsiran. (3) <b>Periksa keadaannya.</b> Apa yang berubah, dan apa yang tidak? Dasar-dasarmu, relasimu, dan rekam jejakmu biasanya tidak berubah. (4) <b>Jelajahi satu masa depan yang berbeda.</b> Apa yang bisa berjalan baik? (5) <b>Ambil satu langkah kecil minggu ini.</b> (6) <b>Rayakan langkah itu.</b> Lalu tuntaskan siklus stresnya (5.2), karena perubahan yang dipaksakan adalah pemicu stres yang menahun."
        },
        "bullets": [
         {
          "en": "<b>Supporting a decision you disagreed with: the three-tier rule.</b> You disagree → voice it through the proper channel (5.4's senior script), then support the decision. It seems unethical → escalate (supervisor's supervisor, compliance, HR). It's clearly illegal or harmful (for example, being asked to collect personal data without consent) → refuse, and seek advice.",
-         "id": "<b>Mendukung keputusan yang tidak kamu setujui: aturan tiga tingkat.</b> Kamu tidak setuju → sampaikan lewat saluran yang tepat (naskah senior 5.4), lalu dukung keputusannya. Tampak tidak etis → eskalasi (atasan dari atasanmu, kepatuhan, HR). Jelas ilegal atau merugikan (misalnya, diminta mengumpulkan data pribadi tanpa persetujuan) → tolak, dan cari nasihat."
+         "id": "<b>Mendukung keputusan yang tidak kamu setujui: aturan tiga tingkat.</b> Kamu tidak setuju → sampaikan lewat jalur yang semestinya (naskah untuk senior di 5.4), lalu dukung keputusannya. Keputusannya tampak tidak etis → laporkan ke atas (atasan dari atasanmu, bagian kepatuhan, HR). Keputusannya jelas melanggar hukum atau membahayakan (misalnya diminta mengumpulkan data pribadi tanpa persetujuan) → tolak, dan cari nasihat."
         },
         {
          "en": "<b>Indonesian note.</b> For layoffs (PHK) or contract changes, formal rights exist under Indonesian labour law. Check official sources (Kemnaker) or legal aid rather than social-media advice. This lesson does not give legal advice.",
-         "id": "<b>Catatan Indonesia.</b> Untuk PHK atau perubahan kontrak, hak formal ada di bawah hukum ketenagakerjaan Indonesia. Periksa sumber resmi (Kemnaker) atau bantuan hukum, bukan nasihat media sosial. Pelajaran ini tidak memberi nasihat hukum."
+         "id": "<b>Catatan untuk Indonesia.</b> Untuk PHK atau perubahan kontrak, ada hak-hak formal yang diatur hukum ketenagakerjaan Indonesia. Cek sumber resmi (Kemnaker) atau bantuan hukum, bukan saran dari media sosial. Pelajaran ini tidak memberikan nasihat hukum."
         }
        ]
       },
@@ -18100,16 +18100,16 @@ window.MT_LMS['the-map'] = {
        "icon": "users",
        "h": {
         "en": "Being useful during your organisation's change, as a junior",
-        "id": "Menjadi berguna selama perubahan organisasimu, sebagai junior"
+        "id": "Berguna selama organisasimu berubah, sebagai junior"
        },
        "body": {
         "en": "<b>Pull, don't push.</b> People rarely resist change itself; they resist being changed. When a senior says “the last system failed too”, ask before you argue: “Waktu itu kendalanya di mana, Mbak?” Questions bring real concerns to the surface. Repeating the benefits louder rarely does. <b>The involvement ladder:</b> awareness → input → participation → collaboration → empowerment. Interns usually start at awareness or input. You earn participation by bringing small, well-checked improvements, for example a 20-minute time saving you've tested on your own work, with the verification steps from 5.6.",
-        "id": "<b>Tarik, jangan dorong.</b> Orang jarang menolak perubahan itu sendiri; mereka menolak diubah. Saat senior berkata “sistem yang lalu juga gagal”, bertanyalah sebelum berargumen: “Waktu itu kendalanya di mana, Mbak?” Pertanyaan memunculkan kekhawatiran nyata ke permukaan. Mengulang manfaat lebih keras jarang berhasil. <b>Tangga keterlibatan:</b> kesadaran → masukan → partisipasi → kolaborasi → pemberdayaan. Pemagang biasanya mulai di kesadaran atau masukan. Kamu meraih partisipasi dengan membawa perbaikan kecil yang sudah dicek dengan baik, misalnya penghematan waktu 20 menit yang sudah kamu uji di pekerjaanmu sendiri, dengan langkah verifikasi dari 5.6."
+        "id": "<b>Tarik, jangan dorong.</b> Orang jarang menolak perubahan itu sendiri; mereka menolak diubah. Ketika seorang senior berkata \"sistem yang dulu juga gagal\", bertanyalah sebelum berdebat: \"Waktu itu kendalanya di mana, Mbak?\" Pertanyaan memunculkan kekhawatiran yang sebenarnya. Mengulang manfaatnya lebih keras jarang berhasil. <b>Tangga keterlibatan:</b> sadar → memberi masukan → berpartisipasi → berkolaborasi → berdaya. Anak magang biasanya mulai dari tahap sadar atau memberi masukan. Kamu mendapat kesempatan berpartisipasi dengan membawa perbaikan-perbaikan kecil yang sudah diperiksa dengan baik, misalnya penghematan waktu 20 menit yang sudah kamu uji pada pekerjaanmu sendiri, lengkap dengan langkah verifikasi dari 5.6."
        },
        "bullets": [
         {
          "en": "<b>Why juniors matter in tech change.</b> Graduates often know new tools better than their teams do, because technology moves faster than organisations. That is a chance to add value, if you offer it with humility, within policy, and through your supervisor rather than around them.",
-         "id": "<b>Mengapa junior penting dalam perubahan teknologi.</b> Lulusan baru sering lebih menguasai alat baru daripada tim mereka, karena teknologi bergerak lebih cepat daripada organisasi. Itu peluang menambah nilai, jika kamu menawarkannya dengan rendah hati, dalam kebijakan, dan lewat atasanmu alih-alih melewatinya."
+         "id": "<b>Kenapa junior penting dalam perubahan teknologi.</b> Lulusan baru sering lebih menguasai alat baru daripada timnya, karena teknologi bergerak lebih cepat daripada organisasi. Itu kesempatan untuk menambah nilai, asalkan kamu menawarkannya dengan rendah hati, sesuai kebijakan, dan lewat atasanmu, bukan melangkahinya."
         }
        ]
       }
@@ -18118,80 +18118,80 @@ window.MT_LMS['the-map'] = {
       {
        "h": {
         "en": "Drill 1: My fundamentals (10 min)",
-        "id": "Latihan 1: Fondasiku (10 menit)"
+        "id": "Latihan 1: Dasar-dasarku (10 menit)"
        },
        "body": {
         "en": "In the plan section below, start from your field's row in the table and edit it: list three tools you use and the fundamental beneath each. Mark which fundamental gets less than 30% of your learning time.",
-        "id": "Di bagian rencana di bawah, mulai dari baris bidangmu di tabel dan sunting: daftar tiga alat yang kamu pakai dan fondasi di balik masing-masing. Tandai fondasi mana yang mendapat kurang dari 30% waktu belajarmu."
+        "id": "Di bagian rencana di bawah, mulai dari baris bidangmu di tabel lalu sunting: tulis tiga alat yang kamu pakai dan dasar di balik masing-masing. Tandai dasar mana yang mendapat kurang dari 30% waktu belajarmu."
        },
        "debrief": {
         "en": "Most students spend their energy on the perishable column because it feels productive and has certificates. Move one hour a week to the fundamental you marked.",
-        "id": "Kebanyakan mahasiswa menghabiskan energi di kolom yang mudah usang karena terasa produktif dan ada sertifikatnya. Pindahkan satu jam seminggu ke fondasi yang kamu tandai."
+        "id": "Sebagian besar mahasiswa menghabiskan energinya di kolom yang cepat usang karena terasa produktif dan ada sertifikatnya. Pindahkan satu jam seminggu ke dasar yang kamu tandai."
        }
       },
       {
        "h": {
         "en": "Drill 2: Set up the learning loop (10 min)",
-        "id": "Latihan 2: Siapkan putaran belajar (10 menit)"
+        "id": "Latihan 2: Siapkan lingkaran belajar (10 menit)"
        },
        "body": {
         "en": "Choose one source, one current project and a log location. Put the weekly hour and a 30-minute future scan in your calendar. Write this week's first log entry.",
-        "id": "Pilih satu sumber, satu proyek yang sedang berjalan, dan lokasi catatan. Taruh jam mingguan dan pemindaian masa depan 30 menit di kalendermu. Tulis entri catatan pertama minggu ini."
+        "id": "Pilih satu sumber, satu proyek yang sedang berjalan, dan tempat menyimpan catatan. Masukkan satu jam mingguan dan pemindaian masa depan 30 menit ke kalendermu. Tulis catatan pertamamu minggu ini."
        },
        "debrief": {
         "en": "The log is the part people drop first and regret most. Keep entries to three lines: learned, built, result.",
-        "id": "Catatan adalah bagian yang paling dulu ditinggalkan orang dan paling disesali. Jaga entri tiga baris: belajar, membuat, hasil."
+        "id": "Catatan adalah bagian yang paling dulu ditinggalkan orang dan paling disesali kemudian. Buat setiap catatan cukup tiga baris: yang dipelajari, yang dibangun, hasilnya."
        }
       },
       {
        "h": {
         "en": "Drill 3: Change-readiness reading (15 min)",
-        "id": "Latihan 3: Pembacaan kesiapan berubah (15 menit)"
+        "id": "Latihan 3: Ukur kesiapan menghadapi perubahan (15 menit)"
        },
        "body": {
         "en": "Take the Dodo/Coyote self-rating in the resource kit and answer the seven questions for one real change you face (new curriculum, an AI tool at your internship, a move). Place yourself among the four reactions. Write one “from ___ to ___” sentence and one action within your control.",
-        "id": "Lakukan penilaian diri Dodo/Koyote di perangkat sumber daya dan jawab tujuh pertanyaan untuk satu perubahan nyata yang kamu hadapi (kurikulum baru, alat AI di tempat magang, pindah). Tempatkan dirimu di antara empat reaksi. Tulis satu kalimat “dari ___ ke ___” dan satu tindakan dalam kendalimu."
+        "id": "Isi penilaian diri Dodo/Koyote di perlengkapan dan jawab tujuh pertanyaan untuk satu perubahan nyata yang kamu hadapi (kurikulum baru, alat AI di tempat magangmu, pindah tempat). Tempatkan dirimu di antara empat reaksi. Tulis satu kalimat \"dari ___ menjadi ___\" dan satu tindakan dalam kendalimu."
        },
        "debrief": {
         "en": "If you placed yourself as an unrealistic pessimist or optimist, look for one sentence you can back with evidence. Lesson 5.6's task map will give you that evidence.",
-        "id": "Jika kamu menempatkan diri sebagai pesimis atau optimis tidak realistis, cari satu kalimat yang bisa kamu dukung dengan bukti. Peta tugas di Pelajaran 5.6 akan memberimu bukti itu."
+        "id": "Kalau kamu menempatkan dirimu sebagai pesimis atau optimis yang tidak realistis, cari satu kalimat yang bisa kamu dukung dengan bukti. Peta tugas di Pelajaran 5.6 akan memberimu bukti itu."
        }
       }
      ],
      "mistakes": {
       "title": {
        "en": "Common mistakes",
-       "id": "Kesalahan umum"
+       "id": "Kesalahan yang sering terjadi"
       },
       "items": [
        {
         "h": {
          "en": "Answering “why you?” with tool names",
-         "id": "Menjawab “mengapa kamu?” dengan nama alat"
+         "id": "Menjawab \"kenapa kamu?\" dengan nama-nama alat"
         },
         "fix": {
          "en": "Describe the value you create; mention tools as the how.",
-         "id": "Gambarkan nilai yang kamu ciptakan; sebut alat sebagai caranya."
+         "id": "Jelaskan nilai yang kamu ciptakan; sebut alat sebagai caranya."
         }
        },
        {
         "h": {
          "en": "Panic sprints when a new tool trends",
-         "id": "Sprint panik saat alat baru tren"
+         "id": "Belajar kilat karena panik setiap ada alat baru yang sedang tren"
         },
         "fix": {
          "en": "Weekly loop plus a project; ask which fundamental the tool amplifies.",
-         "id": "Putaran mingguan plus proyek; tanyakan fondasi mana yang diperkuat alat itu."
+         "id": "Lingkaran mingguan ditambah satu proyek; tanyakan dasar mana yang diperkuat alat itu."
         }
        },
        {
         "h": {
          "en": "Spreading interpretations as facts during change",
-         "id": "Menyebarkan tafsiran sebagai fakta selama perubahan"
+         "id": "Menyebarkan tafsiran sebagai fakta saat ada perubahan"
         },
         "fix": {
          "en": "Two columns (fact, interpretation); take questions to the proper channel.",
-         "id": "Dua kolom (fakta, tafsiran); bawa pertanyaan ke saluran yang tepat."
+         "id": "Dua kolom (fakta, tafsiran); bawa pertanyaannya ke jalur yang tepat."
         }
        },
        {
@@ -18201,7 +18201,7 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "Pull. Ask what went wrong last time and what they're worried about now.",
-         "id": "Tarik. Tanyakan apa yang salah waktu itu dan apa yang mereka khawatirkan sekarang."
+         "id": "Tarik. Tanyakan apa yang salah waktu itu dan apa yang ia khawatirkan sekarang."
         }
        }
       ]
@@ -18214,27 +18214,27 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "The value you add compared with what you cost, as seen by the people you serve.",
-        "id": "Nilai yang kamu tambahkan dibanding biayamu, sebagaimana dilihat orang yang kamu layani."
+        "id": "Nilai yang kamu tambahkan dibandingkan biayamu, menurut orang-orang yang kamu layani."
        }
       },
       {
        "term": {
         "en": "fundamentals",
-        "id": "fondasi"
+        "id": "dasar-dasar"
        },
        "def": {
         "en": "The durable knowledge beneath changing tools.",
-        "id": "Pengetahuan tahan lama di balik alat yang berubah."
+        "id": "Pengetahuan yang awet di bawah alat-alat yang terus berubah."
        }
       },
       {
        "term": {
         "en": "realistic optimist",
-        "id": "optimis realistis"
+        "id": "optimis yang realistis"
        },
        "def": {
         "en": "Someone who sees problems clearly and looks for a way through.",
-        "id": "Seseorang yang melihat masalah dengan jelas dan mencari jalan keluarnya."
+        "id": "Orang yang melihat masalah dengan jernih dan mencari jalan keluarnya."
        }
       },
       {
@@ -18244,7 +18244,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Reacting on reflex without thinking; the opposite of the pause.",
-        "id": "Bereaksi refleks tanpa berpikir; kebalikan dari jeda."
+        "id": "Bereaksi secara refleks tanpa berpikir; kebalikan dari jeda."
        }
       },
       {
@@ -18254,7 +18254,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Awareness → input → participation → collaboration → empowerment in a change.",
-        "id": "Kesadaran → masukan → partisipasi → kolaborasi → pemberdayaan dalam sebuah perubahan."
+        "id": "Sadar → memberi masukan → berpartisipasi → berkolaborasi → berdaya dalam sebuah perubahan."
        }
       }
      ]
@@ -18267,38 +18267,38 @@ window.MT_LMS['the-map'] = {
      },
      "dur": {
       "en": "50 min",
-      "id": "50 mnt"
+      "id": "50 menit"
      },
      "kind": "interactive",
      "placeholder": false,
      "outcome": {
       "en": "Explain what AI is, map a target job by task exposure, test where AI helps on your own work, verify output with CEK-5, and follow your own rules for integrity, confidentiality, privacy and disclosure.",
-      "id": "Menjelaskan apa itu AI, memetakan pekerjaan target berdasarkan paparan tugas, menguji di mana AI membantu pada pekerjaanmu, memverifikasi keluaran dengan CEK-5, dan mengikuti aturanmu sendiri untuk integritas, kerahasiaan, privasi, dan pengungkapan."
+      "id": "Menjelaskan apa itu AI, memetakan pekerjaan incaran berdasarkan paparan tugasnya terhadap AI, menguji di mana AI membantu pekerjaanmu sendiri, memverifikasi hasilnya dengan CEK-5, dan menjalankan aturan pribadimu soal integritas, kerahasiaan, privasi, dan keterbukaan."
      },
      "outcomeDetail": {
       "en": "By the end you can explain five AI basics in plain Bahasa Indonesia, break a target job into tasks and sort them by AI exposure, test where AI helps on your own work, run a five-step verification on any AI output that matters, write clear prompts, and follow personal AI use rules covering integrity, confidentiality, privacy and disclosure.",
-      "id": "Di akhir pelajaran kamu bisa menjelaskan lima dasar AI dalam bahasa Indonesia yang sederhana, memecah pekerjaan target menjadi tugas-tugas dan memilahnya berdasarkan paparan AI, menguji di mana AI membantu pada pekerjaanmu, menjalankan verifikasi lima langkah pada keluaran AI apa pun yang penting, menulis prompt yang jelas, dan mengikuti aturan penggunaan AI pribadi yang mencakup integritas, kerahasiaan, privasi, dan pengungkapan."
+      "id": "Di akhir pelajaran ini, kamu bisa menjelaskan lima dasar AI dalam Bahasa Indonesia yang sederhana, memecah pekerjaan incaran menjadi tugas-tugas dan memilahnya berdasarkan paparan terhadap AI, menguji di mana AI membantu pekerjaanmu sendiri, menjalankan verifikasi lima langkah pada hasil AI apa pun yang penting, menulis prompt yang jelas, dan menjalankan aturan pribadi penggunaan AI yang mencakup integritas, kerahasiaan, privasi, dan keterbukaan."
      },
      "overview": {
       "en": "AI won't replace most jobs whole. It changes the tasks inside them, unevenly and fast. This lesson shows you how to see that clearly for the job you want: what AI actually is, where it helps and where it quietly fails, how to check its work, and the rules that keep your final-year thesis, your employer and other people safe. You'll leave with a task map for your target role and your own AI use rules. The lesson names no specific AI products: capabilities change every few months, and the skill that lasts is judgement.",
-      "id": "AI tidak akan menggantikan kebanyakan pekerjaan secara utuh. Ia mengubah tugas-tugas di dalamnya, tidak merata dan cepat. Pelajaran ini menunjukkan cara melihatnya dengan jelas untuk pekerjaan yang kamu inginkan: apa sebenarnya AI, di mana ia membantu dan di mana ia diam-diam gagal, cara mengecek hasil kerjanya, dan aturan yang menjaga skripsimu, pemberi kerjamu, dan orang lain tetap aman. Kamu akan keluar dengan peta tugas untuk peran targetmu dan aturan penggunaan AI-mu sendiri. Pelajaran ini tidak menyebut produk AI tertentu: kemampuannya berubah tiap beberapa bulan, dan keterampilan yang bertahan adalah penilaian."
+      "id": "AI tidak akan menggantikan sebagian besar pekerjaan secara utuh. AI mengubah tugas-tugas di dalamnya, tidak merata dan dengan cepat. Pelajaran ini menunjukkan cara melihatnya dengan jernih untuk pekerjaan yang kamu inginkan: apa sebenarnya AI itu, di mana ia membantu dan di mana ia diam-diam gagal, cara memeriksa hasil kerjanya, dan aturan-aturan yang menjaga skripsimu, pemberi kerjamu, dan orang lain tetap aman. Kamu akan pulang dengan peta tugas untuk peran incaranmu dan aturan penggunaan AI milikmu sendiri. Pelajaran ini tidak menyebut produk AI tertentu: kemampuannya berubah setiap beberapa bulan, dan keterampilan yang bertahan adalah penilaian."
      },
      "objectives": [
       {
        "en": "Explain in plain language how a large language model produces text, and why that leads to confident errors and bias.",
-       "id": "Menjelaskan dalam bahasa sederhana bagaimana model bahasa besar menghasilkan teks, dan mengapa itu menimbulkan kesalahan yang percaya diri dan bias."
+       "id": "Menjelaskan dengan bahasa sederhana bagaimana model bahasa besar menghasilkan teks, dan kenapa itu menyebabkan kesalahan yang disampaikan dengan yakin serta bias."
       },
       {
        "en": "Break a target job into tasks and sort them into: AI can do (with checking), AI can assist, and human-led.",
-       "id": "Memecah pekerjaan target menjadi tugas-tugas dan memilahnya: AI bisa mengerjakan (dengan pengecekan), AI bisa membantu, dan dipimpin manusia."
+       "id": "Memecah pekerjaan incaran menjadi tugas-tugas dan memilahnya menjadi: bisa dikerjakan AI (dengan pengecekan), bisa dibantu AI, dan dipimpin manusia."
       },
       {
        "en": "Test an AI tool on real tasks from your field and verify any output that matters with the CEK-5 checklist.",
-       "id": "Menguji alat AI pada tugas nyata dari bidangmu dan memverifikasi keluaran apa pun yang penting dengan daftar CEK-5."
+       "id": "Menguji alat AI pada tugas nyata di bidangmu dan memverifikasi hasil apa pun yang penting dengan daftar periksa CEK-5."
       },
       {
        "en": "Apply personal rules for academic integrity, workplace confidentiality, personal-data privacy and disclosure.",
-       "id": "Menerapkan aturan pribadi untuk integritas akademik, kerahasiaan tempat kerja, privasi data pribadi, dan pengungkapan."
+       "id": "Menerapkan aturan pribadi untuk integritas akademik, kerahasiaan di tempat kerja, privasi data pribadi, dan keterbukaan."
       }
      ],
      "readFirst": {
@@ -19010,42 +19010,42 @@ window.MT_LMS['the-map'] = {
       },
       "title": {
        "en": "AI, Honestly",
-       "id": "AI, Sejujurnya"
+       "id": "AI, Apa Adanya"
       },
       "intro": {
-       "en": "Six plain-language ideas. No product names, because the products will change before you graduate.",
-       "id": "Enam gagasan dalam bahasa sederhana. Tanpa nama produk, karena produknya akan berubah sebelum kamu lulus."
+       "en": "Nine plain-language ideas. No product names, because the products will change before you graduate.",
+       "id": "Sembilan gagasan dengan bahasa sederhana. Tanpa nama produk, karena produknya akan berganti sebelum kamu lulus."
       },
       "slides": [
        {
         "h": {
          "en": "What it is: five ideas",
-         "id": "Apa itu: lima gagasan"
+         "id": "Apa itu AI: lima gagasan"
         },
         "points": [
          {
           "en": "A broad field with machine learning as one part; large language models predict the next piece of text; they hallucinate; bias comes in through data, raters and builders; what you type may be stored.",
-          "id": "Bidang luas dengan machine learning sebagai salah satu bagian; model bahasa besar memprediksi potongan teks berikutnya; mereka berhalusinasi; bias masuk lewat data, penilai, dan pembangun; yang kamu ketik bisa disimpan."
+          "id": "Bidang yang luas dengan machine learning sebagai salah satu bagiannya; model bahasa besar menebak potongan teks berikutnya; model itu bisa berhalusinasi; bias masuk lewat data, penilai, dan pembuatnya; apa yang kamu ketik mungkin disimpan."
          },
          {
           "en": "It is not a database of facts.",
-          "id": "Ia bukan basis data fakta."
+          "id": "AI bukan database berisi fakta."
          }
         ]
        },
        {
         "h": {
          "en": "Why it’s confidently wrong sometimes",
-         "id": "Mengapa kadang salah dengan percaya diri"
+         "id": "Kenapa kadang AI salah dengan begitu yakin"
         },
         "points": [
          {
           "en": "It generates plausible text and does not check it against reality unless connected to sources, and even then it can err.",
-          "id": "Ia menghasilkan teks yang masuk akal dan tidak mengeceknya terhadap kenyataan kecuali terhubung ke sumber, dan bahkan saat itu pun bisa keliru."
+          "id": "AI menghasilkan teks yang masuk akal dan tidak mencocokkannya dengan kenyataan kecuali terhubung ke sumber, dan bahkan saat itu pun masih bisa keliru."
          },
          {
           "en": "Plausible isn’t the same as true. Invented citations are the classic failure.",
-          "id": "Masuk akal tidak sama dengan benar. Kutipan yang dikarang adalah kegagalan klasiknya."
+          "id": "Masuk akal tidak sama dengan benar. Rujukan karangan adalah kegagalan klasiknya."
          }
         ]
        },
@@ -19057,27 +19057,27 @@ window.MT_LMS['the-map'] = {
         "points": [
          {
           "en": "Jobs are bundles of tasks. AI shifts some of them, unevenly, and only occasionally whole jobs.",
-          "id": "Pekerjaan adalah kumpulan tugas. AI menggeser sebagian, tidak merata, dan hanya sesekali seluruh pekerjaan."
+          "id": "Pekerjaan adalah kumpulan tugas. AI menggeser sebagian tugas itu, tidak merata, dan hanya sesekali seluruh pekerjaan."
          },
          {
           "en": "Map your target job’s tasks, then invest in judgement and checking.",
-          "id": "Petakan tugas pekerjaan targetmu, lalu investasikan pada penilaian dan pengecekan."
+          "id": "Petakan tugas-tugas di pekerjaan incaranmu, lalu berinvestasilah pada penilaian dan pengecekan."
          }
         ]
        },
        {
         "h": {
          "en": "A jagged frontier",
-         "id": "Batas bergerigi"
+         "id": "Batas yang bergerigi"
         },
         "points": [
          {
           "en": "Brilliant at one task, quietly wrong at a similar-looking one, and the boundary moves as models improve.",
-          "id": "Hebat pada satu tugas, diam-diam salah pada tugas yang tampak serupa, dan batasnya bergerak seiring model membaik."
+          "id": "Hebat di satu tugas, diam-diam salah di tugas lain yang kelihatannya mirip, dan batasnya terus bergeser seiring model makin baik."
          },
          {
           "en": "You only find the line by testing on work you can judge. Re-test every quarter.",
-          "id": "Kamu hanya menemukan garisnya dengan menguji pada pekerjaan yang bisa kamu nilai. Uji ulang tiap kuartal."
+          "id": "Kamu hanya bisa menemukan batasnya dengan menguji pada pekerjaan yang bisa kamu nilai sendiri. Uji ulang setiap kuartal."
          }
         ]
        },
@@ -19089,11 +19089,11 @@ window.MT_LMS['the-map'] = {
         "points": [
          {
           "en": "Allowed? Safe to share? Can I check it? If any gate is closed, stop.",
-          "id": "Diizinkan? Aman dibagikan? Bisa kucek? Jika satu gerbang tertutup, berhenti."
+          "id": "Diizinkan? Aman dibagikan? Bisa kucek? Kalau salah satu gerbang tertutup, berhenti."
          },
          {
           "en": "Then: invite AI to the table, be the human in the loop, give it a role and context, assume today’s AI is the worst you’ll use.",
-          "id": "Lalu: undang AI ke meja, jadilah manusia dalam kendali, beri peran dan konteks, anggap AI hari ini yang terburuk yang akan kamu pakai."
+          "id": "Lalu: ajak AI duduk di meja yang sama, jadilah manusia dalam lingkaran kerja itu, beri AI peran dan konteks, dan anggap AI hari ini adalah yang terburuk yang akan kamu pakai."
          }
         ]
        },
@@ -19104,60 +19104,60 @@ window.MT_LMS['the-map'] = {
         },
         "points": [
          {
-          "en": "Centaur: a clear division, you design and judge, AI formats and drafts. Cyborg: continuous weaving, AI suggests, you choose and rewrite, AI critiques, you revise.",
-          "id": "Centaur: pembagian yang jelas, kamu merancang dan menilai, AI memformat dan membuat draf. Cyborg: jalinan terus-menerus, AI menyarankan, kamu memilih dan menulis ulang, AI mengkritik, kamu merevisi."
+          "en": "Centaur: a clear division (you design and judge; AI formats and drafts). Cyborg: continuous weaving (AI suggests, you choose and rewrite, AI critiques, you revise).",
+          "id": "Centaur: pembagian yang jelas (kamu merancang dan menilai; AI merapikan dan membuat draf). Cyborg: dijalin terus-menerus (AI mengusulkan, kamu memilih dan menulis ulang, AI mengkritik, kamu merevisi)."
          },
          {
           "en": "Start as a centaur on tasks you dislike but can easily check, then experiment.",
-          "id": "Mulailah sebagai centaur pada tugas yang tidak kamu sukai tetapi mudah dicek, lalu bereksperimen."
+          "id": "Mulailah sebagai centaur pada tugas yang tidak kamu sukai tetapi mudah kamu cek, lalu bereksperimenlah."
          }
         ]
        },
        {
         "h": {
          "en": "CEK-5: verify anything that matters",
-         "id": "CEK-5: verifikasi apa pun yang penting"
+         "id": "CEK-5: verifikasi semua yang penting"
         },
         "points": [
          {
           "en": "Claims, evidence, kesesuaian (fit), bias and blind spots, own it. Run it before submitting, sending or deciding with any AI output.",
-          "id": "Claims (klaim), evidence (bukti), kesesuaian, bias dan titik buta, own it (miliki). Jalankan sebelum mengumpulkan, mengirim, atau memutuskan dengan keluaran AI apa pun."
+          "id": "Claims (klaim), evidence (bukti), kesesuaian, bias dan titik buta, own it (tanggung jawabi). Jalankan sebelum mengumpulkan, mengirim, atau memutuskan dengan hasil AI apa pun."
          },
          {
           "en": "Whatever you submit or send is yours. The tool is not a co-author you can blame.",
-          "id": "Apa pun yang kamu kumpulkan atau kirim adalah milikmu. Alat itu bukan rekan penulis yang bisa disalahkan."
+          "id": "Apa pun yang kamu kumpulkan atau kirim adalah milikmu. Alatnya bukan rekan penulis yang bisa kamu salahkan."
          }
         ]
        },
        {
         "h": {
          "en": "Prompting is clear thinking",
-         "id": "Prompting adalah berpikir jernih"
+         "id": "Menulis prompt adalah berpikir jernih"
         },
         "points": [
          {
           "en": "A good request names seven things: goal, role, context, audience, constraints, output format, examples or steps.",
-          "id": "Permintaan yang baik menyebut tujuh hal: tujuan, peran, konteks, audiens, batasan, format keluaran, contoh atau langkah."
+          "id": "Permintaan yang baik menyebut tujuh hal: tujuan, peran, konteks, audiens, batasan, format hasil, dan contoh atau langkah-langkah."
          },
          {
           "en": "Prompting tricks date quickly. Clear thinking about the task does not.",
-          "id": "Trik prompting cepat usang. Berpikir jernih tentang tugas tidak."
+          "id": "Trik menulis prompt cepat usang. Berpikir jernih tentang tugasnya tidak."
          }
         ]
        },
        {
         "h": {
          "en": "Responsible use: integrity first",
-         "id": "Penggunaan bertanggung jawab: integritas dulu"
+         "id": "Penggunaan yang bertanggung jawab: integritas dulu"
         },
         "points": [
          {
           "en": "Your institution’s and lecturer’s rules decide what’s allowed; if unclear, ask in writing. Keep your version history, notes and drafts as process evidence.",
-          "id": "Aturan institusi dan dosenmu menentukan apa yang diizinkan; jika tidak jelas, tanyakan secara tertulis. Simpan riwayat versi, catatan, dan drafmu sebagai bukti proses."
+          "id": "Aturan kampus dan dosenmu yang menentukan apa yang boleh; kalau belum jelas, tanyakan secara tertulis. Simpan riwayat versi, catatan, dan draf sebagai bukti proses."
          },
          {
           "en": "AI detectors are unreliable and wrongly flag non-native English writers more often. Never use “humaniser” tools to disguise AI text.",
-          "id": "Detektor AI tidak andal dan lebih sering salah menandai penulis non-penutur asli bahasa Inggris. Jangan pernah memakai alat “humaniser” untuk menyamarkan teks AI."
+          "id": "Detektor AI tidak bisa diandalkan dan lebih sering salah menandai tulisan penutur bahasa Inggris non-asli. Jangan pernah memakai alat \"humaniser\" untuk menyamarkan teks AI."
          }
         ]
        }
@@ -19168,16 +19168,16 @@ window.MT_LMS['the-map'] = {
        "icon": "book",
        "h": {
         "en": "What AI actually is: five ideas everyone should be able to explain",
-        "id": "Apa sebenarnya AI: lima gagasan yang semua orang harus bisa jelaskan"
+        "id": "Apa sebenarnya AI itu: lima gagasan yang seharusnya bisa dijelaskan semua orang"
        },
        "body": {
-        "en": "(1) <b>AI is a broad field; machine learning is one part of it.</b> Russell and Norvig describe AI as building agents that perceive their environment and act to achieve goals as well as possible. Machine learning, systems that improve from data, is one subfield. (2) <b>Large language models predict the next piece of text.</b> They are trained on huge amounts of writing to predict what comes next, then tuned with human feedback to be more helpful. A useful image: a very well-read autocomplete. (3) <b>That's why they “hallucinate”.</b> They produce plausible text and don't check it against reality unless connected to sources, and even then they can err. Invented citations are the classic failure. (4) <b>Bias comes in through data, raters and builders.</b> Training data is mostly English and US-centric, so stereotypes and Western assumptions can appear. Output in Bahasa Indonesia or about Indonesian law may be weaker or wrongly “Westernised”. (5) <b>What you type may be stored.</b> Depending on the tool and settings, inputs may be kept or used to improve systems. Removing a name doesn't make data anonymous: date of birth, gender and area can be enough to identify a person.",
-        "id": "(1) <b>AI adalah bidang luas; machine learning salah satu bagiannya.</b> Russell dan Norvig menggambarkan AI sebagai membangun agen yang mengamati lingkungannya dan bertindak untuk mencapai tujuan sebaik mungkin. Machine learning, sistem yang membaik dari data, adalah salah satu subbidang. (2) <b>Model bahasa besar memprediksi potongan teks berikutnya.</b> Mereka dilatih pada tulisan berjumlah sangat besar untuk memprediksi apa yang muncul berikutnya, lalu disetel dengan umpan balik manusia agar lebih membantu. Gambaran yang berguna: autocomplete yang sangat banyak membaca. (3) <b>Itu sebabnya mereka “berhalusinasi”.</b> Mereka menghasilkan teks yang masuk akal dan tidak mengeceknya terhadap kenyataan kecuali terhubung ke sumber, dan bahkan saat itu pun bisa keliru. Kutipan yang dikarang adalah kegagalan klasik. (4) <b>Bias masuk lewat data, penilai, dan pembuat.</b> Data latih sebagian besar berbahasa Inggris dan berpusat di AS, sehingga stereotip dan asumsi Barat bisa muncul. Keluaran dalam bahasa Indonesia atau tentang hukum Indonesia bisa lebih lemah atau keliru “dibaratkan”. (5) <b>Apa yang kamu ketik mungkin disimpan.</b> Tergantung alat dan pengaturannya, masukan bisa disimpan atau dipakai untuk meningkatkan sistem. Menghapus nama tidak membuat data anonim: tanggal lahir, jenis kelamin, dan wilayah bisa cukup untuk mengidentifikasi seseorang."
+        "en": "(1) <b>AI is a broad field; machine learning is one part of it.</b> Russell and Norvig describe AI as building agents that perceive their environment and act to achieve goals as well as possible. Machine learning (systems that improve from data) is one subfield. (2) <b>Large language models predict the next piece of text.</b> They are trained on huge amounts of writing to predict what comes next, then tuned with human feedback to be more helpful. A useful image: a very well-read autocomplete. (3) <b>That's why they “hallucinate”.</b> They produce plausible text and don't check it against reality unless connected to sources, and even then they can err. Invented citations are the classic failure. (4) <b>Bias comes in through data, raters and builders.</b> Training data is mostly English and US-centric, so stereotypes and Western assumptions can appear. Output in Bahasa Indonesia or about Indonesian law may be weaker or wrongly “Westernised”. (5) <b>What you type may be stored.</b> Depending on the tool and settings, inputs may be kept or used to improve systems. Removing a name doesn't make data anonymous: date of birth, gender and area can be enough to identify a person.",
+        "id": "(1) <b>AI adalah bidang yang luas; machine learning adalah salah satu bagiannya.</b> Russell dan Norvig menggambarkan AI sebagai upaya membangun agen yang mengindra lingkungannya dan bertindak untuk mencapai tujuan sebaik mungkin. Machine learning (sistem yang makin baik dari data) adalah salah satu subbidangnya. (2) <b>Model bahasa besar menebak potongan teks berikutnya.</b> Model ini dilatih dengan tulisan dalam jumlah sangat besar untuk menebak apa yang muncul berikutnya, lalu disetel dengan masukan manusia agar lebih membantu. Gambaran yang berguna: fitur pelengkap kata otomatis yang sangat banyak membaca. (3) <b>Karena itulah model ini bisa \"berhalusinasi\".</b> Model ini menghasilkan teks yang masuk akal dan tidak mencocokkannya dengan kenyataan kecuali terhubung ke sumber, dan bahkan saat itu pun masih bisa keliru. Rujukan karangan adalah kegagalan klasiknya. (4) <b>Bias masuk lewat data, penilai, dan pembuatnya.</b> Data latihnya sebagian besar berbahasa Inggris dan berpusat pada Amerika Serikat, sehingga stereotip dan asumsi Barat bisa muncul. Hasil dalam Bahasa Indonesia atau tentang hukum Indonesia bisa lebih lemah atau keliru dibuat \"kebarat-baratan\". (5) <b>Apa yang kamu ketik mungkin disimpan.</b> Tergantung alat dan pengaturannya, masukanmu bisa disimpan atau dipakai untuk memperbaiki sistem. Menghapus nama tidak membuat data menjadi anonim: tanggal lahir, jenis kelamin, dan daerah bisa cukup untuk mengenali seseorang."
        },
        "after": [
         {
          "en": "<b>Practice.</b> Explain one of these ideas to a parent or grandparent in three minutes using an everyday comparison (phone autocomplete; a chatty friend who never says “saya tidak tahu”). If they can repeat it back, you understand it.",
-         "id": "<b>Latihan.</b> Jelaskan salah satu gagasan ini kepada orang tua atau kakek-nenek dalam tiga menit memakai perbandingan sehari-hari (autocomplete ponsel; teman cerewet yang tidak pernah bilang “saya tidak tahu”). Jika mereka bisa mengulangnya, kamu memahaminya."
+         "id": "<b>Latihan.</b> Jelaskan salah satu gagasan ini kepada orang tua atau kakek-nenekmu dalam tiga menit dengan perbandingan sehari-hari (fitur tebak kata di ponsel; teman yang suka mengobrol tapi tidak pernah bilang \"saya tidak tahu\"). Kalau mereka bisa mengulanginya, berarti kamu sudah paham."
         }
        ]
       },
@@ -19189,22 +19189,22 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Automation mostly removes or reshapes <b>tasks</b> within jobs, and only occasionally whole jobs. The textbook reports a pre-generative-AI estimate that about 5% of occupations were fully automatable, while about 60% had roughly a third of their tasks automatable. Mollick reports research finding that only 36 of 1,016 US occupations had no overlap with AI capabilities. Overlap is not replacement. <b>Three task categories:</b> <b>Human-led (“just me”)</b>: AI is unhelpful, or you choose to keep it human: values, care, key judgements, relationships, anything you must be able to defend personally. <b>AI-assisted</b>: AI helps and you check carefully; the task is inside its strengths, but the stakes or your context mean judgement is needed. <b>AI can do, with light checking</b>: tedious, low-stakes and easy to verify, like formatting a table or tidying references you then confirm.",
-        "id": "Otomatisasi sebagian besar menghapus atau membentuk ulang <b>tugas</b> di dalam pekerjaan, dan hanya sesekali seluruh pekerjaan. Buku teks melaporkan perkiraan pra-AI generatif bahwa sekitar 5% pekerjaan bisa diotomatisasi sepenuhnya, sementara sekitar 60% memiliki kira-kira sepertiga tugasnya yang bisa diotomatisasi. Mollick melaporkan riset yang menemukan hanya 36 dari 1.016 pekerjaan di AS yang tidak tumpang tindih dengan kemampuan AI. Tumpang tindih bukan penggantian. <b>Tiga kategori tugas:</b> <b>Dipimpin manusia (“hanya saya”)</b>: AI tidak membantu, atau kamu memilih mempertahankannya manusiawi: nilai, kepedulian, penilaian kunci, relasi, apa pun yang harus bisa kamu pertanggungjawabkan secara pribadi. <b>Berbantuan AI</b>: AI membantu dan kamu mengecek dengan cermat; tugasnya dalam kekuatannya, tetapi taruhan atau konteksmu menuntut penilaian. <b>AI bisa mengerjakan, dengan pengecekan ringan</b>: membosankan, taruhan rendah, dan mudah diverifikasi, seperti memformat tabel atau merapikan referensi yang kemudian kamu konfirmasi."
+        "id": "Otomatisasi sebagian besar menghapus atau membentuk ulang <b>tugas</b> di dalam pekerjaan, dan hanya sesekali seluruh pekerjaan. Buku teksnya melaporkan perkiraan dari masa sebelum AI generatif bahwa sekitar 5% jenis pekerjaan bisa diotomatisasi sepenuhnya, sementara sekitar 60% punya kira-kira sepertiga tugas yang bisa diotomatisasi. Mollick melaporkan penelitian yang menemukan bahwa hanya 36 dari 1.016 jenis pekerjaan di Amerika Serikat yang sama sekali tidak bersinggungan dengan kemampuan AI. Bersinggungan tidak sama dengan digantikan. <b>Tiga kategori tugas:</b> <b>Dipimpin manusia (\"hanya aku\")</b>: AI tidak membantu, atau kamu memilih untuk tetap mengerjakannya sendiri: nilai, kepedulian, penilaian kunci, relasi, apa pun yang harus bisa kamu pertanggungjawabkan secara pribadi. <b>Dibantu AI</b>: AI membantu dan kamu mengecek dengan teliti; tugasnya ada dalam kekuatan AI, tetapi taruhannya atau konteksmu menuntut penilaian. <b>Bisa dikerjakan AI, dengan pengecekan ringan</b>: membosankan, taruhannya kecil, dan mudah diverifikasi, misalnya merapikan tabel atau merapikan daftar referensi yang kemudian kamu pastikan sendiri."
        },
        "bullets": [
         {
          "en": "<b>The system layer.</b> Regulation, client trust, liability, professional norms and the need for local-language documents slow full automation and create roles for the human in the loop. In Indonesia, sector rules in finance, health and public services keep certain decisions human.",
-         "id": "<b>Lapisan sistem.</b> Regulasi, kepercayaan klien, tanggung jawab hukum, norma profesi, dan kebutuhan dokumen berbahasa Indonesia memperlambat otomatisasi penuh dan menciptakan peran bagi manusia dalam kendali. Di Indonesia, aturan sektor di keuangan, kesehatan, dan layanan publik menjaga keputusan tertentu tetap di tangan manusia."
+         "id": "<b>Lapisan sistem.</b> Regulasi, kepercayaan klien, tanggung jawab hukum, norma profesi, dan kebutuhan akan dokumen dalam bahasa lokal memperlambat otomatisasi penuh dan menciptakan peran bagi manusia di dalam lingkaran kerja. Di Indonesia, aturan sektoral di keuangan, kesehatan, dan layanan publik membuat keputusan tertentu tetap di tangan manusia."
         },
         {
          "en": "<b>What it means for entry-level roles.</b> Many entry tasks (drafting, summarising, formatting, first-pass analysis) sit where AI is strong. Employers may expect juniors to use AI and check it. Mollick warns that this can remove the practice tasks through which beginners become experts. Treat this as a risk to prepare for, not a measured local trend. The answer is to use AI to work faster and keep deliberately building the expertise that lets you check it.",
-         "id": "<b>Artinya bagi peran pemula.</b> Banyak tugas pemula (menyusun draf, meringkas, memformat, analisis awal) berada di wilayah kekuatan AI. Pemberi kerja mungkin mengharapkan junior memakai AI dan mengeceknya. Mollick memperingatkan ini bisa menghapus tugas latihan yang menjadikan pemula ahli. Perlakukan ini sebagai risiko untuk disiapkan, bukan tren Indonesia yang terukur. Jawabannya adalah memakai AI untuk bekerja lebih cepat dan terus dengan sengaja membangun keahlian yang memungkinkanmu mengeceknya."
+         "id": "<b>Artinya bagi posisi pemula.</b> Banyak tugas pemula (membuat draf, meringkas, merapikan format, analisis tahap awal) berada di wilayah tempat AI kuat. Pemberi kerja mungkin berharap junior memakai AI dan mengecek hasilnya. Mollick mengingatkan bahwa hal ini bisa menghilangkan tugas-tugas latihan yang selama ini menjadi jalan pemula menjadi ahli. Anggap ini risiko yang perlu diantisipasi, bukan tren lokal yang sudah terukur. Jawabannya: pakai AI untuk bekerja lebih cepat, dan tetap sengaja membangun keahlian yang membuatmu mampu mengecek hasilnya."
         }
        ],
        "after": [
         {
          "en": "<i>Evidence note: the task-share figures are dated estimates; the concept (tasks, not jobs) is well supported.</i>",
-         "id": "<i>Catatan bukti: angka porsi tugas adalah perkiraan yang sudah lama; konsepnya (tugas, bukan pekerjaan) terdukung baik.</i>"
+         "id": "<i>Catatan bukti: angka porsi tugas itu adalah perkiraan yang sudah lama; konsepnya (tugas, bukan pekerjaan) didukung dengan baik.</i>"
         }
        ]
       },
@@ -19213,7 +19213,7 @@ window.MT_LMS['the-map'] = {
         "type": "pair",
         "exhibit": {
          "en": "Exhibit 1: The Task Exposure Map",
-         "id": "Peraga 1: Peta Paparan Tugas"
+         "id": "Gambar 1: Peta Paparan Tugas"
         },
         "title": {
          "en": "Sort the tasks of a job, not the job",
@@ -19227,7 +19227,7 @@ window.MT_LMS['the-map'] = {
           },
           "sub": {
            "en": "By necessity or by choice; system-protected",
-           "id": "Karena kebutuhan atau pilihan; dilindungi sistem"
+           "id": "Karena harus atau karena dipilih; dilindungi sistem"
           },
           "items": [
            {
@@ -19240,22 +19240,22 @@ window.MT_LMS['the-map'] = {
            },
            {
             "en": "Relationships and presenting to people",
-            "id": "Relasi dan menyajikan kepada orang"
+            "id": "Relasi dan presentasi kepada orang lain"
            },
            {
             "en": "Judging data-quality exceptions",
-            "id": "Menilai pengecualian kualitas data"
+            "id": "Menilai pengecualian dalam kualitas data"
            }
           ]
          },
          {
           "h": {
            "en": "AI-assisted",
-           "id": "Berbantuan AI"
+           "id": "Dibantu AI"
           },
           "sub": {
            "en": "Inside or at the edge of the frontier; verification-critical",
-           "id": "Di dalam atau di tepi batas; verifikasi krusial"
+           "id": "Di dalam atau di tepi batas kemampuan AI; verifikasi sangat penting"
           },
           "items": [
            {
@@ -19264,35 +19264,35 @@ window.MT_LMS['the-map'] = {
            },
            {
             "en": "Formulas, queries, code you can test",
-            "id": "Rumus, kueri, kode yang bisa kamu uji"
+            "id": "Rumus, kueri, dan kode yang bisa kamu uji"
            },
            {
             "en": "First-pass summaries",
-            "id": "Ringkasan awal"
+            "id": "Ringkasan tahap awal"
            },
            {
             "en": "Explaining a concept after your own attempt",
-            "id": "Menjelaskan konsep setelah usahamu sendiri"
+            "id": "Menjelaskan sebuah konsep setelah kamu mencoba sendiri"
            }
           ]
          },
          {
           "h": {
            "en": "AI can do, with light checking",
-           "id": "AI bisa mengerjakan, dengan pengecekan ringan"
+           "id": "Bisa dikerjakan AI, dengan pengecekan ringan"
           },
           "sub": {
            "en": "Tedious, low-stakes, easy to verify",
-           "id": "Membosankan, taruhan rendah, mudah diverifikasi"
+           "id": "Membosankan, taruhannya kecil, mudah diverifikasi"
           },
           "items": [
            {
             "en": "Formatting tables",
-            "id": "Memformat tabel"
+            "id": "Merapikan tabel"
            },
            {
             "en": "Consistent file names",
-            "id": "Nama berkas yang konsisten"
+            "id": "Nama file yang konsisten"
            },
            {
             "en": "Meeting agendas",
@@ -19300,18 +19300,18 @@ window.MT_LMS['the-map'] = {
            },
            {
             "en": "Tidying references you then confirm",
-            "id": "Merapikan referensi yang kemudian kamu konfirmasi"
+            "id": "Merapikan referensi yang kemudian kamu pastikan sendiri"
            }
           ]
          }
         ],
         "note": {
          "en": "Beneath all three sits the system layer: regulation, client trust, liability and language. Redraw the map every quarter; the frontier moves.",
-         "id": "Di bawah ketiganya ada lapisan sistem: regulasi, kepercayaan klien, tanggung jawab hukum, dan bahasa. Gambar ulang peta tiap kuartal; batasnya bergerak."
+         "id": "Di bawah ketiganya ada lapisan sistem: regulasi, kepercayaan klien, tanggung jawab hukum, dan bahasa. Gambar ulang petanya setiap kuartal; batasnya terus bergeser."
         },
         "longdesc": {
          "en": "A three-column map for sorting the tasks of a job by how AI affects them. Human-led tasks stay with people by necessity or by choice. AI-assisted tasks benefit from AI but need careful human checking, especially when the stakes are high. A third column holds tedious, low-stakes, easily verified tasks AI can largely do. Beneath all three sits a system layer of regulation, trust, liability and language requirements that slows full automation.",
-         "id": "Peta tiga kolom untuk memilah tugas-tugas sebuah pekerjaan berdasarkan bagaimana AI memengaruhinya. Tugas yang dipimpin manusia tetap pada manusia karena kebutuhan atau pilihan. Tugas berbantuan AI mendapat manfaat dari AI tetapi butuh pengecekan manusia yang cermat, terutama saat taruhannya tinggi. Kolom ketiga memuat tugas membosankan, taruhan rendah, dan mudah diverifikasi yang sebagian besar bisa dikerjakan AI. Di bawah ketiganya ada lapisan sistem berupa regulasi, kepercayaan, tanggung jawab hukum, dan persyaratan bahasa yang memperlambat otomatisasi penuh."
+         "id": "Peta tiga kolom untuk memilah tugas-tugas sebuah pekerjaan berdasarkan pengaruh AI terhadapnya. Tugas yang dipimpin manusia tetap di tangan orang, karena harus atau karena dipilih. Tugas yang dibantu AI mendapat manfaat dari AI tetapi butuh pengecekan manusia yang teliti, terutama saat taruhannya tinggi. Kolom ketiga berisi tugas-tugas yang membosankan, taruhannya kecil, dan mudah diverifikasi, yang sebagian besar bisa dikerjakan AI. Di bawah ketiganya ada lapisan sistem berupa regulasi, kepercayaan, tanggung jawab hukum, dan kebutuhan bahasa yang memperlambat otomatisasi penuh."
         }
        }
       },
@@ -19319,26 +19319,26 @@ window.MT_LMS['the-map'] = {
        "icon": "target",
        "h": {
         "en": "The jagged frontier: find the line by testing",
-        "id": "Batas bergerigi: temukan garisnya dengan menguji"
+        "id": "Batas yang bergerigi: temukan garisnya dengan menguji"
        },
        "body": {
         "en": "AI's abilities form an uneven boundary. Two tasks that look equally hard can sit on opposite sides of it, and the boundary moves as models improve. In a field experiment with several hundred consultants at a global consulting firm, those using AI finished realistic tasks faster and produced higher-rated work, for tasks inside the frontier. On one task designed to fall outside it, consultants using AI got the answer right noticeably less often than those working alone. A related study found that recruiters given a very good AI made worse judgements, because they stopped paying attention (“falling asleep at the wheel”).",
-        "id": "Kemampuan AI membentuk batas yang tidak rata. Dua tugas yang tampak sama sulitnya bisa berada di sisi berlawanan, dan batasnya bergerak seiring model membaik. Dalam eksperimen lapangan dengan beberapa ratus konsultan di sebuah firma konsultan global, mereka yang memakai AI menyelesaikan tugas realistis lebih cepat dan menghasilkan karya bernilai lebih tinggi, untuk tugas di dalam batas. Pada satu tugas yang dirancang berada di luar batas, konsultan yang memakai AI menjawab benar jauh lebih jarang daripada yang bekerja sendiri. Studi terkait menemukan perekrut yang diberi AI yang sangat bagus membuat penilaian lebih buruk, karena mereka berhenti memperhatikan (“tertidur di balik kemudi”)."
+        "id": "Kemampuan AI membentuk batas yang tidak rata. Dua tugas yang tampak sama sulitnya bisa berada di sisi yang berlawanan, dan batasnya bergeser seiring model makin baik. Dalam eksperimen lapangan dengan beberapa ratus konsultan di sebuah firma konsultan global, mereka yang memakai AI menyelesaikan tugas-tugas realistis lebih cepat dan menghasilkan pekerjaan yang dinilai lebih tinggi, untuk tugas yang berada di dalam batas itu. Pada satu tugas yang sengaja dirancang berada di luar batasnya, konsultan yang memakai AI lebih jarang menjawab dengan benar dibanding yang bekerja sendiri. Penelitian terkait menemukan bahwa perekrut yang diberi AI yang sangat bagus justru membuat penilaian yang lebih buruk, karena mereka berhenti memperhatikan (\"tertidur di balik kemudi\")."
        },
        "bullets": [
         {
          "en": "<b>What to do with it.</b> Map your own frontier. Take 8–10 real tasks from your field, run each through an AI tool twice, and score accuracy, usefulness and fit for your context (1–5). Mark each task Inside (4–5), Edge (3) or Outside (1–2). Re-test every three months. <b>Only test tasks you can judge yourself.</b> If you can't tell whether the output is right, you can't map it.",
-         "id": "<b>Apa yang dilakukan dengannya.</b> Petakan batasmu sendiri. Ambil 8–10 tugas nyata dari bidangmu, jalankan masing-masing melalui alat AI dua kali, dan nilai akurasi, kegunaan, dan kecocokan untuk konteksmu (1–5). Tandai tiap tugas Dalam (4–5), Tepi (3), atau Luar (1–2). Uji ulang tiap tiga bulan. <b>Hanya uji tugas yang bisa kamu nilai sendiri.</b> Jika kamu tidak bisa tahu apakah keluarannya benar, kamu tidak bisa memetakannya."
+         "id": "<b>Apa yang perlu dilakukan.</b> Petakan batasmu sendiri. Ambil 8–10 tugas nyata dari bidangmu, jalankan masing-masing dua kali lewat alat AI, lalu beri nilai akurasi, kegunaan, dan kesesuaian dengan konteksmu (1–5). Tandai setiap tugas sebagai Di dalam (4–5), Di tepi (3), atau Di luar (1–2). Uji ulang setiap tiga bulan. <b>Uji hanya tugas yang bisa kamu nilai sendiri.</b> Kalau kamu tidak bisa memastikan apakah hasilnya benar, kamu tidak bisa memetakannya."
         },
         {
          "en": "<b>AI raises your floor; expertise raises your ceiling.</b> Several studies found weaker performers gained most from AI. That's good news, but only if you keep building the expertise that lets you notice when it's wrong.",
-         "id": "<b>AI menaikkan lantaimu; keahlian menaikkan langit-langitmu.</b> Beberapa studi menemukan pekerja yang lebih lemah paling banyak terbantu AI. Itu kabar baik, tetapi hanya jika kamu terus membangun keahlian yang memungkinkanmu menyadari saat ia salah."
+         "id": "<b>AI menaikkan batas bawahmu; keahlian menaikkan batas atasmu.</b> Beberapa penelitian menemukan bahwa orang dengan kinerja lebih lemah mendapat manfaat paling besar dari AI. Itu kabar baik, tetapi hanya kalau kamu terus membangun keahlian yang membuatmu bisa menyadari ketika AI salah."
         }
        ],
        "after": [
         {
-         "en": "<i>Evidence note: the consultant figures are as reported in Co-Intelligence and should be checked against the original paper before being quoted elsewhere.</i>",
-         "id": "<i>Catatan bukti: angka konsultan sebagaimana dilaporkan di Co-Intelligence dan harus dicek terhadap makalah aslinya sebelum dikutip di tempat lain.</i>"
+         "en": "<i>Evidence note: the consultant study is Dell'Acqua and colleagues (2023), with 758 consultants at Boston Consulting Group, as reported in Co-Intelligence.</i>",
+         "id": "<i>Catatan bukti: penelitian konsultan itu dilakukan oleh Dell'Acqua dan rekan-rekan (2023), dengan 758 konsultan di Boston Consulting Group, seperti dilaporkan dalam Co-Intelligence.</i>"
         }
        ]
       },
@@ -19350,12 +19350,12 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Mollick proposes four principles, paraphrased: (1) <b>Invite AI to the table:</b> try it on tasks to learn what it does well in your work. (2) <b>Be the human in the loop:</b> it doesn't know what's true; you stay accountable. (3) <b>Give it a role and context:</b> treat it like a fast, eager intern who sometimes bends the truth. (4) <b>Assume today's AI is the worst you'll use:</b> plan for it improving. <b>Metanoia adaptation: three gates before Rule 1.</b> <b>Gate 1 · Allowed?</b> Does your course syllabus (RPS), faculty, university or employer permit AI for this task? If unclear, ask in writing (template in the kit). <b>Gate 2 · Safe to share?</b> Does the input contain personal data, client data, unreleased figures, source code or anything confidential? If yes, stop. Use only an approved tool and account, and only with permission. <b>Gate 3 · Can I check it?</b> If you can't verify the output, don't use it for anything that matters.",
-        "id": "Mollick mengusulkan empat prinsip, diparafrasekan: (1) <b>Undang AI ke meja:</b> coba pada tugas-tugas untuk mempelajari apa yang dilakukannya dengan baik di pekerjaanmu. (2) <b>Jadilah manusia dalam kendali:</b> ia tidak tahu apa yang benar; kamu tetap bertanggung jawab. (3) <b>Beri peran dan konteks:</b> perlakukan seperti pemagang yang cepat dan bersemangat tetapi kadang membengkokkan kebenaran. (4) <b>Anggap AI hari ini adalah yang terburuk yang akan kamu pakai:</b> rencanakan untuk perbaikannya. <b>Adaptasi Metanoia: tiga gerbang sebelum Aturan 1.</b> <b>Gerbang 1 · Diizinkan?</b> Apakah RPS, fakultas, universitas, atau pemberi kerjamu mengizinkan AI untuk tugas ini? Jika tidak jelas, tanyakan secara tertulis (templat di perangkat). <b>Gerbang 2 · Aman dibagikan?</b> Apakah masukannya berisi data pribadi, data klien, angka yang belum dirilis, kode sumber, atau apa pun yang rahasia? Jika ya, berhenti. Pakai hanya alat dan akun yang disetujui, dan hanya dengan izin. <b>Gerbang 3 · Bisa kucek?</b> Jika kamu tidak bisa memverifikasi keluarannya, jangan pakai untuk hal yang penting."
+        "id": "Mollick mengusulkan empat prinsip, yang diparafrasekan di sini: (1) <b>Ajak AI duduk di meja yang sama:</b> cobalah pada berbagai tugas untuk mempelajari apa yang dikerjakannya dengan baik dalam pekerjaanmu. (2) <b>Jadilah manusia di dalam lingkaran kerja:</b> AI tidak tahu apa yang benar; kamu tetap bertanggung jawab. (3) <b>Beri AI peran dan konteks:</b> perlakukan seperti anak magang yang cepat dan bersemangat, tetapi kadang memelintir kebenaran. (4) <b>Anggap AI hari ini adalah yang terburuk yang akan kamu pakai:</b> rencanakan seiring AI terus membaik. <b>Penyesuaian Metanoia: tiga gerbang sebelum Aturan 1.</b> <b>Gerbang 1 · Diizinkan?</b> Apakah RPS mata kuliahmu, fakultas, kampus, atau pemberi kerjamu mengizinkan AI untuk tugas ini? Kalau belum jelas, tanyakan secara tertulis (templatnya ada di perlengkapan). <b>Gerbang 2 · Aman dibagikan?</b> Apakah masukannya berisi data pribadi, data klien, angka yang belum dirilis, kode sumber, atau apa pun yang rahasia? Kalau ya, berhenti. Pakai hanya alat dan akun yang disetujui, dan hanya dengan izin. <b>Gerbang 3 · Bisa kucek?</b> Kalau kamu tidak bisa memverifikasi hasilnya, jangan pakai untuk apa pun yang penting."
        },
        "after": [
         {
-         "en": "<b>Rule 3 is a technique, not a belief.</b> Giving AI a persona (“act as a strict HR manager at an multinational”) improves output, but the system is not a person. Don't trust it like a friend, don't confide sensitive information, and don't take its explanation of its own reasoning as a true account.",
-         "id": "<b>Aturan 3 adalah teknik, bukan keyakinan.</b> Memberi AI persona (“bertindaklah sebagai manajer HR yang ketat di perusahaan multinasional Indonesia”) meningkatkan keluaran, tetapi sistem itu bukan orang. Jangan percaya seperti teman, jangan curahkan informasi sensitif, dan jangan anggap penjelasannya tentang penalarannya sendiri sebagai laporan yang benar."
+         "en": "<b>Rule 3 is a technique, not a belief.</b> Giving AI a persona (“act as a strict HR manager at a multinational”) improves output, but the system is not a person. Don't trust it like a friend, don't confide sensitive information, and don't take its explanation of its own reasoning as a true account.",
+         "id": "<b>Aturan 3 adalah teknik, bukan keyakinan.</b> Memberi AI sebuah persona (\"berperanlah sebagai manajer HR yang tegas di sebuah perusahaan multinasional\") memperbaiki hasilnya, tetapi sistem itu bukan manusia. Jangan memercayainya seperti teman, jangan menceritakan informasi sensitif kepadanya, dan jangan menganggap penjelasannya tentang cara berpikirnya sendiri sebagai penjelasan yang benar."
         }
        ]
       },
@@ -19367,16 +19367,16 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "<b>Two working modes.</b> <b>Centaur:</b> a clear division. You do the parts outside the frontier (designing the analysis, judging); AI does parts inside it (formatting, first drafts of routine text). <b>Cyborg:</b> continuous weaving. AI suggests ten openings, you choose and rewrite, AI critiques as a tough examiner, you revise. Start as a centaur on tasks you dislike but can easily check, then experiment.",
-        "id": "<b>Dua mode kerja.</b> <b>Centaur:</b> pembagian yang jelas. Kamu mengerjakan bagian di luar batas (merancang analisis, menilai); AI mengerjakan bagian di dalamnya (memformat, draf pertama teks rutin). <b>Cyborg:</b> jalinan terus-menerus. AI menyarankan sepuluh pembuka, kamu memilih dan menulis ulang, AI mengkritik sebagai penguji yang galak, kamu merevisi. Mulailah sebagai centaur pada tugas yang tidak kamu sukai tetapi mudah dicek, lalu bereksperimen."
+        "id": "<b>Dua mode kerja.</b> <b>Centaur:</b> pembagian yang jelas. Kamu mengerjakan bagian di luar batas kemampuan AI (merancang analisis, menilai); AI mengerjakan bagian di dalamnya (merapikan format, draf pertama teks rutin). <b>Cyborg:</b> dijalin terus-menerus. AI mengusulkan sepuluh kalimat pembuka, kamu memilih dan menulis ulang, AI mengkritik sebagai penguji yang galak, kamu merevisi. Mulailah sebagai centaur pada tugas yang tidak kamu sukai tetapi mudah kamu cek, lalu bereksperimenlah."
        },
        "bullets": [
         {
          "en": "<b>Think first, then prompt.</b> Before asking AI, spend 10 minutes writing your own outline, answer or hypothesis. Then compare: what did you miss, and what did AI miss or get wrong? This protects your thinking from anchoring on the first AI draft and keeps the productive struggle that builds skill (5.1).",
-         "id": "<b>Berpikir dulu, baru prompt.</b> Sebelum bertanya ke AI, luangkan 10 menit menulis kerangka, jawaban, atau hipotesismu sendiri. Lalu bandingkan: apa yang kamu lewatkan, dan apa yang AI lewatkan atau salah? Ini melindungi pemikiranmu dari terjangkar pada draf AI pertama dan menjaga pergulatan produktif yang membangun keterampilan (5.1)."
+         "id": "<b>Berpikir dulu, baru menulis prompt.</b> Sebelum bertanya pada AI, luangkan 10 menit untuk menulis kerangka, jawaban, atau hipotesismu sendiri. Lalu bandingkan: apa yang kamu lewatkan, dan apa yang dilewatkan atau disalahkan AI? Cara ini melindungi pikiranmu agar tidak terpaku pada draf AI yang pertama, dan menjaga pergulatan produktif yang membangun keterampilan (5.1)."
         },
         {
          "en": "<b>Use AI as a tutor and coach, not a ghostwriter.</b> Ask it to quiz you, explain a concept three ways, or critique your draft. Your final-year thesis findings, analysis and citations must be yours and verified.",
-         "id": "<b>Pakai AI sebagai tutor dan pelatih, bukan penulis bayangan.</b> Minta ia menguji kamu, menjelaskan konsep dengan tiga cara, atau mengkritik drafmu. Temuan, analisis, dan kutipan skripsimu harus milikmu dan terverifikasi."
+         "id": "<b>Pakai AI sebagai tutor dan pelatih, bukan penulis bayangan.</b> Minta AI mengujimu, menjelaskan sebuah konsep dengan tiga cara, atau mengkritik drafmu. Temuan, analisis, dan sitasi skripsimu harus milikmu dan sudah diverifikasi."
         }
        ]
       },
@@ -19384,11 +19384,11 @@ window.MT_LMS['the-map'] = {
        "icon": "flag",
        "h": {
         "en": "CEK-5: verify anything that matters",
-        "id": "CEK-5: verifikasi apa pun yang penting"
+        "id": "CEK-5: verifikasi semua yang penting"
        },
        "body": {
         "en": "Run this before submitting, sending or deciding with any AI output.",
-        "id": "Jalankan ini sebelum mengumpulkan, mengirim, atau memutuskan dengan keluaran AI apa pun."
+        "id": "Jalankan ini sebelum mengumpulkan, mengirim, atau memutuskan dengan hasil AI apa pun."
        },
        "table": {
         "cols": [
@@ -19409,7 +19409,7 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "List every factual claim, number, name, date and citation",
-           "id": "Daftar setiap klaim faktual, angka, nama, tanggal, dan kutipan"
+           "id": "Daftar setiap klaim faktual, angka, nama, tanggal, dan sitasi"
           }
          ],
          [
@@ -19419,7 +19419,7 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Check each against a primary source: the journal database, the official regulation text, the company's own data. For references: does the paper exist, with that author, year and title?",
-           "id": "Cek masing-masing terhadap sumber primer: basis data jurnal, teks regulasi resmi, data perusahaan sendiri. Untuk referensi: apakah makalahnya ada, dengan penulis, tahun, dan judul itu?"
+           "id": "Cek masing-masing dengan sumber primer: database jurnal, teks resmi peraturan, data milik perusahaan sendiri. Untuk referensi: apakah artikelnya ada, dengan penulis, tahun, dan judul itu?"
           }
          ],
          [
@@ -19429,7 +19429,7 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Does it answer my question in my context: Indonesian law, my company's data, my lecturer's rubric?",
-           "id": "Apakah ia menjawab pertanyaanku dalam konteksku: hukum Indonesia, data perusahaanku, rubrik dosenku?"
+           "id": "Apakah ini menjawab pertanyaanku dalam konteksku: hukum Indonesia, data perusahaanku, rubrik dosenku?"
           }
          ],
          [
@@ -19439,17 +19439,17 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Who or what might be missing or stereotyped? Did it assume a Western context?",
-           "id": "Siapa atau apa yang mungkin hilang atau distereotipkan? Apakah ia mengasumsikan konteks Barat?"
+           "id": "Siapa atau apa yang mungkin terlewat atau distereotipkan? Apakah AI mengasumsikan konteks Barat?"
           }
          ],
          [
           {
            "en": "5 · Own it",
-           "id": "5 · Own it (miliki)"
+           "id": "5 · Own it (tanggung jawabi)"
           },
           {
            "en": "Can I explain and defend every sentence without the AI? If not, rewrite or remove it",
-           "id": "Bisakah aku menjelaskan dan mempertahankan setiap kalimat tanpa AI? Jika tidak, tulis ulang atau hapus"
+           "id": "Bisakah aku menjelaskan dan mempertahankan setiap kalimat tanpa AI? Kalau tidak, tulis ulang atau hapus"
           }
          ]
         ],
@@ -19458,7 +19458,7 @@ window.MT_LMS['the-map'] = {
        "after": [
         {
          "en": "<b>Common mistakes.</b> Asking the AI “are you sure?” and accepting its self-check (it may justify a wrong answer); checking only the obvious claims (small errors are the dangerous ones); “verifying” with another AI only.",
-         "id": "<b>Kesalahan umum.</b> Bertanya ke AI “kamu yakin?” dan menerima pengecekan dirinya (ia bisa membenarkan jawaban yang salah); mengecek hanya klaim yang jelas (kesalahan kecil yang berbahaya); “memverifikasi” hanya dengan AI lain."
+         "id": "<b>Kesalahan yang sering terjadi.</b> Bertanya pada AI \"kamu yakin?\" lalu menerima pengecekannya sendiri (AI bisa membenarkan jawaban yang salah); hanya mengecek klaim yang jelas-jelas penting (kesalahan kecil justru yang berbahaya); \"memverifikasi\" hanya dengan AI lain."
         }
        ]
       },
@@ -19466,36 +19466,36 @@ window.MT_LMS['the-map'] = {
        "icon": "users",
        "h": {
         "en": "Responsible use: integrity, confidentiality, privacy, disclosure, bias, scams",
-        "id": "Penggunaan bertanggung jawab: integritas, kerahasiaan, privasi, pengungkapan, bias, penipuan"
+        "id": "Penggunaan yang bertanggung jawab: integritas, kerahasiaan, privasi, keterbukaan, bias, penipuan"
        },
        "body": {
         "en": "<b>Academic integrity (final-year thesis, assignments).</b> Your institution's and lecturer's rules decide what's allowed. Before using AI on graded work, check the syllabus (RPS), the faculty's final-year thesis guidelines and the university's integrity rules. If unclear, ask politely in writing: “Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk [brainstorming/merapikan bahasa/meringkas literatur], dan bagaimana cara mencantumkannya?” <b>Keep process evidence.</b> Keep your version history, notes and drafts. AI detectors are unreliable and have been reported to wrongly flag non-native English writers more often. Your drafting history is your best evidence of authorship. Never use “humaniser” tools to disguise AI text.",
-        "id": "<b>Integritas akademik (skripsi, tugas).</b> Aturan institusi dan dosenmu menentukan apa yang diizinkan. Sebelum memakai AI pada tugas yang dinilai, periksa RPS, pedoman skripsi fakultas, dan aturan integritas universitas. Jika tidak jelas, tanyakan dengan sopan secara tertulis: “Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk [brainstorming/merapikan bahasa/meringkas literatur], dan bagaimana cara mencantumkannya?” <b>Simpan bukti proses.</b> Simpan riwayat versi, catatan, dan drafmu. Detektor AI tidak andal dan dilaporkan lebih sering salah menandai penulis non-penutur asli bahasa Inggris. Riwayat drafmu adalah bukti kepengaranganmu yang terbaik. Jangan pernah memakai alat “humaniser” untuk menyamarkan teks AI."
+        "id": "<b>Integritas akademik (skripsi, tugas).</b> Aturan kampus dan dosenmu yang menentukan apa yang boleh. Sebelum memakai AI untuk tugas yang dinilai, cek RPS, pedoman skripsi fakultas, dan aturan integritas kampus. Kalau belum jelas, tanyakan dengan sopan secara tertulis: \"Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk [brainstorming/merapikan bahasa/meringkas literatur], dan bagaimana cara mencantumkannya?\" <b>Simpan bukti proses.</b> Simpan riwayat versi, catatan, dan drafmu. Detektor AI tidak bisa diandalkan dan dilaporkan lebih sering salah menandai tulisan penutur bahasa Inggris non-asli. Riwayat penulisanmu adalah bukti terbaik bahwa tulisan itu karyamu. Jangan pernah memakai alat \"humaniser\" untuk menyamarkan teks AI."
        },
        "bullets": [
         {
          "en": "<b>Confidentiality at work and internships.</b> Follow the employer's AI policy, and ask if there is none. Never paste client data, unreleased financials, source code, HR files or personal data into a consumer AI tool without approval. Use the company-approved tool and account. Hidden AI use that breaks policy is a trust and job risk for a junior employee.",
-         "id": "<b>Kerahasiaan di tempat kerja dan magang.</b> Ikuti kebijakan AI pemberi kerja, dan tanyakan jika belum ada. Jangan pernah menempel data klien, keuangan yang belum dirilis, kode sumber, berkas HR, atau data pribadi ke alat AI konsumen tanpa persetujuan. Pakai alat dan akun yang disetujui perusahaan. Penggunaan AI tersembunyi yang melanggar kebijakan adalah risiko kepercayaan dan pekerjaan bagi karyawan junior."
+         "id": "<b>Kerahasiaan di tempat kerja dan magang.</b> Ikuti kebijakan AI pemberi kerja, dan tanyakan kalau belum ada. Jangan pernah menempelkan data klien, laporan keuangan yang belum dirilis, kode sumber, berkas HR, atau data pribadi ke alat AI konsumen tanpa persetujuan. Pakai alat dan akun yang disetujui perusahaan. Pemakaian AI secara diam-diam yang melanggar kebijakan adalah risiko kepercayaan dan risiko pekerjaan bagi karyawan junior."
         },
         {
          "en": "<b>Personal data.</b> Indonesia's Personal Data Protection Law (UU No. 27/2022, UU PDP) sets rules for processing personal data. Practical rule: don't upload other people's personal data (classmates' CVs, survey respondents, customer records) to AI tools without a lawful basis and consent. This lesson gives questions to ask your supervisor, not legal advice.",
-         "id": "<b>Data pribadi.</b> Undang-Undang Pelindungan Data Pribadi Indonesia (UU No. 27/2022, UU PDP) menetapkan aturan pemrosesan data pribadi. Aturan praktis: jangan unggah data pribadi orang lain (CV teman, responden survei, catatan pelanggan) ke alat AI tanpa dasar hukum dan persetujuan. Pelajaran ini memberi pertanyaan untuk diajukan ke atasanmu, bukan nasihat hukum."
+         "id": "<b>Data pribadi.</b> Undang-Undang Pelindungan Data Pribadi Indonesia (UU No. 27/2022, UU PDP) mengatur pemrosesan data pribadi. Aturan praktisnya: jangan mengunggah data pribadi orang lain (CV teman kuliah, data responden survei, catatan pelanggan) ke alat AI tanpa dasar hukum yang sah dan persetujuan. Pelajaran ini memberimu pertanyaan untuk ditanyakan kepada atasanmu, bukan nasihat hukum."
         },
         {
          "en": "<b>Disclosure.</b> Disclose AI use as your lecturer or employer requires. A simple standard line: “AI tool used for [purpose]; all content verified and revised by me.” An AI-polished CV is fine. Invented experience is not (The Pack).",
-         "id": "<b>Pengungkapan.</b> Ungkapkan penggunaan AI sebagaimana diminta dosen atau pemberi kerjamu. Baris standar sederhana: “Alat AI dipakai untuk [tujuan]; semua isi diverifikasi dan direvisi oleh saya.” CV yang dipoles AI tidak masalah. Pengalaman yang dikarang tidak (The Pack)."
+         "id": "<b>Keterbukaan.</b> Ungkapkan pemakaian AI sesuai ketentuan dosen atau pemberi kerjamu. Satu kalimat standar yang sederhana: \"Alat AI dipakai untuk [tujuan]; seluruh isi sudah saya verifikasi dan revisi.\" CV yang dipoles dengan AI tidak masalah. Pengalaman yang dikarang tidak boleh (The Pack)."
         },
         {
          "en": "<b>Bias.</b> When AI informs decisions about people (screening, grading, recommendations), run a <b>swap test</b>: give it two identical profiles that differ only in name, gender, home region or campus, and compare the results. “Fairness through unawareness” fails, because models infer hidden attributes from correlated ones.",
-         "id": "<b>Bias.</b> Saat AI memengaruhi keputusan tentang orang (penyaringan, penilaian, rekomendasi), jalankan <b>uji tukar</b>: beri dua profil identik yang hanya berbeda nama, jenis kelamin, daerah asal, atau kampus, dan bandingkan hasilnya. “Keadilan lewat ketidaktahuan” gagal, karena model menyimpulkan atribut tersembunyi dari atribut yang berkorelasi."
+         "id": "<b>Bias.</b> Ketika AI menjadi dasar keputusan tentang orang (penyaringan, penilaian, rekomendasi), jalankan <b>uji tukar</b>: berikan dua profil identik yang hanya berbeda nama, jenis kelamin, daerah asal, atau kampus, lalu bandingkan hasilnya. \"Adil karena tidak tahu\" tidak berhasil, karena model bisa menyimpulkan atribut tersembunyi dari atribut lain yang berkaitan."
         },
         {
          "en": "<b>Scams and deepfakes.</b> Voice cloning and realistic fake images make impersonation cheap. Verify any urgent request for money or data through a second channel, and agree a family code word. Be wary of “job offers” that ask for fees or ID documents over chat.",
-         "id": "<b>Penipuan dan deepfake.</b> Kloning suara dan gambar palsu yang realistis membuat penyamaran murah. Verifikasi permintaan mendesak apa pun untuk uang atau data lewat saluran kedua, dan sepakati kata sandi keluarga. Waspadai “tawaran kerja” yang meminta biaya atau dokumen identitas lewat chat."
+         "id": "<b>Penipuan dan deepfake.</b> Kloning suara dan gambar palsu yang realistis membuat peniruan identitas jadi murah. Verifikasi setiap permintaan mendesak soal uang atau data lewat saluran kedua, dan sepakati kata sandi keluarga. Waspadai \"tawaran kerja\" yang meminta biaya atau dokumen identitas lewat chat."
         },
         {
          "en": "<b>The three-tier rule (from 5.5) applied to AI.</b> If you're asked to use AI in a way you think is unwise, voice it. If it's unethical, escalate. If it's illegal or clearly harmful (for example, scraping personal data without consent), refuse.",
-         "id": "<b>Aturan tiga tingkat (dari 5.5) diterapkan pada AI.</b> Jika kamu diminta memakai AI dengan cara yang menurutmu tidak bijak, sampaikan. Jika tidak etis, eskalasi. Jika ilegal atau jelas merugikan (misalnya, mengambil data pribadi tanpa persetujuan), tolak."
+         "id": "<b>Aturan tiga tingkat (dari 5.5) untuk AI.</b> Kalau kamu diminta memakai AI dengan cara yang menurutmu tidak bijak, sampaikan. Kalau tidak etis, laporkan ke atas. Kalau melanggar hukum atau jelas membahayakan (misalnya mengambil data pribadi tanpa persetujuan), tolak."
         }
        ]
       },
@@ -19503,20 +19503,20 @@ window.MT_LMS['the-map'] = {
        "icon": "chat",
        "h": {
         "en": "Prompting as clear thinking (bilingual, low-data)",
-        "id": "Prompting sebagai berpikir jernih (dwibahasa, hemat data)"
+        "id": "Menulis prompt sebagai cara berpikir jernih (dua bahasa, hemat kuota)"
        },
        "body": {
         "en": "Prompting tricks date quickly; Mollick says good prompting skill is itself temporary. What lasts is clear thinking about the task. A good request names seven things: <b>goal</b>; <b>role</b> for the AI; <b>context</b> (who, where, why); <b>audience</b>; <b>constraints</b> (length, tone, register); <b>output format</b>; <b>examples or steps</b> (for instance, “list your assumptions first”).",
-        "id": "Trik prompting cepat usang; Mollick mengatakan keterampilan prompting yang baik pun sementara. Yang bertahan adalah berpikir jernih tentang tugasnya. Permintaan yang baik menyebut tujuh hal: <b>tujuan</b>; <b>peran</b> untuk AI; <b>konteks</b> (siapa, di mana, mengapa); <b>audiens</b>; <b>batasan</b> (panjang, nada, register); <b>format keluaran</b>; <b>contoh atau langkah</b> (misalnya, “daftar asumsimu dulu”)."
+        "id": "Trik menulis prompt cepat usang; Mollick menyebut bahwa keterampilan menulis prompt yang baik pun hanya sementara. Yang bertahan adalah berpikir jernih tentang tugasnya. Permintaan yang baik menyebut tujuh hal: <b>tujuan</b>; <b>peran</b> untuk AI; <b>konteks</b> (siapa, di mana, kenapa); <b>audiens</b>; <b>batasan</b> (panjang, nada, ragam bahasa); <b>format hasil</b>; <b>contoh atau langkah-langkah</b> (misalnya, \"sebutkan asumsimu dulu\")."
        },
        "bullets": [
         {
          "en": "<b>Bilingual strategy.</b> Plan in whichever language you think best in. For technical topics, try English and your local language and compare. For market-specific content (regulations, BPS data, local business norms), insist on Indonesian primary sources. Specify register: “Bahasa Indonesia formal sesuai EYD” or “santai untuk Instagram”.",
-         "id": "<b>Strategi dwibahasa.</b> Rencanakan dalam bahasa yang paling nyaman untuk berpikir. Untuk topik teknis, coba Inggris dan Indonesia lalu bandingkan. Untuk konten khas Indonesia (regulasi, data BPS, norma bisnis lokal), tuntut sumber primer Indonesia. Tentukan register: “Bahasa Indonesia formal sesuai EYD” atau “santai untuk Instagram”."
+         "id": "<b>Strategi dua bahasa.</b> Rencanakan dalam bahasa yang paling nyaman untukmu berpikir. Untuk topik teknis, coba dalam bahasa Inggris dan bahasa daerahmu, lalu bandingkan. Untuk konten khusus pasar lokal (regulasi, data BPS, norma bisnis setempat), wajibkan sumber primer dari Indonesia. Sebutkan ragam bahasanya: \"Bahasa Indonesia formal sesuai EYD\" atau \"santai untuk Instagram\"."
         },
         {
          "en": "<b>Low-data habit.</b> Draft your prompt offline in your notes app and send one good prompt instead of ten lazy ones. Use campus Wi-Fi for heavy tasks. No exercise in this lesson requires a paid tool.",
-         "id": "<b>Kebiasaan hemat data.</b> Susun prompt-mu luring di aplikasi catatan dan kirim satu prompt yang baik alih-alih sepuluh yang malas. Pakai Wi-Fi kampus untuk tugas berat. Tidak ada latihan di pelajaran ini yang membutuhkan alat berbayar."
+         "id": "<b>Kebiasaan hemat kuota.</b> Susun prompt-mu secara offline di aplikasi catatan, lalu kirim satu prompt yang bagus alih-alih sepuluh prompt asal-asalan. Pakai Wi-Fi kampus untuk tugas yang berat. Tidak ada latihan di pelajaran ini yang membutuhkan alat berbayar."
         }
        ]
       }
@@ -19525,23 +19525,23 @@ window.MT_LMS['the-map'] = {
       {
        "tag": {
         "en": "“Use AI to speed up the client report”",
-        "id": "“Pakai AI untuk mempercepat laporan klien”"
+        "id": "\"Pakai AI untuk mempercepat laporan klien\""
        },
        "q": {
         "en": "Bu Wulan asks Raka to “use AI to speed up” this week's client delivery report. The source spreadsheet contains customer names, phone numbers and addresses. What does he do?",
-        "id": "Bu Wulan meminta Raka “pakai AI untuk mempercepat” laporan pengiriman klien minggu ini. Spreadsheet sumbernya berisi nama, nomor telepon, dan alamat pelanggan. Apa yang ia lakukan?"
+        "id": "Bu Wulan meminta Raka \"pakai AI untuk mempercepat\" laporan pengiriman klien minggu ini. Spreadsheet sumbernya berisi nama, nomor telepon, dan alamat pelanggan. Apa yang ia lakukan?"
        },
        "weak": {
         "en": "He pastes the whole spreadsheet into a free chatbot on his phone, asks for “a professional summary”, copies the output into the report, and sends it. It sounds polished, and nobody said not to.",
-        "id": "Ia menempel seluruh spreadsheet ke chatbot gratis di ponselnya, meminta “ringkasan profesional”, menyalin keluarannya ke laporan, dan mengirimnya. Kedengarannya rapi, dan tidak ada yang melarang."
+        "id": "Ia menempelkan seluruh spreadsheet ke chatbot gratis di ponselnya, meminta \"ringkasan profesional\", menyalin hasilnya ke laporan, lalu mengirimnya. Kedengarannya rapi, dan tidak ada yang melarang."
        },
        "strong": {
         "en": "He checks the gates. Allowed? He asks Bu Wulan which AI tool is approved for client data; it's the company's licensed workspace tool. Safe to share? He removes personal columns anyway and works from aggregated delivery figures. Can I check it? Yes, against the spreadsheet. He writes his own three key findings first, then asks the tool for a first draft in formal Indonesian. He runs CEK-5: one percentage is wrong and one sentence assumes a holiday that isn't Indonesian. He fixes both, notes “draft assisted by [approved tool], figures verified” in the file, and logs the use.",
-        "id": "Ia memeriksa gerbangnya. Diizinkan? Ia bertanya ke Bu Wulan alat AI mana yang disetujui untuk data klien; alat workspace berlisensi perusahaan. Aman dibagikan? Ia tetap menghapus kolom pribadi dan bekerja dari angka pengiriman agregat. Bisa kucek? Ya, terhadap spreadsheet-nya. Ia menulis tiga temuan kuncinya sendiri dulu, lalu meminta alat itu membuat draf pertama dalam bahasa Indonesia formal. Ia menjalankan CEK-5: satu persentase salah dan satu kalimat mengasumsikan hari libur yang bukan Indonesia. Ia memperbaiki keduanya, mencatat “draf dibantu [alat yang disetujui], angka diverifikasi” di berkas, dan mencatat penggunaannya."
+        "id": "Ia mengecek ketiga gerbang. Diizinkan? Ia bertanya kepada Bu Wulan alat AI mana yang disetujui untuk data klien; jawabannya alat di workspace berlisensi milik perusahaan. Aman dibagikan? Ia tetap menghapus kolom-kolom data pribadi dan bekerja dari angka pengiriman yang sudah diagregasi. Bisa kucek? Ya, dengan spreadsheet-nya. Ia menulis tiga temuan utamanya sendiri lebih dulu, lalu meminta alat itu membuat draf pertama dalam bahasa Indonesia formal. Ia menjalankan CEK-5: satu persentase salah dan satu kalimat mengasumsikan hari libur yang bukan hari libur Indonesia. Ia memperbaiki keduanya, menulis \"draf dibantu [alat yang disetujui], angka sudah diverifikasi\" di berkasnya, dan mencatat pemakaiannya."
        },
        "why": {
         "en": "The strong version passes all three gates, protects personal data (UU PDP), thinks first, verifies, and discloses. The weak version breaks confidentiality, skips verification, and makes Raka accountable for errors he never checked.",
-        "id": "Versi yang kuat melewati ketiga gerbang, melindungi data pribadi (UU PDP), berpikir dulu, memverifikasi, dan mengungkapkan. Versi yang lemah melanggar kerahasiaan, melewatkan verifikasi, dan membuat Raka bertanggung jawab atas kesalahan yang tidak pernah ia cek."
+        "id": "Versi yang kuat melewati ketiga gerbang, melindungi data pribadi (UU PDP), berpikir dulu, memverifikasi, dan terbuka soal pemakaiannya. Versi yang lemah melanggar kerahasiaan, melewatkan verifikasi, dan membuat Raka harus bertanggung jawab atas kesalahan yang tidak pernah ia cek."
        }
       }
      ],
@@ -19550,20 +19550,20 @@ window.MT_LMS['the-map'] = {
       "placement": "after-sections",
       "title": {
        "en": "In focus: the hallucinated reference",
-       "id": "Sorotan: referensi yang dikarang"
+       "id": "Sorotan: referensi hasil halusinasi"
       },
       "body": [
        {
         "en": "Raka's friend Dina is finishing her final-year thesis literature review at 01:00. She asks an AI tool for “five recent local studies on bus ridership”, and gets five neatly formatted citations. She almost pastes them in.",
-        "id": "Dina, teman Raka, sedang menyelesaikan tinjauan pustaka skripsinya pukul 01.00. Ia meminta alat AI “lima studi Indonesia terbaru tentang jumlah penumpang bus”, dan mendapat lima kutipan yang diformat rapi. Ia hampir menempelkannya."
+        "id": "Dina, teman Raka, sedang menyelesaikan tinjauan pustaka skripsinya jam 01:00. Ia meminta alat AI memberinya \"lima penelitian lokal terbaru tentang jumlah penumpang bus\", dan mendapat lima sitasi yang formatnya rapi. Ia hampir saja menempelkannya."
        },
        {
         "en": "Raka, fresh from this lesson, sends her the CEK-5 card. She checks each reference in Google Scholar and the Garuda portal. Two don't exist. One exists but says the opposite of the AI's summary. Two are real and relevant.",
-        "id": "Raka, baru selesai pelajaran ini, mengirimkan kartu CEK-5. Ia mengecek tiap referensi di Google Scholar dan portal Garuda. Dua tidak ada. Satu ada tapi mengatakan kebalikan dari ringkasan AI. Dua nyata dan relevan."
+        "id": "Raka, yang baru selesai mempelajari pelajaran ini, mengirimkan kartu CEK-5 kepadanya. Dina mengecek setiap referensi di Google Scholar dan portal Garuda. Dua tidak ada. Satu ada, tetapi isinya bertolak belakang dengan ringkasan AI. Dua lainnya nyata dan relevan."
        },
        {
         "en": "She uses those two, reads them properly, and writes a note in her process log. At her sidang, the examiner asks about one of them. She has read it, so she can answer.",
-        "id": "Ia memakai dua itu, membacanya dengan benar, dan menulis catatan di log prosesnya. Di sidangnya, penguji bertanya tentang salah satunya. Ia sudah membacanya, jadi ia bisa menjawab."
+        "id": "Ia memakai kedua referensi itu, membacanya dengan benar, dan menulis catatan di log prosesnya. Saat sidang, penguji bertanya tentang salah satunya. Ia sudah membacanya, jadi ia bisa menjawab."
        }
       ]
      },
@@ -19571,29 +19571,29 @@ window.MT_LMS['the-map'] = {
       {
        "h": {
         "en": "Drill 1: Map your target job (40 min, can be split)",
-        "id": "Latihan 1: Petakan pekerjaan targetmu (40 menit, bisa dibagi)"
+        "id": "Latihan 1: Petakan pekerjaan incaranmu (40 menit, boleh dicicil)"
        },
        "body": {
         "en": "Pick a target role and read 2–3 real Indonesian job ads. Extract at least 12 tasks and, in the plan section below, mark each task's category and importance. Choose three skill bets: one human-led skill, one verification-critical AI-assisted task to master, and one AI-literacy skill.",
-        "id": "Pilih peran target dan baca 2–3 iklan lowongan Indonesia yang nyata. Ekstrak setidaknya 12 tugas dan, di bagian rencana di bawah, tandai kategori dan tingkat kepentingan tiap tugas. Pilih tiga taruhan keterampilan: satu keterampilan yang dipimpin manusia, satu tugas berbantuan AI yang verifikasinya krusial untuk dikuasai, dan satu keterampilan literasi AI."
+        "id": "Pilih satu peran incaran dan baca 2–3 lowongan kerja sungguhan di Indonesia. Ambil setidaknya 12 tugas, lalu di bagian rencana di bawah, tandai kategori dan tingkat kepentingan setiap tugas. Pilih tiga taruhan keterampilan: satu keterampilan yang dipimpin manusia, satu tugas berbantuan AI yang verifikasinya krusial untuk kamu kuasai, dan satu keterampilan literasi AI."
        },
        "debrief": {
         "en": "Look at the AI-assisted column. These are the tasks where your value is judgement plus checking. Recruiters increasingly want proof of both, so put one of them in your 90-day sprint (5.5).",
-        "id": "Lihat kolom berbantuan AI. Ini tugas-tugas tempat nilaimu adalah penilaian plus pengecekan. Perekrut makin ingin bukti keduanya, jadi masukkan salah satunya ke sprint 90 harimu (5.5)."
+        "id": "Perhatikan kolom tugas yang dibantu AI. Di sanalah nilaimu berupa penilaian ditambah pengecekan. Perekrut makin ingin melihat bukti keduanya, jadi masukkan salah satunya ke sprint 90 harimu (5.5)."
        }
       },
       {
        "h": {
         "en": "Drill 2: Frontier test (30 min)",
-        "id": "Latihan 2: Uji batas (30 menit)"
+        "id": "Latihan 2: Uji batas kemampuan AI (30 menit)"
        },
        "body": {
         "en": "Choose five of your mapped tasks that you can judge yourself. Run each through an AI tool twice, score each output 1–5, and mark Inside, Edge or Outside. Note two surprises.",
-        "id": "Pilih lima tugas yang sudah kamu petakan dan bisa kamu nilai sendiri. Jalankan masing-masing melalui alat AI dua kali, nilai tiap keluaran 1–5, dan tandai Dalam, Tepi, atau Luar. Catat dua kejutan."
+        "id": "Pilih lima tugas dari petamu yang bisa kamu nilai sendiri. Jalankan masing-masing dua kali lewat alat AI, beri nilai 1–5 untuk setiap hasil, lalu tandai Di dalam, Di tepi, atau Di luar. Catat dua hal yang mengejutkan."
        },
        "debrief": {
         "en": "Surprises are the point. Most people find AI better than expected at one thing and worse at something that looked easier. Set a reminder to re-test in three months.",
-        "id": "Kejutan adalah intinya. Kebanyakan orang mendapati AI lebih baik dari dugaan pada satu hal dan lebih buruk pada sesuatu yang tampak lebih mudah. Pasang pengingat untuk menguji ulang tiga bulan lagi."
+        "id": "Justru kejutan itulah intinya. Sebagian besar orang mendapati AI lebih bagus dari dugaan di satu hal dan lebih buruk di hal yang tampak lebih mudah. Pasang pengingat untuk menguji ulang tiga bulan lagi."
        }
       },
       {
@@ -19603,11 +19603,11 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Ask an AI tool for a 200-word summary of a topic in your major, with five references. Check every reference and number. Colour-code them: verified, wrong, or can't verify.",
-        "id": "Minta alat AI membuat ringkasan 200 kata tentang topik di jurusanmu, dengan lima referensi. Cek setiap referensi dan angka. Beri kode warna: terverifikasi, salah, atau tidak bisa diverifikasi."
+        "id": "Minta alat AI membuat ringkasan 200 kata tentang satu topik di jurusanmu, lengkap dengan lima referensi. Cek setiap referensi dan angkanya. Beri kode warna: terverifikasi, salah, atau tidak bisa diverifikasi."
        },
        "debrief": {
         "en": "If you found zero errors, check again more carefully, or try a more specific local topic. Errors cluster in references, numbers and local details. That's where your checking should concentrate.",
-        "id": "Jika kamu tidak menemukan kesalahan, cek lagi lebih cermat, atau coba topik Indonesia yang lebih spesifik. Kesalahan mengelompok di referensi, angka, dan detail lokal. Di situlah pengecekanmu harus terpusat."
+        "id": "Kalau kamu tidak menemukan satu kesalahan pun, cek lagi dengan lebih teliti, atau coba topik lokal yang lebih spesifik. Kesalahan menumpuk di referensi, angka, dan detail lokal. Di sanalah pengecekanmu sebaiknya dipusatkan."
        }
       },
       {
@@ -19617,44 +19617,44 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Using the template in the resource kit, write five personal rules: one each for integrity, confidentiality, personal data, disclosure and think-first. Save them in the plan section below.",
-        "id": "Memakai templat di perangkat sumber daya, tulis lima aturan pribadi: masing-masing satu untuk integritas, kerahasiaan, data pribadi, pengungkapan, dan berpikir dulu. Simpan di bagian rencana di bawah."
+        "id": "Dengan templat di perlengkapan, tulis lima aturan pribadi: masing-masing satu untuk integritas, kerahasiaan, data pribadi, keterbukaan, dan berpikir dulu. Simpan di bagian rencana di bawah."
        },
        "debrief": {
         "en": "Rules you write yourself are rules you'll remember under deadline pressure. Review them when you start any new course, internship or job.",
-        "id": "Aturan yang kamu tulis sendiri adalah aturan yang akan kamu ingat di bawah tekanan tenggat. Tinjau saat memulai mata kuliah, magang, atau pekerjaan baru."
+        "id": "Aturan yang kamu tulis sendiri adalah aturan yang akan kamu ingat saat dikejar tenggat. Tinjau lagi setiap kali kamu memulai mata kuliah, magang, atau pekerjaan baru."
        }
       }
      ],
      "mistakes": {
       "title": {
        "en": "Common mistakes",
-       "id": "Kesalahan umum"
+       "id": "Kesalahan yang sering terjadi"
       },
       "items": [
        {
         "h": {
          "en": "Treating fluent output as correct output",
-         "id": "Memperlakukan keluaran yang lancar sebagai keluaran yang benar"
+         "id": "Menganggap hasil yang lancar sebagai hasil yang benar"
         },
         "fix": {
          "en": "CEK-5, every time it matters.",
-         "id": "CEK-5, setiap kali itu penting."
+         "id": "CEK-5, setiap kali hasilnya penting."
         }
        },
        {
         "h": {
          "en": "Pasting confidential or personal data into consumer tools",
-         "id": "Menempel data rahasia atau pribadi ke alat konsumen"
+         "id": "Menempelkan data rahasia atau data pribadi ke alat konsumen"
         },
         "fix": {
          "en": "Three gates; approved tools only; minimise and aggregate.",
-         "id": "Tiga gerbang; hanya alat yang disetujui; minimalkan dan agregasikan."
+         "id": "Tiga gerbang; hanya alat yang disetujui; perkecil dan agregasikan datanya."
         }
        },
        {
         "h": {
          "en": "Letting AI think first",
-         "id": "Membiarkan AI berpikir dulu"
+         "id": "Membiarkan AI berpikir lebih dulu"
         },
         "fix": {
          "en": "Your outline first, then AI, then compare.",
@@ -19668,13 +19668,13 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "Map tasks, build judgement and verification; tools change.",
-         "id": "Petakan tugas, bangun penilaian dan verifikasi; alat berubah."
+         "id": "Petakan tugas, bangun penilaian dan kemampuan verifikasi; alatnya akan berganti."
         }
        },
        {
         "h": {
          "en": "Relying on detectors, or trying to beat them",
-         "id": "Mengandalkan detektor, atau mencoba mengakalinya"
+         "id": "Mengandalkan detektor, atau berusaha mengakalinya"
         },
         "fix": {
          "en": "Keep process evidence; never disguise AI text.",
@@ -19691,37 +19691,37 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Software trained to predict likely next text from vast amounts of writing.",
-        "id": "Perangkat lunak yang dilatih memprediksi teks berikutnya yang mungkin dari tulisan berjumlah sangat besar."
+        "id": "Perangkat lunak yang dilatih dengan tulisan dalam jumlah sangat besar untuk menebak teks berikutnya yang paling mungkin."
        }
       },
       {
        "term": {
         "en": "hallucination",
-        "id": "halusinasi AI"
+        "id": "halusinasi"
        },
        "def": {
         "en": "Confident, plausible output that is false: invented facts or references.",
-        "id": "Keluaran yang percaya diri dan masuk akal tetapi salah: fakta atau referensi yang dikarang."
+        "id": "Hasil yang disampaikan dengan yakin dan terdengar masuk akal tetapi salah: fakta atau referensi karangan."
        }
       },
       {
        "term": {
         "en": "jagged frontier",
-        "id": "batas bergerigi"
+        "id": "batas yang bergerigi"
        },
        "def": {
         "en": "The uneven boundary between tasks AI does well and tasks it quietly fails at.",
-        "id": "Batas tidak rata antara tugas yang dikerjakan AI dengan baik dan tugas yang diam-diam gagal."
+        "id": "Batas tidak rata antara tugas yang dikerjakan AI dengan baik dan tugas yang diam-diam gagal dikerjakannya."
        }
       },
       {
        "term": {
         "en": "human in the loop",
-        "id": "manusia dalam kendali"
+        "id": "manusia di dalam lingkaran kerja"
        },
        "def": {
         "en": "A person who checks, decides and remains accountable for AI-assisted work.",
-        "id": "Orang yang mengecek, memutuskan, dan tetap bertanggung jawab atas pekerjaan berbantuan AI."
+        "id": "Orang yang mengecek, memutuskan, dan tetap bertanggung jawab atas pekerjaan yang dibantu AI."
        }
       },
       {
@@ -19741,7 +19741,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Claims, Evidence, Kesesuaian (fit), Bias, Own it: a five-step verification.",
-        "id": "Claims (klaim), Evidence (bukti), Kesesuaian, Bias, Own it (miliki): verifikasi lima langkah."
+        "id": "Claims, Evidence, Kesesuaian, Bias, Own it: verifikasi lima langkah."
        }
       },
       {
@@ -19759,30 +19759,30 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "Dina asks an AI tool for five journal articles supporting her hypothesis and gets five well-formatted citations. What should she do first?",
-        "id": "Dina meminta alat AI lima artikel jurnal yang mendukung hipotesisnya dan mendapat lima kutipan yang diformat rapi. Apa yang harus ia lakukan lebih dulu?"
+        "id": "Dina meminta alat AI memberinya lima artikel jurnal yang mendukung hipotesisnya dan mendapat lima sitasi yang formatnya rapi. Apa yang sebaiknya ia lakukan lebih dulu?"
        },
        "options": [
         {
          "en": "Paste them in; they're formatted correctly",
-         "id": "Tempelkan; formatnya sudah benar"
+         "id": "Tempelkan saja; formatnya sudah benar"
         },
         {
          "en": "Ask the AI “are these real?” and trust the answer",
-         "id": "Tanya ke AI “ini asli?” dan percaya jawabannya"
+         "id": "Tanyakan ke AI \"apakah ini nyata?\" lalu percayai jawabannya"
         },
         {
          "en": "Look up each one in a scholarly database and read it before using it",
-         "id": "Cari masing-masing di basis data ilmiah dan baca sebelum memakainya"
+         "id": "Cari masing-masing di database ilmiah dan baca sebelum memakainya"
         },
         {
          "en": "Use only the two that sound most relevant",
-         "id": "Pakai hanya dua yang terdengar paling relevan"
+         "id": "Pakai hanya dua yang kedengarannya paling relevan"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Models generate plausible text and can invent references; their self-checks can rationalise errors.",
-        "id": "Model menghasilkan teks yang masuk akal dan bisa mengarang referensi; pengecekan dirinya bisa merasionalisasi kesalahan."
+        "id": "Model menghasilkan teks yang masuk akal dan bisa mengarang referensi; pengecekan oleh model itu sendiri bisa membenarkan kesalahan."
        }
       },
       {
@@ -19793,7 +19793,7 @@ window.MT_LMS['the-map'] = {
        "options": [
         {
          "en": "Most jobs will disappear within five years",
-         "id": "Kebanyakan pekerjaan akan hilang dalam lima tahun"
+         "id": "Sebagian besar pekerjaan akan hilang dalam lima tahun"
         },
         {
          "en": "AI mainly changes tasks within jobs; systems such as regulation and trust slow full replacement",
@@ -19801,23 +19801,23 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "AI affects only low-paid manual jobs",
-         "id": "AI hanya memengaruhi pekerjaan manual berupah rendah"
+         "id": "AI hanya memengaruhi pekerjaan manual bergaji rendah"
         },
         {
          "en": "AI won't affect knowledge work",
-         "id": "AI tidak akan memengaruhi kerja pengetahuan"
+         "id": "AI tidak akan memengaruhi pekerjaan berbasis pengetahuan"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Both the textbook and the research reported by Mollick point to tasks, not whole jobs.",
-        "id": "Buku teks maupun riset yang dilaporkan Mollick menunjuk ke tugas, bukan seluruh pekerjaan."
+        "id": "Buku teks dan penelitian yang dilaporkan Mollick sama-sama menunjuk pada tugas, bukan pekerjaan secara utuh."
        }
       },
       {
        "q": {
         "en": "At your internship you're asked to summarise a client contract quickly. There's no stated AI policy. Best action?",
-        "id": "Di tempat magang kamu diminta meringkas kontrak klien dengan cepat. Tidak ada kebijakan AI yang dinyatakan. Tindakan terbaik?"
+        "id": "Di tempat magang, kamu diminta meringkas kontrak klien dengan cepat. Tidak ada kebijakan AI yang tertulis. Tindakan terbaiknya?"
        },
        "options": [
         {
@@ -19826,40 +19826,40 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Ask your supervisor whether, and which, AI tool is approved for client documents first",
-         "id": "Tanyakan dulu ke atasanmu apakah, dan alat AI mana, yang disetujui untuk dokumen klien"
+         "id": "Tanyakan dulu kepada atasanmu apakah boleh memakai AI, dan alat mana yang disetujui untuk dokumen klien"
         },
         {
          "en": "Delete the client name, then paste it anywhere",
-         "id": "Hapus nama klien, lalu tempel di mana saja"
+         "id": "Hapus nama kliennya, lalu tempelkan ke mana saja"
         },
         {
          "en": "Use your personal phone so it doesn't count",
-         "id": "Pakai ponsel pribadi agar tidak terhitung"
+         "id": "Pakai ponsel pribadimu supaya tidak dihitung"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Gate 2. Inputs may be stored, and removing a name doesn't anonymise.",
-        "id": "Gerbang 2. Masukan bisa disimpan, dan menghapus nama tidak membuat anonim."
+        "id": "Gerbang 2. Masukan bisa disimpan, dan menghapus nama tidak membuat data menjadi anonim."
        }
       },
       {
        "q": {
         "en": "A lecturer says a detector flagged your self-written essay as “80% AI”. Best response?",
-        "id": "Seorang dosen mengatakan detektor menandai esai tulisanmu sendiri sebagai “80% AI”. Respons terbaik?"
+        "id": "Seorang dosen bilang detektor menandai esai yang kamu tulis sendiri sebagai \"80% AI\". Tanggapan terbaiknya?"
        },
        "options": [
         {
          "en": "Run it through a “humaniser”",
-         "id": "Jalankan lewat “humaniser”"
+         "id": "Jalankan lewat \"humaniser\""
         },
         {
          "en": "Accept the penalty",
-         "id": "Terima hukumannya"
+         "id": "Terima saja hukumannya"
         },
         {
          "en": "Respectfully share your drafting evidence (version history, notes, outlines) and note that detectors produce false positives",
-         "id": "Dengan hormat bagikan bukti penyusunanmu (riwayat versi, catatan, kerangka) dan catat bahwa detektor menghasilkan positif palsu"
+         "id": "Dengan sopan, tunjukkan bukti proses penulisanmu (riwayat versi, catatan, kerangka) dan sampaikan bahwa detektor bisa salah menandai"
         },
         {
          "en": "Argue that using AI is everyone's right",
@@ -19869,55 +19869,55 @@ window.MT_LMS['the-map'] = {
        "correct": 2,
        "why": {
         "en": "Process evidence is your best defence; evasion is unethical.",
-        "id": "Bukti proses adalah pembelaan terbaikmu; mengelak itu tidak etis."
+        "id": "Bukti proses adalah pembelaan terbaikmu; mengakali detektor tidak etis."
        }
       },
       {
        "q": {
         "en": "Which task is the best candidate for “AI can do, with light checking”?",
-        "id": "Tugas mana yang paling cocok untuk “AI bisa mengerjakan, dengan pengecekan ringan”?"
+        "id": "Tugas mana yang paling cocok untuk kategori \"bisa dikerjakan AI, dengan pengecekan ringan\"?"
        },
        "options": [
         {
          "en": "Deciding whether to accept a job offer",
-         "id": "Memutuskan apakah menerima tawaran kerja"
+         "id": "Memutuskan apakah akan menerima tawaran kerja"
         },
         {
          "en": "Formatting a 20-row table into a consistent style you can easily check",
-         "id": "Memformat tabel 20 baris ke gaya yang konsisten dan mudah kamu cek"
+         "id": "Merapikan tabel 20 baris ke gaya yang konsisten dan mudah kamu cek"
         },
         {
          "en": "Writing a condolence message to a colleague's family",
-         "id": "Menulis pesan belasungkawa untuk keluarga kolega"
+         "id": "Menulis pesan duka untuk keluarga seorang rekan kerja"
         },
         {
          "en": "Recommending which teammate deserves promotion",
-         "id": "Merekomendasikan rekan tim mana yang layak promosi"
+         "id": "Merekomendasikan rekan tim mana yang layak dipromosikan"
         }
        ],
        "correct": 1,
        "why": {
         "en": "It is tedious, low-stakes and easy to verify. Personal and value-laden decisions stay human by choice.",
-        "id": "Membosankan, taruhan rendah, dan mudah diverifikasi. Keputusan personal dan sarat nilai tetap di tangan manusia karena pilihan."
+        "id": "Tugas itu membosankan, taruhannya kecil, dan mudah diverifikasi. Keputusan yang bersifat pribadi dan sarat nilai tetap di tangan manusia karena dipilih."
        }
       },
       {
        "q": {
         "en": "An AI screening tool rates candidates from certain regions lower, although region isn't an input. Most likely explanation?",
-        "id": "Alat penyaringan AI menilai kandidat dari daerah tertentu lebih rendah, padahal daerah bukan masukan. Penjelasan paling mungkin?"
+        "id": "Sebuah alat AI penyaring kandidat memberi nilai lebih rendah kepada kandidat dari daerah tertentu, padahal daerah tidak dimasukkan sebagai data. Penjelasan yang paling mungkin?"
        },
        "options": [
         {
          "en": "The AI has opinions about regions",
-         "id": "AI punya pendapat tentang daerah"
+         "id": "AI punya pendapat tentang daerah-daerah tertentu"
         },
         {
          "en": "Correlated features (campus, address, language patterns) carry bias learned from historical data",
-         "id": "Fitur yang berkorelasi (kampus, alamat, pola bahasa) membawa bias yang dipelajari dari data historis"
+         "id": "Atribut lain yang berkaitan (kampus, alamat, pola bahasa) membawa bias yang dipelajari dari data masa lalu"
         },
         {
          "en": "Random noise",
-         "id": "Derau acak"
+         "id": "Gangguan acak"
         },
         {
          "en": "Removing the region field guarantees fairness",
@@ -19927,7 +19927,7 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "Fairness through unawareness fails; run swap tests and keep human review.",
-        "id": "Keadilan lewat ketidaktahuan gagal; jalankan uji tukar dan pertahankan tinjauan manusia."
+        "id": "\"Adil karena tidak tahu\" tidak berhasil; jalankan uji tukar dan pertahankan tinjauan oleh manusia."
        }
       }
      ],
@@ -19936,11 +19936,11 @@ window.MT_LMS['the-map'] = {
       "mode": "plan",
       "title": {
        "en": "AI Work Kit: Plan section 7",
-       "id": "Perangkat Kerja AI: Bagian 7 Rencana"
+       "id": "Perangkat Kerja AI: Rencana bagian 7"
       },
       "body": {
        "en": "Task Exposure Map, frontier test, AI Use Log with CEK-5 and your AI Use Rules. Stored on this device; no AI is called from this page.",
-       "id": "Peta Paparan Tugas, uji batas, Log Penggunaan AI dengan CEK-5, dan Aturan Penggunaan AI-mu. Disimpan di perangkat ini; tidak ada AI yang dipanggil dari halaman ini."
+       "id": "Peta Paparan Tugas, uji batas kemampuan AI, Log Penggunaan AI dengan CEK-5, dan Aturan Penggunaan AI-mu. Tersimpan di perangkat ini; halaman ini tidak memanggil AI apa pun."
       },
       "sections": [
        {
@@ -19951,18 +19951,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "Your target role, task by task.",
-         "id": "Peran targetmu, tugas demi tugas."
+         "id": "Peran incaranmu, tugas demi tugas."
         },
         "fields": [
          {
           "id": "role",
           "label": {
            "en": "Target role and the job ads I read",
-           "id": "Peran target dan iklan lowongan yang kubaca"
+           "id": "Peran incaran dan lowongan kerja yang kubaca"
           },
           "hint": {
            "en": "e.g. Data & Operations Trainee · three ads from logistics companies",
-           "id": "mis. Data & Operations Trainee · tiga iklan dari perusahaan logistik"
+           "id": "mis. Data & Operations Trainee · tiga lowongan dari perusahaan logistik"
           },
           "rows": 1
          },
@@ -19970,11 +19970,11 @@ window.MT_LMS['the-map'] = {
           "id": "tasks",
           "label": {
            "en": "12+ tasks, each marked H (human-led), A (AI-assisted) or D (AI can do, light checking), with importance 1–3",
-           "id": "12+ tugas, masing-masing ditandai H (dipimpin manusia), A (berbantuan AI), atau D (AI bisa mengerjakan, pengecekan ringan), dengan tingkat kepentingan 1–3"
+           "id": "12+ tugas, masing-masing ditandai M (dipimpin manusia), B (dibantu AI), atau K (bisa dikerjakan AI, pengecekan ringan), dengan tingkat kepentingan 1–3"
           },
           "hint": {
            "en": "e.g. interpret anomalies with warehouse heads (H, 3) · draft weekly narrative (A, 3) · format tables (D, 1) …",
-           "id": "mis. menafsirkan anomali dengan kepala gudang (H, 3) · menyusun narasi mingguan (A, 3) · memformat tabel (D, 1) …"
+           "id": "mis. menafsirkan anomali bersama kepala gudang (M, 3) · menyusun narasi mingguan (B, 3) · merapikan tabel (K, 1) …"
           },
           "rows": 6
          },
@@ -19982,7 +19982,7 @@ window.MT_LMS['the-map'] = {
           "id": "bets",
           "label": {
            "en": "Three skill bets: one human-led · one verification-critical AI-assisted · one AI-literacy",
-           "id": "Tiga taruhan keterampilan: satu dipimpin manusia · satu berbantuan AI dengan verifikasi krusial · satu literasi AI"
+           "id": "Tiga taruhan keterampilan: satu dipimpin manusia · satu dibantu AI yang verifikasinya krusial · satu literasi AI"
           },
           "hint": {
            "en": "",
@@ -19994,7 +19994,7 @@ window.MT_LMS['the-map'] = {
           "id": "frontier",
           "label": {
            "en": "Frontier test: five tasks · scores (1–5) · Inside / Edge / Outside · two surprises · re-test date",
-           "id": "Uji batas: lima tugas · skor (1–5) · Dalam / Tepi / Luar · dua kejutan · tanggal uji ulang"
+           "id": "Uji batas kemampuan AI: lima tugas · nilai (1–5) · Di dalam / Di tepi / Di luar · dua kejutan · tanggal uji ulang"
           },
           "hint": {
            "en": "",
@@ -20006,11 +20006,11 @@ window.MT_LMS['the-map'] = {
           "id": "log",
           "label": {
            "en": "AI Use Log: date · task · policy checked? · CEK-5 run? · disclosed? · errors caught",
-           "id": "Log Penggunaan AI: tanggal · tugas · kebijakan dicek? · CEK-5 dijalankan? · diungkapkan? · kesalahan yang ditemukan"
+           "id": "Log Penggunaan AI: tanggal · tugas · kebijakan sudah dicek? · CEK-5 sudah dijalankan? · sudah diungkapkan? · kesalahan yang tertangkap"
           },
           "hint": {
            "en": "e.g. 12 Oct · meeting agenda draft · yes (approved tool) · yes · noted in file · one wrong date",
-           "id": "mis. 12 Okt · draf agenda rapat · ya (alat disetujui) · ya · dicatat di berkas · satu tanggal salah"
+           "id": "mis. 12 Okt · draf agenda rapat · ya (alat yang disetujui) · ya · dicatat di berkas · satu tanggal salah"
           },
           "rows": 4
          },
@@ -20018,11 +20018,11 @@ window.MT_LMS['the-map'] = {
           "id": "rules",
           "label": {
            "en": "My five AI Use Rules: integrity · confidentiality · personal data · disclosure · think-first",
-           "id": "Lima Aturan Penggunaan AI-ku: integritas · kerahasiaan · data pribadi · pengungkapan · berpikir dulu"
+           "id": "Lima Aturan Penggunaan AI-ku: integritas · kerahasiaan · data pribadi · keterbukaan · berpikir dulu"
           },
           "hint": {
            "en": "e.g. 1) check the RPS before any graded use · 2) approved tool only at work · 3) never other people's personal data · 4) one disclosure line in every file · 5) 10 minutes of my own outline first",
-           "id": "mis. 1) cek RPS sebelum penggunaan pada tugas yang dinilai · 2) hanya alat yang disetujui di tempat kerja · 3) tidak pernah data pribadi orang lain · 4) satu baris pengungkapan di tiap berkas · 5) 10 menit kerangka sendiri dulu"
+           "id": "mis. 1) cek RPS sebelum memakai AI untuk tugas yang dinilai · 2) di tempat kerja hanya alat yang disetujui · 3) tidak pernah data pribadi orang lain · 4) satu kalimat keterbukaan di setiap berkas · 5) 10 menit kerangka sendiri lebih dulu"
           },
           "rows": 5
          }
@@ -20033,11 +20033,11 @@ window.MT_LMS['the-map'] = {
      "resources": {
       "title": {
        "en": "Resource kit · 5.6",
-       "id": "Perangkat sumber daya · 5.6"
+       "id": "Perlengkapan · 5.6"
       },
       "lead": {
        "en": "Cards, templates and scripts. Everything stays on your device; nothing here calls an AI.",
-       "id": "Kartu, templat, dan naskah. Semuanya tetap di perangkatmu; tidak ada yang memanggil AI di sini."
+       "id": "Kartu, templat, dan naskah. Semuanya tersimpan di perangkatmu; tidak ada yang memanggil AI di sini."
       },
       "items": [
        {
@@ -20048,24 +20048,24 @@ window.MT_LMS['the-map'] = {
         },
         "desc": {
          "en": "Before anything leaves your desk.",
-         "id": "Sebelum apa pun meninggalkan mejamu."
+         "id": "Sebelum apa pun keluar dari mejamu."
         },
         "body": [
          {
           "en": "Claims: list every fact, number, name, date, citation",
-          "id": "Claims: daftar setiap fakta, angka, nama, tanggal, kutipan"
+          "id": "Claims: daftar setiap fakta, angka, nama, tanggal, sitasi"
          },
          {
           "en": "Evidence: check each against a primary source",
-          "id": "Evidence: cek masing-masing terhadap sumber primer"
+          "id": "Evidence: cek masing-masing dengan sumber primer"
          },
          {
           "en": "Kesesuaian: does it answer my question in my context?",
-          "id": "Kesesuaian: apakah ia menjawab pertanyaanku dalam konteksku?"
+          "id": "Kesesuaian: apakah ini menjawab pertanyaanku dalam konteksku?"
          },
          {
           "en": "Bias: who or what is missing or stereotyped?",
-          "id": "Bias: siapa atau apa yang hilang atau distereotipkan?"
+          "id": "Bias: siapa atau apa yang terlewat atau distereotipkan?"
          },
          {
           "en": "Own it: can I defend every sentence without the AI?",
@@ -20077,7 +20077,7 @@ window.MT_LMS['the-map'] = {
         "kind": "script",
         "title": {
          "en": "Asking your lecturer about AI use",
-         "id": "Bertanya ke dosen tentang penggunaan AI"
+         "id": "Bertanya kepada dosen soal penggunaan AI"
         },
         "desc": {
          "en": "In writing, before graded work.",
@@ -20086,11 +20086,11 @@ window.MT_LMS['the-map'] = {
         "body": [
          {
           "en": "“Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk [brainstorming / merapikan bahasa / meringkas literatur], dan bagaimana cara mencantumkannya?”",
-          "id": "“Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk [brainstorming / merapikan bahasa / meringkas literatur], dan bagaimana cara mencantumkannya?”"
+          "id": "\"Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk [brainstorming / merapikan bahasa / meringkas literatur], dan bagaimana cara mencantumkannya?\""
          },
          {
           "en": "Disclosure line: “AI tool used for [purpose]; all content verified and revised by me.”",
-          "id": "Baris pengungkapan: “Alat AI dipakai untuk [tujuan]; semua isi diverifikasi dan direvisi oleh saya.”"
+          "id": "Kalimat keterbukaan: \"Alat AI dipakai untuk [tujuan]; seluruh isi sudah saya verifikasi dan revisi.\""
          }
         ]
        },
@@ -20098,11 +20098,11 @@ window.MT_LMS['the-map'] = {
         "kind": "template",
         "title": {
          "en": "Prompt Builder (seven elements)",
-         "id": "Penyusun Prompt (tujuh elemen)"
+         "id": "Penyusun Prompt (tujuh unsur)"
         },
         "desc": {
          "en": "Draft offline; send one good prompt.",
-         "id": "Susun luring; kirim satu prompt yang baik."
+         "id": "Susun secara offline; kirim satu prompt yang bagus."
         },
         "body": [
          {
@@ -20111,11 +20111,11 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Role for the AI (a technique, not a belief)",
-          "id": "Peran untuk AI (teknik, bukan keyakinan)"
+          "id": "Peran untuk AI (sebuah teknik, bukan keyakinan)"
          },
          {
           "en": "Context: who, where, why",
-          "id": "Konteks: siapa, di mana, mengapa"
+          "id": "Konteks: siapa, di mana, kenapa"
          },
          {
           "en": "Audience",
@@ -20123,15 +20123,15 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Constraints: length, tone, register (“formal sesuai EYD” / “santai”)",
-          "id": "Batasan: panjang, nada, register (“formal sesuai EYD” / “santai”)"
+          "id": "Batasan: panjang, nada, ragam bahasa (\"formal sesuai EYD\" / \"santai\")"
          },
          {
           "en": "Output format",
-          "id": "Format keluaran"
+          "id": "Format hasil"
          },
          {
           "en": "Examples or steps: “list your assumptions first”",
-          "id": "Contoh atau langkah: “daftar asumsimu dulu”"
+          "id": "Contoh atau langkah: \"sebutkan asumsimu dulu\""
          }
         ]
        },
@@ -20143,7 +20143,7 @@ window.MT_LMS['the-map'] = {
         },
         "desc": {
          "en": "Five rules you'll keep under deadline pressure.",
-         "id": "Lima aturan yang akan kamu jaga di bawah tekanan tenggat."
+         "id": "Lima aturan yang tetap kamu pegang saat dikejar tenggat."
         },
         "body": [
          {
@@ -20160,11 +20160,11 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Disclosure: in every file, I …",
-          "id": "Pengungkapan: di setiap berkas, aku …"
+          "id": "Keterbukaan: di setiap berkas, aku …"
          },
          {
           "en": "Think-first: before prompting, I …",
-          "id": "Berpikir dulu: sebelum prompting, aku …"
+          "id": "Berpikir dulu: sebelum menulis prompt, aku …"
          }
         ]
        },
@@ -20176,16 +20176,16 @@ window.MT_LMS['the-map'] = {
         },
         "desc": {
          "en": "Two quick habits.",
-         "id": "Dua kebiasaan cepat."
+         "id": "Dua kebiasaan singkat."
         },
         "body": [
          {
           "en": "Swap test: two identical profiles differing only in name, gender, region or campus; compare the AI's results",
-          "id": "Uji tukar: dua profil identik yang hanya berbeda nama, jenis kelamin, daerah, atau kampus; bandingkan hasil AI"
+          "id": "Uji tukar: dua profil identik yang hanya berbeda nama, jenis kelamin, daerah, atau kampus; bandingkan hasil AI-nya"
          },
          {
           "en": "Scam check: urgent + money or ID + chat channel = verify through a second channel; agree a family code word",
-          "id": "Cek penipuan: mendesak + uang atau identitas + saluran chat = verifikasi lewat saluran kedua; sepakati kata sandi keluarga"
+          "id": "Cek penipuan: mendesak + uang atau identitas + lewat chat = verifikasi lewat saluran kedua; sepakati kata sandi keluarga"
          }
         ]
        },
@@ -20202,7 +20202,7 @@ window.MT_LMS['the-map'] = {
         "body": [
          {
           "en": "Mollick, Co-Intelligence, ch. 1–3, 5–8: how LLMs work, four principles, the jagged frontier, education and expertise",
-          "id": "Mollick, Co-Intelligence, bab 1–3, 5–8: cara kerja LLM, empat prinsip, batas bergerigi, pendidikan dan keahlian"
+          "id": "Mollick, Co-Intelligence, bab 1–3, 5–8: cara kerja LLM, empat prinsip, batas yang bergerigi, pendidikan dan keahlian"
          },
          {
           "en": "Russell & Norvig, Artificial Intelligence: A Modern Approach, ch. 1, 27 and 28: what AI is, ethics, privacy and fairness",
@@ -20223,15 +20223,15 @@ window.MT_LMS['the-map'] = {
      "takeaways": [
       {
        "en": "AI changes tasks within jobs. Map yours, and invest in judgement and checking.",
-       "id": "AI mengubah tugas di dalam pekerjaan. Petakan milikmu, dan investasikan pada penilaian dan pengecekan."
+       "id": "AI mengubah tugas di dalam pekerjaan. Petakan tugas-tugasmu, lalu berinvestasilah pada penilaian dan pengecekan."
       },
       {
        "en": "Find the frontier by testing on work you can judge; re-test every quarter.",
-       "id": "Temukan batasnya dengan menguji pada pekerjaan yang bisa kamu nilai; uji ulang tiap kuartal."
+       "id": "Temukan batas kemampuan AI dengan menguji pada pekerjaan yang bisa kamu nilai sendiri; uji ulang setiap kuartal."
       },
       {
        "en": "Three gates (allowed, safe, checkable), then think first, then CEK-5, then disclose.",
-       "id": "Tiga gerbang (diizinkan, aman, bisa dicek), lalu berpikir dulu, lalu CEK-5, lalu ungkapkan."
+       "id": "Tiga gerbang (diizinkan, aman, bisa dicek), lalu berpikir dulu, lalu CEK-5, lalu terbuka soal pemakaiannya."
       }
      ]
     },
