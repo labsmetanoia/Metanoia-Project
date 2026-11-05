@@ -20243,52 +20243,52 @@ window.MT_LMS['the-map'] = {
      },
      "dur": {
       "en": "40 min",
-      "id": "40 mnt"
+      "id": "40 menit"
      },
      "kind": "interactive",
      "placeholder": false,
      "overview": {
-      "en": "A working professional's digital toolkit has five stations: capture, calendar, files, focus, and a professional inbox. This lesson sets up each one in under an hour total, using free tools you already have; then drills the habits that keep them running.",
-      "id": "Perangkat digital seorang profesional punya lima pos: pencatatan, kalender, berkas, fokus, dan kotak masuk profesional. Pelajaran ini menyiapkan kelimanya dalam total kurang dari satu jam, dengan alat gratis yang sudah kamu miliki; lalu melatih kebiasaan yang menjaganya tetap berjalan."
+      "en": "A working professional's digital toolkit has five stations: capture, calendar, files, focus, and a professional inbox. This lesson sets up each one in under an hour in total, using free tools you already have, then drills the habits that keep them running.",
+      "id": "Perangkat digital seorang profesional punya lima pos: penampung, kalender, berkas, fokus, dan kotak masuk profesional. Pelajaran ini menyiapkan masing-masing dalam waktu kurang dari satu jam secara keseluruhan, dengan alat gratis yang sudah kamu punya, lalu melatih kebiasaan yang membuat semuanya terus berjalan."
      },
      "objectives": [
       {
        "en": "Install a single capture point for every commitment that enters your life.",
-       "id": "Memasang satu titik pencatatan untuk setiap komitmen yang masuk ke hidupmu."
+       "id": "Memasang satu titik penampung untuk setiap komitmen yang masuk ke hidupmu."
       },
       {
        "en": "Make the calendar the single source of truth for time, including important-not-urgent blocks.",
-       "id": "Menjadikan kalender satu-satunya sumber kebenaran tentang waktu, termasuk blok penting-tapi-tidak-mendesak."
+       "id": "Menjadikan kalender satu-satunya sumber kebenaran soal waktu, termasuk blok penting-tapi-tidak-mendesak."
       },
       {
        "en": "Set up file hygiene and a distraction-resistant focus configuration.",
-       "id": "Menata kebersihan berkas dan menyiapkan pengaturan fokus yang tahan gangguan."
+       "id": "Menyiapkan kerapian berkas dan pengaturan fokus yang tahan gangguan."
       },
       {
        "en": "Hold a weekly review and run focus blocks sized to your current capacity, with AI placed inside your stations under your own rules.",
-       "id": "Mengadakan tinjauan mingguan dan menjalankan blok fokus sesuai kapasitasmu saat ini, dengan AI ditempatkan di dalam pos-posmu di bawah aturanmu sendiri."
+       "id": "Menjalankan tinjauan mingguan dan blok fokus yang disesuaikan dengan kapasitasmu saat ini, dengan AI ditempatkan di dalam pos-posmu sesuai aturanmu sendiri."
       }
      ],
      "takeaways": [
       {
        "en": "The system's job is to be trusted: one capture point, processed daily, is what lets your brain stop rehearsing commitments.",
-       "id": "Tugas sistem ini adalah menjadi tepercaya: satu titik pencatatan yang diproses setiap hari adalah yang membuat otakmu berhenti mengulang-ulang daftar komitmen."
+       "id": "Tugas sistem ini adalah untuk dipercaya: satu titik penampung yang diolah setiap hari itulah yang membuat otakmu berhenti terus mengingat-ingat komitmen."
       },
       {
        "en": "If it is not in the calendar, it is not real; if it is, defend it.",
-       "id": "Kalau tidak ada di kalender, berarti tidak nyata; kalau sudah ada di kalender, pertahankan."
+       "id": "Kalau tidak ada di kalender, berarti tidak nyata; kalau ada, lindungi."
       },
       {
        "en": "Focus is an environment you configure once, not willpower you summon hourly.",
-       "id": "Fokus adalah lingkungan yang kamu atur sekali, bukan tekad yang harus kamu kerahkan setiap jam."
+       "id": "Fokus adalah lingkungan yang kamu atur sekali, bukan tekad yang harus kamu kumpulkan setiap jam."
       },
       {
        "en": "Train focus like fitness: start with the block length you can actually hold, then add five minutes a week.",
-       "id": "Latih fokus seperti kebugaran: mulai dengan panjang blok yang benar-benar bisa kamu tahan, lalu tambah lima menit tiap minggu."
+       "id": "Latih fokus seperti melatih kebugaran: mulai dari panjang blok yang benar-benar bisa kamu jalani, lalu tambah lima menit setiap minggu."
       },
       {
        "en": "The weekly review is where the system, your energy and your relationships meet. Twenty minutes, every week.",
-       "id": "Tinjauan mingguan adalah tempat sistem, energimu, dan relasimu bertemu. Dua puluh menit, setiap minggu."
+       "id": "Tinjauan mingguan adalah tempat sistem, energi, dan relasimu bertemu. Dua puluh menit, setiap minggu."
       }
      ],
      "sections": [
@@ -20300,37 +20300,37 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "<b>Capture:</b> one notes app inbox where every task, promise and idea lands within ten seconds of arriving, processed into the calendar or a list every evening. <b>Calendar:</b> classes, deadlines, important-not-urgent blocks, and travel time between them; anything with a date lives here, nowhere else. <b>Files:</b> one cloud root with a shallow, predictable structure (Career/CV, Career/Applications, Uni/Semester-6, Projects/x) and filenames that sort: 2026-08-cv-dataanalyst-v3. <b>Focus:</b> notifications off by default with a small allowlist of humans, phone physically away during blocks, one site-blocker profile for deep work. <b>Professional inbox:</b> an email address that would look fine on a CV, checked twice daily at set times rather than continuously.",
-        "id": "<b>Pencatatan:</b> satu kotak masuk di aplikasi catatan, tempat setiap tugas, janji, dan ide mendarat dalam sepuluh detik setelah muncul. Lalu diproses ke kalender atau daftar setiap malam. <b>Kalender:</b> kuliah, tenggat, blok penting-tapi-tidak-mendesak, dan waktu perjalanan di antaranya; apa pun yang punya tanggal tinggal di sini, bukan di tempat lain. <b>Berkas:</b> satu folder induk di cloud dengan struktur yang dangkal dan mudah ditebak (Karier/CV, Karier/Lamaran, Kuliah/Semester-6, Proyek/x) dan nama berkas yang otomatis terurut: 2026-08-cv-dataanalyst-v3. <b>Fokus:</b> notifikasi mati secara bawaan dengan daftar izin kecil berisi manusia sungguhan, ponsel secara fisik dijauhkan selama blok kerja, satu profil pemblokir situs untuk kerja mendalam. <b>Kotak masuk profesional:</b> alamat email yang pantas tercantum di CV, diperiksa dua kali sehari pada jam yang tetap, bukan terus-menerus."
+        "id": "<b>Penampung:</b> satu kotak masuk di aplikasi catatan tempat setiap tugas, janji, dan ide mendarat dalam sepuluh detik sejak muncul, lalu diolah ke kalender atau daftar setiap malam. <b>Kalender:</b> jadwal kuliah, tenggat, blok penting-tapi-tidak-mendesak, dan waktu perjalanan di antaranya; apa pun yang punya tanggal tinggal di sini, tidak di tempat lain. <b>Berkas:</b> satu folder utama di cloud dengan struktur yang dangkal dan mudah ditebak (Career/CV, Career/Applications, Uni/Semester-6, Projects/x) dan nama berkas yang bisa diurutkan: 2026-08-cv-dataanalyst-v3. <b>Fokus:</b> notifikasi mati secara bawaan dengan daftar kecil orang yang boleh menghubungi, ponsel disimpan jauh secara fisik selama blok fokus, dan satu profil pemblokir situs untuk kerja mendalam. <b>Kotak masuk profesional:</b> alamat email yang pantas dicantumkan di CV, dicek dua kali sehari di jam yang sudah ditentukan, bukan terus-menerus."
        }
       },
       {
        "icon": "target",
        "h": {
         "en": "Focus blocks: train attention like fitness",
-        "id": "Blok fokus: latih perhatian seperti kebugaran"
+        "id": "Blok fokus: latih perhatian seperti melatih kebugaran"
        },
        "body": {
         "en": "The <i>Focus</i> station sets up the environment. This section is about the work done inside it. Stulberg and Magness describe experts working in blocks of concentrated effort, rarely sustaining intense concentration much beyond about two hours, with real breaks between blocks. <b>How to run a block:</b> (1) Write one concrete objective (“draft 300 words of Section 2.3”, not “work on final-year thesis”). (2) Put the phone out of sight, in a bag, another room or a library locker. Face-down on the desk is weaker. (3) Run a timer. (4) Take a real break: water, a short walk, a stretch. Not a feed. (5) Log your output and effort (1–10).",
-        "id": "Pos <i>Fokus</i> menyiapkan lingkungannya. Bagian ini tentang pekerjaan yang dilakukan di dalamnya. Stulberg dan Magness menggambarkan para ahli bekerja dalam blok usaha terkonsentrasi, jarang mempertahankan konsentrasi intens jauh melampaui sekitar dua jam, dengan istirahat sungguhan di antara blok. <b>Cara menjalankan blok:</b> (1) Tulis satu tujuan konkret (“draf 300 kata Bagian 2.3”, bukan “kerjakan skripsi”). (2) Taruh ponsel di luar pandangan, di tas, ruangan lain, atau loker perpustakaan. Telungkup di meja lebih lemah. (3) Jalankan pengatur waktu. (4) Ambil istirahat sungguhan: air, jalan sebentar, peregangan. Bukan linimasa. (5) Catat keluaran dan usahamu (1–10)."
+        "id": "Pos <i>Fokus</i> menyiapkan lingkungannya. Bagian ini membahas pekerjaan yang dilakukan di dalamnya. Stulberg dan Magness menggambarkan para ahli bekerja dalam blok-blok usaha yang terkonsentrasi, jarang mempertahankan konsentrasi tinggi lebih lama dari sekitar dua jam, dengan jeda yang sungguhan di antara blok. <b>Cara menjalankan satu blok:</b> (1) Tulis satu sasaran yang konkret (\"menulis draf 300 kata untuk Subbab 2.3\", bukan \"mengerjakan skripsi\"). (2) Simpan ponsel di luar pandangan: di dalam tas, di ruangan lain, atau di loker perpustakaan. Ditelungkupkan di meja kurang ampuh. (3) Nyalakan pengatur waktu. (4) Ambil jeda yang sungguhan: minum air, jalan sebentar, peregangan. Bukan menggulir media sosial. (5) Catat hasil dan usahamu (1–10)."
        },
        "bullets": [
         {
          "en": "<b>Size it to your real capacity.</b> If you can currently hold 15 minutes, start at 15–25 and add five minutes a week when you complete 80% of your blocks. Starting with 90-minute blocks is like starting a running plan with a marathon (5.1). Cap it at about four or five deep blocks a day.",
-         "id": "<b>Sesuaikan dengan kapasitas nyatamu.</b> Jika saat ini kamu bisa menahan 15 menit, mulai di 15–25 dan tambah lima menit tiap minggu saat kamu menyelesaikan 80% blokmu. Memulai dengan blok 90 menit seperti memulai program lari dengan maraton (5.1). Batasi sekitar empat atau lima blok mendalam sehari."
+         "id": "<b>Sesuaikan dengan kapasitasmu yang sebenarnya.</b> Kalau saat ini kamu bisa bertahan 15 menit, mulailah dari 15–25 menit dan tambahkan lima menit setiap minggu ketika kamu berhasil menyelesaikan 80% blokmu. Memulai dengan blok 90 menit sama seperti memulai program lari dengan maraton (5.1). Batasi sekitar empat atau lima blok kerja mendalam sehari."
         },
         {
          "en": "<b>Put hard work in your alert hours.</b> For three days, rate your alertness 1–5 every two hours. Then put deep blocks in your peaks and admin in your troughs. Larks and owls are both real. Don't copy a CEO's 4:30 a.m. routine if you're an owl.",
-         "id": "<b>Taruh kerja berat di jam siagamu.</b> Selama tiga hari, nilai kesiagaanmu 1–5 tiap dua jam. Lalu taruh blok mendalam di puncakmu dan administrasi di lembahmu. Tipe pagi dan tipe malam sama-sama nyata. Jangan tiru rutinitas CEO pukul 04.30 jika kamu tipe malam."
+         "id": "<b>Taruh pekerjaan berat di jam-jam paling segarmu.</b> Selama tiga hari, beri nilai kesegaranmu 1–5 setiap dua jam. Lalu taruh blok kerja mendalam di jam puncakmu dan urusan administrasi di jam-jam lesu. Tipe pagi dan tipe malam sama-sama nyata. Jangan meniru rutinitas jam 4.30 pagi seorang CEO kalau kamu tipe malam."
         },
         {
          "en": "<b>Single-task.</b> Switching between tasks has real costs. During a block, close everything that isn't the task.",
-         "id": "<b>Satu tugas.</b> Berpindah antar tugas punya biaya nyata. Selama blok, tutup semua yang bukan tugas itu."
+         "id": "<b>Kerjakan satu hal.</b> Berpindah-pindah tugas punya biaya yang nyata. Selama satu blok, tutup semua yang bukan tugas itu."
         }
        ],
        "after": [
         {
          "en": "<i>Evidence note: the principle of concentrated blocks with real breaks is well supported; the precise durations are practitioner estimates. The research on a phone's mere presence is mixed, but the habit is cheap and harmless.</i>",
-         "id": "<i>Catatan bukti: prinsip blok terkonsentrasi dengan istirahat sungguhan terdukung baik; durasi persisnya adalah perkiraan praktisi. Riset tentang sekadar kehadiran ponsel beragam, tetapi kebiasaannya murah dan tidak berbahaya.</i>"
+         "id": "<i>Catatan bukti: prinsip blok konsentrasi dengan jeda yang sungguhan didukung dengan baik; durasi tepatnya adalah perkiraan para praktisi. Penelitian tentang pengaruh sekadar keberadaan ponsel masih beragam, tetapi kebiasaan ini murah dan tidak merugikan.</i>"
         }
        ]
       },
@@ -20341,13 +20341,13 @@ window.MT_LMS['the-map'] = {
         "id": "Tinjauan mingguan: tempat sistem bertemu hidupmu"
        },
        "body": {
-        "en": "The five stations need maintenance. The existing lesson's evening process handles the daily part (capture into calendar or list). The weekly review is the 20-minute version that also connects the rest of Module 5. <b>The 20-minute weekly review:</b> (1) <b>Clear (5 min):</b> empty capture, chats and screenshots into calendar or list; archive finished files. (2) <b>Look back (5 min):</b> what got done; focus blocks completed; battery score this week (5.1); stress-cycle days (5.2). (3) <b>Look ahead (7 min):</b> deadlines for the next two weeks. Plan the shape of the week: hard days, easy days and one off-block (the Growth Equation). Book focus blocks in your peak hours. Book one relationship action (5.3) and one learning-loop hour (5.5). (4) <b>Adjust (3 min):</b> if something keeps slipping, shrink it, delegate it, or decide it's not a priority. Don't keep scheduling it to fail.",
-        "id": "Lima pos butuh perawatan. Proses malam di pelajaran yang ada menangani bagian hariannya (tangkap ke kalender atau daftar). Tinjauan mingguan adalah versi 20 menit yang juga menghubungkan sisa Modul 5. <b>Tinjauan mingguan 20 menit:</b> (1) <b>Bersihkan (5 mnt):</b> kosongkan tangkapan, chat, dan tangkapan layar ke kalender atau daftar; arsipkan berkas yang selesai. (2) <b>Lihat ke belakang (5 mnt):</b> apa yang selesai; blok fokus yang tuntas; skor baterai minggu ini (5.1); hari siklus stres (5.2). (3) <b>Lihat ke depan (7 mnt):</b> tenggat dua minggu ke depan. Rencanakan bentuk minggunya: hari berat, hari ringan, dan satu blok libur (Persamaan Pertumbuhan). Pesan blok fokus di jam puncakmu. Pesan satu tindakan relasi (5.3) dan satu jam putaran belajar (5.5). (4) <b>Sesuaikan (3 mnt):</b> jika sesuatu terus tergelincir, kecilkan, delegasikan, atau putuskan itu bukan prioritas. Jangan terus menjadwalkannya untuk gagal."
+        "en": "The five stations need maintenance. The evening process from the Capture station handles the daily part (capture into calendar or list). The weekly review is the 20-minute version that also connects the rest of Module 5. <b>The 20-minute weekly review:</b> (1) <b>Clear (5 min):</b> empty capture, chats and screenshots into calendar or list; archive finished files. (2) <b>Look back (5 min):</b> what got done; focus blocks completed; battery score this week (5.1); stress-cycle days (5.2). (3) <b>Look ahead (7 min):</b> deadlines for the next two weeks. Plan the shape of the week: hard days, easy days and one off-block (the Growth Equation). Book focus blocks in your peak hours. Book one relationship action (5.3) and one learning-loop hour (5.5). (4) <b>Adjust (3 min):</b> if something keeps slipping, shrink it, delegate it, or decide it's not a priority. Don't keep scheduling it to fail.",
+        "id": "Kelima pos itu butuh perawatan. Proses malam hari dari pos Penampung menangani bagian hariannya (memindahkan isi penampung ke kalender atau daftar). Tinjauan mingguan adalah versi 20 menit yang juga menghubungkan bagian-bagian lain dari Modul 5. <b>Tinjauan mingguan 20 menit:</b> (1) <b>Bersihkan (5 menit):</b> kosongkan penampung, chat, dan tangkapan layar ke kalender atau daftar; arsipkan berkas yang sudah selesai. (2) <b>Lihat ke belakang (5 menit):</b> apa yang sudah selesai; blok fokus yang berhasil dijalankan; skor baterai minggu ini (5.1); hari-hari penuntasan siklus stres (5.2). (3) <b>Lihat ke depan (7 menit):</b> tenggat dua minggu ke depan. Rencanakan bentuk minggunya: hari berat, hari ringan, dan satu blok libur (Persamaan Pertumbuhan). Jadwalkan blok fokus di jam puncakmu. Jadwalkan satu tindakan relasi (5.3) dan satu jam lingkaran belajar (5.5). (4) <b>Sesuaikan (3 menit):</b> kalau ada yang terus tergelincir, kecilkan, delegasikan, atau putuskan bahwa itu bukan prioritas. Jangan terus menjadwalkannya hanya untuk gagal lagi."
        },
        "after": [
         {
          "en": "<b>When:</b> the same slot every week (for example, Sunday 19:00 or Friday 16:30), with the phone away.",
-         "id": "<b>Kapan:</b> slot yang sama tiap minggu (misalnya, Minggu 19.00 atau Jumat 16.30), dengan ponsel disimpan."
+         "id": "<b>Kapan:</b> di slot yang sama setiap minggu (misalnya Minggu 19:00 atau Jumat 16:30), dengan ponsel disimpan jauh."
         }
        ]
       },
@@ -20359,7 +20359,7 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Pennington warns against confusing the tool with the goal. AI is not a station. It is a helper inside each station, under the three gates and CEK-5 from Lesson 5.6.",
-        "id": "Pennington memperingatkan agar tidak mengacaukan alat dengan tujuan. AI bukan pos. Ia pembantu di dalam tiap pos, di bawah tiga gerbang dan CEK-5 dari Pelajaran 5.6."
+        "id": "Pennington mengingatkan agar alat tidak dikacaukan dengan tujuannya. AI bukan sebuah pos. AI adalah pembantu di dalam setiap pos, di bawah tiga gerbang dan CEK-5 dari Pelajaran 5.6."
        },
        "table": {
         "cols": [
@@ -20369,7 +20369,7 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Where AI can help",
-          "id": "Di mana AI bisa membantu"
+          "id": "Tempat AI bisa membantu"
          },
          {
           "en": "Your rule",
@@ -20380,15 +20380,15 @@ window.MT_LMS['the-map'] = {
          [
           {
            "en": "Capture",
-           "id": "Tangkap"
+           "id": "Penampung"
           },
           {
            "en": "Turn a voice note into a task list; summarise a long chat into action items",
-           "id": "Ubah pesan suara menjadi daftar tugas; ringkas chat panjang menjadi butir tindakan"
+           "id": "Mengubah pesan suara menjadi daftar tugas; meringkas chat panjang menjadi daftar tindakan"
           },
           {
            "en": "Check the items against the original before trusting them",
-           "id": "Cek butir-butirnya terhadap aslinya sebelum memercayainya"
+           "id": "Cocokkan daftarnya dengan pesan aslinya sebelum memercayainya"
           }
          ],
          [
@@ -20398,7 +20398,7 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Suggest a weekly layout from your deadlines",
-           "id": "Sarankan tata letak mingguan dari tenggatmu"
+           "id": "Mengusulkan susunan minggu dari tenggat-tenggatmu"
           },
           {
            "en": "You decide the shape (hard/easy days, recovery); AI only drafts",
@@ -20412,11 +20412,11 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Suggest consistent file names, find a document by description",
-           "id": "Sarankan nama berkas yang konsisten, temukan dokumen lewat deskripsi"
+           "id": "Mengusulkan nama berkas yang konsisten, mencari dokumen berdasarkan deskripsinya"
           },
           {
            "en": "Never upload confidential files to unapproved tools",
-           "id": "Jangan pernah mengunggah berkas rahasia ke alat yang tidak disetujui"
+           "id": "Jangan pernah mengunggah berkas rahasia ke alat yang belum disetujui"
           }
          ],
          [
@@ -20426,7 +20426,7 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Quiz you at the end of a block; explain a concept you're stuck on after your timed struggle",
-           "id": "Menguji kamu di akhir blok; menjelaskan konsep yang membuatmu mentok setelah pergulatan terjadwalmu"
+           "id": "Mengujimu di akhir blok; menjelaskan konsep yang membuatmu mentok setelah waktu bergulatmu habis"
           },
           {
            "en": "Think first; use it as a tutor, not a ghostwriter",
@@ -20440,11 +20440,11 @@ window.MT_LMS['the-map'] = {
           },
           {
            "en": "Draft a polite reply in formal Indonesian or English",
-           "id": "Susun balasan sopan dalam bahasa Indonesia atau Inggris formal"
+           "id": "Membuat draf balasan yang sopan dalam bahasa Indonesia formal atau bahasa Inggris"
           },
           {
            "en": "Read every word before sending; no client data in consumer tools; disclose where required",
-           "id": "Baca setiap kata sebelum mengirim; tanpa data klien di alat konsumen; ungkapkan bila diwajibkan"
+           "id": "Baca setiap kata sebelum mengirim; tanpa data klien di alat konsumen; ungkapkan pemakaiannya bila diwajibkan"
           }
          ]
         ],
@@ -20453,7 +20453,7 @@ window.MT_LMS['the-map'] = {
        "after": [
         {
          "en": "<b>Log it.</b> The AI Use Log (5.6) records each meaningful use: the task, whether policy was checked, whether CEK-5 was run, and whether use was disclosed. It also builds the record you may need for a final-year thesis supervisor or an internship review.",
-         "id": "<b>Catat.</b> Log Penggunaan AI (5.6) mencatat tiap penggunaan yang berarti: tugasnya, apakah kebijakan dicek, apakah CEK-5 dijalankan, dan apakah penggunaan diungkapkan. Ia juga membangun catatan yang mungkin kamu butuhkan untuk pembimbing skripsi atau tinjauan magang."
+         "id": "<b>Catat.</b> Log Penggunaan AI (5.6) merekam setiap pemakaian yang berarti: tugasnya, apakah kebijakan sudah dicek, apakah CEK-5 sudah dijalankan, dan apakah pemakaiannya sudah diungkapkan. Log ini juga membangun catatan yang mungkin kamu perlukan untuk dosen pembimbing skripsi atau evaluasi magang."
         }
        ]
       },
@@ -20461,28 +20461,28 @@ window.MT_LMS['the-map'] = {
        "icon": "eye",
        "h": {
         "en": "Digital well-being: who is your phone working for?",
-        "id": "Kesejahteraan digital: ponselmu bekerja untuk siapa?"
+        "id": "Kesejahteraan digital: untuk siapa ponselmu bekerja?"
        },
        "body": {
         "en": "Russell and Norvig note that many recommendation and attention systems are built to maximise engagement, not your long-term interest, and they hope for personal tools that protect people from “addictive attention-grabbers”. Your settings can do some of that protecting today.",
-        "id": "Russell dan Norvig mencatat banyak sistem rekomendasi dan perhatian dibangun untuk memaksimalkan keterlibatan, bukan kepentingan jangka panjangmu, dan mereka berharap ada alat pribadi yang melindungi orang dari “perebut perhatian yang adiktif”. Pengaturanmu bisa melakukan sebagian perlindungan itu hari ini."
+        "id": "Russell dan Norvig mencatat bahwa banyak sistem rekomendasi dan sistem penarik perhatian dibangun untuk memaksimalkan keterlibatan, bukan kepentingan jangka panjangmu, dan mereka berharap ada alat pribadi yang melindungi orang dari \"penarik perhatian yang membuat kecanduan\". Pengaturan ponselmu bisa melakukan sebagian perlindungan itu sejak hari ini."
        },
        "bullets": [
         {
          "en": "<b>Notifications off by default</b>, with a small allowlist of humans (already in the Focus station). Group chats muted except for named mentions.",
-         "id": "<b>Notifikasi mati secara bawaan</b>, dengan daftar izin kecil berisi manusia (sudah ada di pos Fokus). Grup chat dibisukan kecuali sebutan nama."
+         "id": "<b>Notifikasi mati secara bawaan</b>, dengan daftar kecil orang yang boleh menghubungi (sudah ada di pos Fokus). Grup chat dibisukan kecuali kalau namamu disebut."
         },
         {
          "en": "<b>A wind-down boundary.</b> No screens in bed; a physical alarm clock (5.1). Phone charging outside the room if possible.",
-         "id": "<b>Batas menjelang tidur.</b> Tanpa layar di tempat tidur; jam weker fisik (5.1). Ponsel diisi daya di luar kamar jika memungkinkan."
+         "id": "<b>Batas sebelum tidur.</b> Tanpa layar di tempat tidur; pakai jam weker (5.1). Isi daya ponsel di luar kamar kalau memungkinkan."
         },
         {
          "en": "<b>Comparison audit.</b> For one week, after each LinkedIn or Instagram session, note whether your attention went orange (comparing yourself to others) or red (worrying about outcomes) (5.2's Focus Circle). Mute the five accounts that most reliably take you there. Replace one scroll a day with a toward action: message one person in your network, or spend 20 minutes on your portfolio.",
-         "id": "<b>Audit perbandingan.</b> Selama satu minggu, setelah tiap sesi LinkedIn atau Instagram, catat apakah perhatianmu menjadi oranye (membandingkan diri dengan orang lain) atau merah (mencemaskan hasil) (Lingkaran Fokus 5.2). Bisukan lima akun yang paling sering membawamu ke sana. Ganti satu sesi menggulir per hari dengan tindakan ke arah: kirim pesan ke satu orang di jaringanmu, atau habiskan 20 menit untuk portofoliomu."
+         "id": "<b>Audit perbandingan.</b> Selama satu minggu, setiap selesai membuka LinkedIn atau Instagram, catat apakah perhatianmu berubah oranye (membandingkan diri dengan orang lain) atau merah (mengkhawatirkan hasil) (Lingkaran Fokus di 5.2). Bisukan lima akun yang paling sering membawamu ke sana. Ganti satu sesi menggulir per hari dengan satu tindakan ke arah nilaimu: kirim pesan ke satu orang di jaringanmu, atau habiskan 20 menit untuk portofoliomu."
         },
         {
          "en": "<b>WhatsApp group hygiene.</b> Use numbered replies for decisions (5.4), batch your group reading into your two inbox times, and leave or mute groups that no longer serve you, politely.",
-         "id": "<b>Kebersihan grup WhatsApp.</b> Pakai balasan bernomor untuk keputusan (5.4), kelompokkan membaca grup ke dua waktu kotak masukmu, dan keluar atau bisukan grup yang tidak lagi berguna bagimu, dengan sopan."
+         "id": "<b>Kebersihan grup WhatsApp.</b> Pakai balasan bernomor untuk keputusan (5.4), kumpulkan waktu membaca grup ke dua jam cek kotak masuk, dan keluar atau bisukan grup yang sudah tidak berguna bagimu, dengan sopan."
         }
        ]
       },
@@ -20490,11 +20490,11 @@ window.MT_LMS['the-map'] = {
        "icon": "flag",
        "h": {
         "en": "Digital safety and professional hygiene: the 30-minute basics",
-        "id": "Keamanan digital dan kebersihan profesional: dasar 30 menit"
+        "id": "Keamanan digital dan kebersihan profesional: dasar-dasar 30 menit"
        },
        "body": {
         "en": "(1) <b>Turn on two-factor authentication</b> for email, cloud storage, banking and LinkedIn. (2) <b>Use a password manager</b>, or at least unique passwords for email and banking. (3) <b>Back up</b> the Career and Uni folders (3 copies, 2 places, 1 offline or another account). (4) <b>Recognise phishing and job scams.</b> Watch for urgency, requests for fees, requests for your ID (national ID card), OTP codes or bank details over chat, and offers that seem too good. Verify through a second channel. (5) <b>On shared devices</b> (warnet, campus lab, a family laptop), use a private window and log out. (6) <b>Low-data habits.</b> Download large files on Wi-Fi, set cloud sync to “Wi-Fi only”, and use offline-capable notes.",
-        "id": "(1) <b>Nyalakan autentikasi dua langkah</b> untuk email, penyimpanan awan, perbankan, dan LinkedIn. (2) <b>Pakai pengelola kata sandi</b>, atau setidaknya kata sandi unik untuk email dan perbankan. (3) <b>Cadangkan</b> folder Karier dan Kuliah (3 salinan, 2 tempat, 1 luring atau akun lain). (4) <b>Kenali phishing dan penipuan lowongan.</b> Waspadai desakan, permintaan biaya, permintaan KTP, kode OTP, atau rincian bank lewat chat, dan tawaran yang terlalu bagus. Verifikasi lewat saluran kedua. (5) <b>Di perangkat bersama</b> (warnet, lab kampus, laptop keluarga), pakai jendela privat dan keluar akun. (6) <b>Kebiasaan hemat data.</b> Unduh berkas besar di Wi-Fi, atur sinkronisasi awan ke “hanya Wi-Fi”, dan pakai catatan yang bisa luring."
+        "id": "(1) <b>Aktifkan autentikasi dua faktor</b> untuk email, penyimpanan cloud, perbankan, dan LinkedIn. (2) <b>Pakai pengelola kata sandi</b>, atau setidaknya kata sandi yang berbeda untuk email dan perbankan. (3) <b>Cadangkan</b> folder Career dan Uni (3 salinan, 2 tempat, 1 offline atau di akun lain). (4) <b>Kenali phishing dan penipuan lowongan kerja.</b> Waspadai desakan, permintaan biaya, permintaan KTP, kode OTP, atau data rekening lewat chat, dan tawaran yang terlalu bagus untuk jadi kenyataan. Verifikasi lewat saluran kedua. (5) <b>Di perangkat bersama</b> (warnet, lab kampus, laptop keluarga), pakai jendela pribadi dan keluar dari akun. (6) <b>Kebiasaan hemat kuota.</b> Unduh berkas besar saat terhubung Wi-Fi, atur sinkronisasi cloud ke \"hanya Wi-Fi\", dan pakai aplikasi catatan yang bisa dipakai offline."
        }
       }
      ],
@@ -20502,15 +20502,15 @@ window.MT_LMS['the-map'] = {
       {
        "h": {
         "en": "Setup sprint 1: Capture and calendar (20 min)",
-        "id": "Sprint penyiapan 1: Pencatatan dan kalender (20 menit)"
+        "id": "Sprint penyiapan 1: Penampung dan kalender (20 menit)"
        },
        "body": {
         "en": "Create the capture inbox; move every floating commitment from your head, chats and screenshots into it; then transfer everything dated into the calendar, including next week's two important-not-urgent blocks. Reveal the debrief when done.",
-        "id": "Buat kotak masuk pencatatan; pindahkan setiap komitmen yang masih mengambang di kepala, di obrolan, dan di tangkapan layar ke dalamnya; lalu salin semua yang punya tanggal ke kalender, termasuk dua blok penting-tapi-tidak-mendesak untuk minggu depan. Buka tinjauan setelah selesai."
+        "id": "Buat kotak masuk penampung; pindahkan setiap komitmen yang masih mengambang di kepala, chat, dan tangkapan layarmu ke sana; lalu pindahkan semua yang bertanggal ke kalender, termasuk dua blok penting-tapi-tidak-mendesak untuk minggu depan. Buka pembahasannya setelah selesai."
        },
        "debrief": {
         "en": "The uncomfortable part is the first sweep: most people find 20–40 floating commitments and feel the exact moment their background anxiety drops. That relief is the system working. The brain stops using working memory as a to-do list. The maintenance cost is one five-minute evening process; the failure mode is capturing into three places, which recreates the distrust the system exists to remove.",
-        "id": "Bagian yang tidak nyaman adalah sapuan pertama: kebanyakan orang menemukan 20–40 komitmen yang mengambang, dan merasakan persis momen ketika kecemasan di latar belakang mereka mereda. Kelegaan itu tanda sistemnya bekerja. Otak berhenti memakai memori kerja sebagai daftar tugas. Biaya perawatannya hanya proses lima menit setiap malam; cara gagalnya adalah mencatat ke tiga tempat sekaligus, yang menghidupkan lagi ketidakpercayaan yang justru ingin dihapus sistem ini."
+        "id": "Bagian yang tidak nyaman adalah sapuan pertamanya: kebanyakan orang menemukan 20–40 komitmen yang mengambang dan merasakan saat yang tepat ketika kecemasan di latar belakang pikirannya turun. Rasa lega itu tanda sistemnya bekerja. Otak berhenti memakai memori kerja sebagai daftar tugas. Biaya perawatannya hanya satu proses malam lima menit; kegagalannya terjadi ketika kamu menampung di tiga tempat, yang menghidupkan lagi rasa tidak percaya yang ingin dihapus sistem ini."
        }
       },
       {
@@ -20520,25 +20520,25 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Build the folder skeleton, rename your five most-used files to the dated convention, then configure focus: notifications off, human allowlist, one blocker profile. Reveal when done.",
-        "id": "Bangun kerangka foldernya, ganti nama lima berkas yang paling sering kamu pakai sesuai konvensi bertanggal, lalu atur fokus: notifikasi mati, daftar izin berisi manusia, satu profil pemblokir. Buka tinjauan setelah selesai."
+        "id": "Buat kerangka foldernya, ganti nama lima berkas yang paling sering kamu pakai dengan format bertanggal, lalu atur fokusnya: notifikasi mati, daftar orang yang boleh menghubungi, satu profil pemblokir. Buka pembahasannya setelah selesai."
        },
        "debrief": {
-        "en": "File hygiene pays at exactly two moments: the interview where you need last year's project in ten seconds, and the application deadline where you need cv-v3, not cv-final-final-REAL. The focus configuration is doing the heavier lifting than it appears: environment design removes hundreds of daily micro-decisions, and each removed decision is willpower saved for actual work.",
-        "id": "Kebersihan berkas terbayar tepat di dua momen: saat wawancara ketika kamu butuh proyek tahun lalu dalam sepuluh detik, dan saat tenggat lamaran ketika kamu butuh cv-v3, bukan cv-final-final-BENERAN. Pengaturan fokus bekerja lebih keras daripada kelihatannya: merancang lingkungan menghapus ratusan keputusan kecil setiap hari, dan setiap keputusan yang terhapus adalah tekad yang dihemat untuk pekerjaan sungguhan."
+        "en": "File hygiene pays at exactly two moments: the interview where you need last year's project in ten seconds, and the application deadline where you need cv-v3, not cv-final-final-REAL. The focus configuration does more of the heavy lifting than it appears to: environment design removes hundreds of daily micro-decisions, and each removed decision is willpower saved for actual work.",
+        "id": "Kerapian berkas terbayar tepat di dua momen: wawancara ketika kamu harus menemukan proyek tahun lalu dalam sepuluh detik, dan tenggat lamaran ketika kamu butuh cv-v3, bukan cv-final-final-BENERAN. Pengaturan fokus justru memikul beban yang lebih berat dari kelihatannya: merancang lingkungan menghapus ratusan keputusan kecil setiap hari, dan setiap keputusan yang terhapus berarti tekad yang tersimpan untuk pekerjaan yang sebenarnya."
        }
       },
       {
        "h": {
         "en": "Setup sprint 3: The professional surface (15 min)",
-        "id": "Sprint penyiapan 3: Wajah profesional (15 menit)"
+        "id": "Sprint penyiapan 3: Wajah profesionalmu (15 menit)"
        },
        "body": {
         "en": "Audit the email address, username and profile photo a recruiter would meet. Set two fixed inbox times. Draft a three-line signature. Reveal when done.",
-        "id": "Periksa alamat email, nama pengguna, dan foto profil yang akan dilihat perekrut. Tetapkan dua jam tetap untuk memeriksa kotak masuk. Susun tanda tangan email tiga baris. Buka tinjauan setelah selesai."
+        "id": "Periksa alamat email, nama pengguna, dan foto profil yang akan dilihat perekrut. Tetapkan dua jam tetap untuk mengecek kotak masuk. Buat draf tanda tangan email tiga baris. Buka pembahasannya setelah selesai."
        },
        "debrief": {
-        "en": "Recruiters meet your digital surface before they meet you. The bar is modest, name-based address, clear photo, signature with name, degree and phone, but missing it is disproportionately expensive because it is read as a preview of your work habits. Batched inbox times are the deeper win: continuous checking fragments attention all day for a message volume that two sessions handle in twenty minutes.",
-        "id": "Perekrut bertemu wajah digitalmu sebelum bertemu dirimu. Standarnya sederhana, alamat email berbasis nama, foto yang jelas, tanda tangan berisi nama, gelar, dan nomor telepon, tapi melewatkannya sangat mahal, karena dibaca sebagai cuplikan kebiasaan kerjamu. Jam kotak masuk yang dikelompokkan adalah kemenangan yang lebih besar: memeriksa email terus-menerus memecah perhatian sepanjang hari, padahal volume pesannya bisa diselesaikan dalam dua sesi berdurasi dua puluh menit."
+        "en": "Recruiters meet your digital surface before they meet you. The bar is modest (name-based address, clear photo, signature with name, degree and phone), but missing it is disproportionately expensive because it is read as a preview of your work habits. Batched inbox times are the deeper win: continuous checking fragments attention all day for a message volume that two sessions handle in twenty minutes.",
+        "id": "Perekrut melihat wajah digitalmu sebelum bertemu denganmu. Standarnya sederhana (alamat email berbasis nama, foto yang jelas, tanda tangan berisi nama, gelar, dan nomor telepon), tetapi tidak memenuhinya bisa sangat merugikan karena dianggap gambaran awal kebiasaan kerjamu. Jam cek kotak masuk yang dikumpulkan adalah keuntungan yang lebih dalam: mengecek terus-menerus memecah perhatian sepanjang hari untuk jumlah pesan yang bisa diselesaikan dalam dua sesi selama dua puluh menit."
        }
       },
       {
@@ -20548,11 +20548,11 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Rate your alertness every two hours for three days, set your starting block length honestly, and book this week's blocks in your peaks in the plan section below. Add five minutes when you complete 80% of your blocks.",
-        "id": "Nilai kesiagaanmu tiap dua jam selama tiga hari, tetapkan panjang blok awalmu dengan jujur, dan pesan blok minggu ini di puncakmu di bagian rencana di bawah. Tambah lima menit saat kamu menyelesaikan 80% blokmu."
+        "id": "Beri nilai kesegaranmu setiap dua jam selama tiga hari, tetapkan panjang blok awalmu dengan jujur, lalu jadwalkan blok-blok minggu ini di jam puncakmu di bagian rencana di bawah. Tambahkan lima menit ketika kamu berhasil menyelesaikan 80% blokmu."
        },
        "debrief": {
         "en": "Most people overestimate their starting block length by about double. Starting where you are is what makes the next five minutes possible.",
-        "id": "Kebanyakan orang melebih-lebihkan panjang blok awal mereka sekitar dua kali lipat. Memulai dari tempatmu berada adalah yang membuat lima menit berikutnya mungkin."
+        "id": "Kebanyakan orang menaksir panjang blok awalnya sekitar dua kali lipat dari kenyataan. Mulai dari posisimu yang sebenarnya itulah yang membuat tambahan lima menit berikutnya mungkin dicapai."
        }
       },
       {
@@ -20562,11 +20562,11 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Run the four-part review using the card in the resource kit. Pull in your battery reading (5.1), stress-cycle days (5.2), your chosen relationship action (5.3) and learning-loop hour (5.5), and write the result in the plan section below.",
-        "id": "Jalankan tinjauan empat bagian memakai kartu di perangkat sumber daya. Tarik pembacaan bateraimu (5.1), hari siklus stres (5.2), tindakan relasi pilihanmu (5.3), dan jam putaran belajar (5.5), dan tulis hasilnya di bagian rencana di bawah."
+        "id": "Jalankan tinjauan empat bagian dengan kartu di perlengkapan. Masukkan catatan baterai (5.1), hari-hari penuntasan siklus stres (5.2), tindakan relasi yang kamu pilih (5.3), dan jam lingkaran belajar (5.5), lalu tulis hasilnya di bagian rencana di bawah."
        },
        "debrief": {
         "en": "The review often shows that the week was planned for a version of you with a full battery. Plan for the real one. Shrink, but never to zero.",
-        "id": "Tinjauan sering menunjukkan minggu itu direncanakan untuk versi dirimu dengan baterai penuh. Rencanakan untuk yang nyata. Kecilkan, tapi jangan sampai nol."
+        "id": "Tinjauan ini sering menunjukkan bahwa minggumu direncanakan untuk versi dirimu yang baterainya penuh. Rencanakan untuk versi yang sebenarnya. Kecilkan, tetapi jangan pernah sampai nol."
        }
       }
      ],
@@ -20575,11 +20575,11 @@ window.MT_LMS['the-map'] = {
        {
         "h": {
          "en": "Tool shopping instead of habit building",
-         "id": "Berburu aplikasi, bukan membangun kebiasaan"
+         "id": "Sibuk berburu alat alih-alih membangun kebiasaan"
         },
         "fix": {
          "en": "Any notes app plus any calendar wins if processed daily. Switching tools is procrastination wearing a productivity costume.",
-         "id": "Aplikasi catatan apa pun ditambah kalender apa pun sudah cukup, asal diproses setiap hari. Gonta-ganti alat adalah penundaan yang memakai kostum produktivitas."
+         "id": "Aplikasi catatan apa pun ditambah kalender apa pun akan berhasil kalau diolah setiap hari. Gonta-ganti alat adalah menunda pekerjaan yang menyamar sebagai produktivitas."
         }
        },
        {
@@ -20589,57 +20589,57 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "Blocks you routinely ignore teach you to ignore all blocks. Schedule less; honour everything scheduled.",
-         "id": "Blok yang rutin kamu abaikan mengajari dirimu untuk mengabaikan semua blok. Jadwalkan lebih sedikit; tepati semua yang sudah dijadwalkan."
+         "id": "Blok yang rutin kamu abaikan mengajarimu mengabaikan semua blok. Jadwalkan lebih sedikit; tepati semua yang sudah dijadwalkan."
         }
        },
        {
         "h": {
          "en": "Deleting the system in busy weeks",
-         "id": "Membuang sistem saat minggu sedang sibuk"
+         "id": "Membuang sistemnya di minggu yang sibuk"
         },
         "fix": {
          "en": "Busy weeks are what the system is for. Shrink the evening process to two minutes, never to zero.",
-         "id": "Minggu sibuk justru alasan sistem ini ada. Susutkan proses malam menjadi dua menit, jangan pernah sampai nol."
+         "id": "Minggu yang sibuk justru menjadi alasan sistem ini ada. Kecilkan proses malamnya menjadi dua menit, jangan pernah sampai nol."
         }
        },
        {
         "h": {
          "en": "Booking 90-minute blocks on day one",
-         "id": "Memesan blok 90 menit di hari pertama"
+         "id": "Langsung memesan blok 90 menit di hari pertama"
         },
         "fix": {
          "en": "Start at your real capacity; add five minutes a week.",
-         "id": "Mulai dari kapasitas nyatamu; tambah lima menit tiap minggu."
+         "id": "Mulai dari kapasitasmu yang sebenarnya; tambah lima menit setiap minggu."
         }
        },
        {
         "h": {
          "en": "Making AI a station of its own",
-         "id": "Menjadikan AI pos tersendiri"
+         "id": "Menjadikan AI sebagai pos tersendiri"
         },
         "fix": {
          "en": "AI works inside stations, under your gates and CEK-5.",
-         "id": "AI bekerja di dalam pos, di bawah gerbangmu dan CEK-5."
+         "id": "AI bekerja di dalam pos-pos, di bawah gerbang-gerbangmu dan CEK-5."
         }
        },
        {
         "h": {
          "en": "Skipping the weekly review in busy weeks",
-         "id": "Melewatkan tinjauan mingguan di minggu sibuk"
+         "id": "Melewatkan tinjauan mingguan di minggu yang sibuk"
         },
         "fix": {
          "en": "Busy weeks are what it's for; do the 5-minute “clear” step at minimum.",
-         "id": "Minggu sibuk justru gunanya; lakukan langkah “bersihkan” 5 menit minimal."
+         "id": "Minggu yang sibuk justru menjadi alasan tinjauan ini ada; setidaknya jalankan langkah \"bersihkan\" 5 menit."
         }
        },
        {
         "h": {
          "en": "Weak passwords on email",
-         "id": "Kata sandi lemah di email"
+         "id": "Kata sandi email yang lemah"
         },
         "fix": {
          "en": "Email is the key to every other account. Enable two-factor authentication today.",
-         "id": "Email adalah kunci ke semua akun lain. Nyalakan autentikasi dua langkah hari ini."
+         "id": "Email adalah kunci semua akunmu yang lain. Aktifkan autentikasi dua faktor hari ini."
         }
        }
       ]
@@ -20653,42 +20653,42 @@ window.MT_LMS['the-map'] = {
        },
        "title": {
         "en": "Four Foundational Principles: Material",
-        "id": "Empat Prinsip Fundamental: Materi"
+        "id": "Empat Prinsip Dasar: Materi"
        },
        "intro": {
-        "en": "Seven slides before the check: the closing deck of the source digital course, placed here because it ends on a plan. Slide 1 names the four principles of Agile, focus on end users, be team-oriented, deliver continuous value, experiment and learn quickly, the way of working that keeps a toolkit like this lesson's five stations honest. Slide 2 puts data, technology and ways of working together; slides 3–4 show one manufacturer, John Deere, turning farm equipment into decisions with data, with a reflection on why it worked. Slide 5 is your own digital toolkit and plan: four questions to answer in a line each. Slides 6–7 gather the key takeaways and close. Answer slide 5 before you take the knowledge check below.",
-        "id": "Tujuh slide sebelum uji pemahaman: deck penutup dari kursus digital sumbernya, ditempatkan di sini karena berakhir dengan sebuah rencana. Slide 1 menamai empat prinsip Agile, fokus pada pengguna akhir, berorientasi pada tim, memberikan nilai secara berkelanjutan, bereksperimen dan belajar dengan cepat. Cara kerja yang menjaga perangkat seperti lima pos di pelajaran ini tetap jujur. Slide 2 menyatukan data, teknologi, dan cara kerja; slide 3–4 menunjukkan satu produsen, John Deere, mengubah peralatan pertanian menjadi keputusan berbasis data, dengan refleksi tentang mengapa itu berhasil. Slide 5 adalah toolkit dan rencana digitalmu sendiri: empat pertanyaan untuk dijawab masing-masing satu baris. Slide 6–7 merangkum poin utama dan menutup. Jawab slide 5 sebelum kamu mengerjakan cek pemahaman di bawah."
+        "en": "Seven slides before the check: the closing deck of the source digital course, placed here because it ends on a plan. Slide 1 names the four principles of Agile (focus on end users, be team-oriented, deliver continuous value, experiment and learn quickly), the way of working that keeps a toolkit like this lesson's five stations honest. Slide 2 puts data, technology and ways of working together; slides 3–4 show one manufacturer, John Deere, turning farm equipment into decisions with data, with a reflection on why it worked. Slide 5 is your own digital toolkit and plan: four questions to answer in a line each. Slides 6–7 gather the key takeaways and close. Answer slide 5 before you take the knowledge check below.",
+        "id": "Tujuh slide sebelum cek pemahaman: slide penutup kursus digital sumbernya, ditaruh di sini karena berakhir dengan sebuah rencana. Slide 1 menyebut empat prinsip Agile (fokus pada pengguna akhir, berorientasi tim, memberikan nilai terus-menerus, bereksperimen dan belajar dengan cepat), cara kerja yang menjaga perangkat seperti lima pos di pelajaran ini tetap jujur. Slide 2 memadukan data, teknologi, dan cara kerja; slide 3–4 menunjukkan bagaimana satu produsen, John Deere, mengubah peralatan pertanian menjadi alat bantu keputusan dengan data, disertai renungan tentang kenapa itu berhasil. Slide 5 adalah perangkat digital dan rencanamu sendiri: empat pertanyaan yang dijawab masing-masing dalam satu baris. Slide 6–7 merangkum poin-poin penting dan menutup kursusnya. Jawab slide 5 sebelum mengerjakan cek pemahaman di bawah."
        },
        "base": "../../assets/lms/the-map/slides/four-principles-",
        "slides": [
         {
          "title": {
           "en": "Four foundational principles of Agile",
-          "id": "Empat prinsip fundamental Agile"
+          "id": "Empat prinsip dasar Agile"
          },
          "text": {
-          "en": "Agile helps teams create value faster by keeping the end user at the center, working collaboratively, delivering continuously, and learning through experimentation. 01 Focus on end users, connect early with users (internal or external) to gain insights and develop solutions that truly fit their needs. Use design thinking methods such as user personas and user journey mapping. Real user insights lead to better solutions. 02 Be team-oriented. Work in small, cross-functional teams with clear roles and shared ownership. The team is responsible for the solution and empowered to make decisions, with fewer layers of approval and roadblocks. Empowered teams move faster. 03 Deliver continuous value. Focus on the end goal and deliver value in small increments through iterative development. Continuously gather user feedback to measure success and make improvements. Small increments create real impact. 04 Experiment and learn quickly. Use short, test-and-learn cycles (sprints) to validate ideas, reduce risk, and continuously improve. Stay flexible and be ready to adapt based on what you learn. Test early, learn faster. From insights to impact, through continuous iteration.",
-          "id": "Agile membantu tim menciptakan nilai lebih cepat dengan menempatkan pengguna di pusatnya, bekerja secara kolaboratif, memberikan hasil secara berkelanjutan, dan terus belajar melalui eksperimen. 01 Fokus pada pengguna akhir, libatkan pengguna sejak awal (pengguna internal maupun eksternal) untuk mendapatkan insight dan mengembangkan solusi yang benar-benar sesuai dengan kebutuhan mereka. Gunakan metode design thinking seperti persona pengguna dan pemetaan perjalanan pengguna (user journey). Insight pengguna nyata menghasilkan solusi yang lebih baik. 02 Berorientasi pada tim, bekerja dalam tim kecil lintas fungsi dengan peran yang jelas dan tanggung jawab yang sama. Tim bertanggung jawab atas solusi dan diberikan kewenangan untuk mengambil keputusan dengan lebih cepat, dengan lapisan persetujuan yang lebih sedikit. Tim yang diberdayakan bergerak lebih cepat. 03 Memberikan nilai secara berkelanjutan, fokus pada tujuan akhir dan berikan nilai dalam iterasi kecil. Kumpulkan umpan balik pengguna secara berkelanjutan untuk mengukur keberhasilan dan melakukan perbaikan yang relevan sehingga menghasilkan dampak yang lebih besar. Perbaikan kecil yang konsisten menciptakan dampak nyata. 04 Bereksperimen dan belajar dengan cepat. Gunakan siklus singkat uji-coba-dan-pembelajaran (sprint) untuk memvalidasi ide, mengurangi risiko, dan terus meningkatkan solusi. Tetap fleksibel dan siap beradaptasi berdasarkan apa yang dipelajari. Uji lebih cepat, belajar lebih cepat. Dari insight pengguna hingga dampak nyata, melalui iterasi berkelanjutan."
+          "en": "Agile helps teams create value faster by keeping the end user at the center, working collaboratively, delivering continuously, and learning through experimentation. 01 Focus on end users. Connect early with users (internal or external) to gain insights and develop solutions that truly fit their needs. Use design thinking methods such as user personas and user journey mapping. Real user insights lead to better solutions. 02 Be team-oriented. Work in small, cross-functional teams with clear roles and shared ownership. The team is responsible for the solution and empowered to make decisions, with fewer layers of approval and roadblocks. Empowered teams move faster. 03 Deliver continuous value. Focus on the end goal and deliver value in small increments through iterative development. Continuously gather user feedback to measure success and make improvements. Small increments create real impact. 04 Experiment and learn quickly. Use short, test-and-learn cycles (sprints) to validate ideas, reduce risk, and continuously improve. Stay flexible and be ready to adapt based on what you learn. Test early, learn faster. From insights to impact, through continuous iteration.",
+          "id": "Agile membantu tim menciptakan nilai lebih cepat dengan menempatkan pengguna akhir di pusat, bekerja secara kolaboratif, memberikan nilai terus-menerus, dan belajar lewat eksperimen. 01 Fokus pada pengguna akhir. Terhubunglah dengan pengguna (internal atau eksternal) sejak awal untuk mendapat wawasan dan mengembangkan solusi yang benar-benar sesuai kebutuhan mereka. Pakai metode design thinking seperti persona pengguna dan pemetaan perjalanan pengguna. Wawasan nyata dari pengguna menghasilkan solusi yang lebih baik. 02 Berorientasi tim. Bekerjalah dalam tim kecil lintas fungsi dengan peran yang jelas dan rasa memiliki bersama. Tim bertanggung jawab atas solusinya dan diberi wewenang untuk mengambil keputusan, dengan lebih sedikit lapisan persetujuan dan hambatan. Tim yang diberi wewenang bergerak lebih cepat. 03 Berikan nilai terus-menerus. Fokus pada tujuan akhir dan berikan nilai sedikit demi sedikit lewat pengembangan yang berulang. Terus kumpulkan masukan pengguna untuk mengukur keberhasilan dan melakukan perbaikan. Langkah-langkah kecil menciptakan dampak nyata. 04 Bereksperimen dan belajar dengan cepat. Pakai siklus pendek uji-dan-belajar (sprint) untuk memvalidasi ide, mengurangi risiko, dan terus memperbaiki diri. Tetap fleksibel dan siap beradaptasi berdasarkan apa yang kamu pelajari. Uji lebih awal, belajar lebih cepat. Dari wawasan ke dampak, lewat iterasi yang terus-menerus."
          }
         },
         {
          "title": {
           "en": "Putting it all together",
-          "id": "Menyatukan semuanya"
+          "id": "Memadukan semuanya"
          },
          "text": {
           "en": "Digital is the combination of data, technology and ways of working. These ingredients help both individuals and organizations automate, connect, innovate and make better decisions. More and more organizations are ‘going digital’ and looking for individuals who have both the skills and mindsets to learn and work in such environments. From the perspective of modern organizations, digital is the best way to better meet the needs and enhance the experience of customers and employees. Data (better information), technology (greater capability), ways of working (more effective collaboration) → digital → automate (automating processes), connect (connecting people and data), innovate (driving innovation), better decisions (producing better decisions). To see how all the different components of digital come together, next you'll see how one manufacturer transformed its business through digital.",
-          "id": "Digital adalah kombinasi dari data, teknologi, dan cara kerja. Ketiga elemen ini membantu individu maupun organisasi untuk otomatisasi, terhubung, berinovasi, dan mengambil keputusan yang lebih baik. Semakin banyak organisasi yang bertransformasi secara digital dan mencari individu yang memiliki keterampilan serta pola pikir untuk terus belajar dan bekerja di lingkungan seperti ini. Dari perspektif organisasi modern, digital adalah cara terbaik untuk lebih memenuhi kebutuhan dan meningkatkan pengalaman pelanggan maupun karyawan. Data (informasi yang lebih baik), teknologi (kemampuan yang lebih besar), cara kerja (kolaborasi yang lebih efektif) → digital → otomatisasi (mengotomatisasi proses), koneksi (menghubungkan orang dan data), inovasi (mendorong inovasi), keputusan yang lebih baik (menghasilkan keputusan yang lebih baik). Untuk melihat bagaimana seluruh komponen digital saling terhubung, selanjutnya Anda akan melihat bagaimana sebuah perusahaan manufaktur mentransformasi bisnisnya melalui digital."
+          "id": "Digital adalah perpaduan data, teknologi, dan cara kerja. Bahan-bahan ini membantu individu maupun organisasi mengotomatiskan, terhubung, berinovasi, dan mengambil keputusan yang lebih baik. Makin banyak organisasi yang \"menjadi digital\" dan mencari orang yang punya keterampilan dan pola pikir untuk belajar dan bekerja di lingkungan seperti itu. Dari sudut pandang organisasi modern, digital adalah cara terbaik untuk lebih memenuhi kebutuhan dan memperbaiki pengalaman pelanggan serta karyawan. Data (informasi yang lebih baik), teknologi (kemampuan yang lebih besar), cara kerja (kolaborasi yang lebih efektif) → digital → mengotomatiskan (mengotomatiskan proses), terhubung (menghubungkan orang dan data), berinovasi (mendorong inovasi), keputusan yang lebih baik (menghasilkan keputusan yang lebih baik). Untuk melihat bagaimana semua komponen digital itu menyatu, berikutnya kamu akan melihat bagaimana satu produsen mengubah bisnisnya lewat digital."
          }
         },
         {
          "title": {
           "en": "From equipment to intelligence",
-          "id": "Dari peralatan menuju kecerdasan"
+          "id": "Dari peralatan menjadi kecerdasan"
          },
          "text": {
-          "en": "John Deere shifted from selling machines to helping farmers make better decisions with data. A growing challenge for agriculture, as the global population rises, the agricultural industry needs to grow more food on limited land while reducing costs and improving sustainability. A legacy of innovation; John Deere was founded almost 200 years ago to make and sell farm equipment. A strategic shift, in recent years, company leaders realized that selling more of the same equipment would not help farmers do more with less. They changed their strategy to integrate advanced technologies into farm vehicles, enabling farmers' longer-term success. The shift: from selling equipment to enabling outcomes. Data points shown: crop health, weather conditions, soil data, field performance. 1. Understand farmers, gain a deeper understanding of farmers' needs, challenges, and their customers. 2. Connect technology & data, integrate advanced technologies into farm vehicles and make data more accessible and useful. 3. Enable better decisions. Give farmers simpler ways to collect, understand, and use data to improve their outcomes.",
-          "id": "John Deere beralih dari menjual mesin menjadi membantu petani mengambil keputusan yang lebih baik dengan data. Tantangan yang semakin besar bagi sektor pertanian, seiring dengan pertumbuhan populasi global, industri pertanian perlu menghasilkan lebih banyak pangan di lahan yang terbatas, sambil menekan biaya dan meningkatkan keberlanjutan. Warisan panjang inovasi, John Deere didirikan hampir 200 tahun yang lalu untuk memproduksi dan menjual peralatan pertanian. Perubahan strategi yang strategis, dalam beberapa tahun terakhir, para pemimpin perusahaan menyadari bahwa menjual lebih banyak mesin yang sama tidak cukup membantu petani berkarya lebih baik dengan biaya lebih rendah. Mereka mengubah strategi dengan mengintegrasikan teknologi canggih ke dalam kendaraan pertanian, sehingga memungkinkan kesuksesan jangka panjang bagi para petani. Perubahan utama: dari menjual peralatan menuju menciptakan hasil yang lebih baik. Titik data yang ditampilkan: kesehatan tanaman, kondisi cuaca, data tanah, kinerja lahan. 1. Memahami petani, memahami lebih dalam kebutuhan, tantangan, dan pelanggan petani. 2. Menghubungkan teknologi & data, mengintegrasikan teknologi canggih ke dalam kendaraan pertanian dan membuat data lebih mudah diakses serta bermanfaat. 3. Menghasilkan keputusan yang lebih baik, memberikan cara yang lebih sederhana bagi petani untuk mengumpulkan, memahami, dan menggunakan data guna meningkatkan hasil mereka."
+          "en": "John Deere shifted from selling machines to helping farmers make better decisions with data. A growing challenge for agriculture: as the global population rises, the agricultural industry needs to grow more food on limited land while reducing costs and improving sustainability. A legacy of innovation: John Deere was founded almost 200 years ago to make and sell farm equipment. A strategic shift: in recent years, company leaders realized that selling more of the same equipment would not help farmers do more with less. They changed their strategy to integrate advanced technologies into farm vehicles, enabling farmers' longer-term success. The shift: from selling equipment to enabling outcomes. Data points shown: crop health, weather conditions, soil data, field performance. 1. Understand farmers: gain a deeper understanding of farmers' needs, challenges, and their customers. 2. Connect technology & data: integrate advanced technologies into farm vehicles and make data more accessible and useful. 3. Enable better decisions. Give farmers simpler ways to collect, understand, and use data to improve their outcomes.",
+          "id": "John Deere beralih dari menjual mesin menjadi membantu petani mengambil keputusan yang lebih baik dengan data. Tantangan pertanian yang makin besar: seiring bertambahnya penduduk dunia, industri pertanian perlu menanam lebih banyak pangan di lahan yang terbatas sambil menekan biaya dan meningkatkan keberlanjutan. Warisan inovasi: John Deere didirikan hampir 200 tahun lalu untuk membuat dan menjual peralatan pertanian. Pergeseran strategi: dalam beberapa tahun terakhir, para pemimpin perusahaan menyadari bahwa menjual lebih banyak peralatan yang sama tidak akan membantu petani berbuat lebih banyak dengan sumber daya yang lebih sedikit. Mereka mengubah strateginya dengan memadukan teknologi maju ke kendaraan pertanian, demi keberhasilan jangka panjang para petani. Pergeserannya: dari menjual peralatan menjadi memampukan hasil. Titik data yang ditampilkan: kesehatan tanaman, kondisi cuaca, data tanah, kinerja lahan. 1. Memahami petani: memahami lebih dalam kebutuhan, tantangan, dan pelanggan para petani. 2. Menghubungkan teknologi dan data: memadukan teknologi maju ke kendaraan pertanian dan membuat data lebih mudah diakses dan berguna. 3. Memampukan keputusan yang lebih baik. Memberi petani cara yang lebih sederhana untuk mengumpulkan, memahami, dan memakai data agar hasilnya membaik."
          }
         },
         {
@@ -20697,18 +20697,18 @@ window.MT_LMS['the-map'] = {
           "id": "Mengubah data menjadi keputusan yang lebih baik"
          },
          "text": {
-          "en": "Case in action. John Deere integrated advanced technologies into its farm equipment to give farmers real-time insights and practical recommendations: weather forecast, soil conditions, seed properties, field data. 01 Collecting the right data, the company added sensors to its machines that analyzed weather forecasts and data on soil conditions, seed properties, and other information critical to farmers' day-to-day decisions. 02 Creating real impact for farmers, John Deere combined cameras, cloud technology, and artificial intelligence. Data from smart cameras was automatically uploaded to the cloud, where farmers could evaluate crop quality in real time and collaborate with other farmers to get advice on what to plant and where, how much fertilizer to use, and so on. As the machines gathered more data, more farmers benefited, allowing the company to use AI and machine learning to find previously unseen patterns and improve their products. Reflection. Take a moment to reflect: why was John Deere successful? Select all that apply: challenged current constraints; embraced iterations; sought new opportunities; focused on the need of the farmer; all of the above. All of the above! The solution was only possible because John Deere challenged current constraints, embraced iterations, and sought out new opportunities to focus on the needs of farmers. The company developed the technology to capture and analyze data and built equipment that farmers needed. The new strategy enabled farmers to produce more food more efficiently.",
-          "id": "Studi kasus dalam aksi. John Deere mengintegrasikan teknologi canggih ke dalam peralatan pertanian untuk memberikan wawasan real-time dan rekomendasi praktis bagi para petani: prakiraan cuaca, kondisi tanah, sifat benih, data lahan. 01 Mengumpulkan data yang tepat, perusahaan menambahkan sensor pada mesinnya yang menganalisis prakiraan cuaca, kondisi tanah, sifat benih, dan informasi penting lainnya untuk mendukung keputusan harian petani. 02 Memberikan dampak nyata bagi petani, John Deere menggabungkan kamera, teknologi cloud, dan kecerdasan buatan. Data dari kamera pintar secara otomatis diupload ke cloud, sehingga petani dapat mengevaluasi kualitas tanaman secara real-time dan berkolaborasi dengan petani lain untuk mendapatkan saran mengenai tanaman apa yang perlu ditanam, di mana, berapa banyak pupuk yang digunakan, dan lainnya. Semakin banyak data yang dikumpulkan, semakin banyak petani yang merasakan manfaatnya, sehingga perusahaan dapat menggunakan AI dan machine learning untuk menemukan pola baru yang sebelumnya tidak terlihat dan meningkatkan hasil panen mereka. Refleksi, luangkan waktu sejenak untuk merefleksikan: mengapa John Deere berhasil? Pilih semua yang sesuai: menghadapi keterbatasan yang ada saat ini; menerapkan iterasi yang berkelanjutan; mencari peluang baru; berfokus pada kebutuhan petani; semua jawaban di atas. Semua jawaban di atas! Solusi ini hanya mungkin terjadi karena John Deere menghadapi keterbatasan yang ada saat ini, menerapkan iterasi yang berkelanjutan, dan mencari peluang baru untuk berfokus pada kebutuhan petani. Perusahaan mengembangkan teknologi untuk menangkap dan menganalisis data serta membangun peralatan yang dibutuhkan petani. Strategi baru ini memungkinkan petani untuk memproduksi lebih banyak pangan dengan lebih efisien."
+          "en": "Case in action. John Deere integrated advanced technologies into its farm equipment to give farmers real-time insights and practical recommendations: weather forecast, soil conditions, seed properties, field data. 01 Collecting the right data: the company added sensors to its machines that analyzed weather forecasts and data on soil conditions, seed properties, and other information critical to farmers' day-to-day decisions. 02 Creating real impact for farmers: John Deere combined cameras, cloud technology, and artificial intelligence. Data from smart cameras was automatically uploaded to the cloud, where farmers could evaluate crop quality in real time and collaborate with other farmers to get advice on what to plant and where, how much fertilizer to use, and so on. As the machines gathered more data, more farmers benefited, allowing the company to use AI and machine learning to find previously unseen patterns and improve their products. Reflection. Take a moment to reflect: why was John Deere successful? Select all that apply: challenged current constraints; embraced iterations; sought new opportunities; focused on the need of the farmer; all of the above. All of the above! The solution was only possible because John Deere challenged current constraints, embraced iterations, and sought out new opportunities to focus on the needs of farmers. The company developed the technology to capture and analyze data and built equipment that farmers needed. The new strategy enabled farmers to produce more food more efficiently.",
+          "id": "Kasus dalam praktik. John Deere memadukan teknologi maju ke peralatan pertaniannya untuk memberi petani wawasan langsung dan rekomendasi praktis: prakiraan cuaca, kondisi tanah, sifat benih, data lahan. 01 Mengumpulkan data yang tepat: perusahaan menambahkan sensor ke mesin-mesinnya yang menganalisis prakiraan cuaca serta data kondisi tanah, sifat benih, dan informasi lain yang sangat penting bagi keputusan sehari-hari petani. 02 Menciptakan dampak nyata bagi petani: John Deere memadukan kamera, teknologi cloud, dan kecerdasan buatan. Data dari kamera pintar otomatis diunggah ke cloud, tempat petani bisa menilai kualitas tanaman secara langsung dan berkolaborasi dengan petani lain untuk mendapat saran tentang apa yang ditanam dan di mana, berapa banyak pupuk yang dipakai, dan seterusnya. Makin banyak data yang dikumpulkan mesin, makin banyak petani yang mendapat manfaat, sehingga perusahaan bisa memakai AI dan machine learning untuk menemukan pola yang sebelumnya tidak terlihat dan memperbaiki produknya. Renungan. Luangkan waktu untuk merenung: kenapa John Deere berhasil? Pilih semua yang sesuai: menantang batasan yang ada; merangkul iterasi; mencari peluang baru; berfokus pada kebutuhan petani; semua yang di atas. Semua yang di atas! Solusinya hanya mungkin karena John Deere menantang batasan yang ada, merangkul iterasi, dan mencari peluang baru untuk berfokus pada kebutuhan petani. Perusahaan mengembangkan teknologi untuk menangkap dan menganalisis data serta membangun peralatan yang dibutuhkan petani. Strategi baru itu memungkinkan petani menghasilkan lebih banyak pangan dengan lebih efisien."
          }
         },
         {
          "title": {
           "en": "Your digital toolkit and plan",
-          "id": "Toolkit dan rencana digital Anda"
+          "id": "Perangkat digital dan rencanamu"
          },
          "text": {
           "en": "Reflection & action plan. Now that you have explored the different factors driving digital transformation, take time to reflect on your own digital journey and create a plan for what you want to do next. Take a moment to reflect and write your answers to the questions below. This reflection will help you personalize your learning and clarify which areas you want to explore further. 1. What have you already done to expand your knowledge and skills in this area? 2. What is an obstacle you currently face in understanding or taking action in this area? 3. Identify 1 or more specific actions you want to take to enhance your knowledge and skills in this area. 4. Prioritize one action you will start immediately and specify a timeline for it. “Today's reflection is the foundation for your progress tomorrow.”",
-          "id": "Refleksi & rencana. Sekarang setelah Anda memahami berbagai faktor yang mendorong transformasi digital, saatnya untuk merefleksikan perjalanan digital Anda dan merancang rencana pengembangan ke depan. Luangkan waktu sejenak untuk menuliskan jawaban Anda atas pertanyaan-pertanyaan berikut. Refleksi ini akan membantu Anda mempersonalisasi pembelajaran dan memperjelas area yang ingin Anda eksplorasi lebih lanjut. 1. Apa yang sudah Anda lakukan untuk memperluas pengetahuan dan keterampilan Anda di area ini? 2. Apa hambatan yang saat ini Anda hadapi dalam memahami atau mengambil tindakan di area ini? 3. Identifikasi 1 atau lebih tindakan spesifik yang ingin Anda lakukan untuk meningkatkan pengetahuan dan keterampilan Anda di area ini. 4. Prioritaskan satu tindakan yang akan Anda mulai segera dan tentukan timeline untuk itu. “Refleksi hari ini adalah fondasi untuk kemajuan Anda besok.”"
+          "id": "Renungan dan rencana tindakan. Setelah menjelajahi berbagai faktor yang mendorong transformasi digital, luangkan waktu untuk merenungkan perjalanan digitalmu sendiri dan menyusun rencana untuk langkah berikutnya. Luangkan waktu untuk merenung dan tulis jawabanmu atas pertanyaan-pertanyaan di bawah. Renungan ini akan membantumu menyesuaikan cara belajarmu dan memperjelas bidang mana yang ingin kamu dalami. 1. Apa yang sudah kamu lakukan untuk memperluas pengetahuan dan keterampilanmu di bidang ini? 2. Apa hambatan yang saat ini kamu hadapi dalam memahami atau bertindak di bidang ini? 3. Tentukan satu atau beberapa tindakan spesifik yang ingin kamu ambil untuk meningkatkan pengetahuan dan keterampilanmu di bidang ini. 4. Prioritaskan satu tindakan yang akan langsung kamu mulai dan tetapkan jadwalnya. \"Renungan hari ini adalah fondasi kemajuanmu besok.\""
          },
          "caption": {
           "en": "Your workbook in Metanoia: answer this slide in the plan section of this lesson (Digital system).",
@@ -20718,21 +20718,21 @@ window.MT_LMS['the-map'] = {
         {
          "title": {
           "en": "Key takeaways",
-          "id": "Poin-poin utama"
+          "id": "Poin-poin penting"
          },
          "text": {
-          "en": "In this module, we have covered the following key tools: data (turning information into insights), technology (enabling new possibilities), new ways of working (rethinking how we collaborate and create value). Main takeaway, use the three components of digital, data, technology, and new ways of working, to shape your thinking and define your own digital toolkit for the opportunities ahead. Recommended exploration. The slide lists ten further readings by title: What's the future of the internet? (Web3, tokenization, prompt engineering, digital-twin technology, quantum computing, proof of stake, blockchain); What is generative AI?; Author Talks: Think Digital; Cloud as the ultimate digital enabler; Six digital trends gaining momentum, and why they matter; How six companies are using technology and data to transform themselves; Getting beyond gridlock in cities; The most fundamental skill: intentional learning and the career advantage; Seven essential elements of a lifelong-learning mindset; AI in Action: an interactive learning journey. The slide names these titles; their links are not reproduced in this lesson.",
-          "id": "Dalam modul ini, kita telah membahas alat-alat utama berikut: data (mengubah informasi menjadi wawasan yang bermakna), teknologi (memungkinkan kemungkinan baru), cara kerja baru (memikirkan kembali bagaimana kita berkolaborasi dan menciptakan nilai). Poin utama, gunakan tiga komponen digital, data, teknologi, dan cara kerja baru, untuk membentuk cara berpikir Anda dan merancang toolkit digital Anda sendiri bagi peluang di masa depan. Rekomendasi untuk dipelajari lebih lanjut. Slide ini mendaftar sepuluh bacaan lanjutan berdasarkan judul: Bagaimana masa depan internet? (Web3, tokenisasi, rekayasa prompt, teknologi digital twin, komputasi kuantum, proof of stake, blockchain); Apa itu AI generatif?; Author Talks: Think Digital; Cloud sebagai enabler digital utama; Enam tren digital yang semakin menguat, dan mengapa hal ini penting; Bagaimana enam perusahaan menggunakan teknologi dan data untuk mentransformasi diri; Melampaui kebuntuan di kota-kota; Keterampilan paling mendasar: pembelajaran bertujuan dan keunggulan karier; Tujuh elemen penting dari pola pikir pembelajaran seumur hidup; AI dalam Aksi: perjalanan pembelajaran interaktif. Slide ini menyebutkan judul-judulnya; tautannya tidak direproduksi di pelajaran ini."
+          "en": "In this module, we have covered the following key tools: data (turning information into insights), technology (enabling new possibilities), new ways of working (rethinking how we collaborate and create value). Main takeaway: use the three components of digital (data, technology, and new ways of working) to shape your thinking and define your own digital toolkit for the opportunities ahead. Recommended exploration. The slide lists ten further readings by title: What's the future of the internet? (Web3, tokenization, prompt engineering, digital-twin technology, quantum computing, proof of stake, blockchain); What is generative AI?; Author Talks: Think Digital; Cloud as the ultimate digital enabler; Six digital trends gaining momentum, and why they matter; How six companies are using technology and data to transform themselves; Getting beyond gridlock in cities; The most fundamental skill: intentional learning and the career advantage; Seven essential elements of a lifelong-learning mindset; AI in Action: an interactive learning journey. The slide names these titles; their links are not reproduced in this lesson.",
+          "id": "Di modul ini, kita sudah membahas alat-alat kunci berikut: data (mengubah informasi menjadi wawasan), teknologi (membuka kemungkinan baru), cara kerja baru (memikirkan ulang cara kita berkolaborasi dan menciptakan nilai). Poin utama: pakai tiga komponen digital (data, teknologi, dan cara kerja baru) untuk membentuk cara berpikirmu dan menyusun perangkat digitalmu sendiri untuk peluang-peluang di depan. Bacaan yang disarankan. Slide ini mencantumkan sepuluh judul bacaan lanjutan: What's the future of the internet? (Web3, tokenization, prompt engineering, digital-twin technology, quantum computing, proof of stake, blockchain); What is generative AI?; Author Talks: Think Digital; Cloud as the ultimate digital enabler; Six digital trends gaining momentum, and why they matter; How six companies are using technology and data to transform themselves; Getting beyond gridlock in cities; The most fundamental skill: intentional learning and the career advantage; Seven essential elements of a lifelong-learning mindset; AI in Action: an interactive learning journey. Slide ini menyebutkan judul-judulnya; tautannya tidak dicantumkan di pelajaran ini."
          }
         },
         {
          "title": {
           "en": "Closing remarks",
-          "id": "Pernyataan penutup"
+          "id": "Penutup"
          },
          "text": {
-          "en": "Digital toolkit: closing remarks. A stronger digital mindset today opens bigger opportunities tomorrow. In summary, in this course you have learned how to: 01 Identify different types of digital advancements and understand how they impact you. Your work, your industry, and your future opportunities. 02 Develop your own digital toolkit based on the knowledge and skills you want to explore further to support your personal and professional growth. Looking ahead. We hope that you are excited about the opportunities within the digital world, and can continue to explore more as you progress in your career.",
-          "id": "Toolkit digital: pernyataan penutup. Pola pikir digital yang lebih kuat hari ini membuka peluang yang lebih besar untuk masa depan Anda. Ringkasan pembelajaran: dalam modul ini, Anda telah mempelajari cara: 01 Mengidentifikasi berbagai jenis perkembangan digital dan memahami bagaimana perkembangan tersebut berdampak pada Anda, pekerjaan Anda, industri Anda, dan peluang masa depan Anda. 02 Mengembangkan toolkit digital Anda sendiri berdasarkan pengetahuan dan keterampilan yang ingin Anda dalami lebih lanjut, untuk mendukung pengembangan diri dan perjalanan karier Anda. Melangkah ke depan. Kami berharap Anda semakin bersemangat dengan peluang-peluang di dunia digital, dan dapat terus mengeksplorasi lebih banyak hal seiring perjalanan karier Anda."
+          "en": "Digital toolkit: closing remarks. A stronger digital mindset today opens bigger opportunities tomorrow. In summary, in this course you have learned how to: 01 Identify different types of digital advancements and understand how they impact you: your work, your industry, and your future opportunities. 02 Develop your own digital toolkit based on the knowledge and skills you want to explore further to support your personal and professional growth. Looking ahead. We hope that you are excited about the opportunities within the digital world, and can continue to explore more as you progress in your career.",
+          "id": "Perangkat digital: penutup. Pola pikir digital yang lebih kuat hari ini membuka peluang yang lebih besar esok. Sebagai ringkasan, di kursus ini kamu sudah belajar: 01 Mengenali berbagai jenis kemajuan digital dan memahami dampaknya bagimu: pekerjaanmu, industrimu, dan peluangmu di masa depan. 02 Menyusun perangkat digitalmu sendiri berdasarkan pengetahuan dan keterampilan yang ingin kamu dalami untuk mendukung pertumbuhan pribadi dan profesionalmu. Menatap ke depan. Kami harap kamu bersemangat menyambut peluang di dunia digital, dan terus menjelajahinya seiring kariermu berjalan."
          }
         }
        ]
@@ -20742,16 +20742,16 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "Why does the lesson insist on a single capture point rather than notes scattered across apps?",
-        "id": "Mengapa pelajaran ini bersikeras pada satu titik pencatatan, bukan catatan yang tersebar di berbagai aplikasi?"
+        "id": "Kenapa pelajaran ini menekankan satu titik penampung, bukan catatan yang tersebar di berbagai aplikasi?"
        },
        "options": [
         {
          "en": "Because premium note apps have better features",
-         "id": "Karena aplikasi catatan berbayar fiturnya lebih lengkap"
+         "id": "Karena aplikasi catatan premium punya fitur yang lebih bagus"
         },
         {
          "en": "Because the brain only releases a commitment when it trusts the place it was written will be seen again",
-         "id": "Karena otak baru mau melepaskan sebuah komitmen kalau ia percaya tempat komitmen itu ditulis pasti akan dilihat lagi"
+         "id": "Karena otak baru melepaskan sebuah komitmen ketika ia percaya tempat komitmen itu ditulis akan dilihat lagi"
         },
         {
          "en": "Because backups are easier from one app",
@@ -20760,14 +20760,14 @@ window.MT_LMS['the-map'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "Scattered capture recreates distrust, so the brain keeps rehearsing tasks; the exact load the system exists to remove.",
-        "id": "Pencatatan yang tersebar menghidupkan lagi ketidakpercayaan, sehingga otak terus mengulang-ulang daftar tugas; beban yang justru ingin dihapus oleh sistem ini."
+        "en": "Scattered capture recreates distrust, so the brain keeps rehearsing tasks: the exact load the system exists to remove.",
+        "id": "Penampung yang tersebar menghidupkan lagi rasa tidak percaya, sehingga otak terus mengingat-ingat tugas: tepat beban yang ingin dihapus oleh sistem ini."
        }
       },
       {
        "q": {
         "en": "You can currently concentrate for about 20 minutes. What block plan fits this lesson?",
-        "id": "Saat ini kamu bisa berkonsentrasi sekitar 20 menit. Rencana blok mana yang sesuai pelajaran ini?"
+        "id": "Saat ini kamu bisa berkonsentrasi sekitar 20 menit. Rencana blok mana yang sesuai dengan pelajaran ini?"
        },
        "options": [
         {
@@ -20776,27 +20776,27 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Start at 20–25 minutes and add five minutes a week when you complete most blocks",
-         "id": "Mulai di 20–25 menit dan tambah lima menit tiap minggu saat kamu menyelesaikan sebagian besar blok"
+         "id": "Mulai dari 20–25 menit dan tambah lima menit setiap minggu ketika kamu berhasil menyelesaikan sebagian besar blok"
         },
         {
          "en": "Avoid blocks; work whenever you feel focused",
-         "id": "Hindari blok; bekerja kapan pun merasa fokus"
+         "id": "Hindari blok; kerjakan kapan pun kamu merasa fokus"
         },
         {
          "en": "Do one 3-hour block on weekends",
-         "id": "Lakukan satu blok 3 jam di akhir pekan"
+         "id": "Satu blok 3 jam di akhir pekan"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Train focus like fitness, from your real starting point.",
-        "id": "Latih fokus seperti kebugaran, dari titik awal nyatamu."
+        "id": "Latih fokus seperti melatih kebugaran, mulai dari titik awalmu yang sebenarnya."
        }
       },
       {
        "q": {
         "en": "Where should AI sit in your digital toolkit?",
-        "id": "Di mana AI seharusnya berada di perangkat digitalmu?"
+        "id": "Di mana sebaiknya AI berada dalam perangkat digitalmu?"
        },
        "options": [
         {
@@ -20805,7 +20805,7 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Inside each station as a helper, under your gates and with verification",
-         "id": "Di dalam tiap pos sebagai pembantu, di bawah gerbangmu dan dengan verifikasi"
+         "id": "Di dalam setiap pos sebagai pembantu, di bawah gerbang-gerbangmu dan dengan verifikasi"
         },
         {
          "en": "Nowhere; avoid AI",
@@ -20819,26 +20819,26 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "Don't confuse the tool with the goal; the stations are the system.",
-        "id": "Jangan kacaukan alat dengan tujuan; pos-pos itulah sistemnya."
+        "id": "Jangan mengacaukan alat dengan tujuannya; pos-pos itulah sistemnya."
        }
       },
       {
        "q": {
         "en": "A WhatsApp message offers you a “paid internship” if you send a registration fee and a photo of your national ID card today. Best action?",
-        "id": "Sebuah pesan WhatsApp menawarkan “magang berbayar” jika kamu mengirim biaya pendaftaran dan foto KTP hari ini. Tindakan terbaik?"
+        "id": "Sebuah pesan WhatsApp menawarkan \"magang berbayar\" kalau kamu mengirim biaya pendaftaran dan foto KTP hari ini. Tindakan terbaiknya?"
        },
        "options": [
         {
          "en": "Pay quickly before the slot closes",
-         "id": "Bayar cepat sebelum slotnya tutup"
+         "id": "Bayar cepat sebelum kuotanya habis"
         },
         {
          "en": "Treat it as a likely scam: don't pay or send ID; verify through the company's official channel",
-         "id": "Perlakukan sebagai kemungkinan penipuan: jangan bayar atau kirim identitas; verifikasi lewat saluran resmi perusahaan"
+         "id": "Anggap kemungkinan besar penipuan: jangan bayar atau mengirim KTP; verifikasi lewat saluran resmi perusahaan"
         },
         {
          "en": "Send the national ID card but not the fee",
-         "id": "Kirim KTP tapi bukan biayanya"
+         "id": "Kirim KTP-nya tapi jangan bayar biayanya"
         },
         {
          "en": "Forward it to your class group as an opportunity",
@@ -20848,28 +20848,28 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "Urgency plus fees plus ID requests are classic scam signals.",
-        "id": "Desakan plus biaya plus permintaan identitas adalah sinyal penipuan klasik."
+        "id": "Desakan ditambah biaya ditambah permintaan identitas adalah tanda-tanda klasik penipuan."
        }
       }
      ],
      "outcomeDetail": {
       "en": "By the end you have all five stations working, run focus blocks sized to your real capacity, hold a 20-minute weekly review that connects energy, people and learning, have placed AI responsibly inside each station, and have a basic digital-safety setup.",
-      "id": "Di akhir pelajaran kelima posmu berfungsi, kamu menjalankan blok fokus sesuai kapasitas nyatamu, mengadakan tinjauan mingguan 20 menit yang menghubungkan energi, orang, dan belajar, sudah menempatkan AI secara bertanggung jawab di dalam tiap pos, dan punya pengaturan keamanan digital dasar."
+      "id": "Di akhir pelajaran ini, kelima posmu sudah berjalan, kamu menjalankan blok fokus sesuai kapasitasmu yang sebenarnya, melakukan tinjauan mingguan 20 menit yang menghubungkan energi, orang, dan belajar, sudah menempatkan AI secara bertanggung jawab di dalam setiap pos, dan punya pengaturan keamanan digital dasar."
      },
      "takeawaysLead": {
       "en": "Three things to carry into the case assignment, where all of Module 5 meets one realistic situation:",
-      "id": "Tiga hal untuk dibawa ke tugas kasus, tempat seluruh Modul 5 bertemu satu situasi realistis:"
+      "id": "Tiga hal untuk dibawa ke tugas kasus, tempat seluruh Modul 5 bertemu dalam satu situasi yang realistis:"
      },
      "tool": {
       "id": "plan",
       "mode": "plan",
       "title": {
-       "en": "Five-Station Checker + Focus Planner, Plan section 8",
-       "id": "Pemeriksa Lima Pos + Perencana Fokus, Bagian 8 Rencana"
+       "en": "Five-Station Checker + Focus Planner: Plan section 8",
+       "id": "Pemeriksa Lima Pos + Perencana Fokus: Rencana bagian 8"
       },
       "body": {
        "en": "Tick off each station, plan focus blocks in your peak hours, and record your weekly review. Saved on this device.",
-       "id": "Centang tiap pos, rencanakan blok fokus di jam puncakmu, dan catat tinjauan mingguanmu. Disimpan di perangkat ini."
+       "id": "Centang setiap pos, rencanakan blok fokus di jam puncakmu, dan catat tinjauan mingguanmu. Tersimpan di perangkat ini."
       },
       "sections": [
        {
@@ -20880,18 +20880,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "Five stations, your blocks, and this week's review.",
-         "id": "Lima pos, blokmu, dan tinjauan minggu ini."
+         "id": "Lima pos, blok-blokmu, dan tinjauan minggu ini."
         },
         "fields": [
          {
           "id": "stations",
           "label": {
            "en": "Station status: capture · calendar · files · focus · professional inbox (done / what's missing)",
-           "id": "Status pos: tangkap · kalender · berkas · fokus · kotak masuk profesional (selesai / apa yang kurang)"
+           "id": "Status pos: penampung · kalender · berkas · fokus · kotak masuk profesional (selesai / apa yang kurang)"
           },
           "hint": {
            "en": "e.g. capture ✓ · calendar ✓ · files: rename Bab 3 · focus: allowlist not set · inbox ✓",
-           "id": "mis. tangkap ✓ · kalender ✓ · berkas: ganti nama Bab 3 · fokus: daftar izin belum diatur · kotak masuk ✓"
+           "id": "mis. penampung ✓ · kalender ✓ · berkas: ganti nama Bab 3 · fokus: daftar orang belum diatur · kotak masuk ✓"
           },
           "rows": 3
          },
@@ -20899,11 +20899,11 @@ window.MT_LMS['the-map'] = {
           "id": "peaks",
           "label": {
            "en": "Alertness readings (three days, every two hours) and my peak hours",
-           "id": "Pembacaan kesiagaan (tiga hari, tiap dua jam) dan jam puncakku"
+           "id": "Catatan kesegaran (tiga hari, setiap dua jam) dan jam puncakku"
           },
           "hint": {
            "en": "e.g. 08:00 4 · 10:00 5 · 12:00 3 · 14:00 2 · 16:00 3 · 18:00 4 · 20:00 4 → peaks 09:00–11:00, 19:00–21:00",
-           "id": "mis. 08.00 4 · 10.00 5 · 12.00 3 · 14.00 2 · 16.00 3 · 18.00 4 · 20.00 4 → puncak 09.00–11.00, 19.00–21.00"
+           "id": "mis. 08:00 4 · 10:00 5 · 12:00 3 · 14:00 2 · 16:00 3 · 18:00 4 · 20:00 4 → puncak 09:00–11:00, 19:00–21:00"
           },
           "rows": 2
          },
@@ -20911,11 +20911,11 @@ window.MT_LMS['the-map'] = {
           "id": "blocks",
           "label": {
            "en": "Starting block length · this week's blocks (day, time, objective) · completed count",
-           "id": "Panjang blok awal · blok minggu ini (hari, jam, tujuan) · jumlah yang selesai"
+           "id": "Panjang blok awal · blok minggu ini (hari, jam, sasaran) · jumlah yang selesai"
           },
           "hint": {
            "en": "e.g. 25 min · Mon 09:00 Bab 3 intro · Tue 09:00 dataset cleaning · … · 6/8 → add 5 min next week",
-           "id": "mis. 25 mnt · Sen 09.00 pengantar Bab 3 · Sel 09.00 pembersihan dataset · … · 6/8 → tambah 5 mnt minggu depan"
+           "id": "mis. 25 menit · Sen 09:00 pendahuluan Bab 3 · Sel 09:00 membersihkan dataset · … · 6/8 → tambah 5 menit minggu depan"
           },
           "rows": 4
          },
@@ -20923,7 +20923,7 @@ window.MT_LMS['the-map'] = {
           "id": "review",
           "label": {
            "en": "This week's review: cleared? · done / blocks / battery / cycle days · next two weeks' shape · relationship action · learning hour · what I'll shrink",
-           "id": "Tinjauan minggu ini: dibersihkan? · selesai / blok / baterai / hari siklus · bentuk dua minggu ke depan · tindakan relasi · jam belajar · yang akan kukecilkan"
+           "id": "Tinjauan minggu ini: sudah dibersihkan? · selesai / blok / baterai / hari siklus · bentuk dua minggu ke depan · tindakan relasi · jam belajar · apa yang akan kukecilkan"
           },
           "hint": {
            "en": "",
@@ -20935,7 +20935,7 @@ window.MT_LMS['the-map'] = {
           "id": "safety",
           "label": {
            "en": "Safety basics done: 2FA (email, cloud, bank, LinkedIn) · password manager · backup · notifications allowlist · wind-down boundary",
-           "id": "Dasar keamanan selesai: 2FA (email, awan, bank, LinkedIn) · pengelola kata sandi · cadangan · daftar izin notifikasi · batas menjelang tidur"
+           "id": "Dasar keamanan yang sudah beres: 2FA (email, cloud, bank, LinkedIn) · pengelola kata sandi · cadangan · daftar orang untuk notifikasi · batas sebelum tidur"
           },
           "hint": {
            "en": "",
@@ -20950,11 +20950,11 @@ window.MT_LMS['the-map'] = {
      "resources": {
       "title": {
        "en": "Resource kit · 5.7",
-       "id": "Perangkat sumber daya · 5.7"
+       "id": "Perlengkapan · 5.7"
       },
       "lead": {
        "en": "Cards for the review, the blocks and the safety setup. Everything stays on your device.",
-       "id": "Kartu untuk tinjauan, blok, dan pengaturan keamanan. Semuanya tetap di perangkatmu."
+       "id": "Kartu untuk tinjauan, blok fokus, dan pengaturan keamanan. Semuanya tersimpan di perangkatmu."
       },
       "items": [
        {
@@ -20965,20 +20965,20 @@ window.MT_LMS['the-map'] = {
         },
         "desc": {
          "en": "Same slot every week, phone away.",
-         "id": "Slot yang sama tiap minggu, ponsel disimpan."
+         "id": "Slot yang sama setiap minggu, ponsel disimpan jauh."
         },
         "body": [
          {
           "en": "Clear (5): capture, chats, screenshots → calendar or list; archive finished files",
-          "id": "Bersihkan (5): tangkapan, chat, tangkapan layar → kalender atau daftar; arsipkan berkas selesai"
+          "id": "Bersihkan (5): penampung, chat, tangkapan layar → kalender atau daftar; arsipkan berkas yang sudah selesai"
          },
          {
           "en": "Look back (5): done · blocks completed · battery score (5.1) · stress-cycle days (5.2)",
-          "id": "Lihat ke belakang (5): selesai · blok tuntas · skor baterai (5.1) · hari siklus stres (5.2)"
+          "id": "Lihat ke belakang (5): yang selesai · blok yang berhasil · skor baterai (5.1) · hari penuntasan siklus stres (5.2)"
          },
          {
           "en": "Look ahead (7): deadlines for two weeks · hard/easy days + one off-block · blocks in peaks · one relationship action (5.3) · one learning-loop hour (5.5)",
-          "id": "Lihat ke depan (7): tenggat dua minggu · hari berat/ringan + satu blok libur · blok di puncak · satu tindakan relasi (5.3) · satu jam putaran belajar (5.5)"
+          "id": "Lihat ke depan (7): tenggat dua minggu · hari berat/ringan + satu blok libur · blok di jam puncak · satu tindakan relasi (5.3) · satu jam lingkaran belajar (5.5)"
          },
          {
           "en": "Adjust (3): shrink, delegate or drop what keeps slipping",
@@ -20994,12 +20994,12 @@ window.MT_LMS['the-map'] = {
         },
         "desc": {
          "en": "One objective, one timer.",
-         "id": "Satu tujuan, satu pengatur waktu."
+         "id": "Satu sasaran, satu pengatur waktu."
         },
         "body": [
          {
           "en": "One concrete objective written down",
-          "id": "Satu tujuan konkret ditulis"
+          "id": "Satu sasaran konkret sudah ditulis"
          },
          {
           "en": "Phone out of sight (bag, other room, locker)",
@@ -21007,7 +21007,7 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Everything that isn't the task closed",
-          "id": "Semua yang bukan tugas ditutup"
+          "id": "Semua yang bukan tugasnya sudah ditutup"
          },
          {
           "en": "Timer running at my current length",
@@ -21015,11 +21015,11 @@ window.MT_LMS['the-map'] = {
          },
          {
           "en": "Real break after: water, walk, stretch",
-          "id": "Istirahat sungguhan setelahnya: air, jalan, peregangan"
+          "id": "Jeda yang sungguhan sesudahnya: minum air, jalan, peregangan"
          },
          {
           "en": "Output and effort (1–10) logged",
-          "id": "Keluaran dan usaha (1–10) dicatat"
+          "id": "Hasil dan usaha (1–10) sudah dicatat"
          }
         ]
        },
@@ -21031,32 +21031,32 @@ window.MT_LMS['the-map'] = {
         },
         "desc": {
          "en": "Do it once; review each semester.",
-         "id": "Lakukan sekali; tinjau tiap semester."
+         "id": "Lakukan sekali; tinjau setiap semester."
         },
         "body": [
          {
           "en": "2FA on email, cloud, banking, LinkedIn",
-          "id": "2FA di email, awan, perbankan, LinkedIn"
+          "id": "2FA untuk email, cloud, perbankan, LinkedIn"
          },
          {
           "en": "Password manager, or unique passwords for email and banking",
-          "id": "Pengelola kata sandi, atau kata sandi unik untuk email dan perbankan"
+          "id": "Pengelola kata sandi, atau kata sandi berbeda untuk email dan perbankan"
          },
          {
           "en": "Backup: 3 copies, 2 places, 1 offline or another account",
-          "id": "Cadangan: 3 salinan, 2 tempat, 1 luring atau akun lain"
+          "id": "Cadangan: 3 salinan, 2 tempat, 1 offline atau di akun lain"
          },
          {
           "en": "Scam signals: urgency, fees, national ID card/OTP/bank details over chat, too-good offers → verify via a second channel",
-          "id": "Sinyal penipuan: desakan, biaya, KTP/OTP/rincian bank lewat chat, tawaran terlalu bagus → verifikasi lewat saluran kedua"
+          "id": "Tanda penipuan: desakan, biaya, KTP/OTP/data rekening lewat chat, tawaran yang terlalu bagus → verifikasi lewat saluran kedua"
          },
          {
           "en": "Shared devices: private window, log out",
-          "id": "Perangkat bersama: jendela privat, keluar akun"
+          "id": "Perangkat bersama: jendela pribadi, keluar dari akun"
          },
          {
           "en": "Cloud sync on Wi-Fi only; offline-capable notes",
-          "id": "Sinkronisasi awan hanya di Wi-Fi; catatan yang bisa luring"
+          "id": "Sinkronisasi cloud hanya lewat Wi-Fi; aplikasi catatan yang bisa offline"
          }
         ]
        },
@@ -21072,16 +21072,16 @@ window.MT_LMS['the-map'] = {
         },
         "body": [
          {
-          "en": "Stulberg & Magness, Peak Performance, ch. 3 and 7: blocks, breaks and daily rhythms",
-          "id": "Stulberg & Magness, Peak Performance, bab 3 dan 7: blok, istirahat, dan ritme harian"
+          "en": "Stulberg & Magness, Peak Performance: blocks, breaks and daily rhythms",
+          "id": "Stulberg & Magness, Peak Performance: blok, jeda, dan ritme harian"
          },
          {
-          "en": "Pennington, Make Change Work, ch. 16: the tool is not the goal",
-          "id": "Pennington, Make Change Work, bab 16: alat bukan tujuan"
+          "en": "Pennington, Make Change Work: the tool is not the goal",
+          "id": "Pennington, Make Change Work: alat bukanlah tujuannya"
          },
          {
-          "en": "Russell & Norvig, Artificial Intelligence: A Modern Approach, ch. 28: attention systems and personal tools",
-          "id": "Russell & Norvig, Artificial Intelligence: A Modern Approach, bab 28: sistem perhatian dan alat pribadi"
+          "en": "Russell & Norvig, Artificial Intelligence: A Modern Approach: attention systems and personal tools",
+          "id": "Russell & Norvig, Artificial Intelligence: A Modern Approach: sistem penarik perhatian dan alat pribadi"
          }
         ]
        }
@@ -21095,19 +21095,19 @@ window.MT_LMS['the-map'] = {
        },
        "q": {
         "en": "Week 8 of semester: two assignments, final-year thesis meeting Thursday, tutoring three evenings. How does each student run the week?",
-        "id": "Minggu ke-8 semester: dua tugas, bimbingan skripsi Kamis, mengajar les tiga malam. Bagaimana tiap mahasiswa menjalani minggunya?"
+        "id": "Minggu ke-8 semester: dua tugas, bimbingan skripsi hari Kamis, mengajar les tiga malam. Bagaimana masing-masing menjalani minggunya?"
        },
        "weak": {
         "en": "Tasks live in chats, screenshots and memory. He opens his laptop and does whatever feels most urgent. He checks WhatsApp every few minutes. He tries a three-hour “grind” on Wednesday night and manages 40 distracted minutes. On Thursday he can't find the latest Bab 3 file.",
-        "id": "Tugas hidup di chat, tangkapan layar, dan ingatan. Ia membuka laptop dan mengerjakan apa pun yang terasa paling mendesak. Ia mengecek WhatsApp tiap beberapa menit. Ia mencoba “gas” tiga jam Rabu malam dan hanya dapat 40 menit yang terganggu. Hari Kamis ia tidak bisa menemukan berkas Bab 3 terbaru."
+        "id": "Tugas-tugasnya tersebar di chat, tangkapan layar, dan ingatan. Ia membuka laptop dan mengerjakan apa pun yang terasa paling mendesak. Ia mengecek WhatsApp setiap beberapa menit. Ia mencoba \"ngebut\" tiga jam di Rabu malam dan hanya bertahan 40 menit dengan pikiran ke mana-mana. Hari Kamis ia tidak bisa menemukan berkas Bab 3 terbaru."
        },
        "strong": {
         "en": "Sunday 19:00 weekly review: everything captured, deadlines in the calendar, three 50-minute focus blocks booked in her morning peak, Bab 3 saved as 2026-10-bab3-v4. Two inbox times a day; groups muted except mentions. AI drafts her meeting agenda for the supervisor, and she checks and edits it. On Wednesday she notices her battery is low, so she shrinks to two blocks and walks with a friend. On Thursday she opens the right file in ten seconds.",
-        "id": "Tinjauan mingguan Minggu 19.00: semuanya tertangkap, tenggat di kalender, tiga blok fokus 50 menit dipesan di puncak paginya, Bab 3 disimpan sebagai 2026-10-bab3-v4. Dua waktu kotak masuk sehari; grup dibisukan kecuali sebutan. AI menyusun draf agenda bimbingannya, dan ia mengecek serta menyuntingnya. Hari Rabu ia menyadari bateranya rendah, jadi ia menyusut ke dua blok dan jalan kaki dengan teman. Hari Kamis ia membuka berkas yang tepat dalam sepuluh detik."
+        "id": "Tinjauan mingguan Minggu 19:00: semua sudah ditampung, tenggat sudah di kalender, tiga blok fokus 50 menit dijadwalkan di jam puncak paginya, Bab 3 disimpan sebagai 2026-10-bab3-v4. Dua kali cek kotak masuk sehari; grup dibisukan kecuali kalau namanya disebut. AI membuat draf agenda bimbingannya, lalu ia mengecek dan menyuntingnya. Hari Rabu ia sadar baterainya rendah, jadi ia mengecilkan rencananya menjadi dua blok dan berjalan kaki bersama teman. Hari Kamis ia membuka berkas yang benar dalam sepuluh detik."
        },
        "why": {
         "en": "The strong week uses all five stations, sizes focus to real capacity, schedules recovery, and keeps AI inside a station with a human check. The weak week runs on urgency and willpower, which fails exactly when it's needed.",
-        "id": "Minggu yang kuat memakai kelima pos, mengukur fokus sesuai kapasitas nyata, menjadwalkan pemulihan, dan menjaga AI di dalam pos dengan pengecekan manusia. Minggu yang lemah berjalan dengan desakan dan kemauan keras, yang gagal tepat saat dibutuhkan."
+        "id": "Minggu yang kuat memakai kelima pos, menyesuaikan fokus dengan kapasitas yang sebenarnya, menjadwalkan pemulihan, dan menjaga AI tetap di dalam pos dengan pengecekan oleh manusia. Minggu yang lemah berjalan dengan rasa mendesak dan tekad, yang justru gagal tepat saat paling dibutuhkan."
        }
       }
      ],
@@ -21121,15 +21121,15 @@ window.MT_LMS['the-map'] = {
       "body": [
        {
         "en": "Six weeks into the job, Raka misses a Friday deadline. Bu Wulan had mentioned it in a voice note in the team group, between two memes. It went into neither his calendar nor his notes.",
-        "id": "Enam minggu bekerja, Raka melewatkan tenggat Jumat. Bu Wulan menyebutnya dalam pesan suara di grup tim, di antara dua meme. Itu tidak masuk ke kalender maupun catatannya."
+        "id": "Enam minggu setelah mulai bekerja, Raka melewatkan tenggat hari Jumat. Bu Wulan menyebutnya dalam pesan suara di grup tim, di antara dua meme. Instruksi itu tidak masuk ke kalender maupun catatannya."
        },
        {
         "en": "He doesn't beat himself up (5.2). He does the setup sprints from this lesson that evening: one capture inbox, a calendar he actually trusts, files renamed to the dated convention, and group chats muted except mentions. He adds a Friday 16:30 weekly review.",
-        "id": "Ia tidak menyalahkan dirinya habis-habisan (5.2). Malam itu ia melakukan sprint penyiapan dari pelajaran ini: satu kotak masuk tangkapan, kalender yang benar-benar ia percayai, berkas dinamai ulang dengan konvensi bertanggal, dan grup chat dibisukan kecuali sebutan. Ia menambahkan tinjauan mingguan Jumat 16.30."
+        "id": "Ia tidak menyalahkan dirinya habis-habisan (5.2). Malam itu juga ia menjalankan sprint penyiapan dari pelajaran ini: satu kotak masuk penampung, kalender yang benar-benar ia percayai, berkas yang diganti nama dengan format bertanggal, dan grup chat yang dibisukan kecuali kalau namanya disebut. Ia menambahkan tinjauan mingguan setiap Jumat 16:30."
        },
        {
         "en": "On Monday he messages Bu Wulan: “Bu, mohon maaf saya melewatkan tenggat Jumat. Penyebabnya, saya tidak mencatat instruksi dari voice note. Sekarang semua instruksi saya catat dalam satu inbox dan saya konfirmasi balik. Laporannya sudah saya kirim pagi ini.” That is Reframe from REACH (5.3), from the junior seat.",
-        "id": "Hari Senin ia mengirim pesan ke Bu Wulan: “Bu, mohon maaf saya melewatkan tenggat Jumat. Penyebabnya, saya tidak mencatat instruksi dari voice note. Sekarang semua instruksi saya catat dalam satu inbox dan saya konfirmasi balik. Laporannya sudah saya kirim pagi ini.” Itulah Maknai Ulang dari REACH (5.3), dari kursi junior."
+        "id": "Hari Senin ia mengirim pesan kepada Bu Wulan: \"Bu, mohon maaf saya melewatkan tenggat Jumat. Penyebabnya, saya tidak mencatat instruksi dari voice note. Sekarang semua instruksi saya catat dalam satu inbox dan saya konfirmasi balik. Laporannya sudah saya kirim pagi ini.\" Itulah memaknai ulang kesalahan dari REACH (5.3), dari kursi junior."
        }
       ]
      },
@@ -21141,7 +21141,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "A timed, single-task work session with one objective and the phone out of sight.",
-        "id": "Sesi kerja satu tugas yang diatur waktunya, dengan satu tujuan dan ponsel di luar pandangan."
+        "id": "Sesi kerja berbatas waktu untuk satu tugas, dengan satu sasaran dan ponsel di luar pandangan."
        }
       },
       {
@@ -21151,7 +21151,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Your natural daily rhythm of alertness (lark or owl).",
-        "id": "Ritme harian alami kesiagaanmu (tipe pagi atau tipe malam)."
+        "id": "Ritme kesegaran alami harianmu (tipe pagi atau tipe malam)."
        }
       },
       {
@@ -21167,11 +21167,11 @@ window.MT_LMS['the-map'] = {
       {
        "term": {
         "en": "two-factor authentication",
-        "id": "autentikasi dua langkah"
+        "id": "autentikasi dua faktor"
        },
        "def": {
         "en": "A second proof (code or app) beyond your password.",
-        "id": "Bukti kedua (kode atau aplikasi) di luar kata sandimu."
+        "id": "Bukti kedua (kode atau aplikasi) selain kata sandimu."
        }
       },
       {
@@ -21181,7 +21181,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "A message pretending to be trusted in order to steal data or money.",
-        "id": "Pesan yang berpura-pura tepercaya untuk mencuri data atau uang."
+        "id": "Pesan yang berpura-pura berasal dari pihak tepercaya untuk mencuri data atau uang."
        }
       }
      ]
@@ -21190,42 +21190,42 @@ window.MT_LMS['the-map'] = {
      "n": "5.8",
      "title": {
       "en": "Case Assignment: Raka's First 100 Days",
-      "id": "Studi Kasus: 100 Hari Pertama Raka"
+      "id": "Tugas Kasus: 100 Hari Pertama Raka"
      },
      "dur": {
       "en": "80 min",
-      "id": "80 mnt"
+      "id": "80 menit"
      },
      "kind": "assignment",
      "placeholder": false,
      "outcome": {
       "en": "Advise a trainee on energy, people and AI in one realistic situation, then turn the same analysis on yourself to finish your Sustainable Performance Plan.",
-      "id": "Menasihati seorang trainee tentang energi, orang, dan AI dalam satu situasi realistis, lalu menerapkan analisis yang sama pada dirimu untuk menyelesaikan Rencana Kinerja Berkelanjutanmu."
+      "id": "Memberi saran kepada seorang trainee soal energi, orang, dan AI dalam satu situasi yang realistis, lalu mengarahkan analisis yang sama kepada dirimu sendiri untuk menyelesaikan Rencana Kinerja Berkelanjutanmu."
      },
      "outcomeDetail": {
       "en": "By the end you have diagnosed energy and stress signals from evidence, planned a repair conversation and a disagreement in a hierarchy, sorted a job's tasks by AI exposure with responsible-use rules, written a keepable 30-day plan for Raka, and saved three measurable commitments of your own.",
-      "id": "Di akhir pelajaran kamu sudah mendiagnosis sinyal energi dan stres dari bukti, merencanakan percakapan perbaikan dan perbedaan pendapat dalam hierarki, memilah tugas sebuah pekerjaan berdasarkan paparan AI dengan aturan penggunaan yang bertanggung jawab, menulis rencana 30 hari yang bisa dijaga untuk Raka, dan menyimpan tiga komitmen terukur milikmu sendiri."
+      "id": "Di akhir pelajaran ini, kamu sudah mendiagnosis tanda-tanda energi dan stres berdasarkan bukti, merencanakan percakapan perbaikan dan sebuah perbedaan pendapat di tengah hierarki, memilah tugas-tugas sebuah pekerjaan berdasarkan paparan terhadap AI lengkap dengan aturan penggunaan yang bertanggung jawab, menulis rencana 30 hari yang bisa dijalankan Raka, dan menyimpan tiga komitmen terukur milikmu sendiri."
      },
      "overview": {
       "en": "You'll advise Raka, a data and operations trainee in his first 100 days, then turn the same analysis on yourself. Everything you learned in Module 5 meets one realistic situation: a falling battery, a clash with a senior, a supervisor you've never really talked to, and an AI tool with no written policy yet. Your answers stay on this device. The model notes open after you submit.",
-      "id": "Kamu akan menasihati Raka, trainee data dan operasi di 100 hari pertamanya, lalu menerapkan analisis yang sama pada dirimu. Semua yang kamu pelajari di Modul 5 bertemu satu situasi realistis: baterai yang menurun, bentrokan dengan senior, atasan yang belum pernah benar-benar kamu ajak bicara, dan alat AI yang belum punya kebijakan tertulis. Jawabanmu tetap di perangkat ini. Catatan model terbuka setelah kamu mengumpulkan."
+      "id": "Kamu akan memberi saran kepada Raka, seorang trainee data dan operasional di 100 hari pertamanya, lalu mengarahkan analisis yang sama kepada dirimu sendiri. Semua yang kamu pelajari di Modul 5 bertemu dalam satu situasi yang realistis: baterai yang terus turun, bentrok dengan senior, atasan yang belum pernah benar-benar ia ajak bicara, dan alat AI yang belum punya kebijakan tertulis. Jawabanmu tersimpan di perangkat ini. Catatan contoh jawaban terbuka setelah kamu mengirimkan jawabanmu."
      },
      "objectives": [
       {
        "en": "Diagnose energy and stress signals and prescribe a protocol.",
-       "id": "Mendiagnosis sinyal energi dan stres dan meresepkan protokol."
+       "id": "Mendiagnosis tanda-tanda energi dan stres, lalu meresepkan sebuah protokol."
       },
       {
        "en": "Plan an AVEC conversation and a disagreement using the Ladder.",
-       "id": "Merencanakan percakapan AVEC dan perbedaan pendapat memakai Tangga."
+       "id": "Merencanakan percakapan AVEC dan sebuah perbedaan pendapat dengan Tangga Ketidaksetujuan."
       },
       {
        "en": "Map tasks for AI exposure and write responsible-use rules.",
-       "id": "Memetakan tugas berdasarkan paparan AI dan menulis aturan penggunaan yang bertanggung jawab."
+       "id": "Memetakan tugas berdasarkan paparan terhadap AI dan menulis aturan penggunaan yang bertanggung jawab."
       },
       {
        "en": "Build a 30-day plan with measurable commitments.",
-       "id": "Membangun rencana 30 hari dengan komitmen terukur."
+       "id": "Menyusun rencana 30 hari dengan komitmen yang terukur."
       }
      ],
      "caseStudy": {
@@ -21242,35 +21242,35 @@ window.MT_LMS['the-map'] = {
       },
       "lead": {
        "en": "You are Raka's mentor in the Metanoia mentoring programme. Read his email and the facts, then work through the four steps. At the end, you'll answer the same questions about yourself.",
-       "id": "Kamu adalah mentor Raka di program mentoring Metanoia. Baca emailnya dan faktanya, lalu kerjakan empat langkah. Di akhir, kamu akan menjawab pertanyaan yang sama tentang dirimu."
+       "id": "Kamu adalah mentor Raka dalam program mentoring Metanoia. Baca email dan fakta-faktanya, lalu kerjakan empat langkahnya. Di akhir, kamu akan menjawab pertanyaan yang sama tentang dirimu sendiri."
       },
       "practice": [
        {
         "en": "Diagnose with evidence, not adjectives.",
-        "id": "Diagnosis dengan bukti, bukan kata sifat."
+        "id": "Mendiagnosis dengan bukti, bukan kata sifat."
        },
        {
         "en": "Plan a hard conversation in a hierarchy.",
-        "id": "Rencanakan percakapan sulit dalam hierarki."
+        "id": "Merencanakan percakapan sulit di tengah hierarki."
        },
        {
         "en": "Use AI within gates.",
-        "id": "Pakai AI di dalam gerbang."
+        "id": "Memakai AI di dalam gerbang-gerbangnya."
        },
        {
         "en": "Make a plan small enough to keep.",
-        "id": "Buat rencana yang cukup kecil untuk dijaga."
+        "id": "Membuat rencana yang cukup kecil untuk dijalankan."
        }
       ],
       "goal": {
        "en": "Give Raka a specific, evidence-based 30-day plan covering his energy, his key work relationships and his use of AI. Then build your own.",
-       "id": "Beri Raka rencana 30 hari yang spesifik dan berbasis bukti, mencakup energinya, relasi kerja kuncinya, dan penggunaan AI-nya. Lalu bangun milikmu sendiri."
+       "id": "Berikan Raka rencana 30 hari yang spesifik dan berbasis bukti, yang mencakup energinya, relasi kerjanya yang paling penting, dan caranya memakai AI. Lalu susun rencanamu sendiri."
       },
       "brief": {
        "quote": {
         "text": {
          "en": "I keep thinking if I just work harder for one more month, I'll pass probation and then I can rest.",
-         "id": "Aku terus berpikir kalau aku kerja lebih keras satu bulan lagi, aku lulus probation dan baru bisa istirahat."
+         "id": "Aku terus berpikir, kalau aku kerja lebih keras sebulan lagi saja, aku bakal lulus masa percobaan dan setelah itu baru bisa istirahat."
         },
         "who": {
          "en": "Raka, day 60",
@@ -21289,7 +21289,7 @@ window.MT_LMS['the-map'] = {
         },
         "date": {
          "en": "Mon, 09:40",
-         "id": "Sen, 09.40"
+         "id": "Sen, 09:40"
         },
         "subject": {
          "en": "Day 60 and I'm a bit lost",
@@ -21298,39 +21298,39 @@ window.MT_LMS['the-map'] = {
         "paragraphs": [
          {
           "en": "Mentor, I'm two months into the Data & Operations Trainee programme at PT Nusantara Logistik. I really want to pass probation in a month, but honestly I'm running on empty. I passed my sidang last month (revisions due in two weeks).",
-          "id": "Mentor, aku sudah dua bulan di program Data & Operations Trainee di PT Nusantara Logistik. Aku sangat ingin lulus probation sebulan lagi, tapi jujur aku sudah kehabisan tenaga. Aku lulus sidang bulan lalu (revisi harus selesai dua minggu lagi)."
+          "id": "Mentor, aku sudah dua bulan di program Data & Operations Trainee di PT Nusantara Logistik. Aku benar-benar ingin lulus masa percobaan bulan depan, tapi jujur saja tenagaku sudah habis. Aku lulus sidang bulan lalu (revisinya harus selesai dua minggu lagi)."
          },
          {
           "en": "<b>Energy:</b> I sleep about 5½ hours on weeknights, commute two hours a day by KRL, have stopped futsal and eat lunch at my desk. My battery check this morning was 3/9. I've caught two colds in five weeks.",
-          "id": "<b>Energi:</b> Aku tidur sekitar 5½ jam di hari kerja, pulang-pergi dua jam sehari naik KRL, sudah berhenti futsal, dan makan siang di meja. Cek bateraiku pagi ini 3/9. Aku sudah dua kali flu dalam lima minggu."
+          "id": "<b>Energi:</b> aku tidur sekitar 5½ jam di malam hari kerja, perjalanan pulang-pergi dua jam sehari naik KRL, sudah berhenti futsal, dan makan siang di meja kerja. Cek baterai tadi pagi skornya 3/9. Aku sudah dua kali pilek dalam lima minggu."
          },
          {
           "en": "<b>People:</b> Mbak Sari, my senior, and I keep clashing about how the weekly delivery dashboard should be structured. Last week I went quiet in the meeting and then complained in the trainees' WhatsApp group. I think she saw it. Bu Wulan (my supervisor) seems happy with my work but I've never had a proper 1:1 with her.",
-          "id": "<b>Orang:</b> Mbak Sari, seniorku, dan aku terus berselisih soal bagaimana dashboard pengiriman mingguan seharusnya disusun. Minggu lalu aku diam di rapat lalu mengeluh di grup WhatsApp trainee. Kurasa dia melihatnya. Bu Wulan (atasanku) tampak puas dengan kerjaku tapi aku belum pernah punya 1:1 yang sungguhan dengannya."
+          "id": "<b>Orang:</b> aku dan Mbak Sari, seniorku, terus bentrok soal struktur dasbor pengiriman mingguan. Minggu lalu aku diam saja di rapat, lalu mengeluh di grup WhatsApp para trainee. Sepertinya dia melihatnya. Bu Wulan (atasanku) kelihatannya puas dengan pekerjaanku, tapi aku belum pernah ngobrol empat mata dengannya dengan sungguh-sungguh."
          },
          {
           "en": "<b>AI:</b> The company rolled out an AI-assisted reporting tool. Dimas pastes everything into a free chatbot on his phone, including customer data, and he's twice as fast as me. Bu Wulan wants us to “use AI to save time”, but there's no written policy yet. I'm worried I'm too slow, and also that Dimas is going to get us in trouble.",
-          "id": "<b>AI:</b> Perusahaan meluncurkan alat pelaporan berbantuan AI. Dimas menempel semuanya ke chatbot gratis di ponselnya, termasuk data pelanggan, dan dia dua kali lebih cepat dariku. Bu Wulan ingin kami “pakai AI untuk menghemat waktu”, tapi belum ada kebijakan tertulis. Aku khawatir aku terlalu lambat, dan juga khawatir Dimas akan membuat kami kena masalah."
+          "id": "<b>AI:</b> perusahaan meluncurkan alat pelaporan berbantuan AI. Dimas menempelkan semuanya ke chatbot gratis di ponselnya, termasuk data pelanggan, dan dia dua kali lebih cepat dariku. Bu Wulan ingin kami \"pakai AI untuk menghemat waktu\", tapi belum ada kebijakan tertulisnya. Aku khawatir aku terlalu lambat, dan juga khawatir Dimas bakal bikin kami kena masalah."
          }
         ],
         "asks": [
          {
           "en": "<b>What to fix first</b> for my energy",
-          "id": "<b>Apa yang harus diperbaiki dulu</b> untuk energiku"
+          "id": "<b>Apa yang perlu dibereskan dulu</b> soal energiku"
          },
          {
           "en": "<b>How to handle Mbak Sari</b> and get a real 1:1 with Bu Wulan",
-          "id": "<b>Bagaimana menghadapi Mbak Sari</b> dan mendapat 1:1 sungguhan dengan Bu Wulan"
+          "id": "<b>Bagaimana menghadapi Mbak Sari</b> dan mendapat obrolan empat mata yang sungguhan dengan Bu Wulan"
          },
          {
           "en": "<b>How to use the AI tool</b> without risking anything",
-          "id": "<b>Bagaimana memakai alat AI</b> tanpa mempertaruhkan apa pun"
+          "id": "<b>Bagaimana memakai alat AI itu</b> tanpa mempertaruhkan apa pun"
          }
         ],
         "closing": [
          {
-          "en": "I want a plan I can actually keep. Last time I made a huge plan and dropped it in a week., Raka",
-          "id": "Aku ingin rencana yang benar-benar bisa kujaga. Terakhir kali aku buat rencana besar dan kutinggalkan dalam seminggu., Raka"
+          "en": "I want a plan I can actually keep. Last time I made a huge plan and dropped it in a week. Thanks, Raka",
+          "id": "Aku ingin rencana yang benar-benar bisa kujalankan. Terakhir kali aku membuat rencana besar dan meninggalkannya dalam seminggu. Terima kasih, Raka"
          }
         ]
        },
@@ -21351,22 +21351,22 @@ window.MT_LMS['the-map'] = {
          "icon": "clock",
          "k": {
           "en": "Week shape",
-          "id": "Bentuk minggu"
+          "id": "Bentuk minggunya"
          },
          "v": {
           "en": "07:00–19:00 workdays including commute; final-year thesis revisions in the evenings",
-          "id": "07.00–19.00 hari kerja termasuk perjalanan; revisi skripsi di malam hari"
+          "id": "Hari kerja 07:00–19:00 termasuk perjalanan; revisi skripsi di malam hari"
          }
         },
         {
          "icon": "users",
          "k": {
           "en": "Key people",
-          "id": "Orang kunci"
+          "id": "Orang-orang kunci"
          },
          "v": {
           "en": "Bu Wulan (supervisor), Mbak Sari (senior, covering two roles), Dimas (peer)",
-          "id": "Bu Wulan (atasan), Mbak Sari (senior, menangani dua peran), Dimas (rekan)"
+          "id": "Bu Wulan (atasan), Mbak Sari (senior, merangkap dua peran), Dimas (rekan sesama trainee)"
          }
         },
         {
@@ -21377,13 +21377,13 @@ window.MT_LMS['the-map'] = {
          },
          "v": {
           "en": "Company tool is licensed; written AI policy “coming next quarter”",
-          "id": "Alat perusahaan berlisensi; kebijakan AI tertulis “datang kuartal depan”"
+          "id": "Alat perusahaan sudah berlisensi; kebijakan AI tertulis \"menyusul kuartal depan\""
          }
         }
        ],
        "factsNote": {
         "en": "Raka passed his sidang last month; revisions are due in two weeks. His mentor (you) sees him once a month.",
-        "id": "Raka lulus sidang bulan lalu; revisi harus selesai dua minggu lagi. Mentornya (kamu) bertemu dengannya sebulan sekali."
+        "id": "Raka lulus sidang bulan lalu; revisinya harus selesai dua minggu lagi. Mentornya (kamu) bertemu dengannya sebulan sekali."
        },
        "bars": {
         "tab": {
@@ -21436,7 +21436,7 @@ window.MT_LMS['the-map'] = {
          {
           "label": {
            "en": "Focus blocks completed W5",
-           "id": "Blok fokus tuntas M5"
+           "id": "Blok fokus selesai M5"
           },
           "v": 6,
           "text": "6"
@@ -21444,7 +21444,7 @@ window.MT_LMS['the-map'] = {
          {
           "label": {
            "en": "Focus blocks completed W8",
-           "id": "Blok fokus tuntas M8"
+           "id": "Blok fokus selesai M8"
           },
           "v": 2,
           "text": "2",
@@ -21453,25 +21453,25 @@ window.MT_LMS['the-map'] = {
         ],
         "total": {
          "en": "Weeks 6 and 7 sit between these values: sleep 6.0 and 5.7 h; movement 2 and 1 days; focus blocks 5 and 3.",
-         "id": "Minggu 6 dan 7 berada di antara nilai-nilai ini: tidur 6,0 dan 5,7 jam; bergerak 2 dan 1 hari; blok fokus 5 dan 3."
+         "id": "Minggu 6 dan 7 berada di antara nilai-nilai ini: tidur 6,0 dan 5,7 jam; hari bergerak 2 dan 1; blok fokus 5 dan 3."
         },
         "takeaways": [
          {
           "dir": "down",
           "h": {
            "en": "Sleep falling",
-           "id": "Tidur menurun"
+           "id": "Tidur makin berkurang"
           },
           "p": {
            "en": "From 6.4 to 5.5 hours a night in four weeks, below the 7–9 hour range.",
-           "id": "Dari 6,4 ke 5,5 jam semalam dalam empat minggu, di bawah rentang 7–9 jam."
+           "id": "Dari 6,4 menjadi 5,5 jam per malam dalam empat minggu, di bawah rentang 7–9 jam."
           }
          },
          {
           "dir": "down",
           "h": {
            "en": "Movement gone",
-           "id": "Gerak hilang"
+           "id": "Gerak badan hilang"
           },
           "p": {
            "en": "Futsal dropped; zero movement days in week 8.",
@@ -21482,17 +21482,17 @@ window.MT_LMS['the-map'] = {
           "dir": "down",
           "h": {
            "en": "Focus following both",
-           "id": "Fokus mengikuti keduanya"
+           "id": "Fokus ikut turun"
           },
           "p": {
            "en": "Completed focus blocks fell from 6 to 2.",
-           "id": "Blok fokus yang tuntas turun dari 6 ke 2."
+           "id": "Blok fokus yang selesai turun dari 6 menjadi 2."
           }
          }
         ],
         "note": {
          "en": "When sleep and movement fall, focus usually follows a week or two later. Raka is reading this as being “too slow”.",
-         "id": "Saat tidur dan gerak turun, fokus biasanya mengikuti seminggu atau dua minggu kemudian. Raka membacanya sebagai “terlalu lambat”."
+         "id": "Ketika tidur dan gerak badan turun, fokus biasanya ikut turun satu atau dua minggu kemudian. Raka membacanya sebagai \"terlalu lambat\"."
         }
        },
        "docs": [
@@ -21503,7 +21503,7 @@ window.MT_LMS['the-map'] = {
          },
          "title": {
           "en": "Trainees' WhatsApp group · last Thursday",
-          "id": "Grup WhatsApp trainee · Kamis lalu"
+          "id": "Grup WhatsApp para trainee · Kamis lalu"
          },
          "meta": {
           "en": "Three members: Raka, Dimas, Putri",
@@ -21512,24 +21512,24 @@ window.MT_LMS['the-map'] = {
          "body": [
           {
            "en": "<b>Raka 16:42</b>: “Capek banget rapat tadi. Dashboard per gudang lagi, per gudang lagi. Padahal komplain jelas-jelas per customer 🙄”",
-           "id": "<b>Raka 16.42</b>: “Capek banget rapat tadi. Dashboard per gudang lagi, per gudang lagi. Padahal komplain jelas-jelas per customer 🙄”"
+           "id": "<b>Raka 16:42</b>: \"Capek banget rapat tadi. Dashboard per gudang lagi, per gudang lagi. Padahal komplain jelas-jelas per customer 🙄\""
           },
           {
            "en": "<b>Dimas 16:44</b>: “Hahaha sabar bro. Btw laporanku udah kelar, tinggal paste ke chatbot terus rapiin. 20 menit.”",
-           "id": "<b>Dimas 16.44</b>: “Hahaha sabar bro. Btw laporanku udah kelar, tinggal paste ke chatbot terus rapiin. 20 menit.”"
+           "id": "<b>Dimas 16:44</b>: \"Hahaha sabar bro. Btw laporanku udah kelar, tinggal paste ke chatbot terus rapiin. 20 menit.\""
           },
           {
            "en": "<b>Putri 16:51</b>: “Dim, itu data customer ikut ke-paste nggak?”",
-           "id": "<b>Putri 16.51</b>: “Dim, itu data customer ikut ke-paste nggak?”"
+           "id": "<b>Putri 16:51</b>: \"Dim, itu data customer ikut ke-paste nggak?\""
           },
           {
            "en": "<b>Dimas 16:52</b>: “Ya ikut lah, kan biar lengkap. Santai, gratis kok.”",
-           "id": "<b>Dimas 16.52</b>: “Ya ikut lah, kan biar lengkap. Santai, gratis kok.”"
+           "id": "<b>Dimas 16:52</b>: \"Ya ikut lah, kan biar lengkap. Santai, gratis kok.\""
           }
          ],
          "note": {
           "en": "Mbak Sari is not in this group, but a screenshot reached her.",
-          "id": "Mbak Sari tidak ada di grup ini, tetapi tangkapan layarnya sampai ke dia."
+          "id": "Mbak Sari tidak ada di grup ini, tetapi tangkapan layarnya sampai kepadanya."
          }
         },
         {
@@ -21539,7 +21539,7 @@ window.MT_LMS['the-map'] = {
          },
          "title": {
           "en": "Data & Operations Trainee · tasks listed in the programme handbook",
-          "id": "Data & Operations Trainee · tugas yang tercantum di buku pegangan program"
+          "id": "Data & Operations Trainee · tugas-tugas yang tercantum di buku panduan program"
          },
          "meta": {
           "en": "Excerpt",
@@ -21550,7 +21550,7 @@ window.MT_LMS['the-map'] = {
            "items": [
             {
              "en": "Compile weekly delivery performance data from three warehouses",
-             "id": "Mengompilasi data kinerja pengiriman mingguan dari tiga gudang"
+             "id": "Mengumpulkan data kinerja pengiriman mingguan dari tiga gudang"
             },
             {
              "en": "Draft the weekly narrative report for regional management",
@@ -21562,23 +21562,23 @@ window.MT_LMS['the-map'] = {
             },
             {
              "en": "Maintain the delivery dashboard and its formulas",
-             "id": "Memelihara dashboard pengiriman dan rumus-rumusnya"
+             "id": "Memelihara dasbor pengiriman dan rumus-rumusnya"
             },
             {
              "en": "First-pass summaries of customer complaints",
-             "id": "Ringkasan awal komplain pelanggan"
+             "id": "Ringkasan tahap awal atas komplain pelanggan"
             },
             {
              "en": "Format tables and rename monthly files to the archive convention",
-             "id": "Memformat tabel dan menamai ulang berkas bulanan sesuai konvensi arsip"
+             "id": "Merapikan tabel dan mengganti nama berkas bulanan sesuai format arsip"
             },
             {
              "en": "Present findings to a client account manager once a month",
-             "id": "Menyajikan temuan kepada manajer akun klien sebulan sekali"
+             "id": "Mempresentasikan temuan kepada account manager klien sebulan sekali"
             },
             {
              "en": "Judge data-quality exceptions before they enter the dashboard",
-             "id": "Menilai pengecualian kualitas data sebelum masuk ke dashboard"
+             "id": "Menilai pengecualian kualitas data sebelum masuk ke dasbor"
             }
            ]
           }
@@ -21599,22 +21599,22 @@ window.MT_LMS['the-map'] = {
         },
         "guide": {
          "en": "Use 5.1 and 5.2: the energy ring, overload signals, the four “deal with stress first” signals, the Growth Equation and the effort dial. Separate stressors from stress.",
-         "id": "Pakai 5.1 dan 5.2: lingkaran energi, tanda kelebihan beban, empat sinyal “tangani stresnya dulu”, Persamaan Pertumbuhan, dan dial usaha. Pisahkan pemicu stres dari respons stres."
+         "id": "Pakai 5.1 dan 5.2: lingkaran energi, tanda kelebihan beban, empat sinyal \"tangani stresnya dulu\", Persamaan Pertumbuhan, dan kenop usaha. Pisahkan pemicu stres dari stresnya."
         },
         "questions": [
          {
           "id": "q1",
           "title": {
            "en": "What do the facts and chart tell you about Raka's energy?",
-           "id": "Apa yang dikatakan fakta dan grafik tentang energi Raka?"
+           "id": "Apa yang ditunjukkan fakta dan grafiknya tentang energi Raka?"
           },
           "help": {
            "en": "Name the systems that are failing and any warning signals. Use the numbers.",
-           "id": "Sebut sistem yang gagal dan tanda peringatan apa pun. Pakai angkanya."
+           "id": "Sebutkan sistem yang sedang melemah dan tanda bahaya yang ada. Pakai angka-angkanya."
           },
           "placeholder": {
            "en": "Start with the numbers: sleep fell from … movement … The signals I see are …",
-           "id": "Mulai dari angkanya: tidur turun dari … gerak … Sinyal yang kulihat adalah …"
+           "id": "Mulai dari angkanya: tidur turun dari … gerak badan … Tanda-tanda yang kulihat adalah …"
           },
           "min": 60,
           "rows": 7,
@@ -21657,15 +21657,15 @@ window.MT_LMS['the-map'] = {
           "prompts": [
            {
             "en": "Which of the four energy systems (sleep, movement, fuel, recovery) are degrading, and what is the evidence for each?",
-            "id": "Mana dari empat sistem energi (tidur, gerak, bahan bakar, pemulihan) yang memburuk, dan apa buktinya masing-masing?"
+            "id": "Sistem energi mana dari keempatnya (tidur, gerak, asupan, pemulihan) yang sedang melemah, dan apa buktinya untuk masing-masing?"
            },
            {
             "en": "Which overload signals and “deal with stress first” signals do you see?",
-            "id": "Tanda kelebihan beban dan sinyal “tangani stresnya dulu” mana yang kamu lihat?"
+            "id": "Tanda kelebihan beban dan sinyal \"tangani stresnya dulu\" mana yang kamu lihat?"
            },
            {
             "en": "What does the Growth Equation say about his “work harder for one more month” plan?",
-            "id": "Apa kata Persamaan Pertumbuhan tentang rencananya “kerja lebih keras satu bulan lagi”?"
+            "id": "Apa kata Persamaan Pertumbuhan tentang rencananya untuk \"kerja lebih keras sebulan lagi\"?"
            }
           ]
          },
@@ -21673,15 +21673,15 @@ window.MT_LMS['the-map'] = {
           "id": "q2",
           "title": {
            "en": "Stressors and stress",
-           "id": "Pemicu stres dan respons stres"
+           "id": "Pemicu stres dan stres"
           },
           "help": {
            "en": "List Raka's main stressors and mark each as controllable, partly controllable or not controllable. Then name the stress (body) problem, separate from the stressors.",
-           "id": "Daftar pemicu stres utama Raka dan tandai masing-masing bisa dikendalikan, sebagian, atau tidak. Lalu sebut masalah stres (tubuh), terpisah dari pemicunya."
+           "id": "Tulis pemicu stres utama Raka dan tandai masing-masing: bisa dikendalikan, sebagian bisa dikendalikan, atau tidak bisa dikendalikan. Lalu sebutkan masalah stresnya (di tubuh), terpisah dari pemicu-pemicunya."
           },
           "placeholder": {
            "en": "Probation (…), final-year thesis revisions (…), commute (…), Sari (…), the AI rollout (…). The body problem is …",
-           "id": "Probation (…), revisi skripsi (…), perjalanan (…), Sari (…), peluncuran AI (…). Masalah tubuhnya adalah …"
+           "id": "Masa percobaan (…), revisi skripsi (…), perjalanan (…), Mbak Sari (…), peluncuran AI (…). Masalah di tubuhnya adalah …"
           },
           "min": 40,
           "rows": 6,
@@ -21719,15 +21719,15 @@ window.MT_LMS['the-map'] = {
           "id": "q3",
           "title": {
            "en": "Involve a professional now?",
-           "id": "Libatkan profesional sekarang?"
+           "id": "Perlu melibatkan tenaga profesional sekarang?"
           },
           "help": {
            "en": "Is anything here a reason to involve a professional now? Answer Yes, Not yet (and what to watch for), or No, and explain why.",
-           "id": "Apakah ada alasan untuk melibatkan profesional sekarang? Jawab Ya, Belum (dan apa yang perlu diawasi), atau Tidak, dan jelaskan mengapa."
+           "id": "Adakah hal di sini yang menjadi alasan untuk melibatkan tenaga profesional sekarang? Jawab Ya, Belum (dan apa yang perlu diwaspadai), atau Tidak, lalu jelaskan alasannya."
           },
           "placeholder": {
            "en": "Not yet, because … I would watch for … and tell him about …",
-           "id": "Belum, karena … Aku akan mengawasi … dan memberitahunya tentang …"
+           "id": "Belum, karena … Aku akan mewaspadai … dan memberitahunya tentang …"
           },
           "min": 30,
           "rows": 5,
@@ -21780,7 +21780,7 @@ window.MT_LMS['the-map'] = {
         },
         "guide": {
          "en": "Use 5.3 and 5.4: AVEC across hierarchy, REACH from the junior seat, the Purpose Picker, the Disagreement Ladder and the senior script. Remember the screenshot that reached Mbak Sari.",
-         "id": "Pakai 5.3 dan 5.4: AVEC lintas hierarki, REACH dari kursi junior, Pemilih Tujuan, Tangga Perbedaan Pendapat, dan naskah senior. Ingat tangkapan layar yang sampai ke Mbak Sari."
+         "id": "Pakai 5.3 dan 5.4: AVEC di tengah hierarki, REACH dari kursi junior, Pemilih Tujuan, Tangga Ketidaksetujuan, dan naskah untuk senior. Ingat tangkapan layar yang sampai ke Mbak Sari."
         },
         "questions": [
          {
@@ -21791,11 +21791,11 @@ window.MT_LMS['the-map'] = {
           },
           "help": {
            "en": "What type of conversation is it? What should he do first about the WhatsApp complaint? Write his opening line.",
-           "id": "Jenis percakapan apa ini? Apa yang harus ia lakukan lebih dulu soal keluhan di WhatsApp? Tulis kalimat pembukanya."
+           "id": "Percakapan jenis apa ini? Apa yang sebaiknya ia lakukan lebih dulu soal keluhannya di WhatsApp? Tulis kalimat pembukanya."
           },
           "placeholder": {
            "en": "It is a … conversation, held …. First he …. Opening line: “Mbak, …”",
-           "id": "Ini percakapan …, dilakukan …. Pertama ia …. Kalimat pembuka: “Mbak, …”"
+           "id": "Ini percakapan …, dilakukan …. Pertama, ia …. Kalimat pembuka: \"Mbak, …\""
           },
           "min": 60,
           "rows": 7,
@@ -21833,11 +21833,11 @@ window.MT_LMS['the-map'] = {
           "prompts": [
            {
             "en": "Private or public? Personal or decision first?",
-            "id": "Privat atau publik? Personal atau keputusan dulu?"
+            "id": "Empat mata atau di depan umum? Percakapan pribadi atau keputusan lebih dulu?"
            },
            {
             "en": "Which AVEC elements, in which dose, for a senior covering two roles?",
-            "id": "Elemen AVEC mana, dengan dosis berapa, untuk senior yang menangani dua peran?"
+            "id": "Unsur AVEC mana, dengan takaran berapa, untuk senior yang sedang merangkap dua peran?"
            }
           ],
           "lang": "id"
@@ -21846,15 +21846,15 @@ window.MT_LMS['the-map'] = {
           "id": "q5",
           "title": {
            "en": "Take the dashboard disagreement up the Ladder",
-           "id": "Bawa perbedaan soal dashboard menaiki Tangga"
+           "id": "Bawa perbedaan pendapat soal dasbor menaiki Tangga"
           },
           "help": {
            "en": "At what level do they agree? What is Raka's ground? Propose a both/and option and how to close.",
-           "id": "Di tingkat mana mereka sepakat? Apa dasar Raka? Usulkan opsi “dan” dan cara menutupnya."
+           "id": "Di tingkat mana mereka sepakat? Apa dasar argumen Raka? Usulkan pilihan yang memadukan keduanya dan cara menutupnya."
           },
           "placeholder": {
            "en": "They agree on the principle (…). Raka's ground is … (missing information: complaints cluster by …). A both/and option: … Close: …",
-           "id": "Mereka sepakat pada prinsip (…). Dasar Raka adalah … (informasi yang kurang: komplain mengelompok per …). Opsi “dan”: … Tutup: …"
+           "id": "Mereka sepakat soal prinsipnya (…). Dasar argumen Raka adalah … (informasi yang kurang: komplain menumpuk per …). Pilihan yang memadukan keduanya: … Penutup: …"
           },
           "min": 60,
           "rows": 7,
@@ -21894,7 +21894,7 @@ window.MT_LMS['the-map'] = {
           "prompts": [
            {
             "en": "Rung 2: can he restate Sari's reasons? Rung 4: principle, policy or case? Rung 5: missing info, wrong info, logic gap or stopped too soon?",
-            "id": "Anak tangga 2: bisakah ia mengulang alasan Sari? Anak tangga 4: prinsip, kebijakan, atau kasus? Anak tangga 5: informasi kurang, salah, celah logika, atau berhenti terlalu dini?"
+            "id": "Anak tangga 2: bisakah ia mengulang alasan Mbak Sari? Anak tangga 4: prinsip, kebijakan, atau kasus? Anak tangga 5: informasi yang kurang, informasi yang keliru, celah logika, atau berhenti terlalu cepat?"
            }
           ]
          },
@@ -21902,7 +21902,7 @@ window.MT_LMS['the-map'] = {
           "id": "q6",
           "title": {
            "en": "Raka's message to Bu Wulan asking for a 1:1",
-           "id": "Pesan Raka ke Bu Wulan untuk meminta 1:1"
+           "id": "Pesan Raka kepada Bu Wulan untuk meminta obrolan empat mata"
           },
           "help": {
            "en": "Write the message, including its purpose and how long he's asking for.",
@@ -21910,7 +21910,7 @@ window.MT_LMS['the-map'] = {
           },
           "placeholder": {
            "en": "“Bu, boleh saya minta waktu … menit minggu ini untuk …?”",
-           "id": "“Bu, boleh saya minta waktu … menit minggu ini untuk …?”"
+           "id": "\"Bu, boleh saya minta waktu … menit minggu ini untuk …?\""
           },
           "min": 30,
           "rows": 4,
@@ -21953,7 +21953,7 @@ window.MT_LMS['the-map'] = {
         },
         "guide": {
          "en": "Use 5.5 and 5.6: tasks not titles, the three gates, CEK-5, the three-tier rule and pull-don't-push. The Role tasks tab lists what Raka actually does.",
-         "id": "Pakai 5.5 dan 5.6: tugas bukan jabatan, tiga gerbang, CEK-5, aturan tiga tingkat, dan tarik-jangan-dorong. Tab Tugas peran mencantumkan apa yang sebenarnya Raka kerjakan."
+         "id": "Pakai 5.5 dan 5.6: tugas, bukan jabatan; tiga gerbang; CEK-5; aturan tiga tingkat; serta tarik, jangan dorong. Tab Tugas peran mendaftar apa yang sebenarnya dikerjakan Raka."
         },
         "questions": [
          {
@@ -21964,11 +21964,11 @@ window.MT_LMS['the-map'] = {
           },
           "help": {
            "en": "List six tasks from the Role tasks tab and sort each into human-led, AI-assisted (verification-critical) or AI can do with light checking. Give a one-line reason for each.",
-           "id": "Daftar enam tugas dari tab Tugas peran dan pilah masing-masing menjadi dipimpin manusia, berbantuan AI (verifikasi krusial), atau AI bisa mengerjakan dengan pengecekan ringan. Beri alasan satu baris untuk masing-masing."
+           "id": "Tulis enam tugas dari tab Tugas peran dan pilah masing-masing ke dalam dipimpin manusia, dibantu AI (verifikasinya krusial), atau bisa dikerjakan AI dengan pengecekan ringan. Beri alasan satu baris untuk masing-masing."
           },
           "placeholder": {
-           "en": "1. Interpret anomalies with warehouse heads, human-led, because …\n2. …",
-           "id": "1. Menafsirkan anomali dengan kepala gudang, dipimpin manusia, karena …\n2. …"
+           "en": "1. Interpret anomalies with warehouse heads: human-led, because …\n2. …",
+           "id": "1. Menafsirkan anomali bersama kepala gudang: dipimpin manusia, karena …\n2. …"
           },
           "min": 50,
           "rows": 8,
@@ -22012,11 +22012,11 @@ window.MT_LMS['the-map'] = {
           },
           "help": {
            "en": "Write five rules for the period before the written policy exists: tool, data, think-first, verification, disclosure.",
-           "id": "Tulis lima aturan untuk masa sebelum kebijakan tertulis ada: alat, data, berpikir dulu, verifikasi, pengungkapan."
+           "id": "Tulis lima aturan untuk masa sebelum kebijakan tertulisnya ada: alat, data, berpikir dulu, verifikasi, keterbukaan."
           },
           "placeholder": {
            "en": "1. Approved tool only … 2. No personal or customer data … 3. … 4. … 5. …",
-           "id": "1. Hanya alat yang disetujui … 2. Tanpa data pribadi atau pelanggan … 3. … 4. … 5. …"
+           "id": "1. Hanya alat yang disetujui … 2. Tanpa data pribadi atau data pelanggan … 3. … 4. … 5. …"
           },
           "min": 50,
           "rows": 7,
@@ -22059,15 +22059,15 @@ window.MT_LMS['the-map'] = {
           "id": "q9",
           "title": {
            "en": "What should Raka do about Dimas?",
-           "id": "Apa yang harus Raka lakukan soal Dimas?"
+           "id": "Apa yang sebaiknya dilakukan Raka soal Dimas?"
           },
           "help": {
            "en": "Dimas is pasting customer data into a free chatbot. Consider the relationship (5.3–5.4) and the three-tier rule.",
-           "id": "Dimas menempel data pelanggan ke chatbot gratis. Pertimbangkan relasinya (5.3–5.4) dan aturan tiga tingkat."
+           "id": "Dimas menempelkan data pelanggan ke chatbot gratis. Pertimbangkan relasinya (5.3–5.4) dan aturan tiga tingkat."
           },
           "placeholder": {
            "en": "First, privately, … If it continues, … without naming or blaming, because …",
-           "id": "Pertama, secara privat, … Jika berlanjut, … tanpa menyebut nama atau menyalahkan, karena …"
+           "id": "Pertama, secara pribadi, … Kalau terus berlanjut, … tanpa menyebut nama atau menyalahkan, karena …"
           },
           "min": 40,
           "rows": 6,
@@ -22108,7 +22108,7 @@ window.MT_LMS['the-map'] = {
           "prompts": [
            {
             "en": "Private first? Empathy for the same pressure? What if it continues?",
-            "id": "Privat dulu? Empati untuk tekanan yang sama? Bagaimana jika berlanjut?"
+            "id": "Empat mata dulu? Empati karena tekanan yang sama? Bagaimana kalau terus berlanjut?"
            }
           ]
          }
@@ -22126,7 +22126,7 @@ window.MT_LMS['the-map'] = {
         },
         "guide": {
          "en": "Make it keepable: a floor and a target, few commitments, measurable, with a review date. Raka dropped his last plan in a week. Then answer the last question about yourself; it completes your Sustainable Performance Plan.",
-         "id": "Buat agar bisa dijaga: batas bawah dan target, sedikit komitmen, terukur, dengan tanggal tinjauan. Raka meninggalkan rencana terakhirnya dalam seminggu. Lalu jawab pertanyaan terakhir tentang dirimu; itu melengkapi Rencana Kinerja Berkelanjutanmu."
+         "id": "Buat agar bisa dijalankan: ada batas bawah dan target, sedikit komitmen, terukur, dengan tanggal peninjauan. Raka meninggalkan rencananya yang terakhir dalam seminggu. Lalu jawab pertanyaan terakhir tentang dirimu sendiri; jawaban itu melengkapi Rencana Kinerja Berkelanjutanmu."
         },
         "questions": [
          {
@@ -22137,11 +22137,11 @@ window.MT_LMS['the-map'] = {
           },
           "help": {
            "en": "Sleep, movement, fuel, recovery. Each line must survive a 07:00–19:00 workday with a two-hour KRL commute.",
-           "id": "Tidur, gerak, bahan bakar, pemulihan. Tiap baris harus bertahan di hari kerja 07.00–19.00 dengan perjalanan KRL dua jam."
+           "id": "Tidur, gerak, asupan, pemulihan. Setiap baris harus tetap bisa dijalankan di hari kerja 07:00–19:00 dengan perjalanan KRL dua jam."
           },
           "placeholder": {
            "en": "Sleep: … Movement: … Fuel: … Recovery: …",
-           "id": "Tidur: … Gerak: … Bahan bakar: … Pemulihan: …"
+           "id": "Tidur: … Gerak: … Asupan: … Pemulihan: …"
           },
           "min": 30,
           "rows": 5,
@@ -22180,7 +22180,7 @@ window.MT_LMS['the-map'] = {
           "id": "q11",
           "title": {
            "en": "Three 30-day commitments for Raka, each with a metric",
-           "id": "Tiga komitmen 30 hari untuk Raka, masing-masing dengan metrik"
+           "id": "Tiga komitmen 30 hari untuk Raka, masing-masing dengan ukurannya"
           },
           "help": {
            "en": "One each for energy, people and AI/digital.",
@@ -22225,15 +22225,15 @@ window.MT_LMS['the-map'] = {
           "id": "q12",
           "title": {
            "en": "How will Raka review progress, and what if he falls behind?",
-           "id": "Bagaimana Raka meninjau kemajuan, dan bagaimana jika ia tertinggal?"
+           "id": "Bagaimana Raka akan meninjau kemajuannya, dan apa yang terjadi kalau ia tertinggal?"
           },
           "help": {
            "en": "Name the review slot and the fallback rule.",
-           "id": "Sebut slot tinjauan dan aturan cadangannya."
+           "id": "Sebutkan slot peninjauannya dan aturan cadangannya."
           },
           "placeholder": {
            "en": "Every … at …, he … If he falls behind, he … but never …",
-           "id": "Setiap … pukul …, ia … Jika tertinggal, ia … tapi jangan pernah …"
+           "id": "Setiap … pukul …, ia … Kalau tertinggal, ia … tetapi tidak pernah …"
           },
           "min": 30,
           "rows": 4,
@@ -22268,15 +22268,15 @@ window.MT_LMS['the-map'] = {
           "id": "q13",
           "title": {
            "en": "Now you: three commitments of your own",
-           "id": "Sekarang kamu: tiga komitmenmu sendiri"
+           "id": "Sekarang kamu: tiga komitmen milikmu sendiri"
           },
           "help": {
            "en": "Answer the same three commitments for yourself (energy, people, AI/digital), each with a metric and a review date. Copy them into your Sustainable Performance Plan below after you submit.",
-           "id": "Jawab tiga komitmen yang sama untuk dirimu (energi, orang, AI/digital), masing-masing dengan metrik dan tanggal tinjauan. Salin ke Rencana Kinerja Berkelanjutanmu di bawah setelah kamu mengumpulkan."
+           "id": "Jawab tiga komitmen yang sama untuk dirimu sendiri (energi, orang, AI/digital), masing-masing dengan ukuran dan tanggal peninjauannya. Salin ke Rencana Kinerja Berkelanjutanmu di bawah setelah kamu mengirimkan jawaban."
           },
           "placeholder": {
            "en": "Energy: I will … measured by … People: … Digital: … Review on …",
-           "id": "Energi: aku akan … diukur dengan … Orang: … Digital: … Tinjau pada …"
+           "id": "Energi: aku akan … diukur dengan … Orang: … Digital: … Ditinjau tanggal …"
           },
           "min": 80,
           "rows": 8,
@@ -22317,7 +22317,7 @@ window.MT_LMS['the-map'] = {
           "prompts": [
            {
             "en": "Your plan sections 1–8 from the earlier lessons are shown below this case.",
-            "id": "Bagian rencana 1–8 dari pelajaran sebelumnya ditampilkan di bawah kasus ini."
+            "id": "Bagian rencana 1–8 dari pelajaran-pelajaran sebelumnya ditampilkan di bawah kasus ini."
            }
           ]
          }
@@ -22326,34 +22326,34 @@ window.MT_LMS['the-map'] = {
       ],
       "rubricTitle": {
        "en": "Rubric · for your own review, or a mentor's",
-       "id": "Rubrik · untuk tinjauanmu sendiri, atau mentor"
+       "id": "Rubrik · untuk tinjauanmu sendiri, atau oleh mentor"
       },
       "rubric": [
        {
         "h": {
          "en": "Diagnosis uses the numbers and names systems and signals",
-         "id": "Diagnosis memakai angka dan menyebut sistem serta sinyal"
+         "id": "Diagnosis memakai angka-angkanya dan menyebut sistem serta tanda-tandanya"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "People plan repairs first, calibrates for hierarchy, and climbs the Ladder in order",
-         "id": "Rencana orang memperbaiki dulu, dikalibrasi untuk hierarki, dan menaiki Tangga berurutan"
+         "id": "Rencana soal orang memperbaiki hubungan dulu, disesuaikan dengan hierarki, dan menaiki Tangga secara berurutan"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "AI answers pass the three gates and apply CEK-5 and the three-tier rule",
-         "id": "Jawaban AI melewati tiga gerbang dan menerapkan CEK-5 serta aturan tiga tingkat"
+         "id": "Jawaban soal AI melewati tiga gerbang serta menerapkan CEK-5 dan aturan tiga tingkat"
         },
         "w": "25%"
        },
        {
         "h": {
          "en": "Plan is small, measurable, with a floor, a review slot and a fallback",
-         "id": "Rencana kecil, terukur, dengan batas bawah, slot tinjauan, dan cadangan"
+         "id": "Rencananya kecil, terukur, punya batas bawah, slot peninjauan, dan aturan cadangan"
         },
         "w": "25%"
        }
@@ -22361,7 +22361,7 @@ window.MT_LMS['the-map'] = {
       "model": {
        "title": {
         "en": "How a Metanoia mentor might have answered",
-        "id": "Bagaimana mentor Metanoia mungkin menjawab"
+        "id": "Bagaimana seorang mentor Metanoia mungkin menjawab"
        },
        "body": [
         {
@@ -22372,11 +22372,11 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Sleep fell from 6.4 to 5.5 hours, movement fell to zero, and he eats at his desk with no recovery block, so all four systems are degrading. Two colds in five weeks are a body signal. Withdrawal from futsal is one of the overload trio. His falling battery and focus follow the sleep and movement decline. His belief that he'll rest after probation is the “rest as a reward” mistake from 5.1.",
-         "id": "Tidur turun dari 6,4 ke 5,5 jam, gerak turun ke nol, dan ia makan di meja tanpa blok pemulihan, sehingga keempat sistem memburuk. Dua kali flu dalam lima minggu adalah sinyal tubuh. Menarik diri dari futsal adalah salah satu dari tiga tanda kelebihan beban. Baterai dan fokusnya yang menurun mengikuti penurunan tidur dan gerak. Keyakinannya bahwa ia akan istirahat setelah probation adalah kesalahan “istirahat sebagai hadiah” dari 5.1."
+         "id": "Tidur turun dari 6,4 menjadi 5,5 jam, gerak badan turun sampai nol, dan ia makan di meja kerja tanpa blok pemulihan, jadi keempat sistemnya melemah. Dua kali pilek dalam lima minggu adalah sinyal dari tubuh. Berhenti futsal adalah salah satu dari tiga tanda kelebihan beban. Baterai dan fokusnya yang turun mengikuti penurunan tidur dan gerak badannya. Keyakinannya bahwa ia baru akan istirahat setelah masa percobaan adalah kesalahan \"istirahat sebagai hadiah\" dari 5.1."
         },
         {
-         "en": "Stressors: probation, final-year thesis revisions and the commute are partly controllable; the conflict with Sari is controllable on his side; the lack of an AI policy and Dimas's behaviour are partly controllable; the company's rollout is not. The stress problem: his body never completes a cycle. No movement, no social recovery, no rest. Escalation: not yet a clinical concern on these facts. Watch for low mood or loss of interest lasting two weeks or more and continuing sleep problems, and tell him about the counselling or employee-assistance route if his company has one.",
-         "id": "Pemicu stres: probation, revisi skripsi, dan perjalanan sebagian bisa dikendalikan; konflik dengan Sari bisa dikendalikan di sisinya; ketiadaan kebijakan AI dan perilaku Dimas sebagian bisa dikendalikan; peluncuran perusahaan tidak. Masalah stresnya: tubuhnya tidak pernah menuntaskan siklus. Tanpa gerak, tanpa pemulihan sosial, tanpa istirahat. Eskalasi: belum menjadi kekhawatiran klinis berdasarkan fakta ini. Awasi suasana hati rendah atau hilang minat yang bertahan dua minggu atau lebih dan gangguan tidur yang berlanjut, dan beri tahu dia tentang jalur konseling atau bantuan karyawan jika perusahaannya punya."
+         "en": "Stressors: probation, final-year thesis revisions and the commute are partly controllable; the conflict with Sari is controllable on his side; the lack of an AI policy and Dimas's behaviour are partly controllable; the company's rollout is not. The stress problem: his body never completes a cycle: no movement, no social recovery, no rest. Escalation: not yet a clinical concern on these facts. Watch for low mood or loss of interest lasting two weeks or more and continuing sleep problems, and tell him about the counselling or employee-assistance route if his company has one.",
+         "id": "Pemicu stres: masa percobaan, revisi skripsi, dan perjalanan sebagian bisa dikendalikan; konflik dengan Mbak Sari bisa dikendalikan dari sisinya; tidak adanya kebijakan AI dan perilaku Dimas sebagian bisa dikendalikan; peluncuran alat oleh perusahaan tidak bisa dikendalikan. Masalah stresnya: tubuhnya tidak pernah menuntaskan siklus: tanpa gerak badan, tanpa pemulihan sosial, tanpa istirahat. Melibatkan tenaga profesional: berdasarkan fakta-fakta ini, belum menjadi kekhawatiran klinis. Waspadai suasana hati yang buruk atau hilangnya minat selama dua minggu atau lebih serta masalah tidur yang terus berlanjut, dan beri tahu dia tentang jalur konseling atau program bantuan karyawan kalau perusahaannya punya."
         },
         {
          "h": {
@@ -22386,11 +22386,11 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Repair first: a personal conversation, privately. Acknowledge the WhatsApp comment: “Mbak, soal komentar saya di grup minggu lalu, saya minta maaf. Itu tidak adil buat Mbak.” Then a decision conversation about the dashboard: restate Sari's reasoning (grouping by warehouse lets warehouse heads act); agree on the principle (improving operations); offer his ground as missing information (complaints cluster by customer); propose a both/and (the warehouse view plus a top-5 customer tab, or log it for the next version); close with a decision and a review date.",
-         "id": "Perbaiki dulu: percakapan personal, secara privat. Akui komentar di WhatsApp: “Mbak, soal komentar saya di grup minggu lalu, saya minta maaf. Itu tidak adil buat Mbak.” Lalu percakapan keputusan tentang dashboard: ulangi penalaran Sari (pengelompokan per gudang membuat kepala gudang bisa bertindak); sepakati prinsipnya (memperbaiki operasi); tawarkan dasarnya sebagai informasi yang kurang (komplain mengelompok per pelanggan); usulkan opsi “dan” (tampilan gudang plus tab 5 pelanggan teratas, atau catat untuk versi berikutnya); tutup dengan keputusan dan tanggal tinjauan."
+         "id": "Perbaiki dulu: percakapan pribadi, empat mata. Akui komentarnya di WhatsApp: \"Mbak, soal komentar saya di grup minggu lalu, saya minta maaf. Itu tidak adil buat Mbak.\" Lalu percakapan keputusan soal dasbor: ulangi alasan Mbak Sari (pengelompokan per gudang memungkinkan kepala gudang bertindak); sepakati prinsipnya (memperbaiki operasional); tawarkan dasarnya sebagai informasi yang kurang (komplain menumpuk per pelanggan); usulkan pilihan yang memadukan keduanya (tampilan per gudang ditambah tab lima pelanggan teratas, atau catat untuk versi berikutnya); tutup dengan keputusan dan tanggal peninjauan."
         },
         {
-         "en": "The 1:1 request: “Bu, boleh saya minta waktu 20 menit minggu ini untuk menanyakan ekspektasi kelulusan probation dan prioritas saya sebulan ke depan?” This is a bid and an attention move. It also uses Sari's load as context (she covers two roles), which calls for empathy.",
-         "id": "Permintaan 1:1: “Bu, boleh saya minta waktu 20 menit minggu ini untuk menanyakan ekspektasi kelulusan probation dan prioritas saya sebulan ke depan?” Ini ajakan dan langkah perhatian. Ia juga memakai beban Sari sebagai konteks (ia menangani dua peran), yang menuntut empati."
+         "en": "The 1:1 request: “Bu, boleh saya minta waktu 20 menit minggu ini untuk menanyakan ekspektasi kelulusan probation dan prioritas saya sebulan ke depan?” This is a bid and an attention move. Sari's load (she covers two roles) also calls for empathy in the repair conversation.",
+         "id": "Permintaan obrolan empat mata: \"Bu, boleh saya minta waktu 20 menit minggu ini untuk menanyakan ekspektasi kelulusan probation dan prioritas saya sebulan ke depan?\" Ini sebuah ajakan dan langkah perhatian. Beban kerja Mbak Sari (ia merangkap dua peran) juga menuntut empati dalam percakapan perbaikannya."
         },
         {
          "h": {
@@ -22400,11 +22400,11 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Human-led: interpreting anomalies with warehouse heads; presenting findings to clients; judging data-quality exceptions. AI-assisted (verification-critical): drafting the weekly narrative; writing formulas or queries; first-pass summaries of complaints. AI can do with light checking: formatting tables; renaming files; drafting meeting agendas.",
-         "id": "Dipimpin manusia: menafsirkan anomali dengan kepala gudang; menyajikan temuan ke klien; menilai pengecualian kualitas data. Berbantuan AI (verifikasi krusial): menyusun narasi mingguan; menulis rumus atau kueri; ringkasan awal komplain. AI bisa mengerjakan dengan pengecekan ringan: memformat tabel; menamai ulang berkas; menyusun agenda rapat."
+         "id": "Dipimpin manusia: menafsirkan anomali bersama kepala gudang; mempresentasikan temuan kepada klien; menilai pengecualian kualitas data. Dibantu AI (verifikasinya krusial): menyusun draf laporan naratif mingguan; menulis rumus atau kueri; ringkasan tahap awal atas komplain. Bisa dikerjakan AI dengan pengecekan ringan: merapikan tabel; mengganti nama berkas; menyusun draf agenda rapat."
         },
         {
          "en": "Rules: (1) approved tool only; (2) no personal or customer data without explicit approval, aggregated where possible; (3) think first, then prompt; (4) CEK-5 before anything leaves his desk; (5) note AI use in the file or report and log it. Dimas: talk to him privately first, with empathy (he's under the same pressure), and share the gates. If it continues, ask Bu Wulan for clarity on approved tools for the team, without naming or blaming Dimas. This is a policy question, and the “voice it, then escalate” part of the three-tier rule applies if customer data keeps being exposed.",
-         "id": "Aturan: (1) hanya alat yang disetujui; (2) tanpa data pribadi atau pelanggan tanpa persetujuan eksplisit, diagregasi bila mungkin; (3) berpikir dulu, baru prompt; (4) CEK-5 sebelum apa pun meninggalkan mejanya; (5) catat penggunaan AI di berkas atau laporan dan log. Dimas: bicara dengannya secara privat dulu, dengan empati (ia di bawah tekanan yang sama), dan bagikan gerbangnya. Jika berlanjut, minta kejelasan ke Bu Wulan tentang alat yang disetujui untuk tim, tanpa menyebut atau menyalahkan Dimas. Ini pertanyaan kebijakan, dan bagian “sampaikan, lalu eskalasi” dari aturan tiga tingkat berlaku jika data pelanggan terus terpapar."
+         "id": "Aturan: (1) hanya alat yang disetujui; (2) tanpa data pribadi atau data pelanggan kecuali ada persetujuan yang jelas, dan diagregasi bila memungkinkan; (3) berpikir dulu, baru menulis prompt; (4) CEK-5 sebelum apa pun keluar dari mejanya; (5) catat pemakaian AI di berkas atau laporan dan di lognya. Soal Dimas: bicara dengannya secara pribadi dulu, dengan empati (ia menghadapi tekanan yang sama), dan bagikan tiga gerbangnya. Kalau terus berlanjut, minta kejelasan dari Bu Wulan soal alat yang disetujui untuk tim, tanpa menyebut nama atau menyalahkan Dimas. Ini soal kebijakan, dan bagian \"sampaikan, lalu laporkan ke atas\" dari aturan tiga tingkat berlaku kalau data pelanggan terus terekspos."
         },
         {
          "h": {
@@ -22414,42 +22414,42 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Floor protocol: sleep 23:00–05:45 on weeknights, phone charging outside the room; a 15-minute walk from the KRL station on three days; one proper lunch away from the desk, with a colleague; one Saturday futsal session. Commitments: battery ≥ 6/9 for two consecutive weeks (measured weekly); repair conversation with Sari done this week, 1:1 with Bu Wulan booked, one turn-toward per day logged; ten AI uses logged with CEK-5 and zero data incidents, Task Exposure Map shared with Bu Wulan. Review: Friday 16:30 weekly review. If he falls behind, shrink the plan but never to zero, and talk to his mentor.",
-         "id": "Protokol batas bawah: tidur 23.00–05.45 di hari kerja, ponsel diisi daya di luar kamar; jalan 15 menit dari stasiun KRL tiga hari; satu makan siang sungguhan jauh dari meja, bersama kolega; satu sesi futsal Sabtu. Komitmen: baterai ≥ 6/9 selama dua minggu berturut-turut (diukur mingguan); percakapan perbaikan dengan Sari selesai minggu ini, 1:1 dengan Bu Wulan dipesan, satu menoleh-ke-arah per hari dicatat; sepuluh penggunaan AI dicatat dengan CEK-5 dan nol insiden data, Peta Paparan Tugas dibagikan ke Bu Wulan. Tinjauan: tinjauan mingguan Jumat 16.30. Jika tertinggal, kecilkan rencananya tapi jangan sampai nol, dan bicara dengan mentornya."
+         "id": "Protokol batas bawah: tidur 23:00–05:45 di malam hari kerja, ponsel diisi daya di luar kamar; jalan kaki 15 menit dari stasiun KRL tiga hari seminggu; satu kali makan siang yang layak jauh dari meja kerja, bersama rekan; satu sesi futsal hari Sabtu. Komitmen: baterai ≥ 6/9 selama dua minggu berturut-turut (diukur setiap minggu); percakapan perbaikan dengan Mbak Sari selesai minggu ini, obrolan empat mata dengan Bu Wulan sudah dijadwalkan, satu kali menghadap ajakan per hari dicatat; sepuluh pemakaian AI dicatat dengan CEK-5 dan nol insiden data, Peta Paparan Tugas dibagikan kepada Bu Wulan. Peninjauan: tinjauan mingguan setiap Jumat 16:30. Kalau tertinggal, kecilkan rencananya tetapi jangan pernah sampai nol, dan bicaralah dengan mentornya."
         }
        ],
        "after": {
         "en": "Your answers for Raka will differ in detail; what matters is the method: evidence, repair before decision, gates before speed, and a plan small enough to keep. Now copy your own three commitments into plan section 9 below.",
-        "id": "Jawabanmu untuk Raka akan berbeda dalam detail; yang penting metodenya: bukti, perbaikan sebelum keputusan, gerbang sebelum kecepatan, dan rencana yang cukup kecil untuk dijaga. Sekarang salin tiga komitmenmu sendiri ke bagian rencana 9 di bawah."
+        "id": "Jawabanmu untuk Raka pasti berbeda dalam detailnya; yang penting adalah metodenya: bukti, perbaiki hubungan sebelum memutuskan, gerbang sebelum kecepatan, dan rencana yang cukup kecil untuk dijalankan. Sekarang salin tiga komitmenmu sendiri ke bagian rencana 9 di bawah."
        }
       },
       "submit": {
        "title": {
         "en": "Review & submit",
-        "id": "Tinjau & kumpulkan"
+        "id": "Tinjau dan kirim"
        },
        "short": {
         "en": "Submit",
-        "id": "Kumpulkan"
+        "id": "Kirim"
        },
        "lead": {
         "en": "Read every answer once more. Submitting locks your answers on this device and reveals the model notes. Nothing is uploaded.",
-        "id": "Baca setiap jawaban sekali lagi. Mengumpulkan mengunci jawabanmu di perangkat ini dan membuka catatan model. Tidak ada yang diunggah."
+        "id": "Baca setiap jawaban sekali lagi. Mengirim akan mengunci jawabanmu di perangkat ini dan membuka catatan contoh jawabannya. Tidak ada yang diunggah."
        },
        "button": {
         "en": "Submit the case",
-        "id": "Kumpulkan kasus"
+        "id": "Kirim jawaban kasus"
        },
        "doneTitle": {
         "en": "Submitted",
-        "id": "Terkumpul"
+        "id": "Terkirim"
        },
        "doneBody": {
         "en": "Your answers are locked on this device. Read the model notes below, compare them with what you wrote, then finish your Sustainable Performance Plan underneath.",
-        "id": "Jawabanmu terkunci di perangkat ini. Baca catatan model di bawah, bandingkan dengan tulisanmu, lalu selesaikan Rencana Kinerja Berkelanjutanmu di bawahnya."
+        "id": "Jawabanmu sudah terkunci di perangkat ini. Baca catatan contoh jawaban di bawah, bandingkan dengan yang kamu tulis, lalu selesaikan Rencana Kinerja Berkelanjutanmu di bawahnya."
        },
        "local": {
         "en": "Everything you write here stays on this device. Nothing is uploaded.",
-        "id": "Semua yang kamu tulis di sini tetap di perangkat ini. Tidak ada yang diunggah."
+        "id": "Semua yang kamu tulis di sini tersimpan di perangkat ini. Tidak ada yang diunggah."
        }
       }
      },
@@ -22462,25 +22462,25 @@ window.MT_LMS['the-map'] = {
       },
       "body": {
        "en": "Everything you saved in lessons 5.1–5.7, on this device, in one place. Add your three commitments in section 9, then copy or save the whole plan as text. Review it in 30 days.",
-       "id": "Semua yang kamu simpan di pelajaran 5.1–5.7, di perangkat ini, dalam satu tempat. Tambahkan tiga komitmenmu di bagian 9, lalu salin atau simpan seluruh rencana sebagai teks. Tinjau 30 hari lagi."
+       "id": "Semua yang kamu simpan di pelajaran 5.1–5.7, di perangkat ini, dalam satu tempat. Tambahkan tiga komitmenmu di bagian 9, lalu salin atau simpan seluruh rencana sebagai teks. Tinjau lagi dalam 30 hari."
       },
       "sections": [
        {
         "id": "energy",
         "title": {
          "en": "1 · Energy baseline",
-         "id": "1 · Titik awal energi"
+         "id": "1 · Catatan dasar energi"
         },
         "lead": {
          "en": "Take the reading today; take it again in seven days.",
-         "id": "Ambil pembacaannya hari ini; ulangi tujuh hari lagi."
+         "id": "Catat kondisimu hari ini, lalu catat lagi tujuh hari kemudian."
         },
         "fields": [
          {
           "id": "date",
           "label": {
            "en": "Date of this reading",
-           "id": "Tanggal pembacaan ini"
+           "id": "Tanggal pencatatan"
           },
           "hint": {
            "en": "e.g. 12 Oct 2026",
@@ -22492,11 +22492,11 @@ window.MT_LMS['the-map'] = {
           "id": "battery",
           "label": {
            "en": "Battery score (statements rated 4–5 count as true, out of 9)",
-           "id": "Skor baterai (pernyataan yang dinilai 4–5 dihitung benar, dari 9)"
+           "id": "Skor baterai (pernyataan bernilai 4–5 dihitung benar, dari 9)"
           },
           "hint": {
            "en": "e.g. 5/9 · band: low charge",
-           "id": "mis. 5/9 · pita: daya rendah"
+           "id": "mis. 5/9 · rentang: isi menipis"
           },
           "rows": 1
          },
@@ -22504,11 +22504,11 @@ window.MT_LMS['the-map'] = {
           "id": "ring",
           "label": {
            "en": "Energy ring, 1–5 each: sleep · movement · fuel · recovery",
-           "id": "Lingkaran energi, 1–5 masing-masing: tidur · gerak · bahan bakar · pemulihan"
+           "id": "Lingkaran energi, masing-masing 1–5: tidur · gerak · asupan · pemulihan"
           },
           "hint": {
            "en": "e.g. sleep 2, movement 3, fuel 4, recovery 2 → lowest: sleep",
-           "id": "mis. tidur 2, gerak 3, bahan bakar 4, pemulihan 2 → terendah: tidur"
+           "id": "mis. tidur 2, gerak 3, asupan 4, pemulihan 2 → terendah: tidur"
           },
           "rows": 2
          },
@@ -22516,11 +22516,11 @@ window.MT_LMS['the-map'] = {
           "id": "signals",
           "label": {
            "en": "Overload signals present right now",
-           "id": "Tanda kelebihan beban yang ada sekarang"
+           "id": "Tanda kelebihan beban yang ada saat ini"
           },
           "hint": {
            "en": "unrefreshing sleep · irritability · withdrawing from people you like · repetitive loops · body symptoms",
-           "id": "tidur tidak menyegarkan · gampang tersulut · menarik diri dari orang yang kamu sukai · pengulangan terus-menerus · gejala tubuh"
+           "id": "tidur tidak menyegarkan · mudah tersinggung · menarik diri dari orang yang kamu sukai · pikiran berputar-putar · keluhan fisik"
           },
           "rows": 2
          }
@@ -22534,18 +22534,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "Four lines, two versions. The floor is what you keep on your worst day.",
-         "id": "Empat baris, dua versi. Batas bawah adalah yang kamu jaga di hari terburukmu."
+         "id": "Empat baris, dua versi. Batas bawah adalah yang tetap kamu jalankan di hari terburukmu."
         },
         "fields": [
          {
           "id": "floor",
           "label": {
            "en": "Floor version (worst week): sleep · movement · fuel · recovery",
-           "id": "Versi batas bawah (minggu terburuk): tidur · gerak · bahan bakar · pemulihan"
+           "id": "Versi batas bawah (minggu terburuk): tidur · gerak · asupan · pemulihan"
           },
           "hint": {
            "en": "e.g. sleep 23:30–06:00 · one 15-min walk · one real lunch · 10 min outside",
-           "id": "mis. tidur 23.30–06.00 · satu jalan 15 menit · satu makan siang sungguhan · 10 menit di luar"
+           "id": "mis. tidur 23:30–06:00 · satu kali jalan kaki 15 menit · satu kali makan siang yang layak · 10 menit di luar ruangan"
           },
           "rows": 3
          },
@@ -22553,11 +22553,11 @@ window.MT_LMS['the-map'] = {
           "id": "target",
           "label": {
            "en": "Target version (normal week)",
-           "id": "Versi target (minggu normal)"
+           "id": "Versi target (minggu biasa)"
           },
           "hint": {
            "en": "e.g. 7.5 h · 30 min most days + futsal · breakfast daily · one evening off",
-           "id": "mis. 7,5 jam · 30 menit hampir tiap hari + futsal · sarapan tiap hari · satu malam libur"
+           "id": "mis. 7,5 jam · 30 menit hampir setiap hari + futsal · sarapan setiap hari · satu malam libur"
           },
           "rows": 3
          },
@@ -22565,11 +22565,11 @@ window.MT_LMS['the-map'] = {
           "id": "template",
           "label": {
            "en": "Effort template for my next long task (start / middle / end, self-talk, turn-back rules)",
-           "id": "Templat usaha untuk tugas panjang berikutnya (awal / tengah / akhir, bicara-diri, aturan putar balik)"
+           "id": "Templat usaha untuk tugas panjangku berikutnya (awal / tengah / akhir, kata-kata penyemangat, aturan putar balik)"
           },
           "hint": {
            "en": "e.g. 4/10 → 7/10 → 8/10 · “Santai, ritme dulu” · stop at dizziness or two nights without sleep",
-           "id": "mis. 4/10 → 7/10 → 8/10 · “Santai, ritme dulu” · berhenti saat pusing atau dua malam tanpa tidur"
+           "id": "mis. 4/10 → 7/10 → 8/10 · \"Santai, ritme dulu\" · berhenti kalau pusing atau dua malam tidak tidur"
           },
           "rows": 3
          }
@@ -22583,18 +22583,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "Fill it today; review it in your weekly Flex Check.",
-         "id": "Isi hari ini; tinjau di Cek Fleksibilitas mingguanmu."
+         "id": "Isi hari ini; tinjau lagi dalam Cek Kelenturan mingguanmu."
         },
         "fields": [
          {
           "id": "menu",
           "label": {
            "en": "My stress-cycle menu: 2 min · 10 min · 30 min (and the setting each works in)",
-           "id": "Menu siklus stresku: 2 mnt · 10 mnt · 30 mnt (dan situasi tempat masing-masing cocok)"
+           "id": "Daftar penuntasan siklus stresku: 2 menit · 10 menit · 30 menit (dan situasi tempat masing-masing bisa dilakukan)"
           },
           "hint": {
            "en": "e.g. 2: six slow breaths at my desk · 10: walk to the warung · 30: Thursday futsal",
-           "id": "mis. 2: enam napas lambat di meja · 10: jalan ke warung · 30: futsal Kamis"
+           "id": "mis. 2: enam tarikan napas pelan di meja · 10: jalan kaki ke warung · 30: futsal hari Kamis"
           },
           "rows": 3
          },
@@ -22602,11 +22602,11 @@ window.MT_LMS['the-map'] = {
           "id": "rating",
           "label": {
            "en": "Today's test: stress before → after (0–10) and which option I used",
-           "id": "Tes hari ini: stres sebelum → sesudah (0–10) dan opsi yang kupakai"
+           "id": "Uji coba hari ini: stres sebelum → sesudah (0–10) dan cara yang kupakai"
           },
           "hint": {
            "en": "e.g. 7 → 4, 10-minute walk",
-           "id": "mis. 7 → 4, jalan 10 menit"
+           "id": "mis. 7 → 4, jalan kaki 10 menit"
           },
           "rows": 1
          },
@@ -22614,11 +22614,11 @@ window.MT_LMS['the-map'] = {
           "id": "stressors",
           "label": {
            "en": "Six stressors, each marked C (controllable), P (partly) or N (not)",
-           "id": "Enam pemicu stres, masing-masing ditandai C (bisa dikendalikan), P (sebagian), atau N (tidak)"
+           "id": "Enam pemicu stres, masing-masing ditandai B (bisa dikendalikan), S (sebagian), atau T (tidak)"
           },
           "hint": {
            "en": "e.g. Bab 4 revisions (C) · hiring freeze (N) · Ibu's questions (P) …",
-           "id": "mis. revisi Bab 4 (C) · pembekuan perekrutan (N) · pertanyaan Ibu (P) …"
+           "id": "mis. revisi Bab 4 (B) · penahanan rekrutmen (T) · pertanyaan Ibu (S) …"
           },
           "rows": 3
          },
@@ -22626,11 +22626,11 @@ window.MT_LMS['the-map'] = {
           "id": "plan",
           "label": {
            "en": "3-step plan for one controllable stressor",
-           "id": "Rencana 3 langkah untuk satu pemicu yang bisa dikendalikan"
+           "id": "Rencana 3 langkah untuk satu pemicu stres yang bisa dikendalikan"
           },
           "hint": {
            "en": "e.g. 1) clean five references Tue · 2) draft note Wed · 3) send to Pak Arif Thu 10:00",
-           "id": "mis. 1) rapikan lima referensi Selasa · 2) tulis catatan Rabu · 3) kirim ke Pak Arif Kamis 10.00"
+           "id": "mis. 1) rapikan lima referensi Selasa · 2) susun draf catatan Rabu · 3) kirim ke Pak Arif Kamis 10:00"
           },
           "rows": 2
          },
@@ -22638,11 +22638,11 @@ window.MT_LMS['the-map'] = {
           "id": "reappraisal",
           "label": {
            "en": "Reappraisal for one uncontrollable stressor, starting “This is hard because…”",
-           "id": "Pemaknaan ulang untuk satu pemicu yang tak terkendali, dimulai “Ini berat karena…”"
+           "id": "Pemaknaan ulang untuk satu pemicu stres yang tidak bisa dikendalikan, diawali \"Ini berat karena…\""
           },
           "hint": {
            "en": "e.g. This is hard because I can't speed up the market, and it's teaching me to tailor each application",
-           "id": "mis. Ini berat karena aku tak bisa mempercepat pasar, dan ini mengajariku menyesuaikan tiap lamaran"
+           "id": "mis. Ini berat karena aku tidak bisa mempercepat pasar kerja, dan ini mengajariku menyesuaikan setiap lamaran"
           },
           "rows": 2
          },
@@ -22650,11 +22650,11 @@ window.MT_LMS['the-map'] = {
           "id": "values",
           "label": {
            "en": "My five values (I = individual, R = relational) and this week's 1–7 ratings: Study/Work · Learning · Recovery · Relationships & Faith",
-           "id": "Lima nilaiku (I = individual, R = relasional) dan nilai 1–7 minggu ini: Studi/Kerja · Belajar · Pemulihan · Relasi & Iman"
+           "id": "Lima nilaiku (P = pribadi, R = relasional) dan nilai 1–7 minggu ini: Kuliah/Kerja · Belajar · Pemulihan · Relasi & Iman"
           },
           "hint": {
            "en": "e.g. reliable teammate (R), learning bravely (I), berbakti (R) … · 5 · 6 · 2 · 4",
-           "id": "mis. rekan tim andal (R), belajar berani (I), berbakti (R) … · 5 · 6 · 2 · 4"
+           "id": "mis. rekan tim yang bisa diandalkan (R), belajar dengan berani (P), berbakti (R) … · 5 · 6 · 2 · 4"
           },
           "rows": 3
          },
@@ -22662,11 +22662,11 @@ window.MT_LMS['the-map'] = {
           "id": "mca",
           "label": {
            "en": "Minimum committed action for my lowest area (even on a low day)",
-           "id": "Tindakan berkomitmen minimum untuk area terendahku (bahkan di hari yang buruk)"
+           "id": "Tindakan berkomitmen minimum untuk bidang terendahku (meski di hari yang lesu)"
           },
           "hint": {
            "en": "e.g. Recovery: lights off by 23:30, four nights this week",
-           "id": "mis. Pemulihan: lampu mati pukul 23.30, empat malam minggu ini"
+           "id": "mis. Pemulihan: lampu mati paling lambat 23:30, empat malam minggu ini"
           },
           "rows": 1
          },
@@ -22674,11 +22674,11 @@ window.MT_LMS['the-map'] = {
           "id": "cue",
           "label": {
            "en": "My 3R cue and my bubble (3–5 names)",
-           "id": "Isyarat 3R-ku dan gelembungku (3–5 nama)"
+           "id": "Isyarat 3R-ku dan lingkaran terdekatku (3–5 nama)"
           },
           "hint": {
            "en": "e.g. cue: feet flat, fingertips, restate · bubble: Dimas, Ibu, Mbak Ratna",
-           "id": "mis. isyarat: kaki menapak, ujung jari, ulangi pertanyaan · gelembung: Dimas, Ibu, Mbak Ratna"
+           "id": "mis. isyarat: kaki menapak, ujung jari, ulangi pertanyaan · lingkaran: Dimas, Ibu, Mbak Ratna"
           },
           "rows": 2
          }
@@ -22692,18 +22692,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "Eight to twelve people. One line each.",
-         "id": "Delapan sampai dua belas orang. Satu baris per orang."
+         "id": "Delapan sampai dua belas orang. Satu baris untuk masing-masing."
         },
         "fields": [
          {
           "id": "people",
           "label": {
            "en": "Key people: name · charging (+) or draining (−) · trust 1–5 · AVEC elements I practise · last meaningful conversation",
-           "id": "Orang kunci: nama · mengisi (+) atau menguras (−) · kepercayaan 1–5 · elemen AVEC yang kupraktikkan · percakapan bermakna terakhir"
+           "id": "Orang-orang kunci: nama · mengisi (+) atau menguras (−) · kepercayaan 1–5 · unsur AVEC yang kupraktikkan · percakapan bermakna terakhir"
           },
           "hint": {
            "en": "e.g. Ibu · + · 5 · A, C · last Sunday (about her, not tasks)\nMbak Sari · − · 2 · none yet · never",
-           "id": "mis. Ibu · + · 5 · A, C · Minggu lalu (tentang dia, bukan tugas)\nMbak Sari · − · 2 · belum ada · belum pernah"
+           "id": "mis. Ibu · + · 5 · A, C · Minggu lalu (tentang dia, bukan soal tugas)\nMbak Sari · − · 2 · belum ada · belum pernah"
           },
           "rows": 6
          },
@@ -22711,11 +22711,11 @@ window.MT_LMS['the-map'] = {
           "id": "invest",
           "label": {
            "en": "Top three to invest in this month, and the AVEC element for each",
-           "id": "Tiga teratas untuk diinvestasikan bulan ini, dan elemen AVEC untuk masing-masing"
+           "id": "Tiga relasi teratas untuk dirawat bulan ini, dan unsur AVEC untuk masing-masing"
           },
           "hint": {
            "en": "e.g. Mbak Sari (attention: ten-minute check-in) · Dimas (compassion) · Pak Arif (vulnerability: say where I'm stuck)",
-           "id": "mis. Mbak Sari (perhatian: cek sepuluh menit) · Dimas (kasih sayang) · Pak Arif (keterbukaan: katakan di mana aku mentok)"
+           "id": "mis. Mbak Sari (perhatian: ngobrol sepuluh menit) · Dimas (welas asih) · Pak Arif (keterbukaan: bilang di mana aku mentok)"
           },
           "rows": 3
          },
@@ -22723,11 +22723,11 @@ window.MT_LMS['the-map'] = {
           "id": "reach",
           "label": {
            "en": "My REACH action this week and how people responded",
-           "id": "Tindakan REACH-ku minggu ini dan bagaimana orang merespons"
+           "id": "Tindakan REACH-ku minggu ini dan tanggapan orang-orang"
           },
           "hint": {
            "en": "e.g. Reported my own data-entry error with the fix. Bu Wulan: “thanks for flagging early.”",
-           "id": "mis. Melaporkan kesalahan input dataku sendiri dengan perbaikannya. Bu Wulan: “terima kasih sudah kasih tahu lebih awal.”"
+           "id": "mis. Melaporkan kesalahan input dataku sendiri beserta perbaikannya. Bu Wulan: \"makasih sudah kasih tahu dari awal.\""
           },
           "rows": 2
          },
@@ -22735,11 +22735,11 @@ window.MT_LMS['the-map'] = {
           "id": "boundary",
           "label": {
            "en": "One boundary I need to state (commitment · limit · option)",
-           "id": "Satu batasan yang perlu kusampaikan (komitmen · batas · opsi)"
+           "id": "Satu batasan yang perlu kusampaikan (komitmen · batas · pilihan)"
           },
           "hint": {
            "en": "e.g. I want the report done well · A by Thursday, not B this week · ask Bu Wulan for priority",
-           "id": "mis. Saya ingin laporannya rapi · A hari Kamis, bukan B minggu ini · tanya prioritas ke Bu Wulan"
+           "id": "mis. Aku ingin laporannya rapi · A sampai Kamis, B tidak minggu ini · tanya prioritas ke Bu Wulan"
           },
           "rows": 2
          }
@@ -22753,18 +22753,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "One real conversation and one real disagreement.",
-         "id": "Satu percakapan nyata dan satu perbedaan pendapat nyata."
+         "id": "Satu percakapan nyata dan satu ketidaksetujuan nyata."
         },
         "fields": [
          {
           "id": "picker",
           "label": {
            "en": "Purpose Picker: “This is a ___ conversation with ___; success = ___.” Time and place. Opening line.",
-           "id": "Pemilih Tujuan: “Ini percakapan ___ dengan ___; berhasil = ___.” Waktu dan tempat. Kalimat pembuka."
+           "id": "Pemilih Tujuan: \"Ini percakapan ___ dengan ___; berhasil = ___.\" Waktu dan tempat. Kalimat pembuka."
           },
           "hint": {
            "en": "e.g. personal, then decision next week · Ibu · success = she feels heard · Sunday after lunch · “Bu, aku ingin cerita dulu, belum minta keputusan.”",
-           "id": "mis. personal, lalu keputusan minggu depan · Ibu · berhasil = ia merasa didengar · Minggu setelah makan siang · “Bu, aku ingin cerita dulu, belum minta keputusan.”"
+           "id": "mis. pribadi, lalu keputusan minggu depan · Ibu · berhasil = Ibu merasa didengar · Minggu sesudah makan siang · \"Bu, aku ingin cerita dulu, belum minta keputusan.\""
           },
           "rows": 3
          },
@@ -22772,11 +22772,11 @@ window.MT_LMS['the-map'] = {
           "id": "ladder",
           "label": {
            "en": "The ladder for one disagreement: rung 0 arguable? · 1 facts to check · 2 their view and reasons · 3 same question? · 4 level · 5 my ground · 6 close",
-           "id": "Tangga untuk satu perbedaan: anak tangga 0 bisa diperdebatkan? · 1 fakta untuk dicek · 2 pandangan dan alasan mereka · 3 pertanyaan yang sama? · 4 tingkat · 5 dasarku · 6 tutup"
+           "id": "Tangga untuk satu ketidaksetujuan: anak tangga 0 bisa diperdebatkan? · 1 fakta yang perlu dicek · 2 pandangan dan alasannya · 3 pertanyaan yang sama? · 4 tingkat · 5 dasarku · 6 tutup"
           },
           "hint": {
            "en": "e.g. arguable · check last year's attendance · Sari: by warehouse so heads can act · yes · agree on goal, differ on policy · complaints cluster by customer · main view by warehouse + top-5 customer tab, review in 2 weeks",
-           "id": "mis. bisa diperdebatkan · cek kehadiran tahun lalu · Sari: per gudang agar kepala gudang bisa bertindak · ya · sepakat tujuan, beda kebijakan · komplain mengelompok per pelanggan · tampilan utama per gudang + tab 5 pelanggan teratas, tinjau 2 minggu lagi"
+           "id": "mis. bisa diperdebatkan · cek jumlah hadirin tahun lalu · Mbak Sari: per gudang supaya kepala gudang bisa bertindak · ya · sepakat soal tujuan, beda soal kebijakan · komplain menumpuk per pelanggan · tampilan utama per gudang + tab lima pelanggan teratas, ditinjau 2 minggu lagi"
           },
           "rows": 5
          },
@@ -22784,7 +22784,7 @@ window.MT_LMS['the-map'] = {
           "id": "summary",
           "label": {
            "en": "Shared statement for the group: “We agree on ___; we differ on ___ because ___; we'll do ___; review on ___.”",
-           "id": "Pernyataan bersama untuk grup: “Kita sepakat soal ___; kita berbeda soal ___ karena ___; kita akan ___; tinjau pada ___.”"
+           "id": "Pernyataan bersama untuk kelompok: \"Kita sepakat soal ___; kita beda soal ___ karena ___; kita akan menjalankan ___; ditinjau lagi tanggal ___.\""
           },
           "hint": {
            "en": "",
@@ -22796,11 +22796,11 @@ window.MT_LMS['the-map'] = {
           "id": "senior",
           "label": {
            "en": "My five-step script for disagreeing with a senior (shared goal · restate · ground as information · propose · leave room)",
-           "id": "Naskah lima langkahku untuk berbeda pendapat dengan senior (tujuan bersama · ulangi · dasar sebagai informasi · usulkan · beri ruang)"
+           "id": "Naskah lima langkahku untuk tidak setuju dengan senior (tujuan bersama · ulangi · dasar sebagai informasi · usulkan · beri ruang)"
           },
           "hint": {
            "en": "e.g. “Saya setuju tujuannya…” · “Kalau saya tangkap…” · “Ada satu data…” · “Bagaimana kalau…” · “Tentu keputusan di Ibu…”",
-           "id": "mis. “Saya setuju tujuannya…” · “Kalau saya tangkap…” · “Ada satu data…” · “Bagaimana kalau…” · “Tentu keputusan di Ibu…”"
+           "id": "mis. \"Saya setuju tujuannya…\" · \"Kalau saya tangkap…\" · \"Ada satu data…\" · \"Bagaimana kalau…\" · \"Tentu keputusan di Ibu…\""
           },
           "rows": 3
          }
@@ -22814,18 +22814,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "Fundamentals, the loop, and one real change.",
-         "id": "Fondasi, putaran, dan satu perubahan nyata."
+         "id": "Dasar-dasar, lingkaran belajar, dan satu perubahan nyata."
         },
         "fields": [
          {
           "id": "fundamentals",
           "label": {
            "en": "Three tools I use → the fundamental beneath each (mark the one under 30% of my learning time)",
-           "id": "Tiga alat yang kupakai → fondasi di balik masing-masing (tandai yang di bawah 30% waktu belajarku)"
+           "id": "Tiga alat yang kupakai → dasar di balik masing-masing (tandai yang mendapat kurang dari 30% waktu belajarku)"
           },
           "hint": {
            "en": "e.g. Power BI → statistics and clear charts (*) · Excel → data cleaning logic · Canva → audience and structure",
-           "id": "mis. Power BI → statistika dan grafik yang jelas (*) · Excel → logika pembersihan data · Canva → audiens dan struktur"
+           "id": "mis. Power BI → statistika dan grafik yang jelas (*) · Excel → logika membersihkan data · Canva → audiens dan struktur"
           },
           "rows": 3
          },
@@ -22833,11 +22833,11 @@ window.MT_LMS['the-map'] = {
           "id": "loop",
           "label": {
            "en": "My learning loop: one source · one project · log location · defended hour · 30-min future scan slot",
-           "id": "Putaran belajarku: satu sumber · satu proyek · lokasi catatan · jam yang dijaga · slot pemindaian masa depan 30 menit"
+           "id": "Lingkaran belajarku: satu sumber · satu proyek · tempat catatan · satu jam yang dilindungi · slot pemindaian masa depan 30 menit"
           },
           "hint": {
            "en": "e.g. one newsletter · dashboard for HIMA finances · Notes app · Sat 09:00 · Sun 20:00",
-           "id": "mis. satu newsletter · dashboard keuangan HIMA · aplikasi Catatan · Sab 09.00 · Min 20.00"
+           "id": "mis. satu newsletter · dasbor keuangan HIMA · aplikasi Catatan · Sabtu 09:00 · Minggu 20:00"
           },
           "rows": 2
          },
@@ -22845,7 +22845,7 @@ window.MT_LMS['the-map'] = {
           "id": "log1",
           "label": {
            "en": "This week's first log entry: learned · built · result",
-           "id": "Entri catatan pertama minggu ini: belajar · membuat · hasil"
+           "id": "Catatan pertama minggu ini: yang kupelajari · yang kubangun · hasilnya"
           },
           "hint": {
            "en": "",
@@ -22857,7 +22857,7 @@ window.MT_LMS['the-map'] = {
           "id": "bets",
           "label": {
            "en": "My three 90-day skill bets (one fundamental, one AI-assisted workflow, one public artefact), each with a metric",
-           "id": "Tiga taruhan keterampilan 90 hariku (satu fondasi, satu alur kerja berbantuan AI, satu artefak publik), masing-masing dengan metrik"
+           "id": "Tiga taruhan keterampilanku untuk 90 hari (satu dasar, satu alur kerja berbantuan AI, satu karya publik), masing-masing dengan ukurannya"
           },
           "hint": {
            "en": "",
@@ -22869,11 +22869,11 @@ window.MT_LMS['the-map'] = {
           "id": "change",
           "label": {
            "en": "One real change I face: facts | interpretations · my reaction type · “from ___ to ___” · one action within my control",
-           "id": "Satu perubahan nyata yang kuhadapi: fakta | tafsiran · tipe reaksiku · “dari ___ ke ___” · satu tindakan dalam kendaliku"
+           "id": "Satu perubahan nyata yang kuhadapi: fakta | tafsiran · jenis reaksiku · \"dari ___ menjadi ___\" · satu tindakan dalam kendaliku"
           },
           "hint": {
            "en": "e.g. new AI tool from March | “they're replacing us” · realistic pessimist · from waiting to testing · test it on last month's report",
-           "id": "mis. alat AI baru mulai Maret | “mereka mengganti kita” · pesimis realistis · dari menunggu ke menguji · uji di laporan bulan lalu"
+           "id": "mis. alat AI baru mulai Maret | \"kita bakal digantikan\" · pesimis yang realistis · dari menunggu menjadi menguji · uji pada laporan bulan lalu"
           },
           "rows": 4
          }
@@ -22887,18 +22887,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "Your target role, task by task.",
-         "id": "Peran targetmu, tugas demi tugas."
+         "id": "Peran incaranmu, tugas demi tugas."
         },
         "fields": [
          {
           "id": "role",
           "label": {
            "en": "Target role and the job ads I read",
-           "id": "Peran target dan iklan lowongan yang kubaca"
+           "id": "Peran incaran dan lowongan kerja yang kubaca"
           },
           "hint": {
            "en": "e.g. Data & Operations Trainee · three ads from logistics companies",
-           "id": "mis. Data & Operations Trainee · tiga iklan dari perusahaan logistik"
+           "id": "mis. Data & Operations Trainee · tiga lowongan dari perusahaan logistik"
           },
           "rows": 1
          },
@@ -22906,11 +22906,11 @@ window.MT_LMS['the-map'] = {
           "id": "tasks",
           "label": {
            "en": "12+ tasks, each marked H (human-led), A (AI-assisted) or D (AI can do, light checking), with importance 1–3",
-           "id": "12+ tugas, masing-masing ditandai H (dipimpin manusia), A (berbantuan AI), atau D (AI bisa mengerjakan, pengecekan ringan), dengan tingkat kepentingan 1–3"
+           "id": "12+ tugas, masing-masing ditandai M (dipimpin manusia), B (dibantu AI), atau K (bisa dikerjakan AI, pengecekan ringan), dengan tingkat kepentingan 1–3"
           },
           "hint": {
            "en": "e.g. interpret anomalies with warehouse heads (H, 3) · draft weekly narrative (A, 3) · format tables (D, 1) …",
-           "id": "mis. menafsirkan anomali dengan kepala gudang (H, 3) · menyusun narasi mingguan (A, 3) · memformat tabel (D, 1) …"
+           "id": "mis. menafsirkan anomali bersama kepala gudang (M, 3) · menyusun narasi mingguan (B, 3) · merapikan tabel (K, 1) …"
           },
           "rows": 6
          },
@@ -22918,7 +22918,7 @@ window.MT_LMS['the-map'] = {
           "id": "bets",
           "label": {
            "en": "Three skill bets: one human-led · one verification-critical AI-assisted · one AI-literacy",
-           "id": "Tiga taruhan keterampilan: satu dipimpin manusia · satu berbantuan AI dengan verifikasi krusial · satu literasi AI"
+           "id": "Tiga taruhan keterampilan: satu dipimpin manusia · satu dibantu AI yang verifikasinya krusial · satu literasi AI"
           },
           "hint": {
            "en": "",
@@ -22930,7 +22930,7 @@ window.MT_LMS['the-map'] = {
           "id": "frontier",
           "label": {
            "en": "Frontier test: five tasks · scores (1–5) · Inside / Edge / Outside · two surprises · re-test date",
-           "id": "Uji batas: lima tugas · skor (1–5) · Dalam / Tepi / Luar · dua kejutan · tanggal uji ulang"
+           "id": "Uji batas kemampuan AI: lima tugas · nilai (1–5) · Di dalam / Di tepi / Di luar · dua kejutan · tanggal uji ulang"
           },
           "hint": {
            "en": "",
@@ -22942,11 +22942,11 @@ window.MT_LMS['the-map'] = {
           "id": "log",
           "label": {
            "en": "AI Use Log: date · task · policy checked? · CEK-5 run? · disclosed? · errors caught",
-           "id": "Log Penggunaan AI: tanggal · tugas · kebijakan dicek? · CEK-5 dijalankan? · diungkapkan? · kesalahan yang ditemukan"
+           "id": "Log Penggunaan AI: tanggal · tugas · kebijakan sudah dicek? · CEK-5 sudah dijalankan? · sudah diungkapkan? · kesalahan yang tertangkap"
           },
           "hint": {
            "en": "e.g. 12 Oct · meeting agenda draft · yes (approved tool) · yes · noted in file · one wrong date",
-           "id": "mis. 12 Okt · draf agenda rapat · ya (alat disetujui) · ya · dicatat di berkas · satu tanggal salah"
+           "id": "mis. 12 Okt · draf agenda rapat · ya (alat yang disetujui) · ya · dicatat di berkas · satu tanggal salah"
           },
           "rows": 4
          },
@@ -22954,11 +22954,11 @@ window.MT_LMS['the-map'] = {
           "id": "rules",
           "label": {
            "en": "My five AI Use Rules: integrity · confidentiality · personal data · disclosure · think-first",
-           "id": "Lima Aturan Penggunaan AI-ku: integritas · kerahasiaan · data pribadi · pengungkapan · berpikir dulu"
+           "id": "Lima Aturan Penggunaan AI-ku: integritas · kerahasiaan · data pribadi · keterbukaan · berpikir dulu"
           },
           "hint": {
            "en": "e.g. 1) check the RPS before any graded use · 2) approved tool only at work · 3) never other people's personal data · 4) one disclosure line in every file · 5) 10 minutes of my own outline first",
-           "id": "mis. 1) cek RPS sebelum penggunaan pada tugas yang dinilai · 2) hanya alat yang disetujui di tempat kerja · 3) tidak pernah data pribadi orang lain · 4) satu baris pengungkapan di tiap berkas · 5) 10 menit kerangka sendiri dulu"
+           "id": "mis. 1) cek RPS sebelum memakai AI untuk tugas yang dinilai · 2) di tempat kerja hanya alat yang disetujui · 3) tidak pernah data pribadi orang lain · 4) satu kalimat keterbukaan di setiap berkas · 5) 10 menit kerangka sendiri lebih dulu"
           },
           "rows": 5
          }
@@ -22972,18 +22972,18 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "Five stations, your blocks, and this week's review.",
-         "id": "Lima pos, blokmu, dan tinjauan minggu ini."
+         "id": "Lima pos, blok-blokmu, dan tinjauan minggu ini."
         },
         "fields": [
          {
           "id": "stations",
           "label": {
            "en": "Station status: capture · calendar · files · focus · professional inbox (done / what's missing)",
-           "id": "Status pos: tangkap · kalender · berkas · fokus · kotak masuk profesional (selesai / apa yang kurang)"
+           "id": "Status pos: penampung · kalender · berkas · fokus · kotak masuk profesional (selesai / apa yang kurang)"
           },
           "hint": {
            "en": "e.g. capture ✓ · calendar ✓ · files: rename Bab 3 · focus: allowlist not set · inbox ✓",
-           "id": "mis. tangkap ✓ · kalender ✓ · berkas: ganti nama Bab 3 · fokus: daftar izin belum diatur · kotak masuk ✓"
+           "id": "mis. penampung ✓ · kalender ✓ · berkas: ganti nama Bab 3 · fokus: daftar orang belum diatur · kotak masuk ✓"
           },
           "rows": 3
          },
@@ -22991,11 +22991,11 @@ window.MT_LMS['the-map'] = {
           "id": "peaks",
           "label": {
            "en": "Alertness readings (three days, every two hours) and my peak hours",
-           "id": "Pembacaan kesiagaan (tiga hari, tiap dua jam) dan jam puncakku"
+           "id": "Catatan kesegaran (tiga hari, setiap dua jam) dan jam puncakku"
           },
           "hint": {
            "en": "e.g. 08:00 4 · 10:00 5 · 12:00 3 · 14:00 2 · 16:00 3 · 18:00 4 · 20:00 4 → peaks 09:00–11:00, 19:00–21:00",
-           "id": "mis. 08.00 4 · 10.00 5 · 12.00 3 · 14.00 2 · 16.00 3 · 18.00 4 · 20.00 4 → puncak 09.00–11.00, 19.00–21.00"
+           "id": "mis. 08:00 4 · 10:00 5 · 12:00 3 · 14:00 2 · 16:00 3 · 18:00 4 · 20:00 4 → puncak 09:00–11:00, 19:00–21:00"
           },
           "rows": 2
          },
@@ -23003,11 +23003,11 @@ window.MT_LMS['the-map'] = {
           "id": "blocks",
           "label": {
            "en": "Starting block length · this week's blocks (day, time, objective) · completed count",
-           "id": "Panjang blok awal · blok minggu ini (hari, jam, tujuan) · jumlah yang selesai"
+           "id": "Panjang blok awal · blok minggu ini (hari, jam, sasaran) · jumlah yang selesai"
           },
           "hint": {
            "en": "e.g. 25 min · Mon 09:00 Bab 3 intro · Tue 09:00 dataset cleaning · … · 6/8 → add 5 min next week",
-           "id": "mis. 25 mnt · Sen 09.00 pengantar Bab 3 · Sel 09.00 pembersihan dataset · … · 6/8 → tambah 5 mnt minggu depan"
+           "id": "mis. 25 menit · Sen 09:00 pendahuluan Bab 3 · Sel 09:00 membersihkan dataset · … · 6/8 → tambah 5 menit minggu depan"
           },
           "rows": 4
          },
@@ -23015,7 +23015,7 @@ window.MT_LMS['the-map'] = {
           "id": "review",
           "label": {
            "en": "This week's review: cleared? · done / blocks / battery / cycle days · next two weeks' shape · relationship action · learning hour · what I'll shrink",
-           "id": "Tinjauan minggu ini: dibersihkan? · selesai / blok / baterai / hari siklus · bentuk dua minggu ke depan · tindakan relasi · jam belajar · yang akan kukecilkan"
+           "id": "Tinjauan minggu ini: sudah dibersihkan? · selesai / blok / baterai / hari siklus · bentuk dua minggu ke depan · tindakan relasi · jam belajar · apa yang akan kukecilkan"
           },
           "hint": {
            "en": "",
@@ -23027,7 +23027,7 @@ window.MT_LMS['the-map'] = {
           "id": "safety",
           "label": {
            "en": "Safety basics done: 2FA (email, cloud, bank, LinkedIn) · password manager · backup · notifications allowlist · wind-down boundary",
-           "id": "Dasar keamanan selesai: 2FA (email, awan, bank, LinkedIn) · pengelola kata sandi · cadangan · daftar izin notifikasi · batas menjelang tidur"
+           "id": "Dasar keamanan yang sudah beres: 2FA (email, cloud, bank, LinkedIn) · pengelola kata sandi · cadangan · daftar orang untuk notifikasi · batas sebelum tidur"
           },
           "hint": {
            "en": "",
@@ -23045,14 +23045,14 @@ window.MT_LMS['the-map'] = {
         },
         "lead": {
          "en": "From the last case question. Each with a metric and a review date.",
-         "id": "Dari pertanyaan kasus terakhir. Masing-masing dengan metrik dan tanggal tinjauan."
+         "id": "Dari pertanyaan terakhir kasus ini. Masing-masing dengan ukuran dan tanggal peninjauan."
         },
         "fields": [
          {
           "id": "energy",
           "label": {
            "en": "Energy commitment and metric",
-           "id": "Komitmen energi dan metriknya"
+           "id": "Komitmen energi dan ukurannya"
           },
           "hint": {
            "en": "e.g. battery ≥ 6/9 for two consecutive weeks",
@@ -23064,11 +23064,11 @@ window.MT_LMS['the-map'] = {
           "id": "people",
           "label": {
            "en": "People commitment and metric",
-           "id": "Komitmen orang dan metriknya"
+           "id": "Komitmen soal orang dan ukurannya"
           },
           "hint": {
            "en": "e.g. one AVEC conversation with Pak Arif this week; one turn-toward per day",
-           "id": "mis. satu percakapan AVEC dengan Pak Arif minggu ini; satu menoleh-ke-arah per hari"
+           "id": "mis. satu percakapan AVEC dengan Pak Arif minggu ini; satu kali menghadap ajakan per hari"
           },
           "rows": 2
          },
@@ -23076,11 +23076,11 @@ window.MT_LMS['the-map'] = {
           "id": "digital",
           "label": {
            "en": "AI/digital commitment and metric",
-           "id": "Komitmen AI/digital dan metriknya"
+           "id": "Komitmen AI/digital dan ukurannya"
           },
           "hint": {
            "en": "e.g. ten AI uses logged with CEK-5; weekly review four Sundays in a row",
-           "id": "mis. sepuluh penggunaan AI dicatat dengan CEK-5; tinjauan mingguan empat Minggu berturut-turut"
+           "id": "mis. sepuluh pemakaian AI dicatat dengan CEK-5; tinjauan mingguan empat Minggu berturut-turut"
           },
           "rows": 2
          },
@@ -23088,11 +23088,11 @@ window.MT_LMS['the-map'] = {
           "id": "review",
           "label": {
            "en": "Review date and fallback rule",
-           "id": "Tanggal tinjauan dan aturan cadangan"
+           "id": "Tanggal peninjauan dan aturan cadangan"
           },
           "hint": {
            "en": "e.g. 30 days from today; if I fall behind, shrink but never to zero",
-           "id": "mis. 30 hari dari hari ini; jika tertinggal, kecilkan tapi jangan sampai nol"
+           "id": "mis. 30 hari dari hari ini; kalau tertinggal, kecilkan tetapi jangan pernah sampai nol"
           },
           "rows": 1
          }
@@ -23108,11 +23108,11 @@ window.MT_LMS['the-map'] = {
      "takeaways": [
       {
        "en": "Energy: read the signals early and keep a floor you never drop below.",
-       "id": "Energi: baca sinyalnya lebih awal dan jaga batas bawah yang tidak pernah kamu langgar."
+       "id": "Energi: baca tanda-tandanya lebih awal dan jaga batas bawah yang tidak pernah kamu langgar."
       },
       {
        "en": "People: repair before you decide, understand before you judge, private before public.",
-       "id": "Orang: perbaiki sebelum memutuskan, pahami sebelum menilai, privat sebelum publik."
+       "id": "Orang: perbaiki hubungan sebelum memutuskan, pahami sebelum menilai, empat mata sebelum di depan umum."
       },
       {
        "en": "AI and digital: gates before speed, verification before sending, the system before the tool.",
@@ -23120,7 +23120,7 @@ window.MT_LMS['the-map'] = {
       },
       {
        "en": "Your plan is a draft you'll review in 30 days. Shrink it if you must, but never to zero.",
-       "id": "Rencanamu adalah draf yang akan kamu tinjau 30 hari lagi. Kecilkan jika perlu, tapi jangan sampai nol."
+       "id": "Rencanamu adalah draf yang akan kamu tinjau dalam 30 hari. Kecilkan kalau perlu, tetapi jangan pernah sampai nol."
       }
      ]
     }
