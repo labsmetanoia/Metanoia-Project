@@ -61315,7 +61315,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Empat aspek yang dinilai"
        },
        "body": {
-        "en": "<b>Structure:</b> do you impose usable order on ambiguity; a MECE tree, a clear sequence, explicit priorities? <b>Numeracy:</b> clean arithmetic at conversation speed, orders of magnitude held correctly, percentages that mean something. <b>Judgment:</b> when data arrives, do you notice what matters, connect it to the question, and adjust? Do your recommendations follow from your analysis? <b>Communication:</b> answer-first delivery, visible signposting, composure when corrected. Interviewers mark all four continuously. Which means every minute offers recovery: a stumbled calculation followed by a caught error and a clean correction often scores higher than an unremarkable clean run.",
+        "en": "<b>Structure:</b> do you impose usable order on ambiguity (a MECE tree, a clear sequence, explicit priorities)? <b>Numeracy:</b> clean arithmetic at conversation speed, orders of magnitude held correctly, percentages that mean something. <b>Judgment:</b> when data arrives, do you notice what matters, connect it to the question, and adjust? Do your recommendations follow from your analysis? <b>Communication:</b> answer-first delivery, visible signposting, composure when corrected. Interviewers mark all four continuously, which means every minute offers recovery: a stumbled calculation followed by a caught error and a clean correction often scores higher than an unremarkable clean run.",
         "id": "<b>Struktur:</b> apakah kamu bisa membuat situasi yang serba tidak jelas menjadi tertata dan bisa dikerjakan, misalnya dengan pohon MECE, urutan yang jelas, dan prioritas yang tegas? <b>Kemampuan berhitung:</b> hitungan yang rapi secepat orang bercakap, besaran angka yang tetap terjaga, dan persentase yang benar-benar bermakna. <b>Pertimbangan:</b> saat data baru datang, apakah kamu menangkap apa yang penting, mengaitkannya dengan pertanyaannya, lalu menyesuaikan langkah? Apakah rekomendasimu benar-benar lahir dari analisismu? <b>Komunikasi:</b> menyampaikan jawaban lebih dulu, memberi penanda arah yang jelas, dan tetap tenang saat dikoreksi. Pewawancara menilai keempatnya sepanjang wawancara. Artinya, setiap menit membuka peluang untuk bangkit: hitungan yang sempat tersandung, lalu kesalahannya kamu temukan sendiri dan kamu perbaiki dengan rapi, sering kali mendapat nilai lebih tinggi daripada jalan mulus yang biasa-biasa saja."
        },
        "key": {
@@ -61926,7 +61926,7 @@ window.MT_LMS['the-pack'] = {
       {
        "icon": "flag",
        "h": {
-        "en": "Being wrong, gracefully: and the close",
+        "en": "Being wrong, gracefully, and the close",
         "id": "Keliru dengan anggun, dan cara menutup"
        },
        "body": {
