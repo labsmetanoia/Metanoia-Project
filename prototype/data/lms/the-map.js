@@ -23164,22 +23164,22 @@ window.MT_LMS['the-map'] = {
      },
      "dur": {
       "en": "20 min",
-      "id": "20 mnt"
+      "id": "20 menit"
      },
      "kind": "reading",
      "placeholder": false,
      "overview": {
-      "en": "The last module of The Map replaces guessing with contact: ten industry tracks, each a compressed workday of realistic tasks with model debriefs, a directory of employer-built simulations on The Forage, and a log that turns what you felt into a direction. This lesson explains how to run a simulation so it produces career signal, energy data, fit data, and evidence for your Range profile, and how employers use the same tool from the other side.",
-      "id": "Modul terakhir The Map mengganti tebakan dengan pengalaman langsung: sepuluh jalur industri, masing-masing satu hari kerja yang dipadatkan berisi tugas realistis dengan tinjauan model, direktori simulasi rancangan perusahaan di The Forage, dan catatan yang mengubah apa yang kamu rasakan menjadi arah. Pelajaran ini menjelaskan cara menjalankan simulasi supaya menghasilkan sinyal karier, data energi, data kecocokan, dan bukti untuk profil Range-mu, dan bagaimana perusahaan memakai alat yang sama dari sisi sebaliknya."
+      "en": "The last module of The Map replaces guessing with contact: ten industry tracks, each a compressed workday of realistic tasks with model debriefs, a directory of employer-built simulations on The Forage, and a log that turns what you felt into a direction. This lesson explains how to run a simulation so it produces career signal (energy data, fit data, and evidence for your Range profile), and how employers use the same tool from the other side.",
+      "id": "Modul terakhir The Map mengganti tebak-tebakan dengan pengalaman langsung: sepuluh jalur industri, masing-masing berupa satu hari kerja yang dipadatkan berisi tugas-tugas realistis lengkap dengan contoh pembahasannya, direktori simulasi buatan pemberi kerja di The Forage, dan catatan yang mengubah apa yang kamu rasakan menjadi arah. Pelajaran ini menjelaskan cara menjalankan simulasi agar menghasilkan sinyal karier (data energi, data kecocokan, dan bukti untuk profil Range-mu), serta bagaimana pemberi kerja memakai alat yang sama dari sisi seberangnya."
      },
      "objectives": [
       {
        "en": "Explain what a simulation can and cannot tell you about a career direction.",
-       "id": "Menjelaskan apa yang bisa dan tidak bisa diberitahukan sebuah simulasi tentang arah karier."
+       "id": "Menjelaskan apa yang bisa dan tidak bisa diceritakan sebuah simulasi tentang arah karier."
       },
       {
        "en": "Use the three-question debrief after every track: energised? competent? curious?",
-       "id": "Memakai tinjauan tiga pertanyaan setelah setiap jalur: bersemangat? kompeten? penasaran?"
+       "id": "Memakai pembahasan tiga pertanyaan setelah setiap jalur: bersemangat? mampu? penasaran?"
       },
       {
        "en": "Feed simulation results into The Range's fit model honestly.",
@@ -23187,25 +23187,25 @@ window.MT_LMS['the-map'] = {
       },
       {
        "en": "Choose an external simulation on The Forage that matches a track, and know what completing it does and does not do for an application.",
-       "id": "Memilih simulasi eksternal di The Forage yang sesuai dengan sebuah jalur, dan memahami apa yang bisa dan tidak bisa dilakukan penyelesaiannya untuk sebuah lamaran."
+       "id": "Memilih simulasi eksternal di The Forage yang sesuai dengan sebuah jalur, dan tahu apa yang dilakukan dan tidak dilakukan penyelesaiannya bagi sebuah lamaran."
       }
      ],
      "takeaways": [
       {
        "en": "An afternoon of simulated tasks beats a month of reading about an industry.",
-       "id": "Satu sore mengerjakan tugas simulasi lebih berharga daripada sebulan membaca tentang sebuah industri."
+       "id": "Satu sore mengerjakan tugas-tugas simulasi mengalahkan sebulan membaca tentang sebuah industri."
       },
       {
        "en": "You are measuring your reaction to the work, not your current skill at it; beginners are supposed to be slow.",
-       "id": "Yang kamu ukur adalah reaksimu terhadap pekerjaannya, bukan keterampilanmu saat ini, pemula memang wajar lambat."
+       "id": "Kamu sedang mengukur reaksimu terhadap pekerjaannya, bukan keterampilanmu saat ini; pemula memang wajar lambat."
       },
       {
        "en": "Two tracks that energised you are a direction hypothesis; test it next in The Range's company data.",
-       "id": "Dua jalur yang membuatmu bersemangat adalah hipotesis arah karier; uji berikutnya dengan data perusahaan di The Range."
+       "id": "Dua jalur yang membuatmu bersemangat adalah hipotesis arah; uji berikutnya dengan data perusahaan di The Range."
       },
       {
-       "en": "Employers use the same tool from the other side: a completed external simulation is evidence for an interview and a signal in their talent pool; never a substitute for the debrief.",
-       "id": "Perusahaan memakai alat yang sama dari sisi sebaliknya: simulasi eksternal yang selesai adalah bukti untuk wawancara dan sinyal di kolam talenta mereka, tidak pernah menggantikan tinjauan."
+       "en": "Employers use the same tool from the other side: a completed external simulation is evidence for an interview and a signal in their talent pool, never a substitute for the debrief.",
+       "id": "Pemberi kerja memakai alat yang sama dari sisi seberangnya: simulasi eksternal yang sudah kamu selesaikan adalah bukti untuk wawancara dan sinyal di kumpulan talenta mereka, tetapi tidak pernah menggantikan pembahasannya."
       }
      ],
      "sections": [
@@ -23213,11 +23213,11 @@ window.MT_LMS['the-map'] = {
        "icon": "book",
        "h": {
         "en": "Why simulate",
-        "id": "Mengapa perlu simulasi"
+        "id": "Kenapa perlu simulasi"
        },
        "body": {
-        "en": "Career mistakes are expensive precisely because the information arrives late, most people discover what consulting or audit actually feels like in month two of a job they committed years to reaching. Simulations move that discovery forward to an afternoon. Global employers increasingly publish job simulations for the same reason: they filter for people who have met the real work. Each track here compresses a representative workday, the actual task types, the actual trade-offs, junior-level versions, into 60–90 minutes.",
-        "id": "Kesalahan karier itu mahal justru karena informasinya datang terlambat; kebanyakan orang baru tahu seperti apa rasanya menjadi konsultan atau auditor di bulan kedua pekerjaan yang mereka kejar bertahun-tahun. Simulasi memajukan penemuan itu menjadi satu sore saja. Perusahaan-perusahaan global pun makin banyak menerbitkan simulasi kerja dengan alasan yang sama: menyaring orang yang sudah pernah bersentuhan dengan pekerjaan sesungguhnya. Setiap jalur di sini memadatkan satu hari kerja yang representatif, jenis tugas yang sebenarnya, dilema yang sebenarnya, dalam versi level junior, menjadi 60–90 menit."
+        "en": "Career mistakes are expensive precisely because the information arrives late: most people discover what consulting or audit actually feels like in month two of a job they committed years to reaching. Simulations move that discovery forward to an afternoon. Global employers increasingly publish job simulations for the same reason: they filter for people who have met the real work. Each track here compresses a representative workday (the actual task types, the actual trade-offs, junior-level versions) into about 25 minutes.",
+        "id": "Kesalahan karier mahal justru karena informasinya datang terlambat: kebanyakan orang baru tahu rasanya bekerja di konsultansi atau audit di bulan kedua pekerjaan yang sudah mereka kejar bertahun-tahun. Simulasi memajukan penemuan itu menjadi satu sore saja. Pemberi kerja global makin banyak menerbitkan simulasi kerja dengan alasan yang sama: mereka menyaring orang yang sudah pernah bersentuhan dengan pekerjaan yang sebenarnya. Setiap jalur di sini memadatkan satu hari kerja yang mewakili (jenis tugas yang sebenarnya, pertimbangan untung-rugi yang sebenarnya, dalam versi tingkat junior) menjadi sekitar 25 menit."
        },
        "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
        "imgPos": "center 35%"
@@ -23226,11 +23226,11 @@ window.MT_LMS['the-map'] = {
        "icon": "eye",
        "h": {
         "en": "The three-question debrief",
-        "id": "Tinjauan tiga pertanyaan"
+        "id": "Pembahasan tiga pertanyaan"
        },
        "body": {
-        "en": "After each track, before reading anything else, write three answers. <b>Energy:</b> did the 90 minutes pass quickly or crawl? Energy is the least fakeable career signal you own. <b>Competence trajectory:</b> not “was I good”, you were not, you are new, but “did I improve within the session, and did I want to?” <b>Curiosity:</b> which task would you happily do a harder version of tomorrow? A track scoring high on all three is a serious direction candidate; one scoring low on all three is an expensive mistake you just avoided for free.",
-        "id": "Setelah setiap jalur, sebelum membaca apa pun, tulis tiga jawaban. <b>Energi:</b> apakah 90 menit itu terasa cepat berlalu atau merangkak? Energi adalah sinyal karier yang paling sulit dipalsukan yang kamu miliki. <b>Arah kompetensi:</b> bukan “apakah aku sudah jago”, belum, kamu masih baru, melainkan “apakah aku membaik dalam sesi itu, dan apakah aku ingin membaik?” <b>Rasa ingin tahu:</b> tugas mana yang versi lebih sulitnya rela kamu kerjakan besok? Jalur yang tinggi di ketiganya adalah kandidat arah yang serius; jalur yang rendah di ketiganya adalah kesalahan mahal yang baru saja kamu hindari secara gratis."
+        "en": "After each track, before reading anything else, write three answers. <b>Energy:</b> did the session pass quickly or crawl? Energy is the least fakeable career signal you own. <b>Competence trajectory:</b> not “was I good” (you were not; you are new) but “did I improve within the session, and did I want to?” <b>Curiosity:</b> which task would you happily do a harder version of tomorrow? A track scoring high on all three is a serious direction candidate; one scoring low on all three is an expensive mistake you just avoided for free.",
+        "id": "Setelah setiap jalur, sebelum membaca apa pun, tulis tiga jawaban. <b>Energi:</b> apakah sesinya terasa cepat berlalu atau merayap? Energi adalah sinyal karier yang paling sulit dipalsukan. <b>Arah kemampuan:</b> bukan \"apakah aku bagus\" (kamu belum bagus; kamu masih baru), melainkan \"apakah aku membaik selama sesi itu, dan apakah aku ingin terus membaik?\" <b>Rasa penasaran:</b> tugas mana yang dengan senang hati akan kamu kerjakan dalam versi yang lebih sulit besok? Jalur yang tinggi di ketiganya adalah calon arah yang serius; jalur yang rendah di ketiganya adalah kesalahan mahal yang baru saja kamu hindari secara gratis."
        }
       },
       {
@@ -23240,19 +23240,19 @@ window.MT_LMS['the-map'] = {
         "id": "Mengisi The Range"
        },
        "body": {
-        "en": "Simulation results are evidence, and evidence belongs in your profile: log each track's three answers in the Personal Audit, then revisit your Range questionnaire. Does the direction it suggested survive contact with the simulated work? Where simulation and questionnaire disagree, trust the simulation more: stated preferences predict weaker than behaviour. Two energising tracks → explore those industries' companies in Range's database and read the role pages with new eyes.",
-        "id": "Hasil simulasi adalah bukti, dan bukti seharusnya masuk ke profilmu: catat tiga jawaban dari setiap jalur di Audit Pribadi, lalu tinjau ulang kuesioner Range-mu, apakah arah yang disarankannya masih bertahan setelah bersentuhan dengan pekerjaan simulasi? Kalau simulasi dan kuesioner tidak sepakat, percayai simulasinya: preferensi yang diucapkan selalu lebih lemah daya prediksinya daripada perilaku. Dua jalur yang memberimu energi → jelajahi perusahaan-perusahaan di industri itu di basis data Range, dan baca halaman perannya dengan pandangan yang baru."
+        "en": "Simulation results are evidence, and evidence belongs in your profile: log each track's three answers in the Personal Audit, then revisit your Range questionnaire. Does the direction it suggested survive contact with the simulated work? Where simulation and questionnaire disagree, trust the simulation more: stated preferences predict less well than behaviour. Two energising tracks → explore those industries' companies in Range's database and read the role pages with new eyes.",
+        "id": "Hasil simulasi adalah bukti, dan bukti layak masuk ke profilmu: catat tiga jawaban dari setiap jalur di Audit Pribadi, lalu buka lagi kuesioner Range-mu. Apakah arah yang disarankannya tetap bertahan setelah bersentuhan dengan pekerjaan simulasinya? Kalau simulasi dan kuesioner tidak sejalan, lebih percayalah pada simulasinya: preferensi yang diucapkan lebih lemah dalam memprediksi daripada perilaku. Dua jalur yang memberimu energi → jelajahi perusahaan-perusahaan di industri itu dalam database Range dan baca halaman perannya dengan mata yang baru."
        }
       },
       {
        "icon": "briefcase",
        "h": {
         "en": "How employers use simulations: the other side of the table",
-        "id": "Bagaimana perusahaan memakai simulasi, sisi lain meja"
+        "id": "Bagaimana pemberi kerja memakai simulasi: sisi seberang meja"
        },
        "body": {
-        "en": "Recruiters have a problem you should understand: a CV says what someone has done, not how they think, and interviews reward confidence more than competence. So employers now publish their own job simulations. A set of tasks built by the team that would hire you, with model answers written by that team. On The Forage these are free, take a few hours, are open to anyone, and end with a certificate of completion. Three things follow. First, a completed simulation is evidence you can put in front of an interviewer: “I did your investment-banking simulation and the valuation task taught me X” beats “I'm passionate about finance”. Second, employers can see who completed their programme; it is not an application, but it is a signal in their talent pool. Third, the simulation shows you the firm's real house style, what they think a good memo, slide or pull request looks like, which is exactly what an interview tests. Lesson 6.12 is a directory of these programmes, mapped to the ten tracks here.",
-        "id": "Perekrut punya masalah yang perlu kamu pahami: CV menyebutkan apa yang telah dilakukan seseorang, bukan bagaimana ia berpikir, dan wawancara lebih menghargai kepercayaan diri daripada kompetensi. Karena itu perusahaan kini menerbitkan simulasi kerja mereka sendiri, serangkaian tugas yang dibuat oleh tim yang akan merekrutmu, dengan jawaban model yang ditulis tim itu juga. Di The Forage, simulasi ini gratis, memakan beberapa jam, terbuka untuk siapa saja, dan diakhiri sertifikat penyelesaian. Tiga hal mengikutinya. Pertama, simulasi yang selesai adalah bukti yang bisa kamu sodorkan ke pewawancara: “Saya mengerjakan simulasi investment banking Anda dan tugas valuasinya mengajarkan saya X” mengalahkan “Saya bersemangat di bidang keuangan”. Kedua, perusahaan bisa melihat siapa yang menyelesaikan programnya; itu bukan lamaran, tetapi sinyal di kolam talenta mereka. Ketiga, simulasi memperlihatkan gaya rumah firma yang sebenarnya, seperti apa memo, slide, atau pull request yang mereka anggap baik, yang persis diuji dalam wawancara. Pelajaran 6.12 adalah direktori program-program ini, dipetakan ke sepuluh jalur di sini."
+        "en": "Recruiters have a problem you should understand: a CV says what someone has done, not how they think, and interviews reward confidence more than competence. So employers now publish their own job simulations: a set of tasks built by the team that would hire you, with model answers written by that team. On The Forage these are free, take a few hours, are open to anyone, and end with a certificate of completion. Three things follow. First, a completed simulation is evidence you can put in front of an interviewer: “I did your investment-banking simulation and the valuation task taught me X” beats “I'm passionate about finance”. Second, employers can see who completed their programme; it is not an application, but it is a signal in their talent pool. Third, the simulation shows you the firm's real house style (what they think a good memo, slide or pull request looks like), which is exactly what an interview tests. Lesson 6.12 is a directory of these programmes, mapped to the ten tracks here.",
+        "id": "Perekrut punya masalah yang perlu kamu pahami: CV menunjukkan apa yang sudah dilakukan seseorang, bukan cara ia berpikir, dan wawancara lebih menghargai rasa percaya diri daripada kemampuan. Karena itu pemberi kerja kini menerbitkan simulasi kerja mereka sendiri: serangkaian tugas yang dibuat oleh tim yang akan merekrutmu, dengan contoh jawaban yang ditulis tim itu. Di The Forage, simulasi ini gratis, butuh beberapa jam, terbuka untuk siapa saja, dan diakhiri dengan sertifikat penyelesaian. Ada tiga konsekuensinya. Pertama, simulasi yang sudah selesai adalah bukti yang bisa kamu sodorkan kepada pewawancara: \"Aku mengerjakan simulasi investment banking kalian, dan tugas valuasinya mengajariku X\" jauh lebih kuat daripada \"Aku sangat tertarik pada keuangan\". Kedua, pemberi kerja bisa melihat siapa saja yang menyelesaikan program mereka; ini bukan lamaran, tetapi menjadi sinyal di kumpulan talenta mereka. Ketiga, simulasi itu memperlihatkan gaya kerja asli perusahaan (seperti apa memo, slide, atau pull request yang bagus menurut mereka), dan itulah yang diuji dalam wawancara. Pelajaran 6.12 adalah direktori program-program ini, dipetakan ke sepuluh jalur di sini."
        }
       },
       {
@@ -23262,20 +23262,20 @@ window.MT_LMS['the-map'] = {
         "id": "Memilih simulasi eksternal"
        },
        "body": {
-        "en": "Run a track here first; it costs 25 minutes and tells you whether the industry deserves three hours of your evening. Then pick an external programme by <b>function, not brand</b>: a data-analytics simulation at a consultancy teaches you more about analytics work than a consulting one at a famous name teaches you about consulting. Prefer programmes whose tasks match the track that energised you, and do the debrief again afterwards, the same three questions, because the external version is longer and closer to the real thing, so its signal is worth more. One warning: completing eight simulations in a fortnight produces certificates, not signal. Two well-chosen programmes, each followed by an honest debrief and one written CV line (lesson 6.13), is the whole method.",
-        "id": "Jalankan dulu satu jalur di sini; biayanya 25 menit dan memberitahumu apakah industri itu layak mendapat tiga jam malammu. Lalu pilih program eksternal berdasarkan <b>fungsi, bukan merek</b>: simulasi analitik data di sebuah konsultan mengajarkan lebih banyak tentang pekerjaan analitik daripada simulasi konsultansi di nama terkenal mengajarkan tentang konsultansi. Utamakan program yang tugasnya sesuai dengan jalur yang memberimu energi, dan lakukan tinjauannya lagi setelah selesai, tiga pertanyaan yang sama, karena versi eksternalnya lebih panjang dan lebih dekat ke pekerjaan sungguhan, sehingga sinyalnya lebih bernilai. Satu peringatan: menyelesaikan delapan simulasi dalam dua minggu menghasilkan sertifikat, bukan sinyal. Dua program yang dipilih dengan baik, masing-masing diikuti tinjauan jujur dan satu baris CV yang tertulis (pelajaran 6.13), adalah keseluruhan metodenya."
+        "en": "Run a track here first; it costs 25 minutes and tells you whether the industry deserves three hours of your evening. Then pick an external programme by <b>function, not brand</b>: a data-analytics simulation at a consultancy teaches you more about analytics work than a consulting one at a famous name teaches you about consulting. Prefer programmes whose tasks match the track that energised you, and do the debrief again afterwards (the same three questions), because the external version is longer and closer to the real thing, so its signal is worth more. One warning: completing eight simulations in a fortnight produces certificates, not signal. Two well-chosen programmes, each followed by an honest debrief and one written CV line (lesson 6.13), is the whole method.",
+        "id": "Jalankan satu jalur di sini lebih dulu; biayanya 25 menit dan hasilnya memberi tahu apakah industri itu layak mendapat tiga jam dari malammu. Lalu pilih program eksternal berdasarkan <b>fungsi, bukan merek</b>: simulasi analitik data di sebuah firma konsultan mengajarimu lebih banyak tentang pekerjaan analitik daripada simulasi konsultansi di nama besar mengajarimu tentang konsultansi. Utamakan program yang tugas-tugasnya cocok dengan jalur yang memberimu energi, dan jalankan lagi pembahasannya sesudahnya (tiga pertanyaan yang sama), karena versi eksternalnya lebih panjang dan lebih dekat dengan kenyataan, sehingga sinyalnya lebih berharga. Satu peringatan: menyelesaikan delapan simulasi dalam dua minggu menghasilkan sertifikat, bukan sinyal. Dua program yang dipilih dengan baik, masing-masing diikuti pembahasan yang jujur dan satu baris CV yang tertulis (pelajaran 6.13), itulah seluruh metodenya."
        }
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The simulation loop, contact before commitment.",
-       "id": "Peraga 1: Putaran simulasi: bersentuhan dulu, baru berkomitmen."
+       "en": "Exhibit 1: The simulation loop: contact before commitment.",
+       "id": "Gambar 1: Lingkaran simulasi: bersentuhan dulu sebelum berkomitmen."
       },
       "title": {
        "en": "Run → Debrief → Compare → Decide",
-       "id": "Jalankan → Tinjau → Bandingkan → Putuskan"
+       "id": "Jalankan → Bahas → Bandingkan → Putuskan"
       },
       "items": [
        {
@@ -23284,18 +23284,18 @@ window.MT_LMS['the-map'] = {
          "id": "Jalankan jalurnya"
         },
         "sub": {
-         "en": "90 minutes of realistic junior tasks",
-         "id": "90 menit tugas level junior yang realistis"
+         "en": "25 minutes of realistic junior tasks",
+         "id": "25 menit tugas junior yang realistis"
         }
        },
        {
         "h": {
          "en": "Debrief",
-         "id": "Tinjau"
+         "id": "Bahas"
         },
         "sub": {
          "en": "Energy · competence trajectory · curiosity",
-         "id": "Energi · arah kompetensi · rasa ingin tahu"
+         "id": "Energi · arah kemampuan · rasa penasaran"
         }
        },
        {
@@ -23305,7 +23305,7 @@ window.MT_LMS['the-map'] = {
         },
         "sub": {
          "en": "Across tracks and against your Range profile",
-         "id": "Antarjalur, dan terhadap profil Range-mu"
+         "id": "Antarjalur dan dengan profil Range-mu"
         }
        },
        {
@@ -23315,54 +23315,54 @@ window.MT_LMS['the-map'] = {
         },
         "sub": {
          "en": "Two candidates forward into company research",
-         "id": "Dua kandidat maju ke tahap riset perusahaan"
+         "id": "Dua calon arah maju ke riset perusahaan"
         }
        }
       ],
       "longdesc": {
-       "en": "A four-step loop: run a 90-minute track of realistic junior tasks; debrief on energy, competence trajectory and curiosity; compare results across tracks and against your Range questionnaire; decide which one or two directions advance into company research.",
-       "id": "Putaran empat langkah: jalankan jalur 90 menit berisi tugas level junior yang realistis; tinjau energi, arah kompetensi, dan rasa ingin tahu; bandingkan hasil antarjalur dan terhadap kuesioner Range-mu; putuskan satu atau dua arah yang maju ke tahap riset perusahaan."
+       "en": "A four-step loop: run a 25-minute track of realistic junior tasks; debrief on energy, competence trajectory and curiosity; compare results across tracks and against your Range questionnaire; decide which one or two directions advance into company research.",
+       "id": "Lingkaran empat langkah: jalankan jalur 25 menit berisi tugas junior yang realistis; bahas energi, arah kemampuan, dan rasa penasaran; bandingkan hasilnya antarjalur dan dengan kuesioner Range-mu; putuskan satu atau dua arah yang maju ke riset perusahaan."
       }
      },
      "checks": [
       {
        "q": {
         "en": "You found the accounting track slow and draining but scored well on its tasks. How should this weigh on your direction?",
-        "id": "Kamu merasa jalur akuntansi lambat dan menguras tenaga, tapi nilaimu di tugas-tugasnya bagus. Bagaimana seharusnya ini memengaruhi arah kariermu?"
+        "id": "Kamu merasa jalur akuntansi lambat dan menguras energi, tetapi nilaimu bagus di tugas-tugasnya. Bagaimana ini memengaruhi arahmu?"
        },
        "options": [
         {
          "en": "Pursue accounting: performance is what employers pay for",
-         "id": "Kejar akuntansi: kinerja adalah yang dibayar perusahaan"
+         "id": "Kejar akuntansi: kinerja itulah yang dibayar pemberi kerja"
         },
         {
          "en": "Treat it cautiously: competence without energy predicts burnout-grade misfit over years",
-         "id": "Sikapi dengan hati-hati; kompeten tanpa energi adalah resep ketidakcocokan yang berujung burnout dalam beberapa tahun"
+         "id": "Sikapi dengan hati-hati: kemampuan tanpa energi menandakan ketidakcocokan yang bisa berujung burnout selama bertahun-tahun"
         },
         {
          "en": "Ignore the session: one afternoon proves nothing",
-         "id": "Abaikan sesinya: satu sore tidak membuktikan apa pun"
+         "id": "Abaikan sesinya: satu sore tidak membuktikan apa-apa"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Skill can be built almost anywhere; energy cannot be faked for a decade. High-competence, low-energy tracks are the classic trap the debrief exists to catch.",
-        "id": "Keterampilan bisa dibangun hampir di mana saja; energi tidak bisa dipalsukan selama sepuluh tahun. Jalur yang kompetensinya tinggi tapi energinya rendah adalah jebakan klasik yang memang ingin ditangkap oleh tinjauan ini."
+        "id": "Keterampilan bisa dibangun hampir di mana saja; energi tidak bisa dipalsukan selama sepuluh tahun. Jalur dengan kemampuan tinggi tetapi energi rendah adalah jebakan klasik yang ingin ditangkap pembahasan ini."
        }
       },
       {
        "q": {
         "en": "What does completing an employer's simulation on The Forage do for you?",
-        "id": "Apa manfaat menyelesaikan simulasi perusahaan di The Forage bagimu?"
+        "id": "Apa yang dilakukan penyelesaian simulasi pemberi kerja di The Forage bagimu?"
        },
        "options": [
         {
          "en": "It is an application; the employer will contact you",
-         "id": "Itu adalah lamaran: perusahaan akan menghubungimu"
+         "id": "Itu sebuah lamaran; pemberi kerjanya akan menghubungimu"
         },
         {
          "en": "It gives you evidence for interviews, shows you the firm's house style, and is visible to that employer when you apply",
-         "id": "Memberimu bukti untuk wawancara, memperlihatkan gaya rumah firma, dan terlihat oleh perusahaan itu saat kamu melamar"
+         "id": "Memberimu bukti untuk wawancara, memperlihatkan gaya kerja perusahaan, dan terlihat oleh pemberi kerja itu saat kamu melamar"
         },
         {
          "en": "Nothing: certificates do not matter",
@@ -23372,7 +23372,7 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "Not an application, but real evidence and a real signal, as long as it is followed by a debrief and a written CV line.",
-        "id": "Bukan lamaran, tetapi bukti dan sinyal yang sungguhan, selama diikuti tinjauan dan satu baris CV yang tertulis."
+        "id": "Bukan lamaran, tetapi bukti yang nyata dan sinyal yang nyata, asalkan diikuti pembahasan dan satu baris CV yang tertulis."
        }
       },
       {
@@ -23383,21 +23383,21 @@ window.MT_LMS['the-map'] = {
        "options": [
         {
          "en": "The most famous company name",
-         "id": "Nama perusahaan paling terkenal"
+         "id": "Nama perusahaan yang paling terkenal"
         },
         {
          "en": "The function that matches the track that energised you",
-         "id": "Fungsi yang sesuai dengan jalur yang memberimu energi"
+         "id": "Fungsi yang cocok dengan jalur yang memberimu energi"
         },
         {
          "en": "The shortest programme available",
-         "id": "Program terpendek yang tersedia"
+         "id": "Program yang paling singkat"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Function, not brand: the tasks are what produce signal, and the signal is what you are there for.",
-        "id": "Fungsi, bukan merek: tugasnya yang menghasilkan sinyal, dan sinyal itulah tujuanmu."
+        "id": "Fungsi, bukan merek: tugas-tugasnya yang menghasilkan sinyal, dan sinyal itulah alasanmu ada di sana."
        }
       }
      ],
@@ -23409,23 +23409,23 @@ window.MT_LMS['the-map'] = {
       {
        "tag": {
         "en": "Debrief",
-        "id": "Tinjauan"
+        "id": "Pembahasan"
        },
        "q": {
         "en": "Write your three-question debrief after the consulting track.",
-        "id": "Tulis tinjauan tiga pertanyaanmu setelah jalur konsultansi."
+        "id": "Tulis pembahasan tiga pertanyaanmu setelah jalur konsultansi."
        },
        "weak": {
         "en": "Energy: good. Competence: I think I did okay, the slide task was hard. Curiosity: yes, consulting seems interesting and prestigious.",
-        "id": "Energi: baik. Kompetensi: kurasa lumayan, tugas slide-nya sulit. Rasa ingin tahu: ya, konsultansi tampak menarik dan bergengsi."
+        "id": "Energi: bagus. Kemampuan: kayaknya lumayan, tugas slide-nya susah. Rasa penasaran: ya, konsultansi kelihatannya menarik dan bergengsi."
        },
        "strong": {
-        "en": "Energy 4/5: the ninety minutes went fast during Tasks 1 and 4 (structuring, sizing) and slowed badly in Task 2 (making the slide). Competence 3/5. My second issue tree was clearly better than my first, and I wanted a third go. Curiosity 4/5; I'd happily do a harder sizing tomorrow; I would not choose to do more slides. Reading: the analysis half of consulting pulls me, the presentation half does not; check whether that pattern repeats in the data track.",
-        "id": "Energi 4/5: sembilan puluh menitnya terasa cepat di Tugas 1 dan 4 (menyusun, mengukur) dan melambat parah di Tugas 2 (membuat slide). Kompetensi 3/5, pohon isu keduaku jelas lebih baik dari yang pertama, dan aku ingin mencoba ketiga kalinya. Rasa ingin tahu 4/5, aku rela mengerjakan sizing yang lebih sulit besok; aku tidak akan memilih membuat slide lagi. Pembacaan: separuh analisis dari konsultansi menarikku, separuh presentasinya tidak; periksa apakah pola itu berulang di jalur data."
+        "en": "Energy 4/5: the session went fast during Tasks 1 and 4 (structuring, sizing) and slowed badly in Task 2 (making the slide). Competence 3/5: my second issue tree was clearly better than my first, and I wanted a third go. Curiosity 4/5: I'd happily do a harder sizing tomorrow, but I would not choose to do more slides. Reading: the analysis half of consulting pulls me, the presentation half does not; check whether that pattern repeats in the data track.",
+        "id": "Energi 4/5: sesinya terasa cepat di Tugas 1 dan 4 (menyusun struktur, menaksir ukuran) dan sangat melambat di Tugas 2 (membuat slide). Kemampuan 3/5: pohon isu keduaku jelas lebih bagus dari yang pertama, dan aku ingin mencoba yang ketiga. Rasa penasaran 4/5: dengan senang hati besok aku akan mengerjakan penaksiran yang lebih sulit, tetapi aku tidak akan memilih membuat slide lagi. Kesimpulannya: separuh bagian analisis dari konsultansi menarikku, separuh bagian presentasinya tidak; cek apakah pola ini terulang di jalur data."
        },
        "why": {
         "en": "The strong version rates each question, names the task that drove the rating, and ends with a hypothesis to test in the next track. ‘Interesting and prestigious’ is a brochure impression, not behavioural data.",
-        "id": "Versi yang kuat memberi nilai pada setiap pertanyaan, menyebut tugas yang mendorong nilai itu, dan diakhiri hipotesis untuk diuji di jalur berikutnya. ‘Menarik dan bergengsi’ adalah kesan brosur, bukan data perilaku."
+        "id": "Versi yang kuat memberi nilai untuk setiap pertanyaan, menyebut tugas yang mendorong nilai itu, dan diakhiri dengan hipotesis untuk diuji di jalur berikutnya. \"Menarik dan bergengsi\" adalah kesan dari brosur, bukan data perilaku."
        }
       }
      ],
@@ -23438,31 +23438,31 @@ window.MT_LMS['the-map'] = {
        {
         "h": {
          "en": "Reading the model answer first",
-         "id": "Membaca jawaban model lebih dulu"
+         "id": "Membaca contoh jawabannya lebih dulu"
         },
         "fix": {
          "en": "The signal is in your attempt, not the answer. Set a soft time-box, attempt, then reveal.",
-         "id": "Sinyalnya ada pada percobaanmu, bukan jawabannya. Pasang batas waktu longgar, kerjakan, lalu buka."
+         "id": "Sinyalnya ada pada usahamu, bukan pada jawabannya. Pasang batas waktu yang longgar, coba dulu, baru buka jawabannya."
         }
        },
        {
         "h": {
          "en": "Scoring yourself on skill",
-         "id": "Menilai diri berdasarkan keterampilan"
+         "id": "Menilai dirimu berdasarkan keterampilan"
         },
         "fix": {
-         "en": "You are new; slow is normal. Score energy, trajectory and curiosity; the three things that predict a decade.",
-         "id": "Kamu masih baru; lambat itu wajar. Nilai energi, arah, dan rasa ingin tahu, tiga hal yang memprediksi satu dekade."
+         "en": "You are new; slow is normal. Score energy, trajectory and curiosity: the three things that predict a decade.",
+         "id": "Kamu masih baru; lambat itu wajar. Nilai energi, arah kemampuan, dan rasa penasaran: tiga hal yang memprediksi sepuluh tahun ke depan."
         }
        },
        {
         "h": {
          "en": "Collecting certificates instead of signal",
-         "id": "Mengumpulkan sertifikat, bukan sinyal"
+         "id": "Mengumpulkan sertifikat alih-alih sinyal"
         },
         "fix": {
          "en": "Two well-chosen programmes with honest debriefs and a written CV line each beat eight completions.",
-         "id": "Dua program yang dipilih baik dengan tinjauan jujur dan satu baris CV masing-masing mengalahkan delapan penyelesaian."
+         "id": "Dua program yang dipilih dengan baik, masing-masing dengan pembahasan yang jujur dan satu baris CV yang tertulis, mengalahkan delapan penyelesaian."
         }
        }
       ]
@@ -23475,17 +23475,17 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "A set of realistic tasks with model answers that reproduces a role's work at junior level, built here by The Map, or by an employer on The Forage.",
-        "id": "Serangkaian tugas realistis dengan jawaban model yang mereproduksi pekerjaan sebuah peran di level junior, dibuat di sini oleh The Map, atau oleh perusahaan di The Forage."
+        "id": "Serangkaian tugas realistis lengkap dengan contoh jawaban yang mereproduksi pekerjaan sebuah peran di tingkat junior, dibuat di sini oleh The Map, atau oleh pemberi kerja di The Forage."
        }
       },
       {
        "term": {
         "en": "three-question debrief",
-        "id": "tinjauan tiga pertanyaan"
+        "id": "pembahasan tiga pertanyaan"
        },
        "def": {
-        "en": "Energy, competence trajectory, curiosity, each rated 1–5 with the task that drove it, written before the impression fades.",
-        "id": "Energi, arah kompetensi, rasa ingin tahu, masing-masing dinilai 1–5 dengan tugas yang mendorongnya, ditulis sebelum kesannya memudar."
+        "en": "Energy, competence trajectory and curiosity, each rated 1–5 with the task that drove it, written before the impression fades.",
+        "id": "Energi, arah kemampuan, dan rasa penasaran, masing-masing dinilai 1–5 beserta tugas yang mendorong nilainya, ditulis sebelum kesannya memudar."
        }
       },
       {
@@ -23495,7 +23495,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "A track that scored high on all three questions: not a decision, but a candidate worth testing against company data in The Range.",
-        "id": "Jalur yang tinggi di ketiga pertanyaan: bukan keputusan, melainkan kandidat yang layak diuji terhadap data perusahaan di The Range."
+        "id": "Jalur yang mendapat nilai tinggi di ketiga pertanyaan: bukan keputusan, melainkan calon arah yang layak diuji dengan data perusahaan di The Range."
        }
       },
       {
@@ -23505,7 +23505,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "A platform where employers publish free, self-paced job simulations open to anyone; completion earns a certificate and is visible to that employer.",
-        "id": "Platform tempat perusahaan menerbitkan simulasi kerja gratis dan bertempo mandiri yang terbuka untuk siapa saja; penyelesaiannya memberi sertifikat dan terlihat oleh perusahaan itu."
+        "id": "Platform tempat pemberi kerja menerbitkan simulasi kerja gratis yang bisa dikerjakan sesuai kecepatan masing-masing dan terbuka untuk siapa saja; penyelesaiannya mendapat sertifikat dan terlihat oleh pemberi kerja itu."
        }
       }
      ]
@@ -23513,49 +23513,49 @@ window.MT_LMS['the-map'] = {
     {
      "n": "6.2",
      "title": {
-      "en": "Industry Track – Accounting",
-      "id": "Jalur Industri – Akuntansi"
+      "en": "Industry Track: Accounting",
+      "id": "Jalur Industri: Akuntansi"
      },
      "dur": {
       "en": "25 min",
-      "id": "25 mnt"
+      "id": "25 menit"
      },
      "kind": "interactive",
      "placeholder": false,
      "overview": {
       "en": "A compressed junior workday in accounting: four realistic tasks with model debriefs. Run it honestly, attempt each task before revealing, then log the three-question debrief in your audit.",
-      "id": "Satu hari kerja level junior di bidang akuntansi, dipadatkan: empat tugas realistis dengan tinjauan model. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat tinjauan tiga pertanyaan di auditmu."
+      "id": "Satu hari kerja junior di bidang akuntansi yang dipadatkan: empat tugas realistis lengkap dengan contoh pembahasannya. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat pembahasan tiga pertanyaan di auditmu."
      },
      "objectives": [
       {
        "en": "Experience four representative junior tasks from accounting.",
-       "id": "Merasakan empat tugas level junior yang mewakili pekerjaan di bidang akuntansi."
+       "id": "Merasakan empat tugas junior yang mewakili bidang akuntansi."
       },
       {
        "en": "Place the roles, routes and employers of this industry on your own map.",
-       "id": "Menempatkan peran, jalur, dan perusahaan di industri ini pada petamu sendiri."
+       "id": "Tempatkan peran, jalur karier, dan pemberi kerja di industri ini di petamu sendiri."
       },
       {
        "en": "Attempt each task under a soft time-box before reading the model answer.",
-       "id": "Mengerjakan setiap tugas dengan batas waktu longgar sebelum membaca jawaban model."
+       "id": "Kerjakan setiap tugas dengan batas waktu yang longgar sebelum membaca contoh jawabannya."
       },
       {
        "en": "Score the track on energy, competence trajectory and curiosity.",
-       "id": "Menilai jalur ini dari sisi energi, arah kompetensi, dan rasa ingin tahu."
+       "id": "Beri nilai jalur ini untuk energi, arah kemampuan, dan rasa penasaran."
       }
      ],
      "takeaways": [
       {
        "en": "You now have behavioural data about this industry that no brochure could give you.",
-       "id": "Kamu sekarang punya data perilaku tentang industri ini; sesuatu yang tidak bisa diberikan brosur mana pun."
+       "id": "Kini kamu punya data perilaku tentang industri ini yang tidak bisa diberikan brosur mana pun."
       },
       {
        "en": "Slow is normal; the signal is whether the work pulled you in or pushed you away.",
-       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan ini menarikmu masuk atau mendorongmu menjauh."
+       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan itu menarikmu masuk atau mendorongmu menjauh."
       },
       {
        "en": "Log the three-question debrief before the impression fades, then run the matching Forage simulation if the track energised you.",
-       "id": "Catat tinjauan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
+       "id": "Catat pembahasan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
       }
      ],
      "scenario": {
@@ -23568,7 +23568,7 @@ window.MT_LMS['the-map'] = {
       "body": [
        {
         "en": "You are a first-week junior at a mid-size accounting firm. Your senior hands you a client's messy records an hour before a status call: “Give me something I can trust.” Accounting's real product is not numbers; it is confidence in numbers.",
-        "id": "Kamu junior di minggu pertama di sebuah kantor akuntan menengah. Seniormu menyerahkan catatan klien yang berantakan, satu jam sebelum panggilan laporan status: “Beri saya sesuatu yang bisa saya percaya.” Produk akuntansi yang sebenarnya bukan angka, melainkan kepercayaan terhadap angka."
+        "id": "Kamu junior di minggu pertama di sebuah kantor akuntan berukuran menengah. Satu jam sebelum panggilan status, seniormu menyerahkan catatan keuangan klien yang berantakan: \"Kasih aku sesuatu yang bisa kupercaya.\" Produk akuntansi yang sebenarnya bukan angka; produknya adalah keyakinan pada angka."
        }
       ]
      },
@@ -23580,11 +23580,11 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "A client's cash summary: opening balance Rp 42.0m, recorded sales receipts Rp 118.5m, recorded payments Rp 96.2m, closing balance per bank statement Rp 61.8m. Does it reconcile? If not, by how much and what would you check first? Work it, then reveal.",
-        "id": "Ringkasan kas klien: saldo awal Rp 42,0 juta, penerimaan penjualan tercatat Rp 118,5 juta, pembayaran tercatat Rp 96,2 juta, saldo akhir menurut rekening koran Rp 61,8 juta. Apakah angkanya cocok? Kalau tidak, berapa selisihnya, dan apa yang akan kamu periksa lebih dulu? Kerjakan, lalu buka jawabannya."
+        "id": "Ringkasan kas seorang klien: saldo awal Rp42,0 juta, penerimaan penjualan yang tercatat Rp118,5 juta, pembayaran yang tercatat Rp96,2 juta, saldo akhir menurut rekening koran Rp61,8 juta. Apakah cocok? Kalau tidak, selisihnya berapa dan apa yang akan kamu cek lebih dulu? Kerjakan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Expected closing: 42.0 + 118.5 − 96.2 = Rp 64.3m; the bank shows 61.8m; a Rp 2.5m gap. Junior instinct says “find the error”; trained instinct says “list the usual suspects in likelihood order”: unrecorded bank charges or transfers out, a receipt recorded but not yet cleared (timing), a transposed digit (2.5m is suspiciously round), or, the reason the discipline exists, a payment that never should have happened. The professional habit on display: never present a number as reconciled until the difference is itemised to zero.",
-        "id": "Saldo akhir yang seharusnya: 42,0 + 118,5 − 96,2 = Rp 64,3 juta; bank menunjukkan 61,8 juta; ada selisih Rp 2,5 juta. Naluri junior berkata “cari kesalahannya”; naluri yang terlatih berkata “daftar dulu tersangka yang lazim, urutkan dari yang paling mungkin”: biaya bank atau transfer keluar yang belum dicatat, penerimaan yang sudah dicatat tapi belum cair (selisih waktu), angka yang tertukar (2,5 juta terlalu bulat untuk kebetulan), atau, alasan disiplin ini ada, pembayaran yang seharusnya tidak pernah terjadi. Kebiasaan profesional yang terlihat di sini: jangan pernah menyajikan angka sebagai “cocok” sebelum selisihnya dirinci sampai nol."
+        "en": "Expected closing: 42.0 + 118.5 − 96.2 = Rp 64.3m; the bank shows 61.8m; a Rp 2.5m gap. Junior instinct says “find the error”; trained instinct says “list the usual suspects in likelihood order”: unrecorded bank charges or transfers out, a receipt recorded but not yet cleared (timing), a single round item left out (2.5m is suspiciously round), or (the reason the discipline exists) a payment that never should have happened. The professional habit on display: never present a number as reconciled until the difference is itemised to zero.",
+        "id": "Saldo akhir yang seharusnya: 42,0 + 118,5 − 96,2 = Rp64,3 juta; rekening koran menunjukkan 61,8 juta; selisihnya Rp2,5 juta. Naluri junior berkata \"cari kesalahannya\"; naluri yang terlatih berkata \"daftar tersangka yang biasa, urut dari yang paling mungkin\": biaya bank atau transfer keluar yang belum dicatat, penerimaan yang sudah dicatat tetapi belum masuk (soal waktu), satu pos bulat yang terlewat (2,5 juta bulatnya mencurigakan), atau (alasan disiplin ini ada) pembayaran yang seharusnya tidak pernah terjadi. Kebiasaan profesional yang diperlihatkan: jangan pernah menyajikan angka sebagai sudah cocok sampai selisihnya dirinci hingga nol."
        }
       },
       {
@@ -23594,11 +23594,11 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Three items need classification before the call: (a) Rp 15m spent renovating the leased shop, (b) Rp 8m deposit received for goods delivering next month, (c) the owner's personal car fuel routinely paid from the business account. Decide how each is treated and why, then reveal.",
-        "id": "Tiga pos perlu diklasifikasikan sebelum panggilan: (a) Rp 15 juta untuk renovasi toko yang disewa, (b) uang muka Rp 8 juta yang diterima untuk barang yang baru dikirim bulan depan, (c) bensin mobil pribadi pemilik yang rutin dibayar dari rekening usaha. Putuskan perlakuan untuk masing-masing dan alasannya, lalu buka jawabannya."
+        "id": "Tiga pos perlu diklasifikasikan sebelum panggilan: (a) Rp15 juta untuk merenovasi toko yang disewa, (b) uang muka Rp8 juta yang diterima untuk barang yang dikirim bulan depan, (c) bensin mobil pribadi pemilik yang rutin dibayar dari rekening usaha. Tentukan perlakuan masing-masing dan alasannya, lalu buka jawabannya."
        },
        "debrief": {
         "en": "(a) Leasehold improvement: an asset depreciated over the lease term, not an expense today: it buys benefit across years. (b) Not revenue yet: it is a liability (unearned revenue) until delivery, because the obligation is still open. Recognising it now would inflate this month's performance. (c) Not a business expense at all: an owner's draw, and mixing it in misstates both profit and tax. The pattern across all three: accounting keeps asking “whose money, which period, what obligation?” If those questions felt satisfying rather than pedantic, that is real signal.",
-        "id": "(a) Perbaikan atas aset sewaan, dicatat sebagai aset dan disusutkan sepanjang masa sewa, bukan beban hari ini: manfaatnya dinikmati selama bertahun-tahun. (b) Belum bisa diakui sebagai pendapatan: ini liabilitas (pendapatan diterima di muka) sampai barangnya dikirim, karena kewajibannya masih terbuka. Mengakuinya sekarang akan menggelembungkan kinerja bulan ini. (c) Sama sekali bukan beban usaha: ini prive pemilik, dan mencampurnya menyesatkan laba sekaligus pajak. Pola di ketiganya: akuntansi selalu bertanya “uang siapa, periode yang mana, kewajiban apa?” Kalau pertanyaan-pertanyaan itu terasa memuaskan, bukan cerewet, itu sinyal yang sungguhan."
+        "id": "(a) Perbaikan atas aset sewaan: aset yang disusutkan sepanjang masa sewa, bukan beban hari ini, karena manfaatnya dinikmati bertahun-tahun. (b) Belum menjadi pendapatan: ini kewajiban (pendapatan diterima di muka) sampai barangnya dikirim, karena kewajibannya masih terbuka. Mengakuinya sekarang akan menggelembungkan kinerja bulan ini. (c) Sama sekali bukan beban usaha: ini prive pemilik, dan mencampurnya akan menyajikan laba maupun pajak secara keliru. Pola di ketiganya: akuntansi terus bertanya \"uang siapa, periode yang mana, kewajiban apa?\" Kalau pertanyaan-pertanyaan itu terasa memuaskan alih-alih rewel, itu sinyal yang nyata."
        }
       },
       {
@@ -23608,25 +23608,25 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Draft the two-sentence status you would give on the call: what is solid, what is open, what you need. Then reveal.",
-        "id": "Susun laporan status dua kalimat yang akan kamu sampaikan di panggilan: apa yang sudah pasti, apa yang masih terbuka, dan apa yang kamu butuhkan. Lalu buka jawabannya."
+        "id": "Susun status dua kalimat yang akan kamu sampaikan di panggilan: apa yang sudah pasti, apa yang masih terbuka, apa yang kamu butuhkan. Lalu buka jawabannya."
        },
        "debrief": {
         "en": "Model: “Your cash position is Rp 61.8m confirmed against the bank; there's a Rp 2.5m recording gap I'm itemising; I'll have it closed by Thursday. To finish, I need the bank's fee advice slips and the delivery date for the Rp 8m advance order.” Notice the shape: verified number first, the open item with an owner and a date, a specific request. Accounting communication is the pyramid from Module 4 with a fiduciary spine.",
-        "id": "Model: “Posisi kas Bapak/Ibu Rp 61,8 juta, sudah terkonfirmasi dengan bank; ada selisih pencatatan Rp 2,5 juta yang sedang saya rinci, selesai hari Kamis. Untuk menuntaskannya, saya butuh slip biaya bank dan tanggal kirim untuk pesanan dengan uang muka Rp 8 juta.” Perhatikan bentuknya: angka yang sudah terverifikasi lebih dulu, pos terbuka lengkap dengan penanggung jawab dan tanggal, lalu permintaan yang spesifik. Komunikasi akuntansi adalah piramida dari Modul 4, ditambah tulang punggung tanggung jawab fidusia."
+        "id": "Contoh: \"Posisi kas Bapak/Ibu Rp61,8 juta, sudah dicocokkan dengan bank; ada selisih pencatatan Rp2,5 juta yang sedang saya rinci, dan akan selesai paling lambat Kamis. Untuk menuntaskannya, saya butuh bukti potongan biaya dari bank dan tanggal pengiriman untuk pesanan dengan uang muka Rp8 juta.\" Perhatikan bentuknya: angka yang sudah diverifikasi lebih dulu, pos yang masih terbuka beserta penanggung jawab dan tanggalnya, lalu satu permintaan yang spesifik. Komunikasi akuntansi adalah piramida dari Modul 4 dengan tulang punggung amanah."
        }
       },
       {
        "h": {
         "en": "Task 4: The senior asks: “What did the numbers tell you?”",
-        "id": "Tugas 4: Senior bertanya: “Apa kata angka-angkanya?”"
+        "id": "Tugas 4: Senior bertanya, \"Angka-angka itu bilang apa ke kamu?\""
        },
        "body": {
         "en": "Same client, three months of figures: revenue Rp 310m, 325m, 340m; gross margin 41%, 38%, 33%; cash balance 61.8m, 48.2m, 31.5m. Sales are growing and the owner is pleased. In two or three sentences, what would you tell your senior is actually happening, and what one question would you ask the owner? Work it, then reveal.",
-        "id": "Klien yang sama, angka tiga bulan: pendapatan Rp 310 juta, 325 juta, 340 juta; margin kotor 41%, 38%, 33%; saldo kas 61,8 juta, 48,2 juta, 31,5 juta. Penjualan tumbuh dan pemilik senang. Dalam dua-tiga kalimat, apa yang sebenarnya terjadi menurutmu, dan satu pertanyaan apa yang akan kamu ajukan kepada pemilik? Kerjakan, lalu buka jawabannya."
+        "id": "Klien yang sama, angka tiga bulan: pendapatan Rp310 juta, 325 juta, 340 juta; margin kotor 41%, 38%, 33%; saldo kas 61,8 juta, 48,2 juta, 31,5 juta. Penjualan naik dan pemiliknya senang. Dalam dua atau tiga kalimat, apa yang sebenarnya terjadi menurutmu untuk disampaikan kepada seniormu, dan satu pertanyaan apa yang akan kamu ajukan kepada pemiliknya? Kerjakan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Revenue up 10%, margin down eight points, cash halved: the business is buying growth, discounting, or its input costs rose and prices did not follow, and funding it from its own bank balance. At this rate the cash runs out in about two more months. The question for the owner: “What changed in pricing or supplier costs since the first month?” The professional reflex on display is the one accounting pays for, reading three lines together instead of one line at a time, and saying the uncomfortable thing early, with numbers, while it is still fixable.",
-        "id": "Pendapatan naik 10%, margin turun delapan poin, kas berkurang separuh: bisnis ini sedang membeli pertumbuhan, dengan diskon, atau biaya bahannya naik dan harga tidak ikut naik, dan mendanainya dari saldo banknya sendiri. Dengan laju ini, kas habis dalam kira-kira dua bulan lagi. Pertanyaan untuk pemilik: “Apa yang berubah pada harga jual atau biaya pemasok sejak bulan pertama?” Refleks profesional yang tampak di sini adalah yang dibayar oleh profesi akuntansi. Membaca tiga baris sekaligus alih-alih satu per satu, dan menyampaikan hal yang tidak enak sejak dini, dengan angka, selagi masih bisa diperbaiki."
+        "en": "Revenue up 10%, margin down eight points, cash halved: the business is buying growth (discounting, or input costs rose and prices did not follow) and funding it from its own bank balance. At this rate the cash runs out in about two more months. The question for the owner: “What changed in pricing or supplier costs since the first month?” The professional reflex on display is the one accounting pays for: reading three lines together instead of one line at a time, and saying the uncomfortable thing early, with numbers, while it is still fixable.",
+        "id": "Pendapatan naik 10%, margin turun delapan poin, kas tinggal separuh: usaha ini sedang membeli pertumbuhan (memberi diskon, atau biaya bahan naik tetapi harga tidak ikut naik) dan membiayainya dari saldo banknya sendiri. Dengan laju ini, kasnya habis dalam sekitar dua bulan lagi. Pertanyaan untuk pemiliknya: \"Apa yang berubah dari sisi harga jual atau biaya pemasok sejak bulan pertama?\" Refleks profesional yang diperlihatkan adalah refleks yang dibayar dalam akuntansi: membaca tiga baris sekaligus alih-alih satu per satu, dan menyampaikan hal yang tidak enak lebih awal, dengan angka, selagi masih bisa diperbaiki."
        }
       }
      ],
@@ -23638,7 +23638,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Proving two records of the same money agree, itemising every difference until the gap is zero.",
-        "id": "Membuktikan bahwa dua catatan atas uang yang sama saling cocok, dengan merinci setiap perbedaan sampai selisihnya nol."
+        "id": "Membuktikan bahwa dua catatan atas uang yang sama cocok, dengan merinci setiap selisih sampai nol."
        }
       },
       {
@@ -23648,7 +23648,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Recording revenue when it is earned and costs when they are incurred, whether or not cash has moved; the reason the Rp 8m advance was a liability, not income.",
-        "id": "Mencatat pendapatan saat diperoleh dan biaya saat terjadi, terlepas dari apakah uang sudah berpindah, alasan uang muka Rp 8 juta dicatat sebagai liabilitas, bukan pendapatan."
+        "id": "Mencatat pendapatan saat diperoleh dan biaya saat terjadi, entah uangnya sudah berpindah atau belum; alasan uang muka Rp8 juta tadi dicatat sebagai kewajiban, bukan pendapatan."
        }
       },
       {
@@ -23658,7 +23658,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Revenue minus the direct cost of what was sold, as a share of revenue; the first line to read when sales grow but cash shrinks.",
-        "id": "Pendapatan dikurangi biaya langsung barang yang dijual, sebagai persentase pendapatan; baris pertama yang dibaca ketika penjualan tumbuh tapi kas menyusut."
+        "id": "Pendapatan dikurangi biaya langsung atas barang yang dijual, dinyatakan sebagai porsi dari pendapatan; baris pertama yang perlu dibaca ketika penjualan naik tetapi kas menyusut."
        }
       },
       {
@@ -23668,7 +23668,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "The year-end to March stretch when audit and tax teams run at full load; the trade-off of the profession, best known before you join it.",
-        "id": "Rentang tutup tahun sampai Maret ketika tim audit dan pajak bekerja dengan beban penuh; kompromi profesi ini, yang sebaiknya diketahui sebelum bergabung."
+        "id": "Masa akhir tahun sampai Maret ketika tim audit dan pajak bekerja dengan beban penuh; harga yang harus dibayar di profesi ini, sebaiknya diketahui sebelum kamu bergabung."
        }
       }
      ],
@@ -23676,7 +23676,7 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "Why is the Rp 8m advance not counted as this month's revenue?",
-        "id": "Mengapa uang muka Rp 8 juta tidak dihitung sebagai pendapatan bulan ini?"
+        "id": "Kenapa uang muka Rp8 juta tidak dihitung sebagai pendapatan bulan ini?"
        },
        "options": [
         {
@@ -23685,7 +23685,7 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Because the delivery obligation is still open; until then it is a liability",
-         "id": "Karena kewajiban pengirimannya masih terbuka: sampai barang dikirim, uang itu adalah liabilitas"
+         "id": "Karena kewajiban mengirim barangnya masih terbuka; sampai saat itu, uang itu adalah kewajiban"
         },
         {
          "en": "Because cash was received in a different bank account",
@@ -23694,14 +23694,14 @@ window.MT_LMS['the-map'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "Revenue follows the fulfilment of obligation, not the arrival of cash, the core of accrual thinking.",
-        "id": "Pendapatan mengikuti terpenuhinya kewajiban, bukan masuknya uang, inilah inti cara berpikir akrual."
+        "en": "Revenue follows the fulfilment of obligation, not the arrival of cash: the core of accrual thinking.",
+        "id": "Pendapatan mengikuti terpenuhinya kewajiban, bukan masuknya uang: inti cara berpikir akrual."
        }
       },
       {
        "q": {
         "en": "Revenue rises three months running while gross margin and cash both fall. The most useful first reading is:",
-        "id": "Pendapatan naik tiga bulan berturut-turut sementara margin kotor dan kas sama-sama turun. Pembacaan pertama yang paling berguna adalah:"
+        "id": "Pendapatan naik tiga bulan berturut-turut, sementara margin kotor dan kas sama-sama turun. Bacaan pertama yang paling berguna adalah:"
        },
        "options": [
         {
@@ -23710,7 +23710,7 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "The business is buying growth and funding it from its own cash; find out what changed in price or cost",
-         "id": "Bisnis ini sedang membeli pertumbuhan dan mendanainya dari kasnya sendiri; cari tahu apa yang berubah pada harga atau biaya"
+         "id": "Usaha ini sedang membeli pertumbuhan dan membiayainya dari kasnya sendiri; cari tahu apa yang berubah dari sisi harga atau biaya"
         },
         {
          "en": "Margin does not matter while revenue is rising",
@@ -23720,7 +23720,7 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "Three lines read together tell a different story from any one of them. Accounting's value is in that combined reading, delivered early.",
-        "id": "Tiga baris yang dibaca bersama menceritakan hal yang berbeda dari masing-masing baris. Nilai akuntansi ada pada pembacaan gabungan itu, disampaikan sejak dini."
+        "id": "Tiga baris yang dibaca bersama menceritakan kisah yang berbeda dari masing-masing baris. Nilai akuntansi ada pada bacaan gabungan itu, yang disampaikan lebih awal."
        }
       }
      ],
@@ -23730,18 +23730,18 @@ window.MT_LMS['the-map'] = {
        "icon": "compass",
        "h": {
         "en": "The industry at a glance: roles, routes, who hires",
-        "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
+        "id": "Sekilas industrinya: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "Accounting is three professions wearing one name. <b>Audit &amp; assurance</b> checks other people's numbers (the Big Four, Deloitte, EY, KPMG, PwC, and mid-tier firms such as BDO, Grant Thornton, RSM and Crowe hire the largest graduate intakes here). <b>Tax</b> advises on what is owed and how to structure it. <b>Corporate finance and accounting</b> sits inside companies: the finance team at a bank, a state-owned enterprise, a Unilever or a Gojek, closing the books and producing the management reports leaders decide on. Entry roles are junior auditor / associate, tax consultant and finance staff or management trainee; the ladder runs associate → senior → manager → senior manager → partner or, in-house, staff → supervisor → finance manager → controller → CFO. The route most people underrate: two to three years in audit, then a move in-house at a client, arriving already knowing how a whole company fits together. Professional credentials (CPA, CA, ACCA) are the currency of promotion, and the busy season, year-end to March, is the trade-off everyone should feel before signing up.",
-        "id": "Akuntansi adalah tiga profesi dengan satu nama. <b>Audit &amp; asurans</b> memeriksa angka orang lain (Big Four, Deloitte, EY, KPMG, PwC, dan firma menengah seperti BDO, Grant Thornton, RSM, dan Crowe merekrut lulusan baru dalam jumlah terbesar di sini). <b>Pajak</b> menasihati apa yang terutang dan bagaimana menyusunnya. <b>Keuangan dan akuntansi korporat</b> berada di dalam perusahaan: tim keuangan di bank, BUMN, Unilever, atau Gojek, yang menutup buku dan menghasilkan laporan manajemen yang menjadi dasar keputusan pimpinan. Peran awalnya adalah junior auditor / associate, konsultan pajak, dan staf keuangan atau management trainee; tangganya berjalan associate → senior → manager → senior manager → partner, atau di dalam perusahaan, staf → supervisor → finance manager → controller → CFO. Jalur yang paling sering diremehkan: dua-tiga tahun di audit, lalu pindah ke dalam perusahaan klien, dengan bekal pemahaman bagaimana seluruh perusahaan bekerja. Sertifikasi profesi (CPA, CA, ACCA) adalah mata uang promosi, dan musim sibuk, tutup tahun sampai Maret, adalah kompromi yang sebaiknya dirasakan setiap orang sebelum mendaftar."
+        "en": "Accounting is three professions wearing one name. <b>Audit &amp; assurance</b> checks other people's numbers (the Big Four of Deloitte, EY, KPMG and PwC, and mid-tier firms such as BDO, Grant Thornton, RSM and Crowe, hire the largest graduate intakes here). <b>Tax</b> advises on what is owed and how to structure it. <b>Corporate finance and accounting</b> sits inside companies: the finance team at a bank, a state-owned enterprise, a Unilever or a Gojek, closing the books and producing the management reports leaders decide on. Entry roles are junior auditor / associate, tax consultant and finance staff or management trainee; the ladder runs associate → senior → manager → senior manager → partner or, in-house, staff → supervisor → finance manager → controller → CFO. The route most people underrate: two to three years in audit, then a move in-house at a client, arriving already knowing how a whole company fits together. Professional credentials (CPA, CA, ACCA) are the currency of promotion, and the busy season (year-end to March) is the trade-off everyone should feel before signing up.",
+        "id": "Akuntansi sebenarnya tiga profesi dengan satu nama. <b>Audit &amp; asurans</b> memeriksa angka milik orang lain (Big Four, yaitu Deloitte, EY, KPMG, dan PwC, serta firma menengah seperti BDO, Grant Thornton, RSM, dan Crowe, menyerap lulusan baru dalam jumlah terbesar di sini). <b>Pajak</b> memberi nasihat tentang berapa yang terutang dan cara menyusunnya. <b>Keuangan dan akuntansi perusahaan</b> berada di dalam perusahaan: tim keuangan di bank, BUMN, Unilever, atau Gojek, yang menutup buku dan menyusun laporan manajemen yang menjadi dasar keputusan para pemimpin. Posisi pemulanya adalah auditor junior / associate, konsultan pajak, dan staf keuangan atau management trainee; jenjangnya associate → senior → manager → senior manager → partner, atau di dalam perusahaan, staf → supervisor → manajer keuangan → controller → CFO. Jalur yang paling sering diremehkan: dua sampai tiga tahun di audit, lalu pindah ke dalam salah satu perusahaan klien, dengan bekal pemahaman tentang bagaimana sebuah perusahaan berjalan secara utuh. Sertifikasi profesi (CPA, CA, ACCA) adalah mata uang untuk naik jabatan, dan musim sibuk (akhir tahun sampai Maret) adalah harga yang perlu dirasakan semua orang sebelum memutuskan bergabung."
        }
       }
      ],
      "mistakes": {
       "title": {
        "en": "What first-year juniors get wrong in accounting",
-       "id": "Kesalahan umum junior tahun pertama di akuntansi"
+       "id": "Kesalahan junior tahun pertama di akuntansi"
       },
       "items": [
        {
@@ -23751,27 +23751,27 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "“Reconciled except for Rp 2.5m, which I am tracing” is a professional sentence; “it roughly balances” is not.",
-         "id": "“Cocok kecuali Rp 2,5 juta yang sedang saya telusuri” adalah kalimat profesional; “kurang lebih seimbang” bukan."
+         "id": "\"Sudah cocok, kecuali Rp2,5 juta yang sedang saya telusuri\" adalah kalimat profesional; \"kurang lebih sudah seimbang\" bukan."
         }
        },
        {
         "h": {
          "en": "Treating the deadline as the enemy instead of the client's uncertainty",
-         "id": "Menganggap tenggat sebagai musuh, bukan ketidakpastian klien"
+         "id": "Menganggap tenggat sebagai musuh, padahal musuhnya ketidakpastian klien"
         },
         "fix": {
          "en": "The status call exists to reduce the client's uncertainty. Lead with what is confirmed, then the open item with an owner and date.",
-         "id": "Panggilan status ada untuk mengurangi ketidakpastian klien. Mulai dari yang sudah terkonfirmasi, lalu pos terbuka dengan penanggung jawab dan tanggal."
+         "id": "Panggilan status ada untuk mengurangi ketidakpastian klien. Buka dengan apa yang sudah pasti, lalu pos yang masih terbuka beserta penanggung jawab dan tanggalnya."
         }
        },
        {
         "h": {
          "en": "Learning the rules without asking whose money, which period, what obligation",
-         "id": "Menghafal aturan tanpa bertanya uang siapa, periode mana, kewajiban apa"
+         "id": "Mempelajari aturan tanpa bertanya uang siapa, periode yang mana, kewajiban apa"
         },
         "fix": {
          "en": "Every classification question in this track resolved through those three questions. Learn the questions and the rules become memorable.",
-         "id": "Setiap pertanyaan klasifikasi di jalur ini terjawab lewat tiga pertanyaan itu. Kuasai pertanyaannya, dan aturannya menjadi mudah diingat."
+         "id": "Setiap pertanyaan klasifikasi di jalur ini terjawab lewat tiga pertanyaan itu. Kuasai pertanyaannya, dan aturannya jadi mudah diingat."
         }
        }
       ]
@@ -23782,21 +23782,21 @@ window.MT_LMS['the-map'] = {
         "id": "pwc-consulting",
         "fit": {
          "en": "The closest public look at how a Big Four advisory team scopes and structures a client problem; useful if you are weighing audit against advisory.",
-         "id": "Gambaran publik paling dekat tentang cara tim advisory Big Four menentukan lingkup dan menyusun masalah klien; berguna kalau kamu sedang menimbang audit versus advisory."
+         "id": "Pandangan publik yang paling dekat tentang cara tim advisory Big Four memetakan dan menyusun masalah klien; berguna kalau kamu sedang menimbang antara audit dan advisory."
         }
        },
        {
         "id": "deloitte-data",
         "fit": {
-         "en": "Forensic-style analytics on a client's data, the reconciliation instinct from Task 1, at scale and in a dashboard.",
-         "id": "Analitik bergaya forensik pada data klien, naluri rekonsiliasi dari Tugas 1, dalam skala besar dan dalam dasbor."
+         "en": "Forensic-style analytics on a client's data (the reconciliation instinct from Task 1) at scale and in a dashboard.",
+         "id": "Analitik bergaya forensik pada data klien (naluri rekonsiliasi dari Tugas 1) dalam skala besar dan dalam bentuk dasbor."
         }
        },
        {
         "id": "kpmg-data",
         "fit": {
          "en": "Turns a dataset into recommendations a partner could present: the ‘what did the numbers tell you’ habit from Task 4 as a full engagement.",
-         "id": "Mengubah dataset menjadi rekomendasi yang bisa dipresentasikan partner: kebiasaan ‘apa kata angkanya’ dari Tugas 4 dalam satu penugasan penuh."
+         "id": "Mengubah dataset menjadi rekomendasi yang bisa dipresentasikan seorang partner: kebiasaan \"angka-angka itu bilang apa\" dari Tugas 4 dalam bentuk penugasan utuh."
         }
        }
       ]
@@ -23808,49 +23808,49 @@ window.MT_LMS['the-map'] = {
     {
      "n": "6.3",
      "title": {
-      "en": "Industry Track – Banking &amp; Financial Services",
-      "id": "Jalur Industri – Perbankan &amp; Jasa Keuangan"
+      "en": "Industry Track: Banking &amp; Financial Services",
+      "id": "Jalur Industri: Perbankan &amp; Jasa Keuangan"
      },
      "dur": {
       "en": "25 min",
-      "id": "25 mnt"
+      "id": "25 menit"
      },
      "kind": "interactive",
      "placeholder": false,
      "overview": {
       "en": "A compressed junior workday in banking & financial services: four realistic tasks with model debriefs. Run it honestly, attempt each task before revealing, then log the three-question debrief in your audit.",
-      "id": "Satu hari kerja level junior di bidang perbankan &amp; jasa keuangan, dipadatkan: empat tugas realistis dengan tinjauan model. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat tinjauan tiga pertanyaan di auditmu."
+      "id": "Satu hari kerja junior di bidang perbankan & jasa keuangan yang dipadatkan: empat tugas realistis lengkap dengan contoh pembahasannya. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat pembahasan tiga pertanyaan di auditmu."
      },
      "objectives": [
       {
        "en": "Experience four representative junior tasks from banking & financial services.",
-       "id": "Merasakan empat tugas level junior yang mewakili pekerjaan di bidang perbankan &amp; jasa keuangan."
+       "id": "Merasakan empat tugas junior yang mewakili bidang perbankan & jasa keuangan."
       },
       {
        "en": "Place the roles, routes and employers of this industry on your own map.",
-       "id": "Menempatkan peran, jalur, dan perusahaan di industri ini pada petamu sendiri."
+       "id": "Tempatkan peran, jalur karier, dan pemberi kerja di industri ini di petamu sendiri."
       },
       {
        "en": "Attempt each task under a soft time-box before reading the model answer.",
-       "id": "Mengerjakan setiap tugas dengan batas waktu longgar sebelum membaca jawaban model."
+       "id": "Kerjakan setiap tugas dengan batas waktu yang longgar sebelum membaca contoh jawabannya."
       },
       {
        "en": "Score the track on energy, competence trajectory and curiosity.",
-       "id": "Menilai jalur ini dari sisi energi, arah kompetensi, dan rasa ingin tahu."
+       "id": "Beri nilai jalur ini untuk energi, arah kemampuan, dan rasa penasaran."
       }
      ],
      "takeaways": [
       {
        "en": "You now have behavioural data about this industry that no brochure could give you.",
-       "id": "Kamu sekarang punya data perilaku tentang industri ini; sesuatu yang tidak bisa diberikan brosur mana pun."
+       "id": "Kini kamu punya data perilaku tentang industri ini yang tidak bisa diberikan brosur mana pun."
       },
       {
        "en": "Slow is normal; the signal is whether the work pulled you in or pushed you away.",
-       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan ini menarikmu masuk atau mendorongmu menjauh."
+       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan itu menarikmu masuk atau mendorongmu menjauh."
       },
       {
        "en": "Log the three-question debrief before the impression fades, then run the matching Forage simulation if the track energised you.",
-       "id": "Catat tinjauan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
+       "id": "Catat pembahasan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
       }
      ],
      "scenario": {
@@ -23858,12 +23858,12 @@ window.MT_LMS['the-map'] = {
       "img": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
       "title": {
        "en": "Your desk today: Banking & Financial Services",
-       "id": "Mejamu hari ini: Perbankan &amp; Jasa Keuangan"
+       "id": "Mejamu hari ini: Perbankan & Jasa Keuangan"
       },
       "body": [
        {
         "en": "You are a junior credit analyst. A long-standing client, a building-materials distributor, requests a Rp 2bn working-capital loan. Your job is not to say yes or no; it is to make the risk legible to the person who decides.",
-        "id": "Kamu analis kredit junior. Seorang klien lama, distributor bahan bangunan, mengajukan kredit modal kerja Rp 2 miliar. Tugasmu bukan berkata ya atau tidak, melainkan membuat risikonya terbaca jelas oleh orang yang mengambil keputusan."
+        "id": "Kamu seorang analis kredit junior. Seorang klien lama, distributor bahan bangunan, mengajukan pinjaman modal kerja Rp2 miliar. Tugasmu bukan menjawab ya atau tidak; tugasmu adalah membuat risikonya terbaca jelas oleh orang yang memutuskan."
        }
       ]
      },
@@ -23875,25 +23875,25 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "The distributor: revenue Rp 18bn (flat 2 years), net margin 4%, receivables collected in 74 days (was 51 two years ago), inventory 88 days, existing debt Rp 1.5bn. Which two numbers worry a lender most, and why? Work it, then reveal.",
-        "id": "Data distributor itu: pendapatan Rp 18 miliar (stagnan selama 2 tahun), margin bersih 4%, piutang tertagih dalam 74 hari (dua tahun lalu 51 hari), persediaan 88 hari, utang berjalan Rp 1,5 miliar. Dua angka mana yang paling mengkhawatirkan bagi pemberi pinjaman, dan mengapa? Kerjakan, lalu buka jawabannya."
+        "id": "Distributor itu: pendapatan Rp18 miliar (stagnan 2 tahun), margin bersih 4%, piutang tertagih dalam 74 hari (dua tahun lalu 51 hari), persediaan 88 hari, utang yang ada Rp1,5 miliar. Dua angka mana yang paling mengkhawatirkan pemberi pinjaman, dan kenapa? Kerjakan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "The killers are the trend, not the levels: receivables stretching from 51 to 74 days means customers pay ever later, the classic early sign of channel stress or disguised bad debts, and flat revenue means the stretch is not growth-driven. Together they say the requested loan may be funding other people's unpaid bills, not expansion. Lending lives on this asymmetry: upside is a few percent interest, downside is the principal, so analysts are professionally paid to find the uncomfortable trend first.",
-        "id": "Yang mematikan adalah trennya, bukan levelnya: piutang yang memanjang dari 51 ke 74 hari berarti pelanggan membayar makin lambat, tanda awal klasik dari tekanan di jalur distribusi atau piutang macet yang disamarkan, dan pendapatan yang stagnan berarti pemanjangan itu bukan karena pertumbuhan. Bersama-sama, keduanya mengisyaratkan kredit yang diminta mungkin dipakai untuk menalangi tagihan orang lain yang belum dibayar, bukan untuk ekspansi. Bisnis kredit hidup dari asimetri ini: untungnya cuma bunga beberapa persen, ruginya bisa seluruh pokok pinjaman, karena itulah analis dibayar untuk menemukan tren yang tidak nyaman lebih dulu."
+        "en": "The killers are the trend, not the levels: receivables stretching from 51 to 74 days means customers pay ever later (the classic early sign of channel stress or disguised bad debts), and flat revenue means the stretch is not growth-driven. Together they say the requested loan may be funding other people's unpaid bills, not expansion. Lending lives on this asymmetry: upside is a few percent interest, downside is the principal, so analysts are professionally paid to find the uncomfortable trend first.",
+        "id": "Yang mematikan adalah trennya, bukan levelnya: piutang yang memanjang dari 51 ke 74 hari berarti pelanggan membayar makin lambat (tanda awal klasik tekanan di jalur distribusi atau piutang macet yang tersamar), dan pendapatan yang stagnan berarti pemanjangan itu bukan karena pertumbuhan. Keduanya bersama-sama menunjukkan bahwa pinjaman yang diajukan mungkin akan membiayai tagihan orang lain yang belum dibayar, bukan ekspansi. Bisnis pinjaman hidup dari ketimpangan ini: keuntungannya hanya beberapa persen bunga, kerugiannya pokok pinjaman, jadi analis memang dibayar untuk menemukan tren yang tidak enak lebih dulu."
        }
       },
       {
        "h": {
         "en": "Task 2: Structure a protection",
-        "id": "Tugas 2: Rancang perlindungannya"
+        "id": "Tugas 2: Susun perlindungannya"
        },
        "body": {
         "en": "You will recommend approval with conditions. Propose two structures that protect the bank if receivables keep deteriorating. Think, then reveal.",
-        "id": "Kamu akan merekomendasikan persetujuan dengan syarat. Usulkan dua struktur yang melindungi bank kalau piutang terus memburuk. Pikirkan, lalu buka jawabannya."
+        "id": "Kamu akan merekomendasikan persetujuan dengan syarat. Usulkan dua struktur yang melindungi bank kalau piutangnya terus memburuk. Pikirkan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Standard toolkit: lend against the receivables themselves (an assignment of receivables, advancing only 70–80% of invoices under 60 days) so collateral shrinks in step with the risk; and a covenant. E.g. receivable days must stay under 80, tested quarterly, breach triggering a review. Perhaps a personal guarantee given flat revenue. The intellectual move worth noticing: bankers rarely reject risk, they price and cage it. If designing the cage felt like a puzzle you enjoyed, that is banking signal.",
-        "id": "Perangkat standarnya: pinjamkan dengan jaminan piutangnya sendiri (pengalihan piutang, dengan pencairan hanya 70–80% dari faktur yang berumur di bawah 60 hari), sehingga agunan menyusut seiring naiknya risiko; dan sebuah kovenan. Misalnya umur piutang harus tetap di bawah 80 hari, diuji setiap kuartal, dan pelanggarannya memicu peninjauan ulang. Mungkin ditambah jaminan pribadi, mengingat pendapatan yang stagnan. Cara berpikir yang layak diperhatikan: bankir jarang menolak risiko, mereka memberi harga dan mengurungnya. Kalau merancang “kurungan” ini terasa seperti teka-teki yang kamu nikmati, itu sinyal untuk perbankan."
+        "en": "Standard toolkit: lend against the receivables themselves (an assignment of receivables, advancing only 70–80% of invoices under 60 days) so collateral shrinks in step with the risk; and a covenant (for example, receivable days must stay under 80, tested quarterly, with a breach triggering a review), perhaps with a personal guarantee given flat revenue. The intellectual move worth noticing: bankers rarely reject risk; they price and cage it. If designing the cage felt like a puzzle you enjoyed, that is banking signal.",
+        "id": "Perangkat standarnya: memberi pinjaman dengan jaminan piutang itu sendiri (pengalihan piutang, hanya membiayai 70–80% faktur yang berumur di bawah 60 hari) sehingga jaminannya menyusut seiring risikonya; dan satu covenant (misalnya, umur piutang harus tetap di bawah 80 hari, diuji setiap kuartal, dan pelanggarannya memicu peninjauan), mungkin dengan jaminan pribadi mengingat pendapatannya stagnan. Langkah berpikir yang patut diperhatikan: bankir jarang menolak risiko; mereka memberinya harga dan mengurungnya. Kalau merancang kurungan itu terasa seperti teka-teki yang kamu nikmati, itu sinyal untuk perbankan."
        }
       },
       {
@@ -23903,11 +23903,11 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Write the recommendation paragraph for the credit committee: decision, two reasons, conditions. Then reveal.",
-        "id": "Tulis paragraf rekomendasi untuk komite kredit: keputusan, dua alasan, syarat-syaratnya. Lalu buka jawabannya."
+        "id": "Tulis paragraf rekomendasi untuk komite kredit: keputusan, dua alasan, syarat. Lalu buka jawabannya."
        },
        "debrief": {
         "en": "Model: “Recommend approval of Rp 2bn working capital, structured as receivables financing at 75% advance on invoices <60 days. Rationale: 15-year relationship with unblemished repayment; cash cycle stress is real (receivables 51→74 days) but the structure self-limits our exposure to it. Conditions: quarterly receivables ageing report; covenant DSO <80; personal guarantee. Decline unstructured term lending until collection trend reverses.” Decision first, risk acknowledged not hidden, protection doing the arguing.",
-        "id": "Model: “Merekomendasikan persetujuan kredit modal kerja Rp 2 miliar, distrukturkan sebagai pembiayaan piutang dengan pencairan 75% atas faktur berumur <60 hari. Dasar pertimbangan: hubungan 15 tahun dengan riwayat pembayaran tanpa cela; tekanan siklus kas memang nyata (piutang 51→74 hari), tetapi strukturnya secara otomatis membatasi eksposur kita. Syarat: laporan umur piutang setiap kuartal; kovenan DSO <80; jaminan pribadi. Tolak kredit berjangka tanpa struktur sampai tren penagihan berbalik.” Keputusan di depan, risiko diakui bukan disembunyikan, dan perlindungannya yang berbicara."
+        "id": "Contoh: \"Merekomendasikan persetujuan modal kerja Rp2 miliar, disusun sebagai pembiayaan piutang dengan pencairan 75% atas faktur <60 hari. Alasan: hubungan 15 tahun dengan riwayat pembayaran tanpa cela; tekanan pada siklus kas memang nyata (piutang 51→74 hari), tetapi strukturnya membatasi sendiri paparan kita terhadapnya. Syarat: laporan umur piutang setiap kuartal; covenant DSO <80; jaminan pribadi. Tolak pinjaman berjangka tanpa struktur sampai tren penagihannya berbalik.\" Keputusan lebih dulu, risiko diakui dan tidak disembunyikan, perlindungannya yang berargumen."
        }
       },
       {
@@ -23917,11 +23917,11 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "The distributor's finance director calls: “Your covenant on receivable days is unfair. Our two biggest customers simply pay slowly, and they always have. Drop it or we go to another bank.” You have ninety seconds before your manager joins the call. What do you say, and what do you offer? Work it, then reveal.",
-        "id": "Direktur keuangan distributor menelepon: “Kovenan Anda soal umur piutang tidak adil. Dua pelanggan terbesar kami memang bayarnya lambat, dan selalu begitu. Hapus, atau kami pindah ke bank lain.” Kamu punya sembilan puluh detik sebelum manajermu bergabung. Apa yang kamu katakan, dan apa yang kamu tawarkan? Kerjakan, lalu buka jawabannya."
+        "id": "Direktur keuangan distributor itu menelepon: \"Covenant umur piutang kalian tidak adil. Dua pelanggan terbesar kami memang lambat bayar, dan dari dulu selalu begitu. Hapus syaratnya atau kami pindah ke bank lain.\" Kamu punya sembilan puluh detik sebelum atasanmu bergabung di panggilan itu. Apa yang kamu katakan, dan apa yang kamu tawarkan? Kerjakan, lalu buka jawabannya."
        },
        "debrief": {
         "en": "Model: “I hear you, and if those two customers have always paid at 70-plus days, that is exactly what I want to see in writing: send me their ageing for the last two years and I will set the covenant against your real baseline, not the industry's. What I cannot do is drop the trigger entirely, because the loan is sized on your receivables converting to cash.” You gave ground on the level, not the principle, and asked for evidence instead of arguing. Lenders who can do this keep clients and keep their bank safe; the ones who cannot either lose the deal or write the loan that goes bad. If that negotiation felt like a puzzle rather than a fight, that is signal for a client-facing credit path.",
-        "id": "Model: “Saya paham: dan kalau dua pelanggan itu memang selalu membayar di atas 70 hari, justru itu yang ingin saya lihat tertulis: kirimkan umur piutang mereka dua tahun terakhir, dan saya akan menetapkan kovenannya terhadap baseline Anda yang sebenarnya, bukan rata-rata industri. Yang tidak bisa saya lakukan adalah menghapus pemicunya sama sekali, karena besaran pinjaman ini dihitung dari piutang Anda yang berubah menjadi kas.” Kamu mengalah pada tingkatannya, bukan prinsipnya, dan meminta bukti alih-alih berdebat. Pemberi pinjaman yang mampu melakukan ini mempertahankan klien sekaligus menjaga banknya tetap aman; yang tidak mampu akan kehilangan transaksi atau menulis pinjaman yang macet. Kalau negosiasi itu terasa seperti teka-teki, bukan pertengkaran, itu sinyal untuk jalur kredit yang berhadapan langsung dengan klien."
+        "id": "Contoh: \"Saya paham, Pak, dan kalau dua pelanggan itu memang dari dulu membayar di atas 70 hari, justru itulah yang ingin saya lihat secara tertulis: kirimkan data umur piutang mereka dua tahun terakhir, dan saya akan menetapkan covenant-nya berdasarkan angka dasar Bapak yang sebenarnya, bukan angka industri. Yang tidak bisa saya lakukan adalah menghapus pemicunya sama sekali, karena besaran pinjamannya dihitung dari piutang Bapak yang berubah menjadi kas.\" Kamu memberi kelonggaran soal levelnya, bukan prinsipnya, dan meminta bukti alih-alih berdebat. Pemberi pinjaman yang bisa melakukan ini mempertahankan kliennya sekaligus menjaga banknya tetap aman; yang tidak bisa akan kehilangan kesepakatannya atau mengucurkan pinjaman yang berujung macet. Kalau negosiasi itu terasa seperti teka-teki alih-alih pertengkaran, itu sinyal untuk jalur kredit yang berhadapan langsung dengan klien."
        }
       }
      ],
@@ -23929,11 +23929,11 @@ window.MT_LMS['the-map'] = {
       {
        "term": {
         "en": "covenant",
-        "id": "kovenan"
+        "id": "covenant"
        },
        "def": {
-        "en": "A promise written into a loan; a ratio or behaviour the borrower must maintain, whose breach triggers consequences.",
-        "id": "Janji yang dituangkan dalam perjanjian kredit, sebuah rasio atau perilaku yang harus dijaga peminjam, dan pelanggarannya memicu konsekuensi."
+        "en": "A promise written into a loan: a ratio or behaviour the borrower must maintain, whose breach triggers consequences.",
+        "id": "Janji yang tertulis dalam perjanjian pinjaman: rasio atau perilaku yang harus dijaga peminjam, dan pelanggarannya memicu konsekuensi."
        }
       },
       {
@@ -23943,7 +23943,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Days from paying suppliers to collecting from customers; the longer it stretches, the more borrowing a business needs just to stand still.",
-        "id": "Jumlah hari dari membayar pemasok sampai menagih pelanggan; makin panjang, makin besar pinjaman yang dibutuhkan bisnis hanya untuk bertahan di tempat."
+        "id": "Jumlah hari sejak membayar pemasok sampai menagih dari pelanggan; makin panjang, makin banyak pinjaman yang dibutuhkan sebuah usaha hanya untuk bertahan di tempat."
        }
       },
       {
@@ -23953,7 +23953,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "The one-page case for a loan: recommendation, key risk, mitigants and structure, written for a committee that decides in minutes.",
-        "id": "Argumen satu halaman untuk sebuah pinjaman: rekomendasi, risiko utama, mitigasi, dan struktur, ditulis untuk komite yang memutuskan dalam hitungan menit."
+        "id": "Argumen satu halaman untuk sebuah pinjaman: rekomendasi, risiko utama, mitigasi, dan strukturnya, ditulis untuk komite yang memutuskan dalam hitungan menit."
        }
       },
       {
@@ -23962,8 +23962,8 @@ window.MT_LMS['the-map'] = {
         "id": "officer development programme"
        },
        "def": {
-        "en": "A bank's structured graduate entry route, rotating through functions before placement, the most common front door into local banking.",
-        "id": "Jalur masuk lulusan baru yang terstruktur di bank, berotasi lintas fungsi sebelum penempatan, pintu depan paling umum ke perbankan Indonesia."
+        "en": "A bank's structured graduate entry route, rotating through functions before placement; the most common front door into local banking.",
+        "id": "Jalur masuk terstruktur bagi lulusan baru di bank, dengan rotasi ke berbagai fungsi sebelum penempatan; pintu masuk paling umum ke perbankan lokal."
        }
       }
      ],
@@ -23971,7 +23971,7 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "Why did receivable days (51→74) outweigh the healthy-looking 4% net margin?",
-        "id": "Mengapa umur piutang (51→74 hari) lebih berat bobotnya daripada margin bersih 4% yang tampak sehat?"
+        "id": "Kenapa umur piutang (51→74 hari) lebih berbobot daripada margin bersih 4% yang tampak sehat?"
        },
        "options": [
         {
@@ -23980,42 +23980,42 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Profit is an opinion about periods; cash collection is the fact that repays loans, and its trend is deteriorating",
-         "id": "Laba adalah opini tentang suatu periode; penagihan kas adalah fakta yang melunasi kredit, dan trennya sedang memburuk"
+         "id": "Laba adalah pendapat tentang periode; penagihan kas adalah fakta yang membayar pinjaman, dan trennya sedang memburuk"
         },
         {
          "en": "Because 74 is above the industry maximum of 60",
-         "id": "Karena 74 hari melampaui batas maksimum industri, yaitu 60 hari"
+         "id": "Karena 74 melebihi batas maksimal industri, yaitu 60"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Loans are repaid with cash, not accounting profit. A stretching collection cycle attacks exactly the resource that services debt.",
-        "id": "Kredit dilunasi dengan kas, bukan dengan laba akuntansi. Siklus penagihan yang memanjang menyerang tepat sumber daya yang dipakai untuk membayar utang."
+        "id": "Pinjaman dibayar dengan kas, bukan laba akuntansi. Siklus penagihan yang memanjang menyerang tepat sumber daya yang dipakai untuk membayar utang."
        }
       },
       {
        "q": {
         "en": "A client asks you to drop a receivable-days covenant because their big customers ‘always pay slowly’. The strongest lender response is:",
-        "id": "Klien memintamu menghapus kovenan umur piutang karena pelanggan besar mereka ‘memang selalu bayar lambat’. Respons pemberi pinjaman yang paling kuat adalah:"
+        "id": "Seorang klien memintamu menghapus covenant umur piutang karena pelanggan besarnya \"dari dulu memang lambat bayar\". Respons pemberi pinjaman yang paling kuat adalah:"
        },
        "options": [
         {
          "en": "Drop it: the relationship matters more than one clause",
-         "id": "Hapus: hubungan lebih penting daripada satu klausul"
+         "id": "Hapus saja: hubungan lebih penting daripada satu klausul"
         },
         {
          "en": "Refuse outright: covenants are not negotiable",
-         "id": "Tolak mentah-mentah: kovenan tidak bisa dinegosiasikan"
+         "id": "Tolak mentah-mentah: covenant tidak bisa ditawar"
         },
         {
          "en": "Ask for their historical ageing and reset the level to their real baseline, keeping the trigger",
-         "id": "Minta data umur piutang historis mereka dan sesuaikan tingkatnya ke baseline sebenarnya, dengan tetap mempertahankan pemicunya"
+         "id": "Minta data umur piutang historisnya dan atur ulang levelnya sesuai angka dasar mereka yang sebenarnya, dengan tetap mempertahankan pemicunya"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Give ground on the level against evidence, never on the principle. That is how a lender keeps both the client and the bank safe.",
-        "id": "Mengalah pada tingkatnya berdasarkan bukti, tidak pernah pada prinsipnya. Begitulah pemberi pinjaman menjaga klien sekaligus banknya."
+        "id": "Beri kelonggaran soal level berdasarkan bukti, jangan pernah soal prinsip. Begitulah pemberi pinjaman mempertahankan klien sekaligus menjaga banknya tetap aman."
        }
       }
      ],
@@ -24025,18 +24025,18 @@ window.MT_LMS['the-map'] = {
        "icon": "compass",
        "h": {
         "en": "The industry at a glance: roles, routes, who hires",
-        "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
+        "id": "Sekilas industrinya: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "Banking is several very different jobs sharing a lobby. <b>Commercial and corporate banking</b> lends to businesses, the credit-analyst desk in this track, at Bank Mandiri, BCA, BRI, BNI, CIMB Niaga, Danamon, Permata and the foreign banks. <b>Retail and digital banking</b> designs products for millions of customers (and increasingly lives in fintechs and digital banks such as Bank Jago, Seabank and Blu). <b>Investment banking and capital markets</b> advises on deals and raises capital (Mandiri Sekuritas, BCA Sekuritas, and the global houses). <b>Asset management, insurance and payments</b> round out the sector, and <b>risk, compliance and treasury</b> run through all of it. Entry is usually an officer development programme or management trainee scheme, then analyst → associate → assistant VP → VP → director. The signal to notice in yourself: whether the pleasure lies in judging one counterparty deeply (credit, deals), in designing for many (retail, product), or in the controls that keep the system safe (risk, compliance). Those are three different careers, and the track's memo task tells you which one you were doing.",
-        "id": "Perbankan adalah beberapa pekerjaan yang sangat berbeda dengan lobi yang sama. <b>Perbankan komersial dan korporat</b> meminjamkan kepada bisnis, meja analis kredit di jalur ini, di Bank Mandiri, BCA, BRI, BNI, CIMB Niaga, Danamon, Permata, dan bank asing. <b>Perbankan ritel dan digital</b> merancang produk untuk jutaan nasabah (dan makin banyak berada di fintech dan bank digital seperti Bank Jago, Seabank, dan Blu). <b>Investment banking dan pasar modal</b> menasihati transaksi dan menghimpun modal (Mandiri Sekuritas, BCA Sekuritas, dan rumah-rumah global). <b>Manajemen aset, asuransi, dan pembayaran</b> melengkapi sektor ini, dan <b>risiko, kepatuhan, dan treasury</b> mengalir di semuanya. Pintu masuknya biasanya officer development programme atau management trainee, lalu analyst → associate → assistant VP → VP → director. Sinyal yang perlu kamu perhatikan pada dirimu: apakah kesenangannya ada pada menilai satu pihak secara mendalam (kredit, transaksi), merancang untuk banyak orang (ritel, produk), atau pada kontrol yang menjaga sistem tetap aman (risiko, kepatuhan). Itu tiga karier yang berbeda, dan tugas memo di jalur ini memberitahumu yang mana yang sedang kamu jalani."
+        "en": "Banking is several very different jobs sharing a lobby. <b>Commercial and corporate banking</b> lends to businesses (the credit-analyst desk in this track) at Bank Mandiri, BCA, BRI, BNI, CIMB Niaga, Danamon, Permata and the foreign banks. <b>Retail and digital banking</b> designs products for millions of customers (and increasingly lives in fintechs and digital banks such as Bank Jago, SeaBank and Blu). <b>Investment banking and capital markets</b> advises on deals and raises capital (Mandiri Sekuritas, BCA Sekuritas, and the global houses). <b>Asset management, insurance and payments</b> round out the sector, and <b>risk, compliance and treasury</b> run through all of it. Entry is usually an officer development programme or management trainee scheme, then analyst → associate → assistant VP → VP → director. The signal to notice in yourself: whether the pleasure lies in judging one counterparty deeply (credit, deals), in designing for many (retail, product), or in the controls that keep the system safe (risk, compliance). Those are three different careers, and the track's memo task tells you which one you were doing.",
+        "id": "Perbankan adalah beberapa pekerjaan yang sangat berbeda di bawah satu atap. <b>Perbankan komersial dan korporat</b> memberi pinjaman kepada usaha (meja analis kredit di jalur ini) di Bank Mandiri, BCA, BRI, BNI, CIMB Niaga, Danamon, Permata, dan bank-bank asing. <b>Perbankan ritel dan digital</b> merancang produk untuk jutaan nasabah (dan makin banyak berada di fintech serta bank digital seperti Bank Jago, SeaBank, dan Blu). <b>Investment banking dan pasar modal</b> memberi nasihat soal transaksi dan menghimpun modal (Mandiri Sekuritas, BCA Sekuritas, dan firma-firma global). <b>Manajemen aset, asuransi, dan pembayaran</b> melengkapi sektor ini, dan <b>risiko, kepatuhan, dan treasury</b> mengalir di seluruhnya. Pintu masuknya biasanya officer development programme atau program management trainee, lalu analyst → associate → assistant VP → VP → director. Sinyal yang perlu kamu perhatikan dalam dirimu: apakah kenikmatannya ada pada menilai satu pihak secara mendalam (kredit, transaksi), pada merancang untuk banyak orang (ritel, produk), atau pada pengendalian yang menjaga sistemnya tetap aman (risiko, kepatuhan). Itu tiga karier yang berbeda, dan tugas memo di jalur ini memberi tahu mana yang sedang kamu kerjakan."
        }
       }
      ],
      "mistakes": {
       "title": {
        "en": "What first-year analysts get wrong in banking",
-       "id": "Kesalahan umum analis tahun pertama di perbankan"
+       "id": "Kesalahan analis tahun pertama di perbankan"
       },
       "items": [
        {
@@ -24046,7 +24046,7 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "A lender is repaid from cash, not profit. Receivable days, inventory days and the cash conversion cycle come first.",
-         "id": "Pemberi pinjaman dibayar dari kas, bukan laba. Umur piutang, umur persediaan, dan siklus konversi kas dibaca lebih dulu."
+         "id": "Pemberi pinjaman dibayar dari kas, bukan laba. Umur piutang, umur persediaan, dan siklus konversi kas didahulukan."
         }
        },
        {
@@ -24056,17 +24056,17 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "One paragraph: the recommendation, the one risk that could change it, the protection. The credit committee reads forty of these.",
-         "id": "Satu paragraf: rekomendasi, satu risiko yang bisa mengubahnya, perlindungannya. Komite kredit membaca empat puluh memo seperti ini."
+         "id": "Satu paragraf: rekomendasinya, satu risiko yang bisa mengubahnya, dan perlindungannya. Komite kredit membaca empat puluh memo seperti ini."
         }
        },
        {
         "h": {
          "en": "Confusing being firm with being inflexible",
-         "id": "Mengira tegas berarti kaku"
+         "id": "Mengira tegas sama dengan kaku"
         },
         "fix": {
          "en": "Negotiate the level of a covenant against evidence; never negotiate away the principle it protects.",
-         "id": "Negosiasikan tingkat kovenan berdasarkan bukti; jangan pernah menegosiasikan prinsip yang dilindunginya."
+         "id": "Negosiasikan level covenant berdasarkan bukti; jangan pernah menegosiasikan prinsip yang dilindunginya."
         }
        }
       ]
@@ -24076,22 +24076,22 @@ window.MT_LMS['the-map'] = {
        {
         "id": "jpm-cb",
         "fit": {
-         "en": "Credit analysis of a business client from its financial statements, ending in a lending recommendation, the same desk as Tasks 1 to 3, set by the bank itself.",
-         "id": "Analisis kredit klien bisnis dari laporan keuangannya, diakhiri rekomendasi pinjaman, meja yang sama dengan Tugas 1 sampai 3, ditetapkan oleh banknya sendiri."
+         "en": "Credit analysis of a business client from its financial statements, ending in a lending recommendation (the same desk as Tasks 1 to 3), set by the bank itself.",
+         "id": "Analisis kredit atas klien usaha dari laporan keuangannya, diakhiri rekomendasi pemberian pinjaman (meja yang sama dengan Tugas 1 sampai 3), dibuat oleh bank itu sendiri."
         }
        },
        {
         "id": "jpm-ib",
         "fit": {
          "en": "If judging one counterparty deeply energised you, investment banking is the deal-side version: screening, valuing and pitching an acquisition.",
-         "id": "Kalau menilai satu pihak secara mendalam memberimu energi, investment banking adalah versinya di sisi transaksi: menyaring, menilai, dan mempresentasikan akuisisi."
+         "id": "Kalau menilai satu pihak secara mendalam memberimu energi, investment banking adalah versi transaksinya: menyaring, menilai, dan menawarkan sebuah akuisisi."
         }
        },
        {
         "id": "gs-ops",
         "fit": {
-         "en": "The controls side of a bank, reconciling and investigating breaks, for those who found the discipline more satisfying than the negotiation.",
-         "id": "Sisi kontrol di bank, merekonsiliasi dan menyelidiki selisih, bagi yang merasa disiplinnya lebih memuaskan daripada negosiasinya."
+         "en": "The controls side of a bank (reconciling and investigating breaks), for those who found the discipline more satisfying than the negotiation.",
+         "id": "Sisi pengendalian sebuah bank (merekonsiliasi dan menyelidiki selisih), bagi yang merasa disiplinnya lebih memuaskan daripada negosiasinya."
         }
        }
       ]
@@ -24103,49 +24103,49 @@ window.MT_LMS['the-map'] = {
     {
      "n": "6.4",
      "title": {
-      "en": "Industry Track – Consulting &amp; Professional Services",
-      "id": "Jalur Industri – Konsultansi &amp; Jasa Profesional"
+      "en": "Industry Track: Consulting &amp; Professional Services",
+      "id": "Jalur Industri: Konsultansi &amp; Jasa Profesional"
      },
      "dur": {
       "en": "25 min",
-      "id": "25 mnt"
+      "id": "25 menit"
      },
      "kind": "interactive",
      "placeholder": false,
      "overview": {
       "en": "A compressed junior workday in consulting & professional services: four realistic tasks with model debriefs. Run it honestly, attempt each task before revealing, then log the three-question debrief in your audit.",
-      "id": "Satu hari kerja level junior di bidang konsultansi &amp; jasa profesional, dipadatkan: empat tugas realistis dengan tinjauan model. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat tinjauan tiga pertanyaan di auditmu."
+      "id": "Satu hari kerja junior di bidang konsultansi & jasa profesional yang dipadatkan: empat tugas realistis lengkap dengan contoh pembahasannya. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat pembahasan tiga pertanyaan di auditmu."
      },
      "objectives": [
       {
        "en": "Experience four representative junior tasks from consulting & professional services.",
-       "id": "Merasakan empat tugas level junior yang mewakili pekerjaan di bidang konsultansi &amp; jasa profesional."
+       "id": "Merasakan empat tugas junior yang mewakili bidang konsultansi & jasa profesional."
       },
       {
        "en": "Place the roles, routes and employers of this industry on your own map.",
-       "id": "Menempatkan peran, jalur, dan perusahaan di industri ini pada petamu sendiri."
+       "id": "Tempatkan peran, jalur karier, dan pemberi kerja di industri ini di petamu sendiri."
       },
       {
        "en": "Attempt each task under a soft time-box before reading the model answer.",
-       "id": "Mengerjakan setiap tugas dengan batas waktu longgar sebelum membaca jawaban model."
+       "id": "Kerjakan setiap tugas dengan batas waktu yang longgar sebelum membaca contoh jawabannya."
       },
       {
        "en": "Score the track on energy, competence trajectory and curiosity.",
-       "id": "Menilai jalur ini dari sisi energi, arah kompetensi, dan rasa ingin tahu."
+       "id": "Beri nilai jalur ini untuk energi, arah kemampuan, dan rasa penasaran."
       }
      ],
      "takeaways": [
       {
        "en": "You now have behavioural data about this industry that no brochure could give you.",
-       "id": "Kamu sekarang punya data perilaku tentang industri ini; sesuatu yang tidak bisa diberikan brosur mana pun."
+       "id": "Kini kamu punya data perilaku tentang industri ini yang tidak bisa diberikan brosur mana pun."
       },
       {
        "en": "Slow is normal; the signal is whether the work pulled you in or pushed you away.",
-       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan ini menarikmu masuk atau mendorongmu menjauh."
+       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan itu menarikmu masuk atau mendorongmu menjauh."
       },
       {
        "en": "Log the three-question debrief before the impression fades, then run the matching Forage simulation if the track energised you.",
-       "id": "Catat tinjauan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
+       "id": "Catat pembahasan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
       }
      ],
      "scenario": {
@@ -24153,12 +24153,12 @@ window.MT_LMS['the-map'] = {
       "img": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
       "title": {
        "en": "Your desk today: Consulting & Professional Services",
-       "id": "Mejamu hari ini: Konsultansi &amp; Jasa Profesional"
+       "id": "Mejamu hari ini: Konsultansi & Jasa Profesional"
       },
       "body": [
        {
         "en": "You are a first-month analyst at a consulting firm. The engagement manager walks past your desk: “Client call moved up; I need a first-cut structure on their retail revenue problem in 45 minutes, and one slide I could actually show.”",
-        "id": "Kamu analis bulan pertama di sebuah firma konsultan. Manajer proyek lewat di depan mejamu: “Panggilan dengan klien dimajukan. Saya butuh struktur awal untuk masalah pendapatan ritel mereka dalam 45 menit, plus satu salindia yang benar-benar layak saya tunjukkan.”"
+        "id": "Kamu analis di bulan pertama di sebuah firma konsultan. Engagement manager-mu lewat di depan mejamu: \"Panggilan klien dimajukan; aku butuh struktur awal untuk masalah pendapatan ritel mereka dalam 45 menit, dan satu slide yang benar-benar bisa kutunjukkan.\""
        }
       ]
      },
@@ -24166,57 +24166,57 @@ window.MT_LMS['the-map'] = {
       {
        "h": {
         "en": "Task 1: Structure under the clock",
-        "id": "Tugas 1: Menyusun struktur di bawah tekanan waktu"
+        "id": "Tugas 1: Susun struktur dikejar waktu"
        },
        "body": {
         "en": "The client: a 40-store fashion retailer, revenue −12% year-on-year while the market fell only 3%. Build the first-cut MECE structure for where the damage lives. Ten minutes, then reveal.",
-        "id": "Kliennya: peritel fesyen dengan 40 toko, pendapatan turun 12% dari tahun lalu, sementara pasar hanya turun 3%. Bangun struktur MECE awal untuk menemukan di mana kerusakannya. Sepuluh menit, lalu buka jawabannya."
+        "id": "Kliennya: peritel fesyen dengan 40 toko, pendapatan −12% dibanding tahun lalu, sementara pasarnya hanya turun 3%. Susun struktur MECE awal tentang di mana kerusakannya berada. Sepuluh menit, lalu buka jawabannya."
        },
        "debrief": {
         "en": "First cut: the −12% splits into market effect (−3%, everyone's problem) and company effect (−9%, our problem). The company effect splits by driver: fewer visitors × lower conversion × smaller baskets, and by cut: which stores, which categories, which channels. The consulting move is asking for the split before theorising: “is the −9% concentrated in 5 stores or spread across 40?” concentrates the entire engagement. Speed came from the Module 3 engine, not from knowing retail.",
-        "id": "Struktur awal: −12% terbagi menjadi efek pasar (−3%, masalah semua orang) dan efek perusahaan (−9%, masalah kita). Efek perusahaan lalu dipecah per pendorong: pengunjung berkurang × konversi turun × nilai belanja mengecil, dan per irisan: toko mana, kategori mana, kanal mana. Gerakan khas konsultan adalah meminta pembagian data sebelum berteori: pertanyaan “apakah −9% itu terkonsentrasi di 5 toko atau tersebar di 40 toko?” langsung memusatkan seluruh proyek. Kecepatannya datang dari mesin di Modul 3, bukan dari pengetahuan tentang ritel."
+        "id": "Potongan pertama: −12% itu terbagi menjadi efek pasar (−3%, masalah semua orang) dan efek perusahaan (−9%, masalah kita). Efek perusahaan terbagi menurut pendorongnya: pengunjung lebih sedikit × konversi lebih rendah × belanjaan lebih kecil, dan menurut irisannya: toko mana, kategori mana, kanal mana. Langkah khas konsultan adalah meminta irisannya sebelum berteori: \"apakah −9% itu terpusat di 5 toko atau tersebar di 40 toko?\" memfokuskan seluruh penugasan. Kecepatannya datang dari mesin Modul 3, bukan dari menguasai seluk-beluk ritel."
        }
       },
       {
        "h": {
         "en": "Task 2: Make one slide say one thing",
-        "id": "Tugas 2: Buat satu salindia menyampaikan satu hal"
+        "id": "Tugas 2: Buat satu slide menyampaikan satu hal"
        },
        "body": {
-        "en": "Data arrives: 70% of the decline sits in 6 mall stores; street stores are flat; online grew 8%. Design the one slide, headline sentence plus supporting visual, that you would show. Sketch, then reveal.",
-        "id": "Datanya datang: 70% penurunan ada di 6 toko di mal; toko-toko di jalan raya stagnan; online tumbuh 8%. Rancang satu salindia, kalimat judul plus visual pendukung, yang akan kamu tunjukkan. Buat sketsanya, lalu buka jawabannya."
+        "en": "Data arrives: 70% of the decline sits in 6 mall stores; street stores are flat; online grew 8%. Design the one slide (headline sentence plus supporting visual) that you would show. Sketch, then reveal.",
+        "id": "Datanya masuk: 70% penurunan ada di 6 toko di mal; toko di pinggir jalan stagnan; penjualan online naik 8%. Rancang satu slide (kalimat judul ditambah visual pendukung) yang akan kamu tunjukkan. Buat sketsanya, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "The headline is the finding, not the topic: “Revenue decline is a 6-store mall problem, not a brand problem”, a so-called action title. Beneath it, one waterfall or bar chart attributing the −12% across store groups. Everything else, methodology, caveats, the other 34 stores. Goes to backup slides. Consulting's craft rule: if the client remembers one sentence per slide, the deck should be exactly those sentences in order.",
-        "id": "Judulnya adalah temuan, bukan topik: “Penurunan pendapatan adalah masalah 6 toko di mal, bukan masalah merek”, inilah yang disebut judul aksi. Di bawahnya, satu grafik air terjun atau grafik batang yang membagi −12% itu ke masing-masing kelompok toko. Segala hal lain, metodologi, catatan, 34 toko lainnya, masuk ke salindia cadangan. Aturan kerja konsultan: kalau klien hanya mengingat satu kalimat per salindia, dek itu seharusnya persis berisi kalimat-kalimat tersebut, secara berurutan."
+        "en": "The headline is the finding, not the topic: “Revenue decline is a 6-store mall problem, not a brand problem” (a so-called action title). Beneath it, one waterfall or bar chart attributing the −12% across store groups. Everything else (methodology, caveats, the other 34 stores) goes to backup slides. Consulting's craft rule: if the client remembers one sentence per slide, the deck should be exactly those sentences in order.",
+        "id": "Judulnya adalah temuannya, bukan topiknya: \"Penurunan pendapatan adalah masalah 6 toko di mal, bukan masalah merek\" (yang disebut action title). Di bawahnya, satu grafik waterfall atau grafik batang yang membagi −12% itu ke kelompok-kelompok toko. Semua yang lain (metodologi, catatan, 34 toko lainnya) masuk ke slide cadangan. Aturan kerja di konsultansi: kalau klien mengingat satu kalimat dari setiap slide, deck-nya seharusnya persis berisi kalimat-kalimat itu secara berurutan."
        }
       },
       {
        "h": {
         "en": "Task 3: Handle the pushback",
-        "id": "Tugas 3: Hadapi bantahan"
+        "id": "Tugas 3: Hadapi bantahannya"
        },
        "body": {
         "en": "On the call, the client's retail director says: “Your analysis ignores that malls themselves are dying; this is not our execution.” Script a consultant's response, then reveal.",
-        "id": "Di panggilan, direktur ritel klien berkata: “Analisis kalian mengabaikan fakta bahwa mal memang sedang sekarat; ini bukan soal eksekusi kami.” Tulis naskah respons seorang konsultan, lalu buka jawabannya."
+        "id": "Dalam panggilan, direktur ritel klien berkata, \"Analisis kalian mengabaikan fakta bahwa mal-malnya sendiri sedang sekarat; ini bukan soal eksekusi kami.\" Susun tanggapan seorang konsultan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Model: “You may be right; let's test it. If mall decline explains it, our 6 stores should track their malls' footfall. Two of them do. The other four declined 2–3× faster than their malls, and those four share a category mix and a store manager turnover problem. So the data says: partly the tide, partly the boat.” The shape: honour the objection, convert it to a testable claim, bring the test, land on the split. Consulting sells exactly this, disagreement conducted through evidence at client-relationship temperature.",
-        "id": "Model: “Bisa jadi Bapak benar; mari kita uji. Kalau penurunan mal yang menjelaskan semuanya, 6 toko kita seharusnya bergerak seiring dengan lalu lintas pengunjung malnya. Dua toko memang begitu. Empat lainnya turun 2–3 kali lebih cepat daripada malnya, dan keempatnya punya kesamaan: bauran kategori dan masalah pergantian kepala toko. Jadi datanya bilang: sebagian karena arus, sebagian karena perahunya.” Bentuknya: hargai keberatannya, ubah menjadi klaim yang bisa diuji, bawa hasil ujinya, lalu mendarat pada pembagian yang jelas. Inilah persis yang dijual konsultansi, ketidaksetujuan yang dijalankan lewat bukti, pada suhu yang tetap menjaga hubungan dengan klien."
+        "en": "Model: “You may be right; let's test it. If mall decline explains it, our 6 stores should track their malls' footfall. Two of them do. The other four declined 2–3× faster than their malls, and those four share a category mix and a store manager turnover problem. So the data says: partly the tide, partly the boat.” The shape: honour the objection, convert it to a testable claim, bring the test, land on the split. Consulting sells exactly this: disagreement conducted through evidence at client-relationship temperature.",
+        "id": "Contoh: \"Bapak mungkin benar; ayo kita uji. Kalau penurunan mal yang menjelaskannya, 6 toko kita seharusnya bergerak seiring jumlah pengunjung malnya. Dua di antaranya memang begitu. Empat lainnya turun 2–3× lebih cepat dari malnya, dan keempatnya punya komposisi kategori yang sama serta masalah pergantian manajer toko yang sama. Jadi datanya berkata: sebagian karena arus, sebagian karena perahunya.\" Bentuknya: hargai keberatannya, ubah menjadi klaim yang bisa diuji, bawa ujiannya, lalu mendarat di pembagiannya. Inilah yang dijual konsultansi: perbedaan pendapat yang dijalankan lewat bukti dengan suhu yang tetap menjaga hubungan dengan klien."
        }
       },
       {
        "h": {
         "en": "Task 4: Size it before lunch",
-        "id": "Tugas 4: Ukur besarnya sebelum makan siang"
+        "id": "Tugas 4: Taksir ukurannya sebelum makan siang"
        },
        "body": {
         "en": "The partner drops by: “Before we recommend anything, how big is the Surabaya opportunity for the client's premium coffee line? Rough number, back of the envelope, ten minutes.” No data. Write the logic chain you would use and a defensible estimate, then reveal.",
-        "id": "Partner mampir: “Sebelum kita merekomendasikan apa pun, seberapa besar peluang Surabaya untuk lini kopi premium klien? Angka kasar, hitungan di belakang amplop, sepuluh menit.” Tidak ada data. Tulis rantai logika yang akan kamu pakai dan perkiraan yang bisa dipertanggungjawabkan, lalu buka jawabannya."
+        "id": "Partner-mu mampir: \"Sebelum kita merekomendasikan apa pun, seberapa besar peluang di Surabaya untuk lini kopi premium klien? Angka kasar saja, hitungan di balik amplop, sepuluh menit.\" Tanpa data. Tulis rantai logika yang akan kamu pakai dan perkiraan yang bisa dipertanggungjawabkan, lalu buka jawabannya."
        },
        "debrief": {
         "en": "A defensible chain, not a right answer: Surabaya metro population → share that is working-age and urban middle class → share who buy packaged coffee at all → share who would pay a premium → cups or packs per month → price. Each step is a stated assumption someone can challenge, and the point is the chain, not the digits. The partner is testing whether you can decompose an unknown into knowable pieces and say your assumptions out loud. Two habits matter: sanity-check the result against something known (does the number imply a share of the whole city's coffee spend that is plausible?), and state the range, not a false-precision point. If that felt like a game you would happily play again, note it; market sizing is the daily bread of strategy work.",
-        "id": "Rantai yang bisa dipertanggungjawabkan, bukan jawaban yang benar: populasi metro Surabaya → porsi usia kerja dan kelas menengah urban → porsi yang membeli kopi kemasan sama sekali → porsi yang mau membayar premium → jumlah cangkir atau kemasan per bulan → harga. Setiap langkah adalah asumsi yang dinyatakan dan bisa ditantang orang lain, dan intinya adalah rantainya, bukan angkanya. Partner sedang menguji apakah kamu bisa mengurai hal yang tidak diketahui menjadi bagian-bagian yang bisa diketahui dan menyebutkan asumsimu dengan lantang. Dua kebiasaan penting: uji kewajaran hasilnya terhadap sesuatu yang diketahui (apakah angkanya menyiratkan porsi belanja kopi seluruh kota yang masuk akal?), dan nyatakan rentangnya, bukan satu titik dengan presisi palsu. Kalau itu terasa seperti permainan yang ingin kamu ulangi, catat; market sizing adalah makanan sehari-hari pekerjaan strategi."
+        "id": "Rantai yang bisa dipertanggungjawabkan, bukan jawaban yang benar: penduduk Surabaya Raya → porsi yang berusia kerja dan termasuk kelas menengah perkotaan → porsi yang membeli kopi kemasan → porsi yang mau membayar harga premium → cangkir atau bungkus per bulan → harga. Setiap langkah adalah asumsi yang disebutkan dan bisa ditantang orang lain, dan intinya adalah rantainya, bukan angka-angkanya. Partner-mu sedang menguji apakah kamu bisa memecah hal yang tidak diketahui menjadi kepingan-kepingan yang bisa diketahui dan menyebutkan asumsimu dengan lantang. Dua kebiasaan penting: cek kewajaran hasilnya dengan sesuatu yang sudah diketahui (apakah angkanya menyiratkan porsi belanja kopi seluruh kota yang masuk akal?), dan sebutkan rentangnya, bukan satu titik yang tampak sangat presisi padahal tidak. Kalau itu terasa seperti permainan yang ingin kamu mainkan lagi, catat; menaksir ukuran pasar adalah makanan sehari-hari dalam pekerjaan strategi."
        }
       }
      ],
@@ -24224,41 +24224,41 @@ window.MT_LMS['the-map'] = {
       {
        "term": {
         "en": "action title",
-        "id": "judul aksi"
+        "id": "action title"
        },
        "def": {
         "en": "A slide headline that states the finding as a full sentence, so the deck reads as an argument from titles alone.",
-        "id": "Judul salindia yang menyatakan temuan sebagai kalimat lengkap, sehingga seluruh dek bisa dibaca sebagai sebuah argumen hanya dari judul-judulnya."
+        "id": "Judul slide yang menyatakan temuannya dalam satu kalimat utuh, sehingga deck-nya bisa dibaca sebagai argumen hanya dari judul-judulnya."
        }
       },
       {
        "term": {
         "en": "market sizing",
-        "id": "market sizing"
+        "id": "menaksir ukuran pasar"
        },
        "def": {
         "en": "Estimating the size of an opportunity by decomposing it into stated, checkable assumptions rather than searching for a number.",
-        "id": "Memperkirakan besar sebuah peluang dengan menguraikannya menjadi asumsi-asumsi yang dinyatakan dan bisa diperiksa, alih-alih mencari angkanya."
+        "id": "Memperkirakan besarnya sebuah peluang dengan memecahnya menjadi asumsi-asumsi yang disebutkan dan bisa dicek, bukan dengan mencari satu angka."
        }
       },
       {
        "term": {
         "en": "engagement",
-        "id": "penugasan (engagement)"
+        "id": "engagement"
        },
        "def": {
         "en": "A single client project with a defined question, team and end date; the unit in which a consultant's career is lived.",
-        "id": "Satu proyek klien dengan pertanyaan, tim, dan tanggal akhir yang jelas, satuan tempat karier seorang konsultan dijalani."
+        "id": "Satu proyek klien dengan pertanyaan, tim, dan tanggal akhir yang jelas; satuan tempat karier seorang konsultan dijalani."
        }
       },
       {
        "term": {
         "en": "up or out",
-        "id": "naik atau keluar"
+        "id": "up or out"
        },
        "def": {
         "en": "The promotion clock at most strategy firms: progress to the next level within a set window or transition out, usually to a good corporate role.",
-        "id": "Jam promosi di sebagian besar firma strategi: naik ke jenjang berikutnya dalam rentang waktu tertentu atau beralih keluar, biasanya ke peran korporat yang baik."
+        "id": "Jam promosi di sebagian besar firma strategi: naik ke jenjang berikutnya dalam jangka waktu tertentu atau keluar, biasanya ke posisi korporat yang bagus."
        }
       }
      ],
@@ -24266,16 +24266,16 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "Why does the analyst split −12% into market effect and company effect before anything else?",
-        "id": "Mengapa analis memecah −12% menjadi efek pasar dan efek perusahaan sebelum melakukan apa pun?"
+        "id": "Kenapa analis itu memecah −12% menjadi efek pasar dan efek perusahaan sebelum yang lainnya?"
        },
        "options": [
         {
          "en": "Because clients expect two-part frameworks",
-         "id": "Karena klien mengharapkan kerangka kerja dua bagian"
+         "id": "Karena klien mengharapkan kerangka dua bagian"
         },
         {
          "en": "Because it separates what the client can act on from what they cannot, sizing the addressable problem",
-         "id": "Karena pembagian itu memisahkan apa yang bisa ditindaklanjuti klien dari apa yang tidak; mengukur seberapa besar masalah yang benar-benar bisa digarap"
+         "id": "Karena itu memisahkan apa yang bisa ditindaklanjuti klien dari yang tidak, sehingga ukuran masalah yang bisa ditangani terlihat"
         },
         {
          "en": "Because market data is easier to collect",
@@ -24285,32 +24285,32 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "The −3% tide is context; the −9% company effect is the engagement. Structuring by controllability is the consulting reflex.",
-        "id": "Arus −3% adalah konteks; efek perusahaan −9% adalah proyeknya. Menyusun struktur berdasarkan apa yang bisa dikendalikan adalah refleks seorang konsultan."
+        "id": "Arus −3% adalah konteks; efek perusahaan −9% adalah penugasannya. Menyusun struktur berdasarkan apa yang bisa dikendalikan adalah refleks konsultan."
        }
       },
       {
        "q": {
         "en": "Asked for a ‘rough number’ on a market with no data, the analyst's real deliverable is:",
-        "id": "Diminta ‘angka kasar’ untuk pasar tanpa data, hasil kerja analis yang sebenarnya adalah:"
+        "id": "Diminta \"angka kasar\" untuk sebuah pasar tanpa data, hasil kerja analis yang sebenarnya adalah:"
        },
        "options": [
         {
          "en": "The most precise figure possible",
-         "id": "Angka sepresisi mungkin"
+         "id": "Angka yang sepresisi mungkin"
         },
         {
          "en": "A stated chain of checkable assumptions, sanity-checked, with a range",
-         "id": "Rantai asumsi yang dinyatakan dan bisa diperiksa, diuji kewajarannya, dengan rentang"
+         "id": "Rantai asumsi yang disebutkan dan bisa dicek, sudah dicek kewajarannya, dengan sebuah rentang"
         },
         {
          "en": "A request for the data before answering",
-         "id": "Permintaan data sebelum menjawab"
+         "id": "Meminta datanya sebelum menjawab"
         }
        ],
        "correct": 1,
        "why": {
         "en": "The partner is testing decomposition and candour about assumptions, not arithmetic. Precision without a chain is a guess in a suit.",
-        "id": "Partner sedang menguji kemampuan mengurai dan kejujuran tentang asumsi, bukan aritmetika. Presisi tanpa rantai hanyalah tebakan berjas."
+        "id": "Partner-nya sedang menguji kemampuan memecah masalah dan keterusterangan soal asumsi, bukan aritmetika. Presisi tanpa rantai hanyalah tebakan yang berpakaian rapi."
        }
       }
      ],
@@ -24320,18 +24320,18 @@ window.MT_LMS['the-map'] = {
        "icon": "compass",
        "h": {
         "en": "The industry at a glance: roles, routes, who hires",
-        "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
+        "id": "Sekilas industrinya: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "Professional services sells judgement by the hour, and the firms differ mainly in what kind. <b>Strategy consulting</b> (McKinsey, BCG, Bain, and the strategy arms of Kearney, Oliver Wyman, Roland Berger) works on a CEO's few biggest questions, in small teams, under intense time pressure. <b>Management and technology consulting</b> (Accenture, the Big Four advisory practices, IBM, Capgemini) is larger, longer and more about making change actually happen, process, systems, operating models. <b>Boutiques and in-house strategy teams</b> at conglomerates, state-owned enterprises and tech companies are the third route, and often where consultants go next. Entry titles are analyst / business analyst / associate consultant; the ladder is analyst → consultant → engagement manager → principal → partner, with an ‘up or out’ clock at most firms and a well-trodden exit into corporate strategy, product, private equity or founding something. What the work rewards is visible in this track: structure under the clock, a slide that says one thing, and holding a position under pushback without becoming rigid. What it costs is also visible; the clock never really stops.",
-        "id": "Jasa profesional menjual penilaian per jam, dan firma-firmanya berbeda terutama pada jenis penilaiannya. <b>Konsultansi strategi</b> (McKinsey, BCG, Bain, serta divisi strategi Kearney, Oliver Wyman, Roland Berger) menggarap beberapa pertanyaan terbesar seorang CEO, dalam tim kecil, di bawah tekanan waktu yang tinggi. <b>Konsultansi manajemen dan teknologi</b> (Accenture, praktik advisory Big Four, IBM, Capgemini) lebih besar, lebih panjang, dan lebih tentang membuat perubahan benar-benar terjadi, proses, sistem, model operasi. <b>Butik dan tim strategi internal</b> di konglomerat, BUMN, dan perusahaan teknologi adalah jalur ketiga, dan sering menjadi tujuan konsultan berikutnya. Jabatan awalnya analyst / business analyst / associate consultant; tangganya analyst → consultant → engagement manager → principal → partner, dengan jam ‘naik atau keluar’ di sebagian besar firma dan jalan keluar yang sudah lazim ke strategi korporat, produk, private equity, atau mendirikan usaha. Yang dihargai pekerjaan ini terlihat di jalur ini: struktur di bawah tekanan waktu, slide yang menyampaikan satu hal, dan mempertahankan posisi saat dibantah tanpa menjadi kaku. Biayanya juga terlihat; jamnya tidak pernah benar-benar berhenti."
+        "en": "Professional services sells judgement by the hour, and the firms differ mainly in what kind. <b>Strategy consulting</b> (McKinsey, BCG, Bain, and the strategy arms of Kearney, Oliver Wyman, Roland Berger) works on a CEO's few biggest questions, in small teams, under intense time pressure. <b>Management and technology consulting</b> (Accenture, the Big Four advisory practices, IBM, Capgemini) is larger, longer and more about making change actually happen (process, systems, operating models). <b>Boutiques and in-house strategy teams</b> at conglomerates, state-owned enterprises and tech companies are the third route, and often where consultants go next. Entry titles are analyst / business analyst / associate consultant; the ladder is analyst → consultant → engagement manager → principal → partner, with an ‘up or out’ clock at most firms and a well-trodden exit into corporate strategy, product, private equity or founding something. What the work rewards is visible in this track: structure under the clock, a slide that says one thing, and holding a position under pushback without becoming rigid. What it costs is also visible: the clock never really stops.",
+        "id": "Jasa profesional menjual penilaian per jam, dan firma-firmanya terutama berbeda dalam jenis penilaian yang dijualnya. <b>Konsultansi strategi</b> (McKinsey, BCG, Bain, dan unit strategi Kearney, Oliver Wyman, Roland Berger) menangani beberapa pertanyaan terbesar seorang CEO, dalam tim kecil, di bawah tekanan waktu yang tinggi. <b>Konsultansi manajemen dan teknologi</b> (Accenture, praktik advisory Big Four, IBM, Capgemini) lebih besar, lebih panjang, dan lebih banyak soal membuat perubahan benar-benar terjadi (proses, sistem, model operasional). <b>Firma butik dan tim strategi internal</b> di konglomerat, BUMN, dan perusahaan teknologi adalah jalur ketiga, dan sering menjadi tempat para konsultan berlabuh berikutnya. Jabatan pemulanya analyst / business analyst / associate consultant; jenjangnya analyst → consultant → engagement manager → principal → partner, dengan jam \"up or out\" di sebagian besar firma dan jalan keluar yang sudah banyak dilalui ke strategi korporat, produk, private equity, atau mendirikan usaha sendiri. Apa yang dihargai pekerjaan ini terlihat di jalur ini: menyusun struktur dikejar waktu, slide yang menyampaikan satu hal, dan mempertahankan posisi di bawah bantahan tanpa menjadi kaku. Harganya juga terlihat: jamnya tidak pernah benar-benar berhenti."
        }
       }
      ],
      "mistakes": {
       "title": {
        "en": "What first-year analysts get wrong in consulting",
-       "id": "Kesalahan umum analis tahun pertama di konsultansi"
+       "id": "Kesalahan analis tahun pertama di konsultansi"
       },
       "items": [
        {
@@ -24341,27 +24341,27 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "Ten minutes on the issue tree saves two days of analysis nobody asked for. The split comes first, always.",
-         "id": "Sepuluh menit untuk pohon isu menghemat dua hari analisis yang tidak diminta siapa pun. Pembagiannya selalu lebih dulu."
+         "id": "Sepuluh menit untuk pohon isu menghemat dua hari analisis yang tidak diminta siapa pun. Pemecahannya selalu didahulukan."
         }
        },
        {
         "h": {
          "en": "Slides that show work instead of saying something",
-         "id": "Slide yang memamerkan pekerjaan alih-alih menyampaikan sesuatu"
+         "id": "Slide yang memamerkan kerja alih-alih menyampaikan sesuatu"
         },
         "fix": {
          "en": "Write the action title first; if the chart does not prove that sentence, change the chart, not the sentence.",
-         "id": "Tulis judul aksinya lebih dulu; kalau grafiknya tidak membuktikan kalimat itu, ubah grafiknya, bukan kalimatnya."
+         "id": "Tulis action title-nya dulu; kalau grafiknya tidak membuktikan kalimat itu, ganti grafiknya, bukan kalimatnya."
         }
        },
        {
         "h": {
          "en": "Folding at the first pushback, or digging in",
-         "id": "Menyerah pada bantahan pertama, atau ngotot"
+         "id": "Langsung menyerah saat dibantah pertama kali, atau malah ngotot"
         },
         "fix": {
          "en": "Separate the client's fact from the client's conclusion; accept the fact, test the conclusion against the data together.",
-         "id": "Pisahkan fakta klien dari kesimpulan klien; terima faktanya, uji kesimpulannya bersama-sama terhadap data."
+         "id": "Pisahkan fakta klien dari kesimpulan klien; terima faktanya, lalu uji kesimpulannya bersama-sama dengan data."
         }
        }
       ]
@@ -24371,8 +24371,8 @@ window.MT_LMS['the-map'] = {
        {
         "id": "bcg-strategy",
         "fit": {
-         "en": "Structure a market-entry question, size the opportunity and build the slide-based answer, Tasks 1, 2 and 4 of this track as a full engagement, set by BCG.",
-         "id": "Menyusun pertanyaan masuk pasar, mengukur peluangnya, dan membangun jawaban berbasis slide, Tugas 1, 2, dan 4 jalur ini dalam satu penugasan penuh, ditetapkan oleh BCG."
+         "en": "Structure a market-entry question, size the opportunity and build the slide-based answer (Tasks 1, 2 and 4 of this track as a full engagement), set by BCG.",
+         "id": "Menyusun struktur pertanyaan masuk pasar, menaksir ukuran peluangnya, dan membangun jawaban berbentuk slide (Tugas 1, 2, dan 4 di jalur ini sebagai penugasan utuh), dibuat oleh BCG."
         }
        },
        {
@@ -24386,7 +24386,7 @@ window.MT_LMS['the-map'] = {
         "id": "pwc-consulting",
         "fit": {
          "en": "Big Four advisory: scoping and structuring an engagement in a larger, longer-project setting than strategy boutiques.",
-         "id": "Advisory Big Four: menentukan lingkup dan menyusun penugasan dalam lingkungan proyek yang lebih besar dan lebih panjang daripada butik strategi."
+         "id": "Advisory Big Four: memetakan dan menyusun sebuah penugasan dalam lingkungan proyek yang lebih besar dan lebih panjang dibanding firma butik strategi."
         }
        }
       ]
@@ -24398,49 +24398,49 @@ window.MT_LMS['the-map'] = {
     {
      "n": "6.5",
      "title": {
-      "en": "Industry Track – Law",
-      "id": "Jalur Industri – Hukum"
+      "en": "Industry Track: Law",
+      "id": "Jalur Industri: Hukum"
      },
      "dur": {
       "en": "25 min",
-      "id": "25 mnt"
+      "id": "25 menit"
      },
      "kind": "interactive",
      "placeholder": false,
      "overview": {
       "en": "A compressed junior workday in law: four realistic tasks with model debriefs. Run it honestly, attempt each task before revealing, then log the three-question debrief in your audit.",
-      "id": "Satu hari kerja level junior di bidang hukum, dipadatkan: empat tugas realistis dengan tinjauan model. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat tinjauan tiga pertanyaan di auditmu."
+      "id": "Satu hari kerja junior di bidang hukum yang dipadatkan: empat tugas realistis lengkap dengan contoh pembahasannya. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat pembahasan tiga pertanyaan di auditmu."
      },
      "objectives": [
       {
        "en": "Experience four representative junior tasks from law.",
-       "id": "Merasakan empat tugas level junior yang mewakili pekerjaan di bidang hukum."
+       "id": "Merasakan empat tugas junior yang mewakili bidang hukum."
       },
       {
        "en": "Place the roles, routes and employers of this industry on your own map.",
-       "id": "Menempatkan peran, jalur, dan perusahaan di industri ini pada petamu sendiri."
+       "id": "Tempatkan peran, jalur karier, dan pemberi kerja di industri ini di petamu sendiri."
       },
       {
        "en": "Attempt each task under a soft time-box before reading the model answer.",
-       "id": "Mengerjakan setiap tugas dengan batas waktu longgar sebelum membaca jawaban model."
+       "id": "Kerjakan setiap tugas dengan batas waktu yang longgar sebelum membaca contoh jawabannya."
       },
       {
        "en": "Score the track on energy, competence trajectory and curiosity.",
-       "id": "Menilai jalur ini dari sisi energi, arah kompetensi, dan rasa ingin tahu."
+       "id": "Beri nilai jalur ini untuk energi, arah kemampuan, dan rasa penasaran."
       }
      ],
      "takeaways": [
       {
        "en": "You now have behavioural data about this industry that no brochure could give you.",
-       "id": "Kamu sekarang punya data perilaku tentang industri ini; sesuatu yang tidak bisa diberikan brosur mana pun."
+       "id": "Kini kamu punya data perilaku tentang industri ini yang tidak bisa diberikan brosur mana pun."
       },
       {
        "en": "Slow is normal; the signal is whether the work pulled you in or pushed you away.",
-       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan ini menarikmu masuk atau mendorongmu menjauh."
+       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan itu menarikmu masuk atau mendorongmu menjauh."
       },
       {
        "en": "Log the three-question debrief before the impression fades, then run the matching Forage simulation if the track energised you.",
-       "id": "Catat tinjauan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
+       "id": "Catat pembahasan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
       }
      ],
      "scenario": {
@@ -24453,7 +24453,7 @@ window.MT_LMS['the-map'] = {
       "body": [
        {
         "en": "You are a trainee at a corporate law firm. A partner drops a draft services agreement on your desk: “Client signs tomorrow. Flag anything that could hurt them, and remember, they want the deal, not a lecture.”",
-        "id": "Kamu trainee di sebuah firma hukum korporat. Seorang partner meletakkan draf perjanjian jasa di mejamu: “Klien tanda tangan besok. Tandai apa pun yang bisa merugikan mereka, dan ingat, mereka mau kesepakatannya jadi, bukan ceramah.”"
+        "id": "Kamu trainee di sebuah firma hukum korporat. Seorang partner menaruh draf perjanjian jasa di mejamu: \"Klien tanda tangan besok. Tandai apa pun yang bisa merugikan mereka, dan ingat, mereka ingin kesepakatannya jadi, bukan diceramahi.\""
        }
       ]
      },
@@ -24465,25 +24465,25 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Three clauses from the draft: (a) “Provider may revise fees at any time upon notice.” (b) “Client indemnifies Provider against all claims arising from the services.” (c) “Either party may terminate with 30 days' notice; prepaid fees are non-refundable.” Your client is the customer. What is wrong with each? Work it, then reveal.",
-        "id": "Tiga klausul dari draf: (a) “Penyedia dapat merevisi biaya kapan saja dengan pemberitahuan.” (b) “Klien membebaskan Penyedia dari seluruh klaim yang timbul dari jasa.” (c) “Salah satu pihak dapat mengakhiri perjanjian dengan pemberitahuan 30 hari; biaya yang telah dibayar di muka tidak dapat dikembalikan.” Klienmu adalah pihak pelanggan. Apa yang salah pada masing-masing klausul? Kerjakan, lalu buka jawabannya."
+        "id": "Tiga klausul dari draf itu: (a) \"Penyedia dapat mengubah biaya kapan saja dengan pemberitahuan.\" (b) \"Klien mengganti rugi Penyedia atas semua klaim yang timbul dari jasa ini.\" (c) \"Masing-masing pihak dapat mengakhiri perjanjian dengan pemberitahuan 30 hari; biaya yang sudah dibayar di muka tidak dapat dikembalikan.\" Klienmu adalah pihak pelanggan. Apa yang salah dari masing-masing? Kerjakan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "(a) A unilateral price-change right with no cap or consent converts a fixed deal into an open cheque, cap it, or grant a termination right on any increase. (b) The indemnity is backwards: the client would pay for the provider's own failures; indemnities should follow fault, each party covering harm it causes. (c) Termination looks mutual but non-refundable prepayment makes it one-sided. The provider can exit holding the client's money; unearned fees must be refunded pro-rata. Pattern: read every clause asking “who bears the risk if things go wrong, and who controls the lever?”",
-        "id": "(a) Hak mengubah harga secara sepihak tanpa batas atau persetujuan mengubah kesepakatan yang tetap menjadi cek kosong. Batasi, atau berikan hak mengakhiri perjanjian atas setiap kenaikan. (b) Ganti ruginya terbalik: klien justru menanggung kegagalan penyedia sendiri; ganti rugi seharusnya mengikuti kesalahan, masing-masing pihak menanggung kerugian yang ia sebabkan. (c) Pengakhiran tampak setara, tapi uang muka yang tidak bisa kembali membuatnya berat sebelah. Penyedia bisa keluar sambil memegang uang klien; biaya yang belum terpakai wajib dikembalikan secara proporsional. Polanya: baca setiap klausul sambil bertanya “siapa yang menanggung risiko kalau terjadi masalah, dan siapa yang memegang tuasnya?”"
+        "en": "(a) A unilateral price-change right with no cap or consent converts a fixed deal into an open cheque: cap it, or grant a termination right on any increase. (b) The indemnity is backwards: the client would pay for the provider's own failures; indemnities should follow fault, each party covering harm it causes. (c) Termination looks mutual but non-refundable prepayment makes it one-sided: the provider can exit holding the client's money; unearned fees must be refunded pro-rata. Pattern: read every clause asking “who bears the risk if things go wrong, and who controls the lever?”",
+        "id": "(a) Hak mengubah harga secara sepihak tanpa batas atau persetujuan mengubah kesepakatan tetap menjadi cek kosong: beri batas atas, atau beri hak mengakhiri perjanjian setiap kali ada kenaikan. (b) Klausul ganti ruginya terbalik: klien akan membayar kegagalan penyedia sendiri; ganti rugi seharusnya mengikuti kesalahan, dengan masing-masing pihak menanggung kerugian yang ia timbulkan. (c) Pengakhirannya tampak seimbang, tetapi pembayaran di muka yang tidak bisa dikembalikan membuatnya berat sebelah: penyedia bisa keluar sambil memegang uang klien; biaya yang belum dinikmati harus dikembalikan secara proporsional. Polanya: baca setiap klausul sambil bertanya \"siapa yang menanggung risikonya kalau ada yang salah, dan siapa yang memegang tuasnya?\""
        }
       },
       {
        "h": {
         "en": "Task 2: Redline, don't lecture",
-        "id": "Tugas 2: Perbaiki drafnya, jangan berceramah"
+        "id": "Tugas 2: Redline, jangan menceramahi"
        },
        "body": {
         "en": "Redraft clause (a) so the client is protected but the deal still closes tomorrow. Then reveal.",
-        "id": "Tulis ulang klausul (a) supaya klien terlindungi, tapi kesepakatan tetap bisa ditandatangani besok. Lalu buka jawabannya."
+        "id": "Susun ulang klausul (a) supaya klien terlindungi tetapi kesepakatannya tetap bisa ditandatangani besok. Lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Model: “Provider may revise fees once per contract year, with 60 days' written notice, by no more than 5% or CPI, whichever is lower. If Client objects, Client may terminate without penalty before the revision takes effect, with unused prepaid fees refunded.” Notice the trade: the provider keeps a legitimate inflation valve; the client gains a cap, notice, and an exit. Deal-saving redlines offer the counterparty something reasonable while closing the abuse, lawyers who only strike clauses kill deals; lawyers who rebalance them close deals.",
-        "id": "Model: “Penyedia dapat merevisi biaya satu kali per tahun kontrak, dengan pemberitahuan tertulis 60 hari sebelumnya, sebesar maksimal 5% atau tingkat inflasi, mana yang lebih rendah. Apabila Klien berkeberatan, Klien dapat mengakhiri perjanjian tanpa penalti sebelum revisi berlaku, dan biaya di muka yang belum terpakai dikembalikan.” Perhatikan pertukarannya: penyedia tetap punya katup inflasi yang sah; klien mendapat batas, pemberitahuan, dan jalan keluar. Perbaikan draf yang menyelamatkan kesepakatan selalu menawarkan sesuatu yang wajar bagi pihak lawan sambil menutup celah penyalahgunaannya, pengacara yang hanya mencoret klausul membunuh kesepakatan; pengacara yang menyeimbangkan ulang klausul yang membuatnya jadi."
+        "en": "Model: “Provider may revise fees once per contract year, with 60 days' written notice, by no more than 5% or CPI, whichever is lower. If Client objects, Client may terminate without penalty before the revision takes effect, with unused prepaid fees refunded.” Notice the trade: the provider keeps a legitimate inflation valve; the client gains a cap, notice, and an exit. Deal-saving redlines offer the counterparty something reasonable while closing the abuse: lawyers who only strike clauses kill deals; lawyers who rebalance them close deals.",
+        "id": "Contoh: \"Penyedia dapat mengubah biaya satu kali per tahun kontrak, dengan pemberitahuan tertulis 60 hari sebelumnya, paling tinggi 5% atau sebesar inflasi (IHK), mana yang lebih rendah. Jika Klien keberatan, Klien dapat mengakhiri perjanjian tanpa denda sebelum perubahan berlaku, dan biaya di muka yang belum terpakai dikembalikan.\" Perhatikan pertukarannya: penyedia tetap punya katup inflasi yang wajar; klien mendapat batas atas, pemberitahuan, dan jalan keluar. Redline yang menyelamatkan kesepakatan menawarkan sesuatu yang masuk akal kepada pihak lawan sambil menutup celah penyalahgunaannya: pengacara yang hanya mencoret klausul membunuh kesepakatan; pengacara yang menyeimbangkannya menuntaskan kesepakatan."
        }
       },
       {
@@ -24493,25 +24493,25 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Write the email to the client: what you changed, what risk remains, what you need from them by when. Then reveal.",
-        "id": "Tulis email untuk klien: apa yang kamu ubah, risiko apa yang masih tersisa, dan apa yang kamu butuhkan dari mereka beserta batas waktunya. Lalu buka jawabannya."
+        "id": "Tulis email untuk klien: apa yang kamu ubah, risiko apa yang tersisa, dan apa yang kamu butuhkan dari mereka paling lambat kapan. Lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Model: three bullets. “Changed: fee increases now capped at 5%/year with exit right; indemnity now mutual and fault-based; termination refunds unused prepayment. Remaining risk: the liability cap stands at 12 months' fees, market-standard, but if the service fails during your peak season your losses could exceed it; we can push for carve-outs if you wish, at some risk to timeline. Needed: your call on the liability point by 3 pm today.” Legal advice at its best is exactly this: risks translated into business terms, decisions returned to their owner, deadlines explicit.",
-        "id": "Model: tiga poin. “Yang diubah: kenaikan biaya kini dibatasi 5% per tahun dengan hak keluar; ganti rugi kini timbal balik dan berbasis kesalahan; pengakhiran perjanjian mengembalikan uang muka yang belum terpakai. Risiko yang tersisa: batas tanggung jawab tetap di angka biaya 12 bulan. Ini standar pasar, tetapi kalau layanan gagal di musim puncak Bapak/Ibu, kerugian bisa melampauinya; kami bisa mengupayakan pengecualian jika diinginkan, dengan risiko pada jadwal. Yang dibutuhkan: keputusan Bapak/Ibu soal batas tanggung jawab sebelum pukul 15.00 hari ini.” Nasihat hukum terbaik persis seperti ini: risiko diterjemahkan ke bahasa bisnis, keputusan dikembalikan kepada pemiliknya, tenggat disebut dengan jelas."
+        "en": "Model: three bullets. “Changed: fee increases now capped at 5%/year with exit right; indemnity now mutual and fault-based; termination refunds unused prepayment. Remaining risk: the liability cap stands at 12 months' fees (market-standard), but if the service fails during your peak season your losses could exceed it; we can push for carve-outs if you wish, at some risk to timeline. Needed: your call on the liability point by 3 pm today.” Legal advice at its best is exactly this: risks translated into business terms, decisions returned to their owner, deadlines explicit.",
+        "id": "Contoh: tiga poin. \"Yang diubah: kenaikan biaya kini dibatasi 5%/tahun dengan hak untuk keluar; ganti rugi kini timbal balik dan berdasarkan kesalahan; pengakhiran perjanjian kini mengembalikan pembayaran di muka yang belum terpakai. Risiko yang tersisa: batas tanggung jawab tetap sebesar biaya 12 bulan (standar pasar), tetapi kalau jasanya gagal di musim puncak Bapak/Ibu, kerugiannya bisa melebihi batas itu; kami bisa mengupayakan pengecualian kalau Bapak/Ibu menghendaki, dengan sedikit risiko terhadap jadwal. Yang kami butuhkan: keputusan Bapak/Ibu soal batas tanggung jawab itu paling lambat jam 3 sore hari ini.\" Nasihat hukum yang terbaik persis seperti ini: risiko diterjemahkan ke bahasa bisnis, keputusan dikembalikan kepada pemiliknya, tenggat dinyatakan dengan jelas."
        }
       },
       {
        "h": {
         "en": "Task 4: Advise, don't decide",
-        "id": "Tugas 4: Beri nasihat, jangan putuskan"
+        "id": "Tugas 4: Beri nasihat, jangan memutuskan"
        },
        "body": {
         "en": "The client's CEO replies to your email: “The other side won't move on the unlimited indemnity. The deal is worth Rp 40bn a year to us. Just tell me. Sign or walk?” Draft the three-sentence reply of a lawyer who knows the limits of the role, then reveal.",
-        "id": "CEO klien membalas emailmu: “Pihak lain tidak mau bergeser soal ganti rugi tanpa batas. Transaksi ini bernilai Rp 40 miliar per tahun bagi kami. Katakan saja, tanda tangan atau mundur?” Susun balasan tiga kalimat dari pengacara yang paham batas perannya, lalu buka jawabannya."
+        "id": "CEO klien membalas emailmu: \"Pihak sana tidak mau bergeser soal ganti rugi tanpa batas. Kesepakatan ini bernilai Rp40 miliar setahun bagi kami. Bilang saja. Tanda tangan atau mundur?\" Susun balasan tiga kalimat dari seorang pengacara yang paham batas perannya, lalu buka jawabannya."
        },
        "debrief": {
         "en": "Model: “Signing as drafted means one contractual failure could expose you to losses far beyond the Rp 40bn the contract earns. That is the risk, stated plainly. Two middle paths remain: cap the indemnity at one or two years' contract value, or carve out consequential loss; both are market-standard and I would expect at least one to land. Whether Rp 40bn a year is worth the residual exposure is a commercial decision that is yours to make, and I will make sure you make it with the risk in full view.” Lawyers advise; clients decide. The junior mistake is either to answer ‘sign’ (taking a decision that is not yours) or to bury the CEO in caveats (giving no advice at all). The professional move quantifies the exposure, offers routes, and hands the decision back clearly labelled.",
-        "id": "Model: “Menandatangani sebagaimana drafnya berarti satu kegagalan kontrak bisa membuat Anda menanggung kerugian jauh melampaui Rp 40 miliar yang dihasilkan kontrak ini. Itu risikonya, dinyatakan apa adanya. Masih ada dua jalan tengah: membatasi ganti rugi pada satu atau dua tahun nilai kontrak, atau mengecualikan kerugian tidak langsung; keduanya lazim di pasar dan saya perkirakan setidaknya satu diterima. Apakah Rp 40 miliar per tahun sepadan dengan sisa paparan itu adalah keputusan komersial yang menjadi hak Anda, dan saya akan memastikan Anda memutuskannya dengan risiko yang terlihat utuh.” Pengacara menasihati; klien memutuskan. Kesalahan junior adalah menjawab ‘tanda tangan’ (mengambil keputusan yang bukan haknya) atau menimbun CEO dengan peringatan (tidak memberi nasihat sama sekali). Langkah profesionalnya mengukur paparannya, menawarkan jalan, dan mengembalikan keputusan dengan label yang jelas."
+        "id": "Contoh: \"Menandatangani sesuai draf berarti satu kegagalan kontraktual bisa membuat Bapak/Ibu menanggung kerugian yang jauh melampaui Rp40 miliar yang dihasilkan kontrak ini. Itulah risikonya, dinyatakan dengan terus terang. Masih ada dua jalan tengah: batasi ganti ruginya sebesar satu atau dua tahun nilai kontrak, atau kecualikan kerugian tidak langsung; keduanya standar pasar dan saya perkirakan setidaknya satu akan diterima. Apakah Rp40 miliar setahun sepadan dengan sisa paparan risikonya adalah keputusan bisnis yang menjadi wewenang Bapak/Ibu, dan saya akan memastikan Bapak/Ibu mengambilnya dengan risiko yang terlihat utuh.\" Pengacara memberi nasihat; klien yang memutuskan. Kesalahan junior adalah menjawab \"tanda tangan\" (mengambil keputusan yang bukan wewenangnya) atau menenggelamkan CEO dalam segudang catatan (sama sekali tidak memberi nasihat). Langkah profesionalnya: mengukur paparan risikonya, menawarkan jalan, dan mengembalikan keputusannya dengan label yang jelas."
        }
       }
      ],
@@ -24519,11 +24519,11 @@ window.MT_LMS['the-map'] = {
       {
        "term": {
         "en": "indemnity",
-        "id": "ganti rugi"
+        "id": "ganti rugi (indemnity)"
        },
        "def": {
-        "en": "A contractual promise by one party to cover certain losses of the other, powerful, and dangerous when it does not follow fault.",
-        "id": "Janji dalam kontrak dari satu pihak untuk menanggung kerugian tertentu pihak lain, kuat, dan berbahaya kalau tidak mengikuti siapa yang bersalah."
+        "en": "A contractual promise by one party to cover certain losses of the other: powerful, and dangerous when it does not follow fault.",
+        "id": "Janji kontraktual satu pihak untuk menanggung kerugian tertentu pihak lain: kuat, dan berbahaya kalau tidak mengikuti kesalahan."
        }
       },
       {
@@ -24532,8 +24532,8 @@ window.MT_LMS['the-map'] = {
         "id": "redline"
        },
        "def": {
-        "en": "A marked-up draft showing proposed deletions and insertions, the unit of contract negotiation.",
-        "id": "Draf dengan tanda perubahan yang menunjukkan usulan penghapusan dan penambahan, satuan dasar negosiasi kontrak."
+        "en": "A marked-up draft showing proposed deletions and insertions; the unit of contract negotiation.",
+        "id": "Draf bertanda yang menunjukkan usulan penghapusan dan penambahan; satuan dalam negosiasi kontrak."
        }
       },
       {
@@ -24549,11 +24549,11 @@ window.MT_LMS['the-map'] = {
       {
        "term": {
         "en": "in-house counsel",
-        "id": "penasihat hukum internal"
+        "id": "in-house counsel"
        },
        "def": {
         "en": "A lawyer employed by a company rather than a firm, whose product is judgement about which risks the business can carry.",
-        "id": "Pengacara yang dipekerjakan perusahaan, bukan firma, yang produknya adalah penilaian tentang risiko mana yang bisa ditanggung bisnis."
+        "id": "Pengacara yang dipekerjakan sebuah perusahaan, bukan firma hukum, yang produknya adalah penilaian tentang risiko mana yang sanggup ditanggung bisnisnya."
        }
       }
      ],
@@ -24561,51 +24561,51 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "What single question drives contract review in this track?",
-        "id": "Satu pertanyaan apa yang menjadi penggerak utama tinjauan kontrak di jalur ini?"
+        "id": "Satu pertanyaan apa yang menggerakkan peninjauan kontrak di jalur ini?"
        },
        "options": [
         {
          "en": "“Is the language grammatically precise?”",
-         "id": "“Apakah bahasanya sudah tepat secara tata bahasa?”"
+         "id": "\"Apakah bahasanya presisi secara tata bahasa?\""
         },
         {
          "en": "“Who bears the risk if things go wrong, and who controls the lever?”",
-         "id": "“Siapa yang menanggung risiko kalau terjadi masalah, dan siapa yang memegang tuasnya?”"
+         "id": "\"Siapa yang menanggung risikonya kalau ada yang salah, dan siapa yang memegang tuasnya?\""
         },
         {
          "en": "“Does the contract match the standard template?”",
-         "id": "“Apakah kontraknya sesuai dengan templat standar?”"
+         "id": "\"Apakah kontraknya sesuai dengan templat standar?\""
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Every flagged clause, fees, indemnity, termination, was a risk-and-control question wearing legal language.",
-        "id": "Setiap klausul yang ditandai, biaya, ganti rugi, pengakhiran, sebenarnya adalah pertanyaan tentang risiko dan kendali yang berbalut bahasa hukum."
+        "en": "Every flagged clause (fees, indemnity, termination) was a risk-and-control question wearing legal language.",
+        "id": "Setiap klausul yang ditandai (biaya, ganti rugi, pengakhiran) adalah pertanyaan soal risiko dan kendali yang berpakaian bahasa hukum."
        }
       },
       {
        "q": {
         "en": "The CEO asks ‘sign or walk?’ on a clause the other side will not move. The lawyer's job is to:",
-        "id": "CEO bertanya ‘tanda tangan atau mundur?’ atas klausul yang tidak mau digeser pihak lain. Tugas pengacara adalah:"
+        "id": "CEO bertanya \"tanda tangan atau mundur?\" soal klausul yang tidak mau diubah pihak lawan. Tugas pengacara adalah:"
        },
        "options": [
         {
          "en": "Say ‘sign’: the deal is clearly valuable",
-         "id": "Menjawab ‘tanda tangan’: transaksinya jelas berharga"
+         "id": "Bilang \"tanda tangan\": kesepakatannya jelas bernilai"
         },
         {
          "en": "Quantify the exposure, offer middle-path wordings, and hand back a clearly labelled commercial decision",
-         "id": "Mengukur paparannya, menawarkan redaksi jalan tengah, dan mengembalikan keputusan komersial dengan label yang jelas"
+         "id": "Mengukur paparan risikonya, menawarkan rumusan jalan tengah, dan mengembalikan keputusan bisnisnya dengan label yang jelas"
         },
         {
          "en": "List every possible risk so nothing can be blamed on you",
-         "id": "Mendaftar semua kemungkinan risiko agar tidak ada yang bisa disalahkan padamu"
+         "id": "Mendaftar setiap risiko yang mungkin supaya tidak ada yang bisa disalahkan kepadamu"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Lawyers advise, clients decide. Advice means the risk in full view and real routes forward, not a decision taken for them, and not a fog of caveats.",
-        "id": "Pengacara menasihati, klien memutuskan. Nasihat berarti risiko yang terlihat utuh dan jalan nyata ke depan, bukan keputusan yang diambil untuk mereka, dan bukan kabut peringatan."
+        "id": "Pengacara memberi nasihat, klien yang memutuskan. Nasihat berarti risikonya terlihat utuh dan ada jalan keluar yang nyata, bukan keputusan yang diambilkan untuk mereka, dan bukan kabut berisi segudang catatan."
        }
       }
      ],
@@ -24615,18 +24615,18 @@ window.MT_LMS['the-map'] = {
        "icon": "compass",
        "h": {
         "en": "The industry at a glance: roles, routes, who hires",
-        "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
+        "id": "Sekilas industrinya: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "Legal careers fork early, and the fork matters more than the firm. <b>Private practice</b> at law firms (in Indonesia, firms such as ABNR, Hadiputranto Hadinoto &amp; Partners, Assegaf Hamzah &amp; Partners, SSEK, Makarim &amp; Taira and Ginting &amp; Reksodiputro; globally the magic-circle and US firms) serves clients on transactions, disputes or regulatory matters: junior associate → associate → senior associate → partner. <b>In-house</b> counsel sits inside a company, a bank, a state-owned enterprise, a tech platform, a mining group, where the job is less about drafting and more about judgement: which risks the business can live with. <b>Public service, the judiciary and prosecution, and policy or compliance roles</b> are the third branch. The contract-review track you just ran is private-practice work; the client email in Task 3 is in-house thinking. Two realities to weigh honestly: the first years in practice are heavy on document work and hours, and the profession rewards precision over speed. Every word carries a consequence. If finding the tilted clause felt like a treasure hunt, that is real signal; if it felt like proof-reading, that is signal too.",
-        "id": "Karier hukum bercabang sejak awal, dan cabangnya lebih penting daripada firmanya. <b>Praktik privat</b> di firma hukum (di Indonesia, firma seperti ABNR, Hadiputranto Hadinoto &amp; Partners, Assegaf Hamzah &amp; Partners, SSEK, Makarim &amp; Taira, dan Ginting &amp; Reksodiputro; secara global firma magic circle dan AS) melayani klien untuk transaksi, sengketa, atau urusan regulasi: junior associate → associate → senior associate → partner. <b>In-house</b> counsel berada di dalam perusahaan, bank, BUMN, platform teknologi, grup pertambangan, di mana pekerjaannya lebih sedikit menyusun draf dan lebih banyak menilai: risiko mana yang bisa ditanggung bisnis. <b>Pelayanan publik, peradilan dan kejaksaan, serta peran kebijakan atau kepatuhan</b> adalah cabang ketiga. Jalur tinjauan kontrak yang baru kamu jalani adalah pekerjaan praktik privat; email klien di Tugas 3 adalah cara berpikir in-house. Dua kenyataan yang perlu ditimbang dengan jujur: tahun-tahun pertama di praktik sarat pekerjaan dokumen dan jam kerja, dan profesi ini menghargai presisi di atas kecepatan. Setiap kata membawa konsekuensi. Kalau menemukan klausul yang berat sebelah terasa seperti berburu harta karun, itu sinyal sungguhan; kalau terasa seperti mengoreksi tulisan, itu juga sinyal."
+        "en": "Legal careers fork early, and the fork matters more than the firm. <b>Private practice</b> at law firms (in Indonesia, firms such as ABNR, Hadiputranto Hadinoto &amp; Partners, Assegaf Hamzah &amp; Partners, SSEK, Makarim &amp; Taira and Ginting &amp; Reksodiputro; globally the magic-circle and US firms) serves clients on transactions, disputes or regulatory matters: junior associate → associate → senior associate → partner. <b>In-house</b> counsel sits inside a company (a bank, a state-owned enterprise, a tech platform, a mining group), where the job is less about drafting and more about judgement: which risks the business can live with. <b>Public service, the judiciary and prosecution, and policy or compliance roles</b> are the third branch. The contract-review track you just ran is private-practice work; the client email in Task 3 is in-house thinking. Two realities to weigh honestly: the first years in practice are heavy on document work and hours, and the profession rewards precision over speed, because every word carries a consequence. If finding the tilted clause felt like a treasure hunt, that is real signal; if it felt like proof-reading, that is signal too.",
+        "id": "Karier hukum bercabang sejak awal, dan percabangannya lebih penting daripada firmanya. <b>Praktik swasta</b> di firma hukum (di Indonesia, firma seperti ABNR, Hadiputranto Hadinoto &amp; Partners, Assegaf Hamzah &amp; Partners, SSEK, Makarim &amp; Taira, dan Ginting &amp; Reksodiputro; secara global, firma-firma magic circle dan firma Amerika) melayani klien dalam transaksi, sengketa, atau urusan regulasi: junior associate → associate → senior associate → partner. <b>In-house</b> counsel berada di dalam perusahaan (bank, BUMN, platform teknologi, grup tambang), dan pekerjaannya lebih sedikit soal menyusun naskah dan lebih banyak soal penilaian: risiko mana yang bisa ditanggung bisnisnya. <b>Pelayanan publik, kehakiman dan kejaksaan, serta peran kebijakan atau kepatuhan</b> adalah cabang ketiga. Jalur peninjauan kontrak yang baru kamu jalankan adalah pekerjaan praktik swasta; email untuk klien di Tugas 3 adalah cara berpikir in-house. Dua kenyataan yang perlu ditimbang dengan jujur: tahun-tahun pertama di praktik banyak diisi pekerjaan dokumen dan jam kerja panjang, dan profesi ini menghargai ketelitian di atas kecepatan, karena setiap kata membawa konsekuensi. Kalau menemukan klausul yang berat sebelah terasa seperti berburu harta karun, itu sinyal yang nyata; kalau terasa seperti mengoreksi salah ketik, itu juga sinyal."
        }
       }
      ],
      "mistakes": {
       "title": {
        "en": "What trainees get wrong in law",
-       "id": "Kesalahan umum trainee di bidang hukum"
+       "id": "Kesalahan trainee di bidang hukum"
       },
       "items": [
        {
@@ -24636,27 +24636,27 @@ window.MT_LMS['the-map'] = {
         },
         "fix": {
          "en": "Ask first who carries the risk if something goes wrong; the clauses that shift it are where the attention goes.",
-         "id": "Tanyakan dulu siapa yang menanggung risiko kalau ada yang salah; klausul yang menggeser risiko itulah yang layak mendapat perhatian."
+         "id": "Tanyakan dulu siapa yang menanggung risikonya kalau ada yang salah; klausul yang menggeser risiko itulah tempat perhatianmu dicurahkan."
         }
        },
        {
         "h": {
          "en": "Lecturing the other side instead of redlining",
-         "id": "Menceramahi pihak lain alih-alih memperbaiki draf"
+         "id": "Menceramahi pihak lawan alih-alih membuat redline"
         },
         "fix": {
          "en": "A proposed wording moves a negotiation; a paragraph explaining why the clause is unfair does not.",
-         "id": "Usulan redaksi menggerakkan negosiasi; paragraf yang menjelaskan mengapa klausulnya tidak adil tidak."
+         "id": "Usulan rumusan menggerakkan negosiasi; paragraf yang menjelaskan kenapa klausulnya tidak adil tidak menggerakkan apa-apa."
         }
        },
        {
         "h": {
          "en": "Deciding for the client, or refusing to advise",
-         "id": "Memutuskan untuk klien: atau menolak memberi nasihat"
+         "id": "Memutuskan untuk klien, atau menolak memberi nasihat"
         },
         "fix": {
          "en": "Quantify the exposure, offer the routes, label the decision as theirs. Advice with the risk in full view is the whole job.",
-         "id": "Ukur paparannya, tawarkan jalannya, beri label bahwa keputusannya milik mereka. Nasihat dengan risiko yang terlihat utuh adalah keseluruhan pekerjaannya."
+         "id": "Ukur paparan risikonya, tawarkan jalannya, beri label bahwa keputusannya milik mereka. Nasihat dengan risiko yang terlihat utuh adalah seluruh pekerjaannya."
         }
        }
       ]
@@ -24666,22 +24666,22 @@ window.MT_LMS['the-map'] = {
        {
         "id": "wc-law",
         "fit": {
-         "en": "Trainee work on a cross-border matter, research, a client note and a drafting task, the private-practice branch of this track at a global firm.",
-         "id": "Pekerjaan trainee pada perkara lintas negara, riset, nota klien, dan tugas menyusun draf, cabang praktik privat jalur ini di firma global."
+         "en": "Trainee work on a cross-border matter (research, a client note and a drafting task): the private-practice branch of this track at a global firm.",
+         "id": "Pekerjaan trainee dalam perkara lintas negara (riset, catatan untuk klien, dan tugas menyusun naskah): cabang praktik swasta dari jalur ini di sebuah firma global."
         }
        },
        {
         "id": "kwm-law",
         "fit": {
          "en": "Document review, summarising advice and drafting across practice areas: a second look at trainee life, useful for comparing how firms differ.",
-         "id": "Tinjauan dokumen, meringkas nasihat, dan menyusun draf lintas bidang praktik: pandangan kedua tentang kehidupan trainee, berguna untuk membandingkan perbedaan antarfirma."
+         "id": "Peninjauan dokumen, meringkas nasihat, dan menyusun naskah di berbagai bidang praktik: sudut pandang kedua tentang kehidupan trainee, berguna untuk membandingkan perbedaan antarfirma."
         }
        },
        {
         "id": "cc-cyber",
         "fit": {
-         "en": "Law where it meets technology: advising a client through a data breach. The ‘advise, don't decide’ discipline from Task 4, under regulatory pressure.",
-         "id": "Hukum di titik temunya dengan teknologi: mendampingi klien menghadapi kebocoran data. Disiplin ‘beri nasihat, jangan putuskan’ dari Tugas 4, di bawah tekanan regulator."
+         "en": "Law where it meets technology: advising a client through a data breach: the ‘advise, don't decide’ discipline from Task 4, under regulatory pressure.",
+         "id": "Hukum yang bertemu teknologi, yaitu mendampingi klien melewati kebocoran data: disiplin \"beri nasihat, jangan memutuskan\" dari Tugas 4, di bawah tekanan regulasi."
         }
        }
       ]
@@ -24693,49 +24693,49 @@ window.MT_LMS['the-map'] = {
     {
      "n": "6.6",
      "title": {
-      "en": "Industry Track – FMCG",
-      "id": "Jalur Industri – FMCG"
+      "en": "Industry Track: FMCG",
+      "id": "Jalur Industri: FMCG"
      },
      "dur": {
       "en": "25 min",
-      "id": "25 mnt"
+      "id": "25 menit"
      },
      "kind": "interactive",
      "placeholder": false,
      "overview": {
-      "en": "A compressed junior workday in fmcg: four realistic tasks with model debriefs. Run it honestly, attempt each task before revealing, then log the three-question debrief in your audit.",
-      "id": "Satu hari kerja level junior di bidang FMCG (barang konsumsi cepat habis), dipadatkan: empat tugas realistis dengan tinjauan model. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat tinjauan tiga pertanyaan di auditmu."
+      "en": "A compressed junior workday in FMCG: four realistic tasks with model debriefs. Run it honestly, attempt each task before revealing, then log the three-question debrief in your audit.",
+      "id": "Satu hari kerja junior di bidang FMCG yang dipadatkan: empat tugas realistis lengkap dengan contoh pembahasannya. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat pembahasan tiga pertanyaan di auditmu."
      },
      "objectives": [
       {
-       "en": "Experience four representative junior tasks from fmcg.",
-       "id": "Merasakan empat tugas level junior yang mewakili pekerjaan di bidang FMCG."
+       "en": "Experience four representative junior tasks from FMCG.",
+       "id": "Merasakan empat tugas junior yang mewakili bidang FMCG."
       },
       {
        "en": "Place the roles, routes and employers of this industry on your own map.",
-       "id": "Menempatkan peran, jalur, dan perusahaan di industri ini pada petamu sendiri."
+       "id": "Tempatkan peran, jalur karier, dan pemberi kerja di industri ini di petamu sendiri."
       },
       {
        "en": "Attempt each task under a soft time-box before reading the model answer.",
-       "id": "Mengerjakan setiap tugas dengan batas waktu longgar sebelum membaca jawaban model."
+       "id": "Kerjakan setiap tugas dengan batas waktu yang longgar sebelum membaca contoh jawabannya."
       },
       {
        "en": "Score the track on energy, competence trajectory and curiosity.",
-       "id": "Menilai jalur ini dari sisi energi, arah kompetensi, dan rasa ingin tahu."
+       "id": "Beri nilai jalur ini untuk energi, arah kemampuan, dan rasa penasaran."
       }
      ],
      "takeaways": [
       {
        "en": "You now have behavioural data about this industry that no brochure could give you.",
-       "id": "Kamu sekarang punya data perilaku tentang industri ini; sesuatu yang tidak bisa diberikan brosur mana pun."
+       "id": "Kini kamu punya data perilaku tentang industri ini yang tidak bisa diberikan brosur mana pun."
       },
       {
        "en": "Slow is normal; the signal is whether the work pulled you in or pushed you away.",
-       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan ini menarikmu masuk atau mendorongmu menjauh."
+       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan itu menarikmu masuk atau mendorongmu menjauh."
       },
       {
        "en": "Log the three-question debrief before the impression fades, then run the matching Forage simulation if the track energised you.",
-       "id": "Catat tinjauan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
+       "id": "Catat pembahasan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
       }
      ],
      "scenario": {
@@ -24748,7 +24748,7 @@ window.MT_LMS['the-map'] = {
       "body": [
        {
         "en": "You are a junior brand associate at a consumer-goods company. Monday metrics meeting: your instant-beverage brand lost 1.2 points of market share this quarter. The brand manager turns to you: “Take the first pass. Where did it go, and what do we do this month?”",
-        "id": "Kamu junior brand associate di sebuah perusahaan barang konsumsi. Rapat metrik hari Senin: merek minuman instanmu kehilangan 1,2 poin pangsa pasar kuartal ini. Manajer merek menoleh kepadamu: “Coba kamu yang analisis dulu. Ke mana perginya, dan apa yang kita lakukan bulan ini?”"
+        "id": "Kamu brand associate junior di sebuah perusahaan barang konsumen. Rapat angka hari Senin: merek minuman instanmu kehilangan 1,2 poin pangsa pasar kuartal ini. Brand manager-mu menoleh kepadamu: \"Kamu ambil analisis pertamanya. Pangsanya lari ke mana, dan apa yang kita lakukan bulan ini?\""
        }
       ]
      },
@@ -24756,15 +24756,15 @@ window.MT_LMS['the-map'] = {
       {
        "h": {
         "en": "Task 1: Decompose the share loss",
-        "id": "Tugas 1: Urai hilangnya pangsa pasar"
+        "id": "Tugas 1: Urai penurunan pangsa pasarnya"
        },
        "body": {
         "en": "Data: your share 14.3% → 13.1%. Numeric distribution flat at 78% of stores. Competitor B launched a Rp 500 cheaper sachet and gained 1.5 points. Your price held; promo depth was cut 30% this quarter to protect margin. Where did the share go, mechanically? Work it, then reveal.",
-        "id": "Data: pangsa pasarmu 14,3% → 13,1%. Distribusi numerik stagnan di 78% toko. Pesaing B meluncurkan sachet dengan harga Rp 500 lebih murah dan naik 1,5 poin. Hargamu tidak berubah; kedalaman promo dipangkas 30% kuartal ini demi menjaga margin. Secara mekanis, ke mana pangsa pasar itu pergi? Kerjakan, lalu buka jawabannya."
+        "id": "Data: pangsamu 14,3% → 13,1%. Distribusi numerik stagnan di 78% toko. Pesaing B meluncurkan sachet yang Rp500 lebih murah dan naik 1,5 poin. Hargamu tetap; kedalaman promo dipangkas 30% kuartal ini untuk menjaga margin. Secara mekanis, ke mana pangsanya pergi? Kerjakan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Share moves through four gates: distribution (can shoppers find you?), visibility (do they see you?), trial (does the price of entry work?), repeat (does the product deliver?). Distribution is flat, so the loss is in-store: the competitor's cheaper sachet attacks trial at exactly the moment your promo cut lowered your own visibility and price competitiveness. The mechanical answer: price-sensitive light buyers switched at shelf. FMCG's discipline is this decomposition; share never “just falls”, it leaks through a specific gate you can name.",
-        "id": "Pangsa pasar bergerak melewati empat gerbang: distribusi (bisakah pembeli menemukanmu?), visibilitas (apakah mereka melihatmu?), coba (apakah harga masuknya cukup menarik?), beli ulang (apakah produknya memuaskan?). Distribusi stagnan, jadi kebocorannya terjadi di dalam toko: sachet murah pesaing menyerang gerbang coba tepat ketika pemangkasan promomu menurunkan visibilitas dan daya saing hargamu sendiri. Jawaban mekanisnya: pembeli ringan yang peka harga berpindah merek langsung di rak. Disiplin FMCG adalah penguraian seperti ini. Pangsa pasar tidak pernah “sekadar turun”; ia bocor lewat gerbang tertentu yang bisa kamu sebutkan."
+        "en": "Share moves through four gates: distribution (can shoppers find you?), visibility (do they see you?), trial (does the price of entry work?), repeat (does the product deliver?). Distribution is flat, so the loss is in-store: the competitor's cheaper sachet attacks trial at exactly the moment your promo cut lowered your own visibility and price competitiveness. The mechanical answer: price-sensitive light buyers switched at shelf. FMCG's discipline is this decomposition; share never “just falls”; it leaks through a specific gate you can name.",
+        "id": "Pangsa pasar bergerak melewati empat gerbang: distribusi (bisakah pembeli menemukanmu?), visibilitas (apakah mereka melihatmu?), coba-coba (apakah harga untuk mencoba masuk akal?), pembelian ulang (apakah produknya sesuai janji?). Distribusinya stagnan, jadi kehilangannya terjadi di dalam toko: sachet pesaing yang lebih murah menyerang tahap coba-coba tepat saat pemangkasan promomu menurunkan visibilitas dan daya saing harga produkmu sendiri. Jawaban mekanisnya: pembeli ringan yang peka harga berpindah di depan rak. Disiplin FMCG adalah penguraian seperti ini: pangsa pasar tidak pernah \"turun begitu saja\"; ia bocor lewat satu gerbang tertentu yang bisa kamu sebutkan."
        }
       },
       {
@@ -24774,39 +24774,39 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "Three options, one month, limited budget: (a) match the competitor's price with a fighter pack, (b) restore promo depth in the top 20% of stores that drive 60% of volume, (c) launch a loyalty push on your app. Pick one with reasoning, then reveal.",
-        "id": "Tiga pilihan, satu bulan, anggaran terbatas: (a) samai harga pesaing dengan kemasan tempur, (b) pulihkan kedalaman promo di 20% toko teratas yang menyumbang 60% volume, (c) luncurkan program loyalitas di aplikasimu. Pilih satu beserta alasannya, lalu buka jawabannya."
+        "id": "Tiga pilihan, satu bulan, anggaran terbatas: (a) menyamai harga pesaing dengan fighter pack, (b) memulihkan kedalaman promo di 20% toko teratas yang menyumbang 60% volume, (c) meluncurkan program loyalitas di aplikasimu. Pilih satu beserta alasannya, lalu buka jawabannya."
        },
        "debrief": {
         "en": "Model answer: (b). It counters the actual leak (trial/visibility at shelf) at the highest-leverage stores, is reversible, and defends volume without repricing the whole brand. (a) is the tempting trap: permanent price moves against a structurally cheaper attacker start margin wars you fund from a weaker position. Fighter packs take months to do well. (c) targets heavy loyal buyers, who are not the ones leaving. The FMCG reflex being trained: match the intervention to the leaking gate, prefer reversible moves, and respect the 80/20 of stores.",
-        "id": "Jawaban model: (b). Pilihan ini melawan kebocoran yang sebenarnya (gerbang coba dan visibilitas di rak) di toko-toko dengan daya ungkit tertinggi, bisa dibatalkan, dan mempertahankan volume tanpa mengubah harga seluruh merek. (a) adalah jebakan yang menggoda: perubahan harga permanen untuk melawan penyerang yang secara struktural lebih murah hanya memulai perang margin yang kamu biayai dari posisi lebih lemah, dan kemasan tempur butuh berbulan-bulan untuk dieksekusi dengan baik. (c) menyasar pembeli setia kelas berat, padahal bukan mereka yang pergi. Refleks FMCG yang sedang dilatih: cocokkan intervensi dengan gerbang yang bocor, utamakan langkah yang bisa dibatalkan, dan hormati prinsip 80/20 toko."
+        "id": "Contoh jawaban: (b). Pilihan ini membalas kebocoran yang sebenarnya (coba-coba dan visibilitas di rak) di toko-toko yang paling berpengaruh, bisa dibatalkan, dan mempertahankan volume tanpa mengubah harga seluruh merek. (a) adalah jebakan yang menggoda: perubahan harga permanen melawan penyerang yang struktur biayanya memang lebih murah memicu perang margin yang kamu biayai dari posisi yang lebih lemah. Fighter pack butuh berbulan-bulan untuk dikerjakan dengan baik. (c) menyasar pembeli setia yang berat, padahal bukan mereka yang pergi. Refleks FMCG yang sedang dilatih: cocokkan intervensinya dengan gerbang yang bocor, utamakan langkah yang bisa dibatalkan, dan hormati hukum 80/20 di toko-toko."
        }
       },
       {
        "h": {
         "en": "Task 3: The Monday one-pager",
-        "id": "Tugas 3: Satu halaman untuk rapat Senin"
+        "id": "Tugas 3: Ringkasan satu halaman hari Senin"
        },
        "body": {
         "en": "Write the four-line summary for the brand manager: what happened, why, this month's move, how we will know it worked. Then reveal.",
-        "id": "Tulis rangkuman empat baris untuk manajer merek: apa yang terjadi, mengapa, langkah bulan ini, dan bagaimana kita tahu langkah itu berhasil. Lalu buka jawabannya."
+        "id": "Tulis ringkasan empat baris untuk brand manager: apa yang terjadi, kenapa, langkah bulan ini, dan bagaimana kita tahu langkah itu berhasil. Lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Model: “Share −1.2pts, fully in-store: distribution flat, Competitor B's Rp500-cheaper sachet won price-sensitive trial while our promo depth fell 30%. Move: restore promo depth in the top-quintile stores (60% of volume) for 6 weeks, holding national price. Success metric: share in those stores back above 14% by week 6; if not, escalate fighter-pack evaluation. Cost: within quarter's trade budget.” Diagnosis, mechanism, action, measurable exit, the four sentences every commercial function speaks.",
-        "id": "Model: “Pangsa −1,2 poin, seluruhnya terjadi di dalam toko: distribusi stagnan, sachet Pesaing B yang Rp 500 lebih murah memenangkan pembeli coba yang peka harga, tepat saat kedalaman promo kita turun 30%. Langkah: pulihkan kedalaman promo di toko-toko kuintil teratas (60% volume) selama 6 minggu, harga nasional tetap. Ukuran keberhasilan: pangsa di toko-toko itu kembali di atas 14% pada minggu ke-6; kalau tidak, naikkan evaluasi kemasan tempur ke pimpinan. Biaya: masih dalam anggaran promosi dagang kuartal ini.” Diagnosis, mekanisme, tindakan, pintu keluar yang terukur; empat kalimat yang dipakai setiap fungsi komersial."
+        "en": "Model: “Share −1.2pts, fully in-store: distribution flat, Competitor B's Rp500-cheaper sachet won price-sensitive trial while our promo depth fell 30%. Move: restore promo depth in the top-quintile stores (60% of volume) for 6 weeks, holding national price. Success metric: share in those stores back above 14% by week 6; if not, escalate fighter-pack evaluation. Cost: within quarter's trade budget.” Diagnosis, mechanism, action, measurable exit: the four sentences every commercial function speaks.",
+        "id": "Contoh: \"Pangsa −1,2 poin, sepenuhnya di dalam toko: distribusi stagnan, sachet Pesaing B yang Rp500 lebih murah memenangkan pembeli peka harga yang mencoba, sementara kedalaman promo kita turun 30%. Langkah: pulihkan kedalaman promo di toko-toko kuintil teratas (60% volume) selama 6 minggu, dengan harga nasional tetap. Ukuran keberhasilan: pangsa di toko-toko itu kembali di atas 14% di minggu ke-6; kalau tidak, naikkan ke evaluasi fighter pack. Biaya: masih dalam anggaran trade kuartal ini.\" Diagnosis, mekanisme, tindakan, dan jalan keluar yang terukur: empat kalimat yang diucapkan setiap fungsi komersial."
        }
       },
       {
        "h": {
         "en": "Task 4: The distributor's counter-offer",
-        "id": "Tugas 4: Tawaran balik distributor"
+        "id": "Tugas 4: Tawaran balik dari distributor"
        },
        "body": {
         "en": "Your regional distributor says he can win back numeric distribution in East Java in six weeks, if you fund a Rp 400m ‘listing support’ budget for the warungs and give him exclusivity on the new pack size. Your quarter's trade budget is Rp 650m. Decide: yes, no, or a counter, and the one piece of data you would want first. Work it, then reveal.",
-        "id": "Distributor regionalmu berkata ia bisa merebut kembali distribusi numerik di Jawa Timur dalam enam minggu. Asalkan kamu mendanai anggaran ‘dukungan listing’ Rp 400 juta untuk warung-warung dan memberinya eksklusivitas untuk ukuran kemasan baru. Anggaran trade kuartal ini Rp 650 juta. Putuskan: ya, tidak, atau tawaran balik, dan satu data yang ingin kamu lihat lebih dulu. Kerjakan, lalu buka jawabannya."
+        "id": "Distributor regionalmu bilang ia bisa merebut kembali distribusi numerik di Jawa Timur dalam enam minggu, kalau kamu mendanai anggaran \"dukungan listing\" Rp400 juta untuk warung-warung dan memberinya eksklusivitas atas ukuran kemasan yang baru. Anggaran trade kuartalmu Rp650 juta. Putuskan: ya, tidak, atau tawaran balik, serta satu data yang ingin kamu lihat lebih dulu. Kerjakan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Counter, not yes. The data you want first: which outlets were lost, if the competitor's gains came from the 30% of warungs that drive 70% of volume, a targeted programme at a fraction of Rp 400m does more than a blanket one. Then structure the money so it buys what you actually want: pay per outlet re-listed and still stocking at week eight (not per outlet ‘visited’), release in tranches against verified distribution data, and trade exclusivity on the new pack size for a specific distribution commitment with a review date. Brand managers who say yes to keep the distributor happy burn the quarter's budget on one province; those who say no lose the six weeks. The instinct being trained is the FMCG one: every rupiah of trade spend has to buy a measurable behaviour.",
-        "id": "Tawaran balik, bukan ya. Data yang ingin kamu lihat lebih dulu: outlet mana yang hilang, kalau perolehan pesaing berasal dari 30% warung yang menghasilkan 70% volume, program yang tertarget dengan sebagian kecil dari Rp 400 juta lebih berdampak daripada program menyeluruh. Lalu susun uangnya agar membeli apa yang benar-benar kamu inginkan: bayar per outlet yang kembali terdaftar dan masih menyetok di minggu kedelapan (bukan per outlet yang ‘dikunjungi’), cairkan bertahap berdasarkan data distribusi yang terverifikasi, dan tukar eksklusivitas ukuran kemasan baru dengan komitmen distribusi spesifik lengkap dengan tanggal tinjauan. Brand manager yang menjawab ya demi menyenangkan distributor menghabiskan anggaran kuartal untuk satu provinsi; yang menjawab tidak kehilangan enam minggu. Naluri yang sedang dilatih adalah naluri FMCG: setiap rupiah belanja trade harus membeli perilaku yang terukur."
+        "en": "Counter, not yes. The data you want first: which outlets were lost: if the competitor's gains came from the 30% of warungs that drive 70% of volume, a targeted programme at a fraction of Rp 400m does more than a blanket one. Then structure the money so it buys what you actually want: pay per outlet re-listed and still stocking at week eight (not per outlet ‘visited’), release in tranches against verified distribution data, and trade exclusivity on the new pack size for a specific distribution commitment with a review date. Brand managers who say yes to keep the distributor happy burn the quarter's budget on one province; those who say no lose the six weeks. The instinct being trained is the FMCG one: every rupiah of trade spend has to buy a measurable behaviour.",
+        "id": "Tawaran balik, bukan ya. Data yang ingin kamu lihat lebih dulu adalah gerai mana yang hilang: kalau kenaikan pesaing datang dari 30% warung yang menyumbang 70% volume, program yang terarah dengan sebagian kecil dari Rp400 juta akan lebih berhasil daripada program yang menyeluruh. Lalu susun uangnya agar membeli apa yang benar-benar kamu inginkan: bayar per gerai yang kembali menjual dan masih menyetok di minggu kedelapan (bukan per gerai yang \"dikunjungi\"), cairkan bertahap berdasarkan data distribusi yang sudah diverifikasi, dan tukar eksklusivitas ukuran kemasan baru dengan komitmen distribusi yang spesifik beserta tanggal peninjauannya. Brand manager yang mengiyakan demi menyenangkan distributor menghabiskan anggaran sekuartal untuk satu provinsi; yang menolak kehilangan enam minggu. Naluri yang sedang dilatih adalah naluri FMCG: setiap rupiah anggaran trade harus membeli perilaku yang terukur."
        }
       }
      ],
@@ -24818,7 +24818,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "The share of stores that stock your product at all; the first gate share must pass through.",
-        "id": "Persentase toko yang menjual produkmu, apa pun jumlahnya; gerbang pertama yang harus dilewati pangsa pasar."
+        "id": "Porsi toko yang menjual produkmu sama sekali; gerbang pertama yang harus dilewati pangsa pasar."
        }
       },
       {
@@ -24827,8 +24827,8 @@ window.MT_LMS['the-map'] = {
         "id": "trade marketing"
        },
        "def": {
-        "en": "The function that wins the shelf, the warung and the online listing, the bridge between brand strategy and the sales force.",
-        "id": "Fungsi yang memenangkan rak, warung, dan daftar produk daring, jembatan antara strategi merek dan tim penjualan."
+        "en": "The function that wins the shelf, the warung and the online listing; the bridge between brand strategy and the sales force.",
+        "id": "Fungsi yang memenangkan rak, warung, dan listing online; jembatan antara strategi merek dan tim penjualan."
        }
       },
       {
@@ -24838,7 +24838,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Supermarkets, minimarkets and e-commerce (modern) versus warungs, wet markets and wholesalers (traditional); in Indonesia both channels matter and they behave differently.",
-        "id": "Supermarket, minimarket, dan e-commerce (modern) versus warung, pasar basah, dan grosir (tradisional); di Indonesia keduanya penting dan berperilaku berbeda."
+        "id": "Supermarket, minimarket, dan e-commerce (modern) dibandingkan warung, pasar tradisional, dan grosir (tradisional); di Indonesia kedua kanal ini sama-sama penting dan berperilaku berbeda."
        }
       },
       {
@@ -24848,7 +24848,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "The structured graduate entry into FMCG: rotations across brand, sales and supply chain before a first permanent role.",
-        "id": "Pintu masuk lulusan baru yang terstruktur ke FMCG: rotasi lintas brand, sales, dan rantai pasok sebelum peran tetap pertama."
+        "id": "Jalur masuk terstruktur bagi lulusan baru di FMCG: rotasi ke brand, penjualan, dan rantai pasok sebelum peran tetap yang pertama."
        }
       }
      ],
@@ -24856,32 +24856,32 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "Why was matching the competitor's price rejected as the first response?",
-        "id": "Mengapa menyamai harga pesaing ditolak sebagai respons pertama?"
+        "id": "Kenapa menyamai harga pesaing ditolak sebagai respons pertama?"
        },
        "options": [
         {
          "en": "Price cuts are illegal in FMCG",
-         "id": "Memotong harga dilarang di industri FMCG"
+         "id": "Potongan harga dilarang di FMCG"
         },
         {
          "en": "A permanent price war against a structurally cheaper attacker is fought from the weaker position, and the move is hard to reverse",
-         "id": "Perang harga permanen melawan penyerang yang secara struktural lebih murah dijalani dari posisi yang lebih lemah, dan langkah itu sulit dibatalkan"
+         "id": "Perang harga permanen melawan penyerang yang struktur biayanya lebih murah dilakukan dari posisi yang lebih lemah, dan langkahnya sulit dibatalkan"
         },
         {
          "en": "Because the app loyalty option was cheaper",
-         "id": "Karena program loyalitas di aplikasi lebih murah"
+         "id": "Karena pilihan loyalitas lewat aplikasi lebih murah"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Reversible, targeted promo defends the leaking gate while preserving the pricing structure; optionality the price cut destroys.",
-        "id": "Promo yang terarah dan bisa dibatalkan menjaga gerbang yang bocor sambil mempertahankan struktur harga, keleluasaan yang justru hilang begitu harga dipotong."
+        "en": "Reversible, targeted promo defends the leaking gate while preserving the pricing structure, an option the price cut destroys.",
+        "id": "Promo terarah yang bisa dibatalkan membela gerbang yang bocor sambil menjaga struktur harga, sebuah pilihan yang dihancurkan oleh potongan harga."
        }
       },
       {
        "q": {
         "en": "A distributor offers to win back distribution for a fixed Rp 400m budget plus exclusivity. The FMCG-trained response is:",
-        "id": "Distributor menawarkan merebut kembali distribusi dengan anggaran tetap Rp 400 juta plus eksklusivitas. Respons yang terlatih ala FMCG adalah:"
+        "id": "Seorang distributor menawarkan diri merebut kembali distribusi dengan anggaran tetap Rp400 juta plus eksklusivitas. Respons orang yang terlatih di FMCG adalah:"
        },
        "options": [
         {
@@ -24894,13 +24894,13 @@ window.MT_LMS['the-map'] = {
         },
         {
          "en": "Counter: target the outlets that matter, pay for verified stocking, and trade exclusivity for a measurable commitment",
-         "id": "Tawaran balik: sasar outlet yang penting, bayar untuk penyetokan yang terverifikasi, dan tukar eksklusivitas dengan komitmen yang terukur"
+         "id": "Tawar balik: sasar gerai yang penting, bayar untuk stok yang sudah diverifikasi, dan tukar eksklusivitas dengan komitmen yang terukur"
         }
        ],
        "correct": 2,
        "why": {
         "en": "Every rupiah of trade spend must buy a measurable behaviour. Structure the money so it does; neither a blanket yes nor a flat no achieves that.",
-        "id": "Setiap rupiah belanja trade harus membeli perilaku yang terukur. Susun uangnya agar demikian; ya menyeluruh maupun tidak mentah-mentah sama-sama tidak mencapainya."
+        "id": "Setiap rupiah anggaran trade harus membeli perilaku yang terukur. Susun uangnya agar memang begitu; jawaban ya yang menyeluruh maupun tidak yang mentah tidak mencapainya."
        }
       }
      ],
@@ -24910,48 +24910,48 @@ window.MT_LMS['the-map'] = {
        "icon": "compass",
        "h": {
         "en": "The industry at a glance: roles, routes, who hires",
-        "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
+        "id": "Sekilas industrinya: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "Fast-moving consumer goods is the industry that turns marketing, sales and supply chain into one machine. The employers are household names because their products are: Unilever, Indofood, Wings, Mayora, Nestlé, P&amp;G, Danone, Kalbe, Coca-Cola Europacific Partners, L'Oréal, Mondelēz, Garudafood and Sido Muncul among them, mostly hiring through management-trainee programmes. The functions are distinct careers: <b>brand management</b> (the ‘general manager of a brand’. The desk in this track), <b>sales and key accounts</b> (traditional trade, modern trade, e-commerce), <b>trade marketing</b> (the bridge between the two), <b>supply chain</b> and <b>category and consumer insights</b>. The ladder runs assistant brand manager → brand manager → senior / group brand manager → marketing manager → marketing director; in sales, area sales → regional → national key accounts. What the work rewards is speed of decision with incomplete data, comfort with the trade (distributors, retailers, warungs), and a taste for weekly scorecards. The trade-off: the pace never drops, and a share point lost this month is on your desk on Monday. The Monday one-pager in Task 3 is the job in miniature.",
-        "id": "Barang konsumsi cepat habis (FMCG) adalah industri yang mengubah pemasaran, penjualan, dan rantai pasok menjadi satu mesin. Perusahaannya dikenal luas karena produknya dikenal luas: Unilever, Indofood, Wings, Mayora, Nestlé, P&amp;G, Danone, Kalbe, Coca-Cola Europacific Partners, L'Oréal, Mondelēz, Garudafood, dan Sido Muncul di antaranya, kebanyakan merekrut lewat program management trainee. Fungsinya adalah karier-karier yang berbeda: <b>brand management</b> (‘general manager’ sebuah merek. Meja di jalur ini), <b>sales dan key account</b> (traditional trade, modern trade, e-commerce), <b>trade marketing</b> (jembatan keduanya), <b>rantai pasok</b>, dan <b>category dan consumer insights</b>. Tangganya berjalan assistant brand manager → brand manager → senior / group brand manager → marketing manager → marketing director; di sales, area sales → regional → national key accounts. Yang dihargai pekerjaan ini adalah kecepatan memutuskan dengan data yang tidak lengkap, kenyamanan dengan pasar (distributor, peritel, warung), dan selera pada kartu skor mingguan. Kompromi: temponya tidak pernah turun, dan satu poin pangsa yang hilang bulan ini ada di mejamu hari Senin. Satu halaman untuk rapat Senin di Tugas 3 adalah pekerjaan ini dalam versi mini."
+        "en": "Fast-moving consumer goods is the industry that turns marketing, sales and supply chain into one machine. The employers are household names because their products are: Unilever, Indofood, Wings, Mayora, Nestlé, P&amp;G, Danone, Kalbe, Coca-Cola Europacific Partners, L'Oréal, Mondelēz, Garudafood and Sido Muncul among them, mostly hiring through management-trainee programmes. The functions are distinct careers: <b>brand management</b> (the ‘general manager of a brand’, the desk in this track), <b>sales and key accounts</b> (traditional trade, modern trade, e-commerce), <b>trade marketing</b> (the bridge between the two), <b>supply chain</b> and <b>category and consumer insights</b>. The ladder runs assistant brand manager → brand manager → senior / group brand manager → marketing manager → marketing director; in sales, area sales → regional → national key accounts. What the work rewards is speed of decision with incomplete data, comfort with the trade (distributors, retailers, warungs), and a taste for weekly scorecards. The trade-off: the pace never drops, and a share point lost this month is on your desk on Monday. The Monday one-pager in Task 3 is the job in miniature.",
+        "id": "Barang konsumen yang cepat laku (FMCG) adalah industri yang menyatukan pemasaran, penjualan, dan rantai pasok menjadi satu mesin. Pemberi kerjanya adalah nama-nama yang akrab di rumah karena produknya memang begitu: Unilever, Indofood, Wings, Mayora, Nestlé, P&amp;G, Danone, Kalbe, Coca-Cola Europacific Partners, L'Oréal, Mondelēz, Garudafood, dan Sido Muncul di antaranya, sebagian besar merekrut lewat program management trainee. Fungsi-fungsinya adalah karier yang berbeda: <b>brand management</b> (\"general manager sebuah merek\", meja di jalur ini), <b>penjualan dan key account</b> (traditional trade, modern trade, e-commerce), <b>trade marketing</b> (jembatan di antara keduanya), <b>rantai pasok</b>, serta <b>kategori dan consumer insight</b>. Jenjangnya assistant brand manager → brand manager → senior / group brand manager → marketing manager → marketing director; di penjualan, area sales → regional → national key account. Yang dihargai pekerjaan ini adalah kecepatan mengambil keputusan dengan data yang tidak lengkap, kenyamanan berurusan dengan jalur dagang (distributor, peritel, warung), dan selera terhadap rapor mingguan. Harganya: temponya tidak pernah turun, dan poin pangsa yang hilang bulan ini sudah ada di mejamu hari Senin. Ringkasan satu halaman hari Senin di Tugas 3 adalah pekerjaan ini dalam versi mini."
        }
       }
      ],
      "mistakes": {
       "title": {
        "en": "What first-year brand and sales trainees get wrong in FMCG",
-       "id": "Kesalahan umum trainee brand dan sales tahun pertama di FMCG"
+       "id": "Kesalahan trainee brand dan penjualan tahun pertama di FMCG"
       },
       "items": [
        {
         "h": {
          "en": "Answering a share loss with a price cut",
-         "id": "Menjawab hilangnya pangsa dengan potongan harga"
+         "id": "Menjawab penurunan pangsa dengan potongan harga"
         },
         "fix": {
-         "en": "Decompose first, distribution, visibility, price, product, and counter the lever the competitor actually pulled.",
-         "id": "Urai dulu, distribusi, visibilitas, harga, produk, dan lawan tuas yang benar-benar ditarik pesaing."
+         "en": "Decompose first (distribution, visibility, trial, repeat), then counter the lever the competitor actually pulled.",
+         "id": "Urai dulu (distribusi, visibilitas, coba-coba, pembelian ulang), lalu balas tuas yang benar-benar ditarik pesaing."
         }
        },
        {
         "h": {
          "en": "Trade spend that buys activity instead of behaviour",
-         "id": "Belanja trade yang membeli aktivitas, bukan perilaku"
+         "id": "Anggaran trade yang membeli aktivitas, bukan perilaku"
         },
         "fix": {
          "en": "Pay for outlets stocking at week eight, not outlets visited in week one. Release money against verified data.",
-         "id": "Bayar untuk outlet yang menyetok di minggu kedelapan, bukan outlet yang dikunjungi di minggu pertama. Cairkan uang berdasarkan data terverifikasi."
+         "id": "Bayar untuk gerai yang masih menyetok di minggu kedelapan, bukan gerai yang dikunjungi di minggu pertama. Cairkan uangnya berdasarkan data yang sudah diverifikasi."
         }
        },
        {
         "h": {
          "en": "A Monday one-pager that reports instead of asks",
-         "id": "Satu halaman rapat Senin yang melaporkan, bukan meminta"
+         "id": "Ringkasan hari Senin yang melapor alih-alih meminta"
         },
         "fix": {
          "en": "End with the decision you need from the room and the date it is needed by.",
-         "id": "Akhiri dengan keputusan yang kamu butuhkan dari rapat dan tanggal keputusannya dibutuhkan."
+         "id": "Akhiri dengan keputusan yang kamu butuhkan dari ruangan itu dan tanggal paling lambat keputusannya."
         }
        }
       ]
@@ -24961,22 +24961,22 @@ window.MT_LMS['the-map'] = {
        {
         "id": "redbull-sales",
         "fit": {
-         "en": "FMCG field sales as it is actually done; the account plan, the pitch and the follow-up. The distributor negotiation from Task 4, from the sales seat.",
-         "id": "Penjualan lapangan FMCG sebagaimana benar-benar dilakukan, rencana akun, pitch, dan tindak lanjut. Negosiasi distributor dari Tugas 4, dari kursi sales."
+         "en": "FMCG field sales as it is actually done (the account plan, the pitch and the follow-up): the distributor negotiation from Task 4, from the sales seat.",
+         "id": "Penjualan lapangan FMCG sebagaimana yang benar-benar dijalankan (rencana akun, presentasi penawaran, dan tindak lanjutnya): negosiasi distributor dari Tugas 4, dari kursi penjualan."
         }
        },
        {
         "id": "lulu-marketing",
         "fit": {
-         "en": "Planning a launch across channels with audience, messaging and measurement; the brand-management side of this track in a consumer company.",
-         "id": "Merencanakan peluncuran lintas kanal dengan audiens, pesan, dan pengukuran, sisi brand management jalur ini di perusahaan konsumen."
+         "en": "Planning a launch across channels with audience, messaging and measurement: the brand-management side of this track in a consumer company.",
+         "id": "Merencanakan peluncuran lintas kanal lengkap dengan audiens, pesan, dan pengukurannya: sisi brand management dari jalur ini di sebuah perusahaan konsumen."
         }
        },
        {
         "id": "quantium-data",
         "fit": {
          "en": "Retail transaction analytics for a category manager: the share-loss decomposition from Task 1, done with real purchase data.",
-         "id": "Analitik transaksi ritel untuk manajer kategori: penguraian hilangnya pangsa dari Tugas 1, dikerjakan dengan data pembelian nyata."
+         "id": "Analitik transaksi ritel untuk seorang category manager: penguraian penurunan pangsa dari Tugas 1, dikerjakan dengan data pembelian sungguhan."
         }
        }
       ]
@@ -24988,49 +24988,49 @@ window.MT_LMS['the-map'] = {
     {
      "n": "6.7",
      "title": {
-      "en": "Industry Track – Technology",
-      "id": "Jalur Industri – Teknologi"
+      "en": "Industry Track: Technology",
+      "id": "Jalur Industri: Teknologi"
      },
      "dur": {
       "en": "25 min",
-      "id": "25 mnt"
+      "id": "25 menit"
      },
      "kind": "interactive",
      "placeholder": false,
      "overview": {
       "en": "A compressed junior workday in technology: four realistic tasks with model debriefs. Run it honestly, attempt each task before revealing, then log the three-question debrief in your audit.",
-      "id": "Satu hari kerja level junior di bidang teknologi, dipadatkan: empat tugas realistis dengan tinjauan model. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat tinjauan tiga pertanyaan di auditmu."
+      "id": "Satu hari kerja junior di bidang teknologi yang dipadatkan: empat tugas realistis lengkap dengan contoh pembahasannya. Jalankan dengan jujur, kerjakan setiap tugas sebelum membuka jawabannya, lalu catat pembahasan tiga pertanyaan di auditmu."
      },
      "objectives": [
       {
        "en": "Experience four representative junior tasks from technology.",
-       "id": "Merasakan empat tugas level junior yang mewakili pekerjaan di bidang teknologi."
+       "id": "Merasakan empat tugas junior yang mewakili bidang teknologi."
       },
       {
        "en": "Place the roles, routes and employers of this industry on your own map.",
-       "id": "Menempatkan peran, jalur, dan perusahaan di industri ini pada petamu sendiri."
+       "id": "Tempatkan peran, jalur karier, dan pemberi kerja di industri ini di petamu sendiri."
       },
       {
        "en": "Attempt each task under a soft time-box before reading the model answer.",
-       "id": "Mengerjakan setiap tugas dengan batas waktu longgar sebelum membaca jawaban model."
+       "id": "Kerjakan setiap tugas dengan batas waktu yang longgar sebelum membaca contoh jawabannya."
       },
       {
        "en": "Score the track on energy, competence trajectory and curiosity.",
-       "id": "Menilai jalur ini dari sisi energi, arah kompetensi, dan rasa ingin tahu."
+       "id": "Beri nilai jalur ini untuk energi, arah kemampuan, dan rasa penasaran."
       }
      ],
      "takeaways": [
       {
        "en": "You now have behavioural data about this industry that no brochure could give you.",
-       "id": "Kamu sekarang punya data perilaku tentang industri ini; sesuatu yang tidak bisa diberikan brosur mana pun."
+       "id": "Kini kamu punya data perilaku tentang industri ini yang tidak bisa diberikan brosur mana pun."
       },
       {
        "en": "Slow is normal; the signal is whether the work pulled you in or pushed you away.",
-       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan ini menarikmu masuk atau mendorongmu menjauh."
+       "id": "Lambat itu wajar; sinyalnya adalah apakah pekerjaan itu menarikmu masuk atau mendorongmu menjauh."
       },
       {
        "en": "Log the three-question debrief before the impression fades, then run the matching Forage simulation if the track energised you.",
-       "id": "Catat tinjauan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
+       "id": "Catat pembahasan tiga pertanyaan sebelum kesannya memudar, lalu jalankan simulasi Forage yang sesuai kalau jalur ini memberimu energi."
       }
      ],
      "scenario": {
@@ -25042,8 +25042,8 @@ window.MT_LMS['the-map'] = {
       },
       "body": [
        {
-        "en": "You are a junior product analyst at a marketplace app. Morning stand-up: activation, new users who complete a first purchase within 7 days, fell from 31% to 24% over two releases. The PM assigns you the investigation.",
-        "id": "Kamu analis produk junior di sebuah aplikasi marketplace. Stand-up pagi: aktivasi, pengguna baru yang menyelesaikan pembelian pertama dalam 7 hari, turun dari 31% ke 24% dalam dua rilis terakhir. PM menugaskan investigasinya kepadamu."
+        "en": "You are a junior product analyst at a marketplace app. Morning stand-up: activation (new users who complete a first purchase within 7 days) fell from 31% to 24% over two releases. The PM assigns you the investigation.",
+        "id": "Kamu product analyst junior di sebuah aplikasi marketplace. Stand-up pagi: aktivasi (pengguna baru yang menyelesaikan pembelian pertama dalam 7 hari) turun dari 31% menjadi 24% dalam dua kali rilis. PM menugasimu menyelidikinya."
        }
       ]
      },
@@ -25051,15 +25051,15 @@ window.MT_LMS['the-map'] = {
       {
        "h": {
         "en": "Task 1: Localise the funnel break",
-        "id": "Tugas 1: Temukan titik patah di corong"
+        "id": "Tugas 1: Temukan titik patah di corongnya"
        },
        "body": {
         "en": "Funnel data per release: install → signup 62% → 61%; signup → first search 80% → 79%; search → add-to-cart 34% → 33%; cart → payment started 58% → 44%; payment → success 91% → 90%. Where is the break, and what changed in those releases would you check first? Work it, then reveal.",
-        "id": "Data corong per rilis: pasang → daftar 62% → 61%; daftar → pencarian pertama 80% → 79%; pencarian → masuk keranjang 34% → 33%; keranjang → mulai bayar 58% → 44%; bayar → berhasil 91% → 90%. Di mana titik patahnya, dan perubahan apa di rilis-rilis itu yang akan kamu periksa lebih dulu? Kerjakan, lalu buka jawabannya."
+        "id": "Data corong per rilis: instal → daftar 62% → 61%; daftar → pencarian pertama 80% → 79%; pencarian → masukkan ke keranjang 34% → 33%; keranjang → mulai bayar 58% → 44%; bayar → berhasil 91% → 90%. Di mana titik patahnya, dan apa yang berubah di rilis-rilis itu yang akan kamu cek lebih dulu? Kerjakan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Every stage wobbled a point except cart → payment-started: 58% → 44%, a 14-point cliff that alone explains most of the activation drop (0.62×0.79×0.33×0.44×0.90 ≈ 6.4% vs the old ≈ 8.5% through-rate). Suspects in the release notes: a new address-verification step, a shipping-cost reveal moved earlier, a payment-method list reordered. The tech reflex: funnels localise problems the way MECE trees do. Never debug the whole app when one stage owns the cliff, and always check what shipped between the two measurements.",
-        "id": "Semua tahap hanya goyah satu poin, kecuali keranjang → mulai bayar: 58% → 44%, jurang 14 poin yang sendirian menjelaskan sebagian besar penurunan aktivasi (0,62×0,79×0,33×0,44×0,90 ≈ 6,4%, dibandingkan laju lama ≈ 8,5%). Tersangka di catatan rilis: langkah verifikasi alamat yang baru, biaya kirim yang kini ditampilkan lebih awal, daftar metode pembayaran yang diurutkan ulang. Refleks di dunia teknologi: corong melokalisasi masalah persis seperti pohon MECE. Jangan pernah mengutak-atik seluruh aplikasi kalau satu tahap sudah jelas memegang jurangnya, dan selalu periksa apa yang dirilis di antara dua pengukuran."
+        "en": "Every stage wobbled a point except cart → payment-started: 58% → 44%, a 14-point cliff that alone explains most of the activation drop (0.61×0.79×0.33×0.44×0.90 ≈ 6.3% install-to-purchase, against the old 0.62×0.80×0.34×0.58×0.91 ≈ 8.9%). Suspects in the release notes: a new address-verification step, a shipping-cost reveal moved earlier, a payment-method list reordered. The tech reflex: funnels localise problems the way MECE trees do: never debug the whole app when one stage owns the cliff, and always check what shipped between the two measurements.",
+        "id": "Setiap tahap bergoyang satu poin kecuali keranjang → mulai bayar: 58% → 44%, jurang 14 poin yang sendirian menjelaskan sebagian besar penurunan aktivasi (0,61×0,79×0,33×0,44×0,90 ≈ 6,3% dari instal sampai pembelian, dibandingkan sebelumnya 0,62×0,80×0,34×0,58×0,91 ≈ 8,9%). Tersangka di catatan rilis: langkah verifikasi alamat yang baru, tampilan ongkos kirim yang dimajukan, urutan metode pembayaran yang diubah. Refleks teknologi: corong menemukan letak masalah seperti pohon MECE: jangan pernah men-debug seluruh aplikasi kalau satu tahap yang memegang jurangnya, dan selalu cek apa yang dirilis di antara dua pengukuran itu."
        }
       },
       {
@@ -25069,25 +25069,25 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "The release notes show a new mandatory address-verification step at checkout, added to cut failed deliveries. Design the test that proves or clears it, and name the metric that could make “fixing” activation a mistake. Think, then reveal.",
-        "id": "Catatan rilis menunjukkan ada langkah verifikasi alamat wajib yang baru di checkout, ditambahkan untuk mengurangi pengiriman gagal. Rancang uji yang membuktikan atau membebaskannya dari tuduhan, dan sebutkan metrik yang bisa membuat “memperbaiki” aktivasi justru menjadi kesalahan. Pikirkan, lalu buka jawabannya."
+        "id": "Catatan rilis menunjukkan langkah verifikasi alamat wajib yang baru di tahap checkout, ditambahkan untuk mengurangi pengiriman gagal. Rancang uji yang membuktikan atau membersihkan tuduhan itu, dan sebutkan ukuran yang bisa membuat \"memperbaiki\" aktivasi justru menjadi kesalahan. Pikirkan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "A/B test: 50% of new users get the verification step, 50% get the old flow; measure cart → payment-started, activation, and, the guardrail, failed-delivery rate over 30 days. The verification step was added for a reason: if removing it recovers 14 points of conversion but doubles failed deliveries, the company may be trading real money for vanity activation. Model outcome: keep verification but move it after payment method selection, or make it async. The signature tech trade-off: nearly every fix moves two metrics in opposite directions, and guardrail metrics are how grown-up teams stay honest.",
-        "id": "Uji A/B: 50% pengguna baru mendapat langkah verifikasi, 50% mendapat alur lama; ukur keranjang → mulai bayar, aktivasi, dan, sebagai pagar pengaman, tingkat pengiriman gagal selama 30 hari. Langkah verifikasi itu ditambahkan karena ada alasannya: kalau menghapusnya memulihkan 14 poin konversi tapi melipatgandakan pengiriman gagal, perusahaan sedang menukar uang sungguhan demi angka aktivasi yang hanya enak dilihat. Hasil model: pertahankan verifikasi, tapi pindahkan setelah pemilihan metode pembayaran, atau jalankan secara asinkron. Dilema khas teknologi: hampir setiap perbaikan menggerakkan dua metrik ke arah yang berlawanan, dan metrik pagar pengaman adalah cara tim yang matang menjaga kejujurannya."
+        "en": "A/B test: 50% of new users get the verification step, 50% get the old flow; measure cart → payment-started and activation, plus the guardrail: failed-delivery rate over 30 days. The verification step was added for a reason: if removing it recovers 14 points of conversion but doubles failed deliveries, the company may be trading real money for vanity activation. Model outcome: keep verification but move it after payment method selection, or make it async. The signature tech trade-off: nearly every fix moves two metrics in opposite directions, and guardrail metrics are how grown-up teams stay honest.",
+        "id": "Uji A/B: 50% pengguna baru mendapat langkah verifikasi, 50% mendapat alur lama; ukur keranjang → mulai bayar dan aktivasi, ditambah guardrail-nya: tingkat pengiriman gagal selama 30 hari. Langkah verifikasi itu ditambahkan karena suatu alasan: kalau menghapusnya memulihkan 14 poin konversi tetapi menggandakan pengiriman gagal, perusahaan mungkin menukar uang sungguhan dengan aktivasi yang hanya bagus di atas kertas. Contoh hasilnya: pertahankan verifikasi tetapi pindahkan sesudah pemilihan metode pembayaran, atau jalankan secara asinkron. Pertimbangan untung-rugi khas teknologi: hampir setiap perbaikan menggerakkan dua ukuran ke arah berlawanan, dan guardrail metric adalah cara tim yang matang tetap jujur."
        }
       },
       {
        "h": {
         "en": "Task 3: Stand-up summary",
-        "id": "Tugas 3: Rangkuman untuk stand-up"
+        "id": "Tugas 3: Ringkasan untuk stand-up"
        },
        "body": {
         "en": "Write your 30-second stand-up update: finding, hypothesis, test, timeline. Then reveal.",
-        "id": "Tulis laporan stand-up 30 detikmu: temuan, hipotesis, uji, lini waktu. Lalu buka jawabannya."
+        "id": "Tulis kabar stand-up 30 detikmu: temuan, hipotesis, uji, jadwal. Lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Model: “Activation drop localises to cart → payment: 58 to 44. Prime suspect is the new mandatory address verification, it shipped exactly between the two measurements. Proposal: A/B it against the old flow with failed-delivery rate as guardrail; two weeks to significance at current traffic. If confirmed, cheapest fix is moving verification post-payment-selection. Dashboard link in the channel.” Thirty seconds, pyramid-shaped, experiment-first, how technical organisations metabolise problems.",
-        "id": "Model: “Penurunan aktivasi terlokalisasi di keranjang → bayar: dari 58 ke 44. Tersangka utamanya verifikasi alamat wajib yang baru, dirilis tepat di antara dua pengukuran. Usulan: uji A/B terhadap alur lama dengan tingkat pengiriman gagal sebagai pagar pengaman; dua minggu untuk mencapai signifikansi dengan trafik saat ini. Kalau terkonfirmasi, perbaikan termurah adalah memindahkan verifikasi ke setelah pemilihan pembayaran. Tautan dasbornya ada di kanal.” Tiga puluh detik, berbentuk piramida, eksperimen lebih dulu, begitulah organisasi teknologi mencerna masalah."
+        "en": "Model: “Activation drop localises to cart → payment: 58 to 44. Prime suspect is the new mandatory address verification: it shipped exactly between the two measurements. Proposal: A/B it against the old flow with failed-delivery rate as guardrail; two weeks to significance at current traffic. If confirmed, cheapest fix is moving verification post-payment-selection. Dashboard link in the channel.” Thirty seconds, pyramid-shaped, experiment-first: how technical organisations metabolise problems.",
+        "id": "Contoh: \"Penurunan aktivasi terletak di keranjang → bayar: 58 menjadi 44. Tersangka utamanya verifikasi alamat wajib yang baru: fitur itu dirilis persis di antara dua pengukuran. Usulan: uji A/B melawan alur lama dengan tingkat pengiriman gagal sebagai guardrail; dua minggu sampai signifikan dengan trafik saat ini. Kalau terbukti, perbaikan termurah adalah memindahkan verifikasi ke sesudah pemilihan pembayaran. Tautan dasbor ada di channel.\" Tiga puluh detik, berbentuk piramida, eksperimen lebih dulu: cara organisasi teknologi mencerna masalah."
        }
       },
       {
@@ -25097,11 +25097,11 @@ window.MT_LMS['the-map'] = {
        },
        "body": {
         "en": "The experiment won: showing the estimated delivery fee before the address step lifted activation by 6% with no rise in failed deliveries. Engineering has capacity for one ticket this sprint. Write the ticket title and its acceptance criteria (three bullet points at most), then reveal.",
-        "id": "Eksperimennya menang: menampilkan perkiraan biaya kirim sebelum langkah alamat menaikkan aktivasi 6% tanpa kenaikan pengiriman gagal. Tim engineering punya kapasitas untuk satu tiket sprint ini. Tulis judul tiketnya dan kriteria penerimaannya (maksimal tiga poin), lalu buka jawabannya."
+        "id": "Eksperimennya menang: menampilkan perkiraan ongkos kirim sebelum langkah alamat menaikkan aktivasi 6% tanpa kenaikan pengiriman gagal. Tim engineering punya kapasitas untuk satu tiket di sprint ini. Tulis judul tiket dan kriteria penerimaannya (paling banyak tiga poin), lalu buka jawabannya."
        },
        "debrief": {
         "en": "Model: Title: “Show estimated delivery fee on the cart screen before address entry (ship winning variant B to 100%).” Acceptance criteria: (1) fee estimate appears on the cart screen for all users using the same calculation as variant B, within 300 ms; (2) if the estimate cannot be computed, the screen falls back to the current flow with no error shown; (3) activation and failed-delivery rate remain on the existing dashboard so the roll-out can be watched for a week. Notice what a good ticket does: it names the outcome, not the code; it says what happens when things fail; and it keeps the guardrail metric visible after shipping. Engineers can start on this without a meeting. If writing it felt like clarity rather than chores, product work may suit you; if you wanted to build it yourself, look at Track 6.9.",
-        "id": "Model: Judul: “Tampilkan perkiraan biaya kirim di layar keranjang sebelum pengisian alamat (rilis varian pemenang B ke 100%).” Kriteria penerimaan: (1) perkiraan biaya muncul di layar keranjang untuk semua pengguna dengan perhitungan yang sama seperti varian B, dalam 300 ms; (2) kalau perkiraan tidak bisa dihitung, layar kembali ke alur saat ini tanpa menampilkan error; (3) aktivasi dan tingkat pengiriman gagal tetap ada di dasbor yang sudah ada agar peluncurannya bisa dipantau selama seminggu. Perhatikan apa yang dilakukan tiket yang baik: menyebut hasilnya, bukan kodenya; menyatakan apa yang terjadi saat gagal; dan menjaga metrik pagar pengaman tetap terlihat setelah rilis. Engineer bisa langsung mengerjakannya tanpa rapat. Kalau menulisnya terasa seperti kejernihan, bukan beban, pekerjaan produk mungkin cocok untukmu; kalau kamu justru ingin membangunnya sendiri, lihat Jalur 6.9."
+        "id": "Contoh: Judul: \"Tampilkan perkiraan ongkos kirim di layar keranjang sebelum alamat diisi (rilis varian B yang menang ke 100% pengguna).\" Kriteria penerimaan: (1) perkiraan ongkos kirim muncul di layar keranjang untuk semua pengguna dengan perhitungan yang sama seperti varian B, dalam 300 ms; (2) kalau perkiraannya tidak bisa dihitung, layar kembali ke alur yang sekarang tanpa menampilkan pesan error; (3) aktivasi dan tingkat pengiriman gagal tetap ada di dasbor yang sudah ada sehingga peluncurannya bisa dipantau selama seminggu. Perhatikan apa yang dilakukan tiket yang bagus: menyebut hasilnya, bukan kodenya; menyebut apa yang terjadi saat ada yang gagal; dan menjaga guardrail metric tetap terlihat setelah dirilis. Para engineer bisa mulai mengerjakannya tanpa rapat. Kalau menulisnya terasa seperti kejelasan alih-alih tugas rutin, pekerjaan produk mungkin cocok untukmu; kalau kamu ingin membangunnya sendiri, lihat Jalur 6.9."
        }
       }
      ],
@@ -25109,11 +25109,11 @@ window.MT_LMS['the-map'] = {
       {
        "term": {
         "en": "guardrail metric",
-        "id": "metrik pagar pengaman"
+        "id": "guardrail metric"
        },
        "def": {
         "en": "A metric watched during an experiment to ensure the improvement being chased does not silently damage something more important.",
-        "id": "Metrik yang dipantau selama eksperimen untuk memastikan perbaikan yang sedang dikejar tidak diam-diam merusak sesuatu yang lebih penting."
+        "id": "Ukuran yang dipantau selama eksperimen untuk memastikan perbaikan yang sedang dikejar tidak diam-diam merusak sesuatu yang lebih penting."
        }
       },
       {
@@ -25122,8 +25122,8 @@ window.MT_LMS['the-map'] = {
         "id": "aktivasi"
        },
        "def": {
-        "en": "The moment a new user first gets the product's core value, a first order, a first transfer, and the metric most product teams chase hardest.",
-        "id": "Momen ketika pengguna baru pertama kali mendapatkan nilai inti produk, pesanan pertama, transfer pertama, dan metrik yang paling dikejar tim produk."
+        "en": "The moment a new user first gets the product's core value (a first order, a first transfer), and the metric most product teams chase hardest.",
+        "id": "Momen ketika pengguna baru pertama kali mendapat nilai inti produk (pesanan pertama, transfer pertama), dan ukuran yang paling keras dikejar sebagian besar tim produk."
        }
       },
       {
@@ -25133,7 +25133,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "Showing two versions to comparable groups of users at the same time so the difference in outcome can be attributed to the change.",
-        "id": "Menampilkan dua versi kepada kelompok pengguna yang sebanding pada saat yang sama sehingga perbedaan hasilnya bisa dikaitkan dengan perubahannya."
+        "id": "Menampilkan dua versi kepada kelompok pengguna yang sebanding pada saat yang sama, sehingga perbedaan hasilnya bisa dikaitkan dengan perubahannya."
        }
       },
       {
@@ -25143,7 +25143,7 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "The short list of conditions under which a ticket is done: user-visible result, failure behaviour, how it is measured.",
-        "id": "Daftar singkat kondisi ketika sebuah tiket dianggap selesai: hasil yang terlihat pengguna, perilaku saat gagal, cara mengukurnya."
+        "id": "Daftar singkat syarat yang menandakan sebuah tiket selesai: hasil yang terlihat pengguna, perilaku saat gagal, dan cara mengukurnya."
        }
       }
      ],
@@ -25151,16 +25151,16 @@ window.MT_LMS['the-map'] = {
       {
        "q": {
         "en": "Why does the experiment track failed-delivery rate alongside activation?",
-        "id": "Mengapa eksperimen ini memantau tingkat pengiriman gagal di samping aktivasi?"
+        "id": "Kenapa eksperimen itu memantau tingkat pengiriman gagal di samping aktivasi?"
        },
        "options": [
         {
          "en": "Because more metrics make reports look thorough",
-         "id": "Karena makin banyak metrik, laporan tampak makin menyeluruh"
+         "id": "Karena makin banyak ukuran membuat laporan tampak teliti"
         },
         {
          "en": "Because the verification step exists to protect deliveries; removing it may trade real losses for better-looking activation",
-         "id": "Karena langkah verifikasi ada untuk melindungi pengiriman; menghapusnya bisa berarti menukar kerugian sungguhan demi angka aktivasi yang tampak lebih baik"
+         "id": "Karena langkah verifikasi itu ada untuk melindungi pengiriman; menghapusnya bisa menukar kerugian nyata dengan aktivasi yang tampak lebih bagus"
         },
         {
          "en": "Because activation cannot be measured directly",
@@ -25170,7 +25170,7 @@ window.MT_LMS['the-map'] = {
        "correct": 1,
        "why": {
         "en": "Guardrails encode the reason the “problem” feature was built. Experiments without them optimise one number by quietly breaking another.",
-        "id": "Pagar pengaman menyimpan alasan mengapa fitur yang “bermasalah” itu dibangun. Eksperimen tanpa pagar pengaman mengoptimalkan satu angka sambil diam-diam merusak angka yang lain."
+        "id": "Guardrail menyimpan alasan kenapa fitur yang \"bermasalah\" itu dibangun. Eksperimen tanpa guardrail mengoptimalkan satu angka sambil diam-diam merusak angka lain."
        }
       },
       {
@@ -25181,21 +25181,21 @@ window.MT_LMS['the-map'] = {
        "options": [
         {
          "en": "Describes the code changes in detail so engineers do not have to think",
-         "id": "Menjelaskan perubahan kodenya secara rinci agar engineer tidak perlu berpikir"
+         "id": "Menjelaskan perubahan kodenya secara detail supaya para engineer tidak perlu berpikir"
         },
         {
          "en": "Names the user-visible outcome, the failure behaviour and the guardrail that stays visible after shipping",
-         "id": "Menyebut hasil yang terlihat pengguna, perilaku saat gagal, dan pagar pengaman yang tetap terlihat setelah rilis"
+         "id": "Menyebut hasil yang terlihat pengguna, perilaku saat gagal, dan guardrail yang tetap terlihat setelah dirilis"
         },
         {
          "en": "Says ‘ship variant B’ and leaves the rest to the sprint meeting",
-         "id": "Berbunyi ‘rilis varian B’ dan menyerahkan sisanya ke rapat sprint"
+         "id": "Hanya menulis \"rilis varian B\" dan menyerahkan sisanya ke rapat sprint"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Product work is clarity about outcomes, not instructions about code. A good ticket can be started without a meeting and watched after it ships.",
-        "id": "Pekerjaan produk adalah kejernihan tentang hasil, bukan instruksi tentang kode. Tiket yang baik bisa langsung dikerjakan tanpa rapat dan dipantau setelah dirilis."
+        "id": "Pekerjaan produk adalah kejelasan tentang hasil, bukan instruksi tentang kode. Tiket yang bagus bisa mulai dikerjakan tanpa rapat dan dipantau setelah dirilis."
        }
       }
      ],
@@ -25205,48 +25205,48 @@ window.MT_LMS['the-map'] = {
        "icon": "compass",
        "h": {
         "en": "The industry at a glance: roles, routes, who hires",
-        "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
+        "id": "Sekilas industrinya: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "‘Technology’ is not one industry but a set of roles that now exist in every industry. The product desk in this track, <b>product management</b>, sits between engineering, design, data and the business, and is one of a family: <b>software engineering</b> (Track 6.9), <b>data and analytics</b> (Track 6.8), <b>product design</b>, <b>QA</b>, <b>DevOps and cloud</b>, <b>cybersecurity</b> and the commercial roles that sell and support the product. Employers range from platforms and start-ups (GoTo, Grab, Shopee, Traveloka, Bukalapak, Tiket, Xendit, Kredivo, eFishery) to the technology arms of banks, telcos and conglomerates (BCA, Mandiri, Telkom, Astra) to the global firms (Google, Microsoft, Amazon, Meta) and the consultancies that serve them. Entry titles are associate product manager, junior engineer, data analyst, associate designer; progression is by scope, one feature, one product area, a product line, rather than by fixed grades, and the ‘senior’ title arrives when others come to you with the ambiguous problems. What the work rewards is the loop in this track: localise the problem in data, form a hypothesis, run a cheap experiment, tell the team what you learned. What it costs is comfort with things breaking, roadmaps changing and the funnel never quite behaving.",
-        "id": "‘Teknologi’ bukan satu industri, melainkan sekumpulan peran yang kini ada di setiap industri. Meja produk di jalur ini, <b>product management</b>, berada di antara rekayasa, desain, data, dan bisnis, dan merupakan bagian dari satu keluarga: <b>rekayasa perangkat lunak</b> (Jalur 6.9), <b>data dan analitik</b> (Jalur 6.8), <b>desain produk</b>, <b>QA</b>, <b>DevOps dan cloud</b>, <b>keamanan siber</b>, serta peran komersial yang menjual dan mendukung produknya. Perusahaannya berkisar dari platform dan start-up (GoTo, Grab, Shopee, Traveloka, Bukalapak, Tiket, Xendit, Kredivo, eFishery) hingga divisi teknologi bank, telko, dan konglomerat (BCA, Mandiri, Telkom, Astra) sampai perusahaan global (Google, Microsoft, Amazon, Meta) dan konsultan yang melayani mereka. Jabatan awalnya associate product manager, junior engineer, data analyst, associate designer; kenaikannya berdasarkan lingkup, satu fitur, satu area produk, satu lini produk, bukan jenjang tetap, dan gelar ‘senior’ datang ketika orang lain mendatangimu dengan masalah yang ambigu. Yang dihargai pekerjaan ini adalah putaran di jalur ini: temukan masalahnya dalam data, bentuk hipotesis, jalankan eksperimen murah, ceritakan kepada tim apa yang kamu pelajari. Biayanya adalah kenyamanan dengan hal-hal yang rusak, peta jalan yang berubah, dan corong yang tidak pernah benar-benar patuh."
+        "en": "‘Technology’ is not one industry but a set of roles that now exist in every industry. The product desk in this track (<b>product management</b>) sits between engineering, design, data and the business, and is one of a family: <b>software engineering</b> (Track 6.9), <b>data and analytics</b> (Track 6.8), <b>product design</b>, <b>QA</b>, <b>DevOps and cloud</b>, <b>cybersecurity</b> and the commercial roles that sell and support the product. Employers range from platforms and start-ups (GoTo, Grab, Shopee, Traveloka, Bukalapak, Tiket, Xendit, Kredivo, eFishery) to the technology arms of banks, telcos and conglomerates (BCA, Mandiri, Telkom, Astra) to the global firms (Google, Microsoft, Amazon, Meta) and the consultancies that serve them. Entry titles are associate product manager, junior engineer, data analyst, associate designer; progression is by scope (one feature, one product area, a product line) rather than by fixed grades, and the ‘senior’ title arrives when others come to you with the ambiguous problems. What the work rewards is the loop in this track: localise the problem in data, form a hypothesis, run a cheap experiment, tell the team what you learned. What it costs is comfort with things breaking, roadmaps changing and the funnel never quite behaving.",
+        "id": "\"Teknologi\" bukan satu industri, melainkan sekumpulan peran yang kini ada di setiap industri. Meja produk di jalur ini (<b>product management</b>) berada di antara engineering, desain, data, dan bisnis, dan merupakan satu dari sebuah keluarga: <b>rekayasa perangkat lunak</b> (Jalur 6.9), <b>data dan analitik</b> (Jalur 6.8), <b>desain produk</b>, <b>QA</b>, <b>DevOps dan cloud</b>, <b>keamanan siber</b>, serta peran-peran komersial yang menjual dan mendukung produknya. Pemberi kerjanya beragam, dari platform dan startup (GoTo, Grab, Shopee, Traveloka, Bukalapak, Tiket, Xendit, Kredivo, eFishery) sampai unit teknologi bank, operator telekomunikasi, dan konglomerat (BCA, Mandiri, Telkom, Astra), perusahaan global (Google, Microsoft, Amazon, Meta), dan firma konsultan yang melayani mereka. Jabatan pemulanya associate product manager, junior engineer, data analyst, associate designer; kenaikan jenjangnya berdasarkan cakupan (satu fitur, satu area produk, satu lini produk), bukan berdasarkan golongan yang tetap, dan gelar \"senior\" datang ketika orang lain mulai membawa masalah-masalah yang ambigu kepadamu. Yang dihargai pekerjaan ini adalah lingkaran di jalur ini: temukan letak masalahnya di data, bentuk hipotesis, jalankan eksperimen yang murah, lalu sampaikan kepada tim apa yang kamu pelajari. Harganya adalah harus nyaman dengan hal-hal yang rusak, roadmap yang berubah, dan corong yang tidak pernah benar-benar berperilaku manis."
        }
       }
      ],
      "mistakes": {
       "title": {
        "en": "What first-year product people get wrong in technology",
-       "id": "Kesalahan umum orang produk tahun pertama di teknologi"
+       "id": "Kesalahan orang produk tahun pertama di bidang teknologi"
       },
       "items": [
        {
         "h": {
          "en": "Proposing the fix before localising the break",
-         "id": "Mengusulkan perbaikan sebelum menemukan titik patahnya"
+         "id": "Mengusulkan perbaikan sebelum menemukan letak patahnya"
         },
         "fix": {
          "en": "Segment the funnel by device, city and cohort first; the drop is almost never uniform, and where it is not is the clue.",
-         "id": "Segmentasikan corongnya berdasarkan perangkat, kota, dan kohort lebih dulu; penurunannya hampir tidak pernah merata, dan di situlah petunjuknya."
+         "id": "Pilah dulu corongnya menurut perangkat, kota, dan kohort; penurunannya hampir tidak pernah merata, dan bagian yang tidak merata itulah petunjuknya."
         }
        },
        {
         "h": {
          "en": "Experiments with a success metric but no guardrail",
-         "id": "Eksperimen dengan metrik keberhasilan tapi tanpa pagar pengaman"
+         "id": "Eksperimen dengan ukuran keberhasilan tetapi tanpa guardrail"
         },
         "fix": {
          "en": "Every test names the metric it must not damage. Activation up and failed deliveries up is a loss, not a win.",
-         "id": "Setiap uji menyebut metrik yang tidak boleh dirusaknya. Aktivasi naik tapi pengiriman gagal naik adalah kekalahan, bukan kemenangan."
+         "id": "Setiap uji menyebut ukuran yang tidak boleh dirusaknya. Aktivasi naik tetapi pengiriman gagal juga naik adalah kerugian, bukan kemenangan."
         }
        },
        {
         "h": {
          "en": "Tickets that describe code instead of outcomes",
-         "id": "Tiket yang menjelaskan kode, bukan hasil"
+         "id": "Tiket yang menjelaskan kode alih-alih hasil"
         },
         "fix": {
          "en": "Name the user-visible result, the failure behaviour and how it will be watched. Let engineers choose the implementation.",
-         "id": "Sebutkan hasil yang terlihat pengguna, perilaku saat gagal, dan cara memantaunya. Biarkan engineer memilih implementasinya."
+         "id": "Sebutkan hasil yang terlihat pengguna, perilaku saat gagal, dan cara memantaunya. Biarkan para engineer memilih cara mengimplementasikannya."
         }
        }
       ]
@@ -25256,22 +25256,22 @@ window.MT_LMS['the-map'] = {
        {
         "id": "acc-product",
         "fit": {
-         "en": "User research, a sketched flow and a prototype screen; the product-design branch of this track, and a route into technology without writing code.",
-         "id": "Riset pengguna, sketsa alur, dan prototipe layar, cabang desain produk jalur ini, dan jalan masuk ke teknologi tanpa menulis kode."
+         "en": "User research, a sketched flow and a prototype screen: the product-design branch of this track, and a route into technology without writing code.",
+         "id": "Riset pengguna, sketsa alur, dan satu layar prototipe: cabang desain produk dari jalur ini, dan jalan masuk ke teknologi tanpa menulis kode."
         }
        },
        {
         "id": "deloitte-cyber",
         "fit": {
          "en": "Investigating a security incident from log data: the same ‘localise it in the data’ instinct as Task 1, applied to cybersecurity.",
-         "id": "Menyelidiki insiden keamanan dari data log: naluri ‘temukan dalam data’ yang sama seperti Tugas 1, diterapkan pada keamanan siber."
+         "id": "Menyelidiki insiden keamanan dari data log: naluri \"temukan letaknya di data\" yang sama dengan Tugas 1, diterapkan pada keamanan siber."
         }
        },
        {
         "id": "verizon-cloud",
         "fit": {
-         "en": "Assessing whether an application is cloud-native and proposing fixes, the platform and DevOps side of a technology team.",
-         "id": "Menilai apakah sebuah aplikasi bersifat cloud-native dan mengusulkan perbaikan, sisi platform dan DevOps sebuah tim teknologi."
+         "en": "Assessing whether an application is cloud-native and proposing fixes: the platform and DevOps side of a technology team.",
+         "id": "Menilai apakah sebuah aplikasi sudah cloud-native dan mengusulkan perbaikannya: sisi platform dan DevOps dari sebuah tim teknologi."
         }
        }
       ]
