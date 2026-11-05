@@ -2230,7 +2230,7 @@ window.MT_ASSESS['the-map'] = {
     },
     "sub": {
      "en": "Energy systems, the minimum viable protocol, overload signals, the Growth Equation, movement and heat",
-     "id": "Sistem energi, protokol minimum, tanda kelebihan beban, Persamaan Pertumbuhan, gerak dan panas"
+     "id": "Lingkaran energi, protokol minimum, tanda-tanda kelebihan beban, Persamaan Pertumbuhan, gerak tubuh dan panas"
     }
    },
    {
@@ -2241,7 +2241,7 @@ window.MT_ASSESS['the-map'] = {
     },
     "sub": {
      "en": "Stressor vs stress, completing the cycle, control and the tool, values, defusion",
-     "id": "Pemicu vs respons stres, menuntaskan siklus, kendali dan alat, nilai, defusi"
+     "id": "Pemicu stres dan stres, menuntaskan siklus stres, kendali dan alatnya, nilai, defusi"
     }
    },
    {
@@ -2252,18 +2252,18 @@ window.MT_ASSESS['the-map'] = {
     },
     "sub": {
      "en": "AVEC, bids, hierarchy, REACH from the junior seat, boundaries",
-     "id": "AVEC, ajakan, hierarki, REACH dari kursi junior, batasan"
+     "id": "AVEC, ajakan untuk terhubung, hierarki, REACH dari kursi junior, batasan"
     }
    },
    {
     "lesson": "5.4",
     "h": {
      "en": "Listening, Disagreeing and Conversations That Matter",
-     "id": "Mendengar, Berbeda Pendapat, dan Percakapan yang Bermakna"
+     "id": "Mendengarkan, Tidak Setuju, dan Percakapan yang Penting"
     },
     "sub": {
      "en": "Restating, conversation types, the Disagreement Ladder, false consensus",
-     "id": "Mengulang, jenis percakapan, Tangga Perbedaan Pendapat, mufakat semu"
+     "id": "Mengulang dengan kata-kata sendiri, jenis-jenis percakapan, Tangga Ketidaksetujuan, kesepakatan palsu"
     }
    },
    {
@@ -2274,7 +2274,7 @@ window.MT_ASSESS['the-map'] = {
     },
     "sub": {
      "en": "Fundamentals first, the learning loop, reactions to change, imposed change",
-     "id": "Fondasi dulu, putaran belajar, reaksi pada perubahan, perubahan yang dipaksakan"
+     "id": "Dasar-dasar lebih dulu, lingkaran belajar, reaksi terhadap perubahan, perubahan yang dipaksakan"
     }
    },
    {
@@ -2285,29 +2285,29 @@ window.MT_ASSESS['the-map'] = {
     },
     "sub": {
      "en": "Tasks not titles, the jagged frontier, three gates, CEK-5, responsible use",
-     "id": "Tugas bukan jabatan, batas bergerigi, tiga gerbang, CEK-5, penggunaan bertanggung jawab"
+     "id": "Tugas, bukan jabatan; batas yang bergerigi; tiga gerbang; CEK-5; penggunaan yang bertanggung jawab"
     }
    },
    {
     "lesson": "5.7",
     "h": {
      "en": "Practical Digital Productivity Toolkit",
-     "id": "Perangkat Produktivitas Digital Praktis"
+     "id": "Perangkat Produktivitas Digital yang Praktis"
     },
     "sub": {
      "en": "Five stations, focus blocks, the weekly review, AI inside stations, digital safety",
-     "id": "Lima pos, blok fokus, tinjauan mingguan, AI di dalam pos, keamanan digital"
+     "id": "Lima pos, blok fokus, tinjauan mingguan, AI di dalam setiap pos, keamanan digital"
     }
    },
    {
     "lesson": "5.8",
     "h": {
      "en": "Case Assignment: Raka's First 100 Days",
-     "id": "Studi Kasus: 100 Hari Pertama Raka"
+     "id": "Tugas Studi Kasus: 100 Hari Pertama Raka"
     },
     "sub": {
      "en": "All of Module 5 in one situation; your Sustainable Performance Plan",
-     "id": "Seluruh Modul 5 dalam satu situasi; Rencana Kinerja Berkelanjutanmu"
+     "id": "Seluruh isi Modul 5 dalam satu situasi; Rencana Kinerja Berkelanjutan milikmu"
     }
    }
   ],
@@ -2325,7 +2325,7 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Your worst week: a floor that flexes down but never to zero",
-      "id": "Minggu terburukmu: batas bawah yang boleh turun, tapi tidak pernah sampai nol"
+      "id": "Minggu terburukmu: batas bawah yang boleh turun, tetapi tidak pernah sampai nol"
      },
      {
       "en": "Elite athlete routines, scaled down",
@@ -2338,20 +2338,20 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Crunch weeks shrink the protocol, six hours instead of seven, one walk instead of two, but zero is the only failure, because the work itself runs on this energy.",
-     "id": "Minggu yang padat boleh menyusutkan protokolnya, enam jam tidur alih-alih tujuh, satu kali jalan kaki alih-alih dua, tapi nol adalah satu-satunya kegagalan, karena pekerjaan itu sendiri berjalan di atas energi ini."
+     "en": "Crunch weeks shrink the protocol (six hours instead of seven, one walk instead of two), but zero is the only failure, because the work itself runs on this energy.",
+     "id": "Minggu yang padat boleh menyusutkan protokolnya (enam jam tidur alih-alih tujuh, satu kali jalan kaki alih-alih dua), tetapi nol adalah satu-satunya kegagalan, karena pekerjaan itu sendiri berjalan di atas energi ini."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Unrefreshing sleep + irritability + skipping the futsal group you love. The two-step response is:",
-     "id": "Tidur tidak menyegarkan + gampang tersulut + mulai melewatkan futsal bersama teman-teman yang biasanya kamu sukai. Respons dua langkahnya:"
+     "id": "Tidur tidak menyegarkan, gampang tersulut, dan mulai melewatkan futsal yang biasanya kamu sukai. Respons dua langkahnya adalah:"
     },
     "opts": [
      {
       "en": "Push through: early careers demand sacrifice",
-      "id": "Terobos saja: awal karier memang menuntut pengorbanan"
+      "id": "Paksakan saja: awal karier memang menuntut pengorbanan"
      },
      {
       "en": "Subtract one commitment and defend the sleep window first, then talk to someone",
@@ -2359,7 +2359,7 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Immediately resign from the stressful role",
-      "id": "Segera mengundurkan diri dari peran yang membuat stres"
+      "id": "Langsung mengundurkan diri dari peran yang membuat stres"
      },
      {
       "en": "Add exercise to compensate for the stress",
@@ -2368,15 +2368,15 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "The trio is the early-warning signature, arriving weeks before real trouble. Subtract first, then talk, and a professional if low mood persists two weeks or more.",
-     "id": "Ketiganya adalah tanda peringatan dini, yang muncul berminggu-minggu sebelum masalah yang sebenarnya. Kurangi dulu, lalu bicara, dan temui profesional kalau suasana hati yang rendah bertahan dua minggu atau lebih."
+     "en": "The trio is the early-warning signature, arriving weeks before real trouble. Subtract first, then talk, and see a professional if low mood persists two weeks or more.",
+     "id": "Ketiganya adalah tanda peringatan dini yang muncul berminggu-minggu sebelum masalah yang sebenarnya. Kurangi dulu, lalu bicara, dan temui tenaga profesional kalau suasana hati yang murung bertahan dua minggu atau lebih."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "Fundamentals-first learning means spending most learning time on:",
-     "id": "Belajar dengan pendekatan fondasi-lebih-dulu berarti menghabiskan sebagian besar waktu belajar untuk:"
+     "id": "Belajar dengan prinsip dasar-dasar lebih dulu berarti menghabiskan sebagian besar waktu belajar untuk:"
     },
     "opts": [
      {
@@ -2385,7 +2385,7 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "The durable layer beneath tools: statistics, writing, logic, domain judgment",
-      "id": "Lapisan yang tahan lama di bawah alat; statistika, menulis, logika, pemahaman bidang"
+      "id": "Lapisan yang tahan lama di bawah alat: statistika, menulis, logika, penilaian di bidangmu"
      },
      {
       "en": "Certifications with recognised names",
@@ -2399,14 +2399,14 @@ window.MT_ASSESS['the-map'] = {
     "correct": 1,
     "expl": {
      "en": "Tools expire; fundamentals compound. When the next wave arrives you relearn syntax, not substance.",
-     "id": "Alat kedaluwarsa; fondasi bertumbuh berlipat. Saat gelombang berikutnya datang, yang perlu kamu pelajari ulang hanya sintaksnya, bukan substansinya."
+     "id": "Alat bisa kedaluwarsa, sedangkan dasar-dasar terus bertumbuh. Saat gelombang berikutnya datang, yang perlu kamu pelajari ulang hanya sintaksnya, bukan substansinya."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Your commitments live in your head, chat screenshots and three apps, and two just slipped. The Module 5 fix is:",
-     "id": "Komitmenmu tersebar di kepala, tangkapan layar chat, dan tiga aplikasi, dan dua baru saja terlewat. Solusi dari Modul 5:"
+     "id": "Komitmenmu tersebar di kepala, tangkapan layar chat, dan tiga aplikasi, dan dua di antaranya baru saja terlewat. Solusi dari Modul 5 adalah:"
     },
     "opts": [
      {
@@ -2415,11 +2415,11 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "One capture point processed daily, with everything dated living in the calendar",
-      "id": "Satu titik pencatatan yang diproses setiap hari, dengan semua yang bertanggal berpindah ke kalender"
+      "id": "Satu penampung yang diproses setiap hari, dengan semua yang bertanggal tinggal di kalender"
      },
      {
       "en": "Weekly apology messages to affected people",
-      "id": "Pesan permintaan maaf mingguan kepada pihak yang terdampak"
+      "id": "Pesan permintaan maaf mingguan kepada orang-orang yang terdampak"
      },
      {
       "en": "Fewer commitments overall",
@@ -2428,28 +2428,28 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "The brain releases a commitment only when it trusts the place it was written will be seen again, one inbox, one calendar, one evening process.",
-     "id": "Otak baru mau melepaskan sebuah komitmen ketika ia percaya tempat komitmen itu ditulis pasti akan dilihat lagi, satu kotak masuk, satu kalender, satu sesi pemrosesan tiap malam."
+     "en": "The brain releases a commitment only when it trusts the place it was written will be seen again: one inbox, one calendar, one evening process.",
+     "id": "Otak baru mau melepaskan sebuah komitmen kalau ia percaya tempat komitmen itu dicatat pasti akan dilihat lagi: satu kotak masuk, satu kalender, satu sesi pemrosesan setiap malam."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "“Stress + rest = growth” means:",
-     "id": "“Stres + istirahat = pertumbuhan” berarti:"
+     "id": "“Stres + istirahat = pertumbuhan” artinya:"
     },
     "opts": [
      {
       "en": "Growth comes from pushing harder every day",
-      "id": "Pertumbuhan datang dari mendorong lebih keras setiap hari"
+      "id": "Pertumbuhan datang dari memaksa diri lebih keras setiap hari"
      },
      {
       "en": "Capacity grows when a just-manageable demand is followed by enough recovery to adapt",
-      "id": "Kapasitas tumbuh saat tuntutan yang masih bisa diatasi diikuti pemulihan yang cukup untuk beradaptasi"
+      "id": "Kapasitas bertambah ketika tuntutan yang masih bisa ditangani diikuti pemulihan yang cukup untuk beradaptasi"
      },
      {
       "en": "Rest alone builds capacity",
-      "id": "Istirahat saja membangun kapasitas"
+      "id": "Istirahat saja sudah cukup untuk membangun kapasitas"
      },
      {
       "en": "Stress should be avoided entirely",
@@ -2459,27 +2459,27 @@ window.MT_ASSESS['the-map'] = {
     "correct": 1,
     "expl": {
      "en": "Rest is half the training; stretch without recovery tips you down the stress curve.",
-     "id": "Istirahat adalah separuh latihan; regangan tanpa pemulihan mendorongmu turun di kurva stres."
+     "id": "Istirahat adalah separuh dari latihan. Tantangan tanpa pemulihan justru menjatuhkanmu ke sisi buruk kurva stres."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Raka's evening futsal feels unusually heavy after a full day of thesis revisions, although he slept well. Best interpretation?",
-     "id": "Futsal malam Raka terasa luar biasa berat setelah seharian merevisi skripsi, padahal ia tidur cukup. Tafsiran terbaik?"
+     "id": "Futsal malam Raka terasa luar biasa berat setelah seharian merevisi skripsi, padahal tidurnya cukup. Tafsiran terbaiknya?"
     },
     "opts": [
      {
       "en": "He has lost fitness and should train harder",
-      "id": "Ia kehilangan kebugaran dan harus berlatih lebih keras"
+      "id": "Kebugarannya menurun dan ia harus berlatih lebih keras"
      },
      {
       "en": "Mental fatigue has raised his perceived effort; plan the session lighter",
-      "id": "Kelelahan mental menaikkan persepsi usahanya; rencanakan sesi lebih ringan"
+      "id": "Kelelahan mental membuat usaha terasa lebih berat; rencanakan sesi yang lebih ringan"
      },
      {
       "en": "He should take a painkiller before games",
-      "id": "Ia sebaiknya minum pereda nyeri sebelum bermain"
+      "id": "Ia sebaiknya minum obat pereda nyeri sebelum bertanding"
      },
      {
       "en": "He is unmotivated and should quit futsal",
@@ -2489,67 +2489,67 @@ window.MT_ASSESS['the-map'] = {
     "correct": 1,
     "expl": {
      "en": "Check the dial (sleep, heat, food, mental load) before the verdict.",
-     "id": "Periksa dial (tidur, panas, makanan, beban mental) sebelum vonis."
+     "id": "Cek dulu kenopnya (tidur, panas, makanan, beban mental) sebelum menjatuhkan vonis."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "It is 1 p.m., very hot and humid. Sari recovered from a fever yesterday and wants to “push through” a run. Best advice?",
-     "id": "Pukul 13.00, sangat panas dan lembap. Sari baru pulih dari demam kemarin dan ingin “menerobos” lari. Saran terbaik?"
+     "id": "Pukul 13:00, cuaca sangat panas dan lembap. Sari baru sembuh dari demam kemarin dan ingin “memaksakan diri” untuk lari. Saran terbaiknya?"
     },
     "opts": [
      {
       "en": "Self-talk will raise her heat tolerance safely",
-      "id": "Bicara-diri akan menaikkan toleransi panasnya dengan aman"
+      "id": "Bicara positif pada diri sendiri akan menaikkan daya tahannya terhadap panas dengan aman"
      },
      {
       "en": "Drink as much water as possible and go",
-      "id": "Minum air sebanyak mungkin lalu berangkat"
+      "id": "Minum air sebanyak mungkin, lalu berangkat"
      },
      {
       "en": "Postpone; run easy and early once she is well",
-      "id": "Tunda; lari ringan dan pagi setelah ia sehat"
+      "id": "Tunda dulu; lari santai di pagi hari setelah ia benar-benar pulih"
      },
      {
       "en": "Run in extra layers to sweat more",
-      "id": "Lari dengan lapisan baju ekstra agar lebih berkeringat"
+      "id": "Lari dengan pakaian berlapis supaya lebih banyak berkeringat"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "Illness and heat weaken the body's protective brakes.",
-     "id": "Sakit dan panas melemahkan rem pelindung tubuh."
+     "id": "Sakit dan panas melemahkan rem pelindung alami tubuh."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Rina submits her final revision at 16:00 but at midnight she is still wired and can't sleep. What helps most?",
-     "id": "Rina mengumpulkan revisi akhirnya pukul 16.00 tapi tengah malam masih tegang dan tidak bisa tidur. Apa yang paling membantu?"
+     "id": "Rina mengumpulkan revisi terakhirnya pukul 16:00, tetapi tengah malam ia masih tegang dan tidak bisa tidur. Apa yang paling membantu?"
     },
     "opts": [
      {
       "en": "Listing what went well",
-      "id": "Mendaftar apa yang berjalan baik"
+      "id": "Mendaftar hal-hal yang berjalan baik"
      },
      {
       "en": "Completing the stress cycle with a body-based activity such as a walk or slow-exhale breathing",
-      "id": "Menuntaskan siklus stres dengan aktivitas berbasis tubuh seperti jalan kaki atau napas embusan lambat"
+      "id": "Menuntaskan siklus stres dengan aktivitas yang melibatkan tubuh, seperti jalan kaki atau napas dengan embusan panjang"
      },
      {
       "en": "Starting the next task to use the energy",
-      "id": "Memulai tugas berikutnya untuk memakai energinya"
+      "id": "Langsung mengerjakan tugas berikutnya untuk memakai energinya"
      },
      {
       "en": "Concluding she has an anxiety disorder",
-      "id": "Menyimpulkan ia punya gangguan kecemasan"
+      "id": "Menyimpulkan bahwa ia punya gangguan kecemasan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Stressor solved ≠ stress complete. The body needs a finish line.",
-     "id": "Pemicu selesai ≠ stres tuntas. Tubuh butuh garis akhir."
+     "id": "Pemicu stres selesai ≠ stresnya tuntas. Tubuh butuh garis finis."
     }
    },
    {
@@ -2569,29 +2569,29 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Being a teammate others can rely on",
-      "id": "Menjadi rekan tim yang bisa diandalkan"
+      "id": "Menjadi rekan tim yang bisa diandalkan orang lain"
      },
      {
       "en": "Earning Rp10 million a month by 25",
-      "id": "Berpenghasilan Rp10 juta sebulan pada usia 25"
+      "id": "Berpenghasilan Rp10 juta per bulan di usia 25"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "Values are directions you keep travelling; goals are destinations you reach.",
-     "id": "Nilai adalah arah yang terus kamu tempuh; tujuan adalah destinasi yang kamu capai."
+     "id": "Nilai adalah arah yang terus kamu tempuh; tujuan adalah tempat yang kamu capai."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Before sidang, Sari says to herself, “I'm having the thought that I'll blank out,” then reads her first slide title. This is an example of:",
-     "id": "Sebelum sidang, Sari berkata pada dirinya, “Aku sedang punya pikiran bahwa aku akan blank,” lalu membaca judul slide pertamanya. Ini contoh dari:"
+     "id": "Sebelum sidang, Sari berkata dalam hati, “Aku sedang punya pikiran bahwa aku akan blank,” lalu membaca judul slide pertamanya. Ini contoh dari:"
     },
     "opts": [
      {
       "en": "Suppression",
-      "id": "Penekanan"
+      "id": "Penekanan pikiran"
      },
      {
       "en": "Positive thinking",
@@ -2616,46 +2616,46 @@ window.MT_ASSESS['the-map'] = {
     "type": "scen",
     "q": {
      "en": "In week two of an internship your supervisor's replies are short and you've stopped asking questions. What fits Module 5 best?",
-     "id": "Di minggu kedua magang balasan atasanmu singkat-singkat dan kamu berhenti bertanya. Mana yang paling sesuai Modul 5?"
+     "id": "Di minggu kedua magang, balasan pembimbingmu singkat-singkat dan kamu jadi berhenti bertanya. Apa yang paling sesuai dengan Modul 5?"
     },
     "opts": [
      {
       "en": "Keep guessing so you don't bother her",
-      "id": "Terus menebak agar tidak merepotkannya"
+      "id": "Terus menebak-nebak supaya tidak merepotkannya"
      },
      {
       "en": "Ask for ten minutes, come with your notes and a specific question",
-      "id": "Minta sepuluh menit, datang dengan catatan dan pertanyaan spesifik"
+      "id": "Minta waktu sepuluh menit, datang dengan catatanmu dan satu pertanyaan yang spesifik"
      },
      {
       "en": "Complain to the other interns",
-      "id": "Mengeluh ke pemagang lain"
+      "id": "Mengeluh kepada sesama anak magang"
      },
      {
       "en": "Ask HR to change supervisor",
-      "id": "Minta HR mengganti atasan"
+      "id": "Minta HR mengganti pembimbing"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "AVEC across hierarchy: short replies are usually about load, not a verdict on you.",
-     "id": "AVEC lintas hierarki: balasan singkat biasanya soal beban, bukan vonis tentangmu."
+     "id": "AVEC lintas hierarki: balasan singkat biasanya soal beban kerja, bukan penilaian tentang dirimu."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "Which is the best junior action for building psychological safety?",
-     "id": "Tindakan junior mana yang terbaik untuk membangun rasa aman psikologis?"
+     "id": "Tindakan junior mana yang paling membangun rasa aman psikologis?"
     },
     "opts": [
      {
       "en": "Staying silent in meetings to show respect",
-      "id": "Diam di rapat untuk menunjukkan rasa hormat"
+      "id": "Diam saja di rapat sebagai tanda hormat"
      },
      {
       "en": "Reporting your own error early, with the fix and a prevention step",
-      "id": "Melaporkan kesalahanmu sendiri lebih awal, dengan perbaikan dan langkah pencegahan"
+      "id": "Melaporkan kesalahanmu sendiri sejak awal, lengkap dengan perbaikan dan langkah pencegahannya"
      },
      {
       "en": "Pointing out a senior's mistake in the group chat",
@@ -2669,53 +2669,53 @@ window.MT_ASSESS['the-map'] = {
     "correct": 1,
     "expl": {
      "en": "Reframe mistakes: modelling admission makes it safer for everyone.",
-     "id": "Maknai ulang kesalahan: mencontohkan pengakuan membuat semua orang lebih aman."
+     "id": "Maknai ulang kesalahan: memberi contoh dengan mengaku salah membuat suasana lebih aman bagi semua orang."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "A friend tells you she failed an interview she really wanted. Which reply is empathy?",
-     "id": "Seorang teman bercerita ia gagal di wawancara yang sangat ia inginkan. Balasan mana yang merupakan empati?"
+     "id": "Seorang teman bercerita bahwa ia gagal di wawancara yang sangat ia inginkan. Balasan mana yang menunjukkan empati?"
     },
     "opts": [
      {
       "en": "“Don't worry, there'll be others.”",
-      "id": "“Tenang, masih banyak yang lain.”"
+      "id": "“Jangan khawatir, nanti juga ada lagi.”"
      },
      {
       "en": "“That sounds deflating. What's sitting with you most?”",
-      "id": "“Kedengarannya mengecewakan sekali. Apa yang paling mengganjal buatmu?”"
+      "id": "“Pasti rasanya bikin lemas. Apa yang paling mengganjal buatmu?”"
      },
      {
       "en": "“Did you prepare enough? Next time practise more.”",
-      "id": "“Kamu sudah siap belum? Lain kali latihan lebih banyak.”"
+      "id": "“Persiapanmu sudah cukup belum? Lain kali latihan lebih banyak.”"
      },
      {
       "en": "“The same thing happened to me once, let me tell you…”",
-      "id": "“Aku juga pernah begitu, dengar ceritaku…”"
+      "id": "“Aku juga pernah ngalamin hal yang sama, dengar ya…”"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Name their feeling before your fix or your story.",
-     "id": "Sebut perasaan mereka sebelum solusi atau ceritamu."
+     "id": "Sebutkan perasaannya sebelum menawarkan solusimu atau ceritamu sendiri."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Dimas proposes interviews instead of a survey. Sari instantly says “No.” What should she have done first?",
-     "id": "Dimas mengusulkan wawancara alih-alih survei. Sari langsung berkata “Jangan.” Apa yang seharusnya ia lakukan lebih dulu?"
+     "id": "Dimas mengusulkan wawancara alih-alih survei. Sari langsung menjawab “Tidak.” Apa yang seharusnya ia lakukan lebih dulu?"
     },
     "opts": [
      {
       "en": "Called a vote",
-      "id": "Mengadakan pemungutan suara"
+      "id": "Mengadakan voting"
      },
      {
       "en": "Restated his proposal and his reasons, and checked she had it right",
-      "id": "Mengulang usulannya dan alasannya, dan memastikan ia menangkapnya dengan benar"
+      "id": "Mengulang usulan Dimas beserta alasannya dengan kata-katanya sendiri, lalu memastikan pemahamannya benar"
      },
      {
       "en": "Cited the lecturer's preference",
@@ -2723,29 +2723,29 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Agreed to keep the peace",
-      "id": "Setuju demi menjaga kedamaian"
+      "id": "Setuju saja demi menjaga suasana"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Understand before you judge.",
-     "id": "Pahami sebelum menilai."
+     "id": "Pahami dulu, baru menilai."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "The ketua asks “Ada yang keberatan?” and nobody responds. Best reading and action?",
-     "id": "Ketua bertanya “Ada yang keberatan?” dan tidak ada yang merespons. Pembacaan dan tindakan terbaik?"
+     "id": "Ketua bertanya, “Ada yang keberatan?” dan tidak ada yang menjawab. Cara membaca dan tindakan terbaiknya?"
     },
     "opts": [
      {
       "en": "Unanimous agreement; proceed",
-      "id": "Setuju bulat; lanjutkan"
+      "id": "Semua setuju; lanjutkan"
      },
      {
-      "en": "Possibly false consensus; ask each person in turn, juniors first, or run a numbered poll",
-      "id": "Mungkin mufakat semu; tanyai tiap orang bergiliran, junior dulu, atau jalankan polling bernomor"
+      "en": "Possibly false consensus; ask each person in turn (juniors first) or run a numbered poll",
+      "id": "Bisa jadi kesepakatan palsu; tanyai setiap orang secara bergiliran (mulai dari yang paling junior) atau adakan polling bernomor"
      },
      {
       "en": "Members don't care; cancel",
@@ -2759,27 +2759,27 @@ window.MT_ASSESS['the-map'] = {
     "correct": 1,
     "expl": {
      "en": "Silence under power distance is not agreement.",
-     "id": "Diam di bawah jarak kekuasaan bukan berarti setuju."
+     "id": "Diam di tengah jarak kuasa bukan berarti setuju."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "You and a teammate agree the event should welcome maba but differ on whether tickets should be free. This is:",
-     "id": "Kamu dan rekan tim sepakat acara harus ramah maba tapi berbeda soal apakah tiket gratis. Ini adalah:"
+     "id": "Kamu dan seorang rekan tim sepakat bahwa acaranya harus ramah untuk maba, tetapi berbeda pendapat soal apakah tiketnya harus gratis. Ini adalah:"
     },
     "opts": [
      {
       "en": "Disagreement on principle",
-      "id": "Perbedaan pada prinsip"
+      "id": "Ketidaksetujuan pada prinsip"
      },
      {
       "en": "Agreement on principle, disagreement on policy",
-      "id": "Sepakat pada prinsip, berbeda pada kebijakan"
+      "id": "Sepakat pada prinsip, tidak sepakat pada kebijakan"
      },
      {
       "en": "Apparent disagreement only",
-      "id": "Hanya perbedaan semu"
+      "id": "Ketidaksetujuan semu saja"
      },
      {
       "en": "A matter of taste",
@@ -2789,7 +2789,7 @@ window.MT_ASSESS['the-map'] = {
     "correct": 1,
     "expl": {
      "en": "Name the level: the shared goal stays visible and the difference stays workable.",
-     "id": "Sebut tingkatnya: tujuan bersama tetap terlihat dan perbedaannya tetap bisa dikerjakan."
+     "id": "Sebutkan anak tangganya: tujuan bersama tetap terlihat dan perbedaannya tetap bisa diolah."
     }
    },
    {
@@ -2801,45 +2801,45 @@ window.MT_ASSESS['the-map'] = {
     "opts": [
      {
       "en": "Post your frustration publicly",
-      "id": "Posting frustrasimu di depan umum"
+      "id": "Mengunggah kekesalanmu ke publik"
      },
      {
       "en": "Separate facts from interpretations and take stock of what has and hasn't changed",
-      "id": "Pisahkan fakta dari tafsiran dan inventarisasi apa yang berubah dan tidak"
+      "id": "Memisahkan fakta dari tafsiran dan mendata apa yang berubah dan apa yang tidak"
      },
      {
       "en": "Wait for things to go back to normal",
-      "id": "Tunggu keadaan kembali normal"
+      "id": "Menunggu keadaan kembali normal"
      },
      {
       "en": "Resign immediately",
-      "id": "Mengundurkan diri segera"
+      "id": "Langsung mengundurkan diri"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The change steps start by separating thinking from events.",
-     "id": "Langkah perubahan dimulai dengan memisahkan pikiran dari peristiwa."
+     "id": "Langkah-langkah menghadapi perubahan dimulai dengan memisahkan pikiran dari kejadiannya."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "An AI tool gives Dina five neatly formatted citations for her skripsi. First step?",
-     "id": "Alat AI memberi Dina lima kutipan yang diformat rapi untuk skripsinya. Langkah pertama?"
+     "id": "Sebuah alat AI memberi Dina lima sitasi yang rapi untuk skripsinya. Langkah pertamanya?"
     },
     "opts": [
      {
       "en": "Paste them in; they look right",
-      "id": "Tempelkan; tampak benar"
+      "id": "Langsung tempel; kelihatannya sudah benar"
      },
      {
       "en": "Ask the AI whether they're real",
-      "id": "Tanya ke AI apakah itu asli"
+      "id": "Tanya AI-nya apakah sitasi itu nyata"
      },
      {
       "en": "Look each one up in a scholarly database and read it before using it",
-      "id": "Cari masing-masing di basis data ilmiah dan baca sebelum memakainya"
+      "id": "Cari setiap sitasi di basis data ilmiah dan baca sebelum memakainya"
      },
      {
       "en": "Keep the two that sound most relevant",
@@ -2849,44 +2849,44 @@ window.MT_ASSESS['the-map'] = {
     "correct": 2,
     "expl": {
      "en": "Models can invent references; you are the human in the loop.",
-     "id": "Model bisa mengarang referensi; kamulah manusia dalam kendali."
+     "id": "Model AI bisa mengarang referensi; kamulah manusia di dalam lingkaran kerjanya."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "You're asked to summarise a client contract quickly and there is no AI policy. Best action?",
-     "id": "Kamu diminta meringkas kontrak klien dengan cepat dan tidak ada kebijakan AI. Tindakan terbaik?"
+     "id": "Kamu diminta merangkum kontrak klien dengan cepat, dan belum ada kebijakan AI. Tindakan terbaiknya?"
     },
     "opts": [
      {
       "en": "Paste it into a free chatbot",
-      "id": "Tempelkan ke chatbot gratis"
+      "id": "Tempel ke chatbot gratisan"
      },
      {
       "en": "Ask your supervisor whether, and which, AI tool is approved for client documents first",
-      "id": "Tanyakan dulu ke atasanmu apakah, dan alat AI mana, yang disetujui untuk dokumen klien"
+      "id": "Tanyakan dulu ke atasanmu apakah ada alat AI yang disetujui untuk dokumen klien, dan yang mana"
      },
      {
       "en": "Delete the client name, then paste it anywhere",
-      "id": "Hapus nama klien, lalu tempel di mana saja"
+      "id": "Hapus nama kliennya, lalu tempel di mana saja"
      },
      {
       "en": "Use your personal phone so it doesn't count",
-      "id": "Pakai ponsel pribadi agar tidak terhitung"
+      "id": "Pakai ponsel pribadi supaya tidak dihitung"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Gate 2: safe to share? Inputs may be stored and names don't anonymise.",
-     "id": "Gerbang 2: aman dibagikan? Masukan bisa disimpan dan nama tidak membuat anonim."
+     "en": "Gate 2: safe to share? Inputs may be stored, and deleting a name does not anonymise a document.",
+     "id": "Gerbang 2: aman dibagikan? Masukan bisa tersimpan, dan menghapus nama tidak membuat sebuah dokumen jadi anonim."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "Where should AI sit in your digital toolkit?",
-     "id": "Di mana AI seharusnya berada di perangkat digitalmu?"
+     "id": "Di mana posisi AI dalam perangkat digitalmu?"
     },
     "opts": [
      {
@@ -2895,11 +2895,11 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Inside each station as a helper, under your gates and with verification",
-      "id": "Di dalam tiap pos sebagai pembantu, di bawah gerbangmu dan dengan verifikasi"
+      "id": "Di dalam setiap pos sebagai pembantu, di bawah gerbang-gerbangmu dan dengan verifikasi"
      },
      {
       "en": "Nowhere; avoid it",
-      "id": "Tidak di mana pun; hindari"
+      "id": "Tidak di mana pun; hindari saja"
      },
      {
       "en": "Only in the inbox",
@@ -2909,27 +2909,27 @@ window.MT_ASSESS['the-map'] = {
     "correct": 1,
     "expl": {
      "en": "The stations are the system; AI is a helper inside them, not a sixth station.",
-     "id": "Pos-pos itulah sistemnya; AI adalah pembantu di dalamnya, bukan pos keenam."
+     "id": "Pos-pos itulah sistemnya. AI adalah pembantu di dalamnya, bukan pos keenam."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "Write your Module 5 reflection in three parts. (1) Which energy system in your ring is weakest right now, and what is your floor commitment for it? (2) Name one relationship you will invest in this month and the AVEC element you will practise. (3) Which task in your target role is most exposed to AI, and what is your skill bet in response? Keep each part concrete: a number, a name, a date.",
-    "id": "Tulis refleksi Modul 5-mu dalam tiga bagian. (1) Sistem energi mana di lingkaranmu yang paling lemah sekarang, dan apa komitmen batas bawahmu untuknya? (2) Sebut satu relasi yang akan kamu investasikan bulan ini dan elemen AVEC yang akan kamu praktikkan. (3) Tugas mana di peran targetmu yang paling terpapar AI, dan apa taruhan keterampilanmu sebagai tanggapan? Jaga tiap bagian konkret: angka, nama, tanggal."
+    "id": "Tulis refleksi Modul 5 dalam tiga bagian. (1) Sistem energi mana di lingkaranmu yang paling lemah saat ini, dan apa komitmen batas bawahmu untuknya? (2) Sebutkan satu relasi yang akan kamu rawat bulan ini dan unsur AVEC yang akan kamu latih. (3) Tugas mana dalam peran incaranmu yang paling terpapar AI, dan keterampilan apa yang kamu pertaruhkan sebagai jawabannya? Buat setiap bagian konkret: satu angka, satu nama, satu tanggal."
    },
    "guide": [
     {
      "en": "Part 1 should name the system (sleep, movement, fuel, recovery) and a floor you would keep in your worst week.",
-     "id": "Bagian 1 harus menyebut sistemnya (tidur, gerak, bahan bakar, pemulihan) dan batas bawah yang akan kamu jaga di minggu terburukmu."
+     "id": "Bagian 1 sebaiknya menyebut sistemnya (tidur, gerak, asupan, pemulihan) dan batas bawah yang tetap kamu jaga di minggu terburukmu."
     },
     {
      "en": "Part 2 should name a real person and one of attention, vulnerability, empathy or compassion.",
-     "id": "Bagian 2 harus menyebut orang sungguhan dan salah satu dari perhatian, keterbukaan, empati, atau kasih sayang."
+     "id": "Bagian 2 sebaiknya menyebut orang yang nyata dan salah satu dari perhatian, keterbukaan, empati, atau welas asih."
     },
     {
      "en": "Part 3 should name a task, its category (human-led, AI-assisted, AI can do) and a skill you will build in 90 days.",
-     "id": "Bagian 3 harus menyebut sebuah tugas, kategorinya (dipimpin manusia, berbantuan AI, AI bisa mengerjakan), dan keterampilan yang akan kamu bangun dalam 90 hari."
+     "id": "Bagian 3 sebaiknya menyebut satu tugas, kategorinya (dipimpin manusia, dibantu AI, bisa dikerjakan AI), dan satu keterampilan yang akan kamu bangun dalam 90 hari."
     }
    ],
    "min": 120
@@ -2941,7 +2941,7 @@ window.MT_ASSESS['the-map'] = {
     "type": "know",
     "q": {
      "en": "The three-question debrief after every industry track asks:",
-     "id": "Debrief tiga pertanyaan setelah setiap jalur industri menanyakan:"
+     "id": "Pembahasan tiga pertanyaan setelah setiap jalur industri menanyakan:"
     },
     "opts": [
      {
@@ -2950,67 +2950,67 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Energy, competence trajectory, curiosity",
-      "id": "Energi, lintasan kompetensi, rasa ingin tahu"
+      "id": "Energi, arah kemampuan, rasa penasaran"
      },
      {
       "en": "Difficulty, duration, enjoyment",
-      "id": "Tingkat kesulitan, durasi, kesenangan"
+      "id": "Tingkat kesulitan, durasi, keasyikan"
      },
      {
       "en": "Pass, fail, retry",
-      "id": "Lulus, gagal, ulang"
+      "id": "Lulus, gagal, ulangi"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Did the time pass quickly? Did you improve within the session and want to? Which task would you do a harder version of tomorrow? Behavioural signal, not brochure impressions.",
-     "id": "Apakah waktunya terasa cepat berlalu? Apakah kamu makin baik selama sesi berlangsung, dan ingin terus? Tugas mana yang versi lebih sulitnya mau kamu kerjakan besok? Ini sinyal dari perilaku, bukan kesan dari brosur."
+     "id": "Apakah waktunya terasa cepat berlalu? Apakah kamu berkembang selama sesi itu dan ingin terus berkembang? Tugas mana yang ingin kamu kerjakan versi sulitnya besok? Ini sinyal perilaku, bukan kesan dari brosur."
     }
    },
    {
     "type": "scen",
     "q": {
-     "en": "You scored well on the accounting track but the 90 minutes crawled. The debrief's read:",
-     "id": "Skormu bagus di jalur akuntansi, tapi 90 menitnya terasa merangkak. Bacaan debrief-nya:"
+     "en": "You scored well on the accounting track but the 25 minutes crawled. The debrief's read:",
+     "id": "Nilaimu bagus di jalur akuntansi, tetapi 25 menitnya terasa merangkak. Cara pembahasan membacanya:"
     },
     "opts": [
      {
       "en": "Pursue it: performance is what matters",
-      "id": "Kejar: yang penting kinerjanya"
+      "id": "Kejar saja: yang penting kinerjanya"
      },
      {
       "en": "Caution: competence without energy predicts burnout-grade misfit over years",
-      "id": "Hati-hati: kompeten tapi tanpa energi adalah pertanda ketidakcocokan yang bisa berujung burnout dalam beberapa tahun"
+      "id": "Hati-hati: kemampuan tanpa energi menandakan ketidakcocokan yang bisa berujung burnout dalam hitungan tahun"
      },
      {
       "en": "Retake the track to confirm the score",
-      "id": "Ulangi jalurnya untuk memastikan skornya"
+      "id": "Ulangi jalurnya untuk memastikan nilainya"
      },
      {
       "en": "Ignore one session entirely",
-      "id": "Abaikan sepenuhnya, itu cuma satu sesi"
+      "id": "Abaikan satu sesi itu sepenuhnya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Skill can be built almost anywhere; energy cannot be faked for a decade. High-competence low-energy is the classic trap the debrief exists to catch.",
-     "id": "Keterampilan bisa dibangun hampir di mana saja; energi tidak bisa dipalsukan selama sepuluh tahun. Kompetensi tinggi dengan energi rendah adalah jebakan klasik yang memang ingin ditangkap oleh debrief ini."
+     "id": "Keterampilan bisa dibangun hampir di mana saja, tetapi energi tidak bisa dipalsukan selama sepuluh tahun. Kemampuan tinggi dengan energi rendah adalah jebakan klasik yang memang ingin ditangkap oleh pembahasan ini."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "In the credit-analysis task, receivables stretching 51→74 days worried the lender more than the 4% net margin because:",
-     "id": "Dalam tugas analisis kredit, piutang yang memanjang dari 51 menjadi 74 hari lebih mengkhawatirkan bagi pemberi pinjaman daripada margin bersih 4% karena:"
+     "id": "Dalam tugas analisis kredit, umur piutang yang memanjang dari 51 ke 74 hari lebih mengkhawatirkan pemberi pinjaman daripada margin bersih 4% karena:"
     },
     "opts": [
      {
       "en": "Margins never matter in banking",
-      "id": "Margin tidak pernah penting dalam perbankan"
+      "id": "Margin tidak pernah penting di perbankan"
      },
      {
       "en": "Loans are repaid with collected cash, and the collection trend was deteriorating",
-      "id": "Pinjaman dibayar dengan kas yang benar-benar tertagih, dan tren penagihannya sedang memburuk"
+      "id": "Pinjaman dibayar dengan kas yang berhasil ditagih, dan tren penagihannya memburuk"
      },
      {
       "en": "74 days breaks a legal limit",
@@ -3024,23 +3024,23 @@ window.MT_ASSESS['the-map'] = {
     "correct": 1,
     "expl": {
      "en": "Profit is an opinion about periods; cash collection is the fact that services debt. Lenders are professionally paid to find the uncomfortable trend first.",
-     "id": "Laba adalah opini tentang suatu periode; kas yang tertagih adalah fakta yang membayar utang. Pemberi pinjaman memang dibayar untuk menemukan tren yang tidak nyaman lebih dulu."
+     "id": "Laba adalah pendapat tentang periode; kas yang tertagih adalah fakta yang membayar utang. Pemberi pinjaman memang dibayar untuk menemukan tren yang tidak nyaman lebih dulu."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "When your simulation results contradict your questionnaire results, trust:",
-     "id": "Ketika hasil simulasimu bertentangan dengan hasil kuesionermu, yang perlu kamu percayai:"
+     "id": "Kalau hasil simulasimu bertentangan dengan hasil kuesionermu, percayai:"
     },
     "opts": [
      {
       "en": "The questionnaire: it is more systematic",
-      "id": "Kuesionernya: lebih sistematis"
+      "id": "Kuesionernya, karena lebih sistematis"
      },
      {
       "en": "The simulation: behaviour predicts better than stated preference",
-      "id": "Simulasinya: perilaku meramalkan lebih baik daripada preferensi yang sekadar dinyatakan"
+      "id": "Simulasinya, karena perilaku memprediksi lebih baik daripada preferensi yang diucapkan"
      },
      {
       "en": "Neither: flip a coin",
@@ -3048,13 +3048,13 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Whichever suggests the higher-paying path",
-      "id": "Yang mana pun yang mengarah ke jalur bergaji lebih tinggi"
+      "id": "Mana pun yang mengarah ke jalur dengan gaji lebih tinggi"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Stated preferences are what you think you like; the simulation measured your reaction to the actual work. Contact beats introspection.",
-     "id": "Preferensi yang dinyatakan adalah apa yang kamu kira kamu sukai; simulasi mengukur reaksimu terhadap pekerjaan yang sesungguhnya. Bersentuhan langsung mengalahkan introspeksi."
+     "id": "Preferensi yang diucapkan adalah apa yang kamu kira kamu sukai; simulasi mengukur reaksimu terhadap pekerjaan yang sebenarnya. Pengalaman langsung mengalahkan perenungan."
     }
    },
    {
@@ -3062,20 +3062,20 @@ window.MT_ASSESS['the-map'] = {
     "lesson": "6.8",
     "q": {
      "en": "Your first query shows an 18% order drop for the 2 pm meeting. The analyst's next step is to:",
-     "id": "Kueri pertamamu menunjukkan penurunan pesanan 18% untuk rapat jam 2. Langkah analis berikutnya adalah:"
+     "id": "Query pertamamu menunjukkan pesanan turun 18% untuk rapat pukul 14:00. Langkah analis berikutnya adalah:"
     },
     "opts": [
      {
       "en": "Build the slide",
-      "id": "Membuat slidenya"
+      "id": "Membuat slide-nya"
      },
      {
       "en": "Check whether the number is real: pipeline, segments, comparison cities, calendar",
-      "id": "Memeriksa apakah angkanya sungguhan: pipeline, segmen, kota pembanding, kalender"
+      "id": "Mengecek apakah angkanya nyata: pipeline, segmen, kota pembanding, kalender"
      },
      {
       "en": "Escalate immediately",
-      "id": "Langsung mengeskalasi"
+      "id": "Langsung melakukan eskalasi"
      },
      {
       "en": "Average it with last month",
@@ -3085,7 +3085,7 @@ window.MT_ASSESS['the-map'] = {
     "correct": 1,
     "expl": {
      "en": "Half of analytics is deciding whether the number is real before anyone acts on it; in the track the true dip was 6% and concentrated in two districts.",
-     "id": "Separuh pekerjaan analitik adalah memutuskan apakah angkanya sungguhan sebelum ada yang bertindak; di jalur itu penurunan sebenarnya 6% dan terkonsentrasi di dua kecamatan."
+     "id": "Separuh pekerjaan analitik adalah memastikan angkanya nyata sebelum ada yang bertindak berdasarkan angka itu. Di jalur ini, penurunan yang sebenarnya hanya 6% dan terpusat di dua kecamatan."
     }
    },
    {
@@ -3093,16 +3093,16 @@ window.MT_ASSESS['the-map'] = {
     "lesson": "6.9",
     "q": {
      "en": "A P1 double-charge bug has a real fix that needs a migration. The junior engineer should:",
-     "id": "Bug tagihan ganda P1 punya perbaikan sesungguhnya yang butuh migrasi. Junior engineer sebaiknya:"
+     "id": "Bug tagihan ganda berstatus P1 punya perbaikan sebenarnya yang butuh migrasi. Engineer junior sebaiknya:"
     },
     "opts": [
      {
       "en": "Ship the real fix today",
-      "id": "Merilis perbaikan sesungguhnya hari ini"
+      "id": "Merilis perbaikan sebenarnya hari ini"
      },
      {
       "en": "Ship the narrowest safe mitigation behind a feature flag and ticket the real fix with an owner",
-      "id": "Merilis mitigasi paling sempit yang aman di balik feature flag dan meniketkan perbaikan sesungguhnya dengan pemilik"
+      "id": "Merilis mitigasi paling sempit yang aman di balik feature flag, lalu membuat tiket untuk perbaikan sebenarnya dengan penanggung jawab"
      },
      {
       "en": "Wait for the senior who left",
@@ -3110,13 +3110,13 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Disable retries for everyone",
-      "id": "Menonaktifkan coba ulang untuk semua orang"
+      "id": "Mematikan retry untuk semua pengguna"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The right fix and the safe-today fix are often different; a P1 wants the second, with the first written down so it is not forgotten.",
-     "id": "Perbaikan yang benar dan yang aman-hari-ini sering berbeda; P1 menginginkan yang kedua, dengan yang pertama dicatat agar tidak terlupakan."
+     "id": "Perbaikan yang benar dan perbaikan yang aman hari ini sering berbeda. P1 butuh yang kedua, dengan yang pertama tercatat supaya tidak terlupakan."
     }
    },
    {
@@ -3124,30 +3124,30 @@ window.MT_ASSESS['the-map'] = {
     "lesson": "6.10",
     "q": {
      "en": "Asked ‘is the campaign working?’ with 2.1m views, 31% reorders in 14 days and cost per order 17% above target, you lead with:",
-     "id": "Ditanya ‘apakah kampanyenya berhasil?’ dengan 2,1 juta tayangan, pemesanan ulang 31% dalam 14 hari, dan biaya per pesanan 17% di atas target, kamu mulai dengan:"
+     "id": "Ditanya ‘kampanyenya berhasil?’ dengan 2,1 juta penayangan, 31% pembelian ulang dalam 14 hari, dan biaya per pesanan 17% di atas target, kamu membuka dengan:"
     },
     "opts": [
      {
       "en": "The views: they show reach",
-      "id": "Tayangannya: menunjukkan jangkauan"
+      "id": "Penayangannya, karena menunjukkan jangkauan"
      },
      {
       "en": "The reorder rate, then the honest miss on cost per order and what you are changing",
-      "id": "Tingkat pemesanan ulang, lalu kejujuran tentang biaya per pesanan yang meleset dan apa yang kamu ubah"
+      "id": "Tingkat pembelian ulang, lalu pengakuan jujur soal biaya per pesanan yang meleset dan apa yang kamu ubah"
      },
      {
       "en": "A request for more budget",
-      "id": "Permintaan anggaran tambahan"
+      "id": "Permintaan tambahan anggaran"
      },
      {
       "en": "The pharmacy numbers",
-      "id": "Angka apoteknya"
+      "id": "Angka penjualan di apotek"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The metric closest to customer behaviour answers the question; views are a vanity metric. Honesty about the miss earns the next budget.",
-     "id": "Metrik yang paling dekat dengan perilaku pelanggan menjawab pertanyaannya; tayangan adalah metrik kesombongan. Kejujuran tentang yang meleset mendatangkan anggaran berikutnya."
+     "id": "Metrik yang paling dekat dengan perilaku pelanggan menjawab pertanyaannya; penayangan hanyalah metrik gengsi. Kejujuran soal yang meleset itulah yang membuatmu dipercaya untuk anggaran berikutnya."
     }
    },
    {
@@ -3155,16 +3155,16 @@ window.MT_ASSESS['the-map'] = {
     "lesson": "6.11",
     "q": {
      "en": "Air freight costs Rp 27m to protect Rp 18m of margin; a 4-day transfer from another DC costs Rp 10.5m; the penalty is Rp 22m. Recommend:",
-     "id": "Kirim udara menghabiskan Rp 27 juta untuk melindungi margin Rp 18 juta; transfer 4 hari dari DC lain Rp 10,5 juta; dendanya Rp 22 juta. Rekomendasikan:"
+     "id": "Kiriman udara menghabiskan Rp 27 juta untuk melindungi margin Rp 18 juta; transfer 4 hari dari DC lain menghabiskan Rp 10,5 juta; dendanya Rp 22 juta. Rekomendasimu:"
     },
     "opts": [
      {
       "en": "Air freight: never show an empty shelf",
-      "id": "Kirim udara: jangan pernah memperlihatkan rak kosong"
+      "id": "Kiriman udara: jangan pernah ada rak kosong"
      },
      {
       "en": "The transfer, telling the customer today when the rest arrives",
-      "id": "Transfer itu, dengan memberi tahu pelanggan hari ini kapan sisanya tiba"
+      "id": "Transfer, sambil memberi tahu pelanggan hari ini kapan sisanya tiba"
      },
      {
       "en": "Pay the penalty",
@@ -3172,13 +3172,13 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Split the order between air and sea",
-      "id": "Bagi pesanan antara udara dan laut"
+      "id": "Bagi pesanannya antara kiriman udara dan laut"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Operations decisions are margin arithmetic with a relationship attached: the transfer nets +Rp 7.5m, and a customer who is told is a customer kept.",
-     "id": "Keputusan operasi adalah aritmetika margin dengan hubungan yang melekat: transfer itu bersih +Rp 7,5 juta, dan pelanggan yang diberi tahu adalah pelanggan yang dipertahankan."
+     "id": "Keputusan operasi adalah hitungan margin yang membawa serta sebuah hubungan: transfer menghasilkan bersih +Rp 7,5 juta, dan pelanggan yang diberi tahu adalah pelanggan yang bertahan."
     }
    },
    {
@@ -3186,30 +3186,30 @@ window.MT_ASSESS['the-map'] = {
     "lesson": "6.12",
     "q": {
      "en": "Completing an employer's simulation on The Forage is:",
-     "id": "Menyelesaikan simulasi perusahaan di The Forage adalah:"
+     "id": "Menyelesaikan simulasi buatan perusahaan di The Forage berarti:"
     },
     "opts": [
      {
       "en": "An application to that employer",
-      "id": "Lamaran ke perusahaan itu"
+      "id": "Melamar ke perusahaan itu"
      },
      {
       "en": "Evidence for interviews and a signal visible to the employer, not an application",
-      "id": "Bukti untuk wawancara dan sinyal yang terlihat oleh perusahaan, bukan lamaran"
+      "id": "Memiliki bukti untuk wawancara dan sinyal yang terlihat oleh perusahaan itu, tetapi bukan lamaran"
      },
      {
       "en": "A guaranteed interview",
-      "id": "Jaminan wawancara"
+      "id": "Dijamin dipanggil wawancara"
      },
      {
       "en": "Work experience for your CV",
-      "id": "Pengalaman kerja untuk CV-mu"
+      "id": "Punya pengalaman kerja untuk CV"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "It is the firm's real work in its own voice; its value for an application depends on the debrief and the sentence you write about it.",
-     "id": "Ini pekerjaan nyata firma dalam suaranya sendiri; nilainya bagi lamaran bergantung pada tinjauan dan kalimat yang kamu tulis tentangnya."
+     "id": "Ini adalah pekerjaan nyata firma itu dengan suaranya sendiri. Nilainya untuk lamaranmu bergantung pada pembahasan yang kamu tulis dan satu kalimat yang kamu susun tentangnya."
     }
    },
    {
@@ -3217,7 +3217,7 @@ window.MT_ASSESS['the-map'] = {
     "lesson": "6.13",
     "q": {
      "en": "Where does a completed simulation belong on a CV?",
-     "id": "Di mana simulasi yang selesai seharusnya berada di CV?"
+     "id": "Di mana simulasi yang sudah selesai seharusnya dicantumkan di CV?"
     },
     "opts": [
      {
@@ -3226,7 +3226,7 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Under Projects and simulations, named honestly, with concrete actions in the desk's vocabulary",
-      "id": "Di bawah Proyek dan simulasi, disebut dengan jujur, dengan tindakan konkret dalam kosakata meja kerjanya"
+      "id": "Di bawah Proyek dan simulasi, dengan nama yang jujur, disertai tindakan konkret dalam kosakata meja kerjanya"
      },
      {
       "en": "In the summary paragraph only",
@@ -3234,20 +3234,20 @@ window.MT_ASSESS['the-map'] = {
      },
      {
       "en": "Nowhere: it is not worth listing",
-      "id": "Tidak di mana pun, tidak layak dicantumkan"
+      "id": "Tidak di mana pun: tidak layak dicantumkan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Honest labelling plus concrete actions is what a hiring manager can picture and trust; inflation is punished.",
-     "id": "Pelabelan jujur plus tindakan konkret adalah yang bisa dibayangkan dan dipercaya manajer perekrut; penggelembungan dihukum."
+     "id": "Label yang jujur ditambah tindakan yang konkret adalah hal yang bisa dibayangkan dan dipercaya perekrut; kesan yang dibesar-besarkan justru dihukum."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "Paste the summary from your simulation log (lesson 6.13). Pick the two tracks that scored highest. For each, write what specifically energised you, the matching external simulation you will run on The Forage, and the single next step (a Range company to research, an application to send) with a date.",
-    "id": "Tempelkan ringkasan dari catatan simulasimu (pelajaran 6.13). Pilih dua jalur dengan skor tertinggi. Untuk masing-masing, tulis apa persisnya yang memberimu energi, simulasi eksternal yang sesuai yang akan kamu jalankan di The Forage, dan satu langkah berikutnya (perusahaan di The Range untuk diriset, lamaran untuk dikirim) lengkap dengan tanggalnya."
+    "id": "Tempel ringkasan dari log simulasimu (pelajaran 6.13). Pilih dua jalur dengan nilai tertinggi. Untuk masing-masing, tulis apa yang secara spesifik memberimu energi, simulasi eksternal yang sesuai yang akan kamu jalankan di The Forage, dan satu langkah berikutnya (perusahaan di The Range untuk diriset, lamaran untuk dikirim) beserta tanggalnya."
    },
    "min": 25
   }
