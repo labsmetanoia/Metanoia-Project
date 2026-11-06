@@ -801,11 +801,11 @@
       var kb = Math.max(1, Math.round(f.size / 1024));
       cvStatus('work', t('Reading ', 'Membaca ') + esc(f.name) + ' (' + kb + ' KB)…');
       D.extract(f).then(function (doc) {
-        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + '' + doc.chars.toLocaleString() + ' ' +
+        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + ': ' + doc.chars.toLocaleString() + ' ' +
           t('characters of text recovered. Analysing…', 'karakter teks berhasil diambil. Menganalisis…'));
         var res = cvAnalyse(doc.text);
         cvReport(res, doc.name);
-        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + '' +
+        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + ': ' +
           t('review what we found below, then continue.', 'tinjau temuan di bawah, lalu lanjutkan.'));
       }).catch(function (err) {
         cvStatus('error', D.message(err && err.message, lang()));
@@ -1336,7 +1336,7 @@
       if (v && PATHS) {
         var a = askRange(v); XF.ind = a.ind; XF.fn = a.fn; XF.geo = a.geo; XF.q = a.q; XF.limit = 24;
         var parts = []; if (a.q) parts.push(t('company', 'perusahaan') + ' = ' + a.q); if (a.ind) parts.push(t('industry', 'industri') + ' = ' + indName(a.ind)); if (a.fn) parts.push(t('function', 'fungsi') + ' = ' + fnName(a.fn)); parts.push(a.geo === 'id' ? 'Indonesia' : t('International', 'Internasional'));
-        XF.askRead = parts.join(' · ') + (!a.q && !a.ind && !a.fn ? '' + t('no industry or function recognised; try naming one', 'industri atau fungsi tidak dikenali; coba sebutkan satu') : '');
+        XF.askRead = parts.join(' · ') + (!a.q && !a.ind && !a.fn ? ' · ' + t('no industry or function recognised; try naming one', 'industri atau fungsi tidak dikenali; coba sebutkan satu') : '');
       } else if (!v) { XF.ind = ''; XF.fn = ''; XF.q = ''; }
       renderExplore(); applyLang();
     };
@@ -1484,7 +1484,7 @@
             '<div class="card">' +
             (documented
               ? '<p class="prov v" style="margin-bottom:10px">✓ ' + t('A sourced, documented process exists for this company; open the marked role above for the stage-by-stage breakdown.', 'Proses terdokumentasi yang bersumber tersedia untuk perusahaan ini, buka peran bertanda di atas untuk rincian per tahap.') + '</p>'
-              : '<p class="prov i" style="margin-bottom:10px">~ ' + L(tpl.label) + '' + t('our reading, not their published process', 'pembacaan kami, bukan proses resmi mereka') + '</p>') +
+              : '<p class="prov i" style="margin-bottom:10px">~ ' + L(tpl.label) + ': ' + t('our reading, not their published process', 'pembacaan kami, bukan proses resmi mereka') + '</p>') +
             tpl.stages.map(function (st2, i) {
               return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">' + (i + 1) + '</span><span>' + L(O.STAGE_NAMES[st2]) + '</span></div>';
             }).join('') +
@@ -1693,7 +1693,7 @@
         else if (b1.gpa < min) { st = 'warn'; extra = t('currently below the stated threshold (' + min + ')', 'saat ini di bawah ambang tercantum (' + min + ')'); }
         else extra = 'IPK ' + b1.gpa + ' ≥ ' + min;
       } else { extra = L(r.note || r.label); }
-      rows += '<div class="ev-row ' + (st === 'ok' ? 'for' : 'against') + '"><span class="m">' + (st === 'ok' ? '✓' : '⚠') + '</span><span><b>' + L(r.label) + '</b>' + (extra ? '' + extra : '') + '</span></div>';
+      rows += '<div class="ev-row ' + (st === 'ok' ? 'for' : 'against') + '"><span class="m">' + (st === 'ok' ? '✓' : '⚠') + '</span><span><b>' + L(r.label) + '</b>' + (extra ? ': ' + extra : '') + '</span></div>';
     });
     return (viaBumn ? '<p class="prov v" style="margin-bottom:8px">✓ ' + t('BUMN joint-recruitment rules (FHCI), sourced', 'Aturan rekrutmen bersama BUMN (FHCI), bersumber') + '</p>' : '') +
       rows +
@@ -2062,7 +2062,7 @@
               '<p style="font-size:13.5px;color:var(--r-text-2);margin:6px 0 8px">' + L(d.summary) + '</p>' +
               '<p class="note3"><b style="color:var(--r-explore)">' + t('Because you said: ', 'Karena kamu menyebut: ') + '</b>' + (uniq.length ? uniq.join(' · ') : t('closest fit to the way you want to work', 'kecocokan terdekat dengan cara kerja yang kamu inginkan')) + ' · <span style="color:var(--r-against)">' + t('trade-off: ', 'kompromi: ') + L(d.tradeoffs[0]) + '</span></p>' +
               '<p class="micro" style="margin:10px 0 6px">' + t('Skills to build', 'Keterampilan untuk dibangun') + '</p>' + skillChips(PATHS.FUNCTIONS[fns[0]] ? PATHS.FUNCTIONS[fns[0]].skills : []) +
-              (path ? '<p class="micro" style="margin:10px 0 4px">' + t('A route from where you are', 'Rute dari posisimu sekarang') + '</p><p style="font-size:13px;color:var(--r-text-2)">' + path.steps.map(fnName).join(' → ') + (path.direct ? '' + t('an adjacent move', 'perpindahan ke fungsi berdekatan') : path.via ? '' + t('via an adjacent function', 'lewat fungsi berdekatan') : '' + t('not a common move; expect to re-enter at a junior level', 'bukan perpindahan yang umum; bersiaplah masuk kembali di level junior')) + '.' + (path.bridge.length ? ' ' + t('Bridge skills: ', 'Keterampilan penghubung: ') + path.bridge.map(function (k) { return L(PATHS.SKILLS[k]); }).join(', ') + '.' : '') + '</p>' : '') +
+              (path ? '<p class="micro" style="margin:10px 0 4px">' + t('A route from where you are', 'Rute dari posisimu sekarang') + '</p><p style="font-size:13px;color:var(--r-text-2)">' + path.steps.map(fnName).join(' → ') + (path.direct ? ' · ' + t('an adjacent move', 'perpindahan ke fungsi berdekatan') : path.via ? ' · ' + t('via an adjacent function', 'lewat fungsi berdekatan') : '' + t('not a common move; expect to re-enter at a junior level', 'bukan perpindahan yang umum; bersiaplah masuk kembali di level junior')) + '.' + (path.bridge.length ? ' ' + t('Bridge skills: ', 'Keterampilan penghubung: ') + path.bridge.map(function (k) { return L(PATHS.SKILLS[k]); }).join(', ') + '.' : '') + '</p>' : '') +
               (picks.length ? '<p class="micro" style="margin:10px 0 6px">' + t('Companies to research', 'Perusahaan untuk diriset') + ' · ' + pool.length + '</p><div class="chips">' + picks.map(function (c) { return '<button class="chip-min tag" style="cursor:pointer" data-open-co="' + c.id + '">' + c.name + ' →</button>'; }).join('') + (pool.length > 4 ? '<button class="chip-min" style="cursor:pointer" data-xfilter="' + (d.industry_ids[0]) + '|' + fns[0] + '|' + (sig.geo || '') + '">+' + (pool.length - 4) + ' ' + t('in Explore', 'di Jelajah') + '</button>' : '') + '</div>' : '') +
               '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px"><button class="btn-s explore" data-dd="' + d.id + '">' + t('Read the direction', 'Baca arahnya') + ' →</button>' + trackBtn(track, false) + '<button class="btn-q" data-addr="' + d.id + '" style="color:var(--r-explore)">' + t('Add to my range', 'Tambah ke bentangku') + ' +</button></div>' +
               '</div>';

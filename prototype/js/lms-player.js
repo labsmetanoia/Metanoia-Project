@@ -742,7 +742,7 @@
       var takes = (C.takes || []).map(function (t, i) { return '<li><i>' + n2(i) + '</i><div>' + (t.h ? '<b>' + scEsc(T(t.h)) + '</b>' : '') + '<span>' + scEsc(T(t.p)) + '</span></div></li>'; }).join('');
       return '<div class="sc sc-close">' + bg + tracker +
         '<div class="sc-cl"><p class="sc-tag">' + S.synth + '</p><h2 class="sc-ct">' + S.close + '</h2><ol class="sc-takes n' + (C.takes || []).length + '">' + takes + '</ol>' +
-        '<p class="sc-next"><b>' + S.next + '</b> ' + S.carry + '' + scEsc(C.lesson ? C.lesson.n + ' · ' + T(C.lesson.title) : '') + '</p></div>' + foot + '</div>';
+        '<p class="sc-next"><b>' + S.next + '</b> ' + S.carry + ': ' + scEsc(C.lesson ? C.lesson.n + ' · ' + T(C.lesson.title) : '') + '</p></div>' + foot + '</div>';
     }
     /* body slide */
     var items = spec.items || [];
@@ -972,7 +972,7 @@
       zPct.setAttribute('aria-label', L ? 'Tingkat zoom: ketuk untuk mengatur ulang' : 'Zoom level: tap to reset');
       zPct.title = L ? 'Atur ulang zoom' : 'Reset zoom';
       nTg.querySelector('.ss-notes-h span').textContent = L ? 'Teks slide' : 'Slide text';
-      nTg.setAttribute('aria-label', (L ? 'Teks slide' : 'Slide text') + '' + (nBody.hidden ? (L ? 'perluas' : 'expand') : (L ? 'ciutkan' : 'collapse')));
+      nTg.setAttribute('aria-label', (L ? 'Teks slide' : 'Slide text') + ', ' + (nBody.hidden ? (L ? 'perluas' : 'expand') : (L ? 'ciutkan' : 'collapse')));
     }
 
     /* ── zoom: buttons, pinch, ctrl+wheel and keys; drag or swipe to pan ── */
@@ -2150,8 +2150,8 @@
   function simlogWrite(d) { try { localStorage.setItem(SIMLOG_KEY, JSON.stringify(d)); } catch (e) {} }
   var SIMLOG_Q = [
     { k: 'e', h: { en: 'Energy', id: 'Energi' }, sub: { en: 'Did the time pass quickly (5) or crawl (1)?', id: 'Apakah waktunya terasa cepat berlalu (5) atau merangkak (1)?' } },
-    { k: 'c', h: { en: 'Competence trajectory', id: 'Arah kompetensi' }, sub: { en: 'Did you improve within the session, and want to?', id: 'Apakah kamu membaik selama sesi, dan ingin membaik?' } },
-    { k: 'k', h: { en: 'Curiosity', id: 'Rasa ingin tahu' }, sub: { en: 'Would you do a harder version of a task tomorrow?', id: 'Maukah kamu mengerjakan versi lebih sulit dari tugasnya besok?' } }
+    { k: 'c', h: { en: 'Competence trajectory', id: 'Arah kemampuan' }, sub: { en: 'Did you improve within the session, and want to?', id: 'Apakah kamu berkembang selama sesi itu, dan ingin terus berkembang?' } },
+    { k: 'k', h: { en: 'Curiosity', id: 'Rasa penasaran' }, sub: { en: 'Would you do a harder version of a task tomorrow?', id: 'Maukah kamu mengerjakan versi yang lebih sulit dari salah satu tugasnya besok?' } }
   ];
   function forageData() { return window.MT_LMS_FORAGE || null; }
   function forageSearchTerm(it) { return it.company + ' ' + it.title; }
@@ -2202,7 +2202,7 @@
     box.appendChild(bi('h3', null, fg.directory ? { en: 'Simulation directory · The Forage', id: 'Direktori simulasi · The Forage' } : { en: 'Go further · Simulations on The Forage', id: 'Lebih jauh · Simulasi di The Forage' }));
     box.appendChild(bi('p', 'fg-lead', fg.lead || {
       en: 'Employer-designed simulations on The Forage are free, self-paced and end with a certificate of completion. Run one after this track: it is the same work, set by the company itself.',
-      id: 'Simulasi rancangan perusahaan di The Forage gratis, bisa dikerjakan dengan tempo sendiri, dan diakhiri sertifikat penyelesaian. Kerjakan satu setelah jalur ini: pekerjaannya sama, ditetapkan langsung oleh perusahaannya.'
+      id: 'Simulasi buatan perusahaan di The Forage gratis, bisa dikerjakan sesuai kecepatanmu sendiri, dan diakhiri dengan sertifikat kelulusan. Jalankan satu setelah jalur ini: pekerjaannya sama, hanya saja ditetapkan langsung oleh perusahaannya.'
     }));
     var grid = el('div', 'fg-grid');
     if (fg.directory) {
@@ -2228,7 +2228,7 @@
           grid.appendChild(forageCard(it, null, F)); n++;
         });
         count.textContent = lang() === 'id' ? n + ' program' : n + (n === 1 ? ' programme' : ' programmes');
-        if (!n) grid.appendChild(bi('p', 'fg-empty', { en: 'No programme matches: clear a filter, or search the catalogue directly.', id: 'Tidak ada program yang cocok, hapus filter, atau cari langsung di katalog.' }));
+        if (!n) grid.appendChild(bi('p', 'fg-empty', { en: 'No programme matches: clear a filter, or search the catalogue directly.', id: 'Tidak ada program yang cocok. Hapus salah satu filter, atau cari langsung di katalog.' }));
       };
       q.addEventListener('input', draw); selT.addEventListener('change', draw); selF.addEventListener('change', draw);
       if (fg.track) selT.value = fg.track;
@@ -2243,7 +2243,7 @@
     var note = el('p', 'fg-note');
     note.appendChild(bi('span', null, {
       en: 'Programme titles as listed on The Forage catalogue; titles and availability change, so the button opens the catalogue and the search term finds the current listing. Completing a simulation is not an application, but employers can see completions when you apply to them.',
-      id: 'Judul program sebagaimana tercantum di katalog The Forage; judul dan ketersediaannya berubah, sehingga tombolnya membuka katalog dan kata kuncinya menemukan daftar terkini. Menyelesaikan simulasi bukan berarti melamar, tetapi perusahaan dapat melihat penyelesaianmu saat kamu melamar ke mereka.'
+      id: 'Judul program ditulis seperti yang tercantum di katalog The Forage. Judul dan ketersediaannya bisa berubah, jadi tombolnya membuka katalog dan kata kuncinya membantumu menemukan daftar terbaru. Menyelesaikan simulasi bukan berarti melamar, tetapi perusahaan bisa melihat bahwa kamu sudah menyelesaikannya saat kamu melamar ke mereka.'
     }));
     box.appendChild(note);
     host.appendChild(box);
@@ -2271,10 +2271,10 @@
       form.appendChild(r);
     });
     var ta = el('textarea', 'sl-note'); ta.rows = 2; ta.value = cur.note;
-    ta.placeholder = lang() === 'id' ? 'Tugas mana yang menarikmu masuk, dan mana yang mendorongmu menjauh? Satu-dua kalimat.' : 'Which task pulled you in, and which pushed you away? One or two sentences.';
+    ta.placeholder = lang() === 'id' ? 'Tugas mana yang membuatmu tertarik, dan mana yang membuatmu ingin menjauh? Satu atau dua kalimat.' : 'Which task pulled you in, and which pushed you away? One or two sentences.';
     form.appendChild(ta);
     var foot = el('div', 'sl-foot');
-    var save = bi('button', 'lms-complete', opts.saveLabel || { en: 'Save debrief', id: 'Simpan tinjauan' }); save.type = 'button';
+    var save = bi('button', 'lms-complete', opts.saveLabel || { en: 'Save debrief', id: 'Simpan pembahasan' }); save.type = 'button';
     var msg = el('span', 'sl-msg');
     save.addEventListener('click', function () {
       if (!(cur.e && cur.c && cur.k)) { msg.textContent = lang() === 'id' ? 'Beri nilai ketiga pertanyaan dulu.' : 'Rate all three questions first.'; msg.className = 'sl-msg warn'; return; }
@@ -2293,22 +2293,22 @@
     var d = simlogRead(); d.tracks = d.tracks || {}; d.external = d.external || [];
     if (s.track) {
       var tk = F && F.tracks[s.track];
-      box.appendChild(bi('h3', null, { en: 'Log this track · the three-question debrief', id: 'Catat jalur ini · tinjauan tiga pertanyaan' }));
+      box.appendChild(bi('h3', null, { en: 'Log this track · the three-question debrief', id: 'Catat jalur ini · pembahasan tiga pertanyaan' }));
       box.appendChild(bi('p', 'sl-lead', {
         en: 'Before the impression fades: rate the track, add a line, save. The full log in lesson 6.13 ranks every track you have run and turns the top two into direction hypotheses.',
-        id: 'Sebelum kesannya memudar: nilai jalur ini, tambahkan satu baris, simpan. Catatan lengkap di pelajaran 6.13 mengurutkan setiap jalur yang sudah kamu jalani dan menjadikan dua teratas sebagai hipotesis arah.'
+        id: 'Sebelum kesannya memudar: beri nilai jalur ini, tambahkan satu kalimat, lalu simpan. Log lengkap di pelajaran 6.13 memeringkat setiap jalur yang sudah kamu jalankan dan menjadikan dua teratas sebagai hipotesis arah.'
       }));
       var entry = d.tracks[s.track] || {};
       box.appendChild(simlogForm(entry, function (cur) { var dd = simlogRead(); dd.tracks = dd.tracks || {}; dd.tracks[s.track] = cur; simlogWrite(dd); }));
-      if (tk) { var jump = bi('button', 'sl-link', { en: 'Open the full simulation log (6.13) →', id: 'Buka catatan simulasi lengkap (6.13) →' }); jump.type = 'button'; jump.addEventListener('click', function () { if (window.MT_LMS_PLAYER) window.MT_LMS_PLAYER.open('6.13'); }); box.appendChild(jump); }
+      if (tk) { var jump = bi('button', 'sl-link', { en: 'Open the full simulation log (6.13) →', id: 'Buka log simulasi lengkap (6.13) →' }); jump.type = 'button'; jump.addEventListener('click', function () { if (window.MT_LMS_PLAYER) window.MT_LMS_PLAYER.open('6.13'); }); box.appendChild(jump); }
       host.appendChild(box);
       return;
     }
     /* full log */
-    box.appendChild(bi('h3', null, { en: 'Your simulation log', id: 'Catatan simulasimu' }));
+    box.appendChild(bi('h3', null, { en: 'Your simulation log', id: 'Log simulasimu' }));
     box.appendChild(bi('p', 'sl-lead', {
       en: 'Every track you debriefed, ranked by energy + competence trajectory + curiosity. The top two are your direction hypotheses. Take them into The Range next. Add any simulation you ran outside The Map (The Forage or an employer’s own) so it counts too.',
-      id: 'Setiap jalur yang sudah kamu tinjau, diurutkan berdasarkan energi + arah kompetensi + rasa ingin tahu. Dua teratas adalah hipotesis arahmu, bawa ke The Range berikutnya. Tambahkan simulasi yang kamu jalani di luar The Map (The Forage atau milik perusahaan) supaya ikut dihitung.'
+      id: 'Setiap jalur yang sudah kamu renungkan, diperingkat berdasarkan energi + arah kemampuan + rasa penasaran. Dua teratas adalah hipotesis arahmu. Bawa keduanya ke The Range sesudah ini. Tambahkan juga simulasi yang kamu jalankan di luar The Map (di The Forage atau milik perusahaan sendiri) supaya ikut dihitung.'
     }));
     var tbl = el('div', 'sl-table');
     var summary = el('div', 'sl-summary');
@@ -2345,16 +2345,16 @@
         p.appendChild(el('span', null, ranked.slice(0, 2).map(function (r) { return r.label[lang()]; }).join(' · ')));
         summary.appendChild(p);
         var low = ranked.filter(function (r) { return r.e.c >= 4 && r.e.e <= 2; });
-        if (low.length) { var w = el('p', 'sl-warn'); w.appendChild(bi('span', null, { en: '⚠ High competence, low energy, the classic trap from lesson 6.1: ', id: '⚠ Kompetensi tinggi, energi rendah, jebakan klasik dari pelajaran 6.1: ' })); w.appendChild(el('span', null, low.map(function (r) { return r.label[lang()]; }).join(', '))); summary.appendChild(w); }
+        if (low.length) { var w = el('p', 'sl-warn'); w.appendChild(bi('span', null, { en: '⚠ High competence, low energy (the classic trap from lesson 6.1): ', id: '⚠ Kemampuan tinggi, energi rendah (jebakan klasik dari pelajaran 6.1): ' })); w.appendChild(el('span', null, low.map(function (r) { return r.label[lang()]; }).join(', '))); summary.appendChild(w); }
       } else {
-        summary.appendChild(bi('p', 'sl-hyp muted', { en: 'Debrief at least two tracks and the ranking appears here.', id: 'Tinjau setidaknya dua jalur, dan peringkatnya muncul di sini.' }));
+        summary.appendChild(bi('p', 'sl-hyp muted', { en: 'Debrief at least two tracks and the ranking appears here.', id: 'Renungkan setidaknya dua jalur, dan peringkatnya akan muncul di sini.' }));
       }
       extList.innerHTML = '';
     }
     box.appendChild(tbl); box.appendChild(summary);
     /* external simulation entry */
     var addBox = el('details', 'sl-add');
-    var sm = bi('summary', null, { en: '+ Add a simulation you ran elsewhere', id: '+ Tambahkan simulasi yang kamu jalani di tempat lain' });
+    var sm = bi('summary', null, { en: '+ Add a simulation you ran elsewhere', id: '+ Tambahkan simulasi yang kamu jalankan di tempat lain' });
     addBox.appendChild(sm);
     var nameIn = el('input', 'sl-in'); nameIn.placeholder = lang() === 'id' ? 'Nama program (mis. Investment Banking)' : 'Programme name (e.g. Investment Banking)';
     var coIn = el('input', 'sl-in'); coIn.placeholder = lang() === 'id' ? 'Perusahaan' : 'Company';
@@ -2364,7 +2364,7 @@
       var d2 = simlogRead(); d2.external = d2.external || [];
       d2.external.push({ name: nameIn.value.trim(), company: coIn.value.trim(), e: cur.e, c: cur.c, k: cur.k, note: cur.note, ts: cur.ts });
       simlogWrite(d2); nameIn.value = ''; coIn.value = ''; addBox.open = false; drawAll();
-    }, { saveLabel: { en: 'Add to log', id: 'Tambahkan ke catatan' } }));
+    }, { saveLabel: { en: 'Add to log', id: 'Tambahkan ke log' } }));
     box.appendChild(addBox); box.appendChild(extList);
     /* export */
     var foot = el('div', 'sl-foot');
@@ -2372,9 +2372,9 @@
     var msg = el('span', 'sl-msg');
     cp.addEventListener('click', function () {
       var dd = simlogRead(); dd.tracks = dd.tracks || {}; dd.external = dd.external || [];
-      var lines = [lang() === 'id' ? 'Catatan simulasi (E energi · C arah kompetensi · K rasa ingin tahu, 1–5)' : 'Simulation log (E energy · C competence trajectory · K curiosity, 1–5)'];
-      if (F) Object.keys(F.tracks).forEach(function (k) { var e = dd.tracks[k]; if (e && e.e) lines.push(F.tracks[k].n + ' ' + F.tracks[k].label[lang()] + ': E' + e.e + ' C' + e.c + ' K' + e.k + ' = ' + (e.e + e.c + e.k) + '/15' + (e.note ? '' + e.note : '')); });
-      dd.external.forEach(function (x) { lines.push((x.company ? x.company + ' · ' : '') + x.name + ': E' + x.e + ' C' + x.c + ' K' + x.k + ' = ' + (x.e + x.c + x.k) + '/15' + (x.note ? '' + x.note : '')); });
+      var lines = [lang() === 'id' ? 'Log simulasi (E energi · C arah kemampuan · K rasa penasaran, 1–5)' : 'Simulation log (E energy · C competence trajectory · K curiosity, 1–5)'];
+      if (F) Object.keys(F.tracks).forEach(function (k) { var e = dd.tracks[k]; if (e && e.e) lines.push(F.tracks[k].n + ' ' + F.tracks[k].label[lang()] + ': E' + e.e + ' C' + e.c + ' K' + e.k + ' = ' + (e.e + e.c + e.k) + '/15' + (e.note ? ' · ' + e.note : '')); });
+      dd.external.forEach(function (x) { lines.push((x.company ? x.company + ' · ' : '') + x.name + ': E' + x.e + ' C' + x.c + ' K' + x.k + ' = ' + (x.e + x.c + x.k) + '/15' + (x.note ? ' · ' + x.note : '')); });
       var txt = lines.join('\n');
       var done = function () { msg.textContent = lang() === 'id' ? 'Tersalin.' : 'Copied.'; msg.className = 'sl-msg ok'; };
       if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, done); else done();
@@ -3181,14 +3181,14 @@
     /* ── step 4: review & submit ── */
     function summaryText() {
       var L = lang() === 'id';
-      var lines = [T(cs.title) + '' + (L ? 'Tugas kasus' : 'Case assignment') + ' 3.4', ''];
+      var lines = [T(cs.title) + ' · ' + (L ? 'Tugas kasus' : 'Case assignment') + ' 3.4', ''];
       lines.push('Q1 ' + T(Q1.stem) + ' ' + (A.q1 || ''));
-      lines.push('Q2 SMART: ' + Q2.items.map(function (it) { return it.k + (A.q2 && A.q2[it.k] ? '✓' : '·'); }).join(' ') + (A.q2 && A.q2.note ? '' + A.q2.note : ''));
+      lines.push('Q2 SMART: ' + Q2.items.map(function (it) { return it.k + (A.q2 && A.q2[it.k] ? '✓' : '·'); }).join(' ') + (A.q2 && A.q2.note ? ' · ' + A.q2.note : ''));
       S2.issues.forEach(function (iq, i) { var x = A[iq.id] || {}; lines.push('Q' + (3 + i) + ' ' + iq.letter + ': ' + T(S2.stem) + ' ' + (x.issue || '')); (x.subs || []).forEach(function (s, k) { lines.push('   ' + iq.letter + (k + 1) + ': ' + s); }); });
       var m = A.q6 || {}; lines.push('Q6 MECE.' + (L ? 'tumpang tindih' : 'overlaps') + ': ' + (m.overlap || '–') + (m.overlapNote ? ' (' + m.overlapNote + ')' : '') + '; ' + (L ? 'celah' : 'gaps') + ': ' + (m.gap || '–') + (m.gapNote ? ' (' + m.gapNote + ')' : ''));
       var p = (A.q7 || {}).place || {}; lines.push('Q7 ' + subIds().map(function (k) { return k + '→' + (p[k] ? T(S3.matrix.quadrants[p[k]]) : '–'); }).join('; '));
       var hh = subIds().filter(function (k) { return p[k] === 'hh'; }); lines.push('   ' + (L ? 'Pilihan' : 'Picks') + ': ' + hh.join(', '));
-      lines.push('Q8 ' + ((A.q8 || {}).mode === 'changed' ? (L ? 'diubah lalu dikonfirmasi' : 'changed, then confirmed') : (A.q8 || {}).confirm ? (L ? 'dikonfirmasi' : 'confirmed') : '–') + '' + ((A.q8 || {}).note || ''));
+      lines.push('Q8 ' + ((A.q8 || {}).mode === 'changed' ? (L ? 'diubah lalu dikonfirmasi' : 'changed, then confirmed') : (A.q8 || {}).confirm ? (L ? 'dikonfirmasi' : 'confirmed') : '–') + ((A.q8 || {}).note ? ' · ' + A.q8.note : ''));
       if (D.submitted) lines.push('', (L ? 'Dikumpulkan ' : 'Submitted ') + new Date(D.submitted.at).toLocaleString() + ' · ' + D.submitted.id);
       return lines.join('\n');
     }
@@ -3512,7 +3512,7 @@
     }
     function summaryText() {
       var L = lang() === 'id';
-      var lines = [T(cs.title) + '' + (L ? 'Tugas kasus' : 'Case assignment') + ' ' + l.n, ''];
+      var lines = [T(cs.title) + ' · ' + (L ? 'Tugas kasus' : 'Case assignment') + ' ' + l.n, ''];
       cs.steps.forEach(function (s, si) { lines.push((si + 1) + '. ' + T(s.title)); (s.questions || []).forEach(function (q) { lines.push(qLabel(q) + ' ' + T(q.title)); lines.push((A[q.id] || '').trim()); lines.push(''); }); });
       if (D.submitted) lines.push((L ? 'Dikumpulkan ' : 'Submitted ') + new Date(D.submitted.at).toLocaleString() + ' · ' + D.submitted.id);
       return lines.join('\n');
@@ -3819,7 +3819,7 @@
     current = i;
     var x = FLAT[i], m = x.m, l = x.l;
     root.querySelector('.lc-prod').textContent =
-      REG.product[lang()] + '' + (lang() === 'id' ? 'Modul ' : 'Module ') + m.num;
+      REG.product[lang()] + ' · ' + (lang() === 'id' ? 'Modul ' : 'Module ') + m.num;
     root.querySelector('.lc-les').textContent = l.n + ' · ' + l.title[lang()].replace(/&amp;/g, '&');
     root.querySelector('.lmsp-count').textContent =
       (lang() === 'id' ? 'Pelajaran ' : 'Lesson ') + (i + 1) + ' / ' + FLAT.length;

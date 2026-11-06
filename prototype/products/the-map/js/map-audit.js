@@ -26,22 +26,22 @@
 
   /* ─── content ─── */
   var VALUES = [
-    ['growth', 'Growth & learning', 'Pertumbuhan & belajar', 'seed', 'Keep evolving', 'Terus berkembang'],
-    ['security', 'Stability & security', 'Stabilitas & keamanan', 'shield', 'Build a solid foundation', 'Bangun fondasi yang kokoh'],
+    ['growth', 'Growth & learning', 'Pertumbuhan & belajar', 'seed', 'Keep evolving', 'Terus bertumbuh'],
+    ['security', 'Stability & security', 'Stabilitas & keamanan', 'shield', 'Build a solid foundation', 'Membangun fondasi yang kokoh'],
     ['autonomy', 'Autonomy', 'Otonomi', 'mountain', 'Freedom to decide', 'Bebas memutuskan'],
-    ['impact', 'Impact on others', 'Dampak bagi orang lain', 'heart', 'Create positive change', 'Ciptakan perubahan positif'],
-    ['craft', 'Mastery of a craft', 'Penguasaan keahlian', 'diamond', 'Be truly excellent', 'Menjadi sungguh unggul'],
-    ['recognition', 'Recognition', 'Pengakuan', 'star', 'Be valued for meaningful work', 'Dihargai atas kerja bermakna'],
-    ['balance', 'Work–life balance', 'Keseimbangan hidup', 'balance', 'Live a fulfilling life', 'Hidup yang utuh'],
-    ['earning', 'Earning power', 'Daya penghasilan', 'coins', 'Create financial freedom', 'Ciptakan kebebasan finansial'],
-    ['team', 'Team & belonging', 'Tim & rasa memiliki', 'users', 'Be part of something bigger', 'Menjadi bagian dari yang lebih besar'],
-    ['variety', 'Variety & novelty', 'Variasi & kebaruan', 'sparkles', 'Keep it interesting', 'Tetap menarik'],
-    ['leading', 'Leading people', 'Memimpin orang', 'people', 'Empower and develop', 'Memberdayakan dan mengembangkan'],
-    ['adventure', 'Adventure & risk', 'Petualangan & risiko', 'compass', 'Embrace the unknown', 'Rangkul yang tak pasti'],
-    ['creating', 'Creating new things', 'Menciptakan hal baru', 'bulb', 'Turn ideas into reality', 'Wujudkan gagasan'],
-    ['service', 'Service & care', 'Pelayanan & kepedulian', 'handshake', 'Make life better for others', 'Buat hidup orang lain lebih baik'],
-    ['problems', 'Hard problems', 'Masalah sulit', 'puzzle', 'Tackle complex challenges', 'Taklukkan tantangan rumit'],
-    ['integrity', 'Integrity & fairness', 'Integritas & keadilan', 'shieldTick', 'Do what is right', 'Lakukan yang benar']
+    ['impact', 'Impact on others', 'Dampak bagi orang lain', 'heart', 'Create positive change', 'Menciptakan perubahan positif'],
+    ['craft', 'Mastery of a craft', 'Penguasaan keahlian', 'diamond', 'Be truly excellent', 'Benar-benar unggul'],
+    ['recognition', 'Recognition', 'Pengakuan', 'star', 'Be valued for meaningful work', 'Dihargai atas karya yang bermakna'],
+    ['balance', 'Work–life balance', 'Keseimbangan kerja dan hidup', 'balance', 'Live a fulfilling life', 'Menjalani hidup yang utuh'],
+    ['earning', 'Earning power', 'Daya penghasilan', 'coins', 'Create financial freedom', 'Meraih kebebasan finansial'],
+    ['team', 'Team & belonging', 'Tim & rasa memiliki', 'users', 'Be part of something bigger', 'Menjadi bagian dari sesuatu yang lebih besar'],
+    ['variety', 'Variety & novelty', 'Variasi & kebaruan', 'sparkles', 'Keep it interesting', 'Supaya hidup tidak membosankan'],
+    ['leading', 'Leading people', 'Memimpin orang', 'people', 'Empower and develop', 'Memberdayakan dan mengembangkan orang lain'],
+    ['adventure', 'Adventure & risk', 'Petualangan & risiko', 'compass', 'Embrace the unknown', 'Merangkul hal yang belum pasti'],
+    ['creating', 'Creating new things', 'Menciptakan hal baru', 'bulb', 'Turn ideas into reality', 'Mewujudkan gagasan menjadi nyata'],
+    ['service', 'Service & care', 'Pelayanan & kepedulian', 'handshake', 'Make life better for others', 'Membuat hidup orang lain lebih baik'],
+    ['problems', 'Hard problems', 'Masalah sulit', 'puzzle', 'Tackle complex challenges', 'Menaklukkan tantangan yang rumit'],
+    ['integrity', 'Integrity & fairness', 'Integritas & keadilan', 'shieldTick', 'Do what is right', 'Melakukan hal yang benar']
   ];
   var ACTIVITIES = [
     ['present', 'Presenting to a group', 'Presentasi di depan kelompok', 'mic'],
@@ -51,32 +51,32 @@
     ['build', 'Building something with my hands or code', 'Membangun sesuatu dengan tangan atau kode', 'cog'],
     ['sell', 'Persuading or selling', 'Membujuk atau menjual', 'handshake'],
     ['teach', 'Teaching or explaining', 'Mengajar atau menjelaskan', 'graduate'],
-    ['research', 'Deep research on one topic', 'Riset mendalam satu topik', 'search'],
+    ['research', 'Deep research on one topic', 'Riset mendalam tentang satu topik', 'search'],
     ['network', 'Meeting new people', 'Bertemu orang baru', 'users'],
     ['detail', 'Careful detail work', 'Kerja detail yang teliti', 'eye'],
     ['improvise', 'Improvising under pressure', 'Berimprovisasi di bawah tekanan', 'zap']
   ];
   var HABITS = [
     ['recovery', 'After a setback I run a deliberate recovery routine instead of avoiding or spiralling.',
-      'Setelah kemunduran aku menjalankan rutinitas pemulihan yang disengaja, bukan menghindar atau terpuruk.', '1.1', 'refresh'],
+      'Setelah mengalami kemunduran, aku menjalankan rutinitas pemulihan dengan sengaja, bukan menghindar atau makin terpuruk.', '1.1', 'refresh'],
     ['proactive', 'I respond to problems with "what can I do?" rather than "who is to blame?".',
-      'Aku merespons masalah dengan "apa yang bisa kulakukan?" bukan "siapa yang salah?".', '2.2', 'zap'],
-    ['mission', 'I have a written direction, mission and 3-year outcome, that guides my choices.',
-      'Aku punya arah tertulis, misi dan hasil 3 tahun, yang memandu pilihanku.', '2.3', 'compass'],
+      'Aku menanggapi masalah dengan bertanya "apa yang bisa kulakukan?", bukan "siapa yang salah?".', '2.2', 'zap'],
+    ['mission', 'I have a written direction (mission and 3-year outcome) that guides my choices.',
+      'Aku punya arah yang tertulis (misi dan hasil 3 tahun) yang memandu pilihan-pilihanku.', '2.3', 'compass'],
     ['priority', 'I schedule important-but-not-urgent work before my week fills up.',
-      'Aku menjadwalkan kerja penting-tapi-tak-mendesak sebelum mingguku penuh.', '2.4', 'calendar'],
+      'Aku menjadwalkan pekerjaan yang penting tapi tidak mendesak sebelum mingguku keburu penuh.', '2.4', 'calendar'],
     ['capture', 'Every task and promise I make lands in one trusted system, not my memory.',
-      'Setiap tugas dan janji masuk ke satu sistem tepercaya, bukan ingatanku.', '5.4', 'list'],
+      'Setiap tugas dan janji yang kubuat masuk ke satu sistem yang kupercaya, bukan hanya kuingat-ingat.', '5.7', 'list'],
     ['energy', 'I defend a sleep window and move most days, even in busy weeks.',
-      'Aku menjaga jendela tidur dan bergerak hampir tiap hari, bahkan di minggu sibuk.', '5.1', 'battery']
+      'Aku menjaga jam tidurku dan bergerak hampir setiap hari, bahkan di minggu yang sibuk.', '5.1', 'battery']
   ];
   var MODULE_RECO = {
     recovery: ['1', 'Self-Awareness and Personal Audit', 'Kesadaran Diri dan Audit Pribadi'],
     proactive: ['2', 'Self-Leadership Foundations', 'Fondasi Kepemimpinan Diri'],
     mission: ['2', 'Self-Leadership Foundations', 'Fondasi Kepemimpinan Diri'],
     priority: ['2', 'Self-Leadership Foundations', 'Fondasi Kepemimpinan Diri'],
-    capture: ['5', 'Relationships, Well-Being, and Digital Capability', 'Hubungan, Kesejahteraan, dan Kemampuan Digital'],
-    energy: ['5', 'Relationships, Well-Being, and Digital Capability', 'Hubungan, Kesejahteraan, dan Kemampuan Digital']
+    capture: ['5', 'Relationships, Well-Being, and Digital Capability', 'Relasi, Kesejahteraan, dan Kecakapan Digital'],
+    energy: ['5', 'Relationships, Well-Being, and Digital Capability', 'Relasi, Kesejahteraan, dan Kecakapan Digital']
   };
   var STEPS = [
     ['values', 'Values', 'Nilai'],
@@ -86,7 +86,7 @@
     ['mission', 'Mission', 'Misi'],
     ['report', 'Report', 'Laporan']
   ];
-  var SIGN = [{ en: 'A clearer you', id: 'Dirimu yang lebih jernih' }, { en: 'A brighter tomorrow', id: 'Esok yang lebih cerah' }];
+  var SIGN = [{ en: 'A clearer you', id: 'Dirimu yang lebih jelas' }, { en: 'A brighter tomorrow', id: 'Esok yang lebih cerah' }];
 
   var shell = null, stepIdx = 0;
 
@@ -124,7 +124,7 @@
     main.appendChild(SH.cta({
       icon: opts.icon || 'sparkles',
       title: opts.title || T('Step ' + (stepIdx + 1) + ' of 5', 'Langkah ' + (stepIdx + 1) + ' dari 5'),
-      text: opts.text || (nextStep ? T('Next: ' + nextStep[1] + '. Your answers are saved on this device as you go.', 'Berikutnya: ' + nextStep[2] + '. Jawabanmu tersimpan di perangkat ini seiring kamu mengisi.') : ''),
+      text: opts.text || (nextStep ? T('Next: ' + nextStep[1] + '. Your answers are saved on this device as you go.', 'Berikutnya: ' + nextStep[2] + '. Jawabanmu langsung tersimpan di perangkat ini selagi kamu mengisi.') : ''),
       actions: acts
     }));
   }
@@ -135,16 +135,16 @@
     s.values = s.values || [];
     var hero = SH.hero({
       kicker: { en: 'Step 1 · Values', id: 'Langkah 1 · Nilai' },
-      title: { en: ['What do you refuse', 'to trade away?'], id: ['Apa yang tak mau', 'kamu tukar?'] },
-      sub: { en: 'Pick the 3–5 values that must be present in your working life for it to feel right. Your picks are ordered, first is strongest.', id: 'Pilih 3–5 nilai yang harus hadir dalam kehidupan kerjamu agar terasa benar. Pilihanmu berurutan, pertama paling kuat.' },
-      chip: { en: 'Tip from Lesson 2.3: values are tested by trade-offs, not by liking the words. For each pick, recall one real decision where you paid a price for it.', id: 'Tips dari Pelajaran 2.3: nilai diuji oleh pertukaran, bukan oleh menyukai katanya. Untuk tiap pilihan, ingat satu keputusan nyata saat kamu membayar harga untuknya.' },
+      title: { en: ['What do you refuse', 'to trade away?'], id: ['Apa yang tidak mau', 'kamu korbankan?'] },
+      sub: { en: 'Pick the 3–5 values that must be present in your working life for it to feel right. Your picks are ordered: the first is the strongest.', id: 'Pilih 3–5 nilai yang harus ada dalam kehidupan kerjamu supaya semuanya terasa pas. Pilihanmu berurutan: yang pertama adalah yang paling kuat.' },
+      chip: { en: 'Tip: values are tested by trade-offs, not by liking the words. For each pick, recall one real decision where you paid a price for it.', id: 'Tips: nilai diuji lewat pengorbanan, bukan karena kamu suka kata-katanya. Untuk setiap pilihan, ingat satu keputusan nyata saat kamu rela membayar harga demi nilai itu.' },
       chipIcon: 'bulb',
       tagline: [{ en: 'Your values', id: 'Nilai-nilaimu' }, { en: 'shape your journey.', id: 'membentuk perjalananmu.' }],
-      quote: { en: 'Know what matters most, so you can build a life that matters.', id: 'Ketahui apa yang paling penting, agar kamu bisa membangun hidup yang berarti.' },
+      quote: { en: 'Know what matters most, so you can build a life that matters.', id: 'Ketahui apa yang paling penting bagimu, supaya kamu bisa membangun hidup yang berarti.' },
       sign: SIGN
     });
     var main = el('div', 'ts-main');
-    main.appendChild(SH.hd({ en: 'Sixteen values', id: 'Enam belas nilai' }, { en: 'Tap to pick, tap again to release', id: 'Ketuk untuk memilih, ketuk lagi untuk melepas' }, s.values.length + ' / 5 ' + T('picked', 'terpilih')));
+    main.appendChild(SH.hd({ en: 'Sixteen values', id: 'Enam belas nilai' }, { en: 'Tap to pick, tap again to release', id: 'Ketuk untuk memilih, ketuk lagi untuk membatalkan' }, s.values.length + ' / 5 ' + T('picked', 'terpilih')));
     var grid = el('div', 'ts-tiles');
     VALUES.forEach(function (v) {
       var idx = s.values.indexOf(v[0]);
@@ -159,7 +159,7 @@
         } }));
     });
     main.appendChild(grid);
-    navStrip(main, { icon: 'heart', title: s.values.length < 3 ? T('Pick at least three to continue', 'Pilih setidaknya tiga untuk lanjut') : T(s.values.length + ' values, in your order', s.values.length + ' nilai, sesuai urutanmu') });
+    navStrip(main, { icon: 'heart', title: s.values.length < 3 ? T('Pick at least three to continue', 'Pilih minimal tiga untuk melanjutkan') : T(s.values.length + ' values, in your order', s.values.length + ' nilai, sesuai urutanmu') });
     return SH.stage(hero, main);
   }
 
@@ -170,24 +170,24 @@
     var hero = SH.hero({
       kicker: { en: 'Step 2 · Energy', id: 'Langkah 2 · Energi' },
       title: { en: ['What fills you,', 'what empties you?'], id: ['Apa yang mengisimu,', 'apa yang mengurasmu?'] },
-      sub: { en: 'For each activity, mark whether it usually energises you, drains you, or neither. Answer from remembered experience, not from what sounds impressive.', id: 'Untuk tiap aktivitas, tandai apakah biasanya memberimu energi, mengurasmu, atau netral. Jawab dari pengalaman yang diingat, bukan dari yang terdengar keren.' },
-      chip: { en: 'Direction rule from Module 6: prefer paths where the daily work sits in your “energises” column.', id: 'Aturan arah dari Modul 6: utamakan jalur yang kerja hariannya ada di kolom “memberi energi”.' },
+      sub: { en: 'For each activity, mark whether it usually energises you, drains you, or neither. Answer from remembered experience, not from what sounds impressive.', id: 'Untuk setiap aktivitas, tandai apakah biasanya aktivitas itu memberimu energi, menguras energimu, atau biasa saja. Jawab berdasarkan pengalaman yang kamu ingat, bukan yang terdengar keren.' },
+      chip: { en: 'Direction rule from Module 6: prefer paths where the daily work sits in your “energises” column.', id: 'Aturan arah dari Modul 6: utamakan jalur yang pekerjaan hariannya ada di kolom “memberi energi”.' },
       chipIcon: 'battery',
-      tagline: [{ en: 'Energy is the honest', id: 'Energi adalah pembaca' }, { en: 'reader of fit.', id: 'kecocokan yang jujur.' }],
-      quote: { en: 'The work that fills you is the work you can sustain.', id: 'Kerja yang mengisimu adalah kerja yang bisa kamu jaga.' },
+      tagline: [{ en: 'Energy is the honest', id: 'Energi adalah penanda' }, { en: 'reader of fit.', id: 'kecocokan yang paling jujur.' }],
+      quote: { en: 'The work that fills you is the work you can sustain.', id: 'Pekerjaan yang mengisi energimu adalah pekerjaan yang bisa kamu jalani lama.' },
       sign: SIGN
     });
     var main = el('div', 'ts-main');
-    main.appendChild(SH.hd({ en: 'Eleven activities', id: 'Sebelas aktivitas' }, { en: 'Mark each one from memory', id: 'Tandai masing-masing dari ingatan' }, done + ' / ' + ACTIVITIES.length + ' ' + T('marked', 'ditandai')));
+    main.appendChild(SH.hd({ en: 'Eleven activities', id: 'Sebelas aktivitas' }, { en: 'Mark each one from memory', id: 'Tandai masing-masing berdasarkan ingatanmu' }, done + ' / ' + ACTIVITIES.length + ' ' + T('marked', 'ditandai')));
     ACTIVITIES.forEach(function (a, i) {
       var ctl = SH.tri({ value: s.energy[a[0]], options: [
         ['drain', { en: 'Drains', id: 'Menguras' }, 'on-drain', 'battery'],
-        ['mid', { en: 'Neutral', id: 'Netral' }, 'on-mid', 'balance'],
+        ['mid', { en: 'Neutral', id: 'Biasa saja' }, 'on-mid', 'balance'],
         ['gain', { en: 'Energises', id: 'Memberi energi' }, 'on-gain', 'zap']],
         onPick: function (k) { var s2 = store(); s2.energy = s2.energy || {}; s2.energy[a[0]] = k; save(s2); render(); } });
       main.appendChild(SH.item({ num: i + 1, icon: a[3], title: T(a[1], a[2]), on: !!s.energy[a[0]], ctl: ctl }));
     });
-    navStrip(main, { icon: 'battery', title: done < 6 ? T('Mark at least six to continue', 'Tandai setidaknya enam untuk lanjut') : T('Energy map in progress', 'Peta energi sedang dibangun') });
+    navStrip(main, { icon: 'battery', title: done < 6 ? T('Mark at least six to continue', 'Tandai minimal enam untuk melanjutkan') : T('Energy map in progress', 'Peta energimu mulai terbentuk') });
     return SH.stage(hero, main);
   }
 
@@ -197,19 +197,19 @@
     var hero = SH.hero({
       kicker: { en: 'Step 3 · Strengths', id: 'Langkah 3 · Kekuatan' },
       title: { en: ['Claims need', 'evidence'], id: ['Klaim butuh', 'bukti'] },
-      sub: { en: 'Name up to three strengths, and for each, the concrete evidence a stranger could verify: a result, an artefact, something someone said.', id: 'Sebutkan hingga tiga kekuatan, dan untuk masing-masing, bukti konkret yang bisa diverifikasi orang asing: hasil, artefak, ucapan seseorang.' },
-      chip: { en: 'Lesson 1.3’s rule: no evidence, lower rating.', id: 'Aturan Pelajaran 1.3: tanpa bukti, nilai lebih rendah.' },
+      sub: { en: 'Name up to three strengths, and for each, the concrete evidence a stranger could verify: a result, an artefact, something someone said.', id: 'Sebutkan sampai tiga kekuatan, lalu untuk masing-masing, tulis bukti konkret yang bisa dicek oleh orang yang belum mengenalmu: sebuah hasil, sebuah karya, atau ucapan seseorang.' },
+      chip: { en: 'Lesson 1.3’s rule: no evidence, lower rating.', id: 'Aturan dari Pelajaran 1.3: tanpa bukti, nilainya lebih rendah.' },
       chipIcon: 'shieldTick',
-      tagline: [{ en: 'A strength is a claim', id: 'Kekuatan adalah klaim' }, { en: 'with a witness.', id: 'yang punya saksi.' }],
-      quote: { en: 'What you can prove, you can build on.', id: 'Yang bisa kamu buktikan, bisa kamu bangun.' },
+      tagline: [{ en: 'A strength is a claim', id: 'Kekuatan adalah klaim' }, { en: 'with a witness.', id: 'yang ada saksinya.' }],
+      quote: { en: 'What you can prove, you can build on.', id: 'Apa yang bisa kamu buktikan, bisa kamu kembangkan.' },
       sign: SIGN
     });
     var main = el('div', 'ts-main');
     var ICONS = ['trophy', 'star', 'diamond'];
     s.strengths.forEach(function (stg, i) {
       var body = el('div'); body.style.cssText = 'display:flex;flex-direction:column;gap:12px;width:100%';
-      var inp = SH.input('text', { value: stg.name || '', placeholder: { en: 'e.g. Structuring messy problems', id: 'mis. Menstrukturkan masalah kusut' } });
-      var ta = SH.input('textarea', { value: stg.evidence || '', placeholder: { en: 'e.g. Rebuilt the org’s event budget model; treasurer adopted it for two later events', id: 'mis. Membangun ulang model anggaran acara organisasi; bendahara memakainya untuk dua acara berikutnya' } });
+      var inp = SH.input('text', { value: stg.name || '', placeholder: { en: 'e.g. Structuring messy problems', id: 'mis. Menstrukturkan masalah yang berantakan' } });
+      var ta = SH.input('textarea', { value: stg.evidence || '', placeholder: { en: 'e.g. Rebuilt the org’s event budget model; treasurer adopted it for two later events', id: 'mis. Menyusun ulang model anggaran acara organisasi; bendahara memakainya lagi untuk dua acara berikutnya' } });
       ta.style.minHeight = '84px';
       function persist() {
         var s2 = store(); s2.strengths = s2.strengths || [{}, {}, {}];
@@ -221,7 +221,7 @@
       body.appendChild(SH.field({ label: { en: 'Evidence', id: 'Bukti' }, input: ta }));
       var sc = el('div'); sc.style.cssText = 'display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;justify-content:space-between';
       sc.appendChild(el('span', 'ts-lbl', esc(T('How strong is the evidence?', 'Seberapa kuat buktinya?'))));
-      sc.appendChild(SH.scale({ value: stg.conf, lo: { en: 'A feeling', id: 'Perasaan' }, hi: { en: 'Verified results', id: 'Hasil terverifikasi' },
+      sc.appendChild(SH.scale({ value: stg.conf, lo: { en: 'A feeling', id: 'Sekadar perasaan' }, hi: { en: 'Verified results', id: 'Hasil yang terbukti' },
         onPick: function (k) { persist(); var s2 = store(); s2.strengths[i].conf = k; save(s2); render(); } }));
       body.appendChild(sc);
       main.appendChild(SH.item({ num: i + 1, icon: ICONS[i], title: stg.name ? stg.name : T('Strength ' + (i + 1), 'Kekuatan ' + (i + 1)), on: !!stg.name, stack: true, ctl: body,
@@ -236,23 +236,23 @@
     s.habits = s.habits || {};
     var done = Object.keys(s.habits).length;
     var hero = SH.hero({
-      kicker: { en: 'Step 4 · Habit baseline', id: 'Langkah 4 · Garis dasar kebiasaan' },
+      kicker: { en: 'Step 4 · Habit baseline', id: 'Langkah 4 · Titik awal kebiasaan' },
       title: { en: ['The systems behind', 'the person'], id: ['Sistem di balik', 'orangnya'] },
-      sub: { en: 'Rate how true each statement is for the last month, 1 = rarely, 5 = consistently.', id: 'Nilai seberapa benar tiap pernyataan selama sebulan terakhir, 1 = jarang, 5 = konsisten.' },
-      chip: { en: 'This is your baseline, not your verdict; each habit maps to the module that trains it.', id: 'Ini garis dasarmu, bukan vonismu; tiap kebiasaan terpeta ke modul yang melatihnya.' },
+      sub: { en: 'Rate how true each statement has been over the last month (1 = rarely, 5 = consistently).', id: 'Beri nilai seberapa sesuai setiap pernyataan dengan dirimu selama sebulan terakhir (1 = jarang, 5 = konsisten).' },
+      chip: { en: 'This is your baseline, not your verdict; each habit maps to the module that trains it.', id: 'Ini titik awalmu, bukan vonis. Setiap kebiasaan terhubung ke modul yang melatihnya.' },
       chipIcon: 'refresh',
-      tagline: [{ en: 'Habits are the', id: 'Kebiasaan adalah' }, { en: 'architecture of a day.', id: 'arsitektur sebuah hari.' }],
-      quote: { en: 'You do not rise to your goals; you fall to your systems.', id: 'Kamu tidak naik ke tujuanmu; kamu jatuh ke sistemmu.' },
+      tagline: [{ en: 'Habits are the', id: 'Kebiasaan adalah' }, { en: 'architecture of a day.', id: 'kerangka sebuah hari.' }],
+      quote: { en: 'You do not rise to the level of your goals. You fall to the level of your systems. (James Clear, Atomic Habits)', id: 'Kamu tidak naik setinggi tujuanmu. Kamu jatuh ke tingkat sistemmu. (James Clear, Atomic Habits)' },
       sign: SIGN
     });
     var main = el('div', 'ts-main');
-    main.appendChild(SH.hd({ en: 'Six habits', id: 'Enam kebiasaan' }, { en: 'Rate the last month', id: 'Nilai sebulan terakhir' }, done + ' / ' + HABITS.length + ' ' + T('rated', 'ternilai')));
+    main.appendChild(SH.hd({ en: 'Six habits', id: 'Enam kebiasaan' }, { en: 'Rate the last month', id: 'Nilai sebulan terakhir' }, done + ' / ' + HABITS.length + ' ' + T('rated', 'dinilai')));
     HABITS.forEach(function (h, i) {
       main.appendChild(SH.item({ num: i + 1, icon: h[4], title: T('Lesson ' + h[3], 'Pelajaran ' + h[3]), text: esc(T(h[1], h[2])), on: !!s.habits[h[0]],
         ctl: SH.scale({ value: s.habits[h[0]], lo: { en: 'Rarely', id: 'Jarang' }, hi: { en: 'Consistently', id: 'Konsisten' },
           onPick: function (k) { var s2 = store(); s2.habits = s2.habits || {}; s2.habits[h[0]] = k; save(s2); render(); } }) }));
     });
-    navStrip(main, { icon: 'refresh', title: done < HABITS.length ? T('Rate all six to continue', 'Nilai keenamnya untuk lanjut') : T('Baseline set', 'Garis dasar terisi') });
+    navStrip(main, { icon: 'refresh', title: done < HABITS.length ? T('Rate all six to continue', 'Beri nilai keenamnya untuk melanjutkan') : T('Baseline set', 'Titik awal sudah terisi') });
     return SH.stage(hero, main);
   }
 
@@ -262,20 +262,20 @@
     var hero = SH.hero({
       kicker: { en: 'Step 5 · Mission', id: 'Langkah 5 · Misi' },
       title: { en: ['The first', 'creation'], id: ['Penciptaan', 'pertama'] },
-      sub: { en: 'From Lessons 1.2 and 2.3: one learning intention, one mission sentence, one 3-year outcome.', id: 'Dari Pelajaran 1.2 dan 2.3: satu niat belajar, satu kalimat misi, satu hasil 3 tahun.' },
-      chip: { en: 'Pencil, not stone: you will revise these.', id: 'Pensil, bukan batu: kamu akan merevisinya.' },
+      sub: { en: 'From Lessons 1.2 and 2.3: one learning intention, one mission sentence, one 3-year outcome.', id: 'Dari Pelajaran 1.2 dan 2.3: satu niat belajar, satu kalimat misi, dan satu hasil 3 tahun.' },
+      chip: { en: 'Pencil, not stone: you will revise these.', id: 'Ditulis dengan pensil, bukan dipahat di batu: kamu akan merevisinya.' },
       chipIcon: 'pen',
       tagline: [{ en: 'Direction first,', id: 'Arah dulu,' }, { en: 'then the steps.', id: 'baru langkahnya.' }],
-      quote: { en: 'Begin with the end in mind, then write it down.', id: 'Mulailah dengan tujuan akhir di benak, lalu tuliskan.' },
+      quote: { en: 'Begin with the end in mind, then write it down.', id: 'Mulailah dengan tujuan akhir dalam pikiran, lalu tuliskan.' },
       sign: SIGN
     });
     var main = el('div', 'ts-main');
-    [['text', 'compass', { en: 'Mission sentence', id: 'Kalimat misi' }, { en: 'The contribution you want to be trusted with', id: 'Kontribusi yang ingin dipercayakan padamu' },
-      { en: 'e.g. Help organisations make honest decisions with data', id: 'mis. Membantu organisasi mengambil keputusan jujur dengan data' }],
-     ['outcome', 'flag', { en: '3-year outcome', id: 'Hasil 3 tahun' }, { en: 'Domain, level, evidence, protected constraint', id: 'Ranah, level, bukti, batas yang dijaga' },
-      { en: 'e.g. Own end-to-end analyses in a fintech team, portfolio of 5 shipped projects, health intact', id: 'mis. Memiliki analisis ujung-ke-ujung di tim fintech, portofolio 5 proyek rilis, kesehatan terjaga' }],
-     ['intention', 'calendar', { en: 'Learning intention', id: 'Niat belajar' }, { en: 'Behaviour, frequency, deadline, weekly signal', id: 'Perilaku, frekuensi, tenggat, sinyal mingguan' },
-      { en: 'e.g. One Map module + one audit update weekly until 1 June, checked every Sunday', id: 'mis. Satu modul Map + satu pembaruan audit tiap minggu sampai 1 Juni, dicek tiap Minggu' }]
+    [['text', 'compass', { en: 'Mission sentence', id: 'Kalimat misi' }, { en: 'The contribution you want to be trusted with', id: 'Kontribusi yang ingin dipercayakan kepadamu' },
+      { en: 'e.g. Help organisations make honest decisions with data', id: 'mis. Membantu organisasi mengambil keputusan yang jujur berdasarkan data' }],
+     ['outcome', 'flag', { en: '3-year outcome', id: 'Hasil 3 tahun' }, { en: 'Domain, level, evidence, protected constraint', id: 'Bidang, level, bukti, dan batas yang dijaga' },
+      { en: 'e.g. Own end-to-end analyses in a fintech team, portfolio of 5 shipped projects, health intact', id: 'mis. Memegang analisis dari awal sampai akhir di tim fintech, punya portofolio 5 proyek yang sudah dirilis, kesehatan tetap terjaga' }],
+     ['intention', 'calendar', { en: 'Learning intention', id: 'Niat belajar' }, { en: 'Behaviour, frequency, deadline, weekly signal', id: 'Perilaku, frekuensi, tenggat, dan sinyal mingguan' },
+      { en: 'e.g. One Map module + one audit update weekly until 1 June, checked every Sunday', id: 'mis. Satu modul The Map + satu pembaruan audit setiap minggu sampai 1 Juni, dicek setiap hari Minggu' }]
     ].forEach(function (f, i) {
       var ta = SH.input('textarea', { value: s.mission[f[0]] || '', placeholder: f[4] });
       ta.style.minHeight = '90px';
@@ -283,7 +283,7 @@
       main.appendChild(SH.item({ num: i + 1, icon: f[1], title: f[2], text: esc(SH.txt(f[3])), on: !!s.mission[f[0]], stack: true, ctl: ta }));
     });
     navStrip(main, { icon: 'doc', next: { en: 'Build my report', id: 'Susun laporanku' }, title: { en: 'Ready for your report', id: 'Siap untuk laporanmu' },
-      text: { en: 'The report mirrors your own answers back as a working map, computed on this device, stored only in this browser.', id: 'Laporan memantulkan jawabanmu sendiri sebagai peta kerja; dihitung di perangkat ini, tersimpan hanya di peramban ini.' } });
+      text: { en: 'The report mirrors your own answers back as a working map. It is computed on this device and stored only in this browser.', id: 'Laporannya memantulkan jawabanmu sendiri menjadi peta kerja. Semuanya dihitung di perangkat ini dan hanya tersimpan di browser ini.' } });
     return SH.stage(hero, main);
   }
 
@@ -291,11 +291,11 @@
     var s = store();
     var hero = SH.hero({
       kicker: { en: 'Your Personal Audit', id: 'Audit Pribadimu' },
-      title: { en: ['A working map,', 'in your own words'], id: ['Peta kerja,', 'dengan kata-katamu sendiri'] },
-      sub: { en: 'Everything below mirrors your own answers back. It is a map to act on and revise, not a psychometric verdict.', id: 'Semua di bawah memantulkan jawabanmu sendiri. Ini peta untuk ditindaklanjuti dan direvisi, bukan vonis psikometrik.' },
-      chip: { en: 'Computed on this device, stored only in this browser.', id: 'Dihitung di perangkat ini, tersimpan hanya di peramban ini.' },
+      title: { en: ['A working map,', 'in your own words'], id: ['Peta kerja,', 'dalam kata-katamu sendiri'] },
+      sub: { en: 'Everything below mirrors your own answers back. It is a map to act on and revise, not a psychometric verdict.', id: 'Semua yang ada di bawah ini memantulkan jawabanmu sendiri. Ini peta untuk ditindaklanjuti dan direvisi, bukan vonis psikometrik.' },
+      chip: { en: 'Computed on this device, stored only in this browser.', id: 'Dihitung di perangkat ini, tersimpan hanya di browser ini.' },
       chipIcon: 'lock',
-      tagline: [{ en: 'Read it, act on it,', id: 'Baca, tindak lanjuti,' }, { en: 'revise it.', id: 'revisi.' }],
+      tagline: [{ en: 'Read it, act on it,', id: 'Baca, jalankan,' }, { en: 'revise it.', id: 'lalu revisi.' }],
       art: { img: '../../assets/bg/map.jpg', pos: '50% 40%', nodes: [
         { x: 20, y: 78, big: true, label: { en: 'Audit today', id: 'Audit hari ini' } },
         { x: 52, y: 54, label: { en: 'Module 1–2', id: 'Modul 1–2' } },
@@ -307,9 +307,9 @@
 
     /* values */
     var vals = (s.values || []).map(function (k) { var v = VALUES.filter(function (x) { return x[0] === k; })[0]; return v ? T(v[1], v[2]) : k; });
-    var cv = SH.card({ kick: { en: 'Values: in your order', id: 'Nilai: sesuai urutanmu' }, title: { en: 'What you refuse to trade away', id: 'Yang tak mau kamu tukar' } });
+    var cv = SH.card({ kick: { en: 'Values: in your order', id: 'Nilai: sesuai urutanmu' }, title: { en: 'What you refuse to trade away', id: 'Yang tidak mau kamu korbankan' } });
     if (vals.length) { var tags = el('div', 'ts-tags'); vals.forEach(function (v, i) { tags.appendChild(el('span', 'ts-tagc', '<i>' + (i + 1) + '</i>' + esc(v))); }); cv.appendChild(tags); }
-    else cv.appendChild(SH.note(esc(T('No values picked yet, step 1 is waiting.', 'Belum ada nilai terpilih, langkah 1 menunggu.'))));
+    else cv.appendChild(SH.note(esc(T('No values picked yet: step 1 is waiting.', 'Belum ada nilai yang dipilih. Langkah 1 menunggumu.'))));
     main.appendChild(cv);
 
     /* energy */
@@ -322,38 +322,38 @@
     var d = el('div'); d.appendChild(el('div', 'ts-kick', esc(T('Drains you', 'Mengurasmu'))));
     (drains.length ? drains : [T('nothing marked yet', 'belum ada yang ditandai')]).forEach(function (x) { var li = el('div', 'ts-li drain'); li.appendChild(SH.svg('battery')); li.appendChild(el('span', null, esc(x))); d.appendChild(li); });
     two.appendChild(g); two.appendChild(d); ce.appendChild(two);
-    ce.appendChild(SH.note(esc(T('Direction rule from Module 6: prefer paths where the daily work sits in your left column. Test this against the industry simulations.', 'Aturan arah dari Modul 6: utamakan jalur yang kerja hariannya ada di kolom kirimu. Uji terhadap simulasi industri.')), 'compass'));
+    ce.appendChild(SH.note(esc(T('Direction rule from Module 6: prefer paths where the daily work sits in your left column. Test this against the industry simulations.', 'Aturan arah dari Modul 6: utamakan jalur yang pekerjaan hariannya ada di kolom kirimu. Uji aturan ini lewat simulasi industri.')), 'compass'));
     main.appendChild(ce);
 
     /* strengths */
-    var cs = SH.card({ kick: { en: 'Strengths and their evidence', id: 'Kekuatan dan buktinya' }, title: { en: 'Claims with witnesses', id: 'Klaim dengan saksi' } });
+    var cs = SH.card({ kick: { en: 'Strengths and their evidence', id: 'Kekuatan dan buktinya' }, title: { en: 'Claims with witnesses', id: 'Klaim yang ada saksinya' } });
     var any = false;
     (s.strengths || []).forEach(function (x, i) {
       if (!x.name) return; any = true;
       var li = el('div', 'ts-li'); li.appendChild(el('span', 'ts-num', String(i + 1)));
       li.appendChild(el('div', null, '<b>' + esc(x.name) + '</b>' + (x.conf ? ' <span class="ts-pill">' + esc(T('evidence', 'bukti')) + ' ' + x.conf + '/5</span>' : '') +
-        '<br>' + (x.evidence ? esc(x.evidence) : '<i>' + esc(T('No evidence yet: that is your next artefact to build.', 'Belum ada bukti: itulah artefak berikutmu untuk dibangun.')) + '</i>')));
+        '<br>' + (x.evidence ? esc(x.evidence) : '<i>' + esc(T('No evidence yet: that is your next artefact to build.', 'Belum ada bukti: itulah karya berikutnya yang perlu kamu bangun.')) + '</i>')));
       cs.appendChild(li);
     });
-    if (!any) cs.appendChild(SH.note(esc(T('No strengths recorded yet.', 'Belum ada kekuatan tercatat.'))));
+    if (!any) cs.appendChild(SH.note(esc(T('No strengths recorded yet.', 'Belum ada kekuatan yang dicatat.'))));
     main.appendChild(cs);
 
     /* habits */
-    var ch = SH.card({ kick: { en: 'Habit baseline', id: 'Garis dasar kebiasaan' }, title: { en: 'The systems, measured', id: 'Sistemnya, terukur' } });
+    var ch = SH.card({ kick: { en: 'Habit baseline', id: 'Titik awal kebiasaan' }, title: { en: 'The systems, measured', id: 'Sistemnya, dalam angka' } });
     var weakest = null;
     HABITS.forEach(function (h) {
       var v = (s.habits || {})[h[0]];
-      ch.appendChild(SH.dim(T('Lesson ' + h[3], 'Pelajaran ' + h[3]) + ' · ' + T(h[1], h[2]).split(/[—.]/)[0].slice(0, 60) + (T(h[1], h[2]).length > 60 ? '…' : ''), v ? v + ' / 5' : T('unrated', 'belum'), 5));
+      ch.appendChild(SH.dim(T('Lesson ' + h[3], 'Pelajaran ' + h[3]) + ' · ' + T(h[1], h[2]).split(/[—.]/)[0].slice(0, 60) + (T(h[1], h[2]).length > 60 ? '…' : ''), v ? v + ' / 5' : T('unrated', 'belum dinilai'), 5));
       if (v && (!weakest || v < weakest.v)) weakest = { v: v, h: h };
     });
     if (weakest) {
       var reco = MODULE_RECO[weakest.h[0]];
-      ch.appendChild(SH.note('<b>' + esc(T('Weakest habit', 'Kebiasaan terlemah')) + '</b>' + esc(T('maps to Module ' + reco[0] + '' + reco[1] + ', and Lesson ' + weakest.h[3] + ' trains it directly.', 'terpeta ke Modul ' + reco[0] + '' + reco[2] + ', dan Pelajaran ' + weakest.h[3] + ' melatihnya langsung.')), 'target'));
+      ch.appendChild(SH.note('<b>' + esc(T('Weakest habit:', 'Kebiasaan terlemah:')) + '</b> ' + esc(T('it maps to Module ' + reco[0] + ' (' + reco[1] + '), and Lesson ' + weakest.h[3] + ' trains it directly.', 'kebiasaan ini terkait dengan Modul ' + reco[0] + ' (' + reco[2] + '), dan Pelajaran ' + weakest.h[3] + ' melatihnya secara langsung.')), 'target'));
     }
     main.appendChild(ch);
 
     /* mission */
-    var cm = SH.card({ kick: { en: 'Direction', id: 'Arah' }, title: { en: 'Mission, outcome, intention', id: 'Misi, hasil, niat' } });
+    var cm = SH.card({ kick: { en: 'Direction', id: 'Arah' }, title: { en: 'Mission, outcome, intention', id: 'Misi, hasil akhir, niat belajar' } });
     var m = s.mission || {};
     [['text', 'compass', T('Mission', 'Misi')], ['outcome', 'flag', T('3-year outcome', 'Hasil 3 tahun')], ['intention', 'calendar', T('Learning intention', 'Niat belajar')]].forEach(function (f) {
       var li = el('div', 'ts-li'); li.appendChild(SH.svg(f[1]));
@@ -363,16 +363,16 @@
     main.appendChild(cm);
 
     /* next moves */
-    var cn = SH.card({ kick: { en: 'Next moves', id: 'Langkah berikutnya' }, title: { en: 'Three things to do with this map', id: 'Tiga hal untuk dilakukan dengan peta ini' }, cls: 'gold' });
+    var cn = SH.card({ kick: { en: 'Next moves', id: 'Langkah berikutnya' }, title: { en: 'Three things to do with this map', id: 'Tiga hal yang bisa kamu lakukan dengan peta ini' }, cls: 'gold' });
     [[T('Test your energy map against reality: run two industry tracks in Module 6.', 'Uji peta energimu terhadap kenyataan: jalankan dua jalur industri di Modul 6.')],
-     [T('Turn your direction into a learning intention: Lesson 1.2 shows you how to write one you will actually keep.', 'Ubah arahmu menjadi niat belajar: Pelajaran 1.2 menunjukkan cara menulis niat yang benar-benar kamu jalani.')],
-     [T('Revisit this audit after finishing the module; the delta is your progress.', 'Kunjungi lagi audit ini setelah modul selesai, selisihnya adalah kemajuanmu.')]
+     [T('Turn your direction into a learning intention: Lesson 1.2 shows you how to write one you will actually keep.', 'Ubah arahmu menjadi niat belajar: Pelajaran 1.2 menunjukkan cara menulis niat yang benar-benar akan kamu jalani.')],
+     [T('Revisit this audit after finishing the module; the delta is your progress.', 'Buka lagi audit ini setelah modulnya selesai. Selisihnya adalah kemajuanmu.')]
     ].forEach(function (x, i) { var li = el('div', 'ts-li'); li.appendChild(el('span', 'ts-num gold', String(i + 1))); li.appendChild(el('span', null, esc(x[0]))); cn.appendChild(li); });
     main.appendChild(cn);
 
     main.appendChild(SH.cta({ icon: 'map',
       title: { en: 'Back to the module', id: 'Kembali ke modul' },
-      text: { en: 'The audit stays inside Module 1. Return to the lesson you came from, or revise any step, your answers stay saved.', id: 'Audit ini tetap di dalam Modul 1. Kembali ke pelajaran asalmu, atau revisi langkah mana pun, jawabanmu tetap tersimpan.' },
+      text: { en: 'The audit stays inside Module 1. Return to the lesson you came from, or revise any step; your answers stay saved.', id: 'Audit ini tetap ada di dalam Modul 1. Kembali ke pelajaran asalmu, atau revisi langkah mana pun. Jawabanmu tetap tersimpan.' },
       actions: [
         SH.btn({ en: 'Revise answers', id: 'Revisi jawaban' }, { ghost: true, iconL: 'edit', onClick: function () { stepIdx = 0; render(); } }),
         SH.btn({ en: 'Back to Module', id: 'Kembali ke Modul' }, { iconL: 'arrowL', onClick: function () {
@@ -416,11 +416,11 @@
     if (!n) return;
     var parts = [];
     if ((s.values || []).length) parts.push(T((s.values.length) + ' values', s.values.length + ' nilai'));
-    if (Object.keys(s.habits || {}).length) parts.push(T('habit baseline set', 'garis dasar kebiasaan terisi'));
+    if (Object.keys(s.habits || {}).length) parts.push(T('habit baseline set', 'titik awal kebiasaan terisi'));
     if (s.mission && s.mission.text) parts.push(T('mission written', 'misi tertulis'));
     n.textContent = parts.length
       ? T('Your audit so far: ', 'Auditmu sejauh ini: ') + parts.join(' · ')
-      : T('No audit yet: first reading takes about 15 minutes.', 'Belum ada audit: pembacaan pertama sekitar 15 menit.');
+      : T('No audit yet: the first run takes about 15 minutes.', 'Belum ada audit: pengisian pertama butuh sekitar 15 menit.');
   }
 
   /* launchers */
