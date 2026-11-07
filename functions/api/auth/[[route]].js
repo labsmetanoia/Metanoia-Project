@@ -44,6 +44,7 @@ async function consumeToken(env, kind, raw) {
 }
 
 export async function onRequestGet({ request, env, params }) {
+  if (env.AUTH_ENABLED !== 'true') return fail(404, 'accounts not open');   /* Tier 0: waitlist only; set AUTH_ENABLED=true to open registration and login */
   const route = (params.route || []).join('/');
   if (!ready(env)) return fail(503, 'accounts not configured');
   if (route === 'me') {
@@ -63,6 +64,7 @@ export async function onRequestGet({ request, env, params }) {
 }
 
 export async function onRequestPost({ request, env, params }) {
+  if (env.AUTH_ENABLED !== 'true') return fail(404, 'accounts not open');   /* Tier 0: waitlist only; set AUTH_ENABLED=true to open registration and login */
   const route = (params.route || []).join('/');
   if (!ready(env)) return fail(503, 'accounts not configured');
   if (!sameOrigin(request)) return fail(403, 'origin');

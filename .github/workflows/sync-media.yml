@@ -1,0 +1,39 @@
+name: Sync lesson media to R2
+
+# The lesson media (prototype/assets/lms, about 2 GB) is served from a Cloudflare R2
+# bucket rather than the Pages artifact. This job mirrors the folder to the bucket
+# whenever it changes on main. It needs three repository secrets, created from an
+# R2 API token with object read/write on the bucket (Cloudflare dashboard → R2 →
+# Manage R2 API tokens): R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY.
+# The bucket name is R2_BUCKET (a repository variable; defaults to metanoia-media).
+
+on:
+  push:
+    branches: [main]
+    paths: ['prototype/assets/lms/**', '.github/workflows/sync-media.yml']
+  workflow_dispatch:
+
+concurrency:
+  group: media-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install rclone (Ubuntu package)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq rclone
+      - name: Mirror prototype/assets/lms to the bucket's lms/ prefix
+        env:
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          RCLONE_CONFIG_R2_ACL: private
+          BUCKET: ${{ vars.R2_BUCKET || 'metanoia-media' }}
+        run: |
+          test -n "${RCLONE_CONFIG_R2_ACCESS_KEY_ID}" || { echo "::error::R2 secrets are not set (R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY)"; exit 1; }
+          rclone sync prototype/assets/lms "r2:${BUCKET}/lms" --checksum --transfers 16 --s3-no-check-bucket --stats-one-line -v
+          rclone size "r2:${BUCKET}/lms"
