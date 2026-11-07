@@ -2273,7 +2273,7 @@ if(cform){
   cform.addEventListener('submit', e=>{
     e.preventDefault();
     const v = id=>{ const el=document.getElementById(id); return el?el.value.trim():''; };
-    const subject = 'Enterprise Inquiry.' + (v('cf-interest')||'General') + (v('cf-company') ? '' + v('cf-company') : '');
+    const subject = 'Enterprise Inquiry: ' + (v('cf-interest')||'General') + (v('cf-company') ? ' · ' + v('cf-company') : '');
     const body = ['Name: ' + v('cf-name'), 'Company: ' + v('cf-company'), 'Role: ' + v('cf-role'),
       'Cohort size: ' + v('cf-size'), 'Interest: ' + v('cf-interest'), '', v('cf-msg')].join('\n');
     location.href = 'mailto:hello@metanoialabs.net?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);

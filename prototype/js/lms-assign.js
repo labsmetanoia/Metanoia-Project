@@ -651,7 +651,8 @@
         mod.lessons.slice(0, 7).forEach(function (l) {
           var li = el('li');
           li.appendChild(el('b', null, esc(l.n)));
-          var sp = el('span', null, esc(B(l.title))); sp.dataset.en = l.title.en; sp.dataset.id = l.title.id || l.title.en;
+          var amp = function (t) { return String(t || '').replace(/&amp;/g, '&'); };
+          var sp = el('span', null, esc(amp(B(l.title)))); sp.dataset.en = amp(l.title.en); sp.dataset.id = amp(l.title.id || l.title.en);
           li.appendChild(sp); ul.appendChild(li);
         });
         var desc = cardEl.querySelector('.assignment-desc');

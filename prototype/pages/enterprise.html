@@ -2288,7 +2288,7 @@ if(cform){
     interest: v('cf-interest'), message: v('cf-msg'),
     timestamp: new Date().toISOString(), source_page: location.href,
     language: (document.documentElement.lang || 'en'),
-    _subject: 'Enterprise Inquiry.' + (v('cf-interest')||'General') + (v('cf-company') ? '' + v('cf-company') : ''),
+    _subject: 'Enterprise Inquiry: ' + (v('cf-interest')||'General') + (v('cf-company') ? ' · ' + v('cf-company') : ''),
     _replyto: v('cf-email') || undefined
   });
   const mailtoHref = ()=>{

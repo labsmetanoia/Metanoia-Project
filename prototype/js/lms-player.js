@@ -1324,7 +1324,7 @@
     /* an enumeration that runs across sentences: markers in series, each opening a sentence or segment */
     var series = [
       { re: /\((?:[a-h])\)\s/, seq: 'abcdefgh'.split('').map(function (c) { return '(' + c + ')'; }), ol: 'a' },
-      { re: /\((?:[1-9])\)\s/, seq: '123456789'.split('').map(function (c) { return '(' + c + ')'; }), ol: '1' },
+      { re: /\((?:1[0-2]|[1-9])\)\s/, seq: '1 2 3 4 5 6 7 8 9 10 11 12'.split(' ').map(function (c) { return '(' + c + ')'; }), ol: '1' },
       { re: /^(First|Second|Third|Fourth|Fifth)[,:]/, seq: ['First', 'Second', 'Third', 'Fourth', 'Fifth'], ol: '1', word: true },
       { re: /^(Pertama|Kedua|Ketiga|Keempat|Kelima)[,:]/, seq: ['Pertama', 'Kedua', 'Ketiga', 'Keempat', 'Kelima'], ol: '1', word: true }
     ];
@@ -1354,7 +1354,7 @@
             var ss = proseSentences(seg);
             seg = ss[0] || seg; tail = ss.slice(1).join(' ');
           }
-          seg = seg.replace(S.word ? /^(First|Second|Third|Fourth|Fifth|Pertama|Kedua|Ketiga|Keempat|Kelima)[,:]\s*/ : /^\([a-h1-9]\)\s*/, '');
+          seg = seg.replace(S.word ? /^(First|Second|Third|Fourth|Fifth|Pertama|Kedua|Ketiga|Keempat|Kelima)[,:]\s*/ : /^\((?:[a-h]|1[0-2]|[1-9])\)\s*/, '');
           seg = seg.replace(/[;,]\s*(and|or|dan|atau)?\s*$/, '').replace(/\s+(and|or|dan|atau)$/, '').trim();
           if (seg) items.push(seg.charAt(0).toUpperCase() + seg.slice(1));
         }
