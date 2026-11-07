@@ -42,6 +42,17 @@ The static site (`prototype/`) now ships with a small server layer under `functi
 6. **Analytics**: put the GA4 Measurement ID in `prototype/data/analytics.js`. Placeholders are refused by the loader.
 7. **Legal**: before launch, update `prototype/legal/privacy.html` to name Cloudflare (hosting, D1, jurisdiction) and Resend as processors, and move the terms/privacy versions out of `1.0-draft` (the consent records carry the version strings from `functions/api/auth` and `functions/api/leads`).
 
+### 2a. Tier 0 order of work (Cloudflare Pages, zero cost)
+
+Do these in this order; each later step needs the earlier one.
+
+1. **Domain**: Cloudflare → Domains → Add a domain → `metanoialabs.net`, Free plan. Keep the scanned GitHub Pages records (apex `A` ×4, `www` CNAME) and set them to Proxied. Change the nameservers at the registrar. The site keeps serving from GitHub Pages meanwhile.
+2. **R2 for the lesson media**: Storage & databases → R2 → Create bucket `metanoia-media` (location hint APAC). Settings → Custom domain → `media.metanoialabs.net`. Create an R2 API token (object read & write, this bucket) and add `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` as GitHub repository secrets; run the "Sync lesson media to R2" workflow once. Check `https://media.metanoialabs.net/lms/captions-en.vtt` loads.
+3. **D1**: Storage & databases → D1 → Create `metanoia` (location APAC). Paste its id into `wrangler.toml` and `workers/aggregate/wrangler.toml`; apply `migrations/0001_init.sql` (D1 console, or `npx wrangler d1 migrations apply metanoia --remote`).
+4. **Pages project**: Compute → Workers & Pages → Create → Pages → Connect to Git → this repository, production branch `main`. Build command `pip install pillow && python3 scripts/build-site.py`, output directory `prototype`. Build environment variables: `MEDIA_BASE=https://media.metanoialabs.net` (the build then rewrites the media paths and drops `assets/lms` from the output). Functions variables and secrets: `SESSION_SECRET`, `SUBJECT_KEY`, `ADMIN_TOKEN`; `AUTH_ENABLED` stays `false` until accounts open. Bind D1 as `DB` if the dashboard does not pick it up from `wrangler.toml`.
+5. **Custom domain on Pages**: Custom domains → `metanoialabs.net` and `www.metanoialabs.net`; Cloudflare replaces the GitHub records. Test `/api/health` and one lesson video. Then make the GitHub Pages workflow manual-only so the two hosts cannot drift.
+6. **E-mail** (can be later): Resend, domain `mail.metanoialabs.net`, `RESEND_API_KEY` secret, `MAIL_FROM` updated.
+
 ## 3. Local development
 
 ```bash

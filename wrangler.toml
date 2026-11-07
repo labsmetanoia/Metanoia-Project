@@ -30,3 +30,4 @@ migrations_dir = "migrations"
 SITE_URL = "https://metanoialabs.net"
 MAIL_FROM = "Metanoia Labs <hello@metanoialabs.net>"
 LEADS_NOTIFY_TO = "hello@metanoialabs.net"
+AUTH_ENABLED = "false"           # Tier 0: register/login answer 404 and the pages show the waitlist; "true" opens accounts

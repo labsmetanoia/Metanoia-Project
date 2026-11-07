@@ -968,6 +968,35 @@ def build_404():
 
 # ─────────────────────────────── main ───────────────────────────────
 
+def relocate_media():
+    """Cloudflare Pages build: serve the lesson media (prototype/assets/lms, about 2 GB,
+    some files over Pages' 25 MiB limit) from R2 instead of the Pages artifact.
+    MEDIA_BASE=https://media.metanoialabs.net  rewrites every assets/lms/ reference in the
+    LMS registries to that host; MEDIA_PRUNE=1 (set automatically on Pages, where CF_PAGES
+    is defined) then drops the folder from the output. Both are no-ops locally and on GitHub Pages."""
+    base = os.environ.get('MEDIA_BASE', '').rstrip('/')
+    if not base:
+        return
+    pat = re.compile(r'(?:\.\./)*assets/lms/')
+    n = 0
+    for name in sorted(os.listdir(os.path.join(PROTO, 'data', 'lms'))):
+        if not name.endswith('.js'):
+            continue
+        p = os.path.join(PROTO, 'data', 'lms', name)
+        with open(p, encoding='utf-8') as fh:
+            src = fh.read()
+        out, k = pat.subn(base + '/lms/', src)
+        if k:
+            write(p, out)
+            n += k
+    print(f'media: {n} references now point at {base}/lms/')
+    if os.environ.get('MEDIA_PRUNE') == '1' or os.environ.get('CF_PAGES'):
+        d = os.path.join(PROTO, 'assets', 'lms')
+        if os.path.isdir(d):
+            shutil.rmtree(d)
+            print('media: prototype/assets/lms removed from the output (served from R2)')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--no-og', action='store_true', help='skip Open Graph card generation')
@@ -1005,6 +1034,7 @@ def main():
     print(f'sitemap.xml: {n_urls} URLs')
     n_idx = build_search_index(manifest, rng, mp)
     print(f'search-index.json: {n_idx} entries')
+    relocate_media()
     if make_og:
         n_og = sum(len(fs) for _, _, fs in os.walk(OG_DIR))
         print(f'Open Graph cards: {n_og}')
