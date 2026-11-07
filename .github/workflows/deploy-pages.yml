@@ -63,3 +63,9 @@ jobs:
           path: prototype
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # The site artifact is about 2.3 GB (lesson media under prototype/assets/lms).
+          # Pages' file sync for it regularly outlasts the action's 10-minute default,
+          # which cancelled three deploys in a row; allow 30 minutes and more retries.
+          timeout: 1800000
+          error_count: 20
