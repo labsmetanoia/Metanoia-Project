@@ -1897,8 +1897,8 @@ function saveApplication(app) {
   } else {
     app = Object.assign({}, app, { id: generateUUID(), createdAt: now, updatedAt: now });
     apps.push(app);
-    logMilestone('app', 'Plotted route to ' + app.company + '' + app.role,
-                        'Membuat rute ke ' + app.company + '' + app.role);
+    logMilestone('app', 'Plotted route to ' + app.company + ' · ' + app.role,
+                        'Membuat rute ke ' + app.company + ' · ' + app.role);
   }
   writeApplications(apps);
   checkAndAwardBadges();
@@ -2100,7 +2100,7 @@ function checkAndAwardBadges() {
   BADGES.forEach(b => {
     if (b.check(ctx) && !earned.includes(b.id)) {
       earned.push(b.id);
-      logMilestone('metanoia', 'Badge earned.' + b.en, 'Lencana diraih.' + b.idn);
+      logMilestone('metanoia', 'Badge earned: ' + b.en, 'Lencana diraih: ' + b.idn);
     }
   });
   setLS('compass_badges_earned', JSON.stringify(earned));
@@ -2123,8 +2123,8 @@ function getTodaysMove(apps, scores) {
   const overdue = active.filter(a => a.nextActionDue).find(a => new Date(a.nextActionDue + 'T23:59:59').getTime() < NOW);
   if (overdue) {
     return {
-      en: 'Your next action for <b>' + esc(overdue.company) + '' + esc(overdue.role) + '</b> was due ' + fmtD(overdue.nextActionDue) + ' and is now overdue: <b>' + esc(overdue.nextAction || 'update this application') + '</b> Clear it today before it costs you the pipeline.',
-      id: 'Tindakan berikutnya untuk <b>' + esc(overdue.company) + '' + esc(overdue.role) + '</b> sudah lewat tenggat sejak ' + fmtD(overdue.nextActionDue) + ': <b>' + esc(overdue.nextAction || 'perbarui lamaran ini') + '</b> Bereskan hari ini, sebelum alur lamaranmu yang menanggung akibatnya.',
+      en: 'Your next action for <b>' + esc(overdue.company) + ' · ' + esc(overdue.role) + '</b> was due ' + fmtD(overdue.nextActionDue) + ' and is now overdue: <b>' + esc(overdue.nextAction || 'update this application') + '</b> Clear it today before it costs you the pipeline.',
+      id: 'Tindakan berikutnya untuk <b>' + esc(overdue.company) + ' · ' + esc(overdue.role) + '</b> sudah lewat tenggat sejak ' + fmtD(overdue.nextActionDue) + ': <b>' + esc(overdue.nextAction || 'perbarui lamaran ini') + '</b> Bereskan hari ini, sebelum alur lamaranmu yang menanggung akibatnya.',
       ctaEn: 'Open the application →', ctaId: 'Buka lamaran →', appId: overdue.id
     };
   }
@@ -2186,7 +2186,7 @@ function renderDashboard() {
     '<span class="lv-cap">' + L('Current level', 'Level saat ini') + '</span>' +
     '<div class="lv-bar"><i style="--p:' + toNext + '%"></i></div>' +
     '<span class="lv-next">' + (lv.next
-      ? L('Next: ' + lv.nextEn + ' at ' + lv.next + 'you are at ' + scores.overall, 'Berikutnya: ' + lv.nextId + ' pada skor ' + lv.next + 'skormu sekarang ' + scores.overall)
+      ? L('Next: ' + lv.nextEn + ' at ' + lv.next + '; you are at ' + scores.overall, 'Berikutnya: ' + lv.nextId + ' pada skor ' + lv.next + '; skormu sekarang ' + scores.overall)
       : L('You are at the summit level.', 'Kamu berada di level puncak.')) + '</span></div>' +
     '<div class="cs-ring">' + ringHTML(84, 8, scores.overall, 22) +
     '<span class="crl">' + L('Career Readiness', 'Kesiapan Karier') + '</span></div>' +
@@ -2407,7 +2407,7 @@ function renderList(shown) {
         '<td>' + stageName(a.stage) + '</td>' +
         '<td><span class="status-chip" style="color:' + st.color + ';border:1px solid ' + st.color + '">' + L(st.en, st.idn) + '</span></td>' +
         '<td>' + fmtD(a.applicationDate) + '</td>' +
-        '<td' + (isOverdue(a) ? ' class="td-overdue"' : '') + '>' + (a.nextActionDue ? fmtD(a.nextActionDue) + (isOverdue(a) ? ' ⚠️' : '') : '') + '</td>' +
+        '<td' + (isOverdue(a) ? ' class="td-overdue"' : '') + '>' + (a.nextActionDue ? fmtD(a.nextActionDue) + (isOverdue(a) ? ' ⚠️' : '') : '–') + '</td>' +
         '<td><button class="btn-ghost" data-act="edit" style="padding:5px 13px;font-size:10.5px">' + L('Edit', 'Edit') + '</button></td></tr>';
     }).join('') + '</tbody></table></div>';
   $('appsView').querySelectorAll('th[data-sort]').forEach(t => t.addEventListener('click', () => {
@@ -2497,7 +2497,7 @@ function renderVelocity(apps) {
       : '<div class="vs-meta">' + L('No rejections logged: keep climbing.', 'Belum ada penolakan tercatat, terus mendaki.') + '</div>') +
     (patternGroup ? '<div class="pattern-note">' +
       L('Pattern detected: ' + rejByGroup[patternGroup] + ' rejections in the ' + GROUPS.find(g => g.key === patternGroup).en + ' group: review the matching preparation module before your next application.',
-        'Pola terdeteksi: ' + rejByGroup[patternGroup] + ' penolakan di kelompok ' + GROUPS.find(g => g.key === patternGroup).idn + 'tinjau modul persiapan terkait sebelum lamaran berikutnya.') + '</div>' : '') + '</div>';
+        'Pola terdeteksi: ' + rejByGroup[patternGroup] + ' penolakan di kelompok ' + GROUPS.find(g => g.key === patternGroup).idn + ': tinjau modul persiapan terkait sebelum lamaran berikutnya.') + '</div>' : '') + '</div>';
 }
 
 /* ═══ ADD / EDIT MODAL ═══ */
@@ -2593,7 +2593,7 @@ function openMoveModal(app, targetGroup) {
   const g = targetGroup ? GROUPS.find(x => x.key === targetGroup) : null;
   $('movePrompt').innerHTML = g
     ? L('Move <b>' + esc(app.company) + '</b> into <b>' + g.en + '</b>? Pick the exact stage:', 'Pindahkan <b>' + esc(app.company) + '</b> ke <b>' + g.idn + '</b>? Pilih tahap tepatnya:')
-    : L('Move <b>' + esc(app.company) + '' + esc(app.role) + '</b> to a new stage:', 'Pindahkan <b>' + esc(app.company) + '' + esc(app.role) + '</b> ke tahap baru:');
+    : L('Move <b>' + esc(app.company) + ' · ' + esc(app.role) + '</b> to a new stage:', 'Pindahkan <b>' + esc(app.company) + ' · ' + esc(app.role) + '</b> ke tahap baru:');
   if (!targetGroup && app.stage < 13) $('moveStageSel').value = app.stage + 1;
   $('moveModal').classList.add('show');
 }
@@ -2655,7 +2655,7 @@ function openDrawer(id) {
   const rej = $('drReject'); if (rej) rej.addEventListener('click', () => {
     const apps = getApplications(); const a = apps.find(x => x.id === id);
     if (a) { a.status = 'rejected'; a.updatedAt = new Date().toISOString(); writeApplications(apps);
-      logMilestone('setback', 'Rejection logged.' + a.company + ' (' + STAGES[a.stage - 1].en + ')', 'Penolakan tercatat.' + a.company + ' (' + STAGES[a.stage - 1].idn + ')');
+      logMilestone('setback', 'Rejection logged: ' + a.company + ' (' + STAGES[a.stage - 1].en + ')', 'Penolakan tercatat: ' + a.company + ' (' + STAGES[a.stage - 1].idn + ')');
       updateAll(); closeDrawer(); openRejectModal(id); }
   });
   const del = $('drDelete'); if (del) del.addEventListener('click', () => {
@@ -2695,8 +2695,8 @@ $('debriefForm').addEventListener('submit', e => {
   });
   app.updatedAt = new Date().toISOString();
   writeApplications(apps);
-  logMilestone('metanoia', 'Completed interview debrief.' + app.company + ' ' + STAGES[+$('dbStage').value - 1].en,
-                           'Menyelesaikan debrief wawancara.' + STAGES[+$('dbStage').value - 1].idn + ' ' + app.company);
+  logMilestone('metanoia', 'Completed interview debrief: ' + app.company + ' ' + STAGES[+$('dbStage').value - 1].en,
+                           'Menyelesaikan debrief wawancara: ' + STAGES[+$('dbStage').value - 1].idn + ' ' + app.company);
   checkAndAwardBadges();
   closeModal('debriefModal');
   updateAll();
@@ -2796,7 +2796,7 @@ function renderProgress() {
       if (n <= done) { cls = 'done'; ic = '✓'; }
       else if (n === done + 1) { cls = 'progress'; ic = '→'; }
       else if (n === done + 2) { cls = 'avail'; ic = '○'; }
-      return '<div class="pc-mod ' + cls + '"><span class="pm-ic">' + ic + '</span><span>' + L('Module', 'Modul') + ' ' + n + '' + L(m.en, m.idn) + '</span></div>';
+      return '<div class="pc-mod ' + cls + '"><span class="pm-ic">' + ic + '</span><span>' + L('Module', 'Modul') + ' ' + n + ' · ' + L(m.en, m.idn) + '</span></div>';
     }).join('');
     return '<div class="glass-card prog-card"><div class="pc-top"><span class="gold-pill">' + p.badge + '</span>' +
       '<span class="pc-name">' + p.nameEn + '</span><span class="pc-frac">' + done + '/' + p.total + ' ' + L('modules', 'modul') + '</span>' +
@@ -2849,8 +2849,8 @@ function renderMilestones() {
       const n = yi * 2 + si + 1;
       return '<div class="jm-sem' + (n === curSem ? ' here' : '') + '"><div class="js-n">S' + n + '</div><div class="js-note">' + L(SEM_NOTES[n - 1][0], SEM_NOTES[n - 1][1]) + '</div></div>';
     }).join('') + '</div></div>').join('') + '</div>' +
-    '<div class="jm-status">' + L('You are tracking at <b>Semester ' + curSem + '</b> pace.' + (curSem >= 5 ? 'on track for the full-time application season.' : 'building your foundation. Keep stacking modules.'),
-      'Lajumu setara <b>Semester ' + curSem + '</b>' + (curSem >= 5 ? 'tepat waktu untuk musim lamaran kerja penuh waktu.' : 'masih membangun fondasi. Terus tumpuk modulnya.')) + '</div>' +
+    '<div class="jm-status">' + L('You are tracking at <b>Semester ' + curSem + '</b> pace: ' + (curSem >= 5 ? 'on track for the full-time application season.' : 'building your foundation. Keep stacking modules.'),
+      'Lajumu setara <b>Semester ' + curSem + '</b>: ' + (curSem >= 5 ? 'tepat waktu untuk musim lamaran kerja penuh waktu.' : 'masih membangun fondasi. Terus tumpuk modulnya.')) + '</div>' +
     '<div class="jm-legend"><span><i style="background:rgba(255,255,255,.5)"></i>' + L('Academic', 'Akademik') + '</span>' +
     '<span><i style="background:var(--teal)"></i>' + L('Extracurricular', 'Ekstrakurikuler') + '</span>' +
     '<span><i style="background:var(--gold)"></i>' + L('Career', 'Karier') + '</span>' +
@@ -2976,7 +2976,7 @@ function renderInsights() {
     .sort((a, b) => (byType[b.v].iv / byType[b.v].apps) - (byType[a.v].iv / byType[a.v].apps))[0];
   $('patternPanel').innerHTML = '<h4>' + L('Your application stats (last 60 days)', 'Statistik lamaranmu (60 hari terakhir)') + '</h4>' +
     '<div class="ins-rows">' +
-    L('Total applications: <b>' + sixty.length + '</b><br>Reached interview: <b>' + reached + '</b> (' + (sixty.length ? Math.round(reached / sixty.length * 100) : 0) + '%.' + 'benchmark: 30%)<br>Offer conversion after Final: <b>' + offerConv + '%</b> (benchmark: 40%)',
+    L('Total applications: <b>' + sixty.length + '</b><br>Reached interview: <b>' + reached + '</b> (' + (sixty.length ? Math.round(reached / sixty.length * 100) : 0) + '%; ' + 'benchmark: 30%)<br>Offer conversion after Final: <b>' + offerConv + '%</b> (benchmark: 40%)',
       'Total lamaran: <b>' + sixty.length + '</b><br>Sampai ke tahap wawancara: <b>' + reached + '</b> (' + (sixty.length ? Math.round(reached / sixty.length * 100) : 0) + '%: benchmark: 30%)<br>Konversi ke tawaran setelah wawancara final: <b>' + offerConv + '%</b> (benchmark: 40%)') +
     (typeRows ? '<br><br><b>' + L('Company type breakdown', 'Rincian menurut jenis perusahaan') + '</b><br>' + typeRows : '') + '</div>' +
     (best ? '<div class="ins-note">' + L('Insight: your materials convert best at <b>' + best.en + '</b> companies. Review how you position your experience for the other segments.',
@@ -3006,7 +3006,7 @@ function renderInsights() {
         const dd = DEEP[d.key];
         const gain = Math.round((Math.min(100, scores[d.key] + 13) - scores[d.key]) / 5 * 10) / 10;
         return '<div class="glass-card deep-card"><h4>' + L(d.en, d.idn) + ' <b>(' + scores[d.key] + '/100' +
-          (d.key === lows[0].key ? '' + L('your steepest face', 'tanjakan tercurammu') : '') + ')</b></h4>' +
+          (d.key === lows[0].key ? ', ' + L('your steepest face', 'tanjakan tercurammu') : '') + ')</b></h4>' +
           '<h5>' + L("What's holding you back", 'Apa yang menahanmu') + '</h5><ul>' + dd.hold.map(x => '<li>' + x + '</li>').join('') + '</ul>' +
           '<h5>' + L('Highest-leverage actions', 'Tindakan berdaya ungkit tertinggi') + '</h5><ul>' + dd.act.map(x => '<li>' + x + '</li>').join('') + '</ul>' +
           '<div class="dc-impact">' + L('Impact: +13 points here adds +' + gain + ' to your overall Career Readiness Score.',
@@ -3022,12 +3022,12 @@ function renderInsights() {
   const top = apps.filter(a => a.status !== 'withdrawn').sort((a, b) => b.stage - a.stage)[0];
   const monday = new Date(NOW); monday.setDate(monday.getDate() - ((monday.getDay() + 6) % 7));
   $('weekCard').innerHTML = '<div class="wk-date">' + L('Week of ', 'Minggu ') + monday.toLocaleDateString(LOCALE(), { day: 'numeric', month: 'long', year: 'numeric' }) + '</div>' +
-    '<p>' + L('You applied to <b>' + week + '</b> ' + (week === 1 ? 'company' : 'companies') + '' + (week >= prevWeek ? 'up from' : 'down from') + ' <b>' + prevWeek + '</b> last week. You logged <b>' + weekDebriefs + '</b> interview ' + (weekDebriefs === 1 ? 'debrief' : 'debriefs') + '.',
-      'Kamu melamar ke <b>' + week + '</b> perusahaan.' + (week >= prevWeek ? 'naik dari' : 'turun dari') + ' <b>' + prevWeek + '</b> minggu lalu. Kamu mencatat <b>' + weekDebriefs + '</b> debrief wawancara.') + '</p>' +
-    (top ? '<p><span class="wk-hi">' + L('Strongest position', 'Posisi terkuat') + ':</span> ' + esc(top.company) + '' + stageName(top.stage) + '.</p>' : '') +
+    '<p>' + L('You applied to <b>' + week + '</b> ' + (week === 1 ? 'company' : 'companies') + ', ' + (week >= prevWeek ? 'up from' : 'down from') + ' <b>' + prevWeek + '</b> last week. You logged <b>' + weekDebriefs + '</b> interview ' + (weekDebriefs === 1 ? 'debrief' : 'debriefs') + '.',
+      'Kamu melamar ke <b>' + week + '</b> perusahaan, ' + (week >= prevWeek ? 'naik dari' : 'turun dari') + ' <b>' + prevWeek + '</b> minggu lalu. Kamu mencatat <b>' + weekDebriefs + '</b> debrief wawancara.') + '</p>' +
+    (top ? '<p><span class="wk-hi">' + L('Strongest position', 'Posisi terkuat') + ':</span> ' + esc(top.company) + ' · ' + stageName(top.stage) + '.</p>' : '') +
     (stale ? '<p><span class="wk-warn">' + L('Watch point', 'Perlu diwaspadai') + ':</span> ' + L(stale + ' applications have had no update in 14+ days. Review and update them.', stale + ' lamaran belum diperbarui lebih dari 14 hari. Tinjau dan perbarui statusnya.') + '</p>' : '') +
     '<p><b>' + L("This week's single most important action", 'Satu tindakan terpenting minggu ini') + ':</b> ' +
-    (urgent ? L('prepare for your ' + stageOf(urgent.stage).en + ' at ' + esc(urgent.company) + 'run 2 mock interviews before it.', 'bersiap untuk ' + stageOf(urgent.stage).idn + ' di ' + esc(urgent.company) + 'lakukan 2 simulasi wawancara sebelum harinya tiba.')
+    (urgent ? L('prepare for your ' + stageOf(urgent.stage).en + ' at ' + esc(urgent.company) + '; run 2 mock interviews before it.', 'bersiap untuk ' + stageOf(urgent.stage).idn + ' di ' + esc(urgent.company) + '; lakukan 2 simulasi wawancara sebelum harinya tiba.')
             : L('log 3 quality applications and complete one course module.', 'catat 3 lamaran berkualitas dan selesaikan satu modul kursus.')) + '</p>';
   animateRings($('tab-nav-briefing'));
 }

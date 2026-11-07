@@ -531,8 +531,8 @@
     } }));
     er.appendChild(SH.btn({ en: 'Development plan (Markdown)', id: 'Rencana pengembangan (Markdown)' }, { ghost: true, sm: true, iconL: 'flag', onClick: function () {
       var gs = load(K.goals, []), j = load(K.journal, []), hs = load(K.habits, []);
-      var md = '# ' + T('My development plan', 'Rencana pengembanganku') + '\n\n' + gs.map(function (g) { return '## ' + g.title + (g.due ? '' + g.due : '') + '\n' + (g.why ? g.why + '\n' : '') + (g.milestones || []).map(function (m) { return '- [' + (m.done ? 'x' : ' ') + '] ' + m.text; }).join('\n') + '\n'; }).join('\n') +
-        '\n# ' + T('Habits', 'Kebiasaan') + '\n' + hs.map(function (h) { return '- ' + SH.txt(h.name) + (h.remind ? ' (' + h.remind + ')' : ''); }).join('\n') + '\n\n# ' + T('Journal', 'Jurnal') + '\n' + j.map(function (e) { return '### ' + e.date + '' + SH.txt(e.prompt) + '\n' + e.text + '\n'; }).join('\n');
+      var md = '# ' + T('My development plan', 'Rencana pengembanganku') + '\n\n' + gs.map(function (g) { return '## ' + g.title + (g.due ? ' · ' + g.due : '') + '\n' + (g.why ? g.why + '\n' : '') + (g.milestones || []).map(function (m) { return '- [' + (m.done ? 'x' : ' ') + '] ' + m.text; }).join('\n') + '\n'; }).join('\n') +
+        '\n# ' + T('Habits', 'Kebiasaan') + '\n' + hs.map(function (h) { return '- ' + SH.txt(h.name) + (h.remind ? ' (' + h.remind + ')' : ''); }).join('\n') + '\n\n# ' + T('Journal', 'Jurnal') + '\n' + j.map(function (e) { return '### ' + e.date + ' · ' + SH.txt(e.prompt) + '\n' + e.text + '\n'; }).join('\n');
       download('compass-development-plan.md', md, 'text/markdown');
     } }));
     ex.appendChild(er);
@@ -570,7 +570,7 @@
     var grid = el('div', 'cx-today-grid');
     [['checkSq', T('Habits', 'Kebiasaan'), due.length ? done.length + ' / ' + due.length + ' ' + T('done', 'selesai') : T('none scheduled', 'tidak ada jadwal'), next ? T('next reminder ', 'pengingat berikutnya ') + next : (due.length && done.length === due.length ? T('all done: nice', 'semua selesai: mantap') : T('tap to tick off', 'ketuk untuk mencentang')), 'habits'],
      ['flag', T('Plan', 'Rencana'), msDue.length ? msDue.length + ' ' + T('goal(s) due within 7 days', 'tujuan jatuh tempo ≤ 7 hari') : goals.length + ' ' + T('open goal(s)', 'tujuan terbuka'), msDue.length ? esc(msDue[0].title).slice(0, 48) : T('review on Sunday', 'tinjau hari Minggu'), 'plan'],
-     ['send', T('Routes', 'Rute'), apps.length ? apps.length + ' ' + T('next action(s) due', 'tindakan jatuh tempo') : T('no actions due', 'tidak ada tindakan jatuh tempo'), apps.length ? esc(apps[0].company) + '' + esc(apps[0].nextAction || '').slice(0, 40) : T('keep the pipeline moving', 'jaga alur tetap bergerak'), 'course-plotter'],
+     ['send', T('Routes', 'Rute'), apps.length ? apps.length + ' ' + T('next action(s) due', 'tindakan jatuh tempo') : T('no actions due', 'tidak ada tindakan jatuh tempo'), apps.length ? esc(apps[0].company) + ': ' + esc(apps[0].nextAction || '').slice(0, 40) : T('keep the pipeline moving', 'jaga alur tetap bergerak'), 'course-plotter'],
      ['pen', T('Journal', 'Jurnal'), wrote ? T('written today', 'sudah ditulis hari ini') : T('this week’s prompt is waiting', 'pertanyaan pekan ini menunggu'), esc(SH.txt(PROMPTS[Math.floor(Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / DAY) / 7) % PROMPTS.length])).slice(0, 60) + '…', 'discovery']
     ].forEach(function (x) {
       var b = el('button', 'cx-today-item'); b.type = 'button';

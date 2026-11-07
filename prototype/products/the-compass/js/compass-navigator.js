@@ -453,7 +453,7 @@
   /* ─── waypoints ahead ─── */
   function upcoming(s) {
     var W = [];
-    s.live.forEach(function (a) { if (a.nextActionDue && daysUntil(a.nextActionDue) <= 21) W.push({ d: a.nextActionDue, icon: a.stage >= 7 ? 'interview' : 'send', title: a.company + '' + C.stageName(a.stage), sub: a.nextAction || '', go: { app: a.id } }); });
+    s.live.forEach(function (a) { if (a.nextActionDue && daysUntil(a.nextActionDue) <= 21) W.push({ d: a.nextActionDue, icon: a.stage >= 7 ? 'interview' : 'send', title: a.company + ' · ' + C.stageName(a.stage), sub: a.nextAction || '', go: { app: a.id } }); });
     s.goals.forEach(function (g) { if (g.due && daysUntil(g.due) <= 30) W.push({ d: g.due, icon: 'flag', title: g.title, sub: T(s.gp(g) + '% of milestones done', s.gp(g) + '% tonggak selesai'), go: { tab: 'plan' } }); });
     if (s.rp.started) [30, 60, 90].forEach(function (k) { var dd = iso(s.rp.started + k * DAY); var n = daysUntil(dd); if (n >= 0 && n <= 30) W.push({ d: dd, icon: 'calendar', title: T('90-day plan: day ' + k + ' checkpoint', 'Rencana 90 hari: titik periksa hari ke-' + k), sub: s.rp.goal || '', go: { href: '/products/the-route/?tool=plan&mode=plan' } }); });
     if (s.prof.by && daysUntil(s.prof.by) >= 0 && daysUntil(s.prof.by) <= 90) W.push({ d: s.prof.by, icon: 'target', title: T('Destination date', 'Tanggal tujuan'), sub: s.prof.target || '', go: { run: 'editDest' } });
@@ -493,7 +493,7 @@
     var cp = criticalPath(s)[0];
     if (cp && s.prof.by && daysUntil(s.prof.by) > 0) {
       var left = cp.p.total - done(cp.p.key), fin = iso(Date.now() + left * 7 * DAY), before = fin <= s.prof.by;
-      I.push({ icon: 'hourglass', text: P('At one module a week you would finish ' + cp.p.nameEn + ' around ' + fmt(fin) + '' + (before ? 'before' : 'after') + ' your destination date of ' + fmt(s.prof.by) + '.' + (before ? '' : ' Prioritise the modules on the critical path below.'), 'Dengan satu modul per minggu kamu akan menuntaskan ' + cp.p.nameEn + ' sekitar ' + fmt(fin) + '' + (before ? 'sebelum' : 'sesudah') + ' tanggal tujuanmu ' + fmt(s.prof.by) + '.' + (before ? '' : ' Dahulukan modul di jalur kritis di bawah.')) });
+      I.push({ icon: 'hourglass', text: P('At one module a week you would finish ' + cp.p.nameEn + ' around ' + fmt(fin) + ', ' + (before ? 'before' : 'after') + ' your destination date of ' + fmt(s.prof.by) + '.' + (before ? '' : ' Prioritise the modules on the critical path below.'), 'Dengan satu modul per minggu kamu akan menuntaskan ' + cp.p.nameEn + ' sekitar ' + fmt(fin) + ', ' + (before ? 'sebelum' : 'sesudah') + ' tanggal tujuanmu ' + fmt(s.prof.by) + '.' + (before ? '' : ' Dahulukan modul di jalur kritis di bawah.')) });
     }
     if (s.audit && s.audit.values && s.audit.values[0]) I.push({ icon: 'heart', text: P('Your Personal Audit ranks ' + q(s.audit.values[0]) + ' first. When two options look similar, choose the one that serves it.', 'Audit Pribadimu menempatkan ' + q(s.audit.values[0]) + ' di urutan pertama. Saat dua pilihan tampak serupa, pilih yang melayaninya.') });
     if (s.audit && s.audit.drains && s.audit.drains[0] && (s.phase === 'interview' || s.phase === 'assess')) I.push({ icon: 'battery', text: P('Your audit lists ' + q(s.audit.drains[0]) + ' as draining. If the stage ahead involves it, plan recovery time around it rather than hoping it will not.', 'Auditmu mencatat ' + q(s.audit.drains[0]) + ' sebagai hal yang menguras. Jika tahap berikutnya melibatkannya, rencanakan waktu pemulihan di sekitarnya.') });
@@ -512,17 +512,17 @@
       (stg ? 'Kamu ' + stg.id + ' di fase ' : 'Kamu berada di fase ') + PHASES[s.phase].name.id + '. ' + live.id + ' Career Bearing ' + s.sc.overall + '/100 (' + s.lv.idn + ').');
     var dn = s.prof.by ? daysUntil(s.prof.by) : null;
     var go = s.prof.target
-      ? P(q(s.prof.target) + (s.prof.by ? (dn >= 0 ? ' by ' + fmt(s.prof.by) + '' + dn + ' days away.' : 'the date (' + fmt(s.prof.by) + ') has passed.') : 'no date set yet.'),
-          q(s.prof.target) + (s.prof.by ? (dn >= 0 ? ' pada ' + fmt(s.prof.by) + '' + dn + ' hari lagi.' : 'tanggalnya (' + fmt(s.prof.by) + ') sudah lewat.') : 'belum ada tanggal.'))
+      ? P(q(s.prof.target) + (s.prof.by ? (dn >= 0 ? ' by ' + fmt(s.prof.by) + ', ' + dn + ' days away.' : ': the date (' + fmt(s.prof.by) + ') has passed.') : ': no date set yet.'),
+          q(s.prof.target) + (s.prof.by ? (dn >= 0 ? ' pada ' + fmt(s.prof.by) + ', ' + dn + ' hari lagi.' : ': tanggalnya (' + fmt(s.prof.by) + ') sudah lewat.') : ': belum ada tanggal.'))
       : P('Not set yet. Set your destination below so every recommendation is weighed against it.', 'Belum ditetapkan. Tetapkan tujuanmu di bawah agar setiap rekomendasi ditimbang terhadapnya.');
     var focus = P(PHASES[s.phase].focus.en + (G[0] ? ' Biggest gap: ' + tx(G[0].title).replace(/\.$/, '') + '.' : ''), PHASES[s.phase].focus.id + (G[0] ? ' Celah terbesar: ' + (G[0].title.id || G[0].title.en).replace(/\.$/, '') + '.' : ''));
     var nx = A[0];
     var first = A.slice(0, 3).map(function (a, i) { return (i + 1) + '. ' + tx(a.title); }).join('  ');
     var h = s.history, d0 = h.length > 1 ? h[0] : null, delta = d0 ? s.sc.overall - d0.o : 0;
     var prog = P(
-      (s.trend === 'up' ? 'Yes: your logged activity is up (' + s.trendNums[0] + ' actions in the last two weeks vs ' + s.trendNums[1] + ' before).' : s.trend === 'down' ? 'Slowing.' + s.trendNums[0] + ' logged actions in the last two weeks vs ' + s.trendNums[1] + ' before.' : s.trend === 'steady' ? 'Steadily.' + s.trendNums[0] + ' logged actions in the last two weeks, similar to before.' : 'Too early to tell; log a few actions and this will show a trend.') +
+      (s.trend === 'up' ? 'Yes: your logged activity is up (' + s.trendNums[0] + ' actions in the last two weeks vs ' + s.trendNums[1] + ' before).' : s.trend === 'down' ? 'Slowing: ' + s.trendNums[0] + ' logged actions in the last two weeks vs ' + s.trendNums[1] + ' before.' : s.trend === 'steady' ? 'Steadily: ' + s.trendNums[0] + ' logged actions in the last two weeks, similar to before.' : 'Too early to tell; log a few actions and this will show a trend.') +
       (d0 && delta ? ' Career Bearing ' + (delta > 0 ? '+' : '') + delta + ' since ' + fmt(d0.d) + '.' : ''),
-      (s.trend === 'up' ? 'Ya: aktivitas yang kamu catat meningkat (' + s.trendNums[0] + ' tindakan dalam dua minggu terakhir vs ' + s.trendNums[1] + ' sebelumnya).' : s.trend === 'down' ? 'Melambat.' + s.trendNums[0] + ' tindakan tercatat dalam dua minggu terakhir vs ' + s.trendNums[1] + ' sebelumnya.' : s.trend === 'steady' ? 'Stabil.' + s.trendNums[0] + ' tindakan tercatat dalam dua minggu terakhir, serupa dengan sebelumnya.' : 'Terlalu dini: catat beberapa tindakan dan tren akan muncul di sini.') +
+      (s.trend === 'up' ? 'Ya: aktivitas yang kamu catat meningkat (' + s.trendNums[0] + ' tindakan dalam dua minggu terakhir vs ' + s.trendNums[1] + ' sebelumnya).' : s.trend === 'down' ? 'Melambat: ' + s.trendNums[0] + ' tindakan tercatat dalam dua minggu terakhir vs ' + s.trendNums[1] + ' sebelumnya.' : s.trend === 'steady' ? 'Stabil: ' + s.trendNums[0] + ' tindakan tercatat dalam dua minggu terakhir, serupa dengan sebelumnya.' : 'Terlalu dini: catat beberapa tindakan dan tren akan muncul di sini.') +
       (d0 && delta ? ' Career Bearing ' + (delta > 0 ? '+' : '') + delta + ' sejak ' + fmt(d0.d) + '.' : ''));
     var fall = s.status === 'on'
       ? P('You are on course. If you slip, use the four-step recalibration below: triage, shrink, one small win, re-plan on Sunday.', 'Kamu di jalur. Jika tergelincir, pakai empat langkah kalibrasi ulang di bawah: pilah, kecilkan, satu kemenangan kecil, rencanakan ulang hari Minggu.')
@@ -532,7 +532,7 @@
       { q: P('Where am I trying to go?', 'Ke mana aku menuju?'), a: go, to: 'nvDest', icon: 'flag' },
       { q: P('What should I focus on next?', 'Apa fokusku berikutnya?'), a: focus, to: 'nvGaps', icon: 'target' },
       { q: P('Why does this matter?', 'Mengapa ini penting?'), a: nx ? nx.why : P('Nothing urgent: keep your rhythm.', 'Tak ada yang mendesak, jaga ritmemu.'), to: 'nvNext', icon: 'bulb' },
-      { q: P('What should I do?', 'Apa yang harus kulakukan?'), a: nx ? P(nx.title.en + 'about ' + nx.mins + ' minutes.', nx.title.id + 'sekitar ' + nx.mins + ' menit.') : P('Keep going.', 'Lanjutkan.'), to: 'nvNext', icon: 'arrow' },
+      { q: P('What should I do?', 'Apa yang harus kulakukan?'), a: nx ? P(nx.title.en + ': about ' + nx.mins + ' minutes.', nx.title.id + ': sekitar ' + nx.mins + ' menit.') : P('Keep going.', 'Lanjutkan.'), to: 'nvNext', icon: 'arrow' },
       { q: P('What should I complete first?', 'Apa yang harus kuselesaikan dulu?'), a: P(first, first), to: 'nvPri', icon: 'list' },
       { q: P('Am I making progress?', 'Apakah aku mengalami kemajuan?'), a: prog, to: 'nvProgress', icon: 'trendUp' },
       { q: P('What if I fall behind?', 'Bagaimana jika aku tertinggal?'), a: fall, to: 'nvRecal', icon: 'refresh' }
@@ -684,7 +684,7 @@
       [s.sc.overall + '/100', { en: 'Career Bearing', id: 'Career Bearing' }],
       [s.hab30.pct + '%', { en: 'Habits kept · 30 days', id: 'Kebiasaan terjaga · 30 hari' }],
       [s.modsDone + '/' + s.modsTotal, { en: 'Modules complete', id: 'Modul selesai' }],
-      [s.ms.all ? Math.round(s.ms.done / s.ms.all * 100) + '%' : '', { en: 'Plan milestones', id: 'Tonggak rencana' }]
+      [s.ms.all ? Math.round(s.ms.done / s.ms.all * 100) + '%' : '–', { en: 'Plan milestones', id: 'Tonggak rencana' }]
     ]);
     c2.appendChild(st);
     grid.appendChild(c2);
