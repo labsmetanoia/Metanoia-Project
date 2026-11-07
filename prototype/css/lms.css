@@ -1960,10 +1960,10 @@ html[lang="id"] .lms-after::before{content:"Intinya"}
 .lms-flow .lfl-n{flex:none;width:28px;height:28px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;
   font-size:11.5px;font-weight:800;color:#0B1524;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878)}
 .lms-flow .lfl-line{flex:1;height:1px;background:linear-gradient(90deg,rgba(201,168,76,.7),rgba(201,168,76,.15))}
-.lms-flow .lfl-step b{display:block;font-size:13px;line-height:1.35;color:var(--text,#F0EDE8)}
-.lms-flow .lfl-step span{display:block;font-size:11.5px;line-height:1.5;color:rgba(240,237,232,.66);margin-top:3px}
-:root[data-theme="light"] .lms-flow .lfl-step b{color:#1A1F28}
-:root[data-theme="light"] .lms-flow .lfl-step span{color:rgba(26,31,40,.64)}
+.lms-flow .lfl-step > b{display:block;font-size:13px;line-height:1.35;color:var(--text,#F0EDE8)}
+.lms-flow .lfl-step > span{display:block;font-size:11.5px;line-height:1.5;color:rgba(240,237,232,.66);margin-top:3px}
+:root[data-theme="light"] .lms-flow .lfl-step > b{color:#1A1F28}
+:root[data-theme="light"] .lms-flow .lfl-step > span{color:rgba(26,31,40,.64)}
 /* framework cards from labelled bullets */
 .lms-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:12px 0 6px}
 .lms-vcard{position:relative;border:1px solid rgba(201,168,76,.26);border-radius:13px;padding:14px 14px 12px 14px;background:rgba(5,10,18,.35);
@@ -2011,3 +2011,6 @@ html[lang="id"] .lms-after::before{content:"Intinya"}
 .lms-obj li{padding-left:32px}
 .lms-obj li::before{counter-increment:obj;content:counter(obj,decimal-leading-zero);width:22px;height:22px;top:5px;left:0;border-radius:50%;
   font-size:9px;font-weight:800;letter-spacing:.04em;display:flex;align-items:center;justify-content:center;color:var(--gold,#C9A84C);background:rgba(201,168,76,.08)}
+
+/* long unbreakable tokens (file names, URLs, codes) wrap inside visual-layer tiles instead of spilling out */
+.lms-diagram .ld-node,.lms-flow .lfl-step,.lms-funnel .lf-tx,.lms-vcard,.lms-tk-tile,.lms-insights .li-card,.lms-journey .lj-step,.lms-stat,.lms-mistakes li,.lms-compare .lc-col,.lms-glossary dd{overflow-wrap:anywhere}

@@ -321,7 +321,7 @@
     return '<article class="rcard"><div class="rc-head">' + logo +
       '<div class="rc-tx"><div class="org">' + esc(r.org) + '</div>' +
       '<h3>' + esc(T(r.title)) + '</h3></div></div>' +
-      '<div class="win">' + esc(T(r.type)) + '' + esc(T(r.window)) + '</div>' +
+      '<div class="win">' + esc(T(r.type)) + ' · ' + esc(T(r.window)) + '</div>' +
       '<div class="foot">' + pill +
       '<span class="chk">' + t('Checked ', 'Dicek ') + fdate(r.checked) + '</span>' +
       '<a href="' + r.url + '" target="_blank" rel="noopener">' + t('Official page ↗', 'Laman resmi ↗') + '</a></div></article>';
@@ -913,7 +913,7 @@
       }).join('');
     }).join('') +
     (rhits.length ? '<div class="g">' + t('Opportunities', 'Peluang') + '</div>' + rhits.map(function (r) {
-      return '<button data-radar="1">' + esc(r.org) + '' + esc(T(r.title)) + '<span>' + esc(T(r.type)) + '</span></button>';
+      return '<button data-radar="1">' + esc(r.org) + ': ' + esc(T(r.title)) + '<span>' + esc(T(r.type)) + '</span></button>';
     }).join('') : '') +
     (phits.length ? '<div class="g">' + t('Do it in Metanoia', 'Kerjakan di Metanoia') + '</div>' + phits.map(function (pr, i) {
       return '<button data-prod="' + i + '">' + esc(pr.name) + '<span>' + esc(T(pr.why)) + '</span></button>';

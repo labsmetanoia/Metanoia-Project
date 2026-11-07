@@ -54,6 +54,7 @@ def offenders(path):
     out = []
     with open(path, encoding='utf-8') as fh:
         for i, ln in enumerate(fh, 1):
+            ln = ln.replace('&mdash;', '—')      # the HTML entity is the same character to a reader
             s = ln.strip()
             if kind == 'html':
                 if '<style' in ln:
