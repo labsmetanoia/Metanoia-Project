@@ -109,7 +109,7 @@
           lvl: 'any', stage: 'any', d: t.d, sig: t.sig, dirId: dir.id,
           q: { en: t.q.en.replace('{skill}', skillName).replace('{role}', dir.name.en), id: t.q.id.replace('{skill}', skillName).replace('{role}', dir.name.id) },
           tests: t.tests,
-          coach: { en: 'Ground your answer in the real work of ' + dir.name.en + 'one concrete project, your actions, a measured result.', id: 'Pijakkan jawabanmu pada kerja nyata ' + dir.name.id + 'satu proyek konkret, tindakanmu, hasil terukur.' }
+          coach: { en: 'Ground your answer in the real work of ' + dir.name.en + ': one concrete project, your actions, a measured result.', id: 'Pijakkan jawabanmu pada kerja nyata ' + dir.name.id + ': satu proyek konkret, tindakanmu, hasil terukur.' }
         });
       });
     });
@@ -1381,7 +1381,7 @@
     var s = [], w = [], c = [];
     if (a.num) {
       var want = fmtUnit(a.num.expected, a.num.unit), got = fmtUnit(a.num.given, a.num.unit);
-      if (a.num.verdict === 'ok') s.push(T('Correct.' + want + '.', 'Benar.' + want + '.'));
+      if (a.num.verdict === 'ok') s.push(T('Correct: ' + want + '.', 'Benar: ' + want + '.'));
       else if (a.num.verdict === 'close') { w.push(T('Close, not exact: you gave ' + got + '; the answer is ' + want + '.', 'Dekat, belum tepat: kamu menjawab ' + got + '; jawabannya ' + want + '.')); c.push(T('Redo the arithmetic step by step and say the units aloud.', 'Ulangi hitungannya langkah demi langkah dan ucapkan satuannya.')); }
       else if (a.num.verdict === 'off') { w.push(T('Your number (' + got + ') does not match the answer (' + want + ').', 'Angkamu (' + got + ') tidak cocok dengan jawabannya (' + want + ').')); c.push(T('Read the worked solution, then redo it without looking.', 'Baca penyelesaiannya, lalu kerjakan ulang tanpa melihat.')); }
       else { w.push(T('No number was given.', 'Tidak ada angka yang diberikan.')); c.push(T('Commit to a number, even a rough one; the attempt is what gets marked.', 'Berani menyebut angka, meski kasar, upaya itulah yang dinilai.')); }
@@ -1463,7 +1463,7 @@
     return { who: L(per.name), title: p ? L(p.title) : T('Custom session', 'Sesi kustom'), turns: turns };
   }
   function transcriptText(tx, at) {
-    var lines = [tx.title + '' + new Date(at || Date.now()).toLocaleString(lang() === 'id' ? 'id-ID' : 'en-GB'), ''];
+    var lines = [tx.title + ' · ' + new Date(at || Date.now()).toLocaleString(lang() === 'id' ? 'id-ID' : 'en-GB'), ''];
     tx.turns.forEach(function (t) {
       if (t.w === 's') { lines.push('', '' + t.t + ''); return; }
       lines.push('[' + mmss(t.at) + '] ' + (t.w === 'i' ? tx.who : T('You', 'Kamu')) + ': ' + t.t);
@@ -1999,7 +1999,7 @@
     var pathsDone = {}; h.forEach(function (x) { pathsDone[x.pathId || 'custom'] = 1; });
     var first3 = h.slice(0, Math.min(3, h.length)), fAvg = Math.round(first3.reduce(function (t, x) { return t + x.overall; }, 0) / first3.length);
     var kp = el('div', 'rsx-kpis');
-    [[h.length, T('sessions', 'sesi')], [mins ? Math.round(mins) + ' ' + T('min', 'mnt') : '', T('practice time', 'waktu latihan')], [avg5, T('average, last 5', 'rata-rata, 5 terakhir')],
+    [[h.length, T('sessions', 'sesi')], [mins ? Math.round(mins) + ' ' + T('min', 'mnt') : '–', T('practice time', 'waktu latihan')], [avg5, T('average, last 5', 'rata-rata, 5 terakhir')],
      [best, T('best score', 'skor terbaik')], [Object.keys(pathsDone).length, T('paths practised', 'jalur dilatih')], [(avg5 - fAvg >= 0 ? '+' : '') + (avg5 - fAvg), T('vs your first sessions', 'dibanding sesi awalmu')]].forEach(function (k) {
       kp.appendChild(el('div', 'kpi', '<b>' + k[0] + '</b><span>' + k[1] + '</span>'));
     });
@@ -2072,7 +2072,7 @@
         var b = el('div', 'rsim-bar');
         b.appendChild(el('span', null, esc(L(d.name))));
         var tr = el('div', 'tr'); tr.appendChild(el('i')); tr.firstChild.style.width = (lastD || 0) + '%'; b.appendChild(tr);
-        var val = el('b', null, lastD == null ? '' : String(lastD));
+        var val = el('b', null, lastD == null ? '–' : String(lastD));
         if (runs.length > 1 && lastD != null && firstD != null && lastD !== firstD) val.innerHTML += ' <span class="delta ' + (lastD > firstD ? 'up' : 'dn') + '">' + (lastD > firstD ? '+' : '') + (lastD - firstD) + '</span>';
         b.appendChild(val); bars.appendChild(b);
       });
@@ -2195,7 +2195,7 @@
     var r3 = el('div', 'rc');
     var nextDiff = overall >= 78 ? Math.min((s.cfg.difficulty || 2) + 1, 3) : (s.cfg.difficulty || 2);
     r3.innerHTML = '<span class="k">' + T('3 · Repeat', '3 · Ulangi') + '</span><b>' + (p ? T('Run this path again', 'Jalankan jalur ini lagi') : T('Run the next round', 'Jalankan putaran berikutnya')) + '</b><span>' +
-      (nextDiff > (s.cfg.difficulty || 2) ? T('You scored ' + overall + 'the next run steps up a difficulty level.', 'Skormu ' + overall + 'percobaan berikutnya naik satu tingkat kesulitan.') : T('Same format, fresh questions where the path has them. Watch the weakest dimension move.', 'Format sama, pertanyaan baru bila jalur memilikinya. Perhatikan dimensi terlemahmu bergerak.')) + '</span>';
+      (nextDiff > (s.cfg.difficulty || 2) ? T('You scored ' + overall + ': the next run steps up a difficulty level.', 'Skormu ' + overall + ': percobaan berikutnya naik satu tingkat kesulitan.') : T('Same format, fresh questions where the path has them. Watch the weakest dimension move.', 'Format sama, pertanyaan baru bila jalur memilikinya. Perhatikan dimensi terlemahmu bergerak.')) + '</span>';
     var rb = el('button', 'rsim-btn', T('Practise again →', 'Latih lagi →'));
     rb.addEventListener('click', function () {
       if (p) { var c3 = JSON.parse(JSON.stringify(s.cfg)); c3.difficulty = nextDiff; if (!specCfgs()[p.id] || !specCfgs()[p.id].caseId) c3.caseId = ''; startPathSession(c3); }
@@ -2634,7 +2634,7 @@
     var cvInput = document.createElement('input');
     cvInput.type = 'file'; cvInput.accept = '.pdf,.docx,.txt,.rtf,.odt,.md'; cvInput.style.display = 'none';
     var cvBtn = el('button', 'rsim-btn ghost', T('Choose file…', 'Pilih file…')); cvBtn.type = 'button';
-    var cvStatus = el('span', 'rsim-note', state.cvMined ? T('CV loaded.' + state.cvMined.claims.length + ' claims found to probe.', 'CV termuat.' + state.cvMined.claims.length + ' klaim ditemukan untuk diuji.') : T('No CV loaded yet.', 'Belum ada CV termuat.'));
+    var cvStatus = el('span', 'rsim-note', state.cvMined ? T('CV loaded: ' + state.cvMined.claims.length + ' claims found to probe.', 'CV termuat: ' + state.cvMined.claims.length + ' klaim ditemukan untuk diuji.') : T('No CV loaded yet.', 'Belum ada CV termuat.'));
     cvBtn.addEventListener('click', function () { cvInput.click(); });
     cvInput.addEventListener('change', function () {
       var f = cvInput.files && cvInput.files[0];
@@ -2643,7 +2643,7 @@
       cvStatus.textContent = T('Reading…', 'Membaca…');
       window.MT_RANGE_DOC.extract(f).then(function (doc) {
         state.cvMined = mineCvDeep(doc.text);
-        cvStatus.textContent = T('✓ Read ' + f.name + '' + state.cvMined.claims.length + ' claims found to probe in your interview.', '✓ Terbaca ' + f.name + '' + state.cvMined.claims.length + ' klaim ditemukan untuk diuji dalam wawancaramu.');
+        cvStatus.textContent = T('✓ Read ' + f.name + ': ' + state.cvMined.claims.length + ' claims found to probe in your interview.', '✓ Terbaca ' + f.name + ': ' + state.cvMined.claims.length + ' klaim ditemukan untuk diuji dalam wawancaramu.');
       }).catch(function (err) {
         cvStatus.textContent = window.MT_RANGE_DOC.message ? window.MT_RANGE_DOC.message(err && err.message, lang()) : T('Could not read that file.', 'File tidak terbaca.');
       });
@@ -2943,7 +2943,7 @@
     var nWrap = el('span');
     nWrap.appendChild(el('b', null, esc(L(per.name)) + (s.cfg.company ? ' · ' + esc(s.cfg.company) : '')));
     var spP = s.cfg && s.cfg.pathId ? pathById(s.cfg.pathId) : null;
-    nWrap.appendChild(el('span', null, '' + esc(L((spP && spP.personaTitle) || per.title))));
+    nWrap.appendChild(el('span', null, ' · ' + esc(L((spP && spP.personaTitle) || per.title))));
     nameChip.appendChild(nWrap);
     main.appendChild(nameChip);
     var liveChip = el('div', 'st-live', '<i></i><span>' + T('Live', 'Langsung') + '</span><em>0:00</em>');
@@ -2971,7 +2971,7 @@
     var catName = '';
     B.categories.forEach(function (c) { if (c.id === q.cat) catName = L(c.name); });
     var probeTag = (followup && s.probeLevel) ? ' · ' + T('probe ', 'galian ') + s.probeLevel + '/' + Math.max(probeDepth(s, q), s.probeLevel) +
-      (s.probeFamily && PROBE_NAME[s.probeFamily] ? '' + esc(L(PROBE_NAME[s.probeFamily])) : '') : '';
+      (s.probeFamily && PROBE_NAME[s.probeFamily] ? ' · ' + esc(L(PROBE_NAME[s.probeFamily])) : '') : '';
     if (q.secName && s.cfg && s.cfg.pathId) catName = L(q.secName) + (q.step ? '' : ' · ' + catName);
     var kickSub = phaseOf(q) === 'q' ? esc(catName) : phaseOf(q) === 'greet' ? T('Rapport', 'Rapport') : (q.secName && !/^(Closing|Penutup)$/.test(L(q.secName)) ? esc(L(q.secName)) : T('Your questions', 'Pertanyaanmu'));
     card.appendChild(el('div', 'rsim-kick', qLabel(s) + ' · ' + kickSub + probeTag));
@@ -3486,7 +3486,7 @@
       var fmtIc = a.fmt === 'video' ? '🎥' : a.fmt === 'audio' ? '🎙' : '⌨';
       var an = a.analysis, prof = an.profile && PROFILE_NAME[an.profile] ? L(PROFILE_NAME[an.profile]) : '';
       c.appendChild(el('div', 'rsim-kick', T('Q', 'P') + (i + 1) + ' · ' + fmtIc + (a.dimName && !a.followup ? ' <span class="rsx-dimchip">' + esc(a.dimName) + (an.dimScore != null ? ' · ' + an.dimScore : '') + '</span>' : '') + (prof && !a.followup && !a.dimName ? ' · ' + esc(prof) : '') +
-        (a.probe ? ' · ' + T('probe ', 'galian ') + a.probe.level + (a.probe.family && PROBE_NAME[a.probe.family] ? '' + esc(L(PROBE_NAME[a.probe.family])) : '') : '') +
+        (a.probe ? ' · ' + T('probe ', 'galian ') + a.probe.level + (a.probe.family && PROBE_NAME[a.probe.family] ? ' · ' + esc(L(PROBE_NAME[a.probe.family])) : '') : '') +
         (a.attempt > 1 ? ' · ' + T('attempt', 'percobaan') + ' ' + a.attempt : '')));
       c.appendChild(el('div', 'rsim-q', esc(a.q)));
       if (a.followup) c.appendChild(el('div', 'rsim-followup', '↳ ' + esc(a.followup)));
@@ -3629,7 +3629,7 @@
     card.appendChild(el('h2', null, T('Your targeted plan for the next round', 'Rencana tertargetmu untuk putaran berikutnya')));
     card.appendChild(el('p', 'rsim-sub', nextFocusText({ content: sc.content, structure: sc.structure, comm: sc.comm })));
     if (nextDiff > curDiff) {
-      card.appendChild(el('p', 'rsim-sub', '📈 ' + T('You averaged ' + avgAll + 'the next round steps up to a more demanding difficulty.', 'Rata-ratamu ' + avgAll + 'putaran berikutnya naik ke tingkat yang lebih menuntut.')));
+      card.appendChild(el('p', 'rsim-sub', '📈 ' + T('You averaged ' + avgAll + ': the next round steps up to a more demanding difficulty.', 'Rata-ratamu ' + avgAll + ': putaran berikutnya naik ke tingkat yang lebih menuntut.')));
     }
     var reco = el('div', 'rsim-reco');
     (LESSON_RECO[dim] || LESSON_RECO.structure).forEach(function (r) {

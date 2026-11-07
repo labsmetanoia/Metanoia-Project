@@ -437,7 +437,7 @@
     sv.addEventListener('click', function () { state.saved = true; state.sit = null; state.shown = 12; render(host); });
     chips.appendChild(sv);
     host.appendChild(chips);
-    host.appendChild(el('p', 'mv-read', esc(T('Detected from your Compass: ', 'Terdeteksi dari Compass-mu: ')) + det.list.slice(0, 3).map(function (d) { return '<b>' + esc(tx(SIT[d.k].label)) + '</b>' + esc(tx(d.why)); }).join(' · ')));
+    host.appendChild(el('p', 'mv-read', esc(T('Detected from your Compass: ', 'Terdeteksi dari Compass-mu: ')) + det.list.slice(0, 3).map(function (d) { return '<b>' + esc(tx(SIT[d.k].label)) + '</b>: ' + esc(tx(d.why)); }).join(' · ')));
     /* type filter */
     var seg = SH.seg({ options: TYPES, value: state.type, onPick: function (k) { state.type = k; state.shown = 12; render(host); } });
     seg.classList.add('mv-types');

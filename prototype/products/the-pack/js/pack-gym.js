@@ -293,7 +293,7 @@
     if (n) {
       var m = SH.card({ kick: { en: 'Funnel metrics', id: 'Metrik corong' }, title: { en: 'Where the pipeline leaks', id: 'Di mana corong bocor' } });
       m.appendChild(SH.stats([[n, { en: 'applications', id: 'lamaran' }], [Math.round(screened / n * 100) + '%', { en: 'screen rate', id: 'lolos saringan' }],
-        [screened ? Math.round(tested / screened * 100) + '%' : '', { en: 'screen → test', id: 'saringan → tes' }], [tested ? Math.round(interviewed / tested * 100) + '%' : '', { en: 'test → interview', id: 'tes → wawancara' }], [offers, { en: 'offers', id: 'tawaran' }]]));
+        [screened ? Math.round(tested / screened * 100) + '%' : '–', { en: 'screen → test', id: 'saringan → tes' }], [tested ? Math.round(interviewed / tested * 100) + '%' : '–', { en: 'test → interview', id: 'tes → wawancara' }], [offers, { en: 'offers', id: 'tawaran' }]]));
       m.appendChild(SH.note(esc(n < 10
         ? T('Small numbers wobble: read trends after ten applications, not after two.', 'Angka yang kecil mudah goyah; baca trennya setelah sepuluh lamaran, bukan setelah dua.')
         : T('Deaths concentrated at one stage locate the leak: screening → Modules 3 & 4; tests → Module 7 drills; interviews → The Rope.', 'Kematian terkonsentrasi di satu tahap menunjukkan kebocoran: saringan → Modul 3 & 4; tes → latihan Modul 7; wawancara → The Rope.')), 'chart'));

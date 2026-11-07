@@ -2044,7 +2044,7 @@
     var L = lang(), lines = [];
     (spec || []).forEach(function (sec) {
       lines.push(plain(sec.title[L] || sec.title.en)); lines.push('');
-      (sec.fields || []).forEach(function (f) { var v = ((d[sec.id] || {})[f.id] || '').trim(); lines.push('• ' + plain(f.label[L] || f.label.en)); lines.push('  ' + (v || '')); });
+      (sec.fields || []).forEach(function (f) { var v = ((d[sec.id] || {})[f.id] || '').trim(); lines.push('• ' + plain(f.label[L] || f.label.en)); lines.push('  ' + (v || '–')); });
       lines.push('');
     });
     return lines.join('\n');
@@ -2795,7 +2795,7 @@
     add('prio', placed === 6, placed === 6 ? 'All six sub-issues are placed on the matrix.' : placed + ' of 6 sub-issues placed.', placed === 6 ? 'Keenam sub-isu sudah ditempatkan di matriks.' : placed + ' dari 6 sub-isu ditempatkan.');
     add('prio', hh.length === 2, hh.length === 2 ? 'Exactly two sub-issues in the high-impact, high-feasibility quadrant: ' + hh.join(' and ') + '.' : (hh.length > 2 ? hh.length + ' sub-issues sit top-right; that is a list, not a priority.' : 'Fewer than two sub-issues sit top-right.'),
       hh.length === 2 ? 'Tepat dua sub-isu di kuadran dampak tinggi–kelayakan tinggi: ' + hh.join(' dan ') + '.' : (hh.length > 2 ? hh.length + ' sub-isu berada di kanan atas, itu daftar, bukan prioritas.' : 'Kurang dari dua sub-isu di kanan atas.'));
-    if (hh.length === 2 && hh[0][0] === hh[1][0]) add('prio', true, 'Both picks come from Issue ' + hh[0][0] + 'fine if that branch really dominates; say so in the rationale.', 'Kedua pilihan berasal dari Isu ' + hh[0][0] + 'tidak apa-apa jika cabang itu memang dominan; sebutkan di alasanmu.');
+    if (hh.length === 2 && hh[0][0] === hh[1][0]) add('prio', true, 'Both picks come from Issue ' + hh[0][0] + ', which is fine if that branch really dominates; say so in the rationale.', 'Kedua pilihan berasal dari Isu ' + hh[0][0] + ', dan itu tidak apa-apa jika cabang itu memang dominan; sebutkan di alasanmu.');
     var q8 = a.q8 || {}, rmin = st && cs.steps[2].review.min || 25;
     add('prio', words(q8.note) >= rmin, words(q8.note) >= rmin ? 'The case for the two picks is written (' + words(q8.note) + ' words).' : 'The rationale is short (' + words(q8.note) + ' words; ' + rmin + ' asked): argue impact and feasibility for each pick.',
       words(q8.note) >= rmin ? 'Alasan dua pilihan sudah ditulis (' + words(q8.note) + ' kata).' : 'Alasannya pendek (' + words(q8.note) + ' kata; diminta ' + rmin + '): bahas dampak dan kelayakan tiap pilihan.');
@@ -3185,7 +3185,7 @@
       lines.push('Q1 ' + T(Q1.stem) + ' ' + (A.q1 || ''));
       lines.push('Q2 SMART: ' + Q2.items.map(function (it) { return it.k + (A.q2 && A.q2[it.k] ? '✓' : '·'); }).join(' ') + (A.q2 && A.q2.note ? ' · ' + A.q2.note : ''));
       S2.issues.forEach(function (iq, i) { var x = A[iq.id] || {}; lines.push('Q' + (3 + i) + ' ' + iq.letter + ': ' + T(S2.stem) + ' ' + (x.issue || '')); (x.subs || []).forEach(function (s, k) { lines.push('   ' + iq.letter + (k + 1) + ': ' + s); }); });
-      var m = A.q6 || {}; lines.push('Q6 MECE.' + (L ? 'tumpang tindih' : 'overlaps') + ': ' + (m.overlap || '–') + (m.overlapNote ? ' (' + m.overlapNote + ')' : '') + '; ' + (L ? 'celah' : 'gaps') + ': ' + (m.gap || '–') + (m.gapNote ? ' (' + m.gapNote + ')' : ''));
+      var m = A.q6 || {}; lines.push('Q6 MECE · ' + (L ? 'tumpang tindih' : 'overlaps') + ': ' + (m.overlap || '–') + (m.overlapNote ? ' (' + m.overlapNote + ')' : '') + '; ' + (L ? 'celah' : 'gaps') + ': ' + (m.gap || '–') + (m.gapNote ? ' (' + m.gapNote + ')' : ''));
       var p = (A.q7 || {}).place || {}; lines.push('Q7 ' + subIds().map(function (k) { return k + '→' + (p[k] ? T(S3.matrix.quadrants[p[k]]) : '–'); }).join('; '));
       var hh = subIds().filter(function (k) { return p[k] === 'hh'; }); lines.push('   ' + (L ? 'Pilihan' : 'Picks') + ': ' + hh.join(', '));
       lines.push('Q8 ' + ((A.q8 || {}).mode === 'changed' ? (L ? 'diubah lalu dikonfirmasi' : 'changed, then confirmed') : (A.q8 || {}).confirm ? (L ? 'dikonfirmasi' : 'confirmed') : '–') + ((A.q8 || {}).note ? ' · ' + A.q8.note : ''));
@@ -3210,13 +3210,13 @@
         if (!locked) { var ed = bi('button', 'cs-edit', { en: 'Edit', id: 'Edit' }); ed.type = 'button'; ed.addEventListener('click', function () { go(stepIdx); }); hh.appendChild(ed); }
         r.appendChild(hh); r.appendChild(el('div', 'cs-rv-b', html)); rev.appendChild(r);
       }
-      item('Q1', Q1.title, 0, '<p><b>' + esc(T(Q1.stem)) + '</b> ' + esc(A.q1 || '') + '</p>', done.q1());
+      item('Q1', Q1.title, 0, '<p><b>' + esc(T(Q1.stem)) + '</b> ' + esc(A.q1 || '–') + '</p>', done.q1());
       item('Q2', Q2.title, 0, '<p class="cs-rv-smart">' + Q2.items.map(function (it) { var v = A.q2 && A.q2[it.k]; return '<span class="' + (v === true ? 'yes' : v === false ? 'no' : '') + '">' + it.k + ' ' + esc(T(it.name)) + '</span>'; }).join('') + '</p>' + (A.q2 && A.q2.note ? '<p>' + esc(A.q2.note) + '</p>' : ''), done.q2());
-      S2.issues.forEach(function (iq, i) { var x = A[iq.id] || {}; item('Q' + (3 + i), iq.title, 1, '<p><b>' + esc(T(S2.stem)) + '</b> ' + esc(x.issue || '') + '</p><ul>' + (x.subs || ['', '']).map(function (s, k) { return '<li><b>' + iq.letter + (k + 1) + '</b> ' + esc(s || '') + '</li>'; }).join('') + '</ul>', issueDone(i)); });
-      var m = A.q6 || {}; item('Q6', S2.mece.title, 1, '<p><b>' + esc(T({ en: 'Overlaps', id: 'Tumpang tindih' })) + ':</b> ' + esc(m.overlap === 'yes' ? T(S2.mece.overlap.yes) : m.overlap === 'fixed' ? T(S2.mece.overlap.fixed) : '') + (m.overlapNote ? ' · ' + esc(m.overlapNote) : '') + '</p><p><b>' + esc(T({ en: 'Gaps', id: 'Celah' })) + ':</b> ' + esc(m.gap === 'yes' ? T(S2.mece.gap.yes) : m.gap === 'fixed' ? T(S2.mece.gap.fixed) : '') + (m.gapNote ? ' · ' + esc(m.gapNote) : '') + '</p>', done.q6());
+      S2.issues.forEach(function (iq, i) { var x = A[iq.id] || {}; item('Q' + (3 + i), iq.title, 1, '<p><b>' + esc(T(S2.stem)) + '</b> ' + esc(x.issue || '–') + '</p><ul>' + (x.subs || ['', '']).map(function (s, k) { return '<li><b>' + iq.letter + (k + 1) + '</b> ' + esc(s || '–') + '</li>'; }).join('') + '</ul>', issueDone(i)); });
+      var m = A.q6 || {}; item('Q6', S2.mece.title, 1, '<p><b>' + esc(T({ en: 'Overlaps', id: 'Tumpang tindih' })) + ':</b> ' + esc(m.overlap === 'yes' ? T(S2.mece.overlap.yes) : m.overlap === 'fixed' ? T(S2.mece.overlap.fixed) : '–') + (m.overlapNote ? ' · ' + esc(m.overlapNote) : '') + '</p><p><b>' + esc(T({ en: 'Gaps', id: 'Celah' })) + ':</b> ' + esc(m.gap === 'yes' ? T(S2.mece.gap.yes) : m.gap === 'fixed' ? T(S2.mece.gap.fixed) : '–') + (m.gapNote ? ' · ' + esc(m.gapNote) : '') + '</p>', done.q6());
       var p = (A.q7 || {}).place || {}; var hh = subIds().filter(function (k) { return p[k] === 'hh'; });
-      item('Q7', S3.matrix.title, 2, '<p class="cs-rv-picks">' + (hh.length ? hh.map(function (k) { var iq = S2.issues[['A', 'B', 'C'].indexOf(k[0])]; return '<span><b>' + k + '</b> ' + esc(((A[iq.id] || {}).subs || [])[+k[1] - 1] || '') + '</span>'; }).join('') : '') + '</p><p class="cs-rv-place">' + subIds().map(function (k) { return '<span>' + k + ' → ' + esc(p[k] ? T(S3.matrix.quadrants[p[k]]) : '') + '</span>'; }).join('') + '</p>', done.q7());
-      item('Q8', S3.review.title, 2, '<p>' + esc((A.q8 || {}).mode === 'changed' ? T(S3.review.changed) : (A.q8 || {}).confirm ? T(S3.review.confirm) : '') + '</p><p>' + esc((A.q8 || {}).note || '') + '</p>', done.q8());
+      item('Q7', S3.matrix.title, 2, '<p class="cs-rv-picks">' + (hh.length ? hh.map(function (k) { var iq = S2.issues[['A', 'B', 'C'].indexOf(k[0])]; return '<span><b>' + k + '</b> ' + esc(((A[iq.id] || {}).subs || [])[+k[1] - 1] || '') + '</span>'; }).join('') : '') + '</p><p class="cs-rv-place">' + subIds().map(function (k) { return '<span>' + k + ' → ' + esc(p[k] ? T(S3.matrix.quadrants[p[k]]) : '–') + '</span>'; }).join('') + '</p>', done.q7());
+      item('Q8', S3.review.title, 2, '<p>' + esc((A.q8 || {}).mode === 'changed' ? T(S3.review.changed) : (A.q8 || {}).confirm ? T(S3.review.confirm) : '–') + '</p><p>' + esc((A.q8 || {}).note || '–') + '</p>', done.q8());
       h.appendChild(rev);
       /* framework check */
       var fc = el('div', 'cs-fcheck');
@@ -3532,7 +3532,7 @@
         var hh = el('div', 'cs-rv-h'); hh.appendChild(el('span', 'cs-qtag', qLabel(q))); hh.appendChild(bi('b', null, q.title));
         var st = el('span', 'cs-qstate' + (okv ? ' ok' : '')); st.innerHTML = okv ? CASE_ICO.check + '<span>' + (lang() === 'id' ? 'Lengkap' : 'Complete') + '</span>' : '<span>' + (lang() === 'id' ? 'Belum' : 'Open') + '</span>'; hh.appendChild(st);
         if (!locked) { var ed = bi('button', 'cs-edit', { en: 'Edit', id: 'Edit' }); ed.type = 'button'; ed.addEventListener('click', function () { go(x.step); }); hh.appendChild(ed); }
-        r.appendChild(hh); r.appendChild(el('div', 'cs-rv-b', '<p>' + esc(A[q.id] || '').replace(/\n/g, '<br>') + '</p>')); rev.appendChild(r);
+        r.appendChild(hh); r.appendChild(el('div', 'cs-rv-b', '<p>' + esc(A[q.id] || '–').replace(/\n/g, '<br>') + '</p>')); rev.appendChild(r);
       });
       h.appendChild(rev);
       /* rule-based signals */
@@ -4189,8 +4189,8 @@
     if (hf) hf.style.setProperty('--progress', pct + '%');
     var hl = document.querySelector('.progress-label');
     if (hl && pct > 0) {
-      hl.setAttribute('data-en', pct + '% complete.' + doneCount() + ' of ' + FLAT.length + ' lessons finished');
-      hl.setAttribute('data-id', pct + '% selesai.' + doneCount() + ' dari ' + FLAT.length + ' pelajaran tuntas');
+      hl.setAttribute('data-en', pct + '% complete · ' + doneCount() + ' of ' + FLAT.length + ' lessons finished');
+      hl.setAttribute('data-id', pct + '% selesai · ' + doneCount() + ' dari ' + FLAT.length + ' pelajaran tuntas');
       hl.textContent = hl.getAttribute(lang() === 'id' ? 'data-id' : 'data-en');
     }
   }

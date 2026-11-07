@@ -569,7 +569,7 @@
       var strongest = R.moves.filter(function (m) { return m.best; })[0];
       check(c, !!mine.best, '<b>' + (i + 1) + '.</b> ' + (mine.best
         ? esc(B(mine.t))
-        : esc(B(mine.t)) + '<i>' + T('strongest was:', 'terkuat adalah:') + '</i> ' + esc(B(strongest.t))));
+        : esc(B(mine.t)) + ' · <i>' + T('strongest was:', 'terkuat adalah:') + '</i> ' + esc(B(strongest.t))));
     });
     c.appendChild(el('p', 'rf-sub', T('Module ' + st.mod + ' holds the frameworks behind every strongest move. Reread it, then rerun the drill choosing differently; the wrong paths teach as much as the right one.',
       'Modul ' + st.mod + ' memegang kerangka di balik tiap langkah terkuat. Baca ulang, lalu jalankan lagi dengan pilihan berbeda, jalur yang salah mengajar sebanyak yang benar.')));
@@ -611,7 +611,7 @@
     var strongest = wins.slice().sort(function (a, b) {
       return (/\d/.test(b.text) - /\d/.test(a.text)) || ((b.meta || '').length - (a.meta || '').length);
     }).slice(0, 3);
-    var text = T('PROMOTION CASE.', 'KASUS PROMOSI.') + (P.role || '') + '\n\n' +
+    var text = T('PROMOTION CASE: ', 'KASUS PROMOSI: ') + (P.role || '') + '\n\n' +
       T('SCOPE', 'CAKUPAN') + '\n' + (P.scope || '').trim() + '\n\n' +
       T('IMPACT', 'DAMPAK') + '\n' + (P.impact || '').trim() + '\n\n' +
       T('EVIDENCE FROM THE WIN LOG', 'BUKTI DARI CATATAN KEMENANGAN') + '\n' +
@@ -676,7 +676,7 @@
       var sc = el('div', 'rf-score');
       [[fmtRp(margin), T('monthly margin (income − essentials)', 'margin bulanan (pendapatan − esensial)')],
        [fmtRp(target), T('six-month runway target', 'target landasan enam bulan')],
-       [monthsTo == null ? '' : monthsTo + ' ' + T('months', 'bulan'), T('to target at full margin', 'menuju target dengan margin penuh')]].forEach(function (x) {
+       [monthsTo == null ? '–' : monthsTo + ' ' + T('months', 'bulan'), T('to target at full margin', 'menuju target dengan margin penuh')]].forEach(function (x) {
         var sp = el('span');
         sp.appendChild(el('b', null, x[0]));
         sp.appendChild(el('span', null, x[1]));

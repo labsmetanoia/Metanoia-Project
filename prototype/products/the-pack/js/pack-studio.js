@@ -231,7 +231,7 @@
     total++; got += check(r, hasNumber(L.about),
       T('About carries at least one number, evidence, not adjectives', 'About memuat minimal satu angka, bukti, bukan kata sifat'));
     total++; got += check(r, cliches.length === 0,
-      T('No filler clichés', 'Tanpa klise pengisi') + (cliches.length ? '' + esc(cliches.join(', ')) : ''));
+      T('No filler clichés', 'Tanpa klise pengisi') + (cliches.length ? ': ' + esc(cliches.join(', ')) : ''));
     total++; got += check(r, lines.length >= 3,
       T('At least three experience bullets pasted', 'Minimal tiga butir pengalaman ditempel'));
     total++; got += check(r, lines.length > 0 && verbLines / Math.max(lines.length, 1) >= 0.6,
@@ -299,7 +299,7 @@
     check(lint, bl.length >= 3, T('At least three experience bullets', 'Minimal tiga butir pengalaman'));
     check(lint, bl.length > 0 && verbLines / Math.max(bl.length, 1) >= 0.6, T('Most bullets open with an action verb', 'Sebagian besar butir dibuka kata kerja aksi') + ' (' + verbLines + '/' + bl.length + ')');
     check(lint, bl.length > 0 && numLines / Math.max(bl.length, 1) >= 0.5, T('At least half the bullets carry a number', 'Minimal separuh butir memuat angka') + ' (' + numLines + '/' + bl.length + ')');
-    check(lint, cliches.length === 0, T('No filler clichés', 'Tanpa klise pengisi') + (cliches.length ? '' + esc(cliches.join(', ')) : ''));
+    check(lint, cliches.length === 0, T('No filler clichés', 'Tanpa klise pengisi') + (cliches.length ? ': ' + esc(cliches.join(', ')) : ''));
     check(lint, text.length > 600 && text.length < 6500, T('Total length in the one-page text range', 'Panjang total dalam rentang teks satu halaman'));
     check(lint, (C.skills || '').split(',').filter(function (x) { return x.trim(); }).length >= 5, T('Five or more concrete skills listed', 'Lima keahlian konkret atau lebih terdaftar'));
 
@@ -325,7 +325,7 @@
       T('Four paragraphs, none of them generic', 'Empat paragraf, tak satu pun generik'),
       T('Answer five questions in your own words; the developer assembles them into the four-paragraph structure from Lesson 2.4 and checks the draft against the pasted JD. It arranges your words; it does not invent any.',
         'Jawab lima pertanyaan dengan kata-katamu; pengembang merakitnya ke struktur empat paragraf Pelajaran 2.4 dan memeriksa draf terhadap JD yang ditempel. Ia menata kata-katamu, tidak mengarang apa pun.'));
-    var comp = field(c, T('Company + role', 'Perusahaan + peran'), 'input', L.comp, T('e.g. PT Aruna, Data Analyst', 'mis. PT Aruna: Data Analyst'));
+    var comp = field(c, T('Company + role', 'Perusahaan + peran'), 'input', L.comp, T('e.g. PT Aruna, Data Analyst', 'mis. PT Aruna, Data Analyst'));
     var hook = field(c, T('Why this company: one researched, specific reason', 'Mengapa perusahaan ini: satu alasan spesifik hasil riset'), 'textarea', L.hook, '');
     var ev1 = field(c, T('Evidence 1: a result you achieved that this role needs (with a number)', 'Bukti 1: hasil yang kamu capai yang dibutuhkan peran ini (dengan angka)'), 'textarea', L.ev1, '');
     var ev2 = field(c, T('Evidence 2: a second, different proof', 'Bukti 2: bukti kedua yang berbeda'), 'textarea', L.ev2, '');
@@ -341,7 +341,7 @@
     c.appendChild(row);
 
     if (!L.done || !(L.hook || L.ev1)) return;
-    var para1 = T('Dear Hiring Team at ', 'Kepada Tim Rekrutmen ') + (L.comp.split('')[0] || '').trim() + ',\n\n' + (L.hook || '').trim();
+    var para1 = T('Dear Hiring Team at ', 'Kepada Tim Rekrutmen ') + (L.comp.split(/[,:–—]/)[0] || '').trim() + ',\n\n' + (L.hook || '').trim();
     var para2 = (L.ev1 || '').trim();
     var para3 = (L.ev2 || '').trim();
     var para4 = (L.close || '').trim();
@@ -362,7 +362,7 @@
     check(lint, wc >= 120 && wc <= 350, T('Length 120–350 words: one screen, no scrolling', 'Panjang 120–350 kata: satu layar, tanpa gulir') + ' (' + wc + ')');
     check(lint, hasNumber(L.ev1) || hasNumber(L.ev2), T('At least one evidence paragraph carries a number', 'Minimal satu paragraf bukti memuat angka'));
     var cliches = clicheHits(draft);
-    check(lint, cliches.length === 0, T('No filler clichés', 'Tanpa klise pengisi') + (cliches.length ? '' + esc(cliches.join(', ')) : ''));
+    check(lint, cliches.length === 0, T('No filler clichés', 'Tanpa klise pengisi') + (cliches.length ? ': ' + esc(cliches.join(', ')) : ''));
     check(lint, (L.hook || '').length > 40, T('The “why them” is specific enough to be non-transferable to another company', '“Mengapa mereka” cukup spesifik hingga tak bisa dipindah ke perusahaan lain'));
     if ((L.jd || '').trim()) {
       var terms = keyTerms(L.jd, 12);
@@ -488,7 +488,7 @@
       if (at.length) {
         var c2 = card(w, T('Previous rounds', 'Ronde sebelumnya'), null, null);
         at.forEach(function (a) {
-          c2.appendChild(el('p', 'ps-sub', new Date(a.date).toLocaleDateString() + '' + a.hit + '/' + FGD.best.length + ' ' + T('assessor functions demonstrated', 'fungsi asesor ditunjukkan')));
+          c2.appendChild(el('p', 'ps-sub', new Date(a.date).toLocaleDateString() + ' · ' + a.hit + '/' + FGD.best.length + ' ' + T('assessor functions demonstrated', 'fungsi asesor ditunjukkan')));
         });
       }
       return;

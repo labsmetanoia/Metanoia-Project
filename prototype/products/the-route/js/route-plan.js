@@ -135,7 +135,7 @@
       var weak = dims.slice().sort(function (a, b) { return a.v - b.v; })[0];
       var mn = MOD_NAME[weak.mod];
       r.appendChild(SH.note('<b>' + esc(T('Weakest dimension: ', 'Dimensi terlemah: ')) + esc(T(weak.label.en, weak.label.id)) + '.</b> ' +
-        esc(T('Module ' + weak.mod + '' + mn.en + 'trains it directly; build your next 90-day plan around it.', 'Modul ' + weak.mod + '' + mn.id + 'melatihnya langsung; susun rencana 90 harimu di sekitarnya.')), 'target'));
+        esc(T('Module ' + weak.mod + ' (' + mn.en + ') trains it directly; build your next 90-day plan around it.', 'Modul ' + weak.mod + ' (' + mn.id + ') melatihnya secara langsung; susun rencana 90 harimu di sekitarnya.')), 'target'));
       var row = el('div', 'ts-row');
       row.appendChild(SH.btn({ en: 'Save this reading', id: 'Simpan pembacaan ini' }, { icon: 'check', onClick: function () {
         var s2 = store(); s2.diag.history = s2.diag.history || [];
@@ -190,7 +190,7 @@
       title: { en: ['One goal,', 'three deliberate phases'], id: ['Satu tujuan,', 'tiga fase yang disengaja'] },
       sub: { en: 'From Lesson 1.3: milestones need artefacts, dates and witnesses. Everything autosaves to this browser as you type.', id: 'Dari Pelajaran 1.3: tonggak butuh artefak, tanggal, dan saksi. Semua tersimpan otomatis di peramban ini saat kamu mengetik.' },
       chip: days == null ? { en: 'The clock starts the moment you write the goal.', id: 'Jam mulai berjalan saat kamu menulis tujuannya.' }
-        : (phaseNow > 2 ? T('Day ' + days + 'review time. Close the plan and start the next one.', 'Hari ' + days + 'waktunya tinjauan. Tutup rencana ini dan mulai yang berikutnya.')
+        : (phaseNow > 2 ? T('Day ' + days + ': review time. Close the plan and start the next one.', 'Hari ' + days + ': waktunya tinjauan. Tutup rencana ini dan mulai yang berikutnya.')
           : T('Day ' + days + ' of 90 · ' + PHASES[phaseNow].en.split('·')[1].trim(), 'Hari ' + days + ' dari 90 · ' + PHASES[phaseNow].id.split('·')[1].trim())),
       chipIcon: 'calendar',
       tagline: [{ en: 'Milestones with artefacts,', id: 'Tonggak dengan artefak,' }, { en: 'dates and witnesses.', id: 'tanggal, dan saksi.' }],
