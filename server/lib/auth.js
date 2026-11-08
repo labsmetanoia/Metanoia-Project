@@ -49,6 +49,14 @@ export async function destroySession(request, env) {
 }
 
 /* Admin routes: `Authorization: Bearer <ADMIN_TOKEN>`; constant-time compare. */
+/* Who is acting as admin: the ADMIN_TOKEN bearer ("token") or a signed-in
+   account with the admin role (its e-mail). Null when neither. */
+export async function adminActor(request, env) {
+  if (isAdmin(request, env)) return 'token';
+  const u = await getUser(request, env);
+  return u && u.role === 'admin' ? u.email : null;
+}
+
 export function isAdmin(request, env) {
   if (!env.ADMIN_TOKEN) return false;
   const h = request.headers.get('authorization') || '';

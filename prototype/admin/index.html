@@ -41,12 +41,13 @@
 <body>
 <header>
   <h1><span>Metanoia Labs</span> · lead review (internal)</h1>
-  <div><button class="ghost" id="refresh" hidden>Refresh</button> <button class="ghost" id="signout" hidden>Forget token</button></div>
+  <div><span class="muted" id="who" style="font-size:13px"></span> <button class="ghost" id="refresh" hidden>Refresh</button> <button class="ghost" id="signout" hidden>Forget token</button></div>
 </header>
 <main>
-  <section class="gate" id="gate">
-    <p style="margin:0 0 10px"><b>Admin token</b></p>
-    <p class="muted" style="margin:0 0 12px;font-size:13px">The value of the <code>ADMIN_TOKEN</code> secret on the Cloudflare Pages project. It is kept in this tab's session storage only and sent as a bearer header to <code>/api/admin/*</code>.</p>
+  <section class="gate" id="gate" hidden>
+    <p style="margin:0 0 10px"><b>Admin access</b></p>
+    <p class="muted" style="margin:0 0 12px;font-size:13px">Sign in with an account that has the admin role and this page opens by itself. <a id="signin" href="../login?redirect=%2Fadmin%2F" style="color:var(--gold2)">Sign in</a></p>
+    <p class="muted" style="margin:0 0 12px;font-size:13px">Or paste the value of the <code>ADMIN_TOKEN</code> secret on the Cloudflare Pages project. It is kept in this tab's session storage only and sent as a bearer header to <code>/api/admin/*</code>.</p>
     <input type="password" id="token" placeholder="Paste the admin token" autocomplete="off">
     <div class="err" id="gateErr"></div>
     <button id="enter" style="margin-top:8px">Open review</button>
@@ -70,10 +71,13 @@
   'use strict';
   var KEY = 'mt-admin-token';
   var $ = function (id) { return document.getElementById(id); };
-  var token = '';
+  var token = '', viaSession = false;
   try { token = sessionStorage.getItem(KEY) || ''; } catch (e) {}
+  /* Two ways in: a signed-in account with the admin role (the session cookie
+     travels with every request) or the ADMIN_TOKEN as a bearer header. */
   function api(method, path, body) {
-    var init = { method: method, headers: { accept: 'application/json', authorization: 'Bearer ' + token }, credentials: 'same-origin' };
+    var init = { method: method, headers: { accept: 'application/json' }, credentials: 'same-origin' };
+    if (token) init.headers.authorization = 'Bearer ' + token;
     if (body) { init.headers['content-type'] = 'application/json'; init.body = JSON.stringify(body); }
     return fetch('/api/admin' + path, init).then(function (r) {
       var ct = r.headers.get('content-type') || '';
@@ -124,17 +128,25 @@
       var d = r.data, by = {};
       (d.leads || []).forEach(function (x) { by[x.kind] = (by[x.kind] || 0) + x.n; });
       var newCount = (d.leads || []).filter(function (x) { return x.status === 'new'; }).reduce(function (a, x) { return a + x.n; }, 0);
-      $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0]]
+      $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Waitlist', by.waitlist || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0]]
         .map(function (p) { return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>'; }).join('');
     });
   }
-  function enter() {
+  function opened(r) {
+    viaSession = !token;
+    if (token) { try { sessionStorage.setItem(KEY, token); } catch (e) {} }
+    $('gate').hidden = true; $('app').hidden = false; $('refresh').hidden = false; $('signout').hidden = false;
+    $('signout').textContent = viaSession ? 'Sign out' : 'Forget token';
+    var actor = r.data && r.data.actor;
+    $('who').textContent = actor && actor !== 'token' ? ('Signed in as ' + actor) : (viaSession ? 'Signed in with an admin account' : 'Using the admin token');
+    load();
+  }
+  function enter(quiet) {
     $('gateErr').textContent = '';
-    api('GET', '/stats').then(function (r) {
-      if (!r.ok) { $('gateErr').textContent = r.offline ? 'The API is not reachable on this host (the site must run on Cloudflare Pages with ADMIN_TOKEN set).' : (r.status === 401 ? 'Token not accepted.' : (r.data && r.data.error) || ('HTTP ' + r.status)); return; }
-      try { sessionStorage.setItem(KEY, token); } catch (e) {}
-      $('gate').hidden = true; $('app').hidden = false; $('refresh').hidden = false; $('signout').hidden = false;
-      load();
+    return api('GET', '/stats').then(function (r) {
+      if (r.ok) { opened(r); return true; }
+      if (!quiet) $('gateErr').textContent = r.offline ? 'The API is not reachable on this host (the site must run on Cloudflare Pages).' : (r.status === 401 ? (token ? 'Token not accepted.' : 'This account does not have the admin role.') : (r.data && r.data.error) || ('HTTP ' + r.status));
+      return false;
     });
   }
   $('enter').addEventListener('click', function () { token = $('token').value.trim(); if (token) enter(); });
@@ -142,8 +154,17 @@
   $('apply').addEventListener('click', load);
   $('q').addEventListener('keydown', function (e) { if (e.key === 'Enter') load(); });
   $('refresh').addEventListener('click', load);
-  $('signout').addEventListener('click', function () { try { sessionStorage.removeItem(KEY); } catch (e) {} location.reload(); });
-  if (token) enter();
+  $('signout').addEventListener('click', function () {
+    try { sessionStorage.removeItem(KEY); } catch (e) {}
+    if (viaSession) { fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin', headers: { accept: 'application/json', 'content-type': 'application/json' }, body: '{}' }).then(function () { location.href = '../login'; }, function () { location.reload(); }); return; }
+    location.reload();
+  });
+  /* first try the session (admin account), then a remembered token, then show the gate */
+  enter(true).then(function (ok) {
+    if (ok) return;
+    if (token) { token = ''; try { sessionStorage.removeItem(KEY); } catch (e) {} }
+    $('gate').hidden = false;
+  });
 })();
 </script>
 </body>

@@ -14,7 +14,7 @@ The static site (`prototype/`) now ships with a small server layer under `functi
 | `functions/api/events.js` | first-party product events (pseudonymous) |
 | `functions/api/progress/[[route]].js` | per-user progress namespaces |
 | `functions/api/account/[[route]].js` | export, delete, update (data-subject rights) |
-| `functions/api/admin/[[route]].js` | lead review and aggregates, bearer `ADMIN_TOKEN` |
+| `functions/api/admin/[[route]].js` | lead review and aggregates; a signed-in account with the `admin` role (same-origin for writes) or bearer `ADMIN_TOKEN` |
 | `server/lib/*.js` | shared helpers: WebCrypto PBKDF2, sessions, rate limits, Resend mail |
 | `migrations/0001_init.sql` | D1 schema |
 | `workers/aggregate/` | nightly k-anonymous aggregation + retention (separate Worker, cron) |
@@ -33,7 +33,7 @@ The static site (`prototype/`) now ships with a small server layer under `functi
    |---|---|---|
    | `SESSION_SECRET` | yes | salts the IP hash on sessions; 32+ random bytes |
    | `SUBJECT_KEY` | yes for events | HMAC key that pseudonymises event subjects; rotate quarterly |
-   | `ADMIN_TOKEN` | yes for review | bearer token for `/api/admin/*` and `/admin/` |
+   | `ADMIN_TOKEN` | optional | bearer token for `/api/admin/*` and `/admin/`, the fallback when no admin account is signed in (accounts from `ADMIN_EMAILS` open the page by themselves) |
    | `RESEND_API_KEY` | optional | verification, reset, confirmations, lead notifications. Resend shows a key once, at creation: paste it into the Pages secret and the password manager in the same sitting, or create a new one (sending access, domain `metanoialabs.net`) |
    | `TURNSTILE_SECRET_KEY` | optional | secret half of the Turnstile widget "metanoia-forms" (invisible mode); the public site key is in `prototype/data/security.js`. With the secret set, every lead submission and registration must carry a valid token (`js/mt-turnstile.js` obtains one at submit time); without it the check is skipped |
    | `ADMIN_EMAILS` | optional | comma-separated addresses that may register while `AUTH_ENABLED` is `false` ("invite" mode); they get the `admin` role, and an existing account on the list is promoted at its next sign-in. The public pages keep the guest preview |
