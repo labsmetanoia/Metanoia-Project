@@ -4,9 +4,12 @@
  *   GET  /api/account/export            → everything held about the signed-in member (JSON)
  *   POST /api/account/delete { password } → removes the account, sessions, progress and leads with that e-mail
  *   POST /api/account/update { name?, audience?, locale?, marketing? }
+ *   POST /api/account/password { current, password } → new hash, every other session signed out, this one renewed
  */
-import { json, fail, readJson, sameOrigin, clip, localeOf, AUDIENCES, verifyPassword, nowIso, hmacHex } from '../../../server/lib/http.js';
-import { getUser, destroySession, publicUser } from '../../../server/lib/auth.js';
+import { json, fail, readJson, sameOrigin, clip, localeOf, AUDIENCES, verifyPassword, hashPassword, rateLimit, clientIp, nowIso, hmacHex } from '../../../server/lib/http.js';
+import { getUser, createSession, destroySession, publicUser } from '../../../server/lib/auth.js';
+
+const PW_MIN = 8, PW_MAX = 200;
 
 export async function onRequestGet({ request, env, params }) {
   if (!env.DB) return fail(503, 'accounts not configured');
@@ -51,6 +54,22 @@ export async function onRequestPost({ request, env, params }) {
     /* events are pseudonymous; the subject key makes them unlinkable once the user row is gone */
     const clear = await destroySession(request, env);
     return json({ ok: true, deleted: true }, 200, { 'set-cookie': clear });
+  }
+
+  if (route === 'password') {
+    if (!(await rateLimit(env, 'pw:' + user.id + ':' + clientIp(request), 10, 900))) return fail(429, 'too many attempts');
+    const current = String(body.current || ''), password = String(body.password || '');
+    if (!(await verifyPassword(current, user.pw_hash))) return fail(401, 'wrong password', { field: 'current' });
+    if (password.length < PW_MIN || password.length > PW_MAX) return fail(400, `password must be ${PW_MIN}-${PW_MAX} characters`, { field: 'password' });
+    if (password === current) return fail(400, 'choose a different password', { field: 'password' });
+    await env.DB.batch([
+      env.DB.prepare('UPDATE users SET pw_hash = ?, updated_at = ? WHERE id = ?').bind(await hashPassword(password), nowIso(), user.id),
+      env.DB.prepare('DELETE FROM sessions WHERE user_id = ?').bind(user.id),
+      env.DB.prepare("DELETE FROM tokens WHERE user_id = ? AND kind = 'reset'").bind(user.id)
+    ]);
+    /* every other browser is signed out; this one gets a fresh session so the change is seamless */
+    const setCookie = await createSession(request, env, user.id);
+    return json({ ok: true, changed: true }, 200, { 'set-cookie': setCookie });
   }
 
   if (route === 'update') {
