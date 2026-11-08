@@ -230,12 +230,15 @@
     return d;
   }
 
+  /* media served from another host (R2 on media.metanoialabs.net): caption tracks and
+     fetched VTT need CORS, and the video element must opt in before src is set */
+  function xo(v, src) { try { if (/^https?:/i.test(String(src)) && new URL(src, location.href).host !== location.host) v.crossOrigin = 'anonymous'; } catch (e) {} }
   function renderVideo(l, host) {
     var wrap = el('div', 'lms-video');
     var v = document.createElement('video');
     v.controls = true; v.preload = 'none'; v.playsInline = true;
     v.poster = REG.media.poster;
-    v.src = REG.media.video;
+    xo(v, REG.media.video); v.src = REG.media.video;
     ['en', 'id'].forEach(function (lg) {
       var t = document.createElement('track');
       t.kind = 'subtitles'; t.srclang = lg;
@@ -501,7 +504,7 @@
       idx = Math.max(0, Math.min(list.length - 1, k));
       var it = list[idx];
       v.pause();
-      v.poster = it.poster || ''; v.src = it.src; v.load();
+      v.poster = it.poster || ''; xo(v, it.src); v.src = it.src; v.load();
       lastCue = null; fill.style.width = '0%'; knob.style.left = '0%'; buf.style.width = '0%';
       tl.innerHTML = '<i>' + (idx + 1) + '/' + list.length + '</i> ' + (it.title[lang()] || it.title.en);
       tl.setAttribute('data-en', '<i>' + (idx + 1) + '/' + list.length + '</i> ' + it.title.en);
