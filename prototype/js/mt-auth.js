@@ -48,8 +48,9 @@
   }
 
   function refresh() {
-    return A.available().then(function (ok) {
-      if (!ok) { user = null; return null; }
+    /* accounts closed (AUTH_ENABLED false): /auth/* answers 404, so do not ask */
+    return A.accounts().then(function (open) {
+      if (!open) { user = null; return null; }
       return A.get('/auth/me').then(function (r) { user = r.ok && r.data && r.data.user ? r.data.user : null; mirror(user); return user; });
     });
   }
@@ -64,6 +65,8 @@
     get user() { return user; },
     get isGuest() { return guest && !user; },
     available: function () { return A.available(); },
+    /* true only when the API is up and accounts are open; the login and register pages gate on this */
+    accountsOpen: function () { return A.accounts(); },
     register: function (data) {
       return A.post('/auth/register', data).then(function (r) { if (r.ok) { user = r.data.user; guest = false; mirror(user); } return r; });
     },

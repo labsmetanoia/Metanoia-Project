@@ -8,7 +8,7 @@ The static site (`prototype/`) now ships with a small server layer under `functi
 
 | Path | Purpose |
 |---|---|
-| `functions/api/health.js` | `GET /api/health` — the probe every page uses |
+| `functions/api/health.js` | `GET /api/health` — the probe every page uses; `accounts` mirrors `AUTH_ENABLED`, and while it is false the login and register pages show "accounts are not open" with the guest preview (every product opens, progress stays in the browser) |
 | `functions/api/auth/[[route]].js` | register, login, logout, me, request-reset, reset, verify, resend-verify |
 | `functions/api/leads/[[route]].js` | mentor applications, enterprise inquiries, newsletter (double opt-in) |
 | `functions/api/events.js` | first-party product events (pseudonymous) |
