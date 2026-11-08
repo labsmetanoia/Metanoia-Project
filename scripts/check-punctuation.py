@@ -46,6 +46,7 @@ def files():
             if n.endswith(('.html', '.js', '.json')):
                 yield p
     yield os.path.join(ROOT, 'scripts', 'lib', 'shell.py')
+    yield os.path.join(ROOT, 'server', 'lib', 'mail.js')     # e-mail templates are user-facing copy too
 
 
 def offenders(path):
