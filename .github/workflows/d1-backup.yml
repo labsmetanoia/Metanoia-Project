@@ -2,11 +2,19 @@ name: Nightly D1 backup
 
 # D1's free plan keeps no backups, so a bad migration or a mistaken DELETE is
 # otherwise unrecoverable. Every night this exports the production database
-# "metanoia" as SQL and keeps it as a workflow artifact for 90 days (free; the
-# repository is public, so Actions minutes are unlimited). Restore: download
-# the artifact, then `npx wrangler d1 execute metanoia --remote --file backup.sql`
-# into an empty database, or pick the statements you need.
-# Needs CLOUDFLARE_API_TOKEN (D1 Edit) and CLOUDFLARE_ACCOUNT_ID.
+# "metanoia" as SQL, encrypts it, and keeps it as a workflow artifact for 90
+# days (free; the repository is public, so Actions minutes are unlimited).
+#
+# The export holds personal data (users, leads), and artifacts of a public
+# repository can be downloaded by any signed-in GitHub user, so the file is
+# encrypted with AES-256 under the BACKUP_PASSPHRASE repository secret before
+# it leaves the runner. The job refuses to run without that secret.
+#
+# Restore: download the artifact, then
+#   openssl enc -d -aes-256-cbc -pbkdf2 -iter 600000 -in metanoia-YYYYMMDD.sql.enc -out backup.sql
+#   (enter the passphrase from the password manager)
+#   npx wrangler d1 execute metanoia --remote --file backup.sql   (into an empty database, or pick statements)
+# Needs CLOUDFLARE_API_TOKEN (D1 Edit), CLOUDFLARE_ACCOUNT_ID and BACKUP_PASSPHRASE.
 
 on:
   schedule:
@@ -24,21 +32,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Export the database
+      - name: Export and encrypt the database
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          BACKUP_PASSPHRASE: ${{ secrets.BACKUP_PASSPHRASE }}
         run: |
           test -n "${CLOUDFLARE_API_TOKEN}" || { echo "::error::CLOUDFLARE_API_TOKEN secret is not set"; exit 1; }
+          test "${#BACKUP_PASSPHRASE}" -ge 24 || { echo "::error::BACKUP_PASSPHRASE secret is missing or shorter than 24 characters; the export holds personal data and is never uploaded in clear"; exit 1; }
           export CLOUDFLARE_ACCOUNT_ID="$(printf '%s' "${CLOUDFLARE_ACCOUNT_ID}" | grep -oE '[0-9a-f]{32}' | head -1)"
-          mkdir -p backup
-          npx --yes wrangler@4 d1 export metanoia --remote --output "backup/metanoia-$(date -u +%Y%m%d).sql"
-          ls -la backup
-          test -s backup/*.sql || { echo "::error::export produced an empty file"; exit 1; }
-          grep -c "INSERT INTO" backup/*.sql || true
+          mkdir -p work out
+          stamp="$(date -u +%Y%m%d)"
+          npx --yes wrangler@4 d1 export metanoia --remote --output "work/metanoia-${stamp}.sql"
+          test -s "work/metanoia-${stamp}.sql" || { echo "::error::export produced an empty file"; exit 1; }
+          echo "statements: $(grep -c ';$' "work/metanoia-${stamp}.sql"), inserts: $(grep -c 'INSERT INTO' "work/metanoia-${stamp}.sql" || true)"
+          openssl enc -aes-256-cbc -pbkdf2 -iter 600000 -salt -pass env:BACKUP_PASSPHRASE -in "work/metanoia-${stamp}.sql" -out "out/metanoia-${stamp}.sql.enc"
+          shred -u "work/metanoia-${stamp}.sql" 2>/dev/null || rm -f "work/metanoia-${stamp}.sql"
+          ls -la out
       - uses: actions/upload-artifact@v4
         with:
           name: d1-metanoia-${{ github.run_id }}
-          path: backup/
+          path: out/
           retention-days: 90
           if-no-files-found: error
