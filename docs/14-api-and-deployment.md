@@ -34,7 +34,7 @@ The static site (`prototype/`) now ships with a small server layer under `functi
    | `SESSION_SECRET` | yes | salts the IP hash on sessions; 32+ random bytes |
    | `SUBJECT_KEY` | yes for events | HMAC key that pseudonymises event subjects; rotate quarterly |
    | `ADMIN_TOKEN` | yes for review | bearer token for `/api/admin/*` and `/admin/` |
-   | `RESEND_API_KEY` | optional | verification, reset, confirmations, lead notifications |
+   | `RESEND_API_KEY` | optional | verification, reset, confirmations, lead notifications. Resend shows a key once, at creation: paste it into the Pages secret and the password manager in the same sitting, or create a new one (sending access, domain `metanoialabs.net`) |
    | `ADMIN_EMAILS` | optional | comma-separated addresses that may register while `AUTH_ENABLED` is `false` ("invite" mode); they get the `admin` role, and an existing account on the list is promoted at its next sign-in. The public pages keep the guest preview |
 
    Plain variables (already in `wrangler.toml` `[vars]`): `SITE_URL`, `MAIL_FROM`, `LEADS_NOTIFY_TO`, `AUTH_ENABLED`, `MEDIA_BASE`.
