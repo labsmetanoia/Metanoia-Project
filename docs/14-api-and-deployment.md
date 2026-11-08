@@ -35,8 +35,11 @@ The static site (`prototype/`) now ships with a small server layer under `functi
    | `SUBJECT_KEY` | yes for events | HMAC key that pseudonymises event subjects; rotate quarterly |
    | `ADMIN_TOKEN` | yes for review | bearer token for `/api/admin/*` and `/admin/` |
    | `RESEND_API_KEY` | optional | verification, reset, confirmations, lead notifications |
+   | `ADMIN_EMAILS` | optional | comma-separated addresses that may register while `AUTH_ENABLED` is `false` ("invite" mode); they get the `admin` role, and an existing account on the list is promoted at its next sign-in. The public pages keep the guest preview |
 
-   Plain variables (already in `wrangler.toml` `[vars]`): `SITE_URL`, `MAIL_FROM`, `LEADS_NOTIFY_TO`.
+   Plain variables (already in `wrangler.toml` `[vars]`): `SITE_URL`, `MAIL_FROM`, `LEADS_NOTIFY_TO`, `AUTH_ENABLED`, `MEDIA_BASE`.
+   Accounts switch (`server/lib/http.js` `accountsMode`): `AUTH_ENABLED=true` → open to everyone; else `ADMIN_EMAILS` set → invite; else closed (`/api/auth/*` answers 404). `/api/health` reports it as `accounts: true | "invite" | false` and the login and register pages word themselves accordingly.
+   Passwords: PBKDF2-SHA-256 at 100,000 iterations, the Workers ceiling (deriveBits throws above it); stored hashes carry their own count.
 4. **E-mail**: verify `metanoialabs.net` in Resend (SPF, DKIM, DMARC). Until the key exists the API works and reports `confirmation_email: false`; the pages word their confirmations accordingly.
 5. **Aggregation Worker**: `cd workers/aggregate && npx wrangler deploy` with the same `database_id`; it runs daily at 02:15 UTC.
 6. **Analytics**: put the GA4 Measurement ID in `prototype/data/analytics.js`. Placeholders are refused by the loader.

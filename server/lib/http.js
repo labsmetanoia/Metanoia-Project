@@ -80,7 +80,10 @@ export async function sha256(text) {
 }
 export const newId = () => crypto.randomUUID().replace(/-/g, '');
 
-const PBKDF2_ITER = 210000;
+/* Cloudflare Workers cap WebCrypto PBKDF2 at 100,000 iterations (deriveBits
+   throws above it), so this is the ceiling, not a choice. Stored hashes carry
+   their own count, so verifyPassword keeps working if it is raised later. */
+const PBKDF2_ITER = 100000;
 export async function hashPassword(password, iterations = PBKDF2_ITER) {
   const salt = new Uint8Array(16); crypto.getRandomValues(salt);
   const key = await crypto.subtle.importKey('raw', enc.encode(password), 'PBKDF2', false, ['deriveBits']);
@@ -127,3 +130,22 @@ export const configured = env => ({
   admin: !!env.ADMIN_TOKEN,
   subject: !!env.SUBJECT_KEY
 });
+
+/* ── accounts switch ──
+   'open'   AUTH_ENABLED=true (wrangler.toml): anyone can register and sign in.
+   'invite' AUTH_ENABLED is not true but the ADMIN_EMAILS secret (dashboard,
+            comma-separated) is set: only those addresses can register, they get
+            the admin role, and existing users can still sign in. The public
+            pages keep showing the guest preview.
+   'closed' neither: /api/auth/* answers 404 and the site shows the waitlist. */
+export function adminEmails(env) {
+  return String(env.ADMIN_EMAILS || '').split(/[,\s;]+/).map(normEmail).filter(isEmail);
+}
+export function isAdminEmail(env, email) {
+  return adminEmails(env).includes(normEmail(email));
+}
+export function accountsMode(env) {
+  if (env.AUTH_ENABLED === 'true') return 'open';
+  if (adminEmails(env).length) return 'invite';
+  return 'closed';
+}

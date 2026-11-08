@@ -7,9 +7,10 @@
  * state instead of pretending. The probe result is cached for ten minutes in
  * sessionStorage so the question is asked once per visit, not once per page.
  *
- * `MT_API.accounts()` is narrower: true only when the API is up AND the server
- * reports accounts open (health.accounts, the AUTH_ENABLED switch). Leads and
- * events need only available(); sign-in and registration need accounts().
+ * `MT_API.accounts()` is narrower: true when the API is up AND the server
+ * reports accounts open to everyone, 'invite' when only invited addresses may
+ * register (sign-in works), false otherwise. Leads and events need only
+ * available(); sign-in and registration need accounts().
  */
 (function () {
   'use strict';
@@ -52,6 +53,12 @@
     return probe;
   }
 
+  function accountsOf(h) {
+    if (!h || !h.ok || !h.info) return false;
+    var a = h.info.accounts;
+    return a === true ? true : a === 'invite' ? 'invite' : false;
+  }
+
   /* JSON request helper: resolves { status, ok, data }. Never throws on HTTP errors. */
   function request(method, path, body, opts) {
     opts = opts || {};
@@ -71,8 +78,9 @@
     health: health,
     available: function () { return health().then(function (h) { return h.ok; }); },
     availableSync: function () { var c = cached(); return c ? !!c.ok : null; },
-    accounts: function () { return health().then(function (h) { return !!(h.ok && h.info && h.info.accounts === true); }); },
-    accountsSync: function () { var c = cached(); return c ? !!(c.ok && c.info && c.info.accounts === true) : null; },
+    /* resolves true (open to everyone), 'invite' (only invited addresses may register; sign-in works) or false */
+    accounts: function () { return health().then(function (h) { return accountsOf(h); }); },
+    accountsSync: function () { var c = cached(); return c ? accountsOf(c) : null; },
     get: function (p, o) { return request('GET', p, undefined, o); },
     post: function (p, b, o) { return request('POST', p, b, o); },
     put: function (p, b, o) { return request('PUT', p, b, o); },

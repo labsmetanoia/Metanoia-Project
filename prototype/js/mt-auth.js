@@ -65,7 +65,7 @@
     get user() { return user; },
     get isGuest() { return guest && !user; },
     available: function () { return A.available(); },
-    /* true only when the API is up and accounts are open; the login and register pages gate on this */
+    /* true (open), 'invite' (invited addresses only) or false; the login and register pages gate on this */
     accountsOpen: function () { return A.accounts(); },
     register: function (data) {
       return A.post('/auth/register', data).then(function (r) { if (r.ok) { user = r.data.user; guest = false; mirror(user); } return r; });

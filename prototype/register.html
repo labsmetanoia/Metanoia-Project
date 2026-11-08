@@ -375,6 +375,7 @@ const I18N = {
        noTerms:'Please accept the Terms to continue.', exists:'An account with that email already exists. Try signing in.',
        tooMany:'Too many attempts from this connection. Please try again in a few minutes.',
        offline:'Accounts are not open on this site yet, so nothing was created. Preview as a guest below.',
+       invite:'Accounts are open by invitation only for now, and this address is not on the list. Preview as a guest below.',
        failed:'Something went wrong on our side and the account was not created. Please try again.',
        creating:'Creating your account…' },
   id:{ noName:'Silakan masukkan nama depanmu.', badEmail:'Silakan masukkan alamat email yang valid.',
@@ -382,6 +383,7 @@ const I18N = {
        noTerms:'Silakan setujui Ketentuan untuk melanjutkan.', exists:'Akun dengan email itu sudah ada. Coba masuk.',
        tooMany:'Terlalu banyak percobaan dari koneksi ini. Coba lagi beberapa menit lagi.',
        offline:'Akun belum dibuka di situs ini, jadi tidak ada yang dibuat. Coba sebagai tamu di bawah.',
+       invite:'Akun untuk sementara hanya dibuka lewat undangan, dan alamat ini belum ada di daftar. Coba sebagai tamu di bawah.',
        failed:'Ada masalah di pihak kami dan akun tidak dibuat. Silakan coba lagi.',
        creating:'Membuat akunmu…' }
 };
@@ -443,10 +445,17 @@ const setB=(sel,en,id)=>{ const el=document.querySelector(sel); if(el){ el.datas
 
 /* already signed in → straight through */
 MT_AUTH.ready.then(u => { if(u) location.replace(redirectTo || 'portal'); });
-/* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the guest preview */
-MT_AUTH.accountsOpen().then(ok => {
-  apiOk = ok;
-  if(!ok){ apiNote.hidden = false; form.dataset.api = 'off'; }
+/* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the guest preview.
+   'invite': only invited addresses may register; the form stays usable, the note offers the guest preview to everyone else */
+MT_AUTH.accountsOpen().then(mode => {
+  apiOk = !!mode;
+  if(!mode){ apiNote.hidden = false; form.dataset.api = 'off'; return; }
+  if(mode === 'invite'){
+    setB('#apiNote b', 'Accounts are open by invitation only for now.', 'Akun untuk sementara hanya dibuka lewat undangan.');
+    setB('#apiNote span', 'Invited reviewers register above. Everyone else can preview every product as a guest; progress stays in this browser only.',
+      'Peninjau yang diundang mendaftar lewat formulir di atas. Yang lain bisa mencoba semua produk sebagai tamu, progres hanya tersimpan di peramban ini.');
+    apiNote.hidden = false; applyLang();
+  }
 });
 document.getElementById('guestBtn').addEventListener('click', () => {
   MT_AUTH.guest((F('firstName').value || '').trim() || undefined);
@@ -475,6 +484,7 @@ form.addEventListener('submit', async e => {
   if(r.ok){ goSuccess(true, false); return; }
   if(r.offline){ apiOk = false; apiNote.hidden = false; form.dataset.api = 'off'; return fail(TT('offline'),[]); }
   if(r.status===409) return fail(TT('exists'),['email']);
+  if(r.status===403 && r.data && r.data.field==='email') return fail(TT('invite'),['email']);
   if(r.status===429) return fail(TT('tooMany'),[]);
   const field = r.data && r.data.field;
   const map = { name:'firstName', email:'email', password:'password' };

@@ -12,7 +12,7 @@
  *   POST /api/auth/resend-verify
  */
 import { json, fail, readJson, sameOrigin, rateLimit, clientIp, isEmail, normEmail, clip, localeOf, AUDIENCES,
-  hashPassword, verifyPassword, randomToken, sha256, newId, nowIso, configured } from '../../../server/lib/http.js';
+  hashPassword, verifyPassword, randomToken, sha256, newId, nowIso, configured, accountsMode, isAdminEmail } from '../../../server/lib/http.js';
 import { getUser, createSession, destroySession, publicUser } from '../../../server/lib/auth.js';
 import { mailVerify, mailReset } from '../../../server/lib/mail.js';
 
@@ -44,7 +44,7 @@ async function consumeToken(env, kind, raw) {
 }
 
 export async function onRequestGet({ request, env, params }) {
-  if (env.AUTH_ENABLED !== 'true') return fail(404, 'accounts not open');   /* Tier 0: waitlist only; set AUTH_ENABLED=true to open registration and login */
+  if (accountsMode(env) === 'closed') return fail(404, 'accounts not open');   /* Tier 0: waitlist only; AUTH_ENABLED=true or ADMIN_EMAILS opens this (http.js accountsMode) */
   const route = (params.route || []).join('/');
   if (!ready(env)) return fail(503, 'accounts not configured');
   if (route === 'me') {
@@ -64,7 +64,8 @@ export async function onRequestGet({ request, env, params }) {
 }
 
 export async function onRequestPost({ request, env, params }) {
-  if (env.AUTH_ENABLED !== 'true') return fail(404, 'accounts not open');   /* Tier 0: waitlist only; set AUTH_ENABLED=true to open registration and login */
+  const mode = accountsMode(env);
+  if (mode === 'closed') return fail(404, 'accounts not open');   /* Tier 0: waitlist only; AUTH_ENABLED=true or ADMIN_EMAILS opens this (http.js accountsMode) */
   const route = (params.route || []).join('/');
   if (!ready(env)) return fail(503, 'accounts not configured');
   if (!sameOrigin(request)) return fail(403, 'origin');
@@ -79,6 +80,9 @@ export async function onRequestPost({ request, env, params }) {
     if (!isEmail(email)) return fail(400, 'valid e-mail required', { field: 'email' });
     if (password.length < PW_MIN || password.length > PW_MAX) return fail(400, `password must be ${PW_MIN}-${PW_MAX} characters`, { field: 'password' });
     if (body.terms !== true) return fail(400, 'terms must be accepted', { field: 'terms' });
+    const admin = isAdminEmail(env, email);
+    /* invite mode: only the ADMIN_EMAILS addresses may register; everyone else sees the waitlist */
+    if (mode === 'invite' && !admin) return fail(403, 'invitation required', { field: 'email' });
     const exists = await env.DB.prepare('SELECT id FROM users WHERE email = ?').bind(email).first();
     if (exists) return fail(409, 'account exists', { field: 'email' });
     const audience = AUDIENCES.includes(body.audience) ? body.audience : null;
@@ -88,7 +92,7 @@ export async function onRequestPost({ request, env, params }) {
     const id = newId();
     const now = nowIso();
     await env.DB.prepare('INSERT INTO users (id, email, name, pw_hash, role, audience, locale, consent_json, marketing_opt_in, created_at, updated_at, last_login_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
-      .bind(id, email, name, await hashPassword(password), 'member', audience, locale, JSON.stringify(consent), marketing ? 1 : 0, now, now, now).run();
+      .bind(id, email, name, await hashPassword(password), admin ? 'admin' : 'member', audience, locale, JSON.stringify(consent), marketing ? 1 : 0, now, now, now).run();
     const setCookie = await createSession(request, env, id);
     let verification = { sent: false, reason: 'mail not configured' };
     if (env.RESEND_API_KEY) {
@@ -106,9 +110,15 @@ export async function onRequestPost({ request, env, params }) {
     const okEmail = await rateLimit(env, 'login:em:' + email, 10, 900);
     if (!okIp || !okEmail) return fail(429, 'too many attempts; try again in fifteen minutes');
     const u = await env.DB.prepare('SELECT * FROM users WHERE email = ?').bind(email).first();
-    const good = u ? await verifyPassword(password, u.pw_hash) : await verifyPassword(password, 'pbkdf2-sha256$210000$AAAAAAAAAAAAAAAAAAAAAA$AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
+    const good = u ? await verifyPassword(password, u.pw_hash) : await verifyPassword(password, 'pbkdf2-sha256$100000$AAAAAAAAAAAAAAAAAAAAAA$AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
     if (!u || !good) return fail(401, 'wrong e-mail or password');
-    await env.DB.prepare('UPDATE users SET last_login_at = ? WHERE id = ?').bind(nowIso(), u.id).run();
+    /* an address added to ADMIN_EMAILS after it registered is promoted on its next sign-in */
+    if (u.role !== 'admin' && isAdminEmail(env, email)) {
+      await env.DB.prepare('UPDATE users SET role = ?, updated_at = ?, last_login_at = ? WHERE id = ?').bind('admin', nowIso(), nowIso(), u.id).run();
+      u.role = 'admin';
+    } else {
+      await env.DB.prepare('UPDATE users SET last_login_at = ? WHERE id = ?').bind(nowIso(), u.id).run();
+    }
     const setCookie = await createSession(request, env, u.id);
     return json({ ok: true, user: publicUser(u) }, 200, { 'set-cookie': setCookie });
   }
