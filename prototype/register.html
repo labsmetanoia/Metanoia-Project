@@ -447,7 +447,7 @@ const setB=(sel,en,id)=>{ const el=document.querySelector(sel); if(el){ el.datas
 MT_AUTH.ready.then(u => { if(u) location.replace(redirectTo || 'portal'); });
 /* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the guest preview.
    'invite': only invited addresses may register; the form stays usable, the note offers the guest preview to everyone else */
-MT_AUTH.accountsOpen().then(mode => {
+(MT_AUTH.accountsOpen ? MT_AUTH.accountsOpen() : MT_AUTH.available()).then(mode => {   /* fallback: a cached older mt-auth.js */
   apiOk = !!mode;
   if(!mode){ apiNote.hidden = false; form.dataset.api = 'off'; return; }
   if(mode === 'invite'){
