@@ -1,0 +1,44 @@
+name: Nightly D1 backup
+
+# D1's free plan keeps no backups, so a bad migration or a mistaken DELETE is
+# otherwise unrecoverable. Every night this exports the production database
+# "metanoia" as SQL and keeps it as a workflow artifact for 90 days (free; the
+# repository is public, so Actions minutes are unlimited). Restore: download
+# the artifact, then `npx wrangler d1 execute metanoia --remote --file backup.sql`
+# into an empty database, or pick the statements you need.
+# Needs CLOUDFLARE_API_TOKEN (D1 Edit) and CLOUDFLARE_ACCOUNT_ID.
+
+on:
+  schedule:
+    - cron: '47 19 * * *'     # 19:47 UTC, 02:47 WIB, before the 02:15 UTC aggregation worker runs
+  workflow_dispatch:
+
+concurrency:
+  group: d1-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Export the database
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          test -n "${CLOUDFLARE_API_TOKEN}" || { echo "::error::CLOUDFLARE_API_TOKEN secret is not set"; exit 1; }
+          export CLOUDFLARE_ACCOUNT_ID="$(printf '%s' "${CLOUDFLARE_ACCOUNT_ID}" | grep -oE '[0-9a-f]{32}' | head -1)"
+          mkdir -p backup
+          npx --yes wrangler@4 d1 export metanoia --remote --output "backup/metanoia-$(date -u +%Y%m%d).sql"
+          ls -la backup
+          test -s backup/*.sql || { echo "::error::export produced an empty file"; exit 1; }
+          grep -c "INSERT INTO" backup/*.sql || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: d1-metanoia-${{ github.run_id }}
+          path: backup/
+          retention-days: 90
+          if-no-files-found: error
