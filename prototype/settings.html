@@ -410,7 +410,7 @@ render('profile');
       var pw = prompt(isID() ? 'Masukkan kata sandimu untuk menghapus akun ini secara permanen (progres, lamaran, sesi).' : 'Enter your password to permanently delete this account (progress, applications, sessions).');
       if (!pw) return;
       MT_API.post('/account/delete', { password: pw }).then(function (r) {
-        if (r.ok) { MT_AUTH.endGuest(); location.href = 'login?signed_out=true'; }
+        if (r.ok) { location.href = 'login?signed_out=true'; }
         else alert(r.status === 401 ? (isID() ? 'Kata sandi salah.' : 'Wrong password.') : (isID() ? 'Penghapusan gagal. Coba lagi.' : 'Deletion failed. Please try again.'));
       });
     });

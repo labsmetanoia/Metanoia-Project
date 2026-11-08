@@ -56,7 +56,7 @@
   <section id="app" hidden>
     <div class="stats" id="stats"></div>
     <div class="bar">
-      <select id="kind"><option value="">All kinds</option><option value="mentor">Mentor applications</option><option value="enterprise">Enterprise inquiries</option><option value="newsletter">Newsletter</option><option value="waitlist">Waitlist</option></select>
+      <select id="kind"><option value="">All kinds</option><option value="mentor">Mentor applications</option><option value="enterprise">Enterprise inquiries</option><option value="newsletter">Newsletter</option><option value="waitlist">Waitlist</option><option value="results">Career Map results</option></select>
       <select id="status"><option value="">All statuses</option><option>new</option><option>reviewing</option><option>accepted</option><option>declined</option><option>contacted</option><option>archived</option><option>confirmed</option><option>unsubscribed</option></select>
       <input type="search" id="q" placeholder="Search name, e-mail, text">
       <button class="ghost" id="apply">Filter</button>
@@ -128,7 +128,7 @@
       var d = r.data, by = {};
       (d.leads || []).forEach(function (x) { by[x.kind] = (by[x.kind] || 0) + x.n; });
       var newCount = (d.leads || []).filter(function (x) { return x.status === 'new'; }).reduce(function (a, x) { return a + x.n; }, 0);
-      $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Waitlist', by.waitlist || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0]]
+      $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Waitlist', by.waitlist || 0], ['Results', by.results || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0]]
         .map(function (p) { return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>'; }).join('');
     });
   }

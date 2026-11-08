@@ -2,16 +2,17 @@
 
 The static site (`prototype/`) now ships with a small server layer under `functions/api/` (Cloudflare Pages Functions) backed by a D1 database. It gives the platform real accounts, stored lead capture with consent, first-party product events, cross-device progress and an internal review surface — without a separate backend to run.
 
-**It runs only where Pages Functions run.** GitHub Pages serves the static files alone; on that host every page detects the missing API (via `/api/health`) and shows its honest state: *accounts are not open on this site yet*, guest preview, e-mail fallback for applications and inquiries. Nothing is faked.
+**It runs only where Pages Functions run.** GitHub Pages serves the static files alone; on that host every page detects the missing API (via `/api/health`) and shows its honest state: *accounts are not open on this site yet* with the waitlist box, e-mail fallback for applications and inquiries. Nothing is faked.
 
 ## 1. What is deployed where
 
 | Path | Purpose |
 |---|---|
-| `functions/api/health.js` | `GET /api/health` — the probe every page uses; `accounts` mirrors `AUTH_ENABLED`, and while it is false the login and register pages show "accounts are not open" with the guest preview (every product opens, progress stays in the browser) |
+| `functions/api/health.js` | `GET /api/health` — the probe every page uses; `accounts` mirrors `AUTH_ENABLED`, and while it is false the login and register pages show "accounts are not open" with the waitlist box; the products themselves are for signed-in members only |
 | `functions/api/auth/[[route]].js` | register, login, logout, me, request-reset, reset, verify, resend-verify |
 | `functions/api/leads/[[route]].js` | mentor applications, enterprise inquiries, newsletter (double opt-in), waitlist (login and register pages while accounts are closed; needs `migrations/0002_leads_kinds.sql`) |
 | `functions/api/events.js` | first-party product events (pseudonymous) |
+| `functions/api/results/[[route]].js` | Career Map "e-mail me my report": stores a `results` lead with scores and answers, sends the summary with a signed 90-day link; `GET /api/results/:id?sig=` rebuilds the report on the assessment page |
 | `functions/api/progress/[[route]].js` | per-user progress namespaces |
 | `functions/api/account/[[route]].js` | export, delete, update (data-subject rights) |
 | `functions/api/admin/[[route]].js` | lead review and aggregates; a signed-in account with the `admin` role (same-origin for writes) or bearer `ADMIN_TOKEN` |

@@ -1814,13 +1814,12 @@ try {
   isPremium = isAuthenticated && sessionStorage.getItem('metanoia_premium') !== 'false';
 } catch (e) {}
 function showUpgradePrompt() { document.getElementById('upgradeVeil').classList.add('show'); }
-if (!isDemoMode) {
-  if (!isAuthenticated) {
+/* members only: demo mode unlocks the lesson order for a signed-in reviewer, it never bypasses sign-in */
+if (!isAuthenticated) {
     /* returning members sign in; login carries the redirect through to register for new visitors */
     window.location.replace('../../login?redirect=' + encodeURIComponent('/products/the-map/' + (location.hash.indexOf('#/') === 0 ? location.hash : '')));
-  } else if (!isPremium) {
-    showUpgradePrompt();
-  }
+} else if (!isPremium && !isDemoMode) {
+  showUpgradePrompt();
 }
 try {
   const sess = JSON.parse(localStorage.getItem('metanoia_session') || 'null');
