@@ -46,7 +46,9 @@ const T = {
     newsletterSubject: 'Confirm your subscription to Letters from the expedition',
     newsletter: url => `Confirm that you want to receive Letters from the expedition from Metanoia Labs:\n${url}\n\nIf you did not sign up, ignore this message and nothing will be sent.\n\nMetanoia Labs`,
     waitlistSubject: 'You are on the Metanoia Labs waitlist',
-    waitlist: name => `Hi${name ? ' ' + name : ''},\n\nYou are on the list. Accounts on Metanoia Labs open in stages, and this address will get one message from us when yours is ready, with nothing else in between.\n\nUntil then every product is open to preview as a guest at https://metanoialabs.net/login\n\nIf you did not ask for this, ignore this message and nothing further will be sent.\n\nMetanoia Labs`
+    waitlist: name => `Hi${name ? ' ' + name : ''},\n\nYou are on the list. Accounts on Metanoia Labs open in stages, and this address will get one message from us when yours is ready, with nothing else in between.\n\nUntil then the free Career Map assessment is open to everyone at https://metanoialabs.net/career-map-assessment\n\nIf you did not ask for this, ignore this message and nothing further will be sent.\n\nMetanoia Labs`,
+    resultsSubject: (total, band) => `Your Career Map result: ${total}/100, ${band}`,
+    results: (name, total, band, lines, url, days) => `Hi${name ? ' ' + name : ''},\n\nHere is your Career Map readiness result.\n\nOverall: ${total}/100, ${band}\n\n${lines.join('\n')}\n\nOpen the full report, with your strengths, the gaps that matter most and a 90-day route, at:\n${url}\n\nThe link works for ${days} days and shows only this report. You can download it as a PDF from that page.\n\nIf you did not take the assessment, ignore this message and nothing further will be sent.\n\nMetanoia Labs`
   },
   id: {
     verifySubject: 'Konfirmasi e-mail Metanoia Labs-mu',
@@ -60,7 +62,9 @@ const T = {
     newsletterSubject: 'Konfirmasi langgananmu untuk Surat dari ekspedisi',
     newsletter: url => `Konfirmasi bahwa kamu ingin menerima Surat dari ekspedisi dari Metanoia Labs:\n${url}\n\nJika kamu tidak mendaftar, abaikan pesan ini dan tidak ada yang akan dikirim.\n\nMetanoia Labs`,
     waitlistSubject: 'Kamu sudah masuk daftar tunggu Metanoia Labs',
-    waitlist: name => `Halo${name ? ' ' + name : ''},\n\nKamu sudah masuk daftar. Akun Metanoia Labs dibuka bertahap, dan alamat ini akan menerima satu pesan dari kami saat giliranmu tiba, tanpa pesan lain di antaranya.\n\nSementara itu, semua produk bisa dicoba sebagai tamu di https://metanoialabs.net/login\n\nJika kamu tidak meminta ini, abaikan pesan ini dan tidak ada yang akan dikirim lagi.\n\nMetanoia Labs`
+    waitlist: name => `Halo${name ? ' ' + name : ''},\n\nKamu sudah masuk daftar. Akun Metanoia Labs dibuka bertahap, dan alamat ini akan menerima satu pesan dari kami saat giliranmu tiba, tanpa pesan lain di antaranya.\n\nSementara itu, asesmen Career Map gratis terbuka untuk semua orang di https://metanoialabs.net/career-map-assessment\n\nJika kamu tidak meminta ini, abaikan pesan ini dan tidak ada yang akan dikirim lagi.\n\nMetanoia Labs`,
+    resultsSubject: (total, band) => `Hasil Career Map-mu: ${total}/100, ${band}`,
+    results: (name, total, band, lines, url, days) => `Halo${name ? ' ' + name : ''},\n\nIni hasil kesiapan Career Map-mu.\n\nKeseluruhan: ${total}/100, ${band}\n\n${lines.join('\n')}\n\nBuka laporan lengkapnya, dengan kekuatanmu, celah yang paling menentukan, dan rute 90 hari, di:\n${url}\n\nTautan berlaku ${days} hari dan hanya menampilkan laporan ini. Kamu bisa mengunduhnya sebagai PDF dari halaman itu.\n\nJika kamu tidak mengerjakan asesmen ini, abaikan pesan ini dan tidak ada yang akan dikirim lagi.\n\nMetanoia Labs`
   }
 };
 
@@ -72,6 +76,7 @@ export const mailMentorReceived = (env, { to, name, id, locale }) => sendMail(en
 export const mailEnterpriseReceived = (env, { to, name, id, locale }) => sendMail(env, { to, subject: t(locale).enterpriseSubject, text: t(locale).enterprise(name, id) });
 export const mailNewsletterConfirm = (env, { to, url, locale }) => sendMail(env, { to, subject: t(locale).newsletterSubject, text: t(locale).newsletter(url) });
 export const mailWaitlistReceived = (env, { to, name, locale }) => sendMail(env, { to, subject: t(locale).waitlistSubject, text: t(locale).waitlist(name) });
+export const mailResults = (env, { to, name, total, band, lines, url, days, locale }) => sendMail(env, { to, subject: t(locale).resultsSubject(total, band), text: t(locale).results(name, total, band, lines, url, days) });
 
 /* internal notification to the team on every new lead */
 export function mailLeadNotify(env, lead) {

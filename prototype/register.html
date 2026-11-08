@@ -263,9 +263,6 @@
   .api-note{margin:0 0 16px;padding:14px 16px;border:1px solid var(--gold-border-hover);border-radius:12px;background:var(--gold-glow);
     font-size:13.5px;line-height:1.55;color:var(--text-sub)}
   .api-note b{display:block;color:var(--gold-bright);margin-bottom:4px}
-  .api-note .btn-guest{display:inline-block;margin-top:10px;padding:9px 14px;border:1px solid var(--gold-border-hover);border-radius:999px;
-    background:none;color:var(--gold-bright);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
-  .api-note .btn-guest:hover{background:rgba(201,168,76,.14)}
   .api-note .wl-form{margin-top:14px;padding-top:12px;border-top:1px solid var(--gold-border-hover)}
   .api-note .wl-form label{display:block;margin-bottom:8px;color:var(--text-sub)}
   .api-note .wl-row{display:flex;gap:8px;flex-wrap:wrap}
@@ -341,8 +338,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
       <div class="api-note" id="apiNote" hidden role="status">
         <b data-en="Accounts are not open on this site yet." data-id="Akun belum dibuka di situs ini.">Accounts are not open on this site yet.</b>
-        <span data-en="Nothing you type here is stored. You can preview every product as a guest; progress stays in this browser only." data-id="Tidak ada yang kamu ketik di sini yang disimpan. Kamu bisa mencoba semua produk sebagai tamu, progres hanya tersimpan di peramban ini.">Nothing you type here is stored. You can preview every product as a guest; progress stays in this browser only.</span>
-        <button type="button" class="btn-guest" id="guestBtn" data-en="Preview as a guest →" data-id="Coba sebagai tamu →">Preview as a guest →</button>
+        <span data-en="Nothing you type here is stored yet. Leave your e-mail below and we tell you when your account is ready." data-id="Belum ada yang tersimpan dari yang kamu ketik di sini. Tinggalkan e-mailmu di bawah dan kami kabari saat akunmu siap.">Nothing you type here is stored yet. Leave your e-mail below and we tell you when your account is ready.</span>
         <form class="wl-form" id="wlForm" hidden novalidate>
           <label for="wlEmail" data-en="Want an account when they open? Leave your e-mail and we send one message, nothing else." data-id="Mau akun saat sudah dibuka? Tinggalkan e-mailmu, kami kirim satu pesan saja.">Want an account when they open? Leave your e-mail and we send one message, nothing else.</label>
           <div class="wl-row">
@@ -396,8 +392,8 @@ const I18N = {
        noTerms:'Please accept the Terms to continue.', exists:'An account with that email already exists. Try signing in.',
        tooMany:'Too many attempts from this connection. Please try again in a few minutes.',
        verify:'We could not confirm the request came from a person. Reload the page and try again.',
-       offline:'Accounts are not open on this site yet, so nothing was created. Preview as a guest below.',
-       invite:'Accounts are open by invitation only for now, and this address is not on the list. Preview as a guest below.',
+       offline:'Accounts are not open on this site yet, so nothing was created. Join the waitlist below.',
+       invite:'Accounts are open by invitation only for now, and this address is not on the list. Join the waitlist below.',
        failed:'Something went wrong on our side and the account was not created. Please try again.',
        creating:'Creating your account…' },
   id:{ noName:'Silakan masukkan nama depanmu.', badEmail:'Silakan masukkan alamat email yang valid.',
@@ -405,8 +401,8 @@ const I18N = {
        noTerms:'Silakan setujui Ketentuan untuk melanjutkan.', exists:'Akun dengan email itu sudah ada. Coba masuk.',
        tooMany:'Terlalu banyak percobaan dari koneksi ini. Coba lagi beberapa menit lagi.',
        verify:'Kami belum bisa memastikan permintaan ini berasal dari orang. Muat ulang halaman dan coba lagi.',
-       offline:'Akun belum dibuka di situs ini, jadi tidak ada yang dibuat. Coba sebagai tamu di bawah.',
-       invite:'Akun untuk sementara hanya dibuka lewat undangan, dan alamat ini belum ada di daftar. Coba sebagai tamu di bawah.',
+       offline:'Akun belum dibuka di situs ini, jadi tidak ada yang dibuat. Masuk daftar tunggu di bawah.',
+       invite:'Akun untuk sementara hanya dibuka lewat undangan, dan alamat ini belum ada di daftar. Masuk daftar tunggu di bawah.',
        failed:'Ada masalah di pihak kami dan akun tidak dibuat. Silakan coba lagi.',
        creating:'Membuat akunmu…' }
 };
@@ -428,7 +424,7 @@ applyLang();
 /* ═══════════════════════════════════════════════════════════════
    ACCOUNTS — server-side through /api/auth (js/mt-auth.js).
    No password or token is ever written to this browser. When the API is
-   not available on this host, the form says so and offers a guest preview
+   not available on this host, the form says so and offers the waitlist
    instead of pretending an account was created.
    ═══════════════════════════════════════════════════════════════ */
 /* Mentor applications have their own form with server-side storage and review. */
@@ -454,13 +450,8 @@ function rememberConsent(){
     }));
   } catch (e) {}
 }
-function goSuccess(onboarding, guest){
+function goSuccess(onboarding){
   rememberConsent();
-  if(guest){
-    setB('#successVeil h2','Guest preview.','Mode tamu.');
-    setB('#successVeil p','Opening your basecamp: progress stays in this browser.','Membuka basecamp-mu: progres tersimpan di peramban ini.');
-    applyLang();
-  }
   document.getElementById('successVeil').classList.add('show');
   setTimeout(()=>{ location.href = redirectTo || ('portal' + (onboarding ? '?onboarding=true' : '')); }, 1500);
 }
@@ -468,22 +459,18 @@ const setB=(sel,en,id)=>{ const el=document.querySelector(sel); if(el){ el.datas
 
 /* already signed in → straight through */
 MT_AUTH.ready.then(u => { if(u) location.replace(redirectTo || 'portal'); });
-/* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the guest preview.
-   'invite': only invited addresses may register; the form stays usable, the note offers the guest preview to everyone else */
+/* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the waitlist.
+   'invite': only invited addresses may register; the form stays usable, the note offers the waitlist to everyone else */
 (MT_AUTH.accountsOpen ? MT_AUTH.accountsOpen() : MT_AUTH.available()).then(mode => {   /* fallback: a cached older mt-auth.js */
   apiOk = !!mode;
   showWaitlist(mode);
   if(!mode){ apiNote.hidden = false; form.dataset.api = 'off'; return; }
   if(mode === 'invite'){
     setB('#apiNote b', 'Accounts are open by invitation only for now.', 'Akun untuk sementara hanya dibuka lewat undangan.');
-    setB('#apiNote span', 'Invited reviewers register above. Everyone else can preview every product as a guest; progress stays in this browser only.',
-      'Peninjau yang diundang mendaftar lewat formulir di atas. Yang lain bisa mencoba semua produk sebagai tamu, progres hanya tersimpan di peramban ini.');
+    setB('#apiNote span', 'Invited reviewers register above. Everyone else can join the waitlist below.',
+      'Peninjau yang diundang mendaftar lewat formulir di atas. Yang lain bisa masuk daftar tunggu di bawah.');
     apiNote.hidden = false; applyLang();
   }
-});
-document.getElementById('guestBtn').addEventListener('click', () => {
-  MT_AUTH.guest((F('firstName').value || '').trim() || undefined);
-  goSuccess(true, true);
 });
 
 /* waitlist: shown inside the note whenever the API can store it (accounts closed or by invitation) */
@@ -532,7 +519,7 @@ form.addEventListener('submit', async e => {
   const r = await MT_AUTH.register({ name, email, password: pw, terms: true,
     marketing: !!F('marketingConsent') && F('marketingConsent').checked, audience, locale: lang, turnstile });
   btn.disabled = false; btn.innerHTML = label;
-  if(r.ok){ goSuccess(true, false); return; }
+  if(r.ok){ goSuccess(true); return; }
   if(r.offline){ apiOk = false; apiNote.hidden = false; form.dataset.api = 'off'; return fail(TT('offline'),[]); }
   if(r.status===409) return fail(TT('exists'),['email']);
   if(r.status===403 && r.data && r.data.field==='email'){ if(F('wlEmail') && !F('wlEmail').value) F('wlEmail').value = email; return fail(TT('invite'),['email']); }

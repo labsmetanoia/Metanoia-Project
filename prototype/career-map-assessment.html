@@ -147,6 +147,8 @@
 <script src="data/analytics.js"></script>
 <script src="js/mt-api.js"></script>
 <script src="js/mt-events.js"></script>
+<script src="data/security.js"></script>
+<script src="js/mt-turnstile.js"></script>
 <style>
   :root{
     --bg:#070d18; --bg-dark:#0A1628; --bg-card:#0D1F35; --ink:#1B2434; --text:#F8F4EC; --muted:#93a3b8;
@@ -821,8 +823,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <div class="capcard">
       <h2 data-t="cap.h">Keep your Career Map, and start your climb</h2>
       <p class="lead" data-t="cap.lead">Create your free account to turn this report into your live route, or have the full report emailed to you.</p>
-      <form class="capform" id="capform" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <input type="hidden" name="_subject" value="New Metanoia Career Map Submission">
+      <form class="capform" id="capform" novalidate>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" aria-hidden="true">
         <input type="hidden" name="total_score" id="hidden-score">
         <input type="hidden" name="score_band" id="hidden-band">
         <input type="hidden" name="dimension_scores" id="hidden-dimensions">
@@ -840,9 +842,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <span data-t="cap.wait">Send me one honest, useful email each week from the mountain. No spam, ever.</span></label>
         <div class="cap-actions">
           <button type="button" class="btn btn-ember" id="acctBtn"><span data-t="cap.acct">Create My Free Metanoia Account →</span></button>
-          <button type="submit" class="btn btn-glass"><span data-t="cap.send">Email me my Career Map report</span></button>
+          <button type="submit" class="btn btn-glass" id="capSend"><span data-t="cap.send">Email me my Career Map report</span></button>
           <button type="button" class="btn btn-glass" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
         </div>
+        <p id="capMsg" role="status" style="margin:10px 0 0;font-size:13.5px;line-height:1.5;color:rgba(240,237,232,.75);min-height:1.2em"></p>
       </form>
     </div>
   </div>
@@ -874,6 +877,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     </svg>
     <h2 class="done-h dstep d1" data-t="done.h">You've done something rare.</h2>
     <p class="done-sub dstep d1" data-t="done.sub">Most people never stop to honestly assess where they stand. You did. That changes everything.</p>
+    <p class="done-sub dstep d1" id="doneMail" hidden style="color:#F0D878"></p>
     <div class="score-card dstep d2">
       <div id="doneDial"></div>
       <div>
@@ -947,6 +951,10 @@ const T = {
       'cap.h':'Keep your Career Map, and start your climb','cap.send':'Email me my Career Map report',
       'cap.lead':'Create your free account to turn this report into your live route, or have the full report emailed to you.',
       'cap.wait':'Send me one honest, useful email each week from the mountain. No spam, ever.',
+      'cap.sending':'Sending your report…','cap.sent':'Your report is on its way to {email}. The link in it works for 90 days.',
+      'cap.stored':'Your report is saved. E-mail is not switched on for this site yet, so download the PDF to keep it.',
+      'cap.badEmail':'Enter a valid e-mail address.','cap.verify':'We could not confirm the request came from a person. Reload the page and try again.',
+      'cap.offline':'Sending is not available on this site yet. Download the PDF instead.','cap.err':'Something went wrong on our side. Try again, or download the PDF.',
       'cap.acct':'Create My Free Metanoia Account →',
       'hero.l1':'Your Readiness Score: across 5 dimensions that predict offer success',
       'hero.l2':'Your Position on the Mountain, honestly mapped, no flattery',
@@ -977,6 +985,10 @@ const T = {
       'cap.h':'Simpan Peta Kariermu: dan mulai pendakianmu','cap.send':'Kirim laporan Peta Karierku ke email',
       'cap.lead':'Buat akun gratismu untuk mengubah laporan ini menjadi rute yang hidup, atau minta laporan lengkap dikirim ke emailmu.',
       'cap.wait':'Kirimkan satu email yang jujur dan berguna tiap minggu dari gunung ini. Tanpa spam, selamanya.',
+      'cap.sending':'Mengirim laporanmu…','cap.sent':'Laporanmu sedang menuju {email}. Tautan di dalamnya berlaku 90 hari.',
+      'cap.stored':'Laporanmu tersimpan. E-mail belum aktif di situs ini, jadi unduh PDF-nya untuk menyimpannya.',
+      'cap.badEmail':'Masukkan alamat e-mail yang valid.','cap.verify':'Kami belum bisa memastikan permintaan ini berasal dari orang. Muat ulang halaman dan coba lagi.',
+      'cap.offline':'Pengiriman belum tersedia di situs ini. Unduh PDF-nya saja.','cap.err':'Ada masalah di pihak kami. Coba lagi, atau unduh PDF-nya.',
       'cap.acct':'Buat Akun Metanoia Gratisku →',
       'hero.l1':'Skor Kesiapanmu: di 5 dimensi yang memprediksi keberhasilan offer',
       'hero.l2':'Posisimu di Gunung: dipetakan jujur, tanpa basa-basi',
@@ -2332,22 +2344,70 @@ document.getElementById('shareLi').onclick=async()=>{
 };
 document.getElementById('shareX').onclick=()=>open('https://twitter.com/intent/tweet?text='+encodeURIComponent(shareData().text),'_blank');
 
+/* ── "Email me my report": POST /api/results stores the scores and answers with a consent
+   record and e-mails a summary with a signed link that rebuilds this report (90 days). ── */
+const EMAIL_RE=/^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+function resultPayload(){
+  const sc=finalScores(), t=total100(sc), bd=band(t);
+  return { name:document.getElementById('capName').value.trim(), email:document.getElementById('capEmail').value.trim(),
+    linkedin:document.getElementById('capLinkedin').value.trim(), weekly_email:document.getElementById('capWaitlist').checked,
+    total:t, band:bd.label, dims:Object.fromEntries(DIMS.map((d,i)=>[d.key,sc[i]])), profile:S.profile, answers:S.answers,
+    locale:lang, source_page:location.pathname, _gotcha:(document.querySelector('#capform [name="_gotcha"]')||{}).value||'' };
+}
+async function sendResults(form){
+  if(!window.MT_API) return { ok:false, offline:true, status:0, data:null };
+  const turnstile = window.MT_TS ? await MT_TS.token(form) : null;
+  return MT_API.post('/results', Object.assign(resultPayload(), { turnstile }));
+}
+const capMsg=document.getElementById('capMsg');
+const capSay=(k,v,bad)=>{ capMsg.textContent=k?tt(k,v):''; capMsg.style.color=bad?'#f08a8a':'rgba(240,237,232,.75)'; };
 document.getElementById('capform').addEventListener('submit',async function(e){
   e.preventDefault();
+  const email=document.getElementById('capEmail').value.trim();
+  if(!EMAIL_RE.test(email)){ capSay('cap.badEmail',null,true); document.getElementById('capEmail').focus(); return; }
   analytics.track('email_submitted',{has_linkedin:!!document.getElementById('capLinkedin').value});
-  let ok=false;
-  try{ const r=await fetch(this.action,{method:'POST',body:new FormData(this),headers:{'Accept':'application/json'}}); ok=r.ok; }catch(err){}
-  S.em=true; save(); showDone();
+  const btn=document.getElementById('capSend'); btn.disabled=true; capSay('cap.sending');
+  const r=await sendResults(this);
+  btn.disabled=false;
+  if(r.ok){
+    S.em=true; save();
+    try{ if(window.MT && MT.track) MT.track('lead.form.submitted',{kind:'results'}); }catch(err){}
+    const dm=document.getElementById('doneMail');
+    dm.textContent = r.data && r.data.confirmation_email ? tt('cap.sent',{email}) : tt('cap.stored');
+    dm.hidden=false; capSay(null); showDone(); return;
+  }
+  if(r.offline) return capSay('cap.offline',null,true);
+  if(r.status===400 && r.data && r.data.field==='turnstile') return capSay('cap.verify',null,true);
+  if(r.status===400 && r.data && r.data.field==='email') return capSay('cap.badEmail',null,true);
+  capSay('cap.err',null,true);
 });
 
-/* V2: primary conversion — create free account with email pre-filled (Part 12) */
-document.getElementById('acctBtn').onclick=()=>{
+/* V2: primary conversion — create free account with email pre-filled (Part 12).
+   The result is stored first so the account can claim it later. */
+document.getElementById('acctBtn').onclick=async()=>{
   analytics.track('account_cta_clicked',{placement:'report_footer'});
   const email=document.getElementById('capEmail').value.trim();
-  const f=document.getElementById('capform');
-  if(email){ try{ fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}); }catch(err){} }
+  if(EMAIL_RE.test(email)){ try{ await sendResults(document.getElementById('capform')); }catch(err){} }
   location.href='register'+(email?('?email='+encodeURIComponent(email)):'');
 };
+
+/* ── signed link from the e-mail: rebuild the report from the stored answers ── */
+(function restoreFromLink(){
+  const qp=new URLSearchParams(location.search);
+  const id=qp.get('result'), sig=qp.get('sig');
+  if(!id||!sig||!window.MT_API) return;
+  MT_API.get('/results/'+encodeURIComponent(id)+'?sig='+encodeURIComponent(sig)).then(r=>{
+    if(!r.ok||!r.data||!r.data.result) return;
+    const res=r.data.result;
+    if(res.answers&&typeof res.answers==='object') S.answers=res.answers;
+    if(res.profile&&typeof res.profile==='object') S.profile=Object.assign(FRESH_PROFILE(),res.profile);
+    if(res.name&&!S.profile.name) S.profile.name=res.name;
+    S.step=TOTAL_P+TOTAL_Q; S.em=true; save();
+    if(res.locale==='id'||res.locale==='en'){ lang=res.locale; applyLang(); }
+    buildReport(); show('s-report'); fitReport();
+    try{ history.replaceState(null,'',location.pathname); }catch(err){}
+  });
+})();
 
 /* V2: shareable result card (canvas, 1200×627) */
 function resultCard(){

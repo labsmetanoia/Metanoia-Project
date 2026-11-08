@@ -258,9 +258,6 @@
   .api-note{margin:0 0 16px;padding:14px 16px;border:1px solid var(--gold-border-hover);border-radius:12px;background:var(--gold-glow);
     font-size:13.5px;line-height:1.55;color:var(--text-sub)}
   .api-note b{display:block;color:var(--gold-bright);margin-bottom:4px}
-  .api-note .btn-guest{display:inline-block;margin-top:10px;padding:9px 14px;border:1px solid var(--gold-border-hover);border-radius:999px;
-    background:none;color:var(--gold-bright);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
-  .api-note .btn-guest:hover{background:rgba(201,168,76,.14)}
   .api-note .wl-form{margin-top:14px;padding-top:12px;border-top:1px solid var(--gold-border-hover)}
   .api-note .wl-form label{display:block;margin-bottom:8px;color:var(--text-sub)}
   .api-note .wl-row{display:flex;gap:8px;flex-wrap:wrap}
@@ -336,8 +333,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
         <div class="api-note" id="apiNote" hidden role="status">
           <b data-en="Accounts are not open on this site yet." data-id="Akun belum dibuka di situs ini.">Accounts are not open on this site yet.</b>
-          <span data-en="There is nothing to sign in to. You can preview every product as a guest; progress stays in this browser only." data-id="Belum ada yang bisa dimasuki. Kamu bisa mencoba semua produk sebagai tamu, progres hanya tersimpan di peramban ini.">There is nothing to sign in to. You can preview every product as a guest; progress stays in this browser only.</span>
-          <button type="button" class="btn-guest" id="guestBtn" data-en="Preview as a guest →" data-id="Coba sebagai tamu →">Preview as a guest →</button>
+          <span data-en="Nothing to sign in to yet. Leave your e-mail below and we tell you when your account is ready." data-id="Belum ada yang bisa dimasuki. Tinggalkan e-mailmu di bawah dan kami kabari saat akunmu siap.">Nothing to sign in to yet. Leave your e-mail below and we tell you when your account is ready.</span>
           <form class="wl-form" id="wlForm" hidden novalidate>
             <label for="wlEmail" data-en="Want an account when they open? Leave your e-mail and we send one message, nothing else." data-id="Mau akun saat sudah dibuka? Tinggalkan e-mailmu, kami kirim satu pesan saja.">Want an account when they open? Leave your e-mail and we send one message, nothing else.</label>
             <div class="wl-row">
@@ -412,7 +408,7 @@ const I18N = {
   en:{ badEmail:'Please enter a valid email address.', noPw:'Please enter your password.',
        wrong:'Incorrect email or password. New here? Create an account.',
        tooMany:'Too many attempts. Please wait fifteen minutes and try again.',
-       offline:'Accounts are not open on this site yet, so there is nothing to sign in to. Preview as a guest below.',
+       offline:'Accounts are not open on this site yet, so there is nothing to sign in to. Join the waitlist below.',
        failed:'Something went wrong on our side. Please try again.', signing:'Signing in…',
        resetSent:'If an account exists for that email, a reset link is on its way.',
        resetNoMail:'Password e-mails are not switched on yet. Write to hello@metanoialabs.net and we will reset it for you.',
@@ -421,7 +417,7 @@ const I18N = {
   id:{ badEmail:'Silakan masukkan alamat email yang valid.', noPw:'Silakan masukkan kata sandimu.',
        wrong:'Email atau kata sandi salah. Baru di sini? Buat akun.',
        tooMany:'Terlalu banyak percobaan. Tunggu lima belas menit lalu coba lagi.',
-       offline:'Akun belum dibuka di situs ini, jadi belum ada yang bisa dimasuki. Coba sebagai tamu di bawah.',
+       offline:'Akun belum dibuka di situs ini, jadi belum ada yang bisa dimasuki. Masuk daftar tunggu di bawah.',
        failed:'Ada masalah di pihak kami. Silakan coba lagi.', signing:'Masuk…',
        resetSent:'Jika akun dengan email itu ada, tautan atur ulang sedang dikirim.',
        resetNoMail:'E-mail kata sandi belum diaktifkan. Tulis ke hello@metanoialabs.net dan kami akan mengatur ulang untukmu.',
@@ -446,7 +442,7 @@ applyLang();
 /* ═══════════════════════════════════════════════════════════════
    ACCOUNTS — server-side through /api/auth (js/mt-auth.js).
    The browser never sees a password hash or a session token; when the API
-   is not available on this host the page says so and offers a guest preview.
+   is not available on this host the page says so and offers the waitlist.
    ═══════════════════════════════════════════════════════════════ */
 window.oauth = function(){ /* Needs provider client IDs (Google / LinkedIn); the buttons stay disabled until then. */ };
 /* Safe same-site redirect target (e.g. ?redirect=/products/the-map/) */
@@ -464,13 +460,7 @@ if(redirectTo){
 const F = id => document.getElementById(id);
 const apiNote = F('apiNote');
 let apiOk = null;
-function goSuccess(guest){
-  if(guest){
-    const h=document.querySelector('#successVeil h2'), p=document.querySelector('#successVeil p');
-    h.dataset.en='Guest preview.'; h.dataset.id='Mode tamu.';
-    p.dataset.en='Opening your basecamp: progress stays in this browser.'; p.dataset.id='Membuka basecamp-mu: progres tersimpan di peramban ini.';
-    applyLang();
-  }
+function goSuccess(){
   F('successVeil').classList.add('show');
   setTimeout(()=>{ location.href = redirectTo || 'portal'; }, 1400);   // returning user → no onboarding
 }
@@ -484,8 +474,8 @@ if(Q.get('reset')) showView('resetView');
 
 /* a signed-out visitor who still has a server session goes straight through */
 MT_AUTH.ready.then(u => { if(u && !Q.get('reset')) location.replace(redirectTo || 'portal'); });
-/* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the guest preview.
-   'invite': accounts exist for invited addresses only; the form stays usable, the note offers the guest preview to everyone else */
+/* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the waitlist.
+   'invite': accounts exist for invited addresses only; the form stays usable, the note offers the waitlist to everyone else */
 (MT_AUTH.accountsOpen ? MT_AUTH.accountsOpen() : MT_AUTH.available()).then(mode => {   /* fallback: a cached older mt-auth.js */
   apiOk = !!mode;
   showWaitlist(mode);
@@ -493,12 +483,11 @@ MT_AUTH.ready.then(u => { if(u && !Q.get('reset')) location.replace(redirectTo |
   if(mode === 'invite'){
     const b = apiNote.querySelector('b'), s = apiNote.querySelector('span');
     b.dataset.en = 'Accounts are open by invitation only for now.'; b.dataset.id = 'Akun untuk sementara hanya dibuka lewat undangan.';
-    s.dataset.en = 'Invited reviewers sign in above. Everyone else can preview every product as a guest; progress stays in this browser only.';
-    s.dataset.id = 'Peninjau yang diundang masuk lewat formulir di atas. Yang lain bisa mencoba semua produk sebagai tamu, progres hanya tersimpan di peramban ini.';
+    s.dataset.en = 'Invited reviewers sign in above. Everyone else can join the waitlist below.';
+    s.dataset.id = 'Peninjau yang diundang masuk lewat formulir di atas. Yang lain bisa masuk daftar tunggu di bawah.';
     apiNote.hidden = false; applyLang();
   }
 });
-F('guestBtn').addEventListener('click', () => { MT_AUTH.guest(); goSuccess(true); });
 
 /* waitlist: shown inside the note whenever the API can store it (accounts closed or by invitation) */
 const wlForm = F('wlForm');
