@@ -43,7 +43,11 @@ jobs:
           export CLOUDFLARE_ACCOUNT_ID="$(printf '%s' "${CLOUDFLARE_ACCOUNT_ID}" | grep -oE '[0-9a-f]{32}' | head -1)"
           mkdir -p work out
           stamp="$(date -u +%Y%m%d)"
-          npx --yes wrangler@4 d1 export metanoia --remote --output "work/metanoia-${stamp}.sql"
+          # wrangler prints a presigned one-hour download link for the plaintext export;
+          # this repository's logs are public, so none of its output may reach the log.
+          if ! npx --yes wrangler@4 d1 export metanoia --remote --output "work/metanoia-${stamp}.sql" > /dev/null 2>&1; then
+            echo "::error::wrangler d1 export failed (output suppressed on purpose; run it locally to see why)"; exit 1
+          fi
           test -s "work/metanoia-${stamp}.sql" || { echo "::error::export produced an empty file"; exit 1; }
           echo "statements: $(grep -c ';$' "work/metanoia-${stamp}.sql"), inserts: $(grep -c 'INSERT INTO' "work/metanoia-${stamp}.sql" || true)"
           openssl enc -aes-256-cbc -pbkdf2 -iter 600000 -salt -pass env:BACKUP_PASSPHRASE -in "work/metanoia-${stamp}.sql" -out "out/metanoia-${stamp}.sql.enc"
