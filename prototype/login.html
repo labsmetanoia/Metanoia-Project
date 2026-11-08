@@ -463,10 +463,18 @@ if(Q.get('reset')) showView('resetView');
 
 /* a signed-out visitor who still has a server session goes straight through */
 MT_AUTH.ready.then(u => { if(u && !Q.get('reset')) location.replace(redirectTo || 'portal'); });
-/* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the guest preview */
-MT_AUTH.accountsOpen().then(ok => {
-  apiOk = ok;
-  if(!ok){ apiNote.hidden = false; F('loginForm').dataset.api = 'off'; }
+/* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the guest preview.
+   'invite': accounts exist for invited addresses only; the form stays usable, the note offers the guest preview to everyone else */
+MT_AUTH.accountsOpen().then(mode => {
+  apiOk = !!mode;
+  if(!mode){ apiNote.hidden = false; F('loginForm').dataset.api = 'off'; return; }
+  if(mode === 'invite'){
+    const b = apiNote.querySelector('b'), s = apiNote.querySelector('span');
+    b.dataset.en = 'Accounts are open by invitation only for now.'; b.dataset.id = 'Akun untuk sementara hanya dibuka lewat undangan.';
+    s.dataset.en = 'Invited reviewers sign in above. Everyone else can preview every product as a guest; progress stays in this browser only.';
+    s.dataset.id = 'Peninjau yang diundang masuk lewat formulir di atas. Yang lain bisa mencoba semua produk sebagai tamu, progres hanya tersimpan di peramban ini.';
+    apiNote.hidden = false; applyLang();
+  }
 });
 F('guestBtn').addEventListener('click', () => { MT_AUTH.guest(); goSuccess(true); });
 
