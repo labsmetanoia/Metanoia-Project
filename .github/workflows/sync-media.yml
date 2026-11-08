@@ -37,10 +37,13 @@ jobs:
           # Tolerate values pasted with labels, the S3 hostname or stray whitespace:
           # the account id is the first 32-hex token, the keys are trimmed.
           ACCOUNT="$(printf '%s' "${RAW_ACCOUNT_ID}" | grep -oE '[0-9a-f]{32}' | head -1 || true)"
-          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$(printf '%s' "${RAW_ACCESS_KEY_ID}" | tr -d '[:space:]')"
-          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$(printf '%s' "${RAW_SECRET_ACCESS_KEY}" | tr -d '[:space:]')"
+          # R2 S3 credentials: the Access Key ID is 32 hex characters and the Secret Access Key is 64.
+          # (The 40-character "Token value" on the same Cloudflare screen is not used here.)
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$(printf '%s' "${RAW_ACCESS_KEY_ID}" | grep -oE '[0-9a-f]{32}' | head -1 || true)"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$(printf '%s' "${RAW_SECRET_ACCESS_KEY}" | grep -oE '[0-9a-f]{64}' | head -1 || true)"
           export RCLONE_CONFIG_R2_ENDPOINT="https://${ACCOUNT}.r2.cloudflarestorage.com"
           test -n "${ACCOUNT}" || { echo "::error::R2_ACCOUNT_ID does not contain a 32-character account id"; exit 1; }
-          test -n "${RCLONE_CONFIG_R2_ACCESS_KEY_ID}" -a -n "${RCLONE_CONFIG_R2_SECRET_ACCESS_KEY}" || { echo "::error::R2_ACCESS_KEY_ID or R2_SECRET_ACCESS_KEY is empty"; exit 1; }
+          test -n "${RCLONE_CONFIG_R2_ACCESS_KEY_ID}" || { echo "::error::R2_ACCESS_KEY_ID is not a 32-character hex Access Key ID. On the Cloudflare token screen use 'Access Key ID', not 'Token value'."; exit 1; }
+          test -n "${RCLONE_CONFIG_R2_SECRET_ACCESS_KEY}" || { echo "::error::R2_SECRET_ACCESS_KEY is not a 64-character hex Secret Access Key."; exit 1; }
           rclone sync prototype/assets/lms "r2:${BUCKET}/lms" --checksum --transfers 16 --s3-no-check-bucket --stats-one-line -v
           rclone size "r2:${BUCKET}/lms"
