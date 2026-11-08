@@ -463,7 +463,8 @@ if(Q.get('reset')) showView('resetView');
 
 /* a signed-out visitor who still has a server session goes straight through */
 MT_AUTH.ready.then(u => { if(u && !Q.get('reset')) location.replace(redirectTo || 'portal'); });
-MT_AUTH.available().then(ok => {
+/* accounts closed (no API on this host, or AUTH_ENABLED off): say so and offer the guest preview */
+MT_AUTH.accountsOpen().then(ok => {
   apiOk = ok;
   if(!ok){ apiNote.hidden = false; F('loginForm').dataset.api = 'off'; }
 });

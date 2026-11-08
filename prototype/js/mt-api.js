@@ -6,6 +6,10 @@
  * that needs a server shows its honest "not available on this site yet"
  * state instead of pretending. The probe result is cached for ten minutes in
  * sessionStorage so the question is asked once per visit, not once per page.
+ *
+ * `MT_API.accounts()` is narrower: true only when the API is up AND the server
+ * reports accounts open (health.accounts, the AUTH_ENABLED switch). Leads and
+ * events need only available(); sign-in and registration need accounts().
  */
 (function () {
   'use strict';
@@ -67,6 +71,8 @@
     health: health,
     available: function () { return health().then(function (h) { return h.ok; }); },
     availableSync: function () { var c = cached(); return c ? !!c.ok : null; },
+    accounts: function () { return health().then(function (h) { return !!(h.ok && h.info && h.info.accounts === true); }); },
+    accountsSync: function () { var c = cached(); return c ? !!(c.ok && c.info && c.info.accounts === true) : null; },
     get: function (p, o) { return request('GET', p, undefined, o); },
     post: function (p, b, o) { return request('POST', p, b, o); },
     put: function (p, b, o) { return request('PUT', p, b, o); },
