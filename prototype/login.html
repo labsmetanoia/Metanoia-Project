@@ -403,6 +403,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
 <script src="js/mt-api.js"></script>
 <script src="js/mt-auth.js"></script>
+<script src="data/security.js"></script>
+<script src="js/mt-turnstile.js"></script>
 <script>
 (() => {
 'use strict';
@@ -508,8 +510,10 @@ if(wlForm) wlForm.addEventListener('submit', async e => {
   if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return say(id ? 'Masukkan alamat e-mail yang valid.' : 'Enter a valid e-mail address.', 'err');
   btn.disabled = true; say(id ? 'Menyimpan…' : 'Saving…');
   let audience = null; try { audience = localStorage.getItem('mt-audience'); } catch(err) {}
-  const r = await MT_API.post('/leads/waitlist', { email, consent: true, audience, locale: lang, source_page: location.pathname });
+  const turnstile = window.MT_TS ? await MT_TS.token(wlForm) : null;
+  const r = await MT_API.post('/leads/waitlist', { email, consent: true, audience, locale: lang, source_page: location.pathname, turnstile });
   btn.disabled = false;
+  if(r.status === 400 && r.data && r.data.field === 'turnstile') return say(id ? 'Kami belum bisa memastikan permintaan ini berasal dari orang. Muat ulang halaman dan coba lagi.' : 'We could not confirm the request came from a person. Reload the page and try again.', 'err');
   if(r.ok){
     F('wlEmail').value = '';
     try{ if(window.MT && MT.track) MT.track('lead.form.submitted', { kind: 'waitlist' }); }catch(err){}

@@ -250,6 +250,25 @@
     wireAnalytics();
   }
 
+  /* ── Turnstile for the footer newsletter form: data/security.js and
+     js/mt-turnstile.js are fetched only when a form is submitted, so the
+     thousand pages that carry the footer never load them for nothing.
+     Resolves null when the widget is not configured or cannot run; the API
+     decides whether that is acceptable. ── */
+  function loadScript(src) {
+    return new Promise(function (resolve) {
+      var sc = document.createElement('script'); sc.src = base + src; sc.async = true;
+      sc.onload = function () { resolve(true); }; sc.onerror = function () { resolve(false); };
+      document.head.appendChild(sc);
+    });
+  }
+  function turnstileToken(form) {
+    var cfg = window.MT_TURNSTILE ? Promise.resolve(true) : loadScript('data/security.js');
+    return cfg.then(function () { return window.MT_TS ? true : loadScript('js/mt-turnstile.js'); })
+      .then(function () { return window.MT_TS ? window.MT_TS.token(form) : null; })
+      .catch(function () { return null; });
+  }
+
   /* ── Analytics on every page: once the page is idle, load js/mt-api.js
      (if the page has not), data/analytics.js and js/mt-events.js, which
      records one site.page.viewed and, when a Cloudflare Web Analytics token
@@ -312,7 +331,8 @@
             if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { if (input) input.focus(); return; }
             note.style.color = '#E8C766';
             note.textContent = isID() ? 'Mengirim…' : 'Sending…';
-            api.post('/leads/newsletter', { email: email, consent: true, locale: api.locale(), source_page: location.pathname }).then(function (r) {
+            turnstileToken(f).then(function (tok) {
+            return api.post('/leads/newsletter', { email: email, consent: true, locale: api.locale(), source_page: location.pathname, turnstile: tok }); }).then(function (r) {
               if (r.ok) {
                 if (input) input.value = '';
                 try { if (window.MT && window.MT.track) window.MT.track('lead.form.submitted', { kind: 'newsletter' }); } catch (e) {}

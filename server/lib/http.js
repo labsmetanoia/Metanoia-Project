@@ -131,6 +131,27 @@ export const configured = env => ({
   subject: !!env.SUBJECT_KEY
 });
 
+/* ── Turnstile ──
+   Verifies the token the page obtained from Cloudflare Turnstile (js/mt-turnstile.js).
+   Without TURNSTILE_SECRET_KEY the check is skipped and reported as such, so the API
+   keeps working on a host where the widget is not configured. */
+export async function verifyTurnstile(env, token, ip) {
+  if (!env.TURNSTILE_SECRET_KEY) return { ok: true, skipped: true };
+  if (typeof token !== 'string' || token.length < 20 || token.length > 2048) return { ok: false, reason: 'missing' };
+  try {
+    const r = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ secret: env.TURNSTILE_SECRET_KEY, response: token, ...(ip && ip !== 'unknown' ? { remoteip: ip } : {}) })
+    });
+    const j = await r.json().catch(() => null);
+    if (j && j.success) return { ok: true };
+    return { ok: false, reason: (j && j['error-codes'] || ['unknown']).join(',') };
+  } catch (e) {
+    return { ok: false, reason: 'unreachable' };
+  }
+}
+
 /* ── accounts switch ──
    'open'   AUTH_ENABLED=true (wrangler.toml): anyone can register and sign in.
    'invite' AUTH_ENABLED is not true but the ADMIN_EMAILS secret (dashboard,

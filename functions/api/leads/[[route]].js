@@ -10,7 +10,7 @@
  *   GET  /api/leads/newsletter/confirm?token=   → 302 /?subscribed=1
  */
 import { json, fail, readJson, sameOrigin, rateLimit, clientIp, isEmail, normEmail, clip, localeOf, newId, nowIso,
-  randomToken, sha256, AUDIENCES } from '../../../server/lib/http.js';
+  randomToken, sha256, AUDIENCES, verifyTurnstile } from '../../../server/lib/http.js';
 import { mailMentorReceived, mailEnterpriseReceived, mailNewsletterConfirm, mailWaitlistReceived, mailLeadNotify } from '../../../server/lib/mail.js';
 
 const CONSENT_VERSIONS = { terms_version: '1.0-draft', privacy_version: '1.0-draft' };
@@ -52,6 +52,8 @@ export async function onRequestPost({ request, env, params }) {
   if (!(await rateLimit(env, 'lead:' + ip, 20, 3600))) return fail(429, 'too many submissions');
   const body = (await readJson(request)) || {};
   if (body._gotcha) return json({ ok: true, id: 'ok' });            /* honeypot: swallow silently */
+  const ts = await verifyTurnstile(env, body.turnstile, ip);
+  if (!ts.ok) return fail(400, 'verification failed', { field: 'turnstile' });
   const email = normEmail(body.email);
   if (!isEmail(email)) return fail(400, 'valid e-mail required', { field: 'email' });
   const locale = localeOf(body.locale);
