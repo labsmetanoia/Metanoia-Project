@@ -13,4 +13,4 @@ crons = ["15 2 * * *"]   # 02:15 UTC daily
 [[d1_databases]]
 binding = "DB"
 database_name = "metanoia"
-database_id = "00000000-0000-0000-0000-000000000000"   # same id as ../../wrangler.toml
+database_id = "d4ced8e5-f577-4f25-93ca-45bafff74974"   # same id as ../../wrangler.toml
