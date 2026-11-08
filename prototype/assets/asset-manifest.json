@@ -30973,6 +30973,30 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Pack 1.1, section \"Why the top of the funnel looks for reasons to say no\". Two identifiable people: licence proof and model releases to be filed before launch."
+    },
+    {
+      "file": "assets/pe/th-year1.jpg",
+      "bytes": 103302,
+      "category": "photo",
+      "people": "yes",
+      "source": "Owner-supplied photo (uploaded to the repository as Year 1.jpg on 2026-11-08; original kept at docs/references/images/year-1-source.jpg), cropped to 4:3 and resized to 1120 px for the Early Professional Stage 01 (Year 1) tab",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Replaces the hero-derived trail crop on the Year 1 tab (design feedback of 2026-11-08). One identifiable person: licence proof and a model release are still to be filed before launch."
+    },
+    {
+      "file": "assets/pe/ed-abroad.jpg",
+      "bytes": 122322,
+      "category": "photo",
+      "people": "yes",
+      "source": "Owner-supplied photo (uploaded as Go Abroad.jpg; original kept at docs/references/images/go-abroad-source.jpg), cropped to 10:7 and resized to 1600 px for the Early Professional Decision 04 (Go abroad?) tile",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Same source as assets/pe/ed-abroad-map.jpg. Replaces the mountaineers photo on the Go abroad? tile (design feedback of 2026-11-08). One identifiable person: licence proof and a model release are still to be filed before launch."
     }
   ]
 }

@@ -315,13 +315,21 @@
         forms.forEach(function (f) {
           if (f.__mtWired) return;
           f.__mtWired = true;
-          var note = document.createElement('p');
-          note.className = 'sf-consent';
-          note.style.cssText = 'margin:8px 0 0;font-size:12px;line-height:1.5;color:rgba(245,239,230,.6)';
-          note.innerHTML = isID()
-            ? 'Dengan mendaftar kamu setuju menerima Surat dari ekspedisi; berhenti kapan saja. <a href="' + base + 'legal/privacy" style="color:inherit">Pemberitahuan privasi</a>.'
-            : 'By subscribing you agree to receive Letters from the expedition; unsubscribe any time. <a href="' + base + 'legal/privacy" style="color:inherit">Privacy notice</a>.';
-          f.appendChild(note);
+          /* The note sits under the pill, never inside it: the form is a flex row and a
+             paragraph appended to it would become a third column. The mailto note that
+             the page ships (.sf-nf) is reused when present, so the language toggle keeps
+             working through its data-en / data-id attributes. */
+          var note = f.nextElementSibling && f.nextElementSibling.classList.contains('sf-nf') ? f.nextElementSibling : null;
+          if (!note) {
+            note = document.createElement('p');
+            note.className = 'sf-nf';
+            f.insertAdjacentElement('afterend', note);
+          }
+          note.classList.add('sf-consent');
+          var noteId = 'Dengan mendaftar kamu setuju menerima Surat dari ekspedisi; berhenti kapan saja. <a href="' + base + 'legal/privacy">Pemberitahuan privasi</a>.';
+          var noteEn = 'By subscribing you agree to receive Letters from the expedition; unsubscribe any time. <a href="' + base + 'legal/privacy">Privacy notice</a>.';
+          note.setAttribute('data-en', noteEn); note.setAttribute('data-id', noteId);
+          note.innerHTML = isID() ? noteId : noteEn;
           f.addEventListener('submit', function (e) {
             var api = window.MT_API;
             if (!api || api.availableSync() !== true) return;          /* mailto fallback stays */
@@ -329,11 +337,13 @@
             var input = f.querySelector('input[type="email"], input[name="email"]');
             var email = input ? input.value.trim() : '';
             if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { if (input) input.focus(); return; }
-            note.style.color = '#E8C766';
+            note.classList.add('busy'); note.removeAttribute('data-en'); note.removeAttribute('data-id');
             note.textContent = isID() ? 'Mengirim…' : 'Sending…';
             turnstileToken(f).then(function (tok) {
             return api.post('/leads/newsletter', { email: email, consent: true, locale: api.locale(), source_page: location.pathname, turnstile: tok }); }).then(function (r) {
+              note.classList.remove('busy');
               if (r.ok) {
+                note.classList.add('done');
                 if (input) input.value = '';
                 try { if (window.MT && window.MT.track) window.MT.track('lead.form.submitted', { kind: 'newsletter' }); } catch (e) {}
                 note.textContent = r.data && r.data.confirmation_email
