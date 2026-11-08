@@ -279,7 +279,7 @@ Effort assumes the technical lead working alone; "day" is a working day.
 | # | Action | Depends on | Effort |
 |---|---|---|---|
 | 1.1 | Magic-link sign-in (token kind, template, `/auth/magic`, `/auth/magic/consume`); Google sign-in after; registration claims Career Map results (§6.1, §5.1) | 0.1, 0.4 | 2 days + 1 day |
-| 1.2 | Server persistence live for lesson progress, Compass and Career Map through `/api/progress`; export and delete in Settings surfaced; weekly D1 export (§5.3) | 1.1 | 2 days |
+| 1.2 | Server persistence live for lesson progress, Compass and Career Map through `/api/progress`; export and delete in Settings surfaced; weekly D1 export (§5.3). **Done:** every product key is mirrored with write-time stamps, the server merges per key with tombstones (`server/lib/progress.js`), a new device reloads once with the account copy, Settings shows the sync state; export, delete and the encrypted weekly D1 backup shipped earlier | 1.1 | done |
 | 1.3 | Lifecycle mail: result → weakest gate → weekly nudge, all with unsubscribe, marketing consent respected | 0.4, 1.1 | 2 days |
 | 1.4 | DPIA for the Career Map and events; breach runbook; processor agreements filed; privacy notice version 1.0 and consent versions bumped; minors' consent step (§6.4) | counsel | 1 week elapsed, 1 day of work |
 | 1.5 | About page with the named team; content freeze on net-new lessons until 0.1 to 0.4 and 1.1 to 1.2 are live | none | as in the existing roadmap |
