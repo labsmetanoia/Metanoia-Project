@@ -23,7 +23,7 @@ pages_build_output_dir = "prototype"
 [[d1_databases]]
 binding = "DB"
 database_name = "metanoia"
-database_id = "00000000-0000-0000-0000-000000000000"   # replace with the id from `wrangler d1 create metanoia`
+database_id = "d4ced8e5-f577-4f25-93ca-45bafff74974"   # D1 "metanoia", APAC
 migrations_dir = "migrations"
 
 [vars]
