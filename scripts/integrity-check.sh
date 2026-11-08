@@ -110,6 +110,10 @@ if ! python3 scripts/check-mindpalace.py; then FAIL=1; fi
 echo "── 11. editorial punctuation: no em dashes in user-facing copy (docs/16-editorial-punctuation.md)"
 if ! python3 scripts/check-punctuation.py; then FAIL=1; fi
 
+echo "── 13. no unprovable ranking claims (\"top 1%\") in user-facing copy (Tier 1 brief, Part 7)"
+CLAIMS=$(grep -rniE "top 1%|top 1 ?percent|1% teratas|1% terbaik|1 ?persen teratas" prototype --include='*.html' --include='*.js' 2>/dev/null | grep -v "^prototype/assets/" || true)
+if [ -n "$CLAIMS" ]; then echo "$CLAIMS"; echo "   ✗ ranking claim found"; FAIL=1; else echo "   clean"; fi
+
 if [ $FAIL -ne 0 ]; then
   echo "✗ integrity check FAILED"; exit 1
 fi

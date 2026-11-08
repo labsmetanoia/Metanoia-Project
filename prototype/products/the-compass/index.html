@@ -2479,8 +2479,8 @@ function renderVelocity(apps) {
   $('veloBody').innerHTML =
     '<div class="velo-sec"><h4>' + L('Applications per week (last 12 weeks)', 'Lamaran per minggu (12 minggu terakhir)') + '</h4>' +
     '<svg width="100%" height="62" viewBox="0 0 306 62" preserveAspectRatio="xMinYMax meet" role="img" aria-label="Applications per week">' + bars + '</svg>' +
-    '<div class="vs-meta">' + L('Peak: <b>' + Math.max.apply(null, weeks) + '</b> · Average: <b>' + avg + '</b> · This week: <b>' + weeks[11] + '</b> · Top 1% benchmark: <b>8+</b>',
-      'Puncak: <b>' + Math.max.apply(null, weeks) + '</b> · Rata-rata: <b>' + avg + '</b> · Minggu ini: <b>' + weeks[11] + '</b> · Benchmark 1% teratas: <b>8+</b>') + '</div></div>' +
+    '<div class="vs-meta">' + L('Peak: <b>' + Math.max.apply(null, weeks) + '</b> · Average: <b>' + avg + '</b> · This week: <b>' + weeks[11] + '</b> · Strong-week benchmark: <b>8+</b>',
+      'Puncak: <b>' + Math.max.apply(null, weeks) + '</b> · Rata-rata: <b>' + avg + '</b> · Minggu ini: <b>' + weeks[11] + '</b> · Patokan minggu kuat: <b>8+</b>') + '</div></div>' +
     '<div class="velo-sec"><h4>' + L('Stage conversion rates', 'Tingkat konversi tahap') + '</h4>' +
     conv.map(c => '<div class="conv-row"><span class="cv-l">' + c.l + '</span><span class="cv-bar"><i style="width:' + Math.min(100, c.v) + '%"></i></span>' +
       '<span class="cv-v' + (c.v >= c.bm ? ' good' : '') + '">' + c.v + '% (' + L('benchmark', 'benchmark') + ': ' + c.bm + '%)' + (c.v >= c.bm ? ' ✓' : '') + '</span></div>').join('') + '</div>' +

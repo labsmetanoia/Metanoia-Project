@@ -22,5 +22,6 @@ export async function onRequestGet({ env }) {
   const ok = db && c.session;
   const mode = accountsMode(env);
   const accounts = !ok ? false : mode === 'open' ? true : mode === 'invite' ? 'invite' : false;
-  return json({ ok, service: 'metanoia-api', version: 1, db, mail: c.mail, session: c.session, admin: c.admin, accounts, time: nowIso() }, ok ? 200 : 503);
+  const beta_ends_at = /^\d{4}-\d{2}-\d{2}$/.test(env.BETA_ENDS_AT || '') ? env.BETA_ENDS_AT : null;
+  return json({ ok, service: 'metanoia-api', version: 1, db, mail: c.mail, session: c.session, admin: c.admin, accounts, beta_ends_at, time: nowIso() }, ok ? 200 : 503);
 }

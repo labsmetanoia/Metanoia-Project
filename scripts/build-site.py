@@ -57,6 +57,7 @@ GENERATED = [
     os.path.join(PROTO, 'data', 'range', 'stats.js'),
     os.path.join(PROTO, 'mind-palace'),
     os.path.join(PROTO, 'data', 'search-index.json'),
+    os.path.join(PROTO, 'data', 'build-status.json'),
     os.path.join(PROTO, 'sitemap.xml'),
     os.path.join(PROTO, '404.html'),
     os.path.join(PROTO, 'demo.html'),
@@ -1001,6 +1002,25 @@ def relocate_media():
             print('media: prototype/assets/lms removed from the output (served from R2)')
 
 
+def stamp_status(range_companies, mind_palace_articles):
+    """data/build-status.json: the date of this build (and the commit, when known), read by
+    js/build-status.js so the "Updated …" on the status board is the last deploy, not a date
+    someone remembered to edit. The counts let the page cite real numbers."""
+    import datetime
+    commit = os.environ.get('CF_PAGES_COMMIT_SHA') or os.environ.get('GITHUB_SHA') or ''
+    if not commit:
+        try:
+            commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, stderr=subprocess.DEVNULL).decode().strip()
+        except Exception:
+            commit = ''
+    write_json(os.path.join(PROTO, 'data', 'build-status.json'), {
+        'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d'),
+        'commit': commit[:12],
+        'range_companies': range_companies,
+        'mind_palace_articles': mind_palace_articles,
+    })
+
+
 def stamp_assets():
     """Cloudflare Pages build (CF_PAGES set, or ASSET_STAMP=1): append ?v=<content hash> to every
     local script and stylesheet reference in the HTML, so a page always loads the scripts it was
@@ -1083,6 +1103,8 @@ def main():
     print(f'sitemap.xml: {n_urls} URLs')
     n_idx = build_search_index(manifest, rng, mp)
     print(f'search-index.json: {n_idx} entries')
+    stamp_status(n_co, n_art)
+    print('build-status.json: stamped')
     relocate_media()
     stamp_assets()
     if make_og:

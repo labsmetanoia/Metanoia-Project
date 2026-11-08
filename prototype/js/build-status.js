@@ -25,12 +25,18 @@
     return '<div class="built-col ' + cls + '"><h3><span class="chip ' + chip + '"><i></i>' + bi(label[0], label[1]) + '</span><span class="bc-n">' + items.length + '</span></h3><ul>' +
       items.map(function (it) { return '<li><i class="bc-ic" aria-hidden="true">' + icon + '</i>' + bi(it.en, it.id) + '</li>'; }).join('') + '</ul></div>';
   }
+  /* the build stamps data/build-status.json on every deploy; a stamp older than 45 days means the list itself needs a look */
+  var STALE_DAYS = 45;
+  function stale() { var t = Date.parse(D.updated); return !isNaN(t) && (Date.now() - t) > STALE_DAYS * 86400000; }
   function head() {
     var n = D.live.length, m = D.coming.length;
+    var upd = stale()
+      ? bi('Updated ' + D.updated + ' · more than ' + STALE_DAYS + ' days ago, being reviewed', 'Diperbarui ' + D.updated + ' · lebih dari ' + STALE_DAYS + ' hari lalu, sedang ditinjau')
+      : bi('Updated ' + D.updated, 'Diperbarui ' + D.updated);
     return '<div class="bb-head"><div>' + bi('Build status', 'Status pengembangan', 'span').replace('<span ', '<span class="bb-k" ') +
       '<b data-en="&lt;em&gt;' + n + ' live&lt;/em&gt; today · ' + m + ' in development" data-id="&lt;em&gt;' + n + ' tersedia&lt;/em&gt; hari ini · ' + m + ' sedang dikembangkan">' +
       (lang() === 'id' ? '<em>' + n + ' tersedia</em> hari ini · ' + m + ' sedang dikembangkan' : '<em>' + n + ' live</em> today · ' + m + ' in development') + '</b></div>' +
-      '<span class="bb-upd">' + CAL + bi('Updated ' + D.updated, 'Diperbarui ' + D.updated) + '</span></div>';
+      '<span class="bb-upd' + (stale() ? ' bb-stale' : '') + '">' + CAL + upd + '</span></div>';
   }
   function foot() {
     return '<div class="bb-foot">' + FLAG + bi('A short true list rather than a long invented one; this board changes as we ship.',
@@ -63,5 +69,15 @@
       h.innerHTML = html;
     }
   }
+  /* the build's stamp (data/build-status.json) overrides the hand-written date; render first, refine when it arrives */
+  function stamped() {
+    var src = (document.currentScript && document.currentScript.src) || '';
+    var base = src.replace(/js\/build-status\.js.*$/, '') || './';
+    if (!window.fetch) return;
+    fetch(base + 'data/build-status.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+      if (j && /^\d{4}-\d{2}-\d{2}$/.test(j.updated || '') && j.updated !== D.updated) { D.updated = j.updated; render(); }
+    }).catch(function () {});
+  }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', render); else render();
+  stamped();
 })();
