@@ -1,15 +1,21 @@
 /**
  * ANALYTICS CONFIGURATION
  * -----------------------
- * js/mt-events.js reads this file. Leave `ga4` empty until the real GA4
- * Measurement ID exists (Google Analytics → Admin → Data streams); the loader
- * refuses placeholders and loads nothing. First-party events go to
- * /api/events whenever the API is reachable, independently of GA4.
+ * js/mt-events.js reads this file (js/mob-footer.js loads both on every page
+ * once the page is idle).
  *
- * Consent: GA4 loads only when the visitor has not enabled Do-Not-Track and
- * has not declined analytics (localStorage mt-consent-analytics = "0").
+ * `cfToken`: the Cloudflare Web Analytics site token (Analytics & Logs → Web
+ * Analytics → Add a site → metanoialabs.net → the 32-character token in the
+ * snippet). Cookieless page analytics, served by Cloudflare, no cost. The
+ * loader refuses anything that is not a 32-hex token and loads nothing.
+ *
+ * First-party product events go to /api/events whenever the API is reachable,
+ * independently of the token.
+ *
+ * Consent: nothing loads or is sent when the visitor has enabled Do-Not-Track
+ * or declined analytics (localStorage mt-consent-analytics = "0").
  */
 window.MT_ANALYTICS = {
-  ga4: '',                 /* e.g. 'G-ABC123XYZ' */
+  cfToken: '',             /* e.g. '0123456789abcdef0123456789abcdef' */
   firstParty: true         /* send product events to /api/events when available */
 };

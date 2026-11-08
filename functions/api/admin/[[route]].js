@@ -11,7 +11,7 @@ import { json, fail, readJson, clip, nowIso } from '../../../server/lib/http.js'
 import { isAdmin } from '../../../server/lib/auth.js';
 
 const STATUSES = ['new', 'reviewing', 'accepted', 'declined', 'contacted', 'archived', 'confirmed', 'unsubscribed'];
-const KINDS = ['mentor', 'enterprise', 'newsletter'];
+const KINDS = ['mentor', 'enterprise', 'newsletter', 'waitlist', 'results'];
 
 const guard = (request, env) => {
   if (!env.ADMIN_TOKEN) return fail(503, 'admin not configured');

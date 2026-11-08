@@ -462,6 +462,7 @@ form.addEventListener('submit', async e => {
     F('refLine').textContent = TT('ref') + ' ' + r.data.id.slice(0, 8).toUpperCase();
     if(r.data.confirmation_email) F('okLine').textContent = F('okLine').textContent + ' ' + TT('mailed');
     document.getElementById('successVeil').classList.add('show');
+    try{ if(window.MT && MT.track) MT.track('lead.form.submitted', { kind: 'mentor' }); }catch(e){}
     return;
   }
   if(r.offline){ apiOk=false; apiNote.hidden=false; form.dataset.api='off'; F('mailFallback').href = mailHref(); return fail(TT('offline'),[]); }

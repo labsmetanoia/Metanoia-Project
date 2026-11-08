@@ -6,11 +6,12 @@
  *   POST /api/leads/mentor       mentor application
  *   POST /api/leads/enterprise   discovery-call inquiry
  *   POST /api/leads/newsletter   newsletter sign-up (double opt-in when mail exists)
+ *   POST /api/leads/waitlist     "tell me when accounts open" (login and register pages while accounts are closed)
  *   GET  /api/leads/newsletter/confirm?token=   → 302 /?subscribed=1
  */
 import { json, fail, readJson, sameOrigin, rateLimit, clientIp, isEmail, normEmail, clip, localeOf, newId, nowIso,
-  randomToken, sha256 } from '../../../server/lib/http.js';
-import { mailMentorReceived, mailEnterpriseReceived, mailNewsletterConfirm, mailLeadNotify } from '../../../server/lib/mail.js';
+  randomToken, sha256, AUDIENCES } from '../../../server/lib/http.js';
+import { mailMentorReceived, mailEnterpriseReceived, mailNewsletterConfirm, mailWaitlistReceived, mailLeadNotify } from '../../../server/lib/mail.js';
 
 const CONSENT_VERSIONS = { terms_version: '1.0-draft', privacy_version: '1.0-draft' };
 
@@ -100,6 +101,19 @@ export async function onRequestPost({ request, env, params }) {
       sent = (await mailNewsletterConfirm(env, { to: email, url: `${site}/api/leads/newsletter/confirm?token=${raw}`, locale })).sent;
     }
     return json({ ok: true, id, confirmation_email: sent, double_opt_in: !!env.RESEND_API_KEY }, 201);
+  }
+
+  if (route === 'waitlist') {
+    if (body.consent !== true) return fail(400, 'consent required', { field: 'consent' });
+    const name = clip(body.name, 80) || null;
+    const audience = AUDIENCES.includes(body.audience) ? body.audience : null;
+    const dup = await env.DB.prepare("SELECT id FROM leads WHERE kind = 'waitlist' AND email = ? LIMIT 1").bind(email).first();
+    if (dup) return json({ ok: true, id: dup.id, already: true, confirmation_email: false });
+    const consent = { ...CONSENT_VERSIONS, marketing: false, consented_at: nowIso(), method: 'waitlist-box' };
+    const id = await store(env, 'waitlist', { email, name, payload: { audience, wants: 'account' }, consent, locale, source_page });
+    /* one acknowledgement, no team notification: the admin page lists the queue, and Resend's daily allowance is small */
+    const ack = await mailWaitlistReceived(env, { to: email, name, locale });
+    return json({ ok: true, id, confirmation_email: ack.sent }, 201);
   }
 
   return fail(404, 'unknown route');

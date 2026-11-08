@@ -247,6 +247,32 @@
     mediaPolicy();
     scrolledHeader();
     blackGround();
+    wireAnalytics();
+  }
+
+  /* ── Analytics on every page: once the page is idle, load js/mt-api.js
+     (if the page has not), data/analytics.js and js/mt-events.js, which
+     records one site.page.viewed and, when a Cloudflare Web Analytics token
+     is configured, adds the cookieless beacon. Pages that load mt-events.js
+     themselves (the Career Map) are left alone. Nothing loads when the
+     visitor has opted out (mt-events.js checks Do-Not-Track and the consent
+     flag before sending anything). ── */
+  function wireAnalytics() {
+    if (window.MT && window.MT.track) return;
+    if (document.querySelector('script[src*="js/mt-events.js"]')) return;
+    function load(src, cb) {
+      var sc = document.createElement('script'); sc.src = base + src; sc.async = true;
+      sc.onload = cb; sc.onerror = function () {};
+      document.head.appendChild(sc);
+    }
+    afterLoad(function () {
+      var api = window.MT_API ? function (cb) { cb(); } : function (cb) { load('js/mt-api.js', cb); };
+      api(function () {
+        if (window.MT && window.MT.track) return;
+        var cfg = window.MT_ANALYTICS ? function (cb) { cb(); } : function (cb) { load('data/analytics.js', cb); };
+        cfg(function () { load('js/mt-events.js', function () {}); });
+      });
+    });
   }
 
   /* ── Newsletter: every footer form posts to the site's own API (stored with
@@ -289,6 +315,7 @@
             api.post('/leads/newsletter', { email: email, consent: true, locale: api.locale(), source_page: location.pathname }).then(function (r) {
               if (r.ok) {
                 if (input) input.value = '';
+                try { if (window.MT && window.MT.track) window.MT.track('lead.form.submitted', { kind: 'newsletter' }); } catch (e) {}
                 note.textContent = r.data && r.data.confirmation_email
                   ? (isID() ? 'Cek kotak masukmu untuk mengonfirmasi langganan.' : 'Check your inbox to confirm your subscription.')
                   : (isID() ? 'Terdaftar. Kami mengonfirmasi lewat e-mail sebelum surat pertama terkirim.' : 'Signed up. We confirm by e-mail before the first letter goes out.');
