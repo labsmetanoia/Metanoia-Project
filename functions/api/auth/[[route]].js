@@ -12,7 +12,7 @@
  *   POST /api/auth/resend-verify
  */
 import { json, fail, readJson, sameOrigin, rateLimit, clientIp, isEmail, normEmail, clip, localeOf, AUDIENCES,
-  hashPassword, verifyPassword, randomToken, sha256, newId, nowIso, configured, accountsMode, isAdminEmail } from '../../../server/lib/http.js';
+  hashPassword, verifyPassword, randomToken, sha256, newId, nowIso, configured, accountsMode, isAdminEmail, verifyTurnstile } from '../../../server/lib/http.js';
 import { getUser, createSession, destroySession, publicUser } from '../../../server/lib/auth.js';
 import { mailVerify, mailReset } from '../../../server/lib/mail.js';
 
@@ -75,6 +75,8 @@ export async function onRequestPost({ request, env, params }) {
 
   if (route === 'register') {
     if (!(await rateLimit(env, 'reg:' + ip, 10, 3600))) return fail(429, 'too many attempts');
+    const ts = await verifyTurnstile(env, body.turnstile, ip);
+    if (!ts.ok) return fail(400, 'verification failed', { field: 'turnstile' });
     const name = clip(body.name, 80), email = normEmail(body.email), password = String(body.password || '');
     if (!name) return fail(400, 'name required', { field: 'name' });
     if (!isEmail(email)) return fail(400, 'valid e-mail required', { field: 'email' });

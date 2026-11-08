@@ -2321,7 +2321,8 @@ if(cform){
     }
     btn.disabled = true; const label = btn.textContent; btn.textContent = document.documentElement.lang === 'id' ? 'Mengirim…' : 'Sending…';
     try{
-      const body = Object.assign(payload(), { email: v('cf-email'), locale: (document.documentElement.lang || 'en'), source_page: location.pathname });
+      const turnstile = window.MT_TS ? await MT_TS.token(cform) : null;
+      const body = Object.assign(payload(), { email: v('cf-email'), locale: (document.documentElement.lang || 'en'), source_page: location.pathname, turnstile });
       const r = await fetch(endpoint, { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(body) });
       if(!r.ok) throw new Error('HTTP ' + r.status);
       /* confirmation only once the server says it stored the inquiry */
@@ -2529,6 +2530,8 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
 </script>
 <script src="../js/mt-api.js"></script>
 <script src="../data/contact.js"></script>
+<script src="../data/security.js"></script>
+<script src="../js/mt-turnstile.js"></script>
 
 <script>
 /* ═══ Chapter III folder navigation (shared pattern with the persona pages) ═══ */

@@ -394,6 +394,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </div>
 
 <script src="../js/mt-api.js"></script>
+<script src="../data/security.js"></script>
+<script src="../js/mt-turnstile.js"></script>
 <script>
 (() => {
 'use strict';
@@ -401,12 +403,14 @@ const I18N = {
   en:{ noName:'Please enter your name.', badEmail:'Please enter a valid email address.', noExpertise:'Please tell us your industry and function.',
        badYears:'Please enter your years of experience as a number.', badLinkedin:'The LinkedIn link should start with linkedin.com.',
        noTerms:'Please accept the Terms to continue.', tooMany:'Too many submissions from this connection. Please try again later.',
+       verify:'We could not confirm the submission came from a person. Reload the page and try again.',
        offline:'Applications are not open on this site yet, so nothing was sent. Use the e-mail link above.',
        failed:'The application could not be stored. Nothing was lost; please try again, or e-mail it to hello@metanoialabs.net.',
        sending:'Submitting…', mailed:'A confirmation e-mail is on its way.', ref:'Reference' },
   id:{ noName:'Silakan masukkan namamu.', badEmail:'Silakan masukkan alamat email yang valid.', noExpertise:'Silakan beri tahu industri dan fungsimu.',
        badYears:'Silakan masukkan tahun pengalaman dalam angka.', badLinkedin:'Tautan LinkedIn harus dimulai dengan linkedin.com.',
        noTerms:'Silakan setujui Ketentuan untuk melanjutkan.', tooMany:'Terlalu banyak pengiriman dari koneksi ini. Coba lagi nanti.',
+       verify:'Kami belum bisa memastikan kiriman ini berasal dari orang. Muat ulang halaman dan coba lagi.',
        offline:'Pendaftaran belum dibuka di situs ini, jadi tidak ada yang terkirim. Gunakan tautan e-mail di atas.',
        failed:'Lamaran tidak dapat disimpan. Tidak ada yang hilang; coba lagi, atau kirim lewat e-mail ke hello@metanoialabs.net.',
        sending:'Mengirim…', mailed:'E-mail konfirmasi sedang dikirim.', ref:'Referensi' }
@@ -455,8 +459,9 @@ form.addEventListener('submit', async e => {
   if(apiOk===false){ apiNote.hidden=false; return fail(TT('offline'),[]); }
   const btn = form.querySelector('.btn-primary-auth'); const label = btn.innerHTML;
   btn.disabled = true; btn.textContent = TT('sending');
+  const turnstile = window.MT_TS ? await MT_TS.token(form) : null;
   const r = await MT_API.post('/leads/mentor', Object.assign(p, { terms: true, marketing: F('marketing').checked, locale: lang, source_page: location.pathname,
-    _gotcha: form.querySelector('[name="_gotcha"]').value }));
+    _gotcha: form.querySelector('[name="_gotcha"]').value, turnstile }));
   btn.disabled = false; btn.innerHTML = label;
   if(r.ok && r.data && r.data.id){
     F('refLine').textContent = TT('ref') + ' ' + r.data.id.slice(0, 8).toUpperCase();
@@ -467,6 +472,7 @@ form.addEventListener('submit', async e => {
   }
   if(r.offline){ apiOk=false; apiNote.hidden=false; form.dataset.api='off'; F('mailFallback').href = mailHref(); return fail(TT('offline'),[]); }
   if(r.status===429) return fail(TT('tooMany'),[]);
+  if(r.status===400 && r.data && r.data.field==='turnstile') return fail(TT('verify'),[]);
   const map = { name:'name', email:'email', expertise:'expertise', years:'years', linkedin:'linkedin' };
   const field = r.data && r.data.field;
   return fail(TT('failed') + (r.data && r.data.error ? ' (' + r.data.error + ')' : ''), field && map[field] ? [map[field]] : []);
