@@ -1,9 +1,10 @@
 name: Deploy prototype to GitHub Pages
 
+# Since 2026-11-08 the live site (metanoialabs.net) is served by Cloudflare Pages,
+# which builds every merge to main itself. GitHub Pages stays as a cold fallback:
+# run this workflow by hand only when Cloudflare is unavailable and the domain has
+# been pointed back at the 185.199.108-111.153 records (docs/14 §2a).
 on:
-  push:
-    branches: [main]
-    paths: ['prototype/**', 'scripts/**', '.github/workflows/deploy-pages.yml']
   workflow_dispatch:
 
 permissions:
