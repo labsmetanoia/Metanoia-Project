@@ -12,6 +12,7 @@
  * false when register/login answer 404 and the pages offer the guest preview.
  */
 import { json, configured, nowIso, accountsMode } from '../../server/lib/http.js';
+import { oauthConfigured } from '../../server/lib/oauth.js';
 
 export async function onRequestGet({ env }) {
   const c = configured(env);
@@ -23,5 +24,6 @@ export async function onRequestGet({ env }) {
   const mode = accountsMode(env);
   const accounts = !ok ? false : mode === 'open' ? true : mode === 'invite' ? 'invite' : false;
   const beta_ends_at = /^\d{4}-\d{2}-\d{2}$/.test(env.BETA_ENDS_AT || '') ? env.BETA_ENDS_AT : null;
-  return json({ ok, service: 'metanoia-api', version: 1, db, mail: c.mail, session: c.session, admin: c.admin, accounts, beta_ends_at, time: nowIso() }, ok ? 200 : 503);
+  /* magic: one-time sign-in links need mail; oauth: which providers have a client id and secret */
+  return json({ ok, service: 'metanoia-api', version: 1, db, mail: c.mail, session: c.session, admin: c.admin, accounts, magic: ok && c.mail, oauth: oauthConfigured(env), beta_ends_at, time: nowIso() }, ok ? 200 : 503);
 }

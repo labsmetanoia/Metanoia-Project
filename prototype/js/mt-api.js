@@ -81,7 +81,11 @@
     /* resolves true (open to everyone), 'invite' (only invited addresses may register; sign-in works) or false */
     accounts: function () { return health().then(function (h) { return accountsOf(h); }); },
     accountsSync: function () { var c = cached(); return c ? accountsOf(c) : null; },
+    /* which sign-in providers the server has credentials for: { google: bool, linkedin: bool }; and whether magic links can be mailed */
+    oauth: function () { return health().then(function (h) { return (h.ok && h.info && h.info.oauth) || {}; }); },
+    magic: function () { return health().then(function (h) { return !!(h.ok && h.info && h.info.magic); }); },
     get: function (p, o) { return request('GET', p, undefined, o); },
+    del: function (p, o) { return request('DELETE', p, undefined, o); },
     post: function (p, b, o) { return request('POST', p, b, o); },
     put: function (p, b, o) { return request('PUT', p, b, o); },
     patch: function (p, b, o) { return request('PATCH', p, b, o); },

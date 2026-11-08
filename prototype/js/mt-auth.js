@@ -74,6 +74,14 @@
       return A.post('/auth/logout', {}).then(function (r) { user = null; mirror(null); return r; });
     },
     requestReset: function (email) { return A.post('/auth/request-reset', { email: email }); },
-    reset: function (token, password) { return A.post('/auth/reset', { token: token, password: password }); }
+    reset: function (token, password) { return A.post('/auth/reset', { token: token, password: password }); },
+    /* passwordless: one-time link by e-mail; consume signs in (and creates the account on first use) */
+    magicRequest: function (data) { return A.post('/auth/magic/request', Object.assign({ locale: A.locale() }, data || {})); },
+    magicConsume: function (token) {
+      return A.post('/auth/magic/consume', { token: token, locale: A.locale() }).then(function (r) { if (r.ok) { user = r.data.user; mirror(user); } return r; });
+    },
+    /* signed-in devices (settings page) */
+    sessions: function () { return A.get('/auth/sessions'); },
+    revokeSession: function (id) { return A.del('/auth/sessions/' + encodeURIComponent(id)); }
   };
 })();

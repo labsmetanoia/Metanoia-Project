@@ -10,11 +10,20 @@
  *   POST /api/auth/reset           { token, password }
  *   GET  /api/auth/verify?token=   → 302 /login?verified=1
  *   POST /api/auth/resend-verify
+ *   POST /api/auth/magic/request   { email, next?, locale?, turnstile? }   one-time sign-in link by e-mail (always 200)
+ *   POST /api/auth/magic/consume   { token }                               signs in, creating the account on first use
+ *   GET  /api/auth/sessions        signed-in devices;  DELETE /api/auth/sessions/:id  revokes one
+ *   GET  /api/auth/oauth/:provider/start?next=   → 302 to Google / LinkedIn
+ *   GET  /api/auth/oauth/:provider/callback      → 302 to next (session cookie set) or /login?oauth=<reason>
  */
 import { json, fail, readJson, sameOrigin, rateLimit, clientIp, isEmail, normEmail, clip, localeOf, AUDIENCES,
-  hashPassword, verifyPassword, randomToken, sha256, newId, nowIso, configured, accountsMode, isAdminEmail, verifyTurnstile } from '../../../server/lib/http.js';
-import { getUser, createSession, destroySession, publicUser } from '../../../server/lib/auth.js';
-import { mailVerify, mailReset } from '../../../server/lib/mail.js';
+  hashPassword, verifyPassword, randomToken, sha256, newId, nowIso, configured, accountsMode, isAdminEmail, verifyTurnstile,
+  safeNext, isFounding } from '../../../server/lib/http.js';
+import { getUser, createSession, destroySession, publicUser, findOrCreateByEmail, listSessions, revokeSession } from '../../../server/lib/auth.js';
+import { mailVerify, mailReset, mailMagic } from '../../../server/lib/mail.js';
+import { PROVIDERS, oauthConfigured, startUrl, readState, clearStateCookie, fetchProfile } from '../../../server/lib/oauth.js';
+
+const MAGIC_MINUTES = 15;
 
 const CONSENT_VERSIONS = { terms_version: '1.0-draft', privacy_version: '1.0-draft' };
 const PW_MIN = 8, PW_MAX = 200;
@@ -44,13 +53,55 @@ async function consumeToken(env, kind, raw) {
 }
 
 export async function onRequestGet({ request, env, params }) {
-  if (accountsMode(env) === 'closed') return fail(404, 'accounts not open');   /* Tier 0: waitlist only; AUTH_ENABLED=true or ADMIN_EMAILS opens this (http.js accountsMode) */
+  const mode = accountsMode(env);
+  if (mode === 'closed') return fail(404, 'accounts not open');   /* Tier 0: waitlist only; AUTH_ENABLED=true or ADMIN_EMAILS opens this (http.js accountsMode) */
   const route = (params.route || []).join('/');
   if (!ready(env)) return fail(503, 'accounts not configured');
   if (route === 'me') {
     const u = await getUser(request, env);
     if (!u) return fail(401, 'not signed in');
     return json({ ok: true, user: publicUser(u) });
+  }
+  if (route === 'sessions') {
+    const u = await getUser(request, env);
+    if (!u) return fail(401, 'not signed in');
+    return json({ ok: true, sessions: await listSessions(request, env, u.id) });
+  }
+  if (route.startsWith('oauth/')) {
+    const [, provider, action] = route.split('/');
+    if (!PROVIDERS[provider] || !['start', 'callback'].includes(action)) return fail(404, 'unknown route');
+    const here = new URL(request.url);
+    const site = env.SITE_URL || here.origin;
+    const secure = here.protocol === 'https:';
+    /* the state cookie is set on the SITE_URL host, so the whole flow runs there (www → apex) */
+    if (here.origin !== new URL(site).origin) return Response.redirect(site + here.pathname + here.search, 302);
+    const back = reason => Response.redirect(`${site}/login?oauth=${reason}`, 302);
+    if (!oauthConfigured(env)[provider]) return back('unavailable');
+    if (action === 'start') {
+      const next = safeNext(here.searchParams.get('next'), '/portal');
+      const { url, cookie: c } = await startUrl(env, provider, next, site, secure);
+      return new Response(null, { status: 302, headers: { location: url, 'set-cookie': c } });
+    }
+    /* callback */
+    if (here.searchParams.get('error')) return back('denied');
+    let next = '/portal', profile;
+    try {
+      next = (await readState(env, request, provider, here.searchParams.get('state') || '')).next;
+      profile = await fetchProfile(env, provider, here.searchParams.get('code') || '', site);
+    } catch (e) {
+      return back(String(e && e.message || 'error').replace(/[^a-z]/g, '') || 'error');
+    }
+    if (!profile.email_verified) return back('unverified');
+    const email = normEmail(profile.email);
+    if (!isEmail(email)) return back('profile');
+    const admin = isAdminEmail(env, email);
+    if (mode === 'invite' && !admin) return back('invite');
+    const { user } = await findOrCreateByEmail(env, { email, name: profile.name, locale: 'en', method: 'oauth-' + provider, verified: true, admin, founding: isFounding(env) });
+    await env.DB.prepare('INSERT OR IGNORE INTO identities (provider, subject, user_id, email, created_at) VALUES (?, ?, ?, ?, ?)').bind(provider, profile.subject, user.id, email, nowIso()).run();
+    const headers = new Headers({ location: site + next });
+    headers.append('set-cookie', await createSession(request, env, user.id));
+    headers.append('set-cookie', clearStateCookie(secure));
+    return new Response(null, { status: 302, headers });
   }
   if (route === 'verify') {
     const token = new URL(request.url).searchParams.get('token') || '';
@@ -93,8 +144,8 @@ export async function onRequestPost({ request, env, params }) {
     const consent = { ...CONSENT_VERSIONS, marketing, consented_at: nowIso(), method: 'register-form' };
     const id = newId();
     const now = nowIso();
-    await env.DB.prepare('INSERT INTO users (id, email, name, pw_hash, role, audience, locale, consent_json, marketing_opt_in, created_at, updated_at, last_login_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
-      .bind(id, email, name, await hashPassword(password), admin ? 'admin' : 'member', audience, locale, JSON.stringify(consent), marketing ? 1 : 0, now, now, now).run();
+    await env.DB.prepare('INSERT INTO users (id, email, name, pw_hash, role, audience, locale, consent_json, marketing_opt_in, founding, created_at, updated_at, last_login_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+      .bind(id, email, name, await hashPassword(password), admin ? 'admin' : 'member', audience, locale, JSON.stringify(consent), marketing ? 1 : 0, isFounding(env) ? 1 : 0, now, now, now).run();
     const setCookie = await createSession(request, env, id);
     let verification = { sent: false, reason: 'mail not configured' };
     if (env.RESEND_API_KEY) {
@@ -128,6 +179,35 @@ export async function onRequestPost({ request, env, params }) {
   if (route === 'logout') {
     const clear = await destroySession(request, env);
     return json({ ok: true }, 200, { 'set-cookie': clear });
+  }
+
+  if (route === 'magic/request') {
+    /* always 200 with no hint whether the address has an account; throttles stay silent too */
+    const email = normEmail(body.email);
+    if (!isEmail(email)) return fail(400, 'valid e-mail required', { field: 'email' });
+    const ts = await verifyTurnstile(env, body.turnstile, ip);
+    if (!ts.ok) return fail(400, 'verification failed', { field: 'turnstile' });
+    if (!env.RESEND_API_KEY) return json({ ok: true, sent: false, mail_configured: false });
+    const okEmail = await rateLimit(env, 'magic:em:' + email, 3, 900);
+    const okIp = await rateLimit(env, 'magic:ip:' + ip, 10, 3600);
+    if (!okEmail || !okIp) return json({ ok: true, sent: false, mail_configured: true });
+    if (mode === 'invite' && !isAdminEmail(env, email)) return json({ ok: true, sent: false, mail_configured: true });
+    const next = safeNext(body.next, '/portal');
+    const raw = await issueToken(env, 'magic', { email, hours: MAGIC_MINUTES / 60 });
+    const url = `${site}/login?magic=${raw}&next=${encodeURIComponent(next)}`;
+    const r = await mailMagic(env, { to: email, url, minutes: MAGIC_MINUTES, locale: localeOf(body.locale) });
+    return json({ ok: true, sent: r.sent, mail_configured: true });
+  }
+
+  if (route === 'magic/consume') {
+    const row = await consumeToken(env, 'magic', String(body.token || ''));
+    if (!row || !row.email) return fail(400, 'link invalid or expired', { field: 'token' });
+    const email = normEmail(row.email);
+    const admin = isAdminEmail(env, email);
+    if (mode === 'invite' && !admin) return fail(403, 'invitation required', { field: 'email' });
+    const { user, created } = await findOrCreateByEmail(env, { email, locale: localeOf(body.locale), method: 'magic-link', verified: true, admin, founding: isFounding(env) });
+    const setCookie = await createSession(request, env, user.id);
+    return json({ ok: true, user: publicUser(user), created }, 200, { 'set-cookie': setCookie });
   }
 
   if (route === 'request-reset') {
@@ -166,4 +246,16 @@ export async function onRequestPost({ request, env, params }) {
   }
 
   return fail(404, 'unknown route');
+}
+
+export async function onRequestDelete({ request, env, params }) {
+  if (accountsMode(env) === 'closed') return fail(404, 'accounts not open');
+  if (!ready(env)) return fail(503, 'accounts not configured');
+  if (!sameOrigin(request)) return fail(403, 'origin');
+  const parts = params.route || [];
+  if (parts[0] !== 'sessions' || !parts[1]) return fail(404, 'unknown route');
+  const u = await getUser(request, env);
+  if (!u) return fail(401, 'not signed in');
+  const gone = await revokeSession(env, u.id, clip(parts[1], 12));
+  return gone ? json({ ok: true }) : fail(404, 'no such session');
 }

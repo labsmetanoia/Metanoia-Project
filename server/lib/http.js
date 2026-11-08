@@ -131,6 +131,19 @@ export const configured = env => ({
   subject: !!env.SUBJECT_KEY
 });
 
+/* ── redirects and beta ──
+   safeNext: a same-site path for "return here after sign-in"; anything else becomes the fallback. */
+export function safeNext(s, fallback = '/portal') {
+  s = String(s || '');
+  if (!s || s.length > 300 || s[0] !== '/' || s.startsWith('//') || s.startsWith('/\\') || s.includes('..') || /[\s<>"']/.test(s)) return fallback;
+  return s;
+}
+/* accounts created before BETA_ENDS_AT (wrangler.toml) are founding members */
+export function isFounding(env) {
+  const d = env.BETA_ENDS_AT || '';
+  return /^\d{4}-\d{2}-\d{2}$/.test(d) && Date.now() < Date.parse(d + 'T23:59:59Z');
+}
+
 /* ── Turnstile ──
    Verifies the token the page obtained from Cloudflare Turnstile (js/mt-turnstile.js).
    Without TURNSTILE_SECRET_KEY the check is skipped and reported as such, so the API

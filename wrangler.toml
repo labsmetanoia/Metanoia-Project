@@ -41,3 +41,10 @@ BETA_ENDS_AT = "2026-11-22"      # Beta programme end (decision of 2026-11-08). 
 # folder from the output. It has to live here: with a wrangler.toml present, Pages ignores
 # variables typed into the dashboard (secrets excepted).
 MEDIA_BASE = "https://media.metanoialabs.net"
+# Sign in with Google / LinkedIn (server/lib/oauth.js). The client ids are public; the matching
+# GOOGLE_CLIENT_SECRET and LINKEDIN_CLIENT_SECRET are Pages secrets. Empty id = provider off, and
+# the login and register pages keep the button disabled. Redirect URI to register with each provider:
+#   https://metanoialabs.net/api/auth/oauth/google/callback
+#   https://metanoialabs.net/api/auth/oauth/linkedin/callback
+GOOGLE_CLIENT_ID = ""
+LINKEDIN_CLIENT_ID = ""
