@@ -52,7 +52,7 @@ The static site (`prototype/`) now ships with a small server layer under `functi
 3. During that build `MEDIA_BASE` points the lesson registries at R2 and drops `assets/lms` from the output, and `stamp_assets()` appends `?v=<content hash>` to every local script and stylesheet reference, so a new page never runs against a cached older script.
 4. Visibility: HTML, scripts and styles carry `Cache-Control: max-age=600, must-revalidate`, so the edge and browsers pick a deploy up within ten minutes; the stamped references make scripts and styles effectively immediate. Caching → Purge Everything in the Cloudflare dashboard forces it.
 5. Media changes (`prototype/assets/lms/**`) are pushed to R2 by `sync-media.yml` on merge. Schema changes (`migrations/*.sql`) are applied by `d1-migrate.yml` on merge once `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` exist as GitHub secrets; until then, run the SQL in the D1 console.
-6. Secrets and variables typed into the dashboard (`ADMIN_EMAILS`, `RESEND_API_KEY`, …) take effect only on the next deployment: Deployments → ⋯ → Retry deployment, or any merge.
+6. Secrets typed into the dashboard (`ADMIN_EMAILS`, `RESEND_API_KEY`, …) take effect only on the next deployment. Cloudflare shows Retry deployment only on a failed build, so when the latest build is green the trigger is any merge to `main`, a documentation commit included. `/api/health` confirms the result (`mail`, `accounts`).
 
 ### 2a. Tier 0 order of work (Cloudflare Pages, zero cost)
 
