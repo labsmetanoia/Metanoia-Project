@@ -17,9 +17,16 @@ export async function sendMail(env, { to, subject, text, html, replyTo }) {
       headers: { 'content-type': 'application/json', authorization: `Bearer ${env.RESEND_API_KEY}` },
       body: JSON.stringify({ from: env.MAIL_FROM || 'Metanoia Labs <hello@metanoialabs.net>', to: [to], subject, text, html: html || `<pre style="font:15px/1.5 -apple-system,Segoe UI,sans-serif;white-space:pre-wrap">${escapeHtml(text)}</pre>`, ...(replyTo ? { reply_to: replyTo } : {}) })
     });
-    if (!r.ok) return { sent: false, reason: `provider ${r.status}` };
+    if (!r.ok) {
+      /* visible in Pages → Deployments → Functions → Real-time logs; the body names the cause (domain, from address, quota) */
+      let detail = '';
+      try { detail = (await r.text()).slice(0, 300); } catch (e) {}
+      console.error('resend', r.status, subject, detail);
+      return { sent: false, reason: `provider ${r.status}` };
+    }
     return { sent: true };
   } catch (e) {
+    console.error('resend unreachable', String(e && e.message || e).slice(0, 200));
     return { sent: false, reason: 'provider unreachable' };
   }
 }
@@ -37,7 +44,9 @@ const T = {
     enterpriseSubject: 'Your enterprise inquiry has been received',
     enterprise: (name, id) => `Hi ${name},\n\nThank you for your inquiry (reference ${id}). We respond within two business days with a scoped recommendation.\n\n— Metanoia Labs`,
     newsletterSubject: 'Confirm your subscription to Letters from the expedition',
-    newsletter: url => `Confirm that you want to receive Letters from the expedition from Metanoia Labs:\n${url}\n\nIf you did not sign up, ignore this message and nothing will be sent.\n\n— Metanoia Labs`
+    newsletter: url => `Confirm that you want to receive Letters from the expedition from Metanoia Labs:\n${url}\n\nIf you did not sign up, ignore this message and nothing will be sent.\n\n— Metanoia Labs`,
+    waitlistSubject: 'You are on the Metanoia Labs waitlist',
+    waitlist: name => `Hi${name ? ' ' + name : ''},\n\nYou are on the list. Accounts on Metanoia Labs open in stages, and this address will get one message from us when yours is ready, with nothing else in between.\n\nUntil then every product is open to preview as a guest at https://metanoialabs.net/login\n\nIf you did not ask for this, ignore this message and nothing further will be sent.\n\n— Metanoia Labs`
   },
   id: {
     verifySubject: 'Konfirmasi e-mail Metanoia Labs-mu',
@@ -49,7 +58,9 @@ const T = {
     enterpriseSubject: 'Pertanyaan enterprise Anda telah kami terima',
     enterprise: (name, id) => `Halo ${name},\n\nTerima kasih atas pertanyaan Anda (referensi ${id}). Kami merespons dalam dua hari kerja dengan rekomendasi yang terukur.\n\n— Metanoia Labs`,
     newsletterSubject: 'Konfirmasi langgananmu untuk Surat dari ekspedisi',
-    newsletter: url => `Konfirmasi bahwa kamu ingin menerima Surat dari ekspedisi dari Metanoia Labs:\n${url}\n\nJika kamu tidak mendaftar, abaikan pesan ini dan tidak ada yang akan dikirim.\n\n— Metanoia Labs`
+    newsletter: url => `Konfirmasi bahwa kamu ingin menerima Surat dari ekspedisi dari Metanoia Labs:\n${url}\n\nJika kamu tidak mendaftar, abaikan pesan ini dan tidak ada yang akan dikirim.\n\n— Metanoia Labs`,
+    waitlistSubject: 'Kamu sudah masuk daftar tunggu Metanoia Labs',
+    waitlist: name => `Halo${name ? ' ' + name : ''},\n\nKamu sudah masuk daftar. Akun Metanoia Labs dibuka bertahap, dan alamat ini akan menerima satu pesan dari kami saat giliranmu tiba, tanpa pesan lain di antaranya.\n\nSementara itu, semua produk bisa dicoba sebagai tamu di https://metanoialabs.net/login\n\nJika kamu tidak meminta ini, abaikan pesan ini dan tidak ada yang akan dikirim lagi.\n\n— Metanoia Labs`
   }
 };
 
@@ -60,6 +71,7 @@ export const mailReset = (env, { to, name, url, locale }) => sendMail(env, { to,
 export const mailMentorReceived = (env, { to, name, id, locale }) => sendMail(env, { to, subject: t(locale).mentorSubject, text: t(locale).mentor(name, id) });
 export const mailEnterpriseReceived = (env, { to, name, id, locale }) => sendMail(env, { to, subject: t(locale).enterpriseSubject, text: t(locale).enterprise(name, id) });
 export const mailNewsletterConfirm = (env, { to, url, locale }) => sendMail(env, { to, subject: t(locale).newsletterSubject, text: t(locale).newsletter(url) });
+export const mailWaitlistReceived = (env, { to, name, locale }) => sendMail(env, { to, subject: t(locale).waitlistSubject, text: t(locale).waitlist(name) });
 
 /* internal notification to the team on every new lead */
 export function mailLeadNotify(env, lead) {

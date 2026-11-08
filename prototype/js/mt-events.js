@@ -1,11 +1,14 @@
 /**
- * MT.track(name, props) — first-party product events + optional GA4.
+ * MT.track(name, props) — first-party product events + optional Cloudflare
+ * Web Analytics.
  *
  * Event names follow docs/13-event-dictionary.md: `area.object.action`
  * (lower-case, underscores). Events batch to /api/events when the API is
  * reachable (js/mt-api.js); otherwise they are dropped — never queued to a
- * third party by accident. GA4 loads only when data/analytics.js carries a
- * real Measurement ID and the visitor has not opted out.
+ * third party by accident. The Web Analytics beacon (cookieless, served by
+ * Cloudflare) loads only when data/analytics.js carries a real site token
+ * and the visitor has not opted out. Every page records one
+ * `site.page.viewed` on load.
  */
 (function () {
   'use strict';
@@ -35,14 +38,12 @@
   }
   function page() { return location.pathname + location.hash.slice(0, 80); }
 
-  /* GA4: real IDs only */
-  var ga4 = typeof CFG.ga4 === 'string' && /^G-[A-Z0-9]{6,12}$/.test(CFG.ga4) ? CFG.ga4 : '';
-  if (ga4 && !dnt() && !window.gtag) {
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { window.dataLayer.push(arguments); };
-    window.gtag('js', new Date());
-    window.gtag('config', ga4, { anonymize_ip: true });
-    var s = document.createElement('script'); s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4; document.head.appendChild(s);
+  /* Cloudflare Web Analytics: real site tokens only, never behind Do-Not-Track or a declined consent */
+  var cf = typeof CFG.cfToken === 'string' && /^[a-f0-9]{32}$/.test(CFG.cfToken) ? CFG.cfToken : '';
+  if (cf && !dnt() && !document.querySelector('script[data-cf-beacon]')) {
+    var s = document.createElement('script'); s.defer = true; s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    s.setAttribute('data-cf-beacon', JSON.stringify({ token: cf }));
+    document.head.appendChild(s);
   }
 
   function flush(beacon) {
@@ -62,7 +63,6 @@
     /* legacy snake_case names from the Career Map become `assessment.career_map.<action>` */
     if (name.indexOf('.') < 0) name = 'assessment.career_map.' + name.replace(/[^a-z0-9_]/gi, '_').toLowerCase();
     props = props && typeof props === 'object' ? props : {};
-    if (window.gtag && ga4) { try { window.gtag('event', name.replace(/\./g, '_'), props); } catch (e) {} }
     if (dnt() || (CFG.firstParty === false)) return;
     queue.push({ name: name, props: props, ts: new Date().toISOString(), page: page() });
     if (queue.length >= 20) flush(false); else schedule();
@@ -76,4 +76,10 @@
   window.MT.track = track;
   window.MT.anonId = anonId;
   window.MT.flush = flush;
+
+  /* one page view per load: language and the referring site, never the full referrer URL */
+  var ref = '';
+  try { ref = document.referrer ? new URL(document.referrer).hostname : ''; } catch (e) {}
+  if (ref === location.hostname) ref = '';
+  track('site.page.viewed', { lang: (document.documentElement.lang || 'en').slice(0, 2), referrer: ref || 'direct' });
 })();

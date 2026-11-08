@@ -2330,6 +2330,7 @@ if(cform){
       cform.querySelectorAll('.cfield').forEach(f=>{ f.hidden = true; });
       btn.hidden = true; document.getElementById('cf-note').hidden = true;
       show('cf-done', true);
+      try{ if(window.MT && MT.track) MT.track('lead.form.submitted', { kind: 'enterprise' }); }catch(err){}
     }catch(err){
       show('cf-fail', true);
       document.getElementById('cf-mailto').href = mailtoHref();

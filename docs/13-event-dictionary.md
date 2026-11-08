@@ -24,8 +24,9 @@ First-party product events accepted by `POST /api/events` and sent through `MT.t
 | `range.company.viewed` | `id` (company slug) | `industry`, `geo` | The Range (to wire) |
 | `range.role.viewed` | `id` (opportunity id) | `fn`, `industry` | The Range (to wire) |
 | `auth.account.registered` | `audience` | — | server-side (future) |
-| `lead.mentor.submitted` | — | — | mentor form (future client echo) |
+| `site.page.viewed` | `lang`, `referrer` (hostname or `direct`) | — | every page, once per load (`mt-events.js`; the page path is already on the event) |
+| `lead.form.submitted` | `kind` (`mentor`, `enterprise`, `newsletter`, `waitlist`) | — | the form's success path, after the server stored the lead |
 
-Batching: up to 50 events per request; the client flushes every 4 s, on 20 queued events, and on page hide via `sendBeacon`. Do-Not-Track and `localStorage mt-consent-analytics = "0"` disable both first-party events and GA4.
+Batching: up to 50 events per request; the client flushes every 4 s, on 20 queued events, and on page hide via `sendBeacon`. Do-Not-Track and `localStorage mt-consent-analytics = "0"` disable both first-party events and the Cloudflare Web Analytics beacon (`data/analytics.js` `cfToken`). `js/mob-footer.js` loads `data/analytics.js` and `js/mt-events.js` on every page once it is idle.
 
 Retention: raw events 13 months (deleted by `workers/aggregate`); aggregates indefinitely (`agg_daily`, k ≥ 20).

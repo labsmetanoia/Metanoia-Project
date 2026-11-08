@@ -266,6 +266,17 @@
   .api-note .btn-guest{display:inline-block;margin-top:10px;padding:9px 14px;border:1px solid var(--gold-border-hover);border-radius:999px;
     background:none;color:var(--gold-bright);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
   .api-note .btn-guest:hover{background:rgba(201,168,76,.14)}
+  .api-note .wl-form{margin-top:14px;padding-top:12px;border-top:1px solid var(--gold-border-hover)}
+  .api-note .wl-form label{display:block;margin-bottom:8px;color:var(--text-sub)}
+  .api-note .wl-row{display:flex;gap:8px;flex-wrap:wrap}
+  .api-note .wl-row input{flex:1 1 180px;min-width:0;padding:9px 12px;border-radius:999px;border:1px solid var(--gold-border-hover);background:rgba(255,255,255,.04);color:var(--text);font:inherit;font-size:13.5px;outline:none}
+  .api-note .wl-row input:focus-visible{box-shadow:0 0 0 2px rgba(201,168,76,.45)}
+  .api-note .wl-row button{padding:9px 14px;border:1px solid var(--gold-border-hover);border-radius:999px;background:none;color:var(--gold-bright);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+  .api-note .wl-row button:hover{background:rgba(201,168,76,.14)}
+  .api-note .wl-row button:disabled{opacity:.5;cursor:wait}
+  .api-note .wl-msg{display:block;margin-top:8px;font-size:13px;color:var(--text-sub)}
+  .api-note .wl-msg.err{color:#f08a8a}
+  .api-note .wl-msg.ok{color:var(--gold-bright)}
   form[data-api="off"] .btn-primary-auth{opacity:.45;cursor:not-allowed}
 </style>
 
@@ -332,6 +343,14 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <b data-en="Accounts are not open on this site yet." data-id="Akun belum dibuka di situs ini.">Accounts are not open on this site yet.</b>
         <span data-en="Nothing you type here is stored. You can preview every product as a guest; progress stays in this browser only." data-id="Tidak ada yang kamu ketik di sini yang disimpan. Kamu bisa mencoba semua produk sebagai tamu, progres hanya tersimpan di peramban ini.">Nothing you type here is stored. You can preview every product as a guest; progress stays in this browser only.</span>
         <button type="button" class="btn-guest" id="guestBtn" data-en="Preview as a guest →" data-id="Coba sebagai tamu →">Preview as a guest →</button>
+        <form class="wl-form" id="wlForm" hidden novalidate>
+          <label for="wlEmail" data-en="Want an account when they open? Leave your e-mail and we send one message, nothing else." data-id="Mau akun saat sudah dibuka? Tinggalkan e-mailmu, kami kirim satu pesan saja.">Want an account when they open? Leave your e-mail and we send one message, nothing else.</label>
+          <div class="wl-row">
+            <input type="email" id="wlEmail" autocomplete="email" placeholder="you@example.com" data-ph-en="you@example.com" data-ph-id="kamu@contoh.com" required>
+            <button type="submit" id="wlBtn" data-en="Join the waitlist" data-id="Masuk daftar tunggu">Join the waitlist</button>
+          </div>
+          <span class="wl-msg" id="wlMsg" role="status"></span>
+        </form>
       </div>
 
       <form id="regForm" novalidate>
@@ -449,6 +468,7 @@ MT_AUTH.ready.then(u => { if(u) location.replace(redirectTo || 'portal'); });
    'invite': only invited addresses may register; the form stays usable, the note offers the guest preview to everyone else */
 (MT_AUTH.accountsOpen ? MT_AUTH.accountsOpen() : MT_AUTH.available()).then(mode => {   /* fallback: a cached older mt-auth.js */
   apiOk = !!mode;
+  showWaitlist(mode);
   if(!mode){ apiNote.hidden = false; form.dataset.api = 'off'; return; }
   if(mode === 'invite'){
     setB('#apiNote b', 'Accounts are open by invitation only for now.', 'Akun untuk sementara hanya dibuka lewat undangan.');
@@ -460,6 +480,30 @@ MT_AUTH.ready.then(u => { if(u) location.replace(redirectTo || 'portal'); });
 document.getElementById('guestBtn').addEventListener('click', () => {
   MT_AUTH.guest((F('firstName').value || '').trim() || undefined);
   goSuccess(true, true);
+});
+
+/* waitlist: shown inside the note whenever the API can store it (accounts closed or by invitation) */
+const wlForm = F('wlForm');
+function showWaitlist(mode){ if(mode === true || !wlForm) return; MT_API.available().then(ok => { wlForm.hidden = !ok; }); }
+if(wlForm) wlForm.addEventListener('submit', async e => {
+  e.preventDefault();
+  const msg = F('wlMsg'), btn = F('wlBtn'), email = F('wlEmail').value.trim(), id = lang === 'id';
+  const say = (t, cls) => { msg.textContent = t; msg.className = 'wl-msg' + (cls ? ' ' + cls : ''); };
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return say(id ? 'Masukkan alamat e-mail yang valid.' : 'Enter a valid e-mail address.', 'err');
+  btn.disabled = true; say(id ? 'Menyimpan…' : 'Saving…');
+  let audience = null; try { audience = localStorage.getItem('mt-audience'); } catch(err) {}
+  const r = await MT_API.post('/leads/waitlist', { email, name: (F('firstName').value || '').trim() || undefined, consent: true, audience, locale: lang, source_page: location.pathname });
+  btn.disabled = false;
+  if(r.ok){
+    F('wlEmail').value = '';
+    try{ if(window.MT && MT.track) MT.track('lead.form.submitted', { kind: 'waitlist' }); }catch(err){}
+    if(r.data && r.data.already) return say(id ? 'Alamat ini sudah ada di daftar.' : 'This address is already on the list.', 'ok');
+    return say(r.data && r.data.confirmation_email
+      ? (id ? 'Tersimpan. Konfirmasi singkat sedang menuju kotak masukmu.' : 'Saved. A short confirmation is on its way to your inbox.')
+      : (id ? 'Tersimpan. Kami mengabari saat akunmu siap.' : 'Saved. We will let you know when your account is ready.'), 'ok');
+  }
+  if(r.status === 429) return say(id ? 'Terlalu banyak percobaan. Coba lagi nanti.' : 'Too many attempts. Try again later.', 'err');
+  say(id ? 'Belum bisa menyimpan. Coba lagi atau e-mail hello@metanoialabs.net.' : 'Could not save. Try again or e-mail hello@metanoialabs.net.', 'err');
 });
 
 form.addEventListener('submit', async e => {
@@ -484,7 +528,7 @@ form.addEventListener('submit', async e => {
   if(r.ok){ goSuccess(true, false); return; }
   if(r.offline){ apiOk = false; apiNote.hidden = false; form.dataset.api = 'off'; return fail(TT('offline'),[]); }
   if(r.status===409) return fail(TT('exists'),['email']);
-  if(r.status===403 && r.data && r.data.field==='email') return fail(TT('invite'),['email']);
+  if(r.status===403 && r.data && r.data.field==='email'){ if(F('wlEmail') && !F('wlEmail').value) F('wlEmail').value = email; return fail(TT('invite'),['email']); }
   if(r.status===429) return fail(TT('tooMany'),[]);
   const field = r.data && r.data.field;
   const map = { name:'firstName', email:'email', password:'password' };
