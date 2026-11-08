@@ -772,24 +772,48 @@
   .pain b{display:block;font-family:var(--serif);font-size:20px;font-weight:600;color:#fff;margin-bottom:12px}
   .pain p{font-size:13px;color:rgba(255,255,255,.64);line-height:1.72;margin:0}
 
-  /* ═══ programme rows (enterprise ch2) / mentor pillars ═══ */
-  .prog-list{display:flex;flex-direction:column;gap:16px;max-width:940px;margin:0 auto}
-  .prog{position:relative;display:grid;grid-template-columns:76px 1fr;gap:26px;align-items:center;
-    border-radius:20px;padding:32px 36px;overflow:hidden;
+  /* ═══ programme rows (enterprise ch2) / mentor pillars: numbered rail + photo cards ═══ */
+  .prog-list{position:relative;display:flex;flex-direction:column;gap:26px;max-width:1040px;margin:0 auto}
+  .prog-list::before{content:'';position:absolute;left:35px;top:40px;bottom:40px;width:1px;
+    background:linear-gradient(180deg,transparent,rgba(201,168,76,.55) 10%,rgba(201,168,76,.55) 90%,transparent)}
+  .prog{position:relative;display:grid;grid-template-columns:72px 1fr;gap:0 28px;align-items:center}
+  .prog .pnum{width:60px;height:60px;margin:0 auto;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-family:var(--serif);font-size:19px;font-weight:600;color:#F0D878;position:relative;z-index:1;
+    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.18), rgba(201,168,76,.04) 72%),#0E1421 !important;
+    border:1px solid rgba(201,168,76,.55);box-shadow:0 0 24px rgba(201,168,76,.14)}
+  .prog .pnum::after{content:'';position:absolute;inset:-6px;border-radius:50%;border:1px dashed rgba(201,168,76,.3)}
+  .prog .pcard{position:relative;display:grid;grid-template-columns:minmax(220px,300px) 1fr;min-height:208px;border-radius:22px;overflow:hidden;
     background:linear-gradient(180deg,rgba(15,21,35,.93),rgba(10,15,26,.97));
-    border:1px solid rgba(201,168,76,.26);
+    border:1px solid rgba(201,168,76,.28);box-shadow:0 18px 50px rgba(0,0,0,.35);
     transition:transform .35s cubic-bezier(.25,.8,.3,1),border-color .35s ease,box-shadow .35s ease}
-  .prog:hover{transform:translateY(-4px);border-color:rgba(201,168,76,.5);box-shadow:0 16px 40px rgba(0,0,0,.4)}
-  .prog::after{content:'';position:absolute;left:0;top:14%;bottom:14%;width:2px;border-radius:2px;
+  .prog:hover .pcard{transform:translateY(-4px);border-color:rgba(201,168,76,.55);box-shadow:0 26px 60px rgba(0,0,0,.45),0 0 40px rgba(201,168,76,.08)}
+  .prog .pimg{position:relative;overflow:hidden;min-height:208px;background:#0B1120}
+  .prog .pimg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .9s ease}
+  .prog:hover .pimg img{transform:scale(1.05)}
+  .prog .pimg::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,15,26,0) 55%,rgba(10,15,26,.92))}
+  .prog .ptxt{position:relative;padding:30px 34px 30px 26px}
+  .prog .ptxt::before{content:'';position:absolute;left:0;top:18%;bottom:18%;width:2px;border-radius:2px;
     background:linear-gradient(180deg,transparent,var(--gold),transparent);
     filter:drop-shadow(0 0 8px rgba(240,216,120,.6))}
-  .prog .pnum{width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;
-    font-family:var(--serif);font-size:19px;font-weight:600;color:#F0D878;position:relative;
-    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.16), rgba(201,168,76,.03) 72%) !important;
-    border:1px solid rgba(201,168,76,.5)}
-  .prog .pnum::after{content:'';position:absolute;inset:-6px;border-radius:50%;border:1px dashed rgba(201,168,76,.26)}
-  .prog h3{font-family:var(--serif);font-size:20px;font-weight:600;color:#fff;margin:0 0 8px}
-  .prog p{font-size:13.5px;color:rgba(255,255,255,.66);line-height:1.75;margin:0}
+  .prog .pk{display:block;font-size:10.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#E8C766;margin-bottom:10px}
+  .prog h3{font-family:var(--serif);font-size:21px;font-weight:600;color:#fff;margin:0 0 10px;line-height:1.3}
+  .prog p{font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.78;margin:0}
+  .prog .ptags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  .prog .ptags span{font-size:11px;font-weight:600;letter-spacing:.04em;color:#E8C766;padding:5px 11px;border-radius:999px;
+    border:1px solid rgba(201,168,76,.35);background:rgba(201,168,76,.06)}
+  .ch-cta.gold a{color:#241800;background:linear-gradient(120deg,#C9A84C,#F0D878);border-color:transparent;
+    box-shadow:0 8px 22px rgba(201,168,76,.3)}
+  .ch-cta.gold a:hover{filter:brightness(1.05);transform:translateY(-2px);box-shadow:0 12px 28px rgba(201,168,76,.4)}
+  @media(max-width:860px){
+    .prog-list::before{display:none}
+    .prog{grid-template-columns:1fr;gap:0}
+    .prog .pnum{width:52px;height:52px;font-size:17px;margin:0 0 -26px 22px;z-index:2}
+    .prog .pcard{grid-template-columns:1fr}
+    .prog .pimg{min-height:190px}
+    .prog .pimg::after{background:linear-gradient(180deg,rgba(10,15,26,0) 55%,rgba(10,15,26,.92))}
+    .prog .ptxt{padding:22px 22px 24px}
+    .prog .ptxt::before{display:none}
+  }
   .commit{position:relative;max-width:760px;margin:56px auto 0;border-radius:22px;padding:36px 40px;overflow:hidden;
     background:linear-gradient(180deg,rgba(20,26,38,.95),rgba(11,16,26,.97));
     border:1px solid rgba(201,168,76,.5);
@@ -1814,19 +1838,43 @@ button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-web
     <p class="bridge reveal" data-en="Metanoia operates across the full talent lifecycle, before recruitment, through onboarding, and into ongoing development. Three partnership models, deployable independently or as an integrated program." data-id="Metanoia beroperasi di seluruh siklus hidup talenta, sebelum rekrutmen, melalui onboarding, hingga pengembangan berkelanjutan. Tiga model kemitraan, dapat diterapkan secara independen atau sebagai program terintegrasi.">Metanoia operates across the full talent lifecycle, before recruitment, through onboarding, and into ongoing development. Three partnership models, deployable independently or as an integrated program.</p>
     <div class="prog-list" style="margin-top:60px">
     <div class="prog reveal">
-      <div class="pnum" style="background:#1D5FAB">01</div>
-      <div><h3 data-en="Program 01 · Pre-Hire Partnership" data-id="Program 01 · Kemitraan Pra-Rekrutmen">Program 01 · Pre-Hire Partnership</h3><p data-en="Sponsor Metanoia access for target-university student cohorts before recruitment. Arrive at Day 1 selecting from candidates who have already completed direction, CV, interview, and professional readiness training. Reduce screening time. Raise offer acceptance rates." data-id="Sponsori akses Metanoia untuk kohort mahasiswa universitas target sebelum rekrutmen. Tiba di Hari 1 dengan memilih dari kandidat yang telah menyelesaikan pelatihan arah, CV, wawancara, dan kesiapan profesional. Kurangi waktu penyaringan. Tingkatkan tingkat penerimaan tawaran.">Sponsor Metanoia access for target-university student cohorts before recruitment. Arrive at Day 1 selecting from candidates who have already completed direction, CV, interview, and professional readiness training. Reduce screening time. Raise offer acceptance rates.</p></div>
+      <div class="pnum">01</div>
+      <div class="pcard">
+        <div class="pimg" aria-hidden="true"><img src="../assets/pe/th-stakeholders.jpg" alt="" loading="lazy" decoding="async"></div>
+        <div class="ptxt">
+          <span class="pk" data-en="Program 01 · Before recruitment" data-id="Program 01 · Sebelum rekrutmen">Program 01 · Before recruitment</span>
+          <h3 data-en="Pre-Hire Partnership" data-id="Kemitraan Pra-Rekrutmen">Pre-Hire Partnership</h3>
+          <p data-en="Sponsor Metanoia access for target-university student cohorts before recruitment. Arrive at Day 1 selecting from candidates who have already completed direction, CV, interview, and professional readiness training. Reduce screening time. Raise offer acceptance rates." data-id="Sponsori akses Metanoia untuk kohort mahasiswa universitas target sebelum rekrutmen. Tiba di Hari 1 dengan memilih dari kandidat yang telah menyelesaikan pelatihan arah, CV, wawancara, dan kesiapan profesional. Kurangi waktu penyaringan. Tingkatkan tingkat penerimaan tawaran.">Sponsor Metanoia access for target-university student cohorts before recruitment. Arrive at Day 1 selecting from candidates who have already completed direction, CV, interview, and professional readiness training. Reduce screening time. Raise offer acceptance rates.</p>
+          <div class="ptags"><span data-en="Shorter screening" data-id="Penyaringan lebih singkat">Shorter screening</span><span data-en="Higher offer acceptance" data-id="Penerimaan tawaran lebih tinggi">Higher offer acceptance</span></div>
+        </div>
+      </div>
     </div>
     <div class="prog reveal">
-      <div class="pnum" style="background:#0D7377">02</div>
-      <div><h3 data-en="Program 02 · Onboarding Integration" data-id="Program 02 · Integrasi Onboarding">Program 02 · Onboarding Integration</h3><p data-en="Integrate the Metanoia Career Portal into your 90-day onboarding program. New hires complete a Career Map on Day 1, receive a personalized development route, and track their readiness across four dimensions in real time. Reduces managerial check-in overhead. Creates a documented development record from the first day." data-id="Integrasikan Portal Karier Metanoia ke dalam program onboarding 90 hari Anda. Karyawan baru menyelesaikan Career Map pada Hari 1, menerima rute pengembangan personal, dan melacak kesiapan mereka di empat dimensi secara real time. Mengurangi beban check-in manajerial. Menciptakan catatan pengembangan terdokumentasi sejak hari pertama.">Integrate the Metanoia Career Portal into your 90-day onboarding program. New hires complete a Career Map on Day 1, receive a personalized development route, and track their readiness across four dimensions in real time. Reduces managerial check-in overhead. Creates a documented development record from the first day.</p></div>
+      <div class="pnum">02</div>
+      <div class="pcard">
+        <div class="pimg" aria-hidden="true"><img src="../assets/pe/th-data.jpg" alt="" loading="lazy" decoding="async"></div>
+        <div class="ptxt">
+          <span class="pk" data-en="Program 02 · The first 90 days" data-id="Program 02 · 90 hari pertama">Program 02 · The first 90 days</span>
+          <h3 data-en="Onboarding Integration" data-id="Integrasi Onboarding">Onboarding Integration</h3>
+          <p data-en="Integrate the Metanoia Career Portal into your 90-day onboarding program. New hires complete a Career Map on Day 1, receive a personalized development route, and track their readiness across four dimensions in real time. Reduces managerial check-in overhead. Creates a documented development record from the first day." data-id="Integrasikan Portal Karier Metanoia ke dalam program onboarding 90 hari Anda. Karyawan baru menyelesaikan Career Map pada Hari 1, menerima rute pengembangan personal, dan melacak kesiapan mereka di empat dimensi secara real time. Mengurangi beban check-in manajerial. Menciptakan catatan pengembangan terdokumentasi sejak hari pertama.">Integrate the Metanoia Career Portal into your 90-day onboarding program. New hires complete a Career Map on Day 1, receive a personalized development route, and track their readiness across four dimensions in real time. Reduces managerial check-in overhead. Creates a documented development record from the first day.</p>
+          <div class="ptags"><span data-en="Career Map on Day 1" data-id="Career Map di Hari 1">Career Map on Day 1</span><span data-en="Documented development record" data-id="Catatan pengembangan terdokumentasi">Documented development record</span></div>
+        </div>
+      </div>
     </div>
     <div class="prog reveal">
-      <div class="pnum" style="background:#B45309">03</div>
-      <div><h3 data-en="Program 03 · L&amp;D Partnership" data-id="Program 03 · Kemitraan L&amp;D">Program 03 · L&amp;D Partnership</h3><p data-en="Deploy Metanoia edition memberships as a benefit for all employees, early career through senior professional. Increases engagement, reduces informal development requests on managers, and provides a structured alternative to generic LMS platforms that employees actually use." data-id="Terapkan keanggotaan edisi Metanoia sebagai benefit untuk seluruh karyawan, dari karier awal hingga profesional senior. Meningkatkan keterlibatan, mengurangi permintaan pengembangan informal kepada manajer, dan menyediakan alternatif terstruktur untuk platform LMS generik yang benar-benar digunakan karyawan.">Deploy Metanoia edition memberships as a benefit for all employees, early career through senior professional. Increases engagement, reduces informal development requests on managers, and provides a structured alternative to generic LMS platforms that employees actually use.</p></div>
+      <div class="pnum">03</div>
+      <div class="pcard">
+        <div class="pimg" aria-hidden="true"><img src="../assets/bg/for-enterprise.jpg" alt="" loading="lazy" decoding="async"></div>
+        <div class="ptxt">
+          <span class="pk" data-en="Program 03 · Ongoing development" data-id="Program 03 · Pengembangan berkelanjutan">Program 03 · Ongoing development</span>
+          <h3 data-en="L&amp;D Partnership" data-id="Kemitraan L&amp;D">L&amp;D Partnership</h3>
+          <p data-en="Deploy Metanoia edition memberships as a benefit for all employees, early career through senior professional. Increases engagement, reduces informal development requests on managers, and provides a structured alternative to generic LMS platforms that employees actually use." data-id="Terapkan keanggotaan edisi Metanoia sebagai benefit untuk seluruh karyawan, dari karier awal hingga profesional senior. Meningkatkan keterlibatan, mengurangi permintaan pengembangan informal kepada manajer, dan menyediakan alternatif terstruktur untuk platform LMS generik yang benar-benar digunakan karyawan.">Deploy Metanoia edition memberships as a benefit for all employees, early career through senior professional. Increases engagement, reduces informal development requests on managers, and provides a structured alternative to generic LMS platforms that employees actually use.</p>
+          <div class="ptags"><span data-en="Every career stage" data-id="Semua tahap karier">Every career stage</span><span data-en="Structured, and actually used" data-id="Terstruktur, dan benar-benar dipakai">Structured, and actually used</span></div>
+        </div>
+      </div>
     </div>
     </div>
-    <div class="ch-cta reveal"><a href="#contact" data-en="Discuss which model fits your organization →" data-id="Diskusikan model yang sesuai untuk organisasi Anda →">Discuss which model fits your organization →</a></div>
+    <div class="ch-cta gold reveal"><a href="#contact" data-en="Discuss which model fits your organization →" data-id="Diskusikan model yang sesuai untuk organisasi Anda →">Discuss which model fits your organization →</a></div>
   </div>
 </section>
 
@@ -2007,19 +2055,31 @@ button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-web
 .sf-col .sf-h{display:block;font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid rgba(232,199,102,.22)}
 .sf-col a{display:block;color:#B9C2CE;text-decoration:none;padding:5px 0;font-size:13.5px;transition:color .2s,transform .2s}
 .sf-col a:hover{color:#F0D878;transform:translateX(3px)}
-.sf-news{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.9fr);gap:18px 40px;align-items:center;margin-top:46px;padding:22px 26px;
-  border:1px solid rgba(232,199,102,.26);border-radius:18px;background:linear-gradient(135deg,rgba(201,168,76,.12),rgba(5,10,18,.35));backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
-.sf-news .sf-nk{display:block;font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:6px}
-.sf-news .sf-nt{display:block;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif;font-size:20px;line-height:1.25;color:#F5EFE6;margin-bottom:6px}
-.sf-news .sf-np{margin:0;font-size:13px;line-height:1.6;color:#AEB7C4;max-width:48ch}
-.sf-form{display:flex;align-items:stretch;border:1px solid rgba(232,199,102,.5);border-radius:999px;overflow:hidden;background:rgba(5,10,18,.6)}
-.sf-form input{flex:1;min-width:0;background:none;border:0;outline:0;padding:12px 18px;color:#F5EFE6;font:inherit;font-size:13.5px}
+.sf-news{position:relative;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.95fr);gap:22px 48px;align-items:center;margin-top:46px;padding:30px 34px;overflow:hidden;
+  border:1px solid rgba(232,199,102,.3);border-radius:22px;background:linear-gradient(135deg,rgba(201,168,76,.15),rgba(5,10,18,.55) 52%,rgba(5,10,18,.4));backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  box-shadow:0 24px 60px rgba(0,0,0,.28)}
+.sf-news::before{content:'';position:absolute;right:-90px;bottom:-150px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,rgba(232,199,102,.16),transparent 68%);pointer-events:none}
+.sf-news::after{content:'';position:absolute;left:34px;right:34px;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(240,216,120,.75),transparent)}
+.sf-news>div{position:relative}
+.sf-news .sf-nk{display:inline-flex;align-items:center;gap:10px;font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:10px}
+.sf-news .sf-nk::before{content:'';width:22px;height:1px;background:currentColor;opacity:.75}
+.sf-news .sf-nt{display:block;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif;font-size:22px;line-height:1.3;color:#F5EFE6;margin-bottom:8px;text-wrap:balance}
+.sf-news .sf-np{margin:0;font-size:13px;line-height:1.65;color:#AEB7C4;max-width:50ch}
+.sf-form{display:flex;align-items:stretch;padding:5px;border:1px solid rgba(232,199,102,.45);border-radius:999px;background:rgba(5,10,18,.72);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 10px 30px rgba(0,0,0,.25);transition:border-color .25s,box-shadow .25s}
+.sf-form:focus-within{border-color:rgba(240,216,120,.85);box-shadow:0 0 0 4px rgba(232,199,102,.12),0 10px 30px rgba(0,0,0,.25)}
+.sf-form input{flex:1;min-width:0;background:none;border:0;outline:0;padding:11px 16px;color:#F5EFE6;font:inherit;font-size:14px}
 .sf-form input::placeholder{color:#7F8996;font-style:italic;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif}
-.sf-form button{flex:none;display:inline-flex;align-items:center;gap:8px;padding:0 18px;border:0;cursor:pointer;font:inherit;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
-  color:#0B1524;background:linear-gradient(135deg,#F0D878,#C9A84C);transition:filter .2s}
-.sf-form button:hover{filter:brightness(1.06)}
+.sf-form button{flex:none;display:inline-flex;align-items:center;gap:8px;padding:0 20px;border:0;border-radius:999px;cursor:pointer;font:inherit;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  color:#0B1524;background:linear-gradient(135deg,#F0D878,#C9A84C);box-shadow:0 6px 18px rgba(201,168,76,.3);transition:filter .2s,transform .2s}
+.sf-form button:hover{filter:brightness(1.06);transform:translateX(1px)}
 .sf-form button svg{width:14px;height:14px}
-.sf-news .sf-nf{margin:8px 2px 0;font-size:11.5px;color:#7F8996}
+.sf-news .sf-nf{position:relative;display:block;margin:12px 8px 0;padding-left:22px;font-size:11.5px;line-height:1.55;color:#8E97A4}
+.sf-news .sf-nf::before{content:'';position:absolute;left:0;top:2px;width:13px;height:13px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C9A84C' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center/contain no-repeat;opacity:.9}
+.sf-news .sf-nf a{color:#D2BB7F;text-decoration:underline;text-underline-offset:2px}
+.sf-news .sf-nf.busy{color:#E8C766}
+.sf-news .sf-nf.done{color:#CFE8DA}
+@media(max-width:900px){.sf-news{grid-template-columns:1fr;gap:18px;padding:26px 24px}.sf-news .sf-np{max-width:none}}
 .sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:30px;padding-top:20px;
   border-top:1px solid rgba(245,239,230,.14);color:#AEB7C4;font-size:12.5px}
 .sf-bottom .sf-legal{display:flex;gap:4px 20px;flex-wrap:wrap;margin-left:auto}
