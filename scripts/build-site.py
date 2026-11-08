@@ -976,6 +976,10 @@ def relocate_media():
     is defined) then drops the folder from the output. Both are no-ops locally and on GitHub Pages."""
     base = os.environ.get('MEDIA_BASE', '').rstrip('/')
     if not base:
+        if os.environ.get('CF_PAGES'):
+            sys.exit('MEDIA_BASE is not set: on Cloudflare Pages it must be in wrangler.toml [vars] '
+                     '(dashboard variables are ignored once a wrangler.toml exists), otherwise the '
+                     'upload fails on files over 25 MiB in prototype/assets/lms')
         return
     pat = re.compile(r'(?:\.\./)*assets/lms/')
     n = 0
