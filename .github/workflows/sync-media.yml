@@ -28,12 +28,19 @@ jobs:
         env:
           RCLONE_CONFIG_R2_TYPE: s3
           RCLONE_CONFIG_R2_PROVIDER: Cloudflare
-          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
           RCLONE_CONFIG_R2_ACL: private
+          RAW_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          RAW_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RAW_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           BUCKET: ${{ vars.R2_BUCKET || 'metanoia-media' }}
         run: |
-          test -n "${RCLONE_CONFIG_R2_ACCESS_KEY_ID}" || { echo "::error::R2 secrets are not set (R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY)"; exit 1; }
+          # Tolerate values pasted with labels, the S3 hostname or stray whitespace:
+          # the account id is the first 32-hex token, the keys are trimmed.
+          ACCOUNT="$(printf '%s' "${RAW_ACCOUNT_ID}" | grep -oE '[0-9a-f]{32}' | head -1 || true)"
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$(printf '%s' "${RAW_ACCESS_KEY_ID}" | tr -d '[:space:]')"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$(printf '%s' "${RAW_SECRET_ACCESS_KEY}" | tr -d '[:space:]')"
+          export RCLONE_CONFIG_R2_ENDPOINT="https://${ACCOUNT}.r2.cloudflarestorage.com"
+          test -n "${ACCOUNT}" || { echo "::error::R2_ACCOUNT_ID does not contain a 32-character account id"; exit 1; }
+          test -n "${RCLONE_CONFIG_R2_ACCESS_KEY_ID}" -a -n "${RCLONE_CONFIG_R2_SECRET_ACCESS_KEY}" || { echo "::error::R2_ACCESS_KEY_ID or R2_SECRET_ACCESS_KEY is empty"; exit 1; }
           rclone sync prototype/assets/lms "r2:${BUCKET}/lms" --checksum --transfers 16 --s3-no-check-bucket --stats-one-line -v
           rclone size "r2:${BUCKET}/lms"
