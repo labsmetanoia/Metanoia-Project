@@ -30,9 +30,12 @@ migrations_dir = "migrations"
 SITE_URL = "https://metanoialabs.net"
 MAIL_FROM = "Metanoia Labs <hello@metanoialabs.net>"
 LEADS_NOTIFY_TO = "hello@metanoialabs.net"
-AUTH_ENABLED = "false"           # Tier 0: register/login answer 404 and the pages show the waitlist; "true" opens accounts to everyone.
-                                 # Reviewer accounts before that: set the ADMIN_EMAILS secret in the dashboard (comma-separated
-                                 # addresses). Those addresses can register and get the admin role; the public keeps the guest preview.
+AUTH_ENABLED = "true"            # Open registration since 2026-11-08 (Tier 1). "false" closes register/login (404) and the pages show
+                                 # the waitlist; the ADMIN_EMAILS secret (dashboard, comma-separated) still grants the admin role to
+                                 # those addresses at registration or next sign-in.
+BETA_ENDS_AT = "2026-11-22"      # Beta programme end (decision of 2026-11-08). Shown on the pricing page and status board; health
+                                 # reports it; accounts created before it are founding members. Access does not change on that
+                                 # date by itself: a paid pass needs explicit approval first (Tier 1 brief, Part 11).
 # Lesson media (prototype/assets/lms, about 2 GB, files over the 25 MiB Pages limit) is served
 # from the R2 bucket behind this host. The build rewrites the registries to it and drops the
 # folder from the output. It has to live here: with a wrangler.toml present, Pages ignores
