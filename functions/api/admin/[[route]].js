@@ -1,5 +1,8 @@
 /**
- * Internal review API. Every route requires `Authorization: Bearer <ADMIN_TOKEN>`.
+ * Internal review API. Every route requires either a signed-in account with
+ * the admin role (session cookie; see ADMIN_EMAILS in server/lib/http.js) or
+ * `Authorization: Bearer <ADMIN_TOKEN>`. Writes also require a same-origin
+ * request, so a cookie alone cannot be driven from another site.
  * Rendered by prototype/admin/index.html (noindex, not in the route manifest).
  *
  *   GET   /api/admin/leads?kind=&status=&q=&limit=   list
@@ -7,24 +10,26 @@
  *   GET   /api/admin/stats                           counts per kind × status, users, events (last 30 days)
  *   GET   /api/admin/aggregates?metric=&days=        rows from agg_daily (never individual data)
  */
-import { json, fail, readJson, clip, nowIso } from '../../../server/lib/http.js';
-import { isAdmin } from '../../../server/lib/auth.js';
+import { json, fail, readJson, clip, nowIso, sameOrigin } from '../../../server/lib/http.js';
+import { adminActor } from '../../../server/lib/auth.js';
 
 const STATUSES = ['new', 'reviewing', 'accepted', 'declined', 'contacted', 'archived', 'confirmed', 'unsubscribed'];
 const KINDS = ['mentor', 'enterprise', 'newsletter', 'waitlist', 'results'];
 
-const guard = (request, env) => {
-  if (!env.ADMIN_TOKEN) return fail(503, 'admin not configured');
+/* resolves { actor } when the caller may proceed, or a Response to return */
+async function guard(request, env, write) {
   if (!env.DB) return fail(503, 'database not configured');
-  if (!isAdmin(request, env)) return fail(401, 'admin token required');
-  return null;
-};
+  if (write && !sameOrigin(request)) return fail(403, 'origin');
+  const actor = await adminActor(request, env);
+  if (!actor) return fail(401, 'admin sign-in or token required');
+  return { actor };
+}
 
 const row = r => ({ id: r.id, kind: r.kind, email: r.email, name: r.name, payload: JSON.parse(r.payload_json || '{}'), consent: JSON.parse(r.consent_json || '{}'),
   status: r.status, notes: r.notes, locale: r.locale, source_page: r.source_page, created_at: r.created_at, updated_at: r.updated_at, confirmed_at: r.confirmed_at });
 
 export async function onRequestGet({ request, env, params }) {
-  const g = guard(request, env); if (g) return g;
+  const g = await guard(request, env, false); if (g instanceof Response) return g;
   const route = (params.route || []).join('/');
   const url = new URL(request.url);
 
@@ -46,7 +51,7 @@ export async function onRequestGet({ request, env, params }) {
     const since = new Date(Date.now() - 30 * 86400 * 1000).toISOString();
     const events = await env.DB.prepare('SELECT name, COUNT(*) AS n FROM events WHERE ts > ? GROUP BY name ORDER BY n DESC LIMIT 50').bind(since).all();
     const assessments = await env.DB.prepare('SELECT COUNT(*) AS n FROM assessments').first();
-    return json({ ok: true, leads: leads.results || [], users: users ? users.n : 0, events_30d: events.results || [], assessments: assessments ? assessments.n : 0, time: nowIso() });
+    return json({ ok: true, actor: g.actor, leads: leads.results || [], users: users ? users.n : 0, events_30d: events.results || [], assessments: assessments ? assessments.n : 0, time: nowIso() });
   }
 
   if (route === 'aggregates') {
@@ -63,7 +68,7 @@ export async function onRequestGet({ request, env, params }) {
 }
 
 export async function onRequestPatch({ request, env, params }) {
-  const g = guard(request, env); if (g) return g;
+  const g = await guard(request, env, true); if (g instanceof Response) return g;
   const parts = params.route || [];
   if (parts[0] !== 'leads' || !parts[1]) return fail(404, 'unknown route');
   const id = clip(parts[1], 64);
