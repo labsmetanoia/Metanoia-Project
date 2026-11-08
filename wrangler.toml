@@ -46,5 +46,5 @@ MEDIA_BASE = "https://media.metanoialabs.net"
 # the login and register pages keep the button disabled. Redirect URI to register with each provider:
 #   https://metanoialabs.net/api/auth/oauth/google/callback
 #   https://metanoialabs.net/api/auth/oauth/linkedin/callback
-GOOGLE_CLIENT_ID = ""
+GOOGLE_CLIENT_ID = "451617643748-pu8k9j3vbhgr8rs8t21d65odi6cqr54g.apps.googleusercontent.com"
 LINKEDIN_CLIENT_ID = ""
