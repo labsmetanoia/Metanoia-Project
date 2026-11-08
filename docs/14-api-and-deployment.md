@@ -111,3 +111,7 @@ npx wrangler pages dev prototype --binding SESSION_SECRET=dev --binding SUBJECT_
 | every footer | `/leads/newsletter` |
 | `career-map-assessment.html` | `/events` |
 | `admin/index.html` | `/admin/leads`, `/admin/stats` |
+
+### Progress across devices
+
+`mt-progress.js` (loaded by the portal, the products and Settings) mirrors the tracked browser keys to `/api/progress/browser` as a keyed document `{ keys, times, deleted }`: every write is stamped when it happens (`Storage.setItem` is wrapped), removed keys leave a tombstone, and the snapshot is pushed a few seconds after the last write, when the tab is hidden and when the page closes. On load, and when a tab returns after a minute away, the account copy is pulled and applied key by key, the newer write winning; a device that receives new progress right after load reloads once so the product renders with it, later changes raise the `mt:progress` event. The server merges with the same rule (`server/lib/progress.js`), so two devices never overwrite each other wholesale; tombstones expire after 90 days. Keys over 64 KB and anything beyond a 700 KB snapshot stay on the device (Settings shows how many). Device preferences (theme, language, cookie choices) are not synced. Settings, Privacy & Data shows the last sync time and offers a manual sync.
