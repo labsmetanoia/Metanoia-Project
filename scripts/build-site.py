@@ -1001,6 +1001,51 @@ def relocate_media():
             print('media: prototype/assets/lms removed from the output (served from R2)')
 
 
+def stamp_assets():
+    """Cloudflare Pages build (CF_PAGES set, or ASSET_STAMP=1): append ?v=<content hash> to every
+    local script and stylesheet reference in the HTML, so a page always loads the scripts it was
+    written against. Without it the edge and the browser may keep yesterday's js/mt-auth.js for
+    as long as its Cache-Control allows while serving today's HTML, and an inline script that
+    calls a function the old file lacks throws, taking the rest of the page down with it.
+    A no-op locally and on GitHub Pages, where the tracked HTML must stay unchanged."""
+    if not (os.environ.get('CF_PAGES') or os.environ.get('ASSET_STAMP') == '1'):
+        return
+    import hashlib
+    hashes = {}
+
+    def stamp_for(path):
+        if path not in hashes:
+            with open(path, 'rb') as fh:
+                hashes[path] = hashlib.sha1(fh.read()).hexdigest()[:8]
+        return hashes[path]
+
+    pat = re.compile(r'(\b(?:src|href)=")([^"?#:]*\.(?:js|css))(\?[^"#]*)?(")')
+    n_refs = n_files = 0
+    for root, dirs, files in os.walk(PROTO):
+        dirs[:] = [d for d in dirs if d != 'assets']
+        for name in files:
+            if not name.endswith('.html'):
+                continue
+            html_path = os.path.join(root, name)
+            with open(html_path, encoding='utf-8') as fh:
+                src = fh.read()
+
+            def repl(m):
+                nonlocal n_refs
+                ref = m.group(2)
+                target = os.path.normpath(os.path.join(PROTO, ref.lstrip('/')) if ref.startswith('/') else os.path.join(root, ref))
+                if not (target.startswith(PROTO) and os.path.isfile(target)):
+                    return m.group(0)
+                n_refs += 1
+                return f'{m.group(1)}{ref}?v={stamp_for(target)}{m.group(4)}'
+
+            out = pat.sub(repl, src)
+            if out != src:
+                write(html_path, out)
+                n_files += 1
+    print(f'assets: {n_refs} script and stylesheet references stamped in {n_files} pages')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--no-og', action='store_true', help='skip Open Graph card generation')
@@ -1039,6 +1084,7 @@ def main():
     n_idx = build_search_index(manifest, rng, mp)
     print(f'search-index.json: {n_idx} entries')
     relocate_media()
+    stamp_assets()
     if make_og:
         n_og = sum(len(fs) for _, _, fs in os.walk(OG_DIR))
         print(f'Open Graph cards: {n_og}')

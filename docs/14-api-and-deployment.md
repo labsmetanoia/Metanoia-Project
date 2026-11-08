@@ -45,6 +45,15 @@ The static site (`prototype/`) now ships with a small server layer under `functi
 6. **Analytics**: put the GA4 Measurement ID in `prototype/data/analytics.js`. Placeholders are refused by the loader.
 7. **Legal**: before launch, update `prototype/legal/privacy.html` to name Cloudflare (hosting, D1, jurisdiction) and Resend as processors, and move the terms/privacy versions out of `1.0-draft` (the consent records carry the version strings from `functions/api/auth` and `functions/api/leads`).
 
+### 2b. How a change reaches production (since 2026-11-08)
+
+1. Work happens on a branch; a pull request to `main` runs the integrity check (build, link and punctuation checks). Only green pull requests are merged.
+2. Every merge to `main` triggers a Cloudflare Pages production build (project `metanoia-labs`, production branch `main`, Automatic deployments on): clone, `pip install pillow && python3 scripts/build-site.py`, upload. About four minutes. No manual step. GitHub Actions no longer deploy the site; `deploy-pages.yml` is a manual fallback only.
+3. During that build `MEDIA_BASE` points the lesson registries at R2 and drops `assets/lms` from the output, and `stamp_assets()` appends `?v=<content hash>` to every local script and stylesheet reference, so a new page never runs against a cached older script.
+4. Visibility: HTML, scripts and styles carry `Cache-Control: max-age=600, must-revalidate`, so the edge and browsers pick a deploy up within ten minutes; the stamped references make scripts and styles effectively immediate. Caching → Purge Everything in the Cloudflare dashboard forces it.
+5. Media changes (`prototype/assets/lms/**`) are pushed to R2 by `sync-media.yml` on merge. Schema changes (`migrations/*.sql`) are applied by `d1-migrate.yml` on merge once `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` exist as GitHub secrets; until then, run the SQL in the D1 console.
+6. Secrets and variables typed into the dashboard (`ADMIN_EMAILS`, `RESEND_API_KEY`, …) take effect only on the next deployment: Deployments → ⋯ → Retry deployment, or any merge.
+
 ### 2a. Tier 0 order of work (Cloudflare Pages, zero cost)
 
 Do these in this order; each later step needs the earlier one.
