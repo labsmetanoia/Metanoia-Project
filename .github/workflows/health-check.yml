@@ -1,0 +1,64 @@
+name: Health check
+
+# Free uptime monitoring: every 30 minutes GitHub probes /api/health on the
+# live site. On a failure it opens one issue labelled "outage" (or adds a
+# comment if that issue is already open) with the HTTP status and body, and
+# closes it again on the next success. Nothing else runs; no third party.
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+concurrency:
+  group: health-check
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe /api/health
+        id: probe
+        run: |
+          set +e
+          body=$(curl -sS --max-time 20 -w '\n%{http_code}' https://metanoialabs.net/api/health)
+          code=$(printf '%s' "$body" | tail -n1)
+          json=$(printf '%s' "$body" | sed '$d')
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          echo "body=$(printf '%s' "$json" | head -c 600 | tr -d '\n')" >> "$GITHUB_OUTPUT"
+          if [ "$code" = "200" ] && printf '%s' "$json" | grep -q '"ok":true'; then echo "ok=true" >> "$GITHUB_OUTPUT"; else echo "ok=false" >> "$GITHUB_OUTPUT"; fi
+          echo "HTTP $code: $json"
+      - name: Open or update the outage issue
+        if: steps.probe.outputs.ok != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'Outage: /api/health is failing';
+            const line = `${new Date().toISOString()} · HTTP ${{ steps.probe.outputs.code }} · ${process.env.BODY}`;
+            const { data: open } = await github.rest.issues.listForRepo({ owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'outage', per_page: 1 });
+            if (open.length) {
+              await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: open[0].number, body: `Still failing. ${line}` });
+            } else {
+              await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, labels: ['outage'],
+                body: `The scheduled probe of https://metanoialabs.net/api/health failed.\n\n${line}\n\nFirst things to check: Cloudflare → Workers & Pages → metanoia-labs → Deployments (latest production build), then Storage & databases → D1 → metanoia. This issue closes itself when the probe passes again. Rollback to GitHub Pages: docs/14 §2a step 5.` });
+            }
+        env:
+          BODY: ${{ steps.probe.outputs.body }}
+      - name: Close the outage issue on recovery
+        if: steps.probe.outputs.ok == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: open } = await github.rest.issues.listForRepo({ owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'outage', per_page: 5 });
+            for (const i of open) {
+              await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: i.number, body: `Recovered at ${new Date().toISOString()}: /api/health answers ok again.` });
+              await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: i.number, state: 'closed' });
+            }
+      - name: Fail the run when the site is down
+        if: steps.probe.outputs.ok != 'true'
+        run: exit 1
