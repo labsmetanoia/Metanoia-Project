@@ -2,10 +2,64 @@
  * Session handling shared by the API routes.
  * Cookie `mt_session` carries a random 256-bit token; only its SHA-256 is stored.
  */
-import { parseCookies, sha256, randomToken, cookie, nowIso, timingSafeEqual } from './http.js';
+import { parseCookies, sha256, randomToken, cookie, nowIso, timingSafeEqual, newId } from './http.js';
 
 export const COOKIE = 'mt_session';
 export const SESSION_DAYS = 30;
+const CONSENT_VERSIONS = { terms_version: '1.0-draft', privacy_version: '1.0-draft' };
+
+/* "reza.f" → "Reza F"; the name a passwordless account starts with until the member edits it */
+export function nameFromEmail(email) {
+  const local = String(email || '').split('@')[0].replace(/[._+-]+/g, ' ').trim();
+  if (!local) return 'Climber';
+  return local.split(' ').filter(Boolean).map(w => w[0].toUpperCase() + w.slice(1)).join(' ').slice(0, 80);
+}
+
+/* Magic link and OAuth sign-ins: the account for an address, created on first use.
+   `verified` marks the address confirmed (the provider or the link proved it); `admin`
+   grants or keeps the admin role; `founding` flags accounts created before the beta end. */
+export async function findOrCreateByEmail(env, { email, name, locale = 'en', method = 'magic-link', verified = true, admin = false, founding = false }) {
+  const now = nowIso();
+  let u = await env.DB.prepare('SELECT * FROM users WHERE email = ?').bind(email).first();
+  if (!u) {
+    const id = newId();
+    const consent = { ...CONSENT_VERSIONS, marketing: false, consented_at: now, method };
+    await env.DB.prepare('INSERT INTO users (id, email, name, pw_hash, role, audience, locale, email_verified_at, consent_json, marketing_opt_in, founding, created_at, updated_at, last_login_at) VALUES (?, ?, ?, ?, ?, NULL, ?, ?, ?, 0, ?, ?, ?, ?)')
+      .bind(id, email, (name && String(name).slice(0, 80)) || nameFromEmail(email), '', admin ? 'admin' : 'member', locale, verified ? now : null, JSON.stringify(consent), founding ? 1 : 0, now, now, now).run();
+    u = await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(id).first();
+    return { user: u, created: true };
+  }
+  const sets = ['last_login_at = ?'], args = [now];
+  if (verified && !u.email_verified_at) { sets.push('email_verified_at = ?'); args.push(now); }
+  if (admin && u.role !== 'admin') { sets.push('role = ?'); args.push('admin'); }
+  args.push(u.id);
+  await env.DB.prepare(`UPDATE users SET ${sets.join(', ')} WHERE id = ?`).bind(...args).run();
+  u = await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(u.id).first();
+  return { user: u, created: false };
+}
+
+/* ── sessions list and revoke (settings page) ── */
+export const sessionId = hash => String(hash).slice(0, 12);
+export async function currentSessionHash(request) {
+  const t = parseCookies(request)[COOKIE];
+  return t && t.length >= 20 ? sha256(t) : null;
+}
+export function deviceOf(ua) {
+  ua = String(ua || '');
+  const os = /iPhone|iPad/.test(ua) ? 'iOS' : /Android/.test(ua) ? 'Android' : /Windows/.test(ua) ? 'Windows' : /Mac OS X/.test(ua) ? 'macOS' : /Linux/.test(ua) ? 'Linux' : 'Unknown device';
+  const br = /Edg\//.test(ua) ? 'Edge' : /OPR\//.test(ua) ? 'Opera' : /Firefox\//.test(ua) ? 'Firefox' : /Chrome\//.test(ua) ? 'Chrome' : /Safari\//.test(ua) ? 'Safari' : 'Browser';
+  return `${br} on ${os}`;
+}
+export async function listSessions(request, env, userId) {
+  const cur = await currentSessionHash(request);
+  const r = await env.DB.prepare('SELECT token_hash, created_at, expires_at, user_agent FROM sessions WHERE user_id = ? AND expires_at > ? ORDER BY created_at DESC').bind(userId, nowIso()).all();
+  return (r.results || []).map(s => ({ id: sessionId(s.token_hash), created_at: s.created_at, expires_at: s.expires_at, device: deviceOf(s.user_agent), current: s.token_hash === cur }));
+}
+export async function revokeSession(env, userId, id) {
+  if (!/^[0-9a-f]{12}$/.test(String(id || ''))) return false;
+  const r = await env.DB.prepare('DELETE FROM sessions WHERE user_id = ? AND substr(token_hash, 1, 12) = ?').bind(userId, id).run();
+  return !!(r && r.meta && r.meta.changes);
+}
 
 export function publicUser(u) {
   if (!u) return null;

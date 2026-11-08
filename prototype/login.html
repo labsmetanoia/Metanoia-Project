@@ -270,6 +270,10 @@
   .api-note .wl-msg.err{color:#f08a8a}
   .api-note .wl-msg.ok{color:var(--gold-bright)}
   form[data-api="off"] .btn-primary-auth{opacity:.45;cursor:not-allowed}
+  .auth-tabs{display:flex;gap:6px;margin:0 0 14px;padding:4px;border:1px solid rgba(255,255,255,.12);border-radius:12px;background:rgba(255,255,255,.03)}
+  .auth-tab{flex:1;padding:9px 10px;border:0;border-radius:9px;background:none;color:rgba(255,255,255,.6);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+  .auth-tab[aria-selected="true"]{background:rgba(201,168,76,.16);color:#F0D878}
+  .auth-tab:focus-visible{outline:2px solid rgba(201,168,76,.6);outline-offset:1px}
 </style>
 
 <style id="langFlagCss">
@@ -320,11 +324,11 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <h2 class="auth-h1" data-en="Welcome back, climber." data-id="Selamat datang kembali, pendaki.">Welcome back, climber.</h2>
         <p class="auth-desc" data-en="Pick up where you left off." data-id="Lanjutkan dari tempat terakhirmu.">Pick up where you left off.</p>
 
-        <button class="btn-oauth" type="button" disabled aria-disabled="true" style="opacity:.45;cursor:not-allowed" title="Coming soon">
+        <button class="btn-oauth" data-provider="google" type="button" disabled aria-disabled="true" style="opacity:.45;cursor:not-allowed" title="Coming soon">
           <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1Z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23Z"/><path fill="#FBBC05" d="M5.84 14.1a6.6 6.6 0 0 1 0-4.2V7.06H2.18a11 11 0 0 0 0 9.88l3.66-2.84Z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1A11 11 0 0 0 2.18 7.06l3.66 2.84C6.71 7.31 9.14 5.38 12 5.38Z"/></svg>
           <span data-en="Google sign-in: coming soon" data-id="Masuk dengan Google: segera hadir">Google sign-in: coming soon</span>
         </button>
-        <button class="btn-oauth" type="button" disabled aria-disabled="true" style="opacity:.45;cursor:not-allowed" title="Coming soon">
+        <button class="btn-oauth" data-provider="linkedin" type="button" disabled aria-disabled="true" style="opacity:.45;cursor:not-allowed" title="Coming soon">
           <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path fill="#0A66C2" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
           <span data-en="LinkedIn sign-in: coming soon" data-id="Masuk dengan LinkedIn: segera hadir">LinkedIn sign-in: coming soon</span>
         </button>
@@ -345,7 +349,18 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         </div>
         <div class="reset-note" id="verifiedNote" data-en="Your e-mail address is confirmed. Sign in to continue." data-id="Alamat e-mailmu sudah dikonfirmasi. Masuk untuk melanjutkan.">Your e-mail address is confirmed. Sign in to continue.</div>
 
-        <form id="loginForm" novalidate>
+        <div class="auth-tabs" role="tablist" id="authTabs">
+          <button type="button" class="auth-tab" id="tabMagic" role="tab" aria-selected="true" data-en="Send me a sign-in link" data-id="Kirim tautan masuk">Send me a sign-in link</button>
+          <button type="button" class="auth-tab" id="tabPw" role="tab" aria-selected="false" data-en="Use a password" data-id="Pakai kata sandi">Use a password</button>
+        </div>
+        <form id="magicForm" novalidate>
+          <p class="auth-desc" style="margin-bottom:12px" data-en="We e-mail you a one-time link. No password needed." data-id="Kami kirim tautan sekali pakai ke e-mailmu. Tidak perlu kata sandi.">We e-mail you a one-time link. No password needed.</p>
+          <input class="auth-input" type="email" id="magicEmail" placeholder="Email address" data-ph-en="Email address" data-ph-id="Alamat email" autocomplete="email" required>
+          <div class="reset-note" id="magicNote"></div>
+          <div class="form-err" id="magicErr"></div>
+          <button class="btn-primary-auth" type="submit" data-en="Send the link →" data-id="Kirim tautannya →">Send the link →</button>
+        </form>
+        <form id="loginForm" novalidate style="display:none">
           <input class="auth-input" type="email" id="email" placeholder="Email address" data-ph-en="Email address" data-ph-id="Alamat email" autocomplete="email" required>
           <span class="pw-wrap"><input class="auth-input" type="password" id="password" placeholder="Password" data-ph-en="Password" data-ph-id="Kata sandi" autocomplete="current-password" required>
           <button type="button" class="pw-toggle" aria-pressed="false" data-aria-en="Show password" data-aria-id="Tampilkan kata sandi" aria-label="Show password" title="Show password">
@@ -413,7 +428,16 @@ const I18N = {
        resetSent:'If an account exists for that email, a reset link is on its way.',
        resetNoMail:'Password e-mails are not switched on yet. Write to hello@metanoialabs.net and we will reset it for you.',
        shortPw:'Password must be at least 8 characters.', noMatch:'Passwords do not match.',
-       resetBad:'This reset link is invalid or has expired. Request a new one.', resetDone:'Password saved. Sign in with it now.' },
+       resetBad:'This reset link is invalid or has expired. Request a new one.', resetDone:'Password saved. Sign in with it now.',
+       magicSent:'If that address can sign in here, a link is on its way. Open it within 15 minutes; it works once.',
+       magicNoMail:'Sign-in links are not switched on yet. Use a password instead.', magicChecking:'Checking your link…',
+       magicBad:'This link is invalid or has expired. Request a new one.',
+       magicInvite:'Accounts are open by invitation only for now, and this address is not on the list.',
+       verify:'We could not confirm the request came from a person. Reload the page and try again.',
+       oauthDenied:'Sign-in was cancelled.', oauthUnavailable:'That sign-in method is not available yet.',
+       oauthUnverified:'That account has no verified e-mail address with the provider. Use another method.',
+       oauthInvite:'Accounts are open by invitation only for now, and that address is not on the list.',
+       oauthFailed:'Social sign-in did not complete. Please try again.' },
   id:{ badEmail:'Silakan masukkan alamat email yang valid.', noPw:'Silakan masukkan kata sandimu.',
        wrong:'Email atau kata sandi salah. Baru di sini? Buat akun.',
        tooMany:'Terlalu banyak percobaan. Tunggu lima belas menit lalu coba lagi.',
@@ -422,7 +446,16 @@ const I18N = {
        resetSent:'Jika akun dengan email itu ada, tautan atur ulang sedang dikirim.',
        resetNoMail:'E-mail kata sandi belum diaktifkan. Tulis ke hello@metanoialabs.net dan kami akan mengatur ulang untukmu.',
        shortPw:'Kata sandi minimal 8 karakter.', noMatch:'Kata sandi tidak cocok.',
-       resetBad:'Tautan atur ulang ini tidak valid atau sudah kedaluwarsa. Minta yang baru.', resetDone:'Kata sandi tersimpan. Masuk dengan kata sandi itu sekarang.' }
+       resetBad:'Tautan atur ulang ini tidak valid atau sudah kedaluwarsa. Minta yang baru.', resetDone:'Kata sandi tersimpan. Masuk dengan kata sandi itu sekarang.',
+       magicSent:'Jika alamat itu bisa masuk di sini, tautannya sedang dikirim. Buka dalam 15 menit; hanya berlaku sekali.',
+       magicNoMail:'Tautan masuk belum diaktifkan. Pakai kata sandi saja.', magicChecking:'Memeriksa tautanmu…',
+       magicBad:'Tautan ini tidak valid atau sudah kedaluwarsa. Minta yang baru.',
+       magicInvite:'Akun untuk sementara hanya dibuka lewat undangan, dan alamat ini belum ada di daftar.',
+       verify:'Kami belum bisa memastikan permintaan ini berasal dari orang. Muat ulang halaman dan coba lagi.',
+       oauthDenied:'Proses masuk dibatalkan.', oauthUnavailable:'Cara masuk itu belum tersedia.',
+       oauthUnverified:'Akun itu tidak punya alamat e-mail terverifikasi di penyedianya. Pakai cara lain.',
+       oauthInvite:'Akun untuk sementara hanya dibuka lewat undangan, dan alamat itu belum ada di daftar.',
+       oauthFailed:'Masuk lewat akun sosial tidak selesai. Silakan coba lagi.' }
 };
 /* ─── Language toggle (shared mtLang key, site pattern) ─── */
 let lang = 'en';
@@ -444,7 +477,6 @@ applyLang();
    The browser never sees a password hash or a session token; when the API
    is not available on this host the page says so and offers the waitlist.
    ═══════════════════════════════════════════════════════════════ */
-window.oauth = function(){ /* Needs provider client IDs (Google / LinkedIn); the buttons stay disabled until then. */ };
 /* Safe same-site redirect target (e.g. ?redirect=/products/the-map/) */
 const Q = new URLSearchParams(location.search);
 const redirectTo = (() => {
@@ -466,6 +498,67 @@ function goSuccess(){
 }
 const views = ['signinView','forgotView','resetView'];
 function showView(id){ views.forEach(v => { F(v).style.display = v===id ? 'block' : 'none'; }); F('resetNote').classList.remove('show'); }
+
+/* ── sign-in tabs: one-time link (default) or password; the choice is remembered on this device ── */
+function showTab(which){
+  const magic = which !== 'pw';
+  F('magicForm').style.display = magic ? '' : 'none';
+  F('loginForm').style.display = magic ? 'none' : '';
+  F('tabMagic').setAttribute('aria-selected', String(magic));
+  F('tabPw').setAttribute('aria-selected', String(!magic));
+  try{ localStorage.setItem('mt-login-tab', magic ? 'magic' : 'pw'); }catch(e){}
+}
+F('tabMagic').addEventListener('click', () => showTab('magic'));
+F('tabPw').addEventListener('click', () => showTab('pw'));
+let savedTab = 'magic'; try{ savedTab = localStorage.getItem('mt-login-tab') || 'magic'; }catch(e){}
+showTab(savedTab);
+
+/* social sign-in: a button is live only for a provider the server has credentials for (health.oauth) */
+const PROVIDER_NAME = { google:'Google', linkedin:'LinkedIn' };
+MT_API.oauth().then(o => {
+  document.querySelectorAll('.btn-oauth[data-provider]').forEach(b => {
+    const p = b.dataset.provider, on = !!o[p];
+    b.disabled = !on; b.setAttribute('aria-disabled', String(!on));
+    b.style.opacity = on ? '' : '.45'; b.style.cursor = on ? 'pointer' : 'not-allowed'; b.title = on ? '' : (lang === 'id' ? 'Segera hadir' : 'Coming soon');
+    const s = b.querySelector('span');
+    if(on && s){ s.dataset.en = 'Continue with ' + PROVIDER_NAME[p]; s.dataset.id = 'Lanjutkan dengan ' + PROVIDER_NAME[p]; }
+    if(on) b.onclick = () => { location.href = '/api/auth/oauth/' + p + '/start?next=' + encodeURIComponent(redirectTo || '/portal'); };
+  });
+  applyLang();
+});
+/* a social sign-in that did not complete comes back here with ?oauth=<reason> */
+const oauthErr = Q.get('oauth');
+if(oauthErr){
+  const map = { denied:'oauthDenied', unavailable:'oauthUnavailable', unverified:'oauthUnverified', invite:'oauthInvite' };
+  showTab('magic'); F('magicErr').textContent = TT(map[oauthErr] || 'oauthFailed');
+}
+
+/* one-time link: request */
+F('magicForm').addEventListener('submit', async e => {
+  e.preventDefault();
+  const em = F('magicEmail').value.trim(), mErr = F('magicErr'), note = F('magicNote');
+  mErr.textContent = ''; note.classList.remove('show');
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)){ mErr.textContent = TT('badEmail'); F('magicEmail').focus(); return; }
+  if(apiOk === false){ apiNote.hidden = false; mErr.textContent = TT('offline'); return; }
+  const btn = F('magicForm').querySelector('.btn-primary-auth'); btn.disabled = true;
+  const turnstile = window.MT_TS ? await MT_TS.token(F('magicForm')) : null;
+  const r = await MT_AUTH.magicRequest({ email: em, next: redirectTo || '/portal', turnstile });
+  btn.disabled = false;
+  if(r.ok){ note.textContent = r.data && r.data.mail_configured === false ? TT('magicNoMail') : TT('magicSent'); note.classList.add('show'); return; }
+  if(r.status === 400 && r.data && r.data.field === 'turnstile'){ mErr.textContent = TT('verify'); return; }
+  mErr.textContent = r.offline ? TT('offline') : TT('failed');
+});
+/* one-time link: consume (arrived from the e-mail as /login?magic=<token>&next=…) */
+const magicToken = Q.get('magic');
+if(magicToken){
+  showTab('magic'); F('magicNote').textContent = TT('magicChecking'); F('magicNote').classList.add('show');
+  MT_AUTH.magicConsume(magicToken).then(r => {
+    if(r.ok){ goSuccess(); return; }
+    F('magicNote').classList.remove('show');
+    F('magicErr').textContent = r.status === 403 ? TT('magicInvite') : TT('magicBad');
+    try{ history.replaceState(null, '', location.pathname + (redirectTo ? '?next=' + encodeURIComponent(redirectTo) : '')); }catch(e){}
+  });
+}
 window.showForgot = () => showView('forgotView');
 window.showSignin = () => showView('signinView');
 

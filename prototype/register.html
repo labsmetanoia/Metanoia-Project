@@ -275,6 +275,16 @@
   .api-note .wl-msg.err{color:#f08a8a}
   .api-note .wl-msg.ok{color:var(--gold-bright)}
   form[data-api="off"] .btn-primary-auth{opacity:.45;cursor:not-allowed}
+  .magic-alt{margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.1)}
+  .magic-alt p{margin:0 0 10px;font-size:13px;line-height:1.5;color:rgba(255,255,255,.65)}
+  .magic-row{display:flex;gap:8px;align-items:stretch}
+  .magic-row .auth-input{margin-bottom:0;flex:1;min-width:0}
+  .magic-row button{flex:none;padding:0 16px;border:1px solid var(--gold-border-hover);border-radius:10px;background:none;color:var(--gold-bright);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+  .magic-row button:hover{background:rgba(201,168,76,.14)}
+  .magic-row button:disabled{opacity:.5;cursor:wait}
+  .magic-msg{display:block;margin-top:8px;font-size:13px;line-height:1.5;color:rgba(255,255,255,.65)}
+  .magic-msg.err{color:#f08a8a}
+  .magic-msg.ok{color:#F0D878}
 </style>
 
 <style id="langFlagCss">
@@ -325,11 +335,11 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <h2 class="auth-h1" data-en="Begin your ascent." data-id="Mulailah pendakianmu.">Begin your ascent.</h2>
       <p class="auth-desc" data-en="Create your free account, takes 30 seconds." data-id="Buat akun gratismu: hanya 30 detik.">Create your free account, takes 30 seconds.</p>
 
-      <button class="btn-oauth" type="button" disabled aria-disabled="true" style="opacity:.45;cursor:not-allowed" title="Coming soon">
+      <button class="btn-oauth" data-provider="google" type="button" disabled aria-disabled="true" style="opacity:.45;cursor:not-allowed" title="Coming soon">
         <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1Z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23Z"/><path fill="#FBBC05" d="M5.84 14.1a6.6 6.6 0 0 1 0-4.2V7.06H2.18a11 11 0 0 0 0 9.88l3.66-2.84Z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1A11 11 0 0 0 2.18 7.06l3.66 2.84C6.71 7.31 9.14 5.38 12 5.38Z"/></svg>
         <span data-en="Google sign-in: coming soon" data-id="Masuk dengan Google: segera hadir">Google sign-in: coming soon</span>
       </button>
-      <button class="btn-oauth" type="button" disabled aria-disabled="true" style="opacity:.45;cursor:not-allowed" title="Coming soon">
+      <button class="btn-oauth" data-provider="linkedin" type="button" disabled aria-disabled="true" style="opacity:.45;cursor:not-allowed" title="Coming soon">
         <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path fill="#0A66C2" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
         <span data-en="LinkedIn sign-in: coming soon" data-id="Masuk dengan LinkedIn: segera hadir">LinkedIn sign-in: coming soon</span>
       </button>
@@ -366,6 +376,14 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <label class="terms-row"><input type="checkbox" id="marketingConsent"> <span data-en="Send me career insights and product updates. (Optional)" data-id="Kirimi saya wawasan karier dan pembaruan produk. (Opsional)">Send me career insights and product updates. (Optional)</span></label>
         <div class="form-err" id="formErr"></div>
         <button class="btn-primary-auth" type="submit" data-en="Create My Account →" data-id="Buat Akun Saya →">Create My Account →</button>
+      </form>
+      <form id="magicForm" class="magic-alt" novalidate>
+        <p data-en="Prefer no password? We e-mail you a one-time link that creates your account and signs you in." data-id="Tidak ingin kata sandi? Kami kirim tautan sekali pakai yang membuat akunmu dan langsung memasukkanmu.">Prefer no password? We e-mail you a one-time link that creates your account and signs you in.</p>
+        <div class="magic-row">
+          <input class="auth-input" type="email" id="magicEmail" placeholder="Email address" data-ph-en="Email address" data-ph-id="Alamat email" autocomplete="email">
+          <button type="submit" id="magicBtn" data-en="Send link" data-id="Kirim tautan">Send link</button>
+        </div>
+        <span class="magic-msg" id="magicMsg" role="status"></span>
       </form>
       <p class="form-note" hidden></p>
     </div>
@@ -430,7 +448,6 @@ applyLang();
 /* Mentor applications have their own form with server-side storage and review. */
 if(new URLSearchParams(location.search).get('role') === 'mentor'){ location.replace('mentors/apply'); }
 
-window.oauth = function(){ /* Needs provider client IDs (Google / LinkedIn); the buttons stay disabled until then. */ };
 /* Safe same-site redirect target (e.g. ?redirect=/products/the-map/) */
 const redirectTo = (() => {
   const r = new URLSearchParams(location.search).get('redirect') || '';
@@ -472,6 +489,41 @@ MT_AUTH.ready.then(u => { if(u) location.replace(redirectTo || 'portal'); });
     apiNote.hidden = false; applyLang();
   }
 });
+
+/* social sign-up: a button is live only for a provider the server has credentials for (health.oauth) */
+const PROVIDER_NAME = { google:'Google', linkedin:'LinkedIn' };
+MT_API.oauth().then(o => {
+  document.querySelectorAll('.btn-oauth[data-provider]').forEach(b => {
+    const p = b.dataset.provider, on = !!o[p];
+    b.disabled = !on; b.setAttribute('aria-disabled', String(!on));
+    b.style.opacity = on ? '' : '.45'; b.style.cursor = on ? 'pointer' : 'not-allowed'; b.title = on ? '' : (lang === 'id' ? 'Segera hadir' : 'Coming soon');
+    const s = b.querySelector('span');
+    if(on && s){ s.dataset.en = 'Continue with ' + PROVIDER_NAME[p]; s.dataset.id = 'Lanjutkan dengan ' + PROVIDER_NAME[p]; }
+    if(on) b.onclick = () => { location.href = '/api/auth/oauth/' + p + '/start?next=' + encodeURIComponent(redirectTo || '/portal'); };
+  });
+  applyLang();
+});
+
+/* one-time link instead of a password: the link creates the account and signs in */
+const magicForm = F('magicForm');
+if(magicForm) magicForm.addEventListener('submit', async e => {
+  e.preventDefault();
+  const em = (F('magicEmail').value || F('email').value || '').trim(), msg = F('magicMsg'), btn = F('magicBtn'), id = lang === 'id';
+  const say = (t, cls) => { msg.textContent = t; msg.className = 'magic-msg' + (cls ? ' ' + cls : ''); };
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) return say(id ? 'Masukkan alamat e-mail yang valid.' : 'Enter a valid e-mail address.', 'err');
+  if(apiOk === false){ apiNote.hidden = false; return say(TT('offline'), 'err'); }
+  btn.disabled = true; say(id ? 'Mengirim…' : 'Sending…');
+  const turnstile = window.MT_TS ? await MT_TS.token(magicForm) : null;
+  const r = await MT_AUTH.magicRequest({ email: em, next: redirectTo || '/portal?onboarding=true', turnstile });
+  btn.disabled = false;
+  if(r.ok){
+    if(r.data && r.data.mail_configured === false) return say(id ? 'Tautan masuk belum diaktifkan. Pakai formulir di atas.' : 'Sign-in links are not switched on yet. Use the form above.', 'err');
+    return say(id ? 'Tautannya sedang dikirim. Buka dalam 15 menit; akunmu dibuat saat kamu membukanya.' : 'The link is on its way. Open it within 15 minutes; your account is created when you do.', 'ok');
+  }
+  if(r.status === 400 && r.data && r.data.field === 'turnstile') return say(TT('verify'), 'err');
+  say(r.offline ? TT('offline') : TT('failed'), 'err');
+});
+F('magicEmail') && F('email').addEventListener('input', () => { if(!F('magicEmail').value) F('magicEmail').placeholder = F('email').value || (lang === 'id' ? 'Alamat email' : 'Email address'); });
 
 /* waitlist: shown inside the note whenever the API can store it (accounts closed or by invitation) */
 const wlForm = F('wlForm');

@@ -209,6 +209,10 @@ h1,h2,h3{font-weight:inherit;margin:0}
 .pwc .pwc-msg{font-size:var(--text-sm);color:var(--text-muted)}
 .pwc .pwc-msg.err{color:var(--red)}
 .pwc .pwc-msg.ok{color:var(--gold-bright)}
+.dev-list{list-style:none;margin:0;padding:0}
+.dev-list li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 0;border-top:1px solid var(--gold-border);font-size:var(--text-sm);color:var(--text-sub)}
+.dev-list li:first-child{border-top:0}
+.dev-list .btn{padding:6px 12px;font-size:var(--text-sm)}
 .avatar-big{width:64px;height:64px;border-radius:var(--radius-full);background:var(--gold-glow);border:1.5px solid var(--gold-border);
   color:var(--gold);font-size:var(--text-xl);font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:var(--space-5)}
 .toast-container{position:fixed;bottom:var(--space-6);right:var(--space-6);z-index:300;display:flex;flex-direction:column;gap:var(--space-3);pointer-events:none}
@@ -419,6 +423,38 @@ render('profile');
     note.textContent = isID() ? 'Masuk sebagai ' + user.email + '. Data akun tersimpan di server; tombol di atas mengekspor atau menghapusnya seluruhnya.' : 'Signed in as ' + user.email + '. Account data lives on the server; the buttons above export or delete all of it.';
     row.parentElement.appendChild(note);
     row.parentElement.appendChild(passwordForm());
+    row.parentElement.appendChild(devicesPanel());
+  }
+  /* signed-in devices: every live session for this account; any other device can be signed out from here */
+  function devicesPanel() {
+    var id = isID();
+    var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+    var box = document.createElement('div'); box.className = 'pwc'; box.id = 'acct-devices';
+    var h = document.createElement('h3'); h.textContent = id ? 'Perangkat yang masuk' : 'Signed-in devices'; box.appendChild(h);
+    var list = document.createElement('ul'); list.className = 'dev-list'; box.appendChild(list);
+    var msg = document.createElement('p'); msg.className = 'pwc-msg'; box.appendChild(msg);
+    function load() {
+      MT_AUTH.sessions().then(function (r) {
+        list.innerHTML = ''; msg.textContent = '';
+        if (!r.ok) { msg.textContent = id ? 'Daftar perangkat tidak bisa dimuat.' : 'Could not load the device list.'; return; }
+        (r.data.sessions || []).forEach(function (s) {
+          var li = document.createElement('li');
+          var when = ''; try { when = new Date(s.created_at).toLocaleDateString(undefined, { dateStyle: 'medium' }); } catch (e) { when = s.created_at; }
+          li.innerHTML = '<span>' + esc(s.device) + ' · ' + (id ? 'masuk ' : 'signed in ') + esc(when) + (s.current ? ' · <b>' + (id ? 'perangkat ini' : 'this device') + '</b>' : '') + '</span>';
+          if (!s.current) {
+            var b = document.createElement('button'); b.type = 'button'; b.className = 'btn btn-secondary'; b.textContent = id ? 'Keluarkan' : 'Sign out';
+            b.addEventListener('click', function () {
+              b.disabled = true;
+              MT_AUTH.revokeSession(s.id).then(function (rr) { if (rr.ok) load(); else { b.disabled = false; msg.textContent = id ? 'Gagal mengeluarkan perangkat itu.' : 'Could not sign that device out.'; } });
+            });
+            li.appendChild(b);
+          }
+          list.appendChild(li);
+        });
+      });
+    }
+    load();
+    return box;
   }
   /* change password: verifies the current one, stores the new hash, signs out every other browser */
   function passwordForm() {

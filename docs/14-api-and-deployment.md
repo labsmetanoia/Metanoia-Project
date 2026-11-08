@@ -9,7 +9,7 @@ The static site (`prototype/`) now ships with a small server layer under `functi
 | Path | Purpose |
 |---|---|
 | `functions/api/health.js` | `GET /api/health` — the probe every page uses; `accounts` mirrors `AUTH_ENABLED`, and while it is false the login and register pages show "accounts are not open" with the waitlist box; the products themselves are for signed-in members only |
-| `functions/api/auth/[[route]].js` | register, login, logout, me, request-reset, reset, verify, resend-verify |
+| `functions/api/auth/[[route]].js` | register, login, logout, me, request-reset, reset, verify, resend-verify; magic/request and magic/consume (one-time sign-in links, 15 minutes); sessions list and revoke; oauth/:provider/start and callback (Google, LinkedIn via `server/lib/oauth.js`) |
 | `functions/api/leads/[[route]].js` | mentor applications, enterprise inquiries, newsletter (double opt-in), waitlist (login and register pages while accounts are closed; needs `migrations/0002_leads_kinds.sql`) |
 | `functions/api/events.js` | first-party product events (pseudonymous) |
 | `functions/api/results/[[route]].js` | Career Map "e-mail me my report": stores a `results` lead with scores and answers, sends the summary with a signed 90-day link; `GET /api/results/:id?sig=` rebuilds the report on the assessment page |
@@ -36,6 +36,8 @@ The static site (`prototype/`) now ships with a small server layer under `functi
    | `SUBJECT_KEY` | yes for events | HMAC key that pseudonymises event subjects; rotate quarterly |
    | `ADMIN_TOKEN` | optional | bearer token for `/api/admin/*` and `/admin/`, the fallback when no admin account is signed in (accounts from `ADMIN_EMAILS` open the page by themselves) |
    | `RESEND_API_KEY` | optional | verification, reset, confirmations, lead notifications. Resend shows a key once, at creation: paste it into the Pages secret and the password manager in the same sitting, or create a new one (sending access, domain `metanoialabs.net`) |
+   | `GOOGLE_CLIENT_SECRET` | optional | secret half of the Google OAuth client; the client id is `GOOGLE_CLIENT_ID` in `wrangler.toml` `[vars]`. Both set → the "Continue with Google" button is live (§2c) |
+   | `LINKEDIN_CLIENT_SECRET` | optional | same for LinkedIn (`LINKEDIN_CLIENT_ID` in `[vars]`) |
    | `TURNSTILE_SECRET_KEY` | optional | secret half of the Turnstile widget "metanoia-forms" (invisible mode); the public site key is in `prototype/data/security.js`. With the secret set, every lead submission and registration must carry a valid token (`js/mt-turnstile.js` obtains one at submit time); without it the check is skipped |
    | `ADMIN_EMAILS` | optional | comma-separated addresses that may register while `AUTH_ENABLED` is `false` ("invite" mode); they get the `admin` role, and an existing account on the list is promoted at its next sign-in. The public pages keep the guest preview |
 
@@ -55,6 +57,14 @@ The static site (`prototype/`) now ships with a small server layer under `functi
 4. Visibility: HTML, scripts and styles carry `Cache-Control: max-age=600, must-revalidate`, so the edge and browsers pick a deploy up within ten minutes; the stamped references make scripts and styles effectively immediate. Caching → Purge Everything in the Cloudflare dashboard forces it.
 5. Media changes (`prototype/assets/lms/**`) are pushed to R2 by `sync-media.yml` on merge. Schema changes (`migrations/*.sql`) are applied by `d1-migrate.yml` on merge (GitHub secrets `CLOUDFLARE_API_TOKEN`, an account token with D1, Workers Scripts and Cloudflare Pages edit rights, expiring 8 November 2027, and `CLOUDFLARE_ACCOUNT_ID`; both set 2026-11-08). The same token drives `deploy-worker.yml` (the nightly aggregation Worker, on changes under `workers/aggregate/`), `d1-backup.yml` (a SQL export of the database every night at 19:47 UTC, encrypted with AES-256 under the `BACKUP_PASSPHRASE` GitHub secret because the repository is public and artifacts are downloadable, kept 90 days as a workflow artifact; restore: `openssl enc -d -aes-256-cbc -pbkdf2 -iter 600000 -in <file>.sql.enc -out backup.sql`, then `wrangler d1 execute metanoia --remote --file backup.sql`) and `health-check.yml` (probes `/api/health` every 30 minutes and opens or closes an issue labelled `outage`).
 6. Secrets typed into the dashboard (`ADMIN_EMAILS`, `RESEND_API_KEY`, …) take effect only on the next deployment. Cloudflare shows Retry deployment only on a failed build, so when the latest build is green the trigger is any merge to `main`, a documentation commit included. `/api/health` confirms the result (`mail`, `accounts`).
+
+### 2c. Social sign-in setup (Google, LinkedIn; both free)
+
+Each provider needs an app the account owner creates. Redirect URI for both: `https://metanoialabs.net/api/auth/oauth/<provider>/callback` (the flow runs on the `SITE_URL` host; a start on `www` is redirected there first so the state cookie is sent back).
+
+- **Google**: console.cloud.google.com → create or pick a project → APIs & Services → OAuth consent screen (External, app name Metanoia Labs, support and developer e-mail hello@metanoialabs.net, scopes `openid`, `email`, `profile`; publish the app so sign-in is not limited to test users; no verification is required for these scopes) → Credentials → Create credentials → OAuth client ID → Web application → Authorised JavaScript origins `https://metanoialabs.net`, Authorised redirect URI `https://metanoialabs.net/api/auth/oauth/google/callback`. The client id goes into `wrangler.toml` `GOOGLE_CLIENT_ID`; the client secret into the Pages secret `GOOGLE_CLIENT_SECRET`.
+- **LinkedIn**: linkedin.com/developers → Create app (needs a LinkedIn Company Page for Metanoia Labs) → Products → request "Sign In with LinkedIn using OpenID Connect" (approved instantly) → Auth tab → Authorised redirect URL `https://metanoialabs.net/api/auth/oauth/linkedin/callback`. Client ID → `LINKEDIN_CLIENT_ID`; Primary Client Secret → Pages secret `LINKEDIN_CLIENT_SECRET`.
+- A new deployment loads the secrets; `/api/health` then reports `oauth: { google: true, linkedin: true }` and the buttons on `/login` and `/register` turn live by themselves. Accounts created this way have no password (`pw_hash` empty) and a row in `identities`; the member can set a password later from the reset flow.
 
 ### 2a. Tier 0 order of work (Cloudflare Pages, zero cost)
 
