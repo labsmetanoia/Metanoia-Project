@@ -1609,12 +1609,19 @@ a.nv-rec-i:hover b{color:var(--gold)}
 /* ─── AUTH GATE ─── */
 const params = new URLSearchParams(window.location.search);
 const isDemoMode = params.get('demo') === 'true';
+const PRODUCT_SLUG = 'the-compass';
+/* access per product, mirrored from /api/auth/me by js/mt-auth.js; the coarse flag is the fallback for an older session */
+function canUse() {
+  try {
+    var a = JSON.parse(sessionStorage.getItem('metanoia_access') || 'null');
+    if (a && a.products) return !!(a.all || a.products[PRODUCT_SLUG]);
+    return sessionStorage.getItem('metanoia_premium') !== 'false';
+  } catch (e) { return true; }
+}
 let isAuthenticated = false, isPremium = false;
 try {
   isAuthenticated = sessionStorage.getItem('metanoia_auth') === 'true' || !!localStorage.getItem('metanoia_session');
-  /* Metanoia membership includes Premium access on this platform.
-     Only an explicit 'false' flag (future billing states) raises the upgrade prompt. */
-  isPremium = isAuthenticated && sessionStorage.getItem('metanoia_premium') !== 'false';
+  isPremium = isAuthenticated && canUse();
 } catch (e) {}
 function showUpgradePrompt() { document.getElementById('upgradeVeil').classList.add('show'); }
 /* members only: demo mode unlocks the lesson order for a signed-in reviewer, it never bypasses sign-in */
@@ -1624,6 +1631,8 @@ if (!isAuthenticated) {
 } else if (!isPremium && !isDemoMode) {
   showUpgradePrompt();
 }
+/* the fresh answer from the server can differ from the cached flag (a grant expired, or was just made) */
+window.addEventListener('mt:access', function () { if (isAuthenticated && !isDemoMode && !canUse()) showUpgradePrompt(); });
 try {
   const sess = JSON.parse(localStorage.getItem('metanoia_session') || 'null');
   if (sess && sess.name) document.getElementById('avatar').textContent = sess.name.slice(0, 1).toUpperCase();

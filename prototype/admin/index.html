@@ -21,6 +21,7 @@
   .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
   .bar select,.bar input{width:auto;min-width:160px}
   .stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 16px}
+.access{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:0 0 16px}.access summary{cursor:pointer}.access input,.access select{font-size:13px}
   .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:120px}
   .stat b{display:block;font-size:20px;color:var(--gold2)}
   .stat span{font-size:11.5px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
@@ -55,6 +56,24 @@
 
   <section id="app" hidden>
     <div class="stats" id="stats"></div>
+    <details class="access" id="access">
+      <summary><b>Access</b> <span class="muted small" id="acSummary"></span></summary>
+      <div class="bar" style="margin-top:10px">
+        <input type="search" id="acUser" placeholder="Member e-mail or id">
+        <button class="ghost" id="acFind">Find</button>
+        <button class="ghost" id="acCsv" title="Every account created before the beta end, as CSV">Founding list (CSV)</button>
+        <span class="small muted" id="acMsg"></span>
+      </div>
+      <div id="acResult"></div>
+      <div class="bar" style="margin-top:10px">
+        <select id="acProduct"><option value="all">all products</option><option value="the-map">The Map</option><option value="the-pack">The Pack</option><option value="the-rope">The Rope</option><option value="the-route">The Route</option><option value="the-compass">The Compass</option></select>
+        <select id="acPlan"><option value="member">member</option><option value="founding">founding</option><option value="beta">beta</option><option value="enterprise">enterprise</option></select>
+        <input type="date" id="acEnds" title="End date (empty = no end)">
+        <input type="text" id="acNote" placeholder="Note (optional)" style="min-width:200px">
+        <button class="ghost" id="acGrant" disabled>Grant to member</button>
+        <button class="ghost" id="acGrantFounding">Grant to every founding member</button>
+      </div>
+    </details>
     <div class="bar">
       <select id="kind"><option value="">All kinds</option><option value="mentor">Mentor applications</option><option value="enterprise">Enterprise inquiries</option><option value="newsletter">Newsletter</option><option value="waitlist">Waitlist</option><option value="results">Career Map results</option></select>
       <select id="status"><option value="">All statuses</option><option>new</option><option>reviewing</option><option>accepted</option><option>declined</option><option>contacted</option><option>archived</option><option>confirmed</option><option>unsubscribed</option></select>
@@ -113,6 +132,62 @@
       if (el) { el.textContent = r.ok ? 'saved ' + new Date().toLocaleTimeString() : 'not saved (' + (r.data && r.data.error || r.status) + ')'; el.className = 'small ' + (r.ok ? 'ok' : 'err'); }
     });
   }
+  /* ── access: founding list, a member's grants, manual grants and revokes ── */
+  var acUserId = null;
+  function endsVal() { var v = $('acEnds').value; return v ? v + 'T23:59:59Z' : null; }
+  function renderAccess(d) {
+    var u = d.user, acc = d.access || {}, rows = d.entitlements || [];
+    acUserId = u.id; $('acGrant').disabled = false;
+    var open = Object.keys(acc.products || {});
+    var html = '<div class="pl" style="max-width:none;margin:6px 0 10px"><b>' + esc(u.email) + '</b> · ' + esc(u.name || '') + (u.founding ? ' · <span class="ok">founding</span>' : '') + (u.email_verified ? '' : ' · <span class="err">unverified</span>') +
+      ' · joined ' + esc(fmt(u.created_at)) + '<br>Access (' + esc(acc.mode) + '): plan <b>' + esc(acc.plan) + '</b> · open: ' + (open.length ? open.map(function (k) { var p = acc.products[k]; return esc(k) + (p.ends_at ? ' until ' + esc(p.ends_at.slice(0, 10)) : ''); }).join(', ') : 'none') + '</div>';
+    if (rows.length) {
+      html += '<table><thead><tr><th>Product</th><th>Plan</th><th>Source</th><th>From</th><th>Until</th><th>Status</th><th>Note</th><th></th></tr></thead><tbody>' + rows.map(function (e) {
+        return '<tr><td class="small">' + esc(e.product) + '</td><td class="small">' + esc(e.plan) + '</td><td class="small">' + esc(e.source) + '</td><td class="small">' + esc(e.starts_at.slice(0, 10)) + '</td><td class="small">' + esc(e.ends_at ? e.ends_at.slice(0, 10) : 'no end') + '</td><td class="small">' + esc(e.status) + '</td><td class="small">' + esc(e.note || '') + '</td>' +
+          '<td>' + (e.status === 'active' && e.plan !== 'free' ? '<button class="ghost small" data-revoke="' + esc(e.id) + '">Revoke</button>' : '') + '</td></tr>';
+      }).join('') + '</tbody></table>';
+    } else html += '<div class="small muted">No grants yet.</div>';
+    $('acResult').innerHTML = html;
+    $('acResult').querySelectorAll('[data-revoke]').forEach(function (b) {
+      b.addEventListener('click', function () { api('DELETE', '/entitlements/' + b.dataset.revoke).then(function (r) { $('acMsg').textContent = r.ok ? 'revoked' : 'not revoked (' + (r.data && r.data.error || r.status) + ')'; findMember(); }); });
+    });
+  }
+  function findMember() {
+    var ref = $('acUser').value.trim(); if (!ref) return;
+    $('acMsg').textContent = '';
+    api('GET', '/entitlements?user=' + encodeURIComponent(ref)).then(function (r) {
+      if (!r.ok) { $('acResult').innerHTML = ''; acUserId = null; $('acGrant').disabled = true; $('acMsg').textContent = (r.data && r.data.error) || ('HTTP ' + r.status); return; }
+      renderAccess(r.data);
+    });
+  }
+  function csvOf(users) {
+    var cols = ['email', 'name', 'audience', 'locale', 'founding', 'email_verified', 'marketing_opt_in', 'created_at', 'last_login_at'];
+    var q = function (v) { v = v == null ? '' : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+    return cols.join(',') + '\n' + users.map(function (u) { return cols.map(function (c) { return q(u[c]); }).join(','); }).join('\n') + '\n';
+  }
+  $('acFind').addEventListener('click', findMember);
+  $('acUser').addEventListener('keydown', function (e) { if (e.key === 'Enter') findMember(); });
+  $('acCsv').addEventListener('click', function () {
+    api('GET', '/users?founding=1&limit=5000').then(function (r) {
+      if (!r.ok) { $('acMsg').textContent = (r.data && r.data.error) || ('HTTP ' + r.status); return; }
+      var blob = new Blob([csvOf(r.data.users || [])], { type: 'text/csv' }), a = document.createElement('a');
+      a.href = URL.createObjectURL(blob); a.download = 'metanoia-founding-members.csv'; document.body.appendChild(a); a.click(); a.remove();
+      $('acMsg').textContent = (r.data.users || []).length + ' founding members exported';
+    });
+  });
+  $('acGrant').addEventListener('click', function () {
+    if (!acUserId) return;
+    api('POST', '/entitlements', { user: acUserId, product: $('acProduct').value, plan: $('acPlan').value, ends_at: endsVal(), note: $('acNote').value.trim() }).then(function (r) {
+      $('acMsg').textContent = r.ok ? 'granted' : 'not granted (' + (r.data && r.data.error || r.status) + ')'; if (r.ok) findMember();
+    });
+  });
+  $('acGrantFounding').addEventListener('click', function () {
+    if (!confirm('Grant ' + $('acPlan').value + ' for ' + $('acProduct').value + ' to every founding member who does not hold it yet?')) return;
+    api('POST', '/entitlements/founding', { product: $('acProduct').value, plan: $('acPlan').value, ends_at: endsVal(), note: $('acNote').value.trim() }).then(function (r) {
+      $('acMsg').textContent = r.ok ? r.data.granted + ' grants made' : 'failed (' + (r.data && r.data.error || r.status) + ')'; if (r.ok && acUserId) findMember(); load();
+    });
+  });
+
   function load() {
     var qs = [];
     if ($('kind').value) qs.push('kind=' + encodeURIComponent($('kind').value));
@@ -128,6 +203,7 @@
       var d = r.data, by = {};
       (d.leads || []).forEach(function (x) { by[x.kind] = (by[x.kind] || 0) + x.n; });
       var newCount = (d.leads || []).filter(function (x) { return x.status === 'new'; }).reduce(function (a, x) { return a + x.n; }, 0);
+      if (d.access) $('acSummary').textContent = 'mode ' + d.access.mode + (d.access.beta_ends_at ? ' · beta ends ' + d.access.beta_ends_at : '') + ' · ' + d.access.founding_members + ' founding · ' + d.access.active_grants + ' active grants';
       $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Waitlist', by.waitlist || 0], ['Results', by.results || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0]]
         .map(function (p) { return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>'; }).join('');
     });

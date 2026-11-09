@@ -341,7 +341,7 @@ const PANELS = {
   subscription: () => {
     const tier = (() => { try { return sessionStorage.getItem('metanoia_compass_tier') || 'free'; } catch (e) { return 'free'; } })();
     return '<h2>' + L('Subscription', 'Langganan') + '</h2><p class="ph-sub">' + L('Your current plan and what it unlocks.', 'Paket saat ini dan apa yang dibukanya.') + '</p>' +
-    '<div class="f-group"><label class="f-label">' + L('Current plan', 'Paket saat ini') + '</label>' +
+    '<div class="f-group" id="sub-plan"><label class="f-label">' + L('Current plan', 'Paket saat ini') + '</label>' +
     '<div style="font-size:var(--text-lg);font-weight:700;color:var(--gold)">' + (tier === 'compass' ? 'The Compass' : tier === 'expired' ? L('Compass (expired)', 'Compass (berakhir)') : L('Basecamp (free)', 'Basecamp (gratis)')) + '</div></div>' +
     '<p class="note">' + L('Basecamp is free, always. Every edition membership is Rp 0 during beta. See the pricing page for what is live today. Your data is never deleted if a subscription lapses.',
       'Basecamp gratis, selamanya. Setiap keanggotaan edisi Rp 0 selama beta; lihat halaman harga untuk apa yang sudah tersedia hari ini. Datamu tidak pernah dihapus saat langganan berakhir.') + '</p>' +
@@ -402,6 +402,7 @@ render('profile');
   var isID = function () { return (document.documentElement.lang || 'en').indexOf('id') === 0; };
   function hook(user) {
     hookNotifications(user);
+    hookSubscription(user);
     var ex = document.getElementById('export-btn');
     if (!ex || document.getElementById('acct-export')) return;
     var row = ex.parentElement;
@@ -426,6 +427,33 @@ render('profile');
     row.parentElement.appendChild(passwordForm());
     row.parentElement.appendChild(devicesPanel());
     row.parentElement.appendChild(syncPanel());
+  }
+  /* subscription: what the account may use, from the resolved access that /api/auth/me returned */
+  function hookSubscription(user) {
+    var box = document.getElementById('sub-plan');
+    var acc = window.MT_AUTH && MT_AUTH.access;
+    if (!box || box.__mtWired || !acc) return;
+    box.__mtWired = true;
+    var id = isID();
+    var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+    var NAMES = { 'the-map': 'The Map', 'the-pack': 'The Pack', 'the-rope': 'The Rope', 'the-route': 'The Route', 'the-compass': 'The Compass' };
+    var PLAN = { free: ['Basecamp (free)', 'Basecamp (gratis)'], beta: ['Beta access', 'Akses beta'], founding: ['Founding member', 'Anggota pendiri'], member: ['Member', 'Anggota'], enterprise: ['Enterprise', 'Enterprise'] };
+    var fmt = function (iso) { try { return new Date(iso).toLocaleDateString(id ? 'id-ID' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' }); } catch (e) { return iso; } };
+    var title = (PLAN[acc.plan] || PLAN.free)[id ? 1 : 0] + (acc.founding && acc.plan !== 'founding' ? ' · ' + (id ? 'Anggota pendiri' : 'Founding member') : '');
+    var lines = [];
+    var open = Object.keys(acc.products || {});
+    if (acc.mode === 'beta' && acc.all) {
+      lines.push(acc.beta_ends_at
+        ? (id ? 'Semua produk terbuka selama beta, sampai ' + fmt(acc.beta_ends_at) + '. Tidak ada yang berubah pada tanggal itu dengan sendirinya; kamu akan diberi tahu sebelum ada perubahan.' : 'Every product is open during the beta, until ' + fmt(acc.beta_ends_at) + '. Nothing changes on that date by itself; you will be told before anything does.')
+        : (id ? 'Semua produk terbuka selama beta.' : 'Every product is open during the beta.'));
+    } else if (open.length) {
+      lines.push((id ? 'Terbuka untukmu: ' : 'Open to you: ') + open.map(function (k) { var p = acc.products[k]; return NAMES[k] + (p.ends_at ? ' (' + (id ? 'sampai ' : 'until ') + fmt(p.ends_at) + ')' : ''); }).join(', ') + '.');
+    } else {
+      lines.push(id ? 'Basecamp: Career Map, The Gauntlet, The Range, dan Mind Palace. Produk lengkap terbuka dengan keanggotaan.' : 'Basecamp: the Career Map, The Gauntlet, The Range and the Mind Palace. The full products open with a membership.');
+    }
+    if (acc.founding) lines.push(id ? 'Akunmu dibuat sebelum beta berakhir: kamu tercatat sebagai anggota pendiri.' : 'Your account was created before the beta ends: you are on the founding-member list.');
+    box.innerHTML = '<label class="f-label">' + (id ? 'Paket saat ini' : 'Current plan') + '</label><div style="font-size:var(--text-lg);font-weight:700;color:var(--gold)">' + esc(title) + '</div>' +
+      lines.map(function (l) { return '<p class="note" style="margin-top:.5rem">' + esc(l) + '</p>'; }).join('');
   }
   /* notifications: the weekly e-mail choice is the account's marketing opt-in (POST /api/account/update) */
   function hookNotifications(user) {

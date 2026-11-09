@@ -20,6 +20,7 @@ import { json, fail, readJson, sameOrigin, rateLimit, clientIp, isEmail, normEma
   hashPassword, verifyPassword, randomToken, sha256, newId, nowIso, configured, accountsMode, isAdminEmail, verifyTurnstile,
   safeNext, isFounding } from '../../../server/lib/http.js';
 import { getUser, createSession, destroySession, publicUser, findOrCreateByEmail, listSessions, revokeSession } from '../../../server/lib/auth.js';
+import { accessFor, grantFree } from '../../../server/lib/entitlements.js';
 import { mailVerify, mailReset, mailMagic } from '../../../server/lib/mail.js';
 import { PROVIDERS, oauthConfigured, startUrl, readState, clearStateCookie, fetchProfile } from '../../../server/lib/oauth.js';
 
@@ -60,7 +61,7 @@ export async function onRequestGet({ request, env, params }) {
   if (route === 'me') {
     const u = await getUser(request, env);
     if (!u) return fail(401, 'not signed in');
-    return json({ ok: true, user: publicUser(u) });
+    return json({ ok: true, user: publicUser(u), access: await accessFor(env, u) });
   }
   if (route === 'sessions') {
     const u = await getUser(request, env);
@@ -146,6 +147,7 @@ export async function onRequestPost({ request, env, params }) {
     const now = nowIso();
     await env.DB.prepare('INSERT INTO users (id, email, name, pw_hash, role, audience, locale, consent_json, marketing_opt_in, founding, created_at, updated_at, last_login_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
       .bind(id, email, name, await hashPassword(password), admin ? 'admin' : 'member', audience, locale, JSON.stringify(consent), marketing ? 1 : 0, isFounding(env) ? 1 : 0, now, now, now).run();
+    await grantFree(env, id);
     const setCookie = await createSession(request, env, id);
     let verification = { sent: false, reason: 'mail not configured' };
     if (env.RESEND_API_KEY) {
@@ -153,7 +155,7 @@ export async function onRequestPost({ request, env, params }) {
       verification = await mailVerify(env, { to: email, name, url: `${site}/api/auth/verify?token=${raw}`, locale });
     }
     const u = await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(id).first();
-    return json({ ok: true, user: publicUser(u), verification_email: verification.sent }, 201, { 'set-cookie': setCookie });
+    return json({ ok: true, user: publicUser(u), access: await accessFor(env, u), verification_email: verification.sent }, 201, { 'set-cookie': setCookie });
   }
 
   if (route === 'login') {
@@ -173,7 +175,7 @@ export async function onRequestPost({ request, env, params }) {
       await env.DB.prepare('UPDATE users SET last_login_at = ? WHERE id = ?').bind(nowIso(), u.id).run();
     }
     const setCookie = await createSession(request, env, u.id);
-    return json({ ok: true, user: publicUser(u) }, 200, { 'set-cookie': setCookie });
+    return json({ ok: true, user: publicUser(u), access: await accessFor(env, u) }, 200, { 'set-cookie': setCookie });
   }
 
   if (route === 'logout') {
@@ -207,7 +209,7 @@ export async function onRequestPost({ request, env, params }) {
     if (mode === 'invite' && !admin) return fail(403, 'invitation required', { field: 'email' });
     const { user, created } = await findOrCreateByEmail(env, { email, locale: localeOf(body.locale), method: 'magic-link', verified: true, admin, founding: isFounding(env) });
     const setCookie = await createSession(request, env, user.id);
-    return json({ ok: true, user: publicUser(user), created }, 200, { 'set-cookie': setCookie });
+    return json({ ok: true, user: publicUser(user), access: await accessFor(env, user), created }, 200, { 'set-cookie': setCookie });
   }
 
   if (route === 'request-reset') {
