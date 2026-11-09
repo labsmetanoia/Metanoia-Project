@@ -11,7 +11,7 @@ main = "index.js"
 compatibility_date = "2025-07-18"
 
 [triggers]
-crons = ["15 2 * * *", "30 0 * * *"]   # 02:15 UTC aggregation + retention; 00:30 UTC (07:30 WIB) lifecycle mail
+crons = ["15 2 * * *", "30 0 * * *", "0 */6 * * *"]   # 02:15 UTC aggregation + retention; 00:30 UTC (07:30 WIB) lifecycle mail; every 6 h account purge
 
 [[d1_databases]]
 binding = "DB"

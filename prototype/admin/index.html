@@ -56,6 +56,11 @@
 
   <section id="app" hidden>
     <div class="stats" id="stats"></div>
+    <details class="access" id="funnel">
+      <summary><b>Funnel</b> <span class="muted small" id="fnSummary"></span></summary>
+      <div class="bar" style="margin-top:10px"><select id="fnDays"><option value="7">last 7 days</option><option value="30" selected>last 30 days</option><option value="90">last 90 days</option><option value="365">last year</option></select><button class="ghost" id="fnLoad">Refresh</button></div>
+      <div id="fnRows"></div>
+    </details>
     <details class="access" id="access">
       <summary><b>Access</b> <span class="muted small" id="acSummary"></span></summary>
       <div class="bar" style="margin-top:10px">
@@ -132,6 +137,24 @@
       if (el) { el.textContent = r.ok ? 'saved ' + new Date().toLocaleTimeString() : 'not saved (' + (r.data && r.data.error || r.status) + ')'; el.className = 'small ' + (r.ok ? 'ok' : 'err'); }
     });
   }
+  /* ── funnel: the path from a page view to a grant, in the chosen window ── */
+  function loadFunnel() {
+    api('GET', '/funnel?days=' + $('fnDays').value).then(function (r) {
+      if (!r.ok) { $('fnRows').innerHTML = '<div class="err">' + esc((r.data && r.data.error) || ('HTTP ' + r.status)) + '</div>'; return; }
+      var d = r.data, prev = null, t = d.totals || {};
+      $('fnSummary').textContent = (t.users || 0) + ' members · ' + (t.verified || 0) + ' verified · ' + (t.founding || 0) + ' founding · ' + (t.results || 0) + ' results all time' + (t.pending_deletion ? ' · ' + t.pending_deletion + ' deletion pending' : '');
+      $('fnRows').innerHTML = '<table><thead><tr><th>Step</th><th>Count</th><th>Of previous</th></tr></thead><tbody>' + (d.steps || []).map(function (s) {
+        var pct = (prev && s.n != null && prev > 0) ? Math.round(100 * s.n / prev) + '%' : '';
+        var row = '<tr><td>' + esc(s.label) + '</td><td><b>' + (s.n == null ? 'n/a' : s.n) + '</b></td><td class="small">' + pct + '</td></tr>';
+        if (s.n != null) prev = s.n;
+        return row;
+      }).join('') + '</tbody></table><div class="small muted" style="margin-top:6px">Visitors and starts count pseudonymous subjects (events); the rest count rows created in the window. Completed and e-mailed differ because e-mail is optional.</div>';
+    });
+  }
+  $('fnLoad').addEventListener('click', loadFunnel);
+  $('fnDays').addEventListener('change', loadFunnel);
+  $('funnel').addEventListener('toggle', function () { if ($('funnel').open && !$('fnRows').innerHTML) loadFunnel(); });
+
   /* ── access: founding list, a member's grants, manual grants and revokes ── */
   var acUserId = null;
   function endsVal() { var v = $('acEnds').value; return v ? v + 'T23:59:59Z' : null; }
@@ -203,7 +226,7 @@
       var d = r.data, by = {};
       (d.leads || []).forEach(function (x) { by[x.kind] = (by[x.kind] || 0) + x.n; });
       var newCount = (d.leads || []).filter(function (x) { return x.status === 'new'; }).reduce(function (a, x) { return a + x.n; }, 0);
-      if (d.access) $('acSummary').textContent = 'mode ' + d.access.mode + (d.access.beta_ends_at ? ' · beta ends ' + d.access.beta_ends_at : '') + ' · ' + d.access.founding_members + ' founding · ' + d.access.active_grants + ' active grants';
+      if (d.access) $('acSummary').textContent = 'mode ' + d.access.mode + (d.access.beta_ends_at ? ' · beta ends ' + d.access.beta_ends_at : '') + ' · ' + d.access.founding_members + ' founding · ' + d.access.active_grants + ' active grants' + (d.access.pending_deletions ? ' · ' + d.access.pending_deletions + ' deletion pending' : '');
       $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Waitlist', by.waitlist || 0], ['Results', by.results || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0]]
         .map(function (p) { return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>'; }).join('');
     });

@@ -10,6 +10,8 @@
  *   GET   /api/admin/stats                           counts per kind × status, users, events (last 30 days)
  *   GET   /api/admin/aggregates?metric=&days=        rows from agg_daily (never individual data)
  *   GET   /api/admin/users?q=&founding=1&limit=       members (founding=1: the founding list)
+ *   GET   /api/admin/users.csv?q=&founding=1          the same as CSV
+ *   GET   /api/admin/funnel?days=30                   visitors → assessment → result → account → verified → active → grant
  *   GET   /api/admin/entitlements?user=<id|email>     a member's grants and the access they resolve to
  *   POST  /api/admin/entitlements                     { user, product, plan, ends_at?, note? }   grant
  *   POST  /api/admin/entitlements/founding            { product?, plan?, ends_at?, note? }       one grant per founding member
@@ -82,17 +84,48 @@ export async function onRequestGet({ request, env, params }) {
       const a = await env.DB.prepare("SELECT COUNT(*) AS n FROM entitlements WHERE status = 'active' AND plan != 'free' AND (ends_at IS NULL OR ends_at > ?)").bind(nowIso()).first();
       access.founding_members = f ? f.n : 0; access.active_grants = a ? a.n : 0;
     } catch (e) { /* before migration 0005 */ }
+    try { const pd = await env.DB.prepare('SELECT COUNT(*) AS n FROM users WHERE deletion_requested_at IS NOT NULL').first(); access.pending_deletions = pd ? pd.n : 0; } catch (e) { access.pending_deletions = null; }
     return json({ ok: true, actor: g.actor, leads: leads.results || [], users: users ? users.n : 0, events_30d: events.results || [], assessments: assessments ? assessments.n : 0, mail, access, time: nowIso() });
   }
 
-  if (route === 'users') {
+  if (route === 'users' || route === 'users.csv') {
     const q = clip(url.searchParams.get('q') || '', 80), founding = url.searchParams.get('founding') === '1';
     const limit = Math.min(5000, Math.max(1, parseInt(url.searchParams.get('limit') || '200', 10) || 200));
     const where = [], args = [];
     if (q) { where.push('(email LIKE ? OR name LIKE ?)'); args.push('%' + q + '%', '%' + q + '%'); }
     if (founding) where.push('founding = 1');
     const r = await env.DB.prepare(`SELECT id, email, name, role, audience, locale, founding, email_verified_at, marketing_opt_in, created_at, last_login_at FROM users ${where.length ? 'WHERE ' + where.join(' AND ') : ''} ORDER BY created_at DESC LIMIT ?`).bind(...args, limit).all();
-    return json({ ok: true, users: (r.results || []).map(userRow) });
+    const users = (r.results || []).map(userRow);
+    if (route === 'users.csv') {
+      const cols = ['id', 'email', 'name', 'role', 'audience', 'locale', 'founding', 'email_verified', 'marketing_opt_in', 'created_at', 'last_login_at'];
+      const cell = v => { v = v == null ? '' : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+      const csv = cols.join(',') + '\n' + users.map(u => cols.map(c => cell(u[c])).join(',')).join('\n') + '\n';
+      return new Response(csv, { headers: { 'content-type': 'text/csv; charset=utf-8', 'content-disposition': `attachment; filename="metanoia-users${founding ? '-founding' : ''}.csv"`, 'cache-control': 'no-store' } });
+    }
+    return json({ ok: true, users });
+  }
+
+  if (route === 'funnel') {
+    const days = Math.min(365, Math.max(1, parseInt(url.searchParams.get('days') || '30', 10) || 30));
+    const since = new Date(Date.now() - days * 86400 * 1000).toISOString();
+    const n = async (sql, ...args) => { try { const r = await env.DB.prepare(sql).bind(...args).first(); return r ? r.n : 0; } catch (e) { return null; } };
+    const steps = [
+      { key: 'visitors', label: 'Visitors (distinct subjects with a page view)', n: await n("SELECT COUNT(DISTINCT subject_id) AS n FROM events WHERE name = 'site.page.viewed' AND ts > ?", since) },
+      { key: 'assessment_started', label: 'Career Map started', n: await n("SELECT COUNT(DISTINCT subject_id) AS n FROM events WHERE name = 'assessment.career_map.assessment_started' AND ts > ?", since) },
+      { key: 'assessment_completed', label: 'Career Map completed', n: await n('SELECT COUNT(*) AS n FROM assessments WHERE ts > ?', since) },
+      { key: 'results_emailed', label: 'Result sent by e-mail', n: await n("SELECT COUNT(*) AS n FROM leads WHERE kind = 'results' AND created_at > ?", since) },
+      { key: 'accounts', label: 'Accounts created', n: await n('SELECT COUNT(*) AS n FROM users WHERE created_at > ?', since) },
+      { key: 'verified', label: 'Accounts verified', n: await n('SELECT COUNT(*) AS n FROM users WHERE created_at > ? AND email_verified_at IS NOT NULL', since) },
+      { key: 'active', label: 'Accounts with product activity', n: await n('SELECT COUNT(DISTINCT p.user_id) AS n FROM progress p JOIN users u ON u.id = p.user_id WHERE u.created_at > ? AND p.updated_at > ?', since, since) },
+      { key: 'weekly_opt_in', label: 'Opted in to the weekly e-mail', n: await n('SELECT COUNT(*) AS n FROM users WHERE created_at > ? AND marketing_opt_in = 1', since) },
+      { key: 'grants', label: 'Grants beyond the free tier', n: await n("SELECT COUNT(DISTINCT user_id) AS n FROM entitlements WHERE plan != 'free' AND status = 'active' AND created_at > ?", since) }
+    ];
+    const totals = {
+      users: await n('SELECT COUNT(*) AS n FROM users'), verified: await n('SELECT COUNT(*) AS n FROM users WHERE email_verified_at IS NOT NULL'),
+      founding: await n('SELECT COUNT(*) AS n FROM users WHERE founding = 1'), pending_deletion: await n('SELECT COUNT(*) AS n FROM users WHERE deletion_requested_at IS NOT NULL'),
+      results: await n("SELECT COUNT(*) AS n FROM leads WHERE kind = 'results'"), assessments: await n('SELECT COUNT(*) AS n FROM assessments')
+    };
+    return json({ ok: true, days, since, steps, totals });
   }
 
   if (route === 'entitlements') {

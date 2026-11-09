@@ -437,7 +437,11 @@ const I18N = {
        oauthDenied:'Sign-in was cancelled.', oauthUnavailable:'That sign-in method is not available yet.',
        oauthUnverified:'That account has no verified e-mail address with the provider. Use another method.',
        oauthInvite:'Accounts are open by invitation only for now, and that address is not on the list.',
-       oauthFailed:'Social sign-in did not complete. Please try again.' },
+       oauthFailed:'Social sign-in did not complete. Please try again.',
+       deletionPending:'This account is scheduled for deletion. Use the cancel link in the e-mail we sent, or wait for the deletion to complete.',
+       deletionScheduled:'Deletion confirmed. Every device is signed out and the account will be removed within 24 hours. The e-mail we sent has a cancel link.',
+       deletionCancelled:'Deletion cancelled. Your account is exactly as it was; sign in to continue.',
+       deletionInvalid:'That link is not valid any more.' },
   id:{ badEmail:'Silakan masukkan alamat email yang valid.', noPw:'Silakan masukkan kata sandimu.',
        wrong:'Email atau kata sandi salah. Baru di sini? Buat akun.',
        tooMany:'Terlalu banyak percobaan. Tunggu lima belas menit lalu coba lagi.',
@@ -455,7 +459,11 @@ const I18N = {
        oauthDenied:'Proses masuk dibatalkan.', oauthUnavailable:'Cara masuk itu belum tersedia.',
        oauthUnverified:'Akun itu tidak punya alamat e-mail terverifikasi di penyedianya. Pakai cara lain.',
        oauthInvite:'Akun untuk sementara hanya dibuka lewat undangan, dan alamat itu belum ada di daftar.',
-       oauthFailed:'Masuk lewat akun sosial tidak selesai. Silakan coba lagi.' }
+       oauthFailed:'Masuk lewat akun sosial tidak selesai. Silakan coba lagi.',
+       deletionPending:'Akun ini dijadwalkan untuk dihapus. Gunakan tautan batal di e-mail yang kami kirim, atau tunggu sampai penghapusan selesai.',
+       deletionScheduled:'Penghapusan dikonfirmasi. Semua perangkat dikeluarkan dan akun akan dihapus dalam 24 jam. E-mail yang kami kirim berisi tautan batal.',
+       deletionCancelled:'Penghapusan dibatalkan. Akunmu tetap seperti semula; masuk untuk melanjutkan.',
+       deletionInvalid:'Tautan itu sudah tidak berlaku.' }
 };
 /* ─── Language toggle (shared mtLang key, site pattern) ─── */
 let lang = 'en';
@@ -529,8 +537,13 @@ MT_API.oauth().then(o => {
 /* a social sign-in that did not complete comes back here with ?oauth=<reason> */
 const oauthErr = Q.get('oauth');
 if(oauthErr){
-  const map = { denied:'oauthDenied', unavailable:'oauthUnavailable', unverified:'oauthUnverified', invite:'oauthInvite' };
+  const map = { denied:'oauthDenied', unavailable:'oauthUnavailable', unverified:'oauthUnverified', invite:'oauthInvite', pending:'deletionPending' };
   showTab('magic'); F('magicErr').textContent = TT(map[oauthErr] || 'oauthFailed');
+}
+const delState = Q.get('deletion');
+if(delState){
+  const dmap = { scheduled:'deletionScheduled', cancelled:'deletionCancelled', invalid:'deletionInvalid' };
+  showTab('magic'); F('magicErr').textContent = TT(dmap[delState] || 'deletionInvalid');
 }
 
 /* one-time link: request */
@@ -555,7 +568,7 @@ if(magicToken){
   MT_AUTH.magicConsume(magicToken).then(r => {
     if(r.ok){ goSuccess(); return; }
     F('magicNote').classList.remove('show');
-    F('magicErr').textContent = r.status === 403 ? TT('magicInvite') : TT('magicBad');
+    F('magicErr').textContent = r.status === 403 ? (r.data && r.data.error === 'deletion pending' ? TT('deletionPending') : TT('magicInvite')) : TT('magicBad');
     try{ history.replaceState(null, '', location.pathname + (redirectTo ? '?next=' + encodeURIComponent(redirectTo) : '')); }catch(e){}
   });
 }

@@ -31,6 +31,8 @@ export async function findOrCreateByEmail(env, { email, name, locale = 'en', met
     u = await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(id).first();
     return { user: u, created: true };
   }
+  /* a deletion request blocks sign-in until the cancel link is used or the purge has run */
+  if (u.deletion_requested_at) return { user: null, created: false, pending: true };
   const sets = ['last_login_at = ?'], args = [now];
   if (verified && !u.email_verified_at) { sets.push('email_verified_at = ?'); args.push(now); }
   if (admin && u.role !== 'admin') { sets.push('role = ?'); args.push('admin'); }
@@ -66,7 +68,7 @@ export async function revokeSession(env, userId, id) {
 export function publicUser(u) {
   if (!u) return null;
   return { id: u.id, email: u.email, name: u.name, role: u.role, audience: u.audience || null, locale: u.locale || 'en',
-    email_verified: !!u.email_verified_at, marketing_opt_in: !!u.marketing_opt_in, founding: !!u.founding, created_at: u.created_at };
+    email_verified: !!u.email_verified_at, marketing_opt_in: !!u.marketing_opt_in, founding: !!u.founding, has_password: !!u.pw_hash, created_at: u.created_at };
 }
 
 export async function getUser(request, env) {
@@ -75,7 +77,7 @@ export async function getUser(request, env) {
   if (!token || token.length < 20) return null;
   const h = await sha256(token);
   const row = await env.DB.prepare(
-    'SELECT u.* FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires_at > ?'
+    'SELECT u.* FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires_at > ? AND u.deletion_requested_at IS NULL'
   ).bind(h, nowIso()).first();
   return row || null;
 }
@@ -120,4 +122,24 @@ export function isAdmin(request, env) {
   if (!m) return false;
   const enc = new TextEncoder();
   return timingSafeEqual(enc.encode(m[1].trim()), enc.encode(env.ADMIN_TOKEN));
+}
+
+/* one-time links (e-mail verification, reset, magic sign-in, deletion confirm and cancel) */
+export async function issueToken(env, kind, { userId = null, email = null, hours }) {
+  const raw = randomToken(32);
+  const h = await sha256(raw);
+  const exp = new Date(Date.now() + hours * 3600 * 1000).toISOString();
+  await env.DB.prepare('INSERT INTO tokens (token_hash, kind, user_id, email, created_at, expires_at) VALUES (?, ?, ?, ?, ?, ?)')
+    .bind(h, kind, userId, email, nowIso(), exp).run();
+  return raw;
+}
+
+export async function consumeToken(env, kind, raw) {
+  if (!raw || raw.length < 20) return null;
+  const h = await sha256(raw);
+  const row = await env.DB.prepare('SELECT * FROM tokens WHERE token_hash = ? AND kind = ? AND used_at IS NULL AND expires_at > ?')
+    .bind(h, kind, nowIso()).first();
+  if (!row) return null;
+  await env.DB.prepare('UPDATE tokens SET used_at = ? WHERE token_hash = ?').bind(nowIso(), h).run();
+  return row;
 }
