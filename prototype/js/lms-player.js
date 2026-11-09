@@ -30,6 +30,33 @@
     m.lessons.forEach(function (l) { FLAT.push({ m: m, l: l, mi: REG.modules.indexOf(m) }); });
   });
 
+  /* ─── lazy registry ───
+     The product page loads data/lms/<slug>/index.js: the registry with every lesson reduced to
+     its light fields (number, title, duration, kind) and a __stub flag. The body of a lesson is
+     fetched from data/lms/<slug>/lessons/<n>.json the first time it opens, merged into the stub
+     and kept; the neighbours are prefetched when the main thread is idle. The full registry
+     (data/lms/<slug>.js, no __lazy marker) still works unchanged. */
+  var LAZY = REG.__lazy || null, lessonLoads = {};
+  function lessonUrl(n) { return LAZY.base + encodeURIComponent(String(n)) + '.json' + (LAZY.v ? '?v=' + LAZY.v : ''); }
+  function ensureLesson(x) {
+    var l = x.l;
+    if (!LAZY || !l.__stub) return Promise.resolve(l);
+    if (!lessonLoads[l.n]) {
+      lessonLoads[l.n] = fetch(lessonUrl(l.n), { credentials: 'same-origin' })
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function (full) { Object.keys(full).forEach(function (k) { l[k] = full[k]; }); delete l.__stub; return l; })
+        .catch(function (e) { delete lessonLoads[l.n]; throw e; });
+    }
+    return lessonLoads[l.n];
+  }
+  function prefetchLesson(i) {
+    if (!LAZY || i < 0 || i >= FLAT.length) return;
+    var x = FLAT[i];
+    if (!x.l.__stub || lessonLoads[x.l.n]) return;
+    var go = function () { ensureLesson(x).catch(function () {}); };
+    if ('requestIdleCallback' in window) requestIdleCallback(go, { timeout: 4000 }); else setTimeout(go, 800);
+  }
+
   function lang() {
     try { return localStorage.getItem('mtLang') === 'id' ? 'id' : 'en'; } catch (e) { return 'en'; }
   }
@@ -3821,6 +3848,27 @@
   function openLesson(i) {
     current = i;
     var x = FLAT[i], m = x.m, l = x.l;
+    if (LAZY && l.__stub) {
+      /* the body is on its way: a quiet loading state, then this same call once it has arrived */
+      root.querySelector('.lc-les').textContent = l.n + ' · ' + l.title[lang()].replace(/&amp;/g, '&');
+      innerEl.innerHTML = '';
+      var ld = el('div', 'lms-loading');
+      ld.appendChild(el('span', 'lms-loading-ring'));
+      ld.appendChild(bi('p', null, { en: 'Opening lesson ' + l.n + '…', id: 'Membuka pelajaran ' + l.n + '…' }));
+      innerEl.appendChild(ld);
+      ensureLesson(x).then(function () { if (current === i) openLesson(i); }, function () {
+        if (current !== i) return;
+        innerEl.innerHTML = '';
+        var er = el('div', 'lms-loading err');
+        er.appendChild(bi('p', null, { en: 'This lesson could not be loaded. Check your connection and try again.', id: 'Pelajaran ini belum bisa dimuat. Periksa koneksimu dan coba lagi.' }));
+        var rb = bi('button', 'lms-retry', { en: 'Try again', id: 'Coba lagi' }); rb.type = 'button';
+        rb.addEventListener('click', function () { openLesson(i); });
+        er.appendChild(rb);
+        innerEl.appendChild(er);
+      });
+      return;
+    }
+    prefetchLesson(i + 1); prefetchLesson(i - 1);
     root.querySelector('.lc-prod').textContent =
       REG.product[lang()] + ' · ' + (lang() === 'id' ? 'Modul ' : 'Module ') + m.num;
     root.querySelector('.lc-les').textContent = l.n + ' · ' + l.title[lang()].replace(/&amp;/g, '&');
@@ -3844,7 +3892,7 @@
     hl.appendChild(bi('span', 'lms-modchip', { en: 'Module ' + m.num + (m.bonus ? ' · Bonus' : ''), id: 'Modul ' + m.num + (m.bonus ? ' · Bonus' : '') }));
     hl.appendChild(bi('h2', 'lms-title', l.title));
     var meta = el('div', 'lms-meta');
-    var kindLabel = { video: ['Video', 'Video'], reading: ['Reading', 'Bacaan'], interactive: ['Interactive', 'Interaktif'], slides: ['Slides', 'Slide'], visual: ['Visual', 'Visual'], assignment: ['Case assignment', 'Tugas kasus'] }[l.kind];
+    var kindLabel = { video: ['Video', 'Video'], reading: ['Reading', 'Bacaan'], interactive: ['Interactive', 'Interaktif'], slides: ['Slides', 'Slide'], visual: ['Visual', 'Visual'], assignment: ['Case assignment', 'Tugas kasus'], pointer: ['Trained in The Rope', 'Dilatih di The Rope'] }[l.kind] || ['Lesson', 'Pelajaran'];
     meta.appendChild(bi('span', 'lms-chip gold', { en: '📖 ' + kindLabel[0], id: '📖 ' + kindLabel[1] }));
     meta.appendChild(bi('span', 'lms-chip', l.dur));
     var nVid = (l.videos ? l.videos.length : 0) + (l.videoBlocks || []).reduce(function (a, b) { return a + (b && b.videos ? b.videos.length : 0); }, 0);
@@ -3899,6 +3947,8 @@
       obj.appendChild(objList());
       innerEl.appendChild(obj);
     }
+    /* pointer lessons: the material is trained in another product; one card says where and carries the link */
+    if (l.kind === 'pointer') innerEl.appendChild(renderPointer(l));
     /* worked examples quoted in one currency: say so once, for readers in other markets
        (global by default, locally tailored where necessary) */
     try {
@@ -4198,6 +4248,25 @@
     }
   }
 
+  function renderPointer(l) {
+    var p = l.pointer || {};
+    var box = el('section', 'lms-pointer');
+    box.appendChild(bi('span', 'lp-kicker', { en: 'Trained in ' + (p.productName || 'The Rope') + (p.module ? ' · Module ' + p.module : ''), id: 'Dilatih di ' + (p.productName || 'The Rope') + (p.module ? ' · Modul ' + p.module : '') }));
+    box.appendChild(bi('h3', null, p.title || { en: 'This lesson now lives in The Rope', id: 'Pelajaran ini kini ada di The Rope' }));
+    if (p.text) box.appendChild(bi('p', 'lp-text', p.text));
+    if (p.lessons && p.lessons.length) {
+      var ul = el('ul', 'lp-list');
+      p.lessons.forEach(function (it) { var li = el('li'); li.appendChild(el('b', null, it.n)); li.appendChild(bi('span', null, it.title)); ul.appendChild(li); });
+      box.appendChild(ul);
+    }
+    var a = bi('a', 'lp-cta', p.cta || { en: 'Open in The Rope →', id: 'Buka di The Rope →' });
+    a.href = p.href || '../the-rope/';
+    a.addEventListener('click', function () { var pr = progress(); if (!pr[l.n]) { pr[l.n] = true; saveProgress(pr); } });
+    box.appendChild(a);
+    box.appendChild(bi('p', 'lp-note', { en: 'Your progress in The Pack is kept. Opening the lesson in The Rope marks this card as seen, so the next module unlocks as before.', id: 'Progresmu di The Pack tetap tersimpan. Membuka pelajaran di The Rope menandai kartu ini sebagai sudah dilihat, sehingga modul berikutnya terbuka seperti biasa.' }));
+    return box;
+  }
+
   /* ─── open/close ─── */
   function open(i) {
     root.classList.add('open');
@@ -4295,6 +4364,8 @@
   };
 
   syncHostPage();
+  /* the first unfinished lesson is what the learner opens next: have its body ready */
+  (function () { for (var i = 0; i < FLAT.length; i++) if (!isDone(FLAT[i].l.n)) { prefetchLesson(i); return; } })();
 
   /* deep link from site search / the home Discover hero: ?lesson=<n> opens
      that lesson when it is reachable, otherwise brings its syllabus card into

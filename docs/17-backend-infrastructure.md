@@ -283,6 +283,7 @@ Effort assumes the technical lead working alone; "day" is a working day.
 | 1.3 | Lifecycle mail: result → weakest gate → weekly nudge, all with unsubscribe, marketing consent respected. **Done:** `server/lib/lifecycle.js` run daily by the scheduled Worker, `mail_log` quota classes (lifecycle capped under the Resend free tier, transactional never held back), one-click unsubscribe route and headers, the weekly choice in Settings › Notifications (docs/14, Lifecycle mail) | 0.4, 1.1 | done |
 | 1.4 | DPIA for the Career Map and events; breach runbook; processor agreements filed; privacy notice version 1.0 and consent versions bumped; minors' consent step (§6.4). **Engineering side done (Tier 1 stage 5):** full export, deletion with confirmation and cancel window completed within 24 hours by the Worker, passwordless accounts confirm by e-mail, admin users CSV and funnel (docs/14, Data rights); the counsel items remain | counsel | 1 week elapsed, 1 day of work |
 | 1.5 | About page with the named team; content freeze on net-new lessons until 0.1 to 0.4 and 1.1 to 1.2 are live | none | as in the existing roadmap |
+| 1.6 | Performance (Tier 1 stage 6): registry split with lazy lessons, service worker, size budgets in CI, Pack 10 and 11 as pointer cards to The Rope, phone hero without entrance animation. **Done** (docs/19 §8) | none | done |
 
 **Tier 2, weeks 6 to 10: money and access**
 

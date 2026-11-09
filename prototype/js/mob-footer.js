@@ -515,4 +515,11 @@
     var idle = function () { if ('requestIdleCallback' in window) requestIdleCallback(fn, { timeout: 1500 }); else setTimeout(fn, 500); };
     if (document.readyState === 'complete') idle(); else window.addEventListener('load', idle, { once: true });
   }
+
+  /* ── Service worker (sw.js at the site root): repeat visits read fonts, images, versioned
+     scripts, styles and lesson files from the device. Registered after load so it never
+     competes with the first paint; HTML and the API are never served from it. ── */
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    afterLoad(function () { try { navigator.serviceWorker.register(base + 'sw.js', { scope: '/' }).catch(function () {}); } catch (e) {} });
+  }
 })();

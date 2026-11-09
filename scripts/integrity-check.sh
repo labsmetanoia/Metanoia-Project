@@ -114,6 +114,9 @@ echo "── 13. no unprovable ranking claims (\"top 1%\") in user-facing copy (
 CLAIMS=$(grep -rniE "top 1%|top 1 ?percent|1% teratas|1% terbaik|1 ?persen teratas" prototype --include='*.html' --include='*.js' 2>/dev/null | grep -v "^prototype/assets/" || true)
 if [ -n "$CLAIMS" ]; then echo "$CLAIMS"; echo "   ✗ ranking claim found"; FAIL=1; else echo "   clean"; fi
 
+echo "── 14. size budgets: pages and scripts under their limits (scripts/budgets.json)"
+if python3 scripts/check-budgets.py; then :; else echo "   ✗ a budget was exceeded"; FAIL=1; fi
+
 if [ $FAIL -ne 0 ]; then
   echo "✗ integrity check FAILED"; exit 1
 fi
