@@ -29,6 +29,17 @@ Each file assigns `window.MT_LMS['<slug>']` with:
 }
 ```
 
+## How the registries reach the browser
+
+The files in this directory are the authored source and stay whole. The build
+(`scripts/build-site.py`, `split_registries`) writes `<slug>/index.js`, the
+same registry with every lesson reduced to its light fields (`n`, `title`,
+`dur`, `kind`, `placeholder`, hero fields, `pointer`, anything under 240
+bytes) and a `__stub` flag, plus `<slug>/lessons/<n>.json` with the full
+lesson. The product pages load the index; the player fetches a lesson when
+it opens, prefetches its neighbours when idle, and still works with a full
+registry loaded directly (no `__lazy` marker). Both outputs are gitignored.
+
 ## Lesson kinds and their fields
 
 - **video** — plays `media.video` with `media.poster` and EN/ID subtitle
@@ -42,6 +53,11 @@ Each file assigns `window.MT_LMS['<slug>']` with:
   (`x`/`y` are percentages on the image).
 - **assignment** — a `caseStudy{}` block (below) after the brief's slide
   `material`; "Mark complete" stays gated until the case is submitted.
+- **pointer** — the material is trained in another product; the lesson
+  carries `pointer: { productName, module, title{en,id}, text{en,id},
+  lessons:[{n, title{en,id}}], href, cta{en,id} }` and no body of its own.
+  The player renders one card; opening the link marks the lesson done so
+  the sequence continues (The Pack modules 10 and 11 point at The Rope).
 
 Every lesson may carry a `check{}` knowledge check and `takeaways[]`.
 

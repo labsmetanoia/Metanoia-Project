@@ -87,7 +87,7 @@ Reading the table: the "before" rows are the committed tree served from the same
 | 3 | Split the home page's chapter CSS and the bilingual copy out of the 297 KB document (per-chapter stylesheets loaded on approach; `data-id` copy fetched on language switch) | FCP and LCP on mobile: the HTML would fall to roughly 120 KB | 2 days | Medium: the home page's language and scene logic are tightly coupled | P2 |
 | 4 | Critical CSS for the shared stylesheets (`site-ui.css`, `persona-folders.css`, `persona-premium.css`, `see-it-work.css`): inline the above-the-fold rules, load the rest with `media="print"` swap | Removes 4 to 6 render-blocking requests on the persona pages | 1 day | Low | P2 |
 | 5 | Responsive `srcset` for the remaining single-source photos (chapter cards, trail cards, need cards) and AVIF alongside WebP | 300 to 600 KB per full scroll on the home page | 1 day with the existing `scripts/decks/images.json` tooling | Low | P2 |
-| 6 | Lazy-load the LMS player and registry on product pages only when a lesson opens | 470 KB less on each product landing page | 1 day | Medium: the player is referenced by the syllabus and the audience layer | P3 |
+| 6 | Lazy-load the LMS registry on product pages: **done (Tier 1 stage 6, §8)**; the player script itself (295 KB) still loads with the page | 1.0 MB less on the wire on The Pack's landing page | done | | done |
 | 7 | Replace the sky canvas on phones with a pre-rendered gradient still per chapter, keeping the canvas for desktop | Removes the remaining scroll-time CPU cost on low-end phones | 1 day | Low: the stills already exist for the chapter backdrops | P3 |
 | 8 | Minify the inline CSS and JS at build time (`scripts/build-site.py` already rewrites pages) | 10 to 15 percent of HTML bytes after gzip | Half a day | Low | P3 |
 | 9 | Add `Cache-Control` to the GitHub Pages interim: not possible (600 s fixed); accept until item 1 | | | | note |
@@ -112,3 +112,25 @@ sed -i 's/var STATIC_HOST = false;/var STATIC_HOST = true;/' prototype/js/mt-api
 ```
 
 Lighthouse is run against the built site (`python3 scripts/build-site.py`) with the static-host flag set as the deploy workflow sets it. Layout-shift attribution used a Playwright session with the same throttling and a `PerformanceObserver` on `layout-shift` entries; the before/after layout comparison recorded the bounding boxes of every identified element, card, heading and link on desktop and phone and reported any that moved by more than 4 px.
+
+## 8 · Tier 1 stage 6 (9 November 2026): registry split, service worker, budgets, phone hero
+
+Measured on the built tree over a local gzip server, phone emulation (Playwright 390 px; Lighthouse 12 mobile preset, simulated throttling, three runs each, plus one run with device-level throttling).
+
+| Page (phone, first visit) | Before | After | What moved it |
+|---|---|---|---|
+| The Pack landing, script bytes | 5.8 MB raw, 1,352 KB on the wire (the 4.0 MB registry alone was 992 KB) | 1.9 MB raw, **374 KB on the wire** | the registry is split at build time into a 46 KB index plus one JSON file per lesson, fetched when the lesson opens |
+| The Rope landing, script bytes | 5.0 MB raw, 1,304 KB wire | 1.3 MB raw, **391 KB wire** | same |
+| The Map landing, script bytes | 3.4 MB raw, 1,014 KB wire | 1.2 MB raw, **362 KB wire** | same |
+| Home, Lighthouse mobile (simulated) | Performance 58 to 71 · LCP 4.8 to 6.4 s · TBT 260 to 1,230 ms · CLS 0 to 0.013 | **Performance 75 to 80** · LCP 4.8 to 5.0 s · TBT 130 to 270 ms · CLS 0 | the opening pane no longer animates in on phones (headline, subhead, call to action and wordmark paint with the page); the scroll hint, which overlapped the pane pills, is gone on phones |
+| Home, Lighthouse mobile (device-level throttling, one run) | not measured | FCP 2.3 s · **LCP 2.5 s on the headline** · CLS 0 · TBT 2.65 s | the same; the simulated runs attribute a later, smaller paint as LCP, the device-throttled run reports the headline |
+
+Also in this stage:
+
+- **Service worker** (`prototype/sw.js`, registered by `js/mob-footer.js` after load): fonts, images, stamped scripts and styles and lesson files are served from the device on repeat visits; HTML and `/api/` are never cached; unstamped scripts stay network-first so a deploy is never masked. A third visit to a persona page sent zero asset requests to the server in the test.
+- **Size budgets** (`scripts/budgets.json`, `scripts/check-budgets.py`, integrity step 14): HTML, script and style totals per key page and a few single files; the integrity check fails when a page grows past its limit.
+- **The Pack modules 10 and 11** are pointer cards to The Rope modules 7 and 6 (`kind: "pointer"` in the registry); the seven lesson numbers and their progress keys stay valid, the card opens the matching Rope lesson and marks itself seen.
+- **Lazy lessons**: the player shows a quiet loading state while a lesson's JSON arrives, retries on failure, prefetches the first unfinished lesson on landing and the neighbours of the open lesson when idle.
+
+Next on the roadmap, in order of impact: load the Test Lab bank (1.0 MB raw, 107 KB wire) and its two scripts only when the Test Lab opens; split the player script by lesson kind; critical CSS for the persona pages (item 4 above); AVIF alongside WebP (item 5).
+

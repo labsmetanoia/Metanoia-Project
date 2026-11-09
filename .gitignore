@@ -14,6 +14,10 @@ prototype/sitemap.xml
 prototype/assets/og/generated/
 prototype/demo.html
 prototype/404.html
+prototype/data/lms/the-map/
+prototype/data/lms/the-pack/
+prototype/data/lms/the-rope/
+prototype/data/lms/the-route/
 
 __pycache__/
 *.pyc

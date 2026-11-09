@@ -21,7 +21,7 @@ window.MT_BUILD_STATUS = {
     { en: 'Career Map assessment with readiness score, report by e-mail', id: 'Asesmen Career Map dengan skor kesiapan, laporan lewat e-mail' },
     { en: 'The Gauntlet: full 8-gate guide, free and public', id: 'The Gauntlet: panduan 8 gerbang lengkap, gratis dan publik' },
     { en: 'The Map: 36 lessons across 8 modules, with assignments and grades', id: 'The Map: 36 pelajaran dalam 8 modul, dengan tugas dan nilai' },
-    { en: 'The Pack: 12 modules plus the Test Lab (psychometric practice)', id: 'The Pack: 12 modul plus Test Lab (latihan psikotes)' },
+    { en: 'The Pack: 9 modules plus the Test Lab (psychometric practice); group and case interviews are trained in The Rope', id: 'The Pack: 9 modul plus Test Lab (latihan psikotes); diskusi kelompok dan wawancara kasus dilatih di The Rope' },
     { en: 'The Rope: interview curriculum and simulations', id: 'The Rope: kurikulum wawancara dan simulasi' },
     { en: 'The Route: early-career curriculum', id: 'The Route: kurikulum awal karier' },
     { en: 'The Range: real companies, each on its own page', id: 'The Range: perusahaan nyata, masing-masing di halamannya sendiri' },

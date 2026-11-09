@@ -2014,3 +2014,32 @@ html[lang="id"] .lms-after::before{content:"Intinya"}
 
 /* long unbreakable tokens (file names, URLs, codes) wrap inside visual-layer tiles instead of spilling out */
 .lms-diagram .ld-node,.lms-flow .lfl-step,.lms-funnel .lf-tx,.lms-vcard,.lms-tk-tile,.lms-insights .li-card,.lms-journey .lj-step,.lms-stat,.lms-mistakes li,.lms-compare .lc-col,.lms-glossary dd{overflow-wrap:anywhere}
+
+/* lazy lesson body: a quiet loading state while lessons/<n>.json arrives, and a retry when it does not */
+.lms-loading{display:flex;flex-direction:column;align-items:center;gap:14px;padding:72px 20px;text-align:center;color:var(--text-muted,#AEB7C4);font-size:14px}
+.lms-loading-ring{width:34px;height:34px;border-radius:50%;border:2px solid rgba(201,168,76,.25);border-top-color:#E8C766;animation:lmsSpin .9s linear infinite}
+@keyframes lmsSpin{to{transform:rotate(360deg)}}
+.lms-loading.err .lms-loading-ring{display:none}
+.lms-retry{font:inherit;font-size:13px;font-weight:700;letter-spacing:.04em;color:#241800;background:linear-gradient(120deg,#C9A84C,#F0D878);border:0;border-radius:999px;padding:10px 22px;cursor:pointer}
+@media(prefers-reduced-motion:reduce){.lms-loading-ring{animation:none}}
+
+/* pointer lessons (The Pack modules 10 and 11): the material is trained in The Rope; one card says where */
+.lms-pointer{position:relative;margin:28px 0 8px;padding:30px 30px 26px;border-radius:20px;border:1px solid rgba(201,168,76,.42);
+  background:linear-gradient(180deg,rgba(14,20,33,.94),rgba(9,14,24,.98));box-shadow:0 24px 60px rgba(0,0,0,.3)}
+.lms-pointer::before{content:'';position:absolute;left:10%;right:10%;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(240,216,120,.8),transparent)}
+.lms-pointer .lp-kicker{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:12px}
+.lms-pointer h3{font-family:var(--serif,"Playfair Display",Georgia,serif);font-size:clamp(1.3rem,2.4vw,1.75rem);font-weight:600;line-height:1.25;color:#F5EFE6;margin:0 0 12px}
+.lms-pointer .lp-text{font-size:14.5px;line-height:1.75;color:rgba(255,255,255,.78);margin:0 0 18px}
+.lms-pointer .lp-list{list-style:none;margin:0 0 22px;padding:0;display:grid;gap:8px}
+.lms-pointer .lp-list li{display:flex;gap:12px;align-items:baseline;padding:10px 14px;border-radius:12px;border:1px solid rgba(201,168,76,.22);background:rgba(255,255,255,.03);font-size:13.5px;color:rgba(255,255,255,.82)}
+.lms-pointer .lp-list b{color:#F0D878;font-weight:700;min-width:28px}
+.lms-pointer .lp-cta{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.04em;color:#241800;text-decoration:none;background:linear-gradient(120deg,#C9A84C,#F0D878);
+  border-radius:999px;padding:12px 24px;box-shadow:0 8px 22px rgba(201,168,76,.3);transition:transform .2s,box-shadow .2s}
+.lms-pointer .lp-cta:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(201,168,76,.4)}
+.lms-pointer .lp-note{font-size:12px;line-height:1.6;color:rgba(255,255,255,.55);margin:16px 0 0}
+:root[data-theme="light"] .lms-pointer{background:linear-gradient(180deg,#fff,#FBF7EE);box-shadow:0 18px 40px rgba(20,16,8,.08)}
+:root[data-theme="light"] .lms-pointer h3{color:#1B1403}
+:root[data-theme="light"] .lms-pointer .lp-text,:root[data-theme="light"] .lms-pointer .lp-list li{color:#3B3324}
+:root[data-theme="light"] .lms-pointer .lp-note{color:#6B6150}
+@media(max-width:640px){.lms-pointer{padding:22px 18px 20px}.lms-pointer .lp-cta{display:block;text-align:center}}
+

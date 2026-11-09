@@ -29,3 +29,7 @@
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 /*.html
   Cache-Control: public, max-age=600, must-revalidate
+# The service worker must be re-checked on every visit so a new build replaces the old one promptly.
+/sw.js
+  Cache-Control: no-cache
+  Service-Worker-Allowed: /

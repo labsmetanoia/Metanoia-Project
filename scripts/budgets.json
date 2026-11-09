@@ -1,0 +1,26 @@
+{
+  "_readme": "Raw sizes in KB on the built tree (scripts/check-budgets.py, integrity step 14). script_kb sums every local <script src> a page loads; the product pages load the lesson index, not the registry, so a limit here is what a landing page may cost before a lesson opens. Raise a limit only in the change that needs it, and say why in the commit.",
+  "pages": {
+    "prototype/index.html": { "html_kb": 330, "script_kb": 160, "style_kb": 80 },
+    "prototype/pricing.html": { "html_kb": 200, "script_kb": 160 },
+    "prototype/pages/student.html": { "html_kb": 290, "script_kb": 220 },
+    "prototype/pages/fresh-graduate.html": { "html_kb": 390, "script_kb": 220 },
+    "prototype/pages/early-professional.html": { "html_kb": 430, "script_kb": 220 },
+    "prototype/pages/mature-professional.html": { "html_kb": 410, "script_kb": 220 },
+    "prototype/products/the-map/index.html": { "html_kb": 230, "script_kb": 1200 },
+    "prototype/products/the-pack/index.html": { "html_kb": 340, "script_kb": 1900 },
+    "prototype/products/the-rope/index.html": { "html_kb": 330, "script_kb": 1300 },
+    "prototype/products/the-route/index.html": { "html_kb": 280, "script_kb": 900 },
+    "prototype/products/the-compass/index.html": { "html_kb": 280, "script_kb": 400 }
+  },
+  "files": {
+    "prototype/js/lms-player.js": 330,
+    "prototype/css/lms.css": 200,
+    "prototype/js/mob-footer.js": 40,
+    "prototype/sw.js": 8,
+    "prototype/data/lms/the-pack/index.js": 180,
+    "prototype/data/lms/the-rope/index.js": 160,
+    "prototype/data/lms/the-map/index.js": 120,
+    "prototype/data/lms/the-route/index.js": 140
+  }
+}

@@ -61,6 +61,10 @@ GENERATED = [
     os.path.join(PROTO, 'sitemap.xml'),
     os.path.join(PROTO, '404.html'),
     os.path.join(PROTO, 'demo.html'),
+    os.path.join(PROTO, 'data', 'lms', 'the-map'),
+    os.path.join(PROTO, 'data', 'lms', 'the-pack'),
+    os.path.join(PROTO, 'data', 'lms', 'the-rope'),
+    os.path.join(PROTO, 'data', 'lms', 'the-route'),
 ]
 
 TM_EN = ('Company names and logos are the trademarks of their respective owners, shown here only to identify those companies. '
@@ -1021,6 +1025,56 @@ def stamp_status(range_companies, mind_palace_articles):
     })
 
 
+# Lesson fields the index keeps for the syllabus rail, navigation and progress; everything else is
+# fetched when the lesson opens (js/lms-player.js). Anything small (under LIGHT_MAX bytes) also stays,
+# so icons, hero paths and short quotes never need a round trip.
+REGISTRY_SLUGS = ['the-map', 'the-pack', 'the-rope', 'the-route']
+LIGHT_KEYS = {'n', 'title', 'dur', 'kind', 'placeholder', 'hero', 'heroPos', 'heroIcon', 'track', 'pointer'}
+HEAVY_KEYS = {'sections', 'steps', 'checks', 'check', 'caseStudy', 'material', 'readFirst', 'diagram', 'compare', 'glossary',
+              'scenario', 'mistakes', 'tool', 'resources', 'videos', 'videoBlocks', 'youtube', 'forage', 'simlog', 'hotspots',
+              'listen', 'tryit', 'objectives', 'takeaways', 'overview', 'journey', 'insights', 'takeawaysLead', 'videosIntro',
+              'videosOutro', 'outcomeDetail', 'outcome', 'quote'}
+LIGHT_MAX = 240
+
+
+def split_registries():
+    """The content registries (data/lms/<slug>.js, 2 to 4 MB each) stay the authored source. The build
+    writes data/lms/<slug>/index.js, the same registry with every lesson reduced to its light fields and
+    a __lazy marker, plus data/lms/<slug>/lessons/<n>.json with the full lesson. The product pages load
+    the index; the player fetches a lesson when it opens and prefetches its neighbours. A product landing
+    page therefore downloads about 3 percent of the registry instead of all of it."""
+    import hashlib
+    for slug in REGISTRY_SLUGS:
+        src = os.path.join(PROTO, 'data', 'lms', slug + '.js')
+        if not os.path.exists(src):
+            continue
+        with open(src, encoding='utf-8') as fh:
+            text = fh.read()
+        start = text.index('= {') + 2
+        reg = json.loads(text[start:].rstrip().rstrip(';'))
+        version = hashlib.sha1(text.encode('utf-8')).hexdigest()[:8]
+        out_dir = os.path.join(PROTO, 'data', 'lms', slug)
+        lessons_dir = os.path.join(out_dir, 'lessons')
+        os.makedirs(lessons_dir, exist_ok=True)
+        n_lessons = 0
+        for module in reg.get('modules', []):
+            light = []
+            for lesson in module.get('lessons', []):
+                write_json(os.path.join(lessons_dir, str(lesson['n']) + '.json'), lesson)
+                n_lessons += 1
+                stub = {}
+                for key, value in lesson.items():
+                    if key in LIGHT_KEYS or (key not in HEAVY_KEYS and len(json.dumps(value, ensure_ascii=False)) <= LIGHT_MAX):
+                        stub[key] = value
+                stub['__stub'] = True
+                light.append(stub)
+            module['lessons'] = light
+        reg['__lazy'] = {'base': f'/data/lms/{slug}/lessons/', 'v': version}
+        write(os.path.join(out_dir, 'index.js'),
+              "window.MT_LMS=window.MT_LMS||{};window.MT_LMS['%s']=%s;\n" % (slug, json.dumps(reg, ensure_ascii=False, separators=(',', ':'))))
+        print(f'registry {slug}: index.js {os.path.getsize(os.path.join(out_dir, "index.js")) // 1024} KB, {n_lessons} lesson files')
+
+
 def stamp_assets():
     """Cloudflare Pages build (CF_PAGES set, or ASSET_STAMP=1): append ?v=<content hash> to every
     local script and stylesheet reference in the HTML, so a page always loads the scripts it was
@@ -1105,6 +1159,7 @@ def main():
     print(f'search-index.json: {n_idx} entries')
     stamp_status(n_co, n_art)
     print('build-status.json: stamped')
+    split_registries()
     relocate_media()
     stamp_assets()
     if make_og:
