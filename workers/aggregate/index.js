@@ -9,6 +9,9 @@
  *        but `agg_daily`, so no individual can appear in them by construction.
  *     2. Deletes raw events older than 13 months and expired sessions / tokens.
  *
+ *  every 6 h  account purge (server/lib/account.js): deletion requests confirmed at least two hours
+ *             earlier are carried out, one final e-mail each; also run before the other two jobs
+ *
  *  00:30 UTC  lifecycle mail (server/lib/lifecycle.js)
  *        Career Map follow-up on the weakest dimension two to five days after the
  *        result, and the weekly summary for members who opted in. Capped below the
@@ -20,11 +23,13 @@
  * database as the Pages project; see wrangler.toml beside this file).
  */
 import { runLifecycle } from '../../server/lib/lifecycle.js';
+import { purgeDeletions } from '../../server/lib/account.js';
 
 const K = 20;
 const RETENTION_DAYS = 13 * 31;
 const CRON_AGGREGATE = '15 2 * * *';
 const CRON_LIFECYCLE = '30 0 * * *';
+const CRON_PURGE = '0 */6 * * *';        // account deletions: confirmed requests are purged at least two hours later, always within 24
 
 const day = d => d.toISOString().slice(0, 10);
 
@@ -88,6 +93,9 @@ async function lifecycle(env, dryRun) {
 export default {
   async scheduled(event, env, ctx) {
     ctx.waitUntil((async () => {
+      const purged = await purgeDeletions(env).catch(e => ({ error: String(e && e.message || e).slice(0, 200) }));
+      if (purged.purged || purged.failed || purged.error) console.log('purge', JSON.stringify(purged));
+      if (event.cron === CRON_PURGE) return;
       if (event.cron === CRON_LIFECYCLE) {
         const r = await lifecycle(env, false);
         console.log('lifecycle', JSON.stringify(r));
@@ -101,12 +109,17 @@ export default {
   },
   /* manual trigger, protected by the admin token:
        ?job=aggregate&day=YYYY-MM-DD[&retention=1]   (default)
-       ?job=lifecycle[&dry=1]                          dry runs count what would be sent and send nothing */
+       ?job=lifecycle[&dry=1]                          dry runs count what would be sent and send nothing
+       ?job=purge[&dry=1]                              account deletions due now */
   async fetch(request, env) {
     const url = new URL(request.url);
     const auth = request.headers.get('authorization') || '';
     if (!env.ADMIN_TOKEN || auth !== 'Bearer ' + env.ADMIN_TOKEN) return new Response('unauthorized', { status: 401 });
     const headers = { 'content-type': 'application/json' };
+    if (url.searchParams.get('job') === 'purge') {
+      const r = await purgeDeletions(env, { dryRun: url.searchParams.get('dry') === '1' });
+      return new Response(JSON.stringify({ ok: true, job: 'purge', ...r }), { headers });
+    }
     if (url.searchParams.get('job') === 'lifecycle') {
       const r = await lifecycle(env, url.searchParams.get('dry') === '1');
       return new Response(JSON.stringify({ ok: true, job: 'lifecycle', ...r }), { headers });

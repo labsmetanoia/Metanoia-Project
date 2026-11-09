@@ -71,6 +71,12 @@ const T = {
     magicSubject: 'Your sign-in link for Metanoia Labs',
     magic: (url, minutes) => `Hi,\n\nHere is your one-time sign-in link for Metanoia Labs:\n${url}\n\nIt works for ${minutes} minutes and only once. If you did not ask for it, ignore this message and nothing changes.\n\nMetanoia Labs`,
     resultsSubject: (total, band) => `Your Career Map result: ${total}/100, ${band}`,
+    deleteConfirmSubject: 'Confirm the deletion of your Metanoia Labs account',
+    deleteConfirm: (name, url) => `Hi${name ? ' ' + name : ''},\n\nYou asked to delete your Metanoia Labs account. Because this account signs in without a password, the address confirms it. Click to confirm:\n${url}\n\nThe link works for one hour. If you did not ask for this, ignore this message and nothing changes.\n\nMetanoia Labs`,
+    deleteScheduledSubject: 'Your Metanoia Labs account will be deleted',
+    deleteScheduled: (name, hours, cancelUrl) => `Hi${name ? ' ' + name : ''},\n\nYour deletion request is confirmed. Every device has been signed out, and the account, its progress, results and sessions will be removed within ${hours} hours. You will receive one last message when that has happened.\n\nChanged your mind? Cancel here before then and everything stays as it was:\n${cancelUrl}\n\nMetanoia Labs`,
+    deletedSubject: 'Your Metanoia Labs account has been deleted',
+    deleted: (name) => `Hi${name ? ' ' + name : ''},\n\nYour Metanoia Labs account and the data held with it have been deleted: profile, progress, results, applications, sessions and the record of the e-mail we sent you. Usage statistics that were never linked to a name remain, and cannot be traced back to you.\n\nThank you for climbing with us. The free Career Map stays open to everyone at https://metanoialabs.net/career-map-assessment should you ever want to return.\n\nMetanoia Labs`,
     weakestSubject: (dim) => `One gate to work on first: ${dim}`,
     weakest: (name, dim, score, product, productUrl, resultUrl, total, band, unsubscribe) => `Hi${name ? ' ' + name : ''},\n\nA few days ago your Career Map came back at ${total}/100, ${band}. The dimension that scored lowest was ${dim}, at ${score}/15.\n\nThat is the gate to work on first, because the hiring process is sequential: a weak ${dim} is not compensated by a strong score elsewhere. The product built for it is ${product}:\n${productUrl}\n\nYour full report, with the 90-day route, is still open at:\n${resultUrl}\n\nYou asked for e-mail about your result when you took the assessment. Stop these follow-ups with one click:\n${unsubscribe}\n\nMetanoia Labs`,
     weeklySubject: 'Your week on the mountain',
@@ -100,6 +106,12 @@ const T = {
     magicSubject: 'Tautan masuk Metanoia Labs-mu',
     magic: (url, minutes) => `Halo,\n\nIni tautan masuk sekali pakai untuk Metanoia Labs:\n${url}\n\nTautan berlaku ${minutes} menit dan hanya sekali. Jika kamu tidak memintanya, abaikan pesan ini dan tidak ada yang berubah.\n\nMetanoia Labs`,
     resultsSubject: (total, band) => `Hasil Career Map-mu: ${total}/100, ${band}`,
+    deleteConfirmSubject: 'Konfirmasi penghapusan akun Metanoia Labs-mu',
+    deleteConfirm: (name, url) => `Halo${name ? ' ' + name : ''},\n\nKamu meminta penghapusan akun Metanoia Labs-mu. Karena akun ini masuk tanpa kata sandi, alamat e-mail inilah yang mengonfirmasi. Klik untuk mengonfirmasi:\n${url}\n\nTautan berlaku satu jam. Jika kamu tidak memintanya, abaikan pesan ini dan tidak ada yang berubah.\n\nMetanoia Labs`,
+    deleteScheduledSubject: 'Akun Metanoia Labs-mu akan dihapus',
+    deleteScheduled: (name, hours, cancelUrl) => `Halo${name ? ' ' + name : ''},\n\nPermintaan penghapusanmu sudah dikonfirmasi. Semua perangkat telah dikeluarkan, dan akun ini beserta progres, hasil, dan sesinya akan dihapus dalam ${hours} jam. Kamu akan menerima satu pesan terakhir saat itu selesai.\n\nBerubah pikiran? Batalkan di sini sebelum itu dan semuanya tetap seperti semula:\n${cancelUrl}\n\nMetanoia Labs`,
+    deletedSubject: 'Akun Metanoia Labs-mu telah dihapus',
+    deleted: (name) => `Halo${name ? ' ' + name : ''},\n\nAkun Metanoia Labs-mu dan data yang tersimpan bersamanya telah dihapus: profil, progres, hasil, lamaran, sesi, dan catatan e-mail yang kami kirimkan kepadamu. Statistik penggunaan yang tidak pernah terhubung ke nama tetap ada, dan tidak bisa dilacak kembali kepadamu.\n\nTerima kasih telah mendaki bersama kami. Career Map gratis tetap terbuka untuk semua orang di https://metanoialabs.net/career-map-assessment jika suatu saat kamu ingin kembali.\n\nMetanoia Labs`,
     weakestSubject: (dim) => `Satu gerbang untuk digarap lebih dulu: ${dim}`,
     weakest: (name, dim, score, product, productUrl, resultUrl, total, band, unsubscribe) => `Halo${name ? ' ' + name : ''},\n\nBeberapa hari lalu Career Map-mu menunjukkan ${total}/100, ${band}. Dimensi dengan skor terendah adalah ${dim}, yaitu ${score}/15.\n\nItulah gerbang yang perlu digarap lebih dulu, karena proses rekrutmen berjalan berurutan: ${dim} yang lemah tidak tertutup oleh skor tinggi di bagian lain. Produk yang dibangun untuk itu adalah ${product}:\n${productUrl}\n\nLaporan lengkapmu, dengan rute 90 hari, masih bisa dibuka di:\n${resultUrl}\n\nKamu meminta e-mail tentang hasilmu saat mengerjakan asesmen. Hentikan tindak lanjut ini dengan satu klik:\n${unsubscribe}\n\nMetanoia Labs`,
     weeklySubject: 'Minggumu di gunung',
@@ -125,6 +137,10 @@ export const mailNewsletterConfirm = (env, { to, url, locale }) => sendMail(env,
 export const mailWaitlistReceived = (env, { to, name, locale }) => sendMail(env, { to, kind: 'waitlist', subject: t(locale).waitlistSubject, text: t(locale).waitlist(name) });
 export const mailMagic = (env, { to, url, minutes, locale }) => sendMail(env, { to, kind: 'magic', subject: t(locale).magicSubject, text: t(locale).magic(url, minutes) });
 export const mailResults = (env, { to, name, total, band, lines, url, days, locale, ref }) => sendMail(env, { to, kind: 'results', ref, subject: t(locale).resultsSubject(total, band), text: t(locale).results(name, total, band, lines, url, days) });
+
+export const mailDeleteConfirm = (env, { to, name, url, locale, ref }) => sendMail(env, { to, kind: 'delete-confirm', ref, subject: t(locale).deleteConfirmSubject, text: t(locale).deleteConfirm(name, url) });
+export const mailDeleteScheduled = (env, { to, name, hours, cancelUrl, locale, ref }) => sendMail(env, { to, kind: 'delete-scheduled', ref, subject: t(locale).deleteScheduledSubject, text: t(locale).deleteScheduled(name, hours, cancelUrl) });
+export const mailDeleted = (env, { to, name, locale, ref }) => sendMail(env, { to, kind: 'deleted', ref, subject: t(locale).deletedSubject, text: t(locale).deleted(name) });
 
 /* lifecycle class: capped by the Worker, one-click unsubscribe in the body and the headers (RFC 2369 / 8058) */
 const unsubHeaders = url => ({ 'List-Unsubscribe': `<${url}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' });

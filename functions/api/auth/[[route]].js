@@ -19,7 +19,7 @@
 import { json, fail, readJson, sameOrigin, rateLimit, clientIp, isEmail, normEmail, clip, localeOf, AUDIENCES,
   hashPassword, verifyPassword, randomToken, sha256, newId, nowIso, configured, accountsMode, isAdminEmail, verifyTurnstile,
   safeNext, isFounding } from '../../../server/lib/http.js';
-import { getUser, createSession, destroySession, publicUser, findOrCreateByEmail, listSessions, revokeSession } from '../../../server/lib/auth.js';
+import { getUser, createSession, destroySession, publicUser, findOrCreateByEmail, listSessions, revokeSession, issueToken, consumeToken } from '../../../server/lib/auth.js';
 import { accessFor, grantFree } from '../../../server/lib/entitlements.js';
 import { mailVerify, mailReset, mailMagic } from '../../../server/lib/mail.js';
 import { PROVIDERS, oauthConfigured, startUrl, readState, clearStateCookie, fetchProfile } from '../../../server/lib/oauth.js';
@@ -32,25 +32,6 @@ const PW_MIN = 8, PW_MAX = 200;
 function ready(env) {
   const c = configured(env);
   return c.db && c.session;
-}
-
-async function issueToken(env, kind, { userId = null, email = null, hours }) {
-  const raw = randomToken(32);
-  const h = await sha256(raw);
-  const exp = new Date(Date.now() + hours * 3600 * 1000).toISOString();
-  await env.DB.prepare('INSERT INTO tokens (token_hash, kind, user_id, email, created_at, expires_at) VALUES (?, ?, ?, ?, ?, ?)')
-    .bind(h, kind, userId, email, nowIso(), exp).run();
-  return raw;
-}
-
-async function consumeToken(env, kind, raw) {
-  if (!raw || raw.length < 20) return null;
-  const h = await sha256(raw);
-  const row = await env.DB.prepare('SELECT * FROM tokens WHERE token_hash = ? AND kind = ? AND used_at IS NULL AND expires_at > ?')
-    .bind(h, kind, nowIso()).first();
-  if (!row) return null;
-  await env.DB.prepare('UPDATE tokens SET used_at = ? WHERE token_hash = ?').bind(nowIso(), h).run();
-  return row;
 }
 
 export async function onRequestGet({ request, env, params }) {
@@ -97,7 +78,8 @@ export async function onRequestGet({ request, env, params }) {
     if (!isEmail(email)) return back('profile');
     const admin = isAdminEmail(env, email);
     if (mode === 'invite' && !admin) return back('invite');
-    const { user } = await findOrCreateByEmail(env, { email, name: profile.name, locale: 'en', method: 'oauth-' + provider, verified: true, admin, founding: isFounding(env) });
+    const { user, pending } = await findOrCreateByEmail(env, { email, name: profile.name, locale: 'en', method: 'oauth-' + provider, verified: true, admin, founding: isFounding(env) });
+    if (pending) return back('pending');
     await env.DB.prepare('INSERT OR IGNORE INTO identities (provider, subject, user_id, email, created_at) VALUES (?, ?, ?, ?, ?)').bind(provider, profile.subject, user.id, email, nowIso()).run();
     const headers = new Headers({ location: site + next });
     headers.append('set-cookie', await createSession(request, env, user.id));
@@ -167,6 +149,7 @@ export async function onRequestPost({ request, env, params }) {
     const u = await env.DB.prepare('SELECT * FROM users WHERE email = ?').bind(email).first();
     const good = u ? await verifyPassword(password, u.pw_hash) : await verifyPassword(password, 'pbkdf2-sha256$100000$AAAAAAAAAAAAAAAAAAAAAA$AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
     if (!u || !good) return fail(401, 'wrong e-mail or password');
+    if (u.deletion_requested_at) return fail(403, 'deletion pending');
     /* an address added to ADMIN_EMAILS after it registered is promoted on its next sign-in */
     if (u.role !== 'admin' && isAdminEmail(env, email)) {
       await env.DB.prepare('UPDATE users SET role = ?, updated_at = ?, last_login_at = ? WHERE id = ?').bind('admin', nowIso(), nowIso(), u.id).run();
@@ -207,7 +190,8 @@ export async function onRequestPost({ request, env, params }) {
     const email = normEmail(row.email);
     const admin = isAdminEmail(env, email);
     if (mode === 'invite' && !admin) return fail(403, 'invitation required', { field: 'email' });
-    const { user, created } = await findOrCreateByEmail(env, { email, locale: localeOf(body.locale), method: 'magic-link', verified: true, admin, founding: isFounding(env) });
+    const { user, created, pending } = await findOrCreateByEmail(env, { email, locale: localeOf(body.locale), method: 'magic-link', verified: true, admin, founding: isFounding(env) });
+    if (pending) return fail(403, 'deletion pending', { field: 'token' });
     const setCookie = await createSession(request, env, user.id);
     return json({ ok: true, user: publicUser(user), access: await accessFor(env, user), created }, 200, { 'set-cookie': setCookie });
   }

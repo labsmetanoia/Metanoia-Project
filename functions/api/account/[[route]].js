@@ -1,37 +1,57 @@
 /**
  * Data-subject rights without a database console.
  *
- *   GET  /api/account/export            → everything held about the signed-in member (JSON)
- *   POST /api/account/delete { password } → removes the account, sessions, progress and leads with that e-mail
+ *   GET  /api/account/export                    → everything held about the signed-in member (JSON; server/lib/account.js)
+ *   POST /api/account/delete { password }       → password accounts: deletion confirmed; every device signed out, the
+ *                                                 account purged by the Worker within 24 hours, an e-mail with a cancel link
+ *   POST /api/account/delete {}                 → passwordless accounts (magic link, Google, LinkedIn): an e-mail with a
+ *                                                 confirmation link; nothing changes until it is clicked
+ *   GET  /api/account/delete/confirm?token=     → the link above: confirms, then redirects to /login?deletion=scheduled
+ *   GET  /api/account/delete/cancel?token=      → the cancel link: clears the request, redirects to /login?deletion=cancelled
  *   POST /api/account/update { name?, audience?, locale?, marketing? }
  *   POST /api/account/password { current, password } → new hash, every other session signed out, this one renewed
  */
-import { json, fail, readJson, sameOrigin, clip, localeOf, AUDIENCES, verifyPassword, hashPassword, rateLimit, clientIp, nowIso, hmacHex } from '../../../server/lib/http.js';
-import { getUser, createSession, destroySession, publicUser } from '../../../server/lib/auth.js';
+import { json, fail, readJson, sameOrigin, clip, localeOf, AUDIENCES, verifyPassword, hashPassword, rateLimit, clientIp, nowIso } from '../../../server/lib/http.js';
+import { getUser, createSession, destroySession, publicUser, issueToken, consumeToken } from '../../../server/lib/auth.js';
+import { exportAccount, scheduleDeletion, cancelDeletion, PURGE_WITHIN_HOURS } from '../../../server/lib/account.js';
+import { mailDeleteConfirm, mailDeleteScheduled } from '../../../server/lib/mail.js';
 
 const PW_MIN = 8, PW_MAX = 200;
+const siteOf = (env, request) => (env.SITE_URL || new URL(request.url).origin).replace(/\/$/, '');
+
+/* confirms a deletion: marks, signs out everywhere, mails the cancel link */
+async function confirmDeletion(env, request, user) {
+  const site = siteOf(env, request);
+  const when = await scheduleDeletion(env, user.id);
+  const raw = await issueToken(env, 'undelete', { userId: user.id, hours: PURGE_WITHIN_HOURS + 24 });
+  await mailDeleteScheduled(env, { to: user.email, name: user.name, hours: PURGE_WITHIN_HOURS, cancelUrl: `${site}/api/account/delete/cancel?token=${raw}`, locale: user.locale, ref: user.id });
+  return when;
+}
 
 export async function onRequestGet({ request, env, params }) {
   if (!env.DB) return fail(503, 'accounts not configured');
   const route = (params.route || []).join('/');
+  const site = siteOf(env, request);
+
+  if (route === 'delete/confirm' || route === 'delete/cancel') {
+    const token = new URL(request.url).searchParams.get('token') || '';
+    const kind = route === 'delete/confirm' ? 'delete' : 'undelete';
+    const row = await consumeToken(env, kind, token);
+    if (!row || !row.user_id) return Response.redirect(`${site}/login?deletion=invalid`, 302);
+    const user = await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(row.user_id).first();
+    if (!user) return Response.redirect(`${site}/login?deletion=invalid`, 302);
+    if (kind === 'delete') {
+      if (!user.deletion_requested_at) await confirmDeletion(env, request, user);
+      return Response.redirect(`${site}/login?deletion=scheduled`, 302);
+    }
+    await cancelDeletion(env, user.id);
+    return Response.redirect(`${site}/login?deletion=cancelled`, 302);
+  }
+
   const user = await getUser(request, env);
   if (!user) return fail(401, 'not signed in');
   if (route !== 'export') return fail(404, 'unknown route');
-  const progress = await env.DB.prepare('SELECT ns, data_json, version, updated_at FROM progress WHERE user_id = ?').bind(user.id).all();
-  const leads = await env.DB.prepare('SELECT id, kind, payload_json, consent_json, status, created_at, confirmed_at FROM leads WHERE email = ?').bind(user.email).all();
-  let events = [];
-  if (env.SUBJECT_KEY) {
-    const subject = await hmacHex(env.SUBJECT_KEY, 'u:' + user.id);
-    const ev = await env.DB.prepare('SELECT name, props_json, page, ts FROM events WHERE subject_id = ? ORDER BY ts DESC LIMIT 5000').bind(subject).all();
-    events = (ev.results || []).map(r => ({ name: r.name, props: JSON.parse(r.props_json || '{}'), page: r.page, ts: r.ts }));
-  }
-  return json({
-    ok: true, exported_at: nowIso(),
-    user: { ...publicUser(user), consent: JSON.parse(user.consent_json || '{}') },
-    progress: (progress.results || []).map(r => ({ ns: r.ns, data: JSON.parse(r.data_json), version: r.version, updated_at: r.updated_at })),
-    leads: (leads.results || []).map(r => ({ id: r.id, kind: r.kind, payload: JSON.parse(r.payload_json), consent: JSON.parse(r.consent_json), status: r.status, created_at: r.created_at, confirmed_at: r.confirmed_at })),
-    events
-  }, 200, { 'content-disposition': 'attachment; filename="metanoia-export.json"' });
+  return json(await exportAccount(env, user), 200, { 'content-disposition': 'attachment; filename="metanoia-export.json"' });
 }
 
 export async function onRequestPost({ request, env, params }) {
@@ -43,17 +63,18 @@ export async function onRequestPost({ request, env, params }) {
   const body = (await readJson(request)) || {};
 
   if (route === 'delete') {
-    if (!(await verifyPassword(String(body.password || ''), user.pw_hash))) return fail(401, 'wrong password');
-    await env.DB.batch([
-      env.DB.prepare('DELETE FROM leads WHERE email = ?').bind(user.email),
-      env.DB.prepare('DELETE FROM tokens WHERE user_id = ? OR email = ?').bind(user.id, user.email),
-      env.DB.prepare('DELETE FROM progress WHERE user_id = ?').bind(user.id),
-      env.DB.prepare('DELETE FROM sessions WHERE user_id = ?').bind(user.id),
-      env.DB.prepare('DELETE FROM users WHERE id = ?').bind(user.id)
-    ]);
-    /* events are pseudonymous; the subject key makes them unlinkable once the user row is gone */
-    const clear = await destroySession(request, env);
-    return json({ ok: true, deleted: true }, 200, { 'set-cookie': clear });
+    if (!(await rateLimit(env, 'del:' + user.id, 5, 3600))) return fail(429, 'too many attempts');
+    if (user.pw_hash) {
+      if (!(await verifyPassword(String(body.password || ''), user.pw_hash))) return fail(401, 'wrong password');
+      const when = await confirmDeletion(env, request, user);
+      const clear = await destroySession(request, env);
+      return json({ ok: true, scheduled: true, purge_by: when.purge_by }, 200, { 'set-cookie': clear });
+    }
+    /* no password to prove it is you: the address confirms */
+    const raw = await issueToken(env, 'delete', { userId: user.id, hours: 1 });
+    const mail = await mailDeleteConfirm(env, { to: user.email, name: user.name, url: `${siteOf(env, request)}/api/account/delete/confirm?token=${raw}`, locale: user.locale, ref: user.id });
+    if (!mail.sent) return fail(503, 'could not send the confirmation e-mail');
+    return json({ ok: true, scheduled: false, confirmation_email: true });
   }
 
   if (route === 'password') {
