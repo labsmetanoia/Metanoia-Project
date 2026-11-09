@@ -288,7 +288,7 @@ Effort assumes the technical lead working alone; "day" is a working day.
 
 | # | Action | Depends on | Effort |
 |---|---|---|---|
-| 2.1 | `entitlements` table and migration; `/auth/me` returns them; product gates and `tool-shell.js` read them; free tier granted at registration; enterprise grants from admin (§6.3) | 1.1 | 2 days |
+| 2.1 | `entitlements` table and migration; `/auth/me` returns them; product gates and `tool-shell.js` read them; free tier granted at registration; enterprise grants from admin (§6.3). **Done (Tier 1 stage 4):** migration 0005, resolved access on `/auth/me`, per-product gates, `ACCESS_MODE` switch (beta today), founding list and admin grants (docs/14, Entitlements) | 1.1 | done |
 | 2.2 | Xendit account (Indonesian entity, KYC), hosted checkout for the member edition, subscription API, webhook route with signature check, reconciliation view in admin (§6.2) | 2.1, legal entity | 3 days + onboarding time |
 | 2.3 | Pricing page switches from "Rp 0 during beta" to live prices with the status board auto-stamped | 2.2 | 0.5 day |
 | 2.4 | Decide on Postgres (option B) only if a feature needs it; otherwise stay on D1 and revisit at 10k members | metrics | decision |

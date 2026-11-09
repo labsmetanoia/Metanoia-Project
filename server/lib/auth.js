@@ -3,6 +3,7 @@
  * Cookie `mt_session` carries a random 256-bit token; only its SHA-256 is stored.
  */
 import { parseCookies, sha256, randomToken, cookie, nowIso, timingSafeEqual, newId } from './http.js';
+import { grantFree } from './entitlements.js';
 
 export const COOKIE = 'mt_session';
 export const SESSION_DAYS = 30;
@@ -26,6 +27,7 @@ export async function findOrCreateByEmail(env, { email, name, locale = 'en', met
     const consent = { ...CONSENT_VERSIONS, marketing: false, consented_at: now, method };
     await env.DB.prepare('INSERT INTO users (id, email, name, pw_hash, role, audience, locale, email_verified_at, consent_json, marketing_opt_in, founding, created_at, updated_at, last_login_at) VALUES (?, ?, ?, ?, ?, NULL, ?, ?, ?, 0, ?, ?, ?, ?)')
       .bind(id, email, (name && String(name).slice(0, 80)) || nameFromEmail(email), '', admin ? 'admin' : 'member', locale, verified ? now : null, JSON.stringify(consent), founding ? 1 : 0, now, now, now).run();
+    await grantFree(env, id);
     u = await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(id).first();
     return { user: u, created: true };
   }
@@ -64,7 +66,7 @@ export async function revokeSession(env, userId, id) {
 export function publicUser(u) {
   if (!u) return null;
   return { id: u.id, email: u.email, name: u.name, role: u.role, audience: u.audience || null, locale: u.locale || 'en',
-    email_verified: !!u.email_verified_at, marketing_opt_in: !!u.marketing_opt_in, created_at: u.created_at };
+    email_verified: !!u.email_verified_at, marketing_opt_in: !!u.marketing_opt_in, founding: !!u.founding, created_at: u.created_at };
 }
 
 export async function getUser(request, env) {

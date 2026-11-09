@@ -18,7 +18,7 @@
   'use strict';
   if (window.MT_AUTH) return;
   var A = window.MT_API;
-  var user = null, ready;
+  var user = null, access = null, ready;
 
   function purgeLegacy() {
     try {
@@ -31,26 +31,38 @@
     } catch (e) {}
   }
 
-  function mirror(u) {
+  /* `acc` is the resolved access from the server (entitlements + access mode). The product gates
+     read sessionStorage.metanoia_access per product; metanoia_premium stays as the coarse flag
+     for older code paths and is 'false' only when no product is open. */
+  function mirror(u, acc) {
     try {
       if (u) {
         sessionStorage.setItem('metanoia_auth', 'true');
-        sessionStorage.setItem('metanoia_premium', 'true');
         localStorage.setItem('metanoia_session', JSON.stringify({ name: u.name, email: u.email, role: u.role, audience: u.audience || null, provider: 'api', ts: Date.now() }));
         if (u.name) sessionStorage.setItem('metanoia_name', u.name);
+        if (acc && acc.products) {
+          access = acc;
+          sessionStorage.setItem('metanoia_access', JSON.stringify({ mode: acc.mode, plan: acc.plan, all: !!acc.all, products: acc.products, beta_ends_at: acc.beta_ends_at || null, founding: !!acc.founding }));
+          sessionStorage.setItem('metanoia_premium', Object.keys(acc.products).length ? 'true' : 'false');
+        } else if (!sessionStorage.getItem('metanoia_access')) {
+          sessionStorage.setItem('metanoia_premium', 'true');
+        }
       } else {
+        access = null;
         sessionStorage.removeItem('metanoia_auth');
         sessionStorage.removeItem('metanoia_premium');
+        sessionStorage.removeItem('metanoia_access');
         localStorage.removeItem('metanoia_session');
       }
     } catch (e) {}
+    if (u && acc) { try { window.dispatchEvent(new CustomEvent('mt:access', { detail: acc })); } catch (e) {} }
   }
 
   function refresh() {
     /* accounts closed (AUTH_ENABLED false and no ADMIN_EMAILS): /auth/* answers 404, so do not ask */
     return A.accounts().then(function (open) {
       if (!open) { user = null; mirror(null); return null; }
-      return A.get('/auth/me').then(function (r) { user = r.ok && r.data && r.data.user ? r.data.user : null; mirror(user); return user; });
+      return A.get('/auth/me').then(function (r) { user = r.ok && r.data && r.data.user ? r.data.user : null; mirror(user, r.ok && r.data ? r.data.access : null); return user; });
     });
   }
 
@@ -61,14 +73,17 @@
     ready: ready,
     refresh: refresh,
     get user() { return user; },
+    /* resolved access ({ mode, plan, all, products, beta_ends_at, founding }) once /auth/me has answered */
+    get access() { return access; },
+    can: function (slug) { if (!access || !access.products) return !!user; return !!(access.all || access.products[slug]); },
     available: function () { return A.available(); },
     /* true (open), 'invite' (invited addresses only) or false; the login and register pages gate on this */
     accountsOpen: function () { return A.accounts(); },
     register: function (data) {
-      return A.post('/auth/register', data).then(function (r) { if (r.ok) { user = r.data.user; mirror(user); } return r; });
+      return A.post('/auth/register', data).then(function (r) { if (r.ok) { user = r.data.user; mirror(user, r.data.access); } return r; });
     },
     login: function (email, password) {
-      return A.post('/auth/login', { email: email, password: password }).then(function (r) { if (r.ok) { user = r.data.user; mirror(user); } return r; });
+      return A.post('/auth/login', { email: email, password: password }).then(function (r) { if (r.ok) { user = r.data.user; mirror(user, r.data.access); } return r; });
     },
     logout: function () {
       return A.post('/auth/logout', {}).then(function (r) { user = null; mirror(null); return r; });
@@ -78,7 +93,7 @@
     /* passwordless: one-time link by e-mail; consume signs in (and creates the account on first use) */
     magicRequest: function (data) { return A.post('/auth/magic/request', Object.assign({ locale: A.locale() }, data || {})); },
     magicConsume: function (token) {
-      return A.post('/auth/magic/consume', { token: token, locale: A.locale() }).then(function (r) { if (r.ok) { user = r.data.user; mirror(user); } return r; });
+      return A.post('/auth/magic/consume', { token: token, locale: A.locale() }).then(function (r) { if (r.ok) { user = r.data.user; mirror(user, r.data.access); } return r; });
     },
     /* signed-in devices (settings page) */
     sessions: function () { return A.get('/auth/sessions'); },

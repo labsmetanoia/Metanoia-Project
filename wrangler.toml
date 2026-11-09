@@ -36,6 +36,10 @@ AUTH_ENABLED = "true"            # Open registration since 2026-11-08 (Tier 1). 
 BETA_ENDS_AT = "2026-11-22"      # Beta programme end (decision of 2026-11-08). Shown on the pricing page and status board; health
                                  # reports it; accounts created before it are founding members. Access does not change on that
                                  # date by itself: a paid pass needs explicit approval first (Tier 1 brief, Part 11).
+ACCESS_MODE = "beta"             # "beta": every signed-in member may use every product (the beta promise; stays in force past
+                                 # BETA_ENDS_AT until this is flipped). "entitlements": a product opens only with an entitlement
+                                 # row (admin grant, enterprise seat, later a paid pass; server/lib/entitlements.js). Flip only
+                                 # after members have been told, per the pricing page's beta wording.
 # Lesson media (prototype/assets/lms, about 2 GB, files over the 25 MiB Pages limit) is served
 # from the R2 bucket behind this host. The build rewrites the registries to it and drops the
 # folder from the output. It has to live here: with a wrangler.toml present, Pages ignores
