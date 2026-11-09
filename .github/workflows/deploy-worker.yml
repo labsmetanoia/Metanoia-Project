@@ -1,7 +1,7 @@
 name: Deploy aggregation worker
 
 # Deploys workers/aggregate (the nightly k-anonymous aggregation and 13-month
-# retention cron) with wrangler. Needs the same two repository secrets as the
+# retention cron, and the daily lifecycle mail) with wrangler. Needs the same two repository secrets as the
 # D1 migration workflow: CLOUDFLARE_API_TOKEN (Workers Scripts Edit, D1 Edit)
 # and CLOUDFLARE_ACCOUNT_ID. The worker's optional ADMIN_TOKEN secret (manual
 # runs over HTTP) is set by hand: cd workers/aggregate && npx wrangler secret put ADMIN_TOKEN.
@@ -9,7 +9,7 @@ name: Deploy aggregation worker
 on:
   push:
     branches: [main]
-    paths: ['workers/aggregate/**', '.github/workflows/deploy-worker.yml']
+    paths: ['workers/aggregate/**', 'server/lib/**', '.github/workflows/deploy-worker.yml']   # the Worker bundles server/lib (lifecycle, mail, http)
   workflow_dispatch:
 
 concurrency:

@@ -1,16 +1,23 @@
-# Nightly aggregation + retention for the Metanoia Labs data layer.
+# Scheduled Worker: nightly aggregation + retention, and the daily lifecycle mail.
 # Shares the D1 database with the Pages project (same database_id).
-#   npx wrangler deploy
-#   npx wrangler secret put ADMIN_TOKEN     (for manual runs via fetch)
+#   npx wrangler deploy                          (or the deploy-worker.yml workflow on merge)
+#   npx wrangler secret put ADMIN_TOKEN          manual runs over HTTP (?job=lifecycle&dry=1)
+#   npx wrangler secret put RESEND_API_KEY       lifecycle mail; the same key as the Pages project
+#   npx wrangler secret put SESSION_SECRET       signs the unsubscribe and result links; MUST equal the Pages value
+# In the dashboard: Workers & Pages → metanoia-aggregate → Settings → Variables and Secrets.
 
 name = "metanoia-aggregate"
 main = "index.js"
 compatibility_date = "2025-07-18"
 
 [triggers]
-crons = ["15 2 * * *"]   # 02:15 UTC daily
+crons = ["15 2 * * *", "30 0 * * *"]   # 02:15 UTC aggregation + retention; 00:30 UTC (07:30 WIB) lifecycle mail
 
 [[d1_databases]]
 binding = "DB"
 database_name = "metanoia"
 database_id = "d4ced8e5-f577-4f25-93ca-45bafff74974"   # same id as ../../wrangler.toml
+
+[vars]
+SITE_URL = "https://metanoialabs.net"
+MAIL_FROM = "Metanoia Labs <hello@metanoialabs.net>"

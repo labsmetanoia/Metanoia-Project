@@ -78,8 +78,9 @@ export async function onRequestPost({ request, env, params }) {
     const audience = body.audience !== undefined ? (AUDIENCES.includes(body.audience) ? body.audience : null) : user.audience;
     const locale = body.locale !== undefined ? localeOf(body.locale) : user.locale;
     const marketing = body.marketing !== undefined ? (body.marketing === true ? 1 : 0) : user.marketing_opt_in;
-    await env.DB.prepare('UPDATE users SET name = ?, audience = ?, locale = ?, marketing_opt_in = ?, updated_at = ? WHERE id = ?')
-      .bind(name, audience, locale, marketing, nowIso(), user.id).run();
+    /* opting back in clears the unsubscribe; opting out records one, so the lifecycle Worker treats both paths alike */
+    await env.DB.prepare('UPDATE users SET name = ?, audience = ?, locale = ?, marketing_opt_in = ?, unsubscribed_at = CASE WHEN ? = 1 THEN NULL ELSE COALESCE(unsubscribed_at, ?) END, updated_at = ? WHERE id = ?')
+      .bind(name, audience, locale, marketing, marketing, nowIso(), nowIso(), user.id).run();
     const u = await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(user.id).first();
     return json({ ok: true, user: publicUser(u) });
   }
