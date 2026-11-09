@@ -51,7 +51,15 @@ export async function onRequestGet({ request, env, params }) {
     const since = new Date(Date.now() - 30 * 86400 * 1000).toISOString();
     const events = await env.DB.prepare('SELECT name, COUNT(*) AS n FROM events WHERE ts > ? GROUP BY name ORDER BY n DESC LIMIT 50').bind(since).all();
     const assessments = await env.DB.prepare('SELECT COUNT(*) AS n FROM assessments').first();
-    return json({ ok: true, actor: g.actor, leads: leads.results || [], users: users ? users.n : 0, events_30d: events.results || [], assessments: assessments ? assessments.n : 0, time: nowIso() });
+    /* mail quota: Resend free tier is 100 a day and 3,000 a month; lifecycle is capped below that in server/lib/lifecycle.js */
+    const today = nowIso().slice(0, 10), month = today.slice(0, 7);
+    let mail = { today: [], month: [] };
+    try {
+      const mt = await env.DB.prepare('SELECT class, status, COUNT(*) AS n FROM mail_log WHERE day = ? GROUP BY class, status').bind(today).all();
+      const mm = await env.DB.prepare('SELECT class, status, COUNT(*) AS n FROM mail_log WHERE day >= ? GROUP BY class, status').bind(month + '-01').all();
+      mail = { today: mt.results || [], month: mm.results || [] };
+    } catch (e) { /* before migration 0004 */ }
+    return json({ ok: true, actor: g.actor, leads: leads.results || [], users: users ? users.n : 0, events_30d: events.results || [], assessments: assessments ? assessments.n : 0, mail, time: nowIso() });
   }
 
   if (route === 'aggregates') {

@@ -327,11 +327,11 @@ const PANELS = {
     '<div style="margin-top:1.25rem"><button class="btn btn-primary save-btn">' + L('Save Changes', 'Simpan Perubahan') + '</button></div>';
   },
   notifications: () => '<h2>' + L('Notifications', 'Notifikasi') + '</h2><p class="ph-sub">' + L('Choose what reaches you, and how.', 'Pilih apa yang sampai kepadamu, dan bagaimana caranya.') + '</p>' +
-    ['<label class="check-row"><input type="checkbox" checked> ' + L('Weekly navigation summary email', 'Email ringkasan navigasi mingguan') + '</label>',
-     '<label class="check-row"><input type="checkbox" checked> ' + L('New waypoint unlocked', 'Waypoint baru terbuka') + '</label>',
-     '<label class="check-row"><input type="checkbox" checked> ' + L('Route deadlines and overdue actions', 'Tenggat rute dan tindakan terlambat') + '</label>',
-     '<label class="check-row"><input type="checkbox"> ' + L('Product updates from the mountain', 'Kabar produk dari gunung') + '</label>'].join('') +
-    '<button class="btn btn-primary save-btn" style="margin-top:0.5rem">' + L('Save Preferences', 'Simpan Preferensi') + '</button>',
+    ['<label class="check-row"><input type="checkbox" id="nf-weekly" data-pref="marketing"> ' + L('Weekly summary e-mail: what you worked on, the gate to work on next, one link back in', 'E-mail ringkasan mingguan: yang kamu kerjakan, gerbang berikutnya, satu tautan untuk kembali') + '</label>',
+     '<label class="check-row" style="opacity:.55"><input type="checkbox" disabled> ' + L('New waypoint unlocked (not yet available)', 'Waypoint baru terbuka (belum tersedia)') + '</label>',
+     '<label class="check-row" style="opacity:.55"><input type="checkbox" disabled> ' + L('Route deadlines and overdue actions (not yet available)', 'Tenggat rute dan tindakan terlambat (belum tersedia)') + '</label>'].join('') +
+    '<p class="note" id="nf-note">' + L('Service messages always arrive: sign-in links, verification and results you ask for. Every weekly e-mail carries a one-click unsubscribe link.', 'Pesan layanan selalu dikirim: tautan masuk, verifikasi, dan hasil yang kamu minta. Setiap e-mail mingguan membawa tautan berhenti berlangganan satu klik.') + '</p>' +
+    '<button class="btn btn-primary save-btn" id="nf-save" style="margin-top:0.5rem">' + L('Save Preferences', 'Simpan Preferensi') + '</button>',
   privacy: () => '<h2>' + L('Privacy &amp; Data', 'Privasi &amp; Data') + '</h2><p class="ph-sub">' + L('Your climb, your data. Always yours.', 'Pendakianmu, datamu. Selalu milikmu.') + '</p>' +
     '<p style="font-size:var(--text-sm);color:var(--text-muted);line-height:1.625;margin-bottom:1.5rem">' +
     L("We store your data securely and never sell it to third parties. Your Compass and course data lives in this browser and, when you are signed in, is synced to your account so it follows you across devices; export downloads all of it as one JSON file, and delete removes every Metanoia record from this browser and signs you out. We are building Metanoia to comply with Indonesia\u2019s Personal Data Protection Law (UU 27/2022). Our <a href='legal/privacy'>privacy notice</a> explains what we collect, why, and how to exercise your rights.",
@@ -401,6 +401,7 @@ render('profile');
   if (!window.MT_AUTH) return;
   var isID = function () { return (document.documentElement.lang || 'en').indexOf('id') === 0; };
   function hook(user) {
+    hookNotifications(user);
     var ex = document.getElementById('export-btn');
     if (!ex || document.getElementById('acct-export')) return;
     var row = ex.parentElement;
@@ -425,6 +426,22 @@ render('profile');
     row.parentElement.appendChild(passwordForm());
     row.parentElement.appendChild(devicesPanel());
     row.parentElement.appendChild(syncPanel());
+  }
+  /* notifications: the weekly e-mail choice is the account's marketing opt-in (POST /api/account/update) */
+  function hookNotifications(user) {
+    var cb = document.getElementById('nf-weekly');
+    if (!cb || cb.__mtWired) return;
+    cb.__mtWired = true;
+    cb.checked = !!user.marketing_opt_in;
+    var save = document.getElementById('nf-save'), note = document.getElementById('nf-note');
+    if (!save) return;
+    save.addEventListener('click', function () {
+      var want = cb.checked;
+      MT_API.post('/account/update', { marketing: want }).then(function (r) {
+        if (r.ok) { user.marketing_opt_in = want; if (note) note.textContent = want ? (isID() ? 'Tersimpan. Ringkasan mingguan aktif; e-mail pertama datang seminggu setelah bergabung.' : 'Saved. Weekly summary on; the first one arrives a week after you joined.') : (isID() ? 'Tersimpan. Tidak ada ringkasan mingguan; pesan layanan tetap dikirim.' : 'Saved. No weekly summary; service messages still arrive.'); }
+        else { cb.checked = !want; if (note) note.textContent = isID() ? 'Belum bisa menyimpan pilihan ini. Coba lagi.' : 'Could not save this choice. Please try again.'; }
+      });
+    });
   }
   /* progress across devices: what mt-progress.js mirrors to the account, when it last did, and a manual sync */
   function syncPanel() {

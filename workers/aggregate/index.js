@@ -1,18 +1,30 @@
 /**
- * Nightly aggregation + retention Worker (cron). Pages Functions cannot run on
- * a schedule, so this small Worker shares the D1 database and does two things:
+ * Scheduled Worker for the Metanoia Labs data layer. Pages Functions cannot
+ * run on a schedule, so this small Worker shares the D1 database and runs:
  *
- *  1. Rolls yesterday's `events` and `assessments` into `agg_daily`, writing a
- *     row only when the group holds at least K subjects (k-anonymity, K = 20).
- *     The Talent Readiness Report and Market Intelligence views read nothing
- *     but `agg_daily`, so no individual can appear in them by construction.
- *  2. Deletes raw events older than 13 months and expired sessions / tokens.
+ *  02:15 UTC  aggregation + retention
+ *     1. Rolls yesterday's `events` and `assessments` into `agg_daily`, writing a
+ *        row only when the group holds at least K subjects (k-anonymity, K = 20).
+ *        The Talent Readiness Report and Market Intelligence views read nothing
+ *        but `agg_daily`, so no individual can appear in them by construction.
+ *     2. Deletes raw events older than 13 months and expired sessions / tokens.
+ *
+ *  00:30 UTC  lifecycle mail (server/lib/lifecycle.js)
+ *        Career Map follow-up on the weakest dimension two to five days after the
+ *        result, and the weekly summary for members who opted in. Capped below the
+ *        Resend free tier so transactional mail is never starved; every message
+ *        carries a one-click unsubscribe. Needs RESEND_API_KEY and SESSION_SECRET
+ *        (the same values as the Pages project) as Worker secrets.
  *
  * Deploy:  cd workers/aggregate && npx wrangler deploy   (binding DB → the same
  * database as the Pages project; see wrangler.toml beside this file).
  */
+import { runLifecycle } from '../../server/lib/lifecycle.js';
+
 const K = 20;
 const RETENTION_DAYS = 13 * 31;
+const CRON_AGGREGATE = '15 2 * * *';
+const CRON_LIFECYCLE = '30 0 * * *';
 
 const day = d => d.toISOString().slice(0, 10);
 
@@ -68,23 +80,40 @@ async function retention(env) {
   ]);
 }
 
+async function lifecycle(env, dryRun) {
+  if (!env.RESEND_API_KEY && !dryRun) return { skipped: 'RESEND_API_KEY not set on the Worker' };
+  return runLifecycle(env, { site: env.SITE_URL, dryRun });
+}
+
 export default {
   async scheduled(event, env, ctx) {
-    const yesterday = new Date(Date.now() - 86400 * 1000);
     ctx.waitUntil((async () => {
+      if (event.cron === CRON_LIFECYCLE) {
+        const r = await lifecycle(env, false);
+        console.log('lifecycle', JSON.stringify(r));
+        return;
+      }
+      const yesterday = new Date(Date.now() - 86400 * 1000);
       const n = await aggregateDay(env, day(yesterday));
       await retention(env);
       console.log('aggregate', day(yesterday), 'rows', n);
     })());
   },
-  /* manual trigger for a given day, protected by the same admin token */
+  /* manual trigger, protected by the admin token:
+       ?job=aggregate&day=YYYY-MM-DD[&retention=1]   (default)
+       ?job=lifecycle[&dry=1]                          dry runs count what would be sent and send nothing */
   async fetch(request, env) {
     const url = new URL(request.url);
     const auth = request.headers.get('authorization') || '';
     if (!env.ADMIN_TOKEN || auth !== 'Bearer ' + env.ADMIN_TOKEN) return new Response('unauthorized', { status: 401 });
+    const headers = { 'content-type': 'application/json' };
+    if (url.searchParams.get('job') === 'lifecycle') {
+      const r = await lifecycle(env, url.searchParams.get('dry') === '1');
+      return new Response(JSON.stringify({ ok: true, job: 'lifecycle', ...r }), { headers });
+    }
     const d = url.searchParams.get('day') || day(new Date(Date.now() - 86400 * 1000));
     const n = await aggregateDay(env, d);
     if (url.searchParams.get('retention') === '1') await retention(env);
-    return new Response(JSON.stringify({ ok: true, day: d, rows: n }), { headers: { 'content-type': 'application/json' } });
+    return new Response(JSON.stringify({ ok: true, job: 'aggregate', day: d, rows: n }), { headers });
   }
 };

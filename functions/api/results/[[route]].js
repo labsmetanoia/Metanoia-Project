@@ -12,8 +12,9 @@
  * lead; the newsletter itself still goes through its own double opt-in.
  */
 import { json, fail, readJson, sameOrigin, rateLimit, clientIp, isEmail, normEmail, clip, localeOf, newId, nowIso,
-  hmacHex, timingSafeEqual, verifyTurnstile } from '../../../server/lib/http.js';
+  timingSafeEqual, verifyTurnstile } from '../../../server/lib/http.js';
 import { mailResults } from '../../../server/lib/mail.js';
+import { resultsSignature } from '../../../server/lib/lifecycle.js';
 
 const CONSENT_VERSIONS = { terms_version: '1.0-draft', privacy_version: '1.0-draft' };
 const RESULT_DAYS = 90;
@@ -22,9 +23,7 @@ const DIM_NAMES = { ci: 'Career Intelligence', ps: 'Profile Strength', ir: 'Inte
 const BANDS = ['Summit Ready', 'High Camp', 'Mid-Mountain', 'First Ascent', 'Base Camp'];
 const enc = new TextEncoder();
 
-async function signature(env, id) {
-  return (await hmacHex(env.SESSION_SECRET, 'results:' + id)).slice(0, 32);
-}
+const signature = resultsSignature;   /* shared with the lifecycle follow-up mail */
 
 function smallJson(value, max) {
   if (!value || typeof value !== 'object') return null;
@@ -73,7 +72,7 @@ export async function onRequestPost({ request, env }) {
   const site = env.SITE_URL || new URL(request.url).origin;
   const url = `${site}/career-map-assessment?result=${id}&sig=${await signature(env, id)}`;
   const lines = DIM_KEYS.map(k => `${DIM_NAMES[k]}: ${dims[k]}/15`);
-  const mail = await mailResults(env, { to: email, name, total, band, lines, url, days: RESULT_DAYS, locale });
+  const mail = await mailResults(env, { to: email, name, total, band, lines, url, days: RESULT_DAYS, locale, ref: id });
   return json({ ok: true, id, url, confirmation_email: mail.sent }, 201);
 }
 
