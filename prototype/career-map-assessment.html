@@ -42,7 +42,7 @@
 <meta name="twitter:image" content="https://metanoialabs.net/assets/bg/map-hero.jpg">
 <link rel="alternate" hreflang="en" href="https://metanoialabs.net/career-map-assessment">
 <link rel="alternate" hreflang="id" href="https://metanoialabs.net/career-map-assessment">
-<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/career-map-assessment"><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/career-map-assessment"><script src="/js/mt-errors.js" defer></script><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/career-map-assessment">
 <title>Career Map Assessment · Metanoia Labs</title>
 <meta name="description" content="Take the free 15-minute Career Map: a readiness score across five Compass Points and your first bearing. Runs on your device; no account needed to start.">
@@ -141,8 +141,6 @@
 </style>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
 <!-- Analytics: GA4 loads only when data/analytics.js carries a real Measurement ID; first-party events go to /api/events when the API is reachable -->
 <script src="data/analytics.js"></script>
 <script src="js/mt-api.js"></script>
@@ -2297,13 +2295,26 @@ document.getElementById('doneEmail').onclick=()=>{ show('s-report'); fitReport()
 
 /* ================= PDF / SHARE / FORM ================= */
 let pdfBusy=false;
+/* The two export libraries (560 KB) are served from this site and fetched only when the report is downloaded,
+   so the assessment itself loads without them and the export does not depend on another host. */
+const PDF_LIBS=['js/vendor/html2canvas-1.4.1.min.js','js/vendor/jspdf-2.5.1.umd.min.js'];
+let pdfLibs=null;
+function loadPdfLibs(){
+  if(window.html2canvas && window.jspdf && window.jspdf.jsPDF) return Promise.resolve(true);
+  if(!pdfLibs) pdfLibs=Promise.all(PDF_LIBS.map(src=>new Promise(res=>{
+    const sc=document.createElement('script'); sc.src=src; sc.onload=()=>res(true); sc.onerror=()=>res(false);
+    document.head.appendChild(sc); setTimeout(()=>res(false),20000); })))
+    .then(r=>{ const ok=r.every(Boolean) && !!(window.html2canvas && window.jspdf && window.jspdf.jsPDF); if(!ok) pdfLibs=null; return ok; });
+  return pdfLibs;
+}
 window.downloadReport=async function(){
   if(pdfBusy) return;
   analytics.track('pdf_downloaded');
   const el=document.getElementById('report-content');
   const finish=()=>{ S.dl=true; save(); setTimeout(showDone,600); };
-  if(!(window.html2canvas && window.jspdf && window.jspdf.jsPDF)){ window.print(); finish(); return; }
   pdfBusy=true;
+  const libsOk=await loadPdfLibs();
+  if(!libsOk){ pdfBusy=false; window.print(); finish(); return; }
   el.classList.add('pdf-mode');
   const wrap=document.getElementById('rwrap'), prevT=wrap.style.transform; wrap.style.transform='none';
   const restore=()=>{ el.classList.remove('pdf-mode'); wrap.style.transform=prevT; fitReport(); pdfBusy=false; };

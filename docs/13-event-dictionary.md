@@ -24,6 +24,7 @@ First-party product events accepted by `POST /api/events` and sent through `MT.t
 | `range.company.viewed` | `id` (company slug) | `industry`, `geo` | The Range (to wire) |
 | `range.role.viewed` | `id` (opportunity id) | `fn`, `industry` | The Range (to wire) |
 | `auth.account.registered` | `audience` | — | server-side (future) |
+| `site.script.error` | `msg` (≤300), `src` (script path), `line`, `col`, `stack` (≤600, origin stripped), `vw` | — | every page (`mt-errors.js`): an uncaught error or unhandled rejection; at most five per page view, each message once; not sent when analytics is declined. Read in the admin page under Script errors and counted in the owner's weekly summary |
 | `site.page.viewed` | `lang`, `referrer` (hostname or `direct`) | — | every page, once per load (`mt-events.js`; the page path is already on the event) |
 | `lead.form.submitted` | `kind` (`mentor`, `enterprise`, `newsletter`, `waitlist`, `results`) | — | the form's success path, after the server stored the lead |
 

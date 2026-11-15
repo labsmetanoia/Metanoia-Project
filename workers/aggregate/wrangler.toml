@@ -21,3 +21,4 @@ database_id = "d4ced8e5-f577-4f25-93ca-45bafff74974"   # same id as ../../wrangl
 [vars]
 SITE_URL = "https://metanoialabs.net"
 MAIL_FROM = "Metanoia Labs <hello@metanoialabs.net>"
+LEADS_NOTIFY_TO = "hello@metanoialabs.net"   # the owner's weekly summary goes here (server/lib/digest.js); the same address as the Pages project

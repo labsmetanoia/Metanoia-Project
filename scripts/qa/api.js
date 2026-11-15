@@ -194,6 +194,12 @@ function client() {
   ok(r.status === 200 || r.status === 202, 'events accepted', r.j);
   r = await anon('POST', '/api/events', { events: 'x' });
   ok(r.status === 400, 'events validated', r.status);
+  /* script errors reported by browsers (js/mt-errors.js) */
+  const boom = 'QA boom ' + stamp;
+  for (const who of ['qa-' + stamp + '-aaaaaaaaaaaa', 'qa-' + stamp + '-bbbbbbbbbbbb']) {
+    r = await anon('POST', '/api/events', { anon_id: who, events: [{ name: 'site.script.error', page: '/qa-page', props: { msg: boom, src: '/js/x.js', line: 12, col: 3, stack: 'at x' } }] });
+    ok(r.status === 202 && r.j.accepted === 1, 'a script error report is accepted', r.j);
+  }
 
   /* ── account ── */
   r = await m2('POST', '/api/account/update', { name: 'QA Renamed', audience: 'fresh-graduate', locale: 'en', marketing: true });
@@ -249,6 +255,24 @@ function client() {
   ok(r.status === 200 && ['lead.update', 'users.export', 'entitlement.grant', 'entitlement.revoke', 'leads.export', 'feedback.update'].every(a => acts.includes(a)), 'every admin write and export is in the audit trail', acts);
   r = await m2('GET', '/api/admin/audit');
   ok(r.status === 401, 'a member cannot read the audit trail', r.status);
+  /* script errors, grouped */
+  r = await anon('GET', '/api/admin/errors?days=1', undefined, A);
+  const grp = r.j && r.j.groups ? r.j.groups.find(g => g.msg === boom) : null;
+  ok(r.status === 200 && grp && grp.n === 2 && grp.visitors === 2 && grp.page === '/qa-page' && grp.src === '/js/x.js' && grp.line === 12, 'admin sees script errors grouped by message and page with distinct visitors', grp || r.j);
+  r = await m2('GET', '/api/admin/errors');
+  ok(r.status === 401, 'a member cannot read script errors', r.status);
+  /* the owner digest: numbers and text, counts only */
+  r = await anon('GET', '/api/admin/digest?days=7', undefined, A);
+  ok(r.status === 200 && r.j.digest.accounts.now >= 1 && r.j.digest.errors.total >= 2 && r.j.digest.feedback.new >= 2 && r.j.digest.leads.enterprise >= 1, 'the digest counts accounts, errors, feedback and leads', r.j && r.j.digest);
+  ok(r.j && /PEOPLE/.test(r.j.text) && /RELIABILITY/.test(r.j.text) && r.j.text.includes(boom) && !r.j.text.includes('@example.test'), 'the digest text names the top error and holds no member address', r.j && r.j.text.slice(0, 200));
+  r = await m2('GET', '/api/admin/digest');
+  ok(r.status === 401, 'a member cannot read the digest', r.status);
+  r = await anon('POST', '/api/admin/digest', {}, A);
+  ok(r.status === 200 || (r.status === 503 && /mail not configured|LEADS_NOTIFY_TO/.test(r.j.error)), 'send-now answers honestly when mail is not configured', r.j);
+  r = await anon('POST', '/api/admin/digest', {}, { ...A, origin: 'https://evil.example' });
+  ok(r.status === 403, 'cross-origin digest send is refused', r.status);
+  r = await anon('GET', '/api/admin/audit?limit=20', undefined, A);
+  ok(r.status === 200 && r.j.audit.some(a => a.action === 'digest.send'), 'a manual digest send is in the audit trail', r.j && r.j.audit.map(a => a.action));
   /* a member-typed formula is neutralised in exports */
   await m2('POST', '/api/account/update', { name: '=cmd|calc' });
   r = await anon('GET', '/api/admin/users.csv?q=' + encodeURIComponent(email), undefined, A);

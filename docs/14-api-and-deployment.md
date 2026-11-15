@@ -148,6 +148,12 @@ Admin (`/admin/`, Access panel, or the API): `GET /api/admin/users?founding=1` i
 - **Accounts**: `GET /api/auth/me` answers `200 { user: null }` for a guest. The admin role is given only to a proven address (verification link, magic link, OAuth), never at password registration. A proven sign-in on an unverified password account clears that password and ends its sessions. `/api/rope/avatar/*` needs a signed-in member.
 - **Install**: `manifest.webmanifest` at the site root, linked from every page; `js/mt-install.js` (portal) registers the service worker and reveals `[data-install-app]` when the browser offers installation.
 
+### Error reports, owner digest, self-hosted export libraries (short-term roadmap of docs/20, 2026-11-15)
+
+- **Script errors**: `js/mt-errors.js` is on every page (and in `scripts/lib/shell.py` for the generated ones). It posts `site.script.error` to `/api/events`. `GET /api/admin/errors?days=` groups them by message and page; the admin page shows them under **Script errors**.
+- **Owner digest**: `server/lib/digest.js`. The aggregation Worker sends it on Mondays at 00:30 UTC (07:30 WIB) to `LEADS_NOTIFY_TO` (set in `workers/aggregate/wrangler.toml`), once per ISO week, logged in `mail_log` as `owner-digest`. `GET /api/admin/digest` previews it, `POST /api/admin/digest` sends it now (audited), and the Worker accepts `?job=digest[&force=1]` with the admin token. It uses about four of the 3,000 free monthly e-mails.
+- **Export libraries**: html2canvas 1.4.1 and jsPDF 2.5.1 (both MIT) live in `prototype/js/vendor/` and are fetched only when a visitor downloads the Career Map report. No page loads a script from another host any more, so `cdnjs.cloudflare.com` is gone from the `script-src` policy in `_headers`.
+
 ### Static performance layer (Tier 1 stage 6)
 
 - **Registry split**: `scripts/build-site.py` writes `data/lms/<slug>/index.js` (the registry with every lesson reduced to its light fields) and `data/lms/<slug>/lessons/<n>.json` per lesson; both are build outputs (gitignored). The product pages load the index; `js/lms-player.js` fetches a lesson on open (`?v=<registry hash>`), prefetches neighbours, and still accepts a full registry without the `__lazy` marker. The authored registries `data/lms/<slug>.js` stay the only content source.
