@@ -15,6 +15,8 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
 
 (async () => {
   const br = await chromium.launch({ executablePath: process.env.CHROME || (fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined) });
+  /* third-party widgets (Turnstile, Web Analytics) are not under test and behave differently off the production host: keep them out so runs are repeatable */
+  { const nc = br.newContext.bind(br); br.newContext = async o => { const c = await nc(o); await c.route(/challenges\.cloudflare\.com|cloudflareinsights\.com/, r => r.abort()); return c; }; }
   const watch = (p, tag) => {
     p.on('pageerror', e => errors.push(tag + ' pageerror ' + String(e.message).slice(0, 200)));
     p.on('console', m => { if (m.type() === 'error' && !/401|404 \(Not Found\)|net::ERR|favicon/.test(m.text())) errors.push(tag + ' console ' + m.text().slice(0, 200)); });

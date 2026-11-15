@@ -8,13 +8,15 @@ const PAGES = (process.env.PAGES ? process.env.PAGES.split(',') : [
   '/pages/about', '/pages/student', '/pages/fresh-graduate', '/pages/early-professional', '/pages/mature-professional', '/pages/enterprise', '/pages/mentors', '/pages/mind-palace',
   '/pages/products/high-impact', '/pages/products/professional-world', '/pages/products/project-aladin', '/pages/products/project-horizon', '/pages/products/project-maverick', '/pages/products/project-nexus', '/pages/products/scholarship-prep', '/pages/products/the-compass',
   '/products/the-map/', '/products/the-pack/', '/products/the-rope/', '/products/the-route/', '/products/the-compass/', '/products/the-lookout/', '/products/the-range/',
-  '/products/the-map/range/', '/products/the-map/range/industry/property-construction/', '/products/the-map/range/indonesia/', '/products/the-map/range/accenture/', '/products/the-map/range/international/function/data/page/8/',
+  '/products/the-map/range/', '/products/the-map/range/industry/property-construction/', '/products/the-map/range/indofood/', '/products/the-map/range/accenture/', '/products/the-map/range/international/function/data/page/8/',
   '/mind-palace/', '/mind-palace/get-hired/', '/mind-palace/ats-myths-decoded/', '/mind-palace/case-interview-anatomy/',
   '/nope-404'
 ]);
 const LANG = process.env.LANG_ || 'en';
 (async () => {
   const br = await chromium.launch({ executablePath: process.env.CHROME || (require('fs').existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined) });
+  /* third-party widgets (Turnstile, Web Analytics) are not under test and behave differently off the production host: keep them out so runs are repeatable */
+  { const nc = br.newContext.bind(br); br.newContext = async o => { const c = await nc(o); await c.route(/challenges\.cloudflare\.com|cloudflareinsights\.com/, r => r.abort()); return c; }; }
   const out = [];
   for (const vp of [{ w: 1366, h: 860, tag: 'desk' }, { w: 820, h: 1180, tag: 'tablet' }, { w: 390, h: 844, tag: 'phone' }]) {
     const ctx = await br.newContext({ viewport: { width: vp.w, height: vp.h }, isMobile: vp.tag === 'phone', hasTouch: vp.tag === 'phone', deviceScaleFactor: 1 });
@@ -24,7 +26,7 @@ const LANG = process.env.LANG_ || 'en';
       p.on('pageerror', e => errs.push(String(e.message).slice(0, 160)));
       p.on('console', m => { if (m.type() === 'error') cons.push(m.text().slice(0, 160)); });
       p.on('response', r => { const s = r.status(); if (s >= 400 && !/fonts|googleapis|gstatic/.test(r.url())) fails.push(s + ' ' + r.url().replace(B, '')); });
-      p.on('requestfailed', r => { if (!/fonts|googleapis|gstatic|analytics|api\//.test(r.url())) fails.push('FAIL ' + r.url().replace(B, '') + ' ' + (r.failure() || {}).errorText); });
+      p.on('requestfailed', r => { if (!/fonts|googleapis|gstatic|analytics|api\/|challenges\.cloudflare|cloudflareinsights/.test(r.url())) fails.push('FAIL ' + r.url().replace(B, '') + ' ' + (r.failure() || {}).errorText); });
       let status = 0;
       try { const r = await p.goto(B + u, { waitUntil: 'load', timeout: 30000 }); status = r ? r.status() : 0; await p.waitForTimeout(900); } catch (e) { errs.push('NAV ' + e.message.slice(0, 80)); }
       const m = await p.evaluate(() => {
@@ -44,4 +46,14 @@ const LANG = process.env.LANG_ || 'en';
   }
   await br.close();
   console.log('pages', out.length, 'flagged', out.filter(r => r.errs.length || r.cons.length || r.fails.length || r.broken.length || r.over).length);
+  /* STRICT=1 (CI): fail on anything that is not an expected state. Expected: the 404 probe, and the internal admin page answering 401 to a visitor. */
+  const real = out.filter(r => {
+    if (r.u === '/nope-404') return r.status !== 404 || r.errs.length || r.broken.length || r.over;
+    const fails = r.fails.filter(f => !(r.u === '/admin/' && /401 \/api\/admin\//.test(f)));
+    const cons = r.cons.filter(c => !(r.u === '/admin/' && /401/.test(c)));
+    return r.errs.length || cons.length || fails.length || r.broken.length || r.over || r.status !== 200 || !r.title;
+  });
+  console.log('unexpected', real.length);
+  real.slice(0, 30).forEach(r => console.log('UNEXPECTED', r.vp, r.u, JSON.stringify({ status: r.status, errs: r.errs, cons: r.cons, fails: r.fails, broken: r.broken, over: r.over })));
+  if (process.env.STRICT && real.length) process.exit(1);
 })().catch(e => { console.error(e); process.exit(1); });

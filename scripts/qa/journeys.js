@@ -8,6 +8,8 @@ const info = (m) => console.log('INFO ' + m);
 const head = (u) => new Promise(r => { http.get(B + u, res => { r(res.statusCode); res.resume(); }).on('error', () => r(0)); });
 (async () => {
   const br = await chromium.launch({ executablePath: process.env.CHROME || (require('fs').existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined) });
+  /* third-party widgets (Turnstile, Web Analytics) are not under test and behave differently off the production host: keep them out so runs are repeatable */
+  { const nc = br.newContext.bind(br); br.newContext = async o => { const c = await nc(o); await c.route(/challenges\.cloudflare\.com|cloudflareinsights\.com/, r => r.abort()); return c; }; }
   const mk = async (opts) => { const ctx = await br.newContext(Object.assign({ viewport: { width: 1366, height: 860 } }, opts || {})); await ctx.addInitScript(() => { if (!localStorage.getItem('mtLang')) { localStorage.setItem('mtLang', 'en'); localStorage.setItem('mt-lang', 'en'); } if (!localStorage.getItem('mt-theme')) localStorage.setItem('mt-theme', 'dark'); }); const p = await ctx.newPage(); p.errs = []; p.on('pageerror', e => p.errs.push(e.message.slice(0, 120))); return p; };
   const ONLY = process.env.ONLY || '';
   if (!ONLY || ONLY === 'A') {
@@ -57,24 +59,32 @@ const head = (u) => new Promise(r => { http.get(B + u, res => { r(res.statusCode
     check(a.open && a.links > 4 && a.visible, 'phone menu opens from the burger with navigation links (' + a.links + ')');
     for (const u of ['/pages/student', '/pricing', '/pages/mind-palace', '/pages/about']) { await ph.goto(B + u, { waitUntil: 'load' }); await ph.waitForTimeout(500); const r = await ph.evaluate(() => { const b = document.getElementById('burger'); if (!b) return { nob: true }; b.click(); const sh = document.getElementById('sheet'); return { open: !!(sh && sh.classList.contains('open')), links: sh ? sh.querySelectorAll('a').length : 0 }; }); check(r.open && r.links > 3, 'phone menu on ' + u + ' (' + JSON.stringify(r) + ')'); }
     await ph.close();
-    /* ── auth honest states ── */
+    /* ── accounts: honest states on a host without the API, working forms on a host with it ──
+       (the signed-in journey itself is scripts/qa/member.js, which needs the API) */
     await p.goto(B + '/login', { waitUntil: 'load' }); await p.waitForTimeout(1200);
-    a = await p.evaluate(() => ({ note: (document.getElementById('apiNote') || {}).textContent || '', noteShown: !!document.getElementById('apiNote') && getComputedStyle(document.getElementById('apiNote')).display !== 'none', guest: !!document.getElementById('guestBtn'), submitDisabled: !!(document.querySelector('#loginForm button[type=submit]') || {}).disabled }));
-    check(a.noteShown && /not|belum|yet/i.test(a.note) && a.guest, 'login page states that accounts are not open on this host and offers guest preview (' + a.note.slice(0, 80) + ')');
-    await p.fill('#email', 'qa@example.com'); await p.fill('#password', 'passw0rd!'); await p.click('#loginForm button[type=submit]'); await p.waitForTimeout(1200);
-    a = await p.evaluate(() => ({ err: (document.getElementById('formErr') || {}).textContent || '', path: location.pathname, veil: !!document.querySelector('#successVeil.show, #successVeil.on') }));
-    check(a.path === '/login' && !a.veil, 'submitting credentials without the API never fabricates a session (' + a.err.slice(0, 70) + ')');
-    await p.click('#guestBtn'); await p.waitForTimeout(1500);
-    a = await p.evaluate(() => ({ path: location.pathname, guest: sessionStorage.getItem('metanoia_guest'), h1: (document.querySelector('h1') || {}).textContent || '' }));
-    check(/portal/.test(a.path) && a.guest === 'true', 'guest preview lands in the portal (' + a.path + ')');
-    a = await p.evaluate(() => [...document.querySelectorAll('a[href]')].map(x => x.getAttribute('href')).filter(h => /products|compass|assessment|settings/.test(h)));
-    check(a.length >= 4, 'portal links to products, Compass, assessment and settings (' + a.length + ')');
-    const portalTargets = [...new Set(a.map(h => new URL(h, B + '/portal').pathname))]; let pbad = [];
-    for (const t of portalTargets) { const c = await head(t); if (c !== 200) pbad.push(t + ' ' + c); }
-    check(pbad.length === 0, 'every portal link resolves ' + pbad.join(' | '));
-    await p.goto(B + '/register', { waitUntil: 'load' }); await p.waitForTimeout(1000);
-    a = await p.evaluate(() => ({ note: (document.getElementById('apiNote') || {}).textContent || '', guest: !!document.getElementById('guestBtn') }));
-    check(/not|belum|yet/i.test(a.note) && a.guest, 'register page states the honest account status (' + a.note.slice(0, 70) + ')');
+    const hasApi = await p.evaluate(async () => { try { const r = await fetch('/api/health'); return r.ok && /json/.test(r.headers.get('content-type') || ''); } catch (e) { return false; } });
+    const vis = id => p.evaluate(i => { const el = document.getElementById(i); if (!el) return false; const r = el.getBoundingClientRect(); return r.width > 0 && r.height > 0 && getComputedStyle(el).visibility !== 'hidden'; }, id);
+    a = { note: await p.evaluate(() => (document.getElementById('apiNote') || {}).textContent || ''), noteShown: await vis('apiNote'), waitlist: await vis('wlForm'), magic: await vis('magicForm'), login: await vis('loginForm') };
+    if (hasApi) {
+      check((a.magic || a.login) && !a.waitlist, 'login page offers sign-in on a host with the API (magic ' + a.magic + ', password ' + a.login + ')');
+      await p.goto(B + '/register', { waitUntil: 'load' }); await p.waitForTimeout(1000);
+      check(await vis('regForm'), 'register page shows the registration form on a host with the API');
+    } else {
+      /* no API at all (a static mirror or an outage): the page says so, offers no waitlist it could not store, and nothing typed becomes a session */
+      check(a.noteShown && /cannot be reached|tidak dapat dijangkau/i.test(a.note) && !a.waitlist, 'login page says sign-in cannot be reached and hides the waitlist it could not store (' + a.note.replace(/\s+/g, ' ').trim().slice(0, 60) + ')');
+      if (a.magic) { await p.fill('#magicEmail', 'qa@example.com'); await p.click('#magicForm button[type=submit]'); await p.waitForTimeout(1500); }
+      a = await p.evaluate(() => ({ err: ((document.getElementById('magicErr') || {}).textContent || '') + ((document.getElementById('formErr') || {}).textContent || ''), path: location.pathname, auth: sessionStorage.getItem('metanoia_auth'), veil: !!document.querySelector('#successVeil.show, #successVeil.on') }));
+      check(a.path === '/login' && a.auth !== 'true' && !a.veil && a.err.trim().length > 3, 'asking for a sign-in link without the API shows a plain message and never fabricates a session (' + a.err.replace(/\s+/g, ' ').trim().slice(0, 60) + ')');
+      await p.goto(B + '/register', { waitUntil: 'load' }); await p.waitForTimeout(1200);
+      a = { note: await p.evaluate(() => (document.getElementById('apiNote') || {}).textContent || ''), waitlist: await vis('wlForm') };
+      check(/cannot be reached|tidak dapat dijangkau/i.test(a.note) && !a.waitlist, 'register page says the same (' + a.note.replace(/\s+/g, ' ').trim().slice(0, 60) + ')');
+    }
+    await p.goto(B + '/portal', { waitUntil: 'load' }); await p.waitForTimeout(1500);
+    check(/login/.test(new URL(p.url()).pathname), 'the portal sends a guest to sign in (' + new URL(p.url()).pathname + ')');
+    /* the pages a signed-in member reaches from the portal all exist */
+    let pbad = [];
+    for (const t of ['/products/the-map/', '/products/the-pack/', '/products/the-rope/', '/products/the-route/', '/products/the-compass/', '/career-map-assessment', '/settings', '/purchases', '/help']) { const c = await head(t); if (c !== 200) pbad.push(t + ' ' + c); }
+    check(pbad.length === 0, 'every portal destination resolves ' + pbad.join(' | '));
     await p.goto(B + '/settings', { waitUntil: 'load' }); await p.waitForTimeout(800);
     a = await p.evaluate(() => ({ tabs: document.querySelectorAll('#subnav a, #subnav button').length, panel: (document.getElementById('panel') || {}).textContent.length }));
     check(a.tabs >= 2 && a.panel > 50, 'settings page renders its sections (' + a.tabs + ' tabs)');
@@ -85,19 +95,22 @@ const head = (u) => new Promise(r => { http.get(B + u, res => { r(res.statusCode
     await p.evaluate(() => { const f = document.getElementById('cform'); f.scrollIntoView(); f.querySelectorAll('input[required], textarea[required], select[required]').forEach(i => { if (i.tagName === 'SELECT') i.selectedIndex = 1; else if (i.type === 'email') i.value = 'qa@example.com'; else if (i.type === 'checkbox') i.checked = true; else i.value = 'QA Corp'; }); });
     await p.click('#cform button[type=submit], #cform .csubmit'); await p.waitForTimeout(1500);
     a = await p.evaluate(() => { const f = document.getElementById('cform'); const fail = f.querySelector('.cform-fail'), done = f.querySelector('.cform-done'); const m = document.getElementById('cf-mailto'); return { fail: fail && fail.offsetParent !== null ? fail.textContent.replace(/\s+/g, ' ').trim().slice(0, 90) : '', done: !!(done && done.offsetParent !== null), mail: !!(m && /^mailto:/.test(m.getAttribute('href') || '')) }; });
-    check(a.fail && !a.done && a.mail, 'enterprise form without delivery says so and offers the e-mail fallback instead of a fake confirmation (' + a.fail + ')');
+    if (hasApi) check(a.done && !a.fail, 'enterprise form is stored and confirmed on a host with the API');
+    else check(a.fail && !a.done && a.mail, 'enterprise form without delivery says so and offers the e-mail fallback instead of a fake confirmation (' + a.fail + ')');
     await p.goto(B + '/mentors/apply', { waitUntil: 'load' }); await p.waitForTimeout(1200);
     await p.evaluate(() => { document.getElementById('applyForm').scrollIntoView(); });
     a = await p.evaluate(() => ({ note: (document.getElementById('apiNote') || {}).textContent || '', req: document.querySelectorAll('#applyForm [required]').length }));
-    check(/not|belum|yet|e-mail|email/i.test(a.note) && a.req >= 4, 'mentor application states the honest delivery status (' + a.note.slice(0, 70) + ')');
+    check(a.req >= 4 && (hasApi || /not|belum|yet|e-mail|email/i.test(a.note)), hasApi ? 'mentor application form is ready on a host with the API' : 'mentor application states the honest delivery status (' + a.note.slice(0, 70) + ')');
     await p.fill('#name', 'QA Tester'); await p.fill('#email', 'qa@example.com'); await p.fill('#linkedin', 'https://www.linkedin.com/in/qa'); await p.fill('#expertise', 'Operations');
     await p.evaluate(() => { const y = document.getElementById('years'); if (y.tagName === 'SELECT') y.selectedIndex = 1; else y.value = '8'; const l = document.getElementById('languages'); if (l) { if (l.tagName === 'SELECT') l.selectedIndex = 1; else l.value = 'English, Bahasa'; } const av = document.getElementById('availability'); if (av && av.tagName === 'SELECT') av.selectedIndex = 1; const m = document.getElementById('motivation'); if (m) m.value = 'Because it matters, and I have time to give back every month.'; const t = document.getElementById('terms'); if (t) t.checked = true; const r = document.getElementById('role'); if (r && r.tagName === 'SELECT') r.selectedIndex = 1; else if (r) r.value = 'Head of Operations'; });
     await p.click('#applyForm button[type=submit]'); await p.waitForTimeout(1800);
     a = await p.evaluate(() => ({ ok: !!document.querySelector('#successVeil.show, #successVeil.on, .cform-done'), fallback: !!document.getElementById('mailFallback') && getComputedStyle(document.getElementById('mailFallback')).display !== 'none', err: (document.getElementById('formErr') || {}).textContent || '', fbText: (document.getElementById('mailFallback') || {}).textContent || '' }));
-    check(!a.ok && (a.fallback || /e-mail|email|hello@/i.test(a.err + a.fbText)), 'mentor application without the API shows failure with an e-mail fallback, never a fake confirmation (' + (a.err || a.fbText).slice(0, 80) + ')');
+    if (hasApi) check(a.ok, 'mentor application is stored and confirmed on a host with the API (' + a.err.slice(0, 60) + ')');
+    else check(!a.ok && (a.fallback || /e-mail|email|hello@/i.test(a.err + a.fbText)), 'mentor application without the API shows failure with an e-mail fallback, never a fake confirmation (' + (a.err || a.fbText).slice(0, 80) + ')');
     await p.goto(B + '/pricing', { waitUntil: 'load' }); await p.waitForTimeout(800);
     a = await p.evaluate(() => { const f = document.querySelector('form.sf-form'); return { has: !!f, on: f ? (f.getAttribute('onsubmit') || '') : '', wired: f ? !!f.__mtWired : false }; });
-    check(a.has && /mailto:/.test(a.on) && !a.wired, 'newsletter form keeps its mailto fallback on a host without the API');
+    if (hasApi) check(a.has && a.wired, 'newsletter form is wired to the API on a host that has it');
+    else check(a.has && /mailto:/.test(a.on) && !a.wired, 'newsletter form keeps its mailto fallback on a host without the API');
     /* ── help FAQ, Mind Palace, Range directory ── */
     await p.goto(B + '/help', { waitUntil: 'load' }); await p.waitForTimeout(500);
     a = await p.evaluate(() => { const q = document.querySelector('.faq-q'); q.click(); return q.parentElement.classList.contains('open'); });
@@ -205,4 +218,5 @@ const head = (u) => new Promise(r => { http.get(B + u, res => { r(res.statusCode
   }
   await br.close();
   console.log('RESULT ' + (fail ? 'some failed' : 'all passed') + ' (' + pass + ' pass, ' + fail + ' fail)');
+  if (fail) process.exitCode = 1;
 })().catch(e => { console.error(e); process.exit(1); });

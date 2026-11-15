@@ -154,6 +154,10 @@ Admin (`/admin/`, Access panel, or the API): `GET /api/admin/users?founding=1` i
 - **Owner digest**: `server/lib/digest.js`. The aggregation Worker sends it on Mondays at 00:30 UTC (07:30 WIB) to `LEADS_NOTIFY_TO` (set in `workers/aggregate/wrangler.toml`), once per ISO week, logged in `mail_log` as `owner-digest`. `GET /api/admin/digest` previews it, `POST /api/admin/digest` sends it now (audited), and the Worker accepts `?job=digest[&force=1]` with the admin token. It uses about four of the 3,000 free monthly e-mails.
 - **Export libraries**: html2canvas 1.4.1 and jsPDF 2.5.1 (both MIT) live in `prototype/js/vendor/` and are fetched only when a visitor downloads the Career Map report. No page loads a script from another host any more, so `cdnjs.cloudflare.com` is gone from the `script-src` policy in `_headers`.
 
+### End-to-end tests in CI (2026-11-15)
+
+`.github/workflows/e2e.yml` runs on every pull request: it builds the site, starts `wrangler pages dev` with a throwaway local D1 (all migrations applied) and runs `scripts/qa/api.js`, `member.js`, the strict crawl and the public journeys. It uses no secret and never touches production. See `scripts/qa/README.md`.
+
 ### Static performance layer (Tier 1 stage 6)
 
 - **Registry split**: `scripts/build-site.py` writes `data/lms/<slug>/index.js` (the registry with every lesson reduced to its light fields) and `data/lms/<slug>/lessons/<n>.json` per lesson; both are build outputs (gitignored). The product pages load the index; `js/lms-player.js` fetches a lesson on open (`?v=<registry hash>`), prefetches neighbours, and still accepts a full registry without the `__lazy` marker. The authored registries `data/lms/<slug>.js` stay the only content source.
