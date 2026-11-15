@@ -468,12 +468,18 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .hp-edge-l{left:0;border-left:0;border-radius:0 999px 999px 0;padding-left:22px}
   .hp-edge:hover{border-color:#E8C766;color:#E8C766}
   .hp-edge-r:hover{transform:translate(-4px,-50%)}.hp-edge-l:hover{transform:translate(4px,-50%)}
+  /* desktop: the edge buttons share the pager's row at the foot of the pane, clear of the altitude rail on the right */
+  body:not(.m) .hp-edge{top:auto;bottom:112px;transform:none}
+  body:not(.m) .hp-edge-r:hover{transform:translateX(-4px)}body:not(.m) .hp-edge-l:hover{transform:translateX(4px)}
+  @media (min-width:761px) and (max-height:780px){body:not(.m) .hp-edge{bottom:96px}}
   #hpanes[data-cur="1"]~.hp-edge-r,#hpanes:not([data-cur="1"])~.hp-edge-l{opacity:0;pointer-events:none;visibility:hidden}
   /* while the results overlay is open the hero chrome recedes so nothing competes with it */
   .hpager,.hp-edge,#expNav{transition:opacity .25s ease}
   body.dsc-open .hpager,body.dsc-open .hp-edge,body.dsc-open #expNav{opacity:0 !important;pointer-events:none !important}
   @media(prefers-reduced-motion:no-preference){.hp-edge-r{animation:hpNudge 2.8s ease-in-out 2s 3}}
   @keyframes hpNudge{0%,100%{transform:translateY(-50%)}50%{transform:translate(-6px,-50%)}}
+  @keyframes hpNudgeRow{0%,100%{transform:none}50%{transform:translateX(-6px)}}
+  @media(prefers-reduced-motion:no-preference){body:not(.m) .hp-edge-r{animation-name:hpNudgeRow}}
   @media(max-width:760px){
     body.m .hpanes{position:relative;inset:auto;width:100%;pointer-events:auto}
     body.m .hpane{position:relative;inset:auto;transform:none !important;opacity:1;visibility:visible;transition:none}
@@ -651,6 +657,23 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   @media(max-width:1180px){.prep2{grid-template-columns:1fr}.steprail{display:none}
     #prep .content.prep2{grid-template-columns:minmax(0,1fr);grid-template-areas:"main" "cards"}}
   @media(min-width:761px) and (max-height:848px){.pcc-img{aspect-ratio:16/6}}
+  /* 14-inch laptops at 125 percent display scaling (about 1536 by 700 CSS pixels) and smaller windows:
+     the opening pane scales with the height as well as the width, so the brand, headline, subhead and
+     call to action land in one screen with the pane pills and the chapter bar clear below them */
+  @media (min-width:761px) and (max-height:780px){
+    body.flow:not(.m) #call .hpane[data-pane="0"] .content{padding-top:calc(76px + 1vh);padding-bottom:164px}
+    body:not(.m) #call .brand{margin-bottom:clamp(10px,1.8vh,16px);gap:14px}
+    body:not(.m) #call .brand .glyph{width:clamp(38px,6vh,48px) !important}
+    body:not(.m) #call .brand .lbar{height:clamp(30px,5.4vh,42px)}
+    body:not(.m) #call .brand .mark{font-size:clamp(1.05rem,min(2.2vw,3.2vh),1.6rem)}
+    body:not(.m) #call .brand .labs{margin-top:5px;font-size:clamp(.58rem,1.1vh,.78rem)}
+    body:not(.m) #call .whisper{font-size:clamp(.9rem,min(1.6vw,2.2vh),1.1rem);margin-bottom:clamp(6px,1.4vh,12px);line-height:1.35}
+    body:not(.m) #call h1{font-size:clamp(1.7rem,min(4.1vw,6.6vh),3.2rem);line-height:1.04}
+    body:not(.m) #call .sub{margin-top:clamp(8px,1.8vh,14px);font-size:clamp(.88rem,min(1.35vw,2vh),1rem);line-height:1.55;max-width:30em}
+    body:not(.m) #call .cta{margin-top:clamp(12px,2.2vh,18px);padding:12px 22px;font-size:14px}
+    .hpager{bottom:96px}
+    body.flow:not(.m) #call .hpane[data-pane="0"] .content{padding-bottom:150px}
+  }
   
 
   /* ── Chapter II · reference composition (shares the chapter-rail system) ── */
@@ -1184,6 +1207,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
      hero lands in one screen and headings keep editorial balance. */
   @media (min-width:761px) and (max-height:950px){
     body.flow:not(.m) .content{padding-top:88px;padding-bottom:96px}
+    /* the opening pane carries two overlays at its foot (the pane pills at 112px, the chapter bar at 22px):
+       the column must end above them, and start below the fixed header */
+    body.flow:not(.m) #call .hpane[data-pane="0"] .content{padding-top:calc(84px + 1vh);padding-bottom:176px}
     .brand{margin-bottom:22px;gap:16px}
     .brand .glyph{width:clamp(44px,5vw,56px) !important}
     .brand .lbar{height:clamp(36px,4.6vw,48px)}
