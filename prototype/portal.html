@@ -36,7 +36,7 @@
 <title>Portal · Metanoia Labs</title>
 <meta name="description" content="Your Metanoia Labs portal, the authenticated hub for The Compass and all five career products.">
 <link rel="canonical" href="https://metanoialabs.net/portal">
-<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/portal">
 <meta property="og:title" content="Portal · Metanoia Labs">
 <meta property="og:description" content="The door to your career navigation system. The Compass and all five Metanoia products, one hub.">
@@ -157,7 +157,7 @@
   --text:       #FFFFFF;
   --text-sub:   rgba(255,255,255,0.82);
   --text-muted: rgba(255,255,255,0.55);
-  --text-faint: rgba(255,255,255,0.30);
+  --text-faint: rgba(255,255,255,.50);
 
   /* Semantic */
   --red:    #DC2626;
@@ -1398,6 +1398,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
   <span class="portal-footer-copy">© 2026 Metanoia Labs</span>
   <nav class="portal-footer-links" aria-label="Footer links">
     <a href="help"     class="portal-footer-link" data-en="Help" data-id="Bantuan">Help</a>
+    <button type="button" class="portal-footer-link" style="background:none;border:0;padding:0;font-family:inherit;line-height:inherit;cursor:pointer" data-install-app hidden data-en="Install app" data-id="Pasang aplikasi">Install app</button>
+    <button type="button" class="portal-footer-link" style="background:none;border:0;padding:0;font-family:inherit;line-height:inherit;cursor:pointer" data-feedback-open data-en="Feedback" data-id="Masukan">Feedback</button>
     <a href="settings" class="portal-footer-link" data-en="Settings" data-id="Pengaturan">Settings</a>
     <a href="help#privacy" class="portal-footer-link" data-en="Privacy" data-id="Privasi">Privacy</a>
     <a href="login" class="portal-footer-link" id="signout-link" data-en="Sign Out" data-id="Keluar">Sign Out</a>
@@ -2093,5 +2095,7 @@ maybeOnboard();
 <script src="js/mt-api.js"></script>
 <script src="js/mt-auth.js"></script>
 <script src="js/mt-progress.js"></script>
+<script src="js/mt-feedback.js" data-launcher="off" defer></script>
+<script src="js/mt-install.js" defer></script>
 </body>
 </html>

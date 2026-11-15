@@ -1,0 +1,25 @@
+{
+  "name": "Metanoia Labs",
+  "short_name": "Metanoia",
+  "description": "Career readiness for students and professionals: direction, applications, interviews and a plan you can track.",
+  "id": "/",
+  "start_url": "/portal?source=app",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#050A12",
+  "theme_color": "#050A12",
+  "lang": "en",
+  "categories": ["education", "productivity", "business"],
+  "icons": [
+    { "src": "/assets/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Portal", "url": "/portal?source=app-shortcut", "icons": [{ "src": "/assets/favicon-192.png", "sizes": "192x192" }] },
+    { "name": "Career Map", "url": "/career-map-assessment?source=app-shortcut", "icons": [{ "src": "/assets/favicon-192.png", "sizes": "192x192" }] },
+    { "name": "The Compass", "url": "/products/the-compass/?source=app-shortcut", "icons": [{ "src": "/assets/favicon-192.png", "sizes": "192x192" }] }
+  ]
+}

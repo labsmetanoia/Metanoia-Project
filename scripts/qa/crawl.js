@@ -1,7 +1,7 @@
 /* Crawl every public page on desktop and phone: console errors, page errors, failed requests, broken images,
    horizontal overflow, empty title. PAGES env overrides the list; LANG env (en|id). */
-const { chromium } = require('playwright-core');
-const B = 'http://localhost:8940';
+const { chromium } = (() => { try { return require('playwright-core'); } catch (e) { return require('playwright'); } })();
+const B = process.env.BASE || 'http://localhost:8940';
 const PAGES = (process.env.PAGES ? process.env.PAGES.split(',') : [
   '/', '/landing', '/pricing', '/help', '/career-map-assessment', '/login', '/register', '/portal', '/purchases', '/settings', '/demo',
   '/legal/privacy', '/legal/terms', '/legal/data-dignity', '/mentors/apply', '/admin/',
@@ -14,9 +14,9 @@ const PAGES = (process.env.PAGES ? process.env.PAGES.split(',') : [
 ]);
 const LANG = process.env.LANG_ || 'en';
 (async () => {
-  const br = await chromium.launch({ executablePath: process.env.CHROME || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const br = await chromium.launch({ executablePath: process.env.CHROME || (require('fs').existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined) });
   const out = [];
-  for (const vp of [{ w: 1366, h: 860, tag: 'desk' }, { w: 390, h: 844, tag: 'phone' }]) {
+  for (const vp of [{ w: 1366, h: 860, tag: 'desk' }, { w: 820, h: 1180, tag: 'tablet' }, { w: 390, h: 844, tag: 'phone' }]) {
     const ctx = await br.newContext({ viewport: { width: vp.w, height: vp.h }, isMobile: vp.tag === 'phone', hasTouch: vp.tag === 'phone', deviceScaleFactor: 1 });
     await ctx.addInitScript((a) => { localStorage.setItem('mtLang', a.L); localStorage.setItem('mt-lang', a.L); localStorage.setItem('mt-theme', a.T); if (a.G) { sessionStorage.setItem('metanoia_auth', 'true'); sessionStorage.setItem('metanoia_guest', 'true'); } }, { L: LANG, G: !!process.env.GUEST, T: process.env.THEME || 'dark' });
     for (const u of PAGES) {

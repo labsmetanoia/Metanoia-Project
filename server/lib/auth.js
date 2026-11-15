@@ -34,12 +34,20 @@ export async function findOrCreateByEmail(env, { email, name, locale = 'en', met
   /* a deletion request blocks sign-in until the cancel link is used or the purge has run */
   if (u.deletion_requested_at) return { user: null, created: false, pending: true };
   const sets = ['last_login_at = ?'], args = [now];
-  if (verified && !u.email_verified_at) { sets.push('email_verified_at = ?'); args.push(now); }
+  /* Pre-hijack guard: an account opened with a password on an address nobody proved may have been opened by
+     someone else. The first proven sign-in (magic link, OAuth) makes it the mailbox owner's: the unproven
+     password stops working and every earlier session ends. The owner can set a password again in Settings. */
+  let claimed = false;
+  if (verified && !u.email_verified_at) {
+    sets.push('email_verified_at = ?'); args.push(now);
+    if (u.pw_hash) { sets.push("pw_hash = ''"); claimed = true; }
+  }
   if (admin && u.role !== 'admin') { sets.push('role = ?'); args.push('admin'); }
   args.push(u.id);
   await env.DB.prepare(`UPDATE users SET ${sets.join(', ')} WHERE id = ?`).bind(...args).run();
+  if (claimed) await env.DB.prepare('DELETE FROM sessions WHERE user_id = ?').bind(u.id).run();
   u = await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(u.id).first();
-  return { user: u, created: false };
+  return { user: u, created: false, claimed };
 }
 
 /* ── sessions list and revoke (settings page) ── */

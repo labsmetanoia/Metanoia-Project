@@ -79,11 +79,27 @@
         <button class="ghost" id="acGrantFounding">Grant to every founding member</button>
       </div>
     </details>
+    <details class="access" id="feedback">
+      <summary><b>Feedback</b> <span class="muted" id="fbSummary">what members and visitors sent from the Feedback button</span></summary>
+      <div class="bar" style="margin-top:10px">
+        <select id="fbStatus"><option value="">All statuses</option><option>new</option><option>reviewing</option><option>planned</option><option>done</option><option>declined</option></select>
+        <select id="fbKind"><option value="">All kinds</option><option value="bug">Something is broken</option><option value="idea">Idea</option><option value="content">Content</option><option value="praise">Praise</option><option value="other">Other</option></select>
+        <input type="search" id="fbQ" placeholder="Search message, page, sender">
+        <button class="ghost" id="fbLoad">Filter</button>
+        <span class="muted" id="fbCount"></span>
+      </div>
+      <div id="fbRows"></div>
+    </details>
+    <details class="access" id="audit">
+      <summary><b>Audit trail</b> <span class="muted">who granted, revoked, changed or exported what</span></summary>
+      <div id="auRows" style="margin-top:10px"></div>
+    </details>
     <div class="bar">
       <select id="kind"><option value="">All kinds</option><option value="mentor">Mentor applications</option><option value="enterprise">Enterprise inquiries</option><option value="newsletter">Newsletter</option><option value="waitlist">Waitlist</option><option value="results">Career Map results</option></select>
       <select id="status"><option value="">All statuses</option><option>new</option><option>reviewing</option><option>accepted</option><option>declined</option><option>contacted</option><option>archived</option><option>confirmed</option><option>unsubscribed</option></select>
       <input type="search" id="q" placeholder="Search name, e-mail, text">
       <button class="ghost" id="apply">Filter</button>
+      <button class="ghost" id="leadsCsv" title="The list as filtered by kind and status, as a CSV file">Download CSV</button>
       <span class="muted" id="count"></span>
     </div>
     <table><thead><tr><th>When</th><th>Kind</th><th>Who</th><th>Submission</th><th>Status · notes</th></tr></thead><tbody id="rows"></tbody></table>
@@ -185,7 +201,7 @@
   }
   function csvOf(users) {
     var cols = ['email', 'name', 'audience', 'locale', 'founding', 'email_verified', 'marketing_opt_in', 'created_at', 'last_login_at'];
-    var q = function (v) { v = v == null ? '' : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+    var q = function (v) { v = v == null ? '' : String(v); if (/^[=+\-@\t\r]/.test(v)) v = "'" + v; return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
     return cols.join(',') + '\n' + users.map(function (u) { return cols.map(function (c) { return q(u[c]); }).join(','); }).join('\n') + '\n';
   }
   $('acFind').addEventListener('click', findMember);
@@ -211,6 +227,51 @@
     });
   });
 
+  /* ── feedback inbox ── */
+  var FB_ST = ['new', 'reviewing', 'planned', 'done', 'declined'], FB_LABEL = { bug: 'Broken', idea: 'Idea', content: 'Content', praise: 'Praise', other: 'Other' };
+  function loadFeedback() {
+    var qs = '?limit=200' + ($('fbStatus').value ? '&status=' + $('fbStatus').value : '') + ($('fbKind').value ? '&kind=' + $('fbKind').value : '') + ($('fbQ').value.trim() ? '&q=' + encodeURIComponent($('fbQ').value.trim()) : '');
+    api('GET', '/feedback' + qs).then(function (r) {
+      if (!r.ok) { $('fbRows').innerHTML = '<p class="err">' + esc((r.data && r.data.error) || ('HTTP ' + r.status)) + '</p>'; return; }
+      var d = r.data, list = d.feedback || [];
+      $('fbCount').textContent = list.length + ' shown' + (d.rating && d.rating.count ? ' · average rating ' + d.rating.average + ' of 5 from ' + d.rating.count : '') + (d.pending_migration ? ' · migration 0007 has not run yet' : '');
+      if (!list.length) { $('fbRows').innerHTML = '<p class="muted" style="font-size:13px">Nothing here yet.</p>'; return; }
+      $('fbRows').innerHTML = '<table><thead><tr><th>When</th><th>Kind</th><th>From</th><th>Message</th><th>Status · notes</th></tr></thead><tbody>' + list.map(function (f) {
+        return '<tr><td>' + esc(fmt(f.created_at)) + '</td><td>' + esc(FB_LABEL[f.kind] || f.kind) + (f.rating ? '<br><span class="muted">' + f.rating + ' of 5</span>' : '') + '</td>' +
+          '<td>' + (f.from ? esc(f.from) : '<span class="muted">anonymous</span>') + (f.member ? '<br><span class="muted">member' + (f.name ? ' · ' + esc(f.name) : '') + '</span>' : '<br><span class="muted">guest</span>') + '</td>' +
+          '<td style="white-space:pre-wrap">' + esc(f.message) + '<br><span class="muted">' + esc(f.page || '') + ' · ' + esc(f.locale || '') + ' · ' + esc((f.device || '').slice(0, 60)) + '</span></td>' +
+          '<td><select class="fbst" data-fb="' + esc(f.id) + '">' + FB_ST.map(function (x) { return '<option' + (x === f.status ? ' selected' : '') + '>' + x + '</option>'; }).join('') + '</select><br>' +
+          '<textarea class="notes fbnotes" data-fb="' + esc(f.id) + '" placeholder="notes">' + esc(f.notes || '') + '</textarea></td></tr>';
+      }).join('') + '</tbody></table>';
+      $('fbRows').querySelectorAll('select.fbst').forEach(function (x) { x.addEventListener('change', function () { api('PATCH', '/feedback/' + x.dataset.fb, { status: x.value }); }); });
+      $('fbRows').querySelectorAll('textarea.fbnotes').forEach(function (x) { x.addEventListener('blur', function () { api('PATCH', '/feedback/' + x.dataset.fb, { notes: x.value }); }); });
+    });
+  }
+  $('fbLoad').addEventListener('click', loadFeedback);
+  $('fbQ').addEventListener('keydown', function (e) { if (e.key === 'Enter') loadFeedback(); });
+  $('feedback').addEventListener('toggle', function () { if ($('feedback').open) loadFeedback(); });
+
+  /* ── audit trail ── */
+  function loadAudit() {
+    api('GET', '/audit?limit=200').then(function (r) {
+      if (!r.ok) { $('auRows').innerHTML = '<p class="err">' + esc((r.data && r.data.error) || ('HTTP ' + r.status)) + '</p>'; return; }
+      var list = r.data.audit || [];
+      $('auRows').innerHTML = list.length ? '<table><thead><tr><th>When</th><th>Who</th><th>Action</th><th>Target</th><th>Detail</th></tr></thead><tbody>' + list.map(function (a) {
+        return '<tr><td>' + esc(fmt(a.ts)) + '</td><td>' + esc(a.actor) + '</td><td>' + esc(a.action) + '</td><td>' + esc(a.target || '') + '</td><td class="muted">' + esc(a.detail ? JSON.stringify(a.detail) : '') + '</td></tr>';
+      }).join('') + '</tbody></table>' : '<p class="muted" style="font-size:13px">' + (r.data.pending_migration ? 'Migration 0007 has not run yet.' : 'No admin actions recorded yet.') + '</p>';
+    });
+  }
+  $('audit').addEventListener('toggle', function () { if ($('audit').open) loadAudit(); });
+
+  /* ── the lead list as a file (the server builds it, so the export is in the audit trail) ── */
+  $('leadsCsv').addEventListener('click', function () {
+    var qs = '?' + ($('kind').value ? 'kind=' + $('kind').value + '&' : '') + ($('status').value ? 'status=' + $('status').value + '&' : '') + ($('q').value.trim() ? 'q=' + encodeURIComponent($('q').value.trim()) : '');
+    var init = { headers: {}, credentials: 'same-origin' }; if (token) init.headers.authorization = 'Bearer ' + token;
+    fetch('/api/admin/leads.csv' + qs, init).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.blob(); }).then(function (blob) {
+      var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'metanoia-leads' + ($('kind').value ? '-' + $('kind').value : '') + '.csv'; document.body.appendChild(a); a.click(); a.remove();
+    }).catch(function (e) { $('appErr').textContent = 'Export failed: ' + e.message; });
+  });
+
   function load() {
     var qs = [];
     if ($('kind').value) qs.push('kind=' + encodeURIComponent($('kind').value));
@@ -226,8 +287,9 @@
       var d = r.data, by = {};
       (d.leads || []).forEach(function (x) { by[x.kind] = (by[x.kind] || 0) + x.n; });
       var newCount = (d.leads || []).filter(function (x) { return x.status === 'new'; }).reduce(function (a, x) { return a + x.n; }, 0);
+      if (typeof d.feedback_new === 'number') $('fbSummary').textContent = d.feedback_new ? d.feedback_new + ' new' : 'nothing new';
       if (d.access) $('acSummary').textContent = 'mode ' + d.access.mode + (d.access.beta_ends_at ? ' · beta ends ' + d.access.beta_ends_at : '') + ' · ' + d.access.founding_members + ' founding · ' + d.access.active_grants + ' active grants' + (d.access.pending_deletions ? ' · ' + d.access.pending_deletions + ' deletion pending' : '');
-      $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Waitlist', by.waitlist || 0], ['Results', by.results || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0]]
+      $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Waitlist', by.waitlist || 0], ['Results', by.results || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0], ['New feedback', d.feedback_new || 0]]
         .map(function (p) { return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>'; }).join('');
     });
   }

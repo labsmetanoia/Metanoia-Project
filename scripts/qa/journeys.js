@@ -1,13 +1,13 @@
 /* User-journey audit: navigation, search, theme/lang persistence, auth honest states, forms, directory filters,
    Mind Palace, assessment, help, portal/settings, every LMS lesson in every product, Compass. Reports PASS/FAIL/INFO. */
-const { chromium } = require('playwright-core');
+const { chromium } = (() => { try { return require('playwright-core'); } catch (e) { return require('playwright'); } })();
 const http = require('http');
-const B = 'http://localhost:8940';
+const B = process.env.BASE || 'http://localhost:8940';
 let pass = 0, fail = 0; const check = (ok, msg) => { console.log((ok ? 'PASS ' : 'FAIL ') + msg); ok ? pass++ : fail++; };
 const info = (m) => console.log('INFO ' + m);
 const head = (u) => new Promise(r => { http.get(B + u, res => { r(res.statusCode); res.resume(); }).on('error', () => r(0)); });
 (async () => {
-  const br = await chromium.launch({ executablePath: process.env.CHROME || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const br = await chromium.launch({ executablePath: process.env.CHROME || (require('fs').existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined) });
   const mk = async (opts) => { const ctx = await br.newContext(Object.assign({ viewport: { width: 1366, height: 860 } }, opts || {})); await ctx.addInitScript(() => { if (!localStorage.getItem('mtLang')) { localStorage.setItem('mtLang', 'en'); localStorage.setItem('mt-lang', 'en'); } if (!localStorage.getItem('mt-theme')) localStorage.setItem('mt-theme', 'dark'); }); const p = await ctx.newPage(); p.errs = []; p.on('pageerror', e => p.errs.push(e.message.slice(0, 120))); return p; };
   const ONLY = process.env.ONLY || '';
   if (!ONLY || ONLY === 'A') {
