@@ -35,18 +35,18 @@
     { id: 'direction', icon: 'compass', items: [0], label: { en: 'Find direction', id: 'Temukan arah' },
       title: { en: 'Start with who you are', id: 'Mulai dari siapa dirimu' },
       points: [{ en: 'Know your strengths, values and direction before you apply', id: 'Kenali kekuatan, nilai, dan arahmu sebelum melamar' },
-               { en: 'A structured self-discovery journey, not a quiz', id: 'Perjalanan penemuan diri yang terstruktur, bukan sekadar kuis' },
-               { en: 'Sets the target every other product works towards', id: 'Menetapkan target yang dituju semua produk lainnya' }] },
-    { id: 'hired', icon: 'brief', items: [1, 2], label: { en: 'Get hired', id: 'Dapatkan pekerjaan' },
-      title: { en: 'Everything between you and the offer', id: 'Semua yang ada di antara kamu dan tawaran' },
+               { en: 'A structured self-discovery journey, not a quiz', id: 'Proses mengenal diri yang terstruktur, bukan sekadar kuis' },
+               { en: 'Sets the target every other product works towards', id: 'Menetapkan tujuan yang menjadi arah semua produk lain' }] },
+    { id: 'hired', icon: 'brief', items: [1, 2], label: { en: 'Get hired', id: 'Dapat kerja' },
+      title: { en: 'Everything between you and the offer', id: 'Semua tahap antara kamu dan tawaran kerja' },
       points: [{ en: 'Application toolkit: CV, ATS, tests and simulations', id: 'Perangkat lamaran: CV, ATS, tes, dan simulasi' },
-               { en: 'Interview mastery from first screen to final round', id: 'Penguasaan wawancara dari seleksi awal hingga babak akhir' },
-               { en: 'Practise with feedback before it counts', id: 'Berlatih dengan umpan balik sebelum saatnya tiba' }] },
-    { id: 'grow', icon: 'trend', items: [3, 4], label: { en: 'Grow & track', id: 'Bertumbuh & pantau' },
-      title: { en: 'Keep climbing after the offer', id: 'Terus mendaki setelah tawaran' },
-      points: [{ en: 'Scholarships, programmes and the next step, planned', id: 'Beasiswa, program, dan langkah berikutnya, terencana' },
+               { en: 'Interview mastery from first screen to final round', id: 'Kuasai wawancara dari seleksi awal hingga tahap akhir' },
+               { en: 'Practise with feedback before it counts', id: 'Berlatih dengan umpan balik sebelum hari penentuan' }] },
+    { id: 'grow', icon: 'trend', items: [3, 4], label: { en: 'Grow & track', id: 'Berkembang & pantau' },
+      title: { en: 'Keep climbing after the offer', id: 'Terus mendaki setelah diterima kerja' },
+      points: [{ en: 'Scholarships, programmes and the next step, planned', id: 'Beasiswa, program, dan langkah berikutnya, semuanya terencana' },
                { en: 'Habits, reminders and progress in one place', id: 'Kebiasaan, pengingat, dan kemajuan di satu tempat' },
-               { en: 'Your whole journey tracked, not just the job hunt', id: 'Seluruh perjalananmu terpantau, bukan hanya pencarian kerja' }] }
+               { en: 'Your whole journey tracked, not just the job hunt', id: 'Seluruh perjalananmu terpantau, bukan hanya saat mencari kerja' }] }
   ];
   var CONFIG = {
     student: { folders: PRODUCT_FOLDERS, price: true },
@@ -54,54 +54,54 @@
     'early-professional': { folders: PRODUCT_FOLDERS, price: true },
     'mature-professional': { price: true, folders: [
       { id: 'assess', icon: 'compass', items: [0], label: { en: 'Assess', id: 'Asesmen' },
-        title: { en: 'Measure your leadership first', id: 'Ukur kepemimpinan Anda lebih dulu' },
-        points: [{ en: 'Leadership assessment against your next level', id: 'Asesmen kepemimpinan terhadap level berikutnya' },
-                 { en: 'A gap analysis you can act on this quarter', id: 'Analisis kesenjangan yang bisa ditindaklanjuti kuartal ini' },
-                 { en: 'The baseline every other program builds on', id: 'Titik awal yang menjadi dasar program lainnya' }] },
+        title: { en: 'Measure your leadership first', id: 'Ukur dulu kepemimpinanmu' },
+        points: [{ en: 'Leadership assessment against your next level', id: 'Asesmen kepemimpinan terhadap jenjang berikutnya' },
+                 { en: 'A gap analysis you can act on this quarter', id: 'Analisis kesenjangan yang bisa langsung ditindaklanjuti kuartal ini' },
+                 { en: 'The baseline every other program builds on', id: 'Titik awal yang menjadi pijakan semua program lain' }] },
       { id: 'advance', icon: 'brief', items: [1, 2], label: { en: 'Advance', id: 'Melaju' },
-        title: { en: 'Presence and positioning for the next role', id: 'Kehadiran dan posisi untuk peran berikutnya' },
-        points: [{ en: 'Executive presence: the difference between director and VP', id: 'Kehadiran eksekutif: perbedaan antara direktur dan VP' },
-                 { en: 'Strategic repositioning that redeploys your platform', id: 'Reposisi strategis yang memanfaatkan platform Anda' },
-                 { en: 'Built for senior conversations, not entry-level ones', id: 'Dirancang untuk percakapan senior, bukan level pemula' }] },
-      { id: 'plan', icon: 'trend', items: [3, 4], label: { en: 'Plan & track', id: 'Rencana & pantau' },
-        title: { en: 'The second chapter, on a five-year arc', id: 'Babak kedua, dalam lengkung lima tahun' },
-        points: [{ en: 'Scholarships and executive education, timed right', id: 'Beasiswa dan pendidikan eksekutif pada waktu yang tepat' },
+        title: { en: 'Presence and positioning for the next role', id: 'Wibawa dan positioning untuk peran berikutnya' },
+        points: [{ en: 'Executive presence: the difference between director and VP', id: 'Wibawa eksekutif: yang membedakan direktur dari VP' },
+                 { en: 'Strategic repositioning that redeploys your platform', id: 'Reposisi strategis yang memanfaatkan pijakan yang sudah kamu punya' },
+                 { en: 'Built for senior conversations, not entry-level ones', id: 'Dirancang untuk percakapan tingkat senior, bukan tingkat pemula' }] },
+      { id: 'plan', icon: 'trend', items: [3, 4], label: { en: 'Plan & track', id: 'Rencanakan & pantau' },
+        title: { en: 'The second chapter, on a five-year arc', id: 'Babak kedua, dalam rancangan lima tahun' },
+        points: [{ en: 'Scholarships and executive education, timed right', id: 'Beasiswa dan pendidikan eksekutif, di waktu yang tepat' },
                  { en: 'Every commitment tracked across the years', id: 'Setiap komitmen terpantau dari tahun ke tahun' },
-                 { en: 'One place for the whole plan, not scattered notes', id: 'Satu tempat untuk seluruh rencana, bukan catatan tercecer' }] }
+                 { en: 'One place for the whole plan, not scattered notes', id: 'Satu tempat untuk seluruh rencana, bukan catatan yang tercecer' }] }
     ] },
-    enterprise: { price: false, short: [{ en: 'Scholarships', id: 'Beasiswa' }, { en: 'Cohorts', id: 'Kohort' }, { en: 'Academy', id: 'Akademi' }, { en: 'Intelligence', id: 'Inteligensi' }, { en: 'Mentorship', id: 'Mentorship' }], folders: [
+    enterprise: { price: false, short: [{ en: 'Scholarships', id: 'Beasiswa' }, { en: 'Cohorts', id: 'Angkatan' }, { en: 'Academy', id: 'Akademi' }, { en: 'Intelligence', id: 'Wawasan Pasar' }, { en: 'Mentorship', id: 'Mentorship' }], folders: [
       { id: 'campus', icon: 'cap', items: [0, 3], label: { en: 'Campus & talent', id: 'Kampus & talenta' },
-        title: { en: 'Reach the talent pool early', id: 'Jangkau kumpulan talenta lebih awal' },
-        points: [{ en: 'Sponsor memberships at the universities you recruit from', id: 'Sponsori keanggotaan di universitas tempat Anda merekrut' },
-                 { en: 'Aggregate readiness intelligence, never individual profiles', id: 'Inteligensi kesiapan agregat, bukan profil perorangan' },
+        title: { en: 'Reach the talent pool early', id: 'Jangkau calon talenta lebih awal' },
+        points: [{ en: 'Sponsor memberships at the universities you recruit from', id: 'Sponsori keanggotaan di kampus tempat Anda merekrut' },
+                 { en: 'Aggregate readiness intelligence, never individual profiles', id: 'Wawasan kesiapan dalam bentuk agregat, bukan profil perorangan' },
                  { en: 'Design your campus strategy on evidence', id: 'Rancang strategi kampus Anda berdasarkan bukti' }] },
-      { id: 'cohorts', icon: 'building', items: [1, 2], label: { en: 'Cohorts & academy', id: 'Kohort & akademi' },
+      { id: 'cohorts', icon: 'building', items: [1, 2], label: { en: 'Cohorts & academy', id: 'Angkatan & akademi' },
         title: { en: 'Develop the people you already hired', id: 'Kembangkan orang-orang yang sudah Anda rekrut' },
-        points: [{ en: 'Bulk licences for trainee and new-graduate cohorts', id: 'Lisensi massal untuk kohort trainee dan lulusan baru' },
-                 { en: 'A company-branded academy on your competency framework', id: 'Akademi berlogo perusahaan di atas kerangka kompetensi Anda' },
+        points: [{ en: 'Bulk licences for trainee and new-graduate cohorts', id: 'Lisensi kolektif untuk angkatan trainee dan lulusan baru' },
+                 { en: 'A company-branded academy on your competency framework', id: 'Akademi berlogo perusahaan, disusun di atas kerangka kompetensi Anda' },
                  { en: 'Progress dashboards and readiness reports for HR', id: 'Dasbor kemajuan dan laporan kesiapan untuk HR' }] },
       { id: 'leaders', icon: 'people', items: [4], label: { en: 'Leadership', id: 'Kepemimpinan' },
-        title: { en: 'Put your leaders in the room', id: 'Hadirkan pemimpin Anda di ruangan' },
+        title: { en: 'Put your leaders in the room', id: 'Hadirkan para pemimpin Anda di ruangan' },
         points: [{ en: 'Senior leaders join as registered mentors', id: 'Pemimpin senior bergabung sebagai mentor terdaftar' },
-                 { en: 'Leadership brand and retention equity, together', id: 'Merek kepemimpinan dan ekuitas retensi, sekaligus' },
-                 { en: 'A structured program, not ad-hoc coffee chats', id: 'Program terstruktur, bukan obrolan kopi sesekali' }] }
+                 { en: 'Leadership brand and retention equity, together', id: 'Citra kepemimpinan dan loyalitas karyawan, sekaligus' },
+                 { en: 'A structured program, not ad-hoc coffee chats', id: 'Program terstruktur, bukan obrolan santai sesekali' }] }
     ] },
     mentors: { price: true, folders: [
       { id: 'start', icon: 'flag', items: [0, 4], label: { en: 'Get started', id: 'Mulai' },
-        title: { en: 'Onboard with confidence', id: 'Mulai dengan percaya diri' },
-        points: [{ en: 'Certification that sets you up, not guesswork', id: 'Sertifikasi yang menyiapkan Anda, bukan tebak-tebakan' },
-                 { en: 'A profile and portfolio that let your contribution speak', id: 'Profil dan portofolio yang membuat kontribusi Anda berbicara' },
-                 { en: 'Everything you need before the first session', id: 'Semua yang Anda butuhkan sebelum sesi pertama' }] },
+        title: { en: 'Onboard with confidence', id: 'Mulai dengan yakin' },
+        points: [{ en: 'Certification that sets you up, not guesswork', id: 'Sertifikasi yang membekalimu, bukan menebak-nebak' },
+                 { en: 'A profile and portfolio that let your contribution speak', id: 'Profil dan portofolio yang membiarkan kontribusimu berbicara' },
+                 { en: 'Everything you need before the first session', id: 'Semua yang kamu butuhkan sebelum sesi pertama' }] },
       { id: 'mentor', icon: 'people', items: [1, 2], label: { en: 'Mentor well', id: 'Membimbing' },
-        title: { en: 'Know who you meet and what to cover', id: 'Kenali siapa yang Anda temui dan apa yang dibahas' },
+        title: { en: 'Know who you meet and what to cover', id: 'Kenali siapa yang kamu temui dan apa yang perlu dibahas' },
         points: [{ en: 'Matching and a dashboard for every mentee', id: 'Pencocokan dan dasbor untuk setiap mentee' },
-                 { en: 'Session guides and frameworks that respect your time', id: 'Panduan sesi dan kerangka yang menghargai waktu Anda' },
-                 { en: 'Walk in knowing why each session matters', id: 'Masuk dengan tahu mengapa setiap sesi penting' }] },
+                 { en: 'Session guides and frameworks that respect your time', id: 'Panduan sesi dan kerangka yang menghargai waktumu' },
+                 { en: 'Walk in knowing why each session matters', id: 'Datang dengan tahu mengapa setiap sesi penting' }] },
       { id: 'community', icon: 'star', items: [3], label: { en: 'Community', id: 'Komunitas' },
-        title: { en: 'You are not mentoring alone', id: 'Anda tidak membimbing sendirian' },
-        points: [{ en: 'A peer network of mentors who share what works', id: 'Jaringan sesama mentor yang berbagi apa yang berhasil' },
-                 { en: 'Cohort gatherings and shared practice', id: 'Pertemuan kohort dan praktik bersama' },
-                 { en: 'Recognition for the contribution you make', id: 'Pengakuan atas kontribusi yang Anda berikan' }] }
+        title: { en: 'You are not mentoring alone', id: 'Kamu tidak menjadi mentor sendirian' },
+        points: [{ en: 'A peer network of mentors who share what works', id: 'Jaringan sesama mentor yang saling berbagi apa yang berhasil' },
+                 { en: 'Cohort gatherings and shared practice', id: 'Pertemuan angkatan dan berbagi praktik' },
+                 { en: 'Recognition for the contribution you make', id: 'Pengakuan atas kontribusi yang kamu berikan' }] }
     ] }
   };
   var cfg = CONFIG[page] || CONFIG.student;
@@ -177,7 +177,7 @@
 
   /* ── build ── */
   var root = el('section', 'fsu'); root.setAttribute('aria-label', lang() === 'id' ? 'Produk menurut folder' : 'Products by folder');
-  root.appendChild(bi('div', 'fsu-label', { en: 'Browse by folder', id: 'Jelajahi menurut folder' }));
+  root.appendChild(bi('div', 'fsu-label', { en: 'Browse by folder', id: 'Telusuri per folder' }));
   var tabs = el('div', 'fsu-tabs'); tabs.setAttribute('role', 'tablist');
   var panel = el('div', 'fsu-panel'); panel.setAttribute('role', 'tabpanel');
   var vp = el('div', 'fsu-vp'); var vpT = el('b'); var vpL = el('ul'); vp.appendChild(vpT); vp.appendChild(vpL);
@@ -231,7 +231,7 @@
     var det = el('div', 'fsu-detail'); det.hidden = true;
     c.descs.forEach(function (p) { det.appendChild(bi('p', null, p)); });
     if (c.edition) det.appendChild(bi('p', 'fsu-edition', c.edition));
-    if (c.feats.length) { det.appendChild(bi('div', 'fsu-k', { en: 'What is inside', id: 'Apa yang ada di dalamnya' })); var ul = el('ul'); c.feats.forEach(function (p) { ul.appendChild(bi('li', null, p)); }); det.appendChild(ul); }
+    if (c.feats.length) { det.appendChild(bi('div', 'fsu-k', { en: 'What is inside', id: 'Isinya' })); var ul = el('ul'); c.feats.forEach(function (p) { ul.appendChild(bi('li', null, p)); }); det.appendChild(ul); }
     if (c.mock) { det.appendChild(bi('div', 'fsu-k', { en: 'Snapshot', id: 'Cuplikan' })); det.appendChild(el('div', 'fsu-snap', c.mock)); }
     body.appendChild(det);
     more.addEventListener('click', function () { var on = det.hidden; det.hidden = !on; a.classList.toggle('open', on); more.setAttribute('aria-expanded', on ? 'true' : 'false'); if (on) scroll.scrollTo({ left: a.offsetLeft - 14, behavior: 'smooth' }); });
