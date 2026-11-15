@@ -302,3 +302,15 @@ nav .theme-btn:focus-visible{outline:none;box-shadow:var(--nv-ring)}
   .hero:has(video.mt-mfilm)::after,.student-hero:has(video.mt-mfilm)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;z-index:3;
     background:linear-gradient(90deg,transparent,rgba(232,199,102,.42) 30%,rgba(232,199,102,.42) 70%,transparent);pointer-events:none}
 }
+
+/* ── Touch targets (docs/20-platform-audit.md, A-15) ──
+   Every standalone control is at least 24 px tall and wide on any screen (WCAG 2.2 AA, 2.5.8).
+   Inline links get vertical padding, which widens the touch area without moving the line they sit on;
+   text-style buttons get a minimum height. Links inside a sentence are exempt by the criterion. */
+.sf-legal a,.sf-mail,.tb-wordmark,.foot a,.ms-link,a.card-a,.sw-head .more,.st-more,a.mail,.sub-h a{padding-block:3px}
+.crumb a,.tb-crumb a,.gold-link,.pmap-foot a,p.muted>a:only-child{padding-block:5px}
+.portal-footer-links .portal-footer-link{padding:4px 3px}
+.side-cta,.mfx-more,.desc-toggle,.pp-link,button.card-a,.tm-skip{min-height:24px}
+.terms-row{min-height:24px}
+/* a footnote number: the padding is the touch area, the negative margin keeps the line where it was */
+sup>a{padding:5px 9px;margin:-5px -9px}

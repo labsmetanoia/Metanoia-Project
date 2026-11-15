@@ -28,3 +28,7 @@ prototype/data/range/stats.js
 
 # Local secrets for `wrangler pages dev`
 .dev.vars
+
+# End-to-end test run (scripts/qa, .github/workflows/e2e.yml)
+.e2e-state/
+e2e-server.log

@@ -42,14 +42,15 @@ Severity: **Critical** (stop and fix), **High** (fix before more members join), 
 | A-10 | Admin | No limit on admin-token guesses, and no record of admin actions. | Low | Accountability | **Fixed** (limit plus audit trail) |
 | A-11 | Accessibility | Settings: profile inputs had no linked labels and the section tabs had no tab roles. Enterprise: source links were told apart by colour alone. | Low | Screen-reader use | **Fixed** |
 | A-12 | SEO | `robots.txt` did not exclude `/admin/`, `/api/`, `/settings`, `/purchases`. | Low | Crawl budget, tidy index | **Fixed** |
-| A-13 | QA tooling | `scripts/qa/journeys.js` predates open registration and stops at its sign-in step. The crawl script had a fixed browser path and no tablet size. | Low | Regressions go unseen | **Partly fixed**: crawl updated, `api.js` and `member.js` added; `journeys.js` still needs a refresh |
+| A-13 | QA tooling | `scripts/qa/journeys.js` predates open registration and stops at its sign-in step. The crawl script had a fixed browser path and no tablet size. | Low | Regressions go unseen | **Fixed**: `journeys.js` refreshed for hosts with and without the API; `.github/workflows/e2e.yml` runs `api.js`, `member.js`, the strict crawl and the public journeys on every pull request |
 | A-14 | Performance | Home page: 2.0 MB total, largest paint 3.2 s, 300 ms blocking time on a throttled phone (score 85). | Low | First impression on slow phones | Open, see R-10 |
-| A-15 | Usability | Some touch targets on phones are under 28 px tall: footer legal links, "Read more" toggles in products, "Start" links in The Compass. | Low | Mis-taps | Open, short term |
-| A-16 | Accessibility | Product top-bar logo: the accessible name does not match its visible text. | Low | Voice control | Open, short term |
+| A-15 | Usability | Some touch targets on phones are under 28 px tall: footer legal links, "Read more" toggles in products, "Start" links in The Compass. | Low | Mis-taps | **Fixed**: 123 controls under 24 px on phones, now none (rules at the end of `css/site-ui.css`) |
+| A-16 | Accessibility | Product top-bar logo: the accessible name does not match its visible text. | Low | Voice control | **Fixed** |
 | A-17 | Dependency | Career Map PDF export loads two libraries from cdnjs. If that host is blocked on a campus network, export fails. | Low | Feature loss for some users | **Fixed** (R-09, follow-up change) |
 | A-18 | Legal | 2,321 of 2,588 assets have no licence record and 732 await a model release (`scripts/check-asset-licences.py`). | Info | Launch gate for paid plans | Owner |
 | A-19 | Legal | Terms and Privacy are recorded as version `1.0-draft` in every consent. | Info | Needs final text before charging | Owner |
 | A-20 | Sign-in | LinkedIn sign-in is off until a client ID is supplied. | Info | One fewer sign-in option | Owner |
+| A-22 | Content | When the API cannot be reached, the login and register notes told visitors to leave their e-mail "below" while the waitlist field was hidden. Found while refreshing the journey script. | Low | Confusing during an outage | **Fixed**: the note now says sign-in cannot be reached and gives the e-mail address |
 | A-21 | Accounts | Ten wrong passwords lock sign-in for that address for fifteen minutes. A third party can trigger it. Magic-link and Google sign-in are not affected. | Info | Accepted trade-off | No change |
 
 ### What the security fixes do
@@ -101,8 +102,8 @@ Priority weighs business value against effort. Effort: S (a day or less), M (two
 
 **2. Short term, the next two weeks**
 - R-01 owner digest, R-02 client error reporting, R-09 self-hosted PDF libraries: **done** in the follow-up change (docs/14, "Error reports, owner digest, self-hosted export libraries").
-- A-13 refresh `journeys.js`; run `api.js` and `member.js` in CI with a local D1.
-- A-15 touch targets, A-16 logo label.
+- A-13 refresh `journeys.js`; run `api.js` and `member.js` in CI with a local D1: **done**.
+- A-15 touch targets, A-16 logo label: **done**.
 - Owner: live checks in section 7, LinkedIn client ID (A-20).
 
 **3. Medium to long term**

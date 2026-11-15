@@ -1,0 +1,83 @@
+name: End-to-end tests
+
+# Runs the site with its real API (Pages Functions) and a local D1 database, then drives it:
+#   scripts/qa/api.js       every API route, access control, the account-takeover guards
+#   scripts/qa/member.js    a signed-in member in a browser: register, products, progress on a second
+#                           device, settings, feedback, error reports, the admin page, the PDF export
+#   scripts/qa/crawl.js     every page on desktop, tablet and phone (STRICT: any error fails the run)
+#   scripts/qa/journeys.js  public journeys: links, search, language, theme, forms, the Career Map
+# A pull request runs the core set. A manual run or the weekly schedule adds the Bahasa Indonesia crawl
+# and the lesson-by-lesson journey on a host without the API.
+# Nothing here touches production: the database is a throwaway file and no secret is used.
+
+on:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 21 * * 6'     # Sunday 04:17 WIB
+
+concurrency:
+  group: e2e-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      WRANGLER_SEND_METRICS: 'false'
+      CI: 'true'
+      BASE: http://localhost:8788
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build the static layer
+        run: |
+          pip install pillow
+          python3 scripts/build-site.py --no-og
+      - name: Install the test tools
+        run: |
+          npm install --no-save --no-audit --no-fund wrangler@3 playwright@1
+          npx playwright install --with-deps chromium
+      - name: Start the site with its API and a local database
+        run: |
+          # throwaway values for this run only; production secrets are never read here
+          printf 'SESSION_SECRET=e2e-session-secret-0123456789abcdef\nSUBJECT_KEY=e2e-subject-key-0123456789abcdef\nADMIN_TOKEN=local-admin-token\nADMIN_EMAILS=admin@example.test\n' > .dev.vars
+          npx wrangler d1 migrations apply metanoia --local --persist-to .e2e-state
+          nohup npx wrangler pages dev --port 8788 --persist-to .e2e-state > e2e-server.log 2>&1 &
+          for i in $(seq 1 90); do curl -sf http://localhost:8788/api/health > /dev/null && break; sleep 2; done
+          curl -sf http://localhost:8788/api/health
+          echo "D1_SQLITE=$(find .e2e-state -name '*.sqlite' ! -name 'metadata*' | head -1)" >> "$GITHUB_ENV"
+      - name: API checks
+        run: node scripts/qa/api.js
+      - name: Member journey
+        run: |
+          python3 scripts/qa/reset-limits.py
+          node scripts/qa/member.js
+      - name: Crawl every page (English)
+        run: |
+          python3 scripts/qa/reset-limits.py
+          STRICT=1 node scripts/qa/crawl.js
+      - name: Public journeys
+        run: |
+          python3 scripts/qa/reset-limits.py
+          ONLY=A node scripts/qa/journeys.js
+      - name: Crawl every page (Bahasa Indonesia)
+        if: github.event_name != 'pull_request'
+        run: |
+          python3 scripts/qa/reset-limits.py
+          STRICT=1 LANG_=id node scripts/qa/crawl.js
+      - name: Lesson journeys on a host without the API
+        if: github.event_name != 'pull_request'
+        run: |
+          nohup node scripts/qa/server.js > /dev/null 2>&1 &
+          sleep 2
+          BASE=http://localhost:8940 ONLY=B node scripts/qa/journeys.js
+      - name: Server log
+        if: failure()
+        run: grep -v ' 200 OK \| 304 Not Modified \| 202 Accepted ' e2e-server.log | tail -n 40 || true
