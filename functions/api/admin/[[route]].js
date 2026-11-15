@@ -20,11 +20,15 @@
  *   GET   /api/admin/feedback?status=&kind=&q=&limit=  what members and visitors sent from the Feedback button
  *   PATCH /api/admin/feedback/:id  { status?, notes? }
  *   GET   /api/admin/audit?limit=                      the admin audit trail (who changed or exported what)
+ *   GET   /api/admin/errors?days=7                     script errors reported by browsers, grouped by message and page
+ *   GET   /api/admin/digest?days=7                     the weekly owner summary as numbers and as the e-mail text (nothing is sent)
+ *   POST  /api/admin/digest                            sends that summary to LEADS_NOTIFY_TO now
  *
  * Every write and every export is recorded in admin_audit (migration 0007).
  */
 import { json, fail, readJson, clip, nowIso, sameOrigin, rateLimit, clientIp, newId } from '../../../server/lib/http.js';
 import { adminActor } from '../../../server/lib/auth.js';
+import { buildDigest, digestText, sendOwnerDigest, scriptErrors } from '../../../server/lib/digest.js';
 import { PRODUCTS, PLANS, accessMode, betaEndsAt, listEntitlements, resolveAccess, grantEntitlement, revokeEntitlement, grantFounding } from '../../../server/lib/entitlements.js';
 
 const STATUSES = ['new', 'reviewing', 'accepted', 'declined', 'contacted', 'archived', 'confirmed', 'unsubscribed'];
@@ -188,6 +192,17 @@ export async function onRequestGet({ request, env, params }) {
     } catch (e) { return json({ ok: true, audit: [], pending_migration: true }); }
   }
 
+  if (route === 'errors') {
+    const days = Math.min(90, Math.max(1, parseInt(url.searchParams.get('days') || '7', 10) || 7));
+    return json({ ok: true, ...(await scriptErrors(env, { days, limit: 100 })) });
+  }
+
+  if (route === 'digest') {
+    const days = Math.min(31, Math.max(1, parseInt(url.searchParams.get('days') || '7', 10) || 7));
+    const d = await buildDigest(env, { days });
+    return json({ ok: true, digest: d, text: digestText(d, env.SITE_URL || url.origin), to_configured: !!env.LEADS_NOTIFY_TO, mail_configured: !!env.RESEND_API_KEY });
+  }
+
   if (route === 'aggregates') {
     const metric = clip(url.searchParams.get('metric') || '', 80);
     const days = Math.min(400, Math.max(1, parseInt(url.searchParams.get('days') || '90', 10) || 90));
@@ -232,6 +247,11 @@ export async function onRequestPatch({ request, env, params }) {
 export async function onRequestPost({ request, env, params }) {
   const g = await guard(request, env, true); if (g instanceof Response) return g;
   const parts = params.route || [];
+  if (parts[0] === 'digest' && parts.length === 1) {
+    const r = await sendOwnerDigest(env, { force: true });
+    await audit(env, g.actor, 'digest.send', null, { sent: r.sent, reason: r.reason || null });
+    return r.sent ? json({ ok: true, sent: true }) : fail(503, r.reason || 'not sent');
+  }
   if (parts[0] !== 'entitlements') return fail(404, 'unknown route');
   const body = (await readJson(request)) || {};
   const product = body.product === undefined ? 'all' : String(body.product);

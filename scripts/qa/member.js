@@ -186,6 +186,54 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     check(!!dlc[0], 'the lead list downloads as CSV');
   }
 
+  /* ── script errors from a browser reach the admin page (js/mt-errors.js) ── */
+  const eb = await ctx3.newPage();
+  await eb.goto(B + '/help', { waitUntil: 'load' }); await eb.waitForTimeout(800);
+  const evReq = eb.waitForResponse(r => /\/api\/events/.test(r.url()) && r.request().postData().includes('site.script.error'), { timeout: 8000 }).catch(() => null);
+  await eb.evaluate(m => { setTimeout(() => { throw new Error(m); }, 0); setTimeout(() => { throw new Error(m); }, 20); }, 'journey boom ' + stamp);
+  const evRes = await evReq;
+  check(!!evRes && evRes.status() === 202, 'an uncaught error is reported once to /api/events', evRes && evRes.status());
+  await eb.evaluate(() => { try { localStorage.setItem('mt-consent-analytics', '0'); } catch (e) {} });
+  await eb.reload({ waitUntil: 'load' }); await eb.waitForTimeout(600);
+  let declinedSent = false; eb.on('request', r => { if (/\/api\/events/.test(r.url()) && (r.postData() || '').includes('site.script.error')) declinedSent = true; });
+  await eb.evaluate(() => { setTimeout(() => { throw new Error('should not be sent'); }, 0); }); await eb.waitForTimeout(1200);
+  check(!declinedSent, 'nothing is reported when the visitor declined analytics');
+  if (process.env.ADMIN_TOKEN !== '') {
+    const ad2 = await ctx3.newPage();
+    await ad2.addInitScript(t => { try { sessionStorage.setItem('mt-admin-token', t); } catch (e) {} }, process.env.ADMIN_TOKEN || 'local-admin-token');
+    await ad2.goto(B + '/admin/', { waitUntil: 'load' }); await ad2.waitForTimeout(1500);
+    await ad2.click('#errors summary'); await ad2.waitForTimeout(1200);
+    a = await ad2.evaluate(() => document.getElementById('erRows').innerText);
+    check(a.includes('journey boom ' + stamp) && a.includes('/help'), 'the admin page lists the error with its page', a.slice(0, 200));
+    await ad2.click('#digest summary'); await ad2.waitForTimeout(1500);
+    a = await ad2.evaluate(() => document.getElementById('dgText').textContent);
+    check(/PEOPLE/.test(a) && /FEEDBACK/.test(a) && /RELIABILITY/.test(a), 'the admin page previews the weekly summary', a.slice(0, 120));
+    await shot(ad2, '13-admin-errors-digest');
+    await ad2.close();
+  }
+  await eb.close();
+
+  /* ── Career Map report: the export libraries come from this site, only when asked for, and a PDF downloads ── */
+  const rr = await ctx3.request.post(B + '/api/results', { headers: { origin: B }, data: { email: `pdf+${stamp}@example.test`, name: 'PDF Tester', total: 64, band: 'Mid-Mountain', dims: { ci: 12, ps: 11, ir: 9, nc: 8, cm: 10 }, profile: { stage: 'student' }, answers: { q1: 2 } } });
+  const rj = await rr.json().catch(() => null);
+  check(rr.status() < 300 && rj && rj.url, 'a Career Map result is stored for the export test', rr.status());
+  if (rj && rj.url) {
+    const cm = await ctx3.newPage(); watch(cm, 'career-map'); const reqs = [];
+    cm.on('request', r => reqs.push(r.url()));
+    const ru = new URL(rj.url);
+    await cm.goto(B + ru.pathname + ru.search, { waitUntil: 'load' }); await cm.waitForTimeout(2500);
+    check(!reqs.some(x => /cdnjs|html2canvas|jspdf/i.test(x)), 'the assessment page loads no export library and no CDN until asked', reqs.filter(x => /cdnjs|html2canvas|jspdf/i.test(x)));
+    const hasReport = await cm.evaluate(() => { const el = document.getElementById('report-content'); return !!el && el.innerText.trim().length > 200; });
+    check(hasReport, 'the signed link rebuilds the report');
+    const dlp = cm.waitForEvent('download', { timeout: 60000 }).catch(() => null);
+    await cm.evaluate(() => { window.print = () => { window.__printed = true; }; window.downloadReport(); });
+    const dlf = await dlp;
+    const libs = reqs.filter(x => /js\/vendor\/(html2canvas|jspdf)/.test(x));
+    check(libs.length === 2 && libs.every(x => x.startsWith(B)), 'pressing download fetches both libraries from this site', libs);
+    check(!!dlf && /\.pdf$/i.test(dlf.suggestedFilename()) && !(await cm.evaluate(() => window.__printed)), 'the report downloads as a PDF', dlf ? dlf.suggestedFilename() : 'no download');
+    await cm.close();
+  }
+
   /* ── installable: the manifest and its icons are served ── */
   const mf = await ctx3.request.get(B + '/manifest.webmanifest');
   const mj = mf.ok() ? await mf.json().catch(() => null) : null;

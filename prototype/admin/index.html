@@ -90,6 +90,16 @@
       </div>
       <div id="fbRows"></div>
     </details>
+    <details class="access" id="errors">
+      <summary><b>Script errors</b> <span class="muted" id="erSummary">reported by visitors' browsers</span></summary>
+      <div class="bar" style="margin-top:10px"><select id="erDays"><option value="1">Last 24 hours</option><option value="7" selected>Last 7 days</option><option value="30">Last 30 days</option></select> <span class="muted" id="erCount"></span></div>
+      <div id="erRows"></div>
+    </details>
+    <details class="access" id="digest">
+      <summary><b>Weekly summary</b> <span class="muted">what the Monday e-mail to the owner says</span></summary>
+      <div class="bar" style="margin-top:10px"><button class="ghost" id="dgSend">Send it to the owner address now</button> <span class="muted" id="dgMsg"></span></div>
+      <pre id="dgText" style="white-space:pre-wrap;font-size:13px;margin:10px 0 0"></pre>
+    </details>
     <details class="access" id="audit">
       <summary><b>Audit trail</b> <span class="muted">who granted, revoked, changed or exported what</span></summary>
       <div id="auRows" style="margin-top:10px"></div>
@@ -250,6 +260,34 @@
   $('fbLoad').addEventListener('click', loadFeedback);
   $('fbQ').addEventListener('keydown', function (e) { if (e.key === 'Enter') loadFeedback(); });
   $('feedback').addEventListener('toggle', function () { if ($('feedback').open) loadFeedback(); });
+
+  /* ── script errors reported by browsers (js/mt-errors.js) ── */
+  function loadErrors() {
+    api('GET', '/errors?days=' + $('erDays').value).then(function (r) {
+      if (!r.ok) { $('erRows').innerHTML = '<p class="err">' + esc((r.data && r.data.error) || ('HTTP ' + r.status)) + '</p>'; return; }
+      var d = r.data, list = d.groups || [];
+      $('erCount').textContent = d.total + ' reports from ' + d.visitors + ' visitors';
+      $('erRows').innerHTML = list.length ? '<table><thead><tr><th>Count</th><th>Message</th><th>Page</th><th>Where</th><th>Visitors</th><th>Last seen</th></tr></thead><tbody>' + list.map(function (e) {
+        return '<tr><td><b>' + e.n + '</b></td><td>' + esc(e.msg) + '</td><td>' + esc(e.page) + '</td><td class="muted">' + esc(e.src) + (e.line ? ':' + esc(e.line) : '') + '</td><td>' + e.visitors + '</td><td>' + esc(fmt(e.last_seen)) + '</td></tr>';
+      }).join('') + '</tbody></table>' : '<p class="muted" style="font-size:13px">No script errors in this period.</p>';
+    });
+  }
+  $('erDays').addEventListener('change', loadErrors);
+  $('errors').addEventListener('toggle', function () { if ($('errors').open) loadErrors(); });
+
+  /* ── the owner's weekly summary: preview and send now ── */
+  function loadDigest() {
+    api('GET', '/digest').then(function (r) {
+      if (!r.ok) { $('dgText').textContent = (r.data && r.data.error) || ('HTTP ' + r.status); return; }
+      $('dgText').textContent = r.data.text;
+      $('dgMsg').textContent = !r.data.mail_configured ? 'mail is not configured on this host' : !r.data.to_configured ? 'LEADS_NOTIFY_TO is not set' : 'sent automatically on Mondays, 07:30 WIB';
+    });
+  }
+  $('dgSend').addEventListener('click', function () {
+    $('dgMsg').textContent = 'sending…';
+    api('POST', '/digest', {}).then(function (r) { $('dgMsg').textContent = r.ok ? 'sent' : 'not sent: ' + ((r.data && r.data.error) || ('HTTP ' + r.status)); });
+  });
+  $('digest').addEventListener('toggle', function () { if ($('digest').open) loadDigest(); });
 
   /* ── audit trail ── */
   function loadAudit() {

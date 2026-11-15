@@ -321,7 +321,7 @@ def render(page):
 <meta name="twitter:title" content="{esc(title)}">
 <meta name="twitter:description" content="{esc(desc)}">
 <meta name="twitter:image" content="{esc(og_image)}">
-<link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<script src="/js/mt-errors.js" defer></script><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 {feed}{jsonld}<script>{LANG_BOOT}</script>
 <link rel="preload" href="/assets/fonts/roboto-condensed-100-900-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <style id="fontsCss">{FONTS_CSS}</style>

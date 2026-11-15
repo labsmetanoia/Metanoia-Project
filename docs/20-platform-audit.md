@@ -46,7 +46,7 @@ Severity: **Critical** (stop and fix), **High** (fix before more members join), 
 | A-14 | Performance | Home page: 2.0 MB total, largest paint 3.2 s, 300 ms blocking time on a throttled phone (score 85). | Low | First impression on slow phones | Open, see R-10 |
 | A-15 | Usability | Some touch targets on phones are under 28 px tall: footer legal links, "Read more" toggles in products, "Start" links in The Compass. | Low | Mis-taps | Open, short term |
 | A-16 | Accessibility | Product top-bar logo: the accessible name does not match its visible text. | Low | Voice control | Open, short term |
-| A-17 | Dependency | Career Map PDF export loads two libraries from cdnjs. If that host is blocked on a campus network, export fails. | Low | Feature loss for some users | Open, see R-09 |
+| A-17 | Dependency | Career Map PDF export loads two libraries from cdnjs. If that host is blocked on a campus network, export fails. | Low | Feature loss for some users | **Fixed** (R-09, follow-up change) |
 | A-18 | Legal | 2,321 of 2,588 assets have no licence record and 732 await a model release (`scripts/check-asset-licences.py`). | Info | Launch gate for paid plans | Owner |
 | A-19 | Legal | Terms and Privacy are recorded as version `1.0-draft` in every consent. | Info | Needs final text before charging | Owner |
 | A-20 | Sign-in | LinkedIn sign-in is off until a client ID is supplied. | Info | One fewer sign-in option | Owner |
@@ -80,15 +80,15 @@ Priority weighs business value against effort. Effort: S (a day or less), M (two
 
 | ID | Feature | Purpose and benefit | Feasibility and dependencies | Effort | Priority |
 |---|---|---|---|---|---|
-| R-01 | **Owner weekly digest** | One e-mail each Monday: new accounts, verified, active members, leads by kind, new feedback, average rating, mail quota used. The owner sees the business without opening the admin page. | Add to the existing 00:30 UTC Worker cron on Mondays; reuse `server/lib/mail.js` and the admin `stats` and `funnel` queries. Uses about four of the 3,000 free monthly e-mails. | S | 1 |
-| R-02 | **Client error reporting** | Report script errors from real browsers into the events table and show a count by page in the admin page. Reliability problems surface before members report them. | A `window.onerror` hook in `mt-api.js` posting `client.error` to `/api/events`, capped per session; one admin query. | S | 2 |
+| R-01 ✓ built | **Owner weekly digest** | One e-mail each Monday: new accounts, verified, active members, leads by kind, new feedback, average rating, mail quota used. The owner sees the business without opening the admin page. | Add to the existing 00:30 UTC Worker cron on Mondays; reuse `server/lib/mail.js` and the admin `stats` and `funnel` queries. Uses about four of the 3,000 free monthly e-mails. | S | 1 |
+| R-02 ✓ built | **Client error reporting** | Report script errors from real browsers into the events table and show a count by page in the admin page. Reliability problems surface before members report them. | A `window.onerror` hook in `mt-api.js` posting `client.error` to `/api/events`, capped per session; one admin query. | S | 2 |
 | R-03 | **Sample lesson without sign-in** | Let a visitor read one full lesson per product before registering. Today a guest who opens a product is sent to sign-in. Better product discovery and conversion. | The lesson registry is already split per lesson; mark one lesson per product as open and skip the gate for it. | M | 3 |
 | R-04 | **Shareable certificate with a verification page** | A completion certificate with a public link that confirms it is real. Members post it on LinkedIn, which brings new visitors. | Sign `{member, product, date}` with HMAC as the Career Map result link does; one public page; no new table needed. | M | 4 |
 | R-05 | **Trends in the admin page** | Charts of sign-ups, active members and lesson completions over time from `agg_daily`. Shows whether changes work. | Data already aggregated nightly; inline SVG charts, no library. | M | 5 |
 | R-06 | **Change e-mail address** | Members cannot change their address today. Fewer support requests and fewer abandoned accounts. | New token kind `email-change`; confirm from the new mailbox; update `users` and `identities`. | S | 6 |
 | R-07 | **Referral links** | A personal invite link, with sign-ups attributed to the member. Low-cost growth; later a reward such as an extended pass. | Migration for `referrals`; read the code at registration; one panel in Settings and one in admin. | M | 7 |
 | R-08 | **Enterprise cohort view** | A partner admin sees seats used and aggregate readiness for their cohort above a minimum size, as the enterprise page promises. Needed to sell and renew cohorts. | Entitlements already carry a source; add `org` and a partner role; aggregate only, per the Data Dignity commitments. | L | 8 |
-| R-09 | **Self-host the PDF libraries** | Career Map export works on networks that block CDNs (A-17). | Copy two files into `prototype/js/vendor/`, update the CSP. | S | 9 |
+| R-09 ✓ built | **Self-host the PDF libraries** | Career Map export works on networks that block CDNs (A-17). | Copy two files into `prototype/js/vendor/`, update the CSP. | S | 9 |
 | R-10 | **Home page weight** | Bring the home page under 1.2 MB and largest paint under 2.5 s on phones (A-14). | Poster-first video, smaller hero sources, defer the discover module. | M | 10 |
 | R-11 | **Passkeys** | Sign-in with a fingerprint or face, no password. Stronger accounts and faster return visits. | WebAuthn on Workers with a small open-source library; migration for credentials. | L | 11 |
 | R-12 | **Payments (Tier 2)** | Paid passes after the beta. | Needs a payment provider. Providers charge per transaction, so this **needs your approval** first. Entitlements are already in place to receive it. | L | After approval |
@@ -100,7 +100,7 @@ Priority weighs business value against effort. Effort: S (a day or less), M (two
 - Migration 0007.
 
 **2. Short term, the next two weeks**
-- R-01 owner digest, R-02 client error reporting, R-09 self-hosted PDF libraries.
+- R-01 owner digest, R-02 client error reporting, R-09 self-hosted PDF libraries: **done** in the follow-up change (docs/14, "Error reports, owner digest, self-hosted export libraries").
 - A-13 refresh `journeys.js`; run `api.js` and `member.js` in CI with a local D1.
 - A-15 touch targets, A-16 logo label.
 - Owner: live checks in section 7, LinkedIn client ID (A-20).
@@ -125,8 +125,8 @@ The sandbox cannot reach production, so please confirm these on the live site af
 
 | Check | Result |
 |---|---|
-| `scripts/qa/api.js` | 87 passed, 0 failed |
-| `scripts/qa/member.js` | 45 passed, 0 failed |
+| `scripts/qa/api.js` | 87 passed, 0 failed (97 after the follow-up change) |
+| `scripts/qa/member.js` | 45 passed, 0 failed (54 after the follow-up change) |
 | `scripts/qa/crawl.js`, English and Bahasa Indonesia, three screens | No script error, failed request, broken image or sideways scroll |
 | axe-core, serious and critical | Contrast, label and tab findings cleared; one low item left (A-16) |
 | Lighthouse, pricing | Performance 81 to 97, largest paint 4.9 s to 2.5 s |

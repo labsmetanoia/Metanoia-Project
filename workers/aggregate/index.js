@@ -24,6 +24,7 @@
  */
 import { runLifecycle } from '../../server/lib/lifecycle.js';
 import { purgeDeletions } from '../../server/lib/account.js';
+import { sendOwnerDigest } from '../../server/lib/digest.js';
 
 const K = 20;
 const RETENTION_DAYS = 13 * 31;
@@ -99,6 +100,11 @@ export default {
       if (event.cron === CRON_LIFECYCLE) {
         const r = await lifecycle(env, false);
         console.log('lifecycle', JSON.stringify(r));
+        /* Monday 00:30 UTC (07:30 WIB): the owner's weekly summary, once per ISO week (server/lib/digest.js) */
+        if (new Date(event.scheduledTime || Date.now()).getUTCDay() === 1) {
+          const dg = await sendOwnerDigest(env).catch(e => ({ sent: false, reason: String(e && e.message || e).slice(0, 200) }));
+          console.log('owner digest', JSON.stringify(dg));
+        }
         return;
       }
       const yesterday = new Date(Date.now() - 86400 * 1000);
@@ -110,7 +116,8 @@ export default {
   /* manual trigger, protected by the admin token:
        ?job=aggregate&day=YYYY-MM-DD[&retention=1]   (default)
        ?job=lifecycle[&dry=1]                          dry runs count what would be sent and send nothing
-       ?job=purge[&dry=1]                              account deletions due now */
+       ?job=purge[&dry=1]                              account deletions due now
+       ?job=digest[&force=1]                           the owner's weekly summary (server/lib/digest.js) */
   async fetch(request, env) {
     const url = new URL(request.url);
     const auth = request.headers.get('authorization') || '';
@@ -119,6 +126,11 @@ export default {
     if (url.searchParams.get('job') === 'purge') {
       const r = await purgeDeletions(env, { dryRun: url.searchParams.get('dry') === '1' });
       return new Response(JSON.stringify({ ok: true, job: 'purge', ...r }), { headers });
+    }
+    if (url.searchParams.get('job') === 'digest') {
+      /* the owner's weekly summary now; force=1 sends even if this week's has gone out */
+      const r = await sendOwnerDigest(env, { force: url.searchParams.get('force') === '1' });
+      return new Response(JSON.stringify({ ok: true, job: 'digest', ...r }), { headers });
     }
     if (url.searchParams.get('job') === 'lifecycle') {
       const r = await lifecycle(env, url.searchParams.get('dry') === '1');
