@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Certificate of completion · Metanoia Labs</title>
+<meta name="description" content="Verify a Metanoia Labs certificate of completion.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#050A12">
+<script src="/js/mt-errors.js" defer></script><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/fonts.css">
+<style>
+/* A certificate anyone with the link can verify (functions/api/certificates). The page asks the API for the
+   record and draws it; an unknown or withdrawn reference says so. It prints as one landscape page. */
+:root{--bg:#050A12;--gold:#C9A84C;--gold-bright:#E9D28A;--text:#F0EDE8;--muted:rgba(240,237,232,.72);--paper:#FBF7EC;--ink:#1B2434;--ink-soft:#4A5568}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;font-size:15px;line-height:1.55;min-height:100vh;display:flex;flex-direction:column}
+a{color:var(--gold-bright)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;border-bottom:1px solid rgba(201,168,76,.25)}
+.brand{display:inline-flex;align-items:center;gap:10px;color:var(--text);text-decoration:none;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px;min-height:32px}
+.brand img{width:28px;height:28px}
+.lang{display:inline-flex;border:1px solid rgba(201,168,76,.4);border-radius:999px;overflow:hidden}
+.lang button{min-width:44px;min-height:32px;background:transparent;border:0;color:var(--muted);font:600 12px/1 inherit;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--gold);color:#14100A}
+main{flex:1;width:100%;max-width:980px;margin:0 auto;padding:28px 16px 40px}
+.status{display:flex;align-items:center;gap:10px;margin:0 0 18px;font-size:14px;color:var(--muted)}
+.status .dot{width:10px;height:10px;border-radius:50%;background:#7A8594;flex:none}
+.status.ok .dot{background:#4CC38A}.status.bad .dot{background:#E5484D}
+.status b{color:var(--text)}
+.sheet{position:relative;background:var(--paper);color:var(--ink);border-radius:10px;padding:clamp(22px,5vw,56px);box-shadow:0 30px 80px rgba(0,0,0,.5);text-align:center;overflow:hidden}
+.sheet::before{content:'';position:absolute;inset:12px;border:1.5px solid var(--gold);border-radius:6px;pointer-events:none}
+.sheet::after{content:'';position:absolute;inset:18px;border:.5px solid rgba(201,168,76,.6);border-radius:4px;pointer-events:none}
+.mark{width:54px;height:54px;margin:0 auto 10px;display:block}
+.org{font-weight:700;letter-spacing:.3em;text-transform:uppercase;font-size:12px;color:#8A6D1F;margin:0}
+.kind{font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,4.6vw,40px);line-height:1.15;margin:14px 0 0;color:var(--ink)}
+.rule{width:72px;height:2px;background:var(--gold);margin:18px auto}
+.lead{margin:0;color:var(--ink-soft);font-size:15px}
+.name{font-family:'Playfair Display',Georgia,serif;font-size:clamp(28px,6vw,52px);line-height:1.15;margin:10px 0 12px;color:var(--ink);overflow-wrap:anywhere}
+.what{margin:0 auto;max-width:560px;color:var(--ink-soft);font-size:16px}
+.what b{color:var(--ink)}
+.meta{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 36px;margin:26px 0 0;font-size:13px;color:var(--ink-soft)}
+.meta div{min-width:150px}.meta span{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A6D1F;margin-bottom:2px}
+.meta b{color:var(--ink);font-weight:600;overflow-wrap:anywhere}
+.fine{margin:22px auto 0;max-width:620px;font-size:12px;color:#5B6676}
+.actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:22px 0 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(201,168,76,.55);background:transparent;color:var(--gold-bright);font:600 14px/1 inherit;text-decoration:none;cursor:pointer}
+.btn.primary{background:var(--gold);border-color:var(--gold);color:#14100A}
+.btn:focus-visible,.lang button:focus-visible,.brand:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.share{margin:14px 0 0;text-align:center;font-size:13px;color:var(--muted)}
+.empty{text-align:center;padding:56px 16px}
+.empty h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,5vw,34px);margin:0 0 10px}
+.empty p{color:var(--muted);max-width:520px;margin:0 auto 20px}
+footer{padding:18px 20px;border-top:1px solid rgba(201,168,76,.2);font-size:13px;color:var(--muted);text-align:center}
+[hidden]{display:none!important}
+@media print{
+  @page{size:A4 landscape;margin:10mm}
+  body{background:#fff;display:block}
+  .top,.status,.actions,.share,footer{display:none!important}
+  main{max-width:none;padding:0}
+  .sheet{box-shadow:none;border-radius:0;padding:14mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/" aria-label="Metanoia Labs"><img src="/assets/favicon.svg" alt="" width="28" height="28"><span>Metanoia Labs</span></a>
+  <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="id" aria-pressed="false">ID</button></div>
+</header>
+<main>
+  <p class="status" id="status" role="status"><span class="dot" aria-hidden="true"></span><span id="statusText" data-en="Checking this certificate…" data-id="Memeriksa sertifikat ini…">Checking this certificate…</span></p>
+
+  <article class="sheet" id="sheet" hidden>
+    <img class="mark" src="/assets/favicon.svg" alt="" width="54" height="54">
+    <p class="org">Metanoia Labs</p>
+    <h1 class="kind" data-en="Certificate of completion" data-id="Sertifikat Penyelesaian">Certificate of completion</h1>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="lead" data-en="This certifies that" data-id="Dengan ini menyatakan bahwa">This certifies that</p>
+    <p class="name" id="cName"></p>
+    <p class="what" id="cWhat"></p>
+    <div class="meta">
+      <div><span data-en="Issued" data-id="Diterbitkan">Issued</span><b id="cDate"></b></div>
+      <div><span data-en="Certificate reference" data-id="Nomor sertifikat">Certificate reference</span><b id="cId"></b></div>
+      <div><span data-en="Verify at" data-id="Verifikasi di">Verify at</span><b id="cUrl"></b></div>
+    </div>
+    <p class="fine" data-en="This certificate records lessons completed on the Metanoia Labs platform during its beta. It is not an accredited academic or professional qualification." data-id="Sertifikat ini mencatat pelajaran yang diselesaikan di platform Metanoia Labs selama masa beta. Sertifikat ini bukan kualifikasi akademik atau profesional yang terakreditasi.">This certificate records lessons completed on the Metanoia Labs platform during its beta. It is not an accredited academic or professional qualification.</p>
+  </article>
+
+  <div class="actions" id="actions" hidden>
+    <button type="button" class="btn primary" id="copyBtn" data-en="Copy the link" data-id="Salin tautan">Copy the link</button>
+    <a class="btn" id="liBtn" target="_blank" rel="noopener" data-en="Add to LinkedIn" data-id="Tambahkan ke LinkedIn">Add to LinkedIn</a>
+    <button type="button" class="btn" id="printBtn" data-en="Print or save as PDF" data-id="Cetak atau simpan sebagai PDF">Print or save as PDF</button>
+  </div>
+  <p class="share" id="share" hidden data-en="Anyone with this link can see the name, the course and the date above. Nothing else about the member is shown." data-id="Siapa pun yang memegang tautan ini bisa melihat nama, kursus, dan tanggal di atas. Tidak ada data lain tentang anggota yang ditampilkan.">Anyone with this link can see the name, the course and the date above. Nothing else about the member is shown.</p>
+
+  <section class="empty" id="empty" hidden>
+    <h1 data-en="We could not verify this certificate" data-id="Sertifikat ini tidak dapat kami verifikasi">We could not verify this certificate</h1>
+    <p data-en="The reference in this link does not match a certificate issued by Metanoia Labs, or the certificate has been withdrawn. Check the link, or ask the person who sent it." data-id="Nomor pada tautan ini tidak cocok dengan sertifikat yang diterbitkan Metanoia Labs, atau sertifikatnya sudah ditarik. Periksa tautannya, atau tanyakan kepada orang yang mengirimnya.">The reference in this link does not match a certificate issued by Metanoia Labs, or the certificate has been withdrawn. Check the link, or ask the person who sent it.</p>
+    <a class="btn" href="/" data-en="Go to Metanoia Labs" data-id="Ke Metanoia Labs">Go to Metanoia Labs</a>
+  </section>
+</main>
+<footer><span data-en="Questions about a certificate: hello@metanoialabs.net" data-id="Pertanyaan tentang sertifikat: hello@metanoialabs.net">Questions about a certificate: hello@metanoialabs.net</span></footer>
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var lang = 'en'; try { lang = (localStorage.getItem('mt-lang') || localStorage.getItem('mtLang') || 'en') === 'id' ? 'id' : 'en'; } catch (e) {}
+  var cert = null, state = 'checking';
+  var COURSES = {
+    'the-map': { en: 'Career Intelligence', id: 'Kecerdasan Karier' }, 'the-pack': { en: 'Profile Strength', id: 'Kekuatan Profil' },
+    'the-rope': { en: 'Interview Readiness', id: 'Kesiapan Wawancara' }, 'the-route': { en: 'Career Mindset', id: 'Pola Pikir Karier' }
+  };
+  var T = {
+    checking: { en: 'Checking this certificate…', id: 'Memeriksa sertifikat ini…' },
+    ok: { en: '<b>Verified.</b> Issued by Metanoia Labs and checked against our records just now.', id: '<b>Terverifikasi.</b> Diterbitkan oleh Metanoia Labs dan baru saja dicocokkan dengan catatan kami.' },
+    bad: { en: '<b>Not verified.</b> No certificate matches this link.', id: '<b>Tidak terverifikasi.</b> Tidak ada sertifikat yang cocok dengan tautan ini.' },
+    offline: { en: '<b>We could not check this right now.</b> Please try again in a few minutes.', id: '<b>Kami belum bisa memeriksanya saat ini.</b> Coba lagi beberapa menit lagi.' },
+    copied: { en: 'Link copied', id: 'Tautan disalin' }
+  };
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function draw() {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-lang]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-lang') === lang ? 'true' : 'false'); });
+    document.querySelectorAll('[data-en]').forEach(function (el) { if (el.id !== 'statusText') el.textContent = el.getAttribute('data-' + lang); });
+    $('statusText').innerHTML = T[state][lang];
+    $('status').className = 'status' + (state === 'ok' ? ' ok' : state === 'bad' || state === 'offline' ? ' bad' : '');
+    if (!cert) return;
+    var course = COURSES[cert.product] ? COURSES[cert.product][lang] : '';
+    $('cName').textContent = cert.name;
+    $('cWhat').innerHTML = lang === 'id'
+      ? 'telah menyelesaikan seluruh <b>' + cert.lessons + ' pelajaran</b> dari <b>' + esc(cert.product_name) + (course ? ' · ' + esc(course) : '') + '</b>, program kesiapan karier dari Metanoia Labs.'
+      : 'has completed all <b>' + cert.lessons + ' lessons</b> of <b>' + esc(cert.product_name) + (course ? ' · ' + esc(course) : '') + '</b>, a career readiness course by Metanoia Labs.';
+    try { $('cDate').textContent = new Date(cert.issued_at).toLocaleDateString(lang === 'id' ? 'id-ID' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' }); } catch (e) { $('cDate').textContent = cert.issued_at.slice(0, 10); }
+    $('cId').textContent = cert.id;
+    $('cUrl').textContent = location.host + '/certificate?c=' + cert.id;
+    document.title = cert.name + ' · ' + cert.product_name + ' · ' + (lang === 'id' ? 'Sertifikat Metanoia Labs' : 'Metanoia Labs certificate');
+    var d = new Date(cert.issued_at), u = location.origin + '/certificate?c=' + encodeURIComponent(cert.id);
+    $('liBtn').href = 'https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=' + encodeURIComponent(cert.product_name + (course ? ': ' + course : '')) +
+      '&organizationName=' + encodeURIComponent('Metanoia Labs') + '&issueYear=' + d.getUTCFullYear() + '&issueMonth=' + (d.getUTCMonth() + 1) + '&certUrl=' + encodeURIComponent(u) + '&certId=' + encodeURIComponent(cert.id);
+  }
+  document.querySelectorAll('[data-lang]').forEach(function (b) { b.addEventListener('click', function () { lang = b.getAttribute('data-lang'); try { localStorage.setItem('mt-lang', lang); localStorage.setItem('mtLang', lang); } catch (e) {} draw(); }); });
+  $('printBtn').addEventListener('click', function () { window.print(); });
+  $('copyBtn').addEventListener('click', function () {
+    var u = location.origin + '/certificate?c=' + encodeURIComponent(cert.id), b = $('copyBtn'), done = function () { b.textContent = T.copied[lang]; setTimeout(function () { b.textContent = b.getAttribute('data-' + lang); }, 2200); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(u).then(done, function () { window.prompt('', u); }); else window.prompt('', u);
+  });
+  draw();
+  var id = new URLSearchParams(location.search).get('c') || '';
+  if (!/^[A-Za-z0-9_-]{12,32}$/.test(id)) { state = 'bad'; $('empty').hidden = false; draw(); return; }
+  fetch('/api/certificates/' + encodeURIComponent(id), { headers: { accept: 'application/json' } }).then(function (r) {
+    var json = /json/.test(r.headers.get('content-type') || '');
+    if (r.status === 404 && json) return { bad: true };
+    if (!r.ok || !json) return { offline: true };
+    return r.json();
+  }).then(function (j) {
+    if (j && j.certificate) { cert = j.certificate; state = 'ok'; $('sheet').hidden = false; $('actions').hidden = false; $('share').hidden = false; }
+    else if (j && j.bad) { state = 'bad'; $('empty').hidden = false; }
+    else state = 'offline';
+    draw();
+  }).catch(function () { state = 'offline'; draw(); });
+})();
+</script>
+</body>
+</html>

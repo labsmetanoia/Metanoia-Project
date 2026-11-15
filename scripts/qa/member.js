@@ -236,6 +236,59 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     await cm.close();
   }
 
+  /* ── sample lesson: a guest is offered it at the sign-in wall, reads the first lesson, and the rest asks for an account ── */
+  const gctx = await br.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  const g = await gctx.newPage(); watch(g, 'sample');
+  await g.goto(B + '/products/the-map/', { waitUntil: 'load' }); await g.waitForTimeout(1500);
+  a = await g.evaluate(() => { const b = document.getElementById('sampleCta'); return { path: location.pathname, shown: !!b && !b.hidden, href: b ? b.querySelector('a').getAttribute('href') : '' }; });
+  check(/login/.test(a.path) && a.shown && a.href === '/products/the-map/?sample=1', 'the sign-in page offers the sample lesson of the product the guest came for', a);
+  await g.click('#sampleCta a'); await g.waitForTimeout(3000);
+  a = await g.evaluate(() => { const bar = document.querySelector('.lmx-bar'), pl = document.querySelector('.lmsp'); return { path: location.pathname + location.search, bar: !!bar, barText: bar ? bar.innerText.slice(0, 60) : '', player: !!pl && getComputedStyle(pl).display !== 'none', over: document.documentElement.scrollWidth > window.innerWidth + 1, cta: bar ? bar.querySelector('a').getAttribute('href') : '' }; });
+  check(a.path === '/products/the-map/?sample=1' && a.bar && a.player && !a.over, 'a guest stays on the product in sample mode and the first lesson opens', a);
+  check(/register\?redirect=%2Fproducts%2Fthe-map%2F/.test(a.cta), 'the sample bar leads to a free account with the way back', a.cta);
+  await shot(g, '15-sample-lesson');
+  a = await g.evaluate(() => { const items = [...document.querySelectorAll('.lr-item')]; const locked = items.filter(x => x.classList.contains('locked')); if (locked[0]) locked[0].click(); return { items: items.length, locked: locked.length, veil: !!document.querySelector('.lmx-veil.on') }; });
+  check(a.items > 3 && a.locked === a.items - 1 && a.veil, 'every other lesson is closed and says why when pressed', a);
+  await gctx.close();
+
+  /* ── certificate: every core lesson done, the member asks, the public page verifies it ── */
+  const cp = await ctx3.newPage(); watch(cp, 'certificate');
+  await cp.goto(B + '/products/the-route/', { waitUntil: 'load' }); await cp.waitForTimeout(1200);
+  const routeCore = await (await ctx3.request.get(B + '/data/lms/the-route/manifest.json')).json();
+  await cp.evaluate(ls => { const d = {}; ls.forEach(n => { d[n] = true; }); localStorage.setItem('mt-lms:the-route', JSON.stringify(d)); }, routeCore.lessons);
+  await cp.reload({ waitUntil: 'load' }); await cp.waitForTimeout(2500);
+  check(await cp.isVisible('.lmx-cert'), 'a member who finished every core lesson is offered the certificate');
+  await shot(cp, '16-certificate-button');
+  await cp.click('.lmx-cert');
+  await cp.waitForURL(u2 => /\/certificate/.test(new URL(u2).pathname), { timeout: 20000 }).catch(() => {});
+  await cp.waitForTimeout(1500);
+  a = await cp.evaluate(() => ({ path: location.pathname, status: document.getElementById('status').className, name: (document.getElementById('cName') || {}).textContent, what: (document.getElementById('cWhat') || {}).textContent, sheet: !document.getElementById('sheet').hidden, li: (document.getElementById('liBtn') || {}).href || '' }));
+  check(a.path === '/certificate' && /ok/.test(a.status) && a.sheet && a.name.length > 3 && /The Route/.test(a.what) && /linkedin\.com\/profile\/add/.test(a.li), 'the certificate page shows the verified certificate', a);
+  await shot(cp, '17-certificate');
+  const certUrl = cp.url();
+  const pubCtx = await br.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
+  const pv = await pubCtx.newPage(); watch(pv, 'verify');
+  await pv.goto(certUrl, { waitUntil: 'load' }); await pv.waitForTimeout(1500);
+  a = await pv.evaluate(() => ({ ok: /ok/.test(document.getElementById('status').className), body: document.body.innerText, over: document.documentElement.scrollWidth > window.innerWidth + 1 }));
+  check(a.ok && !a.over && !/@example\.test/.test(a.body), 'a stranger on a phone can verify it and sees no address', a.body.slice(0, 80));
+  await shot(pv, '18-certificate-phone');
+  await pv.goto(B + '/certificate?c=AAAAAAAAAAAAAAAA', { waitUntil: 'load' }); await pv.waitForTimeout(1200);
+  a = await pv.evaluate(() => ({ bad: /bad/.test(document.getElementById('status').className), empty: !document.getElementById('empty').hidden, sheet: document.getElementById('sheet').hidden }));
+  check(a.bad && a.empty && a.sheet, 'an unknown reference is shown as not verified', a);
+  await pubCtx.close(); await cp.close();
+
+  /* ── admin trends ── */
+  if (process.env.ADMIN_TOKEN !== '') {
+    const ad3 = await ctx3.newPage(); watch(ad3, 'admin-trends');
+    await ad3.addInitScript(t => { try { sessionStorage.setItem('mt-admin-token', t); } catch (e) {} }, process.env.ADMIN_TOKEN || 'local-admin-token');
+    await ad3.goto(B + '/admin/', { waitUntil: 'load' }); await ad3.waitForTimeout(1500);
+    await ad3.click('#trends summary'); await ad3.waitForTimeout(1500);
+    a = await ad3.evaluate(() => ({ charts: document.querySelectorAll('#trCharts svg').length, bars: document.querySelectorAll('#trCharts svg rect').length, text: document.getElementById('trCharts').innerText.slice(0, 80) }));
+    check(a.charts === 8 && a.bars >= 8 * 30, 'the admin page draws the eight trend charts', a);
+    await shot(ad3, '19-admin-trends');
+    await ad3.close();
+  }
+
   /* ── installable: the manifest and its icons are served ── */
   const mf = await ctx3.request.get(B + '/manifest.webmanifest');
   const mj = mf.ok() ? await mf.json().catch(() => null) : null;

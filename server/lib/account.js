@@ -27,6 +27,7 @@ export async function exportAccount(env, user) {
   out.identities = await q('SELECT provider, email, created_at FROM identities WHERE user_id = ?', [user.id], r => ({ provider: r.provider, email: r.email, created_at: r.created_at }));
   out.entitlements = await q('SELECT product, plan, source, starts_at, ends_at, status, note, created_at FROM entitlements WHERE user_id = ? ORDER BY created_at', [user.id], r => ({ ...r }));
   out.sessions = await q('SELECT created_at, expires_at, user_agent FROM sessions WHERE user_id = ? ORDER BY created_at', [user.id], r => ({ created_at: r.created_at, expires_at: r.expires_at, user_agent: r.user_agent || null }));
+  out.certificates = await q('SELECT id, product, name, lessons, issued_at, revoked_at FROM certificates WHERE user_id = ?', [user.id], r => ({ ...r }));
   out.progress = await q('SELECT ns, data_json, version, updated_at FROM progress WHERE user_id = ?', [user.id], r => ({ ns: r.ns, data: parse(r.data_json, null), version: r.version, updated_at: r.updated_at }));
   out.leads = await q('SELECT id, kind, payload_json, consent_json, status, created_at, confirmed_at, unsubscribed_at FROM leads WHERE email = ?', [user.email],
     r => ({ id: r.id, kind: r.kind, payload: parse(r.payload_json, {}), consent: parse(r.consent_json, {}), status: r.status, created_at: r.created_at, confirmed_at: r.confirmed_at || null, unsubscribed_at: r.unsubscribed_at || null }));
@@ -68,6 +69,8 @@ export async function purgeDeletions(env, { now = new Date(), dryRun = false } =
     try {
       await mailDeleted(env, { to: u.email, name: u.name, locale: u.locale, ref: u.id });
       const toHash = await sha256(String(u.email).trim().toLowerCase());
+      /* on its own, so a database that has not run migration 0008 yet still purges the account */
+      await env.DB.prepare('DELETE FROM certificates WHERE user_id = ?').bind(u.id).run().catch(() => {});
       await env.DB.batch([
         env.DB.prepare('DELETE FROM leads WHERE email = ?').bind(u.email),
         env.DB.prepare('DELETE FROM tokens WHERE user_id = ? OR email = ?').bind(u.id, u.email),

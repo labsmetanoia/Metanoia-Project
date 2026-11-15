@@ -90,6 +90,11 @@
       </div>
       <div id="fbRows"></div>
     </details>
+    <details class="access" id="trends">
+      <summary><b>Trends</b> <span class="muted">one bar per day</span></summary>
+      <div class="bar" style="margin-top:10px"><select id="trDays"><option value="14">Last 14 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option></select> <span class="muted" id="trNote"></span></div>
+      <div id="trCharts" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin-top:10px"></div>
+    </details>
     <details class="access" id="errors">
       <summary><b>Script errors</b> <span class="muted" id="erSummary">reported by visitors' browsers</span></summary>
       <div class="bar" style="margin-top:10px"><select id="erDays"><option value="1">Last 24 hours</option><option value="7" selected>Last 7 days</option><option value="30">Last 30 days</option></select> <span class="muted" id="erCount"></span></div>
@@ -260,6 +265,25 @@
   $('fbLoad').addEventListener('click', loadFeedback);
   $('fbQ').addEventListener('keydown', function (e) { if (e.key === 'Enter') loadFeedback(); });
   $('feedback').addEventListener('toggle', function () { if ($('feedback').open) loadFeedback(); });
+
+  /* ── trends: one small bar chart per measure, drawn as inline SVG (no library) ── */
+  var TR = [['accounts', 'New accounts'], ['active', 'Members active in a product'], ['visitors', 'Visitors'], ['assessments', 'Career Map completed'], ['leads', 'Leads'], ['feedback', 'Feedback'], ['certificates', 'Certificates issued'], ['errors', 'Script errors']];
+  function chart(label, axis, vals, total, perDay) {
+    var W = 260, H = 70, n = vals.length, max = Math.max.apply(null, vals.concat([1])), bw = W / n;
+    var bars = vals.map(function (v, i) { var h = v ? Math.max(2, Math.round(v / max * (H - 4))) : 0; return '<rect x="' + (i * bw + .5).toFixed(1) + '" y="' + (H - h) + '" width="' + Math.max(1, bw - 1).toFixed(1) + '" height="' + h + '" fill="' + (label === 'Script errors' ? '#c0564f' : '#C9A84C') + '"><title>' + esc(axis[i]) + ': ' + v + '</title></rect>'; }).join('');
+    return '<div class="stat" style="text-align:left;padding:10px 12px"><span>' + esc(label) + '</span><b style="display:block;font-size:20px">' + total + (perDay ? ' <small class="muted" style="font-size:11px;font-weight:400">person-days</small>' : '') + '</b>' +
+      '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" height="' + H + '" role="img" aria-label="' + esc(label) + ', ' + total + ' in ' + n + ' days, highest day ' + max + '" preserveAspectRatio="none" style="display:block;margin-top:6px;border-bottom:1px solid var(--line)">' + bars + '</svg>' +
+      '<small class="muted" style="display:flex;justify-content:space-between;font-size:11px"><span>' + esc(axis[0].slice(5)) + '</span><span>peak ' + max + '</span><span>' + esc(axis[n - 1].slice(5)) + '</span></small></div>';
+  }
+  function loadTrends() {
+    api('GET', '/trends?days=' + $('trDays').value).then(function (r) {
+      if (!r.ok) { $('trCharts').innerHTML = '<p class="err">' + esc((r.data && r.data.error) || ('HTTP ' + r.status)) + '</p>'; return; }
+      var d = r.data; $('trNote').textContent = d.note || '';
+      $('trCharts').innerHTML = TR.map(function (t) { return chart(t[1], d.axis, d.series[t[0]] || [], d.totals[t[0]] || 0, t[0] === 'active' || t[0] === 'visitors'); }).join('');
+    });
+  }
+  $('trDays').addEventListener('change', loadTrends);
+  $('trends').addEventListener('toggle', function () { if ($('trends').open) loadTrends(); });
 
   /* ── script errors reported by browsers (js/mt-errors.js) ── */
   function loadErrors() {

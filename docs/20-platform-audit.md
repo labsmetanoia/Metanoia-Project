@@ -83,9 +83,9 @@ Priority weighs business value against effort. Effort: S (a day or less), M (two
 |---|---|---|---|---|---|
 | R-01 ✓ built | **Owner weekly digest** | One e-mail each Monday: new accounts, verified, active members, leads by kind, new feedback, average rating, mail quota used. The owner sees the business without opening the admin page. | Add to the existing 00:30 UTC Worker cron on Mondays; reuse `server/lib/mail.js` and the admin `stats` and `funnel` queries. Uses about four of the 3,000 free monthly e-mails. | S | 1 |
 | R-02 ✓ built | **Client error reporting** | Report script errors from real browsers into the events table and show a count by page in the admin page. Reliability problems surface before members report them. | A `window.onerror` hook in `mt-api.js` posting `client.error` to `/api/events`, capped per session; one admin query. | S | 2 |
-| R-03 | **Sample lesson without sign-in** | Let a visitor read one full lesson per product before registering. Today a guest who opens a product is sent to sign-in. Better product discovery and conversion. | The lesson registry is already split per lesson; mark one lesson per product as open and skip the gate for it. | M | 3 |
-| R-04 | **Shareable certificate with a verification page** | A completion certificate with a public link that confirms it is real. Members post it on LinkedIn, which brings new visitors. | Sign `{member, product, date}` with HMAC as the Career Map result link does; one public page; no new table needed. | M | 4 |
-| R-05 | **Trends in the admin page** | Charts of sign-ups, active members and lesson completions over time from `agg_daily`. Shows whether changes work. | Data already aggregated nightly; inline SVG charts, no library. | M | 5 |
+| R-03 ✓ built | **Sample lesson without sign-in** | Let a visitor read one full lesson per product before registering. Today a guest who opens a product is sent to sign-in. Better product discovery and conversion. | The lesson registry is already split per lesson; mark one lesson per product as open and skip the gate for it. | M | 3 |
+| R-04 ✓ built | **Shareable certificate with a verification page** | A completion certificate with a public link that confirms it is real. Members post it on LinkedIn, which brings new visitors. | Sign `{member, product, date}` with HMAC as the Career Map result link does; one public page; no new table needed. | M | 4 |
+| R-05 ✓ built | **Trends in the admin page** | Charts of sign-ups, active members and lesson completions over time from `agg_daily`. Shows whether changes work. | Data already aggregated nightly; inline SVG charts, no library. | M | 5 |
 | R-06 | **Change e-mail address** | Members cannot change their address today. Fewer support requests and fewer abandoned accounts. | New token kind `email-change`; confirm from the new mailbox; update `users` and `identities`. | S | 6 |
 | R-07 | **Referral links** | A personal invite link, with sign-ups attributed to the member. Low-cost growth; later a reward such as an extended pass. | Migration for `referrals`; read the code at registration; one panel in Settings and one in admin. | M | 7 |
 | R-08 | **Enterprise cohort view** | A partner admin sees seats used and aggregate readiness for their cohort above a minimum size, as the enterprise page promises. Needed to sell and renew cohorts. | Entitlements already carry a source; add `org` and a partner role; aggregate only, per the Data Dignity commitments. | L | 8 |
@@ -107,7 +107,8 @@ Priority weighs business value against effort. Effort: S (a day or less), M (two
 - Owner: live checks in section 7, LinkedIn client ID (A-20).
 
 **3. Medium to long term**
-- R-03 sample lesson, R-04 certificates, R-05 trends, R-06 change e-mail, R-07 referrals, R-10 home weight.
+- R-03 sample lesson, R-04 certificates, R-05 trends: **done** (docs/14, "Sample lesson, certificates, trends").
+- R-06 change e-mail, R-07 referrals, R-10 home weight.
 - R-08 enterprise cohort view, R-11 passkeys.
 - R-12 payments, and A-18 and A-19 (asset licences, final legal text) before any paid plan.
 - Remove `'unsafe-inline'` from the script policy once inline scripts move to files.

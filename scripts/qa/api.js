@@ -278,6 +278,44 @@ function client() {
   r = await anon('GET', '/api/admin/users.csv?q=' + encodeURIComponent(email), undefined, A);
   ok(r.status === 200 && r.text.includes("'=cmd|calc") , 'CSV export neutralises a leading formula character', r.text.slice(-120));
 
+  /* ── certificates of completion ── */
+  await m2('POST', '/api/account/update', { name: 'QA Graduate' });
+  r = await anon('POST', '/api/certificates', { product: 'the-map' });
+  ok(r.status === 401, 'a certificate needs a session', r.status);
+  r = await m2('POST', '/api/certificates', { product: 'the-moon' });
+  ok(r.status === 400 && r.j.field === 'product', 'certificate product is validated', r.j);
+  const mf = await anon('GET', '/data/lms/the-map/manifest.json');
+  const core = mf.j && mf.j.lessons ? mf.j.lessons : [];
+  ok(core.length > 5, 'the build writes the lesson manifest', mf.status);
+  const lmsDoc = done => ({ data: { keys: { 'mt-lms:the-map': JSON.stringify(done) }, times: { 'mt-lms:the-map': Date.now() }, deleted: {} }, version: Date.now() });
+  const some = {}; core.slice(0, 3).forEach(n => { some[n] = true; });
+  await m2('PUT', '/api/progress/browser', lmsDoc(some));
+  r = await m2('POST', '/api/certificates', { product: 'the-map' });
+  ok(r.status === 409 && r.j.done === 3 && r.j.total === core.length, 'no certificate while lessons remain, and the answer says how many', r.j);
+  const all = {}; core.forEach(n => { all[n] = true; });
+  await m2('PUT', '/api/progress/browser', lmsDoc(all));
+  r = await m2('POST', '/api/certificates', { product: 'the-map' }, { origin: 'https://evil.example' });
+  ok(r.status === 403, 'cross-origin certificate request is refused', r.status);
+  r = await m2('POST', '/api/certificates', { product: 'the-map' });
+  ok(r.status === 201 && r.j.certificate.name === 'QA Graduate' && r.j.certificate.lessons === core.length && /\/certificate\?c=/.test(r.j.url), 'the certificate is issued once every core lesson is complete', r.j);
+  const certId = r.j.certificate ? r.j.certificate.id : 'x';
+  r = await anon('GET', '/api/certificates/' + certId);
+  ok(r.status === 200 && r.j.certificate.name === 'QA Graduate' && r.j.certificate.product_name === 'The Map' && !r.text.includes('@') && !('user_id' in r.j.certificate), 'anyone with the link can verify it, and it carries no address', r.j);
+  await m2('POST', '/api/account/update', { name: 'QA Graduate Renamed' });
+  r = await m2('POST', '/api/certificates', { product: 'the-map' });
+  ok(r.status === 201 && r.j.certificate.id === certId && r.j.certificate.name === 'QA Graduate Renamed', 'asking again returns the same certificate with the current name', r.j);
+  r = await anon('GET', '/api/certificates/AAAAAAAAAAAAAAAA');
+  ok(r.status === 404, 'an unknown certificate reference is a 404', r.status);
+  r = await m2('GET', '/api/certificates');
+  ok(r.status === 200 && r.j.certificates.length === 1, 'a member lists their certificates', r.j);
+  r = await m2('GET', '/api/account/export');
+  ok(r.status === 200 && r.text.includes(certId), 'the export includes the certificate', r.status);
+  /* trends */
+  r = await anon('GET', '/api/admin/trends?days=14', undefined, A);
+  ok(r.status === 200 && r.j.axis.length === 14 && r.j.series.accounts.length === 14 && r.j.totals.accounts >= 1 && r.j.totals.certificates >= 1 && r.j.totals.feedback >= 2, 'admin trends give one number per day per measure', r.j && r.j.totals);
+  r = await m2('GET', '/api/admin/trends');
+  ok(r.status === 401, 'a member cannot read trends', r.status);
+
   /* ── deletion ── */
   r = await m2('POST', '/api/account/delete', { password: 'wrong' });
   ok(r.status === 401, 'deletion needs the password', r.status);

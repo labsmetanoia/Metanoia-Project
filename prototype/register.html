@@ -334,6 +334,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   <section class="auth-right">
     <div class="auth-form-wrap">
       <div class="top-switch"><span data-en="Already have an account?" data-id="Sudah punya akun?">Already have an account?</span> <a class="gold-link" href="login" data-en="Sign in →" data-id="Masuk →">Sign in →</a></div>
+      <div class="top-switch" id="sampleCta" hidden><span data-en="Not sure yet?" data-id="Masih ragu?">Not sure yet?</span> <a class="gold-link" href="pricing" data-en="Read a sample lesson first →" data-id="Baca dulu pelajaran contohnya →">Read a sample lesson first →</a></div>
       <h2 class="auth-h1" data-en="Begin your ascent." data-id="Mulailah pendakianmu.">Begin your ascent.</h2>
       <p class="auth-desc" data-en="Create your free account, takes 30 seconds." data-id="Buat akun gratismu: hanya 30 detik.">Create your free account, takes 30 seconds.</p>
 
@@ -455,6 +456,10 @@ const redirectTo = (() => {
   const r = new URLSearchParams(location.search).get('redirect') || '';
   return (r && !r.includes(':') && !r.startsWith('//') && !r.includes('..')) ? r : '';
 })();
+/* a visitor sent here from a lesson product may read its sample lesson before deciding (js/lms-extras.js) */
+(() => { const m = /^\/products\/(the-map|the-pack|the-rope|the-route)\//.exec(redirectTo), box = document.getElementById('sampleCta');
+  if (m && box) { box.querySelector('a').href = '/products/' + m[1] + '/?sample=1'; box.hidden = false; } })();
+
 const form = document.getElementById('regForm'), err = document.getElementById('formErr');
 const F = id => document.getElementById(id);
 const apiNote = document.getElementById('apiNote');
