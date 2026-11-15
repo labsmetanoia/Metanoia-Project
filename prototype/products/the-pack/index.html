@@ -2517,7 +2517,10 @@ try {
 } catch (e) {}
 function showUpgradePrompt() { document.getElementById('upgradeVeil').classList.add('show'); }
 /* members only: demo mode unlocks the lesson order for a signed-in reviewer, it never bypasses sign-in */
-if (!isAuthenticated) {
+if (!isAuthenticated && /[?&]sample=1(&|$)/.test(location.search)) {
+    /* a guest may read the sample lesson; js/lms-player.js opens the first lesson only and js/lms-extras.js explains the rest */
+    window.MT_SAMPLE = true;
+} else if (!isAuthenticated) {
     /* returning members sign in; login carries the redirect through to register for new visitors */
     window.location.replace('../../login?redirect=' + encodeURIComponent('/products/the-pack/'));
 } else if (!isPremium && !isDemoMode) {

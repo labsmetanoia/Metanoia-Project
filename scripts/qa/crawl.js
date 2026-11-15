@@ -7,7 +7,7 @@ const PAGES = (process.env.PAGES ? process.env.PAGES.split(',') : [
   '/legal/privacy', '/legal/terms', '/legal/data-dignity', '/mentors/apply', '/admin/',
   '/pages/about', '/pages/student', '/pages/fresh-graduate', '/pages/early-professional', '/pages/mature-professional', '/pages/enterprise', '/pages/mentors', '/pages/mind-palace',
   '/pages/products/high-impact', '/pages/products/professional-world', '/pages/products/project-aladin', '/pages/products/project-horizon', '/pages/products/project-maverick', '/pages/products/project-nexus', '/pages/products/scholarship-prep', '/pages/products/the-compass',
-  '/products/the-map/', '/products/the-pack/', '/products/the-rope/', '/products/the-route/', '/products/the-compass/', '/products/the-lookout/', '/products/the-range/',
+  '/products/the-map/', '/products/the-map/?sample=1', '/products/the-rope/?sample=1', '/products/the-pack/', '/products/the-rope/', '/products/the-route/', '/products/the-compass/', '/products/the-lookout/', '/products/the-range/',
   '/products/the-map/range/', '/products/the-map/range/industry/property-construction/', '/products/the-map/range/indofood/', '/products/the-map/range/accenture/', '/products/the-map/range/international/function/data/page/8/',
   '/mind-palace/', '/mind-palace/get-hired/', '/mind-palace/ats-myths-decoded/', '/mind-palace/case-interview-anatomy/',
   '/nope-404'

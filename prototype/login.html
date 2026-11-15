@@ -377,6 +377,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <button class="btn-primary-auth" type="submit" data-en="Continue the Ascent →" data-id="Lanjutkan Pendakian →">Continue the Ascent →</button>
         </form>
         <p class="bottom-cta"><span data-en="No account?" data-id="Belum punya akun?">No account?</span> <a class="gold-link" href="register" data-en="Create one free →" data-id="Buat gratis →">Create one free →</a></p>
+        <p class="bottom-cta" id="sampleCta" hidden style="margin-top:10px"><span data-en="Not sure yet?" data-id="Masih ragu?">Not sure yet?</span> <a class="gold-link" href="pricing" data-en="Read a sample lesson first →" data-id="Baca dulu pelajaran contohnya →">Read a sample lesson first →</a></p>
       </div>
 
       <!-- FORGOT PASSWORD VIEW -->
@@ -493,6 +494,10 @@ const redirectTo = (() => {
   const r = Q.get('next') || Q.get('redirect') || '';
   return (r && !r.includes(':') && !r.startsWith('//') && !r.includes('..')) ? r : '';
 })();
+/* a visitor sent here from a lesson product may read its sample lesson before deciding (js/lms-extras.js) */
+(() => { const m = /^\/products\/(the-map|the-pack|the-rope|the-route)\//.exec(redirectTo), box = document.getElementById('sampleCta');
+  if (m && box) { box.querySelector('a').href = '/products/' + m[1] + '/?sample=1'; box.hidden = false; } })();
+
 // carry the redirect through to registration for first-time visitors
 if(redirectTo){
   document.querySelectorAll('a[href="register"]').forEach(a=>{

@@ -23,6 +23,7 @@
   var REG = window.MT_LMS[slug];
   var DEMO = new URLSearchParams(location.search).get('demo') === 'true';
   var KEY = 'mt-lms:' + slug;
+  var SELF = (document.currentScript || {}).src || '';   /* where js/lms-extras.js lives (certificate button, sample-lesson banner) */
 
   /* flat lesson list for prev/next across module boundaries */
   var FLAT = [];
@@ -124,10 +125,22 @@
     return -1;
   }
   function canAccess(i) {
+    if (window.MT_SAMPLE) return i === 0;   /* a guest reading the sample: the first lesson only */
     if (DEMO) return true;
     if (FLAT[i] && FLAT[i].m.bonus) return true;   /* a bonus module: every lesson opens on its own, in any order */
     for (var k = 0; k < i; k++) if (!isDone(FLAT[k].l.n)) return false;
     return true;
+  }
+  /* The certificate button (every core lesson done) and the sample banner (a guest on ?sample=1) are in
+     js/lms-extras.js, fetched only when one of them applies. */
+  function extras() {
+    var core = FLAT.filter(function (x) { return !x.m.bonus && !x.m.appendix; });
+    var complete = core.length > 0 && core.every(function (x) { return isDone(x.l.n); });
+    if (!window.MT_SAMPLE && !complete) return;
+    var go = function () { if (window.MT_LMS_EXTRAS) window.MT_LMS_EXTRAS.sync({ slug: slug, sample: !!window.MT_SAMPLE, complete: complete, lessons: core.length, first: FLAT[0].l.n, firstDone: isDone(FLAT[0].l.n) }); };
+    if (window.MT_LMS_EXTRAS) return go();
+    if (extras.asked || !SELF) return; extras.asked = true;
+    var sc = document.createElement('script'); sc.src = SELF.replace(/lms-player\.js.*$/, 'lms-extras.js'); sc.onload = go; document.head.appendChild(sc);
   }
   function doneCount() {
     var p = progress(), c = 0;
@@ -220,7 +233,7 @@
         b.appendChild(el('span', 'lr-dot', isDone(l.n) ? '✓' : ''));
         b.appendChild(el('span', 'lr-num', l.n));
         b.appendChild(bi('span', null, l.title));
-        b.addEventListener('click', function () { if (canAccess(i)) openLesson(i); });
+        b.addEventListener('click', function () { if (canAccess(i)) openLesson(i); else if (window.MT_SAMPLE && window.MT_LMS_EXTRAS) window.MT_LMS_EXTRAS.prompt(); });
         railEl.appendChild(b);
       });
     });
@@ -4222,6 +4235,7 @@
     /* progress percentages: any element carrying data-lms-progress plus the
        common inline progress bars on the home tab and sidebar */
     var pct = Math.round(doneCount() / FLAT.length * 100);
+    extras();
     document.querySelectorAll('[data-lms-progress]').forEach(function (n) { n.textContent = pct + '%'; });
     document.querySelectorAll('[data-lms-progress-bar]').forEach(function (n) { n.style.width = pct + '%'; });
     /* sidebar course progress */
@@ -4291,6 +4305,7 @@
   });
   root.querySelector('.lms-next').addEventListener('click', function () {
     if (current < FLAT.length - 1 && canAccess(current + 1)) openLesson(current + 1);
+    else if (window.MT_SAMPLE && window.MT_LMS_EXTRAS) window.MT_LMS_EXTRAS.prompt();   /* the sample ends here: say what opens the rest */
   });
   root.querySelector('.lmsp-foot .lms-complete').addEventListener('click', function () {
     var l = FLAT[current].l;

@@ -20,6 +20,8 @@
  *   GET   /api/admin/feedback?status=&kind=&q=&limit=  what members and visitors sent from the Feedback button
  *   PATCH /api/admin/feedback/:id  { status?, notes? }
  *   GET   /api/admin/audit?limit=                      the admin audit trail (who changed or exported what)
+ *   GET   /api/admin/trends?days=30                    one number per day for accounts, active members, visitors, Career Map
+ *                                                      completions, leads, feedback, script errors and certificates
  *   GET   /api/admin/errors?days=7                     script errors reported by browsers, grouped by message and page
  *   GET   /api/admin/digest?days=7                     the weekly owner summary as numbers and as the e-mail text (nothing is sent)
  *   POST  /api/admin/digest                            sends that summary to LEADS_NOTIFY_TO now
@@ -190,6 +192,27 @@ export async function onRequestGet({ request, env, params }) {
       const r = await env.DB.prepare('SELECT * FROM admin_audit ORDER BY ts DESC LIMIT ?').bind(limit).all();
       return json({ ok: true, audit: (r.results || []).map(a => ({ id: a.id, ts: a.ts, actor: a.actor, action: a.action, target: a.target, detail: a.detail_json ? JSON.parse(a.detail_json) : null })) });
     } catch (e) { return json({ ok: true, audit: [], pending_migration: true }); }
+  }
+
+  if (route === 'trends') {
+    const days = Math.min(180, Math.max(7, parseInt(url.searchParams.get('days') || '30', 10) || 30));
+    const start = new Date(Date.now() - (days - 1) * 86400 * 1000).toISOString().slice(0, 10);
+    const axis = []; for (let i = 0; i < days; i++) axis.push(new Date(Date.parse(start + 'T00:00:00Z') + i * 86400 * 1000).toISOString().slice(0, 10));
+    /* each query groups by the UTC day of its timestamp; a table that is not there yet (an unapplied migration) reads as zeros */
+    const perDay = async (sql) => { const out = axis.map(() => 0); try { const r = await env.DB.prepare(sql).bind(start).all(); for (const x of r.results || []) { const i = axis.indexOf(x.d); if (i >= 0) out[i] = x.n; } } catch (e) { /* missing table */ } return out; };
+    const series = {
+      accounts: await perDay('SELECT substr(created_at, 1, 10) AS d, COUNT(*) AS n FROM users WHERE created_at >= ? GROUP BY d'),
+      active: await perDay('SELECT substr(updated_at, 1, 10) AS d, COUNT(DISTINCT user_id) AS n FROM progress WHERE updated_at >= ? GROUP BY d'),
+      visitors: await perDay("SELECT substr(ts, 1, 10) AS d, COUNT(DISTINCT subject_id) AS n FROM events WHERE name = 'site.page.viewed' AND ts >= ? GROUP BY d"),
+      assessments: await perDay('SELECT substr(ts, 1, 10) AS d, COUNT(*) AS n FROM assessments WHERE ts >= ? GROUP BY d'),
+      leads: await perDay("SELECT substr(created_at, 1, 10) AS d, COUNT(*) AS n FROM leads WHERE created_at >= ? AND kind IN ('mentor', 'enterprise', 'newsletter', 'waitlist') GROUP BY d"),
+      feedback: await perDay('SELECT substr(created_at, 1, 10) AS d, COUNT(*) AS n FROM feedback WHERE created_at >= ? GROUP BY d'),
+      errors: await perDay("SELECT substr(ts, 1, 10) AS d, COUNT(*) AS n FROM events WHERE name = 'site.script.error' AND ts >= ? GROUP BY d"),
+      certificates: await perDay('SELECT substr(issued_at, 1, 10) AS d, COUNT(*) AS n FROM certificates WHERE issued_at >= ? GROUP BY d')
+    };
+    const totals = {}; for (const k in series) totals[k] = series[k].reduce((a, b) => a + b, 0);
+    /* active and visitors are distinct per day, so their sum is person-days, not people */
+    return json({ ok: true, days, axis, series, totals, note: 'UTC days; active and visitors count distinct people per day' });
   }
 
   if (route === 'errors') {

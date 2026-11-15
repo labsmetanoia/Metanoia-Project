@@ -1070,6 +1070,10 @@ def split_registries():
                 light.append(stub)
             module['lessons'] = light
         reg['__lazy'] = {'base': f'/data/lms/{slug}/lessons/', 'v': version}
+        # the core lessons (bonus and appendix modules stay out): what a certificate of completion requires
+        # (functions/api/certificates) and what js/lms-extras.js counts for the sample banner
+        core = [str(l['n']) for m in reg['modules'] if not m.get('bonus') and not m.get('appendix') for l in m['lessons']]
+        write_json(os.path.join(out_dir, 'manifest.json'), {'product': slug, 'lessons': core, 'all': n_lessons})
         write(os.path.join(out_dir, 'index.js'),
               "window.MT_LMS=window.MT_LMS||{};window.MT_LMS['%s']=%s;\n" % (slug, json.dumps(reg, ensure_ascii=False, separators=(',', ':'))))
         print(f'registry {slug}: index.js {os.path.getsize(os.path.join(out_dir, "index.js")) // 1024} KB, {n_lessons} lesson files')
