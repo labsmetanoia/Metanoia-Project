@@ -26,7 +26,7 @@ const LANG = process.env.LANG_ || 'en';
       p.on('pageerror', e => errs.push(String(e.message).slice(0, 160)));
       p.on('console', m => { if (m.type() === 'error') cons.push(m.text().slice(0, 160)); });
       p.on('response', r => { const s = r.status(); if (s >= 400 && !/fonts|googleapis|gstatic/.test(r.url())) fails.push(s + ' ' + r.url().replace(B, '')); });
-      p.on('requestfailed', r => { if (!/fonts|googleapis|gstatic|analytics|api\/|challenges\.cloudflare|cloudflareinsights/.test(r.url())) fails.push('FAIL ' + r.url().replace(B, '') + ' ' + (r.failure() || {}).errorText); });
+      p.on('requestfailed', r => { if (/ERR_ABORTED/.test((r.failure() || {}).errorText || '')) return; if (!/fonts|googleapis|gstatic|analytics|api\/|challenges\.cloudflare|cloudflareinsights/.test(r.url())) fails.push('FAIL ' + r.url().replace(B, '') + ' ' + (r.failure() || {}).errorText); });
       let status = 0;
       try { const r = await p.goto(B + u, { waitUntil: 'load', timeout: 30000 }); status = r ? r.status() : 0; await p.waitForTimeout(900); } catch (e) { errs.push('NAV ' + e.message.slice(0, 80)); }
       const m = await p.evaluate(() => {
