@@ -40,8 +40,9 @@ export async function onRequestGet({ request, env, params }) {
   const route = (params.route || []).join('/');
   if (!ready(env)) return fail(503, 'accounts not configured');
   if (route === 'me') {
+    /* a guest is an answer, not an error: 200 with user null keeps the console clean on every public page */
     const u = await getUser(request, env);
-    if (!u) return fail(401, 'not signed in');
+    if (!u) return json({ ok: true, user: null, access: null });
     return json({ ok: true, user: publicUser(u), access: await accessFor(env, u) });
   }
   if (route === 'sessions') {
@@ -92,6 +93,9 @@ export async function onRequestGet({ request, env, params }) {
     const site = env.SITE_URL || new URL(request.url).origin;
     if (!row || !row.user_id) return Response.redirect(site + '/login?verified=0', 302);
     await env.DB.prepare('UPDATE users SET email_verified_at = ?, updated_at = ? WHERE id = ?').bind(nowIso(), nowIso(), row.user_id).run();
+    /* the admin role follows a proven address: an ADMIN_EMAILS account is promoted here, never at password registration */
+    const vu = await env.DB.prepare('SELECT email, role FROM users WHERE id = ?').bind(row.user_id).first();
+    if (vu && vu.role !== 'admin' && isAdminEmail(env, vu.email)) await env.DB.prepare('UPDATE users SET role = ? WHERE id = ?').bind('admin', row.user_id).run();
     return Response.redirect(site + '/login?verified=1', 302);
   }
   return fail(404, 'unknown route');
@@ -128,7 +132,8 @@ export async function onRequestPost({ request, env, params }) {
     const id = newId();
     const now = nowIso();
     await env.DB.prepare('INSERT INTO users (id, email, name, pw_hash, role, audience, locale, consent_json, marketing_opt_in, founding, created_at, updated_at, last_login_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
-      .bind(id, email, name, await hashPassword(password), admin ? 'admin' : 'member', audience, locale, JSON.stringify(consent), marketing ? 1 : 0, isFounding(env) ? 1 : 0, now, now, now).run();
+      /* always a member: anyone can type an address, so the admin role waits for proof of the mailbox (verify link, magic link or OAuth) */
+      .bind(id, email, name, await hashPassword(password), 'member', audience, locale, JSON.stringify(consent), marketing ? 1 : 0, isFounding(env) ? 1 : 0, now, now, now).run();
     await grantFree(env, id);
     const setCookie = await createSession(request, env, id);
     let verification = { sent: false, reason: 'mail not configured' };
@@ -151,7 +156,7 @@ export async function onRequestPost({ request, env, params }) {
     if (!u || !good) return fail(401, 'wrong e-mail or password');
     if (u.deletion_requested_at) return fail(403, 'deletion pending');
     /* an address added to ADMIN_EMAILS after it registered is promoted on its next sign-in */
-    if (u.role !== 'admin' && isAdminEmail(env, email)) {
+    if (u.role !== 'admin' && u.email_verified_at && isAdminEmail(env, email)) {
       await env.DB.prepare('UPDATE users SET role = ?, updated_at = ?, last_login_at = ? WHERE id = ?').bind('admin', nowIso(), nowIso(), u.id).run();
       u.role = 'admin';
     } else {
@@ -207,7 +212,8 @@ export async function onRequestPost({ request, env, params }) {
       sent = (await mailReset(env, { to: email, name: u.name, url: `${site}/login?reset=${raw}`, locale: u.locale })).sent;
     }
     /* Always 200: never reveal whether an address has an account. */
-    return json({ ok: true, mail_configured: !!env.RESEND_API_KEY, sent: u ? sent : false });
+    void sent;
+    return json({ ok: true, mail_configured: !!env.RESEND_API_KEY, sent: !!env.RESEND_API_KEY });
   }
 
   if (route === 'reset') {
@@ -215,7 +221,8 @@ export async function onRequestPost({ request, env, params }) {
     if (password.length < PW_MIN || password.length > PW_MAX) return fail(400, `password must be ${PW_MIN}-${PW_MAX} characters`);
     const row = await consumeToken(env, 'reset', String(body.token || ''));
     if (!row || !row.user_id) return fail(400, 'link invalid or expired');
-    await env.DB.prepare('UPDATE users SET pw_hash = ?, updated_at = ? WHERE id = ?').bind(await hashPassword(password), nowIso(), row.user_id).run();
+    /* the reset link reached the mailbox, so it also proves the address */
+    await env.DB.prepare('UPDATE users SET pw_hash = ?, updated_at = ?, email_verified_at = COALESCE(email_verified_at, ?) WHERE id = ?').bind(await hashPassword(password), nowIso(), nowIso(), row.user_id).run();
     await env.DB.prepare('DELETE FROM sessions WHERE user_id = ?').bind(row.user_id).run();
     return json({ ok: true });
   }

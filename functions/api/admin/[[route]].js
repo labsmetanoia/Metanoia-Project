@@ -16,18 +16,41 @@
  *   POST  /api/admin/entitlements                     { user, product, plan, ends_at?, note? }   grant
  *   POST  /api/admin/entitlements/founding            { product?, plan?, ends_at?, note? }       one grant per founding member
  *   DELETE /api/admin/entitlements/:id                 revoke
+ *   GET   /api/admin/leads.csv?kind=&status=&q=        the lead list as CSV
+ *   GET   /api/admin/feedback?status=&kind=&q=&limit=  what members and visitors sent from the Feedback button
+ *   PATCH /api/admin/feedback/:id  { status?, notes? }
+ *   GET   /api/admin/audit?limit=                      the admin audit trail (who changed or exported what)
+ *
+ * Every write and every export is recorded in admin_audit (migration 0007).
  */
-import { json, fail, readJson, clip, nowIso, sameOrigin } from '../../../server/lib/http.js';
+import { json, fail, readJson, clip, nowIso, sameOrigin, rateLimit, clientIp, newId } from '../../../server/lib/http.js';
 import { adminActor } from '../../../server/lib/auth.js';
 import { PRODUCTS, PLANS, accessMode, betaEndsAt, listEntitlements, resolveAccess, grantEntitlement, revokeEntitlement, grantFounding } from '../../../server/lib/entitlements.js';
 
 const STATUSES = ['new', 'reviewing', 'accepted', 'declined', 'contacted', 'archived', 'confirmed', 'unsubscribed'];
 const KINDS = ['mentor', 'enterprise', 'newsletter', 'waitlist', 'results'];
+const FB_STATUSES = ['new', 'reviewing', 'planned', 'done', 'declined'];
+const FB_KINDS = ['bug', 'idea', 'content', 'praise', 'other'];
+
+/* CSV cell: quoted when needed, and a leading = + - @ is neutralised so a spreadsheet never runs a member-typed formula */
+const csvCell = v => { v = v == null ? '' : String(v); if (/^[=+\-@\t\r]/.test(v)) v = "'" + v; return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+const csvResponse = (name, cols, rows) => new Response(cols.join(',') + '\n' + rows.map(r => cols.map(c => csvCell(r[c])).join(',')).join('\n') + '\n',
+  { headers: { 'content-type': 'text/csv; charset=utf-8', 'content-disposition': `attachment; filename="${name}"`, 'cache-control': 'no-store' } });
+
+/* one row per admin action that changes or exports data; never blocks the action itself */
+async function audit(env, actor, action, target, detail) {
+  try {
+    await env.DB.prepare('INSERT INTO admin_audit (id, ts, actor, action, target, detail_json) VALUES (?, ?, ?, ?, ?, ?)')
+      .bind(newId(), nowIso(), String(actor).slice(0, 254), action, target ? String(target).slice(0, 254) : null, detail ? JSON.stringify(detail).slice(0, 2000) : null).run();
+  } catch (e) { /* before migration 0007 */ }
+}
 
 /* resolves { actor } when the caller may proceed, or a Response to return */
 async function guard(request, env, write) {
   if (!env.DB) return fail(503, 'database not configured');
   if (write && !sameOrigin(request)) return fail(403, 'origin');
+  /* a bearer token is guessable only by trying: cap the tries per address */
+  if (request.headers.get('authorization') && !(await rateLimit(env, 'adm:' + clientIp(request), 300, 900))) return fail(429, 'too many attempts');
   const actor = await adminActor(request, env);
   if (!actor) return fail(401, 'admin sign-in or token required');
   return { actor };
@@ -52,7 +75,7 @@ export async function onRequestGet({ request, env, params }) {
   const route = (params.route || []).join('/');
   const url = new URL(request.url);
 
-  if (route === 'leads') {
+  if (route === 'leads' || route === 'leads.csv') {
     const kind = url.searchParams.get('kind'), status = url.searchParams.get('status'), q = clip(url.searchParams.get('q') || '', 80);
     const limit = Math.min(500, Math.max(1, parseInt(url.searchParams.get('limit') || '200', 10) || 200));
     const where = [], args = [];
@@ -60,7 +83,12 @@ export async function onRequestGet({ request, env, params }) {
     if (STATUSES.includes(status)) { where.push('status = ?'); args.push(status); }
     if (q) { where.push('(email LIKE ? OR name LIKE ? OR payload_json LIKE ?)'); args.push(`%${q}%`, `%${q}%`, `%${q}%`); }
     const sql = 'SELECT * FROM leads' + (where.length ? ' WHERE ' + where.join(' AND ') : '') + ' ORDER BY created_at DESC LIMIT ?';
-    const r = await env.DB.prepare(sql).bind(...args, limit).all();
+    const r = await env.DB.prepare(sql).bind(...args, route === 'leads.csv' ? 5000 : limit).all();
+    if (route === 'leads.csv') {
+      await audit(env, g.actor, 'leads.export', null, { kind: kind || 'all', status: status || 'all', q, rows: (r.results || []).length });
+      const flat = (r.results || []).map(x => { const p = JSON.parse(x.payload_json || '{}'); return { id: x.id, kind: x.kind, email: x.email, name: x.name, status: x.status, locale: x.locale, source_page: x.source_page, created_at: x.created_at, confirmed_at: x.confirmed_at, company: p.company, role: p.role, detail: p.message || p.motivation || p.expertise || '', notes: x.notes }; });
+      return csvResponse(`metanoia-leads${KINDS.includes(kind) ? '-' + kind : ''}.csv`, ['id', 'kind', 'email', 'name', 'status', 'locale', 'source_page', 'created_at', 'confirmed_at', 'company', 'role', 'detail', 'notes'], flat);
+    }
     return json({ ok: true, leads: (r.results || []).map(row) });
   }
 
@@ -85,7 +113,9 @@ export async function onRequestGet({ request, env, params }) {
       access.founding_members = f ? f.n : 0; access.active_grants = a ? a.n : 0;
     } catch (e) { /* before migration 0005 */ }
     try { const pd = await env.DB.prepare('SELECT COUNT(*) AS n FROM users WHERE deletion_requested_at IS NOT NULL').first(); access.pending_deletions = pd ? pd.n : 0; } catch (e) { access.pending_deletions = null; }
-    return json({ ok: true, actor: g.actor, leads: leads.results || [], users: users ? users.n : 0, events_30d: events.results || [], assessments: assessments ? assessments.n : 0, mail, access, time: nowIso() });
+    let feedbackNew = null;
+    try { const fbn = await env.DB.prepare("SELECT COUNT(*) AS n FROM feedback WHERE status = 'new'").first(); feedbackNew = fbn ? fbn.n : 0; } catch (e) { /* before migration 0007 */ }
+    return json({ ok: true, actor: g.actor, feedback_new: feedbackNew, leads: leads.results || [], users: users ? users.n : 0, events_30d: events.results || [], assessments: assessments ? assessments.n : 0, mail, access, time: nowIso() });
   }
 
   if (route === 'users' || route === 'users.csv') {
@@ -97,10 +127,8 @@ export async function onRequestGet({ request, env, params }) {
     const r = await env.DB.prepare(`SELECT id, email, name, role, audience, locale, founding, email_verified_at, marketing_opt_in, created_at, last_login_at FROM users ${where.length ? 'WHERE ' + where.join(' AND ') : ''} ORDER BY created_at DESC LIMIT ?`).bind(...args, limit).all();
     const users = (r.results || []).map(userRow);
     if (route === 'users.csv') {
-      const cols = ['id', 'email', 'name', 'role', 'audience', 'locale', 'founding', 'email_verified', 'marketing_opt_in', 'created_at', 'last_login_at'];
-      const cell = v => { v = v == null ? '' : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
-      const csv = cols.join(',') + '\n' + users.map(u => cols.map(c => cell(u[c])).join(',')).join('\n') + '\n';
-      return new Response(csv, { headers: { 'content-type': 'text/csv; charset=utf-8', 'content-disposition': `attachment; filename="metanoia-users${founding ? '-founding' : ''}.csv"`, 'cache-control': 'no-store' } });
+      await audit(env, g.actor, 'users.export', null, { q, founding, rows: users.length });
+      return csvResponse(`metanoia-users${founding ? '-founding' : ''}.csv`, ['id', 'email', 'name', 'role', 'audience', 'locale', 'founding', 'email_verified', 'marketing_opt_in', 'created_at', 'last_login_at'], users);
     }
     return json({ ok: true, users });
   }
@@ -135,6 +163,31 @@ export async function onRequestGet({ request, env, params }) {
     return json({ ok: true, user: userRow(u), entitlements: rows.map(entRow), access: resolveAccess(env, u, rows) });
   }
 
+  if (route === 'feedback') {
+    const status = url.searchParams.get('status'), kind = url.searchParams.get('kind'), q = clip(url.searchParams.get('q') || '', 80);
+    const limit = Math.min(500, Math.max(1, parseInt(url.searchParams.get('limit') || '200', 10) || 200));
+    const where = [], args = [];
+    if (FB_STATUSES.includes(status)) { where.push('f.status = ?'); args.push(status); }
+    if (FB_KINDS.includes(kind)) { where.push('f.kind = ?'); args.push(kind); }
+    if (q) { where.push('(f.message LIKE ? OR f.page LIKE ? OR u.email LIKE ? OR f.contact LIKE ?)'); args.push(`%${q}%`, `%${q}%`, `%${q}%`, `%${q}%`); }
+    try {
+      const r = await env.DB.prepare(`SELECT f.*, u.email AS user_email, u.name AS user_name FROM feedback f LEFT JOIN users u ON u.id = f.user_id ${where.length ? 'WHERE ' + where.join(' AND ') : ''} ORDER BY f.created_at DESC LIMIT ?`).bind(...args, limit).all();
+      const counts = await env.DB.prepare('SELECT status, COUNT(*) AS n FROM feedback GROUP BY status').all();
+      const avg = await env.DB.prepare('SELECT AVG(rating) AS a, COUNT(rating) AS n FROM feedback WHERE rating IS NOT NULL').first();
+      return json({ ok: true, feedback: (r.results || []).map(f => ({ id: f.id, kind: f.kind, rating: f.rating, message: f.message, page: f.page, locale: f.locale, device: f.user_agent, status: f.status, notes: f.notes,
+        from: f.user_email || f.contact || null, name: f.user_name || null, member: !!f.user_id, created_at: f.created_at, updated_at: f.updated_at })),
+        counts: counts.results || [], rating: { average: avg && avg.a != null ? Math.round(avg.a * 10) / 10 : null, count: avg ? avg.n : 0 } });
+    } catch (e) { return json({ ok: true, feedback: [], counts: [], rating: { average: null, count: 0 }, pending_migration: true }); }
+  }
+
+  if (route === 'audit') {
+    const limit = Math.min(500, Math.max(1, parseInt(url.searchParams.get('limit') || '100', 10) || 100));
+    try {
+      const r = await env.DB.prepare('SELECT * FROM admin_audit ORDER BY ts DESC LIMIT ?').bind(limit).all();
+      return json({ ok: true, audit: (r.results || []).map(a => ({ id: a.id, ts: a.ts, actor: a.actor, action: a.action, target: a.target, detail: a.detail_json ? JSON.parse(a.detail_json) : null })) });
+    } catch (e) { return json({ ok: true, audit: [], pending_migration: true }); }
+  }
+
   if (route === 'aggregates') {
     const metric = clip(url.searchParams.get('metric') || '', 80);
     const days = Math.min(400, Math.max(1, parseInt(url.searchParams.get('days') || '90', 10) || 90));
@@ -151,6 +204,17 @@ export async function onRequestGet({ request, env, params }) {
 export async function onRequestPatch({ request, env, params }) {
   const g = await guard(request, env, true); if (g instanceof Response) return g;
   const parts = params.route || [];
+  if (parts[0] === 'feedback' && parts[1]) {
+    const fid = clip(parts[1], 64), fb = (await readJson(request)) || {};
+    const curF = await env.DB.prepare('SELECT * FROM feedback WHERE id = ?').bind(fid).first().catch(() => null);
+    if (!curF) return fail(404, 'no such feedback');
+    const st = fb.status !== undefined ? (FB_STATUSES.includes(fb.status) ? fb.status : null) : curF.status;
+    if (!st) return fail(400, 'bad status');
+    const nt = fb.notes !== undefined ? clip(fb.notes, 4000) : curF.notes;
+    await env.DB.prepare('UPDATE feedback SET status = ?, notes = ?, updated_at = ? WHERE id = ?').bind(st, nt, nowIso(), fid).run();
+    await audit(env, g.actor, 'feedback.update', fid, { status: st });
+    return json({ ok: true, feedback: { id: fid, status: st, notes: nt } });
+  }
   if (parts[0] !== 'leads' || !parts[1]) return fail(404, 'unknown route');
   const id = clip(parts[1], 64);
   const body = (await readJson(request)) || {};
@@ -160,6 +224,7 @@ export async function onRequestPatch({ request, env, params }) {
   if (!status) return fail(400, 'bad status');
   const notes = body.notes !== undefined ? clip(body.notes, 4000) : cur.notes;
   await env.DB.prepare('UPDATE leads SET status = ?, notes = ?, updated_at = ? WHERE id = ?').bind(status, notes, nowIso(), id).run();
+  await audit(env, g.actor, 'lead.update', id, { kind: cur.kind, status });
   const r = await env.DB.prepare('SELECT * FROM leads WHERE id = ?').bind(id).first();
   return json({ ok: true, lead: row(r) });
 }
@@ -178,6 +243,7 @@ export async function onRequestPost({ request, env, params }) {
     const plan = body.plan === undefined ? 'founding' : String(body.plan);
     if (!PLANS.includes(plan) || plan === 'free') return fail(400, 'unknown plan', { field: 'plan' });
     const n = await grantFounding(env, { product, plan, endsAt, note: clip(body.note || '', 500) || null, grantedBy });
+    await audit(env, g.actor, 'entitlement.grant_founding', null, { product, plan, ends_at: endsAt, granted: n });
     return json({ ok: true, granted: n });
   }
   if (parts.length > 1) return fail(404, 'unknown route');
@@ -186,6 +252,7 @@ export async function onRequestPost({ request, env, params }) {
   const u = await findUser(env, body.user || '');
   if (!u) return fail(404, 'no such member', { field: 'user' });
   const e = await grantEntitlement(env, { userId: u.id, product, plan, endsAt, source: 'admin:' + grantedBy, note: clip(body.note || '', 500) || null, grantedBy });
+  await audit(env, g.actor, 'entitlement.grant', u.email, { product, plan, ends_at: endsAt, id: e.id });
   const rows = await listEntitlements(env, u.id, { includeRevoked: true });
   return json({ ok: true, entitlement: entRow(e), access: resolveAccess(env, u, rows) }, 201);
 }
@@ -195,5 +262,6 @@ export async function onRequestDelete({ request, env, params }) {
   const parts = params.route || [];
   if (parts[0] !== 'entitlements' || !parts[1]) return fail(404, 'unknown route');
   const ok = await revokeEntitlement(env, clip(parts[1], 64));
+  if (ok) await audit(env, g.actor, 'entitlement.revoke', clip(parts[1], 64), null);
   return ok ? json({ ok: true }) : fail(404, 'no active grant with that id');
 }

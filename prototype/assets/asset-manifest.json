@@ -30997,6 +30997,66 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "Same source as assets/pe/ed-abroad-map.jpg. Replaces the mountaineers photo on the Go abroad? tile (design feedback of 2026-11-08). One identifiable person: licence proof and a model release are still to be filed before launch."
+    },
+    {
+      "file": "assets/icon-512.png",
+      "bytes": 132618,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo)",
+      "licence": "Owned",
+      "licence_proof": "n/a — authored for this project",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "App icon rendered from favicon.svg (web app manifest)."
+    },
+    {
+      "file": "assets/icon-maskable-512.png",
+      "bytes": 53616,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo)",
+      "licence": "Owned",
+      "licence_proof": "n/a — authored for this project",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Maskable app icon rendered from favicon.svg (web app manifest)."
+    },
+    {
+      "file": "assets/icon-maskable-192.png",
+      "bytes": 12173,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo)",
+      "licence": "Owned",
+      "licence_proof": "n/a — authored for this project",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Maskable app icon rendered from favicon.svg (web app manifest)."
+    },
+    {
+      "file": "assets/bg/hero-960.webp",
+      "bytes": 67656,
+      "category": "photo",
+      "people": "unlikely",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "n/a",
+      "status": "undocumented",
+      "notes": "Resized WebP of assets/bg/hero.jpg for the pricing hero; same source and licence status as the original."
+    },
+    {
+      "file": "assets/bg/hero-1600.webp",
+      "bytes": 155734,
+      "category": "photo",
+      "people": "unlikely",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "n/a",
+      "status": "undocumented",
+      "notes": "Resized WebP of assets/bg/hero.jpg for the pricing hero; same source and licence status as the original."
     }
   ]
 }

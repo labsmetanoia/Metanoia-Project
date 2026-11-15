@@ -17,6 +17,9 @@
  *
  * Not exercised in this repository: there are no provider credentials here.
  */
+import { getUser } from '../../../../server/lib/auth.js';
+import { rateLimit } from '../../../../server/lib/http.js';
+
 const HEYGEN = {
   base: 'https://api.heygen.com/v1',
   token: '/streaming.create_token',
@@ -49,6 +52,11 @@ export async function onRequestPost({ request, env, params }) {
   try { body = await request.json(); } catch (e) { body = {}; }
   const origin = request.headers.get('origin') || '';
   if (origin && new URL(request.url).origin !== origin) return json({ error: 'origin' }, 403);
+
+  /* the provider bills per session, so only a signed-in member may open one, and not many an hour */
+  const member = await getUser(request, env);
+  if (!member) return json({ error: 'sign in to use the live interviewer' }, 401);
+  if (route === 'session' && !(await rateLimit(env, 'avatar:' + member.id, 12, 3600))) return json({ error: 'too many sessions; try again in an hour' }, 429);
 
   try {
     if (route === 'session') {

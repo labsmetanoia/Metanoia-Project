@@ -42,7 +42,7 @@
 <link rel="alternate" hreflang="en" href="https://metanoialabs.net/products/the-rope/">
 <link rel="alternate" hreflang="id" href="https://metanoialabs.net/products/the-rope/">
 <link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/products/the-rope/">
-<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../../assets/favicon-192.png"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../../assets/favicon-192.png"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/products/the-rope/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="The Rope · Metanoia Labs">
@@ -148,7 +148,7 @@
     --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
     --gold-border:rgba(180,140,60,.16); --gold-border-hover:rgba(201,168,76,.38); --gold-glow:rgba(201,168,76,.12);
     --glass-bg:rgba(8,14,26,.70); --glass-blur:blur(20px);
-    --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.30);
+    --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.50);
     --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
     --font:'Roboto Condensed','Roboto Condensed Fallback','Inter','Inter Fallback',sans-serif; --serif:"Playfair Display","Playfair Display Fallback",Georgia,serif;
     color-scheme:dark;
@@ -159,7 +159,7 @@
     --gold:#8A6A14; --gold-bright:#B4891F; --gold-deep:#6B5210;
     --gold-border:rgba(122,90,16,.22); --gold-border-hover:rgba(122,90,16,.46); --gold-glow:rgba(154,123,36,.10);
     --glass-bg:rgba(255,255,255,.82); --glass-blur:blur(20px);
-    --text:#1B2434; --text-sub:rgba(27,36,52,.82); --text-muted:rgba(27,36,52,.60); --text-faint:rgba(27,36,52,.38);
+    --text:#1B2434; --text-sub:rgba(27,36,52,.82); --text-muted:rgba(27,36,52,.60); --text-faint:rgba(27,36,52,.62);
     color-scheme:light;
   }
   *{box-sizing:border-box}
@@ -2872,5 +2872,6 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
 <script src="../../js/mt-api.js"></script>
 <script src="../../js/mt-auth.js"></script>
 <script src="../../js/mt-progress.js"></script>
+<script src="../../js/mt-feedback-lazy.js" defer></script>
 </body>
 </html>

@@ -35,7 +35,7 @@
 <meta name="theme-color" content="#050A12">
 <title>Settings · Metanoia Labs</title>
 <link rel="canonical" href="https://metanoialabs.net/settings">
-<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/roboto-condensed-100-900-normal-latin.woff2" as="font" type="font/woff2" crossorigin><style id="fontsCss">
 /* self-hosted fonts, inlined from css/fonts.css (keep both in step) */
 @font-face{
@@ -135,7 +135,7 @@
   --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
   --gold-border:rgba(180,140,60,0.16); --gold-border-hover:rgba(201,168,76,0.38); --gold-glow:rgba(201,168,76,0.12);
   --glass-bg:rgba(8,14,26,0.70); --glass-blur:blur(20px);
-  --text:#FFFFFF; --text-sub:rgba(255,255,255,0.82); --text-muted:rgba(255,255,255,0.55); --text-faint:rgba(255,255,255,0.30);
+  --text:#FFFFFF; --text-sub:rgba(255,255,255,0.82); --text-muted:rgba(255,255,255,0.55); --text-faint:rgba(255,255,255,.50);
   --red:#DC2626;
   --font-sans:'Roboto Condensed','Roboto Condensed Fallback','Inter','Inter Fallback',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
   --text-xs:0.6875rem; --text-sm:0.75rem; --text-base:0.875rem; --text-md:1rem; --text-lg:1.125rem; --text-xl:1.25rem; --text-2xl:1.5rem;
@@ -262,11 +262,11 @@ h1,h2,h3{font-weight:inherit;margin:0}
   <p class="page-sub" data-en="Manage your account, your target, and how Metanoia works for you." data-id="Kelola akunmu, targetmu, dan cara Metanoia bekerja untukmu.">Manage your account, your target, and how Metanoia works for you.</p>
 
   <div class="subnav" role="tablist" id="subnav">
-    <button class="active" data-set="profile" data-en="Profile" data-id="Profil">Profile</button>
-    <button data-set="target" data-en="Career Target" data-id="Target Karier">Career Target</button>
-    <button data-set="notifications" data-en="Notifications" data-id="Notifikasi">Notifications</button>
-    <button data-set="privacy" data-en="Privacy &amp; Data" data-id="Privasi &amp; Data">Privacy &amp; Data</button>
-    <button data-set="subscription" data-en="Subscription" data-id="Langganan">Subscription</button>
+    <button class="active" role="tab" aria-selected="true" data-set="profile" data-en="Profile" data-id="Profil">Profile</button>
+    <button role="tab" aria-selected="false" data-set="target" data-en="Career Target" data-id="Target Karier">Career Target</button>
+    <button role="tab" aria-selected="false" data-set="notifications" data-en="Notifications" data-id="Notifikasi">Notifications</button>
+    <button role="tab" aria-selected="false" data-set="privacy" data-en="Privacy &amp; Data" data-id="Privasi &amp; Data">Privacy &amp; Data</button>
+    <button role="tab" aria-selected="false" data-set="subscription" data-en="Subscription" data-id="Langganan">Subscription</button>
   </div>
 
   <div class="panel" id="panel"></div>
@@ -282,8 +282,10 @@ try { const l = localStorage.getItem('mtLang') || sessionStorage.getItem('metano
 const L = (en, id) => (lang === 'id' ? id : en);
 let session = null;
 try { session = JSON.parse(localStorage.getItem('metanoia_session') || 'null'); } catch (e) {}
-const name = (session && session.name) || 'Explorer';
-const email = (session && session.email) || '';
+/* what the member typed never reaches innerHTML unescaped */
+const escH = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const name = escH((session && session.name) || 'Explorer');
+const email = escH((session && session.email) || '');
 const initials = name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
 
 window.setLanguage = function (l) {
@@ -310,10 +312,10 @@ let cur = 'profile';
 const PANELS = {
   profile: () => '<h2>' + L('Profile', 'Profil') + '</h2><p class="ph-sub">' + L('This is how you appear across Metanoia.', 'Beginilah tampilanmu di seluruh Metanoia.') + '</p>' +
     '<div class="avatar-big">' + initials + '</div>' +
-    '<div class="f-row"><div class="f-group"><label class="f-label">' + L('First name', 'Nama depan') + '</label><input class="f-input" value="' + name.split(' ')[0] + '"></div>' +
-    '<div class="f-group"><label class="f-label">' + L('Last name', 'Nama belakang') + '</label><input class="f-input" placeholder="' + L('Your last name', 'Nama belakangmu') + '" value="' + (name.split(' ').slice(1).join(' ') || '') + '"></div></div>' +
-    '<div class="f-group"><label class="f-label">Email</label><input class="f-input" value="' + email + '" placeholder="you@example.com"></div>' +
-    '<div class="f-row"><div class="f-group"><label class="f-label">' + L('Phone / WhatsApp (optional)', 'Telepon / WhatsApp (opsional)') + '</label><input class="f-input" placeholder="+62…"></div>' +
+    '<div class="f-row"><div class="f-group"><label class="f-label" for="pf-first">' + L('First name', 'Nama depan') + '</label><input class="f-input" id="pf-first" autocomplete="given-name" value="' + name.split(' ')[0] + '"></div>' +
+    '<div class="f-group"><label class="f-label" for="pf-last">' + L('Last name', 'Nama belakang') + '</label><input class="f-input" id="pf-last" autocomplete="family-name" placeholder="' + L('Your last name', 'Nama belakangmu') + '" value="' + (name.split(' ').slice(1).join(' ') || '') + '"></div></div>' +
+    '<div class="f-group"><label class="f-label" for="pf-email">Email</label><input class="f-input" id="pf-email" type="email" autocomplete="email" value="' + email + '" placeholder="you@example.com"></div>' +
+    '<div class="f-row"><div class="f-group"><label class="f-label">' + L('Phone / WhatsApp (optional)', 'Telepon / WhatsApp (opsional)') + '</label><input class="f-input" id="pf-phone" type="tel" autocomplete="tel" aria-label="' + L('Phone or WhatsApp, optional', 'Telepon atau WhatsApp, opsional') + '" placeholder="+62…"></div>' +
     '<div class="f-group"><label class="f-label">' + L('University / Institution', 'Universitas / Institusi') + '</label><input class="f-input" placeholder="' + L('e.g., National University', 'mis., Universitas Nasional') + '"></div></div>' +
     '<button class="btn btn-primary save-btn">' + L('Save Changes', 'Simpan Perubahan') + '</button>',
   target: () => {
@@ -382,8 +384,8 @@ function render(key) {
   });
 }
 document.querySelectorAll('#subnav button').forEach(b => b.addEventListener('click', () => {
-  document.querySelectorAll('#subnav button').forEach(x => x.classList.remove('active'));
-  b.classList.add('active');
+  document.querySelectorAll('#subnav button').forEach(x => { x.classList.remove('active'); x.setAttribute('aria-selected', 'false'); });
+  b.classList.add('active'); b.setAttribute('aria-selected', 'true');
   render(b.dataset.set);
 }));
 setLanguage(lang);
@@ -596,5 +598,6 @@ render('profile');
   });
 })();
 </script>
+<script src="js/mt-feedback.js" defer></script>
 </body>
 </html>
