@@ -30,7 +30,7 @@ Effort: S (a day or less), M (two to four days), L (a week or more). Priority 1 
 - **Key functionality.** Bilingual prompts; a daily cap per member; a daily budget for the whole site; automatic fallback to today's on-device scoring when the cap or budget is reached; nothing stored beyond the feedback itself.
 - **Benefits.** The headline feature becomes real. It is the strongest differentiator against free video content.
 - **Feasibility.** Cloudflare Workers AI can be bound to Pages Functions and has a free daily allowance. The current figure and the quality of open models in Bahasa Indonesia must be confirmed in a one-day trial before committing. Staying free means hard caps. Member answers would be processed by Cloudflare's model service, so the privacy notice needs a line.
-- **Decision (16 November 2026).** Both, in that order. Option A is done: about 100 strings reworded in both languages across 15 files, and integrity gate 15 now fails the build if the copy claims AI scoring, an AI interviewer, session memory or community feedback. Lesson content that discusses AI as a topic is unchanged.
+- **Decision (16 November 2026).** Both, in that order. Option A is done: about 100 strings reworded in both languages across 15 files, and integrity gate 15 now fails the build if the copy claims AI scoring, an AI interviewer, session memory or community feedback. Lesson content that discusses AI as a topic is unchanged. Option B is built (docs/14, "AI coach"): it ships closed to members, and the owner opens it from the admin page after judging trial reviews in English and Bahasa Indonesia.
 
 ### N-02 · Access codes for sponsors and campuses (Priority 2)
 

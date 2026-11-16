@@ -90,6 +90,23 @@
       </div>
       <div id="fbRows"></div>
     </details>
+    <details class="access" id="coach">
+      <summary><b>AI coach</b> <span class="muted" id="coSummary">trial it, then open it to members</span></summary>
+      <p class="muted" style="font-size:13px;margin:10px 0 6px" id="coState"></p>
+      <div class="bar"><button class="ghost" id="coToggle" disabled>…</button> <span class="muted" id="coMsg"></span></div>
+      <div id="coUsage" style="margin:8px 0 14px"></div>
+      <b style="font-size:13px">Try it before members do</b>
+      <p class="muted" style="font-size:12px;margin:2px 0 8px">Each trial is a real request to the model and counts against today's budget. Judge both languages.</p>
+      <div class="bar">
+        <select id="coKind"><option value="interview">Interview answer</option><option value="cv">CV bullet</option></select>
+        <select id="coLang"><option value="en">English</option><option value="id">Bahasa Indonesia</option></select>
+        <button class="ghost" id="coSample">Fill a sample</button>
+      </div>
+      <input type="text" id="coQ" placeholder="Interview question" style="width:100%;margin:6px 0">
+      <textarea id="coText" class="notes" placeholder="The answer or the CV bullet" style="width:100%;min-height:110px"></textarea>
+      <div class="bar"><button id="coRun">Run a trial review</button></div>
+      <pre id="coOut" style="white-space:pre-wrap;font-size:13px;margin:8px 0 0"></pre>
+    </details>
     <details class="access" id="trends">
       <summary><b>Trends</b> <span class="muted">one bar per day</span></summary>
       <div class="bar" style="margin-top:10px"><select id="trDays"><option value="14">Last 14 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option></select> <span class="muted" id="trNote"></span></div>
@@ -265,6 +282,52 @@
   $('fbLoad').addEventListener('click', loadFeedback);
   $('fbQ').addEventListener('keydown', function (e) { if (e.key === 'Enter') loadFeedback(); });
   $('feedback').addEventListener('toggle', function () { if ($('feedback').open) loadFeedback(); });
+
+  /* ── AI coach: usage, the switch that opens it to members, and a trial form ── */
+  var CO_SAMPLES = {
+    'interview:en': ['Tell me about a time you worked under pressure.', 'In my final year I led a five-person team for a national business case competition. Two weeks before the deadline our analyst left, so I took over the financial model myself and split the remaining slides between the others. I set a short check-in every evening. We submitted on time and reached the final round.'],
+    'interview:id': ['Ceritakan saat kamu harus bekerja di bawah tekanan.', 'Di tahun terakhir kuliah saya memimpin tim lima orang untuk lomba studi kasus bisnis tingkat nasional. Dua minggu sebelum tenggat, analis kami mundur, jadi saya mengambil alih model keuangannya dan membagi sisa slide ke anggota lain. Saya mengadakan rapat singkat setiap malam. Kami mengumpulkan tepat waktu dan masuk babak final.'],
+    'cv:en': ['', 'Responsible for managing social media accounts for the student association'],
+    'cv:id': ['', 'Bertanggung jawab mengelola akun media sosial himpunan mahasiswa']
+  };
+  function coFeedbackText(f) {
+    if (!f) return '';
+    if (f.text) return f.text;
+    var flags = f.structure || f.checks, o = [];
+    if (flags) o.push(Object.keys(flags).map(function (k) { return (flags[k] ? '✓ ' : '○ ') + k; }).join('   '));
+    if (f.strengths && f.strengths.length) o.push('WHAT WORKS\n' + f.strengths.map(function (x) { return '  - ' + x; }).join('\n'));
+    if (f.improvements && f.improvements.length) o.push('WHAT TO CHANGE\n' + f.improvements.map(function (x) { return '  - ' + x; }).join('\n'));
+    if (f.rewrite) o.push('ONE WAY TO SAY IT\n  ' + f.rewrite);
+    return o.join('\n\n');
+  }
+  var coMode = 'off';
+  function loadCoach() {
+    api('GET', '/coach?days=14').then(function (r) {
+      if (!r.ok) { $('coState').textContent = (r.data && r.data.error) || ('HTTP ' + r.status); return; }
+      var d = r.data; coMode = d.mode;
+      $('coState').textContent = d.pending_migration ? 'Migration 0009 has not run yet.' : !d.configured ? 'The coach is not configured on this host (no AI binding, or COACH_ENABLED is false).'
+        : 'Model ' + d.model + (d.mock ? ' (mock, no real model on this host)' : '') + ' · ' + d.per_member + ' reviews a member a day · today ' + d.today.neurons + ' of ' + d.today.budget + ' Neurons used (Cloudflare gives ' + d.free_allowance + ' free a day).';
+      $('coSummary').textContent = d.mode === 'on' ? 'open to members' : 'trial: admins only';
+      $('coToggle').disabled = !d.configured || !!d.pending_migration;
+      $('coToggle').textContent = d.mode === 'on' ? 'Close the coach to members' : 'Open the coach to members';
+      $('coUsage').innerHTML = (d.days || []).length ? '<table><thead><tr><th>Day</th><th>Reviews</th><th>Members</th><th>Neurons</th><th>Failed</th></tr></thead><tbody>' + d.days.map(function (x) { return '<tr><td>' + esc(x.day) + '</td><td>' + x.calls + '</td><td>' + x.members + '</td><td>' + x.neurons + '</td><td>' + x.failed + '</td></tr>'; }).join('') + '</tbody></table>' : '<p class="muted" style="font-size:13px">No reviews yet.</p>';
+    });
+  }
+  $('coToggle').addEventListener('click', function () {
+    var next = coMode === 'on' ? 'off' : 'on';
+    if (next === 'on' && !confirm('Open the AI coach to every signed-in member? Do this after you have judged trial reviews in both languages.')) return;
+    api('POST', '/coach/mode', { mode: next }).then(function (r) { $('coMsg').textContent = r.ok ? (next === 'on' ? 'open to members' : 'closed to members') : ((r.data && r.data.error) || ('HTTP ' + r.status)); loadCoach(); });
+  });
+  $('coSample').addEventListener('click', function () { var sm = CO_SAMPLES[$('coKind').value + ':' + $('coLang').value]; $('coQ').value = sm[0]; $('coText').value = sm[1]; });
+  $('coKind').addEventListener('change', function () { $('coQ').hidden = $('coKind').value === 'cv'; });
+  $('coRun').addEventListener('click', function () {
+    $('coOut').textContent = 'asking the model…';
+    api('POST', '/coach/trial', { kind: $('coKind').value, lang: $('coLang').value, question: $('coQ').value, text: $('coText').value }).then(function (r) {
+      $('coOut').textContent = r.ok ? coFeedbackText(r.data.feedback) : 'No review: ' + ((r.data && r.data.error) || ('HTTP ' + r.status));
+      loadCoach();
+    });
+  });
+  $('coach').addEventListener('toggle', function () { if ($('coach').open) loadCoach(); });
 
   /* ── trends: one small bar chart per measure, drawn as inline SVG (no library) ── */
   var TR = [['accounts', 'New accounts'], ['active', 'Members active in a product'], ['visitors', 'Visitors'], ['assessments', 'Career Map completed'], ['leads', 'Leads'], ['feedback', 'Feedback'], ['certificates', 'Certificates issued'], ['errors', 'Script errors']];

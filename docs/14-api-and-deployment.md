@@ -160,6 +160,15 @@ Admin (`/admin/`, Access panel, or the API): `GET /api/admin/users?founding=1` i
 - **Certificates**: `POST /api/certificates { product }` issues a certificate when every core lesson (bonus and appendix modules excluded) is complete in the member's synced progress. The lesson list is `data/lms/<product>/manifest.json`, written by the build and read through `env.ASSETS`. `GET /api/certificates/:id` is the public verification used by `certificate.html` (`/certificate?c=<id>`, noindex): name, product, lesson count and date, never the address. Table `certificates` (migration 0008); included in the account export and removed by the account purge.
 - **Trends**: `GET /api/admin/trends?days=` returns one number per UTC day for accounts, active members, visitors, Career Map completions, leads, feedback, certificates and script errors. The admin page draws them as inline SVG bar charts under **Trends**.
 
+### AI coach (docs/21 N-01, 2026-11-16)
+
+- **What it is**: one review of one interview answer or one CV bullet by an open model on Cloudflare Workers AI, through the `AI` binding declared in `wrangler.toml`. `server/lib/coach.js` holds the prompts, the parsing and the limits; `functions/api/coach.js` is the member endpoint; `js/mt-coach.js` is the dialog (portal footer, and a row per answer in The Rope's report).
+- **Staying free**: Cloudflare gives 10,000 Neurons a day. The site keeps its own budget below that (`COACH_DAILY_NEURONS`, default 8,000) and a per-member limit (`COACH_PER_MEMBER`, default 6), both counted from `coach_log` (migration 0009). On the Workers Free plan a request beyond the allowance fails without charge; on Workers Paid it would be billed, which is why the site budget exists. At about 40 Neurons a review with the default model, the budget is roughly 200 reviews a day.
+- **Opening it**: members see nothing until the owner opens it in the admin page (**AI coach**, stored as `site_settings.coach_mode`). Before that, admins can use it in the product and run trials in the admin page to judge quality in both languages. `COACH_ENABLED = "false"` switches it off everywhere.
+- **Privacy**: the member's text goes to the model for that one request and is not stored by us. Only counts and token figures are logged. The last feedback per question is kept in the browser (`mt_rope_coach`, synced with progress). The privacy notice has a row for it.
+- **Admin API**: `GET /api/admin/coach`, `POST /api/admin/coach/trial`, `POST /api/admin/coach/mode` (audited).
+- **Tests**: `COACH_MOCK=1` in `.dev.vars` replaces the model with a fixed reply, so limits, parsing and the interface run in CI without a Cloudflare account. The real model is exercised only in production, from the admin trial.
+
 ### End-to-end tests in CI (2026-11-15)
 
 `.github/workflows/e2e.yml` runs on every pull request: it builds the site, starts `wrangler pages dev` with a throwaway local D1 (all migrations applied) and runs `scripts/qa/api.js`, `member.js`, the strict crawl and the public journeys. It uses no secret and never touches production. See `scripts/qa/README.md`.

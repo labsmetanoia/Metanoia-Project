@@ -278,6 +278,48 @@ function client() {
   r = await anon('GET', '/api/admin/users.csv?q=' + encodeURIComponent(email), undefined, A);
   ok(r.status === 200 && r.text.includes("'=cmd|calc") , 'CSV export neutralises a leading formula character', r.text.slice(-120));
 
+  /* ── AI coach: closed to members until the owner opens it, capped per member, no text echoed back ── */
+  const answerEn = 'In my final year I led a five-person team for a case competition. Two weeks before the deadline our analyst left, so I rebuilt the financial model myself and we still reached the final.';
+  await anon('POST', '/api/admin/coach/mode', { mode: 'off' }, A);
+  r = await anon('GET', '/api/coach');
+  ok(r.status === 200 && r.j.available === false, 'the coach is not offered to a guest', r.j);
+  r = await anon('POST', '/api/coach', { kind: 'interview', text: answerEn });
+  ok(r.status === 401, 'the coach needs a session', r.status);
+  r = await m2('GET', '/api/coach');
+  ok(r.status === 200 && r.j.available === false, 'the coach is not offered to members before it is opened', r.j);
+  r = await m2('POST', '/api/coach', { kind: 'interview', text: answerEn });
+  ok(r.status === 403, 'a member cannot use the coach before it is opened', r.status);
+  r = await anon('POST', '/api/admin/coach/trial', { kind: 'poem', text: answerEn }, A);
+  ok(r.status === 400 && r.j.field === 'kind', 'trial kind is validated', r.j);
+  r = await anon('POST', '/api/admin/coach/trial', { kind: 'interview', question: 'Tell me about a time you worked under pressure.', text: answerEn, lang: 'en' }, A);
+  ok(r.status === 200 && r.j.feedback && r.j.feedback.structure && typeof r.j.feedback.structure.result === 'boolean' && r.j.feedback.improvements.length >= 1 && r.j.feedback.rewrite, 'an admin trial returns structured interview feedback', r.j);
+  r = await anon('POST', '/api/admin/coach/trial', { kind: 'cv', text: 'Bertanggung jawab mengelola akun media sosial himpunan mahasiswa', lang: 'id' }, A);
+  ok(r.status === 200 && r.j.feedback.checks && 'measurable' in r.j.feedback.checks && /angka/.test(JSON.stringify(r.j.feedback)), 'a CV bullet trial answers in Bahasa Indonesia with its checks', r.j);
+  r = await m2('POST', '/api/admin/coach/mode', { mode: 'on' });
+  ok(r.status === 401, 'a member cannot open the coach', r.status);
+  r = await anon('POST', '/api/admin/coach/mode', { mode: 'maybe' }, A);
+  ok(r.status === 400, 'coach mode is validated', r.status);
+  r = await anon('POST', '/api/admin/coach/mode', { mode: 'on' }, A);
+  ok(r.status === 200 && r.j.mode === 'on', 'the owner opens the coach to members', r.j);
+  r = await m2('GET', '/api/coach');
+  ok(r.status === 200 && r.j.available === true && r.j.remaining === r.j.per_member && r.j.per_member >= 1, 'a member now sees the coach and the daily allowance', r.j);
+  const perDay = r.j.per_member || 6;
+  r = await m2('POST', '/api/coach', { kind: 'interview', text: 'too short' });
+  ok(r.status === 400 && r.j.field === 'text', 'a short answer is refused before the model is asked', r.j);
+  r = await m2('POST', '/api/coach', { kind: 'interview', text: answerEn }, { origin: 'https://evil.example' });
+  ok(r.status === 403, 'cross-origin coach request is refused', r.status);
+  r = await m2('POST', '/api/coach', { kind: 'interview', question: 'Tell me about pressure.', text: answerEn, lang: 'en' });
+  ok(r.status === 200 && r.j.feedback.strengths.length >= 1 && r.j.usage.remaining === perDay - 1 && !r.text.includes('we still reached the final'), 'a member gets feedback, the allowance drops, and the answer is not echoed back whole', r.j);
+  for (let i = 1; i < perDay; i++) await m2('POST', '/api/coach', { kind: 'cv', text: 'Managed the social media accounts of the student association', lang: 'en' });
+  r = await m2('POST', '/api/coach', { kind: 'interview', text: answerEn });
+  ok(r.status === 429 && r.j.scope === 'member', 'the per-member daily limit holds', r.j);
+  r = await anon('GET', '/api/admin/coach?days=3', undefined, A);
+  ok(r.status === 200 && r.j.mode === 'on' && r.j.today.neurons > 0 && r.j.today.budget_left < r.j.today.budget && r.j.days[0].calls >= perDay + 2, 'the admin page sees calls and the budget used', r.j && r.j.today);
+  r = await anon('GET', '/api/admin/audit?limit=30', undefined, A);
+  ok(r.status === 200 && r.j.audit.some(x => x.action === 'coach.mode'), 'opening the coach is in the audit trail', r.status);
+  r = await anon('POST', '/api/admin/coach/mode', { mode: 'off' }, A);
+  ok(r.status === 200 && r.j.mode === 'off', 'the owner closes the coach again', r.j);
+
   /* ── certificates of completion ── */
   await m2('POST', '/api/account/update', { name: 'QA Graduate' });
   r = await anon('POST', '/api/certificates', { product: 'the-map' });

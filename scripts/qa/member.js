@@ -289,6 +289,56 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     await ad3.close();
   }
 
+  /* ── AI coach: hidden until the owner opens it; then a member reviews a CV bullet and an interview answer ── */
+  if (process.env.ADMIN_TOKEN !== '') {
+    const adminHdr = { origin: B, authorization: 'Bearer ' + (process.env.ADMIN_TOKEN || 'local-admin-token') };
+    await ctx3.request.post(B + '/api/admin/coach/mode', { headers: adminHdr, data: { mode: 'off' } });
+    const co = await ctx3.newPage(); watch(co, 'coach');
+    await co.addInitScript(() => { try { localStorage.setItem('metanoia_onboarded', 'true'); } catch (e) {} });   /* past the first-visit calibration, which covers the footer */
+    await co.goto(B + '/portal', { waitUntil: 'load' }); await co.waitForTimeout(1800);
+    check(await co.evaluate(() => { const b = document.querySelector('[data-coach-open]'); return !!b && b.hidden; }), 'the coach control stays hidden while the coach is closed to members');
+    await ctx3.request.post(B + '/api/admin/coach/mode', { headers: adminHdr, data: { mode: 'on' } });
+    await co.reload({ waitUntil: 'load' }); await co.waitForTimeout(1800);
+    check(await co.isVisible('[data-coach-open]'), 'once opened, the portal shows the coach control');
+    await co.click('[data-coach-open]'); await co.waitForTimeout(700);
+    a = await co.evaluate(() => ({ open: !!document.querySelector('.mtc-veil.on [role=dialog]'), left: document.getElementById('mtcLeft').textContent, fine: document.querySelector('.mtc-fine').textContent }));
+    check(a.open && /\d/.test(a.left) && /AI/.test(a.fine), 'the dialog opens with the allowance left and says the text is written by AI', a);
+    await co.click('.mtc-go'); await co.waitForTimeout(300);
+    check((await co.textContent('.mtc-err')).trim().length > 5, 'an empty answer is refused in the dialog');
+    await co.click('[data-kind="cv"]'); await co.fill('#mtcA', 'Responsible for managing social media accounts for the student association');
+    await co.click('.mtc-go'); await co.waitForSelector('.mtc-out:not([hidden])', { timeout: 15000 }).catch(() => {});
+    a = await co.evaluate(() => { const o = document.querySelector('.mtc-out'); return { shown: !o.hidden, chips: o.querySelectorAll('.mtc-chip').length, rewrite: !!o.querySelector('.mtc-rw'), lists: o.querySelectorAll('li').length, markup: !!o.querySelector('img,script') }; });
+    check(a.shown && a.chips === 4 && a.rewrite && a.lists >= 2 && !a.markup, 'a CV bullet review shows its checks, points and a rewrite', a);
+    await shot(co, '21-coach-dialog');
+    await co.keyboard.press('Escape'); await co.waitForTimeout(200);
+    /* The Rope's report rows: the module is fetched from the path rope-sim.js uses, then drawn into a container */
+    await co.goto(B + '/products/the-rope/', { waitUntil: 'load' }); await co.waitForTimeout(1500);
+    a = await co.evaluate(async () => {
+      await new Promise((res, rej) => { const s2 = document.createElement('script'); s2.src = '../../js/mt-coach.js'; s2.onload = res; s2.onerror = rej; document.head.appendChild(s2); });
+      const box = document.createElement('div'); box.id = 'qaDebrief'; document.body.appendChild(box);
+      window.MT_COACH.attachDebrief(box, [{ q: 'Tell me about a time you worked under pressure.', a: 'In my final year I led a five-person team for a case competition. Two weeks before the deadline our analyst left, so I rebuilt the model myself and we reached the final.' }, { q: 'Too short', a: 'ok' }], 'en');
+      await new Promise(r2 => setTimeout(r2, 900));
+      return { rows: box.querySelectorAll('.mtc-row').length };
+    });
+    check(a.rows === 1, 'the report offers a review for each answer long enough to review', a);
+    await co.evaluate(() => { document.querySelector('#qaDebrief').scrollIntoView(); document.querySelector('#qaDebrief .mtc-row button').click(); }); await co.waitForTimeout(700);
+    a = await co.evaluate(() => ({ q: document.getElementById('mtcQ').value, t: document.getElementById('mtcA').value.length }));
+    check(/pressure/.test(a.q) && a.t > 100, 'the dialog opens with the question and the answer filled in', a);
+    await co.click('.mtc-go'); await co.waitForSelector('.mtc-out:not([hidden])', { timeout: 15000 }).catch(() => {});
+    a = await co.evaluate(() => ({ chips: document.querySelectorAll('.mtc-out .mtc-chip').length, last: document.querySelector('#qaDebrief .mtc-row small').textContent, saved: !!localStorage.getItem('mt_rope_coach') }));
+    check(a.chips === 4 && /\d{4}-\d{2}-\d{2}/.test(a.last) && a.saved, 'the interview review shows the four parts, and the last review is remembered', a);
+    await ctx3.request.post(B + '/api/admin/coach/mode', { headers: adminHdr, data: { mode: 'off' } });
+    const ad4 = await ctx3.newPage(); watch(ad4, 'admin-coach');
+    await ad4.addInitScript(t => { try { sessionStorage.setItem('mt-admin-token', t); } catch (e) {} }, process.env.ADMIN_TOKEN || 'local-admin-token');
+    await ad4.goto(B + '/admin/', { waitUntil: 'load' }); await ad4.waitForTimeout(1500);
+    await ad4.click('#coach summary'); await ad4.waitForTimeout(1200);
+    await ad4.selectOption('#coLang', 'id'); await ad4.click('#coSample'); await ad4.click('#coRun'); await ad4.waitForTimeout(2000);
+    a = await ad4.evaluate(() => ({ state: document.getElementById('coState').textContent, out: document.getElementById('coOut').textContent, toggle: document.getElementById('coToggle').textContent, rows: document.querySelectorAll('#coUsage tbody tr').length }));
+    check(/Neurons/.test(a.state) && /WHAT TO CHANGE/.test(a.out) && /Open the coach/.test(a.toggle) && a.rows >= 1, 'the admin page shows the budget, runs a trial and offers the switch', a);
+    await shot(ad4, '22-admin-coach');
+    await ad4.close(); await co.close();
+  }
+
   /* ── installable: the manifest and its icons are served ── */
   const mf = await ctx3.request.get(B + '/manifest.webmanifest');
   const mj = mf.ok() ? await mf.json().catch(() => null) : null;
