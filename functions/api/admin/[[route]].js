@@ -25,12 +25,16 @@
  *   GET   /api/admin/errors?days=7                     script errors reported by browsers, grouped by message and page
  *   GET   /api/admin/digest?days=7                     the weekly owner summary as numbers and as the e-mail text (nothing is sent)
  *   POST  /api/admin/digest                            sends that summary to LEADS_NOTIFY_TO now
+ *   GET   /api/admin/coach?days=14                     the AI coach: whether members can use it, calls and Neurons per day
+ *   POST  /api/admin/coach/trial { kind, question?, text, lang }   one review, to judge the quality (counts against the budget)
+ *   POST  /api/admin/coach/mode  { mode: 'on' | 'off' }            opens the coach to members or closes it
  *
  * Every write and every export is recorded in admin_audit (migration 0007).
  */
 import { json, fail, readJson, clip, nowIso, sameOrigin, rateLimit, clientIp, newId } from '../../../server/lib/http.js';
 import { adminActor } from '../../../server/lib/auth.js';
 import { buildDigest, digestText, sendOwnerDigest, scriptErrors } from '../../../server/lib/digest.js';
+import { coachConfigured, coachMode, setCoachMode, validate as coachValidate, review as coachReview, report as coachReport } from '../../../server/lib/coach.js';
 import { PRODUCTS, PLANS, accessMode, betaEndsAt, listEntitlements, resolveAccess, grantEntitlement, revokeEntitlement, grantFounding } from '../../../server/lib/entitlements.js';
 
 const STATUSES = ['new', 'reviewing', 'accepted', 'declined', 'contacted', 'archived', 'confirmed', 'unsubscribed'];
@@ -194,6 +198,11 @@ export async function onRequestGet({ request, env, params }) {
     } catch (e) { return json({ ok: true, audit: [], pending_migration: true }); }
   }
 
+  if (route === 'coach') {
+    const days = Math.min(60, Math.max(1, parseInt(url.searchParams.get('days') || '14', 10) || 14));
+    return json({ ok: true, configured: coachConfigured(env), binding: !!env.AI, mock: env.COACH_MOCK === '1', mode: await coachMode(env), ...(await coachReport(env, days)) });
+  }
+
   if (route === 'trends') {
     const days = Math.min(180, Math.max(7, parseInt(url.searchParams.get('days') || '30', 10) || 30));
     const start = new Date(Date.now() - (days - 1) * 86400 * 1000).toISOString().slice(0, 10);
@@ -270,6 +279,23 @@ export async function onRequestPatch({ request, env, params }) {
 export async function onRequestPost({ request, env, params }) {
   const g = await guard(request, env, true); if (g instanceof Response) return g;
   const parts = params.route || [];
+  if (parts[0] === 'coach' && parts[1] === 'mode' && parts.length === 2) {
+    const mb = (await readJson(request)) || {};
+    if (mb.mode !== 'on' && mb.mode !== 'off') return fail(400, 'mode must be on or off', { field: 'mode' });
+    const mode = await setCoachMode(env, mb.mode, g.actor).catch(() => null);
+    if (!mode) return fail(503, 'settings not available');   /* before migration 0009 */
+    await audit(env, g.actor, 'coach.mode', null, { mode });
+    return json({ ok: true, mode });
+  }
+  if (parts[0] === 'coach' && parts[1] === 'trial' && parts.length === 2) {
+    if (!coachConfigured(env)) return fail(503, 'coach not available');
+    const tb = (await readJson(request, 16 * 1024)) || {};
+    const v = coachValidate(String(tb.kind || ''), tb.question, tb.text);
+    if (v.error) return fail(400, v.error, { field: v.field, min: v.min, max: v.max });
+    const r = await coachReview(env, { userId: null, kind: tb.kind, lang: tb.lang === 'id' ? 'id' : 'en', question: v.question, text: v.text });
+    if (!r.ok) return fail(r.status, r.error, { scope: r.scope });
+    return json({ ok: true, feedback: r.feedback, model: r.model });
+  }
   if (parts[0] === 'digest' && parts.length === 1) {
     const r = await sendOwnerDigest(env, { force: true });
     await audit(env, g.actor, 'digest.send', null, { sent: r.sent, reason: r.reason || null });

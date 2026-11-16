@@ -3381,6 +3381,13 @@
     var hAll = history(), prevSame = null;
     for (var hi = hAll.length - 1; hi >= 0; hi--) { if (hAll[hi].at === s.savedAt) continue; if ((hAll[hi].pathId || null) === ((s.cfg && s.cfg.pathId) || null)) { prevSame = hAll[hi]; break; } }
     w0.appendChild(reportHeader(s, spR, dimsR, overallR, sc, prevSame));
+    /* AI coach (js/mt-coach.js, fetched on demand): a capped second opinion on single answers, shown only to members
+       who can use it. The scores in this report stay the rubric's, computed on this device. */
+    setTimeout(function () {
+      var go = function () { if (window.MT_COACH) window.MT_COACH.attachDebrief(w0, live.map(function (a) { return { q: a.followup || a.q, a: a.text || '' }; }), lang()); };
+      if (window.MT_COACH) return go();
+      var cs = document.createElement('script'); cs.src = '../../js/mt-coach.js'; cs.onload = go; document.head.appendChild(cs);
+    }, 0);
     var tabs = el('div', 'rsx-tabs'); tabs.setAttribute('role', 'tablist');
     var paneO = el('div', 'rsx-pane on'), paneA = el('div', 'rsx-pane'), paneT = el('div', 'rsx-pane');
     [[paneO, T('Overview', 'Ringkasan')], [paneA, T('Answers & feedback', 'Jawaban & umpan balik') + ' (' + s.answers.filter(function (a) { return !a.skipped; }).length + ')'], [paneT, T('Full transcript', 'Transkrip lengkap')]].forEach(function (tb, i) {
