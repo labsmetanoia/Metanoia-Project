@@ -239,9 +239,9 @@
     V.destroy = function () { if (V._p) V._p.destroy(); if (tile.parentNode) tile.parentNode.removeChild(tile); };
 
     function label(mode) {
-      var t = mode === 'live' ? T(lang, 'AI interviewer · live video', 'Pewawancara AI · video langsung')
-            : mode === 'clips' ? T(lang, 'AI interviewer · recorded video', 'Pewawancara AI · video rekaman')
-            : T(lang, 'AI interviewer · photo + voice', 'Pewawancara AI · foto + suara');
+      var t = mode === 'live' ? T(lang, 'Virtual interviewer · live video', 'Pewawancara virtual · video langsung')
+            : mode === 'clips' ? T(lang, 'Virtual interviewer · recorded video', 'Pewawancara virtual · video rekaman')
+            : T(lang, 'Virtual interviewer · photo + voice', 'Pewawancara virtual · foto + suara');
       modeChip.textContent = t; tile.classList.add('rv-' + mode);
     }
     V.ready = new Promise(function (resolve) {

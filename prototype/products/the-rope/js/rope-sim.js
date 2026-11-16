@@ -1,5 +1,5 @@
 /**
- * THE ROPE — AI INTERVIEW SIMULATOR v3 · INTERVIEW SPECIALIST (Module 7 application layer)
+ * THE ROPE — INTERVIEW SIMULATOR v3 · INTERVIEW SPECIALIST (Module 7 application layer)
  * -----------------------------------------------------------------
  * Prepare → Practice → Review → Improve → Repeat, entirely on-device.
  *
@@ -860,7 +860,7 @@
     st.id = 'ropeSimCss'; st.textContent = css + cssX;
     document.head.appendChild(st);
     root = el('div', 'rsim'); root.id = 'ropeSim';
-    root.setAttribute('role', 'dialog'); root.setAttribute('aria-label', 'AI Interview Specialist');
+    root.setAttribute('role', 'dialog'); root.setAttribute('aria-label', 'Interview Specialist');
     root.appendChild(el('div', 'rsim-bg'));
     root.appendChild(el('div', 'rsim-veil'));
     var top = el('div', 'rsim-top');
@@ -1027,7 +1027,7 @@
     if (!storyQ) box.classList.add('no-star');
     box.setAttribute('aria-label', 'Live guidance');
     var head = el('div', 'rg-head');
-    head.appendChild(el('b', null, '◉ ' + T('Live Guidance', 'Panduan Langsung') + ' <span class="rg-ai">' + T('AI-assisted · on your device', 'Berbantuan AI · di perangkatmu') + '</span>'));
+    head.appendChild(el('b', null, '◉ ' + T('Live Guidance', 'Panduan Langsung') + ' <span class="rg-ai">' + T('Guided · on your device', 'Terpandu · di perangkatmu') + '</span>'));
     var modes = el('div', 'rg-modes');
     [['full', T('Full', 'Penuh')], ['light', T('Light', 'Ringan')], ['off', T('Off', 'Mati')]].forEach(function (m) {
       var b = el('button', m[0] === mode ? 'on' : '', m[1]); b.type = 'button'; b.dataset.m = m[0];
@@ -1571,9 +1571,9 @@
     var hero = el('section', 'rsx-hero');
     hero.innerHTML = '<div class="rsx-hero-bg" aria-hidden="true"></div>' +
       '<div class="rsx-hero-in">' +
-      '<div class="rsx-kick">' + T('The Rope · AI Interview Specialist', 'The Rope · Spesialis Wawancara AI') + '</div>' +
+      '<div class="rsx-kick">' + T('The Rope · Interview Specialist', 'The Rope · Spesialis Wawancara') + '</div>' +
       '<h2>' + T('Practise the interview you are actually facing; any time, as often as you need.', 'Latih wawancara yang benar-benar akan kamu hadapi, kapan saja, sesering yang kamu butuhkan.') + '</h2>' +
-      '<p>' + T('Pick a path, tune the session to your CV and target role, answer an AI interviewer that listens and follows up, then get a scored report with a full transcript and a plan for the next round.', 'Pilih jalur, sesuaikan sesi dengan CV dan peran tujuanmu, jawab pewawancara AI yang mendengar dan mengejar, lalu dapatkan laporan bernilai lengkap dengan transkrip dan rencana untuk putaran berikutnya.') + '</p>' +
+      '<p>' + T('Pick a path, tune the session to your CV and target role, answer a virtual interviewer that listens and follows up, then get a scored report with a full transcript and a plan for the next round.', 'Pilih jalur, sesuaikan sesi dengan CV dan peran tujuanmu, jawab pewawancara virtual yang mendengar dan mengejar, lalu dapatkan laporan bernilai lengkap dengan transkrip dan rencana untuk putaran berikutnya.') + '</p>' +
       '<div class="rsx-badges"><span>' + ic('clock') + T('On demand, 24/7', 'Kapan saja, 24/7') + '</span><span>' + ic('user') + T('Personalised to your CV', 'Dipersonalisasi dari CV-mu') + '</span><span>' + ic('report') + T('Report & full transcript', 'Laporan & transkrip lengkap') + '</span><span>' + ic('lock') + T('Runs on your device', 'Berjalan di perangkatmu') + '</span></div>' +
       '</div>';
     var cta = el('div', 'rsx-hero-cta');
@@ -1600,7 +1600,7 @@
     var steps = el('ol', 'rsx-steps');
     [['search', T('Find an interview that fits', 'Temukan wawancara yang cocok'), T('Choose by industry, role and format, consulting, tech, finance, scholarships and more.', 'Pilih berdasarkan industri, peran, dan format, konsultan, teknologi, keuangan, beasiswa, dan lainnya.')],
      ['sliders', T('Customise your session', 'Sesuaikan sesimu'), T('Add your CV, set duration, difficulty and the interviewer’s style.', 'Tambahkan CV, atur durasi, tingkat kesulitan, dan gaya pewawancara.')],
-     ['mic', T('Practise with the AI interviewer', 'Berlatih dengan pewawancara AI'), T('Answer by voice, video or text. It listens, follows up and pushes back.', 'Jawab lewat suara, video, atau teks. Ia mendengar, mengejar, dan menyanggah.')],
+     ['mic', T('Practise with the virtual interviewer', 'Berlatih dengan pewawancara virtual'), T('Answer by voice, video or text. It listens, follows up and pushes back.', 'Jawab lewat suara, video, atau teks. Ia mendengar, mengejar, dan menyanggah.')],
      ['report', T('Review your report', 'Tinjau laporanmu'), T('Scores by dimension, strengths, priorities, a full transcript and your next round.', 'Skor per dimensi, kekuatan, prioritas, transkrip lengkap, dan putaran berikutnya.')]].forEach(function (s2, i) {
       var li = el('li');
       li.innerHTML = '<span class="st-n">' + (i + 1) + '</span>' + ic(s2[0], 'st-ic') + '<b>' + s2[1] + '</b><span>' + s2[2] + '</span>';
@@ -1797,7 +1797,7 @@
       studio.innerHTML = '';
       var fr = el('div', 'st-frame');
       var im = el('img', 'st-vid'); im.src = (PHOTOS[pe.id] || PHOTOS.hr).src; im.alt = ''; fr.appendChild(im);
-      fr.appendChild(el('span', 'st-tag', window.MT_ROPE_VIDEO ? MT_ROPE_VIDEO.describe(window.MT_ROPE_SIM_MEDIA, pe.id, lang()) : T('AI interviewer', 'Pewawancara AI')));
+      fr.appendChild(el('span', 'st-tag', window.MT_ROPE_VIDEO ? MT_ROPE_VIDEO.describe(window.MT_ROPE_SIM_MEDIA, pe.id, lang()) : T('Virtual interviewer', 'Pewawancara virtual')));
       fr.appendChild(el('span', 'st-nm', '<b>' + esc(L(pe.name)) + '</b>' + esc(L((p.personaTitle) || pe.title))));
       fr.appendChild(el('span', 'st-cc', esc(L(pe.greet))));
       studio.appendChild(fr);
@@ -3057,7 +3057,7 @@
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) tools.appendChild(camB);
     if (!state.drill) tools.appendChild(rsB);
     tools.appendChild(el('span', 'rm-sp'));
-    tools.appendChild(el('span', 'rm-note', esc(L((media.disclosure) || { en: 'AI interviewer · simulation', id: 'Pewawancara AI · simulasi' }))));
+    tools.appendChild(el('span', 'rm-note', esc(L((media.disclosure) || { en: 'Virtual interviewer · simulation', id: 'Pewawancara virtual · simulasi' }))));
 
     /* answer format switcher */
     var fmt = el('div', 'rsim-fmt');
