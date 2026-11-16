@@ -339,6 +339,47 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     await ad4.close(); await co.close();
   }
 
+  /* ── access code: a sponsor's link, sign-up, the code applied on arrival, and Settings ── */
+  if (process.env.ADMIN_TOKEN !== '') {
+    const adminHdr2 = { origin: B, authorization: 'Bearer ' + (process.env.ADMIN_TOKEN || 'local-admin-token') };
+    const nb = await (await ctx3.request.post(B + '/api/admin/batches', { headers: adminHdr2, data: { label: 'Journey Campus ' + stamp, sponsor: 'Journey Sponsor', seats: 3, access_ends_at: new Date(Date.now() + 60 * 86400000).toISOString() } })).json();
+    check(nb.ok && nb.batch && nb.batch.code, 'a batch is created for the journey', nb);
+    const sctx = await br.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+    await sctx.addInitScript(() => { try { localStorage.setItem('metanoia_onboarded', 'true'); } catch (e) {} });
+    const sp = await sctx.newPage(); watch(sp, 'access-code');
+    await sp.goto(B + '/register?code=' + nb.batch.code, { waitUntil: 'load' }); await sp.waitForTimeout(1200);
+    a = await sp.evaluate(() => (document.getElementById('codeNote') || {}).textContent || '');
+    check(a.includes(nb.batch.code), 'the sign-up page says the code will be applied', a);
+    await sp.fill('#firstName', 'Sponsored Member'); await sp.fill('#email', `sponsored+${stamp}@example.test`); await sp.fill('#password', pw);
+    if (await sp.isVisible('#confirm')) await sp.fill('#confirm', pw);
+    await sp.evaluate(() => { const t = document.getElementById('terms'); if (t && !t.checked) t.click(); });
+    await shot(sp, '23-register-with-code');
+    await sp.click('#regForm button[type=submit]');
+    await sp.waitForURL(x => /portal/.test(new URL(x).pathname), { timeout: 15000 }).catch(() => {});
+    await sp.waitForTimeout(3000);
+    a = await sp.evaluate(() => ({ path: location.pathname, banner: [...document.querySelectorAll('[role=status]')].map(x => x.textContent).join(' | '), pending: localStorage.getItem('mt-pending-code') }));
+    check(/portal/.test(a.path) && /Journey Campus/.test(a.banner) && !a.pending, 'after sign-up the code is applied and the member is told', a);
+    await shot(sp, '24-code-applied');
+    await sp.goto(B + '/settings', { waitUntil: 'load' }); await sp.waitForTimeout(1500);
+    await sp.click('#subnav button[data-set="subscription"]'); await sp.waitForTimeout(1500);
+    a = await sp.evaluate(() => ({ box: !!document.getElementById('code-in'), list: (document.getElementById('code-list') || {}).textContent || '', over: document.documentElement.scrollWidth > window.innerWidth + 1 }));
+    check(a.box && /Journey Campus/.test(a.list) && /Journey Sponsor/.test(a.list) && !a.over, 'Settings shows the code on the account', a);
+    await sp.fill('#code-in', 'MTN-AAAA-AAAA'); await sp.click('#code-btn'); await sp.waitForTimeout(1200);
+    check(/not valid/.test(await sp.textContent('#code-msg')), 'a wrong code typed in Settings is refused with a reason');
+    await shot(sp, '25-settings-code');
+    await sctx.close();
+    const ad5 = await ctx3.newPage(); watch(ad5, 'admin-batches');
+    await ad5.addInitScript(t => { try { sessionStorage.setItem('mt-admin-token', t); } catch (e) {} }, process.env.ADMIN_TOKEN || 'local-admin-token');
+    await ad5.goto(B + '/admin/', { waitUntil: 'load' }); await ad5.waitForTimeout(1500);
+    await ad5.click('#batches summary'); await ad5.waitForTimeout(1200);
+    a = await ad5.evaluate(l => { const tr = [...document.querySelectorAll('#bcRows tbody tr')].find(x => x.textContent.includes(l)); if (!tr) return null; tr.querySelector('[data-report]').click(); return { text: tr.textContent.replace(/\s+/g, ' ') }; }, 'Journey Campus ' + stamp);
+    await ad5.waitForTimeout(1200);
+    const repText = await ad5.textContent('#bcReport');
+    check(a && /1 of 3/.test(a.text) && /Seats used: 1 of 3/.test(repText) && /Withheld|No member is named/.test(repText), 'the admin page lists the batch with seats used and shows its report', { a, repText: repText.slice(0, 120) });
+    await shot(ad5, '26-admin-batches');
+    await ad5.close();
+  }
+
   /* ── installable: the manifest and its icons are served ── */
   const mf = await ctx3.request.get(B + '/manifest.webmanifest');
   const mj = mf.ok() ? await mf.json().catch(() => null) : null;

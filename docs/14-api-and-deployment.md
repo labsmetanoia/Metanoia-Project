@@ -169,6 +169,15 @@ Admin (`/admin/`, Access panel, or the API): `GET /api/admin/users?founding=1` i
 - **Admin API**: `GET /api/admin/coach`, `POST /api/admin/coach/trial`, `POST /api/admin/coach/mode` (audited).
 - **Tests**: `COACH_MOCK=1` in `.dev.vars` replaces the model with a fixed reply, so limits, parsing and the interface run in CI without a Cloudflare account. The real model is exercised only in production, from the admin trial.
 
+### Access codes for sponsors and campuses (docs/21 N-02, 2026-11-16)
+
+- **What it is**: the owner creates a batch in the admin page (**Access codes**): a label, a sponsor, what it opens, a number of seats, a last day to redeem and an access end date. The batch has one code, for example `MTN-7K4Q-9XWD`, and a link `/register?code=…`. Billing happens outside the platform.
+- **Member side**: `js/mt-access.js` remembers a code that arrives in a link, says so on the sign-up and sign-in pages, and applies it on the first signed-in page (portal or settings), whichever sign-in method was used. Settings → Subscription has an **Access code** box. `POST /api/access/redeem`, `GET /api/access/codes`.
+- **What a code gives**: an entitlement with source `code:<batch id>` and the batch's end date. It matters once `ACCESS_MODE` is `entitlements`; during the beta everyone already has access, and the redemption still records which cohort a member belongs to.
+- **Sponsor report**: `GET /api/admin/batches/:id/report` and `report.csv`. Counts and averages only: seats used, verified accounts, active members, Career Map completions and average, lessons and certificates per product. It is withheld until `COHORT_MIN` members (default 5) have joined, and any average over fewer members than that is left out. No member is named.
+- **Withdrawing**: `PATCH /api/admin/batches/:id { revoked: true }` stops new redemptions; `withdraw_access: true` also revokes the entitlements the batch gave. Every batch action is audited.
+- **Data**: tables `access_batches` and `access_redemptions` (migration 0010); redemptions are in the account export and removed by the account purge.
+
 ### End-to-end tests in CI (2026-11-15)
 
 `.github/workflows/e2e.yml` runs on every pull request: it builds the site, starts `wrangler pages dev` with a throwaway local D1 (all migrations applied) and runs `scripts/qa/api.js`, `member.js`, the strict crawl and the public journeys. It uses no secret and never touches production. See `scripts/qa/README.md`.

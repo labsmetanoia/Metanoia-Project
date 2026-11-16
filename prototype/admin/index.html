@@ -90,6 +90,23 @@
       </div>
       <div id="fbRows"></div>
     </details>
+    <details class="access" id="batches">
+      <summary><b>Access codes</b> <span class="muted" id="bcSummary">sponsored cohorts: one code, a number of seats</span></summary>
+      <p class="muted" style="font-size:12px;margin:10px 0 8px">Create a batch for a campus or an employer and send them the link. Each member who uses it gets access until the end date. Billing happens outside the platform. The cohort report holds counts and averages only, and is withheld until the minimum number of members has joined.</p>
+      <div class="bar">
+        <input type="text" id="bcLabel" placeholder="Cohort label, e.g. Universitas X · Management 2027" style="min-width:280px">
+        <input type="text" id="bcSponsor" placeholder="Sponsor (optional)">
+        <input type="number" id="bcSeats" placeholder="Seats" min="1" max="5000" style="width:90px">
+        <select id="bcProduct"><option value="all">All products</option><option value="the-map">The Map</option><option value="the-pack">The Pack</option><option value="the-rope">The Rope</option><option value="the-route">The Route</option><option value="the-compass">The Compass</option></select>
+      </div>
+      <div class="bar">
+        <label class="muted" style="font-size:12px">Redeem by <input type="date" id="bcRedeem"></label>
+        <label class="muted" style="font-size:12px">Access ends <input type="date" id="bcEnds"></label>
+        <button id="bcCreate">Create the batch</button> <span class="muted" id="bcMsg"></span>
+      </div>
+      <div id="bcRows" style="margin-top:8px"></div>
+      <pre id="bcReport" style="white-space:pre-wrap;font-size:13px;margin:8px 0 0"></pre>
+    </details>
     <details class="access" id="coach">
       <summary><b>AI coach</b> <span class="muted" id="coSummary">trial it, then open it to members</span></summary>
       <p class="muted" style="font-size:13px;margin:10px 0 6px" id="coState"></p>
@@ -282,6 +299,52 @@
   $('fbLoad').addEventListener('click', loadFeedback);
   $('fbQ').addEventListener('keydown', function (e) { if (e.key === 'Enter') loadFeedback(); });
   $('feedback').addEventListener('toggle', function () { if ($('feedback').open) loadFeedback(); });
+
+  /* ── access codes: sponsored cohorts ── */
+  function bcDate(id) { var v = $(id).value; return v ? v + 'T23:59:59Z' : null; }
+  function loadBatches() {
+    api('GET', '/batches').then(function (r) {
+      if (!r.ok) { $('bcRows').innerHTML = '<p class="err">' + esc((r.data && r.data.error) || ('HTTP ' + r.status)) + '</p>'; return; }
+      var list = r.data.batches || [];
+      $('bcSummary').textContent = r.data.pending_migration ? 'migration 0010 has not run yet' : list.length + ' batches · ' + list.reduce(function (a, b) { return a + b.seats_used; }, 0) + ' seats used';
+      $('bcRows').innerHTML = list.length ? '<table><thead><tr><th>Cohort</th><th>Code · link</th><th>Opens</th><th>Seats</th><th>Redeem by</th><th>Access ends</th><th></th></tr></thead><tbody>' + list.map(function (b) {
+        var link = location.origin + '/register?code=' + b.code;
+        return '<tr' + (b.revoked ? ' style="opacity:.55"' : '') + '><td><b>' + esc(b.label) + '</b>' + (b.sponsor ? '<br><span class="muted">' + esc(b.sponsor) + '</span>' : '') + (b.revoked ? '<br><span class="err">withdrawn</span>' : '') + '</td>' +
+          '<td><code>' + esc(b.code) + '</code><br><button class="ghost" data-copy="' + esc(link) + '">Copy the link</button></td><td>' + esc(b.product) + '<br><span class="muted">' + esc(b.plan) + '</span></td>' +
+          '<td>' + b.seats_used + ' of ' + b.seats + '</td><td>' + esc(b.redeem_by ? b.redeem_by.slice(0, 10) : 'no last day') + '</td><td>' + esc(b.access_ends_at ? b.access_ends_at.slice(0, 10) : 'no end') + '</td>' +
+          '<td><button class="ghost" data-report="' + esc(b.id) + '">Report</button> <button class="ghost" data-csv="' + esc(b.id) + '">CSV</button> <button class="ghost" data-revoke="' + esc(b.id) + '" data-on="' + (b.revoked ? '1' : '') + '">' + (b.revoked ? 'Restore' : 'Withdraw') + '</button></td></tr>';
+      }).join('') + '</tbody></table>' : '<p class="muted" style="font-size:13px">No batches yet.</p>';
+    });
+  }
+  $('bcCreate').addEventListener('click', function () {
+    api('POST', '/batches', { label: $('bcLabel').value, sponsor: $('bcSponsor').value, seats: $('bcSeats').value, product: $('bcProduct').value, redeem_by: bcDate('bcRedeem'), access_ends_at: bcDate('bcEnds') }).then(function (r) {
+      $('bcMsg').textContent = r.ok ? 'created: ' + r.data.batch.code : ((r.data && r.data.error) || ('HTTP ' + r.status));
+      if (r.ok) { $('bcLabel').value = ''; $('bcSponsor').value = ''; $('bcSeats').value = ''; loadBatches(); }
+    });
+  });
+  $('bcRows').addEventListener('click', function (e) {
+    var t = e.target;
+    if (t.dataset.copy) { var done = function () { $('bcMsg').textContent = 'link copied'; }; if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t.dataset.copy).then(done, function () { window.prompt('', t.dataset.copy); }); else window.prompt('', t.dataset.copy); }
+    if (t.dataset.report) api('GET', '/batches/' + t.dataset.report + '/report').then(function (r) {
+      if (!r.ok) { $('bcReport').textContent = (r.data && r.data.error) || ('HTTP ' + r.status); return; }
+      var p = r.data.report, L = [p.batch.label + (p.batch.sponsor ? ' · ' + p.batch.sponsor : ''), 'Seats used: ' + p.seats_used + ' of ' + p.batch.seats];
+      if (p.withheld) L.push('Withheld: ' + p.reason + '.');
+      else {
+        L.push('Verified accounts: ' + p.verified, 'Active in the last 7 days: ' + p.active_last_7_days + ' · last 30 days: ' + p.active_last_30_days, 'Career Map completed: ' + p.career_map.completed + (p.career_map.average_total != null ? ' · average score ' + p.career_map.average_total : ''));
+        Object.keys(p.products).forEach(function (k) { var x = p.products[k]; L.push(k + ': ' + x.started + ' started' + (x.average_lessons_completed != null ? ' · ' + x.average_lessons_completed + ' lessons on average' : '') + ' · ' + x.certificates + ' certificates'); });
+      }
+      L.push('Counts and averages only. No member is named.');
+      $('bcReport').textContent = L.join('\n');
+    });
+    if (t.dataset.csv) { var init = { headers: {}, credentials: 'same-origin' }; if (token) init.headers.authorization = 'Bearer ' + token;
+      fetch('/api/admin/batches/' + t.dataset.csv + '/report.csv', init).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.blob(); }).then(function (blob) { var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'metanoia-cohort-report.csv'; document.body.appendChild(a); a.click(); a.remove(); }).catch(function (er) { $('bcMsg').textContent = 'Export failed: ' + er.message; }); }
+    if (t.dataset.revoke) {
+      var restoring = t.dataset.on === '1', patch = { revoked: !restoring };
+      if (!restoring) { if (!confirm('Withdraw this batch? The code stops working for new members.')) return; patch.withdraw_access = confirm('Also end the access of members who already used it? Cancel keeps their access.'); }
+      api('PATCH', '/batches/' + t.dataset.revoke, patch).then(function (r) { $('bcMsg').textContent = r.ok ? (restoring ? 'restored' : 'withdrawn' + (r.data.withdrawn ? ', ' + r.data.withdrawn + ' access grants ended' : '')) : ((r.data && r.data.error) || ('HTTP ' + r.status)); loadBatches(); });
+    }
+  });
+  $('batches').addEventListener('toggle', function () { if ($('batches').open) loadBatches(); });
 
   /* ── AI coach: usage, the switch that opens it to members, and a trial form ── */
   var CO_SAMPLES = {
