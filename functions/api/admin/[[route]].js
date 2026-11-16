@@ -25,6 +25,10 @@
  *   GET   /api/admin/errors?days=7                     script errors reported by browsers, grouped by message and page
  *   GET   /api/admin/digest?days=7                     the weekly owner summary as numbers and as the e-mail text (nothing is sent)
  *   POST  /api/admin/digest                            sends that summary to LEADS_NOTIFY_TO now
+ *   GET   /api/admin/batches                           access-code batches with seats used
+ *   POST  /api/admin/batches { label, sponsor?, product?, plan?, seats, redeem_by?, access_ends_at?, note? }
+ *   PATCH /api/admin/batches/:id { seats?, redeem_by?, note?, revoked?, withdraw_access? }
+ *   GET   /api/admin/batches/:id/report[.csv]          the sponsor's aggregate report (withheld below the minimum cohort)
  *   GET   /api/admin/coach?days=14                     the AI coach: whether members can use it, calls and Neurons per day
  *   POST  /api/admin/coach/trial { kind, question?, text, lang }   one review, to judge the quality (counts against the budget)
  *   POST  /api/admin/coach/mode  { mode: 'on' | 'off' }            opens the coach to members or closes it
@@ -34,6 +38,7 @@
 import { json, fail, readJson, clip, nowIso, sameOrigin, rateLimit, clientIp, newId } from '../../../server/lib/http.js';
 import { adminActor } from '../../../server/lib/auth.js';
 import { buildDigest, digestText, sendOwnerDigest, scriptErrors } from '../../../server/lib/digest.js';
+import { createBatch, listBatches, updateBatch, batchReport } from '../../../server/lib/access-codes.js';
 import { coachConfigured, coachMode, setCoachMode, validate as coachValidate, review as coachReview, report as coachReport } from '../../../server/lib/coach.js';
 import { PRODUCTS, PLANS, accessMode, betaEndsAt, listEntitlements, resolveAccess, grantEntitlement, revokeEntitlement, grantFounding } from '../../../server/lib/entitlements.js';
 
@@ -198,6 +203,27 @@ export async function onRequestGet({ request, env, params }) {
     } catch (e) { return json({ ok: true, audit: [], pending_migration: true }); }
   }
 
+  if (route === 'batches') {
+    try { return json({ ok: true, batches: await listBatches(env) }); } catch (e) { return json({ ok: true, batches: [], pending_migration: true }); }
+  }
+  const brm = /^batches\/([0-9a-f]{32})\/report(\.csv)?$/.exec(route);
+  if (brm) {
+    const rp = await batchReport(env, brm[1]).catch(() => null);
+    if (!rp) return fail(404, 'no such batch');
+    if (!brm[2]) return json({ ok: true, report: rp });
+    await audit(env, g.actor, 'batch.report.export', brm[1], { label: rp.batch.label, withheld: rp.withheld });
+    /* one row per figure: what a sponsor can be sent. No member appears in it. */
+    const rows = [{ figure: 'Cohort', value: rp.batch.label }, { figure: 'Sponsor', value: rp.batch.sponsor || '' }, { figure: 'Seats', value: rp.batch.seats }, { figure: 'Seats used', value: rp.seats_used }];
+    if (rp.withheld) rows.push({ figure: 'Note', value: rp.reason });
+    else {
+      rows.push({ figure: 'Verified accounts', value: rp.verified }, { figure: 'Active in the last 7 days', value: rp.active_last_7_days }, { figure: 'Active in the last 30 days', value: rp.active_last_30_days },
+        { figure: 'Career Map completed', value: rp.career_map.completed }, { figure: 'Career Map average score', value: rp.career_map.average_total == null ? '' : rp.career_map.average_total });
+      for (const slug of Object.keys(rp.products)) { const pr = rp.products[slug]; rows.push({ figure: slug + ': members who started', value: pr.started }, { figure: slug + ': average lessons completed', value: pr.average_lessons_completed == null ? '' : pr.average_lessons_completed }, { figure: slug + ': certificates', value: pr.certificates }); }
+    }
+    rows.push({ figure: 'Generated', value: rp.generated_at });
+    return csvResponse('metanoia-cohort-report.csv', ['figure', 'value'], rows);
+  }
+
   if (route === 'coach') {
     const days = Math.min(60, Math.max(1, parseInt(url.searchParams.get('days') || '14', 10) || 14));
     return json({ ok: true, configured: coachConfigured(env), binding: !!env.AI, mock: env.COACH_MOCK === '1', mode: await coachMode(env), ...(await coachReport(env, days)) });
@@ -251,6 +277,13 @@ export async function onRequestGet({ request, env, params }) {
 export async function onRequestPatch({ request, env, params }) {
   const g = await guard(request, env, true); if (g instanceof Response) return g;
   const parts = params.route || [];
+  if (parts[0] === 'batches' && parts[1] && parts.length === 2) {
+    const pb = (await readJson(request)) || {};
+    const ur = await updateBatch(env, clip(parts[1], 64), pb).catch(() => ({ error: 'access codes not configured', status: 503 }));
+    if (ur.error) return fail(ur.status || 400, ur.error, { field: ur.field });
+    await audit(env, g.actor, 'batch.update', ur.batch.id, { label: ur.batch.label, seats: ur.batch.seats, revoked: ur.batch.revoked, withdrawn: ur.withdrawn });
+    return json({ ok: true, batch: ur.batch, withdrawn: ur.withdrawn });
+  }
   if (parts[0] === 'feedback' && parts[1]) {
     const fid = clip(parts[1], 64), fb = (await readJson(request)) || {};
     const curF = await env.DB.prepare('SELECT * FROM feedback WHERE id = ?').bind(fid).first().catch(() => null);
@@ -279,6 +312,14 @@ export async function onRequestPatch({ request, env, params }) {
 export async function onRequestPost({ request, env, params }) {
   const g = await guard(request, env, true); if (g instanceof Response) return g;
   const parts = params.route || [];
+  if (parts[0] === 'batches' && parts.length === 1) {
+    const nb = (await readJson(request)) || {};
+    const cr = await createBatch(env, { label: nb.label, sponsor: nb.sponsor, product: nb.product === undefined ? 'all' : String(nb.product), plan: nb.plan === undefined ? 'enterprise' : String(nb.plan), seats: nb.seats,
+      redeemBy: nb.redeem_by || null, accessEndsAt: nb.access_ends_at || null, note: nb.note || null, createdBy: g.actor }).catch(() => ({ error: 'access codes not configured', status: 503 }));
+    if (cr.error) return fail(cr.status || 400, cr.error, { field: cr.field });
+    await audit(env, g.actor, 'batch.create', cr.batch.id, { label: cr.batch.label, seats: cr.batch.seats, product: cr.batch.product, plan: cr.batch.plan });
+    return json({ ok: true, batch: cr.batch }, 201);
+  }
   if (parts[0] === 'coach' && parts[1] === 'mode' && parts.length === 2) {
     const mb = (await readJson(request)) || {};
     if (mb.mode !== 'on' && mb.mode !== 'off') return fail(400, 'mode must be on or off', { field: 'mode' });

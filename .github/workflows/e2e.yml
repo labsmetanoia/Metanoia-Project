@@ -47,7 +47,7 @@ jobs:
       - name: Start the site with its API and a local database
         run: |
           # throwaway values for this run only; production secrets are never read here
-          printf 'SESSION_SECRET=e2e-session-secret-0123456789abcdef\nSUBJECT_KEY=e2e-subject-key-0123456789abcdef\nADMIN_TOKEN=local-admin-token\nADMIN_EMAILS=admin@example.test\nCOACH_MOCK=1\n' > .dev.vars
+          printf 'SESSION_SECRET=e2e-session-secret-0123456789abcdef\nSUBJECT_KEY=e2e-subject-key-0123456789abcdef\nADMIN_TOKEN=local-admin-token\nADMIN_EMAILS=admin@example.test\nCOACH_MOCK=1\nCOHORT_MIN=2\n' > .dev.vars
           npx wrangler d1 migrations apply metanoia --local --persist-to .e2e-state
           nohup npx wrangler pages dev --port 8788 --persist-to .e2e-state > e2e-server.log 2>&1 &
           for i in $(seq 1 90); do curl -sf http://localhost:8788/api/health > /dev/null && break; sleep 2; done

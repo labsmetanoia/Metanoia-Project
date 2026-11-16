@@ -347,7 +347,9 @@ const PANELS = {
     '<div style="font-size:var(--text-lg);font-weight:700;color:var(--gold)">' + (tier === 'compass' ? 'The Compass' : tier === 'expired' ? L('Compass (expired)', 'Compass (berakhir)') : L('Basecamp (free)', 'Basecamp (gratis)')) + '</div></div>' +
     '<p class="note">' + L('Basecamp is free, always. Every edition membership is Rp 0 during beta. See the pricing page for what is live today. Your data is never deleted if a subscription lapses.',
       'Basecamp gratis, selamanya. Setiap keanggotaan edisi Rp 0 selama beta; lihat halaman harga untuk apa yang sudah tersedia hari ini. Datamu tidak pernah dihapus saat langganan berakhir.') + '</p>' +
-    '<button class="btn btn-primary" style="margin-top:1rem" onclick="window.location.href=\'register?plan=premium\'">' + L('Activate The Compass →', 'Aktifkan The Compass →') + '</button>';
+    '<button class="btn btn-primary" style="margin-top:1rem" onclick="window.location.href=\'register?plan=premium\'">' + L('Activate The Compass →', 'Aktifkan The Compass →') + '</button>' +
+    /* a code from a campus or an employer (js/mt-access.js draws and wires the box) */
+    '<div class="f-group" id="code-box" style="margin-top:2rem"></div>';
   }
 };
 
@@ -355,6 +357,7 @@ function render(key) {
   cur = key;
   const panel = document.getElementById('panel');
   panel.innerHTML = PANELS[key]();
+  if (key === 'subscription' && window.MT_ACCESS) MT_ACCESS.mount(document.getElementById('code-box'));
   panel.querySelectorAll('.save-btn').forEach(b => b.addEventListener('click', () => toast(L('Saved.', 'Tersimpan.'))));
   const ex = document.getElementById('export-btn');
   if (ex) ex.addEventListener('click', () => {
@@ -599,5 +602,6 @@ render('profile');
 })();
 </script>
 <script src="js/mt-feedback.js" defer></script>
+<script src="js/mt-access.js" defer></script>
 </body>
 </html>

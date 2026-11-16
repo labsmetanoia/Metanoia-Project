@@ -32,7 +32,7 @@ Effort: S (a day or less), M (two to four days), L (a week or more). Priority 1 
 - **Feasibility.** Cloudflare Workers AI can be bound to Pages Functions and has a free daily allowance. The current figure and the quality of open models in Bahasa Indonesia must be confirmed in a one-day trial before committing. Staying free means hard caps. Member answers would be processed by Cloudflare's model service, so the privacy notice needs a line.
 - **Decision (16 November 2026).** Both, in that order. Option A is done: about 100 strings reworded in both languages across 15 files, and integrity gate 15 now fails the build if the copy claims AI scoring, an AI interviewer, session memory or community feedback. Lesson content that discusses AI as a topic is unchanged. Option B is built (docs/14, "AI coach"): it ships closed to members, and the owner opens it from the admin page after judging trial reviews in English and Bahasa Indonesia.
 
-### N-02 · Access codes for sponsors and campuses (Priority 2)
+### N-02 · Access codes for sponsors and campuses (Priority 2) · built 16 November 2026
 
 - **Purpose.** Let Metanoia Labs sell a cohort or a campus sponsorship today, invoiced by hand, before any payment provider or full organisation model.
 - **Key functionality.** The admin creates a batch of codes with a label, product scope, seat count and expiry. A member redeems a code at registration or in Settings and receives access. The admin sees seats used and, above a minimum cohort size, aggregate progress and readiness for the batch, with CSV export.
