@@ -114,6 +114,12 @@ echo "── 13. no unprovable ranking claims (\"top 1%\") in user-facing copy (
 CLAIMS=$(grep -rniE "top 1%|top 1 ?percent|1% teratas|1% terbaik|1 ?persen teratas" prototype --include='*.html' --include='*.js' 2>/dev/null | grep -v "^prototype/assets/" || true)
 if [ -n "$CLAIMS" ]; then echo "$CLAIMS"; echo "   ✗ ranking claim found"; FAIL=1; else echo "   clean"; fi
 
+echo "── 15. product claims match the product: no AI scoring, AI interviewer, session memory or community feedback (docs/21, N-01)"
+# The interview simulator scores on the device with fixed rules and its interviewer is scripted; there is no community feature.
+# Lesson content may discuss AI as a topic, so the lesson registries, assessments and Mind Palace are not scanned.
+# "AI coach" is allowed: that is the capped feedback service behind /api/coach.
+AICLAIMS=$(grep -rnE "AI (feedback|scoring|mock|interviewer|Interview (Specialist|Simulator)|practice)|AI-assisted ·|session[- ]memory|community feedback|umpan balik AI|penilaian AI|[Pp]ewawancara AI|Wawancara AI|umpan balik komunitas|[Bb]erbantuan AI ·" prototype --include='*.html' --include='*.js' 2>/dev/null | grep -v "^prototype/assets/\|^prototype/data/lms/\|^prototype/data/assess/\|^prototype/data/mindpalace.js\|^prototype/mind-palace/\|^prototype/js/vendor/" || true)
+if [ -n "$AICLAIMS" ]; then echo "$AICLAIMS" | cut -c1-220 | head -20; echo "   ✗ a product claim that the product does not back"; FAIL=1; else echo "   clean"; fi
 echo "── 14. size budgets: pages and scripts under their limits (scripts/budgets.json)"
 if python3 scripts/check-budgets.py; then :; else echo "   ✗ a budget was exceeded"; FAIL=1; fi
 

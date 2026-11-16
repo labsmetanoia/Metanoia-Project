@@ -19,10 +19,10 @@
                and a speaking indicator. This is the mode the prototype runs in.
 
    Nothing here animates a photograph: a mode either plays real video or shows the
-   photograph as it is, and the tile says which ("AI interviewer · photo + voice"). */
+   photograph as it is, and the tile says which ("Virtual interviewer · photo + voice"). */
 window.MT_ROPE_SIM_MEDIA = {
   "kind": "video-interviewer",
-  "disclosure": { "en": "AI interviewer · simulation", "id": "Pewawancara AI · simulasi" },
+  "disclosure": { "en": "Virtual interviewer · simulation", "id": "Pewawancara virtual · simulasi" },
   "syntheticAnimation": false,
   "syntheticVoice": true,
   /* the provider key and the per-persona avatar/voice ids are environment variables of the

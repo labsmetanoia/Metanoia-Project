@@ -2269,11 +2269,11 @@ function buildDone(t,bd,lowest,dateStr){
   const CARDS = lang==='id' ? [
     {k:'ci',ic:'🗺',n:'The Map',d:'Rute 90 harimu, dibangun dari hasilmu'},
     {k:'ps',ic:'📄',n:'CV Studio',d:'Review CV teroptimasi ATS secara real time, baris demi baris'},
-    {k:'ir',ic:'🎤',n:'Interview Coach',d:'Simulasi wawancara AI yang dikalibrasi ke kesenjanganmu'},
+    {k:'ir',ic:'🎤',n:'Interview Coach',d:'Simulasi wawancara yang dikalibrasi ke kesenjanganmu'},
     {k:'nc',ic:'🔥',n:'Basecamp',d:'Kohortmu: 20 pendaki di rute yang sama denganmu'}] : [
     {k:'ci',ic:'🗺',n:'The Map',d:'Your 90-day route, built from your results'},
     {k:'ps',ic:'📄',n:'CV Studio',d:'ATS-optimized CV review in real time, with line edits'},
-    {k:'ir',ic:'🎤',n:'Interview Coach',d:'AI mock interviews calibrated to your gaps'},
+    {k:'ir',ic:'🎤',n:'Interview Coach',d:'Mock interviews calibrated to your gaps'},
     {k:'nc',ic:'🔥',n:'Basecamp',d:'Your cohort: 20 climbers on the same route as you'}];
   const lowKey=DIMS[lowest].key, hot=(lowKey==='cm')?'nc':lowKey;
   document.getElementById('doneFeats').innerHTML=CARDS.map(c=>`
