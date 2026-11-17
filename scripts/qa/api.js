@@ -515,6 +515,38 @@ function client() {
     ok(['letter.create', 'letter.queue', 'letter.run', 'letter.cancel'].every(x => r.j.audit.some(a => a.action === x)), 'letter actions are in the audit trail', r.j.audit.map(a => a.action).slice(0, 12));
   }
 
+  /* ── lessons report: completion from saved progress, opens and quiz answers from player events ── */
+  r = await m2('GET', '/api/admin/content');
+  ok(r.status === 401, 'a member cannot read the lessons report', r.status);
+  r = await anon('GET', '/api/admin/content?days=30', undefined, A);
+  ok(r.status === 200 && r.j.products.length === 4 && r.j.products.every(p => p.core > 0 && p.lessons.length === p.core && !p.unavailable), 'the lessons report lists every core lesson of four products', r.j.products && r.j.products.map(p => [p.slug, p.core, p.unavailable]));
+  const ropeOf = j => j.products.find(p => p.slug === 'the-rope'), l11 = j => ropeOf(j).lessons.find(l => l.n === '1.1');
+  const before = r.j;
+  ok(l11(before).title.length > 3, 'lessons carry their titles', l11(before));
+  const mapP = before.products.find(p => p.slug === 'the-map');
+  ok(mapP.started >= 1 && mapP.finished >= 1 && mapP.finished <= mapP.started && mapP.certificates >= 1 && mapP.lessons[0].completed >= mapP.finished, 'completion is counted from saved progress', { s: mapP.started, f: mapP.finished, c: mapP.certificates });
+  /* five visitors: two open lesson 1.1 (one of them on the sample), one completes it, all five answer question 1 */
+  const who = i => 'qa-' + stamp + '-lesson' + i + '-0123456789';
+  const lev = (name, props) => ({ name, page: '/products/the-rope/', props: { pillar: 'the-rope', lesson: '1.1', ...props } });
+  await anon('POST', '/api/events', { anon_id: who(1), events: [lev('lms.lesson.opened', { module: '1', sample: 1 }), lev('lms.check.answered', { q: 1, correct: false }), lev('lms.check.answered', { q: 1, correct: true }),
+    { name: 'lms.sample.join_clicked', props: { pillar: 'the-rope', sample: 1 } }] });
+  await anon('POST', '/api/events', { anon_id: who(2), events: [lev('lms.lesson.opened', { module: '1' }), lev('lms.lesson.opened', { module: '1' }), lev('lms.lesson.completed', {}), lev('lms.check.answered', { q: 1, correct: true }),
+    { name: 'lms.sample.converted', props: { pillar: 'the-rope' } }] });
+  for (const i of [3, 4, 5]) await anon('POST', '/api/events', { anon_id: who(i), events: [lev('lms.check.answered', { q: 1, correct: false })] });
+  r = await anon('GET', '/api/admin/content?days=30', undefined, A);
+  const after = r.j, d = k => l11(after)[k] - l11(before)[k];
+  ok(d('opened_window') === 2 && d('completed_window') === 1, 'opens and completions count each visitor once', { o: d('opened_window'), c: d('completed_window') });
+  ok(d('quiz_answers') === 5 && d('quiz_wrong') === 4, 'only a visitor\'s first answer to a question counts', { a: d('quiz_answers'), w: d('quiz_wrong') });
+  const sd = k => ropeOf(after).sample[k] - ropeOf(before).sample[k];
+  ok(sd('visitors') === 1 && sd('joins') === 1 && sd('converted') === 1, 'the sample funnel counts readers, join clicks and returns', ropeOf(after).sample);
+  ok(after.hardest.some(h => h.product === 'the-rope' && h.lesson === '1.1' && h.q === 1 && h.answers >= 5 && h.wrong_rate > 0) && typeof after.tracking_since === 'string', 'a question with enough answers is ranked by difficulty', after.hardest.slice(0, 3));
+  r = await anon('GET', '/api/admin/content?days=30', undefined, { authorization: 'Bearer wrong' });
+  ok(r.status === 401, 'the lessons report needs the admin token', r.status);
+  r = await anon('GET', '/api/admin/content.csv?days=30', undefined, A);
+  ok(r.status === 200 && /text\/csv/.test(r.headers.get('content-type') || '') && r.text.startsWith('product,lesson,title,') && r.text.split('\n').length > 170 && !/@/.test(r.text), 'the lessons report downloads as CSV without any address', r.text.slice(0, 120));
+  r = await anon('GET', '/api/admin/audit?limit=20', undefined, A);
+  ok(r.j.audit.some(a => a.action === 'content.export'), 'the lessons export is in the audit trail', r.j.audit.length);
+
   /* ── deletion ── */
   r = await m2('POST', '/api/account/delete', { password: 'wrong' });
   ok(r.status === 401, 'deletion needs the password', r.status);

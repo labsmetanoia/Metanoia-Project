@@ -31,6 +31,7 @@ data/mindpalace.js, data/routes.json); this script never edits them.
 import argparse
 import datetime as dt
 import hashlib
+import html
 import json
 import math
 import os
@@ -1073,7 +1074,9 @@ def split_registries():
         # the core lessons (bonus and appendix modules stay out): what a certificate of completion requires
         # (functions/api/certificates) and what js/lms-extras.js counts for the sample banner
         core = [str(l['n']) for m in reg['modules'] if not m.get('bonus') and not m.get('appendix') for l in m['lessons']]
-        write_json(os.path.join(out_dir, 'manifest.json'), {'product': slug, 'lessons': core, 'all': n_lessons})
+        # titles and the number of quiz questions per lesson: the admin page's Content panel labels its rows with them
+        titles = {str(l['n']): html.unescape((l.get('title') or {}).get('en', '')) for m in reg['modules'] for l in m['lessons']}
+        write_json(os.path.join(out_dir, 'manifest.json'), {'product': slug, 'lessons': core, 'all': n_lessons, 'titles': titles})
         write(os.path.join(out_dir, 'index.js'),
               "window.MT_LMS=window.MT_LMS||{};window.MT_LMS['%s']=%s;\n" % (slug, json.dumps(reg, ensure_ascii=False, separators=(',', ':'))))
         print(f'registry {slug}: index.js {os.path.getsize(os.path.join(out_dir, "index.js")) // 1024} KB, {n_lessons} lesson files')

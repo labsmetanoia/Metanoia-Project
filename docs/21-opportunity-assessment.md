@@ -46,7 +46,7 @@ Effort: S (a day or less), M (two to four days), L (a week or more). Priority 1 
 - **Benefits.** Retention, launch communication, and the newsletter the site already promises.
 - **Feasibility.** Resend's free tier limits volume to 100 a day and 3,000 a month, so a large list takes several days per letter. The notice bar alone is S and needs no mail. Composer and batches are M.
 
-### N-04 · Lesson and funnel analytics (Priority 4)
+### N-04 · Lesson and funnel analytics (Priority 4) · built 17 November 2026
 
 - **Purpose.** Know what members actually do, so content and product decisions rest on evidence.
 - **Key functionality.** The lesson player reports lesson opened, lesson completed and quiz answered. The nightly Worker aggregates them. A Content panel in the admin page shows completion by lesson, the lesson where most members stop, the hardest quiz questions, sample-to-account conversion and certificate rate per product.

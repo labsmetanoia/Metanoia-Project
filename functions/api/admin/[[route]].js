@@ -32,6 +32,8 @@
  *   GET   /api/admin/coach?days=14                     the AI coach: whether members can use it, calls and Neurons per day
  *   POST  /api/admin/coach/trial { kind, question?, text, lang }   one review, to judge the quality (counts against the budget)
  *   POST  /api/admin/coach/mode  { mode: 'on' | 'off' }            opens the coach to members or closes it
+ *   GET   /api/admin/content[.csv]?days=30             lessons: members who completed each one, where members stop, opens and quiz
+ *                                                      answers in the window, sample-lesson funnel, certificates per product
  *   GET   /api/admin/notice                            the site-wide notice as stored, and whether it is showing now
  *   POST  /api/admin/notice { on, en, id, href?, link_en?, link_id?, until? }   sets it; `until` is the last day (Jakarta time)
  *   GET   /api/admin/letters                           letters with progress, who would receive one today, today's mail budget
@@ -49,6 +51,7 @@ import { adminActor } from '../../../server/lib/auth.js';
 import { buildDigest, digestText, sendOwnerDigest, scriptErrors } from '../../../server/lib/digest.js';
 import { createBatch, listBatches, updateBatch, batchReport } from '../../../server/lib/access-codes.js';
 import { cleanNotice, readNotice, saveNotice, noticeLive, createLetter, updateLetter, listLetters, audienceCounts, queueLetter, cancelLetter, testLetter, letterBudget, runLetters } from '../../../server/lib/letters.js';
+import { CONTENT_PRODUCTS, loadManifest, contentReport, contentCsvRows } from '../../../server/lib/content.js';
 import { coachConfigured, coachMode, setCoachMode, validate as coachValidate, review as coachReview, report as coachReport } from '../../../server/lib/coach.js';
 import { PRODUCTS, PLANS, accessMode, betaEndsAt, listEntitlements, resolveAccess, grantEntitlement, revokeEntitlement, grantFounding } from '../../../server/lib/entitlements.js';
 
@@ -232,6 +235,16 @@ export async function onRequestGet({ request, env, params }) {
     }
     rows.push({ figure: 'Generated', value: rp.generated_at });
     return csvResponse('metanoia-cohort-report.csv', ['figure', 'value'], rows);
+  }
+
+  if (route === 'content' || route === 'content.csv') {
+    const days = Math.min(90, Math.max(1, parseInt(url.searchParams.get('days') || '30', 10) || 30));
+    const manifests = {};
+    for (const slug of Object.keys(CONTENT_PRODUCTS)) manifests[slug] = await loadManifest(request, env, slug);
+    const rp = await contentReport(env, { days, manifests });
+    if (route === 'content') return json({ ok: true, ...rp });
+    await audit(env, g.actor, 'content.export', null, { days });
+    return csvResponse('metanoia-lessons.csv', ['product', 'lesson', 'title', 'members_started_product', 'members_completed_lesson', 'share_of_started', 'opened_in_window', 'completed_in_window', 'quiz_first_answers', 'quiz_wrong_first_try'], contentCsvRows(rp));
   }
 
   if (route === 'notice') {

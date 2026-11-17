@@ -16,9 +16,12 @@ First-party product events accepted by `POST /api/events` and sent through `MT.t
 | `assessment.career_map.result_shared` | `platform` | — | Career Map |
 | `assessment.career_map.email_submitted` | `has_linkedin` | — | Career Map |
 | `assessment.career_map.account_cta_clicked` | `placement` | — | Career Map |
-| `lms.lesson.opened` | `pillar`, `module`, `lesson` | — | LMS player (to wire) |
-| `lms.module.completed` | `pillar`, `module` | — | LMS player (to wire) |
-| `lms.check.answered` | `pillar`, `module`, `lesson`, `correct` | — | LMS player (to wire) |
+| `lms.lesson.opened` | `pillar` (product slug), `lesson`, `module` | `sample` (1 for a guest on the sample lesson) | LMS player (`js/lms-player.js`), once each time a lesson is shown |
+| `lms.lesson.completed` | `pillar`, `lesson` | `sample` | LMS player, when the member marks a lesson complete |
+| `lms.module.completed` | `pillar`, `module` | — | not emitted; module completion is derived from lesson completion |
+| `lms.check.answered` | `pillar`, `lesson`, `q` (question number in the lesson, from 1), `correct` | `sample` | LMS player, on each answer to a knowledge-check question. Reports use a member's first answer per question |
+| `lms.sample.join_clicked` | `pillar` | `sample` | sample lesson (`js/lms-extras.js`): a click on "Create a free account" in the sample bar or its dialog |
+| `lms.sample.converted` | `pillar` | — | LMS player: the first lesson a signed-in member opens in a browser that read a sample lesson before. Reported once |
 | `rope.simulation.started` | `persona`, `mode` | — | The Rope (to wire) |
 | `rope.simulation.finished` | `persona`, `mode`, `questions`, `minutes` | `score` | The Rope (to wire) |
 | `range.company.viewed` | `id` (company slug) | `industry`, `geo` | The Range (to wire) |
