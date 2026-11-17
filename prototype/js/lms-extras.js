@@ -56,6 +56,8 @@
       bi('span', 'lmx-short', 'A free account opens all ' + n + '.', 'Akun gratis membuka ke-' + n + ' pelajaran.') + '</span>' +
       bi('a', 'lmx-btn', 'Create a free account', 'Buat akun gratis', ' href="' + join() + '"');
     document.body.appendChild(bar);
+    /* remembered in this browser only, so the player can report a sample reader who comes back as a member */
+    try { localStorage.setItem('mt-sample-seen', state.slug); } catch (e) {}
     /* straight into the lesson: that is what the visitor came for */
     if (!state.opened && window.MT_LMS_PLAYER && window.MT_LMS_PLAYER.open) { state.opened = true; setTimeout(function () { try { window.MT_LMS_PLAYER.open(state.first); } catch (e) {} }, 350); }
   }
@@ -103,6 +105,12 @@
       }).catch(function () { b.disabled = false; note('We could not reach the server. Please try again.', 'Server belum bisa dijangkau. Coba lagi.'); });
     });
   }
+
+  /* a click on any "create a free account" link of the sample bar or its dialog */
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest && e.target.closest('.lmx-bar a, .lmx-veil a');
+    if (t && /\/register\?/.test(t.getAttribute('href') || '')) { try { window.MT_LMS_PLAYER.track('lms.sample.join_clicked'); if (window.MT && window.MT.flush) window.MT.flush(true); } catch (err) {} }
+  }, true);
 
   window.MT_LMS_EXTRAS = {
     sync: function (o) { for (var k in o) state[k] = o[k]; if (o.sample) sampleBar(); else if (o.complete) certButton(); },

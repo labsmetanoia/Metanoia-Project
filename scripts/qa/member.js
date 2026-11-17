@@ -247,6 +247,13 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
   check(a.path === '/products/the-map/?sample=1' && a.bar && a.player && !a.over, 'a guest stays on the product in sample mode and the first lesson opens', a);
   check(/register\?redirect=%2Fproducts%2Fthe-map%2F/.test(a.cta), 'the sample bar leads to a free account with the way back', a.cta);
   await shot(g, '15-sample-lesson');
+  /* the player reports the opened lesson, marked as a sample, and remembers the sample in this browser only */
+  const gReq = g.waitForRequest(q => /\/api\/events$/.test(q.url()) && /lms\.lesson\.opened/.test(q.postData() || ''), { timeout: 8000 }).catch(() => null);
+  await g.evaluate(() => { if (window.MT && window.MT.flush) window.MT.flush(false); });
+  const gEv = await gReq, gBody = gEv ? JSON.parse(gEv.postData()) : { events: [] };
+  a = gBody.events.find(e => e.name === 'lms.lesson.opened');
+  check(!!a && a.props.pillar === 'the-map' && a.props.sample === 1 && !!a.props.lesson && gBody.events.every(e => !/@/.test(JSON.stringify(e))), 'the player reports a sample lesson opened, without anything personal', gBody.events.map(e => e.name));
+  check(await g.evaluate(() => localStorage.getItem('mt-sample-seen')) === 'the-map', 'the sample is remembered in the browser for the return visit');
   a = await g.evaluate(() => { const items = [...document.querySelectorAll('.lr-item')]; const locked = items.filter(x => x.classList.contains('locked')); if (locked[0]) locked[0].click(); return { items: items.length, locked: locked.length, veil: !!document.querySelector('.lmx-veil.on') }; });
   check(a.items > 3 && a.locked === a.items - 1 && a.veil, 'every other lesson is closed and says why when pressed', a);
   await gctx.close();
@@ -455,6 +462,50 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     await ad4.evaluate(() => document.getElementById('letters').scrollIntoView());
     await shot(ad4, 'admin-letters');
     await ad4.close(); await pn.close(); await nctx.close();
+  }
+
+  /* ── lesson analytics: a member opens a lesson, answers a quiz question and completes the lesson ── */
+  {
+    /* this member declined analytics earlier in the journey: opening a lesson then reports nothing */
+    const lq = await ctx3.newPage(); watch(lq, 'lesson-events-declined');
+    const quiet = [];
+    lq.on('request', q => { if (/\/api\/events$/.test(q.url()) && /lms\./.test(q.postData() || '')) quiet.push(1); });
+    await lq.goto(B + '/products/the-rope/', { waitUntil: 'load' }); await lq.waitForTimeout(1200);
+    const declined = await lq.evaluate(() => localStorage.getItem('mt-consent-analytics') === '0');
+    await lq.evaluate(() => window.MT_LMS_PLAYER.open('1.1')); await lq.waitForTimeout(1500);
+    await lq.evaluate(() => { if (window.MT && window.MT.flush) window.MT.flush(false); }); await lq.waitForTimeout(1000);
+    check(declined && quiet.length === 0, 'a member who declined analytics sends no lesson events', { declined, sent: quiet.length });
+    await lq.close();
+    const lp = await ctx3.newPage(); watch(lp, 'lesson-events');
+    /* analytics allowed again, and as if this browser read a sample before the account */
+    await lp.addInitScript(() => { try { localStorage.removeItem('mt-consent-analytics'); localStorage.setItem('mt-sample-seen', 'the-rope'); } catch (e) {} });
+    const seen = [];
+    lp.on('request', q => { if (/\/api\/events$/.test(q.url())) { try { JSON.parse(q.postData() || '{}').events.forEach(e => seen.push(e)); } catch (e) {} } });
+    await lp.goto(B + '/products/the-rope/', { waitUntil: 'load' }); await lp.waitForTimeout(1500);
+    await lp.evaluate(() => window.MT_LMS_PLAYER.open('1.1')); await lp.waitForSelector('.lms-check .lms-opt', { timeout: 10000 }).catch(() => {});
+    await lp.evaluate(() => { const o = document.querySelector('.lms-check .lms-opt'); if (o) o.click(); });
+    await lp.evaluate(() => { const b = document.querySelector('.lmsp-foot .lms-complete'); if (b) b.click(); });
+    await lp.waitForTimeout(600);
+    await lp.evaluate(() => { if (window.MT && window.MT.flush) window.MT.flush(false); });
+    await lp.waitForTimeout(1500);
+    const names = seen.map(e => e.name), of = n => seen.find(e => e.name === n);
+    check(['lms.lesson.opened', 'lms.check.answered', 'lms.lesson.completed', 'lms.sample.converted'].every(n => names.includes(n)), 'the player reports lesson opened, quiz answered, lesson completed and the return after a sample', names);
+    a = of('lms.check.answered');
+    check(!!a && a.props.pillar === 'the-rope' && a.props.lesson === '1.1' && a.props.q === 1 && typeof a.props.correct === 'boolean' && !a.props.sample, 'a quiz answer carries the lesson, the question number and whether it was right', a && a.props);
+    check(await lp.evaluate(() => localStorage.getItem('mt-sample-seen')) === null, 'the return after a sample is reported once');
+    await lp.close();
+    if (process.env.ADMIN_TOKEN !== '') {
+      const ad5 = await ctx3.newPage(); watch(ad5, 'admin-lessons');
+      await ad5.addInitScript(t => { try { sessionStorage.setItem('mt-admin-token', t); } catch (e) {} }, process.env.ADMIN_TOKEN || 'local-admin-token');
+      await ad5.goto(B + '/admin/', { waitUntil: 'load' }); await ad5.waitForTimeout(1500);
+      await ad5.evaluate(() => { document.getElementById('content').open = true; }); await ad5.waitForTimeout(2500);
+      await ad5.selectOption('#ctProduct', 'the-rope'); await ad5.waitForTimeout(300);
+      a = await ad5.evaluate(() => ({ rows: document.querySelectorAll('#ctRows tbody tr').length, first: (document.querySelector('#ctRows tbody tr') || {}).innerText || '', stats: document.getElementById('ctStats').innerText, msg: document.getElementById('ctMsg').textContent }));
+      check(a.rows === 55 && /^1\.1/.test(a.first) && /STARTED/i.test(a.stats) && /recorded since/.test(a.msg), 'the admin page lists every lesson with completion, opens and quiz results', { rows: a.rows, first: a.first.slice(0, 80), msg: a.msg });
+      await ad5.evaluate(() => document.getElementById('content').scrollIntoView());
+      await shot(ad5, 'admin-lessons');
+      await ad5.close();
+    }
   }
 
   /* ── installable: the manifest and its icons are served ── */

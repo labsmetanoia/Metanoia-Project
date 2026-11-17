@@ -50,6 +50,18 @@ async function aggregateDay(env, dayStr) {
       .bind(dayStr, 'events.' + r.name, r.audience, r.locale, '', r.subjects, JSON.stringify({ rows: r.rows, subjects: r.subjects })));
   }
 
+  /* lessons: members who opened and who completed each lesson that day (docs/21 N-04). The lesson goes in
+     the `industry` column and the product in `fn`; like every row here, only with 20 or more subjects. */
+  const ls = await env.DB.prepare(
+    "SELECT name, COALESCE(json_extract(props_json, '$.pillar'), '') AS pillar, COALESCE(json_extract(props_json, '$.lesson'), '') AS lesson, COUNT(*) AS rows, COUNT(DISTINCT subject_id) AS subjects " +
+    "FROM events WHERE name IN ('lms.lesson.opened', 'lms.lesson.completed') AND ts BETWEEN ? AND ? GROUP BY 1, 2, 3"
+  ).bind(from, to).all();
+  for (const r of ls.results || []) {
+    if (r.subjects < K || !r.pillar || !r.lesson) continue;
+    stmts.push(env.DB.prepare('INSERT OR REPLACE INTO agg_daily (day, metric, audience, fn, industry, n, value_json) VALUES (?, ?, ?, ?, ?, ?, ?)')
+      .bind(dayStr, r.name, '', String(r.pillar).slice(0, 40), String(r.lesson).slice(0, 12), r.subjects, JSON.stringify({ rows: r.rows, subjects: r.subjects })));
+  }
+
   /* assessments: total-score histogram (deciles) per audience × target function */
   const as = await env.DB.prepare(
     "SELECT COALESCE(audience,'') AS audience, COALESCE(target_fn,'') AS fn, scores_json, subject_id FROM assessments WHERE ts BETWEEN ? AND ?"

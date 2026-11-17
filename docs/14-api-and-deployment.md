@@ -189,6 +189,16 @@ Admin (`/admin/`, Access panel, or the API): `GET /api/admin/users?founding=1` i
 - **Data**: tables `letters` and `letter_sends` (migration 0011). `letter_sends` holds account or lead ids, no addresses; the account purge removes a member's rows. Every notice change and letter action is in the audit trail.
 - **Checks**: `MAIL_MOCK=1` (local runs and the end-to-end workflow only, ignored when a mail key is set) records a batch as sent without a provider, so the cap and resume logic are tested on every pull request.
 
+### Lesson and funnel analytics (docs/21 N-04, 2026-11-17)
+
+- **What it answers**: which lessons members finish, where they stop, which quiz questions are hardest, how many sample readers ask for an account, and how many members earn a certificate. The admin page shows it under **Lessons**; `GET /api/admin/content?days=30` returns the numbers and `content.csv` one row per lesson.
+- **Completion** comes from saved progress (`mt-lms:<product>` in the `browser` progress namespace). It is a state, so it covers every member from their first lesson, including the time before this report existed. The database counts it with `json_each`; no member's document is read into the Function. "Started" is one or more core lessons, "finished" is all of them. The biggest step down is the pair of consecutive lessons with the largest loss of members.
+- **Opens, completions in a window and quiz answers** come from events the lesson player sends from 17 November 2026 (`lms.lesson.opened`, `lms.lesson.completed`, `lms.check.answered`; docs/13). The player queues them and `js/mt-events.js` sends them in batches. They carry the product, the lesson and the question number, never text or an identifier. A question is ranked only after five members have answered it, and only a member's first answer counts.
+- **Sample funnel**: guests on a sample lesson are counted from `lms.lesson.opened` with `sample: 1`; clicks on "Create a free account" from `lms.sample.join_clicked`; a member who first reads a lesson in a browser that read a sample before from `lms.sample.converted`. The link between sample and account is a flag in that browser (`mt-sample-seen`), never sent to the server.
+- **Consent**: Do-Not-Track and a declined analytics choice stop these events, as for every other event. Completion counts do not depend on them.
+- **Nightly**: the Worker's aggregation also writes `lms.lesson.opened` and `lms.lesson.completed` per product and lesson to `agg_daily`, only for 20 or more members a day, like every row in that table. Raw events are deleted after 13 months.
+- **Scale note**: the completion counts scan every member's progress document inside D1 on each request. That is fine for a few thousand members. Beyond that, move the count into the nightly Worker and store it.
+
 ### End-to-end tests in CI (2026-11-15)
 
 `.github/workflows/e2e.yml` runs on every pull request: it builds the site, starts `wrangler pages dev` with a throwaway local D1 (all migrations applied) and runs `scripts/qa/api.js`, `member.js`, the strict crawl and the public journeys. It uses no secret and never touches production. See `scripts/qa/README.md`.

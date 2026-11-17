@@ -124,6 +124,18 @@
     for (var i = 0; i < FLAT.length; i++) if (FLAT[i].l.n === n) return i;
     return -1;
   }
+  /* Usage events (docs/13-event-dictionary.md): which lessons are opened, finished, and how quiz
+     questions are answered. js/mt-events.js is fetched on the first event. */
+  var trq = [], trOn = 0, trLast = null;
+  function track(name, l, x) {
+    x = x || {}; x.pillar = slug; if (l) x.lesson = String(l.n); if (window.MT_SAMPLE) x.sample = 1;
+    if (window.MT && window.MT.track) return window.MT.track(name, x);
+    trq.push([name, x]);
+    if (trOn || !SELF) return; trOn = 1;
+    var sc = document.createElement('script'); sc.src = SELF.replace(/lms-player\.js.*$/, 'mt-events.js');
+    sc.onload = function () { trq.forEach(function (e) { window.MT.track(e[0], e[1]); }); trq = []; };
+    document.head.appendChild(sc);
+  }
   function canAccess(i) {
     if (window.MT_SAMPLE) return i === 0;   /* a guest reading the sample: the first lesson only */
     if (DEMO) return true;
@@ -3852,7 +3864,7 @@
       prog.classList.toggle('all', answered === n);
     }
     hd.appendChild(prog); wrap.appendChild(hd);
-    list.forEach(function (c, i) { renderOneCheck(c, wrap, i, n, function (ok) { answered++; if (ok) right++; syncProg(); }); });
+    list.forEach(function (c, i) { renderOneCheck(c, wrap, i, n, function (ok) { answered++; if (ok) right++; syncProg(); track('lms.check.answered', l, { q: i + 1, correct: !!ok }); }); });
     syncProg();
     host.appendChild(wrap);
   }
@@ -3880,6 +3892,11 @@
         innerEl.appendChild(er);
       });
       return;
+    }
+    if (trLast !== l.n) {
+      trLast = l.n; track('lms.lesson.opened', l, { module: String(m.num) });
+      /* a guest who read a sample and now reads as a member, in this browser */
+      try { if (!window.MT_SAMPLE && localStorage.getItem('mt-sample-seen')) { localStorage.removeItem('mt-sample-seen'); track('lms.sample.converted'); } } catch (e) {}
     }
     prefetchLesson(i + 1); prefetchLesson(i - 1);
     root.querySelector('.lc-prod').textContent =
@@ -4275,7 +4292,7 @@
     }
     var a = bi('a', 'lp-cta', p.cta || { en: 'Open in The Rope →', id: 'Buka di The Rope →' });
     a.href = p.href || '../the-rope/';
-    a.addEventListener('click', function () { var pr = progress(); if (!pr[l.n]) { pr[l.n] = true; saveProgress(pr); } });
+    a.addEventListener('click', function () { var pr = progress(); if (!pr[l.n]) { pr[l.n] = true; saveProgress(pr); track('lms.lesson.completed', l); } });
     box.appendChild(a);
     box.appendChild(bi('p', 'lp-note', { en: 'Your progress in The Pack is kept. Opening the lesson in The Rope marks this card as seen, so the next module unlocks as before.', id: 'Progresmu di The Pack tetap tersimpan. Membuka pelajaran di The Rope menandai kartu ini sebagai sudah dilihat, sehingga modul berikutnya terbuka seperti biasa.' }));
     return box;
@@ -4311,7 +4328,7 @@
     var l = FLAT[current].l;
     if (isDone(l.n)) return;
     if (l.caseStudy && !caseSubmitted(l)) { var cse = root.querySelector('#lmsCase'); if (cse) cse.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
-    var p = progress(); p[l.n] = true; saveProgress(p);
+    var p = progress(); p[l.n] = true; saveProgress(p); track('lms.lesson.completed', l);
     if (current < FLAT.length - 1) openLesson(current + 1);
     else { refreshComplete(); renderRail(); }
   });
@@ -4375,7 +4392,8 @@
       for (var i = 0; i < FLAT.length; i++) if (!isDone(FLAT[i].l.n)) { if (canAccess(i)) open(i); return; }
       open(FLAT.length - 1);
     },
-    progressPct: function () { return Math.round(doneCount() / FLAT.length * 100); }
+    progressPct: function () { return Math.round(doneCount() / FLAT.length * 100); },
+    track: function (n) { track(n); }
   };
 
   syncHostPage();

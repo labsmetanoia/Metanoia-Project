@@ -23,6 +23,8 @@
   .bar input[type=checkbox],input[type=checkbox]{width:auto;min-width:0;margin-right:6px;vertical-align:middle}
   .bar label{display:inline-flex;align-items:center;gap:6px}
   .stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 16px}
+  .meter{display:flex;align-items:center;gap:10px;min-width:220px}.meter i{flex:1;height:6px;border-radius:4px;background:rgba(255,255,255,.07);overflow:hidden}.meter i b{display:block;height:100%;border-radius:4px;background:var(--gold)}.meter span{flex:none;width:92px;font-size:12.5px;font-variant-numeric:tabular-nums}
+  td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
 .access{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:0 0 16px}.access summary{cursor:pointer}.access input,.access select{font-size:13px}
   .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:120px}
   .stat b{display:block;font-size:20px;color:var(--gold2)}
@@ -125,6 +127,20 @@
       <textarea id="coText" class="notes" placeholder="The answer or the CV bullet" style="width:100%;min-height:110px"></textarea>
       <div class="bar"><button id="coRun">Run a trial review</button></div>
       <pre id="coOut" style="white-space:pre-wrap;font-size:13px;margin:8px 0 0"></pre>
+    </details>
+    <details class="access" id="content">
+      <summary><b>Lessons</b> <span class="muted" id="ctSummary">which lessons members finish, and where they stop</span></summary>
+      <p class="muted" style="font-size:12px;margin:10px 0 8px">Members who completed a lesson are counted from saved progress, so every member is included from their first lesson. Opens and quiz answers come from the lesson player and start on the day this panel shipped. Counts only; no member is named.</p>
+      <div class="bar">
+        <select id="ctProduct"><option value="the-map">The Map</option><option value="the-pack">The Pack</option><option value="the-rope">The Rope</option><option value="the-route">The Route</option></select>
+        <select id="ctDays"><option value="7">Opens and quiz: last 7 days</option><option value="30" selected>Opens and quiz: last 30 days</option><option value="90">Opens and quiz: last 90 days</option></select>
+        <button class="ghost" id="ctCsv">Download CSV</button> <span class="muted" id="ctMsg"></span>
+      </div>
+      <div class="stats" id="ctStats"></div>
+      <p id="ctDrop" style="font-size:13px;margin:0 0 10px"></p>
+      <div id="ctRows"></div>
+      <b style="font-size:13px;display:block;margin:16px 0 4px">Hardest quiz questions, all products</b>
+      <div id="ctHard"></div>
     </details>
     <details class="access" id="trends">
       <summary><b>Trends</b> <span class="muted">one bar per day</span></summary>
@@ -445,6 +461,52 @@
       $('trCharts').innerHTML = TR.map(function (t) { return chart(t[1], d.axis, d.series[t[0]] || [], d.totals[t[0]] || 0, t[0] === 'active' || t[0] === 'visitors'); }).join('');
     });
   }
+  /* ── lessons: completion per lesson, the step where members stop, quiz difficulty, the sample funnel ── */
+  var ctData = null;
+  function pct(a, b) { return b ? Math.round((a / b) * 100) + '%' : '0%'; }
+  function drawContent() {
+    if (!ctData) return;
+    var p = (ctData.products || []).filter(function (x) { return x.slug === $('ctProduct').value; })[0];
+    if (!p) return;
+    var stat = function (v, label) { return '<div class="stat"><b>' + esc(v) + '</b><span>' + esc(label) + '</span></div>'; };
+    $('ctStats').innerHTML = stat(p.started, 'started') + stat(p.finished + ' · ' + pct(p.finished, p.started), 'finished all ' + p.core) + stat(p.certificates, 'certificates') +
+      stat(p.sample.visitors, 'sample readers') + stat(p.sample.joins, 'clicked create account') + stat(p.sample.converted, 'came back as members');
+    $('ctDrop').innerHTML = p.unavailable ? '<span class="err">' + esc(p.unavailable) + '</span>' : p.drop
+      ? 'Biggest step down: <b>' + p.drop.lost + ' of ' + p.drop.of + '</b> members who finished ' + esc(p.drop.after) + ' have not finished <b>' + esc(p.drop.next) + (p.drop.next_title ? ' · ' + esc(p.drop.next_title) : '') + '</b>.'
+      : (p.started ? 'No step down yet: every member who started has finished every lesson they reached.' : 'No member has completed a lesson in this product yet.');
+    $('ctRows').innerHTML = p.lessons.length ? '<table><thead><tr><th>Lesson</th><th>Members who completed it</th><th>Opened, ' + ctData.days + ' days</th><th>Completed, ' + ctData.days + ' days</th><th>Quiz: wrong on first try</th></tr></thead><tbody>' + p.lessons.map(function (l) {
+      var w = p.started ? Math.round((l.completed / p.started) * 100) : 0;
+      return '<tr><td><b>' + esc(l.n) + '</b> <span class="muted">' + esc(l.title) + '</span></td>' +
+        '<td><div class="meter" title="' + l.completed + ' of ' + p.started + ' members who started this product"><i><b style="width:' + w + '%"></b></i><span>' + l.completed + ' · ' + w + '%</span></div></td>' +
+        '<td class="num">' + l.opened_window + '</td><td class="num">' + l.completed_window + '</td>' +
+        '<td class="num">' + (l.quiz_answers ? l.quiz_wrong + ' of ' + l.quiz_answers + ' · ' + pct(l.quiz_wrong, l.quiz_answers) : '<span class="muted">no answers yet</span>') + '</td></tr>';
+    }).join('') + '</tbody></table>' : '';
+    var h = ctData.hardest || [];
+    $('ctHard').innerHTML = h.length ? '<table><thead><tr><th>Question</th><th>Wrong on first try</th><th>Answers</th></tr></thead><tbody>' + h.map(function (x) {
+      return '<tr><td><b>' + esc(x.product_name) + ' ' + esc(x.lesson) + '</b>, question ' + esc(x.q) + ' <span class="muted">' + esc(x.title) + '</span></td><td class="num">' + x.wrong_rate + '%</td><td class="num">' + x.answers + '</td></tr>';
+    }).join('') + '</tbody></table>' : '<p class="muted" style="font-size:13px">A question is listed once ' + (ctData.min_answers || 5) + ' members have answered it.</p>';
+  }
+  function loadContent() {
+    $('ctMsg').textContent = 'counting…';
+    api('GET', '/content?days=' + $('ctDays').value).then(function (r) {
+      if (!r.ok) { $('ctMsg').textContent = (r.data && r.data.error) || ('HTTP ' + r.status); return; }
+      ctData = r.data;
+      $('ctMsg').textContent = ctData.tracking_since ? 'opens and quiz answers recorded since ' + ctData.tracking_since.slice(0, 10) : 'no lesson has been opened since tracking began';
+      $('ctSummary').textContent = (ctData.products || []).map(function (p) { return p.name + ' ' + p.started; }).join(' · ') + ' members started';
+      drawContent();
+    });
+  }
+  $('ctProduct').addEventListener('change', drawContent);
+  $('ctDays').addEventListener('change', loadContent);
+  $('ctCsv').addEventListener('click', function () {
+    var init = { headers: {}, credentials: 'same-origin' };
+    if (token) init.headers.authorization = 'Bearer ' + token;
+    fetch('/api/admin/content.csv?days=' + $('ctDays').value, init).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.blob(); }).then(function (blob) {
+      var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'metanoia-lessons.csv'; document.body.appendChild(a); a.click(); a.remove();
+    }).catch(function (e) { $('ctMsg').textContent = String(e.message || e); });
+  });
+  $('content').addEventListener('toggle', function () { if ($('content').open) loadContent(); });
+
   $('trDays').addEventListener('change', loadTrends);
   $('trends').addEventListener('toggle', function () { if ($('trends').open) loadTrends(); });
 
