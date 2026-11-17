@@ -603,6 +603,41 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     }
   }
 
+  /* ── shareable readiness profile: switched on in Settings, read by a stranger, switched off again ── */
+  {
+    /* this member's display name is markup (the hostile-name account above): the public page must show it as text */
+    await ctx3.request.post(B + '/api/events', { headers: { origin: B }, data: { events: [{ name: 'assessment.career_map.submitted', props: { scores: { total: 64, band: 'Mid-Mountain', dims: [60, 60, 70, 65, 65] } } }] } });
+    const st = await ctx3.newPage(); watch(st, 'profile-settings');
+    await st.goto(B + '/settings?tab=public', { waitUntil: 'load' }); await st.waitForSelector('#pp-on', { timeout: 10000 }).catch(() => {});
+    a = await st.evaluate(() => ({ tab: (document.querySelector('#subnav button.active') || {}).dataset ? document.querySelector('#subnav button.active').dataset.set : '', on: (document.getElementById('pp-on') || {}).checked, link: !!document.getElementById('pp-url'), text: (document.getElementById('pp-box') || {}).innerText || '' }));
+    check(a.tab === 'public' && a.on === false && !a.link && /Mid-Mountain/.test(a.text), 'Settings opens the Public profile tab from a link, off, with the band it could show', { tab: a.tab, on: a.on, text: a.text.slice(0, 120) });
+    await st.click('#pp-on'); await st.click('#pp-save'); await st.waitForSelector('#pp-url', { timeout: 8000 }).catch(() => {});
+    const purl = await st.evaluate(() => (document.getElementById('pp-url') || {}).value || '');
+    check(/\/p\/[A-Za-z0-9_-]{14}$/.test(purl), 'switching it on gives the member a link to copy and share', purl);
+    await shot(st, 'profile-settings');
+    const ppath = purl ? new URL(purl).pathname : '/p/none';
+    const vctx = await br.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+    const vp = await vctx.newPage(); watch(vp, 'profile-public');
+    await vp.goto(B + ppath, { waitUntil: 'load' }); await vp.waitForTimeout(800);
+    a = await vp.evaluate(() => ({ name: (document.getElementById('pName') || {}).textContent || '', band: (document.getElementById('bLabel') || {}).textContent || '', steps: document.querySelectorAll('#bSteps i.on').length, title: document.title, xss: !!window.__xss, img: !!document.querySelector('img[src="x"]'),
+      og: (document.querySelector('meta[property="og:title"]') || { content: '' }).content, robots: (document.querySelector('meta[name="robots"]') || { content: '' }).content, over: document.documentElement.scrollWidth > innerWidth + 1, sheet: !document.getElementById('sheet').hidden }));
+    check(a.sheet && a.name.includes('<img src=x') && a.band === 'Mid-Mountain' && a.steps === 3 && /noindex/.test(a.robots) && !a.over, 'a stranger on a phone sees the name and the band, and the page is not indexed', { name: a.name, band: a.band, steps: a.steps });
+    check(!a.xss && !a.img && a.og.includes('<img src=x') && a.title.includes('Metanoia Labs'), 'a display name with markup is inert in the page, its title and its link preview', { xss: a.xss, img: a.img, og: a.og.slice(0, 60) });
+    await vp.click('[data-lang="id"]'); await vp.waitForTimeout(200);
+    a = await vp.evaluate(() => ({ lv: (document.getElementById('bLevel') || {}).textContent || '', v: (document.getElementById('pVerified') || {}).textContent || '', wa: (document.getElementById('waBtn') || {}).href || '' }));
+    check(/Tingkat 3 dari 5/.test(a.lv) && /Dibaca dari akun/.test(a.v) && /^https:\/\/wa\.me\/\?text=/.test(a.wa) && a.wa.includes(encodeURIComponent(ppath)), 'the profile reads in Bahasa Indonesia and offers WhatsApp with its own link', a);
+    await shot(vp, 'profile-public-phone');
+    /* the older address form asks the API instead of carrying the data */
+    await vp.goto(B + '/profile?p=' + ppath.split('/').pop(), { waitUntil: 'load' }); await vp.waitForFunction(() => !document.getElementById('sheet').hidden, null, { timeout: 8000 }).catch(() => {});
+    check(await vp.evaluate(() => !document.getElementById('sheet').hidden && document.getElementById('bLabel').textContent === 'Mid-Mountain'), 'the static address form shows the same profile');
+    await st.click('#pp-on'); await st.click('#pp-save'); await st.waitForFunction(() => !document.getElementById('pp-url'), null, { timeout: 8000 }).catch(() => {});
+    const gone = await vctx.request.get(B + ppath);
+    await vp.goto(B + ppath, { waitUntil: 'load' }); await vp.waitForTimeout(500);
+    a = await vp.evaluate(() => ({ empty: !document.getElementById('empty').hidden, sheet: !document.getElementById('sheet').hidden }));
+    check(gone.status() === 404 && a.empty && !a.sheet, 'once switched off, the link shows that the profile is not available', { status: gone.status(), ...a });
+    await vctx.close(); await st.close();
+  }
+
   /* ── installable: the manifest and its icons are served ── */
   const mf = await ctx3.request.get(B + '/manifest.webmanifest');
   const mj = mf.ok() ? await mf.json().catch(() => null) : null;

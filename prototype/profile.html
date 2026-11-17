@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Readiness profile · Metanoia Labs</title>
+<meta name="description" content="A member's readiness profile on Metanoia Labs.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#050A12">
+<script src="/js/mt-errors.js" defer></script><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/fonts.css">
+<style>
+/* A member's public readiness profile (functions/p/[slug].js, functions/api/profile). The member switches it
+   on and chooses each item. Everything shown is read from the account, never typed in. Served at /p/<slug>
+   with the data already in the page; opened as /profile?p=<slug> it asks the API. Prints as one page. */
+:root{--bg:#050A12;--panel:#0D1524;--line:rgba(201,168,76,.28);--gold:#C9A84C;--gold-bright:#E9D28A;--text:#F0EDE8;--muted:rgba(240,237,232,.72);--track:rgba(240,237,232,.12)}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;font-size:15px;line-height:1.55;min-height:100vh;display:flex;flex-direction:column}
+a{color:var(--gold-bright)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;border-bottom:1px solid rgba(201,168,76,.25)}
+.brand{display:inline-flex;align-items:center;gap:10px;color:var(--text);text-decoration:none;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px;min-height:32px}
+.brand img{width:28px;height:28px}
+.lang{display:inline-flex;border:1px solid rgba(201,168,76,.4);border-radius:999px;overflow:hidden}
+.lang button{min-width:44px;min-height:32px;background:transparent;border:0;color:var(--muted);font-weight:600;font-size:12px;line-height:1;font-family:inherit;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--gold);color:#14100A}
+main{flex:1;width:100%;max-width:760px;margin:0 auto;padding:28px 16px 44px}
+.who{display:flex;align-items:center;gap:18px;margin:6px 0 10px}
+.avatar{flex:none;width:72px;height:72px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:1px solid var(--gold);color:var(--gold-bright);font:700 26px/1 'Playfair Display',Georgia,serif;background:rgba(201,168,76,.08)}
+.who h1{margin:0;font:700 clamp(26px,6vw,36px)/1.2 'Playfair Display',Georgia,serif;overflow-wrap:anywhere}
+.who p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.verified{display:flex;align-items:flex-start;gap:10px;margin:14px 0 22px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:13.5px;color:var(--muted)}
+.verified .dot{flex:none;width:10px;height:10px;border-radius:50%;background:#4CC38A;margin-top:6px}
+.verified b{color:var(--text)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin:0 0 16px}
+.card h2{margin:0 0 4px;font-weight:700;font-size:12px;line-height:1.4;font-family:inherit;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-bright)}
+.card .sub{margin:0 0 14px;color:var(--muted);font-size:13.5px}
+.band{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px}
+.band .label{font:700 26px/1.2 'Playfair Display',Georgia,serif}
+/* five steps, two-pixel gaps: the band's level, not a score */
+.steps{display:flex;gap:2px;width:170px}
+.steps i{flex:1;height:6px;border-radius:4px;background:var(--track)}
+.steps i.on{background:var(--gold)}
+.band .lv{font-size:13.5px;color:var(--muted)}
+.list{list-style:none;margin:0;padding:0}
+.list li{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 16px;padding:12px 0;border-top:1px solid rgba(240,237,232,.1)}
+.list li:first-child{border-top:0;padding-top:2px}
+.list b{font-size:16px}
+.list .meta{color:var(--muted);font-size:13.5px}
+.list a{font-weight:600;font-size:13.5px;min-height:32px;display:inline-flex;align-items:center}
+.learn{flex:1 1 100%;display:flex;align-items:center;gap:12px}
+.learn i{flex:1;height:6px;border-radius:4px;background:var(--track);overflow:hidden}
+.learn i b{display:block;height:100%;border-radius:4px;background:var(--gold)}
+.learn span{flex:none;font-size:13.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(201,168,76,.55);background:transparent;color:var(--gold-bright);font-weight:600;font-size:14px;line-height:1;font-family:inherit;text-decoration:none;cursor:pointer}
+.btn.primary{background:var(--gold);border-color:var(--gold);color:#14100A}
+.btn:focus-visible,.lang button:focus-visible,.brand:focus-visible,.list a:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.fine{margin:18px 0 0;font-size:13px;color:var(--muted)}
+.empty{text-align:center;padding:56px 16px}
+.empty h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,5vw,34px);margin:0 0 10px}
+.empty p{color:var(--muted);max-width:520px;margin:0 auto 20px}
+footer{padding:18px 20px;border-top:1px solid rgba(201,168,76,.2);font-size:13px;color:var(--muted);text-align:center}
+@media print{
+  body{background:#fff;color:#1B2434}
+  :root{--panel:#fff;--text:#1B2434;--muted:#4A5568;--gold-bright:#7A5C10;--track:#E6E1D6;--line:#D8CFB8}
+  .top,.actions,footer,.lang{display:none!important}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/" aria-label="Metanoia Labs"><img src="/assets/favicon.svg" alt="" width="28" height="28"><span>Metanoia Labs</span></a>
+  <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="id" aria-pressed="false">ID</button></div>
+</header>
+<main>
+  <p class="fine" id="loading" role="status" data-en="Opening this profile…" data-id="Membuka profil ini…">Opening this profile…</p>
+
+  <article id="sheet" hidden>
+    <div class="who">
+      <div class="avatar" id="pInit" aria-hidden="true"></div>
+      <div><h1 id="pName"></h1><p id="pSince"></p></div>
+    </div>
+    <p class="verified"><span class="dot" aria-hidden="true"></span><span id="pVerified"></span></p>
+
+    <section class="card" id="secBand" hidden>
+      <h2 data-en="Career Map" data-id="Career Map">Career Map</h2>
+      <p class="sub" data-en="A self-assessment of career readiness across five dimensions. The band is where this member stood when they last took it." data-id="Asesmen mandiri kesiapan karier pada lima dimensi. Band ini menunjukkan posisi anggota saat terakhir mengerjakannya.">A self-assessment of career readiness across five dimensions. The band is where this member stood when they last took it.</p>
+      <div class="band"><span class="label" id="bLabel"></span><span class="steps" id="bSteps" role="img"></span><span class="lv" id="bLevel"></span></div>
+    </section>
+
+    <section class="card" id="secCerts" hidden>
+      <h2 data-en="Certificates of completion" data-id="Sertifikat penyelesaian">Certificates of completion</h2>
+      <p class="sub" data-en="Each one is issued when every core lesson of a course is finished, and can be checked on its own page." data-id="Setiap sertifikat terbit saat semua pelajaran inti sebuah kursus selesai, dan bisa diperiksa di halamannya sendiri.">Each one is issued when every core lesson of a course is finished, and can be checked on its own page.</p>
+      <ul class="list" id="certList"></ul>
+    </section>
+
+    <section class="card" id="secLearn" hidden>
+      <h2 data-en="Lessons completed" data-id="Pelajaran yang diselesaikan">Lessons completed</h2>
+      <p class="sub" data-en="Core lessons finished in each course so far." data-id="Pelajaran inti yang sudah diselesaikan di setiap kursus sejauh ini.">Core lessons finished in each course so far.</p>
+      <ul class="list" id="learnList"></ul>
+    </section>
+
+    <p class="fine" id="pNone" hidden data-en="This member has not added anything to their profile yet." data-id="Anggota ini belum menambahkan apa pun ke profilnya.">This member has not added anything to their profile yet.</p>
+
+    <div class="actions">
+      <button type="button" class="btn primary" id="shareBtn" data-en="Share this profile" data-id="Bagikan profil ini">Share this profile</button>
+      <button type="button" class="btn" id="copyBtn" data-en="Copy the link" data-id="Salin tautan">Copy the link</button>
+      <a class="btn" id="waBtn" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn" id="liBtn" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="fine" data-en="This page shows only what the member chose to share. It records activity on the Metanoia Labs platform during its beta and is not an accredited academic or professional qualification." data-id="Halaman ini hanya menampilkan apa yang dipilih anggota untuk dibagikan. Isinya mencatat aktivitas di platform Metanoia Labs selama masa beta dan bukan kualifikasi akademik atau profesional yang terakreditasi.">This page shows only what the member chose to share. It records activity on the Metanoia Labs platform during its beta and is not an accredited academic or professional qualification.</p>
+  </article>
+
+  <section class="empty" id="empty" hidden>
+    <h1 data-en="This profile is not available" data-id="Profil ini tidak tersedia">This profile is not available</h1>
+    <p data-en="The link does not match a public profile, or its owner has switched it off. Check the link, or ask the person who sent it." data-id="Tautan ini tidak cocok dengan profil publik mana pun, atau pemiliknya sudah menonaktifkannya. Periksa tautannya, atau tanyakan kepada orang yang mengirimkannya.">The link does not match a public profile, or its owner has switched it off. Check the link, or ask the person who sent it.</p>
+    <a class="btn" href="/" data-en="Go to Metanoia Labs" data-id="Ke Metanoia Labs">Go to Metanoia Labs</a>
+  </section>
+</main>
+<footer><a href="/" data-en="Metanoia Labs: career readiness for students and professionals in Indonesia" data-id="Metanoia Labs: kesiapan karier untuk mahasiswa dan profesional di Indonesia">Metanoia Labs: career readiness for students and professionals in Indonesia</a></footer>
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var lang = 'en'; try { lang = (localStorage.getItem('mt-lang') || localStorage.getItem('mtLang') || 'en') === 'id' ? 'id' : 'en'; } catch (e) {}
+  var pre = window.MT_PROFILE || null, data = pre ? pre.profile : null, state = pre ? (data ? 'ok' : 'none') : 'loading';
+  var slug = (pre && pre.slug) || (/^\/p\/([A-Za-z0-9_-]{12,20})\/?$/.exec(location.pathname) || [])[1] || (/[?&]p=([A-Za-z0-9_-]{12,20})(&|$)/.exec(location.search) || [])[1] || '';
+  var L = function (en, id) { return lang === 'id' ? id : en; };
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  var COURSES = {
+    'the-map': { en: 'Career Intelligence', id: 'Kecerdasan Karier' }, 'the-pack': { en: 'Profile Strength', id: 'Kekuatan Profil' },
+    'the-rope': { en: 'Interview Readiness', id: 'Kesiapan Wawancara' }, 'the-route': { en: 'Career Mindset', id: 'Pola Pikir Karier' }
+  };
+  var course = function (slug) { return COURSES[slug] ? ' · ' + COURSES[slug][lang] : ''; };
+  var date = function (d, opts) { try { return new Date(d.length === 7 ? d + '-01' : d).toLocaleDateString(lang === 'id' ? 'id-ID' : 'en-GB', opts); } catch (e) { return d; } };
+  var link = function () { return location.origin + '/p/' + slug; };
+
+  function draw() {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-lang]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-lang') === lang ? 'true' : 'false'); });
+    document.querySelectorAll('[data-en]').forEach(function (el) { el.textContent = el.getAttribute('data-' + lang); });
+    $('loading').hidden = state !== 'loading'; $('empty').hidden = state !== 'none'; $('sheet').hidden = state !== 'ok';
+    if (state !== 'ok') return;
+    var p = data, name = String(p.name || '');
+    document.title = name + ' · ' + L('Readiness profile', 'Profil kesiapan') + ' · Metanoia Labs';
+    $('pName').textContent = name;
+    $('pInit').textContent = name.split(/\s+/).filter(Boolean).slice(0, 2).map(function (w) { return Array.from(w)[0] || ''; }).join('').toUpperCase();
+    $('pSince').textContent = p.since ? L('Member of Metanoia Labs since ', 'Anggota Metanoia Labs sejak ') + date(p.since, { month: 'long', year: 'numeric' }) : '';
+    $('pVerified').innerHTML = L('<b>Read from this member’s account.</b> The items below come from Metanoia Labs records and cannot be typed in or edited by hand.', '<b>Dibaca dari akun anggota ini.</b> Semua butir di bawah berasal dari catatan Metanoia Labs dan tidak bisa diketik atau diubah secara manual.');
+    var b = p.band;
+    $('secBand').hidden = !b;
+    if (b) {
+      $('bLabel').textContent = b.label;
+      $('bSteps').innerHTML = [1, 2, 3, 4, 5].map(function (n) { return '<i' + (n <= b.level ? ' class="on"' : '') + '></i>'; }).join('');
+      $('bSteps').setAttribute('aria-label', L('Level ' + b.level + ' of 5', 'Tingkat ' + b.level + ' dari 5'));
+      $('bLevel').textContent = L('Level ' + b.level + ' of 5', 'Tingkat ' + b.level + ' dari 5') + (b.date ? ' · ' + date(b.date, { day: 'numeric', month: 'long', year: 'numeric' }) : '');
+    }
+    var certs = p.certificates || [];
+    $('secCerts').hidden = !certs.length;
+    $('certList').innerHTML = certs.map(function (c) {
+      return '<li><span><b>' + esc(c.product_name) + esc(course(c.product)) + '</b><br><span class="meta">' + L('All ' + c.lessons + ' lessons · issued ', 'Seluruh ' + c.lessons + ' pelajaran · terbit ') + esc(date(c.issued_at, { day: 'numeric', month: 'long', year: 'numeric' })) + '</span></span>' +
+        '<a href="/certificate?c=' + encodeURIComponent(c.id) + '">' + L('Verify the certificate', 'Verifikasi sertifikat') + '</a></li>';
+    }).join('');
+    var learn = p.learning || [];
+    $('secLearn').hidden = !learn.length;
+    $('learnList').innerHTML = learn.map(function (x) {
+      var w = x.total ? Math.round(x.done / x.total * 100) : 0;
+      return '<li><b>' + esc(x.name) + esc(course(x.product)) + '</b><div class="learn" title="' + x.done + ' / ' + x.total + '"><i><b style="width:' + w + '%"></b></i><span>' + L(x.done + ' of ' + x.total + ' lessons', x.done + ' dari ' + x.total + ' pelajaran') + '</span></div></li>';
+    }).join('');
+    $('pNone').hidden = !!(b || certs.length || learn.length);
+    var text = L('Readiness profile of ' + name + ' on Metanoia Labs', 'Profil kesiapan ' + name + ' di Metanoia Labs');
+    $('waBtn').href = 'https://wa.me/?text=' + encodeURIComponent(text + ' ' + link());
+    $('liBtn').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(link());
+    $('shareBtn').hidden = !navigator.share;
+  }
+
+  document.querySelectorAll('[data-lang]').forEach(function (b) {
+    b.addEventListener('click', function () { lang = b.getAttribute('data-lang'); try { localStorage.setItem('mt-lang', lang); localStorage.setItem('mtLang', lang); } catch (e) {} draw(); });
+  });
+  $('copyBtn').addEventListener('click', function () {
+    var done = function () { $('copyBtn').textContent = L('Link copied', 'Tautan disalin'); setTimeout(draw, 1600); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(link()).then(done, function () { window.prompt('', link()); }); else window.prompt('', link());
+  });
+  $('shareBtn').addEventListener('click', function () {
+    var name = data ? data.name : '';
+    navigator.share({ title: name + ' · Metanoia Labs', text: L('Readiness profile of ' + name + ' on Metanoia Labs', 'Profil kesiapan ' + name + ' di Metanoia Labs'), url: link() }).catch(function () {});
+  });
+
+  draw();
+  if (state === 'loading') {
+    if (!slug) { state = 'none'; draw(); return; }
+    fetch('/api/profile/' + slug, { headers: { accept: 'application/json' } }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+      data = j && j.ok ? j.profile : null; state = data ? 'ok' : 'none'; draw();
+    }).catch(function () { state = 'none'; draw(); });
+  }
+})();
+</script>
+</body>
+</html>
