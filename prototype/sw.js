@@ -48,3 +48,26 @@ async function handle(req, immutable) {
     throw e;
   }
 }
+
+/* Reminders (docs/14 "Reminders"): a member who turned them on gets one notification on the mornings
+   something is due. The message arrives encrypted for this browser; it carries a title, a few lines
+   and the page to open. Nothing is shown unless the member allowed notifications for this site. */
+self.addEventListener('push', event => {
+  let m = {};
+  try { m = event.data ? event.data.json() : {}; } catch (e) { m = {}; }
+  const title = typeof m.title === 'string' && m.title ? m.title.slice(0, 80) : 'Metanoia Labs';
+  event.waitUntil(self.registration.showNotification(title, {
+    body: typeof m.body === 'string' ? m.body.slice(0, 400) : '',
+    tag: typeof m.tag === 'string' ? m.tag.slice(0, 60) : 'mt',
+    icon: '/assets/favicon-192.png', badge: '/assets/favicon-192.png',
+    data: { url: typeof m.url === 'string' && m.url.charAt(0) === '/' && m.url.charAt(1) !== '/' ? m.url : '/portal' }
+  }));
+});
+self.addEventListener('notificationclick', event => {
+  event.notification.close();
+  const url = new URL((event.notification.data && event.notification.data.url) || '/portal', self.location.origin).href;
+  event.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(list => {
+    for (const c of list) { if (c.url.split('#')[0] === url && 'focus' in c) return c.focus(); }
+    return self.clients.openWindow(url);
+  }));
+});

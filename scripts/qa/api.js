@@ -547,6 +547,75 @@ function client() {
   r = await anon('GET', '/api/admin/audit?limit=20', undefined, A);
   ok(r.j.audit.some(a => a.action === 'content.export'), 'the lessons export is in the audit trail', r.j.audit.length);
 
+  /* ── reminders without e-mail: the calendar feed and push notifications ── */
+  const jkt = n => new Date(Date.now() + 7 * 3600000 + n * 86400000).toISOString().slice(0, 10);   /* a day in Jakarta, n days from today */
+  if (process.env.D1_SQLITE) sql('DELETE FROM push_subscriptions');
+  const weekday = new Date(jkt(0) + 'T00:00:00Z').getUTCDay();
+  const compass = {
+    compass_applications: JSON.stringify([{ id: 'qa1', company: 'QA Co ' + stamp, role: 'Analyst; Data, Jakarta', status: 'active', stage: 7, deadline: jkt(1), nextAction: 'Prepare five stories', nextActionDue: jkt(0), notes: 'private note ' + stamp },
+      { id: 'qa2', company: 'Gone Co', role: 'X', status: 'rejected', deadline: jkt(1) }]),
+    compass_goals: JSON.stringify([{ id: 'g1', title: 'Finish the CV modules', due: jkt(20), done: false }, { id: 'g2', title: 'Done goal', due: jkt(3), done: true }]),
+    compass_habits: JSON.stringify([{ id: 'h1', name: { en: 'Daily module', id: 'Modul harian' }, days: [weekday], remind: '07:30', log: {} }])
+  };
+  const ct = Date.now(), ctimes = {}; Object.keys(compass).forEach(k => { ctimes[k] = ct; });
+  r = await m2('PUT', '/api/progress/browser', { data: { keys: compass, times: ctimes, deleted: {} }, version: ct });
+  ok(r.status === 200, 'Compass dates are mirrored to the account', r.status);
+  r = await anon('GET', '/api/calendar');
+  ok(r.status === 401, 'the calendar setting needs a session', r.status);
+  r = await m2('GET', '/api/calendar');
+  ok(r.status === 200 && r.j.enabled === false && r.j.url === null, 'the calendar feed is off until the member turns it on', r.j);
+  r = await m2('POST', '/api/calendar/on');
+  ok(r.status === 200 && r.j.enabled && /\/api\/calendar\/feed\.ics\?u=[0-9a-f]{32}&k=[0-9a-f]{40}$/.test(r.j.url), 'turning the feed on gives a signed private address', r.j);
+  const feedPath = u => { const x = new URL(u); return x.pathname + x.search; };
+  const feed1 = feedPath(r.j.url || 'http://x/');
+  r = await anon('GET', feed1);
+  const icsLines = r.text.split('\r\n');
+  ok(r.status === 200 && /text\/calendar/.test(r.headers.get('content-type') || '') && /no-store/.test(r.headers.get('cache-control') || '') && icsLines[0] === 'BEGIN:VCALENDAR' && icsLines.includes('END:VCALENDAR'), 'a calendar app can read the feed without signing in', r.text.slice(0, 80));
+  const unfolded = r.text.replace(/\r\n /g, '');
+  ok(/SUMMARY:(Deadline|Tenggat): QA Co/.test(unfolded) && unfolded.includes('Analyst\\; Data\\, Jakarta') && unfolded.includes('DTSTART;VALUE=DATE:' + jkt(1).replace(/-/g, '')) && unfolded.includes('Prepare five stories') && unfolded.includes('Finish the CV modules') && unfolded.includes('TRIGGER:-PT15H'),
+    'the feed carries the deadline, the next step and the goal date, with an alert', unfolded.split('\r\n').filter(l => /^(SUMMARY|DTSTART|TRIGGER)/.test(l)));
+  ok(!unfolded.includes('Gone Co') && !unfolded.includes('Done goal') && !unfolded.includes('private note') && !unfolded.includes('@example.test') && icsLines.every(l => Buffer.byteLength(l) <= 75), 'closed applications, finished goals, notes and addresses stay out, and lines keep the standard length', icsLines.filter(l => Buffer.byteLength(l) > 75).length);
+  r = await anon('GET', feed1.replace(/k=[0-9a-f]{4}/, 'k=0000'));
+  ok(r.status === 404, 'a wrong signature opens nothing', r.status);
+  r = await m2('POST', '/api/calendar/reset');
+  const feed2 = feedPath(r.j.url || 'http://x/');
+  ok(r.status === 200 && feed2 !== feed1 && (await anon('GET', feed1)).status === 404 && (await anon('GET', feed2)).status === 200, 'a new address replaces the old one at once', r.j);
+  r = await m2('POST', '/api/calendar/off');
+  ok(r.status === 200 && r.j.enabled === false && (await anon('GET', feed2)).status === 404, 'turning the feed off closes the address', r.j);
+
+  r = await anon('GET', '/api/push');
+  ok(r.status === 200 && r.j.configured === true && String(r.j.key).length === 87 && r.j.devices === 0, 'the public push key is served', r.j);
+  const uaKey = crypto.createECDH('prime256v1'); uaKey.generateKeys();
+  const subOf = n => ({ endpoint: 'https://fcm.googleapis.com/fcm/send/qa-' + stamp + '-' + n, keys: { p256dh: uaKey.getPublicKey().toString('base64url'), auth: crypto.randomBytes(16).toString('base64url') } });
+  r = await anon('POST', '/api/push/subscribe', { subscription: subOf(1) });
+  ok(r.status === 401, 'turning reminders on needs a session', r.status);
+  r = await m2('POST', '/api/push/subscribe', { subscription: { ...subOf(1), endpoint: 'https://evil.example/push' } });
+  ok(r.status === 400 && r.j.field === 'endpoint', 'only a known push service is accepted as an address', r.j);
+  r = await m2('POST', '/api/push/subscribe', { subscription: subOf(1), lang: 'id' });
+  ok(r.status === 201 && r.j.devices === 1, 'a member turns reminders on for a device', r.j);
+  r = await m2('POST', '/api/push/subscribe', { subscription: subOf(1), lang: 'id' });
+  ok(r.status === 201 && r.j.devices === 1, 'the same device is not counted twice', r.j);
+  r = await m2('POST', '/api/push/test');
+  ok(r.status === 200 && r.j.sent === 1 && r.j.failed === 0, 'a test notification is built for the device', r.j);
+  r = await c2('POST', '/api/push/subscribe', { subscription: subOf(2) });
+  ok(r.status === 201 && r.j.devices === 1, 'another member has their own device', r.j);
+  r = await anon('GET', '/api/admin/reminders', undefined, A);
+  ok(r.status === 200 && r.j.configured && r.j.devices >= 2 && r.j.members >= 2 && r.j.per_run > 0, 'the owner sees how many devices have reminders on', r.j);
+  r = await m2('GET', '/api/admin/reminders');
+  ok(r.status === 401, 'a member cannot read the reminders panel', r.status);
+  r = await anon('POST', '/api/admin/reminders/run', {}, A);
+  ok(r.status === 200 && r.j.run.day === jkt(0) && (process.env.D1_SQLITE ? r.j.run.looked === 2 && r.j.run.sent === 1 && r.j.run.quiet === 1 : r.j.run.sent >= 1), 'the daily run notifies the member with something due and stays quiet for the other', r.j);
+  r = await anon('POST', '/api/admin/reminders/run', {}, A);
+  ok(r.status === 200 && r.j.run.looked === 0, 'a device is looked at once a day', r.j);
+  r = await m2('GET', '/api/account/export');
+  ok(r.status === 200 && r.j.reminder_devices.length === 1 && r.j.reminder_devices[0].push_service === 'fcm.googleapis.com' && !JSON.stringify(r.j.reminder_devices).includes('auth') && Array.isArray(r.j.calendar_feed), 'the account export lists reminder devices without their keys', r.j.reminder_devices);
+  r = await m2('POST', '/api/push/unsubscribe', { endpoint: subOf(1).endpoint });
+  ok(r.status === 200 && r.j.devices === 0, 'a member turns reminders off', r.j);
+  r = await m2('POST', '/api/push/test');
+  ok(r.status === 409, 'no test without a device', r.status);
+  r = await anon('GET', '/api/admin/audit?limit=20', undefined, A);
+  ok(r.j.audit.some(a => a.action === 'reminders.run'), 'the reminder run is in the audit trail', r.j.audit.length);
+
   /* ── deletion ── */
   r = await m2('POST', '/api/account/delete', { password: 'wrong' });
   ok(r.status === 401, 'deletion needs the password', r.status);

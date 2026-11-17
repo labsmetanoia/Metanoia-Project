@@ -23,3 +23,5 @@ SITE_URL = "https://metanoialabs.net"
 MAIL_FROM = "Metanoia Labs <hello@metanoialabs.net>"
 LEADS_NOTIFY_TO = "hello@metanoialabs.net"   # the owner's weekly summary goes here (server/lib/digest.js); the same address as the Pages project
 LETTER_DAILY_CAP = "45"                    # most letter messages a day (server/lib/letters.js); keep it equal to the Pages value
+PUSH_PER_RUN = "30"                        # most reminder notifications per run (server/lib/reminders.js); three runs a day send them
+# VAPID_PUBLIC_KEY (plain text) and VAPID_PRIVATE_KEY (secret) are set in the dashboard, the same pair as on the Pages project.

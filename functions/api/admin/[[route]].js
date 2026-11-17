@@ -34,6 +34,8 @@
  *   POST  /api/admin/coach/mode  { mode: 'on' | 'off' }            opens the coach to members or closes it
  *   GET   /api/admin/content[.csv]?days=30             lessons: members who completed each one, where members stop, opens and quiz
  *                                                      answers in the window, sample-lesson funnel, certificates per product
+ *   GET   /api/admin/reminders                         push keys set or not, devices and members with reminders on, calendar feeds
+ *   POST  /api/admin/reminders/run                     today's reminders for a slice of devices now
  *   GET   /api/admin/notice                            the site-wide notice as stored, and whether it is showing now
  *   POST  /api/admin/notice { on, en, id, href?, link_en?, link_id?, until? }   sets it; `until` is the last day (Jakarta time)
  *   GET   /api/admin/letters                           letters with progress, who would receive one today, today's mail budget
@@ -52,6 +54,8 @@ import { buildDigest, digestText, sendOwnerDigest, scriptErrors } from '../../..
 import { createBatch, listBatches, updateBatch, batchReport } from '../../../server/lib/access-codes.js';
 import { cleanNotice, readNotice, saveNotice, noticeLive, createLetter, updateLetter, listLetters, audienceCounts, queueLetter, cancelLetter, testLetter, letterBudget, runLetters } from '../../../server/lib/letters.js';
 import { CONTENT_PRODUCTS, loadManifest, contentReport, contentCsvRows } from '../../../server/lib/content.js';
+import { pushConfigured } from '../../../server/lib/push.js';
+import { runReminders, perRun } from '../../../server/lib/reminders.js';
 import { coachConfigured, coachMode, setCoachMode, validate as coachValidate, review as coachReview, report as coachReport } from '../../../server/lib/coach.js';
 import { PRODUCTS, PLANS, accessMode, betaEndsAt, listEntitlements, resolveAccess, grantEntitlement, revokeEntitlement, grantFounding } from '../../../server/lib/entitlements.js';
 
@@ -247,6 +251,12 @@ export async function onRequestGet({ request, env, params }) {
     return csvResponse('metanoia-lessons.csv', ['product', 'lesson', 'title', 'members_started_product', 'members_completed_lesson', 'share_of_started', 'opened_in_window', 'completed_in_window', 'quiz_first_answers', 'quiz_wrong_first_try'], contentCsvRows(rp));
   }
 
+  if (route === 'reminders') {
+    const one = async q => { try { const r = await env.DB.prepare(q).first(); return r ? r.n : 0; } catch (e) { return null; } };
+    const devices = await one('SELECT COUNT(*) AS n FROM push_subscriptions');
+    return json({ ok: true, configured: pushConfigured(env), pending_migration: devices === null, devices: devices || 0, members: (await one('SELECT COUNT(DISTINCT user_id) AS n FROM push_subscriptions')) || 0,
+      calendar_feeds: (await one('SELECT COUNT(*) AS n FROM calendar_feeds')) || 0, feeds_read_7d: (await one("SELECT COUNT(*) AS n FROM calendar_feeds WHERE last_read_at > datetime('now', '-7 days')")) || 0, per_run: perRun(env), mock: env.PUSH_MOCK === '1' });
+  }
   if (route === 'notice') {
     const n = await readNotice(env);
     return json({ ok: true, notice: n, live: noticeLive(n) });
@@ -358,6 +368,12 @@ export async function onRequestPost({ request, env, params }) {
     if (cr.error) return fail(cr.status || 400, cr.error, { field: cr.field });
     await audit(env, g.actor, 'batch.create', cr.batch.id, { label: cr.batch.label, seats: cr.batch.seats, product: cr.batch.product, plan: cr.batch.plan });
     return json({ ok: true, batch: cr.batch }, 201);
+  }
+  if (parts[0] === 'reminders' && parts[1] === 'run' && parts.length === 2) {
+    /* a slice of today's reminders now, instead of at the Worker's next run */
+    const rr = await runReminders(env).catch(e => ({ error: String(e && e.message || e).slice(0, 160) }));
+    await audit(env, g.actor, 'reminders.run', null, { looked: rr.looked || 0, sent: rr.sent || 0, skipped: rr.skipped || null, error: rr.error || null });
+    return json({ ok: true, run: rr });
   }
   if (parts[0] === 'notice' && parts.length === 1) {
     const cn = cleanNotice((await readJson(request)) || {});

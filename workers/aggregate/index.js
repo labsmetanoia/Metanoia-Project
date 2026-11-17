@@ -9,6 +9,7 @@
  *        but `agg_daily`, so no individual can appear in them by construction.
  *     2. Deletes raw events older than 13 months and expired sessions / tokens.
  *
+ *  every 6 h  push reminders (server/lib/reminders.js) at 00:00, 06:00 and 12:00 UTC, a slice of devices each run
  *  every 6 h  account purge (server/lib/account.js): deletion requests confirmed at least two hours
  *             earlier are carried out, one final e-mail each; also run before the other two jobs
  *
@@ -26,6 +27,7 @@ import { runLifecycle } from '../../server/lib/lifecycle.js';
 import { purgeDeletions } from '../../server/lib/account.js';
 import { sendOwnerDigest } from '../../server/lib/digest.js';
 import { runLetters } from '../../server/lib/letters.js';
+import { runReminders } from '../../server/lib/reminders.js';
 
 const K = 20;
 const RETENTION_DAYS = 13 * 31;
@@ -109,7 +111,15 @@ export default {
     ctx.waitUntil((async () => {
       const purged = await purgeDeletions(env).catch(e => ({ error: String(e && e.message || e).slice(0, 200) }));
       if (purged.purged || purged.failed || purged.error) console.log('purge', JSON.stringify(purged));
-      if (event.cron === CRON_PURGE) return;
+      if (event.cron === CRON_PURGE) {
+        /* reminders ride on the six-hourly run: 00:00, 06:00 and 12:00 UTC are 07:00, 13:00 and 19:00 in Jakarta.
+           Each run handles a slice of the devices not yet looked at today; the 18:00 UTC run (01:00) stays quiet. */
+        if (new Date(event.scheduledTime || Date.now()).getUTCHours() < 18) {
+          const rm = await runReminders(env).catch(e => ({ error: String(e && e.message || e).slice(0, 200) }));
+          if (rm.looked || rm.error) console.log('reminders', JSON.stringify(rm));
+        }
+        return;
+      }
       if (event.cron === CRON_LIFECYCLE) {
         /* a queued letter goes first: one batch a day, capped below the lifecycle cap (server/lib/letters.js) */
         if (env.RESEND_API_KEY) {
@@ -134,6 +144,7 @@ export default {
   /* manual trigger, protected by the admin token:
        ?job=aggregate&day=YYYY-MM-DD[&retention=1]   (default)
        ?job=lifecycle[&dry=1]                          dry runs count what would be sent and send nothing
+       ?job=reminders[&dry=1]                          the daily push reminder for a slice of devices (server/lib/reminders.js)
        ?job=letters[&dry=1]                            today's batch of the queued letter (server/lib/letters.js)
        ?job=purge[&dry=1]                              account deletions due now
        ?job=digest[&force=1]                           the owner's weekly summary (server/lib/digest.js) */
@@ -150,6 +161,10 @@ export default {
       /* the owner's weekly summary now; force=1 sends even if this week's has gone out */
       const r = await sendOwnerDigest(env, { force: url.searchParams.get('force') === '1' });
       return new Response(JSON.stringify({ ok: true, job: 'digest', ...r }), { headers });
+    }
+    if (url.searchParams.get('job') === 'reminders') {
+      const r = await runReminders(env, { dryRun: url.searchParams.get('dry') === '1' });
+      return new Response(JSON.stringify({ ok: true, job: 'reminders', ...r }), { headers });
     }
     if (url.searchParams.get('job') === 'letters') {
       const dry = url.searchParams.get('dry') === '1';

@@ -53,7 +53,7 @@ Effort: S (a day or less), M (two to four days), L (a week or more). Priority 1 
 - **Benefits.** Shows which lessons to fix first. Gives enterprise conversations real numbers.
 - **Feasibility.** The events pipeline, aggregation and admin charts exist. Events stay pseudonymous. S to M.
 
-### N-05 · Reminders without e-mail (Priority 5)
+### N-05 · Reminders without e-mail (Priority 5) · built 17 November 2026
 
 - **Purpose.** Bring members back at the right moment without spending mail quota.
 - **Key functionality.** Step one: "Add to calendar" for Compass waypoints, application deadlines and interview dates. Step two: opt-in web push for streaks and deadlines, sent by the Worker through the existing service worker.

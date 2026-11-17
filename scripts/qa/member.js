@@ -508,6 +508,99 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     }
   }
 
+  /* ── calendar and reminders: a calendar file from The Compass, the synced address, reminders on this device ── */
+  {
+    const day = n => { const d = new Date(Date.now() + n * 86400000); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); };
+    const apps = [{ id: 'j1', company: 'Journey Co ' + stamp, role: 'Analyst', status: 'active', stage: 7, applicationDate: day(-5), deadline: day(3), nextAction: 'Prepare five stories', nextActionDue: day(1) }];
+    const goals = [{ id: 'jg1', title: 'Finish the CV modules', due: day(14), done: false, milestones: [] }];
+    const cp = await ctx3.newPage(); watch(cp, 'reminders');
+    await cp.addInitScript(d => { try { localStorage.setItem('compass_applications', JSON.stringify(d.apps)); localStorage.setItem('compass_goals', JSON.stringify(d.goals)); sessionStorage.setItem('compass_active_tab', 'course-plotter'); localStorage.setItem('metanoia_onboarded', 'true'); } catch (e) {} }, { apps, goals });
+    await cp.goto(B + '/products/the-compass/', { waitUntil: 'load' }); await cp.waitForTimeout(1800);
+    await cp.click('#calBtn'); await cp.waitForSelector('.mtr-veil', { timeout: 8000 }).catch(() => {});
+    a = await cp.evaluate(() => { const v = document.querySelector('.mtr-veil'), b = document.getElementById('mtrDl'); return { open: !!v, dl: b ? b.textContent : '', disabled: b ? b.disabled : true, role: v ? v.querySelector('[role="dialog"]').getAttribute('aria-modal') : '' }; });
+    check(a.open && /\(3\)/.test(a.dl) && !a.disabled && a.role === 'true', 'The Compass opens the calendar dialog with the three dates it holds', a);
+    const dlp = cp.waitForEvent('download', { timeout: 8000 }).catch(() => null);
+    await cp.click('#mtrDl');
+    const dl = await dlp, file = dl ? fs.readFileSync(await dl.path(), 'utf8') : '';
+    const flat = file.replace(/\r\n /g, '');
+    check(!!dl && /\.ics$/.test(dl.suggestedFilename()) && flat.startsWith('BEGIN:VCALENDAR') && flat.includes('Journey Co ' + stamp) && flat.includes('Prepare five stories') && flat.includes('Finish the CV modules') && (flat.match(/BEGIN:VEVENT/g) || []).length === 3 && flat.includes('DTSTART;VALUE=DATE:' + day(3).replace(/-/g, '')),
+      'the calendar file holds the deadline, the next step and the goal date', flat.slice(0, 200));
+    await cp.waitForSelector('[data-feed="on"]', { timeout: 8000 }).catch(() => {});
+    await cp.click('[data-feed="on"]').catch(() => {}); await cp.waitForSelector('#mtrUrl', { timeout: 8000 }).catch(() => {});
+    a = await cp.evaluate(() => { const u = document.getElementById('mtrUrl'), w = document.querySelector('#mtrFeed a[href^="webcal:"]'); return { url: u ? u.value : '', webcal: !!w, msg: document.getElementById('mtrMsg').textContent }; });
+    check(/\/api\/calendar\/feed\.ics\?u=[0-9a-f]{32}&k=[0-9a-f]{40}$/.test(a.url) && a.webcal, 'a member turns on a private calendar address and can open it in a calendar app', a);
+    if (a.url) { const fu = new URL(a.url), fr = await ctx3.request.get(B + fu.pathname + fu.search); check(fr.ok() && /BEGIN:VCALENDAR/.test(await fr.text()), 'the address answers with a calendar', fr.status()); }
+    await cp.waitForSelector('[data-push="on"]', { timeout: 8000 }).catch(() => {});
+    a = await cp.evaluate(() => { const b = document.querySelector('[data-push="on"]'); return { offered: !!b, text: (document.getElementById('mtrPush') || {}).innerText || '' }; });
+    check(a.offered && /Reminders on this device/.test(a.text), 'reminders on this device are offered where the browser supports them', a.text.slice(0, 120));
+    /* this browser does not grant notifications: the choice is respected and said plainly */
+    await cp.click('[data-push="on"]').catch(() => {});
+    await cp.waitForFunction(() => /stay off|could not/.test(document.getElementById('mtrMsg').textContent), null, { timeout: 4000 }).catch(() => {});
+    a = await cp.evaluate(() => ({ msg: document.getElementById('mtrMsg').textContent, perm: Notification.permission }));
+    const pushState = await (await ctx3.request.get(B + '/api/push')).json();
+    /* a headless browser either refuses at once or leaves the question open; either way nothing may be switched on */
+    check(pushState.devices === 0 && a.perm !== 'granted' && (/stay off|could not/.test(a.msg) || a.perm === 'default'), 'when notifications are not allowed, reminders stay off', { msg: a.msg, perm: a.perm, devices: pushState.devices });
+    await cp.setViewportSize({ width: 390, height: 844 }); await cp.waitForTimeout(300);
+    a = await cp.evaluate(() => { const c = document.querySelector('.mtr-card').getBoundingClientRect(); return c.left >= 0 && c.right <= innerWidth + 1 && document.documentElement.scrollWidth <= innerWidth + 1; });
+    check(a, 'the dialog fits a phone screen');
+    await shot(cp, 'reminders-dialog-phone');
+    await cp.keyboard.press('Escape'); await cp.waitForTimeout(200);
+    check(!(await cp.$('.mtr-veil')), 'Escape closes the dialog');
+    await cp.setViewportSize({ width: 1366, height: 860 });
+    /* one application: straight to a file */
+    await cp.evaluate(() => { const c = document.querySelector('[data-id="j1"], .app-card, .ac-card, tr[data-id]'); if (c) c.click(); }); await cp.waitForTimeout(600);
+    if (await cp.$('#drCal')) {
+      const d2p = cp.waitForEvent('download', { timeout: 8000 }).catch(() => null);
+      await cp.click('#drCal'); const d2 = await d2p;
+      const f2 = d2 ? fs.readFileSync(await d2.path(), 'utf8') : '';
+      check(!!d2 && (f2.match(/BEGIN:VEVENT/g) || []).length === 2 && /journey-co/.test(d2.suggestedFilename()), 'one application downloads its own two dates', d2 && d2.suggestedFilename());
+    } else check(false, 'the application drawer offers its dates for the calendar');
+    await cp.close();
+    /* the service worker turns a push message into a notification; a link that leaves the site is replaced */
+    {
+      const wp = await ctx3.newPage(); watch(wp, 'sw-push');
+      await wp.goto(B + '/pricing', { waitUntil: 'load' });
+      await wp.evaluate(() => navigator.serviceWorker.register('/sw.js', { scope: '/' }).then(() => navigator.serviceWorker.ready));
+      const sw = ctx3.serviceWorkers()[0] || await ctx3.waitForEvent('serviceworker', { timeout: 8000 }).catch(() => null);
+      const calls = sw ? await sw.evaluate(async () => {
+        const seen = [];
+        self.registration.showNotification = (title, o) => { seen.push({ title, body: o.body, tag: o.tag, url: o.data.url }); return Promise.resolve(); };
+        self.dispatchEvent(new PushEvent('push', { data: JSON.stringify({ title: 'Today in The Compass', body: 'Tomorrow: deadline QA Co', url: '/products/the-compass/', tag: 'compass-x' }) }));
+        self.dispatchEvent(new PushEvent('push', { data: JSON.stringify({ title: 'x', url: '//evil.example/' }) }));
+        self.dispatchEvent(new PushEvent('push', { data: 'not json' }));
+        await new Promise(r => setTimeout(r, 300));
+        return seen;
+      }).catch(e => [{ title: String(e) }]) : [];
+      check(calls.length === 3 && calls[0].title === 'Today in The Compass' && calls[0].body === 'Tomorrow: deadline QA Co' && calls[0].url === '/products/the-compass/' && calls[1].url === '/portal' && calls[2].title === 'Metanoia Labs',
+        'the service worker shows a pushed reminder and never opens an address outside the site', calls);
+      await wp.close();
+    }
+    /* Settings: the same dialog, in Bahasa Indonesia */
+    const sp2 = await ctx3.newPage(); watch(sp2, 'reminders-settings');
+    await sp2.addInitScript(() => { try { localStorage.setItem('mtLang', 'id'); localStorage.setItem('mt-lang', 'id'); } catch (e) {} });
+    await sp2.goto(B + '/settings', { waitUntil: 'load' }); await sp2.waitForTimeout(1500);
+    await sp2.click('[data-set="notifications"]'); await sp2.waitForTimeout(400);
+    await sp2.click('#nf-remind'); await sp2.waitForSelector('.mtr-veil', { timeout: 8000 }).catch(() => {});
+    await sp2.waitForSelector('#mtrUrl', { timeout: 8000 }).catch(() => {});
+    a = await sp2.evaluate(() => ({ t: (document.getElementById('mtrT') || {}).textContent || '', url: !!document.getElementById('mtrUrl') }));
+    check(a.t === 'Kalender dan pengingat' && a.url, 'Settings opens the same dialog in Bahasa Indonesia with the address still on', a);
+    await shot(sp2, 'reminders-settings-id');
+    await sp2.evaluate(() => { try { localStorage.setItem('mtLang', 'en'); localStorage.setItem('mt-lang', 'en'); } catch (e) {} });
+    await sp2.close();
+    if (process.env.ADMIN_TOKEN !== '') {
+      const ad6 = await ctx3.newPage(); watch(ad6, 'admin-reminders');
+      await ad6.addInitScript(t => { try { sessionStorage.setItem('mt-admin-token', t); } catch (e) {} }, process.env.ADMIN_TOKEN || 'local-admin-token');
+      await ad6.goto(B + '/admin/', { waitUntil: 'load' }); await ad6.waitForTimeout(1500);
+      await ad6.evaluate(() => { document.getElementById('reminders').open = true; }); await ad6.waitForTimeout(1500);
+      await ad6.click('#rmGen'); await ad6.waitForTimeout(800);
+      a = await ad6.evaluate(() => ({ sum: document.getElementById('rmSummary').textContent, pub: document.getElementById('rmPub').value, priv: document.getElementById('rmPriv').value, type: document.getElementById('rmPriv').type, stats: document.getElementById('rmStats').innerText }));
+      check(/calendar feeds/.test(a.sum) && a.pub.length === 87 && a.pub[0] === 'B' && a.priv.length === 43 && a.type === 'password' && /DEVICES/i.test(a.stats), 'the admin page shows reminder numbers and makes a key pair in the browser', { sum: a.sum, pub: a.pub.length, priv: a.priv.length });
+      await ad6.evaluate(() => { document.getElementById('rmPriv').value = ''; document.getElementById('reminders').scrollIntoView(); });
+      await shot(ad6, 'admin-reminders');
+      await ad6.close();
+    }
+  }
+
   /* ── installable: the manifest and its icons are served ── */
   const mf = await ctx3.request.get(B + '/manifest.webmanifest');
   const mj = mf.ok() ? await mf.json().catch(() => null) : null;
