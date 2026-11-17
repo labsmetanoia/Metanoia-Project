@@ -232,7 +232,7 @@ FOOTER = """
       <span class="sf-legal">
         <a href="/legal/privacy" data-en="Privacy" data-id="Privasi">Privacy</a>
         <a href="/legal/terms" data-en="Terms" data-id="Ketentuan">Terms</a>
-        <a href="/legal/data-dignity">Data Dignity</a>
+        <a href="/legal/data-dignity" data-en="Data Dignity" data-id="Martabat Data">Data Dignity</a>
       </span>
     </div>
   </div>
