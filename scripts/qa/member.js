@@ -530,16 +530,18 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     a = await cp.evaluate(() => { const u = document.getElementById('mtrUrl'), w = document.querySelector('#mtrFeed a[href^="webcal:"]'); return { url: u ? u.value : '', webcal: !!w, msg: document.getElementById('mtrMsg').textContent }; });
     check(/\/api\/calendar\/feed\.ics\?u=[0-9a-f]{32}&k=[0-9a-f]{40}$/.test(a.url) && a.webcal, 'a member turns on a private calendar address and can open it in a calendar app', a);
     if (a.url) { const fu = new URL(a.url), fr = await ctx3.request.get(B + fu.pathname + fu.search); check(fr.ok() && /BEGIN:VCALENDAR/.test(await fr.text()), 'the address answers with a calendar', fr.status()); }
-    await cp.waitForSelector('[data-push="on"]', { timeout: 8000 }).catch(() => {});
-    a = await cp.evaluate(() => { const b = document.querySelector('[data-push="on"]'); return { offered: !!b, text: (document.getElementById('mtrPush') || {}).innerText || '' }; });
-    check(a.offered && /Reminders on this device/.test(a.text), 'reminders on this device are offered where the browser supports them', a.text.slice(0, 120));
-    /* this browser does not grant notifications: the choice is respected and said plainly */
-    await cp.click('[data-push="on"]').catch(() => {});
-    await cp.waitForFunction(() => /stay off|could not/.test(document.getElementById('mtrMsg').textContent), null, { timeout: 4000 }).catch(() => {});
-    a = await cp.evaluate(() => ({ msg: document.getElementById('mtrMsg').textContent, perm: Notification.permission }));
+    /* headless browsers differ: some leave the notification question open, some report it as already blocked.
+       Either way the section must explain itself, and nothing may be switched on without permission. */
+    await cp.waitForFunction(() => { const b = document.getElementById('mtrPush'); return b && !b.hidden; }, null, { timeout: 8000 }).catch(() => {});
+    a = await cp.evaluate(() => { const b = document.querySelector('[data-push="on"]'); return { offered: !!b, perm: Notification.permission, text: (document.getElementById('mtrPush') || {}).innerText || '' }; });
+    check(/Reminders on this device/.test(a.text) && (a.offered || (a.perm === 'denied' && /blocked/.test(a.text))), 'reminders on this device are offered, or the dialog says notifications are blocked', { offered: a.offered, perm: a.perm, text: a.text.slice(0, 80) });
+    if (a.offered) {
+      await cp.click('[data-push="on"]').catch(() => {});
+      await cp.waitForFunction(() => /stay off|could not/.test(document.getElementById('mtrMsg').textContent), null, { timeout: 4000 }).catch(() => {});
+    }
+    a = await cp.evaluate(() => ({ msg: document.getElementById('mtrMsg').textContent, perm: Notification.permission, on: !!document.querySelector('[data-push="off"]') }));
     const pushState = await (await ctx3.request.get(B + '/api/push')).json();
-    /* a headless browser either refuses at once or leaves the question open; either way nothing may be switched on */
-    check(pushState.devices === 0 && a.perm !== 'granted' && (/stay off|could not/.test(a.msg) || a.perm === 'default'), 'when notifications are not allowed, reminders stay off', { msg: a.msg, perm: a.perm, devices: pushState.devices });
+    check(pushState.devices === 0 && a.perm !== 'granted' && !a.on, 'without permission for notifications, reminders stay off', { msg: a.msg, perm: a.perm, devices: pushState.devices });
     await cp.setViewportSize({ width: 390, height: 844 }); await cp.waitForTimeout(300);
     a = await cp.evaluate(() => { const c = document.querySelector('.mtr-card').getBoundingClientRect(); return c.left >= 0 && c.right <= innerWidth + 1 && document.documentElement.scrollWidth <= innerWidth + 1; });
     check(a, 'the dialog fits a phone screen');
@@ -594,7 +596,7 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
       await ad6.evaluate(() => { document.getElementById('reminders').open = true; }); await ad6.waitForTimeout(1500);
       await ad6.click('#rmGen'); await ad6.waitForTimeout(800);
       a = await ad6.evaluate(() => ({ sum: document.getElementById('rmSummary').textContent, pub: document.getElementById('rmPub').value, priv: document.getElementById('rmPriv').value, type: document.getElementById('rmPriv').type, stats: document.getElementById('rmStats').innerText }));
-      check(/calendar feeds/.test(a.sum) && a.pub.length === 87 && a.pub[0] === 'B' && a.priv.length === 43 && a.type === 'password' && /DEVICES/i.test(a.stats), 'the admin page shows reminder numbers and makes a key pair in the browser', { sum: a.sum, pub: a.pub.length, priv: a.priv.length });
+      check(/calendar feeds?$/.test(a.sum) && a.pub.length === 87 && a.pub[0] === 'B' && a.priv.length === 43 && a.type === 'password' && /DEVICES/i.test(a.stats), 'the admin page shows reminder numbers and makes a key pair in the browser', { sum: a.sum, pub: a.pub.length, priv: a.priv.length });
       await ad6.evaluate(() => { document.getElementById('rmPriv').value = ''; document.getElementById('reminders').scrollIntoView(); });
       await shot(ad6, 'admin-reminders');
       await ad6.close();
