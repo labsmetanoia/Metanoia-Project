@@ -434,8 +434,9 @@
     var ctrls = document.querySelectorAll('a.nav-ico[title="Search"], [data-site-search]');
     for (var i = 0; i < ctrls.length; i++) {
       if (ctrls[i].tagName === 'A') ctrls[i].setAttribute('role', 'button');
-      ctrls[i].setAttribute('aria-label', 'Search (Ctrl+K)');
-      ctrls[i].setAttribute('title', 'Search · Ctrl+K');
+      var idLang = (document.documentElement.lang || 'en').toLowerCase().indexOf('id') === 0;
+      ctrls[i].setAttribute('aria-label', idLang ? 'Cari (Ctrl+K)' : 'Search (Ctrl+K)');
+      ctrls[i].setAttribute('title', idLang ? 'Cari · Ctrl+K' : 'Search · Ctrl+K');
       ctrls[i].addEventListener('click', function (e) { e.preventDefault(); load(function () { window.MT_SEARCH.open(); }); });
     }
     document.addEventListener('keydown', function (e) {
