@@ -331,7 +331,9 @@ const PANELS = {
   notifications: () => '<h2>' + L('Notifications', 'Notifikasi') + '</h2><p class="ph-sub">' + L('Choose what reaches you, and how.', 'Pilih apa yang sampai kepadamu, dan bagaimana caranya.') + '</p>' +
     ['<label class="check-row"><input type="checkbox" id="nf-weekly" data-pref="marketing"> ' + L('Weekly summary e-mail: what you worked on, the gate to work on next, one link back in', 'E-mail ringkasan mingguan: yang kamu kerjakan, gerbang berikutnya, satu tautan untuk kembali') + '</label>',
      '<label class="check-row" style="opacity:.55"><input type="checkbox" disabled> ' + L('New waypoint unlocked (not yet available)', 'Waypoint baru terbuka (belum tersedia)') + '</label>',
-     '<label class="check-row" style="opacity:.55"><input type="checkbox" disabled> ' + L('Route deadlines and overdue actions (not yet available)', 'Tenggat rute dan tindakan terlambat (belum tersedia)') + '</label>'].join('') +
+     '<div class="check-row" style="display:block"><b>' + L('Deadlines, next steps and goal dates', 'Tenggat, langkah berikutnya, dan tanggal target') + '</b><br>' +
+       L('From The Compass, without e-mail: add them to your calendar, keep your calendar in sync, or get a notification on this device the morning something is due.', 'Dari The Compass, tanpa e-mail: tambahkan ke kalendermu, jaga kalendermu tetap sinkron, atau terima notifikasi di perangkat ini pada pagi hari saat ada yang jatuh tempo.') +
+       '<br><button type="button" class="btn btn-secondary" id="nf-remind" style="margin-top:.6rem">' + L('Calendar and reminders', 'Kalender dan pengingat') + '</button></div>'].join('') +
     '<p class="note" id="nf-note">' + L('Service messages always arrive: sign-in links, verification and results you ask for. Every weekly e-mail carries a one-click unsubscribe link.', 'Pesan layanan selalu dikirim: tautan masuk, verifikasi, dan hasil yang kamu minta. Setiap e-mail mingguan membawa tautan berhenti berlangganan satu klik.') + '</p>' +
     '<button class="btn btn-primary save-btn" id="nf-save" style="margin-top:0.5rem">' + L('Save Preferences', 'Simpan Preferensi') + '</button>',
   privacy: () => '<h2>' + L('Privacy &amp; Data', 'Privasi &amp; Data') + '</h2><p class="ph-sub">' + L('Your climb, your data. Always yours.', 'Pendakianmu, datamu. Selalu milikmu.') + '</p>' +
@@ -472,6 +474,13 @@ render('profile');
     box.innerHTML = '<label class="f-label">' + (id ? 'Paket saat ini' : 'Current plan') + '</label><div style="font-size:var(--text-lg);font-weight:700;color:var(--gold)">' + esc(title) + '</div>' +
       lines.map(function (l) { return '<p class="note" style="margin-top:.5rem">' + esc(l) + '</p>'; }).join('');
   }
+  /* calendar and reminders (js/mt-reminders.js, fetched when asked for): the dates come from this browser's Compass data */
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest || !e.target.closest('#nf-remind')) return;
+    var go = function () { window.MT_REMIND.open(); };
+    if (window.MT_REMIND) return go();
+    var sc = document.createElement('script'); sc.src = 'js/mt-reminders.js'; sc.onload = go; document.head.appendChild(sc);
+  });
   /* notifications: the weekly e-mail choice is the account's marketing opt-in (POST /api/account/update) */
   function hookNotifications(user) {
     var cb = document.getElementById('nf-weekly');

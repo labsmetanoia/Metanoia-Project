@@ -128,6 +128,22 @@
       <div class="bar"><button id="coRun">Run a trial review</button></div>
       <pre id="coOut" style="white-space:pre-wrap;font-size:13px;margin:8px 0 0"></pre>
     </details>
+    <details class="access" id="reminders">
+      <summary><b>Reminders</b> <span class="muted" id="rmSummary">calendar feeds and notifications, no e-mail</span></summary>
+      <p class="muted" style="font-size:12px;margin:10px 0 8px">Members can download their Compass dates as a calendar file, switch on a private calendar address, and get one notification on the mornings something is due. The calendar parts need nothing from you. Notifications need a pair of push keys, set once.</p>
+      <div class="stats" id="rmStats"></div>
+      <div class="bar"><button class="ghost" id="rmRun">Send today's reminders now</button> <span class="muted" id="rmMsg"></span></div>
+      <b style="font-size:13px">Push keys</b>
+      <p class="muted" style="font-size:12px;margin:2px 0 8px" id="rmKeyState"></p>
+      <div class="bar"><button class="ghost" id="rmGen">Make a new pair of keys</button></div>
+      <div id="rmKeys" hidden>
+        <label class="muted" style="font-size:12px">VAPID_PUBLIC_KEY (plain text variable)</label>
+        <div class="bar"><input type="text" id="rmPub" readonly style="min-width:420px;flex:1"><button class="ghost" data-copyid="rmPub">Copy</button></div>
+        <label class="muted" style="font-size:12px">VAPID_PRIVATE_KEY (secret)</label>
+        <div class="bar"><input type="password" id="rmPriv" readonly style="min-width:420px;flex:1"><button class="ghost" data-copyid="rmPriv">Copy</button></div>
+        <p class="muted" style="font-size:12px;margin:0">These were made in this browser and sent nowhere. This page does not keep them: copy both now. In Cloudflare, add the two values under Settings, Variables and Secrets of the Pages project, and again on the Worker <code>metanoia-aggregate</code>, then redeploy both. Do not paste the private key into chat, e-mail or the repository. Making a new pair later switches off every device that has reminders on until its owner turns them on again.</p>
+      </div>
+    </details>
     <details class="access" id="content">
       <summary><b>Lessons</b> <span class="muted" id="ctSummary">which lessons members finish, and where they stop</span></summary>
       <p class="muted" style="font-size:12px;margin:10px 0 8px">Members who completed a lesson are counted from saved progress, so every member is included from their first lesson. Opens and quiz answers come from the lesson player and start on the day this panel shipped. Counts only; no member is named.</p>
@@ -461,6 +477,39 @@
       $('trCharts').innerHTML = TR.map(function (t) { return chart(t[1], d.axis, d.series[t[0]] || [], d.totals[t[0]] || 0, t[0] === 'active' || t[0] === 'visitors'); }).join('');
     });
   }
+  /* ── reminders: calendar feeds, push devices, and a key pair made in this browser ── */
+  function loadReminders() {
+    api('GET', '/reminders').then(function (r) {
+      if (!r.ok) { $('rmMsg').textContent = (r.data && r.data.error) || ('HTTP ' + r.status); return; }
+      var d = r.data, stat = function (v, label) { return '<div class="stat"><b>' + esc(v) + '</b><span>' + esc(label) + '</span></div>'; };
+      $('rmSummary').textContent = d.pending_migration ? 'migration 0012 has not run yet' : (d.configured ? d.devices + (d.devices === 1 ? ' device' : ' devices') + ' with reminders on' : 'notifications are off: no push keys yet') + ' · ' + d.calendar_feeds + (d.calendar_feeds === 1 ? ' calendar feed' : ' calendar feeds');
+      $('rmStats').innerHTML = stat(d.calendar_feeds, 'calendar feeds on') + stat(d.feeds_read_7d, 'read in the last 7 days') + stat(d.members, 'members with reminders') + stat(d.devices, 'devices') + stat(d.per_run, 'notifications per run');
+      $('rmKeyState').textContent = d.configured ? 'Push keys are set. Members see "Reminders on this device" in The Compass and in Settings.' : 'No push keys are set, so members are not offered notifications. Make a pair below and add it in Cloudflare.';
+      $('rmRun').disabled = !d.configured;
+    });
+  }
+  $('rmRun').addEventListener('click', function () {
+    api('POST', '/reminders/run').then(function (r) {
+      var u = (r.data && r.data.run) || {};
+      $('rmMsg').textContent = !r.ok ? ((r.data && r.data.error) || ('HTTP ' + r.status)) : u.error ? 'not sent: ' + u.error : u.skipped ? u.skipped : u.looked + ' devices looked at · ' + u.sent + ' notified · ' + u.quiet + ' with nothing due' + (u.failed ? ' · ' + u.failed + ' failed' : '') + (u.removed ? ' · ' + u.removed + ' removed' : '');
+      loadReminders();
+    });
+  });
+  $('rmGen').addEventListener('click', function () {
+    var b64u = function (buf) { var s = '', a = new Uint8Array(buf); for (var i = 0; i < a.length; i++) s += String.fromCharCode(a[i]); return btoa(s).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); };
+    crypto.subtle.generateKey({ name: 'ECDSA', namedCurve: 'P-256' }, true, ['sign']).then(function (k) {
+      return Promise.all([crypto.subtle.exportKey('raw', k.publicKey), crypto.subtle.exportKey('jwk', k.privateKey)]);
+    }).then(function (out) {
+      $('rmPub').value = b64u(out[0]); $('rmPriv').value = out[1].d; $('rmKeys').hidden = false;
+    }).catch(function () { $('rmMsg').textContent = 'this browser could not make the keys'; });
+  });
+  $('rmKeys').addEventListener('click', function (e) {
+    var id = e.target.dataset && e.target.dataset.copyid; if (!id) return;
+    var v = $(id).value, done = function () { e.target.textContent = 'Copied'; setTimeout(function () { e.target.textContent = 'Copy'; }, 1500); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(v).then(done, function () {}); else window.prompt('', v);
+  });
+  $('reminders').addEventListener('toggle', function () { if ($('reminders').open) loadReminders(); });
+
   /* ── lessons: completion per lesson, the step where members stop, quiz difficulty, the sample funnel ── */
   var ctData = null;
   function pct(a, b) { return b ? Math.round((a / b) * 100) + '%' : '0%'; }

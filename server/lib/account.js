@@ -29,6 +29,9 @@ export async function exportAccount(env, user) {
   out.sessions = await q('SELECT created_at, expires_at, user_agent FROM sessions WHERE user_id = ? ORDER BY created_at', [user.id], r => ({ created_at: r.created_at, expires_at: r.expires_at, user_agent: r.user_agent || null }));
   out.certificates = await q('SELECT id, product, name, lessons, issued_at, revoked_at FROM certificates WHERE user_id = ?', [user.id], r => ({ ...r }));
   out.access_codes = await q('SELECT b.label, b.sponsor, b.product, x.redeemed_at FROM access_redemptions x JOIN access_batches b ON b.id = x.batch_id WHERE x.user_id = ?', [user.id], r => ({ ...r }));
+  /* reminders: which devices have them on (the address of the push service only, not the keys) and whether a calendar feed is on */
+  out.reminder_devices = await q('SELECT endpoint, locale, created_at FROM push_subscriptions WHERE user_id = ?', [user.id], r => ({ push_service: (() => { try { return new URL(r.endpoint).hostname; } catch (e) { return ''; } })(), locale: r.locale, created_at: r.created_at }));
+  out.calendar_feed = await q('SELECT created_at, last_read_at FROM calendar_feeds WHERE user_id = ?', [user.id], r => ({ ...r }));
   out.progress = await q('SELECT ns, data_json, version, updated_at FROM progress WHERE user_id = ?', [user.id], r => ({ ns: r.ns, data: parse(r.data_json, null), version: r.version, updated_at: r.updated_at }));
   out.leads = await q('SELECT id, kind, payload_json, consent_json, status, created_at, confirmed_at, unsubscribed_at FROM leads WHERE email = ?', [user.email],
     r => ({ id: r.id, kind: r.kind, payload: parse(r.payload_json, {}), consent: parse(r.consent_json, {}), status: r.status, created_at: r.created_at, confirmed_at: r.confirmed_at || null, unsubscribed_at: r.unsubscribed_at || null }));
@@ -74,6 +77,8 @@ export async function purgeDeletions(env, { now = new Date(), dryRun = false } =
       await env.DB.prepare('DELETE FROM certificates WHERE user_id = ?').bind(u.id).run().catch(() => {});
       await env.DB.prepare('DELETE FROM access_redemptions WHERE user_id = ?').bind(u.id).run().catch(() => {});
       await env.DB.prepare('DELETE FROM letter_sends WHERE rcpt = ?').bind('u:' + u.id).run().catch(() => {});
+      await env.DB.prepare('DELETE FROM push_subscriptions WHERE user_id = ?').bind(u.id).run().catch(() => {});
+      await env.DB.prepare('DELETE FROM calendar_feeds WHERE user_id = ?').bind(u.id).run().catch(() => {});
       await env.DB.batch([
         env.DB.prepare('DELETE FROM leads WHERE email = ?').bind(u.email),
         env.DB.prepare('DELETE FROM tokens WHERE user_id = ? OR email = ?').bind(u.id, u.email),

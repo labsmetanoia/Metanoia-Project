@@ -1308,6 +1308,7 @@ a.nv-rec-i:hover b{color:var(--gold)}
       </div></div>
       <div class="apps-controls">
         <button class="btn-gold" id="addAppBtn"><span data-en="+ Plot New Route" data-id="+ Buat Rute Baru">+ Plot New Route</span></button>
+        <button class="btn-ghost" id="calBtn" type="button"><span data-en="Calendar and reminders" data-id="Kalender dan pengingat">Calendar and reminders</span></button>
         <span class="spacer"></span>
         <div class="seg-toggle" role="group" aria-label="View mode">
           <button id="viewBoardBtn" data-en="Board" data-id="Papan">Board</button>
@@ -1891,6 +1892,16 @@ function generateUUID() {
     const r = Math.random() * 16 | 0;
     return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
   });
+}
+/* Calendar and reminders (js/mt-reminders.js, fetched when asked for). The dates are read through getLS,
+   so the demo shows its sample routes and never the member's own. */
+function withReminders(fn) {
+  if (window.MT_REMIND) return fn();
+  const sc = document.createElement('script'); sc.src = '../../js/mt-reminders.js'; sc.onload = fn; document.head.appendChild(sc);
+}
+function openReminders() {
+  let goals = []; try { goals = JSON.parse(getLS('compass_goals', '[]')) || []; } catch (e) {}
+  withReminders(() => window.MT_REMIND.open({ apps: getApplications(), goals }));
 }
 function getApplications() {
   try { const a = JSON.parse(getLS('compass_applications', '[]')); return Array.isArray(a) ? a : []; } catch (e) { return []; }
@@ -2651,6 +2662,7 @@ function openDrawer(id) {
       '<button class="btn-ghost" id="addDebriefBtn" style="margin-top:6px">+ ' + L('Add Debrief', 'Tambah Debrief') + '</button></div>' : '') +
     '<div class="dr-actions">' +
     '<button class="btn-gold" id="drEdit">' + L('Edit', 'Edit') + '</button>' +
+    ((app.status === 'active' || app.status === 'offer') && (app.deadline || app.nextActionDue) ? '<button class="btn-ghost" id="drCal">' + L('Add dates to my calendar', 'Tambahkan tanggal ke kalenderku') + '</button>' : '') +
     (app.stage < 13 ? '<button class="btn-ghost" id="drAdvance">' + L('Move to Next Stage ▸', 'Ke Tahap Berikutnya ▸') + '</button>' : '') +
     (app.status !== 'rejected' ? '<button class="btn-danger" id="drReject">' + L('Mark Rejected', 'Tandai Ditolak') + '</button>' : '') +
     '<button class="btn-danger" id="drDelete" style="border-style:dashed">' + L('Delete', 'Hapus') + '</button></div>';
@@ -2659,6 +2671,10 @@ function openDrawer(id) {
   $('drawerClose').addEventListener('click', closeDrawer);
   const oa = $('offerActivate'); if (oa) oa.addEventListener('click', () => openOfferModal(app.id));
   $('drEdit').addEventListener('click', () => { closeDrawer(); openAppModal(getApplications().find(a => a.id === id)); });
+  const dc = $('drCal'); if (dc) dc.addEventListener('click', () => withReminders(() => {
+    const n = window.MT_REMIND.download({ apps: [app], goals: [] }, 'metanoia-' + String(app.company || 'application').toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 40) + '.ics');
+    dc.textContent = n ? L('Calendar file saved. Open it to add the dates.', 'Berkas kalender tersimpan. Buka untuk menambahkan tanggalnya.') : L('These dates are more than a month old.', 'Tanggal-tanggal ini sudah lewat lebih dari sebulan.');
+  }));
   const adv = $('drAdvance'); if (adv) adv.addEventListener('click', () => { advanceStage(id); openDrawer(id); });
   const rej = $('drReject'); if (rej) rej.addEventListener('click', () => {
     const apps = getApplications(); const a = apps.find(x => x.id === id);
@@ -3121,6 +3137,7 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape') { document.querySelectorAll('.veil.show').forEach(v => v.classList.remove('show')); closeDrawer(); }
 });
 $('addAppBtn').addEventListener('click', () => openAppModal(null));
+$('calBtn').addEventListener('click', openReminders);
 $('fabAdd').addEventListener('click', () => openAppModal(null));
 $('viewBoardBtn').addEventListener('click', () => { setLS('compass_view_mode', 'board'); renderApplications(); });
 $('viewListBtn').addEventListener('click', () => { setLS('compass_view_mode', 'list'); renderApplications(); });
