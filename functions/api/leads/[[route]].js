@@ -38,7 +38,8 @@ export async function onRequestGet({ request, env, params }) {
     const row = await env.DB.prepare('SELECT * FROM tokens WHERE token_hash = ? AND kind = ? AND used_at IS NULL AND expires_at > ?').bind(h, 'newsletter', nowIso()).first();
     if (!row) return Response.redirect(site + '/?subscribed=0', 302);
     await env.DB.prepare('UPDATE tokens SET used_at = ? WHERE token_hash = ?').bind(nowIso(), h).run();
-    await env.DB.prepare("UPDATE leads SET status = 'confirmed', confirmed_at = ?, updated_at = ? WHERE id = ?").bind(nowIso(), nowIso(), row.lead_id).run();
+    /* confirming again after an unsubscribe is a fresh, proven request: letters resume */
+    await env.DB.prepare("UPDATE leads SET status = 'confirmed', confirmed_at = ?, updated_at = ?, unsubscribed_at = NULL WHERE id = ?").bind(nowIso(), nowIso(), row.lead_id).run();
     return Response.redirect(site + '/?subscribed=1', 302);
   }
   return fail(404, 'unknown route');
@@ -90,8 +91,9 @@ export async function onRequestPost({ request, env, params }) {
 
   if (route === 'newsletter') {
     if (body.consent !== true) return fail(400, 'consent required', { field: 'consent' });
-    const dup = await env.DB.prepare("SELECT id, status FROM leads WHERE kind = 'newsletter' AND email = ? ORDER BY created_at DESC LIMIT 1").bind(email).first();
-    if (dup && dup.status === 'confirmed') return json({ ok: true, id: dup.id, already: true, confirmation_email: false });
+    const dup = await env.DB.prepare("SELECT id, status, unsubscribed_at FROM leads WHERE kind = 'newsletter' AND email = ? ORDER BY created_at DESC LIMIT 1").bind(email).first();
+    /* someone who unsubscribed and signs up again goes through the confirmation message once more */
+    if (dup && dup.status === 'confirmed' && !dup.unsubscribed_at) return json({ ok: true, id: dup.id, already: true, confirmation_email: false });
     const consent = { ...CONSENT_VERSIONS, marketing: true, consented_at: nowIso(), method: 'newsletter-form' };
     const id = dup ? dup.id : await store(env, 'newsletter', { email, name: null, payload: { email }, consent, locale, source_page });
     let sent = false;

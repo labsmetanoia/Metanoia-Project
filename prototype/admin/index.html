@@ -15,11 +15,13 @@
   main{padding:18px 22px;max-width:1280px;margin:0 auto}
   .gate{max-width:420px;margin:60px auto;padding:22px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
   input,select,textarea,button{font:inherit}
-  input[type=password],input[type=search],select,textarea{width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:var(--text);padding:9px 11px}
+  input[type=password],input[type=search],input[type=text],input[type=number],input[type=date],select,textarea{width:100%;color-scheme:dark;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:var(--text);padding:9px 11px}
   button{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;border:0;border-radius:8px;padding:9px 14px;font-weight:800;cursor:pointer}
   button.ghost{background:none;border:1px solid var(--line);color:var(--gold2)}
   .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
   .bar select,.bar input{width:auto;min-width:160px}
+  .bar input[type=checkbox],input[type=checkbox]{width:auto;min-width:0;margin-right:6px;vertical-align:middle}
+  .bar label{display:inline-flex;align-items:center;gap:6px}
   .stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 16px}
 .access{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:0 0 16px}.access summary{cursor:pointer}.access input,.access select{font-size:13px}
   .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:120px}
@@ -133,6 +135,41 @@
       <summary><b>Script errors</b> <span class="muted" id="erSummary">reported by visitors' browsers</span></summary>
       <div class="bar" style="margin-top:10px"><select id="erDays"><option value="1">Last 24 hours</option><option value="7" selected>Last 7 days</option><option value="30">Last 30 days</option></select> <span class="muted" id="erCount"></span></div>
       <div id="erRows"></div>
+    </details>
+    <details class="access" id="notice">
+      <summary><b>Notice bar</b> <span class="muted" id="ntSummary">one short line on every public page</span></summary>
+      <p class="muted" style="font-size:12px;margin:10px 0 8px">Shown at the bottom of the public pages and the portal until its last day (Jakarta time). Visitors can close it; new wording shows again. No e-mail is sent. Changes reach visitors within about ten minutes.</p>
+      <input type="text" id="ntEn" maxlength="220" placeholder="English text, e.g. The beta ends on 22 November. Your access continues." style="width:100%;margin:0 0 6px">
+      <input type="text" id="ntId" maxlength="220" placeholder="Teks Bahasa Indonesia" style="width:100%;margin:0 0 6px">
+      <div class="bar">
+        <input type="text" id="ntHref" placeholder="Link (optional): /pricing or https://…" style="min-width:240px">
+        <input type="text" id="ntLinkEn" maxlength="40" placeholder="Link label, English">
+        <input type="text" id="ntLinkId" maxlength="40" placeholder="Label tautan, Indonesia">
+      </div>
+      <div class="bar">
+        <label class="muted" style="font-size:12px">Last day <input type="date" id="ntUntil"></label>
+        <label style="font-size:13px"><input type="checkbox" id="ntOn"> Show the notice</label>
+        <button id="ntSave">Save</button> <span class="muted" id="ntMsg"></span>
+      </div>
+    </details>
+    <details class="access" id="letters">
+      <summary><b>Letters</b> <span class="muted" id="ltSummary">write to members and subscribers</span></summary>
+      <p class="muted" style="font-size:12px;margin:10px 0 8px" id="ltInfo">A letter goes to members who opted in to updates and to confirmed newsletter subscribers, one message per address, each with a one-click unsubscribe link. Plain text; a blank line starts a new paragraph; full https:// links become clickable.</p>
+      <input type="hidden" id="ltId">
+      <div class="bar">
+        <select id="ltAudience"><option value="all">Members and subscribers</option><option value="members">Members only</option><option value="subscribers">Newsletter subscribers only</option></select>
+        <label style="font-size:13px"><input type="checkbox" id="ltPortal" checked> Also show in the portal's Updates</label>
+      </div>
+      <input type="text" id="ltSubEn" maxlength="140" placeholder="Subject, English" style="width:100%;margin:0 0 6px">
+      <textarea id="ltBodyEn" class="notes" maxlength="6000" placeholder="Letter, English" style="width:100%;min-height:150px;font-size:13px"></textarea>
+      <input type="text" id="ltSubId" maxlength="140" placeholder="Subjek, Bahasa Indonesia" style="width:100%;margin:10px 0 6px">
+      <textarea id="ltBodyId" class="notes" maxlength="6000" placeholder="Surat, Bahasa Indonesia" style="width:100%;min-height:150px;font-size:13px"></textarea>
+      <div class="bar" style="margin-top:10px">
+        <button id="ltSave">Save the draft</button>
+        <button class="ghost" id="ltNew">New letter</button>
+        <span class="muted" id="ltMsg"></span>
+      </div>
+      <div id="ltRows" style="margin-top:8px"></div>
     </details>
     <details class="access" id="digest">
       <summary><b>Weekly summary</b> <span class="muted">what the Monday e-mail to the owner says</span></summary>
@@ -438,6 +475,70 @@
     api('POST', '/digest', {}).then(function (r) { $('dgMsg').textContent = r.ok ? 'sent' : 'not sent: ' + ((r.data && r.data.error) || ('HTTP ' + r.status)); });
   });
   $('digest').addEventListener('toggle', function () { if ($('digest').open) loadDigest(); });
+
+  /* ── notice bar ── */
+  function loadNotice() {
+    api('GET', '/notice').then(function (r) {
+      if (!r.ok) { $('ntMsg').textContent = (r.data && r.data.error) || ('HTTP ' + r.status); return; }
+      var n = r.data.notice || {};
+      $('ntEn').value = n.en || ''; $('ntId').value = n.id || ''; $('ntHref').value = n.href || ''; $('ntLinkEn').value = n.link_en || ''; $('ntLinkId').value = n.link_id || '';
+      $('ntUntil').value = n.until || ''; $('ntOn').checked = !!n.on;
+      $('ntSummary').textContent = r.data.live ? 'showing now' + (n.until ? ' until ' + n.until : '') : (n.on ? 'switched on, but past its last day' : 'not showing');
+    });
+  }
+  $('ntSave').addEventListener('click', function () {
+    api('POST', '/notice', { on: $('ntOn').checked, en: $('ntEn').value, id: $('ntId').value, href: $('ntHref').value, link_en: $('ntLinkEn').value, link_id: $('ntLinkId').value, until: $('ntUntil').value || null }).then(function (r) {
+      $('ntMsg').textContent = r.ok ? (r.data.live ? 'saved: showing now' : 'saved: not showing') : ((r.data && r.data.error) || ('HTTP ' + r.status));
+      if (r.ok) loadNotice();
+    });
+  });
+  $('notice').addEventListener('toggle', function () { if ($('notice').open) loadNotice(); });
+
+  /* ── letters ── */
+  var ltList = [];
+  function ltDays(n) { return n > 1 ? n + ' days' : 'one day'; }
+  function ltFill(l) {
+    l = l || {};
+    $('ltId').value = l.id || ''; $('ltSubEn').value = l.subject_en || ''; $('ltSubId').value = l.subject_id || ''; $('ltBodyEn').value = l.body_en || ''; $('ltBodyId').value = l.body_id || '';
+    $('ltAudience').value = l.audience || 'all'; $('ltPortal').checked = l.show_in_portal !== false;
+    $('ltSave').textContent = l.id ? 'Save the changes' : 'Save the draft';
+  }
+  function loadLetters() {
+    api('GET', '/letters').then(function (r) {
+      if (!r.ok) { $('ltRows').innerHTML = '<p class="err">' + esc((r.data && r.data.error) || ('HTTP ' + r.status)) + '</p>'; return; }
+      if (r.data.pending_migration) { $('ltSummary').textContent = 'migration 0011 has not run yet'; return; }
+      ltList = r.data.letters || [];
+      var a = r.data.audience || {}, b = r.data.budget || {};
+      $('ltSummary').textContent = (a.all || 0) + ' would receive a letter today · ' + (b.left || 0) + ' of ' + (b.cap || 0) + ' left in today\'s batch';
+      var note = '<p class="muted" style="font-size:12px;margin:0 0 8px">Recipients today: ' + (a.all || 0) + ' addresses (' + (a.members || 0) + ' from member accounts, ' + (a.subscribers || 0) + ' from the newsletter list). Up to ' + (b.cap || 0) + ' messages go out a day, so a letter to everyone takes about ' + ltDays(Math.ceil((a.all || 0) / (b.cap || 1))) + '.' + (r.data.mail ? '' : ' <span class="err">No mail key is set here, so nothing can be sent.</span>') + '</p>';
+      $('ltRows').innerHTML = note + (ltList.length ? '<table><thead><tr><th>Letter</th><th>To</th><th>Status</th><th>Progress</th><th></th></tr></thead><tbody>' + ltList.map(function (l) {
+        var live = l.status === 'queued' || l.status === 'sending', btn = '';
+        if (l.status === 'draft') btn = '<button class="ghost" data-edit="' + esc(l.id) + '">Edit</button> <button class="ghost" data-test="' + esc(l.id) + '">Send me a test</button> <button data-queue="' + esc(l.id) + '">Send to ' + esc(l.audience === 'all' ? 'everyone' : l.audience) + '</button> <button class="ghost" data-cancel="' + esc(l.id) + '">Discard</button>';
+        else if (live) btn = '<button class="ghost" data-run="1">Send today\'s batch now</button> <button class="ghost" data-cancel="' + esc(l.id) + '">Stop</button>';
+        return '<tr><td><b>' + esc(l.subject_en) + '</b><br><span class="muted">' + esc(l.subject_id) + '</span></td><td>' + esc(l.audience) + (l.show_in_portal ? '<br><span class="muted">+ portal</span>' : '') + '</td>' +
+          '<td>' + esc(l.status) + '<br><span class="muted">' + esc(fmt(l.finished_at || l.queued_at || l.updated_at)) + '</span></td>' +
+          '<td>' + (l.total == null ? '' : l.sent + ' of ' + l.total + (l.failed ? ' · ' + l.failed + ' refused' : '')) + '</td><td>' + btn + '</td></tr>';
+      }).join('') + '</tbody></table>' : '<p class="muted" style="font-size:13px">No letters yet.</p>');
+    });
+  }
+  $('ltSave').addEventListener('click', function () {
+    var id = $('ltId').value, body = { subject_en: $('ltSubEn').value, subject_id: $('ltSubId').value, body_en: $('ltBodyEn').value, body_id: $('ltBodyId').value, audience: $('ltAudience').value, show_in_portal: $('ltPortal').checked };
+    api(id ? 'PATCH' : 'POST', '/letters' + (id ? '/' + id : ''), body).then(function (r) {
+      $('ltMsg').textContent = r.ok ? 'draft saved' : ((r.data && r.data.error) || ('HTTP ' + r.status));
+      if (r.ok) { ltFill(r.data.letter); loadLetters(); }
+    });
+  });
+  $('ltNew').addEventListener('click', function () { ltFill(null); $('ltMsg').textContent = ''; });
+  $('ltRows').addEventListener('click', function (e) {
+    var t = e.target, d = t.dataset || {}, say = function (r, okText) { $('ltMsg').textContent = r.ok ? okText(r.data) : ((r.data && r.data.error) || ('HTTP ' + r.status)); loadLetters(); };
+    if (d.edit) { ltFill(ltList.filter(function (l) { return l.id === d.edit; })[0]); $('ltSubEn').focus(); }
+    if (d.test) api('POST', '/letters/' + d.test + '/test').then(function (r) { say(r, function (x) { return x.sent ? 'test sent: ' + x.sent + ' messages, one per language' : 'test not sent: ' + (x.reason || 'unknown'); }); });
+    if (d.queue && window.confirm('Send this letter? It goes out in daily batches and cannot be recalled once a batch has left.')) api('POST', '/letters/' + d.queue + '/queue').then(function (r) { say(r, function (x) { return 'queued for ' + x.letter.total + ' addresses, about ' + ltDays(x.days) + '. The first batch leaves with the next morning run, or now with the button.'; }); if (r.ok) ltFill(null); });
+    if (d.cancel && window.confirm('Stop this letter? Messages already sent stay sent.')) api('POST', '/letters/' + d.cancel + '/cancel').then(function (r) { say(r, function () { return 'stopped'; }); if (r.ok && $('ltId').value === d.cancel) ltFill(null); });
+    if (d.run) api('POST', '/letters/run').then(function (r) { say(r, function (x) { var u = x.run || {}; return u.error ? 'not sent: ' + u.error : u.skipped ? 'today\'s batch has already gone; the next leaves tomorrow' : (u.sent || 0) + ' sent, ' + (u.remaining || 0) + ' to go' + (u.finished ? ' · finished' : ''); }); });
+  });
+  $('letters').addEventListener('toggle', function () { if ($('letters').open) loadLetters(); });
+
 
   /* ── audit trail ── */
   function loadAudit() {

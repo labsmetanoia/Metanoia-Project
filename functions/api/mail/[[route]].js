@@ -2,7 +2,8 @@
  * Mail preferences reachable from a message itself.
  *
  *   GET  /api/mail/unsubscribe?k=user|lead&id=…&sig=…   one click from the footer link: stops lifecycle
- *                                                        mail for that account or Career Map result and
+ *                                                        mail and letters for that account, Career Map
+ *                                                        result or newsletter subscription and
  *                                                        shows a short confirmation page
  *   POST /api/mail/unsubscribe?…                          the same, for mail clients that honour
  *                                                        List-Unsubscribe-Post (RFC 8058)
@@ -19,7 +20,7 @@ function page(locale, ok, site) {
   const id = locale === 'id';
   const title = ok ? (id ? 'Kamu sudah berhenti berlangganan' : 'You are unsubscribed') : (id ? 'Tautan tidak dikenali' : 'Link not recognised');
   const body = ok
-    ? (id ? 'Kami tidak akan lagi mengirim e-mail tindak lanjut atau ringkasan mingguan ke alamat ini. Pesan layanan, seperti tautan masuk dan hasil yang kamu minta, tetap dikirim.' : 'We will no longer send follow-ups or weekly summaries to this address. Service messages, such as sign-in links and results you ask for, still arrive.')
+    ? (id ? 'Kami tidak akan lagi mengirim e-mail tindak lanjut, ringkasan mingguan, atau surat ke alamat ini. Pesan layanan, seperti tautan masuk dan hasil yang kamu minta, tetap dikirim.' : 'We will no longer send follow-ups, weekly summaries or letters to this address. Service messages, such as sign-in links and results you ask for, still arrive.')
     : (id ? 'Tautan ini tidak valid atau sudah dipakai untuk catatan yang tidak ada lagi. Kamu bisa mengatur e-mail dari Pengaturan setelah masuk.' : 'This link is not valid, or the record it points to no longer exists. You can manage e-mail from Settings after signing in.');
   const html = `<!doctype html><html lang="${id ? 'id' : 'en'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>${esc(title)} · Metanoia Labs</title>
 <style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0B1120;color:#F5EFE6;font:16px/1.6 -apple-system,"Segoe UI",Roboto,sans-serif}main{max-width:460px;padding:40px 28px;border:1px solid rgba(201,168,76,.4);border-radius:18px;background:linear-gradient(180deg,rgba(15,21,35,.95),rgba(10,15,26,.98))}h1{font:600 26px/1.2 Georgia,"Times New Roman",serif;color:#F0D878;margin:0 0 14px}p{margin:0 0 18px;color:rgba(245,239,230,.82)}a{color:#E8C766}</style></head>
@@ -39,7 +40,7 @@ async function handle({ request, env, params }) {
   try {
     const row = kind === 'user'
       ? await env.DB.prepare('SELECT locale FROM users WHERE id = ?').bind(id).first()
-      : await env.DB.prepare("SELECT locale FROM leads WHERE id = ? AND kind = 'results'").bind(id).first();
+      : await env.DB.prepare("SELECT locale FROM leads WHERE id = ? AND kind IN ('results', 'newsletter')").bind(id).first();
     if (row && row.locale) locale = row.locale === 'id' ? 'id' : 'en';
     const ok = await unsubscribe(env, kind, id);
     if (request.method === 'POST') return new Response(ok ? 'unsubscribed' : 'not found', { status: ok ? 200 : 404, headers: { 'content-type': 'text/plain' } });

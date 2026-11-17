@@ -12,7 +12,7 @@
  *  every 6 h  account purge (server/lib/account.js): deletion requests confirmed at least two hours
  *             earlier are carried out, one final e-mail each; also run before the other two jobs
  *
- *  00:30 UTC  lifecycle mail (server/lib/lifecycle.js)
+ *  00:30 UTC  one batch of a queued letter (server/lib/letters.js), then lifecycle mail (server/lib/lifecycle.js)
  *        Career Map follow-up on the weakest dimension two to five days after the
  *        result, and the weekly summary for members who opted in. Capped below the
  *        Resend free tier so transactional mail is never starved; every message
@@ -25,6 +25,7 @@
 import { runLifecycle } from '../../server/lib/lifecycle.js';
 import { purgeDeletions } from '../../server/lib/account.js';
 import { sendOwnerDigest } from '../../server/lib/digest.js';
+import { runLetters } from '../../server/lib/letters.js';
 
 const K = 20;
 const RETENTION_DAYS = 13 * 31;
@@ -98,6 +99,11 @@ export default {
       if (purged.purged || purged.failed || purged.error) console.log('purge', JSON.stringify(purged));
       if (event.cron === CRON_PURGE) return;
       if (event.cron === CRON_LIFECYCLE) {
+        /* a queued letter goes first: one batch a day, capped below the lifecycle cap (server/lib/letters.js) */
+        if (env.RESEND_API_KEY) {
+          const lt = await runLetters(env, { site: env.SITE_URL }).catch(e => ({ error: String(e && e.message || e).slice(0, 200) }));
+          if (!lt.idle) console.log('letters', JSON.stringify(lt));
+        }
         const r = await lifecycle(env, false);
         console.log('lifecycle', JSON.stringify(r));
         /* Monday 00:30 UTC (07:30 WIB): the owner's weekly summary, once per ISO week (server/lib/digest.js) */
@@ -116,6 +122,7 @@ export default {
   /* manual trigger, protected by the admin token:
        ?job=aggregate&day=YYYY-MM-DD[&retention=1]   (default)
        ?job=lifecycle[&dry=1]                          dry runs count what would be sent and send nothing
+       ?job=letters[&dry=1]                            today's batch of the queued letter (server/lib/letters.js)
        ?job=purge[&dry=1]                              account deletions due now
        ?job=digest[&force=1]                           the owner's weekly summary (server/lib/digest.js) */
   async fetch(request, env) {
@@ -131,6 +138,12 @@ export default {
       /* the owner's weekly summary now; force=1 sends even if this week's has gone out */
       const r = await sendOwnerDigest(env, { force: url.searchParams.get('force') === '1' });
       return new Response(JSON.stringify({ ok: true, job: 'digest', ...r }), { headers });
+    }
+    if (url.searchParams.get('job') === 'letters') {
+      const dry = url.searchParams.get('dry') === '1';
+      if (!env.RESEND_API_KEY && !dry) return new Response(JSON.stringify({ ok: true, job: 'letters', skipped: 'RESEND_API_KEY not set on the Worker' }), { headers });
+      const r = await runLetters(env, { site: env.SITE_URL, dryRun: dry });
+      return new Response(JSON.stringify({ ok: true, job: 'letters', ...r }), { headers });
     }
     if (url.searchParams.get('job') === 'lifecycle') {
       const r = await lifecycle(env, url.searchParams.get('dry') === '1');

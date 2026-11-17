@@ -36,7 +36,7 @@
 <title>Portal · Metanoia Labs</title>
 <meta name="description" content="Your Metanoia Labs portal, the authenticated hub for The Compass and all five career products.">
 <link rel="canonical" href="https://metanoialabs.net/portal">
-<script src="/js/mt-errors.js" defer></script><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<script src="/js/mt-errors.js" defer></script><script src="/js/mt-notice.js" defer></script><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/portal">
 <meta property="og:title" content="Portal · Metanoia Labs">
 <meta property="og:description" content="The door to your career navigation system. The Compass and all five Metanoia products, one hub.">
@@ -1314,7 +1314,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
           <h2 class="compass-entry-title" data-en="The Compass" data-id="The Compass">The Compass</h2>
           <p class="compass-entry-sub"
              data-en="Your career navigation system. Track your bearing, manage applications, and follow your True North, all in one place."
-             data-id="Sistem navigasi karier Anda. Pantau arah, kelola lamaran, dan ikuti True North, semuanya di satu tempat.">Your career navigation system. Track your bearing, manage applications, and follow your True North, all in one place.</p>
+             data-id="Sistem navigasi kariermu. Pantau arah, kelola lamaran, dan ikuti True North, semuanya di satu tempat.">Your career navigation system. Track your bearing, manage applications, and follow your True North, all in one place.</p>
 
           <div class="compass-entry-stats" id="compass-stats" style="display:none">
             <div class="compass-stat">
@@ -1751,6 +1751,16 @@ const PORTAL_NAV = [
 
 /* Platform updates data (newest first — append when shipping new features) */
 const PLATFORM_UPDATES = [
+  { date: '2026-11-16',
+    title: { en: 'AI coach (beta)', id: 'Pelatih AI (beta)' },
+    body:  { en: 'Get feedback on an interview answer or a CV bullet from the AI coach. Open it from the link at the bottom of this page. A few reviews a day while it is in beta.',
+             id: 'Dapatkan umpan balik untuk jawaban wawancara atau satu butir CV dari pelatih AI. Buka dari tautan di bagian bawah halaman ini. Beberapa ulasan per hari selama masa beta.' },
+    badge: { en: 'New', id: 'Baru' } },
+  { date: '2026-11-16',
+    title: { en: 'Certificates of completion', id: 'Sertifikat kelulusan' },
+    body:  { en: 'Finish every lesson of a product and download a certificate with a public verification link.',
+             id: 'Selesaikan semua pelajaran sebuah produk, lalu unduh sertifikat dengan tautan verifikasi publik.' },
+    badge: { en: 'New', id: 'Baru' } },
   { date: '2026-08-02',
     title: { en: 'Portal account navigation', id: 'Navigasi akun Portal' },
     body:  { en: 'Reach My Learning, purchases, settings, and help from the new sidebar.',
@@ -1759,9 +1769,32 @@ const PLATFORM_UPDATES = [
   { date: '2026-07-15',
     title: { en: 'The Compass launched', id: 'The Compass diluncurkan' },
     body:  { en: 'Your complete career navigation dashboard is now live.',
-             id: 'Dasbor navigasi karier lengkap Anda kini tersedia.' },
+             id: 'Dasbor navigasi karier lengkapmu kini tersedia.' },
     badge: { en: 'Compass', id: 'Compass' } }
 ];
+
+/* Letters from the team (GET /api/letters) join the list when the member is signed in. */
+const uEsc = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+function loadLetters() {
+  if (!window.fetch) return;
+  fetch('/api/letters', { credentials: 'same-origin' }).then(r => (r.ok ? r.json() : null)).then(d => {
+    if (!d || !d.ok || !d.letters || !d.letters.length) return;
+    d.letters.forEach(l => {
+      if (PLATFORM_UPDATES.some(u => u.letterId === l.id)) return;
+      /* letters are plain text: escaped here, line breaks kept */
+      const html = t => uEsc(t).replace(/\n/g, '<br>');
+      PLATFORM_UPDATES.push({ letterId: l.id, date: l.date, title: { en: uEsc(l.title.en), id: uEsc(l.title.id) }, body: { en: html(l.body.en), id: html(l.body.id) }, badge: { en: 'Letter', id: 'Surat' } });
+    });
+    PLATFORM_UPDATES.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+    populateUpdates();
+    const inner = document.querySelector('[data-nav-id="updates"] .nav-item-inner');
+    if (inner && checkForNewUpdates() && !inner.querySelector('.nav-badge-dot') && !document.getElementById('updates-drawer')) {
+      const dot = document.createElement('span');
+      dot.className = 'nav-badge-dot'; dot.setAttribute('role', 'status'); dot.setAttribute('aria-label', L('New updates available', 'Ada pembaruan baru'));
+      inner.appendChild(dot);
+    }
+  }).catch(() => {});
+}
 
 function checkForNewUpdates() {
   let lastSeen = '0';
@@ -1941,14 +1974,15 @@ function closeUpdatesDrawer() {
 function populateUpdates() {
   const list = document.getElementById('updates-list');
   if (!list) return;
+  /* the data-en / data-id attributes hold markup for the language switch, so they are attribute-escaped */
   list.innerHTML = PLATFORM_UPDATES.map(u =>
     '<div class="update-item">' +
       '<div class="update-item-header">' +
-        '<span class="update-date">' + u.date + '</span>' +
-        '<span class="update-badge" data-en="' + u.badge.en + '" data-id="' + u.badge.id + '">' + (u.badge[lang] || u.badge.en) + '</span>' +
+        '<span class="update-date">' + uEsc(u.date) + '</span>' +
+        '<span class="update-badge" data-en="' + uEsc(u.badge.en) + '" data-id="' + uEsc(u.badge.id) + '">' + (u.badge[lang] || u.badge.en) + '</span>' +
       '</div>' +
-      '<div class="update-title" data-en="' + u.title.en + '" data-id="' + u.title.id + '">' + (u.title[lang] || u.title.en) + '</div>' +
-      '<div class="update-body" data-en="' + u.body.en + '" data-id="' + u.body.id + '">' + (u.body[lang] || u.body.en) + '</div>' +
+      '<div class="update-title" data-en="' + uEsc(u.title.en) + '" data-id="' + uEsc(u.title.id) + '">' + (u.title[lang] || u.title.en) + '</div>' +
+      '<div class="update-body" data-en="' + uEsc(u.body.en) + '" data-id="' + uEsc(u.body.id) + '">' + (u.body[lang] || u.body.en) + '</div>' +
     '</div>').join('');
 }
 
@@ -2090,6 +2124,7 @@ renderCompassCard();
 renderProductsGrid();
 renderStats();
 checkNotifications();
+loadLetters();
 maybeOnboard();
 })();
 </script>

@@ -15,6 +15,7 @@ const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@example.test';
 const stamp = Date.now().toString(36);
 const crypto = require('crypto'), { execFileSync } = require('child_process');
 const sql = (q, args = []) => execFileSync('python3', ['-c', 'import sqlite3,sys,json\nc=sqlite3.connect(sys.argv[1],timeout=10)\nc.execute(sys.argv[2],json.loads(sys.argv[3]))\nc.commit()', process.env.D1_SQLITE, q, JSON.stringify(args)]);
+const sqlGet = (q, args = []) => String(execFileSync('python3', ['-c', 'import sqlite3,sys,json\nc=sqlite3.connect(sys.argv[1],timeout=10)\nr=c.execute(sys.argv[2],json.loads(sys.argv[3])).fetchone()\nprint("" if r is None else r[0])', process.env.D1_SQLITE, q, JSON.stringify(args)])).trim();
 let pass = 0, failN = 0;
 const ok = (cond, label, detail) => { if (cond) { pass++; } else { failN++; console.log('FAIL', label, detail === undefined ? '' : JSON.stringify(detail).slice(0, 300)); } };
 
@@ -416,6 +417,103 @@ function client() {
   ok(['batch.create', 'batch.update', 'batch.report.export'].every(x => r.j.audit.some(a => a.action === x)), 'batch actions are in the audit trail', r.status);
   r = await m2('GET', '/api/admin/batches');
   ok(r.status === 401, 'a member cannot list batches', r.status);
+
+  /* ── site-wide notice: public, bilingual, off after its last day ── */
+  r = await m2('POST', '/api/admin/notice', { on: true, en: 'x', id: 'y' });
+  ok(r.status === 401, 'a member cannot set the notice', r.status);
+  r = await anon('POST', '/api/admin/notice', { on: true, en: 'Only English' }, A);
+  ok(r.status === 400 && r.j.field === 'id', 'a notice needs both languages', r.j);
+  r = await anon('POST', '/api/admin/notice', { on: true, en: 'a', id: 'b', href: 'javascript:alert(1)', link_en: 'x', link_id: 'y' }, A);
+  ok(r.status === 400 && r.j.field === 'href', 'a notice link must be a path or https', r.j);
+  const dayPlus = n => new Date(Date.now() + n * 86400000).toISOString().slice(0, 10);
+  const noticeBody = { on: true, en: 'QA notice ' + stamp, id: 'Pengumuman QA ' + stamp, href: '/pricing', link_en: 'See plans', link_id: 'Lihat paket', until: dayPlus(2) };
+  r = await anon('POST', '/api/admin/notice', noticeBody, A);
+  ok(r.status === 200 && r.j.live === true && r.j.notice.key, 'the owner switches a notice on', r.j);
+  const noticeKey = r.j.notice && r.j.notice.key;
+  r = await anon('GET', '/api/notice');
+  ok(r.status === 200 && r.j.notice && r.j.notice.text.en === noticeBody.en && r.j.notice.text.id === noticeBody.id && r.j.notice.link.href === '/pricing' && r.j.notice.key === noticeKey, 'every visitor can read the notice', r.j);
+  r = await anon('POST', '/api/admin/notice', { ...noticeBody, on: false }, A);
+  r = await anon('POST', '/api/admin/notice', noticeBody, A);
+  ok(r.j.notice && r.j.notice.key === noticeKey, 'switching a notice off and on keeps its key', r.j);
+  r = await anon('POST', '/api/admin/notice', { ...noticeBody, until: dayPlus(-2) }, A);
+  ok(r.status === 200 && r.j.live === false, 'a notice past its last day is not live', r.j);
+  r = await anon('GET', '/api/notice');
+  ok(r.status === 200 && r.j.notice === null, 'an expired notice is not served', r.j);
+  r = await anon('POST', '/api/admin/notice', { ...noticeBody, on: false }, A);
+  ok(r.status === 200 && r.j.live === false, 'the notice is switched off', r.j);
+  r = await anon('GET', '/api/admin/audit?limit=40', undefined, A);
+  ok(r.j.audit.some(a => a.action === 'notice.set'), 'notice changes are in the audit trail', r.j.audit.length);
+
+  /* ── letters: draft, queue, daily batches that resume, one message per address, unsubscribe ── */
+  if (process.env.D1_SQLITE) {
+    /* the local database keeps earlier runs: park their recipients and letters so the counts below are exact */
+    sql("UPDATE letters SET status = 'cancelled' WHERE status IN ('queued', 'sending')");
+    sql("DELETE FROM mail_log WHERE kind = 'letter'");
+    sql("UPDATE users SET marketing_opt_in = 0");
+    sql("UPDATE leads SET unsubscribed_at = COALESCE(unsubscribed_at, '2026-01-01T00:00:00Z') WHERE kind = 'newsletter'");
+    const t0 = new Date().toISOString();
+    /* recipients: one member (Indonesian), two confirmed subscribers; m2 unsubscribed as a member although the address is on the newsletter list */
+    sql("UPDATE users SET marketing_opt_in = 1, email_verified_at = COALESCE(email_verified_at, ?), locale = 'id' WHERE email = ?", [t0, email2]);
+    await anon('POST', '/api/leads/newsletter', { email: `news3+${stamp}@example.test`, consent: true, source_page: '/' });
+    await anon('POST', '/api/leads/newsletter', { email, consent: true, source_page: '/' });
+    sql("UPDATE leads SET status = 'confirmed', confirmed_at = ?, unsubscribed_at = NULL WHERE kind = 'newsletter' AND email IN (?, ?, ?)", [t0, `news+${stamp}@example.test`, `news3+${stamp}@example.test`, email]);
+    sql("UPDATE users SET unsubscribed_at = ? WHERE email = ?", [t0, email]);
+
+    r = await m2('GET', '/api/admin/letters');
+    ok(r.status === 401, 'a member cannot list letters', r.status);
+    r = await anon('GET', '/api/letters');
+    ok(r.status === 200 && r.j.signed_in === false && r.j.letters.length === 0, 'a guest gets no letters', r.j);
+    r = await anon('POST', '/api/admin/letters', { subject_en: 'Only English', body_en: 'Hello' }, A);
+    ok(r.status === 400 && r.j.field === 'subject_id', 'a letter needs both languages', r.j);
+    r = await anon('POST', '/api/admin/letters', { subject_en: 'QA letter ' + stamp, subject_id: 'Surat QA ' + stamp, body_en: 'First paragraph.\n\nSecond <b>paragraph</b> https://metanoialabs.net/pricing.', body_id: 'Paragraf pertama.\n\nParagraf kedua.' }, A);
+    ok(r.status === 201 && r.j.letter.status === 'draft' && r.j.letter.audience === 'all', 'the owner saves a draft', r.j);
+    const letter = (r.j.letter || {}).id;
+    r = await anon('PATCH', '/api/admin/letters/' + letter, { subject_en: 'QA letter v2 ' + stamp }, A);
+    ok(r.status === 200 && r.j.letter.subject_en === 'QA letter v2 ' + stamp && r.j.letter.subject_id === 'Surat QA ' + stamp, 'a draft can be edited', r.j);
+    r = await anon('POST', '/api/admin/letters/' + letter + '/test', {}, A);
+    ok(r.status === 200 && r.j.ok && r.j.sent === 0 && /not configured/.test(r.j.reason || ''), 'a test send reports that no mail key is set here', r.j);
+    r = await anon('GET', '/api/admin/letters', undefined, A);
+    ok(r.status === 200 && r.j.audience.all === 3 && r.j.audience.members === 1 && r.j.audience.subscribers === 2 && r.j.budget.cap === 2, 'the audience counts each address once and skips the unsubscribed member', { a: r.j.audience, b: r.j.budget });
+    r = await m2('GET', '/api/letters');
+    ok(r.status === 200 && !r.j.letters.some(l => l.id === letter), 'a draft is not shown in the portal', r.j);
+    r = await anon('POST', '/api/admin/letters/run', {}, A);
+    ok(r.status === 200 && r.j.run.idle === true, 'nothing is sent while no letter is queued', r.j);
+    r = await anon('POST', '/api/admin/letters/' + letter + '/queue', {}, A);
+    ok(r.status === 200 && r.j.letter.status === 'queued' && r.j.letter.total === 3 && r.j.days === 2, 'queueing fixes the audience and estimates the days', r.j);
+    r = await anon('PATCH', '/api/admin/letters/' + letter, { subject_en: 'too late' }, A);
+    ok(r.status === 409, 'a queued letter cannot be edited', r.status);
+    r = await anon('POST', '/api/admin/letters/run', {}, A);
+    ok(r.status === 200 && r.j.run.sent === 2 && r.j.run.remaining === 1 && r.j.run.mock === true && !r.j.run.finished, 'the first batch stops at the daily cap', r.j);
+    r = await anon('POST', '/api/admin/letters/run', {}, A);
+    ok(r.status === 200 && r.j.run.skipped === 'budget' && !r.j.run.sent, 'a second run on the same day sends nothing', r.j);
+    r = await m2('GET', '/api/letters');
+    ok(r.status === 200 && r.j.letters.some(l => l.id === letter && l.title.id === 'Surat QA ' + stamp && l.body.en.indexOf('<b>') >= 0), 'a letter under way shows in the portal as plain text', r.j);
+    sql("UPDATE mail_log SET day = '2026-01-01' WHERE kind = 'letter'");   /* the next day */
+    r = await anon('POST', '/api/admin/letters/run', {}, A);
+    ok(r.status === 200 && r.j.run.sent === 1 && r.j.run.remaining === 0 && r.j.run.finished === true, 'the next day finishes the letter', r.j);
+    r = await anon('GET', '/api/admin/letters', undefined, A);
+    const sentL = (r.j.letters || []).find(l => l.id === letter) || {};
+    ok(sentL.status === 'sent' && sentL.sent === 3 && sentL.failed === 0 && sentL.total === 3, 'the letter is marked sent with every address counted once', sentL);
+    ok(Number(sqlGet('SELECT COUNT(*) FROM letter_sends WHERE letter_id = ?', [letter])) === 3 && Number(sqlGet("SELECT COUNT(*) FROM mail_log WHERE kind = 'letter' AND ref = ?", [letter])) === 3, 'three sends and three mail log rows, no duplicates', null);
+    r = await anon('POST', '/api/admin/letters/' + letter + '/cancel', {}, A);
+    ok(r.status === 409, 'a sent letter cannot be cancelled', r.status);
+    /* one-click unsubscribe for a newsletter subscriber, then the next letter skips them */
+    const secret = (require('fs').readFileSync('.dev.vars', 'utf8').match(/^SESSION_SECRET=(.+)$/m) || [])[1] || '';
+    const leadId = sqlGet("SELECT id FROM leads WHERE kind = 'newsletter' AND email = ?", [`news3+${stamp}@example.test`]);
+    const sig = crypto.createHmac('sha256', secret).update('unsub:lead:' + leadId).digest('hex').slice(0, 32);
+    r = await anon('POST', `/api/mail/unsubscribe?k=lead&id=${leadId}&sig=${sig}`);
+    ok(r.status === 200, 'a newsletter subscriber unsubscribes with one click', r.status);
+    r = await anon('POST', `/api/mail/unsubscribe?k=lead&id=${leadId}&sig=${'0'.repeat(32)}`);
+    ok(r.status === 404, 'a forged unsubscribe link does nothing', r.status);
+    r = await anon('POST', '/api/admin/letters', { subject_en: 'QA members ' + stamp, subject_id: 'Anggota QA ' + stamp, body_en: 'x', body_id: 'y', audience: 'subscribers', show_in_portal: false }, A);
+    const letter2 = (r.j.letter || {}).id;
+    r = await anon('POST', '/api/admin/letters/' + letter2 + '/queue', {}, A);
+    ok(r.status === 200 && r.j.letter.total === 1, 'the next letter skips the address that unsubscribed', r.j);
+    r = await anon('POST', '/api/admin/letters/' + letter2 + '/cancel', {}, A);
+    ok(r.status === 200 && r.j.letter.status === 'cancelled', 'a queued letter can be stopped', r.j);
+    r = await anon('GET', '/api/admin/audit?limit=60', undefined, A);
+    ok(['letter.create', 'letter.queue', 'letter.run', 'letter.cancel'].every(x => r.j.audit.some(a => a.action === x)), 'letter actions are in the audit trail', r.j.audit.map(a => a.action).slice(0, 12));
+  }
 
   /* ── deletion ── */
   r = await m2('POST', '/api/account/delete', { password: 'wrong' });

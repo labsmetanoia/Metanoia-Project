@@ -32,6 +32,15 @@
  *   GET   /api/admin/coach?days=14                     the AI coach: whether members can use it, calls and Neurons per day
  *   POST  /api/admin/coach/trial { kind, question?, text, lang }   one review, to judge the quality (counts against the budget)
  *   POST  /api/admin/coach/mode  { mode: 'on' | 'off' }            opens the coach to members or closes it
+ *   GET   /api/admin/notice                            the site-wide notice as stored, and whether it is showing now
+ *   POST  /api/admin/notice { on, en, id, href?, link_en?, link_id?, until? }   sets it; `until` is the last day (Jakarta time)
+ *   GET   /api/admin/letters                           letters with progress, who would receive one today, today's mail budget
+ *   POST  /api/admin/letters { subject_en, subject_id, body_en, body_id, audience?, show_in_portal? }   a new draft
+ *   PATCH /api/admin/letters/:id { … }                 edits a draft
+ *   POST  /api/admin/letters/:id/test                  both language versions to LEADS_NOTIFY_TO (or the signed-in admin)
+ *   POST  /api/admin/letters/:id/queue                 hands the letter to the Worker, which sends one batch a day
+ *   POST  /api/admin/letters/:id/cancel                stops a letter; messages already sent stay sent
+ *   POST  /api/admin/letters/run                       sends today's batch now instead of at the next morning run
  *
  * Every write and every export is recorded in admin_audit (migration 0007).
  */
@@ -39,6 +48,7 @@ import { json, fail, readJson, clip, nowIso, sameOrigin, rateLimit, clientIp, ne
 import { adminActor } from '../../../server/lib/auth.js';
 import { buildDigest, digestText, sendOwnerDigest, scriptErrors } from '../../../server/lib/digest.js';
 import { createBatch, listBatches, updateBatch, batchReport } from '../../../server/lib/access-codes.js';
+import { cleanNotice, readNotice, saveNotice, noticeLive, createLetter, updateLetter, listLetters, audienceCounts, queueLetter, cancelLetter, testLetter, letterBudget, runLetters } from '../../../server/lib/letters.js';
 import { coachConfigured, coachMode, setCoachMode, validate as coachValidate, review as coachReview, report as coachReport } from '../../../server/lib/coach.js';
 import { PRODUCTS, PLANS, accessMode, betaEndsAt, listEntitlements, resolveAccess, grantEntitlement, revokeEntitlement, grantFounding } from '../../../server/lib/entitlements.js';
 
@@ -224,6 +234,16 @@ export async function onRequestGet({ request, env, params }) {
     return csvResponse('metanoia-cohort-report.csv', ['figure', 'value'], rows);
   }
 
+  if (route === 'notice') {
+    const n = await readNotice(env);
+    return json({ ok: true, notice: n, live: noticeLive(n) });
+  }
+  if (route === 'letters') {
+    try {
+      return json({ ok: true, letters: await listLetters(env), audience: await audienceCounts(env), budget: await letterBudget(env), mail: !!env.RESEND_API_KEY, test_to: env.LEADS_NOTIFY_TO ? true : false });
+    } catch (e) { return json({ ok: true, letters: [], pending_migration: true }); }
+  }
+
   if (route === 'coach') {
     const days = Math.min(60, Math.max(1, parseInt(url.searchParams.get('days') || '14', 10) || 14));
     return json({ ok: true, configured: coachConfigured(env), binding: !!env.AI, mock: env.COACH_MOCK === '1', mode: await coachMode(env), ...(await coachReport(env, days)) });
@@ -284,6 +304,12 @@ export async function onRequestPatch({ request, env, params }) {
     await audit(env, g.actor, 'batch.update', ur.batch.id, { label: ur.batch.label, seats: ur.batch.seats, revoked: ur.batch.revoked, withdrawn: ur.withdrawn });
     return json({ ok: true, batch: ur.batch, withdrawn: ur.withdrawn });
   }
+  if (parts[0] === 'letters' && parts[1] && parts.length === 2) {
+    const ul = await updateLetter(env, clip(parts[1], 64), (await readJson(request, 32 * 1024)) || {}).catch(() => ({ error: 'letters not available', status: 503 }));
+    if (ul.error) return fail(ul.status || 400, ul.error, { field: ul.field });
+    await audit(env, g.actor, 'letter.update', ul.letter.id, { subject: ul.letter.subject_en, audience: ul.letter.audience });
+    return json({ ok: true, letter: ul.letter });
+  }
   if (parts[0] === 'feedback' && parts[1]) {
     const fid = clip(parts[1], 64), fb = (await readJson(request)) || {};
     const curF = await env.DB.prepare('SELECT * FROM feedback WHERE id = ?').bind(fid).first().catch(() => null);
@@ -319,6 +345,46 @@ export async function onRequestPost({ request, env, params }) {
     if (cr.error) return fail(cr.status || 400, cr.error, { field: cr.field });
     await audit(env, g.actor, 'batch.create', cr.batch.id, { label: cr.batch.label, seats: cr.batch.seats, product: cr.batch.product, plan: cr.batch.plan });
     return json({ ok: true, batch: cr.batch }, 201);
+  }
+  if (parts[0] === 'notice' && parts.length === 1) {
+    const cn = cleanNotice((await readJson(request)) || {});
+    if (cn.error) return fail(400, cn.error, { field: cn.field });
+    const saved = await saveNotice(env, cn.notice, g.actor).catch(() => null);
+    if (!saved) return fail(503, 'settings not available');   /* before migration 0009 */
+    await audit(env, g.actor, 'notice.set', null, { on: saved.on, until: saved.until, en: saved.en });
+    return json({ ok: true, notice: saved, live: noticeLive(saved) });
+  }
+  if (parts[0] === 'letters') {
+    const lid = parts[1] ? clip(parts[1], 64) : null, act = parts[2] || null;
+    const site = (env.SITE_URL || new URL(request.url).origin).replace(/\/$/, '');
+    try {
+      if (!lid) {
+        const cr = await createLetter(env, (await readJson(request, 32 * 1024)) || {}, g.actor);
+        if (cr.error) return fail(400, cr.error, { field: cr.field });
+        await audit(env, g.actor, 'letter.create', cr.letter.id, { subject: cr.letter.subject_en, audience: cr.letter.audience });
+        return json({ ok: true, letter: cr.letter }, 201);
+      }
+      if (lid === 'run' && !act) {
+        /* today's batch now instead of at the Worker's next morning run; the daily caps still hold */
+        const rr = await runLetters(env, { site });
+        await audit(env, g.actor, 'letter.run', rr.letter || null, { sent: rr.sent || 0, remaining: rr.remaining, skipped: rr.skipped || null, error: rr.error || null });
+        return json({ ok: true, run: rr });
+      }
+      if (act === 'test') {
+        const to = env.LEADS_NOTIFY_TO || (g.actor && g.actor.indexOf('@') > 0 ? g.actor : '');
+        const tr = await testLetter(env, lid, to, site);
+        if (tr.error) return fail(tr.status || 400, tr.error);
+        await audit(env, g.actor, 'letter.test', lid, { sent: tr.sent });
+        return json({ ok: true, sent: tr.sent, reason: tr.reason });
+      }
+      if (act === 'queue' || act === 'cancel') {
+        const qr = act === 'queue' ? await queueLetter(env, lid) : await cancelLetter(env, lid);
+        if (qr.error) return fail(qr.status || 400, qr.error);
+        await audit(env, g.actor, 'letter.' + act, lid, { subject: qr.letter.subject_en, total: qr.letter.total, sent: qr.letter.sent });
+        return json({ ok: true, letter: qr.letter, days: qr.days });
+      }
+    } catch (e) { return fail(503, 'letters not available'); }   /* before migration 0011 */
+    return fail(404, 'not found');
   }
   if (parts[0] === 'coach' && parts[1] === 'mode' && parts.length === 2) {
     const mb = (await readJson(request)) || {};

@@ -380,6 +380,83 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     await ad5.close();
   }
 
+  /* ── notice bar: the owner's line on public pages and the portal, in both languages, closed for good per wording ── */
+  if (process.env.ADMIN_TOKEN !== '') {
+    const ah = { origin: B, authorization: 'Bearer ' + (process.env.ADMIN_TOKEN || 'local-admin-token') };
+    const nbody = { on: true, en: 'Journey notice ' + stamp, id: 'Pengumuman perjalanan ' + stamp, href: '/pricing', link_en: 'See plans', link_id: 'Lihat paket', until: new Date(Date.now() + 3 * 86400000).toISOString().slice(0, 10) };
+    const nr = await (await ctx3.request.post(B + '/api/admin/notice', { headers: ah, data: nbody })).json();
+    check(nr.ok && nr.live, 'the owner switches the notice on', nr);
+    const nctx = await br.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+    const np = await nctx.newPage(); watch(np, 'notice');
+    const noticeText = () => np.evaluate(() => { const n = document.getElementById('mtNotice'); return n ? n.textContent : ''; });
+    await np.goto(B + '/', { waitUntil: 'load' }); await np.waitForSelector('#mtNotice', { timeout: 8000 }).catch(() => {});
+    a = await noticeText();
+    check(a.includes('Journey notice ' + stamp) && a.includes('See plans'), 'a visitor sees the notice on the home page', a);
+    a = await np.evaluate(() => { const n = document.getElementById('mtNotice'); if (!n) return false; const r = n.getBoundingClientRect(); return r.left >= 0 && r.right <= innerWidth + 1 && r.bottom <= innerHeight + 1 && r.height < 160; });
+    check(a, 'the notice fits a phone screen');
+    await shot(np, 'notice-home-phone');
+    await np.evaluate(() => { document.documentElement.lang = 'id'; }); await np.waitForTimeout(250);
+    a = await noticeText();
+    check(a.includes('Pengumuman perjalanan ' + stamp) && a.includes('Lihat paket'), 'the notice follows the page language', a);
+    await np.click('#mtNotice button');
+    await np.goto(B + '/pricing', { waitUntil: 'load' }); await np.waitForTimeout(1200);
+    check(!(await np.$('#mtNotice')), 'a closed notice stays closed on the next page');
+    await ctx3.request.post(B + '/api/admin/notice', { headers: ah, data: { ...nbody, en: 'Journey notice two ' + stamp } });
+    await np.evaluate(() => { try { sessionStorage.removeItem('mt-notice'); } catch (e) {} });   /* a new visit: the ten-minute copy is gone */
+    await np.goto(B + '/pricing?fresh=' + stamp, { waitUntil: 'load' }); await np.waitForSelector('#mtNotice', { timeout: 8000 }).catch(() => {});
+    a = await noticeText();
+    check(a.includes('Journey notice two ' + stamp), 'new wording shows again after a visitor closed the old one', a);
+    const pn = await ctx3.newPage(); watch(pn, 'notice-portal');
+    await pn.addInitScript(() => { try { localStorage.setItem('metanoia_onboarded', 'true'); } catch (e) {} });
+    await pn.goto(B + '/portal', { waitUntil: 'load' }); await pn.waitForSelector('#mtNotice', { timeout: 8000 }).catch(() => {});
+    a = await pn.evaluate(() => { const n = document.getElementById('mtNotice'); return n ? n.textContent : ''; });
+    check(a.includes('Journey notice two ' + stamp), 'a member sees the notice in the portal', a);
+    await shot(pn, 'notice-portal');
+    await ctx3.request.post(B + '/api/admin/notice', { headers: ah, data: { ...nbody, on: false } });
+    await pn.evaluate(() => { try { sessionStorage.removeItem('mt-notice'); } catch (e) {} });
+
+    /* ── a letter reaches the portal's Updates panel as plain text ── */
+    if (process.env.D1_SQLITE) {
+      const { execFileSync } = require('child_process');
+      const sql = (q, args = []) => execFileSync('python3', ['-c', 'import sqlite3,sys,json\nc=sqlite3.connect(sys.argv[1],timeout=10)\nc.execute(sys.argv[2],json.loads(sys.argv[3]))\nc.commit()', process.env.D1_SQLITE, q, JSON.stringify(args)]);
+      sql("UPDATE letters SET status = 'cancelled' WHERE status IN ('queued', 'sending')");
+      sql("DELETE FROM mail_log WHERE kind = 'letter'");
+      sql("UPDATE users SET marketing_opt_in = 0");
+      sql("UPDATE leads SET unsubscribed_at = COALESCE(unsubscribed_at, '2026-01-01T00:00:00Z') WHERE kind = 'newsletter'");
+      sql("UPDATE users SET marketing_opt_in = 1, unsubscribed_at = NULL, email_verified_at = COALESCE(email_verified_at, ?) WHERE email = ?", [new Date().toISOString(), `xss+${stamp}@example.test`]);
+      const lt = await (await ctx3.request.post(B + '/api/admin/letters', { headers: ah, data: { subject_en: 'Journey letter ' + stamp, subject_id: 'Surat perjalanan ' + stamp, body_en: 'Line one.\n\n<img src=x onerror="window.__ltx=1"> stays text.', body_id: 'Baris satu.\n\nTetap teks.', audience: 'members' } })).json();
+      check(lt.ok && lt.letter.status === 'draft', 'the owner drafts a letter', lt);
+      const lq = await (await ctx3.request.post(B + '/api/admin/letters/' + lt.letter.id + '/queue', { headers: ah, data: {} })).json();
+      const lr = await (await ctx3.request.post(B + '/api/admin/letters/run', { headers: ah, data: {} })).json();
+      check(lq.ok && lq.letter.total === 1 && lr.ok && lr.run.sent === 1 && lr.run.finished, 'the letter goes to the one member who opted in', { lq, lr });
+      await pn.goto(B + '/portal', { waitUntil: 'load' }); await pn.waitForTimeout(1500);
+      check(await pn.evaluate(() => !!document.querySelector('[data-nav-id="updates"] .nav-badge-dot')), 'the portal marks Updates as new');
+      await pn.click('[data-nav-id="updates"]'); await pn.waitForTimeout(700);
+      a = await pn.evaluate(() => (document.getElementById('updates-list') || {}).textContent || '');
+      check(a.includes('Journey letter ' + stamp) && a.includes('stays text') && a.includes('<img src=x'), 'the letter is in the Updates panel', a.slice(0, 300));
+      check(await pn.evaluate(() => !window.__ltx && !document.querySelector('#updates-list img')), 'markup in a letter is shown as text, never run');
+      await shot(pn, 'portal-updates-letter');
+      await pn.evaluate(() => { localStorage.setItem('mtLang', 'id'); localStorage.setItem('mt-lang', 'id'); });
+      await pn.goto(B + '/portal', { waitUntil: 'load' }); await pn.waitForTimeout(1500);
+      await pn.click('[data-nav-id="updates"]'); await pn.waitForTimeout(700);
+      a = await pn.evaluate(() => (document.getElementById('updates-list') || {}).textContent || '');
+      check(a.includes('Surat perjalanan ' + stamp) && a.includes('Pelatih AI (beta)'), 'the Updates panel reads in Bahasa Indonesia', a.slice(0, 300));
+      await pn.evaluate(() => { localStorage.setItem('mtLang', 'en'); localStorage.setItem('mt-lang', 'en'); });
+    }
+
+    /* ── admin page: the Notice bar and Letters panels load ── */
+    const ad4 = await ctx3.newPage(); watch(ad4, 'admin-letters');
+    await ad4.addInitScript(t => { try { sessionStorage.setItem('mt-admin-token', t); } catch (e) {} }, process.env.ADMIN_TOKEN || 'local-admin-token');
+    await ad4.goto(B + '/admin/', { waitUntil: 'load' }); await ad4.waitForTimeout(1500);
+    await ad4.evaluate(() => { document.getElementById('notice').open = true; document.getElementById('letters').open = true; });
+    await ad4.waitForTimeout(1500);
+    a = await ad4.evaluate(() => ({ nt: document.getElementById('ntEn').value, sum: document.getElementById('ltSummary').textContent, rows: document.getElementById('ltRows').textContent }));
+    check(a.nt.includes('Journey notice ' + stamp) && /would receive a letter today/.test(a.sum) && /Up to \d+ messages go out a day/.test(a.rows), 'the admin page shows the notice and the letters with today\'s budget', a);
+    await ad4.evaluate(() => document.getElementById('letters').scrollIntoView());
+    await shot(ad4, 'admin-letters');
+    await ad4.close(); await pn.close(); await nctx.close();
+  }
+
   /* ── installable: the manifest and its icons are served ── */
   const mf = await ctx3.request.get(B + '/manifest.webmanifest');
   const mj = mf.ok() ? await mf.json().catch(() => null) : null;
