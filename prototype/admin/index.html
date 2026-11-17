@@ -128,6 +128,11 @@
       <div class="bar"><button id="coRun">Run a trial review</button></div>
       <pre id="coOut" style="white-space:pre-wrap;font-size:13px;margin:8px 0 0"></pre>
     </details>
+    <details class="access" id="profiles">
+      <summary><b>Public profiles</b> <span class="muted" id="pfSummary">members' shareable readiness pages</span></summary>
+      <p class="muted" style="font-size:12px;margin:10px 0 8px">A member switches their page on and chooses what it shows. Everything on it is read from the account. Take a page down only for an abusive display name or a request from the member; the member is told in Settings.</p>
+      <div id="pfRows"></div> <span class="muted" id="pfMsg"></span>
+    </details>
     <details class="access" id="reminders">
       <summary><b>Reminders</b> <span class="muted" id="rmSummary">calendar feeds and notifications, no e-mail</span></summary>
       <p class="muted" style="font-size:12px;margin:10px 0 8px">Members can download their Compass dates as a calendar file, switch on a private calendar address, and get one notification on the mornings something is due. The calendar parts need nothing from you. Notifications need a pair of push keys, set once.</p>
@@ -477,6 +482,26 @@
       $('trCharts').innerHTML = TR.map(function (t) { return chart(t[1], d.axis, d.series[t[0]] || [], d.totals[t[0]] || 0, t[0] === 'active' || t[0] === 'visitors'); }).join('');
     });
   }
+  /* ── public profiles: which are on, and taking one down ── */
+  function loadProfiles() {
+    api('GET', '/profiles').then(function (r) {
+      if (!r.ok) { $('pfRows').innerHTML = '<p class="err">' + esc((r.data && r.data.error) || ('HTTP ' + r.status)) + '</p>'; return; }
+      var list = r.data.profiles || [], live = list.filter(function (p) { return p.enabled && !p.hidden; }).length;
+      $('pfSummary').textContent = r.data.pending_migration ? 'migration 0013 has not run yet' : live + (live === 1 ? ' page is public' : ' pages are public');
+      $('pfRows').innerHTML = list.length ? '<table><thead><tr><th>Member</th><th>Page</th><th>State</th><th>Changed</th><th></th></tr></thead><tbody>' + list.map(function (p) {
+        return '<tr><td><b>' + esc(p.name || '(no name)') + '</b></td><td><a href="/p/' + esc(p.slug) + '" target="_blank" rel="noopener">/p/' + esc(p.slug) + '</a></td><td>' + (p.hidden ? '<span class="err">taken down</span>' : 'public') + '</td><td class="small">' + esc(fmt(p.updated_at)) + '</td>' +
+          '<td><button class="ghost" data-slug="' + esc(p.slug) + '" data-hide="' + (p.hidden ? '0' : '1') + '">' + (p.hidden ? 'Put it back' : 'Take it down') + '</button></td></tr>';
+      }).join('') + '</tbody></table>' : '<p class="muted" style="font-size:13px">No member has a public profile yet.</p>';
+    });
+  }
+  $('pfRows').addEventListener('click', function (e) {
+    var d = e.target.dataset || {}; if (!d.slug) return;
+    var hide = d.hide === '1';
+    if (hide && !window.confirm('Take this page down? The member sees a note in Settings.')) return;
+    api('PATCH', '/profiles/' + d.slug, { hidden: hide }).then(function (r) { $('pfMsg').textContent = r.ok ? (hide ? 'taken down' : 'public again') : ((r.data && r.data.error) || ('HTTP ' + r.status)); loadProfiles(); });
+  });
+  $('profiles').addEventListener('toggle', function () { if ($('profiles').open) loadProfiles(); });
+
   /* ── reminders: calendar feeds, push devices, and a key pair made in this browser ── */
   function loadReminders() {
     api('GET', '/reminders').then(function (r) {

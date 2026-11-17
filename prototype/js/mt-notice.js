@@ -23,7 +23,7 @@
       'box-shadow:0 12px 36px rgba(0,0,0,.45)}' +
       '.mt-notice p{margin:0;flex:1;min-width:0}' +
       '.mt-notice a{color:#E9D28A;font-weight:700;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}' +
-      '.mt-notice button{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid rgba(245,239,230,.25);background:none;color:#F5EFE6;font:400 20px/1 inherit;cursor:pointer}' +
+      '.mt-notice button{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid rgba(245,239,230,.25);background:none;color:#F5EFE6;font-weight:400;font-size:20px;line-height:1;font-family:inherit;cursor:pointer}' +
       '.mt-notice button:hover,.mt-notice button:focus-visible{border-color:#E9D28A;color:#E9D28A}' +
       '@media (max-width:640px){.mt-notice{bottom:12px;font-size:13.5px;padding-left:14px}}' +
       '@media print{.mt-notice{display:none}}';

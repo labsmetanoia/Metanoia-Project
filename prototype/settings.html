@@ -264,6 +264,7 @@ h1,h2,h3{font-weight:inherit;margin:0}
   <div class="subnav" role="tablist" id="subnav">
     <button class="active" role="tab" aria-selected="true" data-set="profile" data-en="Profile" data-id="Profil">Profile</button>
     <button role="tab" aria-selected="false" data-set="target" data-en="Career Target" data-id="Target Karier">Career Target</button>
+    <button role="tab" aria-selected="false" data-set="public" data-en="Public profile" data-id="Profil publik">Public profile</button>
     <button role="tab" aria-selected="false" data-set="notifications" data-en="Notifications" data-id="Notifikasi">Notifications</button>
     <button role="tab" aria-selected="false" data-set="privacy" data-en="Privacy &amp; Data" data-id="Privasi &amp; Data">Privacy &amp; Data</button>
     <button role="tab" aria-selected="false" data-set="subscription" data-en="Subscription" data-id="Langganan">Subscription</button>
@@ -328,6 +329,8 @@ const PANELS = {
     '<p class="note">' + L('Recalibrating re-runs the five-question baseline and updates your seed scores.', 'Kalibrasi ulang menjalankan kembali lima pertanyaan dasar dan memperbarui skor awalmu.') + '</p>' +
     '<div style="margin-top:1.25rem"><button class="btn btn-primary save-btn">' + L('Save Changes', 'Simpan Perubahan') + '</button></div>';
   },
+  /* the shareable readiness profile: js/mt-profile.js draws the controls into #pp-box once the tab is opened */
+  public: () => '<h2>' + L('Public profile', 'Profil publik') + '</h2><p class="ph-sub">' + L('One link that shows what you have done here, for a CV, LinkedIn or a recruiter. Off until you switch it on.', 'Satu tautan yang menunjukkan apa yang sudah kamu kerjakan di sini, untuk CV, LinkedIn, atau perekrut. Mati sampai kamu mengaktifkannya.') + '</p><div id="pp-box"></div>',
   notifications: () => '<h2>' + L('Notifications', 'Notifikasi') + '</h2><p class="ph-sub">' + L('Choose what reaches you, and how.', 'Pilih apa yang sampai kepadamu, dan bagaimana caranya.') + '</p>' +
     ['<label class="check-row"><input type="checkbox" id="nf-weekly" data-pref="marketing"> ' + L('Weekly summary e-mail: what you worked on, the gate to work on next, one link back in', 'E-mail ringkasan mingguan: yang kamu kerjakan, gerbang berikutnya, satu tautan untuk kembali') + '</label>',
      '<label class="check-row" style="opacity:.55"><input type="checkbox" disabled> ' + L('New waypoint unlocked (not yet available)', 'Waypoint baru terbuka (belum tersedia)') + '</label>',
@@ -360,6 +363,11 @@ function render(key) {
   const panel = document.getElementById('panel');
   panel.innerHTML = PANELS[key]();
   if (key === 'subscription' && window.MT_ACCESS) MT_ACCESS.mount(document.getElementById('code-box'));
+  if (key === 'public') {
+    const go = () => window.MT_PROFILE_SETTINGS.mount(document.getElementById('pp-box'));
+    if (window.MT_PROFILE_SETTINGS) go();
+    else { const sc = document.createElement('script'); sc.src = 'js/mt-profile.js'; sc.onload = go; document.head.appendChild(sc); }
+  }
   panel.querySelectorAll('.save-btn').forEach(b => b.addEventListener('click', () => toast(L('Saved.', 'Tersimpan.'))));
   const ex = document.getElementById('export-btn');
   if (ex) ex.addEventListener('click', () => {
@@ -395,6 +403,8 @@ document.querySelectorAll('#subnav button').forEach(b => b.addEventListener('cli
 }));
 setLanguage(lang);
 render('profile');
+/* a link may open a tab directly: settings?tab=public */
+(function () { const want = new URLSearchParams(location.search).get('tab'), b = want && document.querySelector('#subnav button[data-set="' + want.replace(/[^a-z]/g, '') + '"]'); if (b) b.click(); })();
 })();
 </script>
 <script src="js/mob-footer.js" defer></script>

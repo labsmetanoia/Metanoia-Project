@@ -19,7 +19,7 @@ The static site (`prototype/`) now ships with a small server layer under `functi
 | `server/lib/*.js` | shared helpers: WebCrypto PBKDF2, sessions, rate limits, Resend mail |
 | `migrations/0001_init.sql` | D1 schema |
 | `workers/aggregate/` | nightly k-anonymous aggregation + retention (separate Worker, cron) |
-| `prototype/_routes.json` | only `/api/*` invokes Functions; everything else is static |
+| `prototype/_routes.json` | only `/api/*` and the public profile pages `/p/*` invoke Functions; everything else is static |
 | `prototype/js/mt-api.js`, `mt-auth.js`, `mt-events.js`, `mt-progress.js` | browser side |
 | `prototype/mentors/apply.html` | mentor application form (public route `/mentors/apply`) |
 | `prototype/admin/index.html` | internal review page (noindex, not in the sitemap) |
@@ -210,6 +210,16 @@ Admin (`/admin/`, Access panel, or the API): `GET /api/admin/users?founding=1` i
 - **Limits on the free plan**: a run sends at most `PUSH_PER_RUN` notifications (default 30), because each is one outbound request and a little CPU. Three runs a day reach about 90 devices with something due. More needs the paid Workers plan, which is a cost decision.
 - **Data**: tables `calendar_feeds` and `push_subscriptions` (migration 0012). Both are in the account export (devices without their keys) and removed by the account purge.
 - **Checks**: `scripts/qa/push-crypto.js` decrypts the library's output with an independent implementation and verifies the token. `PUSH_MOCK=1` (local runs and the end-to-end workflow only) builds each notification and sends none. The encryption was also checked once against the `web-push` reference library.
+
+### Readiness profile (docs/21 N-06, 2026-11-17)
+
+- **What it is**: one public page per member, `/p/<slug>`, off until the member switches it on in Settings (**Public profile**, `js/mt-profile.js`; `settings?tab=public` opens the tab). The member ticks what it shows: the Career Map band, certificates, lessons completed per course. The link can be copied, shared through the phone's share sheet, replaced, or switched off.
+- **Where the content comes from**: the account, at the moment the page is asked for (`server/lib/profile.js`). The band is derived from the member's latest signed-in Career Map result (`assessments`); certificates from `certificates`, each linking to its verification page; lessons from saved progress, counted against the core lessons of each course. Nothing can be typed in. The page never shows an address, a score, dimension results or application data.
+- **API**: `GET /api/profile` and `POST /api/profile` for the member's settings, `POST /api/profile/reset` for a new address, `GET /api/profile/<slug>` for the public answer (cacheable for five minutes, 404 when off).
+- **The page**: `prototype/profile.html`. `functions/p/[slug].js` serves it at `/p/<slug>` with the member's name in the title and the link-preview tags and the data already in the page; it copies the static file's security headers and adds `noindex`. `_routes.json` therefore sends `/p/*` to Functions. `/profile?p=<slug>` is the same page asking the API. A display name is escaped in the title, the tags, the inline data and the page.
+- **Sharing**: copy, the share sheet where the browser has one, WhatsApp and LinkedIn links. The page is in English and Bahasa Indonesia and prints as one page.
+- **Moderation**: the admin page (**Public profiles**) lists public pages and can take one down (`PATCH /api/admin/profiles/:slug { hidden }`), audited. The member sees a note in Settings and their own choice is kept.
+- **Data**: table `profiles` (migration 0013); in the account export and removed by the account purge. An account awaiting deletion has no public page.
 
 ### End-to-end tests in CI (2026-11-15)
 

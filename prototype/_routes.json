@@ -1,6 +1,9 @@
 {
   "version": 1,
-  "description": "Cloudflare Pages: only /api/* invokes Functions; every other path is served as a static file. Ignored by GitHub Pages.",
-  "include": ["/api/*"],
+  "description": "Cloudflare Pages: /api/* and the public profile pages /p/* invoke Functions; every other path is served as a static file. Ignored by GitHub Pages.",
+  "include": [
+    "/api/*",
+    "/p/*"
+  ],
   "exclude": []
 }

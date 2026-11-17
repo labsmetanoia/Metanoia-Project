@@ -616,6 +616,50 @@ function client() {
   r = await anon('GET', '/api/admin/audit?limit=20', undefined, A);
   ok(r.j.audit.some(a => a.action === 'reminders.run'), 'the reminder run is in the audit trail', r.j.audit.length);
 
+  /* ── shareable readiness profile: off by default, the member's choice item by item, read from the account ── */
+  r = await anon('GET', '/api/profile');
+  ok(r.status === 401, 'profile settings need a session', r.status);
+  r = await m2('POST', '/api/events', { events: [{ name: 'assessment.career_map.submitted', props: { scores: { total: 78, band: 'High Camp', dims: [70, 80, 75, 85, 80] }, target_fn: 'consulting' } }] });
+  ok(r.status === 202, 'a signed-in Career Map result is recorded', r.status);
+  r = await m2('GET', '/api/profile');
+  ok(r.status === 200 && r.j.profile.enabled === false && r.j.profile.slug === null && r.j.available.band && r.j.available.band.label === 'High Camp' && r.j.available.band.level === 4 && r.j.available.certificates >= 1 && r.j.available.learning.some(x => x.product === 'the-map' && x.done === x.total),
+    'the profile is off, and the member sees what it could show', r.j);
+  r = await anon('POST', '/api/profile', { enabled: true });
+  ok(r.status === 401, 'switching a profile on needs a session', r.status);
+  r = await m2('POST', '/api/profile', { enabled: true });
+  const slug1 = r.j.profile && r.j.profile.slug;
+  ok(r.status === 200 && r.j.profile.enabled && /^[A-Za-z0-9_-]{14}$/.test(slug1) && r.j.profile.url.endsWith('/p/' + slug1), 'the member switches the profile on and gets a random address', r.j.profile);
+  r = await anon('GET', '/api/profile/' + slug1);
+  const pub = r.j && r.j.profile;
+  ok(r.status === 200 && pub.name.length > 0 && pub.band.label === 'High Camp' && pub.certificates.some(c => c.product === 'the-map' && c.id) && pub.learning.length >= 1 && /max-age=300/.test(r.headers.get('cache-control') || ''), 'anyone with the address reads the profile', pub);
+  ok(!/@|user_id|email|dims|scores|target_fn/.test(r.text) && Object.keys(pub.band).sort().join() === 'date,label,level' && Object.keys(pub).sort().join() === 'band,certificates,learning,name,since,updated_at', 'the public answer holds no address, no account id and no score', r.text.slice(0, 200));
+  r = await anon('GET', '/p/' + slug1);
+  ok(r.status === 200 && r.text.includes('<meta property="og:title" content="') && r.text.includes('Readiness profile · Metanoia Labs</title>') && r.text.includes('window.MT_PROFILE={"slug":"' + slug1 + '"') && /noindex/.test(r.headers.get('x-robots-tag') || '') && !!r.headers.get('content-security-policy'),
+    'the page is served with the name in its title, its data, and the security headers', r.text.slice(0, 160));
+  r = await m2('POST', '/api/profile', { show_band: false, show_certificates: false });
+  r = await anon('GET', '/api/profile/' + slug1);
+  ok(r.status === 200 && r.j.profile.band === null && r.j.profile.certificates.length === 0 && r.j.profile.learning.length >= 1, 'an item the member unticked is not served', r.j.profile);
+  r = await m2('POST', '/api/profile/reset');
+  const slug2 = r.j.profile && r.j.profile.slug;
+  ok(r.status === 200 && slug2 && slug2 !== slug1 && (await anon('GET', '/api/profile/' + slug1)).status === 404 && (await anon('GET', '/api/profile/' + slug2)).status === 200, 'a new address replaces the old one at once', r.j.profile);
+  r = await m2('PATCH', '/api/admin/profiles/' + slug2, { hidden: true });
+  ok(r.status === 401, 'a member cannot take a profile down', r.status);
+  r = await anon('GET', '/api/admin/profiles', undefined, A);
+  ok(r.status === 200 && r.j.profiles.some(x => x.slug === slug2 && x.enabled && !x.hidden), 'the owner sees which profiles are public', r.j.profiles.length);
+  r = await anon('PATCH', '/api/admin/profiles/' + slug2, { hidden: true }, A);
+  ok(r.status === 200 && (await anon('GET', '/api/profile/' + slug2)).status === 404 && (await anon('GET', '/p/' + slug2)).status === 404, 'the owner can take a profile down', r.j);
+  r = await m2('GET', '/api/profile');
+  ok(r.j.profile.hidden_by_admin === true && r.j.profile.enabled === true, 'the member is told, and their own choice is kept', r.j.profile);
+  r = await anon('PATCH', '/api/admin/profiles/' + slug2, { hidden: false }, A);
+  ok(r.status === 200 && (await anon('GET', '/api/profile/' + slug2)).status === 200, 'and put it back', r.j);
+  r = await m2('POST', '/api/profile', { enabled: false });
+  ok(r.status === 200 && r.j.profile.enabled === false && (await anon('GET', '/api/profile/' + slug2)).status === 404, 'switching the profile off closes the address', r.j.profile);
+  ok((await anon('GET', '/api/profile/short')).status === 404 && (await anon('GET', '/api/profile/' + 'A'.repeat(14))).status === 404, 'an unknown or malformed address finds nothing', null);
+  r = await m2('GET', '/api/account/export');
+  ok(r.status === 200 && r.j.public_profile.length === 1 && r.j.public_profile[0].slug === slug2, 'the account export includes the profile settings', r.j.public_profile);
+  r = await anon('GET', '/api/admin/audit?limit=20', undefined, A);
+  ok(r.j.audit.some(a => a.action === 'profile.hide') && r.j.audit.some(a => a.action === 'profile.unhide'), 'taking a profile down is in the audit trail', r.j.audit.length);
+
   /* ── deletion ── */
   r = await m2('POST', '/api/account/delete', { password: 'wrong' });
   ok(r.status === 401, 'deletion needs the password', r.status);

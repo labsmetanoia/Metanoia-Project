@@ -60,7 +60,7 @@ Effort: S (a day or less), M (two to four days), L (a week or more). Priority 1 
 - **Benefits.** More return visits and fewer missed deadlines.
 - **Feasibility.** Calendar files need no server work (S). Web push is free but needs keys, a subscriptions table and, on iPhones, the installed app (M).
 
-### N-06 · Shareable readiness profile (Priority 6)
+### N-06 · Shareable readiness profile (Priority 6) · built 17 November 2026
 
 - **Purpose.** Give members one link that shows what they have achieved, for a CV, LinkedIn or a recruiter.
 - **Key functionality.** An opt-in public page with the member's name, Career Map band, certificates and completed products. The member chooses each item shown and can switch the page off. Share buttons use the phone's share sheet, which reaches WhatsApp.

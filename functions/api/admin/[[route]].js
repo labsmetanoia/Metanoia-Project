@@ -34,6 +34,8 @@
  *   POST  /api/admin/coach/mode  { mode: 'on' | 'off' }            opens the coach to members or closes it
  *   GET   /api/admin/content[.csv]?days=30             lessons: members who completed each one, where members stop, opens and quiz
  *                                                      answers in the window, sample-lesson funnel, certificates per product
+ *   GET   /api/admin/profiles                          public readiness profiles that are on, or taken down by the team
+ *   PATCH /api/admin/profiles/:slug { hidden }         takes a profile down or puts it back
  *   GET   /api/admin/reminders                         push keys set or not, devices and members with reminders on, calendar feeds
  *   POST  /api/admin/reminders/run                     today's reminders for a slice of devices now
  *   GET   /api/admin/notice                            the site-wide notice as stored, and whether it is showing now
@@ -56,6 +58,7 @@ import { cleanNotice, readNotice, saveNotice, noticeLive, createLetter, updateLe
 import { CONTENT_PRODUCTS, loadManifest, contentReport, contentCsvRows } from '../../../server/lib/content.js';
 import { pushConfigured } from '../../../server/lib/push.js';
 import { runReminders, perRun } from '../../../server/lib/reminders.js';
+import { SLUG as PROFILE_SLUG, listProfiles, hideProfile } from '../../../server/lib/profile.js';
 import { coachConfigured, coachMode, setCoachMode, validate as coachValidate, review as coachReview, report as coachReport } from '../../../server/lib/coach.js';
 import { PRODUCTS, PLANS, accessMode, betaEndsAt, listEntitlements, resolveAccess, grantEntitlement, revokeEntitlement, grantFounding } from '../../../server/lib/entitlements.js';
 
@@ -251,6 +254,9 @@ export async function onRequestGet({ request, env, params }) {
     return csvResponse('metanoia-lessons.csv', ['product', 'lesson', 'title', 'members_started_product', 'members_completed_lesson', 'share_of_started', 'opened_in_window', 'completed_in_window', 'quiz_first_answers', 'quiz_wrong_first_try'], contentCsvRows(rp));
   }
 
+  if (route === 'profiles') {
+    try { return json({ ok: true, profiles: await listProfiles(env) }); } catch (e) { return json({ ok: true, profiles: [], pending_migration: true }); }
+  }
   if (route === 'reminders') {
     const one = async q => { try { const r = await env.DB.prepare(q).first(); return r ? r.n : 0; } catch (e) { return null; } };
     const devices = await one('SELECT COUNT(*) AS n FROM push_subscriptions');
@@ -326,6 +332,15 @@ export async function onRequestPatch({ request, env, params }) {
     if (ur.error) return fail(ur.status || 400, ur.error, { field: ur.field });
     await audit(env, g.actor, 'batch.update', ur.batch.id, { label: ur.batch.label, seats: ur.batch.seats, revoked: ur.batch.revoked, withdrawn: ur.withdrawn });
     return json({ ok: true, batch: ur.batch, withdrawn: ur.withdrawn });
+  }
+  if (parts[0] === 'profiles' && parts[1] && parts.length === 2) {
+    /* take a public profile down, or put it back; the member's own on and off is untouched */
+    const pb = (await readJson(request)) || {};
+    if (!PROFILE_SLUG.test(parts[1]) || typeof pb.hidden !== 'boolean') return fail(400, 'hidden must be true or false', { field: 'hidden' });
+    const done = await hideProfile(env, parts[1], pb.hidden).catch(() => false);
+    if (!done) return fail(404, 'no such profile');
+    await audit(env, g.actor, pb.hidden ? 'profile.hide' : 'profile.unhide', parts[1], null);
+    return json({ ok: true, slug: parts[1], hidden: pb.hidden });
   }
   if (parts[0] === 'letters' && parts[1] && parts.length === 2) {
     const ul = await updateLetter(env, clip(parts[1], 64), (await readJson(request, 32 * 1024)) || {}).catch(() => ({ error: 'letters not available', status: 503 }));
