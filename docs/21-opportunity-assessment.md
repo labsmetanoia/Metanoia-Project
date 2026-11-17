@@ -39,7 +39,7 @@ Effort: S (a day or less), M (two to four days), L (a week or more). Priority 1 
 - **Benefits.** Turns the enterprise page into something deliverable. First revenue path that needs no payment integration. Aggregate-only reporting keeps the Data Dignity promise.
 - **Feasibility.** Builds on entitlements and the audit trail. One migration for batches and redemptions. M.
 
-### N-03 · Letters and announcements (Priority 3)
+### N-03 · Letters and announcements (Priority 3) · built 16 November 2026
 
 - **Purpose.** Reach members and subscribers. The beta ends on 22 November and there is no way to tell everyone.
 - **Key functionality.** An admin composer for a bilingual letter with a test send. The Worker sends in daily batches inside the mail caps, with one-click unsubscribe. The same text appears in the portal's Updates panel. A site-wide notice bar the admin can switch on with an end date.

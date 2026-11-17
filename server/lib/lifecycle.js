@@ -167,7 +167,8 @@ export async function unsubscribe(env, kind, id) {
     const r = await env.DB.prepare('UPDATE users SET marketing_opt_in = 0, unsubscribed_at = COALESCE(unsubscribed_at, ?), updated_at = ? WHERE id = ?').bind(now, now, id).run();
     return !!(r.meta && r.meta.changes);
   }
-  const r = await env.DB.prepare("UPDATE leads SET unsubscribed_at = COALESCE(unsubscribed_at, ?), updated_at = ? WHERE id = ? AND kind = 'results'").bind(now, now, id).run();
+  /* a Career Map result (follow-ups) or a newsletter subscription (letters, server/lib/letters.js) */
+  const r = await env.DB.prepare("UPDATE leads SET unsubscribed_at = COALESCE(unsubscribed_at, ?), updated_at = ? WHERE id = ? AND kind IN ('results', 'newsletter')").bind(now, now, id).run();
   return !!(r.meta && r.meta.changes);
 }
 

@@ -73,6 +73,7 @@ export async function purgeDeletions(env, { now = new Date(), dryRun = false } =
       /* on its own, so a database that has not run migration 0008 yet still purges the account */
       await env.DB.prepare('DELETE FROM certificates WHERE user_id = ?').bind(u.id).run().catch(() => {});
       await env.DB.prepare('DELETE FROM access_redemptions WHERE user_id = ?').bind(u.id).run().catch(() => {});
+      await env.DB.prepare('DELETE FROM letter_sends WHERE rcpt = ?').bind('u:' + u.id).run().catch(() => {});
       await env.DB.batch([
         env.DB.prepare('DELETE FROM leads WHERE email = ?').bind(u.email),
         env.DB.prepare('DELETE FROM tokens WHERE user_id = ? OR email = ?').bind(u.id, u.email),

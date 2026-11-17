@@ -52,6 +52,57 @@ async function logMail(env, { cls, kind, ref, to, sent, reason }) {
   }
 }
 
+/**
+ * Many messages in one provider call (Resend batch API, up to 100 messages per call). Letters use it, so a
+ * day's batch costs one outbound request whatever its size, which keeps the Worker inside the free plan's
+ * limit on outbound requests. The provider accepts or rejects the call as a whole; the caller decides what
+ * to do with a rejection. Only accepted messages are written to mail_log.
+ *   messages: [{ to, subject, text, html, headers }]
+ * Without a mail key nothing is sent. MAIL_MOCK=1 (local runs and the end-to-end workflow only) records the
+ * messages as sent so the batch logic can be tested without a provider.
+ */
+export async function sendMailBatch(env, messages, { cls = 'lifecycle', kind = 'letter', ref = null } = {}) {
+  if (!messages || !messages.length) return { sent: 0 };
+  if (messages.length > 100) return { sent: 0, reason: 'batch too large' };
+  let mock = false;
+  if (!env.RESEND_API_KEY) {
+    if (env.MAIL_MOCK !== '1') return { sent: 0, reason: 'mail not configured' };
+    mock = true;
+  } else {
+    try {
+      const from = env.MAIL_FROM || 'Metanoia Labs <hello@metanoialabs.net>';
+      const r = await fetch(RESEND + '/batch', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', authorization: `Bearer ${env.RESEND_API_KEY}` },
+        body: JSON.stringify(messages.map(m => ({ from, to: [m.to], subject: m.subject, text: m.text, html: m.html, headers: m.headers })))
+      });
+      if (!r.ok) {
+        let detail = '';
+        try { detail = (await r.text()).slice(0, 300); } catch (e) {}
+        console.error('resend batch', r.status, detail);
+        return { sent: 0, reason: `provider ${r.status}` };
+      }
+    } catch (e) {
+      console.error('resend unreachable', String(e && e.message || e).slice(0, 200));
+      return { sent: 0, reason: 'provider unreachable' };
+    }
+  }
+  if (env.DB) {
+    try {
+      const now = new Date().toISOString();
+      const stmt = env.DB.prepare('INSERT INTO mail_log (id, class, kind, ref, to_hash, day, status, reason, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)');
+      const rows = [];
+      for (const m of messages) {
+        const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(String(m.to).trim().toLowerCase()));
+        const toHash = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+        rows.push(stmt.bind(crypto.randomUUID().replace(/-/g, ''), cls, kind, ref, toHash, now.slice(0, 10), 'sent', null, now));
+      }
+      await env.DB.batch(rows);
+    } catch (e) { console.error('mail_log', String(e && e.message || e).slice(0, 200)); }
+  }
+  return { sent: messages.length, mock };
+}
+
 const escapeHtml = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 const T = {
