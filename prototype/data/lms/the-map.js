@@ -1009,8 +1009,8 @@ window.MT_LMS['the-map'] = {
         "id": "Akar Efektivitas: Materi"
        },
        "intro": {
-        "en": "After the film, four slides go to the root: effectiveness grows from the inside out, character gives it deep roots, principles matter more than methods, and lasting results come from care rather than shortcuts. Then watch the second film that follows.",
-        "id": "Setelah film, empat slide menggali sampai ke akarnya: efektivitas tumbuh dari dalam ke luar, karakter memberinya akar yang dalam, prinsip lebih penting daripada metode, dan hasil yang bertahan lahir dari perawatan, bukan jalan pintas. Setelah itu, tonton film kedua yang menyusul."
+        "en": "After the film, four slides go to the root: effectiveness grows from the inside out, character gives it deep roots, principles matter more than methods, and lasting results come from care rather than shortcuts.",
+        "id": "Setelah film, empat slide menggali sampai ke akarnya: efektivitas tumbuh dari dalam ke luar, karakter memberinya akar yang dalam, prinsip lebih penting daripada metode, dan hasil yang bertahan lahir dari perawatan, bukan jalan pintas."
        },
        "base": "../../assets/lms/the-map/slides/root-effectiveness-",
        "slides": [
@@ -1066,8 +1066,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tahap-Tahap Kematangan: Materi"
        },
        "intro": {
-        "en": "After the films, five slides trace the path from dependence to independence to interdependence, sum up the private and public victories, and show why changing your paradigms changes your habits, and why those paradigms must align with principles. Then watch the film that follows.",
-        "id": "Setelah film-film itu, lima slide menelusuri jalan dari ketergantungan ke kemandirian lalu ke saling ketergantungan, merangkum kemenangan pribadi dan kemenangan publik, dan menunjukkan kenapa mengubah paradigma akan mengubah kebiasaan, serta kenapa paradigma itu harus selaras dengan prinsip. Setelah itu, tonton film yang menyusul."
+        "en": "Next, five slides trace the path from dependence to independence to interdependence, sum up the private and public victories, and show why changing your paradigms changes your habits, and why those paradigms must align with principles.",
+        "id": "Berikutnya, lima slide menelusuri jalan dari ketergantungan ke kemandirian lalu ke saling ketergantungan, merangkum kemenangan pribadi dan kemenangan publik, dan menunjukkan kenapa mengubah paradigma akan mengubah kebiasaan, serta kenapa paradigma itu harus selaras dengan prinsip."
        },
        "base": "../../assets/lms/the-map/slides/stages-maturity-",
        "slides": [
@@ -1122,63 +1122,6 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
-      }
-     ],
-     "youtube": [
-      {
-       "id": "6RgN7bJgKwQ",
-       "placement": "after-material:1",
-       "kicker": {
-        "en": "Watch · Lesson film",
-        "id": "Tonton · Film pelajaran"
-       },
-       "title": {
-        "en": "The 7 Habits of Highly Effective People",
-        "id": "The 7 Habits of Highly Effective People"
-       },
-       "intro": {
-        "en": "To become the leader of your own life, start by exploring Stephen Covey’s 7 Habits of Highly Effective People and the principles behind personal effectiveness through the video below.",
-        "id": "Untuk menjadi pemimpin atas hidupmu sendiri, mulailah dengan mengenal The 7 Habits of Highly Effective People dari Stephen Covey dan prinsip-prinsip di balik efektivitas pribadi lewat video di bawah ini."
-       }
-      },
-      {
-       "videos": [
-        {
-         "id": "oEOYFOQCcxY"
-        },
-        {
-         "id": "RgK7ef_dgN0"
-        }
-       ],
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch · Lesson film 2",
-        "id": "Tonton · Film pelajaran 2"
-       },
-       "title": {
-        "en": "The 7 Habits of Highly Effective People · Film 2",
-        "id": "The 7 Habits of Highly Effective People · Film 2"
-       },
-       "intro": {
-        "en": "To become the leader of your own life, explore Stephen Covey’s The 7 Habits of Highly Effective People and the principles of personal effectiveness through the videos below.",
-        "id": "Untuk menjadi pemimpin atas hidupmu sendiri, kenali The 7 Habits of Highly Effective People dari Stephen Covey dan prinsip-prinsip efektivitas pribadi lewat video-video di bawah ini."
-       }
-      },
-      {
-       "id": "2Piokr05tt4",
-       "placement": "after-material:3",
-       "kicker": {
-        "en": "Watch · Lesson film 3",
-        "id": "Tonton · Film pelajaran 3"
-       },
-       "title": {
-        "en": "How Your Lens Shapes Your Results · Film 3",
-        "id": "Cara Pandang Membentuk Hasilmu · Film 3"
-       },
-       "intro": {
-        "en": "A film to consolidate the stages of maturity and the paradigm principle before you move on. Play it here, with English or Bahasa Indonesia subtitles where YouTube provides them, then continue to Exhibit 1 below.",
-        "id": "Satu film untuk merangkum tahap-tahap kematangan dan prinsip paradigma sebelum kamu melanjutkan. Putar di sini, dengan teks bahasa Inggris atau Bahasa Indonesia kalau YouTube menyediakannya, lalu lanjutkan ke Gambar 1 di bawah."
-       }
       }
      ],
      "sections": [
@@ -1305,6 +1248,35 @@ window.MT_LMS['the-map'] = {
      "quote": {
       "en": "Every outcome exists twice: once as the design you choose, then as the result you live.",
       "id": "Setiap hasil tercipta dua kali: pertama sebagai rancangan yang kamu pilih, lalu sebagai kenyataan yang kamu jalani."
+     },
+     "videos": [
+      {
+       "src": {
+        "en": "../../assets/lms/films/map-2-1-your-lens-en.mp4",
+        "id": "../../assets/lms/films/map-2-1-your-lens-id.mp4"
+       },
+       "poster": {
+        "en": "../../assets/lms/films/map-2-1-your-lens-en-poster.jpg",
+        "id": "../../assets/lms/films/map-2-1-your-lens-id-poster.jpg"
+       },
+       "dur": {
+        "en": "2:19",
+        "id": "2:12"
+       },
+       "title": {
+        "en": "Your lens: why copied habits fade",
+        "id": "Cara pandangmu: kenapa kebiasaan tiruan cepat layu"
+       }
+      }
+     ],
+     "videosPlacement": "after-material:1",
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows the first slides: Bima, a report finished at two in the morning, and the layer under his habits that no planner could reach. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide pertama: Bima, laporan yang rampung pukul dua dini hari, dan lapisan di bawah kebiasaannya yang tak terjangkau agenda mana pun. Tonton, lalu lanjutkan ke slide berikutnya."
      }
     },
     {
@@ -1476,8 +1448,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pakai Bahasa yang Proaktif: Materi"
        },
        "intro": {
-        "en": "Three slides turn the habit into words: victim language against proactive language, the shaken can against the still bottle when the same pressures hit, and a key summary of one car cutting you off read two ways. Read them, then watch the film that follows.",
-        "id": "Tiga slide mengubah kebiasaan ini menjadi kata-kata: bahasa korban lawan bahasa proaktif, kaleng yang terguncang lawan botol yang tetap tenang saat tekanan yang sama datang, dan ringkasan utama tentang satu mobil yang memotong jalanmu, dibaca dengan dua cara. Baca semuanya, lalu tonton film yang menyusul."
+        "en": "Three slides turn the habit into words: victim language against proactive language, the shaken can against the still bottle when the same pressures hit, and a key summary of one car cutting you off read two ways.",
+        "id": "Tiga slide mengubah kebiasaan ini menjadi kata-kata: bahasa korban lawan bahasa proaktif, kaleng yang terguncang lawan botol yang tetap tenang saat tekanan yang sama datang, dan ringkasan utama tentang satu mobil yang memotong jalanmu, dibaca dengan dua cara."
        },
        "base": "../../assets/lms/the-map/slides/proactive-language-",
        "slides": [
@@ -1523,8 +1495,8 @@ window.MT_LMS['the-map'] = {
         "id": "Lingkaran Pengaruh: Materi"
        },
        "intro": {
-        "en": "After the film, four slides draw the two circles: the Circle of Concern you worry about but cannot control, the Circle of Influence you can act on, what happens when you spend your energy there, and how that makes you a Transition Person for the people around you. Read them, then watch the film that follows.",
-        "id": "Setelah film, empat slide menggambar dua lingkaran: Lingkaran Kepedulian yang kamu khawatirkan tetapi tidak bisa kamu kendalikan, Lingkaran Pengaruh yang bisa kamu garap, apa yang terjadi saat kamu mencurahkan energi di sana, dan bagaimana hal itu menjadikanmu Pribadi Peralihan bagi orang-orang di sekitarmu. Baca semuanya, lalu tonton film yang menyusul."
+        "en": "Next, four slides draw the two circles: the Circle of Concern you worry about but cannot control, the Circle of Influence you can act on, what happens when you spend your energy there, and how that makes you a Transition Person for the people around you.",
+        "id": "Berikutnya, empat slide menggambar dua lingkaran: Lingkaran Kepedulian yang kamu khawatirkan tetapi tidak bisa kamu kendalikan, Lingkaran Pengaruh yang bisa kamu garap, apa yang terjadi saat kamu mencurahkan energi di sana, dan bagaimana hal itu menjadikanmu Pribadi Peralihan bagi orang-orang di sekitarmu."
        },
        "base": "../../assets/lms/the-map/slides/circle-influence-",
        "slides": [
@@ -1580,8 +1552,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kekuatan Kebiasaan Belajar: Materi"
        },
        "intro": {
-        "en": "After the film, five slides turn ownership towards how you learn: why learning habits decide how fast you adapt, six myths and truths to test, the three families of effective learning behaviours, the full wheel of those behaviours, and the module’s key takeaways. Read them, then watch the video that follows.",
-        "id": "Setelah film, lima slide mengarahkan rasa memiliki pada caramu belajar: kenapa kebiasaan belajar menentukan seberapa cepat kamu beradaptasi, enam mitos dan fakta untuk diuji, tiga kelompok perilaku belajar yang efektif, roda lengkap perilaku-perilaku itu, dan poin penting modul ini. Baca semuanya, lalu tonton video yang menyusul."
+        "en": "Next, five slides turn ownership towards how you learn: why learning habits decide how fast you adapt, six myths and truths to test, the three families of effective learning behaviours, the full wheel of those behaviours, and the module’s key takeaways.",
+        "id": "Berikutnya, lima slide mengarahkan rasa memiliki pada caramu belajar: kenapa kebiasaan belajar menentukan seberapa cepat kamu beradaptasi, enam mitos dan fakta untuk diuji, tiga kelompok perilaku belajar yang efektif, roda lengkap perilaku-perilaku itu, dan poin penting modul ini."
        },
        "base": "../../assets/lms/the-map/slides/learning-habits-",
        "slides": [
@@ -1647,8 +1619,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kebiasaan yang Sehat: Materi"
        },
        "intro": {
-        "en": "After the film, eleven slides make healthy learning habits practical: the three behaviour families in depth (preparation, execution, reflection), how a behaviour becomes a habit, the habit loop, the habits worth unlearning, how to maintain the ones that serve you, a workbook plan, and the takeaways. Read them, then continue to the lesson below.",
-        "id": "Setelah film, sebelas slide membuat kebiasaan belajar yang sehat jadi praktis: tiga kelompok perilaku secara mendalam (persiapan, pelaksanaan, refleksi), cara sebuah perilaku menjadi kebiasaan, habit loop, kebiasaan yang perlu ditinggalkan, cara merawat kebiasaan yang berguna bagimu, rencana di buku kerja, dan poin-poin pentingnya. Baca semuanya, lalu lanjutkan ke pelajaran di bawah."
+        "en": "Next, eleven slides make healthy learning habits practical: the three behaviour families in depth (preparation, execution, reflection), how a behaviour becomes a habit, the habit loop, the habits worth unlearning, how to maintain the ones that serve you, a workbook plan, and the takeaways. Read them, then continue to the lesson below.",
+        "id": "Berikutnya, sebelas slide membuat kebiasaan belajar yang sehat jadi praktis: tiga kelompok perilaku secara mendalam (persiapan, pelaksanaan, refleksi), cara sebuah perilaku menjadi kebiasaan, habit loop, kebiasaan yang perlu ditinggalkan, cara merawat kebiasaan yang berguna bagimu, rencana di buku kerja, dan poin-poin pentingnya. Baca semuanya, lalu lanjutkan ke pelajaran di bawah."
        },
        "base": "../../assets/lms/the-map/slides/healthy-habits-",
        "slides": [
@@ -1765,95 +1737,34 @@ window.MT_LMS['the-map'] = {
        ]
       }
      ],
-     "youtube": [
-      {
-       "id": "FfsxUowcrig",
-       "placement": "after-material:1",
-       "kicker": {
-        "en": "Watch · Lesson film",
-        "id": "Tonton · Film pelajaran"
-       },
-       "title": {
-        "en": "Acting Inside Your Control: Film",
-        "id": "Bertindak di Dalam Kendalimu: Film"
-       },
-       "intro": {
-        "en": "After the slides, watch the film below to see the ideas of this lesson in motion: the space between stimulus and response, taking responsibility for what you can control, and the pause-and-respond habit that turns ownership into daily practice.",
-        "id": "Setelah slide, tonton film di bawah untuk melihat gagasan pelajaran ini bergerak: ruang di antara stimulus dan respons, bertanggung jawab atas apa yang bisa kamu kendalikan, dan kebiasaan jeda-lalu-merespons yang mengubah rasa memiliki menjadi praktik sehari-hari."
-       }
-      },
-      {
-       "id": "_5gHjRwOkU4",
-       "placement": "after-material:3",
-       "kicker": {
-        "en": "Watch · Lesson film 2",
-        "id": "Tonton · Film pelajaran 2"
-       },
-       "title": {
-        "en": "Use Proactive Language: Film",
-        "id": "Pakai Bahasa yang Proaktif: Film"
-       },
-       "intro": {
-        "en": "After the slides, watch the film below to hear proactive language in use: how the words you choose open the space between stimulus and response, and how they shape your mindset, your actions and your future.",
-        "id": "Setelah slide, tonton film di bawah untuk mendengar bahasa proaktif dipakai: bagaimana kata-kata yang kamu pilih membuka ruang di antara stimulus dan respons, dan bagaimana kata-kata itu membentuk pola pikir, tindakan, dan masa depanmu."
-       }
-      },
-      {
-       "id": "CVa5osoY_Z0",
-       "placement": "after-material:4",
-       "kicker": {
-        "en": "Watch · Lesson film 3",
-        "id": "Tonton · Film pelajaran 3"
-       },
-       "title": {
-        "en": "Circle of Influence: Film",
-        "id": "Lingkaran Pengaruh: Film"
-       },
-       "intro": {
-        "en": "After the slides, watch the film below to see the two circles at work: where energy spent on the Circle of Concern drains away, how focusing on the Circle of Influence makes it grow, and what it looks like to become a Transition Person for the people around you.",
-        "id": "Setelah slide, tonton film di bawah untuk melihat dua lingkaran itu bekerja: bagaimana energi yang dicurahkan pada Lingkaran Kepedulian terkuras habis, bagaimana fokus pada Lingkaran Pengaruh membuatnya tumbuh, dan seperti apa menjadi Pribadi Peralihan bagi orang-orang di sekitarmu."
-       }
-      },
-      {
-       "id": "7yMh2QNRc_M",
-       "placement": "after-material:5",
-       "kicker": {
-        "en": "Watch · Lesson film 4",
-        "id": "Tonton · Film pelajaran 4"
-       },
-       "title": {
-        "en": "The Power of Learning Habits: Film",
-        "id": "Kekuatan Kebiasaan Belajar: Film"
-       },
-       "intro": {
-        "en": "After the lesson video, watch this short film to take the idea one step further: how a habit is built, why small repeated actions beat bursts of motivation, and what it takes to make a good learning habit stick. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
-        "id": "Setelah video pelajaran, tonton film singkat ini untuk membawa gagasannya selangkah lebih jauh: bagaimana sebuah kebiasaan dibangun, kenapa tindakan kecil yang diulang mengalahkan ledakan motivasi sesaat, dan apa yang dibutuhkan supaya kebiasaan belajar yang baik benar-benar melekat. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia kalau YouTube menyediakannya. Setelah selesai, lanjutkan ke slide berikutnya."
-       }
-      }
-     ],
      "videos": [
       {
-       "src": "../../assets/lms/the-map/learning-habits.mp4",
-       "poster": "../../assets/lms/the-map/learning-habits-poster.jpg",
-       "dur": "3:41",
-       "title": {
-        "en": "The Power of Learning Habits",
-        "id": "Kekuatan Kebiasaan Belajar"
+       "src": {
+        "en": "../../assets/lms/films/map-2-2-the-gap-en.mp4",
+        "id": "../../assets/lms/films/map-2-2-the-gap-id.mp4"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/learning-habits-en.vtt",
-        "id": "../../assets/lms/the-map/learning-habits-id.vtt"
+       "poster": {
+        "en": "../../assets/lms/films/map-2-2-the-gap-en-poster.jpg",
+        "id": "../../assets/lms/films/map-2-2-the-gap-id-poster.jpg"
+       },
+       "dur": {
+        "en": "2:02",
+        "id": "1:49"
+       },
+       "title": {
+        "en": "The gap: acting inside your control",
+        "id": "Celah itu: bertindak di dalam kendalimu"
        }
       }
      ],
-     "videosPlacement": "after-material:5",
+     "videosPlacement": "after-material:1",
      "videosKicker": {
-      "en": "Watch next · Lesson video",
-      "id": "Tonton berikutnya · Video pelajaran"
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "The slides asked you to watch the video after them. Here it is: one day in the life of someone whose learning habits are working for him, and a few that are not. Watch for the habit loop, the moments of reflection, and the plan he ends up with. Subtitles are available in English and Bahasa Indonesia. When it ends, continue to the film that follows.",
-      "id": "Slide tadi memintamu menonton video sesudahnya. Inilah videonya: satu hari dalam hidup seseorang yang kebiasaan belajarnya bekerja untuknya, juga beberapa kebiasaan yang tidak. Perhatikan habit loop-nya, momen-momen refleksinya, dan rencana yang akhirnya ia susun. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia. Setelah selesai, lanjutkan ke film berikutnya."
+      "en": "One short film follows the first slides: Sinta, a message at ten at night, and the two seconds in which she chooses her reply. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide pertama: Sinta, sebuah pesan pukul sepuluh malam, dan dua detik ketika ia memilih balasannya. Tonton, lalu lanjutkan ke slide berikutnya."
      },
      "sections": [
       {
@@ -2112,8 +2023,8 @@ window.MT_LMS['the-map'] = {
         "id": "Misi Pribadi: Materi"
        },
        "intro": {
-        "en": "After the film, four slides turn the outcome inward: what a personal mission is and three ways to think about it, the 80th-birthday reflection, one question about your one wild and precious life, and a closing reminder not to waste it. Read them, then watch the two films that follow.",
-        "id": "Setelah film, empat slide mengarahkan hasil akhir ke dalam dirimu: apa itu misi pribadi dan tiga cara memikirkannya, renungan ulang tahun ke-80, satu pertanyaan tentang satu-satunya hidupmu yang liar dan berharga, dan pengingat penutup supaya hidup itu tidak tersia-sia. Baca semuanya, lalu tonton dua film yang menyusul."
+        "en": "After the film, four slides turn the outcome inward: what a personal mission is and three ways to think about it, the 80th-birthday reflection, one question about your one wild and precious life, and a closing reminder not to waste it.",
+        "id": "Setelah film, empat slide mengarahkan hasil akhir ke dalam dirimu: apa itu misi pribadi dan tiga cara memikirkannya, renungan ulang tahun ke-80, satu pertanyaan tentang satu-satunya hidupmu yang liar dan berharga, dan pengingat penutup supaya hidup itu tidak tersia-sia."
        },
        "base": "../../assets/lms/the-map/slides/personal-mission-",
        "slides": [
@@ -2169,8 +2080,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pernyataan Misi Pribadi: Materi"
        },
        "intro": {
-        "en": "After the films, three slides bring it to the page: what a good mission statement is made of, how to prepare for a five-minute first draft of your own, and a summary of why a written mission works as a constitution for your decisions. Read them, then watch the film that follows.",
-        "id": "Setelah film-film itu, tiga slide membawanya ke atas kertas: apa saja isi pernyataan misi yang baik, cara bersiap menulis draf pertamamu dalam lima menit, dan ringkasan kenapa misi yang tertulis bekerja seperti konstitusi bagi keputusan-keputusanmu. Baca semuanya, lalu tonton film yang menyusul."
+        "en": "Next, three slides bring it to the page: what a good mission statement is made of, how to prepare for a five-minute first draft of your own, and a summary of why a written mission works as a constitution for your decisions.",
+        "id": "Berikutnya, tiga slide membawanya ke atas kertas: apa saja isi pernyataan misi yang baik, cara bersiap menulis draf pertamamu dalam lima menit, dan ringkasan kenapa misi yang tertulis bekerja seperti konstitusi bagi keputusan-keputusanmu."
        },
        "base": "../../assets/lms/the-map/slides/mission-statement-",
        "slides": [
@@ -2205,72 +2116,6 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
-      }
-     ],
-     "youtube": [
-      {
-       "id": "BxaJ_YjkWpA",
-       "placement": "after-material:1",
-       "kicker": {
-        "en": "Watch · Lesson film",
-        "id": "Tonton · Film pelajaran"
-       },
-       "title": {
-        "en": "Designing the Outcome First: Film",
-        "id": "Merancang Hasil Akhir Lebih Dulu: Film"
-       },
-       "intro": {
-        "en": "After the slides, watch this short film to see the idea in motion: why beginning with the end in mind changes the steps you take today, and how defining the outcome first turns intention into results. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
-        "id": "Setelah slide, tonton film singkat ini untuk melihat gagasannya bergerak: kenapa memulai dengan tujuan akhir dalam pikiran mengubah langkah yang kamu ambil hari ini, dan bagaimana merumuskan hasil lebih dulu mengubah niat menjadi hasil. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia kalau YouTube menyediakannya. Setelah selesai, lanjutkan ke slide berikutnya."
-       }
-      },
-      {
-       "id": "nWj5f7sLtUs",
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch · Lesson film 2",
-        "id": "Tonton · Film pelajaran 2"
-       },
-       "title": {
-        "en": "Personal Mission: Film 1",
-        "id": "Misi Pribadi: Film 1"
-       },
-       "intro": {
-        "en": "The slides asked you to watch the next video with your 80th birthday in mind. Here it is: as you watch, imagine what you would want your family, friends and colleagues to say about you, and note what belongs in your personal mission statement. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the second film below.",
-        "id": "Slide tadi memintamu menonton video berikutnya sambil membayangkan ulang tahunmu yang ke-80. Inilah videonya. Sambil menonton, bayangkan apa yang ingin kamu dengar dari keluarga, teman, dan rekan kerjamu tentang dirimu, lalu catat apa saja yang layak masuk ke pernyataan misi pribadimu. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia kalau YouTube menyediakannya. Setelah selesai, lanjutkan ke film kedua di bawah."
-       }
-      },
-      {
-       "id": "FEH27urHwvg",
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch · Lesson film 3",
-        "id": "Tonton · Film pelajaran 3"
-       },
-       "title": {
-        "en": "Personal Mission: Film 2",
-        "id": "Misi Pribadi: Film 2"
-       },
-       "intro": {
-        "en": "A second film to close the material: what it looks like to live by a personal mission, and why purposeful use of your time is the difference between a busy life and a meaningful one. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
-        "id": "Film kedua untuk menutup materi ini: seperti apa hidup yang dijalani sesuai misi pribadi, dan kenapa memakai waktu dengan penuh tujuan membedakan hidup yang sibuk dari hidup yang bermakna. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia kalau YouTube menyediakannya. Setelah selesai, lanjutkan ke slide berikutnya."
-       }
-      },
-      {
-       "id": "fQOTnldSrRg",
-       "placement": "after-material:3",
-       "kicker": {
-        "en": "Watch · Lesson film 4",
-        "id": "Tonton · Film pelajaran 4"
-       },
-       "title": {
-        "en": "Personal Mission Statement: Film",
-        "id": "Pernyataan Misi Pribadi: Film"
-       },
-       "intro": {
-        "en": "The slides asked you to draft your own mission statement after the video. Here it is: watch it, then take five minutes to write a first draft. Relax, keep writing, find a quiet space, and have courage. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
-        "id": "Slide tadi memintamu menulis draf pernyataan misimu sendiri setelah video ini. Inilah videonya. Tonton, lalu luangkan lima menit untuk menulis draf pertama. Santai saja, terus menulis, cari tempat yang tenang, dan beranilah. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia kalau YouTube menyediakannya. Setelah selesai, lanjutkan ke Gambar 1 di bawah."
-       }
       }
      ],
      "sections": [
@@ -2403,7 +2248,36 @@ window.MT_LMS['the-map'] = {
         "id": "Ranah, level, artefak bukti, dan batas yang dijaga semuanya disebut, sehingga setiap rentang waktu di belakangnya sekarang bisa diturunkan."
        }
       }
-     ]
+     ],
+     "videos": [
+      {
+       "src": {
+        "en": "../../assets/lms/films/map-2-3-design-first-en.mp4",
+        "id": "../../assets/lms/films/map-2-3-design-first-id.mp4"
+       },
+       "poster": {
+        "en": "../../assets/lms/films/map-2-3-design-first-en-poster.jpg",
+        "id": "../../assets/lms/films/map-2-3-design-first-id-poster.jpg"
+       },
+       "dur": {
+        "en": "1:59",
+        "id": "1:54"
+       },
+       "title": {
+        "en": "Design first: a career by design, not by first offer",
+        "id": "Rancang dulu: karier karena rancangan, bukan tawaran pertama"
+       }
+      }
+     ],
+     "videosPlacement": "after-material:1",
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows the first slides: Yoga, a first job offer, and the question that stops him from saying yes too soon. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide pertama: Yoga, tawaran kerja pertamanya, dan pertanyaan yang menahannya agar tidak terlalu cepat mengiyakan. Tonton, lalu lanjutkan ke slide berikutnya."
+     }
     },
     {
      "n": "2.4",
@@ -2537,8 +2411,8 @@ window.MT_LMS['the-map'] = {
         "id": "Prioritas Utamamu: Materi"
        },
        "intro": {
-        "en": "After the film, five slides turn the matrix into a weekly practice: why freeing Quadrant 2 time creates space to reflect on your Big Rocks, how those Big Rocks map onto your life roles, the habit of planning every week, the three steps of weekly planning, and a summary. Read them, then continue to the two films below.",
-        "id": "Setelah film, lima slide mengubah matriks itu menjadi kebiasaan mingguan: kenapa membebaskan waktu Kuadran 2 memberi ruang untuk merenungkan Batu Besarmu, bagaimana Batu Besar itu terhubung dengan peran-peran hidupmu, kebiasaan merencanakan setiap minggu, tiga langkah perencanaan mingguan, dan ringkasannya. Baca semuanya, lalu lanjutkan ke dua film di bawah."
+        "en": "After the film, five slides turn the matrix into a weekly practice: why freeing Quadrant 2 time creates space to reflect on your Big Rocks, how those Big Rocks map onto your life roles, the habit of planning every week, the three steps of weekly planning, and a summary.",
+        "id": "Setelah film, lima slide mengubah matriks itu menjadi kebiasaan mingguan: kenapa membebaskan waktu Kuadran 2 memberi ruang untuk merenungkan Batu Besarmu, bagaimana Batu Besar itu terhubung dengan peran-peran hidupmu, kebiasaan merencanakan setiap minggu, tiga langkah perencanaan mingguan, dan ringkasannya."
        },
        "base": "../../assets/lms/the-map/slides/top-priorities-",
        "slides": [
@@ -2604,8 +2478,8 @@ window.MT_LMS['the-map'] = {
         "id": "Saat Harus Memilih: Materi"
        },
        "intro": {
-        "en": "After the films, four slides close the sequence: what happens when the week you planned meets the pressures of the moment, a scenario to test yourself on, a worked example of protecting a Big Rock, and the summary of the private victory. Read them, then continue to Exhibit 1 below.",
-        "id": "Setelah film-film itu, empat slide menutup rangkaian ini: apa yang terjadi saat minggu yang sudah kamu rencanakan bertemu tekanan saat itu, satu skenario untuk menguji dirimu, contoh nyata melindungi sebuah Batu Besar, dan ringkasan kemenangan pribadi. Baca semuanya, lalu lanjutkan ke Gambar 1 di bawah."
+        "en": "Next, four slides close the sequence: what happens when the week you planned meets the pressures of the moment, a scenario to test yourself on, a worked example of protecting a Big Rock, and the summary of the private victory. Read them, then continue to Exhibit 1 below.",
+        "id": "Berikutnya, empat slide menutup rangkaian ini: apa yang terjadi saat minggu yang sudah kamu rencanakan bertemu tekanan saat itu, satu skenario untuk menguji dirimu, contoh nyata melindungi sebuah Batu Besar, dan ringkasan kemenangan pribadi. Baca semuanya, lalu lanjutkan ke Gambar 1 di bawah."
        },
        "base": "../../assets/lms/the-map/slides/moment-of-choice-",
        "slides": [
@@ -2650,56 +2524,6 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
-      }
-     ],
-     "youtube": [
-      {
-       "id": "q0BMuv1DZrI",
-       "placement": "after-material:1",
-       "kicker": {
-        "en": "Watch · Lesson film 1",
-        "id": "Tonton · Film pelajaran 1"
-       },
-       "title": {
-        "en": "Time Matrix: Film",
-        "id": "Matriks Waktu: Film"
-       },
-       "intro": {
-        "en": "After the slides, watch this short film to see the Time Matrix in motion: how urgent and important pull in different directions, why careers are built in the important-but-not-urgent quadrant, and what it takes to defend that time every week. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
-        "id": "Setelah slide, tonton film singkat ini untuk melihat Matriks Waktu bergerak: bagaimana yang mendesak dan yang penting menarik ke arah yang berbeda, kenapa karier dibangun di kuadran penting-tapi-tidak-mendesak, dan apa yang dibutuhkan untuk melindungi waktu itu setiap minggu. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia kalau YouTube menyediakannya. Setelah selesai, lanjutkan ke slide berikutnya."
-       }
-      },
-      {
-       "id": "zV3gMTOEWt8",
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch · Lesson film 2",
-        "id": "Tonton · Film pelajaran 2"
-       },
-       "title": {
-        "en": "Your Top Priorities: Film 1",
-        "id": "Prioritas Utamamu: Film 1"
-       },
-       "intro": {
-        "en": "The slides pointed to a video about putting the Big Rocks in first. Watch it now with your own Big Rocks in mind: which one or two things in each of your roles deserve a place on the calendar before anything else this week? Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the second film that follows.",
-        "id": "Slide tadi menunjuk sebuah video tentang memasukkan Batu Besar lebih dulu. Tonton sekarang sambil memikirkan Batu Besarmu sendiri: satu atau dua hal apa di setiap peranmu yang layak masuk kalender sebelum hal lain minggu ini? Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia kalau YouTube menyediakannya. Setelah selesai, lanjutkan ke film kedua berikutnya."
-       }
-      },
-      {
-       "id": "66bB7dZEXuw",
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch · Lesson film 3",
-        "id": "Tonton · Film pelajaran 3"
-       },
-       "title": {
-        "en": "Your Top Priorities: Film 2",
-        "id": "Prioritas Utamamu: Film 2"
-       },
-       "intro": {
-        "en": "A second short film to close the slides: from Big Rocks to the weekly plan that protects them. As you watch, decide when in the coming week you will sit down to plan, and where your Big Rocks will go. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
-        "id": "Film singkat kedua untuk menutup slide: dari Batu Besar ke rencana mingguan yang melindunginya. Sambil menonton, putuskan kapan minggu depan kamu akan duduk untuk merencanakan, dan di mana Batu Besarmu akan ditempatkan. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia kalau YouTube menyediakannya. Setelah selesai, lanjutkan ke slide berikutnya."
-       }
       }
      ],
      "sections": [
@@ -2854,7 +2678,36 @@ window.MT_LMS['the-map'] = {
         "id": "Persahabatan dan wawancara sama-sama penting. Format penolakan yang santun melindungi prioritas yang sudah dijadwalkan, sambil tetap sungguh-sungguh menjaga hubungan lewat alternatif yang nyata."
        }
       }
-     ]
+     ],
+     "videos": [
+      {
+       "src": {
+        "en": "../../assets/lms/films/map-2-4-important-not-urgent-en.mp4",
+        "id": "../../assets/lms/films/map-2-4-important-not-urgent-id.mp4"
+       },
+       "poster": {
+        "en": "../../assets/lms/films/map-2-4-important-not-urgent-en-poster.jpg",
+        "id": "../../assets/lms/films/map-2-4-important-not-urgent-id-poster.jpg"
+       },
+       "dur": {
+        "en": "2:10",
+        "id": "2:08"
+       },
+       "title": {
+        "en": "Important, not urgent: defending the work that builds a career",
+        "id": "Penting, tidak mendesak: melindungi pekerjaan yang membangun karier"
+       }
+      }
+     ],
+     "videosPlacement": "after-material:1",
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows the first slides: Rani, a week of answered pings, and the twenty minutes that give her Thursday evenings back. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide pertama: Rani, seminggu penuh notifikasi yang dibalas, dan dua puluh menit yang mengembalikan Kamis malamnya. Tonton, lalu lanjutkan ke slide berikutnya."
+     }
     }
    ],
    "hero": "../../assets/bg/stage-foundation.jpg",

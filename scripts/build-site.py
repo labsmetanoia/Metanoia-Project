@@ -978,8 +978,10 @@ def relocate_media():
     """Cloudflare Pages build: serve the lesson media (prototype/assets/lms, about 2 GB,
     some files over Pages' 25 MiB limit) from R2 instead of the Pages artifact.
     MEDIA_BASE=https://media.metanoialabs.net  rewrites every assets/lms/ reference in the
-    LMS registries to that host; MEDIA_PRUNE=1 (set automatically on Pages, where CF_PAGES
-    is defined) then drops the folder from the output. Both are no-ops locally and on GitHub Pages."""
+    lesson data and the product scripts to that host; MEDIA_PRUNE=1 (set automatically on Pages,
+    where CF_PAGES is defined) then drops the folder from the output. Both are no-ops locally and on
+    GitHub Pages. It runs after the registries are split, so it must reach the split files too:
+    scripts/check-media-refs.py fails the integrity check when a reference would be left behind."""
     base = os.environ.get('MEDIA_BASE', '').rstrip('/')
     if not base:
         if os.environ.get('CF_PAGES'):
@@ -989,16 +991,22 @@ def relocate_media():
         return
     pat = re.compile(r'(?:\.\./)*assets/lms/')
     n = 0
-    for name in sorted(os.listdir(os.path.join(PROTO, 'data', 'lms'))):
-        if not name.endswith('.js'):
-            continue
-        p = os.path.join(PROTO, 'data', 'lms', name)
-        with open(p, encoding='utf-8') as fh:
-            src = fh.read()
-        out, k = pat.subn(base + '/lms/', src)
-        if k:
-            write(p, out)
-            n += k
+    # Every file that names lesson media: the registries, the split index and per-lesson files the
+    # pages actually load (data/lms/<slug>/index.js and lessons/<n>.json), and product scripts.
+    for root_rel in (os.path.join('data', 'lms'), 'products'):
+        for dirpath, _dirs, files in os.walk(os.path.join(PROTO, root_rel)):
+            for name in sorted(files):
+                if not name.endswith(('.js', '.json', '.html')):
+                    continue
+                p = os.path.join(dirpath, name)
+                with open(p, encoding='utf-8') as fh:
+                    src = fh.read()
+                if 'assets/lms/' not in src:
+                    continue
+                out, k = pat.subn(base + '/lms/', src)
+                if k:
+                    write(p, out)
+                    n += k
     print(f'media: {n} references now point at {base}/lms/')
     if os.environ.get('MEDIA_PRUNE') == '1' or os.environ.get('CF_PAGES'):
         d = os.path.join(PROTO, 'assets', 'lms')

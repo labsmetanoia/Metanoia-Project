@@ -1,0 +1,366 @@
+{
+  "id": "map-2-3-design-first",
+  "product": {
+    "en": "The Map",
+    "id": "The Map"
+  },
+  "lesson": "2.3",
+  "title": {
+    "en": "Design first: a career by design, not by first offer",
+    "id": "Rancang dulu: karier karena rancangan, bukan tawaran pertama"
+  },
+  "sources": "Written for this lesson from its own objectives and reading: a mission that names contribution instead of titles, a three-year outcome with four parts, and the default scripts that run a career nobody designed. The ideas are long-established and taught here in the lesson's own words. The story and the character are invented. No third-party script, footage, picture or sound.",
+  "scenes": [
+    {
+      "type": "title",
+      "hold": 4.5,
+      "kicker": {
+        "en": "The Map · Lesson 2.3",
+        "id": "The Map · Pelajaran 2.3"
+      },
+      "title": {
+        "en": "*Design* first",
+        "id": "*Rancang* dulu"
+      },
+      "sub": {
+        "en": "Designing the outcome first",
+        "id": "Merancang hasil akhir lebih dulu"
+      }
+    },
+    {
+      "type": "story",
+      "set": "desk",
+      "opts": {
+        "sky": "sun",
+        "day": {
+          "en": "FRI",
+          "id": "JUM"
+        },
+        "date": "21",
+        "mail": 0,
+        "who": {
+          "hair": "short",
+          "shirt": "#2FA7A0"
+        },
+        "moods": [
+          "smile",
+          "smile",
+          "think"
+        ]
+      },
+      "tag": {
+        "en": "The first offer",
+        "id": "Tawaran pertama"
+      },
+      "keys": [
+        {
+          "en": "Yoga gets *an offer*.",
+          "id": "Yoga menerima *tawaran kerja*."
+        },
+        {
+          "en": "It came first. So he is about to say yes.",
+          "id": "Datang paling dulu. Jadi ia hampir mengiyakan."
+        },
+        {
+          "en": "*Whose script* is this line from?",
+          "id": "Kalimat ini dari *naskah siapa*?"
+        }
+      ],
+      "say": [
+        {
+          "en": "Friday. Yoga opens his inbox and finds a job offer. His first.",
+          "id": "Jumat. Yoga membuka kotak masuk dan menemukan tawaran kerja. Yang pertama."
+        },
+        {
+          "en": "He is about to accept. Not because it fits, but because it came first.",
+          "id": "Ia hampir menerimanya. Bukan karena cocok, melainkan karena datang paling dulu."
+        },
+        {
+          "en": "One question stops him. Whose script is this line from?",
+          "id": "Satu pertanyaan menghentikannya. Kalimat ini berasal dari naskah siapa?"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": {
+        "en": "Three scripts that run a career by default",
+        "id": "Tiga naskah bawaan yang menjalankan karier"
+      },
+      "footAt": 3,
+      "foot": {
+        "en": "None is malicious. They are just *unauthored*.",
+        "id": "Tak satu pun berniat buruk. Hanya saja *bukan kamu penulisnya*."
+      },
+      "cards": [
+        {
+          "at": 0,
+          "h": {
+            "en": "Inheritance",
+            "id": "Warisan"
+          },
+          "p": {
+            "en": "Study and join what the family respects.",
+            "id": "Kuliah dan bekerja di tempat yang dihormati keluarga."
+          }
+        },
+        {
+          "at": 1,
+          "h": {
+            "en": "The feed",
+            "id": "Linimasa"
+          },
+          "p": {
+            "en": "Chase the role that is trending this year.",
+            "id": "Kejar peran yang sedang tren tahun ini."
+          }
+        },
+        {
+          "at": 2,
+          "hot": true,
+          "h": {
+            "en": "First offer",
+            "id": "Tawaran pertama"
+          },
+          "p": {
+            "en": "Accept whoever says yes first.",
+            "id": "Terima siapa pun yang lebih dulu bilang ya."
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Without a design, three scripts compete to run a career. The inheritance script: what the family respects.",
+          "id": "Tanpa rancangan, ada tiga naskah yang berebut menjalankan karier. Naskah warisan: apa yang dihormati keluarga."
+        },
+        {
+          "en": "The feed script: whatever is trending this year.",
+          "id": "Naskah linimasa: apa pun yang sedang tren tahun ini."
+        },
+        {
+          "en": "And the first-offer script: whoever says yes first.",
+          "id": "Dan naskah tawaran pertama: siapa pun yang lebih dulu bilang ya."
+        },
+        {
+          "en": "None of them is malicious. They are just unauthored.",
+          "id": "Tak satu pun berniat buruk. Hanya saja bukan kamu penulisnya."
+        }
+      ]
+    },
+    {
+      "type": "notes",
+      "kicker": {
+        "en": "A mission names contribution, not titles",
+        "id": "Misi menyebut kontribusi, bukan jabatan"
+      },
+      "notes": [
+        {
+          "at": 0,
+          "strikeAt": 1,
+          "label": {
+            "en": "A title",
+            "id": "Jabatan"
+          },
+          "text": {
+            "en": "I want to be a manager at a big company.",
+            "id": "Aku ingin jadi manajer di perusahaan besar."
+          }
+        },
+        {
+          "at": 2,
+          "label": {
+            "en": "A contribution",
+            "id": "Kontribusi"
+          },
+          "text": {
+            "en": "I help small businesses *understand their own numbers*.",
+            "id": "Aku membantu usaha kecil *memahami angka-angka mereka sendiri*."
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "So he designs first. His first mission sentence names a title.",
+          "id": "Maka ia merancang lebih dulu. Kalimat misi pertamanya menyebut jabatan."
+        },
+        {
+          "en": "A title is not a direction.",
+          "id": "Jabatan bukanlah arah."
+        },
+        {
+          "en": "The rewrite names a contribution: I help small businesses understand their own numbers.",
+          "id": "Versi barunya menyebut kontribusi: aku membantu usaha kecil memahami angka-angka mereka sendiri."
+        }
+      ]
+    },
+    {
+      "type": "loop",
+      "kicker": {
+        "en": "From mission to a 3-year outcome",
+        "id": "Dari misi ke hasil 3 tahun"
+      },
+      "centre": {
+        "en": "Three years",
+        "id": "Tiga tahun"
+      },
+      "centreSub": {
+        "en": "planned backwards",
+        "id": "direncanakan mundur"
+      },
+      "steps": [
+        {
+          "h": {
+            "en": "A domain",
+            "id": "Ranah"
+          },
+          "p": {
+            "en": "finance for small businesses",
+            "id": "keuangan untuk usaha kecil"
+          }
+        },
+        {
+          "h": {
+            "en": "A level",
+            "id": "Level"
+          },
+          "p": {
+            "en": "trusted with a client's books, start to finish",
+            "id": "dipercaya memegang pembukuan klien sampai tuntas"
+          }
+        },
+        {
+          "h": {
+            "en": "Evidence",
+            "id": "Artefak bukti"
+          },
+          "p": {
+            "en": "five client reports I built myself",
+            "id": "lima laporan klien yang kususun sendiri"
+          }
+        },
+        {
+          "h": {
+            "en": "A line I will not cross",
+            "id": "Batas yang pantang dilanggar"
+          },
+          "p": {
+            "en": "no work that costs my health",
+            "id": "tak ada kerja yang mengorbankan kesehatan"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "A mission is a compass. It needs a first landmark: one outcome, three years out, with four parts.",
+          "id": "Misi adalah kompas. Kompas butuh penanda pertama: satu hasil, tiga tahun dari sekarang, dengan empat unsur."
+        },
+        {
+          "en": "A domain.",
+          "id": "Ranah."
+        },
+        {
+          "en": "A level.",
+          "id": "Level."
+        },
+        {
+          "en": "Evidence someone else can see.",
+          "id": "Bukti yang bisa dilihat orang lain."
+        },
+        {
+          "en": "And a line you refuse to cross.",
+          "id": "Dan batas yang pantang kamu langgar."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "set": "team",
+      "opts": {
+        "who": {
+          "hair": "short",
+          "shirt": "#2FA7A0"
+        },
+        "moods": [
+          "think",
+          "smile"
+        ]
+      },
+      "tag": {
+        "en": "Monday",
+        "id": "Hari Senin"
+      },
+      "keys": [
+        {
+          "en": "He answers the offer *with questions*.",
+          "id": "Ia membalas tawaran itu *dengan pertanyaan*."
+        },
+        {
+          "en": "By design, *not by first offer*.",
+          "id": "Karena rancangan, *bukan tawaran pertama*."
+        }
+      ],
+      "say": [
+        {
+          "en": "On Monday he answers the offer with two questions. Will I work with small clients? Who will I learn from?",
+          "id": "Hari Senin ia membalas tawaran itu dengan dua pertanyaan. Apakah aku akan menangani klien kecil? Dari siapa aku akan belajar?"
+        },
+        {
+          "en": "He may still say yes. But now the yes is his: direction by design, not by first offer.",
+          "id": "Bisa jadi ia tetap mengiyakan. Tapi kini itu keputusannya sendiri: arah karena rancangan, bukan karena tawaran pertama."
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "quiet": true,
+      "kicker": {
+        "en": "In two lines",
+        "id": "Dalam dua kalimat"
+      },
+      "points": [
+        {
+          "en": "A mission names *contribution*, not titles.",
+          "id": "Misi menyebut *kontribusi*, bukan jabatan."
+        },
+        {
+          "en": "A 3-year outcome makes it *plannable*.",
+          "id": "Hasil 3 tahun membuatnya *bisa direncanakan*."
+        }
+      ],
+      "turnLabel": {
+        "en": "Your turn.",
+        "id": "Giliranmu."
+      },
+      "turn": {
+        "en": "For one big choice you face, ask: whose script is this line from?",
+        "id": "Untuk satu keputusan besar yang sedang kamu hadapi, tanyakan: kalimat ini dari naskah siapa?"
+      },
+      "say": [
+        {
+          "en": "A mission names contribution, not titles.",
+          "id": "Misi menyebut kontribusi, bukan jabatan."
+        },
+        {
+          "en": "A 3-year outcome makes it plannable.",
+          "id": "Hasil 3 tahun membuatnya bisa direncanakan."
+        },
+        {
+          "en": "Now it is your turn. For one big choice you face, ask: whose script is this line from?",
+          "id": "Sekarang giliranmu. Untuk satu keputusan besar yang sedang kamu hadapi, tanyakan: kalimat ini dari naskah siapa?"
+        }
+      ]
+    },
+    {
+      "type": "end",
+      "hold": 3.5,
+      "title": {
+        "en": "The Map",
+        "id": "The Map"
+      },
+      "sub": {
+        "en": "An original Metanoia Labs learning film · © 2026 Metanoia Labs",
+        "id": "Film pembelajaran orisinal Metanoia Labs · © 2026 Metanoia Labs"
+      }
+    }
+  ]
+}
