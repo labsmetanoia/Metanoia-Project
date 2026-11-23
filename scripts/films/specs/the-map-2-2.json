@@ -1,0 +1,338 @@
+{
+  "id": "map-2-2-the-gap",
+  "product": {
+    "en": "The Map",
+    "id": "The Map"
+  },
+  "lesson": "2.2",
+  "title": {
+    "en": "The gap: acting inside your control",
+    "id": "Celah itu: bertindak di dalam kendalimu"
+  },
+  "sources": "Written for this lesson from its own objectives and reading: the space between stimulus and response, reactive and ownership language, and initiative that needs nobody's permission. The ideas are long-established and taught here in the lesson's own words. The story and the character are invented. No third-party script, footage, picture or sound.",
+  "scenes": [
+    {
+      "type": "title",
+      "hold": 4.5,
+      "kicker": {
+        "en": "The Map · Lesson 2.2",
+        "id": "The Map · Pelajaran 2.2"
+      },
+      "title": {
+        "en": "The *gap*",
+        "id": "*Celah* itu"
+      },
+      "sub": {
+        "en": "Ownership: acting inside your control",
+        "id": "Rasa memiliki: bertindak di dalam kendalimu"
+      }
+    },
+    {
+      "type": "story",
+      "set": "desk",
+      "opts": {
+        "sky": "rain",
+        "day": {
+          "en": "WED",
+          "id": "RAB"
+        },
+        "date": "9",
+        "phone": "22:04",
+        "who": {
+          "hair": "hijab",
+          "scarf": "#5b7696",
+          "shirt": "#2FA7A0"
+        },
+        "moods": [
+          "neutral",
+          "down",
+          "think"
+        ]
+      },
+      "tag": {
+        "en": "Ten at night",
+        "id": "Pukul sepuluh malam"
+      },
+      "keys": [
+        {
+          "en": "“I have not started my part.”",
+          "id": "“Bagianku belum kukerjakan.”"
+        },
+        {
+          "en": "Her thumbs are already typing.",
+          "id": "Jempolnya sudah mengetik."
+        },
+        {
+          "en": "A gap. *Two seconds wide.*",
+          "id": "Ada celah. *Lebarnya dua detik.*"
+        }
+      ],
+      "say": [
+        {
+          "en": "Ten at night. A message from a teammate: I have not started my part. The presentation is tomorrow.",
+          "id": "Pukul sepuluh malam. Pesan dari rekan sekelompok: bagianku belum kukerjakan. Presentasinya besok."
+        },
+        {
+          "en": "Sinta's thumbs are already typing something sharp.",
+          "id": "Jempol Sinta sudah mengetik balasan yang pedas."
+        },
+        {
+          "en": "But between the message and her reply there is a gap. It is about two seconds wide.",
+          "id": "Tapi di antara pesan itu dan balasannya ada celah. Lebarnya kira-kira dua detik."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": {
+        "en": "Stimulus, gap, response",
+        "id": "Stimulus, celah, respons"
+      },
+      "footAt": 3,
+      "foot": {
+        "en": "Ownership is refusing to let the stimulus *write your reply*.",
+        "id": "Rasa memiliki berarti menolak membiarkan stimulus *menulis balasanmu*."
+      },
+      "cards": [
+        {
+          "at": 0,
+          "h": {
+            "en": "Stimulus",
+            "id": "Stimulus"
+          },
+          "p": {
+            "en": "The message. Fixed. *She did not choose it.*",
+            "id": "Pesan itu. Sudah terjadi. *Bukan pilihannya.*"
+          }
+        },
+        {
+          "at": 1,
+          "hot": true,
+          "h": {
+            "en": "The gap",
+            "id": "Celah"
+          },
+          "p": {
+            "en": "Two seconds in which she *chooses*.",
+            "id": "Dua detik untuk *memilih*."
+          }
+        },
+        {
+          "at": 2,
+          "h": {
+            "en": "Response",
+            "id": "Respons"
+          },
+          "p": {
+            "en": "What she sends. *Entirely hers.*",
+            "id": "Yang ia kirim. *Sepenuhnya miliknya.*"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "The stimulus is fixed. She did not choose it.",
+          "id": "Stimulusnya sudah terjadi. Itu bukan pilihannya."
+        },
+        {
+          "en": "The gap is where she chooses.",
+          "id": "Di celah itulah ia memilih."
+        },
+        {
+          "en": "And the response is entirely hers.",
+          "id": "Dan responsnya sepenuhnya miliknya."
+        },
+        {
+          "en": "Ownership is not hustle or aggression. It is refusing to let the stimulus write your reply.",
+          "id": "Rasa memiliki bukan berarti agresif atau sok sibuk. Artinya menolak membiarkan stimulus menulis balasanmu."
+        }
+      ]
+    },
+    {
+      "type": "notes",
+      "kicker": {
+        "en": "Two drafts",
+        "id": "Dua draf"
+      },
+      "notes": [
+        {
+          "at": 0,
+          "strikeAt": 1,
+          "label": {
+            "en": "Reactive",
+            "id": "Reaktif"
+          },
+          "text": {
+            "en": "You always make me do everything.",
+            "id": "Kamu selalu bikin aku mengerjakan semuanya."
+          }
+        },
+        {
+          "at": 2,
+          "label": {
+            "en": "Ownership",
+            "id": "Rasa memiliki"
+          },
+          "text": {
+            "en": "*I choose* to finish slide four tonight. Can you send five and six by eight?",
+            "id": "*Aku memilih* menyelesaikan slide empat malam ini. Bisa kirim slide lima dan enam sebelum pukul delapan?"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Her first draft: you always make me do everything. That sentence hands the pen to him.",
+          "id": "Draf pertamanya: kamu selalu bikin aku mengerjakan semuanya. Kalimat itu menyerahkan pena kepadanya."
+        },
+        {
+          "en": "She deletes it.",
+          "id": "Ia menghapusnya."
+        },
+        {
+          "en": "The second draft begins with I choose. She finishes slide four tonight, and asks for the last two by eight.",
+          "id": "Draf kedua dibuka dengan aku memilih. Ia menyelesaikan slide empat malam ini, dan meminta dua slide terakhir sebelum pukul delapan."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": {
+        "en": "Your language is a live diagnostic",
+        "id": "Bahasamu adalah alat diagnosis"
+      },
+      "cols": [
+        {
+          "vig": "weather",
+          "h": {
+            "en": "Reactive tells",
+            "id": "Tanda reaktif"
+          },
+          "p": {
+            "en": "“I have to.” “They made me.” “There is nothing I can do.”",
+            "id": "“Aku terpaksa.” “Mereka yang membuatku begini.” “Aku tidak bisa apa-apa.”"
+          }
+        },
+        {
+          "vig": "pack",
+          "h": {
+            "en": "Ownership tells",
+            "id": "Tanda rasa memiliki"
+          },
+          "p": {
+            "en": "“I choose.” “I will.” “Here is what *I can* do.”",
+            "id": "“Aku memilih.” “Aku akan.” “Ini yang *bisa* kulakukan.”"
+          }
+        }
+      ],
+      "foot": {
+        "en": "Listen to yourself for *one day*.",
+        "id": "Dengarkan dirimu sendiri selama *satu hari*."
+      },
+      "say": [
+        {
+          "en": "Your language is a live diagnostic. I have to, they made me, there is nothing I can do: these are reactive tells.",
+          "id": "Bahasamu adalah alat diagnosis yang bekerja seketika. Aku terpaksa, mereka yang membuatku begini, aku tidak bisa apa-apa: itu tanda reaktif."
+        },
+        {
+          "en": "I choose, I will, here is what I can do: these are ownership tells.",
+          "id": "Aku memilih, aku akan, ini yang bisa kulakukan: itu tanda rasa memiliki."
+        },
+        {
+          "en": "Listen to yourself for one day, and count.",
+          "id": "Dengarkan dirimu sendiri selama satu hari, lalu hitung."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "set": "team",
+      "opts": {
+        "who": {
+          "hair": "hijab",
+          "scarf": "#5b7696",
+          "shirt": "#2FA7A0"
+        },
+        "moods": [
+          "think",
+          "smile"
+        ]
+      },
+      "tag": {
+        "en": "The next morning",
+        "id": "Keesokan paginya"
+      },
+      "keys": [
+        {
+          "en": "One thing *nobody asked for*.",
+          "id": "Satu hal yang *tak diminta siapa pun*."
+        },
+        {
+          "en": "No permission needed.",
+          "id": "Tak perlu izin."
+        }
+      ],
+      "say": [
+        {
+          "en": "The next morning she does one thing nobody asked for: a one-page checklist for the group's next project.",
+          "id": "Keesokan paginya ia mengerjakan satu hal yang tak diminta siapa pun: daftar periksa satu halaman untuk proyek kelompok berikutnya."
+        },
+        {
+          "en": "Initiative inside your control needs no permission. That is exactly why interviewers ask for examples of it.",
+          "id": "Inisiatif di dalam kendalimu tidak butuh izin. Justru karena itulah pewawancara meminta contohnya."
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "quiet": true,
+      "kicker": {
+        "en": "In two lines",
+        "id": "Dalam dua kalimat"
+      },
+      "points": [
+        {
+          "en": "The stimulus is fixed. *The response is yours.*",
+          "id": "Stimulusnya sudah terjadi. *Responsnya milikmu.*"
+        },
+        {
+          "en": "Your words show *who holds the pen*.",
+          "id": "Kata-katamu menunjukkan *siapa yang memegang pena*."
+        }
+      ],
+      "turnLabel": {
+        "en": "Your turn.",
+        "id": "Giliranmu."
+      },
+      "turn": {
+        "en": "Pick one frustrating moment from this week. Find the gap, and rewrite your reply.",
+        "id": "Pilih satu kejadian menjengkelkan minggu ini. Temukan celahnya, lalu tulis ulang balasanmu."
+      },
+      "say": [
+        {
+          "en": "The stimulus is fixed. The response is yours.",
+          "id": "Stimulusnya sudah terjadi. Responsnya milikmu."
+        },
+        {
+          "en": "Your words show who holds the pen.",
+          "id": "Kata-katamu menunjukkan siapa yang memegang pena."
+        },
+        {
+          "en": "Now it is your turn. Pick one frustrating moment from this week. Find the gap, and rewrite your reply.",
+          "id": "Sekarang giliranmu. Pilih satu kejadian menjengkelkan minggu ini. Temukan celahnya, lalu tulis ulang balasanmu."
+        }
+      ]
+    },
+    {
+      "type": "end",
+      "hold": 3.5,
+      "title": {
+        "en": "The Map",
+        "id": "The Map"
+      },
+      "sub": {
+        "en": "An original Metanoia Labs learning film · © 2026 Metanoia Labs",
+        "id": "Film pembelajaran orisinal Metanoia Labs · © 2026 Metanoia Labs"
+      }
+    }
+  ]
+}

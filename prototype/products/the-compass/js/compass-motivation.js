@@ -119,7 +119,6 @@
   /* short films — the platform’s own subtitled lesson films, plus one composed reset */
   var F = IMG + 'lms/the-map/';
   [
-    ['v-habits', ['slump', 'growth', 'momentum'], 'learning-habits', P('The power of learning habits', 'Kekuatan kebiasaan belajar'), '3:41', P('The Map · Lesson 2.2', 'The Map · Pelajaran 2.2')]
   ].forEach(function (x) {
     var base = F + x[2] + (x[2] === 'learning-habits' ? '' : '-brand');
     add({ id: x[0], type: 'video', sit: x[1], title: x[3], dur: x[4], src: base + '.mp4', poster: F + x[2] + '-poster.jpg', vtt: { en: F + x[2] + '-en.vtt', id: F + x[2] + '-id.vtt' }, from: x[5] });
@@ -131,6 +130,10 @@
     src: P(IMG + 'lms/films/map-1-2-one-sentence-en.mp4', IMG + 'lms/films/map-1-2-one-sentence-id.mp4'), poster: P(IMG + 'lms/films/map-1-2-one-sentence-en-poster.jpg', IMG + 'lms/films/map-1-2-one-sentence-id-poster.jpg'), from: P('The Map · Lesson 1.2', 'The Map · Pelajaran 1.2') });
   add({ id: 'v-verdict', type: 'video', sit: ['growth', 'setback', 'comparison', 'nerves'], title: P('Not a verdict: the two beliefs under every skill', 'Bukan vonis: dua keyakinan di balik setiap keterampilan'), dur: P('1:58', '1:49'),
     src: P(IMG + 'lms/films/map-1-3-not-a-verdict-en.mp4', IMG + 'lms/films/map-1-3-not-a-verdict-id.mp4'), poster: P(IMG + 'lms/films/map-1-3-not-a-verdict-en-poster.jpg', IMG + 'lms/films/map-1-3-not-a-verdict-id-poster.jpg'), from: P('The Map · Lesson 1.3', 'The Map · Pelajaran 1.3') });
+  add({ id: 'v-gap', type: 'video', sit: ['setback', 'nerves', 'start', 'waiting'], title: P('The gap: acting inside your control', 'Celah itu: bertindak di dalam kendalimu'), dur: P('2:02', '1:49'),
+    src: P(IMG + 'lms/films/map-2-2-the-gap-en.mp4', IMG + 'lms/films/map-2-2-the-gap-id.mp4'), poster: P(IMG + 'lms/films/map-2-2-the-gap-en-poster.jpg', IMG + 'lms/films/map-2-2-the-gap-id-poster.jpg'), from: P('The Map · Lesson 2.2', 'The Map · Pelajaran 2.2') });
+  add({ id: 'v-quiet', type: 'video', sit: ['slump', 'momentum', 'plateau', 'decision'], title: P('Important, not urgent: defending the work that builds a career', 'Penting, tidak mendesak: melindungi pekerjaan yang membangun karier'), dur: P('2:10', '2:08'),
+    src: P(IMG + 'lms/films/map-2-4-important-not-urgent-en.mp4', IMG + 'lms/films/map-2-4-important-not-urgent-id.mp4'), poster: P(IMG + 'lms/films/map-2-4-important-not-urgent-en-poster.jpg', IMG + 'lms/films/map-2-4-important-not-urgent-id-poster.jpg'), from: P('The Map · Lesson 2.4', 'The Map · Pelajaran 2.4') });
   add({ id: 'v-reset', type: 'video', sit: ['slump', 'setback', 'nerves', 'waiting'], title: P('The 60-second reset', 'Jeda ulang 60 detik'), dur: '1:00', src: IMG + '03-climb.mp4', poster: IMG + 'm/03-climb.jpg', reset: true, from: P('Metanoia · guided minute', 'Metanoia · satu menit terpandu'),
     lines: [P('Put the phone down. Sit back.', 'Letakkan ponselmu. Duduk bersandar.'), P('Breathe in for four… and out for six.', 'Tarik napas empat hitungan… hembuskan enam.'), P('Name what you feel, one word is enough.', 'Namai yang kamu rasakan, satu kata cukup.'), P('Now name one thing still in your control today.', 'Sekarang sebut satu hal yang masih dalam kendalimu hari ini.'), P('Make it small: twenty-five minutes or less.', 'Buat kecil: dua puluh lima menit atau kurang.'), P('One more slow breath.', 'Satu napas pelan lagi.'), P('Progress is not a mood. It is the next small step.', 'Kemajuan bukan suasana hati. Ia adalah langkah kecil berikutnya.'), P('Go and take it.', 'Pergilah dan lakukan.')] });
 
