@@ -121,15 +121,15 @@
   [
     ['v-mindset1', ['growth', 'setback', 'comparison'], 'mindset-101-1', P('What mindsets are, and where your defaults come from', 'Apa itu mindset, dan dari mana mindset bawaanmu berasal'), '3:04', P('The Map · Lesson 1.3', 'The Map · Pelajaran 1.3')],
     ['v-mindset2', ['nerves', 'setback', 'slump'], 'mindset-101-2', P('Shifting a mindset: priming and the APR technique', 'Menggeser mindset: priming dan teknik APR'), '1:32', P('The Map · Lesson 1.3', 'The Map · Pelajaran 1.3')],
-    ['v-adapt1', ['newrole', 'plateau', 'start'], 'adaptability-1', P('When the ground shifts: learning skills that travel', 'Saat pijakan bergeser: keterampilan yang bisa dibawa ke mana pun'), '1:33', P('The Map · Lesson 1.1', 'The Map · Pelajaran 1.1')],
-    ['v-adapt2', ['newrole', 'nerves', 'slump'], 'adaptability-2', P('A problem with many moving pieces: asking for help early', 'Masalah dengan banyak bagian bergerak: minta bantuan sejak awal'), '0:57', P('The Map · Lesson 1.1', 'The Map · Pelajaran 1.1')],
-    ['v-adapt3', ['newrole', 'growth'], 'adaptability-3', P('New role, new ground: feedback, connection and a clearer message', 'Peran baru, medan baru: umpan balik, koneksi, dan pesan yang lebih jelas'), '1:44', P('The Map · Lesson 1.1', 'The Map · Pelajaran 1.1')],
     ['v-intent', ['start', 'growth', 'slump'], 'learning-intention-1', P('Why set a learning intention at all?', 'Mengapa perlu menetapkan niat belajar?'), '2:19', P('The Map · Lesson 1.2', 'The Map · Pelajaran 1.2')],
     ['v-habits', ['slump', 'growth', 'momentum'], 'learning-habits', P('The power of learning habits', 'Kekuatan kebiasaan belajar'), '3:41', P('The Map · Lesson 2.2', 'The Map · Pelajaran 2.2')]
   ].forEach(function (x) {
     var base = F + x[2] + (x[2] === 'learning-habits' ? '' : '-brand');
     add({ id: x[0], type: 'video', sit: x[1], title: x[3], dur: x[4], src: base + '.mp4', poster: F + x[2] + '-poster.jpg', vtt: { en: F + x[2] + '-en.vtt', id: F + x[2] + '-id.vtt' }, from: x[5] });
   });
+  /* an original Metanoia Labs film, one file per language (scripts/films) */
+  add({ id: 'v-muscles', type: 'video', sit: ['newrole', 'setback', 'nerves', 'slump', 'start'], title: P('Two muscles: adaptability and resilience', 'Dua otot: adaptabilitas dan ketangguhan'), dur: P('2:37', '2:26'),
+    src: P(IMG + 'lms/films/map-1-1-two-muscles-en.mp4', IMG + 'lms/films/map-1-1-two-muscles-id.mp4'), poster: P(IMG + 'lms/films/map-1-1-two-muscles-en-poster.jpg', IMG + 'lms/films/map-1-1-two-muscles-id-poster.jpg'), from: P('The Map · Lesson 1.1', 'The Map · Pelajaran 1.1') });
   add({ id: 'v-reset', type: 'video', sit: ['slump', 'setback', 'nerves', 'waiting'], title: P('The 60-second reset', 'Jeda ulang 60 detik'), dur: '1:00', src: IMG + '03-climb.mp4', poster: IMG + 'm/03-climb.jpg', reset: true, from: P('Metanoia · guided minute', 'Metanoia · satu menit terpandu'),
     lines: [P('Put the phone down. Sit back.', 'Letakkan ponselmu. Duduk bersandar.'), P('Breathe in for four… and out for six.', 'Tarik napas empat hitungan… hembuskan enam.'), P('Name what you feel, one word is enough.', 'Namai yang kamu rasakan, satu kata cukup.'), P('Now name one thing still in your control today.', 'Sekarang sebut satu hal yang masih dalam kendalimu hari ini.'), P('Make it small: twenty-five minutes or less.', 'Buat kecil: dua puluh lima menit atau kurang.'), P('One more slow breath.', 'Satu napas pelan lagi.'), P('Progress is not a mood. It is the next small step.', 'Kemajuan bukan suasana hati. Ia adalah langkah kecil berikutnya.'), P('Go and take it.', 'Pergilah dan lakukan.')] });
 
@@ -279,7 +279,7 @@
       c.appendChild(box);
     } else if (it.type === 'video') {
       var th = el('button', 'mv-thumb'); th.type = 'button';
-      th.innerHTML = '<img src="' + it.poster + '" alt="" loading="lazy" decoding="async"><span class="mv-play">' + SH.ico('play') + '</span><span class="mv-dur">' + esc(it.dur) + '</span>';
+      th.innerHTML = '<img src="' + tx(it.poster) + '" alt="" loading="lazy" decoding="async"><span class="mv-play">' + SH.ico('play') + '</span><span class="mv-dur">' + esc(tx(it.dur)) + '</span>';
       th.addEventListener('click', function () { markSeen(it.id); openVideo(it); });
       c.appendChild(th);
       c.appendChild(el('h4', null, esc(tx(it.title))));
@@ -330,7 +330,7 @@
   function openVideo(it) {
     ensureModal(); modalBody.innerHTML = '';
     var wrap = el('div', 'mv-vwrap' + (it.reset ? ' reset' : ''));
-    var v = document.createElement('video'); v.playsInline = true; v.preload = 'metadata'; v.poster = it.poster; v.src = it.src;
+    var v = document.createElement('video'); v.playsInline = true; v.preload = 'metadata'; v.poster = tx(it.poster); v.src = tx(it.src);
     if (it.reset) {
       v.muted = true; v.loop = true; v.autoplay = true;
       wrap.appendChild(v);
@@ -346,11 +346,11 @@
       }, 200);
     } else {
       v.controls = true;
-      ['en', 'id'].forEach(function (l) { var tr = document.createElement('track'); tr.kind = 'subtitles'; tr.srclang = l; tr.label = l === 'en' ? 'English' : 'Bahasa Indonesia'; tr.src = it.vtt[l]; if (l === lang()) tr.default = true; v.appendChild(tr); });
+      if (it.vtt) ['en', 'id'].forEach(function (l) { var tr = document.createElement('track'); tr.kind = 'subtitles'; tr.srclang = l; tr.label = l === 'en' ? 'English' : 'Bahasa Indonesia'; tr.src = it.vtt[l]; if (l === lang()) tr.default = true; v.appendChild(tr); });
       wrap.appendChild(v);
     }
     modalBody.appendChild(wrap);
-    modalBody.appendChild(el('div', 'mv-modal-meta', '<b>' + esc(tx(it.title)) + '</b><span>' + esc(tx(it.from)) + ' · ' + esc(it.dur) + '</span>'));
+    modalBody.appendChild(el('div', 'mv-modal-meta', '<b>' + esc(tx(it.title)) + '</b><span>' + esc(tx(it.from)) + ' · ' + esc(tx(it.dur)) + '</span>'));
     openModal(tx(it.title));
     if (!it.reset) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
   }

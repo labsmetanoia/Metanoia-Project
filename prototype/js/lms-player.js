@@ -329,6 +329,8 @@
      captions:{en,id} }]. Rendered before the learning material. Subtitles
      are parsed from the VTT files and drawn by the player itself so they
      look identical on every device (native cue rendering is off). */
+  /* a film made per language declares src, poster and dur as { en, id }; one file for both stays a string */
+  function pick(x) { return x && typeof x === 'object' ? (x[lang()] || x.en) : x; }
   function fmtTime(s) {
     s = Math.max(0, Math.floor(s || 0));
     return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
@@ -458,14 +460,14 @@
       var b = el('button', 'lms-vitem');
       b.setAttribute('type', 'button');
       var th = el('span', 'vi-th');
-      var im = document.createElement('img'); im.src = it.poster; im.alt = ''; im.loading = 'lazy'; im.decoding = 'async';
+      var im = document.createElement('img'); im.src = pick(it.poster); im.alt = ''; im.loading = 'lazy'; im.decoding = 'async';
       th.appendChild(im);
       th.appendChild(el('i', 'vi-num', String(k + 1)));
       th.appendChild(el('i', 'vi-done', ICO.check));
       b.appendChild(th);
       var tx = el('span', 'vi-tx');
       tx.appendChild(bi('b', null, it.title));
-      tx.appendChild(el('span', null, (it.dur ? it.dur + ' · ' : '') + '<span data-en="Video ' + (k + 1) + '" data-id="Video ' + (k + 1) + '">Video ' + (k + 1) + '</span>'));
+      tx.appendChild(el('span', null, (it.dur ? pick(it.dur) + ' · ' : '') + '<span data-en="Video ' + (k + 1) + '" data-id="Video ' + (k + 1) + '">Video ' + (k + 1) + '</span>'));
       b.appendChild(tx);
       b.addEventListener('click', function () { load(k, true); });
       strip.appendChild(b);
@@ -556,14 +558,14 @@
       idx = Math.max(0, Math.min(list.length - 1, k));
       var it = list[idx];
       v.pause();
-      v.poster = it.poster || ''; xo(v, it.src); v.src = it.src; v.load();
+      v.poster = pick(it.poster) || ''; xo(v, pick(it.src)); v.src = pick(it.src); v.load();
       lastCue = null; fill.style.width = '0%'; knob.style.left = '0%'; buf.style.width = '0%';
       tl.innerHTML = '<i>' + (idx + 1) + '/' + list.length + '</i> ' + (it.title[lang()] || it.title.en);
       tl.setAttribute('data-en', '<i>' + (idx + 1) + '/' + list.length + '</i> ' + it.title.en);
       tl.setAttribute('data-id', '<i>' + (idx + 1) + '/' + list.length + '</i> ' + it.title.id);
       bNext.disabled = idx === list.length - 1;
       paintList(); loadCues(); setPlaying(false);
-      time.innerHTML = '<b>0:00</b> / ' + (it.dur || '0:00');
+      time.innerHTML = '<b>0:00</b> / ' + (pick(it.dur) || '0:00');
       if (autoplay) v.play().catch(function () {});
     }
 

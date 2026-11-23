@@ -50,7 +50,8 @@ const stamp = s => { const ms = Math.round(s * 1000), h = Math.floor(ms / 360000
       '-c:v', 'libx264', '-preset', 'slow', '-crf', '20', '-pix_fmt', 'yuv420p', '-r', String(FPS),
       '-c:a', 'aac', '-b:a', sound ? '128k' : '32k', '-shortest', '-movflags', '+faststart', base + '.mp4'], { stdio: ['pipe', 'inherit', 'inherit'] });
     const done = new Promise((res, rej) => ff.on('close', c => (c === 0 ? res() : rej(new Error('ffmpeg exited ' + c)))));
-    const posterAt = Math.floor(frames * 0.3);
+    /* the poster is the title card unless the spec names another second */
+    const posterAt = Math.min(frames - 1, Math.round((spec.poster || 3.6) * FPS));
     const t0 = Date.now();
     for (let i = 0; i < frames; i++) {
       await page.evaluate(t => window.film.seek(t), i / FPS);

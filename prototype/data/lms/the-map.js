@@ -55,22 +55,22 @@ window.MT_LMS['the-map'] = {
      "kind": "reading",
      "placeholder": false,
      "videosIntro": {
-      "en": "Three short scenes set the stage: a job that suddenly feels replaceable, a task with no obvious starting point, and a new role where nothing quite connects yet. Watch how each person adapts; then read on to turn what you saw into a method.",
-      "id": "Tiga adegan singkat membuka pelajaran ini: pekerjaan yang tiba-tiba terasa mudah digantikan, tugas yang tidak jelas harus dimulai dari mana, dan peran baru yang belum juga terasa klik. Perhatikan cara masing-masing orang menyesuaikan diri. Setelah itu, lanjutkan membaca untuk mengubah apa yang kamu lihat menjadi cara kerja yang bisa kamu pakai sendiri."
+      "en": "One short film opens the lesson: a Tuesday when two things go wrong for Laras, and what she does about each. Watch for the difference between changing her method and recovering her energy; then read on to make the method your own.",
+      "id": "Satu film singkat membuka pelajaran ini: suatu Selasa ketika dua hal berjalan buruk bagi Laras, dan apa yang ia lakukan terhadap masing-masing. Perhatikan beda antara mengubah cara dan memulihkan energi, lalu lanjutkan membaca untuk menjadikan caranya milikmu."
      },
      "videosOutro": {
       "title": {
-       "en": "Key Takeaways: Enjoy the Journey Ahead",
-       "id": "Poin Penting: Nikmati Perjalanan di Depan"
+       "en": "After the film",
+       "id": "Setelah film"
       },
       "body": [
        {
-        "en": "These three stories illustrate how skills such as adaptability and resilience, problem-solving, and communicating with impact can help individuals unlock the next step in their careers.",
-        "id": "Tiga cerita tadi menunjukkan bagaimana kemampuan beradaptasi dan bangkit, memecahkan masalah, dan berkomunikasi dengan berdampak bisa membuka langkah berikutnya dalam karier seseorang."
+        "en": "Laras met two different problems and answered each with a different skill: a new method for the new tool, and a recovery loop for the rejection.",
+        "id": "Laras menghadapi dua masalah yang berbeda dan menjawabnya dengan dua keterampilan yang berbeda: cara baru untuk aplikasi baru, dan putaran pemulihan untuk penolakan."
        },
        {
-        "en": "We hope these stories inspire you to reflect on the new skills you may need to develop for your current or desired role and prepare yourself for the opportunities ahead.",
-        "id": "Semoga cerita-cerita ini mengajakmu merenungkan keterampilan baru yang perlu kamu bangun untuk peranmu sekarang atau peran yang kamu incar, sekaligus menyiapkan dirimu untuk peluang yang menanti."
+        "en": "As you read on, keep one setback of your own in mind. You will run the same loop on it before this lesson ends.",
+        "id": "Sambil melanjutkan membaca, ingat satu kemunduranmu sendiri. Kamu akan menjalankan putaran yang sama sebelum pelajaran ini selesai."
        }
       ]
      },
@@ -153,42 +153,21 @@ window.MT_LMS['the-map'] = {
      },
      "videos": [
       {
-       "src": "../../assets/lms/the-map/adaptability-1-brand.mp4",
-       "poster": "../../assets/lms/the-map/adaptability-1-poster.jpg",
-       "dur": "1:33",
-       "title": {
-        "en": "When the ground shifts: learning skills that travel",
-        "id": "Saat pijakan bergeser: keterampilan yang bisa dibawa ke mana pun"
+       "src": {
+        "en": "../../assets/lms/films/map-1-1-two-muscles-en.mp4",
+        "id": "../../assets/lms/films/map-1-1-two-muscles-id.mp4"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/adaptability-1-en.vtt",
-        "id": "../../assets/lms/the-map/adaptability-1-id.vtt"
-       }
-      },
-      {
-       "src": "../../assets/lms/the-map/adaptability-2-brand.mp4",
-       "poster": "../../assets/lms/the-map/adaptability-2-poster.jpg",
-       "dur": "0:57",
-       "title": {
-        "en": "A problem with many moving pieces: asking for help early",
-        "id": "Masalah dengan banyak bagian yang bergerak: minta bantuan sejak awal"
+       "poster": {
+        "en": "../../assets/lms/films/map-1-1-two-muscles-en-poster.jpg",
+        "id": "../../assets/lms/films/map-1-1-two-muscles-id-poster.jpg"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/adaptability-2-en.vtt",
-        "id": "../../assets/lms/the-map/adaptability-2-id.vtt"
-       }
-      },
-      {
-       "src": "../../assets/lms/the-map/adaptability-3-brand.mp4",
-       "poster": "../../assets/lms/the-map/adaptability-3-poster.jpg",
-       "dur": "1:44",
-       "title": {
-        "en": "New role, new ground: feedback, connection and a clearer message",
-        "id": "Peran baru, medan baru: masukan, koneksi, dan pesan yang lebih jelas"
+       "dur": {
+        "en": "2:37",
+        "id": "2:26"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/adaptability-3-en.vtt",
-        "id": "../../assets/lms/the-map/adaptability-3-id.vtt"
+       "title": {
+        "en": "Two muscles: adaptability and resilience",
+        "id": "Dua otot: adaptabilitas dan ketangguhan"
        }
       }
      ],
