@@ -120,6 +120,19 @@
   .pyr .leg p{font-size:23px;line-height:1.35;color:var(--mute)}
   .pyr .leg .mk{position:absolute;right:16px;top:16px;width:40px;height:40px}
   .pyr .foot{margin-top:20px;font-size:29px}
+  /* mail: a message as it would arrive, before and after */
+  .mailsc{padding:86px 96px 0}
+  .mailsc .row{display:flex;gap:28px;margin-top:30px;align-items:flex-start}
+  .mailsc .mcard{position:relative;flex:1;background:#F4EFE4;color:#1c2430;border-radius:14px;overflow:hidden;box-shadow:0 22px 44px rgba(0,0,0,.45)}
+  .mailsc .bar{display:flex;align-items:center;gap:8px;background:#dcd5c6;padding:11px 16px;font-weight:800;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:rgba(28,36,48,.62)}
+  .mailsc .bar i{width:11px;height:11px;border-radius:50%;background:#b9b1a0}
+  .mailsc .bar span{margin-left:8px}
+  .mailsc .sub{padding:16px 22px 8px;font-weight:800;font-size:25px;line-height:1.2}
+  .mailsc .ln{margin:0 14px;padding:7px 8px;font-size:22.5px;line-height:1.3;border-radius:6px}
+  .mailsc .ln.hot{background:rgba(201,168,76,.5);font-weight:600}
+  .mailsc .pad{height:16px}
+  .mailsc .dim{position:absolute;inset:0;background:rgba(11,21,36,.62)}
+  .notes .note.sm{font-size:39px;line-height:1.08}
   /* notes: handwritten paper notes on the wall */
   .notes{padding:86px 96px 0}
   .notes .row{display:flex;gap:44px;margin-top:40px;align-items:flex-start}
@@ -346,9 +359,15 @@
         return '<div class="leg" data-beat="' + (r.at != null ? r.at : i + 1) + '">' + (r.mark ? '<span data-beat="' + r.markAt + '">' + (r.mark === 'ok' ? ok : no) + '</span>' : '') + '<h3>' + rich(r.h) + '</h3><p>' + rich(r.p) + '</p></div>';
       }).join('') + '</div>' + (s.foot ? '<div class="foot serif" data-beat="' + (s.footAt || 0) + '">' + rich(s.foot) + '</div>' : '') + '</div>';
     },
+    mail: function (s) {
+      return '<div class="scene mailsc"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><div class="row">' + s.mails.map(function (m) {
+        return '<div class="mcard" data-beat="' + (m.at || 0) + '"><div class="bar"><i></i><i></i><i></i><span>' + esc(t(m.label)) + '</span></div><div class="sub">' + rich(m.subject) + '</div>' +
+          m.lines.map(function (ln, k) { return '<div class="ln' + (m.hot === k ? ' hot' : '') + '">' + rich(ln) + '</div>'; }).join('') + '<div class="pad"></div>' + (m.dimAt != null ? '<div class="dim" data-beat="' + m.dimAt + '"></div>' : '') + '</div>';
+      }).join('') + '</div></div>';
+    },
     notes: function (s) {
       return '<div class="scene notes"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><div class="row">' + s.notes.map(function (n, i) {
-        return '<div class="note n' + i + '" data-beat="' + (n.at || 0) + '"><span>' + rich(n.text) + '</span>' + (n.strikeAt != null ? '<i class="strike" data-beat="' + n.strikeAt + '"></i>' : '') + (n.label ? '<b>' + esc(t(n.label)) + '</b>' : '') + '</div>';
+        return '<div class="note n' + i + (n.small ? ' sm' : '') + '" data-beat="' + (n.at || 0) + '"><span>' + rich(n.text) + '</span>' + (n.strikeAt != null ? '<i class="strike" data-beat="' + n.strikeAt + '"></i>' : '') + (n.label ? '<b>' + esc(t(n.label)) + '</b>' : '') + '</div>';
       }).join('') + '</div></div>';
     },
     statement: function (s) { return '<div class="scene statement"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div>' + s.lines.map(function (l, i) { return '<p class="serif" data-beat="' + i + '">' + rich(l) + '</p>'; }).join('') + '</div>'; },

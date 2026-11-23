@@ -1,0 +1,350 @@
+{
+  "id": "map-4-2-answer-first",
+  "product": {
+    "en": "The Map",
+    "id": "The Map"
+  },
+  "lesson": "4.2",
+  "title": {
+    "en": "Answer first: designing a message from the reader backwards",
+    "id": "Jawaban dulu: merancang pesan mundur dari pembacanya"
+  },
+  "sources": "Written for this lesson from its own objectives and reading: designing from the reader's decision backwards, the order of answer, reasons and evidence, and moving between summary and detail on request. These are standard practices of workplace communication, taught here in the lesson's own words. The case and the character are invented for this film and appear in no other course. No third-party script, footage, picture or sound.",
+  "scenes": [
+    {
+      "type": "title",
+      "hold": 4.5,
+      "kicker": {
+        "en": "The Map · Lesson 4.2",
+        "id": "The Map · Pelajaran 4.2"
+      },
+      "title": {
+        "en": "*Answer* first",
+        "id": "*Jawaban* dulu"
+      },
+      "sub": {
+        "en": "Designing a message from the reader backwards",
+        "id": "Merancang pesan mundur dari pembacanya"
+      }
+    },
+    {
+      "type": "story",
+      "set": "office",
+      "opts": {
+        "badge": {
+          "en": "90 SEC",
+          "id": "90 DETIK"
+        },
+        "who": {
+          "hair": "hijab",
+          "scarf": "#E07A4B",
+          "shirt": "#2FA7A0"
+        },
+        "moods": [
+          "neutral",
+          "think"
+        ],
+        "mateMood": "neutral",
+        "leadMood": "neutral"
+      },
+      "tag": {
+        "en": "Between two meetings",
+        "id": "Di antara dua rapat"
+      },
+      "keys": [
+        {
+          "en": "Her manager has *ninety seconds*.",
+          "id": "Manajernya punya *sembilan puluh detik*."
+        },
+        {
+          "en": "Design the message *backwards*.",
+          "id": "Rancang pesannya *secara mundur*."
+        }
+      ],
+      "say": [
+        {
+          "en": "Nisa has a week of analysis on late deliveries, and a manager with ninety seconds between two meetings.",
+          "id": "Nisa punya hasil analisis seminggu tentang keterlambatan pengiriman, dan seorang manajer yang hanya punya sembilan puluh detik di antara dua rapat."
+        },
+        {
+          "en": "So she does not start from her analysis. She designs the message backwards, from the reader.",
+          "id": "Maka ia tidak berangkat dari analisisnya. Ia merancang pesannya secara mundur, mulai dari pembacanya."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": {
+        "en": "Three questions before you write",
+        "id": "Tiga pertanyaan sebelum menulis"
+      },
+      "cards": [
+        {
+          "at": 0,
+          "h": {
+            "en": "Who is this for?",
+            "id": "Untuk siapa?"
+          },
+          "p": {
+            "en": "A manager with 90 seconds.",
+            "id": "Manajer dengan 90 detik."
+          }
+        },
+        {
+          "at": 1,
+          "hot": true,
+          "h": {
+            "en": "What must they decide?",
+            "id": "Apa yang harus diputuskan?"
+          },
+          "p": {
+            "en": "Switch courier, or not.",
+            "id": "Ganti kurir, atau tidak."
+          }
+        },
+        {
+          "at": 2,
+          "h": {
+            "en": "What do they already know?",
+            "id": "Apa yang sudah mereka tahu?"
+          },
+          "p": {
+            "en": "That deliveries are late. Skip that part.",
+            "id": "Bahwa pengiriman sering terlambat. Lewati bagian itu."
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Who is this for? A manager with ninety seconds.",
+          "id": "Untuk siapa pesan ini? Manajer dengan sembilan puluh detik."
+        },
+        {
+          "en": "What must she decide? Whether to switch courier.",
+          "id": "Apa yang harus ia putuskan? Ganti kurir atau tidak."
+        },
+        {
+          "en": "What does she already know? That deliveries are late. So Nisa skips it.",
+          "id": "Apa yang sudah ia tahu? Bahwa pengiriman sering terlambat. Maka Nisa melewatinya."
+        }
+      ]
+    },
+    {
+      "type": "pyramid",
+      "kicker": {
+        "en": "Answer, reasons, evidence",
+        "id": "Jawaban, alasan, bukti"
+      },
+      "top": {
+        "en": "Switch courier for the East Java routes",
+        "id": "Ganti kurir untuk rute Jawa Timur"
+      },
+      "footAt": 3,
+      "foot": {
+        "en": "Line one is the answer. *Busy readers can stop there.*",
+        "id": "Baris pertama adalah jawabannya. *Pembaca yang sibuk boleh berhenti di situ.*"
+      },
+      "reasons": [
+        {
+          "at": 1,
+          "h": {
+            "en": "Late 1 time in 4",
+            "id": "Terlambat 1 dari 4"
+          },
+          "p": {
+            "en": "the current courier, over the last 8 weeks",
+            "id": "kurir sekarang, selama 8 pekan terakhir"
+          }
+        },
+        {
+          "at": 1,
+          "h": {
+            "en": "Same price",
+            "id": "Harga sama"
+          },
+          "p": {
+            "en": "the alternative quotes the same rate",
+            "id": "kurir pengganti menawarkan tarif yang sama"
+          }
+        },
+        {
+          "at": 1,
+          "h": {
+            "en": "Low risk",
+            "id": "Risiko kecil"
+          },
+          "p": {
+            "en": "a four-week trial on two routes",
+            "id": "uji coba empat pekan di dua rute"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Professional structure turns the school essay upside down. Line one is the answer: switch courier for the East Java routes.",
+          "id": "Struktur di dunia kerja membalik karangan sekolah. Baris pertama adalah jawabannya: ganti kurir untuk rute Jawa Timur."
+        },
+        {
+          "en": "Under it, the two or three reasons that support it.",
+          "id": "Di bawahnya, dua atau tiga alasan yang menopangnya."
+        },
+        {
+          "en": "And under each reason, the evidence, for readers who want it.",
+          "id": "Dan di bawah setiap alasan, buktinya, bagi pembaca yang menginginkannya."
+        },
+        {
+          "en": "Answer first is a courtesy and a filter. Busy readers can stop after line one.",
+          "id": "Jawaban di depan adalah sopan santun sekaligus saringan. Pembaca yang sibuk boleh berhenti di baris pertama."
+        }
+      ]
+    },
+    {
+      "type": "stack",
+      "kicker": {
+        "en": "Three altitudes",
+        "id": "Tiga ketinggian"
+      },
+      "layers": [
+        {
+          "h": {
+            "en": "High up",
+            "id": "Di atas"
+          },
+          "p": {
+            "en": "One sentence: *the answer*.",
+            "id": "Satu kalimat: *jawabannya*."
+          }
+        },
+        {
+          "h": {
+            "en": "Lower",
+            "id": "Lebih rendah"
+          },
+          "p": {
+            "en": "The structure: the reasons and how they connect.",
+            "id": "Strukturnya: alasan-alasan dan kaitannya."
+          }
+        },
+        {
+          "h": {
+            "en": "On the ground",
+            "id": "Di darat"
+          },
+          "p": {
+            "en": "The numbers, the quotes, the spreadsheet.",
+            "id": "Angka, kutipan, lembar kerja."
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Skilled communicators fly at three altitudes, and say when they change.",
+          "id": "Komunikator yang terampil terbang di tiga ketinggian, dan memberi tahu saat berpindah."
+        },
+        {
+          "en": "High up: one sentence.",
+          "id": "Di atas: satu kalimat."
+        },
+        {
+          "en": "Lower: the structure.",
+          "id": "Lebih rendah: strukturnya."
+        },
+        {
+          "en": "On the ground: the numbers.",
+          "id": "Di darat: angka-angkanya."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "set": "team",
+      "opts": {
+        "who": {
+          "hair": "hijab",
+          "scarf": "#E07A4B",
+          "shirt": "#2FA7A0"
+        },
+        "moods": [
+          "think",
+          "smile"
+        ]
+      },
+      "tag": {
+        "en": "Ninety seconds later",
+        "id": "Sembilan puluh detik kemudian"
+      },
+      "keys": [
+        {
+          "en": "“Which routes exactly?”",
+          "id": "“Rute yang mana persisnya?”"
+        },
+        {
+          "en": "“Did that answer it?”",
+          "id": "“Apakah itu sudah menjawab?”"
+        }
+      ],
+      "say": [
+        {
+          "en": "Her manager interrupts: which routes exactly? That is not an attack. It is a request to go lower, so Nisa goes to the ground.",
+          "id": "Manajernya memotong: rute yang mana persisnya? Itu bukan serangan. Itu permintaan untuk turun, maka Nisa turun ke darat."
+        },
+        {
+          "en": "Then she closes the loop with the cheapest quality check there is: did that answer it?",
+          "id": "Lalu ia menutup dengan pengecekan mutu yang paling murah: apakah itu sudah menjawab?"
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "quiet": true,
+      "kicker": {
+        "en": "In two lines",
+        "id": "Dalam dua kalimat"
+      },
+      "points": [
+        {
+          "en": "Design from *the reader's decision* backwards.",
+          "id": "Rancang mundur dari *keputusan pembacamu*."
+        },
+        {
+          "en": "Answer, reasons, evidence. *In that order.*",
+          "id": "Jawaban, alasan, bukti. *Dengan urutan itu.*"
+        }
+      ],
+      "turnLabel": {
+        "en": "Your turn.",
+        "id": "Giliranmu."
+      },
+      "turn": {
+        "en": "Rewrite your next update so that line one is the answer.",
+        "id": "Tulis ulang laporanmu berikutnya supaya baris pertamanya adalah jawabannya."
+      },
+      "say": [
+        {
+          "en": "Design from the reader's decision backwards.",
+          "id": "Rancang mundur dari keputusan pembacamu."
+        },
+        {
+          "en": "Answer, reasons, evidence. In that order.",
+          "id": "Jawaban, alasan, bukti. Dengan urutan itu."
+        },
+        {
+          "en": "Now it is your turn. Rewrite your next update so that line one is the answer.",
+          "id": "Sekarang giliranmu. Tulis ulang laporanmu berikutnya supaya baris pertamanya adalah jawabannya."
+        }
+      ]
+    },
+    {
+      "type": "end",
+      "hold": 3.5,
+      "title": {
+        "en": "The Map",
+        "id": "The Map"
+      },
+      "sub": {
+        "en": "An original Metanoia Labs learning film · © 2026 Metanoia Labs",
+        "id": "Film pembelajaran orisinal Metanoia Labs · © 2026 Metanoia Labs"
+      }
+    }
+  ]
+}

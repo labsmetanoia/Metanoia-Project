@@ -6394,8 +6394,8 @@ window.MT_LMS['the-map'] = {
         "id": "Komunikasi yang Berdampak: Materi"
        },
        "intro": {
-        "en": "Start with the deck. Five slides open Chapter 4: the promise of communication for impact (turn ideas into understanding and understanding into action); an introduction to the course and to the EPIC framework; the three people you will follow through the chapter (Aaliyah, Noah and Maryam), each with a challenge and a goal; the four steps of the EPIC approach at MODA (Empathy, Purpose, Insight, Conversation); and the key takeaways with resources to explore. Read them, then watch the two films below before the case in focus.",
-        "id": "Mulai dari deknya. Lima slide membuka Bab 4: janji komunikasi yang berdampak (mengubah gagasan menjadi pemahaman, dan pemahaman menjadi tindakan); pengantar kursus ini dan kerangka EPIC; tiga orang yang akan kamu ikuti sepanjang bab ini (Aaliyah, Noah, dan Maryam), masing-masing dengan tantangan dan tujuannya; empat langkah pendekatan EPIC di MODA (Empathy, Purpose, Insight, Conversation); dan poin penting beserta bacaan lanjutan. Baca semuanya, lalu tonton dua film di bawah sebelum masuk ke kasus sorotan."
+        "en": "Start with the deck. Five slides open Chapter 4: the promise of communication for impact (turn ideas into understanding and understanding into action); an introduction to the course and to the EPIC framework; the three people you will follow through the chapter (Aaliyah, Noah and Maryam), each with a challenge and a goal; the four steps of the EPIC approach at MODA (Empathy, Purpose, Insight, Conversation); and the key takeaways with resources to explore. Then watch the film that follows.",
+        "id": "Mulai dari deknya. Lima slide membuka Bab 4: janji komunikasi yang berdampak (mengubah gagasan menjadi pemahaman, dan pemahaman menjadi tindakan); pengantar kursus ini dan kerangka EPIC; tiga orang yang akan kamu ikuti sepanjang bab ini (Aaliyah, Noah, dan Maryam), masing-masing dengan tantangan dan tujuannya; empat langkah pendekatan EPIC di MODA (Empathy, Purpose, Insight, Conversation); dan poin penting beserta bacaan lanjutan. Setelah itu, tonton film yang menyusul."
        },
        "base": "../../assets/lms/the-map/slides/communication-",
        "slides": [
@@ -6461,8 +6461,8 @@ window.MT_LMS['the-map'] = {
         "id": "Seberapa Akrab Kamu dengan Empati? Materi"
        },
        "intro": {
-        "en": "After the films, three slides open the E of EPIC. The first asks how familiar you are with empathy and why it comes first: before any interaction you need to know where the other person is starting from, what they already know and what they think. The second defines what empathy is, and what it is not, with two examples and two non-examples from everyday conversations. The third returns to MODA: Aaliyah, Chief Transformation Officer, has invited Noah, Head of Digital, to an introductory meeting, and asks you to watch their conversation for moments of empathy. Read them, then watch the film below.",
-        "id": "Setelah film-film itu, tiga slide membuka huruf E dari EPIC. Slide pertama menanyakan seberapa akrab kamu dengan empati dan kenapa empati datang lebih dulu: sebelum berinteraksi, kamu perlu tahu dari mana orang lain berangkat, apa yang sudah mereka ketahui, dan apa pendapat mereka. Slide kedua menjelaskan apa itu empati, dan apa yang bukan empati, lewat dua contoh dan dua bukan contoh dari percakapan sehari-hari. Slide ketiga kembali ke MODA: Aaliyah, Chief Transformation Officer, mengundang Noah, Head of Digital, ke rapat perkenalan, dan memintamu menonton percakapan mereka untuk menemukan momen-momen empati. Baca semuanya, lalu tonton film di bawah."
+        "en": "Next, three slides open the E of EPIC. The first asks how familiar you are with empathy and why it comes first: before any interaction you need to know where the other person is starting from, what they already know and what they think. The second defines what empathy is, and what it is not, with two examples and two non-examples from everyday conversations. The third returns to MODA: Aaliyah, Chief Transformation Officer, has invited Noah, Head of Digital, to an introductory meeting, and asks you to watch their conversation for moments of empathy.",
+        "id": "Berikutnya, tiga slide membuka huruf E dari EPIC. Slide pertama menanyakan seberapa akrab kamu dengan empati dan kenapa empati datang lebih dulu: sebelum berinteraksi, kamu perlu tahu dari mana orang lain berangkat, apa yang sudah mereka ketahui, dan apa pendapat mereka. Slide kedua menjelaskan apa itu empati, dan apa yang bukan empati, lewat dua contoh dan dua bukan contoh dari percakapan sehari-hari. Slide ketiga kembali ke MODA: Aaliyah, Chief Transformation Officer, mengundang Noah, Head of Digital, ke rapat perkenalan, dan memintamu menonton percakapan mereka untuk menemukan momen-momen empati."
        },
        "base": "../../assets/lms/the-map/slides/empathy-",
        "slides": [
@@ -6508,8 +6508,8 @@ window.MT_LMS['the-map'] = {
         "id": "Bandingkan dengan Jawaban Ahli: Materi"
        },
        "intro": {
-        "en": "After the scene, one slide asks you to answer for yourself before you compare. Three questions on the conversation you just watched: what Noah could have done differently before walking in, where empathy entered the picture, and how Aaliyah felt at the end and what that means for their future interactions. Then the expert’s response to the first two, and two takeaways. Think through your own answers first, then read the expert’s, then watch the commentary film below.",
-        "id": "Setelah adegan itu, satu slide memintamu menjawab sendiri sebelum membandingkan. Ada tiga pertanyaan tentang percakapan yang baru kamu tonton: apa yang bisa dilakukan Noah secara berbeda sebelum masuk ke rapat, di mana empati muncul, dan bagaimana perasaan Aaliyah di akhir percakapan serta apa artinya bagi interaksi mereka berikutnya. Lalu ada jawaban ahli untuk dua pertanyaan pertama, dan dua poin penting. Pikirkan jawabanmu sendiri lebih dulu, baru baca jawaban ahlinya, lalu tonton film komentar di bawah."
+        "en": "Next, one slide asks you to answer for yourself before you compare. Three questions on the conversation you just watched: what Noah could have done differently before walking in, where empathy entered the picture, and how Aaliyah felt at the end and what that means for their future interactions. Then the expert’s response to the first two, and two takeaways.",
+        "id": "Berikutnya, satu slide memintamu menjawab sendiri sebelum membandingkan. Ada tiga pertanyaan tentang percakapan yang baru kamu tonton: apa yang bisa dilakukan Noah secara berbeda sebelum masuk ke rapat, di mana empati muncul, dan bagaimana perasaan Aaliyah di akhir percakapan serta apa artinya bagi interaksi mereka berikutnya. Lalu ada jawaban ahli untuk dua pertanyaan pertama, dan dua poin penting."
        },
        "base": "../../assets/lms/the-map/slides/expert-",
        "slides": [
@@ -6535,8 +6535,8 @@ window.MT_LMS['the-map'] = {
         "id": "Apa Itu Empati: Materi"
        },
        "intro": {
-        "en": "After the expert’s commentary, two slides set up the next film. The first introduces it: Kate explains why empathy is the starting point for all interactions and what mindset effective communication needs, and gives you something to watch for: have you ever caught yourself in an “over there” mindset? The second lays out the four key questions to ask yourself with empathy: how is the other person feeling, what do they care about, what is at stake for them, and how does that shape what is possible. Read them, then watch the film below.",
-        "id": "Setelah komentar ahli, dua slide menyiapkan film berikutnya. Slide pertama memperkenalkannya: Kate menjelaskan kenapa empati adalah titik awal semua interaksi dan pola pikir apa yang dibutuhkan komunikasi yang efektif, lalu memberimu sesuatu untuk diperhatikan: pernahkah kamu memergoki dirimu memakai pola pikir “di sini saja”? Slide kedua menjabarkan empat pertanyaan kunci yang perlu kamu ajukan pada dirimu dengan empati: bagaimana perasaan orang lain, apa yang ia pedulikan, apa yang dipertaruhkan baginya, dan bagaimana hal itu membentuk apa yang mungkin. Baca semuanya, lalu tonton film di bawah."
+        "en": "These slides cover “What Is Empathy”. Read them at your own pace.",
+        "id": "Slide-slide ini membahas “Apa Itu Empati”. Baca sesuai ritmemu."
        },
        "base": "../../assets/lms/the-map/slides/what-empathy-",
        "slides": [
@@ -6572,8 +6572,8 @@ window.MT_LMS['the-map'] = {
         "id": "Mendengarkan Secara Aktif: Materi"
        },
        "intro": {
-        "en": "After Kate’s film, seven slides turn empathy into practice. The first names four active-listening skills with example phrases (support and encouragement, reflect and summarise, offer help, dig deeper). Then two scenarios you answer yourself: Disaster 2.0, where MODA’s CEO Kobi Badu confronts Aaliyah about resistance to the transformation, and Help Noah, where Noah must tell Maryam the analysis scope has grown. Three exchanges, each with a knowledge check and the best empathetic response explained. Read them, choose your answer before you read the “That’s right!” panel, then continue to the slides that follow.",
-        "id": "Setelah film Kate, tujuh slide mengubah empati menjadi praktik. Slide pertama menyebut empat keterampilan mendengarkan secara aktif beserta contoh kalimatnya (memberi dukungan dan semangat, memantulkan dan merangkum, menawarkan bantuan, menggali lebih dalam). Lalu ada dua skenario yang kamu jawab sendiri: Bencana 2.0, ketika CEO MODA, Kobi Badu, mengonfrontasi Aaliyah soal penolakan terhadap transformasi; dan Bantu Noah, ketika Noah harus memberi tahu Maryam bahwa cakupan analisisnya bertambah. Ada tiga percakapan, masing-masing dengan cek pemahaman dan penjelasan tentang respons empatik yang terbaik. Baca semuanya, pilih jawabanmu sebelum membaca panel “Tepat sekali!”, lalu lanjutkan ke slide berikutnya."
+        "en": "Next, seven slides turn empathy into practice. The first names four active-listening skills with example phrases (support and encouragement, reflect and summarise, offer help, dig deeper). Then two scenarios you answer yourself: Disaster 2.0, where MODA’s CEO Kobi Badu confronts Aaliyah about resistance to the transformation, and Help Noah, where Noah must tell Maryam the analysis scope has grown. Three exchanges, each with a knowledge check and the best empathetic response explained. Read them, choose your answer before you read the “That’s right!” panel, then continue to the slides that follow.",
+        "id": "Berikutnya, tujuh slide mengubah empati menjadi praktik. Slide pertama menyebut empat keterampilan mendengarkan secara aktif beserta contoh kalimatnya (memberi dukungan dan semangat, memantulkan dan merangkum, menawarkan bantuan, menggali lebih dalam). Lalu ada dua skenario yang kamu jawab sendiri: Bencana 2.0, ketika CEO MODA, Kobi Badu, mengonfrontasi Aaliyah soal penolakan terhadap transformasi; dan Bantu Noah, ketika Noah harus memberi tahu Maryam bahwa cakupan analisisnya bertambah. Ada tiga percakapan, masing-masing dengan cek pemahaman dan penjelasan tentang respons empatik yang terbaik. Baca semuanya, pilih jawabanmu sebelum membaca panel “Tepat sekali!”, lalu lanjutkan ke slide berikutnya."
        },
        "base": "../../assets/lms/the-map/slides/listening-",
        "slides": [
@@ -6659,8 +6659,8 @@ window.MT_LMS['the-map'] = {
         "id": "Poin Penting: Materi"
        },
        "intro": {
-        "en": "Three slides close the empathy chapter and open the next one. The first is the wrap-up: the two tools you now hold (empathy and active listening), each with a key reminder, and three resources to explore. The second returns to MODA: Aaliyah is preparing a kick-off meeting with the transformation team, has a packed agenda, feels stuck, and calls David Fu, a senior employee and advisor to the team. The third asks you to think about Aaliyah’s purpose for that meeting and how she might achieve it, then compare with the expert’s response. Read them, write your own answer before you read the expert’s, then watch the two films below.",
-        "id": "Tiga slide menutup bab empati dan membuka bab berikutnya. Slide pertama adalah penutupnya: dua alat yang sekarang kamu pegang (empati dan mendengarkan secara aktif), masing-masing dengan pengingat utamanya, dan tiga bacaan lanjutan. Slide kedua kembali ke MODA: Aaliyah sedang menyiapkan rapat pembuka dengan tim transformasi, agendanya padat, ia merasa buntu, lalu menelepon David Fu, karyawan senior sekaligus penasihat tim. Slide ketiga memintamu memikirkan tujuan Aaliyah untuk rapat itu dan cara ia bisa mencapainya, lalu membandingkannya dengan jawaban ahli. Baca semuanya, tulis jawabanmu sendiri sebelum membaca jawaban ahlinya, lalu tonton dua film di bawah."
+        "en": "These slides cover “Key Takeaways”. Read them at your own pace.",
+        "id": "Slide-slide ini membahas “Poin Penting”. Baca sesuai ritmemu."
        },
        "base": "../../assets/lms/the-map/slides/empathy-takeaways-",
        "slides": [
@@ -6697,269 +6697,35 @@ window.MT_LMS['the-map'] = {
        ]
       }
      ],
-     "videoBlocks": [
+     "videos": [
       {
-       "key": "epic",
-       "placement": "after-material:1",
-       "kicker": {
-        "en": "Watch next · Chapter films",
-        "id": "Tonton berikutnya · Film bab"
+       "src": {
+        "en": "../../assets/lms/films/map-4-1-the-point-first-en.mp4",
+        "id": "../../assets/lms/films/map-4-1-the-point-first-id.mp4"
        },
-       "intro": {
-        "en": "Two films carry the deck into practice. The first checks in at MODA, the international retailer about to start a five-year digital transformation: Aaliyah, Noah and Maryam are on their way to work, each with a role in the change and a communication goal of their own. The second asks “What is EPIC?” and answers it step by step: Empathy before you chart a course, Purpose as the place you need to end up rather than the agenda, Insight chosen by chipping away like a sculptor, and Conversation planned as a two-way exchange, not a monologue. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
-        "id": "Dua film membawa isi dek ke dalam praktik. Film pertama mampir ke MODA, peritel internasional yang akan memulai transformasi digital lima tahun: Aaliyah, Noah, dan Maryam sedang dalam perjalanan ke kantor, masing-masing dengan perannya dalam perubahan itu dan tujuan komunikasinya sendiri. Film kedua bertanya “Apa itu EPIC?” dan menjawabnya langkah demi langkah: Empathy sebelum kamu menentukan arah, Purpose sebagai tempat yang perlu kamu capai di akhir, bukan sekadar agenda, Insight yang dipilih dengan memahat seperti pematung, dan Conversation yang direncanakan sebagai pertukaran dua arah, bukan monolog. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
+       "poster": {
+        "en": "../../assets/lms/films/map-4-1-the-point-first-en-poster.jpg",
+        "id": "../../assets/lms/films/map-4-1-the-point-first-id-poster.jpg"
        },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: EPIC before you speak",
-         "id": "Poin penting: EPIC sebelum kamu bicara"
-        },
-        "body": [
-         {
-          "en": "Preparation is the most neglected part of communication. EPIC makes it a habit (Empathy, Purpose, Insight, Conversation): four questions to answer before any meeting, presentation or one-to-one.",
-          "id": "Persiapan adalah bagian komunikasi yang paling sering diabaikan. EPIC menjadikannya kebiasaan (Empathy, Purpose, Insight, Conversation): empat pertanyaan yang perlu dijawab sebelum rapat, presentasi, atau obrolan empat mata apa pun."
-         },
-         {
-          "en": "Empathy means knowing where your audience is (their feelings, understanding and pressures), with no assumptions. Purpose is where you need them to end up, not just the meeting’s objective.",
-          "id": "Empati berarti tahu di mana posisi audiensmu (perasaannya, pemahamannya, dan tekanannya), tanpa asumsi. Purpose adalah tempat kamu ingin mereka berada di akhir, bukan sekadar sasaran rapatnya."
-         },
-         {
-          "en": "Insight is sculpture, not painting: chip away at everything you know until only the insights that serve the purpose remain. Then plan the Conversation: how you open, close, handle questions and involve people.",
-          "id": "Insight itu memahat, bukan melukis: pahat semua yang kamu ketahui sampai hanya tersisa wawasan yang melayani tujuannya. Lalu rencanakan Conversation-nya: cara kamu membuka, menutup, menjawab pertanyaan, dan melibatkan orang."
-         }
-        ]
+       "dur": {
+        "en": "1:52",
+        "id": "1:45"
        },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/communication-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/communication-1-poster.jpg",
-         "dur": "1:23",
-         "title": {
-          "en": "Checking in at MODA: meet Aaliyah, Noah and Maryam",
-          "id": "Mampir ke MODA: kenalan dengan Aaliyah, Noah, dan Maryam"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/communication-1-en.vtt",
-          "id": "../../assets/lms/the-map/communication-1-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/communication-2-brand.mp4",
-         "poster": "../../assets/lms/the-map/communication-2-poster.jpg",
-         "dur": "3:15",
-         "title": {
-          "en": "What is EPIC? Empathy, Purpose, Insight, Conversation",
-          "id": "Apa itu EPIC? Empathy, Purpose, Insight, Conversation"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/communication-2-en.vtt",
-          "id": "../../assets/lms/the-map/communication-2-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "empathy",
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch next · Scene film",
-        "id": "Tonton berikutnya · Film adegan"
-       },
-       "intro": {
-        "en": "Back at MODA. Aaliyah, the new Chief Transformation Officer, has invited Noah, Head of Digital, to an introductory meeting, and you hear what each of them is thinking on the way in: Noah remembers the last transformation his team did not enjoy and is hungry from a lunchtime slot; Aaliyah is juggling her mentorship initiative, her youth group and a transformation that started earlier than expected. Watch how the first exchange lands, where empathy shows up, and what the narrator asks you to notice: what is the other person thinking and feeling, and what is at stake for them? Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slide that follows.",
-        "id": "Kembali ke MODA. Aaliyah, Chief Transformation Officer yang baru, mengundang Noah, Head of Digital, ke rapat perkenalan, dan kamu bisa mendengar apa yang dipikirkan masing-masing dalam perjalanan masuk. Noah teringat transformasi sebelumnya yang tidak disukai timnya, dan perutnya lapar karena rapatnya di jam makan siang. Aaliyah sedang membagi pikiran antara program mentoringnya, kelompok pemudanya, dan transformasi yang dimulai lebih cepat dari perkiraan. Perhatikan bagaimana percakapan pertama mereka berjalan, di mana empati muncul, dan apa yang diminta narator untuk kamu perhatikan: apa yang dipikirkan dan dirasakan orang lain, dan apa yang dipertaruhkan baginya? Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: meet them where they stand",
-         "id": "Poin penting: temui mereka di tempat mereka berdiri"
-        },
-        "body": [
-         {
-          "en": "Both people walked into the meeting carrying something the other could not see. Empathy starts before the conversation: what are they thinking and feeling, why, and what is at stake for them?",
-          "id": "Kedua orang itu masuk ke rapat sambil membawa sesuatu yang tidak bisa dilihat orang lain. Empati dimulai sebelum percakapannya: apa yang mereka pikirkan dan rasakan, kenapa, dan apa yang dipertaruhkan bagi mereka?"
-         },
-         {
-          "en": "“Just share your plan and deadlines” answered Noah’s own worry, not Aaliyah’s situation. The reset (“How are you feeling in the new role?”) met her where she stood and opened the door to a real working relationship.",
-          "id": "“Bagikan saja rencana dan tenggatnya” menjawab kekhawatiran Noah sendiri, bukan situasi Aaliyah. Kalimat penyelamatnya (“Bagaimana perasaanmu di peran baru ini?”) menemui Aaliyah di tempat ia berdiri dan membuka pintu ke hubungan kerja yang sungguhan."
-         },
-         {
-          "en": "Empathy is not agreeing or fixing; it is listening for where someone is coming from, then adjusting what you say. Carry the three reflection questions from the deck into the case below.",
-          "id": "Empati bukan menyetujui atau memperbaiki. Empati adalah mendengarkan dari mana seseorang berangkat, lalu menyesuaikan apa yang kamu katakan. Bawa tiga pertanyaan renungan dari dek ke kasus di bawah."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/communication-3-brand.mp4",
-         "poster": "../../assets/lms/the-map/communication-3-poster.jpg",
-         "dur": "3:11",
-         "title": {
-          "en": "Back at MODA: Aaliyah meets Noah, was empathy at play?",
-          "id": "Kembali ke MODA: Aaliyah bertemu Noah, apakah ada empati di sana?"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/communication-3-en.vtt",
-          "id": "../../assets/lms/the-map/communication-3-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "expert",
-       "placement": "after-material:3",
-       "kicker": {
-        "en": "Watch next · Expert commentary",
-        "id": "Tonton berikutnya · Komentar ahli"
-       },
-       "intro": {
-        "en": "The expert looks back at the meeting. Noah pivoted to ask Aaliyah how she was handling everything, and that, the expert says, is what demonstrating empathy looks like: asking rather than assuming, giving the other person time and space, and listening. Aaliyah came in with her own agenda but opened a door early with “Is there anything else you’d like to talk about?”. Little steps like these go a long way in a business context. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Sang ahli menengok kembali rapat itu. Noah berbalik arah dan menanyakan bagaimana Aaliyah menghadapi semuanya, dan menurut sang ahli, itulah wujud menunjukkan empati: bertanya alih-alih berasumsi, memberi orang lain waktu dan ruang, lalu mendengarkan. Aaliyah datang dengan agendanya sendiri, tetapi membuka pintu sejak awal dengan bertanya “Ada hal lain yang ingin kamu bicarakan?”. Langkah-langkah kecil seperti ini sangat berarti dalam konteks bisnis. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: ask, don’t assume",
-         "id": "Poin penting: bertanya, jangan berasumsi"
-        },
-        "body": [
-         {
-          "en": "Empathy in a meeting is mostly a question and a pause: ask how the other person is handling things, then give them the time and space to answer, and listen.",
-          "id": "Empati dalam rapat sebagian besar berupa satu pertanyaan dan satu jeda: tanyakan bagaimana orang lain menghadapi keadaannya, beri ia waktu dan ruang untuk menjawab, lalu dengarkan."
-         },
-         {
-          "en": "Both sides can do it. Noah’s pivot built the first plank of a bridge; Aaliyah’s early “anything else?” made room for what was on his mind, even though the agenda was hers.",
-          "id": "Kedua pihak bisa melakukannya. Pertanyaan Noah memasang papan pertama sebuah jembatan; pertanyaan awal Aaliyah, “ada hal lain?”, memberi ruang bagi apa yang ada di pikiran Noah, meski agendanya milik Aaliyah."
-         },
-         {
-          "en": "Compare your three answers with the expert’s, then carry the habit into the case below: what did the intern in the update assume about her reader?",
-          "id": "Bandingkan tiga jawabanmu dengan jawaban ahlinya, lalu bawa kebiasaan ini ke kasus di bawah: apa yang diasumsikan si anak magang tentang pembacanya saat menulis kabar perkembangan itu?"
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/communication-4-brand.mp4",
-         "poster": "../../assets/lms/the-map/communication-4-poster.jpg",
-         "dur": "1:15",
-         "title": {
-          "en": "Expert commentary: what Noah and Aaliyah did, and could have done",
-          "id": "Komentar ahli: apa yang dilakukan Noah dan Aaliyah, dan apa yang bisa mereka lakukan"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/communication-4-en.vtt",
-          "id": "../../assets/lms/the-map/communication-4-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "what-empathy",
-       "placement": "after-material:4",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "Kate on what empathy is. All effective communication begins with it: you cannot know where you are going without understanding where you, and the other person, are coming from. She describes the mindset of an effective communicator as “over there” rather than “over here”: not wrapped up in your own agenda, timelines and inner dialogue, but open and curious about what the other person is thinking and feeling. Great listening is part of it (being present, asking, hearing what is said and not said), and she shows what its absence looks like when a text message lands mid-meeting. Even a minute to stop, breathe and think about the other person helps. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Kate tentang apa itu empati. Semua komunikasi yang efektif dimulai dari empati: kamu tidak bisa tahu ke mana kamu pergi tanpa memahami dari mana kamu, dan orang lain, berangkat. Ia menggambarkan pola pikir komunikator yang efektif sebagai “di sana”, bukan “di sini”: tidak tenggelam dalam agenda, tenggat, dan suara di kepalanya sendiri, tetapi terbuka dan ingin tahu tentang apa yang dipikirkan dan dirasakan orang lain. Mendengarkan dengan baik adalah bagian darinya (hadir sepenuhnya, bertanya, mendengar apa yang dikatakan dan yang tidak dikatakan), dan ia menunjukkan seperti apa jadinya kalau itu tidak ada, saat sebuah pesan singkat masuk di tengah rapat. Satu menit saja untuk berhenti, menarik napas, dan memikirkan orang lain sudah membantu. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: over there, not over here",
-         "id": "Poin penting: di sana, bukan di sini"
-        },
-        "body": [
-         {
-          "en": "Empathy is the starting point of every interaction: understand, or at least ask, what the other person is thinking and feeling, what matters to them, and how that shapes what is possible.",
-          "id": "Empati adalah titik awal setiap interaksi: pahami, atau setidaknya tanyakan, apa yang dipikirkan dan dirasakan orang lain, apa yang penting baginya, dan bagaimana hal itu membentuk apa yang mungkin."
-         },
-         {
-          "en": "“Over here” is your own agenda and inner dialogue; “over there” is open curiosity about theirs. People can tell which one you are in, and only one of them leads to real action.",
-          "id": "“Di sini” adalah agenda dan suara di kepalamu sendiri; “di sana” adalah rasa ingin tahu yang terbuka tentang orang lain. Orang bisa merasakan kamu sedang di posisi yang mana, dan hanya salah satunya yang membawa ke tindakan nyata."
-         },
-         {
-          "en": "Listening is the practice: be present, ask, hear what is said and unsaid. A minute to stop and breathe before a meeting makes “over there” easier, and the four key questions from the slides give you something to bring in. The slides that follow turn them into active-listening practice.",
-          "id": "Mendengarkan adalah praktiknya: hadir sepenuhnya, bertanya, dengarkan apa yang dikatakan dan tidak dikatakan. Semenit untuk berhenti dan menarik napas sebelum rapat membuat “di sana” lebih mudah, dan empat pertanyaan kunci dari slide memberimu bekal untuk dibawa masuk. Slide berikutnya mengubahnya menjadi latihan mendengarkan secara aktif."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/communication-5-brand.mp4",
-         "poster": "../../assets/lms/the-map/communication-5-poster.jpg",
-         "dur": "2:52",
-         "title": {
-          "en": "What is empathy? The “over there” mindset and great listening",
-          "id": "Apa itu empati? Pola pikir “di sana” dan mendengarkan dengan baik"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/communication-5-en.vtt",
-          "id": "../../assets/lms/the-map/communication-5-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "purpose",
-       "placement": "after-material:6",
-       "kicker": {
-        "en": "Watch next · Scene film & expert commentary",
-        "id": "Tonton berikutnya · Film adegan & komentar ahli"
-       },
-       "intro": {
-        "en": "Two films follow the takeaways. The first is back at MODA: Aaliyah has thirty minutes for the transformation team’s kick-off and five things she wants to cover: scope, deliverables, deadlines, ways of working, getting to know everyone. She calls David Fu, who asks the one question that helps: what are your top priorities? Then she catches Noah, working late, to gauge what the team needs. The second is the expert’s commentary: define a realistic purpose for the time you have, be clear about what can be achieved, and let people leave with a clear set of actions. Trying to do too much in one meeting is a recipe for disaster. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the case in focus below.",
-        "id": "Dua film menyusul poin penting tadi. Film pertama kembali ke MODA: Aaliyah punya tiga puluh menit untuk rapat pembuka tim transformasi dan lima hal yang ingin ia bahas: cakupan, hasil kerja, tenggat, cara kerja, dan saling mengenal. Ia menelepon David Fu, yang mengajukan satu pertanyaan yang membantu: apa prioritas utamamu? Lalu ia menemui Noah, yang sedang lembur, untuk mengukur apa yang dibutuhkan tim. Film kedua adalah komentar sang ahli: rumuskan tujuan yang realistis untuk waktu yang kamu punya, jelaskan apa yang bisa dicapai, dan biarkan orang pulang dengan daftar tindakan yang jelas. Mencoba melakukan terlalu banyak dalam satu rapat adalah resep bencana. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke kasus sorotan di bawah."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: a purpose that fits the time",
-         "id": "Poin penting: tujuan yang muat dalam waktunya"
-        },
-        "body": [
-         {
-          "en": "Five things in thirty minutes is a wish list, not a purpose. Ask what you want to get out of the meeting, then cut until it fits the time you actually have.",
-          "id": "Lima hal dalam tiga puluh menit adalah daftar keinginan, bukan tujuan. Tanyakan apa yang ingin kamu dapat dari rapat itu, lalu pangkas sampai muat dalam waktu yang benar-benar kamu punya."
-         },
-         {
-          "en": "Purpose includes the audience’s needs, not just yours. Aaliyah went to Noah before the meeting to find out what the team wanted to add; that is empathy applied to an agenda.",
-          "id": "Tujuan mencakup kebutuhan audiens, bukan hanya kebutuhanmu. Aaliyah menemui Noah sebelum rapat untuk mencari tahu apa yang ingin ditambahkan tim. Itulah empati yang diterapkan pada sebuah agenda."
-         },
-         {
-          "en": "A clear, well-directed purpose means people arrive knowing what is happening and leave with actions and commitments. Other topics can wait for another meeting.",
-          "id": "Tujuan yang jelas dan terarah berarti orang datang dengan tahu apa yang akan terjadi, dan pulang dengan tindakan dan komitmen. Topik lain bisa menunggu rapat berikutnya."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/communication-6-brand.mp4",
-         "poster": "../../assets/lms/the-map/communication-6-poster.jpg",
-         "dur": "1:54",
-         "title": {
-          "en": "Back at MODA: what is Aaliyah’s purpose for the kick-off?",
-          "id": "Kembali ke MODA: apa tujuan Aaliyah untuk rapat pembuka?"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/communication-6-en.vtt",
-          "id": "../../assets/lms/the-map/communication-6-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/communication-7-brand.mp4",
-         "poster": "../../assets/lms/the-map/communication-7-poster.jpg",
-         "dur": "0:50",
-         "title": {
-          "en": "Expert commentary: a realistic purpose for the time you have",
-          "id": "Komentar ahli: tujuan yang realistis untuk waktu yang kamu punya"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/communication-7-en.vtt",
-          "id": "../../assets/lms/the-map/communication-7-id.vtt"
-         }
-        }
-       ]
+       "title": {
+        "en": "The point first: five ways a message fails",
+        "id": "Intinya dulu: lima cara sebuah pesan gagal"
+       }
       }
-     ]
+     ],
+     "videosPlacement": "after-material:1",
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows these slides: Fajar, a careful update nobody finished reading, and the five ways a message fails. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide ini: Fajar, laporan rapi yang tak selesai dibaca, dan lima cara sebuah pesan gagal. Tonton, lalu lanjutkan ke slide berikutnya."
+     }
     },
     {
      "n": "4.2",
@@ -7183,8 +6949,8 @@ window.MT_LMS['the-map'] = {
         "id": "Apa Itu Purpose: Materi"
        },
        "intro": {
-        "en": "Start with the slide. It opens the P of EPIC: after considering your audience, their thoughts, feelings and perspective, you are ready to define the purpose of your interaction. A meeting can have many purposes (share information, get alignment, solve a problem, motivate action), but getting crystal clear on the message makes your communication land and helps you reach your objectives. It also sets a reflection for the film: think of a time you took the other person’s needs into account. How did that conversation go, and did it move things forward? Read it, then watch the film below before Exhibit 1.",
-        "id": "Mulailah dari slide ini. Slide ini membuka huruf P dalam EPIC. Setelah kamu memahami audiensmu (apa yang mereka pikirkan, rasakan, dan cara mereka memandang persoalan), kamu siap menentukan tujuan dari interaksimu. Satu rapat bisa punya banyak tujuan: berbagi informasi, menyamakan pandangan, memecahkan masalah, atau mendorong orang bertindak. Namun pesan yang benar-benar jelas akan membuat komunikasimu sampai dan membantumu mencapai sasaran. Slide ini juga memberi bahan renungan untuk film berikutnya: ingat saat kamu memperhitungkan kebutuhan orang lain. Bagaimana jalannya percakapan itu, dan apakah percakapan itu membawa kemajuan? Baca dulu, lalu tonton film di bawah sebelum masuk ke Gambar 1."
+        "en": "These slides cover “What Is Purpose”. Read them at your own pace. Then watch the film that follows.",
+        "id": "Slide-slide ini membahas “Apa Itu Purpose”. Baca sesuai ritmemu. Setelah itu, tonton film yang menyusul."
        },
        "base": "../../assets/lms/the-map/slides/purpose-",
        "slides": [
@@ -7210,8 +6976,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pertanyaan Kunci: Materi"
        },
        "intro": {
-        "en": "After Kate’s film, nine slides put purpose to work. The first two recap the key questions (who is my audience, what do I want to achieve, what is in it for them, how can I communicate it most effectively) and the three reflection questions that balance your goals with the other person’s and the greater goal. Then a practice scenario: help Aaliyah agree the kick-off agenda with Noah across four exchanges, each with a knowledge check and the best answer explained. A reflection on a past interaction follows, and the key takeaways close the chapter with two resources. Read them, choose your answer before you read the “Correct!” panel, then continue to the slide that follows.",
-        "id": "Setelah film Kate, sembilan slide ini mempraktikkan purpose. Dua slide pertama merangkum pertanyaan kunci (siapa audiensku, apa yang ingin kucapai, apa untungnya bagi mereka, bagaimana cara paling efektif menyampaikannya) serta tiga pertanyaan renungan yang menyeimbangkan tujuanmu, tujuan orang lain, dan tujuan yang lebih besar. Lalu ada skenario latihan: bantu Aaliyah menyepakati agenda rapat perdana bersama Noah dalam empat babak percakapan, masing-masing dengan cek pemahaman dan penjelasan jawaban terbaiknya. Setelah itu ada renungan tentang interaksi di masa lalu, dan bab ini ditutup dengan poin-poin penting serta dua bacaan tambahan. Baca semuanya, tentukan jawabanmu sebelum membaca panel \"Benar!\", lalu lanjutkan ke slide berikutnya."
+        "en": "Next, nine slides put purpose to work. The first two recap the key questions (who is my audience, what do I want to achieve, what is in it for them, how can I communicate it most effectively) and the three reflection questions that balance your goals with the other person’s and the greater goal. Then a practice scenario: help Aaliyah agree the kick-off agenda with Noah across four exchanges, each with a knowledge check and the best answer explained. A reflection on a past interaction follows, and the key takeaways close the chapter with two resources. Read them, choose your answer before you read the “Correct!” panel, then continue to the slide that follows.",
+        "id": "Berikutnya, sembilan slide ini mempraktikkan purpose. Dua slide pertama merangkum pertanyaan kunci (siapa audiensku, apa yang ingin kucapai, apa untungnya bagi mereka, bagaimana cara paling efektif menyampaikannya) serta tiga pertanyaan renungan yang menyeimbangkan tujuanmu, tujuan orang lain, dan tujuan yang lebih besar. Lalu ada skenario latihan: bantu Aaliyah menyepakati agenda rapat perdana bersama Noah dalam empat babak percakapan, masing-masing dengan cek pemahaman dan penjelasan jawaban terbaiknya. Setelah itu ada renungan tentang interaksi di masa lalu, dan bab ini ditutup dengan poin-poin penting serta dua bacaan tambahan. Baca semuanya, tentukan jawabanmu sebelum membaca panel \"Benar!\", lalu lanjutkan ke slide berikutnya."
        },
        "base": "../../assets/lms/the-map/slides/purpose-questions-",
        "slides": [
@@ -7317,8 +7083,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kembali ke MODA: Materi"
        },
        "intro": {
-        "en": "One slide continues the scenario. Aaliyah has asked Noah to identify which of his team’s new ideas MODA should invest in as part of the transformation; Noah asks Maryam to gather and analyse ideas from across the Digital team and find the best ones. Three roles, one objective: identify the most effective new ideas to support MODA’s transformation. Read it, then watch the film below; it shows what happens when Maryam brings everything she found to Noah.",
-        "id": "Satu slide ini melanjutkan skenarionya. Aaliyah meminta Noah menentukan ide-ide baru dari timnya yang layak didanai MODA sebagai bagian dari transformasi. Noah lalu meminta Maryam mengumpulkan dan menganalisis ide dari seluruh tim Digital dan menemukan yang terbaik. Tiga peran, satu sasaran: menemukan ide baru yang paling efektif untuk mendukung transformasi MODA. Baca dulu, lalu tonton film di bawah. Film itu memperlihatkan apa yang terjadi ketika Maryam membawa semua temuannya kepada Noah."
+        "en": "One slide continues the scenario. Aaliyah has asked Noah to identify which of his team’s new ideas MODA should invest in as part of the transformation; Noah asks Maryam to gather and analyse ideas from across the Digital team and find the best ones. Three roles, one objective: identify the most effective new ideas to support MODA’s transformation.",
+        "id": "Satu slide ini melanjutkan skenarionya. Aaliyah meminta Noah menentukan ide-ide baru dari timnya yang layak didanai MODA sebagai bagian dari transformasi. Noah lalu meminta Maryam mengumpulkan dan menganalisis ide dari seluruh tim Digital dan menemukan yang terbaik. Tiga peran, satu sasaran: menemukan ide baru yang paling efektif untuk mendukung transformasi MODA."
        },
        "base": "../../assets/lms/the-map/slides/purpose-moda-",
        "slides": [
@@ -7344,8 +7110,8 @@ window.MT_LMS['the-map'] = {
         "id": "Bantu Maryam Merapikan Strukturnya: Materi"
        },
        "intro": {
-        "en": "Five slides. First, a scenario check: after meeting Noah, Maryam groups like facts together and has three pieces of information left. Which one does not belong with the others? The slide shows the answer. Then the material moves to the I of EPIC: what an insight is and why it drives action, the key questions to ask yourself with insight, and an activity in which you help Aaliyah tell insights apart from data and general information. Use the arrows or swipe to move between slides; the deck follows your platform language. Read all five, then continue to the film that follows.",
-        "id": "Lima slide. Pertama, cek skenario: setelah bertemu Noah, Maryam mengelompokkan fakta-fakta yang sejenis dan masih menyisakan tiga informasi. Mana yang tidak cocok dengan dua lainnya? Jawabannya ada di slide. Setelah itu materi beralih ke huruf I dalam EPIC: apa itu insight dan kenapa insight mendorong tindakan, pertanyaan kunci yang perlu kamu ajukan soal insight, dan sebuah aktivitas untuk membantu Aaliyah membedakan insight dari data dan informasi umum. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Baca kelimanya, lalu lanjutkan ke film berikutnya."
+        "en": "Five slides. First, a scenario check: after meeting Noah, Maryam groups like facts together and has three pieces of information left. Which one does not belong with the others? The slide shows the answer. Then the material moves to the I of EPIC: what an insight is and why it drives action, the key questions to ask yourself with insight, and an activity in which you help Aaliyah tell insights apart from data and general information. Use the arrows or swipe to move between slides; the deck follows your platform language.",
+        "id": "Lima slide. Pertama, cek skenario: setelah bertemu Noah, Maryam mengelompokkan fakta-fakta yang sejenis dan masih menyisakan tiga informasi. Mana yang tidak cocok dengan dua lainnya? Jawabannya ada di slide. Setelah itu materi beralih ke huruf I dalam EPIC: apa itu insight dan kenapa insight mendorong tindakan, pertanyaan kunci yang perlu kamu ajukan soal insight, dan sebuah aktivitas untuk membantu Aaliyah membedakan insight dari data dan informasi umum. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu."
        },
        "base": "../../assets/lms/the-map/slides/purpose-structure-",
        "slides": [
@@ -7402,149 +7168,35 @@ window.MT_LMS['the-map'] = {
        ]
       }
      ],
-     "videoBlocks": [
+     "videos": [
       {
-       "key": "purpose",
-       "placement": "after-material:1",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
+       "src": {
+        "en": "../../assets/lms/films/map-4-2-answer-first-en.mp4",
+        "id": "../../assets/lms/films/map-4-2-answer-first-id.mp4"
        },
-       "intro": {
-        "en": "Kate on purpose, the second part of EPIC. Purpose is defining what you want to get out of an interaction, but not only your needs and wants: the other person’s too. She defines it three ways: given how the other person feels and thinks about the topic, what is realistically achievable in this meeting; what are your goals for it; and what are theirs. Defined this way, purpose makes the interaction genuinely inclusive and two-way: a dialogue that builds the relationship over the longer term, not a one-way transmission of your ideas. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Kate membahas purpose, bagian kedua dari EPIC. Purpose berarti menentukan apa yang ingin kamu dapat dari sebuah interaksi, dan bukan hanya kebutuhan dan keinginanmu, tetapi juga milik orang lain. Ia mendefinisikannya dengan tiga cara: dengan melihat bagaimana perasaan dan pikiran orang lain tentang topiknya, apa yang realistis bisa dicapai dalam rapat ini; apa tujuanmu; dan apa tujuan mereka. Kalau didefinisikan seperti ini, purpose membuat interaksi benar-benar inklusif dan dua arah: sebuah dialog yang membangun hubungan dalam jangka panjang, bukan penyampaian idemu secara satu arah. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
+       "poster": {
+        "en": "../../assets/lms/films/map-4-2-answer-first-en-poster.jpg",
+        "id": "../../assets/lms/films/map-4-2-answer-first-id-poster.jpg"
        },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: purpose has three parts",
-         "id": "Poin penting: purpose punya tiga bagian"
-        },
-        "body": [
-         {
-          "en": "Purpose is what you want out of the interaction, and what the other person wants. Define both, or you are transmitting, not communicating.",
-          "id": "Purpose adalah apa yang ingin kamu dapat dari interaksi, dan apa yang ingin didapat orang lain. Tentukan keduanya. Kalau tidak, kamu hanya menyampaikan, bukan berkomunikasi."
-         },
-         {
-          "en": "Three questions set it: what is realistically achievable given where they are, what are your goals, what are theirs. Empathy from the previous lesson feeds the first one.",
-          "id": "Tiga pertanyaan menentukannya: apa yang realistis bisa dicapai mengingat posisi mereka saat ini, apa tujuanmu, dan apa tujuan mereka. Empati dari pelajaran sebelumnya menjadi bahan untuk pertanyaan pertama."
-         },
-         {
-          "en": "A shared purpose makes the meeting a two-way dialogue and builds the relationship. The slides that follow give you the questions to set it, a practice conversation with Noah, and a reflection.",
-          "id": "Tujuan bersama membuat rapat menjadi dialog dua arah dan membangun hubungan. Slide berikutnya memberimu pertanyaan untuk menentukannya, latihan percakapan dengan Noah, dan sebuah renungan."
-         }
-        ]
+       "dur": {
+        "en": "1:54",
+        "id": "1:48"
        },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/purpose-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/purpose-1-poster.jpg",
-         "dur": "1:11",
-         "title": {
-          "en": "Communicating with purpose: yours, theirs, and what is achievable",
-          "id": "Berkomunikasi dengan tujuan: tujuanmu, tujuan mereka, dan apa yang bisa dicapai"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/purpose-1-en.vtt",
-          "id": "../../assets/lms/the-map/purpose-1-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "moda-ideas",
-       "placement": "after-material:3",
-       "kicker": {
-        "en": "Watch next · Scene film",
-        "id": "Tonton berikutnya · Film adegan"
-       },
-       "intro": {
-        "en": "Back at MODA. Maryam has spent a week collecting the reasons behind the Digital team’s top three ideas (Penelope’s in-store self-serve tablets, Harry’s point-of-sale integration, a favourable vendor deal) and pours all of it out in one go. Noah has to cut in: interesting, but have we answered why these are the best ideas to pursue? He shows her how to structure it for the meeting with Aaliyah: lead with the answer (the governing thought); expect the “why?” or “how?” it raises; answer it at the next level (the key line); support that with grouped facts and their “so what”. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Kembali ke MODA. Maryam sudah seminggu mengumpulkan alasan di balik tiga ide teratas tim Digital (tablet layanan mandiri di toko usulan Penelope, integrasi sistem kasir usulan Harry, dan kesepakatan vendor yang menguntungkan), lalu menumpahkan semuanya sekaligus. Noah terpaksa memotong: menarik, tapi apakah kita sudah menjawab kenapa ide-ide ini yang terbaik untuk dijalankan? Ia menunjukkan cara menyusunnya untuk rapat dengan Aaliyah: buka dengan jawabannya (gagasan utama); antisipasi pertanyaan \"kenapa?\" atau \"bagaimana?\" yang muncul darinya; jawab di tingkat berikutnya (garis kunci); lalu dukung dengan fakta-fakta yang dikelompokkan beserta \"lalu kenapa\"-nya. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: lead with the answer",
-         "id": "Poin penting: buka dengan jawaban"
-        },
-        "body": [
-         {
-          "en": "All the right pieces are not yet a message. Maryam had a week of good work and no answer to the one question Aaliyah would ask: why these three?",
-          "id": "Semua kepingan yang tepat belum otomatis menjadi pesan. Maryam sudah bekerja keras seminggu, tetapi belum punya jawaban untuk satu pertanyaan yang pasti diajukan Aaliyah: kenapa tiga ide ini?"
-         },
-         {
-          "en": "Lead with the governing thought, then answer the question it raises at the key line, then support each key line with grouped facts. Every level answers the “why?” or “how?” of the one above.",
-          "id": "Buka dengan gagasan utama, lalu jawab pertanyaan yang muncul darinya di garis kunci, lalu dukung setiap garis kunci dengan fakta yang dikelompokkan. Setiap tingkat menjawab \"kenapa?\" atau \"bagaimana?\" dari tingkat di atasnya."
-         },
-         {
-          "en": "Group what you have collected, find the themes, and name the “so what” of each group. The slides that follow put you in Maryam’s seat: which fact does not belong with the others, and what an insight really is.",
-          "id": "Kelompokkan apa yang sudah kamu kumpulkan, temukan temanya, dan sebutkan \"lalu kenapa\" dari setiap kelompok. Slide berikutnya menempatkanmu di posisi Maryam: fakta mana yang tidak cocok dengan yang lain, dan apa sebenarnya insight itu."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/purpose-2-brand.mp4",
-         "poster": "../../assets/lms/the-map/purpose-2-poster.jpg",
-         "dur": "2:36",
-         "title": {
-          "en": "Back at MODA: Maryam’s findings and the governing thought",
-          "id": "Kembali ke MODA: temuan Maryam dan gagasan utama"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/purpose-2-en.vtt",
-          "id": "../../assets/lms/the-map/purpose-2-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "insight",
-       "placement": "after-material:4",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "Kate opens the I of EPIC: insight. Data is the raw material (numbers, anecdotes); information has been prepared a little; an insight takes time, reflection, and a “so what?”: why is this relevant, what is compelling, why does it make a difference to your audience? She sets out the three ways to think about insight (the key insights to bring to the interaction, the storyline that conveys them, and the visual aids and media you choose) and points ahead to structuring your message, and to the difference between summary and synthesis. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below.",
-        "id": "Kate membuka huruf I dalam EPIC: insight. Data adalah bahan mentah (angka, cerita lapangan); informasi sudah sedikit diolah; insight butuh waktu, perenungan, dan jawaban atas \"lalu kenapa?\": kenapa ini relevan, apa yang membuatnya meyakinkan, dan kenapa ini berpengaruh bagi audiensmu? Ia memaparkan tiga cara memikirkan insight (insight utama yang dibawa ke interaksi, alur cerita yang menyampaikannya, serta alat bantu visual dan media yang kamu pilih) dan memberi gambaran tentang materi selanjutnya: menyusun pesan, dan perbedaan antara ringkasan dan sintesis. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Gambar 1 di bawah."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: hold a high bar for insight",
-         "id": "Poin penting: pasang standar tinggi untuk insight"
-        },
-        "body": [
-         {
-          "en": "Data is raw material and information is prepared data. An insight is neither: it takes time, reflection, and a “so what?” Why it is relevant, what is compelling, why it makes a difference to your audience.",
-          "id": "Data adalah bahan mentah dan informasi adalah data yang sudah diolah. Insight bukan keduanya. Insight butuh waktu, perenungan, dan jawaban atas \"lalu kenapa?\": kenapa ini relevan, apa yang membuatnya meyakinkan, dan kenapa ini berpengaruh bagi audiensmu."
-         },
-         {
-          "en": "Boiling the ocean does not help. Ask what key insights you want to bring to this meeting, which storyline carries them, and which visual aids and media will shape how people receive and act on them.",
-          "id": "Mencoba membahas semuanya tidak membantu. Tanyakan insight utama apa yang ingin kamu bawa ke rapat ini, alur cerita mana yang membawanya, serta alat bantu visual dan media apa yang akan membentuk cara orang menerima dan menindaklanjutinya."
-         },
-         {
-          "en": "Structure is how insight travels. Exhibit 1 below gives you the three altitudes to announce as you climb and descend through your message.",
-          "id": "Struktur adalah kendaraan bagi insight. Gambar 1 di bawah memberimu tiga ketinggian untuk diumumkan setiap kali kamu naik dan turun dalam pesanmu."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/purpose-3-brand.mp4",
-         "poster": "../../assets/lms/the-map/purpose-3-poster.jpg",
-         "dur": "2:48",
-         "title": {
-          "en": "How structure enables insight",
-          "id": "Bagaimana struktur memungkinkan insight"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/purpose-3-en.vtt",
-          "id": "../../assets/lms/the-map/purpose-3-id.vtt"
-         }
-        }
-       ]
+       "title": {
+        "en": "Answer first: designing a message from the reader backwards",
+        "id": "Jawaban dulu: merancang pesan mundur dari pembacanya"
+       }
       }
-     ]
+     ],
+     "videosPlacement": "after-material:1",
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows this slide: Nisa, a manager with ninety seconds, and a message built from the reader backwards. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide ini: Nisa, manajer yang hanya punya sembilan puluh detik, dan pesan yang dirancang mundur dari pembacanya. Tonton, lalu lanjutkan ke slide berikutnya."
+     }
     },
     {
      "n": "4.3",
@@ -7708,316 +7360,6 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videoBlocks": [
-      {
-       "key": "why-structure",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "The film the slide points to. Elizabeth Hioe opens: every argument needs a logical, airtight structure, because without one you lose your audience and you stop controlling the takeaways. Hioe describes an executive with great energy and conviction (all charisma, no content) who found that every team had taken away something different, and only a restructured message moved them in the same direction. Akash Shah, a former partner, and Mark Wiseman, an external advisor, then take it into the trading floor, the sales call and the banker’s follow-up: simplify, simplify, and simplify again; distil the 80-page pitch to a few clear thoughts, and make it easy for the other side to go back and get the approvals they need. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slide that follows.",
-        "id": "Ini film yang dirujuk slide tadi. Elizabeth Hioe membuka dengan satu prinsip: setiap argumen butuh struktur yang logis dan rapat, karena tanpa itu kamu kehilangan audiens dan tidak lagi bisa mengendalikan apa yang mereka tangkap. Hioe bercerita tentang seorang eksekutif yang penuh energi dan keyakinan (karismanya besar, isinya kosong). Ternyata setiap tim menangkap pesan yang berbeda, dan baru setelah pesannya disusun ulang semua tim bergerak ke arah yang sama. Akash Shah, mantan partner, dan Mark Wiseman, penasihat eksternal, lalu membawanya ke lantai perdagangan, panggilan penjualan, dan tindak lanjut seorang bankir: sederhanakan, sederhanakan, dan sederhanakan lagi; padatkan presentasi 80 halaman menjadi beberapa gagasan yang jelas, dan permudah pihak lain untuk kembali ke kantornya dan mendapatkan persetujuan yang mereka perlukan. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: structure is how you keep the message",
-         "id": "Poin penting: struktur menjaga pesanmu"
-        },
-        "body": [
-         {
-          "en": "Charisma without structure does not control the takeaway. The executive’s teams each heard a different message; a logical grouping of ideas and supporting arguments was what finally moved them together.",
-          "id": "Karisma tanpa struktur tidak mengendalikan apa yang ditangkap audiens. Setiap tim sang eksekutif mendengar pesan yang berbeda. Yang akhirnya menyatukan mereka adalah ide dan argumen pendukung yang dikelompokkan secara logis."
-         },
-         {
-          "en": "Simplify, then simplify again. Distil the discourse to its core principles so the other side can absorb it and, more importantly, replay it to the people whose approval they need.",
-          "id": "Sederhanakan, lalu sederhanakan lagi. Padatkan pembahasan sampai tinggal prinsip intinya, supaya pihak lain bisa mencernanya dan, yang lebih penting, menyampaikannya ulang kepada orang-orang yang persetujuannya mereka butuhkan."
-         },
-         {
-          "en": "The small investment before the call or the meeting is always worth it, even when it shortens the time you get. The Pyramid Principle slide that follows gives that structure a name and a shape.",
-          "id": "Investasi kecil sebelum panggilan atau rapat selalu sepadan, bahkan kalau waktu yang kamu dapat jadi lebih pendek. Slide Prinsip Piramida berikutnya memberi nama dan bentuk untuk struktur itu."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/cases-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/cases-1-poster.jpg",
-         "dur": "5:15",
-         "title": {
-          "en": "Why structure communications",
-          "id": "Kenapa komunikasi perlu disusun"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/cases-1-en.vtt",
-          "id": "../../assets/lms/the-map/cases-1-id.vtt"
-         }
-        }
-       ],
-       "placement": "after-material:1"
-      },
-      {
-       "key": "pyramid",
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch next · 2 lesson films",
-        "id": "Tonton berikutnya · 2 film pelajaran"
-       },
-       "intro": {
-        "en": "Two films on the pyramid. The first: you have about two minutes before you lose the room, so start with your main point and layer the support beneath it. A governing thought at the top (the answer to the question you were asked), three to five key line statements that answer why or how, and the foundational facts that synthesise up into them. The second: you communicate top-down but build bottom-up: a commercial bank with 25 initiatives regrouped into three thematic programmes with no gaps or overlaps, and an executive whose laundry list of client messages became three themes under one governing thought. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
-        "id": "Dua film tentang piramida. Film pertama: kamu hanya punya sekitar dua menit sebelum perhatian ruangan hilang, jadi mulailah dari poin utamamu dan susun pendukungnya di bawah. Gagasan utama di puncak (jawaban atas pertanyaan yang diajukan kepadamu), tiga sampai lima pernyataan garis kunci yang menjawab kenapa atau bagaimana, dan fakta dasar yang disintesis naik menjadi garis kunci itu. Film kedua: kamu menyampaikan dari atas ke bawah, tetapi membangunnya dari bawah ke atas. Contohnya sebuah bank komersial dengan 25 inisiatif yang dikelompokkan ulang menjadi tiga program bertema tanpa celah dan tanpa tumpang tindih, dan seorang eksekutif yang daftar panjang pesannya untuk klien berubah menjadi tiga tema di bawah satu gagasan utama. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: say it top-down, build it bottom-up",
-         "id": "Poin penting: sampaikan dari atas, bangun dari bawah"
-        },
-        "body": [
-         {
-          "en": "Two minutes is the budget. Lead with the governing thought, the answer to the question you were asked, then three to five key lines that answer why or how, then the facts. More than five and people get lost.",
-          "id": "Jatahmu dua menit. Buka dengan gagasan utama, yaitu jawaban atas pertanyaan yang diajukan kepadamu, lalu tiga sampai lima garis kunci yang menjawab kenapa atau bagaimana, lalu faktanya. Lebih dari lima, orang mulai tersesat."
-         },
-         {
-          "en": "Building it is the slow part. Lay the facts out, group them, and keep moving them until the groups are comprehensive and mutually exclusive: no gaps, no overlaps. Twenty-five initiatives became three programmes that way.",
-          "id": "Membangunnya adalah bagian yang lambat. Jajarkan faktanya, kelompokkan, dan terus pindahkan sampai kelompoknya lengkap dan saling lepas: tanpa celah, tanpa tumpang tindih. Dengan cara itulah 25 inisiatif menjadi tiga program."
-         },
-         {
-          "en": "Write every message on a note and sort them by level: some are governing thoughts, some are key lines, most are supporting points. The slides that follow show how the groupings become key lines and a governing thought, and let you try it on the MODA yoga-studio case.",
-          "id": "Tulis setiap pesan di selembar catatan dan urutkan menurut tingkatannya. Sebagian adalah gagasan utama, sebagian garis kunci, dan sebagian besar poin pendukung. Slide berikutnya menunjukkan bagaimana kelompok-kelompok itu menjadi garis kunci dan gagasan utama, lalu mengajakmu mencobanya pada kasus studio yoga MODA."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/cases-2-brand.mp4",
-         "poster": "../../assets/lms/the-map/cases-2-poster.jpg",
-         "dur": "2:29",
-         "title": {
-          "en": "The Pyramid Principle",
-          "id": "Prinsip Piramida"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/cases-2-en.vtt",
-          "id": "../../assets/lms/the-map/cases-2-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/cases-3-brand.mp4",
-         "poster": "../../assets/lms/the-map/cases-3-poster.jpg",
-         "dur": "3:36",
-         "title": {
-          "en": "Building a pyramid",
-          "id": "Membangun piramida"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/cases-3-en.vtt",
-          "id": "../../assets/lms/the-map/cases-3-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "synthesize",
-       "placement": "after-material:3",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "The film the synthesis slide points to. Once your facts sit in logical groupings, each group needs a headline, and not a summary but a synthesis: the “so what”, the deeper insight, why these things belong together. A summary cites the facts back in short form; a synthesis gives the insight they create together and tees up the implication: and therefore we should X. The worked example is a request to a CFO for sales resources (five market facts as a summary, then one line of synthesis), and the closing story is a colleague whose compelling facts fell apart in front of a senior executive who asked “what’s your point?” The colleague lost the “so what”, credibility, and the executive’s patience. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Ini film yang dirujuk slide sintesis. Setelah fakta-faktamu tersusun dalam kelompok yang logis, setiap kelompok butuh judul, dan judulnya bukan ringkasan melainkan sintesis: \"lalu kenapa\"-nya, insight yang lebih dalam, alasan kenapa hal-hal itu satu kelompok. Ringkasan hanya mengulang fakta dalam bentuk pendek. Sintesis menyampaikan insight yang lahir dari fakta-fakta itu bersama-sama dan menyiapkan implikasinya: maka kita sebaiknya melakukan X. Contoh yang dibahas adalah permintaan sumber daya penjualan kepada seorang CFO (lima fakta pasar sebagai ringkasan, lalu satu kalimat sintesis). Cerita penutupnya tentang seorang rekan yang fakta-faktanya meyakinkan, tetapi runtuh di depan seorang eksekutif senior yang bertanya, \"Jadi intinya apa?\" Rekan itu kehilangan \"lalu kenapa\"-nya, kredibilitasnya, dan kesabaran sang eksekutif. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: headline with the “so what”",
-         "id": "Poin penting: beri judul dengan \"lalu kenapa\""
-        },
-        "body": [
-         {
-          "en": "A summary condenses the facts; a synthesis says what they mean together. The more senior your audience, the less a summary is enough.",
-          "id": "Ringkasan memadatkan fakta; sintesis menyampaikan apa artinya fakta-fakta itu bersama-sama. Semakin senior audiensmu, semakin tidak cukup sebuah ringkasan."
-         },
-         {
-          "en": "Synthesis tees up the implication, “and therefore we should X”, which is what makes the argument compelling and the ask fundable.",
-          "id": "Sintesis menyiapkan implikasinya, \"maka kita sebaiknya melakukan X\", dan itulah yang membuat argumenmu meyakinkan dan permintaanmu layak didanai."
-         },
-         {
-          "en": "Without it you lose three things: the “so what”, your standing as the person in command of the conclusion, and the executive’s patience. Lead with the synthesis so the facts sound like support, not random points. The slides that follow turn the synthesised pyramid into a storyline for the room.",
-          "id": "Tanpa sintesis kamu kehilangan tiga hal: \"lalu kenapa\"-nya, posisimu sebagai orang yang menguasai kesimpulannya, dan kesabaran sang eksekutif. Buka dengan sintesis supaya fakta-faktanya terdengar sebagai pendukung, bukan poin acak. Slide berikutnya mengubah piramida yang sudah disintesis menjadi alur cerita untuk disampaikan di ruangan."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/cases-4-brand.mp4",
-         "poster": "../../assets/lms/the-map/cases-4-poster.jpg",
-         "dur": "4:18",
-         "title": {
-          "en": "Great communicators synthesize",
-          "id": "Komunikator hebat melakukan sintesis"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/cases-4-en.vtt",
-          "id": "../../assets/lms/the-map/cases-4-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "storyline",
-       "placement": "after-material:4",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "The film the first slide points to. Kate turns the structure into a storyline and draws the line between two different things: storylining is converting your pyramid and your synthesis into a prose version (often a dot-dash outline of the key points you want to get across, the order they come in, and the supporting evidence); storytelling is the different art of engaging, hooking and inspiring your audience. The structure and the clarity of the message are critical; the order the story is told in matters too. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Ini film yang dirujuk slide pertama. Kate mengubah struktur menjadi alur cerita dan membedakan dua hal yang berbeda. Menyusun alur cerita (storylining) berarti mengubah piramida dan sintesismu menjadi versi prosa (sering kali kerangka berpoin berisi poin-poin utama yang ingin kamu sampaikan, urutannya, dan bukti pendukungnya). Bercerita (storytelling) adalah seni lain: cara memikat, melibatkan, dan menginspirasi audiens. Struktur dan kejelasan pesan sangat penting, dan urutan penyampaian ceritanya juga berpengaruh. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: storyline first, story second",
-         "id": "Poin penting: alur cerita dulu, cerita kemudian"
-        },
-        "body": [
-         {
-          "en": "A storyline is the outline of the key points you want to get across, in order, with the evidence under each. It is your pyramid and synthesis rewritten as prose or dot-dash.",
-          "id": "Alur cerita adalah kerangka poin-poin utama yang ingin kamu sampaikan, berurutan, dengan bukti di bawah masing-masing. Alur cerita adalah piramida dan sintesismu yang ditulis ulang sebagai prosa atau kerangka berpoin."
-         },
-         {
-          "en": "Storytelling is a different art: how you hook, engage and inspire the audience. Get the storyline right first; the order and the angles come after.",
-          "id": "Bercerita adalah seni yang berbeda: bagaimana kamu memikat, melibatkan, dan menginspirasi audiens. Benahi dulu alur ceritanya; urutan dan sudut pandangnya menyusul."
-         },
-         {
-          "en": "The five-part formula on slide 2 (introduction, key question, recommendation, supporting arguments, conclusion) is a storyline. The slides that follow adapt a storyline for a different audience, check it on Noah’s elevator pitch, and set up Aaliyah’s video call.",
-          "id": "Rumus lima bagian di slide 2 (pembuka, pertanyaan kunci, rekomendasi, argumen pendukung, penutup) adalah sebuah alur cerita. Slide berikutnya menyesuaikan alur cerita untuk audiens yang berbeda, mengujinya pada elevator pitch Noah, dan menyiapkan panggilan video Aaliyah."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/cases-5-brand.mp4",
-         "poster": "../../assets/lms/the-map/cases-5-poster.jpg",
-         "dur": "1:30",
-         "title": {
-          "en": "What is a storyline",
-          "id": "Apa itu alur cerita"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/cases-5-en.vtt",
-          "id": "../../assets/lms/the-map/cases-5-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "delivery",
-       "placement": "after-material:5",
-       "kicker": {
-        "en": "Watch next · Scene film + expert commentary",
-        "id": "Tonton berikutnya · Film adegan + komentar ahli"
-       },
-       "intro": {
-        "en": "The two films the last slides point to. First, back at MODA: Aaliyah is about to share a change story with department heads on a video call and is worried people will tune out, so she asks David, fresh from the board meeting, for tips: a well-lit room and a non-distracting background, energy and an animated voice into the “black box”, one image rather than a pile of slides, a provocative question answered in the chat. Then Kate’s commentary: most of us have no board member to ring, so ring a friend or a colleague, practise room setup and vocal delivery in front of a mirror or someone who gives feedback, and try a Toastmasters chapter or a community group. Good delivery, like a good conversation, does not happen on its own. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
-        "id": "Dua film yang dirujuk slide-slide terakhir. Pertama, kembali ke MODA: Aaliyah akan menyampaikan cerita perubahannya kepada para kepala departemen lewat panggilan video, dan ia khawatir orang-orang tidak akan memperhatikan. Ia pun meminta tips kepada David, yang baru selesai rapat direksi: ruangan yang terang dan latar yang tidak mengganggu, energi dan suara yang hidup ke arah \"kotak hitam\" kamera, satu gambar alih-alih setumpuk slide, dan satu pertanyaan yang memancing untuk dijawab di kolom chat. Lalu komentar Kate: kebanyakan dari kita tidak punya anggota direksi untuk ditelepon, jadi teleponlah teman atau rekan kerja. Latih penataan ruangan dan cara bicaramu di depan cermin atau di depan orang yang mau memberi masukan, dan coba bergabung dengan klub Toastmasters atau komunitas. Penyampaian yang baik, seperti percakapan yang baik, tidak terjadi dengan sendirinya. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: delivery is a practised skill",
-         "id": "Poin penting: penyampaian adalah keterampilan yang dilatih"
-        },
-        "body": [
-         {
-          "en": "On video, presence is set up before you speak: a well-lit room, a background that does not distract, and energy dialled up because you are talking into a black box.",
-          "id": "Dalam panggilan video, kehadiranmu disiapkan sebelum kamu bicara: ruangan yang terang, latar yang tidak mengganggu, dan energi yang dinaikkan karena kamu berbicara ke sebuah kotak hitam."
-         },
-         {
-          "en": "Engage rather than broadcast: one strong image instead of a slide pile, a provocative question with answers in the chat, emotion in the voice.",
-          "id": "Libatkan audiens, jangan sekadar menyiarkan: satu gambar yang kuat alih-alih tumpukan slide, pertanyaan yang memancing dengan jawaban di kolom chat, dan emosi dalam suaramu."
-         },
-         {
-          "en": "You do not need a board member. Ring a friend, rehearse in front of a mirror or a colleague who gives feedback, and use a Toastmasters chapter or community group. The slides that follow show the feedback email you might send Aaliyah, and introduce the three elements of style.",
-          "id": "Kamu tidak perlu anggota direksi. Telepon teman, berlatih di depan cermin atau di depan rekan yang mau memberi masukan, dan manfaatkan klub Toastmasters atau komunitas. Slide berikutnya memperlihatkan email berisi masukan yang bisa kamu kirim kepada Aaliyah, dan memperkenalkan tiga unsur gaya."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/cases-6-brand.mp4",
-         "poster": "../../assets/lms/the-map/cases-6-poster.jpg",
-         "dur": "2:05",
-         "title": {
-          "en": "Back at MODA: Aaliyah prepares for the video call",
-          "id": "Kembali ke MODA: Aaliyah bersiap untuk panggilan video"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/cases-6-en.vtt",
-          "id": "../../assets/lms/the-map/cases-6-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/cases-7-brand.mp4",
-         "poster": "../../assets/lms/the-map/cases-7-poster.jpg",
-         "dur": "1:08",
-         "title": {
-          "en": "Expert commentary: ring a friend",
-          "id": "Komentar ahli: telepon seorang teman"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/cases-7-en.vtt",
-          "id": "../../assets/lms/the-map/cases-7-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "impact",
-       "placement": "after-material:6",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "The film the second slide points to. Kate opens the Conversation element of EPIC with delivery: it is not only what you say, it is how you say it, and it would be a shame to do the hard work of structure and storyline and have it fall down at the moment of delivery. She cites Will Stephen’s TEDx talk (a talk with no real content, delivered with such vocal energy and physical presence that it still creates an emotional connection) and sets out the three elements to explore: what you can do with your voice (intonation, emphasis, speaking softly to draw people in), your physical presence in small and large settings, and how you create an emotional connection whether with one person or a room. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
-        "id": "Ini film yang dirujuk slide kedua. Kate membuka unsur Conversation dalam EPIC dengan penyampaian: yang penting bukan hanya apa yang kamu katakan, tetapi juga cara kamu mengatakannya. Sayang sekali kalau kerja keras menyusun struktur dan alur cerita justru runtuh di saat penyampaian. Ia menyebut TEDx talk Will Stephen (sebuah presentasi tanpa isi yang sebenarnya, tetapi disampaikan dengan energi suara dan kehadiran fisik yang begitu kuat sehingga tetap membangun ikatan emosional) dan memaparkan tiga unsur yang akan dibahas: apa yang bisa kamu lakukan dengan suaramu (intonasi, penekanan, bicara pelan untuk menarik perhatian orang), kehadiran fisikmu di forum kecil maupun besar, dan cara membangun ikatan emosional, baik dengan satu orang maupun satu ruangan. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke \"Cara menjalankan latihan\" di bawah."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: how you say it",
-         "id": "Poin penting: cara kamu mengatakannya"
-        },
-        "body": [
-         {
-          "en": "Delivery is where the structure and the storyline either land or fall down. The way you say it is as impactful as what you say.",
-          "id": "Di saat penyampaianlah struktur dan alur cerita sampai atau runtuh. Cara kamu mengatakannya sama berpengaruhnya dengan apa yang kamu katakan."
-         },
-         {
-          "en": "Three elements of style: voice (intonation, emphasis, softness that draws people in), physical presence sized to the room, and the emotional connection that turns a talk into a conversation.",
-          "id": "Tiga unsur gaya: suara (intonasi, penekanan, kelembutan yang menarik perhatian orang), kehadiran fisik yang disesuaikan dengan ruangan, dan ikatan emosional yang mengubah presentasi menjadi percakapan."
-         },
-         {
-          "en": "Think of a message you had to deliver and which of the three would have changed how it landed. The three drills below are delivered under time pressure; structure first, then say it well.",
-          "id": "Ingat satu pesan yang pernah harus kamu sampaikan, dan unsur mana dari ketiganya yang akan mengubah cara pesan itu diterima. Tiga latihan di bawah dilakukan di bawah tekanan waktu: struktur dulu, lalu sampaikan dengan baik."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/cases-8-brand.mp4",
-         "poster": "../../assets/lms/the-map/cases-8-poster.jpg",
-         "dur": "2:09",
-         "title": {
-          "en": "Delivering for impact",
-          "id": "Menyampaikan dengan dampak"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/cases-8-en.vtt",
-          "id": "../../assets/lms/the-map/cases-8-id.vtt"
-         }
-        }
-       ]
-      }
-     ],
      "material": [
       {
        "kicker": {
@@ -8029,8 +7371,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kenapa Komunikasi Perlu Disusun: Materi"
        },
        "intro": {
-        "en": "Two slides open the lesson. The first separates data (raw, unprocessed facts), information (data processed and organised into a format with context) and insight (relevant, non-obvious conclusions that earn the audience’s attention and lead to action). The second asks why organise communications at all: facts are not enough; they have to be formed into a message. How would you structure the insight for greatest impact, what context does it need to be understood, and how might a story or anecdote emphasise the key message? Use the arrows or swipe to move between slides; the deck follows your platform language. Read both, then continue to the film that follows.",
-        "id": "Dua slide membuka pelajaran ini. Slide pertama membedakan data (fakta mentah yang belum diolah), informasi (data yang sudah diolah dan disusun dalam format yang memberi konteks), dan insight (kesimpulan yang relevan dan tidak terlihat sekilas, yang layak mendapat perhatian audiens dan mendorong tindakan). Slide kedua bertanya, kenapa komunikasi perlu disusun? Fakta saja tidak cukup; fakta harus dibentuk menjadi pesan. Bagaimana kamu menyusun insight agar dampaknya paling besar, konteks apa yang dibutuhkan agar insight itu dipahami, dan bagaimana sebuah cerita atau anekdot bisa menegaskan pesan utamanya? Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Baca keduanya, lalu lanjutkan ke film berikutnya."
+        "en": "Two slides open the lesson. The first separates data (raw, unprocessed facts), information (data processed and organised into a format with context) and insight (relevant, non-obvious conclusions that earn the audience’s attention and lead to action). The second asks why organise communications at all: facts are not enough; they have to be formed into a message. How would you structure the insight for greatest impact, what context does it need to be understood, and how might a story or anecdote emphasise the key message? Use the arrows or swipe to move between slides; the deck follows your platform language. Then watch the film that follows.",
+        "id": "Dua slide membuka pelajaran ini. Slide pertama membedakan data (fakta mentah yang belum diolah), informasi (data yang sudah diolah dan disusun dalam format yang memberi konteks), dan insight (kesimpulan yang relevan dan tidak terlihat sekilas, yang layak mendapat perhatian audiens dan mendorong tindakan). Slide kedua bertanya, kenapa komunikasi perlu disusun? Fakta saja tidak cukup; fakta harus dibentuk menjadi pesan. Bagaimana kamu menyusun insight agar dampaknya paling besar, konteks apa yang dibutuhkan agar insight itu dipahami, dan bagaimana sebuah cerita atau anekdot bisa menegaskan pesan utamanya? Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Setelah itu, tonton film yang menyusul."
        },
        "base": "../../assets/lms/the-map/slides/cases-why-",
        "slides": [
@@ -8066,8 +7408,8 @@ window.MT_LMS['the-map'] = {
         "id": "Prinsip Piramida: Materi"
        },
        "intro": {
-        "en": "One slide names the structure the film described. Originally developed by Barbara Minto, the Pyramid Principle is an approach to developing structured, airtight arguments: a strong message is like a pyramid, built from a clear foundation to a compelling top. The slide sets three reflection questions to hold in mind while you watch: how could you apply the Pyramid Principle to your life, have you ever lost track of a conversation because you couldn’t understand the main point, and how can it help you communicate more effectively? Read it, then continue to the films that follow.",
-        "id": "Satu slide ini memberi nama untuk struktur yang dijelaskan di film. Prinsip Piramida, yang awalnya dikembangkan oleh Barbara Minto, adalah pendekatan untuk membangun argumen yang tersusun dan rapat. Pesan yang kuat itu seperti piramida, dibangun dari fondasi yang jelas sampai puncak yang meyakinkan. Slide ini memberi tiga pertanyaan renungan untuk kamu pikirkan sambil menonton: bagaimana kamu bisa menerapkan Prinsip Piramida dalam hidupmu, pernahkah kamu kehilangan arah dalam percakapan karena tidak menangkap poin utamanya, dan bagaimana prinsip ini bisa membantumu berkomunikasi lebih efektif? Baca dulu, lalu lanjutkan ke film-film berikutnya."
+        "en": "These slides cover “The Pyramid Principle”. Read them at your own pace.",
+        "id": "Slide-slide ini membahas “Prinsip Piramida”. Baca sesuai ritmemu."
        },
        "base": "../../assets/lms/the-map/slides/cases-pyramid-",
        "slides": [
@@ -8093,8 +7435,8 @@ window.MT_LMS['the-map'] = {
         "id": "Membuat Pengelompokan yang Logis: Materi"
        },
        "intro": {
-        "en": "Eight slides take the pyramid from principle to practice. Creating logical groupings (deliver top-down, build bottom-up, MECE), the three-step process from grouped facts to key line statements to a governing thought, a ten-minute practice rewriting one of your own emails, then the turn to synthesis: what great communicators do with grouped facts, summary versus synthesis side by side in two emails from Zoë Durand, and the MODA case challenge: write key line statements for the in-house yoga studio and pick the governing thought that best synthesises them. Use the arrows or swipe to move between slides; the deck follows your platform language. Read all eight, then continue to the film that follows.",
-        "id": "Delapan slide ini membawa piramida dari prinsip ke praktik. Ada cara membuat pengelompokan yang logis (sampaikan dari atas, bangun dari bawah, MECE), tiga langkah dari fakta yang dikelompokkan menjadi pernyataan garis kunci lalu menjadi gagasan utama, dan latihan sepuluh menit menulis ulang salah satu emailmu sendiri. Setelah itu materi beralih ke sintesis: apa yang dilakukan komunikator hebat dengan fakta yang sudah dikelompokkan, perbandingan ringkasan dan sintesis lewat dua email dari Zoë Durand, dan tantangan kasus MODA: tulis pernyataan garis kunci untuk studio yoga internal, lalu pilih gagasan utama yang paling tepat menyintesisnya. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Baca kedelapannya, lalu lanjutkan ke film berikutnya."
+        "en": "Eight slides take the pyramid from principle to practice. Creating logical groupings (deliver top-down, build bottom-up, MECE), the three-step process from grouped facts to key line statements to a governing thought, a ten-minute practice rewriting one of your own emails, then the turn to synthesis: what great communicators do with grouped facts, summary versus synthesis side by side in two emails from Zoë Durand, and the MODA case challenge: write key line statements for the in-house yoga studio and pick the governing thought that best synthesises them. Use the arrows or swipe to move between slides; the deck follows your platform language.",
+        "id": "Delapan slide ini membawa piramida dari prinsip ke praktik. Ada cara membuat pengelompokan yang logis (sampaikan dari atas, bangun dari bawah, MECE), tiga langkah dari fakta yang dikelompokkan menjadi pernyataan garis kunci lalu menjadi gagasan utama, dan latihan sepuluh menit menulis ulang salah satu emailmu sendiri. Setelah itu materi beralih ke sintesis: apa yang dilakukan komunikator hebat dengan fakta yang sudah dikelompokkan, perbandingan ringkasan dan sintesis lewat dua email dari Zoë Durand, dan tantangan kasus MODA: tulis pernyataan garis kunci untuk studio yoga internal, lalu pilih gagasan utama yang paling tepat menyintesisnya. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu."
        },
        "base": "../../assets/lms/the-map/slides/cases-groupings-",
        "slides": [
@@ -8190,8 +7532,8 @@ window.MT_LMS['the-map'] = {
         "id": "Mengubah Logika Menjadi Cerita: Materi"
        },
        "intro": {
-        "en": "Four slides carry the pyramid into the room: what a storyline is (the outline of key points you want to get across, chosen as the targeted set of insights that leads to a specific action); a five-part formula for creating one (introduction, key question, primary recommendation, supporting arguments, conclusion); the MODA yoga-studio pyramid as Jarrah Woods prepares for the Budget Committee; and a worked storyline for it, from the sick-days and gym-visits data to the conclusion. Use the arrows or swipe to move between slides; the deck follows your platform language. Read all four, then continue to the film that follows.",
-        "id": "Empat slide ini membawa piramida ke dalam ruangan: apa itu alur cerita (kerangka poin-poin utama yang ingin kamu sampaikan, dipilih sebagai sekumpulan insight terarah yang mendorong satu tindakan tertentu); rumus lima bagian untuk membuatnya (pembuka, pertanyaan kunci, rekomendasi utama, argumen pendukung, penutup); piramida studio yoga MODA saat Jarrah Woods bersiap menghadap Komite Anggaran; dan contoh alur ceritanya, dari data hari sakit dan kunjungan ke gym sampai penutupnya. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Baca keempatnya, lalu lanjutkan ke film berikutnya."
+        "en": "Four slides carry the pyramid into the room: what a storyline is (the outline of key points you want to get across, chosen as the targeted set of insights that leads to a specific action); a five-part formula for creating one (introduction, key question, primary recommendation, supporting arguments, conclusion); the MODA yoga-studio pyramid as Jarrah Woods prepares for the Budget Committee; and a worked storyline for it, from the sick-days and gym-visits data to the conclusion. Use the arrows or swipe to move between slides; the deck follows your platform language.",
+        "id": "Empat slide ini membawa piramida ke dalam ruangan: apa itu alur cerita (kerangka poin-poin utama yang ingin kamu sampaikan, dipilih sebagai sekumpulan insight terarah yang mendorong satu tindakan tertentu); rumus lima bagian untuk membuatnya (pembuka, pertanyaan kunci, rekomendasi utama, argumen pendukung, penutup); piramida studio yoga MODA saat Jarrah Woods bersiap menghadap Komite Anggaran; dan contoh alur ceritanya, dari data hari sakit dan kunjungan ke gym sampai penutupnya. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu."
        },
        "base": "../../assets/lms/the-map/slides/cases-story-",
        "slides": [
@@ -8247,8 +7589,8 @@ window.MT_LMS['the-map'] = {
         "id": "Menyesuaikan Alur Cerita: Materi"
        },
        "intro": {
-        "en": "Five slides close the storyline arc. First, adapt Jarrah’s yoga-studio storyline for his peers instead of the Budget Committee, and compare your answer with the expert’s. Then a knowledge check on which structure Noah should use for a five-minute elevator pitch with Aaliyah, the module’s key takeaways (the Pyramid Principle, synthesis, story-lining) with further reading, and back to MODA: Aaliyah is nervous about delivering her change story on a video call and turns to her mentor David, and it is your turn to offer her some tips. Use the arrows or swipe to move between slides; the deck follows your platform language. Read all five, then continue to the two films that follow.",
-        "id": "Lima slide ini menutup rangkaian alur cerita. Pertama, sesuaikan alur cerita studio yoga Jarrah untuk rekan-rekan sejawatnya, bukan untuk Komite Anggaran, lalu bandingkan jawabanmu dengan jawaban ahli. Setelah itu ada cek pemahaman tentang struktur mana yang sebaiknya dipakai Noah untuk elevator pitch lima menit dengan Aaliyah, poin-poin penting modul ini (Prinsip Piramida, sintesis, menyusun alur cerita) beserta bacaan tambahan, lalu kembali ke MODA: Aaliyah gugup menyampaikan cerita perubahannya lewat panggilan video dan meminta bantuan mentornya, David, dan kini giliranmu memberinya beberapa tips. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Baca kelimanya, lalu lanjutkan ke dua film berikutnya."
+        "en": "These slides cover “Adapting a Storyline”. Read them at your own pace.",
+        "id": "Slide-slide ini membahas “Menyesuaikan Alur Cerita”. Baca sesuai ritmemu."
        },
        "base": "../../assets/lms/the-map/slides/cases-adapt-",
        "slides": [
@@ -8314,8 +7656,8 @@ window.MT_LMS['the-map'] = {
         "id": "Contoh Email: Materi"
        },
        "intro": {
-        "en": "Two slides. The first is a worked answer to the last task: a sample email to Aaliyah with a few additional thoughts for her change story (an encouraging opening, concrete tips on pacing and enunciation, the active voice and no disclaimers, and ice-breakers to break down the barriers of a video call). The second moves to the Conversation element of EPIC and delivering for impact: presence, clarity and connection, the three elements of style Kate introduces in the film below. Use the arrows or swipe to move between slides; the deck follows your platform language. Read both, then continue to the film that follows.",
-        "id": "Dua slide. Slide pertama adalah contoh jawaban untuk tugas terakhir: email untuk Aaliyah berisi beberapa pemikiran tambahan untuk cerita perubahannya (pembuka yang menyemangati, tips konkret soal tempo dan pelafalan, kalimat aktif tanpa banyak penyangkalan, dan pemecah suasana untuk meruntuhkan sekat panggilan video). Slide kedua beralih ke unsur Conversation dalam EPIC dan cara menyampaikan dengan dampak: kehadiran, kejelasan, dan keterhubungan, tiga unsur gaya yang diperkenalkan Kate di film di bawah. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Baca keduanya, lalu lanjutkan ke film berikutnya."
+        "en": "These slides cover “Sample Email”. Read them at your own pace.",
+        "id": "Slide-slide ini membahas “Contoh Email”. Baca sesuai ritmemu."
        },
        "base": "../../assets/lms/the-map/slides/cases-email-",
        "slides": [
@@ -8341,7 +7683,36 @@ window.MT_LMS['the-map'] = {
         }
        ]
       }
-     ]
+     ],
+     "videos": [
+      {
+       "src": {
+        "en": "../../assets/lms/films/map-4-3-three-hard-messages-en.mp4",
+        "id": "../../assets/lms/films/map-4-3-three-hard-messages-id.mp4"
+       },
+       "poster": {
+        "en": "../../assets/lms/films/map-4-3-three-hard-messages-en-poster.jpg",
+        "id": "../../assets/lms/films/map-4-3-three-hard-messages-id-poster.jpg"
+       },
+       "dur": {
+        "en": "1:51",
+        "id": "1:39"
+       },
+       "title": {
+        "en": "Three hard messages: a cold email, an interruption, a disagreement",
+        "id": "Tiga pesan yang sulit: email perkenalan, interupsi, ketidaksetujuan"
+       }
+      }
+     ],
+     "videosPlacement": "after-material:1",
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows these slides: Bagas and three messages that are hard to get right. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide ini: Bagas dan tiga pesan yang sulit disampaikan dengan tepat. Tonton, lalu lanjutkan ke slide berikutnya."
+     }
     },
     {
      "n": "4.4",
@@ -8402,8 +7773,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tiga Unsur Gaya Presentasi: Materi"
        },
        "intro": {
-        "en": "Two slides open the lesson. The first is the snapshot: physical presence (appearing relaxed, confident and in control of the room), vocal emphasis (adjusting pitch, pace and volume to the occasion) and emotional connection (gauging the mood of the audience and adjusting your tone). The second goes deeper on the first element, physical presence, and sets up the film that follows: Hilary and Mark on exerting influence through posture, eye contact, gesture and movement. Use the arrows or swipe to move between slides; the deck follows your platform language. Read both, then continue to the film that follows.",
-        "id": "Dua slide membuka pelajaran ini. Slide pertama memberi gambaran singkat: kehadiran fisik (tampil santai, percaya diri, dan menguasai ruangan), penekanan suara (menyesuaikan tinggi nada, tempo, dan volume dengan kesempatannya), dan ikatan emosional (membaca suasana hati audiens dan menyesuaikan nadamu). Slide kedua membahas lebih dalam unsur pertama, kehadiran fisik, dan mengantar ke film berikutnya: Hilary dan Mark tentang cara memberi pengaruh lewat postur, kontak mata, gerak tangan, dan gerak tubuh. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Baca keduanya, lalu lanjutkan ke film berikutnya."
+        "en": "These slides cover “The Three Elements of Presentation Style”. Read them at your own pace. Then watch the film that follows.",
+        "id": "Slide-slide ini membahas “Tiga Unsur Gaya Presentasi”. Baca sesuai ritmemu. Setelah itu, tonton film yang menyusul."
        },
        "base": "../../assets/lms/the-map/slides/style-elements-",
        "slides": [
@@ -8439,8 +7810,8 @@ window.MT_LMS['the-map'] = {
         "id": "Unsur 2 dan 3: Materi"
        },
        "intro": {
-        "en": "Two slides take up the other two elements. The first, vocal emphasis: Mark on adjusting pitch, pace and volume to keep an audience engaged and make the key points memorable, with a reflection on which of the three you already use. The second, emotional connection (“how do you create chemistry?”): reading the mood of the audience and adjusting your tone, with Hilary and Mark on empathy as the spark, and a reflection on a connection you have made yourself. Use the arrows or swipe to move between slides; the deck follows your platform language. Read both, then continue to the two films that follow.",
-        "id": "Dua slide ini membahas dua unsur lainnya. Yang pertama, penekanan suara: Mark tentang cara menyesuaikan tinggi nada, tempo, dan volume agar audiens tetap terlibat dan poin-poin kuncimu mudah diingat, disertai renungan tentang mana dari ketiganya yang sudah kamu pakai. Yang kedua, ikatan emosional (\"bagaimana membangun chemistry?\"): membaca suasana hati audiens dan menyesuaikan nadamu, dengan Hilary dan Mark yang membahas empati sebagai pemantiknya, disertai renungan tentang ikatan yang pernah kamu bangun sendiri. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Baca keduanya, lalu lanjutkan ke dua film berikutnya."
+        "en": "These slides cover “Elements 2 and 3”. Read them at your own pace.",
+        "id": "Slide-slide ini membahas “Unsur 2 dan 3”. Baca sesuai ritmemu."
        },
        "base": "../../assets/lms/the-map/slides/style-voice-",
        "slides": [
@@ -8476,8 +7847,8 @@ window.MT_LMS['the-map'] = {
         "id": "Menerapkan Tiga Unsur: Materi"
        },
        "intro": {
-        "en": "One slide takes the three elements into the setting most of us present in most often: the video call. Physical presence becomes posture, eye contact through the camera, lighting and background; vocal emphasis becomes pitch, pace and volume that keep a remote audience engaged; emotional connection becomes reading the mood and context on the other side of the screen and adjusting your tone to build chemistry there too. Hold an upcoming virtual meeting of your own in mind as you read, then continue to the film that follows.",
-        "id": "Satu slide ini membawa ketiga unsur ke situasi yang paling sering kita hadapi saat presentasi: panggilan video. Kehadiran fisik menjadi soal postur, kontak mata lewat kamera, pencahayaan, dan latar; penekanan suara menjadi soal tinggi nada, tempo, dan volume yang menjaga audiens jarak jauh tetap terlibat; ikatan emosional menjadi soal membaca suasana hati dan konteks di seberang layar, lalu menyesuaikan nadamu untuk membangun chemistry di sana juga. Sambil membaca, bayangkan satu rapat virtual yang akan kamu hadapi, lalu lanjutkan ke film berikutnya."
+        "en": "These slides cover “Applying the Three Elements”. Read them at your own pace.",
+        "id": "Slide-slide ini membahas “Menerapkan Tiga Unsur”. Baca sesuai ritmemu."
        },
        "base": "../../assets/lms/the-map/slides/style-apply-",
        "slides": [
@@ -8503,8 +7874,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kritik Penyampaiannya: Materi"
        },
        "intro": {
-        "en": "Three slides put the three elements to work on a real speaker. Wanda Díaz Merced is a blind astronomer and science communicator who must inspire an audience she cannot see; the first slide shows how physical presence, vocal emphasis and emotional connection combine in her delivery. The second asks you to watch her TED talk, “How a blind astronomer found a way to hear the stars” (or at least its first five minutes), and to answer five questions on her presence, how she controls the room, her vocal emphasis, her emotional connection and the impact she had on you. The third introduces the film in which Hilary and Mark deconstruct that talk. Step through the slides, note your answers, then continue to the film that follows.",
-        "id": "Tiga slide ini menerapkan ketiga unsur pada seorang pembicara sungguhan. Wanda Díaz Merced adalah astronom tunanetra dan komunikator sains yang harus menginspirasi audiens yang tidak bisa ia lihat. Slide pertama memperlihatkan bagaimana kehadiran fisik, penekanan suara, dan ikatan emosional berpadu dalam penyampaiannya. Slide kedua memintamu menonton TED talk-nya, \"How a blind astronomer found a way to hear the stars\" (atau setidaknya lima menit pertamanya), lalu menjawab lima pertanyaan tentang kehadirannya, cara ia menguasai ruangan, penekanan suaranya, ikatan emosionalnya, dan dampaknya bagimu. Slide ketiga memperkenalkan film tempat Hilary dan Mark membedah presentasi itu. Telusuri slide-slidenya, catat jawabanmu, lalu lanjutkan ke film berikutnya."
+        "en": "Three slides put the three elements to work on a real speaker. Wanda Díaz Merced is a blind astronomer and science communicator who must inspire an audience she cannot see; the first slide shows how physical presence, vocal emphasis and emotional connection combine in her delivery. The second asks you to watch her TED talk, “How a blind astronomer found a way to hear the stars” (or at least its first five minutes), and to answer five questions on her presence, how she controls the room, her vocal emphasis, her emotional connection and the impact she had on you.",
+        "id": "Tiga slide ini menerapkan ketiga unsur pada seorang pembicara sungguhan. Wanda Díaz Merced adalah astronom tunanetra dan komunikator sains yang harus menginspirasi audiens yang tidak bisa ia lihat. Slide pertama memperlihatkan bagaimana kehadiran fisik, penekanan suara, dan ikatan emosional berpadu dalam penyampaiannya. Slide kedua memintamu menonton TED talk-nya, \"How a blind astronomer found a way to hear the stars\" (atau setidaknya lima menit pertamanya), lalu menjawab lima pertanyaan tentang kehadirannya, cara ia menguasai ruangan, penekanan suaranya, ikatan emosionalnya, dan dampaknya bagimu."
        },
        "base": "../../assets/lms/the-map/slides/style-critique-",
        "slides": [
@@ -8550,8 +7921,8 @@ window.MT_LMS['the-map'] = {
         "id": "Coba Sekarang: Materi"
        },
        "intro": {
-        "en": "Two slides close the loop on style and open the next idea. The first is a ten-minute individual exercise: choose a scenario (a brief message you will deliver in a real meeting next week, or a pitch to convince a friend to watch your favourite TV show). Prepare it, record yourself on your phone, and critique the delivery against the three elements (or ask your friend for feedback). Four questions guide you: who is the audience and what tone will resonate, how will body language reinforce the message, and where will vocal emphasis punctuate it. The second slide moves from communication to impact: good communicators are good facilitators, and it introduces the film in which Kate describes how effective facilitation guides a group to alignment, commitment and action. Do the exercise, note the reflection question, then continue to the film that follows.",
-        "id": "Dua slide ini menutup pembahasan gaya dan membuka gagasan berikutnya. Slide pertama adalah latihan mandiri sepuluh menit: pilih satu skenario (pesan singkat yang akan kamu sampaikan di rapat sungguhan minggu depan, atau bujukan agar seorang teman mau menonton acara TV favoritmu). Siapkan pesannya, rekam dirimu dengan ponsel, lalu kritik penyampaianmu berdasarkan ketiga unsur (atau minta masukan dari temanmu). Empat pertanyaan memandumu: siapa audiensnya dan nada apa yang akan mengena, bagaimana bahasa tubuh akan memperkuat pesannya, dan di mana penekanan suara akan memberi tanda baca pada penyampaianmu. Slide kedua beralih dari komunikasi ke dampak: komunikator yang baik adalah fasilitator yang baik, dan slide ini mengantar ke film tempat Kate menjelaskan bagaimana fasilitasi yang efektif membawa kelompok pada kesepahaman, komitmen, dan tindakan. Kerjakan latihannya, catat pertanyaan renungannya, lalu lanjutkan ke film berikutnya."
+        "en": "Two slides close the loop on style and open the next idea. The first is a ten-minute individual exercise: choose a scenario (a brief message you will deliver in a real meeting next week, or a pitch to convince a friend to watch your favourite TV show). Prepare it, record yourself on your phone, and critique the delivery against the three elements (or ask your friend for feedback). Four questions guide you: who is the audience and what tone will resonate, how will body language reinforce the message, and where will vocal emphasis punctuate it.",
+        "id": "Dua slide ini menutup pembahasan gaya dan membuka gagasan berikutnya. Slide pertama adalah latihan mandiri sepuluh menit: pilih satu skenario (pesan singkat yang akan kamu sampaikan di rapat sungguhan minggu depan, atau bujukan agar seorang teman mau menonton acara TV favoritmu). Siapkan pesannya, rekam dirimu dengan ponsel, lalu kritik penyampaianmu berdasarkan ketiga unsur (atau minta masukan dari temanmu). Empat pertanyaan memandumu: siapa audiensnya dan nada apa yang akan mengena, bagaimana bahasa tubuh akan memperkuat pesannya, dan di mana penekanan suara akan memberi tanda baca pada penyampaianmu."
        },
        "base": "../../assets/lms/the-map/slides/style-tryit-",
        "slides": [
@@ -8587,8 +7958,8 @@ window.MT_LMS['the-map'] = {
         "id": "Open Narrow Close: Materi"
        },
        "intro": {
-        "en": "One slide sets out the conversation framework Kate named: Open, Narrow, Close. Every great conversation follows the same structure. Open introduces and broadens the set of ideas: set the context and purpose, create an inclusive and open environment, explore perspectives and generate possibilities. Narrow assesses the options: discuss and evaluate them, identify trade-offs and implications, build alignment on the preferred direction. Close determines next steps: summarise decisions and insights, agree actions, owners and timelines, confirm alignment and the next touchpoints. Hold a recent conversation of your own in mind and try to find its open, narrow and close, then continue to the film that follows.",
-        "id": "Satu slide ini memaparkan kerangka percakapan yang disebut Kate: Open, Narrow, Close (buka, persempit, tutup). Setiap percakapan yang hebat mengikuti struktur yang sama. Open memperkenalkan dan memperluas kumpulan ide: tetapkan konteks dan tujuannya, ciptakan suasana yang inklusif dan terbuka, jelajahi berbagai sudut pandang, dan munculkan berbagai kemungkinan. Narrow menilai pilihan-pilihannya: diskusikan dan evaluasi, kenali untung-rugi dan implikasinya, dan bangun kesepahaman tentang arah yang dipilih. Close menentukan langkah berikutnya: rangkum keputusan dan insight, sepakati tindakan, penanggung jawab, dan tenggat waktunya, lalu pastikan semua sepaham dan sepakati pertemuan berikutnya. Ingat satu percakapanmu baru-baru ini dan coba temukan bagian open, narrow, dan close-nya, lalu lanjutkan ke film berikutnya."
+        "en": "These slides cover “Open Narrow Close”. Read them at your own pace.",
+        "id": "Slide-slide ini membahas “Open Narrow Close”. Baca sesuai ritmemu."
        },
        "base": "../../assets/lms/the-map/slides/style-onc-",
        "slides": [
@@ -8652,303 +8023,6 @@ window.MT_LMS['the-map'] = {
        ]
       }
      ],
-     "videoBlocks": [
-      {
-       "key": "presence",
-       "placement": "after-material:1",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "The film the second slide points to. Physical presence is fundamental to how you connect with an audience: if the way you stand, look and move does not support the message, it distracts and detracts from it. Say “I’m very excited about the new plan” with a flat body and nobody believes you, because we are all expert at reading body language. Stance, expression and gesture send unspoken signals about whether you are confident, relaxed and credible, and they can undercut even well-crafted words. The fix is preparation rather than performance: warm up like an athlete, ground yourself before you walk in (feet firmly on the floor, deep breaths, a calming thought) so that no part of you is asking “am I fiddling with my fingers?” while you speak. And nobody has to look like a Hollywood actor: find your natural style and be confident within it. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Ini film yang dirujuk slide kedua. Kehadiran fisik sangat menentukan caramu terhubung dengan audiens. Kalau cara kamu berdiri, menatap, dan bergerak tidak mendukung pesanmu, semua itu justru mengalihkan perhatian dan melemahkan pesannya. Ucapkan \"Aku sangat bersemangat dengan rencana baru ini\" dengan tubuh yang lesu, dan tidak ada yang percaya, karena kita semua jago membaca bahasa tubuh. Sikap berdiri, ekspresi, dan gerak tangan mengirim sinyal tanpa kata tentang apakah kamu percaya diri, santai, dan bisa dipercaya, dan sinyal itu bisa melemahkan kata-kata yang sudah disusun dengan baik sekalipun. Jalan keluarnya adalah persiapan, bukan pertunjukan: lakukan pemanasan seperti atlet, tenangkan dan mantapkan dirimu sebelum masuk (kaki menapak kuat di lantai, tarikan napas dalam, satu pikiran yang menenangkan) supaya tidak ada bagian dirimu yang bertanya \"apakah jariku sedang gelisah?\" saat bicara. Dan kamu tidak perlu terlihat seperti aktor Hollywood: temukan gaya alamimu dan percaya dirilah di dalamnya. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: prepare the body before the words",
-         "id": "Poin penting: siapkan tubuh sebelum kata-kata"
-        },
-        "body": [
-         {
-          "en": "Your body speaks first. Stance, expression and gesture tell the room whether to believe you before your first sentence is over, and they can undercut a message however well it is written.",
-          "id": "Tubuhmu bicara lebih dulu. Sikap berdiri, ekspresi, dan gerak tangan memberi tahu ruangan apakah mereka bisa memercayaimu bahkan sebelum kalimat pertamamu selesai, dan semua itu bisa melemahkan pesan sebaik apa pun tulisannya."
-         },
-         {
-          "en": "Ground before you go in: feet firmly on the floor, deep breaths, something calming to centre on. It is the warm-up before the field, and it frees your attention from your own hands.",
-          "id": "Mantapkan dirimu sebelum masuk: kaki menapak kuat di lantai, tarikan napas dalam, sesuatu yang menenangkan untuk dijadikan pusat perhatian. Ini pemanasan sebelum masuk lapangan, dan ini membebaskan perhatianmu dari tanganmu sendiri."
-         },
-         {
-          "en": "Presence is yours, not borrowed. Find your natural style and be confident within it; the slides and two films that follow take up the other two elements: vocal emphasis and emotional connection.",
-          "id": "Kehadiran itu milikmu, bukan pinjaman. Temukan gaya alamimu dan percaya dirilah di dalamnya. Slide dan dua film berikutnya membahas dua unsur lainnya: penekanan suara dan ikatan emosional."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/style-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/style-1-poster.jpg",
-         "dur": "2:27",
-         "title": {
-          "en": "Physical presence",
-          "id": "Kehadiran fisik"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/style-1-en.vtt",
-          "id": "../../assets/lms/the-map/style-1-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "voice",
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch next · 2 lesson films",
-        "id": "Tonton berikutnya · 2 film pelajaran"
-       },
-       "intro": {
-        "en": "The two films the slides point to. First, vocal emphasis: Mark on the music of your voice (loud or soft, high or low, the pauses and the tone) and why it can carry a message or undercut it. His exercise is to read your last business presentation as if to a child, record it and play it back; his proof is one sentence, “I gave him a hundred dollars”, which answers four different questions depending on where the stress falls. Second, emotional connection: Mark and Hilary on responding to the room in the moment. Look people in the eye and let your gaze linger, say out loud what you understand about how they feel (“I know this is a painful topic”), ask for their concerns before you start, and walk in open, confident and authentic, because a presentation at its best is a dialogue and the C of EPIC is conversation. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slide that follows.",
-        "id": "Dua film yang dirujuk slide-slide tadi. Pertama, penekanan suara: Mark membahas musik dalam suaramu (keras atau pelan, tinggi atau rendah, jeda dan nadanya) dan kenapa musik itu bisa membawa pesan atau justru melemahkannya. Latihannya: bacakan presentasi bisnis terakhirmu seolah-olah untuk anak kecil, rekam, lalu putar ulang. Buktinya cukup satu kalimat, \"I gave him a hundred dollars\", yang menjawab empat pertanyaan berbeda tergantung kata mana yang diberi tekanan. Kedua, ikatan emosional: Mark dan Hilary tentang menanggapi ruangan saat itu juga. Tatap mata orang dan biarkan tatapanmu bertahan sejenak, katakan dengan lantang apa yang kamu pahami tentang perasaan mereka (\"Aku tahu ini topik yang berat\"), tanyakan kekhawatiran mereka sebelum mulai, dan masuklah dengan sikap terbuka, percaya diri, dan tulus, karena presentasi terbaik adalah sebuah dialog, dan huruf C dalam EPIC adalah Conversation. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: the voice and the room",
-         "id": "Poin penting: suara dan ruangan"
-        },
-        "body": [
-         {
-          "en": "Vocal emphasis is the music of your voice: pitch, pace, volume, pause. The same words carry different meanings depending on where the stress falls, so decide which word carries the message and put the weight there.",
-          "id": "Penekanan suara adalah musik dalam suaramu: tinggi nada, tempo, volume, jeda. Kata-kata yang sama bisa bermakna berbeda tergantung di mana tekanannya jatuh, jadi tentukan kata mana yang membawa pesannya dan beri bobot di situ."
-         },
-         {
-          "en": "Rehearse out loud and turn the dial up a notch: read your last presentation as if to a child, record it, play it back. Warm up the voice the way you ground the body.",
-          "id": "Berlatihlah dengan suara keras dan naikkan intensitasnya satu tingkat: bacakan presentasi terakhirmu seolah-olah untuk anak kecil, rekam, lalu putar ulang. Panaskan suaramu seperti kamu memantapkan tubuhmu."
-         },
-         {
-          "en": "Emotional connection is empathy made visible: eye contact that lingers, naming how the room feels, asking for concerns first, and arriving open and authentic. A presentation at its best is a dialogue: the C of EPIC. The slide and film that follow take all three elements onto a video call.",
-          "id": "Ikatan emosional adalah empati yang terlihat: kontak mata yang bertahan sejenak, menyebutkan perasaan ruangan, menanyakan kekhawatiran lebih dulu, dan datang dengan sikap terbuka dan tulus. Presentasi terbaik adalah sebuah dialog: huruf C dalam EPIC. Slide dan film berikutnya membawa ketiga unsur ke panggilan video."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/style-2-brand.mp4",
-         "poster": "../../assets/lms/the-map/style-2-poster.jpg",
-         "dur": "2:40",
-         "title": {
-          "en": "Vocal emphasis",
-          "id": "Penekanan suara"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/style-2-en.vtt",
-          "id": "../../assets/lms/the-map/style-2-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/style-3-brand.mp4",
-         "poster": "../../assets/lms/the-map/style-3-poster.jpg",
-         "dur": "2:40",
-         "title": {
-          "en": "Emotional connection",
-          "id": "Ikatan emosional"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/style-3-en.vtt",
-          "id": "../../assets/lms/the-map/style-3-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "remote",
-       "placement": "after-material:3",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "The film the slide points to. Mark and Hilary take the three elements onto a video call. The fundamentals do not change: you still ask where your audience is and where you want them to be, the empathy of EPIC still holds, and you still need a purpose for the meeting. What changes is the weight. The camera shows only a face and the top half of a body, so body language needs to be more restrained: wave your arms and you look like you have giant hands; keep your hands level with yourself. Put the camera roughly at eye level: too high and you look small, too low and people look up your nose. Eye contact works strangely on screen, so for a key message look straight into the lens and imagine the people behind it. And switch off your own self-view, so you can concentrate on the people on the call (the emotional connection, the third element of style). Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Ini film yang dirujuk slide tadi. Mark dan Hilary membawa ketiga unsur ke panggilan video. Dasarnya tidak berubah: kamu tetap bertanya di mana posisi audiensmu dan ke mana kamu ingin membawa mereka, empati dalam EPIC tetap berlaku, dan kamu tetap butuh tujuan untuk rapatnya. Yang berubah adalah bobotnya. Kamera hanya menampilkan wajah dan separuh badan bagian atas, jadi bahasa tubuh perlu lebih terkendali: kalau kamu melambai-lambaikan tangan, tanganmu akan terlihat raksasa. Jaga tanganmu tetap sejajar dengan tubuhmu. Letakkan kamera kira-kira sejajar mata: terlalu tinggi membuatmu terlihat kecil, terlalu rendah membuat orang melihat ke lubang hidungmu. Kontak mata di layar terasa aneh, jadi untuk pesan kunci, tataplah langsung ke lensa dan bayangkan orang-orang di baliknya. Dan matikan tampilan dirimu sendiri, supaya kamu bisa berkonsentrasi pada orang-orang di panggilan itu (ikatan emosional, unsur gaya yang ketiga). Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: the camera changes the weights",
-         "id": "Poin penting: kamera mengubah bobotnya"
-        },
-        "body": [
-         {
-          "en": "Remote delivery keeps the fundamentals: know where your audience is and where you want them to be, hold on to the empathy of EPIC, and be clear what you want them to think, feel or do. Nothing good in person becomes bad on camera; different things simply matter more.",
-          "id": "Penyampaian jarak jauh tetap memegang dasarnya: ketahui di mana posisi audiensmu dan ke mana kamu ingin membawa mereka, pegang empati dalam EPIC, dan jelas tentang apa yang kamu ingin mereka pikirkan, rasakan, atau lakukan. Hal yang baik saat tatap muka tidak menjadi buruk di kamera; hanya saja ada hal-hal lain yang jadi lebih penting."
-         },
-         {
-          "en": "The frame is small, so restrain the body: keep your hands level and on your own plane, and put the camera roughly at eye level; too high makes you small, too low makes you look self-important.",
-          "id": "Bingkainya kecil, jadi kendalikan tubuhmu: jaga tanganmu tetap sejajar dan di bidang tubuhmu sendiri, dan letakkan kamera kira-kira sejajar mata. Terlalu tinggi membuatmu terlihat kecil, terlalu rendah membuatmu terlihat angkuh."
-         },
-         {
-          "en": "Eye contact through a lens is strange, so look straight into the camera for your key message and picture the people behind it. Switch off self-view and give your attention to the audience: that is the emotional connection, applied remotely. The slides and film that follow test all three elements against a real speaker, the astronomer Wanda Díaz Merced.",
-          "id": "Kontak mata lewat lensa terasa aneh, jadi tatap langsung ke kamera untuk pesan kuncimu dan bayangkan orang-orang di baliknya. Matikan tampilan dirimu sendiri dan curahkan perhatianmu pada audiens: itulah ikatan emosional yang diterapkan dari jarak jauh. Slide dan film berikutnya menguji ketiga unsur pada seorang pembicara sungguhan, astronom Wanda Díaz Merced."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/style-4-brand.mp4",
-         "poster": "../../assets/lms/the-map/style-4-poster.jpg",
-         "dur": "2:26",
-         "title": {
-          "en": "Delivering remotely",
-          "id": "Menyampaikan dari jarak jauh"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/style-4-en.vtt",
-          "id": "../../assets/lms/the-map/style-4-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "deconstruct",
-       "placement": "after-material:4",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "The film the third slide points to: a deconstruction of Wanda Díaz Merced’s TED Talk through the three elements of style. She opens with a story (almost a children’s story: “once there was a star, she was born”) and charts its life, death and rebirth as a supernova, making something beyond our comprehension real and human. In the technical part she reaches for comparisons rather than numbers: the energy of the sun over ten days, a magnetic field a thousand trillion times the Earth’s. Then presence and voice do the underlining: vocal emphasis lands on particular words (“a tremendous amount of energy”, “an itty-bitty, tiny portion of the spectrum”), a tiny gesture matches the tiny portion, and big gestures act out the spinning star and the ice-skater analogy so we see it happen. Watch with your answers from the slides beside you. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Ini film yang dirujuk slide ketiga: pembedahan TED Talk Wanda Díaz Merced lewat tiga unsur gaya. Ia membuka dengan sebuah cerita (hampir seperti dongeng anak-anak: \"once there was a star, she was born\") lalu menelusuri kehidupan, kematian, dan kelahiran kembali bintang itu sebagai supernova, sehingga sesuatu yang di luar jangkauan pemahaman kita terasa nyata dan manusiawi. Di bagian teknis, ia memakai perbandingan alih-alih angka: energi matahari selama sepuluh hari, medan magnet seribu triliun kali medan magnet Bumi. Lalu kehadiran dan suaranya yang memberi garis bawah: penekanan suara jatuh pada kata-kata tertentu (\"a tremendous amount of energy\", \"an itty-bitty, tiny portion of the spectrum\"), gerak tangan yang kecil mengiringi bagian yang kecil itu, dan gerak tangan yang besar memeragakan bintang yang berputar dan analogi pemain seluncur es sehingga kita bisa melihatnya terjadi. Tonton sambil membuka jawabanmu dari slide tadi. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: how an expert brings it to life",
-         "id": "Poin penting: cara seorang ahli menghidupkan pesannya"
-        },
-        "body": [
-         {
-          "en": "Start with a story. Merced opens like a children’s tale (a star is born, dies and is reborn) and turns an abstract subject into something real and human before any technical detail arrives.",
-          "id": "Mulailah dengan cerita. Merced membuka seperti dongeng anak-anak (sebuah bintang lahir, mati, lalu lahir kembali) dan mengubah topik yang abstrak menjadi sesuatu yang nyata dan manusiawi sebelum detail teknis apa pun muncul."
-         },
-         {
-          "en": "Replace numbers with comparisons. The sun’s energy over ten days and a magnetic field a thousand trillion times the Earth’s let us conceive of scales that a figure in kilojoules never could.",
-          "id": "Ganti angka dengan perbandingan. Energi matahari selama sepuluh hari dan medan magnet seribu triliun kali medan magnet Bumi membuat kita bisa membayangkan skala yang tidak akan pernah tergambar lewat angka dalam kilojoule."
-         },
-         {
-          "en": "Let voice and body underline the message: vocal emphasis on the words that matter, a tiny gesture for the tiny portion, big gestures for the spinning star and the ice skater. Vivid analogies, simple stories, emphasis and gesture together are what bring it to life. The slides that follow turn the three elements into a ten-minute practice, and the film after them opens the last element of EPIC: facilitating a conversation for impact.",
-          "id": "Biarkan suara dan tubuh menggarisbawahi pesannya: penekanan suara pada kata-kata yang penting, gerak tangan kecil untuk bagian yang kecil, gerak tangan besar untuk bintang yang berputar dan pemain seluncur es. Analogi yang hidup, cerita yang sederhana, penekanan, dan gerak tangan bersama-sama itulah yang menghidupkan pesannya. Slide berikutnya mengubah ketiga unsur menjadi latihan sepuluh menit, dan film sesudahnya membuka unsur terakhir EPIC: memfasilitasi percakapan untuk dampak."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/style-5-brand.mp4",
-         "poster": "../../assets/lms/the-map/style-5-poster.jpg",
-         "dur": "2:17",
-         "title": {
-          "en": "Deconstructing story",
-          "id": "Membedah cerita"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/style-5-en.vtt",
-          "id": "../../assets/lms/the-map/style-5-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "facilitate",
-       "placement": "after-material:5",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "The film the second slide points to. Kate closes the Conversation element of EPIC with facilitation: to facilitate is to make something easier, which is why effective communicators are also effective facilitators. They make it easier for other people to understand their message. It does not mean leading the discussion or being the content expert; anyone can facilitate. What it takes is an open, curious, “over there” mindset: with your audience, thinking about where they are, willing to release your agenda when appropriate, asking questions and uncovering what else is going on in the room. It matters equally with one person or a large group, and the techniques ahead include the open–narrow–close framework (an overall architecture for most conversations), which brings together empathy, purpose and insights in a well-orchestrated conversation. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slide that follows.",
-        "id": "Ini film yang dirujuk slide kedua. Kate menutup unsur Conversation dalam EPIC dengan fasilitasi. Memfasilitasi berarti membuat sesuatu jadi lebih mudah, dan karena itulah komunikator yang efektif juga fasilitator yang efektif: mereka membuat pesannya lebih mudah dipahami orang lain. Memfasilitasi tidak berarti memimpin diskusi atau menjadi ahli materinya; siapa pun bisa memfasilitasi. Yang dibutuhkan adalah pola pikir yang terbuka, penuh rasa ingin tahu, dan \"di sana\": bersama audiensmu, memikirkan posisi mereka, rela melepas agendamu bila perlu, bertanya, dan menggali apa lagi yang sedang terjadi di ruangan. Ini sama pentingnya dengan satu orang maupun kelompok besar, dan teknik yang akan dibahas mencakup kerangka open–narrow–close (arsitektur umum untuk sebagian besar percakapan), yang menyatukan empati, tujuan, dan insight dalam percakapan yang tertata baik. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: facilitating for impact",
-         "id": "Poin penting: memfasilitasi untuk dampak"
-        },
-        "body": [
-         {
-          "en": "To facilitate is to make something easier. Effective communicators are effective facilitators because they make their message easier for others to understand, and anyone can do it; it does not require leading the discussion or being the content expert.",
-          "id": "Memfasilitasi berarti membuat sesuatu jadi lebih mudah. Komunikator yang efektif adalah fasilitator yang efektif karena mereka membuat pesannya lebih mudah dipahami orang lain, dan siapa pun bisa melakukannya. Kamu tidak harus memimpin diskusi atau menjadi ahli materinya."
-         },
-         {
-          "en": "Bring the “over there” mindset: open and curious, with your audience, thinking about where they are, willing to release your agenda when appropriate, asking questions and uncovering what else is going on in the room.",
-          "id": "Bawa pola pikir \"di sana\": terbuka dan penuh rasa ingin tahu, bersama audiensmu, memikirkan posisi mereka, rela melepas agendamu bila perlu, bertanya, dan menggali apa lagi yang sedang terjadi di ruangan."
-         },
-         {
-          "en": "Facilitation matters with one person or a large group. Frameworks such as open–narrow–close give most conversations an architecture, so that empathy, purpose and insights come together in a well-orchestrated conversation. The slide and film that follow set out that framework step by step.",
-          "id": "Fasilitasi penting, baik dengan satu orang maupun kelompok besar. Kerangka seperti open–narrow–close memberi arsitektur bagi sebagian besar percakapan, sehingga empati, tujuan, dan insight menyatu dalam percakapan yang tertata baik. Slide dan film berikutnya memaparkan kerangka itu langkah demi langkah."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/style-6-brand.mp4",
-         "poster": "../../assets/lms/the-map/style-6-poster.jpg",
-         "dur": "1:52",
-         "title": {
-          "en": "Facilitating for impact",
-          "id": "Memfasilitasi untuk dampak"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/style-6-en.vtt",
-          "id": "../../assets/lms/the-map/style-6-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "onc",
-       "placement": "after-material:6",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "The film the slide points to. David sets out open, narrow, close as the three phases of any interaction: opening starts the meeting and broadens the ideas; narrowing focuses and prioritises what you really want to solve; closing brings it to a conclusion (next steps, commitments, everyone agreeing what they have agreed). The harder question is how to portion the time, and that depends on whether this is a first meeting or the last, and how good the ideas need to be. The general guidelines: move through introductions and the agenda quickly, then create energy in the opening. A three-minute stop-clock brainstorm beats a twenty-minute one. Give the narrow phase real time and facilitative skill, because it means hard decisions with egos on the line, and people must believe the process was fair. Then go back into momentum mode to close, restating explicitly what has been agreed; allow twenty minutes to half an hour even in a day-long meeting. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Ini film yang dirujuk slide tadi. David memaparkan open, narrow, close sebagai tiga fase dalam setiap interaksi. Pembukaan memulai rapat dan memperluas ide; penyempitan memfokuskan dan memprioritaskan hal yang benar-benar ingin kamu selesaikan; penutupan membawanya ke kesimpulan (langkah berikutnya, komitmen, semua orang sepakat tentang apa yang sudah disepakati). Pertanyaan yang lebih sulit adalah cara membagi waktunya, dan itu tergantung apakah ini rapat pertama atau terakhir, serta seberapa matang ide-idenya perlu digarap. Pedoman umumnya: lewati perkenalan dan agenda dengan cepat, lalu bangun energi di pembukaan. Curah gagasan tiga menit dengan pengatur waktu lebih baik daripada curah gagasan dua puluh menit. Beri fase penyempitan waktu yang cukup dan keterampilan memfasilitasi yang baik, karena di sinilah keputusan sulit diambil, ego dipertaruhkan, dan orang harus yakin prosesnya adil. Lalu kembali ke mode penuh momentum untuk menutup, dengan menegaskan kembali secara eksplisit apa yang sudah disepakati; sediakan dua puluh menit sampai setengah jam, bahkan dalam rapat sehari penuh. Subtitel tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: open, narrow, close",
-         "id": "Poin penting: open, narrow, close"
-        },
-        "body": [
-         {
-          "en": "Every interaction has three phases. Open kicks the meeting off and broadens the ideas; narrow focuses and prioritises what you want to solve; close brings it to a conclusion with next steps, commitments and shared takeaways.",
-          "id": "Setiap interaksi punya tiga fase. Open memulai rapat dan memperluas ide; narrow memfokuskan dan memprioritaskan hal yang ingin kamu selesaikan; close membawanya ke kesimpulan dengan langkah berikutnya, komitmen, dan pemahaman bersama."
-         },
-         {
-          "en": "Portion the time deliberately. Move through introductions quickly and give the opening energy and momentum. A timed three-minute burst of ideas beats a long brainstorm. Allow the narrow phase real time and skill: hard decisions, egos on the line, and a process people believe is fair.",
-          "id": "Bagi waktunya dengan sengaja. Lewati perkenalan dengan cepat dan beri pembukaan energi dan momentum. Ledakan ide tiga menit dengan pengatur waktu lebih baik daripada curah gagasan yang panjang. Beri fase narrow waktu dan keterampilan yang cukup: keputusan sulit, ego yang dipertaruhkan, dan proses yang diyakini adil oleh semua orang."
-         },
-         {
-          "en": "Close in momentum mode: you are looking for commitments, so restate explicitly what has been agreed and allow twenty minutes to half an hour even in a day-long meeting. How much each phase gets still depends on context and what matters most to achieve. The three slides that follow close the material: a reflection on a past interaction, the module’s key takeaways and its closing.",
-          "id": "Tutup dengan mode penuh momentum: kamu sedang mencari komitmen, jadi tegaskan kembali secara eksplisit apa yang sudah disepakati dan sediakan dua puluh menit sampai setengah jam, bahkan dalam rapat sehari penuh. Porsi setiap fase tetap tergantung konteks dan apa yang paling penting untuk dicapai. Tiga slide berikutnya menutup materi: renungan tentang interaksi di masa lalu, poin-poin penting modul, dan penutupnya."
-         }
-        ]
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/style-7-brand.mp4",
-         "poster": "../../assets/lms/the-map/style-7-poster.jpg",
-         "dur": "3:46",
-         "title": {
-          "en": "Open Narrow Close",
-          "id": "Open Narrow Close"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/style-7-en.vtt",
-          "id": "../../assets/lms/the-map/style-7-id.vtt"
-         }
-        }
-       ]
-      }
-     ],
      "sections": [
       {
        "icon": "eye",
@@ -8979,8 +8053,8 @@ window.MT_LMS['the-map'] = {
         "id": "Sesuaikan gaya dengan ruangannya"
        },
        "body": {
-        "en": "The same three elements scale with the setting. <b>One-to-one:</b> presence is mostly stillness and eye contact; volume drops, pace slows, and connection comes from listening visibly. <b>Small meeting:</b> sit forward, keep gestures inside the width of your shoulders, use vocal emphasis to mark the answer from the reasons (the pyramid from 4.2, spoken). <b>Large room:</b> everything gets bigger and slower (wider gestures, longer pauses, more volume, eye contact that sweeps to the back rows), and the emotional connection is built with a story or an image rather than a chart. <b>Video call:</b> the camera flattens presence, so, as David told Aaliyah in 4.3, set the room first (light, background, framing), then dial energy and vocal variation up a notch, look at the lens when the point matters, and break the black box with a question in the chat. In every setting the rule from the film holds: adjust the elements, not your personality. Find your natural style and be confident within it.",
-        "id": "Ketiga unsur yang sama berubah skalanya sesuai situasi. <b>Empat mata:</b> kehadiran sebagian besar berupa ketenangan dan kontak mata; volume turun, tempo melambat, dan ikatan lahir dari mendengarkan secara aktif dan terlihat. <b>Rapat kecil:</b> duduk sedikit condong ke depan, jaga gerak tangan tetap di dalam lebar bahu, dan pakai penekanan suara untuk memisahkan jawaban dari alasannya (piramida dari 4.2, dalam bentuk lisan). <b>Ruangan besar:</b> semuanya jadi lebih besar dan lebih lambat (gerak tangan lebih lebar, jeda lebih panjang, volume lebih keras, kontak mata yang menyapu sampai barisan belakang), dan ikatan emosional dibangun lewat cerita atau gambar, bukan grafik. <b>Panggilan video:</b> kamera meratakan kehadiranmu, jadi, seperti saran David kepada Aaliyah di 4.3, siapkan ruangannya dulu (cahaya, latar, bingkai), lalu naikkan energi dan variasi suaramu satu tingkat, tatap lensa saat poinnya penting, dan pecahkan \"kotak hitam\" itu dengan pertanyaan di kolom chat. Di setiap situasi, aturan dari film tadi tetap berlaku: sesuaikan unsurnya, bukan kepribadianmu. Temukan gaya alamimu dan percaya dirilah di dalamnya."
+        "en": "The same three elements scale with the setting. <b>One-to-one:</b> presence is mostly stillness and eye contact; volume drops, pace slows, and connection comes from listening visibly. <b>Small meeting:</b> sit forward, keep gestures inside the width of your shoulders, use vocal emphasis to mark the answer from the reasons (the pyramid from 4.2, spoken). <b>Large room:</b> everything gets bigger and slower (wider gestures, longer pauses, more volume, eye contact that sweeps to the back rows), and the emotional connection is built with a story or an image rather than a chart. <b>Video call:</b> the camera flattens presence, so set the room first (light, background, framing), then dial energy and vocal variation up a notch, look at the lens when the point matters, and break the black box with a question in the chat. In every setting one rule holds: adjust the elements, not your personality. Find your natural style and be confident within it.",
+        "id": "Ketiga unsur yang sama berubah skalanya sesuai situasi. <b>Empat mata:</b> kehadiran sebagian besar berupa ketenangan dan kontak mata; volume turun, tempo melambat, dan ikatan lahir dari mendengarkan secara aktif dan terlihat. <b>Rapat kecil:</b> duduk sedikit condong ke depan, jaga gerak tangan tetap di dalam lebar bahu, dan pakai penekanan suara untuk memisahkan jawaban dari alasannya (piramida dari 4.2, dalam bentuk lisan). <b>Ruangan besar:</b> semuanya jadi lebih besar dan lebih lambat (gerak tangan lebih lebar, jeda lebih panjang, volume lebih keras, kontak mata yang menyapu sampai barisan belakang), dan ikatan emosional dibangun lewat cerita atau gambar, bukan grafik. <b>Panggilan video:</b> kamera meratakan kehadiranmu, jadi siapkan ruangannya dulu (cahaya, latar, bingkai), lalu naikkan energi dan variasi suaramu satu tingkat, tatap lensa saat poinnya penting, dan pecahkan \"kotak hitam\" itu dengan pertanyaan di kolom chat. Di setiap situasi, satu aturan tetap berlaku: sesuaikan unsurnya, bukan kepribadianmu. Temukan gaya alamimu dan percaya dirilah di dalamnya."
        }
       }
      ],
@@ -9084,7 +8158,36 @@ window.MT_LMS['the-map'] = {
         "id": "Gerakan gelisah menguras perhatian, bukan hanya citra. Memantapkan diri lebih awal menyingkirkan \"pengawas\" di dalam kepalamu. Menyembunyikan tangan atau bicara lebih cepat justru menambah sinyal yang akan dibaca audiens sebagai gugup, dan masalahnya memang tidak pernah ada di isi."
        }
       }
-     ]
+     ],
+     "videos": [
+      {
+       "src": {
+        "en": "../../assets/lms/films/map-4-4-before-you-speak-en.mp4",
+        "id": "../../assets/lms/films/map-4-4-before-you-speak-id.mp4"
+       },
+       "poster": {
+        "en": "../../assets/lms/films/map-4-4-before-you-speak-en-poster.jpg",
+        "id": "../../assets/lms/films/map-4-4-before-you-speak-id-poster.jpg"
+       },
+       "dur": {
+        "en": "2:04",
+        "id": "1:50"
+       },
+       "title": {
+        "en": "Before you speak: the three elements of presentation style",
+        "id": "Sebelum kamu bicara: tiga unsur gaya presentasi"
+       }
+      }
+     ],
+     "videosPlacement": "after-material:1",
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows these slides: Tika, a first presentation that her body gave away, and what she does before the next one. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide ini: Tika, presentasi pertama yang dibocorkan oleh tubuhnya, dan apa yang ia lakukan sebelum presentasi berikutnya. Tonton, lalu lanjutkan ke slide berikutnya."
+     }
     }
    ],
    "hero": "../../assets/mentoring-session.jpg",
