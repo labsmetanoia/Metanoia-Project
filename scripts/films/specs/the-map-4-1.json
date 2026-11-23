@@ -1,0 +1,358 @@
+{
+  "id": "map-4-1-the-point-first",
+  "product": {
+    "en": "The Map",
+    "id": "The Map"
+  },
+  "lesson": "4.1",
+  "title": {
+    "en": "The point first: five ways a message fails",
+    "id": "Intinya dulu: lima cara sebuah pesan gagal"
+  },
+  "sources": "Written for this lesson from its own objectives and reading: the five recurring communication challenges, the curse of knowledge, and auditing one message of your own. These are standard practices of workplace communication, taught here in the lesson's own words. The case and the character are invented for this film and appear in no other course. No third-party script, footage, picture or sound.",
+  "scenes": [
+    {
+      "type": "title",
+      "hold": 4.5,
+      "kicker": {
+        "en": "The Map · Lesson 4.1",
+        "id": "The Map · Pelajaran 4.1"
+      },
+      "title": {
+        "en": "The point *first*",
+        "id": "Intinya *dulu*"
+      },
+      "sub": {
+        "en": "Five communication challenges",
+        "id": "Lima tantangan komunikasi"
+      }
+    },
+    {
+      "type": "story",
+      "set": "desk",
+      "opts": {
+        "sky": "rain",
+        "day": {
+          "en": "MON",
+          "id": "SEN"
+        },
+        "date": "6",
+        "mail": 0,
+        "who": {
+          "hair": "short",
+          "shirt": "#2FA7A0"
+        },
+        "moods": [
+          "neutral",
+          "think"
+        ]
+      },
+      "tag": {
+        "en": "A careful update",
+        "id": "Laporan yang rapi"
+      },
+      "keys": [
+        {
+          "en": "Three hundred words, *in the order things happened*.",
+          "id": "Tiga ratus kata, *urut sesuai kejadian*."
+        },
+        {
+          "en": "The audience *owns the meaning*.",
+          "id": "Makna ada di tangan *pembaca*."
+        }
+      ],
+      "say": [
+        {
+          "en": "Fajar sends his manager a careful update: three hundred words, in the order things happened.",
+          "id": "Fajar mengirim laporan yang rapi kepada manajernya: tiga ratus kata, urut sesuai kejadian."
+        },
+        {
+          "en": "She reads two lines and replies: so, are we on track? What she understood is what he communicated.",
+          "id": "Manajernya membaca dua baris, lalu membalas: jadi, kita sesuai jadwal atau tidak? Yang ia pahami, itulah yang Fajar sampaikan."
+        }
+      ]
+    },
+    {
+      "type": "loop",
+      "kicker": {
+        "en": "Five ways a message fails",
+        "id": "Lima cara sebuah pesan gagal"
+      },
+      "centre": {
+        "en": "Five challenges",
+        "id": "Lima tantangan"
+      },
+      "centreSub": {
+        "en": "which one is yours?",
+        "id": "mana yang milikmu?"
+      },
+      "steps": [
+        {
+          "h": {
+            "en": "Burying the lead",
+            "id": "Mengubur inti pesan"
+          },
+          "p": {
+            "en": "the point arrives last",
+            "id": "intinya muncul paling akhir"
+          }
+        },
+        {
+          "h": {
+            "en": "The curse of knowledge",
+            "id": "Kutukan pengetahuan"
+          },
+          "p": {
+            "en": "you skip steps they needed",
+            "id": "melompati langkah yang mereka butuhkan"
+          }
+        },
+        {
+          "h": {
+            "en": "Wrong altitude",
+            "id": "Ketinggian yang salah"
+          },
+          "p": {
+            "en": "detail when they wanted the summary",
+            "id": "detail saat mereka butuh ringkasan"
+          }
+        },
+        {
+          "h": {
+            "en": "Monologue",
+            "id": "Kebiasaan bermonolog"
+          },
+          "p": {
+            "en": "never checking what landed",
+            "id": "tak pernah mengecek yang sampai"
+          }
+        },
+        {
+          "h": {
+            "en": "Stakes freeze",
+            "id": "Beku saat taruhannya tinggi"
+          },
+          "p": {
+            "en": "never rehearsed under pressure",
+            "id": "tak pernah dilatih di bawah tekanan"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "A message can fail in five ways.",
+          "id": "Sebuah pesan bisa gagal dengan lima cara."
+        },
+        {
+          "en": "Burying the lead: telling the story in order, so the point arrives last.",
+          "id": "Mengubur inti pesan: bercerita secara berurutan, sehingga intinya muncul paling akhir."
+        },
+        {
+          "en": "The curse of knowledge: once you know something, you skip the steps your reader needed.",
+          "id": "Kutukan pengetahuan: begitu kamu paham sesuatu, kamu melompati langkah yang dibutuhkan pembacamu."
+        },
+        {
+          "en": "Wrong altitude: detail when they wanted the summary, or the reverse.",
+          "id": "Ketinggian yang salah: memberi detail saat mereka butuh ringkasan, atau sebaliknya."
+        },
+        {
+          "en": "Monologue: sending, and never checking what landed.",
+          "id": "Kebiasaan bermonolog: mengirim, lalu tak pernah mengecek apa yang sampai."
+        },
+        {
+          "en": "And stakes freeze: fluent with friends, rigid when it matters, because it was never rehearsed.",
+          "id": "Dan beku saat taruhannya tinggi: lancar di depan teman, kaku saat penting, karena tak pernah dilatih."
+        }
+      ]
+    },
+    {
+      "type": "mail",
+      "kicker": {
+        "en": "The same update, point first",
+        "id": "Laporan yang sama, intinya dulu"
+      },
+      "mails": [
+        {
+          "at": 0,
+          "dimAt": 2,
+          "hot": 3,
+          "label": {
+            "en": "Before",
+            "id": "Sebelum"
+          },
+          "subject": {
+            "en": "Update",
+            "id": "Laporan"
+          },
+          "lines": [
+            {
+              "en": "First I collected the survey data.",
+              "id": "Pertama, saya mengumpulkan data survei."
+            },
+            {
+              "en": "Then I cleaned it for two days.",
+              "id": "Lalu saya merapikannya selama dua hari."
+            },
+            {
+              "en": "Some answers turned out to be unusable.",
+              "id": "Ternyata sebagian jawaban tidak bisa dipakai."
+            },
+            {
+              "en": "So we may be one week late.",
+              "id": "Jadi kita mungkin terlambat satu minggu."
+            }
+          ]
+        },
+        {
+          "at": 2,
+          "hot": 0,
+          "label": {
+            "en": "After",
+            "id": "Sesudah"
+          },
+          "subject": {
+            "en": "One week late: your decision needed by Friday",
+            "id": "Terlambat satu minggu: butuh keputusan Ibu sebelum Jumat"
+          },
+          "lines": [
+            {
+              "en": "We will be one week late.",
+              "id": "Kita akan terlambat satu minggu."
+            },
+            {
+              "en": "Reason: 40 survey answers were unusable.",
+              "id": "Sebabnya: 40 jawaban survei tidak bisa dipakai."
+            },
+            {
+              "en": "Option A: extend. Option B: a smaller sample.",
+              "id": "Opsi A: perpanjang. Opsi B: sampel lebih kecil."
+            }
+          ]
+        }
+      ],
+      "say": [
+        {
+          "en": "Look at his message. The line that matters is the last one.",
+          "id": "Lihat pesannya. Kalimat yang penting justru ada di akhir."
+        },
+        {
+          "en": "At work, people want the point first and the journey second.",
+          "id": "Di dunia kerja, orang ingin intinya dulu, baru ceritanya."
+        },
+        {
+          "en": "So he rewrites it. The point, the reason, and the decision he needs from her.",
+          "id": "Maka ia menulis ulang. Intinya, sebabnya, dan keputusan yang ia butuhkan dari manajernya."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": {
+        "en": "Audit one message you sent",
+        "id": "Audit satu pesan yang kamu kirim"
+      },
+      "cards": [
+        {
+          "at": 0,
+          "h": {
+            "en": "The first sentence",
+            "id": "Kalimat pertama"
+          },
+          "p": {
+            "en": "Does it carry the point?",
+            "id": "Apakah memuat intinya?"
+          }
+        },
+        {
+          "at": 1,
+          "h": {
+            "en": "An outsider",
+            "id": "Orang luar"
+          },
+          "p": {
+            "en": "Could they follow it without your context?",
+            "id": "Bisakah mereka mengikutinya tanpa konteksmu?"
+          }
+        },
+        {
+          "at": 2,
+          "hot": true,
+          "h": {
+            "en": "A check",
+            "id": "Pengecekan"
+          },
+          "p": {
+            "en": "Did you ask anything that verified understanding?",
+            "id": "Apakah kamu bertanya untuk memastikan mereka paham?"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "You can audit any message with three questions. Does the first sentence carry the point?",
+          "id": "Kamu bisa mengaudit pesan apa pun dengan tiga pertanyaan. Apakah kalimat pertamanya memuat inti?"
+        },
+        {
+          "en": "Could a smart outsider follow it without your context?",
+          "id": "Bisakah orang luar yang cerdas mengikutinya tanpa konteksmu?"
+        },
+        {
+          "en": "And did you ask anything that checked what they understood?",
+          "id": "Dan apakah kamu bertanya untuk mengecek apa yang mereka pahami?"
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "quiet": true,
+      "kicker": {
+        "en": "In two lines",
+        "id": "Dalam dua kalimat"
+      },
+      "points": [
+        {
+          "en": "What they understood *is* what you communicated.",
+          "id": "Yang mereka pahami, *itulah* yang kamu sampaikan."
+        },
+        {
+          "en": "Put the point *first*, the journey second.",
+          "id": "Taruh intinya *dulu*, ceritanya belakangan."
+        }
+      ],
+      "turnLabel": {
+        "en": "Your turn.",
+        "id": "Giliranmu."
+      },
+      "turn": {
+        "en": "Take the last important message you sent and score it against the five challenges.",
+        "id": "Ambil pesan penting terakhir yang kamu kirim, lalu nilai dengan lima tantangan tadi."
+      },
+      "say": [
+        {
+          "en": "What they understood is what you communicated.",
+          "id": "Yang mereka pahami, itulah yang kamu sampaikan."
+        },
+        {
+          "en": "Put the point first, the journey second.",
+          "id": "Taruh intinya dulu, ceritanya belakangan."
+        },
+        {
+          "en": "Now it is your turn. Take the last important message you sent and score it against the five challenges.",
+          "id": "Sekarang giliranmu. Ambil pesan penting terakhir yang kamu kirim, lalu nilai dengan lima tantangan tadi."
+        }
+      ]
+    },
+    {
+      "type": "end",
+      "hold": 3.5,
+      "title": {
+        "en": "The Map",
+        "id": "The Map"
+      },
+      "sub": {
+        "en": "An original Metanoia Labs learning film · © 2026 Metanoia Labs",
+        "id": "Film pembelajaran orisinal Metanoia Labs · © 2026 Metanoia Labs"
+      }
+    }
+  ]
+}

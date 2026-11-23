@@ -1,0 +1,315 @@
+{
+  "id": "map-4-3-three-hard-messages",
+  "product": {
+    "en": "The Map",
+    "id": "The Map"
+  },
+  "lesson": "4.3",
+  "title": {
+    "en": "Three hard messages: a cold email, an interruption, a disagreement",
+    "id": "Tiga pesan yang sulit: email perkenalan, interupsi, ketidaksetujuan"
+  },
+  "sources": "Written for this lesson from its own objectives and reading: a cold email whose first line earns the second, an update that survives an interruption, and disagreeing upward with data, an option and a question. These are standard practices of workplace communication, taught here in the lesson's own words. The case and the character are invented for this film and appear in no other course. No third-party script, footage, picture or sound.",
+  "scenes": [
+    {
+      "type": "title",
+      "hold": 4.5,
+      "kicker": {
+        "en": "The Map · Lesson 4.3",
+        "id": "The Map · Pelajaran 4.3"
+      },
+      "title": {
+        "en": "Three *hard* messages",
+        "id": "Tiga pesan yang *sulit*"
+      },
+      "sub": {
+        "en": "A cold email, an interruption, a disagreement",
+        "id": "Email perkenalan, interupsi, ketidaksetujuan"
+      }
+    },
+    {
+      "type": "mail",
+      "kicker": {
+        "en": "One: the cold email",
+        "id": "Satu: email perkenalan"
+      },
+      "mails": [
+        {
+          "at": 0,
+          "dimAt": 1,
+          "label": {
+            "en": "Deleted",
+            "id": "Dihapus"
+          },
+          "subject": {
+            "en": "Hello",
+            "id": "Halo"
+          },
+          "lines": [
+            {
+              "en": "My name is Bagas and I am a student…",
+              "id": "Nama saya Bagas, saya mahasiswa…"
+            },
+            {
+              "en": "I would like to ask about your career.",
+              "id": "Saya ingin bertanya tentang karier Kakak."
+            },
+            {
+              "en": "Could we meet sometime?",
+              "id": "Bisakah kita bertemu kapan-kapan?"
+            }
+          ]
+        },
+        {
+          "at": 1,
+          "hot": 0,
+          "label": {
+            "en": "Answered",
+            "id": "Dibalas"
+          },
+          "subject": {
+            "en": "15 minutes on your move from audit to data?",
+            "id": "15 menit soal pindah dari audit ke data?"
+          },
+          "lines": [
+            {
+              "en": "Your talk on audit analytics changed my thesis topic.",
+              "id": "Paparan Kakak soal analitik audit mengubah topik skripsi saya."
+            },
+            {
+              "en": "Could I ask two questions about your move?",
+              "id": "Boleh saya bertanya dua hal soal kepindahan Kakak?"
+            },
+            {
+              "en": "15 minutes, any day next week, by call.",
+              "id": "15 menit, hari apa pun pekan depan, lewat telepon."
+            }
+          ]
+        }
+      ],
+      "say": [
+        {
+          "en": "First, the cold email. Bagas writes to an alumna he has never met. His first draft talks about himself, and asks for sometime.",
+          "id": "Pertama, email perkenalan. Bagas menulis kepada seorang alumni yang belum pernah ia temui. Draf pertamanya bercerita tentang dirinya, dan meminta waktu kapan-kapan."
+        },
+        {
+          "en": "The second draft shows his homework in line one. And the ask is small, specific and time-boxed.",
+          "id": "Draf kedua menunjukkan sejak baris pertama bahwa ia sudah mencari tahu. Permintaannya kecil, spesifik, dan berbatas waktu."
+        },
+        {
+          "en": "The first line has one job: to earn the second line.",
+          "id": "Baris pertama punya satu tugas: membuat baris kedua dibaca."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "set": "office",
+      "opts": {
+        "badge": {
+          "en": "UPDATE",
+          "id": "LAPORAN"
+        },
+        "who": {
+          "hair": "short",
+          "shirt": "#5b7696"
+        },
+        "moods": [
+          "surprised",
+          "smile"
+        ],
+        "mateMood": "neutral",
+        "leadMood": "neutral"
+      },
+      "tag": {
+        "en": "Two: the interruption",
+        "id": "Dua: interupsi"
+      },
+      "keys": [
+        {
+          "en": "“Wait. What is the bottom line?”",
+          "id": "“Sebentar. Intinya apa?”"
+        },
+        {
+          "en": "A request for *a different altitude*.",
+          "id": "Permintaan untuk *pindah ketinggian*."
+        }
+      ],
+      "say": [
+        {
+          "en": "Second, the interruption. Bagas is thirty seconds into his update when his lead cuts in: wait, what is the bottom line?",
+          "id": "Kedua, interupsi. Baru tiga puluh detik Bagas memaparkan laporannya, atasannya memotong: sebentar, intinya apa?"
+        },
+        {
+          "en": "It is not an attack. It is a request for a different altitude. He answers in one sentence, then asks: shall I go into the detail?",
+          "id": "Itu bukan serangan. Itu permintaan untuk pindah ketinggian. Ia menjawab dalam satu kalimat, lalu bertanya: perlu saya jelaskan rinciannya?"
+        }
+      ]
+    },
+    {
+      "type": "notes",
+      "kicker": {
+        "en": "Three: disagreeing upward",
+        "id": "Tiga: tidak setuju kepada atasan"
+      },
+      "notes": [
+        {
+          "at": 0,
+          "strikeAt": 1,
+          "label": {
+            "en": "About his ego",
+            "id": "Soal egonya"
+          },
+          "text": {
+            "en": "I think that plan is wrong.",
+            "id": "Menurut saya rencana itu salah."
+          }
+        },
+        {
+          "at": 2,
+          "small": true,
+          "label": {
+            "en": "Data, an option, a question",
+            "id": "Data, pilihan, pertanyaan"
+          },
+          "text": {
+            "en": "Last quarter this channel brought *3 of 40* sign-ups. Could we test it for two weeks first? *What am I missing?*",
+            "id": "Kuartal lalu kanal ini menghasilkan *3 dari 40* pendaftar. Bisakah kita uji dua pekan dulu? *Apa yang saya lewatkan?*"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Third, disagreeing upward. His lead wants to spend the whole budget on one channel. Bagas thinks: that plan is wrong.",
+          "id": "Ketiga, tidak setuju kepada atasan. Atasannya ingin menghabiskan seluruh anggaran di satu kanal. Bagas membatin: rencana itu salah."
+        },
+        {
+          "en": "Said aloud, that sentence defends his ego, not the decision.",
+          "id": "Jika diucapkan, kalimat itu membela egonya, bukan keputusannya."
+        },
+        {
+          "en": "So he shares the data, names an option, and asks a real question: what am I missing?",
+          "id": "Maka ia membagikan datanya, menawarkan satu pilihan, dan mengajukan pertanyaan yang sungguh-sungguh: apa yang saya lewatkan?"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": {
+        "en": "What the three have in common",
+        "id": "Kesamaan ketiganya"
+      },
+      "footAt": 3,
+      "foot": {
+        "en": "Each one starts from *the other person*.",
+        "id": "Semuanya berangkat dari *lawan bicaramu*."
+      },
+      "cards": [
+        {
+          "at": 0,
+          "h": {
+            "en": "Cold email",
+            "id": "Email perkenalan"
+          },
+          "p": {
+            "en": "Small, specific, time-boxed.",
+            "id": "Kecil, spesifik, berbatas waktu."
+          }
+        },
+        {
+          "at": 1,
+          "h": {
+            "en": "Interruption",
+            "id": "Interupsi"
+          },
+          "p": {
+            "en": "Navigation, not attack.",
+            "id": "Navigasi, bukan serangan."
+          }
+        },
+        {
+          "at": 2,
+          "hot": true,
+          "h": {
+            "en": "Disagreement",
+            "id": "Ketidaksetujuan"
+          },
+          "p": {
+            "en": "Data, an option, a question.",
+            "id": "Data, pilihan, pertanyaan."
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Put the three side by side. A cold email works when the ask is small, specific and time-boxed.",
+          "id": "Sandingkan ketiganya. Email perkenalan berhasil jika permintaannya kecil, spesifik, dan berbatas waktu."
+        },
+        {
+          "en": "An interruption is navigation, not attack.",
+          "id": "Interupsi adalah navigasi, bukan serangan."
+        },
+        {
+          "en": "A disagreement lands with data, an option and a question.",
+          "id": "Ketidaksetujuan diterima jika membawa data, pilihan, dan pertanyaan."
+        },
+        {
+          "en": "Each one starts from the other person, not from you.",
+          "id": "Semuanya berangkat dari lawan bicaramu, bukan dari dirimu."
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "quiet": true,
+      "kicker": {
+        "en": "In two lines",
+        "id": "Dalam dua kalimat"
+      },
+      "points": [
+        {
+          "en": "The first line must *earn the second*.",
+          "id": "Baris pertama harus *membuat baris kedua dibaca*."
+        },
+        {
+          "en": "Disagree to protect *the decision*, not your ego.",
+          "id": "Tidak setujulah demi *keputusannya*, bukan demi egomu."
+        }
+      ],
+      "turnLabel": {
+        "en": "Your turn.",
+        "id": "Giliranmu."
+      },
+      "turn": {
+        "en": "Draft your own version of each message before you open the debriefs below.",
+        "id": "Tulis versimu sendiri untuk tiap pesan sebelum membuka pembahasan di bawah."
+      },
+      "say": [
+        {
+          "en": "The first line must earn the second.",
+          "id": "Baris pertama harus membuat baris kedua dibaca."
+        },
+        {
+          "en": "Disagree to protect the decision, not your ego.",
+          "id": "Tidak setujulah demi keputusannya, bukan demi egomu."
+        },
+        {
+          "en": "Now it is your turn. Draft your own version of each message before you open the debriefs below.",
+          "id": "Sekarang giliranmu. Tulis versimu sendiri untuk tiap pesan sebelum membuka pembahasan di bawah."
+        }
+      ]
+    },
+    {
+      "type": "end",
+      "hold": 3.5,
+      "title": {
+        "en": "The Map",
+        "id": "The Map"
+      },
+      "sub": {
+        "en": "An original Metanoia Labs learning film · © 2026 Metanoia Labs",
+        "id": "Film pembelajaran orisinal Metanoia Labs · © 2026 Metanoia Labs"
+      }
+    }
+  ]
+}
