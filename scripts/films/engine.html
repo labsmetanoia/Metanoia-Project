@@ -84,9 +84,42 @@
   .quad .g{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px;max-width:1090px}
   .quad .q{border-radius:16px;padding:18px 26px 20px;min-height:178px;background:rgba(255,255,255,.045);border:1px solid rgba(201,168,76,.28)}
   .quad .q.hot{background:rgba(201,168,76,.16);border-color:var(--gold)}
-  .quad .q b{font-weight:800;font-size:15px;letter-spacing:.18em;color:var(--gold)}
+  .quad .q b{font-weight:800;font-size:16px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
   .quad .q h3{font-family:Playfair,Georgia,serif;font-weight:600;font-size:35px;margin:6px 0 6px}
   .quad .q p{font-size:25px;color:var(--mute);line-height:1.3}
+  /* tree: a question broken into branches and leaves */
+  .tree{padding:80px 96px 0}
+  .tree svg{display:block;margin-top:10px;width:1090px;height:430px}
+  .tree .bx{font-family:Inter,sans-serif;color:var(--paper);display:flex;align-items:center;height:100%;padding:0 16px;line-height:1.18}
+  /* funnel: how many are left at each stage */
+  .fn{padding:86px 96px 0}
+  .fn .rows{margin-top:30px;max-width:1090px}
+  .fn .r{display:flex;align-items:center;gap:20px;height:74px}
+  .fn .r .lab{flex:none;width:330px;font-size:27px}
+  .fn .r .track{flex:1;height:44px;position:relative}
+  .fn .r .track i{position:absolute;left:0;top:0;height:44px;border-radius:8px;background:var(--teal)}
+  .fn .r.hot .track i{background:var(--ember)}
+  .fn .r .num{flex:none;width:150px;font-size:30px;font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
+  .fn .r .tag{position:absolute;top:7px;font-size:21px;font-weight:800;color:var(--gold2);white-space:nowrap}
+  /* tbl: options scored against weighted criteria */
+  .tbl{padding:80px 96px 0}
+  .tbl table{margin-top:24px;border-collapse:separate;border-spacing:0 10px;width:1090px}
+  .tbl th{font-size:17px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);text-align:left;padding:0 22px 4px}
+  .tbl td{background:rgba(255,255,255,.045);border-top:1px solid rgba(201,168,76,.28);border-bottom:1px solid rgba(201,168,76,.28);padding:15px 22px;font-size:26px}
+  .tbl td:first-child{border-left:1px solid rgba(201,168,76,.28);border-radius:14px 0 0 14px;font-family:Playfair,Georgia,serif;font-weight:600;font-size:29px}
+  .tbl td:last-child{border-right:1px solid rgba(201,168,76,.28);border-radius:0 14px 14px 0}
+  .tbl td.num,.tbl th.num{text-align:center;font-variant-numeric:tabular-nums}
+  .tbl tr.sum td{background:rgba(201,168,76,.15);border-color:var(--gold);font-weight:800}
+  .tbl .foot{margin-top:14px;font-size:29px}
+  /* pyr: a conclusion standing on its reasons */
+  .pyr{padding:80px 96px 0}
+  .pyr .top{margin:26px auto 0;width:640px;background:rgba(201,168,76,.15);border:1px solid var(--gold);border-radius:18px;padding:20px 28px;font-family:Playfair,Georgia,serif;font-weight:600;font-size:33px;line-height:1.2;text-align:center}
+  .pyr .legs{display:flex;gap:16px;margin-top:22px;width:1090px}
+  .pyr .leg{flex:1;position:relative;background:rgba(255,255,255,.045);border:1px solid rgba(201,168,76,.28);border-radius:18px;padding:20px 22px 22px;min-height:178px}
+  .pyr .leg h3{font-size:27px;font-weight:800;line-height:1.2;margin-bottom:8px;padding-right:44px}
+  .pyr .leg p{font-size:23px;line-height:1.35;color:var(--mute)}
+  .pyr .leg .mk{position:absolute;right:16px;top:16px;width:40px;height:40px}
+  .pyr .foot{margin-top:20px;font-size:29px}
   /* notes: handwritten paper notes on the wall */
   .notes{padding:86px 96px 0}
   .notes .row{display:flex;gap:44px;margin-top:40px;align-items:flex-start}
@@ -195,7 +228,7 @@
     office: function (o) {
       var sw = o.switchAt, grid = '', bars = '';
       for (var r = 0; r < 5; r++) for (var c = 0; c < 6; c++) grid += '<rect x="' + (676 + c * 62) + '" y="' + (112 + r * 38) + '" width="54" height="28" rx="3" fill="' + (r === 0 ? '#5b7696' : '#23405f') + '"/>';
-      [70, 108, 88, 132, 160].forEach(function (h, i) { bars += '<rect x="' + (700 + i * 66) + '" y="' + (296 - h) + '" width="44" height="' + h + '" rx="5" fill="' + (i === 4 ? '#F0D878' : '#2FA7A0') + '"/>'; });
+      (o.bars || [70, 108, 88, 132, 160]).forEach(function (h, i) { bars += '<rect x="' + (700 + i * 66) + '" y="' + (296 - h) + '" width="44" height="' + h + '" rx="5" fill="' + (i === 4 ? '#F0D878' : '#2FA7A0') + '"/>'; });
       return svg('<rect width="1280" height="720" fill="#14273f"/><rect y="500" width="1280" height="220" fill="#0f1e31"/>' +
         '<rect x="650" y="82" width="420" height="240" rx="12" fill="#0f1c2e" stroke="#33485f" stroke-width="6"/>' +
         (sw == null ? '' : '<g data-beat="0" data-until="' + sw + '">' + grid + '</g>') +
@@ -203,7 +236,7 @@
         '<rect x="1110" y="150" width="130" height="170" rx="8" fill="rgba(244,239,228,.06)"/>' + plant(600, 520) + deskTop(520, 520, 760) +
         person(1170, 372, 1.08, { shirt: '#E07A4B', hair: 'short', arm: o.lead === 'laras' ? null : 'point', mood: o.leadMood || 'neutral' }) +
         person(726, 428, 1.02, { shirt: '#5b7696', hair: 'hijab', mood: o.mateMood || 'neutral' }) +
-        person(930, 424, 1.12, { moods: o.moods, arm: o.lead === 'laras' ? 'raise' : null }));
+        person(930, 424, 1.12, Object.assign({ moods: o.moods, arm: o.lead === 'laras' ? 'raise' : null }, o.who || {})));
     },
     /* two people at one screen: asking for a quarter of an hour */
     team: function (o) {
@@ -275,8 +308,43 @@
     },
     quad: function (s) {
       return '<div class="scene quad"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><div class="g">' + s.boxes.map(function (c, i) {
-        return '<div class="q' + (c.hot ? ' hot' : '') + '" data-beat="' + (c.at != null ? c.at : i) + '"><b>' + ['I', 'II', 'III', 'IV'][i] + '</b><h3>' + rich(c.h) + '</h3><p>' + rich(c.p) + '</p></div>';
+        return '<div class="q' + (c.hot ? ' hot' : '') + '" data-beat="' + (c.at != null ? c.at : i) + '"><b>' + (c.tag ? esc(t(c.tag)) : ['I', 'II', 'III', 'IV'][i]) + '</b><h3>' + rich(c.h) + '</h3><p>' + rich(c.p) + '</p></div>';
       }).join('') + '</div></div>';
+    },
+    tree: function (s) {
+      var H = 430, bx = function (x, y, w, h, txt, cls, size) { return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="12" ' + cls + '/><foreignObject x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '"><div xmlns="http://www.w3.org/1999/xhtml" class="bx" style="font-size:' + size + 'px">' + rich(txt) + '</div></foreignObject>'; };
+      var plain = 'fill="rgba(255,255,255,.05)" stroke="rgba(201,168,76,.4)" stroke-width="1.5"', hot = 'fill="rgba(201,168,76,.2)" stroke="#C9A84C" stroke-width="2.5"';
+      var n = s.branches.length, bh = 76, pad = 26, gap = (H - 2 * pad - n * bh) / (n - 1 || 1), out = '<g data-beat="0">' + bx(0, H / 2 - 56, 250, 112, s.root, hot, 27) + '</g>';
+      s.branches.forEach(function (b, i) {
+        var by = pad + i * (bh + gap), cy = by + bh / 2, at = b.at != null ? b.at : i + 1;
+        out += '<g data-beat="' + at + '"><path d="M250 ' + (H / 2) + ' C300 ' + (H / 2) + ' 300 ' + cy + ' 350 ' + cy + '" fill="none" stroke="rgba(201,168,76,.55)" stroke-width="2.5"/>' + bx(350, by, 290, bh, b.h, plain, 26) + '</g>';
+        (b.leaves || []).forEach(function (lf, k) {
+          var m = b.leaves.length, lh = 58, ly = cy - (m * lh + (m - 1) * 8) / 2 + k * (lh + 8), lat = lf.at != null ? lf.at : at;
+          out += '<g data-beat="' + lat + '"><path d="M640 ' + cy + ' C690 ' + cy + ' 690 ' + (ly + lh / 2) + ' 740 ' + (ly + lh / 2) + '" fill="none" stroke="rgba(201,168,76,.45)" stroke-width="2"/>' + bx(740, ly, 350, lh, lf.h, plain, 23) + '</g>' +
+            (lf.hot ? '<g data-beat="' + (lf.hotAt != null ? lf.hotAt : lat) + '">' + bx(740, ly, 350, lh, lf.h, hot, 23) + '</g>' : '');
+        });
+      });
+      return '<div class="scene tree"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><svg viewBox="0 0 1090 ' + H + '">' + out + '</svg></div>';
+    },
+    funnel: function (s) {
+      var max = Math.max.apply(null, s.rows.map(function (r) { return r.n; }));
+      return '<div class="scene fn"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><div class="rows">' + s.rows.map(function (r, i) {
+        var w = Math.max(3, Math.round(100 * r.n / max));
+        return '<div class="r' + (r.hot ? ' hot' : '') + '" data-beat="' + (r.at != null ? r.at : i) + '"><div class="lab">' + rich(r.h) + '</div><div class="track"><i style="width:' + w + '%"></i>' + (r.note ? '<span class="tag" data-beat="' + (r.noteAt != null ? r.noteAt : (r.at != null ? r.at : i)) + '" style="left:calc(' + w + '% + 16px)">' + rich(r.note) + '</span>' : '') + '</div><div class="num">' + esc(String(r.n)) + '</div></div>';
+      }).join('') + '</div></div>';
+    },
+    table: function (s) {
+      var cell = function (c, i, tag) { var num = i > 0; return '<' + tag + (num ? ' class="num"' : '') + '>' + (typeof c === 'object' ? rich(c) : esc(String(c))) + '</' + tag + '>'; };
+      return '<div class="scene tbl"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><table><tr data-beat="0">' + s.cols.map(function (c, i) { return cell(c, i, 'th'); }).join('') + '</tr>' + s.rows.map(function (r, i) {
+        return '<tr' + (r.sum ? ' class="sum"' : '') + ' data-beat="' + (r.at != null ? r.at : i) + '">' + r.cells.map(function (c, k) { return cell(c, k, 'td'); }).join('') + '</tr>';
+      }).join('') + '</table>' + (s.foot ? '<div class="foot serif" data-beat="' + (s.footAt || 0) + '">' + rich(s.foot) + '</div>' : '') + '</div>';
+    },
+    pyramid: function (s) {
+      var ok = '<svg class="mk" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="#2FA7A0"/><path d="M11 21 l6 6 l12 -13" fill="none" stroke="#0B1524" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      var no = '<svg class="mk" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="#E07A4B"/><path d="M13 13 l14 14 M27 13 l-14 14" fill="none" stroke="#0B1524" stroke-width="4.5" stroke-linecap="round"/></svg>';
+      return '<div class="scene pyr"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><div class="top" data-beat="' + (s.topAt || 0) + '">' + rich(s.top) + '</div><div class="legs">' + s.reasons.map(function (r, i) {
+        return '<div class="leg" data-beat="' + (r.at != null ? r.at : i + 1) + '">' + (r.mark ? '<span data-beat="' + r.markAt + '">' + (r.mark === 'ok' ? ok : no) + '</span>' : '') + '<h3>' + rich(r.h) + '</h3><p>' + rich(r.p) + '</p></div>';
+      }).join('') + '</div>' + (s.foot ? '<div class="foot serif" data-beat="' + (s.footAt || 0) + '">' + rich(s.foot) + '</div>' : '') + '</div>';
     },
     notes: function (s) {
       return '<div class="scene notes"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><div class="row">' + s.notes.map(function (n, i) {

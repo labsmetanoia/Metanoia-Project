@@ -1,0 +1,399 @@
+{
+  "id": "map-3-2-diagnose-first",
+  "product": {
+    "en": "The Map",
+    "id": "The Map"
+  },
+  "lesson": "3.2",
+  "title": {
+    "en": "Diagnose first: root causes and action plans",
+    "id": "Diagnosis dulu: akar masalah dan rencana tindakan"
+  },
+  "sources": "Written for this lesson from its own objectives: a hypothesis written with a number, reading where people drop off, sorting ideas by impact and ease, and a plan with owners and dates. The methods are standard problem-solving practice, taught here in the lesson's own words. The case, the numbers and the character are invented for this film and appear in no other course or book. No third-party script, footage, picture or sound.",
+  "scenes": [
+    {
+      "type": "title",
+      "hold": 4.5,
+      "kicker": {
+        "en": "The Map · Lesson 3.2",
+        "id": "The Map · Pelajaran 3.2"
+      },
+      "title": {
+        "en": "Diagnose *first*",
+        "id": "Diagnosis *dulu*"
+      },
+      "sub": {
+        "en": "Root causes and action plans",
+        "id": "Akar masalah dan rencana tindakan"
+      }
+    },
+    {
+      "type": "story",
+      "set": "team",
+      "opts": {
+        "who": {
+          "hair": "short",
+          "shirt": "#C9A84C"
+        },
+        "moods": [
+          "neutral",
+          "think"
+        ]
+      },
+      "tag": {
+        "en": "A coffee cart near campus",
+        "id": "Gerobak kopi di dekat kampus"
+      },
+      "keys": [
+        {
+          "en": "Sales are down. *Arga has a cure.*",
+          "id": "Penjualan turun. *Arga sudah punya obatnya.*"
+        },
+        {
+          "en": "A cure for the wrong cause is *not a cure*.",
+          "id": "Obat untuk penyebab yang salah *bukanlah obat*."
+        }
+      ],
+      "say": [
+        {
+          "en": "Arga sells iced coffee from a cart near campus. Sales are down, and he already has a cure: a discount.",
+          "id": "Arga berjualan es kopi dengan gerobak di dekat kampus. Penjualannya turun, dan ia sudah punya obatnya: diskon."
+        },
+        {
+          "en": "His friend asks one question first. What is the diagnosis? A cure for the wrong cause is not a cure.",
+          "id": "Temannya bertanya dulu. Apa diagnosisnya? Obat untuk penyebab yang salah bukanlah obat."
+        }
+      ]
+    },
+    {
+      "type": "notes",
+      "kicker": {
+        "en": "A hypothesis is a guess that data can kill",
+        "id": "Hipotesis adalah tebakan yang bisa dipatahkan data"
+      },
+      "notes": [
+        {
+          "at": 0,
+          "strikeAt": 1,
+          "label": {
+            "en": "A feeling",
+            "id": "Perasaan"
+          },
+          "text": {
+            "en": "People think my coffee is too expensive.",
+            "id": "Orang merasa kopiku kemahalan."
+          }
+        },
+        {
+          "at": 2,
+          "label": {
+            "en": "A hypothesis with a number",
+            "id": "Hipotesis dengan angka"
+          },
+          "text": {
+            "en": "About *6 in 10* buyers never return, because of the price.",
+            "id": "Sekitar *6 dari 10* pembeli tidak kembali karena harganya."
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "He starts with a feeling: people think my coffee is too expensive.",
+          "id": "Ia berangkat dari perasaan: orang merasa kopiku kemahalan."
+        },
+        {
+          "en": "A feeling cannot be tested.",
+          "id": "Perasaan tidak bisa diuji."
+        },
+        {
+          "en": "So he writes a hypothesis with a number in it. About six in ten buyers never return, because of the price.",
+          "id": "Maka ia menulis hipotesis yang memuat angka. Sekitar enam dari sepuluh pembeli tidak kembali karena harganya."
+        }
+      ]
+    },
+    {
+      "type": "funnel",
+      "kicker": {
+        "en": "One week of counting",
+        "id": "Seminggu menghitung"
+      },
+      "rows": [
+        {
+          "at": 0,
+          "h": {
+            "en": "Walk past the cart",
+            "id": "Lewat di depan gerobak"
+          },
+          "n": 1200
+        },
+        {
+          "at": 1,
+          "hot": true,
+          "h": {
+            "en": "Notice it",
+            "id": "Melihat gerobaknya"
+          },
+          "n": 300,
+          "note": {
+            "en": "the leak is here",
+            "id": "bocornya di sini"
+          },
+          "noteAt": 3
+        },
+        {
+          "at": 2,
+          "h": {
+            "en": "Buy once",
+            "id": "Membeli sekali"
+          },
+          "n": 180
+        },
+        {
+          "at": 2,
+          "h": {
+            "en": "Come back",
+            "id": "Kembali lagi"
+          },
+          "n": 120
+        }
+      ],
+      "say": [
+        {
+          "en": "Before changing anything, he counts for one week. Twelve hundred people walk past the cart.",
+          "id": "Sebelum mengubah apa pun, ia menghitung selama seminggu. Seribu dua ratus orang lewat di depan gerobaknya."
+        },
+        {
+          "en": "Only three hundred notice it.",
+          "id": "Hanya tiga ratus yang melihatnya."
+        },
+        {
+          "en": "One hundred and eighty buy, and one hundred and twenty of them come back.",
+          "id": "Seratus delapan puluh membeli, dan seratus dua puluh di antaranya kembali lagi."
+        },
+        {
+          "en": "His guess was wrong. Two in three buyers return. The leak is earlier: most people never notice the cart.",
+          "id": "Tebakannya keliru. Dua dari tiga pembeli kembali. Bocornya lebih awal: kebanyakan orang tidak pernah melihat gerobaknya."
+        }
+      ]
+    },
+    {
+      "type": "quad",
+      "kicker": {
+        "en": "Many ideas, then impact × ease",
+        "id": "Banyak ide, lalu dampak × kemudahan"
+      },
+      "boxes": [
+        {
+          "at": 0,
+          "hot": true,
+          "tag": {
+            "en": "High impact, easy",
+            "id": "Dampak besar, mudah"
+          },
+          "h": {
+            "en": "A tall sign, a brighter canopy",
+            "id": "Papan tinggi, tenda lebih terang"
+          },
+          "p": {
+            "en": "Do this first.",
+            "id": "Kerjakan ini dulu."
+          }
+        },
+        {
+          "at": 1,
+          "tag": {
+            "en": "High impact, hard",
+            "id": "Dampak besar, sulit"
+          },
+          "h": {
+            "en": "Move to the main gate",
+            "id": "Pindah ke gerbang utama"
+          },
+          "p": {
+            "en": "Ask the campus for help.",
+            "id": "Minta bantuan pihak kampus."
+          }
+        },
+        {
+          "at": 2,
+          "tag": {
+            "en": "Low impact, easy",
+            "id": "Dampak kecil, mudah"
+          },
+          "h": {
+            "en": "A new cup design",
+            "id": "Desain gelas baru"
+          },
+          "p": {
+            "en": "Later.",
+            "id": "Nanti."
+          }
+        },
+        {
+          "at": 2,
+          "tag": {
+            "en": "Low impact, hard",
+            "id": "Dampak kecil, sulit"
+          },
+          "h": {
+            "en": "A delivery app",
+            "id": "Aplikasi pesan antar"
+          },
+          "p": {
+            "en": "Not now.",
+            "id": "Belum sekarang."
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Now he lists ideas, and sorts them by impact and ease. A tall sign and a brighter canopy: high impact, easy. First.",
+          "id": "Kini ia mendaftar ide, lalu memilahnya menurut dampak dan kemudahan. Papan tinggi dan tenda yang lebih terang: dampak besar, mudah. Dikerjakan dulu."
+        },
+        {
+          "en": "Moving to the main gate would help more, but it is hard. Asking for help can make a hard idea easier.",
+          "id": "Pindah ke gerbang utama lebih besar dampaknya, tetapi sulit. Meminta bantuan bisa membuat ide yang sulit menjadi lebih mudah."
+        },
+        {
+          "en": "The rest can wait.",
+          "id": "Sisanya bisa menunggu."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "kicker": {
+        "en": "A plan has owners and dates",
+        "id": "Rencana punya pemilik dan tanggal"
+      },
+      "cols": [
+        {
+          "en": "What",
+          "id": "Apa"
+        },
+        {
+          "en": "Who",
+          "id": "Siapa"
+        },
+        {
+          "en": "By when",
+          "id": "Kapan"
+        }
+      ],
+      "rows": [
+        {
+          "at": 0,
+          "cells": [
+            {
+              "en": "A tall sign",
+              "id": "Papan tinggi"
+            },
+            "Arga",
+            {
+              "en": "Saturday",
+              "id": "Sabtu"
+            }
+          ]
+        },
+        {
+          "at": 1,
+          "cells": [
+            {
+              "en": "A brighter canopy",
+              "id": "Tenda lebih terang"
+            },
+            {
+              "en": "His brother",
+              "id": "Adiknya"
+            },
+            {
+              "en": "Monday",
+              "id": "Senin"
+            }
+          ]
+        },
+        {
+          "at": 2,
+          "sum": true,
+          "cells": [
+            {
+              "en": "Count again",
+              "id": "Hitung ulang"
+            },
+            "Arga",
+            {
+              "en": "In two weeks",
+              "id": "Dua pekan lagi"
+            }
+          ]
+        }
+      ],
+      "say": [
+        {
+          "en": "Then every action gets an owner and a date. The sign, by Saturday.",
+          "id": "Lalu setiap tindakan diberi pemilik dan tanggal. Papan, paling lambat Sabtu."
+        },
+        {
+          "en": "The canopy, by Monday.",
+          "id": "Tenda, paling lambat Senin."
+        },
+        {
+          "en": "And in two weeks he counts again. A plan without owners and dates is only a wish.",
+          "id": "Dan dua pekan lagi ia menghitung ulang. Rencana tanpa pemilik dan tanggal hanyalah angan-angan."
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "quiet": true,
+      "kicker": {
+        "en": "In two lines",
+        "id": "Dalam dua kalimat"
+      },
+      "points": [
+        {
+          "en": "Symptom, diagnosis, prescription. *In that order.*",
+          "id": "Gejala, diagnosis, resep. *Dengan urutan itu.*"
+        },
+        {
+          "en": "Write your guess *with a number*, so data can kill it.",
+          "id": "Tulis tebakanmu *dengan angka*, supaya data bisa mematahkannya."
+        }
+      ],
+      "turnLabel": {
+        "en": "Your turn.",
+        "id": "Giliranmu."
+      },
+      "turn": {
+        "en": "Pick one problem you are about to fix. Write your hypothesis with a number before you act.",
+        "id": "Pilih satu masalah yang hendak kamu perbaiki. Tulis hipotesismu dengan angka sebelum bertindak."
+      },
+      "say": [
+        {
+          "en": "Symptom, diagnosis, prescription. In that order.",
+          "id": "Gejala, diagnosis, resep. Dengan urutan itu."
+        },
+        {
+          "en": "Write your guess with a number, so data can kill it.",
+          "id": "Tulis tebakanmu dengan angka, supaya data bisa mematahkannya."
+        },
+        {
+          "en": "Now it is your turn. Pick one problem you are about to fix. Write your hypothesis with a number before you act.",
+          "id": "Sekarang giliranmu. Pilih satu masalah yang hendak kamu perbaiki. Tulis hipotesismu dengan angka sebelum bertindak."
+        }
+      ]
+    },
+    {
+      "type": "end",
+      "hold": 3.5,
+      "title": {
+        "en": "The Map",
+        "id": "The Map"
+      },
+      "sub": {
+        "en": "An original Metanoia Labs learning film · © 2026 Metanoia Labs",
+        "id": "Film pembelajaran orisinal Metanoia Labs · © 2026 Metanoia Labs"
+      }
+    }
+  ]
+}
