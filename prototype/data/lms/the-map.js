@@ -2933,8 +2933,8 @@ window.MT_LMS['the-map'] = {
         "id": "Refleksi: Materi"
        },
        "intro": {
-        "en": "After the film, five slides turn the lens on your own practice: six areas to reflect on in how you already solve problems; two ways to characterise a problem (by time horizon and by its own characteristics); the two dimensions of problem-solving work (convergent versus divergent thinking, and analytical versus conceptual work); three scenarios to classify; and the key takeaways of pausing to structure first and recognising the problem type. Read them, then watch the two films that follow.",
-        "id": "Setelah film, lima slide mengarahkan sorotan ke caramu sendiri: enam area untuk direnungkan tentang caramu memecahkan masalah selama ini; dua cara menggolongkan masalah (menurut rentang waktunya dan menurut ciri masalahnya sendiri); dua dimensi kerja memecahkan masalah (berpikir konvergen lawan divergen, dan kerja analitis lawan konseptual); tiga skenario untuk digolongkan; dan poin penting tentang berhenti sejenak untuk menyusun struktur lebih dulu dan mengenali jenis masalahnya. Baca semuanya, lalu tonton dua film yang menyusul."
+        "en": "After the film, five slides turn the lens on your own practice: six areas to reflect on in how you already solve problems; two ways to characterise a problem (by time horizon and by its own characteristics); the two dimensions of problem-solving work (convergent versus divergent thinking, and analytical versus conceptual work); three scenarios to classify; and the key takeaways of pausing to structure first and recognising the problem type.",
+        "id": "Setelah film, lima slide mengarahkan sorotan ke caramu sendiri: enam area untuk direnungkan tentang caramu memecahkan masalah selama ini; dua cara menggolongkan masalah (menurut rentang waktunya dan menurut ciri masalahnya sendiri); dua dimensi kerja memecahkan masalah (berpikir konvergen lawan divergen, dan kerja analitis lawan konseptual); tiga skenario untuk digolongkan; dan poin penting tentang berhenti sejenak untuk menyusun struktur lebih dulu dan mengenali jenis masalahnya."
        },
        "base": "../../assets/lms/the-map/slides/ps-reflect-",
        "slides": [
@@ -3000,8 +3000,8 @@ window.MT_LMS['the-map'] = {
         "id": "Beragam Pendekatan Pemecahan Masalah: Materi"
        },
        "intro": {
-        "en": "After the films, four slides close the material: one framework for many problem-solving situations (understand, generate, evaluate, implement); what the hypothesis-led approach is and why starting with a hypothesis gives you a better question; the seven steps from definition to recommendations, grouped into definition, structuring, analysing and synthesising; and the key takeaway. Read them, then watch the two films that follow.",
-        "id": "Setelah film-film itu, empat slide menutup materinya: satu kerangka untuk banyak situasi pemecahan masalah (pahami, munculkan, nilai, terapkan); apa itu pendekatan berbasis hipotesis dan kenapa memulai dengan hipotesis memberimu pertanyaan yang lebih baik; tujuh langkah dari perumusan sampai rekomendasi, dikelompokkan menjadi perumusan, penyusunan struktur, analisis, dan sintesis; dan poin pentingnya. Baca semuanya, lalu tonton dua film yang menyusul."
+        "en": "Next, four slides close the material: one framework for many problem-solving situations (understand, generate, evaluate, implement); what the hypothesis-led approach is and why starting with a hypothesis gives you a better question; the seven steps from definition to recommendations, grouped into definition, structuring, analysing and synthesising; and the key takeaway.",
+        "id": "Berikutnya, empat slide menutup materinya: satu kerangka untuk banyak situasi pemecahan masalah (pahami, munculkan, nilai, terapkan); apa itu pendekatan berbasis hipotesis dan kenapa memulai dengan hipotesis memberimu pertanyaan yang lebih baik; tujuh langkah dari perumusan sampai rekomendasi, dikelompokkan menjadi perumusan, penyusunan struktur, analisis, dan sintesis; dan poin pentingnya."
        },
        "base": "../../assets/lms/the-map/slides/ps-approach-",
        "slides": [
@@ -3057,8 +3057,8 @@ window.MT_LMS['the-map'] = {
         "id": "Merumuskan Masalah: Materi"
        },
        "intro": {
-        "en": "After the films, six slides work step 1 of the hypothesis-led approach, defining the problem, through two cases: a marketing lead with 45 minutes to assess a market-research proposal, and the first question he should ask; why the right question matters more than a fast answer; the power of problem definition and three pitfalls (gut feeling, biting off too much, losing sight of the people); what problem definition looks like in a crisis; and a warehouse manager who chased a hacking hypothesis before defining the problem. Read them, then watch the two films that follow.",
-        "id": "Setelah film-film itu, enam slide menggarap langkah 1 pendekatan berbasis hipotesis, yaitu merumuskan masalah, lewat dua kasus: seorang kepala pemasaran yang punya 45 menit untuk menilai usulan riset pasar, dan pertanyaan pertama yang sebaiknya ia ajukan; kenapa pertanyaan yang tepat lebih penting daripada jawaban yang cepat; kekuatan perumusan masalah dan tiga jebakannya (naluri, mengambil beban terlalu besar, melupakan orang-orangnya); seperti apa perumusan masalah di tengah krisis; dan seorang kepala gudang yang mengejar hipotesis peretasan sebelum merumuskan masalahnya. Baca semuanya, lalu tonton dua film yang menyusul."
+        "en": "Next, six slides work step 1 of the hypothesis-led approach, defining the problem, through two cases: a marketing lead with 45 minutes to assess a market-research proposal, and the first question he should ask; why the right question matters more than a fast answer; the power of problem definition and three pitfalls (gut feeling, biting off too much, losing sight of the people); what problem definition looks like in a crisis; and a warehouse manager who chased a hacking hypothesis before defining the problem.",
+        "id": "Berikutnya, enam slide menggarap langkah 1 pendekatan berbasis hipotesis, yaitu merumuskan masalah, lewat dua kasus: seorang kepala pemasaran yang punya 45 menit untuk menilai usulan riset pasar, dan pertanyaan pertama yang sebaiknya ia ajukan; kenapa pertanyaan yang tepat lebih penting daripada jawaban yang cepat; kekuatan perumusan masalah dan tiga jebakannya (naluri, mengambil beban terlalu besar, melupakan orang-orangnya); seperti apa perumusan masalah di tengah krisis; dan seorang kepala gudang yang mengejar hipotesis peretasan sebelum merumuskan masalahnya."
        },
        "base": "../../assets/lms/the-map/slides/ps-define-",
        "slides": [
@@ -3127,16 +3127,21 @@ window.MT_LMS['the-map'] = {
      ],
      "videos": [
       {
-       "src": "../../assets/lms/the-map/structured-problem-solving.mp4",
-       "poster": "../../assets/lms/the-map/structured-problem-solving-poster.jpg",
-       "dur": "3:06",
-       "title": {
-        "en": "Structured Problem Solving: what it is, and what makes a good problem solver",
-        "id": "Pemecahan Masalah Terstruktur: apa itu, dan apa yang membuat seseorang menjadi pemecah masalah yang baik"
+       "src": {
+        "en": "../../assets/lms/films/map-3-1-complaint-to-problem-en.mp4",
+        "id": "../../assets/lms/films/map-3-1-complaint-to-problem-id.mp4"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/structured-problem-solving-en.vtt",
-        "id": "../../assets/lms/the-map/structured-problem-solving-id.vtt"
+       "poster": {
+        "en": "../../assets/lms/films/map-3-1-complaint-to-problem-en-poster.jpg",
+        "id": "../../assets/lms/films/map-3-1-complaint-to-problem-id-poster.jpg"
+       },
+       "dur": {
+        "en": "2:15",
+        "id": "2:07"
+       },
+       "title": {
+        "en": "From complaint to problem: the four-step method",
+        "id": "Dari keluhan ke masalah: metode empat langkah"
        }
       }
      ],
@@ -3145,132 +3150,10 @@ window.MT_LMS['the-map'] = {
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "After the slides, a three-minute film: two consultants who teach problem solving for a living answer the two questions this lesson turns on. What problem solving actually is (the process by which we make decisions, every day, sometimes over months and sometimes in the middle of a meeting) and what makes a good problem solver. Listen for their three marks of structure: a deliberate way of breaking the problem apart, an 80/20 choice of what to tackle, and thinking through implementation (stakeholders, roll-out, pitfalls). Subtitles are available in English and Bahasa Indonesia. When it ends, continue to the Reflection slides that follow, and then to Exhibit 1, where the same three marks sit inside the four-step method.",
-      "id": "Setelah slide, ada film tiga menit: dua konsultan yang pekerjaannya mengajarkan pemecahan masalah menjawab dua pertanyaan inti pelajaran ini. Apa sebenarnya pemecahan masalah itu (proses yang kita pakai untuk mengambil keputusan setiap hari, kadang selama berbulan-bulan, kadang di tengah rapat) dan apa yang membuat seseorang menjadi pemecah masalah yang baik. Dengarkan tiga ciri struktur yang mereka sebut: cara yang disengaja untuk memecah masalah, pilihan 80/20 tentang apa yang digarap, dan memikirkan pelaksanaannya (pemangku kepentingan, peluncuran, jebakan). Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia. Setelah selesai, lanjutkan ke slide Refleksi berikutnya, lalu ke Gambar 1, tempat tiga ciri yang sama berada di dalam metode empat langkah."
+      "en": "One short film follows these slides: Kirana, a tutoring room that has emptied, and how a complaint becomes a problem she can work on. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide ini: Kirana, ruang tutor yang makin sepi, dan bagaimana sebuah keluhan berubah menjadi masalah yang bisa ia kerjakan. Tonton, lalu lanjutkan ke slide berikutnya."
      },
      "videosPlacement": "after-material:2",
-     "videoBlocks": [
-      {
-       "key": "after-reflection",
-       "placement": "after-material:3",
-       "kicker": {
-        "en": "Watch next · 2 short films",
-        "id": "Tonton berikutnya · 2 film singkat"
-       },
-       "intro": {
-        "en": "After the Reflection slides, two short films from practising consultants. The first asks what separates okay problem solving from great: the collective power of the group, a problem formalised on paper (what it is, its constraints, the stakeholders to align) and a devil's advocate when everyone agrees too easily. The second makes sense of problems by their time horizon (in the moment, one to two weeks, a longer project) and what to focus on in each. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
-        "id": "Setelah slide Refleksi, ada dua film singkat dari konsultan yang berpengalaman. Film pertama membahas apa yang membedakan pemecahan masalah yang biasa saja dari yang hebat: kekuatan kelompok, masalah yang dituliskan secara resmi di atas kertas (apa masalahnya, batasannya, pemangku kepentingan yang perlu diselaraskan) dan seseorang yang berperan sebagai penentang saat semua orang terlalu mudah setuju. Film kedua memahami masalah menurut rentang waktunya (saat itu juga, satu sampai dua minggu, proyek yang lebih panjang) dan apa yang perlu difokuskan di masing-masing. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/hallmarks-of-great-problem-solving.mp4",
-         "poster": "../../assets/lms/the-map/hallmarks-of-great-problem-solving-poster.jpg",
-         "dur": "2:21",
-         "title": {
-          "en": "Hallmarks of great problem solving",
-          "id": "Ciri pemecahan masalah yang hebat"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/hallmarks-of-great-problem-solving-en.vtt",
-          "id": "../../assets/lms/the-map/hallmarks-of-great-problem-solving-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/making-sense-of-problems.mp4",
-         "poster": "../../assets/lms/the-map/making-sense-of-problems-poster.jpg",
-         "dur": "1:33",
-         "title": {
-          "en": "Making sense of problems: the time horizon",
-          "id": "Memahami masalah: rentang waktunya"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/making-sense-of-problems-en.vtt",
-          "id": "../../assets/lms/the-map/making-sense-of-problems-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "before-exhibit",
-       "placement": "after-material:4",
-       "kicker": {
-        "en": "Watch next · 2 short films",
-        "id": "Tonton berikutnya · 2 film singkat"
-       },
-       "intro": {
-        "en": "After the slides, two short films from the same consultants close the material. The first names five approaches to structured problem solving (hypothesis-led, domain-IP-led, advanced analytics, design thinking, engineering) and the five characteristics every one of them shares: a focused problem statement, impact orientation, a stakeholder perspective, a fact base, and synthesis. The second explains the hypothesis-led approach itself: define the problem up front, state the hypothesis you are trying to prove or disprove, structure the work around testing it, and use that structure to be a more creative problem solver. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
-        "id": "Setelah slide, dua film singkat dari konsultan yang sama menutup materinya. Film pertama menyebut lima pendekatan pemecahan masalah yang terstruktur (berbasis hipotesis, berbasis keahlian domain, analitik tingkat lanjut, design thinking, rekayasa) dan lima ciri yang dimiliki semuanya: pernyataan masalah yang terfokus, orientasi pada dampak, sudut pandang pemangku kepentingan, landasan fakta, dan sintesis. Film kedua menjelaskan pendekatan berbasis hipotesis itu sendiri: rumuskan masalahnya di awal, nyatakan hipotesis yang sedang kamu coba buktikan atau patahkan, susun pekerjaan di sekitar pengujiannya, lalu pakai struktur itu untuk menjadi pemecah masalah yang lebih kreatif. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/multiple-approaches-to-problem-solving.mp4",
-         "poster": "../../assets/lms/the-map/multiple-approaches-to-problem-solving-poster.jpg",
-         "dur": "1:38",
-         "title": {
-          "en": "Multiple approaches to problem solving",
-          "id": "Beragam pendekatan pemecahan masalah"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/multiple-approaches-to-problem-solving-en.vtt",
-          "id": "../../assets/lms/the-map/multiple-approaches-to-problem-solving-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/hypothesis-led-approach.mp4",
-         "poster": "../../assets/lms/the-map/hypothesis-led-approach-poster.jpg",
-         "dur": "2:06",
-         "title": {
-          "en": "The hypothesis-led approach",
-          "id": "Pendekatan berbasis hipotesis"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/hypothesis-led-approach-en.vtt",
-          "id": "../../assets/lms/the-map/hypothesis-led-approach-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "closing",
-       "placement": "after-material:5",
-       "kicker": {
-        "en": "Watch next · 2 short films",
-        "id": "Tonton berikutnya · 2 film singkat"
-       },
-       "intro": {
-        "en": "After the slides, two films close the lesson's material. The first is the Arun case from the slides, acted out: 45 minutes before the meeting with Apoorva, the team presents a 50-lakh-rupee research plan that covers colour, size, grip and packaging (a third of the budget for one decision), and nobody has yet asked what question the research is meant to answer. The second explains why defining the problem is the hardest first step: people see the problem differently and define success differently, pricing a product means different things to different people, and a 3 a.m. call from a cruise line showed how the solutions change with the question. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below, where the same first step opens the four-step method.",
-        "id": "Setelah slide, dua film menutup materi pelajaran ini. Film pertama memerankan kasus Arun dari slide: 45 menit sebelum rapat dengan Apoorva, tim mempresentasikan rencana riset senilai 50 lakh rupee yang mencakup warna, ukuran, pegangan, dan kemasan (sepertiga anggaran untuk satu keputusan), dan belum ada yang bertanya pertanyaan apa yang sebenarnya ingin dijawab riset itu. Film kedua menjelaskan kenapa merumuskan masalah adalah langkah pertama yang paling sulit: orang melihat masalahnya secara berbeda dan mendefinisikan keberhasilan secara berbeda, menentukan harga produk berarti hal yang berbeda bagi orang yang berbeda, dan telepon pukul 3 pagi dari sebuah perusahaan kapal pesiar menunjukkan bagaimana solusinya berubah mengikuti pertanyaannya. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Gambar 1 di bawah, tempat langkah pertama yang sama membuka metode empat langkah."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/defining-the-problem.mp4",
-         "poster": "../../assets/lms/the-map/defining-the-problem-poster.jpg",
-         "dur": "1:47",
-         "title": {
-          "en": "Defining the problem: 45 minutes before the meeting",
-          "id": "Merumuskan masalah: 45 menit sebelum rapat"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/defining-the-problem-en.vtt",
-          "id": "../../assets/lms/the-map/defining-the-problem-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/power-of-problem-definition.mp4",
-         "poster": "../../assets/lms/the-map/power-of-problem-definition-poster.jpg",
-         "dur": "4:05",
-         "title": {
-          "en": "The power of problem definition",
-          "id": "Kekuatan perumusan masalah"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/power-of-problem-definition-en.vtt",
-          "id": "../../assets/lms/the-map/power-of-problem-definition-id.vtt"
-         }
-        }
-       ]
-      }
-     ],
      "diagram": {
       "type": "flow",
       "exhibit": {
@@ -3340,8 +3223,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kecerdasan praktis adalah hasil yang tercapai"
        },
        "body": {
-        "en": "School measures how well you absorb and reproduce knowledge. Work measures something else: given a fuzzy goal, limited information and other people, how reliably do you produce the intended result? Watanabe calls the people who do this <b>problem-solving kids</b>: not because they are clever, but because they have a habit: they understand before they act, they look for causes rather than culprits, they write plans, and they keep adjusting until the outcome arrives. Grades correlate weakly with this; deliberate practice correlates strongly. The film above says the same thing from inside a consulting firm: good problem solving is <b>structured</b>: a deliberate way of breaking the problem apart, an 80/20 choice of what to tackle, and a plan for implementation. That is why this module is built from cases you can actually run, not theory you can recite.",
-        "id": "Sekolah mengukur seberapa baik kamu menyerap dan mengulang pengetahuan. Dunia kerja mengukur hal lain: dengan tujuan yang samar, informasi yang terbatas, dan orang-orang lain, seberapa andal kamu menghasilkan hasil yang dimaksud? Watanabe menyebut orang-orang seperti ini <b>anak pemecah masalah</b>. Bukan karena mereka pintar, melainkan karena mereka punya kebiasaan. Mereka memahami dulu sebelum bertindak, mencari penyebab alih-alih kambing hitam, menulis rencana, dan terus menyesuaikan sampai hasilnya datang. Nilai sekolah hanya sedikit berkaitan dengan kebiasaan ini, sedangkan latihan yang disengaja sangat berkaitan. Film di atas mengatakan hal yang sama dari dalam sebuah firma konsultan: pemecahan masalah yang baik itu <b>terstruktur</b>, yaitu punya cara yang disengaja untuk memecah masalah, pilihan 80/20 tentang apa yang digarap, dan rencana pelaksanaan. Itulah kenapa modul ini dibangun dari kasus-kasus yang benar-benar bisa kamu jalankan, bukan teori yang bisa kamu hafalkan."
+        "en": "School measures how well you absorb and reproduce knowledge. Work measures something else: given a fuzzy goal, limited information and other people, how reliably do you produce the intended result? Watanabe calls the people who do this <b>problem-solving kids</b>: not because they are clever, but because they have a habit: they understand before they act, they look for causes rather than culprits, they write plans, and they keep adjusting until the outcome arrives. Grades correlate weakly with this; deliberate practice correlates strongly. People who solve problems for a living say the same thing: good problem solving is <b>structured</b>: a deliberate way of breaking the problem apart, an 80/20 choice of what to tackle, and a plan for implementation. That is why this module is built from cases you can actually run, not theory you can recite.",
+        "id": "Sekolah mengukur seberapa baik kamu menyerap dan mengulang pengetahuan. Dunia kerja mengukur hal lain: dengan tujuan yang samar, informasi yang terbatas, dan orang-orang lain, seberapa andal kamu menghasilkan hasil yang dimaksud? Watanabe menyebut orang-orang seperti ini <b>anak pemecah masalah</b>. Bukan karena mereka pintar, melainkan karena mereka punya kebiasaan. Mereka memahami dulu sebelum bertindak, mencari penyebab alih-alih kambing hitam, menulis rencana, dan terus menyesuaikan sampai hasilnya datang. Nilai sekolah hanya sedikit berkaitan dengan kebiasaan ini, sedangkan latihan yang disengaja sangat berkaitan. Orang yang pekerjaannya memecahkan masalah mengatakan hal yang sama: pemecahan masalah yang baik itu <b>terstruktur</b>, yaitu punya cara yang disengaja untuk memecah masalah, pilihan 80/20 tentang apa yang digarap, dan rencana pelaksanaan. Itulah kenapa modul ini dibangun dari kasus-kasus yang benar-benar bisa kamu jalankan, bukan teori yang bisa kamu hafalkan."
        }
       },
       {
@@ -3779,8 +3662,8 @@ window.MT_LMS['the-map'] = {
         "id": "Memahami Masalahmu dengan Sejernih-jernihnya: Materi"
        },
        "intro": {
-        "en": "After the film, five slides add a second tool for step 1: the Problem Statement Worksheet. Why a worksheet helps (clarity, aligned stakeholders, better ideas, focus); what it holds (a SMART problem question at the centre, surrounded by context, stakeholders, constraints, scope, criteria for success and key sources of insight); how to use it on the job as a mental checklist; and why asking the right questions is the fastest way to a better problem definition. Read them, then watch the three films that follow.",
-        "id": "Setelah film, lima slide menambahkan alat kedua untuk langkah 1: Lembar Kerja Pernyataan Masalah. Kenapa lembar kerja membantu (kejelasan, pemangku kepentingan yang selaras, ide yang lebih baik, fokus); apa isinya (pertanyaan masalah yang SMART di tengah, dikelilingi konteks, pemangku kepentingan, batasan, cakupan, kriteria keberhasilan, dan sumber wawasan utama); cara memakainya di tempat kerja sebagai daftar periksa di kepala; dan kenapa mengajukan pertanyaan yang tepat adalah jalan tercepat menuju perumusan masalah yang lebih baik. Baca semuanya, lalu tonton tiga film yang menyusul."
+        "en": "After the film, five slides add a second tool for step 1: the Problem Statement Worksheet. Why a worksheet helps (clarity, aligned stakeholders, better ideas, focus); what it holds (a SMART problem question at the centre, surrounded by context, stakeholders, constraints, scope, criteria for success and key sources of insight); how to use it on the job as a mental checklist; and why asking the right questions is the fastest way to a better problem definition.",
+        "id": "Setelah film, lima slide menambahkan alat kedua untuk langkah 1: Lembar Kerja Pernyataan Masalah. Kenapa lembar kerja membantu (kejelasan, pemangku kepentingan yang selaras, ide yang lebih baik, fokus); apa isinya (pertanyaan masalah yang SMART di tengah, dikelilingi konteks, pemangku kepentingan, batasan, cakupan, kriteria keberhasilan, dan sumber wawasan utama); cara memakainya di tempat kerja sebagai daftar periksa di kepala; dan kenapa mengajukan pertanyaan yang tepat adalah jalan tercepat menuju perumusan masalah yang lebih baik."
        },
        "base": "../../assets/lms/the-map/slides/ps-clear-",
        "slides": [
@@ -3846,8 +3729,8 @@ window.MT_LMS['the-map'] = {
         "id": "Teknik Mengurangi Bias: Materi"
        },
        "intro": {
-        "en": "After the films, five slides add the last tool before you diagnose anything: debiasing techniques. What biases you bring to the table and why some are useful; confirmation bias, tamed with a key assumption check and an analysis of competing hypotheses; confidence bias, tamed with a pre-mortem that imagines the solution has already failed; stability bias, tamed with constraint release and point-of-view analysis; and a recap of the three step-1 tools (problem question, SMART framework, Problem Statement Worksheet). Read them, then watch the film that follows.",
-        "id": "Setelah film-film itu, lima slide menambahkan alat terakhir sebelum kamu mendiagnosis apa pun: teknik mengurangi bias. Bias apa yang kamu bawa dan kenapa sebagian di antaranya berguna; bias konfirmasi, yang dijinakkan dengan pengecekan asumsi kunci dan analisis hipotesis-hipotesis pesaing; bias kepercayaan diri, yang dijinakkan dengan pre-mortem yang membayangkan solusinya sudah gagal; bias kestabilan, yang dijinakkan dengan melonggarkan batasan dan analisis sudut pandang; dan rangkuman tiga alat langkah 1 (pertanyaan masalah, kerangka SMART, Lembar Kerja Pernyataan Masalah). Baca semuanya, lalu tonton film yang menyusul."
+        "en": "Next, five slides add the last tool before you diagnose anything: debiasing techniques. What biases you bring to the table and why some are useful; confirmation bias, tamed with a key assumption check and an analysis of competing hypotheses; confidence bias, tamed with a pre-mortem that imagines the solution has already failed; stability bias, tamed with constraint release and point-of-view analysis; and a recap of the three step-1 tools (problem question, SMART framework, Problem Statement Worksheet).",
+        "id": "Berikutnya, lima slide menambahkan alat terakhir sebelum kamu mendiagnosis apa pun: teknik mengurangi bias. Bias apa yang kamu bawa dan kenapa sebagian di antaranya berguna; bias konfirmasi, yang dijinakkan dengan pengecekan asumsi kunci dan analisis hipotesis-hipotesis pesaing; bias kepercayaan diri, yang dijinakkan dengan pre-mortem yang membayangkan solusinya sudah gagal; bias kestabilan, yang dijinakkan dengan melonggarkan batasan dan analisis sudut pandang; dan rangkuman tiga alat langkah 1 (pertanyaan masalah, kerangka SMART, Lembar Kerja Pernyataan Masalah)."
        },
        "base": "../../assets/lms/the-map/slides/ps-debias-",
        "slides": [
@@ -4266,115 +4149,35 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videoBlocks": [
+     "videos": [
       {
-       "key": "smart",
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
+       "src": {
+        "en": "../../assets/lms/films/map-3-2-diagnose-first-en.mp4",
+        "id": "../../assets/lms/films/map-3-2-diagnose-first-id.mp4"
        },
-       "intro": {
-        "en": "After the slides, one film walks the five SMART tests through two live examples. First the tests themselves: specific (value of the company, or revenue?), measurable (10% or 30%?), actionable (entering a market is a wish until you name the actions), relevant to every stakeholder, and time-bound (four weeks of cash and a 30-year infrastructure plan call for very different solutions). Then a vacation question is sharpened from “where do we want to go?” to “where do we want to go to have the best vacation ever within the next four months?”, and a revenue-growth problem is redefined around a fixed budget so the team stops chasing options it could never afford. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Setelah slide, satu film menjalankan kelima ujian SMART lewat dua contoh nyata. Pertama, ujiannya sendiri: spesifik (nilai perusahaan, atau pendapatan?), terukur (10% atau 30%?), bisa ditindaklanjuti (masuk ke pasar hanya keinginan sampai kamu menyebut tindakannya), relevan bagi setiap pemangku kepentingan, dan punya batas waktu (kas untuk empat minggu dan rencana infrastruktur 30 tahun butuh solusi yang sangat berbeda). Lalu pertanyaan soal liburan dipertajam dari “mau ke mana kita?” menjadi “mau ke mana kita supaya dapat liburan terbaik dalam empat bulan ke depan?”, dan masalah pertumbuhan pendapatan dirumuskan ulang di sekitar anggaran yang tetap, supaya tim berhenti mengejar pilihan yang tidak akan pernah terjangkau. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
+       "poster": {
+        "en": "../../assets/lms/films/map-3-2-diagnose-first-en-poster.jpg",
+        "id": "../../assets/lms/films/map-3-2-diagnose-first-id-poster.jpg"
        },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/is-it-smart.mp4",
-         "poster": "../../assets/lms/the-map/is-it-smart-poster.jpg",
-         "dur": "3:35",
-         "title": {
-          "en": "Is it SMART? Five tests for a problem question",
-          "id": "Apakah sudah SMART? Lima ujian untuk sebuah pertanyaan masalah"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/is-it-smart-en.vtt",
-          "id": "../../assets/lms/the-map/is-it-smart-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "closing",
-       "placement": "after-material:3",
-       "kicker": {
-        "en": "Watch next · 3 short films",
-        "id": "Tonton berikutnya · 3 film singkat"
+       "dur": {
+        "en": "2:07",
+        "id": "1:54"
        },
-       "intro": {
-        "en": "After the slides, three films close the lesson's material. The first walks through the Problem Statement Worksheet itself: a SMART problem question, then context, scope, constraints, stakeholders and the measure of success, and why those components make a team aligned, creative and practical at once. The second shows the worksheet used in the moment: a flooded street on the Upper West Side, the stakeholders it touches, the three mistakes teams make (missed stakeholders, an unclear scope, dishonest constraints), and why the sheet is a living document you refresh as you learn. The third is the DentMerc team from the slides, acted out: by asking what decided similar projects, they narrow the research to price and performance specifications, cut the budget from 50 to 15 lakhs and win the CEO's sign-off. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
-        "id": "Setelah slide, tiga film menutup materi pelajaran ini. Film pertama membahas Lembar Kerja Pernyataan Masalah itu sendiri: pertanyaan masalah yang SMART, lalu konteks, cakupan, batasan, pemangku kepentingan, dan ukuran keberhasilan, serta kenapa komponen-komponen itu membuat tim sekaligus selaras, kreatif, dan praktis. Film kedua menunjukkan lembar kerja itu dipakai saat itu juga: sebuah jalan yang kebanjiran di Upper West Side, para pemangku kepentingan yang terdampak, tiga kesalahan yang sering dibuat tim (pemangku kepentingan yang terlewat, cakupan yang tidak jelas, batasan yang tidak jujur), dan kenapa lembar itu adalah dokumen hidup yang terus diperbarui seiring kamu belajar. Film ketiga memerankan tim DentMerc dari slide: dengan bertanya apa yang menentukan proyek-proyek serupa, mereka mempersempit risetnya ke harga dan spesifikasi kinerja, memangkas anggaran dari 50 menjadi 15 lakh, dan mendapat persetujuan sang CEO. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide berikutnya."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/problem-statement-worksheet.mp4",
-         "poster": "../../assets/lms/the-map/problem-statement-worksheet-poster.jpg",
-         "dur": "1:58",
-         "title": {
-          "en": "The Problem Statement Worksheet",
-          "id": "Lembar Kerja Pernyataan Masalah"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/problem-statement-worksheet-en.vtt",
-          "id": "../../assets/lms/the-map/problem-statement-worksheet-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/using-psw-on-the-job.mp4",
-         "poster": "../../assets/lms/the-map/using-psw-on-the-job-poster.jpg",
-         "dur": "2:31",
-         "title": {
-          "en": "Using the Problem Statement Worksheet on the job",
-          "id": "Memakai Lembar Kerja Pernyataan Masalah di tempat kerja"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/using-psw-on-the-job-en.vtt",
-          "id": "../../assets/lms/the-map/using-psw-on-the-job-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/ceo-sign-off.mp4",
-         "poster": "../../assets/lms/the-map/ceo-sign-off-poster.jpg",
-         "dur": "3:03",
-         "title": {
-          "en": "CEO sign-off: focusing the research",
-          "id": "Persetujuan CEO: mempersempit risetnya"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/ceo-sign-off-en.vtt",
-          "id": "../../assets/lms/the-map/ceo-sign-off-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "debias",
-       "placement": "after-material:4",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "intro": {
-        "en": "After the slides, a two-minute film puts the debiasing techniques into a leader's voice. Debiasing is a structured way to ask which biases are shaping how a problem is defined before the work starts. Everyone has them; we just tend to see them in others. Biases are shortcuts that protect us (when a lion runs at you, you don't problem-solve), but as leaders we have to notice when they simply reconfirm what used to be true. Two are everywhere: confirmation bias and groupthink. The most effective counter is a challenger session, where the strongest voice for one view has to argue the other: contrived at first, but a powerful check on blind spots and a lesson in empathy. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below; a SMART question is what 1A starts from.",
-        "id": "Setelah slide, film dua menit menyampaikan teknik mengurangi bias lewat suara seorang pemimpin. Mengurangi bias adalah cara terstruktur untuk bertanya bias apa yang sedang membentuk cara sebuah masalah dirumuskan, sebelum pekerjaannya dimulai. Semua orang punya bias, hanya saja kita cenderung melihatnya pada orang lain. Bias adalah jalan pintas yang melindungi kita (saat seekor singa berlari ke arahmu, kamu tidak sempat memecahkan masalah), tetapi sebagai pemimpin, kita perlu menyadari kapan bias itu sekadar menegaskan ulang apa yang dulu benar. Ada dua bias yang ada di mana-mana: bias konfirmasi dan pemikiran kelompok. Penangkal paling efektif adalah sesi penantang, tempat suara terkuat untuk satu pandangan harus membela pandangan sebaliknya. Awalnya terasa dibuat-buat, tetapi cara ini ampuh untuk memeriksa titik buta, sekaligus melatih empati. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Gambar 1 di bawah. Pertanyaan yang SMART adalah titik awal langkah 1A."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/debiasing-techniques.mp4",
-         "poster": "../../assets/lms/the-map/debiasing-techniques-poster.jpg",
-         "dur": "2:05",
-         "title": {
-          "en": "Debiasing techniques: checking your blind spots",
-          "id": "Teknik mengurangi bias: memeriksa titik buta"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/debiasing-techniques-en.vtt",
-          "id": "../../assets/lms/the-map/debiasing-techniques-id.vtt"
-         }
-        }
-       ]
+       "title": {
+        "en": "Diagnose first: root causes and action plans",
+        "id": "Diagnosis dulu: akar masalah dan rencana tindakan"
+       }
       }
-     ]
+     ],
+     "videosPlacement": "after-material:2",
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows these slides: Arga, a coffee cart with falling sales, and the week of counting that proved his first guess wrong. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide ini: Arga, gerobak kopi yang penjualannya turun, dan seminggu menghitung yang membuktikan tebakan pertamanya keliru. Tonton, lalu lanjutkan ke slide berikutnya."
+     }
     },
     {
      "n": "3.3",
@@ -4567,8 +4370,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pengantar Pohon Logika: Materi"
        },
        "intro": {
-        "en": "After the film, three slides give step 2 its tool: the logic tree, or issue tree. CarneCarne's supply chain in five steps and the first-level branches the team is weighing (supplier, processing, distribution); the key concepts and a worked tree that breaks “what is the source of the E. coli contamination?” into 1A, 1B and 1C with three sub-issues each; and an exercise: which set of three questions makes the strongest first level of the tree, and why a mutually exclusive, collectively exhaustive set wins. Read them, then watch the film that follows.",
-        "id": "Setelah film, tiga slide memberi langkah 2 alatnya: pohon logika, atau pohon isu. Rantai pasok CarneCarne dalam lima tahap dan cabang tingkat pertama yang sedang ditimbang tim (pemasok, pengolahan, distribusi); konsep-konsep kunci dan contoh pohon yang memecah “apa sumber kontaminasi E. coli?” menjadi 1A, 1B, dan 1C, masing-masing dengan tiga sub-isu; dan satu latihan: kumpulan tiga pertanyaan mana yang paling kuat sebagai tingkat pertama pohonnya, dan kenapa kumpulan yang saling lepas dan lengkap menyeluruh yang menang. Baca semuanya, lalu tonton film yang menyusul."
+        "en": "After the film, three slides give step 2 its tool: the logic tree, or issue tree. CarneCarne's supply chain in five steps and the first-level branches the team is weighing (supplier, processing, distribution); the key concepts and a worked tree that breaks “what is the source of the E. coli contamination?” into 1A, 1B and 1C with three sub-issues each; and an exercise: which set of three questions makes the strongest first level of the tree, and why a mutually exclusive, collectively exhaustive set wins.",
+        "id": "Setelah film, tiga slide memberi langkah 2 alatnya: pohon logika, atau pohon isu. Rantai pasok CarneCarne dalam lima tahap dan cabang tingkat pertama yang sedang ditimbang tim (pemasok, pengolahan, distribusi); konsep-konsep kunci dan contoh pohon yang memecah “apa sumber kontaminasi E. coli?” menjadi 1A, 1B, dan 1C, masing-masing dengan tiga sub-isu; dan satu latihan: kumpulan tiga pertanyaan mana yang paling kuat sebagai tingkat pertama pohonnya, dan kenapa kumpulan yang saling lepas dan lengkap menyeluruh yang menang."
        },
        "base": "../../assets/lms/the-map/slides/ps-tree-",
        "slides": [
@@ -4614,8 +4417,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pengantar MECE: Materi"
        },
        "intro": {
-        "en": "After the film, four slides close the lesson's material with the test every logic tree must pass: MECE (mutually exclusive, collectively exhaustive, or simply no overlaps and no gaps); then an exercise on the CarneCarne tree: which two questions belong as second-level issues under the family-farms branch, and why the tempting ones are off-track or overlap; the 80/20 rule and the impact-versus-feasibility prioritisation matrix for choosing which issues to analyse first; and a recap of the three structuring tools. Read them, then watch the three films that follow.",
-        "id": "Setelah film, empat slide menutup materi pelajaran ini dengan ujian yang harus dilewati setiap pohon logika: MECE (mutually exclusive, collectively exhaustive, atau sederhananya, tanpa tumpang tindih dan tanpa celah); lalu latihan pada pohon CarneCarne: dua pertanyaan mana yang layak menjadi isu tingkat kedua di bawah cabang peternakan keluarga, dan kenapa pertanyaan-pertanyaan yang menggoda itu justru melenceng atau tumpang tindih; aturan 80/20 dan matriks prioritas dampak lawan kelayakan untuk memilih isu mana yang dianalisis lebih dulu; dan rangkuman tiga alat penyusun struktur. Baca semuanya, lalu tonton tiga film yang menyusul."
+        "en": "Next, four slides close the lesson's material with the test every logic tree must pass: MECE (mutually exclusive, collectively exhaustive, or simply no overlaps and no gaps); then an exercise on the CarneCarne tree: which two questions belong as second-level issues under the family-farms branch, and why the tempting ones are off-track or overlap; the 80/20 rule and the impact-versus-feasibility prioritisation matrix for choosing which issues to analyse first; and a recap of the three structuring tools.",
+        "id": "Berikutnya, empat slide menutup materi pelajaran ini dengan ujian yang harus dilewati setiap pohon logika: MECE (mutually exclusive, collectively exhaustive, atau sederhananya, tanpa tumpang tindih dan tanpa celah); lalu latihan pada pohon CarneCarne: dua pertanyaan mana yang layak menjadi isu tingkat kedua di bawah cabang peternakan keluarga, dan kenapa pertanyaan-pertanyaan yang menggoda itu justru melenceng atau tumpang tindih; aturan 80/20 dan matriks prioritas dampak lawan kelayakan untuk memilih isu mana yang dianalisis lebih dulu; dan rangkuman tiga alat penyusun struktur."
        },
        "base": "../../assets/lms/the-map/slides/ps-mece-",
        "slides": [
@@ -4698,8 +4501,8 @@ window.MT_LMS['the-map'] = {
         "id": "Apa Selanjutnya: Materi"
        },
        "intro": {
-        "en": "Four slides carry the SodaComp case forward. First, pause and decide what the team should do next, then open the expert’s response: focus on the two prioritised issues, clarify the hypotheses, name the analyses, prioritise and plan the work. The next two slides step back to the seven-step path and the final four steps (plan analyses and work, conduct analyses, synthesise findings, develop recommendations), and why the discipline of the early steps must carry into the work plan. The last slide opens the Work Plan Worksheet: hypotheses, end product, analyses, sources, timing, staff. Read them, then watch the two films below.",
-        "id": "Empat slide membawa kasus SodaComp lebih jauh. Pertama, berhenti sejenak dan putuskan apa yang sebaiknya dilakukan tim berikutnya, lalu buka jawaban ahlinya: fokus pada dua isu yang diprioritaskan, perjelas hipotesisnya, sebutkan analisisnya, lalu prioritaskan dan rencanakan pekerjaannya. Dua slide berikutnya mundur selangkah ke jalur tujuh langkah dan empat langkah terakhirnya (rencanakan analisis dan pekerjaan, lakukan analisis, sintesiskan temuan, susun rekomendasi), dan kenapa disiplin di langkah-langkah awal harus terbawa ke rencana kerja. Slide terakhir membuka Lembar Kerja Rencana Kerja: hipotesis, produk akhir, analisis, sumber, waktu, dan orang yang mengerjakan. Baca semuanya, lalu tonton dua film di bawah."
+        "en": "Four slides carry the SodaComp case forward. First, pause and decide what the team should do next, then open the expert’s response: focus on the two prioritised issues, clarify the hypotheses, name the analyses, prioritise and plan the work. The next two slides step back to the seven-step path and the final four steps (plan analyses and work, conduct analyses, synthesise findings, develop recommendations), and why the discipline of the early steps must carry into the work plan. The last slide opens the Work Plan Worksheet: hypotheses, end product, analyses, sources, timing, staff.",
+        "id": "Empat slide membawa kasus SodaComp lebih jauh. Pertama, berhenti sejenak dan putuskan apa yang sebaiknya dilakukan tim berikutnya, lalu buka jawaban ahlinya: fokus pada dua isu yang diprioritaskan, perjelas hipotesisnya, sebutkan analisisnya, lalu prioritaskan dan rencanakan pekerjaannya. Dua slide berikutnya mundur selangkah ke jalur tujuh langkah dan empat langkah terakhirnya (rencanakan analisis dan pekerjaan, lakukan analisis, sintesiskan temuan, susun rekomendasi), dan kenapa disiplin di langkah-langkah awal harus terbawa ke rencana kerja. Slide terakhir membuka Lembar Kerja Rencana Kerja: hipotesis, produk akhir, analisis, sumber, waktu, dan orang yang mengerjakan."
        },
        "base": "../../assets/lms/the-map/slides/whats-next-",
        "slides": [
@@ -4755,8 +4558,8 @@ window.MT_LMS['the-map'] = {
         "id": "Unsur Kunci Rencana Kerja yang Kuat: Materi"
        },
        "intro": {
-        "en": "Four slides turn the work plan into practice. The first names its five elements (issue, hypothesis, end product, analyses, sources), each with an example. The second returns to SodaComp, now narrowed to one hypothesis: test a healthier orange soda; decide what analyses, actions and end product it needs, then compare with the expert’s answer on the third slide. The last slide draws the line between analysis and answer, data and facts on one side, the recommendation on the other. Read them, then watch the film below.",
-        "id": "Empat slide mengubah rencana kerja menjadi praktik. Slide pertama menyebut lima unsurnya (isu, hipotesis, produk akhir, analisis, sumber), masing-masing dengan contoh. Slide kedua kembali ke SodaComp, yang kini menyempit ke satu hipotesis: uji soda jeruk yang lebih sehat. Tentukan analisis, tindakan, dan produk akhir yang dibutuhkan, lalu bandingkan dengan jawaban ahli di slide ketiga. Slide terakhir menarik garis antara analisis dan jawaban: data dan fakta di satu sisi, rekomendasi di sisi lain. Baca semuanya, lalu tonton film di bawah."
+        "en": "Four slides turn the work plan into practice. The first names its five elements (issue, hypothesis, end product, analyses, sources), each with an example. The second returns to SodaComp, now narrowed to one hypothesis: test a healthier orange soda; decide what analyses, actions and end product it needs, then compare with the expert’s answer on the third slide. The last slide draws the line between analysis and answer, data and facts on one side, the recommendation on the other.",
+        "id": "Empat slide mengubah rencana kerja menjadi praktik. Slide pertama menyebut lima unsurnya (isu, hipotesis, produk akhir, analisis, sumber), masing-masing dengan contoh. Slide kedua kembali ke SodaComp, yang kini menyempit ke satu hipotesis: uji soda jeruk yang lebih sehat. Tentukan analisis, tindakan, dan produk akhir yang dibutuhkan, lalu bandingkan dengan jawaban ahli di slide ketiga. Slide terakhir menarik garis antara analisis dan jawaban: data dan fakta di satu sisi, rekomendasi di sisi lain."
        },
        "base": "../../assets/lms/the-map/slides/work-plan-",
        "slides": [
@@ -4812,8 +4615,8 @@ window.MT_LMS['the-map'] = {
         "id": "Sampai pada Sintesis: Materi"
        },
        "intro": {
-        "en": "Four slides close the loop from analysis to action. The first defines the “so what”: a synthesis is a perspective on the analysis, not a summary of it. The second shows when to practise synthesis, why it matters, and four habits for getting better. The third returns to SodaComp’s focus-group voices and asks you to write the team’s synthesis before comparing with the expert’s. The last slide names what makes a recommendation strong: actionable (ownership, buy-in, timeline) and appropriate for the organisation. Read them, then watch the two films below.",
-        "id": "Empat slide menutup putaran dari analisis ke tindakan. Slide pertama mendefinisikan “lalu kenapa”: sintesis adalah sudut pandang atas analisis, bukan ringkasannya. Slide kedua menunjukkan kapan berlatih sintesis, kenapa itu penting, dan empat kebiasaan supaya makin mahir. Slide ketiga kembali ke suara-suara dari riset SodaComp dan memintamu menulis sintesis tim sebelum membandingkannya dengan jawaban ahli. Slide terakhir menyebut apa yang membuat sebuah rekomendasi kuat: bisa dijalankan (ada pemilik, dukungan, dan jadwal) dan cocok untuk organisasinya. Baca semuanya, lalu tonton dua film di bawah."
+        "en": "Four slides close the loop from analysis to action. The first defines the “so what”: a synthesis is a perspective on the analysis, not a summary of it. The second shows when to practise synthesis, why it matters, and four habits for getting better. The third returns to SodaComp’s focus-group voices and asks you to write the team’s synthesis before comparing with the expert’s. The last slide names what makes a recommendation strong: actionable (ownership, buy-in, timeline) and appropriate for the organisation.",
+        "id": "Empat slide menutup putaran dari analisis ke tindakan. Slide pertama mendefinisikan “lalu kenapa”: sintesis adalah sudut pandang atas analisis, bukan ringkasannya. Slide kedua menunjukkan kapan berlatih sintesis, kenapa itu penting, dan empat kebiasaan supaya makin mahir. Slide ketiga kembali ke suara-suara dari riset SodaComp dan memintamu menulis sintesis tim sebelum membandingkannya dengan jawaban ahli. Slide terakhir menyebut apa yang membuat sebuah rekomendasi kuat: bisa dijalankan (ada pemilik, dukungan, dan jadwal) dan cocok untuk organisasinya."
        },
        "base": "../../assets/lms/the-map/slides/synthesis-",
        "slides": [
@@ -4869,8 +4672,8 @@ window.MT_LMS['the-map'] = {
         "id": "Poin Penting: Materi"
        },
        "intro": {
-        "en": "Two slides wrap the SodaComp chapter up. The first gathers the three tools you now hold (the Work Plan Worksheet, synthesising, and developing a recommendation) and points to further material. The second summarises the hypothesis-led path (define the problem, break it down and structure it, plan towards a solution) and asks you to carry it into your own day-to-day decisions with a problem statement and an issue tree. Read them, then watch the wrap-up film below.",
-        "id": "Dua slide menutup bab SodaComp. Slide pertama mengumpulkan tiga alat yang sekarang kamu pegang (Lembar Kerja Rencana Kerja, menyintesiskan, dan menyusun rekomendasi) dan menunjuk bahan bacaan lanjutan. Slide kedua merangkum jalur berbasis hipotesis (rumuskan masalahnya, pecah dan susun strukturnya, rencanakan menuju solusi) dan mengajakmu membawanya ke keputusan sehari-hari dengan pernyataan masalah dan pohon isu. Baca semuanya, lalu tonton film penutup di bawah."
+        "en": "Two slides wrap the SodaComp chapter up. The first gathers the three tools you now hold (the Work Plan Worksheet, synthesising, and developing a recommendation) and points to further material. The second summarises the hypothesis-led path (define the problem, break it down and structure it, plan towards a solution) and asks you to carry it into your own day-to-day decisions with a problem statement and an issue tree.",
+        "id": "Dua slide menutup bab SodaComp. Slide pertama mengumpulkan tiga alat yang sekarang kamu pegang (Lembar Kerja Rencana Kerja, menyintesiskan, dan menyusun rekomendasi) dan menunjuk bahan bacaan lanjutan. Slide kedua merangkum jalur berbasis hipotesis (rumuskan masalahnya, pecah dan susun strukturnya, rencanakan menuju solusi) dan mengajakmu membawanya ke keputusan sehari-hari dengan pernyataan masalah dan pohon isu."
        },
        "base": "../../assets/lms/the-map/slides/takeaways-",
        "slides": [
@@ -5233,381 +5036,35 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videoBlocks": [
+     "videos": [
       {
-       "key": "structuring",
-       "placement": "after-material:2",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
+       "src": {
+        "en": "../../assets/lms/films/map-3-3-a-goal-you-can-count-en.mp4",
+        "id": "../../assets/lms/films/map-3-3-a-goal-you-can-count-id.mp4"
        },
-       "intro": {
-        "en": "After the slides, a two-minute film shows the CarneCarne case from the slides, acted out. Three days before the press conference, Elena's team maps where the E. coli could have entered (the farms, the packaging facility, the northwest distribution centre, the stores), eliminates the stores because the beef was caught before it reached them, and splits the remaining branches between Javier, Sophia and Mateo: thorough, meticulous, no stone unturned, reconvening on Friday. It is step 2 in miniature: structure the problem into its parts, then decide who looks where. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the next film below.",
-        "id": "Setelah slide, film dua menit memerankan kasus CarneCarne dari slide. Tiga hari sebelum konferensi pers, tim Elena memetakan di mana saja E. coli bisa masuk (peternakan, fasilitas pengemasan, pusat distribusi barat laut, toko), mencoret toko karena dagingnya sudah tertahan sebelum sampai ke sana, lalu membagi cabang-cabang yang tersisa kepada Javier, Sophia, dan Mateo: teliti, cermat, tidak ada yang terlewat, dan berkumpul lagi hari Jumat. Inilah langkah 2 dalam versi mini: susun struktur masalah menjadi bagian-bagiannya, lalu tentukan siapa memeriksa di mana. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke film berikutnya di bawah."
+       "poster": {
+        "en": "../../assets/lms/films/map-3-3-a-goal-you-can-count-en-poster.jpg",
+        "id": "../../assets/lms/films/map-3-3-a-goal-you-can-count-id-poster.jpg"
        },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/structuring-the-problem.mp4",
-         "poster": "../../assets/lms/the-map/structuring-the-problem-poster.jpg",
-         "dur": "1:58",
-         "title": {
-          "en": "Structuring the problem: three days before the press conference",
-          "id": "Menyusun struktur masalah: tiga hari sebelum konferensi pers"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/structuring-the-problem-en.vtt",
-          "id": "../../assets/lms/the-map/structuring-the-problem-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "closing",
-       "placement": "after-material:4",
-       "kicker": {
-        "en": "Watch next · 3 short films",
-        "id": "Tonton berikutnya · 3 film singkat"
+       "dur": {
+        "en": "2:26",
+        "id": "2:14"
        },
-       "intro": {
-        "en": "After the slides, three films close the lesson's material in the presenter's own words. The first tests an issue tree with MECE (no overlaps, no gaps) through profitability, a list of meals, and a traffic light explained to a child, then warns against pruning the tree too early. The second is the 80/20 rule: the 20% of analyses that give 80% of the insight, a 200-business valuation solved by focusing on 30, and learning to be comfortable with an answer that is 80% of the way there. The third is the prioritisation matrix: impact against feasibility, the four quadrants, and how precise to be in the moment versus on a longer project. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below: the same goal-gap-hypothesis chain, applied to your own goals.",
-        "id": "Setelah slide, tiga film menutup materi pelajaran ini dengan kata-kata sang presenter sendiri. Film pertama menguji pohon isu dengan MECE (tanpa tumpang tindih, tanpa celah) lewat contoh profitabilitas, daftar menu makanan, dan lampu lalu lintas yang dijelaskan kepada anak kecil, lalu mengingatkan agar tidak memangkas pohonnya terlalu cepat. Film kedua membahas aturan 80/20: 20% analisis yang memberi 80% wawasan, penilaian 200 usaha yang dipecahkan dengan berfokus pada 30, dan belajar merasa nyaman dengan jawaban yang sudah 80% benar. Film ketiga membahas matriks prioritas: dampak lawan kelayakan, empat kuadrannya, dan seberapa presisi kamu perlu bekerja saat itu juga dibandingkan dalam proyek yang lebih panjang. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Gambar 1 di bawah: rantai tujuan-kesenjangan-hipotesis yang sama, diterapkan pada tujuanmu sendiri."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/introduction-to-mece.mp4",
-         "poster": "../../assets/lms/the-map/introduction-to-mece-poster.jpg",
-         "dur": "3:01",
-         "title": {
-          "en": "Introduction to MECE: no overlaps, no gaps",
-          "id": "Pengantar MECE: tanpa tumpang tindih, tanpa celah"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/introduction-to-mece-en.vtt",
-          "id": "../../assets/lms/the-map/introduction-to-mece-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/prioritizing-issues.mp4",
-         "poster": "../../assets/lms/the-map/prioritizing-issues-poster.jpg",
-         "dur": "2:58",
-         "title": {
-          "en": "Prioritising issues: the 80/20 rule",
-          "id": "Memprioritaskan isu: aturan 80/20"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/prioritizing-issues-en.vtt",
-          "id": "../../assets/lms/the-map/prioritizing-issues-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/the-prioritization-matrix.mp4",
-         "poster": "../../assets/lms/the-map/the-prioritization-matrix-poster.jpg",
-         "dur": "2:30",
-         "title": {
-          "en": "The prioritisation matrix",
-          "id": "Matriks prioritas"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/the-prioritization-matrix-en.vtt",
-          "id": "../../assets/lms/the-map/the-prioritization-matrix-id.vtt"
-         }
-        }
-       ]
-      },
-      {
-       "key": "rec-challenge",
-       "placement": "after-material:5",
-       "kicker": {
-        "en": "Watch next · Case film",
-        "id": "Tonton berikutnya · Film kasus"
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/recommendation-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/recommendation-1-poster.jpg",
-         "dur": "1:16",
-         "title": {
-          "en": "The challenge: three percent by year-end or bust",
-          "id": "Tantangannya: tiga persen sebelum akhir tahun, atau gagal"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/recommendation-1-en.vtt",
-          "id": "../../assets/lms/the-map/recommendation-1-id.vtt"
-         }
-        }
-       ],
-       "intro": {
-        "en": "The film picks up the slide: SodaComp, based in Bonn, five months from a three-percent target. Watch how the marketing team keeps its problem question in front of it, drills down into an issue tree, and prioritises two hypotheses (channel strategy and product development) before taking the tree to the CEO. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the What’s Next deck below.",
-        "id": "Film ini melanjutkan isi slide: SodaComp, yang berkantor di Bonn, tinggal lima bulan menuju target tiga persen. Perhatikan cara tim pemasaran terus memegang pertanyaan masalahnya, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis (strategi saluran dan pengembangan produk) sebelum membawa pohonnya ke sang CEO. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke dek Apa Selanjutnya di bawah."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: from question to issue tree",
-         "id": "Poin penting: dari pertanyaan ke pohon isu"
-        },
-        "body": [
-         {
-          "en": "A problem question written down (“How can SodaComp improve its European market share by 3% by the end of the year?”) is what keeps weeks of work pointed at one target.",
-          "id": "Pertanyaan masalah yang dituliskan (“Bagaimana SodaComp bisa menaikkan pangsa pasar Eropanya sebesar 3% sebelum akhir tahun?”) adalah hal yang menjaga kerja berminggu-minggu tetap mengarah ke satu sasaran."
-         },
-         {
-          "en": "Drilling the question into an issue tree turns one big worry into branches you can research; prioritising picks the two branches most likely to move the number.",
-          "id": "Menggali pertanyaan itu menjadi pohon isu mengubah satu kekhawatiran besar menjadi cabang-cabang yang bisa diriset. Memprioritaskan memilih dua cabang yang paling mungkin menggerakkan angkanya."
-         },
-         {
-          "en": "A tree shared with the decision-maker, with the research behind it, earns the go-ahead, and sets up the next question: what exactly do we do next?",
-          "id": "Pohon yang dibagikan kepada pengambil keputusan, lengkap dengan riset di baliknya, mendapat lampu hijau, sekaligus menyiapkan pertanyaan berikutnya: apa persisnya yang kita kerjakan selanjutnya?"
-         }
-        ]
-       }
-      },
-      {
-       "key": "rec-plan",
-       "placement": "after-material:6",
-       "kicker": {
-        "en": "Watch next · Case films",
-        "id": "Tonton berikutnya · Film kasus"
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/recommendation-2-brand.mp4",
-         "poster": "../../assets/lms/the-map/recommendation-2-poster.jpg",
-         "dur": "3:08",
-         "title": {
-          "en": "How do you arrive at a recommendation? Plan, analyse, synthesise, recommend",
-          "id": "Bagaimana sampai pada rekomendasi? Rencanakan, analisis, sintesiskan, rekomendasikan"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/recommendation-2-en.vtt",
-          "id": "../../assets/lms/the-map/recommendation-2-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/recommendation-3-brand.mp4",
-         "poster": "../../assets/lms/the-map/recommendation-3-poster.jpg",
-         "dur": "2:26",
-         "title": {
-          "en": "Developing work plans: from issue tree to burden of proof",
-          "id": "Menyusun rencana kerja: dari pohon isu ke beban pembuktian"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/recommendation-3-en.vtt",
-          "id": "../../assets/lms/the-map/recommendation-3-id.vtt"
-         }
-        }
-       ],
-       "intro": {
-        "en": "Two films take the deck’s final four steps into practice. In the first, two practitioners walk from planning the analysis and conducting it to synthesising a “so what” rather than a summary, and turning it into a recommendation the organisation can mobilise behind. The second shows how a work plan grows out of the issue tree (hypothesis, rationale, analysis, source of insight, then timing, owners and interdependencies), and why knowing the decision-maker’s burden of proof from day one saves weeks. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the Key Elements deck below.",
-        "id": "Dua film membawa empat langkah terakhir dari dek ke dalam praktik. Di film pertama, dua praktisi menjalani langkah dari merencanakan analisis dan menjalankannya sampai menyintesiskan “lalu kenapa”, bukan ringkasan, lalu mengubahnya menjadi rekomendasi yang bisa digerakkan oleh organisasi. Film kedua menunjukkan bagaimana rencana kerja tumbuh dari pohon isu (hipotesis, alasan, analisis, sumber wawasan, lalu waktu, penanggung jawab, dan ketergantungan antartugas), dan kenapa mengetahui beban pembuktian yang diminta pengambil keputusan sejak hari pertama menghemat waktu berminggu-minggu. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke dek Unsur Kunci di bawah."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: plan the work before the work",
-         "id": "Poin penting: rencanakan pekerjaannya sebelum bekerja"
-        },
-        "body": [
-         {
-          "en": "A summary recounts what you did; a synthesis states the integrated “so what”. The recommendation is what must actually be done to realise the impact, and winning the organisation’s buy-in is half the battle.",
-          "id": "Ringkasan menceritakan ulang apa yang sudah kamu kerjakan. Sintesis menyatakan “lalu kenapa” yang utuh. Rekomendasi adalah apa yang benar-benar harus dilakukan untuk mewujudkan dampaknya, dan memenangkan dukungan organisasi adalah separuh pertarungannya."
-         },
-         {
-          "en": "A work plan is the issue tree turned into action: for every end node, a hypothesis, the rationale that would make it true, the analysis that tests it and the source of insight; then timing, owners and interdependencies.",
-          "id": "Rencana kerja adalah pohon isu yang diubah menjadi tindakan: untuk setiap ujung cabang ada hipotesis, alasan yang membuatnya benar, analisis yang mengujinya, dan sumber wawasannya; lalu waktu, penanggung jawab, dan ketergantungan antartugas."
-         },
-         {
-          "en": "Ask the decision-maker’s burden of proof first, so you neither under-deliver nor over-analyse.",
-          "id": "Tanyakan beban pembuktian yang diminta pengambil keputusan lebih dulu, supaya kamu tidak kurang memberi dan tidak juga berlebihan menganalisis."
-         }
-        ]
-       }
-      },
-      {
-       "key": "rec-analysis",
-       "placement": "after-material:7",
-       "kicker": {
-        "en": "Watch next · Case film",
-        "id": "Tonton berikutnya · Film kasus"
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/recommendation-4-brand.mp4",
-         "poster": "../../assets/lms/the-map/recommendation-4-poster.jpg",
-         "dur": "1:48",
-         "title": {
-          "en": "Conduct analysis: the forest, the trees and the sanity check",
-          "id": "Menjalankan analisis: hutan, pohon, dan cek kewajaran"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/recommendation-4-en.vtt",
-          "id": "../../assets/lms/the-map/recommendation-4-id.vtt"
-         }
-        }
-       ],
-       "intro": {
-        "en": "The film is about conducting the analysis itself: not missing the forest for the trees, forcing yourself to step back and sanity-check results, precision versus accuracy, knowing when you already know enough to stop, and pausing on a schedule to ask what has changed. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the Getting to Synthesis deck below.",
-        "id": "Film ini membahas cara menjalankan analisis itu sendiri: tidak kehilangan gambaran besar karena sibuk dengan detail, memaksa diri mundur selangkah untuk mengecek kewajaran hasilnya, presisi lawan akurasi, tahu kapan kamu sudah cukup tahu untuk berhenti, dan berhenti sejenak secara terjadwal untuk bertanya apa yang sudah berubah. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke dek Sampai pada Sintesis di bawah."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: analysis is not the answer",
-         "id": "Poin penting: analisis bukanlah jawaban"
-        },
-        "body": [
-         {
-          "en": "While the work is under way, step back and sanity-check: is this precise or actually accurate, and does it still lead to the “so what”?",
-          "id": "Selagi pekerjaan berjalan, mundur selangkah dan cek kewajarannya: apakah ini sekadar presisi atau benar-benar akurat, dan apakah masih mengarah ke “lalu kenapa”-nya?"
-         },
-         {
-          "en": "Ask whether you already know enough to stop, or whether a surprise means you must go further and really test the hypothesis.",
-          "id": "Tanyakan apakah kamu sudah cukup tahu untuk berhenti, atau apakah ada kejutan yang memaksamu melangkah lebih jauh dan benar-benar menguji hipotesisnya."
-         },
-         {
-          "en": "Pause on a schedule, weekly or monthly, to ask what has changed and whether the plan should change with it.",
-          "id": "Berhentilah sejenak secara terjadwal, mingguan atau bulanan, untuk bertanya apa yang sudah berubah dan apakah rencananya perlu ikut berubah."
-         }
-        ]
-       }
-      },
-      {
-       "key": "rec-synthesis",
-       "placement": "after-material:8",
-       "kicker": {
-        "en": "Watch next · Case films",
-        "id": "Tonton berikutnya · Film kasus"
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/recommendation-5-brand.mp4",
-         "poster": "../../assets/lms/the-map/recommendation-5-poster.jpg",
-         "dur": "2:05",
-         "title": {
-          "en": "Getting to synthesis: the “so what”, not the summary",
-          "id": "Sampai pada sintesis: “lalu kenapa”, bukan ringkasan"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/recommendation-5-en.vtt",
-          "id": "../../assets/lms/the-map/recommendation-5-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/recommendation-6-brand.mp4",
-         "poster": "../../assets/lms/the-map/recommendation-6-poster.jpg",
-         "dur": "1:39",
-         "title": {
-          "en": "Making a strong recommendation: appropriate and actionable",
-          "id": "Menyusun rekomendasi yang kuat: cocok dan bisa dijalankan"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/recommendation-6-en.vtt",
-          "id": "../../assets/lms/the-map/recommendation-6-id.vtt"
-         }
-        }
-       ],
-       "intro": {
-        "en": "Two films take the deck from synthesis to recommendation. The first explains synthesis against summary with a dinner-that-ran-late text message: the summary is the facts, the synthesis is “I’m going to be late”. The second turns a synthesis into a recommendation that is appropriate for the organisation and actionable (owners, buy-in, resources), and argues for carving out real time to get that last step right. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the Key Takeaways deck below.",
-        "id": "Dua film membawa dek dari sintesis ke rekomendasi. Film pertama menjelaskan beda sintesis dan ringkasan lewat pesan singkat soal makan malam yang molor: ringkasannya adalah fakta-faktanya, sintesisnya adalah “aku bakal telat”. Film kedua mengubah sintesis menjadi rekomendasi yang cocok untuk organisasinya dan bisa dijalankan (ada penanggung jawab, dukungan, dan sumber daya), lalu mengajak meluangkan waktu sungguhan supaya langkah terakhir itu tepat. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke dek Poin Penting di bawah."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: the “so what”, then the “so do”",
-         "id": "Poin penting: “lalu kenapa”, lalu “lalu apa yang dikerjakan”"
-        },
-        "body": [
-         {
-          "en": "Summary restates the facts; synthesis states what they mean and what to do: “I’m going to be late for dinner”.",
-          "id": "Ringkasan mengulang fakta; sintesis menyatakan artinya dan apa yang perlu dilakukan: “aku bakal telat makan malam”."
-         },
-         {
-          "en": "A recommendation has to be appropriate for the organisation and actionable, with owners, buy-in and resources named.",
-          "id": "Rekomendasi harus cocok untuk organisasinya dan bisa dijalankan, dengan penanggung jawab, dukungan, dan sumber daya yang disebutkan."
-         },
-         {
-          "en": "Budget real time for that last step; it is where most of the work’s value is won or lost.",
-          "id": "Sediakan waktu sungguhan untuk langkah terakhir itu, karena di sanalah sebagian besar nilai pekerjaannya dimenangkan atau hilang."
-         }
-        ]
-       }
-      },
-      {
-       "key": "rec-wrapup",
-       "placement": "after-material:9",
-       "kicker": {
-        "en": "Watch next · Case film",
-        "id": "Tonton berikutnya · Film kasus"
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/recommendation-7-brand.mp4",
-         "poster": "../../assets/lms/the-map/recommendation-7-poster.jpg",
-         "dur": "1:20",
-         "title": {
-          "en": "Wrap-up and reflection: take it into Monday morning",
-          "id": "Penutup dan renungan: bawa ke Senin pagimu"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/recommendation-7-en.vtt",
-          "id": "../../assets/lms/the-map/recommendation-7-id.vtt"
-         }
-        }
-       ],
-       "intro": {
-        "en": "The wrap-up: the two presenters look back over the course (what problem solving is, the hypothesis-led approach from defining the problem to driving recommendations) and ask you to take the structured approach into your Monday morning: simple, practical, executable. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below, where the same method is laid out for goals.",
-        "id": "Penutupnya: dua presenter menengok kembali seluruh kursus (apa itu pemecahan masalah, pendekatan berbasis hipotesis dari merumuskan masalah sampai menggerakkan rekomendasi) dan mengajakmu membawa pendekatan terstruktur ini ke Senin pagimu: sederhana, praktis, bisa dijalankan. Teks terjemahan tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Gambar 1 di bawah, tempat metode yang sama disusun untuk tujuan."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: take it into Monday morning",
-         "id": "Poin penting: bawa ke Senin pagimu"
-        },
-        "body": [
-         {
-          "en": "The method is a structure, not a checklist: its value is in applying it to your own and your team’s day-to-day.",
-          "id": "Metode ini adalah struktur, bukan daftar centang. Nilainya ada saat kamu menerapkannya pada keseharianmu dan keseharian timmu."
-         },
-         {
-          "en": "Beyond the recommendation, keep the answer simple, practical and executable; that is where the impact is realised.",
-          "id": "Setelah rekomendasi, jaga jawabannya tetap sederhana, praktis, dan bisa dijalankan. Di situlah dampaknya terwujud."
-         }
-        ]
+       "title": {
+        "en": "A goal you can count: gaps and good decisions",
+        "id": "Tujuan yang bisa dihitung: kesenjangan dan keputusan yang baik"
        }
       }
      ],
-     "youtube": [
-      {
-       "id": "veIWron7hGs",
-       "placement": "after-material:2",
-       "dur": "2:57",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "title": {
-        "en": "Structuring and prioritisation",
-        "id": "Menyusun struktur dan memprioritaskan"
-       },
-       "intro": {
-        "en": "After the case film, a second film takes the next two steps of the hypothesis-led approach in the presenters' own words. Structuring is simply breaking the problem into smaller pieces, easy when the problem is profit (revenue minus cost), much harder when it is not, and a good breakdown is mutually exclusive and collectively exhaustive, so nothing overlaps and nothing is missed. Prioritisation then asks which of those pieces will have the most impact, so limited time goes where it matters. Subtitles: use the CC button to choose English or Bahasa Indonesia. When it ends, continue to the slides that follow.",
-        "id": "Setelah film kasus, film kedua membahas dua langkah berikutnya dari pendekatan berbasis hipotesis dengan kata-kata para presenter sendiri. Menyusun struktur pada dasarnya adalah memecah masalah menjadi bagian-bagian yang lebih kecil. Mudah kalau masalahnya soal laba (pendapatan dikurangi biaya), jauh lebih sulit kalau bukan. Pemecahan yang baik itu saling lepas dan lengkap menyeluruh, sehingga tidak ada yang tumpang tindih dan tidak ada yang terlewat. Memprioritaskan lalu bertanya bagian mana yang paling berdampak, supaya waktu yang terbatas dipakai di tempat yang penting. Teks terjemahan: pakai tombol CC untuk memilih bahasa Inggris atau Bahasa Indonesia. Setelah selesai, lanjutkan ke slide berikutnya."
-       }
-      },
-      {
-       "id": "ziM0NXVfb5k",
-       "placement": "after-material:3",
-       "dur": "3:15",
-       "kicker": {
-        "en": "Watch next · Lesson film",
-        "id": "Tonton berikutnya · Film pelajaran"
-       },
-       "title": {
-        "en": "Introduction to logic trees",
-        "id": "Pengantar pohon logika"
-       },
-       "intro": {
-        "en": "After the slides, a three-minute film puts the logic tree into practice. An issue tree starts from the problem you have defined and breaks it into three or four branches, then the drivers of each, level by level, until every endpoint is discrete enough for a single analysis, and then you prioritise which endpoints to analyse. It is an iterative process: draft two or three ways of framing the problem, refine, and make sure level one reads logically all the way down. In the moment you may lean on experience; on a large project the sheer number of issues is the challenge. Subtitles: use the CC button to choose English or Bahasa Indonesia. When it ends, continue to the slides that follow.",
-        "id": "Setelah slide, film tiga menit mempraktikkan pohon logika. Pohon isu dimulai dari masalah yang sudah kamu rumuskan, lalu dipecah menjadi tiga atau empat cabang, kemudian pendorong masing-masing cabang, tingkat demi tingkat, sampai setiap ujungnya cukup terpisah untuk satu analisis. Setelah itu kamu memprioritaskan ujung mana yang dianalisis. Prosesnya berulang: buat dua atau tiga draf cara membingkai masalahnya, perhalus, dan pastikan tingkat pertama terbaca logis sampai ke bawah. Saat harus memutuskan seketika, kamu mungkin bersandar pada pengalaman. Dalam proyek besar, banyaknya isu itulah tantangannya. Teks terjemahan: pakai tombol CC untuk memilih bahasa Inggris atau Bahasa Indonesia. Setelah selesai, lanjutkan ke slide berikutnya."
-       }
-      }
-     ]
+     "videosPlacement": "after-material:2",
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows these slides: Dewi, a scholarship deadline, and a wish that becomes a goal with a gap she can calculate. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide ini: Dewi, tenggat beasiswa, dan sebuah keinginan yang berubah menjadi tujuan dengan kesenjangan yang bisa ia hitung. Tonton, lalu lanjutkan ke slide berikutnya."
+     }
     },
     {
      "n": "3.4",

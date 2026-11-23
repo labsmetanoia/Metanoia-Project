@@ -1,0 +1,472 @@
+{
+  "id": "map-3-1-complaint-to-problem",
+  "product": {
+    "en": "The Map",
+    "id": "The Map"
+  },
+  "lesson": "3.1",
+  "title": {
+    "en": "From complaint to problem: the four-step method",
+    "id": "Dari keluhan ke masalah: metode empat langkah"
+  },
+  "sources": "Written for this lesson from its own objectives: the four steps, the habit of skipping one of them, a logic tree with no gaps and no overlaps, and a problem written as a gap. The methods are standard problem-solving practice, taught here in the lesson's own words. The case, the numbers and the character are invented for this film and appear in no other course or book. No third-party script, footage, picture or sound.",
+  "scenes": [
+    {
+      "type": "title",
+      "hold": 4.5,
+      "kicker": {
+        "en": "The Map · Lesson 3.1",
+        "id": "The Map · Pelajaran 3.1"
+      },
+      "title": {
+        "en": "From complaint to *problem*",
+        "id": "Dari keluhan ke *masalah*"
+      },
+      "sub": {
+        "en": "The four-step method",
+        "id": "Metode empat langkah"
+      }
+    },
+    {
+      "type": "story",
+      "set": "office",
+      "opts": {
+        "badge": {
+          "en": "WEEK 9",
+          "id": "PEKAN 9"
+        },
+        "bars": [
+          150,
+          122,
+          96,
+          60,
+          36
+        ],
+        "who": {
+          "hair": "hijab",
+          "scarf": "#2FA7A0",
+          "shirt": "#5b7696"
+        },
+        "moods": [
+          "down",
+          "think"
+        ],
+        "mateMood": "down",
+        "leadMood": "neutral"
+      },
+      "tag": {
+        "en": "Week nine",
+        "id": "Pekan kesembilan"
+      },
+      "keys": [
+        {
+          "en": "“Nobody comes any more.”",
+          "id": "“Sudah tidak ada yang datang.”"
+        },
+        {
+          "en": "A complaint is *not yet a problem*.",
+          "id": "Keluhan *belum tentu masalah*."
+        }
+      ],
+      "say": [
+        {
+          "en": "Week nine. Kirana runs her faculty's peer tutoring, and the room is nearly empty.",
+          "id": "Pekan kesembilan. Kirana mengelola program tutor sebaya di fakultasnya, dan ruangannya nyaris kosong."
+        },
+        {
+          "en": "Her team says: nobody comes any more. That is a complaint. It is not yet a problem she can work on.",
+          "id": "Timnya berkata: sudah tidak ada yang datang. Itu keluhan. Belum menjadi masalah yang bisa ia kerjakan."
+        }
+      ]
+    },
+    {
+      "type": "loop",
+      "kicker": {
+        "en": "The four-step method",
+        "id": "Metode empat langkah"
+      },
+      "centre": {
+        "en": "A loop",
+        "id": "Sebuah putaran"
+      },
+      "centreSub": {
+        "en": "walked in order",
+        "id": "dijalani berurutan"
+      },
+      "steps": [
+        {
+          "h": {
+            "en": "Understand",
+            "id": "Pahami"
+          },
+          "p": {
+            "en": "what exactly is wrong?",
+            "id": "apa persisnya yang salah?"
+          }
+        },
+        {
+          "h": {
+            "en": "Root cause",
+            "id": "Akar masalah"
+          },
+          "p": {
+            "en": "why is it happening?",
+            "id": "kenapa itu terjadi?"
+          }
+        },
+        {
+          "h": {
+            "en": "Plan",
+            "id": "Rencana"
+          },
+          "p": {
+            "en": "what, who, by when?",
+            "id": "apa, siapa, kapan?"
+          }
+        },
+        {
+          "h": {
+            "en": "Execute and adjust",
+            "id": "Jalankan, lalu sesuaikan"
+          },
+          "p": {
+            "en": "do it, check, change course",
+            "id": "kerjakan, periksa, ubah haluan"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Problem solving is a loop with four steps, walked in order.",
+          "id": "Memecahkan masalah adalah putaran empat langkah yang dijalani berurutan."
+        },
+        {
+          "en": "Understand the problem.",
+          "id": "Pahami masalahnya."
+        },
+        {
+          "en": "Find the root cause.",
+          "id": "Temukan akar masalahnya."
+        },
+        {
+          "en": "Make a plan.",
+          "id": "Susun rencananya."
+        },
+        {
+          "en": "Execute, and adjust.",
+          "id": "Jalankan, lalu sesuaikan."
+        }
+      ]
+    },
+    {
+      "type": "quad",
+      "kicker": {
+        "en": "Most people skip a step",
+        "id": "Kebanyakan orang melompati satu langkah"
+      },
+      "boxes": [
+        {
+          "at": 0,
+          "tag": {
+            "en": "Never starts",
+            "id": "Tak pernah mulai"
+          },
+          "h": {
+            "en": "Stops at the complaint",
+            "id": "Berhenti di keluhan"
+          },
+          "p": {
+            "en": "“It is the system.”",
+            "id": "“Memang sistemnya begitu.”"
+          }
+        },
+        {
+          "at": 1,
+          "tag": {
+            "en": "No plan",
+            "id": "Tanpa rencana"
+          },
+          "h": {
+            "en": "Judges every plan",
+            "id": "Menilai semua rencana"
+          },
+          "p": {
+            "en": "Never makes one.",
+            "id": "Tak pernah membuatnya."
+          }
+        },
+        {
+          "at": 2,
+          "tag": {
+            "en": "No execution",
+            "id": "Tanpa eksekusi"
+          },
+          "h": {
+            "en": "Ideas all day",
+            "id": "Ide sepanjang hari"
+          },
+          "p": {
+            "en": "No dates, no owner.",
+            "id": "Tanpa tanggal, tanpa pemilik."
+          }
+        },
+        {
+          "at": 3,
+          "hot": true,
+          "tag": {
+            "en": "No root cause",
+            "id": "Tanpa akar masalah"
+          },
+          "h": {
+            "en": "Acts at once",
+            "id": "Langsung bertindak"
+          },
+          "p": {
+            "en": "Fast, busy, often wrong.",
+            "id": "Cepat, sibuk, sering keliru."
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Most people skip a step, and always the same one. Some stop at the complaint.",
+          "id": "Kebanyakan orang melompati satu langkah, dan selalu langkah yang sama. Ada yang berhenti di keluhan."
+        },
+        {
+          "en": "Some judge every plan and never make one.",
+          "id": "Ada yang menilai semua rencana tetapi tak pernah membuatnya."
+        },
+        {
+          "en": "Some have ideas all day, and no dates.",
+          "id": "Ada yang penuh ide sepanjang hari, tanpa satu pun tanggal."
+        },
+        {
+          "en": "And some act at once, without a diagnosis. Fast, busy, and often wrong.",
+          "id": "Dan ada yang langsung bertindak tanpa diagnosis. Cepat, sibuk, dan sering keliru."
+        }
+      ]
+    },
+    {
+      "type": "tree",
+      "kicker": {
+        "en": "Step one: narrow it with a logic tree",
+        "id": "Langkah satu: persempit dengan pohon logika"
+      },
+      "root": {
+        "en": "Fewer students attend",
+        "id": "Peserta berkurang"
+      },
+      "branches": [
+        {
+          "at": 1,
+          "h": {
+            "en": "Who?",
+            "id": "Siapa?"
+          },
+          "leaves": [
+            {
+              "h": {
+                "en": "First-years",
+                "id": "Mahasiswa baru"
+              },
+              "hot": true,
+              "hotAt": 4
+            },
+            {
+              "h": {
+                "en": "Seniors",
+                "id": "Mahasiswa lama"
+              }
+            }
+          ]
+        },
+        {
+          "at": 2,
+          "h": {
+            "en": "Since when?",
+            "id": "Sejak kapan?"
+          },
+          "leaves": [
+            {
+              "h": {
+                "en": "Before midterms",
+                "id": "Sebelum UTS"
+              }
+            },
+            {
+              "h": {
+                "en": "After midterms",
+                "id": "Setelah UTS"
+              },
+              "hot": true,
+              "hotAt": 4
+            }
+          ]
+        },
+        {
+          "at": 3,
+          "h": {
+            "en": "At which stage?",
+            "id": "Di tahap mana?"
+          },
+          "leaves": [
+            {
+              "h": {
+                "en": "Never sign up",
+                "id": "Tidak mendaftar"
+              }
+            },
+            {
+              "h": {
+                "en": "Sign up, do not come",
+                "id": "Mendaftar, tidak datang"
+              },
+              "hot": true,
+              "hotAt": 4
+            }
+          ]
+        }
+      ],
+      "say": [
+        {
+          "en": "So Kirana starts at step one, and narrows the complaint with a logic tree.",
+          "id": "Maka Kirana mulai dari langkah satu, dan mempersempit keluhan itu dengan pohon logika."
+        },
+        {
+          "en": "Who stopped coming?",
+          "id": "Siapa yang berhenti datang?"
+        },
+        {
+          "en": "Since when?",
+          "id": "Sejak kapan?"
+        },
+        {
+          "en": "At which stage do we lose them?",
+          "id": "Di tahap mana mereka hilang?"
+        },
+        {
+          "en": "The attendance sheets answer: first-years, after midterms, who sign up and then do not come.",
+          "id": "Daftar hadir menjawab: mahasiswa baru, setelah UTS, yang mendaftar tetapi tidak datang."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": {
+        "en": "Write it as a gap",
+        "id": "Tulis sebagai kesenjangan"
+      },
+      "footAt": 3,
+      "foot": {
+        "en": "Now it is a problem *someone can work on*.",
+        "id": "Kini itu masalah yang *bisa dikerjakan*."
+      },
+      "cards": [
+        {
+          "at": 1,
+          "h": {
+            "en": "Current state",
+            "id": "Kondisi sekarang"
+          },
+          "p": {
+            "en": "*9* first-years a week",
+            "id": "*9* mahasiswa baru per pekan"
+          }
+        },
+        {
+          "at": 1,
+          "hot": true,
+          "h": {
+            "en": "Desired state",
+            "id": "Kondisi yang diinginkan"
+          },
+          "p": {
+            "en": "*30* a week by the end of term",
+            "id": "*30* per pekan di akhir semester"
+          }
+        },
+        {
+          "at": 2,
+          "h": {
+            "en": "Obstacle",
+            "id": "Hambatan"
+          },
+          "p": {
+            "en": "Sessions clash with the new lab schedule",
+            "id": "Jadwal bentrok dengan praktikum yang baru"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "A good tree has no gaps and no overlaps: every student sits on exactly one branch.",
+          "id": "Pohon yang baik tidak punya celah dan tidak tumpang tindih: setiap mahasiswa berada di tepat satu cabang."
+        },
+        {
+          "en": "Then she writes the problem as a gap. Current state: nine first-years a week. Desired state: thirty by the end of term.",
+          "id": "Lalu ia menulis masalahnya sebagai kesenjangan. Kondisi sekarang: sembilan mahasiswa baru per pekan. Kondisi yang diinginkan: tiga puluh di akhir semester."
+        },
+        {
+          "en": "And the obstacle: since midterms, the sessions clash with the new lab schedule.",
+          "id": "Dan hambatannya: sejak UTS, jadwal sesi bentrok dengan jadwal praktikum yang baru."
+        },
+        {
+          "en": "Now it is a problem someone can work on.",
+          "id": "Kini itu masalah yang bisa dikerjakan."
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "quiet": true,
+      "kicker": {
+        "en": "In two lines",
+        "id": "Dalam dua kalimat"
+      },
+      "points": [
+        {
+          "en": "A complaint becomes a problem when it has *a number and an obstacle*.",
+          "id": "Keluhan menjadi masalah saat punya *angka dan hambatan*."
+        },
+        {
+          "en": "Notice *which step you skip*.",
+          "id": "Sadari *langkah mana yang biasa kamu lompati*."
+        }
+      ],
+      "turnLabel": {
+        "en": "Your turn.",
+        "id": "Giliranmu."
+      },
+      "turn": {
+        "en": "Take one complaint you made this week and write it as a gap: current, desired, obstacle.",
+        "id": "Ambil satu keluhanmu minggu ini dan tulis sebagai kesenjangan: sekarang, yang diinginkan, hambatan."
+      },
+      "say": [
+        {
+          "en": "A complaint becomes a problem when it has a number and an obstacle.",
+          "id": "Keluhan menjadi masalah saat punya angka dan hambatan."
+        },
+        {
+          "en": "Notice which step you skip.",
+          "id": "Sadari langkah mana yang biasa kamu lompati."
+        },
+        {
+          "en": "Now it is your turn. Take one complaint you made this week and write it as a gap: current, desired, obstacle.",
+          "id": "Sekarang giliranmu. Ambil satu keluhanmu minggu ini dan tulis sebagai kesenjangan: sekarang, yang diinginkan, hambatan."
+        }
+      ]
+    },
+    {
+      "type": "end",
+      "hold": 3.5,
+      "title": {
+        "en": "The Map",
+        "id": "The Map"
+      },
+      "sub": {
+        "en": "An original Metanoia Labs learning film · © 2026 Metanoia Labs",
+        "id": "Film pembelajaran orisinal Metanoia Labs · © 2026 Metanoia Labs"
+      }
+    }
+  ]
+}
