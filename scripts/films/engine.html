@@ -1,0 +1,232 @@
+<!doctype html>
+<!--
+  Metanoia Labs lesson films: the stage.
+
+  One 1280 x 720 page that draws a whole film from a spec (specs/*.json) and a language.
+  Nothing here plays by itself: render.js calls window.seek(seconds) for every frame and
+  takes a picture, so a film is the same on every run and on every machine.
+
+  A film is a list of scenes; a scene is a list of beats. A beat is one narration line
+  (shown in the lower third) and the picture that goes with it. A beat's length comes
+  from its words, so the English and the Indonesian film each run at reading pace.
+
+  Everything on screen is drawn here from shapes and the site's own fonts. No footage,
+  no stock picture, no third-party clip.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face{font-family:Inter;font-weight:400;src:url(../../prototype/assets/fonts/inter-400-normal-latin.woff2) format('woff2')}
+  @font-face{font-family:Inter;font-weight:600;src:url(../../prototype/assets/fonts/inter-600-normal-latin.woff2) format('woff2')}
+  @font-face{font-family:Inter;font-weight:800;src:url(../../prototype/assets/fonts/inter-800-normal-latin.woff2) format('woff2')}
+  @font-face{font-family:Playfair;font-weight:600;src:url(../../prototype/assets/fonts/playfair-display-600-normal-latin.woff2) format('woff2')}
+  @font-face{font-family:Playfair;font-weight:600;font-style:italic;src:url(../../prototype/assets/fonts/playfair-display-600-italic-latin.woff2) format('woff2')}
+  :root{--navy:#0B1524;--navy2:#12233B;--navy3:#1B3352;--gold:#C9A84C;--gold2:#F0D878;--paper:#F4EFE4;--teal:#2FA7A0;--ember:#E07A4B;--mute:rgba(244,239,228,.62)}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1280px;height:720px;overflow:hidden;background:var(--navy);color:var(--paper);font-family:Inter,sans-serif}
+  #stage{position:relative;width:1280px;height:720px;overflow:hidden;background:radial-gradient(1200px 700px at 70% 0%,#16304f 0%,var(--navy) 62%)}
+  .scene{position:absolute;inset:0;opacity:0}
+  .kicker{font-size:17px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+  .serif{font-family:Playfair,Georgia,serif;font-weight:600}
+  em{font-style:normal;color:var(--gold2)}
+  /* lower third: the narration line of the current beat */
+  #say{position:absolute;left:0;right:0;bottom:0;height:150px;padding:0 96px 34px;display:flex;align-items:flex-end;background:linear-gradient(180deg,rgba(11,21,36,0) 0%,rgba(11,21,36,.97) 36%,#0B1524 100%)}
+  #say p{font-size:29px;line-height:1.36;font-weight:400;max-width:1040px;border-left:4px solid var(--gold);padding-left:20px;text-wrap:balance}
+  #bar{position:absolute;left:0;bottom:0;height:4px;background:var(--gold);width:0}
+  #mark{position:absolute;right:44px;top:34px;font-size:13px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--mute)}
+  #mark b{color:var(--gold)}
+  /* title and end cards */
+  .card{display:flex;flex-direction:column;justify-content:center;padding:0 110px 70px}
+  .card h1{font-size:92px;line-height:1.04;margin:18px 0 16px;max-width:980px}
+  .card .sub{font-size:30px;color:var(--mute)}
+  .ridge{position:absolute;left:0;right:0;bottom:0;width:1280px;height:300px}
+  /* story: a drawn place, a person, and a headline for the moment */
+  .story svg.set{position:absolute;inset:0;width:1280px;height:720px}
+  .story .tag{position:absolute;left:96px;top:92px}
+  .story .key{position:absolute;left:96px;top:128px;font-size:54px;line-height:1.12;max-width:500px}
+  /* split: two ideas side by side */
+  .split{padding:86px 96px 0}
+  .split .cols{display:flex;gap:36px;margin-top:34px}
+  .split .col{flex:1;background:rgba(255,255,255,.045);border:1px solid rgba(201,168,76,.28);border-radius:22px;padding:34px 36px;min-height:300px}
+  .split .col h2{font-size:46px;margin:18px 0 10px}
+  .split .col p{font-size:25px;line-height:1.4;color:var(--mute)}
+  .split .col .ico{width:74px;height:74px}
+  .split .foot{margin-top:28px;font-size:30px}
+  /* loop: steps around a circle */
+  .loop{padding:86px 96px 0}
+  .loop svg{position:absolute;left:96px;top:150px;width:420px;height:420px}
+  .loop .steps{position:absolute;left:580px;top:150px;width:604px}
+  .loop .step{display:flex;gap:20px;align-items:flex-start;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+  .loop .step i{flex:none;width:44px;height:44px;border-radius:50%;border:2px solid var(--gold);color:var(--gold2);font-style:normal;font-weight:800;font-size:20px;display:flex;align-items:center;justify-content:center}
+  .loop .step h3{font-size:30px;font-weight:800}
+  .loop .step p{font-size:21px;color:var(--mute);line-height:1.35}
+  /* statement: one sentence that carries the film */
+  .statement{display:flex;flex-direction:column;justify-content:center;padding:0 110px 120px}
+  .statement p{font-size:66px;line-height:1.16;max-width:1040px;margin:10px 0}
+  /* recap */
+  .recap{padding:86px 96px 0}
+  .recap ul{list-style:none;margin-top:30px}
+  .recap li{font-size:36px;line-height:1.25;padding:20px 0 20px 54px;position:relative;border-bottom:1px solid rgba(255,255,255,.08);max-width:1040px}
+  .recap li:before{content:"";position:absolute;left:6px;top:36px;width:22px;height:4px;background:var(--gold)}
+  .recap .turn{margin-top:30px;background:rgba(201,168,76,.12);border:1px solid rgba(201,168,76,.5);border-radius:18px;padding:22px 28px;font-size:30px;max-width:1040px}
+  .recap .turn b{color:var(--gold2)}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="scenes"></div>
+  <div id="mark"></div>
+  <div id="say"><p></p></div>
+  <div id="bar"></div>
+</div>
+<script>
+(function () {
+  'use strict';
+  var FILM = null, LANG = 'en', SCENES = [], TOTAL = 0;
+  var FADE = 0.45;                                   /* seconds a scene takes to arrive and to leave */
+  var t = function (x) { return x == null ? '' : (typeof x === 'string' ? x : (x[LANG] || x.en || '')); };
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  /* *word* marks the words that carry the point */
+  var rich = function (s) { return esc(t(s)).replace(/\*([^*]+)\*/g, '<em>$1</em>'); };
+  var plain = function (s) { return t(s).replace(/\*/g, ''); };
+  var clamp = function (v, a, b) { return Math.max(a, Math.min(b, v)); };
+  var ease = function (x) { x = clamp(x, 0, 1); return 1 - Math.pow(1 - x, 3); };
+  /* reading pace: a short line still gets time to land, a long one is not left hanging */
+  function beatSeconds(line) { var w = plain(line).split(/\s+/).filter(Boolean).length; return clamp(1.3 + w / 2.5, 3, 9); }
+
+  /* ── drawn places ── */
+  var RIDGE = '<svg class="ridge" viewBox="0 0 1280 300" preserveAspectRatio="none"><path d="M0 300 L0 210 L150 150 L260 190 L400 90 L520 170 L640 60 L760 160 L880 110 L1010 190 L1130 130 L1280 200 L1280 300 Z" fill="#0f2038"/><path class="draw" d="M0 210 L150 150 L260 190 L400 90 L520 170 L640 60 L760 160 L880 110 L1010 190 L1130 130 L1280 200" fill="none" stroke="#C9A84C" stroke-width="2.5" stroke-linejoin="round"/><path d="M0 300 L0 250 L200 215 L420 255 L640 200 L900 250 L1100 215 L1280 245 L1280 300 Z" fill="#0a1626"/></svg>';
+  function person(x, y, s, shirt, look) {
+    /* a figure made of a few shapes: enough to read as a person, plain enough to belong to nobody */
+    return '<g transform="translate(' + x + ' ' + y + ') scale(' + s + ')">' +
+      '<path d="M-74 190 C-74 110 -40 78 0 78 C40 78 74 110 74 190 Z" fill="' + shirt + '"/>' +
+      '<rect x="-13" y="52" width="26" height="36" rx="10" fill="#E2B48C"/>' +
+      '<circle cx="0" cy="26" r="40" fill="#E9BE96"/>' +
+      '<path d="M-42 22 C-46 -22 -18 -44 6 -42 C36 -40 48 -14 42 24 C34 4 22 -8 2 -8 C-18 -8 -30 0 -42 22 Z" fill="#1c2430"/>' +
+      (look === 'down' ? '<path d="M-17 34 q6 4 12 0 M7 34 q6 4 12 0" stroke="#1c2430" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-9 50 q9 -5 18 0" stroke="#1c2430" stroke-width="3" fill="none" stroke-linecap="round"/>'
+        : '<circle cx="-12" cy="30" r="3.4" fill="#1c2430"/><circle cx="13" cy="30" r="3.4" fill="#1c2430"/><path d="M-10 46 q10 9 20 0" stroke="#1c2430" stroke-width="3" fill="none" stroke-linecap="round"/>') +
+      '</g>';
+  }
+  var SETS = {
+    /* a desk by a window, rain outside */
+    desk: function (o) {
+      var rain = ''; for (var i = 0; i < 26; i++) rain += '<line class="rain" data-i="' + i + '" x1="0" y1="0" x2="-7" y2="26" stroke="rgba(190,214,240,.5)" stroke-width="2" stroke-linecap="round"/>';
+      return '<svg class="set" viewBox="0 0 1280 720"><rect width="1280" height="720" fill="#0d1a2c"/>' +
+        '<rect x="700" y="70" width="470" height="330" rx="10" fill="#132842" stroke="#27456b" stroke-width="6"/><clipPath id="win"><rect x="706" y="76" width="458" height="318" rx="6"/></clipPath>' +
+        '<g clip-path="url(#win)"><rect x="700" y="70" width="470" height="330" fill="#17324f"/><path d="M700 400 L700 310 L790 250 L860 300 L960 220 L1050 290 L1170 240 L1170 400 Z" fill="#0f2238"/><circle cx="1080" cy="150" r="34" fill="rgba(240,216,120,.16)"/><g class="rainbox">' + rain + '</g></g>' +
+        '<line x1="935" y1="70" x2="935" y2="400" stroke="#27456b" stroke-width="6"/><line x1="700" y1="235" x2="1170" y2="235" stroke="#27456b" stroke-width="6"/>' +
+        '<rect x="560" y="520" width="720" height="26" rx="6" fill="#3a2a1e"/><rect x="560" y="546" width="720" height="174" fill="#2a1e15"/>' +
+        '<g class="lamp" transform="translate(-470 0)"><path d="M1090 520 L1090 430 L1130 392" stroke="#8b96a8" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M1108 376 l52 8 l-16 40 l-52 -8 z" fill="#C9A84C"/><path class="glow" d="M1104 416 L1146 422 L1236 520 L1050 520 Z" fill="rgba(240,216,120,.10)"/></g>' +
+        '<rect x="716" y="408" width="250" height="112" rx="8" fill="#1d2b3f" stroke="#33485f" stroke-width="4"/><rect x="728" y="420" width="226" height="88" rx="4" class="screen" fill="#9cc4e8"/><rect x="690" y="520" width="302" height="10" rx="5" fill="#33485f"/>' +
+        (o.mail ? '<g class="mail" data-beat="' + o.mail + '"><rect x="748" y="436" width="186" height="56" rx="6" fill="#fff"/><rect x="760" y="448" width="92" height="8" rx="4" fill="#E07A4B"/><rect x="760" y="464" width="150" height="6" rx="3" fill="#c8d0da"/><rect x="760" y="476" width="118" height="6" rx="3" fill="#c8d0da"/></g>' : '') +
+        person(1010, 420, 1.12, o.shirt || '#2FA7A0', o.look) + '</svg>';
+    },
+    /* two people at one screen: asking for a quarter of an hour */
+    team: function (o) {
+      return '<svg class="set" viewBox="0 0 1280 720"><rect width="1280" height="720" fill="#10233a"/>' +
+        '<rect x="640" y="60" width="560" height="300" rx="12" fill="#f4efe4" opacity=".06"/><g opacity=".5"><rect x="680" y="100" width="120" height="14" rx="7" fill="#C9A84C"/><rect x="680" y="130" width="300" height="10" rx="5" fill="#5b7696"/><rect x="680" y="152" width="250" height="10" rx="5" fill="#5b7696"/></g>' +
+        '<rect x="520" y="520" width="760" height="26" rx="6" fill="#3a2a1e"/><rect x="520" y="546" width="760" height="174" fill="#2a1e15"/>' +
+        '<rect x="760" y="372" width="300" height="148" rx="8" fill="#1d2b3f" stroke="#33485f" stroke-width="4"/><rect x="772" y="384" width="276" height="124" rx="4" fill="#0f1c2e"/>' +
+        '<g class="bars">' + [0, 1, 2, 3, 4].map(function (i) { return '<rect class="bar" data-i="' + i + '" x="' + (792 + i * 50) + '" y="496" width="30" height="0" rx="4" fill="' + (i === 4 ? '#F0D878' : '#2FA7A0') + '"/>'; }).join('') + '</g>' +
+        '<rect x="730" y="520" width="360" height="10" rx="5" fill="#33485f"/>' +
+        person(660, 420, 1.12, '#2FA7A0') + person(1150, 426, 1.06, '#E07A4B') + '</svg>';
+    }
+  };
+  var ICONS = {
+    turn: '<svg class="ico" viewBox="0 0 74 74"><circle cx="37" cy="37" r="34" fill="none" stroke="#C9A84C" stroke-width="3"/><path d="M22 46 L22 34 Q22 26 30 26 L48 26 M40 17 L50 26 L40 35" fill="none" stroke="#F0D878" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    charge: '<svg class="ico" viewBox="0 0 74 74"><circle cx="37" cy="37" r="34" fill="none" stroke="#C9A84C" stroke-width="3"/><rect x="17" y="27" width="36" height="20" rx="5" fill="none" stroke="#F0D878" stroke-width="4"/><rect x="55" y="33" width="4" height="8" rx="2" fill="#F0D878"/><rect x="22" y="32" width="15" height="10" rx="2" fill="#2FA7A0"/></svg>'
+  };
+
+  /* ── scene builders: each returns markup; elements with data-beat arrive on that beat ── */
+  var BUILD = {
+    title: function (s) { return '<div class="scene card"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><h1 class="serif" data-beat="0" data-delay=".25">' + rich(s.title) + '</h1><div class="sub" data-beat="0" data-delay=".6">' + esc(t(s.sub)) + '</div>' + RIDGE + '</div>'; },
+    end: function (s) { return '<div class="scene card"><div class="kicker" data-beat="0">Metanoia Labs</div><h1 class="serif" data-beat="0" data-delay=".25" style="font-size:64px">' + rich(s.title) + '</h1><div class="sub" data-beat="0" data-delay=".6">' + esc(t(s.sub)) + '</div>' + RIDGE + '</div>'; },
+    story: function (s) {
+      var keys = (s.keys || []).map(function (k, i) { return k ? '<div class="key serif" data-beat="' + i + '" data-until="' + (i + 1) + '">' + rich(k) + '</div>' : ''; }).join('');
+      return '<div class="scene story">' + SETS[s.set](s.opts || {}) + '<div class="tag kicker" data-beat="0">' + esc(t(s.tag)) + '</div>' + keys + '</div>';
+    },
+    split: function (s) {
+      return '<div class="scene split"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><div class="cols">' + s.cols.map(function (c, i) {
+        return '<div class="col" data-beat="' + i + '">' + ICONS[c.icon] + '<h2 class="serif">' + rich(c.h) + '</h2><p>' + rich(c.p) + '</p></div>';
+      }).join('') + '</div><div class="foot serif" data-beat="' + s.cols.length + '">' + rich(s.foot) + '</div></div>';
+    },
+    loop: function (s) {
+      var n = s.steps.length, R = 150, C = 210, svg = '<circle cx="' + C + '" cy="' + C + '" r="' + R + '" fill="none" stroke="rgba(201,168,76,.22)" stroke-width="3"/><circle class="arc" cx="' + C + '" cy="' + C + '" r="' + R + '" fill="none" stroke="#C9A84C" stroke-width="6" stroke-linecap="round" transform="rotate(-90 ' + C + ' ' + C + ')"/>';
+      s.steps.forEach(function (st, i) { var a = -Math.PI / 2 + i * 2 * Math.PI / n, x = C + R * Math.cos(a), y = C + R * Math.sin(a); svg += '<g class="node" data-node="' + i + '"><circle cx="' + x + '" cy="' + y + '" r="34" fill="#0B1524" stroke="#C9A84C" stroke-width="3"/><text x="' + x + '" y="' + (y + 9) + '" text-anchor="middle" font-size="26" font-weight="800" fill="#F0D878" font-family="Inter">' + (i + 1) + '</text></g>'; });
+      svg += '<text x="' + C + '" y="' + (C - 4) + '" text-anchor="middle" font-size="27" fill="#F4EFE4" font-family="Playfair" font-weight="600">' + esc(t(s.centre)) + '</text><text x="' + C + '" y="' + (C + 28) + '" text-anchor="middle" font-size="18" fill="rgba(244,239,228,.62)" font-family="Inter">' + esc(t(s.centreSub)) + '</text>';
+      return '<div class="scene loop"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><svg viewBox="0 0 420 420" data-beat="0">' + svg + '</svg><div class="steps">' + s.steps.map(function (st, i) {
+        return '<div class="step" data-beat="' + (i + 1) + '"><i>' + (i + 1) + '</i><div><h3>' + rich(st.h) + '</h3><p>' + rich(st.p) + '</p></div></div>';
+      }).join('') + '</div></div>';
+    },
+    statement: function (s) { return '<div class="scene statement"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div>' + s.lines.map(function (l, i) { return '<p class="serif" data-beat="' + i + '">' + rich(l) + '</p>'; }).join('') + '</div>'; },
+    recap: function (s) {
+      return '<div class="scene recap"><div class="kicker" data-beat="0">' + esc(t(s.kicker)) + '</div><ul>' + s.points.map(function (p, i) { return '<li class="serif" data-beat="' + i + '">' + rich(p) + '</li>'; }).join('') + '</ul><div class="turn" data-beat="' + s.points.length + '"><b>' + esc(t(s.turnLabel)) + '</b> ' + rich(s.turn) + '</div></div>';
+    }
+  };
+
+  function load(film, lang) {
+    FILM = film; LANG = lang === 'id' ? 'id' : 'en'; SCENES = []; TOTAL = 0;
+    document.documentElement.lang = LANG;
+    var host = document.getElementById('scenes'); host.innerHTML = '';
+    film.scenes.forEach(function (s) {
+      var wrap = document.createElement('div'); wrap.innerHTML = BUILD[s.type](s);
+      var el = wrap.firstChild; host.appendChild(el);
+      var beats = [], at = 0;
+      (s.say && s.say.length ? s.say : [null]).forEach(function (line) {
+        var d = line ? beatSeconds(line) : (s.hold || 4);
+        beats.push({ at: at, d: d, line: line }); at += d;
+      });
+      SCENES.push({ el: el, spec: s, start: TOTAL, d: at, beats: beats });
+      TOTAL += at;
+    });
+    document.getElementById('mark').innerHTML = '<b>Metanoia Labs</b> · ' + esc(t(film.product)) + ' ' + esc(film.lesson || '');
+    return { seconds: TOTAL, cues: cues() };
+  }
+  /* the narration lines with their times: the caption file and the script are written from this */
+  function cues() {
+    var out = [];
+    SCENES.forEach(function (sc) { sc.beats.forEach(function (b) { if (b.line) out.push({ start: sc.start + b.at, end: sc.start + b.at + b.d, text: plain(b.line) }); }); });
+    return out;
+  }
+  function seek(time) {
+    var say = document.querySelector('#say p'), shown = false;
+    SCENES.forEach(function (sc) {
+      var lt = time - sc.start;
+      if (lt < 0 || lt >= sc.d) { sc.el.style.opacity = 0; return; }
+      sc.el.style.opacity = Math.min(ease(lt / FADE), ease((sc.d - lt) / FADE));
+      var bi = 0; sc.beats.forEach(function (b, i) { if (lt >= b.at) bi = i; });
+      var beat = sc.beats[bi], bt = lt - beat.at;
+      /* elements arrive on their beat, and leave on data-until */
+      sc.el.querySelectorAll('[data-beat]').forEach(function (el) {
+        var b = +el.getAttribute('data-beat'), until = el.getAttribute('data-until'), delay = +(el.getAttribute('data-delay') || 0);
+        if (!sc.beats[b]) { el.style.opacity = 0; return; }
+        var e = ease((lt - sc.beats[b].at - delay) / 0.7), out = 1;
+        if (until != null && sc.beats[+until]) out = 1 - ease((lt - sc.beats[+until].at + 0.3) / 0.3);
+        el.style.opacity = e * out;
+        if (el.namespaceURI === 'http://www.w3.org/1999/xhtml') el.style.transform = 'translateY(' + ((1 - e) * 18) + 'px)';
+      });
+      /* a slow drift keeps a drawn place alive */
+      var set = sc.el.querySelector('svg.set'); if (set) set.style.transform = 'scale(' + (1.03 + 0.02 * lt / sc.d) + ') translateX(' + (-6 * lt / sc.d) + 'px)';
+      sc.el.querySelectorAll('.rain').forEach(function (r) { var i = +r.getAttribute('data-i'), sp = 260 + (i % 5) * 40, x = 720 + (i * 53) % 440, y = (i * 97 + time * sp) % 380 + 50; r.setAttribute('transform', 'translate(' + x + ' ' + y + ')'); });
+      sc.el.querySelectorAll('.bar').forEach(function (r) { var i = +r.getAttribute('data-i'), h = [38, 62, 50, 78, 96][i] * ease((lt - 1.2 - i * 0.35) / 0.9); r.setAttribute('height', h); r.setAttribute('y', 496 - h); });
+      sc.el.querySelectorAll('.draw').forEach(function (p) { var L = p.getTotalLength(); p.style.strokeDasharray = L; p.style.strokeDashoffset = L * (1 - ease(lt / 2.4)); });
+      var arc = sc.el.querySelector('.arc');
+      if (arc) {
+        var n = sc.spec.steps.length, L2 = 2 * Math.PI * 150, done = bi === 0 ? 0 : ((bi - 1) + ease(bt / 1.1)) / n;
+        arc.style.strokeDasharray = L2; arc.style.strokeDashoffset = L2 * (1 - clamp(done, 0, 1));
+        sc.el.querySelectorAll('.node').forEach(function (g) { var i = +g.getAttribute('data-node'), on = bi - 1 === i; g.querySelector('circle').setAttribute('fill', on ? '#C9A84C' : '#0B1524'); g.querySelector('text').setAttribute('fill', on ? '#0B1524' : '#F0D878'); });
+        sc.el.querySelectorAll('.step').forEach(function (st, i) { st.style.filter = bi - 1 === i || bi === 0 ? 'none' : 'opacity(.5)'; });
+      }
+      /* a quiet scene already shows its words large: the line is kept for the captions, not repeated below */
+      if (beat.line && !sc.spec.quiet) { shown = true; say.textContent = plain(beat.line); say.style.opacity = Math.min(ease(bt / 0.35), ease((beat.d - bt) / 0.25)); }
+    });
+    if (!shown) say.style.opacity = 0;
+    document.getElementById('say').style.opacity = shown ? 1 : 0;
+    document.getElementById('bar').style.width = (1280 * clamp(time / TOTAL, 0, 1)) + 'px';
+  }
+  window.film = { load: load, seek: seek };
+})();
+</script>
+</body>
+</html>

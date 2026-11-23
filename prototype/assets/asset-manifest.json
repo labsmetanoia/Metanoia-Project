@@ -1023,6 +1023,78 @@
       "notes": ""
     },
     {
+      "file": "assets/lms/films/map-1-1-two-muscles-en-poster.jpg",
+      "bytes": 88957,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo: scripts/films/render.js from scripts/films/specs/the-map-1-1.json)",
+      "licence": "Owned",
+      "licence_proof": "n/a — written, drawn and rendered for this project; see map-1-1-two-muscles-script.md",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "One frame of the film, for the player, English. Drawn from shapes and the site fonts (Inter, Playfair Display, both under the SIL Open Font License). No third-party script, footage, picture or sound."
+    },
+    {
+      "file": "assets/lms/films/map-1-1-two-muscles-en.mp4",
+      "bytes": 3873254,
+      "category": "video",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo: scripts/films/render.js from scripts/films/specs/the-map-1-1.json)",
+      "licence": "Owned",
+      "licence_proof": "n/a — written, drawn and rendered for this project; see map-1-1-two-muscles-script.md",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Original lesson film, English version. Drawn from shapes and the site fonts (Inter, Playfair Display, both under the SIL Open Font License). No third-party script, footage, picture or sound."
+    },
+    {
+      "file": "assets/lms/films/map-1-1-two-muscles-en.vtt",
+      "bytes": 2084,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo: scripts/films/render.js from scripts/films/specs/the-map-1-1.json)",
+      "licence": "Owned",
+      "licence_proof": "n/a — written, drawn and rendered for this project; see map-1-1-two-muscles-script.md",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Narration lines of the film with their times, English. Drawn from shapes and the site fonts (Inter, Playfair Display, both under the SIL Open Font License). No third-party script, footage, picture or sound."
+    },
+    {
+      "file": "assets/lms/films/map-1-1-two-muscles-id-poster.jpg",
+      "bytes": 97373,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo: scripts/films/render.js from scripts/films/specs/the-map-1-1.json)",
+      "licence": "Owned",
+      "licence_proof": "n/a — written, drawn and rendered for this project; see map-1-1-two-muscles-script.md",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "One frame of the film, for the player, Bahasa Indonesia. Drawn from shapes and the site fonts (Inter, Playfair Display, both under the SIL Open Font License). No third-party script, footage, picture or sound."
+    },
+    {
+      "file": "assets/lms/films/map-1-1-two-muscles-id.mp4",
+      "bytes": 4149367,
+      "category": "video",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo: scripts/films/render.js from scripts/films/specs/the-map-1-1.json)",
+      "licence": "Owned",
+      "licence_proof": "n/a — written, drawn and rendered for this project; see map-1-1-two-muscles-script.md",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Original lesson film, Bahasa Indonesia version. Drawn from shapes and the site fonts (Inter, Playfair Display, both under the SIL Open Font License). No third-party script, footage, picture or sound."
+    },
+    {
+      "file": "assets/lms/films/map-1-1-two-muscles-id.vtt",
+      "bytes": 2233,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo: scripts/films/render.js from scripts/films/specs/the-map-1-1.json)",
+      "licence": "Owned",
+      "licence_proof": "n/a — written, drawn and rendered for this project; see map-1-1-two-muscles-script.md",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Narration lines of the film with their times, Bahasa Indonesia. Drawn from shapes and the site fonts (Inter, Playfair Display, both under the SIL Open Font License). No third-party script, footage, picture or sound."
+    },
+    {
       "file": "assets/lms/the-map/adaptability-1-brand.mp4",
       "bytes": 2753328,
       "category": "video",
