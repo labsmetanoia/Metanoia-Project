@@ -440,7 +440,9 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     const pn = await ctx3.newPage(); watch(pn, 'notice-portal');
     await pn.addInitScript(() => { try { localStorage.setItem('metanoia_onboarded', 'true'); } catch (e) {} });
     await pn.goto(B + '/portal', { waitUntil: 'load' }); await pn.waitForSelector('#mtNotice', { timeout: 8000 }).catch(() => {});
-    a = await pn.evaluate(() => { const n = document.getElementById('mtNotice'); return n ? n.textContent : ''; });
+    /* the portal may still be settling (a redirect destroys the page under the question): ask again once it has */
+    const portalNotice = () => pn.evaluate(() => { const n = document.getElementById('mtNotice'); return n ? n.textContent : ''; });
+    a = await portalNotice().catch(async () => { await pn.waitForLoadState('load').catch(() => {}); await pn.waitForSelector('#mtNotice', { timeout: 8000 }).catch(() => {}); return portalNotice().catch(() => ''); });
     check(a.includes('Journey notice two ' + stamp), 'a member sees the notice in the portal', a);
     await shot(pn, 'notice-portal');
     await ctx3.request.post(B + '/api/admin/notice', { headers: ah, data: { ...nbody, on: false } });

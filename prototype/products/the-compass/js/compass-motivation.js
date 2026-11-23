@@ -119,9 +119,6 @@
   /* short films — the platform’s own subtitled lesson films, plus one composed reset */
   var F = IMG + 'lms/the-map/';
   [
-    ['v-mindset1', ['growth', 'setback', 'comparison'], 'mindset-101-1', P('What mindsets are, and where your defaults come from', 'Apa itu mindset, dan dari mana mindset bawaanmu berasal'), '3:04', P('The Map · Lesson 1.3', 'The Map · Pelajaran 1.3')],
-    ['v-mindset2', ['nerves', 'setback', 'slump'], 'mindset-101-2', P('Shifting a mindset: priming and the APR technique', 'Menggeser mindset: priming dan teknik APR'), '1:32', P('The Map · Lesson 1.3', 'The Map · Pelajaran 1.3')],
-    ['v-intent', ['start', 'growth', 'slump'], 'learning-intention-1', P('Why set a learning intention at all?', 'Mengapa perlu menetapkan niat belajar?'), '2:19', P('The Map · Lesson 1.2', 'The Map · Pelajaran 1.2')],
     ['v-habits', ['slump', 'growth', 'momentum'], 'learning-habits', P('The power of learning habits', 'Kekuatan kebiasaan belajar'), '3:41', P('The Map · Lesson 2.2', 'The Map · Pelajaran 2.2')]
   ].forEach(function (x) {
     var base = F + x[2] + (x[2] === 'learning-habits' ? '' : '-brand');
@@ -130,6 +127,10 @@
   /* an original Metanoia Labs film, one file per language (scripts/films) */
   add({ id: 'v-muscles', type: 'video', sit: ['newrole', 'setback', 'nerves', 'slump', 'start'], title: P('Two muscles: adaptability and resilience', 'Dua otot: adaptabilitas dan ketangguhan'), dur: P('2:37', '2:26'),
     src: P(IMG + 'lms/films/map-1-1-two-muscles-en.mp4', IMG + 'lms/films/map-1-1-two-muscles-id.mp4'), poster: P(IMG + 'lms/films/map-1-1-two-muscles-en-poster.jpg', IMG + 'lms/films/map-1-1-two-muscles-id-poster.jpg'), from: P('The Map · Lesson 1.1', 'The Map · Pelajaran 1.1') });
+  add({ id: 'v-sentence', type: 'video', sit: ['start', 'growth', 'slump', 'momentum'], title: P('One sentence: setting a learning intention', 'Satu kalimat: menetapkan niat belajar'), dur: P('2:05', '2:06'),
+    src: P(IMG + 'lms/films/map-1-2-one-sentence-en.mp4', IMG + 'lms/films/map-1-2-one-sentence-id.mp4'), poster: P(IMG + 'lms/films/map-1-2-one-sentence-en-poster.jpg', IMG + 'lms/films/map-1-2-one-sentence-id-poster.jpg'), from: P('The Map · Lesson 1.2', 'The Map · Pelajaran 1.2') });
+  add({ id: 'v-verdict', type: 'video', sit: ['growth', 'setback', 'comparison', 'nerves'], title: P('Not a verdict: the two beliefs under every skill', 'Bukan vonis: dua keyakinan di balik setiap keterampilan'), dur: P('1:58', '1:49'),
+    src: P(IMG + 'lms/films/map-1-3-not-a-verdict-en.mp4', IMG + 'lms/films/map-1-3-not-a-verdict-id.mp4'), poster: P(IMG + 'lms/films/map-1-3-not-a-verdict-en-poster.jpg', IMG + 'lms/films/map-1-3-not-a-verdict-id-poster.jpg'), from: P('The Map · Lesson 1.3', 'The Map · Pelajaran 1.3') });
   add({ id: 'v-reset', type: 'video', sit: ['slump', 'setback', 'nerves', 'waiting'], title: P('The 60-second reset', 'Jeda ulang 60 detik'), dur: '1:00', src: IMG + '03-climb.mp4', poster: IMG + 'm/03-climb.jpg', reset: true, from: P('Metanoia · guided minute', 'Metanoia · satu menit terpandu'),
     lines: [P('Put the phone down. Sit back.', 'Letakkan ponselmu. Duduk bersandar.'), P('Breathe in for four… and out for six.', 'Tarik napas empat hitungan… hembuskan enam.'), P('Name what you feel, one word is enough.', 'Namai yang kamu rasakan, satu kata cukup.'), P('Now name one thing still in your control today.', 'Sekarang sebut satu hal yang masih dalam kendalimu hari ini.'), P('Make it small: twenty-five minutes or less.', 'Buat kecil: dua puluh lima menit atau kurang.'), P('One more slow breath.', 'Satu napas pelan lagi.'), P('Progress is not a mood. It is the next small step.', 'Kemajuan bukan suasana hati. Ia adalah langkah kecil berikutnya.'), P('Go and take it.', 'Pergilah dan lakukan.')] });
 
