@@ -113,6 +113,8 @@ const T = {
     reset: (name, url) => `Hi ${name},\n\nSomeone asked to reset the password for this account. If that was you, choose a new password here:\n${url}\n\nThe link works for one hour. If it was not you, nothing changes.\n\nMetanoia Labs`,
     mentorSubject: 'Your mentor application has been received',
     mentor: (name, id) => `Hi ${name},\n\nThank you for applying to mentor with Metanoia Labs. Your application (reference ${id}) has been stored and a member of the team will review it. We reply to every application within ten business days.\n\nMetanoia Labs`,
+    mentorInviteSubject: 'Your Metanoia Labs mentor account is ready',
+    mentorInvite: (name, url) => `Hi ${name},\n\nYour mentor application to Metanoia Labs has been accepted, and an account is ready for you under this address.\n\nChoose a password to open it:\n${url}\n\nThe link works for seven days. After that, use "Forgot password" on the sign-in page and a new link will reach this address.\n\nIf you did not apply to mentor with Metanoia Labs, ignore this message and nothing happens.\n\nMetanoia Labs`,
     enterpriseSubject: 'Your enterprise inquiry has been received',
     enterprise: (name, id) => `Hi ${name},\n\nThank you for your inquiry (reference ${id}). We respond within two business days with a scoped recommendation.\n\nMetanoia Labs`,
     newsletterSubject: 'Confirm your subscription to Letters from the expedition',
@@ -148,6 +150,8 @@ const T = {
     reset: (name, url) => `Halo ${name},\n\nSeseorang meminta pengaturan ulang kata sandi untuk akun ini. Jika itu kamu, pilih kata sandi baru di sini:\n${url}\n\nTautan berlaku satu jam. Jika bukan kamu, tidak ada yang berubah.\n\nMetanoia Labs`,
     mentorSubject: 'Lamaran mentormu telah kami terima',
     mentor: (name, id) => `Halo ${name},\n\nTerima kasih telah melamar sebagai mentor Metanoia Labs. Lamaranmu (referensi ${id}) telah tersimpan dan akan ditinjau oleh tim. Kami membalas setiap lamaran dalam sepuluh hari kerja.\n\nMetanoia Labs`,
+    mentorInviteSubject: 'Akun mentor Metanoia Labs-mu sudah siap',
+    mentorInvite: (name, url) => `Halo ${name},\n\nLamaranmu sebagai mentor Metanoia Labs diterima, dan akun atas alamat e-mail ini sudah kami siapkan.\n\nPilih kata sandi untuk membukanya:\n${url}\n\nTautan berlaku tujuh hari. Setelah itu, gunakan "Lupa kata sandi" di halaman masuk dan tautan baru akan dikirim ke alamat ini.\n\nJika kamu tidak pernah melamar sebagai mentor Metanoia Labs, abaikan pesan ini dan tidak ada yang berubah.\n\nMetanoia Labs`,
     enterpriseSubject: 'Pertanyaan enterprise Anda telah kami terima',
     enterprise: (name, id) => `Halo ${name},\n\nTerima kasih atas pertanyaan Anda (referensi ${id}). Kami merespons dalam dua hari kerja dengan rekomendasi yang terukur.\n\nMetanoia Labs`,
     newsletterSubject: 'Konfirmasi langgananmu untuk Surat dari ekspedisi',
@@ -183,6 +187,7 @@ const t = locale => T[locale === 'id' ? 'id' : 'en'];
 export const mailVerify = (env, { to, name, url, locale }) => sendMail(env, { to, kind: 'verify', subject: t(locale).verifySubject, text: t(locale).verify(name, url) });
 export const mailReset = (env, { to, name, url, locale }) => sendMail(env, { to, kind: 'reset', subject: t(locale).resetSubject, text: t(locale).reset(name, url) });
 export const mailMentorReceived = (env, { to, name, id, locale }) => sendMail(env, { to, kind: 'mentor', ref: id, subject: t(locale).mentorSubject, text: t(locale).mentor(name, id) });
+export const mailMentorInvite = (env, { to, name, url, locale, ref }) => sendMail(env, { to, kind: 'mentor-invite', ref, subject: t(locale).mentorInviteSubject, text: t(locale).mentorInvite(name, url) });
 export const mailEnterpriseReceived = (env, { to, name, id, locale }) => sendMail(env, { to, kind: 'enterprise', ref: id, subject: t(locale).enterpriseSubject, text: t(locale).enterprise(name, id) });
 export const mailNewsletterConfirm = (env, { to, url, locale }) => sendMail(env, { to, kind: 'newsletter', subject: t(locale).newsletterSubject, text: t(locale).newsletter(url) });
 export const mailWaitlistReceived = (env, { to, name, locale }) => sendMail(env, { to, kind: 'waitlist', subject: t(locale).waitlistSubject, text: t(locale).waitlist(name) });

@@ -15,6 +15,7 @@
  * Called by workers/aggregate (Monday 00:30 UTC, 07:30 WIB) and by /api/admin/digest.
  */
 import { sendMail } from './mail.js';
+import { pipelineSummary } from './leads.js';
 
 const iso = d => d.toISOString();
 const day = d => d.toISOString().slice(0, 10);
@@ -50,6 +51,7 @@ export async function buildDigest(env, { days = 7 } = {}) {
   const leadRows = await all(env, "SELECT kind, COUNT(*) AS n FROM leads WHERE created_at > ? AND kind != 'results' GROUP BY kind", since);
   const leads = {}; for (const r of leadRows) leads[r.kind] = r.n;
   const unreviewed = await one(env, "SELECT COUNT(*) AS n FROM leads WHERE status = 'new' AND kind IN ('mentor', 'enterprise')");
+  const pipeline = await pipelineSummary(env).catch(() => null);   /* null before migration 0014 */
   const fbNew = await one(env, 'SELECT COUNT(*) AS n FROM feedback WHERE created_at > ?', since);
   const fbOpen = await one(env, "SELECT COUNT(*) AS n FROM feedback WHERE status = 'new'");
   let rating = { average: null, count: 0 };
@@ -66,7 +68,7 @@ export async function buildDigest(env, { days = 7 } = {}) {
     weekly_opt_in: await one(env, 'SELECT COUNT(*) AS n FROM users WHERE marketing_opt_in = 1'),
     pending_deletions: await one(env, 'SELECT COUNT(*) AS n FROM users WHERE deletion_requested_at IS NOT NULL')
   };
-  return { days, since, until: iso(now), accounts, verified, active, visitors, assessments, results, leads, unreviewed_leads: unreviewed,
+  return { days, since, until: iso(now), accounts, verified, active, visitors, assessments, results, leads, unreviewed_leads: unreviewed, pipeline,
     feedback: { new: fbNew, open: fbOpen, rating, latest: fbLatest }, errors: { total: errors.total, visitors: errors.visitors, top: errors.groups },
     mail: { sent_this_month: mailMonth, failed_this_week: mailFailed, monthly_free_allowance: 3000 }, totals,
     access_mode: env.ACCESS_MODE || 'beta', beta_ends_at: env.BETA_ENDS_AT || null };
@@ -95,6 +97,11 @@ export function digestText(d, site = '') {
   const kinds = Object.keys(d.leads);
   L.push(kinds.length ? '  New this week: ' + kinds.map(k => `${k} ${d.leads[k]}`).join(' · ') : '  No new leads this week.');
   L.push(`  Mentor and enterprise leads waiting for review: ${num(d.unreviewed_leads)}`);
+  if (d.pipeline) {
+    const p = d.pipeline, rp = v => 'Rp ' + String(v || 0).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    L.push(`  Follow-ups: ${p.overdue} overdue · ${p.due_today} today · ${p.due_week} in the next seven days`);
+    L.push(`  Sales pipeline: ${p.open} open, worth ${rp(p.open_value_idr)} · won ${p.won}, worth ${rp(p.won_value_idr)}`);
+  }
   L.push('');
   L.push('FEEDBACK');
   L.push(`  New this week: ${num(d.feedback.new)} · not yet triaged: ${num(d.feedback.open)}` + (d.feedback.rating.count ? ` · average rating ${d.feedback.rating.average} of 5 from ${d.feedback.rating.count}` : ''));

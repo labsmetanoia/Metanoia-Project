@@ -186,6 +186,30 @@ const shot = async (p, n) => { if (SHOTS) await p.screenshot({ path: `${SHOTS}/$
     await shot(ad, '11-admin');
     const dlc = await Promise.all([ad.waitForEvent('download', { timeout: 8000 }).catch(() => null), ad.click('#leadsCsv')]);
     check(!!dlc[0], 'the lead list downloads as CSV');
+
+    /* lead pipeline (docs/21 N-11): a lead typed in by the team, a reply template filled from it, a logged contact */
+    await ad.click('#pipeline > summary'); await ad.waitForTimeout(1000);
+    a = await ad.evaluate(() => ({ stages: document.querySelectorAll('#plStages tbody tr').length, tpl: document.getElementById('tplState').textContent }));
+    check(a.stages === 6 && /5 built in/.test(a.tpl), 'the pipeline panel shows six stages and the built-in templates', a);
+    await ad.fill('#nlCompany', 'Universitas Uji ' + stamp); await ad.fill('#nlName', 'Budi Santoso'); await ad.fill('#nlValue', '12.500.000'); await ad.fill('#nlOwner', 'Tim QA');
+    await ad.click('#nlAdd'); await ad.waitForTimeout(1800);
+    const lrow = `tr[data-lead]:has-text("Universitas Uji ${stamp}")`;
+    a = await ad.evaluate(n => { const tr = [].find.call(document.querySelectorAll('tr[data-lead]'), x => x.innerText.includes(n)); return tr ? { text: tr.innerText, value: tr.querySelector('.vl').value, stage: tr.querySelector('select.st').value } : null; }, 'Universitas Uji ' + stamp);
+    check(a && /added by the team/.test(a.text) && /no e-mail yet/.test(a.text) && a.value === '12.500.000' && a.stage === 'new', 'a lead typed in by the team appears in the list with its value', a);
+    await ad.selectOption(lrow + ' select.tp', 'first-reply'); await ad.waitForTimeout(300);
+    a = await ad.evaluate(n => { const tr = [].find.call(document.querySelectorAll('tr[data-lead]'), x => x.innerText.includes(n)); return { text: tr.querySelector('.tprev').innerText, href: tr.querySelector('a.tm').getAttribute('href') }; }, 'Universitas Uji ' + stamp);
+    check(/Yth\. Bapak\/Ibu Budi Santoso/.test(a.text) && a.text.includes('Universitas Uji ' + stamp) && /Tim QA/.test(a.text) && !/\{(name|company|sender|site)\}/.test(a.text) && /^mailto:\?subject=/.test(a.href), 'a reply template is filled from the lead, in Bahasa Indonesia, as a mail link', a);
+    await ad.selectOption(lrow + ' select.tl', 'en'); await ad.waitForTimeout(300);
+    a = await ad.evaluate(n => [].find.call(document.querySelectorAll('tr[data-lead]'), x => x.innerText.includes(n)).querySelector('.tprev').innerText, 'Universitas Uji ' + stamp);
+    check(/Hello Budi Santoso/.test(a) && /Best regards,\nTim QA/.test(a), 'the same template in English', a.slice(0, 120));
+    await ad.click(lrow + ' button.lc'); await ad.waitForTimeout(1500);
+    a = await ad.evaluate(n => { const tr = [].find.call(document.querySelectorAll('tr[data-lead]'), x => x.innerText.includes(n)); return { stage: tr.querySelector('select.st').value, fu: tr.querySelector('.fu').value, text: tr.innerText, summary: document.getElementById('plSummary').textContent }; }, 'Universitas Uji ' + stamp);
+    check(a.stage === 'contacted' && a.fu === new Date(Date.now() + 7 * 3600 * 1000 + 7 * 86400 * 1000).toISOString().slice(0, 10) && /last contact/.test(a.text) && /open, Rp/.test(a.summary), 'logging a contact moves the lead on and sets the follow-up a week out', a);
+    await ad.check('#due'); await ad.waitForTimeout(1200);
+    a = await ad.evaluate(n => ({ n: document.querySelectorAll('tr[data-lead]').length, has: document.getElementById('rows').innerText.includes(n) }), 'Universitas Uji ' + stamp);
+    check(!a.has, 'the due filter leaves out a lead whose follow-up is a week away', a);
+    await ad.uncheck('#due'); await ad.waitForTimeout(1200);
+    await shot(ad, '21-admin-pipeline');
   }
 
   /* ── script errors from a browser reach the admin page (js/mt-errors.js) ── */

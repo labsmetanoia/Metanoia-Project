@@ -5,8 +5,14 @@
  * request, so a cookie alone cannot be driven from another site.
  * Rendered by prototype/admin/index.html (noindex, not in the route manifest).
  *
- *   GET   /api/admin/leads?kind=&status=&q=&limit=   list
- *   PATCH /api/admin/leads/:id   { status?, notes? }
+ *   GET   /api/admin/leads?kind=&status=&q=&due=1&limit=   list (due=1: follow-up today or earlier, soonest first)
+ *   PATCH /api/admin/leads/:id   { status?, notes?, follow_up_on?, owner?, value_idr?, contacted? }
+ *   POST  /api/admin/leads       { kind?, name?, company?, email?, org_type?, role?, cohort_size?, message?, value_idr?,
+ *                                  follow_up_on?, owner?, notes?, locale? }      a lead the team adds itself
+ *   POST  /api/admin/leads/:id/convert               an accepted mentor application becomes a mentor account
+ *   GET   /api/admin/pipeline                        follow-ups due, leads and value per sales stage
+ *   GET   /api/admin/lead-templates                  reply templates (the built-in set until the team saves its own)
+ *   POST  /api/admin/lead-templates { templates } | { reset: true }
  *   GET   /api/admin/stats                           counts per kind × status, users, events (last 30 days)
  *   GET   /api/admin/aggregates?metric=&days=        rows from agg_daily (never individual data)
  *   GET   /api/admin/users?q=&founding=1&limit=       members (founding=1: the founding list)
@@ -58,12 +64,11 @@ import { cleanNotice, readNotice, saveNotice, noticeLive, createLetter, updateLe
 import { CONTENT_PRODUCTS, loadManifest, contentReport, contentCsvRows } from '../../../server/lib/content.js';
 import { pushConfigured } from '../../../server/lib/push.js';
 import { runReminders, perRun } from '../../../server/lib/reminders.js';
+import { LEAD_KINDS as KINDS, LEAD_STATUSES as STATUSES, CLOSED_STATUSES, jakartaDay, leadRow as row, cleanLeadPatch, createManualLead, pipelineSummary, readTemplates, saveTemplates, resetTemplates, convertMentor } from '../../../server/lib/leads.js';
 import { SLUG as PROFILE_SLUG, listProfiles, hideProfile } from '../../../server/lib/profile.js';
 import { coachConfigured, coachMode, setCoachMode, validate as coachValidate, review as coachReview, report as coachReport } from '../../../server/lib/coach.js';
 import { PRODUCTS, PLANS, accessMode, betaEndsAt, listEntitlements, resolveAccess, grantEntitlement, revokeEntitlement, grantFounding } from '../../../server/lib/entitlements.js';
 
-const STATUSES = ['new', 'reviewing', 'accepted', 'declined', 'contacted', 'archived', 'confirmed', 'unsubscribed'];
-const KINDS = ['mentor', 'enterprise', 'newsletter', 'waitlist', 'results'];
 const FB_STATUSES = ['new', 'reviewing', 'planned', 'done', 'declined'];
 const FB_KINDS = ['bug', 'idea', 'content', 'praise', 'other'];
 
@@ -102,8 +107,6 @@ async function findUser(env, ref) {
     : await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(ref).first();
 }
 
-const row = r => ({ id: r.id, kind: r.kind, email: r.email, name: r.name, payload: JSON.parse(r.payload_json || '{}'), consent: JSON.parse(r.consent_json || '{}'),
-  status: r.status, notes: r.notes, locale: r.locale, source_page: r.source_page, created_at: r.created_at, updated_at: r.updated_at, confirmed_at: r.confirmed_at });
 
 export async function onRequestGet({ request, env, params }) {
   const g = await guard(request, env, false); if (g instanceof Response) return g;
@@ -117,14 +120,30 @@ export async function onRequestGet({ request, env, params }) {
     if (KINDS.includes(kind)) { where.push('kind = ?'); args.push(kind); }
     if (STATUSES.includes(status)) { where.push('status = ?'); args.push(status); }
     if (q) { where.push('(email LIKE ? OR name LIKE ? OR payload_json LIKE ?)'); args.push(`%${q}%`, `%${q}%`, `%${q}%`); }
-    const sql = 'SELECT * FROM leads' + (where.length ? ' WHERE ' + where.join(' AND ') : '') + ' ORDER BY created_at DESC LIMIT ?';
-    const r = await env.DB.prepare(sql).bind(...args, route === 'leads.csv' ? 5000 : limit).all();
+    /* due=1: every open lead whose follow-up day has come, the longest overdue first */
+    const due = url.searchParams.get('due') === '1';
+    if (due) { where.push(`follow_up_on IS NOT NULL AND follow_up_on <= ? AND status NOT IN (${CLOSED_STATUSES.map(() => '?').join(', ')})`); args.push(jakartaDay(), ...CLOSED_STATUSES); }
+    const sql = 'SELECT * FROM leads' + (where.length ? ' WHERE ' + where.join(' AND ') : '') + (due ? ' ORDER BY follow_up_on, created_at DESC LIMIT ?' : ' ORDER BY created_at DESC LIMIT ?');
+    let r;
+    try { r = await env.DB.prepare(sql).bind(...args, route === 'leads.csv' ? 5000 : limit).all(); }
+    catch (e) { if (due) return fail(503, 'lead pipeline not available'); throw e; }   /* before migration 0014 */
     if (route === 'leads.csv') {
       await audit(env, g.actor, 'leads.export', null, { kind: kind || 'all', status: status || 'all', q, rows: (r.results || []).length });
-      const flat = (r.results || []).map(x => { const p = JSON.parse(x.payload_json || '{}'); return { id: x.id, kind: x.kind, email: x.email, name: x.name, status: x.status, locale: x.locale, source_page: x.source_page, created_at: x.created_at, confirmed_at: x.confirmed_at, company: p.company, role: p.role, detail: p.message || p.motivation || p.expertise || '', notes: x.notes }; });
-      return csvResponse(`metanoia-leads${KINDS.includes(kind) ? '-' + kind : ''}.csv`, ['id', 'kind', 'email', 'name', 'status', 'locale', 'source_page', 'created_at', 'confirmed_at', 'company', 'role', 'detail', 'notes'], flat);
+      const flat = (r.results || []).map(x => { const p = JSON.parse(x.payload_json || '{}'); return { id: x.id, kind: x.kind, email: x.email, name: x.name, status: x.status, locale: x.locale, source_page: x.source_page, created_at: x.created_at, confirmed_at: x.confirmed_at, company: p.company, role: p.role, detail: p.message || p.motivation || p.expertise || '', notes: x.notes,
+          follow_up_on: x.follow_up_on, owner: x.owner, value_idr: x.value_idr, last_contact_at: x.last_contact_at }; });
+      return csvResponse(`metanoia-leads${KINDS.includes(kind) ? '-' + kind : ''}.csv`, ['id', 'kind', 'email', 'name', 'status', 'locale', 'source_page', 'created_at', 'confirmed_at', 'company', 'role', 'detail', 'notes', 'follow_up_on', 'owner', 'value_idr', 'last_contact_at'], flat);
     }
     return json({ ok: true, leads: (r.results || []).map(row) });
+  }
+
+  if (route === 'pipeline') {
+    const ps = await pipelineSummary(env).catch(() => null);
+    if (!ps) return fail(503, 'lead pipeline not available');   /* before migration 0014 */
+    return json({ ok: true, pipeline: ps });
+  }
+
+  if (route === 'lead-templates') {
+    return json({ ok: true, ...(await readTemplates(env)) });
   }
 
   if (route === 'stats') {
@@ -150,7 +169,8 @@ export async function onRequestGet({ request, env, params }) {
     try { const pd = await env.DB.prepare('SELECT COUNT(*) AS n FROM users WHERE deletion_requested_at IS NOT NULL').first(); access.pending_deletions = pd ? pd.n : 0; } catch (e) { access.pending_deletions = null; }
     let feedbackNew = null;
     try { const fbn = await env.DB.prepare("SELECT COUNT(*) AS n FROM feedback WHERE status = 'new'").first(); feedbackNew = fbn ? fbn.n : 0; } catch (e) { /* before migration 0007 */ }
-    return json({ ok: true, actor: g.actor, feedback_new: feedbackNew, leads: leads.results || [], users: users ? users.n : 0, events_30d: events.results || [], assessments: assessments ? assessments.n : 0, mail, access, time: nowIso() });
+    const pipeline = await pipelineSummary(env).catch(() => null);   /* null before migration 0014 */
+    return json({ ok: true, actor: g.actor, feedback_new: feedbackNew, pipeline, leads: leads.results || [], users: users ? users.n : 0, events_30d: events.results || [], assessments: assessments ? assessments.n : 0, mail, access, time: nowIso() });
   }
 
   if (route === 'users' || route === 'users.csv') {
@@ -364,11 +384,12 @@ export async function onRequestPatch({ request, env, params }) {
   const body = (await readJson(request)) || {};
   const cur = await env.DB.prepare('SELECT * FROM leads WHERE id = ?').bind(id).first();
   if (!cur) return fail(404, 'no such lead');
-  const status = body.status !== undefined ? (STATUSES.includes(body.status) ? body.status : null) : cur.status;
-  if (!status) return fail(400, 'bad status');
-  const notes = body.notes !== undefined ? clip(body.notes, 4000) : cur.notes;
-  await env.DB.prepare('UPDATE leads SET status = ?, notes = ?, updated_at = ? WHERE id = ?').bind(status, notes, nowIso(), id).run();
-  await audit(env, g.actor, 'lead.update', id, { kind: cur.kind, status });
+  const cp = cleanLeadPatch(body, cur);
+  if (cp.error) return fail(400, cp.error, { field: cp.field });
+  try {
+    await env.DB.prepare(`UPDATE leads SET ${cp.sets.concat('updated_at = ?').join(', ')} WHERE id = ?`).bind(...cp.args, nowIso(), id).run();
+  } catch (e) { if (cp.pipeline) return fail(503, 'lead pipeline not available'); throw e; }   /* before migration 0014 */
+  await audit(env, g.actor, 'lead.update', id, { kind: cur.kind, status: cp.status, contacted: body.contacted === true || undefined, follow_up_on: body.follow_up_on, owner: body.owner, value_idr: body.value_idr });
   const r = await env.DB.prepare('SELECT * FROM leads WHERE id = ?').bind(id).first();
   return json({ ok: true, lead: row(r) });
 }
@@ -383,6 +404,27 @@ export async function onRequestPost({ request, env, params }) {
     if (cr.error) return fail(cr.status || 400, cr.error, { field: cr.field });
     await audit(env, g.actor, 'batch.create', cr.batch.id, { label: cr.batch.label, seats: cr.batch.seats, product: cr.batch.product, plan: cr.batch.plan });
     return json({ ok: true, batch: cr.batch }, 201);
+  }
+  if (parts[0] === 'leads' && parts.length === 1) {
+    /* a lead the team adds itself: an organisation it approached first */
+    const ml = await createManualLead(env, (await readJson(request)) || {}, g.actor).catch(() => ({ error: 'lead pipeline not available', status: 503 }));
+    if (ml.error) return fail(ml.status || 400, ml.error, { field: ml.field });
+    await audit(env, g.actor, 'lead.create', ml.lead.id, { kind: ml.lead.kind, company: ml.lead.payload.company || null });
+    return json({ ok: true, lead: ml.lead }, 201);
+  }
+  if (parts[0] === 'leads' && parts[1] && parts[2] === 'convert' && parts.length === 3) {
+    const site = (env.SITE_URL || new URL(request.url).origin).replace(/\/$/, '');
+    const cv = await convertMentor(env, clip(parts[1], 64), { site }).catch(() => ({ error: 'lead pipeline not available', status: 503 }));
+    if (cv.error) return fail(cv.status || 400, cv.error, { field: cv.field });
+    await audit(env, g.actor, 'lead.convert', cv.lead.id, { user: cv.user.id, created: cv.created, invited: cv.invited });
+    return json({ ok: true, lead: cv.lead, user: cv.user, created: cv.created, invited: cv.invited, reason: cv.reason }, cv.created ? 201 : 200);
+  }
+  if (parts[0] === 'lead-templates' && parts.length === 1) {
+    const tb = (await readJson(request, 64 * 1024)) || {};
+    const st = await (tb.reset === true ? resetTemplates(env) : saveTemplates(env, tb.templates, g.actor)).catch(() => ({ error: 'settings not available', status: 503 }));   /* before migration 0009 */
+    if (st.error) return fail(st.status || 400, st.error, { field: st.field });
+    await audit(env, g.actor, tb.reset === true ? 'lead_templates.reset' : 'lead_templates.save', null, { templates: st.templates.length });
+    return json({ ok: true, templates: st.templates, custom: st.custom });
   }
   if (parts[0] === 'reminders' && parts[1] === 'run' && parts.length === 2) {
     /* a slice of today's reminders now, instead of at the Worker's next run */
