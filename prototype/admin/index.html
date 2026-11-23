@@ -37,6 +37,16 @@
   .pl{font-size:12.5px;color:var(--muted);max-width:460px;white-space:pre-wrap}
   .pl b{color:var(--text)}
   .notes{width:100%;min-height:36px;font-size:12.5px;margin-top:6px}
+  .pipe{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px;font-size:12.5px}
+  .pipe input,.pipe select{width:auto;min-width:0;font-size:12.5px;padding:6px 8px}
+  .pipe input[type=text]{width:118px}
+  .pipe button,.pipe a.btn{font-size:12.5px;padding:6px 9px}
+  a.btn{display:inline-block;border:1px solid var(--line);border-radius:8px;color:var(--gold2);text-decoration:none;font-weight:800}
+  .late{color:#F87171;font-weight:700}
+  .tprev{white-space:pre-wrap;font-size:12.5px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:9px 11px;margin:6px 0 0;max-width:460px}
+  .tpl{border-top:1px solid rgba(255,255,255,.08);padding:10px 0}
+  .tpl textarea{min-height:120px;font-size:12.5px;margin:4px 0}
+  .tpl input[type=text]{margin:4px 0}
   .err{color:#F87171;margin:8px 0}
   .ok{color:#6EE7B7}
   .muted{color:var(--muted)}
@@ -217,15 +227,43 @@
       <summary><b>Audit trail</b> <span class="muted">who granted, revoked, changed or exported what</span></summary>
       <div id="auRows" style="margin-top:10px"></div>
     </details>
+    <details class="access" id="pipeline">
+      <summary><b>Sales pipeline</b> <span class="muted" id="plSummary">follow-ups, stages and value, add a lead, reply templates</span></summary>
+      <div id="plStages" style="margin-top:10px"></div>
+      <p style="margin:14px 0 6px"><b>Add a lead</b> <span class="muted" style="font-size:13px">an organisation or a mentor you approached yourself</span></p>
+      <div class="bar">
+        <select id="nlKind"><option value="enterprise">Organisation</option><option value="mentor">Mentor</option></select>
+        <select id="nlOrg"><option value="campus">Campus</option><option value="employer">Employer</option><option value="sponsor">Sponsor</option><option value="student_org">Student organisation</option><option value="other">Other</option></select>
+        <input type="text" id="nlCompany" maxlength="120" placeholder="Organisation">
+        <input type="text" id="nlName" maxlength="80" placeholder="Contact name">
+        <input type="text" id="nlEmail" maxlength="254" placeholder="E-mail (optional)">
+        <input type="text" id="nlRole" maxlength="120" placeholder="Role (optional)">
+      </div>
+      <div class="bar">
+        <input type="text" id="nlValue" inputmode="numeric" placeholder="Value in rupiah (optional)">
+        <label style="font-size:13px">Follow up on <input type="date" id="nlFollow"></label>
+        <input type="text" id="nlOwner" maxlength="80" placeholder="Owner (optional)">
+        <select id="nlLocale"><option value="id">Writes in Bahasa Indonesia</option><option value="en">Writes in English</option></select>
+        <button id="nlAdd">Add the lead</button>
+        <span class="muted" id="nlMsg"></span>
+      </div>
+      <details id="tplBox" style="margin-top:6px">
+        <summary><b>Reply templates</b> <span class="muted" id="tplState"></span></summary>
+        <p class="muted" style="font-size:13px;margin:8px 0">{name}, {company}, {sender} and {site} are filled from the lead; {sender} is the lead's owner. Text in [square brackets] is for you to type before you send. Nothing is sent from this page: a template opens in your own mail program, so the reply comes from you.</p>
+        <div id="tplRows"></div>
+        <div class="bar" style="margin-top:10px"><button id="tplSave">Save the templates</button><button class="ghost" id="tplAdd">Add a template</button><button class="ghost" id="tplReset">Back to the built-in set</button><span class="muted" id="tplMsg"></span></div>
+      </details>
+    </details>
     <div class="bar">
       <select id="kind"><option value="">All kinds</option><option value="mentor">Mentor applications</option><option value="enterprise">Enterprise inquiries</option><option value="newsletter">Newsletter</option><option value="waitlist">Waitlist</option><option value="results">Career Map results</option></select>
-      <select id="status"><option value="">All statuses</option><option>new</option><option>reviewing</option><option>accepted</option><option>declined</option><option>contacted</option><option>archived</option><option>confirmed</option><option>unsubscribed</option></select>
+      <select id="status"><option value="">All statuses</option><option>new</option><option>reviewing</option><option>accepted</option><option>declined</option><option>contacted</option><option>meeting</option><option>proposal</option><option>won</option><option>lost</option><option>archived</option><option>confirmed</option><option>unsubscribed</option></select>
+      <label style="font-size:13px"><input type="checkbox" id="due"> Follow-up due</label>
       <input type="search" id="q" placeholder="Search name, e-mail, text">
       <button class="ghost" id="apply">Filter</button>
       <button class="ghost" id="leadsCsv" title="The list as filtered by kind and status, as a CSV file">Download CSV</button>
       <span class="muted" id="count"></span>
     </div>
-    <table><thead><tr><th>When</th><th>Kind</th><th>Who</th><th>Submission</th><th>Status · notes</th></tr></thead><tbody id="rows"></tbody></table>
+    <table><thead><tr><th>When</th><th>Kind</th><th>Who</th><th>Submission</th><th>Stage · follow-up · notes</th></tr></thead><tbody id="rows"></tbody></table>
     <div class="err" id="appErr"></div>
   </section>
 </main>
@@ -253,29 +291,164 @@
   function payloadHtml(p) {
     return Object.keys(p).filter(function (k) { return p[k] !== '' && p[k] != null; }).map(function (k) { return '<b>' + esc(k) + '</b>: ' + esc(typeof p[k] === 'string' ? p[k] : JSON.stringify(p[k])); }).join('\n');
   }
+  /* ── leads: review stages for a mentor, sales stages for an organisation, follow-up, owner, value, replies ── */
+  var STAGES = { enterprise: ['new', 'contacted', 'meeting', 'proposal', 'won', 'lost', 'archived'], mentor: ['new', 'reviewing', 'accepted', 'declined', 'contacted', 'archived'] };
+  var OTHER_STAGES = ['new', 'reviewing', 'contacted', 'archived', 'confirmed', 'unsubscribed'];
+  var CLOSED = ['won', 'lost', 'declined', 'archived', 'unsubscribed'];
+  var LEADS = {}, TEMPLATES = [];
+  var rp = function (n) { return 'Rp ' + Number(n || 0).toLocaleString('id-ID'); };
+  /* the calendar day in Jakarta, the unit of a follow-up */
+  function jkDay() { return new Date(Date.now() + 7 * 3600 * 1000).toISOString().slice(0, 10); }
+  function inPipe(l) { return l.kind === 'mentor' || l.kind === 'enterprise'; }
+  function statusCell(l) {
+    var list = (STAGES[l.kind] || OTHER_STAGES).slice(); if (list.indexOf(l.status) < 0) list.push(l.status);
+    var id = esc(l.id), h = '<select data-id="' + id + '" class="st" aria-label="Stage">' + list.map(function (x) { return '<option' + (x === l.status ? ' selected' : '') + '>' + x + '</option>'; }).join('') + '</select>';
+    if (inPipe(l)) {
+      var late = l.follow_up_on && l.follow_up_on <= jkDay() && CLOSED.indexOf(l.status) < 0;
+      h += '<div class="pipe"><label>Follow up <input type="date" class="fu" value="' + esc(l.follow_up_on || '') + '"></label>' + (late ? '<span class="late">' + (l.follow_up_on === jkDay() ? 'today' : 'overdue') + '</span>' : '') +
+        '<input type="text" class="ow" maxlength="80" placeholder="Owner" aria-label="Owner" value="' + esc(l.owner || '') + '">' +
+        (l.kind === 'enterprise' ? '<input type="text" class="vl" inputmode="numeric" placeholder="Value, Rp" aria-label="Value in rupiah" value="' + (l.value_idr == null ? '' : esc(Number(l.value_idr).toLocaleString('id-ID'))) + '">' : '') + '</div>' +
+        '<div class="pipe"><button class="ghost lc" title="Stamps the time, moves a new lead to contacted and sets the follow-up a week out">Log a contact</button>' +
+        '<span class="muted">' + (l.last_contact_at ? 'last contact ' + esc(fmt(l.last_contact_at)) : 'no contact logged') + '</span></div>' +
+        '<div class="pipe"><select class="tp" aria-label="Reply template"><option value="">Reply with a template…</option>' + TEMPLATES.filter(function (t) { return t.kind === l.kind; }).map(function (t) { return '<option value="' + esc(t.key) + '">' + esc(t.label) + '</option>'; }).join('') + '</select>' +
+        '<select class="tl" aria-label="Language of the reply"><option value="id"' + (l.locale === 'id' ? ' selected' : '') + '>Bahasa Indonesia</option><option value="en"' + (l.locale === 'id' ? '' : ' selected') + '>English</option></select></div><div class="tout"></div>';
+      if (l.kind === 'mentor') h += '<div class="pipe">' + (l.user_id ? '<span class="ok">mentor account opened</span>' : (l.status === 'accepted' ? '<button class="ghost cv" title="Gives the mentor role to this address. Without an account, one is opened and one message with a link to choose a password is sent.">Open a mentor account</button>' : '')) + '</div>';
+    }
+    return h + '<textarea class="notes" placeholder="Notes (saved when you leave the box)">' + esc(l.notes || '') + '</textarea><div class="small" data-saved="' + id + '"></div>';
+  }
+  function rowHtml(l) {
+    return '<td class="small">' + esc(fmt(l.created_at)) + '<br><span class="muted">' + esc(l.id.slice(0, 8).toUpperCase()) + '</span></td>' +
+      '<td class="small">' + esc(l.kind) + (l.locale ? ' · ' + esc(l.locale) : '') + (l.source_page === 'admin' ? '<br><span class="muted">added by the team</span>' : '') + '</td>' +
+      '<td>' + esc(l.name || '') + '<br>' + (l.email ? '<a href="mailto:' + esc(l.email) + '" style="color:var(--gold2)">' + esc(l.email) + '</a>' : '<span class="muted">no e-mail yet</span>') +
+      (l.consent && l.consent.marketing ? '<br><span class="small muted">marketing opt-in</span>' : '') + '</td>' +
+      '<td><div class="pl">' + payloadHtml(l.payload || {}) + '</div>' + (l.source_page && l.source_page !== 'admin' ? '<div class="small muted">' + esc(l.source_page) + '</div>' : '') + '</td>' +
+      '<td>' + statusCell(l) + '</td>';
+  }
+  /* a template with the lead's details in it; what is unknown stays visible in square brackets */
+  function fillTemplate(t, l, lang) {
+    var p = l.payload || {}, id = lang === 'id' && t.subject_id && t.body_id;
+    var map = { name: l.name || p.name || (id ? '[nama]' : '[name]'), company: p.company || (id ? '[organisasi]' : '[organisation]'), sender: l.owner || (id ? '[nama Anda]' : '[your name]'), site: location.origin };
+    var put = function (x) { return String(x || '').replace(/\{(name|company|sender|site)\}/g, function (m, k) { return map[k]; }); };
+    return { subject: put(id ? t.subject_id : t.subject_en), body: put(id ? t.body_id : t.body_en) };
+  }
+  function showTemplate(tr, l) {
+    var out = tr.querySelector('.tout'), key = tr.querySelector('.tp').value, t = TEMPLATES.filter(function (x) { return x.key === key; })[0];
+    if (!t) { out.innerHTML = ''; return; }
+    var f = fillTemplate(t, l, tr.querySelector('.tl').value);
+    var href = 'mailto:' + encodeURIComponent(l.email || '') + '?subject=' + encodeURIComponent(f.subject) + '&body=' + encodeURIComponent(f.body);
+    out.innerHTML = '<div class="tprev"><b>' + esc(f.subject) + '</b>\n\n' + esc(f.body) + '</div><div class="pipe"><a class="btn tm" href="' + esc(href) + '">Open in your mail program</a><button class="ghost tc">Copy the text</button><span class="muted tmsg">' + (href.length > 1900 ? 'Long text: some mail programs cut it. Copy is safer.' : '') + '</span></div>';
+    out.querySelector('.tc').addEventListener('click', function () {
+      var text = f.subject + '\n\n' + f.body, msg = out.querySelector('.tmsg');
+      var done = function () { msg.textContent = 'Copied. Log the contact once it is sent.'; };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () { msg.textContent = 'Copy is blocked here. Select the text above instead.'; });
+      else { var ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); done(); } catch (e) { msg.textContent = 'Select the text above instead.'; } ta.remove(); }
+    });
+  }
+  function bindRow(tr, l) {
+    var id = l.id, q = function (c) { return tr.querySelector(c); };
+    q('select.st').addEventListener('change', function () { save(id, { status: q('select.st').value }, true); });
+    q('textarea.notes').addEventListener('blur', function () { if (q('textarea.notes').value !== (LEADS[id].notes || '')) save(id, { notes: q('textarea.notes').value }); });
+    if (!inPipe(l)) return;
+    q('.fu').addEventListener('change', function () { save(id, { follow_up_on: q('.fu').value || null }, true); });
+    q('.ow').addEventListener('blur', function () { if (q('.ow').value.trim() !== (LEADS[id].owner || '')) save(id, { owner: q('.ow').value }); });
+    if (q('.vl')) q('.vl').addEventListener('blur', function () { var v = q('.vl').value.replace(/[^\d]/g, ''); if (v !== (LEADS[id].value_idr == null ? '' : String(LEADS[id].value_idr))) save(id, { value_idr: v === '' ? null : v }, true); });
+    q('.lc').addEventListener('click', function () { save(id, { contacted: true }, true); });
+    q('.tp').addEventListener('change', function () { showTemplate(tr, LEADS[id]); });
+    q('.tl').addEventListener('change', function () { showTemplate(tr, LEADS[id]); });
+    if (q('.cv')) q('.cv').addEventListener('click', function () {
+      q('.cv').disabled = true;
+      api('POST', '/leads/' + id + '/convert').then(function (r) {
+        if (r.ok) { LEADS[id] = r.data.lead; paint(id); }
+        note(id, r.ok, r.ok ? (r.data.created ? (r.data.invited ? 'account opened, invitation sent' : 'account opened, no invitation sent (' + (r.data.reason || 'mail is not set up') + '): ask the mentor to use Forgot password') : 'the existing account now has the role ' + r.data.user.role) : (r.data && r.data.error) || r.status);
+        if (!r.ok && q('.cv')) q('.cv').disabled = false;
+      });
+    });
+  }
+  function paint(id) {
+    var tr = document.querySelector('tr[data-lead="' + id + '"]'); if (!tr) return;
+    tr.innerHTML = rowHtml(LEADS[id]); bindRow(tr, LEADS[id]);
+  }
+  function note(id, good, text) {
+    var el = document.querySelector('[data-saved="' + id + '"]');
+    if (el) { el.textContent = text; el.className = 'small ' + (good ? 'ok' : 'err'); }
+  }
   function render(leads) {
-    var tb = $('rows'); tb.innerHTML = '';
+    var tb = $('rows'); tb.innerHTML = ''; LEADS = {};
     $('count').textContent = leads.length + ' shown';
     leads.forEach(function (l) {
-      var tr = document.createElement('tr');
-      tr.innerHTML = '<td class="small">' + esc(fmt(l.created_at)) + '<br><span class="muted">' + esc(l.id.slice(0, 8).toUpperCase()) + '</span></td>' +
-        '<td class="small">' + esc(l.kind) + (l.locale ? ' · ' + esc(l.locale) : '') + '</td>' +
-        '<td>' + esc(l.name || '') + '<br><a href="mailto:' + esc(l.email) + '" style="color:var(--gold2)">' + esc(l.email) + '</a>' +
-        (l.consent && l.consent.marketing ? '<br><span class="small muted">marketing opt-in</span>' : '') + '</td>' +
-        '<td><div class="pl">' + payloadHtml(l.payload || {}) + '</div>' + (l.source_page ? '<div class="small muted">' + esc(l.source_page) + '</div>' : '') + '</td>' +
-        '<td><select data-id="' + esc(l.id) + '" class="st">' + ['new', 'reviewing', 'accepted', 'declined', 'contacted', 'archived', 'confirmed', 'unsubscribed'].map(function (s) { return '<option' + (s === l.status ? ' selected' : '') + '>' + s + '</option>'; }).join('') + '</select>' +
-        '<textarea class="notes" data-id="' + esc(l.id) + '" placeholder="Notes (saved on blur)">' + esc(l.notes || '') + '</textarea><div class="small" data-saved="' + esc(l.id) + '"></div></td>';
-      tb.appendChild(tr);
+      LEADS[l.id] = l;
+      var tr = document.createElement('tr'); tr.setAttribute('data-lead', l.id);
+      tr.innerHTML = rowHtml(l); tb.appendChild(tr); bindRow(tr, l);
     });
-    tb.querySelectorAll('select.st').forEach(function (s) { s.addEventListener('change', function () { save(s.dataset.id, { status: s.value }); }); });
-    tb.querySelectorAll('textarea.notes').forEach(function (t) { t.addEventListener('blur', function () { save(t.dataset.id, { notes: t.value }); }); });
   }
-  function save(id, patch) {
+  /* `repaint` redraws the row from the stored lead: a stage or a logged contact changes what the row offers */
+  function save(id, patch, repaint) {
     api('PATCH', '/leads/' + id, patch).then(function (r) {
-      var el = document.querySelector('[data-saved="' + id + '"]');
-      if (el) { el.textContent = r.ok ? 'saved ' + new Date().toLocaleTimeString() : 'not saved (' + (r.data && r.data.error || r.status) + ')'; el.className = 'small ' + (r.ok ? 'ok' : 'err'); }
+      if (r.ok && r.data.lead) { LEADS[id] = r.data.lead; if (repaint) paint(id); }
+      note(id, r.ok, r.ok ? 'saved ' + new Date().toLocaleTimeString() : 'not saved (' + (r.data && r.data.error || r.status) + ')');
+      if (r.ok && repaint) loadPipeline();
     });
   }
+
+  /* ── pipeline: what is due, leads and value per stage, a lead typed in by the team ── */
+  function loadPipeline() {
+    api('GET', '/pipeline').then(function (r) {
+      if (!r.ok) { $('plSummary').textContent = r.status === 503 ? 'migration 0014 has not run yet' : ''; $('plStages').innerHTML = ''; return; }
+      var p = r.data.pipeline;
+      $('plSummary').textContent = p.overdue + ' overdue · ' + p.due_today + ' due today · ' + p.due_week + ' in the next seven days · ' + p.open + ' open, ' + rp(p.open_value_idr);
+      $('plStages').innerHTML = '<table><thead><tr><th>Stage, organisations</th><th>Leads</th><th>Value</th></tr></thead><tbody>' + p.stages.map(function (x) {
+        return '<tr><td>' + esc(x.status) + '</td><td class="num"><b>' + x.n + '</b></td><td class="num">' + rp(x.value_idr) + '</td></tr>';
+      }).join('') + '</tbody></table><div class="small muted" style="margin-top:6px">Open means new, contacted, meeting or proposal. A follow-up counts until the lead is won, lost, declined or archived. Days are counted in Jakarta time.</div>';
+    });
+  }
+  $('pipeline').addEventListener('toggle', function () { if ($('pipeline').open) loadPipeline(); });
+  $('nlKind').addEventListener('change', function () { $('nlOrg').hidden = $('nlKind').value !== 'enterprise'; $('nlValue').hidden = $('nlKind').value !== 'enterprise'; });
+  $('nlAdd').addEventListener('click', function () {
+    var body = { kind: $('nlKind').value, org_type: $('nlOrg').value, company: $('nlCompany').value, name: $('nlName').value, email: $('nlEmail').value, role: $('nlRole').value,
+      value_idr: $('nlValue').value.replace(/[^\d]/g, '') || null, follow_up_on: $('nlFollow').value || null, owner: $('nlOwner').value, locale: $('nlLocale').value };
+    $('nlMsg').textContent = ''; $('nlMsg').className = 'muted';
+    api('POST', '/leads', body).then(function (r) {
+      if (!r.ok) { $('nlMsg').textContent = (r.data && r.data.error) || ('HTTP ' + r.status); $('nlMsg').className = 'err'; return; }
+      $('nlMsg').textContent = 'Added. It is at the top of the list below.'; $('nlMsg').className = 'ok';
+      ['nlCompany', 'nlName', 'nlEmail', 'nlRole', 'nlValue', 'nlFollow'].forEach(function (k) { $(k).value = ''; });
+      load(); loadPipeline();
+    });
+  });
+
+  /* ── reply templates: the built-in set until the team saves its own ── */
+  function tplRow(t) {
+    var d = document.createElement('div'); d.className = 'tpl';
+    d.innerHTML = '<div class="bar" style="margin:0"><input type="text" class="tk" maxlength="40" placeholder="short-key" aria-label="Key" value="' + esc(t.key || '') + '"><input type="text" class="tn" maxlength="60" placeholder="Name of the template" aria-label="Name" value="' + esc(t.label || '') + '">' +
+      '<select class="tkind" aria-label="For"><option value="enterprise"' + (t.kind === 'mentor' ? '' : ' selected') + '>For organisations</option><option value="mentor"' + (t.kind === 'mentor' ? ' selected' : '') + '>For mentors</option></select><button class="ghost tdel">Remove</button></div>' +
+      '<input type="text" class="tse" maxlength="140" placeholder="Subject, English" value="' + esc(t.subject_en || '') + '"><textarea class="tbe" maxlength="3000" placeholder="Text, English">' + esc(t.body_en || '') + '</textarea>' +
+      '<input type="text" class="tsi" maxlength="140" placeholder="Subjek, Bahasa Indonesia" value="' + esc(t.subject_id || '') + '"><textarea class="tbi" maxlength="3000" placeholder="Teks, Bahasa Indonesia">' + esc(t.body_id || '') + '</textarea>';
+    d.querySelector('.tdel').addEventListener('click', function () { d.remove(); });
+    return d;
+  }
+  function drawTemplates(custom) {
+    $('tplRows').innerHTML = ''; TEMPLATES.forEach(function (t) { $('tplRows').appendChild(tplRow(t)); });
+    $('tplState').textContent = TEMPLATES.length + (custom ? ' saved by the team' : ' built in');
+  }
+  function loadTemplates() {
+    return api('GET', '/lead-templates').then(function (r) { if (r.ok) { TEMPLATES = r.data.templates || []; drawTemplates(r.data.custom); } });
+  }
+  function tplDone(r, good) {
+    $('tplMsg').textContent = r.ok ? good : ((r.data && r.data.error) || ('HTTP ' + r.status)); $('tplMsg').className = r.ok ? 'ok' : 'err';
+    if (r.ok) { TEMPLATES = r.data.templates || []; drawTemplates(r.data.custom); Object.keys(LEADS).forEach(paint); }
+  }
+  $('tplAdd').addEventListener('click', function () { $('tplRows').appendChild(tplRow({ kind: 'enterprise' })); });
+  $('tplSave').addEventListener('click', function () {
+    var list = [].map.call($('tplRows').querySelectorAll('.tpl'), function (d) {
+      var v = function (c) { return d.querySelector(c).value; };
+      return { key: v('.tk'), label: v('.tn'), kind: v('.tkind'), subject_en: v('.tse'), body_en: v('.tbe'), subject_id: v('.tsi'), body_id: v('.tbi') };
+    });
+    api('POST', '/lead-templates', { templates: list }).then(function (r) { tplDone(r, 'Saved.'); });
+  });
+  $('tplReset').addEventListener('click', function () {
+    if (!confirm('Replace your templates with the built-in set?')) return;
+    api('POST', '/lead-templates', { reset: true }).then(function (r) { tplDone(r, 'The built-in set is back.'); });
+  });
+
   /* ── funnel: the path from a page view to a grant, in the chosen window ── */
   function loadFunnel() {
     api('GET', '/funnel?days=' + $('fnDays').value).then(function (r) {
@@ -690,7 +863,7 @@
 
   /* ── the lead list as a file (the server builds it, so the export is in the audit trail) ── */
   $('leadsCsv').addEventListener('click', function () {
-    var qs = '?' + ($('kind').value ? 'kind=' + $('kind').value + '&' : '') + ($('status').value ? 'status=' + $('status').value + '&' : '') + ($('q').value.trim() ? 'q=' + encodeURIComponent($('q').value.trim()) : '');
+    var qs = '?' + ($('kind').value ? 'kind=' + $('kind').value + '&' : '') + ($('status').value ? 'status=' + $('status').value + '&' : '') + ($('q').value.trim() ? 'q=' + encodeURIComponent($('q').value.trim()) + '&' : '') + ($('due').checked ? 'due=1' : '');
     var init = { headers: {}, credentials: 'same-origin' }; if (token) init.headers.authorization = 'Bearer ' + token;
     fetch('/api/admin/leads.csv' + qs, init).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.blob(); }).then(function (blob) {
       var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'metanoia-leads' + ($('kind').value ? '-' + $('kind').value : '') + '.csv'; document.body.appendChild(a); a.click(); a.remove();
@@ -702,8 +875,10 @@
     if ($('kind').value) qs.push('kind=' + encodeURIComponent($('kind').value));
     if ($('status').value) qs.push('status=' + encodeURIComponent($('status').value));
     if ($('q').value.trim()) qs.push('q=' + encodeURIComponent($('q').value.trim()));
+    if ($('due').checked) qs.push('due=1');
     $('appErr').textContent = '';
-    api('GET', '/leads' + (qs.length ? '?' + qs.join('&') : '')).then(function (r) {
+    /* the templates come first: each row offers them */
+    (TEMPLATES.length ? Promise.resolve() : loadTemplates()).then(function () { return api('GET', '/leads' + (qs.length ? '?' + qs.join('&') : '')); }).then(function (r) {
       if (!r.ok) { $('appErr').textContent = r.offline ? 'The API is not reachable on this host.' : (r.data && r.data.error) || ('HTTP ' + r.status); return; }
       render(r.data.leads || []);
     });
@@ -713,8 +888,9 @@
       (d.leads || []).forEach(function (x) { by[x.kind] = (by[x.kind] || 0) + x.n; });
       var newCount = (d.leads || []).filter(function (x) { return x.status === 'new'; }).reduce(function (a, x) { return a + x.n; }, 0);
       if (typeof d.feedback_new === 'number') $('fbSummary').textContent = d.feedback_new ? d.feedback_new + ' new' : 'nothing new';
+      if (d.pipeline && !$('pipeline').open) $('plSummary').textContent = d.pipeline.overdue + ' overdue · ' + d.pipeline.due_today + ' due today · ' + d.pipeline.open + ' open, ' + rp(d.pipeline.open_value_idr);
       if (d.access) $('acSummary').textContent = 'mode ' + d.access.mode + (d.access.beta_ends_at ? ' · beta ends ' + d.access.beta_ends_at : '') + ' · ' + d.access.founding_members + ' founding · ' + d.access.active_grants + ' active grants' + (d.access.pending_deletions ? ' · ' + d.access.pending_deletions + ' deletion pending' : '');
-      $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Waitlist', by.waitlist || 0], ['Results', by.results || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0], ['New feedback', d.feedback_new || 0]]
+      $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Waitlist', by.waitlist || 0], ['Results', by.results || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0], ['New feedback', d.feedback_new || 0]].concat(d.pipeline ? [['Follow-ups due', d.pipeline.overdue + d.pipeline.due_today]] : [])
         .map(function (p) { return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>'; }).join('');
     });
   }
@@ -738,6 +914,7 @@
   $('enter').addEventListener('click', function () { token = $('token').value.trim(); if (token) enter(); });
   $('token').addEventListener('keydown', function (e) { if (e.key === 'Enter') { token = $('token').value.trim(); if (token) enter(); } });
   $('apply').addEventListener('click', load);
+  $('due').addEventListener('change', load);
   $('q').addEventListener('keydown', function (e) { if (e.key === 'Enter') load(); });
   $('refresh').addEventListener('click', load);
   $('signout').addEventListener('click', function () {

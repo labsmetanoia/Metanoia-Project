@@ -660,6 +660,120 @@ function client() {
   r = await anon('GET', '/api/admin/audit?limit=20', undefined, A);
   ok(r.j.audit.some(a => a.action === 'profile.hide') && r.j.audit.some(a => a.action === 'profile.unhide'), 'taking a profile down is in the audit trail', r.j.audit.length);
 
+  /* ── lead pipeline (docs/21 N-11): follow-up, owner, value, stages, a lead typed in, templates, mentor account ── */
+  {
+    const jk = n => new Date(Date.now() + 7 * 3600 * 1000 + n * 86400 * 1000).toISOString().slice(0, 10);
+    r = await anon('GET', '/api/admin/pipeline');
+    ok(r.status === 401, 'the pipeline needs the admin', r.status);
+    r = await anon('GET', '/api/admin/pipeline', undefined, A);
+    ok(r.status === 200 && r.j.pipeline.stages.length === 6 && r.j.pipeline.today === jk(0), 'the pipeline reports six sales stages and today in Jakarta', r.j);
+    const p0 = r.j.pipeline, stageN = (p, s) => p.stages.find(x => x.status === s).n;
+
+    r = await anon('POST', '/api/admin/leads', { company: `Kampus ${stamp}`, name: 'Ibu Sari', org_type: 'campus', value_idr: '15.000.000', follow_up_on: jk(-1), owner: 'QA Owner', locale: 'id' }, A);
+    ok(r.status === 201 && r.j.lead.kind === 'enterprise' && r.j.lead.source_page === 'admin' && r.j.lead.value_idr === 15000000 && r.j.lead.email === '' && r.j.lead.payload.org_type === 'campus', 'the team adds an organisation without an e-mail address', r.j);
+    ok(r.j.lead.consent.method === 'admin-entry' && r.j.lead.consent.marketing === false, 'a typed-in lead records that nobody consented to marketing', r.j.lead && r.j.lead.consent);
+    const pl = r.j.lead;
+    r = await anon('POST', '/api/admin/leads', {}, A);
+    ok(r.status === 400 && r.j.field === 'name', 'a typed-in lead needs a name or an organisation', r.j);
+    r = await anon('POST', '/api/admin/leads', { company: 'X', email: 'nope' }, A);
+    ok(r.status === 400 && r.j.field === 'email', 'a typed-in lead rejects a bad e-mail', r.j);
+    r = await anon('POST', '/api/admin/leads', { company: 'X', value_idr: 'abc' }, A);
+    ok(r.status === 400 && r.j.field === 'value_idr', 'a value must be a whole number', r.j);
+    r = await anon('POST', '/api/admin/leads', { company: 'X' }, { ...A, origin: 'https://evil.example' });
+    ok(r.status === 403, 'a cross-origin lead is refused', r.status);
+    r = await m2('POST', '/api/admin/leads', { company: 'X' });
+    ok(r.status === 401, 'a member cannot add a lead', r.status);
+
+    r = await anon('GET', '/api/admin/leads?due=1', undefined, A);
+    ok(r.status === 200 && r.j.leads.some(l => l.id === pl.id) && r.j.leads.every(l => l.follow_up_on && l.follow_up_on <= jk(0)), 'the due filter lists what is overdue or due today', r.j.leads && r.j.leads.map(l => l.follow_up_on));
+    r = await anon('GET', '/api/admin/pipeline', undefined, A);
+    ok(r.j.pipeline.overdue === p0.overdue + 1 && r.j.pipeline.open_value_idr === p0.open_value_idr + 15000000 && stageN(r.j.pipeline, 'new') === stageN(p0, 'new') + 1, 'the pipeline counts the overdue lead and its value', r.j.pipeline);
+
+    r = await anon('PATCH', '/api/admin/leads/' + pl.id, { contacted: true }, A);
+    ok(r.status === 200 && r.j.lead.status === 'contacted' && r.j.lead.last_contact_at && r.j.lead.follow_up_on === jk(7), 'logging a contact moves a new lead on and sets the follow-up a week out', r.j.lead);
+    r = await anon('GET', '/api/admin/leads?due=1', undefined, A);
+    ok(!r.j.leads.some(l => l.id === pl.id), 'a lead with a later follow-up leaves the due list', null);
+    r = await anon('PATCH', '/api/admin/leads/' + pl.id, { status: 'proposal', value_idr: 20000000, owner: 'QA Two', follow_up_on: jk(3) }, A);
+    ok(r.status === 200 && r.j.lead.status === 'proposal' && r.j.lead.value_idr === 20000000 && r.j.lead.owner === 'QA Two' && r.j.lead.follow_up_on === jk(3), 'stage, value, owner and follow-up are saved', r.j.lead);
+    r = await anon('PATCH', '/api/admin/leads/' + pl.id, { contacted: true }, A);
+    ok(r.j.lead.status === 'proposal' && r.j.lead.follow_up_on === jk(3), 'a later contact keeps the stage and a follow-up that is still ahead', r.j.lead);
+    r = await anon('PATCH', '/api/admin/leads/' + pl.id, { follow_up_on: 'tomorrow' }, A);
+    ok(r.status === 400 && r.j.field === 'follow_up_on', 'a follow-up must be a date', r.j);
+    r = await anon('PATCH', '/api/admin/leads/' + pl.id, { value_idr: -5 }, A);
+    ok(r.status === 400 && r.j.field === 'value_idr', 'a negative value is refused', r.j);
+    r = await anon('PATCH', '/api/admin/leads/' + pl.id, { status: 'bogus' }, A);
+    ok(r.status === 400, 'an unknown stage is refused', r.status);
+    r = await anon('PATCH', '/api/admin/leads/' + pl.id, { email: `kampus+${stamp}@example.test`, name: 'Ibu Sari W' }, A);
+    ok(r.j.lead.email === `kampus+${stamp}@example.test` && r.j.lead.name === 'Ibu Sari W', 'the address of a typed-in lead can be filled in later', r.j.lead);
+    r = await anon('PATCH', '/api/admin/leads/' + lead.id, { email: 'changed@example.test' }, A);
+    ok(r.status === 200 && r.j.lead.email === `ent+${stamp}@example.test`, 'the address on a submitted form cannot be rewritten', r.j.lead && r.j.lead.email);
+    r = await anon('PATCH', '/api/admin/leads/' + pl.id, { status: 'won', follow_up_on: jk(-2) }, A);
+    ok(r.j.lead.status === 'won', 'a lead is marked won', r.j.lead);
+    r = await anon('GET', '/api/admin/pipeline', undefined, A);
+    ok(r.j.pipeline.won === p0.won + 1 && r.j.pipeline.won_value_idr === p0.won_value_idr + 20000000 && r.j.pipeline.overdue === p0.overdue && r.j.pipeline.open_value_idr === p0.open_value_idr, 'a won lead counts as won, and its follow-up no longer counts', r.j.pipeline);
+    r = await anon('GET', '/api/admin/leads?due=1', undefined, A);
+    ok(!r.j.leads.some(l => l.id === pl.id), 'a closed lead is never due', null);
+
+    r = await anon('GET', '/api/admin/leads.csv?kind=enterprise', undefined, A);
+    ok(r.status === 200 && r.text.split('\n')[0].endsWith('follow_up_on,owner,value_idr,last_contact_at') && r.text.includes('QA Two,20000000'), 'the export carries follow-up, owner, value and last contact', r.text.split('\n')[0]);
+    r = await anon('GET', '/api/admin/stats', undefined, A);
+    ok(r.j.pipeline && typeof r.j.pipeline.overdue === 'number', 'admin stats carry the pipeline', r.j.pipeline);
+    r = await anon('GET', '/api/admin/digest?days=7', undefined, A);
+    ok(r.status === 200 && /Follow-ups: \d+ overdue/.test(r.j.text) && /Sales pipeline: \d+ open, worth Rp [\d.]+ · won \d+, worth Rp [\d.]+/.test(r.j.text), 'the weekly summary reports follow-ups and the pipeline', r.j.text && r.j.text.slice(0, 900));
+
+    /* reply templates */
+    r = await anon('GET', '/api/admin/lead-templates', undefined, A);
+    ok(r.status === 200 && r.j.custom === false && r.j.templates.length === 5 && r.j.templates.every(t => t.subject_en && t.body_en && t.subject_id && t.body_id), 'five built-in reply templates in both languages', r.j.templates && r.j.templates.length);
+    ok(r.j.templates.every(t => !/[—–→]/.test(t.body_en + t.body_id)), 'the templates use plain punctuation', null);
+    r = await m2('GET', '/api/admin/lead-templates');
+    ok(r.status === 401, 'a member cannot read the templates', r.status);
+    r = await anon('POST', '/api/admin/lead-templates', { templates: [] }, A);
+    ok(r.status === 400, 'an empty template set is refused', r.status);
+    r = await anon('POST', '/api/admin/lead-templates', { templates: [{ key: 'one', label: 'One', subject_en: 'S', body_en: 'B' }, { key: 'one', label: 'Two', subject_en: 'S', body_en: 'B' }] }, A);
+    ok(r.status === 400 && r.j.field === 'key', 'two templates cannot share a key', r.j);
+    r = await anon('POST', '/api/admin/lead-templates', { templates: [{ key: 'one', label: 'One', subject_en: 'S' }] }, A);
+    ok(r.status === 400 && r.j.field === 'body_en', 'a template needs an English text', r.j);
+    r = await anon('POST', '/api/admin/lead-templates', { templates: [{ key: 'one', label: 'One', kind: 'enterprise', subject_en: 'S {company}', body_en: 'B {name}' }] }, A);
+    ok(r.status === 200 && r.j.custom === true && r.j.templates.length === 1, 'the team saves its own templates', r.j);
+    r = await anon('GET', '/api/admin/lead-templates', undefined, A);
+    ok(r.j.custom === true && r.j.templates[0].key === 'one', 'the saved templates are served', r.j);
+    r = await anon('POST', '/api/admin/lead-templates', { reset: true }, A);
+    ok(r.status === 200 && r.j.custom === false && r.j.templates.length === 5, 'the built-in set can be restored', r.j && r.j.custom);
+
+    /* an accepted mentor application becomes an account */
+    r = await anon('GET', '/api/admin/leads?kind=mentor&q=' + encodeURIComponent(`men+${stamp}`), undefined, A);
+    const ml = r.j.leads[0];
+    r = await anon('POST', '/api/admin/leads/' + ml.id + '/convert', undefined, A);
+    ok(r.status === 409 && r.j.field === 'status', 'only an accepted application becomes an account', r.j);
+    r = await anon('POST', '/api/admin/leads/' + lead.id + '/convert', undefined, A);
+    ok(r.status === 400, 'an organisation cannot become a mentor account', r.status);
+    await anon('PATCH', '/api/admin/leads/' + ml.id, { status: 'accepted' }, A);
+    r = await anon('POST', '/api/admin/leads/' + ml.id + '/convert', undefined, A);
+    ok(r.status === 201 && r.j.created === true && r.j.user.role === 'mentor' && r.j.user.email === `men+${stamp}@example.test` && r.j.lead.user_id === r.j.user.id, 'an accepted mentor gets a new account with the mentor role', r.j);
+    ok(r.j.invited === false && !!r.j.reason, 'without a mail key the admin is told no invitation went out', r.j && r.j.reason);
+    if (process.env.D1_SQLITE) {
+      ok(sqlGet('SELECT pw_hash FROM users WHERE id = ?', [r.j.user.id]) === '' && sqlGet('SELECT COALESCE(email_verified_at, \'none\') FROM users WHERE id = ?', [r.j.user.id]) === 'none', 'the new account has no password and an unproven address', null);
+      ok(Number(sqlGet("SELECT COUNT(*) FROM tokens WHERE kind = 'reset' AND user_id = ? AND used_at IS NULL", [r.j.user.id])) === 1, 'one link to choose a password is waiting', null);
+    }
+    r = await client()('POST', '/api/auth/login', { email: `men+${stamp}@example.test`, password: '' });
+    ok(r.status === 400 || r.status === 401, 'nobody can sign in to the new account without the link', r.status);
+    r = await anon('POST', '/api/admin/leads/' + ml.id + '/convert', undefined, A);
+    ok(r.status === 200 && r.j.created === false && r.j.user.role === 'mentor', 'converting twice opens no second account', r.j);
+    /* an applicant who already has an account keeps it and gains the role */
+    r = await anon('POST', '/api/leads/mentor', { name: 'QA Member', email, expertise: 'Finance', years: '6', terms: true });
+    const ml2 = r.j && r.j.id;
+    await anon('PATCH', '/api/admin/leads/' + ml2, { status: 'accepted' }, A);
+    r = await anon('POST', '/api/admin/leads/' + ml2 + '/convert', undefined, A);
+    ok(r.status === 200 && r.j.created === false && r.j.user.email === email && r.j.user.role === 'mentor', 'an applicant with an account keeps it and gains the mentor role', r.j);
+    r = await m2('GET', '/api/auth/me');
+    ok(r.status === 200 && r.j.user.role === 'mentor', 'the member sees the mentor role on the next request', r.j && r.j.user);
+    r = await m2('GET', '/api/admin/stats');
+    ok(r.status === 401, 'a mentor is not an admin', r.status);
+    r = await anon('GET', '/api/admin/audit?limit=60', undefined, A);
+    const acts2 = r.j.audit.map(a => a.action);
+    ok(['lead.create', 'lead.convert', 'lead_templates.save', 'lead_templates.reset'].every(a => acts2.includes(a)), 'pipeline writes are in the audit trail', acts2.slice(0, 20));
+  }
+
   /* ── deletion ── */
   r = await m2('POST', '/api/account/delete', { password: 'wrong' });
   ok(r.status === 401, 'deletion needs the password', r.status);

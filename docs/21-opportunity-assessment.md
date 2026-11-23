@@ -81,7 +81,7 @@ Effort: S (a day or less), M (two to four days), L (a week or more). Priority 1 
 | N-08 | Structured data on home, pricing and audience pages | Richer search results | S |
 | N-09 | Reply to feedback from the admin page, with saved replies | Closes the loop with members | S |
 | N-10 | Ask members who rate 4 or 5 for permission to quote them | Honest social proof | S |
-| N-11 | Lead pipeline: follow-up date, owner, reply templates, convert a mentor lead to an account | Fewer dropped leads | S to M |
+| N-11 | Lead pipeline: follow-up date, owner, reply templates, convert a mentor lead to an account. **Built 23 November 2026**, with sales stages, a value per lead and leads the team adds itself (docs/14, "Lead pipeline") | Fewer dropped leads | S to M |
 | N-12 | System panel in admin: last cron run, last backup, database size, mail quota, error rate | Problems seen before members report them | S to M |
 
 ### Already on the roadmap
