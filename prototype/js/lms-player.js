@@ -558,7 +558,8 @@
       idx = Math.max(0, Math.min(list.length - 1, k));
       var it = list[idx];
       v.pause();
-      v.poster = pick(it.poster) || ''; xo(v, pick(it.src)); v.src = pick(it.src); v.load();
+      /* no crossOrigin here: captions are fetched and drawn by the player, so the film itself plays without a cross-origin policy on the media host */
+      v.poster = pick(it.poster) || ''; v.src = pick(it.src); v.load();
       lastCue = null; fill.style.width = '0%'; knob.style.left = '0%'; buf.style.width = '0%';
       tl.innerHTML = '<i>' + (idx + 1) + '/' + list.length + '</i> ' + (it.title[lang()] || it.title.en);
       tl.setAttribute('data-en', '<i>' + (idx + 1) + '/' + list.length + '</i> ' + it.title.en);

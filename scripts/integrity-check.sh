@@ -123,6 +123,9 @@ if [ -n "$AICLAIMS" ]; then echo "$AICLAIMS" | cut -c1-220 | head -20; echo "   
 echo "── 16. home page: both languages complete, every key the page uses exists (scripts/check-home-i18n.js)"
 if ! node scripts/check-home-i18n.js; then FAIL=1; fi
 
+echo "── 17. lesson media still loads after the production build moves it to the media host (scripts/check-media-refs.py)"
+if ! python3 scripts/check-media-refs.py; then FAIL=1; fi
+
 echo "── 14. size budgets: pages and scripts under their limits (scripts/budgets.json)"
 if python3 scripts/check-budgets.py; then :; else echo "   ✗ a budget was exceeded"; FAIL=1; fi
 
