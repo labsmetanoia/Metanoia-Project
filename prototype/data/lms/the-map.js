@@ -55,22 +55,22 @@ window.MT_LMS['the-map'] = {
      "kind": "reading",
      "placeholder": false,
      "videosIntro": {
-      "en": "Three short scenes set the stage: a job that suddenly feels replaceable, a task with no obvious starting point, and a new role where nothing quite connects yet. Watch how each person adapts; then read on to turn what you saw into a method.",
-      "id": "Tiga adegan singkat membuka pelajaran ini: pekerjaan yang tiba-tiba terasa mudah digantikan, tugas yang tidak jelas harus dimulai dari mana, dan peran baru yang belum juga terasa klik. Perhatikan cara masing-masing orang menyesuaikan diri. Setelah itu, lanjutkan membaca untuk mengubah apa yang kamu lihat menjadi cara kerja yang bisa kamu pakai sendiri."
+      "en": "One short film opens the lesson: a Tuesday when two things go wrong for Laras, and what she does about each. Watch for the difference between changing her method and recovering her energy; then read on to make the method your own.",
+      "id": "Satu film singkat membuka pelajaran ini: suatu Selasa ketika dua hal berjalan buruk bagi Laras, dan apa yang ia lakukan terhadap masing-masing. Perhatikan beda antara mengubah cara dan memulihkan energi, lalu lanjutkan membaca untuk menjadikan caranya milikmu."
      },
      "videosOutro": {
       "title": {
-       "en": "Key Takeaways: Enjoy the Journey Ahead",
-       "id": "Poin Penting: Nikmati Perjalanan di Depan"
+       "en": "After the film",
+       "id": "Setelah film"
       },
       "body": [
        {
-        "en": "These three stories illustrate how skills such as adaptability and resilience, problem-solving, and communicating with impact can help individuals unlock the next step in their careers.",
-        "id": "Tiga cerita tadi menunjukkan bagaimana kemampuan beradaptasi dan bangkit, memecahkan masalah, dan berkomunikasi dengan berdampak bisa membuka langkah berikutnya dalam karier seseorang."
+        "en": "Laras met two different problems and answered each with a different skill: a new method for the new tool, and a recovery loop for the rejection.",
+        "id": "Laras menghadapi dua masalah yang berbeda dan menjawabnya dengan dua keterampilan yang berbeda: cara baru untuk aplikasi baru, dan putaran pemulihan untuk penolakan."
        },
        {
-        "en": "We hope these stories inspire you to reflect on the new skills you may need to develop for your current or desired role and prepare yourself for the opportunities ahead.",
-        "id": "Semoga cerita-cerita ini mengajakmu merenungkan keterampilan baru yang perlu kamu bangun untuk peranmu sekarang atau peran yang kamu incar, sekaligus menyiapkan dirimu untuk peluang yang menanti."
+        "en": "As you read on, keep one setback of your own in mind. You will run the same loop on it before this lesson ends.",
+        "id": "Sambil melanjutkan membaca, ingat satu kemunduranmu sendiri. Kamu akan menjalankan putaran yang sama sebelum pelajaran ini selesai."
        }
       ]
      },
@@ -153,42 +153,21 @@ window.MT_LMS['the-map'] = {
      },
      "videos": [
       {
-       "src": "../../assets/lms/the-map/adaptability-1-brand.mp4",
-       "poster": "../../assets/lms/the-map/adaptability-1-poster.jpg",
-       "dur": "1:33",
-       "title": {
-        "en": "When the ground shifts: learning skills that travel",
-        "id": "Saat pijakan bergeser: keterampilan yang bisa dibawa ke mana pun"
+       "src": {
+        "en": "../../assets/lms/films/map-1-1-two-muscles-en.mp4",
+        "id": "../../assets/lms/films/map-1-1-two-muscles-id.mp4"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/adaptability-1-en.vtt",
-        "id": "../../assets/lms/the-map/adaptability-1-id.vtt"
-       }
-      },
-      {
-       "src": "../../assets/lms/the-map/adaptability-2-brand.mp4",
-       "poster": "../../assets/lms/the-map/adaptability-2-poster.jpg",
-       "dur": "0:57",
-       "title": {
-        "en": "A problem with many moving pieces: asking for help early",
-        "id": "Masalah dengan banyak bagian yang bergerak: minta bantuan sejak awal"
+       "poster": {
+        "en": "../../assets/lms/films/map-1-1-two-muscles-en-poster.jpg",
+        "id": "../../assets/lms/films/map-1-1-two-muscles-id-poster.jpg"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/adaptability-2-en.vtt",
-        "id": "../../assets/lms/the-map/adaptability-2-id.vtt"
-       }
-      },
-      {
-       "src": "../../assets/lms/the-map/adaptability-3-brand.mp4",
-       "poster": "../../assets/lms/the-map/adaptability-3-poster.jpg",
-       "dur": "1:44",
-       "title": {
-        "en": "New role, new ground: feedback, connection and a clearer message",
-        "id": "Peran baru, medan baru: masukan, koneksi, dan pesan yang lebih jelas"
+       "dur": {
+        "en": "2:37",
+        "id": "2:26"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/adaptability-3-en.vtt",
-        "id": "../../assets/lms/the-map/adaptability-3-id.vtt"
+       "title": {
+        "en": "Two muscles: adaptability and resilience",
+        "id": "Dua otot: adaptabilitas dan ketangguhan"
        }
       }
      ],
@@ -424,67 +403,42 @@ window.MT_LMS['the-map'] = {
      ],
      "videosPlacement": "after-material",
      "videosIntro": {
-      "en": "Three short films take the slides further: why the mere act of setting an intention changes how you learn, when a learning intention should come before a performance goal, and what happens when an intention is tied to something that matters to you. Watch them in order, then test yourself in the knowledge check below.",
-      "id": "Tiga film singkat membawa isi slide lebih jauh: kenapa sekadar menetapkan niat sudah mengubah caramu belajar, kapan niat belajar sebaiknya datang lebih dulu daripada target kinerja, dan apa yang terjadi saat niat itu terhubung dengan hal yang penting bagimu. Tonton berurutan, lalu uji dirimu di cek pemahaman di bawah."
+      "en": "One short film takes the slides further: Dimas, a line he writes every January, and what changes when the sentence gets a result, a date, a time budget and a Sunday signal. Watch it, then test yourself in the knowledge check below.",
+      "id": "Satu film singkat membawa isi slide lebih jauh: Dimas, kalimat yang ia tulis setiap Januari, dan apa yang berubah ketika kalimat itu diberi hasil, tanggal, jatah waktu, dan tanda yang dicek tiap Minggu. Tonton, lalu uji dirimu di cek pemahaman di bawah."
      },
      "videosOutro": {
       "title": {
-       "en": "Key Takeaways: Intention before performance",
-       "id": "Poin Penting: Niat sebelum kinerja"
+       "en": "After the film",
+       "id": "Setelah film"
       },
       "body": [
        {
-        "en": "Setting an intention focuses limited attention on what you have decided matters; that is why the mere act of setting one improves learning.",
-        "id": "Menetapkan niat memusatkan perhatianmu yang terbatas pada hal yang sudah kamu putuskan penting. Itulah kenapa sekadar menetapkannya saja sudah membuat belajarmu lebih baik."
+        "en": "A working intention has four parts: a result you can count, a date, a weekly time budget you can defend, and one signal you check every Sunday.",
+        "id": "Niat yang bekerja punya empat bagian: hasil yang bisa dihitung, tanggal, jatah waktu mingguan yang bisa kamu jaga, dan satu tanda yang kamu cek setiap Minggu."
        },
        {
-        "en": "Early in a new skill, hold performance goals back: learn first, and perform when you feel excited to show what you can do.",
-        "id": "Di awal mempelajari keterampilan baru, tahan dulu target kinerja. Belajarlah lebih dulu, lalu tampil saat kamu sudah bersemangat menunjukkan kemampuanmu."
-       },
-       {
-        "en": "Intentions linked to personal meaning are the ones that survive difficult, long learning; Paula's repair list only came alive once it was about her team.",
-        "id": "Niat yang terhubung dengan makna pribadi adalah niat yang bertahan dalam proses belajar yang panjang dan sulit. Daftar perbaikan Paula baru terasa hidup setelah daftar itu menyangkut timnya."
+        "en": "Before you move on, write your own sentence for The Map. You will reuse it in every Metanoia product.",
+        "id": "Sebelum lanjut, tulis kalimatmu sendiri untuk The Map. Kamu akan memakainya lagi di setiap produk Metanoia."
        }
       ]
      },
      "videos": [
       {
-       "src": "../../assets/lms/the-map/learning-intention-1-brand.mp4",
-       "poster": "../../assets/lms/the-map/learning-intention-1-poster.jpg",
-       "dur": "2:19",
-       "title": {
-        "en": "Why set a learning intention at all?",
-        "id": "Kenapa perlu menetapkan niat belajar?"
+       "src": {
+        "en": "../../assets/lms/films/map-1-2-one-sentence-en.mp4",
+        "id": "../../assets/lms/films/map-1-2-one-sentence-id.mp4"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/learning-intention-1-en.vtt",
-        "id": "../../assets/lms/the-map/learning-intention-1-id.vtt"
-       }
-      },
-      {
-       "src": "../../assets/lms/the-map/learning-intention-2-brand.mp4",
-       "poster": "../../assets/lms/the-map/learning-intention-2-poster.jpg",
-       "dur": "2:36",
-       "title": {
-        "en": "Learning intention first, performance goal later",
-        "id": "Niat belajar dulu, target kinerja belakangan"
+       "poster": {
+        "en": "../../assets/lms/films/map-1-2-one-sentence-en-poster.jpg",
+        "id": "../../assets/lms/films/map-1-2-one-sentence-id-poster.jpg"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/learning-intention-2-en.vtt",
-        "id": "../../assets/lms/the-map/learning-intention-2-id.vtt"
-       }
-      },
-      {
-       "src": "../../assets/lms/the-map/learning-intention-3-brand.mp4",
-       "poster": "../../assets/lms/the-map/learning-intention-3-poster.jpg",
-       "dur": "2:45",
-       "title": {
-        "en": "Link it to meaning: Paula and the repair list",
-        "id": "Hubungkan dengan makna: Paula dan daftar perbaikan"
+       "dur": {
+        "en": "2:05",
+        "id": "2:06"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/learning-intention-3-en.vtt",
-        "id": "../../assets/lms/the-map/learning-intention-3-id.vtt"
+       "title": {
+        "en": "One sentence: setting a learning intention",
+        "id": "Satu kalimat: menetapkan niat belajar"
        }
       }
      ],
@@ -649,34 +603,26 @@ window.MT_LMS['the-map'] = {
      ],
      "videosPlacement": "after-material:2",
      "videosIntro": {
-      "en": "Two short films pick up where the slide left off: what mindsets are and where your default ones come from, then how to shift one (by priming, and with the Awareness–Pause–Reframe technique you will practise in the slides that follow).",
-      "id": "Dua film singkat melanjutkan isi slide tadi: apa itu pola pikir dan dari mana pola pikir bawaanmu berasal, lalu cara menggesernya (lewat priming, dan dengan teknik Awareness–Pause–Reframe yang akan kamu latih di slide berikutnya)."
+      "en": "One short film picks up where the slide left off: Nadia, a presentation that goes badly, and the two beliefs that decide what she does next. Watch it, then practise on your own self-talk in the slides that follow.",
+      "id": "Satu film singkat melanjutkan isi slide tadi: Nadia, presentasi yang berantakan, dan dua keyakinan yang menentukan langkahnya setelah itu. Tonton, lalu berlatihlah dengan omongan batinmu sendiri di slide berikutnya."
      },
      "videos": [
       {
-       "src": "../../assets/lms/the-map/mindset-101-1-brand.mp4",
-       "poster": "../../assets/lms/the-map/mindset-101-1-poster.jpg",
-       "dur": "3:04",
-       "title": {
-        "en": "What mindsets are, and where your defaults come from",
-        "id": "Apa itu pola pikir, dan dari mana pola pikir bawaanmu berasal"
+       "src": {
+        "en": "../../assets/lms/films/map-1-3-not-a-verdict-en.mp4",
+        "id": "../../assets/lms/films/map-1-3-not-a-verdict-id.mp4"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/mindset-101-1-en.vtt",
-        "id": "../../assets/lms/the-map/mindset-101-1-id.vtt"
-       }
-      },
-      {
-       "src": "../../assets/lms/the-map/mindset-101-2-brand.mp4",
-       "poster": "../../assets/lms/the-map/mindset-101-2-poster.jpg",
-       "dur": "1:32",
-       "title": {
-        "en": "Shifting a mindset: priming and the APR technique",
-        "id": "Menggeser pola pikir: priming dan teknik APR"
+       "poster": {
+        "en": "../../assets/lms/films/map-1-3-not-a-verdict-en-poster.jpg",
+        "id": "../../assets/lms/films/map-1-3-not-a-verdict-id-poster.jpg"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/mindset-101-2-en.vtt",
-        "id": "../../assets/lms/the-map/mindset-101-2-id.vtt"
+       "dur": {
+        "en": "1:58",
+        "id": "1:49"
+       },
+       "title": {
+        "en": "Not a verdict: the two beliefs under every skill",
+        "id": "Bukan vonis: dua keyakinan di balik setiap keterampilan"
        }
       }
      ],
@@ -950,22 +896,7 @@ window.MT_LMS['the-map'] = {
         "id": "Angkanya ditambatkan pada bukti, dan celahnya dipandang sebagai sesuatu yang bisa dibangun: bukan menjual diri, bukan pula menghukum diri."
        }
       }
-     ],
-     "youtube": {
-      "id": "vwt9tEcDRgA",
-      "kicker": {
-       "en": "Watch · Closing film",
-       "id": "Tonton · Film penutup"
-      },
-      "title": {
-       "en": "Foundational Mindset: closing film",
-       "id": "Pola Pikir Dasar: film penutup"
-      },
-      "intro": {
-       "en": "A film to consolidate the module before you test yourself. Play it here, with English or Bahasa Indonesia subtitles where YouTube provides them, then continue to the knowledge check below.",
-       "id": "Satu film untuk merangkum modul ini sebelum kamu menguji diri. Putar di sini, dengan teks bahasa Inggris atau Bahasa Indonesia kalau YouTube menyediakannya, lalu lanjutkan ke cek pemahaman di bawah."
-      }
-     }
+     ]
     }
    ],
    "hero": "../../assets/bg/ch1-realization.jpg",
