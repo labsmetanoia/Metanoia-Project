@@ -1595,8 +1595,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Tantangan Komunikasi yang Umum Terjadi"
     },
     "sub": {
-     "en": "The EPIC approach; the five communication challenges and the curse of knowledge; empathy, the “over there” mindset and active listening at MODA.",
-     "id": "Pendekatan EPIC; lima tantangan komunikasi dan kutukan pengetahuan; empati, pola pikir \"di sana\", dan mendengarkan secara aktif di MODA."
+     "en": "The audience owns the meaning; the five challenges and the curse of knowledge; checking what landed.",
+     "id": "Makna ada di tangan audiens; lima tantangan dan kutukan pengetahuan; mengecek apa yang sampai."
     }
    },
    {
@@ -1606,8 +1606,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Teori Inti Komunikasi"
     },
     "sub": {
-     "en": "Purpose in three parts; setting a shared agenda with Noah; insights and MECE groupings; audience-first design, the pyramid and altitude control.",
-     "id": "Purpose dalam tiga bagian; menyusun agenda bersama Noah; insight dan pengelompokan MECE; merancang dari sisi audiens, piramida, dan kendali ketinggian."
+     "en": "Audience-first design; answer first; information versus insight; altitude control and the loop.",
+     "id": "Merancang dari sisi audiens; jawaban dulu; informasi lawan wawasan; kendali ketinggian dan putaran pengecekan."
     }
    },
    {
@@ -1617,8 +1617,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Studi Kasus Komunikasi Terapan"
     },
     "sub": {
-     "en": "Data, information and insight; the Pyramid Principle, governing thought, key lines, grouped facts; synthesis versus summary; storylines; the video call.",
-     "id": "Data, informasi, dan insight; Prinsip Piramida, gagasan utama, garis kunci, fakta yang dikelompokkan; sintesis lawan ringkasan; alur cerita; panggilan video."
+     "en": "The cold email; the interruption; disagreeing upward; reasons that do not overlap; the same facts for another reader.",
+     "id": "Email perkenalan; interupsi; tidak setuju kepada atasan; alasan yang tidak tumpang tindih; fakta yang sama untuk pembaca lain."
     }
    },
    {
@@ -1628,8 +1628,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Unsur-Unsur Gaya Presentasi"
     },
     "sub": {
-     "en": "Three elements of style (presence, vocal emphasis, emotional connection); grounding; delivering remotely; Merced’s TED talk; facilitation and open–narrow–close.",
-     "id": "Tiga unsur gaya (kehadiran, penekanan suara, ikatan emosional); memantapkan diri; menyampaikan dari jarak jauh; TED talk Merced; fasilitasi dan open–narrow–close."
+     "en": "Three elements of style (presence, vocal emphasis, emotional connection); grounding; matching the room, including a video call.",
+     "id": "Tiga unsur gaya (kehadiran, penekanan suara, ikatan emosional); memantapkan diri; menyesuaikan dengan ruangan, termasuk panggilan video."
     }
    }
   ],
@@ -1638,93 +1638,62 @@ window.MT_ASSESS['the-map'] = {
     "type": "know",
     "lesson": "4.1",
     "q": {
-     "en": "In the EPIC approach, what do the four letters stand for?",
-     "id": "Dalam pendekatan EPIC, apa kepanjangan keempat hurufnya?"
+     "en": "A reader understood something different from what you meant. According to this module, what did you communicate?",
+     "id": "Seorang pembaca memahami hal yang berbeda dari maksudmu. Menurut modul ini, apa yang kamu sampaikan?"
     },
     "opts": [
      {
-      "en": "Engage, Plan, Inform, Close",
-      "id": "Engage, Plan, Inform, Close"
+      "en": "What you meant. The reader misread it",
+      "id": "Apa yang kamu maksud. Pembacanya yang salah baca"
      },
      {
-      "en": "Empathy, Purpose, Insight, Conversation",
-      "id": "Empathy, Purpose, Insight, Conversation"
+      "en": "Nothing, until both of you agree on the meaning",
+      "id": "Tidak ada, sampai kalian berdua sepakat soal maknanya"
      },
      {
-      "en": "Energy, Presence, Impact, Clarity",
-      "id": "Energy, Presence, Impact, Clarity"
+      "en": "What they understood. The audience owns the meaning",
+      "id": "Apa yang mereka pahami. Makna ada di tangan audiens"
      },
      {
-      "en": "Explain, Persuade, Influence, Conclude",
-      "id": "Explain, Persuade, Influence, Conclude"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Empathy: put yourself in the other person’s shoes; Purpose: define it to include their needs and yours; Insight: articulate your ideas clearly and compellingly; Conversation: plan and orchestrate a two-way exchange. Four questions to answer before any meeting, presentation or one-to-one.",
-     "id": "Empathy: tempatkan dirimu di posisi orang lain; Purpose: tentukan tujuan yang mencakup kebutuhan mereka dan kebutuhanmu; Insight: sampaikan idemu dengan jelas dan meyakinkan; Conversation: rencanakan dan atur pertukaran dua arah. Empat pertanyaan yang perlu dijawab sebelum rapat, presentasi, atau obrolan empat mata apa pun."
-    }
-   },
-   {
-    "type": "scen",
-    "lesson": "4.1",
-    "q": {
-     "en": "At 6 p.m. MODA’s CEO, Kobi, tells Aaliyah that senior leaders are calling the transformation “Disaster 2.0” and “clearly have their own agendas”. Which reply demonstrates empathy?",
-     "id": "Pukul 6 sore, CEO MODA, Kobi, memberi tahu Aaliyah bahwa para pemimpin senior menyebut transformasi ini \"Bencana 2.0\" dan \"jelas punya agenda sendiri-sendiri\". Jawaban mana yang menunjukkan empati?"
-    },
-    "opts": [
-     {
-      "en": "“I understand. How about we be more transparent about the data? The data speaks for itself.”",
-      "id": "\"Saya mengerti. Bagaimana kalau kita lebih terbuka soal datanya? Datanya akan berbicara sendiri.\""
-     },
-     {
-      "en": "“I understand. I’ll send company-wide email updates regularly, which I’m sure will address this.”",
-      "id": "\"Saya mengerti. Saya akan rutin mengirim email kabar terbaru ke seluruh perusahaan, dan saya yakin itu akan menyelesaikan masalah ini.\""
-     },
-     {
-      "en": "“I understand. Why do you think they have their own agendas? Can you tell me more?”",
-      "id": "\"Saya mengerti. Menurut Bapak, kenapa mereka punya agenda sendiri? Bisa Bapak ceritakan lebih jauh?\""
-     },
-     {
-      "en": "“With respect, they are wrong; the plan is based on real data.”",
-      "id": "\"Maaf, Pak, mereka keliru; rencana ini disusun berdasarkan data nyata.\""
+      "en": "Whatever the longest paragraph said",
+      "id": "Apa pun isi paragraf yang paling panjang"
      }
     ],
     "correct": 2,
     "expl": {
-     "en": "The open question acknowledges Kobi’s concern, shows genuine interest in his perspective and uncovers the underlying issues before proposing anything. The other replies jump to a fix that answers Aaliyah’s own worry, not Kobi’s situation.",
-     "id": "Pertanyaan terbuka itu mengakui kekhawatiran Kobi, menunjukkan minat yang tulus pada sudut pandangnya, dan menggali masalah yang mendasarinya sebelum mengusulkan apa pun. Jawaban lainnya langsung melompat ke solusi yang menjawab kekhawatiran Aaliyah sendiri, bukan situasi Kobi."
+     "en": "What they understood is what you communicated, whatever you intended. That is why most failures are design failures: they happen before anyone speaks, when the message is built around the writer and not the reader.",
+     "id": "Yang mereka pahami, itulah yang kamu sampaikan, apa pun niatmu. Karena itu sebagian besar kegagalan adalah kegagalan rancangan: terjadinya sebelum siapa pun bicara, saat pesan dibangun di sekitar penulisnya, bukan pembacanya."
     }
    },
    {
     "type": "scen",
     "lesson": "4.1",
     "q": {
-     "en": "Maryam tells Noah the expanded scope “may be doable, but it will really push the team”, and that she has been left out of key meetings before. How should Noah respond?",
-     "id": "Maryam bilang kepada Noah bahwa cakupan yang diperluas itu \"mungkin bisa dikerjakan, tapi akan sangat membebani tim\", dan bahwa sebelumnya ia pernah tidak dilibatkan dalam rapat-rapat penting. Bagaimana sebaiknya Noah menanggapi?"
+     "en": "Dina knows her thesis method better than anyone in her class. She explains it to a friend from another faculty, who is lost within a minute. What is the likely cause, and the fix?",
+     "id": "Dina menguasai metode skripsinya lebih baik daripada siapa pun di kelasnya. Ia menjelaskannya kepada teman dari fakultas lain, yang sudah bingung dalam semenit. Apa penyebab yang paling mungkin, dan perbaikannya?"
     },
     "opts": [
      {
-      "en": "“That sounds frustrating, but you got through it and learned valuable lessons, no? Keep at it, you’re doing great.”",
-      "id": "\"Kedengarannya menjengkelkan, tapi kamu berhasil melewatinya dan dapat pelajaran berharga, kan? Terus semangat, kerjamu bagus.\""
+      "en": "The curse of knowledge: she skips steps she no longer notices. Start from what the friend knows and add one step at a time",
+      "id": "Kutukan pengetahuan: ia melompati langkah yang tak lagi ia sadari. Mulai dari yang diketahui temannya, lalu tambah satu langkah setiap kali"
      },
      {
-      "en": "“Thanks for sharing how you’ve been feeling. Let’s talk through the timeline to make it manageable, and I’ll make sure you and your team are part of the discussions with the department heads from now on.”",
-      "id": "\"Terima kasih sudah cerita soal perasaanmu. Ayo kita bahas jadwalnya supaya lebih masuk akal, dan mulai sekarang aku akan pastikan kamu dan timmu ikut dalam diskusi dengan para kepala departemen.\""
+      "en": "The friend is not the right listener. She should explain it to a classmate",
+      "id": "Temannya bukan pendengar yang tepat. Sebaiknya ia menjelaskan kepada teman sekelas"
      },
      {
-      "en": "“Sounds great, I knew you could handle it. Reach out if the timeline becomes a problem.”",
-      "id": "\"Bagus, aku tahu kamu pasti bisa. Kabari aku kalau jadwalnya jadi masalah.\""
+      "en": "She speaks too fast. She should repeat the same explanation more slowly",
+      "id": "Ia bicara terlalu cepat. Sebaiknya ia mengulang penjelasan yang sama dengan lebih pelan"
      },
      {
-      "en": "“The scope is decided; let’s focus on delivery.”",
-      "id": "\"Cakupannya sudah diputuskan; ayo fokus menyelesaikannya.\""
+      "en": "The method is too hard. She should leave it out and show only the results",
+      "id": "Metodenya terlalu sulit. Sebaiknya dilewati dan cukup tunjukkan hasilnya"
      }
     ],
-    "correct": 1,
+    "correct": 0,
     "expl": {
-     "en": "Empathy is acknowledging the feeling and the workload, then acting on what you heard (a manageable timeline and a seat at future decisions). Praise that skips the concern, or a reassurance that leaves the burden with her, closes the door the conversation had just opened.",
-     "id": "Empati berarti mengakui perasaan dan beban kerjanya, lalu bertindak berdasarkan apa yang kamu dengar (jadwal yang masuk akal dan kursi dalam keputusan berikutnya). Pujian yang melewatkan kekhawatirannya, atau penghiburan yang tetap meninggalkan bebannya pada Maryam, menutup pintu yang baru saja dibuka oleh percakapan itu."
+     "en": "The curse of knowledge grows as you improve: the more you know, the more compressed your own picture becomes, and the more steps you skip. The cure is not dumbing down. It is rebuilding the staircase: what did I know right before I understood this, and before that?",
+     "id": "Kutukan pengetahuan justru membesar saat kamu makin mahir: makin banyak yang kamu tahu, makin padat gambaran di kepalamu, dan makin banyak langkah yang kamu lompati. Obatnya bukan menyederhanakan berlebihan, melainkan membangun kembali tangganya: apa yang kuketahui tepat sebelum aku paham, dan sebelum itu?"
     }
    },
    {
@@ -1759,282 +1728,313 @@ window.MT_ASSESS['the-map'] = {
     }
    },
    {
-    "type": "know",
-    "lesson": "4.2",
-    "q": {
-     "en": "Kate defines purpose in three parts. Which three?",
-     "id": "Kate mendefinisikan purpose dalam tiga bagian. Apa saja?"
-    },
-    "opts": [
-     {
-      "en": "The agenda, the time slot, and the attendee list",
-      "id": "Agenda, slot waktu, dan daftar peserta"
-     },
-     {
-      "en": "Given how the other person feels and thinks about the topic, what is realistically achievable in this interaction; what are your goals; and what are theirs",
-      "id": "Dengan melihat perasaan dan pikiran orang lain tentang topiknya, apa yang realistis bisa dicapai dalam interaksi ini; apa tujuanmu; dan apa tujuan mereka"
-     },
-     {
-      "en": "What you want to say, how you will say it, and how long it will take",
-      "id": "Apa yang ingin kamu katakan, bagaimana kamu akan mengatakannya, dan berapa lama waktunya"
-     },
-     {
-      "en": "The problem, the data, and the recommendation",
-      "id": "Masalahnya, datanya, dan rekomendasinya"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Purpose is what you want out of the interaction and what the other person wants. Define both, or you are transmitting, not communicating. Empathy from the previous step feeds the first question, and a shared purpose makes the meeting a two-way dialogue.",
-     "id": "Purpose adalah apa yang ingin kamu dapat dari interaksi dan apa yang ingin didapat orang lain. Tentukan keduanya. Kalau tidak, kamu hanya menyampaikan, bukan berkomunikasi. Empati dari langkah sebelumnya menjadi bahan untuk pertanyaan pertama, dan tujuan bersama membuat rapat menjadi dialog dua arah."
-    }
-   },
-   {
     "type": "scen",
-    "lesson": "4.2",
+    "lesson": "4.1",
     "q": {
-     "en": "Aaliyah is drafting the kick-off agenda and wants Noah’s input. Which opening best sets a shared purpose?",
-     "id": "Aaliyah sedang menyusun agenda rapat perdana dan ingin mendapat masukan Noah. Pembuka mana yang paling baik untuk menetapkan tujuan bersama?"
+     "en": "After a ten-minute handover, Hendra asks “Any questions?” and gets silence. A week later the task has been done wrong. What would have shown him what landed?",
+     "id": "Setelah serah terima sepuluh menit, Hendra bertanya “Ada pertanyaan?” dan semua diam. Seminggu kemudian tugasnya dikerjakan dengan keliru. Apa yang seharusnya bisa menunjukkan kepadanya apa yang sampai?"
     },
     "opts": [
      {
-      "en": "“I’ve made sure to include plenty of time on major deliverables since I know that’s important to Digital. Does that work for you?”",
-      "id": "\"Aku sudah menyediakan banyak waktu untuk hasil kerja utama karena aku tahu itu penting bagi Digital. Cocok buatmu?\""
+      "en": "Sending the same explanation again by email, in more detail",
+      "id": "Mengirim ulang penjelasan yang sama lewat email, dengan lebih rinci"
      },
      {
-      "en": "“I want to make sure I prioritise what’s important to Digital. Does this agenda look right to you?”",
-      "id": "\"Aku ingin memastikan aku memprioritaskan hal yang penting bagi Digital. Menurutmu agenda ini sudah pas?\""
+      "en": "Asking “Is that clear?” in a firmer voice",
+      "id": "Bertanya “Sudah jelas?” dengan suara lebih tegas"
      },
      {
-      "en": "“I want to make sure I include topics that may be important to Digital. What do you think about the agenda?”",
-      "id": "\"Aku ingin memastikan topik yang mungkin penting bagi Digital ikut masuk. Bagaimana pendapatmu soal agendanya?\""
+      "en": "Nothing. Silence means the handover was understood",
+      "id": "Tidak ada. Diam berarti serah terimanya dipahami"
      },
      {
-      "en": "“Here is the agenda; let me know if there’s a problem.”",
-      "id": "\"Ini agendanya; kabari aku kalau ada masalah.\""
+      "en": "Asking for a playback: “What will you do first, and what will you send me on Friday?”",
+      "id": "Meminta diulangi: “Apa yang kamu kerjakan lebih dulu, dan apa yang kamu kirim ke saya hari Jumat?”"
      }
     ],
-    "correct": 2,
+    "correct": 3,
     "expl": {
-     "en": "The open question invites Noah’s needs into the purpose instead of presuming them or asking for a yes. Noah then moves the deliverables before the working model, input Aaliyah could only get by asking.",
-     "id": "Pertanyaan terbuka itu mengajak kebutuhan Noah masuk ke dalam tujuan, alih-alih menebaknya atau sekadar meminta jawaban ya. Noah lalu memindahkan hasil kerja utama ke depan model kerja, masukan yang hanya bisa didapat Aaliyah dengan bertanya."
-    }
-   },
-   {
-    "type": "scen",
-    "lesson": "4.2",
-    "q": {
-     "en": "Noah asks to refocus the whole kick-off on Digital’s reorganisation problems (unfilled roles, unclear responsibilities). Aaliyah’s purpose for the meeting is to build the team. What should she do?",
-     "id": "Noah meminta seluruh rapat perdana dialihkan untuk membahas masalah reorganisasi Digital (posisi yang masih kosong, tanggung jawab yang tidak jelas). Tujuan Aaliyah untuk rapat itu adalah membangun tim. Apa yang sebaiknya ia lakukan?"
-    },
-    "opts": [
-     {
-      "en": "Agree: the loudest concern sets the agenda",
-      "id": "Setuju: kekhawatiran yang paling keras menentukan agenda"
-     },
-     {
-      "en": "Refuse to discuss anything that could derail the meeting",
-      "id": "Menolak membahas apa pun yang bisa membuat rapat keluar jalur"
-     },
-     {
-      "en": "Keep the main purpose, acknowledge the issues so people feel heard (a short “key concerns” slot), and plan a follow-up to work on them properly",
-      "id": "Pertahankan tujuan utamanya, akui masalah-masalah itu supaya orang merasa didengar (slot singkat untuk \"kekhawatiran utama\"), dan rencanakan rapat lanjutan untuk membahasnya dengan serius"
-     },
-     {
-      "en": "Cancel the kick-off until the reorganisation is resolved",
-      "id": "Batalkan rapat perdana sampai reorganisasinya beres"
-     }
-    ],
-    "correct": 2,
-    "expl": {
-     "en": "A purpose that fits the time: five things in thirty minutes is a wish list. Acknowledge the concerns, keep the meeting on its objective with a clear structure and time allocation, and give the remaining topics their own meeting; Noah himself agrees they will not be solved in one session.",
-     "id": "Tujuan harus sesuai dengan waktunya: lima hal dalam tiga puluh menit hanyalah daftar keinginan. Akui kekhawatirannya, jaga rapat tetap pada sasarannya dengan struktur dan pembagian waktu yang jelas, dan beri topik yang tersisa rapatnya sendiri; Noah sendiri setuju masalah itu tidak akan selesai dalam satu pertemuan."
-    }
-   },
-   {
-    "type": "scen",
-    "lesson": "4.2",
-    "q": {
-     "en": "Maryam has three facts left: (1) about 60% of potential customers abandon the loyalty sign-up because it looks too long; (2) staff spend 40% of their time on inventory counts; (3) competitors with a more structured sign-up have higher satisfaction. Which does not belong in the same group?",
-     "id": "Maryam masih punya tiga fakta: (1) sekitar 60% calon pelanggan batal mendaftar program loyalitas karena prosesnya terlihat terlalu lama; (2) staf menghabiskan 40% waktunya untuk menghitung stok; (3) pesaing dengan proses pendaftaran yang lebih terstruktur punya kepuasan pelanggan yang lebih tinggi. Mana yang tidak masuk ke kelompok yang sama?"
-    },
-    "opts": [
-     {
-      "en": "Fact (1)",
-      "id": "Fakta (1)"
-     },
-     {
-      "en": "Fact (2)",
-      "id": "Fakta (2)"
-     },
-     {
-      "en": "Fact (3)",
-      "id": "Fakta (3)"
-     },
-     {
-      "en": "They all belong together",
-      "id": "Semuanya masuk ke kelompok yang sama"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Two of the three describe the loyalty sign-up process; the second is about staff activities that pull attention away from customer service. Groupings must be mutually exclusive and collectively exhaustive before a key line can be written for each.",
-     "id": "Dua dari tiga fakta menggambarkan proses pendaftaran program loyalitas; fakta kedua membahas kegiatan staf yang menarik perhatian mereka dari pelayanan pelanggan. Pengelompokan harus saling lepas dan lengkap menyeluruh sebelum garis kunci bisa ditulis untuk setiap kelompok."
+     "en": "The monologue habit treats communication as sending. Silence after “Any questions?” proves nothing. A playback question makes the listener say what they understood, and that is the only evidence of what landed.",
+     "id": "Kebiasaan bermonolog menganggap komunikasi sebagai mengirim. Diam setelah “Ada pertanyaan?” tidak membuktikan apa pun. Meminta lawan bicara mengulangi membuat mereka menyebutkan apa yang mereka pahami, dan hanya itulah bukti tentang apa yang sampai."
     }
    },
    {
     "type": "know",
-    "lesson": "4.3",
+    "lesson": "4.2",
     "q": {
-     "en": "Which of these is an insight rather than data or information?",
-     "id": "Mana yang merupakan insight, bukan data atau informasi?"
+     "en": "Before you write anything, which three questions does audience-first design ask?",
+     "id": "Sebelum menulis apa pun, tiga pertanyaan apa yang diajukan saat merancang dari sisi audiens?"
     },
     "opts": [
      {
-      "en": "Store visits: 1,250; online sales: 320",
-      "id": "Kunjungan toko: 1.250; penjualan online: 320"
+      "en": "What did I do, in what order, and how long did it take?",
+      "id": "Apa yang kukerjakan, dengan urutan apa, dan berapa lama?"
      },
      {
-      "en": "A chart of monthly store visits, January to May",
-      "id": "Grafik kunjungan toko bulanan, Januari sampai Mei"
+      "en": "Who is this for, what must they decide, and what do they already know?",
+      "id": "Untuk siapa ini, apa yang harus mereka putuskan, dan apa yang sudah mereka tahu?"
      },
      {
-      "en": "A customer journey map revealing new and unexpected pain points to address",
-      "id": "Peta perjalanan pelanggan yang mengungkap titik masalah baru dan tak terduga yang perlu ditangani"
+      "en": "What is my opinion, how strongly do I hold it, and who agrees with me?",
+      "id": "Apa pendapatku, seberapa kuat aku meyakininya, dan siapa yang setuju?"
      },
      {
-      "en": "The workplan and its current status",
-      "id": "Rencana kerja dan status terkininya"
+      "en": "Which template, how many slides, and which font?",
+      "id": "Templat yang mana, berapa slide, dan huruf apa?"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Every message exists to move a specific reader toward a decision, so you design backwards from that reader. A message built this way is usually much shorter than the chronological draft, and it lands more often.",
+     "id": "Setiap pesan ada untuk menggerakkan pembaca tertentu menuju keputusan, maka kamu merancangnya mundur dari pembaca itu. Pesan yang dibangun seperti ini biasanya jauh lebih pendek daripada draf yang kronologis, dan lebih sering sampai."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.2",
+    "q": {
+     "en": "Yusuf must tell his manager that the launch should move by one week. Which opening follows the answer-first structure?",
+     "id": "Yusuf harus memberi tahu manajernya bahwa peluncuran sebaiknya diundur satu minggu. Pembuka mana yang mengikuti struktur jawaban dulu?"
+    },
+    "opts": [
+     {
+      "en": "“On Monday we started payment testing. By Wednesday we had run forty cases. On Thursday two of them failed…”",
+      "id": "“Hari Senin kami mulai menguji pembayaran. Sampai Rabu sudah empat puluh kasus dijalankan. Hari Kamis dua di antaranya gagal…”"
+     },
+     {
+      "en": "“I am sorry to bring bad news, and I know the timing is difficult, but there is something we should discuss.”",
+      "id": "“Mohon maaf membawa kabar kurang baik, dan saya tahu waktunya sulit, tapi ada yang perlu kita bicarakan.”"
+     },
+     {
+      "en": "“I recommend we delay the launch by one week. Payment testing found two critical bugs, and the fix needs four days plus retesting.”",
+      "id": "“Saya usul peluncuran diundur satu minggu. Pengujian pembayaran menemukan dua bug kritis, dan perbaikannya butuh empat hari ditambah uji ulang.”"
+     },
+     {
+      "en": "“Attached are the test logs, the bug list and the revised plan for your review.”",
+      "id": "“Terlampir log pengujian, daftar bug, dan rencana yang direvisi untuk Bapak tinjau.”"
      }
     ],
     "correct": 2,
     "expl": {
-     "en": "Data is raw; information is prepared data with context; an insight is relevant to the audience and not obvious. It takes reflection and a “so what”, and earns its way into the shared fact base. A workplan is neither.",
-     "id": "Data itu mentah; informasi adalah data yang sudah diolah dan diberi konteks; insight relevan bagi audiens dan tidak terlihat sekilas. Insight butuh perenungan dan \"lalu kenapa\", dan layak masuk ke basis fakta bersama. Rencana kerja bukan keduanya."
+     "en": "Line one is the answer, the next lines are the two or three reasons, and the evidence waits underneath for readers who want it. Everyone reads line one, so that is where the recommendation goes.",
+     "id": "Baris pertama adalah jawabannya, baris berikutnya dua atau tiga alasan, dan buktinya menunggu di bawah bagi pembaca yang menginginkannya. Semua orang membaca baris pertama, maka di situlah rekomendasinya ditaruh."
     }
    },
    {
     "type": "scen",
-    "lesson": "4.3",
+    "lesson": "4.2",
     "q": {
-     "en": "Maryam pours out a week of findings on the top three ideas in one go. Noah cuts in: “Have we answered why these are the best ideas to pursue?” How should she restructure for the meeting with Aaliyah?",
-     "id": "Maryam menumpahkan temuan seminggu tentang tiga ide teratas sekaligus. Noah memotong: \"Apakah kita sudah menjawab kenapa ide-ide ini yang terbaik untuk dijalankan?\" Bagaimana sebaiknya Maryam menyusun ulang untuk rapat dengan Aaliyah?"
+     "en": "Which sentence is an insight rather than information?",
+     "id": "Kalimat mana yang merupakan wawasan, bukan sekadar informasi?"
     },
     "opts": [
      {
-      "en": "Present the findings chronologically so nothing is lost",
-      "id": "Sampaikan temuannya sesuai urutan waktu supaya tidak ada yang hilang"
+      "en": "“We shipped 96 orders in the last eight weeks.”",
+      "id": "“Kami mengirim 96 pesanan dalam delapan pekan terakhir.”"
      },
      {
-      "en": "Lead with the governing thought (the answer), then the key lines that answer the “why?” or “how?” it raises, each supported by grouped facts and their “so what”",
-      "id": "Buka dengan gagasan utama (jawabannya), lalu garis kunci yang menjawab \"kenapa?\" atau \"bagaimana?\" yang muncul darinya, masing-masing didukung fakta yang dikelompokkan beserta \"lalu kenapa\"-nya"
+      "en": "“23 of the 96 deliveries arrived late.”",
+      "id": "“23 dari 96 pengiriman itu terlambat.”"
      },
      {
-      "en": "Send the raw data in advance and let Aaliyah decide",
-      "id": "Kirim data mentahnya lebih dulu dan biarkan Aaliyah yang memutuskan"
+      "en": "“The delivery data is in the attached spreadsheet.”",
+      "id": "“Data pengirimannya ada di lembar kerja terlampir.”"
      },
      {
-      "en": "Open with the vendor deal because it is the most exciting",
-      "id": "Buka dengan kesepakatan vendor karena itu yang paling menarik"
+      "en": "“One delivery in four is late, and all of them are on two routes, so the courier is the problem, not our warehouse.”",
+      "id": "“Satu dari empat pengiriman terlambat, dan semuanya di dua rute, jadi masalahnya di kurir, bukan di gudang kita.”"
      }
     ],
-    "correct": 1,
+    "correct": 3,
     "expl": {
-     "en": "All the right pieces are not yet a message. Say it top-down, build it bottom-up: group what you collected, find the themes, name the “so what” of each, and put the answer at the top; two minutes is the budget before you lose the room.",
-     "id": "Semua kepingan yang tepat belum otomatis menjadi pesan. Sampaikan dari atas, bangun dari bawah: kelompokkan apa yang sudah dikumpulkan, temukan temanya, sebutkan \"lalu kenapa\" dari setiap tema, dan taruh jawabannya di puncak. Jatahmu dua menit sebelum perhatian ruangan hilang."
+     "en": "Information says what happened. An insight says what it means for the decision. Ask “so what?” of every number until the answer changes what the reader does.",
+     "id": "Informasi menyebut apa yang terjadi. Wawasan menyebut apa artinya bagi keputusan. Tanyakan “lalu kenapa?” pada setiap angka sampai jawabannya mengubah apa yang dilakukan pembaca."
     }
    },
    {
     "type": "scen",
-    "lesson": "4.3",
+    "lesson": "4.2",
     "q": {
-     "en": "The People team’s pyramid for an in-house yoga studio has a group of facts: waiting time will be minimal because the studio serves only MODA colleagues; in-house classes eliminate travel time to external classes. Which key line statement synthesises the group?",
-     "id": "Piramida tim People untuk studio yoga internal punya satu kelompok fakta: waktu tunggu akan minim karena studio hanya melayani karyawan MODA; kelas di kantor menghapus waktu perjalanan ke kelas di luar. Pernyataan garis kunci mana yang menyintesis kelompok ini?"
+     "en": "In the middle of your update a director says: “Walk me through that number.” What is the right move, and how do you close it?",
+     "id": "Di tengah laporanmu, seorang direktur berkata: “Jelaskan angka itu.” Apa langkah yang tepat, dan bagaimana kamu menutupnya?"
     },
     "opts": [
      {
-      "en": "“Waiting time will be minimal and there is no travel time.”",
-      "id": "\"Waktu tunggunya minim dan tidak ada waktu perjalanan.\""
+      "en": "Go to the ground: show how the number was calculated, then ask “Does that cover what you needed?”",
+      "id": "Turun ke darat: tunjukkan cara angka itu dihitung, lalu tanyakan “Apakah itu sudah mencakup yang Bapak butuhkan?”"
      },
      {
-      "en": "“An onsite studio will save time and make MODA’s people more efficient.”",
-      "id": "\"Studio di kantor akan menghemat waktu dan membuat orang-orang MODA lebih efisien.\""
+      "en": "Repeat your one-sentence summary, more slowly",
+      "id": "Mengulang ringkasan satu kalimatmu dengan lebih pelan"
      },
      {
-      "en": "“Yoga is good for you.”",
-      "id": "\"Yoga itu baik untukmu.\""
+      "en": "Promise to send the spreadsheet later and move to the next point",
+      "id": "Berjanji mengirim lembar kerjanya nanti, lalu pindah ke poin berikutnya"
      },
      {
-      "en": "“We should build a studio.”",
-      "id": "\"Kita sebaiknya membangun studio.\""
+      "en": "Say that the team has already checked the number carefully",
+      "id": "Mengatakan bahwa tim sudah memeriksa angka itu dengan teliti"
      }
     ],
-    "correct": 1,
+    "correct": 0,
     "expl": {
-     "en": "A key line is a synthesis, not a summary: the “so what” the facts create together. The first option restates the facts; the third is not supported by them; the fourth is the governing thought, not this group’s key line.",
-     "id": "Garis kunci adalah sintesis, bukan ringkasan: \"lalu kenapa\" yang lahir dari fakta-fakta itu bersama-sama. Pilihan pertama hanya mengulang faktanya; yang ketiga tidak didukung oleh fakta-fakta itu; yang keempat adalah gagasan utama, bukan garis kunci kelompok ini."
+     "en": "“Walk me through that number” is a request to descend. Skilled communicators move between three altitudes on request, and then close the loop with the cheapest quality check there is: did that answer it?",
+     "id": "“Jelaskan angka itu” adalah permintaan untuk turun. Komunikator yang terampil berpindah di antara tiga ketinggian sesuai permintaan, lalu menutup putarannya dengan pengecekan mutu yang paling murah: apakah itu sudah menjawab?"
     }
    },
    {
-    "type": "scen",
+    "type": "know",
     "lesson": "4.3",
     "q": {
-     "en": "Noah has five minutes with Aaliyah before their real meeting and needs an elevator pitch. Which storyline structure should he use?",
-     "id": "Noah punya lima menit bersama Aaliyah sebelum rapat yang sebenarnya dan butuh elevator pitch. Struktur alur cerita mana yang sebaiknya ia pakai?"
+     "en": "What most raises the chance that a cold email is answered?",
+     "id": "Apa yang paling menaikkan peluang sebuah email perkenalan dibalas?"
     },
     "opts": [
      {
-      "en": "Governing thought, context, conclusion",
-      "id": "Gagasan utama, konteks, penutup"
+      "en": "A long introduction, so the receiver knows who you are",
+      "id": "Perkenalan diri yang panjang, supaya penerimanya tahu siapa kamu"
      },
      {
-      "en": "Context, governing thought, conclusion",
-      "id": "Konteks, gagasan utama, penutup"
+      "en": "Asking for “any advice”, so the receiver can choose what to share",
+      "id": "Meminta “saran apa saja”, supaya penerimanya bebas memilih"
      },
      {
-      "en": "Context, governing thought, supporting facts, conclusion",
-      "id": "Konteks, gagasan utama, fakta pendukung, penutup"
+      "en": "An ask that is small, specific and time-boxed, from a sender who did visible homework",
+      "id": "Permintaan yang kecil, spesifik, dan berbatas waktu, dari pengirim yang terlihat sudah mencari tahu"
      },
      {
-      "en": "Context, supporting facts, governing thought, conclusion",
-      "id": "Konteks, fakta pendukung, gagasan utama, penutup"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "A short encounter needs a succinct message with just enough context to understand the governing thought; Aaliyah wants the high-level answer to check the team is on track. Running through the supporting facts belongs in the full meeting.",
-     "id": "Pertemuan singkat butuh pesan yang padat dengan konteks secukupnya agar gagasan utamanya bisa dipahami; Aaliyah ingin mendengar jawaban garis besarnya untuk memastikan timnya berada di jalur yang benar. Membahas semua fakta pendukung adalah urusan rapat lengkapnya."
-    }
-   },
-   {
-    "type": "scen",
-    "lesson": "4.3",
-    "q": {
-     "en": "Jarrah built his storyline for the Budget Committee. Now he presents the same yoga-studio idea to his peers. What should change?",
-     "id": "Jarrah menyusun alur ceritanya untuk Komite Anggaran. Sekarang ia mempresentasikan ide studio yoga yang sama kepada rekan-rekan sejawatnya. Apa yang sebaiknya berubah?"
-    },
-    "opts": [
-     {
-      "en": "The facts: peers need different numbers",
-      "id": "Faktanya: rekan sejawat butuh angka yang berbeda"
-     },
-     {
-      "en": "Nothing: a good storyline works for any audience",
-      "id": "Tidak ada: alur cerita yang baik berlaku untuk audiens mana pun"
-     },
-     {
-      "en": "The opening and the emphasis: appeal to his peers’ values and their vision of the ideal MODA workplace, after fact-finding about what they actually care about",
-      "id": "Pembuka dan penekanannya: sentuh nilai-nilai rekan-rekannya dan gambaran mereka tentang tempat kerja MODA yang ideal, setelah menggali apa yang benar-benar mereka pedulikan"
-     },
-     {
-      "en": "Skip the storyline and tell a personal story instead",
-      "id": "Lewati alur ceritanya dan ceritakan kisah pribadi saja"
+      "en": "Marking the message as urgent",
+      "id": "Menandai pesannya sebagai mendesak"
      }
     ],
     "correct": 2,
     "expl": {
-     "en": "The facts stay the same; the storyline adapts to the audience. Storylining (the ordered key points and evidence) comes first; storytelling (how you hook and inspire) is the different art layered on top, and it needs empathy work beforehand.",
-     "id": "Faktanya tetap sama; alur ceritanya menyesuaikan audiens. Menyusun alur cerita (poin-poin kunci dan bukti yang berurutan) datang lebih dulu; bercerita (cara memikat dan menginspirasi) adalah seni lain yang ditambahkan di atasnya, dan seni itu butuh kerja empati lebih dulu."
+     "en": "A stranger owes you nothing, so make yes the easiest answer. Vague asks create work for the receiver. The first line has one job, which is to earn the second line.",
+     "id": "Orang yang tak mengenalmu tidak berutang apa pun, maka buatlah “ya” menjadi jawaban termudah. Permintaan yang samar membebani penerimanya. Baris pertama punya satu tugas, yaitu membuat baris kedua dibaca."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "Thirty seconds into Laila's update, her lead cuts in: “Wait. What's the bottom line?” What is the best response?",
+     "id": "Baru tiga puluh detik Laila memaparkan laporannya, atasannya memotong: “Sebentar. Intinya apa?” Apa tanggapan terbaik?"
+    },
+    "opts": [
+     {
+      "en": "Ask politely to finish the background first, because the context matters",
+      "id": "Meminta izin dengan sopan untuk menyelesaikan latar belakangnya dulu, karena konteksnya penting"
+     },
+     {
+      "en": "Stop, answer in one sentence, then offer the detail: “We are on track, with one risk. Shall I go into it?”",
+      "id": "Berhenti, jawab dalam satu kalimat, lalu tawarkan rinciannya: “Kita sesuai jadwal, dengan satu risiko. Perlu saya jelaskan?”"
+     },
+     {
+      "en": "Apologise and start again from the beginning, faster",
+      "id": "Meminta maaf lalu mengulang dari awal dengan lebih cepat"
+     },
+     {
+      "en": "Take it as a sign that the lead is annoyed, and cut the update short",
+      "id": "Menganggapnya tanda atasan kesal, lalu memendekkan laporannya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "An interruption is a request for a different altitude, not an attack. Treat it as navigation: climb to one sentence, then let the listener decide whether to go lower.",
+     "id": "Interupsi adalah permintaan untuk pindah ketinggian, bukan serangan. Perlakukan sebagai navigasi: naik ke satu kalimat, lalu biarkan pendengar memutuskan perlu turun atau tidak."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "Your lead wants to put the whole budget into one channel. Your data shows that it brought 3 of 40 sign-ups last quarter. Which reply follows the lesson?",
+     "id": "Atasanmu ingin menaruh seluruh anggaran di satu kanal. Datamu menunjukkan kanal itu menghasilkan 3 dari 40 pendaftar kuartal lalu. Jawaban mana yang sesuai pelajaran ini?"
+    },
+    "opts": [
+     {
+      "en": "“Last quarter this channel brought 3 of 40 sign-ups. Could we test it for two weeks before we commit? What am I missing?”",
+      "id": "“Kuartal lalu kanal ini menghasilkan 3 dari 40 pendaftar. Bisakah kita uji dua pekan dulu sebelum berkomitmen? Apa yang saya lewatkan?”"
+     },
+     {
+      "en": "“I think that plan is wrong.”",
+      "id": "“Menurut saya rencana itu salah.”"
+     },
+     {
+      "en": "Say nothing in the meeting, and raise it with a colleague afterwards",
+      "id": "Diam saja di rapat, lalu membicarakannya dengan rekan sesudahnya"
+     },
+     {
+      "en": "“Everyone on the team disagrees with this.”",
+      "id": "“Semua orang di tim tidak setuju dengan ini.”"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "Disagreement lands when it protects the decision, not your ego. Share the data, name an option, and ask a question you want answered. The word “wrong” defends you, not the decision.",
+     "id": "Ketidaksetujuan diterima saat ia melindungi keputusannya, bukan egomu. Bagikan datanya, tawarkan satu pilihan, dan ajukan pertanyaan yang sungguh ingin kamu ketahui jawabannya. Kata “salah” membelamu, bukan keputusannya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "Rina supports her recommendation with three reasons: it is cheaper, it saves money, and it costs less to run. What is the problem?",
+     "id": "Rina menopang rekomendasinya dengan tiga alasan: lebih murah, menghemat uang, dan biaya operasinya lebih kecil. Apa masalahnya?"
+    },
+    "opts": [
+     {
+      "en": "Three reasons are too many for one recommendation",
+      "id": "Tiga alasan terlalu banyak untuk satu rekomendasi"
+     },
+     {
+      "en": "The reasons should come before the recommendation",
+      "id": "Alasannya seharusnya muncul sebelum rekomendasi"
+     },
+     {
+      "en": "Nothing. Repetition makes the case stronger",
+      "id": "Tidak ada. Pengulangan membuat argumennya lebih kuat"
+     },
+     {
+      "en": "The three overlap: it is one reason said three times. Reasons should be distinct, for example cost, reliability and risk",
+      "id": "Ketiganya tumpang tindih: satu alasan diucapkan tiga kali. Alasan seharusnya berbeda, misalnya biaya, keandalan, dan risiko"
+     }
+    ],
+    "correct": 3,
+    "expl": {
+     "en": "Reasons persuade when each one is distinct and nothing important is missing. Test each reason: if you can remove it and lose nothing, it was a repeat.",
+     "id": "Alasan meyakinkan saat masing-masing berbeda dan tak ada hal penting yang tertinggal. Uji setiap alasan: kalau bisa dihapus tanpa kehilangan apa pun, berarti itu pengulangan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "Arif wrote his proposal for his manager and opened with the decision he needs. Now he presents the same proposal to the team who will do the work. What should change?",
+     "id": "Arif menulis usulannya untuk manajernya dan membukanya dengan keputusan yang ia butuhkan. Sekarang ia mempresentasikan usulan yang sama kepada tim yang akan mengerjakannya. Apa yang perlu berubah?"
+    },
+    "opts": [
+     {
+      "en": "Nothing. A good message works for every audience",
+      "id": "Tidak ada. Pesan yang baik cocok untuk semua audiens"
+     },
+     {
+      "en": "The opening: lead with what this audience has to do next and what it means for them. The facts stay the same",
+      "id": "Pembukanya: mulai dari apa yang harus dilakukan audiens ini setelahnya dan apa artinya bagi mereka. Faktanya tetap sama"
+     },
+     {
+      "en": "The facts: choose different numbers that suit the team better",
+      "id": "Faktanya: pilih angka lain yang lebih cocok untuk tim"
+     },
+     {
+      "en": "The length: make it longer, because the team has more time",
+      "id": "Panjangnya: buat lebih panjang, karena tim punya lebih banyak waktu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The facts stay; the first line changes with the reader. A manager needs the decision, a team needs the task, finance needs the money. Open with what this reader has to do next.",
+     "id": "Faktanya tetap; baris pertamanya berubah mengikuti pembaca. Manajer butuh keputusannya, tim butuh tugasnya, bagian keuangan butuh angkanya. Buka dengan apa yang harus dilakukan pembaca ini setelahnya."
     }
    },
    {
@@ -2072,148 +2072,148 @@ window.MT_ASSESS['the-map'] = {
     "type": "know",
     "lesson": "4.4",
     "q": {
-     "en": "Mark’s sentence “I gave him a hundred dollars” answers four different questions depending on where the stress falls. What is the lesson?",
-     "id": "Kalimat Mark, \"I gave him a hundred dollars\", menjawab empat pertanyaan berbeda tergantung di mana tekanannya jatuh. Apa pelajarannya?"
+     "en": "What are the three elements of presentation style?",
+     "id": "Apa saja tiga unsur gaya presentasi?"
     },
     "opts": [
      {
-      "en": "Speak louder so every word is heard",
-      "id": "Bicara lebih keras supaya setiap kata terdengar"
+      "en": "Slides, script and timing",
+      "id": "Slide, naskah, dan pengaturan waktu"
      },
      {
-      "en": "Vocal emphasis carries meaning: decide which word carries the message and put the weight there; rehearse out loud, record and play back",
-      "id": "Penekanan suara membawa makna: tentukan kata mana yang membawa pesannya dan beri bobot di situ; berlatihlah dengan suara keras, rekam, dan putar ulang"
+      "en": "Confidence, charisma and humour",
+      "id": "Percaya diri, karisma, dan humor"
      },
      {
-      "en": "Avoid emphasis in business settings; it sounds theatrical",
-      "id": "Hindari penekanan dalam situasi bisnis; kedengarannya seperti bersandiwara"
+      "en": "Physical presence, vocal emphasis and emotional connection",
+      "id": "Kehadiran fisik, penekanan suara, dan ikatan emosional"
      },
      {
-      "en": "Write the sentence on a slide so stress does not matter",
-      "id": "Tulis kalimatnya di slide supaya tekanannya tidak penting"
+      "en": "Volume, vocabulary and clothing",
+      "id": "Volume, kosakata, dan pakaian"
      }
     ],
-    "correct": 1,
+    "correct": 2,
     "expl": {
-     "en": "Pitch, pace, volume and pause are the music of the voice; the same words mean different things with the stress moved. His exercise: read your last presentation as if to a child, record it, play it back, and turn the dial up a notch.",
-     "id": "Tinggi nada, tempo, volume, dan jeda adalah musik dalam suara; kata-kata yang sama bermakna lain kalau tekanannya dipindah. Latihannya: bacakan presentasi terakhirmu seolah-olah untuk anak kecil, rekam, putar ulang, lalu naikkan intensitasnya satu tingkat."
+     "en": "What the audience sees, what it hears beneath the words, and what it feels. The three do not weigh the same on every occasion, but a weakness in any one of them is where attention leaks out.",
+     "id": "Yang dilihat audiens, yang mereka dengar di balik kata-kata, dan yang mereka rasakan. Bobot ketiganya tidak selalu sama, tetapi kelemahan di salah satunya adalah tempat perhatian audiens bocor."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "4.4",
+    "q": {
+     "en": "Why does this lesson say that fidgeting damages a presentation?",
+     "id": "Mengapa pelajaran ini menyebut kegelisahan tangan merusak presentasi?"
+    },
+    "opts": [
+     {
+      "en": "It splits your attention: the part of your mind watching your hands is not available for the audience",
+      "id": "Karena perhatianmu terbelah: bagian pikiran yang mengawasi tanganmu tidak tersedia untuk audiens"
+     },
+     {
+      "en": "Audiences dislike any movement from a speaker",
+      "id": "Audiens tidak menyukai gerakan apa pun dari pembicara"
+     },
+     {
+      "en": "It makes the slides harder to read",
+      "id": "Slide jadi lebih sulit dibaca"
+     },
+     {
+      "en": "It shows that the slides were not rehearsed enough",
+      "id": "Itu menunjukkan slide-nya kurang dilatih"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "The fidget itself is not the cost. The split attention is. That is why presence is prepared before you walk in: feet, breath, a calming thought, a home for the hands, faces to return to.",
+     "id": "Yang merugikan bukan gerak gelisahnya, melainkan perhatian yang terbelah. Karena itu kehadiran disiapkan sebelum kamu masuk: kaki, napas, satu pikiran yang menenangkan, tempat istirahat untuk tangan, wajah-wajah untuk kembali ditatap."
     }
    },
    {
     "type": "scen",
     "lesson": "4.4",
     "q": {
-     "en": "You are about to deliver the key message of a proposal on a video call. Which set of adjustments does the module recommend?",
-     "id": "Kamu akan menyampaikan pesan kunci sebuah proposal lewat panggilan video. Penyesuaian mana yang disarankan modul ini?"
+     "en": "You are about to give the key message of a proposal on a video call. Which adjustments does the lesson recommend?",
+     "id": "Kamu akan menyampaikan pesan kunci sebuah usulan lewat panggilan video. Penyesuaian mana yang disarankan pelajaran ini?"
     },
     "opts": [
      {
-      "en": "Look at the faces on screen, gesture broadly to add energy, keep self-view on to monitor yourself",
-      "id": "Tatap wajah-wajah di layar, gerakkan tangan lebar-lebar untuk menambah energi, biarkan tampilan dirimu menyala untuk memantau diri"
+      "en": "Turn the camera off, so people focus on the slides",
+      "id": "Mematikan kamera, supaya orang fokus ke slide"
      },
      {
-      "en": "Look straight into the lens and picture the people behind it, keep your hands level with your body, camera at eye level, self-view off, room lit and background quiet",
-      "id": "Tatap langsung ke lensa dan bayangkan orang-orang di baliknya, jaga tangan tetap sejajar dengan tubuh, kamera sejajar mata, tampilan diri dimatikan, ruangan terang dan latar tenang"
+      "en": "Speak exactly as you would one to one, because the screen is small",
+      "id": "Bicara persis seperti saat empat mata, karena layarnya kecil"
      },
      {
-      "en": "Turn the camera off so people focus on the slides",
-      "id": "Matikan kamera supaya orang fokus pada slide"
+      "en": "Read the message from notes placed below the camera",
+      "id": "Membacakan pesannya dari catatan yang ditaruh di bawah kamera"
      },
      {
-      "en": "Read the message from notes below the camera",
-      "id": "Bacakan pesannya dari catatan di bawah kamera"
+      "en": "Set the light, background and framing first; raise your energy and vocal variation a notch; look at the lens when the point matters; ask a question in the chat",
+      "id": "Atur dulu cahaya, latar, dan bingkainya; naikkan energi dan variasi suaramu satu tingkat; tatap lensa saat intinya disampaikan; ajukan pertanyaan di kolom obrolan"
      }
     ],
-    "correct": 1,
+    "correct": 3,
     "expl": {
-     "en": "The camera changes the weights: eye contact works strangely on screen, so the lens gets the key message; a small frame makes big gestures look like giant hands; a camera too high or too low makes you look small or self-important; self-view steals the attention that belongs to the audience. The fundamentals (audience, purpose, empathy) do not change.",
-     "id": "Kamera mengubah bobotnya: kontak mata terasa aneh di layar, jadi lensalah yang mendapat pesan kuncimu; bingkai yang kecil membuat gerak tangan besar terlihat seperti tangan raksasa; kamera yang terlalu tinggi atau terlalu rendah membuatmu terlihat kecil atau angkuh; tampilan diri mencuri perhatian yang seharusnya untuk audiens. Dasarnya (audiens, tujuan, empati) tidak berubah."
+     "en": "The camera flattens presence. So you set the room first, then add energy and vocal variation, give the lens your eyes at the moment that matters, and break the black box with a question.",
+     "id": "Kamera membuat kehadiran tampak datar. Maka kamu menyiapkan ruangannya dulu, lalu menambah energi dan variasi suara, menatap lensa di saat yang penting, dan memecah layar yang sunyi dengan sebuah pertanyaan."
     }
    },
    {
     "type": "scen",
     "lesson": "4.4",
     "q": {
-     "en": "A teammate declines to facilitate the project workshop: “I’m not the content expert and I shouldn’t be the one leading the discussion.” What does the module say?",
-     "id": "Seorang rekan tim menolak memfasilitasi lokakarya proyek: \"Aku bukan ahli materinya, dan bukan aku yang seharusnya memimpin diskusi.\" Apa kata modul ini?"
+     "en": "Tari admires a senior who paces the stage and tells jokes. Tari herself is quiet and precise. Next week she speaks to two hundred people. What does the lesson advise?",
+     "id": "Tari mengagumi seorang senior yang suka berjalan di panggung dan melempar lelucon. Tari sendiri pendiam dan teliti. Pekan depan ia berbicara di depan dua ratus orang. Apa saran pelajaran ini?"
     },
     "opts": [
      {
-      "en": "They are right: facilitation is for experts and leaders",
-      "id": "Ia benar: fasilitasi adalah tugas para ahli dan pemimpin"
+      "en": "Copy the senior's pacing and jokes, because that style works in a large room",
+      "id": "Meniru gaya berjalan dan lelucon seniornya, karena gaya itu berhasil di ruangan besar"
      },
      {
-      "en": "Anyone can facilitate: to facilitate is to make something easier, and what it takes is an open, curious “over there” mindset (with the audience, releasing your agenda when appropriate, asking questions and uncovering what else is in the room)",
-      "id": "Siapa pun bisa memfasilitasi: memfasilitasi berarti membuat sesuatu jadi lebih mudah, dan yang dibutuhkan adalah pola pikir \"di sana\" yang terbuka dan penuh rasa ingin tahu (bersama audiens, rela melepas agendamu bila perlu, bertanya, dan menggali apa lagi yang ada di ruangan)"
+      "en": "Keep her own style and scale the elements to the room: wider gestures, longer pauses, more volume, and a story or an image to connect",
+      "id": "Tetap dengan gayanya sendiri dan sesuaikan unsurnya dengan ruangan: gerak lebih lebar, jeda lebih panjang, volume lebih besar, dan sebuah cerita atau gambaran untuk membangun ikatan"
      },
      {
-      "en": "Facilitation only matters for large groups",
-      "id": "Fasilitasi hanya penting untuk kelompok besar"
+      "en": "Speak exactly as she does in a small meeting, because changing anything would be fake",
+      "id": "Bicara persis seperti di rapat kecil, karena mengubah apa pun berarti berpura-pura"
      },
      {
-      "en": "Facilitation means presenting the agenda and keeping time",
-      "id": "Fasilitasi berarti memaparkan agenda dan menjaga waktu"
+      "en": "Let the slides carry the talk and read them out",
+      "id": "Membiarkan slide yang membawa presentasinya, lalu membacakannya"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Effective communicators are effective facilitators because they make their message easier for others to understand. It does not require leading or expertise; it requires being “over there”, not “over here”, and it matters equally with one person or a large group.",
-     "id": "Komunikator yang efektif adalah fasilitator yang efektif karena mereka membuat pesannya lebih mudah dipahami orang lain. Ini tidak menuntut peran pemimpin atau keahlian; yang dituntut adalah berada \"di sana\", bukan \"di sini\", dan ini sama pentingnya dengan satu orang maupun kelompok besar."
-    }
-   },
-   {
-    "type": "scen",
-    "lesson": "4.4",
-    "q": {
-     "en": "A 90-minute workshop must choose two of thirty initiatives. The plan: a 40-minute brainstorm, ten minutes to narrow, five minutes to close. Using open–narrow–close, what should change?",
-     "id": "Sebuah lokakarya 90 menit harus memilih dua dari tiga puluh inisiatif. Rencananya: curah gagasan 40 menit, sepuluh menit untuk mempersempit, lima menit untuk menutup. Dengan open–narrow–close, apa yang perlu diubah?"
-    },
-    "opts": [
-     {
-      "en": "Nothing: most of the time belongs to ideas",
-      "id": "Tidak ada: sebagian besar waktu memang milik ide"
-     },
-     {
-      "en": "Shorten the open (a timed three-minute burst creates more energy than a long brainstorm), give the narrow phase the most time and facilitative skill (hard decisions, egos on the line, a process people believe is fair), and close in momentum mode with twenty to thirty minutes to restate what has been agreed",
-      "id": "Persingkat fase open (ledakan ide tiga menit dengan pengatur waktu membangun energi lebih besar daripada curah gagasan yang panjang), beri fase narrow waktu dan keterampilan memfasilitasi paling banyak (keputusan sulit, ego yang dipertaruhkan, proses yang diyakini adil), dan tutup dengan mode penuh momentum selama dua puluh sampai tiga puluh menit untuk menegaskan kembali apa yang sudah disepakati"
-     },
-     {
-      "en": "Skip the close: decisions are obvious once narrowed",
-      "id": "Lewati fase close: keputusannya sudah jelas setelah dipersempit"
-     },
-     {
-      "en": "Do the narrowing by email afterwards",
-      "id": "Lakukan penyempitannya lewat email sesudahnya"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Move through the opening with momentum, allow good time for narrowing so people are on board with the fairness of the process, then close for commitments, restating explicitly what has been agreed, with twenty minutes to half an hour even in a day-long meeting. How much each phase gets still depends on context.",
-     "id": "Lewati pembukaan dengan penuh momentum, beri waktu yang cukup untuk mempersempit supaya semua orang yakin prosesnya adil, lalu tutup untuk mendapatkan komitmen, dengan menegaskan kembali secara eksplisit apa yang sudah disepakati, selama dua puluh menit sampai setengah jam bahkan dalam rapat sehari penuh. Porsi setiap fase tetap tergantung konteksnya."
+     "en": "Adjust the elements, not your personality. In a large room everything gets bigger and slower, and connection comes from a story rather than a chart. None of that requires becoming someone else.",
+     "id": "Sesuaikan unsurnya, bukan kepribadianmu. Di ruangan besar semuanya menjadi lebih besar dan lebih pelan, dan ikatan dibangun lewat cerita, bukan grafik. Tak satu pun dari itu menuntutmu menjadi orang lain."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "Write a communication plan for one real interaction you will have in the next two weeks (a meeting you lead, a presentation, or a difficult conversation), in four parts. (1) Empathy: answer the four key questions for the other person or the room: how they feel and what is on their mind; what they care about and already know; what is at stake for them; and what that makes possible. (2) Purpose: one sentence in three parts (what is realistically achievable, your goal, their goal). (3) Insight: your governing thought, two or three key lines that are each a synthesis (a “so what”, not a summary), and the storyline in five lines (introduction, key question, recommendation, supporting arguments, conclusion). (4) Conversation and delivery: an open–narrow–close plan with minutes per phase, the setting (one-to-one, small meeting, large room or video call) and the two adjustments to your presence and voice you will make for it, including the word that will carry your key message.",
-    "id": "Tulis rencana komunikasi untuk satu interaksi nyata yang akan kamu jalani dalam dua minggu ke depan (rapat yang kamu pimpin, presentasi, atau percakapan yang sulit) dalam empat bagian. (1) Empathy: jawab empat pertanyaan kunci tentang orang lain atau ruangannya: bagaimana perasaan mereka dan apa yang sedang mereka pikirkan; apa yang mereka pedulikan dan sudah mereka ketahui; apa yang dipertaruhkan bagi mereka; dan apa yang dimungkinkan oleh semua itu. (2) Purpose: satu kalimat dalam tiga bagian (apa yang realistis bisa dicapai, tujuanmu, tujuan mereka). (3) Insight: gagasan utamamu, dua atau tiga garis kunci yang masing-masing berupa sintesis (\"lalu kenapa\", bukan ringkasan), dan alur cerita dalam lima baris (pembuka, pertanyaan kunci, rekomendasi, argumen pendukung, penutup). (4) Conversation dan penyampaian: rencana open–narrow–close dengan jumlah menit per fase, situasinya (empat mata, rapat kecil, ruangan besar, atau panggilan video), dan dua penyesuaian kehadiran dan suaramu untuk situasi itu, termasuk kata yang akan membawa pesan kuncimu."
+    "en": "Write a communication plan for one real interaction you will have in the next two weeks (a meeting you lead, a presentation, or a difficult conversation), in four parts. (1) The reader: who it is for, what they must decide or do, and what they already know. (2) The message: your answer in one sentence, then two or three reasons that do not overlap, each with its evidence. (3) The hard moment: the interruption or disagreement you expect, and the one-sentence reply you will give. (4) Delivery: the setting (one-to-one, small meeting, large room or video call), your two-minute grounding routine, and the two adjustments to your presence and voice you will make for that room.",
+    "id": "Tulis rencana komunikasi untuk satu interaksi nyata yang akan kamu jalani dalam dua minggu ke depan (rapat yang kamu pimpin, presentasi, atau percakapan yang sulit) dalam empat bagian. (1) Pembaca: untuk siapa, apa yang harus mereka putuskan atau lakukan, dan apa yang sudah mereka tahu. (2) Pesan: jawabanmu dalam satu kalimat, lalu dua atau tiga alasan yang tidak tumpang tindih, masing-masing dengan buktinya. (3) Momen sulit: interupsi atau ketidaksetujuan yang kamu perkirakan, dan jawaban satu kalimat yang akan kamu berikan. (4) Penyampaian: situasinya (empat mata, rapat kecil, ruangan besar, atau panggilan video), rutinitas dua menit untuk memantapkan diri, dan dua penyesuaian kehadiran serta suaramu untuk ruangan itu."
    },
    "guide": [
     {
-     "en": "The empathy answers are about them, with no assumptions you could have checked by asking.",
-     "id": "Jawaban empatinya tentang mereka, tanpa asumsi yang sebenarnya bisa kamu pastikan dengan bertanya."
+     "en": "Part one is about them, with no assumption you could have checked by asking.",
+     "id": "Bagian pertama tentang mereka, tanpa asumsi yang sebenarnya bisa kamu pastikan dengan bertanya."
     },
     {
-     "en": "The purpose fits the time you actually have, and includes what they want to leave with.",
-     "id": "Tujuannya sesuai dengan waktu yang benar-benar kamu punya, dan mencakup apa yang ingin mereka bawa pulang."
+     "en": "The first sentence carries the answer: a reader who stops there still has the point.",
+     "id": "Kalimat pertama memuat jawabannya: pembaca yang berhenti di situ tetap mendapat intinya."
     },
     {
-     "en": "Every key line states what its facts mean together; the governing thought answers the question you were asked.",
-     "id": "Setiap garis kunci menyatakan apa arti fakta-faktanya bersama-sama; gagasan utamanya menjawab pertanyaan yang diajukan kepadamu."
+     "en": "The reasons are distinct, and each number says what it means for the decision.",
+     "id": "Alasannya berbeda satu sama lain, dan setiap angka menyebutkan artinya bagi keputusan."
     },
     {
-     "en": "The open–narrow–close plan has minutes, the close restates what will be agreed, and the delivery adjustments fit the room, not someone else’s style.",
-     "id": "Rencana open–narrow–close-nya punya jumlah menit, penutupnya menegaskan kembali apa yang akan disepakati, dan penyesuaian penyampaiannya cocok dengan ruangannya, bukan dengan gaya orang lain."
+     "en": "The delivery adjustments fit the room, not someone else's style.",
+     "id": "Penyesuaian penyampaiannya cocok dengan ruangannya, bukan dengan gaya orang lain."
     }
    ],
    "min": 150
