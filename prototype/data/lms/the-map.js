@@ -6251,8 +6251,8 @@ window.MT_LMS['the-map'] = {
     "id": "Modul 4 The Map membahas komunikasi yang berdampak: tantangannya, teori intinya, studi kasus terapannya, dan cara menyampaikannya. Kerjakan pelajarannya berurutan, karena setiap pelajaran menjadi pijakan untuk pelajaran berikutnya."
    },
    "outcome": {
-    "en": "By the end of this module you can prepare an important conversation with EPIC (Empathy, Purpose, Insight, Conversation), structure the message answer first as a pyramid, and deliver it with presence, voice and connection that suit the room.",
-    "id": "Di akhir modul ini, kamu bisa menyiapkan percakapan penting dengan EPIC (Empathy, Purpose, Insight, Conversation), menyusun pesanmu dengan jawaban di depan seperti piramida, lalu menyampaikannya dengan kehadiran, suara, dan ikatan yang sesuai dengan ruangannya."
+    "en": "By the end of this module you can design an important message from the reader backwards, structure it answer first as a pyramid, handle an interruption or a disagreement, and deliver it with presence, voice and connection that suit the room.",
+    "id": "Di akhir modul ini, kamu bisa merancang pesan penting secara mundur dari pembacanya, menyusunnya dengan jawaban di depan seperti piramida, menghadapi interupsi atau ketidaksetujuan, lalu menyampaikannya dengan kehadiran, suara, dan ikatan yang sesuai dengan ruangannya."
    },
    "lessons": [
     {
@@ -6383,320 +6383,6 @@ window.MT_LMS['the-map'] = {
       "en": "What they understood is what you communicated, regardless of what you meant.",
       "id": "Apa yang mereka pahami itulah yang kamu sampaikan, apa pun yang kamu maksudkan."
      },
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 5 slides",
-        "id": "Baca dulu · 5 slide"
-       },
-       "title": {
-        "en": "Communication for Impact: Material",
-        "id": "Komunikasi yang Berdampak: Materi"
-       },
-       "intro": {
-        "en": "Start with the deck. Five slides open Chapter 4: the promise of communication for impact (turn ideas into understanding and understanding into action); an introduction to the course and to the EPIC framework; the three people you will follow through the chapter (Aaliyah, Noah and Maryam), each with a challenge and a goal; the four steps of the EPIC approach at MODA (Empathy, Purpose, Insight, Conversation); and the key takeaways with resources to explore. Then watch the film that follows.",
-        "id": "Mulai dari deknya. Lima slide membuka Bab 4: janji komunikasi yang berdampak (mengubah gagasan menjadi pemahaman, dan pemahaman menjadi tindakan); pengantar kursus ini dan kerangka EPIC; tiga orang yang akan kamu ikuti sepanjang bab ini (Aaliyah, Noah, dan Maryam), masing-masing dengan tantangan dan tujuannya; empat langkah pendekatan EPIC di MODA (Empathy, Purpose, Insight, Conversation); dan poin penting beserta bacaan lanjutan. Setelah itu, tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/communication-",
-       "slides": [
-        {
-         "title": {
-          "en": "Communication for Impact",
-          "id": "Komunikasi yang Berdampak"
-         },
-         "text": {
-          "en": "Chapter 4. Turn ideas into understanding. Turn understanding into action. Create meaningful impact through effective communication. Share ideas clearly · build stronger relationships · drive action and impact. Communicate with clarity, express ideas in a simple, structured and compelling way. Build stronger connections, listen actively and adapt to your audience. Influence and create impact; turn communication into alignment, action and results. Better conversations, brighter outcomes.",
-          "id": "Bab 4. Ubah gagasan menjadi pemahaman. Ubah pemahaman menjadi tindakan. Ciptakan dampak yang bermakna lewat komunikasi yang efektif. Sampaikan gagasan dengan jelas · bangun hubungan yang lebih kuat · dorong tindakan dan dampak. Berkomunikasi dengan jelas: sampaikan gagasan dengan cara yang sederhana, terstruktur, dan meyakinkan. Bangun hubungan yang lebih kuat: dengarkan secara aktif dan sesuaikan diri dengan audiensmu. Pengaruhi dan ciptakan dampak: ubah komunikasi menjadi keselarasan, tindakan, dan hasil. Percakapan yang lebih baik, hasil yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Introduction to Communicating for Impact",
-          "id": "Pengantar Komunikasi yang Berdampak"
-         },
-         "text": {
-          "en": "Turn ideas into understanding. Turn understanding into action. Welcome to the Communicating for Impact course! Communication challenges are very common obstacles to success in a professional environment. Having good communication skills not only helps you avoid frustration and misunderstandings but also makes you and your team more efficient and impactful in your work. Purpose of this course: to equip you with practical techniques you can use to effectively plan and structure your communication in a way that moves people around you to take action. What you will learn, the EPIC framework: Empathy, connect with your audience by understanding where they are coming from; Purpose, focus your communication on the common purpose with your audience; Insight, organize your facts and ideas in a clear and insightful way; Conversation, communicate your facts and ideas in a way that engages your audience, is memorable, and compels them to act. Good communication doesn’t just share information. It builds understanding, creates alignment, and inspires action: better collaboration, higher productivity, greater impact.",
-          "id": "Ubah gagasan menjadi pemahaman. Ubah pemahaman menjadi tindakan. Selamat datang di kursus Komunikasi yang Berdampak! Tantangan komunikasi adalah hambatan yang sangat umum bagi keberhasilan di lingkungan profesional. Keterampilan komunikasi yang baik tidak hanya membantumu menghindari rasa frustrasi dan salah paham, tetapi juga membuatmu dan timmu lebih efisien dan berdampak dalam bekerja. Tujuan kursus ini: membekalimu dengan teknik-teknik praktis untuk merencanakan dan menyusun komunikasimu secara efektif, dengan cara yang menggerakkan orang-orang di sekitarmu untuk bertindak. Yang akan kamu pelajari, kerangka EPIC: Empathy, terhubung dengan audiensmu dengan memahami dari mana mereka berangkat; Purpose, pusatkan komunikasimu pada tujuan bersama dengan audiensmu; Insight, tata fakta dan gagasanmu dengan cara yang jelas dan penuh wawasan; Conversation, sampaikan fakta dan gagasanmu dengan cara yang melibatkan audiensmu, mudah diingat, dan mendorong mereka bertindak. Komunikasi yang baik tidak sekadar membagikan informasi. Komunikasi yang baik membangun pemahaman, menciptakan keselarasan, dan menginspirasi tindakan: kerja sama yang lebih baik, produktivitas yang lebih tinggi, dampak yang lebih besar."
-         }
-        },
-        {
-         "title": {
-          "en": "All of us have communication challenges",
-          "id": "Kita semua punya tantangan komunikasi"
-         },
-         "text": {
-          "en": "Meet the team! Meet Aaliyah, Noah and Maryam. They are the main characters you will follow throughout this course. Each of them faces different communication challenges and goals. You will get the chance to learn more about them, see their challenges in a real project, and start your own communication journey together with them! Aaliyah, Chief Transformation Officer: “I often struggle to clearly communicate my ideas in meetings, especially when speaking with more senior team members.” Key challenge: lack of confidence when speaking in front of a more senior audience. Goal: to communicate ideas clearly, structurally, and with confidence. Noah, Head of Digital: “I often get too deep into technical details, which makes it hard for me to convey the key message clearly.” Key challenge: difficulty simplifying complex information so it is easy for the audience to understand. Goal: to deliver key insights in a concise, relevant, and impactful way. Maryam, Analytics Team Lead: “I often experience miscommunication with cross-functional teams, which makes projects sometimes not run as expected.” Key challenge: difficulty aligning different perspectives and expectations across teams. Goal: to build more open, collaborative, and results-oriented communication. Three different perspectives, one shared goal: more effective communication.",
-          "id": "Kenalan dengan timnya! Ini Aaliyah, Noah, dan Maryam. Mereka adalah tokoh-tokoh utama yang akan kamu ikuti sepanjang kursus ini. Masing-masing menghadapi tantangan dan tujuan komunikasi yang berbeda. Kamu akan berkesempatan mengenal mereka lebih jauh, melihat tantangan mereka dalam proyek nyata, dan memulai perjalanan komunikasimu sendiri bersama mereka! Aaliyah, Chief Transformation Officer: “Aku sering kesulitan menyampaikan ideku dengan jelas di rapat, terutama saat bicara dengan anggota tim yang lebih senior.” Tantangan utama: kurang percaya diri saat bicara di depan audiens yang lebih senior. Tujuan: menyampaikan ide dengan jelas, terstruktur, dan percaya diri. Noah, Head of Digital: “Aku sering terlalu dalam masuk ke detail teknis, sehingga sulit menyampaikan pesan utamanya dengan jelas.” Tantangan utama: kesulitan menyederhanakan informasi yang rumit supaya mudah dipahami audiens. Tujuan: menyampaikan wawasan kunci dengan ringkas, relevan, dan berdampak. Maryam, Analytics Team Lead: “Aku sering mengalami salah paham dengan tim lintas fungsi, sehingga proyek kadang tidak berjalan sesuai harapan.” Tantangan utama: kesulitan menyelaraskan sudut pandang dan harapan yang berbeda di antara tim. Tujuan: membangun komunikasi yang lebih terbuka, kolaboratif, dan berorientasi hasil. Tiga sudut pandang berbeda, satu tujuan bersama: komunikasi yang lebih efektif."
-         }
-        },
-        {
-         "title": {
-          "en": "Welcome to Communicating for Impact, the EPIC approach",
-          "id": "Selamat datang di Komunikasi yang Berdampak, pendekatan EPIC"
-         },
-         "text": {
-          "en": "From understanding perspectives to driving real action. As mentioned in the previous section, the team at MODA is undergoing a digital transformation, where they will face a series of communication challenges, which are common obstacles to success in a professional environment. The goals of this course are to help you understand how to overcome these common communication challenges, and to move people to action based on four key steps of the EPIC approach to communication. The EPIC approach, a simple, practical framework to help you communicate more effectively and drive impact: Empathy, put yourself in the other person’s shoes to understand their perspective (build stronger connections and trust); Purpose, define the purpose to include their needs and yours (create clarity and shared direction); Insight, articulate (explain) your ideas in a clear and compelling way (make your message easy to understand and memorable); Conversation, plan and orchestrate the flow of an effective two-way conversation (drive alignment and turn understanding into action). These steps can be applied to any communication situation, and with practice can be used in both quick daily interactions and more extensive communication planning: clearer communication, stronger collaboration, greater impact.",
-          "id": "Dari memahami sudut pandang sampai menggerakkan tindakan nyata. Seperti disebut di bagian sebelumnya, tim di MODA sedang menjalani transformasi digital, dan mereka akan menghadapi serangkaian tantangan komunikasi yang umum menjadi hambatan keberhasilan di lingkungan profesional. Tujuan kursus ini adalah membantumu memahami cara mengatasi tantangan-tantangan komunikasi yang umum itu, dan menggerakkan orang untuk bertindak berdasarkan empat langkah kunci pendekatan komunikasi EPIC. Pendekatan EPIC, kerangka sederhana dan praktis untuk membantumu berkomunikasi dengan lebih efektif dan menciptakan dampak: Empathy, tempatkan dirimu di posisi orang lain untuk memahami sudut pandangnya (membangun hubungan dan kepercayaan yang lebih kuat); Purpose, rumuskan tujuan yang mencakup kebutuhan mereka dan kebutuhanmu (menciptakan kejelasan dan arah bersama); Insight, uraikan gagasanmu dengan cara yang jelas dan meyakinkan (membuat pesanmu mudah dipahami dan diingat); Conversation, rencanakan dan atur alur percakapan dua arah yang efektif (menciptakan keselarasan dan mengubah pemahaman menjadi tindakan). Langkah-langkah ini bisa diterapkan pada situasi komunikasi apa pun, dan dengan latihan bisa dipakai baik untuk interaksi singkat sehari-hari maupun perencanaan komunikasi yang lebih matang: komunikasi yang lebih jelas, kerja sama yang lebih kuat, dampak yang lebih besar."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "In this module, we have covered the following key tool that will help you communicate more effectively and drive impact: the EPIC framework. Use this framework to approach any future communication opportunities and get the most out of them. Empathy: put yourself in the other person’s shoes to understand their perspective. Purpose: define the purpose to include their needs and yours. Insight: articulate (explain) your ideas in a clear and compelling way. Conversation: plan and orchestrate the flow of an effective two-way conversation. Resources you may also wish to explore: an article, “Mastering the Art of Communication: 12 Tips for Success in a Digital World”; a video, “The Importance of a Good Conversation – and How to Have It”; the books “Mastering Communication at Work: How to Lead, Manage, and Influence” (McGraw-Hill) and “The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism” (Portfolio/Penguin). Key takeaways: understand people better, communicate with clarity, build stronger collaboration, drive real impact. Better communication, bigger possibilities.",
-          "id": "Di modul ini, kita sudah membahas satu alat utama yang akan membantumu berkomunikasi dengan lebih efektif dan menciptakan dampak: kerangka EPIC. Pakai kerangka ini untuk menghadapi setiap kesempatan berkomunikasi berikutnya dan mendapatkan hasil terbaik darinya. Empathy: tempatkan dirimu di posisi orang lain untuk memahami sudut pandangnya. Purpose: rumuskan tujuan yang mencakup kebutuhan mereka dan kebutuhanmu. Insight: uraikan gagasanmu dengan cara yang jelas dan meyakinkan. Conversation: rencanakan dan atur alur percakapan dua arah yang efektif. Bacaan lain yang mungkin ingin kamu telusuri: artikel “Mastering the Art of Communication: 12 Tips for Success in a Digital World”; video “The Importance of a Good Conversation – and How to Have It”; buku “Mastering Communication at Work: How to Lead, Manage, and Influence” (McGraw-Hill) dan “The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism” (Portfolio/Penguin). Poin penting: pahami orang dengan lebih baik, berkomunikasi dengan jelas, bangun kerja sama yang lebih kuat, ciptakan dampak nyata. Komunikasi yang lebih baik, kemungkinan yang lebih besar."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "How Familiar Are You with Empathy? Material",
-        "id": "Seberapa Akrab Kamu dengan Empati? Materi"
-       },
-       "intro": {
-        "en": "Next, three slides open the E of EPIC. The first asks how familiar you are with empathy and why it comes first: before any interaction you need to know where the other person is starting from, what they already know and what they think. The second defines what empathy is, and what it is not, with two examples and two non-examples from everyday conversations. The third returns to MODA: Aaliyah, Chief Transformation Officer, has invited Noah, Head of Digital, to an introductory meeting, and asks you to watch their conversation for moments of empathy.",
-        "id": "Berikutnya, tiga slide membuka huruf E dari EPIC. Slide pertama menanyakan seberapa akrab kamu dengan empati dan kenapa empati datang lebih dulu: sebelum berinteraksi, kamu perlu tahu dari mana orang lain berangkat, apa yang sudah mereka ketahui, dan apa pendapat mereka. Slide kedua menjelaskan apa itu empati, dan apa yang bukan empati, lewat dua contoh dan dua bukan contoh dari percakapan sehari-hari. Slide ketiga kembali ke MODA: Aaliyah, Chief Transformation Officer, mengundang Noah, Head of Digital, ke rapat perkenalan, dan memintamu menonton percakapan mereka untuk menemukan momen-momen empati."
-       },
-       "base": "../../assets/lms/the-map/slides/empathy-",
-       "slides": [
-        {
-         "title": {
-          "en": "How familiar are you with empathy?",
-          "id": "Seberapa akrab kamu dengan empati?"
-         },
-         "text": {
-          "en": "Understanding what empathy is and what it is not. Before entering an interaction with someone, you must first understand where the other person is coming from. Additionally, you need to understand how much existing knowledge they have and their opinions, so that you can tailor your message to their needs. So, what does empathy really mean? What do they think? What do they feel? What do they know right now? From which perspective are they coming? Where are they starting from? How much existing knowledge do they have? What are their opinions? How can we tailor our message to their needs?",
-          "id": "Memahami apa itu empati dan apa yang bukan empati. Sebelum berinteraksi dengan seseorang, kamu perlu lebih dulu memahami dari mana orang itu berangkat. Selain itu, kamu perlu memahami seberapa banyak pengetahuan yang sudah ia miliki dan apa pendapatnya, supaya kamu bisa menyesuaikan pesanmu dengan kebutuhannya. Jadi, apa sebenarnya arti empati? Apa yang mereka pikirkan? Apa yang mereka rasakan? Apa yang mereka ketahui saat ini? Dari sudut pandang mana mereka datang? Dari mana mereka berangkat? Seberapa banyak pengetahuan yang sudah mereka miliki? Apa pendapat mereka? Bagaimana kita bisa menyesuaikan pesan kita dengan kebutuhan mereka?"
-         }
-        },
-        {
-         "title": {
-          "en": "What is empathy?",
-          "id": "Apa itu empati?"
-         },
-         "text": {
-          "en": "Key concepts. Empathy involves understanding other people’s experiences, perspectives, and feelings. Which of these are part of empathy? 01 understanding the feelings of others (yes); 02 agreeing with someone’s point of view (no); 03 building an emotional connection with a person (yes); 04 having a solution to a person’s emotional state (no). Examples of empathy. These actions show empathy in practice. “That sounds really challenging. I can see why you feel that way.” Yes! This is an example of empathy: empathy is the ability to understand another person’s experience, perspective, and feelings; empathetic leaders are able to relate to many different types of people. “It makes sense that you feel frustrated given the situation.” Yes! This is an example of empathy: with empathy, you approach a conversation with an attempt to understand the other person’s perspective; this helps to spark a connection and build trust over time. Non-examples of empathy. These are not empathy, even though they may seem similar. “I think you’re overreacting. You should just move on.” This is not a good example of empathy: empathy does not mean you have to agree with others, but you should always consider their point of view; empathy is an attempt to respectfully understand the other person’s perspective. “Here’s what you should do…” This is not a good example of empathy: empathy does not mean having an answer to a person’s emotional state, but you should always consider their emotions and point of view; empathy is more about listening and understanding than trying to provide a solution.",
-          "id": "Konsep kunci. Empati berarti memahami pengalaman, sudut pandang, dan perasaan orang lain. Mana saja yang termasuk empati? 01 memahami perasaan orang lain (ya); 02 menyetujui sudut pandang seseorang (tidak); 03 membangun ikatan emosional dengan seseorang (ya); 04 punya solusi untuk keadaan emosi seseorang (tidak). Contoh empati. Tindakan-tindakan ini menunjukkan empati dalam praktik. “Kedengarannya berat sekali. Aku bisa mengerti kenapa kamu merasa begitu.” Ya! Ini contoh empati: empati adalah kemampuan memahami pengalaman, sudut pandang, dan perasaan orang lain. Pemimpin yang berempati bisa terhubung dengan berbagai jenis orang. “Wajar kalau kamu merasa frustrasi dengan keadaan seperti itu.” Ya! Ini contoh empati: dengan empati, kamu masuk ke percakapan dengan berusaha memahami sudut pandang orang lain. Hal ini membantu memicu kedekatan dan membangun kepercayaan dari waktu ke waktu. Bukan contoh empati. Hal-hal ini bukan empati, meski mungkin terlihat mirip. “Menurutku kamu berlebihan. Sudahlah, lupakan saja.” Ini bukan contoh empati yang baik: empati tidak berarti kamu harus setuju dengan orang lain, tetapi kamu harus selalu mempertimbangkan sudut pandangnya. Empati adalah usaha untuk memahami sudut pandang orang lain dengan hormat. “Begini yang sebaiknya kamu lakukan…” Ini bukan contoh empati yang baik: empati tidak berarti punya jawaban untuk keadaan emosi seseorang, tetapi kamu harus selalu mempertimbangkan perasaan dan sudut pandangnya. Empati lebih banyak soal mendengarkan dan memahami daripada berusaha memberi solusi."
-         }
-        },
-        {
-         "title": {
-          "en": "Back at MODA: was empathy at play?",
-          "id": "Kembali ke MODA: apakah ada empati di sana?"
-         },
-         "text": {
-          "en": "Scene. Let’s see how empathy shows up in a real workplace conversation. Aaliyah, Chief Transformation Officer (CTO), MODA; Noah, Head of Digital, MODA. Take a few minutes to watch and reflect on the conversation between Aaliyah and Noah in this video. The scenario: today, Aaliyah, Chief Transformation Officer (the person in charge of a big change within the company) at MODA, has invited Noah, Head of Digital, to an introductory meeting. Aaliyah aims to discuss the way in which she, Noah, and the Digital department are going to work together to ensure a successful transformation. They both have a lot on their minds. As you watch the video, reflect on: how do Aaliyah and Noah communicate with each other? Do you see moments of empathy? What could they have done differently?",
-          "id": "Adegan. Mari lihat bagaimana empati muncul dalam percakapan nyata di tempat kerja. Aaliyah, Chief Transformation Officer (CTO), MODA; Noah, Head of Digital, MODA. Luangkan beberapa menit untuk menonton dan merenungkan percakapan antara Aaliyah dan Noah di video ini. Skenarionya: hari ini, Aaliyah, Chief Transformation Officer (orang yang memimpin sebuah perubahan besar di perusahaan) di MODA, mengundang Noah, Head of Digital, ke rapat perkenalan. Aaliyah ingin membahas cara ia, Noah, dan departemen Digital akan bekerja sama untuk memastikan transformasinya berhasil. Mereka berdua sedang banyak pikiran. Sambil menonton videonya, renungkan: bagaimana Aaliyah dan Noah berkomunikasi satu sama lain? Apakah kamu melihat momen-momen empati? Apa yang bisa mereka lakukan secara berbeda?"
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 1 slide",
-        "id": "Baca berikutnya · 1 slide"
-       },
-       "title": {
-        "en": "Compare with the Expert: Material",
-        "id": "Bandingkan dengan Jawaban Ahli: Materi"
-       },
-       "intro": {
-        "en": "Next, one slide asks you to answer for yourself before you compare. Three questions on the conversation you just watched: what Noah could have done differently before walking in, where empathy entered the picture, and how Aaliyah felt at the end and what that means for their future interactions. Then the expert’s response to the first two, and two takeaways.",
-        "id": "Berikutnya, satu slide memintamu menjawab sendiri sebelum membandingkan. Ada tiga pertanyaan tentang percakapan yang baru kamu tonton: apa yang bisa dilakukan Noah secara berbeda sebelum masuk ke rapat, di mana empati muncul, dan bagaimana perasaan Aaliyah di akhir percakapan serta apa artinya bagi interaksi mereka berikutnya. Lalu ada jawaban ahli untuk dua pertanyaan pertama, dan dua poin penting."
-       },
-       "base": "../../assets/lms/the-map/slides/expert-",
-       "slides": [
-        {
-         "title": {
-          "en": "Compare with the expert",
-          "id": "Bandingkan dengan jawaban ahli"
-         },
-         "text": {
-          "en": "Discussion and reflection. Consider the Empathy element of the EPIC framework, where you put yourself in the other person’s shoes to understand their perspective. Questions for you: based on the conversation you heard, think to yourself and answer: 01 What could Noah have done differently before heading into the conversation with Aaliyah? 02 Where did empathy enter the picture (if at all)? 03 How do you think Aaliyah felt at the end of their conversation? What kind of impact would that have on their future interactions? Aaliyah, Chief Transformation Officer (CTO), MODA: “How does Noah see the challenges from my perspective?” Noah, Head of Digital, MODA: “What matters most to Aaliyah in this transformation?” Expert response. Here is the expert’s perspective on how empathy showed up in this conversation. 01 What could Noah have done differently? Before the meeting, Noah could have tried to put himself in Aaliyah’s shoes in an attempt to forge a stronger connection with his colleague. Instead, he was preoccupied with his own agenda and anxieties about the transformation. Noah could have spent a little time thinking about how Aaliyah might be feeling about the changes that lie ahead. 02 Where did empathy enter the picture? As soon as Noah asked Aaliyah how she was feeling, we witnessed a sigh of relief from her. This changed the dynamic for them in the moment, and potentially going forward. Noah’s question helped alleviate her anxieties. Key takeaways: empathy helps build stronger connections, reduces anxiety, and creates space for better collaboration; simple questions that show genuine interest in the other person’s feelings and perspective can have a meaningful positive impact on the outcome of the conversation and future interactions.",
-          "id": "Diskusi dan renungan. Pikirkan unsur Empathy dalam kerangka EPIC, yaitu menempatkan dirimu di posisi orang lain untuk memahami sudut pandangnya. Pertanyaan untukmu: berdasarkan percakapan yang kamu dengar, pikirkan dan jawab sendiri: 01 Apa yang bisa dilakukan Noah secara berbeda sebelum masuk ke percakapan dengan Aaliyah? 02 Di mana empati muncul (kalau memang ada)? 03 Menurutmu, bagaimana perasaan Aaliyah di akhir percakapan mereka? Dampak seperti apa yang akan ditimbulkannya pada interaksi mereka berikutnya? Aaliyah, Chief Transformation Officer (CTO), MODA: “Bagaimana Noah melihat tantangan ini dari sudut pandangku?” Noah, Head of Digital, MODA: “Apa yang paling penting bagi Aaliyah dalam transformasi ini?” Jawaban ahli. Ini pandangan ahli tentang bagaimana empati muncul dalam percakapan ini. 01 Apa yang bisa dilakukan Noah secara berbeda? Sebelum rapat, Noah bisa mencoba menempatkan dirinya di posisi Aaliyah untuk menjalin hubungan yang lebih kuat dengan rekannya. Alih-alih begitu, ia justru sibuk dengan agendanya sendiri dan kecemasannya soal transformasi. Noah bisa meluangkan sedikit waktu untuk memikirkan perasaan Aaliyah menghadapi perubahan-perubahan yang akan datang. 02 Di mana empati muncul? Begitu Noah menanyakan perasaan Aaliyah, kita melihatnya menghela napas lega. Hal itu mengubah suasana di antara mereka saat itu juga, dan mungkin juga ke depannya. Pertanyaan Noah membantu meredakan kecemasan Aaliyah. Poin penting: empati membantu membangun hubungan yang lebih kuat, mengurangi kecemasan, dan menciptakan ruang untuk kerja sama yang lebih baik. Pertanyaan sederhana yang menunjukkan minat tulus pada perasaan dan sudut pandang orang lain bisa berdampak positif dan berarti pada hasil percakapan dan interaksi berikutnya."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 2 slides",
-        "id": "Baca berikutnya · 2 slide"
-       },
-       "title": {
-        "en": "What Is Empathy: Material",
-        "id": "Apa Itu Empati: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “What Is Empathy”. Read them at your own pace.",
-        "id": "Slide-slide ini membahas “Apa Itu Empati”. Baca sesuai ritmemu."
-       },
-       "base": "../../assets/lms/the-map/slides/what-empathy-",
-       "slides": [
-        {
-         "title": {
-          "en": "What is empathy?",
-          "id": "Apa itu empati?"
-         },
-         "text": {
-          "en": "Video. Let’s explore why empathy matters as the starting point for all interactions: understand others’ perspectives, build stronger connections, communicate more effectively. Empathy as a starting point: in this video, Kate explains why empathy is the starting point for all interactions and what kind of mindset is necessary for effective communications. While you watch: consider which aspects of empathy you have encountered before in your conversations. Have you ever experienced a time when you used an “over there” mindset? Reflection questions: 1. Which key insights about empathy resonate most with you? Why? 2. Can you think of a past interaction where you had an “over there” mindset? What could you do differently next time?",
-          "id": "Video. Mari kita telusuri kenapa empati penting sebagai titik awal semua interaksi: pahami sudut pandang orang lain, bangun hubungan yang lebih kuat, berkomunikasi dengan lebih efektif. Empati sebagai titik awal: di video ini, Kate menjelaskan kenapa empati adalah titik awal semua interaksi dan pola pikir seperti apa yang dibutuhkan untuk berkomunikasi dengan efektif. Sambil menonton: pikirkan aspek-aspek empati mana yang pernah kamu temui dalam percakapanmu. Pernahkah kamu mengalami saat kamu memakai pola pikir “di sini saja”, bukan “di sana”? Pertanyaan renungan: 1. Wawasan kunci mana tentang empati yang paling mengena bagimu? Kenapa? 2. Bisakah kamu mengingat satu interaksi ketika kamu terjebak dalam pola pikir yang hanya memikirkan dirimu sendiri? Apa yang bisa kamu lakukan secara berbeda lain kali?"
-         }
-        },
-        {
-         "title": {
-          "en": "Key questions to ask yourself with empathy",
-          "id": "Pertanyaan kunci yang perlu kamu ajukan pada dirimu dengan empati"
-         },
-         "text": {
-          "en": "Reflection. Use these questions to pause, reflect, and see the situation from the other person’s perspective. 1. How is the other person feeling? What’s on their mind? Are they worried about anything? Their emotions, their current challenges, what might be on their mind. 2. What do they care about? What do they value? What do they understand about the topic we plan to discuss? Their priorities, their interests and concerns, their understanding of the topic. 3. What is at stake for the other person? What could be the potential opportunities or risks for them? What they might gain, what they might lose, how this could affect them personally and professionally. 4. How does that impact what’s possible? How might their perspective influence the outcome of this interaction? How their perspective shapes the options, what this means for our next steps, how we can create a better outcome together. Why it matters: empathy plays a significant role in building long-lasting, trust-based relationships. We create a deeper sense of engagement when our colleagues feel listened to, appreciated, and understood. Let’s recap the key questions to ask yourself to get started.",
-          "id": "Renungan. Pakai pertanyaan-pertanyaan ini untuk berhenti sejenak, merenung, dan melihat situasinya dari sudut pandang orang lain. 1. Bagaimana perasaan orang itu? Apa yang sedang ia pikirkan? Apakah ada yang ia khawatirkan? Perasaannya, tantangannya saat ini, apa yang mungkin sedang ia pikirkan. 2. Apa yang ia pedulikan? Apa yang ia hargai? Apa yang ia pahami tentang topik yang akan kita bahas? Prioritasnya, minat dan kekhawatirannya, pemahamannya tentang topik itu. 3. Apa yang dipertaruhkan bagi orang itu? Peluang atau risiko apa yang mungkin ia hadapi? Apa yang mungkin ia dapat, apa yang mungkin ia kehilangan, bagaimana hal ini bisa memengaruhinya secara pribadi dan profesional. 4. Bagaimana hal itu memengaruhi apa yang mungkin? Bagaimana sudut pandangnya bisa memengaruhi hasil interaksi ini? Bagaimana sudut pandangnya membentuk pilihan-pilihannya, apa artinya bagi langkah kita berikutnya, bagaimana kita bisa menciptakan hasil yang lebih baik bersama-sama. Kenapa ini penting: empati sangat berperan dalam membangun hubungan jangka panjang yang berlandaskan kepercayaan. Kita menciptakan keterlibatan yang lebih dalam saat rekan-rekan kita merasa didengarkan, dihargai, dan dipahami. Mari rangkum pertanyaan kunci yang perlu kamu ajukan pada dirimu untuk memulai."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 7 slides",
-        "id": "Baca berikutnya · 7 slide"
-       },
-       "title": {
-        "en": "Active Listening: Material",
-        "id": "Mendengarkan Secara Aktif: Materi"
-       },
-       "intro": {
-        "en": "Next, seven slides turn empathy into practice. The first names four active-listening skills with example phrases (support and encouragement, reflect and summarise, offer help, dig deeper). Then two scenarios you answer yourself: Disaster 2.0, where MODA’s CEO Kobi Badu confronts Aaliyah about resistance to the transformation, and Help Noah, where Noah must tell Maryam the analysis scope has grown. Three exchanges, each with a knowledge check and the best empathetic response explained. Read them, choose your answer before you read the “That’s right!” panel, then continue to the slides that follow.",
-        "id": "Berikutnya, tujuh slide mengubah empati menjadi praktik. Slide pertama menyebut empat keterampilan mendengarkan secara aktif beserta contoh kalimatnya (memberi dukungan dan semangat, memantulkan dan merangkum, menawarkan bantuan, menggali lebih dalam). Lalu ada dua skenario yang kamu jawab sendiri: Bencana 2.0, ketika CEO MODA, Kobi Badu, mengonfrontasi Aaliyah soal penolakan terhadap transformasi; dan Bantu Noah, ketika Noah harus memberi tahu Maryam bahwa cakupan analisisnya bertambah. Ada tiga percakapan, masing-masing dengan cek pemahaman dan penjelasan tentang respons empatik yang terbaik. Baca semuanya, pilih jawabanmu sebelum membaca panel “Tepat sekali!”, lalu lanjutkan ke slide berikutnya."
-       },
-       "base": "../../assets/lms/the-map/slides/listening-",
-       "slides": [
-        {
-         "title": {
-          "en": "Active listening",
-          "id": "Mendengarkan secara aktif"
-         },
-         "text": {
-          "en": "Key skills. Active listening is an important part of demonstrating empathy. Here are several ways to demonstrate and practice active listening in your interactions. “I am truly listening and trying to understand your perspective.” 1 Provide support and encouragement. Give responses that encourage and show that you are engaged; validate their feelings; use non-verbal cues that show attention (e.g., nodding, smiling, maintaining eye contact, open body posture). Example phrases: “Yes, I understand.” “Of course, please continue.” “That must be challenging. I can imagine how difficult that is for you.” 2 Reflect and summarize. Briefly summarize what they have said to ensure understanding; paraphrase using your own words; use reflective statements to show that you are listening. Example phrases: “So, if I understand correctly, there are three main points you are raising, which are …” “It sounds like you’re saying …” “You seem upset by that. It sounds like you felt angry with him.” 3 Offer help. Show empathy by asking if there is anything you can do to help; ask about their needs openly; consider possible solutions together, rather than immediately giving answers. Example phrases: “Is there anything I can do to help?” “What do you need from me right now?” “How can we work on this together?” 4 Dig deeper. Ask clarifying questions to understand more deeply; use open-ended questions to encourage them to share more; show genuine curiosity to learn more. Example phrases: “Why do you think that happened?” “What are the main issues here from your perspective?” “How are you feeling about this project?” “What’s coming up for you this week?”",
-          "id": "Keterampilan kunci. Mendengarkan secara aktif adalah bagian penting dari menunjukkan empati. Berikut beberapa cara menunjukkan dan melatih mendengarkan secara aktif dalam interaksimu. “Aku benar-benar mendengarkan dan berusaha memahami sudut pandangmu.” 1 Beri dukungan dan semangat. Berikan respons yang menyemangati dan menunjukkan bahwa kamu terlibat; akui perasaannya; pakai isyarat nonverbal yang menunjukkan perhatian (misalnya mengangguk, tersenyum, menjaga kontak mata, sikap tubuh yang terbuka). Contoh kalimat: “Ya, aku paham.” “Tentu, silakan lanjutkan.” “Pasti berat ya. Aku bisa membayangkan betapa sulitnya itu bagimu.” 2 Pantulkan dan rangkum. Rangkum singkat apa yang ia katakan untuk memastikan kamu paham; ulangi dengan kata-katamu sendiri; pakai kalimat pantulan untuk menunjukkan bahwa kamu mendengarkan. Contoh kalimat: “Jadi, kalau aku tidak salah tangkap, ada tiga hal utama yang kamu sampaikan, yaitu …” “Kedengarannya kamu bilang …” “Kamu kelihatan kesal soal itu. Kedengarannya kamu marah padanya.” 3 Tawarkan bantuan. Tunjukkan empati dengan bertanya apakah ada yang bisa kamu bantu; tanyakan kebutuhannya secara terbuka; pertimbangkan kemungkinan solusi bersama-sama, alih-alih langsung memberi jawaban. Contoh kalimat: “Ada yang bisa aku bantu?” “Apa yang kamu butuhkan dariku sekarang?” “Bagaimana kalau kita garap ini bersama?” 4 Gali lebih dalam. Ajukan pertanyaan klarifikasi untuk memahami lebih dalam; pakai pertanyaan terbuka supaya ia mau bercerita lebih banyak; tunjukkan rasa ingin tahu yang tulus. Contoh kalimat: “Menurutmu kenapa itu bisa terjadi?” “Dari sudut pandangmu, apa masalah utamanya?” “Bagaimana perasaanmu soal proyek ini?” “Apa saja yang ada di pikiranmu minggu ini?”"
-         }
-        },
-        {
-         "title": {
-          "en": "Scenario: Disaster 2.0",
-          "id": "Skenario: Bencana 2.0"
-         },
-         "text": {
-          "en": "A new challenge arises. Let’s see how Aaliyah navigates this difficult conversation. End of the day; Aaliyah receives a meeting request from Kobi Badu, MODA’s CEO. Kobi wants to have a quick check-in at 6pm. Kobi Badu, CEO, MODA: “It’s late. Let me just cut to the chase, Aaliyah. I’m already hearing some talk in the office about mixed feelings around this transformation from senior leaders. They clearly don’t understand the motivation behind this effort. This is based on real data, not personal preferences. As you know, the last attempt at a transformation at MODA was a bit of a disaster. People are already calling this Disaster 2.0. It’s not a nickname I love! But they clearly have their own agendas. There’s a lot of politics at play here. Are you prepared to respond to this?” Knowledge check: MODA. How would you respond in Aaliyah’s position? 1 What is Kobi’s main concern in this conversation? 2 What might be driving the resistance from senior leaders? 3 What would be an effective and empathetic way for Aaliyah to respond?",
-          "id": "Tantangan baru muncul. Mari lihat cara Aaliyah melewati percakapan yang sulit ini. Menjelang akhir hari, Aaliyah menerima undangan rapat dari Kobi Badu, CEO MODA. Kobi ingin bertemu sebentar pukul 6 sore. Kobi Badu, CEO, MODA: “Sudah larut. Saya langsung saja, Aaliyah. Saya sudah mendengar obrolan di kantor bahwa para pemimpin senior punya perasaan campur aduk soal transformasi ini. Jelas mereka tidak memahami alasan di balik upaya ini. Ini berdasarkan data nyata, bukan selera pribadi. Seperti kamu tahu, upaya transformasi MODA yang terakhir agak jadi bencana. Orang-orang sudah menyebut yang ini Bencana 2.0. Itu bukan julukan yang saya sukai! Tapi jelas mereka punya agenda masing-masing. Banyak politik yang bermain di sini. Kamu siap menghadapi ini?” Cek pemahaman: MODA. Bagaimana kamu akan merespons kalau kamu di posisi Aaliyah? 1 Apa kekhawatiran utama Kobi dalam percakapan ini? 2 Apa yang mungkin mendorong penolakan dari para pemimpin senior? 3 Apa cara merespons yang efektif dan berempati bagi Aaliyah?"
-         }
-        },
-        {
-         "title": {
-          "en": "Knowledge check: how can Aaliyah respond to Kobi to demonstrate empathy?",
-          "id": "Cek pemahaman: bagaimana Aaliyah bisa merespons Kobi dengan menunjukkan empati?"
-         },
-         "text": {
-          "en": "Review the following options. Then select the best answer and click Submit. Options: “I understand. How about we be more transparent about sharing the data? The data speaks for itself.” “I understand. This is good to know. I’ll be sending company-wide email updates on a regular basis, which I’m sure will help address this issue.” “I understand. Why do you think they have their own agendas? Can you tell me more?” Correct. That’s right! This is an empathetic response because Aaliyah uses open questions to understand Kobi’s perspective, which can uncover deeper insights and build trust. Aaliyah: “I understand. Why do you think they have their own agendas? Can you tell me more?” Why this is the best answer: shows empathy: acknowledges Kobi’s concern and shows genuine interest in his perspective; uncovers deeper insights: open questions invite Kobi to share more, revealing underlying issues and motivations; builds trust and collaboration: demonstrates a willingness to listen and understand, which can lead to a more constructive and inclusive conversation. Key takeaway: practicing active listening by digging deeper and asking clarifying questions helps you understand others’ perspectives, uncovers hidden motivations, and creates stronger, more collaborative relationships.",
-          "id": "Tinjau pilihan-pilihan berikut. Lalu pilih jawaban terbaik dan klik Kirim. Pilihan: “Saya mengerti. Bagaimana kalau kita lebih terbuka membagikan datanya? Datanya sudah bicara sendiri.” “Saya mengerti. Ini bagus untuk diketahui. Saya akan mengirim kabar terbaru lewat email ke seluruh perusahaan secara rutin, dan saya yakin itu akan membantu mengatasi masalah ini.” “Saya mengerti. Menurut Bapak, kenapa mereka punya agenda masing-masing? Bisa ceritakan lebih banyak?” Benar. Tepat sekali! Ini respons yang berempati karena Aaliyah memakai pertanyaan terbuka untuk memahami sudut pandang Kobi, yang bisa mengungkap wawasan lebih dalam dan membangun kepercayaan. Aaliyah: “Saya mengerti. Menurut Bapak, kenapa mereka punya agenda masing-masing? Bisa ceritakan lebih banyak?” Kenapa ini jawaban terbaik: menunjukkan empati, yaitu mengakui kekhawatiran Kobi dan menunjukkan minat tulus pada sudut pandangnya; mengungkap wawasan lebih dalam, karena pertanyaan terbuka mengundang Kobi bercerita lebih banyak dan memperlihatkan masalah serta motivasi di baliknya; membangun kepercayaan dan kerja sama, karena menunjukkan kesediaan mendengarkan dan memahami, yang bisa membawa ke percakapan yang lebih membangun dan inklusif. Poin penting: berlatih mendengarkan secara aktif dengan menggali lebih dalam dan mengajukan pertanyaan klarifikasi membantumu memahami sudut pandang orang lain, mengungkap motivasi yang tersembunyi, dan menciptakan hubungan yang lebih kuat dan kolaboratif."
-         }
-        },
-        {
-         "title": {
-          "en": "Scenario: Help Noah: broaden the scope of analysis",
-          "id": "Skenario: Bantu Noah: memperluas cakupan analisis"
-         },
-         "text": {
-          "en": "In the previous section, you learned how to put yourself in the other person’s shoes to understand their perspective. Now it’s your turn to practice. Noah: “I need to broaden the scope of this analysis.” Maryam: “Okay, what changes are we looking at?” 1 A change of plans. Read the scenario below and start the conversation. 2 Context of the situation: earlier today, Noah quickly touched base with Maryam following his meeting with Aaliyah to let her know about the data analysis requirements he needs her team to work on. After discussing the analysis with his department leadership, he realized that the scope of his original request won’t be sufficient and needs to be broadened to make the analysis more effective. 3 Time to share the change: luckily, he spots Maryam across the office, so he can let her know about the changes. Key takeaway: being empathetic and transparent about changes helps build trust, align perspectives, and create better collaboration.",
-          "id": "Di bagian sebelumnya, kamu sudah belajar menempatkan dirimu di posisi orang lain untuk memahami sudut pandangnya. Sekarang giliranmu berlatih. Noah: “Aku perlu memperluas cakupan analisis ini.” Maryam: “Oke, perubahan apa saja yang kita bicarakan?” 1 Perubahan rencana. Baca skenario di bawah dan mulai percakapannya. 2 Konteks situasinya: tadi pagi, setelah rapat dengan Aaliyah, Noah sempat menemui Maryam sebentar untuk memberi tahu kebutuhan analisis data yang perlu dikerjakan tim Maryam. Setelah membahas analisis itu dengan pimpinan departemennya, ia sadar bahwa cakupan permintaan awalnya tidak akan cukup dan perlu diperluas supaya analisisnya lebih efektif. 3 Saatnya menyampaikan perubahan: untungnya, ia melihat Maryam di seberang ruangan, jadi ia bisa langsung memberi tahu soal perubahannya. Poin penting: berempati dan terbuka soal perubahan membantu membangun kepercayaan, menyelaraskan sudut pandang, dan menciptakan kerja sama yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "Knowledge check: how should Noah respond to Maryam’s agreement to the new scope?",
-          "id": "Cek pemahaman: bagaimana sebaiknya Noah merespons persetujuan Maryam atas cakupan baru?"
-         },
-         "text": {
-          "en": "Review the information below. Then select the best answer and click Submit. Options: “OK, thanks for jumping on this. How are you and your team doing? Things are really starting to pick up and I’m sure these last-minute requests don’t help.” “Sounds great, I knew you all could handle it. Thanks for the push. I know things are really starting to pick up. Feel free to reach out if you have any concerns about the timeline.” “OK, great. Thanks for jumping on this, I knew your team could handle it. It seems doable to you, right?” Think about it: how can Noah acknowledge Maryam’s perspective and workload? What type of response builds trust and encourages open communication? Correct. That’s right! This is a strong, empathetic response because Noah acknowledges Maryam’s perspective and workload, which helps build trust and keeps the conversation collaborative. Noah: “OK, thanks for jumping on this. How are you and your team doing? Things are really starting to pick up and I’m sure these last-minute requests don’t help.” Maryam: “Uhh, yeah, that’s fine. We’ll work it out.” Why this is the best answer: shows empathy: acknowledges Maryam’s workload and challenges; builds trust: opens the door for a more honest and constructive discussion; encourages collaboration: creates a supportive environment to share more details. Key takeaway: great job picking up on Maryam’s underlying mindset and asking her open-ended questions to try and uncover what may be bothering her.",
-          "id": "Tinjau informasi di bawah. Lalu pilih jawaban terbaik dan klik Kirim. Pilihan: “Oke, makasih sudah langsung menanganinya. Bagaimana kabarmu dan timmu? Kerjaan makin padat, dan aku yakin permintaan mendadak seperti ini tidak membantu.” “Mantap, aku tahu kalian pasti bisa. Makasih dorongannya. Aku tahu kerjaan makin padat. Kabari aku saja kalau ada kekhawatiran soal jadwalnya.” “Oke, mantap. Makasih sudah langsung menanganinya, aku tahu timmu pasti bisa. Kelihatannya masih bisa dikerjakan, kan?” Coba pikirkan: bagaimana Noah bisa mengakui sudut pandang dan beban kerja Maryam? Respons seperti apa yang membangun kepercayaan dan mendorong komunikasi yang terbuka? Benar. Tepat sekali! Ini respons yang kuat dan berempati karena Noah mengakui sudut pandang dan beban kerja Maryam, yang membantu membangun kepercayaan dan menjaga percakapannya tetap kolaboratif. Noah: “Oke, makasih sudah langsung menanganinya. Bagaimana kabarmu dan timmu? Kerjaan makin padat, dan aku yakin permintaan mendadak seperti ini tidak membantu.” Maryam: “Ehm, iya, tidak apa-apa. Nanti kami atur.” Kenapa ini jawaban terbaik: menunjukkan empati, yaitu mengakui beban kerja dan tantangan Maryam; membangun kepercayaan, yaitu membuka pintu untuk diskusi yang lebih jujur dan membangun; mendorong kerja sama, yaitu menciptakan suasana yang mendukung untuk berbagi detail lebih banyak. Poin penting: bagus sekali kamu menangkap pola pikir Maryam di balik jawabannya dan mengajukan pertanyaan terbuka untuk mencoba mengungkap apa yang mungkin mengganjal baginya."
-         }
-        },
-        {
-         "title": {
-          "en": "Scenario: Help Noah: last-minute requests",
-          "id": "Skenario: Bantu Noah: permintaan mendadak"
-         },
-         "text": {
-          "en": "Maryam has just answered Noah’s last-minute request to expand the scope of analysis. How should Noah respond? Review the following information. Then select the best answer and click Submit. Maryam: “We’re ok, thanks for asking. Honestly, the timeline for adding this new scope concerns me a bit – it may be doable, but it will really push the team and may put other things that are important to us at risk. It also would be good to be a part of future discussions to expand the analysis with the Digital department heads next time.” Options: “Thanks for letting me know. We had a quick meeting this morning and it came up. Let’s talk through the timeline to make it more manageable. It’s good that you flagged this issue now. How much more time do you think your team might need?” “OK, thanks for bringing this up. Let’s talk through the timeline to make it more manageable, and I’m happy to include you in future key discussions. So tell me, what else is on your mind?” “Thanks for letting me know. We had a quick meeting this morning, but it was just for department leadership. Let’s brainstorm some ways we can get the analyses done in time. I’m sure we can figure something out together.” Why is the second option the best response? Shows empathy: acknowledges Maryam’s concerns and workload; opens the conversation: asks open-ended questions to understand the full scope and underlying needs; builds collaboration: invites Maryam into future discussions, strengthening alignment and trust. Key takeaway: being empathetic and collaborative when facing last-minute requests helps build trust, align expectations, and lead to better outcomes.",
-          "id": "Maryam baru saja menjawab permintaan mendadak Noah untuk memperluas cakupan analisis. Bagaimana sebaiknya Noah merespons? Tinjau informasi berikut. Lalu pilih jawaban terbaik dan klik Kirim. Maryam: “Kami baik-baik saja, makasih sudah bertanya. Jujur, jadwal untuk cakupan baru ini agak bikin aku khawatir. Mungkin masih bisa, tapi tim bakal benar-benar terdesak, dan bisa mengorbankan hal-hal lain yang penting buat kami. Akan bagus juga kalau lain kali kami dilibatkan dalam diskusi soal perluasan analisis bersama para kepala departemen Digital.” Pilihan: “Makasih sudah memberi tahu. Tadi pagi kami rapat sebentar dan hal ini muncul. Ayo kita bahas jadwalnya supaya lebih terkelola. Bagus kamu menyampaikan masalah ini sekarang. Kira-kira timmu butuh tambahan waktu berapa lama?” “Oke, makasih sudah menyampaikannya. Ayo kita bahas jadwalnya supaya lebih terkelola, dan aku senang melibatkanmu di diskusi-diskusi penting berikutnya. Jadi, apa lagi yang ada di pikiranmu?” “Makasih sudah memberi tahu. Tadi pagi kami rapat sebentar, tapi khusus untuk pimpinan departemen. Ayo kita cari cara supaya analisisnya selesai tepat waktu. Aku yakin kita bisa menemukan jalannya bersama.” Kenapa pilihan kedua respons terbaik? Menunjukkan empati: mengakui kekhawatiran dan beban kerja Maryam; membuka percakapan: mengajukan pertanyaan terbuka untuk memahami cakupan utuh dan kebutuhan di baliknya; membangun kerja sama: melibatkan Maryam di diskusi berikutnya, sehingga keselarasan dan kepercayaan makin kuat. Poin penting: berempati dan kolaboratif saat menghadapi permintaan mendadak membantu membangun kepercayaan, menyelaraskan harapan, dan membawa ke hasil yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "Scenario: Help Noah: let’s talk it through",
-          "id": "Skenario: Bantu Noah: ayo kita bahas"
-         },
-         "text": {
-          "en": "Maryam has just shared her concerns about the timeline. How should Noah respond? Review the following information. Then select the best answer and click Submit. Maryam: “We’re okay, thanks for asking. Honestly, the timeline for adding this new scope concerns me a bit – it may be doable, but it will really push the team and may put other important things at risk for us. I’ve had some bad experiences in the past with other teams leaving me out of key meetings, and that made it difficult for me to stay aligned. Please try to involve my team and me in these decisions moving forward as much as possible.” Options: “That sounds like a frustrating experience, but you got through it and I’m sure you learned some valuable lessons along the way, no? Keep at it, you’re doing great so far and I know you’ll be able to handle it.” “Thanks for sharing how you’ve been feeling. It sounds like you’ve had a pretty frustrating experience. I’ll make sure you and your team are included moving forward. What else can I do to help with the timeline concerns?” “I understand your timeline concerns. Let’s try to work those out so that it doesn’t impact you too much. I’ll make sure you and your team are included moving forward. Your background and experience will be really helpful.” Why is the second option the best response? Shows empathy: acknowledges Maryam’s concerns and experience; builds trust: invites further discussion to understand the bigger picture and underlying needs; encourages collaboration: ensures Maryam and her team are included in future discussions. Key takeaway: being empathetic and collaborative when facing timeline concerns helps build trust, align expectations, and create stronger collaboration, leading to better outcomes.",
-          "id": "Maryam baru saja menyampaikan kekhawatirannya soal jadwal. Bagaimana sebaiknya Noah merespons? Tinjau informasi berikut. Lalu pilih jawaban terbaik dan klik Kirim. Maryam: “Kami baik-baik saja, makasih sudah bertanya. Jujur, jadwal untuk cakupan baru ini agak bikin aku khawatir. Mungkin masih bisa, tapi tim bakal benar-benar terdesak, dan bisa mengorbankan hal-hal penting lain buat kami. Dulu aku pernah punya pengalaman buruk dengan tim lain yang tidak melibatkanku di rapat-rapat penting, dan itu bikin aku sulit tetap selaras. Tolong usahakan melibatkan aku dan timku dalam keputusan-keputusan seperti ini ke depannya.” Pilihan: “Kedengarannya pengalaman itu bikin frustrasi, tapi kamu berhasil melewatinya dan aku yakin kamu belajar banyak hal berharga dari situ, kan? Terus semangat, sejauh ini kamu hebat dan aku tahu kamu pasti bisa menghadapinya.” “Makasih sudah cerita soal perasaanmu. Kedengarannya pengalaman itu cukup bikin frustrasi. Aku akan pastikan kamu dan timmu dilibatkan ke depannya. Apa lagi yang bisa aku bantu soal kekhawatiran jadwalnya?” “Aku paham kekhawatiranmu soal jadwal. Ayo kita atur supaya tidak terlalu berdampak padamu. Aku akan pastikan kamu dan timmu dilibatkan ke depannya. Latar belakang dan pengalamanmu akan sangat membantu.” Kenapa pilihan kedua respons terbaik? Menunjukkan empati: mengakui kekhawatiran dan pengalaman Maryam; membangun kepercayaan: mengundang diskusi lebih lanjut untuk memahami gambaran besar dan kebutuhan di baliknya; mendorong kerja sama: memastikan Maryam dan timnya dilibatkan di diskusi berikutnya. Poin penting: berempati dan kolaboratif saat menghadapi kekhawatiran soal jadwal membantu membangun kepercayaan, menyelaraskan harapan, dan menciptakan kerja sama yang lebih kuat, sehingga hasilnya lebih baik."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "Key Takeaways: Material",
-        "id": "Poin Penting: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “Key Takeaways”. Read them at your own pace.",
-        "id": "Slide-slide ini membahas “Poin Penting”. Baca sesuai ritmemu."
-       },
-       "base": "../../assets/lms/the-map/slides/empathy-takeaways-",
-       "slides": [
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "Module wrap-up. Here are the key tools and resources to remember from this module. In this module, we have covered the following key tools: Empathy. Use this to put yourself in the other person’s shoes and understand their needs before entering into an interaction with them. Key reminder: seek to understand, not to respond. Active listening. Use behaviors like validating, summarizing, and clarifying to demonstrate empathy to the person you are interacting with. Key reminder: listen with intention and show it through your responses. Resources you may also wish to explore: “Brené Brown on empathy” (YouTube); “Tuning in, turning outward: cultivating compassionate leadership in a crisis” (McKinsey & Company); “The secret of empathy” (McGill University).",
-          "id": "Penutup modul. Berikut alat-alat utama dan bacaan yang perlu diingat dari modul ini. Di modul ini, kita sudah membahas alat-alat utama berikut: Empati. Pakai ini untuk menempatkan dirimu di posisi orang lain dan memahami kebutuhannya sebelum berinteraksi dengannya. Pengingat utama: berusahalah memahami, bukan sekadar menjawab. Mendengarkan secara aktif. Pakai perilaku seperti mengakui perasaan, merangkum, dan mengklarifikasi untuk menunjukkan empati kepada orang yang sedang berinteraksi denganmu. Pengingat utama: dengarkan dengan sengaja dan tunjukkan lewat responsmu. Bacaan lain yang mungkin ingin kamu telusuri: “Brené Brown on empathy” (YouTube); “Tuning in, turning outward: cultivating compassionate leadership in a crisis” (McKinsey & Company); “The secret of empathy” (McGill University)."
-         }
-        },
-        {
-         "title": {
-          "en": "Back at MODA: what is Aaliyah’s purpose?",
-          "id": "Kembali ke MODA: apa tujuan Aaliyah?"
-         },
-         "text": {
-          "en": "Story context. Let’s revisit Aaliyah’s situation before moving on to the next activity. Aaliyah will be leading an introduction meeting with the transformation team this week. 1 What is Aaliyah’s purpose? Take a few minutes to watch this video and reflect on the conversation between Aaliyah, David, and Noah. 2 So much ground to cover … Later this week, Aaliyah is planning to lead an introduction meeting with the transformation team. She wants to ensure that she uses the time efficiently. She has a packed agenda and is feeling stuck. Aaliyah calls David Fu, a senior employee at MODA and advisor to the transformation team, for help. Aaliyah’s current situation: wants to use time efficiently; has a packed agenda; feels a bit stuck; needs input from David Fu. David Fu, senior employee at MODA and advisor to the transformation team. Aaliyah reaches out to David Fu for guidance.",
-          "id": "Konteks cerita. Mari kita lihat lagi situasi Aaliyah sebelum lanjut ke kegiatan berikutnya. Minggu ini, Aaliyah akan memimpin rapat perkenalan dengan tim transformasi. 1 Apa tujuan Aaliyah? Luangkan beberapa menit untuk menonton video ini dan merenungkan percakapan antara Aaliyah, David, dan Noah. 2 Begitu banyak yang ingin dibahas … Akhir minggu ini, Aaliyah berencana memimpin rapat perkenalan dengan tim transformasi. Ia ingin memastikan waktunya terpakai dengan efisien. Agendanya padat dan ia merasa buntu. Aaliyah menelepon David Fu, karyawan senior di MODA sekaligus penasihat tim transformasi, untuk meminta bantuan. Situasi Aaliyah saat ini: ingin memakai waktu dengan efisien; agendanya padat; merasa agak buntu; butuh masukan dari David Fu. David Fu, karyawan senior di MODA dan penasihat tim transformasi. Aaliyah menghubungi David Fu untuk meminta arahan."
-         }
-        },
-        {
-         "title": {
-          "en": "Compare to expert: Aaliyah’s purpose for the kick-off",
-          "id": "Bandingkan dengan jawaban ahli: tujuan Aaliyah untuk rapat pembuka"
-         },
-         "text": {
-          "en": "Reflection. Take a moment to think about Aaliyah’s purpose for the kick-off meeting. Then, go deeper and describe how she might go about achieving her purpose. 1 Reflect: think about Aaliyah’s purpose for the kick-off meeting. 2 Write your response. Go deeper and describe how she might go about achieving her purpose. 3 Compare. When you are finished, click See Expert Response to compare your response to an expert’s view. Aaliyah, kick-off meeting with the transformation team: “What is Aaliyah’s purpose for this meeting, and how can she achieve it?” Key questions to consider: how can she build strong relationships with the transformation team? How can she clearly explain the purpose and create alignment? What steps can she take to ensure effective collaboration moving forward? Expert response: based on the conversation we just saw, we know that Aaliyah has a lot on her agenda. But her primary purpose is to build rapport with the transformation team and explain how they will collaborate moving forward. The most effective way for Aaliyah to achieve her purpose is to include her audience’s needs in her agenda. A shared purpose will get her farther faster than one simply based on her individual needs. Key insight: a shared purpose creates alignment, builds trust, and leads to more effective collaboration.",
-          "id": "Renungan. Luangkan waktu untuk memikirkan tujuan Aaliyah untuk rapat pembuka. Lalu gali lebih dalam dan jelaskan bagaimana ia bisa mencapai tujuan itu. 1 Renungkan: pikirkan tujuan Aaliyah untuk rapat pembuka. 2 Tulis jawabanmu. Gali lebih dalam dan jelaskan bagaimana ia bisa mencapai tujuannya. 3 Bandingkan. Setelah selesai, klik Lihat Jawaban Ahli untuk membandingkan jawabanmu dengan pandangan ahli. Aaliyah, rapat pembuka dengan tim transformasi: “Apa tujuan Aaliyah untuk rapat ini, dan bagaimana ia bisa mencapainya?” Pertanyaan kunci yang perlu dipertimbangkan: bagaimana ia bisa membangun hubungan yang kuat dengan tim transformasi? Bagaimana ia bisa menjelaskan tujuannya dengan jelas dan menciptakan keselarasan? Langkah apa yang bisa ia ambil untuk memastikan kerja sama yang efektif ke depannya? Jawaban ahli: dari percakapan yang baru kita lihat, kita tahu bahwa agenda Aaliyah sangat padat. Tetapi tujuan utamanya adalah membangun kedekatan dengan tim transformasi dan menjelaskan cara mereka akan bekerja sama ke depannya. Cara paling efektif bagi Aaliyah untuk mencapai tujuannya adalah memasukkan kebutuhan audiensnya ke dalam agendanya. Tujuan bersama akan membawanya lebih jauh dan lebih cepat daripada tujuan yang hanya berdasarkan kebutuhannya sendiri. Wawasan kunci: tujuan bersama menciptakan keselarasan, membangun kepercayaan, dan membawa ke kerja sama yang lebih efektif."
-         }
-        }
-       ]
-      }
-     ],
      "videos": [
       {
        "src": {
@@ -6717,14 +6403,581 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:1",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows these slides: Fajar, a careful update nobody finished reading, and the five ways a message fails. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide ini: Fajar, laporan rapi yang tak selesai dibaca, dan lima cara sebuah pesan gagal. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Fajar, a careful update nobody finished reading, and the five ways a message fails. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Fajar, laporan rapi yang tak selesai dibaca, dan lima cara sebuah pesan gagal. Tonton, lalu lanjutkan ke bacaan di bawah."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "Five Ways a Message Fails",
+       "id": "Lima Cara Sebuah Pesan Gagal"
+      },
+      "intro": {
+       "en": "Seven ideas in a few minutes. Then a short film, and the reading below turns each idea into something you can check in your own messages.",
+       "id": "Tujuh gagasan dalam beberapa menit. Setelah itu satu film singkat, lalu bacaan di bawah mengubah setiap gagasan menjadi sesuatu yang bisa kamu periksa di pesanmu sendiri."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The audience owns the meaning",
+         "id": "Makna ada di tangan audiens"
+        },
+        "points": [
+         {
+          "en": "Most communication failures are design failures. They happen before anyone speaks.",
+          "id": "Sebagian besar kegagalan komunikasi adalah kegagalan rancangan. Terjadinya sebelum siapa pun membuka mulut."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Five challenges",
+         "id": "Lima tantangan"
+        },
+        "points": [
+         {
+          "en": "Read the five and notice which two sound like you.",
+          "id": "Baca kelimanya dan perhatikan dua yang paling terasa seperti dirimu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Burying the lead",
+         "id": "Mengubur inti pesan"
+        },
+        "points": [
+         {
+          "en": "The same facts, in two orders. Only one of them gets a decision.",
+          "id": "Fakta yang sama, dalam dua urutan. Hanya satu yang menghasilkan keputusan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The curse of knowledge",
+         "id": "Kutukan pengetahuan"
+        },
+        "points": [
+         {
+          "en": "Once you know something, you cannot remember not knowing it. So you explain from the summit.",
+          "id": "Begitu kamu tahu sesuatu, kamu tak bisa lagi mengingat rasanya belum tahu. Maka kamu menjelaskan dari puncak."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Check what landed",
+         "id": "Cek apa yang sampai"
+        },
+        "points": [
+         {
+          "en": "Listening is half of communicating. It is also the half most people skip.",
+          "id": "Mendengarkan adalah separuh dari berkomunikasi. Separuh inilah yang paling sering dilewatkan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Stakes freeze",
+         "id": "Beku saat taruhannya tinggi"
+        },
+        "points": [
+         {
+          "en": "It is not a flaw in your personality. The material was never practised under pressure.",
+          "id": "Itu bukan cacat kepribadian. Materinya memang belum pernah dilatih di bawah tekanan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Audit one message",
+         "id": "Audit satu pesan"
+        },
+        "points": [
+         {
+          "en": "An email to a lecturer, a project update, an application answer: take one and score it.",
+          "id": "Email ke dosen, laporan proyek, jawaban lamaran: ambil satu dan nilai."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/two-different-muscles.jpg",
+       "module": {
+        "en": "Module 4 · Communication for Impact",
+        "id": "Modul 4 · Komunikasi yang Berdampak"
+       },
+       "lesson": {
+        "n": "4.1",
+        "title": {
+         "en": "Common Communication Challenges",
+         "id": "Tantangan Komunikasi yang Umum Terjadi"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "What they understood is what you communicated, whatever you meant",
+         "id": "Yang mereka pahami, itulah yang kamu sampaikan, apa pun maksudmu"
+        },
+        {
+         "en": "Five challenges sink most early-career messages, and most people repeat the same two",
+         "id": "Lima tantangan menggagalkan sebagian besar pesan di awal karier, dan kebanyakan orang mengulang dua yang sama"
+        },
+        {
+         "en": "At work, people want the point first and the journey second",
+         "id": "Di dunia kerja, orang ingin intinya dulu, baru ceritanya"
+        },
+        {
+         "en": "The better you know it, the more steps you skip when you explain it",
+         "id": "Makin kamu menguasainya, makin banyak langkah yang kamu lompati saat menjelaskannya"
+        },
+        {
+         "en": "A message is finished when you have checked what landed, not when you have sent it",
+         "id": "Sebuah pesan selesai saat kamu sudah mengecek apa yang sampai, bukan saat kamu mengirimnya"
+        },
+        {
+         "en": "Nervousness is unrehearsed material meeting an audience that matters",
+         "id": "Gugup adalah materi yang belum dilatih bertemu audiens yang penting"
+        },
+        {
+         "en": "Score your last important message against four questions, and find your pair",
+         "id": "Nilai pesan penting terakhirmu dengan empat pertanyaan, dan temukan pasanganmu"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The audience owns the meaning",
+          "id": "Makna ada di tangan audiens"
+         },
+         "p": {
+          "en": "Judge a message by what the reader does next, not by how much work went into it.",
+          "id": "Nilai sebuah pesan dari apa yang dilakukan pembacanya setelah itu, bukan dari seberapa banyak kerja di baliknya."
+         }
+        },
+        {
+         "h": {
+          "en": "Five challenges",
+          "id": "Lima tantangan"
+         },
+         "p": {
+          "en": "Read the five and notice which two sound like you.",
+          "id": "Baca kelimanya dan perhatikan dua yang paling terasa seperti dirimu."
+         }
+        },
+        {
+         "h": {
+          "en": "Burying the lead",
+          "id": "Mengubur inti pesan"
+         },
+         "p": {
+          "en": "If the reader stops after line one, they should still have the point.",
+          "id": "Kalau pembaca berhenti di baris pertama, intinya tetap harus sudah mereka dapat."
+         }
+        },
+        {
+         "h": {
+          "en": "The curse of knowledge",
+          "id": "Kutukan pengetahuan"
+         },
+         "p": {
+          "en": "The cure is not dumbing down. It is putting back the steps you no longer notice.",
+          "id": "Obatnya bukan menyederhanakan berlebihan. Obatnya mengembalikan langkah-langkah yang tak lagi kamu sadari."
+         }
+        },
+        {
+         "h": {
+          "en": "Check what landed",
+          "id": "Cek apa yang sampai"
+         },
+         "p": {
+          "en": "Listening is half of communicating. It is also the half most people skip.",
+          "id": "Mendengarkan adalah separuh dari berkomunikasi. Separuh inilah yang paling sering dilewatkan."
+         }
+        },
+        {
+         "h": {
+          "en": "Stakes freeze",
+          "id": "Beku saat taruhannya tinggi"
+         },
+         "p": {
+          "en": "It is not a flaw in your personality. The material was never practised under pressure.",
+          "id": "Itu bukan cacat kepribadian. Materinya memang belum pernah dilatih di bawah tekanan."
+         }
+        },
+        {
+         "h": {
+          "en": "Audit one message",
+          "id": "Audit satu pesan"
+         },
+         "p": {
+          "en": "Most people fail the same two for years. Naming your pair is the most useful twenty minutes in this module.",
+          "id": "Kebanyakan orang gagal di dua hal yang sama selama bertahun-tahun. Menemukan pasanganmu adalah dua puluh menit paling berguna di modul ini."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "What they understood is what you communicated, whatever you meant",
+          "id": "Yang mereka pahami, itulah yang kamu sampaikan, apa pun maksudmu"
+         },
+         "em": {
+          "en": "What they understood",
+          "id": "Yang mereka pahami"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "A careful update: three hundred words, complete, in the order things happened.",
+           "id": "Laporan yang rapi: tiga ratus kata, lengkap, urut sesuai kejadian.",
+           "l": {
+            "en": "What you sent",
+            "id": "Yang kamu kirim"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Two lines read, then one question back: “So, are we on track?”",
+           "id": "Dua baris dibaca, lalu satu pertanyaan balik: “Jadi, kita sesuai jadwal atau tidak?”",
+           "l": {
+            "en": "What landed",
+            "id": "Yang sampai"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "band": {
+          "en": "Judge a message by what the reader does next, not by how much work went into it.",
+          "id": "Nilai sebuah pesan dari apa yang dilakukan pembacanya setelah itu, bukan dari seberapa banyak kerja di baliknya."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Five challenges sink most early-career messages, and most people repeat the same two",
+          "id": "Lima tantangan menggagalkan sebagian besar pesan di awal karier, dan kebanyakan orang mengulang dua yang sama"
+         },
+         "em": {
+          "en": "the same two",
+          "id": "dua yang sama"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "layers",
+           "en": "Burying the lead",
+           "id": "Mengubur inti pesan",
+           "d": {
+            "en": "Telling it in order, so the point arrives last",
+            "id": "Bercerita berurutan, sehingga intinya muncul paling akhir"
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "brain",
+           "en": "The curse of knowledge",
+           "id": "Kutukan pengetahuan",
+           "d": {
+            "en": "Skipping steps you no longer notice",
+            "id": "Melompati langkah yang tak lagi kamu sadari"
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "mountain",
+           "en": "Wrong altitude",
+           "id": "Ketinggian yang salah",
+           "d": {
+            "en": "Detail when they needed the summary, or the reverse",
+            "id": "Detail saat mereka butuh ringkasan, atau sebaliknya"
+           },
+           "img": "../../assets/bg/map-hero.jpg"
+          },
+          {
+           "icon": "mic",
+           "en": "Monologue habit",
+           "id": "Kebiasaan bermonolog",
+           "d": {
+            "en": "Sending, and never checking what landed",
+            "id": "Mengirim, lalu tak pernah mengecek apa yang sampai"
+           },
+           "img": "../../assets/bg/mp-stage-author.jpg"
+          },
+          {
+           "icon": "timer",
+           "en": "Stakes freeze",
+           "id": "Beku saat taruhannya tinggi",
+           "d": {
+            "en": "Fluent with friends, rigid when it matters",
+            "id": "Lancar di depan teman, kaku saat penting"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "At work, people want the point first and the journey second",
+          "id": "Di dunia kerja, orang ingin intinya dulu, baru ceritanya"
+         },
+         "em": {
+          "en": "the point first",
+          "id": "intinya dulu"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "list",
+           "en": "“First I collected the survey data. Then I cleaned it for two days. Some answers were unusable. So we may be one week late.”",
+           "id": "“Pertama, saya mengumpulkan data survei. Lalu saya merapikannya dua hari. Ternyata sebagian jawaban tidak bisa dipakai. Jadi kita mungkin terlambat seminggu.”",
+           "l": {
+            "en": "In the order it happened",
+            "id": "Urut sesuai kejadian"
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "“We will be one week late. Reason: 40 survey answers were unusable. I need your decision by Friday: extend, or a smaller sample.”",
+           "id": "“Kita akan terlambat satu minggu. Sebabnya: 40 jawaban survei tidak bisa dipakai. Saya butuh keputusan Ibu sebelum Jumat: perpanjang, atau sampel lebih kecil.”",
+           "l": {
+            "en": "Point first",
+            "id": "Intinya dulu"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          }
+         ],
+         "band": {
+          "en": "If the reader stops after line one, they should still have the point.",
+          "id": "Kalau pembaca berhenti di baris pertama, intinya tetap harus sudah mereka dapat."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The better you know it, the more steps you skip when you explain it",
+          "id": "Makin kamu menguasainya, makin banyak langkah yang kamu lompati saat menjelaskannya"
+         },
+         "em": {
+          "en": "the more steps you skip",
+          "id": "makin banyak langkah yang kamu lompati"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "person",
+           "en": "Start where they are",
+           "id": "Mulai dari posisi mereka",
+           "d": {
+            "en": "What does this reader already know?",
+            "id": "Apa yang sudah diketahui pembaca ini?"
+           }
+          },
+          {
+           "icon": "steps",
+           "en": "Step back once",
+           "id": "Mundur satu langkah",
+           "d": {
+            "en": "What did I know right before I understood this?",
+            "id": "Apa yang kuketahui tepat sebelum aku paham?"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "And once more",
+           "id": "Mundur sekali lagi",
+           "d": {
+            "en": "And before that? Keep going until you reach their step",
+            "id": "Dan sebelum itu? Teruskan sampai tiba di anak tangga mereka"
+           }
+          },
+          {
+           "icon": "arrow",
+           "en": "Explain upward",
+           "id": "Jelaskan sambil naik",
+           "d": {
+            "en": "Walk up the staircase together",
+            "id": "Naiki tangganya bersama-sama"
+           }
+          }
+         ],
+         "band": {
+          "en": "The cure is not dumbing down. It is putting back the steps you no longer notice.",
+          "id": "Obatnya bukan menyederhanakan berlebihan. Obatnya mengembalikan langkah-langkah yang tak lagi kamu sadari."
+         },
+         "img": "../../assets/bg/map.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A message is finished when you have checked what landed, not when you have sent it",
+          "id": "Sebuah pesan selesai saat kamu sudah mengecek apa yang sampai, bukan saat kamu mengirimnya"
+         },
+         "em": {
+          "en": "checked what landed",
+          "id": "mengecek apa yang sampai"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "question",
+           "en": "“What will you take from this?” tells you more than “Any questions?”",
+           "id": "“Apa yang kamu tangkap dari ini?” memberi tahu lebih banyak daripada “Ada pertanyaan?”",
+           "l": {
+            "en": "Ask",
+            "id": "Bertanya"
+           }
+          },
+          {
+           "icon": "chat",
+           "en": "Let them finish. Notice the words they use, not the ones you would have used.",
+           "id": "Biarkan mereka selesai. Perhatikan kata yang mereka pakai, bukan kata yang akan kamu pakai.",
+           "l": {
+            "en": "Listen",
+            "id": "Menyimak"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "“So what you need is the date, not the method. Is that right?”",
+           "id": "“Jadi yang Ibu butuhkan tanggalnya, bukan metodenya. Betul?”",
+           "l": {
+            "en": "Play it back",
+            "id": "Ulangi dengan kata-katamu"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Change the message, not the listener.",
+           "id": "Ubah pesannya, bukan pendengarnya.",
+           "l": {
+            "en": "Adjust",
+            "id": "Sesuaikan"
+           }
+          }
+         ],
+         "img": "../../assets/bg/rope-team.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Nervousness is unrehearsed material meeting an audience that matters",
+          "id": "Gugup adalah materi yang belum dilatih bertemu audiens yang penting"
+         },
+         "em": {
+          "en": "unrehearsed material",
+          "id": "materi yang belum dilatih"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "mic",
+           "en": "Say it aloud",
+           "id": "Ucapkan dengan suara",
+           "d": {
+            "en": "Once, alone, from start to finish",
+            "id": "Sekali, sendirian, dari awal sampai akhir"
+           }
+          },
+          {
+           "icon": "timer",
+           "en": "Add mild pressure",
+           "id": "Tambah sedikit tekanan",
+           "d": {
+            "en": "A friend, a timer or a recording",
+            "id": "Seorang teman, pengatur waktu, atau rekaman"
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Then the real room",
+           "id": "Baru ruangan yang sebenarnya",
+           "d": {
+            "en": "The third time is never the first time",
+            "id": "Kali ketiga tak pernah terasa seperti kali pertama"
+           }
+          }
+         ],
+         "img": "../../assets/bg/resilience.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Score your last important message against four questions, and find your pair",
+          "id": "Nilai pesan penting terakhirmu dengan empat pertanyaan, dan temukan pasanganmu"
+         },
+         "em": {
+          "en": "find your pair",
+          "id": "temukan pasanganmu"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "The first sentence",
+           "id": "Kalimat pertama",
+           "d": {
+            "en": "Did it carry the point?",
+            "id": "Apakah memuat intinya?"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "The outsider test",
+           "id": "Uji orang luar",
+           "d": {
+            "en": "Could a smart outsider follow it without your context?",
+            "id": "Bisakah orang luar yang cerdas mengikutinya tanpa konteksmu?"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "The length",
+           "id": "Panjangnya",
+           "d": {
+            "en": "Was it matched to what the reader had to decide?",
+            "id": "Apakah sesuai dengan apa yang harus diputuskan pembaca?"
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "The check",
+           "id": "Pengecekan",
+           "d": {
+            "en": "Did you ask anything that verified understanding?",
+            "id": "Apakah kamu bertanya untuk memastikan mereka paham?"
+           },
+           "img": "../../assets/bg/rope-team.jpg"
+          }
+         ],
+         "band": {
+          "en": "Most people fail the same two for years. Naming your pair is the most useful twenty minutes in this module.",
+          "id": "Kebanyakan orang gagal di dua hal yang sama selama bertahun-tahun. Menemukan pasanganmu adalah dua puluh menit paling berguna di modul ini."
+         }
+        }
+       ]
+      }
      }
     },
     {
@@ -6938,236 +7191,6 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 1 slide",
-        "id": "Baca dulu · 1 slide"
-       },
-       "title": {
-        "en": "What Is Purpose: Material",
-        "id": "Apa Itu Purpose: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “What Is Purpose”. Read them at your own pace. Then watch the film that follows.",
-        "id": "Slide-slide ini membahas “Apa Itu Purpose”. Baca sesuai ritmemu. Setelah itu, tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/purpose-",
-       "slides": [
-        {
-         "title": {
-          "en": "What is purpose? Communicating with purpose",
-          "id": "Apa itu purpose? Berkomunikasi dengan tujuan"
-         },
-         "text": {
-          "en": "Key concept. After considering your audience, their thoughts, feelings, and perspective, you are now ready to define the purpose of your interaction. There can be many purposes for a meeting; however, getting crystal clear on the message can help make your communications come across as clear and help you effectively reach your objectives. These concepts tie closely together with Empathy, and you will oftentimes see overlap. In this video, Kate explains what it means to have a purpose. “Why do I have this conversation?” Share information? get alignment? solve a problem? motivate action? Watch the video; Kate explains what it means to have a purpose in your communication. Pause and reflect: as you watch, think about any instances where you’ve taken into consideration the needs of the other person when communicating with them. How did this conversation go? Was this something that moved the conversation forward?",
-          "id": "Konsep kunci. Setelah memahami audiensmu, apa yang mereka pikirkan, rasakan, dan cara pandang mereka, kini kamu siap menentukan tujuan interaksimu. Sebuah rapat bisa punya banyak tujuan. Namun pesan yang benar-benar jelas akan membuat komunikasimu mudah dipahami dan membantumu mencapai sasaran dengan efektif. Konsep ini sangat berkaitan dengan Empathy, jadi kamu akan sering melihat keduanya bersinggungan. Dalam video ini, Kate menjelaskan apa artinya memiliki tujuan. \"Untuk apa aku melakukan percakapan ini?\" Berbagi informasi? Menyamakan pandangan? Memecahkan masalah? Mendorong orang bertindak? Tonton videonya. Kate menjelaskan apa artinya berkomunikasi dengan tujuan. Berhenti sejenak dan renungkan: sambil menonton, ingat saat-saat kamu memperhitungkan kebutuhan orang lain ketika berkomunikasi dengan mereka. Bagaimana jalannya percakapan itu? Apakah hal itu membuat percakapan bergerak maju?"
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 9 slides",
-        "id": "Baca berikutnya · 9 slide"
-       },
-       "title": {
-        "en": "Key Questions to Ask: Material",
-        "id": "Pertanyaan Kunci: Materi"
-       },
-       "intro": {
-        "en": "Next, nine slides put purpose to work. The first two recap the key questions (who is my audience, what do I want to achieve, what is in it for them, how can I communicate it most effectively) and the three reflection questions that balance your goals with the other person’s and the greater goal. Then a practice scenario: help Aaliyah agree the kick-off agenda with Noah across four exchanges, each with a knowledge check and the best answer explained. A reflection on a past interaction follows, and the key takeaways close the chapter with two resources. Read them, choose your answer before you read the “Correct!” panel, then continue to the slide that follows.",
-        "id": "Berikutnya, sembilan slide ini mempraktikkan purpose. Dua slide pertama merangkum pertanyaan kunci (siapa audiensku, apa yang ingin kucapai, apa untungnya bagi mereka, bagaimana cara paling efektif menyampaikannya) serta tiga pertanyaan renungan yang menyeimbangkan tujuanmu, tujuan orang lain, dan tujuan yang lebih besar. Lalu ada skenario latihan: bantu Aaliyah menyepakati agenda rapat perdana bersama Noah dalam empat babak percakapan, masing-masing dengan cek pemahaman dan penjelasan jawaban terbaiknya. Setelah itu ada renungan tentang interaksi di masa lalu, dan bab ini ditutup dengan poin-poin penting serta dua bacaan tambahan. Baca semuanya, tentukan jawabanmu sebelum membaca panel \"Benar!\", lalu lanjutkan ke slide berikutnya."
-       },
-       "base": "../../assets/lms/the-map/slides/purpose-questions-",
-       "slides": [
-        {
-         "title": {
-          "en": "Key questions to ask yourself with purpose",
-          "id": "Pertanyaan kunci untuk dirimu sendiri soal purpose"
-         },
-         "text": {
-          "en": "Key takeaway. At first, defining a communication purpose seems like an easy task, but it can be tricky to find the balance between your needs and those of your audience. With each interaction, it’s important to define the purpose to include your needs and theirs. Where do you start? Let’s recap the key questions to ask yourself to determine the communication purpose. What do they need? What do they care about? What do I want to achieve? What is the best way to communicate this? Align your needs and their needs. Key questions to consider: Who is my audience? What are their needs, thoughts, and perspectives? What do I want to achieve? Am I informing, seeking input, solving a problem, or motivating action? What’s in it for them? How does this message address their interests or concerns? How can I communicate it most effectively? What is the right message, tone, and channel?",
-          "id": "Poin penting. Sekilas, menentukan tujuan komunikasi terlihat mudah. Kenyataannya, menyeimbangkan kebutuhanmu dengan kebutuhan audiens bisa cukup sulit. Di setiap interaksi, penting untuk menentukan tujuan yang mencakup kebutuhanmu dan kebutuhan mereka. Mulai dari mana? Mari rangkum pertanyaan kunci untuk menentukan tujuan komunikasimu. Apa yang mereka butuhkan? Apa yang mereka pedulikan? Apa yang ingin kucapai? Apa cara terbaik untuk menyampaikannya? Selaraskan kebutuhanmu dengan kebutuhan mereka. Pertanyaan kunci yang perlu dipikirkan: Siapa audiensku? Apa kebutuhan, pikiran, dan cara pandang mereka? Apa yang ingin kucapai? Apakah aku ingin memberi informasi, meminta pendapat, memecahkan masalah, atau mendorong orang bertindak? Apa untungnya bagi mereka? Bagaimana pesan ini menjawab kepentingan atau kekhawatiran mereka? Bagaimana cara paling efektif menyampaikannya? Pesan, nada, dan saluran apa yang tepat?"
-         }
-        },
-        {
-         "title": {
-          "en": "Key questions to help you communicate with greater purpose",
-          "id": "Pertanyaan kunci agar komunikasimu lebih bertujuan"
-         },
-         "text": {
-          "en": "Reflection questions. Click the forward arrow to review the key questions that will help you be more purposeful in your communication. 1 What does the other person want to get out of the interaction? What are their needs? what are their concerns? what outcome matters to them? 2 What do you want to get out of this interaction? Share information? get alignment? solve a problem? drive action? 3 What is the overall purpose of your work together, and how does this interaction help move you towards the greater goal? How does this fit into the bigger picture? what progress does this enable? what value does it create for others?",
-          "id": "Pertanyaan renungan. Klik panah maju untuk meninjau pertanyaan kunci yang akan membantumu berkomunikasi dengan lebih bertujuan. 1 Apa yang ingin didapat orang lain dari interaksi ini? Apa kebutuhan mereka? Apa kekhawatiran mereka? Hasil apa yang penting bagi mereka? 2 Apa yang ingin kamu dapat dari interaksi ini? Berbagi informasi? Menyamakan pandangan? Memecahkan masalah? Mendorong tindakan? 3 Apa tujuan besar dari kerja sama kalian, dan bagaimana interaksi ini membantu kalian bergerak ke arah sana? Bagaimana interaksi ini masuk ke gambaran besarnya? Kemajuan apa yang dimungkinkannya? Nilai apa yang diciptakannya bagi orang lain?"
-         }
-        },
-        {
-         "title": {
-          "en": "Help Aaliyah: navigate a conversation, agreeing upon the agenda",
-          "id": "Bantu Aaliyah: memandu percakapan untuk menyepakati agenda"
-         },
-         "text": {
-          "en": "Practice scenario. What you’ve learned: in this section, you’ve learned how to define the purpose of an interaction by taking into account the audience’s needs and yours. Now it’s your turn to practice by advising Aaliyah. Read the scenario below and start the conversation. Scenario: Aaliyah is planning the agenda for the upcoming Transformation Office kickoff meeting she’ll be leading, and she wants to get Noah’s inputs. As Head of Digital at MODA, Noah and his department will be driving the execution of the digital transformation. Both Aaliyah and Noah want the introduction next week to go smoothly, but each are very busy trying to manage their own priorities to ensure everyone involved is prepared. Meeting agenda: 1 Introduction, 2 Key objectives, 3 Discussion topics, 4 Next steps. Your task: start the conversation with Noah to align on the agenda for the kickoff meeting.",
-          "id": "Skenario latihan. Yang sudah kamu pelajari: di bagian ini kamu belajar menentukan tujuan sebuah interaksi dengan memperhitungkan kebutuhan audiens dan kebutuhanmu sendiri. Sekarang giliranmu berlatih dengan memberi saran kepada Aaliyah. Baca skenario di bawah dan mulai percakapannya. Skenario: Aaliyah sedang menyusun agenda rapat perdana Transformation Office yang akan ia pimpin, dan ia ingin mendapat masukan dari Noah. Sebagai Head of Digital di MODA, Noah dan departemennya akan menjadi motor pelaksanaan transformasi digital. Aaliyah dan Noah sama-sama ingin perkenalan minggu depan berjalan lancar, tetapi keduanya sedang sangat sibuk mengurus prioritas masing-masing agar semua pihak siap. Agenda rapat: 1 Perkenalan, 2 Sasaran utama, 3 Topik diskusi, 4 Langkah berikutnya. Tugasmu: mulai percakapan dengan Noah untuk menyepakati agenda rapat perdana."
-         }
-        },
-        {
-         "title": {
-          "en": "Help Aaliyah: how should she ask for Noah’s input on the agenda?",
-          "id": "Bantu Aaliyah: bagaimana sebaiknya ia meminta masukan Noah soal agenda?"
-         },
-         "text": {
-          "en": "Practice scenario, step 1 of 3. Draft agenda (so far): 1 Introduction, 2 Working model, 3 Major deliverables (products to show at the end of a project). “I want to make sure we have a chance to discuss the overall plan to give everyone a sense of what’s coming up, but most importantly, to start building a sense of team within the group.” Question: how should Aaliyah ask for Noah’s input on the agenda? Review the following information. Then select the best answer and click Submit. Options: “I want to make sure I prioritize what’s important to Digital. Does this agenda look right to you?” “I’ve made sure to include plenty of time to discuss major deliverables since I know this is important to Digital. Does that work for you?” “I want to make sure I include topics that may be important to Digital. What do you think about the agenda?” Correct! The third option. Great job starting the conversation with an open-ended question. This shows collaboration and communicates to Noah that you’re eager to get his honest feedback.",
-          "id": "Skenario latihan, langkah 1 dari 3. Draf agenda (sementara): 1 Perkenalan, 2 Model kerja, 3 Hasil kerja utama (produk yang ditunjukkan di akhir proyek). \"Aku ingin memastikan kita punya waktu untuk membahas rencana besarnya supaya semua orang tahu apa yang akan datang. Tapi yang paling penting, aku ingin mulai membangun rasa satu tim di kelompok ini.\" Pertanyaan: bagaimana sebaiknya Aaliyah meminta masukan Noah soal agenda? Tinjau informasi berikut. Lalu pilih jawaban terbaik dan klik Kirim. Pilihan: \"Aku ingin memastikan aku memprioritaskan hal yang penting bagi Digital. Menurutmu agenda ini sudah pas?\" \"Aku sudah menyediakan banyak waktu untuk membahas hasil kerja utama karena aku tahu itu penting bagi Digital. Cocok buatmu?\" \"Aku ingin memastikan topik yang mungkin penting bagi Digital ikut masuk. Bagaimana pendapatmu soal agendanya?\" Benar! Pilihan ketiga. Bagus, kamu membuka percakapan dengan pertanyaan terbuka. Ini menunjukkan semangat kolaborasi dan memberi tahu Noah bahwa kamu sungguh ingin mendengar masukannya yang jujur."
-         }
-        },
-        {
-         "title": {
-          "en": "Help Aaliyah: shifting agenda items",
-          "id": "Bantu Aaliyah: menggeser urutan agenda"
-         },
-         "text": {
-          "en": "Practice scenario, step 2 of 3. How should Aaliyah respond to Noah’s input? Noah: “Thanks for looping me in and getting my input. To start, I love that you’ve got some time up-front dedicated to introductions; everyone will appreciate that. Can I suggest covering the major deliverables before the working model to ensure everyone first has a clear understanding of what we’re trying to achieve? Also, the working model could cause lots of discussion and sidetrack us, so we may want to save it for last.” Current draft agenda: Introductions (10 mins), Working model (30 mins), Major deliverables (30 mins), Next steps (10 mins). Suggested agenda (after update): Introductions (10 mins), Major deliverables (30 mins), Working model (30 mins), Next steps (10 mins). Options: “OK, great. Thanks for your suggestion! I’ll take it into account as I’m finalizing the agenda. I agree it might make sense to swap the last two items around.” “Great suggestion, thank you! I’m happy to move the working model discussion to the end to help keep us on track. Is that all?” “That’s a great suggestion, thank you! I’m happy to make the switch on the last two items, but what are the concerns around the working model?” Correct! The third option. Great listening skills picking up on the tension within Digital regarding the working model. It’s important to understand what is on others’ minds to ensure the interaction goes smoothly and is successful in achieving its objectives.",
-          "id": "Skenario latihan, langkah 2 dari 3. Bagaimana sebaiknya Aaliyah menanggapi masukan Noah? Noah: \"Terima kasih sudah melibatkanku dan meminta masukanku. Pertama, aku suka kamu menyediakan waktu di awal untuk perkenalan; semua orang pasti senang. Boleh aku usul supaya hasil kerja utama dibahas sebelum model kerja, agar semua orang paham dulu apa yang ingin kita capai? Selain itu, model kerja bisa memancing banyak diskusi dan membuat kita keluar jalur, jadi mungkin lebih baik dibahas paling akhir.\" Draf agenda saat ini: Perkenalan (10 menit), Model kerja (30 menit), Hasil kerja utama (30 menit), Langkah berikutnya (10 menit). Usulan agenda (setelah diubah): Perkenalan (10 menit), Hasil kerja utama (30 menit), Model kerja (30 menit), Langkah berikutnya (10 menit). Pilihan: \"Oke, bagus. Terima kasih atas usulannya! Akan kupertimbangkan saat menyelesaikan agenda. Aku setuju mungkin masuk akal menukar dua poin terakhir.\" \"Usul yang bagus, terima kasih! Aku senang memindahkan diskusi model kerja ke akhir supaya kita tetap di jalur. Ada lagi?\" \"Usul yang bagus, terima kasih! Aku senang menukar dua poin itu, tapi apa sebenarnya kekhawatiran soal model kerja?\" Benar! Pilihan ketiga. Kamu mendengarkan dengan baik dan menangkap adanya ketegangan di tim Digital soal model kerja. Penting untuk memahami apa yang sedang dipikirkan orang lain agar interaksinya berjalan lancar dan berhasil mencapai sasarannya."
-         }
-        },
-        {
-         "title": {
-          "en": "Help Aaliyah: digging deeper",
-          "id": "Bantu Aaliyah: menggali lebih dalam"
-         },
-         "text": {
-          "en": "Practice scenario, step 3 of 3. How should Aaliyah respond to Noah’s input? Noah: “Well, Digital went through a reorganization last year and as a result, many positions are still unfilled, roles have been confusing, and the ability for people to complete work has been stretched. Actually, I would recommend shifting the meeting to focus more on solving these important issues and perhaps save the team-building portions for the end if there’s time. It may be difficult getting people to focus on anything else until these issues have been addressed.” Key issues raised by Noah: many positions are still unfilled; roles and responsibilities are unclear; team’s ability to complete work is stretched. Keep the agenda on track: keep the main purpose of the meeting (team building), while acknowledging the importance of the raised issues and plan a follow-up discussion to address them later. Options: “Wow, I wasn’t aware of those challenges, but I can certainly understand how they could be top-of-mind. Maybe we can cover them at a later time? I’d love to keep this meeting focused on building the team.” “Wow, thanks so much for that context. My instinct is to keep the meeting focused on team building though. These issues are common during a transformation kickoff and it’s important to remain focused on our priorities for next week. Are you open to that?” “Wow, I wasn’t aware of those challenges, but I can certainly understand how they could be top-of-mind. Let’s shift the focus of the meeting away from team-building a bit to give these topics more time if that will make everyone happy.” Correct! The first option. Great job prioritizing the most critical issues for next week and being receptive to new information. It’s best to be realistic about what purpose can be achieved in a limited time frame, and you can always set up follow-up conversations at a later time to address any non-critical issues.",
-          "id": "Skenario latihan, langkah 3 dari 3. Bagaimana sebaiknya Aaliyah menanggapi masukan Noah? Noah: \"Begini, tahun lalu Digital menjalani reorganisasi. Akibatnya, banyak posisi masih kosong, peran-peran jadi membingungkan, dan kemampuan orang untuk menyelesaikan pekerjaan sudah sangat terbebani. Sebenarnya aku menyarankan rapatnya digeser untuk lebih fokus menyelesaikan masalah-masalah penting ini, dan bagian membangun tim mungkin disimpan di akhir kalau masih ada waktu. Orang akan sulit fokus ke hal lain sebelum masalah ini ditangani.\" Masalah utama yang diangkat Noah: banyak posisi masih kosong; peran dan tanggung jawab tidak jelas; kemampuan tim menyelesaikan pekerjaan sudah terbebani. Jaga agenda tetap di jalur: pertahankan tujuan utama rapat (membangun tim), sambil mengakui pentingnya masalah yang diangkat dan merencanakan diskusi lanjutan untuk membahasnya nanti. Pilihan: \"Wah, aku tidak tahu soal tantangan itu, tapi aku bisa mengerti kenapa itu jadi pikiran utama. Mungkin kita bahas di lain waktu? Aku ingin rapat ini tetap fokus membangun tim.\" \"Wah, terima kasih banyak atas konteksnya. Tapi naluriku tetap ingin rapat ini fokus membangun tim. Masalah seperti ini biasa muncul di awal transformasi, dan penting untuk tetap fokus pada prioritas kita minggu depan. Kamu terbuka dengan itu?\" \"Wah, aku tidak tahu soal tantangan itu, tapi aku bisa mengerti kenapa itu jadi pikiran utama. Ayo kita geser sedikit fokus rapat dari membangun tim supaya topik ini dapat waktu lebih banyak, kalau itu membuat semua orang senang.\" Benar! Pilihan pertama. Bagus, kamu memprioritaskan hal paling penting untuk minggu depan sambil tetap terbuka pada informasi baru. Sebaiknya kita realistis soal tujuan apa yang bisa dicapai dalam waktu terbatas, dan kamu selalu bisa mengatur percakapan lanjutan untuk membahas hal-hal yang tidak mendesak."
-         }
-        },
-        {
-         "title": {
-          "en": "Help Aaliyah: focusing the meeting",
-          "id": "Bantu Aaliyah: memfokuskan rapat"
-         },
-         "text": {
-          "en": "Practice scenario, closing exchange. How should Aaliyah respond to Noah’s input? Noah: “I suppose that makes sense; these aren’t issues we’re going to solve in one meeting anyhow. I recommend at least addressing the topics though, just to make sure everybody has confidence you’re aware of the issues and will be working to find a solution. What do you think?” Meeting agenda (draft): 1 Opening & objectives (5 mins), 2 Key concerns & Q&A (10 mins), 3 Project launch discussion (30 mins), 4 Next steps & follow-up (10 mins). Key considerations for Aaliyah: acknowledge concerns and make people feel heard; keep the meeting focused on key objectives; set clear structure and time allocation; plan a follow-up for remaining topics. Options: “In order to keep the meeting on track, let’s stay away from any topics that could derail us. It’s important to ensure we cover critical items for next week. I’m happy to answer questions if they arise though. Will that work?” “Let’s set some time aside toward the end for any questions people may have. That will give everyone an opportunity to raise any key concerns so there are no distractions next week. We can also have a follow-up meeting later if there’s a need, but let’s stay focused on project launch. Does that sound good?” “We could start by addressing key concerns up front for a few minutes. Maybe you can help me steer any questions that go off topic? Let’s also announce a follow-up meeting next week to address any outstanding concerns we can’t answer on the spot. How does that sound?” Correct! The third option. This response shows strong facilitation skills. It acknowledges Noah’s concerns, addresses them constructively, and sets a clear structure for the meeting by covering key issues upfront and planning a follow-up for remaining questions. This keeps the meeting focused while ensuring people feel heard.",
-          "id": "Skenario latihan, babak penutup. Bagaimana sebaiknya Aaliyah menanggapi masukan Noah? Noah: \"Kurasa itu masuk akal; masalah-masalah ini memang tidak akan selesai dalam satu rapat. Tapi aku sarankan setidaknya topiknya disinggung, supaya semua orang yakin kamu tahu masalahnya dan akan berusaha mencari solusinya. Bagaimana menurutmu?\" Agenda rapat (draf): 1 Pembukaan dan sasaran (5 menit), 2 Kekhawatiran utama dan tanya jawab (10 menit), 3 Diskusi peluncuran proyek (30 menit), 4 Langkah berikutnya dan tindak lanjut (10 menit). Hal penting yang perlu dipertimbangkan Aaliyah: akui kekhawatiran dan buat orang merasa didengar; jaga rapat tetap fokus pada sasaran utama; tetapkan struktur dan pembagian waktu yang jelas; rencanakan tindak lanjut untuk topik yang tersisa. Pilihan: \"Supaya rapat tetap di jalur, ayo kita hindari topik yang bisa membuat kita keluar jalur. Penting untuk memastikan hal-hal kritis untuk minggu depan terbahas. Tapi aku siap menjawab pertanyaan kalau ada. Bagaimana?\" \"Ayo sisihkan waktu di bagian akhir untuk pertanyaan. Dengan begitu semua orang bisa menyampaikan kekhawatiran utamanya, jadi tidak ada gangguan minggu depan. Kita juga bisa adakan rapat lanjutan nanti kalau perlu, tapi ayo tetap fokus pada peluncuran proyek. Setuju?\" \"Kita bisa mulai dengan membahas kekhawatiran utama beberapa menit di awal. Mungkin kamu bisa bantu aku mengarahkan pertanyaan yang mulai keluar topik? Ayo kita umumkan juga rapat lanjutan minggu depan untuk membahas kekhawatiran yang belum bisa kita jawab saat itu. Bagaimana menurutmu?\" Benar! Pilihan ketiga. Jawaban ini menunjukkan kemampuan memfasilitasi yang kuat. Jawaban ini mengakui kekhawatiran Noah, menanganinya secara membangun, dan menetapkan struktur rapat yang jelas dengan membahas masalah utama di awal serta merencanakan tindak lanjut untuk pertanyaan yang tersisa. Rapat tetap fokus, dan orang tetap merasa didengar."
-         }
-        },
-        {
-         "title": {
-          "en": "Reflect on a past interaction",
-          "id": "Renungkan interaksi di masa lalu"
-         },
-         "text": {
-          "en": "Reflection exercise. Think back to a past interaction you identified in the prior module. In this module, we asked you to reflect on empathy in that interaction and now consider Purpose. 1 Were you clear on the purpose of the interaction? What was the purpose? 2 Did you communicate the purpose up front? 3 Was the purpose shared? If so, how? 4 If it was not a shared purpose, what could you have done differently? What impact do you think that would have had on the outcome? Write a brief answer and proceed to the next section when you have answered the questions above. Why this matters: being clear and aligned on purpose helps build trust, ensures everyone is on the same page, and enables more productive and meaningful interactions.",
-          "id": "Latihan renungan. Ingat kembali interaksi di masa lalu yang sudah kamu pilih di modul sebelumnya. Di modul itu kami memintamu merenungkan empati dalam interaksi tersebut. Sekarang pikirkan Purpose. 1 Apakah kamu jelas soal tujuan interaksi itu? Apa tujuannya? 2 Apakah kamu menyampaikan tujuannya sejak awal? 3 Apakah tujuan itu dimiliki bersama? Kalau ya, bagaimana caranya? 4 Kalau tujuannya tidak dimiliki bersama, apa yang bisa kamu lakukan secara berbeda? Menurutmu, apa dampaknya terhadap hasilnya? Tulis jawaban singkat, lalu lanjut ke bagian berikutnya setelah kamu menjawab pertanyaan di atas. Kenapa ini penting: tujuan yang jelas dan disepakati membangun kepercayaan, memastikan semua orang punya pemahaman yang sama, dan membuat interaksi lebih produktif dan bermakna."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin-poin penting"
-         },
-         "text": {
-          "en": "Module summary. In this module, we have covered the following key tools and resources to help you communicate with clarity and purpose. 1 Defining the purpose of an interaction. Use this tool to determine how you can meet both your and your audience’s needs, and define the objective of your interaction accordingly. Resources you may also wish to explore: “How to design an agenda for an effective meeting” (article, Harvard Business Review); “Change your intention to focus your attention” (article, Harvard Business Review). “A clear purpose turns a conversation into progress.” Remember: being clear on the purpose of your interaction helps you design better conversations, align with your audience’s needs, and achieve more meaningful and productive outcomes.",
-          "id": "Ringkasan modul. Di modul ini kita sudah membahas alat dan bacaan berikut untuk membantumu berkomunikasi dengan jelas dan bertujuan. 1 Menentukan tujuan interaksi. Pakai alat ini untuk mencari cara memenuhi kebutuhanmu dan kebutuhan audiens, lalu tentukan sasaran interaksimu berdasarkan itu. Bacaan tambahan yang mungkin ingin kamu jelajahi: \"How to design an agenda for an effective meeting\" (artikel, Harvard Business Review); \"Change your intention to focus your attention\" (artikel, Harvard Business Review). \"Tujuan yang jelas mengubah percakapan menjadi kemajuan.\" Ingat: tujuan yang jelas membantumu merancang percakapan yang lebih baik, selaras dengan kebutuhan audiens, dan mencapai hasil yang lebih bermakna dan produktif."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 1 slide",
-        "id": "Baca berikutnya · 1 slide"
-       },
-       "title": {
-        "en": "Back at MODA: Material",
-        "id": "Kembali ke MODA: Materi"
-       },
-       "intro": {
-        "en": "One slide continues the scenario. Aaliyah has asked Noah to identify which of his team’s new ideas MODA should invest in as part of the transformation; Noah asks Maryam to gather and analyse ideas from across the Digital team and find the best ones. Three roles, one objective: identify the most effective new ideas to support MODA’s transformation.",
-        "id": "Satu slide ini melanjutkan skenarionya. Aaliyah meminta Noah menentukan ide-ide baru dari timnya yang layak didanai MODA sebagai bagian dari transformasi. Noah lalu meminta Maryam mengumpulkan dan menganalisis ide dari seluruh tim Digital dan menemukan yang terbaik. Tiga peran, satu sasaran: menemukan ide baru yang paling efektif untuk mendukung transformasi MODA."
-       },
-       "base": "../../assets/lms/the-map/slides/purpose-moda-",
-       "slides": [
-        {
-         "title": {
-          "en": "Back at MODA: so, what do you recommend?",
-          "id": "Kembali ke MODA: jadi, apa rekomendasimu?"
-         },
-         "text": {
-          "en": "Scenario continuation. So, what do you recommend? Aaliyah has asked Noah to identify which new ideas developed by his team are the most effective for MODA to invest in as a part of the transformation. Noah then reaches out to Maryam to help gather and analyze ideas from across the Digital team and identify the best ones. Aaliyah, Chief Transformation Officer. Asks Noah to identify which new ideas are most effective for MODA to invest in as part of the transformation. Noah, Head of Digital, reaches out to Maryam to help gather and analyze ideas from across the Digital team and identify the best ones. Maryam, Analytics Team Lead, gathers ideas from across the Digital team and helps analyze the ideas to identify the best ones. Objective: identify the most effective new ideas to support MODA’s transformation.",
-          "id": "Lanjutan skenario. Jadi, apa rekomendasimu? Aaliyah meminta Noah menentukan ide-ide baru dari timnya yang paling efektif untuk didanai MODA sebagai bagian dari transformasi. Noah lalu menghubungi Maryam untuk membantu mengumpulkan dan menganalisis ide dari seluruh tim Digital dan menemukan yang terbaik. Aaliyah, Chief Transformation Officer. Meminta Noah menentukan ide baru yang paling efektif untuk didanai MODA sebagai bagian dari transformasi. Noah, Head of Digital, menghubungi Maryam untuk membantu mengumpulkan dan menganalisis ide dari seluruh tim Digital dan menemukan yang terbaik. Maryam, Analytics Team Lead, mengumpulkan ide dari seluruh tim Digital dan membantu menganalisisnya untuk menemukan yang terbaik. Sasaran: menemukan ide baru yang paling efektif untuk mendukung transformasi MODA."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 5 slides",
-        "id": "Baca berikutnya · 5 slide"
-       },
-       "title": {
-        "en": "Help Maryam Finalize Her Structure: Material",
-        "id": "Bantu Maryam Merapikan Strukturnya: Materi"
-       },
-       "intro": {
-        "en": "Five slides. First, a scenario check: after meeting Noah, Maryam groups like facts together and has three pieces of information left. Which one does not belong with the others? The slide shows the answer. Then the material moves to the I of EPIC: what an insight is and why it drives action, the key questions to ask yourself with insight, and an activity in which you help Aaliyah tell insights apart from data and general information. Use the arrows or swipe to move between slides; the deck follows your platform language.",
-        "id": "Lima slide. Pertama, cek skenario: setelah bertemu Noah, Maryam mengelompokkan fakta-fakta yang sejenis dan masih menyisakan tiga informasi. Mana yang tidak cocok dengan dua lainnya? Jawabannya ada di slide. Setelah itu materi beralih ke huruf I dalam EPIC: apa itu insight dan kenapa insight mendorong tindakan, pertanyaan kunci yang perlu kamu ajukan soal insight, dan sebuah aktivitas untuk membantu Aaliyah membedakan insight dari data dan informasi umum. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu."
-       },
-       "base": "../../assets/lms/the-map/slides/purpose-structure-",
-       "slides": [
-        {
-         "title": {
-          "en": "Help Maryam finalize her structure",
-          "id": "Bantu Maryam merapikan strukturnya"
-         },
-         "text": {
-          "en": "Scenario. After meeting with Noah, Maryam decides to finalize the structure of her key messages and group together like facts. Maryam has three pieces of information left but does not think that they all belong together in the same group. Which of these facts does not belong with the others? (1) We lose ~60% of the potential customers who might sign up to the loyalty program because they think the sign up process will take too long. (2) Staff currently spend 40% of time on inventory counts on the floor and in the backroom. (3) Our competitors who have a more structured process for signing up to loyalty programs have a higher customer satisfaction than us. Correct: (2). Two of the three remaining pieces of information describe the customer loyalty program sign-up process; this fact focuses on other activities performed by staff that can decrease their attention to customer service.",
-          "id": "Skenario. Setelah bertemu Noah, Maryam memutuskan untuk merapikan struktur pesan-pesan utamanya dan mengelompokkan fakta-fakta yang sejenis. Maryam masih punya tiga informasi, tetapi ia merasa ketiganya tidak cocok masuk ke satu kelompok yang sama. Mana fakta yang tidak cocok dengan dua lainnya? (1) Kita kehilangan sekitar 60% calon pelanggan yang mungkin mendaftar program loyalitas karena mereka mengira proses pendaftarannya akan lama. (2) Saat ini staf menghabiskan 40% waktunya untuk menghitung stok di area toko dan di gudang belakang. (3) Pesaing kita yang punya proses pendaftaran program loyalitas lebih terstruktur memiliki kepuasan pelanggan yang lebih tinggi daripada kita. Jawaban benar: (2). Dua dari tiga informasi yang tersisa menggambarkan proses pendaftaran program loyalitas pelanggan. Fakta ini justru membahas kegiatan lain yang dikerjakan staf, yang bisa mengurangi perhatian mereka pada pelayanan pelanggan."
-         }
-        },
-        {
-         "title": {
-          "en": "What are insights? Insights: the driver of action",
-          "id": "Apa itu insight? Insight sebagai pendorong tindakan"
-         },
-         "text": {
-          "en": "Key concept. At MODA, Noah will encounter challenges as he gathers and analyzes insights, particularly when communicating them with Maryam and Aaliyah. As you proceed through your life, you too will encounter similar challenges as Noah. To overcome these challenges, it is important to leverage the I portion of the EPIC journey, Insight. In our EPIC journey, we started with Empathy to build a deeper understanding of what the other person thinks, feels, needs, and wants. We defined a Purpose that includes what you and the other person want to get out of the interaction. Next, it’s important to determine the Insight you will bring to the interaction. Kate helps us understand what exactly is an insight and underscores the importance of insights as the driver of action in conversation. An insight turns understanding into action: it helps you see what really matters, so you can have more meaningful conversations and make better decisions. The EPIC journey: Empathy, Purpose, Insight, Conversation.",
-          "id": "Konsep kunci. Di MODA, Noah akan menghadapi tantangan saat mengumpulkan dan menganalisis insight, terutama ketika menyampaikannya kepada Maryam dan Aaliyah. Dalam perjalanan hidupmu, kamu juga akan menghadapi tantangan yang mirip dengan Noah. Untuk mengatasinya, penting untuk memanfaatkan bagian I dalam perjalanan EPIC, yaitu Insight. Dalam perjalanan EPIC, kita mulai dari Empathy untuk memahami lebih dalam apa yang dipikirkan, dirasakan, dibutuhkan, dan diinginkan orang lain. Kita menentukan Purpose yang mencakup apa yang ingin kamu dan orang lain dapatkan dari interaksi itu. Berikutnya, penting untuk menentukan Insight yang akan kamu bawa ke interaksi tersebut. Kate membantu kita memahami apa sebenarnya insight itu dan menegaskan pentingnya insight sebagai pendorong tindakan dalam percakapan. Insight mengubah pemahaman menjadi tindakan. Insight membantumu melihat apa yang benar-benar penting, sehingga percakapanmu lebih bermakna dan keputusanmu lebih baik. Perjalanan EPIC: Empathy, Purpose, Insight, Conversation."
-         }
-        },
-        {
-         "title": {
-          "en": "Key questions to ask yourself with Insight",
-          "id": "Pertanyaan kunci untuk dirimu sendiri soal insight"
-         },
-         "text": {
-          "en": "Key concept. Keep in mind the work you’ve already done to prepare for your interaction by investigating Empathy and Purpose. Now where do you start with Insight? Let’s recap the key questions to ask yourself. 1. What insights are most relevant to helping you succeed in this purpose? 2. What storyline will help you focus attention on those insights? What concise phrases capture your ideas best? 3. What types of materials or interactions will help you share those insights most clearly? We will explore the first question in this section, and address the other two in the next section.",
-          "id": "Konsep kunci. Ingat kembali persiapan yang sudah kamu lakukan untuk interaksimu lewat Empathy dan Purpose. Lalu, dari mana memulai Insight? Mari rangkum pertanyaan kunci yang perlu kamu ajukan. 1. Insight apa yang paling relevan untuk membantumu mencapai tujuan ini? 2. Alur cerita apa yang akan membantumu memusatkan perhatian pada insight itu? Frasa ringkas apa yang paling pas menangkap idemu? 3. Bahan atau bentuk interaksi apa yang akan membantumu menyampaikan insight itu dengan paling jelas? Kita akan membahas pertanyaan pertama di bagian ini, dan dua lainnya di bagian berikutnya."
-         }
-        },
-        {
-         "title": {
-          "en": "Help Aaliyah focus on the insights",
-          "id": "Bantu Aaliyah fokus pada insight"
-         },
-         "text": {
-          "en": "Activity. Insight is often confused with data and general information. As Aaliyah is sorting through her pile of documents for the transformation, she needs some help picking out the insights. Test your understanding of insight by reviewing each card on this page and help Aaliyah out. Is it an insight or not? Keep your answer in mind, and flip each card to see if you are correct! Then, in the following pages, we’ll show you how to use your insights to structure your message. How it works: 1. Read each card carefully. 2. Decide whether the card is an insight or not. 3. Keep your answer in mind, then flip the card to see if you are correct! Next step: in the following pages, we’ll show you how to use your insights to structure your message more effectively.",
-          "id": "Aktivitas. Insight sering tertukar dengan data dan informasi umum. Saat memilah tumpukan dokumen untuk transformasi, Aaliyah butuh bantuan untuk memilih mana yang merupakan insight. Uji pemahamanmu tentang insight dengan meninjau setiap kartu di halaman ini dan bantu Aaliyah. Insight atau bukan? Simpan jawabanmu dalam kepala, lalu balik setiap kartu untuk melihat apakah kamu benar! Lalu, di halaman-halaman berikutnya, kami akan menunjukkan cara memakai insight-mu untuk menyusun pesan. Cara kerjanya: 1. Baca setiap kartu dengan teliti. 2. Tentukan apakah kartu itu insight atau bukan. 3. Simpan jawabanmu dalam kepala, lalu balik kartunya untuk melihat apakah kamu benar! Langkah berikutnya: di halaman-halaman berikutnya, kami akan menunjukkan cara memakai insight-mu untuk menyusun pesan dengan lebih efektif."
-         }
-        },
-        {
-         "title": {
-          "en": "Help Aaliyah focus on the insights, the cards",
-          "id": "Bantu Aaliyah fokus pada insight: kartu-kartunya"
-         },
-         "text": {
-          "en": "Activity. Your task: review each card and decide: is it an insight or not? Keep your answer in mind, then flip the card to check if you are correct. Cards: New analysis showing important drivers of improving profits in the retail sector · Workplan and current status · List of recently learned facts on competitors · Customer journey map revealing new and unexpected pain points to address · A chart showing quarterly sales information by region for the past two years · Synthesized reports from the front line on whether pilot projects are delivering results. Example, flipped: “New analysis showing important drivers of improving profits in the retail sector”: it’s an insight! Insights are generated by analyzing information and drawing conclusions. This analysis identifies key drivers and explains why profits are improving, which provides a deeper understanding beyond just the data.",
-          "id": "Aktivitas. Tugasmu: tinjau setiap kartu dan tentukan, apakah ini insight atau bukan? Simpan jawabanmu dalam kepala, lalu balik kartunya untuk memeriksa apakah kamu benar. Kartu: Analisis baru yang menunjukkan pendorong penting peningkatan laba di sektor ritel · Rencana kerja dan status terkini · Daftar fakta tentang pesaing yang baru diketahui · Peta perjalanan pelanggan yang mengungkap titik masalah baru dan tak terduga yang perlu ditangani · Grafik penjualan per kuartal per wilayah selama dua tahun terakhir · Laporan sintesis dari lapangan tentang apakah proyek percontohan membuahkan hasil. Contoh kartu yang sudah dibalik: \"Analisis baru yang menunjukkan pendorong penting peningkatan laba di sektor ritel.\" Ini insight! Insight lahir dari menganalisis informasi dan menarik kesimpulan. Analisis ini mengidentifikasi pendorong utama dan menjelaskan kenapa laba meningkat, sehingga memberi pemahaman yang lebih dalam daripada sekadar data."
-         }
-        }
-       ]
-      }
-     ],
      "videos": [
       {
        "src": {
@@ -7188,14 +7211,474 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:1",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows this slide: Nisa, a manager with ninety seconds, and a message built from the reader backwards. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide ini: Nisa, manajer yang hanya punya sembilan puluh detik, dan pesan yang dirancang mundur dari pembacanya. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Nisa, a manager with ninety seconds, and a message built from the reader backwards. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Nisa, manajer yang hanya punya sembilan puluh detik, dan pesan yang dirancang mundur dari pembacanya. Tonton, lalu lanjutkan ke bacaan di bawah."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 6 slides",
+       "id": "Baca dulu · 6 slide"
+      },
+      "title": {
+       "en": "Designing a Message",
+       "id": "Merancang Sebuah Pesan"
+      },
+      "intro": {
+       "en": "Six ideas you will reuse in every email, update and interview answer. Then a short film, and the reading below goes deeper into each one.",
+       "id": "Enam gagasan yang akan kamu pakai ulang di setiap email, laporan, dan jawaban wawancara. Setelah itu satu film singkat, lalu bacaan di bawah membahas masing-masing lebih dalam."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Start from the reader",
+         "id": "Mulai dari pembaca"
+        },
+        "points": [
+         {
+          "en": "Four questions, answered before you type a word of content.",
+          "id": "Empat pertanyaan, dijawab sebelum kamu mengetik satu kata pun."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Purpose",
+         "id": "Tujuan pesan"
+        },
+        "points": [
+         {
+          "en": "A message without a purpose reports. A message with a purpose asks for something.",
+          "id": "Pesan tanpa tujuan hanya melapor. Pesan dengan tujuan meminta sesuatu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Answer first",
+         "id": "Jawaban dulu"
+        },
+        "points": [
+         {
+          "en": "Professional structure turns the school essay upside down. The consultant Barbara Minto named this shape the pyramid principle.",
+          "id": "Struktur di dunia kerja membalik karangan sekolah. Konsultan Barbara Minto menamai bentuk ini prinsip piramida."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Information or insight",
+         "id": "Informasi atau wawasan"
+        },
+        "points": [
+         {
+          "en": "Numbers do not speak for themselves. Someone has to say what they mean.",
+          "id": "Angka tidak berbicara sendiri. Harus ada yang menyebutkan artinya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three altitudes",
+         "id": "Tiga ketinggian"
+        },
+        "points": [
+         {
+          "en": "“What's the bottom line?” means climb. “Walk me through that number” means descend.",
+          "id": "“Intinya apa?” berarti naik. “Jelaskan angka itu” berarti turun."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Close the loop",
+         "id": "Tutup putarannya"
+        },
+        "points": [
+         {
+          "en": "The loop is what turns a monologue into communication.",
+          "id": "Putaran inilah yang mengubah monolog menjadi komunikasi."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-direction.jpg",
+       "module": {
+        "en": "Module 4 · Communication for Impact",
+        "id": "Modul 4 · Komunikasi yang Berdampak"
+       },
+       "lesson": {
+        "n": "4.2",
+        "title": {
+         "en": "Core Communication Theory",
+         "id": "Teori Inti Komunikasi"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Every message exists to move one reader toward a decision, so design it backwards",
+         "id": "Setiap pesan ada untuk menggerakkan satu pembaca menuju keputusan, maka rancanglah secara mundur"
+        },
+        {
+         "en": "Decide what should happen after the message is read, then write the first line",
+         "id": "Tentukan apa yang harus terjadi setelah pesan dibaca, baru tulis baris pertamanya"
+        },
+        {
+         "en": "Line one is the answer; the reasons hold it up; the evidence waits underneath",
+         "id": "Baris pertama adalah jawabannya; alasan menopangnya; bukti menunggu di bawah"
+        },
+        {
+         "en": "Information says what happened; an insight says what it means for the decision",
+         "id": "Informasi menyebut apa yang terjadi; wawasan menyebut apa artinya bagi keputusan"
+        },
+        {
+         "en": "Skilled communicators fly at three altitudes and say when they change",
+         "id": "Komunikator yang terampil terbang di tiga ketinggian dan memberi tahu saat berpindah"
+        },
+        {
+         "en": "“Did that answer it?” is the cheapest quality check in professional life",
+         "id": "“Apakah itu sudah menjawab?” adalah pengecekan mutu termurah di dunia kerja"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Start from the reader",
+          "id": "Mulai dari pembaca"
+         },
+         "p": {
+          "en": "Write the reader's decision at the top of your draft before anything else.",
+          "id": "Tulis keputusan pembacamu di bagian atas draf sebelum yang lain."
+         }
+        },
+        {
+         "h": {
+          "en": "Purpose",
+          "id": "Tujuan pesan"
+         },
+         "p": {
+          "en": "If you cannot say what the reader should do next, you are not ready to write.",
+          "id": "Kalau kamu belum bisa menyebut apa yang harus dilakukan pembaca setelahnya, kamu belum siap menulis."
+         }
+        },
+        {
+         "h": {
+          "en": "Answer first",
+          "id": "Jawaban dulu"
+         },
+         "p": {
+          "en": "Everyone reads line one, some read the reasons, few read the evidence. One document serves all three.",
+          "id": "Semua orang membaca baris pertama, sebagian membaca alasannya, sedikit yang membaca buktinya. Satu dokumen melayani ketiganya."
+         }
+        },
+        {
+         "h": {
+          "en": "Information or insight",
+          "id": "Informasi atau wawasan"
+         },
+         "p": {
+          "en": "Ask “so what?” of every number until the answer changes what the reader does.",
+          "id": "Tanyakan “lalu kenapa?” pada setiap angka sampai jawabannya mengubah apa yang dilakukan pembaca."
+         }
+        },
+        {
+         "h": {
+          "en": "Three altitudes",
+          "id": "Tiga ketinggian"
+         },
+         "p": {
+          "en": "Announce the move: “Zooming out…”, “To get concrete…”.",
+          "id": "Umumkan perpindahannya: “Kalau kita lihat dari jauh…”, “Supaya lebih konkret…”."
+         }
+        },
+        {
+         "h": {
+          "en": "Close the loop",
+          "id": "Tutup putarannya"
+         },
+         "p": {
+          "en": "The loop is what turns a monologue into communication.",
+          "id": "Putaran inilah yang mengubah monolog menjadi komunikasi."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Every message exists to move one reader toward a decision, so design it backwards",
+          "id": "Setiap pesan ada untuk menggerakkan satu pembaca menuju keputusan, maka rancanglah secara mundur"
+         },
+         "em": {
+          "en": "design it backwards",
+          "id": "rancanglah secara mundur"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "person",
+           "en": "Who reads this?",
+           "id": "Siapa pembacanya?",
+           "d": {
+            "en": "A manager with 90 seconds, not a friend with an afternoon",
+            "id": "Manajer dengan 90 detik, bukan teman yang punya waktu sesore"
+           }
+          },
+          {
+           "icon": "target",
+           "en": "What must they decide?",
+           "id": "Apa yang harus diputuskan?",
+           "d": {
+            "en": "Approve, choose, unblock",
+            "id": "Menyetujui, memilih, membuka jalan"
+           }
+          },
+          {
+           "icon": "book",
+           "en": "What do they know?",
+           "id": "Apa yang sudah mereka tahu?",
+           "d": {
+            "en": "Skip that part",
+            "id": "Lewati bagian itu"
+           }
+          },
+          {
+           "icon": "key",
+           "en": "What do they need from me?",
+           "id": "Apa yang mereka butuhkan dariku?",
+           "d": {
+            "en": "Only that",
+            "id": "Hanya itu"
+           }
+          }
+         ],
+         "band": {
+          "en": "Write the reader's decision at the top of your draft before anything else.",
+          "id": "Tulis keputusan pembacamu di bagian atas draf sebelum yang lain."
+         },
+         "img": "../../assets/bg/fg-sprint-direction.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Decide what should happen after the message is read, then write the first line",
+          "id": "Tentukan apa yang harus terjadi setelah pesan dibaca, baru tulis baris pertamanya"
+         },
+         "em": {
+          "en": "what should happen after",
+          "id": "apa yang harus terjadi setelah"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "“Here is an update on the late deliveries analysis.”",
+           "id": "“Berikut laporan analisis keterlambatan pengiriman.”",
+           "l": {
+            "en": "No purpose",
+            "id": "Tanpa tujuan"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "“I need your decision on switching courier for the East Java routes.”",
+           "id": "“Saya butuh keputusan Ibu soal ganti kurir untuk rute Jawa Timur.”",
+           "l": {
+            "en": "A purpose",
+            "id": "Dengan tujuan"
+           },
+           "img": "../../assets/bg/stage-activation.jpg"
+          }
+         ],
+         "band": {
+          "en": "If you cannot say what the reader should do next, you are not ready to write.",
+          "id": "Kalau kamu belum bisa menyebut apa yang harus dilakukan pembaca setelahnya, kamu belum siap menulis."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Line one is the answer; the reasons hold it up; the evidence waits underneath",
+          "id": "Baris pertama adalah jawabannya; alasan menopangnya; bukti menunggu di bawah"
+         },
+         "em": {
+          "en": "Line one is the answer",
+          "id": "Baris pertama adalah jawabannya"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "“Switch courier for the East Java routes.”",
+           "id": "“Ganti kurir untuk rute Jawa Timur.”",
+           "l": {
+            "en": "The answer",
+            "id": "Jawaban"
+           }
+          },
+          {
+           "icon": "layers",
+           "en": "Late one time in four. The same price. A low-risk trial.",
+           "id": "Terlambat satu dari empat. Harga sama. Uji coba berisiko kecil.",
+           "l": {
+            "en": "Two or three reasons",
+            "id": "Dua atau tiga alasan"
+           }
+          },
+          {
+           "icon": "table",
+           "en": "Eight weeks of delivery data, two quotes, a four-week trial plan.",
+           "id": "Data pengiriman delapan pekan, dua penawaran harga, rencana uji coba empat pekan.",
+           "l": {
+            "en": "The evidence",
+            "id": "Bukti"
+           }
+          }
+         ],
+         "band": {
+          "en": "Everyone reads line one, some read the reasons, few read the evidence. One document serves all three.",
+          "id": "Semua orang membaca baris pertama, sebagian membaca alasannya, sedikit yang membaca buktinya. Satu dokumen melayani ketiganya."
+         },
+         "img": "../../assets/bg/fg-stage-ascent.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Information says what happened; an insight says what it means for the decision",
+          "id": "Informasi menyebut apa yang terjadi; wawasan menyebut apa artinya bagi keputusan"
+         },
+         "em": {
+          "en": "what it means for the decision",
+          "id": "apa artinya bagi keputusan"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "“23 of 96 deliveries arrived late in the last eight weeks.”",
+           "id": "“23 dari 96 pengiriman terlambat dalam delapan pekan terakhir.”",
+           "l": {
+            "en": "Information",
+            "id": "Informasi"
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "bulb",
+           "en": "“One delivery in four is late, and all of them are on two routes. The courier is the problem, not our warehouse.”",
+           "id": "“Satu dari empat pengiriman terlambat, dan semuanya di dua rute. Masalahnya di kurir, bukan di gudang kita.”",
+           "l": {
+            "en": "Insight",
+            "id": "Wawasan"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          }
+         ],
+         "band": {
+          "en": "Ask “so what?” of every number until the answer changes what the reader does.",
+          "id": "Tanyakan “lalu kenapa?” pada setiap angka sampai jawabannya mengubah apa yang dilakukan pembaca."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Skilled communicators fly at three altitudes and say when they change",
+          "id": "Komunikator yang terampil terbang di tiga ketinggian dan memberi tahu saat berpindah"
+         },
+         "em": {
+          "en": "three altitudes",
+          "id": "tiga ketinggian"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "mountain",
+           "en": "30,000 ft",
+           "id": "30.000 kaki",
+           "d": {
+            "en": "One sentence: the answer",
+            "id": "Satu kalimat: jawabannya"
+           }
+          },
+          {
+           "icon": "map",
+           "en": "3,000 ft",
+           "id": "3.000 kaki",
+           "d": {
+            "en": "The structure: the reasons and how they connect",
+            "id": "Strukturnya: alasan-alasan dan kaitannya"
+           }
+          },
+          {
+           "icon": "pin",
+           "en": "Ground",
+           "id": "Darat",
+           "d": {
+            "en": "Specific numbers, quotes, the spreadsheet",
+            "id": "Angka yang spesifik, kutipan, lembar kerja"
+           }
+          }
+         ],
+         "band": {
+          "en": "Announce the move: “Zooming out…”, “To get concrete…”.",
+          "id": "Umumkan perpindahannya: “Kalau kita lihat dari jauh…”, “Supaya lebih konkret…”."
+         },
+         "img": "../../assets/bg/map-hero.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "“Did that answer it?” is the cheapest quality check in professional life",
+          "id": "“Apakah itu sudah menjawab?” adalah pengecekan mutu termurah di dunia kerja"
+         },
+         "em": {
+          "en": "the cheapest quality check",
+          "id": "pengecekan mutu termurah"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "check",
+           "en": "“Does that cover what you needed?”",
+           "id": "“Apakah itu sudah mencakup yang Ibu butuhkan?”",
+           "l": {
+            "en": "After an answer",
+            "id": "Setelah menjawab"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "“Can you play it back, so I know I explained it well?”",
+           "id": "“Bisa diulangi dengan kata-katamu, supaya aku tahu penjelasanku jelas?”",
+           "l": {
+            "en": "When you teach",
+            "id": "Saat mengajari"
+           }
+          },
+          {
+           "icon": "steps",
+           "en": "“Which part should I go lower on?”",
+           "id": "“Bagian mana yang perlu saya jelaskan lebih rinci?”",
+           "l": {
+            "en": "When they hesitate",
+            "id": "Saat mereka ragu"
+           }
+          }
+         ],
+         "img": "../../assets/bg/alumni.jpg"
+        }
+       ]
+      }
      }
     },
     {
@@ -7360,330 +7843,6 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 2 slides",
-        "id": "Baca dulu · 2 slide"
-       },
-       "title": {
-        "en": "Why Organize Communication: Material",
-        "id": "Kenapa Komunikasi Perlu Disusun: Materi"
-       },
-       "intro": {
-        "en": "Two slides open the lesson. The first separates data (raw, unprocessed facts), information (data processed and organised into a format with context) and insight (relevant, non-obvious conclusions that earn the audience’s attention and lead to action). The second asks why organise communications at all: facts are not enough; they have to be formed into a message. How would you structure the insight for greatest impact, what context does it need to be understood, and how might a story or anecdote emphasise the key message? Use the arrows or swipe to move between slides; the deck follows your platform language. Then watch the film that follows.",
-        "id": "Dua slide membuka pelajaran ini. Slide pertama membedakan data (fakta mentah yang belum diolah), informasi (data yang sudah diolah dan disusun dalam format yang memberi konteks), dan insight (kesimpulan yang relevan dan tidak terlihat sekilas, yang layak mendapat perhatian audiens dan mendorong tindakan). Slide kedua bertanya, kenapa komunikasi perlu disusun? Fakta saja tidak cukup; fakta harus dibentuk menjadi pesan. Bagaimana kamu menyusun insight agar dampaknya paling besar, konteks apa yang dibutuhkan agar insight itu dipahami, dan bagaimana sebuah cerita atau anekdot bisa menegaskan pesan utamanya? Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu. Setelah itu, tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/cases-why-",
-       "slides": [
-        {
-         "title": {
-          "en": "The difference: data, information, and insight",
-          "id": "Bedanya data, informasi, dan insight"
-         },
-         "text": {
-          "en": "Concept. We spend a lot of time on our projects acquiring, analyzing, and visualizing data. While data analysis is important, the real value comes from the insight we provide. Let’s take a closer look at the differences between data, information, and insight. 1. Data: raw and unprocessed facts, usually in the form of numbers and text; quantitative (measured) or qualitative (observed). Example: store visits 1,250; online sales 320; customer feedback “Good”; age group 18–25; region Jakarta. 2. Information. Prepared data that have been processed, put together, and organized into a format that provides more context; often delivered as graphs or tables, reports, and dashboards. Example: monthly store visits, January to May. 3. Insight: relevant to the audience and not obvious; it should get the audience’s attention and earn its way into a shared fact base that the conversation will draw from. Insights are generated by analyzing information and drawing conclusions. Example: “Young customers (18–25) drive 60% of store visits, but their online conversion rate is low, indicating an opportunity to improve the digital experience.” A strong insight can influence and move decisions along, which then leads to action.",
-          "id": "Konsep. Dalam proyek, kita menghabiskan banyak waktu untuk mengumpulkan, menganalisis, dan memvisualkan data. Analisis data memang penting, tetapi nilai sebenarnya ada pada insight yang kita berikan. Mari lihat lebih dekat perbedaan antara data, informasi, dan insight. 1. Data: fakta mentah yang belum diolah, biasanya berupa angka dan teks; bisa kuantitatif (diukur) atau kualitatif (diamati). Contoh: kunjungan toko 1.250; penjualan online 320; masukan pelanggan \"Bagus\"; kelompok usia 18–25; wilayah Jakarta. 2. Informasi. Data yang sudah diolah, digabungkan, dan disusun dalam format yang memberi konteks lebih; sering disajikan dalam bentuk grafik atau tabel, laporan, dan dasbor. Contoh: kunjungan toko bulanan, Januari sampai Mei. 3. Insight: relevan bagi audiens dan tidak terlihat sekilas. Insight harus menarik perhatian audiens dan layak masuk ke basis fakta bersama yang akan menjadi pijakan percakapan. Insight lahir dari menganalisis informasi dan menarik kesimpulan. Contoh: \"Pelanggan muda (18–25) menyumbang 60% kunjungan toko, tetapi tingkat konversi online mereka rendah. Ini menunjukkan peluang untuk memperbaiki pengalaman digital.\" Insight yang kuat bisa memengaruhi dan menggerakkan keputusan, yang kemudian berujung pada tindakan."
-         }
-        },
-        {
-         "title": {
-          "en": "Why organize communications?",
-          "id": "Kenapa komunikasi perlu disusun?"
-         },
-         "text": {
-          "en": "Concept. It is not enough just to have facts. We need to form them into a message. Once you’ve identified the insights aligned with your audience and the purpose, consider the following questions: 1. How would you structure the insight(s) for greatest impact? 2. What context is necessary to provide for the insights to be understood? 3. How might you use a story or anecdote to emphasize a key message? Watch the video: in this video, Elizabeth Hioe, Akash Shah, and Mark Wiseman describe how a structured argument helps you move your audience to action. Reflect and apply: as you watch, pay close attention to the impact of not having organized communication. Take a moment to think about how you might start to organize your communications and apply some of the concepts taught to make your message more clear.",
-          "id": "Konsep. Punya fakta saja tidak cukup. Kita perlu membentuknya menjadi pesan. Setelah kamu menemukan insight yang selaras dengan audiens dan tujuanmu, pikirkan pertanyaan berikut: 1. Bagaimana kamu menyusun insight itu agar dampaknya paling besar? 2. Konteks apa yang perlu diberikan agar insight itu dipahami? 3. Bagaimana kamu bisa memakai cerita atau anekdot untuk menegaskan pesan utama? Tonton videonya: dalam video ini, Elizabeth Hioe, Akash Shah, dan Mark Wiseman menjelaskan bagaimana argumen yang tersusun membantumu menggerakkan audiens untuk bertindak. Renungkan dan terapkan: sambil menonton, perhatikan baik-baik apa akibatnya kalau komunikasi tidak tersusun. Luangkan waktu untuk memikirkan bagaimana kamu bisa mulai menyusun komunikasimu dan menerapkan beberapa konsep yang diajarkan agar pesanmu lebih jelas."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 1 slide",
-        "id": "Baca berikutnya · 1 slide"
-       },
-       "title": {
-        "en": "The Pyramid Principle: Material",
-        "id": "Prinsip Piramida: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “The Pyramid Principle”. Read them at your own pace.",
-        "id": "Slide-slide ini membahas “Prinsip Piramida”. Baca sesuai ritmemu."
-       },
-       "base": "../../assets/lms/the-map/slides/cases-pyramid-",
-       "slides": [
-        {
-         "title": {
-          "en": "The Pyramid Principle",
-          "id": "Prinsip Piramida"
-         },
-         "text": {
-          "en": "Concept. The Pyramid Principle: a proven framework to develop structured, clear, and persuasive arguments. A strong message is like a pyramid, built from a clear foundation to a compelling top. Originally developed by Barbara Minto, the Pyramid Principle is an approach to developing structured, airtight arguments. Watch the video: in this video, Elizabeth Hioe, Akash Shah, and Charlotte Relyea introduce the Pyramid Principle. Reflection questions. As you watch this video, take a minute to think about the following: 1. How could you apply the Pyramid Principle to your life? 2. Have you ever lost track of a conversation because you couldn’t understand the main point? 3. How can the Pyramid Principle help you communicate your message more effectively?",
-          "id": "Konsep. Prinsip Piramida: kerangka yang sudah teruji untuk membangun argumen yang tersusun, jelas, dan persuasif. Pesan yang kuat itu seperti piramida, dibangun dari fondasi yang jelas sampai puncak yang meyakinkan. Awalnya dikembangkan oleh Barbara Minto, Prinsip Piramida adalah pendekatan untuk membangun argumen yang tersusun dan rapat. Tonton videonya: dalam video ini, Elizabeth Hioe, Akash Shah, dan Charlotte Relyea memperkenalkan Prinsip Piramida. Pertanyaan renungan. Sambil menonton video ini, luangkan waktu untuk memikirkan hal berikut: 1. Bagaimana kamu bisa menerapkan Prinsip Piramida dalam hidupmu? 2. Pernahkah kamu kehilangan arah dalam percakapan karena tidak menangkap poin utamanya? 3. Bagaimana Prinsip Piramida bisa membantumu menyampaikan pesan dengan lebih efektif?"
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 8 slides",
-        "id": "Baca berikutnya · 8 slide"
-       },
-       "title": {
-        "en": "Creating Logical Groupings: Material",
-        "id": "Membuat Pengelompokan yang Logis: Materi"
-       },
-       "intro": {
-        "en": "Eight slides take the pyramid from principle to practice. Creating logical groupings (deliver top-down, build bottom-up, MECE), the three-step process from grouped facts to key line statements to a governing thought, a ten-minute practice rewriting one of your own emails, then the turn to synthesis: what great communicators do with grouped facts, summary versus synthesis side by side in two emails from Zoë Durand, and the MODA case challenge: write key line statements for the in-house yoga studio and pick the governing thought that best synthesises them. Use the arrows or swipe to move between slides; the deck follows your platform language.",
-        "id": "Delapan slide ini membawa piramida dari prinsip ke praktik. Ada cara membuat pengelompokan yang logis (sampaikan dari atas, bangun dari bawah, MECE), tiga langkah dari fakta yang dikelompokkan menjadi pernyataan garis kunci lalu menjadi gagasan utama, dan latihan sepuluh menit menulis ulang salah satu emailmu sendiri. Setelah itu materi beralih ke sintesis: apa yang dilakukan komunikator hebat dengan fakta yang sudah dikelompokkan, perbandingan ringkasan dan sintesis lewat dua email dari Zoë Durand, dan tantangan kasus MODA: tulis pernyataan garis kunci untuk studio yoga internal, lalu pilih gagasan utama yang paling tepat menyintesisnya. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu."
-       },
-       "base": "../../assets/lms/the-map/slides/cases-groupings-",
-       "slides": [
-        {
-         "title": {
-          "en": "Creating logical groupings",
-          "id": "Membuat pengelompokan yang logis"
-         },
-         "text": {
-          "en": "Concept. A pyramid structure begins by grouping related facts and ideas, so you can build a strong and well-supported thesis. 1. Delivering the argument (top-down): when you deliver the argument, you lead with your thesis and then share the analyses and facts that support it. Thesis, then supporting analyses, supporting facts, supporting data. 2. Building the argument (bottom-up): when you build the argument, you do the opposite: you start by grouping the facts and ideas, and then “boil them up” into a strong and well-supported thesis, related facts and ideas into groups (key themes), then the thesis. 3. Principles of good groupings: when structuring arguments, your groupings should be mutually exclusive (each group does not overlap with others; a fact or idea should belong to only one group) and collectively exhaustive (MECE: together, the groups cover all relevant facts and ideas; nothing important is left out). Example of groupings: overlapping circles are not mutually exclusive; separate circles are mutually exclusive and collectively exhaustive (no gaps).",
-          "id": "Konsep. Struktur piramida dimulai dengan mengelompokkan fakta dan ide yang saling berkaitan, supaya kamu bisa membangun tesis yang kuat dan didukung dengan baik. 1. Menyampaikan argumen (dari atas ke bawah): saat menyampaikan argumen, kamu membuka dengan tesismu, lalu membagikan analisis dan fakta yang mendukungnya. Tesis, lalu analisis pendukung, fakta pendukung, data pendukung. 2. Membangun argumen (dari bawah ke atas): saat membangun argumen, kamu melakukan kebalikannya. Kamu mulai dengan mengelompokkan fakta dan ide, lalu \"merebusnya\" menjadi tesis yang kuat dan didukung dengan baik: fakta dan ide yang berkaitan dikelompokkan (tema-tema utama), lalu menjadi tesis. 3. Prinsip pengelompokan yang baik: saat menyusun argumen, kelompok-kelompokmu harus saling lepas (setiap kelompok tidak tumpang tindih dengan yang lain; satu fakta atau ide hanya masuk ke satu kelompok) dan lengkap menyeluruh (MECE: bersama-sama, kelompok itu mencakup semua fakta dan ide yang relevan; tidak ada hal penting yang tertinggal). Contoh pengelompokan: lingkaran yang tumpang tindih berarti tidak saling lepas; lingkaran yang terpisah berarti saling lepas dan lengkap menyeluruh (tanpa celah)."
-         }
-        },
-        {
-         "title": {
-          "en": "Building a structured argument with the Pyramid Principle",
-          "id": "Membangun argumen yang tersusun dengan Prinsip Piramida"
-         },
-         "text": {
-          "en": "Process. Start by grouping related facts and ideas, then develop key line statements, and finally craft a clear governing thought. 1. Group related facts and ideas: organize your supporting data into logical groups of similar facts or ideas. Each group should be mutually exclusive and relevant to your main point. Supporting data: the supporting evidence that forms the foundation of your argument. 2. Develop key line statements: for each group, create a clear and concise key line statement that summarizes the main point of the group and explains the “why” and “how” behind it. Key line statements: the why and how to implement the solution for each group. 3. Craft a clear governing thought: combine the key line statements into one clear and compelling governing thought (a single-sentence answer or solution to the problem). Governing thought: a clear, concise, and compelling one-sentence answer that ties the argument together.",
-          "id": "Proses. Mulai dengan mengelompokkan fakta dan ide yang berkaitan, lalu susun pernyataan garis kunci, dan terakhir rumuskan gagasan utama yang jelas. 1. Kelompokkan fakta dan ide yang berkaitan: atur data pendukungmu ke dalam kelompok-kelompok logis yang berisi fakta atau ide sejenis. Setiap kelompok harus saling lepas dan relevan dengan poin utamamu. Data pendukung: bukti pendukung yang menjadi fondasi argumenmu. 2. Susun pernyataan garis kunci: untuk setiap kelompok, buat pernyataan garis kunci yang jelas dan ringkas, yang merangkum poin utama kelompok itu dan menjelaskan \"kenapa\" dan \"bagaimana\" di baliknya. Pernyataan garis kunci: kenapa dan bagaimana menerapkan solusi untuk setiap kelompok. 3. Rumuskan gagasan utama yang jelas: gabungkan pernyataan-pernyataan garis kunci menjadi satu gagasan utama yang jelas dan meyakinkan (jawaban atau solusi atas masalahnya dalam satu kalimat). Gagasan utama: jawaban satu kalimat yang jelas, ringkas, dan meyakinkan, yang mengikat seluruh argumen."
-         }
-        },
-        {
-         "title": {
-          "en": "Practice with the Pyramid Principle",
-          "id": "Berlatih dengan Prinsip Piramida"
-         },
-         "text": {
-          "en": "Practice. Apply the Pyramid Principle to a real email and experience how it helps you communicate more clearly, quickly, and persuasively. Goal: use the Pyramid Principle framework to structure an email (longer than two paragraphs) that you recently sent to a colleague, friend, or family. Logistics: this is an individual exercise to be completed as soon as possible. Estimated time: 10 minutes. How to do it: 1. Understand the task: you were introduced to the Pyramid Principle, which can be applied to everyday communications as much as it can to complex presentations. The pyramid can help you communicate in a quick and easy manner. 2. Rewrite your email: identify an email that you sent to a colleague in the last week which covered a substantial amount of information (i.e., longer than two paragraphs). Take 10 minutes to re-write your email using the Pyramid Principle worksheet in your workbook to structure your email in a more compelling way: governing thought (opening), key supporting arguments (body), call to action (closing). Questions to consider: 1. What is your governing thought? What is the main message you want to lead with? 2. What are your few supporting arguments? What are the key points that support your governing thought? 3. What is your call to action? What action do you want the reader to take at the end?",
-          "id": "Latihan. Terapkan Prinsip Piramida pada email sungguhan dan rasakan bagaimana prinsip ini membantumu berkomunikasi dengan lebih jelas, cepat, dan persuasif. Sasaran: pakai kerangka Prinsip Piramida untuk menyusun ulang email (lebih dari dua paragraf) yang baru-baru ini kamu kirim kepada rekan kerja, teman, atau keluarga. Teknis: latihan ini dikerjakan sendiri dan sebaiknya segera dilakukan. Perkiraan waktu: 10 menit. Cara mengerjakannya: 1. Pahami tugasnya: kamu sudah dikenalkan dengan Prinsip Piramida, yang bisa diterapkan pada komunikasi sehari-hari sama baiknya dengan presentasi yang rumit. Piramida bisa membantumu berkomunikasi dengan cepat dan mudah. 2. Tulis ulang emailmu: pilih email yang kamu kirim kepada rekan kerja minggu lalu yang memuat cukup banyak informasi (misalnya, lebih dari dua paragraf). Luangkan 10 menit untuk menulis ulang email itu dengan lembar kerja Prinsip Piramida di buku kerjamu, supaya emailmu tersusun lebih meyakinkan: gagasan utama (pembuka), argumen pendukung utama (isi), ajakan bertindak (penutup). Pertanyaan yang perlu dipikirkan: 1. Apa gagasan utamamu? Pesan utama apa yang ingin kamu sampaikan di awal? 2. Apa saja beberapa argumen pendukungmu? Poin-poin kunci apa yang mendukung gagasan utamamu? 3. Apa ajakan bertindakmu? Tindakan apa yang kamu ingin pembaca lakukan di akhir?"
-         }
-        },
-        {
-         "title": {
-          "en": "Great communicators can synthesize insights",
-          "id": "Komunikator hebat bisa menyintesis insight"
-         },
-         "text": {
-          "en": "Concept. After you have constructed your pyramid as part of your communication, the next important step is to synthesize your findings, turning them into meaningful insights. A key characteristic of a great communicator is the ability to offer new insights. In this video, Elizabeth and Charlotte discuss how to synthesize groups of facts (in other words, generate a novel insight) to deliver impactful communications. What does synthesis mean? Synthesis means combining, connecting, and interpreting your findings to understand: why did this happen? (the root cause) and what are the implications of this finding? (what is likely to happen next). 1. From many facts… a set of facts and data that you have gathered. 2. …do the synthesis… combine, connect, and analyze to identify patterns, relationships, and deeper meaning. 3. …into new insights that have impact: relevant insights, clear explanation, strong implications, compelling communication.",
-          "id": "Konsep. Setelah kamu menyusun piramida untuk komunikasimu, langkah penting berikutnya adalah menyintesis temuanmu dan mengubahnya menjadi insight yang bermakna. Salah satu ciri utama komunikator hebat adalah kemampuan menawarkan insight baru. Dalam video ini, Elizabeth dan Charlotte membahas cara menyintesis kelompok-kelompok fakta (dengan kata lain, menghasilkan insight baru) untuk menyampaikan komunikasi yang berdampak. Apa arti sintesis? Sintesis berarti menggabungkan, menghubungkan, dan menafsirkan temuanmu untuk memahami: kenapa ini terjadi? (akar masalahnya) dan apa implikasi temuan ini? (apa yang kemungkinan terjadi berikutnya). 1. Dari banyak fakta… sekumpulan fakta dan data yang sudah kamu kumpulkan. 2. …lakukan sintesis… gabungkan, hubungkan, dan analisis untuk menemukan pola, hubungan, dan makna yang lebih dalam. 3. …menjadi insight baru yang berdampak: insight yang relevan, penjelasan yang jelas, implikasi yang kuat, komunikasi yang meyakinkan."
-         }
-        },
-        {
-         "title": {
-          "en": "Summary vs Synthesis",
-          "id": "Ringkasan vs sintesis"
-         },
-         "text": {
-          "en": "Concept. A summary condenses the facts, while a synthesis connects the facts to generate a new insight. Summary: a condensed version of all the facts. Synthesis: the “so what” of all the facts, providing insight that all the facts together create. Example 1: Summary (lists the key facts without connecting them). Email from Zoë Durand: “Hi Aaliyah, here are several pain points that we heard from our customer interviews: in-store returns are a clunky experience and require customers to wait in line with paying customers; waiting time for inventory checks in-store is too long given customer demand and number of staff available; loyalty program sign-ups at the register require too much time to fill out. Best, Zoë Durand, Head of Customer Service.” Key takeaway: the summary provides a clear list of key points, but it does not explain the bigger picture or what it means. Example 2: Synthesis (connects the facts to generate a new insight). Email from Zoë Durand: “Hi Aaliyah, overall, customers are looking for an enhanced in-store experience that reduces the time it takes from entry to exit, and would opt for self-serve solutions to minimize shopping time. Faster returns: long wait times at returns create frustration. Quicker inventory checks: customers face delays due to limited staff and high demand. Simpler loyalty sign-ups: registration at the register takes too much time. Best, Zoë Durand, Head of Customer Service.” Key takeaway: the synthesis connects the facts to a clear insight, explaining the underlying theme and what it means for the customer journey.",
-          "id": "Konsep. Ringkasan memadatkan fakta, sedangkan sintesis menghubungkan fakta untuk menghasilkan insight baru. Ringkasan: versi padat dari semua fakta. Sintesis: \"lalu kenapa\" dari semua fakta, yang memberi insight yang lahir dari semua fakta itu bersama-sama. Contoh 1: Ringkasan (mendaftar fakta-fakta kunci tanpa menghubungkannya). Email dari Zoë Durand: \"Hai Aaliyah, berikut beberapa titik masalah yang kami dengar dari wawancara pelanggan: proses retur di toko merepotkan dan membuat pelanggan harus antre bersama pelanggan yang sedang membayar; waktu tunggu untuk cek stok di toko terlalu lama dibandingkan permintaan pelanggan dan jumlah staf yang ada; pendaftaran program loyalitas di kasir butuh waktu terlalu lama untuk diisi. Salam, Zoë Durand, Head of Customer Service.\" Poin penting: ringkasan memberi daftar poin kunci yang jelas, tetapi tidak menjelaskan gambaran besarnya atau artinya. Contoh 2: Sintesis (menghubungkan fakta untuk menghasilkan insight baru). Email dari Zoë Durand: \"Hai Aaliyah, secara keseluruhan, pelanggan menginginkan pengalaman belanja di toko yang lebih baik, yang memangkas waktu dari masuk sampai keluar toko, dan mereka akan memilih layanan mandiri untuk mempersingkat waktu belanja. Retur yang lebih cepat: waktu tunggu yang lama di bagian retur membuat frustrasi. Cek stok yang lebih cepat: pelanggan menunggu lama karena staf terbatas dan permintaan tinggi. Pendaftaran loyalitas yang lebih sederhana: pendaftaran di kasir makan waktu terlalu lama. Salam, Zoë Durand, Head of Customer Service.\" Poin penting: sintesis menghubungkan fakta menjadi satu insight yang jelas, menjelaskan tema yang mendasarinya dan artinya bagi perjalanan pelanggan."
-         }
-        },
-        {
-         "title": {
-          "en": "MODA case challenge",
-          "id": "Tantangan kasus MODA"
-         },
-         "text": {
-          "en": "Knowledge check. Make the case for an in-house MODA yoga studio. Background: the People team at MODA is lobbying their leadership to build a yoga studio in the company headquarters. They believe their employees need a place to literally stretch their creative muscles. What they have done: they have researched the topic and organized their arguments in a pyramid structure using MECE principles. Your task: think of a key line statement for each group of facts. A key line statement synthesizes a group of facts. It offers a new insight that the facts suggest when taken together. We sometimes refer to the synthesis as the “so what” of a group of facts. 1. Understand the context: the People team has analyzed the need for a yoga studio and structured their arguments using MECE principles. 2. Your challenge: develop a key line statement for each group of facts. Each key line statement should synthesize the facts and provide a new insight, the “so what” for the leadership team. A strong key line statement synthesizes multiple facts, provides a new insight, and is clear and compelling.",
-          "id": "Cek pemahaman. Bangun argumen untuk studio yoga internal MODA. Latar belakang: tim People di MODA sedang membujuk pimpinannya untuk membangun studio yoga di kantor pusat. Mereka yakin para karyawan butuh tempat untuk benar-benar meregangkan otot kreatif mereka. Yang sudah mereka lakukan: mereka meriset topik ini dan menyusun argumennya dalam struktur piramida dengan prinsip MECE. Tugasmu: pikirkan satu pernyataan garis kunci untuk setiap kelompok fakta. Pernyataan garis kunci menyintesis sekelompok fakta. Pernyataan itu menawarkan insight baru yang muncul kalau fakta-faktanya dilihat bersama-sama. Kadang kita menyebut sintesis sebagai \"lalu kenapa\" dari sekelompok fakta. 1. Pahami konteksnya: tim People sudah menganalisis kebutuhan akan studio yoga dan menyusun argumennya dengan prinsip MECE. 2. Tantanganmu: susun pernyataan garis kunci untuk setiap kelompok fakta. Setiap pernyataan garis kunci harus menyintesis fakta-faktanya dan memberi insight baru, yaitu \"lalu kenapa\"-nya bagi tim pimpinan. Pernyataan garis kunci yang kuat menyintesis beberapa fakta, memberi insight baru, serta jelas dan meyakinkan."
-         }
-        },
-        {
-         "title": {
-          "en": "Review the facts from the MODA example",
-          "id": "Tinjau fakta dari contoh MODA"
-         },
-         "text": {
-          "en": "Practice. Review the facts from the MODA example and answer the question below. Based on the facts below, create a key line statement for each group of facts using MECE principles. Build an in-house yoga studio at MODA headquarters. A. Key line statement A (?): yoga classes offered in the studio will provide a more affordable option compared to nearby studios; easy access to a yoga studio encourages exercise and leads to improvements in employee health. B. Key line statement B (?): waiting time will be minimal since the studio only serves MODA colleagues; classes offered in-house will eliminate travel time to external classes. C. An onsite yoga studio will give employees a place to socialize and foster community building: a yoga studio promotes cross-functional interaction; an onsite yoga studio reinforces our commitment to the quality of life of our employees.",
-          "id": "Latihan. Tinjau fakta dari contoh MODA dan jawab pertanyaan di bawah. Berdasarkan fakta-fakta di bawah, buat pernyataan garis kunci untuk setiap kelompok fakta dengan prinsip MECE. Bangun studio yoga internal di kantor pusat MODA. A. Pernyataan garis kunci A (?): kelas yoga di studio ini akan menjadi pilihan yang lebih terjangkau dibandingkan studio di sekitar kantor; akses mudah ke studio yoga mendorong orang berolahraga dan membuat kesehatan karyawan membaik. B. Pernyataan garis kunci B (?): waktu tunggu akan minim karena studio ini hanya melayani karyawan MODA; kelas di kantor akan menghapus waktu perjalanan ke kelas di luar. C. Studio yoga di kantor akan memberi karyawan tempat untuk bersosialisasi dan membangun rasa kebersamaan: studio yoga mendorong interaksi lintas fungsi; studio yoga di kantor menegaskan komitmen kita terhadap kualitas hidup karyawan."
-         }
-        },
-        {
-         "title": {
-          "en": "Make the case for an in-house MODA yoga studio",
-          "id": "Bangun argumen untuk studio yoga internal MODA"
-         },
-         "text": {
-          "en": "Practice. Review the facts below and answer the question on the right. Now that you’ve identified key line statements for each group of facts, it’s time to articulate one overarching statement that synthesizes your key line statements. This statement is called a governing thought. Governing thought: what is the main message? A. Health and well-being: a health-focused space is aligned with MODA’s health initiative (classes offered in the yoga studio provide a more affordable option to nearby studios; easy access to a yoga studio encourages exercise and improvement in health). B. Time efficiency: an onsite yoga studio will save time and make MODA’s people more efficient (waiting time will be minimal as the studio only serves MODA colleagues; classes offered in-house will eliminate travel time to external classes). C. Community and culture: an onsite yoga studio will give employees a place to socialize and foster community building (a yoga studio promotes cross-functional interaction; an onsite yoga studio reinforces our commitment to the quality of life of our employees). Question: read the potential governing thoughts listed below. Which one best synthesizes the key line statements in MODA’s pyramid? (1) MODA cares about the health and well-being of its people. (2) MODA should help save people time and find ways to foster community building. (3) MODA should open a yoga studio inside of its headquarters. The slide shows option 3 selected.",
-          "id": "Latihan. Tinjau fakta di bawah dan jawab pertanyaan di sebelah kanan. Setelah kamu menemukan pernyataan garis kunci untuk setiap kelompok fakta, saatnya merumuskan satu pernyataan menyeluruh yang menyintesis semua pernyataan garis kuncimu. Pernyataan ini disebut gagasan utama. Gagasan utama: apa pesan utamanya? A. Kesehatan dan kesejahteraan: ruang yang berfokus pada kesehatan sejalan dengan program kesehatan MODA (kelas di studio yoga menjadi pilihan yang lebih terjangkau daripada studio di sekitar kantor; akses mudah ke studio yoga mendorong orang berolahraga dan membuat kesehatan membaik). B. Efisiensi waktu: studio yoga di kantor akan menghemat waktu dan membuat orang-orang MODA lebih efisien (waktu tunggu akan minim karena studio hanya melayani karyawan MODA; kelas di kantor akan menghapus waktu perjalanan ke kelas di luar). C. Kebersamaan dan budaya: studio yoga di kantor akan memberi karyawan tempat untuk bersosialisasi dan membangun rasa kebersamaan (studio yoga mendorong interaksi lintas fungsi; studio yoga di kantor menegaskan komitmen kita terhadap kualitas hidup karyawan). Pertanyaan: baca calon gagasan utama di bawah. Mana yang paling tepat menyintesis pernyataan garis kunci dalam piramida MODA? (1) MODA peduli pada kesehatan dan kesejahteraan orang-orangnya. (2) MODA sebaiknya membantu orang menghemat waktu dan mencari cara membangun rasa kebersamaan. (3) MODA sebaiknya membuka studio yoga di dalam kantor pusatnya. Di slide, pilihan 3 yang terpilih."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Turning Logic into Story: Material",
-        "id": "Mengubah Logika Menjadi Cerita: Materi"
-       },
-       "intro": {
-        "en": "Four slides carry the pyramid into the room: what a storyline is (the outline of key points you want to get across, chosen as the targeted set of insights that leads to a specific action); a five-part formula for creating one (introduction, key question, primary recommendation, supporting arguments, conclusion); the MODA yoga-studio pyramid as Jarrah Woods prepares for the Budget Committee; and a worked storyline for it, from the sick-days and gym-visits data to the conclusion. Use the arrows or swipe to move between slides; the deck follows your platform language.",
-        "id": "Empat slide ini membawa piramida ke dalam ruangan: apa itu alur cerita (kerangka poin-poin utama yang ingin kamu sampaikan, dipilih sebagai sekumpulan insight terarah yang mendorong satu tindakan tertentu); rumus lima bagian untuk membuatnya (pembuka, pertanyaan kunci, rekomendasi utama, argumen pendukung, penutup); piramida studio yoga MODA saat Jarrah Woods bersiap menghadap Komite Anggaran; dan contoh alur ceritanya, dari data hari sakit dan kunjungan ke gym sampai penutupnya. Pakai tanda panah atau geser untuk berpindah slide; bahasa slide mengikuti bahasa platformmu."
-       },
-       "base": "../../assets/lms/the-map/slides/cases-story-",
-       "slides": [
-        {
-         "title": {
-          "en": "Turning logic into a compelling storyline",
-          "id": "Mengubah logika menjadi alur cerita yang meyakinkan"
-         },
-         "text": {
-          "en": "From logic to storyline. Same insights, a clearer impact. Multiple insights structured using the Pyramid Principle → insights (identify the right insights) → targeted message (focus on the targeted set of insights) → specific action (lead to a clear and specific action); a clear storyline of key points 1–4. What is a storyline? You’ve used the Pyramid Principle to craft an airtight message. Now it’s time to translate those messages into materials that you’ll share with your teams and colleagues. It is often tempting to bring our full range of insights to a meeting; however, this can lead us away from the specific purpose of a meeting. Step back, pause, and think about what targeted set of insights will lead to a specific action. Kate introduces the concept of a storyline as the outline of key points you want to get across to your audience. She distinguishes between storylining and storytelling. A storyline is the outline of key points you want to get across to your audience.",
-          "id": "Dari logika ke alur cerita. Insight yang sama, dampak yang lebih jelas. Banyak insight yang disusun dengan Prinsip Piramida → insight (kenali insight yang tepat) → pesan terarah (fokus pada sekumpulan insight yang terarah) → tindakan spesifik (mengarah pada tindakan yang jelas dan spesifik); alur cerita yang jelas dari poin kunci 1–4. Apa itu alur cerita? Kamu sudah memakai Prinsip Piramida untuk merumuskan pesan yang rapat. Sekarang saatnya menerjemahkan pesan-pesan itu menjadi bahan yang akan kamu bagikan kepada tim dan rekan kerja. Sering kali kita tergoda membawa seluruh insight kita ke rapat, padahal itu bisa menjauhkan kita dari tujuan rapat yang spesifik. Mundur selangkah, berhenti sejenak, dan pikirkan sekumpulan insight terarah mana yang akan mendorong satu tindakan tertentu. Kate memperkenalkan konsep alur cerita sebagai kerangka poin-poin utama yang ingin kamu sampaikan kepada audiens. Ia membedakan antara menyusun alur cerita dan bercerita. Alur cerita adalah kerangka poin-poin utama yang ingin kamu sampaikan kepada audiens."
-         }
-        },
-        {
-         "title": {
-          "en": "Creating storylines",
-          "id": "Menyusun alur cerita"
-         },
-         "text": {
-          "en": "Storylining. Developing a storyline is in part sharing your findings with your audience, and in part creating a narrative that will move your audience to action. There are different approaches to storylining depending on your audience and the purpose of your interaction. From a structured analysis… to a clear and compelling storyline. Below is a simple formula you can use to create that narrative: 1. Introduction. Give a brief introduction that describes the situation or complication your presentation addresses (“Here is the context and why this matters…”). 2. Key question. Raise a question to be answered (“The key question we need to answer is…”). 3. Primary recommendation. Share your primary recommendation, which is drawn from your pyramid’s governing thought (“Our recommendation is…”). 4. Supporting arguments. Support and expand on your recommendation using the arguments and data in your pyramid structure (“Here are the key reasons and supporting data…”). 5. Conclusion. End with a conclusion that summarizes all of your key points (“In summary, this leads to…”).",
-          "id": "Menyusun alur cerita. Menyusun alur cerita sebagian berarti membagikan temuanmu kepada audiens, dan sebagian lagi berarti membangun narasi yang akan menggerakkan audiens untuk bertindak. Ada berbagai pendekatan untuk menyusun alur cerita, tergantung audiens dan tujuan interaksimu. Dari analisis yang tersusun… menjadi alur cerita yang jelas dan meyakinkan. Berikut rumus sederhana yang bisa kamu pakai untuk membangun narasi itu: 1. Pembuka. Beri pengantar singkat yang menggambarkan situasi atau persoalan yang dijawab presentasimu (\"Ini konteksnya dan kenapa ini penting…\"). 2. Pertanyaan kunci. Ajukan pertanyaan yang akan dijawab (\"Pertanyaan kunci yang perlu kita jawab adalah…\"). 3. Rekomendasi utama. Sampaikan rekomendasi utamamu, yang diambil dari gagasan utama piramidamu (\"Rekomendasi kami adalah…\"). 4. Argumen pendukung. Dukung dan kembangkan rekomendasimu dengan argumen dan data dari struktur piramidamu (\"Ini alasan-alasan utama dan data pendukungnya…\"). 5. Penutup. Akhiri dengan kesimpulan yang merangkum semua poin utamamu (\"Singkatnya, ini membawa kita pada…\")."
-         }
-        },
-        {
-         "title": {
-          "en": "An example storyline from MODA",
-          "id": "Contoh alur cerita dari MODA"
-         },
-         "text": {
-          "en": "Example storyline. Storylines can be effectively used for large-scale efforts like a transformation, or smaller-scale efforts. Remember the MODA employees’ desire for a yoga studio in company headquarters? The desire continues! Jarrah Woods, Head of Marketing, is scheduled to present to the MODA Budget Committee and make a case for why a yoga studio is a favorable investment. What might a compelling storyline for Jarrah’s message look like? Remember the pyramid structure you looked at in the last section. Reference the structure on the right. MODA Yoga Studio Pyramid (illustrative example): MODA should open a yoga studio inside its headquarters, a strategic investment to improve employee health, productivity, and company culture. Support employee health and well-being (provide an on-site space that aligns with MODA’s health initiatives): yoga classes in headquarters offer a more affordable and convenient option compared to external studios; easy access to a yoga studio encourages regular exercise and improves overall health. Save time and increase efficiency (an on-site yoga studio helps employees save time and become more efficient): waiting time is minimal as the studio only serves MODA colleagues; in-house classes eliminate travel time to external studios. Strengthen community and company culture (the yoga studio provides a space for employees to socialize and build a stronger sense of community): a yoga studio promotes cross-functional interaction among employees; an on-site yoga studio reinforces our commitment to the quality of life and well-being of our employees.",
-          "id": "Contoh alur cerita. Alur cerita bisa dipakai dengan efektif untuk upaya berskala besar seperti transformasi, maupun upaya yang lebih kecil. Masih ingat keinginan karyawan MODA untuk punya studio yoga di kantor pusat? Keinginan itu belum padam! Jarrah Woods, Head of Marketing, dijadwalkan presentasi di depan Komite Anggaran MODA untuk menjelaskan kenapa studio yoga adalah investasi yang menguntungkan. Seperti apa alur cerita yang meyakinkan untuk pesan Jarrah? Ingat struktur piramida yang kamu lihat di bagian sebelumnya. Lihat strukturnya di sebelah kanan. Piramida Studio Yoga MODA (contoh ilustrasi): MODA sebaiknya membuka studio yoga di dalam kantor pusatnya, sebagai investasi strategis untuk meningkatkan kesehatan, produktivitas, dan budaya perusahaan. Mendukung kesehatan dan kesejahteraan karyawan (menyediakan ruang di kantor yang sejalan dengan program kesehatan MODA): kelas yoga di kantor pusat menjadi pilihan yang lebih terjangkau dan praktis dibandingkan studio di luar; akses mudah ke studio yoga mendorong olahraga rutin dan meningkatkan kesehatan secara keseluruhan. Menghemat waktu dan meningkatkan efisiensi (studio yoga di kantor membantu karyawan menghemat waktu dan bekerja lebih efisien): waktu tunggu minim karena studio hanya melayani karyawan MODA; kelas di kantor menghapus waktu perjalanan ke studio di luar. Memperkuat kebersamaan dan budaya perusahaan (studio yoga memberi karyawan tempat untuk bersosialisasi dan membangun rasa kebersamaan yang lebih kuat): studio yoga mendorong interaksi lintas fungsi di antara karyawan; studio yoga di kantor menegaskan komitmen kita terhadap kualitas hidup dan kesejahteraan karyawan."
-         }
-        },
-        {
-         "title": {
-          "en": "What MODA’s storyline might look like",
-          "id": "Seperti apa alur cerita MODA"
-         },
-         "text": {
-          "en": "Learn by exploring. Click each section to learn more about what MODA’s storyline might look like. See how a structured storyline turns data and insights into a clear and persuasive message. 1. Start with an introduction. Describe the situation or complication your message addresses. Example: in recent years, MODA has undertaken an initiative to support the health and well-being of employees. However, recent data shows: the average number of sick days employees take has increased by 2.4 days per year over the past 5 years; 75% of employees report going to an exercise establishment (e.g., gym, yoga studio, class) 2–3 times per week, citing “convenience” as the primary factor in that choice. 2. Pose the key question. Clearly state the question your message answers. Example question: what can MODA do to positively impact all of these metrics and support the health and well-being of employees? 3. Use your pyramid structure. Answer the question and detail your supporting points: MODA should open a yoga studio inside its headquarters; offering health-focused spaces; an onsite yoga studio will save time and increase efficiency; an onsite yoga studio will give employees a place to socialize and foster community building, each with its two supporting facts. 4. Conclude with a succinct summary that reinforces your key points and the intended outcome. Example conclusion: opening an onsite yoga studio supports employees’ physical and social well-being and fosters cooperation between groups, while advancing the organization’s long-term health goals.",
-          "id": "Belajar sambil menjelajah. Klik setiap bagian untuk melihat lebih jauh seperti apa alur cerita MODA. Lihat bagaimana alur cerita yang tersusun mengubah data dan insight menjadi pesan yang jelas dan persuasif. 1. Mulai dengan pembuka. Gambarkan situasi atau persoalan yang dijawab pesanmu. Contoh: dalam beberapa tahun terakhir, MODA menjalankan program untuk mendukung kesehatan dan kesejahteraan karyawan. Namun data terbaru menunjukkan: rata-rata hari sakit yang diambil karyawan naik 2,4 hari per tahun selama 5 tahun terakhir; 75% karyawan mengaku pergi ke tempat olahraga (misalnya gym, studio yoga, kelas) 2–3 kali seminggu, dengan \"kemudahan akses\" sebagai alasan utama pilihan mereka. 2. Ajukan pertanyaan kunci. Nyatakan dengan jelas pertanyaan yang dijawab pesanmu. Contoh pertanyaan: apa yang bisa dilakukan MODA untuk memperbaiki semua angka ini dan mendukung kesehatan serta kesejahteraan karyawan? 3. Pakai struktur piramidamu. Jawab pertanyaannya dan rinci poin-poin pendukungmu: MODA sebaiknya membuka studio yoga di dalam kantor pusatnya; menyediakan ruang yang berfokus pada kesehatan; studio yoga di kantor akan menghemat waktu dan meningkatkan efisiensi; studio yoga di kantor akan memberi karyawan tempat untuk bersosialisasi dan membangun rasa kebersamaan, masing-masing dengan dua fakta pendukungnya. 4. Tutup dengan ringkasan padat yang menegaskan poin-poin utamamu dan hasil yang diharapkan. Contoh penutup: membuka studio yoga di kantor mendukung kesejahteraan fisik dan sosial karyawan serta mendorong kerja sama antarkelompok, sekaligus memajukan sasaran kesehatan jangka panjang perusahaan."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 5 slides",
-        "id": "Baca berikutnya · 5 slide"
-       },
-       "title": {
-        "en": "Adapting a Storyline: Material",
-        "id": "Menyesuaikan Alur Cerita: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “Adapting a Storyline”. Read them at your own pace.",
-        "id": "Slide-slide ini membahas “Menyesuaikan Alur Cerita”. Baca sesuai ritmemu."
-       },
-       "base": "../../assets/lms/the-map/slides/cases-adapt-",
-       "slides": [
-        {
-         "title": {
-          "en": "Adapting a storyline for another audience",
-          "id": "Menyesuaikan alur cerita untuk audiens lain"
-         },
-         "text": {
-          "en": "Adapting your story. Take a few minutes to reflect on how Jarrah’s storyline might change if he were presenting his idea for a new yoga studio to his peers. What would resonate more with his peers? What should he emphasize? How would the storyline change? Compare to expert. Take a moment to think about the following questions: 1. What changes would you make to Jarrah’s storyline? 2. What would his peers want to hear, in contrast to the MODA Budget Committee? 3. How might Jarrah start his presentation differently? Expert response: while the facts remain the same, Jarrah might start his presentation to his peers by calling attention or appealing to their values and vision of the ideal MODA workplace. To be effective, this kind of appeal must tap into what his peers really care about on a very personal level. And to do that well requires some fact-finding beforehand. Jarrah cannot just guess. Key takeaway: the same core facts can be framed differently depending on your audience. For peers, focus on shared values, personal relevance, and a compelling vision, rather than just financial or operational arguments.",
-          "id": "Menyesuaikan ceritamu. Luangkan beberapa menit untuk memikirkan bagaimana alur cerita Jarrah akan berubah kalau ia mempresentasikan ide studio yoga barunya kepada rekan-rekan sejawatnya. Apa yang akan lebih mengena bagi mereka? Apa yang sebaiknya ia tekankan? Bagaimana alur ceritanya akan berubah? Bandingkan dengan jawaban ahli. Luangkan waktu untuk memikirkan pertanyaan berikut: 1. Perubahan apa yang akan kamu buat pada alur cerita Jarrah? 2. Apa yang ingin didengar rekan-rekannya, berbeda dengan Komite Anggaran MODA? 3. Bagaimana Jarrah bisa membuka presentasinya dengan cara yang berbeda? Jawaban ahli: faktanya tetap sama, tetapi Jarrah bisa membuka presentasi untuk rekan-rekannya dengan menyentuh nilai-nilai dan gambaran mereka tentang tempat kerja MODA yang ideal. Agar efektif, ajakan seperti ini harus menyentuh hal yang benar-benar mereka pedulikan secara sangat pribadi. Untuk melakukannya dengan baik, ia perlu menggali informasi lebih dulu. Jarrah tidak bisa sekadar menebak. Poin penting: fakta inti yang sama bisa dibingkai berbeda tergantung audiensnya. Untuk rekan sejawat, fokuslah pada nilai bersama, kedekatan dengan kehidupan mereka, dan visi yang memikat, bukan hanya argumen keuangan atau operasional."
-         }
-        },
-        {
-         "title": {
-          "en": "Knowledge check: MODA",
-          "id": "Cek pemahaman: MODA"
-         },
-         "text": {
-          "en": "Knowledge check. Which storyline structure would you advise Noah to use in his upcoming meeting with Aaliyah? Noah needs to prepare an elevator pitch: meeting with Aaliyah in 5 minutes. Share a clear and convincing idea in a short time. Review the following information, then select the best answer and click Submit: (1) Governing thought, Context, Conclusion; (2) Context, Governing thought, Conclusion; (3) Context, Governing thought, Supporting facts, Conclusion; (4) Context, Supporting facts, Governing thought, Conclusion. The slide shows option 2 selected. Correct. That’s right! A short encounter requires a succinct message which provides enough context to understand the governing thought. Given that Aaliyah wanted to check in briefly before their actual meeting, she likely wants to hear the high-level answer to make sure the team is on the right track. Incorrect: not quite. Running through all of the supporting facts can be difficult to do in a short encounter and may not satisfy the reason why your audience wanted to connect in the first place. In this case, Aaliyah likely wants to hear the high-level answer to make sure the team is on the right track before more time is spent on preparing for the actual meeting. Yikes! Help Noah quickly get ready for his meeting: in the scene film in Lesson 4.2, Noah helped Maryam structure her findings; now he needs a storyline to bring that logic to life. Noah needs to put together an elevator pitch (a short but convincing argument for an idea) for a meeting happening with Aaliyah in 5 minutes. Bring the key message to life → keep it short and focused → make it relevant to Aaliyah’s priorities.",
-          "id": "Cek pemahaman. Struktur alur cerita mana yang akan kamu sarankan untuk dipakai Noah dalam pertemuannya dengan Aaliyah sebentar lagi? Noah perlu menyiapkan elevator pitch: ia bertemu Aaliyah dalam 5 menit. Sampaikan ide yang jelas dan meyakinkan dalam waktu singkat. Tinjau informasi berikut, lalu pilih jawaban terbaik dan klik Kirim: (1) Gagasan utama, Konteks, Penutup; (2) Konteks, Gagasan utama, Penutup; (3) Konteks, Gagasan utama, Fakta pendukung, Penutup; (4) Konteks, Fakta pendukung, Gagasan utama, Penutup. Di slide, pilihan 2 yang terpilih. Benar. Tepat sekali! Pertemuan singkat butuh pesan yang padat, dengan konteks secukupnya agar gagasan utamanya bisa dipahami. Karena Aaliyah ingin bertemu sebentar sebelum rapat yang sebenarnya, kemungkinan besar ia ingin mendengar jawaban garis besarnya untuk memastikan timnya berada di jalur yang benar. Salah: belum tepat. Menyampaikan semua fakta pendukung sulit dilakukan dalam pertemuan singkat dan mungkin tidak menjawab alasan audiensmu ingin bertemu. Dalam kasus ini, Aaliyah kemungkinan ingin mendengar jawaban garis besarnya untuk memastikan timnya berada di jalur yang benar sebelum lebih banyak waktu dihabiskan untuk menyiapkan rapat yang sebenarnya. Waduh! Bantu Noah cepat bersiap untuk pertemuannya: dalam film adegan di Pelajaran 4.2, Noah membantu Maryam menyusun temuannya; sekarang ia butuh alur cerita untuk menghidupkan logika itu. Noah perlu menyiapkan elevator pitch (argumen singkat tetapi meyakinkan untuk sebuah ide) untuk pertemuan dengan Aaliyah 5 menit lagi. Hidupkan pesan utamanya → buat singkat dan fokus → kaitkan dengan prioritas Aaliyah."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin-poin penting"
-         },
-         "text": {
-          "en": "Key takeaways. In this module, we have covered the following key tools to help you turn your analysis into a clear and compelling message. From analysis to impact. 1. The Pyramid Principle. Use this framework to organize all facts and ideas to build your argument (key message, supporting arguments, facts and data). Start with the main message, then support it with structured arguments and evidence. 2. Synthesis. Use this to take your conclusions and messaging to the next level by providing the “so what” of all the facts to your audience, rather than just summarizing them. Go beyond the facts, connect the dots and highlight the implications and so what for your audience. 3. Story-lining. Use this to turn your logic (i.e., pyramid-style message) and synthesis into a compelling message to communicate effectively with your audience. Bring your analysis to life with a clear, engaging narrative that resonates with your audience. Resources. You may also wish to explore the following articles and books to deepen your learning: McKinsey & Company, Author Talks: “Am I making myself clear?” (article); McKinsey & Company, Author Talks: “How to speak confidently when you’re put on the spot” (article); Minto, Barbara, The Pyramid Principle: Logic in Writing and Thinking (book, Prentice Hall); Pearl, David, Story for Leaders (book, London Business Forum).",
-          "id": "Poin-poin penting. Di modul ini kita sudah membahas alat-alat kunci berikut untuk membantumu mengubah analisis menjadi pesan yang jelas dan meyakinkan. Dari analisis ke dampak. 1. Prinsip Piramida. Pakai kerangka ini untuk menata semua fakta dan ide dalam membangun argumenmu (pesan utama, argumen pendukung, fakta dan data). Mulai dari pesan utama, lalu dukung dengan argumen dan bukti yang tersusun. 2. Sintesis. Pakai ini untuk membawa kesimpulan dan pesanmu ke tingkat berikutnya dengan memberi audiens \"lalu kenapa\" dari semua fakta, bukan sekadar meringkasnya. Lampaui faktanya, hubungkan titik-titiknya, dan tonjolkan implikasi serta \"lalu kenapa\"-nya bagi audiens. 3. Menyusun alur cerita. Pakai ini untuk mengubah logikamu (yaitu pesan bergaya piramida) dan sintesismu menjadi pesan yang meyakinkan agar komunikasimu dengan audiens efektif. Hidupkan analisismu dengan narasi yang jelas, menarik, dan mengena bagi audiens. Bacaan tambahan. Kamu juga bisa menjelajahi artikel dan buku berikut untuk memperdalam pemahamanmu: McKinsey & Company, Author Talks: \"Am I making myself clear?\" (artikel); McKinsey & Company, Author Talks: \"How to speak confidently when you're put on the spot\" (artikel); Minto, Barbara, The Pyramid Principle: Logic in Writing and Thinking (buku, Prentice Hall); Pearl, David, Story for Leaders (buku, London Business Forum)."
-         }
-        },
-        {
-         "title": {
-          "en": "Back to MODA: what if people simply tune out?!",
-          "id": "Kembali ke MODA: bagaimana kalau orang-orang tidak memperhatikan?!"
-         },
-         "text": {
-          "en": "Back to MODA. What if people simply tune out?! This morning, Aaliyah is preparing for an upcoming video conference. In the meeting, she will be sharing her change story with department heads from across the entire organization. Aaliyah feels nervous. Even her meditation app can’t calm her down at this moment. Can she inspire MODA’s leaders virtually? They’re a tough crowd to please even in person! She reaches out to her mentor, David, for some tips. “What if they simply tune out? Is my message enough to inspire them virtually?” David, mentor: “Take a deep breath, Aaliyah. Here are a few tips that can help you deliver your message more clearly and confidently.”",
-          "id": "Kembali ke MODA. Bagaimana kalau orang-orang tidak memperhatikan?! Pagi ini, Aaliyah sedang bersiap untuk konferensi video. Dalam rapat itu, ia akan menyampaikan cerita perubahannya kepada para kepala departemen dari seluruh organisasi. Aaliyah gugup. Bahkan aplikasi meditasinya tidak bisa menenangkannya kali ini. Bisakah ia menginspirasi para pemimpin MODA secara virtual? Bertemu langsung saja mereka sudah sulit dibuat terkesan! Ia pun menghubungi mentornya, David, untuk meminta tips. \"Bagaimana kalau mereka tidak memperhatikan? Apakah pesanku cukup untuk menginspirasi mereka secara virtual?\" David, mentor: \"Tarik napas dalam-dalam, Aaliyah. Ini beberapa tips yang bisa membantumu menyampaikan pesan dengan lebih jelas dan percaya diri.\""
-         }
-        },
-        {
-         "title": {
-          "en": "Your turn: offer Aaliyah some tips",
-          "id": "Giliranmu: beri Aaliyah beberapa tips"
-         },
-         "text": {
-          "en": "Your turn. Offer Aaliyah some tips. Take a few minutes to reflect on the conversation between Aaliyah and David. David offered some concrete tips to think about for her virtual change story. Can you add a few additional tips to the list? Compare to expert, consider the following in your advice: 1. What is a great example of a presenter’s confidence and style in a video call that you have seen? 2. What was missing from David’s tips, in your opinion? 3. What mistakes have you personally learned from that might help Aaliyah in her virtual presentation? Your task: take a moment to think about drafting a short email to Aaliyah with a few additional tips for her virtual change story. Think about: practical and specific tips; how to be more engaging in a virtual format; how to inspire MODA’s leaders and make the message memorable.",
-          "id": "Giliranmu. Beri Aaliyah beberapa tips. Luangkan beberapa menit untuk merenungkan percakapan antara Aaliyah dan David. David memberi beberapa tips konkret untuk cerita perubahan virtualnya. Bisakah kamu menambahkan beberapa tips lagi? Bandingkan dengan jawaban ahli, dan pertimbangkan hal berikut dalam saranmu: 1. Contoh terbaik apa yang pernah kamu lihat soal rasa percaya diri dan gaya seorang presenter dalam panggilan video? 2. Menurutmu, apa yang kurang dari tips David? 3. Kesalahan apa yang pernah kamu alami sendiri dan bisa membantu Aaliyah dalam presentasi virtualnya? Tugasmu: luangkan waktu untuk memikirkan draf email singkat kepada Aaliyah yang berisi beberapa tips tambahan untuk cerita perubahan virtualnya. Pikirkan: tips yang praktis dan spesifik; cara agar lebih menarik dalam format virtual; cara menginspirasi para pemimpin MODA dan membuat pesannya mudah diingat."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 2 slides",
-        "id": "Baca berikutnya · 2 slide"
-       },
-       "title": {
-        "en": "Sample Email: Material",
-        "id": "Contoh Email: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “Sample Email”. Read them at your own pace.",
-        "id": "Slide-slide ini membahas “Contoh Email”. Baca sesuai ritmemu."
-       },
-       "base": "../../assets/lms/the-map/slides/cases-email-",
-       "slides": [
-        {
-         "title": {
-          "en": "Sample email to share with Aaliyah as feedback",
-          "id": "Contoh email berisi masukan untuk Aaliyah"
-         },
-         "text": {
-          "en": "Example. Below is an example of an email you can use as a reference to provide additional feedback to Aaliyah: start with encouragement and a positive tone; provide concrete and practical tips; focus on the audience and how to engage them; close with motivation and confidence. To: Aaliyah. Subject: A few additional thoughts for your change story. “Hi Aaliyah, I just wanted to share a few additional thoughts as you prepare for your change story. First of all, I know you’re going to be great! (Start with a positive and encouraging opening.) David was right. You have a great voice. So, use it to your advantage! Be mindful of your pacing and enunciation. Don’t rush your presentation (we all tend to do that when we’re nervous). Try to keep a nice steady pace, articulate your words clearly, and read the reactions of your audience. (Provide concrete tips on delivery that are clear and structured.) Also, always try to use the active voice. It sounds more inspiring to hear people taking action in a situation rather than just relaying events that happen to them. Stay away from disclaimers (especially with a change story!). These are your real experiences and your beliefs. It makes for a stronger delivery when you confidently assert and own your voice. (Give specific advice to make the message more impactful and inspiring.) What else? With video calls, try to break down any barriers you can with the audience. Maybe try a fun ice breaker at the beginning? I sometimes ask a group to share their names and favorite types of food! Anything to help forge a connection from the get-go would be good. Making a connection on virtual can be challenging, but with the right delivery you can absolutely do it. And I know you can! (Share additional ideas to engage the audience in a virtual setting.) Cheers, Your teammate.”",
-          "id": "Contoh. Di bawah ini contoh email yang bisa kamu jadikan acuan untuk memberi masukan tambahan kepada Aaliyah: mulai dengan semangat dan nada positif; beri tips yang konkret dan praktis; fokus pada audiens dan cara melibatkan mereka; tutup dengan motivasi dan rasa percaya diri. Kepada: Aaliyah. Subjek: Beberapa pemikiran tambahan untuk cerita perubahanmu. \"Hai Aaliyah, aku cuma ingin berbagi beberapa pemikiran tambahan selagi kamu bersiap menyampaikan cerita perubahanmu. Pertama-tama, aku yakin kamu bakal tampil hebat! (Mulai dengan pembuka yang positif dan menyemangati.) David benar. Suaramu bagus. Jadi, manfaatkan itu! Perhatikan tempo dan pelafalanmu. Jangan terburu-buru (kita semua cenderung begitu kalau sedang gugup). Usahakan temponya tetap stabil, ucapkan kata-katamu dengan jelas, dan perhatikan reaksi audiensmu. (Beri tips penyampaian yang konkret, jelas, dan tersusun.) Selain itu, selalu usahakan memakai kalimat aktif. Mendengar orang yang bertindak dalam sebuah situasi terasa lebih menginspirasi daripada sekadar mendengar cerita tentang hal-hal yang menimpa mereka. Hindari kalimat penyangkalan (terutama untuk cerita perubahan!). Ini pengalaman dan keyakinanmu yang sebenarnya. Penyampaianmu akan lebih kuat kalau kamu menyatakannya dengan yakin dan memiliki suaramu sendiri. (Beri saran spesifik agar pesannya lebih berdampak dan menginspirasi.) Apa lagi? Dalam panggilan video, usahakan meruntuhkan sekat apa pun dengan audiens. Mungkin coba permainan pemecah suasana di awal? Kadang aku meminta kelompok menyebutkan nama dan makanan favorit mereka! Apa pun yang membantu membangun keterhubungan sejak awal akan bagus. Membangun keterhubungan secara virtual memang bisa menantang, tetapi dengan penyampaian yang tepat kamu pasti bisa. Dan aku tahu kamu bisa! (Bagikan ide tambahan untuk melibatkan audiens dalam format virtual.) Salam hangat, Rekan setimmu.\""
-         }
-        },
-        {
-         "title": {
-          "en": "Conversation and the three elements of style",
-          "id": "Conversation dan tiga unsur gaya"
-         },
-         "text": {
-          "en": "Delivering your message: delivering for impact. 1. We’ve discussed how to structure your argument, and how to tailor it to your audience. In this section, we continue with the Conversation element of the EPIC approach with a focus on delivering for impact. So much of inspiration stems from your ability to deliver those words and images. Kate discusses the impact good delivery makes on the audience. She briefly introduces Three Elements of Style and different contexts to consider. 2. As you watch this video, take a moment to think about a time where you needed to deliver an important message. How could you apply the Three Elements of Style to your message? “How you deliver your message can be just as important as what you say.” (Kate) Great delivery brings your ideas to life and inspires action. The Three Elements of Style: Presence: how you show up and engage your audience; Clarity: how you express your message clearly and simply; Connection: how you create relevance and inspire your audience. Reflect: think about a time when you needed to deliver an important message. How could you apply the Three Elements of Style to your message?",
-          "id": "Menyampaikan pesanmu: menyampaikan dengan dampak. 1. Kita sudah membahas cara menyusun argumen dan menyesuaikannya dengan audiens. Di bagian ini, kita melanjutkan unsur Conversation dalam pendekatan EPIC dengan fokus pada cara menyampaikan dengan dampak. Inspirasi sangat bergantung pada kemampuanmu menyampaikan kata-kata dan gambaran itu. Kate membahas dampak penyampaian yang baik terhadap audiens. Ia memperkenalkan secara singkat Tiga Unsur Gaya dan berbagai konteks yang perlu dipertimbangkan. 2. Sambil menonton video ini, luangkan waktu untuk mengingat saat kamu harus menyampaikan pesan penting. Bagaimana kamu bisa menerapkan Tiga Unsur Gaya pada pesanmu? \"Cara kamu menyampaikan pesan bisa sama pentingnya dengan apa yang kamu katakan.\" (Kate) Penyampaian yang hebat menghidupkan idemu dan menginspirasi tindakan. Tiga Unsur Gaya: Kehadiran: cara kamu tampil dan melibatkan audiens; Kejelasan: cara kamu menyampaikan pesan dengan jelas dan sederhana; Keterhubungan: cara kamu membuat pesan relevan dan menginspirasi audiens. Renungkan: ingat saat kamu harus menyampaikan pesan penting. Bagaimana kamu bisa menerapkan Tiga Unsur Gaya pada pesanmu?"
-         }
-        }
-       ]
-      }
-     ],
      "videos": [
       {
        "src": {
@@ -7704,14 +7863,509 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:1",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows these slides: Bagas and three messages that are hard to get right. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide ini: Bagas dan tiga pesan yang sulit disampaikan dengan tepat. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Bagas and three messages that are hard to get right. Watch it, then try the three drills.",
+      "id": "Satu film singkat menyusul slide ini: Bagas dan tiga pesan yang sulit disampaikan dengan tepat. Tonton, lalu coba tiga latihannya."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 6 slides",
+       "id": "Baca dulu · 6 slide"
+      },
+      "title": {
+       "en": "Three Hard Messages",
+       "id": "Tiga Pesan yang Sulit"
+      },
+      "intro": {
+       "en": "Six ideas for the three drills in this lesson. Then a short film. Draft your own version of each message before you open its debrief.",
+       "id": "Enam gagasan untuk tiga latihan di pelajaran ini. Setelah itu satu film singkat. Tulis versimu sendiri untuk tiap pesan sebelum membuka pembahasannya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "How to use the drills",
+         "id": "Cara memakai latihannya"
+        },
+        "points": [
+         {
+          "en": "Reading a model answer feels like learning. Comparing it with your own draft is learning.",
+          "id": "Membaca contoh jawaban terasa seperti belajar. Membandingkannya dengan drafmu sendiri, itulah belajar."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The cold email",
+         "id": "Email perkenalan"
+        },
+        "points": [
+         {
+          "en": "A stranger owes you nothing. Make yes the easiest answer.",
+          "id": "Orang yang tak mengenalmu tidak berutang apa pun. Buat “ya” menjadi jawaban termudah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Reasons that do not overlap",
+         "id": "Alasan yang tidak tumpang tindih"
+        },
+        "points": [
+         {
+          "en": "Three ways of saying one thing are still one reason.",
+          "id": "Tiga cara mengatakan satu hal tetaplah satu alasan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The interruption",
+         "id": "Interupsi"
+        },
+        "points": [
+         {
+          "en": "“Wait. What is the bottom line?” is navigation. Follow it.",
+          "id": "“Sebentar. Intinya apa?” adalah navigasi. Ikuti saja."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Same facts, another reader",
+         "id": "Fakta sama, pembaca berbeda"
+        },
+        "points": [
+         {
+          "en": "One proposal, three audiences. Ask what each one has to do next.",
+          "id": "Satu usulan, tiga audiens. Tanyakan apa yang harus dilakukan masing-masing setelahnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Disagreeing upward",
+         "id": "Tidak setuju kepada atasan"
+        },
+        "points": [
+         {
+          "en": "Share what you know, name a way forward, and ask a question you want answered.",
+          "id": "Bagikan yang kamu tahu, tawarkan jalan keluar, dan ajukan pertanyaan yang sungguh ingin kamu ketahui jawabannya."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-positioning.jpg",
+       "module": {
+        "en": "Module 4 · Communication for Impact",
+        "id": "Modul 4 · Komunikasi yang Berdampak"
+       },
+       "lesson": {
+        "n": "4.3",
+        "title": {
+         "en": "Applied Communication Case Studies",
+         "id": "Studi Kasus Komunikasi Terapan"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Draft your own version first: the comparison with the model is where the skill transfers",
+         "id": "Tulis versimu dulu: perbandingan dengan contoh adalah tempat keterampilannya berpindah"
+        },
+        {
+         "en": "A cold email is answered when the ask is small, specific and time-boxed",
+         "id": "Email perkenalan dibalas saat permintaannya kecil, spesifik, dan berbatas waktu"
+        },
+        {
+         "en": "Reasons persuade when each one is distinct and nothing important is missing",
+         "id": "Alasan meyakinkan saat masing-masing berbeda dan tak ada hal penting yang tertinggal"
+        },
+        {
+         "en": "An interruption is a request for a different altitude, not an attack",
+         "id": "Interupsi adalah permintaan untuk pindah ketinggian, bukan serangan"
+        },
+        {
+         "en": "The facts stay; the first line changes with the reader",
+         "id": "Faktanya tetap; baris pertamanya berubah mengikuti pembaca"
+        },
+        {
+         "en": "Disagreement lands when it protects the decision, not your ego",
+         "id": "Ketidaksetujuan diterima saat ia melindungi keputusannya, bukan egomu"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "How to use the drills",
+          "id": "Cara memakai latihannya"
+         },
+         "p": {
+          "en": "Reading a model answer feels like learning. Comparing it with your own draft is learning.",
+          "id": "Membaca contoh jawaban terasa seperti belajar. Membandingkannya dengan drafmu sendiri, itulah belajar."
+         }
+        },
+        {
+         "h": {
+          "en": "The cold email",
+          "id": "Email perkenalan"
+         },
+         "p": {
+          "en": "The first line has one job: to earn the second line.",
+          "id": "Baris pertama punya satu tugas: membuat baris kedua dibaca."
+         }
+        },
+        {
+         "h": {
+          "en": "Reasons that do not overlap",
+          "id": "Alasan yang tidak tumpang tindih"
+         },
+         "p": {
+          "en": "Test each reason: could you remove it and lose nothing? Then it was a repeat.",
+          "id": "Uji setiap alasan: bisakah dihapus tanpa kehilangan apa pun? Berarti itu pengulangan."
+         }
+        },
+        {
+         "h": {
+          "en": "The interruption",
+          "id": "Interupsi"
+         },
+         "p": {
+          "en": "“Wait. What is the bottom line?” is navigation. Follow it.",
+          "id": "“Sebentar. Intinya apa?” adalah navigasi. Ikuti saja."
+         }
+        },
+        {
+         "h": {
+          "en": "Same facts, another reader",
+          "id": "Fakta sama, pembaca berbeda"
+         },
+         "p": {
+          "en": "Open with what this reader has to do next.",
+          "id": "Buka dengan apa yang harus dilakukan pembaca ini setelahnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Disagreeing upward",
+          "id": "Tidak setuju kepada atasan"
+         },
+         "p": {
+          "en": "Leave out the word “wrong”. It defends you, not the decision.",
+          "id": "Tinggalkan kata “salah”. Kata itu membelamu, bukan keputusannya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Draft your own version first: the comparison with the model is where the skill transfers",
+          "id": "Tulis versimu dulu: perbandingan dengan contoh adalah tempat keterampilannya berpindah"
+         },
+         "em": {
+          "en": "Draft your own version first",
+          "id": "Tulis versimu dulu"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "Draft",
+           "id": "Tulis",
+           "d": {
+            "en": "Two to five minutes, on paper",
+            "id": "Dua sampai lima menit, di kertas"
+           }
+          },
+          {
+           "icon": "eye",
+           "en": "Compare",
+           "id": "Bandingkan",
+           "d": {
+            "en": "Open the model answer",
+            "id": "Buka contoh jawabannya"
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Find the structure",
+           "id": "Cari strukturnya",
+           "d": {
+            "en": "The structural difference, not the wording",
+            "id": "Beda strukturnya, bukan beda kata-katanya"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Redraft once",
+           "id": "Tulis ulang sekali",
+           "d": {
+            "en": "Worth five fresh attempts",
+            "id": "Setara lima percobaan baru"
+           }
+          }
+         ],
+         "img": "../../assets/bg/stage-execution.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A cold email is answered when the ask is small, specific and time-boxed",
+          "id": "Email perkenalan dibalas saat permintaannya kecil, spesifik, dan berbatas waktu"
+         },
+         "em": {
+          "en": "small, specific and time-boxed",
+          "id": "kecil, spesifik, dan berbatas waktu"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“My name is Bagas and I am a student. I would like to ask about your career. Could we meet sometime?”",
+           "id": "“Nama saya Bagas, saya mahasiswa. Saya ingin bertanya tentang karier Kakak. Bisakah kita bertemu kapan-kapan?”",
+           "l": {
+            "en": "Deleted",
+            "id": "Dihapus"
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "mail",
+           "en": "“Your talk on audit analytics changed my thesis topic. Could I ask two questions about your move from audit to data? 15 minutes, any day next week.”",
+           "id": "“Paparan Kakak soal analitik audit mengubah topik skripsi saya. Boleh saya bertanya dua hal soal kepindahan Kakak dari audit ke data? 15 menit, hari apa pun pekan depan.”",
+           "l": {
+            "en": "Answered",
+            "id": "Dibalas"
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          }
+         ],
+         "band": {
+          "en": "The first line has one job: to earn the second line.",
+          "id": "Baris pertama punya satu tugas: membuat baris kedua dibaca."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Reasons persuade when each one is distinct and nothing important is missing",
+          "id": "Alasan meyakinkan saat masing-masing berbeda dan tak ada hal penting yang tertinggal"
+         },
+         "em": {
+          "en": "each one is distinct",
+          "id": "masing-masing berbeda"
+         },
+         "layout": "columns",
+         "cols": [
+          {
+           "icon": "x",
+           "l": {
+            "en": "Overlapping",
+            "id": "Tumpang tindih"
+           },
+           "d": {
+            "en": "One reason, said three times",
+            "id": "Satu alasan, diucapkan tiga kali"
+           },
+           "items": [
+            {
+             "icon": "coin",
+             "en": "It is cheaper",
+             "id": "Lebih murah"
+            },
+            {
+             "icon": "coin",
+             "en": "It saves money",
+             "id": "Menghemat uang"
+            },
+            {
+             "icon": "coin",
+             "en": "It costs less to run",
+             "id": "Biaya operasinya lebih kecil"
+            }
+           ]
+          },
+          {
+           "icon": "check",
+           "l": {
+            "en": "Distinct",
+            "id": "Berbeda"
+           },
+           "d": {
+            "en": "Three separate legs",
+            "id": "Tiga kaki yang terpisah"
+           },
+           "items": [
+            {
+             "icon": "clock",
+             "en": "Reliability: late one time in four today",
+             "id": "Keandalan: kini terlambat satu dari empat"
+            },
+            {
+             "icon": "coin",
+             "en": "Cost: the same rate",
+             "id": "Biaya: tarifnya sama"
+            },
+            {
+             "icon": "shield",
+             "en": "Risk: a four-week trial on two routes",
+             "id": "Risiko: uji coba empat pekan di dua rute"
+            }
+           ]
+          }
+         ],
+         "band": {
+          "en": "Test each reason: could you remove it and lose nothing? Then it was a repeat.",
+          "id": "Uji setiap alasan: bisakah dihapus tanpa kehilangan apa pun? Berarti itu pengulangan."
+         },
+         "img": "../../assets/bg/ep-stage-architecture.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "An interruption is a request for a different altitude, not an attack",
+          "id": "Interupsi adalah permintaan untuk pindah ketinggian, bukan serangan"
+         },
+         "em": {
+          "en": "a different altitude",
+          "id": "pindah ketinggian"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pause",
+           "en": "Stop",
+           "id": "Berhenti",
+           "d": {
+            "en": "Do not finish your sentence",
+            "id": "Jangan selesaikan kalimatmu"
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "One line",
+           "id": "Satu kalimat",
+           "d": {
+            "en": "“We are on track, with one risk.”",
+            "id": "“Kita sesuai jadwal, dengan satu risiko.”"
+           }
+          },
+          {
+           "icon": "steps",
+           "en": "Offer the way down",
+           "id": "Tawarkan untuk turun",
+           "d": {
+            "en": "“Shall I go into the detail?”",
+            "id": "“Perlu saya jelaskan rinciannya?”"
+           }
+          }
+         ],
+         "img": "../../assets/bg/mp-stage-reckoning.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The facts stay; the first line changes with the reader",
+          "id": "Faktanya tetap; baris pertamanya berubah mengikuti pembaca"
+         },
+         "em": {
+          "en": "the first line changes",
+          "id": "baris pertamanya berubah"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "briefcase",
+           "en": "For your manager",
+           "id": "Untuk manajermu",
+           "d": {
+            "en": "The decision: “I recommend a two-week test before we commit.”",
+            "id": "Keputusannya: “Saya usul uji coba dua pekan sebelum kita berkomitmen.”"
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "For your team",
+           "id": "Untuk timmu",
+           "d": {
+            "en": "The task: “From Monday we run a two-week test. Here is who does what.”",
+            "id": "Tugasnya: “Mulai Senin kita uji coba dua pekan. Ini pembagian kerjanya.”"
+           },
+           "img": "../../assets/bg/rope-team.jpg"
+          },
+          {
+           "icon": "calc",
+           "en": "For finance",
+           "id": "Untuk bagian keuangan",
+           "d": {
+            "en": "The money: “The test caps spending at one fifth of the budget.”",
+            "id": "Uangnya: “Uji coba ini membatasi pengeluaran di seperlima anggaran.”"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          }
+         ],
+         "band": {
+          "en": "Open with what this reader has to do next.",
+          "id": "Buka dengan apa yang harus dilakukan pembaca ini setelahnya."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Disagreement lands when it protects the decision, not your ego",
+          "id": "Ketidaksetujuan diterima saat ia melindungi keputusannya, bukan egomu"
+         },
+         "em": {
+          "en": "protects the decision",
+          "id": "melindungi keputusannya"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "Data",
+           "id": "Data",
+           "d": {
+            "en": "“Last quarter this channel brought 3 of 40 sign-ups.”",
+            "id": "“Kuartal lalu kanal ini menghasilkan 3 dari 40 pendaftar.”"
+           }
+          },
+          {
+           "icon": "route",
+           "en": "An option",
+           "id": "Pilihan",
+           "d": {
+            "en": "“Could we test it for two weeks first?”",
+            "id": "“Bisakah kita uji dua pekan dulu?”"
+           }
+          },
+          {
+           "icon": "question",
+           "en": "A real question",
+           "id": "Pertanyaan sungguhan",
+           "d": {
+            "en": "“What am I missing?”",
+            "id": "“Apa yang saya lewatkan?”"
+           }
+          }
+         ],
+         "band": {
+          "en": "Leave out the word “wrong”. It defends you, not the decision.",
+          "id": "Tinggalkan kata “salah”. Kata itu membelamu, bukan keputusannya."
+         },
+         "img": "../../assets/bg/negotiation.jpg"
+        }
+       ]
+      }
      }
     },
     {
@@ -7760,267 +8414,6 @@ window.MT_LMS['the-map'] = {
       {
        "en": "Vocal emphasis and emotional connection are adjustments, not personalities: change pitch, pace and volume for the occasion, read the room and respond to it, all inside your own natural style.",
        "id": "Penekanan suara dan ikatan emosional adalah penyesuaian, bukan kepribadian. Ubah tinggi nada, tempo, dan volume sesuai kesempatannya, baca suasana ruangan dan tanggapi, semuanya tetap di dalam gaya alamimu."
-      }
-     ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 2 slides",
-        "id": "Baca dulu · 2 slide"
-       },
-       "title": {
-        "en": "The Three Elements of Presentation Style: Material",
-        "id": "Tiga Unsur Gaya Presentasi: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “The Three Elements of Presentation Style”. Read them at your own pace. Then watch the film that follows.",
-        "id": "Slide-slide ini membahas “Tiga Unsur Gaya Presentasi”. Baca sesuai ritmemu. Setelah itu, tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/style-elements-",
-       "slides": [
-        {
-         "title": {
-          "en": "The Three Elements of Presentation Style",
-          "id": "Tiga Unsur Gaya Presentasi"
-         },
-         "text": {
-          "en": "At a glance. Here’s a snapshot of the three elements of strong presentation style. Explore each element below, then watch three videos where experts bring these elements to life in practice. 1. Physical Presence: refers to the speaker’s ability to appear relaxed, confident, and in control of the room. This includes having good posture, making good eye contact, avoiding fidgeting, using appropriate gestures, and moving with confidence. 2. Vocal Emphasis: refers to the speaker’s ability to adjust his or her pitch, pace, and volume to match the occasion. These speakers typically speak in an active voice (speaking directly about an action) and rarely use a monotone delivery. 3. Emotional Connection: refers to the speaker’s ability to gauge the mood of the audience and adjust his or her tone accordingly. These speakers typically make strong eye contact with their audiences and create relevance and inspiration through their message. Click on each element to learn more! (Watch Video buttons under each element.)",
-          "id": "Sekilas. Berikut gambaran singkat tiga unsur gaya presentasi yang kuat. Jelajahi setiap unsur di bawah, lalu tonton tiga video yang memperlihatkan para ahli mempraktikkan unsur-unsur ini. 1. Kehadiran Fisik: kemampuan pembicara untuk tampil santai, percaya diri, dan menguasai ruangan. Ini mencakup postur yang baik, kontak mata yang baik, tidak gelisah, gerak tangan yang pas, dan bergerak dengan percaya diri. 2. Penekanan Suara: kemampuan pembicara menyesuaikan tinggi nada, tempo, dan volume suaranya dengan kesempatannya. Pembicara seperti ini biasanya memakai kalimat aktif (berbicara langsung tentang sebuah tindakan) dan jarang bicara dengan nada datar. 3. Ikatan Emosional: kemampuan pembicara membaca suasana hati audiens dan menyesuaikan nadanya. Pembicara seperti ini biasanya menjaga kontak mata yang kuat dengan audiens dan membuat pesannya terasa relevan dan menginspirasi. Klik setiap unsur untuk mempelajari lebih lanjut! (Ada tombol Tonton Video di bawah setiap unsur.)"
-         }
-        },
-        {
-         "title": {
-          "en": "The Three Elements of Style: improving your physical presence",
-          "id": "Tiga Unsur Gaya: memperkuat kehadiran fisikmu"
-         },
-         "text": {
-          "en": "Deep dive. 1. Improving your physical presence. Physical presence significantly affects how your audience perceives you. Hilary and Mark offer tips on exerting influence through your physical presence. Drawing examples from real-world situations, they demonstrate ways to enhance your confidence, command the room, and communicate with authority. As you watch this video, take a moment to think about a time where you noticed someone with great physical presence. Did it make the message more powerful? Callouts: confident posture (stand tall and open); good eye contact (builds connection and trust); purposeful gestures (reinforce your message); command the room (project confidence and authority). Reflect: think about your experience: think about a time where you noticed someone with great physical presence. Did it make the message more powerful? What specifically did they do that made a difference? Key takeaways from this video: be mindful of your posture; maintain strong eye contact; use purposeful gestures; move and speak with confidence.",
-          "id": "Pembahasan mendalam. 1. Memperkuat kehadiran fisikmu. Kehadiran fisik sangat memengaruhi cara audiens memandangmu. Hilary dan Mark memberi tips cara memberi pengaruh lewat kehadiran fisik. Dengan contoh dari situasi nyata, mereka memperlihatkan cara meningkatkan rasa percaya diri, menguasai ruangan, dan berkomunikasi dengan wibawa. Sambil menonton video ini, ingat saat kamu melihat seseorang dengan kehadiran fisik yang kuat. Apakah itu membuat pesannya lebih bertenaga? Catatan: postur yang percaya diri (berdiri tegak dan terbuka); kontak mata yang baik (membangun kedekatan dan kepercayaan); gerak tangan yang bermakna (memperkuat pesanmu); kuasai ruangan (pancarkan rasa percaya diri dan wibawa). Renungkan: ingat saat kamu melihat seseorang dengan kehadiran fisik yang kuat. Apakah itu membuat pesannya lebih bertenaga? Apa tepatnya yang mereka lakukan sehingga terasa berbeda? Poin penting dari video ini: perhatikan posturmu; jaga kontak mata yang kuat; pakai gerak tangan yang bermakna; bergerak dan bicaralah dengan percaya diri."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 2 slides",
-        "id": "Baca berikutnya · 2 slide"
-       },
-       "title": {
-        "en": "Elements 2 and 3: Material",
-        "id": "Unsur 2 dan 3: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “Elements 2 and 3”. Read them at your own pace.",
-        "id": "Slide-slide ini membahas “Unsur 2 dan 3”. Baca sesuai ritmemu."
-       },
-       "base": "../../assets/lms/the-map/slides/style-voice-",
-       "slides": [
-        {
-         "title": {
-          "en": "The Three Elements of Style: improving your vocal emphasis",
-          "id": "Tiga Unsur Gaya: memperkuat penekanan suaramu"
-         },
-         "text": {
-          "en": "Deep dive. 2. Improving your vocal emphasis. Mark explains how vocal emphasis can help bring home your message. His stories highlight practical tips to adjust your pitch, pace, and volume to keep your audience engaged and make your key points more memorable. As you watch this video, take a moment to think about how you use vocal emphasis in your conversations. Are any of the terms mentioned in the video familiar to you, and which ones do you actively use today? Callouts: pitch (vary your pitch to maintain interest and highlight key points); pace (adjust your pace to give clarity and emphasis); volume (use appropriate volume to convey confidence and energy). Reflect. Think about your own experience: how do you currently use vocal emphasis in your conversations? Are terms like pitch, pace, or volume familiar to you? Which ones do you actively use today, and what could you improve? Key techniques from this section: use these elements to make your message clearer, more engaging, and more memorable. Pitch: use variation in pitch to create contrast, highlight key points, and keep the audience engaged; pace: adjust your speaking speed to give clarity, build anticipation, and emphasize important messages; volume: use the right volume to convey confidence, energy, and authority for your message and audience.",
-          "id": "Pembahasan mendalam. 2. Memperkuat penekanan suaramu. Mark menjelaskan bagaimana penekanan suara bisa membantu pesanmu benar-benar sampai. Cerita-ceritanya menonjolkan tips praktis untuk mengatur tinggi nada, tempo, dan volume agar audiens tetap terlibat dan poin-poin kuncimu lebih mudah diingat. Sambil menonton video ini, pikirkan bagaimana kamu memakai penekanan suara dalam percakapanmu. Apakah ada istilah dalam video yang sudah kamu kenal, dan mana yang sudah aktif kamu pakai sekarang? Catatan: tinggi nada (variasikan tinggi nadamu untuk menjaga minat dan menonjolkan poin kunci); tempo (atur tempomu untuk memberi kejelasan dan penekanan); volume (pakai volume yang pas untuk memancarkan rasa percaya diri dan energi). Renungkan. Pikirkan pengalamanmu sendiri: bagaimana kamu memakai penekanan suara dalam percakapanmu saat ini? Apakah istilah seperti tinggi nada, tempo, atau volume sudah kamu kenal? Mana yang sudah aktif kamu pakai, dan apa yang bisa kamu perbaiki? Teknik kunci dari bagian ini: pakai unsur-unsur ini agar pesanmu lebih jelas, lebih menarik, dan lebih mudah diingat. Tinggi nada: pakai variasi tinggi nada untuk menciptakan kontras, menonjolkan poin kunci, dan menjaga audiens tetap terlibat; tempo: atur kecepatan bicaramu untuk memberi kejelasan, membangun rasa penasaran, dan menekankan pesan penting; volume: pakai volume yang tepat untuk memancarkan rasa percaya diri, energi, dan wibawa sesuai pesan dan audiensmu."
-         }
-        },
-        {
-         "title": {
-          "en": "The Three Elements of Style: how do you create chemistry?",
-          "id": "Tiga Unsur Gaya: bagaimana membangun chemistry?"
-         },
-         "text": {
-          "en": "Deep dive. 3. How do you create chemistry? A speaker’s ability to make an emotional connection with the audience (that is, to understand the mood of the audience and adjust his or her tone accordingly) is a critical yet hard-to-define element of successful delivery. Hilary and Mark share their insights on how to create chemistry with your audience, and how empathy can help spark the connection. As you watch this video, take a moment to think about a time where you made an emotional connection with someone else. How do you make the connection? Is this something that you felt makes your relationship with this person stronger? Callouts: understand your audience (read the mood, needs, and perspective of your audience); show empathy (put yourself in their shoes and relate your message to their experience); adjust your tone (adapt your tone to match the situation and energy of the audience); build stronger relationships (create a sense of trust, relevance, and belonging through authentic and meaningful communication). Reflection. Think about your own experience: recall a time when you made an emotional connection with someone else. How did you create the connection? Did it make your relationship with this person stronger? What specifically did you do that made a difference? Key takeaways from this section. Use these approaches to create stronger chemistry with your audience: know your audience (understand their mood, needs, and what matters to them); show empathy (relate your message to their experiences and emotions); adjust your tone (use the right tone for the situation and audience energy); build lasting connections (create trust, belonging, and relevance through authentic and meaningful communication).",
-          "id": "Pembahasan mendalam. 3. Bagaimana membangun chemistry? Kemampuan pembicara membangun ikatan emosional dengan audiens (yaitu memahami suasana hati audiens dan menyesuaikan nadanya) adalah unsur penyampaian yang sangat penting tetapi sulit didefinisikan. Hilary dan Mark berbagi pandangan tentang cara membangun chemistry dengan audiens, dan bagaimana empati bisa memantik ikatan itu. Sambil menonton video ini, ingat saat kamu membangun ikatan emosional dengan orang lain. Bagaimana kamu membangun ikatan itu? Apakah menurutmu hal itu membuat hubunganmu dengan orang tersebut lebih kuat? Catatan: pahami audiensmu (baca suasana hati, kebutuhan, dan cara pandang audiensmu); tunjukkan empati (tempatkan dirimu di posisi mereka dan kaitkan pesanmu dengan pengalaman mereka); sesuaikan nadamu (sesuaikan nadamu dengan situasi dan energi audiens); bangun hubungan yang lebih kuat (ciptakan rasa percaya, relevansi, dan rasa memiliki lewat komunikasi yang tulus dan bermakna). Renungan. Pikirkan pengalamanmu sendiri: ingat saat kamu membangun ikatan emosional dengan orang lain. Bagaimana kamu membangun ikatan itu? Apakah itu membuat hubunganmu dengan orang tersebut lebih kuat? Apa tepatnya yang kamu lakukan sehingga terasa berbeda? Poin penting dari bagian ini. Pakai pendekatan berikut untuk membangun chemistry yang lebih kuat dengan audiens: kenali audiensmu (pahami suasana hati, kebutuhan, dan hal yang penting bagi mereka); tunjukkan empati (kaitkan pesanmu dengan pengalaman dan perasaan mereka); sesuaikan nadamu (pakai nada yang tepat untuk situasi dan energi audiens); bangun ikatan yang bertahan lama (ciptakan rasa percaya, rasa memiliki, dan relevansi lewat komunikasi yang tulus dan bermakna)."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 1 slide",
-        "id": "Baca berikutnya · 1 slide"
-       },
-       "title": {
-        "en": "Applying the Three Elements: Material",
-        "id": "Menerapkan Tiga Unsur: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “Applying the Three Elements”. Read them at your own pace.",
-        "id": "Slide-slide ini membahas “Menerapkan Tiga Unsur”. Baca sesuai ritmemu."
-       },
-       "base": "../../assets/lms/the-map/slides/style-apply-",
-       "slides": [
-        {
-         "title": {
-          "en": "Applying the three elements in a virtual context",
-          "id": "Menerapkan tiga unsur dalam konteks virtual"
-         },
-         "text": {
-          "en": "Deep dive. A virtual context presents added challenges around connecting with your audience, but it’s a situation we find ourselves in often. Hilary and Mark offer tips for establishing presence and engaging an audience when delivering remotely. As you watch, take a moment to think about an upcoming meeting where you will need to deliver virtually. What aspects of the three elements can you apply to your upcoming meeting to improve your message delivery? Callouts: physical presence (be intentional about your posture, eye contact, and on-camera presence); vocal emphasis (use variation in pitch, pace, and volume to keep your audience engaged online); emotional connection (understand your audience’s mood and context, and adjust your tone to build chemistry, even virtually). Reflection: think about your upcoming meeting: consider a meeting you will be delivering virtually. Which aspects of physical presence, vocal emphasis, and emotional connection can you apply to improve your message delivery? What specific actions will you take? Key tips for virtual delivery: show up on camera (keep good posture; maintain eye contact; ensure good lighting and background); use your voice dynamically (vary your pitch; adjust your pace; use volume to emphasize key points); build connection intentionally (acknowledge the audience; be mindful of their context; use empathy and a conversational tone).",
-          "id": "Pembahasan mendalam. Konteks virtual menambah tantangan dalam membangun ikatan dengan audiens, padahal situasi ini sering kita alami. Hilary dan Mark memberi tips untuk membangun kehadiran dan melibatkan audiens saat presentasi jarak jauh. Sambil menonton, pikirkan satu rapat yang akan datang yang harus kamu sampaikan secara virtual. Bagian mana dari ketiga unsur yang bisa kamu terapkan di rapat itu agar penyampaian pesanmu lebih baik? Catatan: kehadiran fisik (perhatikan dengan sengaja postur, kontak mata, dan penampilanmu di kamera); penekanan suara (pakai variasi tinggi nada, tempo, dan volume agar audiens tetap terlibat secara online); ikatan emosional (pahami suasana hati dan konteks audiensmu, dan sesuaikan nadamu untuk membangun chemistry, bahkan secara virtual). Renungan: pikirkan rapatmu yang akan datang. Bayangkan satu rapat yang akan kamu sampaikan secara virtual. Bagian mana dari kehadiran fisik, penekanan suara, dan ikatan emosional yang bisa kamu terapkan agar penyampaian pesanmu lebih baik? Tindakan spesifik apa yang akan kamu lakukan? Tips kunci untuk penyampaian virtual: tampil di kamera (jaga postur; pertahankan kontak mata; pastikan pencahayaan dan latarnya baik); pakai suaramu secara dinamis (variasikan tinggi nada; atur tempo; pakai volume untuk menekankan poin kunci); bangun ikatan dengan sengaja (sapa audiens; perhatikan konteks mereka; pakai empati dan nada yang akrab seperti mengobrol)."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "Critique the Delivery: Material",
-        "id": "Kritik Penyampaiannya: Materi"
-       },
-       "intro": {
-        "en": "Three slides put the three elements to work on a real speaker. Wanda Díaz Merced is a blind astronomer and science communicator who must inspire an audience she cannot see; the first slide shows how physical presence, vocal emphasis and emotional connection combine in her delivery. The second asks you to watch her TED talk, “How a blind astronomer found a way to hear the stars” (or at least its first five minutes), and to answer five questions on her presence, how she controls the room, her vocal emphasis, her emotional connection and the impact she had on you.",
-        "id": "Tiga slide ini menerapkan ketiga unsur pada seorang pembicara sungguhan. Wanda Díaz Merced adalah astronom tunanetra dan komunikator sains yang harus menginspirasi audiens yang tidak bisa ia lihat. Slide pertama memperlihatkan bagaimana kehadiran fisik, penekanan suara, dan ikatan emosional berpadu dalam penyampaiannya. Slide kedua memintamu menonton TED talk-nya, \"How a blind astronomer found a way to hear the stars\" (atau setidaknya lima menit pertamanya), lalu menjawab lima pertanyaan tentang kehadirannya, cara ia menguasai ruangan, penekanan suaranya, ikatan emosionalnya, dan dampaknya bagimu."
-       },
-       "base": "../../assets/lms/the-map/slides/style-critique-",
-       "slides": [
-        {
-         "title": {
-          "en": "Critique the delivery: how a blind astronomer found a way to hear the stars",
-          "id": "Kritik penyampaiannya: bagaimana seorang astronom tunanetra menemukan cara mendengar bintang"
-         },
-         "text": {
-          "en": "Real-world example. Wanda Díaz Merced, blind astronomer and science communicator. Key takeaway: effective communicators know how to deliver their message with the right balance of all three elements: physical presence, vocal emphasis, and emotional connection. A blind astronomer, Wanda Díaz Merced, is a memorable example. In her communications, she must inspire an audience she cannot see. Who is Wanda Díaz Merced? A blind astronomer, educator, and science communicator. Despite not being able to see, she has built a powerful platform to share the wonder of the universe through her voice, storytelling, and passion. The three elements in action: Wanda’s story shows how the right balance of the three elements can create a powerful and memorable delivery, even without visual sight: 1 physical presence: she conveys confidence and authority through her posture, gestures, and energy, even without seeing her audience; 2 vocal emphasis: she uses variation in pitch, pace, and volume to bring complex scientific concepts to life and keep the audience engaged; 3 emotional connection: her passion, authenticity, and personal story create a deep emotional connection, inspiring people to see the universe in a new way, through her words.",
-          "id": "Contoh nyata. Wanda Díaz Merced, astronom tunanetra dan komunikator sains. Poin penting: komunikator yang efektif tahu cara menyampaikan pesannya dengan keseimbangan yang pas di antara ketiga unsur: kehadiran fisik, penekanan suara, dan ikatan emosional. Seorang astronom tunanetra, Wanda Díaz Merced, adalah contoh yang mudah diingat. Saat berkomunikasi, ia harus menginspirasi audiens yang tidak bisa ia lihat. Siapa Wanda Díaz Merced? Seorang astronom tunanetra, pendidik, dan komunikator sains. Meski tidak bisa melihat, ia membangun panggung yang kuat untuk membagikan keajaiban alam semesta lewat suara, cerita, dan semangatnya. Tiga unsur dalam praktik: kisah Wanda menunjukkan bagaimana keseimbangan yang pas di antara ketiga unsur bisa menghasilkan penyampaian yang kuat dan mudah diingat, bahkan tanpa penglihatan: 1 kehadiran fisik: ia memancarkan rasa percaya diri dan wibawa lewat postur, gerak tangan, dan energinya, meski tidak melihat audiensnya; 2 penekanan suara: ia memakai variasi tinggi nada, tempo, dan volume untuk menghidupkan konsep sains yang rumit dan menjaga audiens tetap terlibat; 3 ikatan emosional: semangat, ketulusan, dan kisah pribadinya membangun ikatan emosional yang dalam, menginspirasi orang untuk melihat alam semesta dengan cara baru, lewat kata-katanya."
-         }
-        },
-        {
-         "title": {
-          "en": "Compare to expert",
-          "id": "Bandingkan dengan ahli"
-         },
-         "text": {
-          "en": "Learn from a real example. Take a look at Merced’s TED talk, “How a blind astronomer found a way to hear the stars” (TED). If you don’t have time to watch the full video, watch the first five minutes. 1 Physical presence. Which aspects of physical presence does Merced excel at? How does she use her body to convey her message? 2 Controlling the room. How does she manage to control the room when she cannot see her audience? What techniques does she use? 3 Vocal emphasis. Describe her vocal emphasis: how does she use pitch, pace, and volume to tell her story? 4 Emotional connection. How does she attempt to build an emotional connection with her audience? What evidence do you see of a connection? 5 Personal impact. Did she inspire something in you? Reflection. Apply to your own communication: take a moment to think about the questions above and how they relate to how you can convey your message more effectively.",
-          "id": "Belajar dari contoh nyata. Tonton TED talk Merced, \"How a blind astronomer found a way to hear the stars\" (TED). Kalau tidak sempat menonton semuanya, tonton lima menit pertamanya. 1 Kehadiran fisik. Aspek kehadiran fisik apa yang dikuasai Merced dengan sangat baik? Bagaimana ia memakai tubuhnya untuk menyampaikan pesan? 2 Menguasai ruangan. Bagaimana ia bisa menguasai ruangan padahal tidak bisa melihat audiensnya? Teknik apa yang ia pakai? 3 Penekanan suara. Gambarkan penekanan suaranya: bagaimana ia memakai tinggi nada, tempo, dan volume untuk menyampaikan ceritanya? 4 Ikatan emosional. Bagaimana ia berusaha membangun ikatan emosional dengan audiensnya? Bukti apa yang kamu lihat bahwa ikatan itu terbangun? 5 Dampak pribadi. Apakah ia menginspirasi sesuatu dalam dirimu? Renungan. Terapkan pada komunikasimu sendiri: luangkan waktu untuk memikirkan pertanyaan di atas dan kaitannya dengan cara kamu bisa menyampaikan pesan dengan lebih efektif."
-         }
-        },
-        {
-         "title": {
-          "en": "Deconstructing “How a blind astronomer found a way to hear the stars”",
-          "id": "Membedah \"How a blind astronomer found a way to hear the stars\""
-         },
-         "text": {
-          "en": "Analyze in more depth. In this video, Hilary and Mark deconstruct Wanda Díaz Merced’s powerful TED Talk, focusing on the Three Elements of Style. About this video: Hilary and Mark deconstruct Wanda Díaz Merced’s TED Talk “How a blind astronomer found a way to hear the stars,” focusing on the Three Elements of Style. As you watch: pay attention to the elements of Merced’s speech that Hilary and Mark find most engaging and effective. Reflection for you: take a moment to think. What aspects of Merced’s speech can I apply to my own conversations to improve my communication? Reflection question. What can I learn from Merced’s speaking style? Identify one or two specific aspects of Merced’s speech that you want to apply in your own communication.",
-          "id": "Analisis lebih dalam. Dalam video ini, Hilary dan Mark membedah TED Talk Wanda Díaz Merced yang kuat itu dengan berfokus pada Tiga Unsur Gaya. Tentang video ini: Hilary dan Mark membedah TED Talk Wanda Díaz Merced, \"How a blind astronomer found a way to hear the stars\", dengan berfokus pada Tiga Unsur Gaya. Sambil menonton: perhatikan unsur-unsur dalam presentasi Merced yang menurut Hilary dan Mark paling menarik dan efektif. Renungan untukmu: luangkan waktu untuk berpikir. Aspek apa dari presentasi Merced yang bisa kuterapkan dalam percakapanku sendiri agar komunikasiku lebih baik? Pertanyaan renungan. Apa yang bisa kupelajari dari gaya bicara Merced? Tentukan satu atau dua aspek spesifik dari presentasi Merced yang ingin kamu terapkan dalam komunikasimu sendiri."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 2 slides",
-        "id": "Baca berikutnya · 2 slide"
-       },
-       "title": {
-        "en": "Try It Now: Material",
-        "id": "Coba Sekarang: Materi"
-       },
-       "intro": {
-        "en": "Two slides close the loop on style and open the next idea. The first is a ten-minute individual exercise: choose a scenario (a brief message you will deliver in a real meeting next week, or a pitch to convince a friend to watch your favourite TV show). Prepare it, record yourself on your phone, and critique the delivery against the three elements (or ask your friend for feedback). Four questions guide you: who is the audience and what tone will resonate, how will body language reinforce the message, and where will vocal emphasis punctuate it.",
-        "id": "Dua slide ini menutup pembahasan gaya dan membuka gagasan berikutnya. Slide pertama adalah latihan mandiri sepuluh menit: pilih satu skenario (pesan singkat yang akan kamu sampaikan di rapat sungguhan minggu depan, atau bujukan agar seorang teman mau menonton acara TV favoritmu). Siapkan pesannya, rekam dirimu dengan ponsel, lalu kritik penyampaianmu berdasarkan ketiga unsur (atau minta masukan dari temanmu). Empat pertanyaan memandumu: siapa audiensnya dan nada apa yang akan mengena, bagaimana bahasa tubuh akan memperkuat pesannya, dan di mana penekanan suara akan memberi tanda baca pada penyampaianmu."
-       },
-       "base": "../../assets/lms/the-map/slides/style-tryit-",
-       "slides": [
-        {
-         "title": {
-          "en": "Try it now: practice the three elements of style",
-          "id": "Coba sekarang: latih tiga unsur gaya"
-         },
-         "text": {
-          "en": "Put into practice. You were just introduced to the Three Elements of Style: physical presence, vocal emphasis, and emotional connection. Now it’s your turn to practice and see how these elements can make your message more persuasive. Goal: use the Three Elements of Style to prepare and deliver a message using physical presence, vocal emphasis, and emotional connection. Logistics: this is an individual exercise to be completed as soon as possible. Estimated time: 10 minutes. Choose your practice scenario. Option 1. Prepare a brief message to deliver in a real meeting (10 minutes): take 10 minutes to prepare a brief message that you will deliver orally in an informal or formal meeting in the next week. Record yourself delivering the message with your smartphone and use the Three Elements of Style checklist to critique your own delivery. Option 2. Convince a friend to watch your favorite TV show (10 minutes): take 10 minutes to prepare a brief message convincing a friend to watch your favorite TV show. Record yourself delivering the message with your smartphone and send it to your friend. Ask them to: a) share whether or not they were inspired to watch the TV show, and b) provide feedback on your delivery style. Questions to consider: who is your audience? What tone and style would resonate with them to forge an emotional connection? How will you use body language to reinforce your message? Where will you apply vocal emphasis to punctuate your delivery? Reference the Three Elements of Style for delivery.",
-          "id": "Praktikkan. Kamu baru saja dikenalkan dengan Tiga Unsur Gaya: kehadiran fisik, penekanan suara, dan ikatan emosional. Sekarang giliranmu berlatih dan melihat bagaimana unsur-unsur ini bisa membuat pesanmu lebih persuasif. Sasaran: pakai Tiga Unsur Gaya untuk menyiapkan dan menyampaikan pesan dengan kehadiran fisik, penekanan suara, dan ikatan emosional. Teknis: latihan ini dikerjakan sendiri dan sebaiknya segera dilakukan. Perkiraan waktu: 10 menit. Pilih skenario latihanmu. Pilihan 1. Siapkan pesan singkat untuk disampaikan di rapat sungguhan (10 menit): luangkan 10 menit untuk menyiapkan pesan singkat yang akan kamu sampaikan secara lisan dalam rapat informal atau formal minggu depan. Rekam dirimu menyampaikan pesan itu dengan ponsel, lalu pakai daftar periksa Tiga Unsur Gaya untuk mengkritik penyampaianmu sendiri. Pilihan 2. Bujuk seorang teman untuk menonton acara TV favoritmu (10 menit): luangkan 10 menit untuk menyiapkan pesan singkat yang membujuk temanmu menonton acara TV favoritmu. Rekam dirimu menyampaikan pesan itu dengan ponsel dan kirimkan ke temanmu. Minta ia untuk: a) menyampaikan apakah ia jadi tertarik menonton acara itu atau tidak, dan b) memberi masukan tentang gaya penyampaianmu. Pertanyaan yang perlu dipikirkan: siapa audiensmu? Nada dan gaya apa yang akan mengena bagi mereka untuk membangun ikatan emosional? Bagaimana kamu akan memakai bahasa tubuh untuk memperkuat pesanmu? Di mana kamu akan memakai penekanan suara untuk memberi tanda baca pada penyampaianmu? Rujuk Tiga Unsur Gaya untuk penyampaian."
-         }
-        },
-        {
-         "title": {
-          "en": "Good communicators are good facilitators",
-          "id": "Komunikator yang baik adalah fasilitator yang baik"
-         },
-         "text": {
-          "en": "From communication to impact. Facilitating for impact: in this section, we will wrap up the Conversation element of the EPIC approach to communications with a focus on facilitating (making an action easier) for impact. 1 In this section. We will wrap up the Conversation element of the EPIC approach to communications with a focus on facilitating (making an action easier) for impact. 2 What you’ll explore. How to facilitate and lead a conversation in an inclusive and open environment both virtually and in person. In this video, Kate describes the role of effective facilitation in guiding a group to alignment, commitment, and action. 3 Take a moment to reflect. As you watch this video, think about opportunities you have to facilitate for impact in the future. How might you apply an open and curious mindset to those conversations so that you can communicate more effectively? Reflection question. Where can I facilitate for impact? What are some upcoming conversations where you can create a more inclusive and open environment to drive alignment, commitment, and action?",
-          "id": "Dari komunikasi ke dampak. Memfasilitasi untuk dampak: di bagian ini, kita menutup unsur Conversation dalam pendekatan komunikasi EPIC dengan fokus pada memfasilitasi (membuat sebuah tindakan jadi lebih mudah) untuk dampak. 1 Di bagian ini. Kita menutup unsur Conversation dalam pendekatan komunikasi EPIC dengan fokus pada memfasilitasi (membuat sebuah tindakan jadi lebih mudah) untuk dampak. 2 Yang akan kamu jelajahi. Cara memfasilitasi dan memimpin percakapan dalam suasana yang inklusif dan terbuka, baik secara virtual maupun tatap muka. Dalam video ini, Kate menjelaskan peran fasilitasi yang efektif dalam membawa kelompok pada kesepahaman, komitmen, dan tindakan. 3 Luangkan waktu untuk merenung. Sambil menonton video ini, pikirkan kesempatan yang kamu punya untuk memfasilitasi demi dampak di masa depan. Bagaimana kamu bisa membawa pola pikir yang terbuka dan penuh rasa ingin tahu ke percakapan-percakapan itu agar komunikasimu lebih efektif? Pertanyaan renungan. Di mana aku bisa memfasilitasi untuk dampak? Percakapan apa saja yang akan datang tempat kamu bisa menciptakan suasana yang lebih inklusif dan terbuka untuk mendorong kesepahaman, komitmen, dan tindakan?"
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 1 slide",
-        "id": "Baca berikutnya · 1 slide"
-       },
-       "title": {
-        "en": "Open Narrow Close: Material",
-        "id": "Open Narrow Close: Materi"
-       },
-       "intro": {
-        "en": "These slides cover “Open Narrow Close”. Read them at your own pace.",
-        "id": "Slide-slide ini membahas “Open Narrow Close”. Baca sesuai ritmemu."
-       },
-       "base": "../../assets/lms/the-map/slides/style-onc-",
-       "slides": [
-        {
-         "title": {
-          "en": "Open Narrow Close meeting technique",
-          "id": "Teknik rapat Open Narrow Close"
-         },
-         "text": {
-          "en": "Conversation framework. Every great conversation follows the same structure: Open, Narrow, and Close. This simple but powerful technique helps you introduce and broaden the set of ideas, assess the options, and determine next steps. Open: introduce and broaden the set of ideas; Narrow: assess the options; Close: determine next steps. In this section: we will explore the Open, Narrow, Close meeting technique and see how this simple structure can help you facilitate more focused, productive, and impactful conversations. Reflection question: as you watch this video, take a moment to think about a recent conversation you have had. Can you identify the open, narrow, and close of that conversation? 1 Open: introduce and broaden the set of ideas: set the context and purpose; create an inclusive and open environment; explore different perspectives and generate possibilities. 2 Narrow: assess the options: discuss and evaluate the key options; identify trade-offs and implications; build alignment on the preferred direction. 3 Close: determine next steps: summarize key decisions and insights; agree on clear actions, owners, and timelines; confirm alignment and next touchpoints.",
-          "id": "Kerangka percakapan. Setiap percakapan yang hebat mengikuti struktur yang sama: Open, Narrow, dan Close. Teknik sederhana tetapi ampuh ini membantumu memperkenalkan dan memperluas kumpulan ide, menilai pilihan-pilihannya, dan menentukan langkah berikutnya. Open: perkenalkan dan perluas kumpulan ide; Narrow: nilai pilihan-pilihannya; Close: tentukan langkah berikutnya. Di bagian ini: kita akan menjelajahi teknik rapat Open, Narrow, Close dan melihat bagaimana struktur sederhana ini bisa membantumu memfasilitasi percakapan yang lebih fokus, produktif, dan berdampak. Pertanyaan renungan: sambil menonton video ini, ingat satu percakapan yang baru-baru ini kamu lakukan. Bisakah kamu menemukan bagian open, narrow, dan close dari percakapan itu? 1 Open: perkenalkan dan perluas kumpulan ide: tetapkan konteks dan tujuan; ciptakan suasana yang inklusif dan terbuka; jelajahi berbagai sudut pandang dan munculkan berbagai kemungkinan. 2 Narrow: nilai pilihan-pilihannya: diskusikan dan evaluasi pilihan-pilihan utama; kenali untung-rugi dan implikasinya; bangun kesepahaman tentang arah yang dipilih. 3 Close: tentukan langkah berikutnya: rangkum keputusan dan insight utama; sepakati tindakan, penanggung jawab, dan tenggat waktu yang jelas; pastikan semua sepaham dan sepakati pertemuan berikutnya."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "Reflect on a Past Interaction: Material",
-        "id": "Renungkan Interaksi di Masa Lalu: Materi"
-       },
-       "intro": {
-        "en": "Three slides close the material. The first is a practical reflection: think back to the interaction with two or three colleagues you identified earlier (you reflected on its empathy and defined its purpose) and now judge its facilitation against five questions: the three elements of style, the opening, the questions that narrowed the conversation, the close with an owner and a deadline, and whether the group moved to alignment, commitment or action. The second slide summarises the module’s two key tools (the Three Elements of Style and the Open, Narrow, Close approach) and lists further resources. The third closes the module, restating the EPIC framework (connect with your audience, focus on a shared purpose, organise your facts and ideas, communicate in an engaging way) and asks you to apply it in daily life. Work through the reflection, note your answers, then continue to “In focus” below, then the three reading sections.",
-        "id": "Tiga slide ini menutup materi. Slide pertama adalah renungan praktis: ingat kembali interaksi dengan dua atau tiga rekan kerja yang sudah kamu pilih sebelumnya (kamu sudah merenungkan empatinya dan menentukan tujuannya), lalu nilai cara interaksi itu difasilitasi dengan lima pertanyaan: tiga unsur gaya, pembukaannya, pertanyaan yang mempersempit percakapan, penutup dengan penanggung jawab dan tenggat waktu, dan apakah kelompoknya bergerak menuju kesepahaman, komitmen, atau tindakan. Slide kedua merangkum dua alat kunci modul ini (Tiga Unsur Gaya dan pendekatan Open, Narrow, Close) dan mendaftar bacaan tambahan. Slide ketiga menutup modul dengan mengulang kerangka EPIC (bangun ikatan dengan audiensmu, fokus pada tujuan bersama, susun fakta dan idemu, berkomunikasi dengan cara yang menarik) dan mengajakmu menerapkannya dalam kehidupan sehari-hari. Kerjakan renungannya, catat jawabanmu, lalu lanjutkan ke \"Sorotan\" di bawah, lalu ke tiga bagian bacaan."
-       },
-       "base": "../../assets/lms/the-map/slides/style-reflect-",
-       "slides": [
-        {
-         "title": {
-          "en": "Reflect on a past interaction",
-          "id": "Renungkan interaksi di masa lalu"
-         },
-         "text": {
-          "en": "Practical reflection. Think back to a previous interaction with 2–3 colleagues that you identified in the earlier sections. We asked you to reflect on empathy in that interaction, and later, we asked you to define its purpose. Now, consider the following: what went well? What could be improved? What was the outcome? Objective: in this section, you will reflect on how that interaction was facilitated. Now, think about the following: 1 Did the facilitator use any of the Three Elements of Style in his or her delivery of the message? 2 Did the facilitator have a clear and compelling opening? What did the facilitator do to make the participants feel comfortable about who they’re with and what they’re going to do? 3 Did the facilitator ask provocative and insightful questions to narrow in on the conversation? How did they use questions and statements to help keep the thinking and process on track and also create an inclusive and open environment? 4 Did the facilitator close the meeting with a clearly articulated outcome assigned to an owner with a set deadline? Were next steps defined? 5 Did the facilitator help move the group to alignment, commitment, or action? If so, how?",
-          "id": "Renungan praktis. Ingat kembali interaksi dengan 2–3 rekan kerja yang sudah kamu pilih di bagian-bagian sebelumnya. Kami sudah memintamu merenungkan empati dalam interaksi itu, lalu setelahnya memintamu menentukan tujuannya. Sekarang pikirkan: apa yang berjalan baik? Apa yang bisa diperbaiki? Bagaimana hasilnya? Sasaran: di bagian ini, kamu akan merenungkan bagaimana interaksi itu difasilitasi. Sekarang pikirkan hal berikut: 1 Apakah fasilitatornya memakai salah satu dari Tiga Unsur Gaya saat menyampaikan pesannya? 2 Apakah fasilitatornya punya pembukaan yang jelas dan memikat? Apa yang ia lakukan agar peserta merasa nyaman dengan siapa mereka berada dan apa yang akan mereka kerjakan? 3 Apakah fasilitatornya mengajukan pertanyaan yang memancing dan tajam untuk mempersempit percakapan? Bagaimana ia memakai pertanyaan dan pernyataan untuk menjaga pemikiran dan prosesnya tetap di jalur, sekaligus menciptakan suasana yang inklusif dan terbuka? 4 Apakah fasilitatornya menutup rapat dengan hasil yang dirumuskan jelas, diserahkan kepada penanggung jawab dengan tenggat waktu yang pasti? Apakah langkah berikutnya sudah ditentukan? 5 Apakah fasilitatornya membantu kelompok bergerak menuju kesepahaman, komitmen, atau tindakan? Kalau ya, bagaimana caranya?"
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin-poin penting"
-         },
-         "text": {
-          "en": "Module summary. In this module, we have covered the following key tools: 1 Three Elements of Style. Use your physical presence, vocal emphasis and emotional connection to deliver your message in a way that moves your audience to take action. 2 Open, Narrow, Close approach. Use this to organize the flow of a meeting starting from making people feel heard to reaching alignment on next steps. Resources you may also wish to explore: “How to speak so that people want to listen” (video); “10 Tips for Improving Your Public Speaking Skills” (article); “How to write less but say more” (video); “TED’s secret to great public speaking” (video); Karia, Akash, Own the room: Presentation techniques to keep your audience on the edge of their seats (book); Gallo, Carmine, Talk like TED: The nine public speaking secrets of the world’s top minds (book).",
-          "id": "Ringkasan modul. Di modul ini kita sudah membahas alat-alat kunci berikut: 1 Tiga Unsur Gaya. Pakai kehadiran fisik, penekanan suara, dan ikatan emosionalmu untuk menyampaikan pesan dengan cara yang menggerakkan audiens untuk bertindak. 2 Pendekatan Open, Narrow, Close. Pakai ini untuk mengatur alur rapat, mulai dari membuat orang merasa didengar sampai mencapai kesepahaman tentang langkah berikutnya. Bacaan tambahan yang mungkin ingin kamu jelajahi: \"How to speak so that people want to listen\" (video); \"10 Tips for Improving Your Public Speaking Skills\" (artikel); \"How to write less but say more\" (video); \"TED's secret to great public speaking\" (video); Karia, Akash, Own the room: Presentation techniques to keep your audience on the edge of their seats (buku); Gallo, Carmine, Talk like TED: The nine public speaking secrets of the world's top minds (buku)."
-         }
-        },
-        {
-         "title": {
-          "en": "Communicating for Impact: key takeaways",
-          "id": "Berkomunikasi untuk Dampak: poin-poin penting"
-         },
-         "text": {
-          "en": "Module closing. In this module, you have learned how to use the “EPIC” framework to communicate more effectively and create real impact. 1 Empathy: connect with your audience. Build a strong connection with your audience when you communicate. 2 Purpose: focus on a shared purpose. Direct your communication toward a common purpose with your audience. 3 Insight: organize your facts and ideas clearly. Structure your facts and ideas in a clear and meaningful way. 4 Conversation: communicate in an engaging way. Share your facts and ideas in a way that is interesting, easy to remember, and motivates your audience to take action. Apply in your daily life: we hope you can apply the lessons learned to your day-to-day life decisions, whether it’s taking a moment to be empathetic to the person you’re talking to, or using the Three Elements of Style to make a compelling argument to your family on why you should make an expensive purchase. Finish.",
-          "id": "Penutup modul. Di modul ini, kamu sudah belajar memakai kerangka \"EPIC\" untuk berkomunikasi lebih efektif dan menciptakan dampak nyata. 1 Empathy: bangun ikatan dengan audiensmu. Jalin hubungan yang kuat dengan audiens saat kamu berkomunikasi. 2 Purpose: fokus pada tujuan bersama. Arahkan komunikasimu pada tujuan yang sama dengan audiensmu. 3 Insight: susun fakta dan idemu dengan jelas. Tata fakta dan idemu dengan cara yang jelas dan bermakna. 4 Conversation: berkomunikasilah dengan cara yang menarik. Sampaikan fakta dan idemu dengan cara yang menarik, mudah diingat, dan mendorong audiens untuk bertindak. Terapkan dalam kehidupan sehari-hari: kami harap kamu bisa menerapkan pelajaran ini dalam keputusan sehari-hari, entah itu meluangkan waktu untuk berempati pada orang yang sedang bicara denganmu, atau memakai Tiga Unsur Gaya untuk menyusun argumen yang meyakinkan kepada keluargamu tentang kenapa kamu perlu membeli barang yang mahal. Selesai."
-         }
-        }
-       ]
       }
      ],
      "sections": [
@@ -8179,14 +8572,502 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:1",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows these slides: Tika, a first presentation that her body gave away, and what she does before the next one. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide ini: Tika, presentasi pertama yang dibocorkan oleh tubuhnya, dan apa yang ia lakukan sebelum presentasi berikutnya. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Tika, a first presentation that her body gave away, and what she does before the next one. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Tika, presentasi pertama yang dibocorkan oleh tubuhnya, dan apa yang ia lakukan sebelum presentasi berikutnya. Tonton, lalu lanjutkan ke bacaan di bawah."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 6 slides",
+       "id": "Baca dulu · 6 slide"
+      },
+      "title": {
+       "en": "Before You Speak",
+       "id": "Sebelum Kamu Bicara"
+      },
+      "intro": {
+       "en": "Six ideas about delivery: the moment a well-built message meets a room. Then a short film, and the reading below.",
+       "id": "Enam gagasan tentang penyampaian: saat pesan yang tersusun baik bertemu sebuah ruangan. Setelah itu satu film singkat, lalu bacaan di bawah."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The body speaks first",
+         "id": "Tubuh berbicara lebih dulu"
+        },
+        "points": [
+         {
+          "en": "A well-built message can still leak credibility at the moment it is delivered.",
+          "id": "Pesan yang tersusun baik pun bisa kehilangan kredibilitas tepat saat disampaikan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three elements",
+         "id": "Tiga unsur"
+        },
+        "points": [
+         {
+          "en": "The three do not weigh the same on every occasion, but a weakness in any one is where attention leaks out.",
+          "id": "Bobot ketiganya tidak selalu sama, tetapi kelemahan di salah satunya adalah tempat perhatian audiens bocor."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Ground before you speak",
+         "id": "Mantapkan diri sebelum bicara"
+        },
+        "points": [
+         {
+          "en": "Fidgeting costs attention: the part of your mind watching your hands is not with the room.",
+          "id": "Gelisah menguras perhatian: bagian pikiran yang mengawasi tanganmu tidak hadir untuk ruangan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Voice",
+         "id": "Suara"
+        },
+        "points": [
+         {
+          "en": "A flat voice makes every sentence sound equally unimportant.",
+          "id": "Suara yang datar membuat setiap kalimat terdengar sama tidak pentingnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Match the room",
+         "id": "Sesuaikan dengan ruangannya"
+        },
+        "points": [
+         {
+          "en": "One message, four rooms, four different deliveries.",
+          "id": "Satu pesan, empat ruangan, empat cara menyampaikan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Your own style",
+         "id": "Gayamu sendiri"
+        },
+        "points": [
+         {
+          "en": "You do not need to become someone else to hold a room.",
+          "id": "Kamu tidak perlu menjadi orang lain untuk memegang sebuah ruangan."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/mp-stage-impact.jpg",
+       "module": {
+        "en": "Module 4 · Communication for Impact",
+        "id": "Modul 4 · Komunikasi yang Berdampak"
+       },
+       "lesson": {
+        "n": "4.4",
+        "title": {
+         "en": "Elements of Presentation Style",
+         "id": "Unsur-Unsur Gaya Presentasi"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "The audience reads your body before it hears your words, and if they disagree the body wins",
+         "id": "Audiens membaca tubuhmu sebelum mendengar kata-katamu, dan jika keduanya bertentangan, tubuh yang menang"
+        },
+        {
+         "en": "Presentation style has three elements: what they see, what they hear and what they feel",
+         "id": "Gaya presentasi punya tiga unsur: yang mereka lihat, yang mereka dengar, dan yang mereka rasakan"
+        },
+        {
+         "en": "Presence is prepared, not performed: two minutes in the corridor",
+         "id": "Kehadiran itu disiapkan, bukan diperankan: dua menit di lorong"
+        },
+        {
+         "en": "Use your voice to mark what matters: slow down for the answer and pause after it",
+         "id": "Pakai suaramu untuk menandai yang penting: pelankan saat menyampaikan jawaban, lalu beri jeda"
+        },
+        {
+         "en": "The same three elements scale with the room you are in",
+         "id": "Tiga unsur yang sama menyesuaikan ukuran ruangan tempatmu berada"
+        },
+        {
+         "en": "Adjust the elements, not your personality",
+         "id": "Sesuaikan unsurnya, bukan kepribadianmu"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The body speaks first",
+          "id": "Tubuh berbicara lebih dulu"
+         },
+         "p": {
+          "en": "A well-built message can still leak credibility at the moment it is delivered.",
+          "id": "Pesan yang tersusun baik pun bisa kehilangan kredibilitas tepat saat disampaikan."
+         }
+        },
+        {
+         "h": {
+          "en": "Three elements",
+          "id": "Tiga unsur"
+         },
+         "p": {
+          "en": "The three do not weigh the same on every occasion, but a weakness in any one is where attention leaks out.",
+          "id": "Bobot ketiganya tidak selalu sama, tetapi kelemahan di salah satunya adalah tempat perhatian audiens bocor."
+         }
+        },
+        {
+         "h": {
+          "en": "Ground before you speak",
+          "id": "Mantapkan diri sebelum bicara"
+         },
+         "p": {
+          "en": "Two minutes of this is worth more than twenty more minutes with your slides.",
+          "id": "Dua menit seperti ini lebih berharga daripada dua puluh menit tambahan bersama slide-mu."
+         }
+        },
+        {
+         "h": {
+          "en": "Voice",
+          "id": "Suara"
+         },
+         "p": {
+          "en": "A flat voice makes every sentence sound equally unimportant.",
+          "id": "Suara yang datar membuat setiap kalimat terdengar sama tidak pentingnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Match the room",
+          "id": "Sesuaikan dengan ruangannya"
+         },
+         "p": {
+          "en": "One message, four rooms, four different deliveries.",
+          "id": "Satu pesan, empat ruangan, empat cara menyampaikan."
+         }
+        },
+        {
+         "h": {
+          "en": "Your own style",
+          "id": "Gayamu sendiri"
+         },
+         "p": {
+          "en": "Find your natural style and be confident within it.",
+          "id": "Temukan gaya alamimu dan percaya dirilah di dalamnya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The audience reads your body before it hears your words, and if they disagree the body wins",
+          "id": "Audiens membaca tubuhmu sebelum mendengar kata-katamu, dan jika keduanya bertentangan, tubuh yang menang"
+         },
+         "em": {
+          "en": "the body wins",
+          "id": "tubuh yang menang"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "chat",
+           "en": "“I am confident in this recommendation.”",
+           "id": "“Saya yakin dengan rekomendasi ini.”",
+           "l": {
+            "en": "What the words say",
+            "id": "Kata-katanya"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Eyes on the floor, hands that will not stay still, a voice that trails off.",
+           "id": "Mata menatap lantai, tangan yang tak bisa diam, suara yang melemah di ujung kalimat.",
+           "l": {
+            "en": "What the body says",
+            "id": "Tubuhnya"
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Presentation style has three elements: what they see, what they hear and what they feel",
+          "id": "Gaya presentasi punya tiga unsur: yang mereka lihat, yang mereka dengar, dan yang mereka rasakan"
+         },
+         "em": {
+          "en": "three elements",
+          "id": "tiga unsur"
+         },
+         "layout": "pillars",
+         "items": [
+          {
+           "icon": "person",
+           "en": "Physical presence",
+           "id": "Kehadiran fisik",
+           "d": {
+            "en": "Posture, eye contact, gestures that belong to the sentence",
+            "id": "Postur, kontak mata, gerak tangan yang menyatu dengan kalimat"
+           },
+           "img": "../../assets/bg/rope.jpg"
+          },
+          {
+           "icon": "mic",
+           "en": "Vocal emphasis",
+           "id": "Penekanan suara",
+           "d": {
+            "en": "Pitch, pace and volume, and an active voice",
+            "id": "Nada, tempo, dan volume, serta kalimat aktif"
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Emotional connection",
+           "id": "Ikatan emosional",
+           "d": {
+            "en": "Reading the room and responding to it",
+            "id": "Membaca ruangan dan menanggapinya"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Presence is prepared, not performed: two minutes in the corridor",
+          "id": "Kehadiran itu disiapkan, bukan diperankan: dua menit di lorong"
+         },
+         "em": {
+          "en": "prepared, not performed",
+          "id": "disiapkan, bukan diperankan"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pin",
+           "en": "Feet",
+           "id": "Kaki",
+           "d": {
+            "en": "Both flat, weight even",
+            "id": "Keduanya menapak, berat seimbang"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Breath",
+           "id": "Napas",
+           "d": {
+            "en": "Three or four slow breaths, longer out than in",
+            "id": "Tiga atau empat napas pelan, embusan lebih panjang"
+           }
+          },
+          {
+           "icon": "sun",
+           "en": "Centre",
+           "id": "Pusat",
+           "d": {
+            "en": "One calming thought, chosen in advance",
+            "id": "Satu pikiran yang menenangkan, dipilih sebelumnya"
+           }
+          },
+          {
+           "icon": "hand",
+           "en": "Hands",
+           "id": "Tangan",
+           "d": {
+            "en": "Decide where they rest",
+            "id": "Tentukan tempat istirahatnya"
+           }
+          },
+          {
+           "icon": "eye",
+           "en": "Eyes",
+           "id": "Mata",
+           "d": {
+            "en": "Two or three people to return to",
+            "id": "Dua atau tiga orang untuk kembali ditatap"
+           }
+          }
+         ],
+         "band": {
+          "en": "Two minutes of this is worth more than twenty more minutes with your slides.",
+          "id": "Dua menit seperti ini lebih berharga daripada dua puluh menit tambahan bersama slide-mu."
+         },
+         "img": "../../assets/bg/resilience.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Use your voice to mark what matters: slow down for the answer and pause after it",
+          "id": "Pakai suaramu untuk menandai yang penting: pelankan saat menyampaikan jawaban, lalu beri jeda"
+         },
+         "em": {
+          "en": "mark what matters",
+          "id": "menandai yang penting"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "timer",
+           "en": "Slower for the answer, quicker for the background.",
+           "id": "Lebih pelan untuk jawaban, lebih cepat untuk latar belakang.",
+           "l": {
+            "en": "Pace",
+            "id": "Tempo"
+           }
+          },
+          {
+           "icon": "pause",
+           "en": "A full second after the point. Silence reads as confidence.",
+           "id": "Satu detik penuh setelah intinya. Diam terbaca sebagai percaya diri.",
+           "l": {
+            "en": "Pause",
+            "id": "Jeda"
+           }
+          },
+          {
+           "icon": "sliders",
+           "en": "Vary them, so nothing sounds like a list being read.",
+           "id": "Variasikan, supaya tak ada yang terdengar seperti daftar yang dibacakan.",
+           "l": {
+            "en": "Pitch and volume",
+            "id": "Nada dan volume"
+           }
+          },
+          {
+           "icon": "bolt",
+           "en": "“We will ship on Friday”, not “it is hoped that shipping might occur”.",
+           "id": "“Kami kirim hari Jumat”, bukan “diharapkan pengiriman dapat dilakukan”.",
+           "l": {
+            "en": "Active voice",
+            "id": "Kalimat aktif"
+           }
+          }
+         ],
+         "img": "../../assets/bg/mp-stage-author.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The same three elements scale with the room you are in",
+          "id": "Tiga unsur yang sama menyesuaikan ukuran ruangan tempatmu berada"
+         },
+         "em": {
+          "en": "scale with the room",
+          "id": "menyesuaikan ukuran ruangan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "person",
+           "en": "One to one",
+           "id": "Empat mata",
+           "d": {
+            "en": "Stillness, eye contact, a slower pace. Listen visibly",
+            "id": "Tenang, kontak mata, tempo lebih pelan. Tunjukkan kamu menyimak"
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "Small meeting",
+           "id": "Rapat kecil",
+           "d": {
+            "en": "Sit forward. Mark the answer with your voice",
+            "id": "Duduk condong ke depan. Tandai jawaban dengan suaramu"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "building",
+           "en": "Large room",
+           "id": "Ruangan besar",
+           "d": {
+            "en": "Bigger and slower: wider gestures, real pauses, a story",
+            "id": "Lebih besar dan lebih pelan: gerak lebih lebar, jeda nyata, sebuah cerita"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "video",
+           "en": "Video call",
+           "id": "Panggilan video",
+           "d": {
+            "en": "Set light and framing, look at the lens, add energy",
+            "id": "Atur cahaya dan bingkai, tatap lensa, tambah energi"
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Adjust the elements, not your personality",
+          "id": "Sesuaikan unsurnya, bukan kepribadianmu"
+         },
+         "em": {
+          "en": "not your personality",
+          "id": "bukan kepribadianmu"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "star",
+           "en": "Do not copy a speaker you admire. Take one habit and make it yours.",
+           "id": "Jangan meniru pembicara yang kamu kagumi. Ambil satu kebiasaannya dan jadikan milikmu.",
+           "l": {
+            "en": "Borrow one thing",
+            "id": "Pinjam satu hal"
+           }
+          },
+          {
+           "icon": "video",
+           "en": "Record two minutes. Watch once with the sound off, then listen once with the picture off.",
+           "id": "Rekam dua menit. Tonton sekali tanpa suara, lalu dengarkan sekali tanpa gambar.",
+           "l": {
+            "en": "See yourself",
+            "id": "Lihat dirimu"
+           }
+          },
+          {
+           "icon": "target",
+           "en": "Choose one element to work on in your next three meetings.",
+           "id": "Pilih satu unsur untuk kamu latih di tiga rapat berikutnya.",
+           "l": {
+            "en": "One at a time",
+            "id": "Satu per satu"
+           }
+          }
+         ],
+         "band": {
+          "en": "Find your natural style and be confident within it.",
+          "id": "Temukan gaya alamimu dan percaya dirilah di dalamnya."
+         },
+         "img": "../../assets/bg/journey-start.jpg"
+        }
+       ]
+      }
      }
     }
    ],
