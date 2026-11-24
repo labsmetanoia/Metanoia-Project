@@ -2,9 +2,9 @@
 
 Film `map-5-1-energy-first` · The Map 5.1
 
-**Source note.** Written for this lesson from its own objectives and reading: sleep debt and the skills it costs, a minimum health protocol for a hard week, early overload signals with a two-step response, and how capacity grows. That effort followed by rest builds capacity is general exercise science; the film names Brad Stulberg and Steve Magness once for their wording of it. The case and the characters are invented for this film and appear in no other course. No third-party script, footage, picture or sound.
+**Source note.** Written for this lesson from its own objectives and reading: sleep debt and the skills it costs, a minimum health protocol for a hard week, early overload signals with a two-step response, and how capacity grows. That effort followed by rest builds capacity is general exercise science, stated here in the course's own words. The case and the characters are invented for this film and appear in no other course. No third-party script, footage, picture or sound.
 
-## English (181 s)
+## English (178 s)
 
 - `00:04` It is half past one. Galih has an interview on Friday and a thesis chapter due, and for a week he has slept five hours a night.
 - `00:13` The trouble is what a tired brain loses first: attention, working memory and control of mood. Exactly the skills an interview tests.
@@ -19,19 +19,19 @@ Film `map-5-1-energy-first` · The Map 5.1
 - `01:19` Capacity grows the way a muscle does: a demand that stretches you a little, then enough rest to adapt.
 - `01:28` The growth happens in the rest, not in the effort.
 - `01:33` Take the rest away, and the same effort only wears you down.
-- `01:40` Brad Stulberg and Steve Magness put it as an equation: stress plus rest equals growth. So plan recovery as deliberately as the work.
-- `01:49` Overload sends early signals, weeks before real trouble. Sleep that no longer refreshes you.
-- `01:55` Irritation at small things.
-- `01:58` And pulling away from people you normally enjoy.
-- `02:03` The response has two steps. Subtract first: drop one commitment for two weeks and protect your sleep. Then talk, to a friend, a mentor or a counsellor.
-- `02:12` And if a low mood stays most days for two weeks, seeing a professional is the competent move, as it would be for a broken bone.
-- `02:21` Friday morning. Four nights inside his sleep window, and a walk to campus. The interview is the same. The brain he brings to it is not.
-- `02:30` And on a day that feels harder than it should, he checks his levers before he blames his character: sleep, heat, food, mental load.
-- `02:39` A floor you never break beats a ceiling you never reach.
-- `02:45` Capacity grows in the rest after effort.
-- `02:49` Now it is your turn. Write your four lines: a sleep window, movement, one real meal, one person.
+- `01:40` Stretch, recover, adapt. So plan recovery as deliberately as the work.
+- `01:45` Overload sends early signals, weeks before real trouble. Sleep that no longer refreshes you.
+- `01:52` Irritation at small things.
+- `01:55` And pulling away from people you normally enjoy.
+- `02:00` The response has two steps. Subtract first: drop one commitment for two weeks and protect your sleep. Then talk, to a friend, a mentor or a counsellor.
+- `02:09` And if a low mood stays most days for two weeks, seeing a professional is the competent move, as it would be for a broken bone.
+- `02:18` Friday morning. Four nights inside his sleep window, and a walk to campus. The interview is the same. The brain he brings to it is not.
+- `02:27` And on a day that feels harder than it should, he checks his levers before he blames his character: sleep, heat, food, mental load.
+- `02:36` A floor you never break beats a ceiling you never reach.
+- `02:41` Capacity grows in the rest after effort.
+- `02:45` Now it is your turn. Write your four lines: a sleep window, movement, one real meal, one person.
 
-## Bahasa Indonesia (178 s)
+## Bahasa Indonesia (174 s)
 
 - `00:04` Pukul setengah dua malam. Galih punya wawancara hari Jumat dan satu bab skripsi yang harus selesai, dan sudah seminggu ia hanya tidur lima jam semalam.
 - `00:13` Masalahnya ada pada apa yang lebih dulu hilang dari otak yang lelah: perhatian, memori kerja, dan pengendalian suasana hati. Tepat keterampilan yang diuji dalam wawancara.
@@ -46,14 +46,14 @@ Film `map-5-1-energy-first` · The Map 5.1
 - `01:20` Kapasitas tumbuh seperti otot: tuntutan yang sedikit meregangkanmu, lalu istirahat yang cukup untuk beradaptasi.
 - `01:27` Pertumbuhannya terjadi saat beristirahat, bukan saat berusaha.
 - `01:31` Hilangkan istirahatnya, dan usaha yang sama hanya akan mengurasmu.
-- `01:36` Brad Stulberg dan Steve Magness merumuskannya sebagai persamaan: stres ditambah istirahat sama dengan pertumbuhan. Maka rencanakan pemulihan sesengaja kamu merencanakan pekerjaan.
-- `01:45` Kelebihan beban mengirim tanda awal, berminggu-minggu sebelum masalah sungguhan. Tidur yang tak lagi menyegarkan.
-- `01:52` Mudah kesal pada hal-hal kecil.
-- `01:55` Dan menjauh dari orang-orang yang biasanya kamu sukai.
-- `02:00` Responsnya dua langkah. Kurangi dulu: lepaskan satu komitmen selama dua minggu dan lindungi tidurmu. Lalu bicara, kepada teman, mentor, atau konselor.
-- `02:09` Dan jika suasana hati yang murung bertahan hampir setiap hari selama dua minggu, menemui profesional adalah langkah yang kompeten, sama seperti saat patah tulang.
-- `02:18` Jumat pagi. Empat malam tidur sesuai jendelanya, lalu berjalan kaki ke kampus. Wawancaranya tetap sama. Otak yang ia bawa ke sana berbeda.
-- `02:27` Dan di hari yang terasa lebih berat dari semestinya, ia memeriksa tuas-tuasnya sebelum menyalahkan karakternya: tidur, panas, makanan, beban pikiran.
-- `02:36` Batas bawah yang tak pernah kamu langgar mengalahkan batas atas yang tak pernah kamu capai.
-- `02:43` Kapasitas tumbuh saat beristirahat setelah berusaha.
-- `02:47` Sekarang giliranmu. Tulis empat barismu: jendela tidur, gerak, satu kali makan sungguhan, satu orang.
+- `01:36` Regangkan, pulihkan, beradaptasi. Maka rencanakan pemulihan sesengaja kamu merencanakan pekerjaan.
+- `01:41` Kelebihan beban mengirim tanda awal, berminggu-minggu sebelum masalah sungguhan. Tidur yang tak lagi menyegarkan.
+- `01:48` Mudah kesal pada hal-hal kecil.
+- `01:52` Dan menjauh dari orang-orang yang biasanya kamu sukai.
+- `01:56` Responsnya dua langkah. Kurangi dulu: lepaskan satu komitmen selama dua minggu dan lindungi tidurmu. Lalu bicara, kepada teman, mentor, atau konselor.
+- `02:05` Dan jika suasana hati yang murung bertahan hampir setiap hari selama dua minggu, menemui profesional adalah langkah yang kompeten, sama seperti saat patah tulang.
+- `02:14` Jumat pagi. Empat malam tidur sesuai jendelanya, lalu berjalan kaki ke kampus. Wawancaranya tetap sama. Otak yang ia bawa ke sana berbeda.
+- `02:23` Dan di hari yang terasa lebih berat dari semestinya, ia memeriksa tuas-tuasnya sebelum menyalahkan karakternya: tidur, panas, makanan, beban pikiran.
+- `02:32` Batas bawah yang tak pernah kamu langgar mengalahkan batas atas yang tak pernah kamu capai.
+- `02:39` Kapasitas tumbuh saat beristirahat setelah berusaha.
+- `02:43` Sekarang giliranmu. Tulis empat barismu: jendela tidur, gerak, satu kali makan sungguhan, satu orang.

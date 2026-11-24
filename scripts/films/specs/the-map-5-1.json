@@ -9,7 +9,7 @@
     "en": "Energy first: sleep, a minimum protocol and how capacity grows",
     "id": "Energi dulu: tidur, protokol minimum, dan cara kapasitas tumbuh"
   },
-  "sources": "Written for this lesson from its own objectives and reading: sleep debt and the skills it costs, a minimum health protocol for a hard week, early overload signals with a two-step response, and how capacity grows. That effort followed by rest builds capacity is general exercise science; the film names Brad Stulberg and Steve Magness once for their wording of it. The case and the characters are invented for this film and appear in no other course. No third-party script, footage, picture or sound.",
+  "sources": "Written for this lesson from its own objectives and reading: sleep debt and the skills it costs, a minimum health protocol for a hard week, early overload signals with a two-step response, and how capacity grows. That effort followed by rest builds capacity is general exercise science, stated here in the course's own words. The case and the characters are invented for this film and appear in no other course. No third-party script, footage, picture or sound.",
   "scenes": [
     {
       "type": "title",
@@ -224,8 +224,8 @@
       },
       "footAt": 3,
       "foot": {
-        "en": "Stress + rest = *growth*",
-        "id": "Stres + istirahat = *pertumbuhan*"
+        "en": "Stretch, recover, *adapt*",
+        "id": "Regangkan, pulihkan, *beradaptasi*"
       },
       "labels": {
         "effort": {
@@ -263,8 +263,8 @@
           "id": "Hilangkan istirahatnya, dan usaha yang sama hanya akan mengurasmu."
         },
         {
-          "en": "Brad Stulberg and Steve Magness put it as an equation: stress plus rest equals growth. So plan recovery as deliberately as the work.",
-          "id": "Brad Stulberg dan Steve Magness merumuskannya sebagai persamaan: stres ditambah istirahat sama dengan pertumbuhan. Maka rencanakan pemulihan sesengaja kamu merencanakan pekerjaan."
+          "en": "Stretch, recover, adapt. So plan recovery as deliberately as the work.",
+          "id": "Regangkan, pulihkan, beradaptasi. Maka rencanakan pemulihan sesengaja kamu merencanakan pekerjaan."
         }
       ]
     },

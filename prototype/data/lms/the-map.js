@@ -9966,8 +9966,8 @@ window.MT_LMS['the-map'] = {
        "id": "Mengenali tanda awal kelebihan beban dan menerapkan respons dua langkah."
       },
       {
-       "en": "Use the Growth Equation and the effort dial to plan a demanding week so that it builds capacity instead of draining it.",
-       "id": "Memakai Persamaan Pertumbuhan dan kenop usaha untuk merencanakan minggu yang berat agar justru membangun kapasitas, bukan mengurasnya."
+       "en": "Use the stretch-and-recover cycle and the effort dial to plan a demanding week so that it builds capacity instead of draining it.",
+       "id": "Memakai siklus regang-pulih dan kenop usaha untuk merencanakan minggu yang berat agar justru membangun kapasitas, bukan mengurasnya."
       }
      ],
      "takeaways": [
@@ -10031,12 +10031,12 @@ window.MT_LMS['the-map'] = {
       {
        "icon": "chart",
        "h": {
-        "en": "How capacity grows: stress + rest = growth",
-        "id": "Bagaimana kapasitas tumbuh: stres + istirahat = pertumbuhan"
+        "en": "How capacity grows: stretch, recover, adapt",
+        "id": "Bagaimana kapasitas tumbuh: regangkan, pulihkan, beradaptasi"
        },
        "body": {
-        "en": "Any capacity you want to grow, whether physical fitness, focus, writing skill or emotional steadiness, grows through the same two-step cycle: a demand that stretches it a little, then enough recovery for it to adapt. Stulberg and Magness call this the <b>Growth Equation</b>: stress + rest = growth. The biology is the same one Ratey describes: a controllable, predictable dose of stress followed by recovery triggers repair that leaves the system stronger, while stress with no end, no control and no support corrodes it instead. It explains a pattern many students live through: the semester spent in a grey zone of medium effort and medium tiredness where nothing really improves, because there is too little real stretch and too little real recovery. It also explains why performance falls when pressure never lets up: stress without recovery tips you over the top.",
-        "id": "Kapasitas apa pun yang ingin kamu tumbuhkan, entah kebugaran fisik, fokus, kemampuan menulis, atau ketenangan emosi, tumbuh lewat siklus dua langkah yang sama: tuntutan yang sedikit meregangkannya, lalu pemulihan yang cukup agar ia bisa beradaptasi. Stulberg dan Magness menyebutnya <b>Persamaan Pertumbuhan</b>: stres + istirahat = pertumbuhan. Biologinya sama dengan yang dijelaskan Ratey: dosis stres yang terkendali dan bisa diperkirakan, diikuti pemulihan, memicu perbaikan yang membuat sistemnya lebih kuat, sedangkan stres yang tidak berujung, tidak terkendali, dan tanpa dukungan justru menggerogotinya. Ini menjelaskan pola yang dialami banyak mahasiswa: satu semester dihabiskan di zona abu-abu, dengan usaha setengah-setengah dan rasa lelah setengah-setengah, tanpa ada yang benar-benar membaik, karena regangan yang sungguhan terlalu sedikit dan pemulihan yang sungguhan juga terlalu sedikit. Ini juga menjelaskan kenapa kinerja menurun ketika tekanan tak pernah reda: stres tanpa pemulihan membuatmu terlempar melewati puncaknya."
+        "en": "Any capacity you want to grow, whether physical fitness, focus, writing skill or emotional steadiness, grows through the same two-step cycle: a demand that stretches it a little, then enough recovery for it to adapt. This course calls it the <b>stretch-and-recover cycle</b>. Exercise science has described the biology for decades: a controllable, predictable dose of stress followed by recovery triggers repair that leaves the system stronger, while stress with no end, no control and no support corrodes it instead. It explains a pattern many students live through: the semester spent in a grey zone of medium effort and medium tiredness where nothing really improves, because there is too little real stretch and too little real recovery. It also explains why performance falls when pressure never lets up: stress without recovery tips you over the top.",
+        "id": "Kapasitas apa pun yang ingin kamu tumbuhkan, entah kebugaran fisik, fokus, kemampuan menulis, atau ketenangan emosi, tumbuh lewat siklus dua langkah yang sama: tuntutan yang sedikit meregangkannya, lalu pemulihan yang cukup agar ia bisa beradaptasi. Kursus ini menyebutnya <b>siklus regang-pulih</b>. Ilmu olahraga sudah puluhan tahun menjelaskan biologinya: dosis stres yang terkendali dan bisa diperkirakan, diikuti pemulihan, memicu perbaikan yang membuat sistemnya lebih kuat, sedangkan stres yang tidak berujung, tidak terkendali, dan tanpa dukungan justru menggerogotinya. Ini menjelaskan pola yang dialami banyak mahasiswa: satu semester dihabiskan di zona abu-abu, dengan usaha setengah-setengah dan rasa lelah setengah-setengah, tanpa ada yang benar-benar membaik, karena regangan yang sungguhan terlalu sedikit dan pemulihan yang sungguhan juga terlalu sedikit. Ini juga menjelaskan kenapa kinerja menurun ketika tekanan tak pernah reda: stres tanpa pemulihan membuatmu terlempar melewati puncaknya."
        },
        "bullets": [
         {
@@ -10044,8 +10044,8 @@ window.MT_LMS['the-map'] = {
          "id": "<b>Regangkan, lalu pulihkan, di tiga skala.</b> Harian: satu blok fokus yang berat, lalu rehat yang sungguhan. Mingguan: ada hari berat dan hari ringan, bukan tujuh hari yang serba abu-abu. Semester: dua minggu UAS yang intens, lalu satu minggu yang benar-benar lebih ringan."
         },
         {
-         "en": "<b>The just-manageable stretch.</b> Growth happens when a task is about one notch harder than your current skill: a little out of control, not panicked. Bored and fully in control? Raise the challenge. Too anxious to think? Lower it. Rate challenge and skill from 1 to 10 and aim for challenge ≈ skill + 1.",
-         "id": "<b>Regangan yang masih tertangani.</b> Pertumbuhan terjadi ketika sebuah tugas kira-kira satu tingkat lebih sulit dari kemampuanmu saat ini: sedikit di luar kendali, tetapi tidak panik. Bosan dan sepenuhnya terkendali? Naikkan tantangannya. Terlalu cemas untuk berpikir? Turunkan. Beri nilai tantangan dan kemampuan dari 1 sampai 10, lalu arahkan agar tantangan ≈ kemampuan + 1."
+         "en": "<b>One notch harder.</b> Growth happens when a task is about one notch harder than your current skill: a little out of control, not panicked. Bored and fully in control? Raise the challenge. Too anxious to think? Lower it. Rate challenge and skill from 1 to 10 and aim for challenge ≈ skill + 1.",
+         "id": "<b>Satu tingkat lebih sulit.</b> Pertumbuhan terjadi ketika sebuah tugas kira-kira satu tingkat lebih sulit dari kemampuanmu saat ini: sedikit di luar kendali, tetapi tidak panik. Bosan dan sepenuhnya terkendali? Naikkan tantangannya. Terlalu cemas untuk berpikir? Turunkan. Beri nilai tantangan dan kemampuan dari 1 sampai 10, lalu arahkan agar tantangan ≈ kemampuan + 1."
         },
         {
          "en": "<b>Struggle before you ask.</b> Learning sticks better when you wrestle with a problem before getting help. Give yourself a timed struggle, say 20 minutes, then ask your senior, lecturer or AI tool a <i>specific</i> question.",
@@ -10058,8 +10058,8 @@ window.MT_LMS['the-map'] = {
          "id": "<b>Kapan menerapkannya.</b> Saat kamu merencanakan minggu apa pun dengan tuntutan besar (UAS, sidang, masa percobaan, peluncuran produk), dan setiap kali kamu merasakan perasaan zona abu-abu itu."
         },
         {
-         "en": "<b>Common mistake.</b> Treating rest as a reward you earn only after everything is finished. In the Growth Equation, rest is half of the training.",
-         "id": "<b>Kesalahan yang sering terjadi.</b> Menganggap istirahat sebagai hadiah yang baru boleh diambil setelah semuanya selesai. Dalam Persamaan Pertumbuhan, istirahat adalah separuh dari latihannya."
+         "en": "<b>Common mistake.</b> Treating rest as a reward you earn only after everything is finished. In the stretch-and-recover cycle, rest is half of the training.",
+         "id": "<b>Kesalahan yang sering terjadi.</b> Menganggap istirahat sebagai hadiah yang baru boleh diambil setelah semuanya selesai. Dalam siklus regang-pulih, istirahat adalah separuh dari latihannya."
         },
         {
          "en": "<i>Evidence note: the stress–recovery–adaptation cycle is well established in exercise science. Its extension to cognitive and emotional skills is a reasonable analogy with good partial support.</i>",
@@ -10071,12 +10071,12 @@ window.MT_LMS['the-map'] = {
        "diagram": {
         "type": "flow",
         "exhibit": {
-         "en": "Exhibit 2: The Growth Equation",
-         "id": "Gambar 2: Persamaan Pertumbuhan"
+         "en": "Exhibit 2: The stretch-and-recover cycle",
+         "id": "Gambar 2: Siklus regang-pulih"
         },
         "title": {
-         "en": "Stress + rest = growth",
-         "id": "Stres + istirahat = pertumbuhan"
+         "en": "Stretch, recover, adapt",
+         "id": "Regangkan, pulihkan, beradaptasi"
         },
         "items": [
          {
@@ -10085,8 +10085,8 @@ window.MT_LMS['the-map'] = {
            "id": "Regangkan"
           },
           "sub": {
-           "en": "A just-manageable demand",
-           "id": "Tuntutan yang masih tertangani"
+           "en": "A demand one notch above your level",
+           "id": "Tuntutan satu tingkat di atas kemampuanmu"
           }
          },
          {
@@ -10125,8 +10125,8 @@ window.MT_LMS['the-map'] = {
          "id": "Melewatkan pemulihan mengubah siklus ini menjadi lereng turun pada kurva stres; melewatkan regangan membuatmu tertahan di zona abu-abu tanpa pertumbuhan."
         },
         "longdesc": {
-         "en": "A four-step cycle. A just-manageable demand is followed by deliberate recovery, during which capacity adapts. The next demand is set slightly higher. Skipping recovery turns the cycle into the downward slope of the stress curve; skipping the stretch leaves you in a grey zone with no growth.",
-         "id": "Siklus empat langkah. Tuntutan yang masih tertangani diikuti pemulihan yang disengaja, dan selama itu kapasitas beradaptasi. Tuntutan berikutnya dinaikkan sedikit. Melewatkan pemulihan mengubah siklus ini menjadi lereng turun pada kurva stres; melewatkan regangan membuatmu tertahan di zona abu-abu tanpa pertumbuhan."
+         "en": "A four-step cycle. A demand one notch above your level is followed by deliberate recovery, during which capacity adapts. The next demand is set slightly higher. Skipping recovery turns the cycle into the downward slope of the stress curve; skipping the stretch leaves you in a grey zone with no growth.",
+         "id": "Siklus empat langkah. Tuntutan satu tingkat di atas kemampuanmu diikuti pemulihan yang disengaja, dan selama itu kapasitas beradaptasi. Tuntutan berikutnya dinaikkan sedikit. Melewatkan pemulihan mengubah siklus ini menjadi lereng turun pada kurva stres; melewatkan regangan membuatmu tertahan di zona abu-abu tanpa pertumbuhan."
         }
        }
       },
@@ -10229,8 +10229,8 @@ window.MT_LMS['the-map'] = {
         "id": "Gerak yang membuatmu berpikir lebih baik (dan tetap aman di cuaca panas)"
        },
        "body": {
-        "en": "The energy ring says to move about 30 brisk minutes most days. Movement is also a <b>thinking tool</b>: a short bout of moderate movement improves mood, alertness and attention for a window afterwards, which is why Ratey's showcase school put physical activity before its hardest classes. The single-bout effect is small to moderate; the effect of regular exercise on mood is robust. Living in a hot, humid city changes how you should do it, so the heat rules below are part of the method, not an afterthought.",
-        "id": "Lingkaran energi menyarankan gerak cepat sekitar 30 menit hampir setiap hari. Gerak juga merupakan <b>alat berpikir</b>: satu sesi gerak sedang yang singkat memperbaiki suasana hati, kewaspadaan, dan perhatian untuk beberapa waktu sesudahnya. Karena itulah sekolah percontohan yang diangkat Ratey menaruh aktivitas fisik sebelum pelajaran tersulitnya. Efek dari satu sesi itu kecil sampai sedang; efek olahraga rutin terhadap suasana hati jauh lebih kuat. Tinggal di kota yang panas dan lembap mengubah cara kamu sebaiknya bergerak, jadi aturan cuaca panas di bawah ini bagian dari metodenya, bukan tambahan belakangan."
+        "en": "The energy ring says to move about 30 brisk minutes most days. Movement is also a <b>thinking tool</b>: a short bout of moderate movement improves mood, alertness and attention for a window afterwards, which is why some schools schedule physical activity before their hardest classes. The single-bout effect is small to moderate; the effect of regular exercise on mood is robust. Living in a hot, humid city changes how you should do it, so the heat rules below are part of the method, not an afterthought.",
+        "id": "Lingkaran energi menyarankan gerak cepat sekitar 30 menit hampir setiap hari. Gerak juga merupakan <b>alat berpikir</b>: satu sesi gerak sedang yang singkat memperbaiki suasana hati, kewaspadaan, dan perhatian untuk beberapa waktu sesudahnya. Karena itulah ada sekolah yang menjadwalkan aktivitas fisik sebelum pelajaran tersulitnya. Efek dari satu sesi itu kecil sampai sedang; efek olahraga rutin terhadap suasana hati jauh lebih kuat. Tinggal di kota yang panas dan lembap mengubah cara kamu sebaiknya bergerak, jadi aturan cuaca panas di bawah ini bagian dari metodenya, bukan tambahan belakangan."
        },
        "bullets": [
         {
@@ -10319,8 +10319,8 @@ window.MT_LMS['the-map'] = {
          ]
         ],
         "caption": {
-         "en": "Heat-smart rules for the tropics (Hutchinson, Endure).",
-         "id": "Aturan cerdas cuaca panas untuk daerah tropis (Hutchinson, Endure)."
+         "en": "Heat-smart rules for the tropics.",
+         "id": "Aturan cerdas cuaca panas untuk daerah tropis."
         }
        },
        "after": [
@@ -10788,8 +10788,8 @@ window.MT_LMS['the-map'] = {
          "id": "Bacaan lanjutan"
         },
         "desc": {
-         "en": "The sources behind this lesson's new sections.",
-         "id": "Sumber di balik bagian-bagian baru pelajaran ini."
+         "en": "If you want to go further.",
+         "id": "Kalau kamu ingin mendalami."
         },
         "body": [
          {
@@ -10797,8 +10797,8 @@ window.MT_LMS['the-map'] = {
           "id": "Pedoman WHO tentang aktivitas fisik dan perilaku menetap (2020): target 150–300 menit"
          },
          {
-          "en": "Stulberg & Magness, Peak Performance: the Growth Equation and sleep",
-          "id": "Stulberg & Magness, Peak Performance: Persamaan Pertumbuhan dan tidur"
+          "en": "Stulberg & Magness, Peak Performance: stress, rest and sleep",
+          "id": "Stulberg & Magness, Peak Performance: stres, istirahat, dan tidur"
          },
          {
           "en": "Hutchinson, Endure: perceived effort and heat",
@@ -10963,12 +10963,12 @@ window.MT_LMS['the-map'] = {
      "glossary": [
       {
        "term": {
-        "en": "Growth Equation",
-        "id": "Persamaan Pertumbuhan"
+        "en": "stretch-and-recover cycle",
+        "id": "siklus regang-pulih"
        },
        "def": {
-        "en": "Stress + rest = growth: capacity grows when a just-manageable demand is followed by enough recovery to adapt.",
-        "id": "Stres + istirahat = pertumbuhan: kapasitas tumbuh ketika tuntutan yang masih tertangani diikuti pemulihan yang cukup untuk beradaptasi."
+        "en": "Capacity grows when a demand one notch above your level is followed by enough recovery to adapt.",
+        "id": "Kapasitas tumbuh ketika tuntutan satu tingkat di atas kemampuanmu diikuti pemulihan yang cukup untuk beradaptasi."
        }
       },
       {
@@ -11081,8 +11081,8 @@ window.MT_LMS['the-map'] = {
         },
         "points": [
          {
-          "en": "Brad Stulberg and Steve Magness put it as an equation: stress plus rest equals growth.",
-          "id": "Brad Stulberg dan Steve Magness merumuskannya sebagai persamaan: stres ditambah istirahat sama dengan pertumbuhan."
+          "en": "Stretch a little beyond your level, recover, and the next stretch can go one notch higher.",
+          "id": "Regangkan sedikit di atas kemampuanmu, pulihkan, lalu regangan berikutnya bisa naik satu tingkat."
          }
         ]
        },
@@ -11480,8 +11480,8 @@ window.MT_LMS['the-map'] = {
          "items": [
           {
            "icon": "bolt",
-           "en": "Stress",
-           "id": "Stres",
+           "en": "Stretch",
+           "id": "Regangkan",
            "d": {
             "en": "A demand that stretches you a little",
             "id": "Tuntutan yang sedikit meregangkanmu"
@@ -11489,8 +11489,8 @@ window.MT_LMS['the-map'] = {
           },
           {
            "icon": "moon",
-           "en": "Rest",
-           "id": "Istirahat",
+           "en": "Recover",
+           "id": "Pulihkan",
            "d": {
             "en": "Enough recovery for the body and mind to adapt",
             "id": "Pemulihan yang cukup agar tubuh dan pikiran beradaptasi"
@@ -11498,8 +11498,8 @@ window.MT_LMS['the-map'] = {
           },
           {
            "icon": "chart",
-           "en": "Growth",
-           "id": "Pertumbuhan",
+           "en": "Adapt",
+           "id": "Beradaptasi",
            "d": {
             "en": "Capacity a little above where you started",
             "id": "Kapasitas sedikit di atas titik awalmu"
@@ -14618,8 +14618,8 @@ window.MT_LMS['the-map'] = {
          "id": "Bacaan lanjutan"
         },
         "desc": {
-         "en": "Sources behind the new sections.",
-         "id": "Sumber di balik bagian-bagian baru."
+         "en": "If you want to go further.",
+         "id": "Kalau kamu ingin mendalami."
         },
         "body": [
          {
@@ -17214,8 +17214,8 @@ window.MT_LMS['the-map'] = {
        "id": "Pola adaptasinya sudah lama (tugas bergeser, orang belajar ulang); yang baru adalah kecepatannya. Tenang dan sigap sekaligus."
       },
       {
-       "en": "People rarely resist change; they resist being changed without a voice. Ask before you push.",
-       "id": "Orang jarang menolak perubahan; mereka menolak diubah tanpa diberi suara. Bertanyalah sebelum mendorong."
+       "en": "A change lands better with people who had a voice in it. Ask before you push.",
+       "id": "Perubahan lebih mudah diterima oleh orang yang ikut bersuara. Bertanyalah sebelum mendorong."
       }
      ],
      "hotspots": [
@@ -17296,8 +17296,8 @@ window.MT_LMS['the-map'] = {
       },
       {
        "q": {
-        "en": "Which reaction to AI best fits a realistic optimist?",
-        "id": "Reaksi mana terhadap AI yang paling cocok dengan seorang optimis yang realistis?"
+        "en": "Which reaction to AI is “the test”, the stance this lesson aims for?",
+        "id": "Reaksi terhadap AI mana yang merupakan “uji coba”, sikap yang dituju pelajaran ini?"
        },
        "options": [
         {
@@ -17348,8 +17348,8 @@ window.MT_LMS['the-map'] = {
        ],
        "correct": 2,
        "why": {
-        "en": "Pull, don't push. Questions surface real concerns and context.",
-        "id": "Tarik, jangan dorong. Pertanyaan memunculkan kekhawatiran dan konteks yang sebenarnya."
+        "en": "Ask before you argue. Questions surface real concerns and context.",
+        "id": "Bertanya dulu sebelum berdebat. Pertanyaan memunculkan kekhawatiran dan konteks yang sebenarnya."
        }
       },
       {
@@ -17377,8 +17377,8 @@ window.MT_LMS['the-map'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "The change steps start by separating thinking from events; “back to normal” ignores the new-normal premise.",
-        "id": "Langkah-langkah menghadapi perubahan dimulai dengan memisahkan pikiran dari peristiwa; \"kembali normal\" mengabaikan premis bahwa perubahan adalah kenormalan baru."
+        "en": "The four moves start by separating the event from the story about it. Waiting for “back to normal” is the shrug in another form.",
+        "id": "Empat langkah itu dimulai dengan memisahkan peristiwa dari cerita tentangnya. Menunggu semuanya “kembali normal” adalah angkat bahu dalam bentuk lain."
        }
       }
      ],
@@ -17464,12 +17464,12 @@ window.MT_LMS['the-map'] = {
          {
           "id": "change",
           "label": {
-           "en": "One real change I face: facts | interpretations · my reaction type · “from ___ to ___” · one action within my control",
-           "id": "Satu perubahan nyata yang kuhadapi: fakta | tafsiran · jenis reaksiku · \"dari ___ menjadi ___\" · satu tindakan dalam kendaliku"
+           "en": "One real change I face: facts | interpretations · the story I was telling myself · “from ___ to ___” · one action within my control",
+           "id": "Satu perubahan nyata yang kuhadapi: fakta | tafsiran · cerita yang selama ini kuceritakan · “dari ___ ke ___” · satu tindakan dalam kendaliku"
           },
           "hint": {
-           "en": "e.g. new AI tool from March | “they're replacing us” · realistic pessimist · from waiting to testing · test it on last month's report",
-           "id": "mis. alat AI baru mulai Maret | \"kita bakal digantikan\" · pesimis yang realistis · dari menunggu menjadi menguji · uji pada laporan bulan lalu"
+           "en": "e.g. new AI tool from March | “they're replacing us” · the alarm · from waiting to testing · test it on last month's report",
+           "id": "mis. alat AI baru mulai Maret | “kita akan digantikan” · alarm · dari menunggu ke menguji · uji pada laporan bulan lalu"
           },
           "rows": 4
          }
@@ -17490,98 +17490,78 @@ window.MT_LMS['the-map'] = {
        {
         "kind": "worksheet",
         "title": {
-         "en": "Dodo or coyote? (reflection aid)",
-         "id": "Dodo atau koyote? (alat bantu renungan)"
+         "en": "Readiness check (reflection aid)",
+         "id": "Cek kesiapan (alat bantu refleksi)"
         },
         "desc": {
-         "en": "Rate yourself 1–5 on each; not a validated test.",
-         "id": "Beri nilai 1–5 untuk dirimu sendiri di setiap pernyataan; ini bukan tes yang tervalidasi."
+         "en": "Rate each 1–5. Two statements per anchor; not a validated test.",
+         "id": "Beri nilai 1–5. Dua pernyataan per jangkar; bukan tes yang tervalidasi."
         },
         "body": [
          {
-          "en": "I notice changes in my field before they affect me",
-          "id": "Aku menyadari perubahan di bidangku sebelum perubahan itu berdampak padaku"
+          "en": "Fundamentals: I can name the fundamental beneath each tool I use",
+          "id": "Dasar-dasar: aku bisa menyebut dasar di bawah setiap alat yang kupakai"
          },
          {
-          "en": "I try new tools on real work within a month of hearing about them",
-          "id": "Aku mencoba alat baru pada pekerjaan nyata dalam sebulan sejak mendengarnya"
+          "en": "Fundamentals: most of my learning time goes to things that will still matter in five years",
+          "id": "Dasar-dasar: sebagian besar waktu belajarku tercurah pada hal yang masih penting lima tahun lagi"
          },
          {
-          "en": "I ask people outside my circle what they're seeing",
-          "id": "Aku bertanya kepada orang di luar lingkaranku tentang apa yang mereka lihat"
+          "en": "Learning loop: I have one learning hour a week that survives a busy week",
+          "id": "Lingkaran belajar: aku punya satu jam belajar seminggu yang tetap bertahan di minggu sibuk"
          },
          {
-          "en": "I can name what I'd do if my current plan failed",
-          "id": "Aku bisa menyebutkan apa yang akan kulakukan kalau rencanaku saat ini gagal"
+          "en": "Learning loop: I keep a log of what I learn and build",
+          "id": "Lingkaran belajar: aku mencatat apa yang kupelajari dan kubangun"
          },
          {
-          "en": "I separate facts from interpretations before reacting",
-          "id": "Aku memisahkan fakta dari tafsiran sebelum bereaksi"
+          "en": "Public evidence: a stranger in my field could see proof of my main skill in five minutes",
+          "id": "Bukti publik: orang asing di bidangku bisa melihat bukti keterampilan utamaku dalam lima menit"
          },
          {
-          "en": "I keep a log of what I learn and build",
-          "id": "Aku menyimpan catatan tentang apa yang kupelajari dan kubangun"
+          "en": "Public evidence: I finished one visible piece of work in the last three months",
+          "id": "Bukti publik: aku menyelesaikan satu karya yang bisa dilihat orang dalam tiga bulan terakhir"
          },
          {
-          "en": "I collaborate with people whose skills differ from mine",
-          "id": "Aku berkolaborasi dengan orang yang keterampilannya berbeda dariku"
+          "en": "Sensing network: I know three practitioners I could ask what is changing in their team",
+          "id": "Jaringan pemantau: aku kenal tiga praktisi yang bisa kutanya apa yang berubah di tim mereka"
          },
          {
-          "en": "I spend time each week thinking ahead",
-          "id": "Aku meluangkan waktu setiap minggu untuk memikirkan masa depan"
+          "en": "Sensing network: I asked one of them something in the last month",
+          "id": "Jaringan pemantau: aku bertanya kepada salah satu dari mereka dalam sebulan terakhir"
          },
          {
-          "en": "I see problems in a change and still look for a way through",
-          "id": "Aku melihat masalah dalam sebuah perubahan dan tetap mencari jalan keluarnya"
-         },
-         {
-          "en": "I take one small step rather than waiting for certainty",
-          "id": "Aku mengambil satu langkah kecil alih-alih menunggu kepastian"
-         },
-         {
-          "en": "Mostly 4–5: coyote habits. Mostly 1–2: dodo risk. Pick one statement to move by one point this month.",
-          "id": "Sebagian besar 4–5: kebiasaan koyote. Sebagian besar 1–2: risiko dodo. Pilih satu pernyataan untuk dinaikkan satu poin bulan ini."
+          "en": "Add each pair. The lowest pair is where this month's learning hour goes.",
+          "id": "Jumlahkan tiap pasangan. Pasangan terendah adalah tempat jam belajarmu bulan ini."
          }
         ]
        },
        {
         "kind": "worksheet",
         "title": {
-         "en": "Seven questions about a change",
-         "id": "Tujuh pertanyaan tentang sebuah perubahan"
+         "en": "Four honest questions about a change",
+         "id": "Empat pertanyaan jujur tentang sebuah perubahan"
         },
         "desc": {
-         "en": "Answer honestly, for yourself.",
-         "id": "Jawab dengan jujur, untuk dirimu sendiri."
+         "en": "Answer in writing, for yourself.",
+         "id": "Jawab secara tertulis, untuk dirimu sendiri."
         },
         "body": [
          {
-          "en": "How does it affect me?",
-          "id": "Bagaimana perubahan ini memengaruhiku?"
+          "en": "What exactly is changing, and what stays the same?",
+          "id": "Apa persisnya yang berubah, dan apa yang tetap?"
          },
          {
-          "en": "Does it move us toward something I want?",
-          "id": "Apakah perubahan ini membawa kami ke arah yang kuinginkan?"
+          "en": "What could I lose, and what could I gain?",
+          "id": "Apa yang bisa hilang dariku, dan apa yang bisa kudapat?"
          },
          {
-          "en": "Is the cost of changing lower than the cost of staying the same?",
-          "id": "Apakah biaya untuk berubah lebih rendah daripada biaya untuk tetap sama?"
+          "en": "Which part of this can I influence?",
+          "id": "Bagian mana yang bisa kupengaruhi?"
          },
          {
-          "en": "What do I know about it, and do I trust the messenger?",
-          "id": "Apa yang kuketahui tentangnya, dan apakah aku percaya pada pembawa pesannya?"
-         },
-         {
-          "en": "How much influence do I have?",
-          "id": "Seberapa besar pengaruhku?"
-         },
-         {
-          "en": "Has it produced real results?",
-          "id": "Apakah perubahan ini sudah menghasilkan sesuatu yang nyata?"
-         },
-         {
-          "en": "Does it add to or drain my ability to cope?",
-          "id": "Apakah perubahan ini menambah atau menguras kemampuanku untuk bertahan?"
+          "en": "What is the smallest test I can run this month?",
+          "id": "Uji coba terkecil apa yang bisa kulakukan bulan ini?"
          }
         ]
        },
@@ -17621,21 +17601,17 @@ window.MT_LMS['the-map'] = {
          "id": "Bacaan lanjutan"
         },
         "desc": {
-         "en": "Sources behind the new sections.",
-         "id": "Sumber di balik bagian-bagian baru."
+         "en": "If you want to go further.",
+         "id": "Kalau kamu ingin mendalami."
         },
         "body": [
          {
-          "en": "Pennington, Make Change Work: the seven questions, four reactions, imposed change",
-          "id": "Pennington, Make Change Work: tujuh pertanyaan, empat reaksi, perubahan yang dipaksakan"
+          "en": "Lally et al. (2010), European Journal of Social Psychology: how long habits take to form",
+          "id": "Lally dkk. (2010), European Journal of Social Psychology: berapa lama sebuah kebiasaan terbentuk"
          },
          {
-          "en": "Bridges, Managing Transitions (summary)",
-          "id": "Bridges, Managing Transitions (ringkasan)"
-         },
-         {
-          "en": "Lally et al. (2010) on habit formation",
-          "id": "Lally dkk. (2010) tentang pembentukan kebiasaan"
+          "en": "World Economic Forum, Future of Jobs reports: which tasks and skills are shifting",
+          "id": "World Economic Forum, laporan Future of Jobs: tugas dan keterampilan mana yang sedang bergeser"
          }
         ]
        }
@@ -17678,12 +17654,12 @@ window.MT_LMS['the-map'] = {
         "id": "Emailnya masuk hari Selasa. Menjelang makan siang, sudah beredar tiga versi cerita: alat itu akan menggantikan para trainee, itu hanya uji coba, dan beban kerja semua orang akan berlipat dua."
        },
        {
-        "en": "Raka notices his own reflex. He has already half-drafted an anxious message to his mother. He uses the pause cue on his lock screen, writes facts and interpretations in two columns, and answers Pennington's seven questions for himself. Two answers surprise him: the cost of <i>not</i> learning the tool is higher than the cost of learning it, and he has more influence than he thought, because nobody on the team has tried it yet.",
-        "id": "Raka menyadari refleksnya sendiri. Ia sudah setengah menulis pesan cemas untuk ibunya. Ia memakai isyarat jeda di layar kunci ponselnya, menulis fakta dan tafsiran dalam dua kolom, lalu menjawab tujuh pertanyaan Pennington untuk dirinya sendiri. Dua jawaban mengejutkannya: biaya <i>tidak</i> mempelajari alat itu lebih tinggi daripada biaya mempelajarinya, dan pengaruhnya lebih besar dari yang ia kira, karena belum ada seorang pun di tim yang mencobanya."
+        "en": "Raka notices his own reflex. He has already half-drafted an anxious message to his mother. He uses the pause cue on his lock screen, writes facts and interpretations in two columns, and answers the four honest questions for himself. Two answers surprise him: he would lose more by avoiding the tool than by learning it, and he has more influence than he thought, because nobody on the team has tried it yet.",
+        "id": "Raka menyadari refleksnya sendiri. Ia sudah setengah menulis pesan cemas untuk ibunya. Ia memakai pengingat jeda di layar kuncinya, menulis fakta dan tafsiran dalam dua kolom, dan menjawab empat pertanyaan jujur itu untuk dirinya sendiri. Dua jawaban mengejutkannya: ia akan kehilangan lebih banyak kalau menghindari alat itu daripada kalau mempelajarinya, dan pengaruhnya lebih besar dari yang ia kira, karena belum ada seorang pun di tim yang mencobanya."
        },
        {
-        "en": "He volunteers to test the tool on last month's reports, using the verification checklist from Lesson 5.6, and to share what he finds. Three weeks later Bu Wulan asks him to show the team. He has moved from awareness to participation.",
-        "id": "Ia menawarkan diri menguji alat itu pada laporan bulan lalu, memakai daftar periksa verifikasi dari Pelajaran 5.6, lalu membagikan temuannya. Tiga minggu kemudian, Bu Wulan memintanya memperagakannya di depan tim. Ia sudah naik dari tahap sadar ke tahap berpartisipasi."
+        "en": "He volunteers to test the tool on last month's reports, using the verification checklist from Lesson 5.6, and to share what he finds. Three weeks later Bu Wulan asks him to show the team. He has moved from the first seat to the third.",
+        "id": "Ia menawarkan diri untuk menguji alat itu pada laporan bulan lalu, memakai daftar periksa verifikasi dari Pelajaran 5.6, dan membagikan temuannya. Tiga minggu kemudian Bu Wulan memintanya menunjukkannya kepada tim. Ia sudah pindah dari kursi pertama ke kursi ketiga."
        }
       ]
      },
@@ -17691,21 +17667,21 @@ window.MT_LMS['the-map'] = {
       {
        "icon": "compass",
        "h": {
-        "en": "The relevance questions",
-        "id": "Pertanyaan-pertanyaan relevansi"
+        "en": "What makes your work worth choosing",
+        "id": "Apa yang membuat pekerjaanmu layak dipilih"
        },
        "body": {
-        "en": "Pennington argues that the biggest professional threat is not change itself but <b>irrelevance</b>. Employers and customers keep asking three questions, at least implicitly: <i>Why you? Why now? What value do you add compared with what you cost?</i> He also suggests treating rapid change as the new normal rather than a storm to wait out. A practical lens: <b>faster, better, cheaper, friendlier</b>. People judge your work against the best experience they've had anywhere, not the average. For any task you do, ask which of the four your next improvement delivers.",
-        "id": "Pennington berpendapat bahwa ancaman profesional terbesar bukan perubahan itu sendiri, melainkan <b>menjadi tidak relevan</b>. Pemberi kerja dan pelanggan terus mengajukan tiga pertanyaan, setidaknya secara tersirat: <i>Kenapa kamu? Kenapa sekarang? Nilai apa yang kamu tambahkan dibandingkan biayamu?</i> Ia juga menyarankan agar perubahan yang cepat diperlakukan sebagai kenormalan baru, bukan badai yang ditunggu reda. Satu kacamata praktis: <b>lebih cepat, lebih baik, lebih murah, lebih ramah</b>. Orang menilai pekerjaanmu dengan membandingkannya dengan pengalaman terbaik yang pernah mereka dapat di mana pun, bukan rata-ratanya. Untuk setiap tugas yang kamu kerjakan, tanyakan mana dari keempatnya yang dihasilkan perbaikanmu berikutnya."
+        "en": "A new tool does not make a person unnecessary overnight. What it changes is which parts of a job are still worth giving to a person. So the useful question is not “will my job exist?” but <b>“which problem do I solve, and for whom, that still needs solving?”</b> Three checks keep the answer honest. <b>Who uses it?</b> Name the person who receives your work. <b>What do they do with it?</b> A report nobody acts on is not value yet. <b>What would they miss?</b> If your part disappeared tomorrow, what would become slower, riskier or worse? Write the answer as one <b>value sentence</b>: “I turn ___ into ___ so that ___ can ___.”",
+        "id": "Alat baru tidak membuat seseorang tak dibutuhkan dalam semalam. Yang berubah adalah bagian mana dari sebuah pekerjaan yang masih layak diserahkan kepada manusia. Jadi pertanyaan yang berguna bukan “apakah pekerjaanku masih ada?”, melainkan <b>“masalah apa yang kuselesaikan, untuk siapa, yang masih perlu diselesaikan?”</b> Tiga pemeriksaan menjaga jawabanmu tetap jujur. <b>Siapa yang memakainya?</b> Sebut orang yang menerima hasil kerjamu. <b>Dipakai untuk apa?</b> Laporan yang tidak ditindaklanjuti siapa pun belum menjadi nilai. <b>Apa yang akan hilang?</b> Kalau bagianmu lenyap besok, apa yang jadi lebih lambat, lebih berisiko, atau lebih buruk? Tulis jawabannya sebagai satu <b>kalimat nilai</b>: “Saya mengubah ___ menjadi ___ supaya ___ bisa ___.”"
        },
        "bullets": [
         {
-         "en": "<b>Why it matters for fresh graduates.</b> The four anchors on the system map (fundamentals, learning loop, public evidence, sensing network) are how you answer the relevance questions with evidence rather than adjectives. A recruiter's “why should we hire you?” (The Rope, Module 4) is a relevance question.",
-         "id": "<b>Kenapa ini penting bagi lulusan baru.</b> Empat jangkar di peta sistem (dasar-dasar, lingkaran belajar, bukti publik, jaringan pemantau) adalah cara menjawab pertanyaan relevansi dengan bukti, bukan dengan kata sifat. Pertanyaan perekrut \"kenapa kami harus merekrutmu?\" (The Rope, Modul 4) adalah pertanyaan relevansi."
+         "en": "<b>Why it matters for fresh graduates.</b> The four anchors on the system map (fundamentals, learning loop, public evidence, sensing network) are how you back the value sentence with evidence rather than adjectives. A recruiter's “why should we hire you?” (The Rope, Module 4) is asking for exactly this sentence.",
+         "id": "<b>Kenapa ini penting bagi lulusan baru.</b> Empat jangkar di peta sistem (dasar-dasar, lingkaran belajar, bukti publik, jaringan pemantau) adalah caramu menopang kalimat nilai itu dengan bukti, bukan dengan kata sifat. Pertanyaan perekrut “kenapa kami harus menerimamu?” (The Rope, Modul 4) sebenarnya meminta kalimat ini."
         },
         {
-         "en": "<b>Common mistake.</b> Answering relevance with tools (“I know Canva, ChatGPT and Excel”). Tools are the how. Relevance is the value: “I turn messy operations data into a weekly dashboard managers actually use.”",
-         "id": "<b>Kesalahan yang sering terjadi.</b> Menjawab soal relevansi dengan daftar alat (\"Aku bisa Canva, ChatGPT, dan Excel\"). Alat adalah caranya. Relevansi adalah nilainya: \"Aku mengubah data operasional yang berantakan menjadi dasbor mingguan yang benar-benar dipakai para atasan.\""
+         "en": "<b>Common mistake.</b> Answering with tools (“I know Canva, ChatGPT and Excel”). Tools are the how. The value sentence is the what for: “I turn messy operations data into a weekly dashboard managers actually use.”",
+         "id": "<b>Kesalahan yang sering terjadi.</b> Menjawab dengan nama alat (“Saya bisa Canva, ChatGPT, dan Excel”). Alat hanyalah caranya. Kalimat nilai menjawab untuk apa: “Saya mengubah data operasional yang berantakan menjadi dasbor mingguan yang benar-benar dipakai para manajer.”"
         }
        ]
       },
@@ -17868,8 +17844,8 @@ window.MT_LMS['the-map'] = {
         "id": "Membuat lingkaran belajar bertahan: 90 hari, satu catatan"
        },
        "body": {
-        "en": "The hotspot defines the loop: one source, one project, one log, one defended hour a week. Three refinements make it last. <b>Expect weeks, not days, for a habit.</b> The popular “21 days” figure is a myth. In a UCL study, new daily habits took a median of about two months to become automatic, with wide variation. Plan in 90-day sprints. <b>Think about the future on purpose.</b> Pennington suggests even frontline staff spend 15–30 minutes a week thinking ahead. Put a 30-minute weekly future scan in your calendar: two credible sources (one Indonesian, one global), one trend, one task in your field that is changing, one opportunity. <b>Make the log your evidence bank.</b> Each weekly entry (“learned X, built Y, result Z”) becomes raw material for your CV (The Pack), interview stories (The Rope) and the public-evidence hotspot.",
-        "id": "Jangkar tadi mendefinisikan lingkarannya: satu sumber, satu proyek, satu catatan, satu jam seminggu yang dilindungi. Tiga penyempurnaan membuatnya bertahan. <b>Bersiaplah butuh berminggu-minggu, bukan berhari-hari, untuk sebuah kebiasaan.</b> Angka populer \"21 hari\" adalah mitos. Dalam sebuah penelitian dari UCL, kebiasaan harian yang baru butuh waktu median sekitar dua bulan sampai menjadi otomatis, dengan variasi yang lebar. Rencanakan dalam sprint 90 hari. <b>Pikirkan masa depan dengan sengaja.</b> Pennington menyarankan agar staf lini depan sekalipun meluangkan 15–30 menit seminggu untuk memikirkan masa depan. Masukkan pemindaian masa depan mingguan selama 30 menit ke kalendermu: dua sumber yang kredibel (satu dari Indonesia, satu dari luar negeri), satu tren, satu tugas di bidangmu yang sedang berubah, satu peluang. <b>Jadikan catatanmu bank bukti.</b> Setiap catatan mingguan (\"belajar X, membangun Y, hasilnya Z\") menjadi bahan mentah untuk CV-mu (The Pack), cerita wawancara (The Rope), dan jangkar bukti publik."
+        "en": "The hotspot defines the loop: one source, one project, one log, one defended hour a week. Three refinements make it last. <b>Expect weeks, not days, for a habit.</b> The popular “21 days” figure is a myth. In a UCL study, new daily habits took a median of about two months to become automatic, with wide variation. Plan in 90-day sprints. <b>Look ahead on purpose.</b> Nobody finds spare time to think about where their field is going; the time has to be booked. Put a 30-minute weekly future scan in your calendar: two credible sources (one Indonesian, one global), one trend, one task in your field that is changing, one opportunity. <b>Make the log your evidence bank.</b> Each weekly entry (“learned X, built Y, result Z”) becomes raw material for your CV (The Pack), interview stories (The Rope) and the public-evidence hotspot.",
+        "id": "Jangkar tadi mendefinisikan lingkarannya: satu sumber, satu proyek, satu catatan, satu jam seminggu yang dilindungi. Tiga penyempurnaan membuatnya bertahan. <b>Bersiaplah butuh berminggu-minggu, bukan berhari-hari, untuk sebuah kebiasaan.</b> Angka populer \"21 hari\" adalah mitos. Dalam sebuah penelitian dari UCL, kebiasaan harian yang baru butuh waktu median sekitar dua bulan sampai menjadi otomatis, dengan variasi yang lebar. Rencanakan dalam sprint 90 hari. <b>Lihat ke depan dengan sengaja.</b> Tidak ada orang yang kebetulan punya waktu luang untuk memikirkan arah bidangnya; waktunya harus dijadwalkan. Masukkan pemindaian masa depan mingguan selama 30 menit ke kalendermu: dua sumber yang kredibel (satu dari Indonesia, satu dari luar negeri), satu tren, satu tugas di bidangmu yang sedang berubah, satu peluang. <b>Jadikan catatanmu bank bukti.</b> Setiap catatan mingguan (\"belajar X, membangun Y, hasilnya Z\") menjadi bahan mentah untuk CV-mu (The Pack), cerita wawancara (The Rope), dan jangkar bukti publik."
        },
        "bullets": [
         {
@@ -17891,23 +17867,23 @@ window.MT_LMS['the-map'] = {
         "id": "Bagaimana orang bereaksi terhadap perubahan, dimulai dari dirimu"
        },
        "body": {
-        "en": "<b>Seven questions everyone asks about a change.</b> When your campus changes its curriculum, your internship introduces a new AI tool, or your team is reorganised, people ask, consciously or not: (1) How does it affect me? (2) Does it move us toward something I want? (3) Is the cost of changing lower than the cost of staying the same? (4) What do I know about it, and do I trust the messenger? (5) How much influence do I have? (6) Has it produced real results? (7) Does it add to or drain my ability to cope? Answering them honestly for yourself turns vague anxiety into specific questions you can act on.",
-        "id": "<b>Tujuh pertanyaan yang diajukan semua orang tentang sebuah perubahan.</b> Ketika kampusmu mengganti kurikulum, tempat magangmu memperkenalkan alat AI baru, atau timmu direorganisasi, orang bertanya, sadar atau tidak: (1) Bagaimana perubahan ini memengaruhiku? (2) Apakah perubahan ini membawa kita ke arah yang kuinginkan? (3) Apakah biaya untuk berubah lebih rendah daripada biaya untuk tetap sama? (4) Apa yang kuketahui tentangnya, dan apakah aku percaya pada pembawa pesannya? (5) Seberapa besar pengaruhku? (6) Apakah perubahan ini sudah menghasilkan sesuatu yang nyata? (7) Apakah perubahan ini menambah atau menguras kemampuanku untuk bertahan? Menjawabnya dengan jujur untuk dirimu sendiri mengubah kecemasan yang samar menjadi pertanyaan-pertanyaan spesifik yang bisa kamu tindak lanjuti."
+        "en": "<b>Four honest questions.</b> When your campus changes its curriculum, your internship introduces a new AI tool, or your team is reorganised, the first feeling is usually a vague unease. Four questions turn it into something you can work with: (1) <b>What exactly is changing, and what stays the same?</b> (2) <b>What could I lose, and what could I gain?</b> (3) <b>Which part of this can I influence?</b> (4) <b>What is the smallest test I can run this month?</b> Write the answers down. Unease on paper is usually smaller than unease in your head, and always more specific.",
+        "id": "<b>Empat pertanyaan jujur.</b> Ketika kampusmu mengganti kurikulum, tempat magangmu memperkenalkan alat AI baru, atau timmu dirombak, yang pertama muncul biasanya rasa tidak enak yang samar. Empat pertanyaan mengubahnya menjadi sesuatu yang bisa dikerjakan: (1) <b>Apa persisnya yang berubah, dan apa yang tetap?</b> (2) <b>Apa yang bisa hilang dariku, dan apa yang bisa kudapat?</b> (3) <b>Bagian mana yang bisa kupengaruhi?</b> (4) <b>Uji coba terkecil apa yang bisa kulakukan bulan ini?</b> Tuliskan jawabannya. Rasa tidak enak yang sudah ditulis biasanya lebih kecil daripada yang masih di kepala, dan selalu lebih spesifik."
        },
        "bullets": [
         {
-         "en": "<b>Four reactions.</b> Unrealistic pessimist: “AI will take every job; nothing I can do.” Realistic pessimist: names real risks, with reasons. Useful. Unrealistic optimist: “AI will do everything; I don't need to learn.” <b>Realistic optimist (the target):</b> sees the problems clearly and looks for the way through. Watch for three truth-blockers: denial, distortion and delusion.",
-         "id": "<b>Empat reaksi.</b> Pesimis yang tidak realistis: \"AI akan mengambil semua pekerjaan; tidak ada yang bisa kulakukan.\" Pesimis yang realistis: menyebut risiko nyata, lengkap dengan alasannya. Berguna. Optimis yang tidak realistis: \"AI akan mengerjakan semuanya; aku tidak perlu belajar.\" <b>Optimis yang realistis (sasarannya):</b> melihat masalahnya dengan jernih dan mencari jalan keluarnya. Waspadai tiga penghalang kebenaran: penyangkalan, pemelintiran, dan khayalan."
+         "en": "<b>Four stories people tell themselves.</b> <b>The alarm:</b> “AI will take every job; there is nothing I can do.” <b>The shrug:</b> “It's hype; it won't touch my field.” <b>The free ride:</b> “AI will do everything, so I don't need to learn.” <b>The test (the one to aim for):</b> “Some of my tasks will change. I'll find out which, and get good at what remains.” The first three are comfortable because they ask nothing of you. Only the fourth produces evidence.",
+         "id": "<b>Empat cerita yang biasa kita ceritakan kepada diri sendiri.</b> <b>Alarm:</b> “AI akan mengambil semua pekerjaan; aku tidak bisa berbuat apa-apa.” <b>Angkat bahu:</b> “Itu cuma heboh sesaat; bidangku tidak akan tersentuh.” <b>Menumpang gratis:</b> “AI akan mengerjakan semuanya, jadi aku tidak perlu belajar.” <b>Uji coba (yang dituju):</b> “Sebagian tugasku akan berubah. Aku akan cari tahu yang mana, lalu memperkuat yang tersisa.” Tiga yang pertama terasa nyaman karena tidak menuntut apa pun darimu. Hanya yang keempat yang menghasilkan bukti."
         },
         {
-         "en": "<b>Dodo or coyote?</b> Pennington contrasts the dodo, which grew complacent in a safe environment and never saw change coming, with the coyote, an alert, opportunistic problem-solver that collaborates even outside its own kind. The resource kit includes a short individual self-rating. As he says himself, it is a reflection aid, not a validated test.",
-         "id": "<b>Dodo atau koyote?</b> Pennington membandingkan dodo, yang terlena di lingkungan yang aman dan tidak pernah melihat perubahan datang, dengan koyote, pemecah masalah yang waspada dan pandai melihat peluang, yang bahkan bekerja sama dengan yang bukan sejenisnya. Perlengkapan memuat penilaian diri singkat. Seperti yang ia katakan sendiri, itu alat bantu renungan, bukan tes yang tervalidasi."
+         "en": "<b>A readiness check built on the four anchors.</b> The resource kit has eight statements, two for each anchor on the system map. Rate each from 1 to 5 and add each pair. The pair with the lowest total is where this month's learning hour goes. It is a reflection aid, not a validated test.",
+         "id": "<b>Cek kesiapan yang dibangun dari empat jangkar.</b> Kit sumber daya berisi delapan pernyataan, dua untuk setiap jangkar di peta sistem. Beri nilai 1 sampai 5 untuk masing-masing, lalu jumlahkan tiap pasangan. Pasangan dengan jumlah terendah adalah tempat jam belajarmu bulan ini. Ini alat bantu refleksi, bukan tes yang tervalidasi."
         }
        ],
        "after": [
         {
-         "en": "<i>Evidence note: Pennington's frameworks match mainstream change literature (Bridges, Lewin, Kotter) as a practitioner synthesis. The widely repeated “70% of change efforts fail” figure lacks a solid empirical basis and is not taught here.</i>",
-         "id": "<i>Catatan bukti: kerangka-kerangka Pennington sejalan dengan literatur perubahan arus utama (Bridges, Lewin, Kotter) sebagai sintesis seorang praktisi. Angka \"70% upaya perubahan gagal\" yang sering diulang tidak punya dasar empiris yang kuat dan tidak diajarkan di sini.</i>"
+         "en": "<i>Evidence note: the widely repeated claim that “70% of change efforts fail” has no solid empirical basis and is not taught here.</i>",
+         "id": "<i>Catatan bukti: klaim yang sering diulang bahwa “70% upaya perubahan gagal” tidak punya dasar empiris yang kuat dan tidak diajarkan di sini.</i>"
         }
        ]
       },
@@ -17918,8 +17894,8 @@ window.MT_LMS['the-map'] = {
         "id": "Ketika perubahan bukan pilihanmu"
        },
        "body": {
-        "en": "Some changes arrive without asking you: a restructuring, a new manager, a cancelled programme, a hiring freeze, an AI tool that changes half your tasks. Pennington's steps, adapted: (1) <b>Slow down.</b> Don't react on reflex. Pennington calls reflexive reaction “spineating” and suggests a physical cue to pause. Make yours a lock-screen phrase: “Jeda. Pikir. Pilih.” (2) <b>Separate fact from interpretation.</b> “The team will use the new tool from March” is a fact. “They're replacing us” is an interpretation. (3) <b>Take stock.</b> What has changed, and what hasn't? Your fundamentals, your relationships and your track record usually haven't. (4) <b>Explore one different future.</b> What could go well? (5) <b>Take one small step this week.</b> (6) <b>Celebrate the step.</b> Then complete the stress cycle (5.2), because imposed change is a chronic stressor.",
-        "id": "Sebagian perubahan datang tanpa bertanya kepadamu: restrukturisasi, atasan baru, program yang dibatalkan, penahanan rekrutmen, alat AI yang mengubah separuh tugasmu. Langkah-langkah Pennington, disesuaikan: (1) <b>Pelankan dirimu.</b> Jangan bereaksi secara refleks. Pennington menyebut reaksi refleks itu \"spineating\" dan menyarankan satu isyarat fisik untuk berhenti sejenak. Jadikan milikmu sebuah frasa di layar kunci: \"Jeda. Pikir. Pilih.\" (2) <b>Pisahkan fakta dari tafsiran.</b> \"Tim akan memakai alat baru mulai Maret\" adalah fakta. \"Kita bakal digantikan\" adalah tafsiran. (3) <b>Periksa keadaannya.</b> Apa yang berubah, dan apa yang tidak? Dasar-dasarmu, relasimu, dan rekam jejakmu biasanya tidak berubah. (4) <b>Jelajahi satu masa depan yang berbeda.</b> Apa yang bisa berjalan baik? (5) <b>Ambil satu langkah kecil minggu ini.</b> (6) <b>Rayakan langkah itu.</b> Lalu tuntaskan siklus stresnya (5.2), karena perubahan yang dipaksakan adalah pemicu stres yang menahun."
+        "en": "Some changes arrive without asking you: a restructuring, a new manager, a cancelled programme, a hiring freeze, an AI tool that changes half your tasks. Four moves, in order. (1) <b>Pause.</b> The first reaction is fast, and usually wrong about the size of the threat. Put a cue where you will see it; a lock-screen phrase works: “Jeda. Pikir. Pilih.” (2) <b>Sort.</b> Two columns. “The team will use the new tool from March” is a fact. “They're replacing us” is an interpretation. (3) <b>Count what has not changed.</b> Your fundamentals, your relationships and your track record are usually all still there. (4) <b>Choose one action inside your control this week,</b> however small: one question for your supervisor, one test of the tool on old work. Then look after the stress itself with the tools from 5.2, because a change you did not choose keeps pressing for weeks, not days.",
+        "id": "Ada perubahan yang datang tanpa meminta izinmu: restrukturisasi, atasan baru, program yang dibatalkan, pembekuan rekrutmen, alat AI yang mengubah separuh tugasmu. Empat langkah, berurutan. (1) <b>Jeda.</b> Reaksi pertama itu cepat, dan biasanya keliru menakar besarnya ancaman. Pasang pengingat di tempat yang pasti terlihat; kalimat di layar kunci cukup: “Jeda. Pikir. Pilih.” (2) <b>Pilah.</b> Dua kolom. “Tim akan memakai alat baru mulai Maret” adalah fakta. “Kita akan digantikan” adalah tafsiran. (3) <b>Hitung yang tidak berubah.</b> Dasar-dasarmu, relasimu, dan rekam jejakmu biasanya masih utuh. (4) <b>Pilih satu tindakan dalam kendalimu minggu ini,</b> sekecil apa pun: satu pertanyaan untuk atasanmu, satu uji coba alat itu pada pekerjaan lama. Setelah itu urus stresnya sendiri dengan alat dari 5.2, karena perubahan yang tidak kamu pilih terus menekan selama berminggu-minggu, bukan berhari-hari."
        },
        "bullets": [
         {
@@ -17939,8 +17915,8 @@ window.MT_LMS['the-map'] = {
         "id": "Berguna selama organisasimu berubah, sebagai junior"
        },
        "body": {
-        "en": "<b>Pull, don't push.</b> People rarely resist change itself; they resist being changed. When a senior says “the last system failed too”, ask before you argue: “Waktu itu kendalanya di mana, Mbak?” Questions bring real concerns to the surface. Repeating the benefits louder rarely does. <b>The involvement ladder:</b> awareness → input → participation → collaboration → empowerment. Interns usually start at awareness or input. You earn participation by bringing small, well-checked improvements, for example a 20-minute time saving you've tested on your own work, with the verification steps from 5.6.",
-        "id": "<b>Tarik, jangan dorong.</b> Orang jarang menolak perubahan itu sendiri; mereka menolak diubah. Ketika seorang senior berkata \"sistem yang dulu juga gagal\", bertanyalah sebelum berdebat: \"Waktu itu kendalanya di mana, Mbak?\" Pertanyaan memunculkan kekhawatiran yang sebenarnya. Mengulang manfaatnya lebih keras jarang berhasil. <b>Tangga keterlibatan:</b> sadar → memberi masukan → berpartisipasi → berkolaborasi → berdaya. Anak magang biasanya mulai dari tahap sadar atau memberi masukan. Kamu mendapat kesempatan berpartisipasi dengan membawa perbaikan-perbaikan kecil yang sudah diperiksa dengan baik, misalnya penghematan waktu 20 menit yang sudah kamu uji pada pekerjaanmu sendiri, lengkap dengan langkah verifikasi dari 5.6."
+        "en": "<b>Ask before you argue.</b> A change lands better with people who had a say in it than with people who were only told. When a senior says “the last system failed too”, ask: “Waktu itu kendalanya di mana, Mbak?” Questions bring real concerns to the surface. Repeating the benefits louder rarely does. <b>Three seats in a change.</b> In any change you sit in one of three seats: <i>told</i> (you hear about it), <i>asked</i> (your view is wanted), or <i>trusted with a piece</i> (you run part of it). Interns usually start in the first seat. You move up by bringing small, well-checked improvements, for example a 20-minute time saving you've tested on your own work, with the verification steps from 5.6.",
+        "id": "<b>Bertanya dulu sebelum berdebat.</b> Perubahan lebih mudah diterima oleh orang yang ikut bersuara daripada oleh orang yang hanya diberi tahu. Ketika seorang senior berkata “sistem yang dulu juga gagal”, bertanyalah: “Waktu itu kendalanya di mana, Mbak?” Pertanyaan memunculkan kekhawatiran yang sebenarnya. Mengulang manfaatnya dengan suara lebih keras jarang berhasil. <b>Tiga kursi dalam sebuah perubahan.</b> Dalam perubahan apa pun kamu duduk di salah satu dari tiga kursi: <i>diberi tahu</i> (kamu mendengar kabarnya), <i>ditanya</i> (pendapatmu diminta), atau <i>dipercaya memegang satu bagian</i> (kamu menjalankan sebagian). Anak magang biasanya mulai dari kursi pertama. Kamu naik kursi dengan membawa perbaikan kecil yang sudah diperiksa baik-baik, misalnya penghematan waktu 20 menit yang sudah kamu uji pada pekerjaanmu sendiri, dengan langkah verifikasi dari 5.6."
        },
        "bullets": [
         {
@@ -17985,12 +17961,12 @@ window.MT_LMS['the-map'] = {
         "id": "Latihan 3: Ukur kesiapan menghadapi perubahan (15 menit)"
        },
        "body": {
-        "en": "Take the Dodo/Coyote self-rating in the resource kit and answer the seven questions for one real change you face (new curriculum, an AI tool at your internship, a move). Place yourself among the four reactions. Write one “from ___ to ___” sentence and one action within your control.",
-        "id": "Isi penilaian diri Dodo/Koyote di perlengkapan dan jawab tujuh pertanyaan untuk satu perubahan nyata yang kamu hadapi (kurikulum baru, alat AI di tempat magangmu, pindah tempat). Tempatkan dirimu di antara empat reaksi. Tulis satu kalimat \"dari ___ menjadi ___\" dan satu tindakan dalam kendalimu."
+        "en": "Take the readiness check in the resource kit and answer the four honest questions for one real change you face (new curriculum, an AI tool at your internship, a move). Decide which of the four stories you have been telling yourself. Write one “from ___ to ___” sentence and one action within your control.",
+        "id": "Kerjakan cek kesiapan di kit sumber daya dan jawab empat pertanyaan jujur untuk satu perubahan nyata yang sedang kamu hadapi (kurikulum baru, alat AI di tempat magang, pindah kota). Tentukan mana dari empat cerita itu yang selama ini kamu ceritakan kepada dirimu sendiri. Tulis satu kalimat “dari ___ ke ___” dan satu tindakan dalam kendalimu."
        },
        "debrief": {
-        "en": "If you placed yourself as an unrealistic pessimist or optimist, look for one sentence you can back with evidence. Lesson 5.6's task map will give you that evidence.",
-        "id": "Kalau kamu menempatkan dirimu sebagai pesimis atau optimis yang tidak realistis, cari satu kalimat yang bisa kamu dukung dengan bukti. Peta tugas di Pelajaran 5.6 akan memberimu bukti itu."
+        "en": "If you caught yourself in the alarm, the shrug or the free ride, look for one sentence you can back with evidence. Lesson 5.6's task map will give you that evidence.",
+        "id": "Kalau kamu mendapati dirimu di cerita alarm, angkat bahu, atau menumpang gratis, cari satu kalimat yang bisa kamu dukung dengan bukti. Peta tugas di Pelajaran 5.6 akan memberimu bukti itu."
        }
       }
      ],
@@ -18036,8 +18012,8 @@ window.MT_LMS['the-map'] = {
          "id": "Mendorong ide baru ke senior yang skeptis"
         },
         "fix": {
-         "en": "Pull. Ask what went wrong last time and what they're worried about now.",
-         "id": "Tarik. Tanyakan apa yang salah waktu itu dan apa yang ia khawatirkan sekarang."
+         "en": "Ask first: what went wrong last time, and what are they worried about now?",
+         "id": "Bertanya dulu: apa yang salah waktu itu, dan apa yang mereka khawatirkan sekarang?"
         }
        }
       ]
@@ -18045,12 +18021,12 @@ window.MT_LMS['the-map'] = {
      "glossary": [
       {
        "term": {
-        "en": "relevance",
-        "id": "relevansi"
+        "en": "value sentence",
+        "id": "kalimat nilai"
        },
        "def": {
-        "en": "The value you add compared with what you cost, as seen by the people you serve.",
-        "id": "Nilai yang kamu tambahkan dibandingkan biayamu, menurut orang-orang yang kamu layani."
+        "en": "One line that says what you turn into what, and for whom.",
+        "id": "Satu kalimat yang menyebut apa yang kamu ubah menjadi apa, dan untuk siapa."
        }
       },
       {
@@ -18060,37 +18036,37 @@ window.MT_LMS['the-map'] = {
        },
        "def": {
         "en": "The durable knowledge beneath changing tools.",
-        "id": "Pengetahuan yang awet di bawah alat-alat yang terus berubah."
+        "id": "Pengetahuan yang awet di bawah alat-alat yang terus berganti."
        }
       },
       {
        "term": {
-        "en": "realistic optimist",
-        "id": "optimis yang realistis"
+        "en": "the test",
+        "id": "uji coba"
        },
        "def": {
-        "en": "Someone who sees problems clearly and looks for a way through.",
-        "id": "Orang yang melihat masalah dengan jernih dan mencari jalan keluarnya."
+        "en": "The stance that some of your tasks will change, and that you will find out which.",
+        "id": "Sikap bahwa sebagian tugasmu akan berubah, dan kamu akan mencari tahu yang mana."
        }
       },
       {
        "term": {
-        "en": "spineating",
-        "id": "spineating"
+        "en": "the pause",
+        "id": "jeda"
        },
        "def": {
-        "en": "Reacting on reflex without thinking; the opposite of the pause.",
-        "id": "Bereaksi secara refleks tanpa berpikir; kebalikan dari jeda."
+        "en": "A deliberate stop between an announcement and your reaction to it.",
+        "id": "Berhenti dengan sengaja di antara sebuah pengumuman dan reaksimu terhadapnya."
        }
       },
       {
        "term": {
-        "en": "involvement ladder",
-        "id": "tangga keterlibatan"
+        "en": "three seats",
+        "id": "tiga kursi"
        },
        "def": {
-        "en": "Awareness → input → participation → collaboration → empowerment in a change.",
-        "id": "Sadar → memberi masukan → berpartisipasi → berkolaborasi → berdaya dalam sebuah perubahan."
+        "en": "Told, asked, trusted with a piece: where you sit in a change.",
+        "id": "Diberi tahu, ditanya, dipercaya memegang satu bagian: di mana kamu duduk dalam sebuah perubahan."
        }
       }
      ],
@@ -20648,8 +20624,8 @@ window.MT_LMS['the-map'] = {
         "id": "Blok fokus: latih perhatian seperti melatih kebugaran"
        },
        "body": {
-        "en": "The <i>Focus</i> station sets up the environment. This section is about the work done inside it. Stulberg and Magness describe experts working in blocks of concentrated effort, rarely sustaining intense concentration much beyond about two hours, with real breaks between blocks. <b>How to run a block:</b> (1) Write one concrete objective (“draft 300 words of Section 2.3”, not “work on final-year thesis”). (2) Put the phone out of sight, in a bag, another room or a library locker. Face-down on the desk is weaker. (3) Run a timer. (4) Take a real break: water, a short walk, a stretch. Not a feed. (5) Log your output and effort (1–10).",
-        "id": "Pos <i>Fokus</i> menyiapkan lingkungannya. Bagian ini membahas pekerjaan yang dilakukan di dalamnya. Stulberg dan Magness menggambarkan para ahli bekerja dalam blok-blok usaha yang terkonsentrasi, jarang mempertahankan konsentrasi tinggi lebih lama dari sekitar dua jam, dengan jeda yang sungguhan di antara blok. <b>Cara menjalankan satu blok:</b> (1) Tulis satu sasaran yang konkret (\"menulis draf 300 kata untuk Subbab 2.3\", bukan \"mengerjakan skripsi\"). (2) Simpan ponsel di luar pandangan: di dalam tas, di ruangan lain, atau di loker perpustakaan. Ditelungkupkan di meja kurang ampuh. (3) Nyalakan pengatur waktu. (4) Ambil jeda yang sungguhan: minum air, jalan sebentar, peregangan. Bukan menggulir media sosial. (5) Catat hasil dan usahamu (1–10)."
+        "en": "The <i>Focus</i> station sets up the environment. This section is about the work done inside it. Studies of expert performers find the same pattern again and again: they work in blocks of concentrated effort, rarely hold intense concentration much beyond about two hours, and take real breaks between blocks. <b>How to run a block:</b> (1) Write one concrete objective (“draft 300 words of Section 2.3”, not “work on final-year thesis”). (2) Put the phone out of sight, in a bag, another room or a library locker. Face-down on the desk is weaker. (3) Run a timer. (4) Take a real break: water, a short walk, a stretch. Not a feed. (5) Log your output and effort (1–10).",
+        "id": "Pos <i>Fokus</i> menyiapkan lingkungannya. Bagian ini membahas pekerjaan yang dilakukan di dalamnya. Penelitian tentang para ahli berulang kali menemukan pola yang sama: mereka bekerja dalam blok-blok usaha yang terkonsentrasi, jarang mempertahankan konsentrasi tinggi lebih lama dari sekitar dua jam, dan mengambil jeda yang sungguhan di antara blok. <b>Cara menjalankan satu blok:</b> (1) Tulis satu sasaran yang konkret (\"menulis draf 300 kata untuk Subbab 2.3\", bukan \"mengerjakan skripsi\"). (2) Simpan ponsel di luar pandangan: di dalam tas, di ruangan lain, atau di loker perpustakaan. Ditelungkupkan di meja kurang ampuh. (3) Nyalakan pengatur waktu. (4) Ambil jeda yang sungguhan: minum air, jalan sebentar, peregangan. Bukan menggulir media sosial. (5) Catat hasil dan usahamu (1–10)."
        },
        "bullets": [
         {
@@ -20679,8 +20655,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tinjauan mingguan: tempat sistem bertemu hidupmu"
        },
        "body": {
-        "en": "The five stations need maintenance. The evening process from the Capture station handles the daily part (capture into calendar or list). The weekly review is the 20-minute version that also connects the rest of Module 5. <b>The 20-minute weekly review:</b> (1) <b>Clear (5 min):</b> empty capture, chats and screenshots into calendar or list; archive finished files. (2) <b>Look back (5 min):</b> what got done; focus blocks completed; energy score this week (5.1); stress-cycle days (5.2). (3) <b>Look ahead (7 min):</b> deadlines for the next two weeks. Plan the shape of the week: hard days, easy days and one off-block (the Growth Equation). Book focus blocks in your peak hours. Book one relationship action (5.3) and one learning-loop hour (5.5). (4) <b>Adjust (3 min):</b> if something keeps slipping, shrink it, delegate it, or decide it's not a priority. Don't keep scheduling it to fail.",
-        "id": "Kelima pos itu butuh perawatan. Proses malam hari dari pos Penampung menangani bagian hariannya (memindahkan isi penampung ke kalender atau daftar). Tinjauan mingguan adalah versi 20 menit yang juga menghubungkan bagian-bagian lain dari Modul 5. <b>Tinjauan mingguan 20 menit:</b> (1) <b>Bersihkan (5 menit):</b> kosongkan penampung, chat, dan tangkapan layar ke kalender atau daftar; arsipkan berkas yang sudah selesai. (2) <b>Lihat ke belakang (5 menit):</b> apa yang sudah selesai; blok fokus yang berhasil dijalankan; skor energi minggu ini (5.1); hari-hari penuntasan siklus stres (5.2). (3) <b>Lihat ke depan (7 menit):</b> tenggat dua minggu ke depan. Rencanakan bentuk minggunya: hari berat, hari ringan, dan satu blok libur (Persamaan Pertumbuhan). Jadwalkan blok fokus di jam puncakmu. Jadwalkan satu tindakan relasi (5.3) dan satu jam lingkaran belajar (5.5). (4) <b>Sesuaikan (3 menit):</b> kalau ada yang terus tergelincir, kecilkan, delegasikan, atau putuskan bahwa itu bukan prioritas. Jangan terus menjadwalkannya hanya untuk gagal lagi."
+        "en": "The five stations need maintenance. The evening process from the Capture station handles the daily part (capture into calendar or list). The weekly review is the 20-minute version that also connects the rest of Module 5. <b>The 20-minute weekly review:</b> (1) <b>Clear (5 min):</b> empty capture, chats and screenshots into calendar or list; archive finished files. (2) <b>Look back (5 min):</b> what got done; focus blocks completed; energy score this week (5.1); stress-cycle days (5.2). (3) <b>Look ahead (7 min):</b> deadlines for the next two weeks. Plan the shape of the week: hard days, easy days and one off-block (the stretch-and-recover cycle). Book focus blocks in your peak hours. Book one relationship action (5.3) and one learning-loop hour (5.5). (4) <b>Adjust (3 min):</b> if something keeps slipping, shrink it, delegate it, or decide it's not a priority. Don't keep scheduling it to fail.",
+        "id": "Kelima pos itu butuh perawatan. Proses malam hari dari pos Penampung menangani bagian hariannya (memindahkan isi penampung ke kalender atau daftar). Tinjauan mingguan adalah versi 20 menit yang juga menghubungkan bagian-bagian lain dari Modul 5. <b>Tinjauan mingguan 20 menit:</b> (1) <b>Bersihkan (5 menit):</b> kosongkan penampung, chat, dan tangkapan layar ke kalender atau daftar; arsipkan berkas yang sudah selesai. (2) <b>Lihat ke belakang (5 menit):</b> apa yang sudah selesai; blok fokus yang berhasil dijalankan; skor energi minggu ini (5.1); hari-hari penuntasan siklus stres (5.2). (3) <b>Lihat ke depan (7 menit):</b> tenggat dua minggu ke depan. Rencanakan bentuk minggunya: hari berat, hari ringan, dan satu blok libur (siklus regang-pulih). Jadwalkan blok fokus di jam puncakmu. Jadwalkan satu tindakan relasi (5.3) dan satu jam lingkaran belajar (5.5). (4) <b>Sesuaikan (3 menit):</b> kalau ada yang terus tergelincir, kecilkan, delegasikan, atau putuskan bahwa itu bukan prioritas. Jangan terus menjadwalkannya hanya untuk gagal lagi."
        },
        "after": [
         {
@@ -20696,8 +20672,8 @@ window.MT_LMS['the-map'] = {
         "id": "AI di dalam pos-posmu, bukan sebagai pos keenam"
        },
        "body": {
-        "en": "Pennington warns against confusing the tool with the goal. AI is not a station. It is a helper inside each station, under the three gates and CEK-5 from Lesson 5.6.",
-        "id": "Pennington mengingatkan agar alat tidak dikacaukan dengan tujuannya. AI bukan sebuah pos. AI adalah pembantu di dalam setiap pos, di bawah tiga gerbang dan CEK-5 dari Pelajaran 5.6."
+        "en": "A tool is not a goal. AI is not a station. It is a helper inside each station, under the three gates and CEK-5 from Lesson 5.6.",
+        "id": "Alat bukanlah tujuan. AI bukan sebuah pos. AI adalah pembantu di dalam setiap pos, di bawah tiga gerbang dan CEK-5 dari Pelajaran 5.6."
        },
        "table": {
         "cols": [
@@ -20802,8 +20778,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kesejahteraan digital: untuk siapa ponselmu bekerja?"
        },
        "body": {
-        "en": "Russell and Norvig note that many recommendation and attention systems are built to maximise engagement, not your long-term interest, and they hope for personal tools that protect people from “addictive attention-grabbers”. Your settings can do some of that protecting today.",
-        "id": "Russell dan Norvig mencatat bahwa banyak sistem rekomendasi dan sistem penarik perhatian dibangun untuk memaksimalkan keterlibatan, bukan kepentingan jangka panjangmu, dan mereka berharap ada alat pribadi yang melindungi orang dari \"penarik perhatian yang membuat kecanduan\". Pengaturan ponselmu bisa melakukan sebagian perlindungan itu sejak hari ini."
+        "en": "Many recommendation and notification systems are built to maximise the time you spend on them, not your long-term interest. Your settings can do some of the protecting today.",
+        "id": "Banyak sistem rekomendasi dan notifikasi dibangun untuk memaksimalkan waktu yang kamu habiskan di dalamnya, bukan kepentingan jangka panjangmu. Pengaturan ponselmu bisa melakukan sebagian perlindungan itu sejak hari ini."
        },
        "bullets": [
         {
@@ -21311,8 +21287,8 @@ window.MT_LMS['the-map'] = {
          "id": "Bacaan lanjutan"
         },
         "desc": {
-         "en": "Sources behind the new sections.",
-         "id": "Sumber di balik bagian-bagian baru."
+         "en": "If you want to go further.",
+         "id": "Kalau kamu ingin mendalami."
         },
         "body": [
          {
@@ -21320,12 +21296,8 @@ window.MT_LMS['the-map'] = {
           "id": "Stulberg & Magness, Peak Performance: blok, jeda, dan ritme harian"
          },
          {
-          "en": "Pennington, Make Change Work: the tool is not the goal",
-          "id": "Pennington, Make Change Work: alat bukanlah tujuannya"
-         },
-         {
-          "en": "Russell & Norvig, Artificial Intelligence: A Modern Approach: attention systems and personal tools",
-          "id": "Russell & Norvig, Artificial Intelligence: A Modern Approach: sistem penarik perhatian dan alat pribadi"
+          "en": "Newport, Deep Work: protecting long blocks of attention",
+          "id": "Newport, Deep Work: melindungi blok perhatian yang panjang"
          }
         ]
        }
@@ -22325,8 +22297,8 @@ window.MT_LMS['the-map'] = {
          "id": "Diagnosis"
         },
         "guide": {
-         "en": "Use 5.1 and 5.2: the energy ring, overload signals, the four “deal with stress first” signals, the Growth Equation and the effort dial. Separate stressors from stress.",
-         "id": "Pakai 5.1 dan 5.2: lingkaran energi, tanda kelebihan beban, empat sinyal \"tangani stresnya dulu\", Persamaan Pertumbuhan, dan kenop usaha. Pisahkan pemicu stres dari stresnya."
+         "en": "Use 5.1 and 5.2: the energy ring, overload signals, the four “deal with stress first” signals, the stretch-and-recover cycle and the effort dial. Separate stressors from stress.",
+         "id": "Pakai 5.1 dan 5.2: lingkaran energi, tanda kelebihan beban, empat sinyal \"tangani stresnya dulu\", siklus regang-pulih, dan kenop usaha. Pisahkan pemicu stres dari stresnya."
         },
         "questions": [
          {
@@ -22391,8 +22363,8 @@ window.MT_LMS['the-map'] = {
             "id": "Tanda kelebihan beban dan sinyal \"tangani stresnya dulu\" mana yang kamu lihat?"
            },
            {
-            "en": "What does the Growth Equation say about his “work harder for one more month” plan?",
-            "id": "Apa kata Persamaan Pertumbuhan tentang rencananya untuk \"kerja lebih keras sebulan lagi\"?"
+            "en": "What does the stretch-and-recover cycle say about his “work harder for one more month” plan?",
+            "id": "Apa kata siklus regang-pulih tentang rencananya untuk \"kerja lebih keras sebulan lagi\"?"
            }
           ]
          },
@@ -22680,8 +22652,8 @@ window.MT_LMS['the-map'] = {
          "id": "AI"
         },
         "guide": {
-         "en": "Use 5.5 and 5.6: tasks not titles, the three gates, CEK-5, the three-tier rule and pull-don't-push. The Role tasks tab lists what Raka actually does.",
-         "id": "Pakai 5.5 dan 5.6: tugas, bukan jabatan; tiga gerbang; CEK-5; aturan tiga tingkat; serta tarik, jangan dorong. Tab Tugas peran mendaftar apa yang sebenarnya dikerjakan Raka."
+         "en": "Use 5.5 and 5.6: tasks not titles, the three gates, CEK-5, the three-tier rule and asking before you argue. The Role tasks tab lists what Raka actually does.",
+         "id": "Pakai 5.5 dan 5.6: tugas, bukan jabatan; tiga gerbang; CEK-5; aturan tiga tingkat; serta bertanya dulu sebelum berdebat. Tab Tugas peran mendaftar apa yang sebenarnya dikerjakan Raka."
         },
         "questions": [
          {
@@ -23597,12 +23569,12 @@ window.MT_LMS['the-map'] = {
          {
           "id": "change",
           "label": {
-           "en": "One real change I face: facts | interpretations · my reaction type · “from ___ to ___” · one action within my control",
-           "id": "Satu perubahan nyata yang kuhadapi: fakta | tafsiran · jenis reaksiku · \"dari ___ menjadi ___\" · satu tindakan dalam kendaliku"
+           "en": "One real change I face: facts | interpretations · the story I was telling myself · “from ___ to ___” · one action within my control",
+           "id": "Satu perubahan nyata yang kuhadapi: fakta | tafsiran · cerita yang selama ini kuceritakan · “dari ___ ke ___” · satu tindakan dalam kendaliku"
           },
           "hint": {
-           "en": "e.g. new AI tool from March | “they're replacing us” · realistic pessimist · from waiting to testing · test it on last month's report",
-           "id": "mis. alat AI baru mulai Maret | \"kita bakal digantikan\" · pesimis yang realistis · dari menunggu menjadi menguji · uji pada laporan bulan lalu"
+           "en": "e.g. new AI tool from March | “they're replacing us” · the alarm · from waiting to testing · test it on last month's report",
+           "id": "mis. alat AI baru mulai Maret | “kita akan digantikan” · alarm · dari menunggu ke menguji · uji pada laporan bulan lalu"
           },
           "rows": 4
          }
