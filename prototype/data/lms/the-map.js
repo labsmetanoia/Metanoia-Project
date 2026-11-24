@@ -8231,8 +8231,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pengantar Relasi dan Kesejahteraan: Materi"
        },
        "intro": {
-        "en": "Start with the chapter opener. Three slides introduce the theme of Module 5 (relationships and well-being), what the course will teach you, and why your level of well-being decides your energy and performance, with the stress–performance curve the film then brings to life. Move through them at your own pace; the slide text is available under the player.",
-        "id": "Mulailah dari pembuka bab ini. Tiga slide memperkenalkan tema Modul 5 (relasi dan kesejahteraan), apa yang akan kamu pelajari, dan kenapa tingkat kesejahteraanmu menentukan energi dan kinerjamu, lengkap dengan kurva stres dan kinerja yang kemudian dihidupkan oleh film. Telusuri sesuai kecepatanmu; teks slide tersedia di bawah pemutar."
+        "en": "Start with the chapter opener. Three slides introduce the theme of Module 5 (relationships and well-being), what the course will teach you, and why your level of well-being decides your energy and performance, with the stress–performance curve. Move through them at your own pace; the slide text is available under the player. One short film follows the deck.",
+        "id": "Mulailah dari pembuka bab ini. Tiga slide memperkenalkan tema Modul 5 (relasi dan kesejahteraan), apa yang akan kamu pelajari, dan kenapa tingkat kesejahteraanmu menentukan energi dan kinerjamu, lengkap dengan kurva stres dan kinerja. Telusuri sesuai kecepatanmu; teks slide tersedia di bawah pemutar. Satu film singkat menyusul sesudah slide ini."
        },
        "base": "../../assets/lms/the-map/slides/well-being-",
        "slides": [
@@ -8278,8 +8278,8 @@ window.MT_LMS['the-map'] = {
         "id": "Menilai Kesejahteraanmu: Materi"
        },
        "intro": {
-        "en": "The film gave you the gauge; these nine slides turn it into a reading you can take this morning. Rate nine statements to find your battery score, see what that score asks you to focus on in this course, meet the four sources that charge the battery and the principles for putting them into practice, then walk through a balanced day with recovery in mind. The Well-Being Is a Journey slides that follow turn the reading into a practice. Move at your own pace; the slide text is available under the player.",
-        "id": "Film tadi memberimu alat ukurnya; sembilan slide ini mengubahnya menjadi angka yang bisa kamu ambil pagi ini juga. Beri nilai pada sembilan pernyataan untuk menemukan skor baterai, lihat apa yang perlu kamu fokuskan di kursus ini berdasarkan skor itu, kenali empat sumber pengisi baterai dan prinsip untuk mempraktikkannya, lalu telusuri contoh hari yang seimbang dengan pemulihan di dalamnya. Slide Kesejahteraan Adalah Perjalanan sesudahnya mengubah angka itu menjadi kebiasaan. Telusuri sesuai kecepatanmu; teks slide tersedia di bawah pemutar."
+        "en": "These nine slides give you a reading you can take this morning. Rate nine statements to find your battery score, see what that score asks you to focus on in this course, meet the four sources that charge the battery and the principles for putting them into practice, then walk through a balanced day with recovery in mind. The Well-Being Is a Journey slides that follow turn the reading into a practice. Move at your own pace; the slide text is available under the player.",
+        "id": "Sembilan slide ini memberimu angka yang bisa kamu ambil pagi ini juga. Beri nilai pada sembilan pernyataan untuk menemukan skor baterai, lihat apa yang perlu kamu fokuskan di kursus ini berdasarkan skor itu, kenali empat sumber pengisi baterai dan prinsip untuk mempraktikkannya, lalu telusuri contoh hari yang seimbang dengan pemulihan di dalamnya. Slide Kesejahteraan Adalah Perjalanan sesudahnya mengubah angka itu menjadi kebiasaan. Telusuri sesuai kecepatanmu; teks slide tersedia di bawah pemutar."
        },
        "base": "../../assets/lms/the-map/slides/well-being-assess-",
        "slides": [
@@ -8397,8 +8397,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kesejahteraan Adalah Perjalanan: Materi"
        },
        "intro": {
-        "en": "You have a battery score and the four sources that charge it. These six slides turn that into a practice you can keep: the three steps of the well-being journey (most of us are on Step 1), why starting small works, the two kinds of feedback that tell you how you are really doing, a recovery plan you draft now, an example plan to borrow from, and the emotional flexibility that keeps the habits alive. The last slide points you to a film on emotional flexibility; it follows the deck, and Exhibit 1 then names the four systems that produce usable energy.",
-        "id": "Kamu sudah punya skor baterai dan tahu empat sumber pengisinya. Enam slide ini mengubahnya menjadi kebiasaan yang bisa kamu jaga: tiga langkah dalam perjalanan kesejahteraan (sebagian besar dari kita masih di Langkah 1), kenapa memulai dari yang kecil itu berhasil, dua jenis masukan yang memberi tahu kondisimu yang sebenarnya, rencana pemulihan yang kamu susun sekarang, contoh rencana yang bisa kamu tiru, dan kelenturan emosi yang menjaga kebiasaan itu tetap hidup. Slide terakhir mengarahkanmu ke film tentang kelenturan emosi; film itu ada sesudah slide, lalu Gambar 1 menyebutkan empat sistem yang menghasilkan energi yang bisa dipakai."
+        "en": "You have a battery score and the four sources that charge it. These six slides turn that into a practice you can keep: the three steps of the well-being journey (most of us are on Step 1), why starting small works, the two kinds of feedback that tell you how you are really doing, a recovery plan you draft now, an example plan to borrow from, and the emotional flexibility that keeps the habits alive. One more deck follows; Exhibit 1 then names the four systems that produce usable energy.",
+        "id": "Kamu sudah punya skor baterai dan tahu empat sumber pengisinya. Enam slide ini mengubahnya menjadi kebiasaan yang bisa kamu jaga: tiga langkah dalam perjalanan kesejahteraan (sebagian besar dari kita masih di Langkah 1), kenapa memulai dari yang kecil itu berhasil, dua jenis masukan yang memberi tahu kondisimu yang sebenarnya, rencana pemulihan yang kamu susun sekarang, contoh rencana yang bisa kamu tiru, dan kelenturan emosi yang menjaga kebiasaan itu tetap hidup. Satu rangkaian slide lagi menyusul; lalu Gambar 1 menyebutkan empat sistem yang menghasilkan energi yang bisa dipakai."
        },
        "base": "../../assets/lms/the-map/slides/well-being-journey-",
        "slides": [
@@ -8478,8 +8478,8 @@ window.MT_LMS['the-map'] = {
         "id": "Menjadikan Praktik Kesejahteraan sebagai Kebiasaan: Materi"
        },
        "intro": {
-        "en": "You have the gauge, the reading, the plan and the practice of emotional flexibility. These four slides make them stick: the habit loop of cue, routine and reward, the unhelpful recovery tactics to watch for, why your energy shapes the people around you, four ways to build support in your team, and the module's key takeaways with resources to go further. Then Exhibit 1 names the four systems that produce usable energy.",
-        "id": "Kamu sudah punya alat ukur, angkanya, rencananya, dan praktik kelenturan emosi. Empat slide ini membuat semuanya melekat: lingkaran kebiasaan berupa pemicu, rutinitas, dan imbalan; taktik pemulihan yang justru tidak membantu dan perlu diwaspadai; kenapa energimu membentuk orang-orang di sekitarmu; empat cara membangun dukungan di timmu; dan poin-poin penting modul ini beserta bacaan lanjutan. Setelah itu, Gambar 1 menyebutkan empat sistem yang menghasilkan energi yang bisa dipakai."
+        "en": "You have the reading, the plan and the practice of emotional flexibility. These four slides make them stick: the habit loop of cue, routine and reward, the unhelpful recovery tactics to watch for, why your energy shapes the people around you, four ways to build support in your team, and the module's key takeaways with resources to go further. Then Exhibit 1 names the four systems that produce usable energy.",
+        "id": "Kamu sudah punya angkanya, rencananya, dan praktik kelenturan emosi. Empat slide ini membuat semuanya melekat: lingkaran kebiasaan berupa pemicu, rutinitas, dan imbalan; taktik pemulihan yang justru tidak membantu dan perlu diwaspadai; kenapa energimu membentuk orang-orang di sekitarmu; empat cara membangun dukungan di timmu; dan poin-poin penting modul ini beserta bacaan lanjutan. Setelah itu, Gambar 1 menyebutkan empat sistem yang menghasilkan energi yang bisa dipakai."
        },
        "base": "../../assets/lms/the-map/slides/well-being-turning-",
        "slides": [
@@ -8530,84 +8530,34 @@ window.MT_LMS['the-map'] = {
        ]
       }
      ],
-     "youtube": [
-      {
-       "id": "_AZWXm4lkgA",
-       "placement": "after-material:3",
-       "dur": "4:18",
-       "kicker": {
-        "en": "Watch next · Lesson video",
-        "id": "Tonton berikutnya · Video pelajaran"
-       },
-       "title": {
-        "en": "Emotional flexibility: calm the brain, then choose",
-        "id": "Kelenturan emosi: tenangkan otak, lalu memilih"
-       },
-       "intro": {
-        "en": "The last slide asked you to watch the video. Here it is: why our Stone Age brain overreacts to everyday threats, what it feels like to be in the zone of learning, performance and enjoyment, and the practice of emotional flexibility that brings you back to it: awareness, acceptance, curiosity, then an active choice to address the feeling or let it go. Have a recent negative emotion in mind before you press play; the film asks you to work with it.",
-        "id": "Slide terakhir memintamu menonton videonya. Inilah dia: kenapa otak \"zaman batu\" kita bereaksi berlebihan terhadap ancaman sehari-hari, seperti apa rasanya berada di zona belajar, berkinerja, dan menikmati, serta praktik kelenturan emosi yang membawamu kembali ke sana: sadari, terima, cari tahu dengan penasaran, lalu pilih secara aktif untuk menanggapi perasaan itu atau melepaskannya. Ingat satu emosi negatif yang baru kamu alami sebelum menekan tombol putar; film ini mengajakmu mengolahnya."
-       },
-       "captions": {
-        "en": "../../assets/lms/the-map/emotional-flexibility-en.vtt",
-        "id": "../../assets/lms/the-map/emotional-flexibility-id.vtt"
-       },
-       "outro": {
-        "title": {
-         "en": "Carry this into the exhibit",
-         "id": "Bawa ini ke gambar berikutnya"
-        },
-        "body": [
-         {
-          "en": "Emotional flexibility is the mental half of the well-being journey: notice the emotion that is not serving you, accept it rather than fight it, get curious about how it feels, then choose: address it or let it go. It is how the battery stays charged when life tries to drain it.",
-          "id": "Kelenturan emosi adalah separuh bagian mental dari perjalanan kesejahteraan: sadari emosi yang tidak membantumu, terima alih-alih melawannya, cari tahu dengan penasaran bagaimana rasanya, lalu pilih: tanggapi atau lepaskan. Dengan cara inilah baterai tetap terisi ketika hidup berusaha mengurasnya."
-         },
-         {
-          "en": "Next, the Turning Your Well-Being Practices into Habits slides make the practice stick (the habit loop, the recovery tactics to watch for, role modeling and team support). Exhibit 1 then gives you the physical half: the four systems (sleep, movement, fuel and recovery) that produce the usable energy all of this runs on.",
-          "id": "Berikutnya, slide Menjadikan Praktik Kesejahteraan sebagai Kebiasaan membuat praktik ini melekat (lingkaran kebiasaan, taktik pemulihan yang perlu diwaspadai, menjadi teladan, dan dukungan tim). Lalu Gambar 1 memberimu separuh bagian fisiknya: empat sistem (tidur, gerak, asupan, dan pemulihan) yang menghasilkan energi yang menjadi bahan bakar semua ini."
-         }
-        ]
-       }
-      }
-     ],
      "videosPlacement": "after-material:1",
      "videos": [
       {
-       "src": "../../assets/lms/the-map/well-being-1-brand.mp4",
-       "poster": "../../assets/lms/the-map/well-being-1-poster.jpg",
-       "dur": "3:10",
-       "title": {
-        "en": "Well-being: the foundation of your energy",
-        "id": "Kesejahteraan: fondasi energimu"
+       "src": {
+        "en": "../../assets/lms/films/map-5-1-energy-first-en.mp4",
+        "id": "../../assets/lms/films/map-5-1-energy-first-id.mp4"
        },
-       "captions": {
-        "en": "../../assets/lms/the-map/well-being-1-en.vtt",
-        "id": "../../assets/lms/the-map/well-being-1-id.vtt"
+       "poster": {
+        "en": "../../assets/lms/films/map-5-1-energy-first-en-poster.jpg",
+        "id": "../../assets/lms/films/map-5-1-energy-first-id-poster.jpg"
+       },
+       "dur": {
+        "en": "3:01",
+        "id": "2:57"
+       },
+       "title": {
+        "en": "Energy first: sleep, a minimum protocol and how capacity grows",
+        "id": "Energi dulu: tidur, protokol minimum, dan cara kapasitas tumbuh"
        }
       }
      ],
      "videosKicker": {
-      "en": "Watch next · Lesson video",
-      "id": "Tonton berikutnya · Video pelajaran"
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "The slides asked you to watch the video with two questions in mind: where am I on the curve right now, and is this a trend for me? Here it is: three minutes on why well-being is the foundation of usable energy, the U-curve of stress, the boredom and burnout zones at either end of it, and why staying near the top takes active attention. Then continue to Exhibit 1; it gives you the four systems that move you along that curve.",
-      "id": "Slide tadi memintamu menonton video dengan dua pertanyaan di kepala: di mana posisiku di kurva ini sekarang, dan apakah ini sudah menjadi pola bagiku? Inilah videonya: tiga menit tentang kenapa kesejahteraan menjadi fondasi energi yang bisa dipakai, kurva U stres, zona bosan dan zona burnout di kedua ujungnya, dan kenapa bertahan di dekat puncak butuh perhatian yang aktif. Setelah itu lanjutkan ke Gambar 1, yang memberimu empat sistem penggerak posisimu di kurva itu."
-     },
-     "videosOutro": {
-      "title": {
-       "en": "Carry this into the exhibit",
-       "id": "Bawa ini ke gambar berikutnya"
-      },
-      "body": [
-       {
-        "en": "The film gives you the gauge: the U-curve. Too little stimulation and you drift into boredom; too much for too long and you slide into burnout, where survival mode makes recovery harder. Performance, awareness and good choices all peak near the top.",
-        "id": "Film ini memberimu alat ukurnya: kurva U. Stimulasi terlalu sedikit membuatmu hanyut dalam kebosanan; terlalu banyak dan terlalu lama membuatmu tergelincir ke burnout, ketika mode bertahan hidup membuat pemulihan makin sulit. Kinerja, kesadaran, dan pilihan yang baik semuanya memuncak di dekat puncak kurva."
-       },
-       {
-        "en": "Next, the Assessing Your Well-Being slides turn the gauge into a reading: nine statements that give you a battery score, what that score asks you to focus on, the four sources that charge the battery, and a balanced day with recovery in mind. Exhibit 1 then gives you the levers that move you along the curve (sleep, movement, fuel and recovery), and the sections after it build your minimum viable protocol from them.",
-        "id": "Berikutnya, slide Menilai Kesejahteraanmu mengubah alat ukur itu menjadi angka: sembilan pernyataan yang memberimu skor baterai, apa yang perlu kamu fokuskan berdasarkan skor itu, empat sumber pengisi baterai, dan contoh hari yang seimbang dengan pemulihan di dalamnya. Lalu Gambar 1 memberimu tuas-tuas yang menggeser posisimu di kurva itu (tidur, gerak, asupan, dan pemulihan), dan bagian-bagian sesudahnya menyusun protokol minimum dari tuas-tuas tersebut."
-       }
-      ]
+      "en": "One short film follows these slides: Galih, a week of five-hour nights before an interview, and the four lines that get him through it. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide ini: Galih, seminggu tidur lima jam menjelang wawancara, dan empat baris yang membantunya melewatinya. Tonton, lalu lanjutkan ke slide berikutnya."
      },
      "overview": {
       "en": "Energy, not time, is the base resource of a career, and it is produced by four unglamorous systems: sleep, movement, fuel and recovery. This lesson treats health as performance infrastructure and gives you a minimum viable protocol that survives student budgets and first-job schedules.",
@@ -8696,8 +8646,8 @@ window.MT_LMS['the-map'] = {
         "id": "Bagaimana kapasitas tumbuh: stres + istirahat = pertumbuhan"
        },
        "body": {
-        "en": "Any capacity you want to grow, whether physical fitness, focus, writing skill or emotional steadiness, grows through the same two-step cycle: a demand that stretches it a little, then enough recovery for it to adapt. Stulberg and Magness call this the <b>Growth Equation</b>: stress + rest = growth. The biology is the same one Ratey describes: a controllable, predictable dose of stress followed by recovery triggers repair that leaves the system stronger, while stress with no end, no control and no support corrodes it instead. It explains a pattern many students live through: the semester spent in a grey zone of medium effort and medium tiredness where nothing really improves, because there is too little real stretch and too little real recovery. It also explains why the curve in your first film bends downward: stress without recovery tips you over the top.",
-        "id": "Kapasitas apa pun yang ingin kamu tumbuhkan, entah kebugaran fisik, fokus, kemampuan menulis, atau ketenangan emosi, tumbuh lewat siklus dua langkah yang sama: tuntutan yang sedikit meregangkannya, lalu pemulihan yang cukup agar ia bisa beradaptasi. Stulberg dan Magness menyebutnya <b>Persamaan Pertumbuhan</b>: stres + istirahat = pertumbuhan. Biologinya sama dengan yang dijelaskan Ratey: dosis stres yang terkendali dan bisa diperkirakan, diikuti pemulihan, memicu perbaikan yang membuat sistemnya lebih kuat, sedangkan stres yang tidak berujung, tidak terkendali, dan tanpa dukungan justru menggerogotinya. Ini menjelaskan pola yang dialami banyak mahasiswa: satu semester dihabiskan di zona abu-abu, dengan usaha setengah-setengah dan rasa lelah setengah-setengah, tanpa ada yang benar-benar membaik, karena regangan yang sungguhan terlalu sedikit dan pemulihan yang sungguhan juga terlalu sedikit. Ini juga menjelaskan kenapa kurva di film pertamamu menurun: stres tanpa pemulihan membuatmu terlempar melewati puncaknya."
+        "en": "Any capacity you want to grow, whether physical fitness, focus, writing skill or emotional steadiness, grows through the same two-step cycle: a demand that stretches it a little, then enough recovery for it to adapt. Stulberg and Magness call this the <b>Growth Equation</b>: stress + rest = growth. The biology is the same one Ratey describes: a controllable, predictable dose of stress followed by recovery triggers repair that leaves the system stronger, while stress with no end, no control and no support corrodes it instead. It explains a pattern many students live through: the semester spent in a grey zone of medium effort and medium tiredness where nothing really improves, because there is too little real stretch and too little real recovery. It also explains why performance falls when pressure never lets up: stress without recovery tips you over the top.",
+        "id": "Kapasitas apa pun yang ingin kamu tumbuhkan, entah kebugaran fisik, fokus, kemampuan menulis, atau ketenangan emosi, tumbuh lewat siklus dua langkah yang sama: tuntutan yang sedikit meregangkannya, lalu pemulihan yang cukup agar ia bisa beradaptasi. Stulberg dan Magness menyebutnya <b>Persamaan Pertumbuhan</b>: stres + istirahat = pertumbuhan. Biologinya sama dengan yang dijelaskan Ratey: dosis stres yang terkendali dan bisa diperkirakan, diikuti pemulihan, memicu perbaikan yang membuat sistemnya lebih kuat, sedangkan stres yang tidak berujung, tidak terkendali, dan tanpa dukungan justru menggerogotinya. Ini menjelaskan pola yang dialami banyak mahasiswa: satu semester dihabiskan di zona abu-abu, dengan usaha setengah-setengah dan rasa lelah setengah-setengah, tanpa ada yang benar-benar membaik, karena regangan yang sungguhan terlalu sedikit dan pemulihan yang sungguhan juga terlalu sedikit. Ini juga menjelaskan kenapa kinerja menurun ketika tekanan tak pernah reda: stres tanpa pemulihan membuatmu terlempar melewati puncaknya."
        },
        "bullets": [
         {
@@ -10175,8 +10125,8 @@ window.MT_LMS['the-map'] = {
           }
          ],
          "sub": {
-          "en": "The 5.1 film gave four; sport psychology and Burnout add two and sharpen the rest.",
-          "id": "Film 5.1 memberi empat; psikologi olahraga dan Burnout menambah dua dan mempertajam sisanya."
+          "en": "Lesson 5.1 named the skill; these six steps are how you practise it.",
+          "id": "Pelajaran 5.1 menyebut keterampilannya; enam langkah ini adalah cara melatihnya."
          },
          "band": {
           "en": "One line of practice per step: “Tight chest, anxious, 7.” is step one, already done.",
@@ -10776,8 +10726,8 @@ window.MT_LMS['the-map'] = {
         "id": "Rangkaian kelenturan yang utuh: dari perasaan ke tindakan"
        },
        "body": {
-        "en": "The emotional-flexibility film in 5.1 taught awareness → acceptance → curiosity → choose (address it or let it go). Sport psychology and <i>Burnout</i> add two steps and sharpen the others. Exhibit 1 below shows the whole sequence; this table gives you one line of practice per step.",
-        "id": "Film kelenturan emosi di 5.1 mengajarkan sadari → terima → cari tahu → pilih (tanggapi atau lepaskan). Psikologi olahraga dan buku <i>Burnout</i> menambahkan dua langkah dan mempertajam langkah-langkah lainnya. Gambar 1 di bawah menunjukkan rangkaian lengkapnya; tabel ini memberimu satu baris latihan untuk setiap langkah."
+        "en": "Lesson 5.1 introduced emotional flexibility: tune into an emotion, then choose to address it or let it go. Here that becomes six steps, with help from sport psychology and <i>Burnout</i>. Exhibit 1 below shows the whole sequence; this table gives you one line of practice per step.",
+        "id": "Pelajaran 5.1 memperkenalkan kelenturan emosi: peka pada sebuah emosi, lalu memilih untuk menanggapinya atau melepaskannya. Di sini hal itu dijabarkan menjadi enam langkah, dengan bantuan psikologi olahraga dan buku <i>Burnout</i>. Gambar 1 di bawah menunjukkan rangkaian lengkapnya; tabel ini memberimu satu baris latihan untuk setiap langkah."
        },
        "table": {
         "cols": [
@@ -10882,8 +10832,8 @@ window.MT_LMS['the-map'] = {
         ],
         "rowHead": true,
         "caption": {
-         "en": "Steps 1–3 come from the 5.1 film; steps 4 and 6 are new; step 5 is sharpened.",
-         "id": "Langkah 1–3 berasal dari film di 5.1; langkah 4 dan 6 baru; langkah 5 dipertajam."
+         "en": "Steps 1–3 work on the feeling; step 4 on the body; steps 5 and 6 on what you do next.",
+         "id": "Langkah 1–3 mengolah rasanya; langkah 4 tubuhnya; langkah 5 dan 6 apa yang kamu lakukan berikutnya."
         }
        },
        "after": [
@@ -10967,12 +10917,12 @@ window.MT_LMS['the-map'] = {
          }
         ],
         "note": {
-         "en": "Steps 1–3 are the 5.1 film; 4 and 6 are new; 5 adds the direction.",
-         "id": "Langkah 1–3 berasal dari film di 5.1; langkah 4 dan 6 baru; langkah 5 menambahkan arahnya."
+         "en": "Steps 1–3 work on the feeling; step 4 on the body; steps 5 and 6 on what you do next.",
+         "id": "Langkah 1–3 mengolah rasanya; langkah 4 tubuhnya; langkah 5 dan 6 apa yang kamu lakukan berikutnya."
         },
         "longdesc": {
-         "en": "A six-step sequence. The first three steps (notice, make room, get curious) come from the emotional flexibility film in Lesson 5.1. Step four, let the body finish, completes the stress cycle before any big decision. Step five, choose toward, takes the next action toward a named value, whether you address the feeling or let it go. Step six returns you to people and rest.",
-         "id": "Rangkaian enam langkah. Tiga langkah pertama (sadari, beri ruang, cari tahu) berasal dari film kelenturan emosi di Pelajaran 5.1. Langkah keempat, biarkan tubuh menuntaskan, menuntaskan siklus stres sebelum keputusan besar apa pun. Langkah kelima, pilih ke arah nilai, mengambil tindakan berikutnya ke arah nilai yang sudah kamu sebutkan, entah kamu menanggapi perasaan itu atau melepaskannya. Langkah keenam mengembalikanmu ke orang-orang dan istirahat."
+         "en": "A six-step sequence. The first three steps (notice, make room, get curious) work on the feeling itself. Step four, let the body finish, completes the stress cycle before any big decision. Step five, choose toward, takes the next action toward a named value, whether you address the feeling or let it go. Step six returns you to people and rest.",
+         "id": "Rangkaian enam langkah. Tiga langkah pertama (sadari, beri ruang, cari tahu) mengolah rasa itu sendiri. Langkah keempat, biarkan tubuh menuntaskan, menuntaskan siklus stres sebelum keputusan besar apa pun. Langkah kelima, pilih ke arah nilai, mengambil tindakan berikutnya ke arah nilai yang sudah kamu sebutkan, entah kamu menanggapi perasaan itu atau melepaskannya. Langkah keenam mengembalikanmu ke orang-orang dan istirahat."
         }
        }
       },
@@ -11845,8 +11795,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kerangka untuk Relasi yang Kuat: Materi"
        },
        "intro": {
-        "en": "Start with the framework itself. Three slides open the theme (why strong connections fuel learning, well-being and resilience), then name the four not-so-secret secrets of AVEC and show what each one looks like in practice. Keep the two questions from the first slide in mind as you read: how strong are my relationships in general, and which specific relationships could be strengthened? Two short films follow the deck, then the exhibit and the sections build on both questions.",
-        "id": "Mulailah dari kerangkanya. Tiga slide membuka tema ini (kenapa hubungan yang kuat menjadi bahan bakar belajar, kesejahteraan, dan ketangguhan), lalu menyebutkan empat \"rahasia yang tidak terlalu rahasia\" dalam AVEC dan menunjukkan wujud masing-masing dalam praktik. Ingat dua pertanyaan dari slide pertama sambil membaca: seberapa kuat relasiku secara umum, dan relasi mana yang bisa diperkuat? Dua film pendek menyusul sesudah slide, lalu gambar dan bagian-bagian bacaan dibangun di atas kedua pertanyaan itu."
+        "en": "Start with the framework itself. Three slides open the theme (why strong connections fuel learning, well-being and resilience), then name the four not-so-secret secrets of AVEC and show what each one looks like in practice. Keep the two questions from the first slide in mind as you read: how strong are my relationships in general, and which specific relationships could be strengthened? One short film follows the deck; then the exhibit and the sections build on both questions.",
+        "id": "Mulailah dari kerangkanya. Tiga slide membuka tema ini (kenapa hubungan yang kuat menjadi bahan bakar belajar, kesejahteraan, dan ketangguhan), lalu menyebutkan empat \"rahasia yang tidak terlalu rahasia\" dalam AVEC dan menunjukkan wujud masing-masing dalam praktik. Ingat dua pertanyaan dari slide pertama sambil membaca: seberapa kuat relasiku secara umum, dan relasi mana yang bisa diperkuat? Satu film singkat menyusul sesudah slide ini; lalu gambar dan bagian-bagian bacaan dibangun di atas kedua pertanyaan itu."
        },
        "base": "../../assets/lms/the-map/slides/relationships-",
        "slides": [
@@ -11892,8 +11842,8 @@ window.MT_LMS['the-map'] = {
         "id": "Berpotensi Sulit … atau Berpotensi Mempererat Hubungan? Materi"
        },
        "intro": {
-        "en": "Svea and Bo never had the conversation they needed to have. This slide names why that matters: difficult conversations end one of three ways, challenging but positive, negative, or avoided altogether, and the strongest relationships are built by people who treat them as the first kind. Read it, then watch the film that follows (it opens the door) before Exhibit 1: AVEC is exactly what turns a potentially difficult conversation into a potentially stronger connection.",
-        "id": "Svea dan Bo tidak pernah melakukan percakapan yang seharusnya mereka lakukan. Slide ini menjelaskan kenapa itu penting: percakapan yang sulit berakhir dengan salah satu dari tiga cara, yaitu menantang tetapi positif, negatif, atau dihindari sama sekali, dan relasi terkuat dibangun oleh orang-orang yang memperlakukannya sebagai jenis pertama. Baca dulu, lalu tonton film berikutnya (film itu membuka pintunya) sebelum Gambar 1: AVEC-lah yang mengubah percakapan yang berpotensi sulit menjadi peluang untuk mempererat hubungan."
+        "en": "Some conversations never happen because they look too difficult. This slide names why that matters: difficult conversations end one of three ways, challenging but positive, negative, or avoided altogether, and the strongest relationships are built by people who treat them as the first kind. Read it, then continue: AVEC is exactly what turns a potentially difficult conversation into a potentially stronger connection.",
+        "id": "Sebagian percakapan tidak pernah terjadi karena terlihat terlalu sulit. Slide ini menjelaskan kenapa itu penting: percakapan yang sulit berakhir dengan salah satu dari tiga cara, yaitu menantang tetapi positif, negatif, atau dihindari sama sekali, dan relasi terkuat dibangun oleh orang-orang yang memperlakukannya sebagai jenis pertama. Baca dulu, lalu lanjutkan: AVEC-lah yang mengubah percakapan yang berpotensi sulit menjadi peluang untuk mempererat hubungan."
        },
        "base": "../../assets/lms/the-map/slides/relationships-difficult-",
        "slides": [
@@ -11919,8 +11869,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kerangka untuk Relasi yang Lebih Kuat: Materi"
        },
        "intro": {
-        "en": "The film opened the door; these twelve slides are the full field guide for walking through it. They begin where the film left off: conflict as a source of learning, and the shift from protection to adaptation that a difficult conversation asks for. Then take each AVEC element in turn: what it is, why it matters, and tips for your next conversation before and during. A knowledge check with Alisha and Marino lets you apply the framework, and the key takeaways close it. Move at your own pace (the slide text is available under the player), then continue to Exhibit 1.",
-        "id": "Film tadi membuka pintunya; dua belas slide ini adalah panduan lengkap untuk melewatinya. Slide-slide ini mulai dari titik akhir film: konflik sebagai sumber belajar, dan pergeseran dari mode melindungi diri ke mode beradaptasi yang dibutuhkan dalam percakapan sulit. Lalu setiap unsur AVEC dibahas bergantian: apa itu, kenapa penting, dan tips untuk percakapanmu berikutnya, sebelum dan selama percakapan. Cek pemahaman bersama Alisha dan Marino memberimu kesempatan menerapkan kerangkanya, dan poin-poin penting menutupnya. Telusuri sesuai kecepatanmu (teks slide tersedia di bawah pemutar), lalu lanjutkan ke Gambar 1."
+        "en": "These twelve slides are the full field guide to a difficult conversation. They begin with conflict as a source of learning, and the shift from protection to adaptation that a difficult conversation asks for. Then take each AVEC element in turn: what it is, why it matters, and tips for your next conversation before and during. A knowledge check lets you apply the framework, and the key takeaways close it. Move at your own pace (the slide text is available under the player), then continue to Exhibit 1.",
+        "id": "Dua belas slide ini adalah panduan lengkap untuk percakapan yang sulit. Slide-slide ini mulai dari konflik sebagai sumber belajar, dan pergeseran dari mode melindungi diri ke mode beradaptasi yang dibutuhkan dalam percakapan sulit. Lalu setiap unsur AVEC dibahas bergantian: apa itu, kenapa penting, dan tips untuk percakapanmu berikutnya, sebelum dan selama percakapan. Satu cek pemahaman memberimu kesempatan menerapkan kerangkanya, dan poin-poin penting menutupnya. Telusuri sesuai kecepatanmu (teks slide tersedia di bawah pemutar), lalu lanjutkan ke Gambar 1."
        },
        "base": "../../assets/lms/the-map/slides/relationships-stronger-",
        "slides": [
@@ -12073,8 +12023,8 @@ window.MT_LMS['the-map'] = {
         "id": "Apa yang Mendorong Efektivitas Tim: Materi"
        },
        "intro": {
-        "en": "The exhibit and the Alisha and Marino films showed what AVEC builds between two people. These three slides show what it builds at team scale. Google interviewed more than 180 of its teams to ask what makes a team effective; the answer was not who was on the team but how it worked together, and the first of its five dynamics, psychological safety, underpinned the other four. Sort the factors yourself on slide two, then hold the last slide's two questions until the Psychological Safety film later in this lesson.",
-        "id": "Gambar dan film-film Alisha dan Marino tadi menunjukkan apa yang dibangun AVEC di antara dua orang. Tiga slide ini menunjukkan apa yang dibangunnya dalam skala tim. Google mewawancarai lebih dari 180 timnya untuk menanyakan apa yang membuat sebuah tim efektif; jawabannya bukan siapa anggota timnya, melainkan bagaimana tim itu bekerja sama, dan dinamika pertama dari lima yang ditemukan, rasa aman psikologis, menopang empat lainnya. Pilah sendiri faktor-faktornya di slide kedua, lalu simpan dua pertanyaan dari slide terakhir sampai film Rasa Aman Psikologis nanti di pelajaran ini."
+        "en": "The exhibit showed what AVEC builds between two people. These three slides show what it builds at team scale. Google interviewed more than 180 of its teams to ask what makes a team effective; the answer was not who was on the team but how it worked together, and the first of its five dynamics, psychological safety, underpinned the other four. Sort the factors yourself on slide two, then hold the last slide's two questions for the slides on psychological safety later in this lesson.",
+        "id": "Gambar tadi menunjukkan apa yang dibangun AVEC di antara dua orang. Tiga slide ini menunjukkan apa yang dibangunnya dalam skala tim. Google mewawancarai lebih dari 180 timnya untuk menanyakan apa yang membuat sebuah tim efektif; jawabannya bukan siapa anggota timnya, melainkan bagaimana tim itu bekerja sama, dan dinamika pertama dari lima yang ditemukan, rasa aman psikologis, menopang empat lainnya. Pilah sendiri faktor-faktornya di slide kedua, lalu simpan dua pertanyaan dari slide terakhir sampai slide tentang rasa aman psikologis nanti di pelajaran ini."
        },
        "base": "../../assets/lms/the-map/slides/team-effectiveness-",
        "slides": [
@@ -12121,8 +12071,8 @@ window.MT_LMS['the-map'] = {
         "id": "Bagaimana Kita Menciptakan Rasa Aman Psikologis: Materi"
        },
        "intro": {
-        "en": "The film's closing panel named what a whole team practising AVEC looks like: psychological safety. These eight slides answer the next question: how do we create it? They introduce the REACH model and walk through its first three actions, each with what good and great look like and a knowledge check to try: reframe mistakes (slides 2–3), encourage all voices (4–5) and appreciate contributions (6–8). Read them with the team you are on now in mind, then take one action into the key terms, the coaching slides and the knowledge check that close the lesson.",
-        "id": "Panel penutup film tadi menyebut wujud sebuah tim yang seluruhnya mempraktikkan AVEC: rasa aman psikologis. Delapan slide ini menjawab pertanyaan berikutnya: bagaimana kita menciptakannya? Slide-slide ini memperkenalkan model REACH dan membahas tiga tindakan pertamanya, masing-masing dengan gambaran versi baik dan versi hebat serta satu cek pemahaman untuk dicoba: memaknai ulang kesalahan (slide 2–3), mengajak semua orang bersuara (4–5), dan menghargai kontribusi (6–8). Bacalah sambil membayangkan tim tempatmu berada sekarang, lalu bawa satu tindakan ke istilah kunci, slide coaching, dan cek pemahaman yang menutup pelajaran ini."
+        "en": "A whole team practising AVEC has a name: psychological safety. These eight slides answer the next question: how do we create it? They introduce the REACH model and walk through its first three actions, each with what good and great look like and a knowledge check to try: reframe mistakes (slides 2–3), encourage all voices (4–5) and appreciate contributions (6–8). Read them with the team you are on now in mind, then take one action into the key terms, the coaching slides and the knowledge check that close the lesson.",
+        "id": "Tim yang seluruhnya mempraktikkan AVEC punya nama: rasa aman psikologis. Delapan slide ini menjawab pertanyaan berikutnya: bagaimana kita menciptakannya? Slide-slide ini memperkenalkan model REACH dan membahas tiga tindakan pertamanya, masing-masing dengan gambaran versi baik dan versi hebat serta satu cek pemahaman untuk dicoba: memaknai ulang kesalahan (slide 2–3), mengajak semua orang bersuara (4–5), dan menghargai kontribusi (6–8). Bacalah sambil membayangkan tim tempatmu berada sekarang, lalu bawa satu tindakan ke istilah kunci, slide coaching, dan cek pemahaman yang menutup pelajaran ini."
        },
        "base": "../../assets/lms/the-map/slides/create-psych-safety-",
        "slides": [
@@ -12283,202 +12233,6 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
-      }
-     ],
-     "youtube": [
-      {
-       "id": "HvK8crO66Fg",
-       "placement": "after-material:2",
-       "dur": "3:06",
-       "kicker": {
-        "en": "Watch next · Lesson video",
-        "id": "Tonton berikutnya · Video pelajaran"
-       },
-       "title": {
-        "en": "Potentially difficult: open the door with AVEC",
-        "id": "Berpotensi sulit: buka pintunya dengan AVEC"
-       },
-       "intro": {
-        "en": "The slide asked you to watch the video. Here it is: the difficult conversation as a closed door, the stories we make up about the other person and about ourselves while we stand in front of it (the guilt, the racing heart, the “I'm too busy for this”), and the tip that opens it: be curious, and walk in with attention, vulnerability, empathy and compassion. Bring one conversation you have been putting off to mind before you press play.",
-        "id": "Slide tadi memintamu menonton videonya. Inilah dia: percakapan sulit sebagai pintu yang tertutup, cerita-cerita yang kita karang tentang orang lain dan tentang diri sendiri saat berdiri di depannya (rasa bersalah, jantung yang berdebar, \"aku terlalu sibuk untuk ini\"), dan tips untuk membukanya: jadilah penasaran, lalu masuklah dengan perhatian, keterbukaan, empati, dan welas asih. Ingat satu percakapan yang selama ini kamu tunda sebelum menekan tombol putar."
-       },
-       "captions": {
-        "en": "../../assets/lms/the-map/difficult-conversations-en.vtt",
-        "id": "../../assets/lms/the-map/difficult-conversations-id.vtt"
-       },
-       "outro": {
-        "title": {
-         "en": "Carry this into the exhibit",
-         "id": "Bawa ini ke gambar berikutnya"
-        },
-        "body": [
-         {
-          "en": "The door stays shut for two reasons the film named: a fixed mindset that nothing good can come of it, and the stories we tell about the other person and ourselves. Neither is about the conversation; both are about us. Curiosity is the handle.",
-          "id": "Film tadi menyebut dua alasan pintu itu tetap tertutup: pola pikir tetap bahwa tidak ada hal baik yang bisa muncul darinya, dan cerita-cerita yang kita karang tentang orang lain dan diri sendiri. Keduanya bukan soal percakapannya; keduanya soal kita. Rasa penasaran adalah gagang pintunya."
-         },
-         {
-          "en": "Next, the twelve-slide field guide takes each element in turn (what it is, why it matters, and tips for your next conversation) and lets you apply it with Alisha and Marino. Exhibit 1 then distils the four into one sequence; read it with your own postponed conversation in mind. Which element would open it? And take the same question to your relationships in the reflection steps that follow.",
-          "id": "Berikutnya, panduan dua belas slide membahas setiap unsur bergantian (apa itu, kenapa penting, dan tips untuk percakapanmu berikutnya) dan memberimu kesempatan menerapkannya bersama Alisha dan Marino. Lalu Gambar 1 merangkum keempatnya menjadi satu rangkaian; bacalah sambil mengingat percakapan yang kamu tunda tadi. Unsur mana yang akan membukanya? Bawa juga pertanyaan yang sama ke relasi-relasimu dalam langkah-langkah renungan berikutnya."
-         }
-        ]
-       }
-      }
-     ],
-     "videoBlocks": [
-      {
-       "key": "psych-safety",
-       "placement": "after-mistakes",
-       "kicker": {
-        "en": "Watch next · Lesson video",
-        "id": "Tonton berikutnya · Video pelajaran"
-       },
-       "intro": {
-        "en": "The mistakes above are all ways a conversation goes wrong one-to-one. This film widens the lens to the team: what happens when a group shames and blames its members for their mistakes, censors itself to avoid backlash, and stops helping each other learn, and what becomes possible when it feels psychologically safe instead. Three minutes on why fewer than a third of teams have that safety, what it does for performance, and why it is within your power to create it, whatever your role.",
-        "id": "Kesalahan-kesalahan di atas adalah cara-cara percakapan empat mata berjalan keliru. Film ini memperluas sudut pandangnya ke tim: apa yang terjadi ketika sebuah kelompok mempermalukan dan menyalahkan anggotanya atas kesalahan, menyensor diri untuk menghindari serangan balik, dan berhenti saling membantu belajar, serta apa yang menjadi mungkin ketika kelompok itu justru merasa aman secara psikologis. Tiga menit tentang kenapa kurang dari sepertiga tim memiliki rasa aman itu, apa pengaruhnya bagi kinerja, dan kenapa menciptakannya ada dalam kuasamu, apa pun peranmu."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/psych-safety-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/psych-safety-1-poster.jpg",
-         "dur": "3:15",
-         "title": {
-          "en": "Psychological safety: greater than the sum of its parts",
-          "id": "Rasa aman psikologis: lebih besar dari jumlah bagian-bagiannya"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/psych-safety-1-en.vtt",
-          "id": "../../assets/lms/the-map/psych-safety-1-id.vtt"
-         }
-        }
-       ],
-       "outro": {
-        "title": {
-         "en": "From one conversation to the whole team",
-         "id": "Dari satu percakapan ke seluruh tim"
-        },
-        "body": [
-         {
-          "en": "AVEC is how one relationship becomes strong. Psychological safety is what it looks like when a whole team practises it: attention that makes people feel heard, vulnerability that makes mistakes admissible, empathy that keeps different opinions welcome, compassion that turns errors into learning instead of blame. The film's numbers are the stakes: more error reporting, fewer deaths; more safety, less turnover.",
-          "id": "AVEC adalah cara satu relasi menjadi kuat. Rasa aman psikologis adalah wujudnya ketika seluruh tim mempraktikkannya: perhatian yang membuat orang merasa didengar, keterbukaan yang membuat kesalahan bisa diakui, empati yang membuat pendapat berbeda tetap diterima, welas asih yang mengubah kesalahan menjadi pelajaran, bukan bahan menyalahkan. Angka-angka dalam film itu menunjukkan taruhannya: lebih banyak laporan kesalahan, lebih sedikit kematian; lebih banyak rasa aman, lebih sedikit karyawan yang keluar."
-         },
-         {
-          "en": "That raises the practical question the next eight slides answer: how do we create that safety? They introduce the REACH model (reframe mistakes, encourage all voices, appreciate contributions), with a knowledge check for each. Carry one question through them and into the key terms and knowledge check that close the lesson: on the team you are on now, which AVEC element would do most to make it safer, and is it one you can start practising this week?",
-          "id": "Itu memunculkan pertanyaan praktis yang dijawab delapan slide berikutnya: bagaimana kita menciptakan rasa aman itu? Slide-slide itu memperkenalkan model REACH (memaknai ulang kesalahan, mengajak semua orang bersuara, menghargai kontribusi), dengan satu cek pemahaman untuk masing-masing. Bawa satu pertanyaan sepanjang slide-slide itu sampai ke istilah kunci dan cek pemahaman yang menutup pelajaran ini: di tim tempatmu berada sekarang, unsur AVEC mana yang paling bisa membuatnya lebih aman, dan apakah itu unsur yang bisa mulai kamu praktikkan minggu ini?"
-         }
-        ]
-       }
-      },
-      {
-       "key": "alisha-marino",
-       "placement": "after-exhibit",
-       "kicker": {
-        "en": "Watch next · 2 short videos",
-        "id": "Tonton berikutnya · 2 video pendek"
-       },
-       "intro": {
-        "en": "The exhibit gave you the four elements in order, and the slides that follow will show what they build at team scale: psychological safety. First, hear the conversation they are for. The deck's knowledge check introduced Alisha and Marino; these two short films let each of them speak. First Alisha: frustrated, behind on the project, blaming Marino and unsure how to even start the conversation. Then Marino: the side she has not heard (two projects, no clear priorities, pressure from his last review, and the feeling of letting everyone down). Watch them in order, then ask which AVEC element each of them is missing.",
-        "id": "Gambar tadi memberimu empat unsur secara berurutan, dan slide-slide berikutnya akan menunjukkan apa yang dibangunnya dalam skala tim: rasa aman psikologis. Pertama, dengarkan percakapan yang menjadi tujuan unsur-unsur itu. Cek pemahaman di slide tadi memperkenalkan Alisha dan Marino; dua film pendek ini memberi masing-masing kesempatan bicara. Pertama Alisha: frustrasi, proyeknya tertinggal, menyalahkan Marino, dan tidak tahu bagaimana memulai percakapannya. Lalu Marino: sisi yang belum didengar Alisha (dua proyek sekaligus, prioritas yang tidak jelas, tekanan dari penilaian kinerjanya yang lalu, dan perasaan mengecewakan semua orang). Tonton berurutan, lalu tanyakan unsur AVEC mana yang tidak dimiliki masing-masing."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/stronger-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/stronger-1-poster.jpg",
-         "dur": "0:36",
-         "title": {
-          "en": "v1 · Alisha: “I don't even know how to start the conversation”",
-          "id": "v1 · Alisha: \"Aku bahkan tidak tahu bagaimana memulai percakapannya\""
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/stronger-1-en.vtt",
-          "id": "../../assets/lms/the-map/stronger-1-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/stronger-2-brand.mp4",
-         "poster": "../../assets/lms/the-map/stronger-2-poster.jpg",
-         "dur": "0:50",
-         "title": {
-          "en": "v2 · Marino: “It feels like I'm letting everyone down”",
-          "id": "v2 · Marino: \"Rasanya aku mengecewakan semua orang\""
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/stronger-2-en.vtt",
-          "id": "../../assets/lms/the-map/stronger-2-id.vtt"
-         }
-        }
-       ],
-       "outro": {
-        "title": {
-         "en": "Two sides, one conversation",
-         "id": "Dua sisi, satu percakapan"
-        },
-        "body": [
-         {
-          "en": "Alisha's story is the closed door from the film: a fixed verdict (“we're in this situation because of Marino”) and no idea how to begin. Marino's story is what is on the other side of it (overload, missing context, a review he is still carrying), none of which she can see while she is standing outside. Attention would have surfaced it weeks ago; vulnerability from either of them would have opened it.",
-          "id": "Cerita Alisha adalah pintu tertutup dari film tadi: vonis yang sudah pasti (\"kita dalam situasi ini gara-gara Marino\") dan tidak tahu harus mulai dari mana. Cerita Marino adalah apa yang ada di balik pintu itu (beban berlebih, konteks yang tidak lengkap, penilaian kinerja yang masih ia pikul), dan semua itu tidak bisa dilihat Alisha selama ia berdiri di luar. Perhatian akan memunculkannya berminggu-minggu lalu; keterbukaan dari salah satu di antara mereka akan membukanya."
-         },
-         {
-          "en": "The sections below take the four elements into your own week: why relationships are performance infrastructure, how AVEC runs inside a single conversation, and the regularity and nuance that turn knowing into practice. Keep Alisha and Marino in mind: the reflection steps will ask you to find your own version of their conversation.",
-          "id": "Bagian-bagian di bawah membawa keempat unsur ke minggumu sendiri: kenapa relasi adalah infrastruktur kinerja, bagaimana AVEC berjalan dalam satu percakapan, serta keteraturan dan kepekaan yang mengubah tahu menjadi praktik. Ingat terus Alisha dan Marino: langkah-langkah renungan nanti akan memintamu menemukan versimu sendiri dari percakapan mereka."
-         }
-        ]
-       }
-      },
-      {
-       "key": "avec-films",
-       "placement": "after-material:1",
-       "kicker": {
-        "en": "Watch next · 2 short videos",
-        "id": "Tonton berikutnya · 2 video pendek"
-       },
-       "intro": {
-        "en": "The slides named the framework; two short films now show it. The first explains AVEC: why strong social connections predict health, happiness and longevity, and what attention, vulnerability, empathy and compassion each ask of you. The second puts it in action: Svea and Bo, five years as colleagues, a relationship that has quietly become the obstacle, and what changes when each of them brings AVEC to it. Watch them in order, then continue to Exhibit 1.",
-        "id": "Slide tadi menyebutkan kerangkanya; dua film pendek kini menunjukkannya. Film pertama menjelaskan AVEC: kenapa hubungan sosial yang kuat memprediksi kesehatan, kebahagiaan, dan umur panjang, serta apa yang dituntut perhatian, keterbukaan, empati, dan welas asih darimu. Film kedua menunjukkannya dalam praktik: Svea dan Bo, lima tahun menjadi rekan kerja, hubungan yang diam-diam berubah menjadi penghalang, dan apa yang berubah ketika masing-masing membawa AVEC ke dalamnya. Tonton berurutan, lalu lanjutkan ke Gambar 1."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/avec-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/avec-1-poster.jpg",
-         "dur": "2:10",
-         "title": {
-          "en": "AVEC 1 · The four not-so-secret secrets",
-          "id": "AVEC 1 · Empat rahasia yang tidak terlalu rahasia"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/avec-1-en.vtt",
-          "id": "../../assets/lms/the-map/avec-1-id.vtt"
-         }
-        },
-        {
-         "src": "../../assets/lms/the-map/avec-2-brand.mp4",
-         "poster": "../../assets/lms/the-map/avec-2-poster.jpg",
-         "dur": "2:12",
-         "title": {
-          "en": "AVEC 2 · In action: Svea and Bo",
-          "id": "AVEC 2 · Dalam praktik: Svea dan Bo"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/avec-2-en.vtt",
-          "id": "../../assets/lms/the-map/avec-2-id.vtt"
-         }
-        }
-       ],
-       "outro": {
-        "title": {
-         "en": "Carry this into the exhibit",
-         "id": "Bawa ini ke gambar berikutnya"
-        },
-        "body": [
-         {
-          "en": "Film one gave you the why and the what: strong connections are one of the strongest predictors of a healthy, long life, and AVEC is how they are built: attention that turns toward the person, vulnerability that says the true thing, empathy that listens to understand, compassion that offers help. Film two showed the cost of their absence: Svea and Bo were never in conflict about the work; they were each missing one element, and the relationship became the challenge instead of the thing that helps you through it.",
-          "id": "Film pertama memberimu alasan dan isinya: hubungan yang kuat adalah salah satu prediktor terkuat hidup yang sehat dan panjang, dan AVEC adalah cara membangunnya: perhatian yang menghadap orangnya, keterbukaan yang menyampaikan hal yang sebenarnya, empati yang mendengarkan untuk memahami, welas asih yang menawarkan bantuan. Film kedua menunjukkan akibatnya kalau unsur-unsur itu tidak ada: Svea dan Bo tidak pernah berkonflik soal pekerjaannya; masing-masing hanya kehilangan satu unsur, dan hubungan mereka berubah menjadi tantangan, bukan hal yang membantu melewatinya."
-         },
-         {
-          "en": "Next, the Potentially Difficult slide asks the question Svea and Bo never faced: is a hard conversation a risk, or a door to a stronger connection? Exhibit 1 then lays the four elements out as one sequence, each making the next possible. Read it with Svea and Bo in mind. Which element was each of them missing? Then take the same question to your own relationships in the reflection steps that follow.",
-          "id": "Berikutnya, slide Berpotensi Sulit mengajukan pertanyaan yang tidak pernah dihadapi Svea dan Bo: apakah percakapan yang sulit itu risiko, atau pintu menuju hubungan yang lebih erat? Lalu Gambar 1 menata keempat unsur sebagai satu rangkaian, masing-masing memungkinkan unsur berikutnya. Bacalah sambil mengingat Svea dan Bo. Unsur mana yang tidak dimiliki masing-masing? Lalu bawa pertanyaan yang sama ke relasi-relasimu sendiri dalam langkah-langkah renungan berikutnya."
-         }
-        ]
-       }
       }
      ],
      "sections": [
@@ -13365,8 +13119,8 @@ window.MT_LMS['the-map'] = {
         "id": "(Pesan pribadi) \"Jar, gimana kabarnya? Kamu agak sepi dua hari ini, semua oke? Slide bagianmu masih kami tunggu; kalau lagi berat, bilang aja, aku bisa bantu bagian grafiknya malam ini. Kita kumpul jam 10 besok pagi.\""
        },
        "why": {
-        "en": "The strong message uses all four elements. Attention: it noticed the silence. Vulnerability: it is direct about the need. Empathy: “semua oke?” leaves room for a reason you can't see (remember Marino). Compassion: a concrete offer and a clear time. It is private first, so Fajar keeps face. The weak message shames him publicly and invites defensiveness, which is the opposite of REACH.",
-        "id": "Pesan yang kuat memakai keempat unsur. Perhatian: pesan itu menyadari diamnya Fajar. Keterbukaan: pesan itu lugas soal kebutuhannya. Empati: \"semua oke?\" memberi ruang bagi alasan yang tidak bisa kamu lihat (ingat Marino). Welas asih: tawaran yang konkret dan waktu yang jelas. Pesan itu dikirim secara pribadi dulu, jadi Fajar tetap terjaga mukanya. Pesan yang lemah mempermalukannya di depan umum dan memancing sikap defensif, kebalikan dari REACH."
+        "en": "The strong message uses all four elements. Attention: it noticed the silence. Vulnerability: it is direct about the need. Empathy: “semua oke?” leaves room for a reason you can't see. Compassion: a concrete offer and a clear time. It is private first, so Fajar keeps face. The weak message shames him publicly and invites defensiveness, which is the opposite of REACH.",
+        "id": "Pesan yang kuat memakai keempat unsur. Perhatian: pesan itu menyadari diamnya Fajar. Keterbukaan: pesan itu lugas soal kebutuhannya. Empati: \"semua oke?\" memberi ruang bagi alasan yang tidak bisa kamu lihat. Welas asih: tawaran yang konkret dan waktu yang jelas. Pesan itu dikirim secara pribadi dulu, jadi Fajar tetap terjaga mukanya. Pesan yang lemah mempermalukannya di depan umum dan memancing sikap defensif, kebalikan dari REACH."
        }
       }
      ],
@@ -13391,7 +13145,36 @@ window.MT_LMS['the-map'] = {
         "id": "Keesokan paginya, ia berterima kasih kepada Mbak Sari secara spesifik di grup tim. Seminggu kemudian, Mbak Sari meneruskan kepadanya sebuah template yang ia buat \"karena kamu bakal butuh ini buat tutup buku akhir bulan\"."
        }
       ]
-     }
+     },
+     "videos": [
+      {
+       "src": {
+        "en": "../../assets/lms/films/map-5-3-four-small-moves-en.mp4",
+        "id": "../../assets/lms/films/map-5-3-four-small-moves-id.mp4"
+       },
+       "poster": {
+        "en": "../../assets/lms/films/map-5-3-four-small-moves-en-poster.jpg",
+        "id": "../../assets/lms/films/map-5-3-four-small-moves-id-poster.jpg"
+       },
+       "dur": {
+        "en": "2:49",
+        "id": "2:39"
+       },
+       "title": {
+        "en": "Four small moves: how a strong relationship is built",
+        "id": "Empat langkah kecil: cara relasi yang kuat dibangun"
+       }
+      }
+     ],
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "One short film follows these slides: Salma, a sigh at the next desk, and the four moves that turn a small moment into trust. Watch it, then continue with the slides.",
+      "id": "Satu film singkat menyusul slide ini: Salma, helaan napas di meja sebelah, dan empat langkah yang mengubah momen kecil menjadi kepercayaan. Tonton, lalu lanjutkan ke slide berikutnya."
+     },
+     "videosPlacement": "after-material:1"
     },
     {
      "n": "5.4",
@@ -15376,8 +15159,8 @@ window.MT_LMS['the-map'] = {
         "id": "Perangkat Digital: Materi"
        },
        "intro": {
-        "en": "Three slides from the Digital Toolkit, the source course's own opener for this chapter. They frame the digital world the four anchors are built for (emerging technologies, AI, data and analytics, automation, digital collaboration, business transformation), tell you how to use the material whether you are experienced or new to digital, and end with a reflection to carry into the film below: the most recent digital project you were part of, or watched others lead. What made it memorable, and what promise for the future did it hold?",
-        "id": "Tiga slide dari Perangkat Digital, pembuka bab ini dari kursus sumbernya. Slide-slide ini menggambarkan dunia digital yang menjadi latar empat jangkar tadi (teknologi baru, AI, data dan analitik, otomatisasi, kolaborasi digital, transformasi bisnis), memberi tahu cara memakai materinya entah kamu sudah berpengalaman atau baru mengenal dunia digital, dan ditutup dengan bahan renungan untuk dibawa ke film di bawah: proyek digital terbaru yang kamu ikuti, atau yang kamu lihat dipimpin orang lain. Apa yang membuatnya berkesan, dan janji masa depan apa yang dibawanya?"
+        "en": "Three slides from the Digital Toolkit, the source course's own opener for this chapter. They frame the digital world the four anchors are built for (emerging technologies, AI, data and analytics, automation, digital collaboration, business transformation), tell you how to use the material whether you are experienced or new to digital, and end with a reflection: the most recent digital project you were part of, or watched others lead. What made it memorable, and what promise for the future did it hold?",
+        "id": "Tiga slide dari Perangkat Digital, pembuka bab ini dari kursus sumbernya. Slide-slide ini menggambarkan dunia digital yang menjadi latar empat jangkar tadi (teknologi baru, AI, data dan analitik, otomatisasi, kolaborasi digital, transformasi bisnis), memberi tahu cara memakai materinya entah kamu sudah berpengalaman atau baru mengenal dunia digital, dan ditutup dengan bahan renungan: proyek digital terbaru yang kamu ikuti, atau yang kamu lihat dipimpin orang lain. Apa yang membuatnya berkesan, dan janji masa depan apa yang dibawanya?"
        },
        "base": "../../assets/lms/the-map/slides/digital-toolkit-",
        "slides": [
@@ -15424,8 +15207,8 @@ window.MT_LMS['the-map'] = {
         "id": "Peluang di Depan: Materi"
        },
        "intro": {
-        "en": "One slide and one more film before the check. The first film ended on the invitation to invent the future together; this slide, the source course's companion to it, lists the innovations that film showed (cloud computing, AI, smart cities, digital payments, automation, data and analytics, remote work) and asks two reflection questions to carry into the short film below, which was made to follow it: which parts of your life digital has already changed, and which of those innovations you are most excited about, and why. Hold them while you watch, then take the knowledge check.",
-        "id": "Satu slide dan satu film lagi sebelum cek pemahaman. Film pertama ditutup dengan ajakan untuk menciptakan masa depan bersama; slide ini, pendamping film itu dari kursus sumbernya, mendaftar inovasi yang diperlihatkan film tadi (komputasi awan, AI, kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh) dan mengajukan dua pertanyaan renungan untuk dibawa ke film pendek di bawah, yang memang dibuat sebagai lanjutannya: bagian hidupmu yang mana yang sudah diubah oleh dunia digital, dan inovasi mana yang paling membuatmu bersemangat, serta kenapa. Pegang kedua pertanyaan itu sambil menonton, lalu kerjakan cek pemahaman."
+        "en": "One slide. It lists innovations that are already changing daily life (cloud computing, AI, smart cities, digital payments, automation, data and analytics, remote work) and asks two reflection questions: which parts of your life digital has already changed, and which of those innovations you are most excited about, and why. Where the slide mentions a video, read on: the questions stand without it.",
+        "id": "Satu slide. Slide ini mendaftar inovasi yang sudah mengubah keseharian (komputasi awan, AI, kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh) dan mengajukan dua pertanyaan renungan: bagian hidupmu yang mana yang sudah diubah oleh dunia digital, dan inovasi mana yang paling membuatmu bersemangat, serta kenapa. Jika slide itu menyebut sebuah video, lanjutkan saja: pertanyaannya tetap bisa dijawab tanpanya."
        },
        "base": "../../assets/lms/the-map/slides/opportunities-ahead-",
        "slides": [
@@ -15452,8 +15235,8 @@ window.MT_LMS['the-map'] = {
         "id": "Bagaimana Dunia Digital Memengaruhi Hidupmu: Materi"
        },
        "intro": {
-        "en": "Three slides, then one short film, close the lesson before the check. The first turns the film's question on you: one new app, device or digital service you have started using, how it changed your life, and which benefits you gained, and it tells you the answer to the tick-list before you reach it. The second defines what the source course means by digital, data, technology and new ways of working, and the third goes deeper into data. Its “as you watch this video” points at the short film that follows the deck (How we use data now); the knowledge check comes after that.",
-        "id": "Tiga slide, lalu satu film pendek, menutup pelajaran ini sebelum cek pemahaman. Slide pertama mengarahkan pertanyaan film tadi kepadamu: satu aplikasi, perangkat, atau layanan digital baru yang mulai kamu pakai, bagaimana itu mengubah hidupmu, dan manfaat apa yang kamu dapat; slide itu juga memberi tahu jawaban daftar centangnya sebelum kamu sampai ke sana. Slide kedua menjelaskan apa yang dimaksud kursus sumber dengan digital, data, teknologi, dan cara kerja baru, dan slide ketiga membahas data lebih dalam. Ajakan \"sambil menonton video ini\" di slide itu mengarah ke film pendek sesudah slide-slide ini (Cara kita memakai data sekarang); cek pemahaman datang sesudahnya."
+        "en": "Three slides. The first asks about you: one new app, device or digital service you have started using, how it changed your life, and which benefits you gained, and it tells you the answer to the tick-list before you reach it. The second defines digital, data, technology and new ways of working, and the third goes deeper into data. Where the third slide mentions a video, read on: the next deck covers the same ground.",
+        "id": "Tiga slide. Slide pertama bertanya tentang dirimu: satu aplikasi, perangkat, atau layanan digital baru yang mulai kamu pakai, bagaimana itu mengubah hidupmu, dan manfaat apa yang kamu dapat; slide itu juga memberi tahu jawaban daftar centangnya sebelum kamu sampai ke sana. Slide kedua menjelaskan arti digital, data, teknologi, dan cara kerja baru, dan slide ketiga membahas data lebih dalam. Jika slide ketiga menyebut sebuah video, lanjutkan saja: rangkaian slide berikutnya membahas hal yang sama."
        },
        "base": "../../assets/lms/the-map/slides/digital-impact-",
        "slides": [
@@ -15500,8 +15283,8 @@ window.MT_LMS['the-map'] = {
         "id": "Bagaimana Data Menciptakan Nilai: Materi"
        },
        "intro": {
-        "en": "The film's last line was that it is the use of data, not the data, that transforms industries. These nine slides show what that looks like in practice, and complete the digital toolkit the lesson has been assembling. Slides 1–2 follow Victor and a streaming service through collect → analyse → deliver value → create new content. Slides 3–5 turn to technology: cloud, AI and generative AI, connected devices, each with real-world examples. Slides 6–9 cover new ways of working: design thinking, solving the right problem, design thinking for every role, and Agile with its sprint cycle. Read them as the field guide behind the four anchors; the last slide's Agile-versus-traditional table is then played out in a short film before the knowledge check.",
-        "id": "Kalimat terakhir film tadi menyatakan bahwa yang mengubah industri adalah cara data dipakai, bukan datanya. Sembilan slide ini menunjukkan wujudnya dalam praktik, sekaligus melengkapi perangkat digital yang sedang dirakit pelajaran ini. Slide 1–2 mengikuti Victor dan sebuah layanan streaming melalui alur kumpulkan → analisis → berikan nilai → ciptakan konten baru. Slide 3–5 beralih ke teknologi: komputasi awan, AI dan AI generatif, perangkat terhubung, masing-masing dengan contoh nyata. Slide 6–9 membahas cara kerja baru: design thinking, memecahkan masalah yang tepat, design thinking untuk setiap peran, dan Agile beserta siklus sprint-nya. Bacalah sebagai panduan lapangan di balik empat jangkar; tabel Agile lawan cara tradisional di slide terakhir kemudian diperagakan dalam film pendek sebelum cek pemahaman."
+        "en": "It is the use of data, not the data itself, that transforms industries. These nine slides show what that looks like in practice, and complete the digital toolkit the lesson has been assembling. Slides 1–2 follow Victor and a streaming service through collect → analyse → deliver value → create new content. Slides 3–5 turn to technology: cloud, AI and generative AI, connected devices, each with real-world examples. Slides 6–9 cover new ways of working: design thinking, solving the right problem, design thinking for every role, and Agile with its sprint cycle. Read them as the field guide behind the four anchors, then take the knowledge check.",
+        "id": "Yang mengubah industri adalah cara data dipakai, bukan datanya. Sembilan slide ini menunjukkan wujudnya dalam praktik, sekaligus melengkapi perangkat digital yang sedang dirakit pelajaran ini. Slide 1–2 mengikuti Victor dan sebuah layanan streaming melalui alur kumpulkan → analisis → berikan nilai → ciptakan konten baru. Slide 3–5 beralih ke teknologi: komputasi awan, AI dan AI generatif, perangkat terhubung, masing-masing dengan contoh nyata. Slide 6–9 membahas cara kerja baru: design thinking, memecahkan masalah yang tepat, design thinking untuk setiap peran, dan Agile beserta siklus sprint-nya. Bacalah sebagai panduan lapangan di balik empat jangkar, lalu kerjakan cek pemahaman."
        },
        "base": "../../assets/lms/the-map/slides/data-value-",
        "slides": [
@@ -15600,180 +15383,6 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
-      }
-     ],
-     "videoBlocks": [
-      {
-       "key": "inventing-future",
-       "placement": "end:20",
-       "kicker": {
-        "en": "Watch next · Lesson video",
-        "id": "Tonton berikutnya · Video pelajaran"
-       },
-       "intro": {
-        "en": "The toolkit's last slide asked you to watch this film with one digital project in mind: the most recent one you were part of, or saw others lead. The four anchors (fundamentals, the learning loop, public evidence, the sensing network) are a stance for a world where the tools keep changing; the film shows that world from the other side: not what you must keep up with, but what the people who use digital, data and new ways of working are already building (farms that feed more people, supply chains at a scale never reached before, medicine reaching patients who were out of reach), and the part it hands to you. Two and a half minutes before the check. Listen for the three habits it names at the end; the check then asks what the fundamentals-first stance prescribes when the next tool arrives.",
-        "id": "Slide terakhir perangkat digital memintamu menonton film ini sambil memikirkan satu proyek digital: proyek terbaru yang kamu ikuti, atau yang kamu lihat dipimpin orang lain. Empat jangkar (dasar-dasar, lingkaran belajar, bukti publik, jaringan pemantau) adalah sikap untuk dunia yang alat-alatnya terus berubah; film ini memperlihatkan dunia itu dari sisi sebaliknya: bukan apa yang harus kamu kejar, melainkan apa yang sudah dibangun orang-orang yang memakai digital, data, dan cara kerja baru (pertanian yang memberi makan lebih banyak orang, rantai pasok dalam skala yang belum pernah tercapai, layanan kesehatan yang menjangkau pasien yang sebelumnya tak terjangkau), serta peran yang diserahkannya kepadamu. Dua setengah menit sebelum cek pemahaman. Dengarkan tiga kebiasaan yang disebutkan di akhir; cek pemahaman kemudian menanyakan apa yang dianjurkan sikap mendahulukan dasar-dasar ketika alat berikutnya datang."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/inventing-future-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/inventing-future-1-poster.jpg",
-         "dur": "2:28",
-         "title": {
-          "en": "Inventing the future",
-          "id": "Menciptakan masa depan"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/inventing-future-1-en.vtt",
-          "id": "../../assets/lms/the-map/inventing-future-1-id.vtt"
-         }
-        }
-       ],
-       "outro": {
-        "title": {
-         "en": "Inventing it with the four anchors",
-         "id": "Menciptakannya dengan empat jangkar"
-        },
-        "body": [
-         {
-          "en": "The film closes on three habits: stay curious, take opportunities to learn new skills, keep seeking new possibilities. They are the four anchors in other words: curiosity is the sensing network and the fundamentals question, learning new skills is the loop, and seeking possibilities is the project that becomes public evidence.",
-          "id": "Film ini ditutup dengan tiga kebiasaan: tetap penasaran, ambil kesempatan untuk mempelajari keterampilan baru, dan terus mencari kemungkinan baru. Ketiganya adalah empat jangkar dengan kata-kata lain: rasa penasaran adalah jaringan pemantau dan pertanyaan tentang dasar-dasar, mempelajari keterampilan baru adalah lingkarannya, dan mencari kemungkinan adalah proyek yang menjadi bukti publik."
-         },
-         {
-          "en": "A slide and a second short film stand between this film and the knowledge check: Opportunities Ahead, with two reflection questions, and the film made to follow it. The check then asks what the fundamentals-first stance prescribes when a new tool sweeps your industry. Answer it with the film in mind: the people it celebrates did not wait for the tool to settle; they put it through a real problem.",
-          "id": "Satu slide dan satu film pendek lagi berada di antara film ini dan cek pemahaman: Peluang di Depan, dengan dua pertanyaan renungan, dan film yang dibuat sebagai lanjutannya. Cek pemahaman lalu menanyakan apa yang dianjurkan sikap mendahulukan dasar-dasar ketika sebuah alat baru melanda industrimu. Jawablah sambil mengingat film ini: orang-orang yang dirayakannya tidak menunggu alatnya mapan; mereka langsung mengujinya pada masalah yang nyata."
-         }
-        ]
-       }
-      },
-      {
-       "key": "opportunities-ahead",
-       "placement": "end:40",
-       "kicker": {
-        "en": "Watch last · Lesson video",
-        "id": "Tonton terakhir · Video pelajaran"
-       },
-       "intro": {
-        "en": "The slide above asked you to watch this video with two questions in mind. Here it is: two minutes on a future that is uncertain but certainly digital (self-driving cars built from sensors, cloud storage and AI; the lives and carbon they could save), and on what stays the same as change speeds up: the human abilities that decide how much autonomy a car gets and who is accountable. It then names the digital toolkit this lesson has been assembling (knowledge, skills, and three mindsets: curiosity, iteration, abundance), and ends with the question the knowledge check picks up. The narration is in English with English and Bahasa Indonesia subtitles.",
-        "id": "Slide di atas memintamu menonton video ini dengan dua pertanyaan di kepala. Inilah dia: dua menit tentang masa depan yang tidak pasti tetapi pasti digital (mobil swakemudi yang dibangun dari sensor, penyimpanan cloud, dan AI; nyawa dan karbon yang bisa diselamatkannya), dan tentang apa yang tetap sama ketika perubahan makin cepat: kemampuan manusia yang menentukan seberapa besar kemandirian sebuah mobil dan siapa yang bertanggung jawab. Video ini lalu menyebut perangkat digital yang sedang dirakit pelajaran ini (pengetahuan, keterampilan, dan tiga pola pikir: rasa penasaran, iterasi, kelimpahan), dan ditutup dengan pertanyaan yang diangkat lagi di cek pemahaman. Narasinya berbahasa Inggris dengan subtitel bahasa Inggris dan Bahasa Indonesia."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/opportunities-ahead-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/opportunities-ahead-1-poster.jpg",
-         "dur": "2:11",
-         "title": {
-          "en": "Opportunities ahead",
-          "id": "Peluang di depan"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/opportunities-ahead-1-en.vtt",
-          "id": "../../assets/lms/the-map/opportunities-ahead-1-id.vtt"
-         }
-        }
-       ],
-       "outro": {
-        "title": {
-         "en": "Curiosity, iteration, abundance: and the four anchors",
-         "id": "Rasa penasaran, iterasi, kelimpahan: dan empat jangkar"
-        },
-        "body": [
-         {
-          "en": "The film's three mindsets are the four anchors seen from the inside. Curiosity (ask questions, challenge constraints, build on what you know) is the fundamentals question and the sensing network. Iteration (treat what you do as improvable with feedback) is the learning loop and the quarterly artefact. Abundance (seek opportunities, share what you know, learn with your community) is the network fed in both directions.",
-          "id": "Tiga pola pikir dalam film ini adalah empat jangkar yang dilihat dari dalam. Rasa penasaran (bertanya, menantang batasan, membangun dari apa yang kamu tahu) adalah pertanyaan tentang dasar-dasar dan jaringan pemantau. Iterasi (memperlakukan apa yang kamu kerjakan sebagai sesuatu yang bisa diperbaiki dengan masukan) adalah lingkaran belajar dan karya per kuartal. Kelimpahan (mencari peluang, berbagi apa yang kamu tahu, belajar bersama komunitasmu) adalah jaringan yang diberi makan dari dua arah."
-         },
-         {
-          "en": "The film closed on a question: when unexpected change reaches your world, how will you answer the call to act, and what choices will you make? Three closing slides below turn that question on you (one app, device or service that changed your life, and what the source course means by digital), and then the knowledge check asks the same thing in one concrete case: a new AI tool sweeping your industry. Answer it as the person the film describes.",
-          "id": "Film ini ditutup dengan sebuah pertanyaan: ketika perubahan tak terduga sampai ke duniamu, bagaimana kamu akan menjawab panggilan untuk bertindak, dan pilihan apa yang akan kamu buat? Tiga slide penutup di bawah mengarahkan pertanyaan itu kepadamu (satu aplikasi, perangkat, atau layanan yang mengubah hidupmu, dan apa yang dimaksud kursus sumber dengan digital), lalu cek pemahaman menanyakan hal yang sama dalam satu kasus konkret: alat AI baru yang melanda industrimu. Jawablah sebagai orang yang digambarkan film ini."
-         }
-        ]
-       }
-      },
-      {
-       "key": "data-now",
-       "placement": "end:60",
-       "kicker": {
-        "en": "Watch last · Lesson video",
-        "id": "Tonton terakhir · Video pelajaran"
-       },
-       "intro": {
-        "en": "The Data slide asked you to watch this video and notice how creative people and organizations are finding new ways to use data. Here it is: 46 seconds on old data (rows on spreadsheets, tied to one topic) and new data (an ecosystem where data begets other data, where insights come from unexpected places, and where people find uses for data that was made for something else). Its last line is the lesson's: it is not the data that transforms industries but the way creative people use it. Do any of these ways sound familiar to you?",
-        "id": "Slide Data memintamu menonton video ini dan memperhatikan bagaimana orang dan organisasi yang kreatif menemukan cara-cara baru memakai data. Inilah dia: 46 detik tentang data lama (baris-baris di spreadsheet, terikat pada satu topik) dan data baru (sebuah ekosistem tempat data melahirkan data lain, tempat wawasan datang dari arah yang tak terduga, dan tempat orang menemukan kegunaan bagi data yang dibuat untuk tujuan lain). Kalimat terakhirnya adalah inti pelajaran ini: yang mengubah industri bukan datanya, melainkan cara orang-orang kreatif memakainya. Adakah cara yang terdengar akrab bagimu?"
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/data-now-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/data-now-1-poster.jpg",
-         "dur": "0:46",
-         "title": {
-          "en": "How we use data now",
-          "id": "Cara kita memakai data sekarang"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/data-now-1-en.vtt",
-          "id": "../../assets/lms/the-map/data-now-1-id.vtt"
-         }
-        }
-       ],
-       "outro": {
-        "title": {
-         "en": "Not the data: the use",
-         "id": "Bukan datanya: cara memakainya"
-        },
-        "body": [
-         {
-          "en": "The film's closing line is the fundamentals-first stance in miniature: the tool (new data, the next AI model, whatever arrives this year) is not what creates value. The durable skill is seeing what it could be used for, which is the question the Data slide, the hotspot map and both films have been circling.",
-          "id": "Kalimat penutup film ini adalah sikap mendahulukan dasar-dasar dalam bentuk mini: alatnya (data baru, model AI berikutnya, apa pun yang datang tahun ini) bukan yang menciptakan nilai. Keterampilan yang awet adalah melihat untuk apa alat itu bisa dipakai, dan itulah pertanyaan yang terus diputari slide Data, peta jangkar, dan kedua film."
-         },
-         {
-          "en": "Nine closing slides below show that use in practice (Victor and his streaming service, cloud, AI, connected devices, design thinking and Agile) and complete the digital toolkit, and a last film plays out the Agile slide. Then the knowledge check gives you one concrete case (a new AI tool sweeping your industry) and asks what the fundamentals-first stance prescribes. Answer it the way the film's creative people would.",
-          "id": "Sembilan slide penutup di bawah menunjukkan cara memakainya dalam praktik (Victor dan layanan streaming-nya, cloud, AI, perangkat terhubung, design thinking, dan Agile) dan melengkapi perangkat digitalnya, lalu satu film terakhir memperagakan slide Agile. Setelah itu cek pemahaman memberimu satu kasus konkret (alat AI baru yang melanda industrimu) dan menanyakan apa yang dianjurkan sikap mendahulukan dasar-dasar. Jawablah seperti orang-orang kreatif dalam film itu akan menjawab."
-         }
-        ]
-       }
-      },
-      {
-       "key": "agile",
-       "placement": "end:80",
-       "kicker": {
-        "en": "Watch last · Lesson video",
-        "id": "Tonton terakhir · Video pelajaran"
-       },
-       "intro": {
-        "en": "The last slide set Agile against the traditional way of working in a table. This film plays it out: two teams, three months, the same sunglasses app. The traditional team designs, develops, deploys and tests in sequence and meets its customers once, at the end. The Agile team builds one feature per sprint and takes each one to the store, so it learns about photo naming at week three and zooming at the halfway mark. Watch for the line that sums up the difference (one feedback loop that came too late, against many) and for the closing list of what Agile asks of a team. Three minutes, then the knowledge check.",
-        "id": "Slide terakhir membandingkan Agile dengan cara kerja tradisional dalam sebuah tabel. Film ini memperagakannya: dua tim, tiga bulan, aplikasi kacamata hitam yang sama. Tim tradisional merancang, mengembangkan, meluncurkan, dan menguji secara berurutan, dan baru bertemu pelanggannya sekali, di akhir. Tim Agile membangun satu fitur di setiap sprint dan membawa masing-masing ke toko, sehingga mereka belajar soal penamaan foto di minggu ketiga dan soal fitur zoom di pertengahan jalan. Perhatikan kalimat yang merangkum perbedaannya (satu lingkaran masukan yang datang terlambat, melawan banyak lingkaran) dan daftar penutup tentang apa yang dituntut Agile dari sebuah tim. Tiga menit, lalu cek pemahaman."
-       },
-       "videos": [
-        {
-         "src": "../../assets/lms/the-map/agile-1-brand.mp4",
-         "poster": "../../assets/lms/the-map/agile-1-poster.jpg",
-         "dur": "3:08",
-         "title": {
-          "en": "How is Agile different from traditional working?",
-          "id": "Apa bedanya Agile dengan cara kerja tradisional?"
-         },
-         "captions": {
-          "en": "../../assets/lms/the-map/agile-1-en.vtt",
-          "id": "../../assets/lms/the-map/agile-1-id.vtt"
-         }
-        }
-       ],
-       "outro": {
-        "title": {
-         "en": "Many feedback loops, not one",
-         "id": "Banyak lingkaran masukan, bukan satu"
-        },
-        "body": [
-         {
-          "en": "Both teams shipped a working app. The traditional team's one feedback loop came too late to change anything; the Agile team's loops changed the product three times before launch. That is the learning loop from the hotspot map at team scale (one small project at a time, through real hands, logged and adjusted), and it is why the lesson keeps saying to metabolise a new tool through a project rather than a plan.",
-          "id": "Kedua tim sama-sama meluncurkan aplikasi yang berfungsi. Satu-satunya lingkaran masukan tim tradisional datang terlalu terlambat untuk mengubah apa pun; lingkaran-lingkaran tim Agile mengubah produknya tiga kali sebelum peluncuran. Itulah lingkaran belajar dari peta jangkar dalam skala tim (satu proyek kecil setiap kali, lewat tangan sendiri, dicatat dan disesuaikan), dan karena itulah pelajaran ini terus mengatakan bahwa alat baru sebaiknya dicerna lewat proyek, bukan lewat rencana."
-         },
-         {
-          "en": "The knowledge check below asks what the fundamentals-first stance prescribes when a new AI tool sweeps your industry. The Agile team already answered it: build one real thing with it, show it to someone, adjust.",
-          "id": "Cek pemahaman di bawah menanyakan apa yang dianjurkan sikap mendahulukan dasar-dasar ketika alat AI baru melanda industrimu. Tim Agile sudah menjawabnya: bangun satu hal nyata dengan alat itu, tunjukkan kepada seseorang, lalu sesuaikan."
-         }
-        ]
-       }
       }
      ],
      "checks": [
@@ -16601,7 +16210,35 @@ window.MT_LMS['the-map'] = {
         "id": "Sadar → memberi masukan → berpartisipasi → berkolaborasi → berdaya dalam sebuah perubahan."
        }
       }
-     ]
+     ],
+     "videos": [
+      {
+       "src": {
+        "en": "../../assets/lms/films/map-5-5-what-lasts-en.mp4",
+        "id": "../../assets/lms/films/map-5-5-what-lasts-id.mp4"
+       },
+       "poster": {
+        "en": "../../assets/lms/films/map-5-5-what-lasts-en-poster.jpg",
+        "id": "../../assets/lms/films/map-5-5-what-lasts-id-poster.jpg"
+       },
+       "dur": {
+        "en": "2:48",
+        "id": "2:39"
+       },
+       "title": {
+        "en": "What lasts: fundamentals, a learning loop and change you did not choose",
+        "id": "Yang bertahan: dasar-dasar, lingkaran belajar, dan perubahan yang tidak kamu pilih"
+       }
+      }
+     ],
+     "videosKicker": {
+      "en": "Start here · Lesson film",
+      "id": "Mulai di sini · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "Start with one short film: Vina, a tool she spent a year mastering, and the Monday she hears it will be replaced. Watch it, then explore the four anchors on the map below.",
+      "id": "Mulailah dengan satu film singkat: Vina, alat yang ia kuasai selama setahun, dan hari Senin ketika ia mendengar alat itu akan diganti. Tonton, lalu jelajahi empat jangkar di peta di bawah."
+     }
     },
     {
      "n": "5.6",

@@ -1,0 +1,457 @@
+{
+  "id": "map-5-3-four-small-moves",
+  "product": {
+    "en": "The Map",
+    "id": "The Map"
+  },
+  "lesson": "5.3",
+  "title": {
+    "en": "Four small moves: how a strong relationship is built",
+    "id": "Empat langkah kecil: cara relasi yang kuat dibangun"
+  },
+  "sources": "Written for this lesson from its own objectives and reading: why relationships carry learning and resilience, attention, vulnerability, empathy and compassion inside one everyday conversation, psychological safety from a junior position, and a boundary in three parts. The four qualities are ordinary words and are taught here without any course's acronym; the film names John Gottman once for the term bid for connection. The case and the characters are invented for this film and appear in no other course. No third-party script, footage, picture or sound.",
+  "scenes": [
+    {
+      "type": "title",
+      "hold": 4.5,
+      "kicker": {
+        "en": "The Map · Lesson 5.3",
+        "id": "The Map · Pelajaran 5.3"
+      },
+      "title": {
+        "en": "Four *small* moves",
+        "id": "Empat langkah *kecil*"
+      },
+      "sub": {
+        "en": "How a strong relationship is built",
+        "id": "Cara relasi yang kuat dibangun"
+      }
+    },
+    {
+      "type": "story",
+      "set": "duo",
+      "opts": {
+        "who": {
+          "hair": "hijab",
+          "scarf": "#2FA7A0",
+          "shirt": "#E07A4B"
+        },
+        "mate": {
+          "hair": "short",
+          "shirt": "#5b7696"
+        },
+        "moods": [
+          "neutral",
+          "think",
+          "think"
+        ],
+        "mateMoods": [
+          "down",
+          "down",
+          "down"
+        ]
+      },
+      "tag": {
+        "en": "A sigh at the next desk",
+        "id": "Helaan napas di meja sebelah"
+      },
+      "keys": [
+        {
+          "en": "Three months in. *A sigh next door.*",
+          "id": "Baru tiga bulan. *Helaan napas di sebelah.*"
+        },
+        {
+          "en": "A sigh is *a bid for connection*.",
+          "id": "Helaan napas adalah *ajakan untuk terhubung*."
+        },
+        {
+          "en": "Turn *toward* it, away, or against.",
+          "id": "*Menghadap*, berpaling, atau melawan."
+        }
+      ],
+      "say": [
+        {
+          "en": "Salma is three months into her first job. At the next desk, Yudha puts down the phone and sighs.",
+          "id": "Salma baru tiga bulan di pekerjaan pertamanya. Di meja sebelah, Yudha meletakkan telepon dan menghela napas."
+        },
+        {
+          "en": "A sigh like that is a small request for attention. The psychologist John Gottman calls it a bid for connection.",
+          "id": "Helaan napas seperti itu adalah permintaan kecil untuk diperhatikan. Psikolog John Gottman menyebutnya ajakan untuk terhubung."
+        },
+        {
+          "en": "She can turn toward it, miss it, or brush it off. Trust is built in these seconds, many times a day.",
+          "id": "Ia bisa menghadap, berpaling, atau menepisnya. Kepercayaan dibangun dalam detik-detik seperti ini, berkali-kali dalam sehari."
+        }
+      ]
+    },
+    {
+      "type": "talk",
+      "kicker": {
+        "en": "One conversation, four moves",
+        "id": "Satu percakapan, empat langkah"
+      },
+      "opts": {
+        "who": {
+          "hair": "hijab",
+          "scarf": "#2FA7A0",
+          "shirt": "#E07A4B"
+        },
+        "mate": {
+          "hair": "short",
+          "shirt": "#5b7696"
+        },
+        "down": 0,
+        "moods": [
+          "neutral",
+          "think",
+          "neutral",
+          "smile"
+        ],
+        "mateMoods": [
+          "down",
+          "neutral",
+          "think",
+          "smile"
+        ]
+      },
+      "chips": [
+        {
+          "h": {
+            "en": "Attention",
+            "id": "Perhatian"
+          },
+          "p": {
+            "en": "listen first",
+            "id": "dengarkan dulu"
+          }
+        },
+        {
+          "h": {
+            "en": "Vulnerability",
+            "id": "Keterbukaan"
+          },
+          "p": {
+            "en": "say something true",
+            "id": "katakan yang jujur"
+          }
+        },
+        {
+          "h": {
+            "en": "Empathy",
+            "id": "Empati"
+          },
+          "p": {
+            "en": "say what you heard",
+            "id": "sebut yang kamu dengar"
+          }
+        },
+        {
+          "h": {
+            "en": "Compassion",
+            "id": "Welas asih"
+          },
+          "p": {
+            "en": "end with an act",
+            "id": "tutup dengan tindakan"
+          }
+        }
+      ],
+      "bubbles": [
+        {
+          "who": 1,
+          "at": 0,
+          "until": 1,
+          "text": {
+            "en": "That call went badly.",
+            "id": "Telepon tadi berantakan."
+          }
+        },
+        {
+          "who": 0,
+          "at": 1,
+          "until": 2,
+          "text": {
+            "en": "I froze on my first call too.",
+            "id": "Saya juga membeku di telepon pertama saya, Mas."
+          }
+        },
+        {
+          "who": 0,
+          "at": 2,
+          "until": 3,
+          "text": {
+            "en": "Sounds like it hit harder than you expected.",
+            "id": "Sepertinya itu lebih berat dari yang Mas kira."
+          }
+        },
+        {
+          "who": 0,
+          "at": 3,
+          "text": {
+            "en": "Shall we rehearse the next one at four?",
+            "id": "Mau latihan untuk telepon berikutnya jam empat?"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "She turns toward it. Phone face down, chair turned, and she lets him finish. That is attention, and the other three are impossible without it.",
+          "id": "Ia menghadap. Ponsel ditelungkupkan, kursi diputar, dan ia membiarkan Yudha selesai bicara. Itulah perhatian, dan tiga langkah lainnya mustahil tanpanya."
+        },
+        {
+          "en": "Then she says something true about herself: I froze on my first call too. That is vulnerability. It keeps the conversation honest.",
+          "id": "Lalu ia mengatakan sesuatu yang jujur tentang dirinya: saya juga membeku di telepon pertama saya. Itulah keterbukaan. Ia menjaga percakapan tetap jujur."
+        },
+        {
+          "en": "Before any advice, she says what she heard: sounds like it hit harder than you expected. That is empathy.",
+          "id": "Sebelum memberi saran apa pun, ia menyebutkan apa yang ia dengar: sepertinya itu lebih berat dari yang Mas kira. Itulah empati."
+        },
+        {
+          "en": "And she closes with an act, not a sentiment: shall we rehearse the next one at four? That is compassion.",
+          "id": "Dan ia menutup dengan tindakan, bukan sekadar simpati: mau latihan untuk telepon berikutnya jam empat? Itulah welas asih."
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "quiet": true,
+      "kicker": {
+        "en": "Not a secret. A habit.",
+        "id": "Bukan rahasia. Kebiasaan."
+      },
+      "lines": [
+        {
+          "en": "Everyone agrees with the four words.",
+          "id": "Semua orang setuju dengan empat kata itu."
+        },
+        {
+          "en": "Few practise them *in an ordinary week*.",
+          "id": "Sedikit yang mempraktikkannya *di minggu biasa*."
+        },
+        {
+          "en": "Pick *one person* and one move.",
+          "id": "Pilih *satu orang* dan satu langkah."
+        }
+      ],
+      "say": [
+        {
+          "en": "Everyone agrees with the four words.",
+          "id": "Semua orang setuju dengan empat kata itu."
+        },
+        {
+          "en": "Few practise them in an ordinary week.",
+          "id": "Sedikit yang mempraktikkannya di minggu biasa."
+        },
+        {
+          "en": "So pick one person and one move.",
+          "id": "Maka pilih satu orang dan satu langkah."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "set": "office",
+      "opts": {
+        "badge": {
+          "en": "TEAM",
+          "id": "TIM"
+        },
+        "who": {
+          "hair": "hijab",
+          "scarf": "#2FA7A0",
+          "shirt": "#E07A4B"
+        },
+        "moods": [
+          "think"
+        ],
+        "mateMood": "neutral",
+        "leadMood": "smile"
+      },
+      "tag": {
+        "en": "In the team meeting",
+        "id": "Di rapat tim"
+      },
+      "keys": [
+        {
+          "en": "Teams learn when it is *safe to speak*.",
+          "id": "Tim belajar saat *aman untuk bersuara*."
+        }
+      ],
+      "say": [
+        {
+          "en": "A team learns fastest when people can speak up and admit mistakes. That is psychological safety, and everyone's behaviour builds it.",
+          "id": "Tim belajar paling cepat ketika orang berani bersuara dan mengakui kesalahan. Itulah rasa aman psikologis, dan perilaku semua orang ikut membangunnya."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": {
+        "en": "Safety from the junior seat",
+        "id": "Rasa aman dari kursi junior"
+      },
+      "footAt": 3,
+      "foot": {
+        "en": "You do not need a title to *make a team safer*.",
+        "id": "Kamu tidak perlu jabatan untuk *membuat tim lebih aman*."
+      },
+      "cards": [
+        {
+          "at": 0,
+          "h": {
+            "en": "Ask",
+            "id": "Bertanya"
+          },
+          "p": {
+            "en": "“I don't follow yet. Could you show me?”",
+            "id": "“Saya belum paham. Boleh ditunjukkan?”"
+          }
+        },
+        {
+          "at": 1,
+          "h": {
+            "en": "Own",
+            "id": "Mengakui"
+          },
+          "p": {
+            "en": "“I got the file wrong. Here is the fix.”",
+            "id": "“Saya keliru di berkas itu. Ini perbaikannya.”"
+          }
+        },
+        {
+          "at": 2,
+          "hot": true,
+          "h": {
+            "en": "Thank",
+            "id": "Berterima kasih"
+          },
+          "p": {
+            "en": "“Thank you for catching that.”",
+            "id": "“Terima kasih sudah mengoreksi.”"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "From the junior seat it starts with asking: I don't follow yet, could you show me?",
+          "id": "Dari kursi junior, ia dimulai dengan bertanya: saya belum paham, boleh ditunjukkan?"
+        },
+        {
+          "en": "Owning a mistake early: I got the file wrong, and here is the fix.",
+          "id": "Mengakui kesalahan lebih awal: saya keliru di berkas itu, dan ini perbaikannya."
+        },
+        {
+          "en": "And thanking the person who corrected you.",
+          "id": "Dan berterima kasih kepada orang yang mengoreksimu."
+        },
+        {
+          "en": "Small, consistent acts from juniors change a team faster than they expect.",
+          "id": "Tindakan kecil yang konsisten dari para junior mengubah tim lebih cepat dari yang mereka kira."
+        }
+      ]
+    },
+    {
+      "type": "notes",
+      "kicker": {
+        "en": "A boundary in three parts",
+        "id": "Batasan dalam tiga bagian"
+      },
+      "notes": [
+        {
+          "at": 0,
+          "strikeAt": 1,
+          "label": {
+            "en": "The automatic yes",
+            "id": "Iya yang otomatis"
+          },
+          "text": {
+            "en": "Yes, of course. I'll do both.",
+            "id": "Baik, Bu. Saya kerjakan dua-duanya."
+          }
+        },
+        {
+          "at": 2,
+          "small": true,
+          "label": {
+            "en": "Commitment, limit, option",
+            "id": "Komitmen, batas, pilihan"
+          },
+          "text": {
+            "en": "I want to do this well. I can finish *the report by Thursday*, but not the slides too. Could the slides wait *until Monday*?",
+            "id": "Saya ingin mengerjakannya dengan baik. *Laporannya bisa selesai Kamis*, tapi tidak sekaligus dengan slidenya. Bolehkah slidenya *menunggu sampai Senin*?"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "On Tuesday her supervisor adds a second task to a full week. Saying no feels rude, so Salma almost says yes to both.",
+          "id": "Hari Selasa, atasannya menambah tugas kedua di minggu yang sudah penuh. Salma merasa sungkan, sehingga ia hampir mengiyakan keduanya."
+        },
+        {
+          "en": "But a yes she cannot keep will hurt the relationship more than an honest limit.",
+          "id": "Padahal, kesanggupan yang tak bisa ia tepati akan lebih merusak relasi daripada batas yang jujur."
+        },
+        {
+          "en": "So she states a boundary in three parts. A commitment: I want to do this well.",
+          "id": "Maka ia menyampaikan batasan dalam tiga bagian. Komitmen: saya ingin mengerjakannya dengan baik."
+        },
+        {
+          "en": "A limit: the report by Thursday, but not the slides too. And an option: could the slides wait until Monday?",
+          "id": "Batas: laporannya selesai Kamis, tapi tidak sekaligus dengan slidenya. Dan pilihan: bolehkah slidenya menunggu sampai Senin?"
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "quiet": true,
+      "kicker": {
+        "en": "In two lines",
+        "id": "Dalam dua kalimat"
+      },
+      "points": [
+        {
+          "en": "Trust is built *in seconds*, with one person at a time.",
+          "id": "Kepercayaan dibangun *dalam hitungan detik*, satu orang demi satu orang."
+        },
+        {
+          "en": "A boundary stated *early and kindly* protects the relationship.",
+          "id": "Batasan yang disampaikan *lebih awal dengan baik* melindungi relasi."
+        }
+      ],
+      "turnLabel": {
+        "en": "Your turn.",
+        "id": "Giliranmu."
+      },
+      "turn": {
+        "en": "Name one person, and choose one of the four moves to practise with them this week.",
+        "id": "Sebut satu orang, lalu pilih satu dari empat langkah untuk kamu praktikkan dengannya minggu ini."
+      },
+      "say": [
+        {
+          "en": "Trust is built in seconds, with one person at a time.",
+          "id": "Kepercayaan dibangun dalam hitungan detik, satu orang demi satu orang."
+        },
+        {
+          "en": "A boundary stated early and kindly protects the relationship.",
+          "id": "Batasan yang disampaikan lebih awal dengan baik melindungi relasi."
+        },
+        {
+          "en": "Now it is your turn. Name one person, and choose one of the four moves to practise with them this week.",
+          "id": "Sekarang giliranmu. Sebut satu orang, lalu pilih satu dari empat langkah untuk kamu praktikkan dengannya minggu ini."
+        }
+      ]
+    },
+    {
+      "type": "end",
+      "hold": 3.5,
+      "title": {
+        "en": "The Map",
+        "id": "The Map"
+      },
+      "sub": {
+        "en": "An original Metanoia Labs learning film · © 2026 Metanoia Labs",
+        "id": "Film pembelajaran orisinal Metanoia Labs · © 2026 Metanoia Labs"
+      }
+    }
+  ]
+}
