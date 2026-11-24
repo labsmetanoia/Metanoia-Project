@@ -2251,8 +2251,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Kerangka untuk Relasi yang Kuat"
     },
     "sub": {
-     "en": "AVEC, bids, hierarchy, REACH from the junior seat, boundaries",
-     "id": "AVEC, ajakan untuk terhubung, hierarki, REACH dari kursi junior, batasan"
+     "en": "The four elements, bids, hierarchy, small acts from the junior seat, boundaries",
+     "id": "Empat unsur, ajakan untuk terhubung, hierarki, tindakan kecil dari kursi junior, batasan"
     }
    },
    {
@@ -2638,8 +2638,8 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "AVEC across hierarchy: short replies are usually about load, not a verdict on you.",
-     "id": "AVEC lintas hierarki: balasan singkat biasanya soal beban kerja, bukan penilaian tentang dirimu."
+     "en": "The four elements across hierarchy: short replies are usually about load, not a verdict on you.",
+     "id": "Empat unsur lintas hierarki: balasan singkat biasanya soal beban kerja, bukan penilaian tentang dirimu."
     }
    },
    {
@@ -2915,8 +2915,8 @@ window.MT_ASSESS['the-map'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "Write your Module 5 reflection in three parts. (1) Which energy system in your ring is weakest right now, and what is your floor commitment for it? (2) Name one relationship you will invest in this month and the AVEC element you will practise. (3) Which task in your target role is most exposed to AI, and what is your skill bet in response? Keep each part concrete: a number, a name, a date.",
-    "id": "Tulis refleksi Modul 5 dalam tiga bagian. (1) Sistem energi mana di lingkaranmu yang paling lemah saat ini, dan apa komitmen batas bawahmu untuknya? (2) Sebutkan satu relasi yang akan kamu rawat bulan ini dan unsur AVEC yang akan kamu latih. (3) Tugas mana dalam peran incaranmu yang paling terpapar AI, dan keterampilan apa yang kamu pertaruhkan sebagai jawabannya? Buat setiap bagian konkret: satu angka, satu nama, satu tanggal."
+    "en": "Write your Module 5 reflection in three parts. (1) Which energy system in your ring is weakest right now, and what is your floor commitment for it? (2) Name one relationship you will invest in this month and which of the four elements you will practise. (3) Which task in your target role is most exposed to AI, and what is your skill bet in response? Keep each part concrete: a number, a name, a date.",
+    "id": "Tulis refleksi Modul 5 dalam tiga bagian. (1) Sistem energi mana di lingkaranmu yang paling lemah saat ini, dan apa komitmen batas bawahmu untuknya? (2) Sebutkan satu relasi yang akan kamu rawat bulan ini dan unsur mana dari keempatnya yang akan kamu latih. (3) Tugas mana dalam peran incaranmu yang paling terpapar AI, dan keterampilan apa yang kamu pertaruhkan sebagai jawabannya? Buat setiap bagian konkret: satu angka, satu nama, satu tanggal."
    },
    "guide": [
     {
