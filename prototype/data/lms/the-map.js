@@ -9920,317 +9920,6 @@ window.MT_LMS['the-map'] = {
      },
      "kind": "reading",
      "placeholder": false,
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 3 slides",
-        "id": "Baca dulu · 3 slide"
-       },
-       "title": {
-        "en": "Introduction: Relationship and Well-being: Material",
-        "id": "Pengantar Relasi dan Kesejahteraan: Materi"
-       },
-       "intro": {
-        "en": "Start with the chapter opener. Three slides introduce the theme of Module 5 (relationships and well-being), what the course will teach you, and why your level of well-being decides your energy and performance, with the stress–performance curve. Move through them at your own pace; the slide text is available under the player. One short film follows the deck.",
-        "id": "Mulailah dari pembuka bab ini. Tiga slide memperkenalkan tema Modul 5 (relasi dan kesejahteraan), apa yang akan kamu pelajari, dan kenapa tingkat kesejahteraanmu menentukan energi dan kinerjamu, lengkap dengan kurva stres dan kinerja. Telusuri sesuai kecepatanmu; teks slide tersedia di bawah pemutar. Satu film singkat menyusul sesudah slide ini."
-       },
-       "base": "../../assets/lms/the-map/slides/well-being-",
-       "slides": [
-        {
-         "title": {
-          "en": "Chapter 5: Relationship and Well-being",
-          "id": "Bab 5: Relasi dan Kesejahteraan"
-         },
-         "text": {
-          "en": "Building meaningful connections for a healthier and fulfilling life. Meaningful relationships · Physical and mental well-being · A more fulfilled and balanced life.",
-          "id": "Membangun hubungan yang bermakna untuk hidup yang lebih sehat dan utuh. Relasi yang bermakna · Kesejahteraan fisik dan mental · Hidup yang lebih utuh dan seimbang."
-         }
-        },
-        {
-         "title": {
-          "en": "Introduction to Relationships & Well-Being",
-          "id": "Pengantar Relasi dan Kesejahteraan"
-         },
-         "text": {
-          "en": "Welcome to the Relationships & Well-Being course! The amount of stress and challenges humanity faces today is dramatically affecting our well-being. Being able to proactively manage your energy despite challenges will help you have a positive and sustainable experience at work, and in life. Building meaningful connections with others and a healthy team dynamic can further enhance your overall satisfaction and effectiveness. The purpose of this module is to provide you with tools that you can use to improve your well-being, establish strong relationships with others, and create a safe and productive environment for you and your team. In this course, you will learn how to: 01 Evaluate and improve your well-being. Assess your current state of well-being and take practical steps to improve it across multiple dimensions. 02 Build strong relationships with others. Develop meaningful connections by being attentive, vulnerable, empathetic, and compassionate. 03 Create a safe and productive team environment. Foster a culture where people feel safe to speak up, take risks, and make mistakes. “Stronger relationships. A healthier you. A more meaningful life.”",
-          "id": "Selamat datang di kursus Relasi dan Kesejahteraan! Besarnya stres dan tantangan yang dihadapi manusia saat ini sangat memengaruhi kesejahteraan kita. Kemampuan mengelola energi secara proaktif di tengah tantangan akan membantumu menjalani pengalaman yang positif dan berkelanjutan, di tempat kerja maupun dalam hidup. Membangun hubungan yang bermakna dengan orang lain dan dinamika tim yang sehat bisa makin meningkatkan kepuasan dan efektivitasmu secara keseluruhan. Modul ini bertujuan membekalimu dengan alat untuk meningkatkan kesejahteraan, membangun hubungan yang kuat dengan orang lain, dan menciptakan lingkungan yang aman dan produktif bagimu dan timmu. Dalam kursus ini, kamu akan belajar: 01 Menilai dan meningkatkan kesejahteraanmu. Nilai kondisi kesejahteraanmu saat ini dan ambil langkah praktis untuk memperbaikinya di berbagai dimensi. 02 Membangun hubungan yang kuat dengan orang lain. Jalin hubungan yang bermakna dengan penuh perhatian, berani terbuka, berempati, dan berbelas kasih. 03 Menciptakan lingkungan tim yang aman dan produktif. Bangun budaya tempat orang merasa aman untuk bersuara, mengambil risiko, dan berbuat salah. \"Relasi yang lebih kuat. Dirimu yang lebih sehat. Hidup yang lebih bermakna.\""
-         }
-        },
-        {
-         "title": {
-          "en": "Why is well-being so important?",
-          "id": "Kenapa kesejahteraan begitu penting?"
-         },
-         "text": {
-          "en": "Your level of well-being directly impacts your energy, performance, relationships, and overall life satisfaction. “I am so stressed!” Whether you recently heard that or said it yourself, the feeling of too much stress is a familiar one. Did you also know that there is such a thing as too little stress, which also affects your well-being and ability to perform at your best? The best place to be is to imagine an upside-down U-shaped curve, and put yourself at the top of it. The Stress–Performance Curve: both too little and too much stress can reduce well-being and performance; the optimal point is at a moderate level of stress. Too little stress (boredom): low motivation, lack of energy. Optimal level: focused, energized, productive, and resilient. Too much stress (overwhelm): anxiety, fatigue, lower performance, poor well-being. As you watch the video below, ask yourself: 1. Where am I on this curve right now? How do I feel? 2. Is this a trend for me?",
-          "id": "Tingkat kesejahteraanmu berpengaruh langsung pada energi, kinerja, relasi, dan kepuasan hidupmu secara keseluruhan. \"Aku stres banget!\" Entah kamu baru mendengarnya atau mengatakannya sendiri, perasaan terlalu banyak stres itu sudah akrab bagi kita. Tapi tahukah kamu bahwa stres yang terlalu sedikit juga ada, dan itu juga memengaruhi kesejahteraan serta kemampuanmu untuk tampil terbaik? Bayangkan sebuah kurva berbentuk huruf U terbalik, lalu tempatkan dirimu di puncaknya. Itulah tempat terbaik. Kurva Stres dan Kinerja: stres yang terlalu sedikit maupun terlalu banyak sama-sama bisa menurunkan kesejahteraan dan kinerja; titik optimalnya ada di tingkat stres yang sedang. Stres terlalu sedikit (bosan): motivasi rendah, kurang energi. Tingkat optimal: fokus, bersemangat, produktif, dan tangguh. Stres terlalu banyak (kewalahan): cemas, lelah, kinerja menurun, kesejahteraan memburuk. Sambil menonton video di bawah, tanyakan pada dirimu: 1. Di mana posisiku di kurva ini sekarang? Bagaimana perasaanku? 2. Apakah ini sudah menjadi pola bagiku?"
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 9 slides",
-        "id": "Baca berikutnya · 9 slide"
-       },
-       "title": {
-        "en": "Assessing Your Well-Being: Material",
-        "id": "Menilai Kesejahteraanmu: Materi"
-       },
-       "intro": {
-        "en": "These nine slides give you a reading you can take this morning. Rate nine statements to find your battery score, see what that score asks you to focus on in this course, meet the four sources that charge the battery and the principles for putting them into practice, then walk through a balanced day with recovery in mind. The Well-Being Is a Journey slides that follow turn the reading into a practice. Move at your own pace; the slide text is available under the player.",
-        "id": "Sembilan slide ini memberimu angka yang bisa kamu ambil pagi ini juga. Beri nilai pada sembilan pernyataan untuk menemukan skor baterai, lihat apa yang perlu kamu fokuskan di kursus ini berdasarkan skor itu, kenali empat sumber pengisi baterai dan prinsip untuk mempraktikkannya, lalu telusuri contoh hari yang seimbang dengan pemulihan di dalamnya. Slide Kesejahteraan Adalah Perjalanan sesudahnya mengubah angka itu menjadi kebiasaan. Telusuri sesuai kecepatanmu; teks slide tersedia di bawah pemutar."
-       },
-       "base": "../../assets/lms/the-map/slides/well-being-assess-",
-       "slides": [
-        {
-         "title": {
-          "en": "Assessing your well-being and battery charge",
-          "id": "Menilai kesejahteraan dan isi baterai"
-         },
-         "text": {
-          "en": "Just like a battery in a device, our body and mind also have a limited energy capacity that needs to be monitored regularly so we can function optimally in our daily lives. How can we assess our “battery” level? At some point in our lives, we have all experienced the feeling of running on empty. Equally, we have experienced feeling fully energized and full of energy. How full is your well-being battery charge right now? A simple method from Andrew Hamilton: Andrew Hamilton, a sports science writer and researcher, asks athletes to take a six-question quiz each morning by rating statements such as “I slept really well last night”, “I feel vigorous and energetic” and “I have very little muscle soreness” on a scale from 1 (strongly disagree) to 5 (strongly agree), and then adding up the total score. When an athlete's score drops below 20, it is recommended to take a recovery day or switch to lighter (“taper”) workouts until their battery is sufficiently recharged. Recovery goes beyond the physical. It is holistic. We can apply a similar approach to our own well-being by paying equal attention to five dimensions of recovery: physical (rest, nutrition, and physical activity), mental (focus, clarity, and stress management), emotional (emotional regulation and sense of gratitude), social (support and meaningful connections with others), and spiritual (purpose, meaning, and self-reflection).",
-          "id": "Seperti baterai di sebuah perangkat, tubuh dan pikiran kita juga punya kapasitas energi terbatas yang perlu dipantau rutin supaya kita bisa berfungsi optimal sehari-hari. Bagaimana kita menilai tingkat \"baterai\" kita? Pada suatu titik dalam hidup, kita semua pernah merasa kehabisan tenaga. Sebaliknya, kita juga pernah merasa segar dan penuh energi. Seberapa penuh baterai kesejahteraanmu saat ini? Cara sederhana dari Andrew Hamilton: Andrew Hamilton, penulis dan peneliti ilmu olahraga, meminta para atlet mengisi kuis enam pertanyaan setiap pagi dengan memberi nilai pada pernyataan seperti \"Tidurku nyenyak sekali semalam\", \"Aku merasa bugar dan bertenaga\", dan \"Ototku hampir tidak pegal\", dengan skala 1 (sangat tidak setuju) sampai 5 (sangat setuju), lalu menjumlahkan totalnya. Kalau skor seorang atlet turun di bawah 20, ia disarankan mengambil hari pemulihan atau beralih ke latihan yang lebih ringan (\"taper\") sampai baterainya cukup terisi lagi. Pemulihan bukan hanya soal fisik. Pemulihan itu menyeluruh. Kita bisa menerapkan cara serupa untuk kesejahteraan kita dengan memberi perhatian yang sama pada lima dimensi pemulihan: fisik (istirahat, gizi, dan aktivitas fisik), mental (fokus, kejernihan, dan pengelolaan stres), emosional (pengendalian emosi dan rasa syukur), sosial (dukungan dan hubungan yang bermakna dengan orang lain), dan spiritual (tujuan hidup, makna, dan perenungan diri)."
-         }
-        },
-        {
-         "title": {
-          "en": "Exercise: Assessing your battery level",
-          "id": "Latihan: Menilai tingkat baterai"
-         },
-         "text": {
-          "en": "1. We expanded on Hamilton's quiz to help you assess and build awareness of your level of recovery. 2. Take a moment to reflect on which of the following statements are true for you, and make sure to note if certain categories are particularly strong or weak. 3. After you have taken a moment to reflect, compare how many statements you have marked as true with the guidance below on what to focus on for this course. Self-assessment statements, for each statement, indicate how true it is for you right now (1 = strongly disagree, 2 = disagree, 3 = neutral, 4 = agree, 5 = strongly agree): I slept very well last night. I have clear, purposeful intentions for the day. I am looking forward to the day's activities. I am optimistic about my future. I feel vigorous and energetic. My diet is healthy and well-balanced. I am experiencing very little fatigue or burnout. I can focus on the things that matter most. I feel connected to the important people in my life. What's next? After completing the assessment, compare how many statements you marked as true with the next section to see which areas you can focus on for this course.",
-          "id": "1. Kami mengembangkan kuis Hamilton untuk membantumu menilai dan menyadari tingkat pemulihanmu. 2. Luangkan waktu untuk merenungkan pernyataan mana yang benar bagimu, dan catat kalau ada kategori yang terasa sangat kuat atau sangat lemah. 3. Setelah merenung, bandingkan jumlah pernyataan yang kamu tandai benar dengan panduan di bawah tentang apa yang perlu kamu fokuskan di kursus ini. Pernyataan penilaian diri; untuk setiap pernyataan, tunjukkan seberapa benar pernyataan itu bagimu saat ini (1 = sangat tidak setuju, 2 = tidak setuju, 3 = netral, 4 = setuju, 5 = sangat setuju): Tidurku nyenyak sekali semalam. Aku punya niat yang jelas dan bertujuan untuk hari ini. Aku menantikan kegiatan hari ini. Aku optimis tentang masa depanku. Aku merasa bugar dan bertenaga. Pola makanku sehat dan seimbang. Aku hampir tidak merasa lelah atau jenuh. Aku bisa fokus pada hal-hal yang paling penting. Aku merasa dekat dengan orang-orang penting dalam hidupku. Apa selanjutnya? Setelah selesai menilai, bandingkan jumlah pernyataan yang kamu tandai benar dengan bagian berikutnya untuk melihat area mana yang bisa kamu fokuskan di kursus ini."
-         },
-         "caption": {
-          "en": "Editorial note: count a statement as true if you rated it 4 or 5; the score bands then apply. The Energy Planner in this lesson uses the same rule.",
-          "id": "Catatan redaksi: hitung sebuah pernyataan sebagai benar kalau kamu memberinya nilai 4 atau 5; lalu pakai rentang skornya. Perencana Energi di pelajaran ini memakai aturan yang sama."
-         }
-        },
-        {
-         "title": {
-          "en": "Battery Score",
-          "id": "Skor Baterai"
-         },
-         "text": {
-          "en": "Your Battery Score gives you a snapshot of your current well-being and energy level. Use the guidance below to understand what your score means and where to focus as you move through this course. 0–3: Your battery is empty: regularly charging your battery, and maintaining its charge, would benefit all areas of your life. 4–5: Your battery charge is running low and needs attention: you have some well-being charge left, but it would be better to have more; regularly charging your battery, and maintaining its charge, would benefit all areas of your life. 6–7: You would benefit from extra charge to your battery: your well-being battery is charged, but take a look. Is there one category where you scored lower than others? Optimal well-being draws on a balance of all four areas; maintaining this level of well-being is real work, but it is worth it. Focus areas in this course for scores 0–7: how to tap into your sources of well-being (physical, mental and emotional, social, and spiritual); specific practices that stand out to you and are worth turning into habits; the impact a “full battery” could have on your life. 8–9: Your battery is fully charged: right now, you are moving through life with a fully charged battery, which is great. You are starting from a good place, but there are times when you might find it difficult to maintain this level. Keep it up by continuing the practices that work for you, staying mindful of all four areas of well-being, and checking in regularly to maintain your energy level.",
-          "id": "Skor Baterai memberimu gambaran sekilas tentang kesejahteraan dan tingkat energimu saat ini. Pakai panduan di bawah untuk memahami arti skormu dan apa yang perlu kamu fokuskan sepanjang kursus ini. 0–3: Bateraimu kosong. Mengisi baterai secara rutin dan menjaga isinya akan bermanfaat bagi semua bidang hidupmu. 4–5: Isi bateraimu menipis dan perlu perhatian. Masih ada sisa isi, tetapi lebih baik kalau lebih banyak; mengisi baterai secara rutin dan menjaga isinya akan bermanfaat bagi semua bidang hidupmu. 6–7: Bateraimu akan lebih baik kalau ditambah isinya. Baterai kesejahteraanmu sudah terisi, tetapi coba perhatikan: adakah satu kategori yang skornya lebih rendah dari yang lain? Kesejahteraan yang optimal bersumber dari keseimbangan keempat area; menjaga tingkat kesejahteraan ini memang butuh usaha, tetapi sepadan. Fokus di kursus ini untuk skor 0–7: cara memanfaatkan sumber-sumber kesejahteraan (fisik, mental dan emosional, sosial, dan spiritual); praktik-praktik tertentu yang menarik bagimu dan layak dijadikan kebiasaan; dampak yang bisa dihasilkan \"baterai penuh\" bagi hidupmu. 8–9: Bateraimu terisi penuh. Saat ini kamu menjalani hidup dengan baterai penuh, dan itu hebat. Kamu mulai dari posisi yang baik, tetapi akan ada saat-saat ketika tingkat ini sulit dipertahankan. Pertahankan dengan terus menjalankan praktik yang berhasil bagimu, tetap memperhatikan keempat area kesejahteraan, dan rutin memeriksa diri untuk menjaga tingkat energimu."
-         }
-        },
-        {
-         "title": {
-          "en": "What are the ingredients of well-being?",
-          "id": "Apa saja bahan kesejahteraan?"
-         },
-         "text": {
-          "en": "Your well-being battery is fueled by four sources: physical, mental and emotional, social, and spiritual. However, in our daily lives, we often prioritize just one or two sources. To ensure your well-being is truly at its best, combine all four. Think about which source offers the biggest opportunity to charge your battery, and explore the key ingredients of that source. Physical: a healthy and energetic body provides the foundation for you to live life to the fullest: sleep, exercise, nutrition. Mental and emotional: a clear and calm mind and stable emotions help you stay focused, resilient, and productive: hobbies, meditation, focus, self-reflection. Spiritual: a sense of meaning, purpose, and connection to something greater provides direction and inner peace in your life: vocational calling or life purpose, spiritual connection. Social: positive and supportive relationships with people around you strengthen your well-being overall: relationships, role in the community.",
-          "id": "Baterai kesejahteraanmu diisi oleh empat sumber: fisik, mental dan emosional, sosial, dan spiritual. Namun sehari-hari, kita sering hanya memprioritaskan satu atau dua sumber. Supaya kesejahteraanmu benar-benar optimal, gabungkan keempatnya. Pikirkan sumber mana yang paling berpeluang mengisi bateraimu, lalu jelajahi bahan-bahan utamanya. Fisik: tubuh yang sehat dan bertenaga menjadi fondasi untuk menjalani hidup sepenuhnya: tidur, olahraga, gizi. Mental dan emosional: pikiran yang jernih dan tenang serta emosi yang stabil membantumu tetap fokus, tangguh, dan produktif: hobi, meditasi, fokus, perenungan diri. Spiritual: rasa makna, tujuan, dan keterhubungan dengan sesuatu yang lebih besar memberi arah dan ketenangan batin dalam hidupmu: panggilan hidup atau tujuan hidup, hubungan spiritual. Sosial: hubungan yang positif dan saling mendukung dengan orang-orang di sekitarmu memperkuat kesejahteraanmu secara keseluruhan: relasi, peran di masyarakat."
-         },
-         "caption": {
-          "en": "Editorial note: the slide lists four sources of well-being; the recovery dimensions on slide 1 count mental and emotional separately, so they are five. The two views are the same ingredients grouped differently.",
-          "id": "Catatan redaksi: slide ini menyebut empat sumber kesejahteraan, sedangkan dimensi pemulihan di slide 1 memisahkan mental dan emosional sehingga jumlahnya lima. Keduanya berisi bahan yang sama, hanya dikelompokkan berbeda."
-         }
-        },
-        {
-         "title": {
-          "en": "Principles for putting this into practice",
-          "id": "Prinsip untuk mempraktikkannya"
-         },
-         "text": {
-          "en": "No matter which source of well-being you want to prioritize or the specific behaviors you want to improve, there are big ideas that will help you maximize your efforts. 01 Be specific and focused in your actions. Set clear and concrete behaviors rather than vague goals. 02 Don't rely on just one big moment to energize yourself. Instead, do small things throughout the day to maintain your energy. 03 Tiny behaviors lead to sustainable change. Small, consistent behaviors compound over time and create lasting impact. 04 Small and frequent is best. Make it a regular part of your routine, even in small doses, to see real results. 05 Identify some existing cues that prompt healthy behaviors. Use triggers in your environment to make healthy choices easier and more automatic. 06 Find others who can support you, offer feedback, and share ideas with you. Surround yourself with people who encourage your growth.",
-          "id": "Sumber kesejahteraan mana pun yang ingin kamu prioritaskan, atau perilaku apa pun yang ingin kamu perbaiki, ada beberapa gagasan besar yang akan membantumu memaksimalkan usaha. 01 Bersikaplah spesifik dan fokus dalam tindakanmu. Tetapkan perilaku yang jelas dan konkret, bukan tujuan yang samar. 02 Jangan mengandalkan satu momen besar untuk mengisi energimu. Lakukan hal-hal kecil sepanjang hari untuk menjaga energi. 03 Perilaku kecil menghasilkan perubahan yang bertahan. Perilaku kecil yang konsisten akan berlipat seiring waktu dan menciptakan dampak yang langgeng. 04 Kecil tapi sering adalah yang terbaik. Jadikan bagian rutin dari keseharianmu, meski sedikit-sedikit, supaya hasilnya nyata. 05 Kenali pemicu yang sudah ada untuk mendorong perilaku sehat. Manfaatkan pemicu di lingkunganmu agar pilihan sehat jadi lebih mudah dan otomatis. 06 Cari orang yang bisa mendukungmu, memberi masukan, dan berbagi ide denganmu. Kelilingi dirimu dengan orang-orang yang mendorongmu bertumbuh."
-         }
-        },
-        {
-         "title": {
-          "en": "How can you stay balanced?",
-          "id": "Bagaimana cara tetap seimbang?"
-         },
-         "text": {
-          "en": "01 Like a rechargeable battery, you want to avoid the moment when your well-being level is almost empty and the warning light goes on. The inverted U is a slippery slope, and the further away you get from the top, the harder it is to return. 02 That said, it is not easy to keep your well-being permanently at its maximum. Life certainly does not work that way! You will have times where you experience too much stress or not enough. The key is to stay as balanced as you can, so you avoid depleting your physical, mental, social, or spiritual energy through either boredom or burnout. Depleted (hard to recover) · Low (at risk) · Balanced (optimal performance and well-being. Stay in the sweet spot) · Overloaded (risk of burnout). Did you know? The body has a “budget.” According to Dr. Lisa Feldman Barrett, the body budget indicates how much energy is stored in your batteries, and how you use your energy. Your brain manages how much energy gets in or out of your body. You can manage your body budget in deficit for a while, but at some point, it will “go bankrupt” if the budget is not replenished. Recovery, therefore, is key!",
-          "id": "01 Seperti baterai isi ulang, kamu ingin menghindari saat tingkat kesejahteraanmu hampir habis dan lampu peringatannya menyala. Huruf U terbalik itu ibarat lereng licin: makin jauh kamu dari puncak, makin sulit untuk kembali. 02 Meski begitu, menjaga kesejahteraan selalu di titik maksimal bukan hal mudah. Hidup memang tidak berjalan seperti itu! Akan ada masa ketika kamu mengalami stres terlalu banyak atau terlalu sedikit. Kuncinya adalah tetap seimbang sebisa mungkin, supaya energi fisik, mental, sosial, atau spiritualmu tidak terkuras, baik karena bosan maupun karena kelelahan parah. Terkuras (sulit pulih) · Rendah (berisiko) · Seimbang (kinerja dan kesejahteraan optimal; tetaplah di titik ini) · Kelebihan beban (berisiko burnout). Tahukah kamu? Tubuh punya \"anggaran\". Menurut Dr. Lisa Feldman Barrett, anggaran tubuh menunjukkan berapa banyak energi yang tersimpan di bateraimu dan bagaimana kamu menggunakannya. Otakmu mengatur berapa banyak energi yang masuk dan keluar dari tubuh. Kamu bisa menjalankan anggaran tubuh dalam kondisi defisit untuk sementara, tetapi pada titik tertentu anggaran itu akan \"bangkrut\" kalau tidak diisi kembali. Karena itu, pemulihan adalah kuncinya!"
-         }
-        },
-        {
-         "title": {
-          "en": "What is the relationship between well-being and recovery?",
-          "id": "Apa hubungan antara kesejahteraan dan pemulihan?"
-         },
-         "text": {
-          "en": "Recovery is critical to our well-being. Our performance and ability to access a state of learning are dependent on our battery charge. With adequate recovery and charged batteries, we can better manage stress and maintain focus, helping us recover more effectively and prevent our energy from draining too quickly. The Well-being and Recovery Cycle. Sustained energy drives better performance, sharper focus, and a more balanced life: Better well-being (sufficient energy helps you feel healthier, happier, and more ready to engage in daily activities) → Optimal performance and focus (with sustained energy, you can learn more effectively, be more productive, and manage stress better) → Adequate recovery (rest, sleep, and recovery activities help recharge your battery) → and round again.",
-          "id": "Pemulihan sangat penting bagi kesejahteraan kita. Kinerja dan kemampuan kita untuk masuk ke kondisi siap belajar bergantung pada isi baterai kita. Dengan pemulihan yang cukup dan baterai yang terisi, kita lebih mampu mengelola stres dan menjaga fokus, sehingga pemulihan berikutnya lebih efektif dan energi kita tidak cepat terkuras. Siklus Kesejahteraan dan Pemulihan. Energi yang terjaga menghasilkan kinerja yang lebih baik, fokus yang lebih tajam, dan hidup yang lebih seimbang: Kesejahteraan yang lebih baik (energi yang cukup membuatmu merasa lebih sehat, lebih bahagia, dan lebih siap menjalani kegiatan sehari-hari) → Kinerja dan fokus yang optimal (dengan energi yang terjaga, kamu bisa belajar lebih efektif, lebih produktif, dan lebih baik mengelola stres) → Pemulihan yang cukup (istirahat, tidur, dan kegiatan pemulihan membantu mengisi ulang bateraimu) → lalu berputar lagi."
-         }
-        },
-        {
-         "title": {
-          "en": "The importance of recovery",
-          "id": "Pentingnya pemulihan"
-         },
-         "text": {
-          "en": "Below is an example of a busy human who is, nonetheless, living a balanced day. It is based on a number of real practices shared by experts in well-being. You will see that the goal is not intensity, but rather weaving in moments of recovery throughout your day. 06:00–07:00 Recharge your body: morning exercise, healthy breakfast, and a few minutes of mindfulness (build energy). 09:00–12:00 Deep work. Focus on high-value work with minimal distractions (high focus). 12:00–13:00 Reset and refuel: nutritious lunch and a short walk outside (refuel). 13:00–16:00 Collaborate and create: meetings, collaboration, and problem solving (sustained productivity). 16:00–17:00 Take a break: step away from your screen; stretch, breathe, or enjoy a short walk (refresh). 17:00–20:00 Connect and recharge. Spend quality time with family, friends, or a community that energizes you (feel connected). 21:00–22:30 Wind down. Reduce screen time, read, reflect, and get good sleep for a stronger tomorrow (recover). Key takeaway: recovery is not a break from productivity; it fuels it. Small, consistent moments of recovery make a big difference. A balanced day leads to higher energy, better focus, and a healthier, happier life.",
-          "id": "Berikut contoh seseorang yang sibuk tetapi tetap menjalani hari yang seimbang. Contoh ini disusun dari sejumlah praktik nyata yang dibagikan para ahli kesejahteraan. Kamu akan melihat bahwa tujuannya bukan intensitas, melainkan menyelipkan momen-momen pemulihan sepanjang hari. 06:00–07:00 Isi ulang tubuh: olahraga pagi, sarapan sehat, dan beberapa menit mindfulness (membangun energi). 09:00–12:00 Kerja mendalam. Fokus pada pekerjaan bernilai tinggi dengan gangguan seminimal mungkin (fokus tinggi). 12:00–13:00 Atur ulang dan isi tenaga: makan siang bergizi dan jalan kaki sebentar di luar (mengisi tenaga). 13:00–16:00 Berkolaborasi dan berkarya: rapat, kerja sama, dan pemecahan masalah (produktivitas yang terjaga). 16:00–17:00 Rehat: menjauh dari layar; peregangan, tarik napas, atau jalan santai sebentar (menyegarkan diri). 17:00–20:00 Terhubung dan mengisi ulang. Habiskan waktu berkualitas bersama keluarga, teman, atau komunitas yang memberimu energi (merasa terhubung). 21:00–22:30 Bersantai menjelang tidur. Kurangi waktu layar, membaca, merenung, dan tidur yang cukup untuk hari esok yang lebih kuat (pulih). Poin penting: pemulihan bukan jeda dari produktivitas; pemulihan justru menjadi bahan bakarnya. Momen pemulihan yang kecil dan konsisten membuat perbedaan besar. Hari yang seimbang menghasilkan energi yang lebih tinggi, fokus yang lebih baik, dan hidup yang lebih sehat dan bahagia."
-         }
-        },
-        {
-         "title": {
-          "en": "A Balanced Day with Recovery in Mind",
-          "id": "Hari yang Seimbang dengan Pemulihan di Dalamnya"
-         },
-         "text": {
-          "en": "Here is an example of a busy human who is, nonetheless, living a balanced day. It is based on real practices shared by experts in well-being. The goal is not intensity, but rather weaving moments of recovery throughout your day. “Small moments of recovery create a big difference.” Morning: 06:00–07:00 Mindful wake up: resist the urge to reach for your phone; spend at least 20 minutes on a non-work morning routine. 07:00–09:00 Morning routine: bring some intention setting and movement into every morning. For example, take a few minutes to stretch, do light exercise, and set your intention for the day ahead. Midday: 09:00–12:00 Deep work: focus on high-value work with minimal distractions. 12:00–13:00 Reset and refuel: have a nutritious lunch and take a short walk outside. 13:00–16:00 Collaborate and create: meetings, collaboration, and problem solving. Afternoon: 16:00–17:00 Take a break: step away from your screen; stretch, breathe, or enjoy a short walk. 17:00–20:00 Connect and recharge: spend quality time with family, friends, or a community that energizes you. Evening: 21:00–21:30 Daily appreciation: send a quick text, email, or call to appreciate someone who matters to you. 21:30–22:00 Wind down: reduce screen time, read, reflect, and get good sleep for a stronger tomorrow. Throughout the day. Movement while working: be active at your desk or walk during calls and meetings when possible.",
-          "id": "Berikut contoh seseorang yang sibuk tetapi tetap menjalani hari yang seimbang. Contoh ini disusun dari praktik nyata yang dibagikan para ahli kesejahteraan. Tujuannya bukan intensitas, melainkan menyelipkan momen-momen pemulihan sepanjang hari. \"Momen pemulihan yang kecil menciptakan perbedaan yang besar.\" Pagi: 06:00–07:00 Bangun dengan sadar: tahan keinginan untuk langsung meraih ponsel; luangkan setidaknya 20 menit untuk rutinitas pagi di luar urusan kerja. 07:00–09:00 Rutinitas pagi: sisipkan penetapan niat dan gerak badan setiap pagi. Misalnya, luangkan beberapa menit untuk peregangan, olahraga ringan, dan menetapkan niat untuk hari itu. Siang: 09:00–12:00 Kerja mendalam: fokus pada pekerjaan bernilai tinggi dengan gangguan seminimal mungkin. 12:00–13:00 Atur ulang dan isi tenaga: makan siang bergizi dan jalan kaki sebentar di luar. 13:00–16:00 Berkolaborasi dan berkarya: rapat, kerja sama, dan pemecahan masalah. Sore: 16:00–17:00 Rehat: menjauh dari layar; peregangan, tarik napas, atau jalan santai sebentar. 17:00–20:00 Terhubung dan mengisi ulang: habiskan waktu berkualitas bersama keluarga, teman, atau komunitas yang memberimu energi. Malam: 21:00–21:30 Apresiasi harian: kirim pesan singkat, email, atau telepon untuk menghargai seseorang yang berarti bagimu. 21:30–22:00 Bersantai menjelang tidur: kurangi waktu layar, membaca, merenung, dan tidur yang cukup untuk hari esok yang lebih kuat. Sepanjang hari. Bergerak sambil bekerja: tetap aktif di meja kerja atau berjalan saat menelepon dan rapat bila memungkinkan."
-         },
-         "caption": {
-          "en": "Your workbook in Metanoia: the Energy Planner in this lesson is the in-platform place for your recovery plan.",
-          "id": "Buku kerjamu di Metanoia: Perencana Energi di pelajaran ini adalah tempat di platform untuk menyusun rencana pemulihanmu."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 6 slides",
-        "id": "Baca berikutnya · 6 slide"
-       },
-       "title": {
-        "en": "Well-Being Is a Journey: Material",
-        "id": "Kesejahteraan Adalah Perjalanan: Materi"
-       },
-       "intro": {
-        "en": "You have a battery score and the four sources that charge it. These six slides turn that into a practice you can keep: the three steps of the well-being journey (most of us are on Step 1), why starting small works, the two kinds of feedback that tell you how you are really doing, a recovery plan you draft now, an example plan to borrow from, and the emotional flexibility that keeps the habits alive. One more deck follows; Exhibit 1 then names the four systems that produce usable energy.",
-        "id": "Kamu sudah punya skor baterai dan tahu empat sumber pengisinya. Enam slide ini mengubahnya menjadi kebiasaan yang bisa kamu jaga: tiga langkah dalam perjalanan kesejahteraan (sebagian besar dari kita masih di Langkah 1), kenapa memulai dari yang kecil itu berhasil, dua jenis masukan yang memberi tahu kondisimu yang sebenarnya, rencana pemulihan yang kamu susun sekarang, contoh rencana yang bisa kamu tiru, dan kelenturan emosi yang menjaga kebiasaan itu tetap hidup. Satu rangkaian slide lagi menyusul; lalu Gambar 1 menyebutkan empat sistem yang menghasilkan energi yang bisa dipakai."
-       },
-       "base": "../../assets/lms/the-map/slides/well-being-journey-",
-       "slides": [
-        {
-         "title": {
-          "en": "Well-being is a journey",
-          "id": "Kesejahteraan adalah perjalanan"
-         },
-         "text": {
-          "en": "Maintaining a fully charged well-being battery requires a combination of habits which build on and reinforce one another. It is okay to start small. In fact, it is exactly how you should start. Well-being is a lifelong journey, and most of us are on Step 1! Step 1, The Basics: starting out small means setting a foundation of small but regular and purposeful actions (e.g., getting more sleep, moving for 20 minutes every day, or connecting with others). By increasing your awareness and ability to apply well-being practices, you are better able to cope with stress. Step 2, Maintenance: you are better able to stay towards the top of your well-being, even when life's events try to throw you off track. By consciously integrating well-being practices such as recovery and emotional flexibility, you maintain a stable sense of well-being. Step 3, Mastery: at this stage, your routines help you consistently perform at your best, even when facing life's challenges. You proactively manage your energy and adjust automatically. You clearly understand what works for you, including how past joyful and difficult experiences have shaped you. You also bring a high level of awareness to how this influences your mindset and behaviors, and you become a role model for others.",
-          "id": "Menjaga baterai kesejahteraan tetap penuh butuh gabungan kebiasaan yang saling membangun dan saling menguatkan. Tidak apa-apa mulai dari yang kecil. Justru begitulah seharusnya kamu memulai. Kesejahteraan adalah perjalanan seumur hidup, dan sebagian besar dari kita masih di Langkah 1! Langkah 1, Dasar-Dasar: memulai dari yang kecil berarti membangun fondasi berupa tindakan kecil yang rutin dan bertujuan (misalnya tidur lebih cukup, bergerak 20 menit setiap hari, atau menjalin hubungan dengan orang lain). Dengan makin sadar dan makin mampu menerapkan praktik kesejahteraan, kamu lebih sanggup menghadapi stres. Langkah 2, Pemeliharaan: kamu lebih mampu bertahan di dekat puncak kesejahteraanmu, bahkan ketika peristiwa hidup berusaha membuatmu keluar jalur. Dengan sengaja memadukan praktik kesejahteraan seperti pemulihan dan kelenturan emosi, kamu menjaga kesejahteraan yang stabil. Langkah 3, Penguasaan: di tahap ini, rutinitasmu membantumu tampil terbaik secara konsisten, bahkan saat menghadapi tantangan hidup. Kamu mengelola energi secara proaktif dan menyesuaikan diri secara otomatis. Kamu paham betul apa yang cocok bagimu, termasuk bagaimana pengalaman bahagia dan sulit di masa lalu telah membentukmu. Kamu juga sangat sadar bagaimana hal itu memengaruhi pola pikir dan perilakumu, dan kamu menjadi teladan bagi orang lain."
-         }
-        },
-        {
-         "title": {
-          "en": "Did you know? The power of starting small",
-          "id": "Tahukah kamu? Kekuatan memulai dari yang kecil"
-         },
-         "text": {
-          "en": "For some people, starting small may feel like a lack of ambition. They would rather set a big goal and go for it. However, there is tremendous power in starting small. For example, at the micro level you can find brief moments during the day to charge your well-being battery. At the macro level, you can move towards large goals in small increments and then celebrate each success. These small successes cause your body to release dopamine, which sends a chemical message to feel good. In turn, this helps you stay motivated to keep going. Big goal. Your long-term aspiration. Macro level. Move towards large goals in small increments and celebrate each success. Micro level. Find brief moments during the day to charge your well-being battery: a short walk, a deep breath, a glass of water, a mindful pause. Why it works: 1. Small success. You take small steps and achieve them. 2. Dopamine release. Your body releases dopamine, a chemical that makes you feel good. 3. Higher motivation. You feel more motivated to keep going.",
-          "id": "Bagi sebagian orang, memulai dari yang kecil terasa seperti kurang ambisius. Mereka lebih suka menetapkan tujuan besar dan langsung mengejarnya. Padahal ada kekuatan besar dalam memulai dari yang kecil. Misalnya, di tingkat mikro kamu bisa menemukan momen-momen singkat sepanjang hari untuk mengisi baterai kesejahteraanmu. Di tingkat makro, kamu bisa bergerak menuju tujuan besar sedikit demi sedikit, lalu merayakan setiap keberhasilan. Keberhasilan kecil ini membuat tubuhmu melepaskan dopamin, yang mengirim sinyal kimiawi untuk merasa senang. Pada gilirannya, ini membantumu tetap termotivasi untuk terus melangkah. Tujuan besar. Cita-cita jangka panjangmu. Tingkat makro. Bergerak menuju tujuan besar sedikit demi sedikit dan rayakan setiap keberhasilan. Tingkat mikro. Temukan momen-momen singkat sepanjang hari untuk mengisi baterai kesejahteraanmu: jalan kaki sebentar, tarikan napas dalam, segelas air, jeda sejenak dengan penuh kesadaran. Kenapa ini berhasil: 1. Keberhasilan kecil. Kamu mengambil langkah kecil dan berhasil mencapainya. 2. Dopamin dilepaskan. Tubuhmu melepaskan dopamin, zat kimia yang membuatmu merasa senang. 3. Motivasi lebih tinggi. Kamu jadi lebih termotivasi untuk terus melangkah."
-         }
-        },
-        {
-         "title": {
-          "en": "The power of feedback",
-          "id": "Kekuatan masukan"
-         },
-         "text": {
-          "en": "To track your well-being, a great way is to ask for feedback. There are two ways to obtain feedback: analog (in person) and high-tech (technology). 1. Analog (in person) feedback. Pay attention to intentional or unintentional feedback you receive from the people around you. If they consistently inquire about your well-being, especially during or after tense meetings, they may sense that something is “off.” Even better, solicit open feedback from any of the following people: your colleagues, your team members, a coach or mentor, your family members, your close friends and/or partner. 2. High-tech (technology) feedback. Wearable technologies can track heart rate, blood oxygen levels, sleeping patterns, movement patterns, stress levels, etc. Some can track your heart rate variability (HRV), the variation in the time interval between heartbeats, which can be influenced by stress, lack of sleep, fitness levels, nutrition, age, and genetics. Tracking your HRV over time shows how well you are recovering. Low HRV is a predictor of reduced resilience, burnout, and cardiovascular disease.",
-          "id": "Cara yang bagus untuk memantau kesejahteraanmu adalah meminta masukan. Ada dua cara mendapatkannya: analog (langsung dari orang) dan berteknologi (lewat perangkat). 1. Masukan analog (langsung dari orang). Perhatikan masukan yang disengaja maupun tidak disengaja dari orang-orang di sekitarmu. Kalau mereka terus-menerus menanyakan keadaanmu, terutama saat atau setelah rapat yang tegang, mungkin mereka merasakan ada yang \"tidak beres\". Lebih baik lagi, mintalah masukan terbuka dari salah satu orang berikut: rekan kerja, anggota tim, coach atau mentor, anggota keluarga, sahabat dan/atau pasanganmu. 2. Masukan berteknologi (lewat perangkat). Perangkat yang dipakai di tubuh bisa melacak detak jantung, kadar oksigen darah, pola tidur, pola gerak, tingkat stres, dan lain-lain. Sebagian bisa melacak variabilitas detak jantung (HRV), yaitu variasi jarak waktu antardetak jantung yang bisa dipengaruhi stres, kurang tidur, tingkat kebugaran, gizi, usia, dan genetika. Melacak HRV dari waktu ke waktu menunjukkan seberapa baik kamu pulih. HRV yang rendah menjadi penanda menurunnya ketangguhan, burnout, dan penyakit kardiovaskular."
-         }
-        },
-        {
-         "title": {
-          "en": "Try it now: Creating your recovery plan",
-          "id": "Coba sekarang: Menyusun rencana pemulihan"
-         },
-         "text": {
-          "en": "1. It's time to create your recovery plan: identify the activities and routines that give you energy and those that drain you. While sleep, exercise, and nutrition are common to everyone, other elements are highly personal. 2. Understand what energizes vs. drains you. People are different: introverts may find certain social activities draining, while extroverts may find them energizing. Take note of how each activity affects your energy levels. 3. Include social activities. For activities with others (e.g., meeting specific friends, group activities, or lunch with colleagues), think of the specific people who energize you and include their names or initials in your recovery plan. Examples of recovery activities: group meetings, 1:1 meetings, highly focused individual work, Zoom meetings, commuting (going to work), lunch with colleagues, meeting a group of friends, spending time alone, meeting specific friends, physical movement. Once you have an idea of what charges your battery and what drains you, you can better organize your days and weeks to maximize your well-being. Use the provided workbook template to draft your plan. “More energy for what matters.”",
-          "id": "1. Saatnya menyusun rencana pemulihanmu: kenali kegiatan dan rutinitas yang memberimu energi dan yang menguras energimu. Tidur, olahraga, dan gizi berlaku untuk semua orang, tetapi unsur lainnya sangat pribadi. 2. Pahami apa yang mengisi dan apa yang menguras energimu. Setiap orang berbeda: orang introver mungkin merasa kegiatan sosial tertentu melelahkan, sementara orang ekstrover justru merasa terisi. Catat bagaimana setiap kegiatan memengaruhi tingkat energimu. 3. Masukkan kegiatan sosial. Untuk kegiatan bersama orang lain (misalnya bertemu teman tertentu, kegiatan kelompok, atau makan siang dengan rekan kerja), pikirkan orang-orang tertentu yang memberimu energi dan tulis nama atau inisial mereka di rencana pemulihanmu. Contoh kegiatan pemulihan: rapat kelompok, rapat empat mata, kerja mandiri yang sangat fokus, rapat Zoom, perjalanan ke tempat kerja, makan siang dengan rekan kerja, bertemu sekelompok teman, menyendiri, bertemu teman tertentu, gerak badan. Setelah tahu apa yang mengisi bateraimu dan apa yang mengurasnya, kamu bisa mengatur hari dan minggumu dengan lebih baik untuk memaksimalkan kesejahteraan. Pakai templat buku kerja yang disediakan untuk menyusun draf rencanamu. \"Lebih banyak energi untuk hal yang penting.\""
-         },
-         "caption": {
-          "en": "Your workbook in Metanoia: write the recovery plan in the Energy Planner below the drills.",
-          "id": "Buku kerjamu di Metanoia: tulis rencana pemulihanmu di Perencana Energi di bawah latihan-latihannya."
-         }
-        },
-        {
-         "title": {
-          "en": "Example recovery plan",
-          "id": "Contoh rencana pemulihan"
-         },
-         "text": {
-          "en": "Below is an example of a recovery plan that has been filled out to help you understand how to integrate activities that give you energy into your daily routine. Morning. Start the day with positive energy: 1. After waking up, do some light stretching and deep breathing, then set an intention for the day ahead. 2. Have a healthy breakfast while enjoying a calm atmosphere (no phone). 3. Set aside 30 minutes for a focused activity, such as reading or doing strategic work, before your main tasks. Afternoon: maintain energy in the middle of the day: 1. Every 2 hours, take a short break to drink water, stand up, and stretch. 2. Have lunch with colleagues to strengthen social connections. 3. If you feel tired, take 5–10 minutes for a short walk or breathing exercise. Evening: maintain focus and a healthy transition: 1. Finish your main work and create a to-do list for the next day. 2. Do light physical activity, such as a walk around the office or a short workout. 3. Spend time connecting with family, friends, or your partner. Bedtime. Rest and recharge: 1. Put your work devices and your phone away at least 1 hour before sleep (use a physical alarm clock). 2. Do a calming activity, such as reading a book, journaling, or light meditation. 3. Ensure consistent and sufficient sleep. Key takeaway: this is just an example. You can adjust the activities, timing, and people involved based on your own needs and circumstances. Use the provided workbook template to create your own recovery plan.",
-          "id": "Berikut contoh rencana pemulihan yang sudah diisi untuk membantumu memahami cara memasukkan kegiatan yang memberi energi ke dalam rutinitas harian. Pagi. Mulai hari dengan energi positif: 1. Setelah bangun, lakukan peregangan ringan dan tarik napas dalam, lalu tetapkan niat untuk hari itu. 2. Sarapan sehat dalam suasana tenang (tanpa ponsel). 3. Sisihkan 30 menit untuk kegiatan yang butuh fokus, seperti membaca atau mengerjakan hal strategis, sebelum tugas utama. Siang: jaga energi di tengah hari: 1. Setiap 2 jam, rehat sebentar untuk minum air, berdiri, dan peregangan. 2. Makan siang bersama rekan kerja untuk mempererat hubungan sosial. 3. Kalau merasa lelah, luangkan 5–10 menit untuk jalan kaki sebentar atau latihan pernapasan. Sore: jaga fokus dan transisi yang sehat: 1. Selesaikan pekerjaan utama dan buat daftar tugas untuk besok. 2. Lakukan aktivitas fisik ringan, seperti berjalan mengelilingi kantor atau olahraga singkat. 3. Luangkan waktu bersama keluarga, teman, atau pasangan. Menjelang tidur. Istirahat dan isi ulang: 1. Simpan perangkat kerja dan ponselmu setidaknya 1 jam sebelum tidur (pakai jam weker). 2. Lakukan kegiatan yang menenangkan, seperti membaca buku, menulis jurnal, atau meditasi ringan. 3. Pastikan tidurmu cukup dan teratur. Poin penting: ini hanya contoh. Kamu bisa menyesuaikan kegiatan, waktu, dan orang-orang yang terlibat sesuai kebutuhan dan keadaanmu. Pakai templat buku kerja yang disediakan untuk menyusun rencana pemulihanmu sendiri."
-         }
-        },
-        {
-         "title": {
-          "en": "Emotional flexibility and habit making",
-          "id": "Kelenturan emosi dan membangun kebiasaan"
-         },
-         "text": {
-          "en": "Understand your emotions. Make better choices. When it comes to learning and adapting, our mental well-being obviously plays a big role. What might be surprising is the importance of “emotional flexibility,” which is easy to overlook and often hard to do. Emotions are powerful, and emotional flexibility helps us to harness that power in ways that support our well-being. The more we tune into our emotions, and recognize patterns, the better we are able to use them as a compass to guide our choices and behaviors. For example, choosing to address the emotion or to let it go (a practice called defusion). Watch the video for practical advice on how to build emotional flexibility.",
-          "id": "Pahami emosimu. Ambil pilihan yang lebih baik. Dalam belajar dan beradaptasi, kesejahteraan mental jelas punya peran besar. Yang mungkin mengejutkan adalah pentingnya \"kelenturan emosi\", yang mudah terabaikan dan sering sulit dilakukan. Emosi itu kuat, dan kelenturan emosi membantu kita memanfaatkan kekuatan itu dengan cara yang mendukung kesejahteraan kita. Makin peka kita pada emosi dan makin mampu mengenali polanya, makin baik kita memakainya sebagai kompas untuk memandu pilihan dan perilaku. Misalnya, memilih untuk menanggapi emosi itu atau melepaskannya (praktik yang disebut defusi). Tonton videonya untuk mendapatkan saran praktis tentang cara membangun kelenturan emosi."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Turning Your Well-Being Practices into Habits: Material",
-        "id": "Menjadikan Praktik Kesejahteraan sebagai Kebiasaan: Materi"
-       },
-       "intro": {
-        "en": "You have the reading, the plan and the practice of emotional flexibility. These four slides make them stick: the habit loop of cue, routine and reward, the unhelpful recovery tactics to watch for, why your energy shapes the people around you, four ways to build support in your team, and the module's key takeaways with resources to go further. Then Exhibit 1 names the four systems that produce usable energy.",
-        "id": "Kamu sudah punya angkanya, rencananya, dan praktik kelenturan emosi. Empat slide ini membuat semuanya melekat: lingkaran kebiasaan berupa pemicu, rutinitas, dan imbalan; taktik pemulihan yang justru tidak membantu dan perlu diwaspadai; kenapa energimu membentuk orang-orang di sekitarmu; empat cara membangun dukungan di timmu; dan poin-poin penting modul ini beserta bacaan lanjutan. Setelah itu, Gambar 1 menyebutkan empat sistem yang menghasilkan energi yang bisa dipakai."
-       },
-       "base": "../../assets/lms/the-map/slides/well-being-turning-",
-       "slides": [
-        {
-         "title": {
-          "en": "Turning your well-being practices into habits",
-          "id": "Menjadikan praktik kesejahteraan sebagai kebiasaan"
-         },
-         "text": {
-          "en": "Small, consistent practices can create a big, lasting impact. The Habit Loop. By understanding how habits form and persist, we can take deliberate actions to make our desired behaviors stick. Start by identifying the well-being habit you want to adopt (for example, practicing gratitude), and then apply the three components of the Habit Loop: cues, routines, and rewards. 1. Cue. What's the reminder that will trigger your habit? Set an electronic reminder (e.g., a calendar invite that appears at the start of each week). Use a physical cue, such as a notebook on your desk or a calendar with an X each day, to remind you to write three things you are grateful for. 2. Routine. What steps must you take to follow through on this habit? Set aside time before going to bed each night. Reach out to a new person each week to tell them why you are grateful for them. 3. Reward. What will make you feel good about your new routine? The practice itself should make you feel good. A reward in and of itself. Consider additional rewards (physical, mental, or emotional), such as taking time to relax or treating yourself to something meaningful (e.g., a new journal). Watching out for unhelpful recovery tactics. Some tactics may seem helpful but actually enable us to suppress, numb, and avoid our stressors. These tactics don't charge your battery; they might drain it. Examples include throwing yourself into work, having one too many drinks, using meditation or over-exercising to avoid difficult feelings or conversations. How do you know if you are recovering or suppressing? Ask yourself: does this activity increase my awareness of what stresses me out, or does it feel like I'm avoiding the problem? Challenging our beliefs. Changing our habits might require that we challenge our beliefs. If you are a perfectionist who likes to be in control of things, it may be hard to admit that you need to delegate tasks to find time for recovery. Opening up about our beliefs can help us understand them better and identify how we can adapt to new habits. With awareness and intention, we can integrate well-being practices into our lives until they truly become habits. The more we can do this, the easier it is to stay at the top of the inverted U by automating healthy behaviors and proactively maintaining a productive level of stress.",
-          "id": "Praktik kecil yang konsisten bisa menciptakan dampak yang besar dan langgeng. Lingkaran Kebiasaan. Dengan memahami bagaimana kebiasaan terbentuk dan bertahan, kita bisa mengambil langkah yang disengaja agar perilaku yang kita inginkan melekat. Mulailah dengan menentukan kebiasaan kesejahteraan yang ingin kamu bangun (misalnya bersyukur), lalu terapkan tiga komponen Lingkaran Kebiasaan: pemicu, rutinitas, dan imbalan. 1. Pemicu. Apa pengingat yang akan memicu kebiasaanmu? Pasang pengingat elektronik (misalnya undangan kalender yang muncul setiap awal minggu). Pakai pemicu fisik, seperti buku catatan di mejamu atau kalender yang kamu beri tanda silang setiap hari, untuk mengingatkanmu menulis tiga hal yang kamu syukuri. 2. Rutinitas. Langkah apa yang perlu kamu ambil untuk menjalankan kebiasaan ini? Sisihkan waktu setiap malam sebelum tidur. Hubungi satu orang baru setiap minggu untuk mengatakan kenapa kamu bersyukur atas kehadirannya. 3. Imbalan. Apa yang akan membuatmu merasa senang dengan rutinitas barumu? Praktiknya sendiri seharusnya sudah membuatmu senang; itu sudah menjadi imbalan. Pertimbangkan imbalan tambahan (fisik, mental, atau emosional), seperti meluangkan waktu untuk bersantai atau menghadiahi dirimu sesuatu yang bermakna (misalnya jurnal baru). Waspadai taktik pemulihan yang tidak membantu. Sebagian taktik tampak membantu, padahal justru membuat kita menekan, mematikan rasa, dan menghindari sumber stres. Taktik seperti ini tidak mengisi bateraimu; malah bisa mengurasnya. Contohnya menenggelamkan diri dalam pekerjaan, minum alkohol terlalu banyak, atau memakai meditasi dan olahraga berlebihan untuk menghindari perasaan atau percakapan yang sulit. Bagaimana kamu tahu apakah kamu sedang pulih atau sedang menekan? Tanyakan pada dirimu: apakah kegiatan ini membuatku makin sadar akan apa yang membuatku stres, atau rasanya aku sedang menghindari masalahnya? Menantang keyakinan kita. Mengubah kebiasaan mungkin menuntut kita menantang keyakinan kita sendiri. Kalau kamu seorang perfeksionis yang suka mengendalikan segala hal, mungkin sulit mengakui bahwa kamu perlu mendelegasikan tugas supaya punya waktu untuk pemulihan. Terbuka tentang keyakinan kita bisa membantu kita memahaminya lebih baik dan menemukan cara beradaptasi dengan kebiasaan baru. Dengan kesadaran dan niat, kita bisa memadukan praktik kesejahteraan ke dalam hidup sampai benar-benar menjadi kebiasaan. Makin sering kita melakukannya, makin mudah kita bertahan di puncak huruf U terbalik dengan menjadikan perilaku sehat otomatis dan secara proaktif menjaga tingkat stres yang produktif."
-         }
-        },
-        {
-         "title": {
-          "en": "The power of others: the importance of role modeling",
-          "id": "Kekuatan orang lain: pentingnya menjadi teladan"
-         },
-         "text": {
-          "en": "“Your first and foremost job as a leader is to take charge of your own energy and then help to orchestrate the energy of those around you.” (often attributed to Peter Drucker) Your energy shapes others. Lead by example. This quote is true no matter your role on a team. Research shows that our behaviors are contagious. Your choices affect the choices of others around you, whether they realize it or not. Each of us should think about how we can stay at the top of the inverted U and, in so doing, create a mutually reinforcing support network among our colleagues. Your behavior influences others. Positive energy creates a healthier, more productive team. Support each other to stay at the top of your potential.",
-          "id": "\"Tugas pertama dan terutama seorang pemimpin adalah mengendalikan energinya sendiri, lalu membantu mengatur energi orang-orang di sekitarnya.\" (sering dikaitkan dengan Peter Drucker) Energimu membentuk orang lain. Jadilah contoh. Kutipan ini berlaku apa pun peranmu di tim. Penelitian menunjukkan bahwa perilaku kita menular. Pilihanmu memengaruhi pilihan orang-orang di sekitarmu, entah mereka sadar atau tidak. Kita masing-masing perlu memikirkan cara bertahan di puncak huruf U terbalik dan, dengan begitu, membangun jaringan dukungan yang saling menguatkan di antara rekan kerja. Perilakumu memengaruhi orang lain. Energi positif menciptakan tim yang lebih sehat dan produktif. Saling dukung agar tetap berada di puncak potensi kalian."
-         },
-         "caption": {
-          "en": "Editorial note: this quotation is widely attributed but no primary source is commonly found; read it as attributed.",
-          "id": "Catatan redaksi: kutipan ini banyak dikaitkan dengan Drucker, tetapi sumber aslinya tidak umum ditemukan; bacalah sebagai kutipan yang dikaitkan."
-         }
-        },
-        {
-         "title": {
-          "en": "How to build support in your surrounding environment",
-          "id": "Cara membangun dukungan di lingkungan sekitarmu"
-         },
-         "text": {
-          "en": "Practical steps to create a positive, supportive, and healthy environment that lasts. 01 Celebrate one another. Did your teammate just run their first race? Did another make it to their child's soccer game every weekend this past month? These seemingly small things are important, and our colleagues are more likely to continue to prioritize their well-being if they are actively encouraged. Ideas: dedicate time in a standing meeting to celebrate one or more people, or to share something you are grateful for; congratulate your teammates when they have accomplished something important; send a note of appreciation. 02 Develop team norms (things that the team does regularly). Well-being is easier with the support of a group. Ideas: give everyone permission to set and enforce their own boundaries; dedicate time to discussing personal and collective goals (e.g., hours of sleep, number of workouts, books read); create a visual tool to track progress; do a daily check-in or check-out, using a messaging tool to share your small wins. 03 Set expectations and boundaries … and communicate them. Get clear on what you need to be your best self, and share that with others. Then hold yourself accountable! Ideas: clearly communicate when you might be stepping away for a bit, signing off for the day, or are unavailable; take it a step further and do not respond during those times; ask your teammates to challenge you when you are failing to respect your own boundaries. 04 Share what is going on, and ask for support. Challenge yourself to be vulnerable and communicate openly, both about what is working and what is not. Ideas: send your team ideas or resources that you read about, listen to, or watch; take it a step further and start a conversation about what you learned; communicate the goals you are working on and ask if anyone has advice or a resource to help.",
-          "id": "Langkah praktis untuk menciptakan lingkungan yang positif, saling mendukung, dan sehat secara berkelanjutan. 01 Rayakan satu sama lain. Rekan setimmu baru saja ikut lomba lari pertamanya? Rekan lainnya berhasil menonton pertandingan sepak bola anaknya setiap akhir pekan sepanjang bulan lalu? Hal-hal yang tampak kecil ini penting, dan rekan kerja kita lebih mungkin terus memprioritaskan kesejahteraannya kalau mereka didorong secara aktif. Ide: sisihkan waktu di rapat rutin untuk merayakan satu orang atau lebih, atau untuk berbagi hal yang disyukuri; beri selamat kepada rekan setim saat mereka mencapai sesuatu yang penting; kirim catatan apresiasi. 02 Bangun norma tim (hal-hal yang rutin dilakukan tim). Kesejahteraan lebih mudah dijaga dengan dukungan kelompok. Ide: beri setiap orang keleluasaan untuk menetapkan dan menegakkan batasannya sendiri; sisihkan waktu untuk membahas tujuan pribadi dan bersama (misalnya jam tidur, jumlah sesi olahraga, buku yang dibaca); buat alat visual untuk memantau kemajuan; lakukan check-in atau check-out harian lewat aplikasi pesan untuk berbagi keberhasilan kecil. 03 Tetapkan ekspektasi dan batasan … lalu komunikasikan. Pahami dengan jelas apa yang kamu butuhkan untuk menjadi versi terbaikmu, lalu bagikan kepada orang lain. Setelah itu, pegang komitmenmu sendiri! Ide: sampaikan dengan jelas kapan kamu akan rehat sebentar, selesai bekerja untuk hari itu, atau tidak bisa dihubungi; selangkah lebih jauh, jangan membalas pesan di waktu-waktu itu; minta rekan setim mengingatkanmu ketika kamu melanggar batasanmu sendiri. 04 Ceritakan apa yang sedang terjadi, dan minta dukungan. Tantang dirimu untuk berani terbuka dan berkomunikasi secara jujur, baik tentang apa yang berjalan baik maupun yang tidak. Ide: kirimkan ide atau bahan yang kamu baca, dengar, atau tonton kepada timmu; selangkah lebih jauh, mulailah percakapan tentang apa yang kamu pelajari; sampaikan tujuan yang sedang kamu kejar dan tanyakan apakah ada yang punya saran atau bahan yang bisa membantu."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways and resources",
-          "id": "Poin penting dan bacaan"
-         },
-         "text": {
-          "en": "In this module, we covered the following key tools to help you build a more balanced, resilient, and fulfilling life. 01 Assessing your battery. Use the questionnaires to understand the current state of your well-being and create a plan that touches upon all the ingredients: physical, mental and emotional, social, and spiritual. 02 Practicing acceptance. Use this to increase your emotional flexibility by getting curious about your emotions and choosing to let go or address them. 03 Role modeling well-being. Use this to set the standard for your state of well-being, and then communicate and show it to others around you. Resources. You may also wish to explore these resources to deepen your understanding and continue your well-being journey: The 7 types of rest every person needs (article); The overlooked essentials of employee well-being (article); The art and science of well-being at work (podcast); Zoning in and out of stress (video); Why you should manage your energy, not your time (article); The science of making and breaking habits (video); Balancing the Brain Budget, Lisa Feldman Barrett on The Knowledge Project with Shane Parrish (podcast); Spiritual Bypassing and How to Avoid It (article).",
-          "id": "Di modul ini, kita sudah membahas alat-alat kunci berikut untuk membantumu membangun hidup yang lebih seimbang, tangguh, dan utuh. 01 Menilai bateraimu. Pakai kuesionernya untuk memahami kondisi kesejahteraanmu saat ini dan menyusun rencana yang mencakup semua bahannya: fisik, mental dan emosional, sosial, dan spiritual. 02 Melatih penerimaan. Pakai ini untuk meningkatkan kelenturan emosimu dengan penasaran terhadap emosimu lalu memilih untuk melepaskan atau menanggapinya. 03 Menjadi teladan kesejahteraan. Pakai ini untuk menetapkan standar kesejahteraanmu, lalu menyampaikan dan menunjukkannya kepada orang-orang di sekitarmu. Bacaan tambahan. Kamu juga bisa menjelajahi bahan-bahan berikut untuk memperdalam pemahaman dan melanjutkan perjalanan kesejahteraanmu: The 7 types of rest every person needs (artikel); The overlooked essentials of employee well-being (artikel); The art and science of well-being at work (podcast); Zoning in and out of stress (video); Why you should manage your energy, not your time (artikel); The science of making and breaking habits (video); Balancing the Brain Budget, Lisa Feldman Barrett di The Knowledge Project bersama Shane Parrish (podcast); Spiritual Bypassing and How to Avoid It (artikel)."
-         }
-        }
-       ]
-      }
-     ],
-     "videosPlacement": "after-material:1",
      "videos": [
       {
        "src": {
@@ -10256,8 +9945,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows these slides: Galih, a week of five-hour nights before an interview, and the four lines that get him through it. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide ini: Galih, seminggu tidur lima jam menjelang wawancara, dan empat baris yang membantunya melewatinya. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Galih, a week of five-hour nights before an interview, and the four lines that get him through it. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Galih, seminggu tidur lima jam menjelang wawancara, dan empat baris yang membantunya melewatinya. Tonton, lalu lanjutkan ke bacaan di bawah."
      },
      "overview": {
       "en": "Energy, not time, is the base resource of a career, and it is produced by four unglamorous systems: sleep, movement, fuel and recovery. This lesson treats health as performance infrastructure and gives you a minimum viable protocol that survives student budgets and first-job schedules.",
@@ -10930,12 +10619,12 @@ window.MT_LMS['the-map'] = {
          {
           "id": "battery",
           "label": {
-           "en": "Battery score (statements rated 4–5 count as true, out of 9)",
-           "id": "Skor baterai (pernyataan bernilai 4–5 dihitung benar, dari 9)"
+           "en": "Energy score (statements rated 4–5 count as true, out of 9)",
+           "id": "Skor energi (pernyataan bernilai 4–5 dihitung benar, dari 9)"
           },
           "hint": {
-           "en": "e.g. 5/9 · band: low charge",
-           "id": "mis. 5/9 · rentang: isi menipis"
+           "en": "e.g. 5/9 · running low",
+           "id": "mis. 5/9 · mulai menipis"
           },
           "rows": 1
          },
@@ -11156,8 +10845,8 @@ window.MT_LMS['the-map'] = {
       },
       "body": [
        {
-        "en": "Raka Pratama, 23, final-semester Statistics, scores <b>3/9</b> on the battery check on a Wednesday of UAS week. He has slept under six hours for eight nights, has stopped going to Thursday futsal “until things calm down”, and snapped at a tutoring student for a question he'd answered before. He recognises two of the three overload signals from the section above.",
-        "id": "Raka Pratama, 23 tahun, mahasiswa Statistika semester akhir, mendapat skor <b>3/9</b> pada cek baterai di hari Rabu minggu UAS. Sudah delapan malam ia tidur kurang dari enam jam, berhenti ikut futsal hari Kamis \"sampai keadaan tenang\", dan membentak murid lesnya karena pertanyaan yang sudah pernah ia jawab. Ia mengenali dua dari tiga tanda kelebihan beban di bagian sebelumnya."
+        "en": "Raka Pratama, 23, final-semester Statistics, scores <b>3/9</b> on the energy check on a Wednesday of UAS week. He has slept under six hours for eight nights, has stopped going to Thursday futsal “until things calm down”, and snapped at a tutoring student for a question he'd answered before. He recognises two of the three overload signals from the section above.",
+        "id": "Raka Pratama, 23 tahun, mahasiswa Statistika semester akhir, mendapat skor <b>3/9</b> pada cek energi di hari Rabu minggu UAS. Sudah delapan malam ia tidur kurang dari enam jam, berhenti ikut futsal hari Kamis \"sampai keadaan tenang\", dan membentak murid lesnya karena pertanyaan yang sudah pernah ia jawab. Ia mengenali dua dari tiga tanda kelebihan beban di bagian sebelumnya."
        },
        {
         "en": "He does what the two-step response says. <i>Subtract first:</i> he moves one tutoring session to the following week and defends 23:30–06:00 for four nights. <i>Then talk:</i> he tells his kos mate Dimas how the week is going, and they walk to the warung together each evening.",
@@ -11176,8 +10865,8 @@ window.MT_LMS['the-map'] = {
         "id": "Latihan 1: Catat kondisimu lengkap dengan tanggal (10 menit)"
        },
        "body": {
-        "en": "In the Energy Planner below, take the nine-statement battery check from the slides (count a statement as true if you rated it 4 or 5), rate each energy-ring system 1–5, and tick any overload signals present. Decide what your lowest-rated system is before you reveal.",
-        "id": "Di Perencana Energi di bawah, isi cek baterai sembilan pernyataan dari slide (hitung sebuah pernyataan benar kalau kamu memberinya nilai 4 atau 5), beri nilai 1–5 untuk setiap sistem dalam lingkaran energi, lalu centang tanda kelebihan beban yang sedang ada. Tentukan sistem mana yang nilainya paling rendah sebelum membuka pembahasan."
+        "en": "In the Energy Planner below, take the nine-statement energy check from the slides above (count a statement as true if you rated it 4 or 5), rate each energy-ring system 1–5, and tick any overload signals present. Decide what your lowest-rated system is before you reveal.",
+        "id": "Di Perencana Energi di bawah, isi cek energi sembilan pernyataan dari slide di atas (hitung sebuah pernyataan benar kalau kamu memberinya nilai 4 atau 5), beri nilai 1–5 untuk setiap sistem dalam lingkaran energi, lalu centang tanda kelebihan beban yang sedang ada. Tentukan sistem mana yang nilainya paling rendah sebelum membuka pembahasan."
        },
        "debrief": {
         "en": "Your lowest-rated system is usually where the next 10% of energy is hiding. A single reading is a snapshot. The trend over four weekly readings is what tells you something, so take it again in seven days and compare.",
@@ -11322,7 +11011,607 @@ window.MT_LMS['the-map'] = {
         "id": "Perkiraan tertulismu tentang seberapa berat setiap tahap tugas panjang akan terasa, yang dipakai untuk mengatur temponya."
        }
       }
-     ]
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "Energy First",
+       "id": "Energi Dulu"
+      },
+      "intro": {
+       "en": "Seven ideas in a few minutes, including a nine-statement energy check you will use in the planner below. Then a short film and the reading.",
+       "id": "Tujuh gagasan dalam beberapa menit, termasuk cek energi sembilan pernyataan yang akan kamu pakai di perencana di bawah. Setelah itu satu film singkat dan bacaannya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "What sleep debt costs",
+         "id": "Harga utang tidur"
+        },
+        "points": [
+         {
+          "en": "Health is not separate from performance. It is the machinery underneath it.",
+          "id": "Kesehatan tidak terpisah dari kinerja. Kesehatan adalah mesin di bawahnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The energy check",
+         "id": "Cek energi"
+        },
+        "points": [
+         {
+          "en": "Rate each statement from 1 to 5. Count the ones you rated 4 or 5: that is your energy score out of nine.",
+          "id": "Beri nilai 1 sampai 5 untuk setiap pernyataan. Hitung yang kamu beri nilai 4 atau 5: itulah skor energimu dari sembilan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four systems",
+         "id": "Empat sistem"
+        },
+        "points": [
+         {
+          "en": "When the check says you are low, one of these four is usually where the leak is.",
+          "id": "Saat hasil cekmu rendah, biasanya bocornya ada di salah satu dari empat ini."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A floor, not a ceiling",
+         "id": "Batas bawah, bukan batas atas"
+        },
+        "points": [
+         {
+          "en": "Design your routine for your worst week, not your best one.",
+          "id": "Rancang rutinitasmu untuk minggu terburukmu, bukan minggu terbaikmu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "How capacity grows",
+         "id": "Cara kapasitas tumbuh"
+        },
+        "points": [
+         {
+          "en": "Brad Stulberg and Steve Magness put it as an equation: stress plus rest equals growth.",
+          "id": "Brad Stulberg dan Steve Magness merumuskannya sebagai persamaan: stres ditambah istirahat sama dengan pertumbuhan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Early signals",
+         "id": "Tanda awal"
+        },
+        "points": [
+         {
+          "en": "Asking for help early is an operational skill, not a verdict on your character.",
+          "id": "Meminta bantuan lebih awal adalah keterampilan operasional, bukan penilaian atas karaktermu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The effort dial",
+         "id": "Kenop usaha"
+        },
+        "points": [
+         {
+          "en": "How hard an effort feels depends on more than how fit or how clever you are.",
+          "id": "Seberapa berat sebuah usaha terasa bergantung pada lebih dari sekadar kebugaran atau kepintaranmu."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/resilience.jpg",
+       "module": {
+        "en": "Module 5 · Relationships, Well-Being, and Digital Capability",
+        "id": "Modul 5 · Relasi, Kesejahteraan, dan Kecakapan Digital"
+       },
+       "lesson": {
+        "n": "5.1",
+        "title": {
+         "en": "Physical and Mental Health as the Foundation of Performance",
+         "id": "Kesehatan Fisik dan Mental sebagai Fondasi Kinerja"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "A tired brain loses first exactly what interviews and jobs test",
+         "id": "Otak yang lelah lebih dulu kehilangan tepat hal yang diuji dalam wawancara dan pekerjaan"
+        },
+        {
+         "en": "Nine statements give you a number you can track from week to week",
+         "id": "Sembilan pernyataan memberimu angka yang bisa kamu pantau dari minggu ke minggu"
+        },
+        {
+         "en": "Usable energy comes from four systems, and no app replaces any of them",
+         "id": "Energi yang bisa dipakai datang dari empat sistem, dan tak ada aplikasi yang bisa menggantikannya"
+        },
+        {
+         "en": "A floor you never break beats a ceiling you never reach",
+         "id": "Batas bawah yang tak pernah kamu langgar mengalahkan batas atas yang tak pernah kamu capai"
+        },
+        {
+         "en": "Capacity grows in the rest after effort, not in the effort alone",
+         "id": "Kapasitas tumbuh saat beristirahat setelah berusaha, bukan dari usahanya saja"
+        },
+        {
+         "en": "Overload sends three early signals, weeks before real trouble",
+         "id": "Kelebihan beban mengirim tiga tanda awal, berminggu-minggu sebelum masalah sungguhan"
+        },
+        {
+         "en": "On a day that feels harder than it should, check your levers before you blame your character",
+         "id": "Di hari yang terasa lebih berat dari semestinya, periksa tuasmu sebelum menyalahkan karaktermu"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "What sleep debt costs",
+          "id": "Harga utang tidur"
+         },
+         "p": {
+          "en": "Health is not separate from performance. It is the machinery underneath it.",
+          "id": "Kesehatan tidak terpisah dari kinerja. Kesehatan adalah mesin di bawahnya."
+         }
+        },
+        {
+         "h": {
+          "en": "The energy check",
+          "id": "Cek energi"
+         },
+         "p": {
+          "en": "7 to 9: steady. 4 to 6: running low. 0 to 3: in the red, so subtract something before you add anything.",
+          "id": "7 sampai 9: stabil. 4 sampai 6: mulai menipis. 0 sampai 3: di zona merah, maka kurangi sesuatu dulu sebelum menambah apa pun."
+         }
+        },
+        {
+         "h": {
+          "en": "Four systems",
+          "id": "Empat sistem"
+         },
+         "p": {
+          "en": "When the check says you are low, one of these four is usually where the leak is.",
+          "id": "Saat hasil cekmu rendah, biasanya bocornya ada di salah satu dari empat ini."
+         }
+        },
+        {
+         "h": {
+          "en": "A floor, not a ceiling",
+          "id": "Batas bawah, bukan batas atas"
+         },
+         "p": {
+          "en": "In a crunch week the floor may shrink: six hours, one walk. It never goes to zero.",
+          "id": "Di minggu yang padat, batas itu boleh mengecil: enam jam, satu kali jalan kaki. Tapi tidak pernah sampai nol."
+         }
+        },
+        {
+         "h": {
+          "en": "How capacity grows",
+          "id": "Cara kapasitas tumbuh"
+         },
+         "p": {
+          "en": "Take the rest away and the same effort only wears you down. Plan recovery as deliberately as the work.",
+          "id": "Hilangkan istirahatnya dan usaha yang sama hanya akan mengurasmu. Rencanakan pemulihan sesengaja kamu merencanakan pekerjaan."
+         }
+        },
+        {
+         "h": {
+          "en": "Early signals",
+          "id": "Tanda awal"
+         },
+         "p": {
+          "en": "Subtract first: drop one commitment for two weeks and protect your sleep. Then talk, to a friend, a mentor or a counsellor.",
+          "id": "Kurangi dulu: lepaskan satu komitmen selama dua minggu dan lindungi tidurmu. Lalu bicara, kepada teman, mentor, atau konselor."
+         }
+        },
+        {
+         "h": {
+          "en": "The effort dial",
+          "id": "Kenop usaha"
+         },
+         "p": {
+          "en": "How hard an effort feels depends on more than how fit or how clever you are.",
+          "id": "Seberapa berat sebuah usaha terasa bergantung pada lebih dari sekadar kebugaran atau kepintaranmu."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "A tired brain loses first exactly what interviews and jobs test",
+          "id": "Otak yang lelah lebih dulu kehilangan tepat hal yang diuji dalam wawancara dan pekerjaan"
+         },
+         "em": {
+          "en": "exactly what interviews and jobs test",
+          "id": "tepat hal yang diuji dalam wawancara dan pekerjaan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Attention",
+           "id": "Perhatian",
+           "d": {
+            "en": "You read the question twice and still miss a word",
+            "id": "Kamu membaca soalnya dua kali dan tetap melewatkan satu kata"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "brain",
+           "en": "Working memory",
+           "id": "Memori kerja",
+           "d": {
+            "en": "You lose the thread in the middle of your own answer",
+            "id": "Kamu kehilangan alur di tengah jawabanmu sendiri"
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Mood control",
+           "id": "Pengendalian suasana hati",
+           "d": {
+            "en": "A small setback feels like a verdict",
+            "id": "Kemunduran kecil terasa seperti vonis"
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "Honesty with yourself",
+           "id": "Kejujuran pada diri sendiri",
+           "d": {
+            "en": "You stop noticing how tired you are",
+            "id": "Kamu tak lagi sadar betapa lelahnya dirimu"
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Nine statements give you a number you can track from week to week",
+          "id": "Sembilan pernyataan memberimu angka yang bisa kamu pantau dari minggu ke minggu"
+         },
+         "em": {
+          "en": "a number you can track",
+          "id": "angka yang bisa kamu pantau"
+         },
+         "layout": "columns",
+         "cols": [
+          {
+           "icon": "sun",
+           "l": {
+            "en": "Body",
+            "id": "Tubuh"
+           },
+           "d": {
+            "en": "Five statements",
+            "id": "Lima pernyataan"
+           },
+           "items": [
+            {
+             "icon": "moon",
+             "en": "I wake up rested on most days",
+             "id": "Aku bangun dengan segar hampir setiap hari"
+            },
+            {
+             "icon": "clock",
+             "en": "I go to bed and get up at about the same time",
+             "id": "Aku tidur dan bangun pada jam yang kurang lebih sama"
+            },
+            {
+             "icon": "rocket",
+             "en": "I move briskly for thirty minutes on most days",
+             "id": "Aku bergerak cepat tiga puluh menit hampir setiap hari"
+            },
+            {
+             "icon": "coin",
+             "en": "I eat at least one proper meal a day",
+             "id": "Aku makan setidaknya satu kali makan sungguhan sehari"
+            },
+            {
+             "icon": "bolt",
+             "en": "I finish most days with something left in the tank",
+             "id": "Aku mengakhiri sebagian besar hari dengan sisa tenaga"
+            }
+           ]
+          },
+          {
+           "icon": "users",
+           "l": {
+            "en": "Mind and people",
+            "id": "Pikiran dan orang"
+           },
+           "d": {
+            "en": "Four statements",
+            "id": "Empat pernyataan"
+           },
+           "items": [
+            {
+             "icon": "target",
+             "en": "I can focus on one task for forty minutes",
+             "id": "Aku bisa fokus pada satu tugas selama empat puluh menit"
+            },
+            {
+             "icon": "shield",
+             "en": "Small problems do not throw me off for long",
+             "id": "Masalah kecil tidak lama menggangguku"
+            },
+            {
+             "icon": "users",
+             "en": "I spent real time with someone I like this week",
+             "id": "Minggu ini aku menghabiskan waktu sungguhan dengan orang yang kusukai"
+            },
+            {
+             "icon": "pause",
+             "en": "I have at least one block a week that is truly off",
+             "id": "Aku punya setidaknya satu blok waktu seminggu yang benar-benar libur"
+            }
+           ]
+          }
+         ],
+         "band": {
+          "en": "7 to 9: steady. 4 to 6: running low. 0 to 3: in the red, so subtract something before you add anything.",
+          "id": "7 sampai 9: stabil. 4 sampai 6: mulai menipis. 0 sampai 3: di zona merah, maka kurangi sesuatu dulu sebelum menambah apa pun."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Usable energy comes from four systems, and no app replaces any of them",
+          "id": "Energi yang bisa dipakai datang dari empat sistem, dan tak ada aplikasi yang bisa menggantikannya"
+         },
+         "em": {
+          "en": "four systems",
+          "id": "empat sistem"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "moon",
+           "en": "Sleep",
+           "id": "Tidur",
+           "d": {
+            "en": "Stores what you studied and restores self-control",
+            "id": "Menyimpan yang kamu pelajari dan memulihkan kendali diri"
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "rocket",
+           "en": "Movement",
+           "id": "Gerak",
+           "d": {
+            "en": "Thirty brisk minutes, most days",
+            "id": "Tiga puluh menit bergerak cepat, hampir setiap hari"
+           },
+           "img": "../../assets/bg/rope-team.jpg"
+          },
+          {
+           "icon": "coin",
+           "en": "Fuel",
+           "id": "Asupan",
+           "d": {
+            "en": "Regular meals with protein; coffee early, not late",
+            "id": "Makan teratur dengan protein; kopi pagi, bukan malam"
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "pause",
+           "en": "Recovery",
+           "id": "Pemulihan",
+           "d": {
+            "en": "A real off-switch: people, nature, play",
+            "id": "Jeda yang sungguh-sungguh: orang, alam, bermain"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A floor you never break beats a ceiling you never reach",
+          "id": "Batas bawah yang tak pernah kamu langgar mengalahkan batas atas yang tak pernah kamu capai"
+         },
+         "em": {
+          "en": "A floor you never break",
+          "id": "Batas bawah yang tak pernah kamu langgar"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "Gym every day, eight hours of sleep, every meal cooked at home. It lasts two days.",
+           "id": "Gym setiap hari, tidur delapan jam, semua makanan dimasak sendiri. Bertahan dua hari.",
+           "l": {
+            "en": "The perfect plan",
+            "id": "Rencana yang sempurna"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "A sleep window with the phone out of reach, two 15-minute walks, one real meal, one evening with a friend.",
+           "id": "Jendela tidur dengan ponsel di luar jangkauan, dua kali jalan kaki 15 menit, satu kali makan sungguhan, satu malam bersama teman.",
+           "l": {
+            "en": "The floor",
+            "id": "Batas bawah"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          }
+         ],
+         "band": {
+          "en": "In a crunch week the floor may shrink: six hours, one walk. It never goes to zero.",
+          "id": "Di minggu yang padat, batas itu boleh mengecil: enam jam, satu kali jalan kaki. Tapi tidak pernah sampai nol."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Capacity grows in the rest after effort, not in the effort alone",
+          "id": "Kapasitas tumbuh saat beristirahat setelah berusaha, bukan dari usahanya saja"
+         },
+         "em": {
+          "en": "in the rest after effort",
+          "id": "saat beristirahat setelah berusaha"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "Stress",
+           "id": "Stres",
+           "d": {
+            "en": "A demand that stretches you a little",
+            "id": "Tuntutan yang sedikit meregangkanmu"
+           }
+          },
+          {
+           "icon": "moon",
+           "en": "Rest",
+           "id": "Istirahat",
+           "d": {
+            "en": "Enough recovery for the body and mind to adapt",
+            "id": "Pemulihan yang cukup agar tubuh dan pikiran beradaptasi"
+           }
+          },
+          {
+           "icon": "chart",
+           "en": "Growth",
+           "id": "Pertumbuhan",
+           "d": {
+            "en": "Capacity a little above where you started",
+            "id": "Kapasitas sedikit di atas titik awalmu"
+           }
+          }
+         ],
+         "band": {
+          "en": "Take the rest away and the same effort only wears you down. Plan recovery as deliberately as the work.",
+          "id": "Hilangkan istirahatnya dan usaha yang sama hanya akan mengurasmu. Rencanakan pemulihan sesengaja kamu merencanakan pekerjaan."
+         },
+         "img": "../../assets/bg/fg-stage-ascent.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Overload sends three early signals, weeks before real trouble",
+          "id": "Kelebihan beban mengirim tiga tanda awal, berminggu-minggu sebelum masalah sungguhan"
+         },
+         "em": {
+          "en": "three early signals",
+          "id": "tiga tanda awal"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "moon",
+           "en": "Sleep stops refreshing",
+           "id": "Tidur tak lagi menyegarkan",
+           "d": {
+            "en": "You wake up tired",
+            "id": "Kamu bangun dalam keadaan lelah"
+           }
+          },
+          {
+           "icon": "bolt",
+           "en": "Small things irritate",
+           "id": "Hal kecil membuat kesal",
+           "d": {
+            "en": "A short fuse that is not like you",
+            "id": "Sumbu pendek yang bukan dirimu"
+           }
+          },
+          {
+           "icon": "users",
+           "en": "You pull away",
+           "id": "Kamu menjauh",
+           "d": {
+            "en": "Even from people you enjoy",
+            "id": "Bahkan dari orang yang kamu sukai"
+           }
+          }
+         ],
+         "band": {
+          "en": "Subtract first: drop one commitment for two weeks and protect your sleep. Then talk, to a friend, a mentor or a counsellor.",
+          "id": "Kurangi dulu: lepaskan satu komitmen selama dua minggu dan lindungi tidurmu. Lalu bicara, kepada teman, mentor, atau konselor."
+         },
+         "img": "../../assets/bg/two-different-muscles.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "On a day that feels harder than it should, check your levers before you blame your character",
+          "id": "Di hari yang terasa lebih berat dari semestinya, periksa tuasmu sebelum menyalahkan karaktermu"
+         },
+         "em": {
+          "en": "check your levers",
+          "id": "periksa tuasmu"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "moon",
+           "en": "How many hours, for how many nights?",
+           "id": "Berapa jam, sudah berapa malam?",
+           "l": {
+            "en": "Sleep",
+            "id": "Tidur"
+           }
+          },
+          {
+           "icon": "sun",
+           "en": "Hot, humid afternoons make everything cost more.",
+           "id": "Siang yang panas dan lembap membuat semuanya terasa lebih mahal.",
+           "l": {
+            "en": "Heat",
+            "id": "Panas"
+           }
+          },
+          {
+           "icon": "coin",
+           "en": "When was your last real meal?",
+           "id": "Kapan terakhir kamu makan sungguhan?",
+           "l": {
+            "en": "Food",
+            "id": "Makanan"
+           }
+          },
+          {
+           "icon": "brain",
+           "en": "How many open worries are you carrying today?",
+           "id": "Berapa banyak kekhawatiran yang sedang kamu bawa hari ini?",
+           "l": {
+            "en": "Mental load",
+            "id": "Beban pikiran"
+           }
+          }
+         ],
+         "img": "../../assets/bg/resilience.jpg"
+        }
+       ]
+      }
+     }
     },
     {
      "n": "5.2",
@@ -11366,780 +11655,6 @@ window.MT_LMS['the-map'] = {
        "id": "Memakai 3R (Register, Release, Refocus) dan satu teknik defusi untuk kembali fokus di saat-saat penuh tekanan."
       }
      ],
-     "readFirst": {
-      "compose": {
-       "bg": "../../assets/bg/alumni.jpg",
-       "module": {
-        "en": "Module 5 · Relationships, Well-Being, and Digital Capability",
-        "id": "Modul 5 · Relasi, Kesejahteraan, dan Kecakapan Digital"
-       },
-       "lesson": {
-        "n": "5.2",
-        "title": {
-         "en": "Stress, Recovery and Mental Skills Under Pressure",
-         "id": "Stres, Pemulihan, dan Keterampilan Mental di Bawah Tekanan"
-        }
-       },
-       "story": [
-        {
-         "en": "A stressor and the stress it leaves behind are two problems, and each needs its own fix",
-         "id": "Pemicu stres dan respons stres yang ditinggalkannya adalah dua masalah, dan masing-masing butuh solusinya sendiri"
-        },
-        {
-         "en": "The stress response evolved to end in action and safety, and a deadline email supplies neither",
-         "id": "Respons stres berevolusi untuk berakhir dalam tindakan dan rasa aman, dan email tenggat tidak memberi keduanya"
-        },
-        {
-         "en": "Seven channels tell the body the threat has passed; movement and breathing carry the strongest evidence",
-         "id": "Tujuh saluran memberi tahu tubuh bahwa ancaman telah berlalu; gerak dan pernapasan punya bukti terkuat"
-        },
-        {
-         "en": "Control decides the tool: plan what you can control, reappraise what you cannot",
-         "id": "Kendali menentukan alatnya: rencanakan yang bisa kamu kendalikan, maknai ulang yang tidak bisa"
-        },
-        {
-         "en": "From feeling to action in six steps: notice, make room, get curious, let the body finish, choose toward a value, reconnect",
-         "id": "Dari rasa ke tindakan dalam enam langkah: sadari, beri ruang, penasaran, biarkan tubuh menuntaskan, pilih ke arah nilai, terhubung kembali"
-        },
-        {
-         "en": "Values are directions you keep travelling; goals are destinations you can reach and finish",
-         "id": "Nilai adalah arah yang terus kamu tempuh; tujuan adalah destinasi yang bisa dicapai dan selesai"
-        },
-        {
-         "en": "Attention is trainable: register which colour you are in, release, refocus, in about ten seconds",
-         "id": "Perhatian bisa dilatih: sadari kamu di warna apa, lepaskan, fokus ulang, dalam sekitar sepuluh detik"
-        },
-        {
-         "en": "Rest has types, rest-guilt is a slow leak, and the strongest evidence is for sleep itself",
-         "id": "Istirahat punya jenis, rasa bersalah istirahat adalah kebocoran lambat, dan bukti terkuat adalah untuk tidur itu sendiri"
-        }
-       ],
-       "takes": [
-        {
-         "h": {
-          "en": "Two problems, not one",
-          "id": "Dua masalah, bukan satu"
-         },
-         "p": {
-          "en": "Submit at 16:00 and still wired at midnight: problem one solved, problem two untouched.",
-          "id": "Mengumpulkan pukul 16.00 dan masih tegang tengah malam: masalah satu selesai, masalah dua belum tersentuh."
-         }
-        },
-        {
-         "h": {
-          "en": "The body needs a finish line",
-          "id": "Tubuh butuh garis akhir"
-         },
-         "p": {
-          "en": "Without the last two steps the activation lingers and piles up; the body needs a finish line.",
-          "id": "Tanpa dua langkah terakhir, aktivasi bertahan dan menumpuk; tubuh butuh garis akhir."
-         }
-        },
-        {
-         "h": {
-          "en": "Seven ways to let the body finish",
-          "id": "Tujuh cara membiarkan tubuh menuntaskan"
-         },
-         "p": {
-          "en": "Plan each one at two, ten and thirty minutes; the size you will actually use on a bad day is the one that counts.",
-          "id": "Rencanakan masing-masing di dua, sepuluh, dan tiga puluh menit; ukuran yang benar-benar kamu pakai di hari buruk adalah yang dihitung."
-         }
-        },
-        {
-         "h": {
-          "en": "Control decides the tool",
-          "id": "Kendali menentukan alatnya"
-         },
-         "p": {
-          "en": "A plan that ignores the body is half a plan; a reframe that ignores the plan is half a reframe.",
-          "id": "Rencana yang mengabaikan tubuh adalah setengah rencana; pemaknaan ulang yang mengabaikan rencana adalah setengah pemaknaan."
-         }
-        },
-        {
-         "h": {
-          "en": "From feeling to action, in six steps",
-          "id": "Dari rasa ke tindakan, dalam enam langkah"
-         },
-         "p": {
-          "en": "One line of practice per step: “Tight chest, anxious, 7.” is step one, already done.",
-          "id": "Satu baris latihan per langkah: “Dada sesak, cemas, 7.” adalah langkah satu, sudah selesai."
-         }
-        },
-        {
-         "h": {
-          "en": "Values are directions; goals are destinations",
-          "id": "Nilai adalah arah; tujuan adalah destinasi"
-         },
-         "p": {
-          "en": "You never finish a value; that is exactly what makes it usable when a goal slips.",
-          "id": "Kamu tidak pernah menyelesaikan sebuah nilai; justru itu yang membuatnya berguna saat tujuan meleset."
-         }
-        },
-        {
-         "h": {
-          "en": "Attention is trainable: 3R",
-          "id": "Perhatian bisa dilatih: 3R"
-         },
-         "p": {
-          "en": "Thoughts are events, not instructions; the circle only asks where you are, never whether you are good enough.",
-          "id": "Pikiran adalah peristiwa, bukan perintah; lingkaran itu hanya bertanya kamu di mana, bukan apakah kamu cukup baik."
-         }
-        },
-        {
-         "h": {
-          "en": "Rest has types, and sleep is not negotiable",
-          "id": "Istirahat punya jenis, dan tidur tidak bisa ditawar"
-         },
-         "p": {
-          "en": "Guilt lowers the value of the rest you do take; treat “a large share of the day” as a heuristic, and sleep as the rule.",
-          "id": "Rasa bersalah menurunkan nilai istirahat yang kamu ambil; perlakukan “sebagian besar hari” sebagai heuristik, dan tidur sebagai aturan."
-         }
-        }
-       ],
-       "slides": [
-        {
-         "kind": "body",
-         "t": {
-          "en": "A stressor and the stress it leaves behind are two problems, and each needs its own fix",
-          "id": "Pemicu stres dan respons stres yang ditinggalkannya adalah dua masalah, dan masing-masing butuh solusinya sendiri"
-         },
-         "layout": "compare",
-         "items": [
-          {
-           "icon": "bolt",
-           "en": "The stressor",
-           "id": "Pemicu stres",
-           "d": {
-            "en": "A deadline, a dosen’s comment, rent, a family question, your own self-criticism: whatever activates you",
-            "id": "Tenggat, komentar dosen, uang sewa, pertanyaan keluarga, kritik dirimu sendiri: apa pun yang mengaktifkanmu"
-           },
-           "img": "../../assets/bg/stage-execution.jpg"
-          },
-          {
-           "icon": "brain",
-           "en": "The stress",
-           "id": "Respons stres",
-           "d": {
-            "en": "What the activation does in your body, and it does not stop when the task does",
-            "id": "Apa yang dilakukan aktivasi itu di tubuhmu, dan ia tidak berhenti saat tugasnya selesai"
-           },
-           "img": "../../assets/bg/two-different-muscles.jpg"
-          }
-         ],
-         "sub": {
-          "en": "Solving the task does not calm the body; calming the body does not solve the task.",
-          "id": "Menyelesaikan tugas tidak menenangkan tubuh; menenangkan tubuh tidak menyelesaikan tugas."
-         },
-         "band": {
-          "en": "Submit at 16:00 and still wired at midnight: problem one solved, problem two untouched.",
-          "id": "Mengumpulkan pukul 16.00 dan masih tegang tengah malam: masalah satu selesai, masalah dua belum tersentuh."
-         },
-         "em": {
-          "en": "two problems",
-          "id": "dua masalah"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "The stress response evolved to end in action and safety, and a deadline email supplies neither",
-          "id": "Respons stres berevolusi untuk berakhir dalam tindakan dan rasa aman, dan email tenggat tidak memberi keduanya"
-         },
-         "img": "../../assets/bg/two-different-muscles.jpg",
-         "layout": "flow",
-         "items": [
-          {
-           "icon": "warn",
-           "en": "Threat",
-           "id": "Ancaman",
-           "d": {
-            "en": "Something activates you",
-            "id": "Sesuatu mengaktifkanmu"
-           }
-          },
-          {
-           "icon": "bolt",
-           "en": "Activation",
-           "id": "Aktivasi",
-           "d": {
-            "en": "Heart, breath and muscles ready to run",
-            "id": "Jantung, napas, dan otot siap berlari"
-           }
-          },
-          {
-           "icon": "rocket",
-           "en": "Action",
-           "id": "Tindakan",
-           "d": {
-            "en": "The body does something with the charge",
-            "id": "Tubuh melakukan sesuatu dengan muatan itu"
-           }
-          },
-          {
-           "icon": "shield",
-           "en": "Safety",
-           "id": "Aman",
-           "d": {
-            "en": "The signal that the threat has passed",
-            "id": "Sinyal bahwa ancaman telah berlalu"
-           }
-          }
-         ],
-         "sub": {
-          "en": "Four steps the body expects, and the two it never gets from a screen.",
-          "id": "Empat langkah yang diharapkan tubuh, dan dua yang tidak pernah ia dapat dari layar."
-         },
-         "band": {
-          "en": "Without the last two steps the activation lingers and piles up; the body needs a finish line.",
-          "id": "Tanpa dua langkah terakhir, aktivasi bertahan dan menumpuk; tubuh butuh garis akhir."
-         },
-         "em": {
-          "en": "supplies neither",
-          "id": "tidak memberi keduanya"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "Seven channels tell the body the threat has passed; movement and breathing carry the strongest evidence",
-          "id": "Tujuh saluran memberi tahu tubuh bahwa ancaman telah berlalu; gerak dan pernapasan punya bukti terkuat"
-         },
-         "layout": "grid",
-         "items": [
-          {
-           "icon": "rocket",
-           "en": "Movement",
-           "id": "Gerak",
-           "d": {
-            "en": "A walk, stairs, two minutes of tense-and-release",
-            "id": "Jalan kaki, naik tangga, tegang-lepas dua menit"
-           },
-           "img": "../../assets/bg/rope-team.jpg"
-          },
-          {
-           "icon": "brain",
-           "en": "Breathing",
-           "id": "Pernapasan",
-           "d": {
-            "en": "Slow out-breaths until the chest loosens",
-            "id": "Embusan napas pelan sampai dada melonggar"
-           },
-           "img": "../../assets/bg/alumni.jpg"
-          },
-          {
-           "icon": "users",
-           "en": "Positive social contact",
-           "id": "Kontak sosial positif",
-           "d": {
-            "en": "A real exchange with a person you trust",
-            "id": "Pertukaran sungguhan dengan orang yang kamu percaya"
-           },
-           "img": "../../assets/bg/fg-sprint-offer.jpg"
-          },
-          {
-           "icon": "smile",
-           "en": "Laughter",
-           "id": "Tawa",
-           "d": {
-            "en": "The kind that leaves you breathless",
-            "id": "Yang membuatmu terengah"
-           },
-           "img": "../../assets/pe/ed-conversations.jpg"
-          },
-          {
-           "icon": "heart",
-           "en": "Affection",
-           "id": "Kasih sayang",
-           "d": {
-            "en": "A long hug, a hand held",
-            "id": "Pelukan panjang, tangan yang digenggam"
-           },
-           "img": "../../assets/bg/hero.jpg"
-          },
-          {
-           "icon": "sun",
-           "en": "A good cry",
-           "id": "Menangis lepas",
-           "d": {
-            "en": "Let it run to the end",
-            "id": "Biarkan sampai tuntas"
-           },
-           "img": "../../assets/bg/map.jpg"
-          },
-          {
-           "icon": "pen",
-           "en": "Creative expression",
-           "id": "Ekspresi kreatif",
-           "d": {
-            "en": "Music, drawing, writing, cooking",
-            "id": "Musik, menggambar, menulis, memasak"
-           },
-           "img": "../../assets/pe/ed-writing.jpg"
-          }
-         ],
-         "sub": {
-          "en": "Your stress-cycle menu: one option per channel, in three sizes.",
-          "id": "Menu siklus stresmu: satu opsi per saluran, dalam tiga ukuran."
-         },
-         "band": {
-          "en": "Plan each one at two, ten and thirty minutes; the size you will actually use on a bad day is the one that counts.",
-          "id": "Rencanakan masing-masing di dua, sepuluh, dan tiga puluh menit; ukuran yang benar-benar kamu pakai di hari buruk adalah yang dihitung."
-         },
-         "em": {
-          "en": "strongest evidence",
-          "id": "bukti terkuat"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "Control decides the tool: plan what you can control, reappraise what you cannot",
-          "id": "Kendali menentukan alatnya: rencanakan yang bisa kamu kendalikan, maknai ulang yang tidak bisa"
-         },
-         "cols": [
-          {
-           "l": {
-            "en": "Controllable",
-            "id": "Bisa dikendalikan"
-           },
-           "d": {
-            "en": "Planful problem-solving",
-            "id": "Pemecahan masalah terencana"
-           },
-           "items": [
-            {
-             "icon": "calc",
-             "en": "Analyse, plan, act",
-             "id": "Analisis, rencanakan, bertindak"
-            },
-            {
-             "icon": "steps",
-             "en": "Build cycle-completion into the plan itself",
-             "id": "Masukkan penuntasan siklus ke dalam rencananya"
-            }
-           ],
-           "icon": "target"
-          },
-          {
-           "l": {
-            "en": "Not controllable",
-            "id": "Tidak bisa dikendalikan"
-           },
-           "d": {
-            "en": "Positive reappraisal",
-            "id": "Penilaian ulang positif"
-           },
-           "items": [
-            {
-             "icon": "eye",
-             "en": "Reframe what the situation means",
-             "id": "Maknai ulang arti situasinya"
-            },
-            {
-             "icon": "flag",
-             "en": "When progress is real but slow, redefine what counts as winning this week",
-             "id": "Saat kemajuan nyata tapi lambat, definisikan ulang apa yang dihitung sebagai menang minggu ini"
-            }
-           ],
-           "icon": "refresh"
-          }
-         ],
-         "img": "../../assets/pe/ed-writing.jpg",
-         "layout": "columns",
-         "items": [],
-         "sub": {
-          "en": "Two coping strategies, matched to how much control you actually have.",
-          "id": "Dua strategi mengatasi, disesuaikan dengan seberapa besar kendali yang benar-benar kamu punya."
-         },
-         "band": {
-          "en": "A plan that ignores the body is half a plan; a reframe that ignores the plan is half a reframe.",
-          "id": "Rencana yang mengabaikan tubuh adalah setengah rencana; pemaknaan ulang yang mengabaikan rencana adalah setengah pemaknaan."
-         },
-         "em": {
-          "en": "Control decides the tool",
-          "id": "Kendali menentukan alatnya"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "From feeling to action in six steps: notice, make room, get curious, let the body finish, choose toward a value, reconnect",
-          "id": "Dari rasa ke tindakan dalam enam langkah: sadari, beri ruang, penasaran, biarkan tubuh menuntaskan, pilih ke arah nilai, terhubung kembali"
-         },
-         "img": "../../assets/bg/map.jpg",
-         "layout": "flow",
-         "items": [
-          {
-           "icon": "eye",
-           "en": "Notice",
-           "id": "Sadari",
-           "d": {
-            "en": "Name the feeling, where it sits in your body, how strong (0 to 10)",
-            "id": "Namai rasanya, di mana letaknya di tubuh, seberapa kuat (0 sampai 10)"
-           }
-          },
-          {
-           "icon": "heart",
-           "en": "Make room",
-           "id": "Beri ruang",
-           "d": {
-            "en": "Let it be there without fighting it; willingness, not resignation",
-            "id": "Biarkan ada tanpa melawannya; bersedia, bukan menyerah"
-           }
-          },
-          {
-           "icon": "question",
-           "en": "Get curious",
-           "id": "Penasaran",
-           "d": {
-            "en": "What is the feeling protecting, and what does your usual reaction cost",
-            "id": "Rasa itu melindungi apa, dan apa biaya reaksi biasamu"
-           }
-          },
-          {
-           "icon": "rocket",
-           "en": "Let the body finish",
-           "id": "Biarkan tubuh menuntaskan",
-           "d": {
-            "en": "Complete a stress cycle before deciding anything big",
-            "id": "Tuntaskan siklus stres sebelum memutuskan hal besar"
-           }
-          },
-          {
-           "icon": "compass",
-           "en": "Choose toward",
-           "id": "Pilih ke arah",
-           "d": {
-            "en": "Address it or let it go, but take the next step toward a value",
-            "id": "Hadapi atau lepaskan, tapi ambil langkah berikutnya ke arah nilai"
-           }
-          },
-          {
-           "icon": "users",
-           "en": "Reconnect and rest",
-           "id": "Terhubung kembali dan istirahat",
-           "d": {
-            "en": "Message one person in your bubble",
-            "id": "Kirim pesan ke satu orang di gelembungmu"
-           }
-          }
-         ],
-         "sub": {
-          "en": "Lesson 5.1 named the skill; these six steps are how you practise it.",
-          "id": "Pelajaran 5.1 menyebut keterampilannya; enam langkah ini adalah cara melatihnya."
-         },
-         "band": {
-          "en": "One line of practice per step: “Tight chest, anxious, 7.” is step one, already done.",
-          "id": "Satu baris latihan per langkah: “Dada sesak, cemas, 7.” adalah langkah satu, sudah selesai."
-         },
-         "em": {
-          "en": "six steps",
-          "id": "enam langkah"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "Values are directions you keep travelling; goals are destinations you can reach and finish",
-          "id": "Nilai adalah arah yang terus kamu tempuh; tujuan adalah destinasi yang bisa dicapai dan selesai"
-         },
-         "layout": "compare",
-         "items": [
-          {
-           "icon": "flag",
-           "en": "A goal",
-           "id": "Tujuan",
-           "d": {
-            "en": "“Get into the Unilever MT”, “GPA 3.5”: reachable, finishable, then gone",
-            "id": "“Masuk MT Unilever”, “IPK 3,5”: bisa dicapai, selesai, lalu lewat"
-           },
-           "img": "../../assets/bg/fg-stage-ascent.jpg"
-          },
-          {
-           "icon": "compass",
-           "en": "A value",
-           "id": "Nilai",
-           "d": {
-            "en": "“Being a reliable teammate”, “learning bravely”: a direction you can always take a step toward, even on a bad day",
-            "id": "“Menjadi rekan tim yang andal”, “belajar dengan berani”: arah yang selalu bisa kamu dekati selangkah, bahkan di hari buruk"
-           },
-           "img": "../../assets/bg/fg-sprint-direction.jpg"
-          }
-         ],
-         "sub": {
-          "en": "Both matter; only one of them is still there on the days the other is out of reach.",
-          "id": "Keduanya penting; hanya satu yang tetap ada di hari-hari ketika yang lain tak terjangkau."
-         },
-         "band": {
-          "en": "You never finish a value; that is exactly what makes it usable when a goal slips.",
-          "id": "Kamu tidak pernah menyelesaikan sebuah nilai; justru itu yang membuatnya berguna saat tujuan meleset."
-         },
-         "em": {
-          "en": "directions you keep travelling",
-          "id": "arah yang terus kamu tempuh"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "Attention is trainable: register which colour you are in, release, refocus, in about ten seconds",
-          "id": "Perhatian bisa dilatih: sadari kamu di warna apa, lepaskan, fokus ulang, dalam sekitar sepuluh detik"
-         },
-         "img": "../../assets/bg/mp-stage-reckoning.jpg",
-         "layout": "flow",
-         "items": [
-          {
-           "icon": "eye",
-           "en": "Register",
-           "id": "Sadari",
-           "d": {
-            "en": "Which colour am I in? Blue is the task; yellow distractions; orange self-judgement; red consequences; grey life outside",
-            "id": "Aku di warna apa? Biru tugas; kuning gangguan; oranye menilai diri; merah konsekuensi; abu-abu kehidupan di luar"
-           }
-          },
-          {
-           "icon": "brain",
-           "en": "Release",
-           "id": "Lepaskan",
-           "d": {
-            "en": "One breath, feet on the floor, fingertips pressed together",
-            "id": "Satu napas, kaki menapak lantai, ujung jari saling ditekan"
-           }
-          },
-          {
-           "icon": "target",
-           "en": "Refocus",
-           "id": "Fokus ulang",
-           "d": {
-            "en": "Back to blue, for example by restating the question in your own words",
-            "id": "Kembali ke biru, misalnya dengan mengulang pertanyaan dengan kata-katamu sendiri"
-           }
-          }
-         ],
-         "sub": {
-          "en": "The Focus Circle colour-codes where your attention is; 3R brings it back to blue.",
-          "id": "Lingkaran Fokus memberi kode warna letak perhatianmu; 3R membawanya kembali ke biru."
-         },
-         "band": {
-          "en": "Thoughts are events, not instructions; the circle only asks where you are, never whether you are good enough.",
-          "id": "Pikiran adalah peristiwa, bukan perintah; lingkaran itu hanya bertanya kamu di mana, bukan apakah kamu cukup baik."
-         },
-         "em": {
-          "en": "about ten seconds",
-          "id": "sekitar sepuluh detik"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "Rest has types, rest-guilt is a slow leak, and the strongest evidence is for sleep itself",
-          "id": "Istirahat punya jenis, rasa bersalah istirahat adalah kebocoran lambat, dan bukti terkuat adalah untuk tidur itu sendiri"
-         },
-         "layout": "grid",
-         "items": [
-          {
-           "icon": "moon",
-           "en": "Sleep",
-           "id": "Tidur",
-           "d": {
-            "en": "Non-negotiable, and the one with strong evidence",
-            "id": "Tidak bisa ditawar, dan yang buktinya kuat"
-           },
-           "img": "../../assets/bg/fg-sprint-positioning.jpg"
-          },
-          {
-           "icon": "sun",
-           "en": "Mind-wandering time",
-           "id": "Waktu pikiran mengembara",
-           "d": {
-            "en": "Unstructured minutes the mind uses to sort",
-            "id": "Menit-menit tanpa struktur yang dipakai pikiran untuk memilah"
-           },
-           "img": "../../assets/bg/ep-stage-architecture.jpg"
-          },
-          {
-           "icon": "refresh",
-           "en": "Active rest",
-           "id": "Istirahat aktif",
-           "d": {
-            "en": "Switching gears, from analysis to cooking",
-            "id": "Ganti gigi, dari analisis ke memasak"
-           },
-           "img": "../../assets/pe/ed-lead.jpg"
-          },
-          {
-           "icon": "users",
-           "en": "Your bubble",
-           "id": "Gelembungmu",
-           "d": {
-            "en": "The few people you come back to",
-            "id": "Beberapa orang tempat kamu kembali"
-           },
-           "img": "../../assets/pe/th-stakeholders.jpg"
-          }
-         ],
-         "sub": {
-          "en": "Recovery is a skill with parts; so is knowing when to get help.",
-          "id": "Pemulihan adalah keterampilan dengan bagian-bagian; begitu pula tahu kapan mencari bantuan."
-         },
-         "band": {
-          "en": "Guilt lowers the value of the rest you do take; treat “a large share of the day” as a heuristic, and sleep as the rule.",
-          "id": "Rasa bersalah menurunkan nilai istirahat yang kamu ambil; perlakukan “sebagian besar hari” sebagai heuristik, dan tidur sebagai aturan."
-         },
-         "em": {
-          "en": "sleep itself",
-          "id": "tidur itu sendiri"
-         }
-        }
-       ],
-       "product": {
-        "en": "The Map",
-        "id": "The Map"
-       }
-      },
-      "kicker": {
-       "en": "Read first · 8 slides",
-       "id": "Baca dulu · 8 slide"
-      },
-      "title": {
-       "en": "Pressure, Explained",
-       "id": "Memahami Tekanan"
-      },
-      "intro": {
-       "en": "Eight ideas in a few minutes. The sections below turn each one into something you can do this week.",
-       "id": "Delapan gagasan dalam beberapa menit. Bagian-bagian di bawah mengubah setiap gagasan menjadi sesuatu yang bisa kamu lakukan minggu ini."
-      },
-      "slides": [
-       {
-        "h": {
-         "en": "Two problems, not one",
-         "id": "Dua masalah, bukan satu"
-        },
-        "points": [
-         {
-          "en": "The thing that stresses you is the <b>stressor</b>. What it does to your body is the <b>stress</b>.",
-          "id": "Hal yang membuatmu tertekan adalah <b>pemicu stres</b>. Apa yang ditimbulkannya pada tubuhmu adalah <b>stres</b>."
-         },
-         {
-          "en": "Solving one does not solve the other. You can submit at 16:00 and still be wired at midnight.",
-          "id": "Menyelesaikan yang satu tidak menyelesaikan yang lain. Kamu bisa mengumpulkan tugas jam 16:00 dan tetap gelisah sampai tengah malam."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "The body needs a finish line",
-         "id": "Tubuh butuh garis akhir"
-        },
-        "points": [
-         {
-          "en": "The stress response evolved to end in action and safety: threat, activation, action, safety.",
-          "id": "Respons stres berevolusi untuk berakhir dengan tindakan dan rasa aman: ancaman, siaga, bertindak, aman."
-         },
-         {
-          "en": "A deadline email gives your body neither action nor safety. So the activation lingers and piles up.",
-          "id": "Email soal tenggat tidak memberi tubuhmu tindakan maupun rasa aman. Akibatnya, kondisi siaga itu bertahan dan menumpuk."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Seven ways to let the body finish",
-         "id": "Tujuh cara membiarkan tubuh menuntaskannya"
-        },
-        "points": [
-         {
-          "en": "Movement, breathing, positive social contact, laughter, affection, a good cry, creative expression. The first two have the strongest evidence.",
-          "id": "Gerak badan, pernapasan, kontak sosial yang hangat, tertawa, kasih sayang, menangis lega, dan ekspresi kreatif. Dua yang pertama punya bukti paling kuat."
-         },
-         {
-          "en": "Plan each one in three sizes (two, ten and thirty minutes), because the version you will actually use on a bad day is the one that counts.",
-          "id": "Rencanakan masing-masing dalam tiga ukuran (dua, sepuluh, dan tiga puluh menit), karena versi yang benar-benar kamu pakai di hari yang buruk itulah yang berarti."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Control decides the tool",
-         "id": "Kendali menentukan alatnya"
-        },
-        "points": [
-         {
-          "en": "Controllable stressors call for planful problem-solving: analyse, plan, act, and build cycle-completion into the plan itself.",
-          "id": "Pemicu stres yang bisa dikendalikan perlu ditangani dengan pemecahan masalah terencana: analisis, rencanakan, bertindak, dan masukkan penuntasan siklus ke dalam rencananya."
-         },
-         {
-          "en": "Uncontrollable ones call for positive reappraisal. When progress is real but slow, redefine what counts as winning this week.",
-          "id": "Pemicu yang tidak bisa dikendalikan perlu ditangani dengan pemaknaan ulang yang positif. Ketika kemajuan nyata tetapi lambat, definisikan ulang apa yang dianggap menang minggu ini."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "From feeling to action, in six steps",
-         "id": "Dari perasaan ke tindakan, dalam enam langkah"
-        },
-        "points": [
-         {
-          "en": "Notice, make room, get curious, let the body finish, choose toward a value, reconnect and rest.",
-          "id": "Sadari, beri ruang, cari tahu, biarkan tubuh menuntaskan, pilih ke arah nilai, terhubung kembali dan istirahat."
-         },
-         {
-          "en": "One line of practice per step: “Tight chest, anxious, 7.” is step one, done.",
-          "id": "Satu baris latihan untuk setiap langkah: \"Dada sesak, cemas, 7.\" Itu langkah pertama, selesai."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Values are directions; goals are destinations",
-         "id": "Nilai adalah arah; tujuan adalah tempat tujuan"
-        },
-        "points": [
-         {
-          "en": "A goal can be reached and finished. A value is a direction you keep travelling.",
-          "id": "Sebuah tujuan bisa dicapai dan selesai. Nilai adalah arah yang terus kamu tempuh."
-         },
-         {
-          "en": "You can always take a step toward a value, even on a bad day.",
-          "id": "Kamu selalu bisa mengambil satu langkah ke arah sebuah nilai, bahkan di hari yang buruk."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Attention is trainable: 3R",
-         "id": "Perhatian bisa dilatih: 3R"
-        },
-        "points": [
-         {
-          "en": "Register which colour you are in, release with one breath and feet on the floor, refocus back to the task. About ten seconds.",
-          "id": "Register: sadari kamu sedang di warna apa. Release: lepaskan dengan satu tarikan napas dan kaki menapak di lantai. Refocus: kembali ke tugasnya. Sekitar sepuluh detik."
-         },
-         {
-          "en": "Thoughts are events, not instructions.",
-          "id": "Pikiran adalah peristiwa, bukan perintah."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Rest has types, and sleep is not negotiable",
-         "id": "Istirahat punya jenis-jenis, dan tidur tidak bisa ditawar"
-        },
-        "points": [
-         {
-          "en": "Sleep, mind-wandering time, active rest and the people in your bubble. The strong evidence is for sleep itself.",
-          "id": "Tidur, waktu membiarkan pikiran mengembara, istirahat aktif, dan orang-orang di lingkaran terdekatmu. Bukti yang kuat ada pada tidur itu sendiri."
-         },
-         {
-          "en": "Guilt about resting is a slow leak that lowers the value of the rest you do take. Knowing when to get help is part of the skill.",
-          "id": "Rasa bersalah saat beristirahat ibarat kebocoran pelan yang menurunkan nilai istirahat yang kamu ambil. Tahu kapan harus mencari bantuan juga bagian dari keterampilannya."
-         }
-        ]
-       }
-      ]
-     },
      "sections": [
       {
        "icon": "eye",
@@ -13426,7 +12941,781 @@ window.MT_LMS['the-map'] = {
        "en": "You don't need to feel confident to act. Name the thought, come back to the task, and take the next step toward what matters.",
        "id": "Kamu tidak perlu merasa percaya diri untuk bertindak. Sebutkan pikirannya, kembali ke tugas, dan ambil langkah berikutnya ke arah hal yang penting bagimu."
       }
-     ]
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/alumni.jpg",
+       "module": {
+        "en": "Module 5 · Relationships, Well-Being, and Digital Capability",
+        "id": "Modul 5 · Relasi, Kesejahteraan, dan Kecakapan Digital"
+       },
+       "lesson": {
+        "n": "5.2",
+        "title": {
+         "en": "Stress, Recovery and Mental Skills Under Pressure",
+         "id": "Stres, Pemulihan, dan Keterampilan Mental di Bawah Tekanan"
+        }
+       },
+       "story": [
+        {
+         "en": "A stressor and the stress it leaves behind are two problems, and each needs its own fix",
+         "id": "Pemicu stres dan respons stres yang ditinggalkannya adalah dua masalah, dan masing-masing butuh solusinya sendiri"
+        },
+        {
+         "en": "The stress response evolved to end in action and safety, and a deadline email supplies neither",
+         "id": "Respons stres berevolusi untuk berakhir dalam tindakan dan rasa aman, dan email tenggat tidak memberi keduanya"
+        },
+        {
+         "en": "Seven channels tell the body the threat has passed; movement and breathing carry the strongest evidence",
+         "id": "Tujuh saluran memberi tahu tubuh bahwa ancaman telah berlalu; gerak dan pernapasan punya bukti terkuat"
+        },
+        {
+         "en": "Control decides the tool: plan what you can control, reappraise what you cannot",
+         "id": "Kendali menentukan alatnya: rencanakan yang bisa kamu kendalikan, maknai ulang yang tidak bisa"
+        },
+        {
+         "en": "From feeling to action in six steps: notice, make room, get curious, let the body finish, choose toward a value, reconnect",
+         "id": "Dari rasa ke tindakan dalam enam langkah: sadari, beri ruang, penasaran, biarkan tubuh menuntaskan, pilih ke arah nilai, terhubung kembali"
+        },
+        {
+         "en": "Values are directions you keep travelling; goals are destinations you can reach and finish",
+         "id": "Nilai adalah arah yang terus kamu tempuh; tujuan adalah destinasi yang bisa dicapai dan selesai"
+        },
+        {
+         "en": "Attention is trainable: register which colour you are in, release, refocus, in about ten seconds",
+         "id": "Perhatian bisa dilatih: sadari kamu di warna apa, lepaskan, fokus ulang, dalam sekitar sepuluh detik"
+        },
+        {
+         "en": "Rest has types, rest-guilt is a slow leak, and the strongest evidence is for sleep itself",
+         "id": "Istirahat punya jenis, rasa bersalah istirahat adalah kebocoran lambat, dan bukti terkuat adalah untuk tidur itu sendiri"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Two problems, not one",
+          "id": "Dua masalah, bukan satu"
+         },
+         "p": {
+          "en": "Submit at 16:00 and still wired at midnight: problem one solved, problem two untouched.",
+          "id": "Mengumpulkan pukul 16.00 dan masih tegang tengah malam: masalah satu selesai, masalah dua belum tersentuh."
+         }
+        },
+        {
+         "h": {
+          "en": "The body needs a finish line",
+          "id": "Tubuh butuh garis akhir"
+         },
+         "p": {
+          "en": "Without the last two steps the activation lingers and piles up; the body needs a finish line.",
+          "id": "Tanpa dua langkah terakhir, aktivasi bertahan dan menumpuk; tubuh butuh garis akhir."
+         }
+        },
+        {
+         "h": {
+          "en": "Seven ways to let the body finish",
+          "id": "Tujuh cara membiarkan tubuh menuntaskan"
+         },
+         "p": {
+          "en": "Plan each one at two, ten and thirty minutes; the size you will actually use on a bad day is the one that counts.",
+          "id": "Rencanakan masing-masing di dua, sepuluh, dan tiga puluh menit; ukuran yang benar-benar kamu pakai di hari buruk adalah yang dihitung."
+         }
+        },
+        {
+         "h": {
+          "en": "Control decides the tool",
+          "id": "Kendali menentukan alatnya"
+         },
+         "p": {
+          "en": "A plan that ignores the body is half a plan; a reframe that ignores the plan is half a reframe.",
+          "id": "Rencana yang mengabaikan tubuh adalah setengah rencana; pemaknaan ulang yang mengabaikan rencana adalah setengah pemaknaan."
+         }
+        },
+        {
+         "h": {
+          "en": "From feeling to action, in six steps",
+          "id": "Dari rasa ke tindakan, dalam enam langkah"
+         },
+         "p": {
+          "en": "One line of practice per step: “Tight chest, anxious, 7.” is step one, already done.",
+          "id": "Satu baris latihan per langkah: “Dada sesak, cemas, 7.” adalah langkah satu, sudah selesai."
+         }
+        },
+        {
+         "h": {
+          "en": "Values are directions; goals are destinations",
+          "id": "Nilai adalah arah; tujuan adalah destinasi"
+         },
+         "p": {
+          "en": "You never finish a value; that is exactly what makes it usable when a goal slips.",
+          "id": "Kamu tidak pernah menyelesaikan sebuah nilai; justru itu yang membuatnya berguna saat tujuan meleset."
+         }
+        },
+        {
+         "h": {
+          "en": "Attention is trainable: 3R",
+          "id": "Perhatian bisa dilatih: 3R"
+         },
+         "p": {
+          "en": "Thoughts are events, not instructions; the circle only asks where you are, never whether you are good enough.",
+          "id": "Pikiran adalah peristiwa, bukan perintah; lingkaran itu hanya bertanya kamu di mana, bukan apakah kamu cukup baik."
+         }
+        },
+        {
+         "h": {
+          "en": "Rest has types, and sleep is not negotiable",
+          "id": "Istirahat punya jenis, dan tidur tidak bisa ditawar"
+         },
+         "p": {
+          "en": "Guilt lowers the value of the rest you do take; treat “a large share of the day” as a heuristic, and sleep as the rule.",
+          "id": "Rasa bersalah menurunkan nilai istirahat yang kamu ambil; perlakukan “sebagian besar hari” sebagai heuristik, dan tidur sebagai aturan."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "A stressor and the stress it leaves behind are two problems, and each needs its own fix",
+          "id": "Pemicu stres dan respons stres yang ditinggalkannya adalah dua masalah, dan masing-masing butuh solusinya sendiri"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "The stressor",
+           "id": "Pemicu stres",
+           "d": {
+            "en": "A deadline, a dosen’s comment, rent, a family question, your own self-criticism: whatever activates you",
+            "id": "Tenggat, komentar dosen, uang sewa, pertanyaan keluarga, kritik dirimu sendiri: apa pun yang mengaktifkanmu"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "brain",
+           "en": "The stress",
+           "id": "Respons stres",
+           "d": {
+            "en": "What the activation does in your body, and it does not stop when the task does",
+            "id": "Apa yang dilakukan aktivasi itu di tubuhmu, dan ia tidak berhenti saat tugasnya selesai"
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Solving the task does not calm the body; calming the body does not solve the task.",
+          "id": "Menyelesaikan tugas tidak menenangkan tubuh; menenangkan tubuh tidak menyelesaikan tugas."
+         },
+         "band": {
+          "en": "Submit at 16:00 and still wired at midnight: problem one solved, problem two untouched.",
+          "id": "Mengumpulkan pukul 16.00 dan masih tegang tengah malam: masalah satu selesai, masalah dua belum tersentuh."
+         },
+         "em": {
+          "en": "two problems",
+          "id": "dua masalah"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The stress response evolved to end in action and safety, and a deadline email supplies neither",
+          "id": "Respons stres berevolusi untuk berakhir dalam tindakan dan rasa aman, dan email tenggat tidak memberi keduanya"
+         },
+         "img": "../../assets/bg/two-different-muscles.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "warn",
+           "en": "Threat",
+           "id": "Ancaman",
+           "d": {
+            "en": "Something activates you",
+            "id": "Sesuatu mengaktifkanmu"
+           }
+          },
+          {
+           "icon": "bolt",
+           "en": "Activation",
+           "id": "Aktivasi",
+           "d": {
+            "en": "Heart, breath and muscles ready to run",
+            "id": "Jantung, napas, dan otot siap berlari"
+           }
+          },
+          {
+           "icon": "rocket",
+           "en": "Action",
+           "id": "Tindakan",
+           "d": {
+            "en": "The body does something with the charge",
+            "id": "Tubuh melakukan sesuatu dengan muatan itu"
+           }
+          },
+          {
+           "icon": "shield",
+           "en": "Safety",
+           "id": "Aman",
+           "d": {
+            "en": "The signal that the threat has passed",
+            "id": "Sinyal bahwa ancaman telah berlalu"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Four steps the body expects, and the two it never gets from a screen.",
+          "id": "Empat langkah yang diharapkan tubuh, dan dua yang tidak pernah ia dapat dari layar."
+         },
+         "band": {
+          "en": "Without the last two steps the activation lingers and piles up; the body needs a finish line.",
+          "id": "Tanpa dua langkah terakhir, aktivasi bertahan dan menumpuk; tubuh butuh garis akhir."
+         },
+         "em": {
+          "en": "supplies neither",
+          "id": "tidak memberi keduanya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Seven channels tell the body the threat has passed; movement and breathing carry the strongest evidence",
+          "id": "Tujuh saluran memberi tahu tubuh bahwa ancaman telah berlalu; gerak dan pernapasan punya bukti terkuat"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "rocket",
+           "en": "Movement",
+           "id": "Gerak",
+           "d": {
+            "en": "A walk, stairs, two minutes of tense-and-release",
+            "id": "Jalan kaki, naik tangga, tegang-lepas dua menit"
+           },
+           "img": "../../assets/bg/rope-team.jpg"
+          },
+          {
+           "icon": "brain",
+           "en": "Breathing",
+           "id": "Pernapasan",
+           "d": {
+            "en": "Slow out-breaths until the chest loosens",
+            "id": "Embusan napas pelan sampai dada melonggar"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "Positive social contact",
+           "id": "Kontak sosial positif",
+           "d": {
+            "en": "A real exchange with a person you trust",
+            "id": "Pertukaran sungguhan dengan orang yang kamu percaya"
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          },
+          {
+           "icon": "smile",
+           "en": "Laughter",
+           "id": "Tawa",
+           "d": {
+            "en": "The kind that leaves you breathless",
+            "id": "Yang membuatmu terengah"
+           },
+           "img": "../../assets/pe/ed-conversations.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Affection",
+           "id": "Kasih sayang",
+           "d": {
+            "en": "A long hug, a hand held",
+            "id": "Pelukan panjang, tangan yang digenggam"
+           },
+           "img": "../../assets/bg/hero.jpg"
+          },
+          {
+           "icon": "sun",
+           "en": "A good cry",
+           "id": "Menangis lepas",
+           "d": {
+            "en": "Let it run to the end",
+            "id": "Biarkan sampai tuntas"
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Creative expression",
+           "id": "Ekspresi kreatif",
+           "d": {
+            "en": "Music, drawing, writing, cooking",
+            "id": "Musik, menggambar, menulis, memasak"
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Your stress-cycle menu: one option per channel, in three sizes.",
+          "id": "Menu siklus stresmu: satu opsi per saluran, dalam tiga ukuran."
+         },
+         "band": {
+          "en": "Plan each one at two, ten and thirty minutes; the size you will actually use on a bad day is the one that counts.",
+          "id": "Rencanakan masing-masing di dua, sepuluh, dan tiga puluh menit; ukuran yang benar-benar kamu pakai di hari buruk adalah yang dihitung."
+         },
+         "em": {
+          "en": "strongest evidence",
+          "id": "bukti terkuat"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Control decides the tool: plan what you can control, reappraise what you cannot",
+          "id": "Kendali menentukan alatnya: rencanakan yang bisa kamu kendalikan, maknai ulang yang tidak bisa"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Controllable",
+            "id": "Bisa dikendalikan"
+           },
+           "d": {
+            "en": "Planful problem-solving",
+            "id": "Pemecahan masalah terencana"
+           },
+           "items": [
+            {
+             "icon": "calc",
+             "en": "Analyse, plan, act",
+             "id": "Analisis, rencanakan, bertindak"
+            },
+            {
+             "icon": "steps",
+             "en": "Build cycle-completion into the plan itself",
+             "id": "Masukkan penuntasan siklus ke dalam rencananya"
+            }
+           ],
+           "icon": "target"
+          },
+          {
+           "l": {
+            "en": "Not controllable",
+            "id": "Tidak bisa dikendalikan"
+           },
+           "d": {
+            "en": "Positive reappraisal",
+            "id": "Penilaian ulang positif"
+           },
+           "items": [
+            {
+             "icon": "eye",
+             "en": "Reframe what the situation means",
+             "id": "Maknai ulang arti situasinya"
+            },
+            {
+             "icon": "flag",
+             "en": "When progress is real but slow, redefine what counts as winning this week",
+             "id": "Saat kemajuan nyata tapi lambat, definisikan ulang apa yang dihitung sebagai menang minggu ini"
+            }
+           ],
+           "icon": "refresh"
+          }
+         ],
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Two coping strategies, matched to how much control you actually have.",
+          "id": "Dua strategi mengatasi, disesuaikan dengan seberapa besar kendali yang benar-benar kamu punya."
+         },
+         "band": {
+          "en": "A plan that ignores the body is half a plan; a reframe that ignores the plan is half a reframe.",
+          "id": "Rencana yang mengabaikan tubuh adalah setengah rencana; pemaknaan ulang yang mengabaikan rencana adalah setengah pemaknaan."
+         },
+         "em": {
+          "en": "Control decides the tool",
+          "id": "Kendali menentukan alatnya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "From feeling to action in six steps: notice, make room, get curious, let the body finish, choose toward a value, reconnect",
+          "id": "Dari rasa ke tindakan dalam enam langkah: sadari, beri ruang, penasaran, biarkan tubuh menuntaskan, pilih ke arah nilai, terhubung kembali"
+         },
+         "img": "../../assets/bg/map.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Notice",
+           "id": "Sadari",
+           "d": {
+            "en": "Name the feeling, where it sits in your body, how strong (0 to 10)",
+            "id": "Namai rasanya, di mana letaknya di tubuh, seberapa kuat (0 sampai 10)"
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "Make room",
+           "id": "Beri ruang",
+           "d": {
+            "en": "Let it be there without fighting it; willingness, not resignation",
+            "id": "Biarkan ada tanpa melawannya; bersedia, bukan menyerah"
+           }
+          },
+          {
+           "icon": "question",
+           "en": "Get curious",
+           "id": "Penasaran",
+           "d": {
+            "en": "What is the feeling protecting, and what does your usual reaction cost",
+            "id": "Rasa itu melindungi apa, dan apa biaya reaksi biasamu"
+           }
+          },
+          {
+           "icon": "rocket",
+           "en": "Let the body finish",
+           "id": "Biarkan tubuh menuntaskan",
+           "d": {
+            "en": "Complete a stress cycle before deciding anything big",
+            "id": "Tuntaskan siklus stres sebelum memutuskan hal besar"
+           }
+          },
+          {
+           "icon": "compass",
+           "en": "Choose toward",
+           "id": "Pilih ke arah",
+           "d": {
+            "en": "Address it or let it go, but take the next step toward a value",
+            "id": "Hadapi atau lepaskan, tapi ambil langkah berikutnya ke arah nilai"
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Reconnect and rest",
+           "id": "Terhubung kembali dan istirahat",
+           "d": {
+            "en": "Message one person in your bubble",
+            "id": "Kirim pesan ke satu orang di gelembungmu"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Lesson 5.1 named the skill; these six steps are how you practise it.",
+          "id": "Pelajaran 5.1 menyebut keterampilannya; enam langkah ini adalah cara melatihnya."
+         },
+         "band": {
+          "en": "One line of practice per step: “Tight chest, anxious, 7.” is step one, already done.",
+          "id": "Satu baris latihan per langkah: “Dada sesak, cemas, 7.” adalah langkah satu, sudah selesai."
+         },
+         "em": {
+          "en": "six steps",
+          "id": "enam langkah"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Values are directions you keep travelling; goals are destinations you can reach and finish",
+          "id": "Nilai adalah arah yang terus kamu tempuh; tujuan adalah destinasi yang bisa dicapai dan selesai"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "A goal",
+           "id": "Tujuan",
+           "d": {
+            "en": "“Get into the Unilever MT”, “GPA 3.5”: reachable, finishable, then gone",
+            "id": "“Masuk MT Unilever”, “IPK 3,5”: bisa dicapai, selesai, lalu lewat"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "compass",
+           "en": "A value",
+           "id": "Nilai",
+           "d": {
+            "en": "“Being a reliable teammate”, “learning bravely”: a direction you can always take a step toward, even on a bad day",
+            "id": "“Menjadi rekan tim yang andal”, “belajar dengan berani”: arah yang selalu bisa kamu dekati selangkah, bahkan di hari buruk"
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Both matter; only one of them is still there on the days the other is out of reach.",
+          "id": "Keduanya penting; hanya satu yang tetap ada di hari-hari ketika yang lain tak terjangkau."
+         },
+         "band": {
+          "en": "You never finish a value; that is exactly what makes it usable when a goal slips.",
+          "id": "Kamu tidak pernah menyelesaikan sebuah nilai; justru itu yang membuatnya berguna saat tujuan meleset."
+         },
+         "em": {
+          "en": "directions you keep travelling",
+          "id": "arah yang terus kamu tempuh"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Attention is trainable: register which colour you are in, release, refocus, in about ten seconds",
+          "id": "Perhatian bisa dilatih: sadari kamu di warna apa, lepaskan, fokus ulang, dalam sekitar sepuluh detik"
+         },
+         "img": "../../assets/bg/mp-stage-reckoning.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Register",
+           "id": "Sadari",
+           "d": {
+            "en": "Which colour am I in? Blue is the task; yellow distractions; orange self-judgement; red consequences; grey life outside",
+            "id": "Aku di warna apa? Biru tugas; kuning gangguan; oranye menilai diri; merah konsekuensi; abu-abu kehidupan di luar"
+           }
+          },
+          {
+           "icon": "brain",
+           "en": "Release",
+           "id": "Lepaskan",
+           "d": {
+            "en": "One breath, feet on the floor, fingertips pressed together",
+            "id": "Satu napas, kaki menapak lantai, ujung jari saling ditekan"
+           }
+          },
+          {
+           "icon": "target",
+           "en": "Refocus",
+           "id": "Fokus ulang",
+           "d": {
+            "en": "Back to blue, for example by restating the question in your own words",
+            "id": "Kembali ke biru, misalnya dengan mengulang pertanyaan dengan kata-katamu sendiri"
+           }
+          }
+         ],
+         "sub": {
+          "en": "The Focus Circle colour-codes where your attention is; 3R brings it back to blue.",
+          "id": "Lingkaran Fokus memberi kode warna letak perhatianmu; 3R membawanya kembali ke biru."
+         },
+         "band": {
+          "en": "Thoughts are events, not instructions; the circle only asks where you are, never whether you are good enough.",
+          "id": "Pikiran adalah peristiwa, bukan perintah; lingkaran itu hanya bertanya kamu di mana, bukan apakah kamu cukup baik."
+         },
+         "em": {
+          "en": "about ten seconds",
+          "id": "sekitar sepuluh detik"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Rest has types, rest-guilt is a slow leak, and the strongest evidence is for sleep itself",
+          "id": "Istirahat punya jenis, rasa bersalah istirahat adalah kebocoran lambat, dan bukti terkuat adalah untuk tidur itu sendiri"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "moon",
+           "en": "Sleep",
+           "id": "Tidur",
+           "d": {
+            "en": "Non-negotiable, and the one with strong evidence",
+            "id": "Tidak bisa ditawar, dan yang buktinya kuat"
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          },
+          {
+           "icon": "sun",
+           "en": "Mind-wandering time",
+           "id": "Waktu pikiran mengembara",
+           "d": {
+            "en": "Unstructured minutes the mind uses to sort",
+            "id": "Menit-menit tanpa struktur yang dipakai pikiran untuk memilah"
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Active rest",
+           "id": "Istirahat aktif",
+           "d": {
+            "en": "Switching gears, from analysis to cooking",
+            "id": "Ganti gigi, dari analisis ke memasak"
+           },
+           "img": "../../assets/pe/ed-lead.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "Your bubble",
+           "id": "Gelembungmu",
+           "d": {
+            "en": "The few people you come back to",
+            "id": "Beberapa orang tempat kamu kembali"
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Recovery is a skill with parts; so is knowing when to get help.",
+          "id": "Pemulihan adalah keterampilan dengan bagian-bagian; begitu pula tahu kapan mencari bantuan."
+         },
+         "band": {
+          "en": "Guilt lowers the value of the rest you do take; treat “a large share of the day” as a heuristic, and sleep as the rule.",
+          "id": "Rasa bersalah menurunkan nilai istirahat yang kamu ambil; perlakukan “sebagian besar hari” sebagai heuristik, dan tidur sebagai aturan."
+         },
+         "em": {
+          "en": "sleep itself",
+          "id": "tidur itu sendiri"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 8 slides",
+       "id": "Baca dulu · 8 slide"
+      },
+      "title": {
+       "en": "Pressure, Explained",
+       "id": "Memahami Tekanan"
+      },
+      "intro": {
+       "en": "Eight ideas in a few minutes. The sections below turn each one into something you can do this week.",
+       "id": "Delapan gagasan dalam beberapa menit. Bagian-bagian di bawah mengubah setiap gagasan menjadi sesuatu yang bisa kamu lakukan minggu ini."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Two problems, not one",
+         "id": "Dua masalah, bukan satu"
+        },
+        "points": [
+         {
+          "en": "The thing that stresses you is the <b>stressor</b>. What it does to your body is the <b>stress</b>.",
+          "id": "Hal yang membuatmu tertekan adalah <b>pemicu stres</b>. Apa yang ditimbulkannya pada tubuhmu adalah <b>stres</b>."
+         },
+         {
+          "en": "Solving one does not solve the other. You can submit at 16:00 and still be wired at midnight.",
+          "id": "Menyelesaikan yang satu tidak menyelesaikan yang lain. Kamu bisa mengumpulkan tugas jam 16:00 dan tetap gelisah sampai tengah malam."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The body needs a finish line",
+         "id": "Tubuh butuh garis akhir"
+        },
+        "points": [
+         {
+          "en": "The stress response evolved to end in action and safety: threat, activation, action, safety.",
+          "id": "Respons stres berevolusi untuk berakhir dengan tindakan dan rasa aman: ancaman, siaga, bertindak, aman."
+         },
+         {
+          "en": "A deadline email gives your body neither action nor safety. So the activation lingers and piles up.",
+          "id": "Email soal tenggat tidak memberi tubuhmu tindakan maupun rasa aman. Akibatnya, kondisi siaga itu bertahan dan menumpuk."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Seven ways to let the body finish",
+         "id": "Tujuh cara membiarkan tubuh menuntaskannya"
+        },
+        "points": [
+         {
+          "en": "Movement, breathing, positive social contact, laughter, affection, a good cry, creative expression. The first two have the strongest evidence.",
+          "id": "Gerak badan, pernapasan, kontak sosial yang hangat, tertawa, kasih sayang, menangis lega, dan ekspresi kreatif. Dua yang pertama punya bukti paling kuat."
+         },
+         {
+          "en": "Plan each one in three sizes (two, ten and thirty minutes), because the version you will actually use on a bad day is the one that counts.",
+          "id": "Rencanakan masing-masing dalam tiga ukuran (dua, sepuluh, dan tiga puluh menit), karena versi yang benar-benar kamu pakai di hari yang buruk itulah yang berarti."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Control decides the tool",
+         "id": "Kendali menentukan alatnya"
+        },
+        "points": [
+         {
+          "en": "Controllable stressors call for planful problem-solving: analyse, plan, act, and build cycle-completion into the plan itself.",
+          "id": "Pemicu stres yang bisa dikendalikan perlu ditangani dengan pemecahan masalah terencana: analisis, rencanakan, bertindak, dan masukkan penuntasan siklus ke dalam rencananya."
+         },
+         {
+          "en": "Uncontrollable ones call for positive reappraisal. When progress is real but slow, redefine what counts as winning this week.",
+          "id": "Pemicu yang tidak bisa dikendalikan perlu ditangani dengan pemaknaan ulang yang positif. Ketika kemajuan nyata tetapi lambat, definisikan ulang apa yang dianggap menang minggu ini."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "From feeling to action, in six steps",
+         "id": "Dari perasaan ke tindakan, dalam enam langkah"
+        },
+        "points": [
+         {
+          "en": "Notice, make room, get curious, let the body finish, choose toward a value, reconnect and rest.",
+          "id": "Sadari, beri ruang, cari tahu, biarkan tubuh menuntaskan, pilih ke arah nilai, terhubung kembali dan istirahat."
+         },
+         {
+          "en": "One line of practice per step: “Tight chest, anxious, 7.” is step one, done.",
+          "id": "Satu baris latihan untuk setiap langkah: \"Dada sesak, cemas, 7.\" Itu langkah pertama, selesai."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Values are directions; goals are destinations",
+         "id": "Nilai adalah arah; tujuan adalah tempat tujuan"
+        },
+        "points": [
+         {
+          "en": "A goal can be reached and finished. A value is a direction you keep travelling.",
+          "id": "Sebuah tujuan bisa dicapai dan selesai. Nilai adalah arah yang terus kamu tempuh."
+         },
+         {
+          "en": "You can always take a step toward a value, even on a bad day.",
+          "id": "Kamu selalu bisa mengambil satu langkah ke arah sebuah nilai, bahkan di hari yang buruk."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Attention is trainable: 3R",
+         "id": "Perhatian bisa dilatih: 3R"
+        },
+        "points": [
+         {
+          "en": "Register which colour you are in, release with one breath and feet on the floor, refocus back to the task. About ten seconds.",
+          "id": "Register: sadari kamu sedang di warna apa. Release: lepaskan dengan satu tarikan napas dan kaki menapak di lantai. Refocus: kembali ke tugasnya. Sekitar sepuluh detik."
+         },
+         {
+          "en": "Thoughts are events, not instructions.",
+          "id": "Pikiran adalah peristiwa, bukan perintah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Rest has types, and sleep is not negotiable",
+         "id": "Istirahat punya jenis-jenis, dan tidur tidak bisa ditawar"
+        },
+        "points": [
+         {
+          "en": "Sleep, mind-wandering time, active rest and the people in your bubble. The strong evidence is for sleep itself.",
+          "id": "Tidur, waktu membiarkan pikiran mengembara, istirahat aktif, dan orang-orang di lingkaran terdekatmu. Bukti yang kuat ada pada tidur itu sendiri."
+         },
+         {
+          "en": "Guilt about resting is a slow leak that lowers the value of the rest you do take. Knowing when to get help is part of the skill.",
+          "id": "Rasa bersalah saat beristirahat ibarat kebocoran pelan yang menurunkan nilai istirahat yang kamu ambil. Tahu kapan harus mencari bantuan juga bagian dari keterampilannya."
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "n": "5.3",
@@ -13441,8 +13730,8 @@ window.MT_LMS['the-map'] = {
      "kind": "reading",
      "placeholder": false,
      "overview": {
-      "en": "Lesson 5.1 gave you the energy that performance runs on. This lesson gives you the people it runs with. Strong relationships are not a personality gift; they are a practice with four parts (attention, vulnerability, empathy and compassion: AVEC) that anyone can run deliberately. You will read the framework, see each element in practice, map your own relationships against it, and leave with one specific relationship to strengthen this week.",
-      "id": "Pelajaran 5.1 memberimu energi yang menjadi bahan bakar kinerja. Pelajaran ini memberimu orang-orang yang bersamamu menjalankannya. Relasi yang kuat bukan bakat bawaan; relasi yang kuat adalah praktik dengan empat bagian (perhatian, keterbukaan, empati, dan welas asih: AVEC) yang bisa dijalankan siapa saja dengan sengaja. Kamu akan membaca kerangkanya, melihat setiap unsurnya dalam praktik, memetakan relasimu sendiri dengan kerangka itu, dan pulang dengan satu relasi tertentu yang akan kamu perkuat minggu ini."
+      "en": "Lesson 5.1 gave you the energy that performance runs on. This lesson gives you the people it runs with. Strong relationships are not a personality gift; they are a practice with four parts (attention, vulnerability, empathy and compassion) that anyone can run deliberately. You will read the framework, see each element in practice, map your own relationships against it, and leave with one specific relationship to strengthen this week.",
+      "id": "Pelajaran 5.1 memberimu energi yang menjadi bahan bakar kinerja. Pelajaran ini memberimu orang-orang yang bersamamu menjalankannya. Relasi yang kuat bukan bakat bawaan; relasi yang kuat adalah praktik dengan empat bagian (perhatian, keterbukaan, empati, dan welas asih) yang bisa dijalankan siapa saja dengan sengaja. Kamu akan membaca kerangkanya, melihat setiap unsurnya dalam praktik, memetakan relasimu sendiri dengan kerangka itu, dan pulang dengan satu relasi tertentu yang akan kamu perkuat minggu ini."
      },
      "objectives": [
       {
@@ -13450,22 +13739,22 @@ window.MT_LMS['the-map'] = {
        "id": "Menjelaskan kenapa kualitas relasimu membentuk cara belajar, kesejahteraan, dan ketangguhanmu, bukan sekadar suasana hatimu."
       },
       {
-       "en": "Describe the four elements of AVEC and recognise what each looks like in an everyday conversation.",
-       "id": "Menjelaskan empat unsur AVEC dan mengenali wujud masing-masing dalam percakapan sehari-hari."
+       "en": "Describe the four elements and recognise what each looks like in an everyday conversation.",
+       "id": "Menjelaskan keempat unsurnya dan mengenali wujud masing-masing dalam percakapan sehari-hari."
       },
       {
-       "en": "Audit your own relationships against AVEC and commit to one concrete practice with one specific person.",
-       "id": "Mengaudit relasimu sendiri dengan AVEC dan berkomitmen pada satu praktik konkret dengan satu orang tertentu."
+       "en": "Audit your own relationships against the four elements and commit to one concrete practice with one specific person.",
+       "id": "Mengaudit relasimu sendiri dengan keempat unsur itu dan berkomitmen pada satu praktik konkret dengan satu orang tertentu."
       },
       {
-       "en": "Practise REACH from a junior position, and set one boundary in a way that protects the relationship and the work.",
-       "id": "Mempraktikkan REACH dari posisi junior, dan menetapkan satu batasan dengan cara yang melindungi relasi sekaligus pekerjaannya."
+       "en": "Build psychological safety from a junior position with small acts, and set one boundary in a way that protects the relationship and the work.",
+       "id": "Membangun rasa aman psikologis dari posisi junior lewat tindakan kecil, dan menetapkan satu batasan dengan cara yang melindungi relasi sekaligus pekerjaannya."
       }
      ],
      "takeaways": [
       {
-       "en": "The secrets of strong connection are not secret (attention, vulnerability, empathy, compassion); it is the regularity and nuance of practising them that makes relationships strong.",
-       "id": "Rahasia hubungan yang kuat sebenarnya bukan rahasia (perhatian, keterbukaan, empati, welas asih); yang membuat relasi kuat adalah keteraturan dan kepekaan dalam mempraktikkannya."
+       "en": "Everyone knows what strong connection is made of (attention, vulnerability, empathy, compassion); it is the regularity and nuance of practising them that makes relationships strong.",
+       "id": "Semua orang tahu bahan dasar hubungan yang kuat (perhatian, keterbukaan, empati, welas asih); yang membuat relasi kuat adalah keteraturan dan kepekaan dalam mempraktikkannya."
       },
       {
        "en": "Attention is the entry point: the other three are impossible with a phone in your hand and a reply forming in your head.",
@@ -13482,457 +13771,6 @@ window.MT_LMS['the-map'] = {
       {
        "en": "A boundary stated early and kindly protects a relationship; resentment stated late damages it.",
        "id": "Batasan yang disampaikan lebih awal dengan baik melindungi relasi; kekesalan yang baru diungkapkan belakangan merusaknya."
-      }
-     ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 3 slides",
-        "id": "Baca dulu · 3 slide"
-       },
-       "title": {
-        "en": "A Framework for Strong Relationships: Material",
-        "id": "Kerangka untuk Relasi yang Kuat: Materi"
-       },
-       "intro": {
-        "en": "Start with the framework itself. Three slides open the theme (why strong connections fuel learning, well-being and resilience), then name the four not-so-secret secrets of AVEC and show what each one looks like in practice. Keep the two questions from the first slide in mind as you read: how strong are my relationships in general, and which specific relationships could be strengthened? One short film follows the deck; then the exhibit and the sections build on both questions.",
-        "id": "Mulailah dari kerangkanya. Tiga slide membuka tema ini (kenapa hubungan yang kuat menjadi bahan bakar belajar, kesejahteraan, dan ketangguhan), lalu menyebutkan empat \"rahasia yang tidak terlalu rahasia\" dalam AVEC dan menunjukkan wujud masing-masing dalam praktik. Ingat dua pertanyaan dari slide pertama sambil membaca: seberapa kuat relasiku secara umum, dan relasi mana yang bisa diperkuat? Satu film singkat menyusul sesudah slide ini; lalu gambar dan bagian-bagian bacaan dibangun di atas kedua pertanyaan itu."
-       },
-       "base": "../../assets/lms/the-map/slides/relationships-",
-       "slides": [
-        {
-         "title": {
-          "en": "The secrets of strong connections",
-          "id": "Rahasia hubungan yang kuat"
-         },
-         "text": {
-          "en": "A framework for strong relationships, because meaningful connections fuel a happier, more resilient life. Our ability to cultivate strong relationships plays an important role in our learning, well-being, and resilience. At the same time, many of us have room to strengthen our connections with others. As you work through this lesson, ask yourself: 01 How strong are my relationships in general? 02 Which specific relationships could be strengthened? Strong relationships enhance learning, support well-being, build resilience, and create a stronger support network.",
-          "id": "Kerangka untuk relasi yang kuat, karena hubungan yang bermakna menjadi bahan bakar hidup yang lebih bahagia dan tangguh. Kemampuan kita membangun relasi yang kuat berperan penting dalam belajar, kesejahteraan, dan ketangguhan kita. Di saat yang sama, banyak dari kita masih punya ruang untuk memperkuat hubungan dengan orang lain. Sambil menjalani pelajaran ini, tanyakan pada dirimu: 01 Seberapa kuat relasiku secara umum? 02 Relasi mana yang bisa diperkuat? Relasi yang kuat memperkaya cara belajar, mendukung kesejahteraan, membangun ketangguhan, dan menciptakan jaringan dukungan yang lebih kuat."
-         }
-        },
-        {
-         "title": {
-          "en": "We can develop strong, energizing relationships by practicing AVEC",
-          "id": "Kita bisa membangun relasi yang kuat dan memberi energi dengan mempraktikkan AVEC"
-         },
-         "text": {
-          "en": "People thrive when we genuinely see, hear, and support each other. We can develop strong, energizing relationships by practicing AVEC: attention, vulnerability, empathy, and compassion. We refer to these characteristics as “not-so-secret secrets” because although they seem obvious, it is the regularity and nuance with which we practice them that leads to genuinely strong connections. Attention. Be fully present and give genuine focus to others. Vulnerability. Be open and authentic, and willing to share your true thoughts and feelings. Empathy. Seek to understand others' perspectives and feelings. Compassion. Care about others and take meaningful actions to support them. These are “not-so-secret secrets”. They may seem obvious, but it is the regularity and nuance with which we practice them that leads to genuinely strong connections.",
-          "id": "Orang bisa bertumbuh ketika kita sungguh-sungguh melihat, mendengar, dan mendukung satu sama lain. Kita bisa membangun relasi yang kuat dan memberi energi dengan mempraktikkan AVEC: attention (perhatian), vulnerability (keterbukaan), empathy (empati), dan compassion (welas asih). Kami menyebut sifat-sifat ini \"rahasia yang tidak terlalu rahasia\" karena meski terlihat jelas, keteraturan dan kepekaan dalam mempraktikkannya itulah yang menghasilkan hubungan yang benar-benar kuat. Perhatian. Hadir sepenuhnya dan curahkan fokus yang tulus pada orang lain. Keterbukaan. Jadilah terbuka dan apa adanya, serta bersedia membagikan pikiran dan perasaanmu yang sebenarnya. Empati. Berusahalah memahami sudut pandang dan perasaan orang lain. Welas asih. Pedulilah pada orang lain dan ambil tindakan berarti untuk mendukung mereka. Inilah \"rahasia yang tidak terlalu rahasia\". Semuanya mungkin terlihat jelas, tetapi keteraturan dan kepekaan dalam mempraktikkannya itulah yang menghasilkan hubungan yang benar-benar kuat."
-         }
-        },
-        {
-         "title": {
-          "en": "What each element looks like in practice",
-          "id": "Wujud setiap unsur dalam praktik"
-         },
-         "text": {
-          "en": "The four elements of AVEC complement each other and can be practiced in everyday life to build stronger, more energized, and more meaningful relationships. A. Attention: turning toward the other person literally and figuratively, and listening deeply without judgment, distraction, or the desire to respond. Truly listen without interrupting. Minimize distractions (e.g., put your phone away). Show genuine interest through thoughtful questions and body language. V. Vulnerability: being your authentic self, even if it feels outside of your comfort zone. Share your thoughts, feelings, or experiences honestly. Acknowledge your mistakes or uncertainties without fear of judgment. Show your true self as a way to build trust and deepen connection. E. Empathy: understanding and identifying with the emotions and perspectives of others, based on what they share with you. Try to see the situation from the other person's perspective. Acknowledge their feelings, even if they are different from your own experience. Respond in a way that shows understanding, not just providing solutions. C. Compassion: demonstrating genuine care with an intention to be helpful and taking action to support others. Check in on others and ask how they are doing. Invest your time, energy, or resources to support them. Offer consistent support, especially during challenging times.",
-          "id": "Empat unsur AVEC saling melengkapi dan bisa dipraktikkan sehari-hari untuk membangun relasi yang lebih kuat, lebih bertenaga, dan lebih bermakna. A. Perhatian: menghadap orang lain secara harfiah maupun kiasan, dan mendengarkan dengan sungguh-sungguh tanpa menghakimi, tanpa gangguan, dan tanpa dorongan untuk segera membalas. Dengarkan benar-benar tanpa memotong. Kurangi gangguan (misalnya simpan ponselmu). Tunjukkan minat yang tulus lewat pertanyaan yang dipikirkan dan bahasa tubuh. V. Keterbukaan: menjadi dirimu yang apa adanya, meski terasa di luar zona nyaman. Bagikan pikiran, perasaan, atau pengalamanmu dengan jujur. Akui kesalahan atau ketidakpastianmu tanpa takut dihakimi. Tunjukkan dirimu yang sebenarnya sebagai cara membangun kepercayaan dan memperdalam hubungan. E. Empati: memahami dan ikut merasakan emosi serta sudut pandang orang lain, berdasarkan apa yang mereka ceritakan. Cobalah melihat situasinya dari sudut pandang orang itu. Akui perasaan mereka, meski berbeda dengan pengalamanmu sendiri. Tanggapi dengan cara yang menunjukkan pemahaman, bukan sekadar memberi solusi. C. Welas asih: menunjukkan kepedulian yang tulus dengan niat untuk membantu, dan bertindak untuk mendukung orang lain. Tanyakan kabar orang lain. Curahkan waktu, energi, atau sumber dayamu untuk mendukung mereka. Berikan dukungan yang konsisten, terutama di masa-masa sulit."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 1 slide",
-        "id": "Baca berikutnya · 1 slide"
-       },
-       "title": {
-        "en": "Potentially Difficult … or Potentially a Stronger Connection? Material",
-        "id": "Berpotensi Sulit … atau Berpotensi Mempererat Hubungan? Materi"
-       },
-       "intro": {
-        "en": "Some conversations never happen because they look too difficult. This slide names why that matters: difficult conversations end one of three ways, challenging but positive, negative, or avoided altogether, and the strongest relationships are built by people who treat them as the first kind. Read it, then continue: AVEC is exactly what turns a potentially difficult conversation into a potentially stronger connection.",
-        "id": "Sebagian percakapan tidak pernah terjadi karena terlihat terlalu sulit. Slide ini menjelaskan kenapa itu penting: percakapan yang sulit berakhir dengan salah satu dari tiga cara, yaitu menantang tetapi positif, negatif, atau dihindari sama sekali, dan relasi terkuat dibangun oleh orang-orang yang memperlakukannya sebagai jenis pertama. Baca dulu, lalu lanjutkan: AVEC-lah yang mengubah percakapan yang berpotensi sulit menjadi peluang untuk mempererat hubungan."
-       },
-       "base": "../../assets/lms/the-map/slides/relationships-difficult-",
-       "slides": [
-        {
-         "title": {
-          "en": "Potentially difficult … or potentially a stronger connection?",
-          "id": "Berpotensi sulit … atau berpotensi mempererat hubungan?"
-         },
-         "text": {
-          "en": "Difficult conversations: challenging conversations can be doors to deeper relationships. When it comes to difficult conversations, we have all been there. In some cases, the conversations are difficult, but still have a good outcome; in the worst cases, they end negatively. In other cases, whether out of fear, disinterest, or something else, we avoid these conversations altogether. Three outcomes: challenging but positive outcome (the conversation is difficult, but leads to a constructive result); negative outcome (the conversation becomes tense and ends poorly); avoided altogether (we choose not to have the conversation due to fear, disinterest, or other reasons). Developing strong, resilient relationships requires us to challenge ourselves and see potentially difficult conversations as what they really are: opportunities to make deeper connections. Watch the video to discover how.",
-          "id": "Percakapan yang sulit: percakapan yang menantang bisa menjadi pintu menuju relasi yang lebih dalam. Soal percakapan yang sulit, kita semua pernah mengalaminya. Kadang percakapannya sulit tetapi hasilnya tetap baik; dalam kasus terburuk, percakapannya berakhir buruk. Di kasus lain, entah karena takut, tidak peduli, atau hal lain, kita menghindari percakapan itu sama sekali. Tiga kemungkinan hasil: menantang tetapi positif (percakapannya sulit, tetapi menghasilkan sesuatu yang membangun); negatif (percakapannya jadi tegang dan berakhir buruk); dihindari sama sekali (kita memilih tidak melakukan percakapan itu karena takut, tidak peduli, atau alasan lain). Membangun relasi yang kuat dan tangguh menuntut kita menantang diri sendiri dan melihat percakapan yang berpotensi sulit sebagai apa adanya: peluang untuk membangun hubungan yang lebih dalam. Tonton videonya untuk mengetahui caranya."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 12 slides",
-        "id": "Baca berikutnya · 12 slide"
-       },
-       "title": {
-        "en": "A Framework for Stronger Relationships: Material",
-        "id": "Kerangka untuk Relasi yang Lebih Kuat: Materi"
-       },
-       "intro": {
-        "en": "These twelve slides are the full field guide to a difficult conversation. They begin with conflict as a source of learning, and the shift from protection to adaptation that a difficult conversation asks for. Then take each AVEC element in turn: what it is, why it matters, and tips for your next conversation before and during. A knowledge check lets you apply the framework, and the key takeaways close it. Move at your own pace (the slide text is available under the player), then continue to Exhibit 1.",
-        "id": "Dua belas slide ini adalah panduan lengkap untuk percakapan yang sulit. Slide-slide ini mulai dari konflik sebagai sumber belajar, dan pergeseran dari mode melindungi diri ke mode beradaptasi yang dibutuhkan dalam percakapan sulit. Lalu setiap unsur AVEC dibahas bergantian: apa itu, kenapa penting, dan tips untuk percakapanmu berikutnya, sebelum dan selama percakapan. Satu cek pemahaman memberimu kesempatan menerapkan kerangkanya, dan poin-poin penting menutupnya. Telusuri sesuai kecepatanmu (teks slide tersedia di bawah pemutar), lalu lanjutkan ke Gambar 1."
-       },
-       "base": "../../assets/lms/the-map/slides/relationships-stronger-",
-       "slides": [
-        {
-         "title": {
-          "en": "A framework for stronger relationships",
-          "id": "Kerangka untuk relasi yang lebih kuat"
-         },
-         "text": {
-          "en": "Practical ways to navigate challenges and build deeper connections. Conflicts can be positive. Conflict is usually associated with a negative event that makes us feel threatened and moves us into a state of protection. However, when handled with an open mind instead of judgment, defensiveness, or blame, conflict can cause learning. Gain new perspectives: different views can help us see the bigger picture. Adapt and grow together: conflict helps people adapt, grow, and solve challenges. Turn feedback into progress: instead of rewards or criticism, we can provide constructive feedback and new ideas for the future. Be ready for difficult conversations. Key to being successful in having a difficult conversation is the awareness that we need to shift from a state of protection to one of adaptation. Being open to learning and doing things differently is harder than we might expect and requires deliberate efforts. Let go of old patterns: avoid blaming or assuming the other person is not making an effort. Stay open and curious: be willing to understand the situation from the other person's perspective. Work toward a shared conclusion: recognize that our past patterns may no longer serve us, and help both sides reach a meaningful outcome.",
-          "id": "Cara-cara praktis untuk menghadapi tantangan dan membangun hubungan yang lebih dalam. Konflik bisa positif. Konflik biasanya dikaitkan dengan peristiwa negatif yang membuat kita merasa terancam dan masuk ke mode melindungi diri. Namun kalau dihadapi dengan pikiran terbuka, bukan dengan menghakimi, bersikap defensif, atau menyalahkan, konflik bisa menjadi sumber belajar. Dapatkan sudut pandang baru: pandangan yang berbeda bisa membantu kita melihat gambaran besarnya. Beradaptasi dan bertumbuh bersama: konflik membantu orang beradaptasi, bertumbuh, dan memecahkan tantangan. Ubah masukan menjadi kemajuan: alih-alih imbalan atau kritik, kita bisa memberi masukan yang membangun dan ide-ide baru untuk ke depan. Bersiaplah untuk percakapan sulit. Kunci keberhasilan dalam percakapan sulit adalah kesadaran bahwa kita perlu bergeser dari mode melindungi diri ke mode beradaptasi. Terbuka untuk belajar dan melakukan sesuatu secara berbeda lebih sulit dari yang kita kira dan butuh usaha yang disengaja. Lepaskan pola lama: hindari menyalahkan atau menganggap orang lain tidak berusaha. Tetap terbuka dan penasaran: bersedialah memahami situasinya dari sudut pandang orang lain. Upayakan kesimpulan bersama: sadari bahwa pola lama kita mungkin tidak lagi membantu, dan bantu kedua pihak mencapai hasil yang bermakna."
-         }
-        },
-        {
-         "title": {
-          "en": "Attention",
-          "id": "Perhatian"
-         },
-         "text": {
-          "en": "Attention means turning toward the other person, listening deeply without judgment, distraction, or the desire to respond. What are some things people have done to make you feel that they were giving you 100% of their attention? How did it feel? How might you demonstrate that kind of attention in your next conversation? It's no surprise: we like people who receive us without judgment. What is more surprising is just how much this matters, and how little we do it. When people pay attention to us, we feel a sense of acceptance and a desire for connection. When people turn away from us or ignore us, we feel rejected. In fact, according to the Gottman Institute, this turning away and ignoring of “bids for connection” is one of the strongest predictors of divorce. While our work environments are a bit different, the same idea holds true: the small ways in which we either pay attention and turn towards someone, or turn away from them, affect the quality of our connections. “The biggest communication problem is we do not listen to understand. We listen to reply.” (a paraphrase of Stephen Covey) Why attention matters: creates a sense of acceptance; builds deeper connection; prevents feelings of rejection; strengthens the quality of relationships.",
-          "id": "Perhatian berarti menghadap orang lain dan mendengarkan dengan sungguh-sungguh tanpa menghakimi, tanpa gangguan, dan tanpa dorongan untuk segera membalas. Apa saja yang pernah dilakukan orang sehingga kamu merasa mereka memberimu 100% perhatian? Bagaimana rasanya? Bagaimana kamu bisa menunjukkan perhatian seperti itu dalam percakapanmu berikutnya? Tidak mengejutkan: kita menyukai orang yang menerima kita tanpa menghakimi. Yang lebih mengejutkan adalah seberapa besar hal ini berarti, dan seberapa jarang kita melakukannya. Ketika orang memperhatikan kita, kita merasa diterima dan ingin terhubung. Ketika orang berpaling atau mengabaikan kita, kita merasa ditolak. Bahkan, menurut Gottman Institute, berpaling dan mengabaikan \"ajakan untuk terhubung\" ini adalah salah satu prediktor terkuat perceraian. Lingkungan kerja memang sedikit berbeda, tetapi gagasannya tetap berlaku: cara-cara kecil kita memperhatikan dan menghadap seseorang, atau justru berpaling darinya, memengaruhi kualitas hubungan kita. \"Masalah komunikasi terbesar adalah kita tidak mendengarkan untuk memahami. Kita mendengarkan untuk membalas.\" (parafrase dari Stephen Covey) Kenapa perhatian penting: menciptakan rasa diterima; membangun hubungan yang lebih dalam; mencegah perasaan ditolak; memperkuat kualitas relasi."
-         },
-         "caption": {
-          "en": "Editorial note: in Gottman's research, turning away from bids is one of the strongest predictors of relationship breakdown; contempt is the most cited single predictor.",
-          "id": "Catatan redaksi: dalam penelitian Gottman, berpaling dari ajakan untuk terhubung adalah salah satu prediktor terkuat rusaknya hubungan; sikap merendahkan adalah prediktor tunggal yang paling sering dikutip."
-         }
-        },
-        {
-         "title": {
-          "en": "Tips for your next conversation: attention",
-          "id": "Tips untuk percakapanmu berikutnya: perhatian"
-         },
-         "text": {
-          "en": "With preparation, awareness, and focus, you can give your full attention and create more meaningful conversations. Before the conversation. Prepare yourself so you can be fully present: 01 practice pausing and adopt an open and curious mindset, so you can be fully present in the conversation; 02 envision the conversation going well and focus on the positive outcome you want to achieve; 03 prioritize what truly needs your attention now. Ask yourself, “Do I have the time and energy right now to give this conversation the attention it deserves?”; 04 minimize distractions, such as finding a quiet place or turning off your email notifications. During the conversation. Give your full attention and build deeper understanding: 01 show attention non-verbally, such as turning toward the person, making eye contact, nodding, or giving other non-verbal cues; 02 challenge yourself to truly listen without feeling the urge to respond; 03 summarize what the other person said, using their own words, to ensure you understand them; 04 try not to evaluate or judge, even if their reaction is different from what you expected. You don't need to withhold your reaction forever, but in the moment, focus on understanding. Optional: practice attention. Try a simple exercise to strengthen your ability to give attention. The easy part: ask someone, “How are you?” The harder part: listen fully, silently, and without immediately jumping in with questions, for two minutes (if the person responds with the usual “I'm well,” repeat your question or perhaps ask, “How are you, really?”). Reflect on how that felt as a listener. Find a colleague to practice with; take turns and debrief the experience as both the responder and the listener.",
-          "id": "Dengan persiapan, kesadaran, dan fokus, kamu bisa memberi perhatian penuh dan menciptakan percakapan yang lebih bermakna. Sebelum percakapan. Siapkan dirimu agar bisa hadir sepenuhnya: 01 berlatih berhenti sejenak dan ambil pola pikir yang terbuka dan penasaran, supaya kamu bisa hadir sepenuhnya dalam percakapan; 02 bayangkan percakapannya berjalan baik dan fokus pada hasil positif yang ingin kamu capai; 03 prioritaskan apa yang benar-benar butuh perhatianmu saat ini. Tanyakan pada dirimu, \"Apakah aku punya waktu dan energi saat ini untuk memberi percakapan ini perhatian yang layak?\"; 04 kurangi gangguan, misalnya dengan mencari tempat yang tenang atau mematikan notifikasi email. Selama percakapan. Berikan perhatian penuh dan bangun pemahaman yang lebih dalam: 01 tunjukkan perhatian tanpa kata, misalnya menghadap orangnya, menatap matanya, mengangguk, atau isyarat tubuh lainnya; 02 tantang dirimu untuk benar-benar mendengarkan tanpa dorongan untuk segera membalas; 03 rangkum apa yang dikatakan orang itu dengan kata-katanya sendiri, untuk memastikan kamu memahaminya; 04 usahakan tidak menilai atau menghakimi, meski reaksinya berbeda dari yang kamu harapkan. Kamu tidak perlu menahan reaksimu selamanya, tetapi saat itu, fokuslah untuk memahami. Opsional: latih perhatian. Coba latihan sederhana untuk memperkuat kemampuanmu memberi perhatian. Bagian yang mudah: tanyakan pada seseorang, \"Apa kabar?\" Bagian yang lebih sulit: dengarkan sepenuhnya, dalam diam, dan tanpa langsung menyela dengan pertanyaan, selama dua menit (kalau orang itu menjawab dengan \"Baik\" seperti biasa, ulangi pertanyaanmu atau tanyakan, \"Apa kabar, yang sebenarnya?\"). Renungkan bagaimana rasanya sebagai pendengar. Cari rekan untuk berlatih; bergantianlah dan bahas pengalamannya, baik sebagai yang bercerita maupun sebagai pendengar."
-         }
-        },
-        {
-         "title": {
-          "en": "Vulnerability",
-          "id": "Keterbukaan"
-         },
-         "text": {
-          "en": "Letting your guard down allows you to show your authentic self, build deeper connections, and create a more open and trusting environment. When was the last time someone truly let their guard down with you or shared something that was surprising? What impact did it have on you? When was the last time you let your guard down? Do you feel you are regularly showing your most authentic self? Vulnerability is one of the first qualities we look for in others: it signals that they are approachable, human, and someone we can connect with. Research shows vulnerability is particularly important for leaders, those with more power in a relationship, or role models: it makes it okay for others to do the same, and builds an environment of creativity, inclusion, and psychological safety. “Vulnerability is the core of shame and fear and our struggle for worthiness, but it appears that it's also the birthplace of joy, of creativity, of belonging, of love. Vulnerability is not weakness; it's our greatest measure of courage.” (Brené Brown) Why vulnerability matters: builds deeper connections; unlocks creativity and new ideas; creates a more inclusive and psychologically safe environment.",
-          "id": "Menurunkan pertahananmu memungkinkanmu menunjukkan dirimu yang apa adanya, membangun hubungan yang lebih dalam, dan menciptakan lingkungan yang lebih terbuka dan saling percaya. Kapan terakhir kali seseorang benar-benar menurunkan pertahanannya di depanmu atau menceritakan sesuatu yang mengejutkan? Apa dampaknya bagimu? Kapan terakhir kali kamu menurunkan pertahananmu? Apakah menurutmu kamu rutin menunjukkan dirimu yang paling apa adanya? Keterbukaan adalah salah satu kualitas pertama yang kita cari pada orang lain: keterbukaan memberi sinyal bahwa mereka mudah didekati, manusiawi, dan seseorang yang bisa kita ajak terhubung. Penelitian menunjukkan bahwa keterbukaan sangat penting bagi pemimpin, orang yang punya kuasa lebih besar dalam sebuah relasi, atau panutan: keterbukaan mereka membuat orang lain merasa boleh melakukan hal yang sama, dan membangun lingkungan yang kreatif, inklusif, dan aman secara psikologis. \"Keterbukaan adalah inti dari rasa malu, rasa takut, dan pergulatan kita untuk merasa layak, tetapi tampaknya keterbukaan juga menjadi tempat lahirnya kegembiraan, kreativitas, rasa memiliki, dan cinta. Keterbukaan bukan kelemahan; keterbukaan adalah ukuran keberanian kita yang terbesar.\" (Brené Brown) Kenapa keterbukaan penting: membangun hubungan yang lebih dalam; membuka kreativitas dan ide-ide baru; menciptakan lingkungan yang lebih inklusif dan aman secara psikologis."
-         },
-         "caption": {
-          "en": "Editorial note: this quotation is reproduced from the source course; Metanoia is confirming permission for quotations of this length.",
-          "id": "Catatan redaksi: kutipan ini diambil dari kursus sumber; Metanoia sedang memastikan izin untuk kutipan sepanjang ini."
-         }
-        },
-        {
-         "title": {
-          "en": "Tips for your next conversation: vulnerability",
-          "id": "Tips untuk percakapanmu berikutnya: keterbukaan"
-         },
-         "text": {
-          "en": "Practicing vulnerability can help you build deeper connections, foster trust, and create more meaningful conversations. 1. Explore your vulnerabilities. Here are four common feelings of vulnerability that we experience as humans; which do you experience most often? Not enough: the feeling of not being or doing enough, being wrong, not having the answers, being an imposter, and being found out. Not belonging: the feeling of not being a (loved) part of the team, letting others down, being misunderstood. Not in control: the feeling of not being able to fix, not being able to help, losing power over a situation. Not mattering: the feeling of not being focused on the right purpose, of focusing on things that don't matter, of insignificance. 2. Reflect more deeply. Take a few moments to think about the following questions: 01 Where do you come from? What impact has a figure such as a parent or colleague had on you? 02 What are the formative experiences (from any point in your life) that shaped who you are as a person? 03 Which of your traits are often seen as strengths, but can also be weaknesses? 3. Address your vulnerabilities. Acknowledging the ways in which we feel vulnerable is an important first step; sharing them can build stronger relationships. Imagine the next time that vulnerability is likely to come up for you. Write down what it might sound like if you were to share this vulnerability with others. Consider what the outcome might be. In preparation. Set yourself up for a more meaningful conversation: 01 tune in to what you are feeling, without judgment, to maximize your own awareness; 02 reflect on what things you are worried about revealing and what brings you discomfort. Sit with these, get curious, and take a step further to reflect on the guards you put up; 03 consider something important to you that you have wanted to share, but haven't. Ask yourself why you haven't yet, and what it would take to do so; 04 give yourself permission not to share if you do not feel comfortable or safe doing so; listen to your gut; sometimes it is ok to not be vulnerable. During the conversation. Be open, honest, and intentional: 01 share your experience using “I” statements, acknowledging your own emotions, fears, and challenges; 02 state your hopes or intentions, overall and for the relationship; 03 acknowledge your role in the situation (e.g., “I believe I created anxiety by not communicating that decision …”), including any assumptions or misinterpretations you might have had.",
-          "id": "Mempraktikkan keterbukaan bisa membantumu membangun hubungan yang lebih dalam, menumbuhkan kepercayaan, dan menciptakan percakapan yang lebih bermakna. 1. Kenali kerentananmu. Berikut empat perasaan rentan yang umum dialami manusia; mana yang paling sering kamu alami? Tidak cukup: perasaan tidak cukup baik atau tidak cukup berbuat, salah, tidak punya jawaban, merasa seperti penipu, dan takut ketahuan. Tidak diterima: perasaan bukan bagian tim yang (disayangi), mengecewakan orang lain, disalahpahami. Tidak memegang kendali: perasaan tidak mampu memperbaiki, tidak mampu membantu, kehilangan kuasa atas sebuah situasi. Tidak berarti: perasaan tidak berfokus pada tujuan yang benar, sibuk dengan hal-hal yang tidak penting, merasa tidak berarti. 2. Renungkan lebih dalam. Luangkan beberapa saat untuk memikirkan pertanyaan berikut: 01 Dari mana asalmu? Pengaruh apa yang diberikan sosok seperti orang tua atau rekan kerja padamu? 02 Pengalaman apa (dari titik mana pun dalam hidupmu) yang membentuk dirimu? 03 Sifat-sifatmu yang mana yang sering dianggap kekuatan, tetapi juga bisa menjadi kelemahan? 3. Hadapi kerentananmu. Mengakui hal-hal yang membuat kita merasa rentan adalah langkah pertama yang penting; membagikannya bisa membangun relasi yang lebih kuat. Bayangkan saat berikutnya kerentanan itu kemungkinan muncul. Tulis bagaimana kedengarannya kalau kamu membagikan kerentanan itu kepada orang lain. Pertimbangkan apa hasilnya nanti. Persiapan. Siapkan dirimu untuk percakapan yang lebih bermakna: 01 sadari apa yang kamu rasakan, tanpa menghakimi, untuk memaksimalkan kesadaran dirimu; 02 renungkan hal-hal yang kamu khawatirkan untuk diungkapkan dan apa yang membuatmu tidak nyaman. Diamlah bersama perasaan itu, cari tahu dengan penasaran, lalu selangkah lebih jauh, renungkan pertahanan yang kamu pasang; 03 pikirkan satu hal penting yang ingin kamu bagikan, tetapi belum juga kamu lakukan. Tanyakan pada dirimu kenapa belum, dan apa yang dibutuhkan untuk melakukannya; 04 izinkan dirimu untuk tidak bercerita kalau kamu merasa tidak nyaman atau tidak aman; dengarkan nalurimu; kadang tidak apa-apa untuk tidak terbuka. Selama percakapan. Bersikaplah terbuka, jujur, dan disengaja: 01 bagikan pengalamanmu dengan pernyataan \"aku\", akui emosi, rasa takut, dan tantanganmu sendiri; 02 sampaikan harapan atau niatmu, secara umum dan untuk relasi itu; 03 akui peranmu dalam situasi itu (misalnya, \"Kurasa aku membuat semua orang cemas karena tidak mengomunikasikan keputusan itu …\"), termasuk asumsi atau salah tafsir yang mungkin kamu buat."
-         }
-        },
-        {
-         "title": {
-          "en": "Empathy",
-          "id": "Empati"
-         },
-         "text": {
-          "en": "Empathy is the ability to truly understand and feel what others are experiencing. It helps us build stronger relationships, lead more effectively, and create a more inclusive environment. Take a moment to reflect: when was the last time you felt deeply listened to? What about the last time you felt someone tried to put themselves in your shoes? Is there anyone in your life you could do the same for? Empathy drives better leadership: empathy and leadership performance are highly linked. Multiple studies show that empathy is one of the top competencies for good leadership, is linked to superior performance, and is one of the strongest indicators of senior executive effectiveness. In DDI's High-Resolution Leadership report (2016), only 40% of the frontline leaders assessed were proficient or strong in empathy. Higher performance: empathy is linked to superior performance. Stronger connections: empathy deepens our relationships with others. “We think we listen, but very rarely do we listen with real understanding, true empathy. Yet listening, of this very special kind, is one of the most potent forces for change that I know.” (Carl Rogers) Why empathy matters: helps us understand different perspectives; builds trust and stronger relationships; leads to better decisions and higher performance.",
-          "id": "Empati adalah kemampuan untuk benar-benar memahami dan merasakan apa yang dialami orang lain. Empati membantu kita membangun relasi yang lebih kuat, memimpin dengan lebih efektif, dan menciptakan lingkungan yang lebih inklusif. Luangkan waktu untuk merenung: kapan terakhir kali kamu merasa benar-benar didengarkan? Bagaimana dengan terakhir kali kamu merasa seseorang berusaha menempatkan diri di posisimu? Adakah orang dalam hidupmu yang bisa kamu perlakukan dengan cara yang sama? Empati mendorong kepemimpinan yang lebih baik: empati dan kinerja kepemimpinan sangat berkaitan. Banyak penelitian menunjukkan bahwa empati adalah salah satu kompetensi teratas untuk kepemimpinan yang baik, berkaitan dengan kinerja yang unggul, dan merupakan salah satu indikator terkuat efektivitas eksekutif senior. Dalam laporan High-Resolution Leadership dari DDI (2016), hanya 40% pemimpin lini depan yang dinilai mahir atau kuat dalam empati. Kinerja yang lebih tinggi: empati berkaitan dengan kinerja yang unggul. Hubungan yang lebih kuat: empati memperdalam relasi kita dengan orang lain. \"Kita mengira kita mendengarkan, tetapi sangat jarang kita mendengarkan dengan pemahaman yang sungguh-sungguh, dengan empati yang sejati. Padahal mendengarkan dengan cara yang istimewa ini adalah salah satu kekuatan perubahan paling ampuh yang saya tahu.\" (Carl Rogers) Kenapa empati penting: membantu kita memahami sudut pandang yang berbeda; membangun kepercayaan dan relasi yang lebih kuat; menghasilkan keputusan yang lebih baik dan kinerja yang lebih tinggi."
-         },
-         "caption": {
-          "en": "Editorial note: the 40% figure is from DDI's High-Resolution Leadership report (2016), which assessed frontline leaders, not all business leaders.",
-          "id": "Catatan redaksi: angka 40% berasal dari laporan High-Resolution Leadership dari DDI (2016), yang menilai pemimpin lini depan, bukan semua pemimpin bisnis."
-         }
-        },
-        {
-         "title": {
-          "en": "Tips for your next conversation: empathy",
-          "id": "Tips untuk percakapanmu berikutnya: empati"
-         },
-         "text": {
-          "en": "Practicing empathy can help you listen deeper, understand different perspectives, build stronger relationships, and create a more inclusive and meaningful environment. Levels of listening. Empathy requires the ability to listen deeply and understand another person's perspective; reflect on these levels and notice where you usually are, and where you can grow. Level 0: no attention, just preparing a response. Level 1: downloading information, quick to judge. Level 2: gathering factual data without judgment (keeping an open mind). Level 3: understanding the other person's experiences and emotions (having an open heart); supporting their growth, beginner's mindset, and other resilient mindsets (e.g., ask yourself “what can I learn about this person's experience?”). “Empathy is not just about understanding what others say, but also about feeling what they feel.” In preparation. Prepare yourself to listen more fully: 01 set an intention to listen fully (e.g., “what can I learn?” instead of “how can I explain or convince?”); 02 keep an open mind, and surface and challenge your assumptions; 03 take a positive stance towards the other person and assume good intentions. During the conversation. Listen with full attention and show empathy in action: 01 listen deeply without interrupting; withhold judgment and stay curious; 02 be open to feeling (not just understanding) some of the other person's emotions; 03 inquire and reflect back what you are hearing to demonstrate your understanding of their experience, emotions, fears, and needs (e.g., “What I'm sensing as I listen to you is …”).",
-          "id": "Mempraktikkan empati bisa membantumu mendengarkan lebih dalam, memahami sudut pandang yang berbeda, membangun relasi yang lebih kuat, dan menciptakan lingkungan yang lebih inklusif dan bermakna. Tingkatan mendengarkan. Empati menuntut kemampuan mendengarkan dengan sungguh-sungguh dan memahami sudut pandang orang lain; renungkan tingkatan-tingkatan ini dan perhatikan di mana kamu biasanya berada, dan ke mana kamu bisa bertumbuh. Tingkat 0: tidak memperhatikan, hanya menyiapkan balasan. Tingkat 1: menyerap informasi, cepat menghakimi. Tingkat 2: mengumpulkan data faktual tanpa menghakimi (berpikiran terbuka). Tingkat 3: memahami pengalaman dan emosi orang lain (berhati terbuka); mendukung pertumbuhan mereka, pola pikir pemula, dan pola pikir tangguh lainnya (misalnya tanyakan pada dirimu, \"apa yang bisa kupelajari dari pengalaman orang ini?\"). \"Empati bukan hanya soal memahami apa yang dikatakan orang lain, tetapi juga merasakan apa yang mereka rasakan.\" Persiapan. Siapkan dirimu untuk mendengarkan lebih penuh: 01 tetapkan niat untuk mendengarkan sepenuhnya (misalnya \"apa yang bisa kupelajari?\" alih-alih \"bagaimana aku menjelaskan atau meyakinkan?\"); 02 jaga pikiran tetap terbuka, lalu munculkan dan tantang asumsi-asumsimu; 03 ambil sikap positif terhadap orang itu dan berprasangka baik. Selama percakapan. Dengarkan dengan perhatian penuh dan tunjukkan empati dalam tindakan: 01 dengarkan dengan sungguh-sungguh tanpa memotong; tahan penilaian dan tetap penasaran; 02 bersedialah ikut merasakan (bukan hanya memahami) sebagian emosi orang itu; 03 bertanyalah dan pantulkan kembali apa yang kamu dengar untuk menunjukkan bahwa kamu memahami pengalaman, emosi, ketakutan, dan kebutuhannya (misalnya, \"Yang kutangkap saat mendengarkanmu adalah …\")."
-         }
-        },
-        {
-         "title": {
-          "en": "Compassion",
-          "id": "Welas asih"
-         },
-         "text": {
-          "en": "Compassion is the ability to notice others' struggles, care about their well-being, and take meaningful action to help. Reflection questions. Take a moment to reflect on your own experience: 01 what acts of compassion have you seen at your organization? 02 How might you demonstrate compassion today or tomorrow? Why compassion matters. Research shows that compassion has a powerful and tangible impact. Better well-being: improves mental and physical health for both the giver and receiver. Greater motivation: increases energy, engagement, and sense of purpose. Stronger relationships: builds trust, collaboration, and a more inclusive environment. Ways to practice compassion. Start small; consistent actions can create a big difference: 01 be present. Notice and pay attention to what others are experiencing; 02 show you care: acknowledge their feelings, even if you cannot fully solve their problem; 03 take meaningful action. Offer support, lend a hand, or connect them with the right resources; 04 make it a habit. Look for everyday opportunities to show kindness and understanding. “Compassion is so often the solution.”",
-          "id": "Welas asih adalah kemampuan menyadari pergulatan orang lain, peduli pada kesejahteraannya, dan mengambil tindakan berarti untuk membantu. Pertanyaan renungan. Luangkan waktu untuk merenungkan pengalamanmu sendiri: 01 tindakan welas asih apa yang pernah kamu lihat di organisasimu? 02 Bagaimana kamu bisa menunjukkan welas asih hari ini atau besok? Kenapa welas asih penting. Penelitian menunjukkan bahwa welas asih punya dampak yang kuat dan nyata. Kesejahteraan yang lebih baik: memperbaiki kesehatan mental dan fisik, baik bagi yang memberi maupun yang menerima. Motivasi yang lebih besar: meningkatkan energi, keterlibatan, dan rasa bertujuan. Relasi yang lebih kuat: membangun kepercayaan, kerja sama, dan lingkungan yang lebih inklusif. Cara mempraktikkan welas asih. Mulai dari yang kecil; tindakan yang konsisten bisa membuat perbedaan besar: 01 hadirlah. Sadari dan perhatikan apa yang sedang dialami orang lain; 02 tunjukkan bahwa kamu peduli: akui perasaan mereka, meski kamu tidak bisa sepenuhnya menyelesaikan masalahnya; 03 ambil tindakan yang berarti. Tawarkan dukungan, ulurkan tangan, atau hubungkan mereka dengan sumber bantuan yang tepat; 04 jadikan kebiasaan. Cari kesempatan sehari-hari untuk menunjukkan kebaikan dan pengertian. \"Welas asih sering kali adalah jawabannya.\""
-         }
-        },
-        {
-         "title": {
-          "en": "Tips for your next conversation: compassion",
-          "id": "Tips untuk percakapanmu berikutnya: welas asih"
-         },
-         "text": {
-          "en": "Meditation for compassion can help you be more present, calm, and open-hearted, so you can show greater care and kindness in your daily interactions. Before you begin. In preparation: put yourself in their shoes and cultivate an intention to help and support the other person, even if you don't fully agree with them. During: communicate an honest desire to be of service, ask how they would best feel supported, and offer specific help or a small gesture of kindness. Guided meditation for compassion. Follow these steps to cultivate a deeper sense of compassion for yourself and others. 1. Find a comfortable position: sit with your back supported, lie down, or whatever feels best; take a few deep breaths to center yourself in this present moment. 2. Bring your attention to your heart: focus on how the breath feels in your heart area. 3. Start with self-compassion: take a moment to care for yourself and acknowledge that you want strength, health, safety, and happiness; continue to breathe in and out and repeat these phrases out loud: may I be happy; may I be healthy and at ease; may I be free from pain and suffering. 4. Extend compassion to someone you care about: bring to mind someone who shows you unconditional love and kindness; continue to breathe in and out, and repeat these phrases: may you be happy; may you be healthy and at ease; may you be free from pain and suffering. 5. Extend compassion to someone challenging: bring to mind someone you are currently having difficulties with; as you repeat these phrases, continue to generate that feeling of real compassion: may you be happy; may you be healthy and at ease; may you be free from pain and suffering. 6. Radiate compassion to all: finally, extend loving kindness to all beings. May all beings be happy, healthy, and free from pain and suffering. 7. Return to the present: bring your attention back to your heart area; take a few more deep breaths and open your eyes.",
-          "id": "Meditasi welas asih bisa membantumu lebih hadir, tenang, dan berhati terbuka, sehingga kamu bisa menunjukkan kepedulian dan kebaikan yang lebih besar dalam interaksi sehari-hari. Sebelum mulai. Persiapan: tempatkan dirimu di posisi orang itu dan tumbuhkan niat untuk membantu dan mendukungnya, meski kamu tidak sepenuhnya setuju dengannya. Selama percakapan: sampaikan keinginan tulus untuk membantu, tanyakan bentuk dukungan apa yang paling ia butuhkan, dan tawarkan bantuan spesifik atau sikap baik yang sederhana. Meditasi terpandu untuk welas asih. Ikuti langkah-langkah ini untuk menumbuhkan welas asih yang lebih dalam bagi dirimu sendiri dan orang lain. 1. Cari posisi yang nyaman: duduk dengan punggung bersandar, berbaring, atau posisi apa pun yang paling nyaman; tarik napas dalam beberapa kali untuk memusatkan diri di saat ini. 2. Arahkan perhatian ke dadamu: rasakan bagaimana napas terasa di area jantungmu. 3. Mulai dengan welas asih pada diri sendiri: luangkan waktu untuk merawat dirimu dan akui bahwa kamu menginginkan kekuatan, kesehatan, rasa aman, dan kebahagiaan; terus tarik dan embuskan napas, lalu ucapkan kalimat-kalimat ini dengan suara: semoga aku bahagia; semoga aku sehat dan tenang; semoga aku bebas dari rasa sakit dan penderitaan. 4. Perluas welas asih kepada orang yang kamu sayangi: bayangkan seseorang yang menunjukkan kasih sayang dan kebaikan tanpa syarat kepadamu; terus tarik dan embuskan napas, lalu ucapkan kalimat-kalimat ini: semoga kamu bahagia; semoga kamu sehat dan tenang; semoga kamu bebas dari rasa sakit dan penderitaan. 5. Perluas welas asih kepada orang yang sulit bagimu: bayangkan seseorang yang sedang bermasalah denganmu; sambil mengucapkan kalimat-kalimat ini, terus tumbuhkan rasa welas asih yang sungguh-sungguh: semoga kamu bahagia; semoga kamu sehat dan tenang; semoga kamu bebas dari rasa sakit dan penderitaan. 6. Pancarkan welas asih kepada semua: terakhir, perluas kasih sayang kepada semua makhluk. Semoga semua makhluk bahagia, sehat, dan bebas dari rasa sakit dan penderitaan. 7. Kembali ke saat ini: arahkan lagi perhatianmu ke area dadamu; tarik napas dalam beberapa kali lagi, lalu buka matamu."
-         }
-        },
-        {
-         "title": {
-          "en": "Knowledge check: applying AVEC with Alisha and Marino",
-          "id": "Cek pemahaman: menerapkan AVEC bersama Alisha dan Marino"
-         },
-         "text": {
-          "en": "Practice in action. The following scenario is an opportunity for you to practice applying AVEC. As you advise Alisha and Marino, consider how you could apply these techniques in your own life. 01 Meet Alisha. Alisha is a product owner who is responsible for the project's outcome. She is also responsible for driving the delivery of a new software product for her business unit. Reflection points: how could you advise Alisha using AVEC? Which AVEC techniques are most relevant in this situation? 02 Meet Marino. Marino is Alisha's colleague and a software engineer responsible for developing, designing, and testing the software product. Reflection points: how could you advise Marino using AVEC? Which AVEC techniques are most relevant in this situation?",
-          "id": "Praktik langsung. Skenario berikut adalah kesempatanmu berlatih menerapkan AVEC. Sambil memberi saran kepada Alisha dan Marino, pikirkan bagaimana kamu bisa menerapkan teknik-teknik ini dalam hidupmu sendiri. 01 Kenalan dengan Alisha. Alisha adalah product owner yang bertanggung jawab atas hasil proyek. Ia juga bertanggung jawab memimpin penyelesaian produk perangkat lunak baru untuk unit bisnisnya. Bahan renungan: bagaimana kamu bisa memberi saran kepada Alisha dengan AVEC? Teknik AVEC mana yang paling relevan dalam situasi ini? 02 Kenalan dengan Marino. Marino adalah rekan kerja Alisha, seorang software engineer yang bertanggung jawab mengembangkan, merancang, dan menguji produk perangkat lunak itu. Bahan renungan: bagaimana kamu bisa memberi saran kepada Marino dengan AVEC? Teknik AVEC mana yang paling relevan dalam situasi ini?"
-         }
-        },
-        {
-         "title": {
-          "en": "Knowledge check: the AVEC scenario",
-          "id": "Cek pemahaman: skenario AVEC"
-         },
-         "text": {
-          "en": "Read the scenario below and choose the best response. This is an opportunity to practice how you can apply AVEC in a real-life situation. Scenario: Alisha says, “I probably need to have a tough conversation with Marino. It sounds like he has been missing deadlines for a while. There's no sense dragging this out further.” Select the best answer: (1) Why hasn't the team leader been holding Marino accountable? You need to tell her that she can't let Marino get away with this poor performance. (2) I'd be frustrated too. It's not fair to the team. You should have an honest conversation with Marino and share the effect that this is having on all of you. Make sure he really understands the negative impact he is having. (3) It's obvious this is really stressful. It's a tough situation. Could you share how you're feeling with Marino and the impact it has on the team, and then ask him what's going on with him and how he's feeling? Maybe there's more to the situation than you can see. (4) Let's bring the issue to our project manager so she can figure out a path forward. We just need to get things back on track, both for the team and for your review. Correct answer: (3). You helped Alisha to reframe the situation. In a potentially difficult conversation, being able to reframe is an important first step. It makes it more likely each person will walk away understanding the other better, and that together they will have improved both the situation and their working relationship. This response demonstrates AVEC: attention (you noticed how stressful this is for Alisha); vulnerability (you invited her to share her own feelings with Marino); empathy (you acknowledged that it is a tough situation, and that there may be more to Marino's side); compassion (you pointed her toward finding out what is going on with him). Key takeaway: using AVEC helps you approach difficult conversations with greater understanding, connection, and a focus on finding solutions together.",
-          "id": "Baca skenario di bawah dan pilih respons terbaik. Ini kesempatan untuk berlatih menerapkan AVEC dalam situasi nyata. Skenario: Alisha berkata, \"Sepertinya aku perlu bicara serius dengan Marino. Kelihatannya dia sudah lama terus melewati tenggat. Tidak ada gunanya membiarkan ini berlarut-larut.\" Pilih jawaban terbaik: (1) Kenapa ketua tim tidak meminta pertanggungjawaban Marino? Kamu harus bilang ke dia bahwa dia tidak boleh membiarkan kinerja buruk Marino begitu saja. (2) Aku juga pasti kesal. Ini tidak adil bagi tim. Kamu sebaiknya bicara jujur dengan Marino dan sampaikan dampaknya bagi kalian semua. Pastikan dia benar-benar paham dampak buruk yang dia timbulkan. (3) Jelas ini sangat membuatmu tertekan. Situasinya memang sulit. Bisakah kamu ceritakan perasaanmu kepada Marino dan dampaknya bagi tim, lalu tanyakan apa yang sedang terjadi padanya dan bagaimana perasaannya? Mungkin ada hal lain dalam situasi ini yang tidak kamu lihat. (4) Ayo kita bawa masalah ini ke manajer proyek supaya dia yang mencari jalan keluarnya. Kita hanya perlu mengembalikan semuanya ke jalur, demi tim dan demi penilaian kinerjamu. Jawaban yang benar: (3). Kamu membantu Alisha memaknai ulang situasinya. Dalam percakapan yang berpotensi sulit, kemampuan memaknai ulang adalah langkah pertama yang penting. Ini membuat kedua orang lebih mungkin pulang dengan saling memahami, dan bersama-sama memperbaiki situasinya sekaligus hubungan kerja mereka. Respons ini menunjukkan AVEC: perhatian (kamu menyadari betapa ini membuat Alisha tertekan); keterbukaan (kamu mengajaknya membagikan perasaannya sendiri kepada Marino); empati (kamu mengakui bahwa situasinya sulit, dan bahwa mungkin ada sisi lain dari Marino); welas asih (kamu mengarahkannya untuk mencari tahu apa yang sedang terjadi pada Marino). Poin penting: memakai AVEC membantumu menghadapi percakapan sulit dengan pemahaman, keterhubungan, dan fokus pada mencari jalan keluar bersama."
-         },
-         "caption": {
-          "en": "Editorial note: the answer explanation has been rewritten to match option (3). The check on asking your supervisor for ten minutes teaches the same skill.",
-          "id": "Catatan redaksi: penjelasan jawabannya sudah ditulis ulang agar sesuai dengan pilihan (3). Cek pemahaman tentang meminta waktu sepuluh menit kepada supervisormu melatih keterampilan yang sama."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin-poin penting"
-         },
-         "text": {
-          "en": "Wrap up. In this module, you have learned how to use the AVEC framework to build stronger, more meaningful relationships, at work and in life. Core takeaway: use the AVEC framework to build and improve your relationships by practicing attention (be fully present with others), vulnerability (be open and authentic), empathy (seek to understand others' perspectives), and compassion (take action to support others). Recommended resources: continue your learning journey with these curated resources: The power of vulnerability (video), learn how vulnerability can strengthen trust, connection, and collaboration; Tuning in, turning outward: cultivating compassionate leadership in a crisis (article); Want to improve your relationship? Start paying more attention to bids (article). Keep practicing: the more you apply AVEC in your daily interactions, the more natural and impactful it will become.",
-          "id": "Penutup. Di modul ini, kamu sudah belajar memakai kerangka AVEC untuk membangun relasi yang lebih kuat dan bermakna, di tempat kerja maupun dalam hidup. Poin utama: pakai kerangka AVEC untuk membangun dan memperbaiki relasimu dengan mempraktikkan perhatian (hadir sepenuhnya bersama orang lain), keterbukaan (bersikap terbuka dan apa adanya), empati (berusaha memahami sudut pandang orang lain), dan welas asih (bertindak untuk mendukung orang lain). Bacaan yang disarankan: lanjutkan perjalanan belajarmu dengan bahan-bahan pilihan ini: The power of vulnerability (video), tentang bagaimana keterbukaan bisa memperkuat kepercayaan, keterhubungan, dan kerja sama; Tuning in, turning outward: cultivating compassionate leadership in a crisis (artikel); Want to improve your relationship? Start paying more attention to bids (artikel). Terus berlatih: makin sering kamu menerapkan AVEC dalam interaksi sehari-hari, makin alami dan berdampak jadinya."
-         }
-        }
-       ]
-      },
-      {
-       "placement": "after-exhibit",
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "What Drives Team Effectiveness: Material",
-        "id": "Apa yang Mendorong Efektivitas Tim: Materi"
-       },
-       "intro": {
-        "en": "The exhibit showed what AVEC builds between two people. These three slides show what it builds at team scale. Google interviewed more than 180 of its teams to ask what makes a team effective; the answer was not who was on the team but how it worked together, and the first of its five dynamics, psychological safety, underpinned the other four. Sort the factors yourself on slide two, then hold the last slide's two questions for the slides on psychological safety later in this lesson.",
-        "id": "Gambar tadi menunjukkan apa yang dibangun AVEC di antara dua orang. Tiga slide ini menunjukkan apa yang dibangunnya dalam skala tim. Google mewawancarai lebih dari 180 timnya untuk menanyakan apa yang membuat sebuah tim efektif; jawabannya bukan siapa anggota timnya, melainkan bagaimana tim itu bekerja sama, dan dinamika pertama dari lima yang ditemukan, rasa aman psikologis, menopang empat lainnya. Pilah sendiri faktor-faktornya di slide kedua, lalu simpan dua pertanyaan dari slide terakhir sampai slide tentang rasa aman psikologis nanti di pelajaran ini."
-       },
-       "base": "../../assets/lms/the-map/slides/team-effectiveness-",
-       "slides": [
-        {
-         "title": {
-          "en": "What drives team effectiveness?",
-          "id": "Apa yang mendorong efektivitas tim?"
-         },
-         "text": {
-          "en": "Key insights. In one of the largest studies on team performance, Google interviewed more than 180 of its teams to understand “What makes a team effective?” The answers surprised them, and they might surprise you as well. Google's research found that the composition of the team was less important than how the team worked together. The five key dynamics they identified, in order of importance, were: 1. Psychological safety. Team members feel safe to speak up, share ideas, and take risks without fear of judgment. 2. Dependability of team members. Team members are reliable, consistent, and support one another. 3. Structure and clarity of roles and goals. Team members understand their roles, responsibilities, and the team's goals clearly. 4. Work is meaningful. Team members feel that their work has purpose and is personally meaningful. 5. Work has impact. Team members see that their work creates real impact, both within the organization and for others. Of these five dynamics, psychological safety was, by far, the most important. It also underpinned the other four.",
-          "id": "Temuan kunci. Dalam salah satu penelitian terbesar tentang kinerja tim, Google mewawancarai lebih dari 180 timnya untuk memahami \"Apa yang membuat sebuah tim efektif?\" Jawabannya mengejutkan mereka, dan mungkin juga akan mengejutkanmu. Penelitian Google menemukan bahwa komposisi tim kurang penting dibanding cara tim itu bekerja sama. Lima dinamika kunci yang mereka temukan, diurutkan dari yang terpenting, adalah: 1. Rasa aman psikologis. Anggota tim merasa aman untuk bersuara, berbagi ide, dan mengambil risiko tanpa takut dihakimi. 2. Anggota tim yang bisa diandalkan. Anggota tim dapat dipercaya, konsisten, dan saling mendukung. 3. Struktur dan kejelasan peran serta tujuan. Anggota tim memahami dengan jelas peran, tanggung jawab, dan tujuan tim. 4. Pekerjaan yang bermakna. Anggota tim merasa pekerjaannya punya tujuan dan bermakna secara pribadi. 5. Pekerjaan yang berdampak. Anggota tim melihat bahwa pekerjaannya menciptakan dampak nyata, baik di dalam organisasi maupun bagi orang lain. Dari kelima dinamika itu, rasa aman psikologis sejauh ini yang paling penting. Rasa aman psikologis juga menopang empat lainnya."
-         }
-        },
-        {
-         "title": {
-          "en": "Your turn: what drives team effectiveness?",
-          "id": "Giliranmu: apa yang mendorong efektivitas tim?"
-         },
-         "text": {
-          "en": "Your turn: below are several factors. Based on Google's research, decide which ones are significant drivers of team effectiveness. Sort each card into Significant Driver (this factor was found to significantly drive team effectiveness) or Not a Significant Driver (this factor was not found to significantly drive team effectiveness). The factors: individual performance of each team member; the work matters and has an impact; number of years each team member has been on the team; work is personally meaningful; seniority of the team members; psychological safety (take risks, be vulnerable); number of team members who are extroverts; team members are dependable; size of the team; clear roles and goals; the team is co-located (same location). The answer: Google identified 5 key dynamics that drive team effectiveness: 1. Psychological safety (most important). Team members feel safe to speak up, share ideas, and take risks without fear of judgment. 2. Dependability of team members. Team members are reliable, consistent, and support one another. 3. Structure and clarity of roles and goals. Team members understand their roles, responsibilities, and the team's goals clearly. 4. Work is meaningful. Team members feel that their work has purpose and is personally meaningful. 5. Work has impact. Team members see that their work creates real impact, both within the organization and for others. Among all the factors studied, psychological safety was the most important, and it also underpinned the other four.",
-          "id": "Giliranmu: di bawah ada beberapa faktor. Berdasarkan penelitian Google, tentukan mana yang menjadi pendorong utama efektivitas tim. Pilah setiap kartu ke dalam Pendorong Signifikan (faktor ini terbukti mendorong efektivitas tim secara signifikan) atau Bukan Pendorong Signifikan (faktor ini tidak terbukti mendorong efektivitas tim secara signifikan). Faktor-faktornya: kinerja individu setiap anggota tim; pekerjaannya penting dan berdampak; berapa tahun setiap anggota sudah berada di tim; pekerjaannya bermakna secara pribadi; senioritas anggota tim; rasa aman psikologis (berani mengambil risiko, berani terbuka); jumlah anggota tim yang ekstrover; anggota tim bisa diandalkan; ukuran tim; peran dan tujuan yang jelas; tim berada di lokasi yang sama. Jawabannya: Google menemukan 5 dinamika kunci yang mendorong efektivitas tim: 1. Rasa aman psikologis (paling penting). Anggota tim merasa aman untuk bersuara, berbagi ide, dan mengambil risiko tanpa takut dihakimi. 2. Anggota tim yang bisa diandalkan. Anggota tim dapat dipercaya, konsisten, dan saling mendukung. 3. Struktur dan kejelasan peran serta tujuan. Anggota tim memahami dengan jelas peran, tanggung jawab, dan tujuan tim. 4. Pekerjaan yang bermakna. Anggota tim merasa pekerjaannya punya tujuan dan bermakna secara pribadi. 5. Pekerjaan yang berdampak. Anggota tim melihat bahwa pekerjaannya menciptakan dampak nyata, baik di dalam organisasi maupun bagi orang lain. Dari semua faktor yang diteliti, rasa aman psikologis yang paling penting, dan ia juga menopang empat lainnya."
-         }
-        },
-        {
-         "title": {
-          "en": "What is psychological safety?",
-          "id": "Apa itu rasa aman psikologis?"
-         },
-         "text": {
-          "en": "Deep dive. Psychological safety has been researched for decades and certainly isn't the sole factor for team success. However, in today's workplace with more diverse and common team structures, it is increasingly important that members unlock their full potential to work together. Teams with psychological safety not only excel in current tasks but also improve over time and adapt better to the future. As you watch the video, consider. Take a moment to reflect on the following questions: 1. What is my team doing, or not doing, to create psychological safety? 2. What would be different if we improved our psychological safety?",
-          "id": "Pembahasan mendalam. Rasa aman psikologis sudah diteliti selama puluhan tahun dan jelas bukan satu-satunya faktor keberhasilan tim. Namun di tempat kerja saat ini, dengan struktur tim yang makin beragam dan makin umum, makin penting bagi anggota tim untuk mengeluarkan potensi penuh mereka dalam bekerja sama. Tim dengan rasa aman psikologis tidak hanya unggul dalam tugas saat ini, tetapi juga terus membaik dan lebih mampu beradaptasi dengan masa depan. Sambil menonton video, pikirkan hal berikut. Luangkan waktu untuk merenungkan pertanyaan-pertanyaan ini: 1. Apa yang sedang dilakukan, atau tidak dilakukan, timku untuk menciptakan rasa aman psikologis? 2. Apa yang akan berbeda kalau rasa aman psikologis kami meningkat?"
-         }
-        }
-       ]
-      },
-      {
-       "placement": "after-mistakes",
-       "kicker": {
-        "en": "Read next · 8 slides",
-        "id": "Baca berikutnya · 8 slide"
-       },
-       "title": {
-        "en": "How Do We Create Psychological Safety: Material",
-        "id": "Bagaimana Kita Menciptakan Rasa Aman Psikologis: Materi"
-       },
-       "intro": {
-        "en": "A whole team practising AVEC has a name: psychological safety. These eight slides answer the next question: how do we create it? They introduce the REACH model and walk through its first three actions, each with what good and great look like and a knowledge check to try: reframe mistakes (slides 2–3), encourage all voices (4–5) and appreciate contributions (6–8). Read them with the team you are on now in mind, then take one action into the key terms, the coaching slides and the knowledge check that close the lesson.",
-        "id": "Tim yang seluruhnya mempraktikkan AVEC punya nama: rasa aman psikologis. Delapan slide ini menjawab pertanyaan berikutnya: bagaimana kita menciptakannya? Slide-slide ini memperkenalkan model REACH dan membahas tiga tindakan pertamanya, masing-masing dengan gambaran versi baik dan versi hebat serta satu cek pemahaman untuk dicoba: memaknai ulang kesalahan (slide 2–3), mengajak semua orang bersuara (4–5), dan menghargai kontribusi (6–8). Bacalah sambil membayangkan tim tempatmu berada sekarang, lalu bawa satu tindakan ke istilah kunci, slide coaching, dan cek pemahaman yang menutup pelajaran ini."
-       },
-       "base": "../../assets/lms/the-map/slides/create-psych-safety-",
-       "slides": [
-        {
-         "title": {
-          "en": "How do we create psychological safety?",
-          "id": "Bagaimana kita menciptakan rasa aman psikologis?"
-         },
-         "text": {
-          "en": "Deep dive. Psychological safety allows people to fully contribute their unique talents and perspectives. When this happens, team members can do their best work, learn and perform better, all while reducing stress. So what does it take to create the space for teams to feel psychologically safe and do their best work? It depends on the actions each team member takes to help teammates feel comfortable speaking up and taking risks, without fearing consequences. We can use the actions of the REACH model to guide us. These actions build on a foundation of awareness and strong relationships. REACH model, a foundation for psychological safety: 1. Reframe mistakes. Use mistakes as learning opportunities to provide essential feedback for future success. 2. Encourage all voices. Invite your team to share ideas, participate in decision-making, and create more open dialogue. 3. Appreciate contributions. Let team members know that you see, value, and support their unique contributions. 4. Coach & help. Coach, role model, mentor, and set up support structures to help each team member grow. 5. Support one another. Create an environment where team members support each other and feel safe to contribute. Key takeaway: psychological safety is built through the real actions we take together every day.",
-          "id": "Pembahasan mendalam. Rasa aman psikologis memungkinkan orang menyumbangkan bakat dan sudut pandang uniknya secara penuh. Ketika itu terjadi, anggota tim bisa bekerja sebaik-baiknya, belajar, dan berkinerja lebih baik, sekaligus mengurangi stres. Lalu apa yang dibutuhkan untuk menciptakan ruang agar tim merasa aman secara psikologis dan bekerja sebaik-baiknya? Semua itu bergantung pada tindakan setiap anggota tim untuk membantu rekan-rekannya merasa nyaman bersuara dan mengambil risiko tanpa takut akan akibatnya. Kita bisa memakai tindakan-tindakan dalam model REACH sebagai panduan. Tindakan-tindakan ini dibangun di atas fondasi kesadaran dan relasi yang kuat. Model REACH, fondasi untuk rasa aman psikologis: 1. Maknai ulang kesalahan (Reframe). Jadikan kesalahan sebagai peluang belajar yang memberi masukan penting untuk keberhasilan berikutnya. 2. Ajak semua orang bersuara (Encourage). Undang timmu untuk berbagi ide, ikut mengambil keputusan, dan menciptakan dialog yang lebih terbuka. 3. Hargai kontribusi (Appreciate). Beri tahu anggota tim bahwa kamu melihat, menghargai, dan mendukung kontribusi unik mereka. 4. Bimbing dan bantu (Coach & help). Bimbing, jadilah teladan, jadilah mentor, dan siapkan struktur dukungan untuk membantu setiap anggota tim bertumbuh. 5. Saling mendukung. Ciptakan lingkungan tempat anggota tim saling mendukung dan merasa aman untuk berkontribusi. Poin penting: rasa aman psikologis dibangun lewat tindakan nyata yang kita lakukan bersama setiap hari."
-         }
-        },
-        {
-         "title": {
-          "en": "Reframing mistakes",
-          "id": "Memaknai ulang kesalahan"
-         },
-         "text": {
-          "en": "A different perspective. Mistakes, and in some cases actual failure, are a necessary part of learning. The more mistakes you make, the more data and feedback you collect, the more you learn, and the more likely you are to come up with groundbreaking ideas. Yet, so often, we as people fear this kind of risk-taking. We fear that we may look incompetent or like we're not doing our job, that other people will judge us, or that we might harm the team. What if you could reframe mistakes from being shameful or reflective of our personal character to opportunities to grow and adapt? What good looks like: acknowledge that mistakes happen; avoid showing anger when they happen; help team members correct mistakes. What great looks like: share your own mistakes vulnerably and often; remind team members frequently that our work is complex, and that we should expect mistakes; reframe mistakes as steps in a longer journey: valuable data we can work with, and an opportunity to learn. Did you know? Have you ever written on a Post-it note? Taken penicillin? Used a plastic bottle? Played with a Slinky? Probably. But did you know that none of these were invented on purpose? In fact, in the case of the Post-it, its creator was trying to do the exact opposite: create a super-strong adhesive. Imagine what you and your team are capable of creating if you were to truly embrace a process of discovery for what it always is: an opportunity to learn. Who knows, that next “mistake” you make might actually lead to a breakthrough you never expected.",
-          "id": "Sudut pandang yang berbeda. Kesalahan, dan dalam beberapa kasus kegagalan yang sebenarnya, adalah bagian yang tak terhindarkan dari belajar. Makin banyak kesalahan yang kamu buat, makin banyak data dan masukan yang kamu kumpulkan, makin banyak yang kamu pelajari, dan makin besar kemungkinan kamu menemukan ide-ide terobosan. Namun sering kali kita takut mengambil risiko semacam ini. Kita takut terlihat tidak kompeten atau tidak menjalankan tugas dengan baik, takut dihakimi orang lain, atau takut merugikan tim. Bagaimana kalau kamu bisa memaknai ulang kesalahan, dari sesuatu yang memalukan atau mencerminkan karakter kita, menjadi peluang untuk bertumbuh dan beradaptasi? Versi baik: akui bahwa kesalahan memang terjadi; jangan menunjukkan amarah saat kesalahan terjadi; bantu anggota tim memperbaiki kesalahannya. Versi hebat: bagikan kesalahanmu sendiri dengan terbuka dan sering; ingatkan anggota tim secara rutin bahwa pekerjaan kita rumit dan kesalahan memang wajar terjadi; maknai ulang kesalahan sebagai langkah dalam perjalanan yang lebih panjang: data berharga yang bisa kita olah, dan peluang untuk belajar. Tahukah kamu? Pernah menulis di kertas Post-it? Minum penisilin? Memakai botol plastik? Bermain Slinky? Mungkin pernah. Tapi tahukah kamu bahwa tidak satu pun dari semua itu ditemukan dengan sengaja? Bahkan pencipta Post-it sebenarnya sedang berusaha membuat kebalikannya: perekat yang superkuat. Bayangkan apa yang bisa kamu dan timmu ciptakan kalau kalian benar-benar merangkul proses penemuan sebagaimana adanya: peluang untuk belajar. Siapa tahu, \"kesalahan\" berikutnya yang kamu buat justru membawa terobosan yang tidak pernah kamu duga."
-         }
-        },
-        {
-         "title": {
-          "en": "Reframing mistakes: knowledge check",
-          "id": "Memaknai ulang kesalahan: cek pemahaman"
-         },
-         "text": {
-          "en": "Knowledge check. Read the scenario below and choose the best response that demonstrates a growth mindset. Scenario: your team is reviewing customer feedback submitted for each coworker at the end of a shift. The feedback is mixed, with most of the negative reviews pointing towards Olivia, who is visibly upset. When asked about her reviews, Olivia talks about everything that went wrong and how she had to work outside her area of expertise and that her ideas to help her customers were not working. Olivia takes responsibility for her negative reviews and apologizes. How would you respond? (A) Thanks for acknowledging what was challenging, Olivia. I appreciate your honesty and bravery in sharing. It's really important that we all hold ourselves accountable. (B) Thanks for sharing, Olivia. I know this was challenging for all of us, and I would love for us to set up time to talk about what went well and what went wrong. There's so much to learn, not just from reflecting on what went wrong, but also what went well, and how we can apply these ideas moving forward. (C) Thanks for bringing this up, Olivia. We need to hold ourselves accountable as a team, and make sure we're clear about what went wrong so we can avoid those same mistakes in the future. (D) Olivia, thanks for bringing this up so openly. You are right that we need to hold ourselves accountable as a team. Let's take this offline so we can debrief further. The slide highlights answer (B): it reframes the shift as something to learn from (what went wrong and what went well) rather than something to account for.",
-          "id": "Cek pemahaman. Baca skenario di bawah dan pilih respons terbaik yang menunjukkan pola pikir bertumbuh. Skenario: timmu sedang meninjau masukan pelanggan untuk setiap rekan kerja di akhir sif. Masukannya beragam, dan sebagian besar ulasan negatif tertuju pada Olivia, yang terlihat kecewa. Saat ditanya tentang ulasannya, Olivia menceritakan semua yang salah, bahwa ia harus bekerja di luar bidang keahliannya, dan bahwa ide-idenya untuk membantu pelanggan tidak berhasil. Olivia bertanggung jawab atas ulasan negatifnya dan meminta maaf. Bagaimana kamu menanggapi? (A) Terima kasih sudah mengakui apa yang sulit, Olivia. Aku menghargai kejujuran dan keberanianmu bercerita. Penting bagi kita semua untuk bertanggung jawab atas diri sendiri. (B) Terima kasih sudah bercerita, Olivia. Aku tahu ini berat bagi kita semua, dan aku ingin kita menyisihkan waktu untuk membahas apa yang berjalan baik dan apa yang salah. Ada banyak yang bisa dipelajari, bukan hanya dari merenungkan apa yang salah, tetapi juga apa yang berjalan baik, dan bagaimana kita bisa menerapkan ide-ide ini ke depan. (C) Terima kasih sudah mengangkat ini, Olivia. Kita perlu bertanggung jawab sebagai tim, dan memastikan kita jelas soal apa yang salah supaya kita bisa menghindari kesalahan yang sama di masa depan. (D) Olivia, terima kasih sudah membicarakan ini dengan begitu terbuka. Kamu benar bahwa kita perlu bertanggung jawab sebagai tim. Ayo kita bahas lebih lanjut di luar rapat ini. Slide menandai jawaban (B): jawaban itu memaknai ulang sif tadi sebagai sesuatu untuk dipelajari (apa yang salah dan apa yang berjalan baik), bukan sesuatu yang harus dipertanggungjawabkan."
-         }
-        },
-        {
-         "title": {
-          "en": "Encouraging all voices",
-          "id": "Mengajak semua orang bersuara"
-         },
-         "text": {
-          "en": "Building a culture of open dialogue. A recent study found that the most important factor in creating psychological safety culture is team voice: the ability of team members to give input into how the team carries out its actions. Unfortunately, this is not always the case. Have you ever experienced a team meeting where most of the team sat silently? Maybe they were nodding in agreement, even if they did not actually agree. Strong team voice means everyone speaks up, because they realize that their contributions will help the team and they feel that they will be listened to. “Better ideas come from more perspectives.” What good looks like. Everyday behaviors that help bring out all voices: every time there's a big decision, explicitly ask, “Are we ready to move forward?” and make sure everyone says “yes”; avoid using discrediting language when someone shares (e.g., avoid saying “yes, but …” or “There is a lot of context you don't know”). What great looks like. Going beyond to build a truly inclusive team culture: actively avoid the “sunflower” effect, where others align with the view of the leader; remind the team frequently of the power of having everyone share: in our complex world, leaders don't have all the answers, and everyone has a unique and useful part of the answer; invite participation in neutral, non-threatening ways (e.g., “What could be a viewpoint we are missing?”) and pause long enough for people to speak up; set up formal team mechanisms to encourage sharing of ideas (e.g., have a standing “devil's advocate meeting” to pressure-test plans and ideas); fill silences with questions instead of comments; explain why certain points of view were not incorporated into a final decision, share context, and be transparent about the decision-making process.",
-          "id": "Membangun budaya dialog yang terbuka. Sebuah penelitian terbaru menemukan bahwa faktor terpenting dalam menciptakan budaya rasa aman psikologis adalah suara tim: kemampuan anggota tim untuk memberi masukan tentang cara tim menjalankan tindakannya. Sayangnya, kenyataannya tidak selalu begitu. Pernahkah kamu mengalami rapat tim ketika sebagian besar anggota hanya diam? Mungkin mereka mengangguk seolah setuju, padahal sebenarnya tidak. Suara tim yang kuat berarti semua orang bersuara, karena mereka sadar kontribusinya akan membantu tim dan mereka merasa akan didengarkan. \"Ide yang lebih baik lahir dari lebih banyak sudut pandang.\" Versi baik. Perilaku sehari-hari yang membantu memunculkan semua suara: setiap kali ada keputusan besar, tanyakan secara eksplisit, \"Apakah kita siap melangkah?\" dan pastikan semua orang menjawab \"ya\"; hindari kata-kata yang meremehkan saat seseorang berbagi (misalnya hindari \"iya, tapi …\" atau \"Ada banyak konteks yang kamu tidak tahu\"). Versi hebat. Lebih jauh lagi untuk membangun budaya tim yang benar-benar inklusif: hindari secara aktif efek \"bunga matahari\", ketika semua orang mengikuti pandangan pemimpinnya; ingatkan tim secara rutin tentang kekuatan saat semua orang berbagi: di dunia yang rumit ini, pemimpin tidak punya semua jawaban, dan setiap orang memegang bagian jawaban yang unik dan berguna; undang orang untuk berpartisipasi dengan cara yang netral dan tidak mengancam (misalnya \"Sudut pandang apa yang mungkin terlewat?\") dan beri jeda yang cukup panjang agar orang sempat bersuara; buat mekanisme formal di tim untuk mendorong orang berbagi ide (misalnya adakan \"devil's advocate meeting\" rutin untuk menguji rencana dan ide); isi keheningan dengan pertanyaan, bukan komentar; jelaskan kenapa sudut pandang tertentu tidak dimasukkan dalam keputusan akhir, bagikan konteksnya, dan bersikap transparan tentang proses pengambilan keputusannya."
-         }
-        },
-        {
-         "title": {
-          "en": "Encouraging all voices: knowledge check",
-          "id": "Mengajak semua orang bersuara: cek pemahaman"
-         },
-         "text": {
-          "en": "Knowledge check. Read the scenario below and choose the best answer that shows how to build a more open and inclusive dialogue within a team. Scenario: your team is discussing more efficient ways to improve shift scheduling so that each person can work the hours they want. You have explored three potential options, and Option A seems to be the best and most innovative option to invest in. Throughout the meeting, most people have been nodding in agreement. However, Cecilia, who is usually vocal, has been quiet, and one team member has expressed a strong opinion that this is the right decision and that you should move forward now. What might you say as you try to reach a conclusion as a team? (A) I know this is a big decision, and I'm glad we got to discuss it. I'll follow up with each of you individually to hear your thoughts about next steps. (B) It seems like we are in agreement. Can we move forward with this idea? (C) Before we move forward, I want to know what's on your mind. Cecilia, what do you think? (D) This is a big decision. What might we be missing? What could go wrong that we should be thinking about? Correct: (D). You are opening the door for the full group to participate by showing a curious mindset, and using probing questions to consider alternatives and downsides. By creating the space to explore different perspectives, you are more likely to come to a better, more robust decision and get stronger buy-in from the team.",
-          "id": "Cek pemahaman. Baca skenario di bawah dan pilih jawaban terbaik yang menunjukkan cara membangun dialog yang lebih terbuka dan inklusif di dalam tim. Skenario: timmu sedang membahas cara yang lebih efisien untuk memperbaiki penjadwalan sif agar setiap orang bisa bekerja di jam yang mereka inginkan. Kalian sudah menjajaki tiga pilihan, dan Pilihan A tampaknya yang terbaik dan paling inovatif untuk dijalankan. Sepanjang rapat, sebagian besar orang mengangguk setuju. Namun Cecilia, yang biasanya vokal, diam saja, dan satu anggota tim menyampaikan pendapat yang kuat bahwa ini keputusan yang tepat dan kalian sebaiknya langsung melangkah. Apa yang mungkin kamu katakan saat mencoba mencapai kesimpulan bersama tim? (A) Aku tahu ini keputusan besar, dan aku senang kita sempat membahasnya. Aku akan menghubungi kalian satu per satu untuk mendengar pendapat kalian soal langkah berikutnya. (B) Sepertinya kita sudah sepakat. Bisakah kita jalankan ide ini? (C) Sebelum kita melangkah, aku ingin tahu apa yang ada di pikiran kalian. Cecilia, bagaimana menurutmu? (D) Ini keputusan besar. Apa yang mungkin terlewat? Apa yang bisa salah dan perlu kita pikirkan? Jawaban benar: (D). Kamu membuka pintu bagi seluruh kelompok untuk berpartisipasi dengan menunjukkan pola pikir yang penasaran, dan memakai pertanyaan yang menggali untuk mempertimbangkan alternatif dan risikonya. Dengan menciptakan ruang untuk menjelajahi berbagai sudut pandang, kalian lebih mungkin mencapai keputusan yang lebih baik dan lebih kokoh, serta mendapat dukungan yang lebih kuat dari tim."
-         }
-        },
-        {
-         "title": {
-          "en": "Appreciating contributions",
-          "id": "Menghargai kontribusi"
-         },
-         "text": {
-          "en": "An attitude of gratitude goes a long way toward building a psychologically safe team. However, we also need to move beyond just celebrating achievements like a great idea or finished product, and also value the many actions that contribute to the team process. This includes valuing our mistakes, and learning from them. It includes being willing to have difficult conversations, asking hard questions, and seeking help when we need it. The more that team members feel their contributions are valued, the more likely they are to keep engaging. “A strong team is built when every contribution is seen, valued, and appreciated.” Recognize every contribution. Value both big achievements and small, everyday actions that move the team forward. Learn from mistakes. See mistakes as opportunities to learn and improve together. Have open conversations. Be willing to discuss difficult topics, ask hard questions, and challenge ideas respectfully. Encourage help-seeking. Create a team environment where it's safe to ask for support when needed.",
-          "id": "Sikap bersyukur sangat membantu membangun tim yang aman secara psikologis. Namun kita juga perlu melampaui sekadar merayakan pencapaian seperti ide hebat atau produk yang selesai, dan juga menghargai banyak tindakan yang berkontribusi pada proses tim. Ini termasuk menghargai kesalahan kita dan belajar darinya. Ini juga termasuk kesediaan melakukan percakapan sulit, mengajukan pertanyaan sulit, dan meminta bantuan saat kita membutuhkannya. Makin besar rasa dihargai yang dirasakan anggota tim atas kontribusinya, makin besar kemungkinan mereka terus terlibat. \"Tim yang kuat terbangun ketika setiap kontribusi dilihat, dihargai, dan diapresiasi.\" Kenali setiap kontribusi. Hargai pencapaian besar maupun tindakan kecil sehari-hari yang menggerakkan tim maju. Belajar dari kesalahan. Lihat kesalahan sebagai peluang untuk belajar dan memperbaiki diri bersama. Lakukan percakapan terbuka. Bersedialah membahas topik yang sulit, mengajukan pertanyaan sulit, dan menantang ide dengan hormat. Dorong orang untuk meminta bantuan. Ciptakan lingkungan tim yang membuat orang merasa aman meminta dukungan saat dibutuhkan."
-         }
-        },
-        {
-         "title": {
-          "en": "Appreciating contributions: good and great",
-          "id": "Menghargai kontribusi: versi baik dan versi hebat"
-         },
-         "text": {
-          "en": "Recognizing and valuing contributions, big or small, helps build a psychologically safe and motivated team. Gratitude not only makes people feel valued, but also improves well-being and performance. Did you know? People who consistently practice gratitude tend to report being happier and healthier, and some studies link gratitude practice to better sleep. How can we appreciate contributions? Here are some examples of what good and great recognition looks like in a team. What good looks like. Everyday actions that show appreciation and reinforce positive behavior: 1. Proactively and frequently acknowledge the good work that team members are doing. 2. Say “thank you” when people speak up, contribute ideas, or go above and beyond the norm. What great looks like: deeper and more intentional ways to recognize contributions: 1. Make recognition part of your team's language and norms. 2. Give special thanks to people who bring up uncomfortable, difficult issues. 3. Be specific about any action that you celebrate, and the impact it had on you or the team. 4. Acknowledge the points that others make during a meeting (e.g., “To build on Cara's point…”).",
-          "id": "Mengenali dan menghargai kontribusi, besar maupun kecil, membantu membangun tim yang aman secara psikologis dan termotivasi. Rasa syukur tidak hanya membuat orang merasa dihargai, tetapi juga memperbaiki kesejahteraan dan kinerja. Tahukah kamu? Orang yang konsisten mempraktikkan rasa syukur cenderung melaporkan dirinya lebih bahagia dan lebih sehat, dan sejumlah penelitian mengaitkan praktik bersyukur dengan tidur yang lebih baik. Bagaimana kita bisa menghargai kontribusi? Berikut beberapa contoh pengakuan versi baik dan versi hebat dalam sebuah tim. Versi baik. Tindakan sehari-hari yang menunjukkan penghargaan dan memperkuat perilaku positif: 1. Secara proaktif dan sering, akui pekerjaan baik yang dilakukan anggota tim. 2. Ucapkan \"terima kasih\" ketika orang bersuara, menyumbang ide, atau bekerja melampaui kebiasaan. Versi hebat: cara-cara yang lebih dalam dan lebih disengaja untuk mengakui kontribusi: 1. Jadikan pengakuan bagian dari bahasa dan norma timmu. 2. Berikan terima kasih khusus kepada orang yang berani mengangkat masalah yang tidak nyaman dan sulit. 3. Sebutkan secara spesifik tindakan yang kamu rayakan, dan dampaknya bagimu atau bagi tim. 4. Akui poin yang disampaikan orang lain dalam rapat (misalnya, \"Melanjutkan poin Cara tadi…\")."
-         },
-         "caption": {
-          "en": "Editorial note: the source course listed specific percentages here without a primary source; they have been removed. Research effects of gratitude practices are typically modest.",
-          "id": "Catatan redaksi: kursus sumber mencantumkan persentase tertentu di sini tanpa sumber primer; angka-angka itu sudah dihapus. Efek praktik bersyukur dalam penelitian biasanya sedang-sedang saja."
-         }
-        },
-        {
-         "title": {
-          "en": "Appreciating contributions: knowledge check",
-          "id": "Menghargai kontribusi: cek pemahaman"
-         },
-         "text": {
-          "en": "Knowledge check. Recognizing and valuing contributions, both big and small, helps build a psychologically safe, motivated, and high-performing team. Gratitude not only makes people feel valued, but also improves well-being and performance. Scenario: two of your co-workers, Mariko and Omran, have worked hard over the past couple of weeks to brainstorm and propose suggestions to improve your store operations. You thought both suggestions turned out fantastic, and the two co-workers both exceeded your expectations. You were initially sure your supervisor would feel the same way, but you just heard back that only Mariko's proposal was accepted. What would you share with your team? (A) I want to congratulate both Mariko and Omran on a job well done. It is clear how hard you both worked on this, and it reflects so well on our team. I really appreciate your effort. (B) Mariko, congratulations on your suggestion. This is a great result and I am excited to see the project come to life. Omran, it's a shame your suggestion wasn't approved because I know you worked really hard. Let's learn and grow from the experience and improve for next time. (C) It is clear how hard both of you worked. You took real risks, suggested ideas we knew might be controversial, and brought creative ideas to the table. Mariko, I'm looking forward to seeing how your ideas will come to life. Omran, you did a great job discussing multiple perspectives and incorporating feedback. Although Omran's suggestion was not approved this time, both are important contributions that will help us in the future. Thank you for your effort. (D) I am so proud of our team. Mariko, congratulations. This was an important proposal, and the fact that it's funded reflects well on all of us. Thank you for your hard work. The slide highlights answer (C): it is specific about what each person did and the risks they took, and values the contribution that was not accepted as well as the one that was. Key takeaways: every contribution matters. Appreciation is not only for the final outcome, but also for the process and effort; builds trust: consistent recognition encourages engagement and motivation; drives growth: constructive feedback and appreciation help the team continuously improve.",
-          "id": "Cek pemahaman. Mengenali dan menghargai kontribusi, besar maupun kecil, membantu membangun tim yang aman secara psikologis, termotivasi, dan berkinerja tinggi. Rasa syukur tidak hanya membuat orang merasa dihargai, tetapi juga memperbaiki kesejahteraan dan kinerja. Skenario: dua rekan kerjamu, Mariko dan Omran, sudah bekerja keras selama beberapa minggu terakhir untuk mencari dan mengusulkan ide perbaikan operasional toko kalian. Menurutmu kedua usulan itu hasilnya luar biasa, dan keduanya melampaui harapanmu. Awalnya kamu yakin supervisormu akan berpendapat sama, tetapi kamu baru saja mendengar bahwa hanya usulan Mariko yang diterima. Apa yang akan kamu sampaikan kepada timmu? (A) Aku ingin memberi selamat kepada Mariko dan Omran atas kerja kerasnya. Jelas sekali kalian berdua bekerja keras untuk ini, dan itu membuat tim kita terlihat sangat baik. Aku sangat menghargai usaha kalian. (B) Mariko, selamat atas usulanmu. Ini hasil yang hebat dan aku tidak sabar melihat proyeknya terwujud. Omran, sayang sekali usulanmu tidak disetujui, karena aku tahu kamu bekerja sangat keras. Ayo belajar dan bertumbuh dari pengalaman ini dan jadi lebih baik lain kali. (C) Jelas sekali kalian berdua bekerja keras. Kalian berani mengambil risiko, mengusulkan ide yang kita tahu mungkin kontroversial, dan membawa ide-ide kreatif. Mariko, aku tidak sabar melihat bagaimana idemu terwujud. Omran, kamu hebat dalam membahas berbagai sudut pandang dan memasukkan masukan. Meski usulan Omran belum disetujui kali ini, keduanya adalah kontribusi penting yang akan membantu kita di masa depan. Terima kasih atas usaha kalian. (D) Aku sangat bangga dengan tim kita. Mariko, selamat. Ini usulan yang penting, dan fakta bahwa usulan ini didanai mencerminkan kebaikan kita semua. Terima kasih atas kerja kerasmu. Slide menandai jawaban (C): jawaban itu spesifik tentang apa yang dilakukan setiap orang dan risiko yang mereka ambil, serta menghargai kontribusi yang tidak diterima sama seperti yang diterima. Poin penting: setiap kontribusi berarti. Penghargaan bukan hanya untuk hasil akhir, tetapi juga untuk proses dan usahanya; membangun kepercayaan: pengakuan yang konsisten mendorong keterlibatan dan motivasi; mendorong pertumbuhan: masukan yang membangun dan penghargaan membantu tim terus membaik."
-         }
-        }
-       ]
-      },
-      {
-       "placement": "before-check",
-       "kicker": {
-        "en": "Read last · 5 slides",
-        "id": "Baca terakhir · 5 slide"
-       },
-       "title": {
-        "en": "Coaching Other Team Members to Help and Support: Material",
-        "id": "Membimbing Anggota Tim untuk Saling Membantu dan Mendukung: Materi"
-       },
-       "intro": {
-        "en": "One last deck before the check. The REACH slides covered reframing mistakes, encouraging all voices and appreciating contributions; these five close the loop with the fourth action, coaching other team members to help and support each other, then clear three common misconceptions about psychological safety and gather the module's key takeaways. Slides 4 and 5 are the source course's own summary of its three sections: well-being (Lesson 5.1), AVEC relationships and a psychologically safe team (this lesson). Read them as a recap, then take the knowledge check below.",
-        "id": "Satu slide terakhir sebelum cek pemahaman. Slide REACH tadi membahas memaknai ulang kesalahan, mengajak semua orang bersuara, dan menghargai kontribusi; lima slide ini menutup rangkaiannya dengan tindakan keempat, yaitu membimbing anggota tim lain untuk saling membantu dan mendukung, lalu meluruskan tiga salah kaprah umum tentang rasa aman psikologis dan mengumpulkan poin-poin penting modul ini. Slide 4 dan 5 adalah ringkasan kursus sumber atas tiga bagiannya: kesejahteraan (Pelajaran 5.1), relasi dengan AVEC, dan tim yang aman secara psikologis (pelajaran ini). Bacalah sebagai rangkuman, lalu kerjakan cek pemahaman di bawah."
-       },
-       "base": "../../assets/lms/the-map/slides/coaching-support-",
-       "slides": [
-        {
-         "title": {
-          "en": "Coaching other team members to help and support each other",
-          "id": "Membimbing anggota tim untuk saling membantu dan mendukung"
-         },
-         "text": {
-          "en": "In addition to holding yourself accountable for how you contribute to a psychologically safe team, you should also encourage and coach others to do the same. Psychological safety is truly a team sport! As you move from individual actions to having an ongoing and shared team conversation, you raise your expectations for one another, and create positive momentum. “A supportive team doesn't happen by chance. It is built through intentional coaching, encouragement, and open conversations.” How can you coach team members to help others? Here are some examples of what good and great coaching looks like. What good looks like: simple but meaningful ways to encourage and support others: 1. Encourage peer recognition (e.g., ask the team to write a 2-minute thank you note every day). 2. Remind team members that it is everyone's role to help improve the experience of others on the team. What great looks like: more intentional and deeper actions to build a supportive team culture: 1. Encourage team members to give their views (e.g., everyone should withhold judgment when thinking of ideas). 2. Coach team members to support each other (e.g., ask them to encourage each other to speak up). 3. Steer team members away from behaviors that might limit psychological safety. 4. Provide feedback and coaching to individual team members on their contributions to psychological safety.",
-          "id": "Selain bertanggung jawab atas caramu sendiri berkontribusi pada tim yang aman secara psikologis, kamu juga sebaiknya mendorong dan membimbing orang lain untuk melakukan hal yang sama. Rasa aman psikologis benar-benar olahraga tim! Ketika kamu bergerak dari tindakan pribadi ke percakapan tim yang berkelanjutan dan dimiliki bersama, kalian menaikkan harapan satu sama lain dan menciptakan momentum yang positif. \"Tim yang saling mendukung tidak terjadi kebetulan. Tim seperti itu dibangun lewat bimbingan, dorongan, dan percakapan terbuka yang disengaja.\" Bagaimana kamu bisa membimbing anggota tim untuk membantu orang lain? Berikut beberapa contoh bimbingan versi baik dan versi hebat. Versi baik: cara-cara sederhana tetapi bermakna untuk mendorong dan mendukung orang lain: 1. Dorong pengakuan antarrekan (misalnya minta tim menulis catatan terima kasih 2 menit setiap hari). 2. Ingatkan anggota tim bahwa memperbaiki pengalaman orang lain di tim adalah peran semua orang. Versi hebat: tindakan yang lebih disengaja dan lebih dalam untuk membangun budaya tim yang saling mendukung: 1. Dorong anggota tim untuk menyampaikan pandangannya (misalnya semua orang menahan penilaian saat memikirkan ide). 2. Bimbing anggota tim untuk saling mendukung (misalnya minta mereka saling menyemangati untuk bersuara). 3. Arahkan anggota tim menjauhi perilaku yang bisa membatasi rasa aman psikologis. 4. Berikan masukan dan bimbingan kepada setiap anggota tim tentang kontribusinya pada rasa aman psikologis."
-         }
-        },
-        {
-         "title": {
-          "en": "Coaching: what would you say to Jonas?",
-          "id": "Membimbing: apa yang akan kamu katakan kepada Jonas?"
-         },
-         "text": {
-          "en": "Knowledge check. Read the scenario below and choose the best response. This will help you practice how to coach team members and build a more supportive team culture. Jonas: “I am a little fed up. Sam never seems to get things right the first time, and I am always left to fix his mistakes.” How would you respond to Jonas? (A) You seem frustrated, Jonas, and I'm sorry you're feeling that way. It happens sometimes. There's usually someone on the team who is not meeting expectations. (B) That sounds really frustrating, Jonas. What do you think is going on with Sam? It's possible he's still getting familiar with the work or not aware of these mistakes. Have you spoken to him about it or explored what support he might need? (C) I would be frustrated too, Jonas. Since this has happened repeatedly, I think you should bring this up directly with Sam and let him know that you're tired of fixing his mistakes. (D) That is frustrating, Jonas. I think you should set clearer expectations with Sam so that he can improve and avoid making the same mistakes. The slide highlights answer (B): it names the frustration, then coaches Jonas toward curiosity about Sam and the support he might need, reframing a mistake rather than blaming it.",
-          "id": "Cek pemahaman. Baca skenario di bawah dan pilih respons terbaik. Ini akan membantumu berlatih membimbing anggota tim dan membangun budaya tim yang lebih saling mendukung. Jonas: \"Aku agak muak. Sam sepertinya tidak pernah benar di percobaan pertama, dan aku selalu harus membereskan kesalahannya.\" Bagaimana kamu menanggapi Jonas? (A) Kamu kelihatan frustrasi, Jonas, dan aku ikut prihatin kamu merasa begitu. Hal seperti ini memang kadang terjadi. Biasanya selalu ada satu orang di tim yang tidak memenuhi harapan. (B) Kedengarannya memang sangat menjengkelkan, Jonas. Menurutmu apa yang sedang terjadi pada Sam? Mungkin dia masih menyesuaikan diri dengan pekerjaannya atau tidak sadar akan kesalahan-kesalahan ini. Apakah kamu sudah bicara dengannya atau mencari tahu dukungan apa yang mungkin dia butuhkan? (C) Aku juga pasti frustrasi, Jonas. Karena ini sudah terjadi berulang kali, menurutku kamu sebaiknya langsung membicarakannya dengan Sam dan bilang bahwa kamu capek membereskan kesalahannya. (D) Itu memang menjengkelkan, Jonas. Menurutku kamu sebaiknya menetapkan harapan yang lebih jelas kepada Sam supaya dia bisa memperbaiki diri dan tidak mengulangi kesalahan yang sama. Slide menandai jawaban (B): jawaban itu menyebut rasa frustrasinya, lalu membimbing Jonas untuk penasaran tentang Sam dan dukungan yang mungkin ia butuhkan, sehingga kesalahan itu dimaknai ulang, bukan disalahkan."
-         }
-        },
-        {
-         "title": {
-          "en": "Common misconceptions about psychological safety",
-          "id": "Salah kaprah umum tentang rasa aman psikologis"
-         },
-         "text": {
-          "en": "Although the individual actions of the REACH model might seem straightforward, putting them into practice can be challenging. One reason is that there are a few common misunderstandings about what it means to have a psychologically safe environment. Once these ideas are clearer, you will see even more opportunities to build psychological safety within your team. 01. Misconception: psychological safety means there are no conflicts or challenges; everyone must always be nice. Many people believe that a psychologically safe team never disagrees or faces different opinions. They think “not agreeing” is something to avoid. Fact: psychological safety actually allows for open and honest discussions, including diverse viewpoints. Psychologically safe teams listen deeply, understand different perspectives, and respect each other. Even when there is disagreement. They are willing to share ideas, challenge each other, and work together to find better solutions. 02. Misconception: psychological safety means no accountability, no focus on performance, and ultimately unproductive teams. Some people worry that a psychologically safe team will have lower standards, be too comfortable, and become less productive because people won't be challenged. Fact: psychological safety actually improves team performance and productivity. Research shows that psychologically safe teams take smart risks, are more honest about their work, openly give and receive feedback, and set higher performance goals. It leads to better outcomes, not lower performance. 03. Misconception: psychological safety means every little decision must be discussed from every possible angle, making the team inefficient. Some people think psychologically safe teams spend too much time in meetings, overanalyzing every decision because everyone's opinion must be heard. Fact: psychologically safe teams are actually more efficient in decision-making. They are comfortable speaking up with relevant input, but they also trust that the team will make the decision. Not every decision needs extended discussion. There is clarity on when to involve the team, and the process is more focused and efficient.",
-          "id": "Meski setiap tindakan dalam model REACH tampak sederhana, mempraktikkannya bisa menantang. Salah satu alasannya adalah adanya beberapa salah kaprah umum tentang arti lingkungan yang aman secara psikologis. Setelah gagasan-gagasan ini lebih jelas, kamu akan melihat makin banyak peluang untuk membangun rasa aman psikologis di timmu. 01. Salah kaprah: rasa aman psikologis berarti tidak ada konflik atau tantangan; semua orang harus selalu bersikap manis. Banyak orang mengira tim yang aman secara psikologis tidak pernah berbeda pendapat. Mereka menganggap \"tidak setuju\" sebagai sesuatu yang harus dihindari. Faktanya: rasa aman psikologis justru memungkinkan diskusi yang terbuka dan jujur, termasuk sudut pandang yang beragam. Tim yang aman secara psikologis mendengarkan dengan sungguh-sungguh, memahami sudut pandang yang berbeda, dan saling menghormati, bahkan saat berbeda pendapat. Mereka bersedia berbagi ide, saling menantang, dan bekerja sama mencari solusi yang lebih baik. 02. Salah kaprah: rasa aman psikologis berarti tidak ada akuntabilitas, tidak ada fokus pada kinerja, dan akhirnya tim jadi tidak produktif. Sebagian orang khawatir tim yang aman secara psikologis akan punya standar yang lebih rendah, terlalu nyaman, dan jadi kurang produktif karena orang tidak ditantang. Faktanya: rasa aman psikologis justru meningkatkan kinerja dan produktivitas tim. Penelitian menunjukkan bahwa tim yang aman secara psikologis berani mengambil risiko yang cerdas, lebih jujur tentang pekerjaannya, terbuka memberi dan menerima masukan, dan menetapkan target kinerja yang lebih tinggi. Hasilnya lebih baik, bukan kinerja yang lebih rendah. 03. Salah kaprah: rasa aman psikologis berarti setiap keputusan kecil harus dibahas dari segala sudut, sehingga tim jadi tidak efisien. Sebagian orang mengira tim yang aman secara psikologis menghabiskan terlalu banyak waktu di rapat, menganalisis berlebihan setiap keputusan karena pendapat semua orang harus didengar. Faktanya: tim yang aman secara psikologis justru lebih efisien dalam mengambil keputusan. Mereka nyaman bersuara dengan masukan yang relevan, tetapi juga percaya bahwa tim akan mengambil keputusan. Tidak setiap keputusan butuh diskusi panjang. Ada kejelasan kapan tim perlu dilibatkan, dan prosesnya lebih fokus dan efisien."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways from this module",
-          "id": "Poin-poin penting dari modul ini"
-         },
-         "text": {
-          "en": "In this module, we have covered the following tools and insights to help you create a more psychologically safe and high-performing team. REACH model. Use this framework to create a safe team environment by reframing mistakes, encouraging all voices, appreciating contributions, and coaching your team to help each other. “A psychologically safe environment unlocks better ideas, stronger collaboration, and higher performance.” Recommended resources. You may also wish to explore these resources: a video, “Building a psychologically safe workplace”; a guide, “Google's Project Aristotle: understand team effectiveness”; an interview, “Psychological safety, emotional intelligence, and leadership in a time of flux”. The slide names these titles; their links are not reproduced in this lesson.",
-          "id": "Di modul ini, kita sudah membahas alat dan wawasan berikut untuk membantumu menciptakan tim yang lebih aman secara psikologis dan berkinerja tinggi. Model REACH. Pakai kerangka ini untuk menciptakan lingkungan tim yang aman dengan memaknai ulang kesalahan, mengajak semua orang bersuara, menghargai kontribusi, dan membimbing timmu untuk saling membantu. \"Lingkungan yang aman secara psikologis membuka jalan bagi ide yang lebih baik, kerja sama yang lebih kuat, dan kinerja yang lebih tinggi.\" Bacaan yang disarankan. Kamu juga bisa menjelajahi bahan-bahan berikut: sebuah video, \"Building a psychologically safe workplace\"; sebuah panduan, \"Google's Project Aristotle: understand team effectiveness\"; sebuah wawancara, \"Psychological safety, emotional intelligence, and leadership in a time of flux\". Slide ini menyebutkan judul-judulnya; tautannya tidak dicantumkan di pelajaran ini."
-         }
-        },
-        {
-         "title": {
-          "en": "Relationships & well-being in summary",
-          "id": "Ringkasan relasi dan kesejahteraan"
-         },
-         "text": {
-          "en": "Closing remarks. Throughout this course, you have built practical skills and mindsets to strengthen your well-being, build meaningful relationships, and create a psychologically safe environment, for yourself and those around you. Healthier people, stronger teams, a brighter tomorrow. Key learnings from this course: 01. Improve your well-being. Evaluate and take steps to improve your current state of well-being across multiple dimensions: understand the key dimensions of well-being; assess your current state; take practical steps to improve and sustain your well-being. 02. Build stronger relationships. Establish strong relationships with others by being attentive, vulnerable, empathetic, and compassionate: be a more active and intentional listener; show vulnerability and authenticity; practice empathy and compassion; build trust and deeper connections with others. 03. Create a psychologically safe team environment. Foster a team environment where people are not afraid to speak up, take risks, and make mistakes: encourage open and inclusive discussions; value diverse perspectives; respond constructively to mistakes; help others feel safe, respected, and empowered to contribute. Putting it into practice. Apply the lessons in your daily life: we hope you can apply some of the lessons learned to your day-to-day life decisions, whether it's using the AVEC framework in a difficult conversation or creating a recovery plan to help you recharge and re-energize your emotional well-being. Keep learning: to revisit the key learnings from these sections, use your workbook in Metanoia, which provides a summary of the covered material and space to document your reflections.",
-          "id": "Penutup. Sepanjang kursus ini, kamu sudah membangun keterampilan dan pola pikir praktis untuk memperkuat kesejahteraanmu, membangun relasi yang bermakna, dan menciptakan lingkungan yang aman secara psikologis, bagi dirimu dan orang-orang di sekitarmu. Orang yang lebih sehat, tim yang lebih kuat, hari esok yang lebih cerah. Pelajaran kunci dari kursus ini: 01. Tingkatkan kesejahteraanmu. Nilai dan ambil langkah untuk memperbaiki kondisi kesejahteraanmu saat ini di berbagai dimensi: pahami dimensi-dimensi kunci kesejahteraan; nilai kondisimu saat ini; ambil langkah praktis untuk memperbaiki dan menjaga kesejahteraanmu. 02. Bangun relasi yang lebih kuat. Jalin relasi yang kuat dengan orang lain dengan penuh perhatian, berani terbuka, berempati, dan berbelas kasih: jadilah pendengar yang lebih aktif dan disengaja; tunjukkan keterbukaan dan sikap apa adanya; praktikkan empati dan welas asih; bangun kepercayaan dan hubungan yang lebih dalam dengan orang lain. 03. Ciptakan lingkungan tim yang aman secara psikologis. Bangun lingkungan tim tempat orang tidak takut bersuara, mengambil risiko, dan berbuat salah: dorong diskusi yang terbuka dan inklusif; hargai sudut pandang yang beragam; tanggapi kesalahan dengan cara yang membangun; bantu orang lain merasa aman, dihormati, dan berdaya untuk berkontribusi. Praktikkan. Terapkan pelajaran ini dalam kehidupan sehari-hari: kami harap kamu bisa menerapkan sebagian pelajaran ini dalam keputusan sehari-hari, entah memakai kerangka AVEC dalam percakapan sulit atau menyusun rencana pemulihan untuk mengisi ulang dan menyegarkan kembali kesejahteraan emosionalmu. Terus belajar: untuk meninjau kembali pelajaran kunci dari bagian-bagian ini, pakai buku kerjamu di Metanoia, yang memuat ringkasan materi dan ruang untuk mencatat renunganmu."
-         },
-         "caption": {
-          "en": "Your workbook in Metanoia: the Relationship Map in this lesson is the in-platform place for this lesson's reflections.",
-          "id": "Buku kerjamu di Metanoia: Peta Relasi di pelajaran ini adalah tempat di platform untuk renungan pelajaran ini."
-         }
-        }
-       ]
       }
      ],
      "sections": [
@@ -13952,8 +13790,8 @@ window.MT_LMS['the-map'] = {
       {
        "icon": "target",
        "h": {
-        "en": "AVEC in a single conversation",
-        "id": "AVEC dalam satu percakapan"
+        "en": "The four elements in a single conversation",
+        "id": "Empat unsur dalam satu percakapan"
        },
        "body": {
         "en": "The four elements are not four separate habits; they are four moments in one exchange. <b>Attention</b> opens it: phone face-down, body turned, the question you were about to ask held back until they have finished. <b>Vulnerability</b> keeps it honest: “I'm not sure I handled that well” invites the same from them. <b>Empathy</b> is the pause before you answer, in which you say what you heard (“that sounds like it landed harder than you expected”) before you say anything of your own. <b>Compassion</b> closes it with an action, not a sentiment: a check-in message tomorrow, an hour of your time, an introduction. The order matters because each element makes the next possible. Attention without the rest is interviewing; vulnerability without attention is oversharing; empathy that never becomes compassion is a nice feeling that changes nothing.",
@@ -13963,12 +13801,12 @@ window.MT_LMS['the-map'] = {
       {
        "icon": "gear",
        "h": {
-        "en": "Regularity and nuance: the practice behind the secrets",
-        "id": "Keteraturan dan kepekaan: praktik di balik rahasianya"
+        "en": "Regularity and nuance: the practice behind the four words",
+        "id": "Keteraturan dan kepekaan: praktik di balik empat kata itu"
        },
        "body": {
-        "en": "The slides call AVEC “not-so-secret secrets” for a reason: everyone agrees with the four words, and almost no one practises them regularly. Regularity means the elements show up in ordinary weeks, not only in crises: a standing coffee, a message that asks a real question, a reply that waits until you have actually read theirs. Nuance means reading the person in front of you: one friend needs you to listen for twenty minutes before any advice; a colleague under deadline needs the compassion of a short message and nothing more. Vulnerability has a dose too: enough to be real, calibrated to the relationship, never a transfer of your load onto someone with less capacity than you. The skill is not knowing AVEC. It is choosing the right element, in the right amount, with this person, today.",
-        "id": "Slide-slide tadi menyebut AVEC \"rahasia yang tidak terlalu rahasia\" karena satu alasan: semua orang setuju dengan keempat kata itu, tetapi hampir tidak ada yang mempraktikkannya secara teratur. Keteraturan berarti unsur-unsur itu muncul di minggu-minggu biasa, bukan hanya saat krisis: ngopi rutin, pesan yang menanyakan sesuatu dengan sungguh-sungguh, balasan yang menunggu sampai kamu benar-benar membaca pesannya. Kepekaan berarti membaca orang yang ada di depanmu: seorang teman butuh kamu mendengarkan selama dua puluh menit sebelum ada saran apa pun; seorang rekan yang sedang dikejar tenggat butuh welas asih berupa pesan singkat, tidak lebih. Keterbukaan juga ada takarannya: cukup untuk terasa nyata, disesuaikan dengan relasinya, dan tidak pernah memindahkan bebanmu ke orang yang kapasitasnya lebih kecil darimu. Keterampilannya bukan sekadar tahu AVEC. Keterampilannya adalah memilih unsur yang tepat, dengan takaran yang tepat, untuk orang ini, hari ini."
+        "en": "Everyone agrees with the four words, and almost no one practises them regularly. Regularity means the elements show up in ordinary weeks, not only in crises: a standing coffee, a message that asks a real question, a reply that waits until you have actually read theirs. Nuance means reading the person in front of you: one friend needs you to listen for twenty minutes before any advice; a colleague under deadline needs the compassion of a short message and nothing more. Vulnerability has a dose too: enough to be real, calibrated to the relationship, never a transfer of your load onto someone with less capacity than you. The skill is not knowing the four words. It is choosing the right element, in the right amount, with this person, today.",
+        "id": "Semua orang setuju dengan keempat kata itu, tetapi hampir tidak ada yang mempraktikkannya secara teratur. Keteraturan berarti unsur-unsur itu muncul di minggu-minggu biasa, bukan hanya saat krisis: ngopi rutin, pesan yang menanyakan sesuatu dengan sungguh-sungguh, balasan yang menunggu sampai kamu benar-benar membaca pesannya. Kepekaan berarti membaca orang yang ada di depanmu: seorang teman butuh kamu mendengarkan selama dua puluh menit sebelum ada saran apa pun; seorang rekan yang sedang dikejar tenggat butuh welas asih berupa pesan singkat, tidak lebih. Keterbukaan juga ada takarannya: cukup untuk terasa nyata, disesuaikan dengan relasinya, dan tidak pernah memindahkan bebanmu ke orang yang kapasitasnya lebih kecil darimu. Keterampilannya bukan sekadar tahu keempat kata itu. Keterampilannya adalah memilih unsur yang tepat, dengan takaran yang tepat, untuk orang ini, hari ini."
        }
       },
       {
@@ -13978,8 +13816,8 @@ window.MT_LMS['the-map'] = {
         "id": "Ajakan dan gerakan-gerakan kecil yang membangun kepercayaan"
        },
        "body": {
-        "en": "The slides introduced Gottman's <b>bids for connection</b>: small attempts to get someone's attention, interest or support (“Mas, lihat deh grafik ini”, a meme in the group, a sigh at the next desk). Each bid gets one of three responses: <b>turning toward</b> (engaging), <b>turning away</b> (not noticing), or <b>turning against</b> (a dismissive reply). Couples and teams that turn toward bids most of the time build trust; repeated turning away erodes it quietly. In a new team, trust is built in seconds, many times a day, long before any “important” conversation. The senior who replies to your question with one helpful line, or the peer who notices you've gone quiet, is turning toward. You can do the same, from day one.",
-        "id": "Slide-slide tadi memperkenalkan <b>ajakan untuk terhubung</b> dari Gottman: upaya-upaya kecil untuk mendapat perhatian, minat, atau dukungan seseorang (\"Mas, lihat deh grafik ini\", meme di grup, helaan napas di meja sebelah). Setiap ajakan mendapat salah satu dari tiga tanggapan: <b>menghadap</b> (menanggapi), <b>berpaling</b> (tidak menyadarinya), atau <b>melawan</b> (balasan yang meremehkan). Pasangan dan tim yang sering menghadap ajakan membangun kepercayaan; terus-menerus berpaling menggerogotinya diam-diam. Dalam tim baru, kepercayaan dibangun dalam hitungan detik, berkali-kali dalam sehari, jauh sebelum ada percakapan yang \"penting\". Senior yang membalas pertanyaanmu dengan satu kalimat yang membantu, atau rekan yang sadar kamu jadi pendiam, sedang menghadap. Kamu bisa melakukan hal yang sama, sejak hari pertama."
+        "en": "The psychologist John Gottman describes <b>bids for connection</b>: small attempts to get someone's attention, interest or support (“Mas, lihat deh grafik ini”, a meme in the group, a sigh at the next desk). Each bid gets one of three responses: <b>turning toward</b> (engaging), <b>turning away</b> (not noticing), or <b>turning against</b> (a dismissive reply). Couples and teams that turn toward bids most of the time build trust; repeated turning away erodes it quietly. In a new team, trust is built in seconds, many times a day, long before any “important” conversation. The senior who replies to your question with one helpful line, or the peer who notices you've gone quiet, is turning toward. You can do the same, from day one.",
+        "id": "Psikolog John Gottman menggambarkan <b>ajakan untuk terhubung</b>: upaya-upaya kecil untuk mendapat perhatian, minat, atau dukungan seseorang (\"Mas, lihat deh grafik ini\", meme di grup, helaan napas di meja sebelah). Setiap ajakan mendapat salah satu dari tiga tanggapan: <b>menghadap</b> (menanggapi), <b>berpaling</b> (tidak menyadarinya), atau <b>melawan</b> (balasan yang meremehkan). Pasangan dan tim yang sering menghadap ajakan membangun kepercayaan; terus-menerus berpaling menggerogotinya diam-diam. Dalam tim baru, kepercayaan dibangun dalam hitungan detik, berkali-kali dalam sehari, jauh sebelum ada percakapan yang \"penting\". Senior yang membalas pertanyaanmu dengan satu kalimat yang membantu, atau rekan yang sadar kamu jadi pendiam, sedang menghadap. Kamu bisa melakukan hal yang sama, sejak hari pertama."
        },
        "bullets": [
         {
@@ -14001,12 +13839,12 @@ window.MT_LMS['the-map'] = {
       {
        "icon": "compass",
        "h": {
-        "en": "AVEC across hierarchy and culture",
-        "id": "AVEC di tengah hierarki dan budaya"
+        "en": "The four elements across hierarchy and culture",
+        "id": "Empat unsur di tengah hierarki dan budaya"
        },
        "body": {
-        "en": "AVEC was written for flat, direct cultures. In workplaces and campuses, seniority (senior/junior, kakak/adik tingkat), titles (Bapak/Ibu, Mas/Mbak) and <i>sungkan</i> or <i>ewuh pakewuh</i> (reluctance to trouble or contradict someone respected) shape every element. The four elements still apply, but their <b>dose and channel</b> change.",
-        "id": "AVEC ditulis untuk budaya yang datar dan lugas. Di tempat kerja dan kampus kita, senioritas (senior/junior, kakak/adik tingkat), sapaan (Bapak/Ibu, Mas/Mbak), serta <i>sungkan</i> atau <i>ewuh pakewuh</i> (rasa enggan merepotkan atau membantah orang yang dihormati) memengaruhi setiap unsurnya. Keempat unsur itu tetap berlaku, tetapi <b>takaran dan salurannya</b> berubah."
+        "en": "Most advice on relationships is written for flat, direct cultures. In workplaces and campuses, seniority (senior/junior, kakak/adik tingkat), titles (Bapak/Ibu, Mas/Mbak) and <i>sungkan</i> or <i>ewuh pakewuh</i> (reluctance to trouble or contradict someone respected) shape every element. The four elements still apply, but their <b>dose and channel</b> change.",
+        "id": "Sebagian besar nasihat tentang relasi ditulis untuk budaya yang datar dan lugas. Di tempat kerja dan kampus kita, senioritas (senior/junior, kakak/adik tingkat), sapaan (Bapak/Ibu, Mas/Mbak), serta <i>sungkan</i> atau <i>ewuh pakewuh</i> (rasa enggan merepotkan atau membantah orang yang dihormati) memengaruhi setiap unsurnya. Keempat unsur itu tetap berlaku, tetapi <b>takaran dan salurannya</b> berubah."
        },
        "bullets": [
         {
@@ -14121,18 +13959,18 @@ window.MT_LMS['the-map'] = {
       {
        "icon": "flag",
        "h": {
-        "en": "REACH without a title: psychological safety from the junior seat",
-        "id": "REACH tanpa jabatan: rasa aman psikologis dari kursi junior"
+        "en": "Psychological safety from the junior seat: five small acts",
+        "id": "Rasa aman psikologis dari kursi junior: lima tindakan kecil"
        },
        "body": {
-        "en": "The REACH slides are written for anyone on a team, but most examples feature a leader. Here is what each action looks like when you are the intern, the trainee, or the newest member of a kelompok. Research on team learning shows that psychological safety predicts whether people speak up, admit errors and learn. It is built by everyone's behaviour, so juniors who model it change the team faster than they expect.",
-        "id": "Slide-slide REACH ditulis untuk siapa pun di dalam tim, tetapi sebagian besar contohnya menampilkan pemimpin. Berikut wujud setiap tindakan ketika kamu anak magang, trainee, atau anggota terbaru sebuah kelompok. Penelitian tentang pembelajaran tim menunjukkan bahwa rasa aman psikologis memprediksi apakah orang berani bersuara, mengakui kesalahan, dan belajar. Rasa aman itu dibangun oleh perilaku semua orang, jadi junior yang mencontohkannya mengubah tim lebih cepat dari yang mereka kira."
+        "en": "Most advice on psychological safety is written for leaders. Here is what it looks like when you are the intern, the trainee, or the newest member of a kelompok. Research on team learning shows that psychological safety predicts whether people speak up, admit errors and learn. It is built by everyone's behaviour, so juniors who model it change the team faster than they expect.",
+        "id": "Sebagian besar nasihat tentang rasa aman psikologis ditulis untuk pemimpin. Berikut wujudnya ketika kamu anak magang, trainee, atau anggota terbaru sebuah kelompok. Penelitian tentang pembelajaran tim menunjukkan bahwa rasa aman psikologis memprediksi apakah orang berani bersuara, mengakui kesalahan, dan belajar. Rasa aman itu dibangun oleh perilaku semua orang, jadi junior yang mencontohkannya mengubah tim lebih cepat dari yang mereka kira."
        },
        "table": {
         "cols": [
          {
-          "en": "REACH action",
-          "id": "Tindakan REACH"
+          "en": "Small act",
+          "id": "Tindakan kecil"
          },
          {
           "en": "What a junior can do this week",
@@ -14142,8 +13980,8 @@ window.MT_LMS['the-map'] = {
         "rows": [
          [
           {
-           "en": "R · Reframe mistakes",
-           "id": "R · Maknai ulang kesalahan"
+           "en": "Own a mistake early",
+           "id": "Akui kesalahan lebih awal"
           },
           {
            "en": "Report your own mistake early, with a fix: “Bu, saya salah input data kemarin; sudah saya koreksi dan saya tambah cek ganda.” It makes it safer for others to admit theirs.",
@@ -14152,8 +13990,18 @@ window.MT_LMS['the-map'] = {
          ],
          [
           {
-           "en": "E · Encourage all voices",
-           "id": "E · Ajak semua orang bersuara"
+           "en": "Ask when you do not follow",
+           "id": "Bertanya saat belum paham"
+          },
+          {
+           "en": "Say it in the open: “Mbak, saya belum paham bagian ini. Boleh ditunjukkan?” One question asked aloud makes it normal for others to ask.",
+           "id": "Katakan terbuka: \"Mbak, saya belum paham bagian ini. Boleh ditunjukkan?\" Satu pertanyaan yang diucapkan membuat orang lain merasa wajar untuk bertanya."
+          }
+         ],
+         [
+          {
+           "en": "Invite the quiet voice",
+           "id": "Ajak yang pendiam bersuara"
           },
           {
            "en": "In a group project, ask the quiet member directly and kindly; in a meeting, build on someone's point by name.",
@@ -14162,8 +14010,8 @@ window.MT_LMS['the-map'] = {
          ],
          [
           {
-           "en": "A · Appreciate contributions",
-           "id": "A · Hargai kontribusi"
+           "en": "Thank specifically",
+           "id": "Berterima kasih secara spesifik"
           },
           {
            "en": "Thank a senior specifically: “The template you shared saved me two hours on the report.”",
@@ -14172,22 +14020,12 @@ window.MT_LMS['the-map'] = {
          ],
          [
           {
-           "en": "C · Coach and help",
-           "id": "C · Bimbing dan bantu"
+           "en": "Offer one concrete thing",
+           "id": "Tawarkan satu bantuan konkret"
           },
           {
-           "en": "Share a shortcut or resource with your fellow trainees; offer to pair on a task you know well.",
-           "id": "Bagikan cara pintas atau bahan kepada sesama trainee; tawarkan untuk mengerjakan bersama tugas yang sudah kamu kuasai."
-          }
-         ],
-         [
-          {
-           "en": "H · Help and support one another",
-           "id": "H · Saling membantu dan mendukung"
-          },
-          {
-           "en": "Notice a peer's overload signals (5.1) and offer one concrete thing.",
-           "id": "Perhatikan tanda kelebihan beban pada rekanmu (5.1) dan tawarkan satu bantuan yang konkret."
+           "en": "Notice a peer's overload signals (5.1) and offer one concrete thing; share a shortcut or a resource with your fellow trainees.",
+           "id": "Perhatikan tanda kelebihan beban pada rekanmu (5.1) dan tawarkan satu bantuan yang konkret; bagikan cara pintas atau bahan kepada sesama trainee."
           }
          ]
         ],
@@ -14229,18 +14067,18 @@ window.MT_LMS['the-map'] = {
      "diagram": {
       "type": "quad",
       "exhibit": {
-       "en": "Exhibit 1: AVEC: four elements, one practice. Each makes the next possible.",
-       "id": "Gambar 1: AVEC: empat unsur, satu praktik. Setiap unsur memungkinkan unsur berikutnya."
+       "en": "Exhibit 1: Four elements, one practice. Each makes the next possible.",
+       "id": "Gambar 1: Empat unsur, satu praktik. Setiap unsur memungkinkan unsur berikutnya."
       },
       "title": {
-       "en": "The AVEC framework",
-       "id": "Kerangka AVEC"
+       "en": "Four elements of a strong relationship",
+       "id": "Empat unsur relasi yang kuat"
       },
       "items": [
        {
         "h": {
-         "en": "A · Attention",
-         "id": "A · Perhatian"
+         "en": "Attention",
+         "id": "Perhatian"
         },
         "sub": {
          "en": "Turn toward them; listen without a reply forming",
@@ -14249,8 +14087,8 @@ window.MT_LMS['the-map'] = {
        },
        {
         "h": {
-         "en": "V · Vulnerability",
-         "id": "V · Keterbukaan"
+         "en": "Vulnerability",
+         "id": "Keterbukaan"
         },
         "sub": {
          "en": "Say the true thing, including the uncertain one",
@@ -14259,8 +14097,8 @@ window.MT_LMS['the-map'] = {
        },
        {
         "h": {
-         "en": "E · Empathy",
-         "id": "E · Empati"
+         "en": "Empathy",
+         "id": "Empati"
         },
         "sub": {
          "en": "Name what they feel before you answer",
@@ -14269,8 +14107,8 @@ window.MT_LMS['the-map'] = {
        },
        {
         "h": {
-         "en": "C · Compassion",
-         "id": "C · Welas asih"
+         "en": "Compassion",
+         "id": "Welas asih"
         },
         "sub": {
          "en": "Close with an action, not a sentiment",
@@ -14279,8 +14117,8 @@ window.MT_LMS['the-map'] = {
        }
       ],
       "longdesc": {
-       "en": "A two-by-two grid of the four AVEC elements, read as one sequence. Attention (be fully present, listen without interrupting, phone away) opens the exchange; vulnerability (share honestly, acknowledge mistakes) keeps it real; empathy (see it from their side, acknowledge their feelings, respond with understanding rather than solutions) is the pause before you answer; compassion (check in, invest time and resources, support consistently) turns the exchange into an action. Each element depends on the one before it.",
-       "id": "Kisi dua kali dua berisi empat unsur AVEC, dibaca sebagai satu rangkaian. Perhatian (hadir sepenuhnya, dengarkan tanpa memotong, ponsel disimpan) membuka percakapan; keterbukaan (berbagi dengan jujur, mengakui kesalahan) menjaganya tetap nyata; empati (melihat dari sisinya, mengakui perasaannya, menanggapi dengan pemahaman, bukan solusi) adalah jeda sebelum kamu menjawab; welas asih (menanyakan kabar, mencurahkan waktu dan sumber daya, mendukung secara konsisten) mengubah percakapan menjadi tindakan. Setiap unsur bergantung pada unsur sebelumnya."
+       "en": "A two-by-two grid of the four elements, read as one sequence. Attention (be fully present, listen without interrupting, phone away) opens the exchange; vulnerability (share honestly, acknowledge mistakes) keeps it real; empathy (see it from their side, acknowledge their feelings, respond with understanding rather than solutions) is the pause before you answer; compassion (check in, invest time and resources, support consistently) turns the exchange into an action. Each element depends on the one before it.",
+       "id": "Kisi dua kali dua berisi keempat unsur, dibaca sebagai satu rangkaian. Perhatian (hadir sepenuhnya, dengarkan tanpa memotong, ponsel disimpan) membuka percakapan; keterbukaan (berbagi dengan jujur, mengakui kesalahan) menjaganya tetap nyata; empati (melihat dari sisinya, mengakui perasaannya, menanggapi dengan pemahaman, bukan solusi) adalah jeda sebelum kamu menjawab; welas asih (menanyakan kabar, mencurahkan waktu dan sumber daya, mendukung secara konsisten) mengubah percakapan menjadi tindakan. Setiap unsur bergantung pada unsur sebelumnya."
       }
      },
      "steps": [
@@ -14290,12 +14128,12 @@ window.MT_LMS['the-map'] = {
         "id": "Renungan 1: Seberapa kuat relasiku secara umum? (5 menit)"
        },
        "body": {
-        "en": "List the six people you spoke with most this fortnight (family, friends, classmates, colleagues, a mentor). Next to each, rate the relationship 1–5 for energy: does time with them charge your battery or drain it? Then mark which of the four AVEC elements you practise with them regularly. Reveal the debrief when done.",
-        "id": "Tulis enam orang yang paling sering kamu ajak bicara dalam dua minggu terakhir (keluarga, teman, teman kuliah, rekan kerja, mentor). Di samping masing-masing, beri nilai relasinya 1–5 untuk energi: apakah waktu bersama mereka mengisi bateraimu atau mengurasnya? Lalu tandai unsur AVEC mana yang rutin kamu praktikkan bersama mereka. Buka pembahasannya setelah selesai."
+        "en": "List the six people you spoke with most this fortnight (family, friends, classmates, colleagues, a mentor). Next to each, rate the relationship 1–5 for energy: does time with them charge your battery or drain it? Then mark which of the four elements you practise with them regularly. Reveal the debrief when done.",
+        "id": "Tulis enam orang yang paling sering kamu ajak bicara dalam dua minggu terakhir (keluarga, teman, teman kuliah, rekan kerja, mentor). Di samping masing-masing, beri nilai relasinya 1–5 untuk energi: apakah waktu bersama mereka mengisi bateraimu atau mengurasnya? Lalu tandai unsur mana yang rutin kamu praktikkan bersama mereka. Buka pembahasannya setelah selesai."
        },
        "debrief": {
-        "en": "Two patterns usually appear. First, the energy score tracks the AVEC marks: the relationships that charge you are the ones where attention and vulnerability flow both ways. Second, most people find one element missing across the whole list, usually vulnerability (we stay pleasant and shallow) or compassion (we feel for people and do nothing). That missing element is your lever for the whole network, not just one person. Carry it into Reflection 2.",
-        "id": "Biasanya muncul dua pola. Pertama, skor energi sejalan dengan tanda AVEC: relasi yang mengisi bateraimu adalah relasi tempat perhatian dan keterbukaan mengalir dua arah. Kedua, kebanyakan orang menemukan satu unsur yang hilang di seluruh daftarnya, biasanya keterbukaan (kita tetap ramah tapi dangkal) atau welas asih (kita ikut merasakan tapi tidak berbuat apa-apa). Unsur yang hilang itu adalah tuasmu untuk seluruh jaringanmu, bukan hanya untuk satu orang. Bawa ke Renungan 2."
+        "en": "Two patterns usually appear. First, the energy score tracks the marks: the relationships that charge you are the ones where attention and vulnerability flow both ways. Second, most people find one element missing across the whole list, usually vulnerability (we stay pleasant and shallow) or compassion (we feel for people and do nothing). That missing element is your lever for the whole network, not just one person. Carry it into Reflection 2.",
+        "id": "Biasanya muncul dua pola. Pertama, skor energi sejalan dengan tanda unsurnya: relasi yang mengisi bateraimu adalah relasi tempat perhatian dan keterbukaan mengalir dua arah. Kedua, kebanyakan orang menemukan satu unsur yang hilang di seluruh daftarnya, biasanya keterbukaan (kita tetap ramah tapi dangkal) atau welas asih (kita ikut merasakan tapi tidak berbuat apa-apa). Unsur yang hilang itu adalah tuasmu untuk seluruh jaringanmu, bukan hanya untuk satu orang. Bawa ke Renungan 2."
        }
       },
       {
@@ -14304,18 +14142,18 @@ window.MT_LMS['the-map'] = {
         "id": "Renungan 2: Relasi mana yang bisa diperkuat? (5 menit)"
        },
        "body": {
-        "en": "Choose one person from your list whose relationship matters to your learning, well-being or resilience and is weaker than it should be. Write their name, the AVEC element most missing between you, and one concrete thing you will do this week that practises exactly that element: a phone-away coffee, an honest “I found that hard”, a message that names what they are going through, an hour of help. Reveal when done.",
-        "id": "Pilih satu orang dari daftarmu yang relasinya penting bagi belajar, kesejahteraan, atau ketangguhanmu, tetapi lebih lemah dari seharusnya. Tulis namanya, unsur AVEC yang paling hilang di antara kalian, dan satu hal konkret yang akan kamu lakukan minggu ini untuk mempraktikkan tepat unsur itu: ngopi tanpa ponsel, \"aku merasa itu berat\" yang jujur, pesan yang menyebut apa yang sedang ia alami, satu jam bantuan. Buka pembahasannya setelah selesai."
+        "en": "Choose one person from your list whose relationship matters to your learning, well-being or resilience and is weaker than it should be. Write their name, the element most missing between you, and one concrete thing you will do this week that practises exactly that element: a phone-away coffee, an honest “I found that hard”, a message that names what they are going through, an hour of help. Reveal when done.",
+        "id": "Pilih satu orang dari daftarmu yang relasinya penting bagi belajar, kesejahteraan, atau ketangguhanmu, tetapi lebih lemah dari seharusnya. Tulis namanya, unsur yang paling hilang di antara kalian, dan satu hal konkret yang akan kamu lakukan minggu ini untuk mempraktikkan tepat unsur itu: ngopi tanpa ponsel, \"aku merasa itu berat\" yang jujur, pesan yang menyebut apa yang sedang ia alami, satu jam bantuan. Buka pembahasannya setelah selesai."
        },
        "debrief": {
-        "en": "Specificity is the whole point. “Be better with people” never happens; “Thursday, coffee with Dina, phone in bag, ask about the transfer and let her finish” happens. Put it in the calendar the way Lesson 5.1 put the sleep window there, as a defended block, not a wish. The relationship will not change in one conversation, but the practice begins to, and practice is what AVEC is.",
-        "id": "Kuncinya adalah spesifik. \"Lebih baik dalam bergaul\" tidak pernah terjadi; \"Kamis, ngopi dengan Dina, ponsel di tas, tanya soal kepindahannya dan biarkan dia selesai cerita\" itulah yang terjadi. Masukkan ke kalender seperti Pelajaran 5.1 memasukkan jam tidur, sebagai blok yang dilindungi, bukan sekadar harapan. Relasinya tidak akan berubah dalam satu percakapan, tetapi praktiknya mulai berubah, dan praktik itulah AVEC."
+        "en": "Specificity is the whole point. “Be better with people” never happens; “Thursday, coffee with Dina, phone in bag, ask about the transfer and let her finish” happens. Put it in the calendar the way Lesson 5.1 put the sleep window there, as a defended block, not a wish. The relationship will not change in one conversation, but the practice begins to, and practice is all the four elements are.",
+        "id": "Kuncinya adalah spesifik. \"Lebih baik dalam bergaul\" tidak pernah terjadi; \"Kamis, ngopi dengan Dina, ponsel di tas, tanya soal kepindahannya dan biarkan dia selesai cerita\" itulah yang terjadi. Masukkan ke kalender seperti Pelajaran 5.1 memasukkan jam tidur, sebagai blok yang dilindungi, bukan sekadar harapan. Relasinya tidak akan berubah dalam satu percakapan, tetapi praktiknya mulai berubah, dan praktik itulah inti keempat unsur ini."
        }
       },
       {
        "h": {
-        "en": "Application: Run one AVEC conversation and ask for feedback (this week)",
-        "id": "Penerapan: Jalankan satu percakapan AVEC dan minta masukan (minggu ini)"
+        "en": "Application: Run one four-element conversation and ask for feedback (this week)",
+        "id": "Penerapan: Jalankan satu percakapan empat unsur dan minta masukan (minggu ini)"
        },
        "body": {
         "en": "Have the conversation you planned. Afterwards, note in your Personal Audit which elements you actually practised, where you reached for your phone or your own story, and how the other person responded. Then do the braver thing: ask one trusted person, “When we talk, do you feel I'm really listening?” and take the answer as data. Reveal when done.",
@@ -14332,8 +14170,8 @@ window.MT_LMS['the-map'] = {
         "id": "Peta Relasi (15 menit)"
        },
        "body": {
-        "en": "In the plan section below, list 8–12 key people (family, mentor, lecturer, seniors, peers, supervisor). For each, note energy (charging or draining), trust (1–5), the AVEC elements you practise, and the last meaningful conversation. Choose the top 3 to invest in this month.",
-        "id": "Di bagian rencana di bawah, tulis 8–12 orang kunci (keluarga, mentor, dosen, senior, teman sebaya, atasan). Untuk masing-masing, catat energinya (mengisi atau menguras), kepercayaan (1–5), unsur AVEC yang kamu praktikkan, dan percakapan bermakna terakhir. Pilih 3 teratas untuk kamu rawat bulan ini."
+        "en": "In the plan section below, list 8–12 key people (family, mentor, lecturer, seniors, peers, supervisor). For each, note energy (charging or draining), trust (1–5), the elements you practise, and the last meaningful conversation. Choose the top 3 to invest in this month.",
+        "id": "Di bagian rencana di bawah, tulis 8–12 orang kunci (keluarga, mentor, dosen, senior, teman sebaya, atasan). Untuk masing-masing, catat energinya (mengisi atau menguras), kepercayaan (1–5), unsur yang kamu praktikkan, dan percakapan bermakna terakhir. Pilih 3 teratas untuk kamu rawat bulan ini."
        },
        "debrief": {
         "en": "Look for two patterns: important relationships with no recent conversation that wasn't about tasks, and draining ones you've been giving the most time. Rebalance one of each.",
@@ -14342,12 +14180,12 @@ window.MT_LMS['the-map'] = {
       },
       {
        "h": {
-        "en": "REACH from the junior seat (this week)",
-        "id": "REACH dari kursi junior (minggu ini)"
+        "en": "A small act from the junior seat (this week)",
+        "id": "Satu tindakan kecil dari kursi junior (minggu ini)"
        },
        "body": {
-        "en": "Choose one REACH action from the table above and do it once with your team, class or organisation. Afterwards, note how people responded.",
-        "id": "Pilih satu tindakan REACH dari tabel di atas dan lakukan sekali bersama tim, kelas, atau organisasimu. Setelahnya, catat bagaimana tanggapan orang-orang."
+        "en": "Choose one act from the table above and do it once with your team, class or organisation. Afterwards, note how people responded.",
+        "id": "Pilih satu tindakan dari tabel di atas dan lakukan sekali bersama tim, kelas, atau organisasimu. Setelahnya, catat bagaimana tanggapan orang-orang."
        },
        "debrief": {
         "en": "The action that feels riskiest (reporting your own mistake) usually earns the most trust. If it went badly, that tells you something about how safe the team is, and is worth discussing with a mentor.",
@@ -14422,22 +14260,22 @@ window.MT_LMS['the-map'] = {
      "glossary": [
       {
        "term": {
-        "en": "AVEC",
-        "id": "AVEC"
+        "en": "the four elements",
+        "id": "empat unsur"
        },
        "def": {
-        "en": "Attention, Vulnerability, Empathy, Compassion: the four elements that, practised regularly and with nuance, make relationships strong. Also French for “with”: strong relationships are built with people, not at them.",
-        "id": "Attention, Vulnerability, Empathy, Compassion (perhatian, keterbukaan, empati, welas asih): empat unsur yang, bila dipraktikkan secara teratur dan dengan kepekaan, membuat relasi menjadi kuat. Dalam bahasa Prancis, avec juga berarti \"bersama\": relasi yang kuat dibangun bersama orang lain, bukan diarahkan kepada mereka."
+        "en": "Attention, vulnerability, empathy and compassion: four things that, practised regularly and with nuance, make relationships strong.",
+        "id": "Perhatian, keterbukaan, empati, dan welas asih: empat hal yang, bila dipraktikkan secara teratur dan dengan kepekaan, membuat relasi menjadi kuat."
        }
       },
       {
        "term": {
-        "en": "not-so-secret secrets",
-        "id": "rahasia yang tidak terlalu rahasia"
+        "en": "the knowing–doing gap",
+        "id": "celah antara tahu dan melakukan"
        },
        "def": {
-        "en": "The slides' name for the four elements: obvious to state, rarely practised. The gap between knowing them and doing them regularly is where strong relationships are made.",
-        "id": "Sebutan slide untuk keempat unsur itu: mudah diucapkan, jarang dipraktikkan. Celah antara tahu dan rutin melakukannya itulah tempat relasi yang kuat terbentuk."
+        "en": "The four elements are obvious to state and rarely practised. The gap between knowing them and doing them regularly is where strong relationships are made.",
+        "id": "Keempat unsur itu mudah diucapkan dan jarang dipraktikkan. Celah antara tahu dan rutin melakukannya itulah tempat relasi yang kuat terbentuk."
        }
       },
       {
@@ -14519,21 +14357,21 @@ window.MT_LMS['the-map'] = {
       },
       {
        "q": {
-        "en": "Why does the lesson call AVEC “not-so-secret secrets”?",
-        "id": "Kenapa pelajaran ini menyebut AVEC \"rahasia yang tidak terlalu rahasia\"?"
+        "en": "Everyone agrees with the four elements. Where, according to this lesson, does the strength of a relationship come from?",
+        "id": "Semua orang setuju dengan keempat unsur itu. Menurut pelajaran ini, dari mana kekuatan sebuah relasi berasal?"
        },
        "options": [
         {
-         "en": "Because the four elements are obvious to agree with, and the strength comes from practising them regularly and with nuance",
-         "id": "Karena keempat unsurnya mudah disetujui, dan kekuatannya datang dari mempraktikkannya secara teratur dan dengan kepekaan"
+         "en": "From practising them regularly and with nuance, not from knowing them",
+         "id": "Dari mempraktikkannya secara teratur dan dengan kepekaan, bukan dari sekadar mengetahuinya"
         },
         {
-         "en": "Because they only work if the other person does not know you are using them",
-         "id": "Karena unsur-unsur itu hanya berhasil kalau orang lain tidak tahu kamu sedang memakainya"
+         "en": "From using them without the other person noticing",
+         "id": "Dari memakainya tanpa disadari oleh orang lain"
         },
         {
-         "en": "Because they are a trade secret of professional coaches",
-         "id": "Karena unsur-unsur itu rahasia dagang para coach profesional"
+         "en": "From techniques that only professional coaches know",
+         "id": "Dari teknik yang hanya diketahui para coach profesional"
         }
        ],
        "correct": 0,
@@ -14606,8 +14444,8 @@ window.MT_LMS['the-map'] = {
       "id": "Orang bisa bertumbuh ketika kita sungguh-sungguh melihat, mendengar, dan mendukung satu sama lain."
      },
      "outcomeDetail": {
-      "en": "By the end you can map your relationships by energy and AVEC practice, run one AVEC conversation with a specific person, apply REACH from a junior position without a title, and set a boundary that protects a relationship instead of damaging it.",
-      "id": "Di akhir pelajaran ini, kamu bisa memetakan relasimu berdasarkan energi dan praktik AVEC, menjalankan satu percakapan AVEC dengan orang tertentu, menerapkan REACH dari posisi junior tanpa jabatan, dan menetapkan batasan yang melindungi relasi, bukan merusaknya."
+      "en": "By the end you can map your relationships by energy and by the four elements, run one four-element conversation with a specific person, build psychological safety from a junior position without a title, and set a boundary that protects a relationship instead of damaging it.",
+      "id": "Di akhir pelajaran ini, kamu bisa memetakan relasimu berdasarkan energi dan keempat unsur, menjalankan satu percakapan empat unsur dengan orang tertentu, membangun rasa aman psikologis dari posisi junior tanpa jabatan, dan menetapkan batasan yang melindungi relasi, bukan merusaknya."
      },
      "takeawaysLead": {
       "en": "Three things to carry into 5.4, where you'll learn to listen and disagree inside these relationships:",
@@ -14621,8 +14459,8 @@ window.MT_LMS['the-map'] = {
        "id": "Peta Relasimu: Rencana bagian 4"
       },
       "body": {
-       "en": "Map who charges and drains you, which AVEC elements you practise, and pick the three relationships to invest in this month. Saved on this device as part of your Sustainable Performance Plan.",
-       "id": "Petakan siapa yang mengisi dan menguras energimu, unsur AVEC mana yang kamu praktikkan, lalu pilih tiga relasi untuk kamu rawat bulan ini. Tersimpan di perangkat ini sebagai bagian dari Rencana Kinerja Berkelanjutanmu."
+       "en": "Map who charges and drains you, which of the four elements you practise, and pick the three relationships to invest in this month. Saved on this device as part of your Sustainable Performance Plan.",
+       "id": "Petakan siapa yang mengisi dan menguras energimu, unsur mana yang kamu praktikkan, lalu pilih tiga relasi untuk kamu rawat bulan ini. Tersimpan di perangkat ini sebagai bagian dari Rencana Kinerja Berkelanjutanmu."
       },
       "sections": [
        {
@@ -14639,8 +14477,8 @@ window.MT_LMS['the-map'] = {
          {
           "id": "people",
           "label": {
-           "en": "Key people: name · charging (+) or draining (−) · trust 1–5 · AVEC elements I practise · last meaningful conversation",
-           "id": "Orang-orang kunci: nama · mengisi (+) atau menguras (−) · kepercayaan 1–5 · unsur AVEC yang kupraktikkan · percakapan bermakna terakhir"
+           "en": "Key people: name · charging (+) or draining (−) · trust 1–5 · elements I practise · last meaningful conversation",
+           "id": "Orang-orang kunci: nama · mengisi (+) atau menguras (−) · kepercayaan 1–5 · unsur yang kupraktikkan · percakapan bermakna terakhir"
           },
           "hint": {
            "en": "e.g. Ibu · + · 5 · A, C · last Sunday (about her, not tasks)\nMbak Sari · − · 2 · none yet · never",
@@ -14651,8 +14489,8 @@ window.MT_LMS['the-map'] = {
          {
           "id": "invest",
           "label": {
-           "en": "Top three to invest in this month, and the AVEC element for each",
-           "id": "Tiga relasi teratas untuk dirawat bulan ini, dan unsur AVEC untuk masing-masing"
+           "en": "Top three to invest in this month, and the element for each",
+           "id": "Tiga relasi teratas untuk dirawat bulan ini, dan unsur untuk masing-masing"
           },
           "hint": {
            "en": "e.g. Mbak Sari (attention: ten-minute check-in) · Dimas (compassion) · Pak Arif (vulnerability: say where I'm stuck)",
@@ -14663,8 +14501,8 @@ window.MT_LMS['the-map'] = {
          {
           "id": "reach",
           "label": {
-           "en": "My REACH action this week and how people responded",
-           "id": "Tindakan REACH-ku minggu ini dan tanggapan orang-orang"
+           "en": "My small act this week and how people responded",
+           "id": "Tindakan kecilku minggu ini dan tanggapan orang-orang"
           },
           "hint": {
            "en": "e.g. Reported my own data-entry error with the fix. Bu Wulan: “thanks for flagging early.”",
@@ -14726,8 +14564,8 @@ window.MT_LMS['the-map'] = {
        {
         "kind": "script",
         "title": {
-         "en": "Reporting your own mistake (REACH · R)",
-         "id": "Melaporkan kesalahanmu sendiri (REACH · R)"
+         "en": "Reporting your own mistake",
+         "id": "Melaporkan kesalahanmu sendiri"
         },
         "desc": {
          "en": "Early, with the fix and the prevention step.",
@@ -14793,8 +14631,8 @@ window.MT_LMS['the-map'] = {
           "id": "Tulisan Gottman Institute tentang ajakan untuk terhubung"
          },
          {
-          "en": "Google re:Work, Project Aristotle guide (named in the slides)",
-          "id": "Google re:Work, panduan Project Aristotle (disebut di slide)"
+          "en": "Google re:Work, Project Aristotle guide",
+          "id": "Google re:Work, panduan Project Aristotle"
          }
         ]
        }
@@ -14819,8 +14657,8 @@ window.MT_LMS['the-map'] = {
         "id": "(Pesan pribadi) \"Jar, gimana kabarnya? Kamu agak sepi dua hari ini, semua oke? Slide bagianmu masih kami tunggu; kalau lagi berat, bilang aja, aku bisa bantu bagian grafiknya malam ini. Kita kumpul jam 10 besok pagi.\""
        },
        "why": {
-        "en": "The strong message uses all four elements. Attention: it noticed the silence. Vulnerability: it is direct about the need. Empathy: “semua oke?” leaves room for a reason you can't see. Compassion: a concrete offer and a clear time. It is private first, so Fajar keeps face. The weak message shames him publicly and invites defensiveness, which is the opposite of REACH.",
-        "id": "Pesan yang kuat memakai keempat unsur. Perhatian: pesan itu menyadari diamnya Fajar. Keterbukaan: pesan itu lugas soal kebutuhannya. Empati: \"semua oke?\" memberi ruang bagi alasan yang tidak bisa kamu lihat. Welas asih: tawaran yang konkret dan waktu yang jelas. Pesan itu dikirim secara pribadi dulu, jadi Fajar tetap terjaga mukanya. Pesan yang lemah mempermalukannya di depan umum dan memancing sikap defensif, kebalikan dari REACH."
+        "en": "The strong message uses all four elements. Attention: it noticed the silence. Vulnerability: it is direct about the need. Empathy: “semua oke?” leaves room for a reason you can't see. Compassion: a concrete offer and a clear time. It is private first, so Fajar keeps face. The weak message shames him publicly and invites defensiveness, which is the opposite of what makes a team safe.",
+        "id": "Pesan yang kuat memakai keempat unsur. Perhatian: pesan itu menyadari diamnya Fajar. Keterbukaan: pesan itu lugas soal kebutuhannya. Empati: \"semua oke?\" memberi ruang bagi alasan yang tidak bisa kamu lihat. Welas asih: tawaran yang konkret dan waktu yang jelas. Pesan itu dikirim secara pribadi dulu, jadi Fajar tetap terjaga mukanya. Pesan yang lemah mempermalukannya di depan umum dan memancing sikap defensif, kebalikan dari hal yang membuat tim merasa aman."
        }
       }
      ],
@@ -14871,10 +14709,593 @@ window.MT_LMS['the-map'] = {
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows these slides: Salma, a sigh at the next desk, and the four moves that turn a small moment into trust. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide ini: Salma, helaan napas di meja sebelah, dan empat langkah yang mengubah momen kecil menjadi kepercayaan. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Salma, a sigh at the next desk, and the four moves that turn a small moment into trust. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Salma, helaan napas di meja sebelah, dan empat langkah yang mengubah momen kecil menjadi kepercayaan. Tonton, lalu lanjutkan ke bacaan di bawah."
      },
-     "videosPlacement": "after-material:1"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "What Strong Relationships Are Made Of",
+       "id": "Bahan Dasar Relasi yang Kuat"
+      },
+      "intro": {
+       "en": "Seven ideas in a few minutes. Then a short film, and the reading and exercises below turn them into one practice with one person.",
+       "id": "Tujuh gagasan dalam beberapa menit. Setelah itu satu film singkat, lalu bacaan dan latihan di bawah mengubahnya menjadi satu praktik dengan satu orang."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Relationships are infrastructure",
+         "id": "Relasi adalah infrastruktur"
+        },
+        "points": [
+         {
+          "en": "Lesson 5.1 treated health as the machinery under performance. Relationships are the other half of that machinery.",
+          "id": "Pelajaran 5.1 memperlakukan kesehatan sebagai mesin di bawah kinerja. Relasi adalah separuh lainnya dari mesin itu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four elements",
+         "id": "Empat unsur"
+        },
+        "points": [
+         {
+          "en": "Everyone agrees with the four words. Almost no one practises them in an ordinary week.",
+          "id": "Semua orang setuju dengan empat kata itu. Hampir tak ada yang mempraktikkannya di minggu biasa."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "One conversation",
+         "id": "Satu percakapan"
+        },
+        "points": [
+         {
+          "en": "A colleague puts down the phone and sighs. Here is the whole practice in two minutes.",
+          "id": "Seorang rekan meletakkan telepon dan menghela napas. Inilah seluruh praktiknya dalam dua menit."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Bids for connection",
+         "id": "Ajakan untuk terhubung"
+        },
+        "points": [
+         {
+          "en": "The psychologist John Gottman calls these small requests bids for connection: a sigh, a meme, “look at this chart”.",
+          "id": "Psikolog John Gottman menyebut permintaan kecil ini ajakan untuk terhubung: helaan napas, sebuah meme, “lihat deh grafik ini”."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Hierarchy and culture",
+         "id": "Hierarki dan budaya"
+        },
+        "points": [
+         {
+          "en": "Seniority, titles and sungkan shape every conversation. They do not cancel the practice.",
+          "id": "Senioritas, sapaan, dan rasa sungkan memengaruhi setiap percakapan. Semua itu tidak membatalkan praktiknya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Safety from the junior seat",
+         "id": "Rasa aman dari kursi junior"
+        },
+        "points": [
+         {
+          "en": "A team learns fastest when people can speak up and admit mistakes. Everyone's behaviour builds that, not only the leader's.",
+          "id": "Tim belajar paling cepat ketika orang berani bersuara dan mengakui kesalahan. Itu dibangun oleh perilaku semua orang, bukan hanya pemimpinnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A boundary in three parts",
+         "id": "Batasan dalam tiga bagian"
+        },
+        "points": [
+         {
+          "en": "A yes you cannot keep hurts a relationship more than an honest limit.",
+          "id": "Kesanggupan yang tak bisa kamu tepati lebih merusak relasi daripada batas yang jujur."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/alumni.jpg",
+       "module": {
+        "en": "Module 5 · Relationships, Well-Being, and Digital Capability",
+        "id": "Modul 5 · Relasi, Kesejahteraan, dan Kecakapan Digital"
+       },
+       "lesson": {
+        "n": "5.3",
+        "title": {
+         "en": "A Framework for Strong Relationships",
+         "id": "Kerangka untuk Relasi yang Kuat"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "The people around you decide how fast you learn, how well you recover and how much you can take",
+         "id": "Orang-orang di sekitarmu menentukan seberapa cepat kamu belajar, seberapa baik kamu pulih, dan seberapa kuat kamu bertahan"
+        },
+        {
+         "en": "A strong relationship is a practice with four parts, and anyone can run it on purpose",
+         "id": "Relasi yang kuat adalah praktik dengan empat bagian, dan siapa pun bisa menjalankannya dengan sengaja"
+        },
+        {
+         "en": "The four elements are four moments in one exchange",
+         "id": "Keempat unsur itu adalah empat momen dalam satu percakapan"
+        },
+        {
+         "en": "Trust is built in seconds, by how you answer small bids for attention",
+         "id": "Kepercayaan dibangun dalam hitungan detik, lewat caramu menanggapi ajakan kecil untuk diperhatikan"
+        },
+        {
+         "en": "With a senior, the four elements still apply; the dose and the channel change",
+         "id": "Dengan senior, keempat unsur tetap berlaku; takaran dan salurannya yang berubah"
+        },
+        {
+         "en": "You do not need a title to make a team safer: five small acts",
+         "id": "Kamu tidak perlu jabatan untuk membuat tim lebih aman: lima tindakan kecil"
+        },
+        {
+         "en": "A boundary stated early and kindly protects the relationship",
+         "id": "Batasan yang disampaikan lebih awal dengan baik melindungi relasi"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Relationships are infrastructure",
+          "id": "Relasi adalah infrastruktur"
+         },
+         "p": {
+          "en": "Lesson 5.1 treated health as the machinery under performance. Relationships are the other half of that machinery.",
+          "id": "Pelajaran 5.1 memperlakukan kesehatan sebagai mesin di bawah kinerja. Relasi adalah separuh lainnya dari mesin itu."
+         }
+        },
+        {
+         "h": {
+          "en": "Four elements",
+          "id": "Empat unsur"
+         },
+         "p": {
+          "en": "Everyone agrees with the four words. Almost no one practises them in an ordinary week.",
+          "id": "Semua orang setuju dengan empat kata itu. Hampir tak ada yang mempraktikkannya di minggu biasa."
+         }
+        },
+        {
+         "h": {
+          "en": "One conversation",
+          "id": "Satu percakapan"
+         },
+         "p": {
+          "en": "The order matters: each element makes the next one possible.",
+          "id": "Urutannya penting: setiap unsur memungkinkan unsur berikutnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Bids for connection",
+          "id": "Ajakan untuk terhubung"
+         },
+         "p": {
+          "en": "Teams that turn toward most bids build trust. Repeated turning away erodes it quietly.",
+          "id": "Tim yang sering menghadap ajakan membangun kepercayaan. Terus-menerus berpaling menggerogotinya diam-diam."
+         }
+        },
+        {
+         "h": {
+          "en": "Hierarchy and culture",
+          "id": "Hierarki dan budaya"
+         },
+         "p": {
+          "en": "Seniority, titles and sungkan shape every conversation. They do not cancel the practice.",
+          "id": "Senioritas, sapaan, dan rasa sungkan memengaruhi setiap percakapan. Semua itu tidak membatalkan praktiknya."
+         }
+        },
+        {
+         "h": {
+          "en": "Safety from the junior seat",
+          "id": "Rasa aman dari kursi junior"
+         },
+         "p": {
+          "en": "A team learns fastest when people can speak up and admit mistakes. Everyone's behaviour builds that, not only the leader's.",
+          "id": "Tim belajar paling cepat ketika orang berani bersuara dan mengakui kesalahan. Itu dibangun oleh perilaku semua orang, bukan hanya pemimpinnya."
+         }
+        },
+        {
+         "h": {
+          "en": "A boundary in three parts",
+          "id": "Batasan dalam tiga bagian"
+         },
+         "p": {
+          "en": "Resentment voiced late damages a relationship. A limit voiced early protects it.",
+          "id": "Kekesalan yang baru diungkapkan belakangan merusak relasi. Batas yang disampaikan lebih awal melindunginya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The people around you decide how fast you learn, how well you recover and how much you can take",
+          "id": "Orang-orang di sekitarmu menentukan seberapa cepat kamu belajar, seberapa baik kamu pulih, dan seberapa kuat kamu bertahan"
+         },
+         "em": {
+          "en": "The people around you",
+          "id": "Orang-orang di sekitarmu"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "cap",
+           "en": "Learning",
+           "id": "Belajar",
+           "d": {
+            "en": "Who will tell you the truth about your work?",
+            "id": "Siapa yang akan berkata jujur tentang pekerjaanmu?"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "pause",
+           "en": "Recovery",
+           "id": "Pemulihan",
+           "d": {
+            "en": "Who can you switch off with?",
+            "id": "Bersama siapa kamu bisa benar-benar beristirahat?"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "shield",
+           "en": "Resilience",
+           "id": "Ketangguhan",
+           "d": {
+            "en": "Who will catch you when a setback lands?",
+            "id": "Siapa yang menopangmu saat kemunduran datang?"
+           },
+           "img": "../../assets/bg/rope-team.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A strong relationship is a practice with four parts, and anyone can run it on purpose",
+          "id": "Relasi yang kuat adalah praktik dengan empat bagian, dan siapa pun bisa menjalankannya dengan sengaja"
+         },
+         "em": {
+          "en": "a practice with four parts",
+          "id": "praktik dengan empat bagian"
+         },
+         "layout": "pillars",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Attention",
+           "id": "Perhatian",
+           "d": {
+            "en": "Turn toward them; listen without a reply forming",
+            "id": "Menghadap orangnya; dengarkan tanpa menyusun balasan"
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          },
+          {
+           "icon": "key",
+           "en": "Vulnerability",
+           "id": "Keterbukaan",
+           "d": {
+            "en": "Say the true thing, including the uncertain one",
+            "id": "Katakan hal yang sebenarnya, termasuk yang belum pasti"
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Empathy",
+           "id": "Empati",
+           "d": {
+            "en": "Name what they feel before you answer",
+            "id": "Sebutkan perasaannya sebelum kamu menjawab"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "handshake",
+           "en": "Compassion",
+           "id": "Welas asih",
+           "d": {
+            "en": "Close with an action, not a sentiment",
+            "id": "Tutup dengan tindakan, bukan sekadar perasaan"
+           },
+           "img": "../../assets/bg/rope-team.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The four elements are four moments in one exchange",
+          "id": "Keempat unsur itu adalah empat momen dalam satu percakapan"
+         },
+         "em": {
+          "en": "four moments in one exchange",
+          "id": "empat momen dalam satu percakapan"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Attention",
+           "id": "Perhatian",
+           "d": {
+            "en": "Phone face down, chair turned, let them finish",
+            "id": "Ponsel ditelungkupkan, kursi diputar, biarkan ia selesai"
+           }
+          },
+          {
+           "icon": "key",
+           "en": "Vulnerability",
+           "id": "Keterbukaan",
+           "d": {
+            "en": "“I froze on my first call too.”",
+            "id": "“Saya juga membeku di telepon pertama saya.”"
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "Empathy",
+           "id": "Empati",
+           "d": {
+            "en": "“Sounds like it hit harder than you expected.”",
+            "id": "“Sepertinya itu lebih berat dari yang Mas kira.”"
+           }
+          },
+          {
+           "icon": "handshake",
+           "en": "Compassion",
+           "id": "Welas asih",
+           "d": {
+            "en": "“Shall we rehearse the next one at four?”",
+            "id": "“Mau latihan untuk telepon berikutnya jam empat?”"
+           }
+          }
+         ],
+         "band": {
+          "en": "The order matters: each element makes the next one possible.",
+          "id": "Urutannya penting: setiap unsur memungkinkan unsur berikutnya."
+         },
+         "img": "../../assets/bg/stage-execution.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Trust is built in seconds, by how you answer small bids for attention",
+          "id": "Kepercayaan dibangun dalam hitungan detik, lewat caramu menanggapi ajakan kecil untuk diperhatikan"
+         },
+         "em": {
+          "en": "in seconds",
+          "id": "dalam hitungan detik"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "check",
+           "en": "Turn toward",
+           "id": "Menghadap",
+           "d": {
+            "en": "You engage: “What happened?”",
+            "id": "Kamu menanggapi: “Ada apa?”"
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          },
+          {
+           "icon": "pause",
+           "en": "Turn away",
+           "id": "Berpaling",
+           "d": {
+            "en": "You do not notice, or you keep typing",
+            "id": "Kamu tidak menyadarinya, atau terus mengetik"
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          },
+          {
+           "icon": "x",
+           "en": "Turn against",
+           "id": "Melawan",
+           "d": {
+            "en": "You brush it off: “Not now.”",
+            "id": "Kamu menepisnya: “Jangan sekarang.”"
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          }
+         ],
+         "band": {
+          "en": "Teams that turn toward most bids build trust. Repeated turning away erodes it quietly.",
+          "id": "Tim yang sering menghadap ajakan membangun kepercayaan. Terus-menerus berpaling menggerogotinya diam-diam."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "With a senior, the four elements still apply; the dose and the channel change",
+          "id": "Dengan senior, keempat unsur tetap berlaku; takaran dan salurannya yang berubah"
+         },
+         "em": {
+          "en": "the dose and the channel change",
+          "id": "takaran dan salurannya yang berubah"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Notes in hand, restate the instruction: “Izin konfirmasi, Bu…”",
+           "id": "Bawa catatan, ulangi instruksinya: “Izin konfirmasi, Bu…”",
+           "l": {
+            "en": "Attention",
+            "id": "Perhatian"
+           }
+          },
+          {
+           "icon": "key",
+           "en": "Name uncertainty with a plan: “I am not sure about X; my plan is Y. Is that right?”",
+           "id": "Sebutkan ketidakpastianmu beserta rencananya: “Saya belum yakin soal X; rencana saya Y. Apakah sudah tepat?”",
+           "l": {
+            "en": "Vulnerability",
+            "id": "Keterbukaan"
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "Understand their pressure: targets, and a boss of their own.",
+           "id": "Pahami tekanan mereka: target, dan atasan mereka sendiri.",
+           "l": {
+            "en": "Empathy",
+            "id": "Empati"
+           }
+          },
+          {
+           "icon": "handshake",
+           "en": "Offer one concrete thing, privately first.",
+           "id": "Tawarkan satu bantuan yang konkret, secara pribadi dulu.",
+           "l": {
+            "en": "Compassion",
+            "id": "Welas asih"
+           }
+          }
+         ],
+         "img": "../../assets/bg/negotiation.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "You do not need a title to make a team safer: five small acts",
+          "id": "Kamu tidak perlu jabatan untuk membuat tim lebih aman: lima tindakan kecil"
+         },
+         "em": {
+          "en": "five small acts",
+          "id": "lima tindakan kecil"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "Own a mistake early",
+           "id": "Akui kesalahan lebih awal",
+           "d": {
+            "en": "With the fix: “I got the file wrong. Here is the correction.”",
+            "id": "Beserta perbaikannya: “Saya keliru di berkas itu. Ini koreksinya.”"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "question",
+           "en": "Ask when you do not follow",
+           "id": "Bertanya saat belum paham",
+           "d": {
+            "en": "“I don't follow yet. Could you show me?”",
+            "id": "“Saya belum paham. Boleh ditunjukkan?”"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "Invite the quiet voice",
+           "id": "Ajak yang pendiam bersuara",
+           "d": {
+            "en": "Ask them directly and kindly",
+            "id": "Tanyakan langsung dengan ramah"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "Thank specifically",
+           "id": "Berterima kasih secara spesifik",
+           "d": {
+            "en": "“Your template saved me two hours.”",
+            "id": "“Template dari Mbak menghemat dua jam saya.”"
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          },
+          {
+           "icon": "handshake",
+           "en": "Offer one concrete thing",
+           "id": "Tawarkan satu bantuan konkret",
+           "d": {
+            "en": "To a peer who looks overloaded",
+            "id": "Kepada rekan yang terlihat kewalahan"
+           },
+           "img": "../../assets/bg/rope-team.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A boundary stated early and kindly protects the relationship",
+          "id": "Batasan yang disampaikan lebih awal dengan baik melindungi relasi"
+         },
+         "em": {
+          "en": "early and kindly",
+          "id": "lebih awal dengan baik"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "heart",
+           "en": "Commitment",
+           "id": "Komitmen",
+           "d": {
+            "en": "“I want to do this well.”",
+            "id": "“Saya ingin mengerjakannya dengan baik.”"
+           }
+          },
+          {
+           "icon": "lock",
+           "en": "Limit",
+           "id": "Batas",
+           "d": {
+            "en": "“I can finish the report by Thursday, but not the slides too.”",
+            "id": "“Laporannya bisa selesai Kamis, tapi tidak sekaligus dengan slidenya.”"
+           }
+          },
+          {
+           "icon": "route",
+           "en": "Option",
+           "id": "Pilihan",
+           "d": {
+            "en": "“Could the slides wait until Monday?”",
+            "id": "“Bolehkah slidenya menunggu sampai Senin?”"
+           }
+          }
+         ],
+         "band": {
+          "en": "Resentment voiced late damages a relationship. A limit voiced early protects it.",
+          "id": "Kekesalan yang baru diungkapkan belakangan merusak relasi. Batas yang disampaikan lebih awal melindunginya."
+         },
+         "img": "../../assets/bg/negotiation.jpg"
+        }
+       ]
+      }
+     }
     },
     {
      "n": "5.4",
@@ -14916,6 +15337,1099 @@ window.MT_LMS['the-map'] = {
       {
        "en": "Run a group discussion (rapat, study group or WhatsApp decision) that hears every voice and records the decision and any dissent.",
        "id": "Memimpin diskusi kelompok (rapat, kelompok belajar, atau keputusan lewat WhatsApp) yang mendengar semua suara dan mencatat keputusan serta perbedaan pendapat yang ada."
+      }
+     ],
+     "sections": [
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Listening is work: catch the meaning",
+        "id": "Mendengarkan adalah kerja: tangkap maknanya"
+       },
+       "body": {
+        "en": "Adler separates <i>hearing</i> from <i>listening</i> the way we separate seeing words from reading them. Listening means the mind is working to rebuild what the speaker means. His analogy: the catcher is as much a player as the pitcher. Different skill, same effort. <b>Four questions a good listener holds:</b> (1) What is this about overall, and what are they really trying to say? (2) What are the main points and key words, and what do <i>they</i> mean by those words? (3) Is it well supported, and what's missing? (4) <i>So what?</i> Why does this matter, and to me? You can answer the first two during the talk. The last two often come afterwards.",
+        "id": "Adler membedakan <i>mendengar</i> dari <i>mendengarkan</i> seperti kita membedakan melihat kata-kata dari membacanya. Mendengarkan berarti pikiran bekerja untuk menyusun ulang maksud pembicara. Analoginya: penangkap bola sama-sama pemain seperti pelemparnya. Keterampilannya berbeda, usahanya sama. <b>Empat pertanyaan yang dipegang pendengar yang baik:</b> (1) Secara keseluruhan ini tentang apa, dan apa yang sebenarnya ingin ia sampaikan? (2) Apa poin utama dan kata kuncinya, dan apa yang <i>ia</i> maksud dengan kata-kata itu? (3) Apakah didukung dengan baik, dan apa yang kurang? (4) <i>Lalu kenapa?</i> Kenapa ini penting, dan apa artinya bagiku? Dua pertanyaan pertama bisa kamu jawab selama percakapan. Dua yang terakhir sering kali baru terjawab sesudahnya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Habits that kill listening:</b> judging the speaker's style instead of the substance; faking attention; letting distractions win; reacting to trigger words; deciding it's boring before they've explained why it matters; daydreaming. Most of us listen brilliantly when the stakes are obvious, as when a pilot announces an emergency. The skill is to bring that attention to ordinary conversations.",
+         "id": "<b>Kebiasaan yang membunuh kemampuan mendengarkan:</b> menilai gaya bicara alih-alih isinya; pura-pura memperhatikan; membiarkan gangguan menang; bereaksi pada kata-kata pemicu; memutuskan topiknya membosankan sebelum ia menjelaskan kenapa itu penting; melamun. Kebanyakan dari kita bisa mendengarkan dengan luar biasa saat taruhannya jelas, misalnya ketika pilot mengumumkan keadaan darurat. Keterampilannya adalah membawa perhatian sebesar itu ke percakapan sehari-hari."
+        },
+        {
+         "en": "<b>Record first, react later.</b> In a lecture, a 1:1 with a supervisor or a mentor call, note the purpose, key terms, assumptions and how they get from reasons to conclusion. Keep your reactions for a second pass afterwards: what I didn't understand, what I agree with, what I disagree with and why, and so what. Taking notes and reviewing them aids learning.",
+         "id": "<b>Catat dulu, bereaksi belakangan.</b> Di kuliah, obrolan empat mata dengan atasan, atau panggilan dengan mentor, catat tujuannya, istilah kuncinya, asumsinya, dan bagaimana ia bergerak dari alasan ke kesimpulan. Simpan reaksimu untuk putaran kedua sesudahnya: apa yang belum kupahami, apa yang kusetujui, apa yang tidak kusetujui dan kenapa, serta lalu kenapa. Mencatat dan meninjau ulang catatan membantu proses belajar."
+        },
+        {
+         "en": "<b>How it connects to 5.3.</b> Attention is being present. This section is what you do with that presence: build an accurate picture of what they mean. Lesson 5.3's listening levels describe the stance; these questions are the method.",
+         "id": "<b>Kaitannya dengan 5.3.</b> Perhatian berarti hadir. Bagian ini membahas apa yang kamu lakukan dengan kehadiran itu: menyusun gambaran yang akurat tentang maksudnya. Tingkatan mendengarkan di Pelajaran 5.3 menjelaskan sikapnya; pertanyaan-pertanyaan ini adalah metodenya."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Know what kind of conversation you're having",
+        "id": "Kenali jenis percakapan yang sedang kamu jalani"
+       },
+       "body": {
+        "en": "Adler sorts conversations by purpose, and one of his rules is to decide in advance which kind you're having. Most painful conversations are <b>type mismatches</b>. One person wants to be heard (personal) and the other offers a fix (decision). Or a meeting meant to decide becomes an endless debate (understanding). Rina tells her mentor she feels she doesn't belong at her internship, and he replies with a pros-and-cons table: that is a mismatch.",
+        "id": "Adler memilah percakapan berdasarkan tujuannya, dan salah satu aturannya adalah menentukan sejak awal jenis percakapan apa yang akan kamu jalani. Sebagian besar percakapan yang menyakitkan adalah <b>salah jenis</b>. Satu orang ingin didengar (pribadi), sementara yang lain menawarkan solusi (keputusan). Atau rapat yang seharusnya memutuskan malah berubah menjadi debat tanpa ujung (pemahaman). Rina bercerita kepada mentornya bahwa ia merasa tidak cocok di tempat magangnya, dan mentornya membalas dengan tabel untung-rugi: itulah salah jenis."
+       },
+       "bullets": [
+        {
+         "en": "<b>How to practise: the Purpose Picker.</b> Before any important talk, write one sentence: “This is a ___ conversation with ___; success = ___.” If it mixes types (family career talks often mix personal and decision), say so and sequence them: “Hari ini aku cuma ingin kita saling paham dulu; keputusannya kita bahas minggu depan.”",
+         "id": "<b>Cara melatihnya: Pemilih Tujuan.</b> Sebelum obrolan penting apa pun, tulis satu kalimat: \"Ini percakapan ___ dengan ___; berhasil = ___.\" Kalau jenisnya campuran (obrolan karier dengan keluarga sering mencampur yang pribadi dan keputusan), katakan dan urutkan: \"Hari ini aku cuma ingin kita saling paham dulu; keputusannya kita bahas minggu depan.\""
+        },
+        {
+         "en": "<b>Check the time and place.</b> Adler's first rule is not to attempt a serious conversation with someone who is preoccupied. A senior on deadline at 17:55 is not your audience.",
+         "id": "<b>Cek waktu dan tempatnya.</b> Aturan pertama Adler adalah jangan mencoba percakapan serius dengan orang yang sedang sibuk pikirannya. Senior yang dikejar tenggat jam 17:55 bukan audiensmu."
+        }
+       ],
+       "table": {
+        "cols": [
+         {
+          "en": "Type",
+          "id": "Jenis"
+         },
+         {
+          "en": "Aim",
+          "id": "Tujuan"
+         },
+         {
+          "en": "Success looks like",
+          "id": "Wujud keberhasilannya"
+         },
+         {
+          "en": "Example",
+          "id": "Contoh"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Social",
+           "id": "Sosial"
+          },
+          {
+           "en": "Enjoyment and connection",
+           "id": "Kesenangan dan keakraban"
+          },
+          {
+           "en": "People leave lighter",
+           "id": "Semua pulang dengan perasaan lebih ringan"
+          },
+          {
+           "en": "Ngopi after class",
+           "id": "Ngopi sepulang kuliah"
+          }
+         ],
+         [
+          {
+           "en": "Personal",
+           "id": "Pribadi"
+          },
+          {
+           "en": "Clear up feelings, ease tension",
+           "id": "Menjernihkan perasaan, meredakan ketegangan"
+          },
+          {
+           "en": "Both feel understood",
+           "id": "Keduanya merasa dipahami"
+          },
+          {
+           "en": "“Are we okay after yesterday?”",
+           "id": "\"Kita baik-baik saja kan setelah kemarin?\""
+          }
+         ],
+         [
+          {
+           "en": "Understanding",
+           "id": "Pemahaman"
+          },
+          {
+           "en": "Shared understanding of an idea",
+           "id": "Pemahaman bersama tentang sebuah gagasan"
+          },
+          {
+           "en": "You can each state the other's view; it can stay open",
+           "id": "Kalian masing-masing bisa menyebutkan pandangan pihak lain; persoalannya boleh tetap terbuka"
+          },
+          {
+           "en": "Study group on a theory",
+           "id": "Kelompok belajar membahas sebuah teori"
+          }
+         ],
+         [
+          {
+           "en": "Decision",
+           "id": "Keputusan"
+          },
+          {
+           "en": "A decision or action",
+           "id": "Keputusan atau tindakan"
+          },
+          {
+           "en": "Decision, owner, deadline, by a time limit",
+           "id": "Keputusan, penanggung jawab, tenggat, dalam batas waktu"
+          },
+          {
+           "en": "Rapat on the event budget",
+           "id": "Rapat soal anggaran acara"
+          }
+         ]
+        ],
+        "rowHead": true
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Understand before you judge",
+        "id": "Pahami dulu sebelum menilai"
+       },
+       "body": {
+        "en": "This is the heart of Adler's book. Don't agree or disagree until you are sure you understand the other person's position. Check by restating it in your own words, <i>with their reasons</i>, until they confirm. He puts it bluntly: disagreeing before you understand is impertinent; agreeing is inane. <b>The restate loop:</b> (1) They state their view. (2) You say: “Let me check I've got you: you're saying ___, because ___. Is that right?” In Indonesian: “Saya cek dulu ya, maksud Kakak/Bapak/Ibu ___, karena ___, betul?” (3) They confirm or correct. Repeat until they say yes. (4) Only then respond.",
+        "id": "Inilah inti buku Adler. Jangan setuju atau tidak setuju sampai kamu yakin memahami posisi orang lain. Periksa dengan mengulang posisinya dengan kata-katamu sendiri, <i>beserta alasannya</i>, sampai ia membenarkan. Ia menyatakannya dengan lugas: tidak setuju sebelum paham itu lancang; setuju sebelum paham itu konyol. <b>Putaran mengulang:</b> (1) Ia menyampaikan pandangannya. (2) Kamu berkata, \"Saya cek dulu ya, maksud Kakak/Bapak/Ibu ___, karena ___, betul?\" (3) Ia membenarkan atau mengoreksi. Ulangi sampai ia berkata ya. (4) Baru setelah itu tanggapi."
+       },
+       "bullets": [
+        {
+         "en": "<b>Apparent vs real disagreement.</b> Many disagreements are misunderstandings in disguise: you are answering different questions, or using the same word differently. A disagreement is real only when you both understand the question the same way and still answer differently.",
+         "id": "<b>Ketidaksetujuan semu vs nyata.</b> Banyak ketidaksetujuan sebenarnya salah paham yang menyamar: kalian menjawab pertanyaan yang berbeda, atau memakai kata yang sama dengan arti berbeda. Ketidaksetujuan baru nyata ketika kalian berdua memahami pertanyaannya dengan cara yang sama dan tetap menjawab berbeda."
+        },
+        {
+         "en": "<b>Understood disagreement is a success.</b> Even when you still disagree, aim for each person being able to state the other's view and reasons in a way the other accepts. Adler calls this a minimal meeting of minds. For practical matters you still need a decision, but the relationship survives it.",
+         "id": "<b>Ketidaksetujuan yang saling dipahami adalah keberhasilan.</b> Meski kalian tetap tidak setuju, usahakan agar masing-masing bisa menyebutkan pandangan dan alasan pihak lain dengan cara yang diterima pihak itu. Adler menyebutnya titik temu pikiran yang paling minimal. Untuk urusan praktis kalian tetap butuh keputusan, tetapi relasinya selamat."
+        }
+       ],
+       "after": [
+        {
+         "en": "<i>Evidence note: research on conversational receptiveness shows that acknowledging the other view before stating yours makes people evaluate you better and reduces escalation. Follow-up questions increase liking. Paraphrasing increases the speaker's sense of being understood. If it sounds mechanical it backfires, so restate in your own words, not theirs.</i>",
+         "id": "<i>Catatan bukti: penelitian tentang keterbukaan dalam percakapan menunjukkan bahwa mengakui pandangan lain sebelum menyampaikan pandanganmu membuat orang menilaimu lebih baik dan mengurangi ketegangan. Pertanyaan lanjutan membuat orang lebih menyukaimu. Parafrase membuat pembicara merasa lebih dipahami. Kalau terdengar seperti mesin, hasilnya justru berbalik, jadi ulangi dengan kata-katamu sendiri, bukan kata-katanya.</i>"
+        }
+       ]
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "The Disagreement Ladder",
+        "id": "Tangga Ketidaksetujuan"
+       },
+       "body": {
+        "en": "An original Metanoia tool built on Adler. Climb in order and don't skip rungs. Exhibit 1 below shows the ladder; this table gives you what to ask yourself and what to say at each rung.",
+        "id": "Alat orisinal Metanoia yang dibangun dari Adler. Naiki secara berurutan dan jangan melompati anak tangga. Gambar 1 di bawah menunjukkan tangganya; tabel ini memberimu apa yang perlu kamu tanyakan pada diri sendiri dan apa yang perlu kamu katakan di setiap anak tangga."
+       },
+       "bullets": [
+        {
+         "en": "<b>Why levels matter in Indonesia.</b> Agreeing first on the principle (the shared goal) keeps face for everyone. You can then differ on policy or the particular case without sounding like you're challenging the person. “Kita sama-sama ingin acaranya inklusif untuk maba; bedanya cuma soal tiket gratis atau tidak.”",
+         "id": "<b>Kenapa tingkatan penting di Indonesia.</b> Menyepakati prinsipnya dulu (tujuan bersama) menjaga muka semua orang. Setelah itu kalian bisa berbeda soal kebijakan atau kasus tertentu tanpa terdengar seperti menantang orangnya. \"Kita sama-sama ingin acaranya inklusif untuk maba; bedanya cuma soal tiket gratis atau tidak.\""
+        },
+        {
+         "en": "<b>Intellectual honesty.</b> Adler names two ways emotion corrupts argument: hiding points you can see weaken your case, and refusing to admit you're wrong when you know you are. Practise conceding one point sincerely before giving your view: “Kamu benar soal ___.”",
+         "id": "<b>Kejujuran intelektual.</b> Adler menyebut dua cara emosi merusak argumen: menyembunyikan poin yang kamu tahu melemahkan argumenmu, dan menolak mengakui kesalahan padahal kamu tahu kamu salah. Latih dirimu untuk mengakui satu poin dengan tulus sebelum menyampaikan pandanganmu: \"Kamu benar soal ___.\""
+        },
+        {
+         "en": "<b>Fallacies to avoid:</b> attacking the person (“of course you'd say that, you're rich”); treating an authority's quote as the end of the argument; proof by anecdote; voting on facts.",
+         "id": "<b>Kesesatan berpikir yang perlu dihindari:</b> menyerang orangnya (\"ya jelas kamu ngomong gitu, kamu kan kaya\"); menganggap kutipan seorang tokoh sebagai akhir perdebatan; pembuktian dengan satu cerita; memutuskan fakta lewat voting."
+        }
+       ],
+       "table": {
+        "cols": [
+         {
+          "en": "Rung",
+          "id": "Anak tangga"
+         },
+         {
+          "en": "Ask yourself",
+          "id": "Tanyakan pada dirimu"
+         },
+         {
+          "en": "Say",
+          "id": "Katakan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "0 · Is it arguable?",
+           "id": "0 · Bisa diperdebatkan?"
+          },
+          {
+           "en": "Taste, unsupported opinion, or a claim with reasons?",
+           "id": "Soal selera, pendapat tanpa dasar, atau klaim yang punya alasan?"
+          },
+          {
+           "en": "“Ini soal selera, atau soal mana yang lebih berhasil?”",
+           "id": "\"Ini soal selera, atau soal mana yang lebih berhasil?\""
+          }
+         ],
+         [
+          {
+           "en": "1 · Facts?",
+           "id": "1 · Fakta?"
+          },
+          {
+           "en": "Is the gap about facts? Look them up; don't debate them",
+           "id": "Apakah perbedaannya soal fakta? Cek faktanya; jangan diperdebatkan"
+          },
+          {
+           "en": "“Let's check the data first.”",
+           "id": "\"Ayo kita cek datanya dulu.\""
+          }
+         ],
+         [
+          {
+           "en": "2 · Understand",
+           "id": "2 · Pahami"
+          },
+          {
+           "en": "Can I restate their view and reasons to their satisfaction?",
+           "id": "Bisakah aku mengulang pandangan dan alasannya sampai ia puas?"
+          },
+          {
+           "en": "“Do I understand you to say…?”",
+           "id": "\"Apakah maksudmu…?\""
+          }
+         ],
+         [
+          {
+           "en": "3 · Real or apparent?",
+           "id": "3 · Nyata atau semu?"
+          },
+          {
+           "en": "Are we answering the same question?",
+           "id": "Apakah kami menjawab pertanyaan yang sama?"
+          },
+          {
+           "en": "“Are we both talking about X?”",
+           "id": "\"Kita berdua sedang membahas X, kan?\""
+          }
+         ],
+         [
+          {
+           "en": "4 · Which level?",
+           "id": "4 · Tingkat mana?"
+          },
+          {
+           "en": "Principle (goal), policy (general approach) or particular case?",
+           "id": "Prinsip (tujuan), kebijakan (pendekatan umum), atau kasus tertentu?"
+          },
+          {
+           "en": "“We agree on the goal; we differ on how.”",
+           "id": "\"Kita sepakat soal tujuannya; kita beda soal caranya.\""
+          }
+         ],
+         [
+          {
+           "en": "5 · Which ground?",
+           "id": "5 · Dasar apa?"
+          },
+          {
+           "en": "Missing info, wrong info, a logic gap, or stopped too soon?",
+           "id": "Informasi yang kurang, informasi yang keliru, celah logika, atau berhenti terlalu cepat?"
+          },
+          {
+           "en": "Offer it as information: “Ada satu data yang mungkin relevan…”",
+           "id": "Tawarkan sebagai informasi: \"Ada satu data yang mungkin relevan…\""
+          }
+         ],
+         [
+          {
+           "en": "6 · Close",
+           "id": "6 · Tutup"
+          },
+          {
+           "en": "Agreement, understood disagreement + decision, or parked with a date?",
+           "id": "Sepakat, ketidaksetujuan yang saling dipahami + keputusan, atau ditunda dengan tanggal?"
+          },
+          {
+           "en": "“We differ on ___ because ___; for now we'll do ___ and review on ___.”",
+           "id": "\"Kita beda soal ___ karena ___; untuk sekarang kita jalankan ___ dan tinjau lagi tanggal ___.\""
+          }
+         ]
+        ],
+        "rowHead": true
+       }
+      },
+      {
+       "diagram": {
+        "type": "ladder",
+        "exhibit": {
+         "en": "Exhibit 1: The Disagreement Ladder",
+         "id": "Gambar 1: Tangga Ketidaksetujuan"
+        },
+        "title": {
+         "en": "Seven rungs, climbed in order",
+         "id": "Tujuh anak tangga, dinaiki berurutan"
+        },
+        "items": [
+         {
+          "h": {
+           "en": "0 · Arguable?",
+           "id": "0 · Bisa diperdebatkan?"
+          },
+          "sub": {
+           "en": "Taste, opinion or a claim with reasons",
+           "id": "Selera, pendapat, atau klaim beralasan"
+          }
+         },
+         {
+          "h": {
+           "en": "1 · Facts",
+           "id": "1 · Fakta"
+          },
+          "sub": {
+           "en": "Look them up",
+           "id": "Cek dulu"
+          }
+         },
+         {
+          "h": {
+           "en": "2 · Understand",
+           "id": "2 · Pahami"
+          },
+          "sub": {
+           "en": "Restate view and reasons",
+           "id": "Ulangi pandangan dan alasannya"
+          }
+         },
+         {
+          "h": {
+           "en": "3 · Real or apparent",
+           "id": "3 · Nyata atau semu"
+          },
+          "sub": {
+           "en": "Same question?",
+           "id": "Pertanyaannya sama?"
+          }
+         },
+         {
+          "h": {
+           "en": "4 · Level",
+           "id": "4 · Tingkat"
+          },
+          "sub": {
+           "en": "Principle, policy or case",
+           "id": "Prinsip, kebijakan, atau kasus"
+          }
+         },
+         {
+          "h": {
+           "en": "5 · Ground",
+           "id": "5 · Dasar"
+          },
+          "sub": {
+           "en": "Offer it as information",
+           "id": "Tawarkan sebagai informasi"
+          }
+         },
+         {
+          "h": {
+           "en": "6 · Close",
+           "id": "6 · Tutup"
+          },
+          "sub": {
+           "en": "Agree, understood disagreement, or parked",
+           "id": "Sepakat, saling paham beda, atau ditunda"
+          }
+         }
+        ],
+        "note": {
+         "en": "Don't skip rungs. Most arguments fail at rung 1 (facts) or rung 2 (understanding).",
+         "id": "Jangan melompati anak tangga. Sebagian besar perdebatan gagal di anak tangga 1 (fakta) atau anak tangga 2 (memahami)."
+        },
+        "longdesc": {
+         "en": "A seven-rung ladder for disagreeing well. Check whether the matter is arguable at all; look up facts rather than debate them; restate the other view with its reasons until confirmed; check whether the disagreement is real or a misunderstanding; name whether you differ on principle, policy or a particular case; name your ground (missing information, wrong information, a logic gap, or incomplete reasoning) and offer it as information; close with agreement, understood disagreement plus a decision, or a parked question with a review date.",
+         "id": "Tangga tujuh anak tangga untuk berbeda pendapat dengan baik. Periksa apakah persoalannya memang bisa diperdebatkan; cek faktanya alih-alih memperdebatkannya; ulangi pandangan pihak lain beserta alasannya sampai dibenarkan; periksa apakah ketidaksetujuannya nyata atau hanya salah paham; sebutkan apakah kalian berbeda soal prinsip, kebijakan, atau kasus tertentu; sebutkan dasarmu (informasi yang kurang, informasi yang keliru, celah logika, atau penalaran yang belum tuntas) dan tawarkan sebagai informasi; tutup dengan kesepakatan, ketidaksetujuan yang saling dipahami beserta keputusan, atau pertanyaan yang ditunda dengan tanggal peninjauan."
+        }
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Disagreeing upward, respectfully",
+        "id": "Tidak setuju dengan atasan, dengan hormat"
+       },
+       "body": {
+        "en": "Indonesia scores high on power distance in published cross-cultural research. Juniors often signal disagreement indirectly (“mungkin bisa dipertimbangkan lagi”) or not at all, and “iya” may mean “I heard you”, not “I agree”. Adler's rule, <i>civil but not too polite</i>, translates well as <b>jujur dengan santun</b>. <b>A five-step script for disagreeing with a senior:</b> (1) Shared goal: “Saya setuju tujuannya ___.” (2) Restate: “Kalau saya tangkap, Bapak/Ibu ingin ___ karena ___, betul?” (3) Offer your ground as information: “Ada satu data/pengalaman yang mungkin relevan…” (4) Propose, don't oppose: “Bagaimana kalau untuk kasus ini kita coba ___?” (5) Leave room: “Tentu keputusan di Bapak/Ibu; saya ingin masukan ini tercatat.”",
+        "id": "Dalam penelitian lintas budaya yang sudah dipublikasikan, Indonesia mendapat skor tinggi untuk jarak kuasa. Junior sering menyampaikan ketidaksetujuan secara tidak langsung (\"mungkin bisa dipertimbangkan lagi\") atau tidak sama sekali, dan \"iya\" bisa berarti \"aku dengar\", bukan \"aku setuju\". Aturan Adler, <i>sopan tetapi jangan terlalu sungkan</i>, cocok diterjemahkan menjadi <b>jujur dengan santun</b>. <b>Naskah lima langkah untuk tidak setuju dengan senior:</b> (1) Tujuan bersama: \"Saya setuju tujuannya ___.\" (2) Ulangi: \"Kalau saya tangkap, Bapak/Ibu ingin ___ karena ___, betul?\" (3) Tawarkan dasarmu sebagai informasi: \"Ada satu data/pengalaman yang mungkin relevan…\" (4) Usulkan, jangan menentang: \"Bagaimana kalau untuk kasus ini kita coba ___?\" (5) Beri ruang: \"Tentu keputusan di Bapak/Ibu; saya ingin masukan ini tercatat.\""
+       },
+       "bullets": [
+        {
+         "en": "<b>Channel.</b> Raise it in private first (japri or a short 1:1), not in the group. Ask understanding questions in public and challenge questions in private.",
+         "id": "<b>Salurannya.</b> Sampaikan secara pribadi dulu (japri atau obrolan singkat empat mata), bukan di grup. Ajukan pertanyaan untuk memahami di depan umum, dan pertanyaan yang menantang secara pribadi."
+        },
+        {
+         "en": "<b>Correcting a misquote.</b> If someone says “You said X” and you didn't, correct it calmly before answering: “Mohon maaf Pak, maksud saya kemarin…”",
+         "id": "<b>Meluruskan kutipan yang keliru.</b> Kalau seseorang berkata \"Kamu bilang X\" padahal tidak, luruskan dengan tenang sebelum menjawab: \"Mohon maaf Pak, maksud saya kemarin…\""
+        },
+        {
+         "en": "<b>When it's an ethics issue, not a difference of opinion.</b> If you're asked to do something illegal or unethical, it's no longer a disagreement to manage. Escalate through proper channels (Lesson 5.5 covers the three-tier rule).",
+         "id": "<b>Ketika itu soal etika, bukan beda pendapat.</b> Kalau kamu diminta melakukan sesuatu yang melanggar hukum atau tidak etis, itu bukan lagi ketidaksetujuan yang perlu dikelola. Laporkan lewat jalur yang semestinya (Pelajaran 5.5 membahas aturan tiga tingkat)."
+        }
+       ]
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Group conversations: rapat, study groups and WhatsApp decisions",
+        "id": "Percakapan kelompok: rapat, kelompok belajar, dan keputusan lewat WhatsApp"
+       },
+       "body": {
+        "en": "In organisation meetings and team chats, the ketua or senior speaks first and everyone else nods. Decisions are “agreed” because nobody objected. This false consensus (<i>mufakat semu</i>) is the group version of apparent agreement. Research on “hidden profiles” shows groups over-discuss what everyone already knows and miss what only one person knows. <b>Meeting Rules Card:</b> open with the question, not the topic (“The question is ___; success means ___ by ___”), and recap previous decisions in two minutes. Round-robin, juniors first: everyone answers the opening question in one minute before discussion starts, or writes their view in the chat first. Understand before you challenge: clarifying questions first, objections second. Facts get looked up; tastes get noted; arguable points get reasons. Settled is settled: write it down so it doesn't come back. Close with the decision, owner, deadline, and any dissent recorded in the notulen.",
+        "id": "Di rapat organisasi dan grup chat tim, ketua atau senior bicara lebih dulu dan semua orang lain mengangguk. Keputusan dianggap \"disepakati\" karena tidak ada yang keberatan. Kesepakatan palsu ini (mufakat semu) adalah versi kelompok dari kesepakatan semu. Penelitian tentang \"profil tersembunyi\" menunjukkan bahwa kelompok terlalu banyak membahas hal yang sudah diketahui semua orang dan melewatkan hal yang hanya diketahui satu orang. <b>Kartu Aturan Rapat:</b> buka dengan pertanyaannya, bukan topiknya (\"Pertanyaannya ___; berhasil berarti ___ paling lambat ___\"), dan rangkum keputusan sebelumnya dalam dua menit. Giliran bicara dimulai dari yang paling junior: semua orang menjawab pertanyaan pembuka dalam satu menit sebelum diskusi dimulai, atau menulis pandangannya di chat lebih dulu. Pahami dulu sebelum menantang: pertanyaan klarifikasi dulu, keberatan belakangan. Fakta dicek; selera dicatat; poin yang bisa diperdebatkan disertai alasan. Yang sudah diputuskan tidak dibuka lagi: tulis supaya tidak muncul kembali. Tutup dengan keputusan, penanggung jawab, tenggat, dan perbedaan pendapat yang tercatat di notulen."
+       },
+       "bullets": [
+        {
+         "en": "<b>Study group seminar (Diskusi Sokratik).</b> For a 60–90 minute study group: everyone reads a short text; the moderator prepares 1–3 open questions; the session opens with a round-robin, then the moderator asks “Why?” and “What follows?” and points people at each other (“Rina, how does your view fit with Dimas's?”); it ends by mapping the positions, with no forced consensus. Rotate the moderator. If the moderator answers their own question after ten seconds of silence, the seminar has become a lecture.",
+         "id": "<b>Seminar kelompok belajar (Diskusi Sokratik).</b> Untuk kelompok belajar 60–90 menit: semua orang membaca satu teks pendek; moderator menyiapkan 1–3 pertanyaan terbuka; sesi dibuka dengan giliran bicara, lalu moderator bertanya \"Kenapa?\" dan \"Lalu apa akibatnya?\" dan mengarahkan orang untuk saling menanggapi (\"Rina, bagaimana pandanganmu nyambung dengan pandangan Dimas?\"); sesi berakhir dengan memetakan posisi masing-masing, tanpa memaksakan kesepakatan. Gilir moderatornya. Kalau moderator menjawab pertanyaannya sendiri setelah sepuluh detik hening, seminarnya sudah berubah menjadi kuliah."
+        },
+        {
+         "en": "<b>WhatsApp decisions.</b> Replace “Ada yang keberatan?” with a poll or “Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00”. Move disagreements to japri or a call. Before replying to a long message, restate its main point in one line. For forwarded claims, look up the facts rather than arguing about them.",
+         "id": "<b>Keputusan lewat WhatsApp.</b> Ganti \"Ada yang keberatan?\" dengan polling atau \"Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00\". Pindahkan perbedaan pendapat ke japri atau telepon. Sebelum membalas pesan yang panjang, ulangi poin utamanya dalam satu baris. Untuk klaim yang diteruskan, cek faktanya alih-alih memperdebatkannya."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "When it gets heated",
+        "id": "Ketika suasana memanas"
+       },
+       "body": {
+        "en": "Warning signs, in yourself or others: raised voice; repeating the same point louder; sarcasm; mocking; baiting; over-certainty; attacking the person. In Gottman's research, contempt (sarcasm, mockery) is one of the strongest predictors of relationship breakdown. <b>You're heating up:</b> pause. “Boleh kita lanjut besok? Saya mau pikirkan dulu.” Gottman's work suggests a break of about 20 minutes when physiologically flooded. Use 5.2's tools to let your body finish. <b>They're heating up:</b> acknowledge the feeling first (empathy, from 5.3), then return to the question. <b>It has become personal:</b> suspend the topic and repair the relationship first (a personal conversation), then return to the decision.",
+        "id": "Tanda-tandanya, pada dirimu atau orang lain: suara meninggi; mengulang poin yang sama makin keras; sindiran; ejekan; memancing emosi; terlalu yakin; menyerang orangnya. Dalam penelitian Gottman, sikap merendahkan (sindiran, ejekan) adalah salah satu prediktor terkuat rusaknya hubungan. <b>Kamu mulai panas:</b> berhenti sejenak. \"Boleh kita lanjut besok? Saya mau pikirkan dulu.\" Penelitian Gottman menyarankan jeda sekitar 20 menit ketika tubuh sedang kewalahan secara fisiologis. Pakai alat-alat dari 5.2 untuk membiarkan tubuhmu menuntaskannya. <b>Dia mulai panas:</b> akui perasaannya dulu (empati, dari 5.3), lalu kembali ke pertanyaannya. <b>Sudah jadi urusan pribadi:</b> tunda topiknya dan perbaiki hubungannya dulu (percakapan pribadi), lalu kembali ke keputusannya."
+       },
+       "after": [
+        {
+         "en": "<b>Where we correct the source.</b> Adler says emotion has no place in impersonal argument. Modern research disagrees: suppressing emotion has social and physical costs, and emotions carry information (5.2). Keep his useful core, <i>argument is not aggression</i>, and drop the rest: notice, name, regulate, then reason.",
+         "id": "<b>Bagian yang kami koreksi dari sumbernya.</b> Adler berpendapat emosi tidak punya tempat dalam argumen yang tidak bersifat pribadi. Penelitian modern tidak sependapat: menekan emosi punya biaya sosial dan fisik, dan emosi membawa informasi (5.2). Ambil intinya yang berguna, <i>berargumen bukan berarti menyerang</i>, dan tinggalkan sisanya: sadari, sebutkan, kelola, lalu bernalar."
+        }
+       ]
+      }
+     ],
+     "compare": [
+      {
+       "tag": {
+        "en": "The dashboard disagreement",
+        "id": "Beda pendapat soal dasbor"
+       },
+       "q": {
+        "en": "In a team call, Mbak Sari proposes a weekly delivery dashboard grouped by warehouse. Raka thinks it should be grouped by customer. What does he say?",
+        "id": "Dalam panggilan tim, Mbak Sari mengusulkan dasbor pengiriman mingguan yang dikelompokkan per gudang. Raka berpikir dasbor itu sebaiknya dikelompokkan per pelanggan. Apa yang ia katakan?"
+       },
+       "weak": {
+        "en": "“Tapi kalau per gudang kurang berguna sih, Mbak. Mending per customer.” (Then he goes quiet and complains to Dimas on WhatsApp afterwards.)",
+        "id": "\"Tapi kalau per gudang kurang berguna sih, Mbak. Mending per customer.\" (Lalu ia diam dan mengeluh ke Dimas lewat WhatsApp sesudahnya.)"
+       },
+       "strong": {
+        "en": "“Mbak, saya cek dulu ya: dashboard per gudang supaya kepala gudang bisa lihat performa timnya, betul?” (Sari confirms.) “Setuju tujuannya membantu perbaikan operasional. Satu hal yang mungkin relevan: tiga komplain terakhir datang dari dua customer besar, dan polanya lintas gudang. Bagaimana kalau tampilan utamanya per gudang, plus satu tab per customer untuk lima customer teratas? Kalau tidak sempat minggu ini, saya bisa catat sebagai usulan untuk versi berikutnya.”",
+        "id": "\"Mbak, saya cek dulu ya: dashboard per gudang supaya kepala gudang bisa lihat performa timnya, betul?\" (Mbak Sari membenarkan.) \"Setuju tujuannya membantu perbaikan operasional. Satu hal yang mungkin relevan: tiga komplain terakhir datang dari dua customer besar, dan polanya lintas gudang. Bagaimana kalau tampilan utamanya per gudang, plus satu tab per customer untuk lima customer teratas? Kalau tidak sempat minggu ini, saya bisa catat sebagai usulan untuk versi berikutnya.\""
+       },
+       "why": {
+        "en": "Raka restates first (rung 2) and agrees on the principle (rung 4). He offers his ground as information (rung 5, missing info), proposes a both/and option, and leaves room for the senior's decision (rung 6). The weak version disagrees before understanding, then turns the disagreement into a private grievance.",
+        "id": "Raka mengulang dulu (anak tangga 2) dan menyepakati prinsipnya (anak tangga 4). Ia menawarkan dasarnya sebagai informasi (anak tangga 5, informasi yang kurang), mengusulkan pilihan yang memadukan keduanya, dan memberi ruang bagi keputusan seniornya (anak tangga 6). Versi yang lemah tidak setuju sebelum memahami, lalu mengubah ketidaksetujuannya menjadi keluhan di belakang."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "placement": "after-sections",
+      "title": {
+       "en": "In focus: the silent “yes”",
+       "id": "Sorotan: \"ya\" dalam diam"
+      },
+      "body": [
+       {
+        "en": "The trainees' WhatsApp group: Bu Wulan posts a new reporting schedule and asks “Ada yang keberatan?” Nobody replies, so the schedule stands. Three days later, two trainees miss the Friday deadline. The schedule clashed with the warehouse stock-count everyone knew about but nobody mentioned.",
+        "id": "Grup WhatsApp para trainee: Bu Wulan mengunggah jadwal pelaporan baru dan bertanya, \"Ada yang keberatan?\" Tidak ada yang membalas, jadi jadwalnya berlaku. Tiga hari kemudian, dua trainee melewatkan tenggat hari Jumat. Jadwalnya bentrok dengan stock opname gudang yang sebenarnya diketahui semua orang, tetapi tidak ada yang menyebutkannya."
+       },
+       {
+        "en": "At the retrospective, Raka suggests a small change: decisions in the group get a numbered reply (“1 setuju / 2 tidak / 3 ada catatan”) with a deadline, and the trainees speak first in the Monday stand-up. Bu Wulan tries it the next week. Two “3 ada catatan” replies surface a holiday clash before it costs anyone a deadline.",
+        "id": "Dalam rapat evaluasi, Raka mengusulkan perubahan kecil: keputusan di grup dijawab dengan balasan bernomor (\"1 setuju / 2 tidak / 3 ada catatan\") lengkap dengan tenggatnya, dan para trainee bicara lebih dulu di stand-up hari Senin. Bu Wulan mencobanya minggu berikutnya. Dua balasan \"3 ada catatan\" memunculkan bentrokan dengan hari libur sebelum ada yang sampai melewatkan tenggat."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1: Restate-before-you-respond triads (20 min, with two friends)",
+        "id": "Latihan 1: Bertiga, ulangi dulu sebelum menanggapi (20 menit, dengan dua teman)"
+       },
+       "body": {
+        "en": "Speaker gives a 90-second view on a mild campus issue (for example, “Should attendance count toward grades?”). Listener restates position and reasons until the speaker confirms; only then responds. Observer counts loops and notes any “smuggled rebuttal” (“so you're saying, naively…”). Rotate roles.",
+        "id": "Pembicara menyampaikan pandangan selama 90 detik tentang isu kampus yang ringan (misalnya, \"Apakah kehadiran sebaiknya dihitung dalam nilai?\"). Pendengar mengulang posisi dan alasannya sampai pembicara membenarkan, baru kemudian menanggapi. Pengamat menghitung berapa kali putaran dan mencatat \"bantahan yang diselundupkan\" (\"jadi maksudmu, dengan naifnya…\"). Bergantian peran."
+       },
+       "debrief": {
+        "en": "Most people need two or three loops at first, and leave out the reasons. If you got the conclusion but not the “because”, you haven't understood yet; you've only heard.",
+        "id": "Kebanyakan orang awalnya butuh dua atau tiga putaran, dan lupa menyertakan alasannya. Kalau kamu menangkap kesimpulannya tetapi tidak menangkap \"karena\"-nya, kamu belum memahami; kamu baru mendengar."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2: Purpose Picker before a real conversation (10 min)",
+        "id": "Latihan 2: Pemilih Tujuan sebelum percakapan sungguhan (10 menit)"
+       },
+       "body": {
+        "en": "Pick an upcoming important talk (with a parent, supervisor or teammate) and complete the planner below: type, success sentence, right time and place, opening line.",
+        "id": "Pilih satu obrolan penting yang akan datang (dengan orang tua, atasan, atau rekan tim) dan lengkapi perencana di bawah: jenis, kalimat keberhasilan, waktu dan tempat yang tepat, kalimat pembuka."
+       },
+       "debrief": {
+        "en": "Afterwards, check: did it end in the state you named? Mismatches usually happen in the first two minutes. That's why the opening line matters.",
+        "id": "Sesudahnya, periksa: apakah percakapannya berakhir di keadaan yang kamu sebutkan? Salah jenis biasanya terjadi di dua menit pertama. Karena itulah kalimat pembuka penting."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3: Ladder a live disagreement (30 min)",
+        "id": "Latihan 3: Naiki tangga untuk ketidaksetujuan yang sedang terjadi (30 menit)"
+       },
+       "body": {
+        "en": "Take a real disagreement in a group project or organisation. Work through rungs 0–6 in writing, then in a short call. End with a shared statement posted to the group: “We agree on ___; we differ on ___ because ___; we'll do ___; review on ___.”",
+        "id": "Ambil satu ketidaksetujuan nyata di kerja kelompok atau organisasimu. Kerjakan anak tangga 0–6 secara tertulis, lalu dalam panggilan singkat. Akhiri dengan pernyataan bersama yang diunggah ke grup: \"Kita sepakat soal ___; kita beda soal ___ karena ___; kita akan menjalankan ___; ditinjau lagi tanggal ___.\""
+       },
+       "debrief": {
+        "en": "If everyone signs off on the statement, you've reached understood disagreement, which is a real outcome, not a failure.",
+        "id": "Kalau semua orang menyetujui pernyataan itu, kalian sudah mencapai ketidaksetujuan yang saling dipahami, dan itu hasil yang nyata, bukan kegagalan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 4: Fact, taste or arguable? (10 min sorting drill)",
+        "id": "Latihan 4: Fakta, selera, atau bisa diperdebatkan? (latihan memilah 10 menit)"
+       },
+       "body": {
+        "en": "Sort the statements in the resource-kit worksheet (for example “Kopi di kantin enak banget”, “UMP Jakarta tahun ini naik sekian persen”, “Magang tidak dibayar itu eksploitatif”, “Kita harus pakai Notion bukan Trello”) into fact to look up, taste to note, or arguable with reasons. Then check the answer key on the card.",
+        "id": "Pilah pernyataan-pernyataan di lembar kerja perlengkapan (misalnya \"Kopi di kantin enak banget\", \"UMP Jakarta tahun ini naik sekian persen\", \"Magang tidak dibayar itu eksploitatif\", \"Kita harus pakai Notion bukan Trello\") ke dalam fakta yang perlu dicek, selera yang cukup dicatat, atau hal yang bisa diperdebatkan dengan alasan. Lalu cocokkan dengan kunci jawaban di kartunya."
+       },
+       "debrief": {
+        "en": "The wage claim is a fact to look up, not a debate. The tool choice is a practical decision to make with criteria. The internship claim is genuinely arguable, so bring reasons.",
+        "id": "Klaim soal upah adalah fakta yang perlu dicek, bukan bahan debat. Pilihan alat kerja adalah keputusan praktis yang diambil dengan kriteria. Klaim soal magang memang bisa diperdebatkan, jadi bawalah alasan."
+       }
+      }
+     ],
+     "mistakes": {
+      "title": {
+       "en": "Common mistakes",
+       "id": "Kesalahan yang sering terjadi"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Disagreeing before you understand",
+         "id": "Tidak setuju sebelum memahami"
+        },
+        "fix": {
+         "en": "Restate with reasons first; only respond after they confirm.",
+         "id": "Ulangi beserta alasannya dulu; tanggapi hanya setelah ia membenarkan."
+        }
+       },
+       {
+        "h": {
+         "en": "Arguing about facts",
+         "id": "Memperdebatkan fakta"
+        },
+        "fix": {
+         "en": "Look them up. Argue about what follows from them.",
+         "id": "Cek faktanya. Perdebatkan apa yang mengikuti dari fakta itu."
+        }
+       },
+       {
+        "h": {
+         "en": "Reading silence as agreement",
+         "id": "Menganggap diam sebagai setuju"
+        },
+        "fix": {
+         "en": "Round-robin, juniors first, or a numbered poll with a deadline.",
+         "id": "Giliran bicara dimulai dari yang paling junior, atau polling bernomor dengan tenggat."
+        }
+       },
+       {
+        "h": {
+         "en": "Restating with a hidden jab",
+         "id": "Mengulang sambil menyindir diam-diam"
+        },
+        "fix": {
+         "en": "A restatement the other person would happily sign. Save your view for afterwards.",
+         "id": "Ulangi dengan cara yang akan ditandatangani pihak lain dengan senang hati. Simpan pandanganmu untuk sesudahnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Moderator answering their own question",
+         "id": "Moderator menjawab pertanyaannya sendiri"
+        },
+        "fix": {
+         "en": "Rephrase, give an example, or ask people in turn.",
+         "id": "Ulangi dengan kalimat lain, beri contoh, atau tanyakan kepada orang-orang secara bergiliran."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "active listening",
+        "id": "mendengarkan secara aktif"
+       },
+       "def": {
+        "en": "Working to rebuild the speaker's meaning and checking it, not just staying quiet.",
+        "id": "Bekerja menyusun ulang maksud pembicara lalu memeriksanya, bukan sekadar diam."
+       }
+      },
+      {
+       "term": {
+        "en": "restatement",
+        "id": "pengulangan"
+       },
+       "def": {
+        "en": "Saying their view and reasons in your own words until they confirm.",
+        "id": "Menyampaikan pandangan dan alasannya dengan kata-katamu sendiri sampai ia membenarkan."
+       }
+      },
+      {
+       "term": {
+        "en": "apparent disagreement",
+        "id": "ketidaksetujuan semu"
+       },
+       "def": {
+        "en": "A misunderstanding that looks like a disagreement.",
+        "id": "Salah paham yang terlihat seperti ketidaksetujuan."
+       }
+      },
+      {
+       "term": {
+        "en": "understood disagreement",
+        "id": "ketidaksetujuan yang saling dipahami"
+       },
+       "def": {
+        "en": "Each side can state the other's view and reasons; a decision can still be made.",
+        "id": "Masing-masing pihak bisa menyebutkan pandangan dan alasan pihak lain; keputusan tetap bisa diambil."
+       }
+      },
+      {
+       "term": {
+        "en": "principle / policy / case",
+        "id": "prinsip / kebijakan / kasus"
+       },
+       "def": {
+        "en": "Shared goal / general approach / this specific situation: three levels at which people can differ.",
+        "id": "Tujuan bersama / pendekatan umum / situasi spesifik ini: tiga tingkat tempat orang bisa berbeda pendapat."
+       }
+      },
+      {
+       "term": {
+        "en": "false consensus",
+        "id": "kesepakatan palsu"
+       },
+       "def": {
+        "en": "“Agreement” because nobody objected.",
+        "id": "\"Kesepakatan\" karena tidak ada yang keberatan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "In a group call, Dimas says “Let's drop the survey and just do interviews.” Sari immediately replies “No, interviews take too long.” What should Sari have done first?",
+        "id": "Dalam panggilan kelompok, Dimas berkata, \"Kita batalkan surveinya dan wawancara saja.\" Sari langsung membalas, \"Jangan, wawancara terlalu lama.\" Apa yang seharusnya dilakukan Sari lebih dulu?"
+       },
+       "options": [
+        {
+         "en": "Called a vote",
+         "id": "Mengadakan voting"
+        },
+        {
+         "en": "Restated Dimas's proposal and his reasons, and checked she had it right",
+         "id": "Mengulang usulan Dimas beserta alasannya, lalu memastikan pemahamannya sudah benar"
+        },
+        {
+         "en": "Cited the lecturer's preference",
+         "id": "Mengutip preferensi dosen"
+        },
+        {
+         "en": "Agreed to keep the peace",
+         "id": "Setuju supaya suasana tetap damai"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Disagreeing before understanding risks arguing with a misunderstanding. Dimas may have reasons about data quality.",
+        "id": "Tidak setuju sebelum memahami berisiko memperdebatkan salah paham. Dimas mungkin punya alasan soal kualitas data."
+       }
+      },
+      {
+       "q": {
+        "en": "Two HIMA members argue for 30 minutes about whether last year's event had 300 or 450 attendees. Best advice?",
+        "id": "Dua anggota HIMA berdebat selama 30 menit soal apakah acara tahun lalu dihadiri 300 atau 450 orang. Saran terbaiknya?"
+       },
+       "options": [
+        {
+         "en": "Let the senior decide",
+         "id": "Biarkan senior yang memutuskan"
+        },
+        {
+         "en": "Keep debating until someone concedes",
+         "id": "Terus berdebat sampai ada yang mengalah"
+        },
+        {
+         "en": "Check the records; discuss only what would follow if each number were true",
+         "id": "Cek catatannya; bahas hanya apa akibatnya kalau masing-masing angka itu benar"
+        },
+        {
+         "en": "Vote",
+         "id": "Voting"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Facts are settled by looking them up, not by argument or votes.",
+        "id": "Fakta diselesaikan dengan mengeceknya, bukan dengan berdebat atau voting."
+       }
+      },
+      {
+       "q": {
+        "en": "The ketua asks “Ada yang keberatan?” and nobody responds. Best interpretation and action?",
+        "id": "Ketua bertanya, \"Ada yang keberatan?\" dan tidak ada yang menjawab. Tafsiran dan tindakan terbaiknya?"
+       },
+       "options": [
+        {
+         "en": "Unanimous agreement; proceed",
+         "id": "Semua setuju; lanjutkan"
+        },
+        {
+         "en": "Possibly false consensus driven by sungkan; ask each person in turn, juniors first, or run a numbered poll",
+         "id": "Mungkin kesepakatan palsu karena sungkan; tanyakan kepada setiap orang secara bergiliran, dimulai dari yang paling junior, atau adakan polling bernomor"
+        },
+        {
+         "en": "Members don't care; cancel",
+         "id": "Anggota tidak peduli; batalkan"
+        },
+        {
+         "en": "Postpone indefinitely",
+         "id": "Tunda tanpa batas waktu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Silence under power distance is not a meeting of minds.",
+        "id": "Diam di tengah jarak kuasa yang tinggi bukanlah titik temu pikiran."
+       }
+      },
+      {
+       "q": {
+        "en": "You and a teammate agree the event should be welcoming for maba but disagree on whether it should be free. What is this?",
+        "id": "Kamu dan rekan timmu sepakat bahwa acaranya harus ramah bagi maba, tetapi tidak sepakat soal apakah acaranya harus gratis. Ini termasuk apa?"
+       },
+       "options": [
+        {
+         "en": "Disagreement on principle",
+         "id": "Ketidaksetujuan soal prinsip"
+        },
+        {
+         "en": "Agreement on principle, disagreement on policy: work through costs and effects, then decide",
+         "id": "Sepakat soal prinsip, tidak sepakat soal kebijakan: bahas biaya dan dampaknya, lalu putuskan"
+        },
+        {
+         "en": "Apparent disagreement only",
+         "id": "Hanya ketidaksetujuan semu"
+        },
+        {
+         "en": "A matter of taste",
+         "id": "Soal selera"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Naming the level keeps the shared goal visible and the difference workable.",
+        "id": "Menyebut tingkatnya membuat tujuan bersama tetap terlihat dan perbedaannya bisa ditangani."
+       }
+      },
+      {
+       "q": {
+        "en": "Rina tells her mentor she feels she doesn't belong at her internship. The mentor replies with a pros-and-cons table. What went wrong?",
+        "id": "Rina bercerita kepada mentornya bahwa ia merasa tidak cocok di tempat magangnya. Mentornya membalas dengan tabel untung-rugi. Apa yang salah?"
+       },
+       "options": [
+        {
+         "en": "The mentor didn't take notes",
+         "id": "Mentornya tidak mencatat"
+        },
+        {
+         "en": "A personal conversation was treated as a decision conversation",
+         "id": "Percakapan pribadi diperlakukan sebagai percakapan keputusan"
+        },
+        {
+         "en": "The mentor should have argued harder",
+         "id": "Mentornya seharusnya berargumen lebih keras"
+        },
+        {
+         "en": "Nothing; analysis always helps",
+         "id": "Tidak ada; analisis selalu membantu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Type mismatch. Attention and empathy come before problem-solving in a personal conversation.",
+        "id": "Salah jenis. Dalam percakapan pribadi, perhatian dan empati datang sebelum pemecahan masalah."
+       }
+      }
+     ],
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Conversation Planner + Disagreement Ladder: Plan section 5",
+       "id": "Perencana Percakapan + Tangga Ketidaksetujuan: Rencana bagian 5"
+      },
+      "body": {
+       "en": "Plan the type and opening of your next important conversation, work a disagreement up the ladder, and draft the shared summary for the group. Saved on this device.",
+       "id": "Rencanakan jenis dan pembuka percakapan pentingmu berikutnya, bawa satu ketidaksetujuan menaiki tangga, dan susun draf ringkasan bersama untuk kelompok. Tersimpan di perangkat ini."
+      },
+      "sections": [
+       {
+        "id": "convo",
+        "title": {
+         "en": "5 · Conversations",
+         "id": "5 · Percakapan"
+        },
+        "lead": {
+         "en": "One real conversation and one real disagreement.",
+         "id": "Satu percakapan nyata dan satu ketidaksetujuan nyata."
+        },
+        "fields": [
+         {
+          "id": "picker",
+          "label": {
+           "en": "Purpose Picker: “This is a ___ conversation with ___; success = ___.” Time and place. Opening line.",
+           "id": "Pemilih Tujuan: \"Ini percakapan ___ dengan ___; berhasil = ___.\" Waktu dan tempat. Kalimat pembuka."
+          },
+          "hint": {
+           "en": "e.g. personal, then decision next week · Ibu · success = she feels heard · Sunday after lunch · “Bu, aku ingin cerita dulu, belum minta keputusan.”",
+           "id": "mis. pribadi, lalu keputusan minggu depan · Ibu · berhasil = Ibu merasa didengar · Minggu sesudah makan siang · \"Bu, aku ingin cerita dulu, belum minta keputusan.\""
+          },
+          "rows": 3
+         },
+         {
+          "id": "ladder",
+          "label": {
+           "en": "The ladder for one disagreement: rung 0 arguable? · 1 facts to check · 2 their view and reasons · 3 same question? · 4 level · 5 my ground · 6 close",
+           "id": "Tangga untuk satu ketidaksetujuan: anak tangga 0 bisa diperdebatkan? · 1 fakta yang perlu dicek · 2 pandangan dan alasannya · 3 pertanyaan yang sama? · 4 tingkat · 5 dasarku · 6 tutup"
+          },
+          "hint": {
+           "en": "e.g. arguable · check last year's attendance · Sari: by warehouse so heads can act · yes · agree on goal, differ on policy · complaints cluster by customer · main view by warehouse + top-5 customer tab, review in 2 weeks",
+           "id": "mis. bisa diperdebatkan · cek jumlah hadirin tahun lalu · Mbak Sari: per gudang supaya kepala gudang bisa bertindak · ya · sepakat soal tujuan, beda soal kebijakan · komplain menumpuk per pelanggan · tampilan utama per gudang + tab lima pelanggan teratas, ditinjau 2 minggu lagi"
+          },
+          "rows": 5
+         },
+         {
+          "id": "summary",
+          "label": {
+           "en": "Shared statement for the group: “We agree on ___; we differ on ___ because ___; we'll do ___; review on ___.”",
+           "id": "Pernyataan bersama untuk kelompok: \"Kita sepakat soal ___; kita beda soal ___ karena ___; kita akan menjalankan ___; ditinjau lagi tanggal ___.\""
+          },
+          "hint": {
+           "en": "",
+           "id": ""
+          },
+          "rows": 3
+         },
+         {
+          "id": "senior",
+          "label": {
+           "en": "My five-step script for disagreeing with a senior (shared goal · restate · ground as information · propose · leave room)",
+           "id": "Naskah lima langkahku untuk tidak setuju dengan senior (tujuan bersama · ulangi · dasar sebagai informasi · usulkan · beri ruang)"
+          },
+          "hint": {
+           "en": "e.g. “Saya setuju tujuannya…” · “Kalau saya tangkap…” · “Ada satu data…” · “Bagaimana kalau…” · “Tentu keputusan di Ibu…”",
+           "id": "mis. \"Saya setuju tujuannya…\" · \"Kalau saya tangkap…\" · \"Ada satu data…\" · \"Bagaimana kalau…\" · \"Tentu keputusan di Ibu…\""
+          },
+          "rows": 3
+         }
+        ]
+       }
+      ]
+     },
+     "resources": {
+      "title": {
+       "en": "Resource kit · 5.4",
+       "id": "Perlengkapan · 5.4"
+      },
+      "lead": {
+       "en": "Cards for meetings, group chats and hard conversations. Everything stays on your device.",
+       "id": "Kartu untuk rapat, grup chat, dan percakapan sulit. Semuanya tersimpan di perangkatmu."
+      },
+      "items": [
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Meeting Rules Card",
+         "id": "Kartu Aturan Rapat"
+        },
+        "desc": {
+         "en": "Pin it to the notulen template.",
+         "id": "Tempelkan di templat notulen."
+        },
+        "body": [
+         {
+          "en": "Open with the question and what success means, by when; recap previous decisions in two minutes",
+          "id": "Buka dengan pertanyaannya dan arti berhasil, beserta tenggatnya; rangkum keputusan sebelumnya dalam dua menit"
+         },
+         {
+          "en": "Round-robin, juniors first: one minute each before discussion",
+          "id": "Giliran bicara dimulai dari yang paling junior: masing-masing satu menit sebelum diskusi"
+         },
+         {
+          "en": "Clarifying questions first, objections second",
+          "id": "Pertanyaan klarifikasi dulu, keberatan belakangan"
+         },
+         {
+          "en": "Facts get looked up; tastes get noted; arguable points get reasons",
+          "id": "Fakta dicek; selera dicatat; poin yang bisa diperdebatkan disertai alasan"
+         },
+         {
+          "en": "Settled is settled: write it down",
+          "id": "Yang sudah diputuskan tidak dibuka lagi: tuliskan"
+         },
+         {
+          "en": "Close with decision, owner, deadline, and dissent recorded",
+          "id": "Tutup dengan keputusan, penanggung jawab, tenggat, dan perbedaan pendapat yang tercatat"
+         }
+        ]
+       },
+       {
+        "kind": "script",
+        "title": {
+         "en": "WhatsApp decision script",
+         "id": "Naskah keputusan lewat WhatsApp"
+        },
+        "desc": {
+         "en": "Replace “Ada yang keberatan?”",
+         "id": "Pengganti \"Ada yang keberatan?\""
+        },
+        "body": [
+         {
+          "en": "“Usulan: ___. Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00.”",
+          "id": "\"Usulan: ___. Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00.\""
+         },
+         {
+          "en": "Disagreements move to japri or a call",
+          "id": "Perbedaan pendapat dipindah ke japri atau telepon"
+         },
+         {
+          "en": "Before replying to a long message, restate its main point in one line",
+          "id": "Sebelum membalas pesan yang panjang, ulangi poin utamanya dalam satu baris"
+         },
+         {
+          "en": "Forwarded claims: look up the facts, don't argue them",
+          "id": "Klaim yang diteruskan: cek faktanya, jangan diperdebatkan"
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Fact, taste or arguable? (with key)",
+         "id": "Fakta, selera, atau bisa diperdebatkan? (dengan kunci jawaban)"
+        },
+        "desc": {
+         "en": "Sort first, then read the key.",
+         "id": "Pilah dulu, lalu baca kuncinya."
+        },
+        "body": [
+         {
+          "en": "“Kopi di kantin enak banget” → taste: note it, don't argue",
+          "id": "\"Kopi di kantin enak banget\" → selera: catat saja, jangan diperdebatkan"
+         },
+         {
+          "en": "“UMP Jakarta tahun ini naik sekian persen” → fact: look it up",
+          "id": "\"UMP Jakarta tahun ini naik sekian persen\" → fakta: cek datanya"
+         },
+         {
+          "en": "“Magang tidak dibayar itu eksploitatif” → arguable: bring reasons and definitions",
+          "id": "\"Magang tidak dibayar itu eksploitatif\" → bisa diperdebatkan: bawa alasan dan definisinya"
+         },
+         {
+          "en": "“Kita harus pakai Notion bukan Trello” → practical decision: agree criteria, then choose",
+          "id": "\"Kita harus pakai Notion bukan Trello\" → keputusan praktis: sepakati kriterianya, lalu pilih"
+         },
+         {
+          "en": "“Dosen itu nggak suka sama aku” → interpretation: check the facts first (5.5)",
+          "id": "\"Dosen itu nggak suka sama aku\" → tafsiran: cek faktanya dulu (5.5)"
+         }
+        ]
+       },
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Study-group seminar (60–90 min)",
+         "id": "Seminar kelompok belajar (60–90 menit)"
+        },
+        "desc": {
+         "en": "Diskusi Sokratik, rotating moderator.",
+         "id": "Diskusi Sokratik, moderator bergilir."
+        },
+        "body": [
+         {
+          "en": "Everyone reads a short text beforehand",
+          "id": "Semua orang membaca satu teks pendek sebelumnya"
+         },
+         {
+          "en": "Moderator prepares 1–3 open questions",
+          "id": "Moderator menyiapkan 1–3 pertanyaan terbuka"
+         },
+         {
+          "en": "Round-robin opening, then “Why?” and “What follows?”",
+          "id": "Dibuka dengan giliran bicara, lalu \"Kenapa?\" dan \"Lalu apa akibatnya?\""
+         },
+         {
+          "en": "Point people at each other: “Rina, how does your view fit with Dimas's?”",
+          "id": "Arahkan orang untuk saling menanggapi: \"Rina, bagaimana pandanganmu nyambung dengan pandangan Dimas?\""
+         },
+         {
+          "en": "End by mapping positions; no forced consensus",
+          "id": "Akhiri dengan memetakan posisi; tanpa memaksakan kesepakatan"
+         }
+        ]
+       },
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Further reading",
+         "id": "Bacaan lanjutan"
+        },
+        "desc": {
+         "en": "The source behind this lesson.",
+         "id": "Sumber di balik pelajaran ini."
+        },
+        "body": [
+         {
+          "en": "Adler, How to Speak, How to Listen: listening, conversation types, understanding before judging, seminars",
+          "id": "Adler, How to Speak, How to Listen: mendengarkan, jenis-jenis percakapan, memahami sebelum menilai, seminar"
+         },
+         {
+          "en": "Research on conversational receptiveness and hidden profiles (summarised in the evidence notes above)",
+          "id": "Penelitian tentang keterbukaan dalam percakapan dan profil tersembunyi (dirangkum dalam catatan bukti di atas)"
+         }
+        ]
+       }
+      ]
+     },
+     "takeawaysLead": {
+      "en": "Three things to carry into 5.5, where the change comes from technology:",
+      "id": "Tiga hal untuk dibawa ke 5.5, tempat perubahannya datang dari teknologi:"
+     },
+     "takeaways": [
+      {
+       "en": "Understand before you judge: restate their view and reasons until they confirm.",
+       "id": "Pahami dulu sebelum menilai: ulangi pandangan dan alasannya sampai ia membenarkan."
+      },
+      {
+       "en": "Know which conversation you're having (social, personal, understanding or decision) and what success means.",
+       "id": "Ketahui percakapan apa yang sedang kamu jalani (sosial, pribadi, pemahaman, atau keputusan) dan apa arti berhasilnya."
+      },
+      {
+       "en": "Silence isn't agreement. Ask everyone, juniors first, and write down the decision and the dissent.",
+       "id": "Diam bukan berarti setuju. Tanyakan kepada semua orang, dimulai dari yang paling junior, dan catat keputusan serta perbedaan pendapatnya."
       }
      ],
      "readFirst": {
@@ -15646,1100 +17160,7 @@ window.MT_LMS['the-map'] = {
         ]
        }
       ]
-     },
-     "sections": [
-      {
-       "icon": "eye",
-       "h": {
-        "en": "Listening is work: catch the meaning",
-        "id": "Mendengarkan adalah kerja: tangkap maknanya"
-       },
-       "body": {
-        "en": "Adler separates <i>hearing</i> from <i>listening</i> the way we separate seeing words from reading them. Listening means the mind is working to rebuild what the speaker means. His analogy: the catcher is as much a player as the pitcher. Different skill, same effort. <b>Four questions a good listener holds:</b> (1) What is this about overall, and what are they really trying to say? (2) What are the main points and key words, and what do <i>they</i> mean by those words? (3) Is it well supported, and what's missing? (4) <i>So what?</i> Why does this matter, and to me? You can answer the first two during the talk. The last two often come afterwards.",
-        "id": "Adler membedakan <i>mendengar</i> dari <i>mendengarkan</i> seperti kita membedakan melihat kata-kata dari membacanya. Mendengarkan berarti pikiran bekerja untuk menyusun ulang maksud pembicara. Analoginya: penangkap bola sama-sama pemain seperti pelemparnya. Keterampilannya berbeda, usahanya sama. <b>Empat pertanyaan yang dipegang pendengar yang baik:</b> (1) Secara keseluruhan ini tentang apa, dan apa yang sebenarnya ingin ia sampaikan? (2) Apa poin utama dan kata kuncinya, dan apa yang <i>ia</i> maksud dengan kata-kata itu? (3) Apakah didukung dengan baik, dan apa yang kurang? (4) <i>Lalu kenapa?</i> Kenapa ini penting, dan apa artinya bagiku? Dua pertanyaan pertama bisa kamu jawab selama percakapan. Dua yang terakhir sering kali baru terjawab sesudahnya."
-       },
-       "bullets": [
-        {
-         "en": "<b>Habits that kill listening:</b> judging the speaker's style instead of the substance; faking attention; letting distractions win; reacting to trigger words; deciding it's boring before they've explained why it matters; daydreaming. Most of us listen brilliantly when the stakes are obvious, as when a pilot announces an emergency. The skill is to bring that attention to ordinary conversations.",
-         "id": "<b>Kebiasaan yang membunuh kemampuan mendengarkan:</b> menilai gaya bicara alih-alih isinya; pura-pura memperhatikan; membiarkan gangguan menang; bereaksi pada kata-kata pemicu; memutuskan topiknya membosankan sebelum ia menjelaskan kenapa itu penting; melamun. Kebanyakan dari kita bisa mendengarkan dengan luar biasa saat taruhannya jelas, misalnya ketika pilot mengumumkan keadaan darurat. Keterampilannya adalah membawa perhatian sebesar itu ke percakapan sehari-hari."
-        },
-        {
-         "en": "<b>Record first, react later.</b> In a lecture, a 1:1 with a supervisor or a mentor call, note the purpose, key terms, assumptions and how they get from reasons to conclusion. Keep your reactions for a second pass afterwards: what I didn't understand, what I agree with, what I disagree with and why, and so what. Taking notes and reviewing them aids learning.",
-         "id": "<b>Catat dulu, bereaksi belakangan.</b> Di kuliah, obrolan empat mata dengan atasan, atau panggilan dengan mentor, catat tujuannya, istilah kuncinya, asumsinya, dan bagaimana ia bergerak dari alasan ke kesimpulan. Simpan reaksimu untuk putaran kedua sesudahnya: apa yang belum kupahami, apa yang kusetujui, apa yang tidak kusetujui dan kenapa, serta lalu kenapa. Mencatat dan meninjau ulang catatan membantu proses belajar."
-        },
-        {
-         "en": "<b>How it connects to AVEC.</b> Attention is being present. This section is what you do with that presence: build an accurate picture of what they mean. Lesson 5.3's listening levels describe the stance; these questions are the method.",
-         "id": "<b>Kaitannya dengan AVEC.</b> Perhatian berarti hadir. Bagian ini membahas apa yang kamu lakukan dengan kehadiran itu: menyusun gambaran yang akurat tentang maksudnya. Tingkatan mendengarkan di Pelajaran 5.3 menjelaskan sikapnya; pertanyaan-pertanyaan ini adalah metodenya."
-        }
-       ]
-      },
-      {
-       "icon": "compass",
-       "h": {
-        "en": "Know what kind of conversation you're having",
-        "id": "Kenali jenis percakapan yang sedang kamu jalani"
-       },
-       "body": {
-        "en": "Adler sorts conversations by purpose, and one of his rules is to decide in advance which kind you're having. Most painful conversations are <b>type mismatches</b>. One person wants to be heard (personal) and the other offers a fix (decision). Or a meeting meant to decide becomes an endless debate (understanding). Rina tells her mentor she feels she doesn't belong at her internship, and he replies with a pros-and-cons table: that is a mismatch.",
-        "id": "Adler memilah percakapan berdasarkan tujuannya, dan salah satu aturannya adalah menentukan sejak awal jenis percakapan apa yang akan kamu jalani. Sebagian besar percakapan yang menyakitkan adalah <b>salah jenis</b>. Satu orang ingin didengar (pribadi), sementara yang lain menawarkan solusi (keputusan). Atau rapat yang seharusnya memutuskan malah berubah menjadi debat tanpa ujung (pemahaman). Rina bercerita kepada mentornya bahwa ia merasa tidak cocok di tempat magangnya, dan mentornya membalas dengan tabel untung-rugi: itulah salah jenis."
-       },
-       "bullets": [
-        {
-         "en": "<b>How to practise: the Purpose Picker.</b> Before any important talk, write one sentence: “This is a ___ conversation with ___; success = ___.” If it mixes types (family career talks often mix personal and decision), say so and sequence them: “Hari ini aku cuma ingin kita saling paham dulu; keputusannya kita bahas minggu depan.”",
-         "id": "<b>Cara melatihnya: Pemilih Tujuan.</b> Sebelum obrolan penting apa pun, tulis satu kalimat: \"Ini percakapan ___ dengan ___; berhasil = ___.\" Kalau jenisnya campuran (obrolan karier dengan keluarga sering mencampur yang pribadi dan keputusan), katakan dan urutkan: \"Hari ini aku cuma ingin kita saling paham dulu; keputusannya kita bahas minggu depan.\""
-        },
-        {
-         "en": "<b>Check the time and place.</b> Adler's first rule is not to attempt a serious conversation with someone who is preoccupied. A senior on deadline at 17:55 is not your audience.",
-         "id": "<b>Cek waktu dan tempatnya.</b> Aturan pertama Adler adalah jangan mencoba percakapan serius dengan orang yang sedang sibuk pikirannya. Senior yang dikejar tenggat jam 17:55 bukan audiensmu."
-        }
-       ],
-       "table": {
-        "cols": [
-         {
-          "en": "Type",
-          "id": "Jenis"
-         },
-         {
-          "en": "Aim",
-          "id": "Tujuan"
-         },
-         {
-          "en": "Success looks like",
-          "id": "Wujud keberhasilannya"
-         },
-         {
-          "en": "Example",
-          "id": "Contoh"
-         }
-        ],
-        "rows": [
-         [
-          {
-           "en": "Social",
-           "id": "Sosial"
-          },
-          {
-           "en": "Enjoyment and connection",
-           "id": "Kesenangan dan keakraban"
-          },
-          {
-           "en": "People leave lighter",
-           "id": "Semua pulang dengan perasaan lebih ringan"
-          },
-          {
-           "en": "Ngopi after class",
-           "id": "Ngopi sepulang kuliah"
-          }
-         ],
-         [
-          {
-           "en": "Personal",
-           "id": "Pribadi"
-          },
-          {
-           "en": "Clear up feelings, ease tension",
-           "id": "Menjernihkan perasaan, meredakan ketegangan"
-          },
-          {
-           "en": "Both feel understood",
-           "id": "Keduanya merasa dipahami"
-          },
-          {
-           "en": "“Are we okay after yesterday?”",
-           "id": "\"Kita baik-baik saja kan setelah kemarin?\""
-          }
-         ],
-         [
-          {
-           "en": "Understanding",
-           "id": "Pemahaman"
-          },
-          {
-           "en": "Shared understanding of an idea",
-           "id": "Pemahaman bersama tentang sebuah gagasan"
-          },
-          {
-           "en": "You can each state the other's view; it can stay open",
-           "id": "Kalian masing-masing bisa menyebutkan pandangan pihak lain; persoalannya boleh tetap terbuka"
-          },
-          {
-           "en": "Study group on a theory",
-           "id": "Kelompok belajar membahas sebuah teori"
-          }
-         ],
-         [
-          {
-           "en": "Decision",
-           "id": "Keputusan"
-          },
-          {
-           "en": "A decision or action",
-           "id": "Keputusan atau tindakan"
-          },
-          {
-           "en": "Decision, owner, deadline, by a time limit",
-           "id": "Keputusan, penanggung jawab, tenggat, dalam batas waktu"
-          },
-          {
-           "en": "Rapat on the event budget",
-           "id": "Rapat soal anggaran acara"
-          }
-         ]
-        ],
-        "rowHead": true
-       }
-      },
-      {
-       "icon": "book",
-       "h": {
-        "en": "Understand before you judge",
-        "id": "Pahami dulu sebelum menilai"
-       },
-       "body": {
-        "en": "This is the heart of Adler's book. Don't agree or disagree until you are sure you understand the other person's position. Check by restating it in your own words, <i>with their reasons</i>, until they confirm. He puts it bluntly: disagreeing before you understand is impertinent; agreeing is inane. <b>The restate loop:</b> (1) They state their view. (2) You say: “Let me check I've got you: you're saying ___, because ___. Is that right?” In Indonesian: “Saya cek dulu ya, maksud Kakak/Bapak/Ibu ___, karena ___, betul?” (3) They confirm or correct. Repeat until they say yes. (4) Only then respond.",
-        "id": "Inilah inti buku Adler. Jangan setuju atau tidak setuju sampai kamu yakin memahami posisi orang lain. Periksa dengan mengulang posisinya dengan kata-katamu sendiri, <i>beserta alasannya</i>, sampai ia membenarkan. Ia menyatakannya dengan lugas: tidak setuju sebelum paham itu lancang; setuju sebelum paham itu konyol. <b>Putaran mengulang:</b> (1) Ia menyampaikan pandangannya. (2) Kamu berkata, \"Saya cek dulu ya, maksud Kakak/Bapak/Ibu ___, karena ___, betul?\" (3) Ia membenarkan atau mengoreksi. Ulangi sampai ia berkata ya. (4) Baru setelah itu tanggapi."
-       },
-       "bullets": [
-        {
-         "en": "<b>Apparent vs real disagreement.</b> Many disagreements are misunderstandings in disguise: you are answering different questions, or using the same word differently. A disagreement is real only when you both understand the question the same way and still answer differently.",
-         "id": "<b>Ketidaksetujuan semu vs nyata.</b> Banyak ketidaksetujuan sebenarnya salah paham yang menyamar: kalian menjawab pertanyaan yang berbeda, atau memakai kata yang sama dengan arti berbeda. Ketidaksetujuan baru nyata ketika kalian berdua memahami pertanyaannya dengan cara yang sama dan tetap menjawab berbeda."
-        },
-        {
-         "en": "<b>Understood disagreement is a success.</b> Even when you still disagree, aim for each person being able to state the other's view and reasons in a way the other accepts. Adler calls this a minimal meeting of minds. For practical matters you still need a decision, but the relationship survives it.",
-         "id": "<b>Ketidaksetujuan yang saling dipahami adalah keberhasilan.</b> Meski kalian tetap tidak setuju, usahakan agar masing-masing bisa menyebutkan pandangan dan alasan pihak lain dengan cara yang diterima pihak itu. Adler menyebutnya titik temu pikiran yang paling minimal. Untuk urusan praktis kalian tetap butuh keputusan, tetapi relasinya selamat."
-        }
-       ],
-       "after": [
-        {
-         "en": "<i>Evidence note: research on conversational receptiveness shows that acknowledging the other view before stating yours makes people evaluate you better and reduces escalation. Follow-up questions increase liking. Paraphrasing increases the speaker's sense of being understood. If it sounds mechanical it backfires, so restate in your own words, not theirs.</i>",
-         "id": "<i>Catatan bukti: penelitian tentang keterbukaan dalam percakapan menunjukkan bahwa mengakui pandangan lain sebelum menyampaikan pandanganmu membuat orang menilaimu lebih baik dan mengurangi ketegangan. Pertanyaan lanjutan membuat orang lebih menyukaimu. Parafrase membuat pembicara merasa lebih dipahami. Kalau terdengar seperti mesin, hasilnya justru berbalik, jadi ulangi dengan kata-katamu sendiri, bukan kata-katanya.</i>"
-        }
-       ]
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "The Disagreement Ladder",
-        "id": "Tangga Ketidaksetujuan"
-       },
-       "body": {
-        "en": "An original Metanoia tool built on Adler. Climb in order and don't skip rungs. Exhibit 1 below shows the ladder; this table gives you what to ask yourself and what to say at each rung.",
-        "id": "Alat orisinal Metanoia yang dibangun dari Adler. Naiki secara berurutan dan jangan melompati anak tangga. Gambar 1 di bawah menunjukkan tangganya; tabel ini memberimu apa yang perlu kamu tanyakan pada diri sendiri dan apa yang perlu kamu katakan di setiap anak tangga."
-       },
-       "bullets": [
-        {
-         "en": "<b>Why levels matter in Indonesia.</b> Agreeing first on the principle (the shared goal) keeps face for everyone. You can then differ on policy or the particular case without sounding like you're challenging the person. “Kita sama-sama ingin acaranya inklusif untuk maba; bedanya cuma soal tiket gratis atau tidak.”",
-         "id": "<b>Kenapa tingkatan penting di Indonesia.</b> Menyepakati prinsipnya dulu (tujuan bersama) menjaga muka semua orang. Setelah itu kalian bisa berbeda soal kebijakan atau kasus tertentu tanpa terdengar seperti menantang orangnya. \"Kita sama-sama ingin acaranya inklusif untuk maba; bedanya cuma soal tiket gratis atau tidak.\""
-        },
-        {
-         "en": "<b>Intellectual honesty.</b> Adler names two ways emotion corrupts argument: hiding points you can see weaken your case, and refusing to admit you're wrong when you know you are. Practise conceding one point sincerely before giving your view: “Kamu benar soal ___.”",
-         "id": "<b>Kejujuran intelektual.</b> Adler menyebut dua cara emosi merusak argumen: menyembunyikan poin yang kamu tahu melemahkan argumenmu, dan menolak mengakui kesalahan padahal kamu tahu kamu salah. Latih dirimu untuk mengakui satu poin dengan tulus sebelum menyampaikan pandanganmu: \"Kamu benar soal ___.\""
-        },
-        {
-         "en": "<b>Fallacies to avoid:</b> attacking the person (“of course you'd say that, you're rich”); treating an authority's quote as the end of the argument; proof by anecdote; voting on facts.",
-         "id": "<b>Kesesatan berpikir yang perlu dihindari:</b> menyerang orangnya (\"ya jelas kamu ngomong gitu, kamu kan kaya\"); menganggap kutipan seorang tokoh sebagai akhir perdebatan; pembuktian dengan satu cerita; memutuskan fakta lewat voting."
-        }
-       ],
-       "table": {
-        "cols": [
-         {
-          "en": "Rung",
-          "id": "Anak tangga"
-         },
-         {
-          "en": "Ask yourself",
-          "id": "Tanyakan pada dirimu"
-         },
-         {
-          "en": "Say",
-          "id": "Katakan"
-         }
-        ],
-        "rows": [
-         [
-          {
-           "en": "0 · Is it arguable?",
-           "id": "0 · Bisa diperdebatkan?"
-          },
-          {
-           "en": "Taste, unsupported opinion, or a claim with reasons?",
-           "id": "Soal selera, pendapat tanpa dasar, atau klaim yang punya alasan?"
-          },
-          {
-           "en": "“Ini soal selera, atau soal mana yang lebih berhasil?”",
-           "id": "\"Ini soal selera, atau soal mana yang lebih berhasil?\""
-          }
-         ],
-         [
-          {
-           "en": "1 · Facts?",
-           "id": "1 · Fakta?"
-          },
-          {
-           "en": "Is the gap about facts? Look them up; don't debate them",
-           "id": "Apakah perbedaannya soal fakta? Cek faktanya; jangan diperdebatkan"
-          },
-          {
-           "en": "“Let's check the data first.”",
-           "id": "\"Ayo kita cek datanya dulu.\""
-          }
-         ],
-         [
-          {
-           "en": "2 · Understand",
-           "id": "2 · Pahami"
-          },
-          {
-           "en": "Can I restate their view and reasons to their satisfaction?",
-           "id": "Bisakah aku mengulang pandangan dan alasannya sampai ia puas?"
-          },
-          {
-           "en": "“Do I understand you to say…?”",
-           "id": "\"Apakah maksudmu…?\""
-          }
-         ],
-         [
-          {
-           "en": "3 · Real or apparent?",
-           "id": "3 · Nyata atau semu?"
-          },
-          {
-           "en": "Are we answering the same question?",
-           "id": "Apakah kami menjawab pertanyaan yang sama?"
-          },
-          {
-           "en": "“Are we both talking about X?”",
-           "id": "\"Kita berdua sedang membahas X, kan?\""
-          }
-         ],
-         [
-          {
-           "en": "4 · Which level?",
-           "id": "4 · Tingkat mana?"
-          },
-          {
-           "en": "Principle (goal), policy (general approach) or particular case?",
-           "id": "Prinsip (tujuan), kebijakan (pendekatan umum), atau kasus tertentu?"
-          },
-          {
-           "en": "“We agree on the goal; we differ on how.”",
-           "id": "\"Kita sepakat soal tujuannya; kita beda soal caranya.\""
-          }
-         ],
-         [
-          {
-           "en": "5 · Which ground?",
-           "id": "5 · Dasar apa?"
-          },
-          {
-           "en": "Missing info, wrong info, a logic gap, or stopped too soon?",
-           "id": "Informasi yang kurang, informasi yang keliru, celah logika, atau berhenti terlalu cepat?"
-          },
-          {
-           "en": "Offer it as information: “Ada satu data yang mungkin relevan…”",
-           "id": "Tawarkan sebagai informasi: \"Ada satu data yang mungkin relevan…\""
-          }
-         ],
-         [
-          {
-           "en": "6 · Close",
-           "id": "6 · Tutup"
-          },
-          {
-           "en": "Agreement, understood disagreement + decision, or parked with a date?",
-           "id": "Sepakat, ketidaksetujuan yang saling dipahami + keputusan, atau ditunda dengan tanggal?"
-          },
-          {
-           "en": "“We differ on ___ because ___; for now we'll do ___ and review on ___.”",
-           "id": "\"Kita beda soal ___ karena ___; untuk sekarang kita jalankan ___ dan tinjau lagi tanggal ___.\""
-          }
-         ]
-        ],
-        "rowHead": true
-       }
-      },
-      {
-       "diagram": {
-        "type": "ladder",
-        "exhibit": {
-         "en": "Exhibit 1: The Disagreement Ladder",
-         "id": "Gambar 1: Tangga Ketidaksetujuan"
-        },
-        "title": {
-         "en": "Seven rungs, climbed in order",
-         "id": "Tujuh anak tangga, dinaiki berurutan"
-        },
-        "items": [
-         {
-          "h": {
-           "en": "0 · Arguable?",
-           "id": "0 · Bisa diperdebatkan?"
-          },
-          "sub": {
-           "en": "Taste, opinion or a claim with reasons",
-           "id": "Selera, pendapat, atau klaim beralasan"
-          }
-         },
-         {
-          "h": {
-           "en": "1 · Facts",
-           "id": "1 · Fakta"
-          },
-          "sub": {
-           "en": "Look them up",
-           "id": "Cek dulu"
-          }
-         },
-         {
-          "h": {
-           "en": "2 · Understand",
-           "id": "2 · Pahami"
-          },
-          "sub": {
-           "en": "Restate view and reasons",
-           "id": "Ulangi pandangan dan alasannya"
-          }
-         },
-         {
-          "h": {
-           "en": "3 · Real or apparent",
-           "id": "3 · Nyata atau semu"
-          },
-          "sub": {
-           "en": "Same question?",
-           "id": "Pertanyaannya sama?"
-          }
-         },
-         {
-          "h": {
-           "en": "4 · Level",
-           "id": "4 · Tingkat"
-          },
-          "sub": {
-           "en": "Principle, policy or case",
-           "id": "Prinsip, kebijakan, atau kasus"
-          }
-         },
-         {
-          "h": {
-           "en": "5 · Ground",
-           "id": "5 · Dasar"
-          },
-          "sub": {
-           "en": "Offer it as information",
-           "id": "Tawarkan sebagai informasi"
-          }
-         },
-         {
-          "h": {
-           "en": "6 · Close",
-           "id": "6 · Tutup"
-          },
-          "sub": {
-           "en": "Agree, understood disagreement, or parked",
-           "id": "Sepakat, saling paham beda, atau ditunda"
-          }
-         }
-        ],
-        "note": {
-         "en": "Don't skip rungs. Most arguments fail at rung 1 (facts) or rung 2 (understanding).",
-         "id": "Jangan melompati anak tangga. Sebagian besar perdebatan gagal di anak tangga 1 (fakta) atau anak tangga 2 (memahami)."
-        },
-        "longdesc": {
-         "en": "A seven-rung ladder for disagreeing well. Check whether the matter is arguable at all; look up facts rather than debate them; restate the other view with its reasons until confirmed; check whether the disagreement is real or a misunderstanding; name whether you differ on principle, policy or a particular case; name your ground (missing information, wrong information, a logic gap, or incomplete reasoning) and offer it as information; close with agreement, understood disagreement plus a decision, or a parked question with a review date.",
-         "id": "Tangga tujuh anak tangga untuk berbeda pendapat dengan baik. Periksa apakah persoalannya memang bisa diperdebatkan; cek faktanya alih-alih memperdebatkannya; ulangi pandangan pihak lain beserta alasannya sampai dibenarkan; periksa apakah ketidaksetujuannya nyata atau hanya salah paham; sebutkan apakah kalian berbeda soal prinsip, kebijakan, atau kasus tertentu; sebutkan dasarmu (informasi yang kurang, informasi yang keliru, celah logika, atau penalaran yang belum tuntas) dan tawarkan sebagai informasi; tutup dengan kesepakatan, ketidaksetujuan yang saling dipahami beserta keputusan, atau pertanyaan yang ditunda dengan tanggal peninjauan."
-        }
-       }
-      },
-      {
-       "icon": "chat",
-       "h": {
-        "en": "Disagreeing upward, respectfully",
-        "id": "Tidak setuju dengan atasan, dengan hormat"
-       },
-       "body": {
-        "en": "Indonesia scores high on power distance in published cross-cultural research. Juniors often signal disagreement indirectly (“mungkin bisa dipertimbangkan lagi”) or not at all, and “iya” may mean “I heard you”, not “I agree”. Adler's rule, <i>civil but not too polite</i>, translates well as <b>jujur dengan santun</b>. <b>A five-step script for disagreeing with a senior:</b> (1) Shared goal: “Saya setuju tujuannya ___.” (2) Restate: “Kalau saya tangkap, Bapak/Ibu ingin ___ karena ___, betul?” (3) Offer your ground as information: “Ada satu data/pengalaman yang mungkin relevan…” (4) Propose, don't oppose: “Bagaimana kalau untuk kasus ini kita coba ___?” (5) Leave room: “Tentu keputusan di Bapak/Ibu; saya ingin masukan ini tercatat.”",
-        "id": "Dalam penelitian lintas budaya yang sudah dipublikasikan, Indonesia mendapat skor tinggi untuk jarak kuasa. Junior sering menyampaikan ketidaksetujuan secara tidak langsung (\"mungkin bisa dipertimbangkan lagi\") atau tidak sama sekali, dan \"iya\" bisa berarti \"aku dengar\", bukan \"aku setuju\". Aturan Adler, <i>sopan tetapi jangan terlalu sungkan</i>, cocok diterjemahkan menjadi <b>jujur dengan santun</b>. <b>Naskah lima langkah untuk tidak setuju dengan senior:</b> (1) Tujuan bersama: \"Saya setuju tujuannya ___.\" (2) Ulangi: \"Kalau saya tangkap, Bapak/Ibu ingin ___ karena ___, betul?\" (3) Tawarkan dasarmu sebagai informasi: \"Ada satu data/pengalaman yang mungkin relevan…\" (4) Usulkan, jangan menentang: \"Bagaimana kalau untuk kasus ini kita coba ___?\" (5) Beri ruang: \"Tentu keputusan di Bapak/Ibu; saya ingin masukan ini tercatat.\""
-       },
-       "bullets": [
-        {
-         "en": "<b>Channel.</b> Raise it in private first (japri or a short 1:1), not in the group. Ask understanding questions in public and challenge questions in private.",
-         "id": "<b>Salurannya.</b> Sampaikan secara pribadi dulu (japri atau obrolan singkat empat mata), bukan di grup. Ajukan pertanyaan untuk memahami di depan umum, dan pertanyaan yang menantang secara pribadi."
-        },
-        {
-         "en": "<b>Correcting a misquote.</b> If someone says “You said X” and you didn't, correct it calmly before answering: “Mohon maaf Pak, maksud saya kemarin…”",
-         "id": "<b>Meluruskan kutipan yang keliru.</b> Kalau seseorang berkata \"Kamu bilang X\" padahal tidak, luruskan dengan tenang sebelum menjawab: \"Mohon maaf Pak, maksud saya kemarin…\""
-        },
-        {
-         "en": "<b>When it's an ethics issue, not a difference of opinion.</b> If you're asked to do something illegal or unethical, it's no longer a disagreement to manage. Escalate through proper channels (Lesson 5.5 covers the three-tier rule).",
-         "id": "<b>Ketika itu soal etika, bukan beda pendapat.</b> Kalau kamu diminta melakukan sesuatu yang melanggar hukum atau tidak etis, itu bukan lagi ketidaksetujuan yang perlu dikelola. Laporkan lewat jalur yang semestinya (Pelajaran 5.5 membahas aturan tiga tingkat)."
-        }
-       ]
-      },
-      {
-       "icon": "users",
-       "h": {
-        "en": "Group conversations: rapat, study groups and WhatsApp decisions",
-        "id": "Percakapan kelompok: rapat, kelompok belajar, dan keputusan lewat WhatsApp"
-       },
-       "body": {
-        "en": "In organisation meetings and team chats, the ketua or senior speaks first and everyone else nods. Decisions are “agreed” because nobody objected. This false consensus (<i>mufakat semu</i>) is the group version of apparent agreement. Research on “hidden profiles” shows groups over-discuss what everyone already knows and miss what only one person knows. <b>Meeting Rules Card:</b> open with the question, not the topic (“The question is ___; success means ___ by ___”), and recap previous decisions in two minutes. Round-robin, juniors first: everyone answers the opening question in one minute before discussion starts, or writes their view in the chat first. Understand before you challenge: clarifying questions first, objections second. Facts get looked up; tastes get noted; arguable points get reasons. Settled is settled: write it down so it doesn't come back. Close with the decision, owner, deadline, and any dissent recorded in the notulen.",
-        "id": "Di rapat organisasi dan grup chat tim, ketua atau senior bicara lebih dulu dan semua orang lain mengangguk. Keputusan dianggap \"disepakati\" karena tidak ada yang keberatan. Kesepakatan palsu ini (mufakat semu) adalah versi kelompok dari kesepakatan semu. Penelitian tentang \"profil tersembunyi\" menunjukkan bahwa kelompok terlalu banyak membahas hal yang sudah diketahui semua orang dan melewatkan hal yang hanya diketahui satu orang. <b>Kartu Aturan Rapat:</b> buka dengan pertanyaannya, bukan topiknya (\"Pertanyaannya ___; berhasil berarti ___ paling lambat ___\"), dan rangkum keputusan sebelumnya dalam dua menit. Giliran bicara dimulai dari yang paling junior: semua orang menjawab pertanyaan pembuka dalam satu menit sebelum diskusi dimulai, atau menulis pandangannya di chat lebih dulu. Pahami dulu sebelum menantang: pertanyaan klarifikasi dulu, keberatan belakangan. Fakta dicek; selera dicatat; poin yang bisa diperdebatkan disertai alasan. Yang sudah diputuskan tidak dibuka lagi: tulis supaya tidak muncul kembali. Tutup dengan keputusan, penanggung jawab, tenggat, dan perbedaan pendapat yang tercatat di notulen."
-       },
-       "bullets": [
-        {
-         "en": "<b>Study group seminar (Diskusi Sokratik).</b> For a 60–90 minute study group: everyone reads a short text; the moderator prepares 1–3 open questions; the session opens with a round-robin, then the moderator asks “Why?” and “What follows?” and points people at each other (“Rina, how does your view fit with Dimas's?”); it ends by mapping the positions, with no forced consensus. Rotate the moderator. If the moderator answers their own question after ten seconds of silence, the seminar has become a lecture.",
-         "id": "<b>Seminar kelompok belajar (Diskusi Sokratik).</b> Untuk kelompok belajar 60–90 menit: semua orang membaca satu teks pendek; moderator menyiapkan 1–3 pertanyaan terbuka; sesi dibuka dengan giliran bicara, lalu moderator bertanya \"Kenapa?\" dan \"Lalu apa akibatnya?\" dan mengarahkan orang untuk saling menanggapi (\"Rina, bagaimana pandanganmu nyambung dengan pandangan Dimas?\"); sesi berakhir dengan memetakan posisi masing-masing, tanpa memaksakan kesepakatan. Gilir moderatornya. Kalau moderator menjawab pertanyaannya sendiri setelah sepuluh detik hening, seminarnya sudah berubah menjadi kuliah."
-        },
-        {
-         "en": "<b>WhatsApp decisions.</b> Replace “Ada yang keberatan?” with a poll or “Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00”. Move disagreements to japri or a call. Before replying to a long message, restate its main point in one line. For forwarded claims, look up the facts rather than arguing about them.",
-         "id": "<b>Keputusan lewat WhatsApp.</b> Ganti \"Ada yang keberatan?\" dengan polling atau \"Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00\". Pindahkan perbedaan pendapat ke japri atau telepon. Sebelum membalas pesan yang panjang, ulangi poin utamanya dalam satu baris. Untuk klaim yang diteruskan, cek faktanya alih-alih memperdebatkannya."
-        }
-       ]
-      },
-      {
-       "icon": "flag",
-       "h": {
-        "en": "When it gets heated",
-        "id": "Ketika suasana memanas"
-       },
-       "body": {
-        "en": "Warning signs, in yourself or others: raised voice; repeating the same point louder; sarcasm; mocking; baiting; over-certainty; attacking the person. In Gottman's research, contempt (sarcasm, mockery) is one of the strongest predictors of relationship breakdown. <b>You're heating up:</b> pause. “Boleh kita lanjut besok? Saya mau pikirkan dulu.” Gottman's work suggests a break of about 20 minutes when physiologically flooded. Use 5.2's tools to let your body finish. <b>They're heating up:</b> acknowledge the feeling first (AVEC empathy), then return to the question. <b>It has become personal:</b> suspend the topic and repair the relationship first (a personal conversation), then return to the decision.",
-        "id": "Tanda-tandanya, pada dirimu atau orang lain: suara meninggi; mengulang poin yang sama makin keras; sindiran; ejekan; memancing emosi; terlalu yakin; menyerang orangnya. Dalam penelitian Gottman, sikap merendahkan (sindiran, ejekan) adalah salah satu prediktor terkuat rusaknya hubungan. <b>Kamu mulai panas:</b> berhenti sejenak. \"Boleh kita lanjut besok? Saya mau pikirkan dulu.\" Penelitian Gottman menyarankan jeda sekitar 20 menit ketika tubuh sedang kewalahan secara fisiologis. Pakai alat-alat dari 5.2 untuk membiarkan tubuhmu menuntaskannya. <b>Dia mulai panas:</b> akui perasaannya dulu (empati dalam AVEC), lalu kembali ke pertanyaannya. <b>Sudah jadi urusan pribadi:</b> tunda topiknya dan perbaiki hubungannya dulu (percakapan pribadi), lalu kembali ke keputusannya."
-       },
-       "after": [
-        {
-         "en": "<b>Where we correct the source.</b> Adler says emotion has no place in impersonal argument. Modern research disagrees: suppressing emotion has social and physical costs, and emotions carry information (5.2). Keep his useful core, <i>argument is not aggression</i>, and drop the rest: notice, name, regulate, then reason.",
-         "id": "<b>Bagian yang kami koreksi dari sumbernya.</b> Adler berpendapat emosi tidak punya tempat dalam argumen yang tidak bersifat pribadi. Penelitian modern tidak sependapat: menekan emosi punya biaya sosial dan fisik, dan emosi membawa informasi (5.2). Ambil intinya yang berguna, <i>berargumen bukan berarti menyerang</i>, dan tinggalkan sisanya: sadari, sebutkan, kelola, lalu bernalar."
-        }
-       ]
-      }
-     ],
-     "compare": [
-      {
-       "tag": {
-        "en": "The dashboard disagreement",
-        "id": "Beda pendapat soal dasbor"
-       },
-       "q": {
-        "en": "In a team call, Mbak Sari proposes a weekly delivery dashboard grouped by warehouse. Raka thinks it should be grouped by customer. What does he say?",
-        "id": "Dalam panggilan tim, Mbak Sari mengusulkan dasbor pengiriman mingguan yang dikelompokkan per gudang. Raka berpikir dasbor itu sebaiknya dikelompokkan per pelanggan. Apa yang ia katakan?"
-       },
-       "weak": {
-        "en": "“Tapi kalau per gudang kurang berguna sih, Mbak. Mending per customer.” (Then he goes quiet and complains to Dimas on WhatsApp afterwards.)",
-        "id": "\"Tapi kalau per gudang kurang berguna sih, Mbak. Mending per customer.\" (Lalu ia diam dan mengeluh ke Dimas lewat WhatsApp sesudahnya.)"
-       },
-       "strong": {
-        "en": "“Mbak, saya cek dulu ya: dashboard per gudang supaya kepala gudang bisa lihat performa timnya, betul?” (Sari confirms.) “Setuju tujuannya membantu perbaikan operasional. Satu hal yang mungkin relevan: tiga komplain terakhir datang dari dua customer besar, dan polanya lintas gudang. Bagaimana kalau tampilan utamanya per gudang, plus satu tab per customer untuk lima customer teratas? Kalau tidak sempat minggu ini, saya bisa catat sebagai usulan untuk versi berikutnya.”",
-        "id": "\"Mbak, saya cek dulu ya: dashboard per gudang supaya kepala gudang bisa lihat performa timnya, betul?\" (Mbak Sari membenarkan.) \"Setuju tujuannya membantu perbaikan operasional. Satu hal yang mungkin relevan: tiga komplain terakhir datang dari dua customer besar, dan polanya lintas gudang. Bagaimana kalau tampilan utamanya per gudang, plus satu tab per customer untuk lima customer teratas? Kalau tidak sempat minggu ini, saya bisa catat sebagai usulan untuk versi berikutnya.\""
-       },
-       "why": {
-        "en": "Raka restates first (rung 2) and agrees on the principle (rung 4). He offers his ground as information (rung 5, missing info), proposes a both/and option, and leaves room for the senior's decision (rung 6). The weak version disagrees before understanding, then turns the disagreement into a private grievance.",
-        "id": "Raka mengulang dulu (anak tangga 2) dan menyepakati prinsipnya (anak tangga 4). Ia menawarkan dasarnya sebagai informasi (anak tangga 5, informasi yang kurang), mengusulkan pilihan yang memadukan keduanya, dan memberi ruang bagi keputusan seniornya (anak tangga 6). Versi yang lemah tidak setuju sebelum memahami, lalu mengubah ketidaksetujuannya menjadi keluhan di belakang."
-       }
-      }
-     ],
-     "scenario": {
-      "icon": "chat",
-      "placement": "after-sections",
-      "title": {
-       "en": "In focus: the silent “yes”",
-       "id": "Sorotan: \"ya\" dalam diam"
-      },
-      "body": [
-       {
-        "en": "The trainees' WhatsApp group: Bu Wulan posts a new reporting schedule and asks “Ada yang keberatan?” Nobody replies, so the schedule stands. Three days later, two trainees miss the Friday deadline. The schedule clashed with the warehouse stock-count everyone knew about but nobody mentioned.",
-        "id": "Grup WhatsApp para trainee: Bu Wulan mengunggah jadwal pelaporan baru dan bertanya, \"Ada yang keberatan?\" Tidak ada yang membalas, jadi jadwalnya berlaku. Tiga hari kemudian, dua trainee melewatkan tenggat hari Jumat. Jadwalnya bentrok dengan stock opname gudang yang sebenarnya diketahui semua orang, tetapi tidak ada yang menyebutkannya."
-       },
-       {
-        "en": "At the retrospective, Raka suggests a small change: decisions in the group get a numbered reply (“1 setuju / 2 tidak / 3 ada catatan”) with a deadline, and the trainees speak first in the Monday stand-up. Bu Wulan tries it the next week. Two “3 ada catatan” replies surface a holiday clash before it costs anyone a deadline.",
-        "id": "Dalam rapat evaluasi, Raka mengusulkan perubahan kecil: keputusan di grup dijawab dengan balasan bernomor (\"1 setuju / 2 tidak / 3 ada catatan\") lengkap dengan tenggatnya, dan para trainee bicara lebih dulu di stand-up hari Senin. Bu Wulan mencobanya minggu berikutnya. Dua balasan \"3 ada catatan\" memunculkan bentrokan dengan hari libur sebelum ada yang sampai melewatkan tenggat."
-       }
-      ]
-     },
-     "steps": [
-      {
-       "h": {
-        "en": "Drill 1: Restate-before-you-respond triads (20 min, with two friends)",
-        "id": "Latihan 1: Bertiga, ulangi dulu sebelum menanggapi (20 menit, dengan dua teman)"
-       },
-       "body": {
-        "en": "Speaker gives a 90-second view on a mild campus issue (for example, “Should attendance count toward grades?”). Listener restates position and reasons until the speaker confirms; only then responds. Observer counts loops and notes any “smuggled rebuttal” (“so you're saying, naively…”). Rotate roles.",
-        "id": "Pembicara menyampaikan pandangan selama 90 detik tentang isu kampus yang ringan (misalnya, \"Apakah kehadiran sebaiknya dihitung dalam nilai?\"). Pendengar mengulang posisi dan alasannya sampai pembicara membenarkan, baru kemudian menanggapi. Pengamat menghitung berapa kali putaran dan mencatat \"bantahan yang diselundupkan\" (\"jadi maksudmu, dengan naifnya…\"). Bergantian peran."
-       },
-       "debrief": {
-        "en": "Most people need two or three loops at first, and leave out the reasons. If you got the conclusion but not the “because”, you haven't understood yet; you've only heard.",
-        "id": "Kebanyakan orang awalnya butuh dua atau tiga putaran, dan lupa menyertakan alasannya. Kalau kamu menangkap kesimpulannya tetapi tidak menangkap \"karena\"-nya, kamu belum memahami; kamu baru mendengar."
-       }
-      },
-      {
-       "h": {
-        "en": "Drill 2: Purpose Picker before a real conversation (10 min)",
-        "id": "Latihan 2: Pemilih Tujuan sebelum percakapan sungguhan (10 menit)"
-       },
-       "body": {
-        "en": "Pick an upcoming important talk (with a parent, supervisor or teammate) and complete the planner below: type, success sentence, right time and place, opening line.",
-        "id": "Pilih satu obrolan penting yang akan datang (dengan orang tua, atasan, atau rekan tim) dan lengkapi perencana di bawah: jenis, kalimat keberhasilan, waktu dan tempat yang tepat, kalimat pembuka."
-       },
-       "debrief": {
-        "en": "Afterwards, check: did it end in the state you named? Mismatches usually happen in the first two minutes. That's why the opening line matters.",
-        "id": "Sesudahnya, periksa: apakah percakapannya berakhir di keadaan yang kamu sebutkan? Salah jenis biasanya terjadi di dua menit pertama. Karena itulah kalimat pembuka penting."
-       }
-      },
-      {
-       "h": {
-        "en": "Drill 3: Ladder a live disagreement (30 min)",
-        "id": "Latihan 3: Naiki tangga untuk ketidaksetujuan yang sedang terjadi (30 menit)"
-       },
-       "body": {
-        "en": "Take a real disagreement in a group project or organisation. Work through rungs 0–6 in writing, then in a short call. End with a shared statement posted to the group: “We agree on ___; we differ on ___ because ___; we'll do ___; review on ___.”",
-        "id": "Ambil satu ketidaksetujuan nyata di kerja kelompok atau organisasimu. Kerjakan anak tangga 0–6 secara tertulis, lalu dalam panggilan singkat. Akhiri dengan pernyataan bersama yang diunggah ke grup: \"Kita sepakat soal ___; kita beda soal ___ karena ___; kita akan menjalankan ___; ditinjau lagi tanggal ___.\""
-       },
-       "debrief": {
-        "en": "If everyone signs off on the statement, you've reached understood disagreement, which is a real outcome, not a failure.",
-        "id": "Kalau semua orang menyetujui pernyataan itu, kalian sudah mencapai ketidaksetujuan yang saling dipahami, dan itu hasil yang nyata, bukan kegagalan."
-       }
-      },
-      {
-       "h": {
-        "en": "Drill 4: Fact, taste or arguable? (10 min sorting drill)",
-        "id": "Latihan 4: Fakta, selera, atau bisa diperdebatkan? (latihan memilah 10 menit)"
-       },
-       "body": {
-        "en": "Sort the statements in the resource-kit worksheet (for example “Kopi di kantin enak banget”, “UMP Jakarta tahun ini naik sekian persen”, “Magang tidak dibayar itu eksploitatif”, “Kita harus pakai Notion bukan Trello”) into fact to look up, taste to note, or arguable with reasons. Then check the answer key on the card.",
-        "id": "Pilah pernyataan-pernyataan di lembar kerja perlengkapan (misalnya \"Kopi di kantin enak banget\", \"UMP Jakarta tahun ini naik sekian persen\", \"Magang tidak dibayar itu eksploitatif\", \"Kita harus pakai Notion bukan Trello\") ke dalam fakta yang perlu dicek, selera yang cukup dicatat, atau hal yang bisa diperdebatkan dengan alasan. Lalu cocokkan dengan kunci jawaban di kartunya."
-       },
-       "debrief": {
-        "en": "The wage claim is a fact to look up, not a debate. The tool choice is a practical decision to make with criteria. The internship claim is genuinely arguable, so bring reasons.",
-        "id": "Klaim soal upah adalah fakta yang perlu dicek, bukan bahan debat. Pilihan alat kerja adalah keputusan praktis yang diambil dengan kriteria. Klaim soal magang memang bisa diperdebatkan, jadi bawalah alasan."
-       }
-      }
-     ],
-     "mistakes": {
-      "title": {
-       "en": "Common mistakes",
-       "id": "Kesalahan yang sering terjadi"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Disagreeing before you understand",
-         "id": "Tidak setuju sebelum memahami"
-        },
-        "fix": {
-         "en": "Restate with reasons first; only respond after they confirm.",
-         "id": "Ulangi beserta alasannya dulu; tanggapi hanya setelah ia membenarkan."
-        }
-       },
-       {
-        "h": {
-         "en": "Arguing about facts",
-         "id": "Memperdebatkan fakta"
-        },
-        "fix": {
-         "en": "Look them up. Argue about what follows from them.",
-         "id": "Cek faktanya. Perdebatkan apa yang mengikuti dari fakta itu."
-        }
-       },
-       {
-        "h": {
-         "en": "Reading silence as agreement",
-         "id": "Menganggap diam sebagai setuju"
-        },
-        "fix": {
-         "en": "Round-robin, juniors first, or a numbered poll with a deadline.",
-         "id": "Giliran bicara dimulai dari yang paling junior, atau polling bernomor dengan tenggat."
-        }
-       },
-       {
-        "h": {
-         "en": "Restating with a hidden jab",
-         "id": "Mengulang sambil menyindir diam-diam"
-        },
-        "fix": {
-         "en": "A restatement the other person would happily sign. Save your view for afterwards.",
-         "id": "Ulangi dengan cara yang akan ditandatangani pihak lain dengan senang hati. Simpan pandanganmu untuk sesudahnya."
-        }
-       },
-       {
-        "h": {
-         "en": "Moderator answering their own question",
-         "id": "Moderator menjawab pertanyaannya sendiri"
-        },
-        "fix": {
-         "en": "Rephrase, give an example, or ask people in turn.",
-         "id": "Ulangi dengan kalimat lain, beri contoh, atau tanyakan kepada orang-orang secara bergiliran."
-        }
-       }
-      ]
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "active listening",
-        "id": "mendengarkan secara aktif"
-       },
-       "def": {
-        "en": "Working to rebuild the speaker's meaning and checking it, not just staying quiet.",
-        "id": "Bekerja menyusun ulang maksud pembicara lalu memeriksanya, bukan sekadar diam."
-       }
-      },
-      {
-       "term": {
-        "en": "restatement",
-        "id": "pengulangan"
-       },
-       "def": {
-        "en": "Saying their view and reasons in your own words until they confirm.",
-        "id": "Menyampaikan pandangan dan alasannya dengan kata-katamu sendiri sampai ia membenarkan."
-       }
-      },
-      {
-       "term": {
-        "en": "apparent disagreement",
-        "id": "ketidaksetujuan semu"
-       },
-       "def": {
-        "en": "A misunderstanding that looks like a disagreement.",
-        "id": "Salah paham yang terlihat seperti ketidaksetujuan."
-       }
-      },
-      {
-       "term": {
-        "en": "understood disagreement",
-        "id": "ketidaksetujuan yang saling dipahami"
-       },
-       "def": {
-        "en": "Each side can state the other's view and reasons; a decision can still be made.",
-        "id": "Masing-masing pihak bisa menyebutkan pandangan dan alasan pihak lain; keputusan tetap bisa diambil."
-       }
-      },
-      {
-       "term": {
-        "en": "principle / policy / case",
-        "id": "prinsip / kebijakan / kasus"
-       },
-       "def": {
-        "en": "Shared goal / general approach / this specific situation: three levels at which people can differ.",
-        "id": "Tujuan bersama / pendekatan umum / situasi spesifik ini: tiga tingkat tempat orang bisa berbeda pendapat."
-       }
-      },
-      {
-       "term": {
-        "en": "false consensus",
-        "id": "kesepakatan palsu"
-       },
-       "def": {
-        "en": "“Agreement” because nobody objected.",
-        "id": "\"Kesepakatan\" karena tidak ada yang keberatan."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "In a group call, Dimas says “Let's drop the survey and just do interviews.” Sari immediately replies “No, interviews take too long.” What should Sari have done first?",
-        "id": "Dalam panggilan kelompok, Dimas berkata, \"Kita batalkan surveinya dan wawancara saja.\" Sari langsung membalas, \"Jangan, wawancara terlalu lama.\" Apa yang seharusnya dilakukan Sari lebih dulu?"
-       },
-       "options": [
-        {
-         "en": "Called a vote",
-         "id": "Mengadakan voting"
-        },
-        {
-         "en": "Restated Dimas's proposal and his reasons, and checked she had it right",
-         "id": "Mengulang usulan Dimas beserta alasannya, lalu memastikan pemahamannya sudah benar"
-        },
-        {
-         "en": "Cited the lecturer's preference",
-         "id": "Mengutip preferensi dosen"
-        },
-        {
-         "en": "Agreed to keep the peace",
-         "id": "Setuju supaya suasana tetap damai"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Disagreeing before understanding risks arguing with a misunderstanding. Dimas may have reasons about data quality.",
-        "id": "Tidak setuju sebelum memahami berisiko memperdebatkan salah paham. Dimas mungkin punya alasan soal kualitas data."
-       }
-      },
-      {
-       "q": {
-        "en": "Two HIMA members argue for 30 minutes about whether last year's event had 300 or 450 attendees. Best advice?",
-        "id": "Dua anggota HIMA berdebat selama 30 menit soal apakah acara tahun lalu dihadiri 300 atau 450 orang. Saran terbaiknya?"
-       },
-       "options": [
-        {
-         "en": "Let the senior decide",
-         "id": "Biarkan senior yang memutuskan"
-        },
-        {
-         "en": "Keep debating until someone concedes",
-         "id": "Terus berdebat sampai ada yang mengalah"
-        },
-        {
-         "en": "Check the records; discuss only what would follow if each number were true",
-         "id": "Cek catatannya; bahas hanya apa akibatnya kalau masing-masing angka itu benar"
-        },
-        {
-         "en": "Vote",
-         "id": "Voting"
-        }
-       ],
-       "correct": 2,
-       "why": {
-        "en": "Facts are settled by looking them up, not by argument or votes.",
-        "id": "Fakta diselesaikan dengan mengeceknya, bukan dengan berdebat atau voting."
-       }
-      },
-      {
-       "q": {
-        "en": "The ketua asks “Ada yang keberatan?” and nobody responds. Best interpretation and action?",
-        "id": "Ketua bertanya, \"Ada yang keberatan?\" dan tidak ada yang menjawab. Tafsiran dan tindakan terbaiknya?"
-       },
-       "options": [
-        {
-         "en": "Unanimous agreement; proceed",
-         "id": "Semua setuju; lanjutkan"
-        },
-        {
-         "en": "Possibly false consensus driven by sungkan; ask each person in turn, juniors first, or run a numbered poll",
-         "id": "Mungkin kesepakatan palsu karena sungkan; tanyakan kepada setiap orang secara bergiliran, dimulai dari yang paling junior, atau adakan polling bernomor"
-        },
-        {
-         "en": "Members don't care; cancel",
-         "id": "Anggota tidak peduli; batalkan"
-        },
-        {
-         "en": "Postpone indefinitely",
-         "id": "Tunda tanpa batas waktu"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Silence under power distance is not a meeting of minds.",
-        "id": "Diam di tengah jarak kuasa yang tinggi bukanlah titik temu pikiran."
-       }
-      },
-      {
-       "q": {
-        "en": "You and a teammate agree the event should be welcoming for maba but disagree on whether it should be free. What is this?",
-        "id": "Kamu dan rekan timmu sepakat bahwa acaranya harus ramah bagi maba, tetapi tidak sepakat soal apakah acaranya harus gratis. Ini termasuk apa?"
-       },
-       "options": [
-        {
-         "en": "Disagreement on principle",
-         "id": "Ketidaksetujuan soal prinsip"
-        },
-        {
-         "en": "Agreement on principle, disagreement on policy: work through costs and effects, then decide",
-         "id": "Sepakat soal prinsip, tidak sepakat soal kebijakan: bahas biaya dan dampaknya, lalu putuskan"
-        },
-        {
-         "en": "Apparent disagreement only",
-         "id": "Hanya ketidaksetujuan semu"
-        },
-        {
-         "en": "A matter of taste",
-         "id": "Soal selera"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Naming the level keeps the shared goal visible and the difference workable.",
-        "id": "Menyebut tingkatnya membuat tujuan bersama tetap terlihat dan perbedaannya bisa ditangani."
-       }
-      },
-      {
-       "q": {
-        "en": "Rina tells her mentor she feels she doesn't belong at her internship. The mentor replies with a pros-and-cons table. What went wrong?",
-        "id": "Rina bercerita kepada mentornya bahwa ia merasa tidak cocok di tempat magangnya. Mentornya membalas dengan tabel untung-rugi. Apa yang salah?"
-       },
-       "options": [
-        {
-         "en": "The mentor didn't take notes",
-         "id": "Mentornya tidak mencatat"
-        },
-        {
-         "en": "A personal conversation was treated as a decision conversation",
-         "id": "Percakapan pribadi diperlakukan sebagai percakapan keputusan"
-        },
-        {
-         "en": "The mentor should have argued harder",
-         "id": "Mentornya seharusnya berargumen lebih keras"
-        },
-        {
-         "en": "Nothing; analysis always helps",
-         "id": "Tidak ada; analisis selalu membantu"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Type mismatch. AVEC comes before problem-solving in a personal conversation.",
-        "id": "Salah jenis. Dalam percakapan pribadi, AVEC datang sebelum pemecahan masalah."
-       }
-      }
-     ],
-     "tool": {
-      "id": "plan",
-      "mode": "plan",
-      "title": {
-       "en": "Conversation Planner + Disagreement Ladder: Plan section 5",
-       "id": "Perencana Percakapan + Tangga Ketidaksetujuan: Rencana bagian 5"
-      },
-      "body": {
-       "en": "Plan the type and opening of your next important conversation, work a disagreement up the ladder, and draft the shared summary for the group. Saved on this device.",
-       "id": "Rencanakan jenis dan pembuka percakapan pentingmu berikutnya, bawa satu ketidaksetujuan menaiki tangga, dan susun draf ringkasan bersama untuk kelompok. Tersimpan di perangkat ini."
-      },
-      "sections": [
-       {
-        "id": "convo",
-        "title": {
-         "en": "5 · Conversations",
-         "id": "5 · Percakapan"
-        },
-        "lead": {
-         "en": "One real conversation and one real disagreement.",
-         "id": "Satu percakapan nyata dan satu ketidaksetujuan nyata."
-        },
-        "fields": [
-         {
-          "id": "picker",
-          "label": {
-           "en": "Purpose Picker: “This is a ___ conversation with ___; success = ___.” Time and place. Opening line.",
-           "id": "Pemilih Tujuan: \"Ini percakapan ___ dengan ___; berhasil = ___.\" Waktu dan tempat. Kalimat pembuka."
-          },
-          "hint": {
-           "en": "e.g. personal, then decision next week · Ibu · success = she feels heard · Sunday after lunch · “Bu, aku ingin cerita dulu, belum minta keputusan.”",
-           "id": "mis. pribadi, lalu keputusan minggu depan · Ibu · berhasil = Ibu merasa didengar · Minggu sesudah makan siang · \"Bu, aku ingin cerita dulu, belum minta keputusan.\""
-          },
-          "rows": 3
-         },
-         {
-          "id": "ladder",
-          "label": {
-           "en": "The ladder for one disagreement: rung 0 arguable? · 1 facts to check · 2 their view and reasons · 3 same question? · 4 level · 5 my ground · 6 close",
-           "id": "Tangga untuk satu ketidaksetujuan: anak tangga 0 bisa diperdebatkan? · 1 fakta yang perlu dicek · 2 pandangan dan alasannya · 3 pertanyaan yang sama? · 4 tingkat · 5 dasarku · 6 tutup"
-          },
-          "hint": {
-           "en": "e.g. arguable · check last year's attendance · Sari: by warehouse so heads can act · yes · agree on goal, differ on policy · complaints cluster by customer · main view by warehouse + top-5 customer tab, review in 2 weeks",
-           "id": "mis. bisa diperdebatkan · cek jumlah hadirin tahun lalu · Mbak Sari: per gudang supaya kepala gudang bisa bertindak · ya · sepakat soal tujuan, beda soal kebijakan · komplain menumpuk per pelanggan · tampilan utama per gudang + tab lima pelanggan teratas, ditinjau 2 minggu lagi"
-          },
-          "rows": 5
-         },
-         {
-          "id": "summary",
-          "label": {
-           "en": "Shared statement for the group: “We agree on ___; we differ on ___ because ___; we'll do ___; review on ___.”",
-           "id": "Pernyataan bersama untuk kelompok: \"Kita sepakat soal ___; kita beda soal ___ karena ___; kita akan menjalankan ___; ditinjau lagi tanggal ___.\""
-          },
-          "hint": {
-           "en": "",
-           "id": ""
-          },
-          "rows": 3
-         },
-         {
-          "id": "senior",
-          "label": {
-           "en": "My five-step script for disagreeing with a senior (shared goal · restate · ground as information · propose · leave room)",
-           "id": "Naskah lima langkahku untuk tidak setuju dengan senior (tujuan bersama · ulangi · dasar sebagai informasi · usulkan · beri ruang)"
-          },
-          "hint": {
-           "en": "e.g. “Saya setuju tujuannya…” · “Kalau saya tangkap…” · “Ada satu data…” · “Bagaimana kalau…” · “Tentu keputusan di Ibu…”",
-           "id": "mis. \"Saya setuju tujuannya…\" · \"Kalau saya tangkap…\" · \"Ada satu data…\" · \"Bagaimana kalau…\" · \"Tentu keputusan di Ibu…\""
-          },
-          "rows": 3
-         }
-        ]
-       }
-      ]
-     },
-     "resources": {
-      "title": {
-       "en": "Resource kit · 5.4",
-       "id": "Perlengkapan · 5.4"
-      },
-      "lead": {
-       "en": "Cards for meetings, group chats and hard conversations. Everything stays on your device.",
-       "id": "Kartu untuk rapat, grup chat, dan percakapan sulit. Semuanya tersimpan di perangkatmu."
-      },
-      "items": [
-       {
-        "kind": "checklist",
-        "title": {
-         "en": "Meeting Rules Card",
-         "id": "Kartu Aturan Rapat"
-        },
-        "desc": {
-         "en": "Pin it to the notulen template.",
-         "id": "Tempelkan di templat notulen."
-        },
-        "body": [
-         {
-          "en": "Open with the question and what success means, by when; recap previous decisions in two minutes",
-          "id": "Buka dengan pertanyaannya dan arti berhasil, beserta tenggatnya; rangkum keputusan sebelumnya dalam dua menit"
-         },
-         {
-          "en": "Round-robin, juniors first: one minute each before discussion",
-          "id": "Giliran bicara dimulai dari yang paling junior: masing-masing satu menit sebelum diskusi"
-         },
-         {
-          "en": "Clarifying questions first, objections second",
-          "id": "Pertanyaan klarifikasi dulu, keberatan belakangan"
-         },
-         {
-          "en": "Facts get looked up; tastes get noted; arguable points get reasons",
-          "id": "Fakta dicek; selera dicatat; poin yang bisa diperdebatkan disertai alasan"
-         },
-         {
-          "en": "Settled is settled: write it down",
-          "id": "Yang sudah diputuskan tidak dibuka lagi: tuliskan"
-         },
-         {
-          "en": "Close with decision, owner, deadline, and dissent recorded",
-          "id": "Tutup dengan keputusan, penanggung jawab, tenggat, dan perbedaan pendapat yang tercatat"
-         }
-        ]
-       },
-       {
-        "kind": "script",
-        "title": {
-         "en": "WhatsApp decision script",
-         "id": "Naskah keputusan lewat WhatsApp"
-        },
-        "desc": {
-         "en": "Replace “Ada yang keberatan?”",
-         "id": "Pengganti \"Ada yang keberatan?\""
-        },
-        "body": [
-         {
-          "en": "“Usulan: ___. Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00.”",
-          "id": "\"Usulan: ___. Mohon reply: 1 setuju / 2 tidak setuju / 3 ada catatan, sebelum 20.00.\""
-         },
-         {
-          "en": "Disagreements move to japri or a call",
-          "id": "Perbedaan pendapat dipindah ke japri atau telepon"
-         },
-         {
-          "en": "Before replying to a long message, restate its main point in one line",
-          "id": "Sebelum membalas pesan yang panjang, ulangi poin utamanya dalam satu baris"
-         },
-         {
-          "en": "Forwarded claims: look up the facts, don't argue them",
-          "id": "Klaim yang diteruskan: cek faktanya, jangan diperdebatkan"
-         }
-        ]
-       },
-       {
-        "kind": "worksheet",
-        "title": {
-         "en": "Fact, taste or arguable? (with key)",
-         "id": "Fakta, selera, atau bisa diperdebatkan? (dengan kunci jawaban)"
-        },
-        "desc": {
-         "en": "Sort first, then read the key.",
-         "id": "Pilah dulu, lalu baca kuncinya."
-        },
-        "body": [
-         {
-          "en": "“Kopi di kantin enak banget” → taste: note it, don't argue",
-          "id": "\"Kopi di kantin enak banget\" → selera: catat saja, jangan diperdebatkan"
-         },
-         {
-          "en": "“UMP Jakarta tahun ini naik sekian persen” → fact: look it up",
-          "id": "\"UMP Jakarta tahun ini naik sekian persen\" → fakta: cek datanya"
-         },
-         {
-          "en": "“Magang tidak dibayar itu eksploitatif” → arguable: bring reasons and definitions",
-          "id": "\"Magang tidak dibayar itu eksploitatif\" → bisa diperdebatkan: bawa alasan dan definisinya"
-         },
-         {
-          "en": "“Kita harus pakai Notion bukan Trello” → practical decision: agree criteria, then choose",
-          "id": "\"Kita harus pakai Notion bukan Trello\" → keputusan praktis: sepakati kriterianya, lalu pilih"
-         },
-         {
-          "en": "“Dosen itu nggak suka sama aku” → interpretation: check the facts first (5.5)",
-          "id": "\"Dosen itu nggak suka sama aku\" → tafsiran: cek faktanya dulu (5.5)"
-         }
-        ]
-       },
-       {
-        "kind": "guide",
-        "title": {
-         "en": "Study-group seminar (60–90 min)",
-         "id": "Seminar kelompok belajar (60–90 menit)"
-        },
-        "desc": {
-         "en": "Diskusi Sokratik, rotating moderator.",
-         "id": "Diskusi Sokratik, moderator bergilir."
-        },
-        "body": [
-         {
-          "en": "Everyone reads a short text beforehand",
-          "id": "Semua orang membaca satu teks pendek sebelumnya"
-         },
-         {
-          "en": "Moderator prepares 1–3 open questions",
-          "id": "Moderator menyiapkan 1–3 pertanyaan terbuka"
-         },
-         {
-          "en": "Round-robin opening, then “Why?” and “What follows?”",
-          "id": "Dibuka dengan giliran bicara, lalu \"Kenapa?\" dan \"Lalu apa akibatnya?\""
-         },
-         {
-          "en": "Point people at each other: “Rina, how does your view fit with Dimas's?”",
-          "id": "Arahkan orang untuk saling menanggapi: \"Rina, bagaimana pandanganmu nyambung dengan pandangan Dimas?\""
-         },
-         {
-          "en": "End by mapping positions; no forced consensus",
-          "id": "Akhiri dengan memetakan posisi; tanpa memaksakan kesepakatan"
-         }
-        ]
-       },
-       {
-        "kind": "guide",
-        "title": {
-         "en": "Further reading",
-         "id": "Bacaan lanjutan"
-        },
-        "desc": {
-         "en": "The source behind this lesson.",
-         "id": "Sumber di balik pelajaran ini."
-        },
-        "body": [
-         {
-          "en": "Adler, How to Speak, How to Listen: listening, conversation types, understanding before judging, seminars",
-          "id": "Adler, How to Speak, How to Listen: mendengarkan, jenis-jenis percakapan, memahami sebelum menilai, seminar"
-         },
-         {
-          "en": "Research on conversational receptiveness and hidden profiles (summarised in the evidence notes above)",
-          "id": "Penelitian tentang keterbukaan dalam percakapan dan profil tersembunyi (dirangkum dalam catatan bukti di atas)"
-         }
-        ]
-       }
-      ]
-     },
-     "takeawaysLead": {
-      "en": "Three things to carry into 5.5, where the change comes from technology:",
-      "id": "Tiga hal untuk dibawa ke 5.5, tempat perubahannya datang dari teknologi:"
-     },
-     "takeaways": [
-      {
-       "en": "Understand before you judge: restate their view and reasons until they confirm.",
-       "id": "Pahami dulu sebelum menilai: ulangi pandangan dan alasannya sampai ia membenarkan."
-      },
-      {
-       "en": "Know which conversation you're having (social, personal, understanding or decision) and what success means.",
-       "id": "Ketahui percakapan apa yang sedang kamu jalani (sosial, pribadi, pemahaman, atau keputusan) dan apa arti berhasilnya."
-      },
-      {
-       "en": "Silence isn't agreement. Ask everyone, juniors first, and write down the decision and the dissent.",
-       "id": "Diam bukan berarti setuju. Tanyakan kepada semua orang, dimulai dari yang paling junior, dan catat keputusan serta perbedaan pendapatnya."
-      }
-     ]
+     }
     },
     {
      "n": "5.5",
@@ -16845,244 +17266,6 @@ window.MT_LMS['the-map'] = {
         "en": "Change reaches conversations months before it reaches curricula. Three or four practitioners you can ask “what's actually changing in your team?” form an early-warning system no course provides. Build it the way 4.3 taught: small specific asks, genuine homework, gratitude. In return, share what you learn. A network is fed by both directions. Basecamp and mentor sessions inside Metanoia are designed as this layer.",
         "id": "Perubahan sampai ke percakapan berbulan-bulan sebelum sampai ke kurikulum. Tiga atau empat praktisi yang bisa kamu tanya \"apa yang sebenarnya sedang berubah di timmu?\" membentuk sistem peringatan dini yang tidak disediakan kursus mana pun. Bangun jaringan itu seperti yang diajarkan di 4.3: permintaan kecil yang spesifik, pekerjaan rumah yang sungguhan, dan ucapan terima kasih. Sebagai balasannya, bagikan apa yang kamu pelajari. Jaringan diberi makan dari dua arah. Basecamp dan sesi mentor di Metanoia dirancang sebagai lapisan ini."
        }
-      }
-     ],
-     "material": [
-      {
-       "placement": "end:10",
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "Digital Toolkit: Material",
-        "id": "Perangkat Digital: Materi"
-       },
-       "intro": {
-        "en": "Three slides from the Digital Toolkit, the source course's own opener for this chapter. They frame the digital world the four anchors are built for (emerging technologies, AI, data and analytics, automation, digital collaboration, business transformation), tell you how to use the material whether you are experienced or new to digital, and end with a reflection: the most recent digital project you were part of, or watched others lead. What made it memorable, and what promise for the future did it hold?",
-        "id": "Tiga slide dari Perangkat Digital, pembuka bab ini dari kursus sumbernya. Slide-slide ini menggambarkan dunia digital yang menjadi latar empat jangkar tadi (teknologi baru, AI, data dan analitik, otomatisasi, kolaborasi digital, transformasi bisnis), memberi tahu cara memakai materinya entah kamu sudah berpengalaman atau baru mengenal dunia digital, dan ditutup dengan bahan renungan: proyek digital terbaru yang kamu ikuti, atau yang kamu lihat dipimpin orang lain. Apa yang membuatnya berkesan, dan janji masa depan apa yang dibawanya?"
-       },
-       "base": "../../assets/lms/the-map/slides/digital-toolkit-",
-       "slides": [
-        {
-         "title": {
-          "en": "Digital Toolkit",
-          "id": "Perangkat Digital"
-         },
-         "text": {
-          "en": "Chapter 5 · Digital Toolkit. Practical tools and resources to help you apply what you have learned and create a lasting impact. Tools: ready-to-use templates. Resources: guides and references. Application: put learning into practice.",
-          "id": "Bab 5 · Perangkat Digital. Alat dan bahan praktis untuk membantumu menerapkan apa yang sudah kamu pelajari dan menciptakan dampak yang bertahan lama. Alat: templat siap pakai. Bahan: panduan dan rujukan. Penerapan: mempraktikkan apa yang dipelajari."
-         }
-        },
-        {
-         "title": {
-          "en": "Introduction to the Digital Toolkit",
-          "id": "Pengantar Perangkat Digital"
-         },
-         "text": {
-          "en": "Module introduction. This module aims to help you understand the basics of the digital world and reflect on how it impacts our lives. It also encourages you to think about your role and skills in this evolving digital landscape. The digital world is changing rapidly. These changes not only affect our daily lives but also the needs of organizations. Many organizations now recognize the importance of being more digital, data-driven, and efficient. They need people with the right skills and mindsets. The landscape: emerging technologies, artificial intelligence (AI), data & analytics, automation, digital collaboration, business transformation. Who is this module for? Whether you're already familiar with the digital world or just starting to include it in your career, this module will help you. If you are experienced, dive into advanced concepts and sharpen your expertise, embracing the evolving nature of the digital landscape; continue to Lessons 5.6 and 5.7. If you are new to digital, use this module as a way to explore new concepts; identify topics that interest you and incorporate them into your personal digital learning plan. In this module, you'll learn to: 01. Identify different digital advancements and how they impact you. 02. Develop your digital toolkit based on the knowledge and skills you want to explore.",
-          "id": "Pengantar modul. Modul ini bertujuan membantumu memahami dasar-dasar dunia digital dan merenungkan bagaimana dunia itu memengaruhi hidup kita. Modul ini juga mengajakmu memikirkan peran dan keterampilanmu dalam lanskap digital yang terus berkembang. Dunia digital berubah dengan cepat. Perubahan ini tidak hanya memengaruhi kehidupan sehari-hari kita, tetapi juga kebutuhan organisasi. Banyak organisasi kini menyadari pentingnya menjadi lebih digital, berbasis data, dan efisien. Mereka butuh orang dengan keterampilan dan pola pikir yang tepat. Lanskapnya: teknologi baru, kecerdasan buatan (AI), data dan analitik, otomatisasi, kolaborasi digital, transformasi bisnis. Untuk siapa modul ini? Entah kamu sudah akrab dengan dunia digital atau baru mulai memasukkannya ke kariermu, modul ini akan membantumu. Kalau kamu sudah berpengalaman, dalami konsep-konsep lanjutan dan asah keahlianmu sambil merangkul sifat lanskap digital yang terus berubah; lanjutkan ke Pelajaran 5.6 dan 5.7. Kalau kamu baru mengenal dunia digital, pakai modul ini untuk menjelajahi konsep-konsep baru; temukan topik yang menarik bagimu dan masukkan ke rencana belajar digital pribadimu. Di modul ini, kamu akan belajar: 01. Mengenali berbagai kemajuan digital dan dampaknya bagimu. 02. Membangun perangkat digitalmu berdasarkan pengetahuan dan keterampilan yang ingin kamu jelajahi."
-         }
-        },
-        {
-         "title": {
-          "en": "Going digital is transforming our lives",
-          "id": "Dunia digital sedang mengubah hidup kita"
-         },
-         "text": {
-          "en": "Reflection. Going digital is transforming our personal and professional lives, helping us work together better, innovate, and solve urgent problems. Work together better; innovate faster; solve urgent problems; create new opportunities. Examples: smart cities, AI at work, digital collaboration, automation & efficiency. Reflection. As you watch this video, think about the most recent digital project you were part of at work or witnessed others leading. It could even be something you read about in an article or in the news. What made it so memorable to you? What promise for the future did it hold?",
-          "id": "Renungan. Dunia digital sedang mengubah kehidupan pribadi dan profesional kita, membantu kita bekerja sama lebih baik, berinovasi, dan memecahkan masalah yang mendesak. Bekerja sama lebih baik; berinovasi lebih cepat; memecahkan masalah yang mendesak; menciptakan peluang baru. Contoh: kota pintar, AI di tempat kerja, kolaborasi digital, otomatisasi dan efisiensi. Renungan. Sambil menonton video ini, pikirkan proyek digital terbaru yang kamu ikuti di tempat kerja atau yang kamu lihat dipimpin orang lain. Bisa juga sesuatu yang kamu baca di artikel atau berita. Apa yang membuatnya begitu berkesan bagimu? Janji masa depan apa yang dibawanya?"
-         }
-        }
-       ]
-      },
-      {
-       "placement": "end:30",
-       "kicker": {
-        "en": "Read last · 1 slide",
-        "id": "Baca terakhir · 1 slide"
-       },
-       "title": {
-        "en": "Opportunities Ahead: Material",
-        "id": "Peluang di Depan: Materi"
-       },
-       "intro": {
-        "en": "One slide. It lists innovations that are already changing daily life (cloud computing, AI, smart cities, digital payments, automation, data and analytics, remote work) and asks two reflection questions: which parts of your life digital has already changed, and which of those innovations you are most excited about, and why. Where the slide mentions a video, read on: the questions stand without it.",
-        "id": "Satu slide. Slide ini mendaftar inovasi yang sudah mengubah keseharian (komputasi awan, AI, kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh) dan mengajukan dua pertanyaan renungan: bagian hidupmu yang mana yang sudah diubah oleh dunia digital, dan inovasi mana yang paling membuatmu bersemangat, serta kenapa. Jika slide itu menyebut sebuah video, lanjutkan saja: pertanyaannya tetap bisa dijawab tanpanya."
-       },
-       "base": "../../assets/lms/the-map/slides/opportunities-ahead-",
-       "slides": [
-        {
-         "title": {
-          "en": "Opportunities ahead",
-          "id": "Peluang di depan"
-         },
-         "text": {
-          "en": "Opportunities ahead. Digital has played a large part in shaping our world today, and will continue to do so as we develop more and more fantastic innovations! As you watch this video, take a moment to think: what parts of your life have been impacted by digital? Which of the following digital innovations mentioned are you most excited about? Innovations shown: cloud computing, artificial intelligence (AI), smart cities, digital payments, automation, data & analytics, remote work. Reflection: 1. What parts of your life have been impacted by digital? 2. Which of the digital innovations mentioned are you most excited about, and why?",
-          "id": "Peluang di depan. Dunia digital berperan besar dalam membentuk dunia kita hari ini, dan akan terus begitu seiring kita mengembangkan makin banyak inovasi yang luar biasa! Sambil menonton video ini, luangkan waktu untuk berpikir: bagian hidupmu yang mana yang sudah dipengaruhi dunia digital? Inovasi digital mana yang disebut yang paling membuatmu bersemangat? Inovasi yang diperlihatkan: komputasi awan, kecerdasan buatan (AI), kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh. Renungan: 1. Bagian hidupmu yang mana yang sudah dipengaruhi dunia digital? 2. Inovasi digital mana yang disebut yang paling membuatmu bersemangat, dan kenapa?"
-         }
-        }
-       ]
-      },
-      {
-       "placement": "end:50",
-       "kicker": {
-        "en": "Read last · 3 slides",
-        "id": "Baca terakhir · 3 slide"
-       },
-       "title": {
-        "en": "How Has Digital Impacted Your Life: Material",
-        "id": "Bagaimana Dunia Digital Memengaruhi Hidupmu: Materi"
-       },
-       "intro": {
-        "en": "Three slides. The first asks about you: one new app, device or digital service you have started using, how it changed your life, and which benefits you gained, and it tells you the answer to the tick-list before you reach it. The second defines digital, data, technology and new ways of working, and the third goes deeper into data. Where the third slide mentions a video, read on: the next deck covers the same ground.",
-        "id": "Tiga slide. Slide pertama bertanya tentang dirimu: satu aplikasi, perangkat, atau layanan digital baru yang mulai kamu pakai, bagaimana itu mengubah hidupmu, dan manfaat apa yang kamu dapat; slide itu juga memberi tahu jawaban daftar centangnya sebelum kamu sampai ke sana. Slide kedua menjelaskan arti digital, data, teknologi, dan cara kerja baru, dan slide ketiga membahas data lebih dalam. Jika slide ketiga menyebut sebuah video, lanjutkan saja: rangkaian slide berikutnya membahas hal yang sama."
-       },
-       "base": "../../assets/lms/the-map/slides/digital-impact-",
-       "slides": [
-        {
-         "title": {
-          "en": "How has digital impacted your life?",
-          "id": "Bagaimana dunia digital memengaruhi hidupmu?"
-         },
-         "text": {
-          "en": "Reflection. What new app, device, or digital service have you started using? 1. How has this product impacted your life? What made you start using this in the first place? 2. Write a brief answer to the above questions in your workbook in Metanoia, then answer the question on the right. Areas shown: work & productivity, communication & collaboration, daily life & convenience, health & well-being, smart home & lifestyle. What benefits have you gained from using the new app, device, or service? Review the following statements, then select all that apply: it makes my work easier or more efficient; it helps me connect to friends, family, or colleagues; it allows me to get more relevant information to make better decisions; it solves a problem I didn't know I had; other benefits not mentioned here. Great! All of these benefits illustrate the value of digital. Going digital isn't just using new technology: it's combining technology with data and new ways of working to make better decisions, automate, connect, and improve our experiences as customers, employees, and members of our communities.",
-          "id": "Renungan. Aplikasi, perangkat, atau layanan digital baru apa yang mulai kamu pakai? 1. Bagaimana produk itu memengaruhi hidupmu? Apa yang membuatmu mulai memakainya? 2. Tulis jawaban singkat untuk pertanyaan di atas di buku kerjamu di Metanoia, lalu jawab pertanyaan di sebelah kanan. Bidang yang ditampilkan: kerja dan produktivitas, komunikasi dan kolaborasi, kehidupan sehari-hari dan kemudahan, kesehatan dan kesejahteraan, rumah pintar dan gaya hidup. Manfaat apa yang kamu dapat dari memakai aplikasi, perangkat, atau layanan baru itu? Tinjau pernyataan berikut, lalu pilih semua yang sesuai: membuat pekerjaanku lebih mudah atau efisien; membantuku terhubung dengan teman, keluarga, atau rekan kerja; memungkinkanku mendapat informasi yang lebih relevan untuk mengambil keputusan yang lebih baik; menyelesaikan masalah yang tidak kusadari sebelumnya; manfaat lain yang tidak disebutkan di sini. Bagus! Semua manfaat ini menggambarkan nilai dunia digital. Menjadi digital bukan sekadar memakai teknologi baru: menjadi digital berarti memadukan teknologi dengan data dan cara kerja baru untuk mengambil keputusan yang lebih baik, mengotomatiskan, terhubung, dan memperbaiki pengalaman kita sebagai pelanggan, karyawan, dan anggota masyarakat."
-         }
-        },
-        {
-         "title": {
-          "en": "What do we mean by digital?",
-          "id": "Apa yang kita maksud dengan digital?"
-         },
-         "text": {
-          "en": "Introduction. You know digital is transforming lives at home and at work. In this course, you'll explore what digital is: data, technology, and new ways of working that can help us maximize value. Data turns information into better decisions: how do new approaches to collecting and analyzing data help us better understand the people we serve, make better decisions faster, and develop new solutions? Technology accelerates impact and helps create new solutions: how do new technologies help accelerate impact and solve problems at work? Ways of working enable us to be more adaptable, collaborative, and productive: how do new ways of working enable us to meet people's needs better and more quickly?",
-          "id": "Pengantar. Kamu tahu dunia digital sedang mengubah kehidupan di rumah dan di tempat kerja. Di kursus ini, kamu akan menjelajahi apa itu digital: data, teknologi, dan cara kerja baru yang bisa membantu kita memaksimalkan nilai. Data mengubah informasi menjadi keputusan yang lebih baik: bagaimana pendekatan baru dalam mengumpulkan dan menganalisis data membantu kita lebih memahami orang-orang yang kita layani, mengambil keputusan yang lebih baik dengan lebih cepat, dan mengembangkan solusi baru? Teknologi mempercepat dampak dan membantu menciptakan solusi baru: bagaimana teknologi baru membantu mempercepat dampak dan memecahkan masalah di tempat kerja? Cara kerja baru membuat kita lebih mudah beradaptasi, berkolaborasi, dan produktif: bagaimana cara kerja baru memungkinkan kita memenuhi kebutuhan orang dengan lebih baik dan lebih cepat?"
-         }
-        },
-        {
-         "title": {
-          "en": "Data",
-          "id": "Data"
-         },
-         "text": {
-          "en": "Data. In a connected world, we create mountains of data as we use our devices. Organizations in every sector now rely on the flow and exchange of that data. Advanced analytical techniques can even create new data from patterns in existing information. We generate data everywhere. Every device, app, and interaction creates data. Organizations rely on data. Data flows and is exchanged across every sector. Analytics create new insights. Advanced techniques can uncover patterns and generate new data. Examples: consumer behavior (purchase patterns and preferences), smart cities (traffic, mobility, and urban planning), healthcare (better diagnosis and personalized care), sustainability (monitoring and optimizing resources), business decisions (faster, smarter, more accurate decisions). As you watch this video, pay attention to how creative people and organizations are finding new ways to use data. Do any of these ways sound familiar to you?",
-          "id": "Data. Di dunia yang saling terhubung, kita menciptakan segunung data setiap kali memakai perangkat kita. Organisasi di setiap sektor kini bergantung pada aliran dan pertukaran data itu. Teknik analitik lanjutan bahkan bisa menciptakan data baru dari pola dalam informasi yang sudah ada. Kita menghasilkan data di mana-mana. Setiap perangkat, aplikasi, dan interaksi menciptakan data. Organisasi bergantung pada data. Data mengalir dan dipertukarkan di setiap sektor. Analitik menciptakan wawasan baru. Teknik lanjutan bisa menemukan pola dan menghasilkan data baru. Contoh: perilaku konsumen (pola dan preferensi pembelian), kota pintar (lalu lintas, mobilitas, dan perencanaan kota), layanan kesehatan (diagnosis yang lebih baik dan perawatan yang dipersonalisasi), keberlanjutan (memantau dan mengoptimalkan sumber daya), keputusan bisnis (keputusan yang lebih cepat, cerdas, dan akurat). Sambil menonton video ini, perhatikan bagaimana orang dan organisasi yang kreatif menemukan cara-cara baru untuk memakai data. Adakah cara yang terdengar akrab bagimu?"
-         }
-        }
-       ]
-      },
-      {
-       "placement": "end:70",
-       "kicker": {
-        "en": "Read last · 9 slides",
-        "id": "Baca terakhir · 9 slide"
-       },
-       "title": {
-        "en": "How Data Create Value: Material",
-        "id": "Bagaimana Data Menciptakan Nilai: Materi"
-       },
-       "intro": {
-        "en": "It is the use of data, not the data itself, that transforms industries. These nine slides show what that looks like in practice, and complete the digital toolkit the lesson has been assembling. Slides 1–2 follow Victor and a streaming service through collect → analyse → deliver value → create new content. Slides 3–5 turn to technology: cloud, AI and generative AI, connected devices, each with real-world examples. Slides 6–9 cover new ways of working: design thinking, solving the right problem, design thinking for every role, and Agile with its sprint cycle. Read them as the field guide behind the four anchors, then take the knowledge check.",
-        "id": "Yang mengubah industri adalah cara data dipakai, bukan datanya. Sembilan slide ini menunjukkan wujudnya dalam praktik, sekaligus melengkapi perangkat digital yang sedang dirakit pelajaran ini. Slide 1–2 mengikuti Victor dan sebuah layanan streaming melalui alur kumpulkan → analisis → berikan nilai → ciptakan konten baru. Slide 3–5 beralih ke teknologi: komputasi awan, AI dan AI generatif, perangkat terhubung, masing-masing dengan contoh nyata. Slide 6–9 membahas cara kerja baru: design thinking, memecahkan masalah yang tepat, design thinking untuk setiap peran, dan Agile beserta siklus sprint-nya. Bacalah sebagai panduan lapangan di balik empat jangkar, lalu kerjakan cek pemahaman."
-       },
-       "base": "../../assets/lms/the-map/slides/data-value-",
-       "slides": [
-        {
-         "title": {
-          "en": "How data creates value",
-          "id": "Bagaimana data menciptakan nilai"
-         },
-         "text": {
-          "en": "After a long day at work, Victor loves to watch his favorite shows. Media streaming companies use advanced data analytics to understand his viewing habits and preferences. Based on these insights, they can provide him with personalized recommendations and create new shows that will appeal to him and other customers like him. See how Victor's actions correlate to one media streaming company's approach to data. Data collected: watched content (what he watches), time spent (how long he watches), ratings & likes (what he likes), search activity (what he looks for), device & time (where and when he watches). 1. Collect data: the platform collects data from Victor's viewing activity, search history, ratings, and device usage. 2. Analyze patterns: advanced analytics identify his preferences, viewing habits, and emerging interests. 3. Deliver personalized value: the platform recommends relevant content that matches his interests. 4. Create new content: insights from millions of viewers like Victor help the company develop new shows and better content.",
-          "id": "Setelah seharian bekerja, Victor senang menonton acara-acara favoritnya. Perusahaan layanan streaming memakai analitik data lanjutan untuk memahami kebiasaan dan preferensi menontonnya. Berdasarkan wawasan ini, mereka bisa memberinya rekomendasi yang dipersonalisasi dan membuat acara baru yang akan menarik baginya dan pelanggan lain yang mirip dengannya. Lihat bagaimana tindakan Victor berkaitan dengan pendekatan sebuah perusahaan streaming terhadap data. Data yang dikumpulkan: konten yang ditonton (apa yang ia tonton), waktu yang dihabiskan (berapa lama ia menonton), rating dan suka (apa yang ia sukai), aktivitas pencarian (apa yang ia cari), perangkat dan waktu (di mana dan kapan ia menonton). 1. Kumpulkan data: platform mengumpulkan data dari aktivitas menonton, riwayat pencarian, rating, dan pemakaian perangkat Victor. 2. Analisis pola: analitik lanjutan mengenali preferensi, kebiasaan menonton, dan minat barunya. 3. Berikan nilai yang dipersonalisasi: platform merekomendasikan konten relevan yang sesuai minatnya. 4. Ciptakan konten baru: wawasan dari jutaan penonton seperti Victor membantu perusahaan mengembangkan acara baru dan konten yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "How data creates value: a real-world example",
-          "id": "Bagaimana data menciptakan nilai: contoh nyata"
-         },
-         "text": {
-          "en": "Real-world example. Victor's action 1: continuing to watch while working out: one day, while working out, Victor continues watching the most recent episode on his mobile phone. Streaming company's approach. Requesting data: Victor can seamlessly switch across devices because the company keeps a user profile of his activities across devices and integrates them into one record that is synchronized and stored in the cloud. Victor's action 2. Searching for new shows: a few weeks later, Victor wants to watch a similar show, so he searches for new content on his tablet. Streaming company's approach. Analyzing data: the streaming company uses machine learning to predict Victor's preferences based on data from his activities and those of other users, as well as data collected outside the platform. The system incorporates new data as Victor generates it. The company analyzes viewing habits (duration, genre, watch time, devices), compares with similar users (patterns from millions of users) and provides relevant recommendations (content that matches his interests). The cycle: 1. Collects data: viewing behavior, searches, and user interactions. 2. Analyzes patterns: uses data analytics and AI to find insights. 3. Creates value: personalized recommendations and new content. 4. Better experiences: more relevant shows for Victor and millions of other customers.",
-          "id": "Contoh nyata. Tindakan Victor 1: terus menonton sambil berolahraga. Suatu hari, sambil berolahraga, Victor melanjutkan menonton episode terbaru di ponselnya. Pendekatan perusahaan streaming. Meminta data: Victor bisa berpindah perangkat dengan mulus karena perusahaan menyimpan profil pengguna berisi aktivitasnya di berbagai perangkat dan menyatukannya dalam satu catatan yang tersinkronisasi dan tersimpan di cloud. Tindakan Victor 2. Mencari acara baru: beberapa minggu kemudian, Victor ingin menonton acara yang serupa, jadi ia mencari konten baru di tabletnya. Pendekatan perusahaan streaming. Menganalisis data: perusahaan streaming memakai machine learning untuk memprediksi preferensi Victor berdasarkan data aktivitasnya dan pengguna lain, serta data yang dikumpulkan di luar platform. Sistem itu memasukkan data baru begitu Victor menghasilkannya. Perusahaan menganalisis kebiasaan menonton (durasi, genre, waktu menonton, perangkat), membandingkan dengan pengguna serupa (pola dari jutaan pengguna), dan memberikan rekomendasi yang relevan (konten yang sesuai minatnya). Siklusnya: 1. Mengumpulkan data: perilaku menonton, pencarian, dan interaksi pengguna. 2. Menganalisis pola: memakai analitik data dan AI untuk menemukan wawasan. 3. Menciptakan nilai: rekomendasi yang dipersonalisasi dan konten baru. 4. Pengalaman yang lebih baik: acara yang lebih relevan bagi Victor dan jutaan pelanggan lainnya."
-         }
-        },
-        {
-         "title": {
-          "en": "Technology and AI",
-          "id": "Teknologi dan AI"
-         },
-         "text": {
-          "en": "New technologies are changing the way we live, work, and solve problems. From cloud computing to artificial intelligence and connected devices, these innovations help individuals, organizations, and governments create greater value for the people they serve. Technology. New technologies such as cloud, artificial intelligence, and connected devices help us solve problems at home and at work. The same technologies that improve our personal lives also help companies, non-profits, and governments serve their stakeholders better. Cloud. The cloud is on-demand computing power and data storage, accessed through the internet. Organizations that use the cloud can adjust their data and processing capacity up or down as needed. Modern applications and business services based in the cloud allow multiple people in different locations to work on the same document simultaneously. Questions: what does my favorite show on a streaming service have to do with the cloud? How does the cloud help humanitarian organizations respond to crises? Real-world examples: streaming services use the cloud to deliver content to millions of viewers: the cloud provides on-demand access to data, allowing streaming services to store and deliver millions of shows and movies simultaneously; customers can find programs to watch and get personalized recommendations based on their interests. Humanitarian organizations use cloud-based solutions to respond to crises. Because data is stored in the cloud, volunteers around the world can access the same information and collaborate in real time, helping them quickly find and deliver resources to the people who need them most.",
-          "id": "Teknologi baru sedang mengubah cara kita hidup, bekerja, dan memecahkan masalah. Dari komputasi awan sampai kecerdasan buatan dan perangkat terhubung, inovasi-inovasi ini membantu individu, organisasi, dan pemerintah menciptakan nilai yang lebih besar bagi orang-orang yang mereka layani. Teknologi. Teknologi baru seperti cloud, kecerdasan buatan, dan perangkat terhubung membantu kita memecahkan masalah di rumah dan di tempat kerja. Teknologi yang sama yang memperbaiki kehidupan pribadi kita juga membantu perusahaan, lembaga nirlaba, dan pemerintah melayani para pemangku kepentingannya dengan lebih baik. Cloud. Cloud adalah daya komputasi dan penyimpanan data sesuai kebutuhan yang diakses lewat internet. Organisasi yang memakai cloud bisa menaikkan atau menurunkan kapasitas data dan pemrosesannya sesuai kebutuhan. Aplikasi modern dan layanan bisnis berbasis cloud memungkinkan banyak orang di lokasi berbeda mengerjakan dokumen yang sama secara bersamaan. Pertanyaan: apa hubungan acara favoritku di layanan streaming dengan cloud? Bagaimana cloud membantu organisasi kemanusiaan menanggapi krisis? Contoh nyata: layanan streaming memakai cloud untuk menyajikan konten kepada jutaan penonton: cloud menyediakan akses data sesuai kebutuhan, sehingga layanan streaming bisa menyimpan dan menyajikan jutaan acara dan film secara bersamaan; pelanggan bisa menemukan tontonan dan mendapat rekomendasi yang dipersonalisasi sesuai minatnya. Organisasi kemanusiaan memakai solusi berbasis cloud untuk menanggapi krisis. Karena datanya tersimpan di cloud, relawan di seluruh dunia bisa mengakses informasi yang sama dan berkolaborasi secara langsung, sehingga mereka bisa cepat menemukan dan menyalurkan bantuan kepada orang-orang yang paling membutuhkannya."
-         }
-        },
-        {
-         "title": {
-          "en": "Artificial Intelligence",
-          "id": "Kecerdasan Buatan"
-         },
-         "text": {
-          "en": "Artificial intelligence (AI) refers to machines that have been programmed to imitate human intelligence. Examples include speech recognition, image analysis, and predictive analytics that help solve complex problems such as customer retention. AI in everyday life and business. AI is already part of our daily lives, from virtual assistants like Siri to personalized recommendations on streaming platforms. Organizations across industries use AI to make better decisions, improve efficiency, and create more personalized experiences for their customers. Generative AI. Generative AI tools (AI systems capable of creating new and diverse content such as text, images, videos, music, code, and even 3D models) have rapidly advanced and become widely accessible. These tools not only generate creative works but also assist with workflow management, complex problem-solving, personalized learning, and interactive experiences. Lesson 5.6 goes deeper into working with AI. Real-world example. How do retailers manage same day delivery using artificial intelligence? Retailers use AI to predict demand, optimize inventory, and plan delivery routes in real time. By analyzing customer data, traffic conditions, and store inventory, AI helps ensure products can be delivered faster and more efficiently. Real-world example. How does generative AI help office workers structure documents in a clear and concise way? Generative AI can analyze existing data and generate well-structured document drafts, summaries, and key insights. It helps office workers save time, improve clarity, and communicate their ideas more effectively. Examples of generative AI capabilities: text (write, summarize, and brainstorm ideas), image (create visuals from a simple description), video (generate videos from text or images), code (generate and explain code), 3D models (create 3D models from text or images).",
-          "id": "Kecerdasan buatan (AI) adalah mesin yang diprogram untuk meniru kecerdasan manusia. Contohnya pengenalan suara, analisis gambar, dan analitik prediktif yang membantu memecahkan masalah rumit seperti mempertahankan pelanggan. AI dalam kehidupan sehari-hari dan bisnis. AI sudah menjadi bagian dari kehidupan sehari-hari kita, dari asisten virtual seperti Siri sampai rekomendasi yang dipersonalisasi di platform streaming. Organisasi di berbagai industri memakai AI untuk mengambil keputusan yang lebih baik, meningkatkan efisiensi, dan menciptakan pengalaman yang lebih personal bagi pelanggannya. AI generatif. Alat-alat AI generatif (sistem AI yang mampu menciptakan konten baru dan beragam seperti teks, gambar, video, musik, kode, bahkan model 3D) berkembang pesat dan makin mudah diakses. Alat-alat ini tidak hanya menghasilkan karya kreatif, tetapi juga membantu mengelola alur kerja, memecahkan masalah yang rumit, belajar secara personal, dan menciptakan pengalaman interaktif. Pelajaran 5.6 membahas lebih dalam cara bekerja dengan AI. Contoh nyata. Bagaimana peritel mengelola pengiriman di hari yang sama dengan kecerdasan buatan? Peritel memakai AI untuk memprediksi permintaan, mengoptimalkan stok, dan merencanakan rute pengiriman secara langsung. Dengan menganalisis data pelanggan, kondisi lalu lintas, dan stok toko, AI membantu memastikan produk bisa dikirim lebih cepat dan efisien. Contoh nyata. Bagaimana AI generatif membantu pekerja kantoran menyusun dokumen yang jelas dan ringkas? AI generatif bisa menganalisis data yang ada dan menghasilkan draf dokumen, ringkasan, serta wawasan kunci yang tersusun rapi. Ini membantu pekerja kantoran menghemat waktu, memperjelas tulisan, dan menyampaikan ide dengan lebih efektif. Contoh kemampuan AI generatif: teks (menulis, meringkas, dan mencari ide), gambar (membuat visual dari deskripsi sederhana), video (menghasilkan video dari teks atau gambar), kode (menghasilkan dan menjelaskan kode), model 3D (membuat model 3D dari teks atau gambar)."
-         },
-         "caption": {
-          "en": "Editorial note: the examples on this slide describe AI as of the source course's date; capabilities change every few months. Lesson 5.6 teaches how to test current tools yourself.",
-          "id": "Catatan redaksi: contoh-contoh di slide ini menggambarkan AI per tanggal kursus sumbernya; kemampuannya berubah setiap beberapa bulan. Pelajaran 5.6 mengajarkan cara menguji sendiri alat-alat yang ada sekarang."
-         }
-        },
-        {
-         "title": {
-          "en": "Connected Devices",
-          "id": "Perangkat Terhubung"
-         },
-         "text": {
-          "en": "Connected devices are physical objects that use the internet to connect with each other. Always connected. Connected devices use the internet to exchange data in real time. Smarter and more efficient. With data, connected devices can operate more automatically, accurately, and efficiently. Creating real value. Connected devices help individuals, businesses, and governments deliver safer, more convenient, and more sustainable services. Real-world example. How can connected devices help reduce the number of road accidents? Sensors, cameras, and connected devices on vehicles and road infrastructure can share real-time data, helping to detect potential hazards, provide early warnings, and enable safer, more autonomous driving, ultimately reducing traffic accidents (real-time traffic monitoring, early hazard detection, vehicle-to-vehicle communication). Real-world example. How do utility companies use connected devices to provide more consistent services? Connected devices such as smart meters in homes and businesses and sensors across the power grid allow utility companies to monitor usage in real time, detect faults early, reduce outages, and better balance supply and demand (real-time energy consumption monitoring, faster fault detection, more stable energy supply). Examples of connected devices in everyday life: connected vehicles (share data with other vehicles and infrastructure to enable safer and more efficient journeys), smart homes (devices like thermostats, cameras, and smart appliances can be monitored and controlled remotely), industry (sensors on machines monitor performance and help prevent downtime), healthcare (wearable devices monitor vital signs, activity, and health conditions in real time), smart cities (connected streetlights, public transport, and sensors help create more efficient and livable cities).",
-          "id": "Perangkat terhubung adalah benda fisik yang memakai internet untuk saling terhubung. Selalu terhubung. Perangkat terhubung memakai internet untuk bertukar data secara langsung. Lebih cerdas dan efisien. Dengan data, perangkat terhubung bisa bekerja lebih otomatis, akurat, dan efisien. Menciptakan nilai nyata. Perangkat terhubung membantu individu, bisnis, dan pemerintah memberikan layanan yang lebih aman, praktis, dan berkelanjutan. Contoh nyata. Bagaimana perangkat terhubung bisa membantu mengurangi kecelakaan lalu lintas? Sensor, kamera, dan perangkat terhubung di kendaraan dan infrastruktur jalan bisa berbagi data secara langsung, membantu mendeteksi potensi bahaya, memberi peringatan dini, dan memungkinkan berkendara yang lebih aman dan otomatis, sehingga akhirnya mengurangi kecelakaan lalu lintas (pemantauan lalu lintas secara langsung, deteksi bahaya lebih awal, komunikasi antarkendaraan). Contoh nyata. Bagaimana perusahaan utilitas memakai perangkat terhubung untuk memberikan layanan yang lebih konsisten? Perangkat terhubung seperti meteran pintar di rumah dan tempat usaha serta sensor di seluruh jaringan listrik memungkinkan perusahaan utilitas memantau pemakaian secara langsung, mendeteksi gangguan lebih awal, mengurangi pemadaman, dan menyeimbangkan pasokan dan permintaan dengan lebih baik (pemantauan konsumsi energi secara langsung, deteksi gangguan lebih cepat, pasokan energi lebih stabil). Contoh perangkat terhubung dalam kehidupan sehari-hari: kendaraan terhubung (berbagi data dengan kendaraan dan infrastruktur lain agar perjalanan lebih aman dan efisien), rumah pintar (perangkat seperti termostat, kamera, dan peralatan pintar bisa dipantau dan dikendalikan dari jauh), industri (sensor di mesin memantau kinerja dan membantu mencegah mesin berhenti), layanan kesehatan (perangkat yang dipakai di tubuh memantau tanda vital, aktivitas, dan kondisi kesehatan secara langsung), kota pintar (lampu jalan, transportasi umum, dan sensor yang terhubung membantu menciptakan kota yang lebih efisien dan layak huni)."
-         }
-        },
-        {
-         "title": {
-          "en": "New ways of working: design thinking",
-          "id": "Cara kerja baru: design thinking"
-         },
-         "text": {
-          "en": "The third component of going digital is introducing new ways of working. By using technology and data to collaborate, take smarter risks, and test ideas faster, we can better meet people's needs. Next, we'll explore one powerful way of working: design thinking. What is design thinking? Design thinking is a human-centered way of working focused on understanding the needs of users or customers. It helps us solve problems in a creative and innovative way. It starts with a deep understanding of our users and the problems they face, so we can design products or services that better meet their needs. Identifying the end user. A key strength of design thinking is its emphasis on truly knowing the end users. We can use various methods, such as interviews, focus groups, observation, and surveys, to learn about their behaviors, needs, and pain points. By understanding what they do, think, and feel, we can create solutions that deliver greater value and a better experience. Real-world example. If you are designing hotel rooms, who is your end user? End users are the guests who stay at the hotel. Understanding their needs, preferences, and behaviors helps us design room features and services that create a more comfortable and memorable stay (comfortable and restful stay, convenient and seamless experience, personalized services). Real-world example. If you are testing a new menu item at your restaurant, who is your end user? End users are your customers. Understanding their tastes, dietary preferences, and dining behaviors helps you design and test menu items that they will enjoy and keep coming back for (delicious and high-quality taste, healthy and nutritious options, great value and dining experience). The design thinking process: 01 Empathize. Understand the end users and their needs (conduct interviews with hotel guests). 02 Define. Identify key problems and opportunities (identify common pain points). 03 Ideate. Generate many creative ideas (brainstorm room concepts). 04 Prototype. Build a simple version of the solution (create a mock-up room layout). 05 Test. Get feedback from users and iterate (test with real guests and gather feedback).",
-          "id": "Komponen ketiga dari menjadi digital adalah memperkenalkan cara kerja baru. Dengan memakai teknologi dan data untuk berkolaborasi, mengambil risiko secara lebih cerdas, dan menguji ide lebih cepat, kita bisa memenuhi kebutuhan orang dengan lebih baik. Berikutnya, kita akan menjelajahi satu cara kerja yang ampuh: design thinking. Apa itu design thinking? Design thinking adalah cara kerja yang berpusat pada manusia dan berfokus pada pemahaman kebutuhan pengguna atau pelanggan. Cara ini membantu kita memecahkan masalah secara kreatif dan inovatif. Prosesnya dimulai dengan pemahaman mendalam tentang pengguna dan masalah yang mereka hadapi, supaya kita bisa merancang produk atau layanan yang lebih memenuhi kebutuhan mereka. Mengenali pengguna akhir. Kekuatan utama design thinking adalah penekanannya pada benar-benar mengenal pengguna akhir. Kita bisa memakai berbagai cara, seperti wawancara, diskusi kelompok terarah, pengamatan, dan survei, untuk mempelajari perilaku, kebutuhan, dan titik masalah mereka. Dengan memahami apa yang mereka lakukan, pikirkan, dan rasakan, kita bisa menciptakan solusi yang memberi nilai lebih besar dan pengalaman yang lebih baik. Contoh nyata. Kalau kamu merancang kamar hotel, siapa pengguna akhirnya? Pengguna akhirnya adalah tamu yang menginap di hotel itu. Memahami kebutuhan, preferensi, dan perilaku mereka membantu kita merancang fasilitas kamar dan layanan yang membuat masa menginap lebih nyaman dan berkesan (menginap yang nyaman dan nyenyak, pengalaman yang praktis dan mulus, layanan yang personal). Contoh nyata. Kalau kamu menguji menu baru di restoranmu, siapa pengguna akhirnya? Pengguna akhirnya adalah pelangganmu. Memahami selera, pilihan diet, dan kebiasaan makan mereka membantumu merancang dan menguji menu yang akan mereka nikmati dan membuat mereka datang lagi (rasa yang lezat dan berkualitas, pilihan yang sehat dan bergizi, nilai dan pengalaman bersantap yang hebat). Proses design thinking: 01 Berempati. Pahami pengguna akhir dan kebutuhannya (wawancarai tamu hotel). 02 Definisikan. Kenali masalah dan peluang utamanya (kenali titik masalah yang umum). 03 Cari ide. Munculkan banyak ide kreatif (curah gagasan konsep kamar). 04 Buat prototipe. Buat versi sederhana dari solusinya (buat tiruan tata letak kamar). 05 Uji. Dapatkan masukan dari pengguna dan perbaiki terus (uji dengan tamu sungguhan dan kumpulkan masukan)."
-         }
-        },
-        {
-         "title": {
-          "en": "Solving the right problem",
-          "id": "Memecahkan masalah yang tepat"
-         },
-         "text": {
-          "en": "By putting end users at the center, you can uncover unmet needs that should be the focus of your design. No matter your role or industry, understanding how end users feel and defining the right problem saves time and improves the solution. Start with real people. Go beyond assumptions; understand what end users do, think, feel, and struggle with. Find the real problem. Look for unmet needs and root causes, not just surface-level symptoms. Design better solutions. By solving the right problem, you can create solutions that are more relevant, effective, and impactful. Government: rethinking meal delivery for the elderly: a government-run meal delivery service noticed that many elderly recipients were not eating the provided meals. Initial assumption: the issue was the food menu. Real problem: the real issue was social isolation; they needed human interaction, not just food. Food & beverage: understanding customer preferences: milkshake sales were flat at a global fast food chain; the team initially assumed the flavors were the problem. Initial assumption: the issue was the texture and flavor options. Real problem: customers wanted a more filling, long-lasting, and easy-to-eat option while on the go. Hospitality: redesigning the hotel experience: guests complained about long check-in times; the hotel first thought the issue was the staffing process. Initial assumption: the issue was staff efficiency. Real problem: guests wanted a more seamless and personalized experience, including digital check-in and clearer communication. Key takeaways: 01 Observe. Spend time with end users in their real environment. 02 Define the problem. Identify unmet needs and key pain points. 03 Generate insights. Look for patterns and deeper human needs. 04 Design and test. Create and test solutions with real users.",
-          "id": "Dengan menempatkan pengguna akhir di pusat, kamu bisa menemukan kebutuhan yang belum terpenuhi yang seharusnya menjadi fokus rancanganmu. Apa pun peran atau industrimu, memahami perasaan pengguna akhir dan mendefinisikan masalah yang tepat menghemat waktu dan memperbaiki solusinya. Mulai dari orang sungguhan. Lampaui asumsi; pahami apa yang dilakukan, dipikirkan, dirasakan, dan dikeluhkan pengguna akhir. Temukan masalah yang sebenarnya. Cari kebutuhan yang belum terpenuhi dan akar masalahnya, bukan sekadar gejala di permukaan. Rancang solusi yang lebih baik. Dengan memecahkan masalah yang tepat, kamu bisa menciptakan solusi yang lebih relevan, efektif, dan berdampak. Pemerintah: memikirkan ulang layanan antar makanan untuk lansia. Sebuah layanan antar makanan yang dijalankan pemerintah menyadari bahwa banyak penerima lansia tidak memakan makanan yang diberikan. Asumsi awal: masalahnya ada pada menu makanannya. Masalah yang sebenarnya: kesepian; mereka butuh interaksi dengan manusia, bukan hanya makanan. Makanan dan minuman: memahami preferensi pelanggan. Penjualan milkshake di sebuah jaringan restoran cepat saji global stagnan; tim awalnya mengira rasanya yang bermasalah. Asumsi awal: masalahnya ada pada tekstur dan pilihan rasa. Masalah yang sebenarnya: pelanggan ingin pilihan yang lebih mengenyangkan, tahan lama, dan mudah dinikmati di perjalanan. Perhotelan: merancang ulang pengalaman menginap. Tamu mengeluhkan proses check-in yang lama; hotel awalnya mengira masalahnya ada pada proses kerja staf. Asumsi awal: masalahnya ada pada efisiensi staf. Masalah yang sebenarnya: tamu menginginkan pengalaman yang lebih mulus dan personal, termasuk check-in digital dan komunikasi yang lebih jelas. Poin penting: 01 Amati. Habiskan waktu bersama pengguna akhir di lingkungan nyata mereka. 02 Definisikan masalahnya. Kenali kebutuhan yang belum terpenuhi dan titik masalah utamanya. 03 Hasilkan wawasan. Cari pola dan kebutuhan manusia yang lebih dalam. 04 Rancang dan uji. Buat dan uji solusi bersama pengguna sungguhan."
-         }
-        },
-        {
-         "title": {
-          "en": "Applying design thinking in every role",
-          "id": "Menerapkan design thinking di setiap peran"
-         },
-         "text": {
-          "en": "You might be thinking that design thinking is only for people in creative roles. Not true! No matter what your role or industry is, you can apply the design thinking process to improve your users' experience. Explore the examples on the right to see how people from different roles use design thinking in their daily work, even if their roles are not focused on design. Customer service representative: “When I'm on the phone with customers, I take notes on all the things they wish for. Every month, my boss asks our team to share what we're hearing. She uses these ideas to make our processes better.” Impact of using design thinking: identifies customer needs directly; improves service processes based on real input; creates a more consistent and better customer experience. Finance analyst: “I see the colleagues who read my financial reports as end users. Understanding the information they want and need helps me deliver a more targeted and relevant analysis.” Impact: understands user needs (internal stakeholders); presents analysis that is more relevant and easier to understand; supports better and faster decision-making. Recruiter: “I think of job applicants as end users. Personas help me understand who the applicants are and what motivates them. Thinking of our job application process as a user journey helped me create a better experience for our applicants and get them excited to work here.” Impact: understands candidate needs and motivations; designs a more relevant and efficient recruitment process; creates a more positive candidate experience and stronger talent attraction.",
-          "id": "Mungkin kamu berpikir design thinking hanya untuk orang di peran kreatif. Tidak benar! Apa pun peran atau industrimu, kamu bisa menerapkan proses design thinking untuk memperbaiki pengalaman penggunamu. Jelajahi contoh di sebelah kanan untuk melihat bagaimana orang dari berbagai peran memakai design thinking dalam pekerjaan sehari-hari, meski perannya tidak berfokus pada desain. Petugas layanan pelanggan: \"Saat menelepon pelanggan, aku mencatat semua hal yang mereka harapkan. Setiap bulan, atasanku meminta tim kami membagikan apa yang kami dengar. Ia memakai ide-ide ini untuk memperbaiki proses kami.\" Dampak memakai design thinking: mengenali kebutuhan pelanggan secara langsung; memperbaiki proses layanan berdasarkan masukan nyata; menciptakan pengalaman pelanggan yang lebih konsisten dan lebih baik. Analis keuangan: \"Aku melihat rekan-rekan yang membaca laporan keuanganku sebagai pengguna akhir. Memahami informasi yang mereka inginkan dan butuhkan membantuku memberikan analisis yang lebih terarah dan relevan.\" Dampak: memahami kebutuhan pengguna (pemangku kepentingan internal); menyajikan analisis yang lebih relevan dan mudah dipahami; mendukung pengambilan keputusan yang lebih baik dan cepat. Perekrut: \"Aku memandang pelamar kerja sebagai pengguna akhir. Persona membantuku memahami siapa pelamarnya dan apa yang memotivasi mereka. Memandang proses lamaran kerja kami sebagai perjalanan pengguna membantuku menciptakan pengalaman yang lebih baik bagi pelamar dan membuat mereka bersemangat bekerja di sini.\" Dampak: memahami kebutuhan dan motivasi kandidat; merancang proses rekrutmen yang lebih relevan dan efisien; menciptakan pengalaman kandidat yang lebih positif dan daya tarik talenta yang lebih kuat."
-         }
-        },
-        {
-         "title": {
-          "en": "New ways of working: Agile",
-          "id": "Cara kerja baru: Agile"
-         },
-         "text": {
-          "en": "Once you've identified the right problems and have a deeper understanding of your end user, what are the best ways to create and test your ideas? Agile provides principles and methodologies that help organizations respond rapidly to changing conditions. At the core of Agile are “sprints,” short cycles that speed innovation. Understand the problem → test ideas quickly → deliver real impact. How is Agile different from traditional ways of working? Traditional way of working (linear, rigid, and slower): detailed planning upfront (plan everything before execution); fixed scope (changes are difficult and time-consuming); long development cycles (deliver results after a long period); higher risk of misalignment (may not fully meet user needs). Agile way of working (iterative, flexible, and faster): start with user needs (focus on solving the right problem); iterative development (build, test, and learn in short cycles, or sprints); adapt quickly (be responsive to changing conditions); deliver meaningful impact (continuous improvement based on real user feedback). How Agile works. The sprint cycle: sprints are short, time-boxed cycles (typically 1–4 weeks) to turn ideas into real solutions, test with users, and continuously improve. 1. Plan: define the problem and set goals for the sprint. 2. Build: develop a simple solution (prototype or MVP). 3. Test. Get feedback from real users. 4. Learn: analyze insights and identify improvements. 5. Iterate: refine and scale what works. Repeat through multiple sprints.",
-          "id": "Setelah kamu menemukan masalah yang tepat dan memahami pengguna akhirmu lebih dalam, apa cara terbaik untuk membuat dan menguji idemu? Agile menyediakan prinsip dan metode yang membantu organisasi menanggapi perubahan keadaan dengan cepat. Inti Agile adalah \"sprint\", siklus pendek yang mempercepat inovasi. Pahami masalahnya → uji ide dengan cepat → berikan dampak nyata. Apa bedanya Agile dengan cara kerja tradisional? Cara kerja tradisional (linear, kaku, dan lebih lambat): perencanaan detail di awal (merencanakan semuanya sebelum dijalankan); cakupan yang tetap (perubahan sulit dan makan waktu); siklus pengembangan yang panjang (hasil baru muncul setelah waktu lama); risiko tidak selaras yang lebih tinggi (mungkin tidak sepenuhnya memenuhi kebutuhan pengguna). Cara kerja Agile (berulang, fleksibel, dan lebih cepat): mulai dari kebutuhan pengguna (fokus memecahkan masalah yang tepat); pengembangan berulang (bangun, uji, dan belajar dalam siklus pendek, atau sprint); beradaptasi dengan cepat (tanggap terhadap perubahan keadaan); berikan dampak yang berarti (perbaikan terus-menerus berdasarkan masukan pengguna sungguhan). Cara kerja Agile. Siklus sprint: sprint adalah siklus pendek berbatas waktu (biasanya 1–4 minggu) untuk mengubah ide menjadi solusi nyata, mengujinya bersama pengguna, dan terus memperbaikinya. 1. Rencanakan: definisikan masalahnya dan tetapkan sasaran sprint. 2. Bangun: kembangkan solusi sederhana (prototipe atau MVP). 3. Uji. Dapatkan masukan dari pengguna sungguhan. 4. Pelajari: analisis wawasannya dan kenali perbaikan yang diperlukan. 5. Ulangi: perhalus dan perluas yang berhasil. Ulangi lewat beberapa sprint."
-         }
-        }
-       ]
       }
      ],
      "checks": [
@@ -17932,12 +18115,486 @@ window.MT_LMS['the-map'] = {
       }
      ],
      "videosKicker": {
-      "en": "Start here · Lesson film",
-      "id": "Mulai di sini · Film pelajaran"
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "Start with one short film: Vina, a tool she spent a year mastering, and the Monday she hears it will be replaced. Watch it, then explore the four anchors on the map below.",
-      "id": "Mulailah dengan satu film singkat: Vina, alat yang ia kuasai selama setahun, dan hari Senin ketika ia mendengar alat itu akan diganti. Tonton, lalu jelajahi empat jangkar di peta di bawah."
+      "en": "One short film follows these slides: Vina, a tool she spent a year mastering, and the Monday she hears it will be replaced. Watch it, then explore the four anchors on the map below.",
+      "id": "Satu film singkat menyusul slide ini: Vina, alat yang ia kuasai selama setahun, dan hari Senin ketika ia mendengar alat itu akan diganti. Tonton, lalu jelajahi empat jangkar di peta di bawah."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 6 slides",
+       "id": "Baca dulu · 6 slide"
+      },
+      "title": {
+       "en": "What Lasts",
+       "id": "Yang Bertahan"
+      },
+      "intro": {
+       "en": "Six ideas for a world where the tools keep changing. Then a short film, and the four anchors on the map below.",
+       "id": "Enam gagasan untuk dunia yang alatnya terus berganti. Setelah itu satu film singkat, lalu empat jangkar di peta di bawah."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Tools expire",
+         "id": "Alat kedaluwarsa"
+        },
+        "points": [
+         {
+          "en": "Ask of anything you study: which part of this survives when the tool is replaced?",
+          "id": "Tanyakan pada apa pun yang kamu pelajari: bagian mana yang tetap berguna saat alatnya diganti?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Fundamentals by field",
+         "id": "Dasar-dasar menurut bidang"
+        },
+        "points": [
+         {
+          "en": "Spend most of your learning time on the layer that lasts.",
+          "id": "Pakai sebagian besar waktu belajarmu untuk lapisan yang bertahan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The learning loop",
+         "id": "Lingkaran belajar"
+        },
+        "points": [
+         {
+          "en": "A learning system small enough to survive a busy term.",
+          "id": "Sistem belajar yang cukup kecil untuk bertahan di semester yang sibuk."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Public evidence",
+         "id": "Bukti publik"
+        },
+        "points": [
+         {
+          "en": "List your skills, and beside each one, where anyone can see proof.",
+          "id": "Daftar keterampilanmu, dan di samping masing-masing, di mana orang bisa melihat buktinya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Fact or interpretation",
+         "id": "Fakta atau tafsiran"
+        },
+        "points": [
+         {
+          "en": "The first thought after an announcement is usually an interpretation.",
+          "id": "Pikiran pertama setelah sebuah pengumuman biasanya adalah tafsiran."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "When change is not your choice",
+         "id": "Saat perubahan bukan pilihanmu"
+        },
+        "points": [
+         {
+          "en": "This holds for you, and for the senior colleague who doubts the new system.",
+          "id": "Ini berlaku untukmu, dan untuk rekan senior yang meragukan sistem baru."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/fg-stage-horizon.jpg",
+       "module": {
+        "en": "Module 5 · Relationships, Well-Being, and Digital Capability",
+        "id": "Modul 5 · Relasi, Kesejahteraan, dan Kecakapan Digital"
+       },
+       "lesson": {
+        "n": "5.5",
+        "title": {
+         "en": "Staying Relevant Amid Rapid Technological Change",
+         "id": "Tetap Relevan di Tengah Perubahan Teknologi yang Cepat"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Tools expire; the fundamentals beneath them compound",
+         "id": "Alat kedaluwarsa; dasar-dasar di bawahnya terus berlipat nilainya"
+        },
+        {
+         "en": "Every field has a durable layer under its tools",
+         "id": "Setiap bidang punya lapisan yang awet di bawah alat-alatnya"
+        },
+        {
+         "en": "One logged hour a week beats a panic sprint every time a new tool trends",
+         "id": "Satu jam tercatat seminggu mengalahkan belajar kilat karena panik setiap ada alat baru yang sedang tren"
+        },
+        {
+         "en": "A skill nobody can see is invisible to the people who could reward it",
+         "id": "Keterampilan yang tak terlihat siapa pun tidak tampak bagi orang yang bisa menghargainya"
+        },
+        {
+         "en": "Read your own reaction to a change before you act on it",
+         "id": "Baca reaksimu sendiri terhadap sebuah perubahan sebelum bertindak"
+        },
+        {
+         "en": "People accept a change more readily when they have had a voice in it",
+         "id": "Orang lebih mudah menerima perubahan ketika mereka diberi suara"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Tools expire",
+          "id": "Alat kedaluwarsa"
+         },
+         "p": {
+          "en": "When the next wave arrives, you relearn the buttons, not the substance.",
+          "id": "Saat gelombang berikutnya datang, kamu hanya belajar ulang tombolnya, bukan isinya."
+         }
+        },
+        {
+         "h": {
+          "en": "Fundamentals by field",
+          "id": "Dasar-dasar menurut bidang"
+         },
+         "p": {
+          "en": "Spend most of your learning time on the layer that lasts.",
+          "id": "Pakai sebagian besar waktu belajarmu untuk lapisan yang bertahan."
+         }
+        },
+        {
+         "h": {
+          "en": "The learning loop",
+          "id": "Lingkaran belajar"
+         },
+         "p": {
+          "en": "A learning system small enough to survive a busy term.",
+          "id": "Sistem belajar yang cukup kecil untuk bertahan di semester yang sibuk."
+         }
+        },
+        {
+         "h": {
+          "en": "Public evidence",
+          "id": "Bukti publik"
+         },
+         "p": {
+          "en": "List your skills, and beside each one, where anyone can see proof.",
+          "id": "Daftar keterampilanmu, dan di samping masing-masing, di mana orang bisa melihat buktinya."
+         }
+        },
+        {
+         "h": {
+          "en": "Fact or interpretation",
+          "id": "Fakta atau tafsiran"
+         },
+         "p": {
+          "en": "Then choose one action inside your control: “I will ask to join the pilot.”",
+          "id": "Lalu pilih satu tindakan dalam kendalimu: “Aku akan minta ikut uji coba.”"
+         }
+        },
+        {
+         "h": {
+          "en": "When change is not your choice",
+          "id": "Saat perubahan bukan pilihanmu"
+         },
+         "p": {
+          "en": "Ask before you push. Questions bring the real concern to the surface.",
+          "id": "Bertanyalah sebelum mendorong. Pertanyaan memunculkan kekhawatiran yang sebenarnya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Tools expire; the fundamentals beneath them compound",
+          "id": "Alat kedaluwarsa; dasar-dasar di bawahnya terus berlipat nilainya"
+         },
+         "em": {
+          "en": "the fundamentals beneath them compound",
+          "id": "dasar-dasar di bawahnya terus berlipat nilainya"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "laptop",
+           "en": "This year's dashboard, this version of the spreadsheet, the menu you memorised.",
+           "id": "Dasbor tahun ini, versi lembar kerja yang sekarang, menu yang sudah kamu hafal.",
+           "l": {
+            "en": "The tool",
+            "id": "Alatnya"
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "The statistics under the dashboard, the logic under the formula, the judgement about what the number means.",
+           "id": "Statistika di bawah dasbornya, logika di bawah rumusnya, penilaian tentang arti angkanya.",
+           "l": {
+            "en": "The fundamental",
+            "id": "Dasarnya"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          }
+         ],
+         "band": {
+          "en": "When the next wave arrives, you relearn the buttons, not the substance.",
+          "id": "Saat gelombang berikutnya datang, kamu hanya belajar ulang tombolnya, bukan isinya."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Every field has a durable layer under its tools",
+          "id": "Setiap bidang punya lapisan yang awet di bawah alat-alatnya"
+         },
+         "em": {
+          "en": "a durable layer",
+          "id": "lapisan yang awet"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "Analytics",
+           "id": "Analitik",
+           "d": {
+            "en": "Under the dashboards: statistics",
+            "id": "Di bawah dasbor: statistika"
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "mic",
+           "en": "Presenting",
+           "id": "Presentasi",
+           "d": {
+            "en": "Under the slide software: argument",
+            "id": "Di bawah perangkat presentasi: cara berargumen"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Marketing",
+           "id": "Pemasaran",
+           "d": {
+            "en": "Under every platform: human motivation",
+            "id": "Di bawah setiap platform: motivasi manusia"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "gear",
+           "en": "Software",
+           "id": "Perangkat lunak",
+           "d": {
+            "en": "Under each language: logic and data structures",
+            "id": "Di bawah setiap bahasa: logika dan struktur data"
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "One logged hour a week beats a panic sprint every time a new tool trends",
+          "id": "Satu jam tercatat seminggu mengalahkan belajar kilat karena panik setiap ada alat baru yang sedang tren"
+         },
+         "em": {
+          "en": "One logged hour a week",
+          "id": "Satu jam tercatat seminggu"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "book",
+           "en": "One source",
+           "id": "Satu sumber",
+           "d": {
+            "en": "That you trust and really read",
+            "id": "Yang kamu percaya dan sungguh kamu baca"
+           }
+          },
+          {
+           "icon": "briefcase",
+           "en": "One project",
+           "id": "Satu proyek",
+           "d": {
+            "en": "Small, where you use what you read",
+            "id": "Kecil, tempat kamu memakai yang kamu baca"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "One log",
+           "id": "Satu catatan",
+           "d": {
+            "en": "A line a week: tried, learned",
+            "id": "Sebaris seminggu: dicoba, dipelajari"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "One defended hour",
+           "id": "Satu jam yang dijaga",
+           "d": {
+            "en": "In the calendar, like a meeting",
+            "id": "Di kalender, seperti rapat"
+           }
+          }
+         ],
+         "img": "../../assets/bg/fg-sprint-direction.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A skill nobody can see is invisible to the people who could reward it",
+          "id": "Keterampilan yang tak terlihat siapa pun tidak tampak bagi orang yang bisa menghargainya"
+         },
+         "em": {
+          "en": "invisible",
+          "id": "tidak tampak"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "A project with the workings shown.",
+           "id": "Sebuah proyek yang memperlihatkan cara kerjanya.",
+           "l": {
+            "en": "Analysis",
+            "id": "Analisis"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Two published articles.",
+           "id": "Dua artikel yang sudah terbit.",
+           "l": {
+            "en": "Writing",
+            "id": "Menulis"
+           }
+          },
+          {
+           "icon": "mic",
+           "en": "Nothing yet. That gap is the next project.",
+           "id": "Belum ada. Celah itulah proyek berikutnya.",
+           "l": {
+            "en": "Presenting",
+            "id": "Presentasi"
+           }
+          }
+         ],
+         "img": "../../assets/bg/visibility.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Read your own reaction to a change before you act on it",
+          "id": "Baca reaksimu sendiri terhadap sebuah perubahan sebelum bertindak"
+         },
+         "em": {
+          "en": "your own reaction",
+          "id": "reaksimu sendiri"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "warn",
+           "en": "“They are replacing us.”",
+           "id": "“Kita akan digantikan.”",
+           "l": {
+            "en": "Interpretation",
+            "id": "Tafsiran"
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "“The team will use the new tool from March.”",
+           "id": "“Tim akan memakai alat baru mulai Maret.”",
+           "l": {
+            "en": "Fact",
+            "id": "Fakta"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ],
+         "band": {
+          "en": "Then choose one action inside your control: “I will ask to join the pilot.”",
+          "id": "Lalu pilih satu tindakan dalam kendalimu: “Aku akan minta ikut uji coba.”"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "People accept a change more readily when they have had a voice in it",
+          "id": "Orang lebih mudah menerima perubahan ketika mereka diberi suara"
+         },
+         "em": {
+          "en": "a voice in it",
+          "id": "diberi suara"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pause",
+           "en": "Pause",
+           "id": "Jeda",
+           "d": {
+            "en": "Do not react on reflex",
+            "id": "Jangan bereaksi secara refleks"
+           }
+          },
+          {
+           "icon": "filter",
+           "en": "Sort",
+           "id": "Pilah",
+           "d": {
+            "en": "Fact on one side, interpretation on the other",
+            "id": "Fakta di satu sisi, tafsiran di sisi lain"
+           }
+          },
+          {
+           "icon": "target",
+           "en": "Choose",
+           "id": "Pilih",
+           "d": {
+            "en": "One action inside your control",
+            "id": "Satu tindakan dalam kendalimu"
+           }
+          },
+          {
+           "icon": "question",
+           "en": "Ask",
+           "id": "Bertanya",
+           "d": {
+            "en": "“What went wrong last time?” before you push",
+            "id": "“Waktu itu kendalanya di mana?” sebelum mendorong"
+           }
+          }
+         ],
+         "band": {
+          "en": "Ask before you push. Questions bring the real concern to the surface.",
+          "id": "Bertanyalah sebelum mendorong. Pertanyaan memunculkan kekhawatiran yang sebenarnya."
+         },
+         "img": "../../assets/bg/negotiation.jpg"
+        }
+       ]
+      }
      }
     },
     {
@@ -17982,868 +18639,6 @@ window.MT_LMS['the-map'] = {
        "id": "Menerapkan aturan pribadi untuk integritas akademik, kerahasiaan di tempat kerja, privasi data pribadi, dan keterbukaan."
       }
      ],
-     "readFirst": {
-      "compose": {
-       "bg": "../../assets/bg/alumni.jpg",
-       "module": {
-        "en": "Module 5 · Relationships, Well-Being, and Digital Capability",
-        "id": "Modul 5 · Relasi, Kesejahteraan, dan Kecakapan Digital"
-       },
-       "lesson": {
-        "n": "5.6",
-        "title": {
-         "en": "Working with AI: Literacy, Judgement and Responsible Use",
-         "id": "Bekerja dengan AI: Literasi, Penilaian, dan Penggunaan yang Bertanggung Jawab"
-        }
-       },
-       "story": [
-        {
-         "en": "Five ideas everyone should be able to explain, starting with what the software actually does",
-         "id": "Lima gagasan yang semua orang harus bisa jelaskan, dimulai dari apa yang sebenarnya dilakukan perangkat lunaknya"
-        },
-        {
-         "en": "It is confidently wrong sometimes because plausible is not the same as true",
-         "id": "Kadang ia salah dengan percaya diri karena masuk akal tidak sama dengan benar"
-        },
-        {
-         "en": "AI reshapes tasks, not job titles: map yours, then invest in judgement and checking",
-         "id": "AI membentuk ulang tugas, bukan jabatan: petakan milikmu, lalu investasikan pada penilaian dan pengecekan"
-        },
-        {
-         "en": "A jagged frontier: brilliant at one task, quietly wrong at a similar one, and you only find the line by testing",
-         "id": "Batas bergerigi: hebat pada satu tugas, diam-diam salah pada tugas serupa, dan kamu hanya menemukan garisnya dengan menguji"
-        },
-        {
-         "en": "Four working rules sit behind three gates, and the gates come first",
-         "id": "Empat aturan kerja berada di balik tiga gerbang, dan gerbangnya lebih dulu"
-        },
-        {
-         "en": "Centaur or cyborg: divide the work cleanly or weave it, and start as a centaur on tasks you can check",
-         "id": "Centaur atau cyborg: bagi pekerjaan dengan rapi atau jalin, dan mulailah sebagai centaur pada tugas yang bisa kamu cek"
-        },
-        {
-         "en": "CEK-5: verify anything that matters before you submit, send or decide",
-         "id": "CEK-5: verifikasi apa pun yang penting sebelum kamu mengumpulkan, mengirim, atau memutuskan"
-        },
-        {
-         "en": "Prompting is clear thinking: a good request names seven things",
-         "id": "Prompting adalah berpikir jernih: permintaan yang baik menyebut tujuh hal"
-        },
-        {
-         "en": "Responsible use starts with integrity: the rules decide what is allowed, and your drafts prove authorship",
-         "id": "Penggunaan bertanggung jawab dimulai dari integritas: aturan menentukan yang boleh, dan drafmu membuktikan kepengarangan"
-        }
-       ],
-       "takes": [
-        {
-         "h": {
-          "en": "What it is: five ideas",
-          "id": "Apa itu: lima gagasan"
-         },
-         "p": {
-          "en": "It is not a database of facts; it is a prediction engine that sounds like one.",
-          "id": "Ia bukan basis data fakta; ia mesin prediksi yang terdengar seperti itu."
-         }
-        },
-        {
-         "h": {
-          "en": "Why it’s confidently wrong sometimes",
-          "id": "Mengapa kadang salah dengan percaya diri"
-         },
-         "p": {
-          "en": "Treat every fact, number, name and citation as a claim to verify, not a result to copy.",
-          "id": "Perlakukan setiap fakta, angka, nama, dan kutipan sebagai klaim untuk diverifikasi, bukan hasil untuk disalin."
-         }
-        },
-        {
-         "h": {
-          "en": "Tasks, not titles",
-          "id": "Tugas, bukan jabatan"
-         },
-         "p": {
-          "en": "The AI-assisted column is where your value becomes judgement.",
-          "id": "Kolom berbantuan AI adalah tempat nilaimu menjadi penilaian."
-         }
-        },
-        {
-         "h": {
-          "en": "A jagged frontier",
-          "id": "Batas bergerigi"
-         },
-         "p": {
-          "en": "Test on work you can judge; re-test every quarter, because the line will have moved.",
-          "id": "Uji pada pekerjaan yang bisa kamu nilai; uji ulang tiap kuartal, karena garisnya akan bergeser."
-         }
-        },
-        {
-         "h": {
-          "en": "Three gates before four rules",
-          "id": "Tiga gerbang sebelum empat aturan"
-         },
-         "p": {
-          "en": "Whatever you submit or send is yours; the tool is not a co-author you can blame.",
-          "id": "Apa pun yang kamu kumpulkan atau kirim adalah milikmu; alat itu bukan rekan penulis yang bisa disalahkan."
-         }
-        },
-        {
-         "h": {
-          "en": "Centaur or cyborg",
-          "id": "Centaur atau cyborg"
-         },
-         "p": {
-          "en": "Begin on tasks you dislike but can easily check, then experiment outward.",
-          "id": "Mulailah pada tugas yang tidak kamu sukai tetapi mudah dicek, lalu bereksperimen ke luar."
-         }
-        },
-        {
-         "h": {
-          "en": "CEK-5: verify anything that matters",
-          "id": "CEK-5: verifikasi apa pun yang penting"
-         },
-         "p": {
-          "en": "Invented citations are the classic failure; CEK-5 catches them at step two.",
-          "id": "Kutipan karangan adalah kegagalan klasik; CEK-5 menangkapnya di langkah dua."
-         }
-        },
-        {
-         "h": {
-          "en": "Prompting is clear thinking",
-          "id": "Prompting adalah berpikir jernih"
-         },
-         "p": {
-          "en": "Bilingual and low-data by design: a clear request costs fewer tokens than a vague one.",
-          "id": "Dwibahasa dan hemat data sejak dirancang: permintaan yang jernih memakai lebih sedikit token daripada yang kabur."
-         }
-        },
-        {
-         "h": {
-          "en": "Responsible use: integrity first",
-          "id": "Penggunaan bertanggung jawab: integritas dulu"
-         },
-         "p": {
-          "en": "Your drafting history is your best evidence of authorship.",
-          "id": "Riwayat drafmu adalah bukti kepengaranganmu yang terbaik."
-         }
-        }
-       ],
-       "slides": [
-        {
-         "kind": "body",
-         "t": {
-          "en": "Five ideas everyone should be able to explain, starting with what the software actually does",
-          "id": "Lima gagasan yang semua orang harus bisa jelaskan, dimulai dari apa yang sebenarnya dilakukan perangkat lunaknya"
-         },
-         "layout": "grid",
-         "items": [
-          {
-           "icon": "layers",
-           "en": "A broad field",
-           "id": "Bidang yang luas",
-           "d": {
-            "en": "Machine learning is one part of AI, not the whole",
-            "id": "Machine learning adalah satu bagian AI, bukan keseluruhannya"
-           },
-           "img": "../../assets/bg/two-different-muscles.jpg"
-          },
-          {
-           "icon": "pen",
-           "en": "Next-text prediction",
-           "id": "Prediksi teks berikutnya",
-           "d": {
-            "en": "A very well-read autocomplete, tuned by human feedback",
-            "id": "Autocomplete yang sangat banyak membaca, disetel oleh masukan manusia"
-           },
-           "img": "../../assets/pe/ed-conversations.jpg"
-          },
-          {
-           "icon": "warn",
-           "en": "Hallucination",
-           "id": "Halusinasi",
-           "d": {
-            "en": "Plausible text unchecked against reality; invented citations are the classic failure",
-            "id": "Teks masuk akal yang tak dicek terhadap kenyataan; kutipan karangan adalah kegagalan klasiknya"
-           },
-           "img": "../../assets/bg/alumni.jpg"
-          },
-          {
-           "icon": "scale",
-           "en": "Bias",
-           "id": "Bias",
-           "d": {
-            "en": "Through data, raters and builders; Bahasa Indonesia and Indonesian law may come out weaker or Westernised",
-            "id": "Lewat data, penilai, dan pembangun; Bahasa Indonesia dan hukum Indonesia bisa keluar lebih lemah atau ter-Barat-kan"
-           },
-           "img": "../../assets/pe/ed-board.jpg"
-          },
-          {
-           "icon": "lock",
-           "en": "What you type may be stored",
-           "id": "Yang kamu ketik bisa disimpan",
-           "d": {
-            "en": "Removing a name does not make data anonymous",
-            "id": "Menghapus nama tidak membuat data menjadi anonim"
-           },
-           "img": "../../assets/bg/stage-exploration.jpg"
-          }
-         ],
-         "sub": {
-          "en": "No product names, because the products will change before you graduate.",
-          "id": "Tanpa nama produk, karena produknya akan berubah sebelum kamu lulus."
-         },
-         "band": {
-          "en": "It is not a database of facts; it is a prediction engine that sounds like one.",
-          "id": "Ia bukan basis data fakta; ia mesin prediksi yang terdengar seperti itu."
-         },
-         "em": {
-          "en": "what the software actually does",
-          "id": "apa yang sebenarnya dilakukan perangkat lunaknya"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "It is confidently wrong sometimes because plausible is not the same as true",
-          "id": "Kadang ia salah dengan percaya diri karena masuk akal tidak sama dengan benar"
-         },
-         "layout": "compare",
-         "items": [
-          {
-           "icon": "pen",
-           "en": "What it does",
-           "id": "Yang dilakukannya",
-           "d": {
-            "en": "Generates the most plausible continuation of the text so far",
-            "id": "Menghasilkan kelanjutan teks yang paling masuk akal"
-           },
-           "img": "../../assets/bg/map.jpg"
-          },
-          {
-           "icon": "search",
-           "en": "What it does not do",
-           "id": "Yang tidak dilakukannya",
-           "d": {
-            "en": "Check the text against reality unless connected to sources, and even then it can err",
-            "id": "Mengecek teks terhadap kenyataan kecuali terhubung ke sumber, dan bahkan saat itu pun bisa keliru"
-           },
-           "img": "../../assets/bg/pack.jpg"
-          }
-         ],
-         "sub": {
-          "en": "What the model does, and what it does not do unless you make it.",
-          "id": "Yang dilakukan model, dan yang tidak dilakukannya kecuali kamu memaksanya."
-         },
-         "band": {
-          "en": "Treat every fact, number, name and citation as a claim to verify, not a result to copy.",
-          "id": "Perlakukan setiap fakta, angka, nama, dan kutipan sebagai klaim untuk diverifikasi, bukan hasil untuk disalin."
-         },
-         "em": {
-          "en": "plausible is not the same as true",
-          "id": "masuk akal tidak sama dengan benar"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "AI reshapes tasks, not job titles: map yours, then invest in judgement and checking",
-          "id": "AI membentuk ulang tugas, bukan jabatan: petakan milikmu, lalu investasikan pada penilaian dan pengecekan"
-         },
-         "img": "../../assets/bg/stage-exploration.jpg",
-         "layout": "flow",
-         "items": [
-          {
-           "icon": "list",
-           "en": "List the tasks",
-           "id": "Daftar tugasnya",
-           "d": {
-            "en": "Twelve or more, from two or three real Indonesian job ads",
-            "id": "Dua belas atau lebih, dari dua atau tiga iklan lowongan Indonesia yang nyata"
-           }
-          },
-          {
-           "icon": "grid",
-           "en": "Sort them",
-           "id": "Pilah",
-           "d": {
-            "en": "Human-led, AI-assisted, or AI-done, and how much each matters",
-            "id": "Dipimpin manusia, dibantu AI, atau dikerjakan AI, dan seberapa penting masing-masing"
-           }
-          },
-          {
-           "icon": "target",
-           "en": "Place three bets",
-           "id": "Pasang tiga taruhan",
-           "d": {
-            "en": "One human-led skill, one verification-critical AI-assisted task, one AI-literacy skill",
-            "id": "Satu keterampilan yang dipimpin manusia, satu tugas berbantuan AI yang verifikasinya krusial, satu keterampilan literasi AI"
-           }
-          }
-         ],
-         "sub": {
-          "en": "Few occupations are fully automatable; many have tasks that already moved.",
-          "id": "Sedikit pekerjaan yang sepenuhnya bisa diotomatisasi; banyak yang tugasnya sudah bergeser."
-         },
-         "band": {
-          "en": "The AI-assisted column is where your value becomes judgement.",
-          "id": "Kolom berbantuan AI adalah tempat nilaimu menjadi penilaian."
-         },
-         "em": {
-          "en": "tasks, not job titles",
-          "id": "tugas, bukan jabatan"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "A jagged frontier: brilliant at one task, quietly wrong at a similar one, and you only find the line by testing",
-          "id": "Batas bergerigi: hebat pada satu tugas, diam-diam salah pada tugas serupa, dan kamu hanya menemukan garisnya dengan menguji"
-         },
-         "layout": "compare",
-         "items": [
-          {
-           "icon": "check",
-           "en": "Inside the frontier",
-           "id": "Di dalam batas",
-           "d": {
-            "en": "Formatting, first drafts of routine text, ten openings to choose from",
-            "id": "Memformat, draf pertama teks rutin, sepuluh pembuka untuk dipilih"
-           },
-           "img": "../../assets/bg/compass.jpg"
-          },
-          {
-           "icon": "warn",
-           "en": "Outside the frontier",
-           "id": "Di luar batas",
-           "d": {
-            "en": "Designing the analysis, judging, anything you cannot check",
-            "id": "Merancang analisis, menilai, apa pun yang tidak bisa kamu cek"
-           },
-           "img": "../../assets/pe/ed-lead.jpg"
-          }
-         ],
-         "sub": {
-          "en": "Two tasks that look equally hard can sit on opposite sides, and the boundary moves.",
-          "id": "Dua tugas yang tampak sama sulit bisa berada di sisi berlawanan, dan batasnya bergerak."
-         },
-         "band": {
-          "en": "Test on work you can judge; re-test every quarter, because the line will have moved.",
-          "id": "Uji pada pekerjaan yang bisa kamu nilai; uji ulang tiap kuartal, karena garisnya akan bergeser."
-         },
-         "em": {
-          "en": "you only find the line by testing",
-          "id": "kamu hanya menemukan garisnya dengan menguji"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "Four working rules sit behind three gates, and the gates come first",
-          "id": "Empat aturan kerja berada di balik tiga gerbang, dan gerbangnya lebih dulu"
-         },
-         "cols": [
-          {
-           "l": {
-            "en": "Three gates",
-            "id": "Tiga gerbang"
-           },
-           "d": {
-            "en": "If any gate is closed, stop",
-            "id": "Jika satu gerbang tertutup, berhenti"
-           },
-           "items": [
-            {
-             "icon": "clipboard",
-             "en": "Allowed? Syllabus, faculty, employer; if unclear, ask in writing",
-             "id": "Diizinkan? RPS, fakultas, pemberi kerja; jika tidak jelas, tanya secara tertulis"
-            },
-            {
-             "icon": "shield",
-             "en": "Safe to share? No personal, client or confidential data",
-             "id": "Aman dibagikan? Tanpa data pribadi, klien, atau rahasia"
-            },
-            {
-             "icon": "check",
-             "en": "Can I check it? If not, not for anything that matters",
-             "id": "Bisa kucek? Jika tidak, bukan untuk hal yang penting"
-            }
-           ],
-           "icon": "lock"
-          },
-          {
-           "l": {
-            "en": "Four rules",
-            "id": "Empat aturan"
-           },
-           "d": {
-            "en": "Then, and only then",
-            "id": "Lalu, dan hanya lalu"
-           },
-           "items": [
-            {
-             "icon": "users",
-             "en": "Invite AI to the table",
-             "id": "Undang AI ke meja"
-            },
-            {
-             "icon": "person",
-             "en": "Be the human in the loop",
-             "id": "Jadilah manusia dalam kendali"
-            },
-            {
-             "icon": "briefcase",
-             "en": "Give it a role and context, like a fast, eager intern",
-             "id": "Beri peran dan konteks, seperti pemagang yang cepat dan bersemangat"
-            },
-            {
-             "icon": "rocket",
-             "en": "Assume today’s AI is the worst you’ll use",
-             "id": "Anggap AI hari ini yang terburuk yang akan kamu pakai"
-            }
-           ],
-           "icon": "list"
-          }
-         ],
-         "img": "../../assets/bg/pack.jpg",
-         "layout": "columns",
-         "items": [],
-         "sub": {
-          "en": "Mollick’s four principles, paraphrased, with the Metanoia gates in front of Rule 1.",
-          "id": "Empat prinsip Mollick, diparafrasekan, dengan gerbang Metanoia di depan Aturan 1."
-         },
-         "band": {
-          "en": "Whatever you submit or send is yours; the tool is not a co-author you can blame.",
-          "id": "Apa pun yang kamu kumpulkan atau kirim adalah milikmu; alat itu bukan rekan penulis yang bisa disalahkan."
-         },
-         "em": {
-          "en": "the gates come first",
-          "id": "gerbangnya lebih dulu"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "Centaur or cyborg: divide the work cleanly or weave it, and start as a centaur on tasks you can check",
-          "id": "Centaur atau cyborg: bagi pekerjaan dengan rapi atau jalin, dan mulailah sebagai centaur pada tugas yang bisa kamu cek"
-         },
-         "layout": "compare",
-         "items": [
-          {
-           "icon": "scale",
-           "en": "Centaur",
-           "id": "Centaur",
-           "d": {
-            "en": "A clear division: you design the analysis and judge; AI formats and drafts routine text",
-            "id": "Pembagian yang jelas: kamu merancang analisis dan menilai; AI memformat dan membuat draf teks rutin"
-           },
-           "img": "../../assets/pe/th-stakeholders.jpg"
-          },
-          {
-           "icon": "refresh",
-           "en": "Cyborg",
-           "id": "Cyborg",
-           "d": {
-            "en": "Continuous weaving: AI suggests ten openings, you choose and rewrite, AI critiques as a tough examiner, you revise",
-            "id": "Jalinan terus-menerus: AI menyarankan sepuluh pembuka, kamu memilih dan menulis ulang, AI mengkritik sebagai penguji galak, kamu merevisi"
-           },
-           "img": "../../assets/bg/ch1-realization.jpg"
-          }
-         ],
-         "sub": {
-          "en": "Two working modes, one starting rule.",
-          "id": "Dua mode kerja, satu aturan memulai."
-         },
-         "band": {
-          "en": "Begin on tasks you dislike but can easily check, then experiment outward.",
-          "id": "Mulailah pada tugas yang tidak kamu sukai tetapi mudah dicek, lalu bereksperimen ke luar."
-         },
-         "em": {
-          "en": "start as a centaur",
-          "id": "mulailah sebagai centaur"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "CEK-5: verify anything that matters before you submit, send or decide",
-          "id": "CEK-5: verifikasi apa pun yang penting sebelum kamu mengumpulkan, mengirim, atau memutuskan"
-         },
-         "img": "../../assets/pe/ed-writing.jpg",
-         "layout": "flow",
-         "items": [
-          {
-           "icon": "list",
-           "en": "Claims",
-           "id": "Claims",
-           "d": {
-            "en": "List every factual claim, number, name, date and citation",
-            "id": "Daftar setiap klaim faktual, angka, nama, tanggal, dan kutipan"
-           }
-          },
-          {
-           "icon": "search",
-           "en": "Evidence",
-           "id": "Evidence",
-           "d": {
-            "en": "Check each against a primary source; does the paper exist, with that author, year and title?",
-            "id": "Cek masing-masing terhadap sumber primer; apakah makalahnya ada, dengan penulis, tahun, dan judul itu?"
-           }
-          },
-          {
-           "icon": "target",
-           "en": "Kesesuaian",
-           "id": "Kesesuaian",
-           "d": {
-            "en": "Does it answer my question in my context: Indonesian law, my company’s data, my lecturer’s rubric?",
-            "id": "Apakah ia menjawab pertanyaanku dalam konteksku: hukum Indonesia, data perusahaanku, rubrik dosenku?"
-           }
-          },
-          {
-           "icon": "scale",
-           "en": "Bias and blind spots",
-           "id": "Bias dan titik buta",
-           "d": {
-            "en": "Who or what might be missing or stereotyped? Did it assume a Western context?",
-            "id": "Siapa atau apa yang mungkin hilang atau distereotipkan? Apakah ia mengasumsikan konteks Barat?"
-           }
-          },
-          {
-           "icon": "person",
-           "en": "Own it",
-           "id": "Own it",
-           "d": {
-            "en": "Can I explain and defend every sentence without the AI? If not, rewrite or remove it",
-            "id": "Bisakah aku menjelaskan dan mempertahankan setiap kalimat tanpa AI? Jika tidak, tulis ulang atau hapus"
-           }
-          }
-         ],
-         "sub": {
-          "en": "Five checks, in order, on any AI output.",
-          "id": "Lima pengecekan, berurutan, pada keluaran AI apa pun."
-         },
-         "band": {
-          "en": "Invented citations are the classic failure; CEK-5 catches them at step two.",
-          "id": "Kutipan karangan adalah kegagalan klasik; CEK-5 menangkapnya di langkah dua."
-         },
-         "em": {
-          "en": "verify anything that matters",
-          "id": "verifikasi apa pun yang penting"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "Prompting is clear thinking: a good request names seven things",
-          "id": "Prompting adalah berpikir jernih: permintaan yang baik menyebut tujuh hal"
-         },
-         "layout": "grid",
-         "items": [
-          {
-           "icon": "target",
-           "en": "Goal",
-           "id": "Tujuan",
-           "d": {
-            "en": "What the output is for",
-            "id": "Untuk apa keluarannya"
-           },
-           "img": "../../assets/bg/fg-stage-ascent.jpg"
-          },
-          {
-           "icon": "person",
-           "en": "Role",
-           "id": "Peran",
-           "d": {
-            "en": "Who the AI should be for this task",
-            "id": "AI menjadi siapa untuk tugas ini"
-           },
-           "img": "../../assets/bg/visibility.jpg"
-          },
-          {
-           "icon": "pin",
-           "en": "Context",
-           "id": "Konteks",
-           "d": {
-            "en": "Who, where, why",
-            "id": "Siapa, di mana, mengapa"
-           },
-           "img": "../../assets/pe/ed-writing.jpg"
-          },
-          {
-           "icon": "users",
-           "en": "Audience",
-           "id": "Audiens",
-           "d": {
-            "en": "Who will read the result",
-            "id": "Siapa yang akan membaca hasilnya"
-           },
-           "img": "../../assets/pe/ed-startup.jpg"
-          },
-          {
-           "icon": "sliders",
-           "en": "Constraints",
-           "id": "Batasan",
-           "d": {
-            "en": "Length, tone, register",
-            "id": "Panjang, nada, register"
-           },
-           "img": "../../assets/bg/mp-stage-reckoning.jpg"
-          },
-          {
-           "icon": "grid",
-           "en": "Output format",
-           "id": "Format keluaran",
-           "d": {
-            "en": "Table, list, memo, bilingual",
-            "id": "Tabel, daftar, memo, dwibahasa"
-           },
-           "img": "../../assets/bg/negotiation.jpg"
-          },
-          {
-           "icon": "steps",
-           "en": "Examples or steps",
-           "id": "Contoh atau langkah",
-           "d": {
-            "en": "“List your assumptions first”",
-            "id": "“Daftar asumsimu dulu”"
-           },
-           "img": "../../assets/bg/ep-stage-acceleration.jpg"
-          }
-         ],
-         "sub": {
-          "en": "Prompting tricks date quickly; thinking clearly about the task does not.",
-          "id": "Trik prompting cepat usang; berpikir jernih tentang tugas tidak."
-         },
-         "band": {
-          "en": "Bilingual and low-data by design: a clear request costs fewer tokens than a vague one.",
-          "id": "Dwibahasa dan hemat data sejak dirancang: permintaan yang jernih memakai lebih sedikit token daripada yang kabur."
-         },
-         "em": {
-          "en": "clear thinking",
-          "id": "berpikir jernih"
-         }
-        },
-        {
-         "kind": "body",
-         "t": {
-          "en": "Responsible use starts with integrity: the rules decide what is allowed, and your drafts prove authorship",
-          "id": "Penggunaan bertanggung jawab dimulai dari integritas: aturan menentukan yang boleh, dan drafmu membuktikan kepengarangan"
-         },
-         "img": "../../assets/bg/early-professional.jpg",
-         "layout": "list",
-         "items": [
-          {
-           "icon": "clipboard",
-           "en": "Check the rules first",
-           "id": "Periksa aturannya dulu",
-           "d": {
-            "en": "The syllabus (RPS), the faculty’s thesis guidelines, the university’s integrity rules",
-            "id": "RPS, pedoman skripsi fakultas, aturan integritas universitas"
-           }
-          },
-          {
-           "icon": "chat",
-           "en": "If unclear, ask in writing",
-           "id": "Jika tidak jelas, tanya secara tertulis",
-           "d": {
-            "en": "“Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk […], dan bagaimana cara mencantumkannya?”",
-            "id": "“Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk […], dan bagaimana cara mencantumkannya?”"
-           }
-          },
-          {
-           "icon": "doc",
-           "en": "Keep process evidence",
-           "id": "Simpan bukti proses",
-           "d": {
-            "en": "Version history, notes and drafts; detectors are unreliable and flag non-native English writers more often",
-            "id": "Riwayat versi, catatan, dan draf; detektor tidak andal dan lebih sering menandai penulis non-penutur asli bahasa Inggris"
-           }
-          },
-          {
-           "icon": "x",
-           "en": "Never disguise AI text",
-           "id": "Jangan pernah menyamarkan teks AI",
-           "d": {
-            "en": "No “humaniser” tools; disclose the way the rules ask",
-            "id": "Tanpa alat “humaniser”; ungkapkan sesuai cara yang diminta aturan"
-           }
-          }
-         ],
-         "sub": {
-          "en": "Final-year thesis and graded work first; the same habits carry into the office.",
-          "id": "Skripsi dan tugas yang dinilai lebih dulu; kebiasaan yang sama terbawa ke kantor."
-         },
-         "band": {
-          "en": "Your drafting history is your best evidence of authorship.",
-          "id": "Riwayat drafmu adalah bukti kepengaranganmu yang terbaik."
-         },
-         "em": {
-          "en": "your drafts prove authorship",
-          "id": "drafmu membuktikan kepengarangan"
-         }
-        }
-       ],
-       "product": {
-        "en": "The Map",
-        "id": "The Map"
-       }
-      },
-      "kicker": {
-       "en": "Read first · 9 slides",
-       "id": "Baca dulu · 9 slide"
-      },
-      "title": {
-       "en": "AI, Honestly",
-       "id": "AI, Apa Adanya"
-      },
-      "intro": {
-       "en": "Nine plain-language ideas. No product names, because the products will change before you graduate.",
-       "id": "Sembilan gagasan dengan bahasa sederhana. Tanpa nama produk, karena produknya akan berganti sebelum kamu lulus."
-      },
-      "slides": [
-       {
-        "h": {
-         "en": "What it is: five ideas",
-         "id": "Apa itu AI: lima gagasan"
-        },
-        "points": [
-         {
-          "en": "A broad field with machine learning as one part; large language models predict the next piece of text; they hallucinate; bias comes in through data, raters and builders; what you type may be stored.",
-          "id": "Bidang yang luas dengan machine learning sebagai salah satu bagiannya; model bahasa besar menebak potongan teks berikutnya; model itu bisa berhalusinasi; bias masuk lewat data, penilai, dan pembuatnya; apa yang kamu ketik mungkin disimpan."
-         },
-         {
-          "en": "It is not a database of facts.",
-          "id": "AI bukan database berisi fakta."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Why it’s confidently wrong sometimes",
-         "id": "Kenapa kadang AI salah dengan begitu yakin"
-        },
-        "points": [
-         {
-          "en": "It generates plausible text and does not check it against reality unless connected to sources, and even then it can err.",
-          "id": "AI menghasilkan teks yang masuk akal dan tidak mencocokkannya dengan kenyataan kecuali terhubung ke sumber, dan bahkan saat itu pun masih bisa keliru."
-         },
-         {
-          "en": "Plausible isn’t the same as true. Invented citations are the classic failure.",
-          "id": "Masuk akal tidak sama dengan benar. Rujukan karangan adalah kegagalan klasiknya."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Tasks, not titles",
-         "id": "Tugas, bukan jabatan"
-        },
-        "points": [
-         {
-          "en": "Jobs are bundles of tasks. AI shifts some of them, unevenly, and only occasionally whole jobs.",
-          "id": "Pekerjaan adalah kumpulan tugas. AI menggeser sebagian tugas itu, tidak merata, dan hanya sesekali seluruh pekerjaan."
-         },
-         {
-          "en": "Map your target job’s tasks, then invest in judgement and checking.",
-          "id": "Petakan tugas-tugas di pekerjaan incaranmu, lalu berinvestasilah pada penilaian dan pengecekan."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "A jagged frontier",
-         "id": "Batas yang bergerigi"
-        },
-        "points": [
-         {
-          "en": "Brilliant at one task, quietly wrong at a similar-looking one, and the boundary moves as models improve.",
-          "id": "Hebat di satu tugas, diam-diam salah di tugas lain yang kelihatannya mirip, dan batasnya terus bergeser seiring model makin baik."
-         },
-         {
-          "en": "You only find the line by testing on work you can judge. Re-test every quarter.",
-          "id": "Kamu hanya bisa menemukan batasnya dengan menguji pada pekerjaan yang bisa kamu nilai sendiri. Uji ulang setiap kuartal."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Three gates before four rules",
-         "id": "Tiga gerbang sebelum empat aturan"
-        },
-        "points": [
-         {
-          "en": "Allowed? Safe to share? Can I check it? If any gate is closed, stop.",
-          "id": "Diizinkan? Aman dibagikan? Bisa kucek? Kalau salah satu gerbang tertutup, berhenti."
-         },
-         {
-          "en": "Then: invite AI to the table, be the human in the loop, give it a role and context, assume today’s AI is the worst you’ll use.",
-          "id": "Lalu: ajak AI duduk di meja yang sama, jadilah manusia dalam lingkaran kerja itu, beri AI peran dan konteks, dan anggap AI hari ini adalah yang terburuk yang akan kamu pakai."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Centaur or cyborg",
-         "id": "Centaur atau cyborg"
-        },
-        "points": [
-         {
-          "en": "Centaur: a clear division (you design and judge; AI formats and drafts). Cyborg: continuous weaving (AI suggests, you choose and rewrite, AI critiques, you revise).",
-          "id": "Centaur: pembagian yang jelas (kamu merancang dan menilai; AI merapikan dan membuat draf). Cyborg: dijalin terus-menerus (AI mengusulkan, kamu memilih dan menulis ulang, AI mengkritik, kamu merevisi)."
-         },
-         {
-          "en": "Start as a centaur on tasks you dislike but can easily check, then experiment.",
-          "id": "Mulailah sebagai centaur pada tugas yang tidak kamu sukai tetapi mudah kamu cek, lalu bereksperimenlah."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "CEK-5: verify anything that matters",
-         "id": "CEK-5: verifikasi semua yang penting"
-        },
-        "points": [
-         {
-          "en": "Claims, evidence, kesesuaian (fit), bias and blind spots, own it. Run it before submitting, sending or deciding with any AI output.",
-          "id": "Claims (klaim), evidence (bukti), kesesuaian, bias dan titik buta, own it (tanggung jawabi). Jalankan sebelum mengumpulkan, mengirim, atau memutuskan dengan hasil AI apa pun."
-         },
-         {
-          "en": "Whatever you submit or send is yours. The tool is not a co-author you can blame.",
-          "id": "Apa pun yang kamu kumpulkan atau kirim adalah milikmu. Alatnya bukan rekan penulis yang bisa kamu salahkan."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Prompting is clear thinking",
-         "id": "Menulis prompt adalah berpikir jernih"
-        },
-        "points": [
-         {
-          "en": "A good request names seven things: goal, role, context, audience, constraints, output format, examples or steps.",
-          "id": "Permintaan yang baik menyebut tujuh hal: tujuan, peran, konteks, audiens, batasan, format hasil, dan contoh atau langkah-langkah."
-         },
-         {
-          "en": "Prompting tricks date quickly. Clear thinking about the task does not.",
-          "id": "Trik menulis prompt cepat usang. Berpikir jernih tentang tugasnya tidak."
-         }
-        ]
-       },
-       {
-        "h": {
-         "en": "Responsible use: integrity first",
-         "id": "Penggunaan yang bertanggung jawab: integritas dulu"
-        },
-        "points": [
-         {
-          "en": "Your institution’s and lecturer’s rules decide what’s allowed; if unclear, ask in writing. Keep your version history, notes and drafts as process evidence.",
-          "id": "Aturan kampus dan dosenmu yang menentukan apa yang boleh; kalau belum jelas, tanyakan secara tertulis. Simpan riwayat versi, catatan, dan draf sebagai bukti proses."
-         },
-         {
-          "en": "AI detectors are unreliable and wrongly flag non-native English writers more often. Never use “humaniser” tools to disguise AI text.",
-          "id": "Detektor AI tidak bisa diandalkan dan lebih sering salah menandai tulisan penutur bahasa Inggris non-asli. Jangan pernah memakai alat \"humaniser\" untuk menyamarkan teks AI."
-         }
-        ]
-       }
-      ]
-     },
      "sections": [
       {
        "icon": "book",
@@ -19914,7 +19709,869 @@ window.MT_LMS['the-map'] = {
        "en": "Three gates (allowed, safe, checkable), then think first, then CEK-5, then disclose.",
        "id": "Tiga gerbang (diizinkan, aman, bisa dicek), lalu berpikir dulu, lalu CEK-5, lalu terbuka soal pemakaiannya."
       }
-     ]
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/alumni.jpg",
+       "module": {
+        "en": "Module 5 · Relationships, Well-Being, and Digital Capability",
+        "id": "Modul 5 · Relasi, Kesejahteraan, dan Kecakapan Digital"
+       },
+       "lesson": {
+        "n": "5.6",
+        "title": {
+         "en": "Working with AI: Literacy, Judgement and Responsible Use",
+         "id": "Bekerja dengan AI: Literasi, Penilaian, dan Penggunaan yang Bertanggung Jawab"
+        }
+       },
+       "story": [
+        {
+         "en": "Five ideas everyone should be able to explain, starting with what the software actually does",
+         "id": "Lima gagasan yang semua orang harus bisa jelaskan, dimulai dari apa yang sebenarnya dilakukan perangkat lunaknya"
+        },
+        {
+         "en": "It is confidently wrong sometimes because plausible is not the same as true",
+         "id": "Kadang ia salah dengan percaya diri karena masuk akal tidak sama dengan benar"
+        },
+        {
+         "en": "AI reshapes tasks, not job titles: map yours, then invest in judgement and checking",
+         "id": "AI membentuk ulang tugas, bukan jabatan: petakan milikmu, lalu investasikan pada penilaian dan pengecekan"
+        },
+        {
+         "en": "A jagged frontier: brilliant at one task, quietly wrong at a similar one, and you only find the line by testing",
+         "id": "Batas bergerigi: hebat pada satu tugas, diam-diam salah pada tugas serupa, dan kamu hanya menemukan garisnya dengan menguji"
+        },
+        {
+         "en": "Four working rules sit behind three gates, and the gates come first",
+         "id": "Empat aturan kerja berada di balik tiga gerbang, dan gerbangnya lebih dulu"
+        },
+        {
+         "en": "Centaur or cyborg: divide the work cleanly or weave it, and start as a centaur on tasks you can check",
+         "id": "Centaur atau cyborg: bagi pekerjaan dengan rapi atau jalin, dan mulailah sebagai centaur pada tugas yang bisa kamu cek"
+        },
+        {
+         "en": "CEK-5: verify anything that matters before you submit, send or decide",
+         "id": "CEK-5: verifikasi apa pun yang penting sebelum kamu mengumpulkan, mengirim, atau memutuskan"
+        },
+        {
+         "en": "Prompting is clear thinking: a good request names seven things",
+         "id": "Prompting adalah berpikir jernih: permintaan yang baik menyebut tujuh hal"
+        },
+        {
+         "en": "Responsible use starts with integrity: the rules decide what is allowed, and your drafts prove authorship",
+         "id": "Penggunaan bertanggung jawab dimulai dari integritas: aturan menentukan yang boleh, dan drafmu membuktikan kepengarangan"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "What it is: five ideas",
+          "id": "Apa itu: lima gagasan"
+         },
+         "p": {
+          "en": "It is not a database of facts; it is a prediction engine that sounds like one.",
+          "id": "Ia bukan basis data fakta; ia mesin prediksi yang terdengar seperti itu."
+         }
+        },
+        {
+         "h": {
+          "en": "Why it’s confidently wrong sometimes",
+          "id": "Mengapa kadang salah dengan percaya diri"
+         },
+         "p": {
+          "en": "Treat every fact, number, name and citation as a claim to verify, not a result to copy.",
+          "id": "Perlakukan setiap fakta, angka, nama, dan kutipan sebagai klaim untuk diverifikasi, bukan hasil untuk disalin."
+         }
+        },
+        {
+         "h": {
+          "en": "Tasks, not titles",
+          "id": "Tugas, bukan jabatan"
+         },
+         "p": {
+          "en": "The AI-assisted column is where your value becomes judgement.",
+          "id": "Kolom berbantuan AI adalah tempat nilaimu menjadi penilaian."
+         }
+        },
+        {
+         "h": {
+          "en": "A jagged frontier",
+          "id": "Batas bergerigi"
+         },
+         "p": {
+          "en": "Test on work you can judge; re-test every quarter, because the line will have moved.",
+          "id": "Uji pada pekerjaan yang bisa kamu nilai; uji ulang tiap kuartal, karena garisnya akan bergeser."
+         }
+        },
+        {
+         "h": {
+          "en": "Three gates before four rules",
+          "id": "Tiga gerbang sebelum empat aturan"
+         },
+         "p": {
+          "en": "Whatever you submit or send is yours; the tool is not a co-author you can blame.",
+          "id": "Apa pun yang kamu kumpulkan atau kirim adalah milikmu; alat itu bukan rekan penulis yang bisa disalahkan."
+         }
+        },
+        {
+         "h": {
+          "en": "Centaur or cyborg",
+          "id": "Centaur atau cyborg"
+         },
+         "p": {
+          "en": "Begin on tasks you dislike but can easily check, then experiment outward.",
+          "id": "Mulailah pada tugas yang tidak kamu sukai tetapi mudah dicek, lalu bereksperimen ke luar."
+         }
+        },
+        {
+         "h": {
+          "en": "CEK-5: verify anything that matters",
+          "id": "CEK-5: verifikasi apa pun yang penting"
+         },
+         "p": {
+          "en": "Invented citations are the classic failure; CEK-5 catches them at step two.",
+          "id": "Kutipan karangan adalah kegagalan klasik; CEK-5 menangkapnya di langkah dua."
+         }
+        },
+        {
+         "h": {
+          "en": "Prompting is clear thinking",
+          "id": "Prompting adalah berpikir jernih"
+         },
+         "p": {
+          "en": "Bilingual and low-data by design: a clear request costs fewer tokens than a vague one.",
+          "id": "Dwibahasa dan hemat data sejak dirancang: permintaan yang jernih memakai lebih sedikit token daripada yang kabur."
+         }
+        },
+        {
+         "h": {
+          "en": "Responsible use: integrity first",
+          "id": "Penggunaan bertanggung jawab: integritas dulu"
+         },
+         "p": {
+          "en": "Your drafting history is your best evidence of authorship.",
+          "id": "Riwayat drafmu adalah bukti kepengaranganmu yang terbaik."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Five ideas everyone should be able to explain, starting with what the software actually does",
+          "id": "Lima gagasan yang semua orang harus bisa jelaskan, dimulai dari apa yang sebenarnya dilakukan perangkat lunaknya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "layers",
+           "en": "A broad field",
+           "id": "Bidang yang luas",
+           "d": {
+            "en": "Machine learning is one part of AI, not the whole",
+            "id": "Machine learning adalah satu bagian AI, bukan keseluruhannya"
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Next-text prediction",
+           "id": "Prediksi teks berikutnya",
+           "d": {
+            "en": "A very well-read autocomplete, tuned by human feedback",
+            "id": "Autocomplete yang sangat banyak membaca, disetel oleh masukan manusia"
+           },
+           "img": "../../assets/pe/ed-conversations.jpg"
+          },
+          {
+           "icon": "warn",
+           "en": "Hallucination",
+           "id": "Halusinasi",
+           "d": {
+            "en": "Plausible text unchecked against reality; invented citations are the classic failure",
+            "id": "Teks masuk akal yang tak dicek terhadap kenyataan; kutipan karangan adalah kegagalan klasiknya"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "Bias",
+           "id": "Bias",
+           "d": {
+            "en": "Through data, raters and builders; Bahasa Indonesia and Indonesian law may come out weaker or Westernised",
+            "id": "Lewat data, penilai, dan pembangun; Bahasa Indonesia dan hukum Indonesia bisa keluar lebih lemah atau ter-Barat-kan"
+           },
+           "img": "../../assets/pe/ed-board.jpg"
+          },
+          {
+           "icon": "lock",
+           "en": "What you type may be stored",
+           "id": "Yang kamu ketik bisa disimpan",
+           "d": {
+            "en": "Removing a name does not make data anonymous",
+            "id": "Menghapus nama tidak membuat data menjadi anonim"
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          }
+         ],
+         "sub": {
+          "en": "No product names, because the products will change before you graduate.",
+          "id": "Tanpa nama produk, karena produknya akan berubah sebelum kamu lulus."
+         },
+         "band": {
+          "en": "It is not a database of facts; it is a prediction engine that sounds like one.",
+          "id": "Ia bukan basis data fakta; ia mesin prediksi yang terdengar seperti itu."
+         },
+         "em": {
+          "en": "what the software actually does",
+          "id": "apa yang sebenarnya dilakukan perangkat lunaknya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "It is confidently wrong sometimes because plausible is not the same as true",
+          "id": "Kadang ia salah dengan percaya diri karena masuk akal tidak sama dengan benar"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "What it does",
+           "id": "Yang dilakukannya",
+           "d": {
+            "en": "Generates the most plausible continuation of the text so far",
+            "id": "Menghasilkan kelanjutan teks yang paling masuk akal"
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "What it does not do",
+           "id": "Yang tidak dilakukannya",
+           "d": {
+            "en": "Check the text against reality unless connected to sources, and even then it can err",
+            "id": "Mengecek teks terhadap kenyataan kecuali terhubung ke sumber, dan bahkan saat itu pun bisa keliru"
+           },
+           "img": "../../assets/bg/pack.jpg"
+          }
+         ],
+         "sub": {
+          "en": "What the model does, and what it does not do unless you make it.",
+          "id": "Yang dilakukan model, dan yang tidak dilakukannya kecuali kamu memaksanya."
+         },
+         "band": {
+          "en": "Treat every fact, number, name and citation as a claim to verify, not a result to copy.",
+          "id": "Perlakukan setiap fakta, angka, nama, dan kutipan sebagai klaim untuk diverifikasi, bukan hasil untuk disalin."
+         },
+         "em": {
+          "en": "plausible is not the same as true",
+          "id": "masuk akal tidak sama dengan benar"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "AI reshapes tasks, not job titles: map yours, then invest in judgement and checking",
+          "id": "AI membentuk ulang tugas, bukan jabatan: petakan milikmu, lalu investasikan pada penilaian dan pengecekan"
+         },
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "list",
+           "en": "List the tasks",
+           "id": "Daftar tugasnya",
+           "d": {
+            "en": "Twelve or more, from two or three real Indonesian job ads",
+            "id": "Dua belas atau lebih, dari dua atau tiga iklan lowongan Indonesia yang nyata"
+           }
+          },
+          {
+           "icon": "grid",
+           "en": "Sort them",
+           "id": "Pilah",
+           "d": {
+            "en": "Human-led, AI-assisted, or AI-done, and how much each matters",
+            "id": "Dipimpin manusia, dibantu AI, atau dikerjakan AI, dan seberapa penting masing-masing"
+           }
+          },
+          {
+           "icon": "target",
+           "en": "Place three bets",
+           "id": "Pasang tiga taruhan",
+           "d": {
+            "en": "One human-led skill, one verification-critical AI-assisted task, one AI-literacy skill",
+            "id": "Satu keterampilan yang dipimpin manusia, satu tugas berbantuan AI yang verifikasinya krusial, satu keterampilan literasi AI"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Few occupations are fully automatable; many have tasks that already moved.",
+          "id": "Sedikit pekerjaan yang sepenuhnya bisa diotomatisasi; banyak yang tugasnya sudah bergeser."
+         },
+         "band": {
+          "en": "The AI-assisted column is where your value becomes judgement.",
+          "id": "Kolom berbantuan AI adalah tempat nilaimu menjadi penilaian."
+         },
+         "em": {
+          "en": "tasks, not job titles",
+          "id": "tugas, bukan jabatan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A jagged frontier: brilliant at one task, quietly wrong at a similar one, and you only find the line by testing",
+          "id": "Batas bergerigi: hebat pada satu tugas, diam-diam salah pada tugas serupa, dan kamu hanya menemukan garisnya dengan menguji"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "check",
+           "en": "Inside the frontier",
+           "id": "Di dalam batas",
+           "d": {
+            "en": "Formatting, first drafts of routine text, ten openings to choose from",
+            "id": "Memformat, draf pertama teks rutin, sepuluh pembuka untuk dipilih"
+           },
+           "img": "../../assets/bg/compass.jpg"
+          },
+          {
+           "icon": "warn",
+           "en": "Outside the frontier",
+           "id": "Di luar batas",
+           "d": {
+            "en": "Designing the analysis, judging, anything you cannot check",
+            "id": "Merancang analisis, menilai, apa pun yang tidak bisa kamu cek"
+           },
+           "img": "../../assets/pe/ed-lead.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Two tasks that look equally hard can sit on opposite sides, and the boundary moves.",
+          "id": "Dua tugas yang tampak sama sulit bisa berada di sisi berlawanan, dan batasnya bergerak."
+         },
+         "band": {
+          "en": "Test on work you can judge; re-test every quarter, because the line will have moved.",
+          "id": "Uji pada pekerjaan yang bisa kamu nilai; uji ulang tiap kuartal, karena garisnya akan bergeser."
+         },
+         "em": {
+          "en": "you only find the line by testing",
+          "id": "kamu hanya menemukan garisnya dengan menguji"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Four working rules sit behind three gates, and the gates come first",
+          "id": "Empat aturan kerja berada di balik tiga gerbang, dan gerbangnya lebih dulu"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Three gates",
+            "id": "Tiga gerbang"
+           },
+           "d": {
+            "en": "If any gate is closed, stop",
+            "id": "Jika satu gerbang tertutup, berhenti"
+           },
+           "items": [
+            {
+             "icon": "clipboard",
+             "en": "Allowed? Syllabus, faculty, employer; if unclear, ask in writing",
+             "id": "Diizinkan? RPS, fakultas, pemberi kerja; jika tidak jelas, tanya secara tertulis"
+            },
+            {
+             "icon": "shield",
+             "en": "Safe to share? No personal, client or confidential data",
+             "id": "Aman dibagikan? Tanpa data pribadi, klien, atau rahasia"
+            },
+            {
+             "icon": "check",
+             "en": "Can I check it? If not, not for anything that matters",
+             "id": "Bisa kucek? Jika tidak, bukan untuk hal yang penting"
+            }
+           ],
+           "icon": "lock"
+          },
+          {
+           "l": {
+            "en": "Four rules",
+            "id": "Empat aturan"
+           },
+           "d": {
+            "en": "Then, and only then",
+            "id": "Lalu, dan hanya lalu"
+           },
+           "items": [
+            {
+             "icon": "users",
+             "en": "Invite AI to the table",
+             "id": "Undang AI ke meja"
+            },
+            {
+             "icon": "person",
+             "en": "Be the human in the loop",
+             "id": "Jadilah manusia dalam kendali"
+            },
+            {
+             "icon": "briefcase",
+             "en": "Give it a role and context, like a fast, eager intern",
+             "id": "Beri peran dan konteks, seperti pemagang yang cepat dan bersemangat"
+            },
+            {
+             "icon": "rocket",
+             "en": "Assume today’s AI is the worst you’ll use",
+             "id": "Anggap AI hari ini yang terburuk yang akan kamu pakai"
+            }
+           ],
+           "icon": "list"
+          }
+         ],
+         "img": "../../assets/bg/pack.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Mollick’s four principles, paraphrased, with the Metanoia gates in front of Rule 1.",
+          "id": "Empat prinsip Mollick, diparafrasekan, dengan gerbang Metanoia di depan Aturan 1."
+         },
+         "band": {
+          "en": "Whatever you submit or send is yours; the tool is not a co-author you can blame.",
+          "id": "Apa pun yang kamu kumpulkan atau kirim adalah milikmu; alat itu bukan rekan penulis yang bisa disalahkan."
+         },
+         "em": {
+          "en": "the gates come first",
+          "id": "gerbangnya lebih dulu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Centaur or cyborg: divide the work cleanly or weave it, and start as a centaur on tasks you can check",
+          "id": "Centaur atau cyborg: bagi pekerjaan dengan rapi atau jalin, dan mulailah sebagai centaur pada tugas yang bisa kamu cek"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "scale",
+           "en": "Centaur",
+           "id": "Centaur",
+           "d": {
+            "en": "A clear division: you design the analysis and judge; AI formats and drafts routine text",
+            "id": "Pembagian yang jelas: kamu merancang analisis dan menilai; AI memformat dan membuat draf teks rutin"
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Cyborg",
+           "id": "Cyborg",
+           "d": {
+            "en": "Continuous weaving: AI suggests ten openings, you choose and rewrite, AI critiques as a tough examiner, you revise",
+            "id": "Jalinan terus-menerus: AI menyarankan sepuluh pembuka, kamu memilih dan menulis ulang, AI mengkritik sebagai penguji galak, kamu merevisi"
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Two working modes, one starting rule.",
+          "id": "Dua mode kerja, satu aturan memulai."
+         },
+         "band": {
+          "en": "Begin on tasks you dislike but can easily check, then experiment outward.",
+          "id": "Mulailah pada tugas yang tidak kamu sukai tetapi mudah dicek, lalu bereksperimen ke luar."
+         },
+         "em": {
+          "en": "start as a centaur",
+          "id": "mulailah sebagai centaur"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "CEK-5: verify anything that matters before you submit, send or decide",
+          "id": "CEK-5: verifikasi apa pun yang penting sebelum kamu mengumpulkan, mengirim, atau memutuskan"
+         },
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "list",
+           "en": "Claims",
+           "id": "Claims",
+           "d": {
+            "en": "List every factual claim, number, name, date and citation",
+            "id": "Daftar setiap klaim faktual, angka, nama, tanggal, dan kutipan"
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Evidence",
+           "id": "Evidence",
+           "d": {
+            "en": "Check each against a primary source; does the paper exist, with that author, year and title?",
+            "id": "Cek masing-masing terhadap sumber primer; apakah makalahnya ada, dengan penulis, tahun, dan judul itu?"
+           }
+          },
+          {
+           "icon": "target",
+           "en": "Kesesuaian",
+           "id": "Kesesuaian",
+           "d": {
+            "en": "Does it answer my question in my context: Indonesian law, my company’s data, my lecturer’s rubric?",
+            "id": "Apakah ia menjawab pertanyaanku dalam konteksku: hukum Indonesia, data perusahaanku, rubrik dosenku?"
+           }
+          },
+          {
+           "icon": "scale",
+           "en": "Bias and blind spots",
+           "id": "Bias dan titik buta",
+           "d": {
+            "en": "Who or what might be missing or stereotyped? Did it assume a Western context?",
+            "id": "Siapa atau apa yang mungkin hilang atau distereotipkan? Apakah ia mengasumsikan konteks Barat?"
+           }
+          },
+          {
+           "icon": "person",
+           "en": "Own it",
+           "id": "Own it",
+           "d": {
+            "en": "Can I explain and defend every sentence without the AI? If not, rewrite or remove it",
+            "id": "Bisakah aku menjelaskan dan mempertahankan setiap kalimat tanpa AI? Jika tidak, tulis ulang atau hapus"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Five checks, in order, on any AI output.",
+          "id": "Lima pengecekan, berurutan, pada keluaran AI apa pun."
+         },
+         "band": {
+          "en": "Invented citations are the classic failure; CEK-5 catches them at step two.",
+          "id": "Kutipan karangan adalah kegagalan klasik; CEK-5 menangkapnya di langkah dua."
+         },
+         "em": {
+          "en": "verify anything that matters",
+          "id": "verifikasi apa pun yang penting"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Prompting is clear thinking: a good request names seven things",
+          "id": "Prompting adalah berpikir jernih: permintaan yang baik menyebut tujuh hal"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "target",
+           "en": "Goal",
+           "id": "Tujuan",
+           "d": {
+            "en": "What the output is for",
+            "id": "Untuk apa keluarannya"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "person",
+           "en": "Role",
+           "id": "Peran",
+           "d": {
+            "en": "Who the AI should be for this task",
+            "id": "AI menjadi siapa untuk tugas ini"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "pin",
+           "en": "Context",
+           "id": "Konteks",
+           "d": {
+            "en": "Who, where, why",
+            "id": "Siapa, di mana, mengapa"
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "Audience",
+           "id": "Audiens",
+           "d": {
+            "en": "Who will read the result",
+            "id": "Siapa yang akan membaca hasilnya"
+           },
+           "img": "../../assets/pe/ed-startup.jpg"
+          },
+          {
+           "icon": "sliders",
+           "en": "Constraints",
+           "id": "Batasan",
+           "d": {
+            "en": "Length, tone, register",
+            "id": "Panjang, nada, register"
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "grid",
+           "en": "Output format",
+           "id": "Format keluaran",
+           "d": {
+            "en": "Table, list, memo, bilingual",
+            "id": "Tabel, daftar, memo, dwibahasa"
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "steps",
+           "en": "Examples or steps",
+           "id": "Contoh atau langkah",
+           "d": {
+            "en": "“List your assumptions first”",
+            "id": "“Daftar asumsimu dulu”"
+           },
+           "img": "../../assets/bg/ep-stage-acceleration.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Prompting tricks date quickly; thinking clearly about the task does not.",
+          "id": "Trik prompting cepat usang; berpikir jernih tentang tugas tidak."
+         },
+         "band": {
+          "en": "Bilingual and low-data by design: a clear request costs fewer tokens than a vague one.",
+          "id": "Dwibahasa dan hemat data sejak dirancang: permintaan yang jernih memakai lebih sedikit token daripada yang kabur."
+         },
+         "em": {
+          "en": "clear thinking",
+          "id": "berpikir jernih"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Responsible use starts with integrity: the rules decide what is allowed, and your drafts prove authorship",
+          "id": "Penggunaan bertanggung jawab dimulai dari integritas: aturan menentukan yang boleh, dan drafmu membuktikan kepengarangan"
+         },
+         "img": "../../assets/bg/early-professional.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "clipboard",
+           "en": "Check the rules first",
+           "id": "Periksa aturannya dulu",
+           "d": {
+            "en": "The syllabus (RPS), the faculty’s thesis guidelines, the university’s integrity rules",
+            "id": "RPS, pedoman skripsi fakultas, aturan integritas universitas"
+           }
+          },
+          {
+           "icon": "chat",
+           "en": "If unclear, ask in writing",
+           "id": "Jika tidak jelas, tanya secara tertulis",
+           "d": {
+            "en": "“Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk […], dan bagaimana cara mencantumkannya?”",
+            "id": "“Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk […], dan bagaimana cara mencantumkannya?”"
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "Keep process evidence",
+           "id": "Simpan bukti proses",
+           "d": {
+            "en": "Version history, notes and drafts; detectors are unreliable and flag non-native English writers more often",
+            "id": "Riwayat versi, catatan, dan draf; detektor tidak andal dan lebih sering menandai penulis non-penutur asli bahasa Inggris"
+           }
+          },
+          {
+           "icon": "x",
+           "en": "Never disguise AI text",
+           "id": "Jangan pernah menyamarkan teks AI",
+           "d": {
+            "en": "No “humaniser” tools; disclose the way the rules ask",
+            "id": "Tanpa alat “humaniser”; ungkapkan sesuai cara yang diminta aturan"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Final-year thesis and graded work first; the same habits carry into the office.",
+          "id": "Skripsi dan tugas yang dinilai lebih dulu; kebiasaan yang sama terbawa ke kantor."
+         },
+         "band": {
+          "en": "Your drafting history is your best evidence of authorship.",
+          "id": "Riwayat drafmu adalah bukti kepengaranganmu yang terbaik."
+         },
+         "em": {
+          "en": "your drafts prove authorship",
+          "id": "drafmu membuktikan kepengarangan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 9 slides",
+       "id": "Baca dulu · 9 slide"
+      },
+      "title": {
+       "en": "AI, Honestly",
+       "id": "AI, Apa Adanya"
+      },
+      "intro": {
+       "en": "Nine plain-language ideas. No product names, because the products will change before you graduate.",
+       "id": "Sembilan gagasan dengan bahasa sederhana. Tanpa nama produk, karena produknya akan berganti sebelum kamu lulus."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "What it is: five ideas",
+         "id": "Apa itu AI: lima gagasan"
+        },
+        "points": [
+         {
+          "en": "A broad field with machine learning as one part; large language models predict the next piece of text; they hallucinate; bias comes in through data, raters and builders; what you type may be stored.",
+          "id": "Bidang yang luas dengan machine learning sebagai salah satu bagiannya; model bahasa besar menebak potongan teks berikutnya; model itu bisa berhalusinasi; bias masuk lewat data, penilai, dan pembuatnya; apa yang kamu ketik mungkin disimpan."
+         },
+         {
+          "en": "It is not a database of facts.",
+          "id": "AI bukan database berisi fakta."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Why it’s confidently wrong sometimes",
+         "id": "Kenapa kadang AI salah dengan begitu yakin"
+        },
+        "points": [
+         {
+          "en": "It generates plausible text and does not check it against reality unless connected to sources, and even then it can err.",
+          "id": "AI menghasilkan teks yang masuk akal dan tidak mencocokkannya dengan kenyataan kecuali terhubung ke sumber, dan bahkan saat itu pun masih bisa keliru."
+         },
+         {
+          "en": "Plausible isn’t the same as true. Invented citations are the classic failure.",
+          "id": "Masuk akal tidak sama dengan benar. Rujukan karangan adalah kegagalan klasiknya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Tasks, not titles",
+         "id": "Tugas, bukan jabatan"
+        },
+        "points": [
+         {
+          "en": "Jobs are bundles of tasks. AI shifts some of them, unevenly, and only occasionally whole jobs.",
+          "id": "Pekerjaan adalah kumpulan tugas. AI menggeser sebagian tugas itu, tidak merata, dan hanya sesekali seluruh pekerjaan."
+         },
+         {
+          "en": "Map your target job’s tasks, then invest in judgement and checking.",
+          "id": "Petakan tugas-tugas di pekerjaan incaranmu, lalu berinvestasilah pada penilaian dan pengecekan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A jagged frontier",
+         "id": "Batas yang bergerigi"
+        },
+        "points": [
+         {
+          "en": "Brilliant at one task, quietly wrong at a similar-looking one, and the boundary moves as models improve.",
+          "id": "Hebat di satu tugas, diam-diam salah di tugas lain yang kelihatannya mirip, dan batasnya terus bergeser seiring model makin baik."
+         },
+         {
+          "en": "You only find the line by testing on work you can judge. Re-test every quarter.",
+          "id": "Kamu hanya bisa menemukan batasnya dengan menguji pada pekerjaan yang bisa kamu nilai sendiri. Uji ulang setiap kuartal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three gates before four rules",
+         "id": "Tiga gerbang sebelum empat aturan"
+        },
+        "points": [
+         {
+          "en": "Allowed? Safe to share? Can I check it? If any gate is closed, stop.",
+          "id": "Diizinkan? Aman dibagikan? Bisa kucek? Kalau salah satu gerbang tertutup, berhenti."
+         },
+         {
+          "en": "Then: invite AI to the table, be the human in the loop, give it a role and context, assume today’s AI is the worst you’ll use.",
+          "id": "Lalu: ajak AI duduk di meja yang sama, jadilah manusia dalam lingkaran kerja itu, beri AI peran dan konteks, dan anggap AI hari ini adalah yang terburuk yang akan kamu pakai."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Centaur or cyborg",
+         "id": "Centaur atau cyborg"
+        },
+        "points": [
+         {
+          "en": "Centaur: a clear division (you design and judge; AI formats and drafts). Cyborg: continuous weaving (AI suggests, you choose and rewrite, AI critiques, you revise).",
+          "id": "Centaur: pembagian yang jelas (kamu merancang dan menilai; AI merapikan dan membuat draf). Cyborg: dijalin terus-menerus (AI mengusulkan, kamu memilih dan menulis ulang, AI mengkritik, kamu merevisi)."
+         },
+         {
+          "en": "Start as a centaur on tasks you dislike but can easily check, then experiment.",
+          "id": "Mulailah sebagai centaur pada tugas yang tidak kamu sukai tetapi mudah kamu cek, lalu bereksperimenlah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "CEK-5: verify anything that matters",
+         "id": "CEK-5: verifikasi semua yang penting"
+        },
+        "points": [
+         {
+          "en": "Claims, evidence, kesesuaian (fit), bias and blind spots, own it. Run it before submitting, sending or deciding with any AI output.",
+          "id": "Claims (klaim), evidence (bukti), kesesuaian, bias dan titik buta, own it (tanggung jawabi). Jalankan sebelum mengumpulkan, mengirim, atau memutuskan dengan hasil AI apa pun."
+         },
+         {
+          "en": "Whatever you submit or send is yours. The tool is not a co-author you can blame.",
+          "id": "Apa pun yang kamu kumpulkan atau kirim adalah milikmu. Alatnya bukan rekan penulis yang bisa kamu salahkan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Prompting is clear thinking",
+         "id": "Menulis prompt adalah berpikir jernih"
+        },
+        "points": [
+         {
+          "en": "A good request names seven things: goal, role, context, audience, constraints, output format, examples or steps.",
+          "id": "Permintaan yang baik menyebut tujuh hal: tujuan, peran, konteks, audiens, batasan, format hasil, dan contoh atau langkah-langkah."
+         },
+         {
+          "en": "Prompting tricks date quickly. Clear thinking about the task does not.",
+          "id": "Trik menulis prompt cepat usang. Berpikir jernih tentang tugasnya tidak."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Responsible use: integrity first",
+         "id": "Penggunaan yang bertanggung jawab: integritas dulu"
+        },
+        "points": [
+         {
+          "en": "Your institution’s and lecturer’s rules decide what’s allowed; if unclear, ask in writing. Keep your version history, notes and drafts as process evidence.",
+          "id": "Aturan kampus dan dosenmu yang menentukan apa yang boleh; kalau belum jelas, tanyakan secara tertulis. Simpan riwayat versi, catatan, dan draf sebagai bukti proses."
+         },
+         {
+          "en": "AI detectors are unreliable and wrongly flag non-native English writers more often. Never use “humaniser” tools to disguise AI text.",
+          "id": "Detektor AI tidak bisa diandalkan dan lebih sering salah menandai tulisan penutur bahasa Inggris non-asli. Jangan pernah memakai alat \"humaniser\" untuk menyamarkan teks AI."
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "n": "5.7",
@@ -20022,8 +20679,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tinjauan mingguan: tempat sistem bertemu hidupmu"
        },
        "body": {
-        "en": "The five stations need maintenance. The evening process from the Capture station handles the daily part (capture into calendar or list). The weekly review is the 20-minute version that also connects the rest of Module 5. <b>The 20-minute weekly review:</b> (1) <b>Clear (5 min):</b> empty capture, chats and screenshots into calendar or list; archive finished files. (2) <b>Look back (5 min):</b> what got done; focus blocks completed; battery score this week (5.1); stress-cycle days (5.2). (3) <b>Look ahead (7 min):</b> deadlines for the next two weeks. Plan the shape of the week: hard days, easy days and one off-block (the Growth Equation). Book focus blocks in your peak hours. Book one relationship action (5.3) and one learning-loop hour (5.5). (4) <b>Adjust (3 min):</b> if something keeps slipping, shrink it, delegate it, or decide it's not a priority. Don't keep scheduling it to fail.",
-        "id": "Kelima pos itu butuh perawatan. Proses malam hari dari pos Penampung menangani bagian hariannya (memindahkan isi penampung ke kalender atau daftar). Tinjauan mingguan adalah versi 20 menit yang juga menghubungkan bagian-bagian lain dari Modul 5. <b>Tinjauan mingguan 20 menit:</b> (1) <b>Bersihkan (5 menit):</b> kosongkan penampung, chat, dan tangkapan layar ke kalender atau daftar; arsipkan berkas yang sudah selesai. (2) <b>Lihat ke belakang (5 menit):</b> apa yang sudah selesai; blok fokus yang berhasil dijalankan; skor baterai minggu ini (5.1); hari-hari penuntasan siklus stres (5.2). (3) <b>Lihat ke depan (7 menit):</b> tenggat dua minggu ke depan. Rencanakan bentuk minggunya: hari berat, hari ringan, dan satu blok libur (Persamaan Pertumbuhan). Jadwalkan blok fokus di jam puncakmu. Jadwalkan satu tindakan relasi (5.3) dan satu jam lingkaran belajar (5.5). (4) <b>Sesuaikan (3 menit):</b> kalau ada yang terus tergelincir, kecilkan, delegasikan, atau putuskan bahwa itu bukan prioritas. Jangan terus menjadwalkannya hanya untuk gagal lagi."
+        "en": "The five stations need maintenance. The evening process from the Capture station handles the daily part (capture into calendar or list). The weekly review is the 20-minute version that also connects the rest of Module 5. <b>The 20-minute weekly review:</b> (1) <b>Clear (5 min):</b> empty capture, chats and screenshots into calendar or list; archive finished files. (2) <b>Look back (5 min):</b> what got done; focus blocks completed; energy score this week (5.1); stress-cycle days (5.2). (3) <b>Look ahead (7 min):</b> deadlines for the next two weeks. Plan the shape of the week: hard days, easy days and one off-block (the Growth Equation). Book focus blocks in your peak hours. Book one relationship action (5.3) and one learning-loop hour (5.5). (4) <b>Adjust (3 min):</b> if something keeps slipping, shrink it, delegate it, or decide it's not a priority. Don't keep scheduling it to fail.",
+        "id": "Kelima pos itu butuh perawatan. Proses malam hari dari pos Penampung menangani bagian hariannya (memindahkan isi penampung ke kalender atau daftar). Tinjauan mingguan adalah versi 20 menit yang juga menghubungkan bagian-bagian lain dari Modul 5. <b>Tinjauan mingguan 20 menit:</b> (1) <b>Bersihkan (5 menit):</b> kosongkan penampung, chat, dan tangkapan layar ke kalender atau daftar; arsipkan berkas yang sudah selesai. (2) <b>Lihat ke belakang (5 menit):</b> apa yang sudah selesai; blok fokus yang berhasil dijalankan; skor energi minggu ini (5.1); hari-hari penuntasan siklus stres (5.2). (3) <b>Lihat ke depan (7 menit):</b> tenggat dua minggu ke depan. Rencanakan bentuk minggunya: hari berat, hari ringan, dan satu blok libur (Persamaan Pertumbuhan). Jadwalkan blok fokus di jam puncakmu. Jadwalkan satu tindakan relasi (5.3) dan satu jam lingkaran belajar (5.5). (4) <b>Sesuaikan (3 menit):</b> kalau ada yang terus tergelincir, kecilkan, delegasikan, atau putuskan bahwa itu bukan prioritas. Jangan terus menjadwalkannya hanya untuk gagal lagi."
        },
        "after": [
         {
@@ -20242,8 +20899,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tinjauan mingguan pertama (20 menit)"
        },
        "body": {
-        "en": "Run the four-part review using the card in the resource kit. Pull in your battery reading (5.1), stress-cycle days (5.2), your chosen relationship action (5.3) and learning-loop hour (5.5), and write the result in the plan section below.",
-        "id": "Jalankan tinjauan empat bagian dengan kartu di perlengkapan. Masukkan catatan baterai (5.1), hari-hari penuntasan siklus stres (5.2), tindakan relasi yang kamu pilih (5.3), dan jam lingkaran belajar (5.5), lalu tulis hasilnya di bagian rencana di bawah."
+        "en": "Run the four-part review using the card in the resource kit. Pull in your energy reading (5.1), stress-cycle days (5.2), your chosen relationship action (5.3) and learning-loop hour (5.5), and write the result in the plan section below.",
+        "id": "Jalankan tinjauan empat bagian dengan kartu di perlengkapan. Masukkan catatan energi (5.1), hari-hari penuntasan siklus stres (5.2), tindakan relasi yang kamu pilih (5.3), dan jam lingkaran belajar (5.5), lalu tulis hasilnya di bagian rencana di bawah."
        },
        "debrief": {
         "en": "The review often shows that the week was planned for a version of you with a full battery. Plan for the real one. Shrink, but never to zero.",
@@ -20325,100 +20982,6 @@ window.MT_LMS['the-map'] = {
        }
       ]
      },
-     "material": [
-      {
-       "placement": "end:10",
-       "kicker": {
-        "en": "Read last · 7 slides",
-        "id": "Baca terakhir · 7 slide"
-       },
-       "title": {
-        "en": "Four Foundational Principles: Material",
-        "id": "Empat Prinsip Dasar: Materi"
-       },
-       "intro": {
-        "en": "Seven slides before the check: the closing deck of the source digital course, placed here because it ends on a plan. Slide 1 names the four principles of Agile (focus on end users, be team-oriented, deliver continuous value, experiment and learn quickly), the way of working that keeps a toolkit like this lesson's five stations honest. Slide 2 puts data, technology and ways of working together; slides 3–4 show one manufacturer, John Deere, turning farm equipment into decisions with data, with a reflection on why it worked. Slide 5 is your own digital toolkit and plan: four questions to answer in a line each. Slides 6–7 gather the key takeaways and close. Answer slide 5 before you take the knowledge check below.",
-        "id": "Tujuh slide sebelum cek pemahaman: slide penutup kursus digital sumbernya, ditaruh di sini karena berakhir dengan sebuah rencana. Slide 1 menyebut empat prinsip Agile (fokus pada pengguna akhir, berorientasi tim, memberikan nilai terus-menerus, bereksperimen dan belajar dengan cepat), cara kerja yang menjaga perangkat seperti lima pos di pelajaran ini tetap jujur. Slide 2 memadukan data, teknologi, dan cara kerja; slide 3–4 menunjukkan bagaimana satu produsen, John Deere, mengubah peralatan pertanian menjadi alat bantu keputusan dengan data, disertai renungan tentang kenapa itu berhasil. Slide 5 adalah perangkat digital dan rencanamu sendiri: empat pertanyaan yang dijawab masing-masing dalam satu baris. Slide 6–7 merangkum poin-poin penting dan menutup kursusnya. Jawab slide 5 sebelum mengerjakan cek pemahaman di bawah."
-       },
-       "base": "../../assets/lms/the-map/slides/four-principles-",
-       "slides": [
-        {
-         "title": {
-          "en": "Four foundational principles of Agile",
-          "id": "Empat prinsip dasar Agile"
-         },
-         "text": {
-          "en": "Agile helps teams create value faster by keeping the end user at the center, working collaboratively, delivering continuously, and learning through experimentation. 01 Focus on end users. Connect early with users (internal or external) to gain insights and develop solutions that truly fit their needs. Use design thinking methods such as user personas and user journey mapping. Real user insights lead to better solutions. 02 Be team-oriented. Work in small, cross-functional teams with clear roles and shared ownership. The team is responsible for the solution and empowered to make decisions, with fewer layers of approval and roadblocks. Empowered teams move faster. 03 Deliver continuous value. Focus on the end goal and deliver value in small increments through iterative development. Continuously gather user feedback to measure success and make improvements. Small increments create real impact. 04 Experiment and learn quickly. Use short, test-and-learn cycles (sprints) to validate ideas, reduce risk, and continuously improve. Stay flexible and be ready to adapt based on what you learn. Test early, learn faster. From insights to impact, through continuous iteration.",
-          "id": "Agile membantu tim menciptakan nilai lebih cepat dengan menempatkan pengguna akhir di pusat, bekerja secara kolaboratif, memberikan nilai terus-menerus, dan belajar lewat eksperimen. 01 Fokus pada pengguna akhir. Terhubunglah dengan pengguna (internal atau eksternal) sejak awal untuk mendapat wawasan dan mengembangkan solusi yang benar-benar sesuai kebutuhan mereka. Pakai metode design thinking seperti persona pengguna dan pemetaan perjalanan pengguna. Wawasan nyata dari pengguna menghasilkan solusi yang lebih baik. 02 Berorientasi tim. Bekerjalah dalam tim kecil lintas fungsi dengan peran yang jelas dan rasa memiliki bersama. Tim bertanggung jawab atas solusinya dan diberi wewenang untuk mengambil keputusan, dengan lebih sedikit lapisan persetujuan dan hambatan. Tim yang diberi wewenang bergerak lebih cepat. 03 Berikan nilai terus-menerus. Fokus pada tujuan akhir dan berikan nilai sedikit demi sedikit lewat pengembangan yang berulang. Terus kumpulkan masukan pengguna untuk mengukur keberhasilan dan melakukan perbaikan. Langkah-langkah kecil menciptakan dampak nyata. 04 Bereksperimen dan belajar dengan cepat. Pakai siklus pendek uji-dan-belajar (sprint) untuk memvalidasi ide, mengurangi risiko, dan terus memperbaiki diri. Tetap fleksibel dan siap beradaptasi berdasarkan apa yang kamu pelajari. Uji lebih awal, belajar lebih cepat. Dari wawasan ke dampak, lewat iterasi yang terus-menerus."
-         }
-        },
-        {
-         "title": {
-          "en": "Putting it all together",
-          "id": "Memadukan semuanya"
-         },
-         "text": {
-          "en": "Digital is the combination of data, technology and ways of working. These ingredients help both individuals and organizations automate, connect, innovate and make better decisions. More and more organizations are ‘going digital’ and looking for individuals who have both the skills and mindsets to learn and work in such environments. From the perspective of modern organizations, digital is the best way to better meet the needs and enhance the experience of customers and employees. Data (better information), technology (greater capability), ways of working (more effective collaboration) → digital → automate (automating processes), connect (connecting people and data), innovate (driving innovation), better decisions (producing better decisions). To see how all the different components of digital come together, next you'll see how one manufacturer transformed its business through digital.",
-          "id": "Digital adalah perpaduan data, teknologi, dan cara kerja. Bahan-bahan ini membantu individu maupun organisasi mengotomatiskan, terhubung, berinovasi, dan mengambil keputusan yang lebih baik. Makin banyak organisasi yang \"menjadi digital\" dan mencari orang yang punya keterampilan dan pola pikir untuk belajar dan bekerja di lingkungan seperti itu. Dari sudut pandang organisasi modern, digital adalah cara terbaik untuk lebih memenuhi kebutuhan dan memperbaiki pengalaman pelanggan serta karyawan. Data (informasi yang lebih baik), teknologi (kemampuan yang lebih besar), cara kerja (kolaborasi yang lebih efektif) → digital → mengotomatiskan (mengotomatiskan proses), terhubung (menghubungkan orang dan data), berinovasi (mendorong inovasi), keputusan yang lebih baik (menghasilkan keputusan yang lebih baik). Untuk melihat bagaimana semua komponen digital itu menyatu, berikutnya kamu akan melihat bagaimana satu produsen mengubah bisnisnya lewat digital."
-         }
-        },
-        {
-         "title": {
-          "en": "From equipment to intelligence",
-          "id": "Dari peralatan menjadi kecerdasan"
-         },
-         "text": {
-          "en": "John Deere shifted from selling machines to helping farmers make better decisions with data. A growing challenge for agriculture: as the global population rises, the agricultural industry needs to grow more food on limited land while reducing costs and improving sustainability. A legacy of innovation: John Deere was founded almost 200 years ago to make and sell farm equipment. A strategic shift: in recent years, company leaders realized that selling more of the same equipment would not help farmers do more with less. They changed their strategy to integrate advanced technologies into farm vehicles, enabling farmers' longer-term success. The shift: from selling equipment to enabling outcomes. Data points shown: crop health, weather conditions, soil data, field performance. 1. Understand farmers: gain a deeper understanding of farmers' needs, challenges, and their customers. 2. Connect technology & data: integrate advanced technologies into farm vehicles and make data more accessible and useful. 3. Enable better decisions. Give farmers simpler ways to collect, understand, and use data to improve their outcomes.",
-          "id": "John Deere beralih dari menjual mesin menjadi membantu petani mengambil keputusan yang lebih baik dengan data. Tantangan pertanian yang makin besar: seiring bertambahnya penduduk dunia, industri pertanian perlu menanam lebih banyak pangan di lahan yang terbatas sambil menekan biaya dan meningkatkan keberlanjutan. Warisan inovasi: John Deere didirikan hampir 200 tahun lalu untuk membuat dan menjual peralatan pertanian. Pergeseran strategi: dalam beberapa tahun terakhir, para pemimpin perusahaan menyadari bahwa menjual lebih banyak peralatan yang sama tidak akan membantu petani berbuat lebih banyak dengan sumber daya yang lebih sedikit. Mereka mengubah strateginya dengan memadukan teknologi maju ke kendaraan pertanian, demi keberhasilan jangka panjang para petani. Pergeserannya: dari menjual peralatan menjadi memampukan hasil. Titik data yang ditampilkan: kesehatan tanaman, kondisi cuaca, data tanah, kinerja lahan. 1. Memahami petani: memahami lebih dalam kebutuhan, tantangan, dan pelanggan para petani. 2. Menghubungkan teknologi dan data: memadukan teknologi maju ke kendaraan pertanian dan membuat data lebih mudah diakses dan berguna. 3. Memampukan keputusan yang lebih baik. Memberi petani cara yang lebih sederhana untuk mengumpulkan, memahami, dan memakai data agar hasilnya membaik."
-         }
-        },
-        {
-         "title": {
-          "en": "Turning data into better decisions",
-          "id": "Mengubah data menjadi keputusan yang lebih baik"
-         },
-         "text": {
-          "en": "Case in action. John Deere integrated advanced technologies into its farm equipment to give farmers real-time insights and practical recommendations: weather forecast, soil conditions, seed properties, field data. 01 Collecting the right data: the company added sensors to its machines that analyzed weather forecasts and data on soil conditions, seed properties, and other information critical to farmers' day-to-day decisions. 02 Creating real impact for farmers: John Deere combined cameras, cloud technology, and artificial intelligence. Data from smart cameras was automatically uploaded to the cloud, where farmers could evaluate crop quality in real time and collaborate with other farmers to get advice on what to plant and where, how much fertilizer to use, and so on. As the machines gathered more data, more farmers benefited, allowing the company to use AI and machine learning to find previously unseen patterns and improve their products. Reflection. Take a moment to reflect: why was John Deere successful? Select all that apply: challenged current constraints; embraced iterations; sought new opportunities; focused on the need of the farmer; all of the above. All of the above! The solution was only possible because John Deere challenged current constraints, embraced iterations, and sought out new opportunities to focus on the needs of farmers. The company developed the technology to capture and analyze data and built equipment that farmers needed. The new strategy enabled farmers to produce more food more efficiently.",
-          "id": "Kasus dalam praktik. John Deere memadukan teknologi maju ke peralatan pertaniannya untuk memberi petani wawasan langsung dan rekomendasi praktis: prakiraan cuaca, kondisi tanah, sifat benih, data lahan. 01 Mengumpulkan data yang tepat: perusahaan menambahkan sensor ke mesin-mesinnya yang menganalisis prakiraan cuaca serta data kondisi tanah, sifat benih, dan informasi lain yang sangat penting bagi keputusan sehari-hari petani. 02 Menciptakan dampak nyata bagi petani: John Deere memadukan kamera, teknologi cloud, dan kecerdasan buatan. Data dari kamera pintar otomatis diunggah ke cloud, tempat petani bisa menilai kualitas tanaman secara langsung dan berkolaborasi dengan petani lain untuk mendapat saran tentang apa yang ditanam dan di mana, berapa banyak pupuk yang dipakai, dan seterusnya. Makin banyak data yang dikumpulkan mesin, makin banyak petani yang mendapat manfaat, sehingga perusahaan bisa memakai AI dan machine learning untuk menemukan pola yang sebelumnya tidak terlihat dan memperbaiki produknya. Renungan. Luangkan waktu untuk merenung: kenapa John Deere berhasil? Pilih semua yang sesuai: menantang batasan yang ada; merangkul iterasi; mencari peluang baru; berfokus pada kebutuhan petani; semua yang di atas. Semua yang di atas! Solusinya hanya mungkin karena John Deere menantang batasan yang ada, merangkul iterasi, dan mencari peluang baru untuk berfokus pada kebutuhan petani. Perusahaan mengembangkan teknologi untuk menangkap dan menganalisis data serta membangun peralatan yang dibutuhkan petani. Strategi baru itu memungkinkan petani menghasilkan lebih banyak pangan dengan lebih efisien."
-         }
-        },
-        {
-         "title": {
-          "en": "Your digital toolkit and plan",
-          "id": "Perangkat digital dan rencanamu"
-         },
-         "text": {
-          "en": "Reflection & action plan. Now that you have explored the different factors driving digital transformation, take time to reflect on your own digital journey and create a plan for what you want to do next. Take a moment to reflect and write your answers to the questions below. This reflection will help you personalize your learning and clarify which areas you want to explore further. 1. What have you already done to expand your knowledge and skills in this area? 2. What is an obstacle you currently face in understanding or taking action in this area? 3. Identify 1 or more specific actions you want to take to enhance your knowledge and skills in this area. 4. Prioritize one action you will start immediately and specify a timeline for it. “Today's reflection is the foundation for your progress tomorrow.”",
-          "id": "Renungan dan rencana tindakan. Setelah menjelajahi berbagai faktor yang mendorong transformasi digital, luangkan waktu untuk merenungkan perjalanan digitalmu sendiri dan menyusun rencana untuk langkah berikutnya. Luangkan waktu untuk merenung dan tulis jawabanmu atas pertanyaan-pertanyaan di bawah. Renungan ini akan membantumu menyesuaikan cara belajarmu dan memperjelas bidang mana yang ingin kamu dalami. 1. Apa yang sudah kamu lakukan untuk memperluas pengetahuan dan keterampilanmu di bidang ini? 2. Apa hambatan yang saat ini kamu hadapi dalam memahami atau bertindak di bidang ini? 3. Tentukan satu atau beberapa tindakan spesifik yang ingin kamu ambil untuk meningkatkan pengetahuan dan keterampilanmu di bidang ini. 4. Prioritaskan satu tindakan yang akan langsung kamu mulai dan tetapkan jadwalnya. \"Renungan hari ini adalah fondasi kemajuanmu besok.\""
-         },
-         "caption": {
-          "en": "Your workbook in Metanoia: answer this slide in the plan section of this lesson (Digital system).",
-          "id": "Buku kerjamu di Metanoia: jawab slide ini di bagian rencana pelajaran ini (Sistem digital)."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin-poin penting"
-         },
-         "text": {
-          "en": "In this module, we have covered the following key tools: data (turning information into insights), technology (enabling new possibilities), new ways of working (rethinking how we collaborate and create value). Main takeaway: use the three components of digital (data, technology, and new ways of working) to shape your thinking and define your own digital toolkit for the opportunities ahead. Recommended exploration. The slide lists ten further readings by title: What's the future of the internet? (Web3, tokenization, prompt engineering, digital-twin technology, quantum computing, proof of stake, blockchain); What is generative AI?; Author Talks: Think Digital; Cloud as the ultimate digital enabler; Six digital trends gaining momentum, and why they matter; How six companies are using technology and data to transform themselves; Getting beyond gridlock in cities; The most fundamental skill: intentional learning and the career advantage; Seven essential elements of a lifelong-learning mindset; AI in Action: an interactive learning journey. The slide names these titles; their links are not reproduced in this lesson.",
-          "id": "Di modul ini, kita sudah membahas alat-alat kunci berikut: data (mengubah informasi menjadi wawasan), teknologi (membuka kemungkinan baru), cara kerja baru (memikirkan ulang cara kita berkolaborasi dan menciptakan nilai). Poin utama: pakai tiga komponen digital (data, teknologi, dan cara kerja baru) untuk membentuk cara berpikirmu dan menyusun perangkat digitalmu sendiri untuk peluang-peluang di depan. Bacaan yang disarankan. Slide ini mencantumkan sepuluh judul bacaan lanjutan: What's the future of the internet? (Web3, tokenization, prompt engineering, digital-twin technology, quantum computing, proof of stake, blockchain); What is generative AI?; Author Talks: Think Digital; Cloud as the ultimate digital enabler; Six digital trends gaining momentum, and why they matter; How six companies are using technology and data to transform themselves; Getting beyond gridlock in cities; The most fundamental skill: intentional learning and the career advantage; Seven essential elements of a lifelong-learning mindset; AI in Action: an interactive learning journey. Slide ini menyebutkan judul-judulnya; tautannya tidak dicantumkan di pelajaran ini."
-         }
-        },
-        {
-         "title": {
-          "en": "Closing remarks",
-          "id": "Penutup"
-         },
-         "text": {
-          "en": "Digital toolkit: closing remarks. A stronger digital mindset today opens bigger opportunities tomorrow. In summary, in this course you have learned how to: 01 Identify different types of digital advancements and understand how they impact you: your work, your industry, and your future opportunities. 02 Develop your own digital toolkit based on the knowledge and skills you want to explore further to support your personal and professional growth. Looking ahead. We hope that you are excited about the opportunities within the digital world, and can continue to explore more as you progress in your career.",
-          "id": "Perangkat digital: penutup. Pola pikir digital yang lebih kuat hari ini membuka peluang yang lebih besar esok. Sebagai ringkasan, di kursus ini kamu sudah belajar: 01 Mengenali berbagai jenis kemajuan digital dan memahami dampaknya bagimu: pekerjaanmu, industrimu, dan peluangmu di masa depan. 02 Menyusun perangkat digitalmu sendiri berdasarkan pengetahuan dan keterampilan yang ingin kamu dalami untuk mendukung pertumbuhan pribadi dan profesionalmu. Menatap ke depan. Kami harap kamu bersemangat menyambut peluang di dunia digital, dan terus menjelajahinya seiring kariermu berjalan."
-         }
-        }
-       ]
-      }
-     ],
      "checks": [
       {
        "q": {
@@ -20654,8 +21217,8 @@ window.MT_LMS['the-map'] = {
           "id": "Bersihkan (5): penampung, chat, tangkapan layar → kalender atau daftar; arsipkan berkas yang sudah selesai"
          },
          {
-          "en": "Look back (5): done · blocks completed · battery score (5.1) · stress-cycle days (5.2)",
-          "id": "Lihat ke belakang (5): yang selesai · blok yang berhasil · skor baterai (5.1) · hari penuntasan siklus stres (5.2)"
+          "en": "Look back (5): done · blocks completed · energy score (5.1) · stress-cycle days (5.2)",
+          "id": "Lihat ke belakang (5): yang selesai · blok yang berhasil · skor energi (5.1) · hari penuntasan siklus stres (5.2)"
          },
          {
           "en": "Look ahead (7): deadlines for two weeks · hard/easy days + one off-block · blocks in peaks · one relationship action (5.3) · one learning-loop hour (5.5)",
@@ -20809,8 +21372,8 @@ window.MT_LMS['the-map'] = {
         "id": "Ia tidak menyalahkan dirinya habis-habisan (5.2). Malam itu juga ia menjalankan sprint penyiapan dari pelajaran ini: satu kotak masuk penampung, kalender yang benar-benar ia percayai, berkas yang diganti nama dengan format bertanggal, dan grup chat yang dibisukan kecuali kalau namanya disebut. Ia menambahkan tinjauan mingguan setiap Jumat 16:30."
        },
        {
-        "en": "On Monday he messages Bu Wulan: “Bu, mohon maaf saya melewatkan tenggat Jumat. Penyebabnya, saya tidak mencatat instruksi dari voice note. Sekarang semua instruksi saya catat dalam satu inbox dan saya konfirmasi balik. Laporannya sudah saya kirim pagi ini.” That is Reframe from REACH (5.3), from the junior seat.",
-        "id": "Hari Senin ia mengirim pesan kepada Bu Wulan: \"Bu, mohon maaf saya melewatkan tenggat Jumat. Penyebabnya, saya tidak mencatat instruksi dari voice note. Sekarang semua instruksi saya catat dalam satu inbox dan saya konfirmasi balik. Laporannya sudah saya kirim pagi ini.\" Itulah memaknai ulang kesalahan dari REACH (5.3), dari kursi junior."
+        "en": "On Monday he messages Bu Wulan: “Bu, mohon maaf saya melewatkan tenggat Jumat. Penyebabnya, saya tidak mencatat instruksi dari voice note. Sekarang semua instruksi saya catat dalam satu inbox dan saya konfirmasi balik. Laporannya sudah saya kirim pagi ini.” That is owning a mistake early (5.3), from the junior seat.",
+        "id": "Hari Senin ia mengirim pesan kepada Bu Wulan: \"Bu, mohon maaf saya melewatkan tenggat Jumat. Penyebabnya, saya tidak mencatat instruksi dari voice note. Sekarang semua instruksi saya catat dalam satu inbox dan saya konfirmasi balik. Laporannya sudah saya kirim pagi ini.\" Itulah mengakui kesalahan lebih awal (5.3), dari kursi junior."
        }
       ]
      },
@@ -20865,7 +21428,490 @@ window.MT_LMS['the-map'] = {
         "id": "Pesan yang berpura-pura berasal dari pihak tepercaya untuk mencuri data atau uang."
        }
       }
-     ]
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 6 slides",
+       "id": "Baca dulu · 6 slide"
+      },
+      "title": {
+       "en": "Five Stations",
+       "id": "Lima Pos"
+      },
+      "intro": {
+       "en": "Six ideas for a digital setup you can trust. The lesson below builds each station in under an hour in total.",
+       "id": "Enam gagasan untuk tatanan digital yang bisa kamu percaya. Pelajaran di bawah membangun setiap pos dalam waktu kurang dari satu jam secara keseluruhan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "A system you trust",
+         "id": "Sistem yang kamu percaya"
+        },
+        "points": [
+         {
+          "en": "What you carry in your head, you pay for in attention.",
+          "id": "Apa yang kamu simpan di kepala, kamu bayar dengan perhatian."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Five stations",
+         "id": "Lima pos"
+        },
+        "points": [
+         {
+          "en": "Free tools you already have are enough.",
+          "id": "Alat gratis yang sudah kamu punya sudah cukup."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Focus blocks",
+         "id": "Blok fokus"
+        },
+        "points": [
+         {
+          "en": "Focus is an environment you configure once, not willpower you summon every hour.",
+          "id": "Fokus adalah lingkungan yang kamu atur sekali, bukan tekad yang kamu panggil setiap jam."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The weekly review",
+         "id": "Tinjauan mingguan"
+        },
+        "points": [
+         {
+          "en": "The review also connects the rest of Module 5: energy, relationships and learning.",
+          "id": "Tinjauan ini juga menghubungkan bagian lain Modul 5: energi, relasi, dan belajar."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "AI inside the stations",
+         "id": "AI di dalam pos"
+        },
+        "points": [
+         {
+          "en": "A tool that drafts for you does not take over responsibility for the result.",
+          "id": "Alat yang membuatkan draf untukmu tidak mengambil alih tanggung jawab atas hasilnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Safety basics",
+         "id": "Dasar keamanan"
+        },
+        "points": [
+         {
+          "en": "Do these once, this week, and review them once a term.",
+          "id": "Kerjakan sekali, minggu ini, lalu tinjau sekali setiap semester."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/ep-stage-architecture.jpg",
+       "module": {
+        "en": "Module 5 · Relationships, Well-Being, and Digital Capability",
+        "id": "Modul 5 · Relasi, Kesejahteraan, dan Kecakapan Digital"
+       },
+       "lesson": {
+        "n": "5.7",
+        "title": {
+         "en": "Practical Digital Productivity Toolkit",
+         "id": "Perangkat Praktis Produktivitas Digital"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "A system's job is to be trusted, so your brain can stop rehearsing commitments",
+         "id": "Tugas sebuah sistem adalah bisa dipercaya, supaya otakmu berhenti mengulang-ulang janji"
+        },
+        {
+         "en": "A working digital toolkit has five stations, and each has one job",
+         "id": "Perangkat digital yang berfungsi punya lima pos, dan masing-masing punya satu tugas"
+        },
+        {
+         "en": "Train focus like fitness: start with the block you can hold, then add five minutes a week",
+         "id": "Latih fokus seperti kebugaran: mulai dari blok yang sanggup kamu tahan, lalu tambah lima menit seminggu"
+        },
+        {
+         "en": "Twenty minutes a week is where the system meets your life",
+         "id": "Dua puluh menit seminggu adalah tempat sistemmu bertemu hidupmu"
+        },
+        {
+         "en": "AI works inside your stations, under your own rules, not as a sixth station",
+         "id": "AI bekerja di dalam pos-posmu, dengan aturanmu sendiri, bukan sebagai pos keenam"
+        },
+        {
+         "en": "Thirty minutes of digital hygiene protects years of work",
+         "id": "Tiga puluh menit merapikan keamanan digital melindungi kerja bertahun-tahun"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "A system you trust",
+          "id": "Sistem yang kamu percaya"
+         },
+         "p": {
+          "en": "What you carry in your head, you pay for in attention.",
+          "id": "Apa yang kamu simpan di kepala, kamu bayar dengan perhatian."
+         }
+        },
+        {
+         "h": {
+          "en": "Five stations",
+          "id": "Lima pos"
+         },
+         "p": {
+          "en": "Free tools you already have are enough.",
+          "id": "Alat gratis yang sudah kamu punya sudah cukup."
+         }
+        },
+        {
+         "h": {
+          "en": "Focus blocks",
+          "id": "Blok fokus"
+         },
+         "p": {
+          "en": "Focus is an environment you configure once, not willpower you summon every hour.",
+          "id": "Fokus adalah lingkungan yang kamu atur sekali, bukan tekad yang kamu panggil setiap jam."
+         }
+        },
+        {
+         "h": {
+          "en": "The weekly review",
+          "id": "Tinjauan mingguan"
+         },
+         "p": {
+          "en": "The review also connects the rest of Module 5: energy, relationships and learning.",
+          "id": "Tinjauan ini juga menghubungkan bagian lain Modul 5: energi, relasi, dan belajar."
+         }
+        },
+        {
+         "h": {
+          "en": "AI inside the stations",
+          "id": "AI di dalam pos"
+         },
+         "p": {
+          "en": "A tool that drafts for you does not take over responsibility for the result.",
+          "id": "Alat yang membuatkan draf untukmu tidak mengambil alih tanggung jawab atas hasilnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Safety basics",
+          "id": "Dasar keamanan"
+         },
+         "p": {
+          "en": "Do these once, this week, and review them once a term.",
+          "id": "Kerjakan sekali, minggu ini, lalu tinjau sekali setiap semester."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "A system's job is to be trusted, so your brain can stop rehearsing commitments",
+          "id": "Tugas sebuah sistem adalah bisa dipercaya, supaya otakmu berhenti mengulang-ulang janji"
+         },
+         "em": {
+          "en": "to be trusted",
+          "id": "bisa dipercaya"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "brain",
+           "en": "Commitments live in your memory, in chat screenshots and in three apps. Two have just slipped.",
+           "id": "Janji-janjimu tersimpan di ingatan, di tangkapan layar chat, dan di tiga aplikasi. Dua baru saja terlewat.",
+           "l": {
+            "en": "In your head",
+            "id": "Di kepala"
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "Everything lands in one place within ten seconds, and is emptied into the calendar or a list every evening.",
+           "id": "Semuanya masuk ke satu tempat dalam sepuluh detik, lalu dikosongkan ke kalender atau daftar setiap malam.",
+           "l": {
+            "en": "In one system",
+            "id": "Di satu sistem"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A working digital toolkit has five stations, and each has one job",
+          "id": "Perangkat digital yang berfungsi punya lima pos, dan masing-masing punya satu tugas"
+         },
+         "em": {
+          "en": "five stations",
+          "id": "lima pos"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "clipboard",
+           "en": "Capture",
+           "id": "Penampung",
+           "d": {
+            "en": "One inbox for every task, promise and idea",
+            "id": "Satu kotak masuk untuk setiap tugas, janji, dan ide"
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "Calendar",
+           "id": "Kalender",
+           "d": {
+            "en": "Anything with a date lives here, nowhere else",
+            "id": "Apa pun yang bertanggal ada di sini, bukan di tempat lain"
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Files",
+           "id": "Berkas",
+           "d": {
+            "en": "One cloud root, shallow folders, names that sort",
+            "id": "Satu induk di awan, folder dangkal, nama yang mudah diurutkan"
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "Focus",
+           "id": "Fokus",
+           "d": {
+            "en": "Notifications off by default, phone away",
+            "id": "Notifikasi mati sejak awal, ponsel dijauhkan"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "mail",
+           "en": "Professional inbox",
+           "id": "Kotak masuk profesional",
+           "d": {
+            "en": "An address fit for a CV, checked twice a day",
+            "id": "Alamat yang pantas di CV, dicek dua kali sehari"
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Train focus like fitness: start with the block you can hold, then add five minutes a week",
+          "id": "Latih fokus seperti kebugaran: mulai dari blok yang sanggup kamu tahan, lalu tambah lima menit seminggu"
+         },
+         "em": {
+          "en": "add five minutes a week",
+          "id": "tambah lima menit seminggu"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "timer",
+           "en": "Start where you are",
+           "id": "Mulai dari kemampuanmu",
+           "d": {
+            "en": "The block length you can actually hold",
+            "id": "Panjang blok yang benar-benar sanggup kamu tahan"
+           }
+          },
+          {
+           "icon": "lock",
+           "en": "Protect it",
+           "id": "Lindungi",
+           "d": {
+            "en": "Phone out of reach, one blocker profile",
+            "id": "Ponsel di luar jangkauan, satu profil pemblokir"
+           }
+          },
+          {
+           "icon": "chart",
+           "en": "Grow it",
+           "id": "Tambah",
+           "d": {
+            "en": "Five more minutes each week",
+            "id": "Lima menit lagi setiap minggu"
+           }
+          }
+         ],
+         "img": "../../assets/bg/resilience.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Twenty minutes a week is where the system meets your life",
+          "id": "Dua puluh menit seminggu adalah tempat sistemmu bertemu hidupmu"
+         },
+         "em": {
+          "en": "Twenty minutes a week",
+          "id": "Dua puluh menit seminggu"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "refresh",
+           "en": "Clear · 5 min",
+           "id": "Bersihkan · 5 menit",
+           "d": {
+            "en": "Empty capture and chats into calendar or list",
+            "id": "Kosongkan penampung dan chat ke kalender atau daftar"
+           }
+          },
+          {
+           "icon": "eye",
+           "en": "Look back · 5 min",
+           "id": "Lihat ke belakang · 5 menit",
+           "d": {
+            "en": "What got done; your energy score",
+            "id": "Apa yang selesai; skor energimu"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Look ahead · 7 min",
+           "id": "Lihat ke depan · 7 menit",
+           "d": {
+            "en": "Deadlines, focus blocks, one relationship action",
+            "id": "Tenggat, blok fokus, satu tindakan relasi"
+           }
+          },
+          {
+           "icon": "sliders",
+           "en": "Adjust · 3 min",
+           "id": "Sesuaikan · 3 menit",
+           "d": {
+            "en": "Shrink, delegate or drop what keeps slipping",
+            "id": "Kecilkan, delegasikan, atau lepaskan yang terus tergelincir"
+           }
+          }
+         ],
+         "img": "../../assets/bg/map.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "AI works inside your stations, under your own rules, not as a sixth station",
+          "id": "AI bekerja di dalam pos-posmu, dengan aturanmu sendiri, bukan sebagai pos keenam"
+         },
+         "em": {
+          "en": "under your own rules",
+          "id": "dengan aturanmu sendiri"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "clipboard",
+           "en": "Turn a voice note into tasks, then check them yourself.",
+           "id": "Ubah pesan suara menjadi daftar tugas, lalu periksa sendiri.",
+           "l": {
+            "en": "In capture",
+            "id": "Di penampung"
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "Summarise a long document you have already read once.",
+           "id": "Ringkas dokumen panjang yang sudah pernah kamu baca sekali.",
+           "l": {
+            "en": "In files",
+            "id": "Di berkas"
+           }
+          },
+          {
+           "icon": "shield",
+           "en": "Nothing confidential goes in. You stay responsible for what comes out.",
+           "id": "Tak ada yang rahasia dimasukkan. Kamu tetap bertanggung jawab atas keluarannya.",
+           "l": {
+            "en": "Your rules",
+            "id": "Aturanmu"
+           }
+          }
+         ],
+         "img": "../../assets/bg/ep-stage-transition.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Thirty minutes of digital hygiene protects years of work",
+          "id": "Tiga puluh menit merapikan keamanan digital melindungi kerja bertahun-tahun"
+         },
+         "em": {
+          "en": "Thirty minutes",
+          "id": "Tiga puluh menit"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "lock",
+           "en": "Two-step sign-in",
+           "id": "Masuk dua langkah",
+           "d": {
+            "en": "On email and cloud storage first",
+            "id": "Mulai dari email dan penyimpanan awan"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          },
+          {
+           "icon": "key",
+           "en": "A password manager",
+           "id": "Pengelola kata sandi",
+           "d": {
+            "en": "One strong password to remember",
+            "id": "Cukup satu kata sandi kuat untuk diingat"
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "Backups",
+           "id": "Cadangan",
+           "d": {
+            "en": "Important files in two places",
+            "id": "Berkas penting di dua tempat"
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "A clean public profile",
+           "id": "Profil publik yang rapi",
+           "d": {
+            "en": "Search your own name once a term",
+            "id": "Cari namamu sendiri sekali setiap semester"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          }
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "n": "5.8",
@@ -20897,8 +21943,8 @@ window.MT_LMS['the-map'] = {
        "id": "Mendiagnosis tanda-tanda energi dan stres, lalu meresepkan sebuah protokol."
       },
       {
-       "en": "Plan an AVEC conversation and a disagreement using the Ladder.",
-       "id": "Merencanakan percakapan AVEC dan sebuah perbedaan pendapat dengan Tangga Ketidaksetujuan."
+       "en": "Plan a four-element conversation and a disagreement using the Ladder.",
+       "id": "Merencanakan percakapan empat unsur dan sebuah perbedaan pendapat dengan Tangga Ketidaksetujuan."
       },
       {
        "en": "Map tasks for AI exposure and write responsible-use rules.",
@@ -20982,8 +22028,8 @@ window.MT_LMS['the-map'] = {
           "id": "Mentor, aku sudah dua bulan di program Data & Operations Trainee di PT Nusantara Logistik. Aku benar-benar ingin lulus masa percobaan bulan depan, tapi jujur saja tenagaku sudah habis. Aku lulus sidang bulan lalu (revisinya harus selesai dua minggu lagi)."
          },
          {
-          "en": "<b>Energy:</b> I sleep about 5½ hours on weeknights, commute two hours a day by KRL, have stopped futsal and eat lunch at my desk. My battery check this morning was 3/9. I've caught two colds in five weeks.",
-          "id": "<b>Energi:</b> aku tidur sekitar 5½ jam di malam hari kerja, perjalanan pulang-pergi dua jam sehari naik KRL, sudah berhenti futsal, dan makan siang di meja kerja. Cek baterai tadi pagi skornya 3/9. Aku sudah dua kali pilek dalam lima minggu."
+          "en": "<b>Energy:</b> I sleep about 5½ hours on weeknights, commute two hours a day by KRL, have stopped futsal and eat lunch at my desk. My energy check this morning was 3/9. I've caught two colds in five weeks.",
+          "id": "<b>Energi:</b> aku tidur sekitar 5½ jam di malam hari kerja, perjalanan pulang-pergi dua jam sehari naik KRL, sudah berhenti futsal, dan makan siang di meja kerja. Cek energi tadi pagi skornya 3/9. Aku sudah dua kali pilek dalam lima minggu."
          },
          {
           "en": "<b>People:</b> Mbak Sari, my senior, and I keep clashing about how the weekly delivery dashboard should be structured. Last week I went quiet in the meeting and then complained in the trainees' WhatsApp group. I think she saw it. Bu Wulan (my supervisor) seems happy with my work but I've never had a proper 1:1 with her.",
@@ -21460,8 +22506,8 @@ window.MT_LMS['the-map'] = {
          "id": "Orang"
         },
         "guide": {
-         "en": "Use 5.3 and 5.4: AVEC across hierarchy, REACH from the junior seat, the Purpose Picker, the Disagreement Ladder and the senior script. Remember the screenshot that reached Mbak Sari.",
-         "id": "Pakai 5.3 dan 5.4: AVEC di tengah hierarki, REACH dari kursi junior, Pemilih Tujuan, Tangga Ketidaksetujuan, dan naskah untuk senior. Ingat tangkapan layar yang sampai ke Mbak Sari."
+         "en": "Use 5.3 and 5.4: the four elements across hierarchy, small acts from the junior seat, the Purpose Picker, the Disagreement Ladder and the senior script. Remember the screenshot that reached Mbak Sari.",
+         "id": "Pakai 5.3 dan 5.4: empat unsur di tengah hierarki, tindakan kecil dari kursi junior, Pemilih Tujuan, Tangga Ketidaksetujuan, dan naskah untuk senior. Ingat tangkapan layar yang sampai ke Mbak Sari."
         },
         "questions": [
          {
@@ -21502,7 +22548,8 @@ window.MT_LMS['the-map'] = {
             "perhatian",
             "empathy",
             "empati",
-            "AVEC"
+            "element",
+            "unsur"
            ],
            [
             "load",
@@ -21517,8 +22564,8 @@ window.MT_LMS['the-map'] = {
             "id": "Empat mata atau di depan umum? Percakapan pribadi atau keputusan lebih dulu?"
            },
            {
-            "en": "Which AVEC elements, in which dose, for a senior covering two roles?",
-            "id": "Unsur AVEC mana, dengan takaran berapa, untuk senior yang sedang merangkap dua peran?"
+            "en": "Which of the four elements, in which dose, for a senior covering two roles?",
+            "id": "Unsur mana dari keempatnya, dengan takaran berapa, untuk senior yang sedang merangkap dua peran?"
            }
           ],
           "lang": "id"
@@ -21986,7 +23033,8 @@ window.MT_LMS['the-map'] = {
            [
             "relationship",
             "relasi",
-            "AVEC",
+            "element",
+            "unsur",
             "conversation",
             "percakapan"
            ],
@@ -22172,11 +23220,11 @@ window.MT_LMS['the-map'] = {
          {
           "id": "battery",
           "label": {
-           "en": "Battery score (statements rated 4–5 count as true, out of 9)",
-           "id": "Skor baterai (pernyataan bernilai 4–5 dihitung benar, dari 9)"
+           "en": "Energy score (statements rated 4–5 count as true, out of 9)",
+           "id": "Skor energi (pernyataan bernilai 4–5 dihitung benar, dari 9)"
           },
           "hint": {
-           "en": "e.g. 5/9 · band: low charge",
+           "en": "e.g. 5/9 · running low",
            "id": "mis. 5/9 · rentang: isi menipis"
           },
           "rows": 1
@@ -22379,8 +23427,8 @@ window.MT_LMS['the-map'] = {
          {
           "id": "people",
           "label": {
-           "en": "Key people: name · charging (+) or draining (−) · trust 1–5 · AVEC elements I practise · last meaningful conversation",
-           "id": "Orang-orang kunci: nama · mengisi (+) atau menguras (−) · kepercayaan 1–5 · unsur AVEC yang kupraktikkan · percakapan bermakna terakhir"
+           "en": "Key people: name · charging (+) or draining (−) · trust 1–5 · elements I practise · last meaningful conversation",
+           "id": "Orang-orang kunci: nama · mengisi (+) atau menguras (−) · kepercayaan 1–5 · unsur yang kupraktikkan · percakapan bermakna terakhir"
           },
           "hint": {
            "en": "e.g. Ibu · + · 5 · A, C · last Sunday (about her, not tasks)\nMbak Sari · − · 2 · none yet · never",
@@ -22391,8 +23439,8 @@ window.MT_LMS['the-map'] = {
          {
           "id": "invest",
           "label": {
-           "en": "Top three to invest in this month, and the AVEC element for each",
-           "id": "Tiga relasi teratas untuk dirawat bulan ini, dan unsur AVEC untuk masing-masing"
+           "en": "Top three to invest in this month, and the element for each",
+           "id": "Tiga relasi teratas untuk dirawat bulan ini, dan unsur untuk masing-masing"
           },
           "hint": {
            "en": "e.g. Mbak Sari (attention: ten-minute check-in) · Dimas (compassion) · Pak Arif (vulnerability: say where I'm stuck)",
@@ -22403,8 +23451,8 @@ window.MT_LMS['the-map'] = {
          {
           "id": "reach",
           "label": {
-           "en": "My REACH action this week and how people responded",
-           "id": "Tindakan REACH-ku minggu ini dan tanggapan orang-orang"
+           "en": "My small act this week and how people responded",
+           "id": "Tindakan kecilku minggu ini dan tanggapan orang-orang"
           },
           "hint": {
            "en": "e.g. Reported my own data-entry error with the fix. Bu Wulan: “thanks for flagging early.”",
@@ -22748,8 +23796,8 @@ window.MT_LMS['the-map'] = {
            "id": "Komitmen soal orang dan ukurannya"
           },
           "hint": {
-           "en": "e.g. one AVEC conversation with Pak Arif this week; one turn-toward per day",
-           "id": "mis. satu percakapan AVEC dengan Pak Arif minggu ini; satu kali menghadap ajakan per hari"
+           "en": "e.g. one four-element conversation with Pak Arif this week; one turn-toward per day",
+           "id": "mis. satu percakapan empat unsur dengan Pak Arif minggu ini; satu kali menghadap ajakan per hari"
           },
           "rows": 2
          },
