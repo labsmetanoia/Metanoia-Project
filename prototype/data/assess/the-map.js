@@ -994,8 +994,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Tugas Kasus: Kasus Analisis Pemecahan Masalah"
     },
     "sub": {
-     "en": "The Hustleton case: a SMART problem statement, a MECE issue tree, and two sub-issues prioritised by impact and feasibility.",
-     "id": "Kasus Hustleton: pernyataan masalah yang SMART, pohon isu yang MECE, dan dua sub-isu yang diprioritaskan berdasarkan dampak dan kelayakan."
+     "en": "The Sagara case: a SMART problem question, an issue tree with no gaps and no overlaps, and two sub-issues prioritised by impact and feasibility.",
+     "id": "Kasus Sagara: pertanyaan masalah yang SMART, pohon isu tanpa celah dan tanpa tumpang tindih, dan dua sub-isu yang diprioritaskan menurut dampak dan kelayakan."
     }
    }
   ],
@@ -1500,62 +1500,62 @@ window.MT_ASSESS['the-map'] = {
     "type": "scen",
     "lesson": "3.4",
     "q": {
-     "en": "The Mayor writes: rush-hour commutes average 60 minutes; we want 30; we have five years; we cannot solve every issue. Which problem statement is SMART?",
-     "id": "Wali Kota menulis: rata-rata waktu perjalanan di jam sibuk 60 menit; kami ingin 30; kami punya waktu lima tahun; kami tidak bisa menyelesaikan semua isu. Pernyataan masalah mana yang SMART?"
+     "en": "The head of Sagara's Environment Agency writes: we send 600 tonnes a day to landfill; we want 300; we have three years; we cannot work on everything. Which problem question is SMART?",
+     "id": "Kepala Dinas Lingkungan Hidup Sagara menulis: kami mengirim 600 ton per hari ke TPA; kami ingin 300; waktunya tiga tahun; kami tidak bisa menggarap semuanya. Pertanyaan masalah mana yang SMART?"
     },
     "opts": [
      {
-      "en": "“Hustleton has too much traffic and citizens are frustrated.”",
-      "id": "\"Hustleton terlalu macet dan warganya frustrasi.\""
+      "en": "How can Sagara solve its waste problem?",
+      "id": "Bagaimana Sagara bisa menyelesaikan masalah sampahnya?"
      },
      {
-      "en": "“How can Hustleton City reduce the average rush-hour commute from 60 to 30 minutes within five years, by acting on the few issues that contribute most to congestion?”",
-      "id": "\"Bagaimana Hustleton City bisa menurunkan rata-rata waktu perjalanan di jam sibuk dari 60 menjadi 30 menit dalam lima tahun, dengan menangani sedikit isu yang paling besar andilnya terhadap kemacetan?\""
+      "en": "How can Sagara build an incinerator within three years?",
+      "id": "Bagaimana Sagara bisa membangun insinerator dalam tiga tahun?"
      },
      {
-      "en": "“Build a new metro line before the next election.”",
-      "id": "\"Bangun jalur metro baru sebelum pemilu berikutnya.\""
+      "en": "How can the city of Sagara cut the household waste it sends to landfill from about 600 to 300 tonnes a day within three years?",
+      "id": "Bagaimana Kota Sagara bisa memangkas sampah rumah tangga yang dikirim ke TPA dari sekitar 600 menjadi 300 ton per hari dalam tiga tahun?"
      },
      {
-      "en": "“How can we make people stop driving?”",
-      "id": "\"Bagaimana caranya supaya orang berhenti menyetir?\""
+      "en": "Why do residents of Sagara not care about waste?",
+      "id": "Kenapa warga Sagara tidak peduli pada sampah?"
      }
     ],
-    "correct": 1,
+    "correct": 2,
     "expl": {
-     "en": "Specific (rush-hour commutes in Hustleton), measurable (60 to 30 minutes), actionable (the issues that contribute most), relevant (the Mayor’s brief) and time-bound (five years). The first is a complaint, the third a solution, the fourth is neither measurable nor time-bound, and everything downstream inherits the statement’s precision or its vagueness.",
-     "id": "Spesifik (perjalanan jam sibuk di Hustleton), terukur (60 menjadi 30 menit), bisa ditindaklanjuti (isu yang paling besar andilnya), relevan (sesuai arahan Wali Kota), dan berbatas waktu (lima tahun). Pilihan pertama adalah keluhan, yang ketiga adalah solusi, yang keempat tidak terukur dan tidak berbatas waktu, dan semua langkah sesudahnya mewarisi ketajaman atau kesamaran pernyataan masalahnya."
+     "en": "It names what must change, the measure, who acts and the deadline, and it leaves the solution open. The first option has no measure or deadline, the second hides a solution inside the question, and the fourth is a complaint.",
+     "id": "Pertanyaan itu menyebut apa yang harus berubah, ukurannya, siapa yang bertindak, dan tenggatnya, tanpa mengunci solusinya. Pilihan pertama tidak punya ukuran atau tenggat, pilihan kedua menyembunyikan solusi di dalam pertanyaan, dan pilihan keempat adalah keluhan."
     }
    },
    {
     "type": "scen",
     "lesson": "3.4",
     "q": {
-     "en": "Hustleton’s data: public transport fell from 55% to 20% of trips since 2021 while personal vehicles rose from 30% to 55%; the Tube is reliable but crowded, buses are cheap but confusing, taxis cost $25. An adviser proposes first-level issues: “road capacity”, “public transport”, “other”. What should you change before prioritising?",
-     "id": "Data Hustleton: porsi angkutan umum turun dari 55% menjadi 20% perjalanan sejak 2021, sementara kendaraan pribadi naik dari 30% menjadi 55%; Tube bisa diandalkan tetapi padat, bus murah tetapi membingungkan, taksi $25. Seorang penasihat mengusulkan isu tingkat pertama: \"kapasitas jalan\", \"angkutan umum\", \"lainnya\". Apa yang perlu kamu ubah sebelum memprioritaskan?"
+     "en": "Sagara's data: the landfill share rose from 70% to 82% while recycling and composting fell from 18% to 10%; the market composting units run at half capacity because waste arrives mixed; a new landfill needs seven years. Which sub-issue is strongest on both impact and feasibility?",
+     "id": "Data Sagara: pangsa TPA naik dari 70% menjadi 82%, sedangkan daur ulang dan pengomposan turun dari 18% menjadi 10%; unit kompos pasar hanya terpakai setengah kapasitas karena sampahnya datang tercampur; TPA baru butuh tujuh tahun. Sub-isu mana yang paling kuat dari sisi dampak dan kelayakan?"
     },
     "opts": [
      {
-      "en": "Nothing: three branches is the right number",
-      "id": "Tidak ada: tiga cabang adalah jumlah yang tepat"
+      "en": "How can we open a second landfill before the first one is full?",
+      "id": "Bagaimana kita bisa membuka TPA kedua sebelum yang pertama penuh?"
      },
      {
-      "en": "Replace the “other” bucket: an issue tree needs MECE branches, for example the demand for car trips, the capacity of the road network, and the attractiveness of the alternatives; then let the modal-shift data point to where the impact is likely",
-      "id": "Ganti keranjang \"lainnya\": pohon isu butuh cabang yang MECE, misalnya permintaan perjalanan dengan mobil, kapasitas jaringan jalan, dan daya tarik alternatifnya; lalu biarkan data peralihan moda menunjukkan di mana dampaknya kemungkinan paling besar"
+      "en": "How can we get food waste sorted at the markets, so that the composting units we already have run at full capacity?",
+      "id": "Bagaimana kita bisa membuat sisa makanan terpilah di pasar, supaya unit kompos yang sudah ada terpakai penuh?"
      },
      {
-      "en": "Drop public transport: the Mayor asked about traffic, not buses",
-      "id": "Hapus angkutan umum: Wali Kota bertanya soal lalu lintas, bukan bus"
+      "en": "How can we change the packaging that national brands use?",
+      "id": "Bagaimana kita bisa mengubah kemasan yang dipakai merek-merek nasional?"
      },
      {
-      "en": "Skip the tree and recommend congestion charging now",
-      "id": "Lewati pohonnya dan langsung rekomendasikan tarif kemacetan"
+      "en": "How can we repaint the collection trucks so that residents notice them?",
+      "id": "Bagaimana kita bisa mengecat ulang truk angkut supaya warga memperhatikannya?"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "“Other” means the cut has not been found yet. A first draft shows the overlaps and gaps; the second is the one you keep. With clean branches, the 35-point fall in public-transport share tells you where to look first, and prioritising still means saying no to four sub-issues and defending the two you keep.",
-     "id": "\"Lainnya\" berarti potongan yang tepat belum ditemukan. Draf pertama memperlihatkan tumpang tindih dan celahnya; draf kedualah yang kamu pertahankan. Dengan cabang yang bersih, turunnya porsi angkutan umum sebesar 35 poin memberi tahu di mana harus mulai mencari, dan memprioritaskan tetap berarti berkata tidak pada empat sub-isu dan mempertahankan dua yang kamu pilih."
+     "en": "Food waste is about half of every bin, the units already exist and stand half empty, and the city runs the markets: high impact, and the city can act within three years. A second landfill takes seven years and reduces nothing. National packaging is outside the city's control. Repainting trucks changes no tonnage.",
+     "id": "Sisa makanan mengisi sekitar separuh setiap tempat sampah, unitnya sudah ada dan setengah kosong, dan pasar dikelola kota: dampaknya tinggi, dan kota bisa bertindak dalam tiga tahun. TPA kedua butuh tujuh tahun dan tidak mengurangi apa pun. Kemasan nasional berada di luar kendali kota. Mengecat truk tidak mengubah tonase sedikit pun."
     }
    }
   ],
