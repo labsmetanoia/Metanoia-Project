@@ -2229,8 +2229,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Kesehatan Fisik dan Mental sebagai Fondasi Kinerja"
     },
     "sub": {
-     "en": "Energy systems, the minimum viable protocol, overload signals, the Growth Equation, movement and heat",
-     "id": "Lingkaran energi, protokol minimum, tanda-tanda kelebihan beban, Persamaan Pertumbuhan, gerak tubuh dan panas"
+     "en": "Energy systems, the minimum viable protocol, overload signals, the stretch-and-recover cycle, movement and heat",
+     "id": "Lingkaran energi, protokol minimum, tanda-tanda kelebihan beban, siklus regang-pulih, gerak tubuh dan panas"
     }
    },
    {
@@ -2435,8 +2435,8 @@ window.MT_ASSESS['the-map'] = {
    {
     "type": "know",
     "q": {
-     "en": "“Stress + rest = growth” means:",
-     "id": "“Stres + istirahat = pertumbuhan” artinya:"
+     "en": "The stretch-and-recover cycle means:",
+     "id": "Siklus regang-pulih berarti:"
     },
     "opts": [
      {
@@ -2444,8 +2444,8 @@ window.MT_ASSESS['the-map'] = {
       "id": "Pertumbuhan datang dari memaksa diri lebih keras setiap hari"
      },
      {
-      "en": "Capacity grows when a just-manageable demand is followed by enough recovery to adapt",
-      "id": "Kapasitas bertambah ketika tuntutan yang masih bisa ditangani diikuti pemulihan yang cukup untuk beradaptasi"
+      "en": "Capacity grows when a demand one notch above your level is followed by enough recovery to adapt",
+      "id": "Kapasitas bertambah ketika tuntutan satu tingkat di atas kemampuanmu diikuti pemulihan yang cukup untuk beradaptasi"
      },
      {
       "en": "Rest alone builds capacity",
