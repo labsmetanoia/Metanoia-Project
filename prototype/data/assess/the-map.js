@@ -972,8 +972,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Akar Masalah dan Rencana Tindakan"
     },
     "sub": {
-     "en": "A hypothesis with a number; the design plan; reading a funnel; 5 Whys; impact × ease; owners and dates.",
-     "id": "Hipotesis dengan angka; rencana rancangan; membaca corong; 5 Whys; dampak × kemudahan; penanggung jawab dan tanggal."
+     "en": "A hypothesis with a number; the analysis plan; reading a funnel; 5 Whys; impact × ease; owners and dates.",
+     "id": "Hipotesis dengan angka; rencana analisis; membaca corong; 5 Whys; dampak × kemudahan; penanggung jawab dan tanggal."
     }
    },
    {
@@ -983,8 +983,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Tujuan, Kesenjangan, dan Keputusan yang Baik"
     },
     "sub": {
-     "en": "A solid goal and the gap; the hypothesis pyramid; criteria with weights; challenging your own conclusion.",
-     "id": "Tujuan yang kokoh dan kesenjangannya; piramida hipotesis; kriteria dengan bobot; menantang kesimpulanmu sendiri."
+     "en": "A solid goal and the gap; the pyramid of reasons; criteria with weights; challenging your own conclusion.",
+     "id": "Tujuan yang kokoh dan kesenjangannya; piramida alasan; kriteria dengan bobot; menantang kesimpulanmu sendiri."
     }
    },
    {
@@ -1128,31 +1128,31 @@ window.MT_ASSESS['the-map'] = {
     "type": "scen",
     "lesson": "3.1",
     "q": {
-     "en": "A committee member says: “Our fundraising night flopped. Next year we’ll just work twice as hard on the same plan.” Which character is this, and what is missing?",
-     "id": "Seorang anggota panitia berkata, \"Malam penggalangan dana kita gagal. Tahun depan kita kerja dua kali lebih keras saja dengan rencana yang sama.\" Tokoh mana ini, dan apa yang kurang?"
+     "en": "A committee member says: “Our fundraising night flopped. Next year we’ll just work twice as hard on the same plan.” Which way of getting stuck is this, and what is missing?",
+     "id": "Seorang anggota panitia berkata: “Malam penggalangan dana kita gagal. Tahun depan kita kerja dua kali lebih keras saja dengan rencana yang sama.” Ini cara menjadi buntu yang mana, dan apa yang hilang?"
     },
     "opts": [
      {
-      "en": "The Critic: a better plan from someone else",
-      "id": "Si Pengkritik: rencana yang lebih baik dari orang lain"
+      "en": "Judging every plan: a better plan from someone else",
+      "id": "Menilai semua rencana: rencana yang lebih baik dari orang lain"
      },
      {
-      "en": "The Sigher: the will to try again",
-      "id": "Si Pengeluh: kemauan untuk mencoba lagi"
+      "en": "Stopping at the complaint: the will to try again",
+      "id": "Berhenti di keluhan: kemauan untuk mencoba lagi"
      },
      {
-      "en": "The Go-Getter: a diagnosis of why it flopped before choosing what to change",
-      "id": "Si Tancap Gas: diagnosis kenapa acaranya gagal sebelum memilih apa yang perlu diubah"
+      "en": "Acting at once: a diagnosis of why it flopped, before choosing what to change",
+      "id": "Langsung bertindak: diagnosis kenapa acaranya gagal, sebelum memilih apa yang diubah"
      },
      {
-      "en": "The Dreamer: a bigger idea",
-      "id": "Si Pemimpi: ide yang lebih besar"
+      "en": "Ideas all day: a bigger idea",
+      "id": "Ide sepanjang hari: ide yang lebih besar"
      }
     ],
     "correct": 2,
     "expl": {
-     "en": "More effort in the same direction is the Go-Getter’s signature. Steps 1 to 3 (understand the situation, find the root cause, plan) are skipped entirely; the loop closes on the outcome, not on effort.",
-     "id": "Usaha lebih keras ke arah yang sama adalah ciri khas Si Tancap Gas. Langkah 1 sampai 3 (pahami situasinya, temukan akar masalahnya, susun rencana) dilewati sama sekali; putaran ini ditutup oleh hasil, bukan oleh usaha."
+     "en": "More effort in the same direction is the mark of acting at once. Understanding the situation, finding the root cause and planning are all skipped; the loop closes on the outcome, not on effort.",
+     "id": "Usaha lebih keras ke arah yang sama adalah ciri langsung bertindak. Memahami situasi, mencari akar masalah, dan menyusun rencana dilompati semuanya; putarannya ditutup oleh hasil, bukan oleh usaha."
     }
    },
    {
@@ -1221,39 +1221,39 @@ window.MT_ASSESS['the-map'] = {
     "type": "scen",
     "lesson": "3.2",
     "q": {
-     "en": "A yes/no tree for a campus band shows 500 students → 150 aware → 15 have attended → 12 keep coming. Where is the bottleneck?",
-     "id": "Pohon ya/tidak untuk sebuah band kampus menunjukkan 500 mahasiswa → 150 tahu → 15 pernah datang → 12 terus datang. Di mana titik sumbatnya?"
+     "en": "A student newsletter counts its readers for one month: 2,000 students receive it → 600 open it → 480 click through to an article → 400 read to the end. Where is the bottleneck?",
+     "id": "Sebuah buletin mahasiswa menghitung pembacanya selama sebulan: 2.000 mahasiswa menerimanya → 600 membukanya → 480 mengeklik sebuah artikel → 400 membaca sampai habis. Di mana sumbatannya?"
     },
     "opts": [
      {
-      "en": "Awareness: only 30% know the band",
-      "id": "Kesadaran: hanya 30% yang tahu band ini"
+      "en": "Opening: 70% of those who receive it never open it",
+      "id": "Membuka: 70% penerimanya tak pernah membukanya"
      },
      {
-      "en": "Retention: three people stopped coming",
-      "id": "Retensi: tiga orang berhenti datang"
+      "en": "Clicking: 120 of those who open it do not click",
+      "id": "Mengeklik: 120 orang yang membukanya tidak mengeklik"
      },
      {
-      "en": "Trial: 90% of those aware have never attended",
-      "id": "Percobaan: 90% dari yang tahu belum pernah datang"
+      "en": "Finishing: 80 readers stop before the end",
+      "id": "Menyelesaikan: 80 pembaca berhenti sebelum habis"
      },
      {
-      "en": "There is no bottleneck; the band just needs more time",
-      "id": "Tidak ada titik sumbat; band ini hanya butuh waktu lebih lama"
+      "en": "There is no bottleneck; it just needs more time",
+      "id": "Tidak ada sumbatan; hanya butuh waktu"
      }
     ],
-    "correct": 2,
+    "correct": 0,
     "expl": {
-     "en": "Read the funnel for the largest proportional drop: 150 → 15 is a 90% loss, while 15 → 12 is only 20%. Interviews therefore go to non-attendees, and a retention fix would be wasted. Numbers tell you where; conversations tell you why.",
-     "id": "Baca corongnya untuk mencari penurunan proporsional terbesar: 150 → 15 berarti kehilangan 90%, sedangkan 15 → 12 hanya 20%. Karena itu wawancara diarahkan ke mereka yang belum pernah datang, dan perbaikan retensi akan sia-sia. Angka memberi tahu di mana; percakapan memberi tahu kenapa."
+     "en": "Read the funnel for the largest proportional drop: 2,000 → 600 is a 70% loss, while the next two stages lose 20% and about 17%. So the conversations go to students who never open it, and a fix for the articles would be wasted. Numbers tell you where; conversations tell you why.",
+     "id": "Baca corongnya untuk mencari penurunan terbesar secara proporsi: 2.000 → 600 berarti kehilangan 70%, sedangkan dua tahap berikutnya hanya kehilangan 20% dan sekitar 17%. Maka percakapan diarahkan ke mahasiswa yang tak pernah membukanya, dan perbaikan untuk artikelnya akan sia-sia. Angka memberi tahu di mana; percakapan memberi tahu kenapa."
     }
    },
    {
     "type": "know",
     "lesson": "3.2",
     "q": {
-     "en": "Which row belongs in a problem-solving design plan?",
-     "id": "Baris mana yang layak masuk ke rencana rancangan pemecahan masalah?"
+     "en": "Which row belongs in an analysis plan?",
+     "id": "Baris mana yang layak masuk ke rencana analisis?"
     },
     "opts": [
      {
@@ -1319,8 +1319,8 @@ window.MT_ASSESS['the-map'] = {
     },
     "opts": [
      {
-      "en": "He would collect only data that agrees with his guess. Write the design plan first and count every stage, including people who never bought",
-      "id": "Ia hanya akan mengumpulkan data yang sejalan dengan dugaannya. Tulis dulu rencana rancangannya dan hitung setiap tahap, termasuk orang yang tak pernah membeli"
+      "en": "He would collect only data that agrees with his guess. Write the analysis plan first and count every stage, including people who never bought",
+      "id": "Ia hanya akan mengumpulkan data yang sejalan dengan dugaannya. Tulis dulu rencana analisisnya dan hitung setiap tahap, termasuk orang yang tak pernah membeli"
      },
      {
       "en": "The interviews would take too long. He should lower the price straight away",
@@ -1337,8 +1337,8 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 0,
     "expl": {
-     "en": "Looking only for evidence that agrees with you is confirmation bias. A design plan written before any data is collected names the analysis that could contradict the hypothesis. In the film, one week of counting showed the leak was earlier: most people never noticed the cart.",
-     "id": "Mencari hanya bukti yang sejalan dengan dugaanmu adalah bias konfirmasi. Rencana rancangan yang ditulis sebelum data dikumpulkan menyebutkan analisis yang bisa membantah hipotesisnya. Di film, seminggu menghitung menunjukkan bocornya lebih awal: kebanyakan orang tak pernah melihat gerobaknya."
+     "en": "Looking only for evidence that agrees with you is confirmation bias. An analysis plan written before any data is collected names the analysis that could contradict the hypothesis. In the film, one week of counting showed the leak was earlier: most people never noticed the cart.",
+     "id": "Mencari hanya bukti yang sejalan dengan dugaanmu adalah bias konfirmasi. Rencana analisis yang ditulis sebelum data dikumpulkan menyebutkan analisis yang bisa membantah hipotesisnya. Di film, seminggu menghitung menunjukkan bocornya lebih awal: kebanyakan orang tak pernah melihat gerobaknya."
     }
    },
    {
@@ -1376,39 +1376,39 @@ window.MT_ASSESS['the-map'] = {
     "type": "scen",
     "lesson": "3.3",
     "q": {
-     "en": "Savings Rp 1,500,000; you save Rp 170,000 a month; the goal is a Rp 5,000,000 laptop in six months without borrowing. What is the gap?",
-     "id": "Tabunganmu Rp 1.500.000; kamu menabung Rp 170.000 per bulan; tujuanmu laptop seharga Rp 5.000.000 dalam enam bulan tanpa berutang. Berapa kesenjangannya?"
+     "en": "Savings Rp 1,200,000; you save Rp 300,000 a month; the goal is a Rp 4,500,000 certification fee in five months, without borrowing. What is the gap?",
+     "id": "Tabungan Rp 1.200.000; kamu menabung Rp 300.000 per bulan; tujuannya biaya sertifikasi Rp 4.500.000 dalam lima bulan, tanpa berutang. Berapa kesenjangannya?"
     },
     "opts": [
      {
-      "en": "Rp 3,500,000",
-      "id": "Rp 3.500.000"
+      "en": "Rp 3,300,000",
+      "id": "Rp 3.300.000"
      },
      {
-      "en": "Rp 1,020,000",
-      "id": "Rp 1.020.000"
+      "en": "Rp 1,800,000",
+      "id": "Rp 1.800.000"
      },
      {
-      "en": "Rp 2,480,000",
-      "id": "Rp 2.480.000"
+      "en": "Rp 1,500,000",
+      "id": "Rp 1.500.000"
      },
      {
-      "en": "Rp 5,000,000",
-      "id": "Rp 5.000.000"
+      "en": "Rp 4,500,000",
+      "id": "Rp 4.500.000"
      }
     ],
-    "correct": 2,
+    "correct": 1,
     "expl": {
-     "en": "Do-nothing forecast: Rp 1,500,000 + 6 × Rp 170,000 = Rp 2,520,000. Gap: Rp 5,000,000 − Rp 2,520,000 = Rp 2,480,000. The number sets the size of the change needed, and tells you whether one lever is enough or three are required.",
-     "id": "Perkiraan kalau tidak ada yang berubah: Rp 1.500.000 + 6 × Rp 170.000 = Rp 2.520.000. Kesenjangan: Rp 5.000.000 − Rp 2.520.000 = Rp 2.480.000. Angka ini menentukan seberapa besar perubahan yang dibutuhkan, dan memberi tahu apakah satu tuas sudah cukup atau perlu tiga."
+     "en": "Do-nothing forecast: Rp 1,200,000 + 5 × Rp 300,000 = Rp 2,700,000. Gap: Rp 4,500,000 − Rp 2,700,000 = Rp 1,800,000. The number sets the size of the change needed, and tells you whether one lever is enough or three are required.",
+     "id": "Perkiraan jika tak berbuat apa-apa: Rp 1.200.000 + 5 × Rp 300.000 = Rp 2.700.000. Kesenjangan: Rp 4.500.000 − Rp 2.700.000 = Rp 1.800.000. Angka itu menetapkan besarnya perubahan yang dibutuhkan, dan memberi tahu cukup satu tuas atau perlu tiga."
     }
    },
    {
     "type": "scen",
     "lesson": "3.3",
     "q": {
-     "en": "Farhan must close a gap of Rp 2,400,000 in six months. The three reasons in his hypothesis pyramid add up to Rp 1,500,000. What does that tell him?",
-     "id": "Farhan harus menutup kesenjangan Rp 2.400.000 dalam enam bulan. Tiga alasan di piramida hipotesisnya berjumlah Rp 1.500.000. Apa artinya?"
+     "en": "Farhan must close a gap of Rp 2,400,000 in six months. The three reasons in his pyramid of reasons add up to Rp 1,500,000. What does that tell him?",
+     "id": "Farhan harus menutup kesenjangan Rp 2.400.000 dalam enam bulan. Tiga alasan di piramida alasannya berjumlah Rp 1.500.000. Apa artinya?"
     },
     "opts": [
      {

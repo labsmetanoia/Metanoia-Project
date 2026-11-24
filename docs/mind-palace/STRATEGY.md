@@ -396,7 +396,7 @@ such in the example note or the sources.
 ### 17.3 Organised around needs, stages and products
 | Reader need | Topic | Where the work continues |
 |---|---|---|
-| Solve problems like a consultant | Problem Solving & Consulting | The Map M3 Problem Solving 101 · The Map M6 Consulting & Professional Services track · The Pack Case Interview Practice · The Rope M6 (case protocol, estimation) and M9 Simulation Lab · The Route L9.1 executive communication, L9.4 thinking like a leader |
+| Solve problems like a consultant | Problem Solving & Consulting | The Map M3 Structured Problem Solving · The Map M6 Consulting & Professional Services track · The Pack Case Interview Practice · The Rope M6 (case protocol, estimation) and M9 Simulation Lab · The Route L9.1 executive communication, L9.4 thinking like a leader |
 | Get hired | Getting Hired | The Pack M2–M7 · The Rope M1–M8 |
 | Become better | Skills, Professional Life | The Map M2–M5 · The Route M2–M4, M9 |
 | Understand my career | Career Paths | The Route M1, M7 · The Compass |

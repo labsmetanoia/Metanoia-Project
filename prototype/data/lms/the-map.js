@@ -2716,12 +2716,12 @@ window.MT_LMS['the-map'] = {
   {
    "num": 3,
    "title": {
-    "en": "Problem Solving 101: Improve Our Life",
-    "id": "Pemecahan Masalah 101: Memperbaiki Hidup Kita"
+    "en": "Structured Problem Solving",
+    "id": "Pemecahan Masalah Terstruktur"
    },
    "overview": {
-    "en": "Module 3 turns problem solving from a talent you either have or lack into a method you run. Built on Ken Watanabe's Problem Solving 101, its three lessons follow one loop (understand the situation, find the root cause, plan, execute and adjust): first for things that are broken, then for goals you want to reach, then for decisions between options. A case assignment closes the module: you advise the Environment Agency of Sagara, an invented city whose landfill is filling up, from problem question to issue tree to prioritised issues. Work the lessons in order; each case reuses the tools of the one before.",
-    "id": "Modul 3 mengubah pemecahan masalah dari bakat yang dimiliki sebagian orang menjadi metode yang bisa dijalankan siapa saja. Berpijak pada buku Problem Solving 101 karya Ken Watanabe, tiga pelajarannya mengikuti satu putaran yang sama (pahami situasinya, temukan akar masalahnya, susun rencana, jalankan lalu sesuaikan). Pertama untuk hal yang rusak, lalu untuk tujuan yang ingin kamu capai, lalu untuk keputusan di antara beberapa pilihan. Modul ini ditutup dengan tugas kasus: kamu menjadi penasihat Dinas Lingkungan Hidup Kota Sagara, kota rekaan yang TPA-nya hampir penuh, mulai dari pertanyaan masalah, pohon isu, sampai isu-isu yang diprioritaskan. Kerjakan pelajarannya berurutan, karena setiap kasus memakai lagi alat dari pelajaran sebelumnya."
+    "en": "Module 3 turns problem solving from a talent you either have or lack into a method you run. Its three lessons follow one loop (understand the situation, find the root cause, plan, execute and adjust): first for things that are broken, then for goals you want to reach, then for decisions between options. A case assignment closes the module: you advise the Environment Agency of Sagara, an invented city whose landfill is filling up, from problem question to issue tree to prioritised issues. Work the lessons in order; each case reuses the tools of the one before.",
+    "id": "Modul 3 mengubah pemecahan masalah dari bakat yang dimiliki sebagian orang menjadi metode yang bisa dijalankan siapa saja. Tiga pelajarannya mengikuti satu putaran yang sama (pahami situasinya, temukan akar masalahnya, susun rencana, jalankan lalu sesuaikan). Pertama untuk hal yang rusak, lalu untuk tujuan yang ingin kamu capai, lalu untuk keputusan di antara beberapa pilihan. Modul ini ditutup dengan tugas kasus: kamu menjadi penasihat Dinas Lingkungan Hidup Kota Sagara, kota rekaan yang TPA-nya hampir penuh, mulai dari pertanyaan masalah, pohon isu, sampai isu-isu yang diprioritaskan. Kerjakan pelajarannya berurutan, karena setiap kasus memakai lagi alat dari pelajaran sebelumnya."
    },
    "outcome": {
     "en": "By the end of this module you can take a vague complaint or wish (yours, a team's or an employer's) and run it through the four-step loop with a logic tree, a tested hypothesis, an impact-versus-ease plan and a weighted decision, and explain each step to someone else.",
@@ -2741,8 +2741,8 @@ window.MT_LMS['the-map'] = {
      "kind": "reading",
      "placeholder": false,
      "overview": {
-      "en": "Problem solving is not a gift; it is a habit of thinking and acting that anyone can learn. This lesson introduces the four-step method at the heart of Problem Solving 101 (understand the situation, identify the root cause, develop an action plan, execute and adjust) and the first tool for running it: the logic tree. You will also meet four familiar characters who each skip a step, and learn why practical intelligence in the workplace is measured by outcomes reached, not knowledge held.",
-      "id": "Memecahkan masalah bukan bakat bawaan. Ini kebiasaan berpikir dan bertindak yang bisa dipelajari siapa pun. Pelajaran ini memperkenalkan metode empat langkah yang menjadi inti Problem Solving 101 (pahami situasinya, temukan akar masalahnya, susun rencana tindakan, jalankan lalu sesuaikan), beserta alat pertama untuk menjalankannya: pohon logika. Kamu juga akan bertemu empat tokoh yang akrab, yang masing-masing melompati satu langkah, dan belajar kenapa kecerdasan praktis di tempat kerja diukur dari hasil yang tercapai, bukan dari pengetahuan yang dimiliki."
+      "en": "Problem solving is not a gift; it is a habit of thinking and acting that anyone can learn. This lesson introduces a four-step method (understand the situation, find the root cause, make a plan, execute and adjust) and the first tool for running it: the logic tree. You will also meet four common ways of getting stuck, each of which skips a step, and learn why practical intelligence in the workplace is measured by outcomes reached, not knowledge held.",
+      "id": "Memecahkan masalah bukan bakat; ini kebiasaan berpikir dan bertindak yang bisa dipelajari siapa saja. Pelajaran ini memperkenalkan metode empat langkah (pahami situasinya, temukan akar masalahnya, susun rencana, jalankan dan sesuaikan) dan alat pertama untuk menjalankannya: pohon logika. Kamu juga akan mengenal empat cara umum menjadi buntu, yang masing-masing melompati satu langkah, dan memahami kenapa kecerdasan praktis di tempat kerja diukur dari hasil yang tercapai, bukan dari pengetahuan yang dimiliki."
      },
      "objectives": [
       {
@@ -2750,8 +2750,8 @@ window.MT_LMS['the-map'] = {
        "id": "Menjelaskan metode empat langkah dan apa yang dihasilkan setiap langkahnya."
       },
       {
-       "en": "Recognise the Sigher, the Critic, the Dreamer and the Go-Getter, and which step each one skips.",
-       "id": "Mengenali Si Pengeluh, Si Pengkritik, Si Pemimpi, dan Si Tancap Gas, serta langkah mana yang dilompati masing-masing."
+       "en": "Recognise four common ways of getting stuck, and which step each one skips.",
+       "id": "Mengenali empat cara umum menjadi buntu, dan langkah mana yang dilompati masing-masing."
       },
       {
        "en": "Break a vague complaint into a specific problem with a logic tree that has no gaps and no overlaps.",
@@ -2772,8 +2772,8 @@ window.MT_LMS['the-map'] = {
        "id": "Memecahkan masalah adalah putaran yang dijalani secara berurutan (pahami, akar masalah, rencana, jalankan lalu sesuaikan), bukan kilatan ide."
       },
       {
-       "en": "The four characters are not personality types but habits of skipping a step; the fix is to notice which step you skip.",
-       "id": "Keempat tokoh itu bukan tipe kepribadian, melainkan kebiasaan melompati satu langkah. Obatnya adalah menyadari langkah mana yang biasa kamu lompati."
+       "en": "The four ways of getting stuck are not personality types but habits of skipping a step; the fix is to notice which step you skip.",
+       "id": "Empat cara menjadi buntu itu bukan tipe kepribadian, melainkan kebiasaan melompati satu langkah; perbaikannya adalah menyadari langkah mana yang kamu lompati."
       },
       {
        "en": "A logic tree earns trust when its branches have no gaps and no overlaps; that is what makes it safe to divide work by.",
@@ -2785,8 +2785,8 @@ window.MT_LMS['the-map'] = {
       }
      ],
      "quote": {
-      "en": "Problem solving isn't a talent that some people have and others don't. It's a habit.",
-      "id": "Memecahkan masalah bukan bakat yang dimiliki sebagian orang saja. Ini kebiasaan."
+      "en": "A method you can run beats a talent you hope you have.",
+      "id": "Metode yang bisa kamu jalankan mengalahkan bakat yang kamu harap kamu punya."
      },
      "videos": [
       {
@@ -2869,8 +2869,8 @@ window.MT_LMS['the-map'] = {
        }
       ],
       "note": {
-       "en": "The arrow from step 4 points back to step 1: measuring the result is a new “current situation”. The four stuck characters each drop out at a different step.",
-       "id": "Panah dari langkah 4 kembali ke langkah 1: hasil yang diukur menjadi “situasi saat ini” yang baru. Keempat tokoh yang buntu itu masing-masing tersingkir di langkah yang berbeda."
+       "en": "The arrow from step 4 points back to step 1: measuring the result gives you a new “current situation”. Each of the four ways of getting stuck drops out at a different step.",
+       "id": "Panah dari langkah 4 kembali ke langkah 1: mengukur hasil memberimu “kondisi sekarang” yang baru. Empat cara menjadi buntu masing-masing berhenti di langkah yang berbeda."
       },
       "longdesc": {
        "en": "A four-node flow diagram read left to right. Node one, understand the situation: break the complaint into specifics. Node two, identify the root cause: list causes, form a hypothesis, test it. Node three, develop an action plan: many options prioritised by impact and ease, with owners and dates. Node four, execute and adjust: run, measure and rework until the outcome is reached, which feeds back into node one.",
@@ -2885,8 +2885,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kecerdasan praktis adalah hasil yang tercapai"
        },
        "body": {
-        "en": "School measures how well you absorb and reproduce knowledge. Work measures something else: given a fuzzy goal, limited information and other people, how reliably do you produce the intended result? Watanabe calls the people who do this <b>problem-solving kids</b>: not because they are clever, but because they have a habit: they understand before they act, they look for causes rather than culprits, they write plans, and they keep adjusting until the outcome arrives. Grades correlate weakly with this; deliberate practice correlates strongly. People who solve problems for a living say the same thing: good problem solving is <b>structured</b>: a deliberate way of breaking the problem apart, an 80/20 choice of what to tackle, and a plan for implementation. That is why this module is built from cases you can actually run, not theory you can recite.",
-        "id": "Sekolah mengukur seberapa baik kamu menyerap dan mengulang pengetahuan. Dunia kerja mengukur hal lain: dengan tujuan yang samar, informasi yang terbatas, dan orang-orang lain, seberapa andal kamu menghasilkan hasil yang dimaksud? Watanabe menyebut orang-orang seperti ini <b>anak pemecah masalah</b>. Bukan karena mereka pintar, melainkan karena mereka punya kebiasaan. Mereka memahami dulu sebelum bertindak, mencari penyebab alih-alih kambing hitam, menulis rencana, dan terus menyesuaikan sampai hasilnya datang. Nilai sekolah hanya sedikit berkaitan dengan kebiasaan ini, sedangkan latihan yang disengaja sangat berkaitan. Orang yang pekerjaannya memecahkan masalah mengatakan hal yang sama: pemecahan masalah yang baik itu <b>terstruktur</b>, yaitu punya cara yang disengaja untuk memecah masalah, pilihan 80/20 tentang apa yang digarap, dan rencana pelaksanaan. Itulah kenapa modul ini dibangun dari kasus-kasus yang benar-benar bisa kamu jalankan, bukan teori yang bisa kamu hafalkan."
+        "en": "School measures how well you absorb and reproduce knowledge. Work measures something else: given a fuzzy goal, limited information and other people, how reliably do you produce the intended result? The people who do this well are not necessarily the cleverest in the room. They have a <b>habit</b>: they understand before they act, they look for causes rather than culprits, they write plans, and they keep adjusting until the outcome arrives. Grades correlate weakly with this habit; deliberate practice correlates strongly. People who solve problems for a living describe the same thing: good problem solving is <b>structured</b>. It has a deliberate way of breaking the problem apart, a choice about which few parts matter most, and a plan for carrying the answer out. That is why this module teaches a method rather than a set of tips: a method is something you can run again on the next problem, and on the one after that.",
+        "id": "Sekolah mengukur seberapa baik kamu menyerap dan mengulang pengetahuan. Dunia kerja mengukur hal lain: dengan tujuan yang masih kabur, informasi terbatas, dan orang lain di sekitarmu, seberapa bisa diandalkan kamu menghasilkan apa yang dituju? Orang yang pandai dalam hal ini belum tentu yang paling pintar di ruangan. Mereka punya <b>kebiasaan</b>: memahami dulu sebelum bertindak, mencari penyebab alih-alih mencari siapa yang salah, menulis rencana, dan terus menyesuaikan sampai hasilnya tercapai. Nilai kuliah hanya berkaitan lemah dengan kebiasaan ini; latihan yang disengaja berkaitan kuat. Orang yang pekerjaannya memecahkan masalah menggambarkan hal yang sama: pemecahan masalah yang baik itu <b>terstruktur</b>. Ada cara yang disengaja untuk memecah masalahnya, ada pilihan tentang beberapa bagian yang paling menentukan, dan ada rencana untuk menjalankan jawabannya. Karena itulah modul ini mengajarkan metode, bukan kumpulan kiat: metode bisa kamu jalankan lagi pada masalah berikutnya, dan berikutnya lagi."
        }
       },
       {
@@ -2896,8 +2896,8 @@ window.MT_LMS['the-map'] = {
         "id": "Empat cara menjadi buntu, dan langkah yang dilompati masing-masing"
        },
        "body": {
-        "en": "The <b>Sigher</b> stops at the complaint: “nothing works, it's the system”. Never reaches step 1. The <b>Critic</b> does analyse (other people's plans) but never produces a plan of their own, so step 3 is missing. The <b>Dreamer</b> generates ideas all day and skips step 4: no dates, no owner, nothing executed. The <b>Go-Getter</b> is the most dangerous because they look productive: straight from complaint to action, no diagnosis, and when it fails the answer is more effort in the same direction. Watch a student organisation for a week and you will see all four at one table. The point is not to label people; it is to notice, in yourself, which step you habitually skip, because that is the one to slow down on.",
-        "id": "<b>Si Pengeluh</b> berhenti di keluhan: “tidak ada yang berhasil, sistemnya memang begitu”. Ia tidak pernah sampai ke langkah 1. <b>Si Pengkritik</b> memang menganalisis (rencana orang lain), tetapi tidak pernah membuat rencananya sendiri, jadi langkah 3 hilang. <b>Si Pemimpi</b> memunculkan ide sepanjang hari dan melompati langkah 4: tidak ada tanggal, tidak ada penanggung jawab, tidak ada yang dijalankan. <b>Si Tancap Gas</b> paling berbahaya karena terlihat produktif. Ia langsung loncat dari keluhan ke tindakan tanpa diagnosis, dan saat gagal, jawabannya adalah usaha lebih keras ke arah yang sama. Amati sebuah organisasi mahasiswa selama seminggu, dan kamu akan melihat keempatnya di satu meja. Intinya bukan memberi label pada orang lain, melainkan menyadari, di dalam dirimu sendiri, langkah mana yang biasa kamu lompati, karena di langkah itulah kamu perlu memperlambat diri."
+        "en": "<b>Stopping at the complaint.</b> “Nothing works here, it's the system.” The problem is never defined, so step 1 never starts. <b>Judging every plan.</b> Some people analyse well, but only other people's ideas; they never write a plan of their own, so step 3 is missing. <b>Ideas all day.</b> Others produce ideas easily and skip step 4: no dates, no owner, nothing executed. <b>Acting at once.</b> This one is the most dangerous because it looks productive: straight from complaint to action with no diagnosis, and when the action fails, the answer is more effort in the same direction. Watch a student organisation for a week and you will see all four at one table. The point is not to label people. It is to notice, in yourself, which step you habitually skip, because that is the one to slow down on.",
+        "id": "<b>Berhenti di keluhan.</b> “Di sini tak ada yang beres, sistemnya yang salah.” Masalahnya tak pernah dirumuskan, sehingga langkah 1 tak pernah dimulai. <b>Menilai semua rencana.</b> Ada orang yang pandai menganalisis, tetapi hanya ide orang lain; mereka tak pernah menulis rencana sendiri, sehingga langkah 3 hilang. <b>Ide sepanjang hari.</b> Ada pula yang mudah menghasilkan ide dan melompati langkah 4: tanpa tanggal, tanpa penanggung jawab, tak ada yang dijalankan. <b>Langsung bertindak.</b> Inilah yang paling berbahaya karena terlihat produktif: dari keluhan langsung ke tindakan tanpa diagnosis, dan ketika tindakannya gagal, jawabannya adalah usaha lebih keras ke arah yang sama. Amati sebuah organisasi mahasiswa selama seminggu dan kamu akan melihat keempatnya di satu meja. Tujuannya bukan melabeli orang, melainkan menyadari, dalam dirimu sendiri, langkah mana yang biasa kamu lompati, karena di situlah kamu perlu memperlambat."
        }
       },
       {
@@ -2907,8 +2907,8 @@ window.MT_LMS['the-map'] = {
         "id": "Langkah 1 yang dijalani dengan baik: dari keluhan ke pernyataan kesenjangan"
        },
        "body": {
-        "en": "Most stated problems are symptoms or complaints: “our student organisation is dying”. Two moves turn that into something you can work on. First, <b>narrow it</b> with a logic tree, as the maths example did: which members are leaving, since when, at which stage? Second, write a <b>gap statement</b>: <b>current state</b> (12 active members, down from 40 last year), <b>desired state</b> (30 active members by December), <b>obstacle</b> (we do not know why members leave after their first month). The discipline is refusing to discuss solutions until the three parts are written down, because a solution to an undefined problem is a lottery ticket. The gap statement is your ticket into step 2.",
-        "id": "Kebanyakan masalah yang disampaikan orang sebenarnya gejala atau keluhan: “organisasi mahasiswa kita sekarat”. Ada dua langkah untuk mengubahnya menjadi sesuatu yang bisa digarap. Pertama, <b>persempit</b> dengan pohon logika, seperti contoh matematika tadi: anggota mana yang keluar, sejak kapan, di tahap apa? Kedua, tulis <b>pernyataan kesenjangan</b>: <b>kondisi sekarang</b> (12 anggota aktif, turun dari 40 tahun lalu), <b>kondisi yang diinginkan</b> (30 anggota aktif pada bulan Desember), dan <b>hambatannya</b> (kita tidak tahu kenapa anggota keluar setelah bulan pertama mereka). Disiplinnya adalah menolak membahas solusi sebelum ketiga bagian itu tertulis, karena solusi untuk masalah yang belum dirumuskan sama saja dengan tiket lotre. Pernyataan kesenjangan adalah tiketmu untuk masuk ke langkah 2."
+        "en": "Most stated problems are symptoms or complaints: “our student organisation is dying”. Two moves turn that into something you can work on. First, <b>narrow it</b> with a logic tree: which members are leaving, since when, at which stage? Second, write a <b>gap statement</b>: <b>current state</b> (12 active members, down from 40 last year), <b>desired state</b> (30 active members by December), <b>obstacle</b> (we do not know why members leave after their first month). The discipline is refusing to discuss solutions until the three parts are written down, because a solution to an undefined problem is a lottery ticket. The gap statement is your ticket into step 2.",
+        "id": "Kebanyakan masalah yang disampaikan orang sebenarnya gejala atau keluhan: “organisasi mahasiswa kita sekarat”. Ada dua langkah untuk mengubahnya menjadi sesuatu yang bisa digarap. Pertama, <b>persempit</b> dengan pohon logika: anggota mana yang keluar, sejak kapan, di tahap apa? Kedua, tulis <b>pernyataan kesenjangan</b>: <b>kondisi sekarang</b> (12 anggota aktif, turun dari 40 tahun lalu), <b>kondisi yang diinginkan</b> (30 anggota aktif pada bulan Desember), dan <b>hambatannya</b> (kita tidak tahu kenapa anggota keluar setelah bulan pertama mereka). Disiplinnya adalah menolak membahas solusi sebelum ketiga bagian itu tertulis, karena solusi untuk masalah yang belum dirumuskan sama saja dengan tiket lotre. Pernyataan kesenjangan adalah tiketmu untuk masuk ke langkah 2."
        }
       },
       {
@@ -2942,8 +2942,8 @@ window.MT_LMS['the-map'] = {
         "id": "“Pertama, saya ingin memahami ke mana 20% itu hilang. Pendapatan adalah harga × volume, jadi: apakah harganya berubah? Kalau tidak, volumenya yang turun. Apakah pelanggannya berkurang, atau pembelian per pelanggannya yang berkurang? Pelanggan yang berkurang bisa jadi pelanggan baru atau pelanggan lama. Saya akan menarik data kasir untuk pemilahan itu sebelum mengusulkan apa pun, karena promo hanya membantu kalau penyebabnya permintaan, bukan, misalnya, jam buka atau pesaing.”"
        },
        "why": {
-        "en": "The weak answer is the Go-Getter: complaint straight to action. The strong answer walks step 1 out loud with a two-level logic tree, names the data it needs, and shows it can hold off on solutions, which is exactly what a case interview is testing.",
-        "id": "Jawaban lemah adalah Si Tancap Gas: dari keluhan langsung ke tindakan. Jawaban kuat menjalani langkah 1 sambil bicara dengan pohon logika dua tingkat, menyebut data yang dibutuhkan, dan menunjukkan bahwa ia bisa menahan diri dari solusi, persis hal yang diuji dalam wawancara kasus."
+        "en": "The weak answer goes from complaint straight to action. The strong answer walks step 1 out loud with a two-level logic tree, names the data it needs, and shows it can hold off on solutions, which is exactly what a case interview is testing.",
+        "id": "Jawaban yang lemah melompat dari keluhan langsung ke tindakan. Jawaban yang kuat menjalani langkah 1 dengan suara lantang lewat pohon logika dua tingkat, menyebut data yang dibutuhkannya, dan menunjukkan bahwa ia bisa menahan diri dari solusi, tepat hal yang diuji dalam wawancara kasus."
        }
       }
      ],
@@ -2955,8 +2955,8 @@ window.MT_LMS['the-map'] = {
          "id": "Menganggap penyebab pertama yang terpikir sebagai akar masalah"
         },
         "fix": {
-         "en": "List at least three candidate causes before choosing one to test; the Go-Getter's shortcut costs weeks later.",
-         "id": "Daftar setidaknya tiga kemungkinan penyebab sebelum memilih satu untuk diuji. Jalan pintas Si Tancap Gas akan mahal harganya beberapa minggu kemudian."
+         "en": "List at least three candidate causes before choosing one to test; the shortcut costs weeks later.",
+         "id": "Daftar setidaknya tiga kemungkinan penyebab sebelum memilih satu untuk diuji; jalan pintas ini memakan waktu berminggu-minggu di belakang hari."
         }
        },
        {
@@ -3036,31 +3036,31 @@ window.MT_LMS['the-map'] = {
      "checks": [
       {
        "q": {
-        "en": "A teammate says: “Attendance at our weekly meeting is terrible. Let's just make it mandatory.” Which character is speaking, and which step is being skipped?",
-        "id": "Seorang rekan tim berkata: “Kehadiran di rapat mingguan kita parah. Kita wajibkan saja.” Tokoh mana yang sedang bicara, dan langkah mana yang dilompati?"
+        "en": "A teammate says: “Attendance at our weekly meeting is terrible. Let's just make it mandatory.” Which way of getting stuck is this, and which step is being skipped?",
+        "id": "Seorang rekan berkata: “Kehadiran di rapat mingguan kita parah. Wajibkan saja.” Ini cara menjadi buntu yang mana, dan langkah apa yang dilompati?"
        },
        "options": [
         {
-         "en": "The Dreamer, skipping execution",
-         "id": "Si Pemimpi, melompati pelaksanaan"
+         "en": "Ideas all day, skipping execution",
+         "id": "Ide sepanjang hari, melompati pelaksanaan"
         },
         {
-         "en": "The Go-Getter, skipping the diagnosis of why people stop coming",
-         "id": "Si Tancap Gas, melompati diagnosis tentang kenapa orang berhenti datang"
+         "en": "Acting at once, skipping the diagnosis of why people stop coming",
+         "id": "Langsung bertindak, melompati diagnosis kenapa orang berhenti datang"
         },
         {
-         "en": "The Critic, skipping the plan",
-         "id": "Si Pengkritik, melompati rencana"
+         "en": "Judging every plan, skipping the plan",
+         "id": "Menilai semua rencana, melompati rencana"
         },
         {
-         "en": "Nobody: making it mandatory is the root-cause fix",
-         "id": "Tidak ada: mewajibkan kehadiran adalah perbaikan pada akar masalahnya"
+         "en": "None of them: making it mandatory is the root-cause fix",
+         "id": "Bukan salah satunya: mewajibkan kehadiran adalah perbaikan akar masalahnya"
         }
        ],
        "correct": 1,
        "why": {
         "en": "Complaint straight to action, with no attempt to understand where attendance dropped or why. Mandatory attendance treats the symptom; the cause (timing, relevance, length) is untouched.",
-        "id": "Dari keluhan langsung ke tindakan, tanpa usaha memahami di mana kehadirannya turun atau kenapa. Mewajibkan kehadiran hanya mengobati gejala, sementara penyebabnya (waktu, relevansi, durasi) tidak tersentuh."
+        "id": "Dari keluhan langsung ke tindakan, tanpa upaya memahami di mana kehadiran turun atau kenapa. Mewajibkan kehadiran hanya mengobati gejala; penyebabnya (waktu, relevansi, durasi) tidak tersentuh."
        }
       },
       {
@@ -3224,8 +3224,8 @@ window.MT_LMS['the-map'] = {
       "compose": {
        "bg": "../../assets/bg/stage-exploration.jpg",
        "module": {
-        "en": "Module 3 · Problem Solving 101: Improve Our Life",
-        "id": "Modul 3 · Pemecahan Masalah 101: Memperbaiki Hidup Kita"
+        "en": "Module 3 · Structured Problem Solving",
+        "id": "Modul 3 · Pemecahan Masalah Terstruktur"
        },
        "lesson": {
         "n": "3.1",
@@ -3710,21 +3710,21 @@ window.MT_LMS['the-map'] = {
      "kind": "interactive",
      "placeholder": false,
      "overview": {
-      "en": "A good doctor does not prescribe for a fever; she finds what is causing it. This lesson runs steps 2 and 3 of the method in full on one case (a campus band whose free concerts draw fifteen people) using Watanabe's diagnostic tools: the yes/no tree, a written hypothesis, the problem-solving design plan, and an impact-versus-ease matrix for choosing what to do. Then you run the same tools yourself in three drills.",
-      "id": "Dokter yang baik tidak sekadar memberi obat penurun demam. Ia mencari tahu apa penyebabnya. Pelajaran ini menjalankan langkah 2 dan 3 dari metode empat langkah secara utuh pada satu kasus (sebuah band kampus yang konser gratisnya hanya didatangi lima belas orang) dengan alat-alat diagnosis dari Watanabe: pohon ya/tidak, hipotesis yang tertulis, rencana rancangan pemecahan masalah, dan matriks dampak lawan kemudahan untuk memilih apa yang dikerjakan. Setelah itu, kamu menjalankan alat-alat yang sama sendiri dalam tiga latihan."
+      "en": "A good doctor does not prescribe for a fever; she finds what is causing it. This lesson runs steps 2 and 3 of the method in full on one case, a coffee cart whose sales are falling, with four tools: a funnel, a written hypothesis, an analysis plan, and an impact-versus-ease matrix for choosing what to do. Then you run the same tools yourself in three drills.",
+      "id": "Dokter yang baik tidak meresepkan obat untuk demam; ia mencari apa penyebabnya. Pelajaran ini menjalankan langkah 2 dan 3 dari metodenya secara utuh pada satu kasus, yaitu gerobak kopi yang penjualannya turun, dengan empat alat: corong, hipotesis tertulis, rencana analisis, dan matriks dampak lawan kemudahan untuk memilih tindakan. Setelah itu kamu menjalankan alat yang sama sendiri dalam tiga latihan."
      },
      "objectives": [
       {
-       "en": "Run the diagnosis sequence 1A–1D: list causes, hypothesise, decide the analyses, analyse.",
-       "id": "Menjalankan urutan diagnosis 1A–1D: daftar penyebab, rumuskan hipotesis, tentukan analisisnya, lalu lakukan analisis."
+       "en": "Run a diagnosis in order: list possible causes, commit to a hypothesis, plan the analysis, then analyse.",
+       "id": "Menjalankan diagnosis secara berurutan: mendaftar kemungkinan penyebab, berani menetapkan hipotesis, merencanakan analisis, lalu menganalisis."
       },
       {
-       "en": "Build a yes/no tree that shows where a population drops off, and read the bottleneck from it.",
-       "id": "Membuat pohon ya/tidak yang menunjukkan di titik mana sebuah kelompok orang berguguran, lalu membaca titik sumbatnya."
+       "en": "Build a funnel that shows where people drop off, and read the bottleneck from it.",
+       "id": "Menyusun corong yang menunjukkan di mana orang berguguran, dan membaca sumbatannya dari sana."
       },
       {
-       "en": "Write a problem-solving design plan (issue, hypothesis and rationale, analysis and information needed) before collecting any data.",
-       "id": "Menulis rencana rancangan pemecahan masalah (isu, hipotesis beserta alasannya, analisis dan informasi yang dibutuhkan) sebelum mengumpulkan data apa pun."
+       "en": "Write an analysis plan (issue, hypothesis and reason, analysis and information needed) before collecting any data.",
+       "id": "Menulis rencana analisis (isu, hipotesis dan alasannya, analisis dan informasi yang dibutuhkan) sebelum mengumpulkan data apa pun."
       },
       {
        "en": "Turn a wide list of ideas into a prioritised plan with an impact-versus-ease matrix and a who-what-when line for each action.",
@@ -3741,23 +3741,23 @@ window.MT_LMS['the-map'] = {
        "id": "Gejala, diagnosis, resep: dengan urutan itu. Obat untuk penyebab yang salah bukanlah obat, seberapa pun semangat orang memberikannya."
       },
       {
-       "en": "A hypothesis is a guess written down so that data can kill it; the band's first guess was wrong by a factor of six, and finding that out early was the win.",
-       "id": "Hipotesis adalah tebakan yang ditulis supaya bisa dipatahkan oleh data. Tebakan pertama band itu meleset sampai enam kali lipat, dan mengetahuinya sejak awal justru menjadi kemenangannya."
+       "en": "A hypothesis is a guess written down so that data can kill it. Arga's first guess was wrong, and finding that out in one week of counting was the win.",
+       "id": "Hipotesis adalah tebakan yang ditulis supaya data bisa mematahkannya. Tebakan pertama Arga keliru, dan mengetahuinya dalam seminggu menghitung justru kemenangan."
       },
       {
        "en": "Impact × ease decides what to do first, and asking for help is a legitimate way to move an idea into the easy column.",
        "id": "Dampak × kemudahan menentukan apa yang dikerjakan lebih dulu, dan meminta bantuan adalah cara yang sah untuk memindahkan sebuah ide ke kolom yang mudah."
       },
       {
-       "en": "Outcome = quality of the plan × quality of the execution; a plan without owners and dates has an execution score of zero.",
-       "id": "Hasil = mutu rencana × mutu pelaksanaan. Rencana tanpa penanggung jawab dan tanggal punya nilai pelaksanaan nol."
+       "en": "A plan without owners and dates has not started, and a good plan carried out badly still fails.",
+       "id": "Rencana tanpa penanggung jawab dan tanggal belum dimulai, dan rencana yang bagus tetapi dijalankan dengan buruk tetap gagal."
       }
      ],
      "diagram": {
       "type": "timeline",
       "exhibit": {
-       "en": "Exhibit 1: Diagnose, then cure, 1A to 2C",
-       "id": "Gambar 1: Diagnosis, lalu pengobatan, dari 1A sampai 2C"
+       "en": "Exhibit 1: Diagnose, then cure",
+       "id": "Gambar 1: Diagnosis, lalu pengobatan"
       },
       "title": {
        "en": "The six moves between a symptom and a plan",
@@ -3767,111 +3767,111 @@ window.MT_LMS['the-map'] = {
        {
         "icon": "eye",
         "h": {
-         "en": "1A · List potential causes",
-         "id": "1A · Daftar kemungkinan penyebab"
+         "en": "List possible causes",
+         "id": "Daftar kemungkinan penyebab"
         },
         "sub": {
-         "en": "A logic tree or a yes/no tree of where the problem could live",
-         "id": "Pohon logika atau pohon ya/tidak tentang di mana saja masalahnya bisa berada"
+         "en": "A logic tree or a funnel of where the problem could live",
+         "id": "Pohon logika atau corong tentang di mana masalahnya bisa berada"
         }
        },
        {
         "icon": "target",
         "h": {
-         "en": "1B · Form a hypothesis",
-         "id": "1B · Rumuskan hipotesis"
+         "en": "Form a hypothesis",
+         "id": "Susun hipotesis"
         },
         "sub": {
          "en": "Your best guess, written so that data can prove it wrong",
-         "id": "Tebakan terbaikmu, ditulis supaya data bisa membuktikannya salah"
+         "id": "Tebakan terbaikmu, ditulis supaya data bisa membuktikannya keliru"
         }
        },
        {
         "icon": "book",
         "h": {
-         "en": "1C · Design the analysis",
-         "id": "1C · Rancang analisisnya"
+         "en": "Plan the analysis",
+         "id": "Rencanakan analisisnya"
         },
         "sub": {
-         "en": "Issue, hypothesis, evidence needed: the design plan",
-         "id": "Isu, hipotesis, bukti yang dibutuhkan: rencana rancangannya"
+         "en": "Issue, hypothesis, evidence needed: the analysis plan",
+         "id": "Isu, hipotesis, bukti yang dibutuhkan: rencana analisis"
         }
        },
        {
         "icon": "gear",
         "h": {
-         "en": "1D · Analyse and decide",
-         "id": "1D · Analisis dan putuskan"
+         "en": "Analyse and decide",
+         "id": "Analisis dan putuskan"
         },
         "sub": {
-         "en": "Survey, interview, count; keep or replace the hypothesis",
-         "id": "Survei, wawancara, hitung; pertahankan atau ganti hipotesisnya"
+         "en": "Count, survey, interview; keep or replace the hypothesis",
+         "id": "Hitung, survei, wawancara; pertahankan atau ganti hipotesisnya"
         }
        },
        {
         "icon": "flag",
         "h": {
-         "en": "2A–2B · Ideas, then priority",
-         "id": "2A–2B · Ide, lalu prioritas"
+         "en": "Ideas, then priority",
+         "id": "Ide, lalu prioritas"
         },
         "sub": {
          "en": "Many options; impact × ease picks the first ones",
-         "id": "Banyak pilihan; dampak × kemudahan menentukan yang pertama"
+         "id": "Banyak pilihan; dampak × kemudahan memilih yang pertama"
         }
        },
        {
         "icon": "flag",
         "h": {
-         "en": "2C · Who, what, when",
-         "id": "2C · Siapa, apa, kapan"
+         "en": "Who, what, when",
+         "id": "Siapa, apa, kapan"
         },
         "sub": {
-         "en": "An implementation plan someone can be held to",
-         "id": "Rencana pelaksanaan yang bisa ditagih kepada seseorang"
+         "en": "A plan someone can be held to",
+         "id": "Rencana yang bisa dipertanggungjawabkan seseorang"
         }
        }
       ],
       "note": {
-       "en": "1A–1D is the diagnosis; 2A–2C is the cure. Most failed projects skipped straight from 1A to 2C.",
-       "id": "1A–1D adalah diagnosisnya; 2A–2C adalah pengobatannya. Kebanyakan proyek yang gagal melompat langsung dari 1A ke 2C."
+       "en": "The first four moves are the diagnosis; the last two are the cure. Most failed projects jump from the first move straight to the last.",
+       "id": "Empat langkah pertama adalah diagnosis; dua yang terakhir adalah pengobatan. Sebagian besar proyek yang gagal melompat dari langkah pertama langsung ke langkah terakhir."
       },
       "longdesc": {
-       "en": "A six-stage timeline. Stages one to four are the diagnosis: list potential causes with a tree; form a hypothesis written so data can disprove it; design the analysis with an issue, hypothesis and evidence table; analyse and decide whether to keep or replace the hypothesis. Stages five and six are the cure: generate many ideas and prioritise by impact and ease; then write a who-what-when implementation plan.",
-       "id": "Garis waktu enam tahap. Tahap satu sampai empat adalah diagnosis: daftar kemungkinan penyebab dengan sebuah pohon; rumuskan hipotesis yang ditulis supaya data bisa mematahkannya; rancang analisisnya dengan tabel isu, hipotesis, dan bukti; lalu analisis dan putuskan apakah hipotesisnya dipertahankan atau diganti. Tahap lima dan enam adalah pengobatan: munculkan banyak ide dan prioritaskan menurut dampak dan kemudahan, lalu tulis rencana pelaksanaan siapa-apa-kapan."
+       "en": "A six-stage timeline. Stages one to four are the diagnosis: list possible causes with a tree or a funnel; form a hypothesis written so that data can disprove it; plan the analysis with an issue, hypothesis and evidence table; analyse and decide whether to keep or replace the hypothesis. Stages five and six are the cure: generate many ideas and prioritise them by impact and ease; then write a who-what-when plan.",
+       "id": "Lini masa enam tahap. Tahap satu sampai empat adalah diagnosis: mendaftar kemungkinan penyebab dengan pohon atau corong; menyusun hipotesis yang ditulis supaya data bisa membantahnya; merencanakan analisis dengan tabel isu, hipotesis, dan bukti; menganalisis lalu memutuskan apakah hipotesisnya dipertahankan atau diganti. Tahap lima dan enam adalah pengobatan: mengumpulkan banyak ide dan memprioritaskannya menurut dampak dan kemudahan; lalu menulis rencana siapa-apa-kapan."
       }
      },
      "sections": [
       {
        "icon": "eye",
        "h": {
-        "en": "1A–1B: list the causes, then commit to a guess",
-        "id": "1A–1B: daftar penyebabnya, lalu berani menebak"
+        "en": "List the causes, then commit to a guess",
+        "id": "Daftar penyebabnya, lalu berani menebak"
        },
        "body": {
-        "en": "Diagnosis starts wide and then narrows on purpose. Wide: a tree of every place the problem could live (for the band, the yes/no tree of aware → attended → keeps coming; for a shop, price × volume, new × returning). Narrow: pick the branch you believe is the bottleneck and write it as a <b>hypothesis</b> with a number attached: “about 5% are aware”. Two reasons to commit to a guess before you have data. It tells you which data to collect, so you do not survey everything. And it can be wrong in a way you notice: the band's 5% turned out to be 30%, which redirected the whole plan. Watanabe's grandmother did the same with Thanksgiving traffic: “the highway will be jammed after four; leave at two” is a hypothesis, and one phone call to the traffic line checks it.",
-        "id": "Diagnosis dimulai dengan lebar, lalu sengaja menyempit. Lebar berarti membuat pohon dari setiap tempat masalah itu mungkin berada (untuk band tadi, pohon ya/tidak dari tahu → pernah datang → terus datang; untuk sebuah toko, harga × volume, pelanggan baru × pelanggan lama). Menyempit berarti memilih cabang yang kamu yakini sebagai titik sumbatnya, lalu menuliskannya sebagai <b>hipotesis</b> dengan angka: “sekitar 5% yang tahu”. Ada dua alasan untuk berani menebak sebelum kamu punya data. Tebakan itu memberitahumu data mana yang perlu dikumpulkan, jadi kamu tidak menyurvei segalanya. Dan tebakan itu bisa salah dengan cara yang kamu sadari: angka 5% band itu ternyata 30%, dan hal itu mengubah arah seluruh rencananya. Nenek Watanabe melakukan hal yang sama soal macet saat Thanksgiving: “jalan tol pasti macet setelah jam empat, jadi berangkat jam dua” adalah sebuah hipotesis, dan satu telepon ke layanan info lalu lintas sudah cukup untuk mengeceknya."
+        "en": "Diagnosis starts wide and then narrows on purpose. <b>Wide:</b> draw every place the problem could live. For Arga's coffee cart, that is a funnel of the people on his street: who walks past, who notices the cart, who buys, who comes back. For a shop it might be price × volume, then new × returning customers. <b>Narrow:</b> pick the branch you believe is the bottleneck and write it as a <b>hypothesis</b> with a number attached. Arga wrote: “about 6 in 10 buyers never return, because of the price.” There are two reasons to commit to a guess before you have data. It tells you which data to collect, so you do not survey everything. And it can be wrong in a way you notice. Arga's count showed that two in three buyers do return, which redirected the whole plan before he had cut a single price. You already do this in daily life: “the road will be jammed after five, so I will leave at four” is a hypothesis, and one look at a traffic app checks it.",
+        "id": "Diagnosis dimulai lebar lalu sengaja dipersempit. <b>Lebar:</b> gambarkan setiap tempat masalahnya bisa berada. Untuk gerobak kopi Arga, itu berarti corong orang-orang di jalannya: siapa yang lewat, siapa yang melihat gerobaknya, siapa yang membeli, siapa yang kembali. Untuk sebuah toko, bisa berupa harga × volume, lalu pelanggan baru × pelanggan lama. <b>Sempit:</b> pilih cabang yang kamu yakini sebagai sumbatannya dan tulis sebagai <b>hipotesis</b> dengan angka. Arga menulis: “sekitar 6 dari 10 pembeli tidak kembali, karena harganya.” Ada dua alasan untuk berani menebak sebelum punya data. Tebakan memberi tahu data mana yang perlu dikumpulkan, sehingga kamu tidak menyurvei semuanya. Dan tebakan bisa keliru dengan cara yang kamu sadari. Hitungan Arga menunjukkan dua dari tiga pembeli ternyata kembali, dan itu membelokkan seluruh rencana sebelum ia menurunkan satu harga pun. Kamu sudah melakukan ini sehari-hari: “jalanan akan macet setelah jam lima, jadi aku berangkat jam empat” adalah hipotesis, dan sekali melihat aplikasi lalu lintas sudah cukup untuk mengeceknya."
        }
       },
       {
        "icon": "book",
        "h": {
-        "en": "1C–1D: the design plan, and reading the yes/no tree",
-        "id": "1C–1D: rencana rancangan, dan cara membaca pohon ya/tidak"
+        "en": "The analysis plan, and reading the funnel",
+        "id": "Rencana analisis, dan cara membaca corong"
        },
        "body": {
-        "en": "The <b>problem-solving design plan</b> is a three-column table: the issue, your hypothesis and why you hold it, and the analysis or information that would settle it. Writing it first keeps you from collecting data you will never use, and from quietly collecting only the data that agrees with you. Then read the yes/no tree as a funnel: 500 → 150 aware → 15 attended → 12 repeat. The biggest proportional drop is the bottleneck: 90% of aware students never attended, while 80% of attendees came back. That single reading rules out half the ideas (nobody needs a retention fix) and points the interviews at the right people (non-attendees). Interviews then explain the number: “I don't know what you play”, “Saturday noon clashes with training”. Numbers tell you where; conversations tell you why.",
-        "id": "<b>Rencana rancangan pemecahan masalah</b> adalah tabel tiga kolom: isunya, hipotesismu beserta alasannya, dan analisis atau informasi yang akan menjawabnya. Menulisnya lebih dulu mencegahmu mengumpulkan data yang tidak akan pernah kamu pakai, dan mencegahmu diam-diam hanya mengumpulkan data yang sependapat denganmu. Lalu baca pohon ya/tidak itu seperti corong: 500 → 150 tahu → 15 pernah datang → 12 datang lagi. Penurunan proporsional terbesar adalah titik sumbatnya: 90% mahasiswa yang tahu belum pernah datang, sementara 80% yang pernah datang kembali lagi. Satu pembacaan itu menyingkirkan separuh ide (tidak ada yang butuh perbaikan soal penonton yang kembali) dan mengarahkan wawancara ke orang yang tepat (yang belum pernah datang). Wawancara lalu menjelaskan angkanya: “aku tidak tahu kalian main musik apa”, “Sabtu siang bentrok dengan latihan”. Angka memberitahumu di mana. Percakapan memberitahumu kenapa."
+        "en": "The <b>analysis plan</b> is a small table with three columns: the issue, your hypothesis and why you hold it, and the analysis or information that would settle it. Writing it first keeps you from collecting data you will never use, and from quietly collecting only the data that agrees with you. Arga's plan had one row: why are sales falling; buyers do not return because of the price; count one week of who passes, notices, buys and returns. Then read the result as a <b>funnel</b>: 1,200 walk past → 300 notice the cart → 180 buy → 120 come back. The biggest proportional drop is the bottleneck. Three in four people never notice the cart, while two in three buyers return. That single reading rules out half the ideas (nobody needs a discount or a loyalty card) and points the conversations at the right people: those who walk past. A few short conversations then explain the number: “I did not know there was coffee here”, “I thought it was a parked motorbike”. Numbers tell you where; conversations tell you why.",
+        "id": "<b>Rencana analisis</b> adalah tabel kecil dengan tiga kolom: isunya, hipotesismu beserta alasannya, dan analisis atau informasi yang bisa memastikannya. Menuliskannya lebih dulu mencegahmu mengumpulkan data yang tak akan dipakai, dan diam-diam mengumpulkan hanya data yang sejalan dengan dugaanmu. Rencana Arga hanya satu baris: kenapa penjualan turun; pembeli tidak kembali karena harganya; hitung selama seminggu siapa yang lewat, melihat, membeli, dan kembali. Lalu baca hasilnya sebagai <b>corong</b>: 1.200 orang lewat → 300 melihat gerobaknya → 180 membeli → 120 kembali. Penurunan terbesar secara proporsi adalah sumbatannya. Tiga dari empat orang tak pernah melihat gerobaknya, sedangkan dua dari tiga pembeli kembali. Satu bacaan itu menggugurkan separuh ide (tak perlu diskon atau kartu pelanggan) dan mengarahkan percakapan ke orang yang tepat: mereka yang lewat begitu saja. Beberapa percakapan singkat kemudian menjelaskan angkanya: “Aku tidak tahu di sini ada kopi”, “Kukira itu motor yang diparkir”. Angka memberi tahu di mana; percakapan memberi tahu kenapa."
        }
       },
       {
        "icon": "gear",
        "h": {
-        "en": "2A–2C: many ideas, impact × ease, then owners and dates",
-        "id": "2A–2C: banyak ide, dampak × kemudahan, lalu penanggung jawab dan tanggal"
+        "en": "Many ideas, impact × ease, then owners and dates",
+        "id": "Banyak ide, dampak × kemudahan, lalu penanggung jawab dan tanggal"
        },
        "body": {
-        "en": "Generate before you judge: the band's thirteen ideas came from a logic tree of communication channels (in person, print, broadcast, online) plus a branch for “reasons to return”. Then place each idea on the <b>impact × ease</b> matrix and run the top-right corner first. Two habits make the matrix honest. Ask “what would move this idea into the easy column?” Often the answer is a person: the design student who makes the poster, the teacher who lends five minutes of homeroom. And write the plan as <b>who does what by when</b>; an idea without an owner is still an idea. Finally, measure with the same instrument you diagnosed with. The band re-ran the survey two months later (90% aware, 50% attended, 90% repeat, 200 in the hall) and kept the loop running with new songs each show.",
-        "id": "Munculkan ide dulu sebelum menilai. Tiga belas ide band itu lahir dari pohon logika saluran komunikasi (tatap muka, cetak, siaran, daring) ditambah satu cabang untuk “alasan untuk kembali”. Lalu tempatkan setiap ide di matriks <b>dampak × kemudahan</b> dan jalankan pojok kanan atas lebih dulu. Ada dua kebiasaan yang membuat matriks ini jujur. Tanyakan “apa yang bisa memindahkan ide ini ke kolom yang mudah?” Sering kali jawabannya adalah seseorang: mahasiswa desain yang membuatkan poster, guru yang meminjamkan lima menit jam kelasnya. Lalu tulis rencananya sebagai <b>siapa mengerjakan apa paling lambat kapan</b>. Ide tanpa penanggung jawab tetaplah sekadar ide. Terakhir, ukur dengan alat yang sama dengan yang kamu pakai untuk mendiagnosis. Band itu menjalankan ulang surveinya dua bulan kemudian (90% tahu, 50% pernah datang, 90% datang lagi, 200 orang di aula) dan terus menjalankan putarannya dengan lagu-lagu baru di setiap konser."
+        "en": "Generate before you judge. Arga listed every way to be noticed: a tall sign, a brighter canopy, moving to the main gate, a new cup design, a delivery app. Then place each idea on the <b>impact × ease matrix</b> and run the top-right corner first: the sign and the canopy help a lot and cost little. Two habits make the matrix honest. Ask “what would move this idea into the easy column?” Often the answer is a person: moving to the main gate looked hard until a friend who runs a stall there offered to share the spot. And write the plan as <b>who does what by when</b>; an idea without an owner is still an idea. The sign by Saturday, the canopy by Monday. Finally, measure with the same instrument you diagnosed with. Arga counts again in two weeks with the same sheet, keeps what moved the number and reworks what did not. The loop closes on the outcome, not on the effort.",
+        "id": "Kumpulkan dulu, baru nilai. Arga mendaftar semua cara agar terlihat: papan nama yang tinggi, kanopi yang lebih terang, pindah ke gerbang utama, desain gelas baru, aplikasi pesan antar. Lalu tempatkan setiap ide pada <b>matriks dampak × kemudahan</b> dan jalankan sudut kanan atas lebih dulu: papan nama dan kanopi banyak membantu dan murah. Dua kebiasaan membuat matriks ini jujur. Tanyakan “apa yang bisa memindahkan ide ini ke kolom mudah?” Sering kali jawabannya adalah seseorang: pindah ke gerbang utama terlihat sulit sampai seorang teman yang punya lapak di sana menawarkan berbagi tempat. Dan tulis rencananya sebagai <b>siapa mengerjakan apa paling lambat kapan</b>; ide tanpa penanggung jawab tetaplah ide. Papan nama paling lambat Sabtu, kanopi paling lambat Senin. Terakhir, ukur dengan alat yang sama dengan yang kamu pakai saat mendiagnosis. Arga menghitung lagi dua minggu kemudian dengan lembar yang sama, mempertahankan yang menggerakkan angkanya dan memperbaiki yang tidak. Putarannya ditutup oleh hasil, bukan oleh usaha."
        }
       },
       {
@@ -3893,22 +3893,22 @@ window.MT_LMS['the-map'] = {
         "id": "Latihan 1: Baca corongnya"
        },
        "body": {
-        "en": "A student podcast has this yes/no tree for its 2,000-student campus: 1,200 have heard of it; 600 of those have listened to one episode; 90 of those listen every week. Where is the bottleneck, what hypothesis would you write, and who would you interview first? Decide, then reveal.",
-        "id": "Sebuah podcast mahasiswa punya pohon ya/tidak ini untuk kampusnya yang berisi 2.000 mahasiswa: 1.200 pernah mendengar podcast itu; 600 di antaranya pernah mendengarkan satu episode; 90 di antaranya mendengarkan setiap minggu. Di mana titik sumbatnya, hipotesis apa yang akan kamu tulis, dan siapa yang akan kamu wawancarai lebih dulu? Putuskan, lalu buka jawabannya."
+        "en": "A student podcast has this funnel for its 2,000-student campus: 1,200 have heard of it; 600 of those have listened to one episode; 90 of those listen every week. Where is the bottleneck, what hypothesis would you write, and who would you interview first? Decide, then reveal.",
+        "id": "Sebuah podcast mahasiswa punya corong ini untuk kampusnya yang berisi 2.000 mahasiswa: 1.200 pernah mendengar podcast itu; 600 di antaranya pernah mendengarkan satu episode; 90 di antaranya mendengarkan setiap minggu. Di mana titik sumbatnya, hipotesis apa yang akan kamu tulis, dan siapa yang akan kamu wawancarai lebih dulu? Putuskan, lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Awareness 60%, trial 50% of aware, retention 15% of triers; the collapse is retention, the opposite of the band. Hypothesis: “episodes are too long or too irregular for a weekly habit” (with a number: median episode 55 minutes). Interview one-time listeners, not fans. A poster campaign here would pour more people into a leaking bucket.",
-        "id": "Yang tahu 60%, yang mencoba 50% dari yang tahu, yang bertahan 15% dari yang mencoba. Ambruknya ada di sisi bertahan, kebalikan dari kasus band. Hipotesis: “episodenya terlalu panjang atau terlalu tidak teratur untuk menjadi kebiasaan mingguan” (dengan angka: rata-rata durasi episode 55 menit). Wawancarai pendengar yang baru sekali mendengarkan, bukan penggemarnya. Kampanye poster di sini sama saja dengan menuang lebih banyak orang ke ember yang bocor."
+        "en": "Awareness 60%, trial 50% of aware, retention 15% of triers; the collapse is retention. Hypothesis: “episodes are too long or too irregular for a weekly habit” (with a number: median episode 55 minutes). Interview one-time listeners, not fans. A poster campaign here would pour more people into a leaking bucket.",
+        "id": "Yang tahu 60%, yang mencoba 50% dari yang tahu, yang bertahan 15% dari yang mencoba. Ambruknya ada di sisi bertahan. Hipotesis: “episodenya terlalu panjang atau terlalu tidak teratur untuk menjadi kebiasaan mingguan” (dengan angka: rata-rata durasi episode 55 menit). Wawancarai pendengar yang baru sekali mendengarkan, bukan penggemarnya. Kampanye poster di sini sama saja dengan menuang lebih banyak orang ke ember yang bocor."
        }
       },
       {
        "h": {
-        "en": "Drill 2: Write the design plan",
-        "id": "Latihan 2: Tulis rencana rancangannya"
+        "en": "Drill 2: Write the analysis plan",
+        "id": "Latihan 2: Tulis rencana analisisnya"
        },
        "body": {
-        "en": "Your organisation's members stop showing up after their first month. Write three rows of a design plan (issue, hypothesis with rationale, analysis and information needed) that could be completed in one week with no budget. Then reveal.",
-        "id": "Anggota organisasimu berhenti datang setelah bulan pertama mereka. Tulis tiga baris rencana rancangan (isu, hipotesis beserta alasannya, analisis dan informasi yang dibutuhkan) yang bisa diselesaikan dalam seminggu tanpa anggaran. Lalu buka jawabannya."
+        "en": "Your organisation's members stop showing up after their first month. Write three rows of an analysis plan (issue, hypothesis with rationale, analysis and information needed) that could be completed in one week with no budget. Then reveal.",
+        "id": "Anggota organisasimu berhenti datang setelah bulan pertama mereka. Tulis tiga baris rencana analisis (isu, hipotesis beserta alasannya, analisis dan informasi yang dibutuhkan) yang bisa diselesaikan dalam seminggu tanpa anggaran. Lalu buka jawabannya."
        },
        "debrief": {
         "en": "Model rows. (1) At which week do they stop? Hypothesis week 3–4, after the first big task; analysis: attendance sheets for the last two cohorts. (2) Do leavers get a task in month one? Hypothesis no, they only observe; analysis: task log by member. (3) Why do they say they left? Hypothesis “nothing to do / felt useless”; analysis: five ten-minute calls to leavers. A weak plan collects “feedback” in general; a strong plan names the number that would change its mind.",
@@ -3938,8 +3938,8 @@ window.MT_LMS['the-map'] = {
          "id": "Mengumpulkan data sebelum menulis hipotesis"
         },
         "fix": {
-         "en": "Fill the design plan first. Without it you gather everything, use nothing, and read whatever confirms your first instinct.",
-         "id": "Isi rencana rancangannya lebih dulu. Tanpa itu, kamu mengumpulkan segalanya, tidak memakai apa pun, dan hanya membaca apa yang membenarkan naluri pertamamu."
+         "en": "Fill the analysis plan first. Without it you gather everything, use nothing, and read whatever confirms your first instinct.",
+         "id": "Isi rencana analisisnya lebih dulu. Tanpa itu, kamu mengumpulkan segalanya, tidak memakai apa pun, dan hanya membaca apa yang membenarkan naluri pertamamu."
         }
        },
        {
@@ -3958,8 +3958,8 @@ window.MT_LMS['the-map'] = {
          "id": "Rencana yang isinya hanya daftar ide"
         },
         "fix": {
-         "en": "Every line needs a name and a date. If nobody owns it, cross it out or find the owner; that is what step 2C is for.",
-         "id": "Setiap baris butuh nama dan tanggal. Kalau tidak ada yang memegangnya, coret baris itu atau cari penanggung jawabnya. Untuk itulah langkah 2C ada."
+         "en": "Every line needs a name and a date. If nobody owns it, cross it out or find the owner.",
+         "id": "Setiap baris butuh nama dan tanggal. Kalau tidak ada yang memegangnya, coret baris itu atau cari penanggung jawabnya."
         }
        },
        {
@@ -3987,22 +3987,22 @@ window.MT_LMS['the-map'] = {
       },
       {
        "term": {
-        "en": "yes/no tree",
-        "id": "pohon ya/tidak"
+        "en": "funnel",
+        "id": "corong"
        },
        "def": {
-        "en": "A logic tree whose branches are yes-or-no questions, used to see where a population drops off.",
-        "id": "Pohon logika yang cabang-cabangnya berupa pertanyaan ya atau tidak, dipakai untuk melihat di titik mana sekelompok orang berguguran."
+        "en": "A chain of yes-or-no stages (heard of it, tried it, came back) with a count at each one, used to see where people drop off.",
+        "id": "Rangkaian tahap ya-atau-tidak (pernah dengar, pernah mencoba, kembali lagi) dengan hitungan di setiap tahap, dipakai untuk melihat di mana orang berguguran."
        }
       },
       {
        "term": {
-        "en": "design plan",
-        "id": "rencana rancangan"
+        "en": "analysis plan",
+        "id": "rencana analisis"
        },
        "def": {
-        "en": "The problem-solving design plan: a table of issues, hypotheses with rationale, and the analyses or information needed to settle each.",
-        "id": "Rencana rancangan pemecahan masalah: tabel berisi isu, hipotesis beserta alasannya, dan analisis atau informasi yang dibutuhkan untuk menjawab masing-masing."
+        "en": "A table of issues, hypotheses with their reasons, and the analyses or information needed to settle each one, written before any data is collected.",
+        "id": "Tabel berisi isu, hipotesis beserta alasannya, dan analisis atau informasi yang dibutuhkan untuk memastikan masing-masing, ditulis sebelum data dikumpulkan."
        }
       },
       {
@@ -4029,37 +4029,37 @@ window.MT_LMS['the-map'] = {
      "checks": [
       {
        "q": {
-        "en": "The band's hypothesis was “only 5% are aware”. The survey found 30%. What is the right reaction?",
-        "id": "Hipotesis band itu “hanya 5% yang tahu”. Survei menemukan 30%. Apa reaksi yang tepat?"
+        "en": "Arga's hypothesis was “about 6 in 10 buyers never return”. His count found that 2 in 3 return. What is the right reaction?",
+        "id": "Hipotesis Arga adalah “sekitar 6 dari 10 pembeli tidak kembali”. Hitungannya menunjukkan 2 dari 3 kembali. Apa reaksi yang tepat?"
        },
        "options": [
         {
-         "en": "Run the awareness campaign anyway: 30% is still low",
-         "id": "Tetap jalankan kampanye supaya orang tahu: 30% masih rendah"
+         "en": "Cut prices anyway: some buyers still do not return",
+         "id": "Tetap menurunkan harga: toh masih ada pembeli yang tidak kembali"
         },
         {
-         "en": "Discard the hypothesis, re-read the funnel for the biggest drop, and aim the interviews there",
-         "id": "Buang hipotesisnya, baca ulang corongnya untuk menemukan penurunan terbesar, dan arahkan wawancara ke sana"
+         "en": "Discard the hypothesis, re-read the funnel for the biggest drop, and aim the conversations there",
+         "id": "Buang hipotesisnya, baca ulang corongnya untuk mencari penurunan terbesar, dan arahkan percakapan ke sana"
         },
         {
-         "en": "Distrust the survey: the hypothesis came from the people who know the band best",
-         "id": "Jangan percaya surveinya: hipotesis itu datang dari orang-orang yang paling mengenal band itu"
+         "en": "Distrust the count: he knows his customers best",
+         "id": "Meragukan hitungannya: dialah yang paling mengenal pelanggannya"
         },
         {
          "en": "Skip to step 4 and try harder",
-         "id": "Langsung loncat ke langkah 4 dan berusaha lebih keras"
+         "id": "Lompat ke langkah 4 dan berusaha lebih keras"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "A hypothesis exists to be killed by data. The funnel showed trial (10% of aware) was the leak, not awareness, so the interviews went to non-attendees and the plan changed.",
-        "id": "Hipotesis ada untuk dipatahkan oleh data. Corongnya menunjukkan bahwa kebocorannya ada di soal mencoba (10% dari yang tahu), bukan soal tahu, jadi wawancara diarahkan ke yang belum pernah datang dan rencananya berubah."
+        "en": "A hypothesis exists to be killed by data. The funnel showed that the leak was earlier (three in four people never noticed the cart), so the conversations went to people who walk past, and the plan changed.",
+        "id": "Hipotesis memang ada untuk dipatahkan oleh data. Corongnya menunjukkan bahwa bocornya lebih awal (tiga dari empat orang tak pernah melihat gerobaknya), sehingga percakapan diarahkan ke orang yang lewat begitu saja, dan rencananya berubah."
        }
       },
       {
        "q": {
-        "en": "Which row belongs in a problem-solving design plan?",
-        "id": "Baris mana yang layak masuk ke rencana rancangan pemecahan masalah?"
+        "en": "Which row belongs in an analysis plan?",
+        "id": "Baris mana yang layak masuk ke rencana analisis?"
        },
        "options": [
         {
@@ -4110,8 +4110,8 @@ window.MT_LMS['the-map'] = {
        ],
        "correct": 2,
        "why": {
-        "en": "The band's posters were “hard” until a design-student friend offered to make them. Getting help is a legitimate move that changes the matrix; the plan still needs a who-what-when line.",
-        "id": "Poster band itu tadinya “sulit” sampai seorang teman yang kuliah desain menawarkan diri membuatnya. Meminta bantuan adalah langkah sah yang mengubah matriksnya, tetapi rencananya tetap butuh baris siapa-apa-kapan."
+        "en": "Moving to the main gate looked hard until a friend who runs a stall there offered to share the spot. Getting help is a legitimate move that changes the matrix; the plan still needs a who-what-when line.",
+        "id": "Pindah ke gerbang utama terlihat sulit sampai seorang teman yang punya lapak di sana menawarkan berbagi tempat. Meminta bantuan adalah langkah yang sah dan mengubah matriksnya; rencananya tetap butuh baris siapa-apa-kapan."
        }
       }
      ],
@@ -4183,8 +4183,8 @@ window.MT_LMS['the-map'] = {
        },
        {
         "h": {
-         "en": "The design plan",
-         "id": "Rencana rancangan"
+         "en": "The analysis plan",
+         "id": "Rencana analisis"
         },
         "points": [
          {
@@ -4245,8 +4245,8 @@ window.MT_LMS['the-map'] = {
       "compose": {
        "bg": "../../assets/bg/compass.jpg",
        "module": {
-        "en": "Module 3 · Problem Solving 101: Improve Our Life",
-        "id": "Modul 3 · Pemecahan Masalah 101: Memperbaiki Hidup Kita"
+        "en": "Module 3 · Structured Problem Solving",
+        "id": "Modul 3 · Pemecahan Masalah Terstruktur"
        },
        "lesson": {
         "n": "3.2",
@@ -4312,12 +4312,12 @@ window.MT_LMS['the-map'] = {
         },
         {
          "h": {
-          "en": "The design plan",
-          "id": "Rencana rancangan"
+          "en": "The analysis plan",
+          "id": "Rencana analisis"
          },
          "p": {
-          "en": "A design plan keeps you from collecting data you will never use, and from collecting only the data that agrees with you.",
-          "id": "Rencana rancangan mencegahmu mengumpulkan data yang tak akan dipakai, dan mengumpulkan hanya data yang sejalan dengan dugaanmu."
+          "en": "An analysis plan keeps you from collecting data you will never use, and from collecting only the data that agrees with you.",
+          "id": "Rencana analisis mencegahmu mengumpulkan data yang tak akan dipakai, dan mengumpulkan hanya data yang sejalan dengan dugaanmu."
          }
         },
         {
@@ -4487,8 +4487,8 @@ window.MT_LMS['the-map'] = {
           }
          ],
          "band": {
-          "en": "A design plan keeps you from collecting data you will never use, and from collecting only the data that agrees with you.",
-          "id": "Rencana rancangan mencegahmu mengumpulkan data yang tak akan dipakai, dan mengumpulkan hanya data yang sejalan dengan dugaanmu."
+          "en": "An analysis plan keeps you from collecting data you will never use, and from collecting only the data that agrees with you.",
+          "id": "Rencana analisis mencegahmu mengumpulkan data yang tak akan dipakai, dan mengumpulkan hanya data yang sejalan dengan dugaanmu."
          },
          "img": "../../assets/bg/ep-stage-architecture.jpg"
         },
@@ -4732,8 +4732,8 @@ window.MT_LMS['the-map'] = {
      "kind": "interactive",
      "placeholder": false,
      "overview": {
-      "en": "Not every problem is something broken; many are somewhere you want to get to. This lesson turns the method towards goals (set a solid goal, calculate the gap, hypothesise how to close it, check the hypothesis with data) and then towards choices between options with pros-and-cons and a weighted criteria table. Two cases carry it: a student saving for a laptop, and a footballer choosing between two academies. Three cases of your own close the module.",
-      "id": "Tidak semua masalah berupa sesuatu yang rusak. Banyak masalah berupa tempat yang ingin kamu tuju. Pelajaran ini mengarahkan metodenya ke tujuan (tetapkan tujuan yang kokoh, hitung kesenjangannya, rumuskan hipotesis cara menutupnya, cek hipotesis itu dengan data), lalu ke pilihan di antara beberapa opsi dengan daftar untung-rugi dan tabel kriteria berbobot. Ada dua kasus yang menopangnya: seorang mahasiswa yang menabung untuk membeli laptop, dan seorang pemain sepak bola yang harus memilih di antara dua akademi. Tiga kasusmu sendiri menutup modul ini."
+      "en": "Not every problem is something broken; many are somewhere you want to get to. This lesson turns the method towards goals (set a solid goal, calculate the gap, work out how to close it, check your reasons with data) and then towards choices between options, first with pros and cons and then with weighted criteria. One case carries it: Dewi, who needs a language score for a scholarship and has to choose how to prepare. Three cases at the end are yours to work.",
+      "id": "Tidak semua masalah berupa sesuatu yang rusak; banyak yang berupa tempat yang ingin kamu tuju. Pelajaran ini mengarahkan metodenya ke tujuan (tetapkan tujuan yang kokoh, hitung kesenjangannya, cari cara menutupnya, periksa alasan-alasanmu dengan data) lalu ke pilihan di antara beberapa opsi, mula-mula dengan untung-rugi lalu dengan kriteria berbobot. Satu kasus membawanya: Dewi, yang membutuhkan skor bahasa untuk beasiswa dan harus memilih cara mempersiapkannya. Tiga kasus di akhir menjadi bagianmu untuk dikerjakan."
      },
      "objectives": [
       {
@@ -4741,12 +4741,12 @@ window.MT_LMS['the-map'] = {
        "id": "Menulis tujuan yang kokoh (apa, kapan, dengan syarat apa), lalu menghitung kesenjangannya terhadap perkiraan kalau tidak ada yang berubah."
       },
       {
-       "en": "Build a hypothesis pyramid whose reasons add up to the conclusion, and check each reason with data.",
-       "id": "Menyusun piramida hipotesis yang alasan-alasannya menjumlah menjadi kesimpulannya, lalu mengecek setiap alasan dengan data."
+       "en": "Stack your plan as a pyramid of reasons that add up to the conclusion, and check each reason with data.",
+       "id": "Menyusun rencanamu sebagai piramida alasan yang menjumlah ke kesimpulan, dan memeriksa setiap alasan dengan data."
       },
       {
-       "en": "Decide between options with a pros-and-cons list, then a criteria-and-evaluation table with weights.",
-       "id": "Memutuskan di antara beberapa opsi dengan daftar untung-rugi, lalu dengan tabel kriteria dan penilaian yang berbobot."
+       "en": "Decide between options with a pros-and-cons list, then with a table of weighted criteria.",
+       "id": "Memilih di antara opsi dengan daftar untung-rugi, lalu dengan tabel kriteria berbobot."
       },
       {
        "en": "Challenge your own conclusion before acting: ask people who have done it, test assumptions, look for the overlooked option.",
@@ -4763,16 +4763,16 @@ window.MT_LMS['the-map'] = {
        "id": "Tujuan yang kesenjangannya tidak bisa dihitung hanyalah keinginan. Tambahkan apa, kapan, dan batasannya, maka kesenjangannya menjadi angka yang bisa direncanakan."
       },
       {
-       "en": "The hypothesis pyramid keeps you honest: if the reasons do not add up to the conclusion, you do not have a plan yet.",
-       "id": "Piramida hipotesis menjaga kejujuranmu. Kalau alasan-alasannya tidak menjumlah menjadi kesimpulannya, kamu belum punya rencana."
+       "en": "A pyramid of reasons keeps you honest: if the reasons do not add up to the conclusion, you do not have a plan yet.",
+       "id": "Piramida alasan menjagamu tetap jujur: jika alasan-alasannya tidak menjumlah ke kesimpulan, kamu belum punya rencana."
       },
       {
-       "en": "Criteria come from the goal, and weights come from the criteria; the moment “exciting city” outweighs “chance to play”, the goal has quietly changed.",
-       "id": "Kriteria berasal dari tujuan, dan bobot berasal dari kriteria. Begitu “kotanya seru” mengalahkan “kesempatan bermain”, tujuannya diam-diam sudah berganti."
+       "en": "Criteria come from the goal, and weights come from the criteria; the moment cost outweighs speaking practice, the goal has quietly changed.",
+       "id": "Kriteria datang dari tujuan, dan bobot datang dari kriteria; begitu biaya lebih berat daripada latihan berbicara, tujuannya diam-diam sudah berubah."
       },
       {
-       "en": "Worry less, act more: three e-mails and one conversation with someone who has done it beat a week of anxious thinking.",
-       "id": "Kurangi cemas, perbanyak bertindak. Tiga email dan satu obrolan dengan orang yang sudah pernah menjalaninya mengalahkan seminggu berpikir sambil cemas."
+       "en": "One message to someone who has done it beats a week of anxious thinking.",
+       "id": "Satu pesan kepada orang yang sudah menjalaninya mengalahkan seminggu berpikir dengan cemas."
       }
      ],
      "diagram": {
@@ -4792,8 +4792,8 @@ window.MT_LMS['the-map'] = {
          "id": "Tetapkan tujuan yang kokoh"
         },
         "sub": {
-         "en": "What, by when, under which conditions: Rp 5 M laptop, six months, no borrowing",
-         "id": "Apa, kapan, dengan syarat apa: laptop Rp5 juta, enam bulan, tanpa berutang"
+         "en": "What, by when, under which conditions: a score of 6.5, by 1 March, without leaving her job",
+         "id": "Apa, kapan, dengan syarat apa: skor 6,5, sebelum 1 Maret, tanpa meninggalkan pekerjaannya"
         }
        },
        {
@@ -4802,8 +4802,8 @@ window.MT_LMS['the-map'] = {
          "id": "Hitung kesenjangannya"
         },
         "sub": {
-         "en": "Goal minus the do-nothing forecast: Rp 5 M − Rp 2.52 M = Rp 2.48 M",
-         "id": "Tujuan dikurangi perkiraan kalau tidak ada yang berubah: Rp5 juta − Rp2,52 juta = Rp2,48 juta"
+         "en": "Goal minus the do-nothing forecast: 6.5 − 5.9 = 0.6",
+         "id": "Tujuan dikurangi perkiraan jika tak berbuat apa-apa: 6,5 − 5,9 = 0,6"
         }
        },
        {
@@ -4812,8 +4812,8 @@ window.MT_LMS['the-map'] = {
          "id": "Rumuskan hipotesis cara menutupnya"
         },
         "sub": {
-         "en": "A logic tree of options, pruned by constraints, stacked into a pyramid",
-         "id": "Pohon logika berisi opsi-opsi, dipangkas sesuai batasan, lalu disusun menjadi piramida"
+         "en": "A logic tree of options, pruned by the conditions, stacked into a pyramid of reasons",
+         "id": "Pohon logika berisi opsi, dipangkas oleh syaratnya, disusun menjadi piramida alasan"
         }
        },
        {
@@ -4832,8 +4832,8 @@ window.MT_LMS['the-map'] = {
        "id": "Bandingkan dengan Gambar 1 di Pelajaran 3.1: putarannya sama, tetapi langkah 1 sekarang menetapkan tujuan alih-alih menggambarkan kerusakan, dan langkah 2 mengukur jarak alih-alih memburu penyebab."
       },
       "longdesc": {
-       "en": "A four-node flow read left to right. Node one, set a solid goal with what, when and conditions. Node two, calculate the gap between the goal and the forecast if nothing changes. Node three, hypothesise how to close the gap with a pruned logic tree of options stacked into a hypothesis pyramid. Node four, check each reason with data, then plan, monitor and revise.",
-       "id": "Alur empat simpul yang dibaca dari kiri ke kanan. Simpul pertama, tetapkan tujuan yang kokoh dengan apa, kapan, dan syaratnya. Simpul kedua, hitung kesenjangan antara tujuan dan perkiraan kalau tidak ada yang berubah. Simpul ketiga, rumuskan hipotesis cara menutup kesenjangan dengan pohon logika berisi opsi yang sudah dipangkas, lalu susun menjadi piramida hipotesis. Simpul keempat, cek setiap alasan dengan data, lalu rencanakan, pantau, dan perbaiki."
+       "en": "A four-node flow read left to right. Node one, set a solid goal with what, when and conditions. Node two, calculate the gap between the goal and the forecast if nothing changes. Node three, work out how to close the gap with a pruned logic tree of options stacked into a pyramid of reasons. Node four, check each reason with data, then plan, monitor and revise.",
+       "id": "Alur empat simpul yang dibaca dari kiri ke kanan. Simpul satu, tetapkan tujuan yang kokoh dengan apa, kapan, dan syaratnya. Simpul dua, hitung kesenjangan antara tujuan dan perkiraan jika tak ada yang berubah. Simpul tiga, cari cara menutup kesenjangan dengan pohon logika berisi opsi yang sudah dipangkas, lalu susun menjadi piramida alasan. Simpul empat, periksa setiap alasan dengan data, lalu rencanakan, pantau, dan perbaiki."
       }
      },
      "sections": [
@@ -4844,30 +4844,30 @@ window.MT_LMS['the-map'] = {
         "id": "Langkah 1–2: tujuan yang kokoh dan kesenjangan yang bisa dihitung"
        },
        "body": {
-        "en": "A solid goal has three parts: <b>what</b> (a used laptop worth Rp 5,000,000), <b>by when</b> (six months), and <b>under which conditions</b> (no borrowing). The conditions matter as much as the number. They are what let you prune the options tree later without agonising. Then forecast the do-nothing case honestly: savings today plus six months of (income − spending). Rp 1,500,000 + 6 × Rp 170,000 = Rp 2,520,000, so the gap is Rp 2,480,000. The number does two things. It ends the vague hope that “it will probably work out” (it will not), and it sets the size of the change needed, so you know whether one lever is enough or three are required. The same arithmetic works for a GPA (3.0 now, 3.4 needed, four semesters left) or a job search (three applications a week now, twelve interviews needed by June).",
-        "id": "Tujuan yang kokoh punya tiga bagian: <b>apa</b> (laptop bekas seharga Rp5.000.000), <b>kapan</b> (enam bulan), dan <b>dengan syarat apa</b> (tanpa berutang). Syaratnya sama pentingnya dengan angkanya. Syarat itulah yang nanti membuatmu bisa memangkas pohon opsi tanpa pusing. Lalu perkirakan dengan jujur keadaanmu kalau tidak ada yang berubah: tabungan hari ini ditambah enam bulan (pemasukan − pengeluaran). Rp1.500.000 + 6 × Rp170.000 = Rp2.520.000, jadi kesenjangannya Rp2.480.000. Angka itu melakukan dua hal. Angka itu mengakhiri harapan samar bahwa “mungkin nanti beres sendiri” (tidak akan), dan menetapkan besarnya perubahan yang dibutuhkan, sehingga kamu tahu apakah satu tuas cukup atau butuh tiga. Hitungan yang sama berlaku untuk IPK (3,0 sekarang, butuh 3,4, sisa empat semester) atau pencarian kerja (tiga lamaran seminggu sekarang, butuh dua belas wawancara sebelum Juni)."
+        "en": "A <b>solid goal</b> has three parts: what (a language test score of 6.5), by when (1 March), and under which conditions (without leaving her part-time job). The conditions matter as much as the number. They are what let you cut options later without agonising: an intensive course that needs her afternoons is out before it is even discussed. Then forecast the do-nothing case honestly. Dewi scores 5.5 today, and at her current pace of self-study she gains about 0.1 a month, so by 1 March she reaches 5.9. The <b>gap</b> is 6.5 − 5.9 = 0.6. The number does two things. It ends the vague hope that “it will probably work out” (it will not), and it sets the size of the change needed, so you know whether one lever is enough or three are required. The same arithmetic works for money (savings today plus monthly saving, against a price and a date), for a GPA (3.0 now, 3.4 needed, four semesters left) or for a job search (three applications a week now, twelve interviews needed by June).",
+        "id": "<b>Tujuan yang kokoh</b> punya tiga bagian: apa (skor tes bahasa 6,5), kapan (1 Maret), dan dengan syarat apa (tanpa meninggalkan kerja paruh waktunya). Syaratnya sama penting dengan angkanya. Syarat itulah yang kelak membuatmu bisa memangkas pilihan tanpa bimbang: kursus intensif yang menyita sorenya gugur bahkan sebelum dibahas. Lalu perkirakan dengan jujur apa yang terjadi jika kamu tak berbuat apa-apa. Skor Dewi hari ini 5,5, dan dengan laju belajar mandirinya sekarang ia naik sekitar 0,1 per bulan, sehingga pada 1 Maret ia mencapai 5,9. <b>Kesenjangannya</b> adalah 6,5 − 5,9 = 0,6. Angka itu melakukan dua hal. Ia mengakhiri harapan samar bahwa “sepertinya nanti juga beres” (tidak akan), dan ia menetapkan besarnya perubahan yang dibutuhkan, sehingga kamu tahu cukup satu tuas atau perlu tiga. Hitungan yang sama berlaku untuk uang (tabungan hari ini ditambah tabungan bulanan, dibandingkan dengan harga dan tanggal), untuk IPK (3,0 sekarang, butuh 3,4, tersisa empat semester), atau untuk pencarian kerja (tiga lamaran seminggu sekarang, butuh dua belas wawancara sebelum Juni)."
        }
       },
       {
        "icon": "book",
        "h": {
-        "en": "Steps 3–4: the hypothesis pyramid, then the data",
-        "id": "Langkah 3–4: piramida hipotesis, lalu datanya"
+        "en": "Steps 3–4: the pyramid of reasons, then the data",
+        "id": "Langkah 3–4: piramida alasan, lalu datanya"
        },
        "body": {
-        "en": "List options with a logic tree (increase income from others, from a job or self-generated, or reduce spending with less per item or fewer items) and cut the branches that break your conditions. Then stack the survivors into a <b>hypothesis pyramid</b>: the conclusion on top (“I can close Rp 2.48 M in six months”), and under it the reasons that add up to it (cut Rp 600 k of spending, sell Rp 500 k of unused things, earn Rp 1.4 M more by tutoring two pupils at once). The pyramid is only as good as its arithmetic: if the reasons sum to Rp 1.5 M, you do not have a plan yet. Then check each reason with the design plan from 3.2. The laptop-saver assumed games were his biggest expense; a month of receipts showed sports drinks and comics were 70% of it. The cut went where the data pointed, and a powdered drink plus a shared comic subscription did more than any amount of willpower about games.",
-        "id": "Daftar opsinya dengan pohon logika (tambah pemasukan dari orang lain, dari kerja, atau dari usaha sendiri, atau kurangi pengeluaran dengan membayar lebih murah per barang atau membeli lebih sedikit barang), lalu potong cabang yang melanggar syaratmu. Setelah itu, susun opsi yang tersisa menjadi <b>piramida hipotesis</b>: kesimpulan di atas (“aku bisa menutup Rp2,48 juta dalam enam bulan”), dan di bawahnya alasan-alasan yang menjumlah menjadi kesimpulan itu (memangkas pengeluaran Rp600 ribu, menjual barang tak terpakai senilai Rp500 ribu, mendapat tambahan Rp1,4 juta dengan mengajar les dua murid sekaligus). Piramida itu hanya sebaik hitungannya. Kalau alasan-alasannya hanya berjumlah Rp1,5 juta, kamu belum punya rencana. Lalu cek setiap alasan dengan rencana rancangan dari Pelajaran 3.2. Si penabung laptop mengira gim adalah pengeluaran terbesarnya, tetapi struk sebulan menunjukkan minuman olahraga dan komik mencakup 70% pengeluarannya. Pemangkasannya diarahkan ke tempat yang ditunjuk data, dan minuman bubuk ditambah langganan komik bersama ternyata lebih ampuh daripada tekad sebesar apa pun soal gim."
+        "en": "List the options with a logic tree (improve writing, listening, reading or speaking; study alone, with a partner or with a teacher) and cut the branches that break your conditions. Then stack the survivors into a <b>pyramid of reasons</b>: the conclusion on top (“I can close 0.6 by 1 March”), and under it the reasons that add up to it (writing +0.2, listening +0.2, speaking +0.2). The pyramid is only as good as its arithmetic: if the reasons sum to 0.4, you do not have a plan yet. Then check each reason with the analysis plan from 3.2. Dewi took two timed practice tests three weeks apart. Writing and listening improved as she had assumed. Speaking did not move at all: practising alone, she had nobody to answer. One reason had failed its check, so the plan changed before the deadline arrived. She needed a speaking partner. Data before willpower: the check costs two afternoons, and it saves you from working hard on a plan that could never add up.",
+        "id": "Daftar opsinya dengan pohon logika (memperbaiki menulis, menyimak, membaca, atau berbicara; belajar sendiri, dengan teman, atau dengan pengajar) dan pangkas cabang yang melanggar syaratmu. Lalu susun yang tersisa menjadi <b>piramida alasan</b>: kesimpulan di puncak (“Aku bisa menutup 0,6 sebelum 1 Maret”), dan di bawahnya alasan-alasan yang menjumlah ke sana (menulis +0,2, menyimak +0,2, berbicara +0,2). Piramida hanya sebaik hitungannya: jika alasan-alasannya hanya berjumlah 0,4, kamu belum punya rencana. Lalu periksa setiap alasan dengan rencana analisis dari 3.2. Dewi mengerjakan dua tes latihan berwaktu dengan jarak tiga minggu. Menulis dan menyimak membaik seperti dugaannya. Berbicara tidak bergerak sama sekali: saat berlatih sendirian, tak ada yang menanggapinya. Satu alasan gagal dalam pengecekan, maka rencananya berubah sebelum tenggatnya tiba. Ia butuh teman berlatih bicara. Data dulu, baru tekad: pengecekan itu hanya makan dua sore, dan menyelamatkanmu dari kerja keras untuk rencana yang memang tak akan pernah menjumlah."
        }
       },
       {
        "icon": "gear",
        "h": {
-        "en": "Deciding between options: pros and cons, then criteria and evaluation",
-        "id": "Memilih di antara opsi: untung-rugi, lalu kriteria dan penilaian"
+        "en": "Deciding between options: pros and cons, then weighted criteria",
+        "id": "Memilih di antara opsi: untung-rugi, lalu kriteria berbobot"
        },
        "body": {
-        "en": "For a choice between a few options, start simple: list the options, list the pros and cons of each, weight the big ones with +, ++ or +++, and see which wins. The striker's first list picked Academy A: famous programme, exciting city, cheaper. The upgrade is the <b>criteria and evaluation</b> table: list the criteria that matter <i>for the goal</i>, weight each high, medium or low, score every option against each criterion with evidence, then choose. The weights are where honesty lives. Her goal was to become a better player; a coach told her what actually does that: quality of teammates, chance to play many matches, quality of coaching. Once those were weighted high, Academy B won two of the three high-weight rows, playing time and coaching: everyone plays, more time with coaches. The weighted decision matrix from consulting is the same tool with numbers instead of pluses; the point is identical: expose what you are really weighing so others can challenge it.",
-        "id": "Untuk pilihan di antara beberapa opsi, mulailah sederhana: daftar opsinya, daftar untung dan rugi masing-masing, beri bobot pada yang besar dengan +, ++, atau +++, lalu lihat mana yang menang. Daftar pertama si penyerang memilih Akademi A: program terkenal, kotanya seru, lebih murah. Versi yang lebih matang adalah tabel <b>kriteria dan penilaian</b>: daftar kriteria yang penting <i>bagi tujuannya</i>, beri bobot tinggi, sedang, atau rendah untuk setiap kriteria, nilai setiap opsi terhadap setiap kriteria dengan bukti, lalu pilih. Di bobotlah kejujuran diuji. Tujuannya adalah menjadi pemain yang lebih baik, dan seorang pelatih memberitahunya apa yang benar-benar membuat itu terjadi: mutu rekan setim, kesempatan bermain di banyak pertandingan, mutu pelatihan. Begitu ketiganya diberi bobot tinggi, Akademi B menang di dua dari tiga baris berbobot tinggi, yaitu kesempatan bermain dan pelatihan: semua pemain dapat main, lebih banyak waktu bersama pelatih. Matriks keputusan berbobot ala konsultan adalah alat yang sama, hanya memakai angka alih-alih tanda plus. Intinya sama persis: perlihatkan apa yang sebenarnya sedang kamu timbang, supaya orang lain bisa menantangnya."
+        "en": "For a choice between a few options, start simple: list the options, list the <b>pros and cons</b> of each, mark the ones that matter most, and see which wins. For a speaking partner Dewi had two options, an evening course near her home and an online tutor. Her first list picked the evening course: cheaper, close, and a friend already goes there. The upgrade is a table of <b>weighted criteria</b>: list the criteria that matter for the goal, give each a weight, score every option against each criterion with evidence, then choose. The weights are where honesty lives. Her goal was a speaking score, so minutes of actual speaking per session weighs most. Fitting her work hours comes second, because that was her condition. Cost comes third. Scored that way, the online tutor wins 16 to 11: forty minutes of one-to-one speaking against six minutes in a class of twelve, at times she can choose. The cheaper option was cheaper at something she did not need.",
+        "id": "Untuk memilih di antara beberapa opsi, mulailah dari yang sederhana: daftar opsinya, daftar <b>untung-rugi</b> masing-masing, tandai yang paling penting, dan lihat mana yang menang. Untuk teman berlatih bicara, Dewi punya dua opsi: kursus malam dekat rumahnya dan tutor daring. Daftar pertamanya memilih kursus malam: lebih murah, dekat, dan seorang temannya sudah ikut di sana. Peningkatannya adalah tabel <b>kriteria berbobot</b>: daftar kriteria yang penting bagi tujuannya, beri bobot pada masing-masing, nilai setiap opsi terhadap setiap kriteria dengan bukti, lalu pilih. Di bobot itulah kejujuran diuji. Tujuannya adalah skor berbicara, maka jumlah menit benar-benar berbicara per sesi berbobot paling besar. Kecocokan dengan jam kerjanya di urutan kedua, karena itulah syaratnya. Biaya di urutan ketiga. Dinilai dengan cara itu, tutor daring menang 16 lawan 11: empat puluh menit berbicara empat mata dibanding enam menit di kelas berisi dua belas orang, pada jam yang bisa ia pilih. Opsi yang lebih murah ternyata lebih murah untuk hal yang tidak ia butuhkan."
        }
       },
       {
@@ -4877,8 +4877,8 @@ window.MT_LMS['the-map'] = {
         "id": "Sebelum berkomitmen: tantang pemikiranmu"
        },
        "body": {
-        "en": "Watanabe ends the book with four habits that changed the striker's decision, and they apply to every choice in your career. <b>Worry less, act more</b>: a week of anxiety produced nothing; three e-mails produced two facts. <b>Ask for advice</b> from people who have done it (a coach, a senior, an alumnus of the company); they hold criteria you do not know exist. <b>Challenge your assumptions and conclusions</b>: “a strong team means a great place to grow” sounded obviously true until someone who had been there said the opposite. <b>Look for overlooked options</b>: nobody had mentioned scholarships; one question removed the cost objection entirely. Write a to-do list of these checks before any big decision, and give it a deadline, because the checks are the part the Dreamer never gets round to. The line often attributed to Seneca fits: luck is what happens when preparation meets opportunity.",
-        "id": "Watanabe menutup bukunya dengan empat kebiasaan yang mengubah keputusan si penyerang, dan semuanya berlaku untuk setiap pilihan dalam kariermu. <b>Kurangi cemas, perbanyak bertindak</b>: seminggu cemas tidak menghasilkan apa-apa, sedangkan tiga email menghasilkan dua fakta. <b>Minta saran</b> dari orang yang sudah pernah menjalaninya (pelatih, senior, alumni perusahaannya), karena mereka memegang kriteria yang belum kamu ketahui keberadaannya. <b>Tantang asumsi dan kesimpulanmu</b>: “tim yang kuat berarti tempat yang bagus untuk berkembang” terdengar jelas benar, sampai seseorang yang pernah di sana berkata sebaliknya. <b>Cari opsi yang terlewat</b>: tidak ada yang menyebut soal beasiswa, dan satu pertanyaan saja menghapus keberatan soal biaya sepenuhnya. Tulis daftar kerja berisi pengecekan-pengecekan ini sebelum mengambil keputusan besar apa pun, dan beri tenggat, karena pengecekan inilah bagian yang tidak pernah sempat dikerjakan Si Pemimpi. Kalimat yang sering dikaitkan dengan Seneca terasa pas: keberuntungan adalah saat persiapan bertemu kesempatan."
+        "en": "A decision made alone, in your head, has only been checked by the person most attached to it. Three checks change that, and they apply to every choice in your career. <b>Ask someone who has done it</b> (a senior, an alumnus, a coach): they hold criteria you do not know exist. Dewi messaged a senior who had won the same scholarship, and learned that the interview counts as much as the test score. <b>Test the assumption your choice depends on</b>: “a higher score is all that matters” sounded obviously true until someone who had been through it said otherwise. <b>Look for the option nobody listed</b>: the senior mentioned a free weekly speaking circle run by scholarship alumni, which had never been on the list. Then give the checks a deadline. Write them as a short to-do list before any big decision, because checks without a date turn into worry, and a week of worrying produces nothing that one conversation would not.",
+        "id": "Keputusan yang diambil sendirian, di dalam kepala, baru diperiksa oleh orang yang paling terikat padanya. Tiga pengecekan mengubah itu, dan ketiganya berlaku untuk setiap pilihan dalam kariermu. <b>Tanya orang yang sudah menjalaninya</b> (senior, alumni, pelatih): mereka punya kriteria yang tak kamu tahu ada. Dewi mengirim pesan kepada seorang senior yang pernah meraih beasiswa yang sama, dan mengetahui bahwa wawancaranya sama penting dengan skor tesnya. <b>Uji asumsi yang menjadi sandaran pilihanmu</b>: “skor yang lebih tinggi adalah segalanya” terdengar jelas benar sampai orang yang sudah melewatinya berkata lain. <b>Cari opsi yang tak ada di daftar</b>: sang senior menyebut lingkar latihan bicara mingguan gratis yang dikelola para alumni beasiswa, yang tak pernah masuk daftar siapa pun. Lalu beri tenggat untuk pengecekan itu. Tulis sebagai daftar tugas singkat sebelum keputusan besar apa pun, karena pengecekan tanpa tanggal berubah menjadi kecemasan, dan seminggu mencemaskan tidak menghasilkan apa pun yang tak bisa dihasilkan satu percakapan."
        }
       }
      ],
@@ -4889,8 +4889,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kasus 1: IPK yang terus turun"
        },
        "body": {
-        "en": "Your GPA fell from 3.5 to 3.0 over two semesters while you took on a part-time job and an organisation role. Graduating with honours needs 3.4 and you have four semesters left. Write the solid goal, calculate the gap per semester, cut a logic tree of ways to close it, and stack a hypothesis pyramid. Then reveal.",
-        "id": "IPK-mu turun dari 3,5 menjadi 3,0 selama dua semester, sementara kamu mengambil kerja paruh waktu dan peran di organisasi. Untuk lulus dengan predikat cum laude, kamu butuh 3,4, dan masih ada empat semester. Tulis tujuan yang kokoh, hitung kesenjangan per semesternya, potong pohon logika berisi cara menutupnya, dan susun piramida hipotesisnya. Lalu buka jawabannya."
+        "en": "Your GPA fell from 3.5 to 3.0 over two semesters while you took on a part-time job and an organisation role. Graduating with honours needs 3.4 and you have four semesters left. Write the solid goal, calculate the gap per semester, cut a logic tree of ways to close it, and stack a pyramid of reasons. Then reveal.",
+        "id": "IPK-mu turun dari 3,5 menjadi 3,0 selama dua semester, sementara kamu mengambil kerja paruh waktu dan peran di organisasi. Untuk lulus dengan predikat cum laude, kamu butuh 3,4, dan masih ada empat semester. Tulis tujuan yang kokoh, hitung kesenjangan per semesternya, potong pohon logika berisi cara menutupnya, dan susun piramida alasannya. Lalu buka jawabannya."
        },
        "debrief": {
         "en": "Goal: cumulative 3.4 at graduation, four semesters, without dropping the job. Gap: with 3.0 across the first four semesters, the last four must average about 3.8. A large gap, which tells you one lever will not do. Tree: raise grade-per-hour (method: active recall over rereading; office hours; study group) × raise hours (cut organisation hours, not job hours; move study earlier in the day). Pyramid: “3.8 is reachable because (1) method changes typically lift my problem courses by a grade, (2) eight hours a week return from the organisation role, (3) morning study replaces late-night study.” Check (1) with last semester's marks by course, (2) with a week's time log, data before willpower.",
@@ -4903,12 +4903,12 @@ window.MT_LMS['the-map'] = {
         "id": "Kasus 2: Dua tawaran magang"
        },
        "body": {
-        "en": "Offer A: a well-known bank, brand-name on the CV, Rp 3 million a month, rotation through three departments as an observer. Offer B: a 40-person logistics start-up, Rp 2 million a month, you own one project end-to-end with the operations lead. Your goal: an analyst job at graduation in fourteen months. Build a criteria-and-evaluation table with weights before you look at the debrief.",
-        "id": "Tawaran A: bank ternama, nama besar untuk CV, Rp3 juta sebulan, rotasi di tiga departemen sebagai pengamat. Tawaran B: perusahaan rintisan logistik dengan 40 karyawan, Rp2 juta sebulan, kamu memegang satu proyek dari awal sampai akhir bersama kepala operasional. Tujuanmu: pekerjaan sebagai analis saat lulus, empat belas bulan lagi. Susun tabel kriteria dan penilaian yang berbobot sebelum kamu membaca pembahasannya."
+        "en": "Offer A: a well-known bank, brand-name on the CV, Rp 3 million a month, rotation through three departments as an observer. Offer B: a 40-person logistics start-up, Rp 2 million a month, you own one project end-to-end with the operations lead. Your goal: an analyst job at graduation in fourteen months. Build a table of weighted criteria before you look at the debrief.",
+        "id": "Tawaran A: bank ternama, nama besar untuk CV, Rp3 juta sebulan, rotasi di tiga departemen sebagai pengamat. Tawaran B: perusahaan rintisan logistik dengan 40 karyawan, Rp2 juta sebulan, kamu memegang satu proyek dari awal sampai akhir bersama kepala operasional. Tujuanmu: pekerjaan sebagai analis saat lulus, empat belas bulan lagi. Susun tabel kriteria berbobot sebelum kamu membaca pembahasannya."
        },
        "debrief": {
-        "en": "Criteria from the goal: evidence of ownership to talk about in interviews (high), skills practised in data, tools and presenting (high), a manager who will give a reference (high), brand recognition (medium), pay (medium), commute (low). Scored honestly, B wins the high-weight rows; A wins brand and pay. The overlooked option, as in the book: ask A whether the rotation can include one owned deliverable. One e-mail may change A's score. And challenge the assumption that “big name” equals “strong signal”: recruiters ask what you did, not where you sat.",
-        "id": "Kriteria dari tujuannya: bukti memegang tanggung jawab untuk diceritakan di wawancara (tinggi), keterampilan yang dilatih dalam data, alat, dan presentasi (tinggi), atasan yang mau memberi rekomendasi (tinggi), pengenalan merek (sedang), gaji (sedang), perjalanan ke kantor (rendah). Kalau dinilai dengan jujur, B menang di baris-baris berbobot tinggi, sedangkan A menang di merek dan gaji. Opsi yang terlewat, seperti di buku Watanabe: tanyakan ke A apakah rotasinya bisa memuat satu hasil kerja yang kamu pegang sendiri. Satu email bisa mengubah nilai A. Dan tantang asumsi bahwa “nama besar” sama dengan “sinyal yang kuat”: perekrut menanyakan apa yang kamu kerjakan, bukan di mana kamu duduk."
+        "en": "Criteria from the goal: evidence of ownership to talk about in interviews (high), skills practised in data, tools and presenting (high), a manager who will give a reference (high), brand recognition (medium), pay (medium), commute (low). Scored honestly, B wins the high-weight rows; A wins brand and pay. The overlooked option: ask A whether the rotation can include one owned deliverable. One e-mail may change A's score. And challenge the assumption that “big name” equals “strong signal”: recruiters ask what you did, not where you sat.",
+        "id": "Kriteria dari tujuannya: bukti memegang tanggung jawab untuk diceritakan di wawancara (tinggi), keterampilan yang dilatih dalam data, alat, dan presentasi (tinggi), atasan yang mau memberi rekomendasi (tinggi), pengenalan merek (sedang), gaji (sedang), perjalanan ke kantor (rendah). Kalau dinilai dengan jujur, B menang di baris-baris berbobot tinggi, sedangkan A menang di merek dan gaji. Opsi yang terlewat: tanyakan ke A apakah rotasinya bisa memuat satu hasil kerja yang kamu pegang sendiri. Satu email bisa mengubah nilai A. Dan tantang asumsi bahwa “nama besar” sama dengan “sinyal yang kuat”: perekrut menanyakan apa yang kamu kerjakan, bukan di mana kamu duduk."
        }
       },
       {
@@ -4921,8 +4921,8 @@ window.MT_LMS['the-map'] = {
         "id": "Toko baju bekas daring milik temanmu punya 4.000 pengikut, 60 penjual yang menitipkan pakaian, dan 30 pesanan sebulan. Tujuannya 150 pesanan sebulan dalam enam bulan supaya bisa menjadi penghasilan penuh waktu. Tetapkan tujuannya dengan kokoh, hitung kesenjangannya, lalu putuskan sisi mana (pembeli atau penjual) yang akan kamu garap lebih dulu, beserta hipotesis yang akan kamu uji. Lalu buka jawabannya."
        },
        "debrief": {
-        "en": "Goal: 150 orders a month by month six, without paid ads (the condition). Gap: 120 orders a month. A 5× jump, so both levers will be needed, but not at once. The yes/no funnel for buyers: 4,000 followers → how many visited the shop this month → how many ordered. If 4,000 → 800 → 30, the leak is conversion (3.75%), not reach, and the hypothesis is “listings are the problem: photos, sizes, prices”, checked by comparing the ten best-selling listings with the rest. Only if visits are the bottleneck do sellers or reach come first. Most people start with “get more followers”; the funnel usually says otherwise.",
-        "id": "Tujuan: 150 pesanan sebulan di bulan keenam, tanpa iklan berbayar (syaratnya). Kesenjangan: 120 pesanan sebulan. Lompatannya 5 kali lipat, jadi kedua tuas akan dibutuhkan, tetapi tidak sekaligus. Corong ya/tidak untuk pembeli: 4.000 pengikut → berapa yang mengunjungi toko bulan ini → berapa yang memesan. Kalau 4.000 → 800 → 30, kebocorannya ada di konversi (3,75%), bukan jangkauan, dan hipotesisnya “masalahnya di daftar produknya: foto, ukuran, harga”, yang dicek dengan membandingkan sepuluh produk terlaris dengan sisanya. Hanya kalau kunjungan yang menjadi titik sumbat, sisi penjual atau jangkauan yang didahulukan. Kebanyakan orang mulai dari “tambah pengikut”, padahal corongnya biasanya berkata lain."
+        "en": "Goal: 150 orders a month by month six, without paid ads (the condition). Gap: 120 orders a month. A 5× jump, so both levers will be needed, but not at once. The funnel for buyers: 4,000 followers → how many visited the shop this month → how many ordered. If 4,000 → 800 → 30, the leak is conversion (3.75%), not reach, and the hypothesis is “listings are the problem: photos, sizes, prices”, checked by comparing the ten best-selling listings with the rest. Only if visits are the bottleneck do sellers or reach come first. Most people start with “get more followers”; the funnel usually says otherwise.",
+        "id": "Tujuan: 150 pesanan sebulan di bulan keenam, tanpa iklan berbayar (syaratnya). Kesenjangan: 120 pesanan sebulan. Lompatannya 5 kali lipat, jadi kedua tuas akan dibutuhkan, tetapi tidak sekaligus. Corong untuk pembeli: 4.000 pengikut → berapa yang mengunjungi toko bulan ini → berapa yang memesan. Kalau 4.000 → 800 → 30, kebocorannya ada di konversi (3,75%), bukan jangkauan, dan hipotesisnya “masalahnya di daftar produknya: foto, ukuran, harga”, yang dicek dengan membandingkan sepuluh produk terlaris dengan sisanya. Hanya kalau kunjungan yang menjadi titik sumbat, sisi penjual atau jangkauan yang didahulukan. Kebanyakan orang mulai dari “tambah pengikut”, padahal corongnya biasanya berkata lain."
        }
       }
      ],
@@ -4993,12 +4993,12 @@ window.MT_LMS['the-map'] = {
       },
       {
        "term": {
-        "en": "hypothesis pyramid",
-        "id": "piramida hipotesis"
+        "en": "pyramid of reasons",
+        "id": "piramida alasan"
        },
        "def": {
-        "en": "A conclusion on top and, underneath, the reasons that support it, each one checkable, and together sufficient.",
-        "id": "Kesimpulan di atas dan, di bawahnya, alasan-alasan yang menopangnya. Setiap alasan bisa dicek, dan bersama-sama semuanya cukup."
+        "en": "A conclusion on top and, underneath, the reasons that support it: each one checkable, and together enough to add up to the conclusion.",
+        "id": "Kesimpulan di puncak dan, di bawahnya, alasan-alasan yang menopangnya: masing-masing bisa diperiksa, dan bersama-sama cukup untuk menjumlah ke kesimpulan."
        }
       },
       {
@@ -5007,18 +5007,18 @@ window.MT_LMS['the-map'] = {
         "id": "untung-rugi"
        },
        "def": {
-        "en": "The simple decision tool: list options, list each one's advantages and disadvantages, weight the big ones with +, ++ or +++, and compare.",
-        "id": "Alat keputusan yang sederhana: daftar opsinya, daftar kelebihan dan kekurangan masing-masing, beri bobot pada yang besar dengan +, ++, atau +++, lalu bandingkan."
+        "en": "The simple decision tool: list the options, list each one's advantages and disadvantages, mark the ones that matter most, and compare.",
+        "id": "Alat keputusan yang sederhana: daftar opsinya, daftar kelebihan dan kekurangan masing-masing, tandai yang paling penting, lalu bandingkan."
        }
       },
       {
        "term": {
-        "en": "criteria and evaluation",
-        "id": "kriteria dan penilaian"
+        "en": "weighted criteria",
+        "id": "kriteria berbobot"
        },
        "def": {
-        "en": "A table of options against criteria derived from the goal, each criterion weighted high, medium or low, each cell scored with evidence.",
-        "id": "Tabel berisi opsi-opsi terhadap kriteria yang diturunkan dari tujuan, dengan setiap kriteria diberi bobot tinggi, sedang, atau rendah, dan setiap selnya dinilai dengan bukti."
+        "en": "A table of options against criteria derived from the goal, each criterion given a weight, each cell scored with evidence.",
+        "id": "Tabel opsi terhadap kriteria yang diturunkan dari tujuan, setiap kriteria diberi bobot, setiap sel dinilai dengan bukti."
        }
       }
      ],
@@ -5077,14 +5077,14 @@ window.MT_LMS['the-map'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "Criteria come from the goal and weights from the criteria. When a convenience outranks the thing that advances the goal, the goal has quietly been replaced: the striker's “exciting city” problem.",
-        "id": "Kriteria berasal dari tujuan, dan bobot berasal dari kriteria. Saat sebuah kenyamanan mengalahkan hal yang memajukan tujuan, tujuannya diam-diam sudah tergantikan: masalah “kotanya seru” si penyerang."
+        "en": "Criteria come from the goal and weights from the criteria. When a convenience outranks the thing that advances the goal, the goal has quietly been replaced.",
+        "id": "Kriteria datang dari tujuan dan bobot datang dari kriteria. Ketika sebuah kenyamanan mengalahkan hal yang memajukan tujuan, tujuannya diam-diam sudah tergantikan."
        }
       },
       {
        "q": {
-        "en": "You have decided on Offer A after a week of thinking. Which move does Problem Solving 101 recommend before you accept?",
-        "id": "Kamu sudah memutuskan memilih Tawaran A setelah seminggu berpikir. Langkah apa yang disarankan Problem Solving 101 sebelum kamu menerimanya?"
+        "en": "You have decided on Offer A after a week of thinking. Which move does this lesson recommend before you accept?",
+        "id": "Kamu sudah memilih Tawaran A setelah berpikir seminggu. Langkah apa yang disarankan pelajaran ini sebelum kamu menerimanya?"
        },
        "options": [
         {
@@ -5106,8 +5106,8 @@ window.MT_LMS['the-map'] = {
        ],
        "correct": 2,
        "why": {
-        "en": "Worry less, act more; ask people who have done it; look for the overlooked option. Two of the striker's three checks changed her decision; a week of thinking had changed nothing.",
-        "id": "Kurangi cemas, perbanyak bertindak; tanyakan kepada orang yang sudah pernah menjalaninya; cari opsi yang terlewat. Dua dari tiga pengecekan si penyerang mengubah keputusannya, sedangkan seminggu berpikir tidak mengubah apa-apa."
+        "en": "Ask people who have done it, test the assumption your choice depends on, and look for the option nobody listed. One conversation often changes a score that a week of thinking alone could not.",
+        "id": "Tanya orang yang sudah menjalaninya, uji asumsi yang menjadi sandaran pilihanmu, dan cari opsi yang tak ada di daftar. Satu percakapan sering mengubah nilai yang tak bisa diubah oleh seminggu berpikir sendirian."
        }
       }
      ],
@@ -5191,8 +5191,8 @@ window.MT_LMS['the-map'] = {
        },
        {
         "h": {
-         "en": "The hypothesis pyramid",
-         "id": "Piramida hipotesis"
+         "en": "The pyramid of reasons",
+         "id": "Piramida alasan"
         },
         "points": [
          {
@@ -5229,8 +5229,8 @@ window.MT_LMS['the-map'] = {
       "compose": {
        "bg": "../../assets/bg/fg-stage-horizon.jpg",
        "module": {
-        "en": "Module 3 · Problem Solving 101: Improve Our Life",
-        "id": "Modul 3 · Pemecahan Masalah 101: Memperbaiki Hidup Kita"
+        "en": "Module 3 · Structured Problem Solving",
+        "id": "Modul 3 · Pemecahan Masalah Terstruktur"
        },
        "lesson": {
         "n": "3.3",
@@ -5302,8 +5302,8 @@ window.MT_LMS['the-map'] = {
         },
         {
          "h": {
-          "en": "The hypothesis pyramid",
-          "id": "Piramida hipotesis"
+          "en": "The pyramid of reasons",
+          "id": "Piramida alasan"
          },
          "p": {
           "en": "One reason failed its check, so the plan changes: she needs a speaking partner.",
@@ -6790,8 +6790,8 @@ window.MT_LMS['the-map'] = {
       "compose": {
        "bg": "../../assets/bg/stage-foundation.jpg",
        "module": {
-        "en": "Module 3 · Problem Solving 101: Improve Our Life",
-        "id": "Modul 3 · Pemecahan Masalah 101: Memperbaiki Hidup Kita"
+        "en": "Module 3 · Structured Problem Solving",
+        "id": "Modul 3 · Pemecahan Masalah Terstruktur"
        },
        "lesson": {
         "n": "3.4",

@@ -1992,7 +1992,7 @@ window.MT_MP = (function () {
                 'Barbara Minto, “The Pyramid Principle” (Pearson), untuk asal dan penggunaan pengelompokan MECE; Charles Conn dan Robert McLean, “Bulletproof Problem Solving” (Wiley, 2018), untuk praktik pohon masalah. Tulisan asli Metanoia; kasus kafe dan latihannya fiktif.') }
     ],
     tools: [
-      { pillar: 'the-map', why: L('The Map’s Module 3, Problem Solving 101, teaches the four-step method and root-cause analysis this tree builds on.', 'Modul 3 The Map, Problem Solving 101, mengajarkan metode empat langkah dan analisis akar masalah yang menjadi dasar pohon ini.') },
+      { pillar: 'the-map', why: L('The Map’s Module 3, Structured Problem Solving, teaches the four-step method and root-cause analysis this tree builds on.', 'Modul 3 The Map, Structured Problem Solving, mengajarkan metode empat langkah dan analisis akar masalah yang menjadi dasar pohon ini.') },
       { pillar: 'the-pack', why: L('The Pack’s Case Interview Practice module covers problem-solving frameworks and live structured cases with mentors.', 'Modul Case Interview Practice di The Pack membahas kerangka pemecahan masalah dan kasus terstruktur langsung bersama mentor.') }
     ],
     further: [
