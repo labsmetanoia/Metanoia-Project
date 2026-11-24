@@ -2786,7 +2786,7 @@
      2×2 impact/feasibility matrix, a rule-based framework check, autosaved
      drafts and a locked submission. Storage: 'mt-lms-case:<slug>:<lesson>' =
      { a:{q1..q8}, step, submitted:{at,id} } — on this device only. ── */
-  function caseKey(l) { return 'mt-lms-case:' + slug + ':' + l.n; }
+  function caseKey(l) { return 'mt-lms-case:' + slug + ':' + l.n + (l.caseStudy.v || ''); }
   function caseRead(l) { try { return JSON.parse(localStorage.getItem(caseKey(l)) || '{}') || {}; } catch (e) { return {}; } }
   function caseWrite(l, d) { try { localStorage.setItem(caseKey(l), JSON.stringify(d)); } catch (e) {} }
   function caseSubmitted(l) { var d = caseRead(l); return !!(d && d.submitted); }
@@ -2820,10 +2820,10 @@
     var full = (stem[lang()] || stem.en) + ' ' + q1;
     add('smart', words(q1) >= (ls.questions[0].min || 10), words(q1) >= (ls.questions[0].min || 10) ? 'Statement has enough substance (' + words(q1) + ' words after the stem).' : 'Statement is very short (' + words(q1) + ' words): say what changes, for whom, by how much and by when.',
       words(q1) >= (ls.questions[0].min || 10) ? 'Pernyataan cukup berisi (' + words(q1) + ' kata setelah pembuka).' : 'Pernyataan sangat pendek (' + words(q1) + ' kata): sebutkan apa yang berubah, untuk siapa, seberapa besar, dan kapan.');
-    add('smart', has(full, R.measure), has(full, R.measure) ? 'Measurable: a target figure is in the statement.' : 'No target figure found, the Mayor gave one (60 → 30 minutes).', has(full, R.measure) ? 'Terukur: angka target ada dalam pernyataan.' : 'Tidak ada angka target, Wali Kota memberikannya (60 → 30 menit).');
-    add('smart', has(full, R.time), has(full, R.time) ? 'Time-bound: a horizon is stated.' : 'No horizon found: the brief says five years.', has(full, R.time) ? 'Terikat waktu: jangka waktu disebutkan.' : 'Tidak ada jangka waktu, arahannya menyebut lima tahun.');
-    add('smart', has(full, R.action), has(full, R.action) ? 'Action-oriented: the statement uses a verb the city can act on.' : 'No action verb found, “reduce”, “bring down”, “shorten”…', has(full, R.action) ? 'Berorientasi tindakan: ada kata kerja yang bisa ditindaklanjuti kota.' : 'Tidak ada kata kerja tindakan, “menurunkan”, “memangkas”, “mempersingkat”…');
-    add('smart', has(full, R.stakeholder), has(full, R.stakeholder) ? 'Specific: the people affected are named.' : 'Who is affected? Name the residents, commuters or businesses.', has(full, R.stakeholder) ? 'Spesifik: orang yang terdampak disebutkan.' : 'Siapa yang terdampak? Sebutkan warga, komuter, atau dunia usaha.');
+    add('smart', has(full, R.measure), has(full, R.measure) ? 'Measurable: a target figure is in the statement.' : 'No target figure found: the brief gives one.', has(full, R.measure) ? 'Terukur: angka target ada dalam pernyataan.' : 'Tidak ada angka target, arahannya menyebutkannya.');
+    add('smart', has(full, R.time), has(full, R.time) ? 'Time-bound: a horizon is stated.' : 'No horizon found: the brief gives one.', has(full, R.time) ? 'Terikat waktu: jangka waktu disebutkan.' : 'Tidak ada jangka waktu, arahannya menyebutkannya.');
+    add('smart', has(full, R.action), has(full, R.action) ? 'Action-oriented: the statement uses a verb someone can act on.' : 'No action verb found, “reduce”, “bring down”, “shorten”…', has(full, R.action) ? 'Berorientasi tindakan: ada kata kerja yang bisa ditindaklanjuti.' : 'Tidak ada kata kerja tindakan, “menurunkan”, “memangkas”, “mempersingkat”…');
+    add('smart', has(full, R.stakeholder), has(full, R.stakeholder) ? 'Specific: the people affected are named.' : 'Who is affected? Name them.', has(full, R.stakeholder) ? 'Spesifik: orang yang terdampak disebutkan.' : 'Siapa yang terdampak? Sebutkan.');
     if (has(full, R.solution)) add('smart', false, 'The statement presupposes a solution (“by building…”). Keep the question open; solutions come after the analysis.', 'Pernyataan sudah mengandaikan solusi (“dengan membangun…”). Biarkan pertanyaannya terbuka; solusi datang setelah analisis.');
     /* tree */
     var st = cs.steps[1], issues = st.issues.map(function (q) { return a[q.id] || {}; });
@@ -2858,7 +2858,7 @@
     add('prio', words(q8.note) >= rmin, words(q8.note) >= rmin ? 'The case for the two picks is written (' + words(q8.note) + ' words).' : 'The rationale is short (' + words(q8.note) + ' words; ' + rmin + ' asked): argue impact and feasibility for each pick.',
       words(q8.note) >= rmin ? 'Alasan dua pilihan sudah ditulis (' + words(q8.note) + ' kata).' : 'Alasannya pendek (' + words(q8.note) + ' kata; diminta ' + rmin + '): bahas dampak dan kelayakan tiap pilihan.');
     var both = /impact|dampak/i.test(q8.note || '') && /feasib|layak|realistis|bisa dilakukan/i.test(q8.note || '');
-    if (words(q8.note) >= 10) add('prio', both, both ? 'The rationale speaks to both axes, impact and feasibility.' : 'The rationale should name both axes: how much it moves the commute, and whether the city can act.', both ? 'Alasan menyentuh kedua sumbu, dampak dan kelayakan.' : 'Alasan harus menyebut kedua sumbu: seberapa besar menggerakkan waktu tempuh, dan apakah kota bisa bertindak.');
+    if (words(q8.note) >= 10) add('prio', both, both ? 'The rationale speaks to both axes, impact and feasibility.' : 'The rationale should name both axes: how much it moves the target, and whether it can be done.', both ? 'Alasan menyentuh kedua sumbu, dampak dan kelayakan.' : 'Alasan harus menyebut kedua sumbu: seberapa besar menggerakkan target, dan apakah bisa dilakukan.');
     add('prio', !!q8.confirm, q8.confirm ? 'Prioritisation reconsidered and confirmed.' : 'The prioritisation quality check is not confirmed yet.', q8.confirm ? 'Prioritisasi dipertimbangkan ulang dan dikonfirmasi.' : 'Uji mutu prioritisasi belum dikonfirmasi.');
     return out;
   }
@@ -2916,9 +2916,9 @@
     var panes = el('div', 'cs-panes');
     var TABS = [];
     if (B.email) TABS.push({ id: 'brief', label: { en: 'The brief', id: 'Arahan' }, build: buildEmail });
-    if (B.facts) TABS.push({ id: 'context', label: { en: 'City context', id: 'Konteks kota' }, build: buildFacts });
+    if (B.facts) TABS.push({ id: 'context', label: { en: 'Context', id: 'Konteks' }, build: buildFacts });
     if (B.chart) TABS.push({ id: 'data', label: { en: 'The data', id: 'Datanya' }, build: buildChart });
-    if (B.modes) TABS.push({ id: 'modes', label: { en: 'Modes of transport', id: 'Moda transportasi' }, build: buildModes });
+    if (B.modes) TABS.push({ id: 'modes', label: B.modes.tab, build: buildModes });
     TABS.forEach(function (t, i) {
       var b = bi('button', 'cs-tab' + (i === 0 ? ' on' : ''), t.label); b.type = 'button'; b.setAttribute('role', 'tab'); b.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
       var pane = el('div', 'cs-pane' + (i === 0 ? ' on' : '')); pane.setAttribute('role', 'tabpanel'); t.build(pane);
@@ -2937,7 +2937,7 @@
       if (B.quote) { var q = el('blockquote', 'cs-quote'); q.appendChild(el('span', 'cs-qmark', '“')); var qi = el('div'); qi.appendChild(bi('p', null, B.quote.text)); qi.appendChild(bi('cite', null, B.quote.who)); q.appendChild(qi); pane.appendChild(q); }
       var m = el('div', 'cs-mail');
       var mh = el('div', 'cs-mail-h');
-      mh.appendChild(el('span', 'cs-avatar', 'MH'));
+      mh.appendChild(el('span', 'cs-avatar', E.av));
       var who = el('div', 'cs-mail-who'); who.appendChild(bi('b', null, E.from)); who.appendChild(bi('span', null, E.to)); mh.appendChild(who);
       mh.appendChild(bi('span', 'cs-mail-date', E.date));
       m.appendChild(mh);
@@ -3329,7 +3329,7 @@
   }
 
   /* ── Generic case assignment (`caseStudy{format:'generic'}`): the same
-     brief → steps → review & submit shell as the Hustleton case, driven
+     brief → steps → review & submit shell as the first case, driven
      entirely by the registry. Each step carries `questions`, each question
      a written answer with a word floor, optional help, example and a list
      of `keywords` (each entry a string or an array of synonyms, EN and ID)
