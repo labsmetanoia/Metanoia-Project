@@ -2788,343 +2788,6 @@ window.MT_LMS['the-map'] = {
       "en": "Problem solving isn't a talent that some people have and others don't. It's a habit.",
       "id": "Memecahkan masalah bukan bakat yang dimiliki sebagian orang saja. Ini kebiasaan."
      },
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 4 slides",
-        "id": "Baca dulu · 4 slide"
-       },
-       "title": {
-        "en": "Problem Solving 101 – Intro: Material",
-        "id": "Problem Solving 101, Pengantar: Materi"
-       },
-       "intro": {
-        "en": "Start with the deck. Four slides open Module 3 formally: the module's promise, a structured approach with clarity, creativity and action; a line on what intelligence looks like in practice; an introduction to the hypothesis-led approach you will define, break down and plan with; and the six words this module keeps using: problem solving, hypothesis, stakeholders, iterative, solution set, bias. Read them, then continue to the slides that follow.",
-        "id": "Mulai dari deknya. Empat slide membuka Modul 3 secara resmi: janji modul ini, yaitu pendekatan terstruktur yang jernih, kreatif, dan berujung tindakan; satu kalimat tentang seperti apa kecerdasan dalam praktik; pengantar pendekatan berbasis hipotesis yang akan kamu pakai untuk merumuskan, memecah, dan merencanakan; dan enam istilah yang terus dipakai modul ini: pemecahan masalah, hipotesis, pemangku kepentingan, iteratif, kumpulan solusi, dan bias. Baca semuanya, lalu lanjutkan ke slide berikutnya."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-intro-",
-       "slides": [
-        {
-         "title": {
-          "en": "Module 3: Problem Solving 101 – Improve Our Life",
-          "id": "Modul 3: Problem Solving 101, Memperbaiki Hidup Kita"
-         },
-         "text": {
-          "en": "Better thinking, a brighter tomorrow. Module 3: Problem Solving 101 – Improve Our Life. Build a structured approach to solving problems with clarity, creativity, and action. Analyze. Go deeper. Explore. Find better ways. Solve. Create real impact. From insight to impact: understand, explore, solve, implement. Better questions, brighter solutions: clarity, creativity, action, better outcomes; different perspectives, creative ideas, actionable solutions. Challenge → insight → solution → a better tomorrow. People, ideas, progress.",
-          "id": "Berpikir lebih baik, hari esok yang lebih cerah. Modul 3: Problem Solving 101, Memperbaiki Hidup Kita. Bangun pendekatan terstruktur untuk memecahkan masalah dengan jernih, kreatif, dan berujung tindakan. Analisis. Gali lebih dalam. Jelajahi. Temukan cara yang lebih baik. Pecahkan. Ciptakan dampak nyata. Dari wawasan ke dampak: pahami, jelajahi, pecahkan, terapkan. Pertanyaan yang lebih baik, solusi yang lebih cerah: kejernihan, kreativitas, tindakan, hasil yang lebih baik; sudut pandang yang beragam, ide-ide kreatif, solusi yang bisa dijalankan. Tantangan → wawasan → solusi → hari esok yang lebih baik. Orang, gagasan, kemajuan."
-         }
-        },
-        {
-         "title": {
-          "en": "The only true test of intelligence",
-          "id": "Satu-satunya ujian kecerdasan yang sejati"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving 101. Problem Solving 101: “the only true test of intelligence is if you get what you want out of life” (a line popularised by Naval Ravikant, often misattributed to Albert Einstein). From problems to a better life: understand. Get to the real issue; explore, generate options; solve. Turn ideas into action; create impact. Get what you want out of life. Better questions, brighter outcomes: clarity, creativity, action, better decisions, a better life. Analyze. Go deeper into the real issue. Explore. Find better ways forward. Solve. Turn ideas into action. Create impact, achieve meaningful results in life. Bigger questions, brighter possibilities. Better thinking, a brighter tomorrow. People, ideas, progress.",
-          "id": "Modul 3 · Problem Solving 101. Problem Solving 101: “satu-satunya ujian kecerdasan yang sejati adalah apakah kamu mendapatkan apa yang kamu inginkan dari hidup” (kalimat yang dipopulerkan Naval Ravikant, dan sering keliru dikaitkan dengan Albert Einstein). Dari masalah ke hidup yang lebih baik: pahami, sampai ke inti persoalannya; jelajahi, munculkan pilihan; pecahkan, ubah ide menjadi tindakan; ciptakan dampak, dapatkan apa yang kamu inginkan dari hidup. Pertanyaan yang lebih baik, hasil yang lebih cerah: kejernihan, kreativitas, tindakan, keputusan yang lebih baik, hidup yang lebih baik. Analisis. Gali lebih dalam sampai ke inti persoalan. Jelajahi. Temukan jalan maju yang lebih baik. Pecahkan. Ubah ide menjadi tindakan. Ciptakan dampak, raih hasil yang bermakna dalam hidup. Pertanyaan yang lebih besar, kemungkinan yang lebih cerah. Berpikir lebih baik, hari esok yang lebih cerah. Orang, gagasan, kemajuan."
-         }
-        },
-        {
-         "title": {
-          "en": "Introduction to problem solving",
-          "id": "Pengantar pemecahan masalah"
-         },
-         "text": {
-          "en": "Module 3. Introduction to Problem Solving: turn challenges into opportunities. Welcome to the Problem Solving course! Many would argue that one of the most important skills for doing well at life is problem-solving. When a good problem solver is faced with a new problem, they are able to clearly think through it and reach an optimal course of action. Luckily, great problem solvers are made, not born. The purpose of this course is to provide you with a structured approach you can use when you are given a new problem to solve. For example, at work, this could be improving customer satisfaction or reducing the costs of a certain process. At home, this could be planning a big event like a wedding while having many limitations. In this course, you will learn how to utilize the hypothesis-led problem solving approach to: Define: define the problem you are faced with using different tools and templates. Break down: break down and structure the problem in a way that will help you reach a solution. Plan: plan your way towards finding a recommended solution. “A problem well stated is a problem half solved.” (Charles Kettering) Same challenges, brighter possibilities. Real problems ahead. Practical skills for real life. A more confident you.",
-          "id": "Modul 3. Pengantar Pemecahan Masalah: ubah tantangan menjadi peluang. Selamat datang di kursus Pemecahan Masalah! Banyak orang berpendapat bahwa salah satu keterampilan terpenting untuk berhasil dalam hidup adalah memecahkan masalah. Saat menghadapi masalah baru, pemecah masalah yang baik bisa memikirkannya dengan jernih dan sampai pada langkah terbaik. Untungnya, pemecah masalah yang hebat itu dibentuk, bukan dilahirkan. Kursus ini memberimu pendekatan terstruktur yang bisa kamu pakai setiap kali mendapat masalah baru. Misalnya, di tempat kerja, masalahnya bisa berupa meningkatkan kepuasan pelanggan atau menekan biaya sebuah proses. Di rumah, bisa berupa merencanakan acara besar seperti pernikahan dengan banyak keterbatasan. Di kursus ini, kamu akan belajar memakai pendekatan pemecahan masalah berbasis hipotesis untuk: Merumuskan, yaitu merumuskan masalah yang kamu hadapi dengan berbagai alat dan templat. Memecah, yaitu memecah dan menyusun masalahnya dengan cara yang membantumu sampai ke solusi. Merencanakan, yaitu merencanakan jalanmu menuju solusi yang direkomendasikan. “Masalah yang dirumuskan dengan baik adalah masalah yang sudah separuh terpecahkan.” (Charles Kettering) Tantangan yang sama, kemungkinan yang lebih cerah. Masalah nyata menanti. Keterampilan praktis untuk kehidupan nyata. Dirimu yang lebih percaya diri."
-         }
-        },
-        {
-         "title": {
-          "en": "Welcome: six terms to know",
-          "id": "Selamat datang: enam istilah yang perlu kamu tahu"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. Welcome! No matter your role, problem solving will always be important to what you do. Problem solving: the process of finding answers to difficult and complicated personal and professional issues. Hypothesis: your first best guess for the solution to a problem, an idea based on limited evidence or information that can serve as a starting point for future discussion. Stakeholders: a person with an interest or concern in the topic. Iterative: always improving, usually of a design or product. Solution set: all the possible solutions and ideas for the problem. Bias: a tendency to feel a particular way about something or someone which can impact the way you think or behave in a certain situation. Problem? → Ideas! → Better solutions! “A well-defined problem is half solved.” (After Charles Kettering.) Real challenges, real growth. Practical skills for real life. A more confident you. Bigger questions, brighter possibilities.",
-          "id": "Modul 3 · Pemecahan Masalah. Selamat datang! Apa pun peranmu, memecahkan masalah akan selalu penting dalam pekerjaanmu. Pemecahan masalah: proses mencari jawaban atas persoalan pribadi dan profesional yang sulit dan rumit. Hipotesis: tebakan terbaik pertamamu tentang solusi sebuah masalah, gagasan yang berdasar pada bukti atau informasi terbatas dan bisa menjadi titik awal pembahasan selanjutnya. Pemangku kepentingan: orang yang punya kepentingan atau kepedulian terhadap topiknya. Iteratif: terus diperbaiki, biasanya untuk sebuah rancangan atau produk. Kumpulan solusi: semua kemungkinan solusi dan gagasan untuk masalah itu. Bias: kecenderungan untuk merasakan sesuatu secara tertentu terhadap suatu hal atau seseorang, yang bisa memengaruhi caramu berpikir atau bertindak dalam situasi tertentu. Masalah? → Ide! → Solusi yang lebih baik! “Masalah yang dirumuskan dengan baik sudah separuh terpecahkan.” (Mengacu pada Charles Kettering.) Tantangan nyata, pertumbuhan nyata. Keterampilan praktis untuk kehidupan nyata. Dirimu yang lebih percaya diri. Pertanyaan yang lebih besar, kemungkinan yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 6 slides",
-        "id": "Baca berikutnya · 6 slide"
-       },
-       "title": {
-        "en": "The Problem-Solving Kid: Material",
-        "id": "Anak Pemecah Masalah: Materi"
-       },
-       "intro": {
-        "en": "After the intro, six slides set up the whole module: why problem solving is a habit, the four characters who get stuck, how small improvements compound, the four-step method, a worked example that turns “my grades are dropping” into a specific fix, and the logic tree. Read them, then watch the film that follows.",
-        "id": "Setelah pengantar, enam slide menyiapkan seluruh modul: kenapa memecahkan masalah adalah kebiasaan, empat tokoh yang sering buntu, bagaimana perbaikan kecil bertumpuk, metode empat langkah, contoh yang mengubah “nilaiku turun” menjadi perbaikan yang spesifik, dan pohon logika. Baca semuanya, lalu tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-kid-",
-       "slides": [
-        {
-         "title": {
-          "en": "Problem solving is a habit, not a talent",
-          "id": "Memecahkan masalah adalah kebiasaan, bukan bakat"
-         },
-         "text": {
-          "en": "It is not about knowing the answer. It is about how you approach a problem, and anyone can learn the approach. 1 · Mindset. Shape the future: problem solvers refuse to accept the status quo as fate; they ask “what would it take?” instead of “why does this always happen to me?”. 2 · Method. A four-step process: understand the situation, find the root cause, build an action plan, then execute and adjust; the same loop works for a failing grade, an empty event or a business in trouble. 3 · Practice. Small problems first: apply the loop to everyday problems until it becomes automatic, and the big ones (career, money, people) stop feeling like walls.",
-          "id": "Intinya bukan tahu jawabannya, melainkan caramu mendekati masalah, dan cara itu bisa dipelajari siapa pun. 1 · Pola pikir. Bentuk masa depan: pemecah masalah menolak menerima keadaan sebagai takdir. Mereka bertanya “apa yang dibutuhkan supaya bisa?”, bukan “kenapa ini selalu terjadi padaku?”. 2 · Metode. Proses empat langkah: pahami situasinya, temukan akar masalahnya, susun rencana tindakan, lalu jalankan dan sesuaikan. Putaran yang sama berlaku untuk nilai yang anjlok, acara yang sepi, atau usaha yang sedang kesulitan. 3 · Latihan. Mulai dari masalah kecil: terapkan putaran ini pada masalah sehari-hari sampai berjalan otomatis, dan masalah besar (karier, uang, orang) tidak lagi terasa seperti tembok."
-         }
-        },
-        {
-         "title": {
-          "en": "Which one are you when things go wrong?",
-          "id": "Kamu yang mana saat keadaan memburuk?"
-         },
-         "text": {
-          "en": "Four familiar characters, one missing ingredient each. The Sigher: “nothing ever works”. Gives up before trying, blames circumstances and other people. The Critic: finds the flaw in every plan (other people's plans) and never proposes or acts on one of their own. The Dreamer: loves ideas, drifts between them, never turns one into a plan with dates and actions. The Go-Getter: acts fast and works hard, often in the wrong direction; when it fails, the only fix is “try harder”. The fifth, the Problem Solver, thinks and acts: digs for the root cause before choosing a fix, writes a plan, runs it, checks the result, reworks what did not land, and learns from both success and failure.",
-          "id": "Empat tokoh yang akrab, masing-masing kurang satu bahan. Si Pengeluh: “tidak ada yang pernah berhasil”. Menyerah sebelum mencoba, menyalahkan keadaan dan orang lain. Si Pengkritik: menemukan cacat di setiap rencana (rencana orang lain) dan tidak pernah mengusulkan atau menjalankan rencananya sendiri. Si Pemimpi: suka ide, berpindah dari satu ide ke ide lain, tidak pernah mengubah satu pun menjadi rencana lengkap dengan tanggal dan tindakan. Si Tancap Gas: bergerak cepat dan bekerja keras, sering ke arah yang salah. Saat gagal, satu-satunya perbaikannya adalah “berusaha lebih keras”. Tokoh kelima, Si Pemecah Masalah, berpikir sekaligus bertindak: menggali akar masalah sebelum memilih perbaikan, menulis rencana, menjalankannya, mengecek hasilnya, memperbaiki bagian yang belum berhasil, dan belajar dari keberhasilan maupun kegagalan."
-         }
-        },
-        {
-         "title": {
-          "en": "Small improvements compound",
-          "id": "Perbaikan kecil bertumpuk"
-         },
-         "text": {
-          "en": "Three fruit stalls start at the same 100 sales a month. One improves 1% a month, one 5%, one 10%. After three years: 143, 579 and 3,091. Same start, different loops: the 10% stall did not work thirty times harder; it solved one small problem every month (a better display, a new corner, a cheaper supplier) and kept the gains. Your version: a student who fixes one study habit a month, a graduate who improves one interview answer a week. Growth curves, not hero moments.",
-          "id": "Tiga kios buah mulai dari penjualan yang sama, 100 per bulan. Satu tumbuh 1% sebulan, satu 5%, satu 10%. Tiga tahun kemudian: 143, 579, dan 3.091. Titik awalnya sama, putarannya berbeda. Kios yang tumbuh 10% tidak bekerja tiga puluh kali lebih keras. Kios itu memecahkan satu masalah kecil setiap bulan (tampilan yang lebih baik, sudut yang baru, pemasok yang lebih murah) dan mempertahankan hasilnya. Versimu: mahasiswa yang memperbaiki satu kebiasaan belajar setiap bulan, lulusan yang memperbaiki satu jawaban wawancara setiap minggu. Kurva pertumbuhan, bukan momen kepahlawanan."
-         }
-        },
-        {
-         "title": {
-          "en": "The four-step method",
-          "id": "Metode empat langkah"
-         },
-         "text": {
-          "en": "Every case in this module, and most problems in your career, runs through the same loop. Step 1, understand the current situation: break the vague complaint into specifics: where exactly, since when, how much. Step 2, identify the root cause: list the possible causes, form a hypothesis, then collect the information that confirms or kills it. Step 3, develop an effective action plan: generate many options, prioritise by impact and ease, then write who does what by when. Step 4, execute and modify until solved: run the plan, measure, and rework what does not land; the loop closes when the outcome is reached, not when the plan is written. Where people skip: the Go-Getter jumps from the complaint straight to Step 4, the Dreamer stops at Step 3, the Critic stops before Step 3, and the Sigher never reaches Step 1.",
-          "id": "Setiap kasus di modul ini, dan sebagian besar masalah dalam kariermu, melewati putaran yang sama. Langkah 1, pahami situasi saat ini: pecah keluhan yang samar menjadi hal-hal spesifik: tepatnya di mana, sejak kapan, seberapa banyak. Langkah 2, temukan akar masalahnya: daftar kemungkinan penyebab, rumuskan hipotesis, lalu kumpulkan informasi yang membenarkan atau mematahkannya. Langkah 3, susun rencana tindakan yang efektif: munculkan banyak pilihan, prioritaskan berdasarkan dampak dan kemudahannya, lalu tulis siapa mengerjakan apa dan kapan. Langkah 4, jalankan dan ubah sampai tuntas: jalankan rencananya, ukur, lalu perbaiki bagian yang belum berhasil. Putarannya selesai saat hasilnya tercapai, bukan saat rencananya ditulis. Di mana orang melompat: Si Tancap Gas loncat dari keluhan langsung ke Langkah 4, Si Pemimpi berhenti di Langkah 3, Si Pengkritik berhenti sebelum Langkah 3, dan Si Pengeluh tidak pernah sampai ke Langkah 1."
-         }
-        },
-        {
-         "title": {
-          "en": "From a vague complaint to a specific problem",
-          "id": "Dari keluhan yang samar ke masalah yang spesifik"
-         },
-         "text": {
-          "en": "Step 1 in action: keep asking “specifically where?” until the problem is small enough to fix this week. “My maths grades are dropping” splits into algebra (steady, 85 to 84) and geometry (80 to 55). Geometry splits into three topics: area of a trapezoid, volume of a cylinder, the Pythagorean theorem. Then why? Study time is unchanged at an hour a night, but study productivity is low: late, tired, distracted. Result: not “study more maths” but move study to right after dinner, and drill three geometry topics for two weeks. Same hour, different outcome.",
-          "id": "Langkah 1 dalam praktik: terus tanyakan “tepatnya di mana?” sampai masalahnya cukup kecil untuk diperbaiki minggu ini. “Nilai matematikaku turun” terpecah menjadi aljabar (stabil, 85 ke 84) dan geometri (80 ke 55). Geometri terpecah menjadi tiga topik: luas trapesium, volume tabung, dan teorema Pythagoras. Lalu, kenapa? Waktu belajarnya tetap satu jam setiap malam, tetapi belajarnya tidak produktif: terlalu malam, capek, dan sering terdistraksi. Hasilnya bukan “belajar matematika lebih banyak”, melainkan memindahkan jam belajar ke tepat setelah makan malam, dan melatih tiga topik geometri itu selama dua minggu. Jamnya sama, hasilnya berbeda."
-         }
-        },
-        {
-         "title": {
-          "en": "The logic tree",
-          "id": "Pohon logika"
-         },
-         "text": {
-          "en": "A way to break a problem into pieces with no gaps and no overlaps, so nothing is missed and nothing is counted twice. “How do I get more pepper out of the shaker?” branches into: increase the surface area of the lid, add more holes, make each hole bigger, grind the pepper finer. Grow it left to right by asking “specifically, how?” or “specifically, what?” at every node. Check it right to left by asking “what can I call this group?” If the branches do not add up to the parent, something is missing or doubled. No gaps, no overlaps: splitting a class by “tall / plays football” fails, because some are both and some are neither; “under 165 cm / 165 cm and over” passes.",
-          "id": "Cara memecah masalah menjadi bagian-bagian tanpa celah dan tanpa tumpang tindih, supaya tidak ada yang terlewat dan tidak ada yang terhitung dua kali. “Bagaimana caranya mengeluarkan lebih banyak lada dari wadahnya?” bercabang menjadi: memperluas permukaan tutupnya, menambah lubang, memperbesar setiap lubang, dan menggiling ladanya lebih halus. Tumbuhkan pohonnya dari kiri ke kanan dengan bertanya “tepatnya bagaimana?” atau “tepatnya apa?” di setiap simpul. Cek dari kanan ke kiri dengan bertanya “kelompok ini bisa kuberi nama apa?” Kalau cabang-cabangnya tidak menjumlah menjadi induknya, ada yang hilang atau terhitung dua kali. Tanpa celah, tanpa tumpang tindih: membagi satu kelas menjadi “tinggi / main sepak bola” gagal, karena ada yang termasuk keduanya dan ada yang tidak termasuk keduanya. “Di bawah 165 cm / 165 cm ke atas” lolos."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 5 slides",
-        "id": "Baca berikutnya · 5 slide"
-       },
-       "title": {
-        "en": "Reflection: Material",
-        "id": "Refleksi: Materi"
-       },
-       "intro": {
-        "en": "After the film, five slides turn the lens on your own practice: six areas to reflect on in how you already solve problems; two ways to characterise a problem (by time horizon and by its own characteristics); the two dimensions of problem-solving work (convergent versus divergent thinking, and analytical versus conceptual work); three scenarios to classify; and the key takeaways of pausing to structure first and recognising the problem type.",
-        "id": "Setelah film, lima slide mengarahkan sorotan ke caramu sendiri: enam area untuk direnungkan tentang caramu memecahkan masalah selama ini; dua cara menggolongkan masalah (menurut rentang waktunya dan menurut ciri masalahnya sendiri); dua dimensi kerja memecahkan masalah (berpikir konvergen lawan divergen, dan kerja analitis lawan konseptual); tiga skenario untuk digolongkan; dan poin penting tentang berhenti sejenak untuk menyusun struktur lebih dulu dan mengenali jenis masalahnya."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-reflect-",
-       "slides": [
-        {
-         "title": {
-          "en": "Reflection",
-          "id": "Refleksi"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. Reflection: take a step back, see the bigger picture, become a better problem solver. Busy professionals encounter, and solve, problems every day. Your ability to solve problems and make good decisions is central to your effectiveness on the job. But chances are you've never been taught how to solve problems. You likely figured out how to do it on your own and by watching others. Have you ever taken a step back to reflect on how you solve problems? Below, please find some key areas that you might reflect on when you are evaluating your current problem solving approach. 01 Actions. What steps do you take? 02 Stakeholders. Whom do you involve? 03 Approach. How do you adjust for different sorts of problems? 04 Toolkit. Which resources do you use? 05 Strengths. What do you do well? 06 Opportunities. How might you improve? “A moment of reflection today leads to better decisions tomorrow.” Analyse, decide, make an impact. Better thinking, brighter tomorrows.",
-          "id": "Modul 3 · Pemecahan Masalah. Refleksi: mundur selangkah, lihat gambaran besarnya, jadilah pemecah masalah yang lebih baik. Para profesional yang sibuk menghadapi, dan memecahkan, masalah setiap hari. Kemampuanmu memecahkan masalah dan mengambil keputusan yang baik adalah inti efektivitasmu di tempat kerja. Tetapi kemungkinan besar kamu belum pernah diajari cara memecahkan masalah. Kamu mungkin belajar sendiri sambil memperhatikan orang lain. Pernahkah kamu mundur selangkah untuk merenungkan caramu memecahkan masalah? Di bawah ini ada beberapa area penting yang bisa kamu renungkan saat menilai pendekatanmu sekarang. 01 Tindakan. Langkah apa yang kamu ambil? 02 Pemangku kepentingan. Siapa yang kamu libatkan? 03 Pendekatan. Bagaimana kamu menyesuaikan diri dengan jenis masalah yang berbeda? 04 Perangkat. Sumber daya apa yang kamu pakai? 05 Kekuatan. Apa yang sudah kamu kerjakan dengan baik? 06 Peluang. Bagaimana kamu bisa berkembang? “Sejenak merenung hari ini membawa keputusan yang lebih baik esok hari.” Analisis, putuskan, beri dampak. Berpikir lebih baik, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Problem shapes and sizes: different ways to characterize a problem",
-          "id": "Bentuk dan ukuran masalah: berbagai cara menggolongkan masalah"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. Problem Shapes and Sizes: Different Ways to Characterize a Problem. There are many ways to categorize problems. Marc just introduced one categorization: the amount of time you have to solve them. Framing problem solving in terms of approximate times to solve them can help you recognize unique challenges and opportunities in different situations. In addition to categorizing by problem-solving context, we can consider ways to characterize a problem itself. These will also be covered throughout the course. Different lenses to view a problem. A problem can look different depending on how you look at it. By time horizon (how much time do you have to solve it?): short-term (days to weeks; urgent, immediate action needed); medium-term (months; requires analysis and planning); long-term (years; strategic, complex, multiple dependencies). By problem characteristics (what is the nature of the problem itself?): scope, stakeholders, complexity, root cause, certainty, impact. “The better you define the problem, the closer you are to the solution.” Different perspectives, a clearer path forward. Same problem, different perspectives, more possibilities. Better thinking, brighter tomorrows.",
-          "id": "Modul 3 · Pemecahan Masalah. Bentuk dan Ukuran Masalah: Berbagai Cara Menggolongkan Masalah. Ada banyak cara menggolongkan masalah. Marc baru saja memperkenalkan salah satunya: berapa lama waktu yang kamu punya untuk memecahkannya. Memandang masalah dari perkiraan waktu penyelesaiannya bisa membantumu mengenali tantangan dan peluang khas di setiap situasi. Selain menggolongkan menurut konteksnya, kita juga bisa melihat ciri masalah itu sendiri. Ciri-ciri ini juga akan dibahas sepanjang kursus. Berbagai lensa untuk melihat masalah. Sebuah masalah bisa terlihat berbeda tergantung cara kamu memandangnya. Menurut rentang waktunya (berapa lama waktumu untuk memecahkannya?): jangka pendek (hitungan hari sampai minggu; mendesak, perlu tindakan segera); jangka menengah (hitungan bulan; butuh analisis dan perencanaan); jangka panjang (hitungan tahun; strategis, rumit, banyak ketergantungan). Menurut ciri masalahnya (apa sifat masalah itu sendiri?): cakupan, pemangku kepentingan, kerumitan, akar masalah, kepastian, dampak. “Makin baik kamu merumuskan masalahnya, makin dekat kamu dengan solusinya.” Sudut pandang berbeda, jalan maju yang lebih jernih. Masalah yang sama, sudut pandang berbeda, kemungkinan lebih banyak. Berpikir lebih baik, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Two dimensions of problem solving",
-          "id": "Dua dimensi pemecahan masalah"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. Two Dimensions of Problem Solving: effective problem solving requires balancing how you work and what kind of work you do. Phases of work. Different problems require different thinking modes at different stages. Convergent thinking: narrow down to the best answer. Some problems are best solved by driving towards a single best answer. They use convergent thinking, which is characterized by choosing from among multiple options using a process of elimination, and quickly finding which issues are important and establishing an in-going hypothesis. Many options → one best answer. Divergent thinking: explore new possibilities. Some problems are best solved by opening the solution space to discover new possibilities. They use divergent thinking, which is characterized by creating and looking at a wide range of opportunities, and new and unique solutions. One question → many possibilities. Both are essential. Types of work. Problems can be analytical, conceptual, or a combination of both. Analytical work: fact-based and quantitative; some problems require an answer that is purely analytical or quantitative, such as how much I should spend on groceries per month. Conceptual work: broader and qualitative; other problems are more conceptual or qualitative in nature, such as how I should bring up an important problem to my supervisor. Both analytical and conceptual problems arise over a range of time frames; in a long-term problem-solving project, you will likely need to solve both analytical and conceptual aspects of a single problem. “Different problems require different thinking. The best problem solvers know when to narrow in and when to open up.” In problem solving, striking the right balance between analytical and conceptual work, and between convergent and divergent phases, is important to your success. Common barriers include taking an analytical approach to a problem that requires creative thinking, or spending too much time doing divergent thinking and failing to converge on a solution. Better thinking, brighter tomorrows.",
-          "id": "Modul 3 · Pemecahan Masalah. Dua Dimensi Pemecahan Masalah: memecahkan masalah dengan efektif menuntut keseimbangan antara cara kamu bekerja dan jenis pekerjaan yang kamu kerjakan. Fase kerja. Masalah yang berbeda butuh mode berpikir yang berbeda di tahap yang berbeda. Berpikir konvergen: menyempit ke jawaban terbaik. Sebagian masalah paling baik dipecahkan dengan mengarah ke satu jawaban terbaik. Masalah seperti ini memakai pemikiran konvergen, yang cirinya memilih di antara banyak pilihan lewat proses eliminasi, dengan cepat menemukan isu mana yang penting, dan menetapkan hipotesis awal. Banyak pilihan → satu jawaban terbaik. Berpikir divergen: menjelajahi kemungkinan baru. Sebagian masalah paling baik dipecahkan dengan membuka ruang solusi untuk menemukan kemungkinan baru. Masalah seperti ini memakai pemikiran divergen, yang cirinya memunculkan dan melihat beragam peluang, serta solusi yang baru dan unik. Satu pertanyaan → banyak kemungkinan. Keduanya penting. Jenis kerja. Masalah bisa bersifat analitis, konseptual, atau gabungan keduanya. Kerja analitis: berbasis fakta dan kuantitatif. Sebagian masalah butuh jawaban yang murni analitis atau kuantitatif, misalnya berapa yang sebaiknya kubelanjakan untuk kebutuhan dapur setiap bulan. Kerja konseptual: lebih luas dan kualitatif. Masalah lain lebih bersifat konseptual atau kualitatif, misalnya bagaimana sebaiknya aku menyampaikan masalah penting kepada atasanku. Masalah analitis maupun konseptual muncul dalam berbagai rentang waktu. Dalam proyek pemecahan masalah jangka panjang, kemungkinan besar kamu perlu memecahkan sisi analitis dan sisi konseptual dari satu masalah yang sama. “Masalah yang berbeda butuh cara berpikir yang berbeda. Pemecah masalah terbaik tahu kapan harus menyempit dan kapan harus membuka.” Dalam memecahkan masalah, menyeimbangkan kerja analitis dan konseptual, serta fase konvergen dan divergen, penting bagi keberhasilanmu. Hambatan yang umum antara lain memakai pendekatan analitis untuk masalah yang butuh pemikiran kreatif, atau terlalu lama berpikir divergen sampai gagal mengerucut ke solusi. Berpikir lebih baik, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Classify the problem: choose the right thinking mode",
-          "id": "Golongkan masalahnya: pilih mode berpikir yang tepat"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. Classify the Problem: Choose the Right Thinking Mode. Identify whether the problem is analytical or conceptual, and whether it requires convergent or divergent thinking. 1 Simple and well-defined. Often analytical and convergent. 2 More complex. May require divergent thinking. 3 Complex and ambiguous. Often conceptual and divergent. Scenario 1, Sandra's challenge: “We're having some difficulty tracking the most important information your team is providing in response to report requests. Let's talk about ideas to improve communication between your team and our analytics team. I'd like to arrive at a couple of improvements we can make right away.” Conceptual, convergent. Why? This is a conceptual, convergent problem. Sandra needs improvement ideas on communication, which requires some creative thinking, and then a small number of tangible suggestions to implement quickly. Scenario 2, Sumitra's challenge: “We got a new manager recently, and I believe that the team can succeed only if there is a mindset shift to work together with the new manager. How can we change the focus on improvements so that we perform better next month? What are ways we can get people to adopt a growth mindset for the remainder of this year?” Conceptual, divergent. Why? This is a conceptual, divergent problem. It takes a longer time period, is not easy to solve, and requires truly creative thinking to generate a wide range of possibilities before narrowing down to solutions. Scenario 3, Alfonso's challenge: “My supervisor asked me to put together estimates of store sales before our meeting on Thursday with the team. We'll use this information to help plan our budget for next quarter.” Analytical, convergent. Why? This is an analytical, convergent problem. Alfonso needs to determine how he wants to approach the problem, collect and analyze the data, and provide a quantitative solution. A single, most-accurate answer. Different problems, different thinking, greater impact. Key takeaway: in problem solving, striking the right balance between analytical and conceptual work, and between convergent and divergent phases, is essential to your success. Common barriers include using an analytical approach for a problem that requires creative thinking, or spending too much time in divergent thinking without converging on a solution. Better thinking, brighter tomorrows.",
-          "id": "Modul 3 · Pemecahan Masalah. Golongkan Masalahnya: Pilih Mode Berpikir yang Tepat. Kenali apakah masalahnya analitis atau konseptual, dan apakah butuh pemikiran konvergen atau divergen. 1 Sederhana dan jelas batasnya. Sering kali analitis dan konvergen. 2 Lebih rumit. Mungkin butuh pemikiran divergen. 3 Rumit dan tidak jelas. Sering kali konseptual dan divergen. Skenario 1, tantangan Sandra: “Kami agak kesulitan melacak informasi paling penting yang diberikan timmu untuk menjawab permintaan laporan. Ayo bahas ide-ide untuk memperbaiki komunikasi antara timmu dan tim analitik kami. Aku ingin kita sampai pada beberapa perbaikan yang bisa langsung dijalankan.” Konseptual, konvergen. Kenapa? Ini masalah konseptual yang konvergen. Sandra butuh ide perbaikan komunikasi, yang menuntut sedikit pemikiran kreatif, lalu beberapa usulan konkret yang bisa segera dijalankan. Skenario 2, tantangan Sumitra: “Kami baru saja dapat atasan baru, dan aku yakin tim ini hanya bisa berhasil kalau ada perubahan pola pikir untuk bekerja sama dengan atasan baru itu. Bagaimana kita bisa mengalihkan fokus ke perbaikan supaya kinerja kita lebih baik bulan depan? Apa saja cara supaya orang-orang memakai pola pikir bertumbuh sampai akhir tahun ini?” Konseptual, divergen. Kenapa? Ini masalah konseptual yang divergen. Masalah ini butuh waktu lebih lama, tidak mudah dipecahkan, dan menuntut pemikiran yang benar-benar kreatif untuk memunculkan beragam kemungkinan sebelum mengerucut ke solusi. Skenario 3, tantangan Alfonso: “Atasanku memintaku menyiapkan perkiraan penjualan toko sebelum rapat tim hari Kamis. Kami akan memakai informasi ini untuk membantu menyusun anggaran kuartal depan.” Analitis, konvergen. Kenapa? Ini masalah analitis yang konvergen. Alfonso perlu menentukan cara ia mendekati masalahnya, mengumpulkan dan menganalisis datanya, lalu memberikan solusi kuantitatif. Satu jawaban yang paling akurat. Masalah berbeda, cara berpikir berbeda, dampak lebih besar. Intinya: dalam memecahkan masalah, menyeimbangkan kerja analitis dan konseptual, serta fase konvergen dan divergen, sangat penting bagi keberhasilanmu. Hambatan yang umum antara lain memakai pendekatan analitis untuk masalah yang butuh pemikiran kreatif, atau terlalu lama berpikir divergen tanpa mengerucut ke solusi. Berpikir lebih baik, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. Key takeaways: in this module, we have covered the following tools. 01 Recognizing the importance of problem structuring: use this to remind yourself to pause when faced with a new problem before diving into a solution. Pause before solving. Structure first, solve better. 02 Identifying the problem type: use this first to recognize the uniqueness of each problem, assess its urgency, and determine the type of thinking needed for an effective solution. Recognize the problem type. Different problems, different thinking. Resources. Before you move on, you may wish to explore: article, “Five routes to more innovative problem solving”, The McKinsey Quarterly, explore practical insights on how to approach problem solving more creatively and drive greater innovation; article, “Performance from problem solving: an interview with three leaders at MassMutual”, McKinsey & Company. Learn from real leaders on how they apply problem solving to deliver meaningful performance in their organizations. Insight, structure, perspective, solutions. Continue learning, go further. Better thinking, bigger impact. Skills for a brighter tomorrow.",
-          "id": "Modul 3 · Pemecahan Masalah. Poin penting: di modul ini, kita sudah membahas alat-alat berikut. 01 Menyadari pentingnya menyusun struktur masalah: pakai ini untuk mengingatkan dirimu berhenti sejenak saat menghadapi masalah baru, sebelum langsung terjun ke solusi. Berhenti sebelum memecahkan. Susun struktur dulu, pecahkan dengan lebih baik. 02 Mengenali jenis masalah: pakai ini lebih dulu untuk mengenali keunikan setiap masalah, menilai tingkat urgensinya, dan menentukan jenis pemikiran yang dibutuhkan untuk solusi yang efektif. Kenali jenis masalahnya. Masalah berbeda, cara berpikir berbeda. Bacaan. Sebelum melanjutkan, kamu mungkin ingin membaca: artikel “Five routes to more innovative problem solving”, The McKinsey Quarterly, berisi wawasan praktis tentang cara mendekati pemecahan masalah dengan lebih kreatif dan mendorong inovasi yang lebih besar; artikel “Performance from problem solving: an interview with three leaders at MassMutual”, McKinsey & Company. Belajarlah dari para pemimpin sungguhan tentang cara mereka memakai pemecahan masalah untuk menghasilkan kinerja yang berarti di organisasinya. Wawasan, struktur, sudut pandang, solusi. Terus belajar, melangkah lebih jauh. Berpikir lebih baik, dampak lebih besar. Keterampilan untuk hari esok yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Multiple Approaches to Problem Solving: Material",
-        "id": "Beragam Pendekatan Pemecahan Masalah: Materi"
-       },
-       "intro": {
-        "en": "Next, four slides close the material: one framework for many problem-solving situations (understand, generate, evaluate, implement); what the hypothesis-led approach is and why starting with a hypothesis gives you a better question; the seven steps from definition to recommendations, grouped into definition, structuring, analysing and synthesising; and the key takeaway.",
-        "id": "Berikutnya, empat slide menutup materinya: satu kerangka untuk banyak situasi pemecahan masalah (pahami, munculkan, nilai, terapkan); apa itu pendekatan berbasis hipotesis dan kenapa memulai dengan hipotesis memberimu pertanyaan yang lebih baik; tujuh langkah dari perumusan sampai rekomendasi, dikelompokkan menjadi perumusan, penyusunan struktur, analisis, dan sintesis; dan poin pentingnya."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-approach-",
-       "slides": [
-        {
-         "title": {
-          "en": "Multiple approaches to structured problem solving",
-          "id": "Beragam pendekatan pemecahan masalah yang terstruktur"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. Multiple approaches to structured problem solving. An organized approach may sound formal and only appropriate to larger-scale problem-solving efforts. In reality, it can be used and applied for all sorts of problem-solving situations. 01 Understand the problem. Clarify the context, identify what needs to be solved, and define the key question. 02 Generate possibilities: explore different perspectives and consider a range of potential solutions. 03 Evaluate and decide: assess the options using a structured approach and select the best solution. 04 Implement and learn. Take action, monitor results, and learn to improve your problem-solving skills over time. Key takeaway: one framework, many problem-solving situations. It's equally helpful with smaller decisions requiring in-the-moment problem solving like deciding which item to buy at the market. By learning and practicing the hypothesis-led approach, you will develop skills that are applicable in many problem-solving situations. Different perspectives, better solutions. Same principles, bigger possibilities. Better thinking, brighter results.",
-          "id": "Modul 3 · Pemecahan Masalah. Beragam pendekatan pemecahan masalah yang terstruktur. Pendekatan yang tertata mungkin terdengar formal dan hanya cocok untuk upaya pemecahan masalah berskala besar. Kenyataannya, pendekatan ini bisa dipakai untuk berbagai situasi pemecahan masalah. 01 Pahami masalahnya. Perjelas konteksnya, kenali apa yang perlu dipecahkan, dan rumuskan pertanyaan kuncinya. 02 Munculkan kemungkinan: jelajahi berbagai sudut pandang dan timbang beragam solusi yang mungkin. 03 Nilai dan putuskan: nilai pilihan-pilihannya dengan pendekatan terstruktur, lalu pilih solusi terbaik. 04 Terapkan dan belajar. Bertindaklah, pantau hasilnya, dan belajarlah supaya keterampilan memecahkan masalahmu makin baik dari waktu ke waktu. Intinya: satu kerangka, banyak situasi pemecahan masalah. Kerangka ini sama bergunanya untuk keputusan kecil yang harus dipecahkan saat itu juga, misalnya memilih barang yang akan dibeli di pasar. Dengan mempelajari dan melatih pendekatan berbasis hipotesis, kamu akan membangun keterampilan yang bisa dipakai di banyak situasi pemecahan masalah. Sudut pandang berbeda, solusi yang lebih baik. Prinsip yang sama, kemungkinan yang lebih besar. Berpikir lebih baik, hasil yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "What is the hypothesis-led approach to problem solving?",
-          "id": "Apa itu pendekatan pemecahan masalah berbasis hipotesis?"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. What is the hypothesis-led approach to problem solving? Now, we'll take a deep dive into the hypothesis-led approach. This broadly applicable, flexible approach is extremely useful in solving problems (or parts of problems) that require convergent thinking. Communication and iteration are central to every step of the problem-solving process. The good news? There's no need to memorize these steps now! In upcoming sections, you'll learn about and practice applying each step in typical problem-solving situations you're likely to encounter on the job. Next slide: find a detailed explanation of the key steps involved in the hypothesis-led approach with an everyday example of the approach in use. “Starting with a hypothesis doesn't mean you already know the answer. Rather, it gives you a better question, so you can find a clearer direction.” Start with a hypothesis: what's really going on? What do we know? What could be the cause? How do we test it? What should we focus on? What's the best solution? Good news. You don't need to memorize all the steps now; in the next sections, you'll learn and practice each step through real-world examples you're likely to encounter at work. Better questions, clearer answers, bigger impact. Same principles, bigger possibilities. Better thinking, brighter results.",
-          "id": "Modul 3 · Pemecahan Masalah. Apa itu pendekatan pemecahan masalah berbasis hipotesis? Sekarang kita akan menyelami pendekatan berbasis hipotesis. Pendekatan yang luwes dan bisa dipakai luas ini sangat berguna untuk memecahkan masalah (atau bagian dari masalah) yang butuh pemikiran konvergen. Komunikasi dan iterasi menjadi inti setiap langkah proses pemecahan masalah. Kabar baiknya? Kamu tidak perlu menghafal langkah-langkah ini sekarang! Di bagian-bagian berikutnya, kamu akan mempelajari dan berlatih menerapkan setiap langkah dalam situasi pemecahan masalah yang umum kamu temui di tempat kerja. Slide berikutnya: penjelasan rinci tentang langkah-langkah kunci dalam pendekatan berbasis hipotesis, lengkap dengan contoh pemakaiannya sehari-hari. “Memulai dengan hipotesis bukan berarti kamu sudah tahu jawabannya. Hipotesis justru memberimu pertanyaan yang lebih baik, supaya kamu menemukan arah yang lebih jelas.” Mulai dengan hipotesis: apa yang sebenarnya terjadi? Apa yang sudah kita ketahui? Apa kemungkinan penyebabnya? Bagaimana kita mengujinya? Apa yang perlu kita fokuskan? Apa solusi terbaiknya? Kabar baik. Kamu tidak perlu menghafal semua langkahnya sekarang. Di bagian-bagian berikutnya, kamu akan mempelajari dan melatih setiap langkah lewat contoh nyata yang mungkin kamu temui di tempat kerja. Pertanyaan yang lebih baik, jawaban yang lebih jernih, dampak yang lebih besar. Prinsip yang sama, kemungkinan yang lebih besar. Berpikir lebih baik, hasil yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "The hypothesis-led problem-solving approach",
-          "id": "Pendekatan pemecahan masalah berbasis hipotesis"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. The Hypothesis-Led Problem-Solving Approach: a structured and iterative approach to turn complex problems into clear insights and actionable solutions. 1. Definition. Set the right problem: step 1, define problem (think impact: what do we need to know?). 2. Structuring. Turn the problem into a plan: step 2, structure problem and generate ideas (think breaking the problem down into pieces and early hypothesis: what could be the key elements of the problem?); step 3, prioritize issues (think speed: which issues are most important to the problem?); step 4, develop issue analysis/workplan (think efficiency: where and how should we spend our time?). 3. Analyzing. Find and test the answers: step 5, conduct analyses (think evidence: what are we trying to prove or disprove?). 4. Synthesizing. From insight to action: step 6, synthesize findings (think “so what”: what implications do our findings have?); step 7, develop recommendations (think potential solution: what should we do?). From problem definition → evidence → insight → action. Key takeaway: a clear process, a bigger impact. A hypothesis-led approach helps you focus your time, test what matters, and turn analysis into meaningful action. Same principles, bigger possibilities. Better thinking, brighter results.",
-          "id": "Modul 3 · Pemecahan Masalah. Pendekatan Pemecahan Masalah Berbasis Hipotesis: pendekatan terstruktur dan berulang untuk mengubah masalah rumit menjadi wawasan yang jernih dan solusi yang bisa dijalankan. 1. Perumusan. Tetapkan masalah yang tepat: langkah 1, rumuskan masalahnya (pikirkan dampaknya: apa yang perlu kita ketahui?). 2. Penyusunan struktur. Ubah masalahnya menjadi rencana: langkah 2, susun struktur masalah dan munculkan ide (pikirkan cara memecah masalah menjadi bagian-bagian, beserta hipotesis awalnya: apa saja kemungkinan unsur kunci masalah ini?); langkah 3, prioritaskan isu (pikirkan kecepatan: isu mana yang paling penting bagi masalah ini?); langkah 4, susun analisis isu dan rencana kerja (pikirkan efisiensi: di mana dan bagaimana sebaiknya kita memakai waktu?). 3. Analisis. Temukan dan uji jawabannya: langkah 5, lakukan analisis (pikirkan bukti: apa yang sedang kita coba buktikan atau patahkan?). 4. Sintesis. Dari wawasan ke tindakan: langkah 6, sintesiskan temuan (pikirkan “lalu kenapa”: apa implikasi temuan kita?); langkah 7, susun rekomendasi (pikirkan solusi yang mungkin: apa yang sebaiknya kita lakukan?). Dari perumusan masalah → bukti → wawasan → tindakan. Intinya: proses yang jelas, dampak yang lebih besar. Pendekatan berbasis hipotesis membantumu memusatkan waktu, menguji hal yang penting, dan mengubah analisis menjadi tindakan yang bermakna. Prinsip yang sama, kemungkinan yang lebih besar. Berpikir lebih baik, hasil yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. Key takeaways: in this module, we have covered the following key tool: the hypothesis-led approach to problem solving. Use the 7 steps in this framework to reach the optimal solution for a problem. Before you move on, you may wish to explore the following podcast on hypothesis-led problem solving: “How to master the seven-step problem-solving process” (podcast, McKinsey & Company). From questions to clearer answers. A more structured mindset, a brighter tomorrow. Same principles, bigger possibilities. Learn today, solve tomorrow.",
-          "id": "Modul 3 · Pemecahan Masalah. Poin penting: di modul ini, kita sudah membahas satu alat utama berikut: pendekatan pemecahan masalah berbasis hipotesis. Pakai 7 langkah dalam kerangka ini untuk sampai pada solusi terbaik bagi sebuah masalah. Sebelum melanjutkan, kamu mungkin ingin mendengarkan podcast berikut tentang pemecahan masalah berbasis hipotesis: “How to master the seven-step problem-solving process” (podcast, McKinsey & Company). Dari pertanyaan ke jawaban yang lebih jernih. Pola pikir yang lebih terstruktur, hari esok yang lebih cerah. Prinsip yang sama, kemungkinan yang lebih besar. Belajar hari ini, memecahkan masalah esok hari."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 6 slides",
-        "id": "Baca berikutnya · 6 slide"
-       },
-       "title": {
-        "en": "Defining the Problem: Material",
-        "id": "Merumuskan Masalah: Materi"
-       },
-       "intro": {
-        "en": "Next, six slides work step 1 of the hypothesis-led approach, defining the problem, through two cases: a marketing lead with 45 minutes to assess a market-research proposal, and the first question he should ask; why the right question matters more than a fast answer; the power of problem definition and three pitfalls (gut feeling, biting off too much, losing sight of the people); what problem definition looks like in a crisis; and a warehouse manager who chased a hacking hypothesis before defining the problem.",
-        "id": "Berikutnya, enam slide menggarap langkah 1 pendekatan berbasis hipotesis, yaitu merumuskan masalah, lewat dua kasus: seorang kepala pemasaran yang punya 45 menit untuk menilai usulan riset pasar, dan pertanyaan pertama yang sebaiknya ia ajukan; kenapa pertanyaan yang tepat lebih penting daripada jawaban yang cepat; kekuatan perumusan masalah dan tiga jebakannya (naluri, mengambil beban terlalu besar, melupakan orang-orangnya); seperti apa perumusan masalah di tengah krisis; dan seorang kepala gudang yang mengejar hipotesis peretasan sebelum merumuskan masalahnya."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-define-",
-       "slides": [
-        {
-         "title": {
-          "en": "Defining the problem: we only have 45 minutes",
-          "id": "Merumuskan masalah: waktu kita cuma 45 menit"
-         },
-         "text": {
-          "en": "Real-world problems, real impact. Defining the Problem: start with a clear understanding of the situation, key objectives, and constraints. We only have 45 minutes to figure this out! Read the situation below and define the key elements of the problem. 1. Background; Arun leads the marketing team at DentMerc, an Indian company that produces dental products. His boss, Apoorva, is considering expanding the sales of the products into a new country. To do that, Arun wants his team (Amrita and Manish) to conduct market research to gather information about the needs and preferences of customers in this new market. 2. Task; Arun has asked his team to come up with a proposal for conducting this market research (an activity of gathering information about a customer's need or preferences within a certain market) so they can present it to the boss, Apoorva, in 45 minutes. Some of the information provided to the team is: overall budget for expanding sales, 150 lakh rupees (15 million INR; Indian standard form of currency); market research timeline, 1 month; tight deadline. Shops and factories can create more products, so additional production capacity needs to be considered. 3. Current situation, on top of the tight turnaround (deadline to show results for a project), when his boss's request came in, Arun was visiting a production site. He's just returned and is only now able to turn his attention to the proposal, which the team will present to the boss in just 45 minutes. Arun must problem-solve in the moment. Key concepts to consider, market research: activity of gathering information about a customer's need or preferences within a certain market; lakh rupees (INR): Indian standard form of currency; production capacity: ability for a factory or shop to create more of a product; turnaround: deadline time to show results for a project; scope: boundaries set on a project in terms of what work is done (in terms of goals, deadlines, and when the project ends). Clear problems, better solutions. From insight to healthier smiles.",
-          "id": "Masalah nyata, dampak nyata. Merumuskan Masalah: mulai dari pemahaman yang jelas tentang situasinya, sasaran utamanya, dan batasannya. Waktu kita cuma 45 menit untuk memecahkan ini! Baca situasi di bawah, lalu rumuskan unsur-unsur kunci masalahnya. 1. Latar belakang: Arun memimpin tim pemasaran di DentMerc, perusahaan India yang memproduksi produk perawatan gigi. Atasannya, Apoorva, sedang menimbang untuk memperluas penjualan produknya ke negara baru. Untuk itu, Arun ingin timnya (Amrita dan Manish) melakukan riset pasar untuk mengumpulkan informasi tentang kebutuhan dan preferensi pelanggan di pasar baru ini. 2. Tugas: Arun meminta timnya menyusun usulan pelaksanaan riset pasar ini (kegiatan mengumpulkan informasi tentang kebutuhan atau preferensi pelanggan di pasar tertentu) supaya bisa dipresentasikan kepada atasannya, Apoorva, dalam 45 menit. Sebagian informasi yang diberikan kepada tim: anggaran total untuk memperluas penjualan, 150 lakh rupee (15 juta rupee India; satuan mata uang India); jangka waktu riset pasar, 1 bulan; tenggat yang mepet. Toko dan pabrik bisa memproduksi lebih banyak, jadi tambahan kapasitas produksi perlu dipertimbangkan. 3. Situasi saat ini: selain tenggat yang mepet (batas waktu untuk menunjukkan hasil sebuah proyek), saat permintaan atasannya masuk, Arun sedang mengunjungi lokasi produksi. Ia baru saja kembali dan baru sekarang bisa memusatkan perhatian pada usulan itu, yang akan dipresentasikan timnya kepada atasan dalam waktu 45 menit saja. Arun harus memecahkan masalah saat itu juga. Konsep kunci yang perlu dipertimbangkan: riset pasar, yaitu kegiatan mengumpulkan informasi tentang kebutuhan atau preferensi pelanggan di pasar tertentu; lakh rupee (INR), satuan mata uang India; kapasitas produksi, yaitu kemampuan pabrik atau toko untuk memproduksi lebih banyak; tenggat, yaitu batas waktu untuk menunjukkan hasil sebuah proyek; cakupan, yaitu batas-batas sebuah proyek dalam hal pekerjaan yang dikerjakan (tujuan, tenggat, dan kapan proyeknya berakhir). Masalah yang jelas, solusi yang lebih baik. Dari wawasan ke senyum yang lebih sehat."
-         }
-        },
-        {
-         "title": {
-          "en": "Check your thinking: what's the first question Arun should ask his team?",
-          "id": "Cek pemikiranmu: apa pertanyaan pertama yang sebaiknya diajukan Arun kepada timnya?"
-         },
-         "text": {
-          "en": "Check your thinking. What's the first question Arun should ask his team? Apoorva, the CEO, needs the market research proposal and budget in less than an hour. What is the first question Arun should ask his team to assess their proposal? A great problem solver starts with the right question. Review the following options, then select the best answer and click Submit: how realistic is what you've proposed, given the one-month timeline? How can we cut costs to bring down the budget? What is the question you are trying to answer with the market research you've proposed? Tip: think about what should be clarified first to ensure the proposal is aligned with the CEO's objective. Correct. That's right: what is the question you are trying to answer? Starting with the right question ensures the team stays focused, the research is well-designed, and the proposal addresses the CEO's true objective. Arun should first understand the problem question the team is trying to answer with their proposal and make sure it is aligned with what the CEO has asked them to do. In this case, the team's enthusiasm to be thorough led them to focus on the wrong question (how best to design the toothbrush to attract customers) when the CEO's question is whether to enter the market. If the answer to her question is yes, the next step might be to consider how to design the toothbrush. Even when time is tight, the first step of problem solving should always be to define the problem question you aim to solve. “A clear question leads to a clear path forward.” Step 3 of 4.",
-          "id": "Cek pemikiranmu. Apa pertanyaan pertama yang sebaiknya diajukan Arun kepada timnya? Apoorva, sang CEO, butuh usulan riset pasar beserta anggarannya dalam waktu kurang dari satu jam. Apa pertanyaan pertama yang sebaiknya diajukan Arun kepada timnya untuk menilai usulan mereka? Pemecah masalah yang hebat memulai dengan pertanyaan yang tepat. Tinjau pilihan-pilihan berikut, lalu pilih jawaban terbaiknya dan klik Kirim: seberapa realistis usulan kalian, mengingat jangka waktunya hanya satu bulan? Bagaimana kita bisa memangkas biaya supaya anggarannya turun? Pertanyaan apa yang sedang kalian coba jawab lewat riset pasar yang kalian usulkan? Petunjuk: pikirkan apa yang perlu diperjelas lebih dulu supaya usulannya selaras dengan sasaran sang CEO. Benar. Tepat sekali: pertanyaan apa yang sedang kalian coba jawab? Memulai dengan pertanyaan yang tepat membuat tim tetap fokus, risetnya dirancang dengan baik, dan usulannya menjawab sasaran sang CEO yang sebenarnya. Arun perlu lebih dulu memahami pertanyaan masalah yang sedang coba dijawab timnya lewat usulan itu, dan memastikan pertanyaan itu selaras dengan permintaan sang CEO. Dalam kasus ini, semangat tim untuk bekerja tuntas justru membuat mereka fokus pada pertanyaan yang salah (bagaimana merancang sikat gigi yang paling menarik bagi pelanggan), padahal pertanyaan sang CEO adalah apakah perlu masuk ke pasar itu. Kalau jawaban atas pertanyaannya ya, langkah berikutnya mungkin memikirkan cara merancang sikat giginya. Meski waktunya sempit, langkah pertama pemecahan masalah selalu adalah merumuskan pertanyaan masalah yang ingin kamu pecahkan. “Pertanyaan yang jelas membawa jalan maju yang jelas.” Langkah 3 dari 4."
-         }
-        },
-        {
-         "title": {
-          "en": "The right questions can unlock bigger opportunities",
-          "id": "Pertanyaan yang tepat bisa membuka peluang yang lebih besar"
-         },
-         "text": {
-          "en": "Think deeper, go further. The right questions can unlock bigger opportunities. Sometimes, asking the right questions is more important than finding the answers themselves. The right questions help us see problems from a broader perspective. The right questions guide us to deeper analysis and better insights. The right questions lead to better solutions and greater impact. Explore possibilities, challenge assumptions, see the bigger picture, drive better solutions. “A great question doesn't just seek an answer, it opens the door to a deeper understanding.” Better questions, a brighter tomorrow. Same questions, bigger possibilities.",
-          "id": "Berpikir lebih dalam, melangkah lebih jauh. Pertanyaan yang tepat bisa membuka peluang yang lebih besar. Kadang, mengajukan pertanyaan yang tepat lebih penting daripada menemukan jawabannya. Pertanyaan yang tepat membantu kita melihat masalah dari sudut pandang yang lebih luas. Pertanyaan yang tepat menuntun kita ke analisis yang lebih dalam dan wawasan yang lebih baik. Pertanyaan yang tepat membawa ke solusi yang lebih baik dan dampak yang lebih besar. Jelajahi kemungkinan, pertanyakan asumsi, lihat gambaran besarnya, dorong solusi yang lebih baik. “Pertanyaan yang hebat tidak hanya mencari jawaban; ia membuka pintu ke pemahaman yang lebih dalam.” Pertanyaan yang lebih baik, hari esok yang lebih cerah. Pertanyaan yang sama, kemungkinan yang lebih besar."
-         }
-        },
-        {
-         "title": {
-          "en": "The power of problem definition",
-          "id": "Kekuatan perumusan masalah"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. The power of problem definition: the right problem leads to the right solution, and the right solution creates bigger impact. 1. The first critical step. All problem-solving efforts, whether they require in-the-moment solutions or months of analysis, begin with the same step: defining the problem. This section focuses on that first step of the hypothesis-led problem-solving approach. Why is this step so important? Put simply, it means you're solving for the right problem. Common pitfalls that can lead you to the wrong problem: relying on gut feeling (using your gut feeling and experience to make quick judgments under pressure); “biting off more than you can chew” (attempting to solve a much larger problem than required, or one where you don't have the right amount of resources); losing sight of the people (forgetting the needs and priorities of the people for whom you are solving the problem). The best problem solvers slow down and question their gut feelings. It's critical to take a creative approach in situations where you need to make a decision quickly, and on longer-term projects. The 7-step problem-solving approach. Defining the problem is the foundation for everything that follows: 1 define problem, 2 structure problem and generate ideas, 3 prioritize issues, 4 plan analyses and work, 5 conduct analyses, 6 synthesize findings, 7 develop recommendations. “Define the problem well, and you're already halfway to the solution.” “A clear problem today, a brighter tomorrow.” Better questions, brighter outcomes.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Kekuatan perumusan masalah: masalah yang tepat membawa ke solusi yang tepat, dan solusi yang tepat menciptakan dampak yang lebih besar. 1. Langkah pertama yang menentukan. Semua upaya pemecahan masalah, entah butuh solusi saat itu juga atau analisis berbulan-bulan, dimulai dengan langkah yang sama: merumuskan masalah. Bagian ini berfokus pada langkah pertama pendekatan pemecahan masalah berbasis hipotesis itu. Kenapa langkah ini begitu penting? Sederhananya, langkah ini memastikan kamu memecahkan masalah yang tepat. Jebakan umum yang bisa membawamu ke masalah yang salah: mengandalkan naluri (memakai naluri dan pengalamanmu untuk mengambil penilaian cepat di bawah tekanan); mengambil beban terlalu besar (mencoba memecahkan masalah yang jauh lebih besar daripada yang dibutuhkan, atau masalah yang sumber dayanya tidak kamu miliki); melupakan orang-orangnya (lupa pada kebutuhan dan prioritas orang-orang yang masalahnya sedang kamu pecahkan). Pemecah masalah terbaik memperlambat langkah dan mempertanyakan nalurinya. Pendekatan yang kreatif sangat penting, baik saat kamu harus memutuskan dengan cepat maupun dalam proyek jangka panjang. Pendekatan pemecahan masalah 7 langkah. Merumuskan masalah adalah fondasi bagi semua langkah sesudahnya: 1 rumuskan masalah, 2 susun struktur masalah dan munculkan ide, 3 prioritaskan isu, 4 rencanakan analisis dan pekerjaan, 5 lakukan analisis, 6 sintesiskan temuan, 7 susun rekomendasi. “Rumuskan masalahnya dengan baik, dan kamu sudah separuh jalan menuju solusinya.” “Masalah yang jelas hari ini, hari esok yang lebih cerah.” Pertanyaan yang lebih baik, hasil yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "What does problem definition look like? A crisis in the moment",
-          "id": "Seperti apa perumusan masalah? Krisis saat itu juga"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. From uncertainty to better solutions. What does problem definition look like? The right problem leads to the right solution. A crisis in the moment: 1. Problem definition is always the first step of a structured approach to problem solving. Needing to make a decision in a short amount of time sometimes causes errors in thinking. Read through the following example (next slide) of a problem that must be solved in the moment, and think about how Joe, a manager at a warehouse, might have benefited from a more structured approach to problem definition. The 7-step problem-solving approach: 1 define problem, 2 structure problem and generate ideas, 3 prioritize issues, 4 plan analyses and work, 5 conduct analyses, 6 synthesize findings, 7 develop recommendations. A clearer process, better outcomes. Where did he go wrong? Think about the example of Joe, a manager at a warehouse, on the next slide. “A clear problem definition turns chaos into clarity.” Shipments delayed: backlog, delayed orders, customer complaints, rising costs, need a decision now!",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Dari ketidakpastian ke solusi yang lebih baik. Seperti apa perumusan masalah itu? Masalah yang tepat membawa ke solusi yang tepat. Krisis saat itu juga: 1. Perumusan masalah selalu menjadi langkah pertama pendekatan terstruktur dalam memecahkan masalah. Keharusan mengambil keputusan dalam waktu singkat kadang menimbulkan kekeliruan berpikir. Baca contoh berikut (slide berikutnya) tentang masalah yang harus dipecahkan saat itu juga, lalu pikirkan bagaimana Joe, seorang kepala gudang, bisa terbantu oleh pendekatan perumusan masalah yang lebih terstruktur. Pendekatan pemecahan masalah 7 langkah: 1 rumuskan masalah, 2 susun struktur masalah dan munculkan ide, 3 prioritaskan isu, 4 rencanakan analisis dan pekerjaan, 5 lakukan analisis, 6 sintesiskan temuan, 7 susun rekomendasi. Proses yang lebih jelas, hasil yang lebih baik. Di mana kesalahannya? Pikirkan contoh Joe, kepala gudang, di slide berikutnya. “Perumusan masalah yang jelas mengubah kekacauan menjadi kejernihan.” Pengiriman tertunda: barang menumpuk, pesanan terlambat, keluhan pelanggan, biaya membengkak, keputusan harus diambil sekarang!"
-         }
-        },
-        {
-         "title": {
-          "en": "A real-world situation: why defining the problem matters",
-          "id": "Situasi nyata: kenapa merumuskan masalah itu penting"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. A real-world situation: why defining the problem matters. Situation → hypothesis → pressure → investigate (IT) → validate (operations) → learn. 1 The situation. Payments suddenly stop: “I was at my desk, watching the deliveries roll out and payments roll in, as they do every day. Suddenly, they stopped. Huh?” 2 Initial hypothesis. A possible hacking incident: “I thought, what could this possibly be? Then a lightbulb lit up! I remembered a special TV segment about a series of hacking incidents. We'd clearly been hacked. Now we've got a big problem!” 3 Pressure. Executive urgency: “This had never happened before, and it could be catastrophic. The head of the company was away that day. I couldn't wait until she got back. I needed to solve the problem right away!” 4 Investigate with IT. Check for technical issues: “I checked with IT to make sure it wasn't a technical glitch with the payment notifications. They said all the diagnostics were coming back clear on their end, and everything seemed in order.” 5 Investigate with operations. Check with drivers: “I checked in with the drivers' supervisor to make sure there weren't issues on their end. Nothing!” 6 Reflection. What did Joe miss? Expert answer: while Joe came up with several reasonable hypotheses, he missed a critical first step, defining the problem. Instead, he relied on his gut, which led him to the wrong conclusion. A clearly defined problem question could have helped, such as: “How does the payment process work? What could cause an abrupt stoppage of payments?” By stopping to think about all the contributing factors first, he could have ruled out unlikely causes, prioritized the most likely ones, and tested them systematically. Key takeaway: define the problem before jumping to a solution. What would you do differently? Take a minute to reflect: how could Joe have approached this differently? Better questions, better solutions.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Situasi nyata: kenapa merumuskan masalah itu penting. Situasi → hipotesis → tekanan → selidiki (TI) → pastikan (operasional) → belajar. 1 Situasinya. Pembayaran tiba-tiba berhenti: “Aku sedang di meja, melihat pengiriman berjalan dan pembayaran masuk seperti biasa setiap hari. Tiba-tiba, semuanya berhenti. Lho?” 2 Hipotesis awal. Kemungkinan peretasan: “Aku berpikir, apa ya penyebabnya? Lalu muncul ide! Aku ingat tayangan khusus di TV tentang serangkaian kasus peretasan. Kami pasti diretas. Sekarang kami punya masalah besar!” 3 Tekanan. Urgensi dari pimpinan: “Ini belum pernah terjadi sebelumnya, dan akibatnya bisa fatal. Pimpinan perusahaan sedang tidak di kantor hari itu. Aku tidak bisa menunggu sampai ia kembali. Aku harus memecahkan masalah ini sekarang juga!” 4 Selidiki bersama TI. Cek masalah teknis: “Aku mengecek ke tim TI untuk memastikan ini bukan gangguan teknis pada notifikasi pembayaran. Mereka bilang semua diagnosis dari sisi mereka bersih, dan semuanya tampak normal.” 5 Selidiki bersama operasional. Cek ke para pengemudi: “Aku menghubungi supervisor pengemudi untuk memastikan tidak ada masalah di pihak mereka. Tidak ada apa-apa!” 6 Refleksi. Apa yang terlewat oleh Joe? Jawaban ahli: meski Joe menemukan beberapa hipotesis yang masuk akal, ia melewatkan satu langkah pertama yang menentukan, yaitu merumuskan masalahnya. Ia justru mengandalkan naluri, dan naluri itu membawanya ke kesimpulan yang salah. Pertanyaan masalah yang dirumuskan dengan jelas bisa membantu, misalnya: “Bagaimana proses pembayarannya bekerja? Apa yang bisa membuat pembayaran berhenti mendadak?” Dengan berhenti sejenak untuk memikirkan semua faktor yang berperan lebih dulu, ia bisa menyingkirkan penyebab yang tidak mungkin, memprioritaskan yang paling mungkin, dan mengujinya secara sistematis. Intinya: rumuskan masalahnya sebelum melompat ke solusi. Apa yang akan kamu lakukan secara berbeda? Luangkan waktu semenit untuk merenung: bagaimana Joe bisa mendekati ini dengan cara lain? Pertanyaan yang lebih baik, solusi yang lebih baik."
-         }
-        }
-       ]
-      }
-     ],
      "videos": [
       {
        "src": {
@@ -3150,10 +2813,9 @@ window.MT_LMS['the-map'] = {
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows these slides: Kirana, a tutoring room that has emptied, and how a complaint becomes a problem she can work on. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide ini: Kirana, ruang tutor yang makin sepi, dan bagaimana sebuah keluhan berubah menjadi masalah yang bisa ia kerjakan. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Kirana, a tutoring room that has emptied, and how a complaint becomes a problem she can work on. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Kirana, ruang tutor yang makin sepi, dan bagaimana sebuah keluhan berubah menjadi masalah yang bisa ia kerjakan. Tonton, lalu lanjutkan ke bacaan di bawah."
      },
-     "videosPlacement": "after-material:2",
      "diagram": {
       "type": "flow",
       "exhibit": {
@@ -3459,7 +3121,581 @@ window.MT_LMS['the-map'] = {
         "id": "Kondisi sekarang, kondisi yang diinginkan beserta tanggalnya, dan hambatan yang disebutkan. Pilihan lainnya adalah keluhan, solusi, atau sejarah, dan tidak ada yang bisa digarap."
        }
       }
-     ]
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "From Complaint to Problem",
+       "id": "Dari Keluhan ke Masalah"
+      },
+      "intro": {
+       "en": "Seven ideas in a few minutes. Then a short film, and the reading below works through each one.",
+       "id": "Tujuh gagasan dalam beberapa menit. Setelah itu satu film singkat, lalu bacaan di bawah membahas masing-masing."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "A method, not a talent",
+         "id": "Metode, bukan bakat"
+        },
+        "points": [
+         {
+          "en": "Four steps, the same for a club, a company or your own next move.",
+          "id": "Empat langkah, sama untuk sebuah organisasi, perusahaan, atau langkahmu sendiri berikutnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four ways to get stuck",
+         "id": "Empat cara menjadi buntu"
+        },
+        "points": [
+         {
+          "en": "Watch any committee for a week and you will see all four at one table.",
+          "id": "Amati kepanitiaan mana pun selama seminggu dan kamu akan melihat keempatnya di satu meja."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A complaint is not a problem",
+         "id": "Keluhan bukan masalah"
+        },
+        "points": [
+         {
+          "en": "Most stated problems are symptoms. Narrow them before you discuss any solution.",
+          "id": "Sebagian besar masalah yang diucapkan adalah gejala. Persempit dulu sebelum membahas solusi apa pun."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The logic tree",
+         "id": "Pohon logika"
+        },
+        "points": [
+         {
+          "en": "Consultants call a tree like this MECE: mutually exclusive, collectively exhaustive.",
+          "id": "Para konsultan menyebut pohon seperti ini MECE: tidak saling tumpang tindih dan mencakup semuanya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A clean split",
+         "id": "Pembagian yang bersih"
+        },
+        "points": [
+         {
+          "en": "Split by one dimension at a time: year first, then faculty, then schedule.",
+          "id": "Bagi dengan satu dimensi setiap kali: angkatan dulu, lalu fakultas, lalu jadwal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The gap statement",
+         "id": "Pernyataan kesenjangan"
+        },
+        "points": [
+         {
+          "en": "Three short lines. Do not discuss solutions until all three are written down.",
+          "id": "Tiga baris pendek. Jangan bahas solusi sebelum ketiganya tertulis."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A question worth answering",
+         "id": "Pertanyaan yang layak dijawab"
+        },
+        "points": [
+         {
+          "en": "A common test is SMART: specific, measurable, action-oriented, relevant and time-bound.",
+          "id": "Uji yang umum dipakai adalah SMART: spesifik, terukur, berorientasi tindakan, relevan, dan berbatas waktu."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/stage-exploration.jpg",
+       "module": {
+        "en": "Module 3 · Problem Solving 101: Improve Our Life",
+        "id": "Modul 3 · Pemecahan Masalah 101: Memperbaiki Hidup Kita"
+       },
+       "lesson": {
+        "n": "3.1",
+        "title": {
+         "en": "Think Like a Problem Solver: The Four-Step Method",
+         "id": "Berpikir seperti Pemecah Masalah: Metode Empat Langkah"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Problem solving is a loop you walk in order, not a flash of insight",
+         "id": "Memecahkan masalah adalah putaran yang dijalani berurutan, bukan kilasan ilham"
+        },
+        {
+         "en": "Most people skip one step, and always the same one",
+         "id": "Kebanyakan orang melompati satu langkah, dan selalu langkah yang sama"
+        },
+        {
+         "en": "A complaint becomes a problem when you can say who, since when and at which stage",
+         "id": "Keluhan menjadi masalah saat kamu bisa menyebut siapa, sejak kapan, dan di tahap mana"
+        },
+        {
+         "en": "A logic tree breaks one question into branches with no gaps and no overlaps",
+         "id": "Pohon logika memecah satu pertanyaan menjadi cabang-cabang tanpa celah dan tanpa tumpang tindih"
+        },
+        {
+         "en": "A clean split puts every item on exactly one branch",
+         "id": "Pembagian yang bersih menaruh setiap hal di tepat satu cabang"
+        },
+        {
+         "en": "Write the problem as a gap: current state, desired state, obstacle",
+         "id": "Tulis masalahnya sebagai kesenjangan: kondisi sekarang, kondisi yang diinginkan, hambatan"
+        },
+        {
+         "en": "A good problem question is specific, measurable and has a date",
+         "id": "Pertanyaan masalah yang baik itu spesifik, terukur, dan punya tanggal"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "A method, not a talent",
+          "id": "Metode, bukan bakat"
+         },
+         "p": {
+          "en": "At work nobody asks how much you know. They ask what happened to the thing you owned.",
+          "id": "Di tempat kerja tak ada yang bertanya seberapa banyak yang kamu tahu. Mereka bertanya apa kabar hal yang menjadi tanggung jawabmu."
+         }
+        },
+        {
+         "h": {
+          "en": "Four ways to get stuck",
+          "id": "Empat cara menjadi buntu"
+         },
+         "p": {
+          "en": "These are habits, not personality types. Notice which step you skip, and slow down there.",
+          "id": "Ini kebiasaan, bukan tipe kepribadian. Sadari langkah mana yang kamu lompati, lalu pelankan di situ."
+         }
+        },
+        {
+         "h": {
+          "en": "A complaint is not a problem",
+          "id": "Keluhan bukan masalah"
+         },
+         "p": {
+          "en": "A solution to an undefined problem is a lottery ticket.",
+          "id": "Solusi untuk masalah yang belum dirumuskan sama saja dengan tiket undian."
+         }
+        },
+        {
+         "h": {
+          "en": "The logic tree",
+          "id": "Pohon logika"
+         },
+         "p": {
+          "en": "Consultants call a tree like this MECE: mutually exclusive, collectively exhaustive.",
+          "id": "Para konsultan menyebut pohon seperti ini MECE: tidak saling tumpang tindih dan mencakup semuanya."
+         }
+        },
+        {
+         "h": {
+          "en": "A clean split",
+          "id": "Pembagian yang bersih"
+         },
+         "p": {
+          "en": "Avoid a branch called “other”. It is where the real cause likes to hide.",
+          "id": "Hindari cabang bernama “lain-lain”. Di situlah penyebab yang sebenarnya suka bersembunyi."
+         }
+        },
+        {
+         "h": {
+          "en": "The gap statement",
+          "id": "Pernyataan kesenjangan"
+         },
+         "p": {
+          "en": "A complaint becomes a problem when it has a number and an obstacle.",
+          "id": "Keluhan menjadi masalah saat punya angka dan hambatan."
+         }
+        },
+        {
+         "h": {
+          "en": "A question worth answering",
+          "id": "Pertanyaan yang layak dijawab"
+         },
+         "p": {
+          "en": "The sharper the question, the smaller the search.",
+          "id": "Makin tajam pertanyaannya, makin sempit pencariannya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Problem solving is a loop you walk in order, not a flash of insight",
+          "id": "Memecahkan masalah adalah putaran yang dijalani berurutan, bukan kilasan ilham"
+         },
+         "em": {
+          "en": "a loop you walk in order",
+          "id": "putaran yang dijalani berurutan"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Understand",
+           "id": "Pahami",
+           "d": {
+            "en": "What exactly is wrong, for whom, since when?",
+            "id": "Apa persisnya yang salah, bagi siapa, sejak kapan?"
+           }
+          },
+          {
+           "icon": "question",
+           "en": "Root cause",
+           "id": "Akar masalah",
+           "d": {
+            "en": "Why is it happening?",
+            "id": "Kenapa itu terjadi?"
+           }
+          },
+          {
+           "icon": "clipboard",
+           "en": "Plan",
+           "id": "Rencana",
+           "d": {
+            "en": "What will we do, who does it, by when?",
+            "id": "Apa yang dilakukan, siapa pelakunya, kapan selesai?"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Execute and adjust",
+           "id": "Jalankan dan sesuaikan",
+           "d": {
+            "en": "Do it, measure, change course",
+            "id": "Kerjakan, ukur, ubah arah"
+           }
+          }
+         ],
+         "band": {
+          "en": "At work nobody asks how much you know. They ask what happened to the thing you owned.",
+          "id": "Di tempat kerja tak ada yang bertanya seberapa banyak yang kamu tahu. Mereka bertanya apa kabar hal yang menjadi tanggung jawabmu."
+         },
+         "img": "../../assets/bg/stage-exploration.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Most people skip one step, and always the same one",
+          "id": "Kebanyakan orang melompati satu langkah, dan selalu langkah yang sama"
+         },
+         "em": {
+          "en": "always the same one",
+          "id": "selalu langkah yang sama"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "pause",
+           "en": "Stops at the complaint",
+           "id": "Berhenti di keluhan",
+           "d": {
+            "en": "“Nothing works here.” Never reaches step one",
+            "id": "“Di sini tak ada yang beres.” Tak pernah sampai ke langkah satu"
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "Judges every plan",
+           "id": "Menilai semua rencana",
+           "d": {
+            "en": "Analyses other people's ideas, never writes one",
+            "id": "Menganalisis ide orang lain, tak pernah menulis idenya sendiri"
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "bulb",
+           "en": "Ideas all day",
+           "id": "Ide sepanjang hari",
+           "d": {
+            "en": "No dates, no owner, nothing executed",
+            "id": "Tanpa tanggal, tanpa penanggung jawab, tak ada yang dijalankan"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "rocket",
+           "en": "Acts at once",
+           "id": "Langsung bertindak",
+           "d": {
+            "en": "From complaint to action with no diagnosis",
+            "id": "Dari keluhan langsung ke tindakan tanpa diagnosis"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          }
+         ],
+         "band": {
+          "en": "These are habits, not personality types. Notice which step you skip, and slow down there.",
+          "id": "Ini kebiasaan, bukan tipe kepribadian. Sadari langkah mana yang kamu lompati, lalu pelankan di situ."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A complaint becomes a problem when you can say who, since when and at which stage",
+          "id": "Keluhan menjadi masalah saat kamu bisa menyebut siapa, sejak kapan, dan di tahap mana"
+         },
+         "em": {
+          "en": "who, since when and at which stage",
+          "id": "siapa, sejak kapan, dan di tahap mana"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "chat",
+           "en": "“Nobody comes to tutoring any more.”",
+           "id": "“Tidak ada lagi yang datang ke tutor.”",
+           "l": {
+            "en": "A complaint",
+            "id": "Keluhan"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "“First-years stopped coming after midterms. They sign up, then do not show.”",
+           "id": "“Mahasiswa tahun pertama berhenti datang setelah UTS. Mereka mendaftar, lalu tidak hadir.”",
+           "l": {
+            "en": "A problem",
+            "id": "Masalah"
+           },
+           "img": "../../assets/bg/stage-activation.jpg"
+          }
+         ],
+         "band": {
+          "en": "A solution to an undefined problem is a lottery ticket.",
+          "id": "Solusi untuk masalah yang belum dirumuskan sama saja dengan tiket undian."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A logic tree breaks one question into branches with no gaps and no overlaps",
+          "id": "Pohon logika memecah satu pertanyaan menjadi cabang-cabang tanpa celah dan tanpa tumpang tindih"
+         },
+         "em": {
+          "en": "no gaps and no overlaps",
+          "id": "tanpa celah dan tanpa tumpang tindih"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "arrow",
+           "en": "Ask “specifically what?” or “specifically how?” at every branch.",
+           "id": "Tanyakan “persisnya apa?” atau “persisnya bagaimana?” di setiap cabang.",
+           "l": {
+            "en": "Grow it left to right",
+            "id": "Tumbuhkan dari kiri ke kanan"
+           }
+          },
+          {
+           "icon": "tag",
+           "en": "Ask “what can I call this group?” If you cannot name it, the branch is wrong.",
+           "id": "Tanyakan “kelompok ini bisa kunamai apa?” Kalau tak bisa dinamai, cabangnya keliru.",
+           "l": {
+            "en": "Check it right to left",
+            "id": "Periksa dari kanan ke kiri"
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Could four teammates each take a branch, with no duplicated work and no ground left uncovered?",
+           "id": "Bisakah empat rekan masing-masing mengambil satu cabang, tanpa kerja ganda dan tanpa wilayah yang terlewat?",
+           "l": {
+            "en": "Test it by delegation",
+            "id": "Uji dengan pembagian tugas"
+           }
+          }
+         ],
+         "img": "../../assets/bg/map.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A clean split puts every item on exactly one branch",
+          "id": "Pembagian yang bersih menaruh setiap hal di tepat satu cabang"
+         },
+         "em": {
+          "en": "exactly one branch",
+          "id": "tepat satu cabang"
+         },
+         "layout": "columns",
+         "cols": [
+          {
+           "icon": "x",
+           "l": {
+            "en": "Overlapping",
+            "id": "Tumpang tindih"
+           },
+           "d": {
+            "en": "One student can sit on two branches",
+            "id": "Satu mahasiswa bisa berada di dua cabang"
+           },
+           "items": [
+            {
+             "icon": "person",
+             "en": "First-years",
+             "id": "Mahasiswa tahun pertama"
+            },
+            {
+             "icon": "gear",
+             "en": "Engineering students",
+             "id": "Mahasiswa teknik"
+            },
+            {
+             "icon": "clock",
+             "en": "Students with part-time jobs",
+             "id": "Mahasiswa yang kerja paruh waktu"
+            }
+           ]
+          },
+          {
+           "icon": "check",
+           "l": {
+            "en": "Clean",
+            "id": "Bersih"
+           },
+           "d": {
+            "en": "Each student sits on one branch",
+            "id": "Setiap mahasiswa berada di satu cabang"
+           },
+           "items": [
+            {
+             "icon": "person",
+             "en": "First-years",
+             "id": "Tahun pertama"
+            },
+            {
+             "icon": "person",
+             "en": "Second-years",
+             "id": "Tahun kedua"
+            },
+            {
+             "icon": "person",
+             "en": "Third-years and above",
+             "id": "Tahun ketiga ke atas"
+            }
+           ]
+          }
+         ],
+         "band": {
+          "en": "Avoid a branch called “other”. It is where the real cause likes to hide.",
+          "id": "Hindari cabang bernama “lain-lain”. Di situlah penyebab yang sebenarnya suka bersembunyi."
+         },
+         "img": "../../assets/bg/ep-stage-architecture.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Write the problem as a gap: current state, desired state, obstacle",
+          "id": "Tulis masalahnya sebagai kesenjangan: kondisi sekarang, kondisi yang diinginkan, hambatan"
+         },
+         "em": {
+          "en": "current state, desired state, obstacle",
+          "id": "kondisi sekarang, kondisi yang diinginkan, hambatan"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pin",
+           "en": "Current state",
+           "id": "Kondisi sekarang",
+           "d": {
+            "en": "9 first-years a week",
+            "id": "9 mahasiswa tahun pertama per minggu"
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "Desired state",
+           "id": "Kondisi yang diinginkan",
+           "d": {
+            "en": "30 a week by the end of term",
+            "id": "30 per minggu di akhir semester"
+           }
+          },
+          {
+           "icon": "lock",
+           "en": "Obstacle",
+           "id": "Hambatan",
+           "d": {
+            "en": "Since midterms, sessions clash with the new lab schedule",
+            "id": "Sejak UTS, sesi bentrok dengan jadwal praktikum yang baru"
+           }
+          }
+         ],
+         "band": {
+          "en": "A complaint becomes a problem when it has a number and an obstacle.",
+          "id": "Keluhan menjadi masalah saat punya angka dan hambatan."
+         },
+         "img": "../../assets/bg/fg-sprint-direction.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A good problem question is specific, measurable and has a date",
+          "id": "Pertanyaan masalah yang baik itu spesifik, terukur, dan punya tanggal"
+         },
+         "em": {
+          "en": "specific, measurable and has a date",
+          "id": "spesifik, terukur, dan punya tanggal"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "question",
+           "en": "“How can we improve tutoring?”",
+           "id": "“Bagaimana cara memperbaiki program tutor?”",
+           "l": {
+            "en": "Vague",
+            "id": "Samar"
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "“How can we bring first-year attendance from 9 to 30 a week by the end of term, without adding tutors?”",
+           "id": "“Bagaimana menaikkan kehadiran mahasiswa tahun pertama dari 9 menjadi 30 per minggu di akhir semester, tanpa menambah tutor?”",
+           "l": {
+            "en": "Sharp",
+            "id": "Tajam"
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          }
+         ],
+         "band": {
+          "en": "The sharper the question, the smaller the search.",
+          "id": "Makin tajam pertanyaannya, makin sempit pencariannya."
+         }
+        }
+       ]
+      }
+     }
     },
     {
      "n": "3.2",
@@ -3515,276 +3751,6 @@ window.MT_LMS['the-map'] = {
       {
        "en": "Outcome = quality of the plan × quality of the execution; a plan without owners and dates has an execution score of zero.",
        "id": "Hasil = mutu rencana × mutu pelaksanaan. Rencana tanpa penanggung jawab dan tanggal punya nilai pelaksanaan nol."
-      }
-     ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 6 slides",
-        "id": "Baca dulu · 6 slide"
-       },
-       "title": {
-        "en": "Root Causes and Action Plans: Material",
-        "id": "Akar Masalah dan Rencana Tindakan: Materi"
-       },
-       "intro": {
-        "en": "Start with the deck. Six slides follow one case from symptom to result: the doctor's logic of symptom, diagnosis and prescription; a campus band's yes/no tree and first hypothesis; the survey that overturned it; the problem-solving design plan; thirteen ideas sorted by impact and ease; and the numbers two months later. Read them, then continue to the slides that follow.",
-        "id": "Mulai dari deknya. Enam slide mengikuti satu kasus dari gejala sampai hasil: logika dokter tentang gejala, diagnosis, dan resep; pohon ya/tidak sebuah band kampus beserta hipotesis pertamanya; survei yang mematahkannya; rencana rancangan pemecahan masalah; tiga belas ide yang dipilah menurut dampak dan kemudahan; dan angka-angkanya dua bulan kemudian. Baca semuanya, lalu lanjutkan ke slide berikutnya."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-root-",
-       "slides": [
-        {
-         "title": {
-          "en": "Think like a doctor",
-          "id": "Berpikir seperti dokter"
-         },
-         "text": {
-          "en": "A good doctor does not hand out medicine for a fever. She asks what is causing it, then treats that. Symptom: “I have a fever”, sales fell, nobody came, my grades dropped; the symptom is where you start, never where you stop. Diagnosis: the root cause. List possible causes, pick the most likely as a hypothesis, then test it with data before acting. Prescription: a solution that matches the cause; treat the symptom and it returns, treat the cause and it stays gone. Step 1, diagnose: 1A list all potential root causes; 1B form a hypothesis about the likely cause; 1C decide which analyses and information you need; 1D analyse, and identify the root cause. Step 2, cure: 2A develop a wide variety of solutions; 2B prioritise by impact and ease; 2C write an implementation plan: who, what, when.",
-          "id": "Dokter yang baik tidak langsung memberi obat untuk demam. Ia bertanya apa penyebabnya, lalu mengobati penyebab itu. Gejala: “saya demam”, penjualan turun, tidak ada yang datang, nilaiku anjlok. Gejala adalah titik awal, tidak pernah titik akhir. Diagnosis: akar masalahnya. Daftar kemungkinan penyebab, pilih yang paling mungkin sebagai hipotesis, lalu uji dengan data sebelum bertindak. Resep: solusi yang sesuai dengan penyebabnya. Obati gejalanya, dan masalahnya kembali. Obati penyebabnya, dan masalahnya tidak kembali. Langkah 1, diagnosis: 1A daftar semua kemungkinan akar masalah; 1B rumuskan hipotesis tentang penyebab yang paling mungkin; 1C tentukan analisis dan informasi yang kamu butuhkan; 1D lakukan analisis, lalu tentukan akar masalahnya. Langkah 2, pengobatan: 2A munculkan beragam solusi; 2B prioritaskan menurut dampak dan kemudahan; 2C tulis rencana pelaksanaan: siapa, apa, kapan."
-         }
-        },
-        {
-         "title": {
-          "en": "The campus band nobody comes to see",
-          "id": "Band kampus yang tidak ditonton siapa pun"
-         },
-         "text": {
-          "en": "Three friends play free lunchtime concerts. Attendance: 10, 15, 15. Their goal: fill the 200-seat hall. First question: where are the 500 students actually dropping off? A yes/no tree: of 500 students, aware of the band or not; of those aware, ever attended or never; of those who attended, keep coming or stopped. Each question splits the crowd into two groups with no overlap; where the “yes” branch gets thin is where the problem lives. Their hypothesis (1B): “only about 5% know we exist; of those, 60% come; everyone who comes keeps coming”, so the fix is awareness, if the hypothesis holds. A hypothesis is a guess written down so it can be tested, not a conclusion.",
-          "id": "Tiga sahabat memainkan konser gratis di jam makan siang. Jumlah penontonnya: 10, 15, 15. Tujuan mereka: memenuhi aula berkapasitas 200 kursi. Pertanyaan pertama: di titik mana 500 mahasiswa itu sebenarnya berguguran? Sebuah pohon ya/tidak: dari 500 mahasiswa, tahu band ini atau tidak; dari yang tahu, pernah datang atau belum pernah; dari yang pernah datang, terus datang atau berhenti. Setiap pertanyaan membelah kerumunan menjadi dua kelompok yang tidak tumpang tindih. Di cabang “ya” yang mulai menipis, di situlah masalahnya berada. Hipotesis mereka (1B): “hanya sekitar 5% yang tahu kami ada; dari mereka, 60% datang; semua yang pernah datang terus datang”. Jadi perbaikannya adalah membuat orang tahu, kalau hipotesisnya benar. Hipotesis adalah tebakan yang ditulis supaya bisa diuji, bukan kesimpulan."
-         }
-        },
-        {
-         "title": {
-          "en": "Data kills the first hypothesis",
-          "id": "Data mematahkan hipotesis pertama"
-         },
-         "text": {
-          "en": "A five-question survey through homeroom teachers reached all 500 students. The numbers did not match the guess: 500 students on campus; 150 aware of the band (30%); 15 have attended (10% of those aware); 12 attend consistently (80% repeat). Awareness was six times higher than assumed. The real leak: 90% of people who knew the band had never tried a concert. Interviews: why not? “I don't know what kind of music you play.” “I can't tell if you're any good.” “Saturday noon clashes with my sports club.” Repeaters: “It's good, but the same songs every time get boring.” Root cause (1D): people do not know what they would get, and the timing blocks them. Retention is fine.",
-          "id": "Survei lima pertanyaan lewat para wali kelas menjangkau ke-500 mahasiswa. Angkanya tidak cocok dengan tebakan: 500 mahasiswa di kampus; 150 tahu band itu (30%); 15 pernah datang (10% dari yang tahu); 12 datang secara rutin (80% datang lagi). Yang tahu ternyata enam kali lebih banyak dari dugaan. Kebocoran yang sebenarnya: 90% orang yang tahu band itu belum pernah mencoba datang ke konsernya. Wawancara: kenapa tidak datang? “Aku tidak tahu kalian main musik jenis apa.” “Aku tidak tahu kalian bagus atau tidak.” “Sabtu siang bentrok dengan klub olahragaku.” Yang datang lagi bilang: “Bagus, tapi lagunya itu-itu saja, jadi bosan.” Akar masalahnya (1D): orang tidak tahu apa yang akan mereka dapat, dan waktunya menghalangi mereka. Soal penonton yang kembali, tidak ada masalah."
-         }
-        },
-        {
-         "title": {
-          "en": "The problem-solving design plan",
-          "id": "Rencana rancangan pemecahan masalah"
-         },
-         "text": {
-          "en": "Before collecting any data, write the issues, your best guess for each, and exactly what evidence would settle it. It keeps research short and honest. Issue: how many students know the band exists? Hypothesis: about 5%. We have never advertised. Analysis: survey all 500 via homeroom teachers, count “aware”. Issue: of those aware, how many have come? Hypothesis: around 60%. A free concert is an easy yes. Analysis: same survey, cross-checked with our own headcounts. Issue: why do aware students not come? Hypothesis: timing, or they assume we are not good. Analysis: ten short interviews with non-attendees. Issue: why do some attendees stop coming? Hypothesis: nothing new to hear. Analysis: five interviews with one-time attendees. Rule: if you cannot say what result would change your mind, you are not testing a hypothesis; you are decorating a decision you already made.",
-          "id": "Sebelum mengumpulkan data apa pun, tuliskan isu-isunya, tebakan terbaikmu untuk masing-masing, dan bukti persis apa yang akan menjawabnya. Cara ini membuat risetnya singkat dan jujur. Isu: berapa banyak mahasiswa yang tahu band ini ada? Hipotesis: sekitar 5%. Kami belum pernah berpromosi. Analisis: survei ke-500 mahasiswa lewat wali kelas, hitung yang “tahu”. Isu: dari yang tahu, berapa yang pernah datang? Hipotesis: sekitar 60%. Konser gratis gampang diiyakan. Analisis: survei yang sama, dicocokkan dengan hitungan penonton kami sendiri. Isu: kenapa mahasiswa yang tahu tidak datang? Hipotesis: soal waktu, atau mereka mengira kami tidak bagus. Analisis: sepuluh wawancara singkat dengan yang belum pernah datang. Isu: kenapa sebagian penonton berhenti datang? Hipotesis: tidak ada yang baru untuk didengar. Analisis: lima wawancara dengan yang baru sekali datang. Aturannya: kalau kamu tidak bisa menyebut hasil apa yang akan mengubah pikiranmu, kamu tidak sedang menguji hipotesis. Kamu hanya menghias keputusan yang sudah kamu ambil."
-         }
-        },
-        {
-         "title": {
-          "en": "Many ideas, then impact × ease",
-          "id": "Banyak ide, lalu dampak × kemudahan"
-         },
-         "text": {
-          "en": "Thirteen ideas came from a logic tree of “ways to reach people” and “reasons to come back”. The matrix (impact on the vertical axis, ease of implementation on the horizontal) decides which ones to run first. Do first (high impact, easy): move the show to 5 p.m.; play one song in every homeroom; fans bring one friend; posters, with a design-student friend helping; 20% new songs each show. High impact but hard: a campus radio slot, a demo CD. Easy but low impact: a notice-board flyer. Hard and low impact: build a website. Ask for help. It moves the dots: posters were “hard” until a design-student friend offered to make them. Step 2C, the plan: who, what, by when. “Rani books the homeroom slots by Friday. Dimas asks Putri about posters tonight. New set list ready in two weeks.”",
-          "id": "Tiga belas ide lahir dari pohon logika “cara menjangkau orang” dan “alasan untuk kembali”. Matriksnya (dampak di sumbu tegak, kemudahan pelaksanaan di sumbu datar) menentukan ide mana yang dijalankan lebih dulu. Kerjakan dulu (dampak tinggi, mudah): pindahkan konser ke jam 5 sore; mainkan satu lagu di setiap kelas; penggemar membawa satu teman; poster, dibantu teman yang kuliah desain; 20% lagu baru di setiap konser. Dampak tinggi tetapi sulit: slot di radio kampus, CD demo. Mudah tetapi dampaknya kecil: selebaran di papan pengumuman. Sulit dan dampaknya kecil: membuat situs web. Minta bantuan, karena itu bisa memindahkan titik-titiknya: poster tadinya “sulit” sampai seorang teman yang kuliah desain menawarkan diri membuatnya. Langkah 2C, rencananya: siapa, apa, paling lambat kapan. “Rani memesan slot di kelas-kelas paling lambat Jumat. Dimas menanyakan soal poster ke Putri malam ini. Daftar lagu baru siap dalam dua minggu.”"
-         }
-        },
-        {
-         "title": {
-          "en": "Execute, measure, adjust",
-          "id": "Jalankan, ukur, sesuaikan"
-         },
-         "text": {
-          "en": "Two months later the same survey was run again. Aware: 30% to 90% of 500 students. Have attended: 10% to 50% of those aware. Keep coming: 80% to 90% of attendees. In the hall: 15 to 200+ seats filled. The plan worked because the diagnosis was right, and because they kept fixing what did not land. Outcome = quality of the plan × quality of the execution; a brilliant plan run half-heartedly scores like a poor one. The loop never quite closes: measure the same numbers you used to diagnose; keep what moved the numbers, rework what did not; write down what you learned; success teaches as much as failure.",
-          "id": "Dua bulan kemudian, survei yang sama dijalankan lagi. Yang tahu: dari 30% menjadi 90% dari 500 mahasiswa. Yang pernah datang: dari 10% menjadi 50% dari yang tahu. Yang terus datang: dari 80% menjadi 90% dari yang pernah datang. Di aula: dari 15 menjadi lebih dari 200 kursi terisi. Rencananya berhasil karena diagnosisnya tepat, dan karena mereka terus memperbaiki bagian yang belum berhasil. Hasil = mutu rencana × mutu pelaksanaan. Rencana yang cemerlang tetapi dijalankan setengah hati hasilnya sama saja dengan rencana yang buruk. Putarannya tidak pernah benar-benar selesai: ukur angka yang sama dengan yang kamu pakai untuk mendiagnosis; pertahankan yang menggerakkan angka, perbaiki yang tidak; catat apa yang kamu pelajari. Keberhasilan mengajarkan sama banyaknya dengan kegagalan."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Is it SMART? Material",
-        "id": "Apakah Sudah SMART? Materi"
-       },
-       "intro": {
-        "en": "After the case, four slides add a test for step 1 before you diagnose anything: is your problem question SMART (specific, measurable, actionable, relevant, time-bound)? The five criteria with an example each; the DentMerc team's question from 3.1 assessed against them, two criteria failing; and an expert rewrite that passes all five. Read them, then watch the film that follows.",
-        "id": "Setelah kasus itu, empat slide menambahkan satu ujian untuk langkah 1 sebelum kamu mendiagnosis apa pun: apakah pertanyaan masalahmu sudah SMART (specific, measurable, actionable, relevant, time-bound)? Kelima kriteria itu beserta contohnya masing-masing; pertanyaan tim DentMerc dari Pelajaran 3.1 yang dinilai dengan kriteria tersebut, dengan dua kriteria yang tidak terpenuhi; dan tulisan ulang versi ahli yang memenuhi kelimanya. Baca semuanya, lalu tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-smart-",
-       "slides": [
-        {
-         "title": {
-          "en": "Is it SMART? One question to always ask yourself",
-          "id": "Apakah sudah SMART? Satu pertanyaan yang selalu perlu kamu ajukan"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. A better question leads to a better solution. Is it SMART? One question to always ask yourself… After summarizing and defining the problem in one specific “problem question” or “problem statement,” the next step is to put it to the test. Is it SMART? A Specific, Measurable, Actionable, Relevant, and Time-bound problem question provides the necessary foundation for your problem-solving effort. Define the problem: summarize it into a clear problem question or problem statement. Test: is it SMART? Check if your problem question meets the five criteria below. S, Specific: is the problem clearly defined and focused? M, Measurable: can progress or success be measured? A, Actionable: is it something we can take action on? R, Relevant: does it align with broader goals and priorities? T, Time-bound: is there a clear time frame for resolution? Clarity today, bigger impact tomorrow. Better questions, brighter outcomes.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Pertanyaan yang lebih baik membawa ke solusi yang lebih baik. Apakah sudah SMART? Satu pertanyaan yang selalu perlu kamu ajukan pada dirimu… Setelah merangkum dan merumuskan masalahnya dalam satu “pertanyaan masalah” atau “pernyataan masalah” yang spesifik, langkah berikutnya adalah mengujinya. Apakah sudah SMART? Pertanyaan masalah yang Specific (spesifik), Measurable (terukur), Actionable (bisa ditindaklanjuti), Relevant (relevan), dan Time-bound (punya batas waktu) memberi fondasi yang dibutuhkan untuk upaya pemecahan masalahmu. Rumuskan masalahnya: rangkum menjadi pertanyaan atau pernyataan masalah yang jelas. Uji: apakah sudah SMART? Cek apakah pertanyaan masalahmu memenuhi lima kriteria di bawah ini. S, Specific: apakah masalahnya dirumuskan dengan jelas dan terfokus? M, Measurable: bisakah kemajuan atau keberhasilannya diukur? A, Actionable: apakah ini sesuatu yang bisa kita tindak lanjuti? R, Relevant: apakah selaras dengan tujuan dan prioritas yang lebih luas? T, Time-bound: apakah ada jangka waktu penyelesaian yang jelas? Kejelasan hari ini, dampak yang lebih besar esok hari. Pertanyaan yang lebih baik, hasil yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "SMART defined: a snapshot of SMART",
-          "id": "SMART dalam satu gambaran"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. SMART defined: a snapshot of SMART. A SMART problem question can have a large impact on your problem solving, by clarifying the challenge and defining what it really means to address it. S, Specific (clear and focused): is the question specific enough? Your problem question needs to be detailed enough so that those closest to the problem can understand exactly what needs to be solved. Example: “How can we reduce customer wait time at our Jakarta branch from 20 minutes to 10 minutes?” M, Measurable (can be measured): a measurable result will be instrumental in helping you determine that the problem is truly solved. It should be a quantifiable number. Example: “How can we increase customer satisfaction from 70% to 85% within 6 months?” A, Actionable (leads to action): the problem question should point to the action required to solve the problem. It usually includes words like “how” or “actions that need to be taken.” Example: “What actions can we take to improve the procurement process efficiency?” R, Relevant (aligned with goals): your problem question should be relevant to everyone involved in the situation: the executive, your team, and any other stakeholders. It's important to align everyone so you all have the same goals. Example: “How can we improve product quality to meet customer needs and support our company's growth targets?” T, Time-bound (has a clear timeline): problem questions should always be time-bound to ensure that everyone comes up with solutions that are practical in the timeframe you have defined. Example: “How can we successfully launch this new feature within the next 3 months?” “A better question discovers a better way forward.” Use SMART as a checklist to strengthen your problem question before moving to analysis and solution.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. SMART dalam satu gambaran. Pertanyaan masalah yang SMART bisa berdampak besar pada pemecahan masalahmu, karena memperjelas tantangannya dan apa artinya benar-benar mengatasinya. S, Specific (jelas dan terfokus): apakah pertanyaannya cukup spesifik? Pertanyaan masalahmu perlu cukup rinci sehingga orang-orang yang paling dekat dengan masalahnya bisa memahami persis apa yang perlu dipecahkan. Contoh: “Bagaimana kita bisa memangkas waktu tunggu nasabah di cabang Jakarta dari 20 menit menjadi 10 menit?” M, Measurable (bisa diukur): hasil yang terukur akan sangat membantumu memastikan bahwa masalahnya benar-benar tuntas. Hasil itu sebaiknya berupa angka yang bisa dihitung. Contoh: “Bagaimana kita bisa menaikkan kepuasan pelanggan dari 70% menjadi 85% dalam 6 bulan?” A, Actionable (mengarah ke tindakan): pertanyaan masalahnya sebaiknya menunjuk ke tindakan yang dibutuhkan untuk memecahkan masalah. Biasanya memuat kata seperti “bagaimana” atau “tindakan yang perlu diambil”. Contoh: “Tindakan apa yang bisa kita ambil untuk membuat proses pengadaan lebih efisien?” R, Relevant (selaras dengan tujuan): pertanyaan masalahmu sebaiknya relevan bagi semua orang yang terlibat dalam situasinya: pimpinan, timmu, dan pemangku kepentingan lainnya. Penting untuk menyelaraskan semua orang supaya kalian punya tujuan yang sama. Contoh: “Bagaimana kita bisa meningkatkan mutu produk supaya memenuhi kebutuhan pelanggan dan mendukung target pertumbuhan perusahaan?” T, Time-bound (punya jadwal yang jelas): pertanyaan masalah sebaiknya selalu punya batas waktu, supaya semua orang menyusun solusi yang masuk akal dalam jangka waktu yang sudah kamu tetapkan. Contoh: “Bagaimana kita bisa berhasil meluncurkan fitur baru ini dalam 3 bulan ke depan?” “Pertanyaan yang lebih baik menemukan jalan maju yang lebih baik.” Pakai SMART sebagai daftar periksa untuk memperkuat pertanyaan masalahmu sebelum masuk ke analisis dan solusi."
-         }
-        },
-        {
-         "title": {
-          "en": "What would have been better? Defining the problem is an iterative process",
-          "id": "Seperti apa yang lebih baik? Merumuskan masalah adalah proses yang berulang"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. What would have been better? Defining the problem is an iterative process. A well-defined problem question leads to better insights, sharper analysis, and more effective solutions. 1. The context: recall that the DentMerc marketing VP Arun is in the middle of a necessarily quick review of his team's marketing research proposal for their CEO. After a brief discussion, the team agrees that they are setting out to answer the following question: “Should DentMerc enter the well-established Southeast Asian toothbrush market with a new product, the Click*Brush?” Good start, but can we make this better? 2. Your turn: take a moment to think of an improved version of DentMerc's problem question, and think about why your improved version is better, making sure to reference SMART criteria (Specific, Measurable, Actionable, Relevant, and Time-bound) in your answer. Think deeper. What is missing? What additional information do we need? Apply SMART. Is it Specific, Measurable, Actionable, Relevant, and Time-bound? Refine. How can we make the question clearer and more impactful? Make an impact. A better question leads to better insights and better decisions. “A better question leads to a better decision.” Great problem solving starts with a great problem question. And great questions are rarely perfect on the first try. Pause, reframe, go further.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Seperti apa yang lebih baik? Merumuskan masalah adalah proses yang berulang. Pertanyaan masalah yang dirumuskan dengan baik membawa ke wawasan yang lebih baik, analisis yang lebih tajam, dan solusi yang lebih efektif. 1. Konteksnya: ingat lagi bahwa Arun, VP pemasaran DentMerc, sedang meninjau dengan cepat usulan riset pemasaran timnya untuk sang CEO. Setelah berdiskusi singkat, tim sepakat bahwa mereka ingin menjawab pertanyaan berikut: “Perlukah DentMerc masuk ke pasar sikat gigi Asia Tenggara yang sudah mapan dengan produk baru, Click*Brush?” Awal yang baik, tetapi bisakah kita membuatnya lebih baik? 2. Giliranmu: luangkan waktu untuk memikirkan versi yang lebih baik dari pertanyaan masalah DentMerc, dan pikirkan kenapa versimu lebih baik, dengan menyebut kriteria SMART (Specific, Measurable, Actionable, Relevant, Time-bound) dalam jawabanmu. Berpikir lebih dalam. Apa yang kurang? Informasi tambahan apa yang kita butuhkan? Terapkan SMART. Apakah sudah Specific, Measurable, Actionable, Relevant, dan Time-bound? Perhalus. Bagaimana kita bisa membuat pertanyaannya lebih jelas dan lebih berdampak? Ciptakan dampak. Pertanyaan yang lebih baik membawa ke wawasan dan keputusan yang lebih baik. “Pertanyaan yang lebih baik membawa ke keputusan yang lebih baik.” Pemecahan masalah yang hebat dimulai dari pertanyaan masalah yang hebat. Dan pertanyaan yang hebat jarang sempurna di percobaan pertama. Berhenti sejenak, bingkai ulang, melangkah lebih jauh."
-         }
-        },
-        {
-         "title": {
-          "en": "Expert answer",
-          "id": "Jawaban ahli"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Expert answer. While it is not always possible to fill out each component of SMART, especially when working in a tight time frame, it is still valuable to look at the existing problem question and each component of SMART. Assessment of the existing question: “Should DentMerc enter the well-established Southeast Asian toothbrush market with a new product, the Click*Brush?” S, Specific: the DentMerc team's problem question is relatively specific; they are determining whether to enter the Southeast Asian toothbrush market with a particular product, relatively specific. M, Measurable: the team's question does not include a measurable perspective or how they'll know they have adequately addressed the problem; a “yes, enter the market” or “no, don't enter the market” response is required, not measurable. A, Actionable: the question is actionable; once answered, the company will either take action to enter or not; as they dive deeper, they may need to identify critical factors to inform this decision, actionable. R, Relevant: the team has done a great job defining for whom the actions are most relevant (DentMerc), relevant. T, Time-bound: the timeline for arriving at a solution is not specified, not time-bound. A more SMART problem question might be: “What market research can we gather and analyze in a one-month time frame that will best help us determine whether DentMerc should enter the well-established Southeast Asian toothbrush market with a new product, the Click*Brush?” Why is this better? More specific: it refines the question to focus on the market research needed for decision-making. Measurable: it implies concrete outputs (market research and analysis) that can be evaluated. Actionable: it leads to clear next steps (gather and analyze research). Relevant: still directly aligned with DentMerc's strategic decision. Time-bound: it includes a clear timeline (one month). Key takeaway: even if all elements of SMART cannot be fully defined, assessing each component helps identify gaps and refine the question for a stronger problem-solving process. “A clearer problem question today leads to better decisions tomorrow.” Defining a problem is often an iterative process.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Jawaban ahli. Meski tidak selalu mungkin mengisi setiap unsur SMART, terutama saat waktunya sempit, tetap berharga untuk melihat pertanyaan masalah yang sudah ada dan setiap unsur SMART-nya. Penilaian atas pertanyaan yang ada: “Perlukah DentMerc masuk ke pasar sikat gigi Asia Tenggara yang sudah mapan dengan produk baru, Click*Brush?” S, Specific: pertanyaan masalah tim DentMerc cukup spesifik. Mereka sedang menentukan apakah perlu masuk ke pasar sikat gigi Asia Tenggara dengan satu produk tertentu. Cukup spesifik. M, Measurable: pertanyaan tim tidak memuat sudut pandang yang terukur atau cara mereka tahu bahwa masalahnya sudah tertangani dengan memadai. Yang dibutuhkan hanya jawaban “ya, masuk ke pasar” atau “tidak, jangan masuk ke pasar”. Tidak terukur. A, Actionable: pertanyaannya bisa ditindaklanjuti. Setelah terjawab, perusahaan akan bertindak untuk masuk atau tidak. Saat menggali lebih dalam, mereka mungkin perlu mengenali faktor-faktor penting yang menjadi dasar keputusan ini. Bisa ditindaklanjuti. R, Relevant: tim sudah sangat baik merumuskan bagi siapa tindakannya paling relevan (DentMerc). Relevan. T, Time-bound: jangka waktu untuk sampai pada solusi tidak disebutkan. Tidak punya batas waktu. Pertanyaan masalah yang lebih SMART bisa berbunyi: “Riset pasar apa yang bisa kita kumpulkan dan analisis dalam waktu satu bulan, yang paling membantu kita menentukan apakah DentMerc perlu masuk ke pasar sikat gigi Asia Tenggara yang sudah mapan dengan produk baru, Click*Brush?” Kenapa ini lebih baik? Lebih spesifik: pertanyaannya dipertajam supaya berfokus pada riset pasar yang dibutuhkan untuk mengambil keputusan. Terukur: tersirat ada keluaran konkret (riset pasar dan analisisnya) yang bisa dinilai. Bisa ditindaklanjuti: mengarah ke langkah berikutnya yang jelas (kumpulkan dan analisis risetnya). Relevan: tetap selaras langsung dengan keputusan strategis DentMerc. Punya batas waktu: memuat jangka waktu yang jelas (satu bulan). Intinya: meski tidak semua unsur SMART bisa dirumuskan sepenuhnya, menilai setiap unsurnya membantu menemukan celah dan memperhalus pertanyaan untuk proses pemecahan masalah yang lebih kuat. “Pertanyaan masalah yang lebih jelas hari ini membawa ke keputusan yang lebih baik esok hari.” Merumuskan masalah sering kali merupakan proses yang berulang."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 5 slides",
-        "id": "Baca berikutnya · 5 slide"
-       },
-       "title": {
-        "en": "Getting Crystal Clear on Your Problem: Material",
-        "id": "Memahami Masalahmu dengan Sejernih-jernihnya: Materi"
-       },
-       "intro": {
-        "en": "After the film, five slides add a second tool for step 1: the Problem Statement Worksheet. Why a worksheet helps (clarity, aligned stakeholders, better ideas, focus); what it holds (a SMART problem question at the centre, surrounded by context, stakeholders, constraints, scope, criteria for success and key sources of insight); how to use it on the job as a mental checklist; and why asking the right questions is the fastest way to a better problem definition.",
-        "id": "Setelah film, lima slide menambahkan alat kedua untuk langkah 1: Lembar Kerja Pernyataan Masalah. Kenapa lembar kerja membantu (kejelasan, pemangku kepentingan yang selaras, ide yang lebih baik, fokus); apa isinya (pertanyaan masalah yang SMART di tengah, dikelilingi konteks, pemangku kepentingan, batasan, cakupan, kriteria keberhasilan, dan sumber wawasan utama); cara memakainya di tempat kerja sebagai daftar periksa di kepala; dan kenapa mengajukan pertanyaan yang tepat adalah jalan tercepat menuju perumusan masalah yang lebih baik."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-clear-",
-       "slides": [
-        {
-         "title": {
-          "en": "Getting crystal clear on your problem",
-          "id": "Memahami masalahmu dengan sejernih-jernihnya"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Getting crystal clear on your problem. A well-defined problem is the foundation for better thinking, stronger ideas, and more effective solutions. Getting the problem question right is just one aspect of robust problem definition. You can use another tool, a Problem Statement Worksheet, to help ensure you're thinking through the most important elements of a problem. Explore the Problem Statement Worksheet: let's take a closer look. A practical tool for deeper understanding: the Problem Statement Worksheet, found in the Problem Solving section of the Forward Learning Workbook, helps you and your team gain a deeper understanding of the problem by reflecting on and discussing the problem, people involved, and scope. This awareness often generates great ideas that can be used to help you solve the problem. Post a copy of the worksheet in your office and refer to it frequently to stay focused on the right problem, even when you don't have a lot of time. Worksheet: from uncertainty to clarity. The problem (what is the core challenge?), people involved (who are the key stakeholders?), scope (what is included and excluded?), impact (why does it matter?), next steps (what do we need to find out?). Why use the Problem Statement Worksheet? Gain clarity: think through the most important elements of the problem. Align stakeholders. Build a shared understanding across the team. Generate better ideas. Uncover insights that lead to stronger solutions. Stay focused. Keep working on the right problem, even when time is limited. Key takeaway: a clear problem definition sets the direction for everything that follows. Use the Problem Statement Worksheet to turn ambiguity into clarity. “The right clarity today creates greater possibilities tomorrow.”",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Memahami masalahmu dengan sejernih-jernihnya. Masalah yang dirumuskan dengan baik adalah fondasi bagi cara berpikir yang lebih baik, ide yang lebih kuat, dan solusi yang lebih efektif. Merumuskan pertanyaan masalah dengan tepat hanyalah satu bagian dari perumusan masalah yang kokoh. Kamu bisa memakai alat lain, Lembar Kerja Pernyataan Masalah, untuk memastikan kamu sudah memikirkan unsur-unsur terpenting dari sebuah masalah. Kenali Lembar Kerja Pernyataan Masalah: mari kita lihat lebih dekat. Alat praktis untuk pemahaman yang lebih dalam: Lembar Kerja Pernyataan Masalah, yang ada di bagian Pemecahan Masalah dalam Forward Learning Workbook, membantumu dan timmu memahami masalahnya lebih dalam dengan merenungkan dan membicarakan masalahnya, orang-orang yang terlibat, dan cakupannya. Kesadaran ini sering memunculkan ide-ide bagus yang bisa dipakai untuk memecahkan masalah. Tempel salinan lembar kerja ini di ruang kerjamu dan sering-seringlah merujuknya supaya tetap fokus pada masalah yang tepat, bahkan saat waktumu tidak banyak. Lembar kerja: dari ketidakpastian ke kejelasan. Masalahnya (apa tantangan intinya?), orang-orang yang terlibat (siapa pemangku kepentingan utamanya?), cakupan (apa yang termasuk dan tidak termasuk?), dampak (kenapa ini penting?), langkah berikutnya (apa yang perlu kita cari tahu?). Kenapa memakai Lembar Kerja Pernyataan Masalah? Mendapatkan kejelasan: pikirkan unsur-unsur terpenting dari masalahnya. Menyelaraskan pemangku kepentingan. Bangun pemahaman bersama di seluruh tim. Memunculkan ide yang lebih baik. Temukan wawasan yang membawa ke solusi yang lebih kuat. Tetap fokus. Terus menggarap masalah yang tepat, bahkan saat waktunya terbatas. Intinya: perumusan masalah yang jelas menentukan arah segala hal sesudahnya. Pakai Lembar Kerja Pernyataan Masalah untuk mengubah ketidakjelasan menjadi kejelasan. “Kejelasan yang tepat hari ini menciptakan kemungkinan yang lebih besar esok hari.”"
-         }
-        },
-        {
-         "title": {
-          "en": "Explore the Problem Statement Worksheet",
-          "id": "Kenali Lembar Kerja Pernyataan Masalah"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Explore the Problem Statement Worksheet: a simple but powerful tool to help you define the right problem, align your team, and unlock better solutions. Let's take a closer look. A practical tool: a primary tool for defining a problem is the Problem Statement Worksheet, which you can find within the Problem Solving section of the Forward Learning Workbook. Deeper understanding: this tool will give you and your team a deeper understanding of the problem by helping you reflect on and talk about the problem, people involved, and scope. Better ideas and focus: this awareness often generates great ideas that can be used to help you solve the problem. Post a copy of the Problem Statement Worksheet in your office and refer to it frequently to stay focused on the right problem, even when you don't have a lot of time. Worksheet: turn complexity into clarity. The problem (what is the core challenge?), people involved (who are the key stakeholders?), scope (what is included and excluded?), impact (why does it matter?), next steps (what do we need to find out?). Key takeaway: use the Problem Statement Worksheet to turn ambiguity into clarity and keep your team aligned on what truly matters. “A clearer problem today leads to bigger opportunities tomorrow.” Good questions lead to great solutions. Same problems, bigger perspective.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Kenali Lembar Kerja Pernyataan Masalah: alat yang sederhana tetapi ampuh untuk membantumu merumuskan masalah yang tepat, menyelaraskan timmu, dan membuka solusi yang lebih baik. Mari kita lihat lebih dekat. Alat praktis: alat utama untuk merumuskan masalah adalah Lembar Kerja Pernyataan Masalah, yang bisa kamu temukan di bagian Pemecahan Masalah dalam Forward Learning Workbook. Pemahaman yang lebih dalam: alat ini memberimu dan timmu pemahaman yang lebih dalam tentang masalahnya dengan membantu kalian merenungkan dan membicarakan masalahnya, orang-orang yang terlibat, dan cakupannya. Ide yang lebih baik dan fokus: kesadaran ini sering memunculkan ide-ide bagus yang bisa dipakai untuk memecahkan masalah. Tempel salinan Lembar Kerja Pernyataan Masalah di ruang kerjamu dan sering-seringlah merujuknya supaya tetap fokus pada masalah yang tepat, bahkan saat waktumu tidak banyak. Lembar kerja: ubah kerumitan menjadi kejelasan. Masalahnya (apa tantangan intinya?), orang-orang yang terlibat (siapa pemangku kepentingan utamanya?), cakupan (apa yang termasuk dan tidak termasuk?), dampak (kenapa ini penting?), langkah berikutnya (apa yang perlu kita cari tahu?). Intinya: pakai Lembar Kerja Pernyataan Masalah untuk mengubah ketidakjelasan menjadi kejelasan dan menjaga timmu tetap selaras pada hal yang benar-benar penting. “Masalah yang lebih jelas hari ini membawa ke peluang yang lebih besar esok hari.” Pertanyaan yang baik membawa ke solusi yang hebat. Masalah yang sama, sudut pandang yang lebih luas."
-         }
-        },
-        {
-         "title": {
-          "en": "Problem Statement Worksheet",
-          "id": "Lembar Kerja Pernyataan Masalah"
-         },
-         "text": {
-          "en": "Think like a problem solver. Problem Statement Worksheet: explore the key dimensions to define a clear, actionable, and high-quality problem. Problem question (the basic question to be resolved): in the form of a question, concisely define what must be resolved. This will help you focus your efforts and come up with actionable findings. Your basic question should be SMART: Specific, Measurable, Actionable, Relevant, and Time-bound. A well-defined problem question drives focus and enables better solutions. 01 Context: think about the situation for the problem you're facing. Will any internal or external situations affect how you solve the problem? What potential complications should you consider? You may need to look into historical or current industry trends, the availability of finances, or skill gaps on your team. 02 Stakeholders: list all the major players for your solution. Consider all decision makers who could support your solution, or prevent you from working on it. Also include internal or external parties who might change how your solution is rolled out. 03 Constraints within solution space: while the scope is the space of your solution or what areas your problem covers, constraints include what can or cannot happen within that space. 04 Scope of solution space: what will and will not be considered in your solution? The scope should be broad enough so that you consider all possible solutions yet be narrow enough to maintain focus and keep your thinking manageable. 05 Criteria for success: what must happen for the solution to be successful? What could happen to cause the solution to fail? Consider when the solution will be released, how people will know there has been improvement, mindset shifts, and what success looks like for key people involved in your problem solving. Criteria should be SMART so you can judge whether the final solution satisfies your key people. 06 Key sources of insight: these are where you will turn for information. What resources can you use to simplify your team's effort and avoid repeating work that is already being done? Bring it all together: considering these six dimensions will help you sharpen your problem question and develop a solution that is relevant, feasible, and impactful. Clearer problems, bigger possibilities.",
-          "id": "Berpikir seperti pemecah masalah. Lembar Kerja Pernyataan Masalah: telusuri dimensi-dimensi kunci untuk merumuskan masalah yang jelas, bisa ditindaklanjuti, dan bermutu tinggi. Pertanyaan masalah (pertanyaan dasar yang perlu dijawab): dalam bentuk pertanyaan, rumuskan dengan ringkas apa yang harus diselesaikan. Ini membantumu memusatkan usaha dan menghasilkan temuan yang bisa ditindaklanjuti. Pertanyaan dasarmu sebaiknya SMART: Specific, Measurable, Actionable, Relevant, dan Time-bound. Pertanyaan masalah yang dirumuskan dengan baik mendorong fokus dan memungkinkan solusi yang lebih baik. 01 Konteks: pikirkan situasi di balik masalah yang kamu hadapi. Adakah situasi internal atau eksternal yang akan memengaruhi caramu memecahkan masalah? Komplikasi apa saja yang perlu kamu pertimbangkan? Kamu mungkin perlu melihat tren industri di masa lalu atau saat ini, ketersediaan dana, atau kesenjangan keterampilan di timmu. 02 Pemangku kepentingan: daftar semua pemain utama bagi solusimu. Pertimbangkan semua pengambil keputusan yang bisa mendukung solusimu, atau mencegahmu mengerjakannya. Sertakan juga pihak internal atau eksternal yang mungkin mengubah cara solusimu dijalankan. 03 Batasan di dalam ruang solusi: kalau cakupan adalah ruang solusimu atau area yang dicakup masalahmu, batasan adalah apa yang boleh atau tidak boleh terjadi di dalam ruang itu. 04 Cakupan ruang solusi: apa yang akan dan tidak akan dipertimbangkan dalam solusimu? Cakupannya sebaiknya cukup luas supaya kamu mempertimbangkan semua solusi yang mungkin, tetapi cukup sempit supaya tetap fokus dan pikiranmu tetap terkelola. 05 Kriteria keberhasilan: apa yang harus terjadi supaya solusinya berhasil? Apa yang bisa terjadi sehingga solusinya gagal? Pertimbangkan kapan solusinya akan dijalankan, bagaimana orang akan tahu bahwa ada perbaikan, pergeseran pola pikir, dan seperti apa keberhasilan bagi orang-orang kunci dalam pemecahan masalahmu. Kriterianya sebaiknya SMART, supaya kamu bisa menilai apakah solusi akhirnya memuaskan orang-orang kuncimu. 06 Sumber wawasan utama: inilah tempat kamu mencari informasi. Sumber daya apa yang bisa kamu pakai untuk meringankan usaha timmu dan menghindari mengulang pekerjaan yang sudah dikerjakan? Satukan semuanya: mempertimbangkan keenam dimensi ini akan membantumu mempertajam pertanyaan masalahmu dan menyusun solusi yang relevan, layak dijalankan, dan berdampak. Masalah yang lebih jelas, kemungkinan yang lebih besar."
-         }
-        },
-        {
-         "title": {
-          "en": "Using the Problem Statement Worksheet on the job",
-          "id": "Memakai Lembar Kerja Pernyataan Masalah di tempat kerja"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Using the Problem Statement Worksheet on the job. A mental checklist: it might feel overwhelming to think about all aspects of the Problem Statement Worksheet, especially when you have little time. But with some practice, you can learn to use it in most situations, for example, as a checklist to make sure that you've covered all major blind spots or to guide and structure longer-term problem-solving efforts. Checklist, from complexity to clarity: context, stakeholders, constraints within solution space, scope of solution space, criteria for success, key sources of insight. Key takeaway: use the Problem Statement Worksheet as a practical checklist to avoid blind spots and structure longer-term problem-solving efforts. “A clearer problem today leads to better solutions tomorrow.” Same problems, bigger perspective.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Memakai Lembar Kerja Pernyataan Masalah di tempat kerja. Daftar periksa di kepala: memikirkan semua aspek Lembar Kerja Pernyataan Masalah mungkin terasa berat, terutama saat waktumu sedikit. Tetapi dengan sedikit latihan, kamu bisa belajar memakainya di sebagian besar situasi, misalnya sebagai daftar periksa untuk memastikan kamu sudah menutup semua titik buta utama, atau untuk menuntun dan menyusun upaya pemecahan masalah jangka panjang. Daftar periksa, dari kerumitan ke kejelasan: konteks, pemangku kepentingan, batasan di dalam ruang solusi, cakupan ruang solusi, kriteria keberhasilan, sumber wawasan utama. Intinya: pakai Lembar Kerja Pernyataan Masalah sebagai daftar periksa praktis untuk menghindari titik buta dan menyusun upaya pemecahan masalah jangka panjang. “Masalah yang lebih jelas hari ini membawa ke solusi yang lebih baik esok hari.” Masalah yang sama, sudut pandang yang lebih luas."
-         }
-        },
-        {
-         "title": {
-          "en": "Asking the right questions",
-          "id": "Mengajukan pertanyaan yang tepat"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Asking the right questions. Asking powerful questions is one of the best tools you can deploy in problem solving. Questions that help drive towards a better problem definition are especially helpful for in-the-moment problem-solving situations. The more you know about the essential questions to ask in your current situation, the more quickly you'll be able to find the answers you need to move forward. View the video to see how Arun's powerful questions more clearly define the problem his team is trying to solve, and in the process, reduce the budget and scope (boundaries set on a project in terms of what work is done in terms of goals, deadlines, and items to provide as the project ends) significantly. Questions to ask: assumptions? scope? trade-offs? key stakeholders? Question → clarity → better problem definition → better solution: ask the right questions, gain a clearer understanding, define the real problem, develop a more effective solution. Good questions unlock progress: the right questions help you see the full picture, focus your efforts, and find better solutions, faster. “Better questions lead to greater clarity.”",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Mengajukan pertanyaan yang tepat. Mengajukan pertanyaan yang kuat adalah salah satu alat terbaik yang bisa kamu pakai dalam memecahkan masalah. Pertanyaan yang mendorong ke perumusan masalah yang lebih baik terutama berguna dalam situasi yang harus dipecahkan saat itu juga. Makin kamu tahu pertanyaan-pertanyaan penting yang perlu diajukan dalam situasimu, makin cepat kamu menemukan jawaban yang kamu butuhkan untuk melangkah. Tonton videonya untuk melihat bagaimana pertanyaan-pertanyaan kuat dari Arun merumuskan dengan lebih jelas masalah yang sedang coba dipecahkan timnya, dan sekaligus memangkas anggaran dan cakupannya (batas-batas sebuah proyek dalam hal pekerjaan yang dikerjakan, yaitu tujuan, tenggat, dan hal-hal yang diserahkan saat proyek berakhir) secara signifikan. Pertanyaan yang perlu diajukan: asumsinya? cakupannya? pertukarannya? pemangku kepentingan utamanya? Pertanyaan → kejelasan → perumusan masalah yang lebih baik → solusi yang lebih baik: ajukan pertanyaan yang tepat, dapatkan pemahaman yang lebih jelas, rumuskan masalah yang sebenarnya, susun solusi yang lebih efektif. Pertanyaan yang baik membuka jalan untuk maju: pertanyaan yang tepat membantumu melihat gambaran utuhnya, memusatkan usahamu, dan menemukan solusi yang lebih baik dengan lebih cepat. “Pertanyaan yang lebih baik membawa kejelasan yang lebih besar.”"
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 5 slides",
-        "id": "Baca berikutnya · 5 slide"
-       },
-       "title": {
-        "en": "Debiasing Techniques: Material",
-        "id": "Teknik Mengurangi Bias: Materi"
-       },
-       "intro": {
-        "en": "Next, five slides add the last tool before you diagnose anything: debiasing techniques. What biases you bring to the table and why some are useful; confirmation bias, tamed with a key assumption check and an analysis of competing hypotheses; confidence bias, tamed with a pre-mortem that imagines the solution has already failed; stability bias, tamed with constraint release and point-of-view analysis; and a recap of the three step-1 tools (problem question, SMART framework, Problem Statement Worksheet).",
-        "id": "Berikutnya, lima slide menambahkan alat terakhir sebelum kamu mendiagnosis apa pun: teknik mengurangi bias. Bias apa yang kamu bawa dan kenapa sebagian di antaranya berguna; bias konfirmasi, yang dijinakkan dengan pengecekan asumsi kunci dan analisis hipotesis-hipotesis pesaing; bias kepercayaan diri, yang dijinakkan dengan pre-mortem yang membayangkan solusinya sudah gagal; bias kestabilan, yang dijinakkan dengan melonggarkan batasan dan analisis sudut pandang; dan rangkuman tiga alat langkah 1 (pertanyaan masalah, kerangka SMART, Lembar Kerja Pernyataan Masalah)."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-debias-",
-       "slides": [
-        {
-         "title": {
-          "en": "Debiasing techniques",
-          "id": "Teknik mengurangi bias"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Debiasing techniques: be more aware, think more clearly, make better decisions. Recognize your biases (anchoring, confirmation bias, recency bias, overconfidence, status quo bias) and make clearer choices. 01 What biases do you bring to the table? Especially in the throes of time pressure, the temptation to “go with your gut” can run high. Debiasing techniques can help you break this habit and think about the biases you're bringing to the table. 02 Taming your biases: can you identify the bias? When problem solving, we are all prone to biases that color our perceptions. Biases aren't always bad. They can be useful as a means of incorporating knowledge and experience into problem solving. But some types of biases color our thinking in ways that are not useful. In all parts of the problem-solving process, keep these types of biases, and techniques to control their impact, in mind. You will be introduced to each of these biases throughout this course, as they apply to the hypothesis-led approach. Key takeaway: by recognizing and managing your biases, you can make clearer decisions, solve problems more effectively, and achieve better outcomes. Same problems, a bigger perspective.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Teknik mengurangi bias: lebih sadar, berpikir lebih jernih, mengambil keputusan yang lebih baik. Kenali bias-biasmu (penjangkaran, bias konfirmasi, bias kebaruan, terlalu percaya diri, bias status quo) dan buat pilihan yang lebih jernih. 01 Bias apa yang kamu bawa? Terutama saat dikejar waktu, godaan untuk “ikut naluri saja” bisa sangat kuat. Teknik mengurangi bias bisa membantumu mematahkan kebiasaan ini dan memikirkan bias-bias yang kamu bawa. 02 Menjinakkan bias-biasmu: bisakah kamu mengenali biasnya? Saat memecahkan masalah, kita semua rentan terhadap bias yang mewarnai cara pandang kita. Bias tidak selalu buruk. Bias bisa berguna sebagai cara memasukkan pengetahuan dan pengalaman ke dalam pemecahan masalah. Tetapi sebagian jenis bias mewarnai pikiran kita dengan cara yang tidak berguna. Di semua tahap proses pemecahan masalah, ingatlah jenis-jenis bias ini dan teknik untuk mengendalikan dampaknya. Kamu akan dikenalkan pada setiap bias ini sepanjang kursus, sesuai penerapannya dalam pendekatan berbasis hipotesis. Intinya: dengan mengenali dan mengelola bias-biasmu, kamu bisa mengambil keputusan yang lebih jernih, memecahkan masalah dengan lebih efektif, dan meraih hasil yang lebih baik. Masalah yang sama, sudut pandang yang lebih luas."
-         }
-        },
-        {
-         "title": {
-          "en": "Debiasing techniques (1/3): confirmation bias",
-          "id": "Teknik mengurangi bias (1/3): bias konfirmasi"
-         },
-         "text": {
-          "en": "Think like a problem solver. Debiasing techniques (1/3). “Because the price of apples has increased over the last two months, I should buy a whole bag now to save money in case I want to buy apples later on.” Confirmation bias is the tendency to view new evidence as confirming an existing hypothesis: our minds tend to look for evidence that confirms what we already believe, so new evidence is filtered until we see only what confirms the existing hypothesis. 01 Key assumption check: spot assumptions that may be incorrect or that you've assumed by listing out and testing each one of your assumptions. Key assumptions: assumption 1, 2, 3, 4. Test each assumption. 02 Analysis of competing hypotheses: reduce bias and get to the very best answer by considering multiple hypotheses and collecting evidence for each: hypothesis A, hypothesis B, hypothesis C, each with its own evidence. Same problems, a bigger perspective.",
-          "id": "Berpikir seperti pemecah masalah. Teknik mengurangi bias (1/3). “Karena harga apel naik selama dua bulan terakhir, sebaiknya aku beli satu kantong penuh sekarang supaya hemat kalau nanti ingin beli apel lagi.” Bias konfirmasi adalah kecenderungan memandang bukti baru sebagai pembenaran atas hipotesis yang sudah ada. Pikiran kita cenderung mencari bukti yang membenarkan apa yang sudah kita yakini, sehingga bukti baru tersaring sampai kita hanya melihat yang membenarkan hipotesis lama. 01 Pengecekan asumsi kunci: temukan asumsi yang mungkin keliru atau yang kamu anggap benar begitu saja, dengan mendaftar dan menguji setiap asumsimu. Asumsi kunci: asumsi 1, 2, 3, 4. Uji setiap asumsi. 02 Analisis hipotesis-hipotesis pesaing: kurangi bias dan temukan jawaban terbaik dengan menimbang beberapa hipotesis dan mengumpulkan bukti untuk masing-masing: hipotesis A, hipotesis B, hipotesis C, masing-masing dengan buktinya sendiri. Masalah yang sama, sudut pandang yang lebih luas."
-         }
-        },
-        {
-         "title": {
-          "en": "Debiasing techniques (2/3): confidence bias",
-          "id": "Teknik mengurangi bias (2/3): bias kepercayaan diri"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Debiasing techniques (2/3): challenge overconfidence, see potential risks, build stronger solutions. “I know that there is absolutely no way my proposed solution will fail.” High confidence can be useful, but overconfidence can blind us to risks. Opportunity, or risk? 01 Confidence bias includes the tendency to disregard warning signs. We often become overly confident in our own judgments and underestimate the possibility of failure, which can cause us to overlook important risks or alternative views. 02 Pre-mortem: imagine it has failed. To combat this, imagine yourself in the future and that your strategy has failed. Then figure out why it failed, what went wrong, and what you could have done to prevent it. Reflect with these questions: 1 What could cause this solution to fail? 2 What warning signs might we miss? 3 What can we do now to reduce these risks? Imagine it's failed: what went wrong? Key takeaway: question your certainty. By anticipating what could go wrong, you can build more resilient and effective solutions. Same problems, a bigger perspective.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Teknik mengurangi bias (2/3): tantang rasa terlalu percaya diri, lihat risiko yang mungkin muncul, bangun solusi yang lebih kuat. “Aku yakin sekali solusi usulanku sama sekali tidak mungkin gagal.” Rasa percaya diri yang tinggi bisa berguna, tetapi rasa terlalu percaya diri bisa membutakan kita terhadap risiko. Peluang, atau risiko? 01 Bias kepercayaan diri mencakup kecenderungan mengabaikan tanda bahaya. Kita sering terlalu percaya pada penilaian sendiri dan meremehkan kemungkinan gagal, sehingga melewatkan risiko penting atau pandangan lain. 02 Pre-mortem: bayangkan solusinya sudah gagal. Untuk melawannya, bayangkan dirimu di masa depan dan strategimu sudah gagal. Lalu cari tahu kenapa gagal, apa yang salah, dan apa yang bisa kamu lakukan untuk mencegahnya. Renungkan dengan pertanyaan-pertanyaan ini: 1 Apa yang bisa membuat solusi ini gagal? 2 Tanda bahaya apa yang mungkin kita lewatkan? 3 Apa yang bisa kita lakukan sekarang untuk mengurangi risiko-risiko ini? Bayangkan sudah gagal: apa yang salah? Intinya: pertanyakan kepastianmu. Dengan mengantisipasi apa yang bisa salah, kamu bisa membangun solusi yang lebih tangguh dan efektif. Masalah yang sama, sudut pandang yang lebih luas."
-         }
-        },
-        {
-         "title": {
-          "en": "Debiasing techniques (3/3): stability bias",
-          "id": "Teknik mengurangi bias (3/3): bias kestabilan"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Debiasing techniques (3/3): don't just rely on what worked before. Challenge assumptions and explore new possibilities. “We should use the same shift scheduling process as last time since it worked before in the past.” The familiar path (same process, worked before) or a broader perspective (new perspective, better solutions)? 01 Stability bias is the tendency to hang onto a mindset that has worked in the past. “What worked before may feel safe, but it may not be the right solution today.” 02 Constraint release: list the main constraints or factors that might stop you from implementing the solution, and relax them one by one to see if any ideas emerge. If possible, design ways to get around these constraints. “What if this constraint didn't exist? What else could be possible?” 03 Point-of-view analysis: state the problem or proposed idea, then write the names of four to six people who might have different views. Restate the problem from these points of view and design a different solution. “A broader perspective leads to stronger, more creative solutions.” Key takeaway: challenge familiar assumptions. Reframe the problem. Explore alternatives. Same problems, a bigger perspective.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Teknik mengurangi bias (3/3): jangan hanya mengandalkan apa yang dulu berhasil. Tantang asumsi dan jelajahi kemungkinan baru. “Kita pakai saja proses penjadwalan sif yang sama seperti terakhir kali, toh dulu berhasil.” Jalan yang sudah akrab (proses yang sama, dulu berhasil) atau sudut pandang yang lebih luas (perspektif baru, solusi yang lebih baik)? 01 Bias kestabilan adalah kecenderungan berpegang pada pola pikir yang dulu berhasil. “Apa yang dulu berhasil mungkin terasa aman, tetapi belum tentu menjadi solusi yang tepat hari ini.” 02 Melonggarkan batasan: daftar batasan atau faktor utama yang mungkin menghalangimu menjalankan solusinya, lalu longgarkan satu per satu untuk melihat apakah muncul ide baru. Kalau memungkinkan, rancang cara untuk menyiasati batasan-batasan itu. “Bagaimana kalau batasan ini tidak ada? Apa lagi yang mungkin?” 03 Analisis sudut pandang: tuliskan masalah atau ide usulannya, lalu tulis nama empat sampai enam orang yang mungkin punya pandangan berbeda. Rumuskan ulang masalahnya dari sudut pandang mereka dan rancang solusi yang berbeda. “Sudut pandang yang lebih luas membawa ke solusi yang lebih kuat dan lebih kreatif.” Intinya: tantang asumsi yang sudah akrab. Bingkai ulang masalahnya. Jelajahi alternatif. Masalah yang sama, sudut pandang yang lebih luas."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Key takeaways. In this module, we have covered the following key tools: 01 Problem question or problem statement: use this to summarize the problem in a concise way, clarifying precisely what needs solving (step 1, define). 02 SMART framework: use this to test whether you've written your problem statement or question in a way that helps reach the solution (step 2, test). 03 Problem Statement Worksheet: use this template to think through the most important elements of the problem and ensure you stay focused (step 3, focus). Resources. You may also wish to explore: “The case for behavioral strategy”, an article in McKinsey Quarterly. Same tools, bigger thinking, brighter impact.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Poin penting. Di modul ini, kita sudah membahas alat-alat utama berikut: 01 Pertanyaan masalah atau pernyataan masalah: pakai ini untuk merangkum masalahnya dengan ringkas, memperjelas persis apa yang perlu dipecahkan (langkah 1, rumuskan). 02 Kerangka SMART: pakai ini untuk menguji apakah pernyataan atau pertanyaan masalahmu sudah ditulis dengan cara yang membantu sampai ke solusi (langkah 2, uji). 03 Lembar Kerja Pernyataan Masalah: pakai templat ini untuk memikirkan unsur-unsur terpenting dari masalahnya dan memastikan kamu tetap fokus (langkah 3, fokus). Bacaan. Kamu mungkin juga ingin membaca: “The case for behavioral strategy”, artikel di McKinsey Quarterly. Alat yang sama, cara berpikir yang lebih luas, dampak yang lebih cerah."
-         }
-        }
-       ]
       }
      ],
      "diagram": {
@@ -4169,14 +4135,588 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:2",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows these slides: Arga, a coffee cart with falling sales, and the week of counting that proved his first guess wrong. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide ini: Arga, gerobak kopi yang penjualannya turun, dan seminggu menghitung yang membuktikan tebakan pertamanya keliru. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Arga, a coffee cart with falling sales, and the week of counting that proved his first guess wrong. Watch it, then continue with the reading and the drills.",
+      "id": "Satu film singkat menyusul slide ini: Arga, gerobak kopi yang penjualannya turun, dan seminggu menghitung yang membuktikan tebakan pertamanya keliru. Tonton, lalu lanjutkan ke bacaan dan latihannya."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "Diagnose First",
+       "id": "Diagnosis Dulu"
+      },
+      "intro": {
+       "en": "Seven ideas for the two middle steps: finding the cause, then choosing what to do. Then a short film and three drills.",
+       "id": "Tujuh gagasan untuk dua langkah di tengah: menemukan penyebab, lalu memilih tindakan. Setelah itu satu film singkat dan tiga latihan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Think like a doctor",
+         "id": "Berpikir seperti dokter"
+        },
+        "points": [
+         {
+          "en": "A good doctor does not prescribe for a fever. She finds what is causing it.",
+          "id": "Dokter yang baik tidak meresepkan obat untuk demam. Ia mencari apa penyebabnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Commit to a guess",
+         "id": "Berani menebak"
+        },
+        "points": [
+         {
+          "en": "A number in the guess tells you which data to collect, and lets you notice when you are wrong.",
+          "id": "Angka di dalam tebakan memberi tahu data mana yang perlu dikumpulkan, dan membuatmu sadar saat kamu keliru."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The design plan",
+         "id": "Rencana rancangan"
+        },
+        "points": [
+         {
+          "en": "Three columns, written before the first count.",
+          "id": "Tiga kolom, ditulis sebelum hitungan pertama."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Read the funnel",
+         "id": "Baca corongnya"
+        },
+        "points": [
+         {
+          "en": "One week of counting at the cart. Numbers tell you where; conversations tell you why.",
+          "id": "Seminggu menghitung di gerobak. Angka memberi tahu di mana; percakapan memberi tahu kenapa."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Ask why, five times",
+         "id": "Tanya kenapa, lima kali"
+        },
+        "points": [
+         {
+          "en": "Each answer becomes the next question.",
+          "id": "Setiap jawaban menjadi pertanyaan berikutnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Many ideas, then sort",
+         "id": "Banyak ide, lalu pilah"
+        },
+        "points": [
+         {
+          "en": "Do not judge while you generate. Judge afterwards, with two questions: how much would it help, and how hard is it?",
+          "id": "Jangan menilai saat mengumpulkan ide. Nilai sesudahnya, dengan dua pertanyaan: seberapa besar manfaatnya, dan seberapa sulit?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Owners and dates",
+         "id": "Penanggung jawab dan tanggal"
+        },
+        "points": [
+         {
+          "en": "Outcome is the quality of the plan times the quality of the execution.",
+          "id": "Hasil adalah mutu rencana dikali mutu pelaksanaannya."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/compass.jpg",
+       "module": {
+        "en": "Module 3 · Problem Solving 101: Improve Our Life",
+        "id": "Modul 3 · Pemecahan Masalah 101: Memperbaiki Hidup Kita"
+       },
+       "lesson": {
+        "n": "3.2",
+        "title": {
+         "en": "Root Causes and Action Plans",
+         "id": "Akar Masalah dan Rencana Tindakan"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Symptom, diagnosis, prescription: in that order",
+         "id": "Gejala, diagnosis, resep: dengan urutan itu"
+        },
+        {
+         "en": "A hypothesis is a guess written down so that data can kill it",
+         "id": "Hipotesis adalah tebakan yang ditulis supaya data bisa mematahkannya"
+        },
+        {
+         "en": "Write what you will check before you collect anything",
+         "id": "Tulis apa yang akan kamu periksa sebelum mengumpulkan apa pun"
+        },
+        {
+         "en": "Count each stage, and the biggest drop shows the bottleneck",
+         "id": "Hitung setiap tahap, dan penurunan terbesar menunjukkan sumbatannya"
+        },
+        {
+         "en": "When the cause is a process, keep asking why until you reach something you can change",
+         "id": "Saat penyebabnya sebuah proses, teruslah bertanya kenapa sampai tiba di hal yang bisa kamu ubah"
+        },
+        {
+         "en": "Generate ideas first, then sort them by impact and ease",
+         "id": "Kumpulkan ide dulu, lalu pilah menurut dampak dan kemudahan"
+        },
+        {
+         "en": "An idea becomes a plan when it has an owner and a date",
+         "id": "Ide menjadi rencana saat punya penanggung jawab dan tanggal"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Think like a doctor",
+          "id": "Berpikir seperti dokter"
+         },
+         "p": {
+          "en": "A cure for the wrong cause is not a cure, however energetically applied.",
+          "id": "Obat untuk penyebab yang salah bukanlah obat, sekeras apa pun diberikan."
+         }
+        },
+        {
+         "h": {
+          "en": "Commit to a guess",
+          "id": "Berani menebak"
+         },
+         "p": {
+          "en": "Being wrong early is the win. It redirects the whole plan before you spend anything.",
+          "id": "Keliru sejak awal justru kemenangan. Seluruh rencana berbelok sebelum kamu mengeluarkan apa pun."
+         }
+        },
+        {
+         "h": {
+          "en": "The design plan",
+          "id": "Rencana rancangan"
+         },
+         "p": {
+          "en": "A design plan keeps you from collecting data you will never use, and from collecting only the data that agrees with you.",
+          "id": "Rencana rancangan mencegahmu mengumpulkan data yang tak akan dipakai, dan mengumpulkan hanya data yang sejalan dengan dugaanmu."
+         }
+        },
+        {
+         "h": {
+          "en": "Read the funnel",
+          "id": "Baca corongnya"
+         },
+         "p": {
+          "en": "Three in four never notice the cart, while two in three buyers return. The leak is at the start, not at the price.",
+          "id": "Tiga dari empat orang tak pernah melihat gerobaknya, sedangkan dua dari tiga pembeli kembali. Bocornya di awal, bukan di harga."
+         }
+        },
+        {
+         "h": {
+          "en": "Ask why, five times",
+          "id": "Tanya kenapa, lima kali"
+         },
+         "p": {
+          "en": "Stop at a process or a decision, not at a person. “Because he is lazy” is not a root cause.",
+          "id": "Berhentilah di sebuah proses atau keputusan, bukan di seseorang. “Karena dia malas” bukan akar masalah."
+         }
+        },
+        {
+         "h": {
+          "en": "Many ideas, then sort",
+          "id": "Banyak ide, lalu pilah"
+         },
+         "p": {
+          "en": "Ask what would move a hard idea into the easy column. Often the answer is a person.",
+          "id": "Tanyakan apa yang bisa memindahkan ide sulit ke kolom mudah. Sering kali jawabannya adalah seseorang."
+         }
+        },
+        {
+         "h": {
+          "en": "Owners and dates",
+          "id": "Penanggung jawab dan tanggal"
+         },
+         "p": {
+          "en": "Measure with the same instrument you diagnosed with.",
+          "id": "Ukur dengan alat yang sama dengan yang kamu pakai saat mendiagnosis."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Symptom, diagnosis, prescription: in that order",
+          "id": "Gejala, diagnosis, resep: dengan urutan itu"
+         },
+         "em": {
+          "en": "in that order",
+          "id": "dengan urutan itu"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "warn",
+           "en": "Symptom",
+           "id": "Gejala",
+           "d": {
+            "en": "Sales are down",
+            "id": "Penjualan turun"
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Diagnosis",
+           "id": "Diagnosis",
+           "d": {
+            "en": "Where exactly, and why?",
+            "id": "Persisnya di mana, dan kenapa?"
+           }
+          },
+          {
+           "icon": "clipboard",
+           "en": "Prescription",
+           "id": "Resep",
+           "d": {
+            "en": "Only now: what to do",
+            "id": "Baru sekarang: apa yang dilakukan"
+           }
+          }
+         ],
+         "band": {
+          "en": "A cure for the wrong cause is not a cure, however energetically applied.",
+          "id": "Obat untuk penyebab yang salah bukanlah obat, sekeras apa pun diberikan."
+         },
+         "img": "../../assets/bg/compass.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A hypothesis is a guess written down so that data can kill it",
+          "id": "Hipotesis adalah tebakan yang ditulis supaya data bisa mematahkannya"
+         },
+         "em": {
+          "en": "so that data can kill it",
+          "id": "supaya data bisa mematahkannya"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "heart",
+           "en": "“People think my coffee is too expensive.”",
+           "id": "“Orang menganggap kopiku terlalu mahal.”",
+           "l": {
+            "en": "A feeling",
+            "id": "Perasaan"
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "calc",
+           "en": "“About 6 in 10 buyers never return, because of the price.”",
+           "id": "“Sekitar 6 dari 10 pembeli tidak kembali, karena harganya.”",
+           "l": {
+            "en": "A hypothesis",
+            "id": "Hipotesis"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ],
+         "band": {
+          "en": "Being wrong early is the win. It redirects the whole plan before you spend anything.",
+          "id": "Keliru sejak awal justru kemenangan. Seluruh rencana berbelok sebelum kamu mengeluarkan apa pun."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Write what you will check before you collect anything",
+          "id": "Tulis apa yang akan kamu periksa sebelum mengumpulkan apa pun"
+         },
+         "em": {
+          "en": "before you collect anything",
+          "id": "sebelum mengumpulkan apa pun"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "question",
+           "en": "The issue",
+           "id": "Isunya",
+           "d": {
+            "en": "Why are sales falling?",
+            "id": "Kenapa penjualan turun?"
+           }
+          },
+          {
+           "icon": "bulb",
+           "en": "The hypothesis, and why",
+           "id": "Hipotesis, dan alasannya",
+           "d": {
+            "en": "Buyers do not return: two friends called it pricey",
+            "id": "Pembeli tidak kembali: dua teman bilang harganya mahal"
+           }
+          },
+          {
+           "icon": "chart",
+           "en": "The analysis",
+           "id": "Analisisnya",
+           "d": {
+            "en": "Count one week: who passes, notices, buys, returns",
+            "id": "Hitung seminggu: siapa yang lewat, melihat, membeli, kembali"
+           }
+          }
+         ],
+         "band": {
+          "en": "A design plan keeps you from collecting data you will never use, and from collecting only the data that agrees with you.",
+          "id": "Rencana rancangan mencegahmu mengumpulkan data yang tak akan dipakai, dan mengumpulkan hanya data yang sejalan dengan dugaanmu."
+         },
+         "img": "../../assets/bg/ep-stage-architecture.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Count each stage, and the biggest drop shows the bottleneck",
+          "id": "Hitung setiap tahap, dan penurunan terbesar menunjukkan sumbatannya"
+         },
+         "em": {
+          "en": "the biggest drop",
+          "id": "penurunan terbesar"
+         },
+         "layout": "bars",
+         "items": [
+          {
+           "en": "Walk past the cart",
+           "id": "Lewat di depan gerobak",
+           "v": 1200,
+           "d": {
+            "en": "everyone on the path",
+            "id": "semua orang di jalur itu"
+           }
+          },
+          {
+           "en": "Notice it",
+           "id": "Melihat gerobaknya",
+           "v": 300,
+           "d": {
+            "en": "one in four",
+            "id": "satu dari empat"
+           }
+          },
+          {
+           "en": "Buy once",
+           "id": "Membeli sekali",
+           "v": 180,
+           "d": {
+            "en": "six in ten of those who notice",
+            "id": "enam dari sepuluh yang melihat"
+           }
+          },
+          {
+           "en": "Come back",
+           "id": "Kembali lagi",
+           "v": 120,
+           "d": {
+            "en": "two in three buyers",
+            "id": "dua dari tiga pembeli"
+           }
+          }
+         ],
+         "band": {
+          "en": "Three in four never notice the cart, while two in three buyers return. The leak is at the start, not at the price.",
+          "id": "Tiga dari empat orang tak pernah melihat gerobaknya, sedangkan dua dari tiga pembeli kembali. Bocornya di awal, bukan di harga."
+         },
+         "img": "../../assets/bg/rope-team.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "When the cause is a process, keep asking why until you reach something you can change",
+          "id": "Saat penyebabnya sebuah proses, teruslah bertanya kenapa sampai tiba di hal yang bisa kamu ubah"
+         },
+         "em": {
+          "en": "keep asking why",
+          "id": "teruslah bertanya kenapa"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "Sales fell",
+           "id": "Penjualan turun",
+           "d": {
+            "en": "The symptom",
+            "id": "Gejalanya"
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Fewer people stop",
+           "id": "Makin sedikit yang mampir",
+           "d": {
+            "en": "Fewer first-time buyers",
+            "id": "Pembeli baru berkurang"
+           }
+          },
+          {
+           "icon": "eye",
+           "en": "Few notice the cart",
+           "id": "Sedikit yang melihat",
+           "d": {
+            "en": "Three in four walk past",
+            "id": "Tiga dari empat lewat begitu saja"
+           }
+          },
+          {
+           "icon": "lock",
+           "en": "It is hidden",
+           "id": "Gerobaknya tertutup",
+           "d": {
+            "en": "New parking blocks the view since March",
+            "id": "Parkiran baru menghalangi pandangan sejak Maret"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Nobody checked",
+           "id": "Tak ada yang mengecek",
+           "d": {
+            "en": "The spot was chosen once and never reviewed",
+            "id": "Lokasinya dipilih sekali dan tak pernah ditinjau lagi"
+           }
+          }
+         ],
+         "band": {
+          "en": "Stop at a process or a decision, not at a person. “Because he is lazy” is not a root cause.",
+          "id": "Berhentilah di sebuah proses atau keputusan, bukan di seseorang. “Karena dia malas” bukan akar masalah."
+         },
+         "img": "../../assets/bg/map-hero.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Generate ideas first, then sort them by impact and ease",
+          "id": "Kumpulkan ide dulu, lalu pilah menurut dampak dan kemudahan"
+         },
+         "em": {
+          "en": "impact and ease",
+          "id": "dampak dan kemudahan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "A tall sign, a brighter canopy",
+           "id": "Papan tinggi, kanopi lebih terang",
+           "d": {
+            "en": "High impact, easy. Do first",
+            "id": "Dampak besar, mudah. Kerjakan dulu"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "route",
+           "en": "Move to the main gate",
+           "id": "Pindah ke gerbang utama",
+           "d": {
+            "en": "High impact, hard. Who could make it easier?",
+            "id": "Dampak besar, sulit. Siapa yang bisa memudahkannya?"
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "A new cup design",
+           "id": "Desain gelas baru",
+           "d": {
+            "en": "Low impact, easy. Later",
+            "id": "Dampak kecil, mudah. Nanti"
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "phone",
+           "en": "A delivery app",
+           "id": "Aplikasi pesan antar",
+           "d": {
+            "en": "Low impact, hard. Drop it",
+            "id": "Dampak kecil, sulit. Tinggalkan"
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          }
+         ],
+         "band": {
+          "en": "Ask what would move a hard idea into the easy column. Often the answer is a person.",
+          "id": "Tanyakan apa yang bisa memindahkan ide sulit ke kolom mudah. Sering kali jawabannya adalah seseorang."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "An idea becomes a plan when it has an owner and a date",
+          "id": "Ide menjadi rencana saat punya penanggung jawab dan tanggal"
+         },
+         "em": {
+          "en": "an owner and a date",
+          "id": "penanggung jawab dan tanggal"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "Arga, by Saturday.",
+           "id": "Arga, paling lambat Sabtu.",
+           "l": {
+            "en": "The sign",
+            "id": "Papan nama"
+           }
+          },
+          {
+           "icon": "sun",
+           "en": "Arga and his cousin, by Monday.",
+           "id": "Arga dan sepupunya, paling lambat Senin.",
+           "l": {
+            "en": "The canopy",
+            "id": "Kanopi"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "In two weeks, with the same counting sheet.",
+           "id": "Dua minggu lagi, dengan lembar hitung yang sama.",
+           "l": {
+            "en": "Count again",
+            "id": "Hitung ulang"
+           }
+          }
+         ],
+         "band": {
+          "en": "Measure with the same instrument you diagnosed with.",
+          "id": "Ukur dengan alat yang sama dengan yang kamu pakai saat mendiagnosis."
+         },
+         "img": "../../assets/bg/stage-execution.jpg"
+        }
+       ]
+      }
      }
     },
     {
@@ -4233,471 +4773,6 @@ window.MT_LMS['the-map'] = {
       {
        "en": "Worry less, act more: three e-mails and one conversation with someone who has done it beat a week of anxious thinking.",
        "id": "Kurangi cemas, perbanyak bertindak. Tiga email dan satu obrolan dengan orang yang sudah pernah menjalaninya mengalahkan seminggu berpikir sambil cemas."
-      }
-     ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 6 slides",
-        "id": "Baca dulu · 6 slide"
-       },
-       "title": {
-        "en": "Goals, Gaps and Good Decisions: Material",
-        "id": "Tujuan, Kesenjangan, dan Keputusan yang Baik: Materi"
-       },
-       "intro": {
-        "en": "Start with the deck. Six slides carry two cases: a fishy goal made solid and its gap calculated to the rupiah; a logic tree of ways to close it; the hypothesis pyramid and the spending data that surprised its author; then a footballer's choice between two academies, first by pros and cons and then by weighted criteria; and the four moves that changed her decision. Read them, then continue to the slides that follow.",
-        "id": "Mulai dari deknya. Enam slide membawa dua kasus: tujuan yang mengambang dibuat kokoh, lalu kesenjangannya dihitung sampai ke rupiahnya; pohon logika berisi cara-cara menutupnya; piramida hipotesis dan data pengeluaran yang mengejutkan pembuatnya; lalu pilihan seorang pemain sepak bola di antara dua akademi, mula-mula dengan untung-rugi, lalu dengan kriteria berbobot; dan empat langkah yang mengubah keputusannya. Baca semuanya, lalu lanjutkan ke slide berikutnya."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-goal-",
-       "slides": [
-        {
-         "title": {
-          "en": "Fishy goals, solid goals",
-          "id": "Tujuan yang mengambang, tujuan yang kokoh"
-         },
-         "text": {
-          "en": "“Someday I'll get a laptop” is a wish. A goal says what, by when, and under what conditions, so you can measure the distance to it. Fishy: “I want a laptop for my design course.” No amount, no date, no constraint. You cannot tell how far away it is, so you cannot plan, and the Dreamer stays a dreamer. Solid: “Buy a used laptop worth Rp 5,000,000 within six months, without borrowing.” What: a Rp 5,000,000 used laptop. When: six months. How: no loans, no gambling. Now the gap can be calculated.",
-          "id": "“Suatu hari aku mau beli laptop” adalah keinginan. Tujuan menyebut apa, kapan, dan dengan syarat apa, supaya kamu bisa mengukur jaraknya. Mengambang: “Aku mau laptop untuk kuliah desainku.” Tidak ada jumlah, tidak ada tanggal, tidak ada batasan. Kamu tidak bisa tahu seberapa jauh tujuannya, jadi kamu tidak bisa merencanakan, dan Si Pemimpi tetap jadi pemimpi. Kokoh: “Membeli laptop bekas seharga Rp5.000.000 dalam enam bulan, tanpa berutang.” Apa: laptop bekas seharga Rp5.000.000. Kapan: enam bulan. Bagaimana: tanpa pinjaman, tanpa judi. Sekarang kesenjangannya bisa dihitung."
-         }
-        },
-        {
-         "title": {
-          "en": "Goal → gap → hypothesis → check",
-          "id": "Tujuan → kesenjangan → hipotesis → cek"
-         },
-         "text": {
-          "en": "When the problem is “I want to get somewhere” rather than “something is broken”, the four steps change shape but not spirit. Step 1, set a clear goal: what, by when, under which conditions. Step 2, determine the gap: goal minus where you will be if nothing changes. Step 3, form a hypothesis: 3A list the options, 3B pick the best ones. Step 4, check it, then act: 4A decide the analyses, 4B analyse and build the plan. The arithmetic: savings today Rp 1,500,000; monthly allowance + Rp 200,000; weekend job + Rp 120,000; monthly spending − Rp 150,000; saved per month = Rp 170,000; × 6 months = Rp 1,020,000; position in six months Rp 2,520,000. The gap: Rp 2,480,000, the Rp 5,000,000 goal minus Rp 2,520,000 expected. Without a change of plan, the laptop is not happening.",
-          "id": "Saat masalahnya berbunyi “aku ingin sampai ke suatu tempat”, bukan “ada yang rusak”, keempat langkahnya berubah bentuk tetapi semangatnya tetap sama. Langkah 1, tetapkan tujuan yang jelas: apa, kapan, dengan syarat apa. Langkah 2, tentukan kesenjangannya: tujuan dikurangi posisimu kalau tidak ada yang berubah. Langkah 3, rumuskan hipotesis: 3A daftar opsinya, 3B pilih yang terbaik. Langkah 4, cek, lalu bertindak: 4A tentukan analisisnya, 4B lakukan analisis dan susun rencananya. Hitungannya: tabungan hari ini Rp1.500.000; uang saku bulanan + Rp200.000; kerja akhir pekan + Rp120.000; pengeluaran bulanan − Rp150.000; tabungan per bulan = Rp170.000; × 6 bulan = Rp1.020.000; posisi dalam enam bulan Rp2.520.000. Kesenjangannya: Rp2.480.000, yaitu tujuan Rp5.000.000 dikurangi perkiraan Rp2.520.000. Tanpa mengubah rencana, laptop itu tidak akan terbeli."
-         }
-        },
-        {
-         "title": {
-          "en": "A logic tree of ways to close the gap",
-          "id": "Pohon logika berisi cara menutup kesenjangan"
-         },
-         "text": {
-          "en": "List every branch first, even the silly ones, then prune against your constraints. Pruning early is how good options get missed. Close a Rp 2.48 million gap in six months: increase income, or reduce spending. Increase income: money from others (gifts, a raised allowance); job income (hours × rate: more hours or a higher rate, or overtime at the same rate); self-generated (sell things, invest: sell unused books and sports gear; lottery and day-trading are cut because they break the “how”). Reduce spending: spend less per item, or buy fewer items.",
-          "id": "Daftar semua cabangnya dulu, termasuk yang konyol, lalu pangkas sesuai batasanmu. Memangkas terlalu cepat adalah cara opsi-opsi bagus terlewat. Tutup kesenjangan Rp2,48 juta dalam enam bulan: tambah pemasukan, atau kurangi pengeluaran. Tambah pemasukan: uang dari orang lain (hadiah, uang saku yang dinaikkan); penghasilan dari kerja (jam × tarif: lebih banyak jam atau tarif lebih tinggi, atau lembur dengan tarif yang sama); dari usaha sendiri (jual barang, berinvestasi: jual buku dan alat olahraga yang tidak terpakai; lotre dan trading harian dicoret karena melanggar syarat “bagaimana”). Kurangi pengeluaran: bayar lebih murah per barang, atau beli lebih sedikit barang."
-         }
-        },
-        {
-         "title": {
-          "en": "The hypothesis pyramid",
-          "id": "Piramida hipotesis"
-         },
-         "text": {
-          "en": "Conclusion on top, reasons underneath; each reason something you can check. Then check them: the spending pie held a surprise. Conclusion: I can close the Rp 2.48 million gap in six months. Because 1: spending drops from Rp 150 k to Rp 50 k a month (powdered drink instead of bottles, comics shared with a friend), saving Rp 600 k. Because 2: old textbooks and an unused racket sell for about Rp 500 k. Because 3: tutoring two pupils at once pays Rp 60 k an hour instead of Rp 40 k, about Rp 1.4 million extra over six months. 4B, where the money really goes: of Rp 150 k a month, sports drinks 40%, comics 30%, games 15%, snacks 15%. He assumed games were the leak. The data said drinks and comics, so that is where the cut went.",
-          "id": "Kesimpulan di atas, alasan-alasan di bawahnya, dan setiap alasan adalah sesuatu yang bisa dicek. Lalu cek satu per satu: diagram pengeluarannya ternyata menyimpan kejutan. Kesimpulan: aku bisa menutup kesenjangan Rp2,48 juta dalam enam bulan. Karena 1: pengeluaran turun dari Rp150 ribu menjadi Rp50 ribu sebulan (minuman bubuk alih-alih minuman botol, komik dibaca bergantian dengan teman), sehingga hemat Rp600 ribu. Karena 2: buku pelajaran lama dan raket yang tidak terpakai laku sekitar Rp500 ribu. Karena 3: mengajar les dua murid sekaligus dibayar Rp60 ribu per jam, bukan Rp40 ribu, sehingga ada tambahan sekitar Rp1,4 juta dalam enam bulan. 4B, ke mana sebenarnya uangnya pergi: dari Rp150 ribu sebulan, minuman olahraga 40%, komik 30%, gim 15%, camilan 15%. Ia mengira gim yang jadi sumber bocornya. Datanya bilang minuman dan komik, jadi di situlah pemangkasannya dilakukan."
-         }
-        },
-        {
-         "title": {
-          "en": "Pros and cons, then criteria and weights",
-          "id": "Untung-rugi, lalu kriteria dan bobot"
-         },
-         "text": {
-          "en": "A striker must choose an academy. Academy A: a famous city programme, cheaper. Academy B: all local players, pricier. Her first pros-and-cons list picked A. Then she asked a coach what actually makes players better. Criteria and weights: quality of teammates (high), A +++, B ++; chance to play many matches (high), A +, B +++; quality of coaching (high), A ++, B +++; cost within budget (medium), A +++, B +; exciting city (low), A +++, B +. Four moves: list the options; list the criteria that matter for the goal; weight each criterion high, medium or low; score each option with evidence, then pick. What changed: “exciting city” and “cheap” were doing the deciding. Once the goal (become a better player) set the weights, B won two of the three high-weight rows, playing time and coaching: everyone plays, more time with coaches.",
-          "id": "Seorang penyerang harus memilih akademi. Akademi A: program terkenal di kota besar, lebih murah. Akademi B: semua pemainnya dari daerah setempat, lebih mahal. Daftar untung-rugi pertamanya memilih A. Lalu ia bertanya kepada seorang pelatih tentang apa yang benar-benar membuat pemain jadi lebih baik. Kriteria dan bobotnya: mutu rekan setim (tinggi), A +++, B ++; kesempatan bermain di banyak pertandingan (tinggi), A +, B +++; mutu pelatihan (tinggi), A ++, B +++; biaya sesuai anggaran (sedang), A +++, B +; kotanya seru (rendah), A +++, B +. Empat langkahnya: daftar opsinya; daftar kriteria yang penting bagi tujuannya; beri bobot tinggi, sedang, atau rendah untuk setiap kriteria; nilai setiap opsi dengan bukti, lalu pilih. Apa yang berubah: ternyata “kotanya seru” dan “murah” yang tadinya menentukan keputusan. Begitu tujuannya (menjadi pemain yang lebih baik) yang menentukan bobot, B menang di dua dari tiga baris berbobot tinggi, yaitu kesempatan bermain dan pelatihan: semua pemain dapat main, lebih banyak waktu bersama pelatih."
-         }
-        },
-        {
-         "title": {
-          "en": "Challenge your own conclusion",
-          "id": "Tantang kesimpulanmu sendiri"
-         },
-         "text": {
-          "en": "The striker's to-do list before choosing: ask the coach, e-mail two current players, ask both academies about scholarships. Two of the three changed the decision. 1 · Worry less, act more: a week of anxious thinking produced nothing; three e-mails produced two facts. 2 · Ask people who have done it: a coach, a senior, an alumnus. They hold criteria you do not know exist yet. 3 · Test your assumptions: “a strong team means a great place to grow” sounded true, until someone who had been there said otherwise. 4 · Look for the overlooked option: nobody had mentioned scholarships; one question removed the cost objection entirely.",
-          "id": "Daftar kerja si penyerang sebelum memilih: bertanya kepada pelatih, mengirim email ke dua pemain yang sedang berlatih di sana, dan menanyakan soal beasiswa ke kedua akademi. Dua dari tiga langkah itu mengubah keputusannya. 1 · Kurangi cemas, perbanyak bertindak: seminggu berpikir sambil cemas tidak menghasilkan apa-apa, sedangkan tiga email menghasilkan dua fakta. 2 · Bertanyalah kepada orang yang sudah pernah menjalaninya: pelatih, senior, alumni. Mereka memegang kriteria yang bahkan belum kamu ketahui keberadaannya. 3 · Uji asumsimu: “tim yang kuat berarti tempat yang bagus untuk berkembang” terdengar benar, sampai seseorang yang pernah di sana berkata lain. 4 · Cari opsi yang terlewat: tidak ada yang menyebut soal beasiswa, dan satu pertanyaan saja menghapus keberatan soal biaya sepenuhnya."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "Structuring the Problem: Material",
-        "id": "Menyusun Struktur Masalah: Materi"
-       },
-       "intro": {
-        "en": "After the case slides, three slides put step 1 to work on a live case. CarneCarne, a Spanish butcher chain, has found E. coli in frozen beef at its northwest distribution centre and has three days before a press release: how would you structure the problem? A check-your-understanding question on the team's best next step, with the expert's explanation and the SMART problem question the team aligned on; then the problem-solving journey, define, structure, prioritise, and why structuring and prioritising is how you spend limited time on the right area. Read them, then watch the film that follows.",
-        "id": "Setelah slide kasus, tiga slide memakai langkah 1 pada kasus nyata. CarneCarne, jaringan toko daging di Spanyol, menemukan bakteri E. coli pada daging sapi beku di pusat distribusi barat lautnya, dan hanya punya tiga hari sebelum siaran pers: bagaimana kamu akan menyusun struktur masalahnya? Ada satu pertanyaan cek pemahaman tentang langkah berikutnya yang terbaik bagi tim, lengkap dengan penjelasan ahli dan pertanyaan masalah SMART yang disepakati tim; lalu perjalanan pemecahan masalah (rumuskan, susun struktur, prioritaskan) dan kenapa menyusun struktur dan memprioritaskan adalah cara memakai waktu yang terbatas di area yang tepat. Baca semuanya, lalu tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-struct-",
-       "slides": [
-        {
-         "title": {
-          "en": "Case study: structuring the problem",
-          "id": "Studi kasus: menyusun struktur masalah"
-         },
-         "text": {
-          "en": "Case study · Structuring the problem: a real-world case to practice how to define and structure a problem clearly. Bad news… really bad. CarneCarne, a chain of affordable high-quality butcher shops in Spain, was launched seven years ago with a single shop in eastern Spain. It has grown significantly and aspires to expand into other European countries. However, expansion plans and preparations have added operational complexity (operations for a business that have many parts and sectors that impact each other). CarneCarne aims to navigate this growth while building a strong reputation for high quality, safety and service. Yesterday, the CarneCarne team encountered an urgent problem. Their northwest distribution center, a warehouse or building designed to hold goods before shipping, received upsetting news: during routine testing, they found E. coli (common bacteria found in food that causes sickness) contamination in some frozen beef samples. They immediately pulled beef from the shelves, notified customers and regulators, and shut down and decontaminated the affected distribution center. Now they must get to the root cause of the contamination. They plan to issue a press release within three days to address the issue and win back consumer confidence. Elena (CEO) has convened Javier (CFO), Sophia (head of operations), and Mateo (head of supply chain) to come up with a plan. “High quality meat for healthier communities.” CarneCarne, a trusted name, now facing a critical test. Where to start? CarneCarne's team faces a make-or-break challenge. Within a few days, they need to determine the root cause of the E. coli infection found at their northwest distribution center. It's a big task and the team is feeling the pressure. How would you structure this problem? What are the key questions you need to answer? Your challenge: use what you've learned to define and structure the problem for CarneCarne. What information do you need? What are the key issues to investigate?",
-          "id": "Studi kasus · Menyusun struktur masalah: kasus nyata untuk berlatih merumuskan dan menyusun struktur masalah dengan jelas. Kabar buruk… sangat buruk. CarneCarne, jaringan toko daging bermutu tinggi dengan harga terjangkau di Spanyol, berdiri tujuh tahun lalu dengan satu toko di Spanyol timur. Usahanya tumbuh pesat dan kini bercita-cita merambah negara-negara Eropa lain. Namun, rencana dan persiapan ekspansi itu menambah kerumitan operasional (operasional usaha yang punya banyak bagian dan sektor yang saling memengaruhi). CarneCarne ingin melewati pertumbuhan ini sambil membangun reputasi kuat soal mutu, keamanan, dan layanan. Kemarin, tim CarneCarne menghadapi masalah mendesak. Pusat distribusi barat laut mereka, yaitu gudang atau bangunan untuk menyimpan barang sebelum dikirim, menerima kabar yang mengkhawatirkan: dalam pengujian rutin, mereka menemukan kontaminasi E. coli (bakteri umum pada makanan yang bisa menyebabkan sakit) pada beberapa sampel daging sapi beku. Mereka langsung menarik daging dari rak, memberi tahu pelanggan dan regulator, lalu menutup dan mensterilkan pusat distribusi yang terdampak. Sekarang mereka harus menemukan akar masalah kontaminasinya. Mereka berencana mengeluarkan siaran pers dalam tiga hari untuk menanggapi masalah ini dan memulihkan kepercayaan konsumen. Elena (CEO) mengumpulkan Javier (CFO), Sophia (kepala operasional), dan Mateo (kepala rantai pasok) untuk menyusun rencana. “Daging bermutu tinggi untuk masyarakat yang lebih sehat.” CarneCarne, nama yang dipercaya, kini menghadapi ujian berat. Mulai dari mana? Tim CarneCarne menghadapi tantangan yang menentukan. Dalam beberapa hari, mereka harus menemukan akar masalah infeksi E. coli yang ditemukan di pusat distribusi barat laut mereka. Tugasnya besar dan tim merasakan tekanannya. Bagaimana kamu akan menyusun struktur masalah ini? Pertanyaan kunci apa yang perlu kamu jawab? Tantanganmu: pakai apa yang sudah kamu pelajari untuk merumuskan dan menyusun struktur masalah CarneCarne. Informasi apa yang kamu butuhkan? Isu kunci apa yang perlu diselidiki?"
-         }
-        },
-        {
-         "title": {
-          "en": "Check your understanding: the team's best next step",
-          "id": "Cek pemahamanmu: langkah berikutnya yang terbaik bagi tim"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Check your understanding: which of the following is the best next step for the team? Select the best answer, then see the explanation on the right. Option 1: to ensure they're not missing anything, the team should quickly brainstorm a list of all possible causes and then divide them up to investigate (incorrect). Option 2: there is too much work for three individuals; the team's first order of business should be to find additional help (incorrect). Option 3: the team should further refine their basic problem question and use that as a starting point to think about possible causes in a structured way (correct: that's right!). No matter what type of problem-solving situation you find yourself in, it's important to start with a crisp sense of the question you need to answer. It may be easy to assume that there is an unspoken understanding of the problem statement, for example, uncovering the source of the E. coli contamination, but it's important to take the time to make the statement as SMART as possible to guide the problem-solving effort. Refining it carefully will save time and resources. Once the team has carefully defined the statement, they can begin dividing it into sub-questions that need to be answered. In this case, the team aligned on this problem question: “What is the source of the E. coli contamination in the frozen beef samples at the northwest distribution center?” They may be able to further refine the problem statement as they gather more information and iterate. 1 Define the problem; 2 Refine the problem statement; 3 Break into sub-questions. Key takeaway: start with a clear and specific problem question before brainstorming possible causes.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Cek pemahamanmu: manakah langkah berikutnya yang terbaik bagi tim? Pilih jawaban terbaik, lalu lihat penjelasannya di sebelah kanan. Opsi 1: supaya tidak ada yang terlewat, tim sebaiknya cepat-cepat mendaftar semua kemungkinan penyebab, lalu membaginya untuk diselidiki (keliru). Opsi 2: pekerjaannya terlalu banyak untuk tiga orang, jadi urusan pertama tim adalah mencari bantuan tambahan (keliru). Opsi 3: tim sebaiknya mempertajam pertanyaan masalah dasarnya, lalu memakainya sebagai titik awal untuk memikirkan kemungkinan penyebab secara terstruktur (benar: tepat sekali!). Dalam situasi pemecahan masalah apa pun, penting untuk memulai dengan pemahaman yang tajam tentang pertanyaan yang perlu dijawab. Mudah sekali mengira semua orang sudah diam-diam sepaham soal pernyataan masalahnya, misalnya menemukan sumber kontaminasi E. coli. Tetapi penting meluangkan waktu untuk membuat pernyataan itu se-SMART mungkin supaya bisa menuntun upaya pemecahan masalahnya. Mempertajamnya dengan cermat akan menghemat waktu dan sumber daya. Setelah tim merumuskan pernyataannya dengan cermat, mereka bisa mulai memecahnya menjadi sub-pertanyaan yang perlu dijawab. Dalam kasus ini, tim sepakat pada pertanyaan masalah berikut: “Apa sumber kontaminasi E. coli pada sampel daging sapi beku di pusat distribusi barat laut?” Mereka mungkin masih bisa mempertajam pernyataan masalahnya seiring mereka mengumpulkan informasi dan mengulang prosesnya. 1 Rumuskan masalahnya; 2 Pertajam pernyataan masalahnya; 3 Pecah menjadi sub-pertanyaan. Intinya: mulailah dengan pertanyaan masalah yang jelas dan spesifik sebelum mendaftar kemungkinan penyebab."
-         }
-        },
-        {
-         "title": {
-          "en": "The power of problem structuring and prioritization",
-          "id": "Kekuatan menyusun struktur dan memprioritaskan masalah"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. The power of problem structuring and prioritization: a clear structure helps you navigate complexity and focus on what matters most. The problem-solving journey, from a broad question to an actionable solution: 1 Define the problem; 2 Structure the problem and generate ideas; 3 Prioritize issues; 4 Plan analyses and work; 5 Conduct analyses; 6 Synthesize findings; 7 Develop recommendations. Go deeper for better insights: break down the problem, then prioritize what to focus on. Which parts will you focus on? In the case of the CarneCarne team, we've discussed the importance of a SMART problem question and a strong problem definition. Together, these are the foundations of any problem-solving effort, no matter the size. What happens next? It's time to structure the problem by breaking it into component parts and prioritizing which parts you will focus on. Without a clear plan, you may find your analysis opening more questions than it resolves. Remember, in the real world, you almost always lack the time you need to address every aspect of an inquiry. How you structure and prioritize is a key to spending your limited time and other resources on the right area to look into. Structuring and prioritization: as we just saw, the CarneCarne team doesn't have much time to get to the root cause, and it's very important that they do. Here, Marc and Emily talk about the next steps CarneCarne should take: structuring the problem and prioritizing issues. Key mindset: “A clearer structure today leads to faster insights tomorrow.” Same problem, a clearer path, a brighter outcome.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Kekuatan menyusun struktur dan memprioritaskan masalah: struktur yang jelas membantumu melewati kerumitan dan fokus pada hal yang paling penting. Perjalanan pemecahan masalah, dari pertanyaan yang luas ke solusi yang bisa dijalankan: 1 Rumuskan masalahnya; 2 Susun struktur masalah dan munculkan ide; 3 Prioritaskan isu; 4 Rencanakan analisis dan pekerjaan; 5 Lakukan analisis; 6 Sintesiskan temuan; 7 Susun rekomendasi. Gali lebih dalam untuk wawasan yang lebih baik: pecah masalahnya, lalu prioritaskan apa yang difokuskan. Bagian mana yang akan kamu fokuskan? Dalam kasus tim CarneCarne, kita sudah membahas pentingnya pertanyaan masalah yang SMART dan perumusan masalah yang kuat. Bersama-sama, keduanya adalah fondasi setiap upaya pemecahan masalah, sebesar apa pun. Apa yang terjadi berikutnya? Saatnya menyusun struktur masalah dengan memecahnya menjadi bagian-bagian, lalu memprioritaskan bagian mana yang akan kamu garap. Tanpa rencana yang jelas, analisismu bisa memunculkan lebih banyak pertanyaan daripada yang terjawab. Ingat, di dunia nyata kamu hampir selalu kekurangan waktu untuk menggarap setiap aspek sebuah penyelidikan. Cara kamu menyusun struktur dan memprioritaskan adalah kunci untuk memakai waktu dan sumber dayamu yang terbatas di area yang tepat. Menyusun struktur dan memprioritaskan: seperti yang baru kita lihat, tim CarneCarne tidak punya banyak waktu untuk menemukan akar masalahnya, padahal hal itu sangat penting. Di sini, Marc dan Emily membahas langkah berikutnya yang perlu diambil CarneCarne: menyusun struktur masalah dan memprioritaskan isu. Pola pikir kunci: “Struktur yang lebih jelas hari ini membawa wawasan yang lebih cepat esok hari.” Masalah yang sama, jalan yang lebih jelas, hasil yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "Introduction to Logic Trees: Material",
-        "id": "Pengantar Pohon Logika: Materi"
-       },
-       "intro": {
-        "en": "After the film, three slides give step 2 its tool: the logic tree, or issue tree. CarneCarne's supply chain in five steps and the first-level branches the team is weighing (supplier, processing, distribution); the key concepts and a worked tree that breaks “what is the source of the E. coli contamination?” into 1A, 1B and 1C with three sub-issues each; and an exercise: which set of three questions makes the strongest first level of the tree, and why a mutually exclusive, collectively exhaustive set wins.",
-        "id": "Setelah film, tiga slide memberi langkah 2 alatnya: pohon logika, atau pohon isu. Rantai pasok CarneCarne dalam lima tahap dan cabang tingkat pertama yang sedang ditimbang tim (pemasok, pengolahan, distribusi); konsep-konsep kunci dan contoh pohon yang memecah “apa sumber kontaminasi E. coli?” menjadi 1A, 1B, dan 1C, masing-masing dengan tiga sub-isu; dan satu latihan: kumpulan tiga pertanyaan mana yang paling kuat sebagai tingkat pertama pohonnya, dan kenapa kumpulan yang saling lepas dan lengkap menyeluruh yang menang."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-tree-",
-       "slides": [
-        {
-         "title": {
-          "en": "Introduction to logic trees and sub-issues",
-          "id": "Pengantar pohon logika dan sub-isu"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Introduction to logic trees and sub-issues: a logic tree helps break a complex problem into its key components, so you can explore possible causes in a structured way. Breaking down a problem: structuring a problem requires a clear approach to breaking it down into constituent parts. One tool that can help is a logic tree, or the issue tree. CarneCarne's issue tree: the CarneCarne team needs to organize their problem-solving effort and is using an issue tree to help. Elena has asked them to identify the root cause of the E. coli infection in the frozen beef samples in the northwest distribution center. CarneCarne's supply chain: 1 Five individual family farms raise cattle and process their beef onsite. 2 A packaging facility packages the beef from the farms. 3 CarneCarne's northwest distribution center prepares the beef for distribution. 4 The beef is distributed to three CarneCarne stores, where consumers buy it. 5 Consumers buy the beef. CarneCarne's issue tree. What is the root cause of the E. coli infection? 1 Supplier / input: could the contamination originate from the farms or incoming cattle? 2 Processing / packaging: could the contamination occur during the packaging process? 3 Distribution / handling: could the contamination occur at the northwest distribution center or during distribution to stores? They have begun structuring the problem by creating an issue tree and thinking about three options for the first-level branching. They are now deciding among these options. Keep in mind that structuring a problem is a process that is constantly being improved on: new information or experience can allow a team to see the problem in a different light. Case exercise · Structuring the problem.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Pengantar pohon logika dan sub-isu: pohon logika membantu memecah masalah yang rumit menjadi komponen-komponen kuncinya, supaya kamu bisa menelusuri kemungkinan penyebabnya secara terstruktur. Memecah masalah: menyusun struktur masalah butuh cara yang jelas untuk memecahnya menjadi bagian-bagian penyusunnya. Salah satu alat yang bisa membantu adalah pohon logika, atau pohon isu. Pohon isu CarneCarne: tim CarneCarne perlu menata upaya pemecahan masalahnya dan sedang memakai pohon isu untuk membantunya. Elena meminta mereka menemukan akar masalah infeksi E. coli pada sampel daging sapi beku di pusat distribusi barat laut. Rantai pasok CarneCarne: 1 Lima peternakan keluarga memelihara sapi dan mengolah dagingnya di tempat. 2 Sebuah fasilitas pengemasan mengemas daging dari peternakan-peternakan itu. 3 Pusat distribusi barat laut CarneCarne menyiapkan daging untuk didistribusikan. 4 Daging didistribusikan ke tiga toko CarneCarne, tempat konsumen membelinya. 5 Konsumen membeli dagingnya. Pohon isu CarneCarne. Apa akar masalah infeksi E. coli? 1 Pemasok / bahan masuk: mungkinkah kontaminasinya berasal dari peternakan atau sapi yang masuk? 2 Pengolahan / pengemasan: mungkinkah kontaminasinya terjadi selama proses pengemasan? 3 Distribusi / penanganan: mungkinkah kontaminasinya terjadi di pusat distribusi barat laut atau selama distribusi ke toko? Mereka sudah mulai menyusun struktur masalahnya dengan membuat pohon isu dan memikirkan tiga opsi untuk cabang tingkat pertamanya. Sekarang mereka sedang memilih di antara opsi-opsi ini. Ingat bahwa menyusun struktur masalah adalah proses yang terus diperbaiki: informasi atau pengalaman baru bisa membuat tim melihat masalahnya dari sudut yang berbeda. Latihan kasus · Menyusun struktur masalah."
-         }
-        },
-        {
-         "title": {
-          "en": "Key concepts and a logic tree example",
-          "id": "Konsep kunci dan contoh pohon logika"
-         },
-         "text": {
-          "en": "Example scenario · Key concepts and a logic tree example: understanding the key concepts helps us structure the problem and explore possible root causes in a clear and logical way. Key concept definitions. The following concepts are referenced throughout this scenario. Supply chain: the processes and activities used to create goods or services (including sourcing raw materials, shipping to a facility, etc.). Operational complexity: operations for a business that have many parts and sectors that interact with each other. Distribution center: a warehouse or building designed to hold goods for shipping to a market for sale. E. coli: a common bacteria found in food that causes sickness. Example of a logic tree, breaking down the problem into key sub-issues. What is the source of the E. coli contamination in the frozen beef samples at the northwest distribution center? 1A, Supply chain: 1A-1 raw material source; 1A-2 supplier practices; 1A-3 transportation conditions. 1B, Processing and handling: 1B-1 processing hygiene; 1B-2 equipment sanitation; 1B-3 worker practices. 1C, Distribution center: 1C-1 storage conditions; 1C-2 cross-contamination; 1C-3 temperature control. Key takeaway: a clear structure helps us ask the right questions and find the real root cause. Same problem, a clearer path, a brighter outcome.",
-          "id": "Contoh skenario · Konsep kunci dan contoh pohon logika: memahami konsep-konsep kunci membantu kita menyusun struktur masalah dan menelusuri kemungkinan akar masalahnya dengan jelas dan logis. Definisi konsep kunci. Konsep-konsep berikut dirujuk sepanjang skenario ini. Rantai pasok: proses dan kegiatan yang dipakai untuk menghasilkan barang atau jasa (termasuk mencari bahan baku, pengiriman ke fasilitas, dan seterusnya). Kerumitan operasional: operasional usaha yang punya banyak bagian dan sektor yang saling berinteraksi. Pusat distribusi: gudang atau bangunan untuk menyimpan barang sebelum dikirim ke pasar untuk dijual. E. coli: bakteri umum pada makanan yang bisa menyebabkan sakit. Contoh pohon logika, yang memecah masalah menjadi sub-isu kunci. Apa sumber kontaminasi E. coli pada sampel daging sapi beku di pusat distribusi barat laut? 1A, Rantai pasok: 1A-1 sumber bahan baku; 1A-2 praktik pemasok; 1A-3 kondisi pengangkutan. 1B, Pengolahan dan penanganan: 1B-1 kebersihan pengolahan; 1B-2 sanitasi peralatan; 1B-3 praktik pekerja. 1C, Pusat distribusi: 1C-1 kondisi penyimpanan; 1C-2 kontaminasi silang; 1C-3 pengendalian suhu. Intinya: struktur yang jelas membantu kita mengajukan pertanyaan yang tepat dan menemukan akar masalah yang sebenarnya. Masalah yang sama, jalan yang lebih jelas, hasil yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Help the CarneCarne team work on their issue tree",
-          "id": "Bantu tim CarneCarne menggarap pohon isunya"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Help the CarneCarne team work on their issue tree: fill in the 3 blue squares in the first level of the tree. Which set of 3 questions would make the strongest first level of the tree? 1 Review the options: read the sets of questions below, then select the best answer. A, Set 1: 1A, was there initial contamination at one or more of the family farms? 1B, was there initial contamination at any of the points along the supply chain prior to the arrival of the beef at the northwest distribution center? 1C, was there initial contamination in one or more of the CarneCarne stores? B, Set 2 (correct): 1A, was there initial contamination at one or more of the five family farms that supply the CarneCarne northwest distribution center? 1B, was there initial contamination at the packaging facility that feeds the northwest distribution center? 1C, was there initial contamination at the northwest distribution center? C, Set 3: 1A, one or more of the family farms were the source of the initial contamination. 1B, the packaging facility was the source of the initial contamination. 1C, the northwest distribution center was the source of the initial contamination. Issue tree (first level): identify the most logical first-level questions to investigate the root cause. What is the source of the E. coli contamination in the frozen beef samples at the northwest distribution center? → 1A, 1B, 1C. Correct, that's right! It's likely that separating the possibilities by steps of the supply chain preceding the contamination site will be a useful way for the team to approach the analysis. Taken together, the three issues in this set represent a reasonably exhaustive set of questions that will help answer the question “How did the frozen beef at the northwest distribution center become contaminated?” The causes are unlikely to appear in more than one of these categories. The list is mutually exclusive. Key takeaway: a clear and structured set of questions helps you explore the real root cause. Same problem, a clearer path, a brighter outcome.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Bantu tim CarneCarne menggarap pohon isunya: isi 3 kotak biru di tingkat pertama pohonnya. Kumpulan 3 pertanyaan mana yang paling kuat sebagai tingkat pertama pohonnya? 1 Tinjau opsinya: baca kumpulan pertanyaan di bawah, lalu pilih jawaban terbaik. A, Kumpulan 1: 1A, apakah ada kontaminasi awal di satu atau lebih peternakan keluarga? 1B, apakah ada kontaminasi awal di titik mana pun di sepanjang rantai pasok sebelum daging tiba di pusat distribusi barat laut? 1C, apakah ada kontaminasi awal di satu atau lebih toko CarneCarne? B, Kumpulan 2 (benar): 1A, apakah ada kontaminasi awal di satu atau lebih dari lima peternakan keluarga yang memasok pusat distribusi barat laut CarneCarne? 1B, apakah ada kontaminasi awal di fasilitas pengemasan yang memasok pusat distribusi barat laut? 1C, apakah ada kontaminasi awal di pusat distribusi barat laut? C, Kumpulan 3: 1A, satu atau lebih peternakan keluarga menjadi sumber kontaminasi awal. 1B, fasilitas pengemasan menjadi sumber kontaminasi awal. 1C, pusat distribusi barat laut menjadi sumber kontaminasi awal. Pohon isu (tingkat pertama): kenali pertanyaan tingkat pertama yang paling logis untuk menyelidiki akar masalahnya. Apa sumber kontaminasi E. coli pada sampel daging sapi beku di pusat distribusi barat laut? → 1A, 1B, 1C. Benar, tepat sekali! Memisahkan kemungkinan-kemungkinannya menurut tahap rantai pasok sebelum lokasi kontaminasi kemungkinan besar menjadi cara yang berguna bagi tim untuk mendekati analisisnya. Bersama-sama, ketiga isu dalam kumpulan ini mewakili kumpulan pertanyaan yang cukup lengkap untuk membantu menjawab pertanyaan “Bagaimana daging sapi beku di pusat distribusi barat laut bisa terkontaminasi?” Penyebabnya kecil kemungkinan muncul di lebih dari satu kategori. Daftarnya saling lepas. Intinya: kumpulan pertanyaan yang jelas dan terstruktur membantumu menelusuri akar masalah yang sebenarnya. Masalah yang sama, jalan yang lebih jelas, hasil yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Introduction to MECE: Material",
-        "id": "Pengantar MECE: Materi"
-       },
-       "intro": {
-        "en": "Next, four slides close the lesson's material with the test every logic tree must pass: MECE (mutually exclusive, collectively exhaustive, or simply no overlaps and no gaps); then an exercise on the CarneCarne tree: which two questions belong as second-level issues under the family-farms branch, and why the tempting ones are off-track or overlap; the 80/20 rule and the impact-versus-feasibility prioritisation matrix for choosing which issues to analyse first; and a recap of the three structuring tools.",
-        "id": "Berikutnya, empat slide menutup materi pelajaran ini dengan ujian yang harus dilewati setiap pohon logika: MECE (mutually exclusive, collectively exhaustive, atau sederhananya, tanpa tumpang tindih dan tanpa celah); lalu latihan pada pohon CarneCarne: dua pertanyaan mana yang layak menjadi isu tingkat kedua di bawah cabang peternakan keluarga, dan kenapa pertanyaan-pertanyaan yang menggoda itu justru melenceng atau tumpang tindih; aturan 80/20 dan matriks prioritas dampak lawan kelayakan untuk memilih isu mana yang dianalisis lebih dulu; dan rangkuman tiga alat penyusun struktur."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-mece-",
-       "slides": [
-        {
-         "title": {
-          "en": "Introduction to MECE: no overlaps, no gaps",
-          "id": "Pengantar MECE: tanpa tumpang tindih, tanpa celah"
-         },
-         "text": {
-          "en": "Module 3. Introduction to MECE: a simple principle for clearer thinking and better problem solving. No overlaps, no gaps, clear insights. No overlaps, no gaps: the CarneCarne team's work illustrates an important concept to keep in mind when constructing logic trees: MECE, or Mutually Exclusive, Collectively Exhaustive. Simply put: no overlaps, no gaps. What does MECE mean? Mutually exclusive: categories do not overlap with each other. Collectively exhaustive: all relevant items are fully covered, with no gaps. Using MECE helps us structure problems clearly, think more logically, and develop better solutions. Structured thinking for real impact.",
-          "id": "Modul 3. Pengantar MECE: prinsip sederhana untuk berpikir lebih jernih dan memecahkan masalah dengan lebih baik. Tanpa tumpang tindih, tanpa celah, wawasan yang jernih. Tanpa tumpang tindih, tanpa celah: kerja tim CarneCarne memperlihatkan satu konsep penting yang perlu diingat saat menyusun pohon logika: MECE, atau Mutually Exclusive, Collectively Exhaustive. Sederhananya: tanpa tumpang tindih, tanpa celah. Apa arti MECE? Saling lepas (mutually exclusive): kategori-kategorinya tidak saling tumpang tindih. Lengkap menyeluruh (collectively exhaustive): semua hal yang relevan tercakup sepenuhnya, tanpa celah. Memakai MECE membantu kita menyusun struktur masalah dengan jelas, berpikir lebih logis, dan menyusun solusi yang lebih baik. Berpikir terstruktur untuk dampak yang nyata."
-         }
-        },
-        {
-         "title": {
-          "en": "Help the CarneCarne team move their problem structure forward",
-          "id": "Bantu tim CarneCarne memajukan struktur masalahnya"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Help the CarneCarne team move their problem structure forward: use the first-level question in the issue tree to help the team develop their analysis further. 1 CarneCarne issue tree: first-level questions have been provided. What is the source of the E. coli contamination in the frozen beef samples at the northwest distribution center? → Was there initial contamination at one or more of the five family farms that supply the northwest distribution center (2A, 2B)? Was there initial contamination at the packaging facility that feeds into the northwest distribution center? Did the initial contamination occur at the northwest distribution center itself? The team has already defined the first-level questions. Your task is to help them develop the second-level questions. 2 Select the second-level questions: which of the following questions would you include as second-level issues in boxes 2A and 2B? What has been the source of E. coli contamination when other companies have faced this problem? Has CarneCarne ever faced a similar issue at any of its other locations? Was beef contaminated with E. coli as it was processed at one of the family farms? (selected) Are the containers on the farm the beef is stored in contaminated? (selected) Are any aspects of the farms' processes inadvertently introducing E. coli into the meat? 3 Notes on each issue: “What has been the source of E. coli contamination when other companies have faced this problem?” Should not be selected; while it is one line of inquiry, it is not linked to this particular branch of the issue tree, which focuses on the five family farms, and may take the team off track. “Has CarneCarne ever faced a similar issue at any of its other locations?” Should not be selected; this question might be relevant if the team were brainstorming potential causes and wanted to reference previous similar issues, but it does not focus on the specific cause of contamination at the northwest distribution center, and it could lead the team off track. “Was beef contaminated with E. coli as it was processed at one of the family farms?” Should be selected; it represents a logical sub-issue and is at an appropriate level of detail. “Are the containers on the farm the beef is stored in contaminated?” Should be selected; it is also a logical sub-issue and relevant to this branch. “Are any aspects of the farms' processes inadvertently introducing E. coli into the meat?” Should not be selected; this sub-issue is not MECE: it overlaps with other questions, such as whether the containers the farms use, or the meat processing, are sources of contamination. Key takeaway: clear and well-structured questions help you uncover the real root cause. Same problem, clearer path, a brighter outcome.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Bantu tim CarneCarne memajukan struktur masalahnya: pakai pertanyaan tingkat pertama di pohon isunya untuk membantu tim mengembangkan analisisnya. 1 Pohon isu CarneCarne: pertanyaan tingkat pertama sudah disediakan. Apa sumber kontaminasi E. coli pada sampel daging sapi beku di pusat distribusi barat laut? → Apakah ada kontaminasi awal di satu atau lebih dari lima peternakan keluarga yang memasok pusat distribusi barat laut (2A, 2B)? Apakah ada kontaminasi awal di fasilitas pengemasan yang memasok pusat distribusi barat laut? Apakah kontaminasi awalnya terjadi di pusat distribusi barat laut itu sendiri? Tim sudah merumuskan pertanyaan tingkat pertamanya. Tugasmu adalah membantu mereka menyusun pertanyaan tingkat kedua. 2 Pilih pertanyaan tingkat kedua: pertanyaan mana yang akan kamu masukkan sebagai isu tingkat kedua di kotak 2A dan 2B? Apa sumber kontaminasi E. coli saat perusahaan lain menghadapi masalah ini? Pernahkah CarneCarne menghadapi masalah serupa di lokasi lainnya? Apakah daging sapinya terkontaminasi E. coli saat diolah di salah satu peternakan keluarga? (dipilih) Apakah wadah penyimpanan daging di peternakan itu terkontaminasi? (dipilih) Apakah ada bagian dari proses di peternakan yang tanpa sengaja memasukkan E. coli ke dalam daging? 3 Catatan untuk setiap isu: “Apa sumber kontaminasi E. coli saat perusahaan lain menghadapi masalah ini?” Tidak perlu dipilih. Meski bisa menjadi salah satu jalur penyelidikan, pertanyaan ini tidak terkait dengan cabang pohon isu yang berfokus pada lima peternakan keluarga, dan bisa membuat tim melenceng. “Pernahkah CarneCarne menghadapi masalah serupa di lokasi lainnya?” Tidak perlu dipilih. Pertanyaan ini mungkin relevan kalau tim sedang mendaftar kemungkinan penyebab dan ingin merujuk kasus serupa sebelumnya, tetapi tidak berfokus pada penyebab spesifik kontaminasi di pusat distribusi barat laut, dan bisa membuat tim melenceng. “Apakah daging sapinya terkontaminasi E. coli saat diolah di salah satu peternakan keluarga?” Perlu dipilih. Pertanyaan ini adalah sub-isu yang logis dan berada di tingkat kerincian yang tepat. “Apakah wadah penyimpanan daging di peternakan itu terkontaminasi?” Perlu dipilih. Pertanyaan ini juga sub-isu yang logis dan relevan dengan cabang ini. “Apakah ada bagian dari proses di peternakan yang tanpa sengaja memasukkan E. coli ke dalam daging?” Tidak perlu dipilih. Sub-isu ini tidak MECE: ia tumpang tindih dengan pertanyaan lain, misalnya apakah wadah yang dipakai peternakan, atau proses pengolahan dagingnya, menjadi sumber kontaminasi. Intinya: pertanyaan yang jelas dan terstruktur dengan baik membantumu menemukan akar masalah yang sebenarnya. Masalah yang sama, jalan yang lebih jelas, hasil yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Prioritizing your issues with 80/20 and the prioritization matrix",
-          "id": "Memprioritaskan isu dengan 80/20 dan matriks prioritas"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Prioritizing your issues with 80/20 and the prioritization matrix: not all issues are created equal. Focus your time and energy on the few that matter most. “Focus on the vital few, not the trivial many.” (The Pareto principle, in Joseph Juran’s words.) 1 The 80/20 rule: a small number of issues often drive the majority of the impact. Once you have fleshed out your issue tree and built out rows for your first and second levels of issues, you likely have many issues to investigate and little time to do so, just like the CarneCarne team. Fortunately, the Pareto principle or the 80/20 rule can help both you and the CarneCarne team prioritize which issues you want to perform analysis/research on: 20% of issues often drive 80% of the impact, focus there. 2 Assessing impact and feasibility: prioritize issues based on where you can create the most value realistically. When determining the root cause of a problem, as the CarneCarne team is trying to do, the chief prioritization you can do is by rough likelihood of a particular branch or issue being a cause. In other types of problem solving, when you're finding a solution rather than a cause (such as coming up with a recommendation for an IT solution), prioritization by criteria such as impact and feasibility can be incredibly useful. You can use the prioritization matrix tool to help guide your work, which can be found in your workbook under reference material. Impact: how much value could this issue create if resolved? Feasibility: how realistic is it to address this issue given time, resources, and constraints? The prioritization matrix: evaluate and prioritize issues based on impact and feasibility. High impact and high feasibility: prioritize now (key focus); high impact and low feasibility: keep on radar (consider later); low impact and high feasibility: consider if time permits (quick wins); low impact and low feasibility: deprioritize (minimal effort). Key takeaway: focus on the few issues that can make the biggest difference and are realistic to tackle. Same analysis, clearer priorities, greater impact.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Memprioritaskan isu dengan 80/20 dan matriks prioritas: tidak semua isu sama pentingnya. Curahkan waktu dan energimu pada sedikit isu yang paling penting. “Fokus pada yang sedikit tapi vital, bukan pada yang banyak tapi remeh.” (Prinsip Pareto, dalam rumusan Joseph Juran.) 1 Aturan 80/20: sejumlah kecil isu sering kali menggerakkan sebagian besar dampaknya. Setelah kamu melengkapi pohon isumu dan mengisi baris untuk isu tingkat pertama dan kedua, kemungkinan besar kamu punya banyak isu untuk diselidiki dan sedikit waktu untuk melakukannya, persis seperti tim CarneCarne. Untungnya, prinsip Pareto atau aturan 80/20 bisa membantumu dan tim CarneCarne memprioritaskan isu mana yang ingin dianalisis atau diriset: 20% isu sering kali menggerakkan 80% dampaknya, jadi fokuslah di sana. 2 Menilai dampak dan kelayakan: prioritaskan isu berdasarkan tempat kamu bisa menciptakan nilai terbesar secara realistis. Saat mencari akar masalah, seperti yang sedang dilakukan tim CarneCarne, cara memprioritaskan yang utama adalah menurut perkiraan kasar seberapa mungkin sebuah cabang atau isu menjadi penyebabnya. Dalam jenis pemecahan masalah lain, saat kamu mencari solusi alih-alih penyebab (misalnya menyusun rekomendasi untuk solusi TI), memprioritaskan dengan kriteria seperti dampak dan kelayakan bisa sangat berguna. Kamu bisa memakai alat matriks prioritas untuk menuntun pekerjaanmu, yang bisa ditemukan di buku kerjamu pada bagian bahan rujukan. Dampak: seberapa besar nilai yang bisa diciptakan isu ini kalau terselesaikan? Kelayakan: seberapa realistis menggarap isu ini, mengingat waktu, sumber daya, dan batasannya? Matriks prioritas: nilai dan prioritaskan isu berdasarkan dampak dan kelayakannya. Dampak tinggi dan kelayakan tinggi: prioritaskan sekarang (fokus utama); dampak tinggi dan kelayakan rendah: tetap pantau (pertimbangkan nanti); dampak rendah dan kelayakan tinggi: pertimbangkan kalau ada waktu (kemenangan cepat); dampak rendah dan kelayakan rendah: kesampingkan (usaha seminimal mungkin). Intinya: fokus pada sedikit isu yang bisa membuat perbedaan terbesar dan realistis untuk digarap. Analisis yang sama, prioritas yang lebih jelas, dampak yang lebih besar."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "Module 3 · Think like a problem solver. Key takeaways: three tools to structure, prioritize, and solve problems more effectively. 1 Issue or logic trees: use this to break down your problem into more manageable parts to be analyzed. 2 MECE framework: use this to test that you have broken down your problem into workable parts that are easier to analyze one by one. 3 The 80/20 principle and prioritization matrix: use these to prioritize your time by focusing on the most critical areas for analysis and research to reach a solution efficiently. From a complex problem to a clear path forward: structure (break down the problem) → ensure clarity (apply MECE) → prioritize (focus on what matters most), from complexity, to clarity, to impact. Resources. You may also wish to explore: “Discovering better ways of working”, McKinsey & Company; “Making great decisions”, McKinsey Quarterly.",
-          "id": "Modul 3 · Berpikir seperti pemecah masalah. Poin penting: tiga alat untuk menyusun struktur, memprioritaskan, dan memecahkan masalah dengan lebih efektif. 1 Pohon isu atau pohon logika: pakai ini untuk memecah masalahmu menjadi bagian-bagian yang lebih mudah dianalisis. 2 Kerangka MECE: pakai ini untuk menguji apakah kamu sudah memecah masalahmu menjadi bagian-bagian yang bisa digarap dan lebih mudah dianalisis satu per satu. 3 Prinsip 80/20 dan matriks prioritas: pakai ini untuk memprioritaskan waktumu dengan berfokus pada area paling penting untuk dianalisis dan diriset, supaya sampai ke solusi dengan efisien. Dari masalah yang rumit ke jalan maju yang jelas: susun struktur (pecah masalahnya) → pastikan kejelasan (terapkan MECE) → prioritaskan (fokus pada hal yang paling penting), dari kerumitan, ke kejelasan, ke dampak. Bacaan. Kamu mungkin juga ingin membaca: “Discovering better ways of working”, McKinsey & Company; “Making great decisions”, McKinsey Quarterly."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 1 slide",
-        "id": "Baca berikutnya · 1 slide"
-       },
-       "title": {
-        "en": "Arriving at a Recommendation: Material",
-        "id": "Sampai pada Rekomendasi: Materi"
-       },
-       "intro": {
-        "en": "One slide opens the SodaComp case: a soft-drink company whose CEO wants three percent more European market share by year-end. Read the challenge and the four terms the case leans on (market share, marketing team, channel strategy, product development), then watch the film below, where the team turns its problem question into an issue tree and two prioritised hypotheses. It is the bridge from analysis to a recommendation the CEO can act on.",
-        "id": "Satu slide membuka kasus SodaComp: perusahaan minuman ringan yang CEO-nya ingin pangsa pasar Eropa naik tiga persen sebelum akhir tahun. Baca tantangannya dan empat istilah yang dipakai kasus ini (pangsa pasar, tim pemasaran, strategi saluran, pengembangan produk), lalu tonton film di bawah, saat tim mengubah pertanyaan masalahnya menjadi pohon isu dan dua hipotesis yang diprioritaskan. Inilah jembatan dari analisis ke rekomendasi yang bisa dijalankan sang CEO."
-       },
-       "base": "../../assets/lms/the-map/slides/recommendation-",
-       "slides": [
-        {
-         "title": {
-          "en": "Arriving at a recommendation: three percent by year-end or bust!",
-          "id": "Sampai pada rekomendasi: tiga persen sebelum akhir tahun, atau gagal!"
-         },
-         "text": {
-          "en": "Applying your analysis. Arriving at a recommendation: turn your analysis into clear, actionable recommendations that create impact. Three percent by year-end or bust! The SodaComp team is working on an exciting challenge. The film below tells the story. Key concept definitions mentioned throughout the scenario. Market share: the percentage of all sales in a market that one business captures. Marketing team: the team that creates awareness and excitement for a product through ideas like advertisements and promotions. Channel strategy: the process of choosing certain marketing channels to reach the target audience (e.g. TV advertisement, website, online store). Product development: the steps that occur for a product to be created (design, development, marketing, etc.).",
-          "id": "Menerapkan analisismu. Sampai pada rekomendasi: ubah analisismu menjadi rekomendasi yang jelas, bisa dijalankan, dan berdampak. Tiga persen sebelum akhir tahun, atau gagal! Tim SodaComp sedang menggarap tantangan yang seru. Film di bawah menceritakan kisahnya. Definisi konsep kunci yang disebut sepanjang skenario. Pangsa pasar: persentase dari seluruh penjualan di sebuah pasar yang berhasil diraih satu usaha. Tim pemasaran: tim yang membangun kesadaran dan antusiasme terhadap sebuah produk lewat ide-ide seperti iklan dan promosi. Strategi saluran: proses memilih saluran pemasaran tertentu untuk menjangkau sasaran (misalnya iklan TV, situs web, toko daring). Pengembangan produk: tahap-tahap yang dilalui sebuah produk sampai tercipta (perancangan, pengembangan, pemasaran, dan seterusnya)."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "What’s Next: Material",
-        "id": "Apa Selanjutnya: Materi"
-       },
-       "intro": {
-        "en": "Four slides carry the SodaComp case forward. First, pause and decide what the team should do next, then open the expert’s response: focus on the two prioritised issues, clarify the hypotheses, name the analyses, prioritise and plan the work. The next two slides step back to the seven-step path and the final four steps (plan analyses and work, conduct analyses, synthesise findings, develop recommendations), and why the discipline of the early steps must carry into the work plan. The last slide opens the Work Plan Worksheet: hypotheses, end product, analyses, sources, timing, staff.",
-        "id": "Empat slide membawa kasus SodaComp lebih jauh. Pertama, berhenti sejenak dan putuskan apa yang sebaiknya dilakukan tim berikutnya, lalu buka jawaban ahlinya: fokus pada dua isu yang diprioritaskan, perjelas hipotesisnya, sebutkan analisisnya, lalu prioritaskan dan rencanakan pekerjaannya. Dua slide berikutnya mundur selangkah ke jalur tujuh langkah dan empat langkah terakhirnya (rencanakan analisis dan pekerjaan, lakukan analisis, sintesiskan temuan, susun rekomendasi), dan kenapa disiplin di langkah-langkah awal harus terbawa ke rencana kerja. Slide terakhir membuka Lembar Kerja Rencana Kerja: hipotesis, produk akhir, analisis, sumber, waktu, dan orang yang mengerjakan."
-       },
-       "base": "../../assets/lms/the-map/slides/whats-next-",
-       "slides": [
-        {
-         "title": {
-          "en": "What’s next?",
-          "id": "Apa selanjutnya?"
-         },
-         "text": {
-          "en": "Step 5 · Get expert insights. What’s next? Take a moment to think about what key immediate next steps the SodaComp team should take to advance their problem-solving. SodaComp’s issue tree: the team is exploring key opportunities to improve European market share. What opportunities exist for SodaComp to improve its European market share by 3% by end of year? 1. What enhancements to channel strategy will result in the most significant increase in European market share by end of year? Sell through restaurants and cafes; develop online store. 2. What new or existing products can we develop to most significantly increase European market share by end of year? Make existing products healthier; develop natural juice products. Compare with the expert response. 1. Focus on two key potential issues: the team’s structured approach has helped them focus on two potential issues that could help address the problem question, and they have formed hypotheses in response to these issues. It is important to build on this foundation and continue using a structured approach to guide their problem-solving efforts. 2. Clarify and validate hypotheses: the team has taken the first three steps of the hypothesis-led approach to problem solving: (1) define the problem, (2) identify issues, and (3) prioritize issues. They are now ready to move forward with the next step: (4) plan analyses and work. At this stage, they should think about what evidence they need to gather to support or reject their hypotheses, and what analyses will help them answer those questions. 3. Identify key analyses to run: to determine how best to achieve European market share growth, the team should identify what they need to know and what analyses would be most useful. Potential analyses could include: evaluating the impact of selling through restaurants and cafes, assessing the opportunity of an online store, analyzing which existing products could be made healthier, and evaluating the market potential for natural juice products. 4. Prioritize and plan the work: once the required analyses are defined, the team can prioritize them and sequence their tasks, taking into account dependencies and eliminating redundancies. They should then refine the work plan by identifying timelines, task owners, and key deliverables. Given the size and importance of this project, the work plan will likely be fairly detailed.",
-          "id": "Langkah 5 · Dapatkan wawasan ahli. Apa selanjutnya? Luangkan waktu untuk memikirkan langkah-langkah segera apa yang sebaiknya diambil tim SodaComp untuk memajukan pemecahan masalahnya. Pohon isu SodaComp: tim sedang menelusuri peluang-peluang kunci untuk menaikkan pangsa pasar Eropa. Peluang apa saja yang ada bagi SodaComp untuk menaikkan pangsa pasar Eropanya sebesar 3% sebelum akhir tahun? 1. Perbaikan strategi saluran apa yang akan menghasilkan kenaikan pangsa pasar Eropa paling besar sebelum akhir tahun? Jual lewat restoran dan kafe; kembangkan toko daring. 2. Produk baru atau produk lama apa yang bisa kita kembangkan untuk menaikkan pangsa pasar Eropa paling besar sebelum akhir tahun? Buat produk yang ada jadi lebih sehat; kembangkan produk jus alami. Bandingkan dengan jawaban ahli. 1. Fokus pada dua isu kunci: pendekatan terstruktur tim sudah membantu mereka berfokus pada dua isu yang bisa membantu menjawab pertanyaan masalahnya, dan mereka sudah merumuskan hipotesis untuk isu-isu ini. Penting untuk membangun di atas fondasi ini dan terus memakai pendekatan terstruktur untuk menuntun upaya pemecahan masalahnya. 2. Perjelas dan validasi hipotesisnya: tim sudah menjalani tiga langkah pertama pendekatan berbasis hipotesis: (1) merumuskan masalah, (2) mengenali isu, dan (3) memprioritaskan isu. Sekarang mereka siap ke langkah berikutnya: (4) merencanakan analisis dan pekerjaan. Di tahap ini, mereka perlu memikirkan bukti apa yang harus dikumpulkan untuk mendukung atau menolak hipotesisnya, dan analisis apa yang akan membantu menjawab pertanyaan-pertanyaan itu. 3. Kenali analisis kunci yang perlu dijalankan: untuk menentukan cara terbaik menaikkan pangsa pasar Eropa, tim perlu mengenali apa yang perlu mereka ketahui dan analisis apa yang paling berguna. Analisis yang mungkin antara lain: menilai dampak berjualan lewat restoran dan kafe, menakar peluang toko daring, menganalisis produk mana yang bisa dibuat lebih sehat, dan menilai potensi pasar produk jus alami. 4. Prioritaskan dan rencanakan pekerjaannya: setelah analisis yang dibutuhkan dirumuskan, tim bisa memprioritaskannya dan mengurutkan tugas-tugasnya, dengan memperhitungkan ketergantungan antartugas dan menghapus pekerjaan yang dobel. Lalu mereka perlu mempertajam rencana kerjanya dengan menetapkan jadwal, penanggung jawab tugas, dan hasil kerja utamanya. Mengingat besar dan pentingnya proyek ini, rencana kerjanya kemungkinan cukup rinci."
-         }
-        },
-        {
-         "title": {
-          "en": "The power of a work plan",
-          "id": "Kekuatan sebuah rencana kerja"
-         },
-         "text": {
-          "en": "Step 4 · Planning and executing analysis. The power of a work plan: a structured work plan helps you turn your analysis into clear, actionable recommendations that can be implemented. The path: 1 understand the problem, 2 structure the problem and generate ideas, 3 prioritize issues, 4 plan analyses and work, 5 conduct analyses, 6 synthesize findings, 7 develop recommendations. Understand (1–2), analyze (3–5), deliver solution (6–7). The final four steps: as we saw in the case of SodaComp, after defining and structuring a problem, the next steps are to map a plan for arriving at a recommendation and then execute that plan. This process of arriving at a recommendation comprises the final four steps of the hypothesis-led problem-solving approach, which we’ll cover in this section: plan analyses and work, conduct analyses, synthesize findings, and develop recommendations.",
-          "id": "Langkah 4 · Merencanakan dan menjalankan analisis. Kekuatan sebuah rencana kerja: rencana kerja yang terstruktur membantumu mengubah analisis menjadi rekomendasi yang jelas dan bisa dijalankan. Jalurnya: 1 pahami masalahnya, 2 susun struktur masalah dan munculkan ide, 3 prioritaskan isu, 4 rencanakan analisis dan pekerjaan, 5 lakukan analisis, 6 sintesiskan temuan, 7 susun rekomendasi. Pahami (1–2), analisis (3–5), serahkan solusi (6–7). Empat langkah terakhir: seperti yang kita lihat dalam kasus SodaComp, setelah merumuskan dan menyusun struktur masalah, langkah berikutnya adalah memetakan rencana untuk sampai pada rekomendasi, lalu menjalankan rencana itu. Proses sampai pada rekomendasi ini mencakup empat langkah terakhir pendekatan pemecahan masalah berbasis hipotesis, yang akan kita bahas di bagian ini: merencanakan analisis dan pekerjaan, melakukan analisis, menyintesiskan temuan, dan menyusun rekomendasi."
-         }
-        },
-        {
-         "title": {
-          "en": "The final four steps",
-          "id": "Empat langkah terakhir"
-         },
-         "text": {
-          "en": "Step 4 · Planning and executing analysis. The final four steps. Like the first steps of the hypothesis-led approach, arriving at a recommendation is a process that can constantly be improved. A team may conduct analyses to test a hypothesis only to find that the hypothesis was incorrect. The team would then circle back to identify the next best hypothesis or find a new one. Even for smaller problems, be disciplined: even when solving smaller problems with short timelines, it’s important to use a careful and calculated approach during this phase to avoid losing time or clarity by focusing on the wrong issues or doing work that has been done by others. A structured process is key: as we just saw, the SodaComp team needs to arrive at a recommendation by year’s end. The most important thing to keep in mind about arriving at a recommendation is that your process should be just as structured as it was in the earlier steps of the problem-solving process. Linking your issue tree to your work plan: following along in this structured process, everything you’ve done so far in problem solving (defining the problem, structuring the problem, prioritizing the issues) is designed to make sure you’re doing the right work to solve the problem. It’s important that you extend that discipline to developing a meaningful work plan.",
-          "id": "Langkah 4 · Merencanakan dan menjalankan analisis. Empat langkah terakhir. Seperti langkah-langkah awal pendekatan berbasis hipotesis, sampai pada rekomendasi adalah proses yang bisa terus diperbaiki. Sebuah tim bisa menjalankan analisis untuk menguji hipotesis, lalu mendapati hipotesisnya keliru. Tim itu lalu kembali untuk mencari hipotesis terbaik berikutnya atau merumuskan hipotesis baru. Bahkan untuk masalah kecil, tetaplah disiplin: meski memecahkan masalah kecil dengan tenggat singkat, penting memakai pendekatan yang cermat dan terukur di tahap ini, supaya tidak kehilangan waktu atau kejernihan karena berfokus pada isu yang salah atau mengerjakan hal yang sudah dikerjakan orang lain. Proses yang terstruktur adalah kuncinya: seperti yang baru kita lihat, tim SodaComp harus sampai pada rekomendasi sebelum akhir tahun. Hal terpenting yang perlu diingat soal sampai pada rekomendasi adalah bahwa prosesmu harus sama terstrukturnya dengan langkah-langkah awal pemecahan masalah. Menghubungkan pohon isu dengan rencana kerja: dalam proses yang terstruktur ini, semua yang sudah kamu kerjakan sejauh ini (merumuskan masalah, menyusun struktur masalah, memprioritaskan isu) dirancang untuk memastikan kamu mengerjakan hal yang tepat untuk memecahkan masalahnya. Penting untuk membawa disiplin yang sama saat menyusun rencana kerja yang bermakna."
-         }
-        },
-        {
-         "title": {
-          "en": "Explore the Work Plan Worksheet",
-          "id": "Kenali Lembar Kerja Rencana Kerja"
-         },
-         "text": {
-          "en": "Step 4 · Planning and executing analysis. Explore the Work Plan Worksheet: turn your analysis into a clear, actionable plan. The Work Plan Worksheet helps you think through all the key elements needed to solve each problem effectively. 1. Thinking through all the important elements: the work plan is where your problem-solving efforts pay off. It involves figuring out when and by whom tasks will be done, with a focus on solving each problem. When will it be done, by whom will it be done, what tasks are needed, focus on solving each problem. 2. Use the Work Plan Worksheet: use the Work Plan Worksheet in the Forward Learning Workbook as a tool to think through important elements for each issue. If you used an issue tree, start by forming hypotheses for key issues, then decide on the end product you’ll need, and the analyses, sources, timing, and staff you will need to get there. 3. Develop a clear and structured plan: developing the work plan takes time. Make sure every element of the work plan is defined in clear, methodical blocks. Hypotheses (what do we need to prove?), end product (what will we deliver?), analyses (what analyses are needed?), sources (where will we get the data?), timing (when will it be done?), staff (who will do it?).",
-          "id": "Langkah 4 · Merencanakan dan menjalankan analisis. Kenali Lembar Kerja Rencana Kerja: ubah analisismu menjadi rencana yang jelas dan bisa dijalankan. Lembar Kerja Rencana Kerja membantumu memikirkan semua unsur kunci yang dibutuhkan untuk memecahkan setiap masalah dengan efektif. 1. Memikirkan semua unsur penting: rencana kerja adalah tempat upaya pemecahan masalahmu membuahkan hasil. Di sinilah kamu menentukan kapan dan oleh siapa tugas-tugasnya dikerjakan, dengan fokus memecahkan setiap masalah. Kapan dikerjakan, oleh siapa, tugas apa saja yang dibutuhkan, fokus memecahkan setiap masalah. 2. Pakai Lembar Kerja Rencana Kerja: pakai Lembar Kerja Rencana Kerja di Forward Learning Workbook sebagai alat untuk memikirkan unsur-unsur penting bagi setiap isu. Kalau kamu memakai pohon isu, mulailah dengan merumuskan hipotesis untuk isu-isu kunci, lalu tentukan produk akhir yang kamu butuhkan, serta analisis, sumber, waktu, dan orang yang kamu butuhkan untuk sampai ke sana. 3. Susun rencana yang jelas dan terstruktur: menyusun rencana kerja butuh waktu. Pastikan setiap unsur rencana kerja dirumuskan dalam blok-blok yang jelas dan runtut. Hipotesis (apa yang perlu kita buktikan?), produk akhir (apa yang akan kita serahkan?), analisis (analisis apa yang dibutuhkan?), sumber (dari mana datanya?), waktu (kapan selesai?), orang (siapa yang mengerjakan?)."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Key Elements of a Strong Work Plan: Material",
-        "id": "Unsur Kunci Rencana Kerja yang Kuat: Materi"
-       },
-       "intro": {
-        "en": "Four slides turn the work plan into practice. The first names its five elements (issue, hypothesis, end product, analyses, sources), each with an example. The second returns to SodaComp, now narrowed to one hypothesis: test a healthier orange soda; decide what analyses, actions and end product it needs, then compare with the expert’s answer on the third slide. The last slide draws the line between analysis and answer, data and facts on one side, the recommendation on the other.",
-        "id": "Empat slide mengubah rencana kerja menjadi praktik. Slide pertama menyebut lima unsurnya (isu, hipotesis, produk akhir, analisis, sumber), masing-masing dengan contoh. Slide kedua kembali ke SodaComp, yang kini menyempit ke satu hipotesis: uji soda jeruk yang lebih sehat. Tentukan analisis, tindakan, dan produk akhir yang dibutuhkan, lalu bandingkan dengan jawaban ahli di slide ketiga. Slide terakhir menarik garis antara analisis dan jawaban: data dan fakta di satu sisi, rekomendasi di sisi lain."
-       },
-       "base": "../../assets/lms/the-map/slides/work-plan-",
-       "slides": [
-        {
-         "title": {
-          "en": "Key elements of a strong work plan",
-          "id": "Unsur kunci rencana kerja yang kuat"
-         },
-         "text": {
-          "en": "Step 4 · Planning and executing analysis. Key elements of a strong work plan: a well-defined work plan translates your problem-solving approach into clear, actionable steps. Consider the following five elements when building your work plan. 1. Issue. An important, unresolved question that is clear and answerable. An issue is typically an important, unresolved question, worded so that it’s clear what can answer it (e.g., by a number, by a yes or no, etc.). Example: can we increase market share in Indonesia by 5% within 2 years? 2. Hypothesis. The likely solution and what needs to be true for it to be correct. The hypothesis states the likely solution of the issue and the supporting information (or sub-hypotheses), and outlines what needs to be true for that hypothesis to be correct. Example: demand can increase if we expand into tier-2 cities, as price sensitivity is lower and supply is limited. 3. End product. The output of the analysis and how it will be used. The end product is a description of the output from the analysis. It can serve as a guide, describing what it allows you to target, what is truly necessary, enabling you to be 80/20. Example: a strategic recommendation with quantified impact (e.g., market share, revenue, ROI) and a clear action plan. 4. Analyses. The work needed to address the hypothesis or resolve the issue. Analyses define the work that is needed to reject or support the hypothesis, or to resolve the issue. Planned analyses should be both completable and realistic. Example: market sizing analysis, customer survey, competitor benchmarking, financial impact analysis. 5. Sources. Internal and external sources of information. Sources contain a list of potential internal and external sources of information, such as experts or databases. Consider the key sources of insight from your problem statement worksheet. Take a moment up front to think about available and other sources of data for your analyses. Example: industry reports (e.g., Euromonitor), internal sales data, interviews with industry experts, government and public data.",
-          "id": "Langkah 4 · Merencanakan dan menjalankan analisis. Unsur kunci rencana kerja yang kuat: rencana kerja yang dirumuskan dengan baik menerjemahkan pendekatan pemecahan masalahmu menjadi langkah-langkah yang jelas dan bisa dijalankan. Pertimbangkan lima unsur berikut saat menyusun rencana kerjamu. 1. Isu. Pertanyaan penting yang belum terjawab, yang jelas dan bisa dijawab. Isu biasanya adalah pertanyaan penting yang belum terjawab, yang disusun sehingga jelas apa yang bisa menjawabnya (misalnya dengan angka, dengan ya atau tidak, dan seterusnya). Contoh: bisakah kita menaikkan pangsa pasar di Indonesia sebesar 5% dalam 2 tahun? 2. Hipotesis. Solusi yang paling mungkin dan apa yang harus benar supaya solusi itu tepat. Hipotesis menyebut solusi yang paling mungkin bagi isunya beserta informasi pendukungnya (atau sub-hipotesisnya), dan menguraikan apa yang harus benar supaya hipotesis itu tepat. Contoh: permintaan bisa naik kalau kita merambah kota-kota lapis kedua, karena kepekaan terhadap harga lebih rendah dan pasokan terbatas. 3. Produk akhir. Keluaran analisisnya dan cara keluaran itu akan dipakai. Produk akhir adalah gambaran keluaran dari analisisnya. Gambaran ini bisa menjadi panduan, yang menjelaskan apa yang bisa kamu sasar dan apa yang benar-benar dibutuhkan, sehingga kamu bisa bekerja dengan prinsip 80/20. Contoh: rekomendasi strategis dengan dampak yang dihitung (misalnya pangsa pasar, pendapatan, ROI) dan rencana tindakan yang jelas. 4. Analisis. Pekerjaan yang dibutuhkan untuk menjawab hipotesis atau menyelesaikan isunya. Analisis merumuskan pekerjaan yang dibutuhkan untuk menolak atau mendukung hipotesis, atau untuk menyelesaikan isunya. Analisis yang direncanakan harus bisa dituntaskan dan realistis. Contoh: analisis ukuran pasar, survei pelanggan, perbandingan dengan pesaing, analisis dampak finansial. 5. Sumber. Sumber informasi internal dan eksternal. Sumber berisi daftar kemungkinan sumber informasi internal dan eksternal, seperti para ahli atau basis data. Pertimbangkan sumber wawasan utama dari lembar kerja pernyataan masalahmu. Luangkan waktu di awal untuk memikirkan sumber data yang tersedia dan sumber lain untuk analisismu. Contoh: laporan industri (misalnya Euromonitor), data penjualan internal, wawancara dengan ahli industri, data pemerintah dan data publik."
-         }
-        },
-        {
-         "title": {
-          "en": "Determining and conducting analyses",
-          "id": "Menentukan dan menjalankan analisis"
-         },
-         "text": {
-          "en": "Step 4 · Planning and executing analysis. Determining and conducting analyses: SodaComp has narrowed down the focus of their analysis and developed a more specific hypothesis. They now need to determine the analyses and actions required to test this hypothesis. Help SodaComp dig deeper: the SodaComp team has been iterating on their issue tree, thinking through the issues and hypotheses they’ve developed. They have determined that they’d like to prioritize product innovation, particularly making existing products healthier. Specific hypothesis: SodaComp should test a healthier orange soda. They are now considering what analyses and actions are needed, and what the end product of the analysis might be. 1. Where they are now: defined the overall problem; structured the issues (issue tree); developed and refined hypotheses; prioritized product innovation (making existing products healthier); determining analyses and actions to test the hypothesis. 2. What they need to figure out next: what analyses are needed? (what data and insights will help test this hypothesis?); what actions are required? (how will the analysis be conducted, and who will be involved?); what is the end product? (what output will the analysis deliver, e.g., recommendation, product concept, business case?).",
-          "id": "Langkah 4 · Merencanakan dan menjalankan analisis. Menentukan dan menjalankan analisis: SodaComp sudah mempersempit fokus analisisnya dan menyusun hipotesis yang lebih spesifik. Sekarang mereka perlu menentukan analisis dan tindakan yang dibutuhkan untuk menguji hipotesis ini. Bantu SodaComp menggali lebih dalam: tim SodaComp terus memperbaiki pohon isunya, memikirkan isu dan hipotesis yang sudah mereka susun. Mereka memutuskan ingin memprioritaskan inovasi produk, terutama membuat produk yang ada jadi lebih sehat. Hipotesis spesifiknya: SodaComp sebaiknya menguji soda jeruk yang lebih sehat. Sekarang mereka sedang menimbang analisis dan tindakan apa yang dibutuhkan, dan apa produk akhir dari analisisnya. 1. Posisi mereka sekarang: sudah merumuskan masalah keseluruhannya; sudah menyusun struktur isunya (pohon isu); sudah menyusun dan mempertajam hipotesis; sudah memprioritaskan inovasi produk (membuat produk yang ada jadi lebih sehat); sedang menentukan analisis dan tindakan untuk menguji hipotesisnya. 2. Yang perlu mereka pikirkan berikutnya: analisis apa yang dibutuhkan? (data dan wawasan apa yang akan membantu menguji hipotesis ini?); tindakan apa yang dibutuhkan? (bagaimana analisisnya akan dijalankan, dan siapa yang akan terlibat?); apa produk akhirnya? (keluaran apa yang akan diberikan analisisnya, misalnya rekomendasi, konsep produk, atau rencana bisnis?)."
-         }
-        },
-        {
-         "title": {
-          "en": "Compare to expert",
-          "id": "Bandingkan dengan jawaban ahli"
-         },
-         "text": {
-          "en": "Step 4 · Planning and executing analysis. Compare to expert: review the team’s issue tree. Take a moment to think about what analyses the team should perform to develop that end product. SodaComp’s issue tree: what opportunities exist for SodaComp to improve its European market share by 3% by end of year? What enhancements to channel strategy will result in the most significant increase in European market share by end of year? Sell through restaurants and cafés; develop online store. What new or existing products can we develop to most significantly increase European market share by end of year? Make existing products healthier → develop a healthier orange soda; develop natural juice products. Expert response. Here’s an example of how the team could describe the end product and analyses. 1. End product: a report that describes how competitive the market will be if SodaComp launches a new orange soda. The report should include a section that shows what customers prefer and how SodaComp can make its product different from what is already in the market. 2. Analyses: consumer research (conduct market research, such as focus groups testing consumer preferences, to test if consumers will like this); market analysis (conduct a competitive market scan to understand what the new orange soda would have to outperform).",
-          "id": "Langkah 4 · Merencanakan dan menjalankan analisis. Bandingkan dengan jawaban ahli: tinjau pohon isu tim. Luangkan waktu untuk memikirkan analisis apa yang sebaiknya dijalankan tim untuk menghasilkan produk akhir itu. Pohon isu SodaComp: peluang apa saja yang ada bagi SodaComp untuk menaikkan pangsa pasar Eropanya sebesar 3% sebelum akhir tahun? Perbaikan strategi saluran apa yang akan menghasilkan kenaikan pangsa pasar Eropa paling besar sebelum akhir tahun? Jual lewat restoran dan kafe; kembangkan toko daring. Produk baru atau produk lama apa yang bisa kita kembangkan untuk menaikkan pangsa pasar Eropa paling besar sebelum akhir tahun? Buat produk yang ada jadi lebih sehat → kembangkan soda jeruk yang lebih sehat; kembangkan produk jus alami. Jawaban ahli. Berikut contoh cara tim menggambarkan produk akhir dan analisisnya. 1. Produk akhir: laporan yang menggambarkan seberapa ketat persaingan pasarnya kalau SodaComp meluncurkan soda jeruk baru. Laporan itu sebaiknya memuat bagian yang menunjukkan apa yang disukai pelanggan dan bagaimana SodaComp bisa membuat produknya berbeda dari yang sudah ada di pasar. 2. Analisis: riset konsumen (jalankan riset pasar, misalnya kelompok diskusi terarah yang menguji preferensi konsumen, untuk menguji apakah konsumen akan menyukainya); analisis pasar (jalankan pemindaian pasar dan pesaing untuk memahami apa yang harus diungguli soda jeruk baru itu)."
-         }
-        },
-        {
-         "title": {
-          "en": "Conducting analyses",
-          "id": "Menjalankan analisis"
-         },
-         "text": {
-          "en": "Step 4 · Planning and conducting analysis. Conducting analyses: once you have a sound work plan in place, you can start conducting your analyses. When doing so, you need to remember that there’s a difference between the analysis and the answer. A clear work plan → conducting analyses → toward the right answer. Analysis: the process of collecting, processing, and analyzing data to test a hypothesis or better understand an issue. Uses data and facts; tests a hypothesis; provides objective insights; answers the questions “what is happening?” and “why is it happening?”. Answer: the conclusion or final recommendation drawn from the analysis results. Summarizes the analysis results; provides a clear conclusion; often in the form of a recommendation or decision; answers the question “what should be done?”.",
-          "id": "Langkah 4 · Merencanakan dan menjalankan analisis. Menjalankan analisis: setelah rencana kerja yang kokoh tersedia, kamu bisa mulai menjalankan analisismu. Saat melakukannya, ingat bahwa analisis dan jawaban itu berbeda. Rencana kerja yang jelas → menjalankan analisis → menuju jawaban yang tepat. Analisis: proses mengumpulkan, mengolah, dan menganalisis data untuk menguji hipotesis atau lebih memahami sebuah isu. Memakai data dan fakta; menguji hipotesis; memberi wawasan yang objektif; menjawab pertanyaan “apa yang sedang terjadi?” dan “kenapa itu terjadi?”. Jawaban: kesimpulan atau rekomendasi akhir yang ditarik dari hasil analisis. Merangkum hasil analisis; memberi kesimpulan yang jelas; sering berbentuk rekomendasi atau keputusan; menjawab pertanyaan “apa yang sebaiknya dilakukan?”."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Getting to Synthesis: Material",
-        "id": "Sampai pada Sintesis: Materi"
-       },
-       "intro": {
-        "en": "Four slides close the loop from analysis to action. The first defines the “so what”: a synthesis is a perspective on the analysis, not a summary of it. The second shows when to practise synthesis, why it matters, and four habits for getting better. The third returns to SodaComp’s focus-group voices and asks you to write the team’s synthesis before comparing with the expert’s. The last slide names what makes a recommendation strong: actionable (ownership, buy-in, timeline) and appropriate for the organisation.",
-        "id": "Empat slide menutup putaran dari analisis ke tindakan. Slide pertama mendefinisikan “lalu kenapa”: sintesis adalah sudut pandang atas analisis, bukan ringkasannya. Slide kedua menunjukkan kapan berlatih sintesis, kenapa itu penting, dan empat kebiasaan supaya makin mahir. Slide ketiga kembali ke suara-suara dari riset SodaComp dan memintamu menulis sintesis tim sebelum membandingkannya dengan jawaban ahli. Slide terakhir menyebut apa yang membuat sebuah rekomendasi kuat: bisa dijalankan (ada pemilik, dukungan, dan jadwal) dan cocok untuk organisasinya."
-       },
-       "base": "../../assets/lms/the-map/slides/synthesis-",
-       "slides": [
-        {
-         "title": {
-          "en": "Getting to synthesis and making a recommendation",
-          "id": "Sampai pada sintesis dan menyusun rekomendasi"
-         },
-         "text": {
-          "en": "Step 5 · Synthesis and recommendation. Getting to synthesis and making a recommendation: turn your analysis into a clear perspective and actionable recommendation. The path: understand the problem → develop hypotheses → conduct analyses → synthesize and recommend. What is your “so what”? As you approach the end of the problem-solving process, you’ll synthesize analyses into insightful findings. A synthesis isn’t just a summary of an analysis, but a perspective on the analysis: an insight that reflects your view of the facts and the impact of that insight on others involved in the problem. Analyses (facts and evidence from your analysis) → synthesis (a perspective on what the findings mean) → recommendation (a clear and actionable next step). Sharpening your synthesis skills: take a look at how synthesis can help you in your work, and how you can improve your synthesis skills. Look for patterns and key insights; consider the impact on key stakeholders; turn insights into clear, actionable messages.",
-          "id": "Langkah 5 · Sintesis dan rekomendasi. Sampai pada sintesis dan menyusun rekomendasi: ubah analisismu menjadi sudut pandang yang jelas dan rekomendasi yang bisa dijalankan. Jalurnya: pahami masalahnya → susun hipotesis → jalankan analisis → sintesiskan dan rekomendasikan. Apa “lalu kenapa”-mu? Menjelang akhir proses pemecahan masalah, kamu akan menyintesiskan analisis menjadi temuan yang penuh wawasan. Sintesis bukan sekadar ringkasan sebuah analisis, melainkan sudut pandang atas analisis itu: wawasan yang mencerminkan pandanganmu tentang fakta-faktanya dan dampak wawasan itu bagi orang lain yang terlibat dalam masalahnya. Analisis (fakta dan bukti dari analisismu) → sintesis (sudut pandang tentang arti temuannya) → rekomendasi (langkah berikutnya yang jelas dan bisa dijalankan). Mengasah keterampilan sintesismu: lihat bagaimana sintesis bisa membantu pekerjaanmu, dan bagaimana kamu bisa mengasah keterampilan sintesismu. Cari pola dan wawasan kunci; pertimbangkan dampaknya bagi pemangku kepentingan utama; ubah wawasan menjadi pesan yang jelas dan bisa dijalankan."
-         }
-        },
-        {
-         "title": {
-          "en": "When to do it, why it matters, how to get better",
-          "id": "Kapan melakukannya, kenapa penting, bagaimana menjadi lebih mahir"
-         },
-         "text": {
-          "en": "When to do it: practicing synthesis doesn’t require you to be the leader of a large problem-solving project. You can find frequent opportunities to practice your synthesis skills, such as developing an insight from data (after you’ve gathered data, write a synthesis to advance your team’s thinking); writing a perspective for your leader or teammates (pulling together the “so what’s” of a situation will enable you to share a meaningful perspective); preparing an elevator pitch (sharing a high-level understanding of a situation with colleagues or customers can help them to think and act); synthesizing a complex conversation (in a meeting, pulling together the group’s, or even one other person’s, thinking into a synthesis is a great way to add value). Why it’s important: improving your synthesizing skills will help you do better work, improve relationships with co-workers, and provide more impact. In your work: good synthesis helps you and your teams constantly get towards actionable insights; by definition, synthesis makes you take a stance, and forces you to mentally challenge and revisit your hypotheses. In your relationships: in conversations with co-workers and customers, good synthesis signals that you are listening and adding value, and that you are processing what they are saying. In your presence and personal impact: good synthesis shows senior leaders that you are not just gathering facts but working to understand their implications; in other words, synthesis distinguishes a strategist from an analyst. How you can get better at it: there’s no magic formula for developing a synthesis. It’s a creative skill you can improve only through practice. A good synthesis is often clear and concise, with strong, provocative language. Writing down your synthesis and improving the language is a helpful exercise for developing your skills. Writing a synthesis and continuously improving your language is an effective way to strengthen your synthesis skills. Best practices: 1. Step back and take some time. This often means changing your synthesis in a document, but it can also include stopping for a moment to think before sharing your synthesis in conversation. 2. Ask yourself two questions. What have I learned (insights)? What should I do next (implications)? Remember, a good synthesis consists of these two elements. 3. Test the insights and impact with others. Confirm that the synthesis helps and is compelling, and that it accounts for all the best thinking so far; it can be helpful to create a synthesis with others to help refine your ideas. 4. Iterate your synthesis: revisit the relevant data points, your interview notes and sources of information to ensure that you’ve documented key details and have a reasonable and meaningful synthesis; avoid over-relying on the things that stand out to you.",
-          "id": "Kapan melakukannya: berlatih sintesis tidak menuntutmu menjadi pemimpin proyek pemecahan masalah yang besar. Kamu bisa sering menemukan kesempatan untuk melatih keterampilan sintesismu, misalnya saat menarik wawasan dari data (setelah mengumpulkan data, tulis sintesis untuk memajukan cara berpikir timmu); menulis sudut pandang untuk pemimpin atau rekan setimmu (merangkum “lalu kenapa” dari sebuah situasi memungkinkanmu berbagi sudut pandang yang bermakna); menyiapkan elevator pitch (berbagi pemahaman tingkat tinggi tentang sebuah situasi dengan rekan kerja atau pelanggan bisa membantu mereka berpikir dan bertindak); menyintesiskan percakapan yang rumit (dalam rapat, merangkum pemikiran kelompok, atau bahkan pemikiran satu orang, menjadi sebuah sintesis adalah cara yang bagus untuk memberi nilai). Kenapa ini penting: mengasah keterampilan sintesis akan membantumu bekerja lebih baik, memperbaiki hubungan dengan rekan kerja, dan memberi dampak yang lebih besar. Dalam pekerjaanmu: sintesis yang baik membantumu dan timmu terus bergerak menuju wawasan yang bisa dijalankan. Pada dasarnya, sintesis memaksamu mengambil sikap, dan memaksamu menantang serta meninjau ulang hipotesismu di kepala. Dalam hubunganmu: dalam percakapan dengan rekan kerja dan pelanggan, sintesis yang baik menunjukkan bahwa kamu mendengarkan dan memberi nilai, dan bahwa kamu sedang mencerna apa yang mereka katakan. Dalam kehadiran dan dampak pribadimu: sintesis yang baik menunjukkan kepada pimpinan senior bahwa kamu tidak hanya mengumpulkan fakta, tetapi berusaha memahami implikasinya. Dengan kata lain, sintesislah yang membedakan seorang ahli strategi dari seorang analis. Bagaimana kamu bisa menjadi lebih mahir: tidak ada rumus ajaib untuk menyusun sintesis. Ini keterampilan kreatif yang hanya bisa diasah lewat latihan. Sintesis yang baik sering kali jelas dan ringkas, dengan bahasa yang kuat dan menggugah. Menuliskan sintesismu dan memperbaiki bahasanya adalah latihan yang berguna untuk mengembangkan keterampilanmu. Menulis sintesis dan terus memperbaiki bahasanya adalah cara efektif untuk memperkuat keterampilan sintesismu. Praktik terbaiknya: 1. Mundur selangkah dan luangkan waktu. Sering kali ini berarti mengubah sintesismu di sebuah dokumen, tetapi bisa juga berarti berhenti sejenak untuk berpikir sebelum menyampaikan sintesismu dalam percakapan. 2. Ajukan dua pertanyaan pada dirimu. Apa yang sudah kupelajari (wawasan)? Apa yang sebaiknya kulakukan berikutnya (implikasi)? Ingat, sintesis yang baik terdiri dari dua unsur ini. 3. Uji wawasan dan dampaknya bersama orang lain. Pastikan sintesisnya membantu dan meyakinkan, dan sudah memperhitungkan semua pemikiran terbaik sejauh ini. Menyusun sintesis bersama orang lain bisa membantu mempertajam ide-idemu. 4. Ulangi sintesismu: tinjau lagi titik-titik data yang relevan, catatan wawancaramu, dan sumber informasimu untuk memastikan kamu sudah mencatat detail-detail kunci dan punya sintesis yang masuk akal dan bermakna. Hindari terlalu bergantung pada hal-hal yang kebetulan menonjol bagimu."
-         }
-        },
-        {
-         "title": {
-          "en": "What are they saying? Compare to expert",
-          "id": "Apa kata mereka? Bandingkan dengan jawaban ahli"
-         },
-         "text": {
-          "en": "Real perspectives. What are they saying? Here are the team’s research findings, showing what consumers think about soda and their health considerations. Safia, consumer insights analyst: “Recent focus group data indicates that many consumers limit soda intake for health reasons, and that refined sugar is the main unhealthy ingredient in our soda.” Emmit, market researcher: “Interesting! That sounds similar to what I uncovered. My consumer research shows that excessive soda intake is a leading cause of weight gain across all age groups our consumers represent, and they rate fitness and health as highly important. The majority of calories in our soda come from sugar.” Sarit, competitive analyst: “Some themes here! Here’s what my research on top competitors turned up: most do not have a healthy soda option, and most of the healthy options are more high-end and expensive. Citrus flavors are their biggest sellers (and ours as well), specifically orange. Their healthy options are not generally sold through the same channels as our products.” Compare to expert: take a moment to think about how SodaComp’s marketing team can synthesize their findings. Remember that a good synthesis includes both an insight and an implication. The “so what”. Expert response: a low-sugar, low-cost, orange-flavored drink, delivered via our standard channels, is best set to appeal to consumers and differentiate itself from competitors, while minimizing production and distribution implications. With a sound synthesis, the SodaComp team has an insight and an implication: what they have learned and, based on that, what they should consider next. Key takeaway: a strong synthesis connects what you’ve learned (insight) with what it means for the next steps (implication).",
-          "id": "Sudut pandang nyata. Apa kata mereka? Berikut temuan riset tim, yang menunjukkan pendapat konsumen tentang soda dan pertimbangan kesehatan mereka. Safia, analis wawasan konsumen: “Data kelompok diskusi terbaru menunjukkan bahwa banyak konsumen membatasi konsumsi soda karena alasan kesehatan, dan bahwa gula rafinasi adalah bahan paling tidak sehat dalam soda kita.” Emmit, peneliti pasar: “Menarik! Itu mirip dengan temuanku. Riset konsumenku menunjukkan bahwa konsumsi soda berlebihan adalah salah satu penyebab utama kenaikan berat badan di semua kelompok usia konsumen kita, dan mereka menilai kebugaran dan kesehatan sangat penting. Sebagian besar kalori dalam soda kita berasal dari gula.” Sarit, analis persaingan: “Ada beberapa pola di sini! Ini temuan risetku soal pesaing teratas: kebanyakan tidak punya pilihan soda sehat, dan kebanyakan pilihan sehat yang ada lebih premium dan mahal. Rasa jeruk-jerukan adalah penjualan terbesar mereka (juga kita), terutama jeruk manis. Pilihan sehat mereka umumnya tidak dijual lewat saluran yang sama dengan produk kita.” Bandingkan dengan jawaban ahli: luangkan waktu untuk memikirkan bagaimana tim pemasaran SodaComp bisa menyintesiskan temuannya. Ingat bahwa sintesis yang baik memuat wawasan sekaligus implikasi. “Lalu kenapa”-nya. Jawaban ahli: minuman rasa jeruk yang rendah gula dan berharga murah, yang dijual lewat saluran standar kita, paling berpeluang menarik konsumen dan membedakan diri dari pesaing, sambil meminimalkan dampaknya pada produksi dan distribusi. Dengan sintesis yang kokoh, tim SodaComp punya wawasan dan implikasi: apa yang sudah mereka pelajari, dan berdasarkan itu, apa yang perlu mereka pertimbangkan berikutnya. Intinya: sintesis yang kuat menghubungkan apa yang sudah kamu pelajari (wawasan) dengan artinya bagi langkah berikutnya (implikasi)."
-         }
-        },
-        {
-         "title": {
-          "en": "Making a strong recommendation that is actionable and appropriate",
-          "id": "Menyusun rekomendasi yang kuat, bisa dijalankan, dan cocok"
-         },
-         "text": {
-          "en": "Step 6 · Recommendations. Making a strong recommendation that is actionable and appropriate. 1. After synthesis, the next step is to make a recommendation. 2. To make a strong recommendation, you need to ensure that the recommendation is actionable (there is clear ownership, buy-in, and a timeline for delivery) and appropriate (the solution is right for the organization). 3. We will explore forming recommendations and help you practice within the Communicating for Impact module ahead. The path: synthesis (turn analysis into key insights) → actionable (clear ownership, buy-in, and timeline) → appropriate (right solution for the context) → impact (real value for the organization). What makes a strong recommendation? Actionable. Can be implemented in practice: clear ownership; stakeholder buy-in; defined timeline for delivery. Appropriate, right solution for the organization: aligned with strategic objectives; feasible given constraints; creates real value for the business. Key takeaway: a strong recommendation turns insights into action by being both actionable and appropriate.",
-          "id": "Langkah 6 · Rekomendasi. Menyusun rekomendasi yang kuat, bisa dijalankan, dan cocok. 1. Setelah sintesis, langkah berikutnya adalah menyusun rekomendasi. 2. Supaya rekomendasinya kuat, kamu perlu memastikan rekomendasi itu bisa dijalankan (ada pemilik yang jelas, dukungan, dan jadwal penyerahan) dan cocok (solusinya tepat untuk organisasinya). 3. Kita akan membahas cara menyusun rekomendasi dan membantumu berlatih di modul Komunikasi yang Berdampak berikutnya. Jalurnya: sintesis (ubah analisis menjadi wawasan kunci) → bisa dijalankan (pemilik, dukungan, dan jadwal yang jelas) → cocok (solusi yang tepat untuk konteksnya) → dampak (nilai nyata bagi organisasi). Apa yang membuat rekomendasi kuat? Bisa dijalankan. Bisa diterapkan dalam praktik: pemilik yang jelas; dukungan pemangku kepentingan; jadwal penyerahan yang jelas. Cocok, solusi yang tepat untuk organisasinya: selaras dengan sasaran strategis; layak dengan batasan yang ada; menciptakan nilai nyata bagi bisnis. Intinya: rekomendasi yang kuat mengubah wawasan menjadi tindakan karena bisa dijalankan sekaligus cocok."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 2 slides",
-        "id": "Baca berikutnya · 2 slide"
-       },
-       "title": {
-        "en": "Key Takeaways: Material",
-        "id": "Poin Penting: Materi"
-       },
-       "intro": {
-        "en": "Two slides wrap the SodaComp chapter up. The first gathers the three tools you now hold (the Work Plan Worksheet, synthesising, and developing a recommendation) and points to further material. The second summarises the hypothesis-led path (define the problem, break it down and structure it, plan towards a solution) and asks you to carry it into your own day-to-day decisions with a problem statement and an issue tree.",
-        "id": "Dua slide menutup bab SodaComp. Slide pertama mengumpulkan tiga alat yang sekarang kamu pegang (Lembar Kerja Rencana Kerja, menyintesiskan, dan menyusun rekomendasi) dan menunjuk bahan bacaan lanjutan. Slide kedua merangkum jalur berbasis hipotesis (rumuskan masalahnya, pecah dan susun strukturnya, rencanakan menuju solusi) dan mengajakmu membawanya ke keputusan sehari-hari dengan pernyataan masalah dan pohon isu."
-       },
-       "base": "../../assets/lms/the-map/slides/takeaways-",
-       "slides": [
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "Module wrap-up. Key takeaways: in this module, we have covered the following key tools. 1. Work Plan Worksheet. Use this to develop effective work plans and organize all the work that needs to get done to reach a solution (define objectives, plan key analyses, set timeline, track progress). 2. Synthesizing. Use this to bring together all of your findings and form your own perspective on the analysis and what it means for the problem being solved (key findings + your perspective → clear insights). 3. Developing a recommendation. Use this to clearly tell others what you believe needs to happen in order to solve the problem based on the insights from your analysis (insights from analysis → recommended actions → real impact). From insights to action. Resources: you may also wish to explore: “How to use experts, and when not to”, a TED talk.",
-          "id": "Penutup modul. Poin penting: di modul ini, kita sudah membahas alat-alat utama berikut. 1. Lembar Kerja Rencana Kerja. Pakai ini untuk menyusun rencana kerja yang efektif dan menata semua pekerjaan yang perlu diselesaikan untuk sampai ke solusi (tetapkan sasaran, rencanakan analisis kunci, tetapkan jadwal, pantau kemajuan). 2. Menyintesiskan. Pakai ini untuk menyatukan semua temuanmu dan membentuk sudut pandangmu sendiri tentang analisisnya dan artinya bagi masalah yang sedang dipecahkan (temuan kunci + sudut pandangmu → wawasan yang jelas). 3. Menyusun rekomendasi. Pakai ini untuk menyampaikan dengan jelas kepada orang lain apa yang menurutmu perlu terjadi supaya masalahnya terpecahkan, berdasarkan wawasan dari analisismu (wawasan dari analisis → tindakan yang direkomendasikan → dampak nyata). Dari wawasan ke tindakan. Bacaan: kamu mungkin juga ingin menonton “How to use experts, and when not to”, sebuah TED talk."
-         }
-        },
-        {
-         "title": {
-          "en": "In summary…",
-          "id": "Ringkasnya…"
-         },
-         "text": {
-          "en": "Module wrap-up. In summary… you have built a strong foundation in applying a hypothesis-led problem solving approach, from complex problems to clear solutions. In this course, you have learned how to utilize the hypothesis-led problem solving approach to: 1. Define the problem: define the problem you are faced with using different tools and templates. 2. Break down and structure: break down and structure the problem in a way that will help you reach a solution. 3. Plan towards a solution: plan your way towards finding a recommended solution. Putting it into practice: we hope that you can apply some of the lessons learned to your day-to-day life decisions, whether it’s using the Problem Statement Worksheet to help organize your thoughts and approach for a problem, or drawing an issue tree to break a complex problem down into more manageable pieces.",
-          "id": "Penutup modul. Ringkasnya… kamu sudah membangun fondasi yang kuat dalam menerapkan pendekatan pemecahan masalah berbasis hipotesis, dari masalah yang rumit sampai solusi yang jelas. Di kursus ini, kamu sudah belajar memakai pendekatan pemecahan masalah berbasis hipotesis untuk: 1. Merumuskan masalah: merumuskan masalah yang kamu hadapi dengan berbagai alat dan templat. 2. Memecah dan menyusun struktur: memecah dan menyusun struktur masalahnya dengan cara yang membantumu sampai ke solusi. 3. Merencanakan menuju solusi: merencanakan jalanmu menuju solusi yang direkomendasikan. Menerapkannya: semoga kamu bisa menerapkan sebagian pelajaran ini dalam keputusan sehari-hari, entah dengan memakai Lembar Kerja Pernyataan Masalah untuk menata pikiran dan pendekatanmu terhadap sebuah masalah, atau dengan menggambar pohon isu untuk memecah masalah yang rumit menjadi bagian-bagian yang lebih mudah dikelola."
-         }
-        }
-       ]
       }
      ],
      "diagram": {
@@ -5056,14 +5131,519 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:2",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows these slides: Dewi, a scholarship deadline, and a wish that becomes a goal with a gap she can calculate. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide ini: Dewi, tenggat beasiswa, dan sebuah keinginan yang berubah menjadi tujuan dengan kesenjangan yang bisa ia hitung. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Dewi, a scholarship deadline, and a wish that becomes a goal with a gap she can calculate. Watch it, then continue with the reading and the cases.",
+      "id": "Satu film singkat menyusul slide ini: Dewi, tenggat beasiswa, dan sebuah keinginan yang berubah menjadi tujuan dengan kesenjangan yang bisa ia hitung. Tonton, lalu lanjutkan ke bacaan dan kasusnya."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 6 slides",
+       "id": "Baca dulu · 6 slide"
+      },
+      "title": {
+       "en": "A Goal You Can Count",
+       "id": "Tujuan yang Bisa Dihitung"
+      },
+      "intro": {
+       "en": "Six ideas for problems that are not something broken but somewhere you want to get to. Then a short film and three cases.",
+       "id": "Enam gagasan untuk masalah yang bukan tentang sesuatu yang rusak, melainkan tentang tempat yang ingin kamu tuju. Setelah itu satu film singkat dan tiga kasus."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Wish or goal",
+         "id": "Keinginan atau tujuan"
+        },
+        "points": [
+         {
+          "en": "A wish feels like a goal until you try to plan against it.",
+          "id": "Keinginan terasa seperti tujuan sampai kamu mencoba menyusun rencana untuknya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A solid goal",
+         "id": "Tujuan yang kokoh"
+        },
+        "points": [
+         {
+          "en": "Leave one part out and the goal goes soft again.",
+          "id": "Hilangkan satu bagian dan tujuannya kembali lembek."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Count the gap",
+         "id": "Hitung kesenjangannya"
+        },
+        "points": [
+         {
+          "en": "The gap is the goal minus where you will be if nothing changes.",
+          "id": "Kesenjangan adalah tujuan dikurangi posisimu jika tak ada yang berubah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The hypothesis pyramid",
+         "id": "Piramida hipotesis"
+        },
+        "points": [
+         {
+          "en": "A pyramid is only as good as its arithmetic. Then data checks every reason.",
+          "id": "Piramida hanya sebaik hitungannya. Setelah itu, data memeriksa setiap alasan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Choosing between options",
+         "id": "Memilih di antara opsi"
+        },
+        "points": [
+         {
+          "en": "A plain list of pros and cons is a start. A table of criteria with weights is the upgrade.",
+          "id": "Daftar untung-rugi adalah awal. Tabel kriteria dengan bobot adalah peningkatannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Before you commit",
+         "id": "Sebelum berkomitmen"
+        },
+        "points": [
+         {
+          "en": "One conversation gave Dewi a fact that a week of worrying never did: the interview matters as much as the score.",
+          "id": "Satu percakapan memberi Dewi fakta yang tak ia dapat dari seminggu mencemaskan: wawancaranya sama penting dengan skornya."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/fg-stage-horizon.jpg",
+       "module": {
+        "en": "Module 3 · Problem Solving 101: Improve Our Life",
+        "id": "Modul 3 · Pemecahan Masalah 101: Memperbaiki Hidup Kita"
+       },
+       "lesson": {
+        "n": "3.3",
+        "title": {
+         "en": "Goals, Gaps and Good Decisions",
+         "id": "Tujuan, Kesenjangan, dan Keputusan yang Baik"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "A goal you cannot calculate a gap for is a wish",
+         "id": "Tujuan yang kesenjangannya tak bisa dihitung hanyalah keinginan"
+        },
+        {
+         "en": "A solid goal has three parts: what, by when and under which conditions",
+         "id": "Tujuan yang kokoh punya tiga bagian: apa, kapan, dan dengan syarat apa"
+        },
+        {
+         "en": "Forecast the do-nothing case honestly, and the gap becomes a number",
+         "id": "Perkirakan dengan jujur apa yang terjadi jika kamu tak berbuat apa-apa, dan kesenjangannya menjadi angka"
+        },
+        {
+         "en": "Stack the plan as a pyramid: if the reasons do not add up to the conclusion, there is no plan yet",
+         "id": "Susun rencananya sebagai piramida: jika alasan-alasannya tidak menjumlah ke kesimpulan, rencananya belum ada"
+        },
+        {
+         "en": "Criteria come from the goal, and weights come from the criteria",
+         "id": "Kriteria datang dari tujuan, dan bobot datang dari kriteria"
+        },
+        {
+         "en": "Challenge your own conclusion before you act on it",
+         "id": "Tantang kesimpulanmu sendiri sebelum bertindak"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Wish or goal",
+          "id": "Keinginan atau tujuan"
+         },
+         "p": {
+          "en": "A wish feels like a goal until you try to plan against it.",
+          "id": "Keinginan terasa seperti tujuan sampai kamu mencoba menyusun rencana untuknya."
+         }
+        },
+        {
+         "h": {
+          "en": "A solid goal",
+          "id": "Tujuan yang kokoh"
+         },
+         "p": {
+          "en": "The conditions matter as much as the number. They let you cut options later without agonising.",
+          "id": "Syaratnya sama penting dengan angkanya. Syarat itulah yang kelak membuatmu bisa memangkas pilihan tanpa bimbang."
+         }
+        },
+        {
+         "h": {
+          "en": "Count the gap",
+          "id": "Hitung kesenjangannya"
+         },
+         "p": {
+          "en": "The number ends “it will probably work out”, and it sets the size of the change you need.",
+          "id": "Angka itu mengakhiri “sepertinya nanti juga beres”, dan menetapkan besarnya perubahan yang kamu butuhkan."
+         }
+        },
+        {
+         "h": {
+          "en": "The hypothesis pyramid",
+          "id": "Piramida hipotesis"
+         },
+         "p": {
+          "en": "One reason failed its check, so the plan changes: she needs a speaking partner.",
+          "id": "Satu alasan gagal dalam pengecekan, maka rencananya berubah: ia butuh teman berlatih bicara."
+         }
+        },
+        {
+         "h": {
+          "en": "Choosing between options",
+          "id": "Memilih di antara opsi"
+         },
+         "p": {
+          "en": "Weighted, the online tutor wins 16 to 11. The moment cost outweighs speaking practice, the goal has quietly changed.",
+          "id": "Setelah dibobot, tutor daring menang 16 lawan 11. Begitu biaya lebih berat daripada latihan berbicara, tujuannya diam-diam sudah berubah."
+         }
+        },
+        {
+         "h": {
+          "en": "Before you commit",
+          "id": "Sebelum berkomitmen"
+         },
+         "p": {
+          "en": "One conversation gave Dewi a fact that a week of worrying never did: the interview matters as much as the score.",
+          "id": "Satu percakapan memberi Dewi fakta yang tak ia dapat dari seminggu mencemaskan: wawancaranya sama penting dengan skornya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "A goal you cannot calculate a gap for is a wish",
+          "id": "Tujuan yang kesenjangannya tak bisa dihitung hanyalah keinginan"
+         },
+         "em": {
+          "en": "is a wish",
+          "id": "hanyalah keinginan"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "star",
+           "en": "“Improve my English.”",
+           "id": "“Meningkatkan bahasa Inggrisku.”",
+           "l": {
+            "en": "A wish",
+            "id": "Keinginan"
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "“Score 6.5 on the language test by 1 March, without leaving my part-time job.”",
+           "id": "“Meraih skor 6,5 di tes bahasa sebelum 1 Maret, tanpa meninggalkan kerja paruh waktuku.”",
+           "l": {
+            "en": "A solid goal",
+            "id": "Tujuan yang kokoh"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A solid goal has three parts: what, by when and under which conditions",
+          "id": "Tujuan yang kokoh punya tiga bagian: apa, kapan, dan dengan syarat apa"
+         },
+         "em": {
+          "en": "three parts",
+          "id": "tiga bagian"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "target",
+           "en": "What",
+           "id": "Apa",
+           "d": {
+            "en": "A language test score of 6.5",
+            "id": "Skor tes bahasa 6,5"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "By when",
+           "id": "Kapan",
+           "d": {
+            "en": "1 March",
+            "id": "1 Maret"
+           }
+          },
+          {
+           "icon": "lock",
+           "en": "Conditions",
+           "id": "Syarat",
+           "d": {
+            "en": "Without leaving her part-time job",
+            "id": "Tanpa meninggalkan kerja paruh waktunya"
+           }
+          }
+         ],
+         "band": {
+          "en": "The conditions matter as much as the number. They let you cut options later without agonising.",
+          "id": "Syaratnya sama penting dengan angkanya. Syarat itulah yang kelak membuatmu bisa memangkas pilihan tanpa bimbang."
+         },
+         "img": "../../assets/bg/fg-sprint-direction.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Forecast the do-nothing case honestly, and the gap becomes a number",
+          "id": "Perkirakan dengan jujur apa yang terjadi jika kamu tak berbuat apa-apa, dan kesenjangannya menjadi angka"
+         },
+         "em": {
+          "en": "the gap becomes a number",
+          "id": "kesenjangannya menjadi angka"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pin",
+           "en": "Today",
+           "id": "Hari ini",
+           "d": {
+            "en": "A score of 5.5",
+            "id": "Skor 5,5"
+           }
+          },
+          {
+           "icon": "arrow",
+           "en": "If nothing changes",
+           "id": "Jika tak ada yang berubah",
+           "d": {
+            "en": "5.9 by 1 March, at her current pace",
+            "id": "5,9 pada 1 Maret, dengan laju sekarang"
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "The goal",
+           "id": "Tujuan",
+           "d": {
+            "en": "6.5",
+            "id": "6,5"
+           }
+          },
+          {
+           "icon": "calc",
+           "en": "The gap",
+           "id": "Kesenjangan",
+           "d": {
+            "en": "0.6",
+            "id": "0,6"
+           }
+          }
+         ],
+         "band": {
+          "en": "The number ends “it will probably work out”, and it sets the size of the change you need.",
+          "id": "Angka itu mengakhiri “sepertinya nanti juga beres”, dan menetapkan besarnya perubahan yang kamu butuhkan."
+         },
+         "img": "../../assets/bg/map.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Stack the plan as a pyramid: if the reasons do not add up to the conclusion, there is no plan yet",
+          "id": "Susun rencananya sebagai piramida: jika alasan-alasannya tidak menjumlah ke kesimpulan, rencananya belum ada"
+         },
+         "em": {
+          "en": "add up to the conclusion",
+          "id": "menjumlah ke kesimpulan"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "“I can close 0.6 by 1 March.”",
+           "id": "“Aku bisa menutup 0,6 sebelum 1 Maret.”",
+           "l": {
+            "en": "The conclusion",
+            "id": "Kesimpulan"
+           }
+          },
+          {
+           "icon": "layers",
+           "en": "Writing +0.2. Listening +0.2. Speaking +0.2.",
+           "id": "Menulis +0,2. Menyimak +0,2. Berbicara +0,2.",
+           "l": {
+            "en": "The reasons",
+            "id": "Alasan"
+           }
+          },
+          {
+           "icon": "chart",
+           "en": "Two timed tests: writing and listening hold. Speaking does not improve when she practises alone.",
+           "id": "Dua tes berwaktu: menulis dan menyimak terbukti. Berbicara tidak membaik saat ia berlatih sendirian.",
+           "l": {
+            "en": "The check",
+            "id": "Pengecekan"
+           }
+          }
+         ],
+         "band": {
+          "en": "One reason failed its check, so the plan changes: she needs a speaking partner.",
+          "id": "Satu alasan gagal dalam pengecekan, maka rencananya berubah: ia butuh teman berlatih bicara."
+         },
+         "img": "../../assets/bg/fg-stage-ascent.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Criteria come from the goal, and weights come from the criteria",
+          "id": "Kriteria datang dari tujuan, dan bobot datang dari kriteria"
+         },
+         "em": {
+          "en": "Criteria come from the goal",
+          "id": "Kriteria datang dari tujuan"
+         },
+         "layout": "columns",
+         "cols": [
+          {
+           "icon": "list",
+           "l": {
+            "en": "Pros and cons",
+            "id": "Untung-rugi"
+           },
+           "d": {
+            "en": "Favours what is cheap or near",
+            "id": "Memihak yang murah atau dekat"
+           },
+           "items": [
+            {
+             "icon": "coin",
+             "en": "Evening course: cheaper",
+             "id": "Kursus malam: lebih murah"
+            },
+            {
+             "icon": "pin",
+             "en": "Evening course: near home",
+             "id": "Kursus malam: dekat rumah"
+            },
+            {
+             "icon": "coin",
+             "en": "Online tutor: costs more",
+             "id": "Tutor daring: lebih mahal"
+            }
+           ]
+          },
+          {
+           "icon": "scale",
+           "l": {
+            "en": "Criteria with weights",
+            "id": "Kriteria dengan bobot"
+           },
+           "d": {
+            "en": "Favours what serves the goal",
+            "id": "Memihak yang melayani tujuan"
+           },
+           "items": [
+            {
+             "icon": "mic",
+             "en": "Speaking practice: high",
+             "id": "Latihan berbicara: tinggi"
+            },
+            {
+             "icon": "clock",
+             "en": "Fits her work hours: medium",
+             "id": "Cocok dengan jam kerjanya: sedang"
+            },
+            {
+             "icon": "coin",
+             "en": "Cost: low",
+             "id": "Biaya: rendah"
+            }
+           ]
+          }
+         ],
+         "band": {
+          "en": "Weighted, the online tutor wins 16 to 11. The moment cost outweighs speaking practice, the goal has quietly changed.",
+          "id": "Setelah dibobot, tutor daring menang 16 lawan 11. Begitu biaya lebih berat daripada latihan berbicara, tujuannya diam-diam sudah berubah."
+         },
+         "img": "../../assets/bg/negotiation.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Challenge your own conclusion before you act on it",
+          "id": "Tantang kesimpulanmu sendiri sebelum bertindak"
+         },
+         "em": {
+          "en": "Challenge your own conclusion",
+          "id": "Tantang kesimpulanmu sendiri"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "users",
+           "en": "Ask someone who has done it",
+           "id": "Tanya orang yang sudah menjalaninya",
+           "d": {
+            "en": "They hold criteria you do not know exist",
+            "id": "Mereka punya kriteria yang tak kamu tahu ada"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "question",
+           "en": "Test your assumptions",
+           "id": "Uji asumsimu",
+           "d": {
+            "en": "Which belief would change the answer if it were false?",
+            "id": "Keyakinan mana yang akan mengubah jawabannya jika ternyata keliru?"
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "Look for the missing option",
+           "id": "Cari opsi yang terlewat",
+           "d": {
+            "en": "A scholarship, a swap, a third path nobody listed",
+            "id": "Beasiswa, pertukaran, jalan ketiga yang tak ada di daftar"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "Give the checks a deadline",
+           "id": "Beri tenggat untuk pengecekan",
+           "d": {
+            "en": "Checks without a date turn into worry",
+            "id": "Pengecekan tanpa tanggal berubah menjadi kecemasan"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ]
+        }
+       ]
+      }
      }
     },
     {

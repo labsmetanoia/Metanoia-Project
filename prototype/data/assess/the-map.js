@@ -961,8 +961,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Berpikir seperti Pemecah Masalah: Metode Empat Langkah"
     },
     "sub": {
-     "en": "The four-step loop and the stuck characters; the seven-step hypothesis-led approach; problem types and thinking modes; the right question; logic trees.",
-     "id": "Putaran empat langkah dan tokoh-tokoh yang tersangkut; pendekatan tujuh langkah berbasis hipotesis; jenis masalah dan mode berpikir; pertanyaan yang tepat; pohon logika."
+     "en": "The four-step loop and the four ways to get stuck; from complaint to problem; logic trees with no gaps and no overlaps; the gap statement and a sharp problem question.",
+     "id": "Putaran empat langkah dan empat cara menjadi buntu; dari keluhan ke masalah; pohon logika tanpa celah dan tanpa tumpang tindih; pernyataan kesenjangan dan pertanyaan masalah yang tajam."
     }
    },
    {
@@ -972,8 +972,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Akar Masalah dan Rencana Tindakan"
     },
     "sub": {
-     "en": "SMART questions and the Problem Statement Worksheet; debiasing; diagnosis 1A–1D, the yes/no tree and the design plan; impact × ease and who-what-when.",
-     "id": "Pertanyaan SMART dan Lembar Kerja Pernyataan Masalah; teknik mengurangi bias; diagnosis 1A–1D, pohon ya/tidak, dan rencana rancangan; dampak × kemudahan serta siapa-apa-kapan."
+     "en": "A hypothesis with a number; the design plan; reading a funnel; 5 Whys; impact × ease; owners and dates.",
+     "id": "Hipotesis dengan angka; rencana rancangan; membaca corong; 5 Whys; dampak × kemudahan; penanggung jawab dan tanggal."
     }
    },
    {
@@ -983,8 +983,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Tujuan, Kesenjangan, dan Keputusan yang Baik"
     },
     "sub": {
-     "en": "Issue trees and MECE; 80/20 and the prioritisation matrix; work plans, synthesis and recommendations; goals, gaps, the hypothesis pyramid, weighted decisions.",
-     "id": "Pohon isu dan MECE; 80/20 dan matriks prioritas; rencana kerja, sintesis, dan rekomendasi; tujuan, kesenjangan, piramida hipotesis, keputusan berbobot."
+     "en": "A solid goal and the gap; the hypothesis pyramid; criteria with weights; challenging your own conclusion.",
+     "id": "Tujuan yang kokoh dan kesenjangannya; piramida hipotesis; kriteria dengan bobot; menantang kesimpulanmu sendiri."
     }
    },
    {
@@ -1004,124 +1004,124 @@ window.MT_ASSESS['the-map'] = {
     "type": "know",
     "lesson": "3.1",
     "q": {
-     "en": "The hypothesis-led approach has seven steps. Which sequence is correct?",
-     "id": "Pendekatan berbasis hipotesis punya tujuh langkah. Urutan mana yang benar?"
+     "en": "In what order does the four-step method run?",
+     "id": "Dengan urutan apa metode empat langkah dijalankan?"
     },
     "opts": [
      {
-      "en": "Define the problem → structure the problem and generate ideas → prioritise issues → plan analyses and work → conduct analyses → synthesise findings → develop recommendations",
-      "id": "Definisikan masalah → susun struktur masalah dan munculkan ide → prioritaskan isu → rencanakan analisis dan pekerjaan → jalankan analisis → sintesis temuan → susun rekomendasi"
+      "en": "Plan, execute, understand the situation, find the root cause",
+      "id": "Menyusun rencana, menjalankan, memahami situasi, mencari akar masalah"
      },
      {
-      "en": "Conduct analyses → define the problem → develop recommendations → synthesise findings → structure the problem → prioritise issues → plan the work",
-      "id": "Jalankan analisis → definisikan masalah → susun rekomendasi → sintesis temuan → susun struktur masalah → prioritaskan isu → rencanakan pekerjaan"
+      "en": "Understand the situation, find the root cause, make a plan, execute and adjust",
+      "id": "Memahami situasi, mencari akar masalah, menyusun rencana, menjalankan dan menyesuaikan"
      },
      {
-      "en": "Generate ideas → pick the best idea → implement it → measure → define what the problem was",
-      "id": "Munculkan ide → pilih ide terbaik → jalankan → ukur → definisikan apa masalahnya"
+      "en": "Find the root cause, understand the situation, execute, make a plan",
+      "id": "Mencari akar masalah, memahami situasi, menjalankan, menyusun rencana"
      },
      {
-      "en": "Define the problem → develop recommendations → conduct analyses to justify them → synthesise → prioritise",
-      "id": "Definisikan masalah → susun rekomendasi → jalankan analisis untuk membenarkannya → sintesis → prioritaskan"
+      "en": "Execute, adjust, make a plan, find the root cause",
+      "id": "Menjalankan, menyesuaikan, menyusun rencana, mencari akar masalah"
      }
     ],
-    "correct": 0,
+    "correct": 1,
     "expl": {
-     "en": "Definition (step 1), structuring (steps 2–4), analysing (step 5), synthesising and recommending (steps 6–7). Starting with a hypothesis does not mean you already know the answer. It gives you a better question and a clearer direction, and the loop is iterative: a hypothesis the data kills sends you back to structure.",
-     "id": "Mendefinisikan (langkah 1), menyusun struktur (langkah 2–4), menganalisis (langkah 5), menyintesis dan merekomendasikan (langkah 6–7). Memulai dengan hipotesis tidak berarti kamu sudah tahu jawabannya. Hipotesis memberimu pertanyaan yang lebih baik dan arah yang lebih jelas, dan putarannya berulang: hipotesis yang dipatahkan data akan membawamu kembali ke tahap menyusun struktur."
+     "en": "Problem solving is a loop walked in order. Each step produces what the next one needs: a defined problem, a cause, a plan, and then results that tell you what to adjust.",
+     "id": "Memecahkan masalah adalah putaran yang dijalani berurutan. Setiap langkah menghasilkan apa yang dibutuhkan langkah berikutnya: masalah yang terumuskan, penyebab, rencana, lalu hasil yang memberi tahu apa yang perlu disesuaikan."
     }
    },
    {
     "type": "scen",
     "lesson": "3.1",
     "q": {
-     "en": "Forty-five minutes before the meeting with the CEO, Arun’s team presents a 50-lakh market-research plan covering colour, size, grip and packaging. What is the first question Arun should ask?",
-     "id": "Empat puluh lima menit sebelum rapat dengan CEO, tim Arun memaparkan rencana riset pasar senilai 50 lakh yang mencakup warna, ukuran, pegangan, dan kemasan. Apa pertanyaan pertama yang sebaiknya diajukan Arun?"
+     "en": "A committee says: “Nobody comes to our events any more.” What is the first move?",
+     "id": "Sebuah panitia berkata: “Tidak ada lagi yang datang ke acara kami.” Apa langkah pertamanya?"
     },
     "opts": [
      {
-      "en": "“How realistic is this given the one-month timeline?”",
-      "id": "\"Seberapa realistis ini dengan tenggat satu bulan?\""
+      "en": "Brainstorm new event formats",
+      "id": "Mengumpulkan ide format acara baru"
      },
      {
-      "en": "“How can we cut costs to bring the budget down?”",
-      "id": "\"Bagaimana kita memangkas biaya supaya anggarannya turun?\""
+      "en": "Raise the promotion budget",
+      "id": "Menaikkan anggaran promosi"
      },
      {
-      "en": "“What is the question this research is meant to answer?”",
-      "id": "\"Pertanyaan apa yang sebenarnya ingin dijawab riset ini?\""
+      "en": "Survey every student about everything",
+      "id": "Menyurvei semua mahasiswa tentang segala hal"
      },
      {
-      "en": "“Which agency should run the survey?”",
-      "id": "\"Agensi mana yang sebaiknya menjalankan surveinya?\""
+      "en": "Narrow it with a logic tree: who stopped coming, since when, and at which stage?",
+      "id": "Mempersempitnya dengan pohon logika: siapa yang berhenti datang, sejak kapan, dan di tahap mana?"
      }
     ],
-    "correct": 2,
+    "correct": 3,
     "expl": {
-     "en": "A great problem solver starts with the right question. Once the team asked what had decided similar projects, the research narrowed to price and performance specifications, the budget fell from 50 to 15 lakhs, and the CEO signed off. Cost and timeline questions would only have trimmed the wrong plan.",
-     "id": "Pemecah masalah yang hebat memulai dengan pertanyaan yang tepat. Begitu tim bertanya apa yang menentukan keberhasilan proyek-proyek serupa, risetnya menyempit ke harga dan spesifikasi kinerja, anggarannya turun dari 50 menjadi 15 lakh, dan CEO menyetujuinya. Pertanyaan soal biaya dan tenggat hanya akan memangkas rencana yang keliru."
+     "en": "That sentence is a complaint, not yet a problem. A logic tree narrows it until it names who, since when and at which stage. Only then is it worth discussing causes and solutions.",
+     "id": "Kalimat itu keluhan, belum masalah. Pohon logika mempersempitnya sampai menyebut siapa, sejak kapan, dan di tahap mana. Baru setelah itu ada gunanya membahas penyebab dan solusi."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.1",
+    "q": {
+     "en": "Which of these is a complete gap statement?",
+     "id": "Mana yang merupakan pernyataan kesenjangan yang lengkap?"
+    },
+    "opts": [
+     {
+      "en": "“Study-room bookings are 40 a week; we want 70 by June; we do not yet know why second-years stopped booking.”",
+      "id": "“Pemesanan ruang belajar 40 per minggu; kami ingin 70 pada bulan Juni; kami belum tahu kenapa mahasiswa tahun kedua berhenti memesan.”"
+     },
+     {
+      "en": "“Study-room bookings are far too low and something must be done.”",
+      "id": "“Pemesanan ruang belajar terlalu rendah dan harus ada tindakan.”"
+     },
+     {
+      "en": "“We should open the study rooms on Sundays.”",
+      "id": "“Sebaiknya ruang belajar dibuka pada hari Minggu.”"
+     },
+     {
+      "en": "“We want 70 bookings a week by June.”",
+      "id": "“Kami ingin 70 pemesanan per minggu pada bulan Juni.”"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "A gap statement has three parts: the current state, the desired state and the obstacle. The second option is a complaint, the third is a solution, and the fourth is only a target.",
+     "id": "Pernyataan kesenjangan punya tiga bagian: kondisi sekarang, kondisi yang diinginkan, dan hambatan. Pilihan kedua adalah keluhan, pilihan ketiga adalah solusi, dan pilihan keempat hanya target."
     }
    },
    {
     "type": "know",
     "lesson": "3.1",
     "q": {
-     "en": "Five approaches to structured problem solving were named (hypothesis-led, domain-IP-led, advanced analytics, design thinking and engineering). What do all five share?",
-     "id": "Ada lima pendekatan pemecahan masalah terstruktur yang disebutkan (berbasis hipotesis, berbasis keahlian domain, analitik tingkat lanjut, design thinking, dan rekayasa). Apa kesamaan kelimanya?"
+     "en": "Which problem question is specific, measurable and has a date?",
+     "id": "Pertanyaan masalah mana yang spesifik, terukur, dan punya tanggal?"
     },
     "opts": [
      {
-      "en": "A focused problem statement, impact orientation, a stakeholder perspective, a fact base, and synthesis",
-      "id": "Pernyataan masalah yang fokus, orientasi pada dampak, sudut pandang para pemangku kepentingan, basis fakta, dan sintesis"
+      "en": "“How can we make tutoring better?”",
+      "id": "“Bagaimana cara membuat program tutor lebih baik?”"
      },
      {
-      "en": "A single expert who already knows the answer",
-      "id": "Satu orang ahli yang sudah tahu jawabannya"
+      "en": "“Why do students not care about tutoring?”",
+      "id": "“Kenapa mahasiswa tidak peduli pada program tutor?”"
      },
      {
-      "en": "A brainstorm first and structure later",
-      "id": "Curah gagasan dulu, struktur belakangan"
+      "en": "“How can we bring first-year attendance from 9 to 30 a week by the end of term, without adding tutors?”",
+      "id": "“Bagaimana menaikkan kehadiran mahasiswa tahun pertama dari 9 menjadi 30 per minggu di akhir semester, tanpa menambah tutor?”"
      },
      {
-      "en": "A survey of every stakeholder before any hypothesis",
-      "id": "Survei ke semua pemangku kepentingan sebelum ada hipotesis apa pun"
+      "en": "“Should we add more tutors and a second room?”",
+      "id": "“Perlukah kita menambah tutor dan ruang kedua?”"
      }
     ],
-    "correct": 0,
+    "correct": 2,
     "expl": {
-     "en": "Whatever the route, the hallmarks are the same: the problem formalised on paper, an eye on impact, the stakeholders to align, facts rather than opinion, and a synthesis at the end, plus a devil’s advocate when everyone agrees too easily.",
-     "id": "Apa pun jalurnya, cirinya sama: masalah dirumuskan di atas kertas, perhatian pada dampak, pemangku kepentingan yang perlu diselaraskan, fakta alih-alih opini, dan sintesis di akhir, ditambah seseorang yang sengaja membantah ketika semua orang terlalu mudah setuju."
-    }
-   },
-   {
-    "type": "scen",
-    "lesson": "3.1",
-    "q": {
-     "en": "Sandra, a manager, writes: “We’re having difficulty tracking the most important information your team provides for report requests. Let’s talk about ideas to improve communication between our teams; I’d like to arrive at a couple of improvements we can make right away.” How would you classify the problem, and what does that mean for how you work it?",
-     "id": "Sandra, seorang atasan, menulis: \"Kami kesulitan melacak informasi paling penting yang diberikan timmu untuk permintaan laporan. Ayo kita bahas ide untuk memperbaiki komunikasi antartim kita; aku ingin kita sampai pada beberapa perbaikan yang bisa langsung dijalankan.\" Bagaimana kamu mengklasifikasikan masalah ini, dan apa artinya bagi cara kamu mengerjakannya?"
-    },
-    "opts": [
-     {
-      "en": "Analytical and divergent: build a data model and keep every option open",
-      "id": "Analitis dan divergen: bangun model data dan biarkan semua pilihan tetap terbuka"
-     },
-     {
-      "en": "Conceptual and convergent: generate improvement ideas creatively, then narrow to a few tangible ones you can act on now",
-      "id": "Konseptual dan konvergen: munculkan ide perbaikan secara kreatif, lalu persempit menjadi beberapa ide nyata yang bisa dijalankan sekarang"
-     },
-     {
-      "en": "Analytical and convergent: the answer is a single number to calculate",
-      "id": "Analitis dan konvergen: jawabannya satu angka yang perlu dihitung"
-     },
-     {
-      "en": "Conceptual and divergent: explore possibilities for weeks before committing",
-      "id": "Konseptual dan divergen: jelajahi berbagai kemungkinan selama berminggu-minggu sebelum memutuskan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Sandra’s challenge needs creative thinking about communication (conceptual) and then a small number of concrete improvements (convergent). Classifying the problem first tells you which thinking mode to use, and how urgent the answer is.",
-     "id": "Tantangan Sandra butuh pemikiran kreatif tentang komunikasi (konseptual), lalu sedikit perbaikan yang konkret (konvergen). Mengklasifikasikan masalah lebih dulu memberi tahu mode berpikir mana yang perlu dipakai, dan seberapa mendesak jawabannya."
+     "en": "A sharp question names who, a number and a date, and stays open about the solution. The last option is a solution in the shape of a question. The sharper the question, the smaller the search.",
+     "id": "Pertanyaan yang tajam menyebut siapa, angka, dan tanggal, tanpa mengunci solusinya. Pilihan terakhir adalah solusi yang menyamar sebagai pertanyaan. Makin tajam pertanyaannya, makin sempit pencariannya."
     }
    },
    {
@@ -1190,93 +1190,31 @@ window.MT_ASSESS['the-map'] = {
     "type": "scen",
     "lesson": "3.2",
     "q": {
-     "en": "The DentMerc team agrees to answer: “Should DentMerc enter the well-established Southeast Asian toothbrush market with the Click*Brush?” Tested against SMART, what is the biggest weakness?",
-     "id": "Tim DentMerc sepakat menjawab: \"Haruskah DentMerc masuk ke pasar sikat gigi Asia Tenggara yang sudah mapan dengan Click*Brush?\" Jika diuji dengan SMART, apa kelemahan terbesarnya?"
+     "en": "Which of these is a hypothesis that data can kill?",
+     "id": "Mana yang merupakan hipotesis yang bisa dipatahkan oleh data?"
     },
     "opts": [
      {
-      "en": "It is not specific; the market and the product are unnamed",
-      "id": "Tidak spesifik; pasar dan produknya tidak disebutkan"
+      "en": "“People think my coffee is too expensive.”",
+      "id": "“Orang menganggap kopiku terlalu mahal.”"
      },
      {
-      "en": "It is not measurable or time-bound; a yes/no answer gives no way to know the problem has been adequately addressed, and there is no time frame",
-      "id": "Tidak terukur dan tidak berbatas waktu; jawaban ya/tidak tidak memberi cara untuk tahu apakah masalahnya sudah tertangani dengan memadai, dan tidak ada kerangka waktunya"
+      "en": "“Sales have been disappointing lately.”",
+      "id": "“Akhir-akhir ini penjualan mengecewakan.”"
      },
      {
-      "en": "It is not relevant; toothbrushes are outside DentMerc’s business",
-      "id": "Tidak relevan; sikat gigi berada di luar bisnis DentMerc"
+      "en": "“Customers these days are hard to please.”",
+      "id": "“Pelanggan zaman sekarang susah dipuaskan.”"
      },
      {
-      "en": "Nothing: a yes/no question is the ideal problem statement",
-      "id": "Tidak ada: pertanyaan ya/tidak adalah pernyataan masalah yang ideal"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The expert answer scores it relatively specific, actionable and relevant, but not measurable and not time-bound. Sharpening it (a target share or revenue within a stated period) is what turns a question into a foundation for the work. Defining the problem is iterative.",
-     "id": "Jawaban ahli menilainya cukup spesifik, bisa ditindaklanjuti, dan relevan, tetapi tidak terukur dan tidak berbatas waktu. Mempertajamnya (target pangsa pasar atau pendapatan dalam jangka waktu tertentu) itulah yang mengubah sebuah pertanyaan menjadi fondasi pekerjaan. Mendefinisikan masalah adalah proses yang berulang."
-    }
-   },
-   {
-    "type": "know",
-    "lesson": "3.2",
-    "q": {
-     "en": "Which of these is NOT one of the dimensions on the Problem Statement Worksheet?",
-     "id": "Mana yang BUKAN salah satu dimensi dalam Lembar Kerja Pernyataan Masalah?"
-    },
-    "opts": [
-     {
-      "en": "Context and stakeholders",
-      "id": "Konteks dan pemangku kepentingan"
-     },
-     {
-      "en": "Constraints and the scope of the solution space",
-      "id": "Batasan dan cakupan ruang solusi"
-     },
-     {
-      "en": "Criteria for success and key sources of insight",
-      "id": "Kriteria keberhasilan dan sumber insight utama"
-     },
-     {
-      "en": "The list of solutions you already favour",
-      "id": "Daftar solusi yang sudah kamu sukai"
+      "en": "“About 6 in 10 buyers never return, because of the price.”",
+      "id": "“Sekitar 6 dari 10 pembeli tidak kembali, karena harganya.”"
      }
     ],
     "correct": 3,
     "expl": {
-     "en": "The worksheet holds a SMART problem question plus context, stakeholders, constraints, scope, criteria for success and sources of insight. It is a living document and a checklist against blind spots. The three classic mistakes are missed stakeholders, an unclear scope and dishonest constraints. Solutions come later.",
-     "id": "Lembar kerja ini memuat pertanyaan masalah yang SMART ditambah konteks, pemangku kepentingan, batasan, cakupan, kriteria keberhasilan, dan sumber insight. Lembar ini terus diperbarui dan menjadi daftar periksa untuk menghindari titik buta. Tiga kesalahan klasiknya adalah pemangku kepentingan yang terlewat, cakupan yang tidak jelas, dan batasan yang tidak jujur. Solusi datang belakangan."
-    }
-   },
-   {
-    "type": "scen",
-    "lesson": "3.2",
-    "q": {
-     "en": "In a workshop, the strongest voice argues for one hypothesis and cites only the data that supports it; the room is nodding. Which bias is at work, and which technique counters it?",
-     "id": "Dalam sebuah lokakarya, suara paling dominan membela satu hipotesis dan hanya mengutip data yang mendukungnya; seisi ruangan mengangguk. Bias apa yang sedang bekerja, dan teknik apa yang menangkalnya?"
-    },
-    "opts": [
-     {
-      "en": "Stability bias: run a constraint release",
-      "id": "Bias kestabilan: longgarkan batasannya"
-     },
-     {
-      "en": "Confirmation bias and groupthink: run a challenger session or an analysis of competing hypotheses, so the strongest advocate has to argue the other side",
-      "id": "Bias konfirmasi dan pemikiran kelompok: jalankan sesi penantang atau analisis hipotesis-hipotesis pesaing, supaya pembela paling vokal harus membela sisi sebaliknya"
-     },
-     {
-      "en": "Confidence bias: extend the deadline",
-      "id": "Bias kepercayaan diri: perpanjang tenggatnya"
-     },
-     {
-      "en": "No bias: agreement means the hypothesis is right",
-      "id": "Tidak ada bias: kesepakatan berarti hipotesisnya benar"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Confirmation bias filters new evidence until only what agrees survives; groupthink amplifies it. The film’s most effective counter is a challenger session (contrived at first, but a powerful check on blind spots), and the slides add the key assumption check and competing hypotheses with evidence for each.",
-     "id": "Bias konfirmasi menyaring bukti baru sampai hanya yang sependapat yang tersisa, dan pemikiran kelompok memperkuatnya. Penangkal paling efektif dari film tadi adalah sesi penantang (awalnya terasa dibuat-buat, tetapi ampuh untuk memeriksa titik buta), dan slide-slidenya menambahkan pengecekan asumsi kunci serta analisis hipotesis-hipotesis pesaing dengan bukti untuk masing-masing."
+     "en": "A hypothesis is a guess written down with a number, so that a count can prove it wrong. A feeling cannot be tested. Being wrong early is the win: it redirects the plan before anything is spent.",
+     "id": "Hipotesis adalah tebakan yang ditulis dengan angka, sehingga sebuah hitungan bisa membuktikannya keliru. Perasaan tidak bisa diuji. Keliru sejak awal justru kemenangan: rencananya berbelok sebelum ada yang dikeluarkan."
     }
    },
    {
@@ -1343,126 +1281,95 @@ window.MT_ASSESS['the-map'] = {
    },
    {
     "type": "scen",
-    "lesson": "3.3",
+    "lesson": "3.2",
     "q": {
-     "en": "Three days before the press conference, Elena’s CarneCarne team needs a first level for its issue tree: “What is the source of the E. coli in the frozen beef at the northwest distribution centre?” Which set is strongest?",
-     "id": "Tiga hari sebelum konferensi pers, tim CarneCarne yang dipimpin Elena butuh tingkat pertama untuk pohon isunya: \"Apa sumber E. coli pada daging sapi beku di pusat distribusi barat laut?\" Kumpulan mana yang paling kuat?"
+     "en": "A 5 Whys chain ends at “because Andi is lazy”. What went wrong?",
+     "id": "Rangkaian 5 Whys berakhir di “karena Andi malas”. Apa yang keliru?"
     },
     "opts": [
      {
-      "en": "Was it the farms? Was it somewhere in the supply chain before the centre? Was it in the stores?",
-      "id": "Apakah dari peternakan? Apakah di suatu titik rantai pasok sebelum pusat distribusi? Apakah di toko?"
+      "en": "Nothing. The chain reached a clear cause",
+      "id": "Tidak ada. Rangkaiannya sudah sampai di penyebab yang jelas"
      },
      {
-      "en": "Was there initial contamination at one or more of the five farms that supply the centre? At the packaging facility that feeds it? At the northwest distribution centre itself?",
-      "id": "Apakah ada kontaminasi awal di salah satu atau beberapa dari lima peternakan yang memasok pusat distribusi? Di fasilitas pengemasan yang memasoknya? Di pusat distribusi barat laut itu sendiri?"
+      "en": "It stopped at a person. Keep asking why the process allowed it, until you reach a process or a decision someone can change",
+      "id": "Rangkaiannya berhenti di seseorang. Teruslah bertanya kenapa prosesnya memungkinkan hal itu, sampai tiba di proses atau keputusan yang bisa diubah"
      },
      {
-      "en": "Was it bacteria? Was it people? Was it something else?",
-      "id": "Apakah karena bakteri? Apakah karena orang? Apakah karena hal lain?"
+      "en": "It asked “why” too many times. Three is enough",
+      "id": "Pertanyaan “kenapa”-nya terlalu banyak. Tiga sudah cukup"
      },
      {
-      "en": "Which employee is responsible, and should we recall everything?",
-      "id": "Karyawan mana yang bertanggung jawab, dan haruskah kita menarik semua produk?"
+      "en": "It should have started from the solution and worked backwards",
+      "id": "Seharusnya dimulai dari solusi lalu ditarik mundur"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "The second set follows the supply chain step by step with no overlaps and no gaps, and drops the stores because the beef was caught before it reached them. The first set overlaps (“somewhere in the supply chain” already contains the farms); the third has an “other” bucket; the fourth hunts a culprit, not a cause.",
-     "id": "Kumpulan kedua mengikuti rantai pasok langkah demi langkah tanpa tumpang tindih dan tanpa celah, dan tidak memasukkan toko karena dagingnya sudah terdeteksi sebelum sampai ke sana. Kumpulan pertama tumpang tindih (\"suatu titik rantai pasok\" sudah mencakup peternakan); yang ketiga punya keranjang \"hal lain\"; yang keempat memburu pelaku, bukan penyebab."
-    }
-   },
-   {
-    "type": "know",
-    "lesson": "3.3",
-    "q": {
-     "en": "Your issue tree has twelve second-level issues and the team has a week. What does the module tell you to do?",
-     "id": "Pohon isumu punya dua belas isu di tingkat kedua dan timmu hanya punya waktu seminggu. Apa yang disarankan modul ini?"
-    },
-    "opts": [
-     {
-      "en": "Analyse all twelve equally, thoroughness first",
-      "id": "Analisis kedua belasnya sama rata, ketelitian nomor satu"
-     },
-     {
-      "en": "Apply 80/20 and the prioritisation matrix: rank the issues by impact and feasibility and put the time into the few that drive most of the answer",
-      "id": "Terapkan 80/20 dan matriks prioritas: urutkan isu berdasarkan dampak dan kelayakan, lalu curahkan waktu pada sedikit isu yang menentukan sebagian besar jawabannya"
-     },
-     {
-      "en": "Pick the issues the team finds most interesting",
-      "id": "Pilih isu yang paling menarik bagi tim"
-     },
-     {
-      "en": "Cut the tree back to one issue and stop structuring",
-      "id": "Pangkas pohonnya menjadi satu isu dan berhenti menyusun struktur"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "20% of the analyses give 80% of the insight; the 200-business valuation was solved by focusing on 30. The matrix places each issue by impact against feasibility; be comfortable with an answer that is 80% of the way there, and be precise in proportion to the time you have.",
-     "id": "20% analisis memberi 80% insight; penilaian 200 bisnis terpecahkan dengan berfokus pada 30 di antaranya. Matriks ini menempatkan setiap isu berdasarkan dampak lawan kelayakan. Terimalah jawaban yang sudah 80% sampai, dan buat ketelitianmu sebanding dengan waktu yang kamu punya."
+     "en": "People are rarely root causes; incentives, processes and decisions are. Stopping at a person is blame, and stopping at the cause you already know how to fix is convenience. Follow the chain where the evidence goes.",
+     "id": "Orang jarang menjadi akar masalah; insentif, proses, dan keputusanlah yang biasanya menjadi akarnya. Berhenti di seseorang berarti menyalahkan, dan berhenti di penyebab yang sudah kamu tahu cara memperbaikinya berarti mencari gampangnya. Ikuti rangkaiannya ke arah yang ditunjukkan bukti."
     }
    },
    {
     "type": "scen",
-    "lesson": "3.3",
+    "lesson": "3.2",
     "q": {
-     "en": "SodaComp’s hypothesis is “we should test a healthier orange soda”. Which work-plan row is complete enough to start on?",
-     "id": "Hipotesis SodaComp adalah \"kita sebaiknya menguji soda jeruk yang lebih sehat\". Baris rencana kerja mana yang cukup lengkap untuk mulai dikerjakan?"
+     "en": "Arga believes buyers do not return because of his prices. He plans to interview only the customers who complained about the price. What is the risk, and the fix?",
+     "id": "Arga yakin pembeli tidak kembali karena harganya. Ia berencana mewawancarai hanya pelanggan yang mengeluhkan harga. Apa risikonya, dan perbaikannya?"
     },
     "opts": [
      {
-      "en": "Issue: healthier soda. Hypothesis: it will work. Analysis: research.",
-      "id": "Isu: soda yang lebih sehat. Hipotesis: pasti berhasil. Analisis: riset."
+      "en": "He would collect only data that agrees with his guess. Write the design plan first and count every stage, including people who never bought",
+      "id": "Ia hanya akan mengumpulkan data yang sejalan dengan dugaannya. Tulis dulu rencana rancangannya dan hitung setiap tahap, termasuk orang yang tak pernah membeli"
      },
      {
-      "en": "Issue: will a healthier orange soda win share in Europe by year-end? Hypothesis: yes, consumers limit soda for health reasons and competitors lack an affordable healthy option. Analysis: focus groups and a competitor pricing scan. Source: consumer panel, retail price data. End product: a market-competitiveness report. Timing: two weeks. Owner: Sarit.",
-      "id": "Isu: apakah soda jeruk yang lebih sehat bisa merebut pangsa pasar di Eropa sebelum akhir tahun? Hipotesis: ya, konsumen membatasi soda karena alasan kesehatan dan pesaing belum punya pilihan sehat yang terjangkau. Analisis: diskusi kelompok terarah dan pemindaian harga pesaing. Sumber: panel konsumen, data harga ritel. Hasil akhir: laporan daya saing pasar. Waktu: dua minggu. Penanggung jawab: Sarit."
+      "en": "The interviews would take too long. He should lower the price straight away",
+      "id": "Wawancaranya akan terlalu lama. Sebaiknya ia langsung menurunkan harga"
      },
      {
-      "en": "Issue: everything about soda. Hypothesis: none yet. Analysis: a big survey.",
-      "id": "Isu: semua hal tentang soda. Hipotesis: belum ada. Analisis: survei besar."
+      "en": "There is no risk. Those customers know the problem best",
+      "id": "Tidak ada risiko. Pelanggan itulah yang paling tahu masalahnya"
      },
      {
-      "en": "Issue: the CEO wants growth. Hypothesis: launch now. Analysis: skip it, the deadline is close.",
-      "id": "Isu: CEO ingin pertumbuhan. Hipotesis: luncurkan sekarang. Analisis: lewati saja, tenggatnya sudah dekat."
+      "en": "He would upset the customers. He should stop asking questions",
+      "id": "Ia akan membuat pelanggan kesal. Sebaiknya ia berhenti bertanya"
      }
     ],
-    "correct": 1,
+    "correct": 0,
     "expl": {
-     "en": "A strong work plan turns each end node of the tree into an issue worded so it can be answered, a hypothesis with what must be true, the analyses and sources that test it, the end product, and timing and owner. Build it knowing the decision-maker’s burden of proof, so you neither under-deliver nor over-analyse.",
-     "id": "Rencana kerja yang kuat mengubah setiap ujung cabang pohon menjadi isu yang dirumuskan agar bisa dijawab, hipotesis beserta apa yang harus benar, analisis dan sumber yang mengujinya, hasil akhirnya, serta waktu dan penanggung jawabnya. Susunlah dengan memahami beban pembuktian yang diminta pengambil keputusan, supaya kamu tidak kurang memberi dan tidak juga berlebihan menganalisis."
+     "en": "Looking only for evidence that agrees with you is confirmation bias. A design plan written before any data is collected names the analysis that could contradict the hypothesis. In the film, one week of counting showed the leak was earlier: most people never noticed the cart.",
+     "id": "Mencari hanya bukti yang sejalan dengan dugaanmu adalah bias konfirmasi. Rencana rancangan yang ditulis sebelum data dikumpulkan menyebutkan analisis yang bisa membantah hipotesisnya. Di film, seminggu menghitung menunjukkan bocornya lebih awal: kebanyakan orang tak pernah melihat gerobaknya."
     }
    },
    {
     "type": "know",
     "lesson": "3.3",
     "q": {
-     "en": "Which line is a synthesis rather than a summary?",
-     "id": "Kalimat mana yang merupakan sintesis, bukan ringkasan?"
+     "en": "What are the three parts of a solid goal?",
+     "id": "Apa tiga bagian dari tujuan yang kokoh?"
     },
     "opts": [
      {
-      "en": "“The restaurant was busy, the order took forty minutes and the traffic is heavy.”",
-      "id": "\"Restorannya ramai, pesanannya makan waktu empat puluh menit, dan lalu lintasnya padat.\""
+      "en": "Passion, effort and luck",
+      "id": "Semangat, usaha, dan keberuntungan"
      },
      {
-      "en": "“I’m going to be late for dinner, start without me.”",
-      "id": "\"Aku bakal telat makan malam, mulai saja tanpa aku.\""
+      "en": "A dream, a slogan and a mentor",
+      "id": "Mimpi, slogan, dan mentor"
      },
      {
-      "en": "“Here are the three facts from tonight, in order.”",
-      "id": "\"Ini tiga fakta dari malam ini, berurutan.\""
+      "en": "What, by when, and under which conditions",
+      "id": "Apa, kapan, dan dengan syarat apa"
      },
      {
-      "en": "“Dinner was scheduled for eight o’clock.”",
-      "id": "\"Makan malamnya dijadwalkan jam delapan.\""
+      "en": "A budget, a team and a tool",
+      "id": "Anggaran, tim, dan alat"
      }
     ],
-    "correct": 1,
+    "correct": 2,
     "expl": {
-     "en": "A summary restates the facts in short form; a synthesis states what they mean together and tees up the action. The same rule turns analyses into a “so what” and then into a recommendation that is appropriate for the organisation and actionable (owners, buy-in, timeline).",
-     "id": "Ringkasan mengulang fakta dalam bentuk pendek; sintesis menyatakan apa arti fakta-fakta itu bersama-sama dan menyiapkan tindakannya. Aturan yang sama mengubah hasil analisis menjadi \"lalu kenapa\", lalu menjadi rekomendasi yang sesuai bagi organisasi dan bisa dijalankan (penanggung jawab, dukungan, jadwal)."
+     "en": "What you want, the date, and the conditions you will not break. The conditions matter as much as the number: they let you cut options later without agonising.",
+     "id": "Apa yang kamu inginkan, tanggalnya, dan syarat yang tak akan kamu langgar. Syaratnya sama penting dengan angkanya: syarat itulah yang kelak membuatmu bisa memangkas pilihan tanpa bimbang."
     }
    },
    {
@@ -1494,6 +1401,99 @@ window.MT_ASSESS['the-map'] = {
     "expl": {
      "en": "Do-nothing forecast: Rp 1,500,000 + 6 × Rp 170,000 = Rp 2,520,000. Gap: Rp 5,000,000 − Rp 2,520,000 = Rp 2,480,000. The number sets the size of the change needed, and tells you whether one lever is enough or three are required.",
      "id": "Perkiraan kalau tidak ada yang berubah: Rp 1.500.000 + 6 × Rp 170.000 = Rp 2.520.000. Kesenjangan: Rp 5.000.000 − Rp 2.520.000 = Rp 2.480.000. Angka ini menentukan seberapa besar perubahan yang dibutuhkan, dan memberi tahu apakah satu tuas sudah cukup atau perlu tiga."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "Farhan must close a gap of Rp 2,400,000 in six months. The three reasons in his hypothesis pyramid add up to Rp 1,500,000. What does that tell him?",
+     "id": "Farhan harus menutup kesenjangan Rp 2.400.000 dalam enam bulan. Tiga alasan di piramida hipotesisnya berjumlah Rp 1.500.000. Apa artinya?"
+    },
+    "opts": [
+     {
+      "en": "The plan is good enough, since most of the gap is covered",
+      "id": "Rencananya sudah cukup baik, karena sebagian besar kesenjangan tertutup"
+     },
+     {
+      "en": "The goal was wrong and should be dropped",
+      "id": "Tujuannya keliru dan sebaiknya ditinggalkan"
+     },
+     {
+      "en": "He should start anyway and hope the rest appears",
+      "id": "Sebaiknya ia mulai saja dan berharap sisanya muncul sendiri"
+     },
+     {
+      "en": "There is no plan yet: the reasons must add up to the conclusion, so he needs another lever or a bigger one",
+      "id": "Rencananya belum ada: alasan-alasannya harus menjumlah ke kesimpulan, jadi ia butuh satu tuas lagi atau tuas yang lebih besar"
+     }
+    ],
+    "correct": 3,
+    "expl": {
+     "en": "A pyramid is only as good as its arithmetic. If the reasons do not add up to the conclusion, you do not have a plan yet. After the sums work, each reason still has to be checked with data.",
+     "id": "Piramida hanya sebaik hitungannya. Jika alasan-alasannya tidak menjumlah ke kesimpulan, kamu belum punya rencana. Setelah hitungannya cocok, setiap alasan masih harus diperiksa dengan data."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "Dewi's goal is to improve her speaking. On a plain list of pros and cons, an evening course wins because it is cheaper and near her home. What is the better method?",
+     "id": "Tujuan Dewi adalah memperbaiki kemampuan berbicaranya. Pada daftar untung-rugi biasa, kursus malam menang karena lebih murah dan dekat rumah. Metode apa yang lebih baik?"
+    },
+    "opts": [
+     {
+      "en": "Choose whichever option has the longer list of pros",
+      "id": "Memilih opsi yang daftar untungnya paling panjang"
+     },
+     {
+      "en": "List the criteria that come from the goal, weight them, and score each option against them with evidence",
+      "id": "Mendaftar kriteria yang datang dari tujuan, memberinya bobot, lalu menilai setiap opsi terhadap kriteria itu dengan bukti"
+     },
+     {
+      "en": "Ask friends to vote",
+      "id": "Meminta teman-teman memilih lewat suara terbanyak"
+     },
+     {
+      "en": "Take the cheaper option, since cost is the only thing she can measure",
+      "id": "Mengambil opsi yang lebih murah, karena hanya biaya yang bisa ia ukur"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Criteria come from the goal, and weights come from the criteria. In the film, speaking practice weighs most, fitting her work hours comes second and cost third, and the online tutor wins 16 to 11. The moment cost outweighs speaking practice, the goal has quietly changed.",
+     "id": "Kriteria datang dari tujuan, dan bobot datang dari kriteria. Di film, latihan berbicara berbobot paling besar, kecocokan dengan jam kerja di urutan kedua, dan biaya ketiga, sehingga tutor daring menang 16 lawan 11. Begitu biaya lebih berat daripada latihan berbicara, tujuannya diam-diam sudah berubah."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "Nadia is about to choose an internship because “a famous company is the best place to grow”. How should she treat that sentence?",
+     "id": "Nadia hampir memilih sebuah tempat magang karena “perusahaan terkenal adalah tempat terbaik untuk berkembang”. Bagaimana sebaiknya ia memperlakukan kalimat itu?"
+    },
+    "opts": [
+     {
+      "en": "As an assumption to test: ask someone who has interned there whether it was true for them",
+      "id": "Sebagai asumsi yang perlu diuji: tanyakan kepada orang yang pernah magang di sana apakah itu benar bagi mereka"
+     },
+     {
+      "en": "As a fact, because most people believe it",
+      "id": "Sebagai fakta, karena kebanyakan orang meyakininya"
+     },
+     {
+      "en": "As a reason to stop comparing options",
+      "id": "Sebagai alasan untuk berhenti membandingkan pilihan"
+     },
+     {
+      "en": "As something to think about alone for another week",
+      "id": "Sebagai hal yang perlu dipikirkan sendirian seminggu lagi"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "Before you commit, challenge your own conclusion: ask people who have done it, test the assumption that would change the answer if it were false, and look for the option nobody listed. One conversation often gives a fact that a week of worrying never does.",
+     "id": "Sebelum berkomitmen, tantang kesimpulanmu sendiri: tanya orang yang sudah menjalaninya, uji asumsi yang akan mengubah jawabannya jika ternyata keliru, dan cari opsi yang tak ada di daftar. Satu percakapan sering memberi fakta yang tak didapat dari seminggu mencemaskan."
     }
    },
    {
@@ -1561,25 +1561,25 @@ window.MT_ASSESS['the-map'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "Write your Module 3 problem-solving brief on one real challenge you face now (academic, personal or professional), in four parts. (1) Define: a SMART problem question, plus the Problem Statement Worksheet in five lines (context, stakeholders, constraints, scope, criteria for success). (2) Structure and prioritise: a two-level issue tree with no overlaps and no gaps, and the two sub-issues you would analyse first, with their impact and feasibility. (3) Plan: one work-plan row for each of the two (hypothesis, analysis, source of insight, end product, timing, owner) and the result that would kill the hypothesis. (4) Recommend and check: the synthesis (“so what”) you expect to write, the recommendation stated as actionable and appropriate (owner, buy-in, timeline), and one debiasing check (a pre-mortem or a challenger session) you will run before committing. If the challenge is a goal rather than something broken, add the gap arithmetic from 3.3.",
-    "id": "Tulis ringkasan pemecahan masalah Modul 3 tentang satu tantangan nyata yang sedang kamu hadapi (akademik, pribadi, atau profesional) dalam empat bagian. (1) Definisikan: pertanyaan masalah yang SMART, ditambah Lembar Kerja Pernyataan Masalah dalam lima baris (konteks, pemangku kepentingan, batasan, cakupan, kriteria keberhasilan). (2) Susun struktur dan prioritaskan: pohon isu dua tingkat tanpa tumpang tindih dan tanpa celah, serta dua sub-isu yang akan kamu analisis lebih dulu, lengkap dengan dampak dan kelayakannya. (3) Rencanakan: satu baris rencana kerja untuk masing-masing dari keduanya (hipotesis, analisis, sumber insight, hasil akhir, waktu, penanggung jawab) dan hasil yang akan mematahkan hipotesisnya. (4) Rekomendasikan dan periksa: sintesis (\"lalu kenapa\") yang kamu perkirakan akan kamu tulis, rekomendasi yang dirumuskan agar bisa dijalankan dan sesuai (penanggung jawab, dukungan, jadwal), dan satu pengecekan untuk mengurangi bias (pre-mortem atau sesi penantang) yang akan kamu jalankan sebelum memutuskan. Kalau tantangannya berupa tujuan dan bukan sesuatu yang rusak, tambahkan hitungan kesenjangan dari 3.3."
+    "en": "Write your Module 3 problem-solving brief on one real challenge you face now (academic, personal or professional), in four parts. (1) Define: the problem as a gap (current state, desired state, obstacle), and as one sharp question with a number and a date. (2) Structure: a two-level logic tree with no gaps and no overlaps, and the branch you believe is the bottleneck. (3) Diagnose and plan: your hypothesis with a number in it, the one analysis that would settle it and the result that would prove you wrong; then two actions sorted by impact and ease, each with an owner and a date. (4) Check: one assumption you will test, and one person who has done this before whom you will ask before you commit. If the challenge is a goal rather than something broken, write the goal with what, by when and conditions, and add the gap arithmetic from 3.3.",
+    "id": "Tulis ringkasan pemecahan masalah Modul 3 untuk satu tantangan nyata yang sedang kamu hadapi (akademik, pribadi, atau profesional) dalam empat bagian. (1) Rumuskan: masalahnya sebagai kesenjangan (kondisi sekarang, kondisi yang diinginkan, hambatan), dan sebagai satu pertanyaan tajam yang punya angka dan tanggal. (2) Susun: pohon logika dua tingkat tanpa celah dan tanpa tumpang tindih, serta cabang yang kamu yakini sebagai sumbatannya. (3) Diagnosis dan rencana: hipotesismu dengan angka di dalamnya, satu analisis yang bisa memastikannya dan hasil yang akan membuktikan kamu keliru; lalu dua tindakan yang dipilah menurut dampak dan kemudahan, masing-masing dengan penanggung jawab dan tanggal. (4) Cek: satu asumsi yang akan kamu uji, dan satu orang yang sudah pernah menjalaninya yang akan kamu tanyai sebelum berkomitmen. Jika tantangannya berupa tujuan, bukan sesuatu yang rusak, tulis tujuannya dengan apa, kapan, dan syarat, lalu tambahkan hitungan kesenjangan dari 3.3."
    },
    "guide": [
     {
-     "en": "The problem question passes all five SMART tests, and the desired state is a number with a date, not a feeling.",
-     "id": "Pertanyaan masalahnya lolos kelima uji SMART, dan keadaan yang diinginkan berupa angka dengan tanggal, bukan perasaan."
+     "en": "The desired state is a number with a date, not a feeling, and the question stays open about the solution.",
+     "id": "Kondisi yang diinginkan berupa angka dengan tanggal, bukan perasaan, dan pertanyaannya tidak mengunci solusi."
     },
     {
-     "en": "The first level of the tree is MECE (no “other” bucket), and every branch could be handed to a different person.",
-     "id": "Tingkat pertama pohonnya MECE (tanpa keranjang \"lainnya\"), dan setiap cabang bisa diserahkan kepada orang yang berbeda."
+     "en": "The first level of the tree has no “other” branch, and every branch could be handed to a different person.",
+     "id": "Tingkat pertama pohonnya tidak punya cabang “lain-lain”, dan setiap cabang bisa diserahkan kepada orang yang berbeda."
     },
     {
-     "en": "Each work-plan row names the evidence that would change your mind, and has an owner and a date.",
-     "id": "Setiap baris rencana kerja menyebutkan bukti yang akan mengubah pikiranmu, serta punya penanggung jawab dan tanggal."
+     "en": "The hypothesis names the result that would change your mind, and each action has an owner and a date.",
+     "id": "Hipotesisnya menyebutkan hasil yang akan mengubah pikiranmu, dan setiap tindakan punya penanggung jawab dan tanggal."
     },
     {
-     "en": "The recommendation names who owns it, whose buy-in it needs and by when; the debiasing check is scheduled, not hoped for.",
-     "id": "Rekomendasinya menyebutkan siapa penanggung jawabnya, dukungan siapa yang dibutuhkan, dan kapan; pengecekan biasnya sudah dijadwalkan, bukan sekadar diharapkan."
+     "en": "The check is scheduled, not hoped for: it names the person and the day.",
+     "id": "Pengecekannya dijadwalkan, bukan sekadar diharapkan: ada nama orangnya dan harinya."
     }
    ],
    "min": 150
