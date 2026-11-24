@@ -32,7 +32,9 @@ Scene types: `title`, `story` (a drawn place and people, with a headline per bea
 `split` (two ideas side by side), `loop` (steps around a circle), `notes` (handwritten notes, struck out and
 rewritten), `stack` (layers), `steps` (cards in a row, in order), `quad` (two by two), `tree` (a question broken into
 branches), `funnel` (how many are left at each stage), `table` (options scored against criteria),
-`pyramid` (a conclusion on its reasons), `mail` (a message before and after), `statement`, `recap`, `end`.
+`pyramid` (a conclusion on its reasons), `mail` (a message before and after), `wave` (effort and rest over time),
+`talk` (two people, what they say, and the move each line makes), `roots` (tools above the ground, fundamentals under it),
+`statement`, `recap`, `end`.
 Mark the words that carry the point with `*asterisks*`.
 `"quiet": true` on a scene keeps its lines out of the lower third, for scenes whose words are already large on screen.
 

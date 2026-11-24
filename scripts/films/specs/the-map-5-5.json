@@ -1,0 +1,465 @@
+{
+  "id": "map-5-5-what-lasts",
+  "product": {
+    "en": "The Map",
+    "id": "The Map"
+  },
+  "lesson": "5.5",
+  "title": {
+    "en": "What lasts: fundamentals, a learning loop and change you did not choose",
+    "id": "Yang bertahan: dasar-dasar, lingkaran belajar, dan perubahan yang tidak kamu pilih"
+  },
+  "sources": "Written for this lesson from its own objectives and reading: fundamentals that outlast tools, a personal learning loop of one source, one project, one log and one defended hour, public evidence of skill, and choosing one action inside your control when a change is imposed. These are general practices of professional learning, taught here in the lesson's own words. The case and the characters are invented for this film and appear in no other course. No third-party script, footage, picture or sound.",
+  "scenes": [
+    {
+      "type": "title",
+      "hold": 4.5,
+      "kicker": {
+        "en": "The Map · Lesson 5.5",
+        "id": "The Map · Pelajaran 5.5"
+      },
+      "title": {
+        "en": "What *lasts*",
+        "id": "Yang *bertahan*"
+      },
+      "sub": {
+        "en": "Staying relevant when the tools keep changing",
+        "id": "Tetap relevan saat alat terus berganti"
+      }
+    },
+    {
+      "type": "story",
+      "set": "office",
+      "opts": {
+        "switchAt": 1,
+        "badge": {
+          "en": "NEW",
+          "id": "BARU"
+        },
+        "who": {
+          "shirt": "#d9d2c3"
+        },
+        "moods": [
+          "neutral",
+          "surprised",
+          "think"
+        ],
+        "mateMood": "neutral",
+        "leadMood": "neutral"
+      },
+      "tag": {
+        "en": "Monday morning",
+        "id": "Senin pagi"
+      },
+      "keys": [
+        {
+          "en": "A year spent *mastering one tool*.",
+          "id": "Setahun *menguasai satu alat*."
+        },
+        {
+          "en": "From March, *a new one*.",
+          "id": "Mulai Maret, *alat yang baru*."
+        },
+        {
+          "en": "“They are replacing us.” *Is that a fact?*",
+          "id": "“Kita akan digantikan.” *Apakah itu fakta?*"
+        }
+      ],
+      "say": [
+        {
+          "en": "Vina spent her first year mastering the team's reporting tool.",
+          "id": "Vina menghabiskan tahun pertamanya untuk menguasai alat pelaporan timnya."
+        },
+        {
+          "en": "On Monday morning the team hears that from March, a new AI tool will replace it.",
+          "id": "Senin pagi, tim diberi tahu bahwa mulai Maret, sebuah alat AI baru akan menggantikannya."
+        },
+        {
+          "en": "Her first thought: a year wasted. Her second: they are replacing us. Neither is a fact yet.",
+          "id": "Pikiran pertamanya: setahun terbuang. Pikiran keduanya: kita akan digantikan. Keduanya belum tentu fakta."
+        }
+      ]
+    },
+    {
+      "type": "roots",
+      "kicker": {
+        "en": "What is under the tool?",
+        "id": "Apa yang ada di bawah alat itu?"
+      },
+      "above": {
+        "en": "Above ground · tools",
+        "id": "Di atas tanah · alat"
+      },
+      "below": {
+        "en": "Below ground · fundamentals",
+        "id": "Di bawah tanah · dasar-dasar"
+      },
+      "tools": [
+        {
+          "en": "The spreadsheet",
+          "id": "Lembar kerja"
+        },
+        {
+          "en": "The dashboard",
+          "id": "Dasbor"
+        },
+        {
+          "en": "The reporting tool",
+          "id": "Alat pelaporan"
+        }
+      ],
+      "next": [
+        {
+          "en": "An AI assistant",
+          "id": "Asisten AI"
+        },
+        {
+          "en": "A new dashboard",
+          "id": "Dasbor baru"
+        },
+        {
+          "en": "The next tool",
+          "id": "Alat berikutnya"
+        }
+      ],
+      "roots": [
+        {
+          "en": "Logic",
+          "id": "Logika"
+        },
+        {
+          "en": "Statistics",
+          "id": "Statistika"
+        },
+        {
+          "en": "Clear writing",
+          "id": "Menulis jernih"
+        },
+        {
+          "en": "Judgement in your field",
+          "id": "Penilaian di bidangmu"
+        }
+      ],
+      "footAt": 3,
+      "foot": {
+        "en": "Which part *survives the tool*?",
+        "id": "Bagian mana yang *tetap berguna saat alatnya diganti*?"
+      },
+      "say": [
+        {
+          "en": "Look at what she really learned that year. Above ground are the tools: a spreadsheet, a dashboard, a reporting system.",
+          "id": "Lihat apa yang sebenarnya ia pelajari tahun itu. Di atas tanah ada alat-alatnya: lembar kerja, dasbor, sistem pelaporan."
+        },
+        {
+          "en": "Below ground are the fundamentals: logic, statistics, clear writing, and judgement about her field.",
+          "id": "Di bawah tanah ada dasar-dasarnya: logika, statistika, menulis dengan jernih, dan penilaian di bidangnya."
+        },
+        {
+          "en": "Tools are replaced every few years. The fundamentals carry over to each new one, and they compound.",
+          "id": "Alat berganti setiap beberapa tahun. Dasar-dasarnya terbawa ke setiap alat baru, dan nilainya terus berlipat."
+        },
+        {
+          "en": "So for anything you learn, ask: which part of this survives when the tool is replaced?",
+          "id": "Maka untuk apa pun yang kamu pelajari, tanyakan: bagian mana yang tetap berguna saat alatnya diganti?"
+        }
+      ]
+    },
+    {
+      "type": "loop",
+      "kicker": {
+        "en": "A small learning loop",
+        "id": "Lingkaran belajar yang kecil"
+      },
+      "centre": {
+        "en": "One hour",
+        "id": "Satu jam"
+      },
+      "centreSub": {
+        "en": "every week",
+        "id": "setiap minggu"
+      },
+      "steps": [
+        {
+          "h": {
+            "en": "One source",
+            "id": "Satu sumber"
+          },
+          "p": {
+            "en": "that you trust and really read",
+            "id": "yang kamu percaya dan sungguh kamu baca"
+          }
+        },
+        {
+          "h": {
+            "en": "One project",
+            "id": "Satu proyek"
+          },
+          "p": {
+            "en": "small, where you use it",
+            "id": "kecil, tempat kamu memakainya"
+          }
+        },
+        {
+          "h": {
+            "en": "One log",
+            "id": "Satu catatan"
+          },
+          "p": {
+            "en": "a line a week: tried, learned",
+            "id": "sebaris seminggu: dicoba, dipelajari"
+          }
+        },
+        {
+          "h": {
+            "en": "One defended hour",
+            "id": "Satu jam yang dijaga"
+          },
+          "p": {
+            "en": "in the calendar, like a meeting",
+            "id": "di kalender, seperti rapat"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "To keep the fundamentals growing, she sets up a small loop.",
+          "id": "Agar dasar-dasarnya terus tumbuh, ia menyiapkan lingkaran kecil."
+        },
+        {
+          "en": "One source she trusts and really reads.",
+          "id": "Satu sumber yang ia percaya dan sungguh ia baca."
+        },
+        {
+          "en": "One small project where she uses what she read.",
+          "id": "Satu proyek kecil tempat ia memakai apa yang ia baca."
+        },
+        {
+          "en": "One log: a line each week on what she tried and what she learned.",
+          "id": "Satu catatan: sebaris setiap minggu tentang apa yang ia coba dan apa yang ia pelajari."
+        },
+        {
+          "en": "And one defended hour a week. A logged hour beats a panic sprint every time a new tool trends.",
+          "id": "Dan satu jam yang dijaga setiap minggu. Satu jam yang tercatat mengalahkan belajar kilat karena panik setiap ada alat baru yang sedang tren."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "kicker": {
+        "en": "Where can anyone see it?",
+        "id": "Di mana orang bisa melihatnya?"
+      },
+      "cols": [
+        {
+          "en": "Skill",
+          "id": "Keterampilan"
+        },
+        {
+          "en": "Public evidence",
+          "id": "Bukti publik"
+        }
+      ],
+      "rows": [
+        {
+          "at": 0,
+          "cells": [
+            {
+              "en": "Analysis",
+              "id": "Analisis"
+            },
+            {
+              "en": "A project with the workings shown",
+              "id": "Proyek yang memperlihatkan cara kerjanya"
+            }
+          ]
+        },
+        {
+          "at": 1,
+          "cells": [
+            {
+              "en": "Writing",
+              "id": "Menulis"
+            },
+            {
+              "en": "Two published articles",
+              "id": "Dua artikel yang sudah terbit"
+            }
+          ]
+        },
+        {
+          "at": 2,
+          "sum": true,
+          "cells": [
+            {
+              "en": "Presenting",
+              "id": "Presentasi"
+            },
+            {
+              "en": "Nothing yet. *The next project.*",
+              "id": "Belum ada. *Proyek berikutnya.*"
+            }
+          ]
+        }
+      ],
+      "say": [
+        {
+          "en": "A skill nobody can see is invisible to those who could reward it. So Vina lists hers, with the public proof beside each one.",
+          "id": "Keterampilan yang tak terlihat siapa pun tidak tampak bagi orang yang bisa menghargainya. Maka Vina mendaftar keterampilannya, dengan bukti publik di samping masing-masing."
+        },
+        {
+          "en": "Analysis: a project with the workings shown. Writing: two published articles.",
+          "id": "Analisis: sebuah proyek yang memperlihatkan cara kerjanya. Menulis: dua artikel yang sudah terbit."
+        },
+        {
+          "en": "Presenting: nothing yet. That gap is her next project.",
+          "id": "Presentasi: belum ada. Celah itulah proyek berikutnya."
+        }
+      ]
+    },
+    {
+      "type": "notes",
+      "kicker": {
+        "en": "Back to Monday: fact or interpretation?",
+        "id": "Kembali ke Senin: fakta atau tafsiran?"
+      },
+      "notes": [
+        {
+          "at": 0,
+          "strikeAt": 1,
+          "label": {
+            "en": "Interpretation",
+            "id": "Tafsiran"
+          },
+          "text": {
+            "en": "They are replacing us.",
+            "id": "Kita akan digantikan."
+          }
+        },
+        {
+          "at": 1,
+          "small": true,
+          "label": {
+            "en": "Fact, then one action",
+            "id": "Fakta, lalu satu tindakan"
+          },
+          "text": {
+            "en": "The team will use the new tool from March. *My move: ask to join the pilot.*",
+            "id": "Tim akan memakai alat baru mulai Maret. *Langkahku: minta ikut uji coba.*"
+          }
+        }
+      ],
+      "say": [
+        {
+          "en": "Back to Monday. Before she reacts, Vina pauses and separates fact from interpretation. They are replacing us is an interpretation.",
+          "id": "Kembali ke Senin. Sebelum bereaksi, Vina berhenti sejenak dan memisahkan fakta dari tafsiran. Kita akan digantikan adalah tafsiran."
+        },
+        {
+          "en": "The fact is one sentence: the team will use the new tool from March.",
+          "id": "Faktanya hanya satu kalimat: tim akan memakai alat baru mulai Maret."
+        },
+        {
+          "en": "Then she chooses one action inside her control: she asks to join the pilot.",
+          "id": "Lalu ia memilih satu tindakan dalam kendalinya: ia minta ikut uji coba."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "set": "duo",
+      "opts": {
+        "who": {
+          "shirt": "#d9d2c3"
+        },
+        "mate": {
+          "hair": "hijab",
+          "scarf": "#E07A4B",
+          "shirt": "#5b7696"
+        },
+        "moods": [
+          "think",
+          "smile"
+        ],
+        "mateMoods": [
+          "down",
+          "think"
+        ]
+      },
+      "tag": {
+        "en": "With a doubtful senior",
+        "id": "Bersama senior yang ragu"
+      },
+      "keys": [
+        {
+          "en": "“The last new system failed too.”",
+          "id": "“Sistem baru yang lalu juga gagal.”"
+        },
+        {
+          "en": "Ask *before you push*.",
+          "id": "Bertanyalah *sebelum mendorong*."
+        }
+      ],
+      "say": [
+        {
+          "en": "A senior colleague says the last new system failed too. Vina does not argue. She asks: what went wrong that time?",
+          "id": "Seorang senior berkata sistem baru yang lalu juga gagal. Vina tidak membantah. Ia bertanya: waktu itu kendalanya di mana, Mbak?"
+        },
+        {
+          "en": "Questions bring the real concern to the surface. People accept a change more readily when they have had a voice in it.",
+          "id": "Pertanyaan memunculkan kekhawatiran yang sebenarnya. Orang lebih mudah menerima perubahan ketika mereka diberi suara."
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "quiet": true,
+      "kicker": {
+        "en": "In two lines",
+        "id": "Dalam dua kalimat"
+      },
+      "points": [
+        {
+          "en": "Tools expire. *Fundamentals compound.*",
+          "id": "Alat kedaluwarsa. *Dasar-dasar terus berlipat nilainya.*"
+        },
+        {
+          "en": "One logged hour a week beats *a panic sprint*.",
+          "id": "Satu jam tercatat seminggu mengalahkan *belajar kilat karena panik*."
+        }
+      ],
+      "turnLabel": {
+        "en": "Your turn.",
+        "id": "Giliranmu."
+      },
+      "turn": {
+        "en": "Name one fundamental in your field, and one place where you will show it publicly.",
+        "id": "Sebut satu dasar di bidangmu, dan satu tempat untuk menunjukkannya secara publik."
+      },
+      "say": [
+        {
+          "en": "Tools expire. Fundamentals compound.",
+          "id": "Alat kedaluwarsa. Dasar-dasar terus berlipat nilainya."
+        },
+        {
+          "en": "One logged hour a week beats a panic sprint.",
+          "id": "Satu jam tercatat seminggu mengalahkan belajar kilat karena panik."
+        },
+        {
+          "en": "Now it is your turn. Name one fundamental in your field, and one place where you will show it publicly.",
+          "id": "Sekarang giliranmu. Sebut satu dasar di bidangmu, dan satu tempat untuk menunjukkannya secara publik."
+        }
+      ]
+    },
+    {
+      "type": "end",
+      "hold": 3.5,
+      "title": {
+        "en": "The Map",
+        "id": "The Map"
+      },
+      "sub": {
+        "en": "An original Metanoia Labs learning film · © 2026 Metanoia Labs",
+        "id": "Film pembelajaran orisinal Metanoia Labs · © 2026 Metanoia Labs"
+      }
+    }
+  ]
+}
