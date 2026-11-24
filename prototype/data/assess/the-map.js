@@ -2240,8 +2240,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Stres, Pemulihan, dan Keterampilan Mental di Bawah Tekanan"
     },
     "sub": {
-     "en": "Stressor vs stress, completing the cycle, control and the tool, values, defusion",
-     "id": "Pemicu stres dan stres, menuntaskan siklus stres, kendali dan alatnya, nilai, defusi"
+     "en": "Stressor vs stress, the cool-down, control and the tool, values, defusion",
+     "id": "Pemicu stres dan stres, pendinginan, kendali dan alatnya, nilai, defusi"
     }
    },
    {
@@ -2284,8 +2284,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Bekerja dengan AI: Literasi, Penilaian, dan Penggunaan yang Bertanggung Jawab"
     },
     "sub": {
-     "en": "Tasks not titles, the jagged frontier, three gates, CEK-5, responsible use",
-     "id": "Tugas, bukan jabatan; batas yang bergerigi; tiga gerbang; CEK-5; penggunaan yang bertanggung jawab"
+     "en": "Tasks not titles, the uneven edge, three gates, CEK-5, responsible use",
+     "id": "Tugas, bukan jabatan; batas yang tidak rata; tiga gerbang; CEK-5; penggunaan yang bertanggung jawab"
     }
    },
    {
@@ -2534,8 +2534,8 @@ window.MT_ASSESS['the-map'] = {
       "id": "Mendaftar hal-hal yang berjalan baik"
      },
      {
-      "en": "Completing the stress cycle with a body-based activity such as a walk or slow-exhale breathing",
-      "id": "Menuntaskan siklus stres dengan aktivitas yang melibatkan tubuh, seperti jalan kaki atau napas dengan embusan panjang"
+      "en": "A cool-down that uses the body, such as a walk or slow-exhale breathing",
+      "id": "Pendinginan yang melibatkan tubuh, seperti jalan kaki atau napas dengan embusan panjang"
      },
      {
       "en": "Starting the next task to use the energy",
