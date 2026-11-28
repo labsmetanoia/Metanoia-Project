@@ -14,8 +14,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Adaptabilitas dan Ketangguhan"
     },
     "sub": {
-     "en": "Two muscles, the recovery loop, and the three drivers: learn, grow, thrive.",
-     "id": "Dua otot, putaran pemulihan, dan tiga pendorong: belajar, berkembang, bertumbuh."
+     "en": "Two muscles, the two ways to get it wrong, and the recovery loop.",
+     "id": "Dua otot, dua cara keliru, dan putaran pemulihan."
     }
    },
    {
@@ -25,8 +25,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Niat Belajar"
     },
     "sub": {
-     "en": "Learning intention versus performance goal, and an intention with a number and a date.",
-     "id": "Niat belajar lawan target kinerja, dan niat yang punya angka serta tanggal."
+     "en": "An intention with a number and a date, a time budget you can defend, the Sunday signal, and learning intention versus performance goal.",
+     "id": "Niat yang punya angka dan tanggal, jatah waktu yang bisa dijaga, tanda hari Minggu, serta niat belajar lawan target kinerja."
     }
    },
    {
@@ -36,8 +36,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Pola Pikir Dasar"
     },
     "sub": {
-     "en": "Mindsets as belief filters, the APR shift, concern versus influence, honest self-assessment.",
-     "id": "Pola pikir sebagai saringan keyakinan, pergeseran lewat APR, kekhawatiran lawan kendali, dan penilaian diri yang jujur."
+     "en": "Ability as a variable, rewriting a verdict, concern versus control, honest self-assessment.",
+     "id": "Kemampuan sebagai variabel, menulis ulang vonis, kekhawatiran lawan kendali, dan penilaian diri yang jujur."
     }
    }
   ],
@@ -105,42 +105,42 @@ window.MT_ASSESS['the-map'] = {
     }
    },
    {
-    "type": "know",
+    "type": "scen",
     "lesson": "1.1",
     "q": {
-     "en": "The Adaptability and Resilience slides name three major drivers: Learn, Grow, Thrive. What does the first driver, active learning, ask you to do?",
-     "id": "Slide Adaptabilitas dan Ketangguhan menyebut tiga pendorong utama: Belajar, Berkembang, Bertumbuh. Apa yang diminta pendorong pertama, belajar secara aktif?"
+     "en": "A graduate rewrites his whole job-search plan every week and has not finished one application in a month. In the lesson's terms, what is happening?",
+     "id": "Seorang lulusan baru menulis ulang seluruh rencana pencarian kerjanya setiap minggu dan dalam sebulan belum menuntaskan satu lamaran pun. Menurut pelajaran ini, apa yang sedang terjadi?"
     },
     "opts": [
      {
-      "en": "Wait until pressure eases before learning anything new",
-      "id": "Menunggu sampai tekanan mereda sebelum mempelajari hal baru"
+      "en": "He is resilient but not adaptive: the effort is high and the method never changes",
+      "id": "Ia tangguh tetapi tidak adaptif: usahanya besar, caranya tidak pernah berubah"
      },
      {
-      "en": "Set learning intentions and develop positive learning habits, especially in times of change",
-      "id": "Menetapkan niat belajar dan membangun kebiasaan belajar yang positif, terutama di masa perubahan"
+      "en": "He has no talent for job hunting",
+      "id": "Ia memang tidak berbakat mencari kerja"
      },
      {
-      "en": "Copy the routines of the most successful person you know",
-      "id": "Meniru rutinitas orang paling sukses yang kamu kenal"
+      "en": "He is adaptive but not resilient: the method keeps changing and the energy to finish is never recovered",
+      "id": "Ia adaptif tetapi tidak tangguh: caranya terus berganti, sementara energi untuk menuntaskan tidak pernah dipulihkan"
      },
      {
-      "en": "Focus only on skills your current role already requires",
-      "id": "Fokus hanya pada keterampilan yang sudah dibutuhkan peranmu sekarang"
+      "en": "Nothing is wrong: changing plans often is what adaptability means",
+      "id": "Tidak ada yang salah: sering mengganti rencana memang arti adaptabilitas"
      }
     ],
-    "correct": 1,
+    "correct": 2,
     "expl": {
-     "en": "Change, uncertainty and pressure make learning difficult, and those are precisely the moments when learning matters most. Active learning means going in with an intention and building the habits that keep it going; the Learning Intention deck in 1.2 is where that starts.",
-     "id": "Perubahan, ketidakpastian, dan tekanan membuat belajar jadi sulit, padahal justru di saat-saat itulah belajar paling penting. Belajar secara aktif berarti memulai dengan niat dan membangun kebiasaan yang menjaganya. Dek Niat Belajar di Pelajaran 1.2 adalah titik awalnya."
+     "en": "Adaptability is a decision about method; resilience is a discipline about energy. Hopping between methods without recovering is the second way to get it wrong. The strongest pattern is to change the method quickly and recover the energy deliberately.",
+     "id": "Adaptabilitas adalah keputusan soal cara; ketangguhan adalah disiplin soal energi. Gonta-ganti cara tanpa sempat pulih adalah cara keliru yang kedua. Pola paling kuat adalah mengganti cara dengan cepat dan memulihkan energi dengan sengaja."
     }
    },
    {
     "type": "know",
     "lesson": "1.2",
     "q": {
-     "en": "According to the Learning Intention slides, when should you choose a learning intention rather than a performance goal?",
-     "id": "Menurut slide Niat Belajar, kapan sebaiknya kamu memilih niat belajar alih-alih target kinerja?"
+     "en": "When does the lesson suggest a learning intention rather than a performance goal?",
+     "id": "Menurut pelajaran ini, kapan sebaiknya kamu memilih niat belajar alih-alih target kinerja?"
     },
     "opts": [
      {
@@ -162,8 +162,8 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Learning intentions prioritise the learning experience itself and suit new skills; performance goals suit skills you already have. Choosing the wrong one is the trap the deck warns about: a performance goal on an untrained skill produces avoidance, not growth.",
-     "id": "Niat belajar mengutamakan pengalaman belajar itu sendiri dan cocok untuk keterampilan baru, sedangkan target kinerja cocok untuk keterampilan yang sudah kamu kuasai. Salah memilih adalah jebakan yang diingatkan dek itu: target kinerja untuk keterampilan yang belum terlatih justru membuat orang menghindar, bukan bertumbuh."
+     "en": "A learning intention puts the focus on the process and suits a skill that is new to you; a performance goal suits a skill you already have. A performance goal on an untrained skill tends to produce avoidance, not growth.",
+     "id": "Niat belajar menaruh fokus pada proses dan cocok untuk keterampilan yang masih baru bagimu, sedangkan target kinerja cocok untuk keterampilan yang sudah kamu kuasai. Target kinerja untuk keterampilan yang belum terlatih cenderung membuat orang menghindar, bukan bertumbuh."
     }
    },
    {
@@ -198,96 +198,96 @@ window.MT_ASSESS['the-map'] = {
     }
    },
    {
-    "type": "know",
+    "type": "scen",
     "lesson": "1.2",
     "q": {
-     "en": "The film “Link it to meaning” and the slides both make one argument about why intentions hold. What is it?",
-     "id": "Film “Hubungkan dengan makna” dan slide-slidenya sama-sama menyampaikan satu argumen tentang kenapa niat bisa bertahan. Apa argumennya?"
+     "en": "Dimas plans “ten hours a week, starting Monday”, with nothing blocked in his calendar. What does the lesson say about a time budget like this?",
+     "id": "Dimas berencana “sepuluh jam seminggu, mulai Senin”, tanpa satu pun blok di kalendernya. Apa kata pelajaran ini tentang jatah waktu seperti itu?"
     },
     "opts": [
      {
-      "en": "An intention holds when it is linked to something that matters beyond the task (what it unlocks for you, your family, your team)",
-      "id": "Niat bertahan saat terhubung dengan sesuatu yang penting di luar tugas itu sendiri (apa yang terbuka bagimu, keluargamu, timmu)"
+      "en": "A modest budget he can defend in the calendar beats an ambitious one that exists only in his head",
+      "id": "Jatah sederhana yang bisa ia jaga di kalender mengalahkan jatah ambisius yang hanya ada di kepalanya"
      },
      {
-      "en": "An intention holds when it is ambitious enough to impress others",
-      "id": "Niat bertahan saat cukup ambisius untuk membuat orang lain terkesan"
+      "en": "Ten hours is too few; serious learners plan twenty",
+      "id": "Sepuluh jam terlalu sedikit; pembelajar serius merencanakan dua puluh"
      },
      {
-      "en": "An intention holds when it is kept secret",
-      "id": "Niat bertahan saat dirahasiakan"
+      "en": "A time budget is unnecessary if the intention is strong enough",
+      "id": "Jatah waktu tidak diperlukan kalau niatnya cukup kuat"
      },
      {
-      "en": "An intention holds when it avoids any deadline",
-      "id": "Niat bertahan saat tidak punya tenggat apa pun"
+      "en": "He should wait for a quieter month before he sets one",
+      "id": "Sebaiknya ia menunggu bulan yang lebih lengang sebelum menetapkannya"
      }
     ],
     "correct": 0,
     "expl": {
-     "en": "The deck's two framing tools are “focus on the journey” and “link to meaning”. Meaning is what keeps you going when the stimulus is boring; the reflection slide asks exactly that: what would being more adaptable and resilient unlock for you and the people around you?",
-     "id": "Dua alat merumuskan niat di dek itu adalah “fokus pada prosesnya” dan “hubungkan dengan makna”. Maknalah yang membuatmu terus melangkah saat tugasnya membosankan, dan slide renungan menanyakan persis hal itu: apa yang akan terbuka bagimu dan orang-orang di sekitarmu kalau kamu lebih adaptif dan tangguh?"
+     "en": "A budget counts only when it has a slot: “three hours, Tuesday evening”, blocked and said out loud, will survive a busy week. An ambitious number with no slot is a wish, and progress that is not checked weekly quietly stops.",
+     "id": "Jatah waktu baru berarti kalau punya slot: “tiga jam, Selasa malam” yang diblok dan diucapkan terang-terangan akan bertahan di minggu yang sibuk. Angka ambisius tanpa slot hanyalah angan-angan, dan kemajuan yang tidak dicek setiap minggu akan berhenti diam-diam."
     }
    },
    {
     "type": "know",
     "lesson": "1.3",
     "q": {
-     "en": "The Mindset 101 slides define mindsets as belief filters. What do those filters shape?",
-     "id": "Slide Mindset 101 mendefinisikan pola pikir sebagai saringan keyakinan. Apa yang dibentuk oleh saringan itu?"
+     "en": "According to the lesson, how do people who treat ability as improvable behave, compared with those who treat it as fixed?",
+     "id": "Menurut pelajaran ini, bagaimana perilaku orang yang memandang kemampuan bisa ditingkatkan, dibanding orang yang menganggapnya sudah paten?"
     },
     "opts": [
      {
-      "en": "Only your mood on a given day",
-      "id": "Hanya suasana hatimu di hari tertentu"
+      "en": "They avoid difficult tasks to protect their confidence",
+      "id": "Mereka menghindari tugas sulit demi menjaga rasa percaya diri"
      },
      {
-      "en": "What you perceive, how you feel, and how you behave, and therefore your results",
-      "id": "Apa yang kamu tangkap, apa yang kamu rasakan, dan bagaimana kamu bertindak, sehingga juga hasilmu"
+      "en": "They choose harder tasks, persist longer and recover faster from failure",
+      "id": "Mereka lebih berani memilih tugas sulit, lebih tekun, dan lebih cepat bangkit dari kegagalan"
      },
      {
-      "en": "Your IQ, which cannot be changed",
-      "id": "IQ-mu, yang tidak bisa diubah"
+      "en": "They rely on talent and practise less",
+      "id": "Mereka mengandalkan bakat dan lebih jarang berlatih"
      },
      {
-      "en": "Other people's opinions of you",
-      "id": "Pendapat orang lain tentang dirimu"
+      "en": "They rate themselves highly in every self-assessment",
+      "id": "Mereka memberi nilai tinggi pada diri sendiri di setiap penilaian"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Mindsets sit between you and a constantly changing reality. The same situation, seen through a limiting filter (“this task will be tedious”) or an empowering one (“this is a chance to build the skill”), produces dramatically different behaviour; the slide's before-and-after examples show exactly that.",
-     "id": "Pola pikir berada di antara dirimu dan kenyataan yang terus berubah. Situasi yang sama, kalau dilihat lewat saringan yang membatasi (“tugas ini bakal membosankan”) atau saringan yang memberdayakan (“ini kesempatan membangun keterampilan”), menghasilkan perilaku yang jauh berbeda. Contoh sebelum dan sesudah di slide itu menunjukkan persis hal tersebut."
+     "en": "This is what research on learning keeps finding. You do not need the label; you need the working habit: when you hear a verdict such as “I'm not a numbers person”, rewrite it with a method in it.",
+     "id": "Inilah yang terus ditemukan riset tentang belajar. Kamu tidak butuh labelnya; yang kamu butuhkan adalah kebiasaan kerjanya: setiap kali mendengar vonis seperti “aku memang tidak jago angka”, tulis ulang dengan menyisipkan sebuah cara."
     }
    },
    {
     "type": "scen",
     "lesson": "1.3",
     "q": {
-     "en": "Before a group presentation you catch yourself thinking “I can't speak in public.” Using the APR technique from the films and the Practising APR slides, what is the right sequence?",
-     "id": "Sebelum presentasi kelompok, kamu memergoki dirimu berpikir “aku tidak bisa bicara di depan umum.” Dengan teknik APR dari film dan slide Mempraktikkan APR, urutan mana yang tepat?"
+     "en": "Before a group presentation you catch yourself thinking “I can't speak in public.” What does the lesson ask you to do with that sentence?",
+     "id": "Sebelum presentasi kelompok, kamu memergoki dirimu berpikir “aku tidak bisa bicara di depan umum.” Apa yang diminta pelajaran ini untuk kamu lakukan pada kalimat itu?"
     },
     "opts": [
      {
-      "en": "Avoid, Postpone, Rehearse: ask to present next week instead",
-      "id": "Avoid, Postpone, Rehearse: minta presentasi minggu depan saja"
+      "en": "Avoid it: ask to present next week instead",
+      "id": "Hindari: minta presentasi minggu depan saja"
      },
      {
-      "en": "Awareness, Pause, Reframe: notice the limiting thought, take a breath, and rewrite it with a method: “I haven't rehearsed a talk more than once yet”",
-      "id": "Awareness, Pause, Reframe: sadari pikiran yang membatasi, tarik napas, lalu tulis ulang dengan menyisipkan cara: “aku belum pernah gladi presentasi lebih dari sekali”"
+      "en": "Rewrite it with a method in it: “I haven't rehearsed a talk more than once yet”, and name where you will train it",
+      "id": "Tulis ulang dengan menyisipkan cara: “aku belum pernah gladi presentasi lebih dari sekali”, lalu sebutkan di mana kamu akan melatihnya"
      },
      {
-      "en": "Accept, Persist, Repeat: push through and say it anyway",
-      "id": "Accept, Persist, Repeat: paksakan saja dan tetap bicara"
+      "en": "Replace it with praise: “I am a brilliant speaker”",
+      "id": "Ganti dengan pujian: “aku pembicara yang hebat”"
      },
      {
-      "en": "Analyse, Plan, Report: write a page about why you feel this way",
-      "id": "Analyse, Plan, Report: tulis satu halaman tentang kenapa kamu merasa begitu"
+      "en": "Analyse it: write a page about why you feel this way",
+      "id": "Analisis: tulis satu halaman tentang kenapa kamu merasa begitu"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "APR is Awareness–Pause–Reframe. The reframe is not positive thinking; it is accurate thinking: “untrained” is a different state from “unable”, and the rewritten sentence contains a to-do item instead of a verdict.",
-     "id": "APR adalah Awareness–Pause–Reframe. Membingkai ulang bukan berpikir positif, melainkan berpikir akurat: “belum terlatih” adalah keadaan yang berbeda dari “tidak mampu”, dan kalimat yang ditulis ulang berisi daftar kerja, bukan vonis."
+     "en": "The rewrite is not positive thinking; it is accurate thinking. “Untrained” is a different state from “unable”, and the rewritten sentence contains a to-do item instead of a verdict.",
+     "id": "Tulisan ulang ini bukan berpikir positif, melainkan berpikir akurat. “Belum terlatih” adalah keadaan yang berbeda dari “tidak mampu”, dan kalimat yang ditulis ulang berisi daftar kerja, bukan vonis."
     }
    },
    {
@@ -389,8 +389,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Cara Pandang Membentuk Hasilmu"
     },
     "sub": {
-     "en": "Principles, paradigms, practices; effectiveness over efficiency; the maturity sequence.",
-     "id": "Prinsip, paradigma, praktik; efektivitas di atas efisiensi; urutan kematangan."
+     "en": "Principles, paradigms and practices; why copied habits fade; the maturity sequence.",
+     "id": "Prinsip, paradigma, dan praktik; kenapa kebiasaan tiruan memudar; urutan kematangan."
     }
    },
    {
@@ -400,8 +400,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Rasa Memiliki: Bertindak di Dalam Kendalimu"
     },
     "sub": {
-     "en": "The stimulus–response gap, proactive language, the Circle of Influence, and the habit loop.",
-     "id": "Celah stimulus–respons, bahasa proaktif, Lingkaran Pengaruh, dan habit loop."
+     "en": "The stimulus–response gap, ownership language, initiative inside the control zone, and cue, routine, reward.",
+     "id": "Celah stimulus–respons, bahasa rasa memiliki, inisiatif di dalam zona kendali, serta pemicu, rutinitas, imbalan."
     }
    },
    {
@@ -411,8 +411,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Merancang Hasil Akhir Lebih Dulu"
     },
     "sub": {
-     "en": "First and second creation, a mission statement, and a 3-year outcome you can reverse-plan from.",
-     "id": "Penciptaan pertama dan kedua, pernyataan misi, dan hasil 3 tahun yang bisa direncanakan mundur."
+     "en": "The design stage, a mission sentence, and a 3-year outcome you can reverse-plan from.",
+     "id": "Tahap rancangan, kalimat misi, dan hasil 3 tahun yang bisa direncanakan mundur."
     }
    },
    {
@@ -422,8 +422,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Melindungi yang Penting dari yang Mendesak"
     },
     "sub": {
-     "en": "The Time Matrix, Big Rocks and weekly planning, the graceful no, and the moment of choice.",
-     "id": "Matriks Waktu, Batu Besar dan perencanaan mingguan, menolak dengan santun, dan saat harus memilih."
+     "en": "The urgent × important matrix, the weekly preview, and the graceful no.",
+     "id": "Matriks mendesak × penting, tinjauan mingguan, dan menolak dengan santun."
     }
    }
   ],
@@ -455,8 +455,8 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 0,
     "expl": {
-     "en": "Most self-improvement fails because it edits practices while leaving the paradigm untouched, like taping a new destination label onto an old map. The slides say it the same way: to make significant changes, work on your paradigms, and align them with principles.",
-     "id": "Kebanyakan upaya memperbaiki diri gagal karena hanya mengutak-atik praktik sementara paradigmanya dibiarkan, seperti menempelkan label tujuan baru di atas peta lama. Slide-slidenya mengatakan hal yang sama: untuk perubahan besar, garap paradigmamu, lalu selaraskan dengan prinsip."
+     "en": "Most self-improvement fails because it edits practices while leaving the paradigm untouched, like taping a new destination label onto an old map. One shift in the paradigm changes many practices at once.",
+     "id": "Kebanyakan upaya memperbaiki diri gagal karena hanya mengutak-atik praktik sementara paradigmanya dibiarkan, seperti menempelkan label tujuan baru di atas peta lama. Satu pergeseran paradigma mengubah banyak praktik sekaligus."
     }
    },
    {
@@ -494,31 +494,31 @@ window.MT_ASSESS['the-map'] = {
     "type": "know",
     "lesson": "2.1",
     "q": {
-     "en": "The Self-Leadership Foundations slides insist the course is about effectiveness, not efficiency. How does the deck define effectiveness?",
-     "id": "Slide Fondasi Kepemimpinan Diri menegaskan bahwa kursus ini soal efektivitas, bukan efisiensi. Bagaimana dek itu mendefinisikan efektivitas?"
+     "en": "Which of these is a principle, in the lesson's sense of the word?",
+     "id": "Mana dari berikut ini yang merupakan prinsip, dalam arti yang dipakai pelajaran ini?"
     },
     "opts": [
      {
-      "en": "Getting as many things done as quickly as possible",
-      "id": "Menyelesaikan sebanyak mungkin hal secepat mungkin"
+      "en": "“Busy means productive.”",
+      "id": "“Sibuk berarti produktif.”"
      },
      {
-      "en": "Getting the results you want today in a way that yields even better results in the future",
-      "id": "Mendapatkan hasil yang kamu inginkan hari ini dengan cara yang menghasilkan hasil lebih baik lagi di masa depan"
+      "en": "Trust is built slowly and destroyed quickly",
+      "id": "Kepercayaan dibangun perlahan dan runtuh dalam sekejap"
      },
      {
-      "en": "Being recognised as successful by others",
-      "id": "Diakui sukses oleh orang lain"
+      "en": "Getting up at five every morning",
+      "id": "Bangun pukul lima setiap pagi"
      },
      {
-      "en": "Following a fixed daily method without exception",
-      "id": "Menjalankan cara harian yang tetap tanpa kecuali"
+      "en": "“My grades define my worth.”",
+      "id": "“Nilai kuliahku menentukan hargaku.”"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Efficiency is speed; effectiveness is results that compound. The goose that laid the golden eggs makes the same point: lasting results come from care and a long-term mindset, and killing the goose for today's eggs ends the future.",
-     "id": "Efisiensi adalah kecepatan; efektivitas adalah hasil yang terus berlipat. Kisah angsa yang bertelur emas menyampaikan hal yang sama: hasil yang bertahan lahir dari perawatan dan pola pikir jangka panjang, dan menyembelih angsa demi telur hari ini mengakhiri masa depannya."
+     "en": "A principle is a cause-and-effect law that works whether you believe in it or not. The first and the last options are paradigms, the lenses through which you read those laws, and getting up at five is a practice.",
+     "id": "Prinsip adalah hukum sebab-akibat yang tetap bekerja, entah kamu memercayainya atau tidak. Pilihan pertama dan terakhir adalah paradigma, yaitu lensa yang kamu pakai untuk membaca hukum-hukum itu, sedangkan bangun pukul lima adalah praktik."
     }
    },
    {
@@ -534,8 +534,8 @@ window.MT_ASSESS['the-map'] = {
       "id": "Karena pemberi kerja hanya merekrut orang yang bekerja sendirian"
      },
      {
-      "en": "Because a team of people who cannot manage themselves is not a team but a queue of emergencies; the private victory precedes the public one",
-      "id": "Karena tim yang berisi orang-orang yang tidak bisa mengelola diri sendiri bukanlah tim, melainkan antrean keadaan darurat; kemenangan pribadi datang lebih dulu daripada kemenangan publik"
+      "en": "Because a team of people who cannot manage themselves is not a team but a queue of emergencies",
+      "id": "Karena tim yang berisi orang-orang yang tidak bisa mengelola diri sendiri bukanlah tim, melainkan antrean keadaan darurat"
      },
      {
       "en": "Because leadership is a title granted by seniority",
@@ -548,39 +548,39 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Lessons 2.2 to 2.4 build the self-directed layer (your response, your direction, your priorities). Interview questions about ownership, planning and prioritisation are all probes of that layer, which is why the Stages of Maturity slides call independence a necessary foundation for interdependence.",
-     "id": "Pelajaran 2.2 sampai 2.4 membangun lapisan mengarahkan diri (responsmu, arahmu, prioritasmu). Pertanyaan wawancara tentang rasa memiliki, perencanaan, dan penentuan prioritas semuanya menguji lapisan itu, dan karena itulah slide Tahap-Tahap Kematangan menyebut kemandirian sebagai fondasi yang dibutuhkan untuk saling ketergantungan."
+     "en": "Lessons 2.2 to 2.4 build the self-directed layer (your response, your direction, your priorities). Interview questions about ownership, planning and prioritisation are all probes of that layer, and being trusted with others only becomes real once it is in place.",
+     "id": "Pelajaran 2.2 sampai 2.4 membangun lapisan mengarahkan diri (responsmu, arahmu, prioritasmu). Pertanyaan wawancara tentang rasa memiliki, perencanaan, dan penentuan prioritas semuanya menguji lapisan itu, dan tahap dipercaya bersama orang lain baru menjadi nyata setelah lapisan ini terpasang."
     }
    },
    {
     "type": "know",
     "lesson": "2.2",
     "q": {
-     "en": "Between stimulus and response there is a gap. According to the Pause and Respond slides, what makes it possible to choose inside that gap?",
-     "id": "Di antara stimulus dan respons ada sebuah celah. Menurut slide Jeda, lalu Merespons, apa yang memungkinkan kita memilih di dalam celah itu?"
+     "en": "Between stimulus and response there is a gap. Why does the lesson have you train on small stimuli, such as a sarcastic comment or a slow reply?",
+     "id": "Di antara stimulus dan respons ada sebuah celah. Kenapa pelajaran ini memintamu berlatih pada stimulus kecil, seperti komentar sinis atau balasan yang lama datang?"
     },
     "opts": [
      {
-      "en": "The four unique human gifts: self-awareness, imagination, conscience and independent will",
-      "id": "Empat anugerah khas manusia: kesadaran diri, imajinasi, hati nurani, dan kehendak bebas"
+      "en": "Because daily practice on small things is what holds when a big stimulus, such as a rejection, arrives",
+      "id": "Karena latihan harian pada hal kecil itulah yang menahanmu saat stimulus besar, seperti penolakan, datang"
      },
      {
-      "en": "A calm environment with no distractions",
-      "id": "Lingkungan yang tenang tanpa gangguan"
+      "en": "Because small stimuli are the only ones you can ever choose your response to",
+      "id": "Karena hanya pada stimulus kecil kamu bisa memilih respons"
      },
      {
-      "en": "Enough seniority to ignore the stimulus",
-      "id": "Senioritas yang cukup untuk mengabaikan stimulusnya"
+      "en": "Because big events should be handled by someone more senior",
+      "id": "Karena peristiwa besar sebaiknya ditangani orang yang lebih senior"
      },
      {
-      "en": "Luck: some people are born proactive",
-      "id": "Keberuntungan, karena sebagian orang terlahir proaktif"
+      "en": "Because small stimuli do not matter, so mistakes there are free",
+      "id": "Karena stimulus kecil tidak penting, jadi salah di sana tidak ada ruginya"
      }
     ],
     "correct": 0,
     "expl": {
-     "en": "Proactivity is the practice of noticing the gap and choosing inside it. The lesson trains it on small stimuli (a sarcastic comment, a delayed reply, a boring task), so it holds when the big ones arrive.",
-     "id": "Proaktivitas adalah kebiasaan menyadari celah itu dan memilih di dalamnya. Pelajaran ini melatihnya pada stimulus kecil (komentar sinis, balasan yang lama datang, tugas yang membosankan), supaya tetap kokoh saat stimulus besar datang."
+     "en": "Proactivity is the practice of noticing the gap and choosing inside it. The gap is easiest to see under small stimuli, so that is where you train it, long before the big ones arrive.",
+     "id": "Proaktivitas adalah kebiasaan menyadari celah itu dan memilih di dalamnya. Celah ini paling mudah terlihat pada stimulus kecil, jadi di sanalah kamu melatihnya, jauh sebelum stimulus besar datang."
     }
    },
    {
@@ -618,39 +618,39 @@ window.MT_ASSESS['the-map'] = {
     "type": "scen",
     "lesson": "2.2",
     "q": {
-     "en": "Sort these into the Circle of Influence slides' two circles: (a) the state of the economy, (b) the quality of your CV, (c) a recruiter's opinion of you, (d) the number of mock interviews you run this week.",
-     "id": "Pilah hal-hal ini ke dalam dua lingkaran di slide Lingkaran Pengaruh: (a) kondisi ekonomi, (b) kualitas CV-mu, (c) pendapat perekrut tentang dirimu, (d) jumlah simulasi wawancara yang kamu jalankan minggu ini."
+     "en": "Sort these into the two zones this module keeps using, concern and control: (a) the state of the economy, (b) the quality of your CV, (c) a recruiter's opinion of you, (d) the number of mock interviews you run this week.",
+     "id": "Pilah hal-hal ini ke dalam dua zona yang terus dipakai modul ini, kekhawatiran dan kendali: (a) kondisi ekonomi, (b) kualitas CV-mu, (c) pendapat perekrut tentang dirimu, (d) jumlah simulasi wawancara yang kamu jalankan minggu ini."
     },
     "opts": [
      {
-      "en": "Concern: a, c · Influence: b, d",
-      "id": "Kepedulian: a, c · Pengaruh: b, d"
+      "en": "Concern: a, c · Control: b, d",
+      "id": "Kekhawatiran: a, c · Kendali: b, d"
      },
      {
-      "en": "Concern: b, d · Influence: a, c",
-      "id": "Kepedulian: b, d · Pengaruh: a, c"
+      "en": "Concern: b, d · Control: a, c",
+      "id": "Kekhawatiran: b, d · Kendali: a, c"
      },
      {
-      "en": "Everything is in your Circle of Influence if you work hard enough",
-      "id": "Semuanya ada di Lingkaran Pengaruhmu kalau kamu bekerja cukup keras"
+      "en": "Everything is in your control zone if you work hard enough",
+      "id": "Semuanya ada di zona kendalimu kalau kamu bekerja cukup keras"
      },
      {
-      "en": "Everything is in your Circle of Concern; none of it can be controlled",
-      "id": "Semuanya ada di Lingkaran Kepedulianmu; tidak ada yang bisa dikendalikan"
+      "en": "Everything is in your concern zone; none of it can be controlled",
+      "id": "Semuanya ada di zona kekhawatiranmu; tidak ada yang bisa dikendalikan"
      }
     ],
     "correct": 0,
     "expl": {
-     "en": "The economy and other people's opinions are things you worry about but cannot control; your CV and your practice hours are yours. Highly effective people focus their energy on the inner circle, and, as the lesson adds, permissionless initiative inside it needs nobody's approval.",
-     "id": "Ekonomi dan pendapat orang lain adalah hal yang kamu khawatirkan tetapi tidak bisa kamu kendalikan, sedangkan CV dan jam latihanmu adalah milikmu. Orang yang sangat efektif mencurahkan energinya ke lingkaran dalam, dan seperti tambahan dari pelajaran itu, inisiatif di dalamnya tidak butuh persetujuan siapa pun."
+     "en": "The economy and other people's opinions are things you worry about but cannot move; your CV and your practice hours are yours. Inside the control zone there is always a move that needs nobody's approval.",
+     "id": "Ekonomi dan pendapat orang lain adalah hal yang kamu khawatirkan tetapi tidak bisa kamu ubah, sedangkan CV dan jam latihanmu adalah milikmu. Di dalam zona kendali selalu ada langkah yang tidak butuh persetujuan siapa pun."
     }
    },
    {
     "type": "know",
     "lesson": "2.2",
     "q": {
-     "en": "The Healthy Habits slides give one framework for turning a behaviour into a lasting habit. What are its three parts, in order?",
-     "id": "Slide Kebiasaan yang Sehat memberi satu kerangka untuk mengubah perilaku menjadi kebiasaan yang bertahan. Apa tiga bagiannya, secara berurutan?"
+     "en": "The lesson's slides name three parts that make a new response stick as a habit. What are they, in order?",
+     "id": "Slide pelajaran ini menyebut tiga bagian yang membuat respons baru melekat sebagai kebiasaan. Apa saja, secara berurutan?"
     },
     "opts": [
      {
@@ -658,8 +658,8 @@ window.MT_ASSESS['the-map'] = {
       "id": "Tujuan → tenggat → imbalan"
      },
      {
-      "en": "Cue (reminder) → routine (action) → reward (outcome)",
-      "id": "Pemicu (pengingat) → rutinitas (tindakan) → imbalan (hasil)"
+      "en": "Cue → routine → reward",
+      "id": "Pemicu → rutinitas → imbalan"
      },
      {
       "en": "Plan → execute → forget",
@@ -672,25 +672,25 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "The habit loop makes behaviour automatic so it stops costing willpower. The deck adds the honest caveat that habit formation takes roughly one to two months of consistent practice, and that unlearning old habits (cramming, multitasking) is the flip side of forming new ones.",
-     "id": "Habit loop membuat perilaku berjalan otomatis sehingga tidak lagi menguras kemauan. Dek itu juga jujur mengingatkan bahwa membentuk kebiasaan butuh sekitar satu sampai dua bulan latihan yang konsisten, dan bahwa meninggalkan kebiasaan lama (kebut semalam, mengerjakan banyak hal sekaligus) adalah sisi lain dari membangun kebiasaan baru."
+     "en": "A habit forms when something triggers it, you do it, and something pays you back. Pick one cue this week, such as the notification that usually sets you off, give it a short routine, and log it in your audit as the reward.",
+     "id": "Kebiasaan terbentuk ketika ada yang memicu, kamu melakukannya, lalu ada yang membalasnya. Pilih satu pemicu minggu ini, misalnya notifikasi yang biasanya menyulutmu, beri rutinitas singkat, lalu catat di auditmu sebagai imbalannya."
     }
    },
    {
     "type": "know",
     "lesson": "2.3",
     "q": {
-     "en": "The Designing the Outcome First slides describe two creations. What is the first creation?",
-     "id": "Slide Merancang Hasil Akhir Lebih Dulu menggambarkan dua kali penciptaan. Apa penciptaan pertama?"
+     "en": "The lesson says every outcome exists twice. What comes first?",
+     "id": "Pelajaran ini menyebut setiap hasil ada dua kali. Mana yang datang lebih dulu?"
     },
     "opts": [
      {
-      "en": "The physical result: the finished project, the job offer",
-      "id": "Hasil fisiknya: proyek yang selesai, tawaran kerja"
+      "en": "The result you live: the finished project, the job offer",
+      "id": "Hasil yang kamu jalani: proyek yang selesai, tawaran kerja"
      },
      {
-      "en": "The mental design: a clear outcome, objective and deadline defined before you act",
-      "id": "Rancangan di pikiran: hasil, sasaran, dan tenggat yang jelas dirumuskan sebelum bertindak"
+      "en": "The design you choose: an outcome defined before you act",
+      "id": "Rancangan yang kamu pilih: hasil akhir yang dirumuskan sebelum bertindak"
      },
      {
       "en": "The feedback you receive from others afterwards",
@@ -703,8 +703,8 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Begin with the end in mind: everything exists twice, first in the mind and then in the world. Careers that skip the design stage still get designed: by the inheritance script, the feed script, or whoever offers first.",
-     "id": "Mulai dengan tujuan akhir dalam pikiran: segala sesuatu tercipta dua kali, pertama di pikiran, lalu di dunia nyata. Karier yang melewatkan tahap rancangan tetap akan dirancang: oleh naskah warisan, naskah linimasa, atau siapa pun yang lebih dulu memberi tawaran."
+     "en": "A building exists on paper before it exists in concrete. Careers that skip the design stage still get designed: by the inheritance script, the feed script, or whoever offers first.",
+     "id": "Sebuah gedung sudah ada di atas kertas sebelum berdiri dalam beton. Karier yang melewatkan tahap rancangan tetap akan dirancang: oleh naskah warisan, naskah linimasa, atau siapa pun yang lebih dulu memberi tawaran."
     }
    },
    {
@@ -742,31 +742,31 @@ window.MT_ASSESS['the-map'] = {
     "type": "know",
     "lesson": "2.3",
     "q": {
-     "en": "According to the Personal Mission Statement slides, what makes a mission statement good?",
-     "id": "Menurut slide Pernyataan Misi Pribadi, apa yang membuat sebuah pernyataan misi itu baik?"
+     "en": "According to the lesson, what should a personal mission sentence name?",
+     "id": "Menurut pelajaran ini, apa yang seharusnya disebut dalam kalimat misi pribadi?"
     },
     "opts": [
      {
-      "en": "It lists the job titles you want by age thirty",
-      "id": "Memuat daftar jabatan yang kamu incar sebelum usia tiga puluh"
+      "en": "The job titles you want by age thirty",
+      "id": "Daftar jabatan yang kamu incar sebelum usia tiga puluh"
      },
      {
-      "en": "It is based on principles of effectiveness, clarifies your deepest values, gives direction, and works as a written constitution for your decisions",
-      "id": "Berpijak pada prinsip-prinsip efektivitas, memperjelas nilai-nilaimu yang terdalam, memberi arah, dan bekerja sebagai konstitusi tertulis untuk keputusan-keputusanmu"
+      "en": "A contribution, not a title: what your work makes possible for other people",
+      "id": "Kontribusi, bukan jabatan: apa yang menjadi mungkin bagi orang lain berkat pekerjaanmu"
      },
      {
-      "en": "It is long enough to cover every possible situation",
-      "id": "Cukup panjang untuk mencakup semua kemungkinan situasi"
+      "en": "Every goal you have, so that nothing is left out",
+      "id": "Semua tujuanmu, supaya tidak ada yang tertinggal"
      },
      {
-      "en": "It is written once and never revised",
-      "id": "Ditulis sekali dan tidak pernah direvisi"
+      "en": "Whatever your family expects, so that nobody is disappointed",
+      "id": "Apa pun yang diharapkan keluargamu, supaya tidak ada yang kecewa"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "A mission names contribution, not titles, and the lesson prepares you for it with three reflections: your whole life (past, present, future); the attributes of the people who influenced you most; and your own strengths, challenges and passions.",
-     "id": "Misi menyebut kontribusi, bukan jabatan. Pelajaran itu menyiapkanmu lewat tiga renungan: hidupmu secara utuh (masa lalu, masa kini, masa depan); sifat-sifat orang yang paling besar pengaruhnya padamu; serta kekuatan, tantangan, dan hal yang paling kamu gemari."
+     "en": "The design stage answers three questions: what problems you want to be trusted with, who colleagues describe when you are not in the room, and what your work makes possible for others. A mission is a compass; the 3-year outcome is its first landmark.",
+     "id": "Tahap rancangan menjawab tiga pertanyaan: masalah apa yang ingin dipercayakan orang kepadamu, orang seperti apa yang digambarkan rekan kerjamu saat kamu tidak ada di ruangan, dan apa yang menjadi mungkin bagi orang lain berkat pekerjaanmu. Misi adalah kompas, dan hasil 3 tahun adalah penanda pertamanya."
     }
    },
    {
@@ -804,8 +804,8 @@ window.MT_ASSESS['the-map'] = {
     "type": "know",
     "lesson": "2.4",
     "q": {
-     "en": "In the Time Matrix, which quadrant is highlighted as the one where careers are actually built, and why does it need defending?",
-     "id": "Di Matriks Waktu, kuadran mana yang disorot sebagai tempat karier benar-benar dibangun, dan kenapa kuadran itu perlu dilindungi?"
+     "en": "In the urgent × important matrix, which quadrant is where careers are actually built, and why does it need defending?",
+     "id": "Di matriks mendesak × penting, kuadran mana yang menjadi tempat karier benar-benar dibangun, dan kenapa kuadran itu perlu dilindungi?"
     },
     "opts": [
      {
@@ -835,8 +835,8 @@ window.MT_ASSESS['the-map'] = {
     "type": "know",
     "lesson": "2.4",
     "q": {
-     "en": "The Your Top Priorities slides give three steps to weekly planning. Which order is correct?",
-     "id": "Slide Prioritas Utamamu memberi tiga langkah perencanaan mingguan. Urutan mana yang tepat?"
+     "en": "The weekly preview has three moves. Which order is correct?",
+     "id": "Tinjauan mingguan punya tiga langkah. Urutan mana yang tepat?"
     },
     "opts": [
      {
@@ -844,8 +844,8 @@ window.MT_ASSESS['the-map'] = {
       "id": "Penuhi kalender dengan rapat → cari celah → selipkan prioritas kalau bisa"
      },
      {
-      "en": "Connect with your mission, roles and goals → schedule the Big Rocks first → organise the rest around them",
-      "id": "Hubungkan dengan misi, peran, dan tujuanmu → jadwalkan Batu Besar lebih dulu → atur sisanya di sekitarnya"
+      "en": "Review your mission and 3-year outcome → block two or three important-not-urgent sessions first → preview the known urgent items",
+      "id": "Tinjau misi dan hasil 3 tahunmu → blok dua atau tiga sesi penting-tapi-tidak-mendesak lebih dulu → pratinjau hal-hal mendesak yang sudah kamu ketahui"
      },
      {
       "en": "Clear your inbox → answer every request → plan whatever time is left",
@@ -858,39 +858,39 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "If you put the big rocks in first, the little rocks fall into place. It does not matter if not all the gravel fits; when the Big Rocks are scheduled first, the important things do not get left out. The lesson's weekly preview is the same ritual in twenty minutes.",
-     "id": "Kalau batu-batu besar dimasukkan lebih dulu, batu-batu kecil akan menemukan tempatnya sendiri. Tidak masalah kalau tidak semua kerikil muat. Selama Batu Besar dijadwalkan lebih dulu, hal-hal penting tidak akan tertinggal. Tinjauan mingguan di pelajaran itu adalah ritual yang sama dalam dua puluh menit."
+     "en": "The order matters. Schedule the important-not-urgent blocks before the deadlines fill the week, because urgent work always expands to the space available. “When there's time left” never arrives.",
+     "id": "Urutannya penting. Jadwalkan blok penting-tapi-tidak-mendesak sebelum tenggat memenuhi minggumu, karena pekerjaan mendesak selalu melebar memenuhi ruang yang tersedia. “Kalau ada sisa waktu” tidak pernah datang."
     }
    },
    {
     "type": "scen",
     "lesson": "2.4",
     "q": {
-     "en": "You promised your family tonight's dinner. As you leave, a colleague asks for help organising next month's team-building, and your boss messages about an unhappy client. Using The Moment of Choice, which reading is right?",
-     "id": "Kamu sudah berjanji hadir di makan malam keluarga malam ini. Saat kamu hendak pulang, seorang rekan minta bantuan mengatur acara team building bulan depan, dan atasanmu mengirim pesan soal klien yang tidak puas. Menurut Saat Harus Memilih, bacaan mana yang tepat?"
+     "en": "Thursday evening is blocked for certification practice. At four in the afternoon a teammate asks you to help format slides for next month's event, and your manager flags a client report due tomorrow morning. Which reading follows the lesson?",
+     "id": "Kamis malam sudah kamu blok untuk latihan sertifikasi. Pukul empat sore, seorang rekan minta bantuan merapikan slide untuk acara bulan depan, dan atasanmu mengingatkan soal laporan klien yang harus masuk besok pagi. Bacaan mana yang sesuai dengan pelajaran ini?"
     },
     "opts": [
      {
-      "en": "Everything is urgent: cancel dinner and handle both requests tonight",
-      "id": "Semuanya mendesak: batalkan makan malam dan urus kedua permintaan malam ini"
+      "en": "Everything is urgent: drop the practice and handle both tonight",
+      "id": "Semuanya mendesak: tinggalkan latihan dan kerjakan keduanya malam ini"
      },
      {
-      "en": "Dinner is the Big Rock; the team-building request is a Quadrant III distraction that can wait; the client issue may be Quadrant I: address it thoughtfully with a draft and a plan for tomorrow, and still get home",
-      "id": "Makan malam adalah Batu Besarnya. Permintaan team building adalah gangguan Kuadran III yang bisa menunggu. Masalah klien mungkin Kuadran I: tangani dengan cermat lewat draf dan rencana untuk besok, lalu tetap pulang"
+      "en": "The slides are an interruption that can wait, so they get a graceful no with an alternative. The client report is urgent and important: do it, and move the practice block to another evening this week instead of deleting it",
+      "id": "Slide itu gangguan yang bisa menunggu, jadi tolak dengan santun sambil menawarkan alternatif. Laporan klien mendesak dan penting: kerjakan, lalu pindahkan blok latihan ke malam lain di minggu ini, bukan menghapusnya"
      },
      {
-      "en": "The colleague comes first because he asked first",
+      "en": "The teammate comes first because he asked first",
       "id": "Rekan itu didahulukan karena ia yang meminta lebih dulu"
      },
      {
-      "en": "Ignore all messages until tomorrow morning",
+      "en": "Ignore every message until tomorrow morning",
       "id": "Abaikan semua pesan sampai besok pagi"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Staying true means protecting what matters most even when unexpected demands arise. The slide's course of action: communicate proactively with the colleague, and handle the client issue thoughtfully without disregarding the Big Rock.",
-     "id": "Tetap setia berarti melindungi hal yang paling penting, bahkan saat tuntutan mendadak muncul. Langkah yang disarankan slide itu: sampaikan dengan proaktif kepada rekanmu, dan tangani masalah klien dengan cermat tanpa mengabaikan Batu Besarmu."
+     "en": "Ask of each request what happens if it waits 24 hours. The slides survive the question; the report does not. Protecting important work does not mean ignoring a real deadline. It means the block is moved, not lost.",
+     "id": "Untuk setiap permintaan, tanyakan apa yang terjadi kalau ia menunggu 24 jam. Slide itu baik-baik saja; laporannya tidak. Melindungi pekerjaan penting bukan berarti mengabaikan tenggat sungguhan. Artinya bloknya dipindahkan, bukan dihilangkan."
     }
    },
    {
@@ -927,8 +927,8 @@ window.MT_ASSESS['the-map'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "Write your Module 2 design page in four parts. (1) One paradigm you hold about work that produces your least effective recurring behaviour, and what the long-run data says about it. (2) Three reactive sentences from your own vocabulary, each translated into ownership language. (3) Your mission sentence (contribution, not titles) and your 3-year outcome with its four properties (domain, level, evidence artefact, protected constraint), then one target for this semester derived from it. (4) The two or three Big Rocks you will put in next week's calendar before anything else, and the graceful no you will use to protect one of them.",
-    "id": "Tulis halaman rancangan Modul 2 dalam empat bagian. (1) Satu paradigma tentang kerja yang kamu pegang dan menghasilkan perilaku berulangmu yang paling tidak efektif, serta apa kata data jangka panjang tentangnya. (2) Tiga kalimat reaktif dari kosakatamu sendiri, masing-masing diterjemahkan ke bahasa rasa memiliki. (3) Kalimat misimu (kontribusi, bukan jabatan) dan hasil 3 tahunmu beserta empat unsurnya (ranah, level, artefak bukti, batas yang dijaga), lalu satu sasaran untuk semester ini yang diturunkan dari situ. (4) Dua atau tiga Batu Besar yang akan kamu masukkan ke kalender minggu depan sebelum hal lain, dan cara menolak dengan santun yang akan kamu pakai untuk melindungi salah satunya."
+    "en": "Write your Module 2 design page in four parts. (1) One paradigm you hold about work that produces your least effective recurring behaviour, and what the long-run data says about it. (2) Three reactive sentences from your own vocabulary, each translated into ownership language. (3) Your mission sentence (contribution, not titles) and your 3-year outcome with its four properties (domain, level, evidence artefact, protected constraint), then one target for this semester derived from it. (4) The two or three important-not-urgent blocks you will put in next week's calendar before anything else, and the graceful no you will use to protect one of them.",
+    "id": "Tulis halaman rancangan Modul 2 dalam empat bagian. (1) Satu paradigma tentang kerja yang kamu pegang dan menghasilkan perilaku berulangmu yang paling tidak efektif, serta apa kata data jangka panjang tentangnya. (2) Tiga kalimat reaktif dari kosakatamu sendiri, masing-masing diterjemahkan ke bahasa rasa memiliki. (3) Kalimat misimu (kontribusi, bukan jabatan) dan hasil 3 tahunmu beserta empat unsurnya (ranah, level, artefak bukti, batas yang dijaga), lalu satu sasaran untuk semester ini yang diturunkan dari situ. (4) Dua atau tiga blok penting-tapi-tidak-mendesak yang akan kamu masukkan ke kalender minggu depan sebelum hal lain, dan cara menolak dengan santun yang akan kamu pakai untuk melindungi salah satunya."
    },
    "guide": [
     {
@@ -944,8 +944,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Hasil 3 tahunnya harus memuat keempat unsur, kalau tidak, hasil itu tidak bisa direncanakan mundur."
     },
     {
-     "en": "Big Rocks go in the calendar with a day and a time.",
-     "id": "Batu Besar masuk ke kalender lengkap dengan hari dan jamnya."
+     "en": "The blocks go in the calendar with a day and a time.",
+     "id": "Bloknya masuk ke kalender lengkap dengan hari dan jamnya."
     }
    ],
    "min": 120

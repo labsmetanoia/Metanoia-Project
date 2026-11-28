@@ -55,8 +55,8 @@ window.MT_LMS['the-map'] = {
      "kind": "reading",
      "placeholder": false,
      "videosIntro": {
-      "en": "One short film opens the lesson: a Tuesday when two things go wrong for Laras, and what she does about each. Watch for the difference between changing her method and recovering her energy; then read on to make the method your own.",
-      "id": "Satu film singkat membuka pelajaran ini: suatu Selasa ketika dua hal berjalan buruk bagi Laras, dan apa yang ia lakukan terhadap masing-masing. Perhatikan beda antara mengubah cara dan memulihkan energi, lalu lanjutkan membaca untuk menjadikan caranya milikmu."
+      "en": "One short film follows these slides: a Tuesday when two things go wrong for Laras, and what she does about each. Watch for the difference between changing her method and recovering her energy; then read on to make the method your own.",
+      "id": "Satu film singkat menyusul slide ini: suatu Selasa ketika dua hal berjalan buruk bagi Laras, dan apa yang ia lakukan terhadap masing-masing. Perhatikan beda antara mengubah cara dan memulihkan energi, lalu lanjutkan membaca untuk menjadikan caranya milikmu."
      },
      "videosOutro": {
       "title": {
@@ -71,83 +71,6 @@ window.MT_LMS['the-map'] = {
        {
         "en": "As you read on, keep one setback of your own in mind. You will run the same loop on it before this lesson ends.",
         "id": "Sambil melanjutkan membaca, ingat satu kemunduranmu sendiri. Kamu akan menjalankan putaran yang sama sebelum pelajaran ini selesai."
-       }
-      ]
-     },
-     "material": {
-      "kicker": {
-       "en": "Read next · 6 slides",
-       "id": "Baca berikutnya · 6 slide"
-      },
-      "title": {
-       "en": "Adaptability and Resilience: Material",
-       "id": "Adaptabilitas dan Ketangguhan: Materi"
-      },
-      "intro": {
-       "en": "Now read the chapter itself. Six slides walk through what adaptability and resilience mean, why they can be developed, and the three drivers you will work with across this module. Move through them at your own pace; the slide text is available under the player.",
-       "id": "Sekarang baca bab materinya. Enam slide ini menjelaskan apa arti adaptabilitas dan ketangguhan, kenapa keduanya bisa dikembangkan, dan tiga pendorong yang akan kamu pakai sepanjang modul ini. Baca sesuai ritmemu sendiri. Teks setiap slide tersedia di bawah pemutar."
-      },
-      "base": "../../assets/lms/the-map/slides/adaptability-",
-      "slides": [
-       {
-        "title": {
-         "en": "Chapter: Adaptability and Resilience",
-         "id": "Bab: Adaptabilitas dan Ketangguhan"
-        },
-        "text": {
-         "en": "Navigate change with confidence, turn challenges into opportunities, and grow stronger through uncertainty. Embrace change. Stay open, stay curious. Build resilience. Turn setbacks into strength. Move forward. Create new opportunities. “It's not the strongest who survive, but the most adaptable.” (Often attributed to Charles Darwin; the line is in fact Leon C. Megginson’s 1963 paraphrase.)",
-         "id": "Hadapi perubahan dengan percaya diri, ubah tantangan menjadi peluang, dan tumbuh lebih kuat di tengah ketidakpastian. Terima perubahan. Tetap terbuka, tetap ingin tahu. Bangun ketangguhan. Ubah kemunduran menjadi kekuatan. Terus melangkah. Ciptakan peluang baru. “Bukan yang paling kuat yang bertahan, melainkan yang paling mampu beradaptasi.” (Kalimat ini sering dikaitkan dengan Charles Darwin, padahal sebenarnya parafrase Leon C. Megginson pada 1963.)"
-        }
-       },
-       {
-        "title": {
-         "en": "Adaptability & Resilience: what you will learn",
-         "id": "Adaptabilitas dan Ketangguhan: yang akan kamu pelajari"
-        },
-        "text": {
-         "en": "Build a resilient mindset to thrive through change and turn uncertainty into opportunity. In this course, you will learn how to: 01 Set meaningful learning intentions. Clarify what you want to achieve and why it matters, so you can learn with purpose. 02 Develop the behaviors of effective learners. Practice mindsets and habits used by high-performing, adaptable individuals. 03 Transform intentions into sustainable behaviors. Use the Habit Loop to turn good intentions into consistent actions. 04 Apply the APR Framework: navigate challenging situations with an adaptable and resilient mindset. Apply to real life: use these lessons in your everyday decisions and personal development, whether by using the APR framework to reframe your mindset when engaging with colleagues or by unlearning unhealthy habits. Create lasting change: translate learning into meaningful, lasting change in both your personal and professional life.",
-         "id": "Bangun pola pikir yang tangguh supaya kamu bisa berkembang di tengah perubahan dan mengubah ketidakpastian menjadi peluang. Di kursus ini, kamu akan belajar cara: 01 Menetapkan niat belajar yang bermakna. Perjelas apa yang ingin kamu capai dan kenapa itu penting, supaya kamu belajar dengan tujuan. 02 Mengembangkan perilaku pembelajar yang efektif. Latih pola pikir dan kebiasaan yang dipakai orang-orang berprestasi yang mudah beradaptasi. 03 Mengubah niat menjadi perilaku yang bertahan lama. Pakai Habit Loop untuk mengubah niat baik menjadi tindakan yang konsisten. 04 Menerapkan Kerangka APR: hadapi situasi sulit dengan pola pikir yang adaptif dan tangguh. Terapkan dalam kehidupan nyata: pakai pelajaran-pelajaran ini dalam keputusan sehari-hari dan pengembangan dirimu, misalnya dengan kerangka APR untuk membingkai ulang cara pandangmu saat bekerja dengan rekan, atau dengan meninggalkan kebiasaan yang tidak sehat. Ciptakan perubahan yang bertahan: ubah apa yang kamu pelajari menjadi perubahan yang nyata dan bermakna, baik dalam kehidupan pribadi maupun profesionalmu."
-        }
-       },
-       {
-        "title": {
-         "en": "Introduction to Adaptability & Resilience",
-         "id": "Pengantar Adaptabilitas dan Ketangguhan"
-        },
-        "text": {
-         "en": "We wanted to start The Map journey with the Adaptability and Resilience course because in an ever-evolving world of work, the ability to adapt has become the ultimate superpower. Being ‘ready for the future’ doesn't mean reacting to the next challenge that comes your way, but rather being prepared to meet it when it arrives. There's one tool above all others that can help you do that: adaptability. The purpose of this course is to provide you with a set of tools and suggested mindsets that will help you tackle obstacles and the times of change you may encounter as you navigate your professional and personal journey. “It's not about avoiding change, but about growing through it.”",
-         "id": "Kami sengaja memulai perjalanan The Map dengan kursus Adaptabilitas dan Ketangguhan. Di dunia kerja yang terus berubah, kemampuan beradaptasi sudah menjadi kekuatan super yang paling penting. Menjadi “siap menghadapi masa depan” bukan berarti sekadar bereaksi saat tantangan berikutnya datang, melainkan sudah siap menghadapinya ketika tantangan itu tiba. Ada satu alat yang paling bisa membantumu melakukannya: adaptabilitas. Kursus ini membekalimu dengan seperangkat alat dan cara pandang yang bisa membantumu menghadapi hambatan dan masa-masa perubahan sepanjang perjalanan profesional dan pribadimu. “Intinya bukan menghindari perubahan, melainkan bertumbuh melaluinya.”"
-        }
-       },
-       {
-        "title": {
-         "en": "Reflecting on Adaptability and Resilience",
-         "id": "Merenungkan Adaptabilitas dan Ketangguhan"
-        },
-        "text": {
-         "en": "As a working individual, you can benefit from investing in adaptability: the ability to learn efficiently and apply that learning across a variety of situations. This helps you to grow and thrive in times of change. Learn faster: absorb new knowledge and apply it effectively in real situations. Be more adaptable: adjust to different conditions and challenges. Keep growing: turn change into opportunity to develop further. You will inevitably experience ups and downs when it comes to adaptability (challenges, learning, adaptation, setbacks, growth, a stronger you). That's part of the journey. Every challenge is an opportunity to learn, adapt, and become stronger.",
-         "id": "Sebagai orang yang bekerja, kamu akan banyak diuntungkan kalau berinvestasi pada adaptabilitas, yaitu kemampuan belajar secara efisien lalu menerapkan hasil belajarnya di berbagai situasi. Kemampuan ini membantumu terus tumbuh dan berkembang di masa perubahan. Belajar lebih cepat: serap pengetahuan baru dan terapkan dengan efektif dalam situasi nyata. Lebih mudah beradaptasi: sesuaikan diri dengan kondisi dan tantangan yang berbeda-beda. Terus bertumbuh: jadikan perubahan sebagai peluang untuk berkembang lebih jauh. Dalam urusan adaptabilitas, kamu pasti akan mengalami pasang surut (tantangan, belajar, menyesuaikan diri, kemunduran, bertumbuh, lalu menjadi dirimu yang lebih kuat). Itu bagian dari perjalanannya. Setiap tantangan adalah kesempatan untuk belajar, beradaptasi, dan menjadi lebih kuat."
-        }
-       },
-       {
-        "title": {
-         "en": "Your adaptability and resilience journey",
-         "id": "Perjalanan adaptabilitas dan ketangguhanmu"
-        },
-        "text": {
-         "en": "Every day we have a chance to practice adaptability: to see challenges as opportunities, to keep going when things are hard, and to respond positively to the changes around us. You already do this. You have been learning, growing, and adapting since birth. Adaptability can be developed. Research shows that adaptability is not a trait; it is a state, which you can develop through practice. It leads to a better you. In challenging times, being adaptable and resilient reduces stress, improves relationships, helps you make better decisions, and makes your work more rewarding. There is no better time than now to continue building your resilience, like a muscle that gets stronger with time and use.",
-         "id": "Setiap hari kita punya kesempatan melatih adaptabilitas: melihat tantangan sebagai peluang, terus melangkah saat keadaan sulit, dan menanggapi perubahan di sekitar kita dengan positif. Kamu sebenarnya sudah melakukannya. Sejak lahir, kamu terus belajar, bertumbuh, dan beradaptasi. Adaptabilitas bisa dikembangkan. Riset menunjukkan bahwa adaptabilitas bukan sifat bawaan, melainkan keadaan yang bisa dikembangkan lewat latihan. Hasilnya adalah dirimu yang lebih baik. Di masa sulit, kemampuan beradaptasi dan bangkit menurunkan stres, memperbaiki hubungan, membantumu mengambil keputusan yang lebih baik, dan membuat pekerjaan terasa lebih bermakna. Tidak ada waktu yang lebih tepat daripada sekarang untuk terus membangun ketangguhanmu, seperti otot yang makin kuat seiring waktu dan pemakaian."
-        }
-       },
-       {
-        "title": {
-         "en": "Explore the three major drivers of adaptability and resilience",
-         "id": "Kenali tiga pendorong utama adaptabilitas dan ketangguhan"
-        },
-        "text": {
-         "en": "Learn › Grow › Thrive. 01 Active learning: set intentions and develop positive learning habits. Change, uncertainty and pressure make learning difficult, and yet these challenging times are precisely when it is most important to adapt and grow. The best way to maximize your learning, and your adaptability, is to be intentional about what you want to learn and to develop positive habits. Be intentional: turn challenges into learning opportunities. 02 Strengthen personal adaptability and resilience: develop awareness of your mindsets and well-being. Mindsets are more powerful than we once understood and are critical for adaptability; you can re-wire your brain with new, more resilient mindsets. As you develop that awareness, especially during challenging times, you increase your ability to make purposeful, more productive choices that help you thrive and adapt to change. Build inner strength: a more adaptable, resilient you. 03 Reinforce with purpose: link your actions to personal and organizational purpose. Intrinsic motivation is one of the most powerful fuels on your life journeys; a clear sense of personal meaning helps you cut through the noise of the world and channel your energy towards what matters most. Stay purpose-driven: turn meaning into momentum. “Greater adaptability. A more resilient you. A brighter tomorrow.”",
-         "id": "Belajar › Berkembang › Bertumbuh. 01 Belajar secara aktif: tetapkan niat dan kembangkan kebiasaan belajar yang positif. Perubahan, ketidakpastian, dan tekanan membuat belajar jadi sulit, padahal justru di masa-masa sulit inilah beradaptasi dan bertumbuh paling penting. Cara terbaik untuk memaksimalkan hasil belajar, dan adaptabilitasmu, adalah dengan sengaja menentukan apa yang ingin kamu pelajari dan membangun kebiasaan yang positif. Bersikaplah sengaja: ubah tantangan menjadi kesempatan belajar. 02 Perkuat adaptabilitas dan ketangguhan pribadimu: kenali pola pikir dan kesejahteraanmu sendiri. Pola pikir ternyata jauh lebih kuat pengaruhnya daripada yang dulu kita pahami, dan sangat penting bagi adaptabilitas. Kamu bisa melatih ulang otakmu dengan pola pikir baru yang lebih tangguh. Makin kamu menyadarinya, terutama di masa sulit, makin mampu kamu mengambil pilihan yang terarah dan lebih produktif, yang membantumu berkembang dan menyesuaikan diri dengan perubahan. Bangun kekuatan dari dalam: dirimu yang lebih adaptif dan tangguh. 03 Perkuat dengan tujuan: kaitkan tindakanmu dengan tujuan pribadi dan tujuan organisasi. Motivasi dari dalam diri adalah salah satu bahan bakar paling kuat dalam perjalanan hidupmu. Makna pribadi yang jelas membantumu menembus kebisingan dunia dan mengarahkan energimu ke hal yang paling penting. Tetap berpegang pada tujuan: ubah makna menjadi momentum. “Adaptabilitas yang lebih besar. Dirimu yang lebih tangguh. Hari esok yang lebih cerah.”"
-        }
        }
       ]
      },
@@ -355,6 +278,525 @@ window.MT_LMS['the-map'] = {
      "quote": {
       "en": "A setback processed becomes data. A setback avoided becomes fear.",
       "id": "Kemunduran yang diproses menjadi data. Kemunduran yang dihindari menjadi rasa takut."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "Two Muscles, One Loop",
+       "id": "Dua Otot, Satu Putaran"
+      },
+      "intro": {
+       "en": "Seven ideas in a few minutes. Then a short film, and the reading below turns the loop into something you run on a setback of your own.",
+       "id": "Tujuh gagasan dalam beberapa menit. Setelah itu satu film singkat, lalu bacaan di bawah mengubah putarannya menjadi sesuatu yang kamu jalankan pada kemunduranmu sendiri."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Two muscles",
+         "id": "Dua otot"
+        },
+        "points": [
+         {
+          "en": "They are two different skills. You can be strong at one and weak at the other.",
+          "id": "Keduanya keterampilan yang berbeda. Kamu bisa kuat di satu sisi dan lemah di sisi lain."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Two ways to get it wrong",
+         "id": "Dua cara keliru"
+        },
+        "points": [
+         {
+          "en": "Notice which of the two sounds more like your last hard month.",
+          "id": "Perhatikan mana dari keduanya yang lebih mirip bulan beratmu yang terakhir."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The recovery loop",
+         "id": "Putaran pemulihan"
+        },
+        "points": [
+         {
+          "en": "Run the four steps in order, after every setback.",
+          "id": "Jalankan keempat langkah secara berurutan, setiap kali tersandung."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Name it precisely",
+         "id": "Namai dengan tepat"
+        },
+        "points": [
+         {
+          "en": "Put a number in the sentence. A setback you can measure is a setback you can move.",
+          "id": "Masukkan angka ke dalam kalimatnya. Kemunduran yang bisa diukur adalah kemunduran yang bisa digeser."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Normalise with base rates",
+         "id": "Normalkan dengan angka dasar"
+        },
+        "points": [
+         {
+          "en": "Compare your result with what usually happens, not with the one friend who got in.",
+          "id": "Bandingkan hasilmu dengan yang biasanya terjadi, bukan dengan satu teman yang lolos."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Extract and book",
+         "id": "Petik dan jadwalkan"
+        },
+        "points": [
+         {
+          "en": "Doubling the volume without changing the method repeats the failure at scale.",
+          "id": "Menggandakan jumlah tanpa mengubah cara hanya mengulang kegagalan dalam skala lebih besar."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Why this opens The Map",
+         "id": "Kenapa The Map dibuka dengan ini"
+        },
+        "points": [
+         {
+          "en": "Before you map where you are going, install the mechanism that survives the trip.",
+          "id": "Sebelum memetakan tujuanmu, pasang dulu mekanisme yang akan bertahan sepanjang perjalanan."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/two-different-muscles.jpg",
+       "module": {
+        "en": "Module 1 · Self-Awareness and Personal Audit",
+        "id": "Modul 1 · Kesadaran Diri dan Audit Pribadi"
+       },
+       "lesson": {
+        "n": "1.1",
+        "title": {
+         "en": "Adaptability and Resilience",
+         "id": "Adaptabilitas dan Ketangguhan"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Adaptability changes the method; resilience protects the energy to keep going",
+         "id": "Adaptabilitas mengubah caranya; ketangguhan menjaga energi untuk terus melangkah"
+        },
+        {
+         "en": "Most graduates lean on one muscle and neglect the other",
+         "id": "Kebanyakan lulusan baru bertumpu pada satu otot dan mengabaikan yang lain"
+        },
+        {
+         "en": "Four steps turn a setback into data, in fifteen minutes on paper",
+         "id": "Empat langkah mengubah kemunduran menjadi data, dalam lima belas menit di atas kertas"
+        },
+        {
+         "en": "A precise name can be worked on; a verdict cannot",
+         "id": "Nama yang tepat bisa dikerjakan; vonis tidak"
+        },
+        {
+         "en": "Rejection is the default outcome of a funnel, not a verdict on you",
+         "id": "Penolakan adalah hasil yang wajar dari sebuah corong, bukan vonis atas dirimu"
+        },
+        {
+         "en": "One small change you control, then a date for the next attempt",
+         "id": "Satu perubahan kecil yang kamu kendalikan, lalu tanggal untuk percobaan berikutnya"
+        },
+        {
+         "en": "Everything in The Map assumes you will get things wrong and try again",
+         "id": "Semua isi The Map berangkat dari satu asumsi: kamu akan salah, lalu mencoba lagi"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Two muscles",
+          "id": "Dua otot"
+         },
+         "p": {
+          "en": "Adaptability is a decision about method. Resilience is a discipline about energy. Audit both.",
+          "id": "Adaptabilitas adalah keputusan soal cara. Ketangguhan adalah disiplin soal energi. Audit keduanya."
+         }
+        },
+        {
+         "h": {
+          "en": "Two ways to get it wrong",
+          "id": "Dua cara keliru"
+         },
+         "p": {
+          "en": "The strongest pattern sounds boring: change the method quickly, recover the energy deliberately.",
+          "id": "Pola paling kuat justru terdengar membosankan: ganti cara dengan cepat, pulihkan energi dengan sengaja."
+         }
+        },
+        {
+         "h": {
+          "en": "The recovery loop",
+          "id": "Putaran pemulihan"
+         },
+         "p": {
+          "en": "A setback processed becomes data. A setback avoided becomes fear.",
+          "id": "Kemunduran yang diproses menjadi data. Kemunduran yang dihindari menjadi rasa takut."
+         }
+        },
+        {
+         "h": {
+          "en": "Name it precisely",
+          "id": "Namai dengan tepat"
+         },
+         "p": {
+          "en": "The second sentence tells you where to start. The first one tells you to stop.",
+          "id": "Kalimat kedua memberi tahu dari mana harus mulai. Kalimat pertama menyuruhmu berhenti."
+         }
+        },
+        {
+         "h": {
+          "en": "Normalise with base rates",
+          "id": "Normalkan dengan angka dasar"
+         },
+         "p": {
+          "en": "Compare your result with what usually happens, not with the one friend who got in.",
+          "id": "Bandingkan hasilmu dengan yang biasanya terjadi, bukan dengan satu teman yang lolos."
+         }
+        },
+        {
+         "h": {
+          "en": "Extract and book",
+          "id": "Petik dan jadwalkan"
+         },
+         "p": {
+          "en": "The loop turns an emotional event into a task you can do.",
+          "id": "Putaran ini mengubah peristiwa yang emosional menjadi urusan yang bisa dikerjakan."
+         }
+        },
+        {
+         "h": {
+          "en": "Why this opens The Map",
+          "id": "Kenapa The Map dibuka dengan ini"
+         },
+         "p": {
+          "en": "Before you map where you are going, install the mechanism that survives the trip.",
+          "id": "Sebelum memetakan tujuanmu, pasang dulu mekanisme yang akan bertahan sepanjang perjalanan."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Adaptability changes the method; resilience protects the energy to keep going",
+          "id": "Adaptabilitas mengubah caranya; ketangguhan menjaga energi untuk terus melangkah"
+         },
+         "em": {
+          "en": "changes the method",
+          "id": "mengubah caranya"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "route",
+           "en": "“Is my method still working?” The willingness to drop a plan that reality has already rejected.",
+           "id": "“Apakah caraku masih berhasil?” Kesediaan melepas rencana yang sudah ditolak kenyataan.",
+           "l": {
+            "en": "Adaptability",
+            "id": "Adaptabilitas"
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "“Can I keep going while I change it?” The capacity to take a hit without losing the week.",
+           "id": "“Sanggupkah aku terus melangkah sambil mengubah caranya?” Kemampuan menerima pukulan tanpa kehilangan satu minggu penuh.",
+           "l": {
+            "en": "Resilience",
+            "id": "Ketangguhan"
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "band": {
+          "en": "Adaptability is a decision about method. Resilience is a discipline about energy. Audit both.",
+          "id": "Adaptabilitas adalah keputusan soal cara. Ketangguhan adalah disiplin soal energi. Audit keduanya."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Most graduates lean on one muscle and neglect the other",
+          "id": "Kebanyakan lulusan baru bertumpu pada satu otot dan mengabaikan yang lain"
+         },
+         "em": {
+          "en": "neglect the other",
+          "id": "mengabaikan yang lain"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "refresh",
+           "en": "The same CV, sent to twice as many companies. The effort doubles and the failing method stays.",
+           "id": "CV yang sama, dikirim ke dua kali lebih banyak perusahaan. Usahanya berlipat, cara yang gagal tetap dipakai.",
+           "l": {
+            "en": "Resilient, not adaptive",
+            "id": "Tangguh, tidak adaptif"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "bolt",
+           "en": "A new plan every week, and no energy left to finish any of them.",
+           "id": "Rencana baru setiap minggu, dan tak ada energi tersisa untuk menuntaskan satu pun.",
+           "l": {
+            "en": "Adaptive, not resilient",
+            "id": "Adaptif, tidak tangguh"
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          }
+         ],
+         "band": {
+          "en": "The strongest pattern sounds boring: change the method quickly, recover the energy deliberately.",
+          "id": "Pola paling kuat justru terdengar membosankan: ganti cara dengan cepat, pulihkan energi dengan sengaja."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Four steps turn a setback into data, in fifteen minutes on paper",
+          "id": "Empat langkah mengubah kemunduran menjadi data, dalam lima belas menit di atas kertas"
+         },
+         "em": {
+          "en": "Four steps",
+          "id": "Empat langkah"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "Name",
+           "id": "Namai",
+           "d": {
+            "en": "State the setback precisely, with numbers",
+            "id": "Sebutkan kemundurannya dengan tepat, pakai angka"
+           }
+          },
+          {
+           "icon": "scale",
+           "en": "Normalise",
+           "id": "Normalkan",
+           "d": {
+            "en": "Compare with base rates, not with ideals",
+            "id": "Bandingkan dengan angka dasar, bukan dengan kondisi ideal"
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Extract",
+           "id": "Petik",
+           "d": {
+            "en": "One adjustment that is in your hands",
+            "id": "Satu penyesuaian yang ada di tanganmu"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Next step",
+           "id": "Langkah berikutnya",
+           "d": {
+            "en": "Book the next attempt within 48 hours",
+            "id": "Jadwalkan percobaan berikutnya dalam 48 jam"
+           }
+          }
+         ],
+         "band": {
+          "en": "A setback processed becomes data. A setback avoided becomes fear.",
+          "id": "Kemunduran yang diproses menjadi data. Kemunduran yang dihindari menjadi rasa takut."
+         },
+         "img": "../../assets/bg/journey-start.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A precise name can be worked on; a verdict cannot",
+          "id": "Nama yang tepat bisa dikerjakan; vonis tidak"
+         },
+         "em": {
+          "en": "A precise name",
+          "id": "Nama yang tepat"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“I'm bad at tests.”",
+           "id": "“Aku memang payah soal tes.”",
+           "l": {
+            "en": "A verdict",
+            "id": "Vonis"
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "“I failed the numerical test at 62%.”",
+           "id": "“Aku gagal tes numerik dengan skor 62%.”",
+           "l": {
+            "en": "A precise name",
+            "id": "Nama yang tepat"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          }
+         ],
+         "band": {
+          "en": "The second sentence tells you where to start. The first one tells you to stop.",
+          "id": "Kalimat kedua memberi tahu dari mana harus mulai. Kalimat pertama menyuruhmu berhenti."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Rejection is the default outcome of a funnel, not a verdict on you",
+          "id": "Penolakan adalah hasil yang wajar dari sebuah corong, bukan vonis atas dirimu"
+         },
+         "em": {
+          "en": "the default outcome of a funnel",
+          "id": "hasil yang wajar dari sebuah corong"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "How often an outcome really happens across everyone who tries.",
+           "id": "Seberapa sering suatu hasil benar-benar terjadi pada semua orang yang mencoba.",
+           "l": {
+            "en": "Base rate",
+            "id": "Angka dasar"
+           }
+          },
+          {
+           "icon": "filter",
+           "en": "Most applicants fail most screening stages. That is how a funnel works.",
+           "id": "Sebagian besar pelamar gugur di sebagian besar tahap seleksi. Begitulah cara kerja sebuah corong.",
+           "l": {
+            "en": "The funnel",
+            "id": "Corongnya"
+           }
+          },
+          {
+           "icon": "users",
+           "en": "The first two years of any career are mostly recovery, which is why interviewers ask about it.",
+           "id": "Dua tahun pertama karier siapa pun kebanyakan berisi pemulihan, dan itulah sebabnya pewawancara menanyakannya.",
+           "l": {
+            "en": "Why employers care",
+            "id": "Kenapa pemberi kerja peduli"
+           }
+          }
+         ],
+         "img": "../../assets/bg/map.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "One small change you control, then a date for the next attempt",
+          "id": "Satu perubahan kecil yang kamu kendalikan, lalu tanggal untuk percobaan berikutnya"
+         },
+         "em": {
+          "en": "One small change",
+          "id": "Satu perubahan kecil"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "sliders",
+           "en": "Small, specific and fully in your hands: “Twenty timed numerical questions a day for a week.”",
+           "id": "Kecil, spesifik, dan sepenuhnya di tanganmu: “Dua puluh soal numerik berwaktu setiap hari selama seminggu.”",
+           "l": {
+            "en": "Extract",
+            "id": "Petik"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "Within 48 hours, while the details are fresh: “Next test booked for Thursday.”",
+           "id": "Dalam 48 jam, selagi detailnya masih segar: “Tes berikutnya dijadwalkan hari Kamis.”",
+           "l": {
+            "en": "Next step",
+            "id": "Langkah berikutnya"
+           },
+           "img": "../../assets/bg/fg-sprint-arrival.jpg"
+          }
+         ],
+         "band": {
+          "en": "The loop turns an emotional event into a task you can do.",
+          "id": "Putaran ini mengubah peristiwa yang emosional menjadi urusan yang bisa dikerjakan."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Everything in The Map assumes you will get things wrong and try again",
+          "id": "Semua isi The Map berangkat dari satu asumsi: kamu akan salah, lalu mencoba lagi"
+         },
+         "em": {
+          "en": "get things wrong and try again",
+          "id": "kamu akan salah, lalu mencoba lagi"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "clipboard",
+           "en": "The Personal Audit",
+           "id": "Audit Pribadi",
+           "d": {
+            "en": "You rate your own recovery pattern, honestly",
+            "id": "Kamu menilai pola pemulihanmu sendiri, dengan jujur"
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "The frameworks",
+           "id": "Kerangka-kerangkanya",
+           "d": {
+            "en": "Each one expects a first attempt that misses",
+            "id": "Semuanya mengandaikan percobaan pertama yang meleset"
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "briefcase",
+           "en": "The simulations",
+           "id": "Simulasinya",
+           "d": {
+            "en": "Feedback helps only if a setback feeds the system",
+            "id": "Masukan baru berguna kalau kemunduran menjadi bahan bakar sistemmu"
+           },
+           "img": "../../assets/bg/stage-activation.jpg"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
      }
     },
     {
@@ -401,10 +843,9 @@ window.MT_LMS['the-map'] = {
        "id": "Kemajuan yang tidak kamu ukur setiap minggu akan berhenti diam-diam."
       }
      ],
-     "videosPlacement": "after-material",
      "videosIntro": {
-      "en": "One short film takes the slides further: Dimas, a line he writes every January, and what changes when the sentence gets a result, a date, a time budget and a Sunday signal. Watch it, then test yourself in the knowledge check below.",
-      "id": "Satu film singkat membawa isi slide lebih jauh: Dimas, kalimat yang ia tulis setiap Januari, dan apa yang berubah ketika kalimat itu diberi hasil, tanggal, jatah waktu, dan tanda yang dicek tiap Minggu. Tonton, lalu uji dirimu di cek pemahaman di bawah."
+      "en": "One short film follows these slides: Dimas, a line he writes every January, and what changes when the sentence gets a result, a date, a time budget and a Sunday signal. Watch it, then test yourself in the knowledge check below.",
+      "id": "Satu film singkat menyusul slide ini: Dimas, kalimat yang ia tulis setiap Januari, dan apa yang berubah ketika kalimat itu diberi hasil, tanggal, jatah waktu, dan tanda yang dicek tiap Minggu. Tonton, lalu uji dirimu di cek pemahaman di bawah."
      },
      "videosOutro": {
       "title": {
@@ -442,93 +883,6 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "material": {
-      "kicker": {
-       "en": "Read · 7 slides",
-       "id": "Baca · 7 slide"
-      },
-      "title": {
-       "en": "Learning Intention: Material",
-       "id": "Niat Belajar: Materi"
-      },
-      "intro": {
-       "en": "Seven slides on why the way you frame a learning intention matters: focus on the journey, link it to meaning, and turn it into a commitment you will keep. Move through them at your own pace; the slide text is available under the player.",
-       "id": "Tujuh slide tentang kenapa cara kamu merumuskan niat belajar itu penting: fokus pada prosesnya, hubungkan dengan makna, lalu ubah menjadi komitmen yang benar-benar kamu jalani. Baca sesuai ritmemu sendiri. Teks setiap slide tersedia di bawah pemutar."
-      },
-      "base": "../../assets/lms/the-map/slides/learning-intention-",
-      "slides": [
-       {
-        "title": {
-         "en": "Learning Intention: set a clearer intention",
-         "id": "Niat Belajar: tetapkan niat yang lebih jelas"
-        },
-        "text": {
-         "en": "Set a clearer intention. Create a more meaningful learning journey. 01 Why set intentions? In a world of distractions and stimuli, setting learning intentions helps you stay focused. It improves your ability to learn and makes learning more enjoyable. A clear intention creates direction. 02 Framing our intentions: do you ever feel you are working through an endless to-do list, often losing sight of the destination and why it matters? Or that you are responding on autopilot, going through the motions, but perhaps missing opportunities to learn, grow, and adapt? You're not alone. Pause, reflect, reconnect. 03 The power of adaptable people: surprisingly, the most adaptable people are not those who set the most intentions but those who frame their intentions in the right way: it's not about more intentions, but better ones. 04 Your next step: you can frame your intentions in two specific, subtle ways to improve your ability to learn and the likelihood that you will enjoy the experience. Same learning, a brighter you. Intentional learning today. A more adaptable and fulfilled you tomorrow.",
-         "id": "Tetapkan niat yang lebih jelas. Ciptakan perjalanan belajar yang lebih bermakna. 01 Kenapa menetapkan niat? Di dunia yang penuh gangguan dan rangsangan, niat belajar membantumu tetap fokus. Niat membuatmu lebih mampu belajar dan membuat proses belajar lebih menyenangkan. Niat yang jelas memberi arah. 02 Merumuskan niat kita: pernahkah kamu merasa sedang mengerjakan daftar tugas yang tidak ada habisnya, sampai lupa ke mana tujuanmu dan kenapa tujuan itu penting? Atau merasa bekerja secara otomatis, menjalani rutinitas saja, tetapi mungkin melewatkan kesempatan untuk belajar, bertumbuh, dan beradaptasi? Kamu tidak sendirian. Berhenti sejenak, renungkan, lalu sambungkan lagi. 03 Kekuatan orang yang mudah beradaptasi: yang mengejutkan, orang yang paling mudah beradaptasi bukanlah yang paling banyak menetapkan niat, melainkan yang merumuskan niatnya dengan cara yang tepat. Intinya bukan niat yang lebih banyak, tetapi niat yang lebih baik. 04 Langkahmu berikutnya: ada dua cara merumuskan niat yang spesifik dan halus, yang bisa membuatmu lebih mampu belajar dan lebih mungkin menikmati prosesnya. Pelajarannya sama, dirimu yang lebih cerah. Belajar dengan sengaja hari ini. Dirimu yang lebih adaptif dan lebih puas esok hari."
-        }
-       },
-       {
-        "title": {
-         "en": "Framing our intentions",
-         "id": "Merumuskan niat kita"
-        },
-        "text": {
-         "en": "The way you frame your intentions shapes your learning journey. Here are two key ways to do it. 1 Focus on the journey (learning over performance): prioritize the learning experience itself by framing your desired outcome as a learning intention rather than a performance goal. Research shows that this can help people persist and expand their learning more than if they started with a performance goal. Right approach: “I want to learn how to play softball.” Wrong approach: “I want to win the softball league trophy.” 2 Link to meaning. Purpose gives energy: connect your learning experience to something personally meaningful. Research shows that personal meaning can give people a feeling of self-direction, increasing their enjoyment, interest, and excitement during learning. Right approach: “If I learn how to fix a car, I can help my friends and family if they ever run into trouble.” Wrong approach: “I don't get why I need to learn how to fix a car. I'll just take it to the repair shop when it needs fixing.” “A clearer intention today. A more meaningful learning journey tomorrow.”",
-         "id": "Cara kamu merumuskan niat membentuk perjalanan belajarmu. Ada dua cara utama untuk melakukannya. 1 Fokus pada prosesnya (belajar lebih penting daripada kinerja): utamakan pengalaman belajar itu sendiri dengan merumuskan hasil yang kamu inginkan sebagai niat belajar, bukan target kinerja. Riset menunjukkan bahwa cara ini bisa membuat orang lebih tekun dan belajar lebih luas dibandingkan kalau mereka memulai dengan target kinerja. Cara yang tepat: “Saya ingin belajar bermain softball.” Cara yang keliru: “Saya ingin memenangkan trofi liga softball.” 2 Hubungkan dengan makna. Tujuan memberi energi: kaitkan pengalaman belajarmu dengan sesuatu yang bermakna secara pribadi. Riset menunjukkan bahwa makna pribadi bisa memberi orang rasa bahwa merekalah yang menentukan arah, sehingga mereka lebih menikmati, lebih tertarik, dan lebih bersemangat selama belajar. Cara yang tepat: “Kalau saya bisa memperbaiki mobil, saya bisa membantu teman dan keluarga saat mereka mengalami masalah.” Cara yang keliru: “Saya tidak mengerti kenapa saya perlu belajar memperbaiki mobil. Kalau rusak, bawa saja ke bengkel.” “Niat yang lebih jelas hari ini. Perjalanan belajar yang lebih bermakna esok hari.”"
-        }
-       },
-       {
-        "title": {
-         "en": "Why the way you frame your learning intention matters",
-         "id": "Kenapa cara merumuskan niat belajar itu penting"
-        },
-        "text": {
-         "en": "It is easy to fall into the trap of setting performance goals, when what you really need is a learning intention. So, what is the difference? The distinction may seem subtle, but knowing when to use each can make a significant impact on your growth. Performance goals (focused on outcomes): specific targets to achieve certain numbers or results. They are helpful when you have a clear outcome in mind and already possess the skills or knowledge needed to achieve it. Examples: achieve IDR 1 billion in sales this year; obtain a CFA certification; lose 5 kg in 3 months. “Focused on the results you want to achieve within a certain timeframe.” Learning intentions (focused on the journey): most useful when it's time to build new skills and knowledge, especially when you are adapting to change or trying to do things in a new way. Examples: I want to better understand financial analysis; I want to develop my communication skills with stakeholders; I want to learn how to build healthier habits in daily life. “Focused on the learning process for continuous growth.” Choose the right intention, at the right time. Today's intention matters; it builds a bigger tomorrow.",
-         "id": "Kita mudah terjebak menetapkan target kinerja, padahal yang sebenarnya kita butuhkan adalah niat belajar. Jadi, apa bedanya? Bedanya mungkin terasa tipis, tetapi tahu kapan memakai masing-masing bisa berdampak besar pada pertumbuhanmu. Target kinerja (berfokus pada hasil): sasaran spesifik untuk mencapai angka atau hasil tertentu. Target kinerja berguna saat kamu sudah punya gambaran hasil yang jelas dan sudah memiliki keterampilan atau pengetahuan untuk mencapainya. Contoh: mencapai penjualan Rp1 miliar tahun ini; mendapatkan sertifikasi CFA; menurunkan berat badan 5 kg dalam 3 bulan. “Berfokus pada hasil yang ingin dicapai dalam jangka waktu tertentu.” Niat belajar (berfokus pada prosesnya): paling berguna saat tiba waktunya membangun keterampilan dan pengetahuan baru, terutama saat kamu sedang menyesuaikan diri dengan perubahan atau mencoba melakukan sesuatu dengan cara baru. Contoh: saya ingin lebih memahami analisis keuangan; saya ingin mengembangkan kemampuan berkomunikasi dengan pemangku kepentingan; saya ingin belajar membangun kebiasaan hidup yang lebih sehat. “Berfokus pada proses belajar untuk terus bertumbuh.” Pilih niat yang tepat, pada waktu yang tepat. Niat hari ini penting, karena niat itulah yang membangun hari esok yang lebih besar."
-        }
-       },
-       {
-        "title": {
-         "en": "Focus on the journey · Link to meaning",
-         "id": "Fokus pada prosesnya · Hubungkan dengan makna"
-        },
-        "text": {
-         "en": "01 Focus on the journey: growth comes from the process, not just the outcome. Why it matters: focusing on the journey means prioritizing the learning experience itself, not just the end result. Instead of setting a specific target, you focus on the process, on discovering new ideas, and on your growth. Key takeaway: once you know that you should set a learning intention, focusing on the journey, and linking it to personal meaning, will strengthen your intention and make the learning experience more enjoyable and sustainable. 02 Link to meaning: a deeper purpose fuels a stronger and more resilient you. Why it matters: each of your experiences of becoming more adaptable and resilient will look and feel different, in part because your motivations are different. Reflection prompt: imagine what you would like your professional and personal life to look like in the coming years. Take a moment to find the things you want to be celebrating. Consider what might be exciting and what might be hard to achieve. Try to think about it in as much detail as you can. Same learning. A farther journey. When you focus on the process and connect it to what truly matters, you unlock a more fulfilling future.",
-         "id": "01 Fokus pada prosesnya: pertumbuhan datang dari proses, bukan hanya dari hasil akhir. Kenapa ini penting: fokus pada proses berarti mengutamakan pengalaman belajar itu sendiri, bukan hanya hasil akhirnya. Alih-alih menetapkan target tertentu, kamu fokus pada prosesnya, pada menemukan ide-ide baru, dan pada pertumbuhanmu. Pesan utamanya: begitu kamu tahu bahwa yang kamu butuhkan adalah niat belajar, fokus pada prosesnya dan mengaitkannya dengan makna pribadi akan memperkuat niatmu, sekaligus membuat pengalaman belajarnya lebih menyenangkan dan lebih tahan lama. 02 Hubungkan dengan makna: tujuan yang lebih dalam membuatmu lebih kuat dan lebih tangguh. Kenapa ini penting: setiap pengalamanmu untuk menjadi lebih adaptif dan tangguh akan terlihat dan terasa berbeda, sebagian karena motivasi setiap orang berbeda. Bahan renungan: bayangkan seperti apa kehidupan profesional dan pribadimu yang kamu inginkan dalam beberapa tahun ke depan. Luangkan waktu untuk menemukan hal-hal yang ingin kamu rayakan. Pikirkan apa yang mungkin menyenangkan dan apa yang mungkin sulit dicapai. Cobalah membayangkannya sedetail mungkin. Pelajarannya sama. Perjalanannya lebih jauh. Saat kamu fokus pada prosesnya dan menghubungkannya dengan hal yang benar-benar penting, kamu membuka masa depan yang lebih memuaskan."
-        }
-       },
-       {
-        "title": {
-         "en": "Take a moment to reflect",
-         "id": "Luangkan waktu untuk merenung"
-        },
-        "text": {
-         "en": "As you consider the journey ahead, take a moment to reflect: what would it unlock for you (and your family, team, business unit or function, and your organization) if you were more adaptable and resilient? What will keep you motivated when things get hard? Personal meaning matters: it keeps you motivated to start the learning journey and continue it, even when things get tough. As you embark on any learning journey, consider how it connects to your personal meaning. Your personal meaning can actually guide the choices you make about your own learning. Your reflection space: jot down a few thoughts to make it real for you. what does a more adaptable and resilient you enable? What will keep you going when things get hard? Your growth has a ripple effect. When your learning is connected to what truly matters, you create a stronger future, for yourself and beyond.",
-         "id": "Saat memandang perjalanan di depanmu, luangkan waktu untuk merenung: apa yang akan terbuka bagimu (dan bagi keluargamu, timmu, unit bisnis atau fungsimu, dan organisasimu) kalau kamu lebih adaptif dan tangguh? Apa yang akan membuatmu tetap termotivasi saat keadaan sulit? Makna pribadi itu penting. Makna pribadi membuatmu tetap termotivasi untuk memulai perjalanan belajar dan meneruskannya, bahkan saat keadaan berat. Setiap kali memulai perjalanan belajar, pikirkan bagaimana perjalanan itu terhubung dengan makna pribadimu. Makna pribadimu bahkan bisa menuntun pilihan-pilihan yang kamu ambil tentang caramu belajar. Ruang renunganmu: tuliskan beberapa pikiran supaya terasa nyata bagimu. Apa yang bisa dilakukan oleh dirimu yang lebih adaptif dan tangguh? Apa yang akan membuatmu terus melangkah saat keadaan sulit? Pertumbuhanmu punya efek riak. Saat belajarmu terhubung dengan hal yang benar-benar penting, kamu menciptakan masa depan yang lebih kuat, untuk dirimu dan lebih dari itu."
-        }
-       },
-       {
-        "title": {
-         "en": "What's your learning intention?",
-         "id": "Apa niat belajarmu?"
-        },
-        "text": {
-         "en": "It's a fact: you will get more out of a learning experience if you go in with a clear intention. Let's set an intention for the experience ahead. To get you started, here are a few examples we have heard from others on their personal adaptability journeys. In case it sparks additional ideas, we have also included a reminder of the topics we will cover during this journey. Leadership & team development: “As a manager, I care deeply about my team as individuals and as a unit. We just adopted a new organizational structure, and many of us are working virtually. I want to help my teams continue to achieve their full potential in this new environment.” Health & personal wellbeing: “I want to live a long, healthy, happy life surrounded by the people I love, so I need to improve my ability to cope with stress in and out of the workplace.” Professional development & digital transformation: “I will set aside more time for professional development. Our industry is changing rapidly, and I want to learn about digital advances and how we can implement them in my organization.” Your turn: what's your learning intention for this journey? Take a moment to reflect and set your intention.",
-         "id": "Faktanya, kamu akan mendapat lebih banyak dari sebuah pengalaman belajar kalau kamu memulainya dengan niat yang jelas. Mari tetapkan niat untuk pengalaman di depan. Sebagai awal, berikut beberapa contoh yang kami dengar dari orang lain dalam perjalanan adaptabilitas mereka. Siapa tahu memancing ide lain, kami juga menyertakan pengingat tentang topik-topik yang akan kita bahas sepanjang perjalanan ini. Kepemimpinan dan pengembangan tim: “Sebagai atasan, saya sangat peduli pada tim saya, baik sebagai individu maupun sebagai satu kesatuan. Kami baru saja menerapkan struktur organisasi baru, dan banyak dari kami bekerja jarak jauh. Saya ingin membantu tim saya terus mencapai potensi terbaiknya di lingkungan baru ini.” Kesehatan dan kesejahteraan pribadi: “Saya ingin menjalani hidup yang panjang, sehat, dan bahagia, dikelilingi orang-orang yang saya sayangi. Karena itu, saya perlu meningkatkan kemampuan saya mengelola stres, di tempat kerja maupun di luar tempat kerja.” Pengembangan profesional dan transformasi digital: “Saya akan menyisihkan lebih banyak waktu untuk pengembangan profesional. Industri kami berubah dengan cepat, dan saya ingin mempelajari kemajuan digital dan cara menerapkannya di organisasi saya.” Giliranmu: apa niat belajarmu untuk perjalanan ini? Luangkan waktu sejenak untuk merenung dan menetapkan niatmu."
-        }
-       },
-       {
-        "title": {
-         "en": "Key takeaways",
-         "id": "Poin penting"
-        },
-        "text": {
-         "en": "Three tools to turn learning intention into meaningful progress. 01 Choosing learning intentions vs. performance goals. Use learning intentions when developing a new skill and performance goals when you already have the skill and aim to achieve something with it. 02 Focusing on the journey, not just the outcome. Use this to improve your ability to learn and enjoy the experience. 03 Connecting personal meaning to learning intentions. Use this to strengthen your commitment to achieving your learning intentions. Brain food, to explore further: “The most fundamental skill: intentional learning and the career advantage” (McKinsey Insights); “What are the benefits of learning orientation” (Psychology Today); “Intentional learning in practice: a 3x3x3 approach” (McKinsey Insights).",
-         "id": "Tiga alat untuk mengubah niat belajar menjadi kemajuan yang bermakna. 01 Memilih antara niat belajar dan target kinerja. Pakai niat belajar saat mengembangkan keterampilan baru, dan target kinerja saat kamu sudah punya keterampilannya dan ingin mencapai sesuatu dengannya. 02 Fokus pada prosesnya, bukan hanya hasilnya. Pakai ini supaya kamu lebih mampu belajar dan lebih menikmati pengalamannya. 03 Menghubungkan makna pribadi dengan niat belajar. Pakai ini untuk memperkuat komitmenmu dalam mencapai niat belajarmu. Bacaan lanjutan untuk ditelusuri: “The most fundamental skill: intentional learning and the career advantage” (McKinsey Insights); “What are the benefits of learning orientation” (Psychology Today); “Intentional learning in practice: a 3x3x3 approach” (McKinsey Insights)."
-        }
-       }
-      ]
-     },
      "checks": [
       {
        "q": {
@@ -555,7 +909,532 @@ window.MT_LMS['the-map'] = {
         "id": "Niat ini punya perilaku, frekuensi, tenggat, dan tanda mingguan. Cukup sederhana untuk dijaga, cukup konkret untuk dibuktikan."
        }
       }
-     ]
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "One Sentence",
+       "id": "Satu Kalimat"
+      },
+      "intro": {
+       "en": "Seven ideas on turning a vague ambition into one sentence you can check. Then a short film, and you write your own.",
+       "id": "Tujuh gagasan untuk mengubah ambisi yang kabur menjadi satu kalimat yang bisa kamu cek. Setelah itu satu film singkat, lalu kamu menulis kalimatmu sendiri."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "A working posture",
+         "id": "Sikap kerja"
+        },
+        "points": [
+         {
+          "en": "One sentence can answer all three questions.",
+          "id": "Satu kalimat bisa menjawab ketiga pertanyaan ini."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Adjectives or numbers",
+         "id": "Kata sifat atau angka"
+        },
+        "points": [
+         {
+          "en": "Read your own intention aloud. If nobody could check it, it is still a wish.",
+          "id": "Bacakan niatmu sendiri. Kalau tak seorang pun bisa mengeceknya, itu masih angan-angan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four parts",
+         "id": "Empat bagian"
+        },
+        "points": [
+         {
+          "en": "If one part is missing, the sentence is not finished yet.",
+          "id": "Kalau satu bagian hilang, kalimatnya belum selesai."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A budget you can defend",
+         "id": "Jatah yang bisa dijaga"
+        },
+        "points": [
+         {
+          "en": "If the hours are not in your calendar, they do not exist.",
+          "id": "Kalau jamnya tidak ada di kalendermu, jam itu tidak ada."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The Sunday signal",
+         "id": "Tanda hari Minggu"
+        },
+        "points": [
+         {
+          "en": "Two minutes on Sunday evening is enough.",
+          "id": "Dua menit di Minggu malam sudah cukup."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Learn first, perform later",
+         "id": "Belajar dulu, unjuk hasil kemudian"
+        },
+        "points": [
+         {
+          "en": "Choose the kind of goal that fits where you are with the skill.",
+          "id": "Pilih jenis tujuan yang sesuai dengan posisimu dalam keterampilan itu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Write yours",
+         "id": "Tulis punyamu"
+        },
+        "points": [
+         {
+          "en": "Twenty words and two minutes. You will reuse the sentence in every Metanoia product.",
+          "id": "Dua puluh kata dan dua menit. Kalimat ini akan kamu pakai lagi di setiap produk Metanoia."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/journey-start.jpg",
+       "module": {
+        "en": "Module 1 · Self-Awareness and Personal Audit",
+        "id": "Modul 1 · Kesadaran Diri dan Audit Pribadi"
+       },
+       "lesson": {
+        "n": "1.2",
+        "title": {
+         "en": "Learning Intention",
+         "id": "Niat Belajar"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Before any technique, decide why you are here and what you will trade for it",
+         "id": "Sebelum teknik apa pun, putuskan kenapa kamu di sini dan apa yang rela kamu tukar"
+        },
+        {
+         "en": "Intentions with a number and a date get finished; intentions with adjectives get abandoned",
+         "id": "Niat yang punya angka dan tanggal biasanya selesai; niat yang hanya berisi kata sifat biasanya ditinggalkan"
+        },
+        {
+         "en": "A working intention has four parts, and each one can be checked",
+         "id": "Niat yang bekerja punya empat bagian, dan masing-masing bisa dicek"
+        },
+        {
+         "en": "A modest, defended time budget beats an ambitious, imaginary one",
+         "id": "Jatah waktu yang sederhana tetapi dijaga mengalahkan jatah ambisius yang hanya ada di angan-angan"
+        },
+        {
+         "en": "Progress you do not measure weekly will quietly stop",
+         "id": "Kemajuan yang tidak kamu ukur setiap minggu akan berhenti diam-diam"
+        },
+        {
+         "en": "When a skill is new, aim to learn it; once you have it, aim to perform",
+         "id": "Saat sebuah keterampilan masih baru, bidik belajarnya; setelah kamu menguasainya, bidik hasilnya"
+        },
+        {
+         "en": "Write your own sentence for The Map before you move on",
+         "id": "Tulis kalimatmu sendiri untuk The Map sebelum melangkah lagi"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "A working posture",
+          "id": "Sikap kerja"
+         },
+         "p": {
+          "en": "One sentence can answer all three questions.",
+          "id": "Satu kalimat bisa menjawab ketiga pertanyaan ini."
+         }
+        },
+        {
+         "h": {
+          "en": "Adjectives or numbers",
+          "id": "Kata sifat atau angka"
+         },
+         "p": {
+          "en": "“Hard” and “more” cannot be checked. “One module” and “1 June” can.",
+          "id": "“Keras” dan “lebih” tidak bisa dicek. “Satu modul” dan “1 Juni” bisa."
+         }
+        },
+        {
+         "h": {
+          "en": "Four parts",
+          "id": "Empat bagian"
+         },
+         "p": {
+          "en": "“I'll finish one module per week until 1 June, three hours on Tuesday evenings, checked every Sunday.”",
+          "id": "“Aku akan menyelesaikan satu modul per minggu sampai 1 Juni, tiga jam setiap Selasa malam, dicek setiap hari Minggu.”"
+         }
+        },
+        {
+         "h": {
+          "en": "A budget you can defend",
+          "id": "Jatah yang bisa dijaga"
+         },
+         "p": {
+          "en": "Start with the budget you can keep in your worst week, not your best one.",
+          "id": "Mulai dari jatah yang bisa kamu jaga di minggu terburukmu, bukan minggu terbaikmu."
+         }
+        },
+        {
+         "h": {
+          "en": "The Sunday signal",
+          "id": "Tanda hari Minggu"
+         },
+         "p": {
+          "en": "Two minutes on Sunday evening is enough.",
+          "id": "Dua menit di Minggu malam sudah cukup."
+         }
+        },
+        {
+         "h": {
+          "en": "Learn first, perform later",
+          "id": "Belajar dulu, unjuk hasil kemudian"
+         },
+         "p": {
+          "en": "Research on motivation finds that learners who aim to master a skill persist longer after a setback than those who aim to prove it.",
+          "id": "Riset tentang motivasi menemukan bahwa orang yang membidik penguasaan lebih tekun setelah tersandung daripada yang membidik pembuktian."
+         }
+        },
+        {
+         "h": {
+          "en": "Write yours",
+          "id": "Tulis punyamu"
+         },
+         "p": {
+          "en": "Twenty words and two minutes. You will reuse the sentence in every Metanoia product.",
+          "id": "Dua puluh kata dan dua menit. Kalimat ini akan kamu pakai lagi di setiap produk Metanoia."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Before any technique, decide why you are here and what you will trade for it",
+          "id": "Sebelum teknik apa pun, putuskan kenapa kamu di sini dan apa yang rela kamu tukar"
+         },
+         "em": {
+          "en": "why you are here",
+          "id": "kenapa kamu di sini"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "compass",
+           "en": "Why",
+           "id": "Kenapa",
+           "d": {
+            "en": "What would this unlock for you, and for the people who count on you?",
+            "id": "Apa yang akan terbuka bagimu, dan bagi orang-orang yang mengandalkanmu?"
+           },
+           "img": "../../assets/bg/fg-stage-horizon.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Trade",
+           "id": "Tukar",
+           "d": {
+            "en": "Which hours of your week will you give to it?",
+            "id": "Jam mana dalam seminggu yang akan kamu berikan untuknya?"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Proof",
+           "id": "Bukti",
+           "d": {
+            "en": "How will you know that it is working?",
+            "id": "Bagaimana kamu tahu bahwa ini berhasil?"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Intentions with a number and a date get finished; intentions with adjectives get abandoned",
+          "id": "Niat yang punya angka dan tanggal biasanya selesai; niat yang hanya berisi kata sifat biasanya ditinggalkan"
+         },
+         "em": {
+          "en": "a number and a date",
+          "id": "angka dan tanggal"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“I'll work as hard as possible on my career.”",
+           "id": "“Aku akan berusaha sekeras mungkin untuk karierku.”",
+           "l": {
+            "en": "Adjectives",
+            "id": "Kata sifat"
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "“I'll finish one module per week until 1 June.”",
+           "id": "“Aku akan menyelesaikan satu modul per minggu sampai 1 Juni.”",
+           "l": {
+            "en": "A number and a date",
+            "id": "Angka dan tanggal"
+           },
+           "img": "../../assets/bg/fg-sprint-arrival.jpg"
+          }
+         ],
+         "band": {
+          "en": "“Hard” and “more” cannot be checked. “One module” and “1 June” can.",
+          "id": "“Keras” dan “lebih” tidak bisa dicek. “Satu modul” dan “1 Juni” bisa."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A working intention has four parts, and each one can be checked",
+          "id": "Niat yang bekerja punya empat bagian, dan masing-masing bisa dicek"
+         },
+         "em": {
+          "en": "four parts",
+          "id": "empat bagian"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "target",
+           "en": "A result",
+           "id": "Hasil",
+           "d": {
+            "en": "Something you can count",
+            "id": "Sesuatu yang bisa kamu hitung"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "A date",
+           "id": "Tanggal",
+           "d": {
+            "en": "A deadline on the calendar",
+            "id": "Tenggat di kalender"
+           }
+          },
+          {
+           "icon": "clock",
+           "en": "A time budget",
+           "id": "Jatah waktu",
+           "d": {
+            "en": "Hours per week you can defend",
+            "id": "Jam per minggu yang bisa kamu jaga"
+           }
+          },
+          {
+           "icon": "eye",
+           "en": "A Sunday signal",
+           "id": "Tanda hari Minggu",
+           "d": {
+            "en": "One thing you check every week",
+            "id": "Satu hal yang kamu cek setiap minggu"
+           }
+          }
+         ],
+         "band": {
+          "en": "“I'll finish one module per week until 1 June, three hours on Tuesday evenings, checked every Sunday.”",
+          "id": "“Aku akan menyelesaikan satu modul per minggu sampai 1 Juni, tiga jam setiap Selasa malam, dicek setiap hari Minggu.”"
+         },
+         "img": "../../assets/bg/map-hero.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A modest, defended time budget beats an ambitious, imaginary one",
+          "id": "Jatah waktu yang sederhana tetapi dijaga mengalahkan jatah ambisius yang hanya ada di angan-angan"
+         },
+         "em": {
+          "en": "modest, defended",
+          "id": "sederhana tetapi dijaga"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“Ten hours a week, starting Monday.” No slot, no day, nobody told.",
+           "id": "“Sepuluh jam seminggu, mulai Senin.” Tanpa slot, tanpa hari, tanpa ada yang diberi tahu.",
+           "l": {
+            "en": "Imaginary",
+            "id": "Angan-angan"
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          },
+          {
+           "icon": "shield",
+           "en": "“Three hours, Tuesday 19.00 to 22.00.” Blocked in the calendar and said out loud.",
+           "id": "“Tiga jam, Selasa pukul 19.00 sampai 22.00.” Diblok di kalender dan diucapkan terang-terangan.",
+           "l": {
+            "en": "Defended",
+            "id": "Dijaga"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          }
+         ],
+         "band": {
+          "en": "Start with the budget you can keep in your worst week, not your best one.",
+          "id": "Mulai dari jatah yang bisa kamu jaga di minggu terburukmu, bukan minggu terbaikmu."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Progress you do not measure weekly will quietly stop",
+          "id": "Kemajuan yang tidak kamu ukur setiap minggu akan berhenti diam-diam"
+         },
+         "em": {
+          "en": "measure weekly",
+          "id": "ukur setiap minggu"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "target",
+           "en": "Modules finished, pages written, practice tests taken: pick one and keep it.",
+           "id": "Modul yang selesai, halaman yang ditulis, tes latihan yang dikerjakan: pilih satu dan pertahankan.",
+           "l": {
+            "en": "One signal",
+            "id": "Satu tanda"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "The same day and the same hour, every week.",
+           "id": "Hari dan jam yang sama, setiap minggu.",
+           "l": {
+            "en": "One moment",
+            "id": "Satu waktu"
+           }
+          },
+          {
+           "icon": "route",
+           "en": "On track: carry on. Behind: make next week's step smaller and keep the habit.",
+           "id": "Sesuai rencana: lanjutkan. Tertinggal: perkecil langkah minggu depan dan pertahankan kebiasaannya.",
+           "l": {
+            "en": "One decision",
+            "id": "Satu keputusan"
+           }
+          }
+         ],
+         "img": "../../assets/bg/fg-sprint-positioning.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "When a skill is new, aim to learn it; once you have it, aim to perform",
+          "id": "Saat sebuah keterampilan masih baru, bidik belajarnya; setelah kamu menguasainya, bidik hasilnya"
+         },
+         "em": {
+          "en": "aim to learn it",
+          "id": "bidik belajarnya"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "book",
+           "en": "“Get fluent enough in spreadsheets to build a budget model without help.” The focus is the process.",
+           "id": "“Cukup lancar memakai spreadsheet untuk membuat model anggaran tanpa bantuan.” Fokusnya pada proses.",
+           "l": {
+            "en": "A learning intention",
+            "id": "Niat belajar"
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "“Score 80% on the spreadsheet screening test.” Useful once the skill is there.",
+           "id": "“Meraih skor 80% di tes seleksi spreadsheet.” Berguna setelah keterampilannya ada.",
+           "l": {
+            "en": "A performance goal",
+            "id": "Target kinerja"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "band": {
+          "en": "Research on motivation finds that learners who aim to master a skill persist longer after a setback than those who aim to prove it.",
+          "id": "Riset tentang motivasi menemukan bahwa orang yang membidik penguasaan lebih tekun setelah tersandung daripada yang membidik pembuktian."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Write your own sentence for The Map before you move on",
+          "id": "Tulis kalimatmu sendiri untuk The Map sebelum melangkah lagi"
+         },
+         "em": {
+          "en": "your own sentence",
+          "id": "kalimatmu sendiri"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "Draft it",
+           "id": "Tulis drafnya",
+           "d": {
+            "en": "A result, a date, weekly hours, a Sunday signal",
+            "id": "Hasil, tanggal, jam mingguan, tanda hari Minggu"
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "Block it",
+           "id": "Blok waktunya",
+           "d": {
+            "en": "Put the hours in your calendar today",
+            "id": "Masukkan jamnya ke kalender hari ini juga"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Reuse it",
+           "id": "Pakai lagi",
+           "d": {
+            "en": "The same four parts work for any course you start",
+            "id": "Empat bagian yang sama berlaku untuk kursus apa pun yang kamu mulai"
+           },
+           "img": "../../assets/bg/journey-bg.jpg"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     }
     },
     {
      "n": "1.3",
@@ -601,10 +1480,9 @@ window.MT_LMS['the-map'] = {
        "id": "Audit yang sebentar lagi kamu jalankan hanya berfungsi di setelan jujur: lembut pada orangnya, tegas pada datanya."
       }
      ],
-     "videosPlacement": "after-material:2",
      "videosIntro": {
-      "en": "One short film picks up where the slide left off: Nadia, a presentation that goes badly, and the two beliefs that decide what she does next. Watch it, then practise on your own self-talk in the slides that follow.",
-      "id": "Satu film singkat melanjutkan isi slide tadi: Nadia, presentasi yang berantakan, dan dua keyakinan yang menentukan langkahnya setelah itu. Tonton, lalu berlatihlah dengan omongan batinmu sendiri di slide berikutnya."
+      "en": "One short film follows these slides: Nadia, a presentation that goes badly, and the two beliefs that decide what she does next. Watch it, then practise on your own self-talk in the reading below.",
+      "id": "Satu film singkat menyusul slide ini: Nadia, presentasi yang berantakan, dan dua keyakinan yang menentukan langkahnya setelah itu. Tonton, lalu berlatihlah dengan omongan batinmu sendiri di bacaan di bawah."
      },
      "videos": [
       {
@@ -624,169 +1502,6 @@ window.MT_LMS['the-map'] = {
         "en": "Not a verdict: the two beliefs under every skill",
         "id": "Bukan vonis: dua keyakinan di balik setiap keterampilan"
        }
-      }
-     ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 6 slides",
-        "id": "Baca dulu · 6 slide"
-       },
-       "title": {
-        "en": "Mindset 101: Material",
-        "id": "Mindset 101: Materi"
-       },
-       "intro": {
-        "en": "Start with the deck. Six slides explain what a mindset is, which mindsets build adaptability and resilience, and how the same people get different outcomes from a different mindset: the ground the sections below build on. Move through them at your own pace; the slide text is available under the player.",
-        "id": "Mulai dari deknya. Enam slide menjelaskan apa itu pola pikir, pola pikir mana yang membangun adaptabilitas dan ketangguhan, dan bagaimana orang yang sama bisa mendapat hasil berbeda karena pola pikir yang berbeda. Inilah landasan bagi bagian-bagian di bawah. Baca sesuai ritmemu sendiri. Teks setiap slide tersedia di bawah pemutar."
-       },
-       "base": "../../assets/lms/the-map/slides/mindset-101-",
-       "slides": [
-        {
-         "title": {
-          "en": "Module: Mindset 101",
-          "id": "Modul: Mindset 101"
-         },
-         "text": {
-          "en": "Start with the right mindset, and unlock a bigger tomorrow. Understand your mindset · Build positive habits · Orient your future. The journey: 01 Mindset, 02 Growth, 03 Action, 04 Future. “Everything begins with a mindset.”",
-          "id": "Mulai dengan pola pikir yang tepat, dan buka hari esok yang lebih besar. Pahami pola pikirmu · Bangun kebiasaan positif · Arahkan masa depanmu. Perjalanannya: 01 Pola pikir, 02 Pertumbuhan, 03 Tindakan, 04 Masa depan. “Everything begins with a mindset.”"
-         }
-        },
-        {
-         "title": {
-          "en": "What are mindsets?",
-          "id": "Apa itu pola pikir?"
-         },
-         "text": {
-          "en": "Smaller beliefs, bigger possibilities. Mindsets are your belief filters between you and a constantly changing reality: they shape what you perceive, how you feel, and how you behave. Mindsets are the belief filters between you and reality. They influence what you perceive, how you feel, and how you behave. As you just saw, they are extremely powerful. In fact, they are arguably the most important thing when it comes to adaptability and resilience. Consider your own mindsets: it is true that mindsets associated with adaptability and resilience bring about many benefits, but you do not label mindsets as simply “good” or “bad”. Instead, you aim to adopt the mindset best suited to each situation. For example, circumstances might require you to be an expert or to react based mostly on your knowledge and experience. The key to adaptability is being aware of your mindset so you can make more deliberate choices. Let's build this awareness. Greater awareness, brighter tomorrows.",
-          "id": "Keyakinan kecil, kemungkinan besar. Pola pikir adalah saringan keyakinan antara dirimu dan kenyataan yang terus berubah. Saringan ini membentuk apa yang kamu tangkap, apa yang kamu rasakan, dan bagaimana kamu bertindak. Seperti yang baru saja kamu lihat, pengaruhnya sangat kuat. Bahkan bisa dibilang, pola pikir adalah hal terpenting dalam urusan adaptabilitas dan ketangguhan. Renungkan pola pikirmu sendiri. Memang benar bahwa pola pikir yang terkait dengan adaptabilitas dan ketangguhan membawa banyak manfaat, tetapi pola pikir tidak bisa dicap begitu saja sebagai “baik” atau “buruk”. Yang kita kejar adalah memakai pola pikir yang paling cocok untuk setiap situasi. Misalnya, ada keadaan yang menuntutmu tampil sebagai ahli, atau bereaksi terutama berdasarkan pengetahuan dan pengalamanmu. Kunci adaptabilitas adalah menyadari pola pikirmu, supaya kamu bisa memilih dengan lebih sengaja. Mari bangun kesadaran ini. Kesadaran yang lebih besar, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Which mindsets help build adaptability and resilience?",
-          "id": "Pola pikir mana yang membantu membangun adaptabilitas dan ketangguhan?"
-         },
-         "text": {
-          "en": "Mindsets influence how you perceive and respond to the world around you, including how you interact with others. Your perception, response, well-being, fulfillment, and performance. There are a number of mindsets that improve your well-being, sense of fulfillment, and performance. These mindsets can make your lives more vibrant. Pause and think about a moment when you operated from a mindset that was not particularly helpful. What were you thinking and feeling? How did you behave? What impact did it have on you? What was the impact on others? Reflect · Grow · Move forward. Same mindset, a different tomorrow.",
-          "id": "Pola pikir memengaruhi caramu memandang dan menanggapi dunia di sekitarmu, termasuk caramu berinteraksi dengan orang lain. Ia memengaruhi persepsimu, responsmu, kesejahteraanmu, rasa puasmu, dan kinerjamu. Ada sejumlah pola pikir yang bisa memperbaiki kesejahteraan, rasa puas, dan kinerjamu. Pola pikir seperti ini bisa membuat hidup kita lebih hidup. Berhenti sejenak, lalu ingat satu momen saat kamu bertindak dengan pola pikir yang kurang membantu. Apa yang kamu pikirkan dan rasakan saat itu? Bagaimana kamu bersikap? Apa dampaknya bagimu? Apa dampaknya bagi orang lain? Renungkan · Bertumbuh · Melangkah maju. Pola pikir yang sama, hari esok yang berbeda."
-         }
-        },
-        {
-         "title": {
-          "en": "Adopting adaptable and resilient mindsets (1/2)",
-          "id": "Memakai pola pikir yang adaptif dan tangguh (1/2)"
-         },
-         "text": {
-          "en": "Mindsets are the belief filters between you and reality. They influence what you perceive, how you feel, and how you behave. Mindsets impact your ability to learn and, ultimately, the success and satisfaction you will experience. We all have the capacity to change our mindsets and behaviors and, consequently, our outcomes, for the better. Explore some of the mindsets that are common to adaptable and resilient people. Limiting mindsets (same thinking, same outcomes) versus adaptive mindsets (brighter perspectives, bigger possibilities). Fixed: “A challenge is a test that I pass or fail, based on my inherent abilities. If I am not already good at something, I will not do well.” vs. Growth: “I can learn to do anything I want. Challenges and mistakes are opportunities for learning and development.” Expert: “I should already know the answer. I should perform during a challenge by having the answers.” vs. Curious: “I am going to ask a lot of questions, explore, and discover. I can learn a lot from trying something new.” Reactive: “I need to identify the problem and what is causing it so I can apply tested, well-practiced solutions to bring the situation under control.” vs. Creative: “I need to lead with purpose. I will empower myself and others to explore new possibilities and experiment our way to an innovative solution.”",
-          "id": "Pola pikir adalah saringan keyakinan antara dirimu dan kenyataan. Saringan ini memengaruhi apa yang kamu tangkap, apa yang kamu rasakan, dan bagaimana kamu bertindak. Pola pikir juga memengaruhi kemampuanmu belajar, dan pada akhirnya, keberhasilan serta kepuasan yang kamu alami. Kita semua mampu mengubah pola pikir dan perilaku kita, dan dengan begitu, mengubah hasil kita menjadi lebih baik. Kenali beberapa pola pikir yang umum dimiliki orang-orang yang adaptif dan tangguh. Pola pikir yang membatasi (cara berpikir sama, hasil sama) dibandingkan pola pikir yang adaptif (sudut pandang lebih cerah, kemungkinan lebih besar). Tetap (fixed): “Tantangan adalah ujian yang bisa kulewati atau gagal, tergantung kemampuan bawaanku. Kalau aku belum jago, aku tidak akan berhasil.” lawan Bertumbuh (growth): “Aku bisa belajar melakukan apa pun yang kuinginkan. Tantangan dan kesalahan adalah kesempatan untuk belajar dan berkembang.” Ahli (expert): “Aku seharusnya sudah tahu jawabannya. Saat menghadapi tantangan, aku harus tampil dengan membawa jawaban.” lawan Ingin tahu (curious): “Aku akan banyak bertanya, menjelajah, dan menemukan. Aku bisa belajar banyak dengan mencoba sesuatu yang baru.” Reaktif (reactive): “Aku perlu mengenali masalahnya dan penyebabnya, supaya bisa menerapkan solusi yang sudah teruji untuk mengendalikan keadaan.” lawan Kreatif (creative): “Aku perlu memimpin dengan tujuan. Aku akan memberdayakan diriku dan orang lain untuk menjelajahi kemungkinan baru dan bereksperimen sampai menemukan solusi yang inovatif.”"
-         }
-        },
-        {
-         "title": {
-          "en": "From limiting mindsets to empowering mindsets",
-          "id": "Dari pola pikir yang membatasi ke pola pikir yang memberdayakan"
-         },
-         "text": {
-          "en": "Different mindsets. Dramatically different outcomes. Limiting mindsets see challenges as obstacles; empowering mindsets see challenges as opportunities. Victim: “There are many factors beyond my control that affect my ability to thrive, grow, and get things done.” → Agent: “Within reason, I believe in my ability to learn new things, overcome challenges, and accomplish just about anything I put my mind to.” Scarcity: “A challenge typically involves limited resources, hard choices, and trade-offs that must be made.” → Abundance: “A challenge is typically a potential win-win situation looking to be discovered.” Certainty: “I would rather things go according to plan than take a detour that may end up better.” → Exploration: “I do not know what the future holds, so the best way to succeed is to plan ahead but be flexible and curious as I go.” Protection: “I need to prevent something bad from happening.” → Opportunity: “I could make something great happen.” New mindset, brighter tomorrow.",
-          "id": "Pola pikir yang berbeda. Hasil yang jauh berbeda. Pola pikir yang membatasi melihat tantangan sebagai hambatan, sedangkan pola pikir yang memberdayakan melihatnya sebagai peluang. Korban (victim): “Ada banyak hal di luar kendaliku yang memengaruhi kemampuanku untuk berkembang, bertumbuh, dan menyelesaikan sesuatu.” → Pelaku (agent): “Dalam batas yang wajar, aku percaya aku mampu mempelajari hal baru, mengatasi tantangan, dan mencapai hampir apa pun yang kutekuni.” Kelangkaan (scarcity): “Tantangan biasanya berarti sumber daya yang terbatas, pilihan sulit, dan pertukaran yang harus diambil.” → Kelimpahan (abundance): “Tantangan biasanya adalah peluang menang bersama yang menunggu ditemukan.” Kepastian (certainty): “Aku lebih suka semuanya berjalan sesuai rencana daripada mengambil jalan memutar, meskipun hasilnya mungkin lebih baik.” → Penjelajahan (exploration): “Aku tidak tahu apa yang akan terjadi di masa depan, jadi cara terbaik untuk berhasil adalah merencanakan ke depan sambil tetap luwes dan ingin tahu di sepanjang jalan.” Perlindungan (protection): “Aku perlu mencegah hal buruk terjadi.” → Peluang (opportunity): “Aku bisa membuat sesuatu yang hebat terjadi.” Pola pikir baru, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Same people. Different mindsets. Brighter outcomes.",
-          "id": "Orang yang sama. Pola pikir berbeda. Hasil yang lebih cerah."
-         },
-         "text": {
-          "en": "Discover how a shift in mindset can turn challenges into opportunities. Tanya, a collaborative team member who wants to contribute and grow. Before: “This task will be tedious. I need to make sure my team members understand the problem and then share what works well for me.” Reactive. What if she held a creative mindset and saw this as an opportunity to reframe the challenge as a possibility, an innovative solution waiting to be found? After: “This task will be challenging since our team hasn't worked well in the past. But I bet there is a way we can work together to come out ahead.” Abundance. This is an adaptable mindset: she recognizes that there is an opportunity for everyone to come out ahead. Key takeaway: a more open and opportunity-oriented mindset helps Tanya collaborate better and create stronger outcomes for the team. Ashley, a relatively new team member who wants to make an impact. Before: “I need to find extra time to learn more before our next meeting. I don't want to be the person who looks like they don't know enough.” Expert. What if instead she held a curious mindset and realized that she does not need to know all the answers at this point in the project? After: “As the newest team member, I can bring fresh eyes. I want to help us do a good job, bring out the best in my coworkers and come up with a great solution together.” Opportunity. This is an adaptable mindset: she recognizes that something great could come out of this and that there might be a better way to do things. Key takeaway: a curious and opportunity-seeking mindset helps Ashley learn faster and unlock better solutions with others. Matthieu, a self-driven learner who wants to build confidence with new tools. Before: “I haven't really understood this software in the past, so I doubt I will this time.” Fixed. What if he held a growth mindset and saw the challenge ahead as an opportunity to learn? After: “I don't want my lack of experience with this software to slow down the team. I've learned new things before and am excited to get up to speed on this software. I'll think of it like a new language, something I'm good at learning.” Agent. This is an adaptable mindset: he recognizes that he is capable of influencing the outcome of this situation. Key takeaway: a growth and agent mindset helps Matthieu build confidence, develop new skills, and contribute more to the team. Different mindsets, brighter possibilities.",
-          "id": "Lihat bagaimana pergeseran pola pikir bisa mengubah tantangan menjadi peluang. Tanya, anggota tim yang senang bekerja sama dan ingin berkontribusi serta berkembang. Sebelum: “Tugas ini bakal membosankan. Aku perlu memastikan anggota timku paham masalahnya, lalu membagikan cara yang biasanya berhasil untukku.” Reaktif. Bagaimana kalau ia memakai pola pikir kreatif dan melihat ini sebagai kesempatan untuk membingkai ulang tantangannya menjadi kemungkinan, sebuah solusi inovatif yang menunggu ditemukan? Sesudah: “Tugas ini bakal sulit karena tim kami dulu tidak bekerja sama dengan baik. Tapi aku yakin ada cara supaya kami bisa bekerja sama dan sama-sama unggul.” Kelimpahan. Inilah pola pikir yang adaptif: ia melihat ada peluang bagi semua orang untuk sama-sama unggul. Pelajaran utamanya: pola pikir yang lebih terbuka dan berorientasi pada peluang membantu Tanya bekerja sama lebih baik dan menghasilkan hasil yang lebih kuat bagi tim. Ashley, anggota tim yang masih cukup baru dan ingin memberi dampak. Sebelum: “Aku harus mencari waktu tambahan untuk belajar sebelum rapat berikutnya. Aku tidak mau jadi orang yang kelihatan kurang tahu.” Ahli. Bagaimana kalau ia memakai pola pikir ingin tahu dan menyadari bahwa ia tidak perlu tahu semua jawabannya di tahap proyek ini? Sesudah: “Sebagai anggota tim paling baru, aku bisa membawa sudut pandang segar. Aku ingin membantu kami bekerja dengan baik, mengeluarkan yang terbaik dari rekan-rekanku, dan bersama-sama menemukan solusi yang hebat.” Peluang. Inilah pola pikir yang adaptif: ia melihat bahwa sesuatu yang hebat bisa lahir dari situasi ini, dan mungkin ada cara yang lebih baik untuk mengerjakannya. Pelajaran utamanya: pola pikir yang ingin tahu dan mencari peluang membantu Ashley belajar lebih cepat dan menemukan solusi yang lebih baik bersama orang lain. Matthieu, pembelajar mandiri yang ingin lebih percaya diri memakai alat-alat baru. Sebelum: “Dari dulu aku tidak terlalu paham perangkat lunak ini, jadi aku ragu kali ini akan paham.” Tetap. Bagaimana kalau ia memakai pola pikir bertumbuh dan melihat tantangan di depannya sebagai kesempatan belajar? Sesudah: “Aku tidak mau kurangnya pengalamanku dengan perangkat lunak ini memperlambat tim. Aku sudah pernah mempelajari hal-hal baru, dan aku bersemangat untuk cepat menguasai perangkat lunak ini. Aku akan menganggapnya seperti bahasa baru, sesuatu yang memang cepat kupelajari.” Pelaku. Inilah pola pikir yang adaptif: ia sadar bahwa ia mampu memengaruhi hasil dari situasi ini. Pelajaran utamanya: pola pikir bertumbuh dan pola pikir pelaku membantu Matthieu membangun kepercayaan diri, mengembangkan keterampilan baru, dan berkontribusi lebih banyak bagi tim. Pola pikir berbeda, kemungkinan yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 1 slide",
-        "id": "Baca berikutnya · 1 slide"
-       },
-       "title": {
-        "en": "Shift Our Mindsets",
-        "id": "Menggeser Pola Pikir Kita"
-       },
-       "intro": {
-        "en": "One slide that sets up the films that follow: noticing a limiting mindset is only the start. You can shift it on purpose, and Awareness–Pause–Reframe is the technique for doing so.",
-        "id": "Satu slide yang menyiapkan film-film berikutnya. Menyadari pola pikir yang membatasi hanyalah awal. Kamu bisa menggesernya dengan sengaja, dan Awareness–Pause–Reframe adalah tekniknya."
-       },
-       "base": "../../assets/lms/the-map/slides/shift-mindsets-",
-       "slides": [
-        {
-         "title": {
-          "en": "How can we shift our mindsets?",
-          "id": "Bagaimana kita bisa menggeser pola pikir kita?"
-         },
-         "text": {
-          "en": "Different mindsets, brighter possibilities: limiting mindset or growth mindset. More than just recognizing when you or others are holding limiting mindsets, you have the opportunity to intentionally shift those mindsets. After this slide, we have a video that introduces “Awareness–Pause–Reframe” or APR, a technique you can use both in the moment and afterward during reflection. Stay tuned for the next video: Awareness – Pause – Reframe (APR), a simple yet powerful technique to help you shift your mindset and unlock new possibilities. Same you, a brighter you. A brighter mindset builds a brighter tomorrow.",
-          "id": "Pola pikir berbeda, kemungkinan yang lebih cerah: pola pikir yang membatasi atau pola pikir bertumbuh. Kamu tidak hanya bisa mengenali saat dirimu atau orang lain sedang memakai pola pikir yang membatasi, tetapi juga punya kesempatan untuk menggesernya dengan sengaja. Setelah slide ini, ada video yang memperkenalkan “Awareness–Pause–Reframe” atau APR, teknik yang bisa kamu pakai saat kejadian maupun sesudahnya, ketika merenung. Simak video berikutnya: Awareness – Pause – Reframe (APR), teknik sederhana tetapi ampuh untuk membantumu menggeser pola pikir dan membuka kemungkinan baru. Dirimu yang sama, dirimu yang lebih cerah. Pola pikir yang lebih cerah membangun hari esok yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Practising APR",
-        "id": "Mempraktikkan APR"
-       },
-       "intro": {
-        "en": "Now put the technique to work. Four slides walk you through a two-minute APR practice, the reframing questions for six limiting mindsets, how to take it to your team, and the module's key takeaways.",
-        "id": "Sekarang pakai tekniknya. Empat slide memandumu melewati latihan APR selama dua menit, pertanyaan untuk membingkai ulang enam pola pikir yang membatasi, cara membawanya ke timmu, dan poin-poin penting modul ini."
-       },
-       "base": "../../assets/lms/the-map/slides/practising-apr-",
-       "slides": [
-        {
-         "title": {
-          "en": "Practicing APR",
-          "id": "Mempraktikkan APR"
-         },
-         "text": {
-          "en": "Small pause, bigger possibilities: same situation, a different mindset can change everything. The beauty of APR is that it can be used at any time to shift your mindset in subtle or bold ways. Let's take two minutes to practice it right now. 1 Awareness. Notice what's happening: “Think of something you have been finding challenging. What does it make you think and feel? What are your mindsets?” 2 Pause. Create space: “Take a pause in this very moment to center yourself. Maybe take a few deep breaths or plant your feet on the floor.” 3 Reframe. See new possibilities: “What opportunities would there be if you were to shift your mindset?” Keep practicing: continue to think about ways you can flexibly incorporate APR in your daily practices. In particular, think about how you can practice integrating questions that will help you to reframe specific mindsets. Same challenge, a brighter you.",
-          "id": "Jeda kecil, kemungkinan lebih besar: situasinya sama, tetapi pola pikir yang berbeda bisa mengubah segalanya. Indahnya APR, teknik ini bisa dipakai kapan saja untuk menggeser pola pikirmu, entah sedikit atau banyak. Mari luangkan dua menit untuk mempraktikkannya sekarang. 1 Awareness (sadari). Perhatikan apa yang sedang terjadi: “Pikirkan sesuatu yang belakangan terasa sulit bagimu. Apa yang kamu pikirkan dan rasakan karenanya? Pola pikir apa yang sedang kamu pakai?” 2 Pause (jeda). Beri ruang: “Ambil jeda saat ini juga untuk menenangkan diri. Mungkin dengan menarik napas dalam beberapa kali, atau menapakkan kaki dengan mantap di lantai.” 3 Reframe (bingkai ulang). Lihat kemungkinan baru: “Peluang apa yang muncul kalau kamu menggeser pola pikirmu?” Terus berlatih: terus pikirkan cara-cara luwes untuk memasukkan APR ke dalam kebiasaan sehari-harimu. Terutama, pikirkan cara melatih pertanyaan-pertanyaan yang bisa membantumu membingkai ulang pola pikir tertentu. Tantangan yang sama, dirimu yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Questions that open new perspectives",
-          "id": "Pertanyaan yang membuka sudut pandang baru"
-         },
-         "text": {
-          "en": "Different mindsets. Different questions. Bigger possibilities. 01 From fixed to growth: How can this challenge be an opportunity? What could be possible if I learn and develop from this experience? 02 From expert to curious: What questions, new perspectives, or opportunities do I want to explore? If I approach this with fresh eyes, forgetting for now what I already know, what would I get curious about? What would be possible if I could embrace the struggles that come with learning something new? 03 From reactive to creative: What is the bigger “why” that I am solving for? If this challenge were actually a hidden opportunity to create something different and better, what would I want? What could I imagine that would be important and meaningful? What is the smallest step that I can take towards getting to the end state I desire? 04 From victim to agent: What are the various ways I can influence the situation? What do I already have going for me? What capabilities, ideas, or resources could I access to successfully navigate this challenge? 05 From scarcity to abundance: What could be a win-win scenario in this situation? If I release some of the constraints on the situation, what might be a bigger opportunity? 06 From protection to opportunity: What if this is not a risk-avoidance scenario, but an opportunity-capturing scenario? What is the most audaciously good thing that can come out of this? How might I be able to encourage that to happen?",
-          "id": "Pola pikir berbeda. Pertanyaan berbeda. Kemungkinan lebih besar. 01 Dari tetap ke bertumbuh: Bagaimana tantangan ini bisa menjadi peluang? Apa yang mungkin terjadi kalau aku belajar dan berkembang dari pengalaman ini? 02 Dari ahli ke ingin tahu: Pertanyaan, sudut pandang baru, atau peluang apa yang ingin kujelajahi? Kalau aku melihat ini dengan mata segar, melupakan sejenak apa yang sudah kuketahui, hal apa yang akan membuatku penasaran? Apa yang mungkin terjadi kalau aku mau menerima jatuh bangun saat mempelajari sesuatu yang baru? 03 Dari reaktif ke kreatif: Apa “kenapa” yang lebih besar dari masalah yang sedang kupecahkan? Kalau tantangan ini sebenarnya peluang tersembunyi untuk menciptakan sesuatu yang berbeda dan lebih baik, apa yang ingin kuwujudkan? Apa yang bisa kubayangkan yang penting dan bermakna? Apa langkah terkecil yang bisa kuambil menuju keadaan akhir yang kuinginkan? 04 Dari korban ke pelaku: Apa saja cara yang bisa kupakai untuk memengaruhi situasi ini? Apa yang sudah menjadi modalku? Kemampuan, ide, atau sumber daya apa yang bisa kuakses untuk berhasil melewati tantangan ini? 05 Dari kelangkaan ke kelimpahan: Seperti apa skenario menang bersama dalam situasi ini? Kalau aku melonggarkan beberapa batasan dalam situasi ini, peluang lebih besar apa yang mungkin muncul? 06 Dari perlindungan ke peluang: Bagaimana kalau ini bukan soal menghindari risiko, melainkan soal menangkap peluang? Apa hal paling luar biasa baiknya yang bisa lahir dari sini? Bagaimana aku bisa mendorong supaya hal itu terjadi?"
-         }
-        },
-        {
-         "title": {
-          "en": "Take it to your team",
-          "id": "Bawa ke timmu"
-         },
-         "text": {
-          "en": "Whether you are a manager or a peer, you can use your newfound knowledge of mindsets to nudge others in the right direction. Here are four actions you can take. 01 Role model. Show it in your own actions: when people see an adaptable mindset, they are drawn to imitate it. Talk openly about your mindsets, both the helpful and unhelpful ones, and what you do to reframe your mindset. Be as specific as possible. Example: “I used to see this as a setback, but now I see it as a learning opportunity. Here's what I did to shift my perspective…” 02 Prime them. Use powerful questions: using phrases is a great way to prime others. For example, to get others into an abundance mindset you might ask, “What is the win-win here?” For a growth mindset you could try, “What can we learn from this?” Example: “What's another way to look at this?” “What opportunities might this create?” 03 Help them use APR. Share a simple tool: share the APR approach and help others use it. If tensions are high at a meeting, for example, and some people have adopted limiting mindsets, draw awareness to it and help team members pause. Example: “Let's take a pause, reflect on what we're assuming, and reframe this. What else could be true?” 04 Reinforce mindsets. Notice and encourage: point out to others when they are demonstrating helpful mindsets and encourage them further. For example, if a colleague was operating from a creative place during a challenge, point out that it would have been easy to slip into a reactive mode and encourage everyone to keep up the creative mindset. Example: “I really appreciate how you approached that with curiosity. It opened up new possibilities for the team.” Better conversations, stronger teams.",
-          "id": "Entah kamu atasan atau rekan sejawat, pemahaman barumu tentang pola pikir bisa kamu pakai untuk mendorong orang lain ke arah yang tepat. Berikut empat hal yang bisa kamu lakukan. 01 Jadi teladan. Tunjukkan lewat tindakanmu sendiri: saat orang melihat pola pikir yang adaptif, mereka cenderung menirunya. Bicarakan pola pikirmu secara terbuka, yang membantu maupun yang tidak, dan apa yang kamu lakukan untuk membingkainya ulang. Sespesifik mungkin. Contoh: “Dulu aku melihat ini sebagai kemunduran, tapi sekarang aku melihatnya sebagai kesempatan belajar. Ini yang kulakukan untuk menggeser cara pandangku…” 02 Pancing mereka. Pakai pertanyaan yang kuat: kalimat tertentu adalah cara ampuh untuk memancing pola pikir orang lain. Misalnya, untuk mengajak orang ke pola pikir kelimpahan, kamu bisa bertanya, “Di mana peluang menang bersamanya?” Untuk pola pikir bertumbuh, coba, “Apa yang bisa kita pelajari dari ini?” Contoh: “Ada cara lain untuk melihat ini?” “Peluang apa yang mungkin muncul dari sini?” 03 Bantu mereka memakai APR. Bagikan alat yang sederhana: perkenalkan pendekatan APR dan bantu orang lain memakainya. Misalnya, saat suasana rapat memanas dan beberapa orang terjebak pola pikir yang membatasi, ajak mereka menyadarinya dan bantu anggota tim mengambil jeda. Contoh: “Yuk berhenti sebentar, kita lihat asumsi kita apa, lalu bingkai ulang. Apa lagi yang mungkin benar?” 04 Kuatkan pola pikirnya. Perhatikan dan beri semangat: sampaikan kepada orang lain saat mereka menunjukkan pola pikir yang membantu, dan dorong mereka untuk meneruskannya. Misalnya, kalau seorang rekan tetap kreatif saat menghadapi tantangan, sampaikan bahwa sebenarnya mudah sekali tergelincir ke mode reaktif, lalu ajak semua orang menjaga pola pikir kreatif itu. Contoh: “Aku sangat menghargai caramu menghadapi itu dengan rasa ingin tahu. Itu membuka kemungkinan baru bagi tim.” Percakapan yang lebih baik, tim yang lebih kuat."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "Same mindset, new possibilities: same old way, or a brighter way. In this module, we have covered the following key tools. 01 Recognizing mindsets. Use this to identify whether your current mindset is limiting and switch to a more adaptable one like growth or creative when needed. “Awareness is the first step towards a different tomorrow.” 02 Awareness, Pause and Reframe (APR) framework. Use this in a difficult situation to shift your mindsets for greater adaptability and resilience. “Pause. Look differently. Choose what's possible.” Resources you may also wish to explore: “The power of believing that you can improve” (TED, Carol Dweck); “Growth mindset tempers the effects of poverty on academic achievement”; “How the scarcity mindset can make problems worse” (NPR, 2017). Keep exploring: a more open mindset creates a brighter future.",
-          "id": "Pola pikir yang sama, kemungkinan baru: cara lama yang sama, atau cara yang lebih cerah. Di modul ini, kita sudah membahas alat-alat utama berikut. 01 Mengenali pola pikir. Pakai ini untuk mengenali apakah pola pikirmu saat ini membatasi, lalu beralih ke pola pikir yang lebih adaptif, seperti bertumbuh atau kreatif, saat dibutuhkan. “Kesadaran adalah langkah pertama menuju hari esok yang berbeda.” 02 Kerangka Awareness, Pause, Reframe (APR). Pakai ini dalam situasi sulit untuk menggeser pola pikirmu supaya lebih adaptif dan tangguh. “Jeda. Lihat dari sisi lain. Pilih apa yang mungkin.” Bacaan lain yang mungkin ingin kamu telusuri: “The power of believing that you can improve” (TED, Carol Dweck); “Growth mindset tempers the effects of poverty on academic achievement”; “How the scarcity mindset can make problems worse” (NPR, 2017). Terus menjelajah: pola pikir yang lebih terbuka menciptakan masa depan yang lebih cerah."
-         }
-        }
-       ]
       }
      ],
      "sections": [
@@ -896,7 +1611,527 @@ window.MT_LMS['the-map'] = {
         "id": "Angkanya ditambatkan pada bukti, dan celahnya dipandang sebagai sesuatu yang bisa dibangun: bukan menjual diri, bukan pula menghukum diri."
        }
       }
-     ]
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "Two Beliefs",
+       "id": "Dua Keyakinan"
+      },
+      "intro": {
+       "en": "Seven ideas in a few minutes. Then a short film, and the reading below has you practise on your own self-talk.",
+       "id": "Tujuh gagasan dalam beberapa menit. Setelah itu satu film singkat, lalu bacaan di bawah mengajakmu berlatih pada omongan batinmu sendiri."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Two beliefs",
+         "id": "Dua keyakinan"
+        },
+        "points": [
+         {
+          "en": "Both show up in behaviour you can observe and audit.",
+          "id": "Keduanya tampak dalam perilaku yang bisa kamu amati dan audit."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A variable, not a verdict",
+         "id": "Variabel, bukan vonis"
+        },
+        "points": [
+         {
+          "en": "This is what research on learning keeps finding.",
+          "id": "Inilah yang terus ditemukan riset tentang belajar."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Verdict or to-do",
+         "id": "Vonis atau daftar kerja"
+        },
+        "points": [
+         {
+          "en": "Untrained and unable are two different states.",
+          "id": "Belum terlatih dan tidak mampu adalah dua keadaan yang berbeda."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Rewrite the sentence",
+         "id": "Tulis ulang kalimatnya"
+        },
+        "points": [
+         {
+          "en": "Three moves, and the verdict never gets a vote.",
+          "id": "Tiga gerakan, dan vonis itu tak pernah ikut memutuskan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Concern and control",
+         "id": "Kekhawatiran dan kendali"
+        },
+        "points": [
+         {
+          "en": "Take one real worry and split it in two.",
+          "id": "Ambil satu kecemasan nyata, lalu belah dua."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Honest self-assessment",
+         "id": "Penilaian diri yang jujur"
+        },
+        "points": [
+         {
+          "en": "Two failure modes spoil an audit. The honest setting sits between them.",
+          "id": "Ada dua cara gagal yang merusak sebuah audit. Setelan jujur berada di antara keduanya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Into the audit",
+         "id": "Menuju audit"
+        },
+        "points": [
+         {
+          "en": "You are about to rate your energy, strengths and habits. Use these three moves on each number.",
+          "id": "Sebentar lagi kamu menilai energi, kekuatan, dan kebiasaanmu. Pakai tiga gerakan ini pada setiap angka."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/ch1-realization.jpg",
+       "module": {
+        "en": "Module 1 · Self-Awareness and Personal Audit",
+        "id": "Modul 1 · Kesadaran Diri dan Audit Pribadi"
+       },
+       "lesson": {
+        "n": "1.3",
+        "title": {
+         "en": "Foundational Mindset",
+         "id": "Pola Pikir Dasar"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Two beliefs decide how much you learn from anything, including this course",
+         "id": "Dua keyakinan menentukan seberapa banyak kamu belajar dari apa pun, termasuk kursus ini"
+        },
+        {
+         "en": "People who treat ability as improvable choose harder tasks, persist longer and recover faster",
+         "id": "Orang yang memandang kemampuan bisa ditingkatkan memilih tugas lebih sulit, lebih tekun, dan lebih cepat bangkit"
+        },
+        {
+         "en": "“I'm bad at X” is a full stop; “I haven't trained X yet” is a to-do item",
+         "id": "“Aku payah di X” adalah titik mati; “aku belum melatih X” adalah daftar kerja"
+        },
+        {
+         "en": "Catch the verdict, name what happened, and send it to a place where you can train",
+         "id": "Tangkap vonisnya, sebutkan apa yang terjadi, lalu kirim ke tempat kamu bisa berlatih"
+        },
+        {
+         "en": "Split every career worry into what you cannot move and what you can",
+         "id": "Belah setiap kecemasan karier menjadi yang tidak bisa kamu ubah dan yang bisa"
+        },
+        {
+         "en": "Rate yourself on evidence: neither self-punishment nor self-marketing",
+         "id": "Nilai dirimu berdasarkan bukti: bukan menghukum diri, bukan pula menjual diri"
+        },
+        {
+         "en": "The Personal Audit only works at the honesty setting",
+         "id": "Audit Pribadi hanya berfungsi di setelan jujur"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Two beliefs",
+          "id": "Dua keyakinan"
+         },
+         "p": {
+          "en": "You do not need a label for either belief. You need its working habit.",
+          "id": "Kamu tidak butuh label untuk kedua keyakinan itu. Yang kamu butuhkan adalah kebiasaan kerjanya."
+         }
+        },
+        {
+         "h": {
+          "en": "A variable, not a verdict",
+          "id": "Variabel, bukan vonis"
+         },
+         "p": {
+          "en": "This is what research on learning keeps finding.",
+          "id": "Inilah yang terus ditemukan riset tentang belajar."
+         }
+        },
+        {
+         "h": {
+          "en": "Verdict or to-do",
+          "id": "Vonis atau daftar kerja"
+         },
+         "p": {
+          "en": "The rewrite is not positive thinking. It is accurate thinking.",
+          "id": "Tulisan ulang ini bukan berpikir positif. Ini berpikir akurat."
+         }
+        },
+        {
+         "h": {
+          "en": "Rewrite the sentence",
+          "id": "Tulis ulang kalimatnya"
+         },
+         "p": {
+          "en": "Observable behaviour, one specific adjustment, and a training ground for it.",
+          "id": "Perilaku yang bisa diamati, satu penyesuaian spesifik, dan tempat untuk melatihnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Concern and control",
+          "id": "Kekhawatiran dan kendali"
+         },
+         "p": {
+          "en": "Ninety percent of your working hours go to the control zone. Concern gets ten minutes of reading.",
+          "id": "Sembilan puluh persen jam kerjamu untuk zona kendali. Kekhawatiran cukup mendapat sepuluh menit membaca."
+         }
+        },
+        {
+         "h": {
+          "en": "Honest self-assessment",
+          "id": "Penilaian diri yang jujur"
+         },
+         "p": {
+          "en": "Kind to the person, ruthless about the data.",
+          "id": "Lembut pada orangnya, tegas pada datanya."
+         }
+        },
+        {
+         "h": {
+          "en": "Into the audit",
+          "id": "Menuju audit"
+         },
+         "p": {
+          "en": "You are about to rate your energy, strengths and habits. Use these three moves on each number.",
+          "id": "Sebentar lagi kamu menilai energi, kekuatan, dan kebiasaanmu. Pakai tiga gerakan ini pada setiap angka."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Two beliefs decide how much you learn from anything, including this course",
+          "id": "Dua keyakinan menentukan seberapa banyak kamu belajar dari apa pun, termasuk kursus ini"
+         },
+         "em": {
+          "en": "Two beliefs",
+          "id": "Dua keyakinan"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "Does ability grow with method and effort, or is it fixed?",
+           "id": "Apakah kemampuan tumbuh lewat cara dan usaha, atau sudah paten?",
+           "l": {
+            "en": "About ability",
+            "id": "Tentang kemampuan"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Are you the author of your circumstances, or their subject?",
+           "id": "Apakah kamu pengarang keadaanmu, atau sekadar tokoh di dalamnya?",
+           "l": {
+            "en": "About authorship",
+            "id": "Tentang kepengarangan"
+           },
+           "img": "../../assets/bg/mp-stage-author.jpg"
+          }
+         ],
+         "band": {
+          "en": "You do not need a label for either belief. You need its working habit.",
+          "id": "Kamu tidak butuh label untuk kedua keyakinan itu. Yang kamu butuhkan adalah kebiasaan kerjanya."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "People who treat ability as improvable choose harder tasks, persist longer and recover faster",
+          "id": "Orang yang memandang kemampuan bisa ditingkatkan memilih tugas lebih sulit, lebih tekun, dan lebih cepat bangkit"
+         },
+         "em": {
+          "en": "improvable",
+          "id": "bisa ditingkatkan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "mountain",
+           "en": "Harder tasks",
+           "id": "Tugas lebih sulit",
+           "d": {
+            "en": "They pick the stretch over the safe option",
+            "id": "Mereka memilih tantangan, bukan pilihan yang aman"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "timer",
+           "en": "Longer effort",
+           "id": "Usaha lebih lama",
+           "d": {
+            "en": "They keep going after it stops being easy",
+            "id": "Mereka terus berjalan setelah semuanya tak lagi mudah"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Faster recovery",
+           "id": "Bangkit lebih cepat",
+           "d": {
+            "en": "A failure is information about the method",
+            "id": "Kegagalan adalah informasi tentang caranya"
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "“I'm bad at X” is a full stop; “I haven't trained X yet” is a to-do item",
+          "id": "“Aku payah di X” adalah titik mati; “aku belum melatih X” adalah daftar kerja"
+         },
+         "em": {
+          "en": "a to-do item",
+          "id": "daftar kerja"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“I'm not a numbers person.”",
+           "id": "“Aku memang tidak jago angka.”",
+           "l": {
+            "en": "A verdict",
+            "id": "Vonis"
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "“I haven't drilled numerical tests yet.”",
+           "id": "“Aku belum berlatih soal tes numerik.”",
+           "l": {
+            "en": "With a method in it",
+            "id": "Dengan cara di dalamnya"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          }
+         ],
+         "band": {
+          "en": "The rewrite is not positive thinking. It is accurate thinking.",
+          "id": "Tulisan ulang ini bukan berpikir positif. Ini berpikir akurat."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Catch the verdict, name what happened, and send it to a place where you can train",
+          "id": "Tangkap vonisnya, sebutkan apa yang terjadi, lalu kirim ke tempat kamu bisa berlatih"
+         },
+         "em": {
+          "en": "Catch the verdict",
+          "id": "Tangkap vonisnya"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Catch it",
+           "id": "Tangkap",
+           "d": {
+            "en": "“I bombed the group discussion. I'm not a leader type.”",
+            "id": "“Aku gagal total di diskusi kelompok. Aku memang bukan tipe pemimpin.”"
+           }
+          },
+          {
+           "icon": "list",
+           "en": "Name the behaviour",
+           "id": "Sebutkan perilakunya",
+           "d": {
+            "en": "“I spoke twice and never summarised.”",
+            "id": "“Aku cuma bicara dua kali dan tidak pernah merangkum.”"
+           }
+          },
+          {
+           "icon": "pin",
+           "en": "Route it",
+           "id": "Arahkan",
+           "d": {
+            "en": "“Next time I take the timekeeper role and close with a summary.”",
+            "id": "“Lain kali aku ambil peran penjaga waktu dan menutup dengan rangkuman.”"
+           }
+          }
+         ],
+         "band": {
+          "en": "Observable behaviour, one specific adjustment, and a training ground for it.",
+          "id": "Perilaku yang bisa diamati, satu penyesuaian spesifik, dan tempat untuk melatihnya."
+         },
+         "img": "../../assets/bg/mind-palace-next-move.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Split every career worry into what you cannot move and what you can",
+          "id": "Belah setiap kecemasan karier menjadi yang tidak bisa kamu ubah dan yang bisa"
+         },
+         "em": {
+          "en": "what you can",
+          "id": "yang bisa"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "globe",
+           "en": "“The job market is brutal this year.” Real, important, and outside your control.",
+           "id": "“Pasar kerja tahun ini kejam.” Nyata, penting, dan di luar kendalimu.",
+           "l": {
+            "en": "Concern zone",
+            "id": "Zona kekhawatiran"
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "Application quality, test scores, portfolio, network, interview craft. Smaller, and entirely yours.",
+           "id": "Kualitas lamaran, skor tes, portofolio, jaringan, kecakapan wawancara. Lebih kecil, tetapi sepenuhnya milikmu.",
+           "l": {
+            "en": "Control zone",
+            "id": "Zona kendali"
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          }
+         ],
+         "band": {
+          "en": "Ninety percent of your working hours go to the control zone. Concern gets ten minutes of reading.",
+          "id": "Sembilan puluh persen jam kerjamu untuk zona kendali. Kekhawatiran cukup mendapat sepuluh menit membaca."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Rate yourself on evidence: neither self-punishment nor self-marketing",
+          "id": "Nilai dirimu berdasarkan bukti: bukan menghukum diri, bukan pula menjual diri"
+         },
+         "em": {
+          "en": "on evidence",
+          "id": "berdasarkan bukti"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "x",
+           "en": "Self-punishment",
+           "id": "Menghukum diri",
+           "d": {
+            "en": "Everything rated low to feel humble. The plan overcorrects and wears you out.",
+            "id": "Semua dinilai rendah supaya terasa rendah hati. Rencananya berlebihan dan menguras tenaga."
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "Self-marketing",
+           "id": "Menjual diri",
+           "d": {
+            "en": "Everything rated high to feel ready. The plan fixes nothing.",
+            "id": "Semua dinilai tinggi supaya terasa siap. Rencananya tidak memperbaiki apa pun."
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "The honest setting",
+           "id": "Setelan jujur",
+           "d": {
+            "en": "“What would I show a stranger to justify this number?”",
+            "id": "“Apa yang akan kutunjukkan kepada orang asing untuk membuktikan angka ini?”"
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          }
+         ],
+         "band": {
+          "en": "Kind to the person, ruthless about the data.",
+          "id": "Lembut pada orangnya, tegas pada datanya."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The Personal Audit only works at the honesty setting",
+          "id": "Audit Pribadi hanya berfungsi di setelan jujur"
+         },
+         "em": {
+          "en": "the honesty setting",
+          "id": "setelan jujur"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "sliders",
+           "en": "Give each area a number.",
+           "id": "Beri setiap bidang satu angka.",
+           "l": {
+            "en": "Rate",
+            "id": "Nilai"
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "Name the evidence a stranger could check.",
+           "id": "Sebutkan bukti yang bisa dicek orang asing.",
+           "l": {
+            "en": "Justify",
+            "id": "Buktikan"
+           }
+          },
+          {
+           "icon": "steps",
+           "en": "No evidence? The honest number is lower, and now you know what to go and build.",
+           "id": "Tidak ada bukti? Angka jujurnya lebih rendah, dan sekarang kamu tahu apa yang perlu dibangun.",
+           "l": {
+            "en": "Build",
+            "id": "Bangun"
+           }
+          }
+         ],
+         "img": "../../assets/bg/compass.jpg"
+        }
+       ]
+      }
+     },
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     }
     }
    ],
    "hero": "../../assets/bg/ch1-realization.jpg",
@@ -959,169 +2194,6 @@ window.MT_LMS['the-map'] = {
       {
        "en": "The next three lessons are all self-management: proactivity, direction, and priority.",
        "id": "Tiga pelajaran berikutnya semuanya tentang mengelola diri: proaktivitas, arah, dan prioritas."
-      }
-     ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 2 slides",
-        "id": "Baca dulu · 2 slide"
-       },
-       "title": {
-        "en": "Self-Leadership Foundations: Material",
-        "id": "Fondasi Kepemimpinan Diri: Materi"
-       },
-       "intro": {
-        "en": "Start with the deck. Two slides frame what self-leadership is for (effectiveness, not efficiency) and the four moves this module builds: know yourself, develop your mindset, take intentional action, create lasting impact. Then watch the film that follows.",
-        "id": "Mulai dari deknya. Dua slide menjelaskan untuk apa kepemimpinan diri (efektivitas, bukan efisiensi) dan empat langkah yang dibangun modul ini: kenali dirimu, kembangkan pola pikirmu, bertindak dengan sengaja, dan ciptakan dampak yang bertahan. Setelah itu, tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/self-leadership-",
-       "slides": [
-        {
-         "title": {
-          "en": "Self-Leadership Foundations",
-          "id": "Fondasi Kepemimpinan Diri"
-         },
-         "text": {
-          "en": "Discover · Reflect · Grow · Lead. Building greater self-awareness, mindsets, and habits to become the best version of yourself. In your career, work, and life. Know yourself: understand your mindsets and how they influence your decisions, behaviors, and outcomes. Develop your mindset: shift to more adaptive mindsets such as growth and creative when challenges arise. Take intentional action: use practical tools and frameworks to overcome challenges and unlock new opportunities. Create lasting impact: lead yourself to drive sustainable growth in your career, work, and life. Mindset · Actions · Habits · Impact. A better you, a bigger tomorrow. Learn today, lead tomorrow. People grow, opportunities follow.",
-          "id": "Temukan · Renungkan · Bertumbuh · Pimpin. Membangun kesadaran diri, pola pikir, dan kebiasaan yang lebih kuat untuk menjadi versi terbaik dirimu, dalam karier, pekerjaan, dan hidupmu. Kenali dirimu: pahami pola pikirmu dan bagaimana pola pikir itu memengaruhi keputusan, perilaku, dan hasilmu. Kembangkan pola pikirmu: beralih ke pola pikir yang lebih adaptif, seperti bertumbuh dan kreatif, saat tantangan datang. Bertindak dengan sengaja: pakai alat dan kerangka praktis untuk mengatasi tantangan dan membuka peluang baru. Ciptakan dampak yang bertahan: pimpin dirimu untuk menumbuhkan karier, pekerjaan, dan hidupmu secara berkelanjutan. Pola pikir · Tindakan · Kebiasaan · Dampak. Dirimu yang lebih baik, hari esok yang lebih besar. Belajar hari ini, memimpin esok hari. Orang bertumbuh, peluang menyusul."
-         }
-        },
-        {
-         "title": {
-          "en": "Effectiveness, not efficiency",
-          "id": "Efektivitas, bukan efisiensi"
-         },
-         "text": {
-          "en": "Self-Leadership Foundations. This course is not about efficiency (getting things done quickly) or success (although effective people tend to enjoy success). It's about effectiveness: the ability to get desired results again and again, in a sustainable manner following principles of effectiveness. And it all starts with changes in paradigms. Objective: commit to increasing your personal effectiveness by accepting that character and consistently living specific habits yields true effectiveness. Better mindsets, brighter outcomes. Small better choices, brighter tomorrows.",
-          "id": "Fondasi Kepemimpinan Diri. Kursus ini bukan tentang efisiensi (menyelesaikan pekerjaan dengan cepat) atau kesuksesan (meskipun orang yang efektif cenderung menikmati kesuksesan). Kursus ini tentang efektivitas: kemampuan mendapatkan hasil yang diinginkan berulang kali, dengan cara yang berkelanjutan, mengikuti prinsip-prinsip efektivitas. Dan semuanya dimulai dari perubahan paradigma. Tujuan: berkomitmen meningkatkan efektivitas pribadimu dengan menerima bahwa karakter, ditambah kebiasaan tertentu yang dijalani secara konsisten, menghasilkan efektivitas yang sesungguhnya. Pola pikir yang lebih baik, hasil yang lebih cerah. Pilihan kecil yang lebih baik, hari esok yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "The Root of Effectiveness: Material",
-        "id": "Akar Efektivitas: Materi"
-       },
-       "intro": {
-        "en": "After the film, four slides go to the root: effectiveness grows from the inside out, character gives it deep roots, principles matter more than methods, and lasting results come from care rather than shortcuts.",
-        "id": "Setelah film, empat slide menggali sampai ke akarnya: efektivitas tumbuh dari dalam ke luar, karakter memberinya akar yang dalam, prinsip lebih penting daripada metode, dan hasil yang bertahan lahir dari perawatan, bukan jalan pintas."
-       },
-       "base": "../../assets/lms/the-map/slides/root-effectiveness-",
-       "slides": [
-        {
-         "title": {
-          "en": "The roots of effectiveness",
-          "id": "Akar efektivitas"
-         },
-         "text": {
-          "en": "Effectiveness means getting the results you want today that will yield even better results in the future. Better results start within. The roots of effectiveness: by understanding that effectiveness develops from the inside out rather than the outside in, you develop character, which can lead to lasting success. Inside out: start with mindset, values, and character. Better actions: make more intentional and effective choices. Greater results: achieve the outcomes you want today. Lasting impact: build even better opportunities for the future.",
-          "id": "Efektivitas berarti mendapatkan hasil yang kamu inginkan hari ini dengan cara yang akan menghasilkan hasil yang lebih baik lagi di masa depan. Hasil yang lebih baik dimulai dari dalam. Akar efektivitas: dengan memahami bahwa efektivitas tumbuh dari dalam ke luar, bukan dari luar ke dalam, kamu membangun karakter, dan karakter itulah yang bisa membawa kesuksesan yang bertahan. Dari dalam ke luar: mulai dari pola pikir, nilai, dan karakter. Tindakan yang lebih baik: ambil pilihan yang lebih sengaja dan efektif. Hasil yang lebih besar: capai hasil yang kamu inginkan hari ini. Dampak yang bertahan: bangun peluang yang lebih baik lagi untuk masa depan."
-         }
-        },
-        {
-         "title": {
-          "en": "Character and effectiveness",
-          "id": "Karakter dan efektivitas"
-         },
-         "text": {
-          "en": "Character & effectiveness. Stephen R. Covey said: “People who live by the character ethic have strong roots, deep roots. They withstand the stresses of life, and they keep growing and progressing.”",
-          "id": "Karakter dan efektivitas. Stephen R. Covey berkata: “Orang yang hidup dengan etika karakter punya akar yang kuat, akar yang dalam. Mereka sanggup menahan tekanan hidup, dan mereka terus bertumbuh dan maju.”"
-         }
-        },
-        {
-         "title": {
-          "en": "You don’t need to know it all",
-          "id": "Kamu tidak perlu tahu segalanya"
-         },
-         "text": {
-          "en": "Principles over methods. You don’t need to know it all. “As to methods, there may be a million and then some, but principles are few. The man who grasps principles can successfully select his own methods. The man who tries methods, ignoring principles, is sure to have trouble.” (Harrington Emerson, efficiency engineer; the line is often misattributed to Ralph Waldo Emerson.)",
-          "id": "Prinsip lebih penting daripada metode. Kamu tidak perlu tahu segalanya. “Soal metode, mungkin ada sejuta lebih, tetapi prinsipnya hanya sedikit. Orang yang memahami prinsip bisa memilih metodenya sendiri dengan berhasil. Orang yang mencoba-coba metode sambil mengabaikan prinsip pasti akan menemui kesulitan.” (Harrington Emerson, insinyur efisiensi. Kutipan ini sering keliru dikaitkan dengan Ralph Waldo Emerson.)"
-         }
-        },
-        {
-         "title": {
-          "en": "The goose that laid the golden eggs",
-          "id": "Angsa yang bertelur emas"
-         },
-         "text": {
-          "en": "A lesson on patience & effectiveness. The goose that laid the golden eggs: lasting results come from care, consistency, and a long-term mindset. A valuable goose: a man owned a goose that laid a golden egg each day. Thinking to collect all the eggs at once, he killed the goose and cut her open, only to find that she was just like every other goose. There were no golden eggs inside her, and no goose to produce more. The key lesson: to get the golden eggs, you have to take care of the goose. Effectiveness requires investment over time. A lifelong process to get the results you want over and over again. Key takeaway: sustainable results come from nurturing what creates value, not from shortcuts.",
-          "id": "Pelajaran tentang kesabaran dan efektivitas. Angsa yang bertelur emas: hasil yang bertahan lahir dari perawatan, konsistensi, dan pola pikir jangka panjang. Angsa yang berharga: seorang lelaki punya angsa yang bertelur emas setiap hari. Karena ingin mengambil semua telurnya sekaligus, ia menyembelih angsa itu dan membelah perutnya. Ternyata angsa itu sama saja dengan angsa lain. Tidak ada telur emas di dalamnya, dan tidak ada lagi angsa yang bisa bertelur emas. Pelajaran utamanya: untuk mendapatkan telur emas, kamu harus merawat angsanya. Efektivitas butuh investasi dari waktu ke waktu, sebuah proses seumur hidup untuk mendapatkan hasil yang kamu inginkan, lagi dan lagi. Intinya: hasil yang bertahan lahir dari merawat apa yang menciptakan nilai, bukan dari jalan pintas."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 5 slides",
-        "id": "Baca berikutnya · 5 slide"
-       },
-       "title": {
-        "en": "Stages of Maturity: Material",
-        "id": "Tahap-Tahap Kematangan: Materi"
-       },
-       "intro": {
-        "en": "Next, five slides trace the path from dependence to independence to interdependence, sum up the private and public victories, and show why changing your paradigms changes your habits, and why those paradigms must align with principles.",
-        "id": "Berikutnya, lima slide menelusuri jalan dari ketergantungan ke kemandirian lalu ke saling ketergantungan, merangkum kemenangan pribadi dan kemenangan publik, dan menunjukkan kenapa mengubah paradigma akan mengubah kebiasaan, serta kenapa paradigma itu harus selaras dengan prinsip."
-       },
-       "base": "../../assets/lms/the-map/slides/stages-maturity-",
-       "slides": [
-        {
-         "title": {
-          "en": "Stages of maturity",
-          "id": "Tahap-tahap kematangan"
-         },
-         "text": {
-          "en": "Growth today, a stronger tomorrow. Stages of maturity: like a seed that grows into a mature tree, our personal and interpersonal effectiveness happens through natural growth. 01 Dependence. Relies on others. Behaviors: rely on others, leave decisions to others, and tend to blame others. Results: lack capacity to do, don’t know what to do, and have weaker relationships. 02 Independence. Takes ownership. Behaviors: get things done on your own, make your own decisions, and don’t need supervision. Results: limited to your own capacity, limited to your own ideas, and little to no feedback. 03 Interdependence. Grows together. Behaviors: collaborate with others, value differing strengths, seek inclusion, and work toward a shared vision. Results: exponentially greater creativity, ideas, and results; upward cycle of improvement and growth; strong, fulfilling relationships. Dependence, the seed: needs support from others. Independence, the sprout: starts to grow on its own. Interdependence, the tree: grows higher together. Key takeaway: true maturity is a journey, not a destination. Each stage builds valuable lessons that lead to a stronger, more fulfilling version of ourselves and our relationships.",
-          "id": "Bertumbuh hari ini, lebih kuat esok hari. Tahap-tahap kematangan: seperti biji yang tumbuh menjadi pohon dewasa, efektivitas pribadi dan antarpribadi kita berkembang lewat pertumbuhan yang alami. 01 Ketergantungan. Bersandar pada orang lain. Perilakunya: mengandalkan orang lain, menyerahkan keputusan kepada orang lain, dan cenderung menyalahkan orang lain. Hasilnya: tidak punya kapasitas untuk bertindak, tidak tahu harus berbuat apa, dan hubungan yang lebih lemah. 02 Kemandirian. Mengambil tanggung jawab. Perilakunya: menyelesaikan pekerjaan sendiri, mengambil keputusan sendiri, dan tidak perlu diawasi. Hasilnya: terbatas pada kapasitas sendiri, terbatas pada ide sendiri, dan nyaris tanpa masukan. 03 Saling ketergantungan. Tumbuh bersama. Perilakunya: bekerja sama dengan orang lain, menghargai kekuatan yang berbeda, merangkul semua orang, dan bergerak menuju visi bersama. Hasilnya: kreativitas, ide, dan hasil yang berlipat jauh lebih besar; siklus perbaikan dan pertumbuhan yang terus naik; hubungan yang kuat dan memuaskan. Ketergantungan, sang biji: butuh dukungan dari orang lain. Kemandirian, sang tunas: mulai tumbuh sendiri. Saling ketergantungan, sang pohon: tumbuh lebih tinggi bersama-sama. Intinya: kematangan sejati adalah perjalanan, bukan tujuan akhir. Setiap tahap membawa pelajaran berharga yang membentuk diri dan hubungan kita menjadi lebih kuat dan lebih bermakna."
-         }
-        },
-        {
-         "title": {
-          "en": "Key summary: the private and public victories",
-          "id": "Ringkasan utama: kemenangan pribadi dan kemenangan publik"
-         },
-         "text": {
-          "en": "Key summary: the private and public victories. Achieving independence is a Private Victory® and must happen before the Public Victory® of interdependence. Consider your own effectiveness in terms of the Maturity Continuum. Effectiveness is getting results today so you can get even better results in the future. Lasting effectiveness is rooted in strong character. Increased effectiveness comes by growing from dependence to independence to interdependence.",
-          "id": "Ringkasan utama: kemenangan pribadi dan kemenangan publik. Mencapai kemandirian adalah Kemenangan Pribadi (Private Victory®), dan kemenangan ini harus terjadi sebelum Kemenangan Publik (Public Victory®), yaitu saling ketergantungan. Pikirkan efektivitasmu sendiri dengan memakai Kontinum Kematangan. Efektivitas adalah mendapatkan hasil hari ini supaya kamu bisa mendapatkan hasil yang lebih baik lagi di masa depan. Efektivitas yang bertahan berakar pada karakter yang kuat. Efektivitas meningkat lewat pertumbuhan dari ketergantungan ke kemandirian, lalu ke saling ketergantungan."
-         }
-        },
-        {
-         "title": {
-          "en": "Change your paradigms; change your habits",
-          "id": "Ubah paradigmamu, ubah kebiasaanmu"
-         },
-         "text": {
-          "en": "Mindset shapes actions. Change your paradigms; change your habits. Our results depend on what we do. And what we do depends on how we see the world around us. Therefore, if you want to change your habits, begin by changing your paradigms. What are paradigms? Paradigms are the way we see, understand, and interpret the world: our mental map. Paradigms are deeper than attitudes and behaviors, and changing your paradigm can result in greater changes than changing your behaviors. Different paradigms, a clearer tomorrow: see differently, understand more deeply, interpret the world, different actions, better results.",
-          "id": "Pola pikir membentuk tindakan. Ubah paradigmamu, ubah kebiasaanmu. Hasil kita bergantung pada apa yang kita lakukan. Dan apa yang kita lakukan bergantung pada cara kita melihat dunia di sekitar kita. Jadi, kalau kamu ingin mengubah kebiasaanmu, mulailah dengan mengubah paradigmamu. Apa itu paradigma? Paradigma adalah cara kita melihat, memahami, dan menafsirkan dunia: peta mental kita. Paradigma lebih dalam daripada sikap dan perilaku, dan mengubah paradigma bisa menghasilkan perubahan yang lebih besar daripada mengubah perilaku. Paradigma berbeda, hari esok yang lebih jernih: melihat dengan cara berbeda, memahami lebih dalam, menafsirkan dunia, bertindak berbeda, hasil yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "Key summary: paradigm change",
-          "id": "Ringkasan utama: perubahan paradigma"
-         },
-         "text": {
-          "en": "Key summary. “If you want to make minor changes in your life, work on your behavior. But if you want to make significant, quantum breakthroughs, work on your paradigms.” In order to be effective, you need to invest in Private and Public Victories. Highly effective people have effective habits. The most effective way to change your habits is by changing your paradigms. Behavior change → paradigm change.",
-          "id": "Ringkasan utama. “Kalau kamu ingin membuat perubahan kecil dalam hidupmu, garap perilakumu. Tetapi kalau kamu ingin membuat terobosan besar yang berarti, garap paradigmamu.” Untuk menjadi efektif, kamu perlu berinvestasi pada Kemenangan Pribadi dan Kemenangan Publik. Orang yang sangat efektif punya kebiasaan yang efektif. Cara paling efektif untuk mengubah kebiasaan adalah dengan mengubah paradigma. Perubahan perilaku → perubahan paradigma."
-         }
-        },
-        {
-         "title": {
-          "en": "Align paradigms with principles",
-          "id": "Selaraskan paradigma dengan prinsip"
-         },
-         "text": {
-          "en": "Align paradigms with principles. Principles are timeless, universal, and self-evident, and they operate whether or not we accept or understand them. Effective paradigms lead to effective behavior. Effective people align their paradigms with principles of effectiveness. Principles, timeless & universal: principles are timeless, universal, and self-evident, and they operate whether or not we accept or understand them. Paradigms. Shape how we see: effective people align their paradigms with principles of effectiveness. Behavior. Drive effective action: effective paradigms lead to effective behavior. Right principles, a brighter tomorrow.",
-          "id": "Selaraskan paradigma dengan prinsip. Prinsip bersifat abadi, universal, dan terbukti dengan sendirinya, dan prinsip tetap bekerja entah kita menerimanya atau memahaminya atau tidak. Paradigma yang efektif menghasilkan perilaku yang efektif. Orang yang efektif menyelaraskan paradigmanya dengan prinsip-prinsip efektivitas. Prinsip, abadi dan universal: prinsip bersifat abadi, universal, dan terbukti dengan sendirinya, dan tetap bekerja entah kita menerimanya atau memahaminya atau tidak. Paradigma. Membentuk cara kita melihat: orang yang efektif menyelaraskan paradigmanya dengan prinsip-prinsip efektivitas. Perilaku. Mendorong tindakan yang efektif: paradigma yang efektif menghasilkan perilaku yang efektif. Prinsip yang tepat, hari esok yang lebih cerah."
-         }
-        }
-       ]
       }
      ],
      "sections": [
@@ -1269,14 +2341,544 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:1",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows the first slides: Bima, a report finished at two in the morning, and the layer under his habits that no planner could reach. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide pertama: Bima, laporan yang rampung pukul dua dini hari, dan lapisan di bawah kebiasaannya yang tak terjangkau agenda mana pun. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Bima, a report finished at two in the morning, and the layer under his habits that no planner could reach. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Bima, laporan yang rampung pukul dua dini hari, dan lapisan di bawah kebiasaannya yang tak terjangkau agenda mana pun. Tonton, lalu lanjutkan ke bacaan di bawah."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "Three Layers",
+       "id": "Tiga Lapisan"
+      },
+      "intro": {
+       "en": "Seven ideas in a few minutes. Then a short film, and the reading below has you audit one lens of your own.",
+       "id": "Tujuh gagasan dalam beberapa menit. Setelah itu satu film singkat, lalu bacaan di bawah mengajakmu mengaudit satu cara pandangmu sendiri."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Three layers",
+         "id": "Tiga lapisan"
+        },
+        "points": [
+         {
+          "en": "Most self-improvement edits the top layer and leaves the middle one untouched.",
+          "id": "Kebanyakan upaya memperbaiki diri mengutak-atik lapisan teratas dan membiarkan lapisan tengahnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Principles do not change",
+         "id": "Prinsip tidak berubah"
+        },
+        "points": [
+         {
+          "en": "You cannot negotiate with a principle. You can only work with it or against it.",
+          "id": "Kamu tidak bisa menawar sebuah prinsip. Kamu hanya bisa bekerja bersamanya atau melawannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Paradigms are your lens",
+         "id": "Paradigma adalah lensamu"
+        },
+        "points": [
+         {
+          "en": "Three common lenses, and the behaviour each one quietly produces.",
+          "id": "Tiga lensa yang umum, dan perilaku yang diam-diam dihasilkan masing-masing."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Why copied habits fade",
+         "id": "Kenapa kebiasaan tiruan memudar"
+        },
+        "points": [
+         {
+          "en": "Changing a practice on an old paradigm is like taping a new destination onto an old map.",
+          "id": "Mengubah praktik di atas paradigma lama ibarat menempelkan label tujuan baru di atas peta lama."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Audit one paradigm",
+         "id": "Audit satu paradigma"
+        },
+        "points": [
+         {
+          "en": "Judge it over a semester, not over one night.",
+          "id": "Nilai dalam rentang satu semester, bukan satu malam."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The sequence",
+         "id": "Urutannya"
+        },
+        "points": [
+         {
+          "en": "You cannot skip the middle stage.",
+          "id": "Tahap tengahnya tidak bisa dilompati."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "What comes next",
+         "id": "Yang berikutnya"
+        },
+        "points": [
+         {
+          "en": "Interview questions about ownership, planning and priorities all test this layer.",
+          "id": "Pertanyaan wawancara tentang rasa memiliki, perencanaan, dan prioritas semuanya menguji lapisan ini."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/stage-foundation.jpg",
+       "module": {
+        "en": "Module 2 · Self-Leadership Foundations",
+        "id": "Modul 2 · Fondasi Kepemimpinan Diri"
+       },
+       "lesson": {
+        "n": "2.1",
+        "title": {
+         "en": "How Your Lens Shapes Your Results",
+         "id": "Cara Pandang Membentuk Hasilmu"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Effectiveness is an architecture of three layers, not a personality",
+         "id": "Efektivitas adalah arsitektur tiga lapisan, bukan kepribadian"
+        },
+        {
+         "en": "A principle keeps working, whatever you believe about it",
+         "id": "Sebuah prinsip tetap bekerja, apa pun yang kamu yakini tentangnya"
+        },
+        {
+         "en": "A paradigm decides what a fact means before you think about it",
+         "id": "Paradigma memutuskan arti sebuah fakta sebelum kamu sempat berpikir"
+        },
+        {
+         "en": "A practice copied without its paradigm decays in weeks",
+         "id": "Praktik yang ditiru tanpa paradigmanya layu dalam hitungan minggu"
+        },
+        {
+         "en": "Test a paradigm the way you test any theory: by its long-run results",
+         "id": "Uji sebuah paradigma seperti menguji teori apa pun: lewat hasil jangka panjangnya"
+        },
+        {
+         "en": "Directed, self-directed, trusted with others: a sequence, not a menu",
+         "id": "Diarahkan, mengarahkan diri, dipercaya bersama orang lain: urutan, bukan menu"
+        },
+        {
+         "en": "The next three lessons build the self-directed layer",
+         "id": "Tiga pelajaran berikutnya membangun lapisan mengarahkan diri"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Three layers",
+          "id": "Tiga lapisan"
+         },
+         "p": {
+          "en": "Most self-improvement edits the top layer and leaves the middle one untouched.",
+          "id": "Kebanyakan upaya memperbaiki diri mengutak-atik lapisan teratas dan membiarkan lapisan tengahnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Principles do not change",
+          "id": "Prinsip tidak berubah"
+         },
+         "p": {
+          "en": "You cannot negotiate with a principle. You can only work with it or against it.",
+          "id": "Kamu tidak bisa menawar sebuah prinsip. Kamu hanya bisa bekerja bersamanya atau melawannya."
+         }
+        },
+        {
+         "h": {
+          "en": "Paradigms are your lens",
+          "id": "Paradigma adalah lensamu"
+         },
+         "p": {
+          "en": "Three common lenses, and the behaviour each one quietly produces.",
+          "id": "Tiga lensa yang umum, dan perilaku yang diam-diam dihasilkan masing-masing."
+         }
+        },
+        {
+         "h": {
+          "en": "Why copied habits fade",
+          "id": "Kenapa kebiasaan tiruan memudar"
+         },
+         "p": {
+          "en": "The routine expresses the performer's lens. Copying the surface copies nothing that sustains it.",
+          "id": "Rutinitas itu lahir dari lensa pemiliknya. Meniru permukaannya tidak ikut menyalin apa yang menopangnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Audit one paradigm",
+          "id": "Audit satu paradigma"
+         },
+         "p": {
+          "en": "Judge it over a semester, not over one night.",
+          "id": "Nilai dalam rentang satu semester, bukan satu malam."
+         }
+        },
+        {
+         "h": {
+          "en": "The sequence",
+          "id": "Urutannya"
+         },
+         "p": {
+          "en": "A team of people who cannot manage themselves is not a team. It is a queue of emergencies.",
+          "id": "Tim yang berisi orang-orang yang tidak bisa mengelola diri sendiri bukanlah tim, melainkan antrean keadaan darurat."
+         }
+        },
+        {
+         "h": {
+          "en": "What comes next",
+          "id": "Yang berikutnya"
+         },
+         "p": {
+          "en": "Interview questions about ownership, planning and priorities all test this layer.",
+          "id": "Pertanyaan wawancara tentang rasa memiliki, perencanaan, dan prioritas semuanya menguji lapisan ini."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Effectiveness is an architecture of three layers, not a personality",
+          "id": "Efektivitas adalah arsitektur tiga lapisan, bukan kepribadian"
+         },
+         "em": {
+          "en": "three layers",
+          "id": "tiga lapisan"
+         },
+         "layout": "pillars",
+         "items": [
+          {
+           "icon": "scale",
+           "en": "Principles",
+           "id": "Prinsip",
+           "d": {
+            "en": "Cause-and-effect laws that work whether you believe in them or not",
+            "id": "Hukum sebab-akibat yang tetap bekerja, entah kamu memercayainya atau tidak"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Paradigms",
+           "id": "Paradigma",
+           "d": {
+            "en": "The mental map through which you read those laws",
+            "id": "Peta mental yang kamu pakai untuk membaca hukum-hukum itu"
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "steps",
+           "en": "Practices",
+           "id": "Praktik",
+           "d": {
+            "en": "What you actually do, day after day",
+            "id": "Apa yang benar-benar kamu lakukan, hari demi hari"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A principle keeps working, whatever you believe about it",
+          "id": "Sebuah prinsip tetap bekerja, apa pun yang kamu yakini tentangnya"
+         },
+         "em": {
+          "en": "keeps working",
+          "id": "tetap bekerja"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "handshake",
+           "en": "It is built slowly and destroyed quickly.",
+           "id": "Dibangun perlahan dan runtuh dalam sekejap.",
+           "l": {
+            "en": "Trust",
+            "id": "Kepercayaan"
+           }
+          },
+          {
+           "icon": "target",
+           "en": "It follows deliberate practice, not time served.",
+           "id": "Lahir dari latihan yang disengaja, bukan dari lamanya waktu.",
+           "l": {
+            "en": "Skill",
+            "id": "Keterampilan"
+           }
+          },
+          {
+           "icon": "sun",
+           "en": "Harvests follow planting seasons. Nothing can be crammed.",
+           "id": "Panen datang setelah musim tanam. Tidak ada yang bisa dikebut.",
+           "l": {
+            "en": "Growth",
+            "id": "Pertumbuhan"
+           }
+          }
+         ],
+         "img": "../../assets/bg/fg-journey-bg.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A paradigm decides what a fact means before you think about it",
+          "id": "Paradigma memutuskan arti sebuah fakta sebelum kamu sempat berpikir"
+         },
+         "em": {
+          "en": "before you think about it",
+          "id": "sebelum kamu sempat berpikir"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "cap",
+           "en": "“My grades define my worth.”",
+           "id": "“Nilai kuliahku menentukan hargaku.”",
+           "d": {
+            "en": "So every low mark feels like a verdict",
+            "id": "Maka setiap nilai rendah terasa seperti vonis"
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "“Networking is manipulation.”",
+           "id": "“Networking itu manipulasi.”",
+           "d": {
+            "en": "So you never ask for the fifteen-minute call",
+            "id": "Maka kamu tak pernah meminta obrolan lima belas menit itu"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "“Busy means productive.”",
+           "id": "“Sibuk berarti produktif.”",
+           "d": {
+            "en": "So a full calendar feels like progress",
+            "id": "Maka kalender yang penuh terasa seperti kemajuan"
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A practice copied without its paradigm decays in weeks",
+          "id": "Praktik yang ditiru tanpa paradigmanya layu dalam hitungan minggu"
+         },
+         "em": {
+          "en": "decays in weeks",
+          "id": "layu dalam hitungan minggu"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "refresh",
+           "en": "A top performer's 5 a.m. routine, dropped after two weeks.",
+           "id": "Rutinitas pukul lima pagi milik seorang juara, ditinggalkan setelah dua minggu.",
+           "l": {
+            "en": "Copy the surface",
+            "id": "Meniru permukaannya"
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "One shift in how you see energy and priority, and many practices change at once.",
+           "id": "Satu pergeseran dalam caramu memandang energi dan prioritas, dan banyak praktik berubah sekaligus.",
+           "l": {
+            "en": "Change the lens",
+            "id": "Mengganti lensanya"
+           },
+           "img": "../../assets/bg/fg-stage-horizon.jpg"
+          }
+         ],
+         "band": {
+          "en": "The routine expresses the performer's lens. Copying the surface copies nothing that sustains it.",
+          "id": "Rutinitas itu lahir dari lensa pemiliknya. Meniru permukaannya tidak ikut menyalin apa yang menopangnya."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Test a paradigm the way you test any theory: by its long-run results",
+          "id": "Uji sebuah paradigma seperti menguji teori apa pun: lewat hasil jangka panjangnya"
+         },
+         "em": {
+          "en": "by its long-run results",
+          "id": "lewat hasil jangka panjangnya"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pin",
+           "en": "Pick the behaviour",
+           "id": "Pilih perilakunya",
+           "d": {
+            "en": "Your least effective habit: all-night cramming",
+            "id": "Kebiasaanmu yang paling tidak efektif: begadang semalaman"
+           }
+          },
+          {
+           "icon": "question",
+           "en": "Find the belief",
+           "id": "Temukan keyakinannya",
+           "d": {
+            "en": "“Only pressure makes me work.”",
+            "id": "“Cuma tekanan yang bisa membuatku bekerja.”"
+           }
+          },
+          {
+           "icon": "chart",
+           "en": "Check a semester",
+           "id": "Cek satu semester",
+           "d": {
+            "en": "Work done, but shallow, sleepless, no skill added",
+            "id": "Pekerjaan beres, tetapi dangkal, kurang tidur, keterampilan tak bertambah"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Write it down",
+           "id": "Tuliskan",
+           "d": {
+            "en": "You will rate it in the Personal Audit",
+            "id": "Kamu akan menilainya di Audit Pribadi"
+           }
+          }
+         ],
+         "img": "../../assets/bg/mp-stage-reckoning.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Directed, self-directed, trusted with others: a sequence, not a menu",
+          "id": "Diarahkan, mengarahkan diri, dipercaya bersama orang lain: urutan, bukan menu"
+         },
+         "em": {
+          "en": "a sequence, not a menu",
+          "id": "urutan, bukan menu"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "person",
+           "en": "Directed",
+           "id": "Diarahkan",
+           "d": {
+            "en": "Outcomes are decided by teachers, parents or luck",
+            "id": "Hasil ditentukan guru, orang tua, atau keberuntungan"
+           }
+          },
+          {
+           "icon": "compass",
+           "en": "Self-directed",
+           "id": "Mengarahkan diri",
+           "d": {
+            "en": "You own your response, your direction and your schedule",
+            "id": "Kamu memegang kendali atas respons, arah, dan jadwalmu"
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Trusted with others",
+           "id": "Dipercaya bersama orang lain",
+           "d": {
+            "en": "Teamwork, leadership and negotiation become real",
+            "id": "Kerja tim, kepemimpinan, dan negosiasi menjadi nyata"
+           }
+          }
+         ],
+         "band": {
+          "en": "A team of people who cannot manage themselves is not a team. It is a queue of emergencies.",
+          "id": "Tim yang berisi orang-orang yang tidak bisa mengelola diri sendiri bukanlah tim, melainkan antrean keadaan darurat."
+         },
+         "img": "../../assets/bg/fg-stage-ascent.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The next three lessons build the self-directed layer",
+          "id": "Tiga pelajaran berikutnya membangun lapisan mengarahkan diri"
+         },
+         "em": {
+          "en": "the self-directed layer",
+          "id": "lapisan mengarahkan diri"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "pause",
+           "en": "2.2 · Response",
+           "id": "2.2 · Respons",
+           "d": {
+            "en": "Choose inside the gap between event and reaction",
+            "id": "Memilih di dalam celah antara kejadian dan reaksi"
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "flag",
+           "en": "2.3 · Direction",
+           "id": "2.3 · Arah",
+           "d": {
+            "en": "Design the outcome before you start",
+            "id": "Merancang hasil akhir sebelum mulai"
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "2.4 · Priority",
+           "id": "2.4 · Prioritas",
+           "d": {
+            "en": "Defend the important against the urgent",
+            "id": "Melindungi yang penting dari yang mendesak"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1323,420 +2925,6 @@ window.MT_LMS['the-map'] = {
        "id": "Inisiatif di dalam pengaruhmu tidak butuh izin siapa pun, dan justru karena itulah pewawancara meminta contohnya."
       }
      ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 4 slides",
-        "id": "Baca dulu · 4 slide"
-       },
-       "title": {
-        "en": "Acting Inside Your Control: Material",
-        "id": "Bertindak di Dalam Kendalimu: Materi"
-       },
-       "intro": {
-        "en": "Four slides open the lesson: the choice that sits between stimulus and response, responsibility for behaviour, results and growth, the pause-and-respond habit with its paradigm and practices, and the principle that you carry your own weather. Read them, then watch the film that follows.",
-        "id": "Empat slide membuka pelajaran ini: pilihan yang ada di antara stimulus dan respons, tanggung jawab atas perilaku, hasil, dan pertumbuhanmu, kebiasaan jeda-lalu-merespons beserta paradigma dan praktiknya, dan prinsip bahwa kamu membawa cuacamu sendiri. Baca semuanya, lalu tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/acting-control-",
-       "slides": [
-        {
-         "title": {
-          "en": "Ownership: acting inside your control",
-          "id": "Rasa memiliki: bertindak di dalam kendalimu"
-         },
-         "text": {
-          "en": "The Map: Personal Audit. Chapter 2. Ownership: Acting Inside Your Control. Greater progress starts when you focus on what you can control, not what you can’t. Awareness: see clearly. Ownership: take action. Progress: create impact. “Discipline today creates a freer tomorrow.” Same effort. A brighter tomorrow.",
-          "id": "The Map: Audit Pribadi. Bab 2. Rasa Memiliki: Bertindak di Dalam Kendalimu. Kemajuan yang lebih besar dimulai saat kamu fokus pada apa yang bisa kamu kendalikan, bukan pada apa yang tidak bisa. Kesadaran: lihat dengan jernih. Rasa memiliki: bertindaklah. Kemajuan: ciptakan dampak. “Disiplin hari ini menciptakan hari esok yang lebih bebas.” Usaha yang sama. Hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Responsible for behavior, results, and growth",
-          "id": "Bertanggung jawab atas perilaku, hasil, dan pertumbuhan"
-         },
-         "text": {
-          "en": "You have a choice. 1 · Between stimulus and response, there is a choice. What happens: external events can push you to react. The choice: a powerful moment to pause and choose how to respond. Your response: you can choose a proactive, intentional response. 2 · Take responsibility for what you can control. As you do, you take responsibility for your behavior, results, and growth by focusing on things you can do something about. Focus on what you can control: your actions (choose deliberately), your mindset (stay constructive), your results (create momentum) and your growth (keep improving). “It’s not what happens to you, but how you choose to respond that shapes who you become.” More control, a better you.",
-          "id": "Kamu punya pilihan. 1 · Di antara stimulus dan respons, ada pilihan. Apa yang terjadi: kejadian di luar dirimu bisa mendorongmu bereaksi. Pilihannya: sebuah momen penting untuk berhenti sejenak dan memilih cara merespons. Responsmu: kamu bisa memilih respons yang proaktif dan disengaja. 2 · Bertanggung jawablah atas apa yang bisa kamu kendalikan. Dengan begitu, kamu bertanggung jawab atas perilaku, hasil, dan pertumbuhanmu dengan berfokus pada hal-hal yang bisa kamu lakukan sesuatu terhadapnya. Fokus pada apa yang bisa kamu kendalikan: tindakanmu (pilih dengan sengaja), pola pikirmu (tetap membangun), hasilmu (ciptakan momentum), dan pertumbuhanmu (terus berbenah). “Bukan apa yang terjadi padamu, melainkan cara kamu memilih merespons, yang membentuk dirimu kelak.” Kendali yang lebih besar, dirimu yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "Habit 1: pause and respond",
-          "id": "Kebiasaan 1: jeda, lalu merespons"
-         },
-         "text": {
-          "en": "Today’s choices shape a brighter tomorrow. Objective: take responsibility for your choices, regardless of circumstance. Habit 1 is based on the principles of responsibility, choice, accountability, initiative, and resourcefulness. From stimulus to response: the stimulus (what happens around you), the pause (a moment of power to choose) and your response (you choose a proactive and intentional response). “Between stimulus and response, there is a space in which you have the power to choose.” In that space lies your freedom. Highly effective paradigm: “I am free to choose and am ultimately responsible for my happiness.” Highly effective practices: 1 pause and respond based on principles and desired results; 2 use proactive language; 3 focus on your Circle of Influence; 4 become a Transition Person. Greater awareness: see more clearly. Better choices: act with intention. Real results: create momentum. Sustainable growth: become a better version of yourself.",
-          "id": "Pilihan hari ini membentuk hari esok yang lebih cerah. Tujuan: bertanggung jawab atas pilihanmu, apa pun keadaannya. Kebiasaan 1 berpijak pada prinsip tanggung jawab, pilihan, akuntabilitas, inisiatif, dan kecerdikan. Dari stimulus ke respons: stimulusnya (apa yang terjadi di sekitarmu), jedanya (momen berharga untuk memilih), dan responsmu (kamu memilih respons yang proaktif dan disengaja). “Di antara stimulus dan respons, ada ruang tempat kamu punya kuasa untuk memilih.” Di ruang itulah kebebasanmu berada. Paradigma yang sangat efektif: “Aku bebas memilih, dan pada akhirnya akulah yang bertanggung jawab atas kebahagiaanku.” Praktik yang sangat efektif: 1 jeda, lalu merespons berdasarkan prinsip dan hasil yang diinginkan; 2 pakai bahasa yang proaktif; 3 fokus pada Lingkaran Pengaruhmu; 4 jadilah Pribadi Peralihan. Kesadaran yang lebih besar: lihat lebih jernih. Pilihan yang lebih baik: bertindak dengan sengaja. Hasil yang nyata: ciptakan momentum. Pertumbuhan yang berkelanjutan: jadilah versi dirimu yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "Carry your own weather",
-          "id": "Bawa cuacamu sendiri"
-         },
-         "text": {
-          "en": "Each of us faces challenges, big and small. Habit 1 is based on the principle that your life is the result of your own decisions. You have the power to choose your response to what happens to you.",
-          "id": "Kita semua menghadapi tantangan, besar maupun kecil. Kebiasaan 1 berpijak pada prinsip bahwa hidupmu adalah hasil keputusanmu sendiri. Kamu punya kuasa untuk memilih caramu merespons apa pun yang terjadi padamu."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Pause and Respond: Material",
-        "id": "Jeda, lalu Merespons: Materi"
-       },
-       "intro": {
-        "en": "After the film, four slides take the habit apart: why you can choose how you respond, a reactive versus a proactive reading of the same parking-lot moment, the four unique human gifts that make the choice possible, and a key summary. Read them, then continue to the next slides.",
-        "id": "Setelah film, empat slide membedah kebiasaan ini: kenapa kamu bisa memilih caramu merespons, cara reaktif dan cara proaktif membaca kejadian yang sama di tempat parkir, empat anugerah khas manusia yang membuat pilihan itu mungkin, dan ringkasan utamanya. Baca semuanya, lalu lanjutkan ke slide berikutnya."
-       },
-       "base": "../../assets/lms/the-map/slides/pause-respond-",
-       "slides": [
-        {
-         "title": {
-          "en": "Habit 1: pause and respond",
-          "id": "Kebiasaan 1: jeda, lalu merespons"
-         },
-         "text": {
-          "en": "Choose your response. Shape your tomorrow. You can’t always choose your circumstances or what happens to you, but you can choose how you respond. In fact, you can decide right now that the next time something negative happens, you will pause and respond rather than merely reacting. Pause and respond based on principles and desired results. When something happens to us, we call that a stimulus: a comment, a setback, a delay, or an unexpected change. We can respond to the stimulus in a reactive or a proactive way. Reactive response: automatic, emotional, short-term results. Proactive response: intentional, principles-based, better long-term results. “Between a stimulus and a response, there is a choice.” Choose wisely. Live more intentionally. You have the power to choose your response, and in that choice lies your freedom. Greater awareness: see clearly. Better choices: act with intention. Real results: create positive change. A brighter tomorrow: be a better version of yourself.",
-          "id": "Pilih responsmu. Bentuk hari esokmu. Kamu tidak selalu bisa memilih keadaanmu atau apa yang terjadi padamu, tetapi kamu bisa memilih caramu merespons. Bahkan, kamu bisa memutuskan sekarang juga bahwa lain kali ada hal buruk terjadi, kamu akan berhenti sejenak lalu merespons, bukan sekadar bereaksi. Jeda, lalu merespons berdasarkan prinsip dan hasil yang diinginkan. Saat sesuatu terjadi pada kita, itulah yang disebut stimulus: sebuah komentar, kemunduran, keterlambatan, atau perubahan yang tak terduga. Kita bisa menanggapi stimulus itu secara reaktif atau secara proaktif. Respons reaktif: otomatis, emosional, hasilnya jangka pendek. Respons proaktif: disengaja, berdasarkan prinsip, hasil jangka panjangnya lebih baik. “Di antara stimulus dan respons, ada pilihan.” Pilihlah dengan bijak. Jalani hidup dengan lebih sengaja. Kamu punya kuasa untuk memilih responsmu, dan di dalam pilihan itulah kebebasanmu berada. Kesadaran yang lebih besar: lihat dengan jernih. Pilihan yang lebih baik: bertindak dengan sengaja. Hasil yang nyata: ciptakan perubahan positif. Hari esok yang lebih cerah: jadilah versi dirimu yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "Reactive and proactive behavior",
-          "id": "Perilaku reaktif dan proaktif"
-         },
-         "text": {
-          "en": "Same situation. Different mindset. Different outcome. Think about it: imagine this situation and consider whether it is an example of proactive or reactive behavior. Stimulus: you are late to work and another car slides into the parking spot you were signaling for. Response: you yell at the other driver. Is this a reactive or proactive behavior? What could a more proactive response look like? Reactive behavior: acting on emotions, blaming others, short-term relief, long-term tension. Proactive behavior: staying calm and in control, choosing a constructive response, focused on what you can control, better long-term outcomes. Respond today for a better tomorrow.",
-          "id": "Situasi yang sama. Pola pikir berbeda. Hasil berbeda. Coba pikirkan: bayangkan situasi ini, lalu pertimbangkan apakah ini contoh perilaku proaktif atau reaktif. Stimulus: kamu terlambat ke kantor, lalu mobil lain menyerobot tempat parkir yang sudah kamu beri lampu sein. Respons: kamu meneriaki pengemudinya. Apakah ini perilaku reaktif atau proaktif? Seperti apa respons yang lebih proaktif? Perilaku reaktif: bertindak menurut emosi, menyalahkan orang lain, lega sesaat, tegang berkepanjangan. Perilaku proaktif: tetap tenang dan terkendali, memilih respons yang membangun, fokus pada apa yang bisa dikendalikan, hasil jangka panjang yang lebih baik. Respons hari ini untuk hari esok yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "The 4 unique human gifts",
-          "id": "Empat anugerah khas manusia"
-         },
-         "text": {
-          "en": "Being proactive is about choosing your response to the influences in your life. Your ability to choose your response is based on the 4 unique human gifts. 1 Self-awareness. Our ability to stand apart from ourselves and examine our thoughts, moods, and behaviors. Pause. Be aware. 2 Imagination. Our ability to visualize beyond our present reality. See what’s possible. 3 Conscience. Our ability to sense right from wrong. Choose what’s right. 4 Independent will. Our ability to act, independent of external influences. Take action. Stay in control. These four gifts give you the power to choose your response, and ultimately, to shape a better future.",
-          "id": "Bersikap proaktif berarti memilih responsmu terhadap berbagai pengaruh dalam hidupmu. Kemampuanmu memilih respons bertumpu pada empat anugerah khas manusia. 1 Kesadaran diri. Kemampuan kita untuk mengambil jarak dari diri sendiri dan memeriksa pikiran, suasana hati, dan perilaku kita. Berhenti sejenak. Sadari. 2 Imajinasi. Kemampuan kita untuk membayangkan melampaui kenyataan saat ini. Lihat apa yang mungkin. 3 Hati nurani. Kemampuan kita untuk merasakan mana yang benar dan mana yang salah. Pilih yang benar. 4 Kehendak bebas. Kemampuan kita untuk bertindak, terlepas dari pengaruh luar. Bertindaklah. Tetap pegang kendali. Empat anugerah ini memberimu kuasa untuk memilih responsmu, dan pada akhirnya, untuk membentuk masa depan yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "Key summary",
-          "id": "Ringkasan utama"
-         },
-         "text": {
-          "en": "Turn insights into a brighter tomorrow. Stimulus: what happens around us. Response: a choice in our hands. A better tomorrow: the future we create. You can choose happiness and growth, regardless of circumstance. Highly effective people use the space between stimulus and response to choose a proactive response. The 4 unique human gifts allow you to respond proactively. Choose your response today for a better tomorrow. “It’s not what happens to us, but how we respond that determines our future.” (After Stephen R. Covey.)",
-          "id": "Ubah wawasan menjadi hari esok yang lebih cerah. Stimulus: apa yang terjadi di sekitar kita. Respons: pilihan yang ada di tangan kita. Hari esok yang lebih baik: masa depan yang kita ciptakan. Kamu bisa memilih kebahagiaan dan pertumbuhan, apa pun keadaannya. Orang yang sangat efektif memakai ruang di antara stimulus dan respons untuk memilih respons yang proaktif. Empat anugerah khas manusia memungkinkanmu merespons secara proaktif. Pilih responsmu hari ini untuk hari esok yang lebih baik. “Bukan apa yang terjadi pada kita, melainkan cara kita merespons, yang menentukan masa depan kita.” (Mengacu pada Stephen R. Covey.)"
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "Use Proactive Language: Material",
-        "id": "Pakai Bahasa yang Proaktif: Materi"
-       },
-       "intro": {
-        "en": "Three slides turn the habit into words: victim language against proactive language, the shaken can against the still bottle when the same pressures hit, and a key summary of one car cutting you off read two ways.",
-        "id": "Tiga slide mengubah kebiasaan ini menjadi kata-kata: bahasa korban lawan bahasa proaktif, kaleng yang terguncang lawan botol yang tetap tenang saat tekanan yang sama datang, dan ringkasan utama tentang satu mobil yang memotong jalanmu, dibaca dengan dua cara."
-       },
-       "base": "../../assets/lms/the-map/slides/proactive-language-",
-       "slides": [
-        {
-         "title": {
-          "en": "Use proactive language",
-          "id": "Pakai bahasa yang proaktif"
-         },
-         "text": {
-          "en": "Lesson 2. Speaking carefully is a large part of proactive behavior. Common practice: blame, accuse, and use victim language, which focuses on problems, external factors, and what we cannot control. “It’s not my fault.” “You always make this difficult.” “I can’t do anything about it.” “They made me do it.” “I have to…” Highly effective practice: use proactive language, which focuses on solutions, choices, and what we can influence. “I take responsibility.” “Let’s find a better way.” “I can choose a different approach.” “I will make it happen.” “I choose to…” “You are influenced by your genes, by your upbringing, and by your environment, but you are not determined by them.” The impact of proactive language: proactive language not only opens our mind to the space between stimulus and response, it also positively affects our brain’s chemistry and function. As you watch, consider how proactive language impacts your life. “Words shape mindsets. Mindsets shape actions. Actions shape our future.” Choose your words. Choose a better tomorrow. Key takeaway: choose your words intentionally, because they shape your mindset, your actions, and your future.",
-          "id": "Pelajaran 2. Berhati-hati dengan ucapan adalah bagian besar dari perilaku proaktif. Kebiasaan umum: menyalahkan, menuduh, dan memakai bahasa korban, yang berfokus pada masalah, faktor luar, dan hal-hal yang tidak bisa kita kendalikan. “Ini bukan salahku.” “Kamu selalu bikin ini jadi sulit.” “Aku tidak bisa berbuat apa-apa.” “Mereka yang membuatku melakukannya.” “Aku terpaksa…” Praktik yang sangat efektif: memakai bahasa proaktif, yang berfokus pada solusi, pilihan, dan hal-hal yang bisa kita pengaruhi. “Aku bertanggung jawab.” “Ayo cari cara yang lebih baik.” “Aku bisa memilih pendekatan lain.” “Aku akan mewujudkannya.” “Aku memilih untuk…” “Kamu dipengaruhi oleh gen, didikan, dan lingkunganmu, tetapi kamu tidak ditentukan oleh semua itu.” Dampak bahasa proaktif: bahasa proaktif tidak hanya membuka pikiran kita pada ruang di antara stimulus dan respons, tetapi juga berpengaruh baik pada kimia dan kerja otak kita. Sambil menonton, pikirkan bagaimana bahasa proaktif memengaruhi hidupmu. “Kata-kata membentuk pola pikir. Pola pikir membentuk tindakan. Tindakan membentuk masa depan kita.” Pilih kata-katamu. Pilih hari esok yang lebih baik. Intinya: pilih kata-katamu dengan sengaja, karena kata-kata itu membentuk pola pikir, tindakan, dan masa depanmu."
-         }
-        },
-        {
-         "title": {
-          "en": "Reactive and proactive language",
-          "id": "Bahasa reaktif dan bahasa proaktif"
-         },
-         "text": {
-          "en": "Same situations. Different responses. A brighter outcome. Reactive language gets shaken up by what happens: angry customers, crashing computer systems, yelling bosses, missed deadlines, rush-hour traffic. Pressure builds, reactions take over. Stimulus: something bad happens. You choose your response. Response: reactive or proactive? Proactive language stays calm and in control under the same angry customers, crashing systems, yelling bosses, missed deadlines and rush-hour traffic. Stay calm, choose your response, create a better outcome. It’s not just what happens, but how you respond that makes the difference.",
-          "id": "Situasi yang sama. Respons berbeda. Hasil yang lebih cerah. Bahasa reaktif ikut terguncang oleh apa pun yang terjadi: pelanggan yang marah, sistem komputer yang macet, atasan yang membentak, tenggat yang terlewat, macet di jam sibuk. Tekanan menumpuk, reaksi mengambil alih. Stimulus: sesuatu yang buruk terjadi. Kamu memilih responsmu. Respons: reaktif atau proaktif? Bahasa proaktif tetap tenang dan terkendali menghadapi pelanggan yang marah, sistem yang macet, atasan yang membentak, tenggat yang terlewat, dan macet di jam sibuk yang sama. Tetap tenang, pilih responsmu, ciptakan hasil yang lebih baik. Yang membuat perbedaan bukan hanya apa yang terjadi, melainkan caramu merespons."
-         }
-        },
-        {
-         "title": {
-          "en": "Key summary",
-          "id": "Ringkasan utama"
-         },
-         "text": {
-          "en": "Same situation. Different mindset. Different response. A better you. The same situation: a car cuts you off in traffic. How will each of these people respond? What will they say? Reactive response. Emotional, impulsive, makes it worse: “Hey! What are you doing?!?!” Explodes, honks, yells, and loses their temper; does not improve the situation; often ends up in an even worse mood. Proactive response. Calm, thoughtful, takes control: “No worries. Let them pass.” Chooses to let the car pass; pauses and responds proactively; stays calm and does not feel under pressure or explosive. 1 Being careful with what we say is part of proactive behavior. 2 Proactive language positively alters the chemistry and function of our brain. Choose your response. A calmer you creates a brighter day.",
-          "id": "Situasi yang sama. Pola pikir berbeda. Respons berbeda. Dirimu yang lebih baik. Situasinya sama: sebuah mobil memotong jalanmu di tengah lalu lintas. Bagaimana masing-masing orang ini akan merespons? Apa yang akan mereka katakan? Respons reaktif. Emosional, impulsif, membuat keadaan makin buruk: “Hei! Ngapain sih?!?!” Meledak, membunyikan klakson, berteriak, dan kehilangan kendali; tidak memperbaiki keadaan; sering berakhir dengan suasana hati yang lebih buruk. Respons proaktif. Tenang, penuh pertimbangan, memegang kendali: “Tidak apa-apa. Biarkan saja lewat.” Memilih membiarkan mobil itu lewat; berhenti sejenak lalu merespons secara proaktif; tetap tenang, tidak merasa tertekan atau ingin meledak. 1 Berhati-hati dengan ucapan adalah bagian dari perilaku proaktif. 2 Bahasa proaktif mengubah kimia dan kerja otak kita ke arah yang baik. Pilih responsmu. Dirimu yang lebih tenang menciptakan hari yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Circle of Influence: Material",
-        "id": "Lingkaran Pengaruh: Materi"
-       },
-       "intro": {
-        "en": "Next, four slides draw the two circles: the Circle of Concern you worry about but cannot control, the Circle of Influence you can act on, what happens when you spend your energy there, and how that makes you a Transition Person for the people around you.",
-        "id": "Berikutnya, empat slide menggambar dua lingkaran: Lingkaran Kepedulian yang kamu khawatirkan tetapi tidak bisa kamu kendalikan, Lingkaran Pengaruh yang bisa kamu garap, apa yang terjadi saat kamu mencurahkan energi di sana, dan bagaimana hal itu menjadikanmu Pribadi Peralihan bagi orang-orang di sekitarmu."
-       },
-       "base": "../../assets/lms/the-map/slides/circle-influence-",
-       "slides": [
-        {
-         "title": {
-          "en": "Circle of Influence and Transition Person",
-          "id": "Lingkaran Pengaruh dan Pribadi Peralihan"
-         },
-         "text": {
-          "en": "Lesson 3. Focus your energy. Create a bigger impact. Common practice: waste time and energy on things you can’t control. Highly effective practice: focus on your Circle of Influence. Circle of Concern. Things you can’t directly control: economy, traffic, other people’s opinions, global events, past events, weather. Circle of Influence. Things you can control: choices, effort, communication, preparation. Focus your energy here; expand your influence. Key insights: 1 To direct your efforts effectively, you need to understand what you can and can’t influence. Part of being proactive is focusing your energy only on those things you can influence. The Circle of Influence and Circle of Concern can help you tell the difference. 2 When we are proactive and choose to spend our efforts where we will see results, we expand our Circle of Influence and increase our effectiveness. Focus on what you can influence, not what you can’t control. Key takeaway: proactivity means investing your energy where you can create results. A more proactive you creates a brighter tomorrow.",
-          "id": "Pelajaran 3. Pusatkan energimu. Ciptakan dampak yang lebih besar. Kebiasaan umum: membuang waktu dan energi untuk hal-hal yang tidak bisa kamu kendalikan. Praktik yang sangat efektif: fokus pada Lingkaran Pengaruhmu. Lingkaran Kepedulian. Hal-hal yang tidak bisa kamu kendalikan secara langsung: ekonomi, lalu lintas, pendapat orang lain, peristiwa dunia, kejadian masa lalu, cuaca. Lingkaran Pengaruh. Hal-hal yang bisa kamu kendalikan: pilihan, usaha, komunikasi, persiapan. Curahkan energimu di sini, dan perluas pengaruhmu. Wawasan utama: 1 Supaya usahamu terarah dengan efektif, kamu perlu memahami apa yang bisa dan tidak bisa kamu pengaruhi. Bagian dari bersikap proaktif adalah mencurahkan energimu hanya pada hal-hal yang bisa kamu pengaruhi. Lingkaran Pengaruh dan Lingkaran Kepedulian bisa membantumu membedakannya. 2 Saat kita bersikap proaktif dan memilih mencurahkan usaha di tempat yang akan membuahkan hasil, Lingkaran Pengaruh kita meluas dan efektivitas kita meningkat. Fokus pada apa yang bisa kamu pengaruhi, bukan pada apa yang tidak bisa kamu kendalikan. Intinya: proaktif berarti menanamkan energimu di tempat kamu bisa menciptakan hasil. Dirimu yang lebih proaktif menciptakan hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Circle of Influence",
-          "id": "Lingkaran Pengaruh"
-         },
-         "text": {
-          "en": "Circle of Concern: the Circle of Concern represents things you worry, think, and talk about but over which you don’t have much control. Examples: potential natural disasters, politics, future health challenges. Circle of Influence: the Circle of Influence includes those things over which you do have control. Examples: emergency preparedness, community service, healthy lifestyle changes. Focus your energy where you have control. Less worry. More impact.",
-          "id": "Lingkaran Kepedulian: Lingkaran Kepedulian berisi hal-hal yang kamu khawatirkan, pikirkan, dan bicarakan, tetapi tidak banyak bisa kamu kendalikan. Contohnya: kemungkinan bencana alam, politik, masalah kesehatan di masa depan. Lingkaran Pengaruh: Lingkaran Pengaruh berisi hal-hal yang memang bisa kamu kendalikan. Contohnya: kesiapsiagaan menghadapi keadaan darurat, kegiatan sosial di lingkunganmu, perubahan gaya hidup yang lebih sehat. Curahkan energimu di tempat kamu punya kendali. Lebih sedikit cemas. Lebih banyak dampak."
-         }
-        },
-        {
-         "title": {
-          "en": "Your Circle of Influence",
-          "id": "Lingkaran Pengaruhmu"
-         },
-         "text": {
-          "en": "Circle of Concern: things you worry about but can’t control (global events, economy, other people’s opinions, politics, future health challenges). Circle of Influence: things you can control (your choices, your effort, your behaviors). Awareness, choice, positive impact. A positive impact on others. Often when we influence what we can do something about, we end up benefitting others. When this happens, we can even become a Transition Person. A Transition Person sees unhealthy, harmful, abusive, or ineffective learned behaviors in themselves or around them and chooses to focus on their Circle of Influence to have an impact on those around them. They replace reactive behaviors with proactive, helpful, effective behaviors. Influence today. A better tomorrow.",
-          "id": "Lingkaran Kepedulian: hal-hal yang kamu khawatirkan tetapi tidak bisa kamu kendalikan (peristiwa dunia, ekonomi, pendapat orang lain, politik, masalah kesehatan di masa depan). Lingkaran Pengaruh: hal-hal yang bisa kamu kendalikan (pilihanmu, usahamu, perilakumu). Kesadaran, pilihan, dampak positif. Dampak positif bagi orang lain. Sering kali, saat kita menggarap apa yang bisa kita lakukan, orang lain ikut merasakan manfaatnya. Saat itu terjadi, kita bahkan bisa menjadi Pribadi Peralihan. Pribadi Peralihan melihat perilaku hasil pembelajaran yang tidak sehat, merugikan, kasar, atau tidak efektif, baik pada dirinya sendiri maupun di sekitarnya, lalu memilih fokus pada Lingkaran Pengaruhnya untuk memberi dampak pada orang-orang di sekitarnya. Ia mengganti perilaku reaktif dengan perilaku yang proaktif, membantu, dan efektif. Berpengaruh hari ini. Hari esok yang lebih baik."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "Key summary: the key points to remember from this lesson. 01 Circle of Concern: represents things you worry, think, and talk about but over which you don’t have much control (global events, economy, other people’s opinions, future health challenges). 02 Circle of Influence: includes those things within your Circle of Concern over which you do have control (your effort, your behaviors, your choices, helping others). 03 Transition Person: sees unhealthy, harmful, abusive, or ineffective learned behaviors in themselves or around them and chooses to focus on their Circle of Influence to have an impact on those around them; they replace reactive behaviors with proactive, helpful, and effective behaviors. A more positive me, real impact, a better environment. Change starts with you. Focus on what you can influence. Focus on what you can influence today, and create a bigger impact tomorrow. Small steps today, a bigger tomorrow.",
-          "id": "Ringkasan utama: hal-hal penting yang perlu diingat dari pelajaran ini. 01 Lingkaran Kepedulian: berisi hal-hal yang kamu khawatirkan, pikirkan, dan bicarakan, tetapi tidak banyak bisa kamu kendalikan (peristiwa dunia, ekonomi, pendapat orang lain, masalah kesehatan di masa depan). 02 Lingkaran Pengaruh: berisi hal-hal di dalam Lingkaran Kepedulianmu yang memang bisa kamu kendalikan (usahamu, perilakumu, pilihanmu, membantu orang lain). 03 Pribadi Peralihan: melihat perilaku hasil pembelajaran yang tidak sehat, merugikan, kasar, atau tidak efektif, baik pada dirinya sendiri maupun di sekitarnya, lalu memilih fokus pada Lingkaran Pengaruhnya untuk memberi dampak pada orang-orang di sekitarnya. Ia mengganti perilaku reaktif dengan perilaku yang proaktif, membantu, dan efektif. Diriku yang lebih positif, dampak yang nyata, lingkungan yang lebih baik. Perubahan dimulai dari dirimu. Fokus pada apa yang bisa kamu pengaruhi. Fokus pada apa yang bisa kamu pengaruhi hari ini, dan ciptakan dampak yang lebih besar esok hari. Langkah kecil hari ini, hari esok yang lebih besar."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 5 slides",
-        "id": "Baca berikutnya · 5 slide"
-       },
-       "title": {
-        "en": "The Power of Learning Habits: Material",
-        "id": "Kekuatan Kebiasaan Belajar: Materi"
-       },
-       "intro": {
-        "en": "Next, five slides turn ownership towards how you learn: why learning habits decide how fast you adapt, six myths and truths to test, the three families of effective learning behaviours, the full wheel of those behaviours, and the module’s key takeaways.",
-        "id": "Berikutnya, lima slide mengarahkan rasa memiliki pada caramu belajar: kenapa kebiasaan belajar menentukan seberapa cepat kamu beradaptasi, enam mitos dan fakta untuk diuji, tiga kelompok perilaku belajar yang efektif, roda lengkap perilaku-perilaku itu, dan poin penting modul ini."
-       },
-       "base": "../../assets/lms/the-map/slides/learning-habits-",
-       "slides": [
-        {
-         "title": {
-          "en": "The power of learning habits",
-          "id": "Kekuatan kebiasaan belajar"
-         },
-         "text": {
-          "en": "Lesson insight. Small habits. Big growth. A more capable you. You have developed both good and bad habits, consciously and unconsciously, in all areas of your life, including when it comes to learning. In the face of change, you succeed based on how quickly you respond to challenges, acquire new skills, and adapt. Good learning habits can help you do all of these things. Watch the video after this slide, and ask yourself: which learning habits have I developed? Are they working for or against me? Take a moment to reflect. Respond faster. Be more agile in facing change. Acquire new skills. Keep growing and stay relevant. Adapt and succeed. Turn challenges into opportunities. Curiosity, discipline, practice, growth mindset. Key message: your learning habits today shape your opportunities tomorrow. Keep learning. Keep growing. Better habits, a brighter you.",
-          "id": "Wawasan pelajaran. Kebiasaan kecil. Pertumbuhan besar. Dirimu yang lebih cakap. Kamu sudah membangun kebiasaan baik maupun buruk, sengaja maupun tidak, di semua bidang hidupmu, termasuk dalam hal belajar. Saat menghadapi perubahan, keberhasilanmu bergantung pada seberapa cepat kamu menanggapi tantangan, menguasai keterampilan baru, dan beradaptasi. Kebiasaan belajar yang baik bisa membantumu melakukan semua itu. Tonton video setelah slide ini, lalu tanyakan pada dirimu: kebiasaan belajar apa saja yang sudah kubangun? Apakah kebiasaan itu menolongku atau justru menghambatku? Luangkan waktu untuk merenung. Tanggapi lebih cepat. Lebih gesit menghadapi perubahan. Kuasai keterampilan baru. Terus bertumbuh dan tetap relevan. Beradaptasi dan berhasil. Ubah tantangan menjadi peluang. Rasa ingin tahu, disiplin, latihan, pola pikir bertumbuh. Pesan utamanya: kebiasaan belajarmu hari ini membentuk peluangmu esok hari. Terus belajar. Terus bertumbuh. Kebiasaan yang lebih baik, dirimu yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Bust the myth",
-          "id": "Patahkan mitosnya"
-         },
-         "text": {
-          "en": "Let’s challenge assumptions. Not everything you hear about learning habits is true. Habits help you save time and energy by making your behaviors automatic. Forming good learning habits might require an upfront investment, but it can help you maximize your efficiency and effectiveness for the long term. Explore some common examples. As you read each of the statements, determine whether or not the following habits are truths or myths that will support your learning. Question what you hear. The right habits can unlock your potential. Common examples, myth or truth? Myth: “Cramming” is effective since you want to learn as much as possible in the shortest time. Myth: research shows that cramming does not lead to true mastery; to really learn, we need repetition and time to process the material and consolidate it into long-term memory. Truth: it is a good use of time to break down a learning intention (e.g., become an Excel wizard) into small goals (e.g., download the latest version of Excel, learn one technique first, then another, etc.). Truth: breaking big goals down into manageable, sometimes even very minor, goals has been shown to increase motivation and reduce procrastination. Truth: I’m in the driver’s seat and responsible for my own learning, but I should consistently ask for feedback and consider new perspectives. Truth: you should feel ownership over your journey, but challenging your own assumptions, and asking others to challenge them, is a critical part of learning. Think critically. Learn smarter. Grow faster. Key takeaway: good learning habits aren’t just about working harder; they’re about working smarter. Small mindset shifts, big learning outcomes.",
-          "id": "Mari menguji asumsi. Tidak semua yang kamu dengar tentang kebiasaan belajar itu benar. Kebiasaan membantumu menghemat waktu dan energi karena membuat perilakumu berjalan otomatis. Membangun kebiasaan belajar yang baik mungkin butuh investasi di awal, tetapi bisa membantumu memaksimalkan efisiensi dan efektivitas dalam jangka panjang. Kenali beberapa contoh yang umum. Saat membaca setiap pernyataan, tentukan apakah kebiasaan itu fakta atau mitos dalam mendukung belajarmu. Pertanyakan apa yang kamu dengar. Kebiasaan yang tepat bisa membuka potensimu. Contoh yang umum, mitos atau fakta? Mitos: “Sistem kebut semalam” itu efektif, karena kamu ingin mempelajari sebanyak mungkin dalam waktu sesingkat mungkin. Mitos: riset menunjukkan bahwa kebut semalam tidak menghasilkan penguasaan yang sesungguhnya. Untuk benar-benar belajar, kita butuh pengulangan dan waktu untuk mencerna materi serta mengendapkannya ke dalam ingatan jangka panjang. Fakta: memecah sebuah niat belajar (misalnya, menjadi jago Excel) menjadi sasaran-sasaran kecil (misalnya, unduh Excel versi terbaru, pelajari satu teknik dulu, lalu teknik berikutnya, dan seterusnya) adalah pemakaian waktu yang baik. Fakta: memecah sasaran besar menjadi sasaran yang terkelola, bahkan kadang sangat kecil, terbukti meningkatkan motivasi dan mengurangi kebiasaan menunda. Fakta: aku yang memegang kemudi dan bertanggung jawab atas belajarku sendiri, tetapi aku tetap perlu rutin meminta masukan dan menimbang sudut pandang baru. Fakta: kamu sebaiknya merasa memiliki perjalananmu, tetapi menantang asumsimu sendiri, dan meminta orang lain menantangnya, adalah bagian penting dari belajar. Berpikir kritis. Belajar lebih cerdas. Bertumbuh lebih cepat. Intinya: kebiasaan belajar yang baik bukan hanya soal bekerja lebih keras, tetapi soal bekerja lebih cerdas. Pergeseran pola pikir kecil, hasil belajar besar."
-         }
-        },
-        {
-         "title": {
-          "en": "What are the behaviors of effective learners?",
-          "id": "Apa saja perilaku pembelajar yang efektif?"
-         },
-         "text": {
-          "en": "From insight to action. Having just examined some truths and myths about habits, you might be asking, well, what should I focus on? Let’s start with healthy learning behaviors, the building blocks of habits. Once you understand those good behaviors, you can then turn your energy into making them automatic. We think of learning behaviors in three big categories. Ask yourself which of the following areas is your biggest opportunity for improvement and then go through the specific learning behaviors below. If you are inspired, read them all! 01 Preparation: am I investing the time and energy I need to set myself up for success? Set goals, prepare resources, manage time, create the right environment. 02 Execution: am I learning and performing to the best of my capabilities … and enjoying myself? Stay focused, use effective strategies, keep going, find joy in the process. 03 Reflection: am I learning from my past actions? Review what worked, identify what to improve, adjust my approach, apply insights moving forward. Key takeaway: preparation, execution, and reflection are the foundation of effective learning. Choose one area to focus on today, and take a small step forward. Learn, improve, repeat, grow. Small steps today, bigger possibilities tomorrow.",
-          "id": "Dari wawasan ke tindakan. Setelah menguji beberapa fakta dan mitos tentang kebiasaan, kamu mungkin bertanya, lalu apa yang harus kufokuskan? Mari mulai dari perilaku belajar yang sehat, batu bata penyusun kebiasaan. Begitu kamu memahami perilaku-perilaku baik itu, kamu bisa mencurahkan energimu untuk membuatnya berjalan otomatis. Kami membagi perilaku belajar ke dalam tiga kelompok besar. Tanyakan pada dirimu, bidang mana yang paling perlu kamu perbaiki, lalu telusuri perilaku belajar spesifik di bawahnya. Kalau sedang bersemangat, baca semuanya! 01 Persiapan: apakah aku sudah menginvestasikan waktu dan energi yang kubutuhkan untuk menyiapkan keberhasilan? Tetapkan sasaran, siapkan bahan, atur waktu, ciptakan lingkungan yang tepat. 02 Pelaksanaan: apakah aku sudah belajar dan bekerja sebaik kemampuanku, dan menikmatinya? Tetap fokus, pakai strategi yang efektif, terus melangkah, temukan kegembiraan dalam prosesnya. 03 Refleksi: apakah aku belajar dari tindakanku di masa lalu? Tinjau apa yang berhasil, kenali apa yang perlu diperbaiki, sesuaikan pendekatanku, terapkan wawasannya ke depan. Intinya: persiapan, pelaksanaan, dan refleksi adalah fondasi belajar yang efektif. Pilih satu bidang untuk difokuskan hari ini, dan ambil satu langkah kecil ke depan. Belajar, berbenah, ulangi, bertumbuh. Langkah kecil hari ini, kemungkinan yang lebih besar esok hari."
-         }
-        },
-        {
-         "title": {
-          "en": "The behaviors of effective learners",
-          "id": "Perilaku pembelajar yang efektif"
-         },
-         "text": {
-          "en": "Turn insight into action. Effective learning isn’t about talent. It’s about consistent behaviors. These behaviors fall into three key categories: preparation, execution, and reflection. Explore each category below to see the full list of behaviors and descriptions. Preparation. Set yourself up for success: plan and prioritize regular practice (make learning a habit); anticipate roadblocks (be ready for challenges); set an intention and start small (take the first step). Invest time today for a stronger tomorrow. Execution. Learn, apply, and make progress: practice deliberately and on the edge (step out of your comfort zone); teach others (reinforce your learning); be mindful (stay present and focused). Turn knowledge into action. Reflection. Learn from experience and keep growing: take time to reflect (pause and think); question your assumptions (stay curious); give and receive feedback (be open to different perspectives). Pause. Learn. Grow stronger. At the centre: a more capable you. Learn, apply, grow, make an impact. Key takeaway: small, consistent behaviors create big learning outcomes. Choose one behavior to focus on today and take a step forward. Progress starts with how you learn.",
-          "id": "Ubah wawasan menjadi tindakan. Belajar yang efektif bukan soal bakat, melainkan soal perilaku yang konsisten. Perilaku ini terbagi ke dalam tiga kelompok utama: persiapan, pelaksanaan, dan refleksi. Telusuri setiap kelompok di bawah untuk melihat daftar lengkap perilaku dan penjelasannya. Persiapan. Siapkan dirimu untuk berhasil: rencanakan dan prioritaskan latihan rutin (jadikan belajar kebiasaan); antisipasi hambatan (bersiaplah menghadapi tantangan); tetapkan niat dan mulai dari yang kecil (ambil langkah pertama). Investasikan waktu hari ini untuk hari esok yang lebih kuat. Pelaksanaan. Belajar, terapkan, dan maju: berlatih dengan sengaja di tepi kemampuanmu (keluar dari zona nyaman); ajari orang lain (perkuat hasil belajarmu); hadir sepenuhnya (tetap fokus pada saat ini). Ubah pengetahuan menjadi tindakan. Refleksi. Belajar dari pengalaman dan terus bertumbuh: luangkan waktu untuk merenung (berhenti dan berpikir); pertanyakan asumsimu (tetap ingin tahu); beri dan terima masukan (terbuka pada sudut pandang yang berbeda). Berhenti. Belajar. Tumbuh lebih kuat. Di tengahnya: dirimu yang lebih cakap. Belajar, terapkan, bertumbuh, beri dampak. Intinya: perilaku kecil yang konsisten menghasilkan hasil belajar yang besar. Pilih satu perilaku untuk difokuskan hari ini, lalu melangkahlah. Kemajuan dimulai dari caramu belajar."
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways",
-          "id": "Poin penting"
-         },
-         "text": {
-          "en": "Module wrap-up. In this module, we have covered the following key tools. Use these tools to build better habits, unlock your potential, and create a brighter future for yourself. 01 Habit loop (cue, routine, reward). Use this to make your desired behaviors stick and become regular habits. Cue: notice the trigger. Routine: take action. Reward: feel the benefit. Key insight: small, consistent actions create lasting change. 02 Unlearning unhealthy habits. Use this to identify ways to maintain healthy habits and unlearn unhealthy habits. Let go of what doesn’t serve you: old patterns, unhelpful behaviors, limiting beliefs. Key insight: create space for better habits by letting go of what holds you back. 03 Creating a personalized plan of action for habits. Use this to identify and form new, positive learning habits for your future. Set clear goals, take action, build your future. Key insight: a clear plan turns good intentions into meaningful progress. Remember: better habits are not built overnight, but with awareness, intention, and consistent action, you can create a brighter future. Small changes lead to big results. Better habits, brighter you.",
-          "id": "Penutup modul. Di modul ini, kita sudah membahas alat-alat utama berikut. Pakai alat-alat ini untuk membangun kebiasaan yang lebih baik, membuka potensimu, dan menciptakan masa depan yang lebih cerah bagi dirimu. 01 Habit loop (pemicu, rutinitas, imbalan). Pakai ini supaya perilaku yang kamu inginkan melekat dan menjadi kebiasaan rutin. Pemicu: sadari pemicunya. Rutinitas: bertindaklah. Imbalan: rasakan manfaatnya. Wawasan utama: tindakan kecil yang konsisten menciptakan perubahan yang bertahan. 02 Meninggalkan kebiasaan yang tidak sehat. Pakai ini untuk menemukan cara menjaga kebiasaan sehat dan meninggalkan kebiasaan yang tidak sehat. Lepaskan yang tidak lagi berguna bagimu: pola lama, perilaku yang tidak membantu, keyakinan yang membatasi. Wawasan utama: beri ruang untuk kebiasaan yang lebih baik dengan melepaskan apa yang menahanmu. 03 Menyusun rencana tindakan pribadi untuk kebiasaan. Pakai ini untuk mengenali dan membangun kebiasaan belajar baru yang positif untuk masa depanmu. Tetapkan sasaran yang jelas, bertindaklah, bangun masa depanmu. Wawasan utama: rencana yang jelas mengubah niat baik menjadi kemajuan yang berarti. Ingat: kebiasaan yang lebih baik tidak terbentuk dalam semalam, tetapi dengan kesadaran, niat, dan tindakan yang konsisten, kamu bisa menciptakan masa depan yang lebih cerah. Perubahan kecil membawa hasil besar. Kebiasaan yang lebih baik, dirimu yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 11 slides",
-        "id": "Baca berikutnya · 11 slide"
-       },
-       "title": {
-        "en": "The Healthy Habits: Material",
-        "id": "Kebiasaan yang Sehat: Materi"
-       },
-       "intro": {
-        "en": "Next, eleven slides make healthy learning habits practical: the three behaviour families in depth (preparation, execution, reflection), how a behaviour becomes a habit, the habit loop, the habits worth unlearning, how to maintain the ones that serve you, a workbook plan, and the takeaways. Read them, then continue to the lesson below.",
-        "id": "Berikutnya, sebelas slide membuat kebiasaan belajar yang sehat jadi praktis: tiga kelompok perilaku secara mendalam (persiapan, pelaksanaan, refleksi), cara sebuah perilaku menjadi kebiasaan, habit loop, kebiasaan yang perlu ditinggalkan, cara merawat kebiasaan yang berguna bagimu, rencana di buku kerja, dan poin-poin pentingnya. Baca semuanya, lalu lanjutkan ke pelajaran di bawah."
-       },
-       "base": "../../assets/lms/the-map/slides/healthy-habits-",
-       "slides": [
-        {
-         "title": {
-          "en": "Preparation",
-          "id": "Persiapan"
-         },
-         "text": {
-          "en": "Build better learning habits. Lay the foundation for meaningful learning by setting a clear intention, creating the right conditions, and anticipating challenges. 01 Start with clarity. Set a learning intention and then break it down into subcomponents: start with a learning intention (what do you want to be able to do?); setting an intention makes it more likely the learning will happen and that you will enjoy the process; when the overall goal seems overwhelming, break it into smaller parts so you can get started quickly and keep momentum, since small accomplishments provide a rush of dopamine. 02 Make it a priority: organize your learning to create focused space and time in your schedule: break out the steps you will need to take and include them as “must-dos” rather than optional activities; by taking ownership over your learning you satisfy your human need for autonomy, and when we do things our way we feel rewarded. 03 Stay flexible: think ahead to possible obstacles and continue to calibrate: before engaging in an activity, imagine the challenges you might face, whether skill (ability to do it), will (desire to do it), or opportunity (chance to do it), and consider how you will work around them; this proactive behaviour helps you learn more efficiently in new contexts. Key takeaway: prepare with intention, create the conditions, anticipate and adapt.",
-          "id": "Bangun kebiasaan belajar yang lebih baik. Letakkan fondasi untuk belajar yang bermakna dengan menetapkan niat yang jelas, menciptakan kondisi yang tepat, dan mengantisipasi tantangan. 01 Mulai dengan kejelasan. Tetapkan niat belajar, lalu pecah menjadi bagian-bagian kecil. Mulailah dengan niat belajar (apa yang ingin bisa kamu lakukan?). Menetapkan niat membuat belajarnya lebih mungkin terjadi dan lebih mungkin kamu nikmati. Saat tujuan besarnya terasa membebani, pecah menjadi bagian-bagian kecil supaya kamu bisa cepat mulai dan menjaga momentum, karena pencapaian kecil memberi lonjakan dopamin. 02 Jadikan prioritas: atur belajarmu supaya ada ruang dan waktu yang fokus di jadwalmu. Uraikan langkah-langkah yang perlu kamu ambil dan masukkan sebagai “wajib”, bukan kegiatan opsional. Dengan memegang kendali atas belajarmu, kamu memenuhi kebutuhan manusiawimu akan otonomi, dan saat kita mengerjakan sesuatu dengan cara kita sendiri, kita merasa dihargai. 03 Tetap luwes: pikirkan hambatan yang mungkin muncul sejak awal dan terus sesuaikan. Sebelum memulai sebuah kegiatan, bayangkan tantangan yang mungkin kamu hadapi, entah soal keterampilan (mampu melakukannya), kemauan (ingin melakukannya), atau kesempatan (ada peluang melakukannya), lalu pikirkan cara menyiasatinya. Perilaku proaktif ini membantumu belajar lebih efisien dalam situasi baru. Intinya: bersiap dengan niat, ciptakan kondisinya, antisipasi lalu sesuaikan."
-         }
-        },
-        {
-         "title": {
-          "en": "Execution",
-          "id": "Pelaksanaan"
-         },
-         "text": {
-          "en": "Build a lifetime of learning. Turn your learning plans into action and make real progress. Preparation. Set yourself up for success: set a learning intention (be clear on what you want to be able to do and break it into smaller steps); organize your learning (plan the steps and schedule them as must-dos, taking ownership to fuel autonomy and motivation); anticipate challenges (think ahead about obstacles and how you will work around them). Execution. Learn, apply, and push your limits: work at the right level of challenge (engage in tasks on your highest-priority areas that are difficult enough to stay interesting but not so difficult they discourage you); share what you know with others (teaching helps you process information more deeply and reinforces your own learning); master the art of paying close attention (be fully present, evaluate information in context, try new things, consider alternatives, and avoid autopilot). Reflection. Pause, learn, and improve: look back on your experience (what worked well, what could be better, what lessons to draw); adjust and refine (use insights to improve your approach in the next cycle); keep the momentum (celebrate progress, no matter how small, and set your next learning goal). Continuous learning, a brighter you. Growth happens when you do.",
-          "id": "Bangun kebiasaan belajar seumur hidup. Ubah rencana belajarmu menjadi tindakan dan raih kemajuan yang nyata. Persiapan. Siapkan dirimu untuk berhasil: tetapkan niat belajar (perjelas apa yang ingin bisa kamu lakukan, lalu pecah menjadi langkah-langkah kecil); atur belajarmu (rencanakan langkah-langkahnya dan jadwalkan sebagai hal wajib, dengan memegang kendali supaya otonomi dan motivasimu terjaga); antisipasi tantangan (pikirkan hambatannya sejak awal dan cara menyiasatinya). Pelaksanaan. Belajar, terapkan, dan dorong batasmu: bekerja di tingkat tantangan yang tepat (garap tugas di bidang prioritas utamamu yang cukup sulit untuk tetap menarik, tetapi tidak terlalu sulit sampai membuatmu patah semangat); bagikan apa yang kamu tahu kepada orang lain (mengajar membantumu mencerna informasi lebih dalam dan memperkuat hasil belajarmu sendiri); kuasai seni memperhatikan dengan saksama (hadir sepenuhnya, nilai informasi sesuai konteksnya, coba hal baru, timbang pilihan lain, dan hindari mode otomatis). Refleksi. Berhenti, belajar, dan berbenah: tengok kembali pengalamanmu (apa yang berhasil, apa yang bisa lebih baik, pelajaran apa yang bisa dipetik); sesuaikan dan perhalus (pakai wawasan itu untuk memperbaiki pendekatanmu di putaran berikutnya); jaga momentum (rayakan kemajuan sekecil apa pun, lalu tetapkan sasaran belajar berikutnya). Belajar terus-menerus, dirimu yang lebih cerah. Pertumbuhan terjadi saat kamu bertindak."
-         }
-        },
-        {
-         "title": {
-          "en": "Reflection",
-          "id": "Refleksi"
-         },
-         "text": {
-          "en": "Build a lifetime of learning. Pause, gain perspective, and turn your experiences into lasting learning. 01 Establish a feedback loop. Get perspectives to grow: sometimes we need additional perspectives on how we’re doing, especially with skills others can see, like communication or managing others; ask for feedback from those around you and use it to enhance your learning. 02 Self-examine often. Be honest with yourself: we can prevent our learning from falling into disrepair by addressing what psychologists call self-serving bias, our tendency to accept greater-than-deserved praise for our successes and deflect blame for our failures; self-examination forces us to hold up the mirror instead of ignoring what does not suit us. 03 Make time to reflect. Think deeper, learn longer: reflection is the mechanism that turns experiences into lasting learning; by taking time to process what you’re learning you continually refine your understanding and skills; without reflection even the most powerful experiences eventually fade from memory. A continuous cycle for growth. Key takeaway: reflection turns experience into lasting learning.",
-          "id": "Bangun kebiasaan belajar seumur hidup. Berhenti sejenak, ambil jarak, dan ubah pengalamanmu menjadi hasil belajar yang bertahan. 01 Bangun putaran masukan. Kumpulkan sudut pandang untuk bertumbuh. Kadang kita butuh sudut pandang lain tentang kemajuan kita, terutama untuk keterampilan yang terlihat oleh orang lain, seperti berkomunikasi atau mengelola orang. Mintalah masukan dari orang-orang di sekitarmu dan pakai untuk memperkaya belajarmu. 02 Sering-seringlah memeriksa diri. Jujurlah pada dirimu. Kita bisa mencegah belajar kita terbengkalai dengan menyadari apa yang oleh psikolog disebut bias pembenaran diri (self-serving bias), yaitu kecenderungan kita menerima pujian lebih dari yang layak atas keberhasilan dan mengelak dari kesalahan atas kegagalan. Memeriksa diri memaksa kita bercermin, alih-alih mengabaikan hal yang tidak menyenangkan bagi kita. 03 Luangkan waktu untuk merenung. Berpikir lebih dalam, belajar lebih tahan lama. Refleksi adalah mekanisme yang mengubah pengalaman menjadi hasil belajar yang bertahan. Dengan meluangkan waktu untuk mencerna apa yang kamu pelajari, kamu terus mempertajam pemahaman dan keterampilanmu. Tanpa refleksi, pengalaman paling berkesan sekalipun lama-lama akan pudar dari ingatan. Siklus yang terus berputar untuk bertumbuh. Intinya: refleksi mengubah pengalaman menjadi hasil belajar yang bertahan."
-         }
-        },
-        {
-         "title": {
-          "en": "How do you turn behaviors into habits?",
-          "id": "Bagaimana mengubah perilaku menjadi kebiasaan?"
-         },
-         "text": {
-          "en": "Small changes, bigger impact. Research shows it takes about one to two months of consistent practice to make a behavior a habit. But habit formation is about more than just time: the key is to understand how habits form and persist, and then take deliberate actions to make behaviors truly stick. Once you have identified the learning habit you want to form (for example, giving and receiving feedback) you can make the behavior stick by applying the three components of the habit loop: 1 Cue (trigger). A signal that prompts you to start the behavior; 2 Routine (action). The behavior you consistently take; 3 Reward (outcome). A positive result that makes you want to repeat the behavior. Turbocharge with meaning: throughout this process you can strengthen habit formation by connecting it to sources of meaning. Choose a habit that truly resonates with you (be clear on why it is important and how it aligns with your values and goals). See the bigger purpose (giving and receiving feedback, for example, is an opportunity to build stronger connections with colleagues whose success you care about). Drive continuous personal improvement (meaning gives you the motivation to keep going, especially when it feels challenging). Key takeaway: understand the process, take intentional action, connect it to what matters.",
-          "id": "Perubahan kecil, dampak yang lebih besar. Riset menunjukkan bahwa dibutuhkan sekitar satu sampai dua bulan latihan yang konsisten untuk menjadikan sebuah perilaku kebiasaan. Tetapi membentuk kebiasaan bukan hanya soal waktu. Kuncinya adalah memahami bagaimana kebiasaan terbentuk dan bertahan, lalu mengambil tindakan yang disengaja supaya perilaku itu benar-benar melekat. Begitu kamu sudah menentukan kebiasaan belajar yang ingin kamu bangun (misalnya, memberi dan menerima masukan), kamu bisa membuat perilaku itu melekat dengan menerapkan tiga komponen habit loop: 1 Pemicu (cue). Sinyal yang mendorongmu memulai perilaku itu; 2 Rutinitas (tindakan). Perilaku yang kamu lakukan secara konsisten; 3 Imbalan (hasil). Hasil positif yang membuatmu ingin mengulang perilaku itu. Perkuat dengan makna: sepanjang proses ini, kamu bisa memperkuat pembentukan kebiasaan dengan mengaitkannya pada sumber makna. Pilih kebiasaan yang benar-benar terasa dekat denganmu (perjelas kenapa kebiasaan itu penting dan bagaimana kebiasaan itu selaras dengan nilai dan tujuanmu). Lihat tujuan yang lebih besar (memberi dan menerima masukan, misalnya, adalah kesempatan membangun hubungan yang lebih kuat dengan rekan-rekan yang keberhasilannya kamu pedulikan). Dorong perbaikan diri yang terus-menerus (makna memberimu motivasi untuk terus melangkah, terutama saat terasa berat). Intinya: pahami prosesnya, bertindak dengan sengaja, kaitkan dengan hal yang penting."
-         }
-        },
-        {
-         "title": {
-          "en": "The Habit Loop",
-          "id": "Habit Loop"
-         },
-         "text": {
-          "en": "Build better habits. A simple but powerful framework to turn behaviors into lasting habits: cue (reminder) → routine (action) → reward (outcome), a cycle that turns behaviors into lasting habits. 1 Reminder (cue). What’s the reminder? In other words, what will trigger your habit? You might set an obvious reminder, for example a calendar invite that pops up at the start of every week; or try a physical note or object, like a reminder you place by your desk, or a calendar out in the open featuring an X on every day that you gave or received feedback. 2 Routine (action). What’s the routine? What steps do you need to take to follow through on this habit? Perhaps you set aside time for feedback in your standing meetings; maybe you reach out to a new person each week to ask for feedback and a different person to give feedback; in addition to putting the habit into practice, maybe you also set aside time to read articles, watch videos, and reflect on the roadblocks you might encounter and how you could solve them. 3 Reward (outcome). What will your reward be? What will make you feel good about your routine? In approaching feedback as a learning habit, the feedback itself might be the reward; but also consider other physical, mental, or emotional rewards, such as a “happy” folder in your inbox with a set of reminders to make you smile, the satisfaction of marking that big X on your calendar, or something tangible, like ordering yourself that new book you have been wanting. “A habit is a bridge between who you are today and who you want to be tomorrow.” Learn intentionally, apply consistently, grow continuously.",
-          "id": "Bangun kebiasaan yang lebih baik. Kerangka sederhana tetapi ampuh untuk mengubah perilaku menjadi kebiasaan yang bertahan: pemicu (pengingat) → rutinitas (tindakan) → imbalan (hasil), sebuah siklus yang mengubah perilaku menjadi kebiasaan yang bertahan. 1 Pengingat (pemicu). Apa pengingatnya? Dengan kata lain, apa yang akan memicu kebiasaanmu? Kamu bisa memasang pengingat yang jelas, misalnya undangan kalender yang muncul setiap awal minggu. Atau coba catatan atau benda fisik, seperti pengingat yang kamu taruh di dekat meja kerja, atau kalender yang dipajang dengan tanda X di setiap hari kamu memberi atau menerima masukan. 2 Rutinitas (tindakan). Apa rutinitasnya? Langkah apa yang perlu kamu ambil untuk menjalankan kebiasaan ini? Mungkin kamu menyisihkan waktu khusus untuk masukan di rapat rutinmu. Mungkin setiap minggu kamu menghubungi satu orang baru untuk meminta masukan dan satu orang lain untuk diberi masukan. Selain mempraktikkan kebiasaannya, mungkin kamu juga menyisihkan waktu untuk membaca artikel, menonton video, dan memikirkan hambatan yang mungkin kamu temui serta cara mengatasinya. 3 Imbalan (hasil). Apa imbalanmu? Apa yang akan membuatmu senang dengan rutinitasmu? Kalau masukan kamu perlakukan sebagai kebiasaan belajar, masukan itu sendiri bisa menjadi imbalannya. Tetapi pertimbangkan juga imbalan fisik, mental, atau emosional lain, seperti folder “bahagia” di kotak masukmu berisi pengingat yang membuatmu tersenyum, kepuasan menorehkan tanda X besar di kalendermu, atau sesuatu yang nyata, seperti memesan buku baru yang sudah lama kamu incar. “Kebiasaan adalah jembatan antara dirimu hari ini dan dirimu yang kamu inginkan esok hari.” Belajar dengan sengaja, terapkan secara konsisten, bertumbuh terus-menerus."
-         }
-        },
-        {
-         "title": {
-          "en": "What habits do you need to unlearn?",
-          "id": "Kebiasaan apa yang perlu kamu tinggalkan?"
-         },
-         "text": {
-          "en": "Reflect and grow. You have explored what positive learning behaviors are and how you can turn them into habits. There is also an important flip side to forming new habits: unlearning old habits. In the same way we know which habits support learning, we know which do not. This list is not meant to be exhaustive, but rather to provide an easy opportunity to check in with yourself: which habits might be holding you back? Which habits might you unlearn in order to make space for new, healthier habits? Let go of what holds you back to make room for a better you: old habits, comfort zone; new habits, greater possibilities. Key takeaway: unlearning is not about losing a part of yourself, but about creating space for a better version of you. “Sometimes letting go is the most productive thing you can do.”",
-          "id": "Renungkan dan bertumbuh. Kamu sudah mengenal apa itu perilaku belajar yang positif dan cara mengubahnya menjadi kebiasaan. Ada sisi lain yang juga penting dari membangun kebiasaan baru: meninggalkan kebiasaan lama. Sama seperti kita tahu kebiasaan mana yang mendukung belajar, kita juga tahu mana yang tidak. Daftar ini tidak dimaksudkan lengkap, tetapi memberi kesempatan mudah untuk memeriksa dirimu: kebiasaan mana yang mungkin menahanmu? Kebiasaan mana yang bisa kamu tinggalkan supaya ada ruang untuk kebiasaan baru yang lebih sehat? Lepaskan apa yang menahanmu supaya ada ruang untuk dirimu yang lebih baik: kebiasaan lama, zona nyaman; kebiasaan baru, kemungkinan yang lebih besar. Intinya: meninggalkan kebiasaan bukan berarti kehilangan sebagian dirimu, melainkan memberi ruang untuk versi dirimu yang lebih baik. “Kadang, melepaskan adalah hal paling produktif yang bisa kamu lakukan.”"
-         }
-        },
-        {
-         "title": {
-          "en": "Common unhealthy habits",
-          "id": "Kebiasaan tidak sehat yang umum"
-         },
-         "text": {
-          "en": "Build better learning habits. Be aware of the habits that can get in the way of your learning journey. 01 Before you learn, unhealthy preparation habits: cramming (amassing a lot of information in a short period of time leads to a lack of truly understanding the situation); poor diet (bad nutrition can lower attention, memory, and learning); lack of sleep or exercise (physical exhaustion and a lifestyle without much exercise are detrimental to attention, remembering information, and motivation); poor time management (lack of identifying the important tasks leads to little time and space to learn); procrastination (delaying when you do tasks will make the learning process more difficult). 02 While you learn, unhealthy execution habits: performance first (the need to always show that you can do this and are an expert detracts from effective learning); self-sabotaging or handicapping (not trying hard enough is sometimes a symptom of fear of failure); imitation (trying to do something because others are doing it and for their approval is mentally and emotionally exhausting); autopilot mode (not being careful about the choices you make robs you of ownership of your learning, as well as the enjoyment and effectiveness of the process). 03 After you learn, unhealthy reflection habits: self-serving attributions (not taking responsibility for failures and overestimating your role in successes undermines your ability to learn); lone wolf (doing things alone and never asking for help is a way to lower your learning potential). Prepare well, learn better. Same awareness, a brighter tomorrow.",
-          "id": "Bangun kebiasaan belajar yang lebih baik. Waspadai kebiasaan yang bisa menghambat perjalanan belajarmu. 01 Sebelum belajar, kebiasaan persiapan yang tidak sehat: kebut semalam (menjejalkan banyak informasi dalam waktu singkat membuatmu tidak benar-benar memahami persoalannya); pola makan buruk (gizi yang buruk bisa menurunkan perhatian, ingatan, dan kemampuan belajar); kurang tidur atau olahraga (kelelahan fisik dan gaya hidup yang minim gerak merusak perhatian, daya ingat, dan motivasi); manajemen waktu yang buruk (tidak mengenali tugas-tugas penting membuat waktu dan ruang untuk belajar jadi sempit); menunda-nunda (menunda pekerjaan membuat proses belajar makin sulit). 02 Saat belajar, kebiasaan pelaksanaan yang tidak sehat: kinerja dulu (kebutuhan untuk selalu menunjukkan bahwa kamu bisa dan sudah ahli justru mengganggu belajar yang efektif); menyabotase atau menghambat diri sendiri (tidak berusaha cukup keras kadang merupakan gejala takut gagal); meniru (melakukan sesuatu karena orang lain melakukannya dan demi persetujuan mereka itu melelahkan secara mental dan emosional); mode otomatis (tidak berhati-hati dengan pilihan yang kamu ambil merampas rasa memiliki atas belajarmu, juga kenikmatan dan efektivitas prosesnya). 03 Setelah belajar, kebiasaan refleksi yang tidak sehat: pembenaran diri (tidak bertanggung jawab atas kegagalan dan melebih-lebihkan peranmu dalam keberhasilan merusak kemampuanmu belajar); serigala penyendiri (mengerjakan semuanya sendiri dan tidak pernah minta tolong adalah cara mengecilkan potensi belajarmu). Bersiap dengan baik, belajar lebih baik. Kesadaran yang sama, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "How can you maintain healthy habits?",
-          "id": "Bagaimana merawat kebiasaan yang sehat?"
-         },
-         "text": {
-          "en": "Sustain for the long run. Habits are like cars: they work well when they’re new, but require care and upkeep to keep running smoothly. Making time to deliberately review your learning habits is like servicing a car: replacing older, outdated parts with new ones so the overall system functions as effectively as possible. A practical way to review your habits. Take time to reflect using the following steps and questions. 1 Examine and question (look closely at your current habits): what are my current learning habits? Which ones are working and which are not? 2 Analyze your patterns (identify trends and root causes): what triggers these habits? When do I tend to fall off track? Are there any patterns in my behavior? 3 Consider alternative perspectives (look at different ways to approach it): how might someone else view this? What alternative habits could be more helpful? What can I learn from past experiences? 4 Build your self-confidence (reinforce your belief in change): what am I doing well right now? How can I keep it going? Which habits do I want to strengthen? 5 Set a plan for continuing (define clear actions and safeguards): what is working well that I should continue? What is not, and how might I try a different approach? What support do I need? 6 Make a commitment (turn insights into action): what assumptions am I making? What do I need to consider? If others observed my learning habits, what feedback might they give? Keep your habits in good shape, so you can go further. “Discipline is the bridge between goals and accomplishment.” (Jim Rohn)",
-          "id": "Bertahan untuk jangka panjang. Kebiasaan itu seperti mobil: berjalan baik saat masih baru, tetapi butuh perawatan supaya tetap lancar. Meluangkan waktu untuk sengaja meninjau kebiasaan belajarmu itu seperti servis mobil: mengganti suku cadang yang lama dan usang dengan yang baru supaya seluruh sistemnya bekerja seefektif mungkin. Cara praktis meninjau kebiasaanmu. Luangkan waktu untuk merenung dengan langkah dan pertanyaan berikut. 1 Periksa dan pertanyakan (lihat kebiasaanmu saat ini dengan saksama): apa saja kebiasaan belajarku saat ini? Mana yang berhasil dan mana yang tidak? 2 Analisis polanya (kenali kecenderungan dan akar penyebabnya): apa yang memicu kebiasaan-kebiasaan ini? Kapan aku cenderung keluar jalur? Adakah pola dalam perilakuku? 3 Pertimbangkan sudut pandang lain (lihat berbagai cara mendekatinya): bagaimana orang lain mungkin melihat ini? Kebiasaan lain apa yang mungkin lebih membantu? Apa yang bisa kupelajari dari pengalaman sebelumnya? 4 Bangun kepercayaan dirimu (perkuat keyakinanmu bahwa perubahan itu mungkin): apa yang sudah kulakukan dengan baik sekarang? Bagaimana caranya supaya terus berjalan? Kebiasaan mana yang ingin kuperkuat? 5 Susun rencana untuk melanjutkan (tetapkan tindakan dan pengaman yang jelas): apa yang sudah berjalan baik dan perlu kuteruskan? Apa yang tidak, dan bagaimana aku bisa mencoba pendekatan lain? Dukungan apa yang kubutuhkan? 6 Buat komitmen (ubah wawasan menjadi tindakan): asumsi apa yang sedang kupegang? Apa yang perlu kupertimbangkan? Kalau orang lain mengamati kebiasaan belajarku, masukan apa yang mungkin mereka berikan? Jaga kebiasaanmu tetap prima, supaya kamu bisa melangkah lebih jauh. “Disiplin adalah jembatan antara tujuan dan pencapaian.” (Jim Rohn)"
-         }
-        },
-        {
-         "title": {
-          "en": "What’s your plan?",
-          "id": "Apa rencanamu?"
-         },
-         "text": {
-          "en": "Workbook exercise. Cultivating great habits will make your learning more effective and more fun. You do not need to implement all of these positive habits at once: let’s focus on just one to start. 1 Start by choosing which behavior you’ll focus on. How will you truly make this new behavior a habit? Follow the steps: set a reminder (determine how you’ll remind yourself, that is, what cue will trigger your habit; for example an electronic reminder on your phone, a physical note or object, or a specific meeting or event); define the routine (outline what the habit will look like in action; for example read for 15 minutes every morning, review notes after each session, or do a short reflection at the end of the day); choose a reward (decide what will make you feel good about your routine; for example a physical reward such as a favourite coffee, a mental or emotional reward such as a sense of progress, or something connected to the experience itself such as enjoyment). 2 Reflect further. Take a moment to think about the following questions: why is this habit meaningful to you, and how will it help you in your learning journey? How will you ensure you are maintaining this habit, and what systems or support will you use? What might you need to unlearn: are there old habits that could get in the way? Reminder: start small, be consistent, celebrate progress. “A better you is built by better habits.”",
-          "id": "Latihan buku kerja. Membangun kebiasaan yang hebat akan membuat belajarmu lebih efektif dan lebih menyenangkan. Kamu tidak perlu menerapkan semua kebiasaan positif ini sekaligus. Mari fokus pada satu dulu. 1 Mulailah dengan memilih perilaku yang akan kamu fokuskan. Bagaimana kamu akan benar-benar menjadikan perilaku baru ini kebiasaan? Ikuti langkah-langkahnya: pasang pengingat (tentukan cara kamu mengingatkan diri, yaitu pemicu apa yang akan memicu kebiasaanmu; misalnya pengingat elektronik di ponsel, catatan atau benda fisik, atau rapat atau acara tertentu); tentukan rutinitasnya (uraikan seperti apa kebiasaan itu saat dijalankan; misalnya membaca 15 menit setiap pagi, meninjau catatan setelah setiap sesi, atau merenung sebentar di akhir hari); pilih imbalannya (tentukan apa yang akan membuatmu senang dengan rutinitasmu; misalnya imbalan fisik seperti kopi favorit, imbalan mental atau emosional seperti rasa maju, atau sesuatu yang melekat pada pengalamannya sendiri, seperti rasa senang). 2 Renungkan lebih jauh. Luangkan waktu memikirkan pertanyaan-pertanyaan berikut: kenapa kebiasaan ini bermakna bagimu, dan bagaimana kebiasaan ini akan membantumu dalam perjalanan belajarmu? Bagaimana kamu akan memastikan kebiasaan ini terjaga, dan sistem atau dukungan apa yang akan kamu pakai? Apa yang mungkin perlu kamu tinggalkan: adakah kebiasaan lama yang bisa menghalangi? Ingat: mulai dari yang kecil, konsisten, rayakan kemajuan. “Dirimu yang lebih baik dibangun oleh kebiasaan yang lebih baik.”"
-         }
-        },
-        {
-         "title": {
-          "en": "Key takeaways to remember",
-          "id": "Poin penting untuk diingat"
-         },
-         "text": {
-          "en": "Key takeaways. In this module, we have covered several key tools that can help you build better, more sustainable, and more meaningful learning habits. 01 The habit loop (cue, routine, reward). Use this framework to make your desired behaviors stick and become consistent, regular habits: cue (trigger) → routine (action) → reward (motivation). 02 Unlearning unhealthy habits. Use this tool to identify ways to maintain healthy habits and let go of habits that no longer serve you: let go of unhealthy habits, make space for a better you. 03 Creating a personalized plan of action for habits. Use this tool to identify and form new, positive learning habits that will support your growth in the future: new habit, specific steps, realistic timeline, track progress, stay committed. “Big change always starts with small, consistent steps.” Better habits, a brighter you, a brighter tomorrow.",
-          "id": "Poin penting. Di modul ini, kita sudah membahas beberapa alat utama yang bisa membantumu membangun kebiasaan belajar yang lebih baik, lebih berkelanjutan, dan lebih bermakna. 01 Habit loop (pemicu, rutinitas, imbalan). Pakai kerangka ini supaya perilaku yang kamu inginkan melekat dan menjadi kebiasaan yang konsisten dan rutin: pemicu (cue) → rutinitas (tindakan) → imbalan (motivasi). 02 Meninggalkan kebiasaan yang tidak sehat. Pakai alat ini untuk menemukan cara menjaga kebiasaan sehat dan melepaskan kebiasaan yang tidak lagi berguna bagimu: lepaskan kebiasaan yang tidak sehat, beri ruang untuk dirimu yang lebih baik. 03 Menyusun rencana tindakan pribadi untuk kebiasaan. Pakai alat ini untuk mengenali dan membangun kebiasaan belajar baru yang positif, yang akan mendukung pertumbuhanmu di masa depan: kebiasaan baru, langkah spesifik, tenggat yang realistis, pantau kemajuan, tetap berkomitmen. “Perubahan besar selalu dimulai dari langkah kecil yang konsisten.” Kebiasaan yang lebih baik, dirimu yang lebih cerah, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "What you’ve learned",
-          "id": "Yang sudah kamu pelajari"
-         },
-         "text": {
-          "en": "In summary. In this course, you have learned how to: 01 set meaningful learning intentions (define what you want to learn and why it matters, so you can stay focused and motivated); 02 create behaviors that are used by effective learners (adopt practical behaviors and strategies used by successful learners to improve your learning experience); 03 turn behaviors into habits using the habit loop (use cue, routine, and reward to build and sustain positive habits); 04 use the APR framework (apply it to take on challenging situations with an adaptable and resilient mindset). We hope you can apply some of these lessons to your day-to-day life decisions, whether it’s using the APR framework to shift your mindset when talking to your co-workers, or unlearning unhealthy habits to help you reach your fitness goals. Small steps today, a bigger tomorrow.",
-          "id": "Ringkasnya. Di kursus ini, kamu sudah belajar cara: 01 menetapkan niat belajar yang bermakna (tentukan apa yang ingin kamu pelajari dan kenapa itu penting, supaya kamu tetap fokus dan termotivasi); 02 membangun perilaku yang dipakai pembelajar yang efektif (terapkan perilaku dan strategi praktis yang dipakai pembelajar yang berhasil untuk memperbaiki pengalaman belajarmu); 03 mengubah perilaku menjadi kebiasaan dengan habit loop (pakai pemicu, rutinitas, dan imbalan untuk membangun dan menjaga kebiasaan positif); 04 memakai kerangka APR (terapkan untuk menghadapi situasi sulit dengan pola pikir yang adaptif dan tangguh). Semoga sebagian pelajaran ini bisa kamu terapkan dalam keputusan sehari-hari, entah dengan memakai kerangka APR untuk menggeser pola pikirmu saat berbicara dengan rekan kerja, atau dengan meninggalkan kebiasaan yang tidak sehat supaya target kebugaranmu tercapai. Langkah kecil hari ini, hari esok yang lebih besar."
-         }
-        }
-       ]
-      }
-     ],
      "videos": [
       {
        "src": {
@@ -1757,14 +2945,13 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:1",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows the first slides: Sinta, a message at ten at night, and the two seconds in which she chooses her reply. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide pertama: Sinta, sebuah pesan pukul sepuluh malam, dan dua detik ketika ia memilih balasannya. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Sinta, a message at ten at night, and the two seconds in which she chooses her reply. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Sinta, sebuah pesan pukul sepuluh malam, dan dua detik ketika ia memilih balasannya. Tonton, lalu lanjutkan ke bacaan di bawah."
      },
      "sections": [
       {
@@ -1885,7 +3072,611 @@ window.MT_LMS['the-map'] = {
         "id": "Keluhan tentang orang lain berubah menjadi satu langkah spesifik di dalam zona kendali yang tidak butuh izin siapa pun, dan percakapan itulah respons yang dipilih."
        }
       }
-     ]
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 8 slides",
+       "id": "Baca dulu · 8 slide"
+      },
+      "title": {
+       "en": "The Gap",
+       "id": "Celah Itu"
+      },
+      "intro": {
+       "en": "Eight ideas in a few minutes. Then a short film, and the reading below turns each idea into a move for this week.",
+       "id": "Delapan gagasan dalam beberapa menit. Setelah itu satu film singkat, lalu bacaan di bawah mengubah setiap gagasan menjadi langkah untuk minggu ini."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The gap",
+         "id": "Celah itu"
+        },
+        "points": [
+         {
+          "en": "The stimulus is fixed. The two seconds after it are not.",
+          "id": "Stimulusnya sudah tidak bisa diubah. Dua detik sesudahnya masih bisa."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Train on small things",
+         "id": "Berlatih pada hal kecil"
+        },
+        "points": [
+         {
+          "en": "Daily practice on emails, comments and queues is what holds when a rejection arrives.",
+          "id": "Latihan harian pada email, komentar, dan antrean inilah yang menahanmu saat penolakan datang."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Ownership language",
+         "id": "Bahasa rasa memiliki"
+        },
+        "points": [
+         {
+          "en": "Listen to yourself for one day and count the “I have to” sentences.",
+          "id": "Dengarkan dirimu selama sehari dan hitung kalimat “aku terpaksa”."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Passenger or owner",
+         "id": "Penumpang atau pemilik"
+        },
+        "points": [
+         {
+          "en": "“Tell me about a difficult period and how you handled it.” Two answers to the same question.",
+          "id": "“Ceritakan masa sulit yang pernah kamu alami dan cara kamu menghadapinya.” Dua jawaban untuk pertanyaan yang sama."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Initiative without permission",
+         "id": "Inisiatif tanpa perlu izin"
+        },
+        "points": [
+         {
+          "en": "Keep a short list of such moves, and do one whenever you feel stuck.",
+          "id": "Simpan daftar pendek langkah semacam ini, dan kerjakan satu setiap kali merasa buntu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three mistakes",
+         "id": "Tiga kekeliruan"
+        },
+        "points": [
+         {
+          "en": "Being proactive is not being aggressive, and it is not looking busy.",
+          "id": "Proaktif bukan berarti agresif, dan bukan pula sok sibuk."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Make it a habit",
+         "id": "Jadikan kebiasaan"
+        },
+        "points": [
+         {
+          "en": "Habits form the same way everywhere: something triggers them, you do them, and something pays you back.",
+          "id": "Kebiasaan terbentuk dengan cara yang sama di mana pun: ada yang memicu, kamu melakukannya, lalu ada yang membalasnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "This week",
+         "id": "Minggu ini"
+        },
+        "points": [
+         {
+          "en": "The reading below walks you through each of the three.",
+          "id": "Bacaan di bawah memandumu melewati ketiganya."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/fg-reckoning.jpg",
+       "module": {
+        "en": "Module 2 · Self-Leadership Foundations",
+        "id": "Modul 2 · Fondasi Kepemimpinan Diri"
+       },
+       "lesson": {
+        "n": "2.2",
+        "title": {
+         "en": "Ownership: Acting Inside Your Control",
+         "id": "Rasa Memiliki: Bertindak di Dalam Kendalimu"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Between what happens and what you do there is a gap, and you choose inside it",
+         "id": "Di antara apa yang terjadi dan apa yang kamu lakukan ada celah, dan di sanalah kamu memilih"
+        },
+        {
+         "en": "The gap is trained on small stimuli, long before the big ones arrive",
+         "id": "Celah itu dilatih pada stimulus kecil, jauh sebelum stimulus besar datang"
+        },
+        {
+         "en": "Your language shows who is writing your story: you, or the weather",
+         "id": "Bahasamu menunjukkan siapa yang menulis ceritamu: kamu, atau cuaca"
+        },
+        {
+         "en": "In an interview, a history told as choices sounds like an owner",
+         "id": "Dalam wawancara, riwayat yang diceritakan sebagai rangkaian pilihan terdengar seperti pemilik"
+        },
+        {
+         "en": "Inside your control zone there is always a move that needs nobody's approval",
+         "id": "Di dalam zona kendalimu selalu ada langkah yang tidak butuh persetujuan siapa pun"
+        },
+        {
+         "en": "Ownership is not saying yes to everything, and it is not self-blame",
+         "id": "Rasa memiliki bukan berarti mengiyakan semuanya, dan bukan pula menyalahkan diri"
+        },
+        {
+         "en": "A new response sticks when it has a cue, a routine and a reward",
+         "id": "Respons baru melekat ketika punya pemicu, rutinitas, dan imbalan"
+        },
+        {
+         "en": "This week: one event, three sentences, one move",
+         "id": "Minggu ini: satu kejadian, tiga kalimat, satu langkah"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The gap",
+          "id": "Celah itu"
+         },
+         "p": {
+          "en": "The same stimulus, and two different careers.",
+          "id": "Stimulusnya sama, kariernya berbeda."
+         }
+        },
+        {
+         "h": {
+          "en": "Train on small things",
+          "id": "Berlatih pada hal kecil"
+         },
+         "p": {
+          "en": "Daily practice on emails, comments and queues is what holds when a rejection arrives.",
+          "id": "Latihan harian pada email, komentar, dan antrean inilah yang menahanmu saat penolakan datang."
+         }
+        },
+        {
+         "h": {
+          "en": "Ownership language",
+          "id": "Bahasa rasa memiliki"
+         },
+         "p": {
+          "en": "Language rehearses a way of seeing thousands of times a day. It is not a matter of wording.",
+          "id": "Bahasa melatih sebuah cara pandang ribuan kali sehari. Ini bukan sekadar soal pilihan kata."
+         }
+        },
+        {
+         "h": {
+          "en": "Passenger or owner",
+          "id": "Penumpang atau pemilik"
+         },
+         "p": {
+          "en": "The stimulus is the same. The strong answer moves the story inside the control zone.",
+          "id": "Stimulusnya sama. Jawaban yang kuat memindahkan ceritanya ke dalam zona kendali."
+         }
+        },
+        {
+         "h": {
+          "en": "Initiative without permission",
+          "id": "Inisiatif tanpa perlu izin"
+         },
+         "p": {
+          "en": "Movement inside your control is the antidote to anxiety about what you cannot move.",
+          "id": "Bergerak di dalam kendalimu adalah penawar bagi kecemasan soal hal-hal yang tidak bisa kamu ubah."
+         }
+        },
+        {
+         "h": {
+          "en": "Three mistakes",
+          "id": "Tiga kekeliruan"
+         },
+         "p": {
+          "en": "Being proactive is not being aggressive, and it is not looking busy.",
+          "id": "Proaktif bukan berarti agresif, dan bukan pula sok sibuk."
+         }
+        },
+        {
+         "h": {
+          "en": "Make it a habit",
+          "id": "Jadikan kebiasaan"
+         },
+         "p": {
+          "en": "Pick one cue this week. One is enough to start the pattern.",
+          "id": "Pilih satu pemicu minggu ini. Satu sudah cukup untuk memulai polanya."
+         }
+        },
+        {
+         "h": {
+          "en": "This week",
+          "id": "Minggu ini"
+         },
+         "p": {
+          "en": "The reading below walks you through each of the three.",
+          "id": "Bacaan di bawah memandumu melewati ketiganya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Between what happens and what you do there is a gap, and you choose inside it",
+          "id": "Di antara apa yang terjadi dan apa yang kamu lakukan ada celah, dan di sanalah kamu memilih"
+         },
+         "em": {
+          "en": "you choose inside it",
+          "id": "di sanalah kamu memilih"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "mail",
+           "en": "Stimulus",
+           "id": "Stimulus",
+           "d": {
+            "en": "A rejection email arrives. That part is fixed.",
+            "id": "Email penolakan masuk. Bagian ini sudah tidak bisa diubah."
+           }
+          },
+          {
+           "icon": "pause",
+           "en": "The gap",
+           "id": "Celah",
+           "d": {
+            "en": "Two seconds. Notice them.",
+            "id": "Dua detik. Sadari keberadaannya."
+           }
+          },
+          {
+           "icon": "route",
+           "en": "Response",
+           "id": "Respons",
+           "d": {
+            "en": "A week of spiralling, or the next application sent tonight",
+            "id": "Terpuruk seminggu, atau lamaran berikutnya terkirim malam ini"
+           }
+          }
+         ],
+         "band": {
+          "en": "The same stimulus, and two different careers.",
+          "id": "Stimulusnya sama, kariernya berbeda."
+         },
+         "img": "../../assets/bg/journey-start.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The gap is trained on small stimuli, long before the big ones arrive",
+          "id": "Celah itu dilatih pada stimulus kecil, jauh sebelum stimulus besar datang"
+         },
+         "em": {
+          "en": "small stimuli",
+          "id": "stimulus kecil"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "chat",
+           "en": "A sarcastic comment",
+           "id": "Komentar sinis",
+           "d": {
+            "en": "Notice the pull to answer in kind",
+            "id": "Sadari dorongan untuk membalas dengan nada yang sama"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "A slow reply",
+           "id": "Balasan yang lama datang",
+           "d": {
+            "en": "Notice the story you start to write about it",
+            "id": "Sadari cerita yang mulai kamu karang tentangnya"
+           },
+           "img": "../../assets/bg/ep-stage-permission.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "A boring task",
+           "id": "Tugas yang membosankan",
+           "d": {
+            "en": "Notice the urge to escape to your phone",
+            "id": "Sadari keinginan untuk kabur ke ponselmu"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Your language shows who is writing your story: you, or the weather",
+          "id": "Bahasamu menunjukkan siapa yang menulis ceritamu: kamu, atau cuaca"
+         },
+         "em": {
+          "en": "who is writing your story",
+          "id": "siapa yang menulis ceritamu"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“I have to attend.” “She makes me furious.” “There's nothing I can do.”",
+           "id": "“Aku terpaksa hadir.” “Dia bikin aku murka.” “Tidak ada yang bisa kulakukan.”",
+           "l": {
+            "en": "Reactive",
+            "id": "Reaktif"
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "“I choose to attend because the relationship matters.” “Let's look at what we can do.”",
+           "id": "“Aku memilih hadir karena hubungan ini penting.” “Mari lihat apa yang bisa kita lakukan.”",
+           "l": {
+            "en": "Ownership",
+            "id": "Rasa memiliki"
+           },
+           "img": "../../assets/bg/mp-stage-author.jpg"
+          }
+         ],
+         "band": {
+          "en": "Language rehearses a way of seeing thousands of times a day. It is not a matter of wording.",
+          "id": "Bahasa melatih sebuah cara pandang ribuan kali sehari. Ini bukan sekadar soal pilihan kata."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "In an interview, a history told as choices sounds like an owner",
+          "id": "Dalam wawancara, riwayat yang diceritakan sebagai rangkaian pilihan terdengar seperti pemilik"
+         },
+         "em": {
+          "en": "sounds like an owner",
+          "id": "terdengar seperti pemilik"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“My supervisor was never available, so my thesis was delayed a semester. It was unfair.”",
+           "id": "“Dosen pembimbingku tidak pernah ada waktu, jadi skripsiku molor satu semester. Rasanya tidak adil.”",
+           "l": {
+            "en": "Passenger",
+            "id": "Penumpang"
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "“After two missed meetings I sent a one-page update every Friday with three questions. Replies went from three weeks to four days.”",
+           "id": "“Setelah dua pertemuan batal, aku mengirim laporan satu halaman setiap Jumat dengan tiga pertanyaan. Balasan yang tadinya tiga minggu menjadi empat hari.”",
+           "l": {
+            "en": "Owner",
+            "id": "Pemilik"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "band": {
+          "en": "The stimulus is the same. The strong answer moves the story inside the control zone.",
+          "id": "Stimulusnya sama. Jawaban yang kuat memindahkan ceritanya ke dalam zona kendali."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Inside your control zone there is always a move that needs nobody's approval",
+          "id": "Di dalam zona kendalimu selalu ada langkah yang tidak butuh persetujuan siapa pun"
+         },
+         "em": {
+          "en": "needs nobody's approval",
+          "id": "tidak butuh persetujuan siapa pun"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "Rebuild your CV",
+           "id": "Susun ulang CV-mu",
+           "d": {
+            "en": "Against one real job description",
+            "id": "Berdasarkan satu deskripsi lowongan yang nyata"
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          },
+          {
+           "icon": "mail",
+           "en": "Message one alum",
+           "id": "Kirim pesan ke satu alumni",
+           "d": {
+            "en": "Ask for a fifteen-minute call",
+            "id": "Minta waktu ngobrol lima belas menit"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "table",
+           "en": "Build the spreadsheet",
+           "id": "Buat spreadsheet-nya",
+           "d": {
+            "en": "The one your team keeps complaining about",
+            "id": "Yang selama ini dikeluhkan timmu"
+           },
+           "img": "../../assets/bg/stage-activation.jpg"
+          },
+          {
+           "icon": "mic",
+           "en": "Run a mock interview",
+           "id": "Jalankan simulasi wawancara",
+           "d": {
+            "en": "One, this week",
+            "id": "Satu kali, minggu ini"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "band": {
+          "en": "Movement inside your control is the antidote to anxiety about what you cannot move.",
+          "id": "Bergerak di dalam kendalimu adalah penawar bagi kecemasan soal hal-hal yang tidak bisa kamu ubah."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Ownership is not saying yes to everything, and it is not self-blame",
+          "id": "Rasa memiliki bukan berarti mengiyakan semuanya, dan bukan pula menyalahkan diri"
+         },
+         "em": {
+          "en": "not self-blame",
+          "id": "bukan pula menyalahkan diri"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "hand",
+           "en": "Declining what pulls you away from your priorities is a chosen response too.",
+           "id": "Menolak hal yang menarikmu keluar dari prioritasmu juga respons yang kamu pilih.",
+           "l": {
+            "en": "Not a yes to everything",
+            "id": "Bukan mengiyakan semuanya"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Train it daily on small things, so that it holds on the big days.",
+           "id": "Latih setiap hari pada hal kecil, supaya tetap kokoh di hari-hari besar.",
+           "l": {
+            "en": "Not only for big events",
+            "id": "Bukan hanya untuk peristiwa besar"
+           }
+          },
+          {
+           "icon": "shield",
+           "en": "Owning your response is not owning every cause. Your next move is always yours.",
+           "id": "Bertanggung jawab atas responsmu bukan berarti menanggung semua penyebabnya. Langkah berikutnya selalu milikmu.",
+           "l": {
+            "en": "Not self-blame",
+            "id": "Bukan menyalahkan diri"
+           }
+          }
+         ],
+         "img": "../../assets/bg/rope-team.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A new response sticks when it has a cue, a routine and a reward",
+          "id": "Respons baru melekat ketika punya pemicu, rutinitas, dan imbalan"
+         },
+         "em": {
+          "en": "a cue, a routine and a reward",
+          "id": "pemicu, rutinitas, dan imbalan"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "Cue",
+           "id": "Pemicu",
+           "d": {
+            "en": "The ping that usually sets you off",
+            "id": "Notifikasi yang biasanya menyulutmu"
+           }
+          },
+          {
+           "icon": "pause",
+           "en": "Routine",
+           "id": "Rutinitas",
+           "d": {
+            "en": "Two breaths, then one chosen sentence",
+            "id": "Dua tarikan napas, lalu satu kalimat yang kamu pilih"
+           }
+          },
+          {
+           "icon": "star",
+           "en": "Reward",
+           "id": "Imbalan",
+           "d": {
+            "en": "One line in your audit: “I chose that one.”",
+            "id": "Satu baris di auditmu: “Yang itu, aku yang memilih.”"
+           }
+          }
+         ],
+         "band": {
+          "en": "Pick one cue this week. One is enough to start the pattern.",
+          "id": "Pilih satu pemicu minggu ini. Satu sudah cukup untuk memulai polanya."
+         },
+         "img": "../../assets/bg/stage-foundation.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "This week: one event, three sentences, one move",
+          "id": "Minggu ini: satu kejadian, tiga kalimat, satu langkah"
+         },
+         "em": {
+          "en": "one move",
+          "id": "satu langkah"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "search",
+           "en": "One event",
+           "id": "Satu kejadian",
+           "d": {
+            "en": "Run stimulus, gap and response on a recent frustration",
+            "id": "Jalankan stimulus, celah, dan respons pada satu kejadian menjengkelkan yang baru kamu alami"
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Three sentences",
+           "id": "Tiga kalimat",
+           "d": {
+            "en": "Translate your own reactive lines into ownership language",
+            "id": "Terjemahkan kalimat reaktifmu sendiri menjadi bahasa rasa memiliki"
+           },
+           "img": "../../assets/bg/mp-stage-author.jpg"
+          },
+          {
+           "icon": "rocket",
+           "en": "One move",
+           "id": "Satu langkah",
+           "d": {
+            "en": "Do one thing that needs no permission, and log it in your audit",
+            "id": "Kerjakan satu hal yang tidak butuh izin, lalu catat di auditmu"
+           },
+           "img": "../../assets/bg/stage-activation.jpg"
+          }
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "n": "2.3",
@@ -1917,205 +3708,18 @@ window.MT_LMS['the-map'] = {
        "id": "Mengaitkan misimu dengan The Range: arah yang dipilih lewat rancangan, bukan oleh tawaran pertama."
       }
      ],
-     "takeawaysLead": {
-      "en": "You can define your life’s outcomes by creating a personal mission statement. To prepare for creating one, you can:",
-      "id": "Kamu bisa merumuskan hasil akhir hidupmu dengan menyusun pernyataan misi pribadi. Sebagai persiapan, kamu bisa:"
-     },
      "takeaways": [
       {
-       "en": "Reflect on your whole life (past, present, and future).",
-       "id": "Merenungkan hidupmu secara utuh (masa lalu, masa kini, dan masa depan)."
+       "en": "Every outcome exists twice: first as a design you choose, then as a result you live. Skip the design, and someone else writes it.",
+       "id": "Setiap hasil ada dua kali: pertama sebagai rancangan yang kamu pilih, lalu sebagai hasil yang kamu jalani. Lewatkan rancangannya, dan orang lain yang akan menulisnya."
       },
       {
-       "en": "Consider the attributes of the people who have had the greatest influence on you.",
-       "id": "Memikirkan sifat-sifat orang yang paling besar pengaruhnya padamu."
+       "en": "A mission names a contribution, not a title. A 3-year outcome gives it a first landmark: a domain, a level, evidence, and a constraint you refuse to break.",
+       "id": "Misi menyebut kontribusi, bukan jabatan. Hasil 3 tahun memberinya penanda pertama: ranah, level, artefak bukti, dan batas yang pantang kamu langgar."
       },
       {
-       "en": "Consider your own attributes, including your strengths, challenges, and passions.",
-       "id": "Memikirkan sifat-sifatmu sendiri, termasuk kekuatan, tantangan, dan hal yang paling kamu gemari."
-      }
-     ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 6 slides",
-        "id": "Baca dulu · 6 slide"
-       },
-       "title": {
-        "en": "Designing the Outcome First: Material",
-        "id": "Merancang Hasil Akhir Lebih Dulu: Materi"
-       },
-       "intro": {
-        "en": "Six slides open the lesson: three honest questions about the life you are building, why direction matters more than pace, setting direction with a personal vision, beginning with the end in mind, defining outcomes before you act, and the two creations (mental first, physical second). Read them, then watch the film that follows.",
-        "id": "Enam slide membuka pelajaran ini: tiga pertanyaan jujur tentang hidup yang sedang kamu bangun, kenapa arah lebih penting daripada kecepatan, menetapkan arah lewat visi pribadi, memulai dengan tujuan akhir dalam pikiran, merumuskan hasil sebelum bertindak, dan dua kali penciptaan (di pikiran dulu, lalu di dunia nyata). Baca semuanya, lalu tonton film yang menyusul."
-       },
-       "base": "../../assets/lms/the-map/slides/outcome-first-",
-       "slides": [
-        {
-         "title": {
-          "en": "Designing the outcome first",
-          "id": "Merancang hasil akhir lebih dulu"
-         },
-         "text": {
-          "en": "Designing your life. Before you take the next step, pause and reflect. The direction you choose today shapes the life you live tomorrow. 01 Are you right now who you want to be? Are you living the life you dreamed of, doing what you always wanted to do? Be honest. 02 Sometimes successes can feel empty. People may achieve visible wins, but at the expense of things that are far more valuable to them. 03 Direction matters. If your ladder is not leaning against the right wall, every step you take gets you to the wrong place faster. Focus on what you can control: focus time and energy on things that can be controlled. “Success means nothing if it takes you away from what truly matters.” Reflect, prioritize, choose, take action. A clearer vision today, a more meaningful tomorrow.",
-          "id": "Merancang hidupmu. Sebelum mengambil langkah berikutnya, berhentilah sejenak dan renungkan. Arah yang kamu pilih hari ini membentuk hidup yang kamu jalani esok hari. 01 Apakah saat ini kamu sudah menjadi orang yang kamu inginkan? Apakah kamu menjalani hidup yang kamu impikan, mengerjakan apa yang selalu ingin kamu kerjakan? Jujurlah. 02 Kadang keberhasilan bisa terasa hampa. Orang bisa meraih kemenangan yang terlihat, tetapi dengan mengorbankan hal-hal yang jauh lebih berharga baginya. 03 Arah itu penting. Kalau tanggamu tidak bersandar di dinding yang tepat, setiap langkahmu hanya membawamu lebih cepat ke tempat yang salah. Fokus pada apa yang bisa kamu kendalikan: curahkan waktu dan energimu pada hal-hal yang bisa dikendalikan. “Keberhasilan tidak ada artinya kalau menjauhkanmu dari hal yang benar-benar penting.” Renungkan, prioritaskan, pilih, bertindaklah. Visi yang lebih jernih hari ini, hari esok yang lebih bermakna."
-         }
-        },
-        {
-         "title": {
-          "en": "Set your direction with a personal vision",
-          "id": "Tetapkan arahmu lewat visi pribadi"
-         },
-         "text": {
-          "en": "Lesson 1. Give your efforts direction by articulating your vision for your life. Habit 2 is based on the principles of vision (see the bigger picture), commitment (stay dedicated to what matters) and purpose (give meaning to your journey). Common paradigm: “I can’t predict how my life will turn out, so I just go with the flow.” Common practices: get started without a clear idea of what you want to achieve; let others’ agendas and circumstances define how you live your life. Shift your mindset: from reacting to life to creating it. Highly effective paradigm: “Clearly defining my vision and purpose in life will make all the difference.” Highly effective practices: define outcomes before you act; create and live by a personal mission statement. Key takeaway: a clear vision gives direction, fuels commitment, and helps you live a more purposeful life. Your vision, a brighter you.",
-          "id": "Pelajaran 1. Beri arah pada usahamu dengan merumuskan visimu tentang hidupmu. Kebiasaan 2 berpijak pada prinsip visi (melihat gambaran besarnya), komitmen (tetap setia pada hal yang penting), dan tujuan (memberi makna pada perjalananmu). Paradigma yang umum: “Aku tidak bisa menebak hidupku akan seperti apa, jadi aku ikut arus saja.” Praktik yang umum: memulai tanpa gambaran jelas tentang apa yang ingin dicapai; membiarkan agenda orang lain dan keadaan menentukan cara hidupmu. Geser pola pikirmu: dari bereaksi terhadap hidup menjadi menciptakannya. Paradigma yang sangat efektif: “Merumuskan visi dan tujuan hidupku dengan jelas akan membuat perbedaan besar.” Praktik yang sangat efektif: rumuskan hasil sebelum bertindak; susun pernyataan misi pribadi dan hiduplah sesuai pernyataan itu. Intinya: visi yang jelas memberi arah, menyalakan komitmen, dan membantumu menjalani hidup yang lebih bertujuan. Visimu, dirimu yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Begin with the end in mind",
-          "id": "Mulai dengan tujuan akhir dalam pikiran"
-         },
-         "text": {
-          "en": "Live with purpose. To avoid spending your time and energy on activities that won’t get you where you want to go, you must begin with the end in mind. This means crafting a plan before you take action and developing a personal mission statement to help you define what you value and what you want to achieve. “It’s incredibly easy to work harder and harder at climbing the ladder of success, only to discover that it’s leaning against the wrong wall.” (Stephen R. Covey) Your destination, not the wrong direction.",
-          "id": "Hidup dengan tujuan. Supaya waktu dan energimu tidak habis untuk kegiatan yang tidak membawamu ke tempat yang kamu tuju, kamu harus memulai dengan tujuan akhir dalam pikiran. Artinya, susun rencana sebelum bertindak, dan kembangkan pernyataan misi pribadi yang membantumu merumuskan apa yang kamu hargai dan apa yang ingin kamu capai. “Sangat mudah untuk bekerja makin keras memanjat tangga kesuksesan, hanya untuk mendapati bahwa tangga itu bersandar di dinding yang salah.” (Stephen R. Covey) Tujuanmu sendiri, bukan arah yang salah."
-         }
-        },
-        {
-         "title": {
-          "en": "Define outcomes before you act",
-          "id": "Rumuskan hasil sebelum bertindak"
-         },
-         "text": {
-          "en": "Turn intention into action. Be clear about what you want to achieve, so every step you take moves you in the right direction. Common practice: get started without a clear idea of what you want to achieve; “just start and see where it goes”; often leads to scattered efforts, easily distracted by others’ agendas, harder to measure progress. Highly effective practice: define outcomes before you act; “be clear on what you want to achieve, then take action with purpose”; provides clarity and focus, helps you prioritize what matters, increases the chances of success. Defining outcomes and achieving outcomes: the “mental creation” involves defining outcomes. Before you act, get specific about the outcomes you really want to see. Then work toward achieving those specific outcomes. Key takeaway: define the destination before you take the first step. Clarity today, a brighter tomorrow.",
-          "id": "Ubah niat menjadi tindakan. Perjelas apa yang ingin kamu capai, supaya setiap langkahmu bergerak ke arah yang tepat. Kebiasaan umum: memulai tanpa gambaran jelas tentang apa yang ingin dicapai; “mulai saja, lihat nanti jadinya bagaimana”; sering berujung pada usaha yang tercerai-berai, mudah teralihkan oleh agenda orang lain, dan kemajuan yang sulit diukur. Praktik yang sangat efektif: rumuskan hasil sebelum bertindak; “perjelas apa yang ingin kamu capai, lalu bertindak dengan tujuan”; memberi kejelasan dan fokus, membantumu memprioritaskan yang penting, dan memperbesar peluang berhasil. Merumuskan hasil dan mencapai hasil: “penciptaan di pikiran” berarti merumuskan hasil. Sebelum bertindak, rumuskan dengan spesifik hasil yang benar-benar ingin kamu lihat. Lalu bekerjalah untuk mencapai hasil-hasil spesifik itu. Intinya: tentukan tujuannya sebelum mengambil langkah pertama. Kejelasan hari ini, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Defining outcomes and achieving outcomes",
-          "id": "Merumuskan hasil dan mencapai hasil"
-         },
-         "text": {
-          "en": "From clarity in the mind to impact in the real world. Mental (first creation): a clear agenda and objective; well-researched market specifications; a goal with a clear end point and deadline; a compelling personal mission statement. Define the outcome first. Physical (second creation): a productive meeting; a successful product in the marketplace; a goal achieved with excellence and on time; a life of contribution and fulfillment. From intention to real impact. Clarity creates direction; outcomes create a brighter tomorrow.",
-          "id": "Dari kejelasan di pikiran ke dampak di dunia nyata. Di pikiran (penciptaan pertama): agenda dan sasaran yang jelas; spesifikasi pasar yang diriset dengan baik; target dengan titik akhir dan tenggat yang jelas; pernyataan misi pribadi yang kuat. Rumuskan hasilnya lebih dulu. Di dunia nyata (penciptaan kedua): rapat yang produktif; produk yang laku di pasar; target yang tercapai dengan sangat baik dan tepat waktu; hidup yang penuh kontribusi dan kepuasan. Dari niat ke dampak nyata. Kejelasan menciptakan arah; hasil menciptakan hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "From intention to real results",
-          "id": "Dari niat ke hasil yang nyata"
-         },
-         "text": {
-          "en": "Key summary. Success starts with clarity about what you want to achieve, then bringing it to life through consistent action. 1 First creation (mental): defining the outcomes you want to achieve: “everything begins with a clear picture in your mind.” 2 Second creation (physical): taking action toward the defined outcomes: “turn your plan into consistent action.” 3 Achieved outcomes. Defining outcomes leads to achieving outcomes: “clarity today creates a better tomorrow.” Key takeaway: defining the outcomes you want to achieve leads to achieving those outcomes. Clarity creates direction; action creates results. A clear vision, consistent action, a more meaningful result.",
-          "id": "Ringkasan utama. Keberhasilan dimulai dari kejelasan tentang apa yang ingin kamu capai, lalu mewujudkannya lewat tindakan yang konsisten. 1 Penciptaan pertama (di pikiran): merumuskan hasil yang ingin kamu capai. “Semuanya dimulai dari gambaran yang jelas di pikiranmu.” 2 Penciptaan kedua (di dunia nyata): bertindak menuju hasil yang sudah dirumuskan. “Ubah rencanamu menjadi tindakan yang konsisten.” 3 Hasil yang tercapai. Merumuskan hasil membawa pada tercapainya hasil. “Kejelasan hari ini menciptakan hari esok yang lebih baik.” Intinya: merumuskan hasil yang ingin kamu capai membawamu pada tercapainya hasil itu. Kejelasan menciptakan arah; tindakan menciptakan hasil. Visi yang jelas, tindakan yang konsisten, hasil yang lebih bermakna."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Personal Mission: Material",
-        "id": "Misi Pribadi: Materi"
-       },
-       "intro": {
-        "en": "After the film, four slides turn the outcome inward: what a personal mission is and three ways to think about it, the 80th-birthday reflection, one question about your one wild and precious life, and a closing reminder not to waste it.",
-        "id": "Setelah film, empat slide mengarahkan hasil akhir ke dalam dirimu: apa itu misi pribadi dan tiga cara memikirkannya, renungan ulang tahun ke-80, satu pertanyaan tentang satu-satunya hidupmu yang liar dan berharga, dan pengingat penutup supaya hidup itu tidak tersia-sia."
-       },
-       "base": "../../assets/lms/the-map/slides/personal-mission-",
-       "slides": [
-        {
-         "title": {
-          "en": "Your personal mission",
-          "id": "Misi pribadimu"
-         },
-         "text": {
-          "en": "Lesson 2. A clear personal mission helps you define outcomes for your whole life as well as for specific events or projects. A powerful way to do this is to create a personal mission statement. Consider your personal mission: being effective means taking the time to define what’s important to you, what you want to achieve, and the kind of person you want to be. As you think about what you want to accomplish: 1 reflect on your life as a whole (consider your past, present, and future); 2 consider the attributes of others (think about the people who have had the greatest influence on you); 3 consider your own attributes (identify your strengths, challenges, and passions). “Lead your life or someone else will.” Key takeaway: a personal mission gives you direction, focus, and a meaningful life. Clarity today, a more fulfilling tomorrow. Purpose, growth, impact, freedom.",
-          "id": "Pelajaran 2. Misi pribadi yang jelas membantumu merumuskan hasil untuk seluruh hidupmu, juga untuk acara atau proyek tertentu. Cara yang ampuh untuk melakukannya adalah menyusun pernyataan misi pribadi. Pikirkan misi pribadimu: menjadi efektif berarti meluangkan waktu untuk merumuskan apa yang penting bagimu, apa yang ingin kamu capai, dan orang seperti apa yang ingin kamu jadi. Saat memikirkan apa yang ingin kamu raih: 1 renungkan hidupmu secara utuh (masa lalu, masa kini, dan masa depanmu); 2 pikirkan sifat-sifat orang lain (orang-orang yang paling besar pengaruhnya padamu); 3 pikirkan sifat-sifatmu sendiri (kenali kekuatan, tantangan, dan hal yang paling kamu gemari). “Pimpin hidupmu, atau orang lain yang akan memimpinnya.” Intinya: misi pribadi memberimu arah, fokus, dan hidup yang bermakna. Kejelasan hari ini, hari esok yang lebih memuaskan. Tujuan, pertumbuhan, dampak, kebebasan."
-         }
-        },
-        {
-         "title": {
-          "en": "80th birthday",
-          "id": "Ulang tahun ke-80"
-         },
-         "text": {
-          "en": "Reflection exercise. As you watch the next video, imagine what you would want people to say about you at your 80th birthday celebration, and think about what you might want to put in your personal mission statement. What would your family say about you? What would your friends say about you? What would your colleagues say about you? What kind of impact do you want to make in the world? The legacy I want to leave. “There is no greater joy nor greater reward than to make a fundamental difference in someone’s life.” (Mary Rose McGeady) Key takeaway: live with intention, so your life at 80 reflects the impact you hope to make today.",
-          "id": "Latihan renungan. Sambil menonton video berikutnya, bayangkan apa yang ingin kamu dengar orang katakan tentang dirimu di perayaan ulang tahunmu yang ke-80, dan pikirkan apa yang mungkin ingin kamu masukkan ke pernyataan misi pribadimu. Apa yang akan dikatakan keluargamu tentang dirimu? Apa yang akan dikatakan teman-temanmu? Apa yang akan dikatakan rekan kerjamu? Dampak seperti apa yang ingin kamu buat di dunia? Warisan yang ingin kutinggalkan. “Tidak ada kebahagiaan yang lebih besar dan tidak ada imbalan yang lebih besar daripada membuat perbedaan mendasar dalam hidup seseorang.” (Mary Rose McGeady) Intinya: hiduplah dengan sengaja, supaya hidupmu di usia 80 mencerminkan dampak yang kamu harapkan hari ini."
-         }
-        },
-        {
-         "title": {
-          "en": "Tell me! What is it you plan to do with your one wild and precious life?",
-          "id": "Ceritakan! Apa yang ingin kamu lakukan dengan satu-satunya hidupmu yang liar dan berharga?"
-         },
-         "text": {
-          "en": "Reflection moment. What do you want to achieve? Your biggest dreams and goals. Who do you want to become? The kind of person you aspire to be. What impact do you want to make? The difference you want to create. “Tell me, what is it you plan to do with your one wild and precious life?” (Mary Oliver) Key takeaway: live intentionally. Turn your dreams into actions, and make your one wild and precious life count. More purpose, more freedom, more impact, a brighter tomorrow.",
-          "id": "Momen renungan. Apa yang ingin kamu capai? Mimpi dan tujuan terbesarmu. Kamu ingin menjadi siapa? Orang seperti apa yang kamu cita-citakan. Dampak apa yang ingin kamu buat? Perbedaan yang ingin kamu ciptakan. “Tell me, what is it you plan to do with your one wild and precious life?” (Mary Oliver) Intinya: hiduplah dengan sengaja. Ubah mimpimu menjadi tindakan, dan buat satu-satunya hidupmu yang liar dan berharga itu berarti. Lebih bertujuan, lebih bebas, lebih berdampak, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Let’s not waste your life",
-          "id": "Jangan sia-siakan hidupmu"
-         },
-         "text": {
-          "en": "Let’s not waste your life: let’s make purposeful use of your time to create meaningful impact.",
-          "id": "Jangan sia-siakan hidupmu: pakai waktumu dengan penuh tujuan untuk menciptakan dampak yang bermakna."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 3 slides",
-        "id": "Baca berikutnya · 3 slide"
-       },
-       "title": {
-        "en": "Personal Mission Statement: Material",
-        "id": "Pernyataan Misi Pribadi: Materi"
-       },
-       "intro": {
-        "en": "Next, three slides bring it to the page: what a good mission statement is made of, how to prepare for a five-minute first draft of your own, and a summary of why a written mission works as a constitution for your decisions.",
-        "id": "Berikutnya, tiga slide membawanya ke atas kertas: apa saja isi pernyataan misi yang baik, cara bersiap menulis draf pertamamu dalam lima menit, dan ringkasan kenapa misi yang tertulis bekerja seperti konstitusi bagi keputusan-keputusanmu."
-       },
-       "base": "../../assets/lms/the-map/slides/mission-statement-",
-       "slides": [
-        {
-         "title": {
-          "en": "Your personal mission statement",
-          "id": "Pernyataan misi pribadimu"
-         },
-         "text": {
-          "en": "Lesson 3. Create and live by a personal mission statement. Common practice: let others’ agendas and circumstances define how you live your life. Highly effective practice: create and live by a personal mission statement. Characteristics of a good mission statement. A good mission statement: is based on principles of effectiveness; clarifies what is most important to you (your deepest values); provides direction and purpose; addresses the most important aspects of your life; represents the best in you. “A meaningful life begins with a conscious choice, not by chance.” A more intentional me, a brighter tomorrow. Clearer goals, a more fulfilling life, a better you, a brighter tomorrow.",
-          "id": "Pelajaran 3. Susun pernyataan misi pribadi dan hiduplah sesuai pernyataan itu. Kebiasaan umum: membiarkan agenda orang lain dan keadaan menentukan cara hidupmu. Praktik yang sangat efektif: susun pernyataan misi pribadi dan hiduplah sesuai pernyataan itu. Ciri pernyataan misi yang baik. Pernyataan misi yang baik: berpijak pada prinsip-prinsip efektivitas; memperjelas apa yang paling penting bagimu (nilai-nilaimu yang terdalam); memberi arah dan tujuan; mencakup aspek-aspek terpenting dalam hidupmu; mencerminkan versi terbaik dirimu. “Hidup yang bermakna dimulai dari pilihan yang disadari, bukan dari kebetulan.” Diriku yang lebih sengaja, hari esok yang lebih cerah. Tujuan yang lebih jelas, hidup yang lebih memuaskan, dirimu yang lebih baik, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Writing a personal mission statement",
-          "id": "Menulis pernyataan misi pribadi"
-         },
-         "text": {
-          "en": "Reflection exercise. After the upcoming video, you will take 5 minutes to draft a personal mission statement of your own. To prepare to write your own personal mission statement, recall your previous responses from the exercises People Who Have Influenced You and Discover Yourself. Your preparation guide: relax (it’s confidential); keep writing (no editing); find a quiet space (give yourself a quiet space in which to write); have courage. Take the time; it’s worth it. A small step, a bigger you: clarity today, a more intentional tomorrow.",
-          "id": "Latihan renungan. Setelah video berikutnya, kamu akan meluangkan 5 menit untuk menulis draf pernyataan misi pribadimu sendiri. Sebagai persiapan, ingat lagi jawaban-jawabanmu di latihan Orang-Orang yang Memengaruhimu dan Kenali Dirimu. Panduan persiapanmu: santai saja (tulisan ini rahasia); terus menulis (jangan menyunting dulu); cari tempat yang tenang (beri dirimu ruang yang tenang untuk menulis); beranilah. Luangkan waktunya; sepadan kok. Langkah kecil, dirimu yang lebih besar: kejelasan hari ini, hari esok yang lebih disengaja."
-         }
-        },
-        {
-         "title": {
-          "en": "A good mission statement",
-          "id": "Pernyataan misi yang baik"
-         },
-         "text": {
-          "en": "Key summary. More than words, it’s your compass for a meaningful life. 1 Based on principles of effectiveness: a good mission statement is grounded in timeless principles and what truly works. 2 Applicable at multiple levels: it can be used by individuals, families, and organizations to provide direction and purpose. 3 A written constitution for decisions: it functions as a guiding framework by which you make life decisions. Key insight: a mission statement brings clarity, alignment, and intention to your daily choices. “We detect rather than invent our missions in life.” (Viktor Frankl) A clearer today, a brighter tomorrow.",
-          "id": "Ringkasan utama. Lebih dari sekadar kata-kata, pernyataan misi adalah kompasmu menuju hidup yang bermakna. 1 Berpijak pada prinsip-prinsip efektivitas: pernyataan misi yang baik bersandar pada prinsip yang abadi dan pada apa yang benar-benar berhasil. 2 Bisa dipakai di banyak tingkat: individu, keluarga, dan organisasi bisa memakainya untuk mendapatkan arah dan tujuan. 3 Konstitusi tertulis untuk keputusan: pernyataan misi berfungsi sebagai kerangka penuntun saat kamu mengambil keputusan dalam hidup. Wawasan utama: pernyataan misi membawa kejelasan, keselarasan, dan kesengajaan pada pilihan-pilihanmu sehari-hari. “Kita menemukan misi hidup kita, bukan menciptakannya.” (Viktor Frankl) Hari ini yang lebih jernih, hari esok yang lebih cerah."
-         }
-        }
-       ]
+       "en": "For each big choice, ask whose script the line comes from. If you cannot trace it to your own mission, rewrite it before you act.",
+       "id": "Untuk setiap pilihan besar, tanyakan dialog ini berasal dari naskah siapa. Kalau tidak bisa kamu telusuri sampai ke misimu sendiri, tulis ulang dulu sebelum kamu jalankan."
       }
      ],
      "sections": [
@@ -2269,14 +3873,546 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:1",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows the first slides: Yoga, a first job offer, and the question that stops him from saying yes too soon. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide pertama: Yoga, tawaran kerja pertamanya, dan pertanyaan yang menahannya agar tidak terlalu cepat mengiyakan. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Yoga, a first job offer, and the question that stops him from saying yes too soon. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Yoga, tawaran kerja pertamanya, dan pertanyaan yang menahannya agar tidak terlalu cepat mengiyakan. Tonton, lalu lanjutkan ke bacaan di bawah."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "Design First",
+       "id": "Rancang Dulu"
+      },
+      "intro": {
+       "en": "Seven ideas in a few minutes. Then a short film, and the reading below has you draft a mission sentence and a 3-year outcome.",
+       "id": "Tujuh gagasan dalam beberapa menit. Setelah itu satu film singkat, lalu bacaan di bawah mengajakmu menyusun kalimat misi dan hasil 3 tahun."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Twice",
+         "id": "Dua kali"
+        },
+        "points": [
+         {
+          "en": "Careers that skip the design stage still get designed. Someone else does it.",
+          "id": "Karier yang melewatkan tahap rancangan tetap dirancang. Hanya saja, orang lain yang merancangnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three questions",
+         "id": "Tiga pertanyaan"
+        },
+        "points": [
+         {
+          "en": "Write rough answers now, in pencil. The point is authorship, not accuracy.",
+          "id": "Tulis jawaban kasarnya sekarang, dengan pensil. Intinya kepengarangan, bukan ketepatan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A mission names a contribution",
+         "id": "Misi menyebut kontribusi"
+        },
+        "points": [
+         {
+          "en": "A mission is a compass. It tells you which way, not how far.",
+          "id": "Misi adalah kompas. Ia menunjukkan arah, bukan jarak."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A 3-year outcome",
+         "id": "Hasil 3 tahun"
+        },
+        "points": [
+         {
+          "en": "A compass needs a first landmark.",
+          "id": "Kompas butuh penanda pertama."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Plan backwards",
+         "id": "Rencanakan mundur"
+        },
+        "points": [
+         {
+          "en": "Ask what must already be true at each point for the next one to be within reach.",
+          "id": "Tanyakan apa yang harus sudah terjadi di setiap titik supaya titik berikutnya terjangkau."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Default scripts",
+         "id": "Naskah bawaan"
+        },
+        "points": [
+         {
+          "en": "None of them is malicious. Each is simply not written by you.",
+          "id": "Tidak ada yang jahat dari ketiganya. Hanya saja, bukan kamu pengarangnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The test",
+         "id": "Ujiannya"
+        },
+        "points": [
+         {
+          "en": "You will revise the design every year. You will never regret having one.",
+          "id": "Kamu akan merevisi rancanganmu setiap tahun. Kamu tidak akan pernah menyesal memilikinya."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-direction.jpg",
+       "module": {
+        "en": "Module 2 · Self-Leadership Foundations",
+        "id": "Modul 2 · Fondasi Kepemimpinan Diri"
+       },
+       "lesson": {
+        "n": "2.3",
+        "title": {
+         "en": "Designing the Outcome First",
+         "id": "Merancang Hasil Akhir Lebih Dulu"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Every outcome exists twice: first as a design you choose, then as a result you live",
+         "id": "Setiap hasil ada dua kali: pertama sebagai rancangan yang kamu pilih, lalu sebagai hasil yang kamu jalani"
+        },
+        {
+         "en": "The design stage is a working answer to three questions",
+         "id": "Tahap rancangan adalah jawaban sementara atas tiga pertanyaan"
+        },
+        {
+         "en": "A mission sentence names a contribution, not a title",
+         "id": "Kalimat misi menyebut kontribusi, bukan jabatan"
+        },
+        {
+         "en": "Turn the mission into one 3-year outcome with four properties",
+         "id": "Ubah misimu menjadi satu hasil 3 tahun dengan empat unsur"
+        },
+        {
+         "en": "Plan backwards from the outcome, so each horizon inherits from the one after it",
+         "id": "Rencanakan mundur dari hasil akhir, sehingga setiap rentang mewarisi syarat dari rentang sesudahnya"
+        },
+        {
+         "en": "Without a design, three scripts compete to run your career",
+         "id": "Tanpa rancangan, ada tiga naskah yang berebut menjalankan kariermu"
+        },
+        {
+         "en": "For each big choice, ask whose script the line comes from",
+         "id": "Untuk setiap pilihan besar, tanyakan dialog ini berasal dari naskah siapa"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Twice",
+          "id": "Dua kali"
+         },
+         "p": {
+          "en": "By default, the design comes from family expectations, your feed, or whoever offers first.",
+          "id": "Tanpa rancangan, kariermu dibentuk oleh harapan keluarga, linimasa, atau siapa pun yang lebih dulu menawarkan."
+         }
+        },
+        {
+         "h": {
+          "en": "Three questions",
+          "id": "Tiga pertanyaan"
+         },
+         "p": {
+          "en": "Write rough answers now, in pencil. The point is authorship, not accuracy.",
+          "id": "Tulis jawaban kasarnya sekarang, dengan pensil. Intinya kepengarangan, bukan ketepatan."
+         }
+        },
+        {
+         "h": {
+          "en": "A mission names a contribution",
+          "id": "Misi menyebut kontribusi"
+         },
+         "p": {
+          "en": "Titles change with every employer. A contribution travels with you.",
+          "id": "Jabatan berganti di setiap tempat kerja. Kontribusi ikut ke mana pun kamu pergi."
+         }
+        },
+        {
+         "h": {
+          "en": "A 3-year outcome",
+          "id": "Hasil 3 tahun"
+         },
+         "p": {
+          "en": "A compass needs a first landmark.",
+          "id": "Kompas butuh penanda pertama."
+         }
+        },
+        {
+         "h": {
+          "en": "Plan backwards",
+          "id": "Rencanakan mundur"
+         },
+         "p": {
+          "en": "Ask what must already be true at each point for the next one to be within reach.",
+          "id": "Tanyakan apa yang harus sudah terjadi di setiap titik supaya titik berikutnya terjangkau."
+         }
+        },
+        {
+         "h": {
+          "en": "Default scripts",
+          "id": "Naskah bawaan"
+         },
+         "p": {
+          "en": "None of them is malicious. Each is simply not written by you.",
+          "id": "Tidak ada yang jahat dari ketiganya. Hanya saja, bukan kamu pengarangnya."
+         }
+        },
+        {
+         "h": {
+          "en": "The test",
+          "id": "Ujiannya"
+         },
+         "p": {
+          "en": "You will revise the design every year. You will never regret having one.",
+          "id": "Kamu akan merevisi rancanganmu setiap tahun. Kamu tidak akan pernah menyesal memilikinya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Every outcome exists twice: first as a design you choose, then as a result you live",
+          "id": "Setiap hasil ada dua kali: pertama sebagai rancangan yang kamu pilih, lalu sebagai hasil yang kamu jalani"
+         },
+         "em": {
+          "en": "first as a design you choose",
+          "id": "pertama sebagai rancangan yang kamu pilih"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "A building exists on paper before it exists in concrete.",
+           "id": "Sebuah gedung sudah ada di atas kertas sebelum berdiri dalam beton.",
+           "l": {
+            "en": "The design",
+            "id": "Rancangannya"
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "building",
+           "en": "A career deserves the same courtesy.",
+           "id": "Kariermu layak mendapat perlakuan yang sama.",
+           "l": {
+            "en": "The result",
+            "id": "Hasilnya"
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          }
+         ],
+         "band": {
+          "en": "By default, the design comes from family expectations, your feed, or whoever offers first.",
+          "id": "Tanpa rancangan, kariermu dibentuk oleh harapan keluarga, linimasa, atau siapa pun yang lebih dulu menawarkan."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The design stage is a working answer to three questions",
+          "id": "Tahap rancangan adalah jawaban sementara atas tiga pertanyaan"
+         },
+         "em": {
+          "en": "three questions",
+          "id": "tiga pertanyaan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "key",
+           "en": "Problems",
+           "id": "Masalah",
+           "d": {
+            "en": "What problems do I want to be trusted with?",
+            "id": "Masalah apa yang ingin dipercayakan orang kepadaku?"
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "person",
+           "en": "Person",
+           "id": "Pribadi",
+           "d": {
+            "en": "Who do colleagues describe when I am not in the room?",
+            "id": "Orang seperti apa yang digambarkan rekan kerjaku saat aku tidak ada di ruangan?"
+           },
+           "img": "../../assets/bg/rope-team.jpg"
+          },
+          {
+           "icon": "handshake",
+           "en": "Contribution",
+           "id": "Kontribusi",
+           "d": {
+            "en": "What does my work make possible for other people?",
+            "id": "Apa yang menjadi mungkin bagi orang lain berkat pekerjaanku?"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A mission sentence names a contribution, not a title",
+          "id": "Kalimat misi menyebut kontribusi, bukan jabatan"
+         },
+         "em": {
+          "en": "a contribution, not a title",
+          "id": "kontribusi, bukan jabatan"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "star",
+           "en": "“Become a manager at a well-known company before thirty.”",
+           "id": "“Menjadi manajer di perusahaan ternama sebelum usia tiga puluh.”",
+           "l": {
+            "en": "A title",
+            "id": "Jabatan"
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          },
+          {
+           "icon": "compass",
+           "en": "“Help small businesses make decisions from numbers they can trust.”",
+           "id": "“Membantu usaha kecil mengambil keputusan dari angka yang bisa mereka percaya.”",
+           "l": {
+            "en": "A contribution",
+            "id": "Kontribusi"
+           },
+           "img": "../../assets/bg/compass.jpg"
+          }
+         ],
+         "band": {
+          "en": "Titles change with every employer. A contribution travels with you.",
+          "id": "Jabatan berganti di setiap tempat kerja. Kontribusi ikut ke mana pun kamu pergi."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Turn the mission into one 3-year outcome with four properties",
+          "id": "Ubah misimu menjadi satu hasil 3 tahun dengan empat unsur"
+         },
+         "em": {
+          "en": "four properties",
+          "id": "empat unsur"
+         },
+         "layout": "pillars",
+         "items": [
+          {
+           "icon": "map",
+           "en": "Domain",
+           "id": "Ranah",
+           "d": {
+            "en": "Data analytics in financial services",
+            "id": "Analitik data di industri jasa keuangan"
+           },
+           "img": "../../assets/bg/map-hero.jpg"
+          },
+          {
+           "icon": "steps",
+           "en": "Level",
+           "id": "Level",
+           "d": {
+            "en": "Trusted to own analyses from start to finish",
+            "id": "Dipercaya menangani analisis dari awal sampai akhir"
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "briefcase",
+           "en": "Evidence",
+           "id": "Artefak bukti",
+           "d": {
+            "en": "A portfolio of work that has shipped",
+            "id": "Portofolio karya yang sudah dirilis"
+           },
+           "img": "../../assets/bg/stage-activation.jpg"
+          },
+          {
+           "icon": "shield",
+           "en": "Constraint",
+           "id": "Batas",
+           "d": {
+            "en": "What you refuse to trade: health, integrity, family",
+            "id": "Yang pantang kamu tukar: kesehatan, integritas, keluarga"
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Plan backwards from the outcome, so each horizon inherits from the one after it",
+          "id": "Rencanakan mundur dari hasil akhir, sehingga setiap rentang mewarisi syarat dari rentang sesudahnya"
+         },
+         "em": {
+          "en": "Plan backwards",
+          "id": "Rencanakan mundur"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "3 years",
+           "id": "3 tahun",
+           "d": {
+            "en": "Domain, level, evidence, constraint",
+            "id": "Ranah, level, artefak bukti, batas"
+           }
+          },
+          {
+           "icon": "briefcase",
+           "en": "18 months",
+           "id": "18 bulan",
+           "d": {
+            "en": "A first role or major project in the domain",
+            "id": "Peran pertama atau proyek besar di ranah itu"
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "6 months",
+           "id": "6 bulan",
+           "d": {
+            "en": "Applications live, portfolio v1, ten real contacts",
+            "id": "Lamaran berjalan, portofolio versi 1, sepuluh kontak nyata"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "This semester",
+           "id": "Semester ini",
+           "d": {
+            "en": "Skills chosen, audit running, first piece started",
+            "id": "Keterampilan dipilih, audit berjalan, karya pertama dimulai"
+           }
+          }
+         ],
+         "img": "../../assets/bg/journey-bg.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Without a design, three scripts compete to run your career",
+          "id": "Tanpa rancangan, ada tiga naskah yang berebut menjalankan kariermu"
+         },
+         "em": {
+          "en": "three scripts",
+          "id": "tiga naskah"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "users",
+           "en": "The inheritance script",
+           "id": "Naskah warisan",
+           "d": {
+            "en": "Study what the family respects, join what the family recognises",
+            "id": "Kuliah di bidang yang dihormati keluarga, masuk ke tempat yang dikenal keluarga"
+           },
+           "img": "../../assets/bg/for-mentor.jpg"
+          },
+          {
+           "icon": "phone",
+           "en": "The feed script",
+           "id": "Naskah linimasa",
+           "d": {
+            "en": "Chase whatever role is trending this year",
+            "id": "Kejar peran apa pun yang sedang tren tahun ini"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "mail",
+           "en": "The first-offer script",
+           "id": "Naskah tawaran pertama",
+           "d": {
+            "en": "Accept whoever says yes first, and let it define the decade",
+            "id": "Terima siapa pun yang lebih dulu bilang ya, lalu biarkan itu menentukan sepuluh tahunmu"
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "For each big choice, ask whose script the line comes from",
+          "id": "Untuk setiap pilihan besar, tanyakan dialog ini berasal dari naskah siapa"
+         },
+         "em": {
+          "en": "whose script",
+          "id": "naskah siapa"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Can you connect this choice to your own mission sentence?",
+           "id": "Bisakah pilihan ini kamu telusuri sampai ke kalimat misimu sendiri?",
+           "l": {
+            "en": "Trace it",
+            "id": "Telusuri"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "If you cannot, rewrite the line before you act on it.",
+           "id": "Kalau tidak bisa, tulis ulang dulu sebelum kamu jalankan.",
+           "l": {
+            "en": "Rewrite it",
+            "id": "Tulis ulang"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Choose your direction by design, not by first offer.",
+           "id": "Pilih arahmu lewat rancangan, bukan oleh tawaran pertama.",
+           "l": {
+            "en": "Decide it",
+            "id": "Putuskan"
+           }
+          }
+         ],
+         "img": "../../assets/bg/fg-stage-horizon.jpg"
+        }
+       ]
+      }
      }
     },
     {
@@ -2323,209 +4459,6 @@ window.MT_LMS['the-map'] = {
        "id": "Setiap “ya” adalah “tidak” untuk hal lain yang belum kamu hitung harganya. Hitung harganya sebelum kamu mengiyakan."
       }
      ],
-     "material": [
-      {
-       "kicker": {
-        "en": "Read first · 6 slides",
-        "id": "Baca dulu · 6 slide"
-       },
-       "title": {
-        "en": "Time Matrix: Material",
-        "id": "Matriks Waktu: Materi"
-       },
-       "intro": {
-        "en": "Six slides open the lesson: the mindset that not everything urgent is important, the Time Matrix and the paradigm shift from urgent to important, the practices that come with it, a review of the four quadrants, a quadrant self-check, and how to eliminate the unimportant. Read them, then continue to the film below.",
-        "id": "Enam slide membuka pelajaran ini: pola pikir bahwa tidak semua yang mendesak itu penting, Matriks Waktu dan pergeseran paradigma dari yang mendesak ke yang penting, praktik-praktik yang menyertainya, tinjauan empat kuadran, cek mandiri soal kuadran, dan cara menyingkirkan yang tidak penting. Baca semuanya, lalu lanjutkan ke film di bawah."
-       },
-       "base": "../../assets/lms/the-map/slides/time-matrix-",
-       "slides": [
-        {
-         "title": {
-          "en": "Defending the important against the urgent",
-          "id": "Melindungi yang penting dari yang mendesak"
-         },
-         "text": {
-          "en": "Key mindset. Execute on the most important priorities. 1 A more balanced life is possible: to live a more balanced existence, you have to recognize that not doing everything that comes along is okay. 2 It’s okay to say no: there’s no need to overextend yourself; all it takes is realizing that it’s all right to say no when necessary and then focus on your highest priorities. Not everything that is urgent is important. Urgent: feels important now but often temporary. Important: builds the life you truly want. Key takeaway: protect what matters, say no to what doesn’t, focus on what moves you forward. A clearer today, a brighter tomorrow.",
-          "id": "Pola pikir utama. Jalankan prioritas yang paling penting. 1 Hidup yang lebih seimbang itu mungkin: untuk hidup lebih seimbang, kamu perlu menyadari bahwa tidak mengerjakan semua hal yang datang itu wajar. 2 Tidak apa-apa berkata tidak: kamu tidak perlu memaksakan diri melebihi kapasitas. Cukup sadari bahwa berkata tidak saat perlu itu boleh, lalu fokus pada prioritas tertinggimu. Tidak semua yang mendesak itu penting. Mendesak: terasa penting sekarang, tetapi sering hanya sementara. Penting: membangun hidup yang benar-benar kamu inginkan. Intinya: lindungi yang penting, tolak yang tidak, fokus pada hal yang membawamu maju. Hari ini yang lebih jernih, hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "The Time Matrix",
-          "id": "Matriks Waktu"
-         },
-         "text": {
-          "en": "Lesson 1. Realize your life vision by consistently acting on what’s most important. Core principles: based on the principles of focus, integrity, discipline, and prioritization. Paradigms. Common paradigm: “I spend time on what’s most urgent.” Highly effective paradigm: “I spend time on what’s most important.” Common practices: spend most of your time managing crises and other people’s agendas; try to do it all, plan sporadically or not at all; give in to the pressures of the moment. Highly effective practices: focus on your highest priorities; eliminate the unimportant; plan every week; stay true in the moment of choice. “You don’t find time for what’s important; you make time.” Key takeaway: it’s not about being busier; it’s about being more intentional. Focus on what matters, say no to what doesn’t, plan every week, live your best self.",
-          "id": "Pelajaran 1. Wujudkan visi hidupmu dengan konsisten mengerjakan hal yang paling penting. Prinsip dasarnya: fokus, integritas, disiplin, dan penentuan prioritas. Paradigma. Paradigma yang umum: “Aku memakai waktuku untuk hal yang paling mendesak.” Paradigma yang sangat efektif: “Aku memakai waktuku untuk hal yang paling penting.” Praktik yang umum: menghabiskan sebagian besar waktu untuk mengurus krisis dan agenda orang lain; mencoba mengerjakan semuanya, jarang membuat rencana atau tidak sama sekali; menyerah pada tekanan saat itu. Praktik yang sangat efektif: fokus pada prioritas tertinggimu; singkirkan yang tidak penting; rencanakan setiap minggu; tetap setia saat harus memilih. “Waktu untuk hal yang penting tidak ditemukan; waktu itu diciptakan.” Intinya: ini bukan soal menjadi lebih sibuk, melainkan soal menjadi lebih sengaja. Fokus pada yang penting, tolak yang tidak, rencanakan setiap minggu, jalani versi terbaik dirimu."
-         }
-        },
-        {
-         "title": {
-          "en": "Focus on your highest priorities",
-          "id": "Fokus pada prioritas tertinggimu"
-         },
-         "text": {
-          "en": "The Time Matrix. Realize your life vision by consistently acting on what’s most important. “Things which matter most must never be at the mercy of things which matter least.” (Johann Wolfgang von Goethe) Common practice (focus on reactive urgency): you spend most of your time managing crises and other people’s agendas. Highly effective practice (focus on intentional prioritization): you spend time on what’s most important. Focus on your highest priorities. Common practice: spend most of your time managing crises and other people’s agendas; try to do it all, plan sporadically or not at all; give in to the pressures of the moment. Highly effective practice: focus on your highest priorities; eliminate the unimportant; plan every week; stay true in the moment of choice.",
-          "id": "Matriks Waktu. Wujudkan visi hidupmu dengan konsisten mengerjakan hal yang paling penting. “Hal-hal yang paling penting tidak boleh bergantung pada belas kasihan hal-hal yang paling tidak penting.” (Johann Wolfgang von Goethe) Kebiasaan umum (fokus pada urusan mendesak secara reaktif): kamu menghabiskan sebagian besar waktu untuk mengurus krisis dan agenda orang lain. Praktik yang sangat efektif (fokus pada prioritas secara sengaja): kamu memakai waktumu untuk hal yang paling penting. Fokus pada prioritas tertinggimu. Kebiasaan umum: menghabiskan sebagian besar waktu untuk mengurus krisis dan agenda orang lain; mencoba mengerjakan semuanya, jarang membuat rencana atau tidak sama sekali; menyerah pada tekanan saat itu. Praktik yang sangat efektif: fokus pada prioritas tertinggimu; singkirkan yang tidak penting; rencanakan setiap minggu; tetap setia saat harus memilih."
-         }
-        },
-        {
-         "title": {
-          "en": "The Time Matrix review",
-          "id": "Tinjauan Matriks Waktu"
-         },
-         "text": {
-          "en": "Quadrant 2 is highlighted in the Time Matrix because it contains the activities that really matter to your priorities (important), but that won’t happen unless you act on them (not urgent). Consider your recent activities: in which quadrant do you currently spend the most time? Urgent (requires immediate attention) and not urgent (does not require immediate attention); important (contributes to your goals and priorities) and not important (does not contribute to your goals and priorities). Q1 urgent and important: these are things you care about and that must be done now, but the return on your time and energy is equal to or less than what you put in. Q2 important and not urgent: these are things that really matter to the results you want, but won’t happen unless you act on them; time spent here always generates a return far greater than the time and energy you put into it. Q3 urgent and not important: these are things that come at you, but when you look closely, they turn out to be unimportant, low-value activities; time spent here always generates a return that is less than the time and energy spent. Q4 not urgent and not important: this is a place where you shut off your brain and don’t do anything of value; time spent here is unnecessary and generates zero return. “Action expresses priorities.” (Mahatma Gandhi) Higher priorities, a brighter tomorrow. It starts with how you spend your time.",
-          "id": "Kuadran 2 disorot di Matriks Waktu karena berisi kegiatan yang benar-benar penting bagi prioritasmu (penting), tetapi tidak akan terjadi kalau tidak kamu kerjakan (tidak mendesak). Pikirkan kegiatanmu belakangan ini: di kuadran mana kamu paling banyak menghabiskan waktu? Mendesak (butuh perhatian segera) dan tidak mendesak (tidak butuh perhatian segera); penting (menyumbang pada tujuan dan prioritasmu) dan tidak penting (tidak menyumbang pada tujuan dan prioritasmu). K1 mendesak dan penting: hal-hal yang kamu pedulikan dan harus dikerjakan sekarang, tetapi imbal hasil atas waktu dan energimu sama dengan atau lebih kecil daripada yang kamu curahkan. K2 penting dan tidak mendesak: hal-hal yang benar-benar menentukan hasil yang kamu inginkan, tetapi tidak akan terjadi kalau tidak kamu kerjakan. Waktu yang dihabiskan di sini selalu menghasilkan imbal hasil yang jauh lebih besar daripada waktu dan energi yang kamu curahkan. K3 mendesak dan tidak penting: hal-hal yang datang menghampirimu, tetapi kalau dilihat lebih teliti ternyata tidak penting dan bernilai rendah. Waktu yang dihabiskan di sini selalu menghasilkan imbal hasil yang lebih kecil daripada waktu dan energi yang dicurahkan. K4 tidak mendesak dan tidak penting: tempat kamu mematikan otak dan tidak mengerjakan apa pun yang bernilai. Waktu yang dihabiskan di sini tidak perlu dan tidak menghasilkan apa-apa. “Tindakan menunjukkan prioritas.” (Mahatma Gandhi) Prioritas yang lebih tinggi, hari esok yang lebih cerah. Semuanya dimulai dari caramu memakai waktu."
-         }
-        },
-        {
-         "title": {
-          "en": "The quadrant self-check",
-          "id": "Cek mandiri soal kuadran"
-         },
-         "text": {
-          "en": "Self reflection. To stay focused on your highest priorities, regularly ask yourself these questions: 1 Which quadrant am I in right now? 2 Why am I here? 3 How long have I been here? 4 What are the consequences of staying here? “Greater awareness today leads to a better tomorrow.” Pause, reflect, choose better, stay in Q2. To be consistently effective, maximize your time in Quadrant 2, where the return on your time and energy is highest.",
-          "id": "Renungan diri. Supaya tetap fokus pada prioritas tertinggimu, tanyakan pertanyaan-pertanyaan ini secara rutin: 1 Aku sedang berada di kuadran mana sekarang? 2 Kenapa aku di sini? 3 Sudah berapa lama aku di sini? 4 Apa akibatnya kalau aku tetap di sini? “Kesadaran yang lebih besar hari ini membawa hari esok yang lebih baik.” Berhenti sejenak, renungkan, pilih yang lebih baik, tetaplah di K2. Supaya konsisten efektif, perbanyak waktumu di Kuadran 2, tempat imbal hasil atas waktu dan energimu paling tinggi."
-         }
-        },
-        {
-         "title": {
-          "en": "Eliminate the unimportant",
-          "id": "Singkirkan yang tidak penting"
-         },
-         "text": {
-          "en": "Put your energy where it matters. Not everything deserves your time and energy. Be intentional about what you say “no” to, so you can create space for what truly matters. Common practice. Try to do it all: say “yes” to almost everything; take on too many tasks; get busy but not always productive; end up with stress and low impact. Highly effective practice. Be selective and focus: be clear on what truly matters; say “no” to low-value activities; eliminate, delegate, or automate; create more time for high-impact work. Key summary: 1 Q2 activities are important but won’t happen unless you act on them. 2 Time spent in Q2 always generates a return greater than the time and energy you invest. 3 You can gain time for Q2 activities by minimizing time spent in other quadrants. “Less but better.” (Dieter Rams; also the motto of Greg McKeown’s Essentialism)",
-          "id": "Curahkan energimu di tempat yang penting. Tidak semua hal layak mendapat waktu dan energimu. Bersikaplah sengaja soal apa yang kamu tolak, supaya ada ruang untuk hal yang benar-benar penting. Kebiasaan umum. Mencoba mengerjakan semuanya: mengiyakan hampir semua hal; mengambil terlalu banyak tugas; sibuk tetapi tidak selalu produktif; akhirnya stres dan dampaknya kecil. Praktik yang sangat efektif. Memilih dan fokus: perjelas apa yang benar-benar penting; tolak kegiatan yang bernilai rendah; singkirkan, delegasikan, atau otomatiskan; ciptakan lebih banyak waktu untuk pekerjaan yang berdampak besar. Ringkasan utama: 1 Kegiatan K2 itu penting, tetapi tidak akan terjadi kalau tidak kamu kerjakan. 2 Waktu yang dihabiskan di K2 selalu menghasilkan imbal hasil yang lebih besar daripada waktu dan energi yang kamu tanamkan. 3 Kamu bisa mendapat waktu untuk kegiatan K2 dengan mengurangi waktu di kuadran lain. “Less but better.” (Dieter Rams; juga semboyan buku Essentialism karya Greg McKeown)"
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 5 slides",
-        "id": "Baca berikutnya · 5 slide"
-       },
-       "title": {
-        "en": "Your Top Priorities: Material",
-        "id": "Prioritas Utamamu: Materi"
-       },
-       "intro": {
-        "en": "After the film, five slides turn the matrix into a weekly practice: why freeing Quadrant 2 time creates space to reflect on your Big Rocks, how those Big Rocks map onto your life roles, the habit of planning every week, the three steps of weekly planning, and a summary.",
-        "id": "Setelah film, lima slide mengubah matriks itu menjadi kebiasaan mingguan: kenapa membebaskan waktu Kuadran 2 memberi ruang untuk merenungkan Batu Besarmu, bagaimana Batu Besar itu terhubung dengan peran-peran hidupmu, kebiasaan merencanakan setiap minggu, tiga langkah perencanaan mingguan, dan ringkasannya."
-       },
-       "base": "../../assets/lms/the-map/slides/top-priorities-",
-       "slides": [
-        {
-         "title": {
-          "en": "Your top priorities",
-          "id": "Prioritas utamamu"
-         },
-         "text": {
-          "en": "Lesson 2. Create space for what truly matters, and make your time work for your most important goals. Create space to reflect: by freeing up time to spend in Q2 (important, not urgent), you have space to reflect deeply on your priorities and determine what is most important to you. Focus on your Big Rocks: in this video, Dr. Covey demonstrates how prioritizing our “Big Rocks” first helps us accomplish more. As you watch, consider what your Big Rocks are. Big Rocks first: health, family, growth, purpose. “If you put the big rocks in first, the little rocks will fall into place.” (After Stephen R. Covey.) A clearer today leads to a brighter tomorrow.",
-          "id": "Pelajaran 2. Ciptakan ruang untuk hal yang benar-benar penting, dan buat waktumu bekerja untuk tujuan-tujuan terpentingmu. Ciptakan ruang untuk merenung: dengan membebaskan waktu untuk K2 (penting, tidak mendesak), kamu punya ruang untuk merenungkan prioritasmu secara mendalam dan menentukan apa yang paling penting bagimu. Fokus pada Batu Besarmu: dalam video ini, Dr. Covey memperagakan bagaimana mendahulukan “Batu Besar” membantu kita menyelesaikan lebih banyak hal. Sambil menonton, pikirkan apa saja Batu Besarmu. Batu Besar dulu: kesehatan, keluarga, pertumbuhan, tujuan. “Kalau batu-batu besar dimasukkan lebih dulu, batu-batu kecil akan menemukan tempatnya sendiri.” (Mengacu pada Stephen R. Covey.) Hari ini yang lebih jernih membawa hari esok yang lebih cerah."
-         }
-        },
-        {
-         "title": {
-          "en": "Big Rocks and Q2 roles",
-          "id": "Batu Besar dan peran di K2"
-         },
-         "text": {
-          "en": "Prioritize what matters. Our “Big Rocks” often represent our most important life roles. When we focus on Q2 activities, we create space for what truly matters in each role. Life roles as Big Rocks: our Big Rocks often align with our most important life roles; for example, “time with my son” could be a Big Rock because of our role as a parent. Invest in what enables all roles: for many people, exercise is a Big Rock because it supports higher energy for all the roles we play. Examples of life roles and potential Big Rocks: family (quality time with my children), career (develop key skills, lead a project), health (exercise regularly, healthy nutrition), personal growth (read, learn new skills), relationships (nurture friendships), contribution (give back to community). A balanced life is built one big rock at a time. “If you were to ask me what single practice would do more to balance your life and increase your productivity than any other, it would be this: plan your week each week before the week begins.” (Stephen R. Covey) Plan today: a more balanced and fulfilling tomorrow is possible.",
-          "id": "Utamakan yang penting. “Batu Besar” kita sering kali mewakili peran-peran terpenting dalam hidup kita. Saat kita fokus pada kegiatan K2, kita menciptakan ruang untuk hal yang benar-benar penting di setiap peran. Peran hidup sebagai Batu Besar: Batu Besar kita sering sejalan dengan peran terpenting kita dalam hidup. Misalnya, “waktu bersama anak laki-lakiku” bisa menjadi Batu Besar karena peran kita sebagai orang tua. Berinvestasilah pada hal yang menopang semua peran: bagi banyak orang, olahraga adalah Batu Besar karena menopang energi untuk semua peran yang kita jalani. Contoh peran hidup dan Batu Besar yang mungkin: keluarga (waktu berkualitas bersama anak-anak), karier (mengembangkan keterampilan kunci, memimpin proyek), kesehatan (rutin berolahraga, makan bergizi), pertumbuhan pribadi (membaca, mempelajari keterampilan baru), hubungan (merawat persahabatan), kontribusi (memberi kembali kepada masyarakat). Hidup yang seimbang dibangun satu batu besar demi satu batu besar. “Kalau kamu bertanya padaku satu kebiasaan apa yang paling bisa menyeimbangkan hidupmu dan meningkatkan produktivitasmu dibanding yang lain, jawabannya ini: rencanakan minggumu setiap minggu sebelum minggu itu dimulai.” (Stephen R. Covey) Rencanakan hari ini: hari esok yang lebih seimbang dan memuaskan itu mungkin."
-         }
-        },
-        {
-         "title": {
-          "en": "Plan every week",
-          "id": "Rencanakan setiap minggu"
-         },
-         "text": {
-          "en": "Prioritize what matters. Common practice: plan sporadically or not at all. Highly effective practice: plan every week. Weekly planning: to achieve the most important things, you must set aside your most important time to accomplish them every week. Protect time for what matters most. 1 Identify priorities: clarify what matters most in your life and work. 2 Reserve time: set aside dedicated time for your most important things on your calendar. 3 Execute weekly: follow through and review your progress regularly. Intentional weeks create extraordinary lives.",
-          "id": "Utamakan yang penting. Kebiasaan umum: jarang membuat rencana atau tidak sama sekali. Praktik yang sangat efektif: rencanakan setiap minggu. Perencanaan mingguan: untuk mencapai hal-hal terpenting, kamu harus menyisihkan waktu terbaikmu untuk mengerjakannya setiap minggu. Lindungi waktu untuk hal yang paling penting. 1 Kenali prioritasmu: perjelas apa yang paling penting dalam hidup dan pekerjaanmu. 2 Sisihkan waktunya: blokir waktu khusus di kalendermu untuk hal-hal terpentingmu. 3 Jalankan setiap minggu: tuntaskan, lalu tinjau kemajuanmu secara rutin. Minggu-minggu yang dijalani dengan sengaja menciptakan hidup yang luar biasa."
-         }
-        },
-        {
-         "title": {
-          "en": "Steps to weekly planning",
-          "id": "Langkah-langkah perencanaan mingguan"
-         },
-         "text": {
-          "en": "Weekly planning is your most effective Q2 activity to keep you focused on your highest priorities. Step 1, Connect with your mission, roles, and goals: review your mission statement; consider the roles you play in your life; consider long-term goals you want to advance this week. A meaningful week starts with a clear direction. Step 2, Schedule the Big Rocks: reflect on your roles and ask yourself, “What are the one or two most important things I can do in this role this week?” Schedule those “Big Rocks” first. The important things don’t happen by accident; schedule them. Step 3, Organize the rest: schedule your other activities, tasks, and appointments around your Big Rocks. Remember, it doesn’t matter if all the “gravel” doesn’t fit; it’s not important. When you schedule the Big Rocks first, you make sure the important things don’t get left out. Discipline today, a more fulfilling tomorrow. It all starts with a plan.",
-          "id": "Perencanaan mingguan adalah kegiatan K2 paling efektif untuk menjaga fokusmu pada prioritas tertinggi. Langkah 1, hubungkan dengan misi, peran, dan tujuanmu: tinjau pernyataan misimu; pikirkan peran-peran yang kamu jalani dalam hidup; pikirkan tujuan jangka panjang yang ingin kamu majukan minggu ini. Minggu yang bermakna dimulai dari arah yang jelas. Langkah 2, jadwalkan Batu Besarnya: renungkan peran-peranmu dan tanyakan pada dirimu, “Apa satu atau dua hal terpenting yang bisa kulakukan dalam peran ini minggu ini?” Jadwalkan “Batu Besar” itu lebih dulu. Hal-hal penting tidak terjadi secara kebetulan; jadwalkan. Langkah 3, atur sisanya: jadwalkan kegiatan, tugas, dan janji temu lainnya di sekitar Batu Besarmu. Ingat, tidak masalah kalau semua “kerikil” tidak muat; kerikil itu tidak penting. Saat kamu menjadwalkan Batu Besar lebih dulu, kamu memastikan hal-hal penting tidak tertinggal. Disiplin hari ini, hari esok yang lebih memuaskan. Semuanya dimulai dari rencana."
-         }
-        },
-        {
-         "title": {
-          "en": "Key summary",
-          "id": "Ringkasan utama"
-         },
-         "text": {
-          "en": "Bringing it all together. Simple principles, a more focused and fulfilling life. 1 Identifying your Big Rocks helps you focus on your highest priorities: when you know what matters most, you can direct your energy and time to what is truly meaningful. 2 Weekly planning schedules the Big Rocks first: by planning every week, you make sure the most important things get the time and attention they deserve. 3 If you cannot finish everything else (the gravel), that is fine: what matters is that the Big Rocks were scheduled first, so the important things still happen. Focus on what matters today, for a better life tomorrow. A focused life creates extraordinary results: a clearer mind, higher priorities, greater productivity, more balance, a brighter tomorrow.",
-          "id": "Menyatukan semuanya. Prinsip sederhana, hidup yang lebih fokus dan memuaskan. 1 Mengenali Batu Besarmu membantumu fokus pada prioritas tertinggimu: saat kamu tahu apa yang paling penting, kamu bisa mengarahkan energi dan waktumu ke hal yang benar-benar bermakna. 2 Perencanaan mingguan menjadwalkan Batu Besar lebih dulu: dengan merencanakan setiap minggu, kamu memastikan hal-hal terpenting mendapat waktu dan perhatian yang layak. 3 Kalau kamu tidak bisa menyelesaikan semua hal lainnya (kerikilnya), itu tidak apa-apa: yang penting, Batu Besar sudah dijadwalkan lebih dulu, jadi hal-hal penting tetap terjadi. Fokus pada yang penting hari ini, demi hidup yang lebih baik esok hari. Hidup yang fokus menciptakan hasil yang luar biasa: pikiran yang lebih jernih, prioritas yang lebih tinggi, produktivitas yang lebih besar, keseimbangan yang lebih baik, hari esok yang lebih cerah."
-         }
-        }
-       ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "The Moment of Choice: Material",
-        "id": "Saat Harus Memilih: Materi"
-       },
-       "intro": {
-        "en": "Next, four slides close the sequence: what happens when the week you planned meets the pressures of the moment, a scenario to test yourself on, a worked example of protecting a Big Rock, and the summary of the private victory. Read them, then continue to Exhibit 1 below.",
-        "id": "Berikutnya, empat slide menutup rangkaian ini: apa yang terjadi saat minggu yang sudah kamu rencanakan bertemu tekanan saat itu, satu skenario untuk menguji dirimu, contoh nyata melindungi sebuah Batu Besar, dan ringkasan kemenangan pribadi. Baca semuanya, lalu lanjutkan ke Gambar 1 di bawah."
-       },
-       "base": "../../assets/lms/the-map/slides/moment-of-choice-",
-       "slides": [
-        {
-         "title": {
-          "en": "The moment of choice",
-          "id": "Saat harus memilih"
-         },
-         "text": {
-          "en": "Lesson 3. After your weekly planning, you are now prepared to tackle the coming week with purpose and conviction. But what about all the things that inevitably crop up daily that you couldn’t foresee or plan for? Stay true in the moment of choice. Common practice: give in to the pressures of the moment. Highly effective practice: stay true in the moment of choice. Pressure of the moment (unexpected requests, urgent emails, last-minute issues, daily distractions) leads to a reactive today. Purpose and conviction (focused work, meaningful progress, what truly matters) lead to a brighter tomorrow. “You will only be able to say no to the popularity of Quadrant 3 if you have a bigger ‘yes’ burning inside.”",
-          "id": "Pelajaran 3. Setelah perencanaan mingguan, kamu sudah siap menghadapi minggu depan dengan tujuan dan keyakinan. Tetapi bagaimana dengan semua hal yang pasti muncul setiap hari, yang tidak bisa kamu duga atau rencanakan? Tetap setia saat harus memilih. Kebiasaan umum: menyerah pada tekanan saat itu. Praktik yang sangat efektif: tetap setia saat harus memilih. Tekanan saat itu (permintaan mendadak, email mendesak, masalah di menit terakhir, gangguan sehari-hari) membawa pada hari ini yang reaktif. Tujuan dan keyakinan (kerja yang fokus, kemajuan yang berarti, hal yang benar-benar penting) membawa pada hari esok yang lebih cerah. “Kamu hanya akan sanggup menolak daya tarik Kuadran 3 kalau ada ‘ya’ yang lebih besar menyala di dalam dirimu.”"
-         }
-        },
-        {
-         "title": {
-          "en": "Staying true: a scenario",
-          "id": "Tetap setia: sebuah skenario"
-         },
-         "text": {
-          "en": "Habit 3 in action. When urgencies and distractions arise, use Habit 3 concepts and practices to stay true in the moment of choice. Learning objective: consider the following scenario, and see if you can identify: 1 What is the Big Rock? 2 What are the Quadrant 3 (Q3) distractions? 3 Will there be any Quadrant 1 (Q1) necessities? Scenario: you promised your family you’d be at tonight’s family dinner. As you’re leaving work, a colleague from another team asks you about organizing a team-building event for next month. Also, your boss sends you a message asking you to respond to a serious issue with an unhappy client. Questions for you, identify based on the scenario above: What is the Big Rock (what matters most in this situation)? What are the Quadrant 3 distractions (which items feel urgent but are not truly important)? Will there be any Quadrant 1 necessities (any urgent and truly critical matters that need immediate attention)? “Staying true to what matters requires the courage to say no to what is good, so you can say yes to what is best.”",
-          "id": "Kebiasaan 3 dalam praktik. Saat hal-hal mendesak dan gangguan muncul, pakai konsep dan praktik Kebiasaan 3 untuk tetap setia saat harus memilih. Tujuan belajar: perhatikan skenario berikut, lalu coba kenali: 1 Apa Batu Besarnya? 2 Apa saja gangguan Kuadran 3 (K3)? 3 Adakah kebutuhan Kuadran 1 (K1)? Skenario: kamu sudah berjanji kepada keluargamu untuk hadir di makan malam keluarga malam ini. Saat kamu hendak pulang kantor, seorang rekan dari tim lain menanyakan soal mengatur acara team building untuk bulan depan. Selain itu, atasanmu mengirim pesan, memintamu menanggapi masalah serius dengan seorang klien yang tidak puas. Pertanyaan untukmu, kenali berdasarkan skenario di atas: Apa Batu Besarnya (hal yang paling penting dalam situasi ini)? Apa saja gangguan Kuadran 3 (hal-hal yang terasa mendesak tetapi sebenarnya tidak penting)? Adakah kebutuhan Kuadran 1 (hal mendesak yang benar-benar genting dan butuh perhatian segera)? “Setia pada hal yang penting butuh keberanian untuk menolak yang baik, supaya kamu bisa mengiyakan yang terbaik.”"
-         }
-        },
-        {
-         "title": {
-          "en": "Big Rock: dinner with family",
-          "id": "Batu Besar: makan malam bersama keluarga"
-         },
-         "text": {
-          "en": "Real-life example. Staying true means protecting what matters most, even when unexpected demands arise. Big Rock, dinner with family: you promised your family you’d be at tonight’s family dinner. This is an important commitment that supports your relationships and well-being. Quadrant 3 distractions: a colleague from another team asks you to help organize a team-building event for next month. While it may be good to plan company events, the timing of this request makes this a Q3. It can wait. Quadrant 1 necessity: a client problem could be a Q1 and require you to respond in a thoughtful way. It is urgent and important, but you can still address it without disregarding your Big Rock. Possible course of action: 1 Communicate proactively with your colleague. To ensure you keep first things first, tell your colleague you are happy to help plan in a few days. 2 Address the client issue thoughtfully: contact your boss and talk through a draft email that will help the client know they are heard, prepare you to respond in more detail tomorrow, and still get home for the family dinner. “Protect your Big Rocks, so you can build the life you truly want.” Stronger relationships, greater well-being, higher performance.",
-          "id": "Contoh nyata. Tetap setia berarti melindungi hal yang paling penting, bahkan saat tuntutan mendadak muncul. Batu Besar, makan malam bersama keluarga: kamu sudah berjanji kepada keluargamu untuk hadir di makan malam keluarga malam ini. Ini komitmen penting yang menopang hubunganmu dan kesejahteraanmu. Gangguan Kuadran 3: seorang rekan dari tim lain memintamu membantu mengatur acara team building untuk bulan depan. Merencanakan acara kantor mungkin baik, tetapi waktu permintaannya membuat ini masuk K3. Ini bisa menunggu. Kebutuhan Kuadran 1: masalah klien bisa jadi K1 dan perlu kamu tanggapi dengan cermat. Ini mendesak dan penting, tetapi kamu tetap bisa menanganinya tanpa mengabaikan Batu Besarmu. Langkah yang mungkin: 1 Sampaikan dengan proaktif kepada rekanmu. Supaya yang utama tetap didahulukan, katakan bahwa kamu senang membantu merencanakannya beberapa hari lagi. 2 Tangani masalah klien dengan cermat: hubungi atasanmu dan bahas draf email yang membuat klien merasa didengar, menyiapkanmu untuk menanggapi lebih rinci besok, dan tetap membuatmu bisa pulang untuk makan malam keluarga. “Lindungi Batu Besarmu, supaya kamu bisa membangun hidup yang benar-benar kamu inginkan.” Hubungan yang lebih kuat, kesejahteraan yang lebih baik, kinerja yang lebih tinggi."
-         }
-        },
-        {
-         "title": {
-          "en": "The private victory",
-          "id": "Kemenangan pribadi"
-         },
-         "text": {
-          "en": "Self-mastery today, a more independent tomorrow. “The main thing is to keep the main thing the main thing.” (Stephen R. Covey) Habits 1, 2, and 3 are the habits of the Private Victory, the victory of self-mastery that results in independence. The Private Victory is a necessary foundation for the Public Victory, which is about interpersonal effectiveness and results in interdependence, a higher level of maturity. Key summary: Q3 distractions and Q1 urgencies inevitably challenge weekly-planning priorities. Staying true in the moment of choice allows us to accomplish our most important priorities. Greater self-mastery, more independence, a stronger tomorrow.",
-          "id": "Penguasaan diri hari ini, hari esok yang lebih mandiri. “Yang utama adalah menjaga yang utama tetap menjadi yang utama.” (Stephen R. Covey) Kebiasaan 1, 2, dan 3 adalah kebiasaan Kemenangan Pribadi, yaitu kemenangan menguasai diri yang menghasilkan kemandirian. Kemenangan Pribadi adalah fondasi yang dibutuhkan untuk Kemenangan Publik, yang menyangkut efektivitas antarpribadi dan menghasilkan saling ketergantungan, tingkat kematangan yang lebih tinggi. Ringkasan utama: gangguan K3 dan urusan mendesak K1 pasti akan menguji prioritas dari perencanaan mingguanmu. Tetap setia saat harus memilih memungkinkan kita mencapai prioritas terpenting kita. Penguasaan diri yang lebih besar, kemandirian yang lebih kuat, hari esok yang lebih kokoh."
-         }
-        }
-       ]
-      }
-     ],
      "sections": [
       {
        "icon": "gear",
@@ -2545,8 +4478,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tinjauan mingguan"
        },
        "body": {
-        "en": "Once a week, twenty minutes, three moves. <b>Review</b> the mission and 3-year outcome you designed in Lesson 2.3 (thirty seconds, just to load the destination). <b>Choose</b> two or three important-not-urgent blocks for the coming week (a two-hour skill session, one coffee chat, three workouts) and put them in the calendar first, like big rocks before gravel. <b>Preview</b> the known urgent-and-important items so they have space and do not metastasise into all-nighters. The order matters: schedule II before I fills the week, because I always expands to the space available.",
-        "id": "Sekali seminggu, dua puluh menit, tiga langkah. <b>Tinjau</b> misi dan hasil 3 tahun yang kamu rancang di Pelajaran 2.3 (tiga puluh detik saja, sekadar mengingat tujuanmu). <b>Pilih</b> dua atau tiga blok penting-tapi-tidak-mendesak untuk minggu depan (sesi keterampilan dua jam, satu kali ngopi bersama kenalan, tiga kali olahraga), lalu masukkan ke kalender lebih dulu, seperti batu besar sebelum kerikil. <b>Pratinjau</b> hal-hal mendesak dan penting yang sudah kamu ketahui, supaya semuanya punya ruang dan tidak membengkak menjadi begadang semalaman. Urutannya penting. Jadwalkan kuadran II sebelum kuadran I memenuhi minggumu, karena kuadran I selalu melebar sampai memenuhi ruang yang tersedia."
+        "en": "Once a week, twenty minutes, three moves. <b>Review</b> the mission and 3-year outcome you designed in Lesson 2.3 (thirty seconds, just to load the destination). <b>Choose</b> two or three important-not-urgent blocks for the coming week (a two-hour skill session, one coffee chat, three workouts) and put them in the calendar first, before anything else. <b>Preview</b> the known urgent-and-important items so they have space and do not metastasise into all-nighters. The order matters: schedule II before I fills the week, because I always expands to the space available.",
+        "id": "Sekali seminggu, dua puluh menit, tiga langkah. <b>Tinjau</b> misi dan hasil 3 tahun yang kamu rancang di Pelajaran 2.3 (tiga puluh detik saja, sekadar mengingat tujuanmu). <b>Pilih</b> dua atau tiga blok penting-tapi-tidak-mendesak untuk minggu depan (sesi keterampilan dua jam, satu kali ngopi bersama kenalan, tiga kali olahraga), lalu masukkan ke kalender lebih dulu, sebelum hal lain. <b>Pratinjau</b> hal-hal mendesak dan penting yang sudah kamu ketahui, supaya semuanya punya ruang dan tidak membengkak menjadi begadang semalaman. Urutannya penting. Jadwalkan kuadran II sebelum kuadran I memenuhi minggumu, karena kuadran I selalu melebar sampai memenuhi ruang yang tersedia."
        }
       },
       {
@@ -2626,8 +4559,8 @@ window.MT_LMS['the-map'] = {
          "id": "Menjadwalkan pekerjaan penting-tapi-tidak-mendesak “kalau ada sisa waktu”"
         },
         "fix": {
-         "en": "There is never time left. Big rocks go in the calendar first; gravel fills around them.",
-         "id": "Sisa waktu itu tidak pernah ada. Batu besar masuk kalender lebih dulu, lalu kerikil mengisi celah di sekitarnya."
+         "en": "There is never time left. The important blocks go in the calendar first; everything else fits around them.",
+         "id": "Sisa waktu itu tidak pernah ada. Blok yang penting masuk kalender lebih dulu, lalu yang lain menyesuaikan di sekitarnya."
         }
        },
        {
@@ -2699,14 +4632,539 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "videosPlacement": "after-material:1",
      "videosKicker": {
       "en": "Watch next · Lesson film",
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "One short film follows the first slides: Rani, a week of answered pings, and the twenty minutes that give her Thursday evenings back. Watch it, then continue with the slides.",
-      "id": "Satu film singkat menyusul slide pertama: Rani, seminggu penuh notifikasi yang dibalas, dan dua puluh menit yang mengembalikan Kamis malamnya. Tonton, lalu lanjutkan ke slide berikutnya."
+      "en": "One short film follows these slides: Rani, a week of answered pings, and the twenty minutes that give her Thursday evenings back. Watch it, then continue with the reading.",
+      "id": "Satu film singkat menyusul slide ini: Rani, seminggu penuh notifikasi yang dibalas, dan dua puluh menit yang mengembalikan Kamis malamnya. Tonton, lalu lanjutkan ke bacaan di bawah."
+     },
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 7 slides",
+       "id": "Baca dulu · 7 slide"
+      },
+      "title": {
+       "en": "Important, Not Urgent",
+       "id": "Penting, Tidak Mendesak"
+      },
+      "intro": {
+       "en": "Seven ideas in a few minutes. Then a short film, and the reading below gives you the weekly ritual and the words for a graceful no.",
+       "id": "Tujuh gagasan dalam beberapa menit. Setelah itu satu film singkat, lalu bacaan di bawah memberimu ritual mingguan dan kata-kata untuk menolak dengan santun."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Urgency is a sensation",
+         "id": "Rasa mendesak itu sensasi"
+        },
+        "points": [
+         {
+          "en": "Some work taps you on the shoulder. The work that builds a career never does.",
+          "id": "Ada pekerjaan yang menepuk pundakmu. Pekerjaan yang membangun karier tidak pernah melakukannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four boxes",
+         "id": "Empat kotak"
+        },
+        "points": [
+         {
+          "en": "Two questions sort every task: is it urgent, and is it important?",
+          "id": "Dua pertanyaan memilah setiap tugas: apakah mendesak, dan apakah penting?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The trap",
+         "id": "Jebakannya"
+        },
+        "points": [
+         {
+          "en": "People who live between crises and interruptions are always busy and never further ahead.",
+          "id": "Orang yang hidup di antara krisis dan gangguan selalu sibuk, tetapi tidak pernah maju."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The weekly preview",
+         "id": "Tinjauan mingguan"
+        },
+        "points": [
+         {
+          "en": "The order matters, because deadlines expand to fill whatever space is left.",
+          "id": "Urutannya penting, karena tenggat selalu melebar memenuhi ruang yang tersisa."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "What goes in first",
+         "id": "Yang masuk lebih dulu"
+        },
+        "points": [
+         {
+          "en": "“When there's time left” never arrives. Put these in before the week fills up.",
+          "id": "“Kalau ada sisa waktu” tidak pernah datang. Masukkan semua ini sebelum minggumu penuh."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The graceful no",
+         "id": "Menolak dengan santun"
+        },
+        "points": [
+         {
+          "en": "No fake maybes and no invented excuses.",
+          "id": "Tanpa “mungkin” yang palsu dan tanpa alasan karangan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Price the yes",
+         "id": "Hitung harga sebuah ya"
+        },
+        "points": [
+         {
+          "en": "Price it before you give it.",
+          "id": "Hitung harganya sebelum kamu mengiyakan."
+         }
+        ]
+       }
+      ],
+      "compose": {
+       "bg": "../../assets/bg/stage-execution.jpg",
+       "module": {
+        "en": "Module 2 · Self-Leadership Foundations",
+        "id": "Modul 2 · Fondasi Kepemimpinan Diri"
+       },
+       "lesson": {
+        "n": "2.4",
+        "title": {
+         "en": "Defending the Important Against the Urgent",
+         "id": "Melindungi yang Penting dari yang Mendesak"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "Urgency is a sensation, not a measure of value",
+         "id": "Rasa mendesak itu sensasi, bukan ukuran nilai"
+        },
+        {
+         "en": "Sort any week into four boxes and see where your hours went",
+         "id": "Pilah minggu mana pun ke dalam empat kotak dan lihat ke mana jam-jammu pergi"
+        },
+        {
+         "en": "Interruptions dress up as crises and eat the hours that building needed",
+         "id": "Gangguan menyamar sebagai krisis lalu melahap jam-jam yang dibutuhkan untuk membangun"
+        },
+        {
+         "en": "Once a week, twenty minutes, three moves, in this order",
+         "id": "Sekali seminggu, dua puluh menit, tiga langkah, dengan urutan ini"
+        },
+        {
+         "en": "Nothing defends important work except a block in the calendar",
+         "id": "Tidak ada yang melindungi pekerjaan penting selain blok di kalender"
+        },
+        {
+         "en": "A graceful no has three parts, and no apology spiral",
+         "id": "Penolakan yang santun punya tiga bagian, tanpa maaf yang berputar-putar"
+        },
+        {
+         "en": "Every yes is an unpriced no to something else",
+         "id": "Setiap “ya” adalah “tidak” untuk hal lain yang belum kamu hitung harganya"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Urgency is a sensation",
+          "id": "Rasa mendesak itu sensasi"
+         },
+         "p": {
+          "en": "What waits is quietly compounding, or quietly decaying.",
+          "id": "Yang menunggu itu diam-diam berlipat, atau diam-diam membusuk."
+         }
+        },
+        {
+         "h": {
+          "en": "Four boxes",
+          "id": "Empat kotak"
+         },
+         "p": {
+          "en": "Two questions sort every task: is it urgent, and is it important?",
+          "id": "Dua pertanyaan memilah setiap tugas: apakah mendesak, dan apakah penting?"
+         }
+        },
+        {
+         "h": {
+          "en": "The trap",
+          "id": "Jebakannya"
+         },
+         "p": {
+          "en": "Careers are built in the important, not urgent box. Nothing in it will ever chase you.",
+          "id": "Karier dibangun di kotak penting, tidak mendesak. Tak satu pun isinya akan pernah mengejarmu."
+         }
+        },
+        {
+         "h": {
+          "en": "The weekly preview",
+          "id": "Tinjauan mingguan"
+         },
+         "p": {
+          "en": "The important blocks go in first. Everything else fits around them.",
+          "id": "Blok yang penting masuk lebih dulu. Yang lain menyesuaikan di sekitarnya."
+         }
+        },
+        {
+         "h": {
+          "en": "What goes in first",
+          "id": "Yang masuk lebih dulu"
+         },
+         "p": {
+          "en": "“When there's time left” never arrives. Put these in before the week fills up.",
+          "id": "“Kalau ada sisa waktu” tidak pernah datang. Masukkan semua ini sebelum minggumu penuh."
+         }
+        },
+        {
+         "h": {
+          "en": "The graceful no",
+          "id": "Menolak dengan santun"
+         },
+         "p": {
+          "en": "“Thanks for thinking of me. I can't before June: my evenings are committed to certification prep. If it can wait until July, I'm in.”",
+          "id": "“Terima kasih sudah memikirkanku. Aku belum bisa sebelum Juni karena malam-malamku sudah terpakai untuk persiapan sertifikasi. Kalau bisa menunggu sampai Juli, aku ikut.”"
+         }
+        },
+        {
+         "h": {
+          "en": "Price the yes",
+          "id": "Hitung harga sebuah ya"
+         },
+         "p": {
+          "en": "People respect a no that shows them your priorities. They resent a yes that arrives late and careless.",
+          "id": "Orang menghargai penolakan yang menunjukkan prioritasmu. Mereka justru kesal pada “ya” yang dikerjakan terlambat dan asal-asalan."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Urgency is a sensation, not a measure of value",
+          "id": "Rasa mendesak itu sensasi, bukan ukuran nilai"
+         },
+         "em": {
+          "en": "not a measure of value",
+          "id": "bukan ukuran nilai"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "Notifications, other people's deadlines, minor crises.",
+           "id": "Notifikasi, tenggat orang lain, krisis kecil.",
+           "l": {
+            "en": "It taps your shoulder",
+            "id": "Menepuk pundakmu"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "sun",
+           "en": "Skill practice, relationships, health, planning.",
+           "id": "Latihan keterampilan, hubungan, kesehatan, perencanaan.",
+           "l": {
+            "en": "It waits quietly",
+            "id": "Menunggu diam-diam"
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "band": {
+          "en": "What waits is quietly compounding, or quietly decaying.",
+          "id": "Yang menunggu itu diam-diam berlipat, atau diam-diam membusuk."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Sort any week into four boxes and see where your hours went",
+          "id": "Pilah minggu mana pun ke dalam empat kotak dan lihat ke mana jam-jammu pergi"
+         },
+         "em": {
+          "en": "four boxes",
+          "id": "empat kotak"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "warn",
+           "en": "Urgent and important",
+           "id": "Mendesak dan penting",
+           "d": {
+            "en": "Real deadlines, real crises. Do them, and shrink them with planning.",
+            "id": "Tenggat sungguhan, krisis sungguhan. Kerjakan, lalu perkecil lewat perencanaan."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "Important, not urgent",
+           "id": "Penting, tidak mendesak",
+           "d": {
+            "en": "Practice, planning, people, health. Schedule these first.",
+            "id": "Latihan, perencanaan, orang-orang, kesehatan. Jadwalkan lebih dulu."
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "chat",
+           "en": "Urgent, not important",
+           "id": "Mendesak, tidak penting",
+           "d": {
+            "en": "Most notifications, many meetings. Decline, batch or delegate.",
+            "id": "Kebanyakan notifikasi, banyak rapat. Tolak, kumpulkan, atau delegasikan."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "phone",
+           "en": "Neither",
+           "id": "Tidak keduanya",
+           "d": {
+            "en": "Escapes. Notice the trigger and cap the time.",
+            "id": "Pelarian. Kenali pemicunya dan batasi waktunya."
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Interruptions dress up as crises and eat the hours that building needed",
+          "id": "Gangguan menyamar sebagai krisis lalu melahap jam-jam yang dibutuhkan untuk membangun"
+         },
+         "em": {
+          "en": "dress up as crises",
+          "id": "menyamar sebagai krisis"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "mail",
+           "en": "A message marked “urgent” at four in the afternoon.",
+           "id": "Pesan bertanda “mendesak” pukul empat sore.",
+           "l": {
+            "en": "What it looks like",
+            "id": "Tampilannya"
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "question",
+           "en": "“What happens if this waits 24 hours?” Most so-called urgent things survive the question.",
+           "id": "“Apa yang terjadi kalau ini menunggu 24 jam?” Kebanyakan hal yang katanya mendesak ternyata baik-baik saja.",
+           "l": {
+            "en": "The test",
+            "id": "Ujinya"
+           },
+           "img": "../../assets/bg/fg-stage-horizon.jpg"
+          }
+         ],
+         "band": {
+          "en": "Careers are built in the important, not urgent box. Nothing in it will ever chase you.",
+          "id": "Karier dibangun di kotak penting, tidak mendesak. Tak satu pun isinya akan pernah mengejarmu."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Once a week, twenty minutes, three moves, in this order",
+          "id": "Sekali seminggu, dua puluh menit, tiga langkah, dengan urutan ini"
+         },
+         "em": {
+          "en": "in this order",
+          "id": "dengan urutan ini"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "compass",
+           "en": "Load the destination",
+           "id": "Ingat tujuanmu",
+           "d": {
+            "en": "Thirty seconds on your mission and 3-year outcome",
+            "id": "Tiga puluh detik untuk misi dan hasil 3 tahunmu"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Block the building work",
+           "id": "Blok pekerjaan yang membangun",
+           "d": {
+            "en": "Two or three sessions go into the calendar first",
+            "id": "Dua atau tiga sesi masuk kalender lebih dulu"
+           }
+          },
+          {
+           "icon": "eye",
+           "en": "Preview the deadlines",
+           "id": "Pratinjau tenggatnya",
+           "d": {
+            "en": "Give known crunches room before they become all-nighters",
+            "id": "Beri ruang bagi tenggat yang sudah kamu tahu sebelum menjadi begadang"
+           }
+          }
+         ],
+         "band": {
+          "en": "The important blocks go in first. Everything else fits around them.",
+          "id": "Blok yang penting masuk lebih dulu. Yang lain menyesuaikan di sekitarnya."
+         },
+         "img": "../../assets/bg/journey-start.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Nothing defends important work except a block in the calendar",
+          "id": "Tidak ada yang melindungi pekerjaan penting selain blok di kalender"
+         },
+         "em": {
+          "en": "a block in the calendar",
+          "id": "blok di kalender"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "A two-hour skill session",
+           "id": "Sesi keterampilan dua jam",
+           "d": {
+            "en": "One skill, one fixed evening",
+            "id": "Satu keterampilan, satu malam yang tetap"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "One coffee chat",
+           "id": "Satu kali ngopi",
+           "d": {
+            "en": "With someone a step ahead of you",
+            "id": "Dengan seseorang yang selangkah di depanmu"
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Three workouts",
+           "id": "Tiga kali olahraga",
+           "d": {
+            "en": "Booked like meetings you cannot move",
+            "id": "Dijadwalkan seperti rapat yang tak bisa digeser"
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ]
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A graceful no has three parts, and no apology spiral",
+          "id": "Penolakan yang santun punya tiga bagian, tanpa maaf yang berputar-putar"
+         },
+         "em": {
+          "en": "three parts",
+          "id": "tiga bagian"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "heart",
+           "en": "Appreciation",
+           "id": "Apresiasi",
+           "d": {
+            "en": "Thank the person sincerely",
+            "id": "Berterima kasih dengan tulus"
+           }
+          },
+          {
+           "icon": "shield",
+           "en": "The protected reason",
+           "id": "Alasan yang kamu lindungi",
+           "d": {
+            "en": "Name what a yes would damage",
+            "id": "Sebutkan apa yang akan rusak kalau kamu mengiyakan"
+           }
+          },
+          {
+           "icon": "route",
+           "en": "An alternative",
+           "id": "Alternatif",
+           "d": {
+            "en": "A later date, a smaller scope, another person, or a clean decline",
+            "id": "Tanggal lain, cakupan lebih kecil, orang lain, atau penolakan yang bersih"
+           }
+          }
+         ],
+         "band": {
+          "en": "“Thanks for thinking of me. I can't before June: my evenings are committed to certification prep. If it can wait until July, I'm in.”",
+          "id": "“Terima kasih sudah memikirkanku. Aku belum bisa sebelum Juni karena malam-malamku sudah terpakai untuk persiapan sertifikasi. Kalau bisa menunggu sampai Juli, aku ikut.”"
+         },
+         "img": "../../assets/bg/rope-team.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Every yes is an unpriced no to something else",
+          "id": "Setiap “ya” adalah “tidak” untuk hal lain yang belum kamu hitung harganya"
+         },
+         "em": {
+          "en": "an unpriced no",
+          "id": "“tidak” untuk hal lain"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“Maybe later, so sorry, I'll try.” It invites the same request next week.",
+           "id": "“Mungkin nanti ya, maaf banget, nanti kuusahakan.” Ini hanya mengundang permintaan yang sama minggu depan.",
+           "l": {
+            "en": "The door-open no",
+            "id": "Penolakan setengah hati"
+           },
+           "img": "../../assets/bg/ep-stage-permission.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "“I can't tonight: interview practice for Thursday. I can give you two hours on Saturday.”",
+           "id": "“Malam ini aku tidak bisa: latihan wawancara untuk hari Kamis. Aku bisa bantu dua jam hari Sabtu.”",
+           "l": {
+            "en": "The graceful no",
+            "id": "Penolakan yang santun"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "band": {
+          "en": "People respect a no that shows them your priorities. They resent a yes that arrives late and careless.",
+          "id": "Orang menghargai penolakan yang menunjukkan prioritasmu. Mereka justru kesal pada “ya” yang dikerjakan terlambat dan asal-asalan."
+         }
+        }
+       ]
+      }
      }
     }
    ],

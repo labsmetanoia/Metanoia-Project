@@ -163,7 +163,7 @@ after the videos' closing takeaways (`videosOutro`):
 ```
 material: {
   kicker{en,id}, title{en,id}, intro{en,id},
-  base: "../../assets/lms/the-map/slides/adaptability-",
+  base: "../../assets/lms/<product>/slides/<deck>-",
   slides: [ { title{en,id}, text{en,id} }, … ]
 }
 ```
@@ -171,17 +171,14 @@ material: {
 Intro videos (`videos[]`, with `videosIntro` and `videosOutro`) lead the
 lesson by default. Set `videosPlacement: "after-material"` to play them
 after the slide material instead, as reinforcement before the knowledge
-check (1.2 Learning Intention does); the kicker and the hand-off card
+check; the kicker and the hand-off card
 adjust to the placement. `material` may also be an array of decks, and
 `videosPlacement: "after-material:N"` places the videos after the Nth
 deck, so a lesson can run deck → videos → deck before its reading
-sections (1.3 Foundational Mindset does: Mindset 101, Shift our
-mindsets, the two videos, Practising APR). Each deck keeps its own seen
-state and position.
+sections. Each deck keeps its own seen state and position.
 
-A `slides` lesson may carry `material{}` instead of the text `slides[]`
-(1.2 Learning Intention does); the text deck is only rendered when
-`slides[]` is present.
+A `slides` lesson may carry `material{}` instead of the text `slides[]`;
+the text deck is only rendered when `slides[]` is present.
 
 The player derives every image from `base`: `base + lang + '-NN.jpg'`
 (1600 px), `-NN-960.jpg` (phones) and `-NN-320.jpg` (thumbnails), so a
