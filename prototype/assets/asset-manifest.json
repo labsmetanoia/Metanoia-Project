@@ -5020,7 +5020,7 @@
     },
     {
       "file": "assets/lms/the-map/adaptability-1-brand.mp4",
-      "bytes": 2753328,
+      "bytes": 2109268,
       "category": "video",
       "people": "no",
       "source": "",
@@ -5028,7 +5028,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of adaptability-1.mp4 (scripts/brand-grade-videos.py): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of adaptability-1.mp4 (scripts/brand-grade-videos.py): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/adaptability-1-en.vtt",
@@ -5056,7 +5056,7 @@
     },
     {
       "file": "assets/lms/the-map/adaptability-1-poster.jpg",
-      "bytes": 64377,
+      "bytes": 84118,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -5080,7 +5080,7 @@
     },
     {
       "file": "assets/lms/the-map/adaptability-2-brand.mp4",
-      "bytes": 6080288,
+      "bytes": 4003672,
       "category": "video",
       "people": "no",
       "source": "",
@@ -5088,7 +5088,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of adaptability-2.mp4 (scripts/brand-grade-videos.py): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of adaptability-2.mp4 (scripts/brand-grade-videos.py): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/adaptability-2-en.vtt",
@@ -5116,7 +5116,7 @@
     },
     {
       "file": "assets/lms/the-map/adaptability-2-poster.jpg",
-      "bytes": 59643,
+      "bytes": 69602,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -5140,7 +5140,7 @@
     },
     {
       "file": "assets/lms/the-map/adaptability-3-brand.mp4",
-      "bytes": 8727207,
+      "bytes": 5560013,
       "category": "video",
       "people": "no",
       "source": "",
@@ -5148,7 +5148,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of adaptability-3.mp4 (scripts/brand-grade-videos.py): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of adaptability-3.mp4 (scripts/brand-grade-videos.py): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/adaptability-3-en.vtt",
@@ -5176,7 +5176,7 @@
     },
     {
       "file": "assets/lms/the-map/adaptability-3-poster.jpg",
-      "bytes": 52276,
+      "bytes": 64146,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -5200,7 +5200,7 @@
     },
     {
       "file": "assets/lms/the-map/agile-1-brand.mp4",
-      "bytes": 15021094,
+      "bytes": 10609845,
       "category": "video",
       "people": "no",
       "source": "",
@@ -5208,7 +5208,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of agile-1.mp4 (scripts/brand-grade-videos.py --set agile 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of agile-1.mp4 (scripts/brand-grade-videos.py --set agile 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/agile-1-en.vtt",
@@ -5236,7 +5236,7 @@
     },
     {
       "file": "assets/lms/the-map/agile-1-poster.jpg",
-      "bytes": 73996,
+      "bytes": 104856,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -5260,7 +5260,7 @@
     },
     {
       "file": "assets/lms/the-map/avec-1-brand.mp4",
-      "bytes": 10537389,
+      "bytes": 7504644,
       "category": "video",
       "people": "no",
       "source": "",
@@ -5268,7 +5268,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of avec-1.mp4 (scripts/brand-grade-videos.py --set avec 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of avec-1.mp4 (scripts/brand-grade-videos.py --set avec 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/avec-1-en.vtt",
@@ -5296,7 +5296,7 @@
     },
     {
       "file": "assets/lms/the-map/avec-1-poster.jpg",
-      "bytes": 26116,
+      "bytes": 34644,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -5320,7 +5320,7 @@
     },
     {
       "file": "assets/lms/the-map/avec-2-brand.mp4",
-      "bytes": 10256279,
+      "bytes": 7481713,
       "category": "video",
       "people": "no",
       "source": "",
@@ -5328,7 +5328,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of avec-2.mp4 (scripts/brand-grade-videos.py --set avec 2): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of avec-2.mp4 (scripts/brand-grade-videos.py --set avec 2): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/avec-2-en.vtt",
@@ -5356,7 +5356,7 @@
     },
     {
       "file": "assets/lms/the-map/avec-2-poster.jpg",
-      "bytes": 54947,
+      "bytes": 67926,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -5380,7 +5380,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-1-brand.mp4",
-      "bytes": 37108883,
+      "bytes": 27185079,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from cases-1.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5388,7 +5388,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the why-structure film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the why-structure film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/cases-1-en.vtt",
@@ -5416,7 +5416,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-1-poster.jpg",
-      "bytes": 37495,
+      "bytes": 44967,
       "category": "graphic",
       "people": "no",
       "source": "Frame extracted in-repo from cases-1.mp4 (animated opening frame)",
@@ -5440,7 +5440,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-2-brand.mp4",
-      "bytes": 21551786,
+      "bytes": 12794342,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from cases-2.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5448,7 +5448,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the pyramid film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the pyramid film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/cases-2-en.vtt",
@@ -5476,7 +5476,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-2-poster.jpg",
-      "bytes": 50157,
+      "bytes": 61862,
       "category": "graphic",
       "people": "no",
       "source": "Frame extracted in-repo from cases-2.mp4 (animated opening frame)",
@@ -5500,7 +5500,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-3-brand.mp4",
-      "bytes": 21791072,
+      "bytes": 14588260,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from cases-3.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5508,7 +5508,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the pyramid film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the pyramid film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/cases-3-en.vtt",
@@ -5536,7 +5536,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-3-poster.jpg",
-      "bytes": 34972,
+      "bytes": 41657,
       "category": "graphic",
       "people": "no",
       "source": "Frame extracted in-repo from cases-3.mp4 (animated opening frame)",
@@ -5560,7 +5560,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-4-brand.mp4",
-      "bytes": 34515476,
+      "bytes": 25356064,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from cases-4.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5568,7 +5568,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the synthesize film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the synthesize film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/cases-4-en.vtt",
@@ -5596,7 +5596,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-4-poster.jpg",
-      "bytes": 56145,
+      "bytes": 58727,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from cases-4.mp4",
@@ -5620,7 +5620,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-5-brand.mp4",
-      "bytes": 10586262,
+      "bytes": 6383807,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from cases-5.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5628,7 +5628,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the storyline film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the storyline film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/cases-5-en.vtt",
@@ -5656,7 +5656,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-5-poster.jpg",
-      "bytes": 50219,
+      "bytes": 53528,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from cases-5.mp4",
@@ -5680,7 +5680,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-6-brand.mp4",
-      "bytes": 9806329,
+      "bytes": 7019793,
       "category": "video",
       "people": "no",
       "source": "Derived in-repo from cases-6.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5688,7 +5688,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the MODA v5 scene film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the MODA v5 scene film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/cases-6-en.vtt",
@@ -5716,7 +5716,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-6-poster.jpg",
-      "bytes": 64318,
+      "bytes": 79326,
       "category": "graphic",
       "people": "no",
       "source": "Frame extracted in-repo from cases-6.mp4",
@@ -5740,7 +5740,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-7-brand.mp4",
-      "bytes": 11219992,
+      "bytes": 6717201,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from cases-7.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5748,7 +5748,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the expert commentary film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the expert commentary film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/cases-7-en.vtt",
@@ -5776,7 +5776,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-7-poster.jpg",
-      "bytes": 54392,
+      "bytes": 57343,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from cases-7.mp4",
@@ -5800,7 +5800,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-8-brand.mp4",
-      "bytes": 20203774,
+      "bytes": 11903792,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from cases-8.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5808,7 +5808,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the delivering-for-impact film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the delivering-for-impact film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/cases-8-en.vtt",
@@ -5836,7 +5836,7 @@
     },
     {
       "file": "assets/lms/the-map/cases-8-poster.jpg",
-      "bytes": 54972,
+      "bytes": 57711,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from cases-8.mp4",
@@ -5884,7 +5884,7 @@
     },
     {
       "file": "assets/lms/the-map/ceo-sign-off-poster.jpg",
-      "bytes": 57541,
+      "bytes": 49443,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:48 of ceo-sign-off.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -5908,7 +5908,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-1-brand.mp4",
-      "bytes": 10884132,
+      "bytes": 7498635,
       "category": "video",
       "people": "no",
       "source": "Derived in-repo from communication-1.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5916,7 +5916,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of chapter film 1; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of chapter film 1; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/communication-1-en.vtt",
@@ -5944,7 +5944,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-1-poster.jpg",
-      "bytes": 56461,
+      "bytes": 69166,
       "category": "graphic",
       "people": "no",
       "source": "Frame extracted in-repo from communication-1.mp4",
@@ -5968,7 +5968,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-2-brand.mp4",
-      "bytes": 29052423,
+      "bytes": 19488569,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from communication-2.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -5976,7 +5976,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of chapter film 2; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of chapter film 2; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/communication-2-en.vtt",
@@ -6004,7 +6004,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-2-poster.jpg",
-      "bytes": 88100,
+      "bytes": 97779,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from communication-2.mp4",
@@ -6028,7 +6028,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-3-brand.mp4",
-      "bytes": 27537991,
+      "bytes": 19938465,
       "category": "video",
       "people": "no",
       "source": "Derived in-repo from communication-3.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -6036,7 +6036,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the scene film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the scene film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/communication-3-en.vtt",
@@ -6064,7 +6064,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-3-poster.jpg",
-      "bytes": 59229,
+      "bytes": 72267,
       "category": "graphic",
       "people": "no",
       "source": "Frame extracted in-repo from communication-3.mp4",
@@ -6088,7 +6088,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-4-brand.mp4",
-      "bytes": 12880125,
+      "bytes": 7835179,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from communication-4.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -6096,7 +6096,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the expert commentary film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the expert commentary film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/communication-4-en.vtt",
@@ -6124,7 +6124,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-4-poster.jpg",
-      "bytes": 53065,
+      "bytes": 56625,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from communication-4.mp4",
@@ -6148,7 +6148,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-5-brand.mp4",
-      "bytes": 25018106,
+      "bytes": 15205288,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from communication-5.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -6156,7 +6156,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the \"What is empathy?\" film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the \"What is empathy?\" film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/communication-5-en.vtt",
@@ -6184,7 +6184,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-5-poster.jpg",
-      "bytes": 54995,
+      "bytes": 57993,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from communication-5.mp4",
@@ -6208,7 +6208,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-6-brand.mp4",
-      "bytes": 11761769,
+      "bytes": 7892120,
       "category": "video",
       "people": "no",
       "source": "Derived in-repo from communication-6.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -6216,7 +6216,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of communication-6; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of communication-6; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/communication-6-en.vtt",
@@ -6244,7 +6244,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-6-poster.jpg",
-      "bytes": 62179,
+      "bytes": 78556,
       "category": "graphic",
       "people": "no",
       "source": "Frame extracted in-repo from communication-6.mp4",
@@ -6268,7 +6268,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-7-brand.mp4",
-      "bytes": 7063674,
+      "bytes": 4322937,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from communication-7.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -6276,7 +6276,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of communication-7; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of communication-7; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/communication-7-en.vtt",
@@ -6304,7 +6304,7 @@
     },
     {
       "file": "assets/lms/the-map/communication-7-poster.jpg",
-      "bytes": 49743,
+      "bytes": 52184,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from communication-7.mp4",
@@ -6328,7 +6328,7 @@
     },
     {
       "file": "assets/lms/the-map/data-now-1-brand.mp4",
-      "bytes": 6883956,
+      "bytes": 4641242,
       "category": "video",
       "people": "no",
       "source": "",
@@ -6336,7 +6336,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of data-now-1.mp4 (scripts/brand-grade-videos.py --set data-now 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of data-now-1.mp4 (scripts/brand-grade-videos.py --set data-now 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/data-now-1-en.vtt",
@@ -6364,7 +6364,7 @@
     },
     {
       "file": "assets/lms/the-map/data-now-1-poster.jpg",
-      "bytes": 43415,
+      "bytes": 54044,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -6412,7 +6412,7 @@
     },
     {
       "file": "assets/lms/the-map/debiasing-techniques-poster.jpg",
-      "bytes": 61896,
+      "bytes": 58267,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:33 of debiasing-techniques.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -6460,7 +6460,7 @@
     },
     {
       "file": "assets/lms/the-map/defining-the-problem-poster.jpg",
-      "bytes": 59878,
+      "bytes": 53893,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:40 of defining-the-problem.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -6556,7 +6556,7 @@
     },
     {
       "file": "assets/lms/the-map/hallmarks-of-great-problem-solving-poster.jpg",
-      "bytes": 81169,
+      "bytes": 73204,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:29 of hallmarks-of-great-problem-solving.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -6604,7 +6604,7 @@
     },
     {
       "file": "assets/lms/the-map/hypothesis-led-approach-poster.jpg",
-      "bytes": 60755,
+      "bytes": 54611,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:37 of hypothesis-led-approach.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -6652,7 +6652,7 @@
     },
     {
       "file": "assets/lms/the-map/introduction-to-mece-poster.jpg",
-      "bytes": 60764,
+      "bytes": 55109,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:19 of introduction-to-mece.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -6676,7 +6676,7 @@
     },
     {
       "file": "assets/lms/the-map/inventing-future-1-brand.mp4",
-      "bytes": 35613463,
+      "bytes": 25907688,
       "category": "video",
       "people": "yes",
       "source": "",
@@ -6684,7 +6684,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of inventing-future-1.mp4 (scripts/brand-grade-videos.py --set inventing-future 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of inventing-future-1.mp4 (scripts/brand-grade-videos.py --set inventing-future 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/inventing-future-1-en.vtt",
@@ -6712,7 +6712,7 @@
     },
     {
       "file": "assets/lms/the-map/inventing-future-1-poster.jpg",
-      "bytes": 25190,
+      "bytes": 33872,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -6760,7 +6760,7 @@
     },
     {
       "file": "assets/lms/the-map/is-it-smart-poster.jpg",
-      "bytes": 61778,
+      "bytes": 55358,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:08 of is-it-smart.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -6808,7 +6808,7 @@
     },
     {
       "file": "assets/lms/the-map/learning-habits-poster.jpg",
-      "bytes": 67342,
+      "bytes": 83989,
       "category": "graphic",
       "people": "unlikely",
       "source": "Frame at 2:00 of learning-habits.mp4 (supplied by Metanoia Labs on 2026-09-13), extracted in-repo at 1600px wide as the player poster",
@@ -6832,7 +6832,7 @@
     },
     {
       "file": "assets/lms/the-map/learning-intention-1-brand.mp4",
-      "bytes": 17272116,
+      "bytes": 13916444,
       "category": "video",
       "people": "no",
       "source": "",
@@ -6840,7 +6840,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of learning-intention-1.mp4 (scripts/brand-grade-videos.py --set learning-intention): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of learning-intention-1.mp4 (scripts/brand-grade-videos.py --set learning-intention): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/learning-intention-1-en.vtt",
@@ -6868,7 +6868,7 @@
     },
     {
       "file": "assets/lms/the-map/learning-intention-1-poster.jpg",
-      "bytes": 81267,
+      "bytes": 100980,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -6892,7 +6892,7 @@
     },
     {
       "file": "assets/lms/the-map/learning-intention-2-brand.mp4",
-      "bytes": 12477098,
+      "bytes": 8840467,
       "category": "video",
       "people": "no",
       "source": "",
@@ -6900,7 +6900,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of learning-intention-2.mp4 (scripts/brand-grade-videos.py --set learning-intention): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of learning-intention-2.mp4 (scripts/brand-grade-videos.py --set learning-intention): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/learning-intention-2-en.vtt",
@@ -6928,7 +6928,7 @@
     },
     {
       "file": "assets/lms/the-map/learning-intention-2-poster.jpg",
-      "bytes": 34817,
+      "bytes": 45262,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -6952,7 +6952,7 @@
     },
     {
       "file": "assets/lms/the-map/learning-intention-3-brand.mp4",
-      "bytes": 15660601,
+      "bytes": 11015364,
       "category": "video",
       "people": "no",
       "source": "",
@@ -6960,7 +6960,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of learning-intention-3.mp4 (scripts/brand-grade-videos.py --set learning-intention): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of learning-intention-3.mp4 (scripts/brand-grade-videos.py --set learning-intention): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/learning-intention-3-en.vtt",
@@ -6988,7 +6988,7 @@
     },
     {
       "file": "assets/lms/the-map/learning-intention-3-poster.jpg",
-      "bytes": 56701,
+      "bytes": 68169,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -7036,7 +7036,7 @@
     },
     {
       "file": "assets/lms/the-map/making-sense-of-problems-poster.jpg",
-      "bytes": 83115,
+      "bytes": 72430,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:19 of making-sense-of-problems.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -7060,7 +7060,7 @@
     },
     {
       "file": "assets/lms/the-map/mindset-101-1-brand.mp4",
-      "bytes": 14664977,
+      "bytes": 11709749,
       "category": "video",
       "people": "no",
       "source": "",
@@ -7068,7 +7068,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of mindset-101-1.mp4 (scripts/brand-grade-videos.py --set mindset-101). Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of mindset-101-1.mp4 (scripts/brand-grade-videos.py --set mindset-101). Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/mindset-101-1-en.vtt",
@@ -7096,7 +7096,7 @@
     },
     {
       "file": "assets/lms/the-map/mindset-101-1-poster.jpg",
-      "bytes": 36398,
+      "bytes": 48040,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -7120,7 +7120,7 @@
     },
     {
       "file": "assets/lms/the-map/mindset-101-2-brand.mp4",
-      "bytes": 8845941,
+      "bytes": 7049952,
       "category": "video",
       "people": "no",
       "source": "",
@@ -7128,7 +7128,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of mindset-101-2.mp4 (scripts/brand-grade-videos.py --set mindset-101). Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of mindset-101-2.mp4 (scripts/brand-grade-videos.py --set mindset-101). Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/mindset-101-2-en.vtt",
@@ -7156,7 +7156,7 @@
     },
     {
       "file": "assets/lms/the-map/mindset-101-2-poster.jpg",
-      "bytes": 47832,
+      "bytes": 66084,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -7204,7 +7204,7 @@
     },
     {
       "file": "assets/lms/the-map/multiple-approaches-to-problem-solving-poster.jpg",
-      "bytes": 76071,
+      "bytes": 71279,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:20 of multiple-approaches-to-problem-solving.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -7228,7 +7228,7 @@
     },
     {
       "file": "assets/lms/the-map/opportunities-ahead-1-brand.mp4",
-      "bytes": 38772100,
+      "bytes": 27721718,
       "category": "video",
       "people": "yes",
       "source": "",
@@ -7236,7 +7236,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of opportunities-ahead-1.mp4 (scripts/brand-grade-videos.py --set opportunities-ahead 1) with its soundtrack replaced: the German narration and music bed were dropped at the owner's request and a clear English narration was synthesised in-repo (Kokoro v0.19 open-weights TTS via sherpa-onnx, voice 'af') from an English script written from the original narration and the on-screen titles, timed to the original utterances and scenes, loudness-normalised to -16 LUFS. Picture licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of opportunities-ahead-1.mp4 (scripts/brand-grade-videos.py --set opportunities-ahead 1) with its soundtrack replaced: the German narration and music bed were dropped at the owner's request and a clear English narration was synthesised in-repo (Kokoro v0.19 open-weights TTS via sherpa-onnx, voice 'af') from an English script written from the original narration and the on-screen titles, timed to the original utterances and scenes, loudness-normalised to -16 LUFS. Picture licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/opportunities-ahead-1-en.vtt",
@@ -7264,7 +7264,7 @@
     },
     {
       "file": "assets/lms/the-map/opportunities-ahead-1-poster.jpg",
-      "bytes": 43206,
+      "bytes": 46512,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -7312,7 +7312,7 @@
     },
     {
       "file": "assets/lms/the-map/power-of-problem-definition-poster.jpg",
-      "bytes": 76955,
+      "bytes": 73460,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:10 of power-of-problem-definition.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -7360,7 +7360,7 @@
     },
     {
       "file": "assets/lms/the-map/prioritizing-issues-poster.jpg",
-      "bytes": 63190,
+      "bytes": 56523,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:28 of prioritizing-issues.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -7408,7 +7408,7 @@
     },
     {
       "file": "assets/lms/the-map/problem-statement-worksheet-poster.jpg",
-      "bytes": 84975,
+      "bytes": 74015,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:06 of problem-statement-worksheet.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -7432,7 +7432,7 @@
     },
     {
       "file": "assets/lms/the-map/psych-safety-1-brand.mp4",
-      "bytes": 32914464,
+      "bytes": 26182114,
       "category": "video",
       "people": "no",
       "source": "",
@@ -7440,7 +7440,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of psych-safety-1.mp4 (scripts/brand-grade-videos.py --set psych-safety 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of psych-safety-1.mp4 (scripts/brand-grade-videos.py --set psych-safety 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/psych-safety-1-en.vtt",
@@ -7468,7 +7468,7 @@
     },
     {
       "file": "assets/lms/the-map/psych-safety-1-poster.jpg",
-      "bytes": 38371,
+      "bytes": 51377,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -7492,7 +7492,7 @@
     },
     {
       "file": "assets/lms/the-map/purpose-1-brand.mp4",
-      "bytes": 9927030,
+      "bytes": 6149581,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from purpose-1.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -7500,7 +7500,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the purpose film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the purpose film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/purpose-1-en.vtt",
@@ -7528,7 +7528,7 @@
     },
     {
       "file": "assets/lms/the-map/purpose-1-poster.jpg",
-      "bytes": 53289,
+      "bytes": 55946,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from purpose-1.mp4",
@@ -7552,7 +7552,7 @@
     },
     {
       "file": "assets/lms/the-map/purpose-2-brand.mp4",
-      "bytes": 19699204,
+      "bytes": 13323030,
       "category": "video",
       "people": "no",
       "source": "Derived in-repo from purpose-2.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -7560,7 +7560,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the Back at MODA scene film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the Back at MODA scene film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/purpose-2-en.vtt",
@@ -7588,7 +7588,7 @@
     },
     {
       "file": "assets/lms/the-map/purpose-2-poster.jpg",
-      "bytes": 70799,
+      "bytes": 89849,
       "category": "graphic",
       "people": "no",
       "source": "Frame extracted in-repo from purpose-2.mp4",
@@ -7612,7 +7612,7 @@
     },
     {
       "file": "assets/lms/the-map/purpose-3-brand.mp4",
-      "bytes": 26360358,
+      "bytes": 15426652,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from purpose-3.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -7620,7 +7620,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the insight film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the insight film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/purpose-3-en.vtt",
@@ -7648,7 +7648,7 @@
     },
     {
       "file": "assets/lms/the-map/purpose-3-poster.jpg",
-      "bytes": 51297,
+      "bytes": 54394,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from purpose-3.mp4",
@@ -7672,7 +7672,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-1-brand.mp4",
-      "bytes": 6740281,
+      "bytes": 4707315,
       "category": "video",
       "people": "no",
       "source": "",
@@ -7680,7 +7680,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of recommendation-1.mp4 (scripts/brand-grade-videos.py --set recommendation): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of recommendation-1.mp4 (scripts/brand-grade-videos.py --set recommendation): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/recommendation-1-en.vtt",
@@ -7708,7 +7708,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-1-poster.jpg",
-      "bytes": 42190,
+      "bytes": 53543,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -7732,7 +7732,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-2-brand.mp4",
-      "bytes": 21424396,
+      "bytes": 13918039,
       "category": "video",
       "people": "yes",
       "source": "",
@@ -7740,7 +7740,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of recommendation-2.mp4 (scripts/brand-grade-videos.py --set recommendation 2). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of recommendation-2.mp4 (scripts/brand-grade-videos.py --set recommendation 2). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/recommendation-2-en.vtt",
@@ -7768,7 +7768,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-2-poster.jpg",
-      "bytes": 53929,
+      "bytes": 54206,
       "category": "graphic",
       "people": "yes",
       "source": "",
@@ -7792,7 +7792,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-3-brand.mp4",
-      "bytes": 18335533,
+      "bytes": 11020964,
       "category": "video",
       "people": "yes",
       "source": "",
@@ -7800,7 +7800,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of recommendation-3.mp4 (scripts/brand-grade-videos.py --set recommendation 3). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of recommendation-3.mp4 (scripts/brand-grade-videos.py --set recommendation 3). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/recommendation-3-en.vtt",
@@ -7828,7 +7828,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-3-poster.jpg",
-      "bytes": 67967,
+      "bytes": 69009,
       "category": "graphic",
       "people": "yes",
       "source": "",
@@ -7852,7 +7852,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-4-brand.mp4",
-      "bytes": 15015904,
+      "bytes": 9119616,
       "category": "video",
       "people": "yes",
       "source": "",
@@ -7860,7 +7860,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of recommendation-4.mp4 (scripts/brand-grade-videos.py --set recommendation 4). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of recommendation-4.mp4 (scripts/brand-grade-videos.py --set recommendation 4). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/recommendation-4-en.vtt",
@@ -7888,7 +7888,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-4-poster.jpg",
-      "bytes": 70415,
+      "bytes": 72012,
       "category": "graphic",
       "people": "yes",
       "source": "",
@@ -7912,7 +7912,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-5-brand.mp4",
-      "bytes": 17116048,
+      "bytes": 10499385,
       "category": "video",
       "people": "yes",
       "source": "",
@@ -7920,7 +7920,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of recommendation-5.mp4 (scripts/brand-grade-videos.py --set recommendation 5). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of recommendation-5.mp4 (scripts/brand-grade-videos.py --set recommendation 5). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/recommendation-5-en.vtt",
@@ -7948,7 +7948,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-5-poster.jpg",
-      "bytes": 62397,
+      "bytes": 62493,
       "category": "graphic",
       "people": "yes",
       "source": "",
@@ -7972,7 +7972,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-6-brand.mp4",
-      "bytes": 9388423,
+      "bytes": 5962650,
       "category": "video",
       "people": "yes",
       "source": "",
@@ -7980,7 +7980,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of recommendation-6.mp4 (scripts/brand-grade-videos.py --set recommendation 6). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of recommendation-6.mp4 (scripts/brand-grade-videos.py --set recommendation 6). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/recommendation-6-en.vtt",
@@ -8008,7 +8008,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-6-poster.jpg",
-      "bytes": 62166,
+      "bytes": 61685,
       "category": "graphic",
       "people": "yes",
       "source": "",
@@ -8032,7 +8032,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-7-brand.mp4",
-      "bytes": 9906061,
+      "bytes": 6362306,
       "category": "video",
       "people": "yes",
       "source": "",
@@ -8040,7 +8040,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of recommendation-7.mp4 (scripts/brand-grade-videos.py --set recommendation 7). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of recommendation-7.mp4 (scripts/brand-grade-videos.py --set recommendation 7). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/recommendation-7-en.vtt",
@@ -8068,7 +8068,7 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-7-poster.jpg",
-      "bytes": 66721,
+      "bytes": 71278,
       "category": "graphic",
       "people": "yes",
       "source": "",
@@ -31492,7 +31492,7 @@
     },
     {
       "file": "assets/lms/the-map/stronger-1-brand.mp4",
-      "bytes": 3564083,
+      "bytes": 2464178,
       "category": "video",
       "people": "no",
       "source": "",
@@ -31500,7 +31500,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of stronger-1.mp4 (scripts/brand-grade-videos.py --set stronger 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of stronger-1.mp4 (scripts/brand-grade-videos.py --set stronger 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/stronger-1-en.vtt",
@@ -31528,7 +31528,7 @@
     },
     {
       "file": "assets/lms/the-map/stronger-1-poster.jpg",
-      "bytes": 41208,
+      "bytes": 49125,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -31552,7 +31552,7 @@
     },
     {
       "file": "assets/lms/the-map/stronger-2-brand.mp4",
-      "bytes": 5466017,
+      "bytes": 3928622,
       "category": "video",
       "people": "no",
       "source": "",
@@ -31560,7 +31560,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of stronger-2.mp4 (scripts/brand-grade-videos.py --set stronger 2): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of stronger-2.mp4 (scripts/brand-grade-videos.py --set stronger 2): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/stronger-2-en.vtt",
@@ -31588,7 +31588,7 @@
     },
     {
       "file": "assets/lms/the-map/stronger-2-poster.jpg",
-      "bytes": 32994,
+      "bytes": 41396,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -31636,7 +31636,7 @@
     },
     {
       "file": "assets/lms/the-map/structured-problem-solving-poster.jpg",
-      "bytes": 75531,
+      "bytes": 70476,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:52 of structured-problem-solving.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -31684,7 +31684,7 @@
     },
     {
       "file": "assets/lms/the-map/structuring-the-problem-poster.jpg",
-      "bytes": 77019,
+      "bytes": 70062,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:56 of structuring-the-problem.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -31708,7 +31708,7 @@
     },
     {
       "file": "assets/lms/the-map/style-1-brand.mp4",
-      "bytes": 23655498,
+      "bytes": 14069897,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from style-1.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -31716,7 +31716,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the physical-presence film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the physical-presence film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/style-1-en.vtt",
@@ -31744,7 +31744,7 @@
     },
     {
       "file": "assets/lms/the-map/style-1-poster.jpg",
-      "bytes": 59608,
+      "bytes": 63654,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from style-1.mp4",
@@ -31768,7 +31768,7 @@
     },
     {
       "file": "assets/lms/the-map/style-2-brand.mp4",
-      "bytes": 24058757,
+      "bytes": 14517113,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from style-2.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -31776,7 +31776,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/style-2-en.vtt",
@@ -31804,7 +31804,7 @@
     },
     {
       "file": "assets/lms/the-map/style-2-poster.jpg",
-      "bytes": 59876,
+      "bytes": 64229,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from style-2.mp4",
@@ -31828,7 +31828,7 @@
     },
     {
       "file": "assets/lms/the-map/style-3-brand.mp4",
-      "bytes": 28337550,
+      "bytes": 17009859,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from style-3.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -31836,7 +31836,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/style-3-en.vtt",
@@ -31864,7 +31864,7 @@
     },
     {
       "file": "assets/lms/the-map/style-3-poster.jpg",
-      "bytes": 56797,
+      "bytes": 60408,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from style-3.mp4",
@@ -31888,7 +31888,7 @@
     },
     {
       "file": "assets/lms/the-map/style-4-brand.mp4",
-      "bytes": 27346705,
+      "bytes": 16558942,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from style-4.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -31896,7 +31896,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/style-4-en.vtt",
@@ -31924,7 +31924,7 @@
     },
     {
       "file": "assets/lms/the-map/style-4-poster.jpg",
-      "bytes": 57920,
+      "bytes": 61323,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from style-4.mp4",
@@ -31948,7 +31948,7 @@
     },
     {
       "file": "assets/lms/the-map/style-5-brand.mp4",
-      "bytes": 24735341,
+      "bytes": 14933840,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from style-5.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -31956,7 +31956,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/style-5-en.vtt",
@@ -31984,7 +31984,7 @@
     },
     {
       "file": "assets/lms/the-map/style-5-poster.jpg",
-      "bytes": 57865,
+      "bytes": 61492,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from style-5.mp4",
@@ -32008,7 +32008,7 @@
     },
     {
       "file": "assets/lms/the-map/style-6-brand.mp4",
-      "bytes": 17675258,
+      "bytes": 10300095,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from style-6.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -32016,7 +32016,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/style-6-en.vtt",
@@ -32044,7 +32044,7 @@
     },
     {
       "file": "assets/lms/the-map/style-6-poster.jpg",
-      "bytes": 51673,
+      "bytes": 55058,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from style-6.mp4",
@@ -32068,7 +32068,7 @@
     },
     {
       "file": "assets/lms/the-map/style-7-brand.mp4",
-      "bytes": 30006116,
+      "bytes": 21661103,
       "category": "video",
       "people": "yes",
       "source": "Derived in-repo from style-7.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
@@ -32076,7 +32076,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/style-7-en.vtt",
@@ -32104,7 +32104,7 @@
     },
     {
       "file": "assets/lms/the-map/style-7-poster.jpg",
-      "bytes": 79275,
+      "bytes": 82764,
       "category": "graphic",
       "people": "yes",
       "source": "Frame extracted in-repo from style-7.mp4",
@@ -32152,7 +32152,7 @@
     },
     {
       "file": "assets/lms/the-map/the-prioritization-matrix-poster.jpg",
-      "bytes": 61546,
+      "bytes": 55296,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:16 of the-prioritization-matrix.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -32200,7 +32200,7 @@
     },
     {
       "file": "assets/lms/the-map/using-psw-on-the-job-poster.jpg",
-      "bytes": 62337,
+      "bytes": 56392,
       "category": "graphic",
       "people": "yes",
       "source": "Frame at 0:24 of using-psw-on-the-job.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
@@ -32224,7 +32224,7 @@
     },
     {
       "file": "assets/lms/the-map/well-being-1-brand.mp4",
-      "bytes": 10633598,
+      "bytes": 7885491,
       "category": "video",
       "people": "no",
       "source": "",
@@ -32232,7 +32232,7 @@
       "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Brand-graded re-encode of well-being-1.mp4 (scripts/brand-grade-videos.py --set well-being 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+      "notes": "Brand-graded re-encode of well-being-1.mp4 (scripts/brand-grade-videos.py --set well-being 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     },
     {
       "file": "assets/lms/the-map/well-being-1-en.vtt",
@@ -32260,7 +32260,7 @@
     },
     {
       "file": "assets/lms/the-map/well-being-1-poster.jpg",
-      "bytes": 39207,
+      "bytes": 51298,
       "category": "graphic",
       "people": "no",
       "source": "",
@@ -32281,6 +32281,210 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "Uploaded directly to main by the repository owner on 2026-10-03 as 'Well Being.mp4' (renamed for filename hygiene). 2D-animated explainer, illustrated characters only, English narration on well-being as the foundation of energy and the U-curve of stress. Source master for The Map · Module 5 · 5.1 lesson video; the lesson plays the brand-graded well-being-1-brand.mp4. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission."
+    },
+    {
+      "file": "assets/lms/the-map/ceo-sign-off-brand.mp4",
+      "bytes": 25903969,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"CEO sign off.mp4\" (commit 497f4d2); moved beside the other lesson films. a dramatised office scene with three actors — the DentMerc team narrows its research to price and performance specifications, cuts the budget from 50 to 15 lakhs and wins CEO sign-off (3:03).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.2 lesson film (after the Getting Crystal Clear slides). Licence and model release follow the supplied file; three identifiable actors appear. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/debiasing-techniques-brand.mp4",
+      "bytes": 8820612,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Debiasing Technique.mp4\" (commit d92cb7a); moved beside the other lesson films. Two on-camera presenters on what debiasing is, why biases exist, confirmation bias and groupthink, and the challenger session, with animated inserts (2:05).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.2 lesson film (after the Debiasing Techniques slides). Licence and model release follow the supplied file; two identifiable presenters appear. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/defining-the-problem-brand.mp4",
+      "bytes": 15334578,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Defining the problem.mp4\" (commits 51a7c6e/0470e98); moved beside the other lesson films. a dramatised office scene with three actors — the Arun / DentMerc case from the Defining the Problem slides (1:47).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Defining the Problem slides). Licence and model release follow the supplied file; three identifiable actors appear. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/hallmarks-of-great-problem-solving-brand.mp4",
+      "bytes": 16151074,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Hallmarks of great problem solving.mp4\" (commits 35be579/3a8f4df); moved beside the other lesson films. one on-camera presenter on what separates okay from great problem solving (2:21).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Reflection slides). Licence and model release follow the supplied file; an identifiable presenter appears. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/hypothesis-led-approach-brand.mp4",
+      "bytes": 8269764,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Hypothesis-led approach.mp4\" (commits 478751d/804e15b); moved beside the other lesson films. one on-camera presenter on the hypothesis-led approach, with animated inserts (2:06).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Multiple Approaches slides). Licence and model release follow the supplied file; an identifiable presenter appears. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/introduction-to-mece-brand.mp4",
+      "bytes": 13138622,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Introduction to MECE.mp4\" (commit a1c2a51); moved beside the other lesson films. one on-camera presenter (captioned “Marc, Partner”) on testing an issue tree with MECE — no overlaps, no gaps — with the profitability, meals and traffic-light examples, tips for getting to MECE, and the trap of prioritising too early, with animated inserts (3:01).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 lesson film (after the Introduction to MECE slides). Licence and model release follow the supplied file; one identifiable presenter appears. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/is-it-smart-brand.mp4",
+      "bytes": 9554271,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Is it Smart.mp4\" (commit 5bb28aa); moved beside the other lesson films. One on-camera presenter (captioned “Marc, Partner”) walks through the five SMART tests with animated inserts, a vacation example and a revenue-growth example (3:35).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.2 lesson film (after the Is it SMART? slides). Licence and model release follow the supplied file; one identifiable presenter appears. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/learning-habits-brand.mp4",
+      "bytes": 21557230,
+      "category": "video",
+      "people": "unknown",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-13 as \"The Power of Learning Habits.mp4\" (commit 2fa5a6f); moved beside the other lesson films",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 2 · 2.2 lesson video (after the Power of Learning Habits slides). Licence and model release follow the supplied file. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/making-sense-of-problems-brand.mp4",
+      "bytes": 5302024,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Making sense of problems.mp4\" (commits 35be579/3a8f4df); moved beside the other lesson films. one on-camera presenter on problem-solving time horizons, with animated inserts (1:33).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Reflection slides). Licence and model release follow the supplied file; an identifiable presenter appears. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/multiple-approaches-to-problem-solving-brand.mp4",
+      "bytes": 6790077,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Multiple Approaches to Problem Solving.mp4\" (commits 478751d/804e15b); moved beside the other lesson films. two on-camera presenters on the five problem-solving approaches and what they share (1:38).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Multiple Approaches slides). Licence and model release follow the supplied file; two identifiable presenters appear. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/power-of-problem-definition-brand.mp4",
+      "bytes": 15904493,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Power of problem definition.mp4\" (commits 51a7c6e/0470e98); moved beside the other lesson films. two on-camera presenters on why defining the problem is the hardest first step, with animated inserts (4:05).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Defining the Problem slides). Licence and model release follow the supplied file; two identifiable presenters appear. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/prioritizing-issues-brand.mp4",
+      "bytes": 12307064,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Prioritizing issues.mp4\" (commit 062506c); moved beside the other lesson films. the same presenter on the 80/20 rule (Pareto principle) for short- and long-term problem solving, a 200-business valuation example, and being comfortable with 80%-of-the-way answers, with animated inserts (2:58).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 lesson film (after the Introduction to MECE slides). Licence and model release follow the supplied file; one identifiable presenter appears. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/problem-statement-worksheet-brand.mp4",
+      "bytes": 8597681,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Problem Statement Worksheet.mp4\" (commit bf3599f); moved beside the other lesson films. one on-camera presenter (captioned “Marc, Partner”) on what the Problem Statement Worksheet holds and why its components matter, with animated inserts (1:58).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.2 lesson film (after the Getting Crystal Clear slides). Licence and model release follow the supplied file; one identifiable presenter appears. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/structured-problem-solving-brand.mp4",
+      "bytes": 14893606,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Structured Problem Solving.mp4\" (commit 088c5bc); moved beside the other lesson films. Two on-camera presenters introduce structured problem solving (McKinsey course intro, 3:06).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Problem-Solving Kid slides). Licence and model release follow the supplied file; two identifiable presenters appear. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/structuring-the-problem-brand.mp4",
+      "bytes": 13143430,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Structuring the problem.mp4\" (commit fd833ad); moved beside the other lesson films. A dramatised office scene with four actors — the CarneCarne leadership team maps the E. coli problem (farms, packaging, distribution centre, stores), eliminates the stores and divides the investigation before Friday's press conference (1:58).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 lesson film (after the Structuring the Problem slides). Licence and model release follow the supplied file; four identifiable actors appear. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/the-prioritization-matrix-brand.mp4",
+      "bytes": 11097675,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"The Prioritization Matrix.mp4\" (commit ee544ea); moved beside the other lesson films. the same presenter on the impact-versus-feasibility prioritisation matrix, its four quadrants, and how precise to be in the moment versus on a longer project, with animated inserts (2:30).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 lesson film (after the Introduction to MECE slides). Licence and model release follow the supplied file; one identifiable presenter appears. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
+    },
+    {
+      "file": "assets/lms/the-map/using-psw-on-the-job-brand.mp4",
+      "bytes": 11479953,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Using PSW on the job.mp4\" (commit 942881f); moved beside the other lesson films. two on-camera presenters on using the worksheet in the moment (a water-main-break example), common mistakes, and refreshing it as you learn, with animated inserts (2:31).",
+      "licence": "Written permission to publish, held by Metanoia Labs (stated by the owner on 2026-11-28)",
+      "licence_proof": "Owner's statement of 2026-11-28. The permission document is held by Metanoia Labs and is not filed in this repository.",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.2 lesson film (after the Getting Crystal Clear slides). Licence and model release follow the supplied file; two identifiable presenters appear. Reinstated on 2026-11-28 beside the newer material, on the owner's statement of permission. Picture graded towards the Metanoia palette on 2026-11-28 (scripts/brand-grade-videos.py); frames, timing and sound unchanged."
     }
   ]
 }
