@@ -45,3 +45,6 @@
 .lms-ss .ss-comp .sc .sc-band p{color:#fff!important}.lms-ss .ss-comp .sc .sc-band b{color:#E8C766!important}
 .lms-ss .ss-comp .sc .sc-band .sc-ic{background:#D6A21E;border-color:#D6A21E}
 .lms-ss .ss-comp .sc .sc-cap{border-left-color:#D6A21E}
+
+/* the assessment's reflection screen: a prompt that offers two versions keeps its line breaks */
+#mtAssign .ra-sub{white-space:pre-line}
