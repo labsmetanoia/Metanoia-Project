@@ -5,7 +5,7 @@
 window.MT_ASSESS = window.MT_ASSESS || {};
 window.MT_ASSESS['the-map'] = {
  "1": {
-  "minutes": 12,
+  "minutes": 16,
   "blueprint": [
    {
     "lesson": "1.1",
@@ -14,8 +14,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Adaptabilitas dan Ketangguhan"
     },
     "sub": {
-     "en": "Two muscles, the two ways to get it wrong, and the recovery loop.",
-     "id": "Dua otot, dua cara keliru, dan putaran pemulihan."
+     "en": "Two muscles, the two ways to get it wrong, and the recovery loop. Plus questions on the original version's slides and films.",
+     "id": "Dua otot, dua cara keliru, dan putaran pemulihan. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -25,8 +25,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Niat Belajar"
     },
     "sub": {
-     "en": "An intention with a number and a date, a time budget you can defend, the Sunday signal, and learning intention versus performance goal.",
-     "id": "Niat yang punya angka dan tanggal, jatah waktu yang bisa dijaga, tanda hari Minggu, serta niat belajar lawan target kinerja."
+     "en": "An intention with a number and a date, a time budget you can defend, the Sunday signal, and learning intention versus performance goal. Plus questions on the original version's slides and films.",
+     "id": "Niat yang punya angka dan tanggal, jatah waktu yang bisa dijaga, tanda hari Minggu, serta niat belajar lawan target kinerja. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -36,8 +36,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Pola Pikir Dasar"
     },
     "sub": {
-     "en": "Ability as a variable, rewriting a verdict, concern versus control, honest self-assessment.",
-     "id": "Kemampuan sebagai variabel, menulis ulang vonis, kekhawatiran lawan kendali, dan penilaian diri yang jujur."
+     "en": "Ability as a variable, rewriting a verdict, concern versus control, honest self-assessment. Plus questions on the original version's slides and films.",
+     "id": "Kemampuan sebagai variabel, menulis ulang vonis, kekhawatiran lawan kendali, dan penilaian diri yang jujur. Ditambah soal tentang slide dan film versi awal."
     }
    }
   ],
@@ -351,6 +351,134 @@ window.MT_ASSESS['the-map'] = {
      "en": "The honest setting anchors every rating to evidence a stranger could check. Self-flagellation (rating low to feel humble) and self-marketing (rating high to feel ready) both corrupt the plan that follows; evidence tells you exactly what to build next.",
      "id": "Setelan jujur menambatkan setiap nilai pada bukti yang bisa dicek orang asing. Menghukum diri (memberi nilai rendah supaya terasa rendah hati) dan menjual diri (memberi nilai tinggi supaya terasa siap) sama-sama merusak rencana yang lahir sesudahnya. Bukti memberitahumu persis apa yang perlu dibangun berikutnya."
     }
+   },
+   {
+    "type": "know",
+    "lesson": "1.1",
+    "q": {
+     "en": "Original version · The Adaptability and Resilience slides name three major drivers: Learn, Grow, Thrive. What does the first driver, active learning, ask you to do?",
+     "id": "Versi awal · Slide Adaptabilitas dan Ketangguhan menyebut tiga pendorong utama: Belajar, Berkembang, Bertumbuh. Apa yang diminta pendorong pertama, belajar secara aktif?"
+    },
+    "opts": [
+     {
+      "en": "Wait until pressure eases before learning anything new",
+      "id": "Menunggu sampai tekanan mereda sebelum mempelajari hal baru"
+     },
+     {
+      "en": "Set learning intentions and develop positive learning habits, especially in times of change",
+      "id": "Menetapkan niat belajar dan membangun kebiasaan belajar yang positif, terutama di masa perubahan"
+     },
+     {
+      "en": "Copy the routines of the most successful person you know",
+      "id": "Meniru rutinitas orang paling sukses yang kamu kenal"
+     },
+     {
+      "en": "Focus only on skills your current role already requires",
+      "id": "Fokus hanya pada keterampilan yang sudah dibutuhkan peranmu sekarang"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Change, uncertainty and pressure make learning difficult, and those are precisely the moments when learning matters most. Active learning means going in with an intention and building the habits that keep it going; the Learning Intention deck in 1.2 is where that starts.",
+     "id": "Perubahan, ketidakpastian, dan tekanan membuat belajar jadi sulit, padahal justru di saat-saat itulah belajar paling penting. Belajar secara aktif berarti memulai dengan niat dan membangun kebiasaan yang menjaganya. Dek Niat Belajar di Pelajaran 1.2 adalah titik awalnya."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "1.2",
+    "q": {
+     "en": "Original version · The film “Link it to meaning” and the slides both make one argument about why intentions hold. What is it?",
+     "id": "Versi awal · Film “Hubungkan dengan makna” dan slide-slidenya sama-sama menyampaikan satu argumen tentang kenapa niat bisa bertahan. Apa argumennya?"
+    },
+    "opts": [
+     {
+      "en": "An intention holds when it is linked to something that matters beyond the task (what it unlocks for you, your family, your team)",
+      "id": "Niat bertahan saat terhubung dengan sesuatu yang penting di luar tugas itu sendiri (apa yang terbuka bagimu, keluargamu, timmu)"
+     },
+     {
+      "en": "An intention holds when it is ambitious enough to impress others",
+      "id": "Niat bertahan saat cukup ambisius untuk membuat orang lain terkesan"
+     },
+     {
+      "en": "An intention holds when it is kept secret",
+      "id": "Niat bertahan saat dirahasiakan"
+     },
+     {
+      "en": "An intention holds when it avoids any deadline",
+      "id": "Niat bertahan saat tidak punya tenggat apa pun"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "The deck's two framing tools are “focus on the journey” and “link to meaning”. Meaning is what keeps you going when the stimulus is boring; the reflection slide asks exactly that: what would being more adaptable and resilient unlock for you and the people around you?",
+     "id": "Dua alat merumuskan niat di dek itu adalah “fokus pada prosesnya” dan “hubungkan dengan makna”. Maknalah yang membuatmu terus melangkah saat tugasnya membosankan, dan slide renungan menanyakan persis hal itu: apa yang akan terbuka bagimu dan orang-orang di sekitarmu kalau kamu lebih adaptif dan tangguh?"
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "1.3",
+    "q": {
+     "en": "Original version · The Mindset 101 slides define mindsets as belief filters. What do those filters shape?",
+     "id": "Versi awal · Slide Mindset 101 mendefinisikan pola pikir sebagai saringan keyakinan. Apa yang dibentuk oleh saringan itu?"
+    },
+    "opts": [
+     {
+      "en": "Only your mood on a given day",
+      "id": "Hanya suasana hatimu di hari tertentu"
+     },
+     {
+      "en": "What you perceive, how you feel, and how you behave, and therefore your results",
+      "id": "Apa yang kamu tangkap, apa yang kamu rasakan, dan bagaimana kamu bertindak, sehingga juga hasilmu"
+     },
+     {
+      "en": "Your IQ, which cannot be changed",
+      "id": "IQ-mu, yang tidak bisa diubah"
+     },
+     {
+      "en": "Other people's opinions of you",
+      "id": "Pendapat orang lain tentang dirimu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Mindsets sit between you and a constantly changing reality. The same situation, seen through a limiting filter (“this task will be tedious”) or an empowering one (“this is a chance to build the skill”), produces dramatically different behaviour; the slide's before-and-after examples show exactly that.",
+     "id": "Pola pikir berada di antara dirimu dan kenyataan yang terus berubah. Situasi yang sama, kalau dilihat lewat saringan yang membatasi (“tugas ini bakal membosankan”) atau saringan yang memberdayakan (“ini kesempatan membangun keterampilan”), menghasilkan perilaku yang jauh berbeda. Contoh sebelum dan sesudah di slide itu menunjukkan persis hal tersebut."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "1.3",
+    "q": {
+     "en": "Original version · Before a group presentation you catch yourself thinking “I can't speak in public.” Using the APR technique from the films and the Practising APR slides, what is the right sequence?",
+     "id": "Versi awal · Sebelum presentasi kelompok, kamu memergoki dirimu berpikir “aku tidak bisa bicara di depan umum.” Dengan teknik APR dari film dan slide Mempraktikkan APR, urutan mana yang tepat?"
+    },
+    "opts": [
+     {
+      "en": "Avoid, Postpone, Rehearse: ask to present next week instead",
+      "id": "Avoid, Postpone, Rehearse: minta presentasi minggu depan saja"
+     },
+     {
+      "en": "Awareness, Pause, Reframe: notice the limiting thought, take a breath, and rewrite it with a method: “I haven't rehearsed a talk more than once yet”",
+      "id": "Awareness, Pause, Reframe: sadari pikiran yang membatasi, tarik napas, lalu tulis ulang dengan menyisipkan cara: “aku belum pernah gladi presentasi lebih dari sekali”"
+     },
+     {
+      "en": "Accept, Persist, Repeat: push through and say it anyway",
+      "id": "Accept, Persist, Repeat: paksakan saja dan tetap bicara"
+     },
+     {
+      "en": "Analyse, Plan, Report: write a page about why you feel this way",
+      "id": "Analyse, Plan, Report: tulis satu halaman tentang kenapa kamu merasa begitu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "APR is Awareness–Pause–Reframe. The reframe is not positive thinking; it is accurate thinking: “untrained” is a different state from “unable”, and the rewritten sentence contains a to-do item instead of a verdict.",
+     "id": "APR adalah Awareness–Pause–Reframe. Membingkai ulang bukan berpikir positif, melainkan berpikir akurat: “belum terlatih” adalah keadaan yang berbeda dari “tidak mampu”, dan kalimat yang ditulis ulang berisi daftar kerja, bukan vonis."
+    },
+    "set": "original"
    }
   ],
   "reflect": {
@@ -380,7 +508,7 @@ window.MT_ASSESS['the-map'] = {
   }
  },
  "2": {
-  "minutes": 15,
+  "minutes": 19,
   "blueprint": [
    {
     "lesson": "2.1",
@@ -389,8 +517,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Cara Pandang Membentuk Hasilmu"
     },
     "sub": {
-     "en": "Principles, paradigms and practices; why copied habits fade; the maturity sequence.",
-     "id": "Prinsip, paradigma, dan praktik; kenapa kebiasaan tiruan memudar; urutan kematangan."
+     "en": "Principles, paradigms and practices; why copied habits fade; the maturity sequence. Plus questions on the original version's slides and films.",
+     "id": "Prinsip, paradigma, dan praktik; kenapa kebiasaan tiruan memudar; urutan kematangan. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -400,8 +528,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Rasa Memiliki: Bertindak di Dalam Kendalimu"
     },
     "sub": {
-     "en": "The stimulus–response gap, ownership language, initiative inside the control zone, and cue, routine, reward.",
-     "id": "Celah stimulus–respons, bahasa rasa memiliki, inisiatif di dalam zona kendali, serta pemicu, rutinitas, imbalan."
+     "en": "The stimulus–response gap, ownership language, initiative inside the control zone, and cue, routine, reward. Plus questions on the original version's slides and films.",
+     "id": "Celah stimulus–respons, bahasa rasa memiliki, inisiatif di dalam zona kendali, serta pemicu, rutinitas, imbalan. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -411,8 +539,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Merancang Hasil Akhir Lebih Dulu"
     },
     "sub": {
-     "en": "The design stage, a mission sentence, and a 3-year outcome you can reverse-plan from.",
-     "id": "Tahap rancangan, kalimat misi, dan hasil 3 tahun yang bisa direncanakan mundur."
+     "en": "The design stage, a mission sentence, and a 3-year outcome you can reverse-plan from. Plus questions on the original version's slides and films.",
+     "id": "Tahap rancangan, kalimat misi, dan hasil 3 tahun yang bisa direncanakan mundur. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -422,8 +550,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Melindungi yang Penting dari yang Mendesak"
     },
     "sub": {
-     "en": "The urgent × important matrix, the weekly preview, and the graceful no.",
-     "id": "Matriks mendesak × penting, tinjauan mingguan, dan menolak dengan santun."
+     "en": "The urgent × important matrix, the weekly preview, and the graceful no. Plus questions on the original version's slides and films.",
+     "id": "Matriks mendesak × penting, tinjauan mingguan, dan menolak dengan santun. Ditambah soal tentang slide dan film versi awal."
     }
    }
   ],
@@ -923,6 +1051,134 @@ window.MT_ASSESS['the-map'] = {
      "en": "A no has three parts: appreciation, the protected reason, and an alternative. No apology spiral, no fake maybe, no invented excuse. People respect a no that shows them your priorities; every yes is an unpriced no to something else.",
      "id": "Penolakan punya tiga bagian: apresiasi, alasan yang kamu lindungi, dan alternatif. Tanpa maaf yang berputar-putar, tanpa “mungkin” yang palsu, tanpa alasan karangan. Orang menghargai penolakan yang menunjukkan prioritasmu, dan setiap “ya” adalah “tidak” untuk hal lain yang belum kamu hitung harganya."
     }
+   },
+   {
+    "type": "know",
+    "lesson": "2.1",
+    "q": {
+     "en": "Original version · The Self-Leadership Foundations slides insist the course is about effectiveness, not efficiency. How does the deck define effectiveness?",
+     "id": "Versi awal · Slide Fondasi Kepemimpinan Diri menegaskan bahwa kursus ini soal efektivitas, bukan efisiensi. Bagaimana dek itu mendefinisikan efektivitas?"
+    },
+    "opts": [
+     {
+      "en": "Getting as many things done as quickly as possible",
+      "id": "Menyelesaikan sebanyak mungkin hal secepat mungkin"
+     },
+     {
+      "en": "Getting the results you want today in a way that yields even better results in the future",
+      "id": "Mendapatkan hasil yang kamu inginkan hari ini dengan cara yang menghasilkan hasil lebih baik lagi di masa depan"
+     },
+     {
+      "en": "Being recognised as successful by others",
+      "id": "Diakui sukses oleh orang lain"
+     },
+     {
+      "en": "Following a fixed daily method without exception",
+      "id": "Menjalankan cara harian yang tetap tanpa kecuali"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Efficiency is speed; effectiveness is results that compound. The goose that laid the golden eggs makes the same point: lasting results come from care and a long-term mindset, and killing the goose for today's eggs ends the future.",
+     "id": "Efisiensi adalah kecepatan; efektivitas adalah hasil yang terus berlipat. Kisah angsa yang bertelur emas menyampaikan hal yang sama: hasil yang bertahan lahir dari perawatan dan pola pikir jangka panjang, dan menyembelih angsa demi telur hari ini mengakhiri masa depannya."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "2.2",
+    "q": {
+     "en": "Original version · Between stimulus and response there is a gap. According to the Pause and Respond slides, what makes it possible to choose inside that gap?",
+     "id": "Versi awal · Di antara stimulus dan respons ada sebuah celah. Menurut slide Jeda, lalu Merespons, apa yang memungkinkan kita memilih di dalam celah itu?"
+    },
+    "opts": [
+     {
+      "en": "The four unique human gifts: self-awareness, imagination, conscience and independent will",
+      "id": "Empat anugerah khas manusia: kesadaran diri, imajinasi, hati nurani, dan kehendak bebas"
+     },
+     {
+      "en": "A calm environment with no distractions",
+      "id": "Lingkungan yang tenang tanpa gangguan"
+     },
+     {
+      "en": "Enough seniority to ignore the stimulus",
+      "id": "Senioritas yang cukup untuk mengabaikan stimulusnya"
+     },
+     {
+      "en": "Luck: some people are born proactive",
+      "id": "Keberuntungan, karena sebagian orang terlahir proaktif"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "Proactivity is the practice of noticing the gap and choosing inside it. The lesson trains it on small stimuli (a sarcastic comment, a delayed reply, a boring task), so it holds when the big ones arrive.",
+     "id": "Proaktivitas adalah kebiasaan menyadari celah itu dan memilih di dalamnya. Pelajaran ini melatihnya pada stimulus kecil (komentar sinis, balasan yang lama datang, tugas yang membosankan), supaya tetap kokoh saat stimulus besar datang."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "2.3",
+    "q": {
+     "en": "Original version · According to the Personal Mission Statement slides, what makes a mission statement good?",
+     "id": "Versi awal · Menurut slide Pernyataan Misi Pribadi, apa yang membuat sebuah pernyataan misi itu baik?"
+    },
+    "opts": [
+     {
+      "en": "It lists the job titles you want by age thirty",
+      "id": "Memuat daftar jabatan yang kamu incar sebelum usia tiga puluh"
+     },
+     {
+      "en": "It is based on principles of effectiveness, clarifies your deepest values, gives direction, and works as a written constitution for your decisions",
+      "id": "Berpijak pada prinsip-prinsip efektivitas, memperjelas nilai-nilaimu yang terdalam, memberi arah, dan bekerja sebagai konstitusi tertulis untuk keputusan-keputusanmu"
+     },
+     {
+      "en": "It is long enough to cover every possible situation",
+      "id": "Cukup panjang untuk mencakup semua kemungkinan situasi"
+     },
+     {
+      "en": "It is written once and never revised",
+      "id": "Ditulis sekali dan tidak pernah direvisi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A mission names contribution, not titles, and the lesson prepares you for it with three reflections: your whole life (past, present, future); the attributes of the people who influenced you most; and your own strengths, challenges and passions.",
+     "id": "Misi menyebut kontribusi, bukan jabatan. Pelajaran itu menyiapkanmu lewat tiga renungan: hidupmu secara utuh (masa lalu, masa kini, masa depan); sifat-sifat orang yang paling besar pengaruhnya padamu; serta kekuatan, tantangan, dan hal yang paling kamu gemari."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "2.4",
+    "q": {
+     "en": "Original version · You promised your family tonight's dinner. As you leave, a colleague asks for help organising next month's team-building, and your boss messages about an unhappy client. Using The Moment of Choice, which reading is right?",
+     "id": "Versi awal · Kamu sudah berjanji hadir di makan malam keluarga malam ini. Saat kamu hendak pulang, seorang rekan minta bantuan mengatur acara team building bulan depan, dan atasanmu mengirim pesan soal klien yang tidak puas. Menurut Saat Harus Memilih, bacaan mana yang tepat?"
+    },
+    "opts": [
+     {
+      "en": "Everything is urgent: cancel dinner and handle both requests tonight",
+      "id": "Semuanya mendesak: batalkan makan malam dan urus kedua permintaan malam ini"
+     },
+     {
+      "en": "Dinner is the Big Rock; the team-building request is a Quadrant III distraction that can wait; the client issue may be Quadrant I: address it thoughtfully with a draft and a plan for tomorrow, and still get home",
+      "id": "Makan malam adalah Batu Besarnya. Permintaan team building adalah gangguan Kuadran III yang bisa menunggu. Masalah klien mungkin Kuadran I: tangani dengan cermat lewat draf dan rencana untuk besok, lalu tetap pulang"
+     },
+     {
+      "en": "The colleague comes first because he asked first",
+      "id": "Rekan itu didahulukan karena ia yang meminta lebih dulu"
+     },
+     {
+      "en": "Ignore all messages until tomorrow morning",
+      "id": "Abaikan semua pesan sampai besok pagi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Staying true means protecting what matters most even when unexpected demands arise. The slide's course of action: communicate proactively with the colleague, and handle the client issue thoughtfully without disregarding the Big Rock.",
+     "id": "Tetap setia berarti melindungi hal yang paling penting, bahkan saat tuntutan mendadak muncul. Langkah yang disarankan slide itu: sampaikan dengan proaktif kepada rekanmu, dan tangani masalah klien dengan cermat tanpa mengabaikan Batu Besarmu."
+    },
+    "set": "original"
    }
   ],
   "reflect": {
@@ -952,7 +1208,7 @@ window.MT_ASSESS['the-map'] = {
   }
  },
  "3": {
-  "minutes": 20,
+  "minutes": 36,
   "blueprint": [
    {
     "lesson": "3.1",
@@ -961,8 +1217,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Berpikir seperti Pemecah Masalah: Metode Empat Langkah"
     },
     "sub": {
-     "en": "The four-step loop and the four ways to get stuck; from complaint to problem; logic trees with no gaps and no overlaps; the gap statement and a sharp problem question.",
-     "id": "Putaran empat langkah dan empat cara menjadi buntu; dari keluhan ke masalah; pohon logika tanpa celah dan tanpa tumpang tindih; pernyataan kesenjangan dan pertanyaan masalah yang tajam."
+     "en": "The four-step loop and the four ways to get stuck; from complaint to problem; logic trees with no gaps and no overlaps; the gap statement and a sharp problem question. Plus questions on the original version's slides and films.",
+     "id": "Putaran empat langkah dan empat cara menjadi buntu; dari keluhan ke masalah; pohon logika tanpa celah dan tanpa tumpang tindih; pernyataan kesenjangan dan pertanyaan masalah yang tajam. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -972,8 +1228,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Akar Masalah dan Rencana Tindakan"
     },
     "sub": {
-     "en": "A hypothesis with a number; the analysis plan; reading a funnel; 5 Whys; impact × ease; owners and dates.",
-     "id": "Hipotesis dengan angka; rencana analisis; membaca corong; 5 Whys; dampak × kemudahan; penanggung jawab dan tanggal."
+     "en": "A hypothesis with a number; the analysis plan; reading a funnel; 5 Whys; impact × ease; owners and dates. Plus questions on the original version's slides and films.",
+     "id": "Hipotesis dengan angka; rencana analisis; membaca corong; 5 Whys; dampak × kemudahan; penanggung jawab dan tanggal. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -983,8 +1239,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Tujuan, Kesenjangan, dan Keputusan yang Baik"
     },
     "sub": {
-     "en": "A solid goal and the gap; the pyramid of reasons; criteria with weights; challenging your own conclusion.",
-     "id": "Tujuan yang kokoh dan kesenjangannya; piramida alasan; kriteria dengan bobot; menantang kesimpulanmu sendiri."
+     "en": "A solid goal and the gap; the pyramid of reasons; criteria with weights; challenging your own conclusion. Plus questions on the original version's slides and films.",
+     "id": "Tujuan yang kokoh dan kesenjangannya; piramida alasan; kriteria dengan bobot; menantang kesimpulanmu sendiri. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -994,8 +1250,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Tugas Kasus: Kasus Analisis Pemecahan Masalah"
     },
     "sub": {
-     "en": "The Sagara case: a SMART problem question, an issue tree with no gaps and no overlaps, and two sub-issues prioritised by impact and feasibility.",
-     "id": "Kasus Sagara: pertanyaan masalah yang SMART, pohon isu tanpa celah dan tanpa tumpang tindih, dan dua sub-isu yang diprioritaskan menurut dampak dan kelayakan."
+     "en": "The Sagara case: a SMART problem question, an issue tree with no gaps and no overlaps, and two sub-issues prioritised by impact and feasibility. Plus questions on the original version's slides and films.",
+     "id": "Kasus Sagara: pertanyaan masalah yang SMART, pohon isu tanpa celah dan tanpa tumpang tindih, dan dua sub-isu yang diprioritaskan menurut dampak dan kelayakan. Ditambah soal tentang slide dan film versi awal."
     }
    }
   ],
@@ -1557,6 +1813,518 @@ window.MT_ASSESS['the-map'] = {
      "en": "Food waste is about half of every bin, the units already exist and stand half empty, and the city runs the markets: high impact, and the city can act within three years. A second landfill takes seven years and reduces nothing. National packaging is outside the city's control. Repainting trucks changes no tonnage.",
      "id": "Sisa makanan mengisi sekitar separuh setiap tempat sampah, unitnya sudah ada dan setengah kosong, dan pasar dikelola kota: dampaknya tinggi, dan kota bisa bertindak dalam tiga tahun. TPA kedua butuh tujuh tahun dan tidak mengurangi apa pun. Kemasan nasional berada di luar kendali kota. Mengecat truk tidak mengubah tonase sedikit pun."
     }
+   },
+   {
+    "type": "know",
+    "lesson": "3.1",
+    "q": {
+     "en": "Original version · The hypothesis-led approach has seven steps. Which sequence is correct?",
+     "id": "Versi awal · Pendekatan berbasis hipotesis punya tujuh langkah. Urutan mana yang benar?"
+    },
+    "opts": [
+     {
+      "en": "Define the problem → structure the problem and generate ideas → prioritise issues → plan analyses and work → conduct analyses → synthesise findings → develop recommendations",
+      "id": "Definisikan masalah → susun struktur masalah dan munculkan ide → prioritaskan isu → rencanakan analisis dan pekerjaan → jalankan analisis → sintesis temuan → susun rekomendasi"
+     },
+     {
+      "en": "Conduct analyses → define the problem → develop recommendations → synthesise findings → structure the problem → prioritise issues → plan the work",
+      "id": "Jalankan analisis → definisikan masalah → susun rekomendasi → sintesis temuan → susun struktur masalah → prioritaskan isu → rencanakan pekerjaan"
+     },
+     {
+      "en": "Generate ideas → pick the best idea → implement it → measure → define what the problem was",
+      "id": "Munculkan ide → pilih ide terbaik → jalankan → ukur → definisikan apa masalahnya"
+     },
+     {
+      "en": "Define the problem → develop recommendations → conduct analyses to justify them → synthesise → prioritise",
+      "id": "Definisikan masalah → susun rekomendasi → jalankan analisis untuk membenarkannya → sintesis → prioritaskan"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "Definition (step 1), structuring (steps 2–4), analysing (step 5), synthesising and recommending (steps 6–7). Starting with a hypothesis does not mean you already know the answer. It gives you a better question and a clearer direction, and the loop is iterative: a hypothesis the data kills sends you back to structure.",
+     "id": "Mendefinisikan (langkah 1), menyusun struktur (langkah 2–4), menganalisis (langkah 5), menyintesis dan merekomendasikan (langkah 6–7). Memulai dengan hipotesis tidak berarti kamu sudah tahu jawabannya. Hipotesis memberimu pertanyaan yang lebih baik dan arah yang lebih jelas, dan putarannya berulang: hipotesis yang dipatahkan data akan membawamu kembali ke tahap menyusun struktur."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.1",
+    "q": {
+     "en": "Original version · Forty-five minutes before the meeting with the CEO, Arun’s team presents a 50-lakh market-research plan covering colour, size, grip and packaging. What is the first question Arun should ask?",
+     "id": "Versi awal · Empat puluh lima menit sebelum rapat dengan CEO, tim Arun memaparkan rencana riset pasar senilai 50 lakh yang mencakup warna, ukuran, pegangan, dan kemasan. Apa pertanyaan pertama yang sebaiknya diajukan Arun?"
+    },
+    "opts": [
+     {
+      "en": "“How realistic is this given the one-month timeline?”",
+      "id": "\"Seberapa realistis ini dengan tenggat satu bulan?\""
+     },
+     {
+      "en": "“How can we cut costs to bring the budget down?”",
+      "id": "\"Bagaimana kita memangkas biaya supaya anggarannya turun?\""
+     },
+     {
+      "en": "“What is the question this research is meant to answer?”",
+      "id": "\"Pertanyaan apa yang sebenarnya ingin dijawab riset ini?\""
+     },
+     {
+      "en": "“Which agency should run the survey?”",
+      "id": "\"Agensi mana yang sebaiknya menjalankan surveinya?\""
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "A great problem solver starts with the right question. Once the team asked what had decided similar projects, the research narrowed to price and performance specifications, the budget fell from 50 to 15 lakhs, and the CEO signed off. Cost and timeline questions would only have trimmed the wrong plan.",
+     "id": "Pemecah masalah yang hebat memulai dengan pertanyaan yang tepat. Begitu tim bertanya apa yang menentukan keberhasilan proyek-proyek serupa, risetnya menyempit ke harga dan spesifikasi kinerja, anggarannya turun dari 50 menjadi 15 lakh, dan CEO menyetujuinya. Pertanyaan soal biaya dan tenggat hanya akan memangkas rencana yang keliru."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "3.1",
+    "q": {
+     "en": "Original version · Five approaches to structured problem solving were named (hypothesis-led, domain-IP-led, advanced analytics, design thinking and engineering). What do all five share?",
+     "id": "Versi awal · Ada lima pendekatan pemecahan masalah terstruktur yang disebutkan (berbasis hipotesis, berbasis keahlian domain, analitik tingkat lanjut, design thinking, dan rekayasa). Apa kesamaan kelimanya?"
+    },
+    "opts": [
+     {
+      "en": "A focused problem statement, impact orientation, a stakeholder perspective, a fact base, and synthesis",
+      "id": "Pernyataan masalah yang fokus, orientasi pada dampak, sudut pandang para pemangku kepentingan, basis fakta, dan sintesis"
+     },
+     {
+      "en": "A single expert who already knows the answer",
+      "id": "Satu orang ahli yang sudah tahu jawabannya"
+     },
+     {
+      "en": "A brainstorm first and structure later",
+      "id": "Curah gagasan dulu, struktur belakangan"
+     },
+     {
+      "en": "A survey of every stakeholder before any hypothesis",
+      "id": "Survei ke semua pemangku kepentingan sebelum ada hipotesis apa pun"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "Whatever the route, the hallmarks are the same: the problem formalised on paper, an eye on impact, the stakeholders to align, facts rather than opinion, and a synthesis at the end, plus a devil’s advocate when everyone agrees too easily.",
+     "id": "Apa pun jalurnya, cirinya sama: masalah dirumuskan di atas kertas, perhatian pada dampak, pemangku kepentingan yang perlu diselaraskan, fakta alih-alih opini, dan sintesis di akhir, ditambah seseorang yang sengaja membantah ketika semua orang terlalu mudah setuju."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.1",
+    "q": {
+     "en": "Original version · Sandra, a manager, writes: “We’re having difficulty tracking the most important information your team provides for report requests. Let’s talk about ideas to improve communication between our teams; I’d like to arrive at a couple of improvements we can make right away.” How would you classify the problem, and what does that mean for how you work it?",
+     "id": "Versi awal · Sandra, seorang atasan, menulis: \"Kami kesulitan melacak informasi paling penting yang diberikan timmu untuk permintaan laporan. Ayo kita bahas ide untuk memperbaiki komunikasi antartim kita; aku ingin kita sampai pada beberapa perbaikan yang bisa langsung dijalankan.\" Bagaimana kamu mengklasifikasikan masalah ini, dan apa artinya bagi cara kamu mengerjakannya?"
+    },
+    "opts": [
+     {
+      "en": "Analytical and divergent: build a data model and keep every option open",
+      "id": "Analitis dan divergen: bangun model data dan biarkan semua pilihan tetap terbuka"
+     },
+     {
+      "en": "Conceptual and convergent: generate improvement ideas creatively, then narrow to a few tangible ones you can act on now",
+      "id": "Konseptual dan konvergen: munculkan ide perbaikan secara kreatif, lalu persempit menjadi beberapa ide nyata yang bisa dijalankan sekarang"
+     },
+     {
+      "en": "Analytical and convergent: the answer is a single number to calculate",
+      "id": "Analitis dan konvergen: jawabannya satu angka yang perlu dihitung"
+     },
+     {
+      "en": "Conceptual and divergent: explore possibilities for weeks before committing",
+      "id": "Konseptual dan divergen: jelajahi berbagai kemungkinan selama berminggu-minggu sebelum memutuskan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Sandra’s challenge needs creative thinking about communication (conceptual) and then a small number of concrete improvements (convergent). Classifying the problem first tells you which thinking mode to use, and how urgent the answer is.",
+     "id": "Tantangan Sandra butuh pemikiran kreatif tentang komunikasi (konseptual), lalu sedikit perbaikan yang konkret (konvergen). Mengklasifikasikan masalah lebih dulu memberi tahu mode berpikir mana yang perlu dipakai, dan seberapa mendesak jawabannya."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.1",
+    "q": {
+     "en": "Original version · A committee member says: “Our fundraising night flopped. Next year we’ll just work twice as hard on the same plan.” Which character is this, and what is missing?",
+     "id": "Versi awal · Seorang anggota panitia berkata, \"Malam penggalangan dana kita gagal. Tahun depan kita kerja dua kali lebih keras saja dengan rencana yang sama.\" Tokoh mana ini, dan apa yang kurang?"
+    },
+    "opts": [
+     {
+      "en": "The Critic: a better plan from someone else",
+      "id": "Si Pengkritik: rencana yang lebih baik dari orang lain"
+     },
+     {
+      "en": "The Sigher: the will to try again",
+      "id": "Si Pengeluh: kemauan untuk mencoba lagi"
+     },
+     {
+      "en": "The Go-Getter: a diagnosis of why it flopped before choosing what to change",
+      "id": "Si Tancap Gas: diagnosis kenapa acaranya gagal sebelum memilih apa yang perlu diubah"
+     },
+     {
+      "en": "The Dreamer: a bigger idea",
+      "id": "Si Pemimpi: ide yang lebih besar"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "More effort in the same direction is the Go-Getter’s signature. Steps 1 to 3 (understand the situation, find the root cause, plan) are skipped entirely; the loop closes on the outcome, not on effort.",
+     "id": "Usaha lebih keras ke arah yang sama adalah ciri khas Si Tancap Gas. Langkah 1 sampai 3 (pahami situasinya, temukan akar masalahnya, susun rencana) dilewati sama sekali; putaran ini ditutup oleh hasil, bukan oleh usaha."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.2",
+    "q": {
+     "en": "Original version · The DentMerc team agrees to answer: “Should DentMerc enter the well-established Southeast Asian toothbrush market with the Click*Brush?” Tested against SMART, what is the biggest weakness?",
+     "id": "Versi awal · Tim DentMerc sepakat menjawab: \"Haruskah DentMerc masuk ke pasar sikat gigi Asia Tenggara yang sudah mapan dengan Click*Brush?\" Jika diuji dengan SMART, apa kelemahan terbesarnya?"
+    },
+    "opts": [
+     {
+      "en": "It is not specific; the market and the product are unnamed",
+      "id": "Tidak spesifik; pasar dan produknya tidak disebutkan"
+     },
+     {
+      "en": "It is not measurable or time-bound; a yes/no answer gives no way to know the problem has been adequately addressed, and there is no time frame",
+      "id": "Tidak terukur dan tidak berbatas waktu; jawaban ya/tidak tidak memberi cara untuk tahu apakah masalahnya sudah tertangani dengan memadai, dan tidak ada kerangka waktunya"
+     },
+     {
+      "en": "It is not relevant; toothbrushes are outside DentMerc’s business",
+      "id": "Tidak relevan; sikat gigi berada di luar bisnis DentMerc"
+     },
+     {
+      "en": "Nothing: a yes/no question is the ideal problem statement",
+      "id": "Tidak ada: pertanyaan ya/tidak adalah pernyataan masalah yang ideal"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The expert answer scores it relatively specific, actionable and relevant, but not measurable and not time-bound. Sharpening it (a target share or revenue within a stated period) is what turns a question into a foundation for the work. Defining the problem is iterative.",
+     "id": "Jawaban ahli menilainya cukup spesifik, bisa ditindaklanjuti, dan relevan, tetapi tidak terukur dan tidak berbatas waktu. Mempertajamnya (target pangsa pasar atau pendapatan dalam jangka waktu tertentu) itulah yang mengubah sebuah pertanyaan menjadi fondasi pekerjaan. Mendefinisikan masalah adalah proses yang berulang."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "3.2",
+    "q": {
+     "en": "Original version · Which of these is NOT one of the dimensions on the Problem Statement Worksheet?",
+     "id": "Versi awal · Mana yang BUKAN salah satu dimensi dalam Lembar Kerja Pernyataan Masalah?"
+    },
+    "opts": [
+     {
+      "en": "Context and stakeholders",
+      "id": "Konteks dan pemangku kepentingan"
+     },
+     {
+      "en": "Constraints and the scope of the solution space",
+      "id": "Batasan dan cakupan ruang solusi"
+     },
+     {
+      "en": "Criteria for success and key sources of insight",
+      "id": "Kriteria keberhasilan dan sumber insight utama"
+     },
+     {
+      "en": "The list of solutions you already favour",
+      "id": "Daftar solusi yang sudah kamu sukai"
+     }
+    ],
+    "correct": 3,
+    "expl": {
+     "en": "The worksheet holds a SMART problem question plus context, stakeholders, constraints, scope, criteria for success and sources of insight. It is a living document and a checklist against blind spots. The three classic mistakes are missed stakeholders, an unclear scope and dishonest constraints. Solutions come later.",
+     "id": "Lembar kerja ini memuat pertanyaan masalah yang SMART ditambah konteks, pemangku kepentingan, batasan, cakupan, kriteria keberhasilan, dan sumber insight. Lembar ini terus diperbarui dan menjadi daftar periksa untuk menghindari titik buta. Tiga kesalahan klasiknya adalah pemangku kepentingan yang terlewat, cakupan yang tidak jelas, dan batasan yang tidak jujur. Solusi datang belakangan."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.2",
+    "q": {
+     "en": "Original version · In a workshop, the strongest voice argues for one hypothesis and cites only the data that supports it; the room is nodding. Which bias is at work, and which technique counters it?",
+     "id": "Versi awal · Dalam sebuah lokakarya, suara paling dominan membela satu hipotesis dan hanya mengutip data yang mendukungnya; seisi ruangan mengangguk. Bias apa yang sedang bekerja, dan teknik apa yang menangkalnya?"
+    },
+    "opts": [
+     {
+      "en": "Stability bias: run a constraint release",
+      "id": "Bias kestabilan: longgarkan batasannya"
+     },
+     {
+      "en": "Confirmation bias and groupthink: run a challenger session or an analysis of competing hypotheses, so the strongest advocate has to argue the other side",
+      "id": "Bias konfirmasi dan pemikiran kelompok: jalankan sesi penantang atau analisis hipotesis-hipotesis pesaing, supaya pembela paling vokal harus membela sisi sebaliknya"
+     },
+     {
+      "en": "Confidence bias: extend the deadline",
+      "id": "Bias kepercayaan diri: perpanjang tenggatnya"
+     },
+     {
+      "en": "No bias: agreement means the hypothesis is right",
+      "id": "Tidak ada bias: kesepakatan berarti hipotesisnya benar"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Confirmation bias filters new evidence until only what agrees survives; groupthink amplifies it. The film’s most effective counter is a challenger session (contrived at first, but a powerful check on blind spots), and the slides add the key assumption check and competing hypotheses with evidence for each.",
+     "id": "Bias konfirmasi menyaring bukti baru sampai hanya yang sependapat yang tersisa, dan pemikiran kelompok memperkuatnya. Penangkal paling efektif dari film tadi adalah sesi penantang (awalnya terasa dibuat-buat, tetapi ampuh untuk memeriksa titik buta), dan slide-slidenya menambahkan pengecekan asumsi kunci serta analisis hipotesis-hipotesis pesaing dengan bukti untuk masing-masing."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.2",
+    "q": {
+     "en": "Original version · A yes/no tree for a campus band shows 500 students → 150 aware → 15 have attended → 12 keep coming. Where is the bottleneck?",
+     "id": "Versi awal · Pohon ya/tidak untuk sebuah band kampus menunjukkan 500 mahasiswa → 150 tahu → 15 pernah datang → 12 terus datang. Di mana titik sumbatnya?"
+    },
+    "opts": [
+     {
+      "en": "Awareness: only 30% know the band",
+      "id": "Kesadaran: hanya 30% yang tahu band ini"
+     },
+     {
+      "en": "Retention: three people stopped coming",
+      "id": "Retensi: tiga orang berhenti datang"
+     },
+     {
+      "en": "Trial: 90% of those aware have never attended",
+      "id": "Percobaan: 90% dari yang tahu belum pernah datang"
+     },
+     {
+      "en": "There is no bottleneck; the band just needs more time",
+      "id": "Tidak ada titik sumbat; band ini hanya butuh waktu lebih lama"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Read the funnel for the largest proportional drop: 150 → 15 is a 90% loss, while 15 → 12 is only 20%. Interviews therefore go to non-attendees, and a retention fix would be wasted. Numbers tell you where; conversations tell you why.",
+     "id": "Baca corongnya untuk mencari penurunan proporsional terbesar: 150 → 15 berarti kehilangan 90%, sedangkan 15 → 12 hanya 20%. Karena itu wawancara diarahkan ke mereka yang belum pernah datang, dan perbaikan retensi akan sia-sia. Angka memberi tahu di mana; percakapan memberi tahu kenapa."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "Original version · Three days before the press conference, Elena’s CarneCarne team needs a first level for its issue tree: “What is the source of the E. coli in the frozen beef at the northwest distribution centre?” Which set is strongest?",
+     "id": "Versi awal · Tiga hari sebelum konferensi pers, tim CarneCarne yang dipimpin Elena butuh tingkat pertama untuk pohon isunya: \"Apa sumber E. coli pada daging sapi beku di pusat distribusi barat laut?\" Kumpulan mana yang paling kuat?"
+    },
+    "opts": [
+     {
+      "en": "Was it the farms? Was it somewhere in the supply chain before the centre? Was it in the stores?",
+      "id": "Apakah dari peternakan? Apakah di suatu titik rantai pasok sebelum pusat distribusi? Apakah di toko?"
+     },
+     {
+      "en": "Was there initial contamination at one or more of the five farms that supply the centre? At the packaging facility that feeds it? At the northwest distribution centre itself?",
+      "id": "Apakah ada kontaminasi awal di salah satu atau beberapa dari lima peternakan yang memasok pusat distribusi? Di fasilitas pengemasan yang memasoknya? Di pusat distribusi barat laut itu sendiri?"
+     },
+     {
+      "en": "Was it bacteria? Was it people? Was it something else?",
+      "id": "Apakah karena bakteri? Apakah karena orang? Apakah karena hal lain?"
+     },
+     {
+      "en": "Which employee is responsible, and should we recall everything?",
+      "id": "Karyawan mana yang bertanggung jawab, dan haruskah kita menarik semua produk?"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The second set follows the supply chain step by step with no overlaps and no gaps, and drops the stores because the beef was caught before it reached them. The first set overlaps (“somewhere in the supply chain” already contains the farms); the third has an “other” bucket; the fourth hunts a culprit, not a cause.",
+     "id": "Kumpulan kedua mengikuti rantai pasok langkah demi langkah tanpa tumpang tindih dan tanpa celah, dan tidak memasukkan toko karena dagingnya sudah terdeteksi sebelum sampai ke sana. Kumpulan pertama tumpang tindih (\"suatu titik rantai pasok\" sudah mencakup peternakan); yang ketiga punya keranjang \"hal lain\"; yang keempat memburu pelaku, bukan penyebab."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "3.3",
+    "q": {
+     "en": "Original version · Your issue tree has twelve second-level issues and the team has a week. What does the module tell you to do?",
+     "id": "Versi awal · Pohon isumu punya dua belas isu di tingkat kedua dan timmu hanya punya waktu seminggu. Apa yang disarankan modul ini?"
+    },
+    "opts": [
+     {
+      "en": "Analyse all twelve equally, thoroughness first",
+      "id": "Analisis kedua belasnya sama rata, ketelitian nomor satu"
+     },
+     {
+      "en": "Apply 80/20 and the prioritisation matrix: rank the issues by impact and feasibility and put the time into the few that drive most of the answer",
+      "id": "Terapkan 80/20 dan matriks prioritas: urutkan isu berdasarkan dampak dan kelayakan, lalu curahkan waktu pada sedikit isu yang menentukan sebagian besar jawabannya"
+     },
+     {
+      "en": "Pick the issues the team finds most interesting",
+      "id": "Pilih isu yang paling menarik bagi tim"
+     },
+     {
+      "en": "Cut the tree back to one issue and stop structuring",
+      "id": "Pangkas pohonnya menjadi satu isu dan berhenti menyusun struktur"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "20% of the analyses give 80% of the insight; the 200-business valuation was solved by focusing on 30. The matrix places each issue by impact against feasibility; be comfortable with an answer that is 80% of the way there, and be precise in proportion to the time you have.",
+     "id": "20% analisis memberi 80% insight; penilaian 200 bisnis terpecahkan dengan berfokus pada 30 di antaranya. Matriks ini menempatkan setiap isu berdasarkan dampak lawan kelayakan. Terimalah jawaban yang sudah 80% sampai, dan buat ketelitianmu sebanding dengan waktu yang kamu punya."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "Original version · SodaComp’s hypothesis is “we should test a healthier orange soda”. Which work-plan row is complete enough to start on?",
+     "id": "Versi awal · Hipotesis SodaComp adalah \"kita sebaiknya menguji soda jeruk yang lebih sehat\". Baris rencana kerja mana yang cukup lengkap untuk mulai dikerjakan?"
+    },
+    "opts": [
+     {
+      "en": "Issue: healthier soda. Hypothesis: it will work. Analysis: research.",
+      "id": "Isu: soda yang lebih sehat. Hipotesis: pasti berhasil. Analisis: riset."
+     },
+     {
+      "en": "Issue: will a healthier orange soda win share in Europe by year-end? Hypothesis: yes, consumers limit soda for health reasons and competitors lack an affordable healthy option. Analysis: focus groups and a competitor pricing scan. Source: consumer panel, retail price data. End product: a market-competitiveness report. Timing: two weeks. Owner: Sarit.",
+      "id": "Isu: apakah soda jeruk yang lebih sehat bisa merebut pangsa pasar di Eropa sebelum akhir tahun? Hipotesis: ya, konsumen membatasi soda karena alasan kesehatan dan pesaing belum punya pilihan sehat yang terjangkau. Analisis: diskusi kelompok terarah dan pemindaian harga pesaing. Sumber: panel konsumen, data harga ritel. Hasil akhir: laporan daya saing pasar. Waktu: dua minggu. Penanggung jawab: Sarit."
+     },
+     {
+      "en": "Issue: everything about soda. Hypothesis: none yet. Analysis: a big survey.",
+      "id": "Isu: semua hal tentang soda. Hipotesis: belum ada. Analisis: survei besar."
+     },
+     {
+      "en": "Issue: the CEO wants growth. Hypothesis: launch now. Analysis: skip it, the deadline is close.",
+      "id": "Isu: CEO ingin pertumbuhan. Hipotesis: luncurkan sekarang. Analisis: lewati saja, tenggatnya sudah dekat."
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A strong work plan turns each end node of the tree into an issue worded so it can be answered, a hypothesis with what must be true, the analyses and sources that test it, the end product, and timing and owner. Build it knowing the decision-maker’s burden of proof, so you neither under-deliver nor over-analyse.",
+     "id": "Rencana kerja yang kuat mengubah setiap ujung cabang pohon menjadi isu yang dirumuskan agar bisa dijawab, hipotesis beserta apa yang harus benar, analisis dan sumber yang mengujinya, hasil akhirnya, serta waktu dan penanggung jawabnya. Susunlah dengan memahami beban pembuktian yang diminta pengambil keputusan, supaya kamu tidak kurang memberi dan tidak juga berlebihan menganalisis."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "3.3",
+    "q": {
+     "en": "Original version · Which line is a synthesis rather than a summary?",
+     "id": "Versi awal · Kalimat mana yang merupakan sintesis, bukan ringkasan?"
+    },
+    "opts": [
+     {
+      "en": "“The restaurant was busy, the order took forty minutes and the traffic is heavy.”",
+      "id": "\"Restorannya ramai, pesanannya makan waktu empat puluh menit, dan lalu lintasnya padat.\""
+     },
+     {
+      "en": "“I’m going to be late for dinner, start without me.”",
+      "id": "\"Aku bakal telat makan malam, mulai saja tanpa aku.\""
+     },
+     {
+      "en": "“Here are the three facts from tonight, in order.”",
+      "id": "\"Ini tiga fakta dari malam ini, berurutan.\""
+     },
+     {
+      "en": "“Dinner was scheduled for eight o’clock.”",
+      "id": "\"Makan malamnya dijadwalkan jam delapan.\""
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A summary restates the facts in short form; a synthesis states what they mean together and tees up the action. The same rule turns analyses into a “so what” and then into a recommendation that is appropriate for the organisation and actionable (owners, buy-in, timeline).",
+     "id": "Ringkasan mengulang fakta dalam bentuk pendek; sintesis menyatakan apa arti fakta-fakta itu bersama-sama dan menyiapkan tindakannya. Aturan yang sama mengubah hasil analisis menjadi \"lalu kenapa\", lalu menjadi rekomendasi yang sesuai bagi organisasi dan bisa dijalankan (penanggung jawab, dukungan, jadwal)."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "Original version · Savings Rp 1,500,000; you save Rp 170,000 a month; the goal is a Rp 5,000,000 laptop in six months without borrowing. What is the gap?",
+     "id": "Versi awal · Tabunganmu Rp 1.500.000; kamu menabung Rp 170.000 per bulan; tujuanmu laptop seharga Rp 5.000.000 dalam enam bulan tanpa berutang. Berapa kesenjangannya?"
+    },
+    "opts": [
+     {
+      "en": "Rp 3,500,000",
+      "id": "Rp 3.500.000"
+     },
+     {
+      "en": "Rp 1,020,000",
+      "id": "Rp 1.020.000"
+     },
+     {
+      "en": "Rp 2,480,000",
+      "id": "Rp 2.480.000"
+     },
+     {
+      "en": "Rp 5,000,000",
+      "id": "Rp 5.000.000"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Do-nothing forecast: Rp 1,500,000 + 6 × Rp 170,000 = Rp 2,520,000. Gap: Rp 5,000,000 − Rp 2,520,000 = Rp 2,480,000. The number sets the size of the change needed, and tells you whether one lever is enough or three are required.",
+     "id": "Perkiraan kalau tidak ada yang berubah: Rp 1.500.000 + 6 × Rp 170.000 = Rp 2.520.000. Kesenjangan: Rp 5.000.000 − Rp 2.520.000 = Rp 2.480.000. Angka ini menentukan seberapa besar perubahan yang dibutuhkan, dan memberi tahu apakah satu tuas sudah cukup atau perlu tiga."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.4",
+    "q": {
+     "en": "Original version · The Mayor writes: rush-hour commutes average 60 minutes; we want 30; we have five years; we cannot solve every issue. Which problem statement is SMART?",
+     "id": "Versi awal · Wali Kota menulis: rata-rata waktu perjalanan di jam sibuk 60 menit; kami ingin 30; kami punya waktu lima tahun; kami tidak bisa menyelesaikan semua isu. Pernyataan masalah mana yang SMART?"
+    },
+    "opts": [
+     {
+      "en": "“Hustleton has too much traffic and citizens are frustrated.”",
+      "id": "\"Hustleton terlalu macet dan warganya frustrasi.\""
+     },
+     {
+      "en": "“How can Hustleton City reduce the average rush-hour commute from 60 to 30 minutes within five years, by acting on the few issues that contribute most to congestion?”",
+      "id": "\"Bagaimana Hustleton City bisa menurunkan rata-rata waktu perjalanan di jam sibuk dari 60 menjadi 30 menit dalam lima tahun, dengan menangani sedikit isu yang paling besar andilnya terhadap kemacetan?\""
+     },
+     {
+      "en": "“Build a new metro line before the next election.”",
+      "id": "\"Bangun jalur metro baru sebelum pemilu berikutnya.\""
+     },
+     {
+      "en": "“How can we make people stop driving?”",
+      "id": "\"Bagaimana caranya supaya orang berhenti menyetir?\""
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Specific (rush-hour commutes in Hustleton), measurable (60 to 30 minutes), actionable (the issues that contribute most), relevant (the Mayor’s brief) and time-bound (five years). The first is a complaint, the third a solution, the fourth is neither measurable nor time-bound, and everything downstream inherits the statement’s precision or its vagueness.",
+     "id": "Spesifik (perjalanan jam sibuk di Hustleton), terukur (60 menjadi 30 menit), bisa ditindaklanjuti (isu yang paling besar andilnya), relevan (sesuai arahan Wali Kota), dan berbatas waktu (lima tahun). Pilihan pertama adalah keluhan, yang ketiga adalah solusi, yang keempat tidak terukur dan tidak berbatas waktu, dan semua langkah sesudahnya mewarisi ketajaman atau kesamaran pernyataan masalahnya."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "3.4",
+    "q": {
+     "en": "Original version · Hustleton’s data: public transport fell from 55% to 20% of trips since 2021 while personal vehicles rose from 30% to 55%; the Tube is reliable but crowded, buses are cheap but confusing, taxis cost $25. An adviser proposes first-level issues: “road capacity”, “public transport”, “other”. What should you change before prioritising?",
+     "id": "Versi awal · Data Hustleton: porsi angkutan umum turun dari 55% menjadi 20% perjalanan sejak 2021, sementara kendaraan pribadi naik dari 30% menjadi 55%; Tube bisa diandalkan tetapi padat, bus murah tetapi membingungkan, taksi $25. Seorang penasihat mengusulkan isu tingkat pertama: \"kapasitas jalan\", \"angkutan umum\", \"lainnya\". Apa yang perlu kamu ubah sebelum memprioritaskan?"
+    },
+    "opts": [
+     {
+      "en": "Nothing: three branches is the right number",
+      "id": "Tidak ada: tiga cabang adalah jumlah yang tepat"
+     },
+     {
+      "en": "Replace the “other” bucket: an issue tree needs MECE branches, for example the demand for car trips, the capacity of the road network, and the attractiveness of the alternatives; then let the modal-shift data point to where the impact is likely",
+      "id": "Ganti keranjang \"lainnya\": pohon isu butuh cabang yang MECE, misalnya permintaan perjalanan dengan mobil, kapasitas jaringan jalan, dan daya tarik alternatifnya; lalu biarkan data peralihan moda menunjukkan di mana dampaknya kemungkinan paling besar"
+     },
+     {
+      "en": "Drop public transport: the Mayor asked about traffic, not buses",
+      "id": "Hapus angkutan umum: Wali Kota bertanya soal lalu lintas, bukan bus"
+     },
+     {
+      "en": "Skip the tree and recommend congestion charging now",
+      "id": "Lewati pohonnya dan langsung rekomendasikan tarif kemacetan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "“Other” means the cut has not been found yet. A first draft shows the overlaps and gaps; the second is the one you keep. With clean branches, the 35-point fall in public-transport share tells you where to look first, and prioritising still means saying no to four sub-issues and defending the two you keep.",
+     "id": "\"Lainnya\" berarti potongan yang tepat belum ditemukan. Draf pertama memperlihatkan tumpang tindih dan celahnya; draf kedualah yang kamu pertahankan. Dengan cabang yang bersih, turunnya porsi angkutan umum sebesar 35 poin memberi tahu di mana harus mulai mencari, dan memprioritaskan tetap berarti berkata tidak pada empat sub-isu dan mempertahankan dua yang kamu pilih."
+    },
+    "set": "original"
    }
   ],
   "reflect": {
@@ -1586,7 +2354,7 @@ window.MT_ASSESS['the-map'] = {
   }
  },
  "4": {
-  "minutes": 20,
+  "minutes": 36,
   "blueprint": [
    {
     "lesson": "4.1",
@@ -1595,8 +2363,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Tantangan Komunikasi yang Umum Terjadi"
     },
     "sub": {
-     "en": "The audience owns the meaning; the five challenges and the curse of knowledge; checking what landed.",
-     "id": "Makna ada di tangan audiens; lima tantangan dan kutukan pengetahuan; mengecek apa yang sampai."
+     "en": "The audience owns the meaning; the five challenges and the curse of knowledge; checking what landed. Plus questions on the original version's slides and films.",
+     "id": "Makna ada di tangan audiens; lima tantangan dan kutukan pengetahuan; mengecek apa yang sampai. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -1606,8 +2374,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Teori Inti Komunikasi"
     },
     "sub": {
-     "en": "Audience-first design; answer first; information versus insight; altitude control and the loop.",
-     "id": "Merancang dari sisi audiens; jawaban dulu; informasi lawan wawasan; kendali ketinggian dan putaran pengecekan."
+     "en": "Audience-first design; answer first; information versus insight; altitude control and the loop. Plus questions on the original version's slides and films.",
+     "id": "Merancang dari sisi audiens; jawaban dulu; informasi lawan wawasan; kendali ketinggian dan putaran pengecekan. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -1617,8 +2385,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Studi Kasus Komunikasi Terapan"
     },
     "sub": {
-     "en": "The cold email; the interruption; disagreeing upward; reasons that do not overlap; the same facts for another reader.",
-     "id": "Email perkenalan; interupsi; tidak setuju kepada atasan; alasan yang tidak tumpang tindih; fakta yang sama untuk pembaca lain."
+     "en": "The cold email; the interruption; disagreeing upward; reasons that do not overlap; the same facts for another reader. Plus questions on the original version's slides and films.",
+     "id": "Email perkenalan; interupsi; tidak setuju kepada atasan; alasan yang tidak tumpang tindih; fakta yang sama untuk pembaca lain. Ditambah soal tentang slide dan film versi awal."
     }
    },
    {
@@ -1628,8 +2396,8 @@ window.MT_ASSESS['the-map'] = {
      "id": "Unsur-Unsur Gaya Presentasi"
     },
     "sub": {
-     "en": "Three elements of style (presence, vocal emphasis, emotional connection); grounding; matching the room, including a video call.",
-     "id": "Tiga unsur gaya (kehadiran, penekanan suara, ikatan emosional); memantapkan diri; menyesuaikan dengan ruangan, termasuk panggilan video."
+     "en": "Three elements of style (presence, vocal emphasis, emotional connection); grounding; matching the room, including a video call. Plus questions on the original version's slides and films.",
+     "id": "Tiga unsur gaya (kehadiran, penekanan suara, ikatan emosional); memantapkan diri; menyesuaikan dengan ruangan, termasuk panggilan video. Ditambah soal tentang slide dan film versi awal."
     }
    }
   ],
@@ -2191,6 +2959,518 @@ window.MT_ASSESS['the-map'] = {
      "en": "Adjust the elements, not your personality. In a large room everything gets bigger and slower, and connection comes from a story rather than a chart. None of that requires becoming someone else.",
      "id": "Sesuaikan unsurnya, bukan kepribadianmu. Di ruangan besar semuanya menjadi lebih besar dan lebih pelan, dan ikatan dibangun lewat cerita, bukan grafik. Tak satu pun dari itu menuntutmu menjadi orang lain."
     }
+   },
+   {
+    "type": "know",
+    "lesson": "4.1",
+    "q": {
+     "en": "Original version · In the EPIC approach, what do the four letters stand for?",
+     "id": "Versi awal · Dalam pendekatan EPIC, apa kepanjangan keempat hurufnya?"
+    },
+    "opts": [
+     {
+      "en": "Engage, Plan, Inform, Close",
+      "id": "Engage, Plan, Inform, Close"
+     },
+     {
+      "en": "Empathy, Purpose, Insight, Conversation",
+      "id": "Empathy, Purpose, Insight, Conversation"
+     },
+     {
+      "en": "Energy, Presence, Impact, Clarity",
+      "id": "Energy, Presence, Impact, Clarity"
+     },
+     {
+      "en": "Explain, Persuade, Influence, Conclude",
+      "id": "Explain, Persuade, Influence, Conclude"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Empathy: put yourself in the other person’s shoes; Purpose: define it to include their needs and yours; Insight: articulate your ideas clearly and compellingly; Conversation: plan and orchestrate a two-way exchange. Four questions to answer before any meeting, presentation or one-to-one.",
+     "id": "Empathy: tempatkan dirimu di posisi orang lain; Purpose: tentukan tujuan yang mencakup kebutuhan mereka dan kebutuhanmu; Insight: sampaikan idemu dengan jelas dan meyakinkan; Conversation: rencanakan dan atur pertukaran dua arah. Empat pertanyaan yang perlu dijawab sebelum rapat, presentasi, atau obrolan empat mata apa pun."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.1",
+    "q": {
+     "en": "Original version · At 6 p.m. MODA’s CEO, Kobi, tells Aaliyah that senior leaders are calling the transformation “Disaster 2.0” and “clearly have their own agendas”. Which reply demonstrates empathy?",
+     "id": "Versi awal · Pukul 6 sore, CEO MODA, Kobi, memberi tahu Aaliyah bahwa para pemimpin senior menyebut transformasi ini \"Bencana 2.0\" dan \"jelas punya agenda sendiri-sendiri\". Jawaban mana yang menunjukkan empati?"
+    },
+    "opts": [
+     {
+      "en": "“I understand. How about we be more transparent about the data? The data speaks for itself.”",
+      "id": "\"Saya mengerti. Bagaimana kalau kita lebih terbuka soal datanya? Datanya akan berbicara sendiri.\""
+     },
+     {
+      "en": "“I understand. I’ll send company-wide email updates regularly, which I’m sure will address this.”",
+      "id": "\"Saya mengerti. Saya akan rutin mengirim email kabar terbaru ke seluruh perusahaan, dan saya yakin itu akan menyelesaikan masalah ini.\""
+     },
+     {
+      "en": "“I understand. Why do you think they have their own agendas? Can you tell me more?”",
+      "id": "\"Saya mengerti. Menurut Bapak, kenapa mereka punya agenda sendiri? Bisa Bapak ceritakan lebih jauh?\""
+     },
+     {
+      "en": "“With respect, they are wrong; the plan is based on real data.”",
+      "id": "\"Maaf, Pak, mereka keliru; rencana ini disusun berdasarkan data nyata.\""
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "The open question acknowledges Kobi’s concern, shows genuine interest in his perspective and uncovers the underlying issues before proposing anything. The other replies jump to a fix that answers Aaliyah’s own worry, not Kobi’s situation.",
+     "id": "Pertanyaan terbuka itu mengakui kekhawatiran Kobi, menunjukkan minat yang tulus pada sudut pandangnya, dan menggali masalah yang mendasarinya sebelum mengusulkan apa pun. Jawaban lainnya langsung melompat ke solusi yang menjawab kekhawatiran Aaliyah sendiri, bukan situasi Kobi."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.1",
+    "q": {
+     "en": "Original version · Maryam tells Noah the expanded scope “may be doable, but it will really push the team”, and that she has been left out of key meetings before. How should Noah respond?",
+     "id": "Versi awal · Maryam bilang kepada Noah bahwa cakupan yang diperluas itu \"mungkin bisa dikerjakan, tapi akan sangat membebani tim\", dan bahwa sebelumnya ia pernah tidak dilibatkan dalam rapat-rapat penting. Bagaimana sebaiknya Noah menanggapi?"
+    },
+    "opts": [
+     {
+      "en": "“That sounds frustrating, but you got through it and learned valuable lessons, no? Keep at it, you’re doing great.”",
+      "id": "\"Kedengarannya menjengkelkan, tapi kamu berhasil melewatinya dan dapat pelajaran berharga, kan? Terus semangat, kerjamu bagus.\""
+     },
+     {
+      "en": "“Thanks for sharing how you’ve been feeling. Let’s talk through the timeline to make it manageable, and I’ll make sure you and your team are part of the discussions with the department heads from now on.”",
+      "id": "\"Terima kasih sudah cerita soal perasaanmu. Ayo kita bahas jadwalnya supaya lebih masuk akal, dan mulai sekarang aku akan pastikan kamu dan timmu ikut dalam diskusi dengan para kepala departemen.\""
+     },
+     {
+      "en": "“Sounds great, I knew you could handle it. Reach out if the timeline becomes a problem.”",
+      "id": "\"Bagus, aku tahu kamu pasti bisa. Kabari aku kalau jadwalnya jadi masalah.\""
+     },
+     {
+      "en": "“The scope is decided; let’s focus on delivery.”",
+      "id": "\"Cakupannya sudah diputuskan; ayo fokus menyelesaikannya.\""
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Empathy is acknowledging the feeling and the workload, then acting on what you heard (a manageable timeline and a seat at future decisions). Praise that skips the concern, or a reassurance that leaves the burden with her, closes the door the conversation had just opened.",
+     "id": "Empati berarti mengakui perasaan dan beban kerjanya, lalu bertindak berdasarkan apa yang kamu dengar (jadwal yang masuk akal dan kursi dalam keputusan berikutnya). Pujian yang melewatkan kekhawatirannya, atau penghiburan yang tetap meninggalkan bebannya pada Maryam, menutup pintu yang baru saja dibuka oleh percakapan itu."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "4.2",
+    "q": {
+     "en": "Original version · Kate defines purpose in three parts. Which three?",
+     "id": "Versi awal · Kate mendefinisikan purpose dalam tiga bagian. Apa saja?"
+    },
+    "opts": [
+     {
+      "en": "The agenda, the time slot, and the attendee list",
+      "id": "Agenda, slot waktu, dan daftar peserta"
+     },
+     {
+      "en": "Given how the other person feels and thinks about the topic, what is realistically achievable in this interaction; what are your goals; and what are theirs",
+      "id": "Dengan melihat perasaan dan pikiran orang lain tentang topiknya, apa yang realistis bisa dicapai dalam interaksi ini; apa tujuanmu; dan apa tujuan mereka"
+     },
+     {
+      "en": "What you want to say, how you will say it, and how long it will take",
+      "id": "Apa yang ingin kamu katakan, bagaimana kamu akan mengatakannya, dan berapa lama waktunya"
+     },
+     {
+      "en": "The problem, the data, and the recommendation",
+      "id": "Masalahnya, datanya, dan rekomendasinya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Purpose is what you want out of the interaction and what the other person wants. Define both, or you are transmitting, not communicating. Empathy from the previous step feeds the first question, and a shared purpose makes the meeting a two-way dialogue.",
+     "id": "Purpose adalah apa yang ingin kamu dapat dari interaksi dan apa yang ingin didapat orang lain. Tentukan keduanya. Kalau tidak, kamu hanya menyampaikan, bukan berkomunikasi. Empati dari langkah sebelumnya menjadi bahan untuk pertanyaan pertama, dan tujuan bersama membuat rapat menjadi dialog dua arah."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.2",
+    "q": {
+     "en": "Original version · Aaliyah is drafting the kick-off agenda and wants Noah’s input. Which opening best sets a shared purpose?",
+     "id": "Versi awal · Aaliyah sedang menyusun agenda rapat perdana dan ingin mendapat masukan Noah. Pembuka mana yang paling baik untuk menetapkan tujuan bersama?"
+    },
+    "opts": [
+     {
+      "en": "“I’ve made sure to include plenty of time on major deliverables since I know that’s important to Digital. Does that work for you?”",
+      "id": "\"Aku sudah menyediakan banyak waktu untuk hasil kerja utama karena aku tahu itu penting bagi Digital. Cocok buatmu?\""
+     },
+     {
+      "en": "“I want to make sure I prioritise what’s important to Digital. Does this agenda look right to you?”",
+      "id": "\"Aku ingin memastikan aku memprioritaskan hal yang penting bagi Digital. Menurutmu agenda ini sudah pas?\""
+     },
+     {
+      "en": "“I want to make sure I include topics that may be important to Digital. What do you think about the agenda?”",
+      "id": "\"Aku ingin memastikan topik yang mungkin penting bagi Digital ikut masuk. Bagaimana pendapatmu soal agendanya?\""
+     },
+     {
+      "en": "“Here is the agenda; let me know if there’s a problem.”",
+      "id": "\"Ini agendanya; kabari aku kalau ada masalah.\""
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "The open question invites Noah’s needs into the purpose instead of presuming them or asking for a yes. Noah then moves the deliverables before the working model, input Aaliyah could only get by asking.",
+     "id": "Pertanyaan terbuka itu mengajak kebutuhan Noah masuk ke dalam tujuan, alih-alih menebaknya atau sekadar meminta jawaban ya. Noah lalu memindahkan hasil kerja utama ke depan model kerja, masukan yang hanya bisa didapat Aaliyah dengan bertanya."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.2",
+    "q": {
+     "en": "Original version · Noah asks to refocus the whole kick-off on Digital’s reorganisation problems (unfilled roles, unclear responsibilities). Aaliyah’s purpose for the meeting is to build the team. What should she do?",
+     "id": "Versi awal · Noah meminta seluruh rapat perdana dialihkan untuk membahas masalah reorganisasi Digital (posisi yang masih kosong, tanggung jawab yang tidak jelas). Tujuan Aaliyah untuk rapat itu adalah membangun tim. Apa yang sebaiknya ia lakukan?"
+    },
+    "opts": [
+     {
+      "en": "Agree: the loudest concern sets the agenda",
+      "id": "Setuju: kekhawatiran yang paling keras menentukan agenda"
+     },
+     {
+      "en": "Refuse to discuss anything that could derail the meeting",
+      "id": "Menolak membahas apa pun yang bisa membuat rapat keluar jalur"
+     },
+     {
+      "en": "Keep the main purpose, acknowledge the issues so people feel heard (a short “key concerns” slot), and plan a follow-up to work on them properly",
+      "id": "Pertahankan tujuan utamanya, akui masalah-masalah itu supaya orang merasa didengar (slot singkat untuk \"kekhawatiran utama\"), dan rencanakan rapat lanjutan untuk membahasnya dengan serius"
+     },
+     {
+      "en": "Cancel the kick-off until the reorganisation is resolved",
+      "id": "Batalkan rapat perdana sampai reorganisasinya beres"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "A purpose that fits the time: five things in thirty minutes is a wish list. Acknowledge the concerns, keep the meeting on its objective with a clear structure and time allocation, and give the remaining topics their own meeting; Noah himself agrees they will not be solved in one session.",
+     "id": "Tujuan harus sesuai dengan waktunya: lima hal dalam tiga puluh menit hanyalah daftar keinginan. Akui kekhawatirannya, jaga rapat tetap pada sasarannya dengan struktur dan pembagian waktu yang jelas, dan beri topik yang tersisa rapatnya sendiri; Noah sendiri setuju masalah itu tidak akan selesai dalam satu pertemuan."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.2",
+    "q": {
+     "en": "Original version · Maryam has three facts left: (1) about 60% of potential customers abandon the loyalty sign-up because it looks too long; (2) staff spend 40% of their time on inventory counts; (3) competitors with a more structured sign-up have higher satisfaction. Which does not belong in the same group?",
+     "id": "Versi awal · Maryam masih punya tiga fakta: (1) sekitar 60% calon pelanggan batal mendaftar program loyalitas karena prosesnya terlihat terlalu lama; (2) staf menghabiskan 40% waktunya untuk menghitung stok; (3) pesaing dengan proses pendaftaran yang lebih terstruktur punya kepuasan pelanggan yang lebih tinggi. Mana yang tidak masuk ke kelompok yang sama?"
+    },
+    "opts": [
+     {
+      "en": "Fact (1)",
+      "id": "Fakta (1)"
+     },
+     {
+      "en": "Fact (2)",
+      "id": "Fakta (2)"
+     },
+     {
+      "en": "Fact (3)",
+      "id": "Fakta (3)"
+     },
+     {
+      "en": "They all belong together",
+      "id": "Semuanya masuk ke kelompok yang sama"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Two of the three describe the loyalty sign-up process; the second is about staff activities that pull attention away from customer service. Groupings must be mutually exclusive and collectively exhaustive before a key line can be written for each.",
+     "id": "Dua dari tiga fakta menggambarkan proses pendaftaran program loyalitas; fakta kedua membahas kegiatan staf yang menarik perhatian mereka dari pelayanan pelanggan. Pengelompokan harus saling lepas dan lengkap menyeluruh sebelum garis kunci bisa ditulis untuk setiap kelompok."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "4.3",
+    "q": {
+     "en": "Original version · Which of these is an insight rather than data or information?",
+     "id": "Versi awal · Mana yang merupakan insight, bukan data atau informasi?"
+    },
+    "opts": [
+     {
+      "en": "Store visits: 1,250; online sales: 320",
+      "id": "Kunjungan toko: 1.250; penjualan online: 320"
+     },
+     {
+      "en": "A chart of monthly store visits, January to May",
+      "id": "Grafik kunjungan toko bulanan, Januari sampai Mei"
+     },
+     {
+      "en": "A customer journey map revealing new and unexpected pain points to address",
+      "id": "Peta perjalanan pelanggan yang mengungkap titik masalah baru dan tak terduga yang perlu ditangani"
+     },
+     {
+      "en": "The workplan and its current status",
+      "id": "Rencana kerja dan status terkininya"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Data is raw; information is prepared data with context; an insight is relevant to the audience and not obvious. It takes reflection and a “so what”, and earns its way into the shared fact base. A workplan is neither.",
+     "id": "Data itu mentah; informasi adalah data yang sudah diolah dan diberi konteks; insight relevan bagi audiens dan tidak terlihat sekilas. Insight butuh perenungan dan \"lalu kenapa\", dan layak masuk ke basis fakta bersama. Rencana kerja bukan keduanya."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "Original version · Maryam pours out a week of findings on the top three ideas in one go. Noah cuts in: “Have we answered why these are the best ideas to pursue?” How should she restructure for the meeting with Aaliyah?",
+     "id": "Versi awal · Maryam menumpahkan temuan seminggu tentang tiga ide teratas sekaligus. Noah memotong: \"Apakah kita sudah menjawab kenapa ide-ide ini yang terbaik untuk dijalankan?\" Bagaimana sebaiknya Maryam menyusun ulang untuk rapat dengan Aaliyah?"
+    },
+    "opts": [
+     {
+      "en": "Present the findings chronologically so nothing is lost",
+      "id": "Sampaikan temuannya sesuai urutan waktu supaya tidak ada yang hilang"
+     },
+     {
+      "en": "Lead with the governing thought (the answer), then the key lines that answer the “why?” or “how?” it raises, each supported by grouped facts and their “so what”",
+      "id": "Buka dengan gagasan utama (jawabannya), lalu garis kunci yang menjawab \"kenapa?\" atau \"bagaimana?\" yang muncul darinya, masing-masing didukung fakta yang dikelompokkan beserta \"lalu kenapa\"-nya"
+     },
+     {
+      "en": "Send the raw data in advance and let Aaliyah decide",
+      "id": "Kirim data mentahnya lebih dulu dan biarkan Aaliyah yang memutuskan"
+     },
+     {
+      "en": "Open with the vendor deal because it is the most exciting",
+      "id": "Buka dengan kesepakatan vendor karena itu yang paling menarik"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "All the right pieces are not yet a message. Say it top-down, build it bottom-up: group what you collected, find the themes, name the “so what” of each, and put the answer at the top; two minutes is the budget before you lose the room.",
+     "id": "Semua kepingan yang tepat belum otomatis menjadi pesan. Sampaikan dari atas, bangun dari bawah: kelompokkan apa yang sudah dikumpulkan, temukan temanya, sebutkan \"lalu kenapa\" dari setiap tema, dan taruh jawabannya di puncak. Jatahmu dua menit sebelum perhatian ruangan hilang."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "Original version · The People team’s pyramid for an in-house yoga studio has a group of facts: waiting time will be minimal because the studio serves only MODA colleagues; in-house classes eliminate travel time to external classes. Which key line statement synthesises the group?",
+     "id": "Versi awal · Piramida tim People untuk studio yoga internal punya satu kelompok fakta: waktu tunggu akan minim karena studio hanya melayani karyawan MODA; kelas di kantor menghapus waktu perjalanan ke kelas di luar. Pernyataan garis kunci mana yang menyintesis kelompok ini?"
+    },
+    "opts": [
+     {
+      "en": "“Waiting time will be minimal and there is no travel time.”",
+      "id": "\"Waktu tunggunya minim dan tidak ada waktu perjalanan.\""
+     },
+     {
+      "en": "“An onsite studio will save time and make MODA’s people more efficient.”",
+      "id": "\"Studio di kantor akan menghemat waktu dan membuat orang-orang MODA lebih efisien.\""
+     },
+     {
+      "en": "“Yoga is good for you.”",
+      "id": "\"Yoga itu baik untukmu.\""
+     },
+     {
+      "en": "“We should build a studio.”",
+      "id": "\"Kita sebaiknya membangun studio.\""
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A key line is a synthesis, not a summary: the “so what” the facts create together. The first option restates the facts; the third is not supported by them; the fourth is the governing thought, not this group’s key line.",
+     "id": "Garis kunci adalah sintesis, bukan ringkasan: \"lalu kenapa\" yang lahir dari fakta-fakta itu bersama-sama. Pilihan pertama hanya mengulang faktanya; yang ketiga tidak didukung oleh fakta-fakta itu; yang keempat adalah gagasan utama, bukan garis kunci kelompok ini."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "Original version · Noah has five minutes with Aaliyah before their real meeting and needs an elevator pitch. Which storyline structure should he use?",
+     "id": "Versi awal · Noah punya lima menit bersama Aaliyah sebelum rapat yang sebenarnya dan butuh elevator pitch. Struktur alur cerita mana yang sebaiknya ia pakai?"
+    },
+    "opts": [
+     {
+      "en": "Governing thought, context, conclusion",
+      "id": "Gagasan utama, konteks, penutup"
+     },
+     {
+      "en": "Context, governing thought, conclusion",
+      "id": "Konteks, gagasan utama, penutup"
+     },
+     {
+      "en": "Context, governing thought, supporting facts, conclusion",
+      "id": "Konteks, gagasan utama, fakta pendukung, penutup"
+     },
+     {
+      "en": "Context, supporting facts, governing thought, conclusion",
+      "id": "Konteks, fakta pendukung, gagasan utama, penutup"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A short encounter needs a succinct message with just enough context to understand the governing thought; Aaliyah wants the high-level answer to check the team is on track. Running through the supporting facts belongs in the full meeting.",
+     "id": "Pertemuan singkat butuh pesan yang padat dengan konteks secukupnya agar gagasan utamanya bisa dipahami; Aaliyah ingin mendengar jawaban garis besarnya untuk memastikan timnya berada di jalur yang benar. Membahas semua fakta pendukung adalah urusan rapat lengkapnya."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "Original version · Jarrah built his storyline for the Budget Committee. Now he presents the same yoga-studio idea to his peers. What should change?",
+     "id": "Versi awal · Jarrah menyusun alur ceritanya untuk Komite Anggaran. Sekarang ia mempresentasikan ide studio yoga yang sama kepada rekan-rekan sejawatnya. Apa yang sebaiknya berubah?"
+    },
+    "opts": [
+     {
+      "en": "The facts: peers need different numbers",
+      "id": "Faktanya: rekan sejawat butuh angka yang berbeda"
+     },
+     {
+      "en": "Nothing: a good storyline works for any audience",
+      "id": "Tidak ada: alur cerita yang baik berlaku untuk audiens mana pun"
+     },
+     {
+      "en": "The opening and the emphasis: appeal to his peers’ values and their vision of the ideal MODA workplace, after fact-finding about what they actually care about",
+      "id": "Pembuka dan penekanannya: sentuh nilai-nilai rekan-rekannya dan gambaran mereka tentang tempat kerja MODA yang ideal, setelah menggali apa yang benar-benar mereka pedulikan"
+     },
+     {
+      "en": "Skip the storyline and tell a personal story instead",
+      "id": "Lewati alur ceritanya dan ceritakan kisah pribadi saja"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "The facts stay the same; the storyline adapts to the audience. Storylining (the ordered key points and evidence) comes first; storytelling (how you hook and inspire) is the different art layered on top, and it needs empathy work beforehand.",
+     "id": "Faktanya tetap sama; alur ceritanya menyesuaikan audiens. Menyusun alur cerita (poin-poin kunci dan bukti yang berurutan) datang lebih dulu; bercerita (cara memikat dan menginspirasi) adalah seni lain yang ditambahkan di atasnya, dan seni itu butuh kerja empati lebih dulu."
+    },
+    "set": "original"
+   },
+   {
+    "type": "know",
+    "lesson": "4.4",
+    "q": {
+     "en": "Original version · Mark’s sentence “I gave him a hundred dollars” answers four different questions depending on where the stress falls. What is the lesson?",
+     "id": "Versi awal · Kalimat Mark, \"I gave him a hundred dollars\", menjawab empat pertanyaan berbeda tergantung di mana tekanannya jatuh. Apa pelajarannya?"
+    },
+    "opts": [
+     {
+      "en": "Speak louder so every word is heard",
+      "id": "Bicara lebih keras supaya setiap kata terdengar"
+     },
+     {
+      "en": "Vocal emphasis carries meaning: decide which word carries the message and put the weight there; rehearse out loud, record and play back",
+      "id": "Penekanan suara membawa makna: tentukan kata mana yang membawa pesannya dan beri bobot di situ; berlatihlah dengan suara keras, rekam, dan putar ulang"
+     },
+     {
+      "en": "Avoid emphasis in business settings; it sounds theatrical",
+      "id": "Hindari penekanan dalam situasi bisnis; kedengarannya seperti bersandiwara"
+     },
+     {
+      "en": "Write the sentence on a slide so stress does not matter",
+      "id": "Tulis kalimatnya di slide supaya tekanannya tidak penting"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Pitch, pace, volume and pause are the music of the voice; the same words mean different things with the stress moved. His exercise: read your last presentation as if to a child, record it, play it back, and turn the dial up a notch.",
+     "id": "Tinggi nada, tempo, volume, dan jeda adalah musik dalam suara; kata-kata yang sama bermakna lain kalau tekanannya dipindah. Latihannya: bacakan presentasi terakhirmu seolah-olah untuk anak kecil, rekam, putar ulang, lalu naikkan intensitasnya satu tingkat."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.4",
+    "q": {
+     "en": "Original version · You are about to deliver the key message of a proposal on a video call. Which set of adjustments does the module recommend?",
+     "id": "Versi awal · Kamu akan menyampaikan pesan kunci sebuah proposal lewat panggilan video. Penyesuaian mana yang disarankan modul ini?"
+    },
+    "opts": [
+     {
+      "en": "Look at the faces on screen, gesture broadly to add energy, keep self-view on to monitor yourself",
+      "id": "Tatap wajah-wajah di layar, gerakkan tangan lebar-lebar untuk menambah energi, biarkan tampilan dirimu menyala untuk memantau diri"
+     },
+     {
+      "en": "Look straight into the lens and picture the people behind it, keep your hands level with your body, camera at eye level, self-view off, room lit and background quiet",
+      "id": "Tatap langsung ke lensa dan bayangkan orang-orang di baliknya, jaga tangan tetap sejajar dengan tubuh, kamera sejajar mata, tampilan diri dimatikan, ruangan terang dan latar tenang"
+     },
+     {
+      "en": "Turn the camera off so people focus on the slides",
+      "id": "Matikan kamera supaya orang fokus pada slide"
+     },
+     {
+      "en": "Read the message from notes below the camera",
+      "id": "Bacakan pesannya dari catatan di bawah kamera"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The camera changes the weights: eye contact works strangely on screen, so the lens gets the key message; a small frame makes big gestures look like giant hands; a camera too high or too low makes you look small or self-important; self-view steals the attention that belongs to the audience. The fundamentals (audience, purpose, empathy) do not change.",
+     "id": "Kamera mengubah bobotnya: kontak mata terasa aneh di layar, jadi lensalah yang mendapat pesan kuncimu; bingkai yang kecil membuat gerak tangan besar terlihat seperti tangan raksasa; kamera yang terlalu tinggi atau terlalu rendah membuatmu terlihat kecil atau angkuh; tampilan diri mencuri perhatian yang seharusnya untuk audiens. Dasarnya (audiens, tujuan, empati) tidak berubah."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.4",
+    "q": {
+     "en": "Original version · A teammate declines to facilitate the project workshop: “I’m not the content expert and I shouldn’t be the one leading the discussion.” What does the module say?",
+     "id": "Versi awal · Seorang rekan tim menolak memfasilitasi lokakarya proyek: \"Aku bukan ahli materinya, dan bukan aku yang seharusnya memimpin diskusi.\" Apa kata modul ini?"
+    },
+    "opts": [
+     {
+      "en": "They are right: facilitation is for experts and leaders",
+      "id": "Ia benar: fasilitasi adalah tugas para ahli dan pemimpin"
+     },
+     {
+      "en": "Anyone can facilitate: to facilitate is to make something easier, and what it takes is an open, curious “over there” mindset (with the audience, releasing your agenda when appropriate, asking questions and uncovering what else is in the room)",
+      "id": "Siapa pun bisa memfasilitasi: memfasilitasi berarti membuat sesuatu jadi lebih mudah, dan yang dibutuhkan adalah pola pikir \"di sana\" yang terbuka dan penuh rasa ingin tahu (bersama audiens, rela melepas agendamu bila perlu, bertanya, dan menggali apa lagi yang ada di ruangan)"
+     },
+     {
+      "en": "Facilitation only matters for large groups",
+      "id": "Fasilitasi hanya penting untuk kelompok besar"
+     },
+     {
+      "en": "Facilitation means presenting the agenda and keeping time",
+      "id": "Fasilitasi berarti memaparkan agenda dan menjaga waktu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Effective communicators are effective facilitators because they make their message easier for others to understand. It does not require leading or expertise; it requires being “over there”, not “over here”, and it matters equally with one person or a large group.",
+     "id": "Komunikator yang efektif adalah fasilitator yang efektif karena mereka membuat pesannya lebih mudah dipahami orang lain. Ini tidak menuntut peran pemimpin atau keahlian; yang dituntut adalah berada \"di sana\", bukan \"di sini\", dan ini sama pentingnya dengan satu orang maupun kelompok besar."
+    },
+    "set": "original"
+   },
+   {
+    "type": "scen",
+    "lesson": "4.4",
+    "q": {
+     "en": "Original version · A 90-minute workshop must choose two of thirty initiatives. The plan: a 40-minute brainstorm, ten minutes to narrow, five minutes to close. Using open–narrow–close, what should change?",
+     "id": "Versi awal · Sebuah lokakarya 90 menit harus memilih dua dari tiga puluh inisiatif. Rencananya: curah gagasan 40 menit, sepuluh menit untuk mempersempit, lima menit untuk menutup. Dengan open–narrow–close, apa yang perlu diubah?"
+    },
+    "opts": [
+     {
+      "en": "Nothing: most of the time belongs to ideas",
+      "id": "Tidak ada: sebagian besar waktu memang milik ide"
+     },
+     {
+      "en": "Shorten the open (a timed three-minute burst creates more energy than a long brainstorm), give the narrow phase the most time and facilitative skill (hard decisions, egos on the line, a process people believe is fair), and close in momentum mode with twenty to thirty minutes to restate what has been agreed",
+      "id": "Persingkat fase open (ledakan ide tiga menit dengan pengatur waktu membangun energi lebih besar daripada curah gagasan yang panjang), beri fase narrow waktu dan keterampilan memfasilitasi paling banyak (keputusan sulit, ego yang dipertaruhkan, proses yang diyakini adil), dan tutup dengan mode penuh momentum selama dua puluh sampai tiga puluh menit untuk menegaskan kembali apa yang sudah disepakati"
+     },
+     {
+      "en": "Skip the close: decisions are obvious once narrowed",
+      "id": "Lewati fase close: keputusannya sudah jelas setelah dipersempit"
+     },
+     {
+      "en": "Do the narrowing by email afterwards",
+      "id": "Lakukan penyempitannya lewat email sesudahnya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Move through the opening with momentum, allow good time for narrowing so people are on board with the fairness of the process, then close for commitments, restating explicitly what has been agreed, with twenty minutes to half an hour even in a day-long meeting. How much each phase gets still depends on context.",
+     "id": "Lewati pembukaan dengan penuh momentum, beri waktu yang cukup untuk mempersempit supaya semua orang yakin prosesnya adil, lalu tutup untuk mendapatkan komitmen, dengan menegaskan kembali secara eksplisit apa yang sudah disepakati, selama dua puluh menit sampai setengah jam bahkan dalam rapat sehari penuh. Porsi setiap fase tetap tergantung konteksnya."
+    },
+    "set": "original"
    }
   ],
   "reflect": {
