@@ -2778,8 +2778,8 @@
      journey: { before:{label,desc}, now:{label,desc}, next:{label,desc,href?,tool?,mode?} }
        "Where this sits in your journey" — the step before, this module, and
        the next move, which may link to another product or launch a tool. */
-  /* ── Case assignment (`caseStudy{}`): an interactive consulting-style case
-     rendered as brief → three steps → review & submit. The registry owns every
+  /* ── Case assignment (`caseStudy{}`): an interactive case,
+     brief → three steps → review & submit. The registry owns every
      word (brief, guidance, prompts, rubric keywords); the player owns the
      mechanics: a stepper, a SMART checklist, a visual issue-tree builder, a
      2×2 impact/feasibility matrix, a rule-based framework check, autosaved
@@ -4000,10 +4000,8 @@
        it last of all, straight before the knowledge check — ahead of any
        before-check films; 'after-films' puts it after those films, so the
        deck is the very last thing before the check */
-    /* End-of-lesson run: anything placed 'end:N' (decks and films alike) is
-       rendered after the key terms and resources, straight before the
-       knowledge check, in ascending N. The older names still work and map
-       onto ranks, so a lesson can be migrated piecemeal. */
+    /* End-of-lesson run: anything placed 'end:N' (decks and films) renders after the
+       resources, before the knowledge check, in ascending N. Older names map onto ranks. */
     var END_RANK = { 'before-check': 10, 'after-films': 30, 'last': 50, 'final': 70 };
     function endRank(pl) { var m = /^end:(\d+)$/.exec(pl || ''); return m ? +m[1] : (END_RANK[pl] || 0); }
     var decks = [], decksExhibit = [], decksMistakes = [], endRun = [];
@@ -4061,11 +4059,12 @@
        same deck → exhibit → sections progression as The Map benchmark. */
     var lateSections = (l.kind === 'slides' || l.kind === 'visual') && l.sections && l.sections.length;
     if (!lateSections) renderDiagram(l, innerEl);
-    /* films placed after the exhibit come straight after it; a deck placed after the exhibit follows the films */
+    /* after the exhibit: films, then decks */
     vidsExhibit.forEach(function (b, j) {
       renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsExhibit.length ? 'film' : decksExhibit.length ? 'material' : (l.sections && l.sections.length ? 'lesson' : 'check') });
     });
     decksExhibit.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'x' + d.i); });
+    if (l.caseEarlier) { renderCase({ n: l.n + 'o', caseStudy: l.caseEarlier }, innerEl); innerEl.lastChild.id += 'o'; }   /* an earlier case, kept beside the current one */
     if (l.kind === 'video') renderVideo(l, innerEl);
     if (l.kind === 'reading' || l.kind === 'interactive') { renderSections(l, innerEl); renderSafety(l, innerEl); renderScenario(l, innerEl, true); }
     if (l.forage && l.forage.directory) renderForage(l, innerEl);   /* the directory lesson leads with the catalogue */
