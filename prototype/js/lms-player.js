@@ -793,7 +793,7 @@
     if (kind === 'cover') {
       var story = (C.story || []).map(function (t, i) { return '<li><i>' + n2(i) + '</i><span>' + scEsc(T(t)) + '</span></li>'; }).join('');
       return '<div class="sc sc-cover">' + bg + tracker +
-        '<div class="sc-cv"><div class="sc-cv-l"><p class="sc-tag">' + S.read + ' · ' + (N - 2) + ' ' + (L === 'id' ? 'slide inti' : 'core slides') + '</p><h2 class="sc-ct">' + scEsc(T(it.title)) + '</h2>' + (m.intro ? '<p class="sc-lede">' + scEsc(T(m.intro)) + '</p>' : '') + '</div>' +
+        '<div class="sc-cv"><div class="sc-cv-l"><p class="sc-tag">' + (C.read ? scEsc(T(C.read)) : S.read) + ' · ' + (N - 2) + ' ' + (L === 'id' ? 'slide inti' : 'core slides') + '</p><h2 class="sc-ct">' + scEsc(T(it.title)) + '</h2>' + (m.intro ? '<p class="sc-lede">' + scEsc(T(m.intro)) + '</p>' : '') + '</div>' +
         '<div class="sc-cv-r"><p class="sc-tag">' + S.storyline + '</p><ol class="sc-story">' + story + '</ol></div></div>' + foot + '</div>';
     }
     if (kind === 'close') {
@@ -1298,8 +1298,7 @@
     return wrap;
   }
 
-  /* readFirst: {kicker, title, intro, slides:[{h, points:[]}]} — a short text
-     deck shown before the lesson body, using the slide-deck component */
+  /* readFirst: {kicker, title, intro, slides:[{h, points:[]}]}: a short deck before the lesson body */
   function renderReadFirst(l, host) {
     var rf = l.readFirst;
     if (!rf || !rf.slides || !rf.slides.length) return;
