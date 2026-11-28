@@ -1,0 +1,170 @@
+WEBVTT
+Kind: subtitles
+Language: en
+
+1
+00:00.130 --> 00:04.200
+So once you've developed your initial issue tree,
+how can you test it and improve it?
+
+2
+00:04.200 --> 00:09.000
+One tool that we can use to help test or improve upon our issue tree
+is something we call MECE.
+
+3
+00:09.000 --> 00:12.260
+So what is MECE? Mutually exclusive, collectively exhaustive.
+
+4
+00:12.580 --> 00:16.510
+No overlaps, no gaps. When we think about mutually exclusive,
+
+5
+00:16.840 --> 00:22.630
+we want to make sure there's no overlap in the issues —
+so if there's an issue, it only appears in one branch of that tree.
+
+6
+00:23.140 --> 00:29.920
+When we think about collectively exhaustive, this is making sure there are no gaps —
+so it's making sure that, at the right-hand side of the tree,
+
+7
+00:30.310 --> 00:35.200
+all of the issues that we've identified are fully captured there,
+and we've effectively broadened the scope of our solutions.
+
+8
+00:35.200 --> 00:39.400
+So let's use an example of what is MECE and what is not MECE.
+
+9
+00:39.400 --> 00:43.620
+So if I think about what is MECE — if I'm defining my problem to be:
+
+10
+00:44.260 --> 00:50.400
+how do I break down profitability? I may decompose my tree
+into the revenue drivers and the cost drivers.
+
+11
+00:50.400 --> 00:54.400
+Let me give you some examples of what is not MECE, in terms of a list.
+
+12
+00:54.400 --> 00:58.720
+So if my list included breakfast, lunch and meals —
+well, that wouldn't be MECE, because
+
+13
+00:58.790 --> 01:05.150
+breakfast and lunch are part of meals. Therefore it's not mutually exclusive,
+because there's an overlap in the two different issues.
+
+14
+01:05.930 --> 01:11.400
+If I was explaining how a traffic light worked to my son
+and I said there are green lights and red lights —
+
+15
+01:11.400 --> 01:16.400
+well, I've not been collectively exhaustive,
+because I haven't mentioned the yellow lights.
+
+16
+01:16.400 --> 01:20.600
+So there are a couple of tips on how best to get your issue tree to be MECE.
+
+17
+01:20.600 --> 01:25.020
+Number one: think about how you can get as much input as possible,
+particularly from experts — and the collective wisdom
+
+18
+01:25.090 --> 01:30.240
+will oftentimes lead to a superior answer
+versus what one person can come up with themselves.
+
+19
+01:30.570 --> 01:35.230
+And with that, it's an exercise that really benefits from an iterative process.
+
+20
+01:35.590 --> 01:39.680
+Don't think that you need to get the exact right answer out of the gate.
+Better to get an
+
+21
+01:40.010 --> 01:46.600
+answer that's 80% of the way there, and then test and iterate that as you go —
+rather than over-invest or spend too much time up front
+
+22
+01:46.600 --> 01:49.400
+trying to get to the perfect solution.
+
+23
+01:49.400 --> 01:53.350
+So once you've got your tree as close to MECE as you think you can,
+the next step is prioritisation.
+
+24
+01:53.700 --> 01:58.200
+And this is where it's really important to think about the sequencing.
+
+25
+01:58.200 --> 02:04.030
+And one of the traps people sometimes fall into
+is eliminating items on the issue tree too early.
+
+26
+02:04.360 --> 02:08.600
+The best way to do it is to have a more collectively exhaustive issue tree,
+
+27
+02:08.600 --> 02:13.200
+so you have all the issues laid out in front of you,
+and then to prioritise —
+
+28
+02:13.200 --> 02:18.600
+and think about not only which issues you want to tackle first,
+but what branches of the tree may not apply.
+
+29
+02:18.600 --> 02:20.220
+So, prioritising too early
+
+30
+02:20.490 --> 02:25.400
+sometimes links back to the definition phase of the problem statement,
+where you're thinking about the scope of the solution set.
+
+31
+02:25.400 --> 02:29.540
+And so if the problem you're trying to solve is:
+
+32
+02:29.890 --> 02:37.700
+how do we grow revenue? You might think about what we can do in terms of price,
+or what we can do in terms of volume, right — selling more widgets, if you will.
+
+33
+02:38.050 --> 02:44.400
+But another way to drive revenue growth might be through acquisition, right?
+Acquiring another company and basically combining the revenue of the two entities.
+
+34
+02:44.400 --> 02:50.200
+It may be the case that acquisitions are off the table
+because of budget constraints or others,
+
+35
+02:50.200 --> 02:55.100
+but if you don't include that as an option in terms of growing revenue,
+
+36
+02:55.210 --> 03:00.770
+you may too early, and too narrowly, define the scope of your solution set —
+and that should get to the right answer.

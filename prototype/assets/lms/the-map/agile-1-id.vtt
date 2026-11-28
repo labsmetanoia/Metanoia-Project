@@ -1,0 +1,188 @@
+WEBVTT
+Kind: subtitles
+Language: id
+
+1
+00:00.520 --> 00:07.660
+Untuk lebih memahami perbedaan Agile dengan pendekatan tradisional,
+mari kita lihat dua tim yang mengerjakan produk yang sama.
+
+2
+00:07.720 --> 00:12.540
+Sebuah peritel khusus ingin membangun aplikasi
+yang membantu pelanggan memilih kacamata hitam terbaik.
+
+3
+00:12.600 --> 00:15.500
+Kedua tim menetapkan akan ada tiga fitur,
+
+4
+00:15.560 --> 00:22.300
+yaitu memotret pengguna, mencocokkan foto dengan stok kacamata hitam,
+dan membeli kacamata hitamnya.
+
+5
+00:22.515 --> 00:25.335
+Kedua tim punya tiga bulan untuk membangun dan meluncurkan aplikasi itu.
+
+6
+00:25.395 --> 00:28.615
+Tim tradisional akan memakai proses berurutan.
+
+7
+00:28.675 --> 00:31.815
+Mereka akan menyelesaikan setiap tahap sebelum beralih ke langkah berikutnya.
+
+8
+00:31.875 --> 00:39.895
+Jadi, setelah menentukan fitur, mereka akan mendesain, lalu mengembangkan, lalu menerapkan,
+lalu menguji dan memperbaiki, dan akhirnya merilis.
+
+9
+00:39.955 --> 00:43.335
+Tim Agile mendekati pembangunan ini berdasarkan fitur.
+
+10
+00:43.395 --> 00:49.015
+Mereka akan menjalankan beberapa siklus pengembangan yang disebut sprint,
+masing-masing satu sampai empat minggu.
+
+11
+00:49.075 --> 00:54.420
+Untuk sprint pertama ini, tim berfokus pada satu fitur saja:
+memotret.
+
+12
+00:54.480 --> 01:01.860
+Di akhir minggu ketiga, tim tradisional masih berupaya
+menangkap kebutuhan seluruh aplikasi, bukan hanya fiturnya.
+
+13
+01:01.920 --> 01:03.780
+Desainnya belum selesai.
+
+14
+01:03.840 --> 01:06.820
+Tim Agile sudah memegang fitur pertama,
+
+15
+01:06.880 --> 01:09.620
+dan membawanya ke toko untuk diuji dengan pelanggan sungguhan.
+
+16
+01:09.680 --> 01:16.740
+Dan itu bagus, karena pelanggan menyampaikan bahwa, meski aplikasi bisa memotret,
+yang kurang adalah cara untuk menamai atau mengenali foto-foto itu.
+
+17
+01:16.800 --> 01:18.500
+Tanpa itu, membingungkan.
+
+18
+01:18.560 --> 01:22.900
+Tim akan memakai umpan balik ini untuk menyesuaikan fitur di iterasi berikutnya.
+
+19
+01:23.040 --> 01:28.740
+Di pertengahan jalan, tim tradisional sedang sibuk mengembangkan,
+mengejar tanggal pengiriman mereka.
+
+20
+01:28.800 --> 01:31.300
+Mereka sesuai jadwal dan merasa cukup percaya diri.
+
+21
+01:31.360 --> 01:37.700
+Tim Agile sekali lagi membawa aplikasi langsung ke pengguna akhir,
+si pelanggan, untuk pengujian dan umpan balik.
+
+22
+01:37.760 --> 01:44.635
+Kini mereka punya dua fitur: kemampuan memotret,
+dan kemampuan mencocokkannya dengan stok toko.
+
+23
+01:44.775 --> 01:49.355
+Kali ini, mereka mengetahui kemampuan memperbesar
+yang akan membuat aplikasi makin berguna.
+
+24
+01:49.415 --> 01:51.995
+Mereka mencatat dalam rencana untuk menyesuaikan fitur itu.
+
+25
+01:52.055 --> 01:54.555
+Di bulan ketiga, kedua tim mengirimkan hasilnya.
+
+26
+01:54.615 --> 01:58.875
+Tim tradisional kini siap memperlihatkan aplikasi
+kepada pelanggan dan pemangku kepentingan.
+
+27
+01:58.935 --> 02:04.075
+Aplikasi mereka memang bisa mengambil gambar yang bagus,
+tetapi pelanggan tidak bisa menamai foto yang mereka ambil,
+
+28
+02:04.135 --> 02:08.235
+dan tidak bisa memperbesar atau memperkecil
+agar kacamata hitam di wajah mereka tertangkap lebih baik.
+
+29
+02:08.295 --> 02:14.395
+Karena tim Agile menguji MVP di setiap iterasi,
+mereka bisa menyesuaikan sambil membangun aplikasinya.
+
+30
+02:14.455 --> 02:17.595
+Hasilnya, mereka menghasilkan produk yang diinginkan konsumen:
+
+31
+02:17.655 --> 02:24.160
+aplikasi dengan fungsi penamaan foto, kemampuan memperbesar,
+serta kemampuan menyegarkan dan menghapus gambar.
+
+32
+02:24.220 --> 02:27.760
+Kedua tim punya aplikasi yang berfungsi di akhir tiga bulan.
+
+33
+02:27.820 --> 02:31.920
+Bedanya, tim Agile mampu melepas nilai sepanjang jalan.
+
+34
+02:31.980 --> 02:37.200
+Tim tradisional hanya memanfaatkan satu putaran umpan balik,
+dan umpan balik itu datang terlambat.
+
+35
+02:37.260 --> 02:41.200
+Tim Agile menciptakan peluang untuk banyak putaran umpan balik.
+
+36
+02:41.260 --> 02:47.520
+Model kerja Agile dirancang untuk menumbuhkan kolaborasi dan kokreasi,
+dan meminimalkan kesalahpahaman.
+
+37
+02:48.140 --> 02:55.040
+Agile berarti timmu akan bekerja bersama di ruangan yang sama, bahu-membahu,
+dalam tim lintas fungsi yang kolaboratif.
+
+38
+02:55.100 --> 02:57.120
+Kalian semua menjalaninya bersama.
+
+39
+02:57.180 --> 02:59.600
+Kembangkan produk yang berpusat pada pelanggan.
+
+40
+02:59.740 --> 03:03.200
+Bangun produk itu secara iteratif dalam durasi satu sampai empat minggu.
+
+41
+03:03.260 --> 03:09.220
+Diberdayakan untuk mengambil keputusan
+dan mengatur diri sendiri tentang cara menyelesaikan pekerjaan.

@@ -1,0 +1,170 @@
+WEBVTT
+Kind: subtitles
+Language: id
+
+1
+00:00.130 --> 00:04.200
+Setelah Anda menyusun pohon isu awal,
+bagaimana cara menguji dan memperbaikinya?
+
+2
+00:04.200 --> 00:09.000
+Satu alat yang bisa kita pakai untuk menguji atau memperbaiki pohon isu
+adalah yang kita sebut MECE.
+
+3
+00:09.000 --> 00:12.260
+Jadi apa itu MECE? Mutually exclusive, collectively exhaustive.
+
+4
+00:12.580 --> 00:16.510
+Tidak ada tumpang tindih, tidak ada kekosongan. Untuk mutually exclusive,
+
+5
+00:16.840 --> 00:22.630
+kita memastikan tidak ada tumpang tindih di antara isu —
+jadi setiap isu hanya muncul di satu cabang pohon itu.
+
+6
+00:23.140 --> 00:29.920
+Untuk collectively exhaustive, ini memastikan tidak ada kekosongan —
+jadi memastikan bahwa, di sisi kanan pohon,
+
+7
+00:30.310 --> 00:35.200
+semua isu yang sudah kita identifikasi tercakup sepenuhnya,
+dan kita benar-benar memperluas cakupan solusi kita.
+
+8
+00:35.200 --> 00:39.400
+Mari kita lihat contoh apa yang MECE dan apa yang tidak MECE.
+
+9
+00:39.400 --> 00:43.620
+Kalau saya memikirkan apa yang MECE — jika masalah saya adalah:
+
+10
+00:44.260 --> 00:50.400
+bagaimana saya menguraikan profitabilitas? Saya bisa memecah pohon saya
+menjadi pendorong pendapatan dan pendorong biaya.
+
+11
+00:50.400 --> 00:54.400
+Saya beri beberapa contoh yang tidak MECE, dalam bentuk daftar.
+
+12
+00:54.400 --> 00:58.720
+Jika daftar saya berisi sarapan, makan siang, dan makanan —
+nah, itu tidak MECE, karena
+
+13
+00:58.790 --> 01:05.150
+sarapan dan makan siang adalah bagian dari makanan. Jadi tidak mutually exclusive,
+karena ada tumpang tindih di antara dua isu itu.
+
+14
+01:05.930 --> 01:11.400
+Jika saya menjelaskan cara kerja lampu lalu lintas kepada anak saya
+dan berkata ada lampu hijau dan lampu merah —
+
+15
+01:11.400 --> 01:16.400
+nah, saya belum collectively exhaustive,
+karena saya belum menyebut lampu kuning.
+
+16
+01:16.400 --> 01:20.600
+Ada beberapa tips agar pohon isu Anda menjadi MECE.
+
+17
+01:20.600 --> 01:25.020
+Pertama: pikirkan bagaimana mendapatkan masukan sebanyak mungkin,
+terutama dari para ahli — dan kebijaksanaan kolektif
+
+18
+01:25.090 --> 01:30.240
+sering kali menghasilkan jawaban yang lebih baik
+dibanding yang bisa dihasilkan satu orang sendirian.
+
+19
+01:30.570 --> 01:35.230
+Selain itu, ini latihan yang sangat diuntungkan oleh proses iteratif.
+
+20
+01:35.590 --> 01:39.680
+Jangan berpikir Anda harus langsung mendapat jawaban yang persis benar.
+Lebih baik mendapat
+
+21
+01:40.010 --> 01:46.600
+jawaban yang 80% mendekati, lalu menguji dan mengulanginya sambil berjalan —
+daripada terlalu banyak berinvestasi atau menghabiskan waktu di awal
+
+22
+01:46.600 --> 01:49.400
+untuk mencoba mencapai solusi yang sempurna.
+
+23
+01:49.400 --> 01:53.350
+Setelah pohon Anda sedekat mungkin dengan MECE menurut Anda,
+langkah berikutnya adalah prioritisasi.
+
+24
+01:53.700 --> 01:58.200
+Di sinilah sangat penting untuk memikirkan urutannya.
+
+25
+01:58.200 --> 02:04.030
+Salah satu jebakan yang kadang dialami orang
+adalah menghapus butir-butir pohon isu terlalu dini.
+
+26
+02:04.360 --> 02:08.600
+Cara terbaik adalah memiliki pohon isu yang lebih collectively exhaustive,
+
+27
+02:08.600 --> 02:13.200
+sehingga semua isu terbentang di hadapan Anda,
+lalu memprioritaskan —
+
+28
+02:13.200 --> 02:18.600
+dan memikirkan bukan hanya isu mana yang ingin ditangani lebih dulu,
+tetapi juga cabang pohon mana yang mungkin tidak berlaku.
+
+29
+02:18.600 --> 02:20.220
+Jadi, memprioritaskan terlalu dini
+
+30
+02:20.490 --> 02:25.400
+kadang berkaitan dengan tahap pendefinisian rumusan masalah,
+saat Anda memikirkan cakupan kumpulan solusi.
+
+31
+02:25.400 --> 02:29.540
+Jadi jika masalah yang ingin Anda selesaikan adalah:
+
+32
+02:29.890 --> 02:37.700
+bagaimana kita menumbuhkan pendapatan? Anda mungkin memikirkan apa yang bisa dilakukan soal harga,
+atau soal volume, kan — menjual lebih banyak produk, misalnya.
+
+33
+02:38.050 --> 02:44.400
+Tetapi cara lain mendorong pertumbuhan pendapatan bisa lewat akuisisi, kan?
+Mengakuisisi perusahaan lain dan pada dasarnya menggabungkan pendapatan keduanya.
+
+34
+02:44.400 --> 02:50.200
+Bisa jadi akuisisi tidak menjadi pilihan
+karena kendala anggaran atau hal lain,
+
+35
+02:50.200 --> 02:55.100
+tetapi jika Anda tidak memasukkannya sebagai pilihan untuk menumbuhkan pendapatan,
+
+36
+02:55.210 --> 03:00.770
+Anda mungkin terlalu dini, dan terlalu sempit, menentukan cakupan kumpulan solusi —
+padahal itulah yang seharusnya membawa ke jawaban yang tepat.
