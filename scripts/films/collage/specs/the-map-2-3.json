@@ -1,0 +1,281 @@
+{
+ "id": "map-2-3-design-first",
+ "lesson": "2.3",
+ "seed": 67,
+ "title": {
+  "en": "*Design first*: a career by design, not by first offer",
+  "id": "*Rancang dulu*: karier karena rancangan, bukan tawaran pertama"
+ },
+ "places": {
+  "start": {
+   "en": "Whatever comes first",
+   "id": "Apa pun yang datang duluan"
+  },
+  "goal": {
+   "en": "A direction you chose",
+   "id": "Arah yang kamu pilih"
+  },
+  "sea": {
+   "en": "Three years",
+   "id": "Tiga tahun"
+  },
+  "dot": {
+   "en": "Friday",
+   "id": "Jumat"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Design first: a career by design, not by first offer.",
+    "id": "Rancang dulu: karier karena rancangan, bukan tawaran pertama."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "envelope",
+   "label": {
+    "en": "A job offer",
+    "id": "Tawaran kerja"
+   },
+   "tiles": "1",
+   "note": {
+    "en": "his first.",
+    "id": "yang pertama."
+   },
+   "card": {
+    "en": "Friday. Yoga is about to accept, *because it came first*.",
+    "id": "Jumat. Yoga hampir menerima, *karena itu yang datang duluan*."
+   },
+   "vtt": {
+    "en": "Friday. Yoga opens his inbox and finds a job offer. His first. He is about to accept. Not because it fits, but because it came first.",
+    "id": "Jumat. Yoga membuka kotak masuknya dan menemukan tawaran kerja. Yang pertama. Ia hampir menerimanya. Bukan karena cocok, tapi karena itu yang datang duluan."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "Whose script?",
+    "id": "Naskah siapa?"
+   },
+   "sub": {
+    "en": "one question stops him",
+    "id": "satu pertanyaan menghentikannya"
+   },
+   "notes": [
+    {
+     "en": "“whose script is this line from?”",
+     "id": "“kalimat ini dari naskah siapa?”"
+    }
+   ],
+   "card": {
+    "en": "One question:",
+    "id": "Satu pertanyaan:"
+   },
+   "vtt": {
+    "en": "One question stops him. Whose script is this line from?",
+    "id": "Satu pertanyaan menghentikannya. Kalimat ini dari naskah siapa?"
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Inheritance · what the family respects",
+      "id": "Warisan · yang dihormati keluarga"
+     }
+    },
+    {
+     "t": {
+      "en": "The feed · whatever is trending",
+      "id": "Linimasa · apa pun yang sedang tren"
+     }
+    },
+    {
+     "t": {
+      "en": "First offer · whoever says yes first",
+      "id": "Tawaran pertama · siapa pun yang bilang ya"
+     }
+    }
+   ],
+   "note": {
+    "en": "not malicious. just unauthored.",
+    "id": "tidak jahat. hanya tanpa pengarang."
+   },
+   "card": {
+    "en": "Three scripts run a career *by default*.",
+    "id": "Tiga naskah menjalankan karier *secara otomatis*."
+   },
+   "vtt": {
+    "en": "Without a design, three scripts compete to run a career. The inheritance script: what the family respects. The feed script: whatever is trending. And the first-offer script: whoever says yes first.",
+    "id": "Tanpa rancangan, tiga naskah berebut menjalankan karier. Naskah warisan: yang dihormati keluarga. Naskah linimasa: apa pun yang sedang tren. Dan naskah tawaran pertama: siapa pun yang lebih dulu bilang ya."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "A mission sentence",
+    "id": "Kalimat misi"
+   },
+   "old": {
+    "en": "I want to be a senior analyst.",
+    "id": "Aku ingin jadi analis senior."
+   },
+   "new": [
+    {
+     "en": "I help small businesses",
+     "id": "Aku membantu usaha kecil"
+    },
+    {
+     "en": "understand their own numbers.",
+     "id": "memahami angka mereka sendiri."
+    }
+   ],
+   "card": {
+    "en": "A title is not a direction. Name *a contribution*.",
+    "id": "Jabatan bukan arah. Sebutkan *kontribusi*."
+   },
+   "vtt": {
+    "en": "So he designs first. His first mission sentence names a title. A title is not a direction. The rewrite names a contribution: I help small businesses understand their own numbers.",
+    "id": "Maka ia merancang dulu. Kalimat misi pertamanya menyebut jabatan. Jabatan bukan arah. Versi barunya menyebut kontribusi: aku membantu usaha kecil memahami angka mereka sendiri."
+   }
+  },
+  {
+   "kind": "loop",
+   "tiles": "3",
+   "unit": {
+    "en": "years out",
+    "id": "tahun ke depan"
+   },
+   "items": [
+    {
+     "en": "A domain",
+     "id": "Bidang"
+    },
+    {
+     "en": "A level",
+     "id": "Tingkat"
+    },
+    {
+     "en": "Evidence others can see",
+     "id": "Bukti yang terlihat orang"
+    },
+    {
+     "en": "A line you refuse to cross",
+     "id": "Batas yang tak kamu langgar"
+    }
+   ],
+   "card": {
+    "en": "A compass needs a *first landmark*.",
+    "id": "Kompas butuh *penanda pertama*."
+   },
+   "vtt": {
+    "en": "A mission is a compass. It needs a first landmark: one outcome, three years out, with four parts. A domain, a level, evidence someone else can see, and a line you refuse to cross.",
+    "id": "Misi adalah kompas. Ia butuh penanda pertama: satu hasil, tiga tahun ke depan, dengan empat bagian. Bidang, tingkat, bukti yang bisa dilihat orang lain, dan batas yang tidak mau kamu langgar."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "“Will I work with small clients?”",
+      "id": "“Apakah saya menangani klien kecil?”"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "“Who will I learn from?”",
+      "id": "“Saya akan belajar dari siapa?”"
+     },
+     "ok": true
+    }
+   ],
+   "note": {
+    "en": "monday. two questions back.",
+    "id": "senin. dua pertanyaan balik."
+   },
+   "card": {
+    "en": "He answers the offer with *questions*.",
+    "id": "Ia menjawab tawaran itu dengan *pertanyaan*."
+   },
+   "vtt": {
+    "en": "On Monday he answers the offer with two questions. Will I work with small clients? Who will I learn from?",
+    "id": "Hari Senin ia menjawab tawaran itu dengan dua pertanyaan. Apakah saya menangani klien kecil? Saya akan belajar dari siapa?"
+   }
+  },
+  {
+   "kind": "pair",
+   "a": {
+    "label": {
+     "en": "By first offer",
+     "id": "Karena tawaran pertama"
+    },
+    "sub": {
+     "en": "whoever says yes",
+     "id": "siapa pun yang bilang ya"
+    }
+   },
+   "b": {
+    "label": {
+     "en": "By design",
+     "id": "Karena rancangan"
+    },
+    "sub": {
+     "en": "the yes is yours",
+     "id": "ya itu milikmu"
+    }
+   },
+   "card": {
+    "en": "He may still say yes. But now the yes is *his*.",
+    "id": "Ia mungkin tetap bilang ya. Tapi sekarang ya itu *miliknya*."
+   },
+   "vtt": {
+    "en": "He may still say yes. But now the yes is his: direction by design, not by first offer.",
+    "id": "Ia mungkin tetap bilang ya. Tapi sekarang ya itu miliknya: arah karena rancangan, bukan karena tawaran pertama."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "A mission names contribution, not",
+    "id": "Misi menyebut kontribusi, bukan"
+   },
+   "tiles": {
+    "en": "TITLES.",
+    "id": "JABATAN."
+   },
+   "note": {
+    "en": "a 3-year outcome makes it plannable.",
+    "id": "hasil 3 tahun membuatnya bisa direncanakan."
+   },
+   "vtt": {
+    "en": "A mission names contribution, not titles. A three-year outcome makes it plannable.",
+    "id": "Misi menyebut kontribusi, bukan jabatan. Hasil tiga tahun membuatnya bisa direncanakan."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: for *one big choice* you face, ask:",
+    "id": "Giliranmu: untuk *satu pilihan besar* yang kamu hadapi, tanyakan:"
+   },
+   "stamp": {
+    "en": "Whose script is this?",
+    "id": "Ini naskah siapa?"
+   },
+   "vtt": {
+    "en": "Now it is your turn. For one big choice you face, ask: whose script is this line from?",
+    "id": "Sekarang giliranmu. Untuk satu pilihan besar yang kamu hadapi, tanyakan: kalimat ini dari naskah siapa?"
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

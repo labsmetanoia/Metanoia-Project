@@ -1,0 +1,272 @@
+{
+ "id": "map-4-4-before-you-speak",
+ "lesson": "4.4",
+ "seed": 113,
+ "title": {
+  "en": "*Before you speak*: the three elements of presentation style",
+  "id": "*Sebelum kamu bicara*: tiga unsur gaya presentasi"
+ },
+ "places": {
+  "start": {
+   "en": "Eyes on the floor",
+   "id": "Mata ke lantai"
+  },
+  "goal": {
+   "en": "The room",
+   "id": "Ruangan"
+  },
+  "sea": {
+   "en": "Three breaths",
+   "id": "Tiga tarikan napas"
+  },
+  "dot": {
+   "en": "The door",
+   "id": "Pintu"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Before you speak: the three elements of presentation style.",
+    "id": "Sebelum kamu bicara: tiga unsur gaya presentasi."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "person",
+   "label": {
+    "en": "She knows her material",
+    "id": "Ia menguasai materinya"
+   },
+   "note": {
+    "en": "eyes down. restless hands.",
+    "id": "mata menunduk. tangan gelisah."
+   },
+   "card": {
+    "en": "Tika walks in looking *at the floor*.",
+    "id": "Tika masuk sambil menatap *lantai*."
+   },
+   "vtt": {
+    "en": "Tika knows her material. But she walks in looking at the floor, and her hands will not stay still.",
+    "id": "Tika menguasai materinya. Tapi ia masuk sambil menatap lantai, dan tangannya tidak mau diam."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "The body speaks first",
+    "id": "Tubuh bicara lebih dulu"
+   },
+   "sub": {
+    "en": "before your words",
+    "id": "sebelum kata-katamu"
+   },
+   "notes": [
+    {
+     "en": "if the two disagree,",
+     "id": "kalau keduanya berbeda,"
+    },
+    {
+     "en": "the body wins.",
+     "id": "tubuh yang menang."
+    }
+   ],
+   "card": {
+    "en": "The audience *reads you* before it hears you.",
+    "id": "Audiens *membacamu* sebelum mendengarmu."
+   },
+   "vtt": {
+    "en": "The audience reads your body before it hears your words. If the two disagree, the body wins.",
+    "id": "Audiens membaca tubuhmu sebelum mendengar kata-katamu. Kalau keduanya berbeda, tubuh yang menang."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Physical presence · what they see",
+      "id": "Kehadiran fisik · yang mereka lihat"
+     }
+    },
+    {
+     "t": {
+      "en": "Vocal emphasis · what they hear",
+      "id": "Penekanan suara · yang mereka dengar"
+     }
+    },
+    {
+     "t": {
+      "en": "Emotional connection · what they feel",
+      "id": "Kedekatan emosi · yang mereka rasakan"
+     }
+    }
+   ],
+   "card": {
+    "en": "Presentation style has *three elements*.",
+    "id": "Gaya presentasi punya *tiga unsur*."
+   },
+   "vtt": {
+    "en": "Presentation style has three elements. Physical presence: what they see. Vocal emphasis: what they hear under the words. And emotional connection: what they feel when you read the room and respond.",
+    "id": "Gaya presentasi punya tiga unsur. Kehadiran fisik: yang mereka lihat. Penekanan suara: yang mereka dengar di balik kata-kata. Dan kedekatan emosi: yang mereka rasakan saat kamu membaca suasana dan menanggapinya."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Feet flat",
+     "id": "Kaki rata"
+    },
+    {
+     "en": "Three slow breaths",
+     "id": "Tiga napas pelan"
+    },
+    {
+     "en": "A home for her hands",
+     "id": "Tempat untuk tangan"
+    }
+   ],
+   "note": {
+    "en": "before she walks in. like a warm-up.",
+    "id": "sebelum masuk. seperti pemanasan."
+   },
+   "card": {
+    "en": "Presence is *prepared*, not performed.",
+    "id": "Kehadiran itu *disiapkan*, bukan diperankan."
+   },
+   "vtt": {
+    "en": "Presence is prepared, not performed. Before she walks in next time, Tika does three things. Feet flat on the floor. Three slow breaths, longer out than in. And a home for her hands.",
+    "id": "Kehadiran itu disiapkan, bukan diperankan. Sebelum masuk lain kali, Tika melakukan tiga hal. Telapak kaki rata di lantai. Tiga napas pelan, embusan lebih panjang. Dan tempat untuk tangannya."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "One to one · stillness, eye contact",
+      "id": "Empat mata · tenang, kontak mata"
+     }
+    },
+    {
+     "t": {
+      "en": "Small meeting · sit forward, mark the answer",
+      "id": "Rapat kecil · condong ke depan, tandai jawabannya"
+     }
+    },
+    {
+     "t": {
+      "en": "Large room · wider gestures, real pauses",
+      "id": "Ruang besar · gerak lebih lebar, jeda sungguhan"
+     }
+    },
+    {
+     "t": {
+      "en": "Video call · look at the lens, add energy",
+      "id": "Panggilan video · tatap lensa, tambah energi"
+     }
+    }
+   ],
+   "card": {
+    "en": "Match the style *to the room*.",
+    "id": "Sesuaikan gayanya *dengan ruangannya*."
+   },
+   "vtt": {
+    "en": "The same elements change with the room. One to one: stillness, eye contact, a slower pace. A small meeting: sit forward. A large room: wider gestures and real pauses. A video call: look at the lens and add energy.",
+    "id": "Unsur yang sama berubah mengikuti ruangannya. Empat mata: tenang, kontak mata, tempo lebih pelan. Rapat kecil: condong ke depan. Ruang besar: gerak lebih lebar dan jeda sungguhan. Panggilan video: tatap lensa dan tambah energi."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "slides",
+   "label": {
+    "en": "The next presentation",
+    "id": "Presentasi berikutnya"
+   },
+   "note": {
+    "en": "same material. her body agrees now.",
+    "id": "materi yang sama. kini tubuhnya sejalan."
+   },
+   "card": {
+    "en": "This time her body says *what her words say*.",
+    "id": "Kali ini tubuhnya mengatakan *hal yang sama dengan kata-katanya*."
+   },
+   "vtt": {
+    "en": "The next presentation has the same material. This time her body says what her words say.",
+    "id": "Presentasi berikutnya memakai materi yang sama. Kali ini tubuhnya mengatakan hal yang sama dengan kata-katanya."
+   }
+  },
+  {
+   "kind": "pair",
+   "a": {
+    "label": {
+     "en": "Adjust the elements",
+     "id": "Sesuaikan unsurnya"
+    },
+    "sub": {
+     "en": "presence, voice, connection",
+     "id": "kehadiran, suara, kedekatan"
+    }
+   },
+   "b": {
+    "label": {
+     "en": "Change who you are",
+     "id": "Mengubah dirimu"
+    },
+    "sub": {
+     "en": "not required",
+     "id": "tidak perlu"
+    }
+   },
+   "card": {
+    "en": "She did not copy anyone.",
+    "id": "Ia tidak meniru siapa pun."
+   },
+   "vtt": {
+    "en": "She did not copy anyone. She adjusted the elements, not her personality.",
+    "id": "Ia tidak meniru siapa pun. Ia menyesuaikan unsur-unsurnya, bukan kepribadiannya."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Presence is prepared, not",
+    "id": "Kehadiran itu disiapkan, bukan"
+   },
+   "tiles": {
+    "en": "PERFORMED.",
+    "id": "DIPERANKAN."
+   },
+   "note": {
+    "en": "the body speaks first.",
+    "id": "tubuh bicara lebih dulu."
+   },
+   "vtt": {
+    "en": "The body speaks first. Presence is prepared, not performed.",
+    "id": "Tubuh bicara lebih dulu. Kehadiran itu disiapkan, bukan diperankan."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: before your *next meeting*:",
+    "id": "Giliranmu: sebelum *rapatmu berikutnya*:"
+   },
+   "stamp": {
+    "en": "Feet · three breaths · hands",
+    "id": "Kaki · tiga napas · tangan"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Before your next meeting: feet, three breaths, a home for your hands.",
+    "id": "Sekarang giliranmu. Sebelum rapatmu berikutnya: kaki, tiga napas, tempat untuk tanganmu."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

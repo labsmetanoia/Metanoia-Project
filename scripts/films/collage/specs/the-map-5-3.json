@@ -1,0 +1,325 @@
+{
+ "id": "map-5-3-four-small-moves",
+ "lesson": "5.3",
+ "seed": 131,
+ "title": {
+  "en": "*Four small moves*: how a strong relationship is built",
+  "id": "*Empat langkah kecil*: cara relasi yang kuat dibangun"
+ },
+ "places": {
+  "start": {
+   "en": "Colleagues",
+   "id": "Rekan kerja"
+  },
+  "goal": {
+   "en": "People you trust",
+   "id": "Orang yang kamu percaya"
+  },
+  "sea": {
+   "en": "Seconds at a time",
+   "id": "Detik demi detik"
+  },
+  "dot": {
+   "en": "Her desk",
+   "id": "Mejanya"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Four small moves: how a strong relationship is built.",
+    "id": "Empat langkah kecil: cara relasi yang kuat dibangun."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "phone",
+   "label": {
+    "en": "At the next desk",
+    "id": "Di meja sebelah"
+   },
+   "note": {
+    "en": "Yudha puts down the phone and sighs.",
+    "id": "Yudha menaruh telepon dan menghela napas."
+   },
+   "card": {
+    "en": "Salma is three months into her *first job*.",
+    "id": "Salma baru tiga bulan di *pekerjaan pertamanya*."
+   },
+   "vtt": {
+    "en": "Salma is three months into her first job. At the next desk, Yudha puts down the phone and sighs.",
+    "id": "Salma baru tiga bulan di pekerjaan pertamanya. Di meja sebelah, Yudha menaruh telepon dan menghela napas."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "A bid for connection",
+    "id": "Ajakan untuk terhubung"
+   },
+   "sub": {
+    "en": "the psychologist John Gottman's term",
+    "id": "istilah psikolog John Gottman"
+   },
+   "notes": [
+    {
+     "en": "a small request for attention.",
+     "id": "permintaan kecil untuk diperhatikan."
+    }
+   ],
+   "card": {
+    "en": "A sigh like that is *a request*.",
+    "id": "Helaan napas seperti itu adalah *permintaan*."
+   },
+   "vtt": {
+    "en": "A sigh like that is a small request for attention. The psychologist John Gottman calls it a bid for connection.",
+    "id": "Helaan napas seperti itu adalah permintaan kecil untuk diperhatikan. Psikolog John Gottman menyebutnya ajakan untuk terhubung."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Turn toward it",
+      "id": "Menghadapnya"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "Miss it",
+      "id": "Melewatkannya"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "Brush it off",
+      "id": "Menepisnya"
+     },
+     "ok": false
+    }
+   ],
+   "note": {
+    "en": "trust is built in these seconds.",
+    "id": "kepercayaan dibangun di detik-detik ini."
+   },
+   "card": {
+    "en": "She has *three choices*.",
+    "id": "Ia punya *tiga pilihan*."
+   },
+   "vtt": {
+    "en": "She can turn toward it, miss it, or brush it off. Trust is built in these seconds, many times a day.",
+    "id": "Ia bisa menghadapnya, melewatkannya, atau menepisnya. Kepercayaan dibangun di detik-detik ini, berkali-kali sehari."
+   }
+  },
+  {
+   "kind": "loop",
+   "tiles": "4",
+   "unit": {
+    "en": "moves",
+    "id": "langkah"
+   },
+   "items": [
+    {
+     "en": "Attention",
+     "id": "Perhatian"
+    },
+    {
+     "en": "Vulnerability",
+     "id": "Keterbukaan"
+    },
+    {
+     "en": "Empathy",
+     "id": "Empati"
+    },
+    {
+     "en": "Compassion",
+     "id": "Welas asih"
+    }
+   ],
+   "card": {
+    "en": "One conversation, *four moves*.",
+    "id": "Satu percakapan, *empat langkah*."
+   },
+   "vtt": {
+    "en": "She turns toward it. One conversation, four moves: attention, vulnerability, empathy and compassion.",
+    "id": "Ia menghadapnya. Satu percakapan, empat langkah: perhatian, keterbukaan, empati, dan welas asih."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Phone face down. She lets him finish.",
+      "id": "Ponsel ditelungkupkan. Ia biarkan selesai."
+     }
+    },
+    {
+     "t": {
+      "en": "“I froze on my first call too.”",
+      "id": "“Aku juga membeku di telepon pertamaku.”"
+     }
+    },
+    {
+     "t": {
+      "en": "“Sounds like it hit harder than you expected.”",
+      "id": "“Sepertinya itu lebih berat dari yang Mas kira.”"
+     }
+    },
+    {
+     "t": {
+      "en": "“Shall we rehearse the next one at four?”",
+      "id": "“Mau latihan untuk telepon berikutnya jam empat?”"
+     }
+    }
+   ],
+   "note": {
+    "en": "the order matters.",
+    "id": "urutannya penting."
+   },
+   "card": {
+    "en": "What each move *sounds like*:",
+    "id": "Seperti apa *bunyi* tiap langkah:"
+   },
+   "vtt": {
+    "en": "Phone face down, and she lets him finish. Then something true about herself: I froze on my first call too. Before any advice, what she heard: sounds like it hit harder than you expected. And she closes with an act: shall we rehearse the next one at four?",
+    "id": "Ponsel ditelungkupkan, dan ia membiarkannya selesai. Lalu sesuatu yang jujur tentang dirinya: aku juga membeku di telepon pertamaku. Sebelum memberi saran, apa yang ia dengar: sepertinya itu lebih berat dari yang Mas kira. Dan ia menutup dengan tindakan: mau latihan untuk telepon berikutnya jam empat?"
+   }
+  },
+  {
+   "kind": "stamp",
+   "tone": "gold",
+   "label": {
+    "en": "A habit",
+    "id": "Kebiasaan"
+   },
+   "sub": {
+    "en": "not a secret",
+    "id": "bukan rahasia"
+   },
+   "notes": [
+    {
+     "en": "everyone agrees with the four words.",
+     "id": "semua orang setuju dengan empat kata itu."
+    },
+    {
+     "en": "few practise them in an ordinary week.",
+     "id": "sedikit yang melatihnya di minggu biasa."
+    }
+   ],
+   "card": {
+    "en": "None of this is *new*.",
+    "id": "Tak satu pun dari ini *baru*."
+   },
+   "vtt": {
+    "en": "Everyone agrees with the four words. Few practise them in an ordinary week. So pick one person and one move.",
+    "id": "Semua orang setuju dengan empat kata itu. Sedikit yang melatihnya di minggu biasa. Maka pilih satu orang dan satu langkah."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Ask when you don't follow",
+     "id": "Bertanya saat belum paham"
+    },
+    {
+     "en": "Own a mistake early",
+     "id": "Akui kesalahan lebih awal"
+    },
+    {
+     "en": "Thank who corrected you",
+     "id": "Berterima kasih saat dikoreksi"
+    }
+   ],
+   "note": {
+    "en": "small acts from the junior seat.",
+    "id": "tindakan kecil dari kursi junior."
+   },
+   "card": {
+    "en": "A team learns fastest when people can *speak up*.",
+    "id": "Tim belajar paling cepat ketika orang berani *bersuara*."
+   },
+   "vtt": {
+    "en": "A team learns fastest when people can speak up and admit mistakes. From the junior seat it starts with asking, owning a mistake early, and thanking the person who corrected you.",
+    "id": "Tim belajar paling cepat ketika orang berani bersuara dan mengakui kesalahan. Dari kursi junior, itu dimulai dengan bertanya, mengakui kesalahan lebih awal, dan berterima kasih kepada orang yang mengoreksimu."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "A boundary in three parts",
+    "id": "Batasan dalam tiga bagian"
+   },
+   "old": {
+    "en": "yes to both. somehow.",
+    "id": "iya dua-duanya. entah bagaimana."
+   },
+   "new": [
+    {
+     "en": "I want to do this well.",
+     "id": "saya ingin mengerjakannya dengan baik."
+    },
+    {
+     "en": "the report by Thursday, not the slides.",
+     "id": "laporan Kamis, tapi bukan slidenya."
+    },
+    {
+     "en": "could the slides wait until Monday?",
+     "id": "bolehkah slidenya menunggu Senin?"
+    }
+   ],
+   "card": {
+    "en": "A yes she cannot keep *hurts more* than a limit.",
+    "id": "“Iya” yang tak bisa ia tepati *lebih merusak* daripada batasan."
+   },
+   "vtt": {
+    "en": "On Tuesday her supervisor adds a second task to a full week. A yes she cannot keep will hurt the relationship more than an honest limit. So she states a boundary in three parts: a commitment, a limit and an option.",
+    "id": "Hari Selasa atasannya menambah tugas kedua di minggu yang sudah penuh. “Iya” yang tak bisa ia tepati lebih merusak hubungan daripada batasan yang jujur. Maka ia menyampaikan batasan dalam tiga bagian: komitmen, batas, dan pilihan."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Trust is built in seconds, with one person at a",
+    "id": "Kepercayaan dibangun dalam hitungan detik, satu orang setiap"
+   },
+   "tiles": {
+    "en": "TIME.",
+    "id": "KALI."
+   },
+   "note": {
+    "en": "a boundary stated early protects it.",
+    "id": "batasan yang disampaikan awal menjaganya."
+   },
+   "vtt": {
+    "en": "Trust is built in seconds, with one person at a time. A boundary stated early and kindly protects the relationship.",
+    "id": "Kepercayaan dibangun dalam hitungan detik, satu orang setiap kali. Batasan yang disampaikan lebih awal dan dengan baik melindungi relasi."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: name *one person*, choose *one move*.",
+    "id": "Giliranmu: sebut *satu orang*, pilih *satu langkah*."
+   },
+   "stamp": {
+    "en": "Practise it this week",
+    "id": "Latih minggu ini"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Name one person, and choose one of the four moves to practise with them this week.",
+    "id": "Sekarang giliranmu. Sebut satu orang, lalu pilih satu dari empat langkah itu untuk dilatih bersamanya minggu ini."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

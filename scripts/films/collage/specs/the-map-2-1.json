@@ -1,0 +1,296 @@
+{
+ "id": "map-2-1-your-lens",
+ "lesson": "2.1",
+ "seed": 41,
+ "title": {
+  "en": "*Your lens*: why copied habits fade",
+  "id": "*Cara pandangmu*: kenapa kebiasaan tiruan cepat layu"
+ },
+ "places": {
+  "start": {
+   "en": "Late nights",
+   "id": "Begadang"
+  },
+  "goal": {
+   "en": "Early starts",
+   "id": "Mulai lebih awal"
+  },
+  "sea": {
+   "en": "Three weeks",
+   "id": "Tiga minggu"
+  },
+  "dot": {
+   "en": "2:00 a.m.",
+   "id": "02.00"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Your lens: why copied habits fade.",
+    "id": "Cara pandangmu: kenapa kebiasaan tiruan cepat layu."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "laptop",
+   "label": {
+    "en": "Due at 9:00",
+    "id": "Tenggat 09.00"
+   },
+   "note": {
+    "en": "a report. again.",
+    "id": "laporan. lagi."
+   },
+   "card": {
+    "en": "Two in the morning. Bima is *still typing*.",
+    "id": "Pukul dua pagi. Bima *masih mengetik*."
+   },
+   "vtt": {
+    "en": "It is two in the morning. Bima is finishing a report that is due at nine. Again.",
+    "id": "Pukul dua pagi. Bima sedang menyelesaikan laporan yang tenggatnya pukul sembilan. Lagi."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "A planner",
+      "id": "Buku agenda"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "An app",
+      "id": "Aplikasi"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "An earlier alarm",
+      "id": "Alarm lebih pagi"
+     },
+     "ok": false
+    }
+   ],
+   "note": {
+    "en": "each one lasted about a week.",
+    "id": "masing-masing bertahan seminggu."
+   },
+   "card": {
+    "en": "He has tried *the fixes*.",
+    "id": "Ia sudah mencoba *berbagai cara*."
+   },
+   "vtt": {
+    "en": "He has tried the fixes: a planner, an app, an earlier alarm. Each one lasted about a week.",
+    "id": "Ia sudah mencoba berbagai cara: buku agenda, aplikasi, alarm lebih pagi. Masing-masing bertahan sekitar seminggu."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Practices · what you do",
+      "id": "Praktik · yang kamu lakukan"
+     },
+     "hi": false
+    },
+    {
+     "t": {
+      "en": "Paradigms · the lens you see through",
+      "id": "Paradigma · cara pandangmu"
+     },
+     "hi": true
+    },
+    {
+     "t": {
+      "en": "Principles · true either way",
+      "id": "Prinsip · benar bagaimanapun"
+     },
+     "hi": false
+    }
+   ],
+   "note": {
+    "en": "the problem sits one layer down.",
+    "id": "masalahnya ada satu lapis di bawah."
+   },
+   "card": {
+    "en": "The fixes are practices. Think of *three layers*.",
+    "id": "Cara-cara itu praktik. Bayangkan *tiga lapisan*."
+   },
+   "vtt": {
+    "en": "The fixes fail because they are practices. Think of three layers: practices are what you do, paradigms are the lens you see work through, and principles stay true whether you believe them or not.",
+    "id": "Cara-cara itu gagal karena semuanya praktik. Bayangkan tiga lapisan: praktik adalah yang kamu lakukan, paradigma adalah cara pandangmu terhadap pekerjaan, dan prinsip tetap benar entah kamu percaya atau tidak."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "His lens",
+    "id": "Cara pandangnya"
+   },
+   "sub": {
+    "en": "the paradigm under the habit",
+    "id": "paradigma di balik kebiasaannya"
+   },
+   "notes": [
+    {
+     "en": "“only pressure makes me work.”",
+     "id": "“aku baru bisa kerja kalau kepepet.”"
+    }
+   ],
+   "card": {
+    "en": "So he *audits the lens*.",
+    "id": "Maka ia *memeriksa cara pandangnya*."
+   },
+   "vtt": {
+    "en": "So he audits the lens. What would I have to believe for all-night work to make sense? Only pressure makes me work.",
+    "id": "Maka ia memeriksa cara pandangnya. Apa yang harus kupercaya supaya begadang terasa masuk akal? Aku baru bisa kerja kalau kepepet."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "chart",
+   "label": {
+    "en": "The evidence",
+    "id": "Buktinya"
+   },
+   "tiles": "2",
+   "note": {
+    "en": "best pieces this year: both started early.",
+    "id": "karya terbaik tahun ini: dua-duanya dimulai awal."
+   },
+   "card": {
+    "en": "Then he tests that belief *against evidence*.",
+    "id": "Lalu ia menguji keyakinan itu *dengan bukti*."
+   },
+   "vtt": {
+    "en": "Then he tests that belief against evidence. His two best pieces of work this year were both started early.",
+    "id": "Lalu ia menguji keyakinan itu dengan bukti. Dua karya terbaiknya tahun ini sama-sama dimulai lebih awal."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "A new lens",
+    "id": "Cara pandang baru"
+   },
+   "old": {
+    "en": "only pressure makes me work.",
+    "id": "aku baru bisa kerja kalau kepepet."
+   },
+   "new": [
+    {
+     "en": "a start I schedule beats",
+     "id": "mulai yang kujadwalkan mengalahkan"
+    },
+    {
+     "en": "a deadline I fear.",
+     "id": "tenggat yang kutakuti."
+    }
+   ],
+   "card": {
+    "en": "He *rewrites* it.",
+    "id": "Ia *menulis ulang*."
+   },
+   "vtt": {
+    "en": "A new lens: a start I schedule beats a deadline I fear. The practices follow by themselves.",
+    "id": "Cara pandang baru: mulai yang kujadwalkan mengalahkan tenggat yang kutakuti. Praktiknya menyusul dengan sendirinya."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Directed",
+     "id": "Diarahkan"
+    },
+    {
+     "en": "Self-directed",
+     "id": "Mengarahkan diri"
+    },
+    {
+     "en": "Trusted with others",
+     "id": "Dipercaya memimpin"
+    }
+   ],
+   "note": {
+    "en": "the middle step cannot be skipped.",
+    "id": "langkah tengah tidak bisa dilompati."
+   },
+   "card": {
+    "en": "Growth at work follows *an order*.",
+    "id": "Pertumbuhan di tempat kerja punya *urutan*."
+   },
+   "vtt": {
+    "en": "Growth at work follows an order. You start directed. Then self-directed: you own your responses, your direction and your schedule. Only then are you trusted with others.",
+    "id": "Pertumbuhan di tempat kerja punya urutan. Kamu mulai dengan diarahkan. Lalu mengarahkan diri: kamu memegang tanggapanmu, arahmu, dan jadwalmu. Baru setelah itu kamu dipercaya memimpin orang lain."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "calendar",
+   "label": {
+    "en": "Monday · due Thursday",
+    "id": "Senin · tenggat Kamis"
+   },
+   "tiles": "50%",
+   "note": {
+    "en": "already half done.",
+    "id": "sudah setengah jadi."
+   },
+   "card": {
+    "en": "Three weeks later.",
+    "id": "Tiga minggu kemudian."
+   },
+   "vtt": {
+    "en": "Three weeks later. It is Monday afternoon, the report is due on Thursday, and it is already half done. He did not find a better app. He changed the lens.",
+    "id": "Tiga minggu kemudian. Senin sore, laporan baru jatuh tempo Kamis, dan sudah setengah jadi. Ia tidak menemukan aplikasi yang lebih bagus. Ia mengubah cara pandangnya."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "A changed lens changes many",
+    "id": "Cara pandang yang berubah mengubah banyak"
+   },
+   "tiles": {
+    "en": "HABITS.",
+    "id": "KEBIASAAN."
+   },
+   "note": {
+    "en": "copied habits fade in weeks.",
+    "id": "kebiasaan tiruan layu dalam hitungan minggu."
+   },
+   "vtt": {
+    "en": "Practices copied without their lens fade in weeks. A changed lens changes many practices at once.",
+    "id": "Praktik yang ditiru tanpa cara pandangnya layu dalam hitungan minggu. Cara pandang yang berubah mengubah banyak praktik sekaligus."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: take your *least effective habit* and ask:",
+    "id": "Giliranmu: ambil *kebiasaanmu yang paling tidak efektif* dan tanyakan:"
+   },
+   "stamp": {
+    "en": "What would I have to believe?",
+    "id": "Apa yang harus kupercaya?"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Take your least effective habit and ask: what would I have to believe for this to make sense?",
+    "id": "Sekarang giliranmu. Ambil kebiasaanmu yang paling tidak efektif dan tanyakan: apa yang harus kupercaya supaya ini masuk akal?"
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

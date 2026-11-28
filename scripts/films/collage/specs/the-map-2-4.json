@@ -1,0 +1,266 @@
+{
+ "id": "map-2-4-important-not-urgent",
+ "lesson": "2.4",
+ "seed": 79,
+ "title": {
+  "en": "*Important, not urgent*: defending the work that builds a career",
+  "id": "*Penting, tidak mendesak*: melindungi pekerjaan yang membangun karier"
+ },
+ "places": {
+  "start": {
+   "en": "A busy week",
+   "id": "Minggu yang sibuk"
+  },
+  "goal": {
+   "en": "A defended block",
+   "id": "Blok yang terjaga"
+  },
+  "sea": {
+   "en": "Pings",
+   "id": "Notifikasi"
+  },
+  "dot": {
+   "en": "Friday, 6 p.m.",
+   "id": "Jumat, 18.00"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Important, not urgent: defending the work that builds a career.",
+    "id": "Penting, tidak mendesak: melindungi pekerjaan yang membangun karier."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "phone",
+   "label": {
+    "en": "Every ping answered",
+    "id": "Semua notifikasi dibalas"
+   },
+   "note": {
+    "en": "every meeting joined.",
+    "id": "semua rapat dihadiri."
+   },
+   "card": {
+    "en": "Rani has been busy *all week*.",
+    "id": "Rani sibuk *sepanjang minggu*."
+   },
+   "vtt": {
+    "en": "Friday, six in the evening. Rani has been busy all week. She answered every ping and joined every meeting.",
+    "id": "Jumat, pukul enam sore. Rani sibuk sepanjang minggu. Ia membalas semua notifikasi dan menghadiri semua rapat."
+   }
+  },
+  {
+   "kind": "number",
+   "tiles": "0",
+   "unit": {
+    "en": "hours of certification practice",
+    "id": "jam latihan sertifikasi"
+   },
+   "note": {
+    "en": "important work never taps your shoulder.",
+    "id": "pekerjaan penting tak pernah menepuk bahumu."
+   },
+   "card": {
+    "en": "And nothing that matters *has moved*.",
+    "id": "Dan tak satu pun hal penting *bergerak*."
+   },
+   "vtt": {
+    "en": "And nothing that matters has moved. Her certification practice got zero hours. Urgency is a sensation, not a measure of value.",
+    "id": "Dan tak satu pun hal penting bergerak. Latihan sertifikasinya mendapat nol jam. Mendesak adalah sensasi, bukan ukuran nilai."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "1 · Urgent and important · real deadlines",
+      "id": "1 · Mendesak dan penting · tenggat nyata"
+     },
+     "hi": false
+    },
+    {
+     "t": {
+      "en": "2 · Important, not urgent · careers are built here",
+      "id": "2 · Penting, tidak mendesak · karier dibangun di sini"
+     },
+     "hi": true
+    },
+    {
+     "t": {
+      "en": "3 · Urgent, not important · most pings",
+      "id": "3 · Mendesak, tidak penting · kebanyakan notifikasi"
+     },
+     "hi": false
+    },
+    {
+     "t": {
+      "en": "4 · Neither",
+      "id": "4 · Bukan keduanya"
+     },
+     "hi": false
+    }
+   ],
+   "card": {
+    "en": "Sort any week into *four boxes*.",
+    "id": "Pilah minggu apa pun ke *empat kotak*."
+   },
+   "vtt": {
+    "en": "Sort any week into four boxes. Urgent and important: real deadlines. Important, not urgent: practice, planning, people, health. Careers are built here. Urgent, not important: most pings. And neither.",
+    "id": "Pilah minggu apa pun ke empat kotak. Mendesak dan penting: tenggat nyata. Penting, tidak mendesak: latihan, perencanaan, orang-orang, kesehatan. Karier dibangun di sini. Mendesak, tidak penting: kebanyakan notifikasi. Dan yang bukan keduanya."
+   }
+  },
+  {
+   "kind": "pair",
+   "sign": "→",
+   "a": {
+    "label": {
+     "en": "Box three",
+     "id": "Kotak tiga"
+    },
+    "sub": {
+     "en": "dresses up as box one",
+     "id": "menyamar jadi kotak satu"
+    }
+   },
+   "b": {
+    "label": {
+     "en": "Box two",
+     "id": "Kotak dua"
+    },
+    "sub": {
+     "en": "loses its hours",
+     "id": "kehilangan jamnya"
+    }
+   },
+   "card": {
+    "en": "The trap:",
+    "id": "Jebakannya:"
+   },
+   "vtt": {
+    "en": "The trap: box three dresses up as box one, and eats the hours box two needed.",
+    "id": "Jebakannya: kotak tiga menyamar jadi kotak satu, lalu memakan jam yang dibutuhkan kotak dua."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Review where you are going",
+     "id": "Tinjau arahmu"
+    },
+    {
+     "en": "Block 2–3 important things first",
+     "id": "Kunci 2–3 hal penting dulu"
+    },
+    {
+     "en": "Preview known deadlines",
+     "id": "Lihat tenggat yang sudah pasti"
+    }
+   ],
+   "note": {
+    "en": "twenty minutes, once a week.",
+    "id": "dua puluh menit, seminggu sekali."
+   },
+   "card": {
+    "en": "The defence: a *weekly preview*.",
+    "id": "Pertahanannya: *tinjauan mingguan*."
+   },
+   "vtt": {
+    "en": "The defence is a weekly preview. Twenty minutes, three moves. Review where you are going. Put two or three important blocks in the calendar first. Then preview the known deadlines.",
+    "id": "Pertahanannya adalah tinjauan mingguan. Dua puluh menit, tiga langkah. Tinjau arahmu. Masukkan dua atau tiga blok penting ke kalender lebih dulu. Lalu lihat tenggat yang sudah pasti."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "The graceful no",
+    "id": "“Tidak” yang santun"
+   },
+   "old": {
+    "en": "maybe, let me see…",
+    "id": "mungkin, nanti kulihat ya…"
+   },
+   "new": [
+    {
+     "en": "thank you. I am protecting ___.",
+     "id": "terima kasih. aku sedang menjaga ___."
+    },
+    {
+     "en": "could we do ___ instead?",
+     "id": "bagaimana kalau ___ saja?"
+    }
+   ],
+   "card": {
+    "en": "A calendar block needs a *rehearsed no*.",
+    "id": "Blok di kalender butuh “tidak” yang *sudah dilatih*."
+   },
+   "vtt": {
+    "en": "A calendar block needs one more defence: a rehearsed no, not a fake maybe. A graceful no has three parts: thanks, the reason you are protecting, and an alternative.",
+    "id": "Blok di kalender butuh satu pertahanan lagi: “tidak” yang sudah dilatih, bukan “mungkin” palsu. “Tidak” yang santun punya tiga bagian: terima kasih, alasan yang kamu jaga, dan alternatif."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "calendar",
+   "label": {
+    "en": "Thursday, 7:00 p.m.",
+    "id": "Kamis, 19.00"
+   },
+   "note": {
+    "en": "the pings still arrive. the block holds.",
+    "id": "notifikasi tetap datang. bloknya bertahan."
+   },
+   "card": {
+    "en": "The next week:",
+    "id": "Minggu berikutnya:"
+   },
+   "vtt": {
+    "en": "The next Thursday, seven in the evening. The pings still arrive. The block holds.",
+    "id": "Kamis berikutnya, pukul tujuh malam. Notifikasi tetap datang. Bloknya bertahan."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Every yes is an unpriced",
+    "id": "Setiap “ya” menyimpan satu"
+   },
+   "tiles": {
+    "en": "NO.",
+    "id": "TIDAK."
+   },
+   "note": {
+    "en": "price it before you give it.",
+    "id": "hitung harganya sebelum memberi."
+   },
+   "vtt": {
+    "en": "Every yes is an unpriced no to something else. Price it before you give it.",
+    "id": "Setiap “ya” adalah “tidak” untuk hal lain yang belum dihitung harganya. Hitung dulu sebelum memberi."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: book *twenty minutes* this weekend.",
+    "id": "Giliranmu: jadwalkan *dua puluh menit* akhir pekan ini."
+   },
+   "stamp": {
+    "en": "Your first weekly preview",
+    "id": "Tinjauan mingguan pertamamu"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Book twenty minutes this weekend for your first weekly preview.",
+    "id": "Sekarang giliranmu. Jadwalkan dua puluh menit akhir pekan ini untuk tinjauan mingguan pertamamu."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

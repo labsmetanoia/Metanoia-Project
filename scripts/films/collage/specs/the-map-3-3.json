@@ -1,0 +1,322 @@
+{
+ "id": "map-3-3-a-goal-you-can-count",
+ "lesson": "3.3",
+ "seed": 101,
+ "title": {
+  "en": "A goal you can *count*: gaps and good decisions",
+  "id": "Tujuan yang bisa *dihitung*: kesenjangan dan keputusan yang baik"
+ },
+ "places": {
+  "start": {
+   "en": "Wishes",
+   "id": "Angan-angan"
+  },
+  "goal": {
+   "en": "A scholarship abroad",
+   "id": "Beasiswa luar negeri"
+  },
+  "sea": {
+   "en": "Until 1 March",
+   "id": "Sampai 1 Maret"
+  },
+  "dot": {
+   "en": "Her wall",
+   "id": "Dindingnya"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "A goal you can count: gaps and good decisions.",
+    "id": "Tujuan yang bisa dihitung: kesenjangan dan keputusan yang baik."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "note",
+   "label": {
+    "en": "On her wall",
+    "id": "Di dindingnya"
+   },
+   "note": {
+    "en": "“improve my English.”",
+    "id": "“memperbaiki bahasa Inggrisku.”"
+   },
+   "card": {
+    "en": "Dewi wants a scholarship abroad. Her plan is *one line*.",
+    "id": "Dewi ingin beasiswa ke luar negeri. Rencananya *satu baris*."
+   },
+   "vtt": {
+    "en": "Dewi wants a scholarship abroad. On her wall there is one line: improve my English.",
+    "id": "Dewi ingin beasiswa ke luar negeri. Di dindingnya ada satu baris: memperbaiki bahasa Inggrisku."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "A wish",
+    "id": "Angan"
+   },
+   "sub": {
+    "en": "no gap to calculate",
+    "id": "tak ada kesenjangan yang bisa dihitung"
+   },
+   "notes": [
+    {
+     "en": "what? by when? on what conditions?",
+     "id": "apa? kapan? dengan syarat apa?"
+    }
+   ],
+   "card": {
+    "en": "You cannot calculate a gap for *a wish*.",
+    "id": "Kamu tidak bisa menghitung kesenjangan dari *sebuah angan*."
+   },
+   "vtt": {
+    "en": "That is a wish. You cannot calculate a gap for a wish.",
+    "id": "Itu angan. Kamu tidak bisa menghitung kesenjangan dari sebuah angan."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "What · a score of 6.5",
+     "id": "Apa · skor 6,5"
+    },
+    {
+     "en": "By when · 1 March",
+     "id": "Kapan · 1 Maret"
+    },
+    {
+     "en": "Conditions · keep her job",
+     "id": "Syarat · tetap bekerja"
+    }
+   ],
+   "note": {
+    "en": "a solid goal has three parts.",
+    "id": "tujuan yang kokoh punya tiga bagian."
+   },
+   "card": {
+    "en": "So she makes it *solid*.",
+    "id": "Maka ia membuatnya *kokoh*."
+   },
+   "vtt": {
+    "en": "A solid goal has three parts. What: a language test score of 6.5. By when: the first of March. And under which conditions: without leaving her part-time job.",
+    "id": "Tujuan yang kokoh punya tiga bagian. Apa: skor tes bahasa 6,5. Kapan: tanggal satu Maret. Dan dengan syarat apa: tanpa meninggalkan kerja paruh waktunya."
+   }
+  },
+  {
+   "kind": "number",
+   "tiles": "0.6",
+   "unit": {
+    "en": "the gap · 6.5 minus 5.9",
+    "id": "kesenjangannya · 6,5 dikurangi 5,9"
+   },
+   "note": {
+    "en": "today 5.5. at this pace, 5.9.",
+    "id": "hari ini 5,5. dengan laju ini, 5,9."
+   },
+   "card": {
+    "en": "Now the gap is *a number*.",
+    "id": "Sekarang kesenjangannya *sebuah angka*."
+   },
+   "vtt": {
+    "en": "Now the gap is a number. Today she scores 5.5. At her current pace she reaches 5.9. The gap is 0.6.",
+    "id": "Sekarang kesenjangannya sebuah angka. Hari ini skornya 5,5. Dengan lajunya sekarang ia mencapai 5,9. Kesenjangannya 0,6."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "I can close the gap by 1 March",
+      "id": "Aku bisa menutup kesenjangan sebelum 1 Maret"
+     },
+     "hi": true
+    },
+    {
+     "t": {
+      "en": "Writing · holds",
+      "id": "Menulis · terbukti"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "Listening · holds",
+      "id": "Menyimak · terbukti"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "Speaking · no progress alone",
+      "id": "Berbicara · tak maju kalau sendirian"
+     },
+     "ok": false
+    }
+   ],
+   "note": {
+    "en": "two timed tests check each reason.",
+    "id": "dua tes berwaktu menguji tiap alasan."
+   },
+   "card": {
+    "en": "She stacks her plan as a *pyramid of reasons*.",
+    "id": "Ia menyusun rencananya sebagai *piramida alasan*."
+   },
+   "vtt": {
+    "en": "She stacks her plan as a pyramid. On top, the conclusion: I can close the gap by the first of March. Underneath, the reasons: writing, listening, speaking. Writing and listening hold. Speaking does not improve when she practises alone.",
+    "id": "Ia menyusun rencananya sebagai piramida. Di puncak, kesimpulannya: aku bisa menutup kesenjangan sebelum satu Maret. Di bawahnya, alasan-alasannya: menulis, menyimak, berbicara. Menulis dan menyimak terbukti. Berbicara tidak maju kalau ia berlatih sendirian."
+   }
+  },
+  {
+   "kind": "stamp",
+   "tone": "gold",
+   "label": {
+    "en": "A speaking partner",
+    "id": "Teman berlatih bicara"
+   },
+   "sub": {
+    "en": "the missing reason",
+    "id": "alasan yang belum ada"
+   },
+   "notes": [
+    {
+     "en": "if the reasons do not add up,",
+     "id": "kalau alasannya belum genap,"
+    },
+    {
+     "en": "there is no plan yet.",
+     "id": "rencananya belum ada."
+    }
+   ],
+   "card": {
+    "en": "One reason *fails*.",
+    "id": "Satu alasan *gagal*."
+   },
+   "vtt": {
+    "en": "If the reasons do not add up, there is no plan yet. She needs a speaking partner.",
+    "id": "Kalau alasan-alasannya belum genap, rencananya belum ada. Ia butuh teman berlatih bicara."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Speaking practice · weight 3",
+      "id": "Latihan bicara · bobot 3"
+     },
+     "hi": true
+    },
+    {
+     "t": {
+      "en": "Fits her work hours · weight 2",
+      "id": "Cocok dengan jam kerjanya · bobot 2"
+     },
+     "hi": false
+    },
+    {
+     "t": {
+      "en": "Cost · weight 1",
+      "id": "Biaya · bobot 1"
+     },
+     "hi": false
+    }
+   ],
+   "note": {
+    "en": "criteria come from the goal.",
+    "id": "kriteria datang dari tujuannya."
+   },
+   "card": {
+    "en": "Two options. Weigh them *against the goal*.",
+    "id": "Dua pilihan. Timbang *terhadap tujuannya*."
+   },
+   "vtt": {
+    "en": "For speaking she has two options. A plain list of pros and cons would favour the cheaper course. So she lists criteria that come from the goal, and gives them weights.",
+    "id": "Untuk berbicara ia punya dua pilihan. Daftar untung-rugi biasa akan memenangkan kursus yang lebih murah. Maka ia mendaftar kriteria yang datang dari tujuannya, lalu memberinya bobot."
+   }
+  },
+  {
+   "kind": "number",
+   "tiles": "16–11",
+   "unit": {
+    "en": "online tutor against the cheaper course",
+    "id": "tutor daring melawan kursus yang lebih murah"
+   },
+   "note": {
+    "en": "weighted, the tutor wins.",
+    "id": "setelah dibobot, tutor menang."
+   },
+   "card": {
+    "en": "The weights *change the answer*.",
+    "id": "Bobotnya *mengubah jawabannya*."
+   },
+   "vtt": {
+    "en": "Weighted, the online tutor wins: sixteen to eleven.",
+    "id": "Setelah dibobot, tutor daring menang: enam belas lawan sebelas."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "people",
+   "label": {
+    "en": "A senior who won it",
+    "id": "Senior yang pernah lolos"
+   },
+   "note": {
+    "en": "“the interview matters as much as the score.”",
+    "id": "“wawancara sama pentingnya dengan skor.”"
+   },
+   "card": {
+    "en": "Before she commits, she *challenges her conclusion*.",
+    "id": "Sebelum memutuskan, ia *menguji kesimpulannya*."
+   },
+   "vtt": {
+    "en": "Before she commits, she challenges her own conclusion. She asks a senior who won the same scholarship. One conversation gives her a fact that a week of worrying never did.",
+    "id": "Sebelum memutuskan, ia menguji kesimpulannya sendiri. Ia bertanya kepada senior yang pernah lolos beasiswa yang sama. Satu percakapan memberinya fakta yang tidak ia dapat dari seminggu cemas."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "A goal without a gap you can count is a",
+    "id": "Tujuan tanpa kesenjangan yang bisa dihitung hanyalah"
+   },
+   "tiles": {
+    "en": "WISH.",
+    "id": "ANGAN."
+   },
+   "note": {
+    "en": "weights come from the criteria.",
+    "id": "bobot datang dari kriteria."
+   },
+   "vtt": {
+    "en": "A goal without a gap you can count is a wish. Criteria come from the goal. Weights come from the criteria.",
+    "id": "Tujuan tanpa kesenjangan yang bisa dihitung hanyalah angan. Kriteria datang dari tujuan. Bobot datang dari kriteria."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: write *one goal*: what, by when, conditions.",
+    "id": "Giliranmu: tulis *satu tujuan*: apa, kapan, syaratnya."
+   },
+   "stamp": {
+    "en": "Then calculate the gap",
+    "id": "Lalu hitung kesenjangannya"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Write one goal with what, by when and conditions. Then calculate the gap.",
+    "id": "Sekarang giliranmu. Tulis satu tujuan lengkap dengan apa, kapan, dan syaratnya. Lalu hitung kesenjangannya."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

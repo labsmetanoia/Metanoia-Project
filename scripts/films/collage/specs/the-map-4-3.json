@@ -1,0 +1,301 @@
+{
+ "id": "map-4-3-three-hard-messages",
+ "lesson": "4.3",
+ "seed": 109,
+ "title": {
+  "en": "*Three hard messages*: a cold email, an interruption, a disagreement",
+  "id": "*Tiga pesan yang sulit*: email perkenalan, interupsi, ketidaksetujuan"
+ },
+ "places": {
+  "start": {
+   "en": "Messages people avoid",
+   "id": "Pesan yang dihindari orang"
+  },
+  "goal": {
+   "en": "Messages that land",
+   "id": "Pesan yang sampai"
+  },
+  "sea": {
+   "en": "Start from them",
+   "id": "Mulai dari mereka"
+  },
+  "dot": {
+   "en": "Draft one",
+   "id": "Draf pertama"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Three hard messages: a cold email, an interruption, a disagreement.",
+    "id": "Tiga pesan yang sulit: email perkenalan, interupsi, ketidaksetujuan."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "envelope",
+   "label": {
+    "en": "1 · The cold email",
+    "id": "1 · Email perkenalan"
+   },
+   "note": {
+    "en": "to an alumna he has never met.",
+    "id": "untuk alumni yang belum pernah ia temui."
+   },
+   "card": {
+    "en": "Three messages most people *avoid*.",
+    "id": "Tiga pesan yang *dihindari* kebanyakan orang."
+   },
+   "vtt": {
+    "en": "First, the cold email. Bagas writes to an alumna he has never met.",
+    "id": "Pertama, email perkenalan. Bagas menulis kepada alumni yang belum pernah ia temui."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "Line one",
+    "id": "Baris pertama"
+   },
+   "old": {
+    "en": "let me introduce myself…",
+    "id": "perkenalkan, nama saya…"
+   },
+   "new": [
+    {
+     "en": "I read your talk on route planning.",
+     "id": "saya membaca paparan Ibu soal rute."
+    },
+    {
+     "en": "two questions, fifteen minutes?",
+     "id": "dua pertanyaan, lima belas menit?"
+    }
+   ],
+   "card": {
+    "en": "The first line has one job: *earn the second*.",
+    "id": "Baris pertama punya satu tugas: *membuat baris kedua dibaca*."
+   },
+   "vtt": {
+    "en": "His first draft talks about himself, and asks for sometime. The second draft shows his homework in line one. The first line has one job: to earn the second line.",
+    "id": "Draf pertamanya bercerita tentang dirinya dan meminta waktu kapan-kapan. Draf kedua menunjukkan riset kecilnya di baris pertama. Baris pertama punya satu tugas: membuat baris kedua dibaca."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Small",
+      "id": "Kecil"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "Specific",
+      "id": "Spesifik"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "Time-boxed",
+      "id": "Berbatas waktu"
+     },
+     "ok": true
+    }
+   ],
+   "note": {
+    "en": "an ask people can say yes to.",
+    "id": "permintaan yang mudah diiyakan."
+   },
+   "card": {
+    "en": "And *the ask*:",
+    "id": "Dan *permintaannya*:"
+   },
+   "vtt": {
+    "en": "And the ask is small, specific and time-boxed.",
+    "id": "Dan permintaannya kecil, spesifik, dan berbatas waktu."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "chat",
+   "label": {
+    "en": "2 · The interruption",
+    "id": "2 · Interupsi"
+   },
+   "note": {
+    "en": "“wait, what is the bottom line?”",
+    "id": "“sebentar, intinya apa?”"
+   },
+   "card": {
+    "en": "Thirty seconds in, his lead *cuts in*.",
+    "id": "Baru tiga puluh detik, atasannya *memotong*."
+   },
+   "vtt": {
+    "en": "Second, the interruption. Bagas is thirty seconds into his update when his lead cuts in: wait, what is the bottom line?",
+    "id": "Kedua, interupsi. Bagas baru tiga puluh detik menyampaikan kabar ketika atasannya memotong: sebentar, intinya apa?"
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "Navigation",
+    "id": "Navigasi"
+   },
+   "sub": {
+    "en": "not attack",
+    "id": "bukan serangan"
+   },
+   "notes": [
+    {
+     "en": "answer in one sentence.",
+     "id": "jawab dalam satu kalimat."
+    },
+    {
+     "en": "“shall I go into the detail?”",
+     "id": "“perlu saya jelaskan rinciannya?”"
+    }
+   ],
+   "card": {
+    "en": "It is a request for *a different altitude*.",
+    "id": "Itu permintaan untuk *ketinggian yang berbeda*."
+   },
+   "vtt": {
+    "en": "It is not an attack. It is a request for a different altitude. He answers in one sentence, then asks: shall I go into the detail?",
+    "id": "Itu bukan serangan. Itu permintaan untuk ketinggian yang berbeda. Ia menjawab dalam satu kalimat, lalu bertanya: perlu saya jelaskan rinciannya?"
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "3 · Disagreeing upward",
+    "id": "3 · Tidak setuju dengan atasan"
+   },
+   "old": {
+    "en": "that plan is wrong.",
+    "id": "rencana itu keliru."
+   },
+   "new": [
+    {
+     "en": "here is the data. one option is ___.",
+     "id": "ini datanya. satu pilihan adalah ___."
+    },
+    {
+     "en": "what am I missing?",
+     "id": "apa yang saya lewatkan?"
+    }
+   ],
+   "card": {
+    "en": "Said aloud, the first version *defends his ego*.",
+    "id": "Kalau diucapkan, versi pertama *membela egonya*."
+   },
+   "vtt": {
+    "en": "Third, disagreeing upward. His lead wants to spend the whole budget on one channel. Bagas thinks: that plan is wrong. Said aloud, that sentence defends his ego, not the decision.",
+    "id": "Ketiga, tidak setuju dengan atasan. Atasannya ingin menghabiskan seluruh anggaran di satu kanal. Bagas berpikir: rencana itu keliru. Kalau diucapkan, kalimat itu membela egonya, bukan keputusannya."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "The data",
+     "id": "Datanya"
+    },
+    {
+     "en": "An option",
+     "id": "Satu pilihan"
+    },
+    {
+     "en": "A real question",
+     "id": "Pertanyaan sungguhan"
+    }
+   ],
+   "note": {
+    "en": "protect the decision, not your ego.",
+    "id": "lindungi keputusannya, bukan egomu."
+   },
+   "card": {
+    "en": "A disagreement *lands* with three things.",
+    "id": "Ketidaksetujuan *sampai* dengan tiga hal."
+   },
+   "vtt": {
+    "en": "So he shares the data, names an option, and asks a real question: what am I missing?",
+    "id": "Maka ia membagikan datanya, menyebut satu pilihan, dan mengajukan pertanyaan sungguhan: apa yang saya lewatkan?"
+   }
+  },
+  {
+   "kind": "pair",
+   "sign": "→",
+   "a": {
+    "label": {
+     "en": "From you",
+     "id": "Dari dirimu"
+    },
+    "sub": {
+     "en": "what I want to say",
+     "id": "yang ingin kukatakan"
+    }
+   },
+   "b": {
+    "label": {
+     "en": "From them",
+     "id": "Dari mereka"
+    },
+    "sub": {
+     "en": "what they need to decide",
+     "id": "yang perlu mereka putuskan"
+    }
+   },
+   "card": {
+    "en": "What the three have *in common*:",
+    "id": "*Kesamaan* ketiganya:"
+   },
+   "vtt": {
+    "en": "Put the three side by side. Each one starts from the other person, not from you.",
+    "id": "Jajarkan ketiganya. Masing-masing dimulai dari lawan bicaramu, bukan dari dirimu."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Every hard message starts from",
+    "id": "Setiap pesan sulit dimulai dari"
+   },
+   "tiles": {
+    "en": "THEM.",
+    "id": "MEREKA."
+   },
+   "note": {
+    "en": "the first line must earn the second.",
+    "id": "baris pertama membuat baris kedua dibaca."
+   },
+   "vtt": {
+    "en": "The first line must earn the second. Disagree to protect the decision, not your ego.",
+    "id": "Baris pertama harus membuat baris kedua dibaca. Berbeda pendapatlah demi keputusannya, bukan demi egomu."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: draft *your own version* of each message.",
+    "id": "Giliranmu: tulis *versimu sendiri* untuk tiap pesan."
+   },
+   "stamp": {
+    "en": "Before you open the debriefs",
+    "id": "Sebelum membuka pembahasan"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Draft your own version of each message before you open the debriefs below.",
+    "id": "Sekarang giliranmu. Tulis versimu sendiri untuk tiap pesan sebelum membuka pembahasan di bawah."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

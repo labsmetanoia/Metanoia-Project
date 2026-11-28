@@ -1,0 +1,255 @@
+{
+ "id": "map-4-1-the-point-first",
+ "lesson": "4.1",
+ "seed": 103,
+ "title": {
+  "en": "*The point first*: five ways a message fails",
+  "id": "*Intinya dulu*: lima cara sebuah pesan gagal"
+ },
+ "places": {
+  "start": {
+   "en": "What you meant",
+   "id": "Yang kamu maksud"
+  },
+  "goal": {
+   "en": "What they understood",
+   "id": "Yang mereka pahami"
+  },
+  "sea": {
+   "en": "Three hundred words",
+   "id": "Tiga ratus kata"
+  },
+  "dot": {
+   "en": "Sent",
+   "id": "Terkirim"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "The point first: five ways a message fails.",
+    "id": "Intinya dulu: lima cara sebuah pesan gagal."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "envelope",
+   "label": {
+    "en": "An update to his manager",
+    "id": "Kabar untuk manajernya"
+   },
+   "tiles": "300",
+   "note": {
+    "en": "words. in the order things happened.",
+    "id": "kata. urut sesuai kejadian."
+   },
+   "card": {
+    "en": "Fajar sends a *careful* update.",
+    "id": "Fajar mengirim kabar yang *teliti*."
+   },
+   "vtt": {
+    "en": "Fajar sends his manager a careful update: three hundred words, in the order things happened.",
+    "id": "Fajar mengirim kabar yang teliti kepada manajernya: tiga ratus kata, urut sesuai kejadian."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "chat",
+   "label": {
+    "en": "Her reply",
+    "id": "Balasannya"
+   },
+   "note": {
+    "en": "“so, are we on track?”",
+    "id": "“jadi, kita sesuai jadwal?”"
+   },
+   "card": {
+    "en": "She reads *two lines*.",
+    "id": "Ia membaca *dua baris*."
+   },
+   "vtt": {
+    "en": "She reads two lines and replies: so, are we on track?",
+    "id": "Ia membaca dua baris lalu membalas: jadi, kita sesuai jadwal?"
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "What they understood",
+    "id": "Yang mereka pahami"
+   },
+   "sub": {
+    "en": "is what you communicated",
+    "id": "itulah yang kamu sampaikan"
+   },
+   "notes": [
+    {
+     "en": "not what you meant.",
+     "id": "bukan yang kamu maksud."
+    },
+    {
+     "en": "not what you typed.",
+     "id": "bukan yang kamu ketik."
+    }
+   ],
+   "card": {
+    "en": "One rule for *every* message:",
+    "id": "Satu aturan untuk *setiap* pesan:"
+   },
+   "vtt": {
+    "en": "What she understood is what he communicated.",
+    "id": "Yang ia pahami, itulah yang Fajar sampaikan."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Burying the lead · the point arrives last",
+      "id": "Mengubur inti · intinya datang terakhir"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "Curse of knowledge · you skip their steps",
+      "id": "Kutukan pengetahuan · langkah mereka terlewat"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "Wrong altitude · detail, or too little",
+      "id": "Salah ketinggian · terlalu rinci, atau kurang"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "Monologue · never checking what landed",
+      "id": "Monolog · tak pernah mengecek yang sampai"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "Stakes freeze · never rehearsed",
+      "id": "Kaku saat genting · tak pernah dilatih"
+     },
+     "ok": false
+    }
+   ],
+   "card": {
+    "en": "A message can fail in *five ways*.",
+    "id": "Sebuah pesan bisa gagal dengan *lima cara*."
+   },
+   "vtt": {
+    "en": "A message can fail in five ways. Burying the lead. The curse of knowledge. Wrong altitude. Monologue. And stakes freeze: fluent with friends, rigid when it matters.",
+    "id": "Sebuah pesan bisa gagal dengan lima cara. Mengubur inti. Kutukan pengetahuan. Salah ketinggian. Monolog. Dan kaku saat genting: lancar dengan teman, kaku ketika penting."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "The same update, point first",
+    "id": "Kabar yang sama, intinya dulu"
+   },
+   "old": {
+    "en": "first we did this, then this, then…",
+    "id": "pertama kami begini, lalu begini, lalu…"
+   },
+   "new": [
+    {
+     "en": "we are two days behind.",
+     "id": "kami tertinggal dua hari."
+    },
+    {
+     "en": "reason: the supplier slipped.",
+     "id": "sebabnya: pemasok terlambat."
+    },
+    {
+     "en": "I need: overtime, yes or no?",
+     "id": "saya butuh: lembur, ya atau tidak?"
+    }
+   ],
+   "card": {
+    "en": "People want the point first, the *journey second*.",
+    "id": "Orang ingin intinya dulu, *perjalanannya kemudian*."
+   },
+   "vtt": {
+    "en": "At work, people want the point first and the journey second. So he rewrites it. The point, the reason, and the decision he needs from her.",
+    "id": "Di tempat kerja, orang ingin intinya dulu dan perjalanannya kemudian. Maka ia menulis ulang. Intinya, sebabnya, dan keputusan yang ia butuhkan."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Point in the first sentence?",
+     "id": "Inti di kalimat pertama?"
+    },
+    {
+     "en": "Could an outsider follow it?",
+     "id": "Orang luar bisa mengikutinya?"
+    },
+    {
+     "en": "Did I check what landed?",
+     "id": "Sudah kucek yang sampai?"
+    }
+   ],
+   "note": {
+    "en": "audit one message you sent.",
+    "id": "periksa satu pesan yang kamu kirim."
+   },
+   "card": {
+    "en": "Three questions for *any* message.",
+    "id": "Tiga pertanyaan untuk pesan *apa pun*."
+   },
+   "vtt": {
+    "en": "You can audit any message with three questions. Does the first sentence carry the point? Could a smart outsider follow it without your context? And did you ask anything that checked what they understood?",
+    "id": "Kamu bisa memeriksa pesan apa pun dengan tiga pertanyaan. Apakah kalimat pertama memuat intinya? Bisakah orang luar yang cerdas mengikutinya tanpa konteksmu? Dan apakah kamu bertanya untuk mengecek apa yang mereka pahami?"
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "What they understood is what you",
+    "id": "Yang mereka pahami adalah yang kamu"
+   },
+   "tiles": {
+    "en": "SAID.",
+    "id": "KATAKAN."
+   },
+   "note": {
+    "en": "point first. journey second.",
+    "id": "intinya dulu. perjalanannya kemudian."
+   },
+   "vtt": {
+    "en": "What they understood is what you communicated. Put the point first, the journey second.",
+    "id": "Yang mereka pahami adalah yang kamu sampaikan. Taruh intinya dulu, perjalanannya kemudian."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: take the *last important message* you sent.",
+    "id": "Giliranmu: ambil *pesan penting terakhir* yang kamu kirim."
+   },
+   "stamp": {
+    "en": "Score it against the five",
+    "id": "Nilai dengan lima cara tadi"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Take the last important message you sent and score it against the five challenges.",
+    "id": "Sekarang giliranmu. Ambil pesan penting terakhir yang kamu kirim dan nilai dengan lima tantangan tadi."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

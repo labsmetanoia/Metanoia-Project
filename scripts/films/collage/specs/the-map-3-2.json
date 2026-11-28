@@ -1,0 +1,317 @@
+{
+ "id": "map-3-2-diagnose-first",
+ "lesson": "3.2",
+ "seed": 97,
+ "title": {
+  "en": "*Diagnose first*: root causes and action plans",
+  "id": "*Diagnosis dulu*: akar masalah dan rencana tindakan"
+ },
+ "places": {
+  "start": {
+   "en": "A cure in a hurry",
+   "id": "Obat terburu-buru"
+  },
+  "goal": {
+   "en": "A plan with dates",
+   "id": "Rencana bertanggal"
+  },
+  "sea": {
+   "en": "One week of counting",
+   "id": "Seminggu menghitung"
+  },
+  "dot": {
+   "en": "The cart",
+   "id": "Gerobak"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Diagnose first: root causes and action plans.",
+    "id": "Diagnosis dulu: akar masalah dan rencana tindakan."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "cup",
+   "label": {
+    "en": "Iced coffee, near campus",
+    "id": "Es kopi, dekat kampus"
+   },
+   "note": {
+    "en": "sales are down.",
+    "id": "penjualan turun."
+   },
+   "card": {
+    "en": "Arga already has a cure: *a discount*.",
+    "id": "Arga sudah punya obatnya: *diskon*."
+   },
+   "vtt": {
+    "en": "Arga sells iced coffee from a cart near campus. Sales are down, and he already has a cure: a discount.",
+    "id": "Arga berjualan es kopi dengan gerobak di dekat kampus. Penjualan turun, dan ia sudah punya obatnya: diskon."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "The diagnosis?",
+    "id": "Diagnosisnya?"
+   },
+   "sub": {
+    "en": "his friend asks first",
+    "id": "temannya bertanya dulu"
+   },
+   "notes": [
+    {
+     "en": "a cure for the wrong cause",
+     "id": "obat untuk penyebab yang salah"
+    },
+    {
+     "en": "is not a cure.",
+     "id": "bukanlah obat."
+    }
+   ],
+   "card": {
+    "en": "One question *first*:",
+    "id": "Satu pertanyaan *lebih dulu*:"
+   },
+   "vtt": {
+    "en": "His friend asks one question first. What is the diagnosis? A cure for the wrong cause is not a cure.",
+    "id": "Temannya mengajukan satu pertanyaan lebih dulu. Apa diagnosisnya? Obat untuk penyebab yang salah bukanlah obat."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "A guess that data can kill",
+    "id": "Dugaan yang bisa dipatahkan data"
+   },
+   "old": {
+    "en": "people think it is too expensive.",
+    "id": "orang merasa harganya kemahalan."
+   },
+   "new": [
+    {
+     "en": "6 in 10 buyers never return,",
+     "id": "6 dari 10 pembeli tak kembali,"
+    },
+    {
+     "en": "because of the price.",
+     "id": "karena harganya."
+    }
+   ],
+   "card": {
+    "en": "A feeling cannot be tested. A *hypothesis* can.",
+    "id": "Perasaan tidak bisa diuji. *Hipotesis* bisa."
+   },
+   "vtt": {
+    "en": "He starts with a feeling: people think my coffee is too expensive. A feeling cannot be tested. So he writes a hypothesis with a number in it.",
+    "id": "Ia mulai dari perasaan: orang merasa kopiku kemahalan. Perasaan tidak bisa diuji. Maka ia menulis hipotesis yang memuat angka."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "1,200 walk past",
+      "id": "1.200 lewat"
+     },
+     "hi": false
+    },
+    {
+     "t": {
+      "en": "300 notice the cart",
+      "id": "300 melihat gerobaknya"
+     },
+     "hi": true
+    },
+    {
+     "t": {
+      "en": "180 buy",
+      "id": "180 membeli"
+     },
+     "hi": false
+    },
+    {
+     "t": {
+      "en": "120 come back",
+      "id": "120 kembali"
+     },
+     "hi": false
+    }
+   ],
+   "note": {
+    "en": "one week of counting.",
+    "id": "seminggu menghitung."
+   },
+   "card": {
+    "en": "Before changing anything, he *counts*.",
+    "id": "Sebelum mengubah apa pun, ia *menghitung*."
+   },
+   "vtt": {
+    "en": "Before changing anything, he counts for one week. Twelve hundred people walk past the cart. Only three hundred notice it. One hundred and eighty buy, and one hundred and twenty of them come back.",
+    "id": "Sebelum mengubah apa pun, ia menghitung selama seminggu. Seribu dua ratus orang lewat di depan gerobak. Hanya tiga ratus yang melihatnya. Seratus delapan puluh membeli, dan seratus dua puluh di antaranya kembali."
+   }
+  },
+  {
+   "kind": "number",
+   "tiles": "2/3",
+   "unit": {
+    "en": "of buyers come back",
+    "id": "pembeli kembali lagi"
+   },
+   "note": {
+    "en": "his guess was wrong.",
+    "id": "dugaannya keliru."
+   },
+   "card": {
+    "en": "The data *kills the guess*.",
+    "id": "Data *mematahkan dugaannya*."
+   },
+   "vtt": {
+    "en": "His guess was wrong. Two in three buyers return.",
+    "id": "Dugaannya keliru. Dua dari tiga pembeli kembali."
+   }
+  },
+  {
+   "kind": "stamp",
+   "tone": "gold",
+   "label": {
+    "en": "The leak is earlier",
+    "id": "Bocornya lebih awal"
+   },
+   "sub": {
+    "en": "the root cause",
+    "id": "akar penyebabnya"
+   },
+   "notes": [
+    {
+     "en": "most people never notice the cart.",
+     "id": "kebanyakan orang tak pernah melihat gerobaknya."
+    }
+   ],
+   "card": {
+    "en": "So where is the *real* problem?",
+    "id": "Jadi di mana masalah *sebenarnya*?"
+   },
+   "vtt": {
+    "en": "The leak is earlier: most people never notice the cart.",
+    "id": "Bocornya lebih awal: kebanyakan orang tak pernah melihat gerobaknya."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "A tall sign · high impact, easy",
+      "id": "Papan tinggi · dampak besar, mudah"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "A brighter canopy · high impact, easy",
+      "id": "Kanopi lebih terang · dampak besar, mudah"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "Move to the main gate · bigger, but hard",
+      "id": "Pindah ke gerbang utama · lebih besar, tapi sulit"
+     },
+     "hi": false
+    }
+   ],
+   "note": {
+    "en": "the rest can wait.",
+    "id": "sisanya bisa menunggu."
+   },
+   "card": {
+    "en": "Many ideas. Then *impact × ease*.",
+    "id": "Banyak ide. Lalu *dampak × kemudahan*."
+   },
+   "vtt": {
+    "en": "Now he lists ideas, and sorts them by impact and ease. A tall sign and a brighter canopy: high impact, easy. First. Moving to the main gate would help more, but it is hard.",
+    "id": "Sekarang ia mendaftar ide, lalu memilahnya menurut dampak dan kemudahan. Papan tinggi dan kanopi lebih terang: dampak besar, mudah. Dahulukan. Pindah ke gerbang utama lebih membantu, tapi sulit."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "The sign · Arga · by Saturday",
+      "id": "Papan · Arga · paling lambat Sabtu"
+     }
+    },
+    {
+     "t": {
+      "en": "The canopy · Arga · by Monday",
+      "id": "Kanopi · Arga · paling lambat Senin"
+     }
+    },
+    {
+     "t": {
+      "en": "Count again · in two weeks",
+      "id": "Hitung lagi · dua minggu lagi"
+     }
+    }
+   ],
+   "note": {
+    "en": "no owner, no date: only a wish.",
+    "id": "tanpa pemilik dan tanggal: hanya angan."
+   },
+   "card": {
+    "en": "A plan has *owners and dates*.",
+    "id": "Rencana punya *pemilik dan tanggal*."
+   },
+   "vtt": {
+    "en": "Then every action gets an owner and a date. The sign, by Saturday. The canopy, by Monday. And in two weeks he counts again. A plan without owners and dates is only a wish.",
+    "id": "Lalu setiap tindakan diberi pemilik dan tanggal. Papan, paling lambat Sabtu. Kanopi, paling lambat Senin. Dan dua minggu lagi ia menghitung ulang. Rencana tanpa pemilik dan tanggal hanyalah angan."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Symptom, diagnosis, prescription. In that",
+    "id": "Gejala, diagnosis, resep. Sesuai"
+   },
+   "tiles": {
+    "en": "ORDER.",
+    "id": "URUTAN."
+   },
+   "note": {
+    "en": "write your guess with a number.",
+    "id": "tulis dugaanmu dengan angka."
+   },
+   "vtt": {
+    "en": "Symptom, diagnosis, prescription. In that order. Write your guess with a number, so data can kill it.",
+    "id": "Gejala, diagnosis, resep. Sesuai urutan itu. Tulis dugaanmu dengan angka, supaya data bisa mematahkannya."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: pick *one problem* you are about to fix.",
+    "id": "Giliranmu: pilih *satu masalah* yang hendak kamu perbaiki."
+   },
+   "stamp": {
+    "en": "Hypothesis first, with a number",
+    "id": "Hipotesis dulu, dengan angka"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Pick one problem you are about to fix. Write your hypothesis with a number before you act.",
+    "id": "Sekarang giliranmu. Pilih satu masalah yang hendak kamu perbaiki. Tulis hipotesismu dengan angka sebelum bertindak."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

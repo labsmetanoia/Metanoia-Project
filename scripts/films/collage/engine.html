@@ -1,0 +1,275 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Lesson films, collage style: a lesson told as a journey across a paper map.
+     Everything on screen is drawn here from the spec. No footage, no photographs, no third-party artwork.
+     window.film.load(spec, lang) builds the film; window.film.seek(seconds) draws one moment of it. -->
+<style>
+@font-face{font-family:"Playfair";font-weight:600;src:url("../../../prototype/assets/fonts/playfair-display-600-normal-latin.woff2")}
+@font-face{font-family:"Playfair";font-weight:700;src:url("../../../prototype/assets/fonts/playfair-display-700-normal-latin.woff2")}
+@font-face{font-family:"Caveat";font-weight:600;src:url("../../../prototype/assets/fonts/caveat-600-normal-latin.woff2")}
+@font-face{font-family:"RobotoC";font-weight:100 900;src:url("../../../prototype/assets/fonts/roboto-condensed-100-900-normal-latin.woff2")}
+:root{--paper:#ECE7DC;--ink:#1D1B18;--gold:#D6A21E;--card:#F6F2E9}
+html,body{margin:0;background:var(--paper);overflow:hidden}
+#stage{position:relative;width:1280px;height:720px;overflow:hidden;background:var(--paper)}
+#world{position:absolute;left:0;top:0;width:1280px;height:720px}
+#grain{position:absolute;inset:0;pointer-events:none;mix-blend-mode:multiply;opacity:.55}
+#vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,rgba(0,0,0,0) 55%,rgba(60,45,20,.16) 100%)}
+.card{position:absolute;left:34px;top:30px;max-width:440px;background:var(--card);padding:30px 26px 20px 24px;box-shadow:0 2px 0 rgba(0,0,0,.05),0 10px 22px rgba(40,30,10,.18);font:600 30px/1.2 "Playfair",serif;color:var(--ink);transform-origin:0 0;opacity:0}
+.tag{position:absolute;left:14px;top:10px;font:700 10px/1 "JetBrains Mono","DejaVu Sans Mono",monospace;letter-spacing:.12em;background:var(--gold);padding:3px 5px;color:var(--ink)}
+.card .w{opacity:0}.card u,.ov u{text-decoration:none;box-shadow:inset 0 -9px 0 rgba(214,162,30,.75)}
+.card .hand{font:600 46px/1 "Caveat",cursive;display:block;margin-top:8px;transform:rotate(-2deg);opacity:0}
+#brand{position:absolute;right:26px;top:24px;font:700 10px/1 "JetBrains Mono","DejaVu Sans Mono",monospace;letter-spacing:.2em;color:rgba(29,27,24,.6)}
+.ov[data-kind=title]{font-size:50px;padding:34px 48px 38px}
+.ov{position:absolute;left:50%;background:var(--card);padding:26px 38px 28px;box-shadow:0 12px 28px rgba(40,30,10,.25);font:700 38px/1.18 "Playfair",serif;color:var(--ink);text-align:center;opacity:0;max-width:900px;width:max-content}
+.ov .kick{display:block;font:700 12px/1 "JetBrains Mono","DejaVu Sans Mono",monospace;letter-spacing:.22em;margin-bottom:14px}
+.ov .kick b{background:var(--gold);padding:4px 7px;font-weight:700}
+.ov .tiles{display:block;margin-top:14px;min-height:74px}
+.tl{display:inline-block;width:54px;height:70px;margin:3px 3px;font:800 50px/70px "RobotoC",sans-serif;text-align:center;opacity:0}
+.tl.sp{width:22px;background:none!important;box-shadow:none!important}
+.ov .stampw{display:inline-block;background:var(--ink);color:#fff;font:800 38px/64px "RobotoC",sans-serif;letter-spacing:4px;padding:0 22px;opacity:0}
+.ovhand{position:absolute;font:600 40px/1 "Caveat",cursive;color:var(--ink);white-space:nowrap;opacity:0}
+#sub{position:absolute;left:0;right:0;bottom:20px;text-align:center;font:700 11px/1 "JetBrains Mono","DejaVu Sans Mono",monospace;letter-spacing:.18em;color:rgba(29,27,24,.55);opacity:0}
+</style></head><body>
+<div id="stage">
+  <svg id="world" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg"></svg>
+  <div id="cards"></div><div id="brand"></div><div id="ovs"></div><div id="sub"></div>
+  <svg id="grain" width="1280" height="720"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="7"/><feColorMatrix values="0 0 0 0 .55  0 0 0 0 .5  0 0 0 0 .42  0 0 0 .5 0"/></filter><filter id="n2"><feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 .7  0 0 0 0 .66  0 0 0 0 .58  0 0 0 .55 0"/></filter><rect width="1280" height="720" filter="url(#n2)"/><rect width="1280" height="720" filter="url(#n)" opacity=".5"/></svg>
+  <div id="vig"></div>
+</div>
+<script>
+'use strict';
+const INK = '#1D1B18', GOLD = '#D6A21E', PAPER = '#ECE7DC';
+const MONO = 'JetBrains Mono, DejaVu Sans Mono, monospace';
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const eio = p => (p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2);
+const out = p => 1 - Math.pow(1 - p, 3);
+const back = p => { const c = 1.9; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
+let seed = 11; const rnd = () => { seed = (seed * 16807) % 2147483647; return seed / 2147483647; };
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const OVERLAY = { title: 1, quote: 1, turn: 1 }, NOSTOP = { title: 1, quote: 1, turn: 1, wide: 1 };
+
+let SPEC = null, LANG = 'en', REG = [], CUES = [], SFX = [], TOTAL = 0, STARTS = [], CAMS = [], uid = 0;
+const L = o => (o == null ? '' : typeof o === 'string' ? o : (o[LANG] || o.en || ''));
+const nid = () => 'e' + (++uid);
+const A = (id, kind, t0, dur, sfx) => { REG.push({ id, kind, t0, dur: dur || .4 }); if (sfx) SFX.push({ t: +t0.toFixed(3), k: sfx, d: dur || .4 }); return id; };
+
+/* ── drawn pieces ── */
+function tiles(x, y, str, size, t0, gap) {
+  let s = '', w = size * .78, i = 0; const pal = [[INK, '#fff'], [GOLD, INK], ['#fff', INK]];
+  for (const ch of String(str)) {
+    if (ch === ' ') { i++; continue; }
+    const id = nid(), p = pal[i % 3], r = (rnd() * 10 - 5).toFixed(1), dy = (rnd() * 8 - 4).toFixed(1);
+    s += `<g id="${id}" data-x="${x + i * (w + 5)}" data-y="${y + +dy}" data-r="${r}" opacity="0"><rect x="${-w / 2}" y="${-size / 2}" width="${w}" height="${size}" fill="${p[0]}" stroke="${INK}" stroke-width="${p[0] === '#fff' ? 1.6 : 0}"/><text x="0" y="${size * .33}" text-anchor="middle" font-family="RobotoC" font-weight="800" font-size="${size * .82}" fill="${p[1]}">${esc(ch)}</text></g>`;
+    A(id, 'stamp', t0 + i * (gap || .12), .28, 'stamp'); i++;
+  }
+  return s;
+}
+/* a typed label on a strip; the strip is fitted to the text after the film is built */
+const typed = (x, y, str, t0, o) => { const id = nid(); o = o || {}; A(id, 'fade', t0, .3, o.sfx === false ? null : 'tick'); const fs = o.size || 12; return `<g id="${id}" class="fit" data-pad="6" data-anchor="${o.anchor || 'start'}" data-x="${x}" data-y="${y}" data-r="${o.r || 0}" opacity="0"><rect fill="${o.bg || GOLD}"/><text x="0" y="0" text-anchor="${o.anchor || 'start'}" font-family="${MONO}" font-weight="700" font-size="${fs}" letter-spacing="1.6" fill="${INK}">${esc(String(str).toUpperCase())}</text></g>`; };
+const hand = (x, y, str, t0, o) => { const id = nid(), c = nid(); o = o || {}; const fs = o.size || 34; A(id, 'write', t0, o.dur || .7, 'scratch'); return `<g id="${id}" class="wr" data-max="${o.max || 520}" data-x="${x}" data-y="${y}" data-r="${o.r == null ? -4 : o.r}"><clipPath id="${c}"><rect class="cl" x="-8" y="${-fs}" width="0" height="${fs * 1.5}"/></clipPath><text clip-path="url(#${c})" x="0" y="0" font-family="Caveat" font-weight="600" font-size="${fs}" fill="${INK}">${esc(str)}</text></g>`; };
+const stamp = (x, y, str, t0, o) => { const id = nid(); o = o || {}; A(id, 'stamp', t0, .32, 'stamp'); const fs = o.size || 32; return `<g id="${id}" class="fit" data-pad="14" data-anchor="middle" data-x="${x}" data-y="${y}" data-r="${o.r == null ? -3 : o.r}" opacity="0"><rect fill="${o.gold ? GOLD : INK}"/><text x="0" y="0" text-anchor="middle" font-family="RobotoC" font-weight="800" font-size="${fs}" letter-spacing="2" fill="${o.gold ? INK : '#fff'}">${esc(String(str).toUpperCase())}</text></g>`; };
+const drawn = (d, t0, dur, o) => { const id = nid(), m = nid(); o = o || {}; A(id, 'draw', t0, dur, o.sfx === false ? null : (o.sfx || 'draw')); return `<mask id="${m}" maskUnits="userSpaceOnUse" x="-4000" y="-4000" width="12000" height="12000"><path class="mk" d="${d}" fill="none" stroke="#fff" stroke-width="${(o.w || 3) + 14}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></mask><path id="${id}" data-mask="${m}" mask="url(#${m})" d="${d}" fill="none" stroke="${o.stroke || INK}" stroke-width="${o.w || 3}" stroke-linecap="round" ${o.solid ? '' : 'stroke-dasharray="11 10"'}/>`; };
+const pop = (inner, x, y, t0, o) => { const id = nid(); o = o || {}; A(id, o.kind || 'pop', t0, o.dur || .4, o.sfx === undefined ? 'pop' : o.sfx); return `<g id="${id}" data-x="${x}" data-y="${y}" data-r="${o.r || 0}" opacity="0">${inner}</g>`; };
+const P2 = `fill="#fff" stroke="${INK}" stroke-width="2.2" stroke-linejoin="round"`;
+const ICON = {
+  envelope: `<g transform="rotate(-8)"><rect x="-60" y="-40" width="120" height="80" ${P2}/><path d="M -60 -40 L 0 8 L 60 -40" fill="none" stroke="${INK}" stroke-width="2.2"/></g>`,
+  note: `<g transform="rotate(5)"><path d="M -52 -58 H 52 V 34 L 28 58 H -52 Z" fill="${GOLD}" stroke="${INK}" stroke-width="2.2"/><path d="M 52 34 H 28 V 58" fill="#fff" stroke="${INK}" stroke-width="2.2"/><path d="M -34 -30 H 34 M -34 -8 H 34 M -34 14 H 8" stroke="${INK}" stroke-width="3"/></g>`,
+  laptop: `<g transform="rotate(-3)"><rect x="-58" y="-46" width="116" height="74" rx="4" ${P2}/><rect x="-46" y="-36" width="92" height="54" fill="${GOLD}" stroke="${INK}" stroke-width="1.6"/><path d="M -76 28 H 76 L 66 44 H -66 Z" ${P2}/></g>`,
+  calendar: `<g transform="rotate(4)"><rect x="-54" y="-48" width="108" height="100" ${P2}/><rect x="-54" y="-48" width="108" height="26" fill="${INK}"/><path d="M -30 -60 V -40 M 30 -60 V -40" stroke="${INK}" stroke-width="5" stroke-linecap="round"/>${[0, 1, 2].map(r => [0, 1, 2, 3].map(c => `<rect x="${-42 + c * 23}" y="${-12 + r * 20}" width="15" height="12" fill="${(r * 4 + c) % 5 === 2 ? GOLD : 'none'}" stroke="${INK}" stroke-width="1.4"/>`).join('')).join('')}</g>`,
+  clock: `<g><circle r="54" ${P2}/><circle r="44" fill="none" stroke="${INK}" stroke-width="1.2"/><path d="M 0 0 V -32 M 0 0 L 22 12" stroke="${INK}" stroke-width="5" stroke-linecap="round"/><circle r="5" fill="${GOLD}" stroke="${INK}" stroke-width="2"/></g>`,
+  timer: `<g><rect x="-10" y="-70" width="20" height="14" fill="${INK}"/><circle r="52" ${P2}/><path d="M 0 0 L 0 -52 A 52 52 0 0 1 45 26 Z" fill="${GOLD}" stroke="${INK}" stroke-width="2"/><circle r="5" fill="${INK}"/></g>`,
+  person: `<g><circle cy="-34" r="24" ${P2}/><path d="M -46 54 C -46 4 46 4 46 54 Z" fill="${GOLD}" stroke="${INK}" stroke-width="2.2"/></g>`,
+  people: `<g><circle cx="-30" cy="-30" r="20" ${P2}/><path d="M -68 50 C -68 6 8 6 8 50 Z" ${P2}/><circle cx="32" cy="-24" r="20" ${P2}/><path d="M -6 54 C -6 12 70 12 70 54 Z" fill="${GOLD}" stroke="${INK}" stroke-width="2.2"/></g>`,
+  chat: `<g transform="rotate(-4)"><path d="M -62 -44 H 62 V 22 H -14 L -40 50 V 22 H -62 Z" ${P2}/><path d="M -40 -20 H 40 M -40 0 H 14" stroke="${INK}" stroke-width="3.4"/></g>`,
+  target: `<g><circle r="56" ${P2}/><circle r="38" fill="${GOLD}" stroke="${INK}" stroke-width="2"/><circle r="20" ${P2}/><circle r="6" fill="${INK}"/><path d="M 6 -6 L 62 -62 M 62 -62 l -18 2 M 62 -62 l -2 18" stroke="${INK}" stroke-width="3.4" fill="none" stroke-linecap="round"/></g>`,
+  chart: `<g transform="rotate(-3)"><rect x="-60" y="-50" width="120" height="100" ${P2}/><rect x="-42" y="6" width="20" height="30" fill="${INK}"/><rect x="-12" y="-12" width="20" height="48" fill="${GOLD}" stroke="${INK}" stroke-width="1.4"/><rect x="18" y="-30" width="20" height="66" fill="${INK}"/></g>`,
+  book: `<g transform="rotate(-5)"><path d="M -62 -44 C -30 -54 -10 -50 0 -40 C 10 -50 30 -54 62 -44 V 44 C 30 34 10 38 0 48 C -10 38 -30 34 -62 44 Z" ${P2}/><path d="M 0 -40 V 48" stroke="${INK}" stroke-width="2.2"/><path d="M -46 -24 H -14 M -46 -6 H -14 M 14 -24 H 46" stroke="${INK}" stroke-width="2.6"/></g>`,
+  phone: `<g transform="rotate(7)"><rect x="-34" y="-62" width="68" height="124" rx="9" ${P2}/><rect x="-26" y="-48" width="52" height="86" fill="${GOLD}" stroke="${INK}" stroke-width="1.4"/><circle cy="50" r="5" fill="${INK}"/></g>`,
+  slides: `<g transform="rotate(-3)"><rect x="-66" y="-48" width="132" height="84" ${P2}/><path d="M -46 -26 H 10 M -46 -8 H 34 M -46 10 H -6" stroke="${INK}" stroke-width="3.4"/><rect x="22" y="-6" width="28" height="28" fill="${GOLD}" stroke="${INK}" stroke-width="1.6"/><path d="M 0 36 V 56 M -24 60 H 24" stroke="${INK}" stroke-width="4" stroke-linecap="round"/></g>`,
+  key: `<g transform="rotate(-20)"><circle cx="-34" r="26" fill="${GOLD}" stroke="${INK}" stroke-width="2.2"/><circle cx="-34" r="9" fill="${PAPER}" stroke="${INK}" stroke-width="2"/><path d="M -8 -7 H 62 V 7 H 50 V 22 H 38 V 7 H 26 V 18 H 14 V 7 H -8 Z" ${P2}/></g>`,
+  battery: `<g><rect x="-58" y="-34" width="110" height="68" rx="6" ${P2}/><rect x="52" y="-14" width="10" height="28" fill="${INK}"/><rect x="-48" y="-24" width="26" height="48" fill="${GOLD}" stroke="${INK}" stroke-width="1.4"/></g>`,
+  cup: `<g transform="rotate(-4)"><path d="M -36 -34 H 36 L 26 60 H -26 Z" ${P2}/><path d="M -32 -4 H 32 L 28 34 H -28 Z" fill="${GOLD}" stroke="${INK}" stroke-width="1.6"/><rect x="-42" y="-46" width="84" height="14" rx="4" fill="${INK}"/><path d="M 8 -46 L 22 -78" stroke="${INK}" stroke-width="5" stroke-linecap="round"/></g>`,
+  flag: `<g><line x1="0" y1="60" x2="0" y2="-64" stroke="${INK}" stroke-width="5"/><path d="M 0 -64 L 92 -44 L 0 -20 Z" fill="${GOLD}" stroke="${INK}" stroke-width="2"/><circle cy="60" r="8" fill="${INK}"/></g>`
+};
+const check = (x, y, ok, t0) => drawn(ok ? `M ${x - 14} ${y - 4} l 10 12 l 20 -26` : `M ${x - 12} ${y - 14} l 24 24 M ${x + 12} ${y - 14} l -24 24`, t0, .3, { solid: true, w: 5, stroke: ok ? GOLD : INK, sfx: 'scratch' });
+function blob(cx, cy, rx, ry) {
+  const n = 11, pts = []; for (let i = 0; i < n; i++) { const a = i / n * Math.PI * 2, k = .82 + rnd() * .36; pts.push([cx + Math.cos(a) * rx * k, cy + Math.sin(a) * ry * k]); }
+  const mid = (a, b) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2]; let m = mid(pts[n - 1], pts[0]), d = `M ${m[0].toFixed(0)} ${m[1].toFixed(0)}`;
+  for (let i = 0; i < n; i++) { m = mid(pts[i], pts[(i + 1) % n]); d += ` Q ${pts[i][0].toFixed(0)} ${pts[i][1].toFixed(0)} ${m[0].toFixed(0)} ${m[1].toFixed(0)}`; }
+  return d + ' Z';
+}
+const coast = d => { let o = ''; for (let k = 4; k >= 1; k--) o += `<path d="${d}" fill="none" stroke="${INK}" stroke-opacity=".45" stroke-width="${k * 30 + 1.4}"/><path d="${d}" fill="none" stroke="${PAPER}" stroke-width="${k * 30}"/>`; return o + `<path d="${d}" fill="${GOLD}"/><path d="${d}" fill="url(#dots)"/><path d="${d}" fill="none" stroke="${INK}" stroke-width="2.2"/>`; };
+function emph(text, k0) {   /* *words in stars* get the gold marker */
+  let em = false, html = ''; const words = String(text).split(' ');
+  words.forEach((wd, k) => { let o = wd, close = false; if (o.startsWith('*')) { em = true; o = o.slice(1); } if (o.includes('*')) { close = true; o = o.replace('*', ''); } html += `<span class="w" data-k="${k0 == null ? k : -1}">${em ? '<u>' : ''}${esc(o)}${em ? '</u>' : ''}</span> `; if (close) em = false; });
+  return { html, n: words.length };
+}
+const tileRow = str => { const pal = [[INK, '#fff'], [GOLD, INK], ['#fff', INK]]; let i = 0; return [...String(str)].map(c => c === ' ' ? '<span class="tl sp"></span>' : `<span class="tl" data-i="${i}" style="background:${pal[i % 3][0]};color:${pal[i++ % 3][1]};${pal[(i - 1) % 3][0] === '#fff' ? 'box-shadow:inset 0 0 0 2px ' + INK + ';' : ''}--r:${(rnd() * 10 - 5).toFixed(1)}deg">${esc(c)}</span>`).join(''); };
+
+function build() {
+  REG = []; CUES = []; SFX = []; uid = 0; seed = SPEC.seed || 11; STARTS = []; CAMS = [];
+  const F = SPEC.figs, n = F.length;
+  /* how long each figure stays */
+  const count = f => (f.items ? f.items.length : 0) + (f.notes ? f.notes.length : 0) + (f.note ? 1 : 0) + (f.b ? 2 : 0) + (f.old ? 1.6 : 0) + (Array.isArray(f.new) ? f.new.length * 1.3 : f.new ? 1 : 0) + (f.hand ? 1 : 0) + (f.tiles ? .6 : 0);
+  const len = f => f.d || ({ title: 3.4, turn: 4.8, quote: 7.4, wide: 5.6 }[f.kind] || Math.max(5.6, 4.6 + .85 * count(f) + L(f.card).split(' ').length * .06));
+  let t = 0; F.forEach(f => { STARTS.push(t); t += len(f); }); TOTAL = t;
+  /* where each stop sits: a route that winds across the map, three stops to a row */
+  const stops = []; F.forEach((f, i) => { if (!NOSTOP[f.kind]) stops.push(i); });
+  const pos = {}; stops.forEach((fi, k) => { const r = Math.floor(k / 3), c = k % 3, col = r % 2 ? 2 - c : c; pos[fi] = [900 + col * 980 + (rnd() * 120 - 60), 760 + r * 800 + (rnd() * 90 - 45) + (col === 1 ? -36 : 0)]; });
+  const first = pos[stops[0]], last = pos[stops[stops.length - 1]], rows = Math.ceil(stops.length / 3);
+  const W = [0, 0, 900 + 2 * 980 + 900, 760 + (rows - 1) * 800 + 760];
+  const overview = [W[2] / 2, W[3] / 2 - 40, Math.max(.5, Math.min(1280 / W[2], 720 / W[3]) * 1.04)];
+  let w = `<defs><pattern id="waves" width="120" height="13" patternUnits="userSpaceOnUse"><path d="M0 6 Q 30 2 60 6 T 120 6" fill="none" stroke="${INK}" stroke-opacity=".2" stroke-width="1"/></pattern><pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="3.5" cy="3.5" r="1.25" fill="${INK}" fill-opacity=".28"/></pattern></defs><g id="cam">`;
+  w += `<rect x="-1600" y="-1200" width="${W[2] + 3200}" height="${W[3] + 2400}" fill="url(#waves)"/>`;
+  for (let x = -1600; x <= W[2] + 1600; x += 320) w += `<line x1="${x}" y1="-1200" x2="${x}" y2="${W[3] + 1200}" stroke="${INK}" stroke-opacity=".12"/>`;
+  for (let y = -1200; y <= W[3] + 1200; y += 240) w += `<line x1="-1600" y1="${y}" x2="${W[2] + 1600}" y2="${y}" stroke="${INK}" stroke-opacity=".12"/>`;
+  const lastLeft = last[0] < W[2] / 2;
+  w += coast(blob(first[0] - 520, first[1] + 130, 600, 500)) + coast(blob(last[0] + (lastLeft ? -500 : 500), last[1] + 110, 560, 470));
+  w += coast(blob(W[2] * .52, -520, 520, 300)) + coast(blob(W[2] * .5 + 300, W[3] + 520, 620, 300));
+  const pl = SPEC.places || {};
+  w += `<text x="${first[0] - 880}" y="${first[1] + 300}" font-family="Playfair" font-weight="600" font-style="italic" font-size="30" letter-spacing="7" fill="${INK}" fill-opacity=".7">${esc(L(pl.start).toUpperCase())}</text>`;
+  w += `<text x="${last[0] + (lastLeft ? -860 : 330)}" y="${last[1] + 330}" font-family="Playfair" font-weight="600" font-style="italic" font-size="30" letter-spacing="7" fill="${INK}" fill-opacity=".7">${esc(L(pl.goal).toUpperCase())}</text>`;
+  w += `<text x="${1980}" y="${rows > 1 ? 1180 : 1330}" font-family="Playfair" font-weight="600" font-style="italic" font-size="30" letter-spacing="12" fill="${INK}" fill-opacity=".4">${esc(L(pl.sea).toUpperCase())}</text>`;
+  w += `<g transform="translate(1390 ${rows > 1 ? 1165 : 1300})" stroke="${INK}" stroke-opacity=".6" fill="none"><circle r="34"/><circle r="5" fill="${INK}"/>${[0, 45, 90, 135, 180, 225, 270, 315].map(a => `<line x1="0" y1="0" x2="0" y2="${a % 90 ? -30 : -52}" transform="rotate(${a})"/>`).join('')}</g>`;
+
+  let cards = '', ovs = '', figNo = 0, prevStop = null;
+  F.forEach((f, i) => {
+    const S = STARTS[i], d = len(f), k = f.kind;
+    if (!NOSTOP[k]) {
+      const [ax, ay] = pos[i]; let z = 1.5, cx = ax - 40, cy = ay - 10, q = S + 1.5;
+      /* the route arrives while the camera travels */
+      if (prevStop != null) { const [px, py] = pos[prevStop], vert = Math.abs(py - ay) > 400, mx = (px + ax) / 2 + (rnd() * 60 - 30) + (vert ? (px < 1800 ? -150 : 150) : 0), my = (py + ay) / 2 + (rnd() * 30 - 15); w += drawn(`M ${px.toFixed(0)} ${py.toFixed(0)} Q ${mx.toFixed(0)} ${my.toFixed(0)} ${ax.toFixed(0)} ${ay.toFixed(0)}`, S + .15, 1.25); }
+      w += pop(`<circle r="9" fill="${INK}"/><circle r="17" fill="none" stroke="${INK}" stroke-width="1.5"/>`, ax, ay, prevStop == null ? S + .3 : S + 1.2, { sfx: prevStop == null ? null : 'tick' });
+      if (prevStop == null && pl.dot) w += typed(ax + 24, ay - 10, L(pl.dot), S + .6, { sfx: false });
+      if (k === 'event') {
+        w += pop(ICON[f.icon] || ICON.note, ax + 90, ay - 110, q, { sfx: 'paper', r: 0 }); q += .5;
+        if (f.label) { w += typed(ax + 20, ay - 196, L(f.label), q); q += .45; }
+        if (f.tiles) { w += tiles(ax + 220, ay - 108, L(f.tiles), 78, q); q += .3 + String(L(f.tiles)).length * .12; }
+        if (f.note) { w += hand(ax - 40, ay + 84, L(f.note), q + .3, { r: -4, max: 540 }); }
+        cx = ax + 70; cy = ay - 60;
+      } else if (k === 'sign') {
+        w += pop(`<line x1="0" y1="0" x2="0" y2="100" stroke="${INK}" stroke-width="5"/>`, ax + 110, ay - 110, q, { sfx: 'paper' });
+        w += stamp(ax + 110, ay - 118, L(f.old), q + .1, { size: 30, r: -4, white: 1 }).replace(`fill="${INK}"/>`, `fill="#fff" stroke="${INK}" stroke-width="2"/>`).replace('fill="#fff">', `fill="${INK}">`); q += .9;
+        w += drawn(`M ${ax - 10} ${ay - 142} L ${ax + 232} ${ay - 104}`, q, .35, { solid: true, w: 6, stroke: GOLD, sfx: 'scratch' }); q += .8;
+        if (f.new) { w += stamp(ax + 230, ay + 10, L(f.new), q, { size: 24, gold: 1, r: 4 }); q += .7; }
+        if (f.note) w += hand(ax - 30, ay + 110, L(f.note), q, { r: -4 });
+        cx = ax + 80; cy = ay - 50;
+      } else if (k === 'stamp') {
+        w += stamp(ax + 110, ay - 120, L(f.label), q, { size: 36, gold: f.tone === 'gold' }); q += .6;
+        if (f.sub) { w += typed(ax + 110, ay - 62, L(f.sub), q, { anchor: 'middle' }); q += .6; }
+        (f.notes || []).forEach((nt, j) => { w += hand(ax - 60, ay + 44 + j * 46, L(nt), q, { r: -3 }); q += .85; });
+        cx = ax + 80; cy = ay - 50; z = 1.45;
+      } else if (k === 'pair') {
+        w += stamp(ax - 60, ay - 120, L(f.a.label), q, { size: 32 }); if (f.a.sub) w += typed(ax - 60, ay - 66, L(f.a.sub), q + .5, { anchor: 'middle' }); q += 1.4;
+        w += hand(ax + 110, ay - 10, f.sign || '≠', q, { size: 64, r: 0, dur: .3 }); q += .6;
+        w += stamp(ax + 320, ay + 60, L(f.b.label), q, { size: 32, gold: 1, r: 3 }); if (f.b.sub) w += typed(ax + 320, ay + 114, L(f.b.sub), q + .5, { anchor: 'middle' }); q += 1.2;
+        if (f.note) w += hand(ax - 150, ay + 190, L(f.note), q, { r: -3 });
+        cx = ax + 110; cy = ay - 80; z = 1.3;
+      } else if (k === 'loop') {
+        const lx = ax + 150, ly = ay - 40, R = 122, m = f.items.length;
+        w += drawn(`M ${lx} ${ly - R} a ${R} ${R} 0 1 1 -0.1 0`, q - .3, 1.5, { w: 3.5 });
+        if (f.tiles) { w += tiles(lx + 250, ly - 150, L(f.tiles), 58, q + .3); if (f.unit) w += typed(lx + 226, ly - 92, L(f.unit), q + .8); }
+        q += 1.1;
+        f.items.forEach((it, j) => { const a = -Math.PI / 2 + j / m * Math.PI * 2, vx = Math.cos(a), vy = Math.sin(a), x = lx + vx * R, y = ly + vy * R;
+          w += pop(`<circle r="19" fill="${j % 2 ? '#fff' : GOLD}" stroke="${INK}" stroke-width="2.4"/><text y="8" text-anchor="middle" font-family="RobotoC" font-weight="800" font-size="23" fill="${INK}">${j + 1}</text>`, x, y, q, { kind: 'stamp', sfx: 'stamp' });
+          w += typed(x + (vx > .3 ? 30 : vx < -.3 ? -30 : 0), y + (vy < -.3 ? -32 : vy > .3 ? 44 : 5), L(it), q + .25, { anchor: vx > .3 ? 'start' : vx < -.3 ? 'end' : 'middle', sfx: false }); q += 1.0; });
+        cx = lx + 10; cy = ly - 35; z = 1.5;
+      } else if (k === 'steps') {
+        const m = f.items.length, sx = Math.max(...f.items.map(it => L(it).length)) > 16 ? 250 : 170, x0 = ax - 20, y0 = ay + 60; let dd = `M ${x0} ${y0}`;
+        for (let j = 1; j < m; j++) dd += ` L ${x0 + j * sx} ${y0 - j * 52}`;
+        w += drawn(dd, q - .2, .5 + m * .35, { w: 3 });
+        f.items.forEach((it, j) => { const x = x0 + j * sx, y = y0 - j * 52;
+          w += pop(`<circle r="21" fill="${j === m - 1 ? GOLD : '#fff'}" stroke="${INK}" stroke-width="2.4"/><text y="8" text-anchor="middle" font-family="RobotoC" font-weight="800" font-size="24" fill="${INK}">${j + 1}</text>`, x, y, q, { kind: 'stamp', sfx: 'stamp' });
+          w += typed(x, y + (j % 2 ? -46 : 58), L(it), q + .25, { anchor: 'middle', sfx: false, size: 13 }); q += .95; });
+        if (f.note) w += hand(x0 - 40, y0 + 150, L(f.note), q, { r: -3 });
+        cx = x0 + (m - 1) * sx / 2; cy = y0 - (m - 1) * 26 - 20; z = Math.min(1.45, 1100 / ((m - 1) * sx + 420));
+      } else if (k === 'list') {
+        const ln = (f.items || []).length, ly0 = ay - 44 - (ln - 1) * 58;
+        (f.items || []).forEach((it, j) => { const y = ly0 + j * 58; w += typed(ax + 60, y, L(it.t || it), q, { size: 14, bg: it.ok === false || it.hi === false ? '#fff' : GOLD }); if (it.ok != null) w += check(ax + 26, y - 4, it.ok, q + .3); q += .85; });
+        if (f.note) w += hand(ax + 60, ay + 86, L(f.note), q, { r: -3 });
+        z = ln >= 5 ? 1.15 : ln === 4 ? 1.36 : 1.45; cx = ax + 230; cy = ly0 + 138 / z;   /* the first row sits below a two-line caption card */
+      } else if (k === 'number') {
+        w += tiles(ax + 60, ay - 100, L(f.tiles), 104, q); q += .4 + String(L(f.tiles)).length * .12;
+        if (f.unit) { w += typed(ax + 20, ay - 14, L(f.unit), q, { size: 14 }); q += .6; }
+        if (f.note) w += hand(ax + 0, ay + 80, L(f.note), q, { r: -4 });
+        cx = ax + 110; cy = ay - 50;
+      } else if (k === 'strike') {
+        const nl = Array.isArray(f.new) ? f.new.length : 1, ny = j => ay - 48 - (nl - 1 - j) * 52, oy = ny(0) - 76;
+        w += hand(ax + 60, oy, L(f.old), q, { size: 42, r: -2, dur: .8, max: 540 }); q += 1.4;
+        w += drawn(`M ${ax + 50} ${oy - 12} l ${Math.min(560, Math.max(180, L(f.old).length * 17))} -6`, q, .35, { solid: true, w: 6, stroke: GOLD, sfx: 'scratch' }); q += .9;
+        (Array.isArray(f.new) ? f.new : [f.new]).forEach((ln, j) => { w += hand(ax + 60, ny(j), L(ln), q, { size: 42, r: -2, dur: .8, max: 540 }); q += 1.1; });
+        if (f.label) w += typed(ax + 60, oy - 74, L(f.label), S + 1.5);
+        cx = ax + 170; cy = oy - 4; z = 1.4;
+      }
+      CAMS.push([cx, cy, z]); prevStop = i;
+    } else if (k === 'wide') {
+      const mk = (f.mark || []).map(j => pos[j]).filter(Boolean), xs = mk.map(p => p[0]), ys = mk.map(p => p[1]);
+      const bx = mk.length ? [Math.min(...xs) - 520, Math.min(...ys) - 420, Math.max(...xs) + 620, Math.max(...ys) + 380] : [0, 0, W[2], W[3]];
+      CAMS.push([(bx[0] + bx[2]) / 2, (bx[1] + bx[3]) / 2, Math.min(1.1, 1280 / (bx[2] - bx[0]), 720 / (bx[3] - bx[1]))]);
+      mk.forEach((p, j) => { w += drawn(`M ${p[0] + 90 - 330} ${p[1] - 60} a 330 250 0 1 0 660 0 a 330 250 0 1 0 -660 0`, S + 1.5 + j * .9, .7, { solid: true, w: 8, stroke: GOLD }); w += tiles(p[0] - 230, p[1] - 300, String(j + 1), 120, S + 1.8 + j * .9); });
+    } else {
+      CAMS.push(k === 'title' ? [first[0] - 80, first[1] - 30, .78] : overview);
+      const id = 'ov' + i; let inner = '';
+      if (k === 'title') { inner = `<span class="kick"><b>${esc(L(SPEC.kicker) || 'THE MAP · LESSON ' + SPEC.lesson)}</b></span>${emph(L(SPEC.title), 0).html}`; SFX.push({ t: S + .15, k: 'paper', d: .4 }); }
+      if (k === 'quote') { inner = emph(L(f.text), 0).html + (f.tiles ? `<span class="tiles">${tileRow(L(f.tiles))}</span>` : ''); SFX.push({ t: S + 1.0, k: 'paper', d: .4 }); if (f.tiles) [...L(f.tiles)].filter(c => c !== ' ').forEach((c, j) => SFX.push({ t: +(S + 2.2 + j * .16).toFixed(3), k: 'stamp', d: .28 })); if (f.note) SFX.push({ t: S + 4.3, k: 'scratch', d: .7 }); }
+      if (k === 'turn') { inner = emph(L(f.text), 0).html + `<span class="tiles"><span class="stampw">${esc(L(f.stamp).toUpperCase())}</span></span>`; SFX.push({ t: S + .5, k: 'paper', d: .4 }); SFX.push({ t: S + 1.6, k: 'stamp', d: .3 }); }
+      ovs += `<div class="ov" id="${id}" data-kind="${k}" style="${k === 'title' ? 'top:250px' : 'bottom:56px'};transform:translateX(-50%)">${inner}</div>` + (f.note ? `<div class="ovhand" id="${id}h" style="left:300px;bottom:${k === 'quote' ? 262 : 240}px;transform:rotate(-5deg)">${esc(L(f.note))}</div>` : '');
+    }
+    if (f.card) {
+      const e = emph(L(f.card)), hid = nid();
+      cards += `<div class="card" id="card${i}"><span class="tag">FIG. ${String(++figNo).padStart(2, '0')}</span>${e.html}${f.hand ? `<span class="hand" id="${hid}">${esc(L(f.hand))}</span>` : ''}</div>`;
+      SFX.push({ t: +(S + .25).toFixed(3), k: 'paper', d: .35 }); SFX.push({ t: +(S + .7).toFixed(3), k: 'type', d: e.n * .12 });
+      if (f.hand) { REG.push({ id: hid, kind: 'fadeh', t0: S + .9 + e.n * .12 + .5, dur: .35 }); SFX.push({ t: S + .9 + e.n * .12 + .5, k: 'scratch', d: .5 }); }
+    }
+    SFX.push({ t: +(S + .02).toFixed(3), k: 'whoosh', d: 1.0 });
+    if (f.vtt) CUES.push({ start: S + .3, end: S + d - .1, text: L(f.vtt) });
+  });
+  /* the flag at journey's end */
+  w += `</g>`;
+  document.getElementById('world').innerHTML = w;
+  document.getElementById('cards').innerHTML = cards; document.getElementById('ovs').innerHTML = ovs;
+  document.getElementById('brand').textContent = 'METANOIA LABS · THE MAP ' + SPEC.lesson;
+  document.getElementById('sub').textContent = LANG === 'id' ? 'FILM ASLI METANOIA LABS' : 'AN ORIGINAL METANOIA LABS FILM';
+  /* fit strips to their text, and measure handwriting for the reveal */
+  document.querySelectorAll('#world g.fit').forEach(g => { const tx = g.querySelector('text'), r = g.querySelector('rect'), b = tx.getBBox(), pad = +g.dataset.pad; r.setAttribute('x', b.x - pad); r.setAttribute('y', b.y - pad * .55); r.setAttribute('width', b.width + pad * 2); r.setAttribute('height', b.height + pad * 1.1); });
+  document.querySelectorAll('.ovhand').forEach(h => { const o = document.getElementById(h.id.slice(0, -1)); h.style.bottom = (56 + o.offsetHeight + 10) + 'px'; });
+  document.querySelectorAll('#world g.wr').forEach(g => { const tx = g.querySelector('text'), mx = +g.dataset.max; let len = tx.getComputedTextLength(); if (len > mx) { tx.setAttribute('font-size', (+tx.getAttribute('font-size') * mx / len).toFixed(1)); len = tx.getComputedTextLength(); } g.dataset.w = (len + 20).toFixed(0); });
+  SFX.sort((a, b) => a.t - b.t);
+}
+
+function seek(t) {
+  let i = 0; while (i < STARTS.length - 1 && t >= STARTS[i + 1]) i++;
+  const cur = CAMS[i], prev = i ? CAMS[i - 1] : [cur[0] - 70, cur[1] + 30, cur[2] * .93], lt = t - STARTS[i];
+  const p = eio(clamp(lt / 1.25)), cx = prev[0] + (cur[0] - prev[0]) * p + lt * 2.2 / cur[2], cy = prev[1] + (cur[1] - prev[1]) * p;
+  /* zoom eases out a little in the middle of a long move, like a camera lifting off the page */
+  const far = Math.hypot(cur[0] - prev[0], cur[1] - prev[1]), lift = 1 - Math.min(.28, far / 5200) * Math.sin(Math.PI * p);
+  const z = (prev[2] + (cur[2] - prev[2]) * p) * lift * (1 + lt * .0035);
+  document.getElementById('cam').setAttribute('transform', `translate(640 360) scale(${z.toFixed(4)}) translate(${(-cx).toFixed(2)} ${(-cy).toFixed(2)})`);
+  for (const r of REG) {
+    const el = document.getElementById(r.id); if (!el) continue; const q = clamp((t - r.t0) / r.dur), x = +el.dataset.x || 0, y = +el.dataset.y || 0, rot = +el.dataset.r || 0;
+    if (r.kind === 'pop') { el.setAttribute('opacity', q <= 0 ? 0 : 1); el.setAttribute('transform', `translate(${x} ${y}) rotate(${rot}) scale(${q <= 0 ? .01 : (.55 + .45 * back(q)).toFixed(3)})`); }
+    else if (r.kind === 'stamp') { el.setAttribute('opacity', q <= 0 ? 0 : Math.min(1, q * 3)); el.setAttribute('transform', `translate(${x} ${y}) rotate(${(rot + (1 - out(q)) * 9).toFixed(2)}) scale(${(1 + (1 - out(q)) * .75).toFixed(3)})`); }
+    else if (r.kind === 'fade') { el.setAttribute('opacity', q); el.setAttribute('transform', `translate(${(x - (1 - out(q)) * 10).toFixed(1)} ${y}) rotate(${rot})`); }
+    else if (r.kind === 'write') { el.setAttribute('transform', `translate(${x} ${y}) rotate(${rot})`); el.querySelector('.cl').setAttribute('width', (out(q) * (+el.dataset.w || 400)).toFixed(1)); }
+    else if (r.kind === 'draw') { document.querySelector('#' + el.dataset.mask + ' .mk').setAttribute('stroke-dashoffset', (1 - eio(q)).toFixed(4)); }
+    else if (r.kind === 'fadeh') { el.style.opacity = q; }
+  }
+  SPEC.figs.forEach((f, k) => {
+    const lt2 = t - STARTS[k], d = (STARTS[k + 1] == null ? TOTAL : STARTS[k + 1]) - STARTS[k], on = lt2 >= 0 && lt2 <= d;
+    const c = document.getElementById('card' + k);
+    if (c) { const inP = out(clamp((lt2 - .2) / .4)), outP = clamp((lt2 - (d - .35)) / .3); c.style.opacity = on ? inP * (1 - outP) : 0; c.style.transform = `translate(${(-30 * (1 - inP)).toFixed(1)}px,0) rotate(${(-1.2 + 1.2 * inP).toFixed(2)}deg)`; c.querySelectorAll('.w').forEach(wd => { wd.style.opacity = lt2 >= .7 + (+wd.dataset.k) * .12 ? 1 : 0; }); }
+    const o = document.getElementById('ov' + k);
+    if (o) {
+      const kind = o.dataset.kind, t0 = kind === 'quote' ? 1.0 : kind === 'turn' ? .4 : .1, last = k === SPEC.figs.length - 1, inP = out(clamp((lt2 - t0) / .45)), outP = last ? 0 : clamp((lt2 - (d - .3)) / .3);
+      o.style.opacity = on ? inP * (1 - outP) : 0; o.style.transform = `translateX(-50%) translateY(${(14 * (1 - inP)).toFixed(1)}px)`;
+      o.querySelectorAll('.w').forEach(wd => { wd.style.opacity = 1; });
+      o.querySelectorAll('.tl').forEach(el => { if (el.classList.contains('sp')) return; const q = clamp((lt2 - 2.2 - (+el.dataset.i) * .16) / .28); el.style.opacity = q <= 0 ? 0 : 1; el.style.transform = `rotate(calc(${el.style.getPropertyValue('--r')} + ${((1 - out(q)) * 10).toFixed(2)}deg)) scale(${(1 + (1 - out(q)) * .8).toFixed(3)})`; });
+      const sw = o.querySelector('.stampw'); if (sw) { const q = clamp((lt2 - 1.6) / .3); sw.style.opacity = q <= 0 ? 0 : 1; sw.style.transform = `rotate(${(-3 + (1 - out(q)) * 8).toFixed(2)}deg) scale(${(1 + (1 - out(q)) * .7).toFixed(3)})`; }
+      const h = document.getElementById('ov' + k + 'h'); if (h) { const q = clamp((lt2 - 4.3) / .7); h.style.opacity = on && lt2 > 4.3 ? 1 - outP : 0; h.style.clipPath = `inset(0 ${(100 - out(q) * 100).toFixed(1)}% 0 0)`; }
+      if (kind === 'turn') document.getElementById('sub').style.opacity = on ? clamp((lt2 - 2.3) / .4) : 0;
+    }
+  });
+  if (SPEC.figs[SPEC.figs.length - 1].kind !== 'turn') document.getElementById('sub').style.opacity = 0;
+}
+window.film = { load(spec, lang) { SPEC = spec; LANG = lang; build(); seek(0); return { seconds: TOTAL, cues: CUES, sfx: SFX, starts: STARTS }; }, seek };
+</script></body></html>
