@@ -2888,8 +2888,8 @@ window.MT_LMS['the-map'] = {
       "id": "Rasa Memiliki: Bertindak di Dalam Kendalimu"
      },
      "dur": {
-      "en": "20 min",
-      "id": "20 menit"
+      "en": "25 min",
+      "id": "25 menit"
      },
      "kind": "reading",
      "placeholder": false,
@@ -2909,6 +2909,10 @@ window.MT_LMS['the-map'] = {
       {
        "en": "Design one act of initiative this week that requires nobody's permission.",
        "id": "Merancang satu inisiatif minggu ini yang tidak butuh izin siapa pun."
+      },
+      {
+       "en": "Choose one learning habit and give it a cue, a routine and a reward for one week.",
+       "id": "Memilih satu kebiasaan belajar dan memberinya pemicu, rutinitas, dan imbalan selama satu minggu."
       }
      ],
      "takeaways": [
@@ -2923,6 +2927,10 @@ window.MT_LMS['the-map'] = {
       {
        "en": "Initiative inside your influence needs no permission, which is exactly why interviewers ask for examples of it.",
        "id": "Inisiatif di dalam pengaruhmu tidak butuh izin siapa pun, dan justru karena itulah pewawancara meminta contohnya."
+      },
+      {
+       "en": "How you learn is a habit too. Testing yourself in short, spaced sessions beats rereading the night before, and a habit sticks when its cue gets a better routine.",
+       "id": "Caramu belajar juga sebuah kebiasaan. Menguji diri dalam sesi pendek yang berjeda mengalahkan membaca ulang di malam sebelumnya, dan kebiasaan melekat ketika pemicunya diberi rutinitas yang lebih baik."
       }
      ],
      "videos": [
@@ -3070,6 +3078,31 @@ window.MT_LMS['the-map'] = {
        "why": {
         "en": "It converts a complaint about others into a specific, permissioned-by-nobody move inside the control zone, with the conversation as the chosen response.",
         "id": "Keluhan tentang orang lain berubah menjadi satu langkah spesifik di dalam zona kendali yang tidak butuh izin siapa pun, dan percakapan itulah respons yang dipilih."
+       }
+      },
+      {
+       "q": {
+        "en": "You have a test in three days. Which plan follows what the Learning Habits deck says about how memory works?",
+        "id": "Tesmu tiga hari lagi. Rencana mana yang sesuai dengan penjelasan dek Kebiasaan Belajar tentang cara kerja ingatan?"
+       },
+       "options": [
+        {
+         "en": "Reread the notes twice tonight, highlighter in hand",
+         "id": "Membaca ulang catatan dua kali malam ini, dengan stabilo di tangan"
+        },
+        {
+         "en": "Three thirty-minute sessions, one each evening, with the notes closed while you write what you remember",
+         "id": "Tiga sesi tiga puluh menit, satu setiap malam, dengan catatan tertutup sambil menuliskan apa yang kamu ingat"
+        },
+        {
+         "en": "One six-hour session the night before, so that everything is fresh",
+         "id": "Satu sesi enam jam di malam sebelumnya, supaya semuanya masih segar"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Recalling from memory beats rereading, and short sessions spread over several days beat one long block. Sleep between the sessions is part of the method.",
+        "id": "Mengingat dari kepala mengalahkan membaca ulang, dan sesi pendek yang tersebar dalam beberapa hari mengalahkan satu blok panjang. Tidur di antara sesi adalah bagian dari caranya."
        }
       }
      ],
@@ -3676,6 +3709,1079 @@ window.MT_LMS['the-map'] = {
         }
        ]
       }
+     },
+     "material": {
+      "kicker": {
+       "en": "Read next · 8 slides",
+       "id": "Baca berikutnya · 8 slide"
+      },
+      "title": {
+       "en": "Learning Habits",
+       "id": "Kebiasaan Belajar"
+      },
+      "intro": {
+       "en": "One more deck before the knowledge check. How you learn is the first thing you can own without anyone's permission. Eight ideas on what works, what only feels as if it works, and how to make the good version automatic.",
+       "id": "Satu dek lagi sebelum cek pemahaman. Caramu belajar adalah hal pertama yang bisa kamu miliki tanpa izin siapa pun. Delapan gagasan tentang apa yang benar-benar berhasil, apa yang hanya terasa berhasil, dan cara membuat versi yang baik berjalan otomatis."
+      },
+      "placement": "before-check",
+      "compose": {
+       "bg": "../../assets/bg/stage-exploration.jpg",
+       "module": {
+        "en": "Module 2 · Self-Leadership Foundations",
+        "id": "Modul 2 · Fondasi Kepemimpinan Diri"
+       },
+       "lesson": {
+        "n": "2.2",
+        "title": {
+         "en": "Ownership: Acting Inside Your Control",
+         "id": "Rasa Memiliki: Bertindak di Dalam Kendalimu"
+        }
+       },
+       "product": {
+        "en": "The Map",
+        "id": "The Map"
+       },
+       "story": [
+        {
+         "en": "How fast you adapt depends on how you learn, and how you learn is mostly habit",
+         "id": "Seberapa cepat kamu beradaptasi bergantung pada caramu belajar, dan caramu belajar sebagian besar adalah kebiasaan"
+        },
+        {
+         "en": "Four beliefs about learning feel true, and the evidence says otherwise",
+         "id": "Empat keyakinan tentang belajar terasa benar, padahal buktinya berkata lain"
+        },
+        {
+         "en": "Before you start: decide the what, the when and the obstacle",
+         "id": "Sebelum mulai: tentukan apa, kapan, dan rintangannya"
+        },
+        {
+         "en": "During: make it effortful, because easy practice feels good and teaches little",
+         "id": "Selama belajar: buat tetap menantang, karena latihan yang mudah terasa enak tetapi sedikit mengajarkan"
+        },
+        {
+         "en": "After: five minutes of looking back turn practice into progress",
+         "id": "Sesudah belajar: lima menit menengok ke belakang mengubah latihan menjadi kemajuan"
+        },
+        {
+         "en": "The same loop that changes a response also builds a learning habit",
+         "id": "Putaran yang mengubah sebuah respons juga membangun kebiasaan belajar"
+        },
+        {
+         "en": "You rarely delete a habit; you give its cue a better routine",
+         "id": "Kebiasaan jarang bisa dihapus; yang bisa kamu lakukan adalah memberi pemicunya rutinitas yang lebih baik"
+        },
+        {
+         "en": "This week: one learning habit, one cue, seven days",
+         "id": "Minggu ini: satu kebiasaan belajar, satu pemicu, tujuh hari"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "How you learn is a habit",
+          "id": "Caramu belajar adalah kebiasaan"
+         },
+         "p": {
+          "en": "In a first job nobody hands you a syllabus. Your learning habits are the syllabus.",
+          "id": "Di pekerjaan pertama tidak ada yang memberimu silabus. Kebiasaan belajarmulah silabusnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Four beliefs to test",
+          "id": "Empat keyakinan untuk diuji"
+         },
+         "p": {
+          "en": "Psychologists call the first two findings the testing effect and the spacing effect.",
+          "id": "Psikolog menyebut dua temuan pertama sebagai efek pengujian dan efek jeda."
+         }
+        },
+        {
+         "h": {
+          "en": "Before",
+          "id": "Sebelum"
+         },
+         "p": {
+          "en": "Good learning has three moments: before, during and after. Most people only show up for the middle one.",
+          "id": "Belajar yang baik punya tiga momen: sebelum, selama, dan sesudah. Kebanyakan orang hanya hadir di momen yang tengah."
+         }
+        },
+        {
+         "h": {
+          "en": "During",
+          "id": "Selama"
+         },
+         "p": {
+          "en": "If it feels a little hard, it is probably working. If it feels smooth, check whether you are learning or only recognising.",
+          "id": "Kalau terasa agak sulit, kemungkinan besar itu bekerja. Kalau terasa lancar, cek apakah kamu sedang belajar atau hanya mengenali."
+         }
+        },
+        {
+         "h": {
+          "en": "After",
+          "id": "Sesudah"
+         },
+         "p": {
+          "en": "This is the recovery loop from Lesson 1.1, run on an ordinary day instead of a bad one.",
+          "id": "Ini putaran pemulihan dari Pelajaran 1.1, dijalankan di hari biasa, bukan hanya di hari yang buruk."
+         }
+        },
+        {
+         "h": {
+          "en": "Make it automatic",
+          "id": "Buat berjalan otomatis"
+         },
+         "p": {
+          "en": "In a 2010 study by Phillippa Lally and colleagues, a new habit took 18 to 254 days to feel automatic, with 66 days as the midpoint. Missing one day changed little.",
+          "id": "Dalam penelitian Phillippa Lally dan rekan-rekannya pada 2010, kebiasaan baru butuh 18 sampai 254 hari untuk terasa otomatis, dengan 66 hari sebagai titik tengahnya. Melewatkan satu hari hampir tidak berpengaruh."
+         }
+        },
+        {
+         "h": {
+          "en": "Swap, do not delete",
+          "id": "Tukar, jangan hapus"
+         },
+         "p": {
+          "en": "Sleep is part of the method. Memory settles while you sleep, which is why an all-nighter costs you twice.",
+          "id": "Tidur adalah bagian dari caranya. Ingatan mengendap saat kamu tidur, dan karena itulah begadang merugikanmu dua kali."
+         }
+        },
+        {
+         "h": {
+          "en": "One week",
+          "id": "Satu minggu"
+         },
+         "p": {
+          "en": "One habit, tested for a week, is worth more than five intentions.",
+          "id": "Satu kebiasaan yang diuji selama seminggu lebih berharga daripada lima niat."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "How fast you adapt depends on how you learn, and how you learn is mostly habit",
+          "id": "Seberapa cepat kamu beradaptasi bergantung pada caramu belajar, dan caramu belajar sebagian besar adalah kebiasaan"
+         },
+         "em": {
+          "en": "mostly habit",
+          "id": "sebagian besar adalah kebiasaan"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "refresh",
+           "en": "Rereads the notes the night before, highlighter in hand, phone on the desk.",
+           "id": "Membaca ulang catatan di malam sebelumnya, stabilo di tangan, ponsel di atas meja.",
+           "l": {
+            "en": "On autopilot",
+            "id": "Serba otomatis"
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Twenty minutes a day with the notes closed, writing down what she remembers.",
+           "id": "Dua puluh menit sehari dengan catatan tertutup, menuliskan apa yang ia ingat.",
+           "l": {
+            "en": "By design",
+            "id": "Dirancang"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          }
+         ],
+         "band": {
+          "en": "In a first job nobody hands you a syllabus. Your learning habits are the syllabus.",
+          "id": "Di pekerjaan pertama tidak ada yang memberimu silabus. Kebiasaan belajarmulah silabusnya."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Four beliefs about learning feel true, and the evidence says otherwise",
+          "id": "Empat keyakinan tentang belajar terasa benar, padahal buktinya berkata lain"
+         },
+         "em": {
+          "en": "the evidence says otherwise",
+          "id": "buktinya berkata lain"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "“Rereading is revision.”",
+           "id": "“Membaca ulang itu belajar.”",
+           "d": {
+            "en": "Recalling from memory beats reading it again",
+            "id": "Mengingat dari kepala mengalahkan membacanya lagi"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          },
+          {
+           "icon": "moon",
+           "en": "“Cramming works.”",
+           "id": "“Kebut semalam itu ampuh.”",
+           "d": {
+            "en": "For tomorrow, yes. By next week it is gone",
+            "id": "Untuk besok, ya. Minggu depan sudah hilang"
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "person",
+           "en": "“I have a learning style.”",
+           "id": "“Aku punya gaya belajar sendiri.”",
+           "d": {
+            "en": "Matching lessons to a style has not been shown to help",
+            "id": "Menyesuaikan pelajaran dengan gaya belajar belum terbukti membantu"
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          },
+          {
+           "icon": "phone",
+           "en": "“I can multitask.”",
+           "id": "“Aku bisa multitasking.”",
+           "d": {
+            "en": "Every switch costs time and adds errors",
+            "id": "Setiap perpindahan memakan waktu dan menambah kesalahan"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          }
+         ],
+         "band": {
+          "en": "Psychologists call the first two findings the testing effect and the spacing effect.",
+          "id": "Psikolog menyebut dua temuan pertama sebagai efek pengujian dan efek jeda."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Before you start: decide the what, the when and the obstacle",
+          "id": "Sebelum mulai: tentukan apa, kapan, dan rintangannya"
+         },
+         "em": {
+          "en": "the what, the when and the obstacle",
+          "id": "apa, kapan, dan rintangannya"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "target",
+           "en": "“Build a pivot table without notes” beats “learn Excel”.",
+           "id": "“Membuat tabel pivot tanpa melihat catatan” mengalahkan “belajar Excel”.",
+           "l": {
+            "en": "One target",
+            "id": "Satu sasaran"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "The same place and the same hour, already in your calendar.",
+           "id": "Tempat dan jam yang sama, sudah masuk kalendermu.",
+           "l": {
+            "en": "One slot",
+            "id": "Satu slot"
+           }
+          },
+          {
+           "icon": "route",
+           "en": "“If friends call at seven, then I join them at eight.” People who write the plan down follow through more often.",
+           "id": "“Jika teman mengajak pukul tujuh, maka aku menyusul pukul delapan.” Orang yang menuliskan rencananya lebih sering menepatinya.",
+           "l": {
+            "en": "One if-then plan",
+            "id": "Satu rencana jika-maka"
+           }
+          }
+         ],
+         "img": "../../assets/bg/fg-sprint-direction.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "During: make it effortful, because easy practice feels good and teaches little",
+          "id": "Selama belajar: buat tetap menantang, karena latihan yang mudah terasa enak tetapi sedikit mengajarkan"
+         },
+         "em": {
+          "en": "make it effortful",
+          "id": "buat tetap menantang"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "question",
+           "en": "Test yourself",
+           "id": "Uji dirimu",
+           "d": {
+            "en": "Close the notes and write what you remember",
+            "id": "Tutup catatan dan tulis apa yang kamu ingat"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Space it",
+           "id": "Beri jeda",
+           "d": {
+            "en": "Four 25-minute sessions beat one long block",
+            "id": "Empat sesi 25 menit mengalahkan satu blok panjang"
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "Mix it",
+           "id": "Campur",
+           "d": {
+            "en": "Alternate problem types instead of repeating one",
+            "id": "Selang-seling jenis soal, jangan mengulang satu jenis"
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "laptop",
+           "en": "One screen",
+           "id": "Satu layar",
+           "d": {
+            "en": "Phone in another room, one tab open",
+            "id": "Ponsel di ruangan lain, satu tab terbuka"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ],
+         "band": {
+          "en": "If it feels a little hard, it is probably working. If it feels smooth, check whether you are learning or only recognising.",
+          "id": "Kalau terasa agak sulit, kemungkinan besar itu bekerja. Kalau terasa lancar, cek apakah kamu sedang belajar atau hanya mengenali."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "After: five minutes of looking back turn practice into progress",
+          "id": "Sesudah belajar: lima menit menengok ke belakang mengubah latihan menjadi kemajuan"
+         },
+         "em": {
+          "en": "five minutes of looking back",
+          "id": "lima menit menengok ke belakang"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "What did I miss?",
+           "id": "Apa yang meleset?",
+           "d": {
+            "en": "Mistakes show you where to work next",
+            "id": "Kesalahan menunjukkan di mana harus bekerja berikutnya"
+           }
+          },
+          {
+           "icon": "sliders",
+           "en": "What will I change?",
+           "id": "Apa yang kuubah?",
+           "d": {
+            "en": "One adjustment for the next session",
+            "id": "Satu penyesuaian untuk sesi berikutnya"
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Who can check me?",
+           "id": "Siapa yang bisa mengecek?",
+           "d": {
+            "en": "Ask one person one specific question",
+            "id": "Tanyakan satu hal spesifik kepada satu orang"
+           }
+          }
+         ],
+         "band": {
+          "en": "This is the recovery loop from Lesson 1.1, run on an ordinary day instead of a bad one.",
+          "id": "Ini putaran pemulihan dari Pelajaran 1.1, dijalankan di hari biasa, bukan hanya di hari yang buruk."
+         },
+         "img": "../../assets/bg/mind-palace-next-move.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The same loop that changes a response also builds a learning habit",
+          "id": "Putaran yang mengubah sebuah respons juga membangun kebiasaan belajar"
+         },
+         "em": {
+          "en": "builds a learning habit",
+          "id": "membangun kebiasaan belajar"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "Cue",
+           "id": "Pemicu",
+           "d": {
+            "en": "After dinner, the phone goes on the shelf",
+            "id": "Selesai makan malam, ponsel ditaruh di rak"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Routine",
+           "id": "Rutinitas",
+           "d": {
+            "en": "Twenty minutes of self-testing at the same desk",
+            "id": "Dua puluh menit menguji diri di meja yang sama"
+           }
+          },
+          {
+           "icon": "star",
+           "en": "Reward",
+           "id": "Imbalan",
+           "d": {
+            "en": "A tick on the calendar, then the series you like",
+            "id": "Satu centang di kalender, lalu serial kesukaanmu"
+           }
+          }
+         ],
+         "band": {
+          "en": "In a 2010 study by Phillippa Lally and colleagues, a new habit took 18 to 254 days to feel automatic, with 66 days as the midpoint. Missing one day changed little.",
+          "id": "Dalam penelitian Phillippa Lally dan rekan-rekannya pada 2010, kebiasaan baru butuh 18 sampai 254 hari untuk terasa otomatis, dengan 66 hari sebagai titik tengahnya. Melewatkan satu hari hampir tidak berpengaruh."
+         },
+         "img": "../../assets/bg/stage-foundation.jpg"
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "You rarely delete a habit; you give its cue a better routine",
+          "id": "Kebiasaan jarang bisa dihapus; yang bisa kamu lakukan adalah memberi pemicunya rutinitas yang lebih baik"
+         },
+         "em": {
+          "en": "a better routine",
+          "id": "rutinitas yang lebih baik"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“The test is in three days.” One all-night session with a highlighter.",
+           "id": "“Tesnya tiga hari lagi.” Satu sesi begadang dengan stabilo.",
+           "l": {
+            "en": "Same cue, old routine",
+            "id": "Pemicu sama, rutinitas lama"
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "“The test is in three days.” Three thirty-minute self-tests, one each evening, and a full night's sleep.",
+           "id": "“Tesnya tiga hari lagi.” Tiga kali menguji diri selama tiga puluh menit, satu setiap malam, lalu tidur cukup.",
+           "l": {
+            "en": "Same cue, new routine",
+            "id": "Pemicu sama, rutinitas baru"
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "band": {
+          "en": "Sleep is part of the method. Memory settles while you sleep, which is why an all-nighter costs you twice.",
+          "id": "Tidur adalah bagian dari caranya. Ingatan mengendap saat kamu tidur, dan karena itulah begadang merugikanmu dua kali."
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "This week: one learning habit, one cue, seven days",
+          "id": "Minggu ini: satu kebiasaan belajar, satu pemicu, tujuh hari"
+         },
+         "em": {
+          "en": "one learning habit",
+          "id": "satu kebiasaan belajar"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pin",
+           "en": "Pick one",
+           "id": "Pilih satu",
+           "d": {
+            "en": "The swap that would help you most",
+            "id": "Pertukaran yang paling menolongmu"
+           }
+          },
+          {
+           "icon": "route",
+           "en": "Write the if-then",
+           "id": "Tulis jika-maka",
+           "d": {
+            "en": "Cue, routine, and the obstacle you expect",
+            "id": "Pemicu, rutinitas, dan rintangan yang kamu perkirakan"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Log seven days",
+           "id": "Catat tujuh hari",
+           "d": {
+            "en": "One line a day in your audit",
+            "id": "Satu baris sehari di auditmu"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Review",
+           "id": "Tinjau",
+           "d": {
+            "en": "Keep it, shrink it, or change the cue",
+            "id": "Pertahankan, perkecil, atau ganti pemicunya"
+           }
+          }
+         ],
+         "band": {
+          "en": "One habit, tested for a week, is worth more than five intentions.",
+          "id": "Satu kebiasaan yang diuji selama seminggu lebih berharga daripada lima niat."
+         },
+         "img": "../../assets/bg/journey-bg.jpg"
+        }
+       ],
+       "read": {
+        "en": "Read next",
+        "id": "Baca berikutnya"
+       }
+      },
+      "slides": [
+       {
+        "title": {
+         "en": "Learning Habits",
+         "id": "Kebiasaan Belajar"
+        },
+        "text": {
+         "en": "One more deck before the knowledge check. How you learn is the first thing you can own without anyone's permission. Eight ideas on what works, what only feels as if it works, and how to make the good version automatic.",
+         "id": "Satu dek lagi sebelum cek pemahaman. Caramu belajar adalah hal pertama yang bisa kamu miliki tanpa izin siapa pun. Delapan gagasan tentang apa yang benar-benar berhasil, apa yang hanya terasa berhasil, dan cara membuat versi yang baik berjalan otomatis."
+        },
+        "spec": {
+         "kind": "cover"
+        }
+       },
+       {
+        "title": {
+         "en": "How you learn is a habit",
+         "id": "Caramu belajar adalah kebiasaan"
+        },
+        "text": {
+         "en": "How fast you adapt depends on how you learn, and how you learn is mostly habit Two people take the same course and spend the same hours. What differs is what they do in those hours. On autopilot: Rereads the notes the night before, highlighter in hand, phone on the desk. By design: Twenty minutes a day with the notes closed, writing down what she remembers. In a first job nobody hands you a syllabus. Your learning habits are the syllabus.",
+         "id": "Seberapa cepat kamu beradaptasi bergantung pada caramu belajar, dan caramu belajar sebagian besar adalah kebiasaan Dua orang mengikuti kursus yang sama dengan jumlah jam yang sama. Yang berbeda adalah apa yang mereka lakukan di jam-jam itu. Serba otomatis: Membaca ulang catatan di malam sebelumnya, stabilo di tangan, ponsel di atas meja. Dirancang: Dua puluh menit sehari dengan catatan tertutup, menuliskan apa yang ia ingat. Di pekerjaan pertama tidak ada yang memberimu silabus. Kebiasaan belajarmulah silabusnya."
+        },
+        "points": [
+         {
+          "en": "Two people take the same course and spend the same hours. What differs is what they do in those hours.",
+          "id": "Dua orang mengikuti kursus yang sama dengan jumlah jam yang sama. Yang berbeda adalah apa yang mereka lakukan di jam-jam itu."
+         }
+        ],
+        "spec": {
+         "kind": "body",
+         "t": {
+          "en": "How fast you adapt depends on how you learn, and how you learn is mostly habit",
+          "id": "Seberapa cepat kamu beradaptasi bergantung pada caramu belajar, dan caramu belajar sebagian besar adalah kebiasaan"
+         },
+         "em": {
+          "en": "mostly habit",
+          "id": "sebagian besar adalah kebiasaan"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "refresh",
+           "en": "Rereads the notes the night before, highlighter in hand, phone on the desk.",
+           "id": "Membaca ulang catatan di malam sebelumnya, stabilo di tangan, ponsel di atas meja.",
+           "l": {
+            "en": "On autopilot",
+            "id": "Serba otomatis"
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Twenty minutes a day with the notes closed, writing down what she remembers.",
+           "id": "Dua puluh menit sehari dengan catatan tertutup, menuliskan apa yang ia ingat.",
+           "l": {
+            "en": "By design",
+            "id": "Dirancang"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          }
+         ],
+         "band": {
+          "en": "In a first job nobody hands you a syllabus. Your learning habits are the syllabus.",
+          "id": "Di pekerjaan pertama tidak ada yang memberimu silabus. Kebiasaan belajarmulah silabusnya."
+         }
+        }
+       },
+       {
+        "title": {
+         "en": "Four beliefs to test",
+         "id": "Empat keyakinan untuk diuji"
+        },
+        "text": {
+         "en": "Four beliefs about learning feel true, and the evidence says otherwise Mark the one you still act on. That is where this deck will pay off first. “Rereading is revision.”: Recalling from memory beats reading it again “Cramming works.”: For tomorrow, yes. By next week it is gone “I have a learning style.”: Matching lessons to a style has not been shown to help “I can multitask.”: Every switch costs time and adds errors Psychologists call the first two findings the testing effect and the spacing effect.",
+         "id": "Empat keyakinan tentang belajar terasa benar, padahal buktinya berkata lain Tandai satu yang masih kamu jalankan. Di situlah dek ini paling cepat terasa manfaatnya. “Membaca ulang itu belajar.”: Mengingat dari kepala mengalahkan membacanya lagi “Kebut semalam itu ampuh.”: Untuk besok, ya. Minggu depan sudah hilang “Aku punya gaya belajar sendiri.”: Menyesuaikan pelajaran dengan gaya belajar belum terbukti membantu “Aku bisa multitasking.”: Setiap perpindahan memakan waktu dan menambah kesalahan Psikolog menyebut dua temuan pertama sebagai efek pengujian dan efek jeda."
+        },
+        "points": [
+         {
+          "en": "Mark the one you still act on. That is where this deck will pay off first.",
+          "id": "Tandai satu yang masih kamu jalankan. Di situlah dek ini paling cepat terasa manfaatnya."
+         }
+        ],
+        "spec": {
+         "kind": "body",
+         "t": {
+          "en": "Four beliefs about learning feel true, and the evidence says otherwise",
+          "id": "Empat keyakinan tentang belajar terasa benar, padahal buktinya berkata lain"
+         },
+         "em": {
+          "en": "the evidence says otherwise",
+          "id": "buktinya berkata lain"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "“Rereading is revision.”",
+           "id": "“Membaca ulang itu belajar.”",
+           "d": {
+            "en": "Recalling from memory beats reading it again",
+            "id": "Mengingat dari kepala mengalahkan membacanya lagi"
+           },
+           "img": "../../assets/bg/stage-foundation.jpg"
+          },
+          {
+           "icon": "moon",
+           "en": "“Cramming works.”",
+           "id": "“Kebut semalam itu ampuh.”",
+           "d": {
+            "en": "For tomorrow, yes. By next week it is gone",
+            "id": "Untuk besok, ya. Minggu depan sudah hilang"
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "person",
+           "en": "“I have a learning style.”",
+           "id": "“Aku punya gaya belajar sendiri.”",
+           "d": {
+            "en": "Matching lessons to a style has not been shown to help",
+            "id": "Menyesuaikan pelajaran dengan gaya belajar belum terbukti membantu"
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          },
+          {
+           "icon": "phone",
+           "en": "“I can multitask.”",
+           "id": "“Aku bisa multitasking.”",
+           "d": {
+            "en": "Every switch costs time and adds errors",
+            "id": "Setiap perpindahan memakan waktu dan menambah kesalahan"
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          }
+         ],
+         "band": {
+          "en": "Psychologists call the first two findings the testing effect and the spacing effect.",
+          "id": "Psikolog menyebut dua temuan pertama sebagai efek pengujian dan efek jeda."
+         }
+        }
+       },
+       {
+        "title": {
+         "en": "Before",
+         "id": "Sebelum"
+        },
+        "text": {
+         "en": "Before you start: decide the what, the when and the obstacle Good learning has three moments: before, during and after. Most people only show up for the middle one. One target: “Build a pivot table without notes” beats “learn Excel”. One slot: The same place and the same hour, already in your calendar. One if-then plan: “If friends call at seven, then I join them at eight.” People who write the plan down follow through more often.",
+         "id": "Sebelum mulai: tentukan apa, kapan, dan rintangannya Belajar yang baik punya tiga momen: sebelum, selama, dan sesudah. Kebanyakan orang hanya hadir di momen yang tengah. Satu sasaran: “Membuat tabel pivot tanpa melihat catatan” mengalahkan “belajar Excel”. Satu slot: Tempat dan jam yang sama, sudah masuk kalendermu. Satu rencana jika-maka: “Jika teman mengajak pukul tujuh, maka aku menyusul pukul delapan.” Orang yang menuliskan rencananya lebih sering menepatinya."
+        },
+        "points": [
+         {
+          "en": "Good learning has three moments: before, during and after. Most people only show up for the middle one.",
+          "id": "Belajar yang baik punya tiga momen: sebelum, selama, dan sesudah. Kebanyakan orang hanya hadir di momen yang tengah."
+         }
+        ],
+        "spec": {
+         "kind": "body",
+         "t": {
+          "en": "Before you start: decide the what, the when and the obstacle",
+          "id": "Sebelum mulai: tentukan apa, kapan, dan rintangannya"
+         },
+         "em": {
+          "en": "the what, the when and the obstacle",
+          "id": "apa, kapan, dan rintangannya"
+         },
+         "layout": "list",
+         "items": [
+          {
+           "icon": "target",
+           "en": "“Build a pivot table without notes” beats “learn Excel”.",
+           "id": "“Membuat tabel pivot tanpa melihat catatan” mengalahkan “belajar Excel”.",
+           "l": {
+            "en": "One target",
+            "id": "Satu sasaran"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "The same place and the same hour, already in your calendar.",
+           "id": "Tempat dan jam yang sama, sudah masuk kalendermu.",
+           "l": {
+            "en": "One slot",
+            "id": "Satu slot"
+           }
+          },
+          {
+           "icon": "route",
+           "en": "“If friends call at seven, then I join them at eight.” People who write the plan down follow through more often.",
+           "id": "“Jika teman mengajak pukul tujuh, maka aku menyusul pukul delapan.” Orang yang menuliskan rencananya lebih sering menepatinya.",
+           "l": {
+            "en": "One if-then plan",
+            "id": "Satu rencana jika-maka"
+           }
+          }
+         ],
+         "img": "../../assets/bg/fg-sprint-direction.jpg"
+        }
+       },
+       {
+        "title": {
+         "en": "During",
+         "id": "Selama"
+        },
+        "text": {
+         "en": "During: make it effortful, because easy practice feels good and teaches little Four ways to keep a session honest. Test yourself: Close the notes and write what you remember Space it: Four 25-minute sessions beat one long block Mix it: Alternate problem types instead of repeating one One screen: Phone in another room, one tab open If it feels a little hard, it is probably working. If it feels smooth, check whether you are learning or only recognising.",
+         "id": "Selama belajar: buat tetap menantang, karena latihan yang mudah terasa enak tetapi sedikit mengajarkan Empat cara menjaga sebuah sesi tetap jujur. Uji dirimu: Tutup catatan dan tulis apa yang kamu ingat Beri jeda: Empat sesi 25 menit mengalahkan satu blok panjang Campur: Selang-seling jenis soal, jangan mengulang satu jenis Satu layar: Ponsel di ruangan lain, satu tab terbuka Kalau terasa agak sulit, kemungkinan besar itu bekerja. Kalau terasa lancar, cek apakah kamu sedang belajar atau hanya mengenali."
+        },
+        "points": [
+         {
+          "en": "Four ways to keep a session honest.",
+          "id": "Empat cara menjaga sebuah sesi tetap jujur."
+         }
+        ],
+        "spec": {
+         "kind": "body",
+         "t": {
+          "en": "During: make it effortful, because easy practice feels good and teaches little",
+          "id": "Selama belajar: buat tetap menantang, karena latihan yang mudah terasa enak tetapi sedikit mengajarkan"
+         },
+         "em": {
+          "en": "make it effortful",
+          "id": "buat tetap menantang"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "question",
+           "en": "Test yourself",
+           "id": "Uji dirimu",
+           "d": {
+            "en": "Close the notes and write what you remember",
+            "id": "Tutup catatan dan tulis apa yang kamu ingat"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Space it",
+           "id": "Beri jeda",
+           "d": {
+            "en": "Four 25-minute sessions beat one long block",
+            "id": "Empat sesi 25 menit mengalahkan satu blok panjang"
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "Mix it",
+           "id": "Campur",
+           "d": {
+            "en": "Alternate problem types instead of repeating one",
+            "id": "Selang-seling jenis soal, jangan mengulang satu jenis"
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "laptop",
+           "en": "One screen",
+           "id": "Satu layar",
+           "d": {
+            "en": "Phone in another room, one tab open",
+            "id": "Ponsel di ruangan lain, satu tab terbuka"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ],
+         "band": {
+          "en": "If it feels a little hard, it is probably working. If it feels smooth, check whether you are learning or only recognising.",
+          "id": "Kalau terasa agak sulit, kemungkinan besar itu bekerja. Kalau terasa lancar, cek apakah kamu sedang belajar atau hanya mengenali."
+         }
+        }
+       },
+       {
+        "title": {
+         "en": "After",
+         "id": "Sesudah"
+        },
+        "text": {
+         "en": "After: five minutes of looking back turn practice into progress Three questions, asked while the session is still fresh. What did I miss?: Mistakes show you where to work next What will I change?: One adjustment for the next session Who can check me?: Ask one person one specific question This is the recovery loop from Lesson 1.1, run on an ordinary day instead of a bad one.",
+         "id": "Sesudah belajar: lima menit menengok ke belakang mengubah latihan menjadi kemajuan Tiga pertanyaan, diajukan selagi sesinya masih segar. Apa yang meleset?: Kesalahan menunjukkan di mana harus bekerja berikutnya Apa yang kuubah?: Satu penyesuaian untuk sesi berikutnya Siapa yang bisa mengecek?: Tanyakan satu hal spesifik kepada satu orang Ini putaran pemulihan dari Pelajaran 1.1, dijalankan di hari biasa, bukan hanya di hari yang buruk."
+        },
+        "points": [
+         {
+          "en": "Three questions, asked while the session is still fresh.",
+          "id": "Tiga pertanyaan, diajukan selagi sesinya masih segar."
+         }
+        ],
+        "spec": {
+         "kind": "body",
+         "t": {
+          "en": "After: five minutes of looking back turn practice into progress",
+          "id": "Sesudah belajar: lima menit menengok ke belakang mengubah latihan menjadi kemajuan"
+         },
+         "em": {
+          "en": "five minutes of looking back",
+          "id": "lima menit menengok ke belakang"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "What did I miss?",
+           "id": "Apa yang meleset?",
+           "d": {
+            "en": "Mistakes show you where to work next",
+            "id": "Kesalahan menunjukkan di mana harus bekerja berikutnya"
+           }
+          },
+          {
+           "icon": "sliders",
+           "en": "What will I change?",
+           "id": "Apa yang kuubah?",
+           "d": {
+            "en": "One adjustment for the next session",
+            "id": "Satu penyesuaian untuk sesi berikutnya"
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Who can check me?",
+           "id": "Siapa yang bisa mengecek?",
+           "d": {
+            "en": "Ask one person one specific question",
+            "id": "Tanyakan satu hal spesifik kepada satu orang"
+           }
+          }
+         ],
+         "band": {
+          "en": "This is the recovery loop from Lesson 1.1, run on an ordinary day instead of a bad one.",
+          "id": "Ini putaran pemulihan dari Pelajaran 1.1, dijalankan di hari biasa, bukan hanya di hari yang buruk."
+         },
+         "img": "../../assets/bg/mind-palace-next-move.jpg"
+        }
+       },
+       {
+        "title": {
+         "en": "Make it automatic",
+         "id": "Buat berjalan otomatis"
+        },
+        "text": {
+         "en": "The same loop that changes a response also builds a learning habit You met cue, routine and reward in the first deck. Here they are pointed at learning. Cue: After dinner, the phone goes on the shelf Routine: Twenty minutes of self-testing at the same desk Reward: A tick on the calendar, then the series you like In a 2010 study by Phillippa Lally and colleagues, a new habit took 18 to 254 days to feel automatic, with 66 days as the midpoint. Missing one day changed little.",
+         "id": "Putaran yang mengubah sebuah respons juga membangun kebiasaan belajar Kamu sudah bertemu pemicu, rutinitas, dan imbalan di dek pertama. Di sini ketiganya diarahkan pada belajar. Pemicu: Selesai makan malam, ponsel ditaruh di rak Rutinitas: Dua puluh menit menguji diri di meja yang sama Imbalan: Satu centang di kalender, lalu serial kesukaanmu Dalam penelitian Phillippa Lally dan rekan-rekannya pada 2010, kebiasaan baru butuh 18 sampai 254 hari untuk terasa otomatis, dengan 66 hari sebagai titik tengahnya. Melewatkan satu hari hampir tidak berpengaruh."
+        },
+        "points": [
+         {
+          "en": "You met cue, routine and reward in the first deck. Here they are pointed at learning.",
+          "id": "Kamu sudah bertemu pemicu, rutinitas, dan imbalan di dek pertama. Di sini ketiganya diarahkan pada belajar."
+         }
+        ],
+        "spec": {
+         "kind": "body",
+         "t": {
+          "en": "The same loop that changes a response also builds a learning habit",
+          "id": "Putaran yang mengubah sebuah respons juga membangun kebiasaan belajar"
+         },
+         "em": {
+          "en": "builds a learning habit",
+          "id": "membangun kebiasaan belajar"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "Cue",
+           "id": "Pemicu",
+           "d": {
+            "en": "After dinner, the phone goes on the shelf",
+            "id": "Selesai makan malam, ponsel ditaruh di rak"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Routine",
+           "id": "Rutinitas",
+           "d": {
+            "en": "Twenty minutes of self-testing at the same desk",
+            "id": "Dua puluh menit menguji diri di meja yang sama"
+           }
+          },
+          {
+           "icon": "star",
+           "en": "Reward",
+           "id": "Imbalan",
+           "d": {
+            "en": "A tick on the calendar, then the series you like",
+            "id": "Satu centang di kalender, lalu serial kesukaanmu"
+           }
+          }
+         ],
+         "band": {
+          "en": "In a 2010 study by Phillippa Lally and colleagues, a new habit took 18 to 254 days to feel automatic, with 66 days as the midpoint. Missing one day changed little.",
+          "id": "Dalam penelitian Phillippa Lally dan rekan-rekannya pada 2010, kebiasaan baru butuh 18 sampai 254 hari untuk terasa otomatis, dengan 66 hari sebagai titik tengahnya. Melewatkan satu hari hampir tidak berpengaruh."
+         },
+         "img": "../../assets/bg/stage-foundation.jpg"
+        }
+       },
+       {
+        "title": {
+         "en": "Swap, do not delete",
+         "id": "Tukar, jangan hapus"
+        },
+        "text": {
+         "en": "You rarely delete a habit; you give its cue a better routine Pick the learning habit that costs you most, and keep its cue. Same cue, old routine: “The test is in three days.” One all-night session with a highlighter. Same cue, new routine: “The test is in three days.” Three thirty-minute self-tests, one each evening, and a full night's sleep. Sleep is part of the method. Memory settles while you sleep, which is why an all-nighter costs you twice.",
+         "id": "Kebiasaan jarang bisa dihapus; yang bisa kamu lakukan adalah memberi pemicunya rutinitas yang lebih baik Pilih kebiasaan belajar yang paling merugikanmu, lalu pertahankan pemicunya. Pemicu sama, rutinitas lama: “Tesnya tiga hari lagi.” Satu sesi begadang dengan stabilo. Pemicu sama, rutinitas baru: “Tesnya tiga hari lagi.” Tiga kali menguji diri selama tiga puluh menit, satu setiap malam, lalu tidur cukup. Tidur adalah bagian dari caranya. Ingatan mengendap saat kamu tidur, dan karena itulah begadang merugikanmu dua kali."
+        },
+        "points": [
+         {
+          "en": "Pick the learning habit that costs you most, and keep its cue.",
+          "id": "Pilih kebiasaan belajar yang paling merugikanmu, lalu pertahankan pemicunya."
+         }
+        ],
+        "spec": {
+         "kind": "body",
+         "t": {
+          "en": "You rarely delete a habit; you give its cue a better routine",
+          "id": "Kebiasaan jarang bisa dihapus; yang bisa kamu lakukan adalah memberi pemicunya rutinitas yang lebih baik"
+         },
+         "em": {
+          "en": "a better routine",
+          "id": "rutinitas yang lebih baik"
+         },
+         "layout": "compare",
+         "items": [
+          {
+           "icon": "x",
+           "en": "“The test is in three days.” One all-night session with a highlighter.",
+           "id": "“Tesnya tiga hari lagi.” Satu sesi begadang dengan stabilo.",
+           "l": {
+            "en": "Same cue, old routine",
+            "id": "Pemicu sama, rutinitas lama"
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "“The test is in three days.” Three thirty-minute self-tests, one each evening, and a full night's sleep.",
+           "id": "“Tesnya tiga hari lagi.” Tiga kali menguji diri selama tiga puluh menit, satu setiap malam, lalu tidur cukup.",
+           "l": {
+            "en": "Same cue, new routine",
+            "id": "Pemicu sama, rutinitas baru"
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "band": {
+          "en": "Sleep is part of the method. Memory settles while you sleep, which is why an all-nighter costs you twice.",
+          "id": "Tidur adalah bagian dari caranya. Ingatan mengendap saat kamu tidur, dan karena itulah begadang merugikanmu dua kali."
+         }
+        }
+       },
+       {
+        "title": {
+         "en": "One week",
+         "id": "Satu minggu"
+        },
+        "text": {
+         "en": "This week: one learning habit, one cue, seven days Do not install all of this at once. One habit, tested for a week, is enough to start. Pick one: The swap that would help you most Write the if-then: Cue, routine, and the obstacle you expect Log seven days: One line a day in your audit Review: Keep it, shrink it, or change the cue One habit, tested for a week, is worth more than five intentions.",
+         "id": "Minggu ini: satu kebiasaan belajar, satu pemicu, tujuh hari Jangan memasang semuanya sekaligus. Satu kebiasaan yang diuji selama seminggu sudah cukup untuk memulai. Pilih satu: Pertukaran yang paling menolongmu Tulis jika-maka: Pemicu, rutinitas, dan rintangan yang kamu perkirakan Catat tujuh hari: Satu baris sehari di auditmu Tinjau: Pertahankan, perkecil, atau ganti pemicunya Satu kebiasaan yang diuji selama seminggu lebih berharga daripada lima niat."
+        },
+        "points": [
+         {
+          "en": "Do not install all of this at once. One habit, tested for a week, is enough to start.",
+          "id": "Jangan memasang semuanya sekaligus. Satu kebiasaan yang diuji selama seminggu sudah cukup untuk memulai."
+         }
+        ],
+        "spec": {
+         "kind": "body",
+         "t": {
+          "en": "This week: one learning habit, one cue, seven days",
+          "id": "Minggu ini: satu kebiasaan belajar, satu pemicu, tujuh hari"
+         },
+         "em": {
+          "en": "one learning habit",
+          "id": "satu kebiasaan belajar"
+         },
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pin",
+           "en": "Pick one",
+           "id": "Pilih satu",
+           "d": {
+            "en": "The swap that would help you most",
+            "id": "Pertukaran yang paling menolongmu"
+           }
+          },
+          {
+           "icon": "route",
+           "en": "Write the if-then",
+           "id": "Tulis jika-maka",
+           "d": {
+            "en": "Cue, routine, and the obstacle you expect",
+            "id": "Pemicu, rutinitas, dan rintangan yang kamu perkirakan"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Log seven days",
+           "id": "Catat tujuh hari",
+           "d": {
+            "en": "One line a day in your audit",
+            "id": "Satu baris sehari di auditmu"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Review",
+           "id": "Tinjau",
+           "d": {
+            "en": "Keep it, shrink it, or change the cue",
+            "id": "Pertahankan, perkecil, atau ganti pemicunya"
+           }
+          }
+         ],
+         "band": {
+          "en": "One habit, tested for a week, is worth more than five intentions.",
+          "id": "Satu kebiasaan yang diuji selama seminggu lebih berharga daripada lima niat."
+         },
+         "img": "../../assets/bg/journey-bg.jpg"
+        }
+       },
+       {
+        "title": {
+         "en": "What to carry forward",
+         "id": "Yang perlu dibawa"
+        },
+        "text": {
+         "en": "In a first job nobody hands you a syllabus. Your learning habits are the syllabus. Psychologists call the first two findings the testing effect and the spacing effect. Good learning has three moments: before, during and after. Most people only show up for the middle one. If it feels a little hard, it is probably working. If it feels smooth, check whether you are learning or only recognising. This is the recovery loop from Lesson 1.1, run on an ordinary day instead of a bad one. In a 2010 study by Phillippa Lally and colleagues, a new habit took 18 to 254 days to feel automatic, with 66 days as the midpoint. Missing one day changed little. Sleep is part of the method. Memory settles while you sleep, which is why an all-nighter costs you twice. One habit, tested for a week, is worth more than five intentions.",
+         "id": "Di pekerjaan pertama tidak ada yang memberimu silabus. Kebiasaan belajarmulah silabusnya. Psikolog menyebut dua temuan pertama sebagai efek pengujian dan efek jeda. Belajar yang baik punya tiga momen: sebelum, selama, dan sesudah. Kebanyakan orang hanya hadir di momen yang tengah. Kalau terasa agak sulit, kemungkinan besar itu bekerja. Kalau terasa lancar, cek apakah kamu sedang belajar atau hanya mengenali. Ini putaran pemulihan dari Pelajaran 1.1, dijalankan di hari biasa, bukan hanya di hari yang buruk. Dalam penelitian Phillippa Lally dan rekan-rekannya pada 2010, kebiasaan baru butuh 18 sampai 254 hari untuk terasa otomatis, dengan 66 hari sebagai titik tengahnya. Melewatkan satu hari hampir tidak berpengaruh. Tidur adalah bagian dari caranya. Ingatan mengendap saat kamu tidur, dan karena itulah begadang merugikanmu dua kali. Satu kebiasaan yang diuji selama seminggu lebih berharga daripada lima niat."
+        },
+        "spec": {
+         "kind": "close"
+        }
+       }
+      ]
      }
     },
     {
