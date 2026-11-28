@@ -1,0 +1,363 @@
+{
+ "id": "map-1-1-two-muscles",
+ "lesson": "1.1",
+ "seed": 11,
+ "title": {
+  "en": "Two muscles: *adaptability* and *resilience*",
+  "id": "Dua otot: *adaptabilitas* dan *ketangguhan*"
+ },
+ "places": {
+  "start": {
+   "en": "What you know",
+   "id": "Yang sudah kamu kuasai"
+  },
+  "goal": {
+   "en": "First job",
+   "id": "Pekerjaan pertama"
+  },
+  "sea": {
+   "en": "Open water",
+   "id": "Laut lepas"
+  },
+  "dot": {
+   "en": "Campus",
+   "id": "Kampus"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Two muscles: adaptability and resilience.",
+    "id": "Dua otot: adaptabilitas dan ketangguhan."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "envelope",
+   "label": {
+    "en": "Rejection",
+    "id": "Penolakan"
+   },
+   "tiles": "9",
+   "note": {
+    "en": "stage two. again.",
+    "id": "tahap dua. lagi."
+   },
+   "card": {
+    "en": "Tuesday, 7:40. Rejection *number*",
+    "id": "Selasa, 07.40. Penolakan *nomor*"
+   },
+   "vtt": {
+    "en": "Tuesday, 7:40. Laras opens her inbox. Rejection number nine.",
+    "id": "Selasa, 07.40. Laras membuka kotak masuknya. Penolakan nomor sembilan."
+   }
+  },
+  {
+   "kind": "sign",
+   "old": {
+    "en": "Old tool",
+    "id": "Alat lama"
+   },
+   "new": {
+    "en": "New tool",
+    "id": "Alat baru"
+   },
+   "note": {
+    "en": "from today.",
+    "id": "mulai hari ini."
+   },
+   "card": {
+    "en": "9:00. The tool she spent *a month* learning:",
+    "id": "09.00. Alat yang ia pelajari *sebulan*:"
+   },
+   "hand": {
+    "en": "gone.",
+    "id": "hilang."
+   },
+   "vtt": {
+    "en": "At nine, the reporting tool she spent a month learning is gone. The team works in a new one.",
+    "id": "Pukul sembilan, alat pelaporan yang ia pelajari sebulan sudah tidak dipakai. Tim pindah ke alat baru."
+   }
+  },
+  {
+   "kind": "wide",
+   "mark": [
+    1,
+    2
+   ],
+   "card": {
+    "en": "Two bad surprises. *Not the same* problem.",
+    "id": "Dua kejutan buruk. *Bukan* masalah yang sama."
+   },
+   "vtt": {
+    "en": "Two bad surprises in one morning. But they are not the same problem.",
+    "id": "Dua kejutan buruk dalam satu pagi. Tapi keduanya bukan masalah yang sama."
+   }
+  },
+  {
+   "kind": "pair",
+   "a": {
+    "label": {
+     "en": "Adaptability",
+     "id": "Adaptabilitas"
+    },
+    "sub": {
+     "en": "a decision about method",
+     "id": "keputusan soal cara"
+    }
+   },
+   "b": {
+    "label": {
+     "en": "Resilience",
+     "id": "Ketangguhan"
+    },
+    "sub": {
+     "en": "a discipline about energy",
+     "id": "disiplin soal tenaga"
+    }
+   },
+   "note": {
+    "en": "strong in one, weak in the other? normal.",
+    "id": "kuat di satu, lemah di lainnya? wajar."
+   },
+   "card": {
+    "en": "Two *different* muscles. Both can be trained.",
+    "id": "Dua otot yang *berbeda*. Keduanya bisa dilatih."
+   },
+   "vtt": {
+    "en": "The new tool asks her to change her method: adaptability. The rejection drains her energy; getting it back is resilience. Both can be trained.",
+    "id": "Alat baru menuntutnya mengubah cara: adaptabilitas. Penolakan menguras tenaganya; memulihkannya adalah ketangguhan. Keduanya bisa dilatih."
+   }
+  },
+  {
+   "kind": "loop",
+   "tiles": "15",
+   "unit": {
+    "en": "minutes",
+    "id": "menit"
+   },
+   "items": [
+    {
+     "en": "Name it",
+     "id": "Namai"
+    },
+    {
+     "en": "Normalise",
+     "id": "Wajarkan"
+    },
+    {
+     "en": "Take one thing",
+     "id": "Ambil satu hal"
+    },
+    {
+     "en": "Choose a step",
+     "id": "Pilih langkah"
+    }
+   ],
+   "card": {
+    "en": "For the rejection: *the recovery loop.*",
+    "id": "Untuk penolakan: *lingkaran pemulihan.*"
+   },
+   "vtt": {
+    "en": "For the rejection, Laras runs a recovery loop. Four steps, fifteen minutes.",
+    "id": "Untuk penolakan itu, Laras menjalankan lingkaran pemulihan. Empat langkah, lima belas menit."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "1 · Name it",
+    "id": "1 · Namai"
+   },
+   "old": {
+    "en": "I am bad at this.",
+    "id": "Aku memang payah."
+   },
+   "new": [
+    {
+     "en": "I failed the numerical test",
+     "id": "Aku gagal di tes numerik"
+    },
+    {
+     "en": "at stage two.",
+     "id": "tahap dua."
+    }
+   ],
+   "card": {
+    "en": "Name it, *precisely*.",
+    "id": "Namai, *dengan tepat*."
+   },
+   "vtt": {
+    "en": "Name it, precisely. Not “I am bad at this”, but “I failed the numerical test at stage two.”",
+    "id": "Namai, dengan tepat. Bukan “aku memang payah”, melainkan “aku gagal di tes numerik tahap dua.”"
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "people",
+   "label": {
+    "en": "2 · Normalise",
+    "id": "2 · Wajarkan"
+   },
+   "note": {
+    "en": "the terrain, not a verdict.",
+    "id": "ini medannya, bukan vonis."
+   },
+   "card": {
+    "en": "Most applicants are rejected *most of the time*.",
+    "id": "Kebanyakan pelamar ditolak di *sebagian besar* lamarannya."
+   },
+   "vtt": {
+    "en": "Normalise it. Most applicants are rejected most of the time. This is the terrain, not a verdict on her.",
+    "id": "Wajarkan. Kebanyakan pelamar ditolak di sebagian besar lamarannya. Ini medannya, bukan vonis atas dirinya."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "timer",
+   "label": {
+    "en": "3 · One thing she controls",
+    "id": "3 · Satu hal dalam kendalinya"
+   },
+   "note": {
+    "en": "out of time on the last ten.",
+    "id": "kehabisan waktu di sepuluh soal akhir."
+   },
+   "card": {
+    "en": "Take *one thing* she controls.",
+    "id": "Ambil *satu hal* yang ia kendalikan."
+   },
+   "vtt": {
+    "en": "Take one thing she controls. She ran out of time on the last ten questions.",
+    "id": "Ambil satu hal yang ia kendalikan. Ia kehabisan waktu di sepuluh soal terakhir."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "calendar",
+   "label": {
+    "en": "4 · Tomorrow, 8:00",
+    "id": "4 · Besok, 08.00"
+   },
+   "tiles": "20",
+   "note": {
+    "en": "minutes, timed. booked.",
+    "id": "menit, pakai timer. dijadwalkan."
+   },
+   "card": {
+    "en": "Choose the next step. *Book it.*",
+    "id": "Pilih langkah berikutnya. *Jadwalkan.*"
+   },
+   "vtt": {
+    "en": "Choose the next step, and put it in the calendar. Twenty minutes of timed practice, tomorrow at eight.",
+    "id": "Pilih langkah berikutnya, lalu masukkan ke kalender. Dua puluh menit latihan dengan timer, besok pukul delapan."
+   }
+  },
+  {
+   "kind": "number",
+   "tiles": "8/10",
+   "unit": {
+    "en": "Wednesday, 8:00",
+    "id": "Rabu, 08.00"
+   },
+   "note": {
+    "en": "two wrong. but finished.",
+    "id": "dua salah. tapi selesai."
+   },
+   "card": {
+    "en": "A timer. Ten questions.",
+    "id": "Satu timer. Sepuluh soal."
+   },
+   "vtt": {
+    "en": "Wednesday, eight o'clock. A timer, ten questions. She still gets two wrong. But this time she finishes.",
+    "id": "Rabu, pukul delapan. Satu timer, sepuluh soal. Ia masih salah dua. Tapi kali ini ia selesai."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "Adaptability",
+    "id": "Adaptabilitas"
+   },
+   "sub": {
+    "en": "change the method",
+    "id": "ubah caranya"
+   },
+   "notes": [
+    {
+     "en": "ask a teammate for 15 minutes.",
+     "id": "minta 15 menit dari rekan setim."
+    },
+    {
+     "en": "rebuild one small report, alone.",
+     "id": "bangun ulang satu laporan kecil, sendiri."
+    }
+   ],
+   "card": {
+    "en": "For the new tool, a *different* answer.",
+    "id": "Untuk alat baru, jawabannya *berbeda*."
+   },
+   "vtt": {
+    "en": "For the new tool, the answer is different. She changes her method: fifteen minutes with a teammate, then one small report rebuilt by herself.",
+    "id": "Untuk alat baru, jawabannya berbeda. Ia mengubah caranya: lima belas menit bersama rekan setim, lalu membangun ulang satu laporan kecil sendirian."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "slides",
+   "label": {
+    "en": "Friday · first report",
+    "id": "Jumat · laporan pertama"
+   },
+   "note": {
+    "en": "it is just “the tool” now.",
+    "id": "sekarang cukup disebut “alatnya”."
+   },
+   "card": {
+    "en": "Friday. Her first report in *the tool*.",
+    "id": "Jumat. Laporan pertamanya di *alat itu*."
+   },
+   "vtt": {
+    "en": "Friday. Laras presents her first report in the new tool. Nobody calls it the new tool any more.",
+    "id": "Jumat. Laras mempresentasikan laporan pertamanya di alat baru. Tak ada lagi yang menyebutnya alat baru."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "A setback you process becomes",
+    "id": "Kemunduran yang kamu olah menjadi"
+   },
+   "tiles": "DATA.",
+   "note": {
+    "en": "avoid it, and it becomes fear.",
+    "id": "dihindari, ia menjadi takut."
+   },
+   "vtt": {
+    "en": "A setback you process becomes data. A setback you avoid becomes fear.",
+    "id": "Kemunduran yang kamu olah menjadi data. Kemunduran yang kamu hindari menjadi takut."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: pick *one setback* from the last month.",
+    "id": "Giliranmu: pilih *satu kemunduran* dari sebulan terakhir."
+   },
+   "stamp": {
+    "en": "Run the loop",
+    "id": "Jalankan lingkarannya"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Pick one setback from the last month, and run the loop.",
+    "id": "Sekarang giliranmu. Pilih satu kemunduran dari sebulan terakhir, lalu jalankan lingkarannya."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

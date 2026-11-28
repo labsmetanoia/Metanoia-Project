@@ -1,57 +1,35 @@
 # What lasts: fundamentals, a learning loop and change you did not choose
 
-Film `map-5-5-what-lasts` · The Map 5.5
+Film `map-5-5-what-lasts` · The Map 5.5 · collage style, with music and sound effects
 
-**Source note.** Written for this lesson from its own objectives and reading: fundamentals that outlast tools, a personal learning loop of one source, one project, one log and one defended hour, public evidence of skill, and choosing one action inside your control when a change is imposed. These are general practices of professional learning, taught here in the lesson's own words. The case and the characters are invented for this film and appear in no other course. No third-party script, footage, picture or sound.
+**Source note.** Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.
 
-## English (169 s)
+## English (85 s)
 
-- `00:04` Vina spent her first year mastering the team's reporting tool.
-- `00:09` On Monday morning the team hears that from March, a new AI tool will replace it.
-- `00:17` Her first thought: a year wasted. Her second: they are replacing us. Neither is a fact yet.
-- `00:25` Look at what she really learned that year. Above ground are the tools: a spreadsheet, a dashboard, a reporting system.
-- `00:34` Below ground are the fundamentals: logic, statistics, clear writing, and judgement about her field.
-- `00:41` Tools are replaced every few years. The fundamentals carry over to each new one, and they compound.
-- `00:49` So for anything you learn, ask: which part of this survives when the tool is replaced?
-- `00:57` To keep the fundamentals growing, she sets up a small loop.
-- `01:03` One source she trusts and really reads.
-- `01:07` One small project where she uses what she read.
-- `01:12` One log: a line each week on what she tried and what she learned.
-- `01:18` And one defended hour a week. A logged hour beats a panic sprint every time a new tool trends.
-- `01:27` A skill nobody can see is invisible to those who could reward it. So Vina lists hers, with the public proof beside each one.
-- `01:36` Analysis: a project with the workings shown. Writing: two published articles.
-- `01:42` Presenting: nothing yet. That gap is her next project.
-- `01:47` Back to Monday. Before she reacts, Vina pauses and separates fact from interpretation. They are replacing us is an interpretation.
-- `01:56` The fact is one sentence: the team will use the new tool from March.
-- `02:03` Then she chooses one action inside her control: she asks to join the pilot.
-- `02:10` A senior colleague says the last new system failed too. Vina does not argue. She asks: what went wrong that time?
-- `02:19` Questions bring the real concern to the surface. People accept a change more readily when they have had a voice in it.
-- `02:28` Tools expire. Fundamentals compound.
-- `02:31` One logged hour a week beats a panic sprint.
-- `02:36` Now it is your turn. Name one fundamental in your field, and one place where you will show it publicly.
+- `00:00` What lasts: fundamentals, a learning loop and change you did not choose.
+- `00:03` Vina spent her first year mastering the team's reporting tool.
+- `00:10` On Monday morning the team hears that from March, a new AI tool will replace it.
+- `00:18` Her first thought: a year wasted. Her second: they are replacing us. Neither is a fact yet.
+- `00:25` Look at what she really learned that year. Above ground are the tools. Below ground are the fundamentals. Tools are replaced every few years. The fundamentals carry over, and they compound.
+- `00:32` Logic, statistics, clear writing, and judgement about her field. So for anything you learn, ask: which part of this survives when the tool is replaced?
+- `00:41` To keep the fundamentals growing, she sets up a small loop. One source she trusts. One small project. One log, a line each week. And one defended hour a week.
+- `00:50` A skill nobody can see is invisible to those who could reward it. So Vina lists hers, with the public proof beside each one. Presenting: nothing yet. That gap is her next project.
+- `00:58` Back to Monday. Before she reacts, Vina pauses and separates fact from interpretation. The fact is one sentence: the team will use the new tool from March. Then she chooses one action inside her control: she asks to join the pilot.
+- `01:07` A senior colleague says the last new system failed too. Vina does not argue. She asks: what went wrong that time? People accept a change more readily when they have had a voice in it.
+- `01:13` Tools expire. Fundamentals compound. One logged hour a week beats a panic sprint.
+- `01:20` Now it is your turn. Name one fundamental in your field, and one place where you will show it publicly.
 
-## Bahasa Indonesia (159 s)
+## Bahasa Indonesia (85 s)
 
-- `00:04` Vina menghabiskan tahun pertamanya untuk menguasai alat pelaporan timnya.
-- `00:09` Senin pagi, tim diberi tahu bahwa mulai Maret, sebuah alat AI baru akan menggantikannya.
-- `00:16` Pikiran pertamanya: setahun terbuang. Pikiran keduanya: kita akan digantikan. Keduanya belum tentu fakta.
-- `00:22` Lihat apa yang sebenarnya ia pelajari tahun itu. Di atas tanah ada alat-alatnya: lembar kerja, dasbor, sistem pelaporan.
-- `00:31` Di bawah tanah ada dasar-dasarnya: logika, statistika, menulis dengan jernih, dan penilaian di bidangnya.
-- `00:38` Alat berganti setiap beberapa tahun. Dasar-dasarnya terbawa ke setiap alat baru, dan nilainya terus berlipat.
-- `00:45` Maka untuk apa pun yang kamu pelajari, tanyakan: bagian mana yang tetap berguna saat alatnya diganti?
-- `00:53` Agar dasar-dasarnya terus tumbuh, ia menyiapkan lingkaran kecil.
-- `00:57` Satu sumber yang ia percaya dan sungguh ia baca.
-- `01:02` Satu proyek kecil tempat ia memakai apa yang ia baca.
-- `01:07` Satu catatan: sebaris setiap minggu tentang apa yang ia coba dan apa yang ia pelajari.
-- `01:15` Dan satu jam yang dijaga setiap minggu. Satu jam yang tercatat mengalahkan belajar kilat karena panik setiap ada alat baru yang sedang tren.
-- `01:24` Keterampilan yang tak terlihat siapa pun tidak tampak bagi orang yang bisa menghargainya. Maka Vina mendaftar keterampilannya, dengan bukti publik di samping masing-masing.
-- `01:33` Analisis: sebuah proyek yang memperlihatkan cara kerjanya. Menulis: dua artikel yang sudah terbit.
-- `01:39` Presentasi: belum ada. Celah itulah proyek berikutnya.
-- `01:43` Kembali ke Senin. Sebelum bereaksi, Vina berhenti sejenak dan memisahkan fakta dari tafsiran. Kita akan digantikan adalah tafsiran.
-- `01:52` Faktanya hanya satu kalimat: tim akan memakai alat baru mulai Maret.
-- `01:58` Lalu ia memilih satu tindakan dalam kendalinya: ia minta ikut uji coba.
-- `02:04` Seorang senior berkata sistem baru yang lalu juga gagal. Vina tidak membantah. Ia bertanya: waktu itu kendalanya di mana, Mbak?
-- `02:13` Pertanyaan memunculkan kekhawatiran yang sebenarnya. Orang lebih mudah menerima perubahan ketika mereka diberi suara.
-- `02:20` Alat kedaluwarsa. Dasar-dasar terus berlipat nilainya.
-- `02:23` Satu jam tercatat seminggu mengalahkan belajar kilat karena panik.
-- `02:28` Sekarang giliranmu. Sebut satu dasar di bidangmu, dan satu tempat untuk menunjukkannya secara publik.
+- `00:00` Yang bertahan: dasar-dasar, lingkaran belajar, dan perubahan yang tidak kamu pilih.
+- `00:03` Vina menghabiskan tahun pertamanya untuk menguasai alat pelaporan tim.
+- `00:10` Senin pagi tim mendengar bahwa mulai Maret, sebuah alat AI baru akan menggantikannya.
+- `00:18` Pikiran pertamanya: setahun terbuang. Yang kedua: kita akan digantikan. Belum satu pun yang fakta.
+- `00:25` Lihat apa yang sebenarnya ia pelajari tahun itu. Di atas tanah ada alat-alatnya. Di bawah tanah ada dasar-dasarnya. Alat diganti tiap beberapa tahun. Dasar-dasarnya terbawa terus, dan berlipat.
+- `00:32` Logika, statistika, tulisan yang jernih, dan penilaian tentang bidangnya. Maka untuk apa pun yang kamu pelajari, tanyakan: bagian mana yang bertahan ketika alatnya diganti?
+- `00:41` Agar dasar-dasarnya terus tumbuh, ia menyusun lingkaran kecil. Satu sumber yang ia percaya. Satu proyek kecil. Satu catatan, sebaris tiap minggu. Dan satu jam seminggu yang dijaga.
+- `00:50` Keterampilan yang tak terlihat siapa pun tidak tampak bagi orang yang bisa menghargainya. Maka Vina mendaftar miliknya, dengan bukti publik di samping masing-masing. Presentasi: belum ada. Celah itulah proyek berikutnya.
+- `00:58` Kembali ke hari Senin. Sebelum bereaksi, Vina berhenti sejenak dan memisahkan fakta dari tafsiran. Faktanya satu kalimat: tim akan memakai alat baru mulai Maret. Lalu ia memilih satu tindakan dalam kendalinya: ia minta ikut uji coba.
+- `01:07` Seorang rekan senior berkata sistem baru yang dulu juga gagal. Vina tidak berdebat. Ia bertanya: waktu itu kendalanya di mana? Orang lebih mudah menerima perubahan ketika mereka ikut bersuara.
+- `01:13` Alat kedaluwarsa. Dasar-dasar berlipat. Satu jam tercatat seminggu mengalahkan belajar kilat karena panik.
+- `01:20` Sekarang giliranmu. Sebut satu dasar di bidangmu, dan satu tempat di mana kamu akan menunjukkannya secara terbuka.

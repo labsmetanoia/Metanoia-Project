@@ -1,0 +1,345 @@
+{
+ "id": "map-1-3-not-a-verdict",
+ "lesson": "1.3",
+ "seed": 37,
+ "title": {
+  "en": "*Not a verdict*: the two beliefs under every skill",
+  "id": "*Bukan vonis*: dua keyakinan di balik setiap keterampilan"
+ },
+ "places": {
+  "start": {
+   "en": "First attempts",
+   "id": "Percobaan pertama"
+  },
+  "goal": {
+   "en": "Trained skill",
+   "id": "Keterampilan yang terlatih"
+  },
+  "sea": {
+   "en": "Practice",
+   "id": "Latihan"
+  },
+  "dot": {
+   "en": "Internship",
+   "id": "Magang"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Not a verdict: the two beliefs under every skill.",
+    "id": "Bukan vonis: dua keyakinan di balik setiap keterampilan."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "slides",
+   "label": {
+    "en": "First presentation",
+    "id": "Presentasi pertama"
+   },
+   "tiles": "2",
+   "note": {
+    "en": "times she loses her place.",
+    "id": "kali ia kehilangan alur."
+   },
+   "card": {
+    "en": "Nadia's first presentation goes *badly*.",
+    "id": "Presentasi pertama Nadia berjalan *buruk*."
+   },
+   "vtt": {
+    "en": "Nadia's first presentation at her internship goes badly. She loses her place twice.",
+    "id": "Presentasi pertama Nadia di tempat magang berjalan buruk. Ia kehilangan alur dua kali."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "chat",
+   "label": {
+    "en": "That night, on repeat",
+    "id": "Malam itu, berulang-ulang"
+   },
+   "note": {
+    "en": "“I am just bad at presenting.”",
+    "id": "“aku memang payah presentasi.”"
+   },
+   "card": {
+    "en": "It sounds like a fact. It is a *full stop*.",
+    "id": "Terdengar seperti fakta. Padahal itu *titik*."
+   },
+   "vtt": {
+    "en": "That night, one sentence plays on repeat: I am just bad at presenting. It sounds like a fact. It is actually a full stop. Nothing comes after it.",
+    "id": "Malam itu, satu kalimat terus terulang: aku memang payah presentasi. Terdengar seperti fakta. Padahal itu titik. Tidak ada kelanjutannya."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "From a verdict to a method",
+    "id": "Dari vonis ke metode"
+   },
+   "old": {
+    "en": "I am bad at presenting.",
+    "id": "Aku payah presentasi."
+   },
+   "new": [
+    {
+     "en": "I have not trained presenting",
+     "id": "Aku belum melatih presentasi"
+    },
+    {
+     "en": "with a method yet.",
+     "id": "dengan metode."
+    }
+   ],
+   "card": {
+    "en": "So she *crosses it out*.",
+    "id": "Maka ia *mencoretnya*."
+   },
+   "vtt": {
+    "en": "A verdict about yourself leaves nothing to do next. So she crosses it out: I have not trained presenting with a method yet.",
+    "id": "Vonis tentang diri sendiri tidak menyisakan apa pun untuk dikerjakan. Maka ia mencoretnya: aku belum melatih presentasi dengan metode."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Rehearse twice",
+     "id": "Latihan dua kali"
+    },
+    {
+     "en": "Out loud",
+     "id": "Bersuara"
+    },
+    {
+     "en": "With a timer",
+     "id": "Pakai timer"
+    }
+   ],
+   "note": {
+    "en": "now there is a next step.",
+    "id": "sekarang ada langkah berikutnya."
+   },
+   "card": {
+    "en": "A method leaves *something to do*.",
+    "id": "Metode menyisakan *sesuatu untuk dikerjakan*."
+   },
+   "vtt": {
+    "en": "Now there is a next step: rehearse twice, out loud, with a timer.",
+    "id": "Sekarang ada langkah berikutnya: latihan dua kali, bersuara, pakai timer."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "The job market",
+      "id": "Pasar kerja"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "The other interns",
+      "id": "Anak magang lain"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "What her supervisor thinks",
+      "id": "Penilaian atasannya"
+     },
+     "ok": false
+    }
+   ],
+   "note": {
+    "en": "none of it moves when she pushes.",
+    "id": "tak satu pun bergerak saat ia dorong."
+   },
+   "card": {
+    "en": "The second belief: *where her energy goes*.",
+    "id": "Keyakinan kedua: *ke mana tenaganya pergi*."
+   },
+   "vtt": {
+    "en": "The second belief is about energy. Nadia worries about the job market, the other interns, and what her supervisor thinks of her. None of that moves when she pushes.",
+    "id": "Keyakinan kedua menyangkut tenaga. Nadia mencemaskan pasar kerja, anak magang lain, dan penilaian atasannya. Tak satu pun bergerak saat ia dorong."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Her rehearsals",
+      "id": "Latihannya"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "The questions she asks",
+      "id": "Pertanyaan yang ia ajukan"
+     },
+     "ok": true
+    }
+   ],
+   "note": {
+    "en": "these move.",
+    "id": "yang ini bergerak."
+   },
+   "card": {
+    "en": "Inside her control:",
+    "id": "Di dalam kendalinya:"
+   },
+   "vtt": {
+    "en": "Her rehearsals do. So do the questions she asks.",
+    "id": "Latihannya bergerak. Begitu juga pertanyaan yang ia ajukan."
+   }
+  },
+  {
+   "kind": "pair",
+   "sign": "≠",
+   "a": {
+    "label": {
+     "en": "Inside your control",
+     "id": "Dalam kendalimu"
+    },
+    "sub": {
+     "en": "energy compounds",
+     "id": "tenaga berlipat"
+    }
+   },
+   "b": {
+    "label": {
+     "en": "Everything else",
+     "id": "Sisanya"
+    },
+    "sub": {
+     "en": "energy evaporates",
+     "id": "tenaga menguap"
+    }
+   },
+   "card": {
+    "en": "Energy *compounds* in one place only.",
+    "id": "Tenaga hanya *berlipat* di satu tempat."
+   },
+   "vtt": {
+    "en": "Energy spent inside your control compounds. Energy spent on the rest evaporates.",
+    "id": "Tenaga yang dipakai di dalam kendalimu berlipat. Tenaga yang dipakai untuk sisanya menguap."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "people",
+   "label": {
+    "en": "Rehearsal · with a timer",
+    "id": "Latihan · pakai timer"
+   },
+   "tiles": "2",
+   "note": {
+    "en": "“where did you lose me?”",
+    "id": "“di bagian mana aku membuatmu bingung?”"
+   },
+   "card": {
+    "en": "She rehearses *twice*, and asks one question.",
+    "id": "Ia latihan *dua kali*, dan mengajukan satu pertanyaan."
+   },
+   "vtt": {
+    "en": "So she rehearses twice with a teammate and a timer, and asks him one question: where did you lose me?",
+    "id": "Maka ia latihan dua kali bersama rekan setim dan sebuah timer, lalu mengajukan satu pertanyaan: di bagian mana aku membuatmu bingung?"
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "slides",
+   "label": {
+    "en": "Second presentation",
+    "id": "Presentasi kedua"
+   },
+   "note": {
+    "en": "not perfect. clearly better.",
+    "id": "belum sempurna. jelas lebih baik."
+   },
+   "card": {
+    "en": "Ability turned out to be *a variable*.",
+    "id": "Kemampuan ternyata *sebuah variabel*."
+   },
+   "vtt": {
+    "en": "Her second presentation is not perfect. It is clearly better. Ability turned out to be a variable.",
+    "id": "Presentasi keduanya belum sempurna. Tapi jelas lebih baik. Kemampuan ternyata sebuah variabel."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "Honest",
+    "id": "Jujur"
+   },
+   "sub": {
+    "en": "the only setting for your audit",
+    "id": "satu-satunya setelan untuk auditmu"
+   },
+   "notes": [
+    {
+     "en": "no self-punishment.",
+     "id": "tanpa menghukum diri."
+    },
+    {
+     "en": "no self-promotion.",
+     "id": "tanpa memuji diri."
+    }
+   ],
+   "card": {
+    "en": "Next: your personal audit. One setting:",
+    "id": "Berikutnya: audit pribadimu. Satu setelan:"
+   },
+   "vtt": {
+    "en": "Your personal audit comes next. It only works at one setting: honest. That means no self-punishment and no self-promotion.",
+    "id": "Berikutnya audit pribadimu. Audit itu hanya bekerja di satu setelan: jujur. Artinya tanpa menghukum diri dan tanpa memuji diri."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Kind to the person, ruthless about the",
+    "id": "Ramah pada orangnya, tegas pada"
+   },
+   "tiles": {
+    "en": "DATA.",
+    "id": "DATA."
+   },
+   "note": {
+    "en": "“bad at X” is a full stop.",
+    "id": "“payah di X” adalah titik."
+   },
+   "vtt": {
+    "en": "Kind to the person, ruthless about the data. “I am bad at X” is a full stop. “I have not trained X with a method yet” is a to-do.",
+    "id": "Ramah pada orangnya, tegas pada datanya. “Aku payah di X” adalah titik. “Aku belum melatih X dengan metode” adalah daftar kerja."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: catch *one verdict* in your self-talk today.",
+    "id": "Giliranmu: tangkap *satu vonis* dalam omongan batinmu hari ini."
+   },
+   "stamp": {
+    "en": "Rewrite it as a method",
+    "id": "Tulis ulang jadi metode"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Catch one verdict in your own self-talk today, and rewrite it as a method.",
+    "id": "Sekarang giliranmu. Tangkap satu vonis dalam omongan batinmu hari ini, lalu tulis ulang menjadi metode."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

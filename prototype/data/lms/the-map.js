@@ -162,8 +162,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-1-1-two-muscles-id-poster.jpg"
        },
        "dur": {
-        "en": "2:37",
-        "id": "2:26"
+        "en": "1:38",
+        "id": "1:37"
        },
        "title": {
         "en": "Two muscles: adaptability and resilience",
@@ -433,8 +433,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-1-2-one-sentence-id-poster.jpg"
        },
        "dur": {
-        "en": "2:05",
-        "id": "2:06"
+        "en": "1:24",
+        "id": "1:24"
        },
        "title": {
         "en": "One sentence: setting a learning intention",
@@ -617,8 +617,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-1-3-not-a-verdict-id-poster.jpg"
        },
        "dur": {
-        "en": "1:58",
-        "id": "1:49"
+        "en": "1:26",
+        "id": "1:25"
        },
        "title": {
         "en": "Not a verdict: the two beliefs under every skill",
@@ -1260,8 +1260,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-2-1-your-lens-id-poster.jpg"
        },
        "dur": {
-        "en": "2:19",
-        "id": "2:12"
+        "en": "1:13",
+        "id": "1:13"
        },
        "title": {
         "en": "Your lens: why copied habits fade",
@@ -1748,8 +1748,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-2-2-the-gap-id-poster.jpg"
        },
        "dur": {
-        "en": "2:02",
-        "id": "1:49"
+        "en": "1:14",
+        "id": "1:13"
        },
        "title": {
         "en": "The gap: acting inside your control",
@@ -2260,8 +2260,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-2-3-design-first-id-poster.jpg"
        },
        "dur": {
-        "en": "1:59",
-        "id": "1:54"
+        "en": "1:08",
+        "id": "1:08"
        },
        "title": {
         "en": "Design first: a career by design, not by first offer",
@@ -2690,8 +2690,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-2-4-important-not-urgent-id-poster.jpg"
        },
        "dur": {
-        "en": "2:10",
-        "id": "2:08"
+        "en": "1:05",
+        "id": "1:05"
        },
        "title": {
         "en": "Important, not urgent: defending the work that builds a career",
@@ -2799,8 +2799,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-3-1-complaint-to-problem-id-poster.jpg"
        },
        "dur": {
-        "en": "2:15",
-        "id": "2:07"
+        "en": "1:13",
+        "id": "1:12"
        },
        "title": {
         "en": "From complaint to problem: the four-step method",
@@ -4126,8 +4126,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-3-2-diagnose-first-id-poster.jpg"
        },
        "dur": {
-        "en": "2:07",
-        "id": "1:54"
+        "en": "1:15",
+        "id": "1:14"
        },
        "title": {
         "en": "Diagnose first: root causes and action plans",
@@ -5122,8 +5122,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-3-3-a-goal-you-can-count-id-poster.jpg"
        },
        "dur": {
-        "en": "2:26",
-        "id": "2:14"
+        "en": "1:19",
+        "id": "1:18"
        },
        "title": {
         "en": "A goal you can count: gaps and good decisions",
@@ -7213,8 +7213,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-4-1-the-point-first-id-poster.jpg"
        },
        "dur": {
-        "en": "1:52",
-        "id": "1:45"
+        "en": "1:01",
+        "id": "1:01"
        },
        "title": {
         "en": "The point first: five ways a message fails",
@@ -8021,8 +8021,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-4-2-answer-first-id-poster.jpg"
        },
        "dur": {
-        "en": "1:54",
-        "id": "1:48"
+        "en": "1:11",
+        "id": "1:10"
        },
        "title": {
         "en": "Answer first: designing a message from the reader backwards",
@@ -8673,8 +8673,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-4-3-three-hard-messages-id-poster.jpg"
        },
        "dur": {
-        "en": "1:51",
-        "id": "1:39"
+        "en": "1:15",
+        "id": "1:14"
        },
        "title": {
         "en": "Three hard messages: a cold email, an interruption, a disagreement",
@@ -9382,8 +9382,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-4-4-before-you-speak-id-poster.jpg"
        },
        "dur": {
-        "en": "2:04",
-        "id": "1:50"
+        "en": "1:05",
+        "id": "1:04"
        },
        "title": {
         "en": "Before you speak: the three elements of presentation style",
@@ -9931,8 +9931,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-5-1-energy-first-id-poster.jpg"
        },
        "dur": {
-        "en": "3:01",
-        "id": "2:57"
+        "en": "1:35",
+        "id": "1:35"
        },
        "title": {
         "en": "Energy first: sleep, a minimum protocol and how capacity grows",
@@ -14375,8 +14375,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-5-3-four-small-moves-id-poster.jpg"
        },
        "dur": {
-        "en": "2:49",
-        "id": "2:39"
+        "en": "1:19",
+        "id": "1:18"
        },
        "title": {
         "en": "Four small moves: how a strong relationship is built",
@@ -17638,8 +17638,8 @@ window.MT_LMS['the-map'] = {
         "id": "../../assets/lms/films/map-5-5-what-lasts-id-poster.jpg"
        },
        "dur": {
-        "en": "2:48",
-        "id": "2:39"
+        "en": "1:25",
+        "id": "1:25"
        },
        "title": {
         "en": "What lasts: fundamentals, a learning loop and change you did not choose",

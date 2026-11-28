@@ -1,0 +1,343 @@
+{
+ "id": "map-5-5-what-lasts",
+ "lesson": "5.5",
+ "seed": 137,
+ "title": {
+  "en": "*What lasts*: fundamentals, a learning loop and change you did not choose",
+  "id": "*Yang bertahan*: dasar-dasar, lingkaran belajar, dan perubahan yang tidak kamu pilih"
+ },
+ "places": {
+  "start": {
+   "en": "This year's tool",
+   "id": "Alat tahun ini"
+  },
+  "goal": {
+   "en": "What carries over",
+   "id": "Yang terbawa terus"
+  },
+  "sea": {
+   "en": "From March",
+   "id": "Mulai Maret"
+  },
+  "dot": {
+   "en": "Year one",
+   "id": "Tahun pertama"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "What lasts: fundamentals, a learning loop and change you did not choose.",
+    "id": "Yang bertahan: dasar-dasar, lingkaran belajar, dan perubahan yang tidak kamu pilih."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "laptop",
+   "label": {
+    "en": "The team's reporting tool",
+    "id": "Alat pelaporan tim"
+   },
+   "tiles": "1",
+   "note": {
+    "en": "year, mastering it.",
+    "id": "tahun, untuk menguasainya."
+   },
+   "card": {
+    "en": "Vina spent a year on *one tool*.",
+    "id": "Vina menghabiskan setahun untuk *satu alat*."
+   },
+   "vtt": {
+    "en": "Vina spent her first year mastering the team's reporting tool.",
+    "id": "Vina menghabiskan tahun pertamanya untuk menguasai alat pelaporan tim."
+   }
+  },
+  {
+   "kind": "sign",
+   "old": {
+    "en": "Reporting tool",
+    "id": "Alat pelaporan"
+   },
+   "new": {
+    "en": "New AI tool",
+    "id": "Alat AI baru"
+   },
+   "note": {
+    "en": "from March.",
+    "id": "mulai Maret."
+   },
+   "card": {
+    "en": "Monday morning: it is being *replaced*.",
+    "id": "Senin pagi: alat itu akan *diganti*."
+   },
+   "vtt": {
+    "en": "On Monday morning the team hears that from March, a new AI tool will replace it.",
+    "id": "Senin pagi tim mendengar bahwa mulai Maret, sebuah alat AI baru akan menggantikannya."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "“A year wasted.”",
+      "id": "“Setahun terbuang.”"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "“They are replacing us.”",
+      "id": "“Kita akan digantikan.”"
+     },
+     "ok": false
+    }
+   ],
+   "note": {
+    "en": "neither is a fact yet.",
+    "id": "belum satu pun yang fakta."
+   },
+   "card": {
+    "en": "Her first *two thoughts*:",
+    "id": "*Dua pikiran* pertamanya:"
+   },
+   "vtt": {
+    "en": "Her first thought: a year wasted. Her second: they are replacing us. Neither is a fact yet.",
+    "id": "Pikiran pertamanya: setahun terbuang. Yang kedua: kita akan digantikan. Belum satu pun yang fakta."
+   }
+  },
+  {
+   "kind": "pair",
+   "a": {
+    "label": {
+     "en": "Tools",
+     "id": "Alat"
+    },
+    "sub": {
+     "en": "replaced every few years",
+     "id": "diganti tiap beberapa tahun"
+    }
+   },
+   "b": {
+    "label": {
+     "en": "Fundamentals",
+     "id": "Dasar-dasar"
+    },
+    "sub": {
+     "en": "carry over, and compound",
+     "id": "terbawa terus, dan berlipat"
+    }
+   },
+   "card": {
+    "en": "Look at what she *really* learned.",
+    "id": "Lihat apa yang *sebenarnya* ia pelajari."
+   },
+   "vtt": {
+    "en": "Look at what she really learned that year. Above ground are the tools. Below ground are the fundamentals. Tools are replaced every few years. The fundamentals carry over, and they compound.",
+    "id": "Lihat apa yang sebenarnya ia pelajari tahun itu. Di atas tanah ada alat-alatnya. Di bawah tanah ada dasar-dasarnya. Alat diganti tiap beberapa tahun. Dasar-dasarnya terbawa terus, dan berlipat."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Logic",
+      "id": "Logika"
+     }
+    },
+    {
+     "t": {
+      "en": "Statistics",
+      "id": "Statistika"
+     }
+    },
+    {
+     "t": {
+      "en": "Clear writing",
+      "id": "Tulisan yang jernih"
+     }
+    },
+    {
+     "t": {
+      "en": "Judgement about her field",
+      "id": "Penilaian tentang bidangnya"
+     }
+    }
+   ],
+   "note": {
+    "en": "which part survives the tool?",
+    "id": "bagian mana yang bertahan saat alatnya diganti?"
+   },
+   "card": {
+    "en": "Under every tool sits *a durable layer*.",
+    "id": "Di bawah setiap alat ada *lapisan yang awet*."
+   },
+   "vtt": {
+    "en": "Logic, statistics, clear writing, and judgement about her field. So for anything you learn, ask: which part of this survives when the tool is replaced?",
+    "id": "Logika, statistika, tulisan yang jernih, dan penilaian tentang bidangnya. Maka untuk apa pun yang kamu pelajari, tanyakan: bagian mana yang bertahan ketika alatnya diganti?"
+   }
+  },
+  {
+   "kind": "loop",
+   "tiles": "1",
+   "unit": {
+    "en": "hour a week",
+    "id": "jam seminggu"
+   },
+   "items": [
+    {
+     "en": "One source",
+     "id": "Satu sumber"
+    },
+    {
+     "en": "One project",
+     "id": "Satu proyek"
+    },
+    {
+     "en": "One log",
+     "id": "Satu catatan"
+    },
+    {
+     "en": "One defended hour",
+     "id": "Satu jam yang dijaga"
+    }
+   ],
+   "card": {
+    "en": "To keep it growing: a *small loop*.",
+    "id": "Agar terus tumbuh: *lingkaran kecil*."
+   },
+   "vtt": {
+    "en": "To keep the fundamentals growing, she sets up a small loop. One source she trusts. One small project. One log, a line each week. And one defended hour a week.",
+    "id": "Agar dasar-dasarnya terus tumbuh, ia menyusun lingkaran kecil. Satu sumber yang ia percaya. Satu proyek kecil. Satu catatan, sebaris tiap minggu. Dan satu jam seminggu yang dijaga."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Analysis · a project with the workings shown",
+      "id": "Analisis · proyek yang memperlihatkan cara kerjanya"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "Writing · two published articles",
+      "id": "Menulis · dua artikel terbit"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "Presenting · nothing yet",
+      "id": "Presentasi · belum ada"
+     },
+     "ok": false
+    }
+   ],
+   "note": {
+    "en": "that gap is her next project.",
+    "id": "celah itulah proyek berikutnya."
+   },
+   "card": {
+    "en": "A skill nobody can see is *invisible*.",
+    "id": "Keterampilan yang tak terlihat siapa pun *tidak tampak*."
+   },
+   "vtt": {
+    "en": "A skill nobody can see is invisible to those who could reward it. So Vina lists hers, with the public proof beside each one. Presenting: nothing yet. That gap is her next project.",
+    "id": "Keterampilan yang tak terlihat siapa pun tidak tampak bagi orang yang bisa menghargainya. Maka Vina mendaftar miliknya, dengan bukti publik di samping masing-masing. Presentasi: belum ada. Celah itulah proyek berikutnya."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "Back to Monday",
+    "id": "Kembali ke hari Senin"
+   },
+   "old": {
+    "en": "they are replacing us.",
+    "id": "kita akan digantikan."
+   },
+   "new": [
+    {
+     "en": "fact: a new tool from March.",
+     "id": "fakta: alat baru mulai Maret."
+    },
+    {
+     "en": "action: ask to join the pilot.",
+     "id": "tindakan: minta ikut uji coba."
+    }
+   ],
+   "card": {
+    "en": "She separates *fact* from interpretation.",
+    "id": "Ia memisahkan *fakta* dari tafsiran."
+   },
+   "vtt": {
+    "en": "Back to Monday. Before she reacts, Vina pauses and separates fact from interpretation. The fact is one sentence: the team will use the new tool from March. Then she chooses one action inside her control: she asks to join the pilot.",
+    "id": "Kembali ke hari Senin. Sebelum bereaksi, Vina berhenti sejenak dan memisahkan fakta dari tafsiran. Faktanya satu kalimat: tim akan memakai alat baru mulai Maret. Lalu ia memilih satu tindakan dalam kendalinya: ia minta ikut uji coba."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "chat",
+   "label": {
+    "en": "A senior colleague",
+    "id": "Rekan senior"
+   },
+   "note": {
+    "en": "“what went wrong that time?”",
+    "id": "“waktu itu kendalanya di mana?”"
+   },
+   "card": {
+    "en": "“The last system failed too.” She *asks*, not argues.",
+    "id": "“Sistem yang dulu juga gagal.” Ia *bertanya*, bukan berdebat."
+   },
+   "vtt": {
+    "en": "A senior colleague says the last new system failed too. Vina does not argue. She asks: what went wrong that time? People accept a change more readily when they have had a voice in it.",
+    "id": "Seorang rekan senior berkata sistem baru yang dulu juga gagal. Vina tidak berdebat. Ia bertanya: waktu itu kendalanya di mana? Orang lebih mudah menerima perubahan ketika mereka ikut bersuara."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Tools expire. Fundamentals",
+    "id": "Alat kedaluwarsa. Dasar-dasar"
+   },
+   "tiles": {
+    "en": "COMPOUND.",
+    "id": "BERLIPAT."
+   },
+   "note": {
+    "en": "one logged hour beats a panic sprint.",
+    "id": "satu jam tercatat mengalahkan belajar kilat."
+   },
+   "vtt": {
+    "en": "Tools expire. Fundamentals compound. One logged hour a week beats a panic sprint.",
+    "id": "Alat kedaluwarsa. Dasar-dasar berlipat. Satu jam tercatat seminggu mengalahkan belajar kilat karena panik."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: name *one fundamental* in your field.",
+    "id": "Giliranmu: sebut *satu dasar* di bidangmu."
+   },
+   "stamp": {
+    "en": "And where you will show it",
+    "id": "Dan di mana kamu menunjukkannya"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Name one fundamental in your field, and one place where you will show it publicly.",
+    "id": "Sekarang giliranmu. Sebut satu dasar di bidangmu, dan satu tempat di mana kamu akan menunjukkannya secara terbuka."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

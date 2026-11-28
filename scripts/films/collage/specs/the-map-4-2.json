@@ -1,0 +1,290 @@
+{
+ "id": "map-4-2-answer-first",
+ "lesson": "4.2",
+ "seed": 107,
+ "title": {
+  "en": "*Answer first*: designing a message from the reader backwards",
+  "id": "*Jawaban dulu*: merancang pesan mundur dari pembacanya"
+ },
+ "places": {
+  "start": {
+   "en": "A week of analysis",
+   "id": "Seminggu analisis"
+  },
+  "goal": {
+   "en": "A decision",
+   "id": "Sebuah keputusan"
+  },
+  "sea": {
+   "en": "Ninety seconds",
+   "id": "Sembilan puluh detik"
+  },
+  "dot": {
+   "en": "Her desk",
+   "id": "Mejanya"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Answer first: designing a message from the reader backwards.",
+    "id": "Jawaban dulu: merancang pesan mundur dari pembacanya."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "chart",
+   "label": {
+    "en": "Late deliveries",
+    "id": "Pengiriman terlambat"
+   },
+   "tiles": "1",
+   "note": {
+    "en": "week of analysis.",
+    "id": "minggu analisis."
+   },
+   "card": {
+    "en": "Nisa has a *week* of analysis.",
+    "id": "Nisa punya analisis *seminggu*."
+   },
+   "vtt": {
+    "en": "Nisa has a week of analysis on late deliveries.",
+    "id": "Nisa punya analisis seminggu tentang pengiriman yang terlambat."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "clock",
+   "label": {
+    "en": "Her manager",
+    "id": "Manajernya"
+   },
+   "tiles": "90",
+   "note": {
+    "en": "seconds, between two meetings.",
+    "id": "detik, di sela dua rapat."
+   },
+   "card": {
+    "en": "And a reader with *ninety seconds*.",
+    "id": "Dan pembaca dengan *sembilan puluh detik*."
+   },
+   "vtt": {
+    "en": "And a manager with ninety seconds between two meetings. So she does not start from her analysis. She designs the message backwards, from the reader.",
+    "id": "Dan manajer dengan sembilan puluh detik di sela dua rapat. Maka ia tidak mulai dari analisisnya. Ia merancang pesannya mundur, dari pembacanya."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Who is this for?",
+     "id": "Ini untuk siapa?"
+    },
+    {
+     "en": "What must she decide?",
+     "id": "Apa yang harus ia putuskan?"
+    },
+    {
+     "en": "What does she already know?",
+     "id": "Apa yang sudah ia tahu?"
+    }
+   ],
+   "note": {
+    "en": "she knows they are late. skip it.",
+    "id": "ia tahu pengiriman terlambat. lewati."
+   },
+   "card": {
+    "en": "Three questions *before* she writes.",
+    "id": "Tiga pertanyaan *sebelum* ia menulis."
+   },
+   "vtt": {
+    "en": "Who is this for? A manager with ninety seconds. What must she decide? Whether to switch courier. What does she already know? That deliveries are late. So Nisa skips it.",
+    "id": "Ini untuk siapa? Manajer dengan sembilan puluh detik. Apa yang harus ia putuskan? Ganti kurir atau tidak. Apa yang sudah ia tahu? Bahwa pengiriman terlambat. Maka Nisa melewatinya."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Answer · switch courier for East Java",
+      "id": "Jawaban · ganti kurir untuk Jawa Timur"
+     },
+     "hi": true
+    },
+    {
+     "t": {
+      "en": "Reasons · two or three that support it",
+      "id": "Alasan · dua atau tiga yang menopangnya"
+     },
+     "hi": false
+    },
+    {
+     "t": {
+      "en": "Evidence · for readers who want it",
+      "id": "Bukti · bagi pembaca yang menginginkannya"
+     },
+     "hi": false
+    }
+   ],
+   "note": {
+    "en": "the school essay, upside down.",
+    "id": "esai sekolah, dibalik."
+   },
+   "card": {
+    "en": "*Answer first.* Then reasons. Then evidence.",
+    "id": "*Jawaban dulu.* Lalu alasan. Lalu bukti."
+   },
+   "vtt": {
+    "en": "Professional structure turns the school essay upside down. Line one is the answer: switch courier for the East Java routes. Under it, the reasons. And under each reason, the evidence.",
+    "id": "Struktur profesional membalik esai sekolah. Baris pertama adalah jawabannya: ganti kurir untuk rute Jawa Timur. Di bawahnya, alasan-alasannya. Dan di bawah tiap alasan, buktinya."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "Answer first",
+    "id": "Jawaban dulu"
+   },
+   "sub": {
+    "en": "a courtesy and a filter",
+    "id": "sopan santun sekaligus saringan"
+   },
+   "notes": [
+    {
+     "en": "busy readers can stop after line one.",
+     "id": "pembaca sibuk bisa berhenti di baris satu."
+    }
+   ],
+   "card": {
+    "en": "Why it works:",
+    "id": "Kenapa ini berhasil:"
+   },
+   "vtt": {
+    "en": "Answer first is a courtesy and a filter. Busy readers can stop after line one.",
+    "id": "Jawaban dulu adalah sopan santun sekaligus saringan. Pembaca yang sibuk bisa berhenti setelah baris pertama."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "High up · one sentence",
+      "id": "Di atas · satu kalimat"
+     }
+    },
+    {
+     "t": {
+      "en": "Lower · the structure",
+      "id": "Lebih rendah · strukturnya"
+     }
+    },
+    {
+     "t": {
+      "en": "On the ground · the numbers",
+      "id": "Di darat · angka-angkanya"
+     }
+    }
+   ],
+   "note": {
+    "en": "say when you change altitude.",
+    "id": "beri tahu saat kamu ganti ketinggian."
+   },
+   "card": {
+    "en": "Skilled communicators fly at *three altitudes*.",
+    "id": "Komunikator yang terampil terbang di *tiga ketinggian*."
+   },
+   "vtt": {
+    "en": "Skilled communicators fly at three altitudes, and say when they change. High up: one sentence. Lower: the structure. On the ground: the numbers.",
+    "id": "Komunikator yang terampil terbang di tiga ketinggian, dan memberi tahu saat berpindah. Di atas: satu kalimat. Lebih rendah: strukturnya. Di darat: angka-angkanya."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "chat",
+   "label": {
+    "en": "She interrupts",
+    "id": "Ia memotong"
+   },
+   "note": {
+    "en": "“which routes exactly?”",
+    "id": "“rute yang mana persisnya?”"
+   },
+   "card": {
+    "en": "Not an attack. A request to *go lower*.",
+    "id": "Bukan serangan. Permintaan untuk *turun lebih rendah*."
+   },
+   "vtt": {
+    "en": "Her manager interrupts: which routes exactly? That is not an attack. It is a request to go lower, so Nisa goes to the ground.",
+    "id": "Manajernya memotong: rute yang mana persisnya? Itu bukan serangan. Itu permintaan untuk turun lebih rendah, maka Nisa turun ke darat."
+   }
+  },
+  {
+   "kind": "stamp",
+   "tone": "gold",
+   "label": {
+    "en": "Did that answer it?",
+    "id": "Apakah itu menjawab?"
+   },
+   "sub": {
+    "en": "the cheapest quality check",
+    "id": "pemeriksaan mutu termurah"
+   },
+   "notes": [
+    {
+     "en": "close the loop.",
+     "id": "tutup lingkarannya."
+    }
+   ],
+   "card": {
+    "en": "Then one last line:",
+    "id": "Lalu satu baris terakhir:"
+   },
+   "vtt": {
+    "en": "Then she closes the loop with the cheapest quality check there is: did that answer it?",
+    "id": "Lalu ia menutupnya dengan pemeriksaan mutu termurah yang ada: apakah itu menjawab?"
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Design the message from the reader's decision,",
+    "id": "Rancang pesan dari keputusan pembacanya,"
+   },
+   "tiles": {
+    "en": "BACKWARDS.",
+    "id": "MUNDUR."
+   },
+   "note": {
+    "en": "answer. reasons. evidence.",
+    "id": "jawaban. alasan. bukti."
+   },
+   "vtt": {
+    "en": "Design from the reader's decision backwards. Answer, reasons, evidence. In that order.",
+    "id": "Rancang mundur dari keputusan pembacanya. Jawaban, alasan, bukti. Sesuai urutan itu."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: rewrite *your next update*.",
+    "id": "Giliranmu: tulis ulang *kabarmu berikutnya*."
+   },
+   "stamp": {
+    "en": "Line one is the answer",
+    "id": "Baris satu adalah jawabannya"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Rewrite your next update so that line one is the answer.",
+    "id": "Sekarang giliranmu. Tulis ulang kabarmu berikutnya supaya baris pertamanya adalah jawabannya."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

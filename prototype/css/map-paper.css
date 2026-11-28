@@ -1,0 +1,47 @@
+/* The Map · paper theme for the Read-first slide decks.
+   Loaded only on The Map, after lms.css. It re-skins the composed slides (the .sc canvas drawn by
+   the lesson player) to match the lesson films: paper, ink, one gold accent, photographs printed
+   in grey like cut-outs. Layout and markup are untouched, so every deck keeps its structure. */
+.lms-ss .ss-comp{background:#DDD6C7}
+.lms-ss .ss-comp .sc{background:#ECE7DC;color:#1D1B18;--g:#8A6508;--g2:#1D1B18;--hair:rgba(29,27,24,.28);--ink:#1D1B18;--mut:rgba(29,27,24,.74)}
+.lms-ss .ss-comp .sc *{color:inherit!important;text-shadow:none!important}
+/* paper grain over everything */
+.lms-ss .ss-comp .sc::after{content:"";position:absolute;inset:0;z-index:9;pointer-events:none;mix-blend-mode:multiply;opacity:.55;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 .55 0 0 0 0 .5 0 0 0 0 .42 0 0 0 .45 0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)'/%3E%3C/svg%3E")}
+/* backgrounds: the photograph becomes a faint grey print on paper */
+.lms-ss .ss-comp .sc .sc-bg{filter:grayscale(1) contrast(1.15);opacity:.34;mix-blend-mode:multiply;transform:none}
+.lms-ss .ss-comp .sc.sc-body-slide .sc-bg{opacity:0}
+.lms-ss .ss-comp .sc.sc-body-slide .sc-veil{background:repeating-linear-gradient(180deg,rgba(29,27,24,0) 0 29px,rgba(29,27,24,.07) 29px 30px),#ECE7DC}
+.lms-ss .ss-comp .sc.sc-cover .sc-veil,.lms-ss .ss-comp .sc.sc-close .sc-veil{background:linear-gradient(90deg,rgba(236,231,220,.97) 0,rgba(236,231,220,.93) 50%,rgba(236,231,220,.6) 78%,rgba(236,231,220,.4) 100%)}
+/* small caps labels: gold strips with ink type */
+.lms-ss .ss-comp .sc .sc-tag{display:inline-block;align-self:flex-start;background:#D6A21E;padding:6px 10px 5px;letter-spacing:.22em;font-size:12.5px}
+.lms-ss .ss-comp .sc .sc-top .sc-mod,.lms-ss .ss-comp .sc .sc-n{color:#8A6508!important}
+.lms-ss .ss-comp .sc .sc-pos,.lms-ss .ss-comp .sc .sc-pos b{color:rgba(29,27,24,.7)!important}
+.lms-ss .ss-comp .sc .sc-prog s{background:rgba(29,27,24,.18)}.lms-ss .ss-comp .sc .sc-prog s.on{background:#1D1B18}
+/* the emphasised phrase: ink, under a gold marker */
+.lms-ss .ss-comp .sc .sc-h1 em,.lms-ss .ss-comp .sc .sc-strip-h em{box-shadow:inset 0 -.36em 0 rgba(214,162,30,.78)}
+/* icons: gold discs with an ink line */
+.lms-ss .ss-comp .sc .sc-ic{background:#D6A21E;border:1.6px solid #1D1B18}
+.lms-ss .ss-comp .sc .sc-card.nopic .sc-ic{background:#D6A21E;border-color:#1D1B18}
+/* cards, panels, steps: cut paper with a soft shadow */
+.lms-ss .ss-comp .sc .sc-card,.lms-ss .ss-comp .sc .sc-cmp,.lms-ss .ss-comp .sc .sc-col,.lms-ss .ss-comp .sc .sc-strip,.lms-ss .ss-comp .sc .sc-journey{background:#F6F2E9;border:1px solid rgba(29,27,24,.3);border-radius:3px;box-shadow:0 10px 20px rgba(40,30,10,.13)}
+.lms-ss .ss-comp .sc .sc-card.nopic{background:#F6F2E9}
+.lms-ss .ss-comp .sc .sc-card.nopic::after{background:radial-gradient(circle,rgba(214,162,30,.34),rgba(214,162,30,0) 68%)}
+.lms-ss .ss-comp .sc .sc-card.nopic .sc-wm{opacity:.16}
+.lms-ss .ss-comp .sc .sc-pic img{filter:grayscale(1) contrast(1.02) brightness(1.32);mix-blend-mode:multiply;opacity:.88}
+.lms-ss .ss-comp .sc .sc-card .sc-pic::after{background:linear-gradient(90deg,#F6F2E9 0,rgba(246,242,233,.9) 16%,rgba(246,242,233,.3) 56%,rgba(246,242,233,0) 100%)}
+.lms-ss .ss-comp .sc .sc-cards.tall .sc-card .sc-pic::after,.lms-ss .ss-comp .sc .sc-cmp .sc-pic.top::after{background:linear-gradient(180deg,rgba(246,242,233,0) 55%,#F6F2E9 100%)}
+.lms-ss .ss-comp .sc .sc-pic.panel{border:1px solid rgba(29,27,24,.35);border-radius:3px;background:#F6F2E9;box-shadow:0 10px 20px rgba(40,30,10,.16)}
+.lms-ss .ss-comp .sc .sc-pic.panel::after{background:linear-gradient(180deg,rgba(246,242,233,0) 60%,rgba(246,242,233,.5) 100%)}
+.lms-ss .ss-comp .sc .sc-pic.panel::before{background:#D6A21E;height:6px;width:60px}
+.lms-ss .ss-comp .sc .sc-cmp.a .sc-pic.top::before{background:#D6A21E;height:6px}.lms-ss .ss-comp .sc .sc-cmp.b .sc-pic.top::before{background:#1D1B18;height:6px}
+.lms-ss .ss-comp .sc .sc-vs{background:#1D1B18;border-color:#1D1B18;color:#fff!important}
+.lms-ss .ss-comp .sc .sc-step{background:#F6F2E9;border-color:rgba(29,27,24,.3)}
+.lms-ss .ss-comp .sc .sc-step:nth-child(even){background:#EFE3BE}
+.lms-ss .ss-comp .sc .sc-row,.lms-ss .ss-comp .sc .sc-col li,.lms-ss .ss-comp .sc .sc-col-h,.lms-ss .ss-comp .sc .sc-strip-cell,.lms-ss .ss-comp .sc .sc-strip-h{border-color:rgba(29,27,24,.2)}
+.lms-ss .ss-comp .sc .sc-row i{color:#8A6508!important}
+/* the key takeaway: a black stamp with white type */
+.lms-ss .ss-comp .sc .sc-band{background:#1D1B18;border-color:#1D1B18;border-radius:2px}
+.lms-ss .ss-comp .sc .sc-band p{color:#fff!important}.lms-ss .ss-comp .sc .sc-band b{color:#E8C766!important}
+.lms-ss .ss-comp .sc .sc-band .sc-ic{background:#D6A21E;border-color:#D6A21E}
+.lms-ss .ss-comp .sc .sc-cap{border-left-color:#D6A21E}

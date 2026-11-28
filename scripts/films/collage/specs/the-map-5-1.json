@@ -1,0 +1,384 @@
+{
+ "id": "map-5-1-energy-first",
+ "lesson": "5.1",
+ "seed": 127,
+ "title": {
+  "en": "*Energy first*: sleep, a minimum protocol and how capacity grows",
+  "id": "*Energi dulu*: tidur, protokol minimum, dan cara kapasitas tumbuh"
+ },
+ "places": {
+  "start": {
+   "en": "Five hours a night",
+   "id": "Lima jam semalam"
+  },
+  "goal": {
+   "en": "Friday's interview",
+   "id": "Wawancara hari Jumat"
+  },
+  "sea": {
+   "en": "A hard week",
+   "id": "Minggu yang berat"
+  },
+  "dot": {
+   "en": "1:30 a.m.",
+   "id": "01.30"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "Energy first: sleep, a minimum protocol and how capacity grows.",
+    "id": "Energi dulu: tidur, protokol minimum, dan cara kapasitas tumbuh."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "clock",
+   "label": {
+    "en": "For a week now",
+    "id": "Sudah seminggu"
+   },
+   "tiles": "5",
+   "note": {
+    "en": "hours of sleep a night.",
+    "id": "jam tidur semalam."
+   },
+   "card": {
+    "en": "Galih has an interview on *Friday*.",
+    "id": "Galih punya wawancara hari *Jumat*."
+   },
+   "vtt": {
+    "en": "It is half past one. Galih has an interview on Friday and a thesis chapter due, and for a week he has slept five hours a night.",
+    "id": "Pukul setengah dua. Galih punya wawancara hari Jumat dan tenggat bab skripsi, dan sudah seminggu ia tidur lima jam semalam."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Attention",
+      "id": "Perhatian"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "Working memory",
+      "id": "Memori kerja"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "Control of mood",
+      "id": "Kendali suasana hati"
+     },
+     "ok": false
+    }
+   ],
+   "note": {
+    "en": "exactly what an interview tests.",
+    "id": "persis yang diuji wawancara."
+   },
+   "card": {
+    "en": "A tired brain loses *these first*.",
+    "id": "Otak yang lelah kehilangan *ini lebih dulu*."
+   },
+   "vtt": {
+    "en": "The trouble is what a tired brain loses first: attention, working memory and control of mood. Exactly the skills an interview tests.",
+    "id": "Masalahnya ada pada apa yang lebih dulu hilang dari otak yang lelah: perhatian, memori kerja, dan kendali suasana hati. Persis keterampilan yang diuji wawancara."
+   }
+  },
+  {
+   "kind": "loop",
+   "tiles": "4",
+   "unit": {
+    "en": "systems",
+    "id": "sistem"
+   },
+   "items": [
+    {
+     "en": "Sleep",
+     "id": "Tidur"
+    },
+    {
+     "en": "Movement",
+     "id": "Gerak"
+    },
+    {
+     "en": "Fuel",
+     "id": "Asupan"
+    },
+    {
+     "en": "Recovery",
+     "id": "Pemulihan"
+    }
+   ],
+   "card": {
+    "en": "Usable energy comes from *four systems*.",
+    "id": "Energi yang bisa dipakai datang dari *empat sistem*."
+   },
+   "vtt": {
+    "en": "Usable energy comes from four systems. Sleep stores what you studied. Movement lifts mood and focus. Fuel: regular meals, and coffee early. And recovery: a real off-switch. Scrolling does not count.",
+    "id": "Energi yang bisa dipakai datang dari empat sistem. Tidur menyimpan yang kamu pelajari. Gerak mengangkat suasana hati dan fokus. Asupan: makan teratur, kopi di awal hari. Dan pemulihan: jeda yang sungguh-sungguh. Menggulir layar tidak dihitung."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "A plan for your worst week",
+    "id": "Rencana untuk minggu terburukmu"
+   },
+   "old": {
+    "en": "gym daily. 8 hours. cook everything.",
+    "id": "gym tiap hari. 8 jam. masak semua."
+   },
+   "new": [
+    {
+     "en": "a sleep window. one walk.",
+     "id": "jendela tidur. satu kali jalan kaki."
+    },
+    {
+     "en": "one real meal. one person.",
+     "id": "satu makan sungguhan. satu orang."
+    }
+   ],
+   "card": {
+    "en": "His perfect plan lasted *two days*.",
+    "id": "Rencana sempurnanya bertahan *dua hari*."
+   },
+   "vtt": {
+    "en": "Galih has made a health plan before. It was perfect, and it lasted two days. A plan built for your best week breaks in your worst one.",
+    "id": "Galih pernah membuat rencana kesehatan. Sempurna, dan bertahan dua hari. Rencana yang dibuat untuk minggu terbaikmu patah di minggu terburukmu."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "A floor",
+    "id": "Batas bawah"
+   },
+   "sub": {
+    "en": "small enough for a bad week",
+    "id": "cukup kecil untuk minggu yang buruk"
+   },
+   "notes": [
+    {
+     "en": "it may shrink: six hours, one walk.",
+     "id": "boleh mengecil: enam jam, satu kali jalan."
+    },
+    {
+     "en": "it never goes to zero.",
+     "id": "tapi tidak pernah nol."
+    }
+   ],
+   "card": {
+    "en": "So this time he writes *a floor*.",
+    "id": "Maka kali ini ia menulis *batas bawah*."
+   },
+   "vtt": {
+    "en": "So this time he writes a floor: four lines small enough to keep in a bad week. In a crunch week the floor may shrink. But it never goes to zero.",
+    "id": "Maka kali ini ia menulis batas bawah: empat baris yang cukup kecil untuk dijaga di minggu yang buruk. Di minggu padat batas itu boleh mengecil. Tapi tidak pernah nol."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Stretch",
+     "id": "Regangkan"
+    },
+    {
+     "en": "Recover",
+     "id": "Pulihkan"
+    },
+    {
+     "en": "Adapt",
+     "id": "Beradaptasi"
+    }
+   ],
+   "note": {
+    "en": "the growth happens in the rest.",
+    "id": "pertumbuhannya terjadi saat beristirahat."
+   },
+   "card": {
+    "en": "Capacity grows *the way a muscle does*.",
+    "id": "Kapasitas tumbuh *seperti otot*."
+   },
+   "vtt": {
+    "en": "Capacity grows the way a muscle does: a demand that stretches you a little, then enough rest to adapt. The growth happens in the rest, not in the effort.",
+    "id": "Kapasitas tumbuh seperti otot: tuntutan yang sedikit meregangkanmu, lalu istirahat yang cukup untuk beradaptasi. Pertumbuhannya terjadi saat beristirahat, bukan saat berusaha."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Sleep that no longer refreshes",
+      "id": "Tidur yang tak lagi menyegarkan"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "Irritation at small things",
+      "id": "Mudah kesal pada hal kecil"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "Pulling away from people",
+      "id": "Menjauh dari orang-orang"
+     },
+     "ok": false
+    }
+   ],
+   "note": {
+    "en": "weeks before real trouble.",
+    "id": "berminggu-minggu sebelum masalah besar."
+   },
+   "card": {
+    "en": "Overload sends *early signals*.",
+    "id": "Kelebihan beban mengirim *sinyal awal*."
+   },
+   "vtt": {
+    "en": "Overload sends early signals, weeks before real trouble. Sleep that no longer refreshes you. Irritation at small things. And pulling away from people you normally enjoy.",
+    "id": "Kelebihan beban mengirim sinyal awal, berminggu-minggu sebelum masalah besar. Tidur yang tak lagi menyegarkan. Mudah kesal pada hal kecil. Dan menjauh dari orang-orang yang biasanya kamu sukai."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Subtract one commitment",
+     "id": "Kurangi satu komitmen"
+    },
+    {
+     "en": "Protect your sleep",
+     "id": "Lindungi tidurmu"
+    },
+    {
+     "en": "Talk to someone",
+     "id": "Bicaralah dengan seseorang"
+    }
+   ],
+   "note": {
+    "en": "low mood for two weeks: see a professional.",
+    "id": "murung dua minggu: temui profesional."
+   },
+   "card": {
+    "en": "The response: *subtract first*.",
+    "id": "Tanggapannya: *kurangi dulu*."
+   },
+   "vtt": {
+    "en": "Subtract first: drop one commitment for two weeks and protect your sleep. Then talk, to a friend, a mentor or a counsellor. And if a low mood stays most days for two weeks, seeing a professional is the competent move.",
+    "id": "Kurangi dulu: lepas satu komitmen selama dua minggu dan lindungi tidurmu. Lalu bicaralah, dengan teman, mentor, atau konselor. Dan kalau suasana hati yang rendah bertahan hampir setiap hari selama dua minggu, menemui profesional adalah langkah yang tepat."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "calendar",
+   "label": {
+    "en": "Friday morning",
+    "id": "Jumat pagi"
+   },
+   "tiles": "4",
+   "note": {
+    "en": "nights inside his sleep window.",
+    "id": "malam di dalam jendela tidurnya."
+   },
+   "card": {
+    "en": "The interview is the same. *His brain is not.*",
+    "id": "Wawancaranya sama. *Otaknya tidak.*"
+   },
+   "vtt": {
+    "en": "Friday morning. Four nights inside his sleep window, and a walk to campus. The interview is the same. The brain he brings to it is not.",
+    "id": "Jumat pagi. Empat malam di dalam jendela tidurnya, dan jalan kaki ke kampus. Wawancaranya sama. Otak yang ia bawa tidak."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "Sleep",
+      "id": "Tidur"
+     }
+    },
+    {
+     "t": {
+      "en": "Heat",
+      "id": "Panas"
+     }
+    },
+    {
+     "t": {
+      "en": "Food",
+      "id": "Makan"
+     }
+    },
+    {
+     "t": {
+      "en": "Mental load",
+      "id": "Beban pikiran"
+     }
+    }
+   ],
+   "note": {
+    "en": "check the levers before you blame yourself.",
+    "id": "cek tuasnya sebelum menyalahkan diri."
+   },
+   "card": {
+    "en": "On a day that feels *harder than it should*:",
+    "id": "Di hari yang terasa *lebih berat dari semestinya*:"
+   },
+   "vtt": {
+    "en": "And on a day that feels harder than it should, he checks his levers before he blames his character: sleep, heat, food, mental load.",
+    "id": "Dan di hari yang terasa lebih berat dari semestinya, ia mengecek tuasnya sebelum menyalahkan karakternya: tidur, panas, makan, beban pikiran."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "A floor you never break beats a ceiling you never",
+    "id": "Batas bawah yang terjaga mengalahkan batas atas yang tak pernah"
+   },
+   "tiles": {
+    "en": "REACH.",
+    "id": "TERCAPAI."
+   },
+   "note": {
+    "en": "capacity grows in the rest.",
+    "id": "kapasitas tumbuh saat beristirahat."
+   },
+   "vtt": {
+    "en": "A floor you never break beats a ceiling you never reach. Capacity grows in the rest after effort.",
+    "id": "Batas bawah yang tak pernah kamu langgar mengalahkan batas atas yang tak pernah kamu capai. Kapasitas tumbuh saat beristirahat setelah berusaha."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: write *your four lines*.",
+    "id": "Giliranmu: tulis *empat barismu*."
+   },
+   "stamp": {
+    "en": "Sleep · movement · a meal · a person",
+    "id": "Tidur · gerak · makan · satu orang"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Write your four lines: a sleep window, movement, one real meal, one person.",
+    "id": "Sekarang giliranmu. Tulis empat barismu: jendela tidur, gerak, satu kali makan sungguhan, satu orang."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

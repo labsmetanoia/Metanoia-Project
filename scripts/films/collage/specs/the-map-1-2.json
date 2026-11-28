@@ -1,0 +1,318 @@
+{
+ "id": "map-1-2-one-sentence",
+ "lesson": "1.2",
+ "seed": 23,
+ "title": {
+  "en": "*One sentence*: setting a learning intention",
+  "id": "*Satu kalimat*: menetapkan niat belajar"
+ },
+ "places": {
+  "start": {
+   "en": "Good intentions",
+   "id": "Niat baik"
+  },
+  "goal": {
+   "en": "Finished work",
+   "id": "Karya yang selesai"
+  },
+  "sea": {
+   "en": "The semester",
+   "id": "Satu semester"
+  },
+  "dot": {
+   "en": "January",
+   "id": "Januari"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "One sentence: setting a learning intention.",
+    "id": "Satu kalimat: menetapkan niat belajar."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "note",
+   "label": {
+    "en": "On his wall",
+    "id": "Di dindingnya"
+   },
+   "note": {
+    "en": "“get better at data analysis.”",
+    "id": "“jadi lebih jago analisis data.”"
+   },
+   "card": {
+    "en": "Every January, Dimas writes *the same line*.",
+    "id": "Setiap Januari, Dimas menulis *kalimat yang sama*."
+   },
+   "vtt": {
+    "en": "Every January, Dimas writes the same line and sticks it on his wall: this year, I will get better at data analysis.",
+    "id": "Setiap Januari, Dimas menulis kalimat yang sama dan menempelkannya di dinding: tahun ini, aku akan lebih jago analisis data."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "calendar",
+   "label": {
+    "en": "March",
+    "id": "Maret"
+   },
+   "tiles": "0",
+   "note": {
+    "en": "nothing else has changed.",
+    "id": "tak ada lagi yang berubah."
+   },
+   "card": {
+    "en": "By March, the note is *still there*.",
+    "id": "Sampai Maret, catatan itu *masih di sana*."
+   },
+   "vtt": {
+    "en": "By March, the note is still there. Nothing else has changed.",
+    "id": "Sampai Maret, catatan itu masih di sana. Tak ada lagi yang berubah."
+   }
+  },
+  {
+   "kind": "stamp",
+   "label": {
+    "en": "The sentence",
+    "id": "Kalimatnya"
+   },
+   "sub": {
+    "en": "not the effort",
+    "id": "bukan usahanya"
+   },
+   "notes": [
+    {
+     "en": "“better” is an adjective.",
+     "id": "“lebih jago” itu kata sifat."
+    },
+    {
+     "en": "it gives him nothing to check.",
+     "id": "tak ada yang bisa ia periksa."
+    }
+   ],
+   "card": {
+    "en": "The problem is not his effort. It is *the sentence*.",
+    "id": "Masalahnya bukan usahanya. Masalahnya *kalimat itu*."
+   },
+   "vtt": {
+    "en": "The problem is not his effort. It is the sentence. “Better” is an adjective. It gives him nothing to check.",
+    "id": "Masalahnya bukan usahanya. Masalahnya kalimat itu. “Lebih jago” adalah kata sifat. Tak ada yang bisa ia periksa."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "Rewrite it",
+    "id": "Tulis ulang"
+   },
+   "old": {
+    "en": "get better at data analysis",
+    "id": "lebih jago analisis data"
+   },
+   "new": [
+    {
+     "en": "by 30 June: 3 finished projects,",
+     "id": "paling lambat 30 Juni: 3 proyek selesai,"
+    },
+    {
+     "en": "shown to a mentor.",
+     "id": "ditunjukkan ke mentor."
+    }
+   ],
+   "card": {
+    "en": "A result he can *count*. And a *date*.",
+    "id": "Hasil yang bisa ia *hitung*. Dan sebuah *tanggal*."
+   },
+   "vtt": {
+    "en": "So he crosses it out. The new sentence has a result he can count, and a date: by 30 June, three finished projects, shown to a mentor.",
+    "id": "Maka ia mencoretnya. Kalimat barunya punya hasil yang bisa dihitung, dan tanggal: paling lambat 30 Juni, tiga proyek selesai, ditunjukkan ke seorang mentor."
+   }
+  },
+  {
+   "kind": "number",
+   "tiles": "2H",
+   "unit": {
+    "en": "Every day · plan A",
+    "id": "Setiap hari · rencana A"
+   },
+   "note": {
+    "en": "it survives nine days.",
+    "id": "bertahan sembilan hari."
+   },
+   "card": {
+    "en": "Next, time. His first plan:",
+    "id": "Berikutnya, waktu. Rencana pertamanya:"
+   },
+   "vtt": {
+    "en": "Next, time. His first plan is two hours every day. It survives nine days.",
+    "id": "Berikutnya, waktu. Rencana pertamanya dua jam setiap hari. Bertahan sembilan hari."
+   }
+  },
+  {
+   "kind": "number",
+   "tiles": "3×40",
+   "unit": {
+    "en": "Minutes a week · plan B",
+    "id": "Menit seminggu · rencana B"
+   },
+   "note": {
+    "en": "booked like classes he cannot skip.",
+    "id": "dijadwalkan seperti kelas yang tak bisa ia lewatkan."
+   },
+   "card": {
+    "en": "His second plan is *smaller*.",
+    "id": "Rencana keduanya *lebih kecil*."
+   },
+   "vtt": {
+    "en": "His second plan is smaller: three sessions of forty minutes, booked in his calendar like classes he cannot skip.",
+    "id": "Rencana keduanya lebih kecil: tiga sesi empat puluh menit, dijadwalkan di kalender seperti kelas yang tak bisa ia lewatkan."
+   }
+  },
+  {
+   "kind": "wide",
+   "mark": [
+    5,
+    6
+   ],
+   "card": {
+    "en": "A modest plan you *keep* beats an ambitious one you imagine.",
+    "id": "Rencana sederhana yang kamu *jalani* mengalahkan rencana ambisius yang hanya kamu bayangkan."
+   },
+   "vtt": {
+    "en": "A modest plan you keep beats an ambitious one you imagine.",
+    "id": "Rencana sederhana yang kamu jalani mengalahkan rencana ambisius yang hanya kamu bayangkan."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "chart",
+   "label": {
+    "en": "Sunday evening",
+    "id": "Minggu malam"
+   },
+   "tiles": "3/3",
+   "note": {
+    "en": "one number: sessions kept.",
+    "id": "satu angka: sesi yang terlaksana."
+   },
+   "card": {
+    "en": "Last, *a signal*. Every Sunday:",
+    "id": "Terakhir, *satu sinyal*. Setiap Minggu:"
+   },
+   "vtt": {
+    "en": "Last, a signal. Every Sunday evening, Dimas checks one number: sessions kept this week.",
+    "id": "Terakhir, satu sinyal. Setiap Minggu malam, Dimas mengecek satu angka: sesi yang terlaksana minggu ini."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "3 of 3 → carry on",
+      "id": "3 dari 3 → lanjutkan"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "1 of 3 → make the plan smaller",
+      "id": "1 dari 3 → kecilkan rencananya"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "1 of 3 → make the guilt bigger",
+      "id": "1 dari 3 → besarkan rasa bersalahnya"
+     },
+     "ok": false
+    }
+   ],
+   "card": {
+    "en": "Read the number. Then *adjust the plan*.",
+    "id": "Baca angkanya. Lalu *sesuaikan rencananya*."
+   },
+   "vtt": {
+    "en": "Three of three, carry on. One of three, make the plan smaller, not the guilt bigger.",
+    "id": "Tiga dari tiga, lanjutkan. Satu dari tiga, kecilkan rencananya, bukan besarkan rasa bersalahnya."
+   }
+  },
+  {
+   "kind": "loop",
+   "tiles": "4",
+   "unit": {
+    "en": "parts",
+    "id": "bagian"
+   },
+   "items": [
+    {
+     "en": "A result you can count",
+     "id": "Hasil yang bisa dihitung"
+    },
+    {
+     "en": "A date",
+     "id": "Tanggal"
+    },
+    {
+     "en": "A weekly time budget",
+     "id": "Jatah waktu mingguan"
+    },
+    {
+     "en": "A Sunday signal",
+     "id": "Sinyal hari Minggu"
+    }
+   ],
+   "card": {
+    "en": "A working intention has *four parts*.",
+    "id": "Niat yang bekerja punya *empat bagian*."
+   },
+   "vtt": {
+    "en": "Put together, a working intention has four parts: a result you can count, a date, a weekly time budget you can defend, and one signal you check every Sunday.",
+    "id": "Kalau digabung, niat yang bekerja punya empat bagian: hasil yang bisa dihitung, tanggal, jatah waktu mingguan yang bisa kamu jaga, dan satu sinyal yang kamu cek setiap Minggu."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Intentions with a number and a date get",
+    "id": "Niat yang punya angka dan tanggal akan"
+   },
+   "tiles": {
+    "en": "DONE.",
+    "id": "JADI."
+   },
+   "note": {
+    "en": "adjectives get abandoned.",
+    "id": "kata sifat ditinggalkan."
+   },
+   "vtt": {
+    "en": "Intentions with a number and a date get finished. Intentions with adjectives get abandoned.",
+    "id": "Niat yang punya angka dan tanggal akan selesai. Niat yang berisi kata sifat akan ditinggalkan."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: write *one sentence* for The Map.",
+    "id": "Giliranmu: tulis *satu kalimat* untuk The Map."
+   },
+   "stamp": {
+    "en": "Result · date · budget · signal",
+    "id": "Hasil · tanggal · jatah · sinyal"
+   },
+   "vtt": {
+    "en": "Now it is your turn. Write your one sentence for The Map: a result, a date, a weekly budget and a Sunday signal.",
+    "id": "Sekarang giliranmu. Tulis satu kalimatmu untuk The Map: hasil, tanggal, jatah mingguan, dan sinyal hari Minggu."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "id": "map-2-2-the-gap",
+ "lesson": "2.2",
+ "seed": 53,
+ "title": {
+  "en": "*The gap*: acting inside your control",
+  "id": "*Celah itu*: bertindak di dalam kendalimu"
+ },
+ "places": {
+  "start": {
+   "en": "What happens to you",
+   "id": "Yang menimpamu"
+  },
+  "goal": {
+   "en": "What you choose",
+   "id": "Yang kamu pilih"
+  },
+  "sea": {
+   "en": "Two seconds",
+   "id": "Dua detik"
+  },
+  "dot": {
+   "en": "10:00 p.m.",
+   "id": "22.00"
+  }
+ },
+ "figs": [
+  {
+   "kind": "title",
+   "vtt": {
+    "en": "The gap: acting inside your control.",
+    "id": "Celah itu: bertindak di dalam kendalimu."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "phone",
+   "label": {
+    "en": "A message from a teammate",
+    "id": "Pesan dari rekan setim"
+   },
+   "note": {
+    "en": "“I have not started my part.”",
+    "id": "“bagianku belum kumulai.”"
+   },
+   "card": {
+    "en": "Ten at night. The presentation is *tomorrow*.",
+    "id": "Pukul sepuluh malam. Presentasinya *besok*."
+   },
+   "vtt": {
+    "en": "Ten at night. A message from a teammate: I have not started my part. The presentation is tomorrow.",
+    "id": "Pukul sepuluh malam. Pesan dari rekan setim: bagianku belum kumulai. Presentasinya besok."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "chat",
+   "label": {
+    "en": "Sinta's thumbs",
+    "id": "Jempol Sinta"
+   },
+   "note": {
+    "en": "already typing something sharp.",
+    "id": "sudah mengetik sesuatu yang tajam."
+   },
+   "card": {
+    "en": "She knows *exactly* what to reply.",
+    "id": "Ia tahu *persis* mau membalas apa."
+   },
+   "vtt": {
+    "en": "Sinta's thumbs are already typing something sharp.",
+    "id": "Jempol Sinta sudah mengetik sesuatu yang tajam."
+   }
+  },
+  {
+   "kind": "number",
+   "tiles": "2",
+   "unit": {
+    "en": "seconds wide",
+    "id": "detik lebarnya"
+   },
+   "note": {
+    "en": "between the message and her reply.",
+    "id": "antara pesan itu dan balasannya."
+   },
+   "card": {
+    "en": "But there is *a gap*.",
+    "id": "Tapi ada *sebuah celah*."
+   },
+   "vtt": {
+    "en": "But between the message and her reply there is a gap. It is about two seconds wide.",
+    "id": "Tapi di antara pesan itu dan balasannya ada sebuah celah. Lebarnya kira-kira dua detik."
+   }
+  },
+  {
+   "kind": "steps",
+   "items": [
+    {
+     "en": "Stimulus · fixed",
+     "id": "Rangsangan · tetap"
+    },
+    {
+     "en": "The gap · she chooses",
+     "id": "Celah · ia memilih"
+    },
+    {
+     "en": "Response · hers",
+     "id": "Tanggapan · miliknya"
+    }
+   ],
+   "note": {
+    "en": "ownership is not hustle. it is this.",
+    "id": "memegang kendali bukan soal ngotot. tapi ini."
+   },
+   "card": {
+    "en": "She did not choose the message. The reply is *entirely hers*.",
+    "id": "Ia tidak memilih pesannya. Balasannya *sepenuhnya miliknya*."
+   },
+   "vtt": {
+    "en": "The stimulus is fixed. She did not choose it. The gap is where she chooses. And the response is entirely hers. Ownership is refusing to let the stimulus write your reply.",
+    "id": "Rangsangannya tetap. Ia tidak memilihnya. Celah itu tempat ia memilih. Dan tanggapannya sepenuhnya miliknya. Memegang kendali berarti tidak membiarkan rangsangan menuliskan balasanmu."
+   }
+  },
+  {
+   "kind": "strike",
+   "label": {
+    "en": "Two drafts",
+    "id": "Dua draf"
+   },
+   "old": {
+    "en": "you always make me do everything.",
+    "id": "kamu selalu bikin aku ngerjain semuanya."
+   },
+   "new": [
+    {
+     "en": "I choose: slide four, tonight.",
+     "id": "aku pilih: slide empat, malam ini."
+    },
+    {
+     "en": "the last two from you, by eight.",
+     "id": "dua terakhir darimu, sebelum jam delapan."
+    }
+   ],
+   "card": {
+    "en": "Her first draft *hands him the pen*.",
+    "id": "Draf pertamanya *menyerahkan pena kepadanya*."
+   },
+   "vtt": {
+    "en": "Her first draft: you always make me do everything. That sentence hands the pen to him. She deletes it. The second begins with I choose.",
+    "id": "Draf pertamanya: kamu selalu bikin aku ngerjain semuanya. Kalimat itu menyerahkan pena kepadanya. Ia menghapusnya. Draf kedua dimulai dengan aku pilih."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "“I have to”",
+      "id": "“Aku harus”"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "“They made me”",
+      "id": "“Aku disuruh”"
+     },
+     "ok": false
+    },
+    {
+     "t": {
+      "en": "“There is nothing I can do”",
+      "id": "“Aku tidak bisa apa-apa”"
+     },
+     "ok": false
+    }
+   ],
+   "note": {
+    "en": "reactive tells.",
+    "id": "tanda reaktif."
+   },
+   "card": {
+    "en": "Your language is a *live diagnostic*.",
+    "id": "Bahasamu adalah *alat diagnosis langsung*."
+   },
+   "vtt": {
+    "en": "Your language is a live diagnostic. I have to, they made me, there is nothing I can do: these are reactive tells.",
+    "id": "Bahasamu adalah alat diagnosis langsung. Aku harus, aku disuruh, aku tidak bisa apa-apa: ini tanda-tanda reaktif."
+   }
+  },
+  {
+   "kind": "list",
+   "items": [
+    {
+     "t": {
+      "en": "“I choose”",
+      "id": "“Aku pilih”"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "“I will”",
+      "id": "“Aku akan”"
+     },
+     "ok": true
+    },
+    {
+     "t": {
+      "en": "“Here is what I can do”",
+      "id": "“Ini yang bisa kulakukan”"
+     },
+     "ok": true
+    }
+   ],
+   "note": {
+    "en": "listen for one day. count.",
+    "id": "dengarkan sehari. hitung."
+   },
+   "card": {
+    "en": "And the *other* set:",
+    "id": "Dan kelompok yang *satunya*:"
+   },
+   "vtt": {
+    "en": "I choose, I will, here is what I can do: these are ownership tells. Listen to yourself for one day, and count.",
+    "id": "Aku pilih, aku akan, ini yang bisa kulakukan: ini tanda-tanda memegang kendali. Dengarkan dirimu selama sehari, lalu hitung."
+   }
+  },
+  {
+   "kind": "event",
+   "icon": "note",
+   "label": {
+    "en": "The next morning",
+    "id": "Esok paginya"
+   },
+   "tiles": "1",
+   "note": {
+    "en": "page. a checklist nobody asked for.",
+    "id": "halaman. daftar periksa yang tak diminta siapa pun."
+   },
+   "card": {
+    "en": "Initiative inside your control needs *no permission*.",
+    "id": "Inisiatif di dalam kendalimu *tidak butuh izin*."
+   },
+   "vtt": {
+    "en": "The next morning she does one thing nobody asked for: a one-page checklist for the group's next project. That is exactly why interviewers ask for examples of it.",
+    "id": "Esok paginya ia mengerjakan satu hal yang tidak diminta siapa pun: daftar periksa satu halaman untuk proyek kelompok berikutnya. Itulah sebabnya pewawancara meminta contohnya."
+   }
+  },
+  {
+   "kind": "quote",
+   "text": {
+    "en": "Your words show who holds the",
+    "id": "Kata-katamu menunjukkan siapa yang memegang"
+   },
+   "tiles": {
+    "en": "PEN.",
+    "id": "PENA."
+   },
+   "note": {
+    "en": "the stimulus is fixed. the response is yours.",
+    "id": "rangsangannya tetap. tanggapannya milikmu."
+   },
+   "vtt": {
+    "en": "The stimulus is fixed. The response is yours. Your words show who holds the pen.",
+    "id": "Rangsangannya tetap. Tanggapannya milikmu. Kata-katamu menunjukkan siapa yang memegang pena."
+   }
+  },
+  {
+   "kind": "turn",
+   "text": {
+    "en": "Your turn: pick *one frustrating moment* from this week.",
+    "id": "Giliranmu: pilih *satu momen menjengkelkan* dari minggu ini."
+   },
+   "stamp": {
+    "en": "Find the gap. Rewrite the reply.",
+    "id": "Temukan celahnya. Tulis ulang."
+   },
+   "vtt": {
+    "en": "Now it is your turn. Pick one frustrating moment from this week. Find the gap, and rewrite your reply.",
+    "id": "Sekarang giliranmu. Pilih satu momen menjengkelkan dari minggu ini. Temukan celahnya, lalu tulis ulang balasanmu."
+   }
+  }
+ ],
+ "sources": "Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.",
+ "product": {
+  "en": "The Map",
+  "id": "The Map"
+ }
+}

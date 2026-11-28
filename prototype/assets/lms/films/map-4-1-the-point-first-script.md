@@ -1,45 +1,29 @@
 # The point first: five ways a message fails
 
-Film `map-4-1-the-point-first` · The Map 4.1
+Film `map-4-1-the-point-first` · The Map 4.1 · collage style, with music and sound effects
 
-**Source note.** Written for this lesson from its own objectives and reading: the five recurring communication challenges, the curse of knowledge, and auditing one message of your own. These are standard practices of workplace communication, taught here in the lesson's own words. The case and the character are invented for this film and appear in no other course. No third-party script, footage, picture or sound.
+**Source note.** Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.
 
-## English (113 s)
+## English (61 s)
 
-- `00:04` Fajar sends his manager a careful update: three hundred words, in the order things happened.
-- `00:11` She reads two lines and replies: so, are we on track? What she understood is what he communicated.
-- `00:20` A message can fail in five ways.
-- `00:24` Burying the lead: telling the story in order, so the point arrives last.
-- `00:30` The curse of knowledge: once you know something, you skip the steps your reader needed.
-- `00:38` Wrong altitude: detail when they wanted the summary, or the reverse.
-- `00:43` Monologue: sending, and never checking what landed.
-- `00:48` And stakes freeze: fluent with friends, rigid when it matters, because it was never rehearsed.
-- `00:55` Look at his message. The line that matters is the last one.
-- `01:01` At work, people want the point first and the journey second.
-- `01:07` So he rewrites it. The point, the reason, and the decision he needs from her.
-- `01:14` You can audit any message with three questions. Does the first sentence carry the point?
-- `01:21` Could a smart outsider follow it without your context?
-- `01:26` And did you ask anything that checked what they understood?
-- `01:31` What they understood is what you communicated.
-- `01:36` Put the point first, the journey second.
-- `01:40` Now it is your turn. Take the last important message you sent and score it against the five challenges.
+- `00:00` The point first: five ways a message fails.
+- `00:03` Fajar sends his manager a careful update: three hundred words, in the order things happened.
+- `00:09` She reads two lines and replies: so, are we on track?
+- `00:15` What she understood is what he communicated.
+- `00:22` A message can fail in five ways. Burying the lead. The curse of knowledge. Wrong altitude. Monologue. And stakes freeze: fluent with friends, rigid when it matters.
+- `00:31` At work, people want the point first and the journey second. So he rewrites it. The point, the reason, and the decision he needs from her.
+- `00:41` You can audit any message with three questions. Does the first sentence carry the point? Could a smart outsider follow it without your context? And did you ask anything that checked what they understood?
+- `00:49` What they understood is what you communicated. Put the point first, the journey second.
+- `00:56` Now it is your turn. Take the last important message you sent and score it against the five challenges.
 
-## Bahasa Indonesia (106 s)
+## Bahasa Indonesia (61 s)
 
-- `00:04` Fajar mengirim laporan yang rapi kepada manajernya: tiga ratus kata, urut sesuai kejadian.
-- `00:11` Manajernya membaca dua baris, lalu membalas: jadi, kita sesuai jadwal atau tidak? Yang ia pahami, itulah yang Fajar sampaikan.
-- `00:19` Sebuah pesan bisa gagal dengan lima cara.
-- `00:24` Mengubur inti pesan: bercerita secara berurutan, sehingga intinya muncul paling akhir.
-- `00:29` Kutukan pengetahuan: begitu kamu paham sesuatu, kamu melompati langkah yang dibutuhkan pembacamu.
-- `00:35` Ketinggian yang salah: memberi detail saat mereka butuh ringkasan, atau sebaliknya.
-- `00:41` Kebiasaan bermonolog: mengirim, lalu tak pernah mengecek apa yang sampai.
-- `00:46` Dan beku saat taruhannya tinggi: lancar di depan teman, kaku saat penting, karena tak pernah dilatih.
-- `00:54` Lihat pesannya. Kalimat yang penting justru ada di akhir.
-- `00:59` Di dunia kerja, orang ingin intinya dulu, baru ceritanya.
-- `01:04` Maka ia menulis ulang. Intinya, sebabnya, dan keputusan yang ia butuhkan dari manajernya.
-- `01:10` Kamu bisa mengaudit pesan apa pun dengan tiga pertanyaan. Apakah kalimat pertamanya memuat inti?
-- `01:17` Bisakah orang luar yang cerdas mengikutinya tanpa konteksmu?
-- `01:22` Dan apakah kamu bertanya untuk mengecek apa yang mereka pahami?
-- `01:27` Yang mereka pahami, itulah yang kamu sampaikan.
-- `01:31` Taruh intinya dulu, ceritanya belakangan.
-- `01:34` Sekarang giliranmu. Ambil pesan penting terakhir yang kamu kirim, lalu nilai dengan lima tantangan tadi.
+- `00:00` Intinya dulu: lima cara sebuah pesan gagal.
+- `00:03` Fajar mengirim kabar yang teliti kepada manajernya: tiga ratus kata, urut sesuai kejadian.
+- `00:09` Ia membaca dua baris lalu membalas: jadi, kita sesuai jadwal?
+- `00:15` Yang ia pahami, itulah yang Fajar sampaikan.
+- `00:22` Sebuah pesan bisa gagal dengan lima cara. Mengubur inti. Kutukan pengetahuan. Salah ketinggian. Monolog. Dan kaku saat genting: lancar dengan teman, kaku ketika penting.
+- `00:31` Di tempat kerja, orang ingin intinya dulu dan perjalanannya kemudian. Maka ia menulis ulang. Intinya, sebabnya, dan keputusan yang ia butuhkan.
+- `00:41` Kamu bisa memeriksa pesan apa pun dengan tiga pertanyaan. Apakah kalimat pertama memuat intinya? Bisakah orang luar yang cerdas mengikutinya tanpa konteksmu? Dan apakah kamu bertanya untuk mengecek apa yang mereka pahami?
+- `00:49` Yang mereka pahami adalah yang kamu sampaikan. Taruh intinya dulu, perjalanannya kemudian.
+- `00:56` Sekarang giliranmu. Ambil pesan penting terakhir yang kamu kirim dan nilai dengan lima tantangan tadi.

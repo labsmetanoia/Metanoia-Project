@@ -1,59 +1,37 @@
 # Energy first: sleep, a minimum protocol and how capacity grows
 
-Film `map-5-1-energy-first` · The Map 5.1
+Film `map-5-1-energy-first` · The Map 5.1 · collage style, with music and sound effects
 
-**Source note.** Written for this lesson from its own objectives and reading: sleep debt and the skills it costs, a minimum health protocol for a hard week, early overload signals with a two-step response, and how capacity grows. That effort followed by rest builds capacity is general exercise science, stated here in the course's own words. The case and the characters are invented for this film and appear in no other course. No third-party script, footage, picture or sound.
+**Source note.** Written for this lesson from its own objectives and reading. The story, the people and the setting are invented for this film and appear in no other course. Every picture is drawn by the film engine; the music and the sound effects are synthesised by scripts/films/collage/audio.py. No third-party script, footage, picture, voice or sound.
 
-## English (178 s)
+## English (95 s)
 
-- `00:04` It is half past one. Galih has an interview on Friday and a thesis chapter due, and for a week he has slept five hours a night.
-- `00:13` The trouble is what a tired brain loses first: attention, working memory and control of mood. Exactly the skills an interview tests.
-- `00:22` Usable energy comes from four systems. Sleep: it stores what you studied and restores the self-control you interview with.
-- `00:31` Movement: thirty brisk minutes on most days lifts mood and focus.
-- `00:37` Fuel: regular meals with protein, and coffee early in the day.
-- `00:42` And recovery: a real off-switch with people, nature or play. Scrolling does not count.
-- `00:49` Galih has made a health plan before. It was perfect, and it lasted two days.
-- `00:57` A plan built for your best week breaks in your worst one.
-- `01:03` So this time he writes a floor: four lines small enough to keep in a bad week.
-- `01:11` In a crunch week the floor may shrink: six hours, one walk. But it never goes to zero.
-- `01:19` Capacity grows the way a muscle does: a demand that stretches you a little, then enough rest to adapt.
-- `01:28` The growth happens in the rest, not in the effort.
-- `01:33` Take the rest away, and the same effort only wears you down.
-- `01:40` Stretch, recover, adapt. So plan recovery as deliberately as the work.
-- `01:45` Overload sends early signals, weeks before real trouble. Sleep that no longer refreshes you.
-- `01:52` Irritation at small things.
-- `01:55` And pulling away from people you normally enjoy.
-- `02:00` The response has two steps. Subtract first: drop one commitment for two weeks and protect your sleep. Then talk, to a friend, a mentor or a counsellor.
-- `02:09` And if a low mood stays most days for two weeks, seeing a professional is the competent move, as it would be for a broken bone.
-- `02:18` Friday morning. Four nights inside his sleep window, and a walk to campus. The interview is the same. The brain he brings to it is not.
-- `02:27` And on a day that feels harder than it should, he checks his levers before he blames his character: sleep, heat, food, mental load.
-- `02:36` A floor you never break beats a ceiling you never reach.
-- `02:41` Capacity grows in the rest after effort.
-- `02:45` Now it is your turn. Write your four lines: a sleep window, movement, one real meal, one person.
+- `00:00` Energy first: sleep, a minimum protocol and how capacity grows.
+- `00:03` It is half past one. Galih has an interview on Friday and a thesis chapter due, and for a week he has slept five hours a night.
+- `00:10` The trouble is what a tired brain loses first: attention, working memory and control of mood. Exactly the skills an interview tests.
+- `00:18` Usable energy comes from four systems. Sleep stores what you studied. Movement lifts mood and focus. Fuel: regular meals, and coffee early. And recovery: a real off-switch. Scrolling does not count.
+- `00:27` Galih has made a health plan before. It was perfect, and it lasted two days. A plan built for your best week breaks in your worst one.
+- `00:35` So this time he writes a floor: four lines small enough to keep in a bad week. In a crunch week the floor may shrink. But it never goes to zero.
+- `00:42` Capacity grows the way a muscle does: a demand that stretches you a little, then enough rest to adapt. The growth happens in the rest, not in the effort.
+- `00:50` Overload sends early signals, weeks before real trouble. Sleep that no longer refreshes you. Irritation at small things. And pulling away from people you normally enjoy.
+- `00:59` Subtract first: drop one commitment for two weeks and protect your sleep. Then talk, to a friend, a mentor or a counsellor. And if a low mood stays most days for two weeks, seeing a professional is the competent move.
+- `01:07` Friday morning. Four nights inside his sleep window, and a walk to campus. The interview is the same. The brain he brings to it is not.
+- `01:13` And on a day that feels harder than it should, he checks his levers before he blames his character: sleep, heat, food, mental load.
+- `01:23` A floor you never break beats a ceiling you never reach. Capacity grows in the rest after effort.
+- `01:30` Now it is your turn. Write your four lines: a sleep window, movement, one real meal, one person.
 
-## Bahasa Indonesia (174 s)
+## Bahasa Indonesia (95 s)
 
-- `00:04` Pukul setengah dua malam. Galih punya wawancara hari Jumat dan satu bab skripsi yang harus selesai, dan sudah seminggu ia hanya tidur lima jam semalam.
-- `00:13` Masalahnya ada pada apa yang lebih dulu hilang dari otak yang lelah: perhatian, memori kerja, dan pengendalian suasana hati. Tepat keterampilan yang diuji dalam wawancara.
-- `00:22` Energi yang bisa dipakai datang dari empat sistem. Tidur: ia menyimpan apa yang kamu pelajari dan memulihkan kendali diri yang kamu bawa ke wawancara.
-- `00:31` Gerak: tiga puluh menit bergerak cepat hampir setiap hari mengangkat suasana hati dan fokus.
-- `00:38` Asupan: makan teratur dengan protein, dan kopi di awal hari.
-- `00:43` Dan pemulihan: jeda yang sungguh-sungguh bersama orang lain, alam, atau permainan. Menggulir layar tidak termasuk.
-- `00:51` Galih pernah membuat rencana hidup sehat. Rencananya sempurna, dan hanya bertahan dua hari.
-- `00:57` Rencana yang dibuat untuk minggu terbaikmu akan runtuh di minggu terburukmu.
-- `01:03` Maka kali ini ia menulis batas bawah: empat baris yang cukup kecil untuk dijaga di minggu yang berat.
-- `01:11` Di minggu yang padat, batas itu boleh mengecil: enam jam, satu kali jalan kaki. Tapi tidak pernah sampai nol.
-- `01:20` Kapasitas tumbuh seperti otot: tuntutan yang sedikit meregangkanmu, lalu istirahat yang cukup untuk beradaptasi.
-- `01:27` Pertumbuhannya terjadi saat beristirahat, bukan saat berusaha.
-- `01:31` Hilangkan istirahatnya, dan usaha yang sama hanya akan mengurasmu.
-- `01:36` Regangkan, pulihkan, beradaptasi. Maka rencanakan pemulihan sesengaja kamu merencanakan pekerjaan.
-- `01:41` Kelebihan beban mengirim tanda awal, berminggu-minggu sebelum masalah sungguhan. Tidur yang tak lagi menyegarkan.
-- `01:48` Mudah kesal pada hal-hal kecil.
-- `01:52` Dan menjauh dari orang-orang yang biasanya kamu sukai.
-- `01:56` Responsnya dua langkah. Kurangi dulu: lepaskan satu komitmen selama dua minggu dan lindungi tidurmu. Lalu bicara, kepada teman, mentor, atau konselor.
-- `02:05` Dan jika suasana hati yang murung bertahan hampir setiap hari selama dua minggu, menemui profesional adalah langkah yang kompeten, sama seperti saat patah tulang.
-- `02:14` Jumat pagi. Empat malam tidur sesuai jendelanya, lalu berjalan kaki ke kampus. Wawancaranya tetap sama. Otak yang ia bawa ke sana berbeda.
-- `02:23` Dan di hari yang terasa lebih berat dari semestinya, ia memeriksa tuas-tuasnya sebelum menyalahkan karakternya: tidur, panas, makanan, beban pikiran.
-- `02:32` Batas bawah yang tak pernah kamu langgar mengalahkan batas atas yang tak pernah kamu capai.
-- `02:39` Kapasitas tumbuh saat beristirahat setelah berusaha.
-- `02:43` Sekarang giliranmu. Tulis empat barismu: jendela tidur, gerak, satu kali makan sungguhan, satu orang.
+- `00:00` Energi dulu: tidur, protokol minimum, dan cara kapasitas tumbuh.
+- `00:03` Pukul setengah dua. Galih punya wawancara hari Jumat dan tenggat bab skripsi, dan sudah seminggu ia tidur lima jam semalam.
+- `00:09` Masalahnya ada pada apa yang lebih dulu hilang dari otak yang lelah: perhatian, memori kerja, dan kendali suasana hati. Persis keterampilan yang diuji wawancara.
+- `00:18` Energi yang bisa dipakai datang dari empat sistem. Tidur menyimpan yang kamu pelajari. Gerak mengangkat suasana hati dan fokus. Asupan: makan teratur, kopi di awal hari. Dan pemulihan: jeda yang sungguh-sungguh. Menggulir layar tidak dihitung.
+- `00:27` Galih pernah membuat rencana kesehatan. Sempurna, dan bertahan dua hari. Rencana yang dibuat untuk minggu terbaikmu patah di minggu terburukmu.
+- `00:35` Maka kali ini ia menulis batas bawah: empat baris yang cukup kecil untuk dijaga di minggu yang buruk. Di minggu padat batas itu boleh mengecil. Tapi tidak pernah nol.
+- `00:42` Kapasitas tumbuh seperti otot: tuntutan yang sedikit meregangkanmu, lalu istirahat yang cukup untuk beradaptasi. Pertumbuhannya terjadi saat beristirahat, bukan saat berusaha.
+- `00:50` Kelebihan beban mengirim sinyal awal, berminggu-minggu sebelum masalah besar. Tidur yang tak lagi menyegarkan. Mudah kesal pada hal kecil. Dan menjauh dari orang-orang yang biasanya kamu sukai.
+- `00:59` Kurangi dulu: lepas satu komitmen selama dua minggu dan lindungi tidurmu. Lalu bicaralah, dengan teman, mentor, atau konselor. Dan kalau suasana hati yang rendah bertahan hampir setiap hari selama dua minggu, menemui profesional adalah langkah yang tepat.
+- `01:07` Jumat pagi. Empat malam di dalam jendela tidurnya, dan jalan kaki ke kampus. Wawancaranya sama. Otak yang ia bawa tidak.
+- `01:13` Dan di hari yang terasa lebih berat dari semestinya, ia mengecek tuasnya sebelum menyalahkan karakternya: tidur, panas, makan, beban pikiran.
+- `01:22` Batas bawah yang tak pernah kamu langgar mengalahkan batas atas yang tak pernah kamu capai. Kapasitas tumbuh saat beristirahat setelah berusaha.
+- `01:30` Sekarang giliranmu. Tulis empat barismu: jendela tidur, gerak, satu kali makan sungguhan, satu orang.
