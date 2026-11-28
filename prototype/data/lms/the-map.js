@@ -14096,12 +14096,12 @@ window.MT_LMS['the-map'] = {
         "id": "Versi awal · 5 slide"
        },
        "title": {
-        "en": "Case Brief: Original Version",
-        "id": "Arahan Kasus: Versi Awal"
+        "en": "Case Assignment: Problem Solving · Material",
+        "id": "Tugas Kasus: Pemecahan Masalah · Materi"
        },
        "intro": {
-        "en": "This is the brief of the earlier case, kept for reference beside the new one: five slides with the Mayor's e-mail, the travel data and the four modes of transport. The interactive case below is the new case.",
-        "id": "Ini arahan kasus versi awal, tersedia sebagai rujukan di samping kasus yang baru: lima slide berisi email Wali Kota, data perjalanan, dan empat moda transportasi. Kasus interaktif di bawah adalah kasus yang baru."
+        "en": "This is the original version of the case assignment, kept beside the new one. It is optional: the lesson completes when you submit the case above. Five slides carry the brief. The first welcomes you to the case and names the three skills you will practise; the second is the Mayor’s e-mail with the target (sixty minutes down to thirty, within five years) and the three things the city needs; the third shows how residents’ travel has shifted from public transport to private vehicles since 2021; the fourth compares the four modes of transport on coverage, hours, cost and what customers say; the fifth introduces the submission. Read them, then open the interactive case below. Unlike the form on the last slide, this page saves your draft on this device, so you can leave and come back before you submit.",
+        "id": "Ini versi awal tugas kasus, tersedia berdampingan dengan versi yang baru. Sifatnya opsional: pelajaran ini selesai saat kamu mengumpulkan kasus di atas. Lima slide memuat arahannya. Slide pertama menyambutmu di kasus ini dan menyebut tiga keterampilan yang akan kamu latih; slide kedua adalah email sang Wali Kota beserta targetnya (dari enam puluh menit turun menjadi tiga puluh, dalam lima tahun) dan tiga hal yang dibutuhkan kota; slide ketiga menunjukkan bagaimana cara warga bepergian bergeser dari transportasi umum ke kendaraan pribadi sejak 2021; slide keempat membandingkan empat moda transportasi dari sisi cakupan, jam operasi, biaya, dan pendapat pelanggan; slide kelima memperkenalkan pengirimannya. Baca semuanya, lalu buka kasus interaktif di bawah. Berbeda dengan formulir di slide terakhir, halaman ini menyimpan drafmu di perangkat ini, jadi kamu bisa pergi dan kembali lagi sebelum mengirimnya."
        },
        "base": "../../assets/lms/the-map/slides/case-",
        "slides": [
@@ -14155,9 +14155,1051 @@ window.MT_LMS['the-map'] = {
           "id": "Masalah kemacetan Kota Hustleton. Kami senang kamu sudah siap memindahkan jawabanmu dan mengirim tugas kasusmu. Semoga lembar kerja yang kami sediakan untuk berlatih dan menyiapkan jawaban sebelumnya membantu. Formulir ini akan memandumu, langkah demi langkah, menyelesaikan tiga bagian tugasnya: (1) perumusan masalah: pastikan masalahnya dirumuskan dengan jelas; (2) pohon isu: kenali daftar isu yang mungkin; (3) prioritas isu: fokus pada dua isu kunci untuk dianalisis lebih lanjut. Di formulir aslinya, kamu harus menyelesaikannya sekaligus, karena jawabannya tidak tersimpan, dan begitu kamu menekan kirim, tugasnya final. Di halaman ini, drafmu tersimpan di perangkat ini selama kamu mengetik. Tinjau setiap jawaban sebelum mengirim, karena mengirim akan mengunci jawabanmu."
          }
         }
+       ],
+       "placement": "after-exhibit"
+      }
+     ],
+     "caseEarlier": {
+      "key": "hustleton",
+      "kicker": {
+       "en": "Original version · Interactive case",
+       "id": "Versi awal · Kasus interaktif"
+      },
+      "title": {
+       "en": "Hustleton City Traffic Problem",
+       "id": "Masalah Kemacetan Kota Hustleton"
+      },
+      "lead": {
+       "en": "You are an advisor to the Mayor of Hustleton City. Read the brief, then work the case in three steps and submit your answers. This is an applied assessment of lessons 3.1–3.3: the frameworks are yours to apply, and there is no single right answer: a well-defined problem, a clean tree and a defensible prioritisation are what count.",
+       "id": "Kamu adalah penasihat Wali Kota Hustleton. Baca arahannya, lalu kerjakan kasusnya dalam tiga langkah dan kirim jawabanmu. Ini adalah asesmen terapan untuk Pelajaran 3.1–3.3: kerangka-kerangkanya bebas kamu terapkan, dan tidak ada satu jawaban yang paling benar. Yang dihitung adalah masalah yang dirumuskan dengan baik, pohon yang rapi, dan prioritas yang bisa dipertahankan."
+      },
+      "practice": [
+       {
+        "en": "Define a problem in a SMART way",
+        "id": "Merumuskan masalah dengan cara yang SMART"
+       },
+       {
+        "en": "Use structured thinking to break down a problem",
+        "id": "Memakai pemikiran terstruktur untuk memecah masalah"
+       },
+       {
+        "en": "Prioritise which issues to focus on before diving into a solution",
+        "id": "Memprioritaskan isu yang difokuskan sebelum terjun ke solusi"
+       }
+      ],
+      "goal": {
+       "en": "Provide clear, analysis-based recommendations that can be implemented to reduce traffic congestion in Hustleton City.",
+       "id": "Memberikan rekomendasi yang jelas, berbasis analisis, dan bisa dijalankan untuk mengurangi kemacetan di Kota Hustleton."
+      },
+      "brief": {
+       "quote": {
+        "text": {
+         "en": "Our city is growing, and traffic congestion is increasingly affecting our citizens’ productivity. We need clear and practical analysis and recommendations.",
+         "id": "Kota kami sedang tumbuh, dan kemacetan makin mengganggu produktivitas warga. Kami butuh analisis dan rekomendasi yang jelas dan praktis."
+        },
+        "who": {
+         "en": "The Mayor of Hustleton City",
+         "id": "Wali Kota Hustleton"
+        }
+       },
+       "email": {
+        "from": {
+         "en": "Mayor of Hustleton City",
+         "id": "Wali Kota Hustleton"
+        },
+        "to": {
+         "en": "to Advisor",
+         "id": "kepada Penasihat"
+        },
+        "date": {
+         "en": "Mon, Apr 22, 10:24 AM",
+         "id": "Senin, 22 Apr, 10.24"
+        },
+        "subject": {
+         "en": "Urgent support: our traffic problem",
+         "id": "Mohon dukungan segera: masalah kemacetan kami"
+        },
+        "paragraphs": [
+         {
+          "en": "Dear Advisor, our City of Hustleton needs your help with a <b>severe traffic problem</b>.",
+          "id": "Yth. Penasihat, Kota Hustleton membutuhkan bantuan Anda untuk mengatasi <b>masalah kemacetan yang serius</b>."
+         },
+         {
+          "en": "We are happy that the city is becoming an attractive place for businesses, but there are now <b>too many cars on the roads</b>, and it’s causing a lot of traffic.",
+          "id": "Kami senang kota ini makin menarik bagi dunia usaha, tetapi sekarang <b>jumlah mobil di jalan sudah terlalu banyak</b>, dan itu menimbulkan kemacetan parah."
+         },
+         {
+          "en": "Currently, during rush hours, it takes the city residents an average of around <b>60 minutes</b> of commuting to get to work from their homes, and they’re getting frustrated. We want to find ways to bring this average commute time down to <b>30 minutes</b>.",
+          "id": "Saat ini, pada jam sibuk, warga kota rata-rata butuh sekitar <b>60 menit</b> untuk berangkat dari rumah ke tempat kerja, dan mereka makin frustrasi. Kami ingin mencari cara menurunkan rata-rata waktu tempuh itu menjadi <b>30 menit</b>."
+         },
+         {
+          "en": "We have <b>5 years</b> to achieve this goal, but we can’t wait any longer to start, because the traffic is getting worse every day. There could be many issues contributing to the traffic, and I am aware that we won’t be able to solve them all. So, we need your <b>urgent support</b> with the following:",
+          "id": "Kami punya waktu <b>5 tahun</b> untuk mencapainya, tetapi kami tidak bisa menunda lagi, karena kemacetan makin parah setiap hari. Mungkin ada banyak isu yang ikut menyebabkan kemacetan, dan saya sadar kami tidak akan bisa menyelesaikan semuanya. Karena itu, kami butuh <b>dukungan Anda segera</b> untuk hal-hal berikut:"
+         }
+        ],
+        "asks": [
+         {
+          "en": "Ensure the problem is <b>clearly defined</b> for all stakeholders.",
+          "id": "Memastikan masalahnya <b>dirumuskan dengan jelas</b> bagi semua pemangku kepentingan."
+         },
+         {
+          "en": "Identify a <b>list of potential issues</b> that could be leading to this problem.",
+          "id": "Mengenali <b>daftar isu</b> yang mungkin menyebabkan masalah ini."
+         },
+         {
+          "en": "Before jumping into any solutions to those issues, <b>prioritise two issues</b> that we should focus on analysing further as a next step.",
+          "id": "Sebelum melompat ke solusi apa pun, <b>memprioritaskan dua isu</b> yang perlu kami analisis lebih lanjut sebagai langkah berikutnya."
+         }
+        ],
+        "closing": [
+         {
+          "en": "My aim is to initiate the analysis of two priority issues; hence your <b>prioritisation will help us pick the most important issues and get to work!</b>",
+          "id": "Saya ingin memulai analisis atas dua isu prioritas itu, jadi <b>prioritas dari Anda akan membantu kami memilih isu yang paling penting dan segera bergerak!</b>"
+         },
+         {
+          "en": "To help you get started, we have <b>data about the different modes of transportation</b> that people use in the city.",
+          "id": "Untuk membantu Anda memulai, kami punya <b>data tentang berbagai moda transportasi</b> yang dipakai warga kota."
+         },
+         {
+          "en": "Best regards,<br>Mayor of Hustleton City",
+          "id": "Salam hormat,<br>Wali Kota Hustleton"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "users",
+         "k": {
+          "en": "Growing city",
+          "id": "Kota yang sedang tumbuh"
+         },
+         "v": {
+          "en": "Becoming an attractive place for businesses",
+          "id": "Makin menarik bagi dunia usaha"
+         }
+        },
+        {
+         "icon": "car",
+         "k": {
+          "en": "High traffic volume",
+          "id": "Volume lalu lintas tinggi"
+         },
+         "v": {
+          "en": "Too many cars on the roads",
+          "id": "Terlalu banyak mobil di jalan"
+         }
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "Long commute time",
+          "id": "Waktu tempuh yang lama"
+         },
+         "v": {
+          "en": "About 60 minutes during rush hours",
+          "id": "Sekitar 60 menit pada jam sibuk"
+         }
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "Target",
+          "id": "Target"
+         },
+         "v": {
+          "en": "Average commute down to 30 minutes within 5 years",
+          "id": "Rata-rata waktu tempuh turun menjadi 30 menit dalam 5 tahun"
+         },
+         "hot": true
+        }
+       ],
+       "chart": {
+        "title": {
+         "en": "Share of trips by mode of transportation in Hustleton City",
+         "id": "Porsi perjalanan menurut moda transportasi di Kota Hustleton"
+        },
+        "unit": {
+         "en": "% share of trips",
+         "id": "% porsi perjalanan"
+        },
+        "years": [
+         "2021",
+         "2022",
+         "2023"
+        ],
+        "series": [
+         {
+          "key": "public",
+          "label": {
+           "en": "Public transport",
+           "id": "Transportasi umum"
+          },
+          "sub": {
+           "en": "Buses, rail, underground",
+           "id": "Bus, kereta, kereta bawah tanah"
+          },
+          "vals": [
+           55,
+           35,
+           20
+          ]
+         },
+         {
+          "key": "taxi",
+          "label": {
+           "en": "Private taxis",
+           "id": "Taksi swasta"
+          },
+          "sub": {
+           "en": "Ordered via app or on the street",
+           "id": "Dipesan lewat aplikasi atau dicegat di jalan"
+          },
+          "vals": [
+           15,
+           20,
+           25
+          ]
+         },
+         {
+          "key": "car",
+          "label": {
+           "en": "Personal vehicles",
+           "id": "Kendaraan pribadi"
+          },
+          "sub": {
+           "en": "Cars and motorbikes",
+           "id": "Mobil dan sepeda motor"
+          },
+          "vals": [
+           30,
+           45,
+           55
+          ]
+         }
+        ],
+        "takeaways": [
+         {
+          "h": {
+           "en": "Public transport usage has significantly declined",
+           "id": "Pemakaian transportasi umum turun tajam"
+          },
+          "p": {
+           "en": "The share of trips using public transport dropped from 55% in 2021 to 20% in 2023 (−35 percentage points).",
+           "id": "Porsi perjalanan dengan transportasi umum turun dari 55% pada 2021 menjadi 20% pada 2023 (−35 poin persentase)."
+          },
+          "dir": "down"
+         },
+         {
+          "h": {
+           "en": "Private taxi usage has increased moderately",
+           "id": "Pemakaian taksi swasta naik sedang"
+          },
+          "p": {
+           "en": "The share of trips using private taxis rose from 15% in 2021 to 25% in 2023 (+10 percentage points).",
+           "id": "Porsi perjalanan dengan taksi swasta naik dari 15% pada 2021 menjadi 25% pada 2023 (+10 poin persentase)."
+          },
+          "dir": "up"
+         },
+         {
+          "h": {
+           "en": "Personal vehicle usage has grown significantly",
+           "id": "Pemakaian kendaraan pribadi naik tajam"
+          },
+          "p": {
+           "en": "The share of trips using personal vehicles increased from 30% in 2021 to 55% in 2023 (+25 percentage points).",
+           "id": "Porsi perjalanan dengan kendaraan pribadi naik dari 30% pada 2021 menjadi 55% pada 2023 (+25 poin persentase)."
+          },
+          "dir": "up"
+         }
+        ],
+        "note": {
+         "en": "These shifts indicate a clear trend towards increased reliance on personal vehicles, which may be contributing to the growing traffic congestion in Hustleton City.",
+         "id": "Pergeseran ini menunjukkan kecenderungan yang jelas ke arah makin bergantung pada kendaraan pribadi, yang mungkin ikut memperparah kemacetan di Kota Hustleton."
+        }
+       },
+       "modes": {
+        "title": {
+         "en": "Modes of transportation within Hustleton",
+         "id": "Moda transportasi di Hustleton"
+        },
+        "intro": {
+         "en": "The options currently available for getting around the city.",
+         "id": "Pilihan yang saat ini tersedia untuk berkeliling kota."
+        },
+        "rows": [
+         {
+          "en": "Description",
+          "id": "Keterangan"
+         },
+         {
+          "en": "Does it cover the full city?",
+          "id": "Mencakup seluruh kota?"
+         },
+         {
+          "en": "Hours of operation",
+          "id": "Jam operasi"
+         },
+         {
+          "en": "Average cost per journey",
+          "id": "Biaya rata-rata per perjalanan"
+         },
+         {
+          "en": "Customer feedback",
+          "id": "Pendapat pelanggan"
+         }
+        ],
+        "cols": [
+         {
+          "icon": "bus",
+          "name": {
+           "en": "Buses",
+           "id": "Bus"
+          },
+          "cells": [
+           {
+            "en": "Double-decker buses",
+            "id": "Bus tingkat"
+           },
+           {
+            "en": "Key districts only",
+            "id": "Hanya distrik-distrik utama"
+           },
+           {
+            "en": "Mon–Sat 7:00–00:00 · Sun reduced hours",
+            "id": "Senin–Sabtu 7.00–00.00 · Minggu jamnya dikurangi"
+           },
+           {
+            "en": "$2",
+            "id": "$2"
+           },
+           {
+            "en": "Cheapest type of transportation. However, it can be complicated to find the right stops.",
+            "id": "Jenis transportasi termurah. Tetapi halte yang tepat bisa sulit ditemukan."
+           }
+          ],
+          "tone": "ok"
+         },
+         {
+          "icon": "metro",
+          "name": {
+           "en": "Underground: The Tube",
+           "id": "Kereta bawah tanah: The Tube"
+          },
+          "cells": [
+           {
+            "en": "Underground metro",
+            "id": "Metro bawah tanah"
+           },
+           {
+            "en": "Central city coverage only",
+            "id": "Hanya mencakup pusat kota"
+           },
+           {
+            "en": "Mon–Sat 5:00–22:00 · Sun reduced hours",
+            "id": "Senin–Sabtu 5.00–22.00 · Minggu jamnya dikurangi"
+           },
+           {
+            "en": "$7",
+            "id": "$7"
+           },
+           {
+            "en": "Very reliable. However, trains get very crowded, especially during rush hours.",
+            "id": "Sangat bisa diandalkan. Tetapi keretanya sangat padat, terutama pada jam sibuk."
+           }
+          ],
+          "tone": "ok"
+         },
+         {
+          "icon": "rail",
+          "name": {
+           "en": "Over-ground rail",
+           "id": "Kereta di atas tanah"
+          },
+          "cells": [
+           {
+            "en": "Overground long-distance trains",
+            "id": "Kereta jarak jauh di atas tanah"
+           },
+           {
+            "en": "Outside city centre only",
+            "id": "Hanya di luar pusat kota"
+           },
+           {
+            "en": "24/7",
+            "id": "24 jam setiap hari"
+           },
+           {
+            "en": "$7",
+            "id": "$7"
+           },
+           {
+            "en": "Very accessible. However, there are a lot of stops, and it takes longer to arrive at the destination.",
+            "id": "Sangat mudah dijangkau. Tetapi perhentiannya banyak, jadi lebih lama sampai di tujuan."
+           }
+          ],
+          "tone": "ok"
+         },
+         {
+          "icon": "taxi",
+          "name": {
+           "en": "Taxi",
+           "id": "Taksi"
+          },
+          "cells": [
+           {
+            "en": "City taxis ordered via app or on the street",
+            "id": "Taksi kota yang dipesan lewat aplikasi atau dicegat di jalan"
+           },
+           {
+            "en": "Yes, fully",
+            "id": "Ya, seluruhnya"
+           },
+           {
+            "en": "24/7",
+            "id": "24 jam setiap hari"
+           },
+           {
+            "en": "$25",
+            "id": "$25"
+           },
+           {
+            "en": "Very expensive!",
+            "id": "Mahal sekali!"
+           }
+          ],
+          "tone": "warn"
+         }
+        ]
+       }
+      },
+      "steps": [
+       {
+        "id": "define",
+        "title": {
+         "en": "Define the problem",
+         "id": "Rumuskan masalahnya"
+        },
+        "short": {
+         "en": "Define",
+         "id": "Rumuskan"
+        },
+        "guide": {
+         "en": "Your first step in this assignment is to define the problem clearly for all stakeholders involved. Pushing for a SMART problem question can have a profound impact on your problem solving by clarifying the challenge and defining what it really means to address it. Using the information in the Mayor’s brief, concisely define what needs to be resolved.",
+         "id": "Langkah pertamamu dalam tugas ini adalah merumuskan masalahnya dengan jelas bagi semua pemangku kepentingan yang terlibat. Mendorong pertanyaan masalah yang SMART bisa berdampak besar pada pemecahan masalahmu, karena memperjelas tantangannya dan apa artinya benar-benar mengatasinya. Dengan informasi dari arahan sang Wali Kota, rumuskan dengan ringkas apa yang perlu diselesaikan."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "type": "statement",
+          "title": {
+           "en": "What is the key problem statement?",
+           "id": "Apa pernyataan masalah utamanya?"
+          },
+          "help": {
+           "en": "Write one question the whole city hall could rally behind. A strong statement names the outcome, the measure, the people affected and the horizon, without smuggling in a solution.",
+           "id": "Tulis satu pertanyaan yang bisa membuat seluruh balai kota bergerak bersama. Pernyataan yang kuat menyebut hasilnya, ukurannya, orang yang terdampak, dan jangka waktunya, tanpa menyelipkan solusi."
+          },
+          "stem": {
+           "en": "How can the city of Hustleton",
+           "id": "Bagaimana Kota Hustleton bisa"
+          },
+          "placeholder": {
+           "en": "… reduce the average rush-hour commute for its residents from about 60 minutes to 30 minutes within five years?",
+           "id": "… menurunkan rata-rata waktu tempuh warganya pada jam sibuk dari sekitar 60 menit menjadi 30 menit dalam lima tahun?"
+          },
+          "example": {
+           "label": {
+            "en": "A SMART statement from another case, for the shape only",
+            "id": "Pernyataan SMART dari kasus lain, hanya sebagai contoh bentuknya"
+           },
+           "text": {
+            "en": "How can Riverside Secondary School raise the share of Year 10 students passing the national maths exam from 62% to 80% by the June 2028 sitting, without adding to teachers’ contracted hours?",
+            "id": "Bagaimana SMA Riverside bisa menaikkan porsi siswa kelas 10 yang lulus ujian matematika nasional dari 62% menjadi 80% pada ujian Juni 2028, tanpa menambah jam kerja guru dalam kontraknya?"
+           }
+          },
+          "min": 10
+         },
+         {
+          "id": "q2",
+          "type": "smart",
+          "title": {
+           "en": "Quality check: is your problem statement SMART?",
+           "id": "Cek mutu: apakah pernyataan masalahmu sudah SMART?"
+          },
+          "help": {
+           "en": "Read your statement back against each criterion. Tick a criterion only when the statement itself meets it. The check is for you, not for a grader. If one is missing, go back to Q1 and refine the wording until all five are ticked; that is the discipline the Mayor is paying for.",
+           "id": "Baca lagi pernyataanmu dengan setiap kriteria. Centang sebuah kriteria hanya kalau pernyataannya sendiri sudah memenuhinya. Cek ini untukmu, bukan untuk penilai. Kalau ada yang belum terpenuhi, kembali ke P1 dan perhalus kata-katanya sampai kelima kriteria tercentang. Itulah disiplin yang dibayar sang Wali Kota."
+          },
+          "items": [
+           {
+            "k": "S",
+            "name": {
+             "en": "Specific",
+             "id": "Specific"
+            },
+            "ask": {
+             "en": "Does it say exactly what must change, and for whom?",
+             "id": "Apakah pernyataannya menyebut persis apa yang harus berubah, dan bagi siapa?"
+            },
+            "hint": {
+             "en": "“Traffic” is a topic; “average rush-hour commute of Hustleton residents” is specific.",
+             "id": "“Kemacetan” adalah topik; “rata-rata waktu tempuh warga Hustleton pada jam sibuk” itu spesifik."
+            }
+           },
+           {
+            "k": "M",
+            "name": {
+             "en": "Measurable",
+             "id": "Measurable"
+            },
+            "ask": {
+             "en": "Is there a number you could check next year?",
+             "id": "Adakah angka yang bisa kamu cek tahun depan?"
+            },
+            "hint": {
+             "en": "From about 60 minutes to 30 minutes is a measure; “less traffic” is not.",
+             "id": "Dari sekitar 60 menit menjadi 30 menit adalah ukuran; “kemacetan berkurang” bukan."
+            }
+           },
+           {
+            "k": "A",
+            "name": {
+             "en": "Action-oriented",
+             "id": "Action-oriented"
+            },
+            "ask": {
+             "en": "Does it point to something the city can act on?",
+             "id": "Apakah pernyataannya menunjuk ke sesuatu yang bisa ditindaklanjuti kota?"
+            },
+            "hint": {
+             "en": "“How can the city of Hustleton reduce…” invites action; a statement of fact does not.",
+             "id": "“Bagaimana Kota Hustleton bisa menurunkan…” mengundang tindakan; pernyataan fakta tidak."
+            }
+           },
+           {
+            "k": "R",
+            "name": {
+             "en": "Relevant",
+             "id": "Relevant"
+            },
+            "ask": {
+             "en": "Does it address what the Mayor actually asked for?",
+             "id": "Apakah pernyataannya menjawab apa yang benar-benar diminta sang Wali Kota?"
+            },
+            "hint": {
+             "en": "The brief is about commute time and congestion, not, say, air quality, however worthy.",
+             "id": "Arahannya soal waktu tempuh dan kemacetan, bukan, misalnya, mutu udara, sepenting apa pun hal itu."
+            }
+           },
+           {
+            "k": "T",
+            "name": {
+             "en": "Time-bound",
+             "id": "Time-bound"
+            },
+            "ask": {
+             "en": "Is the horizon in the statement?",
+             "id": "Apakah jangka waktunya ada di dalam pernyataan?"
+            },
+            "hint": {
+             "en": "The Mayor gave five years; the statement should say so.",
+             "id": "Sang Wali Kota memberi waktu lima tahun, dan pernyataannya harus menyebut itu."
+            }
+           }
+          ],
+          "reflect": {
+           "en": "Optional: what did you change in Q1 after this check?",
+           "id": "Opsional: apa yang kamu ubah di P1 setelah cek ini?"
+          }
+         }
+        ]
+       },
+       {
+        "id": "structure",
+        "title": {
+         "en": "Build the issue tree",
+         "id": "Susun pohon isunya"
+        },
+        "short": {
+         "en": "Structure",
+         "id": "Susun struktur"
+        },
+        "guide": {
+         "en": "Your second step is to identify the potential issues that, if resolved, are likely to address the problem. Take the problem statement from Step 1 and break it down into three key issues, each phrased as a question that starts with “How can we…”, then split each issue into two smaller sub-issues. Building an issue tree is iterative: you may need to test and refine different structures before arriving at a robust answer, so draft, read it top to bottom, and redraw.",
+         "id": "Langkah keduamu adalah mengenali isu-isu yang, kalau terselesaikan, kemungkinan besar akan mengatasi masalahnya. Ambil pernyataan masalah dari Langkah 1 dan pecah menjadi tiga isu kunci, masing-masing ditulis sebagai pertanyaan yang diawali “Bagaimana kita bisa…”, lalu pecah setiap isu menjadi dua sub-isu yang lebih kecil. Menyusun pohon isu adalah proses berulang: kamu mungkin perlu menguji dan memperhalus beberapa struktur sebelum sampai ke jawaban yang kokoh. Jadi buat drafnya, baca dari atas ke bawah, lalu gambar ulang."
+        },
+        "stem": {
+         "en": "How can we",
+         "id": "Bagaimana kita bisa"
+        },
+        "issues": [
+         {
+          "id": "q3",
+          "letter": "A",
+          "title": {
+           "en": "Issue A",
+           "id": "Isu A"
+          },
+          "placeholder": {
+           "en": "… win back trips from private cars to public transport?",
+           "id": "… merebut kembali perjalanan dari mobil pribadi ke transportasi umum?"
+          }
+         },
+         {
+          "id": "q4",
+          "letter": "B",
+          "title": {
+           "en": "Issue B",
+           "id": "Isu B"
+          },
+          "placeholder": {
+           "en": "… move more people through the road network at peak hours?",
+           "id": "… mengalirkan lebih banyak orang lewat jaringan jalan pada jam sibuk?"
+          }
+         },
+         {
+          "id": "q5",
+          "letter": "C",
+          "title": {
+           "en": "Issue C",
+           "id": "Isu C"
+          },
+          "placeholder": {
+           "en": "… reduce the number of trips that need to happen at rush hour at all?",
+           "id": "… mengurangi jumlah perjalanan yang memang harus terjadi pada jam sibuk?"
+          }
+         }
+        ],
+        "subLabel": {
+         "en": "Sub-issue",
+         "id": "Sub-isu"
+        },
+        "subPlaceholder": {
+         "en": "A smaller question this issue breaks into",
+         "id": "Pertanyaan yang lebih kecil dari pecahan isu ini"
+        },
+        "mece": {
+         "id": "q6",
+         "title": {
+          "en": "MECE quality check",
+          "id": "Cek mutu MECE"
+         },
+         "help": {
+          "en": "Test your tree before you continue: are the issues Mutually Exclusive and Collectively Exhaustive? Read the three issues side by side and ask the two questions below honestly. The signals under the tree are a rule-based check on your wording. They can point at a possible overlap or an untouched dimension, but only you can judge the logic.",
+          "id": "Uji pohonmu sebelum melanjutkan: apakah isu-isunya saling lepas (Mutually Exclusive) dan lengkap menyeluruh (Collectively Exhaustive)? Baca ketiga isu berdampingan dan jawab dua pertanyaan di bawah dengan jujur. Tanda-tanda di bawah pohon adalah pengecekan berbasis aturan pada kata-katamu. Tanda itu bisa menunjuk kemungkinan tumpang tindih atau dimensi yang belum tersentuh, tetapi hanya kamu yang bisa menilai logikanya."
+         },
+         "overlap": {
+          "ask": {
+           "en": "Overlaps: are any issues addressing the same underlying question?",
+           "id": "Tumpang tindih: adakah isu yang sebenarnya menggarap pertanyaan dasar yang sama?"
+          },
+          "yes": {
+           "en": "No: each issue asks a different question",
+           "id": "Tidak: setiap isu mengajukan pertanyaan yang berbeda"
+          },
+          "fixed": {
+           "en": "I found an overlap and redrew the tree",
+           "id": "Aku menemukan tumpang tindih dan menggambar ulang pohonnya"
+          },
+          "note": {
+           "en": "Where was the overlap, and how did you separate it? (optional)",
+           "id": "Di mana tumpang tindihnya, dan bagaimana kamu memisahkannya? (opsional)"
+          }
+         },
+         "gap": {
+          "ask": {
+           "en": "Gaps: is there an important dimension of the problem that has not been addressed?",
+           "id": "Celah: adakah dimensi penting dari masalahnya yang belum tergarap?"
+          },
+          "yes": {
+           "en": "No: together the issues cover the problem",
+           "id": "Tidak: bersama-sama, isu-isunya mencakup masalahnya"
+          },
+          "fixed": {
+           "en": "I found a gap and added or reworded an issue",
+           "id": "Aku menemukan celah dan menambah atau mengubah kata-kata sebuah isu"
+          },
+          "note": {
+           "en": "Which dimension was missing? (optional)",
+           "id": "Dimensi apa yang terlewat? (opsional)"
+          }
+         }
+        }
+       },
+       {
+        "id": "prioritise",
+        "title": {
+         "en": "Prioritise the issues",
+         "id": "Prioritaskan isunya"
+        },
+        "short": {
+         "en": "Prioritise",
+         "id": "Prioritaskan"
+        },
+        "guide": {
+         "en": "Your third step is to identify the two sub-issues that the Mayor’s team should analyse more deeply. Evaluate all six sub-issues (A1, A2, B1, B2, C1 and C2) on a 2×2 prioritisation matrix of impact against feasibility. Impact asks how much resolving the sub-issue would move the commute towards thirty minutes; feasibility asks whether the city could realistically act on it within five years. The Mayor’s next step is the two sub-issues that are both high impact and highly feasible.",
+         "id": "Langkah ketigamu adalah mengenali dua sub-isu yang sebaiknya dianalisis lebih dalam oleh tim Wali Kota. Nilai keenam sub-isu (A1, A2, B1, B2, C1, dan C2) di matriks prioritas 2×2 dampak lawan kelayakan. Dampak menanyakan seberapa jauh penyelesaian sebuah sub-isu akan menggeser waktu tempuh ke arah tiga puluh menit; kelayakan menanyakan apakah kota bisa benar-benar bertindak atasnya dalam lima tahun. Langkah berikutnya sang Wali Kota adalah dua sub-isu yang dampaknya tinggi sekaligus sangat layak dijalankan."
+        },
+        "matrix": {
+         "id": "q7",
+         "title": {
+          "en": "Prioritisation decision",
+          "id": "Keputusan prioritas"
+         },
+         "ask": {
+          "en": "Which two sub-issues would you place in the “High impact – High feasibility” quadrant?",
+          "id": "Dua sub-isu mana yang akan kamu tempatkan di kuadran “Dampak tinggi – Kelayakan tinggi”?"
+         },
+         "help": {
+          "en": "Place every sub-issue: tap a card, then tap the quadrant it belongs in (or use the selector on the card). The matrix redraws as you go. Exactly two should end up top-right. If more do, you are not prioritising yet; if fewer do, ask whether one of the others really is out of reach.",
+          "id": "Tempatkan setiap sub-isu: ketuk sebuah kartu, lalu ketuk kuadran tempatnya (atau pakai pemilih di kartunya). Matriksnya akan tergambar ulang selagi kamu bekerja. Tepat dua kartu yang semestinya berakhir di kanan atas. Kalau lebih, kamu belum memprioritaskan. Kalau kurang, tanyakan apakah salah satu kartu lain memang benar-benar di luar jangkauan."
+         },
+         "axes": {
+          "x": {
+           "en": "Feasibility",
+           "id": "Kelayakan"
+          },
+          "y": {
+           "en": "Impact",
+           "id": "Dampak"
+          },
+          "lo": {
+           "en": "Low",
+           "id": "Rendah"
+          },
+          "hi": {
+           "en": "High",
+           "id": "Tinggi"
+          }
+         },
+         "quadrants": {
+          "hh": {
+           "en": "High impact · High feasibility",
+           "id": "Dampak tinggi · Kelayakan tinggi"
+          },
+          "hl": {
+           "en": "High impact · Low feasibility",
+           "id": "Dampak tinggi · Kelayakan rendah"
+          },
+          "lh": {
+           "en": "Low impact · High feasibility",
+           "id": "Dampak rendah · Kelayakan tinggi"
+          },
+          "ll": {
+           "en": "Low impact · Low feasibility",
+           "id": "Dampak rendah · Kelayakan rendah"
+          }
+         },
+         "quadNotes": {
+          "hh": {
+           "en": "Analyse first",
+           "id": "Analisis lebih dulu"
+          },
+          "hl": {
+           "en": "Worth it, but hard: park for later",
+           "id": "Layak, tetapi sulit: simpan untuk nanti"
+          },
+          "lh": {
+           "en": "Quick wins, small dent",
+           "id": "Kemenangan cepat, dampaknya kecil"
+          },
+          "ll": {
+           "en": "Leave",
+           "id": "Tinggalkan"
+          }
+         }
+        },
+        "review": {
+         "id": "q8",
+         "title": {
+          "en": "Prioritisation quality check",
+          "id": "Cek mutu prioritas"
+         },
+         "ask": {
+          "en": "Are these two issues genuinely the most impactful and feasible options among all the sub-issues you identified?",
+          "id": "Apakah dua isu ini benar-benar pilihan yang paling berdampak dan paling layak di antara semua sub-isu yang kamu kenali?"
+         },
+         "help": {
+          "en": "Before you submit, argue against yourself for a minute. Would a sceptical council member agree that the two top-right cards beat the other four on both axes? If one of the “high impact, low feasibility” cards is actually doable with the Mayor’s backing, move it. Then write the case for your two picks in the Mayor’s language: what each would change, and why the city can act on it.",
+          "id": "Sebelum mengirim, bantahlah dirimu sendiri selama satu menit. Apakah anggota dewan yang skeptis akan setuju bahwa dua kartu di kanan atas mengalahkan empat kartu lainnya di kedua sumbu? Kalau salah satu kartu “dampak tinggi, kelayakan rendah” sebenarnya bisa dijalankan dengan dukungan sang Wali Kota, pindahkan kartu itu. Lalu tulis alasan pilihanmu dengan bahasa sang Wali Kota: apa yang akan diubah masing-masing, dan kenapa kota bisa bertindak atasnya."
+         },
+         "confirm": {
+          "en": "Yes: I reconsidered the other four and these two still lead on impact and feasibility",
+          "id": "Ya: aku sudah menimbang ulang empat kartu lainnya, dan dua ini tetap unggul dalam dampak dan kelayakan"
+         },
+         "changed": {
+          "en": "I reconsidered and changed one or both picks before confirming",
+          "id": "Aku menimbang ulang dan mengganti salah satu atau kedua pilihan sebelum mengonfirmasi"
+         },
+         "rationale": {
+          "en": "Why these two? Write the case for the Mayor (at least 25 words).",
+          "id": "Kenapa dua ini? Tulis alasannya untuk sang Wali Kota (minimal 25 kata)."
+         },
+         "placeholder": {
+          "en": "Sub-issue A1 would move the most trips… and the city already controls…; B2 is feasible because…",
+          "id": "Sub-isu A1 akan memindahkan perjalanan paling banyak… dan kota sudah mengendalikan…; B2 layak dijalankan karena…"
+         },
+         "min": 25
+        }
+       }
+      ],
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kirim"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kirim"
+       },
+       "lead": {
+        "en": "Everything you wrote, in one place. Open any step to edit it. Nothing is locked until you submit. The framework check below reads your answers against the SMART, MECE and prioritisation rules from lessons 3.1–3.3; it is rule-based guidance, not a grade, and it cannot judge whether your logic is right. When you are satisfied, submit the case.",
+        "id": "Semua yang kamu tulis, di satu tempat. Buka langkah mana pun untuk menyuntingnya. Tidak ada yang terkunci sampai kamu mengirimnya. Cek kerangka di bawah membaca jawabanmu dengan aturan SMART, MECE, dan prioritas dari Pelajaran 3.1–3.3. Cek ini panduan berbasis aturan, bukan nilai, dan tidak bisa menilai apakah logikamu benar. Kalau sudah puas, kirim kasusnya."
+       },
+       "button": {
+        "en": "Submit case assignment",
+        "id": "Kirim tugas kasus"
+       },
+       "confirmTitle": {
+        "en": "Submit your case assignment?",
+        "id": "Kirim tugas kasusmu?"
+       },
+       "confirmBody": {
+        "en": "Submitting locks your eight answers on this device and marks the assignment as delivered. You can still read them, copy them, and reopen the lesson.",
+        "id": "Mengirim akan mengunci delapan jawabanmu di perangkat ini dan menandai tugasnya sebagai terkirim. Kamu tetap bisa membacanya, menyalinnya, dan membuka ulang pelajarannya."
+       },
+       "confirmYes": {
+        "en": "Yes, submit",
+        "id": "Ya, kirim"
+       },
+       "confirmNo": {
+        "en": "Not yet",
+        "id": "Belum"
+       },
+       "doneTitle": {
+        "en": "Case assignment submitted",
+        "id": "Tugas kasus terkirim"
+       },
+       "doneBody": {
+        "en": "Your problem statement, issue tree and prioritisation are locked and saved on this device. You have taken a vague brief from define to decide: the same path the SodaComp team walked in 3.3. Use “Mark complete” below to close Module 3.",
+        "id": "Pernyataan masalah, pohon isu, dan prioritasmu sudah terkunci dan tersimpan di perangkat ini. Kamu sudah membawa arahan yang samar dari tahap merumuskan sampai memutuskan: jalur yang sama dengan yang ditempuh tim SodaComp di Pelajaran 3.3. Pakai “Tandai selesai” di bawah untuk menutup Modul 3."
+       },
+       "copy": {
+        "en": "Copy my submission",
+        "id": "Salin jawabanku"
+       },
+       "copied": {
+        "en": "Copied to the clipboard.",
+        "id": "Tersalin ke papan klip."
+       },
+       "reset": {
+        "en": "Clear my answers and start again",
+        "id": "Hapus jawabanku dan mulai lagi"
+       },
+       "resetConfirm": {
+        "en": "This deletes the eight answers saved on this device. Start again?",
+        "id": "Ini akan menghapus delapan jawaban yang tersimpan di perangkat ini. Mulai lagi?"
+       },
+       "local": {
+        "en": "Answers are saved on this device only; nothing is uploaded.",
+        "id": "Jawaban hanya tersimpan di perangkat ini; tidak ada yang diunggah."
+       }
+      },
+      "review": {
+       "measure": [
+        "30",
+        "thirty",
+        "tiga puluh",
+        "half",
+        "setengah",
+        "50%",
+        "minute",
+        "menit"
+       ],
+       "time": [
+        "5 year",
+        "five year",
+        "five-year",
+        "lima tahun",
+        "5 tahun",
+        "2029",
+        "2030",
+        "within",
+        "by 20",
+        "dalam "
+       ],
+       "action": [
+        "reduce",
+        "cut",
+        "bring",
+        "lower",
+        "halve",
+        "shorten",
+        "decrease",
+        "improve",
+        "menurunkan",
+        "turun",
+        "mengurangi",
+        "kurangi",
+        "memangkas",
+        "mempersingkat",
+        "memperbaiki"
+       ],
+       "stakeholder": [
+        "resident",
+        "commuter",
+        "citizen",
+        "people",
+        "worker",
+        "business",
+        "warga",
+        "penduduk",
+        "komuter",
+        "masyarakat",
+        "pekerja",
+        "usaha"
+       ],
+       "solution": [
+        "by building",
+        "by adding",
+        "by banning",
+        "dengan membangun",
+        "dengan menambah",
+        "dengan melarang"
+       ],
+       "dimensions": [
+        {
+         "name": {
+          "en": "Public transport supply and quality",
+          "id": "Pasokan dan mutu transportasi umum"
+         },
+         "words": [
+          "public transport",
+          "bus",
+          "tube",
+          "underground",
+          "metro",
+          "rail",
+          "train",
+          "transportasi publik",
+          "transportasi umum",
+          "kereta",
+          "mrt",
+          "angkutan umum"
+         ]
+        },
+        {
+         "name": {
+          "en": "Private-vehicle demand",
+          "id": "Permintaan kendaraan pribadi"
+         },
+         "words": [
+          "car",
+          "vehicle",
+          "motorbike",
+          "private",
+          "parking",
+          "congestion charge",
+          "toll",
+          "mobil",
+          "kendaraan pribadi",
+          "sepeda motor",
+          "parkir",
+          "tol"
+         ]
+        },
+        {
+         "name": {
+          "en": "Road network and traffic management",
+          "id": "Jaringan jalan dan manajemen lalu lintas"
+         },
+         "words": [
+          "road",
+          "lane",
+          "infrastructure",
+          "intersection",
+          "traffic light",
+          "signal",
+          "junction",
+          "jalan",
+          "lajur",
+          "infrastruktur",
+          "persimpangan",
+          "lampu lalu lintas",
+          "rekayasa"
+         ]
+        },
+        {
+         "name": {
+          "en": "Travel demand and working patterns",
+          "id": "Permintaan perjalanan dan pola kerja"
+         },
+         "words": [
+          "remote",
+          "work from home",
+          "flexible",
+          "stagger",
+          "school",
+          "behaviour",
+          "behavior",
+          "peak",
+          "demand",
+          "kerja jarak jauh",
+          "jam kerja",
+          "fleksibel",
+          "perilaku",
+          "sekolah",
+          "jam sibuk",
+          "permintaan"
+         ]
+        },
+        {
+         "name": {
+          "en": "Cost, pricing and incentives",
+          "id": "Biaya, tarif, dan insentif"
+         },
+         "words": [
+          "cost",
+          "price",
+          "fare",
+          "cheap",
+          "expensive",
+          "subsid",
+          "incentive",
+          "biaya",
+          "harga",
+          "tarif",
+          "murah",
+          "mahal",
+          "insentif"
+         ]
+        },
+        {
+         "name": {
+          "en": "Coverage and accessibility",
+          "id": "Cakupan dan kemudahan akses"
+         },
+         "words": [
+          "coverage",
+          "cover",
+          "access",
+          "district",
+          "outside",
+          "centre",
+          "center",
+          "suburb",
+          "stop",
+          "jangkauan",
+          "akses",
+          "distrik",
+          "pusat kota",
+          "pinggiran",
+          "halte"
+         ]
+        }
        ]
       }
-     ]
+     }
     }
    ],
    "hero": "../../assets/bg/stage-exploration.jpg",
