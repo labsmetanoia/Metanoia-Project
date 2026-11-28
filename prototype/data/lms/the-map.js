@@ -8450,6 +8450,35 @@ window.MT_LMS['the-map'] = {
         "en": "Current state, desired state with a date, and a named obstacle. The others are complaints, solutions or history; none of them can be worked on yet.",
         "id": "Kondisi sekarang, kondisi yang diinginkan beserta tanggalnya, dan hambatan yang disebutkan. Pilihan lainnya adalah keluhan, solusi, atau sejarah, dan tidak ada yang bisa digarap."
        }
+      },
+      {
+       "q": {
+        "en": "Original version · A teammate says: “Attendance at our weekly meeting is terrible. Let's just make it mandatory.” Which character is speaking, and which step is being skipped?",
+        "id": "Versi awal · Seorang rekan tim berkata: “Kehadiran di rapat mingguan kita parah. Kita wajibkan saja.” Tokoh mana yang sedang bicara, dan langkah mana yang dilompati?"
+       },
+       "options": [
+        {
+         "en": "The Dreamer, skipping execution",
+         "id": "Si Pemimpi, melompati pelaksanaan"
+        },
+        {
+         "en": "The Go-Getter, skipping the diagnosis of why people stop coming",
+         "id": "Si Tancap Gas, melompati diagnosis tentang kenapa orang berhenti datang"
+        },
+        {
+         "en": "The Critic, skipping the plan",
+         "id": "Si Pengkritik, melompati rencana"
+        },
+        {
+         "en": "Nobody: making it mandatory is the root-cause fix",
+         "id": "Tidak ada: mewajibkan kehadiran adalah perbaikan pada akar masalahnya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Complaint straight to action, with no attempt to understand where attendance dropped or why. Mandatory attendance treats the symptom; the cause (timing, relevance, length) is untouched.",
+        "id": "Dari keluhan langsung ke tindakan, tanpa usaha memahami di mana kehadirannya turun atau kenapa. Mewajibkan kehadiran hanya mengobati gejala, sementara penyebabnya (waktu, relevansi, durasi) tidak tersentuh."
+       }
       }
      ],
      "readFirst": {
@@ -9929,6 +9958,64 @@ window.MT_LMS['the-map'] = {
         "en": "Moving to the main gate looked hard until a friend who runs a stall there offered to share the spot. Getting help is a legitimate move that changes the matrix; the plan still needs a who-what-when line.",
         "id": "Pindah ke gerbang utama terlihat sulit sampai seorang teman yang punya lapak di sana menawarkan berbagi tempat. Meminta bantuan adalah langkah yang sah dan mengubah matriksnya; rencananya tetap butuh baris siapa-apa-kapan."
        }
+      },
+      {
+       "q": {
+        "en": "Original version · The band's hypothesis was “only 5% are aware”. The survey found 30%. What is the right reaction?",
+        "id": "Versi awal · Hipotesis band itu “hanya 5% yang tahu”. Survei menemukan 30%. Apa reaksi yang tepat?"
+       },
+       "options": [
+        {
+         "en": "Run the awareness campaign anyway: 30% is still low",
+         "id": "Tetap jalankan kampanye supaya orang tahu: 30% masih rendah"
+        },
+        {
+         "en": "Discard the hypothesis, re-read the funnel for the biggest drop, and aim the interviews there",
+         "id": "Buang hipotesisnya, baca ulang corongnya untuk menemukan penurunan terbesar, dan arahkan wawancara ke sana"
+        },
+        {
+         "en": "Distrust the survey: the hypothesis came from the people who know the band best",
+         "id": "Jangan percaya surveinya: hipotesis itu datang dari orang-orang yang paling mengenal band itu"
+        },
+        {
+         "en": "Skip to step 4 and try harder",
+         "id": "Langsung loncat ke langkah 4 dan berusaha lebih keras"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A hypothesis exists to be killed by data. The funnel showed trial (10% of aware) was the leak, not awareness, so the interviews went to non-attendees and the plan changed.",
+        "id": "Hipotesis ada untuk dipatahkan oleh data. Corongnya menunjukkan bahwa kebocorannya ada di soal mencoba (10% dari yang tahu), bukan soal tahu, jadi wawancara diarahkan ke yang belum pernah datang dan rencananya berubah."
+       }
+      },
+      {
+       "q": {
+        "en": "Original version · Which row belongs in a problem-solving design plan?",
+        "id": "Versi awal · Baris mana yang layak masuk ke rencana rancangan pemecahan masalah?"
+       },
+       "options": [
+        {
+         "en": "Issue: members leave. Hypothesis: morale is low. Analysis: gather feedback.",
+         "id": "Isu: anggota keluar. Hipotesis: semangatnya rendah. Analisis: kumpulkan masukan."
+        },
+        {
+         "en": "Issue: at which week do new members stop attending? Hypothesis: week 3–4, after the first big task. Analysis: attendance sheets for the last two cohorts.",
+         "id": "Isu: di minggu ke berapa anggota baru berhenti datang? Hipotesis: minggu ke-3–4, setelah tugas besar pertama. Analisis: lembar absensi dua angkatan terakhir."
+        },
+        {
+         "en": "Issue: retention. Solution: a welcome party.",
+         "id": "Isu: anggota tidak bertahan. Solusi: pesta penyambutan."
+        },
+        {
+         "en": "Issue: everything. Hypothesis: none yet. Analysis: a survey of all members.",
+         "id": "Isu: semuanya. Hipotesis: belum ada. Analisis: survei ke semua anggota."
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A usable row has a specific issue, a hypothesis with a number or a moment attached, and an analysis that could contradict it. The others are vague, jump to a solution, or collect data with nothing to test.",
+        "id": "Baris yang bisa dipakai punya isu yang spesifik, hipotesis yang disertai angka atau momen tertentu, dan analisis yang bisa membantahnya. Pilihan lainnya samar, langsung melompat ke solusi, atau mengumpulkan data tanpa ada yang diuji."
+       }
       }
      ],
      "videos": [
@@ -11303,6 +11390,35 @@ window.MT_LMS['the-map'] = {
        "why": {
         "en": "Ask people who have done it, test the assumption your choice depends on, and look for the option nobody listed. One conversation often changes a score that a week of thinking alone could not.",
         "id": "Tanya orang yang sudah menjalaninya, uji asumsi yang menjadi sandaran pilihanmu, dan cari opsi yang tak ada di daftar. Satu percakapan sering mengubah nilai yang tak bisa diubah oleh seminggu berpikir sendirian."
+       }
+      },
+      {
+       "q": {
+        "en": "Original version · You have decided on Offer A after a week of thinking. Which move does Problem Solving 101 recommend before you accept?",
+        "id": "Versi awal · Kamu sudah memutuskan memilih Tawaran A setelah seminggu berpikir. Langkah apa yang disarankan Problem Solving 101 sebelum kamu menerimanya?"
+       },
+       "options": [
+        {
+         "en": "Accept immediately: thinking longer changes nothing",
+         "id": "Langsung terima: berpikir lebih lama tidak mengubah apa-apa"
+        },
+        {
+         "en": "Make a longer pros-and-cons list",
+         "id": "Buat daftar untung-rugi yang lebih panjang"
+        },
+        {
+         "en": "Contact someone who has held the role, and ask both employers one question that could change a high-weight score",
+         "id": "Hubungi orang yang pernah memegang peran itu, dan ajukan satu pertanyaan ke kedua pemberi kerja yang bisa mengubah nilai di baris berbobot tinggi"
+        },
+        {
+         "en": "Flip a coin to test your gut",
+         "id": "Lempar koin untuk menguji nalurimu"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Worry less, act more; ask people who have done it; look for the overlooked option. Two of the striker's three checks changed her decision; a week of thinking had changed nothing.",
+        "id": "Kurangi cemas, perbanyak bertindak; tanyakan kepada orang yang sudah pernah menjalaninya; cari opsi yang terlewat. Dua dari tiga pengecekan si penyerang mengubah keputusannya, sedangkan seminggu berpikir tidak mengubah apa-apa."
        }
       }
      ],
@@ -24799,6 +24915,31 @@ window.MT_LMS['the-map'] = {
         "en": "Reframe mistakes. Modelling admission makes it safer for everyone.",
         "id": "Maknai ulang kesalahan. Mencontohkan cara mengakui kesalahan membuat semua orang lebih aman."
        }
+      },
+      {
+       "q": {
+        "en": "Original version · Why does the lesson call AVEC “not-so-secret secrets”?",
+        "id": "Versi awal · Kenapa pelajaran ini menyebut AVEC \"rahasia yang tidak terlalu rahasia\"?"
+       },
+       "options": [
+        {
+         "en": "Because the four elements are obvious to agree with, and the strength comes from practising them regularly and with nuance",
+         "id": "Karena keempat unsurnya mudah disetujui, dan kekuatannya datang dari mempraktikkannya secara teratur dan dengan kepekaan"
+        },
+        {
+         "en": "Because they only work if the other person does not know you are using them",
+         "id": "Karena unsur-unsur itu hanya berhasil kalau orang lain tidak tahu kamu sedang memakainya"
+        },
+        {
+         "en": "Because they are a trade secret of professional coaches",
+         "id": "Karena unsur-unsur itu rahasia dagang para coach profesional"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Knowing the words changes nothing; the lesson's whole argument is that regularity and nuance in practice are what make connections genuinely strong.",
+        "id": "Tahu kata-katanya tidak mengubah apa-apa; seluruh argumen pelajaran ini adalah bahwa keteraturan dan kepekaan dalam praktiklah yang membuat hubungan benar-benar kuat."
+       }
       }
      ],
      "quote": {
@@ -28265,6 +28406,35 @@ window.MT_LMS['the-map'] = {
        "why": {
         "en": "The four moves start by separating the event from the story about it. Waiting for “back to normal” is the shrug in another form.",
         "id": "Empat langkah itu dimulai dengan memisahkan peristiwa dari cerita tentangnya. Menunggu semuanya “kembali normal” adalah angkat bahu dalam bentuk lain."
+       }
+      },
+      {
+       "q": {
+        "en": "Original version · Which reaction to AI best fits a realistic optimist?",
+        "id": "Versi awal · Reaksi mana terhadap AI yang paling cocok dengan seorang optimis yang realistis?"
+       },
+       "options": [
+        {
+         "en": "“AI will do everything, so I don't need to study”",
+         "id": "\"AI akan mengerjakan semuanya, jadi aku tidak perlu belajar\""
+        },
+        {
+         "en": "“AI is hype; it won't touch my field”",
+         "id": "\"AI cuma heboh sesaat; bidangku tidak akan tersentuh\""
+        },
+        {
+         "en": "“Some tasks in my target role are exposed; I'll test where AI helps, strengthen what it can't do, and get good at checking it”",
+         "id": "\"Sebagian tugas di peran yang kuincar terpapar AI; aku akan menguji di mana AI membantu, memperkuat apa yang tidak bisa dilakukannya, dan menjadi mahir memeriksa hasilnya\""
+        },
+        {
+         "en": "“There's nothing I can do”",
+         "id": "\"Tidak ada yang bisa kulakukan\""
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "It sees the risk and acts on it with evidence.",
+        "id": "Reaksi itu melihat risikonya dan menanggapinya dengan bukti."
        }
       }
      ],
